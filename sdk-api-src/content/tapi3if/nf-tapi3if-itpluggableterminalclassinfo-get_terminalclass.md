@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 7dfa6cf8-23b8-4959-ba39-6efda1d71562
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassInfo interface [TAPI 2.2],get_TerminalClass method, ITPluggableTerminalClassInfo.get_TerminalClass, ITPluggableTerminalClassInfo::get_TerminalClass, _tapi3_itpluggableterminalclassinfo_get_terminalclass, get_TerminalClass, get_TerminalClass method [TAPI 2.2], get_TerminalClass method [TAPI 2.2],ITPluggableTerminalClassInfo interface, tapi3.itpluggableterminalclassinfo_get_terminalclass, tapi3if/ITPluggableTerminalClassInfo::get_TerminalClass
-ms.topic: method
 f1_keywords:
 - tapi3if/ITPluggableTerminalClassInfo.get_TerminalClass
 dev_langs:

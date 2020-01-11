@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: e49e9be7-155a-4487-9931-035f18771c04
 ms.date: 12/05/2018
 ms.keywords: ID2D1RoundedRectangleGeometry, ID2D1RoundedRectangleGeometry interface [Direct2D], ID2D1RoundedRectangleGeometry interface [Direct2D],described, d2d1/ID2D1RoundedRectangleGeometry, direct2d.ID2D1RoundedRectangleGeometry
-ms.topic: interface
 f1_keywords:
 - d2d1/ID2D1RoundedRectangleGeometry
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 63bc378a-b0ef-44d2-834a-f9fc4ab71e99
 ms.date: 12/05/2018
 ms.keywords: IS_SPECIAL_DATAOBJECT, IS_SPECIAL_DATAOBJECT macro [MMC], _slate_is_special_dataobject, mmc.is_special_dataobject, mmc/IS_SPECIAL_DATAOBJECT
-ms.topic: macro
 f1_keywords:
 - mmc/IS_SPECIAL_DATAOBJECT
 dev_langs:

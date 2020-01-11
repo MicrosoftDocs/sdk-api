@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 61f1e99b-c375-4aa3-a11b-7e24c35f71ca
 ms.date: 12/05/2018
 ms.keywords: ISectionList interface [Microsoft TV Technologies],InitializeWithRawSections method, ISectionList.InitializeWithRawSections, ISectionList::InitializeWithRawSections, ISectionListInitializeWithRawSections, InitializeWithRawSections, InitializeWithRawSections method [Microsoft TV Technologies], InitializeWithRawSections method [Microsoft TV Technologies],ISectionList interface, mpeg2data/ISectionList::InitializeWithRawSections, mstv.isectionlist_initializewithrawsections
-ms.topic: method
 f1_keywords:
 - mpeg2data/ISectionList.InitializeWithRawSections
 dev_langs:

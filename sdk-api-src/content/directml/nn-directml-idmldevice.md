@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: C6E13DEF-1FE1-416E-9917-ECE20FBCA401
 ms.date: 12/5/2018
 ms.keywords: IDMLDevice, IDMLDevice interface, IDMLDevice interface,described, direct3d12.idmldevice, directml/IDMLDevice
-ms.topic: interface
 f1_keywords:
 - directml/IDMLDevice
 dev_langs:

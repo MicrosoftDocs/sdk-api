@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 60b38d08-5869-442f-845b-b3d8667d069f
 ms.date: 12/05/2018
 ms.keywords: '*PDEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR structure [Files], PDEVICE_TRIM_DESCRIPTOR, PDEVICE_TRIM_DESCRIPTOR structure pointer [Files], fs.device_trim_descriptor, winioctl/DEVICE_TRIM_DESCRIPTOR, winioctl/PDEVICE_TRIM_DESCRIPTOR'
-ms.topic: struct
 f1_keywords:
 - winioctl/DEVICE_TRIM_DESCRIPTOR
 dev_langs:

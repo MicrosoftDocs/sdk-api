@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 3924230d-ff10-43ac-981c-81273bce6896
 ms.date: 12/05/2018
 ms.keywords: '*PIP_OPTION_INFORMATION32, IP_FLAG_DF, IP_FLAG_REVERSE, IP_OPTION_INFORMATION32, IP_OPTION_INFORMATION32 structure [IP Helper], PIP_OPTION_INFORMATION32, PIP_OPTION_INFORMATION32 structure pointer [IP Helper], ipexport/IP_OPTION_INFORMATION32, ipexport/PIP_OPTION_INFORMATION32, iphlp.ip_option_information32'
-ms.topic: struct
 f1_keywords:
 - ipexport/IP_OPTION_INFORMATION32
 dev_langs:

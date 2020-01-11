@@ -7,7 +7,6 @@ tech.root: WNet
 ms.assetid: 641b37f1-9cea-4c7a-9b42-b4bd28c747ad
 ms.date: 12/05/2018
 ms.keywords: WNetRestoreConnectionW, WNetRestoreConnectionW function [Windows Networking (WNet)], winnetwk/WNetRestoreConnectionW, wnet.wnetrestoreconnectionw
-ms.topic: function
 f1_keywords:
 - winnetwk/WNetRestoreConnectionW
 dev_langs:

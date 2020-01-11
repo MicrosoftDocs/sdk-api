@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: dcb7ceb8-d794-4b7a-97ed-d7fc2002d7d7
 ms.date: 12/05/2018
 ms.keywords: CreateProxyFactoryEntry, CreateProxyFactoryEntry method [Windows Accessibility], CreateProxyFactoryEntry method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateProxyFactoryEntry method, IUIAutomation.CreateProxyFactoryEntry, IUIAutomation::CreateProxyFactoryEntry, uiauto.uiauto_IUIAutomation_CreateProxyFactoryEntry, uiauto_IUIAutomation_CreateProxyFactoryEntry, uiautomationclient/IUIAutomation::CreateProxyFactoryEntry, winauto.uiauto_IUIAutomation_CreateProxyFactoryEntry
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation.CreateProxyFactoryEntry
 dev_langs:

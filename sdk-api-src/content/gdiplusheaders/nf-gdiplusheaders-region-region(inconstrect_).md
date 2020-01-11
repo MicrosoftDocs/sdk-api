@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_16rectamprect.htm
 ms.date: 12/05/2018
 ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(IN const Rect &), Region.Region(const Rect&), Region::Region, Region::Region(IN const Rect &), _gdiplus_CLASS_Region_Region_Rect_rect_, gdiplus._gdiplus_CLASS_Region_Region_Rect_rect_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Region.Region
 dev_langs:

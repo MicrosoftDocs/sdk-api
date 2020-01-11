@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 410c5d1c-d4e6-460a-b17d-54bfcee10a66
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Height method, IMSVidRect.put_Height, IMSVidRect::put_Height, IMSVidRectput_Height, mstv.imsvidrect_put_height, put_Height, put_Height method [Microsoft TV Technologies], put_Height method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Height
-ms.topic: method
 f1_keywords:
 - segment/IMSVidRect.put_Height
 dev_langs:

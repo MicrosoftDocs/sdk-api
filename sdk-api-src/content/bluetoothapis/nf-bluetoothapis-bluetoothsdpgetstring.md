@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 26a68fe3-6ffb-44ff-b9db-757d35022a41
 ms.date: 12/05/2018
 ms.keywords: BluetoothSdpGetString, BluetoothSdpGetString function [Bluetooth], bluetooth.bluetoothsdpgetstring, bluetoothapis/BluetoothSdpGetString
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothSdpGetString
 dev_langs:

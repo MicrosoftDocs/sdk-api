@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 08e61ddb-15d5-40e3-9e37-7c45d1f18b4a
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbEventGroupDescriptor interface, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbEventGroupDescriptor.GetLength, IIsdbEventGroupDescriptor::GetLength, dvbsiparser/IIsdbEventGroupDescriptor::GetLength, mstv.iisdbeventgroupdescriptor_getlength
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbEventGroupDescriptor.GetLength
 dev_langs:

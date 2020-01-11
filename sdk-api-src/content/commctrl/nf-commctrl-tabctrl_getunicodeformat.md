@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getunicodeformat.htm
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_GetUnicodeFormat, TabCtrl_GetUnicodeFormat macro [Windows Controls], _win32_TabCtrl_GetUnicodeFormat, _win32_TabCtrl_GetUnicodeFormat_cpp, commctrl/TabCtrl_GetUnicodeFormat, controls.TabCtrl_GetUnicodeFormat, controls._win32_TabCtrl_GetUnicodeFormat
-ms.topic: macro
 f1_keywords:
 - commctrl/TabCtrl_GetUnicodeFormat
 dev_langs:

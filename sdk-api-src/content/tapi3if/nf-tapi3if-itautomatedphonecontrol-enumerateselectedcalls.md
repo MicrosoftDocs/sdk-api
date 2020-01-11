@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 534d453c-f47c-48e1-af59-bfa452e2d8d8
 ms.date: 12/05/2018
 ms.keywords: EnumerateSelectedCalls, EnumerateSelectedCalls method [TAPI 2.2], EnumerateSelectedCalls method [TAPI 2.2],ITAutomatedPhoneControl interface, ITAutomatedPhoneControl interface [TAPI 2.2],EnumerateSelectedCalls method, ITAutomatedPhoneControl.EnumerateSelectedCalls, ITAutomatedPhoneControl::EnumerateSelectedCalls, _tapi3_itautomatedphonecontrol_enumerateselectedcalls, tapi3.itautomatedphonecontrol_enumerateselectedcalls, tapi3if/ITAutomatedPhoneControl::EnumerateSelectedCalls
-ms.topic: method
 f1_keywords:
 - tapi3if/ITAutomatedPhoneControl.EnumerateSelectedCalls
 dev_langs:

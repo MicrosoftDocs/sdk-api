@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: c9cd5cc8-f65f-43de-9dd4-c617b56ecadf
 ms.date: 12/05/2018
 ms.keywords: ITypeLib interface [Automation],IsName method, ITypeLib.IsName, ITypeLib::IsName, IsName, IsName method [Automation], IsName method [Automation],ITypeLib interface, _oa96_ITypeLib_IsName, automat.itypelib_isname, oaidl/ITypeLib::IsName
-ms.topic: method
 f1_keywords:
 - oaidl/ITypeLib.IsName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: fd2606ed-ec61-430a-aaad-38a4c3a207b6
 ms.date: 12/05/2018
 ms.keywords: '*PIFIMETRICS, IFIMETRICS, IFIMETRICS structure [Display Devices], PIFIMETRICS, PIFIMETRICS structure pointer [Display Devices], display.ifimetrics, grstrcts_85d0a649-0d14-4b17-ab47-c35d61ce507e.xml, winddi/IFIMETRICS, winddi/PIFIMETRICS'
-ms.topic: struct
 f1_keywords:
 - winddi/IFIMETRICS
 dev_langs:

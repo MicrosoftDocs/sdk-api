@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 59d3764d-e560-4474-a73e-ab50bbddbf07
 ms.date: 12/05/2018
 ms.keywords: GetTeredoPort, GetTeredoPort function [IP Helper], iphlp.getteredoport, netioapi/GetTeredoPort
-ms.topic: function
 f1_keywords:
 - netioapi/GetTeredoPort
 dev_langs:

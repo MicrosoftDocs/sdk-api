@@ -5,7 +5,6 @@ description: Gets the D3D12_VIDEO_DECODER_DESC structure that was passed into ID
 tech.root: mf
 ms.assetid: 235bcf2c-52b6-4390-821e-10d1e2d78bb6
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoDecoder::GetDesc
 dev_langs:

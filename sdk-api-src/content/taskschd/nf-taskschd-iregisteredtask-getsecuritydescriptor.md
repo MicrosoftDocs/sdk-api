@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 474d62a5-9ec7-40f7-b26e-54923f8ebe1e
 ms.date: 12/05/2018
 ms.keywords: GetSecurityDescriptor, GetSecurityDescriptor method [Task Scheduler], GetSecurityDescriptor method [Task Scheduler],IRegisteredTask interface, IRegisteredTask interface [Task Scheduler],GetSecurityDescriptor method, IRegisteredTask.GetSecurityDescriptor, IRegisteredTask::GetSecurityDescriptor, taskschd.iregisteredtask_getsecuritydescriptor, taskschd/IRegisteredTask::GetSecurityDescriptor
-ms.topic: method
 f1_keywords:
 - taskschd/IRegisteredTask.GetSecurityDescriptor
 dev_langs:

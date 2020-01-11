@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 0da3728d-c2b8-4998-bdc4-50642af9e416
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],SetLocalTickCount method, ISyncKnowledge.SetLocalTickCount, ISyncKnowledge::SetLocalTickCount, SetLocalTickCount, SetLocalTickCount method [Windows Sync], SetLocalTickCount method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_setlocaltickcount, winsync/ISyncKnowledge::SetLocalTickCount
-ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge.SetLocalTickCount
 dev_langs:

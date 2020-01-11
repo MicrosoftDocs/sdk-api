@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 4035119b-2688-4326-8d08-825d53c3d8e2
 ms.date: 12/05/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GPMGPO class [GPMC],GetSecurityDescriptor method, GROUP_SECURITY_INFORMATION, GetSecurityDescriptor, GetSecurityDescriptor method [GPMC], GetSecurityDescriptor method [GPMC],GPMGPO class, GetSecurityDescriptor method [GPMC],IGPMGPO interface, IGPMGPO interface [GPMC],GetSecurityDescriptor method, IGPMGPO.GetSecurityDescriptor, IGPMGPO::GetSecurityDescriptor, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, _win32_igpmgpo_getsecuritydescriptor, gpmc.igpmgpo_getsecuritydescriptor, gpmgmt/IGPMGPO::GetSecurityDescriptor
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPMGPO.GetSecurityDescriptor
 dev_langs:

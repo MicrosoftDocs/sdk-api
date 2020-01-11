@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: 
 ms.date: 05/13/2019
 ms.keywords: XMINT4, XMINT4 constructor [DirectX Math Support APIs], XMINT4 constructor [DirectX Math Support APIs],XMINT4 structure, XMINT4 structure [DirectX Math Support APIs],XMINT4 constructor, XMINT4.XMINT4, XMINT4.XMINT4(), XMINT4.XMINT4(XMINT4 &&), XMINT4::XMINT4, XMINT4::XMINT4(XMINT4 &&), dxmath.xmint4_ctor_1
-ms.topic: method
 f1_keywords:
 - directxmath/XMINT4.XMINT4
 dev_langs:

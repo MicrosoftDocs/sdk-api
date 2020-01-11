@@ -7,7 +7,6 @@ tech.root: Kernel
 ms.assetid: EB68E76F-F838-40B7-AD23-5897321F354F
 ms.date: 12/05/2018
 ms.keywords: NtCurrentTeb, NtCurrentTeb routine [Kernel-Mode Driver Architecture], kernel.ntcurrentteb, winnt/NtCurrentTeb
-ms.topic: function
 f1_keywords:
 - winnt/NtCurrentTeb
 dev_langs:

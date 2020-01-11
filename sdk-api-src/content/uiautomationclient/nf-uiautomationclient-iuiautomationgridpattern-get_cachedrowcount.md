@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 783e48e4-c554-4bc9-bf36-3fcc35d00d22
 ms.date: 12/05/2018
 ms.keywords: CachedRowCount property [Windows Accessibility], CachedRowCount property [Windows Accessibility],IUIAutomationGridPattern interface, IUIAutomationGridPattern interface [Windows Accessibility],CachedRowCount property, IUIAutomationGridPattern.CachedRowCount, IUIAutomationGridPattern.get_CachedRowCount, IUIAutomationGridPattern::CachedRowCount, IUIAutomationGridPattern::get_CachedRowCount, get_CachedRowCount, uiauto.uiauto_IUIAutomationGridPattern_CachedRowCount, uiauto_IUIAutomationGridPattern_CachedRowCount, uiautomationclient/IUIAutomationGridPattern::CachedRowCount, uiautomationclient/IUIAutomationGridPattern::get_CachedRowCount, winauto.uiauto_IUIAutomationGridPattern_CachedRowCount
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationGridPattern.CachedRowCount
 dev_langs:

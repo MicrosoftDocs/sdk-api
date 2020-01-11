@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 9bf2803f-7a6c-4574-80d2-4069f5b81057
 ms.date: 12/05/2018
 ms.keywords: GetRecordInfoFromTypeInfo, GetRecordInfoFromTypeInfo function [Automation], _oa96_GetRecordInfoFromTypeInfo, automat.getrecordinfofromtypeinfo, oleauto/GetRecordInfoFromTypeInfo
-ms.topic: function
 f1_keywords:
 - oleauto/GetRecordInfoFromTypeInfo
 dev_langs:

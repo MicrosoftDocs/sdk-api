@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: cab1b4d6-c18b-4740-b4a4-61e70ea181d9
 ms.date: 12/05/2018
 ms.keywords: WsWriteType, WsWriteType function [Web Services for Windows], webservices/WsWriteType, wsw.wswritetype
-ms.topic: function
 f1_keywords:
 - webservices/WsWriteType
 dev_langs:

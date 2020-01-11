@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 6f9c9d65-73aa-40e9-bd04-d4d5d4370201
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],OpenApplicationGroup method, IAzApplication interface [Security],OpenApplicationGroup method, IAzApplication.OpenApplicationGroup, IAzApplication::OpenApplicationGroup, OpenApplicationGroup, OpenApplicationGroup method [Security], OpenApplicationGroup method [Security],AzApplication object, OpenApplicationGroup method [Security],IAzApplication interface, azroles/IAzApplication::OpenApplicationGroup, security.iazapplication_openapplicationgroup
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplication.OpenApplicationGroup
 dev_langs:

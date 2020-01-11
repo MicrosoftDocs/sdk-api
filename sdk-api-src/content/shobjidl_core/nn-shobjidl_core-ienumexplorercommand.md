@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c9a21e84-dd95-413a-b9db-e02008185bef
 ms.date: 12/05/2018
 ms.keywords: IEnumExplorerCommand, IEnumExplorerCommand interface [Windows Shell], IEnumExplorerCommand interface [Windows Shell],described, _shell_IEnumExplorerCommand, shell.IEnumExplorerCommand, shobjidl_core/IEnumExplorerCommand
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IEnumExplorerCommand
 dev_langs:

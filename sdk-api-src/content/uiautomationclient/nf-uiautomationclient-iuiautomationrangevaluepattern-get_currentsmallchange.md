@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 88de76d5-100c-41b9-b87e-2d1c3bf6e633
 ms.date: 12/05/2018
 ms.keywords: CurrentSmallChange property [Windows Accessibility], CurrentSmallChange property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CurrentSmallChange property, IUIAutomationRangeValuePattern.CurrentSmallChange, IUIAutomationRangeValuePattern.get_CurrentSmallChange, IUIAutomationRangeValuePattern::CurrentSmallChange, IUIAutomationRangeValuePattern::get_CurrentSmallChange, get_CurrentSmallChange, uiauto.uiauto_IUIAutomationRangeValuePattern_CurrentSmallChange, uiauto_IUIAutomationRangeValuePattern_CurrentSmallChange, uiautomationclient/IUIAutomationRangeValuePattern::CurrentSmallChange, uiautomationclient/IUIAutomationRangeValuePattern::get_CurrentSmallChange, winauto.uiauto_IUIAutomationRangeValuePattern_CurrentSmallChange
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationRangeValuePattern.CurrentSmallChange
 dev_langs:

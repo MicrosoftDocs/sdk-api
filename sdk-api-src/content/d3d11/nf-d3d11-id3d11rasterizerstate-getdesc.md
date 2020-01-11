@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: cc6bbdd2-af9c-45be-a13a-5f9105f08c99
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11RasterizerState interface, ID3D11RasterizerState interface [Direct3D 11],GetDesc method, ID3D11RasterizerState.GetDesc, ID3D11RasterizerState::GetDesc, ce48f8a7-2b79-44f8-93db-80cad9b1ca3b, d3d11/ID3D11RasterizerState::GetDesc, direct3d11.id3d11rasterizerstate_getdesc
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11RasterizerState.GetDesc
 dev_langs:

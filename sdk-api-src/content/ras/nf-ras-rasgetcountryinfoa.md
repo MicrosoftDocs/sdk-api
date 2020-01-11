@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 87a4ae40-6750-46cf-89c2-c229de5a585d
 ms.date: 12/05/2018
 ms.keywords: RasGetCountryInfo, RasGetCountryInfo function [RAS], RasGetCountryInfoA, RasGetCountryInfoW, _ras_rasgetcountryinfo, ras/RasGetCountryInfo, ras/RasGetCountryInfoA, ras/RasGetCountryInfoW, rras.rasgetcountryinfo
-ms.topic: function
 f1_keywords:
 - ras/RasGetCountryInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 76bee5db-0443-4673-a59c-0198587736dc
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWROW interface [Security],Reset method, IEnumCERTVIEWROW object [Security],Reset method, IEnumCERTVIEWROW.Reset, IEnumCERTVIEWROW::Reset, Reset, Reset method [Security], Reset method [Security],IEnumCERTVIEWROW interface, Reset method [Security],IEnumCERTVIEWROW object, _certsrv_ienumcertviewrow_reset, certview/IEnumCERTVIEWROW::Reset, security.ienumcertviewrow_reset
-ms.topic: method
 f1_keywords:
 - certview/IEnumCERTVIEWROW.Reset
 dev_langs:

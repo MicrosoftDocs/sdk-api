@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 685a87dc-36e9-464a-988e-de907d2dae41
 ms.date: 12/05/2018
 ms.keywords: CryptXmlGetStatus, CryptXmlGetStatus function [Security], cryptxml/CryptXmlGetStatus, security.cryptxmlgetstatus
-ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlGetStatus
 dev_langs:

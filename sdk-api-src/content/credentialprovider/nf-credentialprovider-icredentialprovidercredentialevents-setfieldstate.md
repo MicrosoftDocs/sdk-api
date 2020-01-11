@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d3498bca-cc31-4a80-9f31-e1e6d020d777
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldState method, ICredentialProviderCredentialEvents.SetFieldState, ICredentialProviderCredentialEvents::SetFieldState, SetFieldState, SetFieldState method [Windows Shell], SetFieldState method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldState, credentialprovider/ICredentialProviderCredentialEvents::SetFieldState, shell.ICredentialProviderCredentialEvents_SetFieldState
-ms.topic: method
 f1_keywords:
 - credentialprovider/ICredentialProviderCredentialEvents.SetFieldState
 dev_langs:

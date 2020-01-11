@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: c520e649-86f9-4c4a-bb67-22d75aa3c8b0
 ms.date: 12/05/2018
 ms.keywords: '*LPDDCOLORKEY, DDCOLORKEY, DDCOLORKEY structure [DirectDraw], LPDDCOLORKEY, LPDDCOLORKEY structure pointer [DirectDraw], ddraw/DDCOLORKEY, ddraw/LPDDCOLORKEY, directdraw.ddcolorkey'
-ms.topic: struct
 f1_keywords:
 - ddraw/DDCOLORKEY
 dev_langs:

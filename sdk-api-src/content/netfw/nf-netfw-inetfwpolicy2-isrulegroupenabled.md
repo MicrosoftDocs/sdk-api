@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: b6f27763-6ceb-4bc3-be6f-f02908dc0387
 ms.date: 12/05/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],IsRuleGroupEnabled method, INetFwPolicy2.IsRuleGroupEnabled, INetFwPolicy2::IsRuleGroupEnabled, IsRuleGroupEnabled, IsRuleGroupEnabled method [ICS/ICF], IsRuleGroupEnabled method [ICS/ICF],INetFwPolicy2 interface, ics.inetfwpolicy2_isrulegroupenabled, netfw/INetFwPolicy2::IsRuleGroupEnabled
-ms.topic: method
 f1_keywords:
 - netfw/INetFwPolicy2.IsRuleGroupEnabled
 dev_langs:

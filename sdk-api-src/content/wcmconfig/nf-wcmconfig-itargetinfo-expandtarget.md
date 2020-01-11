@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: c9c757f4-ad71-42d7-864a-26f3d1e8000b
 ms.date: 12/05/2018
 ms.keywords: ExpandTarget, ExpandTarget method [SMI], ExpandTarget method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],ExpandTarget method, ITargetInfo.ExpandTarget, ITargetInfo::ExpandTarget, smi.itargetinfo_expandtarget, wcmconfig/ITargetInfo::ExpandTarget
-ms.topic: method
 f1_keywords:
 - wcmconfig/ITargetInfo.ExpandTarget
 dev_langs:

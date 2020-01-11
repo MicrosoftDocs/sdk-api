@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: c802baa8-2f11-46e1-948c-f63c40e94266
 ms.date: 12/05/2018
 ms.keywords: '*PEMRPLGBLT, EMRPLGBLT, EMRPLGBLT structure [Windows GDI], PEMRPLGBLT, PEMRPLGBLT structure pointer [Windows GDI], _win32_EMRPLGBLT_str, gdi.emrplgblt, wingdi/EMRPLGBLT, wingdi/PEMRPLGBLT'
-ms.topic: struct
 f1_keywords:
 - wingdi/EMRPLGBLT
 dev_langs:

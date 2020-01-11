@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 089e44c8-6a27-410d-aad5-08816bd4f915
 ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig9, IVMRFilterConfig9 interface [DirectShow], IVMRFilterConfig9 interface [DirectShow],described, IVMRFilterConfig9Interface, dshow.ivmrfilterconfig9, vmr9/IVMRFilterConfig9
-ms.topic: interface
 f1_keywords:
 - vmr9/IVMRFilterConfig9
 dev_langs:

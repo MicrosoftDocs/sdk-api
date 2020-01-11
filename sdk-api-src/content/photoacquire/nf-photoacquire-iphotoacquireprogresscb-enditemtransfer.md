@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: 8d2c0773-cb0b-4cc3-b61f-9ad4153bcf96
 ms.date: 12/05/2018
 ms.keywords: EndItemTransfer, EndItemTransfer method [Picture Acquisition], EndItemTransfer method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndItemTransfer method, IPhotoAcquireProgressCB.EndItemTransfer, IPhotoAcquireProgressCB::EndItemTransfer, IPhotoAcquireProgressCBEndItemTransfer, photoacquire/IPhotoAcquireProgressCB::EndItemTransfer, picacq.iphotoacquireprogresscb_enditemtransfer
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoAcquireProgressCB.EndItemTransfer
 dev_langs:

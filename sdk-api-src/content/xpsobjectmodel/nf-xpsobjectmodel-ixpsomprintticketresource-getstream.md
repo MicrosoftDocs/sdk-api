@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 0783cdda-84c6-4441-accf-10fc2610199b
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMPrintTicketResource interface, IXpsOMPrintTicketResource interface [XPS Documents and Packaging],GetStream method, IXpsOMPrintTicketResource.GetStream, IXpsOMPrintTicketResource::GetStream, xps.ixpsomprintticketresource_getstream, xpsobjectmodel/IXpsOMPrintTicketResource::GetStream
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPrintTicketResource.GetStream
 dev_langs:

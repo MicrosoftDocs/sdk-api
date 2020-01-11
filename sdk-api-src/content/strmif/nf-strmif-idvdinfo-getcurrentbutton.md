@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 13df79ea-81c9-4060-8e11-ad7a24a7b5fa
 ms.date: 12/05/2018
 ms.keywords: GetCurrentButton, GetCurrentButton method [DirectShow], GetCurrentButton method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentButton method, IDvdInfo.GetCurrentButton, IDvdInfo::GetCurrentButton, IDvdInfoGetCurrentButton, dshow.idvdinfo_getcurrentbutton, strmif/IDvdInfo::GetCurrentButton
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo.GetCurrentButton
 dev_langs:

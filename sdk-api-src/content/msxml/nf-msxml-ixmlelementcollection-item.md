@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 3851fe72-b826-4948-ba74-638229429345
 ms.date: 12/05/2018
 ms.keywords: IXMLElementCollection interface [Windows API],item method, IXMLElementCollection.item, IXMLElementCollection::item, item, item method [Windows API], item method [Windows API],IXMLElementCollection interface, msxml/IXMLElementCollection::item, winprog.ixmlelementcollection_item
-ms.topic: method
 f1_keywords:
 - msxml/IXMLElementCollection.item
 dev_langs:

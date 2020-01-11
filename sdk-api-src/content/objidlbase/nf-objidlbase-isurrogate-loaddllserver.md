@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 18727dee-392d-4f88-b1de-35da8a5887b6
 ms.date: 12/05/2018
 ms.keywords: ISurrogate interface [COM],LoadDllServer method, ISurrogate.LoadDllServer, ISurrogate::LoadDllServer, LoadDllServer, LoadDllServer method [COM], LoadDllServer method [COM],ISurrogate interface, _com_isurrogate_loaddllserver, com.isurrogate_loaddllserver, objidlbase/ISurrogate::LoadDllServer
-ms.topic: method
 f1_keywords:
 - objidlbase/ISurrogate.LoadDllServer
 dev_langs:

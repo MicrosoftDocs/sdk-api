@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 99ce5d45-c2ff-45be-8eb4-e1a57bbfa2fc
 ms.date: 12/05/2018
 ms.keywords: ICertificatePolicies interface [Security],_NewEnum property, ICertificatePolicies._NewEnum, ICertificatePolicies.get__NewEnum, ICertificatePolicies::_NewEnum, ICertificatePolicies::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICertificatePolicies interface, certenroll/ICertificatePolicies::_NewEnum, certenroll/ICertificatePolicies::get__NewEnum, get__NewEnum, security.icertificatepolicies__newenum_property
-ms.topic: method
 f1_keywords:
 - certenroll/ICertificatePolicies._NewEnum
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 455d087d-a6f5-45ab-9c0d-c46e721cba6e
 ms.date: 12/05/2018
 ms.keywords: IStreamPseudoRandomBased interface [IMAPI],put_Seed method, IStreamPseudoRandomBased.put_Seed, IStreamPseudoRandomBased::put_Seed, imapi.istreampseudorandombased_put_seed, imapi2/IStreamPseudoRandomBased::put_Seed, put_Seed, put_Seed method [IMAPI], put_Seed method [IMAPI],IStreamPseudoRandomBased interface
-ms.topic: method
 f1_keywords:
 - imapi2/IStreamPseudoRandomBased.put_Seed
 dev_langs:

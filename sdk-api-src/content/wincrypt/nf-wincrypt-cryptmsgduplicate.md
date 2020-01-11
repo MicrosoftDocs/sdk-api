@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 9b1142b9-0caa-4304-bfe6-1c27c6a7b782
 ms.date: 12/05/2018
 ms.keywords: CryptMsgDuplicate, CryptMsgDuplicate function [Security], _crypto2_cryptmsgduplicate, security.cryptmsgduplicate, wincrypt/CryptMsgDuplicate
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptMsgDuplicate
 dev_langs:

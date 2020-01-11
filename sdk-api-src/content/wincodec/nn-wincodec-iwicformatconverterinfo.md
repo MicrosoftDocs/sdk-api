@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: e6e2bade-66c1-4994-89b9-68aa038bdc8c
 ms.date: 12/05/2018
 ms.keywords: IWICFormatConverterInfo, IWICFormatConverterInfo interface [Windows Imaging Component], IWICFormatConverterInfo interface [Windows Imaging Component],described, _wic_codec_iwicformatconverterinfo, wic._wic_codec_iwicformatconverterinfo, wincodec/IWICFormatConverterInfo
-ms.topic: interface
 f1_keywords:
 - wincodec/IWICFormatConverterInfo
 dev_langs:

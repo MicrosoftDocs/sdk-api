@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: a7dea268-87d7-4e6d-9618-089036d52699
 ms.date: 12/05/2018
 ms.keywords: GetStatistics, GetStatistics method [Windows Sync], GetStatistics method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetStatistics method, ISyncKnowledge2.GetStatistics, ISyncKnowledge2::GetStatistics, winsync.isyncknowledge2_getstatistics, winsync/ISyncKnowledge2::GetStatistics
-ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge2.GetStatistics
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 7d5c459e-e1f2-470b-8568-e6847acba63a
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimerEventHandler, IUIAnimationTimerEventHandler interface [Windows Animation], IUIAnimationTimerEventHandler interface [Windows Animation],described, uianimation.iuianimationtimereventhandler, uianimation/IUIAnimationTimerEventHandler
-ms.topic: interface
 f1_keywords:
 - uianimation/IUIAnimationTimerEventHandler
 dev_langs:

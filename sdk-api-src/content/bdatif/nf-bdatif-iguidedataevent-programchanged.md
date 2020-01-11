@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 06fcf24b-5d35-4689-9c88-240fe18a46de
 ms.date: 12/05/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ProgramChanged method, IGuideDataEvent.ProgramChanged, IGuideDataEvent::ProgramChanged, IGuideDataEventProgramChanged, ProgramChanged, ProgramChanged method [Microsoft TV Technologies], ProgramChanged method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ProgramChanged, mstv.iguidedataevent_programchanged
-ms.topic: method
 f1_keywords:
 - bdatif/IGuideDataEvent.ProgramChanged
 dev_langs:

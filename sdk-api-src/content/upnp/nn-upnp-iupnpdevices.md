@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 237715dc-2b5a-45b4-b006-d31c0b4e89e3
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevices, IUPnPDevices interface [UPnP APIs], IUPnPDevices interface [UPnP APIs],described, _upnp_iupnpdevices, upnp.iupnpdevices, upnp/IUPnPDevices
-ms.topic: interface
 f1_keywords:
 - upnp/IUPnPDevices
 dev_langs:

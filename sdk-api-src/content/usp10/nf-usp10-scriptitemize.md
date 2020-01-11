@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 1491d9c5-e86b-45cc-bb47-85c8619eab69
 ms.date: 12/05/2018
 ms.keywords: ScriptItemize, ScriptItemize function [Internationalization for Windows Applications], _win32_ScriptItemize, intl.scriptitemize, usp10/ScriptItemize
-ms.topic: function
 f1_keywords:
 - usp10/ScriptItemize
 dev_langs:

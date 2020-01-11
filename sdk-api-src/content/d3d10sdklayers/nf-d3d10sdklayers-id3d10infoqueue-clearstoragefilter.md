@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_clearstoragefilter.htm
 ms.date: 12/05/2018
 ms.keywords: 9eb707cf-51c3-dbd6-f4f6-2ca5f514ff3e, ClearStorageFilter, ClearStorageFilter method [Direct3D 10], ClearStorageFilter method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],ClearStorageFilter method, ID3D10InfoQueue.ClearStorageFilter, ID3D10InfoQueue::ClearStorageFilter, d3d10sdklayers/ID3D10InfoQueue::ClearStorageFilter, direct3d10.id3d10infoqueue_clearstoragefilter
-ms.topic: method
 f1_keywords:
 - d3d10sdklayers/ID3D10InfoQueue.ClearStorageFilter
 dev_langs:

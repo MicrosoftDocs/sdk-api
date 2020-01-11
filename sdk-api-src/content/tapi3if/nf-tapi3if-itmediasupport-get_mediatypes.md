@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 8fc3d82e-6d6f-4442-9232-87f8d7605870
 ms.date: 12/05/2018
 ms.keywords: ITMediaSupport interface [TAPI 2.2],get_MediaTypes method, ITMediaSupport.get_MediaTypes, ITMediaSupport::get_MediaTypes, _tapi3_itmediasupport_get_mediatypes, get_MediaTypes, get_MediaTypes method [TAPI 2.2], get_MediaTypes method [TAPI 2.2],ITMediaSupport interface, tapi3.itmediasupport_get_mediatypes, tapi3if/ITMediaSupport::get_MediaTypes
-ms.topic: method
 f1_keywords:
 - tapi3if/ITMediaSupport.get_MediaTypes
 dev_langs:

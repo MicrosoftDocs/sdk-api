@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\search_query_syntax.htm
 ms.date: 12/05/2018
 ms.keywords: SEARCH_ADVANCED_QUERY_SYNTAX, SEARCH_NATURAL_QUERY_SYNTAX, SEARCH_NO_QUERY_SYNTAX, SEARCH_QUERY_SYNTAX, SEARCH_QUERY_SYNTAX enumeration [search], _search_SEARCH_QUERY_SYNTAX, search._search_SEARCH_QUERY_SYNTAX, searchapi/SEARCH_ADVANCED_QUERY_SYNTAX, searchapi/SEARCH_NATURAL_QUERY_SYNTAX, searchapi/SEARCH_NO_QUERY_SYNTAX, searchapi/SEARCH_QUERY_SYNTAX
-ms.topic: enum
 f1_keywords:
 - searchapi/SEARCH_QUERY_SYNTAX
 dev_langs:

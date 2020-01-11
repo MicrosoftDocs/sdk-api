@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 5c7c578d-7200-4807-b89b-5bc39ee83e45
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerEnumDevices, TSPI_providerEnumDevices function [TAPI 2.2], _tspi_tspi_providerenumdevices, tspi.tspi_providerenumdevices, tspi/TSPI_providerEnumDevices
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_providerEnumDevices
 dev_langs:

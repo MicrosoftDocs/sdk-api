@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: b99d756c-01fd-4bde-a64b-c908626e9190
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionMSApplicationPolicies interface [Security],InitializeDecode method, IX509ExtensionMSApplicationPolicies.InitializeDecode, IX509ExtensionMSApplicationPolicies::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionMSApplicationPolicies interface, certenroll/IX509ExtensionMSApplicationPolicies::InitializeDecode, security.ix509extensionmsapplicationpolicies_initializedecode_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509ExtensionMSApplicationPolicies.InitializeDecode
 dev_langs:

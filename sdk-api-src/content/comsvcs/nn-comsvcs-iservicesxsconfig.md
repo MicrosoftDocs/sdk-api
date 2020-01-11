@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 24d4a22b-0a01-4bf2-9cc6-4a1b31897d05
 ms.date: 12/05/2018
 ms.keywords: IServiceSxSConfig, IServiceSxSConfig interface [COM+], IServiceSxSConfig interface [COM+],described, _cos_IServiceSxsConfig, comsvcs/IServiceSxSConfig, cos.iservicesxsconfig
-ms.topic: interface
 f1_keywords:
 - comsvcs/IServiceSxSConfig
 dev_langs:

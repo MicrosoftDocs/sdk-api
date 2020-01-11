@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: fce80bac-2a44-46e7-a87a-ef93f4599807
 ms.date: 12/05/2018
 ms.keywords: WinHelp, WinHelp function [Windows Shell], WinHelpA, WinHelpW, _win32_WinHelp, shell.WinHelp, winuser/WinHelp, winuser/WinHelpA, winuser/WinHelpW
-ms.topic: function
 f1_keywords:
 - winuser/WinHelp
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c56a2061-903a-4777-a3fc-bb1fae1f8c43
 ms.date: 12/05/2018
 ms.keywords: '*LPCOMPONENTSOPT, COMPONENTSOPT, COMPONENTSOPT structure [Windows Shell], _tagCOMPONENTSOPT, _win32_COMPONENTSOPT, shell.COMPONENTSOPT, shlobj_core/COMPONENTSOPT'
-ms.topic: struct
 f1_keywords:
 - shlobj_core/COMPONENTSOPT
 dev_langs:

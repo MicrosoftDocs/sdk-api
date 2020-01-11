@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 31c8cdc4-73c7-4e82-8226-c90320046199
 ms.date: 12/05/2018
 ms.keywords: FreeMibTable, FreeMibTable function [IP Helper], iphlp.freemibtable, netioapi/FreeMibTable
-ms.topic: function
 f1_keywords:
 - netioapi/FreeMibTable
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice
 ms.date: 12/05/2018
 ms.keywords: IXAudio2SourceVoice, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs], IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],described, xaudio2.ixaudio2sourcevoice, xaudio2/IXAudio2SourceVoice
-ms.topic: interface
 f1_keywords:
 - xaudio2/IXAudio2SourceVoice
 dev_langs:

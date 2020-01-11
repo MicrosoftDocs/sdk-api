@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 230f7dc0-6afd-4355-a02c-92343d3e10cd
 ms.date: 12/05/2018
 ms.keywords: AuthorizedApplications property [ICS/ICF], AuthorizedApplications property [ICS/ICF],INetFwProfile interface, INetFwProfile interface [ICS/ICF],AuthorizedApplications property, INetFwProfile.AuthorizedApplications, INetFwProfile.get_AuthorizedApplications, INetFwProfile::AuthorizedApplications, INetFwProfile::get_AuthorizedApplications, get_AuthorizedApplications, ics.inetfwprofile_authorizedapplications, netfw/INetFwProfile::AuthorizedApplications, netfw/INetFwProfile::get_AuthorizedApplications
-ms.topic: method
 f1_keywords:
 - netfw/INetFwProfile.AuthorizedApplications
 dev_langs:

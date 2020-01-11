@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 48f01634-9802-4824-b251-ccb6e71aa099
 ms.date: 12/05/2018
 ms.keywords: CSC_DontUseTracker, CSC_TrackerConfig, CSC_TrackerConfig enumeration [COM+], CSC_UseTracker, _cos_CSC_TrackerConfig, comsvcs/CSC_DontUseTracker, comsvcs/CSC_TrackerConfig, comsvcs/CSC_UseTracker, cos.csc_trackerconfig
-ms.topic: enum
 f1_keywords:
 - comsvcs/CSC_TrackerConfig
 dev_langs:

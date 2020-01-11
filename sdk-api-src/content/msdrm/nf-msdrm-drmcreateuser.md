@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: e5679f4f-23e7-40af-9f45-d2077643da98
 ms.date: 12/05/2018
 ms.keywords: DRMCreateUser, DRMCreateUser function [Active Directory Rights Management Services SDK 1.0], Federation, Internal, Passport, Unspecified, Windows, msdrm/DRMCreateUser, rm.drmcreateuser
-ms.topic: function
 f1_keywords:
 - msdrm/DRMCreateUser
 dev_langs:

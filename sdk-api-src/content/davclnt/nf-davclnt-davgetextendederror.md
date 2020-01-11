@@ -7,7 +7,6 @@ tech.root: WebDAV
 ms.assetid: 939b6163-b7ae-4ab7-9bcc-a02cbf34ca63
 ms.date: 12/05/2018
 ms.keywords: DavGetExtendedError, DavGetExtendedError function [WebDAV], davclnt/DavGetExtendedError, webdav.davgetextendederror
-ms.topic: function
 f1_keywords:
 - davclnt/DavGetExtendedError
 dev_langs:

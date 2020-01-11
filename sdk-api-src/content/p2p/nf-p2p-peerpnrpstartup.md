@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 27d8d6ab-679d-4b7b-bf90-7b0859e7e048
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpStartup, PeerPnrpStartup function [Peer Networking], p2p.peerpnrpstartup, p2p/PeerPnrpStartup
-ms.topic: function
 f1_keywords:
 - p2p/PeerPnrpStartup
 dev_langs:

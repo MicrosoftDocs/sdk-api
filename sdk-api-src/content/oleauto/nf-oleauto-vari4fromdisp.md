@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: ee43a319-8863-441e-a2b8-b322f8c88f32
 ms.date: 12/05/2018
 ms.keywords: VarI4FromDisp, VarI4FromDisp function [Automation], _oa96_VarI4FromDisp, automat.vari4fromdisp, oleauto/VarI4FromDisp
-ms.topic: function
 f1_keywords:
 - oleauto/VarI4FromDisp
 dev_langs:

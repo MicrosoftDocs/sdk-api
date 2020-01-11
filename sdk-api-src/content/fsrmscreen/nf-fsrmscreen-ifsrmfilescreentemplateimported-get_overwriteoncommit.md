@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 0172be46-f555-4d39-ab2e-890cde6b82b7
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreenTemplateImported interface [File Server Resource Manager],OverwriteOnCommit property, IFsrmFileScreenTemplateImported.OverwriteOnCommit, IFsrmFileScreenTemplateImported.get_OverwriteOnCommit, IFsrmFileScreenTemplateImported::OverwriteOnCommit, IFsrmFileScreenTemplateImported::get_OverwriteOnCommit, IFsrmFileScreenTemplateImported::put_OverwriteOnCommit, OverwriteOnCommit property [File Server Resource Manager], OverwriteOnCommit property [File Server Resource Manager],IFsrmFileScreenTemplateImported interface, fs.ifsrmfilescreentemplateimported_overwriteoncommit, fsrm.ifsrmfilescreentemplateimported_overwriteoncommit, fsrmscreen/IFsrmFileScreenTemplateImported::OverwriteOnCommit, fsrmscreen/IFsrmFileScreenTemplateImported::get_OverwriteOnCommit, fsrmscreen/IFsrmFileScreenTemplateImported::put_OverwriteOnCommit, get_OverwriteOnCommit
-ms.topic: method
 f1_keywords:
 - fsrmscreen/IFsrmFileScreenTemplateImported.OverwriteOnCommit
 dev_langs:

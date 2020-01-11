@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: a3a28efa-b235-4608-8410-15cc0ebfe38e
 ms.date: 12/05/2018
 ms.keywords: CreateAlphaTexture, CreateAlphaTexture method [Direct Write], CreateAlphaTexture method [Direct Write],IDWriteGlyphRunAnalysis interface, IDWriteGlyphRunAnalysis interface [Direct Write],CreateAlphaTexture method, IDWriteGlyphRunAnalysis.CreateAlphaTexture, IDWriteGlyphRunAnalysis::CreateAlphaTexture, directwrite.IDWriteGlyphRunAnalysis_CreateAlphaTexture, dwrite/IDWriteGlyphRunAnalysis::CreateAlphaTexture
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteGlyphRunAnalysis.CreateAlphaTexture
 dev_langs:

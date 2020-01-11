@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 7E205798-A9E1-4213-925B-7A5DF918F60E
 ms.date: 12/05/2018
 ms.keywords: FindResourceTexture, FindResourceTexture method [Direct2D], FindResourceTexture method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],FindResourceTexture method, ID2D1EffectContext.FindResourceTexture, ID2D1EffectContext::FindResourceTexture, d2d1effectauthor/ID2D1EffectContext::FindResourceTexture, direct2d.id2d1effectcontext_findresourcetexture
-ms.topic: method
 f1_keywords:
 - d2d1effectauthor/ID2D1EffectContext.FindResourceTexture
 dev_langs:

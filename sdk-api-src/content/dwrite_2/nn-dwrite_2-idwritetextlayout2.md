@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 034D795B-016A-401E-AD75-D5B0D1E87806
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout2, IDWriteTextLayout2 interface [Direct Write], IDWriteTextLayout2 interface [Direct Write],described, directwrite.idwritetextlayout2, dwrite_2/IDWriteTextLayout2
-ms.topic: interface
 f1_keywords:
 - dwrite_2/IDWriteTextLayout2
 dev_langs:

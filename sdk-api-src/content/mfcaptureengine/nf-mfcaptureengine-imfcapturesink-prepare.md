@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 244FD291-AD1D-4A51-87C3-C98B33978AA1
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSink interface [Media Foundation],Prepare method, IMFCaptureSink.Prepare, IMFCaptureSink::Prepare, Prepare, Prepare method [Media Foundation], Prepare method [Media Foundation],IMFCaptureSink interface, mf.imfcapturesink_prepare, mfcaptureengine/IMFCaptureSink::Prepare
-ms.topic: method
 f1_keywords:
 - mfcaptureengine/IMFCaptureSink.Prepare
 dev_langs:

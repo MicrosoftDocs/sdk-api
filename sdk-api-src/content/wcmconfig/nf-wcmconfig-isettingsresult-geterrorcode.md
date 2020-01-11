@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: c0044133-480e-4b40-ad3f-b3d65e259029
 ms.date: 12/05/2018
 ms.keywords: GetErrorCode, GetErrorCode method [SMI], GetErrorCode method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetErrorCode method, ISettingsResult.GetErrorCode, ISettingsResult::GetErrorCode, smi.isettingsresult_geterrorcode, wcmconfig/ISettingsResult::GetErrorCode
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsResult.GetErrorCode
 dev_langs:

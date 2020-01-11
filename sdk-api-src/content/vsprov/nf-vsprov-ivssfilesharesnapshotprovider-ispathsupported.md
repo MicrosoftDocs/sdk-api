@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 6a4db9dd-3854-414f-ba5c-83e36de6f19b
 ms.date: 12/05/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],IsPathSupported method, IVssFileShareSnapshotProvider.IsPathSupported, IVssFileShareSnapshotProvider::IsPathSupported, IsPathSupported, IsPathSupported method [VSS], IsPathSupported method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_ispathsupported, vsprov/IVssFileShareSnapshotProvider::IsPathSupported
-ms.topic: method
 f1_keywords:
 - vsprov/IVssFileShareSnapshotProvider.IsPathSupported
 dev_langs:

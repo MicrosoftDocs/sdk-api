@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: b3e9a526-7b78-49a6-9550-e3f682cecfb8
 ms.date: 12/05/2018
 ms.keywords: RpcSmClientFree, RpcSmClientFree function [RPC], _rpc_rpcsmclientfree, rpc.rpcsmclientfree, rpcndr/RpcSmClientFree
-ms.topic: function
 f1_keywords:
 - rpcndr/RpcSmClientFree
 dev_langs:

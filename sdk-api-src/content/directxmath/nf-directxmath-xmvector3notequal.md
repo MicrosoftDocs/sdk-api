@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector3NotEqual(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3NotEqual, XMVector3NotEqual, XMVector3NotEqual method [DirectX Math Support APIs], dxmath.xmvector3notequal
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector3NotEqual
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: D27E2B51-857D-48E5-8D25-A26917FCF959
 ms.date: 12/05/2018
 ms.keywords: MFBeginRegisterWorkQueueWithMMCSSEx, MFBeginRegisterWorkQueueWithMMCSSEx function [Media Foundation], mf.mfbeginregisterworkqueuewithmmcssex, mfapi/MFBeginRegisterWorkQueueWithMMCSSEx
-ms.topic: function
 f1_keywords:
 - mfapi/MFBeginRegisterWorkQueueWithMMCSSEx
 dev_langs:

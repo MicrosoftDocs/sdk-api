@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dbasetexture9__getlod.htm
 ms.date: 12/05/2018
 ms.keywords: GetLOD, GetLOD method [Direct3D 9], GetLOD method [Direct3D 9],IDirect3DBaseTexture9 interface, IDirect3DBaseTexture9 interface [Direct3D 9],GetLOD method, IDirect3DBaseTexture9.GetLOD, IDirect3DBaseTexture9::GetLOD, a04e1586-ff6d-b7ed-c4b5-175ecbe9e41c, d3d9helper/IDirect3DBaseTexture9::GetLOD, direct3d9.idirect3dbasetexture9__getlod
-ms.topic: method
 f1_keywords:
 - d3d9/IDirect3DBaseTexture9.GetLOD
 dev_langs:

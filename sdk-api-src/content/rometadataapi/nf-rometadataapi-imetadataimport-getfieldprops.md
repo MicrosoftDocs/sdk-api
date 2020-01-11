@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 6c935c4c-a7ac-49b9-af26-25f240ef78f2
 ms.date: 12/05/2018
 ms.keywords: GetFieldProps, GetFieldProps method [Windows Runtime], GetFieldProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetFieldProps method, IMetaDataImport.GetFieldProps, IMetaDataImport::GetFieldProps, rometadataapi/IMetaDataImport::GetFieldProps, winrt.imetadataimport_getfieldprops
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataImport.GetFieldProps
 dev_langs:

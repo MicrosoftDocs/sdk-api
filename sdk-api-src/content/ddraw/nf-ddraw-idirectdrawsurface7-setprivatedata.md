@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 822e4533-9073-4590-844e-8830110e4e33
 ms.date: 12/05/2018
 ms.keywords: (none), DDSPD_IUNKNOWNPOINTER, DDSPD_VOLATILE, IDirectDrawSurface7 interface [DirectDraw],SetPrivateData method, IDirectDrawSurface7.SetPrivateData, IDirectDrawSurface7::SetPrivateData, SetPrivateData, SetPrivateData method [DirectDraw], SetPrivateData method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetPrivateData, directdraw.idirectdrawsurface7_setprivatedata
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawSurface7.SetPrivateData
 dev_langs:

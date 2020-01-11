@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 3F9538F2-DB7A-4841-B61D-C59BC02718B1
 ms.date: 12/05/2018
 ms.keywords: MFCreateMediaExtensionActivate, MFCreateMediaExtensionActivate function [Media Foundation], mf.mfcreatemediaextensionactivate, mf.mfcreatewinrtactivate, mfapi/MFCreateMediaExtensionActivate
-ms.topic: function
 f1_keywords:
 - mfapi/MFCreateMediaExtensionActivate
 dev_langs:

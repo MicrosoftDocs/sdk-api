@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: b585e740-eade-4f81-908c-98dd88540cb1
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetWBEMINT64 method, CInstance.GetWBEMINT64, CInstance.GetWBEMINT64(LPCWSTR,LONGLONG &), CInstance::GetWBEMINT64, CInstance::GetWBEMINT64(LPCWSTR,LONGLONG &), CInstance::GetWBEMINT64(LPCWSTR,LONGLONG&), GetWBEMINT64, GetWBEMINT64 method [Windows Management Instrumentation], GetWBEMINT64 method [Windows Management Instrumentation],CInstance interface, instance/CInstance::GetWBEMINT64, wmi.cinstance_getwbemint64_lpcwstr__longlong__
-ms.topic: method
 f1_keywords:
 - instance/CInstance.GetWBEMINT64
 dev_langs:

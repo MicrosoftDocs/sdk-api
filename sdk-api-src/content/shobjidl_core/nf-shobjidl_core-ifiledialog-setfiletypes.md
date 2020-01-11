@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ca850988-7f2f-4faf-9ded-14db476fc452
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFileTypes method, IFileDialog.SetFileTypes, IFileDialog::SetFileTypes, SetFileTypes, SetFileTypes method [Windows Shell], SetFileTypes method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetFileTypes, shell_IFileDialog_SetFileTypes, shobjidl_core/IFileDialog::SetFileTypes
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileDialog.SetFileTypes
 dev_langs:

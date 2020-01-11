@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c67770d0-e478-41dc-9028-1e0a6cb9e3c7
 ms.date: 12/05/2018
 ms.keywords: EnumVerbs, EnumVerbs method [COM], EnumVerbs method [COM],IOleObject interface, IOleObject interface [COM],EnumVerbs method, IOleObject.EnumVerbs, IOleObject::EnumVerbs, _ole_ioleobject_enumverbs, com.ioleobject_enumverbs, oleidl/IOleObject::EnumVerbs
-ms.topic: method
 f1_keywords:
 - oleidl/IOleObject.EnumVerbs
 dev_langs:

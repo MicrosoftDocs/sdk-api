@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: d922ea90-a4eb-4495-947c-ef33bd81f40a
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolListener interface [Remote Desktop Services],StartListen method, IWTSProtocolListener.StartListen, IWTSProtocolListener::StartListen, StartListen, StartListen method [Remote Desktop Services], StartListen method [Remote Desktop Services],IWTSProtocolListener interface, termserv.iwtsprotocollistener_startlisten, wtsprotocol/IWTSProtocolListener::StartListen
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolListener.StartListen
 dev_langs:

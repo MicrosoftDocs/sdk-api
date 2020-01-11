@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 2bedefe8-6b84-48c0-8a7b-719d017baf24
 ms.date: 12/05/2018
 ms.keywords: ITMultiTrackTerminal interface [TAPI 2.2],get_TrackTerminals method, ITMultiTrackTerminal.get_TrackTerminals, ITMultiTrackTerminal::get_TrackTerminals, _tapi3_itmultitrackterminal_get_trackterminals, get_TrackTerminals, get_TrackTerminals method [TAPI 2.2], get_TrackTerminals method [TAPI 2.2],ITMultiTrackTerminal interface, tapi3.itmultitrackterminal_get_trackterminals, tapi3if/ITMultiTrackTerminal::get_TrackTerminals
-ms.topic: method
 f1_keywords:
 - tapi3if/ITMultiTrackTerminal.get_TrackTerminals
 dev_langs:

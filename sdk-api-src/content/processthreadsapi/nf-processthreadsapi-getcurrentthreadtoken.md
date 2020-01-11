@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: D56FE64F-CFE0-4BE4-BBDA-DF0B79E3E86F
 ms.date: 12/05/2018
 ms.keywords: GetCurrentThreadToken, GetCurrentThreadToken function [Security], processthreadsapi/GetCurrentThreadToken, security.getcurrentthreadtoken
-ms.topic: function
 f1_keywords:
 - processthreadsapi/GetCurrentThreadToken
 dev_langs:

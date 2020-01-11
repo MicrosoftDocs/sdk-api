@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 69ca3863-94ec-457f-9f93-aebb5b80c8a9
 ms.date: 12/05/2018
 ms.keywords: ConvertFile, ConvertFile method [Windows Media Player], ConvertFile method [Windows Media Player],IWMPConvert interface, IWMPConvert interface [Windows Media Player],ConvertFile method, IWMPConvert.ConvertFile, IWMPConvert::ConvertFile, IWMPConvertConvertFile, wmp.iwmpconvert_convertfile, wmpservices/IWMPConvert::ConvertFile
-ms.topic: method
 f1_keywords:
 - wmpservices/IWMPConvert.ConvertFile
 dev_langs:

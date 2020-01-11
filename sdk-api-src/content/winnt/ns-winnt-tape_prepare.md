@@ -7,7 +7,6 @@ tech.root: Backup
 ms.assetid: 32169173-eb19-4082-bf05-a52ee4ab95ba
 ms.date: 12/05/2018
 ms.keywords: '*PTAPE_PREPARE, PTAPE_PREPARE, PTAPE_PREPARE structure pointer [Backup], TAPE_LOCK, TAPE_PREPARE, TAPE_PREPARE structure [Backup], TAPE_TENSION, TAPE_UNLOAD, TAPE_UNLOCK, _TAPE_PREPARE, _win32_tape_prepare_str, backup.tape_prepare_str, base.tape_prepare_str, winnt/PTAPE_PREPARE, winnt/TAPE_PREPARE'
-ms.topic: struct
 f1_keywords:
 - winnt/TAPE_PREPARE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 67095868-7e02-4d82-b2f0-70c413fa8ed6
 ms.date: 12/05/2018
 ms.keywords: DhcpGetClientInfo, DhcpGetClientInfo function [DHCP], dhcp.dhcpgetclientinfo, dhcpsapi/DhcpGetClientInfo
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetClientInfo
 dev_langs:

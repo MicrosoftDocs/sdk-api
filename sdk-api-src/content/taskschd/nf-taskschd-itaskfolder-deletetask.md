@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 5b929abd-c40a-4f6b-9a0b-702d2f26f1fe
 ms.date: 12/05/2018
 ms.keywords: DeleteTask, DeleteTask method [Task Scheduler], DeleteTask method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],DeleteTask method, ITaskFolder.DeleteTask, ITaskFolder::DeleteTask, taskschd.itaskfolder_deletetask, taskschd/ITaskFolder::DeleteTask
-ms.topic: method
 f1_keywords:
 - taskschd/ITaskFolder.DeleteTask
 dev_langs:

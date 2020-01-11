@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 47b059a9-a18a-4f32-9a02-6566175ca86b
 ms.date: 12/05/2018
 ms.keywords: IIsoImageManager, IIsoImageManager interface [IMAPI], IIsoImageManager interface [IMAPI],described, imapi.iisoimagemanager, imapi2fs/IIsoImageManager
-ms.topic: interface
 f1_keywords:
 - imapi2fs/IIsoImageManager
 dev_langs:

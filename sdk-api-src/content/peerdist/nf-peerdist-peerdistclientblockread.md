@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: ee64c0a8-7a07-4045-96fa-855b31c2e5b1
 ms.date: 12/05/2018
 ms.keywords: PEERDIST_READ_TIMEOUT_DEFAULT, PEERDIST_READ_TIMEOUT_LOCAL_CACHE_ONLY, PeerDistClientBlockRead, PeerDistClientBlockRead function [Peer Networking], p2p.peerdistclientblockread, peerdist/PeerDistClientBlockRead
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistClientBlockRead
 dev_langs:

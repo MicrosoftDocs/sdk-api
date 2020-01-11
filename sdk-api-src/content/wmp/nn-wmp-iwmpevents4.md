@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: b846ef23-1206-4a0b-866f-558b99b73f1d
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents4, IWMPEvents4 interface [Windows Media Player], IWMPEvents4 interface [Windows Media Player],described, wmp.iwmpevents4, wmp/IWMPEvents4
-ms.topic: interface
 f1_keywords:
 - wmp/IWMPEvents4
 dev_langs:

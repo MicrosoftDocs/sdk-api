@@ -7,7 +7,6 @@ tech.root: iSCSIDisc
 ms.assetid: be92f3db-93c5-41e3-bd5a-f929f911da39
 ms.date: 12/05/2018
 ms.keywords: '*PIKE_AUTHENTICATION_METHOD, IKE_AUTHENTICATION_METHOD, IKE_AUTHENTICATION_METHOD enumeration [iSCSI Discovery Library API], IKE_AUTHENTICATION_PRESHARED_KEY_METHOD, PIKE_AUTHENTICATION_METHOD, PIKE_AUTHENTICATION_METHOD enumeration pointer [iSCSI Discovery Library API], iscsidisc.ike_authentication_method, iscsidsc/IKE_AUTHENTICATION_METHOD, iscsidsc/IKE_AUTHENTICATION_PRESHARED_KEY_METHOD, iscsidsc/PIKE_AUTHENTICATION_METHOD'
-ms.topic: enum
 f1_keywords:
 - iscsidsc/IKE_AUTHENTICATION_METHOD
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: cb2f544b-02fd-4a48-838f-56815710a5bd
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, ITSDT.GetTableDescriptorByTag, ITSDT::GetTableDescriptorByTag, ITSDTGetTableDescriptorByTag, mpeg2psiparser/ITSDT::GetTableDescriptorByTag, mstv.itsdt_gettabledescriptorbytag
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/ITSDT.GetTableDescriptorByTag
 dev_langs:

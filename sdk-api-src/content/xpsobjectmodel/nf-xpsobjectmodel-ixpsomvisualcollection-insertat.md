@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: b4becd2b-c5f4-4d4d-a142-9f4fe11fafd3
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisualCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMVisualCollection.InsertAt, IXpsOMVisualCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMVisualCollection interface, xps.ixpsomvisualcollection_insertat, xpsobjectmodel/IXpsOMVisualCollection::InsertAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisualCollection.InsertAt
 dev_langs:

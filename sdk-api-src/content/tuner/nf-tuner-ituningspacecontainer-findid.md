@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 99ac47b4-4adc-4e12-b465-4db8ae20ff6d
 ms.date: 12/05/2018
 ms.keywords: FindID, FindID method [Microsoft TV Technologies], FindID method [Microsoft TV Technologies],ITuningSpaceContainer interface, ITuningSpaceContainer interface [Microsoft TV Technologies],FindID method, ITuningSpaceContainer.FindID, ITuningSpaceContainer::FindID, ITuningSpaceContainerFindID, mstv.ituningspacecontainer_findid, tuner/ITuningSpaceContainer::FindID
-ms.topic: method
 f1_keywords:
 - tuner/ITuningSpaceContainer.FindID
 dev_langs:

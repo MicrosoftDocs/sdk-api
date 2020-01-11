@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: aaf9e918-7d1c-4457-94f8-888a99f07c18
 ms.date: 12/05/2018
 ms.keywords: GetSecure, GetSecure method, GetSecure method,IWSDHttpAddress interface, IWSDHttpAddress interface,GetSecure method, IWSDHttpAddress.GetSecure, IWSDHttpAddress::GetSecure, ncd.iwsdhttpaddress_getsecure, wsdbase/IWSDHttpAddress::GetSecure
-ms.topic: method
 f1_keywords:
 - wsdbase/IWSDHttpAddress.GetSecure
 dev_langs:

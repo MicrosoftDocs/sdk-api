@@ -3,7 +3,6 @@ UID: NS:winnt._ULARGE_INTEGER~r1
 title: ULARGE_INTEGER
 ms.date: 01/30/19
 ms.keywords: _ULARGE_INTEGER, ULARGE_INTEGER
-ms.topic: language-reference
 f1_keywords:
 - winnt/_ULARGE_INTEGER
 dev_langs:

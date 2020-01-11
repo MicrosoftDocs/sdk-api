@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionintersectmethods\intersect_38rectfamprect.htm
 ms.date: 12/05/2018
 ms.keywords: Intersect, Intersect method [GDI+], Intersect method [GDI+],Region class, Region class [GDI+],Intersect method, Region.Intersect, Region.Intersect(IN const RectF &), Region.Intersect(const RectF&), Region::Intersect, Region::Intersect(IN const RectF &), _gdiplus_CLASS_Region_Intersect_RectF_rect_, gdiplus._gdiplus_CLASS_Region_Intersect_RectF_rect_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Region.Intersect
 dev_langs:

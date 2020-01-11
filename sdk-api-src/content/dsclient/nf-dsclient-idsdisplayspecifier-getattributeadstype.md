@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 4e9ecbee-b298-42a4-ad02-28bab9d99b6b
 ms.date: 12/05/2018
 ms.keywords: GetAttributeADsType, GetAttributeADsType method [Active Directory], GetAttributeADsType method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],GetAttributeADsType method, IDsDisplaySpecifier.GetAttributeADsType, IDsDisplaySpecifier::GetAttributeADsType, _glines_idsdisplayspecifier_getattributeadstype, ad.idsdisplayspecifier__getattributeadstype, ad.idsdisplayspecifier_getattributeadstype, dsclient/IDsDisplaySpecifier::GetAttributeADsType
-ms.topic: method
 f1_keywords:
 - dsclient/IDsDisplaySpecifier.GetAttributeADsType
 dev_langs:

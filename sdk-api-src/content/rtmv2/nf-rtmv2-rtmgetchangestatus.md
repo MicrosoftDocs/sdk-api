@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: fafe465a-6c89-45b0-83a9-f08d1d9546c6
 ms.date: 12/05/2018
 ms.keywords: RtmGetChangeStatus, RtmGetChangeStatus function [RAS], _rtmv2ref_rtmgetchangestatus, rras.rtmgetchangestatus, rtmv2/RtmGetChangeStatus
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmGetChangeStatus
 dev_langs:

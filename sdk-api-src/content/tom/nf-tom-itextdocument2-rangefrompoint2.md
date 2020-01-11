@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 3212c6cc-a1fb-44ca-aba9-2234414e7a39
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],RangeFromPoint2 method, ITextDocument2.RangeFromPoint2, ITextDocument2::RangeFromPoint2, RangeFromPoint2, RangeFromPoint2 method [Windows Controls], RangeFromPoint2 method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_rangefrompoint2, tom/ITextDocument2::RangeFromPoint2
-ms.topic: method
 f1_keywords:
 - tom/ITextDocument2.RangeFromPoint2
 dev_langs:

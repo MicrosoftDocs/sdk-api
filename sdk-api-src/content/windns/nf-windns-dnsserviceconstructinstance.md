@@ -4,7 +4,6 @@ title: DnsServiceConstructInstance function
 description: Used to build a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure from data that describes it.
 ms.date: 02/14/2019
 ms.keywords: DnsServiceConstructInstance
-ms.topic: language-reference
 f1_keywords:
 - windns/DnsServiceConstructInstance
 dev_langs:

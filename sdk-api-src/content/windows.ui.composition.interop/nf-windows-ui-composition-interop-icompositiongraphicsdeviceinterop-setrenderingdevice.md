@@ -7,7 +7,6 @@ tech.root: w_ui_comp
 ms.assetid: 3A25F450-7182-49E3-A6FB-8DB875D25987
 ms.date: 12/05/2018
 ms.keywords: ICompositionGraphicsDeviceInterop interface,SetRenderingDevice method, ICompositionGraphicsDeviceInterop.SetRenderingDevice, ICompositionGraphicsDeviceInterop.composition, ICompositionGraphicsDeviceInterop::SetRenderingDevice, ICompositionGraphicsDeviceInterop::composition, SetRenderingDevice, SetRenderingDevice method, SetRenderingDevice method,ICompositionGraphicsDeviceInterop interface, w_ui_comp.icompositiongraphicsdeviceinterop_setrenderingdevice, windows/ICompositionGraphicsDeviceInterop::SetRenderingDevice
-ms.topic: method
 f1_keywords:
 - windows.ui.composition.interop/ICompositionGraphicsDeviceInterop.SetRenderingDevice
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: e7cafdbc-9ca2-4bb1-b8ed-d5553acaf7bc
 ms.date: 12/05/2018
 ms.keywords: PFSCE_FREE_INFO, PFSCE_FREE_INFO callback, PFSCE_FREE_INFO callback function [Security], _config_pfsce_free_info, scesvc/PFSCE_FREE_INFO, security.pfsce_free_info
-ms.topic: callback
 f1_keywords:
 - scesvc/PFSCE_FREE_INFO
 dev_langs:

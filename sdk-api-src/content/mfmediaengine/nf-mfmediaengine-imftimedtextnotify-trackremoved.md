@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 6C88C832-5C18-4196-B142-4E398D498A36
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextNotify interface [Media Foundation],TrackRemoved method, IMFTimedTextNotify.TrackRemoved, IMFTimedTextNotify::TrackRemoved, TrackRemoved, TrackRemoved method [Media Foundation], TrackRemoved method [Media Foundation],IMFTimedTextNotify interface, mf.imftimedtextnotify_trackremoved, mfmediaengine/IMFTimedTextNotify::TrackRemoved
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextNotify.TrackRemoved
 dev_langs:

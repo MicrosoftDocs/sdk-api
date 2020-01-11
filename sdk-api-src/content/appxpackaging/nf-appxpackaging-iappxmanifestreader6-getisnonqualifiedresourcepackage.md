@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: E6E8D383-E9E9-4615-B220-B0666E6C2CA2
 ms.date: 12/05/2018
 ms.keywords: GetIsNonQualifiedResourcePackage, GetIsNonQualifiedResourcePackage method [App packaging and management], GetIsNonQualifiedResourcePackage method [App packaging and management],IAppxManifestReader6 interface, IAppxManifestReader6 interface [App packaging and management],GetIsNonQualifiedResourcePackage method, IAppxManifestReader6.GetIsNonQualifiedResourcePackage, IAppxManifestReader6::GetIsNonQualifiedResourcePackage, appxpackaging/IAppxManifestReader6::GetIsNonQualifiedResourcePackage, appxpkg.iappxmanifestreader6_getisnonqualifiedresourcepackage
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxManifestReader6.GetIsNonQualifiedResourcePackage
 dev_langs:

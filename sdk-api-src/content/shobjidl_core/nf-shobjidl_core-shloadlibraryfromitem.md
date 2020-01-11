@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9692f9d1-1504-43d0-9eb1-3759a8e2b42d
 ms.date: 12/05/2018
 ms.keywords: SHLoadLibraryFromItem, SHLoadLibraryFromItem function [Windows Shell], _shell_SHLoadLibraryFromItem, shell.SHLoadLibraryFromItem, shobjidl_core/SHLoadLibraryFromItem
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHLoadLibraryFromItem
 dev_langs:

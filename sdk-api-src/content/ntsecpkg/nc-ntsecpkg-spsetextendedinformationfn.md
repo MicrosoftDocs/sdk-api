@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: a6176786-c19b-4ecf-8a7b-2430ff8b56f7
 ms.date: 12/05/2018
 ms.keywords: SpSetExtendedInformation, SpSetExtendedInformation callback function [Security], SpSetExtendedInformationFn, SpSetExtendedInformationFn callback, _ssp_spsetextendedinformation, ntsecpkg/SpSetExtendedInformation, security.spsetextendedinformation
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpSetExtendedInformation
 dev_langs:

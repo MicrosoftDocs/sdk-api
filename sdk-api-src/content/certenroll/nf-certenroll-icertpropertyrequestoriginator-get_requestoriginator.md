@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 0ac6b8da-9183-4683-a172-a9742b40da64
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRequestOriginator interface [Security],RequestOriginator property, ICertPropertyRequestOriginator.RequestOriginator, ICertPropertyRequestOriginator.get_RequestOriginator, ICertPropertyRequestOriginator::RequestOriginator, ICertPropertyRequestOriginator::get_RequestOriginator, RequestOriginator property [Security], RequestOriginator property [Security],ICertPropertyRequestOriginator interface, certenroll/ICertPropertyRequestOriginator::RequestOriginator, certenroll/ICertPropertyRequestOriginator::get_RequestOriginator, get_RequestOriginator, security.icertpropertyrequestoriginator_requestoriginator_property
-ms.topic: method
 f1_keywords:
 - certenroll/ICertPropertyRequestOriginator.RequestOriginator
 dev_langs:

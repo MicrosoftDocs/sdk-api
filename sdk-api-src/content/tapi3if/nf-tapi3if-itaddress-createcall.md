@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 1b5a755c-fdaf-42ca-9747-9b34efbd0ac3
 ms.date: 12/05/2018
 ms.keywords: CreateCall, CreateCall method [TAPI 2.2], CreateCall method [TAPI 2.2],ITAddress interface, ITAddress interface [TAPI 2.2],CreateCall method, ITAddress.CreateCall, ITAddress::CreateCall, _tapi3_itaddress_createcall, tapi3.itaddress_createcall, tapi3if/ITAddress::CreateCall
-ms.topic: method
 f1_keywords:
 - tapi3if/ITAddress.CreateCall
 dev_langs:

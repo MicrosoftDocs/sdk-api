@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 5912551c-2745-434b-98de-bf24212f7eef
 ms.date: 12/05/2018
 ms.keywords: WindowVisualState, WindowVisualState enumeration [Windows Accessibility], WindowVisualState_Maximized, WindowVisualState_Minimized, WindowVisualState_Normal, uiauto.uiauto_WindowVisualStateEnum, uiauto_WindowVisualStateEnum, uiautomationcore/WindowVisualState, uiautomationcore/WindowVisualState_Maximized, uiautomationcore/WindowVisualState_Minimized, uiautomationcore/WindowVisualState_Normal, winauto.uiauto_WindowVisualStateEnum
-ms.topic: enum
 f1_keywords:
 - uiautomationcore/WindowVisualState
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 18c223e7-38ce-4f20-818b-84bd4c7e0dfd
 ms.date: 12/05/2018
 ms.keywords: IPersistStorage interface [COM],SaveCompleted method, IPersistStorage.SaveCompleted, IPersistStorage::SaveCompleted, SaveCompleted, SaveCompleted method [COM], SaveCompleted method [COM],IPersistStorage interface, _com_ipersiststorage_savecompleted, com.ipersiststorage_savecompleted, objidl/IPersistStorage::SaveCompleted
-ms.topic: method
 f1_keywords:
 - objidl/IPersistStorage.SaveCompleted
 dev_langs:

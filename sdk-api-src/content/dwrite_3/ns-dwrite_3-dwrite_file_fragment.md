@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 6E893719-E2A7-482A-B344-8FE2AA59A6B9
 ms.date: 12/05/2018
 ms.keywords: DWRITE_FILE_FRAGMENT, DWRITE_FILE_FRAGMENT structure [Direct Write], directwrite.dwrite_file_fragment, dwrite_3/DWRITE_FILE_FRAGMENT
-ms.topic: struct
 f1_keywords:
 - dwrite_3/DWRITE_FILE_FRAGMENT
 dev_langs:

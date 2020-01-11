@@ -7,7 +7,6 @@ tech.root: wsb
 ms.assetid: 937ca809-4bb0-408e-9c7e-eccc43d8d4ae
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method [Windows Server Backup], Abort method [Windows Server Backup],IWsbApplicationAsync interface, IWsbApplicationAsync interface [Windows Server Backup],Abort method, IWsbApplicationAsync.Abort, IWsbApplicationAsync::Abort, wsb.iwsbapplicationasync_abort, wsbapp/IWsbApplicationAsync::Abort
-ms.topic: method
 f1_keywords:
 - wsbapp/IWsbApplicationAsync.Abort
 dev_langs:

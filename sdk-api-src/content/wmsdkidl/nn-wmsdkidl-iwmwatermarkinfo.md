@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 4bdad433-31d1-442c-9701-f3748245070d
 ms.date: 12/05/2018
 ms.keywords: IWMWatermarkInfo, IWMWatermarkInfo interface [windows Media Format], IWMWatermarkInfo interface [windows Media Format],described, IWMWatermarkInfoInterface, wmformat.iwmwatermarkinfo, wmsdkidl/IWMWatermarkInfo
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMWatermarkInfo
 dev_langs:

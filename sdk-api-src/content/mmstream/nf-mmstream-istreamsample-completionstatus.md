@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: bfc3fd16-20b1-4581-abb0-66781aa3d584
 ms.date: 12/05/2018
 ms.keywords: CompletionStatus, CompletionStatus method [DirectShow], CompletionStatus method [DirectShow],IStreamSample interface, IStreamSample interface [DirectShow],CompletionStatus method, IStreamSample.CompletionStatus, IStreamSample::CompletionStatus, IStreamSampleCompletionStatus, dshow.istreamsample_completionstatus, mmstream/IStreamSample::CompletionStatus
-ms.topic: method
 f1_keywords:
 - mmstream/IStreamSample.CompletionStatus
 dev_langs:

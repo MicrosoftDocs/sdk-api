@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c61d4440-bcd3-46a7-8aeb-e5d80d0d53eb
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],UpdateProgress method, IFileOperationProgressSink.UpdateProgress, IFileOperationProgressSink::UpdateProgress, UpdateProgress, UpdateProgress method [Windows Shell], UpdateProgress method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_UpdateProgress, shell.IFileOperationProgressSink_UpdateProgress, shobjidl_core/IFileOperationProgressSink::UpdateProgress
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileOperationProgressSink.UpdateProgress
 dev_langs:

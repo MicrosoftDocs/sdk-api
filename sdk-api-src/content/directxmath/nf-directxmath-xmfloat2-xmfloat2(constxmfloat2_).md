@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: 
 ms.date: 05/13/2019
 ms.keywords: XMFLOAT2, XMFLOAT2 constructor [DirectX Math Support APIs], XMFLOAT2 constructor [DirectX Math Support APIs],XMFLOAT2 structure, XMFLOAT2 structure [DirectX Math Support APIs],XMFLOAT2 constructor, XMFLOAT2.XMFLOAT2, XMFLOAT2.XMFLOAT2(), XMFLOAT2.XMFLOAT2(const XMFLOAT2 &), XMFLOAT2::XMFLOAT2, XMFLOAT2::XMFLOAT2(const XMFLOAT2 &), dxmath.xmfloat2_ctor_1
-ms.topic: method
 f1_keywords:
 - directxmath/XMFLOAT2.XMFLOAT2
 dev_langs:

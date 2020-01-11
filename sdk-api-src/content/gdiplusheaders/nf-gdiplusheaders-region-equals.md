@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\equals_59region_g.htm
 ms.date: 12/05/2018
 ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],Region class, Region class [GDI+],Equals method, Region.Equals, Region::Equals, _gdiplus_CLASS_Region_Equals_region_g_, gdiplus._gdiplus_CLASS_Region_Equals_region_g_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Region.Equals
 dev_langs:

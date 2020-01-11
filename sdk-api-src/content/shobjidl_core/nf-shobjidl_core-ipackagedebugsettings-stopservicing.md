@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 129ea98a-e0c3-4472-918c-6d9aa4858c4b
 ms.date: 12/05/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],StopServicing method, IPackageDebugSettings.StopServicing, IPackageDebugSettings::StopServicing, StopServicing, StopServicing method [Windows Shell], StopServicing method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_StopServicing, shobjidl_core/IPackageDebugSettings::StopServicing
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IPackageDebugSettings.StopServicing
 dev_langs:

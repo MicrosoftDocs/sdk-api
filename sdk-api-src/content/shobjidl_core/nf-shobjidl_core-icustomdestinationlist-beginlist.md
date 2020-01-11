@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 431ae6b0-1421-46ec-a06a-38158acb0275
 ms.date: 12/05/2018
 ms.keywords: BeginList, BeginList method [Windows Shell], BeginList method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],BeginList method, ICustomDestinationList.BeginList, ICustomDestinationList::BeginList, _shell_ICustomDestinationList_BeginList, shell.ICustomDestinationList_BeginList, shobjidl_core/ICustomDestinationList::BeginList
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ICustomDestinationList.BeginList
 dev_langs:

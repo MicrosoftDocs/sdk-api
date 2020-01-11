@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 08dfcab2-eb6e-49a4-80eb-87d4076c98c6
 ms.date: 12/05/2018
 ms.keywords: GetCommandLine, GetCommandLine function, GetCommandLineA, GetCommandLineW, _win32_getcommandline, base.getcommandline, processenv/GetCommandLine, processenv/GetCommandLineA, processenv/GetCommandLineW, winbase/GetCommandLine, winbase/GetCommandLineA, winbase/GetCommandLineW
-ms.topic: function
 f1_keywords:
 - processenv/GetCommandLine
 dev_langs:

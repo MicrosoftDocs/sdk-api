@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 3546f42c-2c30-4819-982d-9c186d9f858e
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],RememberInitiatorSharedSecret method, IVdsIscsiTarget.RememberInitiatorSharedSecret, IVdsIscsiTarget::RememberInitiatorSharedSecret, RememberInitiatorSharedSecret, RememberInitiatorSharedSecret method [VDS], RememberInitiatorSharedSecret method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_rememberinitiatorsharedsecret, vds/IVdsIscsiTarget::RememberInitiatorSharedSecret, vdshwprv/IVdsIscsiTarget::RememberInitiatorSharedSecret
-ms.topic: method
 f1_keywords:
 - vds/IVdsIscsiTarget.RememberInitiatorSharedSecret
 dev_langs:

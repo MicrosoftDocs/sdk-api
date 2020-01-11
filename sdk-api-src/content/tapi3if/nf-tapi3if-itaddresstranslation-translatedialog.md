@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: fe744658-b5a7-4d22-bf8b-9c669be3da1e
 ms.date: 12/05/2018
 ms.keywords: ITAddressTranslation interface [TAPI 2.2],TranslateDialog method, ITAddressTranslation.TranslateDialog, ITAddressTranslation::TranslateDialog, TranslateDialog, TranslateDialog method [TAPI 2.2], TranslateDialog method [TAPI 2.2],ITAddressTranslation interface, _tapi3_itaddresstranslation_translatedialog, tapi3.itaddresstranslation_translatedialog, tapi3if/ITAddressTranslation::TranslateDialog
-ms.topic: method
 f1_keywords:
 - tapi3if/ITAddressTranslation.TranslateDialog
 dev_langs:

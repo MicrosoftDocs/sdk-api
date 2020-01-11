@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: e5352a78-3ece-45d3-bf95-2d922065e3d5
 ms.date: 12/05/2018
 ms.keywords: WSD_SOAP_MESSAGE, WSD_SOAP_MESSAGE structure, ncd.wsd_soap_message_struct, wsdtypes/WSD_SOAP_MESSAGE
-ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_SOAP_MESSAGE
 dev_langs:

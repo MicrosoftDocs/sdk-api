@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: a9c5ed0f-af6f-4500-9ef7-bc60b8911ea0
 ms.date: 12/05/2018
 ms.keywords: TdhGetWppProperty, TdhGetWppProperty function [ETW], etw.tdhgetwppproperty, tdh/TdhGetWppProperty
-ms.topic: function
 f1_keywords:
 - tdh/TdhGetWppProperty
 dev_langs:

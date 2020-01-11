@@ -7,7 +7,6 @@ tech.root: WNF
 ms.assetid: D543CD82-9985-49E2-A902-34CB5880B875
 ms.date: 12/05/2018
 ms.keywords: OOBEComplete, isOOBEComplete, isOOBEComplete function, oobenotification/isOOBEComplete, windowssetupandmigration.oobecomplete
-ms.topic: function
 f1_keywords:
 - oobenotification/isOOBEComplete
 dev_langs:

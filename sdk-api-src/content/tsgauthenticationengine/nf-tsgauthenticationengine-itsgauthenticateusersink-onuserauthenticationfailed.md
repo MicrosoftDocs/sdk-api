@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: d3d1e582-db1d-413d-8ec8-7fdb7c6e3609
 ms.date: 12/05/2018
 ms.keywords: ITSGAuthenticateUserSink interface [Remote Desktop Services],OnUserAuthenticationFailed method, ITSGAuthenticateUserSink.OnUserAuthenticationFailed, ITSGAuthenticateUserSink::OnUserAuthenticationFailed, OnUserAuthenticationFailed, OnUserAuthenticationFailed method [Remote Desktop Services], OnUserAuthenticationFailed method [Remote Desktop Services],ITSGAuthenticateUserSink interface, termserv.itsgauthenticateusersink_onuserauthenticationfailed, tsgauthenticationengine/ITSGAuthenticateUserSink::OnUserAuthenticationFailed
-ms.topic: method
 f1_keywords:
 - tsgauthenticationengine/ITSGAuthenticateUserSink.OnUserAuthenticationFailed
 dev_langs:

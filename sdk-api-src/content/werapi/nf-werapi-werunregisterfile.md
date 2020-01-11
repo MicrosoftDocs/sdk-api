@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: 2b2684a4-3030-4fae-ad1c-a60d13d2c643
 ms.date: 12/05/2018
 ms.keywords: WerUnregisterFile, WerUnregisterFile function [Windows Error Reporting], base.werunregisterfile, wer.werunregisterfile, werapi/WerUnregisterFile
-ms.topic: function
 f1_keywords:
 - werapi/WerUnregisterFile
 dev_langs:

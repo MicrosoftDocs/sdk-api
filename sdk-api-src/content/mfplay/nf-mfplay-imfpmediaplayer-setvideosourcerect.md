@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: c95d724f-40a9-43c5-b81a-8505eda516f7
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetVideoSourceRect method, IMFPMediaPlayer.SetVideoSourceRect, IMFPMediaPlayer::SetVideoSourceRect, SetVideoSourceRect, SetVideoSourceRect method [Media Foundation], SetVideoSourceRect method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setvideosourcerect, mfplay/IMFPMediaPlayer::SetVideoSourceRect
-ms.topic: method
 f1_keywords:
 - mfplay/IMFPMediaPlayer.SetVideoSourceRect
 dev_langs:

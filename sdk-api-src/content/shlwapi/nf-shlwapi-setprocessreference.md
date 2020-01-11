@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 65C1BE1D-2C67-47a3-9958-38829BB8CCB0
 ms.date: 12/05/2018
 ms.keywords: SetProcessReference, SetProcessReference function [Windows Shell], shell.SetProcessReference, shlwapi/SetProcessReference
-ms.topic: function
 f1_keywords:
 - shlwapi/SetProcessReference
 dev_langs:

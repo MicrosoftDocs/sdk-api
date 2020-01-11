@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 4af7103e-85c8-472e-96fe-407f07a1f447
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerInitialize, EapHostPeerInitialize function [EAPHost], eaphost.eaphostpeerinitialize, eappapis/EapHostPeerInitialize
-ms.topic: function
 f1_keywords:
 - eappapis/EapHostPeerInitialize
 dev_langs:

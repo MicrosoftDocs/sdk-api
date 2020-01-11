@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: ca4cf3a3-9324-4784-a6d8-44692f4840eb
 ms.date: 12/05/2018
 ms.keywords: ImageGetCertificateData, ImageGetCertificateData function, _win32_imagegetcertificatedata, base.imagegetcertificatedata, imagehlp/ImageGetCertificateData
-ms.topic: function
 f1_keywords:
 - imagehlp/ImageGetCertificateData
 dev_langs:

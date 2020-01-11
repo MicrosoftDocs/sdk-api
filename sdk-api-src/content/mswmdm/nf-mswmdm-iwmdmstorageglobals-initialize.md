@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 9f5092f0-1c72-412b-af93-08bc78c750bc
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorageGlobals interface [windows Media Device Manager],Initialize method, IWMDMStorageGlobals.Initialize, IWMDMStorageGlobals::Initialize, IWMDMStorageGlobalsInitialize, Initialize, Initialize method [windows Media Device Manager], Initialize method [windows Media Device Manager],IWMDMStorageGlobals interface, mswmdm/IWMDMStorageGlobals::Initialize, wmdm.iwmdmstorageglobals_initialize
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMStorageGlobals.Initialize
 dev_langs:

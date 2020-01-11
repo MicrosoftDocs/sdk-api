@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 90768da1-592a-49ec-99b0-56f463c322e8
 ms.date: 12/05/2018
 ms.keywords: GetTotalTitleTime, GetTotalTitleTime method [DirectShow], GetTotalTitleTime method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetTotalTitleTime method, IDvdInfo2.GetTotalTitleTime, IDvdInfo2::GetTotalTitleTime, IDvdInfo2GetTotalTitleTime, dshow.idvdinfo2_gettotaltitletime, strmif/IDvdInfo2::GetTotalTitleTime
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo2.GetTotalTitleTime
 dev_langs:

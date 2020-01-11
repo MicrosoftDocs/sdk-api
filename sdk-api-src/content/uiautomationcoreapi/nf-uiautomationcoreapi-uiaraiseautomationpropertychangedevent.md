@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: ec9da198-eb1d-4883-9b5c-539c92bd530b
 ms.date: 12/05/2018
 ms.keywords: UiaRaiseAutomationPropertyChangedEvent, UiaRaiseAutomationPropertyChangedEvent function [Windows Accessibility], uiauto.uiauto_RaiseAutoPropChangedEventFunction, uiauto_RaiseAutoPropChangedEventFunction, uiautomationcoreapi/UiaRaiseAutomationPropertyChangedEvent, winauto.uiauto_RaiseAutoPropChangedEventFunction
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaRaiseAutomationPropertyChangedEvent
 dev_langs:

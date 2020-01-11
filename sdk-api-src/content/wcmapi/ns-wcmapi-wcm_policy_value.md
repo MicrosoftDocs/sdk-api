@@ -7,7 +7,6 @@ tech.root: wcm
 ms.assetid: 0f259661-723b-4c76-8652-c86e0b8c9ebf
 ms.date: 12/05/2018
 ms.keywords: '*PWCM_POLICY_VALUE, PWCM_POLICY_VALUE, PWCM_POLICY_VALUE structure pointer [Windows Connection Manager], WCM_POLICY_VALUE, WCM_POLICY_VALUE structure [Windows Connection Manager], wcm.wcm_policy_value, wcmapi/PWCM_POLICY_VALUE, wcmapi/WCM_POLICY_VALUE'
-ms.topic: struct
 f1_keywords:
 - wcmapi/WCM_POLICY_VALUE
 dev_langs:

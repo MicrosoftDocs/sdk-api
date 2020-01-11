@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 8e5d7f6e-c4c7-4bb9-ba33-959e098ecd41
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationCacheRequest, IUIAutomationCacheRequest interface [Windows Accessibility], IUIAutomationCacheRequest interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationCacheRequest, uiauto_IUIAutomationCacheRequest, uiautomationclient/IUIAutomationCacheRequest, winauto.uiauto_IUIAutomationCacheRequest
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationCacheRequest
 dev_langs:

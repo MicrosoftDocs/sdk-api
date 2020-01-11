@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: c43e0a72-decc-47e3-bd5e-d94a95a2e404
 ms.date: 12/05/2018
 ms.keywords: CALL_MEDIA_EVENT_CAUSE, CALL_MEDIA_EVENT_CAUSE enumeration [TAPI 2.2], CMC_BAD_DEVICE, CMC_CONNECT_FAIL, CMC_LOCAL_REQUEST, CMC_MEDIA_RECOVERED, CMC_MEDIA_TIMEOUT, CMC_REMOTE_REQUEST, CMC_UNKNOWN, _tapi3_call_media_event_cause, tapi3.call_media_event_cause, tapi3if/CALL_MEDIA_EVENT_CAUSE, tapi3if/CMC_BAD_DEVICE, tapi3if/CMC_CONNECT_FAIL, tapi3if/CMC_LOCAL_REQUEST, tapi3if/CMC_MEDIA_RECOVERED, tapi3if/CMC_MEDIA_TIMEOUT, tapi3if/CMC_REMOTE_REQUEST, tapi3if/CMC_UNKNOWN
-ms.topic: enum
 f1_keywords:
 - tapi3if/CALL_MEDIA_EVENT_CAUSE
 dev_langs:

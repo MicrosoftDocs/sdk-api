@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 92A6E9BA-0B68-4890-90EE-16F4B0929340
 ms.date: 12/05/2019
 ms.keywords: IUIAutomation6 interface [Windows Accessibility],RemoveActiveTextPositionChangedEventHandler method, IUIAutomation6.RemoveActiveTextPositionChangedEventHandler, IUIAutomation6::RemoveActiveTextPositionChangedEventHandler, RemoveActiveTextPositionChangedEventHandler, RemoveActiveTextPositionChangedEventHandler method [Windows Accessibility], RemoveActiveTextPositionChangedEventHandler method [Windows Accessibility],IUIAutomation6 interface, uiautomationclient/IUIAutomation6::RemoveActiveTextPositionChangedEventHandler, winauto.uiauto_IUIAutomation6_RemoveActiveTextPositionChangedEventHandler
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation6.RemoveActiveTextPositionChangedEventHandler
 dev_langs:

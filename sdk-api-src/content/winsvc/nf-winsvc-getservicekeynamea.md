@@ -7,7 +7,6 @@ tech.root: Services
 ms.assetid: d2421566-de4a-49e5-bb41-ea98c6f6d19d
 ms.date: 12/05/2018
 ms.keywords: GetServiceKeyName, GetServiceKeyName function, GetServiceKeyNameA, GetServiceKeyNameW, _win32_getservicekeyname, base.getservicekeyname, winsvc/GetServiceKeyName, winsvc/GetServiceKeyNameA, winsvc/GetServiceKeyNameW
-ms.topic: function
 f1_keywords:
 - winsvc/GetServiceKeyName
 dev_langs:

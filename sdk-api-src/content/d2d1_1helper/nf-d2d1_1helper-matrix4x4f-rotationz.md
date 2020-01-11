@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 4E17EE04-C4B9-49AC-819A-9518937B78F9
 ms.date: 12/05/2018
 ms.keywords: Matrix4x4F interface [Direct2D],RotationZ method, Matrix4x4F.RotationZ, Matrix4x4F::RotationZ, RotationZ, RotationZ method [Direct2D], RotationZ method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::RotationZ, direct2d.matrix4x4f_rotationz
-ms.topic: method
 f1_keywords:
 - d2d1_1helper/Matrix4x4F.RotationZ
 dev_langs:

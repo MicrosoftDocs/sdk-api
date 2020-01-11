@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: afbc5a58-01e2-4f32-bc47-351fe846e4a5
 ms.date: 12/05/2018
 ms.keywords: ResetWriteWatch, ResetWriteWatch function, _win32_resetwritewatch, base.resetwritewatch, winbase/ResetWriteWatch
-ms.topic: function
 f1_keywords:
 - memoryapi/ResetWriteWatch
 dev_langs:

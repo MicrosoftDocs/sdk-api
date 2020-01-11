@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 84c2966f-8f01-4f8d-9cec-c7fef657bff0
 ms.date: 12/05/2018
 ms.keywords: ScreenSaverConfigureDialog, ScreenSaverConfigureDialog function [Windows Shell], _win32_ScreenSaverConfigureDialog, scrnsave/ScreenSaverConfigureDialog, shell.ScreenSaverConfigureDialog
-ms.topic: function
 f1_keywords:
 - scrnsave/ScreenSaverConfigureDialog
 dev_langs:

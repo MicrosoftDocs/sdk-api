@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: ce0dd781-04b2-4e0c-9e79-44864f53f176
 ms.date: 12/05/2018
 ms.keywords: TdhUnloadManifest, TdhUnloadManifest function [ETW], etw.tdhunloadmanifest, tdh/TdhUnloadManifest
-ms.topic: function
 f1_keywords:
 - tdh/TdhUnloadManifest
 dev_langs:

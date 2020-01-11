@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: DA957BA8-AD28-4096-8BE5-B77CA55B9324
 ms.date: 12/05/2018
 ms.keywords: IsWindowsXPSP2OrGreater, IsWindowsXPSP2OrGreater function, base.iswindowsxpsp2orgreater, versionhelpers/IsWindowsXPSP2OrGreater
-ms.topic: function
 f1_keywords:
 - versionhelpers/IsWindowsXPSP2OrGreater
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: E637B5D6-B605-4216-9581-7E4ADC75F75A
 ms.date: 12/05/2018
 ms.keywords: SCardGetDeviceTypeId, SCardGetDeviceTypeId function [Security], SCardGetDeviceTypeIdA, SCardGetDeviceTypeIdW, security.scardgetdevicetypeid, winscard/SCardGetDeviceTypeId, winscard/SCardGetDeviceTypeIdA, winscard/SCardGetDeviceTypeIdW
-ms.topic: function
 f1_keywords:
 - winscard/SCardGetDeviceTypeId
 dev_langs:

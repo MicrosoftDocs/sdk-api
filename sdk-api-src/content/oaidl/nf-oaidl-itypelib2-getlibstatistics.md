@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: b6ee47f7-eca6-48f6-b984-ff8c83a4ca46
 ms.date: 12/05/2018
 ms.keywords: GetLibStatistics, GetLibStatistics method [Automation], GetLibStatistics method [Automation],ITypeLib2 interface, ITypeLib2 interface [Automation],GetLibStatistics method, ITypeLib2.GetLibStatistics, ITypeLib2::GetLibStatistics, _oa96_ITypeLib2_GetLibStatistics, automat.itypelib2_getlibstatistics, oaidl/ITypeLib2::GetLibStatistics
-ms.topic: method
 f1_keywords:
 - oaidl/ITypeLib2.GetLibStatistics
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: d3c35418-57f4-4000-93c2-c04b5b0140ff
 ms.date: 12/05/2018
 ms.keywords: MprConfigFilterGetInfo, MprConfigFilterGetInfo function [RAS], mprapi/MprConfigFilterGetInfo, rras.mprconfigfiltergetinfo
-ms.topic: function
 f1_keywords:
 - mprapi/MprConfigFilterGetInfo
 dev_langs:

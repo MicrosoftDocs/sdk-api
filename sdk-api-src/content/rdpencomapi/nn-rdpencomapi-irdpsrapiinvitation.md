@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 66cd8251-726a-4368-8da5-4d3f6899bdc8
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIInvitation, IRDPSRAPIInvitation interface [RDP], IRDPSRAPIInvitation interface [RDP],described, rdp.irdpsrapiinvitation, rdpencomapi/IRDPSRAPIInvitation
-ms.topic: interface
 f1_keywords:
 - rdpencomapi/IRDPSRAPIInvitation
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: b91c9490-1995-48cb-a313-ef83f00b9c50
 ms.date: 12/05/2018
 ms.keywords: CreateRadialGradientBrush, CreateRadialGradientBrush method [XPS Documents and Packaging], CreateRadialGradientBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateRadialGradientBrush method, IXpsOMObjectFactory.CreateRadialGradientBrush, IXpsOMObjectFactory::CreateRadialGradientBrush, xps.ixpsomobjectfactory_createradialgradientbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateRadialGradientBrush
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreateRadialGradientBrush
 dev_langs:

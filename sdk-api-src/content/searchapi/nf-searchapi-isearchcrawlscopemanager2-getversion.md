@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager2\getversion.htm
 ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion method [search], GetVersion method [search],ISearchCrawlScopeManager2 interface, ISearchCrawlScopeManager2 interface [search],GetVersion method, ISearchCrawlScopeManager2.GetVersion, ISearchCrawlScopeManager2::GetVersion, _search_ISearchCrawlScopeManager2_GetVersion, search._search_ISearchCrawlScopeManager2_GetVersion, searchapi/ISearchCrawlScopeManager2::GetVersion
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchCrawlScopeManager2.GetVersion
 dev_langs:

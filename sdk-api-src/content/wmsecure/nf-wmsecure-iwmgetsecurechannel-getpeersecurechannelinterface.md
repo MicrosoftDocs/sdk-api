@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: bda30638-10b5-4288-b885-b63485606a7f
 ms.date: 12/05/2018
 ms.keywords: GetPeerSecureChannelInterface, GetPeerSecureChannelInterface method [windows Media Format], GetPeerSecureChannelInterface method [windows Media Format],IWMGetSecureChannel interface, IWMGetSecureChannel interface [windows Media Format],GetPeerSecureChannelInterface method, IWMGetSecureChannel.GetPeerSecureChannelInterface, IWMGetSecureChannel::GetPeerSecureChannelInterface, wmformat.iwmgetsecurechannel_getpeersecurechannelinterface, wmsecure/IWMGetSecureChannel::GetPeerSecureChannelInterface
-ms.topic: method
 f1_keywords:
 - wmsecure/IWMGetSecureChannel.GetPeerSecureChannelInterface
 dev_langs:

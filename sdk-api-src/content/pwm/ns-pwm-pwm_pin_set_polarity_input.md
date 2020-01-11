@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: 346F981E-DAE1-4CEE-86A6-4416E3C293DE
 ms.date: 12/05/2018
 ms.keywords: PWM_PIN_SET_POLARITY_INPUT, PWM_PIN_SET_POLARITY_INPUT structure, base.pwm_pin_set_polarity_input, pwm/PWM_PIN_SET_POLARITY_INPUT
-ms.topic: struct
 f1_keywords:
 - pwm/PWM_PIN_SET_POLARITY_INPUT
 dev_langs:

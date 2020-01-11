@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 633e49f5-e01c-4cbd-a2ef-61fcb9e192f4
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_EXPAND_ENVIRONMENT_STRINGS, PRESUTIL_EXPAND_ENVIRONMENT_STRINGS function [Failover Cluster], ResUtilExpandEnvironmentStrings, ResUtilExpandEnvironmentStrings function [Failover Cluster], _wolf_resutilexpandenvironmentstrings, mscs.resutilexpandenvironmentstrings, resapi/PRESUTIL_EXPAND_ENVIRONMENT_STRINGS, resapi/ResUtilExpandEnvironmentStrings
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilExpandEnvironmentStrings
 dev_langs:

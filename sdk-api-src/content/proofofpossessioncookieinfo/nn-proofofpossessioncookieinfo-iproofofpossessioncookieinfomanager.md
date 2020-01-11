@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: b8b89e48-e47d-4089-a8b6-04d53227767a
 ms.date: 12/05/2018
 ms.keywords: IProofOfPossessionCookieInfoManager, IProofOfPossessionCookieInfoManager interface [WinINet], IProofOfPossessionCookieInfoManager interface [WinINet],described, proofofpossessioncookieinfo/IProofOfPossessionCookieInfoManager, wininet.iproofofpossessioncookieinfomanager
-ms.topic: interface
 f1_keywords:
 - proofofpossessioncookieinfo/IProofOfPossessionCookieInfoManager
 dev_langs:

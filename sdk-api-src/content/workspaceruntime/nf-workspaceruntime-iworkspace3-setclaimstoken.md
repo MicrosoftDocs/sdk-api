@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 221b0e8f-b43a-4942-9e70-152daf5b1ef0
 ms.date: 12/05/2018
 ms.keywords: IWorkspace3 interface [Remote Desktop Services],SetClaimsToken method, IWorkspace3.SetClaimsToken, IWorkspace3::SetClaimsToken, SetClaimsToken, SetClaimsToken method [Remote Desktop Services], SetClaimsToken method [Remote Desktop Services],IWorkspace3 interface, termserv.iworkspace3_setclaimstoken, workspaceruntime/IWorkspace3::SetClaimsToken
-ms.topic: method
 f1_keywords:
 - workspaceruntime/IWorkspace3.SetClaimsToken
 dev_langs:

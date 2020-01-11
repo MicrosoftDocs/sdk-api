@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 7ab04b07-f72a-4a04-a470-4b85c21005c0
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemAddedToCache method, IOfflineFilesEvents.ItemAddedToCache, IOfflineFilesEvents::ItemAddedToCache, ItemAddedToCache, ItemAddedToCache method [Offline Files], ItemAddedToCache method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemAddedToCache, of.iofflinefilesevents_itemaddedtocache
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesEvents.ItemAddedToCache
 dev_langs:

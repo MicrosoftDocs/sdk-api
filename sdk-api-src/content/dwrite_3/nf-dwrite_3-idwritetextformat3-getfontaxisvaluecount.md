@@ -5,7 +5,6 @@ description: Retrieves the number of axes set on the format.
 tech.root: DirectWrite
 ms.date: 09/17/2019
 ms.keywords: IDWriteTextFormat3 interface [Direct Write],GetFontAxisValueCount method, IDWriteTextFormat3.GetFontAxisValueCount, IDWriteTextFormat3::GetFontAxisValueCount, GetFontAxisValueCount, GetFontAxisValueCount method [Direct Write], GetFontAxisValueCount method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_getfontaxisvaluecount, dwrite_3/IDWriteTextFormat3::GetFontAxisValueCount
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteTextFormat3.GetFontAxisValueCount
 dev_langs:

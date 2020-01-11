@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4up1_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxSecurity interface [Fax Service],InformationType property, IFaxSecurity.InformationType, IFaxSecurity.get_InformationType, IFaxSecurity::InformationType, IFaxSecurity::get_InformationType, IFaxSecurity::put_InformationType, InformationType property [Fax Service], InformationType property [Fax Service],IFaxSecurity interface, _mfax_faxsecurity.informationtype_cpp, fax._mfax_faxsecurity_informationtype_cpp, faxcomex/IFaxSecurity::InformationType, faxcomex/IFaxSecurity::get_InformationType, faxcomex/IFaxSecurity::put_InformationType, get_InformationType
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxSecurity.InformationType
 dev_langs:

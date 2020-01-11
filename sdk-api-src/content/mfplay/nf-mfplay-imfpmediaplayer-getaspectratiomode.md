@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: eaeb20d2-d547-4f88-a69f-7c3f46fe95ff
 ms.date: 12/05/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [Media Foundation], GetAspectRatioMode method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetAspectRatioMode method, IMFPMediaPlayer.GetAspectRatioMode, IMFPMediaPlayer::GetAspectRatioMode, mf.imfpmediaplayer_getaspectratiomode, mfplay/IMFPMediaPlayer::GetAspectRatioMode
-ms.topic: method
 f1_keywords:
 - mfplay/IMFPMediaPlayer.GetAspectRatioMode
 dev_langs:

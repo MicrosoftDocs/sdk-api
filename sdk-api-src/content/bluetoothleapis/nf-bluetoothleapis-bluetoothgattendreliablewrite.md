@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: 4A3CB135-55D7-41BA-8067-D4B865D05733
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTEndReliableWrite, BluetoothGATTEndReliableWrite function [Bluetooth Devices], bltooth.bluetoothgattendreliablewrite, bluetoothleapis/BluetoothGATTEndReliableWrite
-ms.topic: function
 f1_keywords:
 - bluetoothleapis/BluetoothGATTEndReliableWrite
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: 616c45f6-ec80-42d9-a485-e9e778f2b971
 ms.date: 12/05/2018
 ms.keywords: '*PUSER_POWER_POLICY, PUSER_POWER_POLICY, PUSER_POWER_POLICY structure pointer, USER_POWER_POLICY, USER_POWER_POLICY structure, _win32_user_power_policy_str, base.user_power_policy_str, powrprof/PUSER_POWER_POLICY, powrprof/USER_POWER_POLICY'
-ms.topic: struct
 f1_keywords:
 - powrprof/USER_POWER_POLICY
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: d5b5883b-03d5-4a83-af2e-f4d22e26ee82
 ms.date: 12/05/2018
 ms.keywords: VssFreeSnapshotProperties, VssFreeSnapshotProperties function [VSS], VssFreeSnapshotPropertiesInternal, _win32_vssfreesnapshotproperties, base.vssfreesnapshotproperties, vsbackup/VssFreeSnapshotProperties, vsbackup/VssFreeSnapshotPropertiesInternal
-ms.topic: function
 f1_keywords:
 - vsbackup/VssFreeSnapshotProperties
 dev_langs:

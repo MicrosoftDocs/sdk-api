@@ -7,7 +7,6 @@ tech.root: xblidp
 ms.assetid: 15E426B6-38D8-4626-A6C8-8EB2A8980EE1
 ms.date: 12/05/2018
 ms.keywords: GetSignature, GetSignature method, GetSignature method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetSignature method, IXblIdpAuthTokenResult.GetSignature, IXblIdpAuthTokenResult::GetSignature, xblidp.ixblidpauthtokenresult_getsignature, xblidpauthmanager/IXblIdpAuthTokenResult::GetSignature
-ms.topic: method
 f1_keywords:
 - xblidpauthmanager/IXblIdpAuthTokenResult.GetSignature
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wincontacts
 ms.assetid: c9c0d73d-4c39-4f7c-9bc6-46d764f157bd
 ms.date: 12/05/2018
 ms.keywords: IContactProperties, IContactProperties interface [Windows Contacts], IContactProperties interface [Windows Contacts],described, _wincontacts_IContactProperties, icontact/IContactProperties, wincontacts._wincontacts_IContactProperties
-ms.topic: interface
 f1_keywords:
 - icontact/IContactProperties
 dev_langs:

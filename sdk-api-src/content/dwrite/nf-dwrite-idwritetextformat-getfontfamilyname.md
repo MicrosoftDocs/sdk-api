@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 44d294bf-ec0f-4c75-b10a-2f3e4883b58a
 ms.date: 12/05/2018
 ms.keywords: GetFontFamilyName, GetFontFamilyName method [Direct Write], GetFontFamilyName method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetFontFamilyName method, IDWriteTextFormat.GetFontFamilyName, IDWriteTextFormat::GetFontFamilyName, directwrite.IDWriteTextFormat_GetFontFamilyName, dwrite/IDWriteTextFormat::GetFontFamilyName
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextFormat.GetFontFamilyName
 dev_langs:

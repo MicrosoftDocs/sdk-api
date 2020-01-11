@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e80baf09-93b7-4285-ac9a-af72cae137de
 ms.date: 12/05/2018
 ms.keywords: DVD_TitleAttributes, DVD_TitleAttributes structure [DirectShow], DVD_TitleAttributesStructure, dshow.dvd_titleattributes, strmif/DVD_TitleAttributes
-ms.topic: struct
 f1_keywords:
 - strmif/DVD_TitleAttributes
 dev_langs:

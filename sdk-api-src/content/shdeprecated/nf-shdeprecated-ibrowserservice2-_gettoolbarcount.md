@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7884c80d-dc15-42a7-80e3-566eed819275
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_GetToolbarCount method, IBrowserService2._GetToolbarCount, IBrowserService2::_GetToolbarCount, _GetToolbarCount, _GetToolbarCount method [Windows Shell], _GetToolbarCount method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_GetToolbarCount, shell.IBrowserService2__GetToolbarCount, zone_IBrowserService2__GetToolbarCount
-ms.topic: method
 f1_keywords:
 - shdeprecated/IBrowserService2._GetToolbarCount
 dev_langs:

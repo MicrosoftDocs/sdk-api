@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 3d4db0b3-9bff-4e14-9fe2-549934c2d244
 ms.date: 12/05/2018
 ms.keywords: ITPrivateEvent interface [TAPI 2.2],get_Call method, ITPrivateEvent.get_Call, ITPrivateEvent::get_Call, _tapi3_itprivateevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITPrivateEvent interface, tapi3.itprivateevent_get_call, tapi3if/ITPrivateEvent::get_Call
-ms.topic: method
 f1_keywords:
 - tapi3if/ITPrivateEvent.get_Call
 dev_langs:

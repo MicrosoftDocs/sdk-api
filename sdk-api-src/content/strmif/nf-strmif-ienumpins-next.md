@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 03a30eb6-b39f-4497-ad3f-8af2c3ecf2f0
 ms.date: 12/05/2018
 ms.keywords: IEnumPins interface [DirectShow],Next method, IEnumPins.Next, IEnumPins::Next, IEnumPinsNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumPins interface, dshow.ienumpins_next, strmif/IEnumPins::Next
-ms.topic: method
 f1_keywords:
 - strmif/IEnumPins.Next
 dev_langs:

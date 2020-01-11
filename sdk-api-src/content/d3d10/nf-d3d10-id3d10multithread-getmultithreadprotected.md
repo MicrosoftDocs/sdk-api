@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10multithread_getmultithreadprotected.htm
 ms.date: 12/05/2018
 ms.keywords: GetMultithreadProtected, GetMultithreadProtected method [Direct3D 10], GetMultithreadProtected method [Direct3D 10],ID3D10Multithread interface, ID3D10Multithread interface [Direct3D 10],GetMultithreadProtected method, ID3D10Multithread.GetMultithreadProtected, ID3D10Multithread::GetMultithreadProtected, c9c76a23-94f1-07fd-0f2b-39bc5da06624, d3d10/ID3D10Multithread::GetMultithreadProtected, direct3d10.id3d10multithread_getmultithreadprotected
-ms.topic: method
 f1_keywords:
 - d3d10/ID3D10Multithread.GetMultithreadProtected
 dev_langs:

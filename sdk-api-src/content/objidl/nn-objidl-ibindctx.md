@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: e4c8abb5-0c89-44dd-8d95-efbfcc999b46
 ms.date: 12/05/2018
 ms.keywords: IBindCtx, IBindCtx interface [COM], IBindCtx interface [COM],described, _com_ibindctx, com.ibindctx, objidl/IBindCtx
-ms.topic: interface
 f1_keywords:
 - objidl/IBindCtx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddcurvemethods\addcurve_5pointpoints_intcount_intoffset_intnumbe.htm
 ms.date: 12/05/2018
 ms.keywords: AddCurve, AddCurve method [GDI+], AddCurve method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddCurve method, GraphicsPath.AddCurve, GraphicsPath.AddCurve(IN const Point,IN INT,IN INT,IN INT,IN REAL), GraphicsPath.AddCurve(const Point*,INT,INT,INT,REAL), GraphicsPath::AddCurve, GraphicsPath::AddCurve(IN const Point,IN INT,IN INT,IN INT,IN REAL), _gdiplus_CLASS_GraphicsPath_AddCurve_Point_points_INT_count_INT_offset_INT_numberOfSegments_REAL_ten, gdiplus._gdiplus_CLASS_GraphicsPath_AddCurve_Point_points_INT_count_INT_offset_INT_numberOfSegments_REAL_ten
-ms.topic: method
 f1_keywords:
 - gdipluspath/GraphicsPath.AddCurve
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 8747c484-19b3-46b2-beee-80b220011def
 ms.date: 12/05/2018
 ms.keywords: WsWriteEndAttribute, WsWriteEndAttribute function [Web Services for Windows], webservices/WsWriteEndAttribute, wsw.wswriteendattribute
-ms.topic: function
 f1_keywords:
 - webservices/WsWriteEndAttribute
 dev_langs:

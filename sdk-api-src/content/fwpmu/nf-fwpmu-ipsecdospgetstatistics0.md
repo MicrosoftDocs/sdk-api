@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: eb71e7c8-403c-4774-bc59-71e4a56ee1c4
 ms.date: 12/05/2018
 ms.keywords: IPsecDospGetStatistics0, IPsecDospGetStatistics0 function [Filtering], fwp.ipsecdospgetstatistics0, fwpmu/IPsecDospGetStatistics0
-ms.topic: function
 f1_keywords:
 - fwpmu/IPsecDospGetStatistics0
 dev_langs:

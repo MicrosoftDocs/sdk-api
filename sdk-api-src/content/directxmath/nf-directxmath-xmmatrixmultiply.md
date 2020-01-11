@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixMultiply(XMMATRIX,XMMATRIX)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixMultiply, XMMatrixMultiply, XMMatrixMultiply method [DirectX Math Support APIs], dxmath.xmmatrixmultiply
-ms.topic: function
 f1_keywords:
 - directxmath/XMMatrixMultiply
 dev_langs:

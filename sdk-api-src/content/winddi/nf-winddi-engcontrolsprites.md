@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 8de02019-6f58-4adc-9589-fdfbf4a062aa
 ms.date: 12/05/2018
 ms.keywords: EngControlSprites, EngControlSprites function [Display Devices], display.engcontrolsprites, gdifncs_b7312326-43ba-4c8b-bb23-db2ecf2d6f6e.xml, winddi/EngControlSprites
-ms.topic: function
 f1_keywords:
 - winddi/EngControlSprites
 dev_langs:

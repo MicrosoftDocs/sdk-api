@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 04cee21c-253a-463a-9231-592ddad88188
 ms.date: 12/05/2018
 ms.keywords: IAzApplications, IAzApplications interface [Security], IAzApplications interface [Security],described, azroles/IAzApplications, security.iazapplications
-ms.topic: interface
 f1_keywords:
 - azroles/IAzApplications
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 72e616ce-4188-4944-b627-9681e5fd271e
 ms.date: 12/05/2018
 ms.keywords: GetFiberData, GetFiberData function, _win32_getfiberdata, base.getfiberdata, winnt/GetFiberData
-ms.topic: function
 f1_keywords:
 - winnt/GetFiberData
 dev_langs:

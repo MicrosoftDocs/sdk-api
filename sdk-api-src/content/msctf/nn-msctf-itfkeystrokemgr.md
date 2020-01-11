@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 93c1591d-2c95-45cb-8fc5-5726e905f202
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr, ITfKeystrokeMgr interface [Text Services Framework], ITfKeystrokeMgr interface [Text Services Framework],described, _tsf_itfkeystrokemgr_ref, msctf/ITfKeystrokeMgr, tsf.itfkeystrokemgr
-ms.topic: interface
 f1_keywords:
 - msctf/ITfKeystrokeMgr
 dev_langs:

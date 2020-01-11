@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: dd3ce6ba-e9a7-495d-80e7-532e5cf5e94c
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbSatelliteDeliverySystemDescriptor.GetLength, IDvbSatelliteDeliverySystemDescriptor::GetLength, IDvbSatelliteDeliverySystemDescriptorGetLength, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetLength, mstv.idvbsatellitedeliverysystemdescriptor_getlength
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbSatelliteDeliverySystemDescriptor.GetLength
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_arrange.htm
 ms.date: 12/05/2018
 ms.keywords: LVA_ALIGNLEFT, LVA_ALIGNTOP, LVA_DEFAULT, LVA_SNAPTOGRID, ListView_Arrange, ListView_Arrange macro [Windows Controls], _win32_ListView_Arrange, _win32_ListView_Arrange_cpp, commctrl/ListView_Arrange, controls.ListView_Arrange, controls._win32_ListView_Arrange
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_Arrange
 dev_langs:

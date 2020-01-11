@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: F0A37D77-6262-44B1-BEC5-083E41BDE139
 ms.date: 12/05/2018
 ms.keywords: GetStagedPackagePathByFullName, GetStagedPackagePathByFullName function [App packaging and management], appmodel/GetStagedPackagePathByFullName, appxpkg.getstagedpackagepathbyfullname
-ms.topic: function
 f1_keywords:
 - appmodel/GetStagedPackagePathByFullName
 dev_langs:

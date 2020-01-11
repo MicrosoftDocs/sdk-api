@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: c7afac5d-946f-49ec-a7d0-de558ed2144b
 ms.date: 12/05/2018
 ms.keywords: IWSManEnumerator, IWSManEnumerator interface [Windows Remote Management], IWSManEnumerator interface [Windows Remote Management],described, winrm.iwsmanenumerator, wsmandisp/IWSManEnumerator
-ms.topic: interface
 f1_keywords:
 - wsmandisp/IWSManEnumerator
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 3bf3bbc2-9b4f-4dba-89ef-62c58640710b
 ms.date: 12/05/2018
 ms.keywords: ObjectContext interface [COM+],SetComplete method, ObjectContext.SetComplete, ObjectContext::SetComplete, SetComplete, SetComplete method [COM+], SetComplete method [COM+],ObjectContext interface, _cos_ObjectContext_SetComplete, comsvcs/ObjectContext::SetComplete, cos.objectcontext_setcomplete
-ms.topic: method
 f1_keywords:
 - comsvcs/ObjectContext.SetComplete
 dev_langs:

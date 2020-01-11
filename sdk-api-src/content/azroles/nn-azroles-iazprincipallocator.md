@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 7ae3f0a3-9eeb-44d9-954a-a6526bb4eb3f
 ms.date: 12/05/2018
 ms.keywords: IAzPrincipalLocator, IAzPrincipalLocator interface [Security], IAzPrincipalLocator interface [Security],described, azroles/ IAzPrincipalLocator, security.iazprincipallocator
-ms.topic: interface
 f1_keywords:
 - azroles/IAzPrincipalLocator
 dev_langs:

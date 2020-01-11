@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 9959AF70-87C2-45E0-A409-959494AF393B
 ms.date: 12/05/2018
 ms.keywords: FhConfigMgr class [Windows API],LoadConfiguration method, IFhConfigMgr interface [Windows API],LoadConfiguration method, IFhConfigMgr.LoadConfiguration, IFhConfigMgr::LoadConfiguration, LoadConfiguration, LoadConfiguration method [Windows API], LoadConfiguration method [Windows API],FhConfigMgr class, LoadConfiguration method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::LoadConfiguration, winprog.ifhconfigmgr_loadconfiguration
-ms.topic: method
 f1_keywords:
 - fhcfg/IFhConfigMgr.LoadConfiguration
 dev_langs:

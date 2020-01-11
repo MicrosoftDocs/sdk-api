@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 3775fa60-3f34-402f-a7e5-18a00de384b5
 ms.date: 12/05/2018
 ms.keywords: GetFieldNoCopy, GetFieldNoCopy method [Automation], GetFieldNoCopy method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetFieldNoCopy method, IRecordInfo.GetFieldNoCopy, IRecordInfo::GetFieldNoCopy, _oa96_IRecordInfo_GetFieldNoCopy, automat.irecordinfo_getfieldnocopy, oaidl/IRecordInfo::GetFieldNoCopy
-ms.topic: method
 f1_keywords:
 - oaidl/IRecordInfo.GetFieldNoCopy
 dev_langs:

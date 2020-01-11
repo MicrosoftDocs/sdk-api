@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 17456440-c655-48ab-8d1e-ee770330f164
 ms.date: 12/05/2018
 ms.keywords: CreateRectRgn, CreateRectRgn function [Windows GDI], _win32_CreateRectRgn, gdi.createrectrgn, wingdi/CreateRectRgn
-ms.topic: function
 f1_keywords:
 - wingdi/CreateRectRgn
 dev_langs:

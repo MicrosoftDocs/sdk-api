@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: 4ae754a5-7e03-4747-b4bc-1abf72920d83
 ms.date: 12/05/2018
 ms.keywords: ISettingsContext interface [SMI],SetUserData method, ISettingsContext.SetUserData, ISettingsContext::SetUserData, SetUserData, SetUserData method [SMI], SetUserData method [SMI],ISettingsContext interface, smi.isettingscontext_setuserdata, wcmconfig/ISettingsContext::SetUserData
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsContext.SetUserData
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 076DC8F7-E358-484D-A567-60E80F9D2FC3
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgDocument interface [Direct2D],SetRoot method, ID2D1SvgDocument.SetRoot, ID2D1SvgDocument::SetRoot, SetRoot, SetRoot method [Direct2D], SetRoot method [Direct2D],ID2D1SvgDocument interface, d2d1svg/ID2D1SvgDocument::SetRoot, direct2d.id2d1svgdocument_setroot
-ms.topic: method
 f1_keywords:
 - d2d1svg/ID2D1SvgDocument.SetRoot
 dev_langs:

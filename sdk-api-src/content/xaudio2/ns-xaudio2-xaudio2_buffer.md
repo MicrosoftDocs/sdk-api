@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_BUFFER
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2_BUFFER, XAUDIO2_BUFFER structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_buffer, xaudio2/XAUDIO2_BUFFER
-ms.topic: struct
 f1_keywords:
 - xaudio2/XAUDIO2_BUFFER
 dev_langs:

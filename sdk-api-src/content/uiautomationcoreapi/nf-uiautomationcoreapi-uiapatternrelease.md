@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: caa7231b-5b31-499e-b548-479501ddf016
 ms.date: 12/05/2018
 ms.keywords: UiaPatternRelease, UiaPatternRelease function [Windows Accessibility], uiauto.uiauto_UiaPatternReleaseMemManMeth, uiauto_UiaPatternReleaseMemManMeth, uiautomationcoreapi/UiaPatternRelease, winauto.uiauto_UiaPatternReleaseMemManMeth
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaPatternRelease
 dev_langs:

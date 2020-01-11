@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 6d6c65ee-f53e-4a24-b8c0-50faa76af640
 ms.date: 12/05/2018
 ms.keywords: NetMessageNameDel, NetMessageNameDel function [Network Management], _win32_netmessagenamedel, lmmsg/NetMessageNameDel, netmgmt.netmessagenamedel
-ms.topic: function
 f1_keywords:
 - lmmsg/NetMessageNameDel
 dev_langs:

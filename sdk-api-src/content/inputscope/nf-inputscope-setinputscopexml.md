@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: bd770852-412a-4097-b22f-02f240516770
 ms.date: 12/05/2018
 ms.keywords: SetInputScopeXML, SetInputScopeXML function [Text Services Framework], inputscope/SetInputScopeXML, tsf.SetInputScopeXML
-ms.topic: function
 f1_keywords:
 - inputscope/SetInputScopeXML
 dev_langs:

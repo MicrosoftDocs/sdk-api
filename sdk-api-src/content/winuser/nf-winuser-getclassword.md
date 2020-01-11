@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclassword.htm
 ms.date: 12/05/2018
 ms.keywords: GCW_ATOM, GetClassWord, GetClassWord function [Windows and Messages], _win32_GetClassWord, _win32_getclassword_cpp, winmsg.getclassword, winui._win32_getclassword, winuser/GetClassWord
-ms.topic: function
 f1_keywords:
 - winuser/GetClassWord
 dev_langs:

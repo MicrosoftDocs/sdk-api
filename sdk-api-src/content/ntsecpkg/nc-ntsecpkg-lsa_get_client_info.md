@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 3669f2e2-da70-4195-bdd0-f8415d97ae99
 ms.date: 12/05/2018
 ms.keywords: GetClientInfo, GetClientInfo callback function [Security], LSA_GET_CLIENT_INFO, LSA_GET_CLIENT_INFO callback, _ssp_getclientinfo, ntsecpkg/GetClientInfo, security.getclientinfo
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/GetClientInfo
 dev_langs:

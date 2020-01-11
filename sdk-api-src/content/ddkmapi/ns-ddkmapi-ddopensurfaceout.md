@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 0cf0db38-f512-4ca1-a386-5544a1c9433e
 ms.date: 12/05/2018
 ms.keywords: '*LPDDOPENSURFACEOUT, DDOPENSURFACEOUT, DDOPENSURFACEOUT structure [Display Devices], LPDDOPENSURFACEOUT, LPDDOPENSURFACEOUT structure pointer [Display Devices], ddkmapi/DDOPENSURFACEOUT, ddkmapi/LPDDOPENSURFACEOUT, ddstrcts_911314a4-692d-4909-9c30-e868a767e031.xml, display.ddopensurfaceout'
-ms.topic: struct
 f1_keywords:
 - ddkmapi/DDOPENSURFACEOUT
 dev_langs:

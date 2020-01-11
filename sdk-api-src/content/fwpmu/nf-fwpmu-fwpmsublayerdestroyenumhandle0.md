@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: ad4e5a70-a29f-44ff-a70d-3fcb31972f90
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerDestroyEnumHandle0, FwpmSubLayerDestroyEnumHandle0 function [Filtering], fwp.fwpmsublayerdestroyenumhandle0_func, fwpmu/FwpmSubLayerDestroyEnumHandle0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmSubLayerDestroyEnumHandle0
 dev_langs:

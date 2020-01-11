@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 3FEAB627-C38F-4709-BA17-0AFF76015A97
 ms.date: 12/05/2018
 ms.keywords: WSManRunShellCommandEx, WSManRunShellCommandEx function [Windows Remote Management], winrm.wsmanrunshellcommandex, wsman/WSManRunShellCommandEx
-ms.topic: function
 f1_keywords:
 - wsman/WSManRunShellCommandEx
 dev_langs:

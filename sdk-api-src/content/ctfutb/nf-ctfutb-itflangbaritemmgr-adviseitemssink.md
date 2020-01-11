@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: c0a3e86b-487b-410a-8bba-c2b5126126d2
 ms.date: 12/05/2018
 ms.keywords: AdviseItemsSink, AdviseItemsSink method [Text Services Framework], AdviseItemsSink method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],AdviseItemsSink method, ITfLangBarItemMgr.AdviseItemsSink, ITfLangBarItemMgr::AdviseItemsSink, _tsf_itflangbaritemmgr_adviseitemssink_ref, ctfutb/ITfLangBarItemMgr::AdviseItemsSink, tsf.itflangbaritemmgr_adviseitemssink
-ms.topic: method
 f1_keywords:
 - ctfutb/ITfLangBarItemMgr.AdviseItemsSink
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 83d8f7d2-e06d-461a-be45-ebbb448b2480
 ms.date: 12/05/2018
 ms.keywords: IDownloadProgress interface [Windows Update Agent],TotalBytesDownloaded property, IDownloadProgress.TotalBytesDownloaded, IDownloadProgress.get_TotalBytesDownloaded, IDownloadProgress::TotalBytesDownloaded, IDownloadProgress::get_TotalBytesDownloaded, TotalBytesDownloaded property [Windows Update Agent], TotalBytesDownloaded property [Windows Update Agent],IDownloadProgress interface, get_TotalBytesDownloaded, wua.idownloadprogress_totalbytesdownloaded, wuapi/IDownloadProgress::TotalBytesDownloaded, wuapi/IDownloadProgress::get_TotalBytesDownloaded
-ms.topic: method
 f1_keywords:
 - wuapi/IDownloadProgress.TotalBytesDownloaded
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 17f41fcb-c9a4-4b7e-acde-73450044413e
 ms.date: 12/05/2018
 ms.keywords: GetWindowExtEx, GetWindowExtEx function [Windows GDI], _win32_GetWindowExtEx, gdi.getwindowextex, wingdi/GetWindowExtEx
-ms.topic: function
 f1_keywords:
 - wingdi/GetWindowExtEx
 dev_langs:

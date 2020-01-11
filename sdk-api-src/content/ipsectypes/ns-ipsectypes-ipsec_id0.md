@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: e8881c50-9586-447e-a514-cc28895e5e90
 ms.date: 12/05/2018
 ms.keywords: IPSEC_ID0, IPSEC_ID0 structure [Filtering], fwp.ipsec_id0, ipsectypes/IPSEC_ID0
-ms.topic: struct
 f1_keywords:
 - ipsectypes/IPSEC_ID0
 dev_langs:

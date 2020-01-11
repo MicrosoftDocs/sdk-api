@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f71b0b98-12d6-4108-8b1e-4ad254ffbdfd
 ms.date: 12/05/2018
 ms.keywords: GetFillBrushLookup, GetFillBrushLookup method [XPS Documents and Packaging], GetFillBrushLookup method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFillBrushLookup method, IXpsOMGlyphs.GetFillBrushLookup, IXpsOMGlyphs::GetFillBrushLookup, xps.ixpsomglyphs_getfillbrushlookup, xpsobjectmodel/IXpsOMGlyphs::GetFillBrushLookup
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphs.GetFillBrushLookup
 dev_langs:

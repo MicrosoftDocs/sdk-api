@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_pushcopyofretrievalfilter.htm
 ms.date: 12/05/2018
 ms.keywords: 95f070e8-3e19-b7cf-e5db-1e4a5d006c3e, ID3D10InfoQueue interface [Direct3D 10],PushCopyOfRetrievalFilter method, ID3D10InfoQueue.PushCopyOfRetrievalFilter, ID3D10InfoQueue::PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter method [Direct3D 10], PushCopyOfRetrievalFilter method [Direct3D 10],ID3D10InfoQueue interface, d3d10sdklayers/ID3D10InfoQueue::PushCopyOfRetrievalFilter, direct3d10.id3d10infoqueue_pushcopyofretrievalfilter
-ms.topic: method
 f1_keywords:
 - d3d10sdklayers/ID3D10InfoQueue.PushCopyOfRetrievalFilter
 dev_langs:

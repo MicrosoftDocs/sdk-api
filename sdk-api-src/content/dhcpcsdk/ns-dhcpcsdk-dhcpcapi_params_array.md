@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 84eafc6b-e9ee-4c73-b872-b2abc7e257df
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCPCAPI_PARAMS_ARRAY, *LPDHCPCAPI_PARAMS_ARRAY structure [DHCP], *PDHCPCAPI_PARAMS_ARRAY, *PDHCPCAPI_PARAMS_ARRAY structure [DHCP], DHCPCAPI_PARAMS_ARRAY, DHCPCAPI_PARAMS_ARRAY structure [DHCP], dhcp.dhcpcapi_params_array, dhcpcsdk/*LPDHCPCAPI_PARAMS_ARRAY, dhcpcsdk/*PDHCPCAPI_PARAMS_ARRAY, dhcpcsdk/DHCPCAPI_PARAMS_ARRAY'
-ms.topic: struct
 f1_keywords:
 - dhcpcsdk/DHCPCAPI_PARAMS_ARRAY
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: A1CE9224-1E8C-46F8-AD7B-DBCBEBC670F7
 ms.date: 01/30/19
 ms.keywords: LPFN_RIOSEND
-ms.topic: language-reference
 f1_keywords:
 - mswsock/LPFN_RIOSEND
 dev_langs:

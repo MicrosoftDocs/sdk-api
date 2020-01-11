@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 847d82f5-149d-48a4-a228-f5551a07a790
 ms.date: 12/05/2018
 ms.keywords: OleCreateStaticFromData, OleCreateStaticFromData function [COM], _ole_OleCreateStaticFromData, com.olecreatestaticfromdata, ole2/OleCreateStaticFromData
-ms.topic: function
 f1_keywords:
 - ole2/OleCreateStaticFromData
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getimagecount.htm
 ms.date: 12/05/2018
 ms.keywords: GetImageCount, GetImageCount method [Windows Controls], GetImageCount method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetImageCount method, IImageList.GetImageCount, IImageList::GetImageCount, comctl_IImageList_GetImageCount, comctl_IImageList_GetImageCount_cpp, commoncontrols/IImageList::GetImageCount, controls.IImageList_GetImageCount, controls.comctl_IImageList_GetImageCount
-ms.topic: method
 f1_keywords:
 - commoncontrols/IImageList.GetImageCount
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 9ECFC757-1CB3-43A1-BA45-9AF72CAB240E
 ms.date: 12/05/2018
 ms.keywords: OpenPackageInfoByFullName, OpenPackageInfoByFullName function [App packaging and management], appmodel/OpenPackageInfoByFullName, appxpkg.openpackageinfobyfullname
-ms.topic: function
 f1_keywords:
 - appmodel/OpenPackageInfoByFullName
 dev_langs:

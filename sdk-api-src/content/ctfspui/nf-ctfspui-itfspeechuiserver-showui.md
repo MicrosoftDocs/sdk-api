@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 4491a3f0-b748-45a8-a8bd-c8fa78d49fa7
 ms.date: 12/05/2018
 ms.keywords: ITfSpeechUIServer interface [Text Services Framework],ShowUI method, ITfSpeechUIServer.ShowUI, ITfSpeechUIServer::ShowUI, ShowUI, ShowUI method [Text Services Framework], ShowUI method [Text Services Framework],ITfSpeechUIServer interface, ctfspui/ITfSpeechUIServer::ShowUI, tsf.itfspeechuiserver_showui
-ms.topic: method
 f1_keywords:
 - ctfspui/ITfSpeechUIServer.ShowUI
 dev_langs:

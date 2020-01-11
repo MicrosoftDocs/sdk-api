@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 60ac6195-6e43-46da-a1e6-74ec989cd0c4
 ms.date: 12/05/2018
 ms.keywords: DsAddressToSiteNamesEx, DsAddressToSiteNamesEx function [Active Directory], DsAddressToSiteNamesExA, DsAddressToSiteNamesExW, ad.dsaddresstositenamesex, dsgetdc/DsAddressToSiteNamesEx, dsgetdc/DsAddressToSiteNamesExA, dsgetdc/DsAddressToSiteNamesExW
-ms.topic: function
 f1_keywords:
 - dsgetdc/DsAddressToSiteNamesEx
 dev_langs:

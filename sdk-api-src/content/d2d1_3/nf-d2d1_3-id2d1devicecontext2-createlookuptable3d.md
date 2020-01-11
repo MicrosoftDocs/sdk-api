@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 1c48804b-9876-9dbd-3d20-8a7b575fd3d8
 ms.date: 12/05/2018
 ms.keywords: CreateLookupTable3D, CreateLookupTable3D method [Direct2D], CreateLookupTable3D method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateLookupTable3D method, ID2D1DeviceContext2.CreateLookupTable3D, ID2D1DeviceContext2::CreateLookupTable3D, d2d1_3/ID2D1DeviceContext2::CreateLookupTable3D, direct2d.id2d1devicecontext2_createlookuptable3d
-ms.topic: method
 f1_keywords:
 - d2d1_3/ID2D1DeviceContext2.CreateLookupTable3D
 dev_langs:

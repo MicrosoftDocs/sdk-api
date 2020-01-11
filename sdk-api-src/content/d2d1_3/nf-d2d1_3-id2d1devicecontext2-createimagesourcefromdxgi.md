@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 5ea6ba4c-9bd6-a909-82d5-c4690dc9a24e
 ms.date: 12/05/2018
 ms.keywords: CreateImageSourceFromDxgi, CreateImageSourceFromDxgi method [Direct2D], CreateImageSourceFromDxgi method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateImageSourceFromDxgi method, ID2D1DeviceContext2.CreateImageSourceFromDxgi, ID2D1DeviceContext2::CreateImageSourceFromDxgi, d2d1_3/ID2D1DeviceContext2::CreateImageSourceFromDxgi, direct2d.id2d1devicecontext2_createimagesourcefromdxgi
-ms.topic: method
 f1_keywords:
 - d2d1_3/ID2D1DeviceContext2.CreateImageSourceFromDxgi
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 97eab68f-9a77-46ae-a50e-be6267e25040
 ms.date: 12/05/2018
 ms.keywords: GetLocalAddress, GetLocalAddress method, GetLocalAddress method,IWSDMessageParameters interface, IWSDMessageParameters interface,GetLocalAddress method, IWSDMessageParameters.GetLocalAddress, IWSDMessageParameters::GetLocalAddress, ncd.iwsdmessageparameters_getlocaladdress, wsdbase/IWSDMessageParameters::GetLocalAddress
-ms.topic: method
 f1_keywords:
 - wsdbase/IWSDMessageParameters.GetLocalAddress
 dev_langs:

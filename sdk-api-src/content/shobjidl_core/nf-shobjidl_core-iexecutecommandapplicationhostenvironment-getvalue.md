@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ba26f985-04f1-4a05-9363-a7be0585bcfc
 ms.date: 12/05/2018
 ms.keywords: AHE_DESKTOP, AHE_IMMERSIVE, GetValue, GetValue method [Windows Shell], GetValue method [Windows Shell],IExecuteCommandApplicationHostEnvironment interface, IExecuteCommandApplicationHostEnvironment interface [Windows Shell],GetValue method, IExecuteCommandApplicationHostEnvironment.GetValue, IExecuteCommandApplicationHostEnvironment::GetValue, shell.IExecuteCommandApplicationHostEnvironment_GetValue, shobjidl_core/IExecuteCommandApplicationHostEnvironment::GetValue
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IExecuteCommandApplicationHostEnvironment.GetValue
 dev_langs:

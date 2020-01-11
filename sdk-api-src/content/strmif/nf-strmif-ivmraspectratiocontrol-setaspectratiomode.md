@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e73362ea-b153-4d25-b30e-c69274b49bf9
 ms.date: 12/05/2018
 ms.keywords: IVMRAspectRatioControl interface [DirectShow],SetAspectRatioMode method, IVMRAspectRatioControl.SetAspectRatioMode, IVMRAspectRatioControl::SetAspectRatioMode, IVMRAspectRatioControlSetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [DirectShow], SetAspectRatioMode method [DirectShow],IVMRAspectRatioControl interface, dshow.ivmraspectratiocontrol_setaspectratiomode, strmif/IVMRAspectRatioControl::SetAspectRatioMode
-ms.topic: method
 f1_keywords:
 - strmif/IVMRAspectRatioControl.SetAspectRatioMode
 dev_langs:

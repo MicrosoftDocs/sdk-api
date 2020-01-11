@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7f670efe-4433-496d-b789-925c02b69f58
 ms.date: 12/05/2018
 ms.keywords: GetTransportBasicParameters, GetTransportBasicParameters method [DirectShow], GetTransportBasicParameters method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetTransportBasicParameters method, IAMExtTransport.GetTransportBasicParameters, IAMExtTransport::GetTransportBasicParameters, IAMExtTransportGetTransportBasicParameters, dshow.iamexttransport_gettransportbasicparameters, strmif/IAMExtTransport::GetTransportBasicParameters
-ms.topic: method
 f1_keywords:
 - strmif/IAMExtTransport.GetTransportBasicParameters
 dev_langs:

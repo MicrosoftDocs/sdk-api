@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 6c3240f7-5121-401d-a4d4-df3055cb301a
 ms.date: 12/05/2018
 ms.keywords: CertSelectionGetSerializedBlob, CertSelectionGetSerializedBlob function [Security], cryptuiapi/CertSelectionGetSerializedBlob, security.certselectiongetserializedblob
-ms.topic: function
 f1_keywords:
 - cryptuiapi/CertSelectionGetSerializedBlob
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcallbackmask.htm
 ms.date: 12/05/2018
 ms.keywords: LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_OVERLAYMASK, LVIS_SELECTED, LVIS_STATEIMAGEMASK, ListView_SetCallbackMask, ListView_SetCallbackMask macro [Windows Controls], _win32_ListView_SetCallbackMask, _win32_ListView_SetCallbackMask_cpp, commctrl/ListView_SetCallbackMask, controls.ListView_SetCallbackMask, controls._win32_ListView_SetCallbackMask
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_SetCallbackMask
 dev_langs:

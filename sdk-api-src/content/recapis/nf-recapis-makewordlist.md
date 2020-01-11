@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: b406a646-ab98-4852-af6d-9f4864ad8cf9
 ms.date: 12/05/2018
 ms.keywords: MakeWordList, MakeWordList function [Tablet PC], b406a646-ab98-4852-af6d-9f4864ad8cf9, recapis/MakeWordList, tablet.makewordlist
-ms.topic: function
 f1_keywords:
 - recapis/MakeWordList
 dev_langs:

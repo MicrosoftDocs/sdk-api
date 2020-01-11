@@ -7,7 +7,6 @@ tech.root: tcui
 ms.assetid: 1BFC3B4B-4E48-4FAF-8B52-6E04EB72A064
 ms.date: 12/05/2018
 ms.keywords: ShowProfileCardUI, ShowProfileCardUI function, gamingtcui/ShowProfileCardUI, tcui.showprofilecardui
-ms.topic: function
 f1_keywords:
 - gamingtcui/ShowProfileCardUI
 dev_langs:

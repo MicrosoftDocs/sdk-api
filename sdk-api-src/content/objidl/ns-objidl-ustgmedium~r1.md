@@ -3,7 +3,6 @@ UID: NS:objidl.tagSTGMEDIUM~r1
 title: uSTGMEDIUM
 ms.date: 01/30/19
 ms.keywords: tagSTGMEDIUM, uSTGMEDIUM
-ms.topic: language-reference
 f1_keywords:
 - objidl/tagSTGMEDIUM
 dev_langs:

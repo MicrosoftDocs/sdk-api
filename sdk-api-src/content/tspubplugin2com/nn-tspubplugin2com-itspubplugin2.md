@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 1ef27b3a-b897-4757-803d-d3a18959895c
 ms.date: 12/05/2018
 ms.keywords: ItsPubPlugin2, ItsPubPlugin2 interface [Remote Desktop Services], ItsPubPlugin2 interface [Remote Desktop Services],described, termserv.itspubplugin2, tspubplugin2com/ItsPubPlugin2
-ms.topic: interface
 f1_keywords:
 - tspubplugin2com/ItsPubPlugin2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 08a5fa73-4583-4e87-bddb-09bfbfe1b36f
 ms.date: 12/05/2018
 ms.keywords: DnsReleaseContextHandle, DnsReleaseContextHandle function [DNS], _dns_dnsreleasecontexthandle, dns.dnsreleasecontexthandle, windns/DnsReleaseContextHandle
-ms.topic: function
 f1_keywords:
 - windns/DnsReleaseContextHandle
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: dff90887-90d5-48a4-a400-31d99de27d39
 ms.date: 12/05/2018
 ms.keywords: GetPeerDownloadStats, GetPeerDownloadStats method [BITS], GetPeerDownloadStats method [BITS],IBackgroundCopyFile4 interface, IBackgroundCopyFile4 interface [BITS],GetPeerDownloadStats method, IBackgroundCopyFile4.GetPeerDownloadStats, IBackgroundCopyFile4::GetPeerDownloadStats, bits.ibackgroundcopyfile4_getpeerdownloadstats, bits4_0/IBackgroundCopyFile4::GetPeerDownloadStats
-ms.topic: method
 f1_keywords:
 - bits4_0/IBackgroundCopyFile4.GetPeerDownloadStats
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 3971089A-2779-42FA-8FF9-6C7C8E39C7F9
 ms.date: 12/05/2018
 ms.keywords: ID3D12StateObjectProperties, ID3D12StateObjectProperties interface, ID3D12StateObjectProperties interface,described, d3d12/ID3D12StateObjectProperties, direct3d12.id3d12stateobjectproperties
-ms.topic: interface
 f1_keywords:
 - d3d12/ID3D12StateObjectProperties
 dev_langs:

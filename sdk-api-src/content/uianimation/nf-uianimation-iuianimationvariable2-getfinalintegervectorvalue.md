@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 191DA982-E3F1-4E37-A4D8-7813201E6B6B
 ms.date: 12/05/2018
 ms.keywords: GetFinalIntegerVectorValue, GetFinalIntegerVectorValue method [Windows Animation], GetFinalIntegerVectorValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetFinalIntegerVectorValue method, IUIAnimationVariable2.GetFinalIntegerVectorValue, IUIAnimationVariable2::GetFinalIntegerVectorValue, uianimation.iuianimationvariable2_getfinalintegervectorvalue, uianimation/IUIAnimationVariable2::GetFinalIntegerVectorValue
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationVariable2.GetFinalIntegerVectorValue
 dev_langs:

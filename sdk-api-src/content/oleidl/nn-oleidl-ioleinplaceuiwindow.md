@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3cfb31aa-9746-438c-af64-8236c170fe88
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceUIWindow, IOleInPlaceUIWindow interface [COM], IOleInPlaceUIWindow interface [COM],described, _ole_ioleinplaceuiwindow, com.ioleinplaceuiwindow, oleidl/IOleInPlaceUIWindow
-ms.topic: interface
 f1_keywords:
 - oleidl/IOleInPlaceUIWindow
 dev_langs:

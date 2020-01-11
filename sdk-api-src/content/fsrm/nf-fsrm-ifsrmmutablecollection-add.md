@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 916f01de-c87c-450c-859a-c349a165f91d
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [File Server Resource Manager], Add method [File Server Resource Manager],IFsrmMutableCollection interface, IFsrmMutableCollection interface [File Server Resource Manager],Add method, IFsrmMutableCollection.Add, IFsrmMutableCollection::Add, fs.ifsrmmutablecollection_add, fsrm.ifsrmmutablecollection_add, fsrm/IFsrmMutableCollection::Add
-ms.topic: method
 f1_keywords:
 - fsrm/IFsrmMutableCollection.Add
 dev_langs:

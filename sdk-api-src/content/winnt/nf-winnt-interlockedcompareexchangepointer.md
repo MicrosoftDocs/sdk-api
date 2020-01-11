@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 15c1fadd-9e0d-4254-ae14-82b0ce46909e
 ms.date: 12/05/2018
 ms.keywords: InterlockedCompareExchangePointer, InterlockedCompareExchangePointer function, _win32_interlockedcompareexchangepointer, base.interlockedcompareexchangepointer, winnt/InterlockedCompareExchangePointer
-ms.topic: function
 f1_keywords:
 - winnt/InterlockedCompareExchangePointer
 dev_langs:

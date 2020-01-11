@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 5962f5f6-a121-4234-8dcd-24c0e2b53990
 ms.date: 12/05/2018
 ms.keywords: CreateRefresher, CreateRefresher method [Windows Management Instrumentation], CreateRefresher method [Windows Management Instrumentation],IWbemHiPerfProvider interface, IWbemHiPerfProvider interface [Windows Management Instrumentation],CreateRefresher method, IWbemHiPerfProvider.CreateRefresher, IWbemHiPerfProvider::CreateRefresher, _hmm_iwbemhiperfprovider_createrefresher, wbemprov/IWbemHiPerfProvider::CreateRefresher, wmi.iwbemhiperfprovider_createrefresher
-ms.topic: method
 f1_keywords:
 - wbemprov/IWbemHiPerfProvider.CreateRefresher
 dev_langs:

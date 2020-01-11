@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0647d629-79f0-4c62-a346-8d99646469c6
 ms.date: 12/05/2018
 ms.keywords: CanSeekForward, CanSeekForward method [DirectShow], CanSeekForward method [DirectShow],IMediaPosition interface, IMediaPosition interface [DirectShow],CanSeekForward method, IMediaPosition.CanSeekForward, IMediaPosition::CanSeekForward, IMediaPositionCanSeekForward, control/IMediaPosition::CanSeekForward, dshow.imediaposition_canseekforward
-ms.topic: method
 f1_keywords:
 - control/IMediaPosition.CanSeekForward
 dev_langs:

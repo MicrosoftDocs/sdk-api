@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7f21e564-97c6-4f9d-a4fa-160b78dbfc2f
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [Windows Shell], GetData method [Windows Shell],IQueryAssociations interface, IQueryAssociations interface [Windows Shell],GetData method, IQueryAssociations.GetData, IQueryAssociations::GetData, _win32_IQueryAssociations_GetData, shell.IQueryAssociations_GetData, shlwapi/IQueryAssociations::GetData
-ms.topic: method
 f1_keywords:
 - shlwapi/IQueryAssociations.GetData
 dev_langs:

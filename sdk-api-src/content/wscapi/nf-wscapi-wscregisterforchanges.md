@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 55f2d281-6308-4344-98dc-3b1c7cbee9df
 ms.date: 12/05/2018
 ms.keywords: WscRegisterForChanges, WscRegisterForChanges function [Windows API], winprog.wscregisterforchanges, wscapi/WscRegisterForChanges
-ms.topic: function
 f1_keywords:
 - wscapi/WscRegisterForChanges
 dev_langs:

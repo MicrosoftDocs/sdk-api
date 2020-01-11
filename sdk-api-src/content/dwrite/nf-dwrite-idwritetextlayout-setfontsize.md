@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 73698726-e329-4367-87be-f2043e1f5591
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontSize method, IDWriteTextLayout.SetFontSize, IDWriteTextLayout::SetFontSize, SetFontSize, SetFontSize method [Direct Write], SetFontSize method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetFontSize, dwrite/IDWriteTextLayout::SetFontSize
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextLayout.SetFontSize
 dev_langs:

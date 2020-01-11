@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 0355f164-f883-4502-bd55-a6d0d60fca4e
 ms.date: 12/05/2018
 ms.keywords: IMonthlyTrigger interface [Task Scheduler],RunOnLastDayOfMonth property, IMonthlyTrigger.RunOnLastDayOfMonth, IMonthlyTrigger.get_RunOnLastDayOfMonth, IMonthlyTrigger::RunOnLastDayOfMonth, IMonthlyTrigger::get_RunOnLastDayOfMonth, IMonthlyTrigger::put_RunOnLastDayOfMonth, RunOnLastDayOfMonth property [Task Scheduler], RunOnLastDayOfMonth property [Task Scheduler],IMonthlyTrigger interface, get_RunOnLastDayOfMonth, taskschd.imonthlytrigger_runonlastdayofmonth, taskschd/IMonthlyTrigger::RunOnLastDayOfMonth, taskschd/IMonthlyTrigger::get_RunOnLastDayOfMonth, taskschd/IMonthlyTrigger::put_RunOnLastDayOfMonth
-ms.topic: method
 f1_keywords:
 - taskschd/IMonthlyTrigger.RunOnLastDayOfMonth
 dev_langs:

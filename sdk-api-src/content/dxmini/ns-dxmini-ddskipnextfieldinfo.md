@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: ae9de986-ed63-4c39-b882-e57cdda31863
 ms.date: 12/05/2018
 ms.keywords: '*PDDSKIPNEXTFIELDINFO, DDSKIPNEXTFIELDINFO, DDSKIPNEXTFIELDINFO structure [Display Devices], PDDSKIPNEXTFIELDINFO, PDDSKIPNEXTFIELDINFO structure pointer [Display Devices], Video_Structs_13064c2a-b18d-467e-8aa9-0fbc6241eb99.xml, display.ddskipnextfieldinfo, dxmini/DDSKIPNEXTFIELDINFO, dxmini/PDDSKIPNEXTFIELDINFO'
-ms.topic: struct
 f1_keywords:
 - dxmini/DDSKIPNEXTFIELDINFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 99f4b38e-bb7f-41a8-ad3a-dd0ee7213699
 ms.date: 12/05/2018
 ms.keywords: IEnumTfFunctionProviders interface [Text Services Framework],Reset method, IEnumTfFunctionProviders.Reset, IEnumTfFunctionProviders::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfFunctionProviders interface, _tsf_ienumtffunctionproviders_reset_ref, msctf/IEnumTfFunctionProviders::Reset, tsf.ienumtffunctionproviders_reset
-ms.topic: method
 f1_keywords:
 - msctf/IEnumTfFunctionProviders.Reset
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 662ff6ee-d6b1-4cb1-8ff8-b4c1e17b26df
 ms.date: 12/05/2018
 ms.keywords: '*LPDDVIDEOPORTDATA, DDVIDEOPORTDATA, DDVIDEOPORTDATA structure [Display Devices], LPDDVIDEOPORTDATA, LPDDVIDEOPORTDATA structure pointer [Display Devices], Video_Structs_2c27c41d-7b5c-4e72-a362-ca2699099ef4.xml, display.ddvideoportdata, dxmini/DDVIDEOPORTDATA, dxmini/LPDDVIDEOPORTDATA'
-ms.topic: struct
 f1_keywords:
 - dxmini/DDVIDEOPORTDATA
 dev_langs:

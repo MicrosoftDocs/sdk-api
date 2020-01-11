@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getframedimensionscount.htm
 ms.date: 12/05/2018
 ms.keywords: GetFrameDimensionsCount, GetFrameDimensionsCount method [GDI+], GetFrameDimensionsCount method [GDI+],Image class, Image class [GDI+],GetFrameDimensionsCount method, Image.GetFrameDimensionsCount, Image::GetFrameDimensionsCount, _gdiplus_CLASS_Image_GetFrameDimensionsCount_, gdiplus._gdiplus_CLASS_Image_GetFrameDimensionsCount_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Image.GetFrameDimensionsCount
 dev_langs:

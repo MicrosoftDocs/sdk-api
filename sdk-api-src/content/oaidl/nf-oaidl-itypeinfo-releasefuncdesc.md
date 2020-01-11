@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 5c407301-87fd-4f79-89e1-c6db5d1cf36b
 ms.date: 12/05/2018
 ms.keywords: ITypeInfo interface [Automation],ReleaseFuncDesc method, ITypeInfo.ReleaseFuncDesc, ITypeInfo::ReleaseFuncDesc, ReleaseFuncDesc, ReleaseFuncDesc method [Automation], ReleaseFuncDesc method [Automation],ITypeInfo interface, _oa96_ITypeInfo_ReleaseFuncDesc, automat.itypeinfo_releasefuncdesc, oaidl/ITypeInfo::ReleaseFuncDesc
-ms.topic: method
 f1_keywords:
 - oaidl/ITypeInfo.ReleaseFuncDesc
 dev_langs:

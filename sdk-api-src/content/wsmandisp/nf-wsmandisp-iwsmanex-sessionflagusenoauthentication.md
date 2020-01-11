@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: af3f7512-c1d5-4c4d-b79a-b0bf8b95be6d
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseNoAuthentication method, IWSManEx.SessionFlagUseNoAuthentication, IWSManEx::SessionFlagUseNoAuthentication, SessionFlagUseNoAuthentication, SessionFlagUseNoAuthentication method [Windows Remote Management], SessionFlagUseNoAuthentication method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusenoauthentication, wsmandisp/IWSManEx::SessionFlagUseNoAuthentication
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManEx.SessionFlagUseNoAuthentication
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 0f6e4d4f-4295-44ff-95bc-e683bdbab8e0
 ms.date: 12/05/2018
 ms.keywords: IWMReaderCallback interface [windows Media Format],OnSample method, IWMReaderCallback.OnSample, IWMReaderCallback::OnSample, IWMReaderCallbackOnSample, OnSample, OnSample method [windows Media Format], OnSample method [windows Media Format],IWMReaderCallback interface, wmformat.iwmreadercallback_onsample, wmsdkidl/IWMReaderCallback::OnSample
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderCallback.OnSample
 dev_langs:

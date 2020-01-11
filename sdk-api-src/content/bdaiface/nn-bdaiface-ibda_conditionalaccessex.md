@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 9db9b6b1-fc4f-48f0-940e-d79a321ef094
 ms.date: 12/05/2018
 ms.keywords: IBDA_ConditionalAccessEx, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies], IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],described, bdaiface/IBDA_ConditionalAccessEx, mstv.ibda_conditionalaccessex
-ms.topic: interface
 f1_keywords:
 - bdaiface/IBDA_ConditionalAccessEx
 dev_langs:

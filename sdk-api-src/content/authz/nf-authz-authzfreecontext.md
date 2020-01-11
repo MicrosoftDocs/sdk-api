@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: cad9fff0-9aa6-4cb2-a34f-94cf72f66bca
 ms.date: 12/05/2018
 ms.keywords: AuthzFreeContext, AuthzFreeContext function [Security], _win32_authzfreecontext, authz/AuthzFreeContext, security.authzfreecontext
-ms.topic: function
 f1_keywords:
 - authz/AuthzFreeContext
 dev_langs:

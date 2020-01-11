@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\endcontainer.htm
 ms.date: 12/05/2018
 ms.keywords: EndContainer, EndContainer method [GDI+], EndContainer method [GDI+],Graphics class, Graphics class [GDI+],EndContainer method, Graphics.EndContainer, Graphics::EndContainer, _gdiplus_CLASS_Graphics_EndContainer_state_, gdiplus._gdiplus_CLASS_Graphics_EndContainer_state_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.EndContainer
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 7b92f95b-9a75-4f24-b6ed-34ababfbbaa9
 ms.date: 12/05/2018
 ms.keywords: Help property [Windows Accessibility], Help property [Windows Accessibility],ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider interface [Windows Accessibility],Help property, ILegacyIAccessibleProvider.Help, ILegacyIAccessibleProvider.get_Help, ILegacyIAccessibleProvider::Help, ILegacyIAccessibleProvider::get_Help, get_Help, uiauto.uiauto_ILegacyIAccessibleProvider_Help, uiauto_ILegacyIAccessibleProvider_Help, uiautomationcore/ILegacyIAccessibleProvider::Help, uiautomationcore/ILegacyIAccessibleProvider::get_Help, winauto.uiauto_ILegacyIAccessibleProvider_Help
-ms.topic: method
 f1_keywords:
 - uiautomationcore/ILegacyIAccessibleProvider.Help
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a341be9d-9801-4215-840d-7d581e9ec3cb
 ms.date: 12/05/2018
 ms.keywords: IVMRAspectRatioControl, IVMRAspectRatioControl interface [DirectShow], IVMRAspectRatioControl interface [DirectShow],described, IVMRAspectRatioControlInterface, dshow.ivmraspectratiocontrol, strmif/IVMRAspectRatioControl
-ms.topic: interface
 f1_keywords:
 - strmif/IVMRAspectRatioControl
 dev_langs:

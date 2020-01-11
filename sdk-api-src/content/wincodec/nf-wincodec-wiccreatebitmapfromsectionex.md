@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 0c9892a5-c136-41f6-8161-8077afe1a9da
 ms.date: 12/05/2018
 ms.keywords: WICCreateBitmapFromSectionEx, WICCreateBitmapFromSectionEx function [Windows Imaging Component], _wic_codec_wiccreatebitmapfromsectionex, wic._wic_codec_wiccreatebitmapfromsectionex, wincodec/WICCreateBitmapFromSectionEx
-ms.topic: function
 f1_keywords:
 - wincodec/WICCreateBitmapFromSectionEx
 dev_langs:

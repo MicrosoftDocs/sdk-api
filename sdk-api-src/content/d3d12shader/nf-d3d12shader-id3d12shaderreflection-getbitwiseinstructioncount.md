@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 6862DC01-E75B-4913-882C-27C1CC659086
 ms.date: 12/05/2018
 ms.keywords: GetBitwiseInstructionCount, GetBitwiseInstructionCount method, GetBitwiseInstructionCount method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetBitwiseInstructionCount method, ID3D12ShaderReflection.GetBitwiseInstructionCount, ID3D12ShaderReflection::GetBitwiseInstructionCount, d3d12shader/ID3D12ShaderReflection::GetBitwiseInstructionCount, direct3d12.id3d12shaderreflection_getbitwiseinstructioncount
-ms.topic: method
 f1_keywords:
 - d3d12shader/ID3D12ShaderReflection.GetBitwiseInstructionCount
 dev_langs:

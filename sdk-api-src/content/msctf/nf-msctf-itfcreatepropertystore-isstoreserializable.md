@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: f5fdd81f-266b-4ff3-ab44-2d1c89a7aaea
 ms.date: 12/05/2018
 ms.keywords: ITfCreatePropertyStore interface [Text Services Framework],IsStoreSerializable method, ITfCreatePropertyStore.IsStoreSerializable, ITfCreatePropertyStore::IsStoreSerializable, IsStoreSerializable, IsStoreSerializable method [Text Services Framework], IsStoreSerializable method [Text Services Framework],ITfCreatePropertyStore interface, _tsf_itfcreatepropertystore_isstoreserializable_ref, msctf/ITfCreatePropertyStore::IsStoreSerializable, tsf.itfcreatepropertystore_isstoreserializable
-ms.topic: method
 f1_keywords:
 - msctf/ITfCreatePropertyStore.IsStoreSerializable
 dev_langs:

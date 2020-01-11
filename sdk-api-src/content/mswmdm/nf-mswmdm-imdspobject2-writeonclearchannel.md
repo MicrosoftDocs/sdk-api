@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 9c80f382-2536-4f08-9111-94ad757747f7
 ms.date: 12/05/2018
 ms.keywords: IMDSPObject2 interface [windows Media Device Manager],WriteOnClearChannel method, IMDSPObject2.WriteOnClearChannel, IMDSPObject2::WriteOnClearChannel, IMDSPObject2WriteOnClearChannel, WriteOnClearChannel, WriteOnClearChannel method [windows Media Device Manager], WriteOnClearChannel method [windows Media Device Manager],IMDSPObject2 interface, mswmdm/IMDSPObject2::WriteOnClearChannel, wmdm.imdspobject2_writeonclearchannel
-ms.topic: method
 f1_keywords:
 - mswmdm/IMDSPObject2.WriteOnClearChannel
 dev_langs:

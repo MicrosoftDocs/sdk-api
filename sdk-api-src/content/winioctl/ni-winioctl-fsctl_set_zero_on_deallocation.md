@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: dc926f24-de52-431b-bac2-f97535de6848
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_ZERO_ON_DEALLOCATION, FSCTL_SET_ZERO_ON_DEALLOCATION control, FSCTL_SET_ZERO_ON_DEALLOCATION control code [Files], fs.fsctl_set_zero_on_deallocation, winioctl/FSCTL_SET_ZERO_ON_DEALLOCATION
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_SET_ZERO_ON_DEALLOCATION
 dev_langs:

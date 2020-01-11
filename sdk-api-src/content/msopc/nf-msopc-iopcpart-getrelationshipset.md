@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: a8a8ce1f-3420-457f-b02a-5dc3e9725a02
 ms.date: 12/05/2018
 ms.keywords: GetRelationshipSet, GetRelationshipSet method [Open Packaging Conventions], GetRelationshipSet method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetRelationshipSet method, IOpcPart.GetRelationshipSet, IOpcPart::GetRelationshipSet, msopc/IOpcPart::GetRelationshipSet, opc.iopcpart_getrelationshipset
-ms.topic: method
 f1_keywords:
 - msopc/IOpcPart.GetRelationshipSet
 dev_langs:

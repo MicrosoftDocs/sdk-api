@@ -5,7 +5,6 @@ description: Assigns the vector component data from one instance of XMXDEC4 to t
 ms.assetid: c5472b9e-619f-4760-9db6-54cd191e5007
 ms.date: 05/20/2019
 ms.keywords: XMXDEC4::operator=
-ms.topic: language-reference
 f1_keywords:
 - directxpackedvector/XMXDEC4::operator=
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: f3ecc5e6-a6d7-4c68-b8c2-8ff94c810545
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],AddRange method, IFolderActionCollection.AddRange, IFolderActionCollection::AddRange, base.ifolderactioncollection_addrange, pla.ifolderactioncollection_addrange, pla/IFolderActionCollection::AddRange
-ms.topic: method
 f1_keywords:
 - pla/IFolderActionCollection.AddRange
 dev_langs:

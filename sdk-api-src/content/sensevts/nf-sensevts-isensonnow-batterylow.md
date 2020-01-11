@@ -7,7 +7,6 @@ tech.root: Sens
 ms.assetid: 78b305ef-761b-48b8-8f1b-371a75df4edb
 ms.date: 12/05/2018
 ms.keywords: BatteryLow, BatteryLow method [SENS], BatteryLow method [SENS],ISensOnNow interface, ISensOnNow interface [SENS],BatteryLow method, ISensOnNow.BatteryLow, ISensOnNow::BatteryLow, _zaw_isensonnow_batterylow, sens.isensonnow_batterylow, sensevts/ISensOnNow::BatteryLow, syncmgr.isensonnow_batterylow
-ms.topic: method
 f1_keywords:
 - sensevts/ISensOnNow.BatteryLow
 dev_langs:

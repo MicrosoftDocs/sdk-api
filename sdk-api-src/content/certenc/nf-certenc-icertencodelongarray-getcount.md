@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: f60cffb1-5202-4dc8-97dd-9eddd381602a
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeLongArray object [Security],GetCount method, GetCount, GetCount method [Security], GetCount method [Security],CCertEncodeLongArray object, GetCount method [Security],ICertEncodeLongArray interface, ICertEncodeLongArray interface [Security],GetCount method, ICertEncodeLongArray.GetCount, ICertEncodeLongArray::GetCount, _certsrv_icertencodelongarray_getcount, certenc/ICertEncodeLongArray::GetCount, security.icertencodelongarray_getcount
-ms.topic: method
 f1_keywords:
 - certenc/ICertEncodeLongArray.GetCount
 dev_langs:

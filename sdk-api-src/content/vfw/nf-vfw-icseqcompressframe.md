@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 6159e455-1e1a-4aa5-9d75-53cd2af2656a
 ms.date: 12/05/2018
 ms.keywords: ICSeqCompressFrame, ICSeqCompressFrame function [Windows Multimedia], _win32_ICSeqCompressFrame, multimedia.icseqcompressframe, vfw/ICSeqCompressFrame
-ms.topic: function
 f1_keywords:
 - vfw/ICSeqCompressFrame
 dev_langs:

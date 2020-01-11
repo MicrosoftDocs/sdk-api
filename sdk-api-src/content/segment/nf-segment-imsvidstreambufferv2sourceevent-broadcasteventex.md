@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 731baecc-72f9-4ecd-bc01-40ad31c67051
 ms.date: 12/05/2018
 ms.keywords: BroadcastEventEx, BroadcastEventEx method [Microsoft TV Technologies], BroadcastEventEx method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],BroadcastEventEx method, IMSVidStreamBufferV2SourceEvent.BroadcastEventEx, IMSVidStreamBufferV2SourceEvent::BroadcastEventEx, mstv.imsvidstreambufferv2sourceevent_broadcasteventex, segment/IMSVidStreamBufferV2SourceEvent::BroadcastEventEx
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferV2SourceEvent.BroadcastEventEx
 dev_langs:

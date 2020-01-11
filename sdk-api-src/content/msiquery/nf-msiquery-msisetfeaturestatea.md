@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: c7b22484-5a89-44f2-b0ff-6061a7fc5703
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiSetFeatureState, MsiSetFeatureState function, MsiSetFeatureStateA, MsiSetFeatureStateW, _msi_msisetfeaturestate, msiquery/MsiSetFeatureState, msiquery/MsiSetFeatureStateA, msiquery/MsiSetFeatureStateW, setup.msisetfeaturestate
-ms.topic: function
 f1_keywords:
 - msiquery/MsiSetFeatureState
 dev_langs:

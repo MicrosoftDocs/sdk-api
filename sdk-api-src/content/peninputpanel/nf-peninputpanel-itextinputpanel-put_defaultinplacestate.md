@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 00778a2c-9903-46a0-a5b3-c2ac4c355462
 ms.date: 12/05/2018
 ms.keywords: 00778a2c-9903-46a0-a5b3-c2ac4c355462, DefaultInPlaceState property [Tablet PC], DefaultInPlaceState property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],DefaultInPlaceState property, ITextInputPanel.DefaultInPlaceState, ITextInputPanel.get_DefaultInPlaceState, ITextInputPanel.put_DefaultInPlaceState, ITextInputPanel::DefaultInPlaceState, ITextInputPanel::get_DefaultInPlaceState, ITextInputPanel::put_DefaultInPlaceState, peninputpanel/ITextInputPanel::DefaultInPlaceState, peninputpanel/ITextInputPanel::get_DefaultInPlaceState, peninputpanel/ITextInputPanel::put_DefaultInPlaceState, put_DefaultInPlaceState, tablet.itextinputpanel_defaultinplacestate
-ms.topic: method
 f1_keywords:
 - peninputpanel/ITextInputPanel.DefaultInPlaceState
 dev_langs:

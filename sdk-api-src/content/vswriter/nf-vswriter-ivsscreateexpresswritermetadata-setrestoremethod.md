@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 220e399b-aafd-4b72-bef4-abc3f39f202f
 ms.date: 12/05/2018
 ms.keywords: IVssCreateExpressWriterMetadata interface,SetRestoreMethod method, IVssCreateExpressWriterMetadata.SetRestoreMethod, IVssCreateExpressWriterMetadata::SetRestoreMethod, SetRestoreMethod, SetRestoreMethod method, SetRestoreMethod method,IVssCreateExpressWriterMetadata interface, base.ivsscreateexpresswritermetadata_setrestoremethod, vswriter/IVssCreateExpressWriterMetadata::SetRestoreMethod
-ms.topic: method
 f1_keywords:
 - vswriter/IVssCreateExpressWriterMetadata.SetRestoreMethod
 dev_langs:

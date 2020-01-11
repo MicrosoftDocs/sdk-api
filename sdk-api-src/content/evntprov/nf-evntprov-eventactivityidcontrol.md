@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 1c412909-bdff-4181-9750-f3444fda4c8f
 ms.date: 12/05/2018
 ms.keywords: EVENT_ACTIVITY_CTRL_CREATE_ID, EVENT_ACTIVITY_CTRL_CREATE_SET_ID, EVENT_ACTIVITY_CTRL_GET_ID, EVENT_ACTIVITY_CTRL_GET_SET_ID, EVENT_ACTIVITY_CTRL_SET_ID, EventActivityIdControl, EventActivityIdControl function [ETW], base.eventactivityidcontrol_func, etw.eventactivityidcontrol_func, evntprov/EventActivityIdControl
-ms.topic: function
 f1_keywords:
 - evntprov/EventActivityIdControl
 dev_langs:

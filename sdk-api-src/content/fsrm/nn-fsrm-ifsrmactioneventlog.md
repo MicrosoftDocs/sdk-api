@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 418cd7aa-c363-4ab7-9c7e-2d0388483a8f
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionEventLog, IFsrmActionEventLog interface [File Server Resource Manager], IFsrmActionEventLog interface [File Server Resource Manager],described, fs.ifsrmactioneventlog, fsrm.ifsrmactioneventlog, fsrm/IFsrmActionEventLog
-ms.topic: interface
 f1_keywords:
 - fsrm/IFsrmActionEventLog
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: d3ffbf1c-e8c2-44ab-84d2-d32350d04407
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO structure [Security], PCCRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, PCCRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO structure pointer [Security], cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, cryptuiapi/PCCRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, security.cryptui_wiz_digital_sign_store_info'
-ms.topic: struct
 f1_keywords:
 - cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO
 dev_langs:

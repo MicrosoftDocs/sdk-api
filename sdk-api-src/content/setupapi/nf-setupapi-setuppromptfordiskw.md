@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 65ccd3d1-1846-48cb-9fe6-ab5c69845e01
 ms.date: 12/05/2018
 ms.keywords: SetupPromptForDisk, SetupPromptForDisk function [Setup API], SetupPromptForDiskA, SetupPromptForDiskW, _setupapi_setuppromptfordisk, setup.setuppromptfordisk, setupapi/SetupPromptForDisk, setupapi/SetupPromptForDiskA, setupapi/SetupPromptForDiskW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupPromptForDisk
 dev_langs:

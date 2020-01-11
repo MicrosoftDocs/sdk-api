@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: c3639f07-7c8c-4440-ade4-b58abd2586d6
 ms.date: 12/05/2018
 ms.keywords: GPMDomain, IGPMDomain, IGPMDomain interface [GPMC], IGPMDomain interface [GPMC],described, _win32_igpmdomain, gpmc.igpmdomain, gpmgmt/IGPMDomain
-ms.topic: interface
 f1_keywords:
 - gpmgmt/IGPMDomain
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: b53c4a14-9965-4025-95bc-37f460ea2bc9
 ms.date: 12/05/2018
 ms.keywords: '*LPADSVALUE, *PADSVALUE, ADSVALUE, ADSVALUE structure [ADSI], LPADSVALUE, LPADSVALUE structure pointer [ADSI], PADSVALUE, PADSVALUE structure pointer [ADSI], _ds_adsvalue, adsi.adsvalue, iads/ADSVALUE, iads/LPADSVALUE, iads/PADSVALUE'
-ms.topic: struct
 f1_keywords:
 - iads/ADSVALUE
 dev_langs:

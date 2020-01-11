@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: a547e869-3c9f-4408-9895-29fae0cc6066
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllGetInterface, CryptXmlDllGetInterface callback, CryptXmlDllGetInterface callback function [Security], cryptxml/CryptXmlDllGetInterface, security.cryptxmldllgetinterface
-ms.topic: callback
 f1_keywords:
 - cryptxml/CryptXmlDllGetInterface
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 607c5795-8168-4c6b-a2f3-65f31aea5cf5
 ms.date: 12/05/2018
 ms.keywords: '*PDOT11_NETWORK_LIST, DOT11_NETWORK_LIST, DOT11_NETWORK_LIST structure [NativeWIFI], PDOT11_NETWORK_LIST, PDOT11_NETWORK_LIST structure pointer [NativeWIFI], nwifi.dot11_network_list, wlanapi/DOT11_NETWORK_LIST, wlanapi/PDOT11_NETWORK_LIST'
-ms.topic: struct
 f1_keywords:
 - wlanapi/DOT11_NETWORK_LIST
 dev_langs:

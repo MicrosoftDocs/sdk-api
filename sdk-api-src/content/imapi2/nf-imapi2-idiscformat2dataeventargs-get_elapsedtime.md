@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 5ac3c261-dedc-4316-9241-387fc222443d
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2DataEventArgs interface [IMAPI],get_ElapsedTime method, IDiscFormat2DataEventArgs.get_ElapsedTime, IDiscFormat2DataEventArgs::get_ElapsedTime, get_ElapsedTime, get_ElapsedTime method [IMAPI], get_ElapsedTime method [IMAPI],IDiscFormat2DataEventArgs interface, imapi.idiscformat2dataeventargs_get_elapsedtime, imapi2/IDiscFormat2DataEventArgs::get_ElapsedTime
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2DataEventArgs.get_ElapsedTime
 dev_langs:

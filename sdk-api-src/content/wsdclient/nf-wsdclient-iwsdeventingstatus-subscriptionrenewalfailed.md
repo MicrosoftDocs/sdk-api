@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: d76bb6ae-bb4d-4226-be0d-4fd37b0212a9
 ms.date: 12/05/2018
 ms.keywords: IWSDEventingStatus interface,SubscriptionRenewalFailed method, IWSDEventingStatus.SubscriptionRenewalFailed, IWSDEventingStatus::SubscriptionRenewalFailed, SubscriptionRenewalFailed, SubscriptionRenewalFailed method, SubscriptionRenewalFailed method,IWSDEventingStatus interface, ncd.iwsdeventingstatus_subscriptionrenewalfailed, wsdclient/IWSDEventingStatus::SubscriptionRenewalFailed
-ms.topic: method
 f1_keywords:
 - wsdclient/IWSDEventingStatus.SubscriptionRenewalFailed
 dev_langs:

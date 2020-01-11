@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 53e6345a-e303-4ef6-8b4d-b9a3fcacfb13
 ms.date: 12/05/2018
 ms.keywords: LZInit, LZInit function [Files], _win32_lzinit, base.lzinit, fs.lzinit, lzexpand/LZInit
-ms.topic: function
 f1_keywords:
 - lzexpand/LZInit
 dev_langs:

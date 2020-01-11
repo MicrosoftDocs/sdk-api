@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 4b494c6f-f0ee-4c35-ae45-ed956f40dc7a
 ms.date: 05/31/2019
 ms.keywords: IUnknown interface [COM],Release method, IUnknown.Release, IUnknown::Release, Release, Release method [COM], Release method [COM],IUnknown interface, _com_iunknown_release, com.iunknown_release, unknwn/IUnknown::Release
-ms.topic: method
 f1_keywords:
 - unknwn/IUnknown.Release
 dev_langs:

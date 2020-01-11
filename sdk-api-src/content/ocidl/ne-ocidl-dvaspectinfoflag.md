@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 639871a6-85ab-41e2-92fa-7f1e72e9cb38
 ms.date: 12/05/2018
 ms.keywords: DVASPECTINFOFLAG, DVASPECTINFOFLAG enumeration [COM], DVASPECTINFOFLAG_CANOPTIMIZE, _ole_DVASPECTINFOFLAG, com.dvaspectinfoflag, ocidl/DVASPECTINFOFLAG, ocidl/DVASPECTINFOFLAG_CANOPTIMIZE
-ms.topic: enum
 f1_keywords:
 - ocidl/DVASPECTINFOFLAG
 dev_langs:

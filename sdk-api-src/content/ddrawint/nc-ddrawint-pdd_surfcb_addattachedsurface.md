@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 53f146e6-f521-4c95-b98b-0e8acb994c9d
 ms.date: 12/05/2018
 ms.keywords: DdAddAttachedSurface, DdAddAttachedSurface callback function [Display Devices], PDD_SURFCB_ADDATTACHEDSURFACE, PDD_SURFCB_ADDATTACHEDSURFACE callback, ddfncs_b7f5d56d-95b7-4b79-8d20-9ab663582dd2.xml, ddrawint/DdAddAttachedSurface, display.ddaddattachedsurface
-ms.topic: callback
 f1_keywords:
 - ddrawint/DdAddAttachedSurface
 dev_langs:

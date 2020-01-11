@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4quc.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingJob interface [Fax Service],TransmissionEnd property, IFaxIncomingJob.TransmissionEnd, IFaxIncomingJob.get_TransmissionEnd, IFaxIncomingJob::TransmissionEnd, IFaxIncomingJob::get_TransmissionEnd, TransmissionEnd property [Fax Service], TransmissionEnd property [Fax Service],IFaxIncomingJob interface, _mfax_faxincomingjob.transmissionend, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_transmissionend_cpp, fax._mfax_faxincomingjob_transmissionend, faxcomex/IFaxIncomingJob::TransmissionEnd, faxcomex/IFaxIncomingJob::get_TransmissionEnd, get_TransmissionEnd
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxIncomingJob.TransmissionEnd
 dev_langs:

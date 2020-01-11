@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: f369f719-7db6-4a79-a5fa-d174bf12acbc
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_CurrentWriteSpeed method, IDiscFormat2RawCD.get_CurrentWriteSpeed, IDiscFormat2RawCD::get_CurrentWriteSpeed, get_CurrentWriteSpeed, get_CurrentWriteSpeed method [IMAPI], get_CurrentWriteSpeed method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_currentwritespeed, imapi2/IDiscFormat2RawCD::get_CurrentWriteSpeed
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2RawCD.get_CurrentWriteSpeed
 dev_langs:

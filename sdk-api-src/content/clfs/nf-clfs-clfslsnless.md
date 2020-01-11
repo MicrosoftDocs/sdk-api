@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: 610023f3-6017-480f-9a0c-807e81a50e84
 ms.date: 12/05/2018
 ms.keywords: ClfsLsnLess, LsnLess, LsnLess function [Files], clfs/LsnLess, fs.lsnless
-ms.topic: function
 f1_keywords:
 - clfs/LsnLess
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 3b55b1b0-a423-40dc-9581-c1fbe8134ca5
 ms.date: 12/05/2018
 ms.keywords: CreateHwndRenderTarget, CreateHwndRenderTarget methods [Direct2D], ID2D1Factory.CreateHwndRenderTarget, ID2D1Factory::CreateHwndRenderTarget, d2d1/CreateHwndRenderTarget, direct2d.id2d1factory_createhwndrendertarget
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1Factory::CreateHwndRenderTarget
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_grow.htm
 ms.date: 12/05/2018
 ms.keywords: DPA_Grow, DPA_Grow function [Windows Controls], _shell_DPA_Grow, _shell_DPA_Grow_cpp, controls.DPA_Grow, controls._shell_DPA_Grow, dpa_dsa/DPA_Grow
-ms.topic: function
 f1_keywords:
 - dpa_dsa/DPA_Grow
 dev_langs:

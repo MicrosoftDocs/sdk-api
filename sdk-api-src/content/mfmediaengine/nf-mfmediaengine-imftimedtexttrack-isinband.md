@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 02B69F41-313A-4792-BB0C-D14A02738002
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextTrack interface [Media Foundation],IsInBand method, IMFTimedTextTrack.IsInBand, IMFTimedTextTrack::IsInBand, IsInBand, IsInBand method [Media Foundation], IsInBand method [Media Foundation],IMFTimedTextTrack interface, mf.imftimedtexttrack_isinband, mfmediaengine/IMFTimedTextTrack::IsInBand
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextTrack.IsInBand
 dev_langs:

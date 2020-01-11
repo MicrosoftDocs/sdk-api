@@ -5,7 +5,6 @@ description: The GraphicsPath::AddRectangle method adds a rectangle to this path
 ms.assetid: 3b7288d2-c5b9-4b3b-be6f-218ad8511217
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddRectangle
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/GraphicsPath::AddRectangle
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 74ED381D-3BF5-4E43-85DA-8CD53C821979
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],LanguageTag property, ISpellCheckProvider.LanguageTag, ISpellCheckProvider.get_LanguageTag, ISpellCheckProvider::LanguageTag, ISpellCheckProvider::get_LanguageTag, LanguageTag property [Internationalization for Windows Applications], LanguageTag property [Internationalization for Windows Applications],ISpellCheckProvider interface, get_LanguageTag, intl.ispellcheckprovider_languagetag, spellcheckprovider/ISpellCheckProvider::LanguageTag, spellcheckprovider/ISpellCheckProvider::get_LanguageTag
-ms.topic: method
 f1_keywords:
 - spellcheckprovider/ISpellCheckProvider.LanguageTag
 dev_langs:

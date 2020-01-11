@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 33f1d79a-33fc-4ce5-a372-e08bda378332
 ms.date: 06/05/2019
 ms.keywords: IUnknown, IUnknown interface [COM], IUnknown interface [COM],described, _com_iunknown, com.iunknown, unknwn/IUnknown
-ms.topic: interface
 f1_keywords:
 - unknwn/IUnknown
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: bef92133-ae6c-4013-9210-5e0f0be2002c
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocator, IMFVideoSampleAllocator interface [Media Foundation], IMFVideoSampleAllocator interface [Media Foundation],described, bef92133-ae6c-4013-9210-5e0f0be2002c, mf.imfvideosampleallocator, mfidl/IMFVideoSampleAllocator
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFVideoSampleAllocator
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 7be485ce-fd45-4968-9e9d-2128d5a8967d
 ms.date: 12/05/2018
 ms.keywords: MprAdminTerminateDll, MprAdminTerminateDll callback, MprAdminTerminateDll callback function [RAS], _mpr_mpradminterminatedll, mprapi/MprAdminTerminateDll, rras.mpradminterminatedll
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminTerminateDll
 dev_langs:

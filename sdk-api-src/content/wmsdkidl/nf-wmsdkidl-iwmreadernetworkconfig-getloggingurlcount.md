@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 869e093f-8936-4b60-8818-ee2c57924d11
 ms.date: 12/05/2018
 ms.keywords: GetLoggingUrlCount, GetLoggingUrlCount method [windows Media Format], GetLoggingUrlCount method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetLoggingUrlCount method, IWMReaderNetworkConfig.GetLoggingUrlCount, IWMReaderNetworkConfig::GetLoggingUrlCount, IWMReaderNetworkConfigGetLoggingUrlCount, wmformat.iwmreadernetworkconfig_getloggingurlcount, wmsdkidl/IWMReaderNetworkConfig::GetLoggingUrlCount
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderNetworkConfig.GetLoggingUrlCount
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: E8038442-9E96-4eee-968E-3A6BC747852D
 ms.date: 12/05/2018
 ms.keywords: IFrameworkInputPaneHandler, IFrameworkInputPaneHandler interface [Windows Shell], IFrameworkInputPaneHandler interface [Windows Shell],described, shell.IFrameworkInputPaneHandler, shobjidl_core/IFrameworkInputPaneHandler
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IFrameworkInputPaneHandler
 dev_langs:

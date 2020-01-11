@@ -8,7 +8,6 @@ tech.root: Multimedia
 ms.assetid: ff8ed190-5e90-4be1-8f14-0d288ce0837c
 ms.date: 12/05/2018
 ms.keywords: IAVIStreaming, IAVIStreaming interface [Windows Multimedia], IAVIStreaming interface [Windows Multimedia],described, _win32_IAVIStreaming, multimedia.iavistreaming, vfw/IAVIStreaming
-ms.topic: interface
 f1_keywords:
 - vfw/IAVIStreaming
 dev_langs:

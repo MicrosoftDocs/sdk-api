@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: a5a3003f-9343-415d-b30f-32b479232db8
 ms.date: 12/05/2018
 ms.keywords: MI_ContextFT, MI_ContextFT structure [Windows Management Infrastructure (MI)], mi/MI_ContextFT, wmi_v2.mi_contextft
-ms.topic: struct
 f1_keywords:
 - mi/MI_ContextFT
 dev_langs:

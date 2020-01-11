@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: BCBC382E-C599-429A-9E00-EAB12D675503
 ms.date: 12/05/2018
 ms.keywords: HasCharacter, HasCharacter method [Direct Write], HasCharacter method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],HasCharacter method, IDWriteFontFace3.HasCharacter, IDWriteFontFace3::HasCharacter, directwrite.idwritefontface3_hascharacter, dwrite_3/IDWriteFontFace3::HasCharacter
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontFace3.HasCharacter
 dev_langs:

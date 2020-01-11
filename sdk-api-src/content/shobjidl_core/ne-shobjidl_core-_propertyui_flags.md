@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 97c4efbf-75af-425a-8ba8-b28f7a7445ff
 ms.date: 12/05/2018
 ms.keywords: PROPERTYUI_FLAGS, PROPERTYUI_FLAGS enumeration [Windows Properties], PUIF_DEFAULT, PUIF_NOLABELININFOTIP, PUIF_RIGHTALIGN, _PROPERTYUI_FLAGS, _shell_PROPERTYUI_FLAGS, properties.PROPERTYUI_FLAGS, shell.PROPERTYUI_FLAGS, shobjidl_core/PROPERTYUI_FLAGS, shobjidl_core/PUIF_DEFAULT, shobjidl_core/PUIF_NOLABELININFOTIP, shobjidl_core/PUIF_RIGHTALIGN
-ms.topic: enum
 f1_keywords:
 - shobjidl_core/PROPERTYUI_FLAGS
 dev_langs:

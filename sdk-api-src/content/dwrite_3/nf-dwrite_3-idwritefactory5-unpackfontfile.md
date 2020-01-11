@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: F82863DC-BFC8-49D3-93C5-DCA45093F81A
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory5 interface [Direct Write],UnpackFontFile method, IDWriteFactory5.UnpackFontFile, IDWriteFactory5::UnpackFontFile, UnpackFontFile, UnpackFontFile method [Direct Write], UnpackFontFile method [Direct Write],IDWriteFactory5 interface, directwrite.idwritefactory5_unpackfontfile, dwrite_3/IDWriteFactory5::UnpackFontFile
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFactory5.UnpackFontFile
 dev_langs:

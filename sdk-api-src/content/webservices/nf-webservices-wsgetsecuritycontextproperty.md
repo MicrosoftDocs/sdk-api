@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 7ef32fbe-0b50-4ede-96af-075137df340d
 ms.date: 12/05/2018
 ms.keywords: WsGetSecurityContextProperty, WsGetSecurityContextProperty function [Web Services for Windows], webservices/WsGetSecurityContextProperty, wsw.wsgetsecuritycontextproperty
-ms.topic: function
 f1_keywords:
 - webservices/WsGetSecurityContextProperty
 dev_langs:

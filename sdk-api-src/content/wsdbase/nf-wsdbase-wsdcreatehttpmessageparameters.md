@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 43797991-7a9c-42f8-bf64-655bde014487
 ms.date: 12/05/2018
 ms.keywords: WSDCreateHttpMessageParameters, WSDCreateHttpMessageParameters function, ncd.wsdcreatehttpmessageparameters, wsdbase/WSDCreateHttpMessageParameters
-ms.topic: function
 f1_keywords:
 - wsdbase/WSDCreateHttpMessageParameters
 dev_langs:

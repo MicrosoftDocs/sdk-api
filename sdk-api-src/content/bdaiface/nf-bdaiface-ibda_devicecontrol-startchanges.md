@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 989cdd9b-ea5b-4a80-b157-9469a210b966
 ms.date: 12/05/2018
 ms.keywords: IBDA_DeviceControl interface [Microsoft TV Technologies],StartChanges method, IBDA_DeviceControl.StartChanges, IBDA_DeviceControl::StartChanges, IBDA_DeviceControlStartChanges, StartChanges, StartChanges method [Microsoft TV Technologies], StartChanges method [Microsoft TV Technologies],IBDA_DeviceControl interface, bdaiface/IBDA_DeviceControl::StartChanges, mstv.ibda_devicecontrol_startchanges
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_DeviceControl.StartChanges
 dev_langs:

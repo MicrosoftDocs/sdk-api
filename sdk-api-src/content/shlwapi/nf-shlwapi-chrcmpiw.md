@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ae2f3cbf-c65b-41a4-8d59-39d6fadf40ca
 ms.date: 12/05/2018
 ms.keywords: ChrCmpI, ChrCmpI function [Windows Shell], ChrCmpIA, ChrCmpIW, _win32_ChrCmpI, shell.ChrCmpI, shlwapi/ChrCmpI, shlwapi/ChrCmpIA, shlwapi/ChrCmpIW
-ms.topic: function
 f1_keywords:
 - shlwapi/ChrCmpI
 dev_langs:

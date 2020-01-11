@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 21c87137-0e8f-43d1-9dad-9f2b4fc591a3
 ms.date: 12/05/2018
 ms.keywords: EventAccessQuery, EventAccessQuery function [ETW], base.eventaccessquery_func, etw.eventaccessquery_func, evntcons/EventAccessQuery
-ms.topic: function
 f1_keywords:
 - evntcons/EventAccessQuery
 dev_langs:

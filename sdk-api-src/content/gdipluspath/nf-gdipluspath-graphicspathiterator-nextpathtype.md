@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\nextpathtype.htm
 ms.date: 12/05/2018
 ms.keywords: GraphicsPathIterator class [GDI+],NextPathType method, GraphicsPathIterator.NextPathType, GraphicsPathIterator::NextPathType, NextPathType, NextPathType method [GDI+], NextPathType method [GDI+],GraphicsPathIterator class, _gdiplus_CLASS_GraphicsPathIterator_NextPathType_pathType_startIndex_endIndex_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_NextPathType_pathType_startIndex_endIndex_
-ms.topic: method
 f1_keywords:
 - gdipluspath/GraphicsPathIterator.NextPathType
 dev_langs:

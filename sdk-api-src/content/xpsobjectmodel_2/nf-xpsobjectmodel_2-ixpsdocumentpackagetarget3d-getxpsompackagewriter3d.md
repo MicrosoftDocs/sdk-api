@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 2F3A6997-B325-4406-A731-5C2EAD875125
 ms.date: 12/05/2018
 ms.keywords: GetXpsOMPackageWriter3D, GetXpsOMPackageWriter3D method [XPS Documents and Packaging], GetXpsOMPackageWriter3D method [XPS Documents and Packaging],IXpsDocumentPackageTarget3D interface, IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging],GetXpsOMPackageWriter3D method, IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D, IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D, xps.ixpsdocumentpackagetarget3d_getxpsompackagewriter3d, xpsobjectmodel_2/IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel_2/IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D
 dev_langs:

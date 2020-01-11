@@ -7,7 +7,6 @@ tech.root: Input_IntContext
 ms.assetid: a76c87f9-5811-4a34-9843-f13a0592ddb4
 ms.date: 12/05/2018
 ms.keywords: BufferPointerPacketsInteractionContext, BufferPointerPacketsInteractionContext function, input_intcontext.bufferpointerpacketsinteractioncontext, interactioncontext.bufferpointerpacketsinteractioncontext, interactioncontext/BufferPointerPacketsInteractionContext
-ms.topic: function
 f1_keywords:
 - interactioncontext/BufferPointerPacketsInteractionContext
 dev_langs:

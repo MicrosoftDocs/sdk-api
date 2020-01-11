@@ -7,7 +7,6 @@ tech.root: MsChap
 ms.assetid: 83498d3f-0ac5-435c-804e-a4baa1ae855d
 ms.date: 12/05/2018
 ms.keywords: '*PENCRYPTED_LM_OWF_PASSWORD, *PENCRYPTED_NT_OWF_PASSWORD, ENCRYPTED_LM_OWF_PASSWORD, ENCRYPTED_LM_OWF_PASSWORD structure [MS-CHAP], ENCRYPTED_NT_OWF_PASSWORD, mschap.encrypted_lm_owf_password, mschapp/ENCRYPTED_LM_OWF_PASSWORD'
-ms.topic: struct
 f1_keywords:
 - mschapp/ENCRYPTED_LM_OWF_PASSWORD
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: a7e56a9b-bd3c-4229-9735-32ec9549856d
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Active Directory], Commit method [Active Directory],IDsAdminNewObjPrimarySite interface, IDsAdminNewObjPrimarySite interface [Active Directory],Commit method, IDsAdminNewObjPrimarySite.Commit, IDsAdminNewObjPrimarySite::Commit, _glines_idsadminnewobjprimarysite_commit, ad.idsadminnewobjprimarysite__commit, ad.idsadminnewobjprimarysite_commit, dsadmin/IDsAdminNewObjPrimarySite::Commit
-ms.topic: method
 f1_keywords:
 - dsadmin/IDsAdminNewObjPrimarySite.Commit
 dev_langs:

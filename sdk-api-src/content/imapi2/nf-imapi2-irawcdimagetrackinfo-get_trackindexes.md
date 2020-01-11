@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: a83766f7-8d02-47df-9691-26d6f2cd0d5b
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_TrackIndexes method, IRawCDImageTrackInfo.get_TrackIndexes, IRawCDImageTrackInfo::get_TrackIndexes, get_TrackIndexes, get_TrackIndexes method [IMAPI], get_TrackIndexes method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_trackindexes, imapi2/IRawCDImageTrackInfo::get_TrackIndexes
-ms.topic: method
 f1_keywords:
 - imapi2/IRawCDImageTrackInfo.get_TrackIndexes
 dev_langs:

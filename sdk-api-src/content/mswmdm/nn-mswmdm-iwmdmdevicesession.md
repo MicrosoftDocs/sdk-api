@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 37a57fbe-d0f8-44ee-b6c5-2c6a34e12f2b
 ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceSession, IWMDMDeviceSession interface [windows Media Device Manager], IWMDMDeviceSession interface [windows Media Device Manager],described, IWMDMDeviceSessionInterface, mswmdm/IWMDMDeviceSession, wmdm.iwmdmdevicesession
-ms.topic: interface
 f1_keywords:
 - mswmdm/IWMDMDeviceSession
 dev_langs:

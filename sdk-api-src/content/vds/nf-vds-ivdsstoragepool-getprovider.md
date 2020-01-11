@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 46265fca-eabd-4d42-b1fd-6a09c566cde9
 ms.date: 12/05/2018
 ms.keywords: GetProvider, GetProvider method, GetProvider method,IVdsStoragePool interface, IVdsStoragePool interface,GetProvider method, IVdsStoragePool.GetProvider, IVdsStoragePool::GetProvider, base.ivdsstoragepool_getprovider, vds/IVdsStoragePool::GetProvider, vdshwprv/IVdsStoragePool::GetProvider
-ms.topic: method
 f1_keywords:
 - vds/IVdsStoragePool.GetProvider
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 3cf57360-b07b-4a6c-850a-10c44895108d
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfDisplayAttributeInfo interface, IEnumTfDisplayAttributeInfo interface [Text Services Framework],Clone method, IEnumTfDisplayAttributeInfo.Clone, IEnumTfDisplayAttributeInfo::Clone, _tsf_ienumtfdisplayattributeinfo_clone_ref, msctf/IEnumTfDisplayAttributeInfo::Clone, tsf.ienumtfdisplayattributeinfo_clone
-ms.topic: method
 f1_keywords:
 - msctf/IEnumTfDisplayAttributeInfo.Clone
 dev_langs:

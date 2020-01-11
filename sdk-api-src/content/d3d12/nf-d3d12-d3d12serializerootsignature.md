@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: ACC46F5E-1074-41B3-8D13-9FD4352DBF66
 ms.date: 12/05/2018
 ms.keywords: D3D12SerializeRootSignature, D3D12SerializeRootSignature function, d3d12/D3D12SerializeRootSignature, direct3d12.d3d12serializerootsignature
-ms.topic: function
 f1_keywords:
 - d3d12/D3D12SerializeRootSignature
 dev_langs:

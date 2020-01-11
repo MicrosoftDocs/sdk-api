@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 1861bd5a-97e6-463d-9586-22458a1d9210
 ms.date: 12/05/2018
 ms.keywords: _llseek, _llseek function [Windows API], winbase/_llseek, winprog._llseek
-ms.topic: function
 f1_keywords:
 - winbase/_llseek
 dev_langs:

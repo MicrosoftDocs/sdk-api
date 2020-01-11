@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 980a5906-dc00-42fe-83f0-9fb476e766d7
 ms.date: 12/05/2018
 ms.keywords: DeleteAll, DeleteAll method [Windows Management Instrumentation], DeleteAll method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],DeleteAll method, IWbemContext.DeleteAll, IWbemContext::DeleteAll, _hmm_iwbemcontext_deleteall, wbemcli/IWbemContext::DeleteAll, wmi.iwbemcontext_deleteall
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemContext.DeleteAll
 dev_langs:

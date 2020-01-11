@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingarchive\sizelow.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountOutgoingArchive interface [Fax Service],SizeLow property, IFaxAccountOutgoingArchive.SizeLow, IFaxAccountOutgoingArchive.get_SizeLow, IFaxAccountOutgoingArchive::SizeLow, IFaxAccountOutgoingArchive::get_SizeLow, SizeLow property [Fax Service], SizeLow property [Fax Service],IFaxAccountOutgoingArchive interface, _mfax_faxaccountoutgoingarchive.sizelow, fax._mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_sizelow_cpp, fax._mfax_faxaccountoutgoingarchive_sizelow, faxcomex/IFaxAccountOutgoingArchive::SizeLow, faxcomex/IFaxAccountOutgoingArchive::get_SizeLow, get_SizeLow
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxAccountOutgoingArchive.SizeLow
 dev_langs:

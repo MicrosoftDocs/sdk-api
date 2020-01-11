@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e21da510-f4e6-417e-978d-bb53bf78cf94
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper interface [DirectShow],RegisterFilter method, IFilterMapper.RegisterFilter, IFilterMapper::RegisterFilter, IFilterMapperRegisterFilter, RegisterFilter, RegisterFilter method [DirectShow], RegisterFilter method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_registerfilter, strmif/IFilterMapper::RegisterFilter
-ms.topic: method
 f1_keywords:
 - strmif/IFilterMapper.RegisterFilter
 dev_langs:

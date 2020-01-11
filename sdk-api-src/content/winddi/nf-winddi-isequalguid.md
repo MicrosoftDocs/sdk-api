@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3580a0c4-e1f8-4bb7-ba66-c4702ecd11f1
 ms.date: 12/05/2018
 ms.keywords: IsEqualGUID, IsEqualGUID function [COM], _com_IsEqualGUID, com.isequalguid, winddi/IsEqualGUID
-ms.topic: macro
 f1_keywords:
 - winddi/IsEqualGUID
 dev_langs:

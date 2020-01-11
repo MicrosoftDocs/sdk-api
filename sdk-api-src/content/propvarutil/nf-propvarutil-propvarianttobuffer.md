@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 8adfc942-ad91-43bb-8d23-8994026666ff
 ms.date: 12/05/2018
 ms.keywords: PropVariantToBuffer, PropVariantToBuffer function [Windows Properties], properties.PropVariantToBuffer, propvarutil/PropVariantToBuffer, shell.PropVariantToBuffer, shell_PropVariantToBuffer
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantToBuffer
 dev_langs:

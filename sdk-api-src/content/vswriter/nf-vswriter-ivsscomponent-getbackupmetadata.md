@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 638b8909-0aef-4066-ade7-4ee6d96b309e
 ms.date: 12/05/2018
 ms.keywords: GetBackupMetadata, GetBackupMetadata method [VSS], GetBackupMetadata method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupMetadata method, IVssComponent.GetBackupMetadata, IVssComponent::GetBackupMetadata, _win32_ivsscomponent_getbackupmetadata, base.ivsscomponent_getbackupmetadata, vswriter/IVssComponent::GetBackupMetadata
-ms.topic: method
 f1_keywords:
 - vswriter/IVssComponent.GetBackupMetadata
 dev_langs:

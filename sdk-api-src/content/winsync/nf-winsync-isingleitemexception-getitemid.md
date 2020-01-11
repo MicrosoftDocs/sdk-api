@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 1bcea395-d383-434f-b3a6-cffd4419fce3
 ms.date: 12/05/2018
 ms.keywords: GetItemId, GetItemId method [Windows Sync], GetItemId method [Windows Sync],ISingleItemException interface, ISingleItemException interface [Windows Sync],GetItemId method, ISingleItemException.GetItemId, ISingleItemException::GetItemId, winsync.isingleitemexception_getitemid, winsync/ISingleItemException::GetItemId
-ms.topic: method
 f1_keywords:
 - winsync/ISingleItemException.GetItemId
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 340f5284-53cb-4e1d-9df5-2b9c75774c0d
 ms.date: 12/05/2018
 ms.keywords: EapPeerSetResponseAttributes, EapPeerSetResponseAttributes function [EAPHost], eaphost.eappeersetresponseattributes, eapmethodpeerapis/EapPeerSetResponseAttributes
-ms.topic: function
 f1_keywords:
 - eapmethodpeerapis/EapPeerSetResponseAttributes
 dev_langs:

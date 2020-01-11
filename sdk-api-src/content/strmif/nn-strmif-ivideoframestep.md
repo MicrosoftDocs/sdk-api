@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7bf45473-144c-49f8-8178-aff5b60112b6
 ms.date: 12/05/2018
 ms.keywords: IVideoFrameStep, IVideoFrameStep interface [DirectShow], IVideoFrameStep interface [DirectShow],described, IVideoFrameStepInterface, dshow.ivideoframestep, strmif/IVideoFrameStep
-ms.topic: interface
 f1_keywords:
 - strmif/IVideoFrameStep
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: c497d1ef-0eb1-465f-978c-60cf5606de93
 ms.date: 12/05/2018
 ms.keywords: '*PDD_VIDEOPORT_LOCAL, DD_VIDEOPORT_LOCAL, DD_VIDEOPORT_LOCAL structure [Display Devices], ddrawint/DD_VIDEOPORT_LOCAL, ddstrcts_ca5d2367-9338-4b1e-ad85-5c7a9e528e3e.xml, display.dd_videoport_local'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_VIDEOPORT_LOCAL
 dev_langs:

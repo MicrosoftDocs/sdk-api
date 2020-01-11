@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: deb1f280-12bd-4e4d-841a-667b7785207c
 ms.date: 12/05/2018
 ms.keywords: _win32_joyReleaseCapture, joyReleaseCapture, joyReleaseCapture function [Windows Multimedia], joystickapi/joyReleaseCapture, multimedia.joyreleasecapture
-ms.topic: function
 f1_keywords:
 - joystickapi/joyReleaseCapture
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: c41ca389-eac9-4c74-b0e7-950cd21f2199
 ms.date: 12/05/2018
 ms.keywords: IDENTITY_ASSOCIATED, IDENTITY_CONNECTED, IDENTITY_CREATED, IDENTITY_DELETED, IDENTITY_DISASSOCIATED, IDENTITY_DISCONNECTED, IDENTITY_IMPORTED, IDENTITY_PROPCHANGE, IIdentityAdvise interface [Security],IdentityUpdated method, IIdentityAdvise.IdentityUpdated, IIdentityAdvise::IdentityUpdated, IdentityUpdated, IdentityUpdated method [Security], IdentityUpdated method [Security],IIdentityAdvise interface, identityprovider/IIdentityAdvise::IdentityUpdated, identitystore/IIdentityAdvise::IdentityUpdated, security.iidentityadvise_identityupdated
-ms.topic: method
 f1_keywords:
 - identityprovider/IIdentityAdvise.IdentityUpdated
 dev_langs:

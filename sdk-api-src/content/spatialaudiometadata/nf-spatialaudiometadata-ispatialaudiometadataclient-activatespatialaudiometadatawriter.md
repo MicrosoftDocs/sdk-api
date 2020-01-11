@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 0A30C838-E9B0-4CC3-BE88-9354160B8084
 ms.date: 12/05/2018
 ms.keywords: ActivateSpatialAudioMetadataWriter, ActivateSpatialAudioMetadataWriter method [Core Audio], ActivateSpatialAudioMetadataWriter method [Core Audio],ISpatialAudioMetadataClient interface, ISpatialAudioMetadataClient interface [Core Audio],ActivateSpatialAudioMetadataWriter method, ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataWriter, ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter, coreaudio.ispatialaudiometadataclient_activatespatialaudiometadatawriter, spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter
-ms.topic: method
 f1_keywords:
 - spatialaudiometadata/ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataWriter
 dev_langs:

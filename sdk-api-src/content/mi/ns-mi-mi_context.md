@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 51d6c510-f9fd-4ab7-a669-b2a5776b496d
 ms.date: 12/05/2018
 ms.keywords: MI_Context, MI_Context structure [Windows Management Infrastructure (MI)], mi/MI_Context, wmi._mi_context, wmi_v2.mi_context
-ms.topic: struct
 f1_keywords:
 - mi/MI_Context
 dev_langs:

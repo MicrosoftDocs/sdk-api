@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadSInt3(const XMINT3)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadSInt3, XMLoadSInt3, XMLoadSInt3 method [DirectX Math Support APIs], dxmath.xmloadsint3
-ms.topic: function
 f1_keywords:
 - directxmath/XMLoadSInt3
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6cb98b83-cf17-451c-ba29-700408f474c7
 ms.date: 12/05/2018
 ms.keywords: GetCapabilities, GetCapabilities method [Windows Shell], GetCapabilities method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetCapabilities method, ISyncMgrSyncItem.GetCapabilities, ISyncMgrSyncItem::GetCapabilities, _shell_ISyncMgrSyncItem_GetCapabilities, shell.ISyncMgrSyncItem_GetCapabilities, syncmgr/ISyncMgrSyncItem::GetCapabilities
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrSyncItem.GetCapabilities
 dev_langs:

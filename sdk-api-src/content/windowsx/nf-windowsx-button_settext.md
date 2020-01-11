@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_settext.htm
 ms.date: 12/05/2018
 ms.keywords: Button_SetText, Button_SetText macro [Windows Controls], _win32_Button_SetText, _win32_Button_SetText_cpp, controls.Button_SetText, controls._win32_Button_SetText, windowsx/Button_SetText
-ms.topic: macro
 f1_keywords:
 - windowsx/Button_SetText
 dev_langs:

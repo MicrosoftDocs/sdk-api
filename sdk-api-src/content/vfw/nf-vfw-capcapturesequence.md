@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: cb4adf31-504a-46ee-b05e-768bdfde4b8f
 ms.date: 12/05/2018
 ms.keywords: _win32_capCaptureSequence, capCaptureSequence, capCaptureSequence macro [Windows Multimedia], multimedia.capcapturesequence, vfw/capCaptureSequence
-ms.topic: macro
 f1_keywords:
 - vfw/capCaptureSequence
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 9262C9E1-DE15-460C-9BC2-DAD5163F447E
 ms.date: 12/05/2018
 ms.keywords: GetService, GetService method [Core Audio], GetService method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, ISpatialAudioObjectRenderStreamBase interface [Core Audio],GetService method, ISpatialAudioObjectRenderStreamBase.GetService, ISpatialAudioObjectRenderStreamBase::GetService, coreaudio.ispatialaudioobjectrenderstream_getservice, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::GetService
-ms.topic: method
 f1_keywords:
 - spatialaudioclient/ISpatialAudioObjectRenderStreamBase.GetService
 dev_langs:

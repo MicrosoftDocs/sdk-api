@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 5e1e5b04-92af-45b1-acfd-17852c245d89
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_ACCESS_DESCRIPTION, CERT_ACCESS_DESCRIPTION, CERT_ACCESS_DESCRIPTION structure [Security], PCERT_ACCESS_DESCRIPTION, PCERT_ACCESS_DESCRIPTION structure pointer [Security], _crypto2_cert_access_description, security.cert_access_description, wincrypt/CERT_ACCESS_DESCRIPTION, wincrypt/PCERT_ACCESS_DESCRIPTION'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_ACCESS_DESCRIPTION
 dev_langs:

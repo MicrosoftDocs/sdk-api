@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 76ac2b93-d5df-4504-b36d-1530bbb12ab4
 ms.date: 12/05/2018
 ms.keywords: EVENT_INFO_CLASS, EVENT_INFO_CLASS enumeration [ETW], EventProviderBinaryTrackInfo, EventProviderSetTraits, EventProviderUseDescriptorType, MaxEventInfo, etw.event_info_class, evntprov/EVENT_INFO_CLASS, evntprov/EventProviderBinaryTrackInfo, evntprov/EventProviderSetTraits, evntprov/EventProviderUseDescriptorType, evntprov/MaxEventInfo
-ms.topic: enum
 f1_keywords:
 - evntprov/EVENT_INFO_CLASS
 dev_langs:

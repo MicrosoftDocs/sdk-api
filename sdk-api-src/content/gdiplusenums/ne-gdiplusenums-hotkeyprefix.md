@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\hotkeyprefix.htm
 ms.date: 12/05/2018
 ms.keywords: HotkeyPrefix, HotkeyPrefix enumeration [GDI+], HotkeyPrefixHide, HotkeyPrefixNone, HotkeyPrefixShow, _gdiplus_ENUM_HotkeyPrefix, gdiplus._gdiplus_ENUM_HotkeyPrefix, gdiplusenums/HotkeyPrefix, gdiplusenums/HotkeyPrefixHide, gdiplusenums/HotkeyPrefixNone, gdiplusenums/HotkeyPrefixShow
-ms.topic: enum
 f1_keywords:
 - gdiplusenums/HotkeyPrefix
 dev_langs:

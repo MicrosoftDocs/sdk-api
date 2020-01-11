@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 97b1b0ca-a2e7-4835-aece-c2cc23481530
 ms.date: 12/05/2018
 ms.keywords: GetCategory, GetCategory method [XPS Documents and Packaging], GetCategory method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCategory method, IXpsOMCoreProperties.GetCategory, IXpsOMCoreProperties::GetCategory, xps.ixpsomcoreproperties_getcategory, xpsobjectmodel/IXpsOMCoreProperties::GetCategory
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.GetCategory
 dev_langs:

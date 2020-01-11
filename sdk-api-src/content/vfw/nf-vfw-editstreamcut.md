@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 201f977c-926b-470c-b1ae-62946e6f691e
 ms.date: 12/05/2018
 ms.keywords: EditStreamCut, EditStreamCut function [Windows Multimedia], _win32_EditStreamCut, multimedia.editstreamcut, vfw/EditStreamCut
-ms.topic: function
 f1_keywords:
 - vfw/EditStreamCut
 dev_langs:

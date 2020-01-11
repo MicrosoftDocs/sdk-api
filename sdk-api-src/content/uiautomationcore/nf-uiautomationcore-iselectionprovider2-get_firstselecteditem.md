@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: EE16206F-2A7F-49D0-9587-F4A3FA918CB4
 ms.date: 12/05/2018
 ms.keywords: FirstSelectedItem property [Windows Accessibility], FirstSelectedItem property [Windows Accessibility],ISelectionProvider2 interface, ISelectionProvider2 interface [Windows Accessibility],FirstSelectedItem property, ISelectionProvider2.FirstSelectedItem, ISelectionProvider2.get_FirstSelectedItem, ISelectionProvider2::FirstSelectedItem, ISelectionProvider2::get_FirstSelectedItem, get_FirstSelectedItem, uiautomationcore/ISelectionProvider2::FirstSelectedItem, uiautomationcore/ISelectionProvider2::get_FirstSelectedItem, winauto.uiauto_ISelectionProvider2_FirstSelectedItem
-ms.topic: method
 f1_keywords:
 - uiautomationcore/ISelectionProvider2.FirstSelectedItem
 dev_langs:

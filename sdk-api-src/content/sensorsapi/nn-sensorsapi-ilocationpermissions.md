@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: f4b46f4a-60be-4428-a4b5-6100ae3f1e1b
 ms.date: 12/05/2018
 ms.keywords: ILocationPermissions, ILocationPermissions interface [WinSensors], ILocationPermissions interface [WinSensors],described, sensorsapi/ILocationPermissions, winsensors.ilocationpermissions
-ms.topic: interface
 f1_keywords:
 - sensorsapi/ILocationPermissions
 dev_langs:

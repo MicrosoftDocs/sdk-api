@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: f532dd65-d807-4880-9339-ba233e0faa38
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerSetUIContext, EapHostPeerSetUIContext function [EAPHost], eaphost.eaphostpeersetuicontext, eappapis/EapHostPeerSetUIContext
-ms.topic: function
 f1_keywords:
 - eappapis/EapHostPeerSetUIContext
 dev_langs:

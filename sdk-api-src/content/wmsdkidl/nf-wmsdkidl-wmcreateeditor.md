@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 3eed88d5-18e9-40b4-998d-af33ac5440b2
 ms.date: 12/05/2018
 ms.keywords: WMCreateEditor, WMCreateEditor function [windows Media Format], wmformat.wmcreateeditor, wmsdkidl/WMCreateEditor
-ms.topic: function
 f1_keywords:
 - wmsdkidl/WMCreateEditor
 dev_langs:

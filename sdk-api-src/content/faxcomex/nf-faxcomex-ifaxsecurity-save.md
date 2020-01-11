@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9qzp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxSecurity interface [Fax Service],Save method, IFaxSecurity.Save, IFaxSecurity::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxSecurity interface, _mfax_faxsecurity.save, fax._mfax_faxsecurity_cpp_mfax_faxsecurity_save_cpp, fax._mfax_faxsecurity_save, faxcomex/IFaxSecurity::Save
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxSecurity.Save
 dev_langs:

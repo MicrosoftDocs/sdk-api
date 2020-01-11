@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 0b5745a4-7652-48ce-9e8a-eef52c09455f
 ms.date: 12/05/2018
 ms.keywords: PHONEEVENT, PHONEEVENT callback, Phone_Event, Phone_Event callback function [TAPI 2.2], _tspi_phoneevent, tspi.phone_event_tspi, tspi.phoneevent, tspi/Phone_Event
-ms.topic: callback
 f1_keywords:
 - tspi/Phone_Event
 dev_langs:

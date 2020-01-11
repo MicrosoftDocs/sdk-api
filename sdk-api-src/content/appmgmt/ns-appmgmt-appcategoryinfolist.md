@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c590d9ab-ab41-4192-a6c2-c6c2c931e873
 ms.date: 12/05/2018
 ms.keywords: APPCATEGORYINFOLIST, APPCATEGORYINFOLIST structure [Windows Shell], _APPCATEGORYINFOLIST, appmgmt/APPCATEGORYINFOLIST, inet_APPCATEGORYINFOLIST, shell.APPCATEGORYINFOLIST
-ms.topic: struct
 f1_keywords:
 - appmgmt/APPCATEGORYINFOLIST
 dev_langs:

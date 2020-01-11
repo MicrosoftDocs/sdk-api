@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 470DBBC0-A7D7-42A6-97D0-44AEAC990576
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION structure pointer [Files], STORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION structure [Files], fs.storage_spec_version, winioctl/PSTORAGE_SPEC_VERSION, winioctl/_STORAGE_SPEC_VERSION'
-ms.topic: struct
 f1_keywords:
 - winioctl/STORAGE_SPEC_VERSION
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProjFS
 ms.assetid: 6C92275E-B9A6-4556-A709-8EFBAEDB94B5
 ms.date: 12/05/2018
 ms.keywords: PrjMarkDirectoryAsPlaceholder, PrjMarkDirectoryAsPlaceholder function, ProjFS.prjmarkdirectoryasplaceholder, projectedfslib/PrjMarkDirectoryAsPlaceholder
-ms.topic: function
 f1_keywords:
 - projectedfslib/PrjMarkDirectoryAsPlaceholder
 dev_langs:

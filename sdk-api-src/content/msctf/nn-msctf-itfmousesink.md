@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: d6e5549e-768d-47af-a553-84430641cda4
 ms.date: 12/05/2018
 ms.keywords: ITfMouseSink, ITfMouseSink interface [Text Services Framework], ITfMouseSink interface [Text Services Framework],described, _tsf_itfmousesink_ref, msctf/ITfMouseSink, tsf.itfmousesink
-ms.topic: interface
 f1_keywords:
 - msctf/ITfMouseSink
 dev_langs:

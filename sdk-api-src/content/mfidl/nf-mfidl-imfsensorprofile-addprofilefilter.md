@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: D79C83AA-A105-4320-80D8-F7A3753DF4C4
 ms.date: 12/05/2018
 ms.keywords: AddProfileFilter, AddProfileFilter method [Media Foundation], AddProfileFilter method [Media Foundation],IMFSensorProfile interface, IMFSensorProfile interface [Media Foundation],AddProfileFilter method, IMFSensorProfile.AddProfileFilter, IMFSensorProfile::AddProfileFilter, mf.imfsensorprofile_addprofilefilter, mfidl/IMFSensorProfile::AddProfileFilter
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSensorProfile.AddProfileFilter
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: a63fcd36-de48-4437-a823-837884cc2bf9
 ms.date: 12/05/2018
 ms.keywords: GetLocalTime, GetLocalTime function, _win32_getlocaltime, base.getlocaltime, sysinfoapi/GetLocalTime
-ms.topic: function
 f1_keywords:
 - sysinfoapi/GetLocalTime
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 54b15e72-6551-4162-90ca-a9bed68ca62f
 ms.date: 12/05/2018
 ms.keywords: IMFFieldOfUseMFTUnlock interface [Media Foundation],Unlock method, IMFFieldOfUseMFTUnlock.Unlock, IMFFieldOfUseMFTUnlock::Unlock, Unlock, Unlock method [Media Foundation], Unlock method [Media Foundation],IMFFieldOfUseMFTUnlock interface, mf.imffieldofusemftunlock_unlock, mfidl/IMFFieldOfUseMFTUnlock::Unlock
-ms.topic: method
 f1_keywords:
 - mfidl/IMFFieldOfUseMFTUnlock.Unlock
 dev_langs:

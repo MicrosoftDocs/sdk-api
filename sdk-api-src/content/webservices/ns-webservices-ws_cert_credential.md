@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 729e27f4-354c-4ae9-a527-52c444206ef0
 ms.date: 12/05/2018
 ms.keywords: WS_CERT_CREDENTIAL, WS_CERT_CREDENTIAL structure [Web Services for Windows], webservices/WS_CERT_CREDENTIAL, wsw.ws_cert_credential
-ms.topic: struct
 f1_keywords:
 - webservices/WS_CERT_CREDENTIAL
 dev_langs:

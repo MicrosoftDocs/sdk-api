@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2f803b69-9734-484c-9392-a48e116cf506
 ms.date: 12/05/2018
 ms.keywords: IsInternetESCEnabled, IsInternetESCEnabled function [Windows Shell], _win32_IsInternetESCEnabled, shell.IsInternetESCEnabled, shlwapi/IsInternetESCEnabled
-ms.topic: function
 f1_keywords:
 - shlwapi/IsInternetESCEnabled
 dev_langs:

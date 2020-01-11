@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: dde9332a-0a89-4914-9d41-6ce6519cdcb2
 ms.date: 12/05/2018
 ms.keywords: ScriptStringValidate, ScriptStringValidate function [Internationalization for Windows Applications], _win32_ScriptStringValidate, intl.scriptstringvalidate, usp10/ScriptStringValidate
-ms.topic: function
 f1_keywords:
 - usp10/ScriptStringValidate
 dev_langs:

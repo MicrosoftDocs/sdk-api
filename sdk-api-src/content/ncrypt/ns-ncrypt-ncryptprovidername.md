@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 21d8bf28-ee3f-4036-b3b0-d9c68cb14fa9
 ms.date: 12/05/2018
 ms.keywords: NCryptProviderName, NCryptProviderName structure [Security], ncrypt/NCryptProviderName, security.ncryptprovidername_struct
-ms.topic: struct
 f1_keywords:
 - ncrypt/NCryptProviderName
 dev_langs:

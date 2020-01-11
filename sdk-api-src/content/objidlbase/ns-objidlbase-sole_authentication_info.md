@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 23beb1b1-e4b7-4282-9868-5caf40a69a61
 ms.date: 12/05/2018
 ms.keywords: '*PSOLE_AUTHENTICATION_INFO, PSOLE_AUTHENTICATION_INFO, PSOLE_AUTHENTICATION_INFO structure pointer [COM], SOLE_AUTHENTICATION_INFO, SOLE_AUTHENTICATION_INFO structure [COM], _com_SOLE_AUTHENTICATION_INFO, com.sole_authentication_info, objidlbase/PSOLE_AUTHENTICATION_INFO, objidlbase/SOLE_AUTHENTICATION_INFO, tagSOLE_AUTHENTICATION_INFO'
-ms.topic: struct
 f1_keywords:
 - objidlbase/SOLE_AUTHENTICATION_INFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setimagelist.htm
 ms.date: 12/05/2018
 ms.keywords: Button_SetImageList, Button_SetImageList macro [Windows Controls], _win32_Button_SetImageList, _win32_Button_SetImageList_cpp, commctrl/Button_SetImageList, controls.Button_SetImageList, controls._win32_Button_SetImageList
-ms.topic: macro
 f1_keywords:
 - commctrl/Button_SetImageList
 dev_langs:

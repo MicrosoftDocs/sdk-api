@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: b55bb1f5-ecde-4565-97b6-29e79823b9cb
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumPhone interface, IEnumPhone interface [TAPI 2.2],Clone method, IEnumPhone.Clone, IEnumPhone::Clone, _tapi3_ienumphone_clone, tapi3.ienumphone_clone, tapi3if/IEnumPhone::Clone
-ms.topic: method
 f1_keywords:
 - tapi3if/IEnumPhone.Clone
 dev_langs:

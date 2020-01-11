@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 51c59f35-667c-4723-aa7b-e8250bbdabe9
 ms.date: 12/05/2018
 ms.keywords: EnumerateFarms, EnumerateFarms method [Remote Desktop Services], EnumerateFarms method [Remote Desktop Services],ITsSbGlobalStore interface, ITsSbGlobalStore interface [Remote Desktop Services],EnumerateFarms method, ITsSbGlobalStore.EnumerateFarms, ITsSbGlobalStore::EnumerateFarms, sbtsv/ITsSbGlobalStore::EnumerateFarms, termserv.itssbglobalstore_enumeratefarms
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbGlobalStore.EnumerateFarms
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WebDAV
 ms.assetid: 0022a5ba-a4b2-4289-91be-db7f52e62f91
 ms.date: 12/05/2018
 ms.keywords: DavFlushFile, DavFlushFile function [WebDAV], davclnt/DavFlushFile, webdav.davflushfile
-ms.topic: function
 f1_keywords:
 - davclnt/DavFlushFile
 dev_langs:

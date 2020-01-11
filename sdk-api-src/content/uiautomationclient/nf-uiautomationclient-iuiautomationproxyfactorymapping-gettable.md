@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 6e84ec4d-9589-47b0-ae69-5d640141dd8b
 ms.date: 12/05/2018
 ms.keywords: GetTable, GetTable method [Windows Accessibility], GetTable method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, IUIAutomationProxyFactoryMapping interface [Windows Accessibility],GetTable method, IUIAutomationProxyFactoryMapping.GetTable, IUIAutomationProxyFactoryMapping::GetTable, uiauto.uiauto_IUIAutomationProxyFactoryMapping_GetTable, uiauto_IUIAutomationProxyFactoryMapping_GetTable, uiautomationclient/IUIAutomationProxyFactoryMapping::GetTable, winauto.uiauto_IUIAutomationProxyFactoryMapping_GetTable
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationProxyFactoryMapping.GetTable
 dev_langs:

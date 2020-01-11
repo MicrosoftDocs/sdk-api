@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 9d9ebbb7-c491-49b0-9686-e37085929271
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCRYPT_MACHINE_KEY_FLAG, NCryptKeyName, NCryptKeyName structure [Security], ncrypt/NCryptKeyName, security.ncryptkeyname_struct
-ms.topic: struct
 f1_keywords:
 - ncrypt/NCryptKeyName
 dev_langs:

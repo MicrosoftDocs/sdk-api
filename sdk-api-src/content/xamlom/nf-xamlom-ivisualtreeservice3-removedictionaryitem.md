@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: 6239D855-7408-47ED-9090-E7726E7E403E
 ms.date: 12/05/2018
 ms.keywords: IVisualTreeService3 interface,RemoveDictionaryItem method, IVisualTreeService3.RemoveDictionaryItem, IVisualTreeService3::RemoveDictionaryItem, RemoveDictionaryItem, RemoveDictionaryItem method, RemoveDictionaryItem method,IVisualTreeService3 interface, xaml_diagnostics.ivisualtreeservice3_removedictionaryitem, xamlom/IVisualTreeService3::RemoveDictionaryItem
-ms.topic: method
 f1_keywords:
 - xamlom/IVisualTreeService3.RemoveDictionaryItem
 dev_langs:

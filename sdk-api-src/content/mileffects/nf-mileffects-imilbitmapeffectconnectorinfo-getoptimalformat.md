@@ -7,7 +7,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectorinfo\getoptimalformat.htm
 ms.date: 12/05/2018
 ms.keywords: GetOptimalFormat, GetOptimalFormat method [WPF Bitmap Effects], GetOptimalFormat method [WPF Bitmap Effects],IMILBitmapEffectConnectorInfo interface, IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects],GetOptimalFormat method, IMILBitmapEffectConnectorInfo.GetOptimalFormat, IMILBitmapEffectConnectorInfo::GetOptimalFormat, _wibe_imilbitmapeffectconnectorinfo_getoptimalformat, mileffects/IMILBitmapEffectConnectorInfo::GetOptimalFormat, wibe._wibe_imilbitmapeffectconnectorinfo_getoptimalformat
-ms.topic: method
 f1_keywords:
 - mileffects/IMILBitmapEffectConnectorInfo.GetOptimalFormat
 dev_langs:

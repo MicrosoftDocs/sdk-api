@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: dac6cf02-7b53-449c-b788-4a7b6d1622ed
 ms.date: 12/05/2018
 ms.keywords: PathCchFindExtension, PathCchFindExtension function [Windows Shell], pathcch/PathCchFindExtension, shell.PathCchFindExtension
-ms.topic: function
 f1_keywords:
 - pathcch/PathCchFindExtension
 dev_langs:

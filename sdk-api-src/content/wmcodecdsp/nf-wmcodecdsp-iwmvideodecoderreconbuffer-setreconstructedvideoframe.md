@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: baffb56f-b2c5-464f-a2ae-1cb9677b8b83
 ms.date: 12/05/2018
 ms.keywords: IWMVideoDecoderReconBuffer interface [Media Foundation],SetReconstructedVideoFrame method, IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame, IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame, SetReconstructedVideoFrame, SetReconstructedVideoFrame method [Media Foundation], SetReconstructedVideoFrame method [Media Foundation],IWMVideoDecoderReconBuffer interface, codecapi.iwmvideodecoderreconbuffersetreconstructedvideoframe, mf.iwmvideodecoderreconbuffersetreconstructedvideoframe, wmcodecdsp/IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame
-ms.topic: method
 f1_keywords:
 - wmcodecdsp/IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame
 dev_langs:

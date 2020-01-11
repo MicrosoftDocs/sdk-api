@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: d7c8220d-a302-4f95-b0b6-8d47f9f27da7
 ms.date: 12/05/2018
 ms.keywords: IComQCEvents, IComQCEvents interface [COM+], IComQCEvents interface [COM+],described, _dtc_IComQCEvents, comsvcs/IComQCEvents, cos.icomqcevents
-ms.topic: interface
 f1_keywords:
 - comsvcs/IComQCEvents
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 37721ece-f02b-486a-a11d-289956294815
 ms.date: 12/05/2018
 ms.keywords: VarI2FromCy, VarI2FromCy function [Automation], _oa96_VarI2FromCy, automat.vari2fromcy, oleauto/VarI2FromCy
-ms.topic: function
 f1_keywords:
 - oleauto/VarI2FromCy
 dev_langs:

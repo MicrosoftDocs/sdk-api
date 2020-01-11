@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: caa3add7-d07f-4d56-ad96-51dc67f66117
 ms.date: 12/05/2018
 ms.keywords: RpcAsyncGetCallStatus, RpcAsyncGetCallStatus function [RPC], _rpc_rpcasyncgetcallstatus, rpc.rpcasyncgetcallstatus, rpcasync/RpcAsyncGetCallStatus
-ms.topic: function
 f1_keywords:
 - rpcasync/RpcAsyncGetCallStatus
 dev_langs:

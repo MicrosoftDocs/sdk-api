@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 0AF98EEB-3EA7-44E3-8F2F-182D9F6BCCA4
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisualDebug, IDCompositionVisualDebug interface [DirectComposition], IDCompositionVisualDebug interface [DirectComposition],described, dcomp/IDCompositionVisualDebug, directcomp.idcompositionvisualdebug
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionVisualDebug
 dev_langs:

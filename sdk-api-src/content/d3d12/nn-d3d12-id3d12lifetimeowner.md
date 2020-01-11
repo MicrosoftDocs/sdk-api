@@ -5,7 +5,6 @@ description: Represents an application-defined callback used for being notified 
 tech.root: direct3d12
 ms.date: 10/30/2019
 ms.keywords: ID3D12LifetimeOwner
-ms.topic: language-reference
 f1_keywords:
 - d3d12/ID3D12LifetimeOwner
 dev_langs:

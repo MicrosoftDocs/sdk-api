@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: a75ad777-c88e-4899-be50-0118c113a600
 ms.date: 12/05/2018
 ms.keywords: '*PSECURITY_IMPERSONATION_LEVEL, PSECURITY_IMPERSONATION_LEVEL, PSECURITY_IMPERSONATION_LEVEL enumeration pointer [Security], SECURITY_IMPERSONATION_LEVEL, SECURITY_IMPERSONATION_LEVEL enumeration [Security], SecurityAnonymous, SecurityDelegation, SecurityIdentification, SecurityImpersonation, _win32_security_impersonation_level_str, security.security_impersonation_level, winnt/PSECURITY_IMPERSONATION_LEVEL, winnt/SECURITY_IMPERSONATION_LEVEL, winnt/SecurityAnonymous, winnt/SecurityDelegation, winnt/SecurityIdentification, winnt/SecurityImpersonation'
-ms.topic: enum
 f1_keywords:
 - winnt/SECURITY_IMPERSONATION_LEVEL
 dev_langs:

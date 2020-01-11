@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: C2DA7251-AB71-400A-9016-04EB4A6F0B5D
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform interface [DirectComposition],SetCenterX method, IDCompositionScaleTransform.SetCenterX, IDCompositionScaleTransform::SetCenterX, IDCompositionScaleTransform::SetCenterX(float), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionScaleTransform interface, dcomp/IDCompositionScaleTransform::SetCenterX, directcomp.idcompositionscaletransform_setcenterx_float
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionScaleTransform.SetCenterX
 dev_langs:

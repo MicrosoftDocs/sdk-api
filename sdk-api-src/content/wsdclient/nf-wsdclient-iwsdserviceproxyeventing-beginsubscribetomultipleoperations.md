@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 54c6ac58-4272-45ad-80cc-2114ba6f466e
 ms.date: 12/05/2018
 ms.keywords: BeginSubscribeToMultipleOperations, BeginSubscribeToMultipleOperations method, BeginSubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,BeginSubscribeToMultipleOperations method, IWSDServiceProxyEventing.BeginSubscribeToMultipleOperations, IWSDServiceProxyEventing::BeginSubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_beginsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginSubscribeToMultipleOperations
-ms.topic: method
 f1_keywords:
 - wsdclient/IWSDServiceProxyEventing.BeginSubscribeToMultipleOperations
 dev_langs:

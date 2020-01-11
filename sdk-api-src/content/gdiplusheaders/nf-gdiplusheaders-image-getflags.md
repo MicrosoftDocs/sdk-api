@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getflags.htm
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [GDI+], GetFlags method [GDI+],Image class, Image class [GDI+],GetFlags method, Image.GetFlags, Image::GetFlags, _gdiplus_CLASS_Image_GetFlags_, gdiplus._gdiplus_CLASS_Image_GetFlags_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Image.GetFlags
 dev_langs:

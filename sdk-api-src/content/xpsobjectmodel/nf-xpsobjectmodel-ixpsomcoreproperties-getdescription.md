@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 56a6367d-8ab7-40ac-989b-d5a60126eae5
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [XPS Documents and Packaging], GetDescription method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetDescription method, IXpsOMCoreProperties.GetDescription, IXpsOMCoreProperties::GetDescription, xps.ixpsomcoreproperties_getdescription, xpsobjectmodel/IXpsOMCoreProperties::GetDescription
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.GetDescription
 dev_langs:

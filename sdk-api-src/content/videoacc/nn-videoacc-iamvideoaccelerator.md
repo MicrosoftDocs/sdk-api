@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 78e0a165-5a19-4dca-8d6c-445345772824
 ms.date: 12/05/2018
 ms.keywords: IAMVideoAccelerator, IAMVideoAccelerator interface [DirectShow], IAMVideoAccelerator interface [DirectShow],described, IAMVideoAcceleratorInterface, dshow.iamvideoaccelerator, videoacc/IAMVideoAccelerator
-ms.topic: interface
 f1_keywords:
 - videoacc/IAMVideoAccelerator
 dev_langs:

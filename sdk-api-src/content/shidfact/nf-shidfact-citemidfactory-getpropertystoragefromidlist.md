@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 50E8F4F9-1E7B-4314-9AFB-1CA0795776FE
 ms.date: 12/05/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],GetPropertyStorageFromIDList method, CItemIDFactory.GetPropertyStorageFromIDList, CItemIDFactory::GetPropertyStorageFromIDList, GetPropertyStorageFromIDList, GetPropertyStorageFromIDList method [Windows Shell], GetPropertyStorageFromIDList method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getpropertystoragefromidlist, shidfact/CItemIDFactory::GetPropertyStorageFromIDList
-ms.topic: method
 f1_keywords:
 - shidfact/CItemIDFactory.GetPropertyStorageFromIDList
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: dbf0c424-e906-4a72-a369-81bf96275bbc
 ms.date: 12/05/2018
 ms.keywords: IADsGroup, IADsGroup interface [ADSI], IADsGroup interface [ADSI],described, _ds_iadsgroup, adsi.iadsgroup, iads/IADsGroup
-ms.topic: interface
 f1_keywords:
 - iads/IADsGroup
 dev_langs:

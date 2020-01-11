@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\registerclass.htm
 ms.date: 12/05/2018
 ms.keywords: RegisterClass, RegisterClass function [Windows and Messages], RegisterClassA, RegisterClassW, _win32_RegisterClass, _win32_registerclass_cpp, winmsg.registerclass, winui._win32_registerclass, winuser/RegisterClass, winuser/RegisterClassA, winuser/RegisterClassW
-ms.topic: function
 f1_keywords:
 - winuser/RegisterClass
 dev_langs:

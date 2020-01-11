@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: DD922194-8AD2-4ADF-9AC2-46C903C56AE6
 ms.date: 12/05/2018
 ms.keywords: ID3D12PipelineState, ID3D12PipelineState interface, ID3D12PipelineState interface,described, d3d12/ID3D12PipelineState, direct3d12.id3d12pipelinestate
-ms.topic: interface
 f1_keywords:
 - d3d12/ID3D12PipelineState
 dev_langs:

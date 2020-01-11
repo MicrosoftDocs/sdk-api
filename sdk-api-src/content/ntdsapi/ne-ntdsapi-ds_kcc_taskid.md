@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 61A2BB61-E3AE-4530-96CA-E7F85CB82DB2
 ms.date: 12/05/2018
 ms.keywords: DS_KCC_TASKID, DS_KCC_TASKID enumeration [Active Directory], DS_KCC_TASKID_UPDATE_TOPOLOGY, ad.ds_kcc_taskid, ntdsapi/DS_KCC_TASKID, ntdsapi/DS_KCC_TASKID_UPDATE_TOPOLOGY
-ms.topic: enum
 f1_keywords:
 - ntdsapi/DS_KCC_TASKID
 dev_langs:

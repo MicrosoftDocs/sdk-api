@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: b40e3df2-e717-465d-8893-511e4776d80d
 ms.date: 12/05/2018
 ms.keywords: GetContentStream, GetContentStream method [Open Packaging Conventions], GetContentStream method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetContentStream method, IOpcPart.GetContentStream, IOpcPart::GetContentStream, msopc/IOpcPart::GetContentStream, opc.iopcpart_getcontentstream
-ms.topic: method
 f1_keywords:
 - msopc/IOpcPart.GetContentStream
 dev_langs:

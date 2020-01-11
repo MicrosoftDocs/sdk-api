@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9682cfc4-544b-43bd-bd57-edbce50dce75
 ms.date: 12/05/2018
 ms.keywords: IEnumFullIDList interface [Windows Shell],Reset method, IEnumFullIDList.Reset, IEnumFullIDList::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumFullIDList interface, _shell_IEnumFullIDList_Reset, shell.IEnumFullIDList_Reset, shobjidl_core/IEnumFullIDList::Reset
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IEnumFullIDList.Reset
 dev_langs:

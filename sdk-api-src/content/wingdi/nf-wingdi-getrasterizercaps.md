@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 0898d1c0-5480-4bd2-aa45-918340172a05
 ms.date: 12/05/2018
 ms.keywords: GetRasterizerCaps, GetRasterizerCaps function [Windows GDI], _win32_GetRasterizerCaps, gdi.getrasterizercaps, wingdi/GetRasterizerCaps
-ms.topic: function
 f1_keywords:
 - wingdi/GetRasterizerCaps
 dev_langs:

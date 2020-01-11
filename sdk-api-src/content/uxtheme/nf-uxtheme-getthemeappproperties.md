@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeappproperties.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeAppProperties, GetThemeAppProperties function [Windows Controls], controls.GetThemeAppProperties, controls.inet_GetThemeAppProperties, inet_GetThemeAppProperties, inet_GetThemeAppProperties_cpp, uxtheme/GetThemeAppProperties
-ms.topic: function
 f1_keywords:
 - uxtheme/GetThemeAppProperties
 dev_langs:

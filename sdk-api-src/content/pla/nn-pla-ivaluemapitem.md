@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 5fab2a62-d974-49f7-ac81-c704d9d8624c
 ms.date: 12/05/2018
 ms.keywords: IValueMapItem, IValueMapItem interface [PLA], IValueMapItem interface [PLA],described, base.ivaluemapitem, pla.ivaluemapitem, pla/IValueMapItem
-ms.topic: interface
 f1_keywords:
 - pla/IValueMapItem
 dev_langs:

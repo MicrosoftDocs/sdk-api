@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 4e5b5fca-7583-43a8-8816-c1003d936233
 ms.date: 12/05/2018
 ms.keywords: DhcpHlprAddV4PolicyRange, DhcpHlprAddV4PolicyRange function [DHCP], dhcp.dhcphlpraddv4policyrange, dhcpsapi/DhcpHlprAddV4PolicyRange
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpHlprAddV4PolicyRange
 dev_langs:

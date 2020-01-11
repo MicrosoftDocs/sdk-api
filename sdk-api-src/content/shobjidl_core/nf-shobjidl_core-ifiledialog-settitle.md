@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9ae3d226-e825-443a-a2b0-4b5bb07fc9f7
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetTitle method, IFileDialog.SetTitle, IFileDialog::SetTitle, SetTitle, SetTitle method [Windows Shell], SetTitle method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetTitle, shell_IFileDialog_SetTitle, shobjidl_core/IFileDialog::SetTitle
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileDialog.SetTitle
 dev_langs:

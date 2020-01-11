@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: c63d5d5f-a334-4367-8a1e-252b4eb5b50d
 ms.date: 12/05/2018
 ms.keywords: IPropertySheetProvider, IPropertySheetProvider interface [MMC], IPropertySheetProvider interface [MMC],described, _slate_ipropertysheetprovider, mmc.ipropertysheetprovider, mmc/IPropertySheetProvider
-ms.topic: interface
 f1_keywords:
 - mmc/IPropertySheetProvider
 dev_langs:

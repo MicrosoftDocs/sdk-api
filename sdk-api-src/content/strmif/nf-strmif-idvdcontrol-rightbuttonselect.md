@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 67ca86cd-37a7-48ce-80d9-585d345e83fc
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],RightButtonSelect method, IDvdControl.RightButtonSelect, IDvdControl::RightButtonSelect, IDvdControlRightButtonSelect, RightButtonSelect, RightButtonSelect method [DirectShow], RightButtonSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_rightbuttonselect, strmif/IDvdControl::RightButtonSelect
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.RightButtonSelect
 dev_langs:

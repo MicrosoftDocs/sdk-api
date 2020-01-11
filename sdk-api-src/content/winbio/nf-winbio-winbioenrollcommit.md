@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: ed9242e5-fee7-46ca-b42c-cda1b5dcdc78
 ms.date: 12/05/2018
 ms.keywords: WinBioEnrollCommit, WinBioEnrollCommit function [Windows Biometric Framework API], secbiomet.winbioenrollcommit, winbio/WinBioEnrollCommit
-ms.topic: function
 f1_keywords:
 - winbio/WinBioEnrollCommit
 dev_langs:

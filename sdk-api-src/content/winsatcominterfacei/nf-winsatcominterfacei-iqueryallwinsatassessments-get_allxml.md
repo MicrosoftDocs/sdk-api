@@ -7,7 +7,6 @@ tech.root: WinSAT
 ms.assetid: a43aee18-642f-44d9-a116-ffc762cec80a
 ms.date: 12/05/2018
 ms.keywords: AllXML property [WinSAT], AllXML property [WinSAT],IQueryAllWinSATAssessments interface, IQueryAllWinSATAssessments interface [WinSAT],AllXML property, IQueryAllWinSATAssessments.AllXML, IQueryAllWinSATAssessments.get_AllXML, IQueryAllWinSATAssessments::AllXML, IQueryAllWinSATAssessments::get_AllXML, get_AllXML, winsat.iqueryallwinsatassessments_allxml, winsatcominterfacei/IQueryAllWinSATAssessments::AllXML, winsatcominterfacei/IQueryAllWinSATAssessments::get_AllXML
-ms.topic: method
 f1_keywords:
 - winsatcominterfacei/IQueryAllWinSATAssessments.AllXML
 dev_langs:

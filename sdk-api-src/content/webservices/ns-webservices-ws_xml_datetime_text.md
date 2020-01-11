@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 788ad281-8e1f-45d6-bd36-0ad3aae6fd15
 ms.date: 12/05/2018
 ms.keywords: WS_XML_DATETIME_TEXT, WS_XML_DATETIME_TEXT structure [Web Services for Windows], webservices/WS_XML_DATETIME_TEXT, wsw.ws_xml_datetime_text
-ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_DATETIME_TEXT
 dev_langs:

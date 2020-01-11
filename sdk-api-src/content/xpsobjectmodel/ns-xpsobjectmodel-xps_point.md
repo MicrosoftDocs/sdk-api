@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 3e5f693a-a0e4-41cf-a2a6-1f61c8e189e3
 ms.date: 12/05/2018
 ms.keywords: XPS_POINT, XPS_POINT structure [XPS Documents and Packaging], xps.xps_point, xpsobjectmodel/XPS_POINT
-ms.topic: struct
 f1_keywords:
 - xpsobjectmodel/XPS_POINT
 dev_langs:

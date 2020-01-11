@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 774f5626-9b48-4585-b713-adbf191861cc
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_TRUST_LIST_INFO, CERT_TRUST_LIST_INFO, CERT_TRUST_LIST_INFO structure [Security], PCERT_TRUST_LIST_INFO, PCERT_TRUST_LIST_INFO structure pointer [Security], _crypto2_cert_trust_list_info, security.cert_trust_list_info, wincrypt/CERT_TRUST_LIST_INFO, wincrypt/PCERT_TRUST_LIST_INFO'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_TRUST_LIST_INFO
 dev_langs:

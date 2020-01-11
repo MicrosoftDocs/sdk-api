@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 70e5e444-7c46-4df9-8f77-da8dc331fcf0
 ms.date: 12/05/2018
 ms.keywords: GetRawData, GetRawData method [Offline Files], GetRawData method [Offline Files],IOfflineFilesErrorInfo interface, IOfflineFilesErrorInfo interface [Offline Files],GetRawData method, IOfflineFilesErrorInfo.GetRawData, IOfflineFilesErrorInfo::GetRawData, cscobj/IOfflineFilesErrorInfo::GetRawData, of.iofflinefileserrorinfo_getrawdata
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesErrorInfo.GetRawData
 dev_langs:

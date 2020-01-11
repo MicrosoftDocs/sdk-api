@@ -7,7 +7,6 @@ tech.root: Monitor
 ms.assetid: e7cf47f2-f833-4f34-89d2-3143ab57b561
 ms.date: 12/05/2018
 ms.keywords: SetMonitorBrightness, SetMonitorBrightness function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorBrightness, monitor.setmonitorbrightness
-ms.topic: function
 f1_keywords:
 - highlevelmonitorconfigurationapi/SetMonitorBrightness
 dev_langs:

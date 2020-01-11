@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 4a4478c8-a665-4ee1-9f3a-cad259e1c9ce
 ms.date: 12/05/2018
 ms.keywords: CAConfigString property [Security], CAConfigString property [Security],IX509Enrollment interface, IX509Enrollment interface [Security],CAConfigString property, IX509Enrollment.CAConfigString, IX509Enrollment.get_CAConfigString, IX509Enrollment::CAConfigString, IX509Enrollment::get_CAConfigString, certenroll/IX509Enrollment::CAConfigString, certenroll/IX509Enrollment::get_CAConfigString, get_CAConfigString, security.ix509enrollment_caconfigstring_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509Enrollment.CAConfigString
 dev_langs:

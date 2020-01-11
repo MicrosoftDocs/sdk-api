@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 4aab5eb2-0b6d-4ffc-b627-a35c0696c7cc
 ms.date: 12/05/2018
 ms.keywords: CHStringArray.InsertAt, CHStringArray.InsertAt(int,CHStringArray), CHStringArray::InsertAt, CHStringArray::InsertAt methods [Windows Management Instrumentation], CHStringArray::InsertAt(int,CHStringArray), InsertAt, chstrarr/CHStringArray::InsertAt, wmi.insertat_method_in_class_chstringarray
-ms.topic: method
 f1_keywords:
 - chstrarr/CHStringArray.InsertAt(int, CHStringArray*)
 dev_langs:

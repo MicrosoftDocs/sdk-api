@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 457ee1a8-44da-424d-9cc5-0f0421791757
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_balance method, IWMPSettings.get_balance, IWMPSettings::get_balance, IWMPSettingsget_balance, get_balance, get_balance method [Windows Media Player], get_balance method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_balance, wmp/IWMPSettings::get_balance
-ms.topic: method
 f1_keywords:
 - wmp/IWMPSettings.get_balance
 dev_langs:

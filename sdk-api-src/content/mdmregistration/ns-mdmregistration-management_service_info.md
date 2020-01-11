@@ -7,7 +7,6 @@ tech.root: MDMReg
 ms.assetid: 6be4540b-e74b-41f3-aef4-f613f2a79bab
 ms.date: 12/05/2018
 ms.keywords: '*PMANAGEMENT_SERVICE_INFO, MANAGEMENT_SERVICE_INFO, MANAGEMENT_SERVICE_INFO structure [MDM Registration], PMANAGEMENT_SERVICE_INFO, PMANAGEMENT_SERVICE_INFO structure pointer [MDM Registration], mdmreg.management_service_info, mdmregistration/MANAGEMENT_SERVICE_INFO, mdmregistration/PMANAGEMENT_SERVICE_INFO'
-ms.topic: struct
 f1_keywords:
 - mdmregistration/MANAGEMENT_SERVICE_INFO
 dev_langs:

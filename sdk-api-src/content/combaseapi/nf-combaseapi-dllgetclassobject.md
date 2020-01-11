@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 42c08149-c251-47f7-a81f-383975d7081c
 ms.date: 12/05/2018
 ms.keywords: DllGetClassObject, DllGetClassObject function [COM], _com_DllGetClassObject, com.dllgetclassobject, combaseapi/DllGetClassObject
-ms.topic: function
 f1_keywords:
 - combaseapi/DllGetClassObject
 dev_langs:

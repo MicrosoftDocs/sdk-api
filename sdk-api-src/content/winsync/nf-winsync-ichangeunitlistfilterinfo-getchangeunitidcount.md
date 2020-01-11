@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 23cb5f0f-0b8a-4e98-83b5-9353e7cee5d2
 ms.date: 12/05/2018
 ms.keywords: GetChangeUnitIdCount, GetChangeUnitIdCount method [Windows Sync], GetChangeUnitIdCount method [Windows Sync],IChangeUnitListFilterInfo interface, IChangeUnitListFilterInfo interface [Windows Sync],GetChangeUnitIdCount method, IChangeUnitListFilterInfo.GetChangeUnitIdCount, IChangeUnitListFilterInfo::GetChangeUnitIdCount, winsync.ichangeunitlistfilterinfo_getchangeunitidcount, winsync/IChangeUnitListFilterInfo::GetChangeUnitIdCount
-ms.topic: method
 f1_keywords:
 - winsync/IChangeUnitListFilterInfo.GetChangeUnitIdCount
 dev_langs:

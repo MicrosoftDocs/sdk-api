@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 184aa6c8-4dc5-4881-a0e0-61dc0b1a8240
 ms.date: 12/05/2018
 ms.keywords: GetFontStyle, GetFontStyle method [Direct Write], GetFontStyle method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetFontStyle method, IDWriteTextLayout.GetFontStyle, IDWriteTextLayout::GetFontStyle, directwrite.IDWriteTextLayout_GetFontStyle, dwrite/IDWriteTextLayout::GetFontStyle
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextLayout.GetFontStyle
 dev_langs:

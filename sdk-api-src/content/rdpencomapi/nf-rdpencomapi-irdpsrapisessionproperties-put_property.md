@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 01aee262-95c0-4065-8f8c-e21db66f2a8c
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPISessionProperties interface [RDP],Property property, IRDPSRAPISessionProperties.Property, IRDPSRAPISessionProperties.put_Property, IRDPSRAPISessionProperties::Property, IRDPSRAPISessionProperties::get_Property, IRDPSRAPISessionProperties::put_Property, Property property [RDP], Property property [RDP],IRDPSRAPISessionProperties interface, Property property [RDP],RDPSRAPISessionProperties object, RDPSRAPISessionProperties object [RDP],Property property, put_Property, rdp.irdpsrapisessionproperties_property, rdpencomapi/IRDPSRAPISessionProperties::Property, rdpencomapi/IRDPSRAPISessionProperties::get_Property, rdpencomapi/IRDPSRAPISessionProperties::put_Property
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPISessionProperties.Property
 dev_langs:

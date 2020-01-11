@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: d09c3626-f864-4774-8511-3e912f62e520
 ms.date: 12/05/2018
 ms.keywords: CertGetIntendedKeyUsage, CertGetIntendedKeyUsage function [Security], _crypto2_certgetintendedkeyusage, security.certgetintendedkeyusage, wincrypt/CertGetIntendedKeyUsage
-ms.topic: function
 f1_keywords:
 - wincrypt/CertGetIntendedKeyUsage
 dev_langs:

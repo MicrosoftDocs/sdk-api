@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 9FE1F2C6-971E-4789-9D30-4C129B3951F4
 ms.date: 12/05/2018
 ms.keywords: RtlEthernetStringToAddress, RtlEthernetStringToAddress function [IP Helper], RtlEthernetStringToAddressA, RtlEthernetStringToAddressW, ip2string/RtlEthernetStringToAddress, ip2string/RtlEthernetStringToAddressA, ip2string/RtlEthernetStringToAddressW, iphlp.rtlethernetstringtoaddress
-ms.topic: function
 f1_keywords:
 - ip2string/RtlEthernetStringToAddress
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 27f344c7-7143-42fe-b5b6-adc1d983abde
 ms.date: 12/05/2018
 ms.keywords: InterlockedBitTestAndSet64, InterlockedBitTestAndSet64 function, _interlockedbittestandset64, base.interlockedbittestandset64, winnt/InterlockedBitTestAndSet64
-ms.topic: function
 f1_keywords:
 - winnt/InterlockedBitTestAndSet64
 dev_langs:

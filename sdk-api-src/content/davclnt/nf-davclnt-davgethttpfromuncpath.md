@@ -7,7 +7,6 @@ tech.root: WebDAV
 ms.assetid: caa83e54-a029-45aa-9681-26b2be54fea3
 ms.date: 12/05/2018
 ms.keywords: DavGetHTTPFromUNCPath, DavGetHTTPFromUNCPath function [WebDAV], davclnt/DavGetHTTPFromUNCPath, webdav.davgethttpfromuncpath
-ms.topic: function
 f1_keywords:
 - davclnt/DavGetHTTPFromUNCPath
 dev_langs:

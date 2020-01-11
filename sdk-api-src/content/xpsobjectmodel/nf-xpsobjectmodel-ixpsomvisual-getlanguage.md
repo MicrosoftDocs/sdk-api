@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 22cddce5-f881-4585-9ab8-d8cdce06511f
 ms.date: 12/05/2018
 ms.keywords: GetLanguage, GetLanguage method [XPS Documents and Packaging], GetLanguage method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetLanguage method, IXpsOMVisual.GetLanguage, IXpsOMVisual::GetLanguage, xps.ixpsomvisual_getlanguage, xpsobjectmodel/IXpsOMVisual::GetLanguage
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.GetLanguage
 dev_langs:

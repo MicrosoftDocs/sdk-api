@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d46010c4-0f16-4c97-ad10-16f7ac250390
 ms.date: 12/05/2018
 ms.keywords: IEnumPIDMap, IEnumPIDMap interface [DirectShow], IEnumPIDMap interface [DirectShow],described, IEnumPIDMapInterface, bdaiface/IEnumPIDMap, dshow.ienumpidmap
-ms.topic: interface
 f1_keywords:
 - bdaiface/IEnumPIDMap
 dev_langs:

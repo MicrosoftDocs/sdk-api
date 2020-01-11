@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: DD89717F-4BFD-4283-A9F4-A74BB6E8E8D6
 ms.date: 12/05/2018
 ms.keywords: ClearSimulatedProfileInfo, ClearSimulatedProfileInfo method [Network Awareness], ClearSimulatedProfileInfo method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],ClearSimulatedProfileInfo method, INetworkListManager.ClearSimulatedProfileInfo, INetworkListManager::ClearSimulatedProfileInfo, netlistmgr/INetworkListManager::ClearSimulatedProfileInfo, nla.inetworklistmanager_clearsimulatedprofileinfo
-ms.topic: method
 f1_keywords:
 - netlistmgr/INetworkListManager.ClearSimulatedProfileInfo
 dev_langs:

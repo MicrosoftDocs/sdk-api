@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: c157e520-696f-45d8-8e43-0e6845882404
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbMultilingualServiceNameDescriptor interface, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbMultilingualServiceNameDescriptor.GetCountOfRecords, IDvbMultilingualServiceNameDescriptor::GetCountOfRecords, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetCountOfRecords, mstv.idvbmultilingualservicenamedescriptor_getcountofrecords
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbMultilingualServiceNameDescriptor.GetCountOfRecords
 dev_langs:

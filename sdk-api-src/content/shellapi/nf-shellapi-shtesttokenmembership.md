@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ac2d591a-f431-4da7-aa9f-0476634ec9cf
 ms.date: 12/05/2018
 ms.keywords: SHTestTokenMembership, SHTestTokenMembership function [Windows Shell], _win32_SHTestTokenMembership, shell.SHTestTokenMembership, shellapi/SHTestTokenMembership
-ms.topic: function
 f1_keywords:
 - shellapi/SHTestTokenMembership
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 49f6b26c-76e1-4519-920b-e05279f23112
 ms.date: 12/05/2018
 ms.keywords: GetClipboardData, GetClipboardData method [COM], GetClipboardData method [COM],IOleObject interface, IOleObject interface [COM],GetClipboardData method, IOleObject.GetClipboardData, IOleObject::GetClipboardData, _ole_ioleobject_getclipboarddata, com.ioleobject_getclipboarddata, oleidl/IOleObject::GetClipboardData
-ms.topic: method
 f1_keywords:
 - oleidl/IOleObject.GetClipboardData
 dev_langs:

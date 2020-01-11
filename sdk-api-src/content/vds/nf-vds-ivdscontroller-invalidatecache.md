@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 91f77390-02eb-4c5f-a5de-382df608f0df
 ms.date: 12/05/2018
 ms.keywords: IVdsController interface [VDS],InvalidateCache method, IVdsController.InvalidateCache, IVdsController::InvalidateCache, InvalidateCache, InvalidateCache method [VDS], InvalidateCache method [VDS],IVdsController interface, base.ivdscontroller_invalidatecache, vds/IVdsController::InvalidateCache, vdshwprv/IVdsController::InvalidateCache
-ms.topic: method
 f1_keywords:
 - vds/IVdsController.InvalidateCache
 dev_langs:

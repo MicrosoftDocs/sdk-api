@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: de37bb9a-e1b2-4448-9610-566f77acf542
 ms.date: 12/05/2018
 ms.keywords: PeerGraphUnregisterEvent, PeerGraphUnregisterEvent function [Peer Networking], p2p.peergraphunregisterevent, p2p/PeerGraphUnregisterEvent
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphUnregisterEvent
 dev_langs:

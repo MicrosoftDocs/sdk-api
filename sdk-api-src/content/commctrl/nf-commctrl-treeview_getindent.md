@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getindent.htm
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetIndent, TreeView_GetIndent macro [Windows Controls], _win32_TreeView_GetIndent, _win32_TreeView_GetIndent_cpp, commctrl/TreeView_GetIndent, controls.TreeView_GetIndent, controls._win32_TreeView_GetIndent
-ms.topic: macro
 f1_keywords:
 - commctrl/TreeView_GetIndent
 dev_langs:

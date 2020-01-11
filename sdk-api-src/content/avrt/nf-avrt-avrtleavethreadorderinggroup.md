@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: b618c312-0a43-4815-ad32-8820c658dc0b
 ms.date: 12/05/2018
 ms.keywords: AvRtLeaveThreadOrderingGroup, AvRtLeaveThreadOrderingGroup function, avrt/AvRtLeaveThreadOrderingGroup, base.avrtleavethreadorderinggroup
-ms.topic: function
 f1_keywords:
 - avrt/AvRtLeaveThreadOrderingGroup
 dev_langs:

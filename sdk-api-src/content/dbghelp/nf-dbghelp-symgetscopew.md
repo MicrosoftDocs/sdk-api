@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 048a4d07-bf87-4dbc-9169-d8782040b205
 ms.date: 12/05/2018
 ms.keywords: SymGetScope, SymGetScope function, SymGetScopeW, base.symgetscope, dbghelp/SymGetScope, dbghelp/SymGetScopeW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymGetScope
 dev_langs:

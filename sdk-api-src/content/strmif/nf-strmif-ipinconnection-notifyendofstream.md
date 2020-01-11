@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 3a911436-a679-4a86-93f9-e9c57ca762c5
 ms.date: 12/05/2018
 ms.keywords: IPinConnection interface [DirectShow],NotifyEndOfStream method, IPinConnection.NotifyEndOfStream, IPinConnection::NotifyEndOfStream, IPinConnectionNotifyEndOfStream, NotifyEndOfStream, NotifyEndOfStream method [DirectShow], NotifyEndOfStream method [DirectShow],IPinConnection interface, dshow.ipinconnection_notifyendofstream, strmif/IPinConnection::NotifyEndOfStream
-ms.topic: method
 f1_keywords:
 - strmif/IPinConnection.NotifyEndOfStream
 dev_langs:

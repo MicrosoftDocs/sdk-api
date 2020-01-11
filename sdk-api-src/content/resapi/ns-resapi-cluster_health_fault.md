@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 45042bb8-6904-4e5e-bb35-3e8d3b313746
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSTER_HEALTH_FAULT, CLUSTER_HEALTH_FAULT, CLUSTER_HEALTH_FAULT structure [Failover Cluster], PCLUSTER_HEALTH_FAULT, PCLUSTER_HEALTH_FAULT structure pointer [Failover Cluster], mscs.cluster_health_fault, resapi/CLUSTER_HEALTH_FAULT, resapi/PCLUSTER_HEALTH_FAULT'
-ms.topic: struct
 f1_keywords:
 - resapi/CLUSTER_HEALTH_FAULT
 dev_langs:

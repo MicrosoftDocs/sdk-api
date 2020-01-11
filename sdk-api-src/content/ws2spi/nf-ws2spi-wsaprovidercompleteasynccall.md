@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 2bbc20ae-ad6d-47f6-8ca9-dd5559236fbe
 ms.date: 12/05/2018
 ms.keywords: WSAProviderCompleteAsyncCall, WSAProviderCompleteAsyncCall function [Winsock], winsock.wsaprovidercompleteasynccall, ws2spi/WSAProviderCompleteAsyncCall
-ms.topic: function
 f1_keywords:
 - ws2spi/WSAProviderCompleteAsyncCall
 dev_langs:

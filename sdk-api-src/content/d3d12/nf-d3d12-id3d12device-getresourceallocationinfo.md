@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 43467E09-835B-4DB9-B0A4-F75868DE4609
 ms.date: 12/05/2018
 ms.keywords: GetResourceAllocationInfo, GetResourceAllocationInfo method, GetResourceAllocationInfo method,ID3D12Device interface, ID3D12Device interface,GetResourceAllocationInfo method, ID3D12Device.GetResourceAllocationInfo, ID3D12Device::GetResourceAllocationInfo, d3d12/ID3D12Device::GetResourceAllocationInfo, direct3d12.id3d12device_getresourceallocationinfo
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device.GetResourceAllocationInfo
 dev_langs:

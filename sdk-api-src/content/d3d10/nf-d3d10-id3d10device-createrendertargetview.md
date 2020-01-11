@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createrendertargetview.htm
 ms.date: 12/05/2018
 ms.keywords: 080acf2e-83e1-3be3-60d6-8385a6585f49, CreateRenderTargetView, CreateRenderTargetView method [Direct3D 10], CreateRenderTargetView method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateRenderTargetView method, ID3D10Device.CreateRenderTargetView, ID3D10Device::CreateRenderTargetView, d3d10/ID3D10Device::CreateRenderTargetView, direct3d10.id3d10device_createrendertargetview
-ms.topic: method
 f1_keywords:
 - d3d10/ID3D10Device.CreateRenderTargetView
 dev_langs:

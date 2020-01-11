@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 86388a22-5156-45e9-a601-33b7c5ca15f3
 ms.date: 12/05/2018
 ms.keywords: GetVerbState, GetVerbState method [MMC], GetVerbState method [MMC],IConsoleVerb interface, IConsoleVerb interface [MMC],GetVerbState method, IConsoleVerb.GetVerbState, IConsoleVerb::GetVerbState, _slate_iconsoleverb_getverbstate, mmc.iconsoleverb_getverbstate, mmc/IConsoleVerb::GetVerbState
-ms.topic: method
 f1_keywords:
 - mmc/IConsoleVerb.GetVerbState
 dev_langs:

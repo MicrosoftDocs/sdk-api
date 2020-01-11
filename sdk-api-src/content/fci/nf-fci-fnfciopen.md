@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 72cf50cb-c895-4953-9c4d-f8ddaa294f2a
 ms.date: 12/05/2018
 ms.keywords: FNFCIOPEN, FNFCIOPEN macro [Windows API], fci/FNFCIOPEN, winprog.fnfciopen
-ms.topic: macro
 f1_keywords:
 - fci/FNFCIOPEN
 dev_langs:

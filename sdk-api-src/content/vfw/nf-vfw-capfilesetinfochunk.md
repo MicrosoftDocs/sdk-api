@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: b0772aa7-944c-450e-a703-0057a3230cb0
 ms.date: 12/05/2018
 ms.keywords: _win32_capFileSetInfoChunk, capFileSetInfoChunk, capFileSetInfoChunk macro [Windows Multimedia], multimedia.capfilesetinfochunk, vfw/capFileSetInfoChunk
-ms.topic: macro
 f1_keywords:
 - vfw/capFileSetInfoChunk
 dev_langs:

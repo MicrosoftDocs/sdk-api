@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: A488A0B9-3CBE-477A-9688-84A7DA43D7F6
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual2 interface [DirectComposition],SetBackFaceVisibility method, IDCompositionVisual2.SetBackFaceVisibility, IDCompositionVisual2::SetBackFaceVisibility, SetBackFaceVisibility, SetBackFaceVisibility method [DirectComposition], SetBackFaceVisibility method [DirectComposition],IDCompositionVisual2 interface, dcomp/IDCompositionVisual2::SetBackFaceVisibility, directcomp.idcompositionvisual2_setbackfacevisibility
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionVisual2.SetBackFaceVisibility
 dev_langs:

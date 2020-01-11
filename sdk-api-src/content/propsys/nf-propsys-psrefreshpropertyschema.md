@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 07efbf66-3594-4b9d-b959-278dc9000572
 ms.date: 12/05/2018
 ms.keywords: PSRefreshPropertySchema, PSRefreshPropertySchema function [Windows Properties], properties.PSRefreshPropertySchema, propsys/PSRefreshPropertySchema, shell.PSRefreshPropertySchema, shell_PSRefreshPropertySchema
-ms.topic: function
 f1_keywords:
 - propsys/PSRefreshPropertySchema
 dev_langs:

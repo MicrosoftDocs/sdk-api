@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 794c8425-2319-4339-881c-c5083ab05638
 ms.date: 12/05/2018
 ms.keywords: '*LPSHITEMID, SHITEMID, SHITEMID structure [Windows Shell], _win32_SHITEMID, shell.SHITEMID, shtypes/SHITEMID'
-ms.topic: struct
 f1_keywords:
 - shtypes/SHITEMID
 dev_langs:

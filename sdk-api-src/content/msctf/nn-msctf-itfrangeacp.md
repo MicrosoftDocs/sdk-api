@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: aaa497ca-4cf2-401a-a6d8-cc8a75479cc4
 ms.date: 12/05/2018
 ms.keywords: ITfRangeACP, ITfRangeACP interface [Text Services Framework], ITfRangeACP interface [Text Services Framework],described, _tsf_itfrangeacp_ref, msctf/ITfRangeACP, tsf.itfrangeacp
-ms.topic: interface
 f1_keywords:
 - msctf/ITfRangeACP
 dev_langs:

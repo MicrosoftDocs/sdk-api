@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspath.htm
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath, GraphicsPath class [GDI+], GraphicsPath class [GDI+],described, _gdiplus_CLASS_GraphicsPath_Class, gdiplus._gdiplus_CLASS_GraphicsPath_Class, gdipluspath/GraphicsPath
-ms.topic: class
 f1_keywords:
 - gdipluspath/GraphicsPath
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: ca7f14a9-bee8-46ed-a082-7e64a41f7493
 ms.date: 12/05/2018
 ms.keywords: WS_ASYNC_STATE, WS_ASYNC_STATE structure [Web Services for Windows], webservices/WS_ASYNC_STATE, wsw.ws_async_state
-ms.topic: struct
 f1_keywords:
 - webservices/WS_ASYNC_STATE
 dev_langs:

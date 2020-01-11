@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 1F3DA0FF-37B5-4DEE-BEA0-7A0E63F3E97D
 ms.date: 12/05/2018
 ms.keywords: WofWimSuspendEntry, WofWimSuspendEntry function [Files], fs.wofwimsuspendentry, wofapi/WofWimSuspendEntry
-ms.topic: function
 f1_keywords:
 - wofapi/WofWimSuspendEntry
 dev_langs:

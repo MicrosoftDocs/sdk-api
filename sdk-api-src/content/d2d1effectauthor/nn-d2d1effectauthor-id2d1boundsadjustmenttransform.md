@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 40482670-2989-47B2-9558-FF017C8A2FBB
 ms.date: 12/05/2018
 ms.keywords: ID2D1BoundsAdjustmentTransform, ID2D1BoundsAdjustmentTransform interface [Direct2D], ID2D1BoundsAdjustmentTransform interface [Direct2D],described, d2d1effectauthor/ID2D1BoundsAdjustmentTransform, direct2d.id2d1boundadjustmenttransform
-ms.topic: interface
 f1_keywords:
 - d2d1effectauthor/ID2D1BoundsAdjustmentTransform
 dev_langs:

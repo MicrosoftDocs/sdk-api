@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b779beea-534b-4cf0-9426-db2bbcb52277
 ms.date: 12/05/2018
 ms.keywords: IInputObjectSite interface [Windows Shell],OnFocusChangeIS method, IInputObjectSite.OnFocusChangeIS, IInputObjectSite::OnFocusChangeIS, OnFocusChangeIS, OnFocusChangeIS method [Windows Shell], OnFocusChangeIS method [Windows Shell],IInputObjectSite interface, _win32_IInputObjectSite_OnFocusChangeIS, shell.IInputObjectSite_OnFocusChangeIS, shobjidl_core/IInputObjectSite::OnFocusChangeIS
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IInputObjectSite.OnFocusChangeIS
 dev_langs:

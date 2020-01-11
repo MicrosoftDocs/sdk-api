@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 44beac4a-784d-461e-8a4b-71bdcf512fbc
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Automation], Clone method [Automation],IEnumVARIANT interface, IEnumVARIANT interface [Automation],Clone method, IEnumVARIANT.Clone, IEnumVARIANT::Clone, _oa96_IEnumVARIANT::Clone, automat.ienumvariant_clone, oaidl/IEnumVARIANT::Clone
-ms.topic: method
 f1_keywords:
 - oaidl/IEnumVARIANT.Clone
 dev_langs:

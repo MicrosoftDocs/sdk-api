@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: fd90e7d2-5126-4bcf-b633-466855abd60a
 ms.date: 12/05/2018
 ms.keywords: PeerCollabSetPresenceInfo, PeerCollabSetPresenceInfo function [Peer Networking], p2p.peercollabsetpresenceinfo, p2p/PeerCollabSetPresenceInfo
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabSetPresenceInfo
 dev_langs:

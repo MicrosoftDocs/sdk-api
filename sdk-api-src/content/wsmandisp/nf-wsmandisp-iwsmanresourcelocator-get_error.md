@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 040333f5-32b0-4ec8-8deb-da9fcb2ea46b
 ms.date: 12/05/2018
 ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],Error property, IWSManResourceLocator.Error, IWSManResourceLocator.get_Error, IWSManResourceLocator::Error, IWSManResourceLocator::get_Error, get_Error, winrm.iwsmanresourcelocator_error, wsmandisp/IWSManResourceLocator::Error, wsmandisp/IWSManResourceLocator::get_Error
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManResourceLocator.Error
 dev_langs:

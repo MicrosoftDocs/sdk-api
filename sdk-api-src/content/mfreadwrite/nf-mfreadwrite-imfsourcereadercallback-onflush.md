@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: a8273b0a-a75a-453f-bb42-38d554e44262
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReaderCallback interface [Media Foundation],OnFlush method, IMFSourceReaderCallback.OnFlush, IMFSourceReaderCallback::OnFlush, OnFlush, OnFlush method [Media Foundation], OnFlush method [Media Foundation],IMFSourceReaderCallback interface, mf.imfsourcereadercallback_onflush, mfreadwrite/IMFSourceReaderCallback::OnFlush
-ms.topic: method
 f1_keywords:
 - mfreadwrite/IMFSourceReaderCallback.OnFlush
 dev_langs:

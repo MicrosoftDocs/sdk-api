@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: de2addfc-e289-4277-a283-b7aa2aa47ba0
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],WillUseFullScreen method, IDirectDrawVideo.WillUseFullScreen, IDirectDrawVideo::WillUseFullScreen, IDirectDrawVideoWillUseFullScreen, WillUseFullScreen, WillUseFullScreen method [DirectShow], WillUseFullScreen method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::WillUseFullScreen, dshow.idirectdrawvideo_willusefullscreen
-ms.topic: method
 f1_keywords:
 - amvideo/IDirectDrawVideo.WillUseFullScreen
 dev_langs:

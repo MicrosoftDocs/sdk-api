@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 81b3b750-b9bd-42f1-b49d-134a10493ae5
 ms.date: 12/05/2018
 ms.keywords: EnumTypeSpecs, EnumTypeSpecs method [Windows Runtime], EnumTypeSpecs method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumTypeSpecs method, IMetaDataImport.EnumTypeSpecs, IMetaDataImport::EnumTypeSpecs, rometadataapi/IMetaDataImport::EnumTypeSpecs, winrt.imetadataimport_enumtypespecs
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataImport.EnumTypeSpecs
 dev_langs:

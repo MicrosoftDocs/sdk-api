@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 00230021-6069-4e0b-a3d6-95651aa6e44a
 ms.date: 12/05/2018
 ms.keywords: IEnumOfflineFilesSettings interface [Offline Files],Next method, IEnumOfflineFilesSettings.Next, IEnumOfflineFilesSettings::Next, Next, Next method [Offline Files], Next method [Offline Files],IEnumOfflineFilesSettings interface, cscobj/IEnumOfflineFilesSettings::Next, of.ienumofflinefilessettings_next
-ms.topic: method
 f1_keywords:
 - cscobj/IEnumOfflineFilesSettings.Next
 dev_langs:

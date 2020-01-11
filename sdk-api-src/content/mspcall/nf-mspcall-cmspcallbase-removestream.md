@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 5e2b4261-ba0f-429a-aef5-974b2841bf0b
 ms.date: 12/05/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],RemoveStream method, CMSPCallBase.RemoveStream, CMSPCallBase::RemoveStream, RemoveStream, RemoveStream method [TAPI 2.2], RemoveStream method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_removestream, mspcall/CMSPCallBase::RemoveStream, tapi3.cmspcallbase_removestream
-ms.topic: method
 f1_keywords:
 - mspcall/CMSPCallBase.RemoveStream
 dev_langs:

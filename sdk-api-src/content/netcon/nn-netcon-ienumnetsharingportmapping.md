@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 68334bd2-353f-457d-a2c7-1271816f10f5
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPortMapping, IEnumNetSharingPortMapping interface [ICS/ICF], IEnumNetSharingPortMapping interface [ICS/ICF],described, _ics_ienumnetsharingportmapping, ics.ienumnetsharingportmapping, netcon/IEnumNetSharingPortMapping
-ms.topic: interface
 f1_keywords:
 - netcon/IEnumNetSharingPortMapping
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 6d3083a6-1bd2-4dbf-9f8d-1a6e465188af
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorInvokeConfigUI, EapMethodAuthenticatorInvokeConfigUI function [EAPHost], eaphost.eapmethodauthenticatorinvokeconfigui, eapmethodauthenticatorapis/EapMethodAuthenticatorInvokeConfigUI
-ms.topic: function
 f1_keywords:
 - eapmethodauthenticatorapis/EapMethodAuthenticatorInvokeConfigUI
 dev_langs:

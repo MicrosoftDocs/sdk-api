@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: b35e6f2f-7d40-4b9b-833d-63efafd06a20
 ms.date: 12/05/2018
 ms.keywords: ?ValidateQueryFlags@Provider@@MAEJJ@Z, ?ValidateQueryFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidateQueryFlags method, Provider.ValidateQueryFlags, Provider::ValidateQueryFlags, ValidateQueryFlags, ValidateQueryFlags method [Windows Management Instrumentation], ValidateQueryFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validatequeryflags, provider/Provider::ValidateQueryFlags, wmi.provider_validatequeryflags
-ms.topic: method
 f1_keywords:
 - provider/Provider.ValidateQueryFlags
 dev_langs:

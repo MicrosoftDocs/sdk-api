@@ -5,7 +5,6 @@ description: Retrieves the expiration event for the font set, if any. The expira
 tech.root: DirectWrite
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontCollection3 interface [Direct Write],GetExpirationEvent method, IDWriteFontCollection3.GetExpirationEvent, IDWriteFontCollection3::GetExpirationEvent, GetExpirationEvent, GetExpirationEvent method [Direct Write], GetExpirationEvent method [Direct Write],IDWriteFontCollection3 interface, directwrite.idwritefontcollection3_getexpirationevent, dwrite_3/IDWriteFontCollection3::GetExpirationEvent
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontCollection3.GetExpirationEvent
 dev_langs:

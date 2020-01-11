@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: CC8776DF-9DC6-4B75-A4CE-EAC644EABABA
 ms.date: 12/05/2018
 ms.keywords: WinUsb_WriteIsochPipeAsap, WinUsb_WriteIsochPipeAsap function [Buses], buses.winusb_writeisochpipeasap, winusb/WinUsb_WriteIsochPipeAsap
-ms.topic: function
 f1_keywords:
 - winusb/WinUsb_WriteIsochPipeAsap
 dev_langs:

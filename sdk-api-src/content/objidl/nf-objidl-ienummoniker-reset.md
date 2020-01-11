@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 0b7c74b4-cbcb-44cc-8bea-feb55abb5643
 ms.date: 12/05/2018
 ms.keywords: IEnumMoniker interface [COM],Reset method, IEnumMoniker.Reset, IEnumMoniker::Reset, Reset, Reset method [COM], Reset method [COM],IEnumMoniker interface, _ole_ienummoniker_reset, com.ienummoniker_reset, objidl/IEnumMoniker::Reset
-ms.topic: method
 f1_keywords:
 - objidl/IEnumMoniker.Reset
 dev_langs:

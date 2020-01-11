@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: b8ebc804-08a1-4840-ba20-f52438a0d6bf
 ms.date: 12/05/2018
 ms.keywords: GetListRecordLogicalChannelNumber, GetListRecordLogicalChannelNumber method [Microsoft TV Technologies], GetListRecordLogicalChannelNumber method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListRecordLogicalChannelNumber method, IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelNumber, IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelNumber, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelNumber, mstv.idvblogicalchannel2descriptor_getlistrecordlogicalchannelnumber
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelNumber
 dev_langs:

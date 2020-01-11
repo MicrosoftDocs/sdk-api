@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 8da90ca3-1c81-414f-b1a0-a0dfcae745ba
 ms.date: 12/05/2018
 ms.keywords: CreatePermission, CreatePermission method [GPMC], CreatePermission method [GPMC],GPM object, CreatePermission method [GPMC],IGPM interface, GPM object [GPMC],CreatePermission method, IGPM interface [GPMC],CreatePermission method, IGPM.CreatePermission, IGPM::CreatePermission, _win32_igpm_createpermission, gpmc.igpm_createpermission, gpmgmt/IGPM::CreatePermission, permGPOApply, permGPOEdit, permGPOEditSecurityAndDelete, permGPORead, permSOMGPOCreate, permSOMLink, permSOMLogging, permSOMPlanning, permSOMWMICreate, permSOMWMIFullControl, permWMIFilterEdit, permWMIFilterFullControl
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPM.CreatePermission
 dev_langs:

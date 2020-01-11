@@ -7,7 +7,6 @@ tech.root: InputMsg
 ms.assetid: 58E66EC4-D855-4B24-80E9-54B6DAE6D36C
 ms.date: 12/05/2018
 ms.keywords: HAS_POINTER_CONFIDENCE_WPARAM, HAS_POINTER_CONFIDENCE_WPARAM macro [Input Messages and Notifications], inputmsg.has_pointer_confidence_wparam, winuser/HAS_POINTER_CONFIDENCE_WPARAM
-ms.topic: macro
 f1_keywords:
 - winuser/HAS_POINTER_CONFIDENCE_WPARAM
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 8b0ce221-2186-4aed-a474-00f88cef6350
 ms.date: 12/05/2018
 ms.keywords: WBEMTime, WBEMTime.WBEMTime, WBEMTime::WBEMTime, WBEMTime::WBEMTime constructors [Windows Management Instrumentation], wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime
-ms.topic: method
 f1_keywords:
 - wbemtime/WBEMTime::WBEMTime
 dev_langs:

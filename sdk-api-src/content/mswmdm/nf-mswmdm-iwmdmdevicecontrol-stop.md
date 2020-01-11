@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 842b7de7-dde2-40d1-8028-9ffebcaea90e
 ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Stop method, IWMDMDeviceControl.Stop, IWMDMDeviceControl::Stop, IWMDMDeviceControlStop, Stop, Stop method [windows Media Device Manager], Stop method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Stop, wmdm.iwmdmdevicecontrol_stop
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMDeviceControl.Stop
 dev_langs:

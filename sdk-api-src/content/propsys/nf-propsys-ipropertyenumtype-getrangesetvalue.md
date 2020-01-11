@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 63c5d2cd-70bc-45f6-a620-7b68ab94f8ff
 ms.date: 12/05/2018
 ms.keywords: GetRangeSetValue, GetRangeSetValue method [Windows Properties], GetRangeSetValue method [Windows Properties],IPropertyEnumType interface, IPropertyEnumType interface [Windows Properties],GetRangeSetValue method, IPropertyEnumType.GetRangeSetValue, IPropertyEnumType::GetRangeSetValue, _shell_IPropertyEnumType_GetRangeSetValue, properties.IPropertyEnumType_GetRangeSetValue, propsys/IPropertyEnumType::GetRangeSetValue, shell.IPropertyEnumType_GetRangeSetValue
-ms.topic: method
 f1_keywords:
 - propsys/IPropertyEnumType.GetRangeSetValue
 dev_langs:

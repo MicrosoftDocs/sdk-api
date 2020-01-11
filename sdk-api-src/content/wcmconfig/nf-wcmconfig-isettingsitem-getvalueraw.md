@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: 2b4b96df-1286-49be-869a-404adaead27a
 ms.date: 12/05/2018
 ms.keywords: GetValueRaw, GetValueRaw method [SMI], GetValueRaw method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetValueRaw method, ISettingsItem.GetValueRaw, ISettingsItem::GetValueRaw, smi.isettingsitem_getvalueraw, wcmconfig/ISettingsItem::GetValueRaw
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsItem.GetValueRaw
 dev_langs:

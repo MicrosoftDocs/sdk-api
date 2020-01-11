@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5fbbcd26-c60a-4b6a-92cf-36b8bd429266
 ms.date: 12/05/2018
 ms.keywords: IInputObject, IInputObject interface [Windows Shell], IInputObject interface [Windows Shell],described, _win32_IInputObject, shell.IInputObject, shobjidl_core/IInputObject
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IInputObject
 dev_langs:

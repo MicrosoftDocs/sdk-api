@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2c113d11-11d5-4362-bad5-c859d65aca2a
 ms.date: 12/05/2018
 ms.keywords: PathAddExtension, PathAddExtension function [Windows Shell], PathAddExtensionA, PathAddExtensionW, _win32_PathAddExtension, shell.PathAddExtension, shlwapi/PathAddExtension, shlwapi/PathAddExtensionA, shlwapi/PathAddExtensionW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathAddExtension
 dev_langs:

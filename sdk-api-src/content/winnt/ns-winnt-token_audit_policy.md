@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 02c03560-4886-4a63-ba0d-c77494d6595e
 ms.date: 12/05/2018
 ms.keywords: '*PTOKEN_AUDIT_POLICY, PTOKEN_AUDIT_POLICY, PTOKEN_AUDIT_POLICY structure pointer [Security], TOKEN_AUDIT_POLICY, TOKEN_AUDIT_POLICY structure [Security], _TOKEN_AUDIT_POLICY, security.token_audit_policy, winnt/PTOKEN_AUDIT_POLICY, winnt/TOKEN_AUDIT_POLICY'
-ms.topic: struct
 f1_keywords:
 - winnt/TOKEN_AUDIT_POLICY
 dev_langs:

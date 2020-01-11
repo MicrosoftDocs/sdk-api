@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 4efd8e5a-490b-435b-b34d-7099198891b1
 ms.date: 12/05/2018
 ms.keywords: ISCPSession, ISCPSession interface [windows Media Device Manager], ISCPSession interface [windows Media Device Manager],described, ISCPSessionInterface, mswmdm/ISCPSession, wmdm.iscpsession
-ms.topic: interface
 f1_keywords:
 - mswmdm/ISCPSession
 dev_langs:

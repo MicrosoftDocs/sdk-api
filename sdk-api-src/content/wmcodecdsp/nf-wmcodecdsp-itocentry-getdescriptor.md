@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: bb685d4c-c5ec-413f-b279-25216b2bcee8
 ms.date: 12/05/2018
 ms.keywords: GetDescriptor, GetDescriptor method [Media Foundation], GetDescriptor method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetDescriptor method, ITocEntry.GetDescriptor, ITocEntry::GetDescriptor, codecapi.itocentry_getdescriptor, mf.itocentry_getdescriptor, wmcodecdsp/ITocEntry::GetDescriptor
-ms.topic: method
 f1_keywords:
 - wmcodecdsp/ITocEntry.GetDescriptor
 dev_langs:

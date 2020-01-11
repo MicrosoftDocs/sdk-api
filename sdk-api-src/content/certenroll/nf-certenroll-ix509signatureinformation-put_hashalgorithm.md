@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: b5242975-50e5-49d6-be1f-3a09ada03593
 ms.date: 12/05/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],IX509SignatureInformation interface, IX509SignatureInformation interface [Security],HashAlgorithm property, IX509SignatureInformation.HashAlgorithm, IX509SignatureInformation.put_HashAlgorithm, IX509SignatureInformation::HashAlgorithm, IX509SignatureInformation::get_HashAlgorithm, IX509SignatureInformation::put_HashAlgorithm, certenroll/IX509SignatureInformation::HashAlgorithm, certenroll/IX509SignatureInformation::get_HashAlgorithm, certenroll/IX509SignatureInformation::put_HashAlgorithm, put_HashAlgorithm, security.ix509signatureinformation_hashalgorithm_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509SignatureInformation.HashAlgorithm
 dev_langs:

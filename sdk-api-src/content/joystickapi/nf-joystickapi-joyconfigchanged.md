@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 3cdc7888-2d66-4fb9-abad-86e891f4ebe4
 ms.date: 12/05/2018
 ms.keywords: _win32_joyConfigChanged, joyConfigChanged, joyConfigChanged function [Windows Multimedia], joystickapi/joyConfigChanged, multimedia.joyconfigchanged
-ms.topic: function
 f1_keywords:
 - joystickapi/joyConfigChanged
 dev_langs:

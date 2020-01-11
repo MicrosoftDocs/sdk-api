@@ -7,7 +7,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\findreplace.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPFINDREPLACEA, FINDREPLACE, FINDREPLACE structure [Dialog Boxes], FINDREPLACEA, FINDREPLACEW, FR_DIALOGTERM, FR_DOWN, FR_ENABLEHOOK, FR_ENABLETEMPLATE, FR_ENABLETEMPLATEHANDLE, FR_FINDNEXT, FR_HIDEMATCHCASE, FR_HIDEUPDOWN, FR_HIDEWHOLEWORD, FR_MATCHCASE, FR_NOMATCHCASE, FR_NOUPDOWN, FR_NOWHOLEWORD, FR_REPLACE, FR_REPLACEALL, FR_SHOWHELP, FR_WHOLEWORD, LPFINDREPLACE, LPFINDREPLACE structure pointer [Dialog Boxes], _win32_FINDREPLACE_str, _win32_findreplace_str_cpp, commdlg/FINDREPLACE, commdlg/FINDREPLACEA, commdlg/FINDREPLACEW, commdlg/LPFINDREPLACE, dlgbox.findreplace_str, winui._win32_findreplace_str'
-ms.topic: struct
 f1_keywords:
 - commdlg/FINDREPLACE
 dev_langs:

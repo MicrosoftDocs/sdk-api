@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 705644e2-fd15-4225-b26a-e75c2dd2f6e3
 ms.date: 12/05/2018
 ms.keywords: GetValidationState, GetValidationState method [BITS], GetValidationState method [BITS],IBackgroundCopyFile3 interface, IBackgroundCopyFile3 interface [BITS],GetValidationState method, IBackgroundCopyFile3.GetValidationState, IBackgroundCopyFile3::GetValidationState, bits.ibackgroundcopyfile3_getvalidationstate, bits3_0/IBackgroundCopyFile3::GetValidationState
-ms.topic: method
 f1_keywords:
 - bits3_0/IBackgroundCopyFile3.GetValidationState
 dev_langs:

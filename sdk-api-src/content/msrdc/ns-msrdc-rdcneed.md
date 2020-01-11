@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: 086e82f1-b033-48e2-b648-895c04751cc9
 ms.date: 12/05/2018
 ms.keywords: RdcNeed, RdcNeed structure [Remote Differential Compression], fs.rdcneed, msrdc/RdcNeed, rdc.rdcneed
-ms.topic: struct
 f1_keywords:
 - msrdc/RdcNeed
 dev_langs:

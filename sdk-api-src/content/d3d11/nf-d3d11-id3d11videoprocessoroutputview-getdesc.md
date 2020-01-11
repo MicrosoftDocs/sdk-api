@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 8FDC547A-64B9-415C-865C-31BF8FA1A711
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Media Foundation], GetDesc method [Media Foundation],ID3D11VideoProcessorOutputView interface, ID3D11VideoProcessorOutputView interface [Media Foundation],GetDesc method, ID3D11VideoProcessorOutputView.GetDesc, ID3D11VideoProcessorOutputView::GetDesc, d3d11/ID3D11VideoProcessorOutputView::GetDesc, mf.id3d11videoprocessoroutputview_getdesc
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11VideoProcessorOutputView.GetDesc
 dev_langs:

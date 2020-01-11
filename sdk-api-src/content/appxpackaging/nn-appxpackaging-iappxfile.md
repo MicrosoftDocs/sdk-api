@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: DB09452D-725C-46EA-B74C-92C5E596BEF8
 ms.date: 12/05/2018
 ms.keywords: IAppxFile, IAppxFile interface [App packaging and management], IAppxFile interface [App packaging and management],described, appxpackaging/IAppxFile, appxpkg.iappxfile
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxFile
 dev_langs:

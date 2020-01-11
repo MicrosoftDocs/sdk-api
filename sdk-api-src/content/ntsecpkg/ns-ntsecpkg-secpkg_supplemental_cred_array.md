@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: b9514e26-29a5-4ba8-a375-1723c0a1ce39
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_SUPPLEMENTAL_CRED_ARRAY, PSECPKG_SUPPLEMENTAL_CRED_ARRAY, PSECPKG_SUPPLEMENTAL_CRED_ARRAY structure pointer [Security], SECPKG_SUPPLEMENTAL_CRED_ARRAY, SECPKG_SUPPLEMENTAL_CRED_ARRAY structure [Security], _ssp_secpkg_supplemental_cred_array, ntsecpkg/PSECPKG_SUPPLEMENTAL_CRED_ARRAY, ntsecpkg/SECPKG_SUPPLEMENTAL_CRED_ARRAY, security.secpkg_supplemental_cred_array'
-ms.topic: struct
 f1_keywords:
 - ntsecpkg/SECPKG_SUPPLEMENTAL_CRED_ARRAY
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: d449f3f7-fd43-44b0-ab7f-2ae307a74191
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], IWICDevelopRaw interface [Windows Imaging Component],described, _wic_codec_iwicdevelopraw, wic._wic_codec_iwicdevelopraw, wincodec/IWICDevelopRaw
-ms.topic: interface
 f1_keywords:
 - wincodec/IWICDevelopRaw
 dev_langs:

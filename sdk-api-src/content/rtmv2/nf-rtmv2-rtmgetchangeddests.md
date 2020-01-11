@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 2b22927d-a857-4bcb-9d89-6ca156b04ea9
 ms.date: 12/05/2018
 ms.keywords: RtmGetChangedDests, RtmGetChangedDests function [RAS], _rtmv2ref_rtmgetchangeddests, rras.rtmgetchangeddests, rtmv2/RtmGetChangedDests
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmGetChangedDests
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: c1d2a68b-0910-4815-9547-0f0f3c983164
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 1002, NetLocalGroupSetInfo, NetLocalGroupSetInfo function [Network Management], _win32_netlocalgroupsetinfo, lmaccess/NetLocalGroupSetInfo, netmgmt.netlocalgroupsetinfo
-ms.topic: function
 f1_keywords:
 - lmaccess/NetLocalGroupSetInfo
 dev_langs:

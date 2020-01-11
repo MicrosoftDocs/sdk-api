@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 15f33689-07d5-4bd9-978a-2b5d9088b2ed
 ms.date: 12/05/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_ServerAddress method, IMcastLeaseInfo.get_ServerAddress, IMcastLeaseInfo::get_ServerAddress, _tapi3_imcastleaseinfo_get_serveraddress, get_ServerAddress, get_ServerAddress method [TAPI 2.2], get_ServerAddress method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_ServerAddress, tapi3.imcastleaseinfo_get_serveraddress
-ms.topic: method
 f1_keywords:
 - mdhcp/IMcastLeaseInfo.get_ServerAddress
 dev_langs:

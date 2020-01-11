@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: b88f5577-9124-433c-a7e8-a7f713b7b27d
 ms.date: 12/05/2018
 ms.keywords: SEM_FAILCRITICALERRORS, SEM_NOALIGNMENTFAULTEXCEPT, SEM_NOGPFAULTERRORBOX, SEM_NOOPENFILEERRORBOX, SetErrorMode, SetErrorMode function, _win32_seterrormode, base.seterrormode, errhandlingapi/SetErrorMode
-ms.topic: function
 f1_keywords:
 - errhandlingapi/SetErrorMode
 dev_langs:

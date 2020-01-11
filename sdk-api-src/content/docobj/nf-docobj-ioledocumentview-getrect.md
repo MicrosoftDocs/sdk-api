@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 65d27354-c278-4d9e-b1b7-6fa3651a343d
 ms.date: 12/05/2018
 ms.keywords: GetRect, GetRect method [COM], GetRect method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],GetRect method, IOleDocumentView.GetRect, IOleDocumentView::GetRect, _ole_ioledocumentview_getrect, com.ioledocumentview_getrect, docobj/IOleDocumentView::GetRect
-ms.topic: method
 f1_keywords:
 - docobj/IOleDocumentView.GetRect
 dev_langs:

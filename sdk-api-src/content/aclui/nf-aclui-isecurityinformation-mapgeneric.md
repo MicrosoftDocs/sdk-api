@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 85ad4d42-11e7-4d26-943f-3d7451899c8e
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation interface [Security],MapGeneric method, ISecurityInformation.MapGeneric, ISecurityInformation::MapGeneric, MapGeneric, MapGeneric method [Security], MapGeneric method [Security],ISecurityInformation interface, _win32_isecurityinformation_mapgeneric, aclui/ISecurityInformation::MapGeneric, security.isecurityinformation_mapgeneric
-ms.topic: method
 f1_keywords:
 - aclui/ISecurityInformation.MapGeneric
 dev_langs:

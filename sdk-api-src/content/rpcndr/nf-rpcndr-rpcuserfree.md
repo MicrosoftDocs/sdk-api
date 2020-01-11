@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: A10E3C20-DB43-4F76-BF4B-87F4126BAF1A
 ms.date: 12/05/2018
 ms.keywords: RpcUserFree, RpcUserFree function [RPC], rpc.rpcuserfree, rpcndr/RpcUserFree
-ms.topic: function
 f1_keywords:
 - rpcndr/RpcUserFree
 dev_langs:

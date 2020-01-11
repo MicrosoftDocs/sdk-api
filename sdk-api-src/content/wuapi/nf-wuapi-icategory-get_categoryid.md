@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 56982453-6f2d-4401-83a9-672c0d8a2409
 ms.date: 12/05/2018
 ms.keywords: CategoryID property [Windows Update Agent], CategoryID property [Windows Update Agent],ICategory interface, ICategory interface [Windows Update Agent],CategoryID property, ICategory.CategoryID, ICategory.get_CategoryID, ICategory::CategoryID, ICategory::get_CategoryID, get_CategoryID, wua.icategory_categoryid, wuapi/ICategory::CategoryID, wuapi/ICategory::get_CategoryID
-ms.topic: method
 f1_keywords:
 - wuapi/ICategory.CategoryID
 dev_langs:

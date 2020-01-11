@@ -7,7 +7,6 @@ tech.root: Dlls
 ms.assetid: be63fdbf-b3a4-44a8-99b4-b41e159952a7
 ms.date: 12/05/2018
 ms.keywords: FreeLibraryAndExitThread, FreeLibraryAndExitThread function, _win32_freelibraryandexitthread, base.freelibraryandexitthread, libloaderapi/FreeLibraryAndExitThread, winbase/FreeLibraryAndExitThread
-ms.topic: function
 f1_keywords:
 - libloaderapi/FreeLibraryAndExitThread
 dev_langs:

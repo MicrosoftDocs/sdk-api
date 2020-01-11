@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 96d838ca-69e3-4a73-b969-3e6e810a0a69
 ms.date: 12/05/2018
 ms.keywords: SetPerTcpConnectionEStats, SetPerTcpConnectionEStats function [IP Helper], iphlp.setpertcpconnectionestats, iphlpapi/SetPerTcpConnectionEStats
-ms.topic: function
 f1_keywords:
 - iphlpapi/SetPerTcpConnectionEStats
 dev_langs:

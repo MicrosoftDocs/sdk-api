@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 638ab6e1-7663-4f15-a487-e22496672ddb
 ms.date: 12/05/2018
 ms.keywords: IAMMediaStream interface [DirectShow],JoinFilter method, IAMMediaStream.JoinFilter, IAMMediaStream::JoinFilter, IAMMediaStreamJoinFilter, JoinFilter, JoinFilter method [DirectShow], JoinFilter method [DirectShow],IAMMediaStream interface, amstream/IAMMediaStream::JoinFilter, dshow.iammediastream_joinfilter
-ms.topic: method
 f1_keywords:
 - amstream/IAMMediaStream.JoinFilter
 dev_langs:

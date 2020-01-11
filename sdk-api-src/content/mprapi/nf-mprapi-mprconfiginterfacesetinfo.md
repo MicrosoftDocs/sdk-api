@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 3abf3f27-a486-4b5c-a154-daf2dc99efaa
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceSetInfo, MprConfigInterfaceSetInfo function [RAS], _mpr_mprconfiginterfacesetinfo, mprapi/MprConfigInterfaceSetInfo, rras.mprconfiginterfacesetinfo
-ms.topic: function
 f1_keywords:
 - mprapi/MprConfigInterfaceSetInfo
 dev_langs:

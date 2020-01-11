@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: A28BBE75-5188-452B-B784-B6824D4BD161
 ms.date: 12/05/2018
 ms.keywords: SetProcessValidCallTargets, SetProcessValidCallTargets function, base.setprocessvalidcalltargets, winbase/SetProcessValidCallTargets
-ms.topic: function
 f1_keywords:
 - memoryapi/SetProcessValidCallTargets
 dev_langs:

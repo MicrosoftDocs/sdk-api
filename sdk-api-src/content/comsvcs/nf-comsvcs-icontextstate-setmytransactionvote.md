@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: ec88f99a-cb24-42a9-8f2a-add7ddbec719
 ms.date: 12/05/2018
 ms.keywords: IContextState interface [COM+],SetMyTransactionVote method, IContextState.SetMyTransactionVote, IContextState::SetMyTransactionVote, SetMyTransactionVote, SetMyTransactionVote method [COM+], SetMyTransactionVote method [COM+],IContextState interface, _cos_IContextState_SetMyTransactionVote, comsvcs/IContextState::SetMyTransactionVote, cos.icontextstate_setmytransactionvote
-ms.topic: method
 f1_keywords:
 - comsvcs/IContextState.SetMyTransactionVote
 dev_langs:

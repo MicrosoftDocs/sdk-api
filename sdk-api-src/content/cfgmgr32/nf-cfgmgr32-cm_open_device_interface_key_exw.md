@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 71F8EF83-4DEC-4BDC-BBCE-4F7C232F1768
 ms.date: 12/05/2018
 ms.keywords: CM_Open_Device_Interface_Key_ExW, CM_Open_Device_Interface_Key_ExW function [Device and Driver Installation], cfgmgr32/CM_Open_Device_Interface_Key_ExW, devinst.cm_open_device_interface_key_exw
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Open_Device_Interface_Key_ExW
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: c45ff664-03f0-4cda-9ffd-fb7ea2656e43
 ms.date: 12/05/2018
 ms.keywords: ICDecompressGetFormat, ICDecompressGetFormat macro [Windows Multimedia], _win32_ICDecompressGetFormat, multimedia.icdecompressgetformat, vfw/ICDecompressGetFormat
-ms.topic: macro
 f1_keywords:
 - vfw/ICDecompressGetFormat
 dev_langs:

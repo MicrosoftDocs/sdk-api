@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setgamma.htm
 ms.date: 12/05/2018
 ms.keywords: ImageAttributes class [GDI+],SetGamma method, ImageAttributes.SetGamma, ImageAttributes::SetGamma, SetGamma, SetGamma method [GDI+], SetGamma method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_SetGamma_gamma_type_, gdiplus._gdiplus_CLASS_ImageAttributes_SetGamma_gamma_type_
-ms.topic: method
 f1_keywords:
 - gdiplusimageattributes/ImageAttributes.SetGamma
 dev_langs:

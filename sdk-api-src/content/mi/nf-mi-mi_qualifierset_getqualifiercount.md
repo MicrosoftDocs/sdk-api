@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 0027b8fc-0528-4aa8-85bc-088429e1e045
 ms.date: 12/05/2018
 ms.keywords: MI_QualifierSet_GetQualifierCount, MI_QualifierSet_GetQualifierCount function [Windows Management Infrastructure (MI)], mi/MI_QualifierSet_GetQualifierCount, wmi_v2.mi_qualifierset_getqualifiercount
-ms.topic: function
 f1_keywords:
 - mi/MI_QualifierSet_GetQualifierCount
 dev_langs:

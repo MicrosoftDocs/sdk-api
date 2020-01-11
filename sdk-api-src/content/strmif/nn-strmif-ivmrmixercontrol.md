@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2aefaebc-14e7-4918-9256-c5e9e3449095
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl, IVMRMixerControl interface [DirectShow], IVMRMixerControl interface [DirectShow],described, IVMRMixerControlInterface, dshow.ivmrmixercontrol, strmif/IVMRMixerControl
-ms.topic: interface
 f1_keywords:
 - strmif/IVMRMixerControl
 dev_langs:

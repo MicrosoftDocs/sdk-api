@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 85b4197c-5caf-4e2b-94fd-e651712dd39d
 ms.date: 12/05/2018
 ms.keywords: EapPeerFreeErrorMemory, EapPeerFreeErrorMemory function [EAPHost], eaphost.eappeerfreeerrormemory, eapmethodpeerapis/EapPeerFreeErrorMemory
-ms.topic: function
 f1_keywords:
 - eapmethodpeerapis/EapPeerFreeErrorMemory
 dev_langs:

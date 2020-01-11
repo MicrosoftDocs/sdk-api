@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 67198ed0-c210-4eb1-b0f9-13cdb128c57d
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_result2error, ldap.ldap__result2error, ldap.ldap_result2error, ldap_result2error, ldap_result2error function [LDAP], winldap/ldap_result2error
-ms.topic: function
 f1_keywords:
 - winldap/ldap_result2error
 dev_langs:

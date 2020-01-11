@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 6dfc2793-7960-5c13-950d-9ba14900c3e0
 ms.date: 12/05/2018
 ms.keywords: EnqueueFileFragmentDownloadRequest, EnqueueFileFragmentDownloadRequest method [Direct Write], EnqueueFileFragmentDownloadRequest method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],EnqueueFileFragmentDownloadRequest method, IDWriteFontFaceReference.EnqueueFileFragmentDownloadRequest, IDWriteFontFaceReference::EnqueueFileFragmentDownloadRequest, directwrite.idwritefontfacereference_enqueuefilefragmentdownloadrequest, dwrite_3/IDWriteFontFaceReference::EnqueueFileFragmentDownloadRequest
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontFaceReference.EnqueueFileFragmentDownloadRequest
 dev_langs:

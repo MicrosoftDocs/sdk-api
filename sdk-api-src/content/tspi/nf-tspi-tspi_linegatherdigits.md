@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: a7035e4d-dbb3-48b2-b44a-a7acb85e2d8a
 ms.date: 12/05/2018
 ms.keywords: LINEDIGITMODE_DTMF, LINEDIGITMODE_PULSE, TSPI_lineGatherDigits, TSPI_lineGatherDigits function [TAPI 2.2], _tspi_tspi_linegatherdigits, tspi.tspi_linegatherdigits, tspi/TSPI_lineGatherDigits
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineGatherDigits
 dev_langs:

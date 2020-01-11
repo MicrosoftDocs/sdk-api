@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: 89558567-1467-4133-a768-e65d967814c8
 ms.date: 05/06/2019
 ms.keywords: XMDEC4, XMDEC4 constructor [DirectX Math Support APIs], XMDEC4 constructor [DirectX Math Support APIs],XMDEC4 structure, XMDEC4 structure [DirectX Math Support APIs],XMDEC4 constructor, XMDEC4.XMDEC4, XMDEC4.XMDEC4(), XMDEC4.XMDEC4(const float), XMDEC4::XMDEC4, XMDEC4::XMDEC4(const float), dxmath.xmdec4_ctor_1
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMDEC4.XMDEC4
 dev_langs:

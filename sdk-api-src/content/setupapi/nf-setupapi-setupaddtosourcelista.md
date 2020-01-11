@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: c1da3f9b-12ea-49f3-a5ca-45a63a56becd
 ms.date: 12/05/2018
 ms.keywords: SetupAddToSourceList, SetupAddToSourceList function [Setup API], SetupAddToSourceListA, SetupAddToSourceListW, _setupapi_setupaddtosourcelist, setup.setupaddtosourcelist, setupapi/SetupAddToSourceList, setupapi/SetupAddToSourceListA, setupapi/SetupAddToSourceListW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupAddToSourceList
 dev_langs:

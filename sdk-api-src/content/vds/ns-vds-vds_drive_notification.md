@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 933376b3-d5eb-407b-941c-4e2b61774c1a
 ms.date: 12/05/2018
 ms.keywords: VDS_DRIVE_NOTIFICATION, VDS_DRIVE_NOTIFICATION structure [VDS], VDS_NF_DRIVE_ARRIVE, VDS_NF_DRIVE_DEPART, VDS_NF_DRIVE_MODIFY, VDS_NF_DRIVE_REMOVED, base.vds_drive_notification, vds/_VDS_DRIVE_NOTIFICATION, vdshwprv/_VDS_DRIVE_NOTIFICATION
-ms.topic: struct
 f1_keywords:
 - vds/VDS_DRIVE_NOTIFICATION
 dev_langs:

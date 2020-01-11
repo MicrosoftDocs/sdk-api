@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 8d9d515e-9369-4d71-9614-6cbeb5557a5d
 ms.date: 12/05/2018
 ms.keywords: '*PIP_MSFILTER, IP_MSFILTER, IP_MSFILTER [Winsock], IP_MSFILTER structure [Winsock], PIP_MSFILTER, PIP_MSFILTER structure pointer [Winsock], ip_msfilter, ip_msfilter structure [Winsock], winsock.ip_msfilter, ws2ipdef/PIP_MSFILTER, ws2ipdef/ip_msfilter, ws2tcpip/PIP_MSFILTER, ws2tcpip/ip_msfilter'
-ms.topic: struct
 f1_keywords:
 - ws2ipdef/IP_MSFILTER
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 2f7a447a-50b1-422e-a49a-00ede3fcf187
 ms.date: 12/05/2018
 ms.keywords: RpcBindingReset, RpcBindingReset function [RPC], _rpc_rpcbindingreset, rpc.rpcbindingreset, rpcdce/RpcBindingReset
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcBindingReset
 dev_langs:

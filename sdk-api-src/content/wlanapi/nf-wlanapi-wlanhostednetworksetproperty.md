@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 88139383-f5d5-4e42-b41e-ea754a89356d
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkSetProperty, WlanHostedNetworkSetProperty function [NativeWIFI], nwifi.wlanhostednetworksetproperty, wlan_hosted_network_opcode_connection_settings, wlan_hosted_network_opcode_enable, wlanapi/WlanHostedNetworkSetProperty
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanHostedNetworkSetProperty
 dev_langs:

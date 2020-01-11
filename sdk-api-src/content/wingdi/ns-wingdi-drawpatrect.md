@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8b374a0e-8ad0-40d4-a082-e90aff6336ba
 ms.date: 12/05/2018
 ms.keywords: '*PDRAWPATRECT, DRAWPATRECT, DRAWPATRECT structure [Windows GDI], PDRAWPATRECT, PDRAWPATRECT structure pointer [Windows GDI], _win32_DRAWPATRECT_str, gdi.drawpatrect, wingdi/DRAWPATRECT, wingdi/PDRAWPATRECT'
-ms.topic: struct
 f1_keywords:
 - wingdi/DRAWPATRECT
 dev_langs:

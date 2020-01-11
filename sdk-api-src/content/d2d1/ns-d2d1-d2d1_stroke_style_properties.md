@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 67f3701f-febd-4afe-803e-c5d9dbcd1b21
 ms.date: 12/05/2018
 ms.keywords: D2D1_STROKE_STYLE_PROPERTIES, D2D1_STROKE_STYLE_PROPERTIES structure [Direct2D], d2d1/D2D1_STROKE_STYLE_PROPERTIES, direct2d.D2D1_STROKE_STYLE_PROPERTIES
-ms.topic: struct
 f1_keywords:
 - d2d1/D2D1_STROKE_STYLE_PROPERTIES
 dev_langs:

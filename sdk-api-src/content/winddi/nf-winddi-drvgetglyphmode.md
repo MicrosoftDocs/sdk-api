@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 8e11c4e7-0203-4445-8f33-3b928161c62a
 ms.date: 12/05/2018
 ms.keywords: DrvGetGlyphMode, DrvGetGlyphMode function [Display Devices], ddifncs_e5ac278d-3417-4b76-aa0f-7fd2906f8137.xml, display.drvgetglyphmode, winddi/DrvGetGlyphMode
-ms.topic: function
 f1_keywords:
 - winddi/DrvGetGlyphMode
 dev_langs:

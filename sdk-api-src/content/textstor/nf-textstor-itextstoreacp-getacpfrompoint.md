@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: b6489391-a19e-405a-a129-f68054088860
 ms.date: 12/05/2018
 ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetACPFromPoint, GetACPFromPoint method [Text Services Framework], GetACPFromPoint method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetACPFromPoint method, ITextStoreACP.GetACPFromPoint, ITextStoreACP::GetACPFromPoint, _tsf_itextstoreacp_getacpfrompoint_ref, textstor/ITextStoreACP::GetACPFromPoint, tsf.itextstoreacp_getacpfrompoint
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreACP.GetACPFromPoint
 dev_langs:

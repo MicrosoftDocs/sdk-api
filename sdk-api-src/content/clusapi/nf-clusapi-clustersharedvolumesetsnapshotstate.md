@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: B264CF0E-33FD-44F9-B91E-2F90C35D09AC
 ms.date: 12/05/2018
 ms.keywords: ClusterSharedVolumeSetSnapshotState, ClusterSharedVolumeSetSnapshotState function [Failover Cluster], PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE, PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE function [Failover Cluster], clusapi/ClusterSharedVolumeSetSnapshotState, clusapi/PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE, mscs.clustersharedvolumesetsnapshotstate
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterSharedVolumeSetSnapshotState
 dev_langs:

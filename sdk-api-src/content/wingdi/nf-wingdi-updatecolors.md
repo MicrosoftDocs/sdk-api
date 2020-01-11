@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 61dfd579-3fc9-4e0a-bfd9-d04c6f918fd8
 ms.date: 12/05/2018
 ms.keywords: UpdateColors, UpdateColors function [Windows GDI], _win32_UpdateColors, gdi.updatecolors, wingdi/UpdateColors
-ms.topic: function
 f1_keywords:
 - wingdi/UpdateColors
 dev_langs:

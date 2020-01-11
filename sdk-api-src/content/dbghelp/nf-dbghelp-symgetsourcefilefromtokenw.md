@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 67a282c2-99f8-4e35-9323-a81327404d1a
 ms.date: 12/05/2018
 ms.keywords: SymGetSourceFileFromToken, SymGetSourceFileFromToken function, SymGetSourceFileFromTokenW, base.symgetsourcefilefromtoken, dbghelp/SymGetSourceFileFromToken, dbghelp/SymGetSourceFileFromTokenW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymGetSourceFileFromToken
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: 124507af-ccb4-4552-9421-bbbf1b556930
 ms.date: 12/05/2018
 ms.keywords: DRMGetTime, DRMGetTime function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetTime, rm.drmgettime
-ms.topic: function
 f1_keywords:
 - msdrm/DRMGetTime
 dev_langs:

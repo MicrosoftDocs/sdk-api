@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0618ad7d-4e8f-4fbf-ab64-2b1c0d42158c
 ms.date: 12/05/2018
 ms.keywords: IBandSite interface [Windows Shell],QueryBand method, IBandSite.QueryBand, IBandSite::QueryBand, QueryBand, QueryBand method [Windows Shell], QueryBand method [Windows Shell],IBandSite interface, _win32_IBandSite_QueryBand, shell.IBandSite_QueryBand, shobjidl_core/IBandSite::QueryBand
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IBandSite.QueryBand
 dev_langs:

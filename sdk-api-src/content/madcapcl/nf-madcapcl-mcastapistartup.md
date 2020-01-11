@@ -7,7 +7,6 @@ tech.root: Madcap
 ms.assetid: edb7d666-cbd0-46f7-b63e-2a09ffc9e9e2
 ms.date: 12/05/2018
 ms.keywords: McastApiStartup, McastApiStartup function [MADCAP], _mdhcp_mcastapistartup, madcap.mcastapistartup, madcapcl/McastApiStartup
-ms.topic: function
 f1_keywords:
 - madcapcl/McastApiStartup
 dev_langs:

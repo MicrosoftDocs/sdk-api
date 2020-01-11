@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: a6b3db6c-1cc8-4058-8d8b-c8126a373130
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Windows Management Instrumentation], Clear method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],Clear method, WBEMTime.Clear, WBEMTime::Clear, _hmm_wbemtime_clear, wbemtime/WBEMTime::Clear, wmi.wbemtime_clear
-ms.topic: method
 f1_keywords:
 - wbemtime/WBEMTime.Clear
 dev_langs:

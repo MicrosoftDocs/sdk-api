@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 9959c2a3-f282-4512-9d3f-da8842d5ee79
 ms.date: 12/05/2018
 ms.keywords: IVdsLun interface [VDS],RemovePlex method, IVdsLun.RemovePlex, IVdsLun::RemovePlex, RemovePlex, RemovePlex method [VDS], RemovePlex method [VDS],IVdsLun interface, base.ivdslun_removeplex, vds/IVdsLun::RemovePlex, vdshwprv/IVdsLun::RemovePlex
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsLun.RemovePlex
 dev_langs:

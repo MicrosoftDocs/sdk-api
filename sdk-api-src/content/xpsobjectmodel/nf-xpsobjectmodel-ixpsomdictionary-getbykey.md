@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 6efc2fed-e372-4416-9645-50c1430f0e75
 ms.date: 12/05/2018
 ms.keywords: GetByKey, GetByKey method [XPS Documents and Packaging], GetByKey method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],GetByKey method, IXpsOMDictionary.GetByKey, IXpsOMDictionary::GetByKey, xps.ixpsomdictionary_getbykey, xpsobjectmodel/IXpsOMDictionary::GetByKey
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDictionary.GetByKey
 dev_langs:

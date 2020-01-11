@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\gethrgn.htm
 ms.date: 12/05/2018
 ms.keywords: GetHRGN, GetHRGN method [GDI+], GetHRGN method [GDI+],Region class, Region class [GDI+],GetHRGN method, Region.GetHRGN, Region::GetHRGN, _gdiplus_CLASS_Region_GetHRGN_g_, gdiplus._gdiplus_CLASS_Region_GetHRGN_g_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Region.GetHRGN
 dev_langs:

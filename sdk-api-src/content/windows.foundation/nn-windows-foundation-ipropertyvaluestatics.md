@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 946BD4F9-318C-4452-AEDB-DF2212A2D3CA
 ms.date: 12/05/2018
 ms.keywords: IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], IPropertyValueStatics interface [Windows Runtime],described, windows/IPropertyValueStatics, winrt.ipropertyvaluefactory, winrt.ipropertyvaluestatics
-ms.topic: interface
 f1_keywords:
 - windows.foundation/IPropertyValueStatics
 dev_langs:

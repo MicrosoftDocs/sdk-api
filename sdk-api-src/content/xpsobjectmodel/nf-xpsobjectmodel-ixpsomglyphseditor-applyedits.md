@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: ddbd8dc4-5d4f-4b30-8943-f4a5bc8e64c2
 ms.date: 12/05/2018
 ms.keywords: ApplyEdits, ApplyEdits method [XPS Documents and Packaging], ApplyEdits method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],ApplyEdits method, IXpsOMGlyphsEditor.ApplyEdits, IXpsOMGlyphsEditor::ApplyEdits, xps.ixpsomglyphseditor_applyedits, xpsobjectmodel/IXpsOMGlyphsEditor::ApplyEdits
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphsEditor.ApplyEdits
 dev_langs:

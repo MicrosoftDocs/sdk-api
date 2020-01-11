@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: 759EC69D-1E5A-4CB1-86B0-8612BF4C3B5E
 ms.date: 12/05/2018
 ms.keywords: HrtfOrientation, HrtfOrientation structure [XAudio2 Audio Mixing APIs], PHrtfOrientation, PHrtfOrientation structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfOrientation, hrtfapoapi/PHrtfOrientation, xaudio2.hrtforientation
-ms.topic: struct
 f1_keywords:
 - hrtfapoapi/HrtfOrientation
 dev_langs:

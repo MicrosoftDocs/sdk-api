@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b940adc2-dfef-49c5-b86c-d0da83db0aad
 ms.date: 12/05/2018
 ms.keywords: IExplorerPaneVisibility, IExplorerPaneVisibility interface [Windows Shell], IExplorerPaneVisibility interface [Windows Shell],described, _shell_IExplorerPaneVisibility, shell.IExplorerPaneVisibility, shobjidl_core/IExplorerPaneVisibility
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IExplorerPaneVisibility
 dev_langs:

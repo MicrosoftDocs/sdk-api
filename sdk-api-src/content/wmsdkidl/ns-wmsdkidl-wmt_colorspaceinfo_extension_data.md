@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 0d512d6a-95d5-4ca1-aee2-ca19319e1b83
 ms.date: 12/05/2018
 ms.keywords: WMT_COLORSPACEINFO_EXTENSION_DATA, WMT_COLORSPACEINFO_EXTENSION_DATA structure [windows Media Format], wmformat.wmt_colorspaceinfo_extension_data, wmsdkidl/WMT_COLORSPACEINFO_EXTENSION_DATA
-ms.topic: struct
 f1_keywords:
 - wmsdkidl/WMT_COLORSPACEINFO_EXTENSION_DATA
 dev_langs:

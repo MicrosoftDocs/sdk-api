@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 75295c93-a389-42c4-aa56-debc36a5f532
 ms.date: 12/05/2018
 ms.keywords: 75295c93-a389-42c4-aa56-debc36a5f532, GetLanguage, GetLanguage method [Media Foundation], GetLanguage method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],GetLanguage method, IMFMetadata.GetLanguage, IMFMetadata::GetLanguage, mf.imfmetadata_getlanguage, mfidl/IMFMetadata::GetLanguage
-ms.topic: method
 f1_keywords:
 - mfidl/IMFMetadata.GetLanguage
 dev_langs:

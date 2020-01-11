@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: e17ed040-7fe2-4605-b1b5-295abbf14289
 ms.date: 12/05/2018
 ms.keywords: AddComponent, AddComponent method, AddComponent method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddComponent method, IVssCreateExpressWriterMetadata.AddComponent, IVssCreateExpressWriterMetadata::AddComponent, base.ivsscreateexpresswritermetadata_addcomponent, vswriter/IVssCreateExpressWriterMetadata::AddComponent
-ms.topic: method
 f1_keywords:
 - vswriter/IVssCreateExpressWriterMetadata.AddComponent
 dev_langs:

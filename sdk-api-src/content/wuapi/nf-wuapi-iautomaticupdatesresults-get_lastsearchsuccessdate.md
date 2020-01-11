@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 3c053888-be91-45e9-a5da-182f18e07710
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesResults interface [Windows Update Agent],LastSearchSuccessDate property, IAutomaticUpdatesResults.LastSearchSuccessDate, IAutomaticUpdatesResults.get_LastSearchSuccessDate, IAutomaticUpdatesResults::LastSearchSuccessDate, IAutomaticUpdatesResults::get_LastSearchSuccessDate, LastSearchSuccessDate property [Windows Update Agent], LastSearchSuccessDate property [Windows Update Agent],IAutomaticUpdatesResults interface, get_LastSearchSuccessDate, wua.iautomaticupdatesresults_lastsearchsuccessdate, wuapi/IAutomaticUpdatesResults::LastSearchSuccessDate, wuapi/IAutomaticUpdatesResults::get_LastSearchSuccessDate
-ms.topic: method
 f1_keywords:
 - wuapi/IAutomaticUpdatesResults.LastSearchSuccessDate
 dev_langs:

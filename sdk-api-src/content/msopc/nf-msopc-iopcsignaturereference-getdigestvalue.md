@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 0bb46de1-63af-4ac1-b37b-42a2b174b590
 ms.date: 12/05/2018
 ms.keywords: GetDigestValue, GetDigestValue method [Open Packaging Conventions], GetDigestValue method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetDigestValue method, IOpcSignatureReference.GetDigestValue, IOpcSignatureReference::GetDigestValue, msopc/IOpcSignatureReference::GetDigestValue, opc.iopcsignaturereference_getdigestvalue
-ms.topic: method
 f1_keywords:
 - msopc/IOpcSignatureReference.GetDigestValue
 dev_langs:

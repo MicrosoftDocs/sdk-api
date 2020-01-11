@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: b818ed6f-16a3-4259-be40-001875809c78
 ms.date: 12/05/2018
 ms.keywords: DhcpDeleteClassV6, DhcpDeleteClassV6 function [DHCP], dhcp.dhcpdeleteclassv6, dhcpsapi/DhcpDeleteClassV6
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpDeleteClassV6
 dev_langs:

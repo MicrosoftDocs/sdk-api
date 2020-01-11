@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: C4757863-3D92-4D49-A2CA-8AD7C65461E6
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextNotify interface [Media Foundation],TrackSelected method, IMFTimedTextNotify.TrackSelected, IMFTimedTextNotify::TrackSelected, TrackSelected, TrackSelected method [Media Foundation], TrackSelected method [Media Foundation],IMFTimedTextNotify interface, mf.imftimedtextnotify_trackselected, mfmediaengine/IMFTimedTextNotify::TrackSelected
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextNotify.TrackSelected
 dev_langs:

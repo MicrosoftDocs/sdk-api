@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 769293d8-0ae0-419f-9399-3c501d700251
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509Attributes interface, IX509Attributes interface [Security],Add method, IX509Attributes.Add, IX509Attributes::Add, certenroll/IX509Attributes::Add, security.ix509attributes_add_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509Attributes.Add
 dev_langs:

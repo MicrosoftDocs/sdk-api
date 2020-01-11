@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 67320767-f622-478a-a886-bbea1650ac1a
 ms.date: 12/05/2018
 ms.keywords: DrtOpen, DrtOpen function [Peer Networking], drt/DrtOpen, p2p.drtopen
-ms.topic: function
 f1_keywords:
 - drt/DrtOpen
 dev_langs:

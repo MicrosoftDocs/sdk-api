@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: a443b54a-018f-48a0-b61c-9e18e9567a22
 ms.date: 12/05/2018
 ms.keywords: IComUserEvent, IComUserEvent interface [COM+], IComUserEvent interface [COM+],described, _dtc_IComUserEvent, comsvcs/IComUserEvent, cos.icomuserevent
-ms.topic: interface
 f1_keywords:
 - comsvcs/IComUserEvent
 dev_langs:

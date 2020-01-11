@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 3c565630-3626-4d60-9bd2-74c2218bec11
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetWCHARSplat method, CInstance.SetWCHARSplat, CInstance::SetWCHARSplat, SetWCHARSplat, SetWCHARSplat method [Windows Management Instrumentation], SetWCHARSplat method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setwcharsplat, instance/CInstance::SetWCHARSplat, wmi.cinstance_setwcharsplat
-ms.topic: method
 f1_keywords:
 - instance/CInstance.SetWCHARSplat
 dev_langs:

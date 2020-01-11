@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: a125a7b3-6887-42e2-b421-d0e27973d8ee
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProviderNotify interface,SearchComplete method, IWSDiscoveryProviderNotify.SearchComplete, IWSDiscoveryProviderNotify::SearchComplete, SearchComplete, SearchComplete method, SearchComplete method,IWSDiscoveryProviderNotify interface, ncd.iwsdiscoveryprovidernotify_searchcomplete, wsddisco/IWSDiscoveryProviderNotify::SearchComplete
-ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveryProviderNotify.SearchComplete
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: e9e961ed-80a8-4694-a11d-f6cd323ec2ff
 ms.date: 12/05/2018
 ms.keywords: FILTERSPECV4, FILTERSPECV4_GPI, FILTERSPECV6, FILTERSPECV6_FLOW, FILTERSPECV6_GPI, FILTERSPEC_END, FilterType, FilterType enumeration [QOS], qos.filtertype, qossp/FILTERSPECV4, qossp/FILTERSPECV4_GPI, qossp/FILTERSPECV6, qossp/FILTERSPECV6_FLOW, qossp/FILTERSPECV6_GPI, qossp/FILTERSPEC_END, qossp/FilterType
-ms.topic: enum
 f1_keywords:
 - qossp/FilterType
 dev_langs:

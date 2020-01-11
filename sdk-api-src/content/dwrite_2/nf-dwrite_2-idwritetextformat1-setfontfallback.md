@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 56B577C0-2B18-409E-ADEC-0B93355586A0
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat1 interface [Direct Write],SetFontFallback method, IDWriteTextFormat1.SetFontFallback, IDWriteTextFormat1::SetFontFallback, SetFontFallback, SetFontFallback method [Direct Write], SetFontFallback method [Direct Write],IDWriteTextFormat1 interface, directwrite.idwritetextformat1_setfontfallback, dwrite_2/IDWriteTextFormat1::SetFontFallback
-ms.topic: method
 f1_keywords:
 - dwrite_2/IDWriteTextFormat1.SetFontFallback
 dev_langs:

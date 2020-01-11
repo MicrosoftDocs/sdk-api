@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 55171eb1-6fec-4651-914c-88d23e8d7849
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],QueryProviders method, IVdsService.QueryProviders, IVdsService::QueryProviders, QueryProviders, QueryProviders method [VDS], QueryProviders method [VDS],IVdsService interface, base.ivdsservice_queryproviders, vds/IVdsService::QueryProviders
-ms.topic: method
 f1_keywords:
 - vds/IVdsService.QueryProviders
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 17659c86-d7cc-4316-ba0e-ce71de727fa1
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_ADD_UNKNOWN_PROPERTIES, PRESUTIL_ADD_UNKNOWN_PROPERTIES function [Failover Cluster], ResUtilAddUnknownProperties, ResUtilAddUnknownProperties function [Failover Cluster], _wolf_resutiladdunknownproperties, mscs.resutiladdunknownproperties, resapi/PRESUTIL_ADD_UNKNOWN_PROPERTIES, resapi/ResUtilAddUnknownProperties
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilAddUnknownProperties
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: f533fcf6-8ece-442f-b6d5-3702321db9e9
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],Run method, IScheduledWorkItem.Run, IScheduledWorkItem::Run, Run, Run method [Task Scheduler], Run method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_run, mstask/IScheduledWorkItem::Run, taskschd.ischeduledworkitem_run
-ms.topic: method
 f1_keywords:
 - mstask/IScheduledWorkItem.Run
 dev_langs:

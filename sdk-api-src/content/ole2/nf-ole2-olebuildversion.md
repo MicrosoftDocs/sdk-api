@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 5715CF82-7598-4D04-8EC8-BB27582A739E
 ms.date: 12/05/2018
 ms.keywords: OleBuildVersion, OleBuildVersion function [COM], com.olebuildversion, ole2/OleBuildVersion
-ms.topic: function
 f1_keywords:
 - ole2/OleBuildVersion
 dev_langs:

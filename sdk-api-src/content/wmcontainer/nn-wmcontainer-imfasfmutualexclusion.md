@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 9c2278ec-77d1-445e-94bc-44e5d48f14ae
 ms.date: 12/05/2018
 ms.keywords: 9c2278ec-77d1-445e-94bc-44e5d48f14ae, IMFASFMutualExclusion, IMFASFMutualExclusion interface [Media Foundation], IMFASFMutualExclusion interface [Media Foundation],described, mf.imfasfmutualexclusion, wmcontainer/IMFASFMutualExclusion
-ms.topic: interface
 f1_keywords:
 - wmcontainer/IMFASFMutualExclusion
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: c8297f17-962d-4f52-909e-e26427af9ab2
 ms.date: 12/05/2018
 ms.keywords: EnumerationFlagReturnEPR, EnumerationFlagReturnEPR method [Windows Remote Management], EnumerationFlagReturnEPR method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagReturnEPR method, IWSManEx.EnumerationFlagReturnEPR, IWSManEx::EnumerationFlagReturnEPR, winrm.iwsmanex_enumerationflagreturnepr, wsmandisp/IWSManEx::EnumerationFlagReturnEPR
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManEx.EnumerationFlagReturnEPR
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: f510c42d-8488-4aad-a3a4-662fc8138d28
 ms.date: 12/05/2018
 ms.keywords: SetupDiDeleteDeviceInfo, SetupDiDeleteDeviceInfo function [Device and Driver Installation], devinst.setupdideletedeviceinfo, di-rtns_9bc5c091-910a-4152-acdf-eae4d86cda05.xml, setupapi/SetupDiDeleteDeviceInfo
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiDeleteDeviceInfo
 dev_langs:

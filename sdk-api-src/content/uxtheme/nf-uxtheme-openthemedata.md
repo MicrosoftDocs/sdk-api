@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\openthemedata.htm
 ms.date: 12/05/2018
 ms.keywords: OpenThemeData, OpenThemeData function [Windows Controls], controls.OpenThemeData, controls.inet_OpenThemeData, inet_OpenThemeData, inet_OpenThemeData_cpp, uxtheme/OpenThemeData
-ms.topic: function
 f1_keywords:
 - uxtheme/OpenThemeData
 dev_langs:

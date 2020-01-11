@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 20B27858-D5BC-4800-AE3F-C01A017ABBF7
 ms.date: 12/05/2018
 ms.keywords: APPLICATION_VIEW_SIZE_PREFERENCE, APPLICATION_VIEW_SIZE_PREFERENCE enumeration [Windows Shell], AVSP_DEFAULT, AVSP_USE_HALF, AVSP_USE_LESS, AVSP_USE_MINIMUM, AVSP_USE_MORE, AVSP_USE_NONE, shell.APPLICATION_VIEW_SIZE_PREFERENCE, shobjidl_core/APPLICATION_VIEW_SIZE_PREFERENCE, shobjidl_core/AVSP_DEFAULT, shobjidl_core/AVSP_USE_HALF, shobjidl_core/AVSP_USE_LESS, shobjidl_core/AVSP_USE_MINIMUM, shobjidl_core/AVSP_USE_MORE, shobjidl_core/AVSP_USE_NONE
-ms.topic: enum
 f1_keywords:
 - shobjidl_core/APPLICATION_VIEW_SIZE_PREFERENCE
 dev_langs:

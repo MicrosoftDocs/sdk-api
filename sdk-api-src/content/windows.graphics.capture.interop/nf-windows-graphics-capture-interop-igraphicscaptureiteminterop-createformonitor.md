@@ -4,7 +4,6 @@ title: IGraphicsCaptureItemInterop::CreateForMonitor
 description: Targets a monitor(s) for the creation of a graphics capture item.
 ms.date: 6/24/2019
 ms.keywords: IGraphicsCaptureItemInterop::CreateForMonitor
-ms.topic: language-reference
 f1_keywords:
 - IGraphicsCaptureItemInterop::CreateForMonitor
 dev_langs:

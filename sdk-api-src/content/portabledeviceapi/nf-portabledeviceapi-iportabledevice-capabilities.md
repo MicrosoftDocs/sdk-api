@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: 3d44e488-1bef-4cdd-bb0b-2b8154deb19e
 ms.date: 12/05/2018
 ms.keywords: Capabilities, Capabilities method [Windows Portable Devices SDK], Capabilities method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Capabilities method, IPortableDevice.Capabilities, IPortableDevice::Capabilities, IPortableDeviceCapabilities, portabledeviceapi/IPortableDevice::Capabilities, wpdsdk.iportabledevice_capabilities
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDevice.Capabilities
 dev_langs:

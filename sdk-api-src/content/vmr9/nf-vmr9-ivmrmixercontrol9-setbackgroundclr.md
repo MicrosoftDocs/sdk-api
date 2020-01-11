@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: fed7f4bb-519c-4e02-be99-065b9131e57c
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetBackgroundClr method, IVMRMixerControl9.SetBackgroundClr, IVMRMixerControl9::SetBackgroundClr, IVMRMixerControl9SetBackgroundClr, SetBackgroundClr, SetBackgroundClr method [DirectShow], SetBackgroundClr method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setbackgroundclr, vmr9/IVMRMixerControl9::SetBackgroundClr
-ms.topic: method
 f1_keywords:
 - vmr9/IVMRMixerControl9.SetBackgroundClr
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 45f5398d-2d27-4f6b-9020-bcbb44edc89a
 ms.date: 12/05/2018
 ms.keywords: DeleteVirtualMachines, DeleteVirtualMachines method [Remote Desktop Services], DeleteVirtualMachines method [Remote Desktop Services],ITsSbProvisioning interface, ITsSbProvisioning interface [Remote Desktop Services],DeleteVirtualMachines method, ITsSbProvisioning.DeleteVirtualMachines, ITsSbProvisioning::DeleteVirtualMachines, sbtsv/ITsSbProvisioning::DeleteVirtualMachines, termserv.itssbprovisioning_deletevirtualmachines
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbProvisioning.DeleteVirtualMachines
 dev_langs:

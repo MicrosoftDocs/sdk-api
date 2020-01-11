@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 945b9280-41fc-44f9-a5df-c0a725cef377
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_MulLong, FLOATOBJ_MulLong function [Display Devices], display.floatobj_mullong, gdifncs_7548db1a-4ed7-4946-95f6-5541e7c4226f.xml, winddi/FLOATOBJ_MulLong
-ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_MulLong
 dev_langs:

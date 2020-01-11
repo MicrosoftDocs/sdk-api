@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 6b1756f5-7ab5-4408-896d-5ea5ae671651
 ms.date: 12/05/2018
 ms.keywords: IUserDictionariesRegistrar interface [Internationalization for Windows Applications],UnregisterUserDictionary method, IUserDictionariesRegistrar.UnregisterUserDictionary, IUserDictionariesRegistrar::UnregisterUserDictionary, UnregisterUserDictionary, UnregisterUserDictionary method [Internationalization for Windows Applications], UnregisterUserDictionary method [Internationalization for Windows Applications],IUserDictionariesRegistrar interface, intl.iuserdictionariesregistrar_unregisteruserdictionary, spellcheck/IUserDictionariesRegistrar::UnregisterUserDictionary
-ms.topic: method
 f1_keywords:
 - spellcheck/IUserDictionariesRegistrar.UnregisterUserDictionary
 dev_langs:

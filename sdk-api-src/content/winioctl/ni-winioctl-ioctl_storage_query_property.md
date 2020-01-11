@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 6755dcd4-e4a0-423f-9dcc-b9719c8e5c88
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_QUERY_PROPERTY, IOCTL_STORAGE_QUERY_PROPERTY control, IOCTL_STORAGE_QUERY_PROPERTY control code [Files], fs.ioctl_storage_query_property, winioctl/IOCTL_STORAGE_QUERY_PROPERTY
-ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_STORAGE_QUERY_PROPERTY
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 752f197e-0dad-4b3d-9f70-352f5f50e9ee
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateHandlerCollection method, ISyncMgrControl.UpdateHandlerCollection, ISyncMgrControl::UpdateHandlerCollection, UpdateHandlerCollection, UpdateHandlerCollection method [Windows Shell], UpdateHandlerCollection method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateHandlerCollection, shell.ISyncMgrControl_UpdateHandlerCollection, syncmgr/ISyncMgrControl::UpdateHandlerCollection
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrControl.UpdateHandlerCollection
 dev_langs:

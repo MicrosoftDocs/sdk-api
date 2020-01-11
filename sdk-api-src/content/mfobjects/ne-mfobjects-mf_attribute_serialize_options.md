@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e4b218d1-185c-483f-b697-19ce8b3a4058
 ms.date: 12/05/2018
 ms.keywords: MF_ATTRIBUTE_SERIALIZE_OPTIONS, MF_ATTRIBUTE_SERIALIZE_OPTIONS enumeration [Media Foundation], MF_ATTRIBUTE_SERIALIZE_UNKNOWN_BYREF, e4b218d1-185c-483f-b697-19ce8b3a4058, mf.mf_attribute_serialize_options, mfobjects/MF_ATTRIBUTE_SERIALIZE_OPTIONS, mfobjects/MF_ATTRIBUTE_SERIALIZE_UNKNOWN_BYREF
-ms.topic: enum
 f1_keywords:
 - mfobjects/MF_ATTRIBUTE_SERIALIZE_OPTIONS
 dev_langs:

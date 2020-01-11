@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: cb18c8bb-92b3-4d4e-9ce8-77c5628a9a1a
 ms.date: 12/05/2018
 ms.keywords: PeerDistUnregisterForStatusChangeNotification, PeerDistUnregisterForStatusChangeNotification function [Peer Networking], p2p.peerdistunregisterforstatuschangenotification, peerdist/PeerDistUnregisterForStatusChangeNotification
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistUnregisterForStatusChangeNotification
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 81e48874-8bc2-4b82-bcf8-ce87f99ca3ad
 ms.date: 12/05/2018
 ms.keywords: IVdsLunControllerPorts, IVdsLunControllerPorts interface [VDS], IVdsLunControllerPorts interface [VDS],described, base.ivdsluncontrollerports, vds/IVdsLunControllerPorts, vdshwprv/IVdsLunControllerPorts
-ms.topic: interface
 f1_keywords:
 - vds/IVdsLunControllerPorts
 dev_langs:

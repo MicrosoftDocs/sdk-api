@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e0570cd6-dda2-43e4-8540-58baef37bf18
 ms.date: 12/05/2018
 ms.keywords: SHAddFromPropSheetExtArray, SHAddFromPropSheetExtArray function [Windows Shell], _win32_SHAddFromPropSheetExtArray, shell.SHAddFromPropSheetExtArray, shlobj_core/SHAddFromPropSheetExtArray
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHAddFromPropSheetExtArray
 dev_langs:

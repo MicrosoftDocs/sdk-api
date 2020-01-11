@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 39DBFBDD-A1CC-45C3-A5DD-5ED9697F9AFE
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPackageFamilyName, GetCurrentPackageFamilyName function [App packaging and management], appmodel/GetCurrentPackageFamilyName, appxpkg.getcurrentpackagefamilyname
-ms.topic: function
 f1_keywords:
 - appmodel/GetCurrentPackageFamilyName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: bc03e921-e1e5-43ee-b4cb-5bc3881243d0
 ms.date: 12/05/2018
 ms.keywords: MI_ConstBooleanField, MI_ConstBooleanField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstBooleanField, wmi._mi_constbooleanfield, wmi_v2.mi_constbooleanfield
-ms.topic: struct
 f1_keywords:
 - mi/MI_ConstBooleanField
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 28EDAC77-5175-4AF7-A06C-B735336AAD9B
 ms.date: 12/05/2018
 ms.keywords: IApartmentShutdown, IApartmentShutdown interface [Windows Runtime], IApartmentShutdown interface [Windows Runtime],described, objidl/IApartmentShutdown, winrt.iapartmentshutdown
-ms.topic: interface
 f1_keywords:
 - objidl/IApartmentShutdown
 dev_langs:

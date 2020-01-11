@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: dd187168-19c7-414c-a764-f180d1d310f2
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocator9, IVMRSurfaceAllocator9 interface [DirectShow], IVMRSurfaceAllocator9 interface [DirectShow],described, IVMRSurfaceAllocator9Interface, dshow.ivmrsurfaceallocator9, vmr9/IVMRSurfaceAllocator9
-ms.topic: interface
 f1_keywords:
 - vmr9/IVMRSurfaceAllocator9
 dev_langs:

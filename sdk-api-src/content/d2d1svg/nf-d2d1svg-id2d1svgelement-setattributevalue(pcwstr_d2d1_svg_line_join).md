@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: B559FC14-8B16-4272-A83F-6F8C0CC2D438
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],SetAttributeValue method, ID2D1SvgElement.SetAttributeValue, ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_LINE_JOIN), ID2D1SvgElement::SetAttributeValue, ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_LINE_JOIN), SetAttributeValue, SetAttributeValue method [Direct2D], SetAttributeValue method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::SetAttributeValue, direct2d.id2d1svgelement_setattributevalue_9
-ms.topic: method
 f1_keywords:
 - d2d1svg/ID2D1SvgElement.SetAttributeValue
 dev_langs:

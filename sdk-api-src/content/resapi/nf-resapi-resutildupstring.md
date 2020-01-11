@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 7d993247-ea8c-46a0-a11e-e03b981ed4ae
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_DUP_STRING, PRESUTIL_DUP_STRING function [Failover Cluster], ResUtilDupString, ResUtilDupString function [Failover Cluster], _wolf_resutildupstring, mscs.resutildupstring, resapi/PRESUTIL_DUP_STRING, resapi/ResUtilDupString
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilDupString
 dev_langs:

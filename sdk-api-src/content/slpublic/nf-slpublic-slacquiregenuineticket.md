@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: 028099c8-9116-4212-bc29-1065b22be593
 ms.date: 12/05/2018
 ms.keywords: SLAcquireGenuineTicket, SLAcquireGenuineTicket function [Security], security.slacquiregenuineticket, slpublic/SLAcquireGenuineTicket
-ms.topic: function
 f1_keywords:
 - slpublic/SLAcquireGenuineTicket
 dev_langs:

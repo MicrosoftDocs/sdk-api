@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 54221040-71b8-4b31-81df-46435f7b2b80
 ms.date: 12/05/2018
 ms.keywords: IAudioProcessingObjectConfiguration interface [Audio Devices],UnlockForProcess method, IAudioProcessingObjectConfiguration.UnlockForProcess, IAudioProcessingObjectConfiguration::UnlockForProcess, UnlockForProcess, UnlockForProcess method [Audio Devices], UnlockForProcess method [Audio Devices],IAudioProcessingObjectConfiguration interface, audio.iaudioprocessingobjectconfiguration_unlockforprocess, audio_syseffects_r_23133166-d468-4449-82e1-2fba54e220c6.xml, audioenginebaseapo/IAudioProcessingObjectConfiguration::UnlockForProcess
-ms.topic: method
 f1_keywords:
 - audioenginebaseapo/IAudioProcessingObjectConfiguration.UnlockForProcess
 dev_langs:

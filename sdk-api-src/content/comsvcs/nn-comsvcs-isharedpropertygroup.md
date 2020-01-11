@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: e7f23c83-40d3-4b08-a185-cd6e3260e0a9
 ms.date: 12/05/2018
 ms.keywords: ISharedPropertyGroup, ISharedPropertyGroup interface [COM+], ISharedPropertyGroup interface [COM+],described, _cos_ISharedPropertyGroup, comsvcs/ISharedPropertyGroup, cos.isharedpropertygroup
-ms.topic: interface
 f1_keywords:
 - comsvcs/ISharedPropertyGroup
 dev_langs:

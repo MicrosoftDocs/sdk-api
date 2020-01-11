@@ -7,7 +7,6 @@ tech.root: ixhr2
 ms.assetid: FBEEB04C-7976-4017-B56C-17815FC01831
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetRequestHeader method, IXMLHTTPRequest2.SetRequestHeader, IXMLHTTPRequest2::SetRequestHeader, SetRequestHeader, SetRequestHeader method [XMLHttpRequest2], SetRequestHeader method [XMLHttpRequest2],IXMLHTTPRequest2 interface, ixhr2.ixmlhttprequest2_setrequestheader, msxml6/IXMLHTTPRequest2::SetRequestHeader
-ms.topic: method
 f1_keywords:
 - msxml6/IXMLHTTPRequest2.SetRequestHeader
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a7237e0a-82b3-4e2a-a6c7-97fbb03b5917
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_PanRelative method, ICameraControl.get_PanRelative, ICameraControl::get_PanRelative, ICameraControlget_PanRelative, dshow.icameracontrol_get_panrelative, get_PanRelative, get_PanRelative method [DirectShow], get_PanRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_PanRelative
-ms.topic: method
 f1_keywords:
 - vidcap/ICameraControl.get_PanRelative
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillclosedcurvemethods\fillclosedcurve.htm
 ms.date: 12/05/2018
 ms.keywords: FillClosedCurve, FillClosedCurve method [GDI+], FillClosedCurve method [GDI+],Graphics class, Graphics class [GDI+],FillClosedCurve method, Graphics.FillClosedCurve, Graphics.FillClosedCurve(IN const Brush,IN const Point,IN INT), Graphics.FillClosedCurve(const Brush*,const Point*,INT), Graphics::FillClosedCurve, Graphics::FillClosedCurve(IN const Brush,IN const Point,IN INT), _gdiplus_CLASS_Graphics_FillClosedCurve_Brush_brush_Point_points_INT_count_, gdiplus._gdiplus_CLASS_Graphics_FillClosedCurve_Brush_brush_Point_points_INT_count_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.FillClosedCurve
 dev_langs:

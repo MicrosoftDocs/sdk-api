@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: a85a9004-f3f5-44ce-a0d7-fa450af74917
 ms.date: 12/05/2018
 ms.keywords: AppNonMembers property [Security], AppNonMembers property [Security],AzApplicationGroup object, AppNonMembers property [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AppNonMembers property, IAzApplicationGroup interface [Security],AppNonMembers property, IAzApplicationGroup.AppNonMembers, IAzApplicationGroup.get_AppNonMembers, IAzApplicationGroup::AppNonMembers, IAzApplicationGroup::get_AppNonMembers, azroles/IAzApplicationGroup::AppNonMembers, azroles/IAzApplicationGroup::get_AppNonMembers, get_AppNonMembers, security.iazapplicationgroup_appnonmembers
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplicationGroup.AppNonMembers
 dev_langs:

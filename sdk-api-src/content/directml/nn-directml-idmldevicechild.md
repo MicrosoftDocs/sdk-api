@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 0FA4C848-7CC4-4096-845D-9EE65923C5BA
 ms.date: 12/5/2018
 ms.keywords: IDMLDeviceChild, IDMLDeviceChild interface, IDMLDeviceChild interface,described, direct3d12.idmldevicechild, directml/IDMLDeviceChild
-ms.topic: interface
 f1_keywords:
 - directml/IDMLDeviceChild
 dev_langs:

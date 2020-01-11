@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 68231b0a-6002-4974-84d7-08b0629f3622
 ms.date: 12/05/2018
 ms.keywords: PeerGraphEnumNodes, PeerGraphEnumNodes function [Peer Networking], p2p.peergraphenumnodes, p2p/PeerGraphEnumNodes
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphEnumNodes
 dev_langs:

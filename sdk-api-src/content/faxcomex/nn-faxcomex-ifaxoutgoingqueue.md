@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0dyd_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingQueue, IFaxOutgoingQueue interface [Fax Service], IFaxOutgoingQueue interface [Fax Service],described, _mfax_faxoutgoingqueue_cpp, fax._mfax_faxoutgoingqueue_cpp, faxcomex/IFaxOutgoingQueue
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxOutgoingQueue
 dev_langs:

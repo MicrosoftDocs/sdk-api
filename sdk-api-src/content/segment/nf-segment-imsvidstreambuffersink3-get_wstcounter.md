@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 4698bcce-e3df-4631-a363-0b3d54f8e38a
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get_WSTCounter method, IMSVidStreamBufferSink3.get_WSTCounter, IMSVidStreamBufferSink3::get_WSTCounter, IMSVidStreamBufferSink3get_WSTCounter, get_WSTCounter, get_WSTCounter method [Microsoft TV Technologies], get_WSTCounter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get_wstcounter, segment/IMSVidStreamBufferSink3::get_WSTCounter
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferSink3.get_WSTCounter
 dev_langs:

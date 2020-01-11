@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9nqd.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],ServerMapiProfile property, IFaxServer.ServerMapiProfile, IFaxServer.get_ServerMapiProfile, IFaxServer.put_ServerMapiProfile, IFaxServer::ServerMapiProfile, IFaxServer::get_ServerMapiProfile, IFaxServer::put_ServerMapiProfile, ServerMapiProfile property [Fax Service], ServerMapiProfile property [Fax Service],IFaxServer interface, _mfax_ifaxserver_get_servermapiprofile, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_servermapiprofile_cpp, fax._mfax_ifaxserver_get_servermapiprofile, faxcom/IFaxServer::ServerMapiProfile, faxcom/IFaxServer::get_ServerMapiProfile, faxcom/IFaxServer::put_ServerMapiProfile, put_ServerMapiProfile
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxServer.ServerMapiProfile
 dev_langs:

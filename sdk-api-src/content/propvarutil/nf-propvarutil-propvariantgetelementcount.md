@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 1d02f06e-f90b-40f2-923b-a89d2d4d535c
 ms.date: 12/05/2018
 ms.keywords: PropVariantGetElementCount, PropVariantGetElementCount function [Windows Properties], _shell_PropVariantGetElementCount, properties.PropVariantGetElementCount, propvarutil/PropVariantGetElementCount, shell.PropVariantGetElementCount
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantGetElementCount
 dev_langs:

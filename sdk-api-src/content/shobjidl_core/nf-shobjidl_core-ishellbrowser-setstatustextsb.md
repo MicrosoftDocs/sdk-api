@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d7dd9f17-41e4-4c04-981e-a0bfe7c53fcf
 ms.date: 12/05/2018
 ms.keywords: IShellBrowser interface [Windows Shell],SetStatusTextSB method, IShellBrowser.SetStatusTextSB, IShellBrowser::SetStatusTextSB, SetStatusTextSB, SetStatusTextSB method [Windows Shell], SetStatusTextSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_SetStatusTextSB, shell.IShellBrowser_SetStatusTextSB, shobjidl_core/IShellBrowser::SetStatusTextSB
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellBrowser.SetStatusTextSB
 dev_langs:

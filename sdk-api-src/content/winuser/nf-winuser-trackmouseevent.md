@@ -7,7 +7,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\trackmouseevent.htm
 ms.date: 12/05/2018
 ms.keywords: TrackMouseEvent, TrackMouseEvent function [Keyboard and Mouse Input], _win32_TrackMouseEvent, _win32_trackmouseevent_cpp, inputdev.trackmouseevent, winui._win32_trackmouseevent, winuser/TrackMouseEvent
-ms.topic: function
 f1_keywords:
 - winuser/TrackMouseEvent
 dev_langs:

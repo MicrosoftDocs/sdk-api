@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: 23FFC4E8-0CB7-4FF4-A3C3-2E8FB2C74497
 ms.date: 12/05/2018
 ms.keywords: CF_HARDLINK_POLICY, CF_HARDLINK_POLICY enumeration, CF_HARDLINK_POLICY_ALLOWED, CF_HARDLINK_POLICY_DEFAULT, cfapi/CF_HARDLINK_POLICY, cfapi/CF_HARDLINK_POLICY_ALLOWED, cfapi/CF_HARDLINK_POLICY_DEFAULT, cloudApi.cf_hardlink_policy
-ms.topic: enum
 f1_keywords:
 - cfapi/CF_HARDLINK_POLICY
 dev_langs:

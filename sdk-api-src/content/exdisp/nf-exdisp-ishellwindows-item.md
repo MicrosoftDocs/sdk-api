@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 04157d1a-8a4d-4ffd-882d-41748408ba2b
 ms.date: 12/05/2018
 ms.keywords: IShellWindows interface [Windows Shell],Item method, IShellWindows.Item, IShellWindows::Item, Item, Item method [Windows Shell], Item method [Windows Shell],IShellWindows interface, _win32_IShellWindows_Item, exdisp/IShellWindows::Item, shell.IShellWindows_Item
-ms.topic: method
 f1_keywords:
 - exdisp/IShellWindows.Item
 dev_langs:

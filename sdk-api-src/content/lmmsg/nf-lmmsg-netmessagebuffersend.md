@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: d1b9bebd-52e9-4b5f-97fb-e2a98aaff6b7
 ms.date: 12/05/2018
 ms.keywords: NetMessageBufferSend, NetMessageBufferSend function [Network Management], _win32_netmessagebuffersend, lmmsg/NetMessageBufferSend, netmgmt.netmessagebuffersend
-ms.topic: function
 f1_keywords:
 - lmmsg/NetMessageBufferSend
 dev_langs:

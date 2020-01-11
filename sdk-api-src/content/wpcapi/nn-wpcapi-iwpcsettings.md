@@ -7,7 +7,6 @@ tech.root: parcon
 ms.assetid: 92ae8611-fbb4-470e-8a48-395defaef904
 ms.date: 12/05/2018
 ms.keywords: IWPCSettings, IWPCSettings interface, IWPCSettings interface,described, parcon.iwpcsettings, wpcapi/IWPCSettings
-ms.topic: interface
 f1_keywords:
 - wpcapi/IWPCSettings
 dev_langs:

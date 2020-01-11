@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: abd98a28-b208-4f31-a28b-ff6ff6677af9
 ms.date: 12/05/2018
 ms.keywords: '*PPEERDIST_CLIENT_BASIC_INFO, PEERDIST_CLIENT_BASIC_INFO, PEERDIST_CLIENT_BASIC_INFO structure [Peer Networking], PPEERDIST_CLIENT_BASIC_INFO, PPEERDIST_CLIENT_BASIC_INFO structure pointer [Peer Networking], p2p.peerdist_client_basic_info, peerdist/PEERDIST_CLIENT_BASIC_INFO, peerdist/PPEERDIST_CLIENT_BASIC_INFO'
-ms.topic: struct
 f1_keywords:
 - peerdist/PEERDIST_CLIENT_BASIC_INFO
 dev_langs:

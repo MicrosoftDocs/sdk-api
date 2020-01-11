@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: ac2fe3e3-a1cb-4642-90af-2b0203e29251
 ms.date: 12/05/2018
 ms.keywords: GetAttachedComputer, GetAttachedComputer method [Network Policy Server], GetAttachedComputer method [Network Policy Server],ISdoMachine interface, GetAttachedComputer method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetAttachedComputer method, ISdoMachine.GetAttachedComputer, ISdoMachine::GetAttachedComputer, SdoMachine object [Network Policy Server],GetAttachedComputer method, _sdo_isdomachine_getattachedcomputer, nps.SDO_isdomachine_getattachedcomputer, sdo.isdomachine_getattachedcomputer, sdoias/ISdoMachine::GetAttachedComputer
-ms.topic: method
 f1_keywords:
 - sdoias/ISdoMachine.GetAttachedComputer
 dev_langs:

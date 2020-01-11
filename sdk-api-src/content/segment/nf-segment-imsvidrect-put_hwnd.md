@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: bbc7a6d0-2829-4fdb-89da-5ebb7fc803eb
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_HWnd method, IMSVidRect.put_HWnd, IMSVidRect::put_HWnd, IMSVidRectput_HWnd, mstv.imsvidrect_put_hwnd, put_HWnd, put_HWnd method [Microsoft TV Technologies], put_HWnd method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_HWnd
-ms.topic: method
 f1_keywords:
 - segment/IMSVidRect.put_HWnd
 dev_langs:

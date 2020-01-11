@@ -5,7 +5,6 @@ description: Retrieves the font file of the resource.
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetFontFile method, IDWriteFontResource.GetFontFile, IDWriteFontResource::GetFontFile, GetFontFile, GetFontFile method [Direct Write], GetFontFile method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontfile, dwrite_3/IDWriteFontResource::GetFontFile
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontResource.GetFontFile
 dev_langs:

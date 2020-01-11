@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 28c45790-2e5a-4acb-8a53-93f19c51dc6a
 ms.date: 12/05/2018
 ms.keywords: IAMVideoProcAmp, IAMVideoProcAmp interface [DirectShow], IAMVideoProcAmp interface [DirectShow],described, IAMVideoProcAmpInterface, dshow.iamvideoprocamp, strmif/IAMVideoProcAmp
-ms.topic: interface
 f1_keywords:
 - strmif/IAMVideoProcAmp
 dev_langs:

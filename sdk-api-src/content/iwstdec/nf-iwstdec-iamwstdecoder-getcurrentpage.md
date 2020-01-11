@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e4e52723-27ad-487a-a547-7ad7ade6f099
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPage, GetCurrentPage method [DirectShow], GetCurrentPage method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetCurrentPage method, IAMWstDecoder.GetCurrentPage, IAMWstDecoder::GetCurrentPage, IAMWstDecoderGetCurrentPage, dshow.iamwstdecoder_getcurrentpage, iwstdec/IAMWstDecoder::GetCurrentPage
-ms.topic: method
 f1_keywords:
 - iwstdec/IAMWstDecoder.GetCurrentPage
 dev_langs:

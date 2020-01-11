@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 08bf8fc1-6a08-490e-b589-730211774257
 ms.date: 12/05/2018
 ms.keywords: RegSetKeySecurity, RegSetKeySecurity function [Security], _win32_regsetkeysecurity, security.regsetkeysecurity, winreg/RegSetKeySecurity
-ms.topic: function
 f1_keywords:
 - winreg/RegSetKeySecurity
 dev_langs:

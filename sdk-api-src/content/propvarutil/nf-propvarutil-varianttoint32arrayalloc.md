@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 6010ee34-d7d2-4b8b-a49b-0f2aa88a3b54
 ms.date: 12/05/2018
 ms.keywords: VariantToInt32ArrayAlloc, VariantToInt32ArrayAlloc function [Windows Properties], _shell_VariantToInt32ArrayAlloc, properties.VariantToInt32ArrayAlloc, propvarutil/VariantToInt32ArrayAlloc, shell.VariantToInt32ArrayAlloc
-ms.topic: function
 f1_keywords:
 - propvarutil/VariantToInt32ArrayAlloc
 dev_langs:

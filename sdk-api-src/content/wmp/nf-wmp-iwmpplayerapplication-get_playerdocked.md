@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: ca590b80-433d-4a9f-9d6b-cbb33d328fda
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayerApplication interface [Windows Media Player],get_playerDocked method, IWMPPlayerApplication.get_playerDocked, IWMPPlayerApplication::get_playerDocked, IWMPPlayerApplicationget_playerDocked, get_playerDocked, get_playerDocked method [Windows Media Player], get_playerDocked method [Windows Media Player],IWMPPlayerApplication interface, wmp.iwmpplayerapplication_get_playerdocked, wmp/IWMPPlayerApplication::get_playerDocked
-ms.topic: method
 f1_keywords:
 - wmp/IWMPPlayerApplication.get_playerDocked
 dev_langs:

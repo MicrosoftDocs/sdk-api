@@ -7,7 +7,6 @@ tech.root: wnv
 ms.assetid: 817C86BB-1267-4174-93C2-515288A33055
 ms.date: 12/05/2018
 ms.keywords: '*PWNV_OBJECT_TYPE, PWNV_OBJECT_TYPE, PWNV_OBJECT_TYPE enumeration pointer [Windows Network Virtualization], WNV_OBJECT_TYPE, WNV_OBJECT_TYPE enumeration [Windows Network Virtualization], WnvObjectTypeMax, WnvProviderAddressType, wnv.wnv_object_type, wnvapi/PWNV_OBJECT_TYPE, wnvapi/WNV_OBJECT_TYPE, wnvapi/WnvObjectTypeMax, wnvapi/WnvProviderAddressType'
-ms.topic: enum
 f1_keywords:
 - wnvapi/WNV_OBJECT_TYPE
 dev_langs:

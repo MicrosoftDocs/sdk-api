@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 5ffd370a-ccc5-4229-b214-e07847287415
 ms.date: 12/05/2018
 ms.keywords: MFCreateMFByteStreamOnStream, MFCreateMFByteStreamOnStream function [Media Foundation], mf.mfcreatemfbytestreamonstream, mfidl/MFCreateMFByteStreamOnStream
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreateMFByteStreamOnStream
 dev_langs:

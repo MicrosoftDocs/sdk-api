@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 139FE5AB-9465-46F8-B360-F27F19D82A88
 ms.date: 12/05/2018
 ms.keywords: ClusterGroupEnumEx, ClusterGroupEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_ENUM_EX, PCLUSAPI_CLUSTER_GROUP_ENUM_EX function [Failover Cluster], clusapi/ClusterGroupEnumEx, clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM_EX, mscs.clustergroupenumex
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterGroupEnumEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: rstmgr
 ms.assetid: f9cb2d81-a2bc-4bb7-920a-1630354ea942
 ms.date: 12/05/2018
 ms.keywords: RmJoinSession, RmJoinSession function [Restart Mgr], restartmanager/RmJoinSession, rstmgr.rmjoinsession
-ms.topic: function
 f1_keywords:
 - restartmanager/RmJoinSession
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7kq5.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxRoutingMethods interface [Fax Service],get_Item method, IFaxRoutingMethods.get_Item, IFaxRoutingMethods::get_Item, _mfax_ifaxroutingmethods_get_item, fax._mfax_ifaxroutingmethods_get_item, faxcom/IFaxRoutingMethods::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxRoutingMethods interface
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxRoutingMethods.get_Item
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: b7a2112e-9f50-4a36-b022-f9609b2827bc
 ms.date: 12/05/2018
 ms.keywords: CounterPathCallBack, CounterPathCallBack callback, CounterPathCallBack callback function [Perf], _win32_counterpathcallback, base.counterpathcallback, pdh/CounterPathCallBack, perf.counterpathcallback
-ms.topic: callback
 f1_keywords:
 - pdh/CounterPathCallBack
 dev_langs:

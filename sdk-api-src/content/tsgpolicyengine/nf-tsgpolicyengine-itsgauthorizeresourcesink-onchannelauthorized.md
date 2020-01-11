@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: e09247af-54ea-4846-97d5-d503a811ab29
 ms.date: 12/05/2018
 ms.keywords: ITSGAuthorizeResourceSink interface [Remote Desktop Services],OnChannelAuthorized method, ITSGAuthorizeResourceSink.OnChannelAuthorized, ITSGAuthorizeResourceSink::OnChannelAuthorized, OnChannelAuthorized, OnChannelAuthorized method [Remote Desktop Services], OnChannelAuthorized method [Remote Desktop Services],ITSGAuthorizeResourceSink interface, termserv.itsgauthorizeresourcesink_onchannelauthorized, tsgpolicyengine/ITSGAuthorizeResourceSink::OnChannelAuthorized
-ms.topic: method
 f1_keywords:
 - tsgpolicyengine/ITSGAuthorizeResourceSink.OnChannelAuthorized
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 467560b2-f79f-49ab-b019-d6315f0c2030
 ms.date: 12/05/2018
 ms.keywords: AVIStreamGetFrameOpen, AVIStreamGetFrameOpen function [Windows Multimedia], _win32_AVIStreamGetFrameOpen, multimedia.avistreamgetframeopen, vfw/AVIStreamGetFrameOpen
-ms.topic: function
 f1_keywords:
 - vfw/AVIStreamGetFrameOpen
 dev_langs:

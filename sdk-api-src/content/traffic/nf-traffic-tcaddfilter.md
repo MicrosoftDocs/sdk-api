@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: c6d7c346-c353-4224-a8b5-56910e447902
 ms.date: 12/05/2018
 ms.keywords: TcAddFilter, TcAddFilter function [QOS], _gqos_tcaddfilter, qos.tcaddfilter, traffic/TcAddFilter
-ms.topic: function
 f1_keywords:
 - traffic/TcAddFilter
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 7f77d82f-e048-463f-bf0d-15bf1daaddb6
 ms.date: 12/05/2018
 ms.keywords: ForceLoadProperty, ForceLoadProperty method [Text Services Framework], ForceLoadProperty method [Text Services Framework],ITfContextOwnerServices interface, ITfContextOwnerServices interface [Text Services Framework],ForceLoadProperty method, ITfContextOwnerServices.ForceLoadProperty, ITfContextOwnerServices::ForceLoadProperty, _tsf_itfcontextownerservices_forceloadproperty_ref, msctf/ITfContextOwnerServices::ForceLoadProperty, tsf.itfcontextownerservices_forceloadproperty
-ms.topic: method
 f1_keywords:
 - msctf/ITfContextOwnerServices.ForceLoadProperty
 dev_langs:

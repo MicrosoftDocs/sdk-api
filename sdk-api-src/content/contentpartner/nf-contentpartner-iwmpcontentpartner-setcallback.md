@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: eb3b0c68-b071-476c-ab14-e4ee34bc9044
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],SetCallback method, IWMPContentPartner.SetCallback, IWMPContentPartner::SetCallback, IWMPContentPartnerSetCallback, SetCallback, SetCallback method [Windows Media Player], SetCallback method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::SetCallback, wmp.iwmpcontentpartner_setcallback
-ms.topic: method
 f1_keywords:
 - contentpartner/IWMPContentPartner.SetCallback
 dev_langs:

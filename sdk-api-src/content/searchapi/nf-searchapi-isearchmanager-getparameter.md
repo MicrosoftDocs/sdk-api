@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\getparameter.htm
 ms.date: 12/05/2018
 ms.keywords: GetParameter, GetParameter method [search], GetParameter method [search],ISearchManager interface, ISearchManager interface [search],GetParameter method, ISearchManager.GetParameter, ISearchManager::GetParameter, _search_ISearchManager_GetParameter, search._search_ISearchManager_GetParameter, searchapi/ISearchManager::GetParameter
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchManager.GetParameter
 dev_langs:

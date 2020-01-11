@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: bb00f7cd-8557-4ef7-a53c-c020d0acdb78
 ms.date: 12/05/2018
 ms.keywords: UiaGetErrorDescription, UiaGetErrorDescription function [Windows Accessibility], uiauto.uiauto_UiaGetErrorDescriptionAutoMeth, uiauto_UiaGetErrorDescriptionAutoMeth, uiautomationcoreapi/UiaGetErrorDescription, winauto.uiauto_UiaGetErrorDescriptionAutoMeth
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaGetErrorDescription
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: D1CD2B20-FC7E-4141-A828-96E070A63F4A
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain1 interface [DXGI],SetRotation method, IDXGISwapChain1.SetRotation, IDXGISwapChain1::SetRotation, SetRotation, SetRotation method [DXGI], SetRotation method [DXGI],IDXGISwapChain1 interface, direct3ddxgi.idxgiswapchain1_setrotation, dxgi1_2/IDXGISwapChain1::SetRotation
-ms.topic: method
 f1_keywords:
 - dxgi1_2/IDXGISwapChain1.SetRotation
 dev_langs:

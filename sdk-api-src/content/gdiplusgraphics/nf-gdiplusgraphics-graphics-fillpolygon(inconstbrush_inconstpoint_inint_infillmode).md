@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillpolygonmethods\fillpolygon_69brushbrush_pointpoints_intcount_fillmo.htm
 ms.date: 12/05/2018
 ms.keywords: FillPolygon, FillPolygon method [GDI+], FillPolygon method [GDI+],Graphics class, Graphics class [GDI+],FillPolygon method, Graphics.FillPolygon, Graphics.FillPolygon(IN const Brush,IN const Point,IN INT,IN FillMode), Graphics.FillPolygon(const Brush*,const Point*,INT,FillMode), Graphics::FillPolygon, Graphics::FillPolygon(IN const Brush,IN const Point,IN INT,IN FillMode), _gdiplus_CLASS_Graphics_FillPolygon_Brush_brush_Point_points_INT_count_FillMode_fillMode_, gdiplus._gdiplus_CLASS_Graphics_FillPolygon_Brush_brush_Point_points_INT_count_FillMode_fillMode_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.FillPolygon
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 712e6473-bb49-460a-9761-69a5ee4a067e
 ms.date: 12/05/2018
 ms.keywords: PeerGroupGetStatus, PeerGroupGetStatus function [Peer Networking], p2p.peergroupgetstatus, p2p/PeerGroupGetStatus
-ms.topic: function
 f1_keywords:
 - p2p/PeerGroupGetStatus
 dev_langs:

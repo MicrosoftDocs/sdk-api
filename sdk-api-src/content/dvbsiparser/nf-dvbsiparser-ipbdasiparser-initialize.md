@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: fb161e1a-ae10-4d5e-907a-91c7e80c11d8
 ms.date: 12/05/2018
 ms.keywords: IPBDASiParser interface [Microsoft TV Technologies],Initialize method, IPBDASiParser.Initialize, IPBDASiParser::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IPBDASiParser interface, dshow.ipbdasiparser_initialize, dvbsiparser/IPBDASiParser::Initialize, mstv.ipbdasiparser_initialize
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IPBDASiParser.Initialize
 dev_langs:

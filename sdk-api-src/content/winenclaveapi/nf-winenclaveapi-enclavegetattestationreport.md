@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: FEE8F05B-540F-4C10-A90C-55607A4E9293
 ms.date: 12/05/2018
 ms.keywords: EnclaveGetAttestationReport, EnclaveGetAttestationReport function, base.enclavegetattestationreport, winenclaveapi/EnclaveGetAttestationReport
-ms.topic: function
 f1_keywords:
 - winenclaveapi/EnclaveGetAttestationReport
 dev_langs:

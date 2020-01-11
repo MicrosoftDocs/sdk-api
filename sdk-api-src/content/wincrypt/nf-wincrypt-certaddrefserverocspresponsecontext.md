@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: b7cdce9b-25fe-4fb9-b266-61989793699b
 ms.date: 12/05/2018
 ms.keywords: CertAddRefServerOcspResponseContext, CertAddRefServerOcspResponseContext function [Security], security.certaddrefserverocspresponsecontext, wincrypt/CertAddRefServerOcspResponseContext
-ms.topic: function
 f1_keywords:
 - wincrypt/CertAddRefServerOcspResponseContext
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 70596630-5131-460f-9cb3-adcea201c3b2
 ms.date: 12/05/2018
 ms.keywords: 70596630-5131-460f-9cb3-adcea201c3b2, IMFVideoRenderer, IMFVideoRenderer interface [Media Foundation], IMFVideoRenderer interface [Media Foundation],described, evr/IMFVideoRenderer, mf.imfvideorenderer
-ms.topic: interface
 f1_keywords:
 - evr/IMFVideoRenderer
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: c8f34c4b-28f1-4a8f-bf8e-9872debc9eb1
 ms.date: 12/05/2018
 ms.keywords: GetEndPoint, GetEndPoint method [XPS Documents and Packaging], GetEndPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],GetEndPoint method, IXpsOMLinearGradientBrush.GetEndPoint, IXpsOMLinearGradientBrush::GetEndPoint, xps.ixpsomlineargradientbrush_getendpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::GetEndPoint
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMLinearGradientBrush.GetEndPoint
 dev_langs:

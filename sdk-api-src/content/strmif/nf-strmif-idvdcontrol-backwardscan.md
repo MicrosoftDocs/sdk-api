@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9d2b1635-9b02-465a-a725-8b7985b651fb
 ms.date: 12/05/2018
 ms.keywords: BackwardScan, BackwardScan method [DirectShow], BackwardScan method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],BackwardScan method, IDvdControl.BackwardScan, IDvdControl::BackwardScan, IDvdControlBackwardScan, dshow.idvdcontrol_backwardscan, strmif/IDvdControl::BackwardScan
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.BackwardScan
 dev_langs:

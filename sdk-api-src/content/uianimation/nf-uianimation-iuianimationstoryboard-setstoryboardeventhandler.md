@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 8fbe8e94-8585-4adc-8643-3962aff6a031
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard interface [Windows Animation],SetStoryboardEventHandler method, IUIAnimationStoryboard.SetStoryboardEventHandler, IUIAnimationStoryboard::SetStoryboardEventHandler, SetStoryboardEventHandler, SetStoryboardEventHandler method [Windows Animation], SetStoryboardEventHandler method [Windows Animation],IUIAnimationStoryboard interface, uianimation.iuianimationstoryboard_setstoryboardeventhandler, uianimation/IUIAnimationStoryboard::SetStoryboardEventHandler
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationStoryboard.SetStoryboardEventHandler
 dev_langs:

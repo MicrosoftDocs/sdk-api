@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e6839757-2b63-497d-9978-35c8dfabc0ed
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],SetSwitches method, IDirectDrawVideo.SetSwitches, IDirectDrawVideo::SetSwitches, IDirectDrawVideoSetSwitches, SetSwitches, SetSwitches method [DirectShow], SetSwitches method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::SetSwitches, dshow.idirectdrawvideo_setswitches
-ms.topic: method
 f1_keywords:
 - amvideo/IDirectDrawVideo.SetSwitches
 dev_langs:

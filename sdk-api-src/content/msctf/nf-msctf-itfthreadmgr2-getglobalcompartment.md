@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: AC1D27C5-C9D9-4658-AC3C-9C3A723F8597
 ms.date: 12/05/2018
 ms.keywords: GetGlobalCompartment, GetGlobalCompartment method [Text Services Framework], GetGlobalCompartment method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],GetGlobalCompartment method, ITfThreadMgr2.GetGlobalCompartment, ITfThreadMgr2::GetGlobalCompartment, msctf/ITfThreadMgr2::GetGlobalCompartment, tsf.itfthreadmgr2_getglobalcompartment
-ms.topic: method
 f1_keywords:
 - msctf/ITfThreadMgr2.GetGlobalCompartment
 dev_langs:

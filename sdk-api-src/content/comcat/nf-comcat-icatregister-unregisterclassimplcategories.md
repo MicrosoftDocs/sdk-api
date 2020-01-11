@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 4a227fd1-6cbc-4354-a3e2-04aceb73ab65
 ms.date: 12/05/2018
 ms.keywords: ICatRegister interface [COM],UnRegisterClassImplCategories method, ICatRegister.UnRegisterClassImplCategories, ICatRegister::UnRegisterClassImplCategories, UnRegisterClassImplCategories, UnRegisterClassImplCategories method [COM], UnRegisterClassImplCategories method [COM],ICatRegister interface, _com_icatregister_unregisterclassimplcategories, com.icatregister_unregisterclassimplcategories, comcat/ICatRegister::UnRegisterClassImplCategories
-ms.topic: method
 f1_keywords:
 - comcat/ICatRegister.UnRegisterClassImplCategories
 dev_langs:

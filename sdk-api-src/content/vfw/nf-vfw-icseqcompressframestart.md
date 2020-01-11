@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 90103468-fcdc-4c40-b328-29fe467b9039
 ms.date: 12/05/2018
 ms.keywords: ICSeqCompressFrameStart, ICSeqCompressFrameStart function [Windows Multimedia], _win32_ICSeqCompressFrameStart, multimedia.icseqcompressframestart, vfw/ICSeqCompressFrameStart
-ms.topic: function
 f1_keywords:
 - vfw/ICSeqCompressFrameStart
 dev_langs:

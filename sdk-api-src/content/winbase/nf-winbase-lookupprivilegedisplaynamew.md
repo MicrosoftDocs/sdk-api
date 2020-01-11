@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 1fbb26b6-615e-4883-9f4b-3a1d05d9feaa
 ms.date: 12/05/2018
 ms.keywords: LookupPrivilegeDisplayName, LookupPrivilegeDisplayName function [Security], LookupPrivilegeDisplayNameA, LookupPrivilegeDisplayNameW, _win32_lookupprivilegedisplayname, security.lookupprivilegedisplayname, winbase/LookupPrivilegeDisplayName, winbase/LookupPrivilegeDisplayNameA, winbase/LookupPrivilegeDisplayNameW
-ms.topic: function
 f1_keywords:
 - winbase/LookupPrivilegeDisplayName
 dev_langs:

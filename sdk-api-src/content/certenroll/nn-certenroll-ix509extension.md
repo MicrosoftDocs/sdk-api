@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: f04e3f63-c826-4401-a1c8-b2614e0dc374
 ms.date: 12/05/2018
 ms.keywords: IX509Extension, IX509Extension interface [Security], IX509Extension interface [Security],described, certenroll/IX509Extension, security.ix509extension
-ms.topic: interface
 f1_keywords:
 - certenroll/IX509Extension
 dev_langs:

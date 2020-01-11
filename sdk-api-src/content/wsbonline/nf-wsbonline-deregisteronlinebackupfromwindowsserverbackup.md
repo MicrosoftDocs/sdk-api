@@ -7,7 +7,6 @@ tech.root: wsb
 ms.assetid: 4E70EF3D-E4AA-498C-B131-8C5F48CD230E
 ms.date: 12/05/2018
 ms.keywords: DeregisterOnlineBackupFromWindowsServerBackup, DeregisterOnlineBackupFromWindowsServerBackup function [Windows Server Backup], wsb.deregisteronlinebackupfromwindowsserverbackup, wsbonline/DeregisterOnlineBackupFromWindowsServerBackup
-ms.topic: function
 f1_keywords:
 - wsbonline/DeregisterOnlineBackupFromWindowsServerBackup
 dev_langs:

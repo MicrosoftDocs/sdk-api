@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 4cace5bd-d111-4a9a-af10-9ad454d4f2eb
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],RequestLock method, ITextStoreAnchor.RequestLock, ITextStoreAnchor::RequestLock, RequestLock, RequestLock method [Text Services Framework], RequestLock method [Text Services Framework],ITextStoreAnchor interface, TS_LF_READ, TS_LF_READWRITE, TS_LF_SYNC, textstor/ITextStoreAnchor::RequestLock, tsf.itextstoreanchor_requestlock
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreAnchor.RequestLock
 dev_langs:

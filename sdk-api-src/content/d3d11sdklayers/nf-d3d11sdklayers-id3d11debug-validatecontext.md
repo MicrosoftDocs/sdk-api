@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: c8679a68-336f-4bfa-91d6-398a75b34dfb
 ms.date: 12/05/2018
 ms.keywords: 4ee713bf-94e0-0a30-fb72-d6e8a2216e88, ID3D11Debug interface [Direct3D 11],ValidateContext method, ID3D11Debug.ValidateContext, ID3D11Debug::ValidateContext, ValidateContext, ValidateContext method [Direct3D 11], ValidateContext method [Direct3D 11],ID3D11Debug interface, d3d11sdklayers/ID3D11Debug::ValidateContext, direct3d11.id3d11debug_validatecontext
-ms.topic: method
 f1_keywords:
 - d3d11sdklayers/ID3D11Debug.ValidateContext
 dev_langs:

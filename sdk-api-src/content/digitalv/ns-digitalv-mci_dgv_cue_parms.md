@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 26905280-3470-4fe9-9464-e7e4a04e2bd3
 ms.date: 12/05/2018
 ms.keywords: '*LPMCI_DGV_CUE_PARMS, MCI_DGV_CUE_PARMS, MCI_DGV_CUE_PARMS structure [Windows Multimedia], _win32_MCI_DGV_CUE_PARMS_str, digitalv/MCI_DGV_CUE_PARMS, multimedia.mci_dgv_cue_parms'
-ms.topic: struct
 f1_keywords:
 - digitalv/MCI_DGV_CUE_PARMS
 dev_langs:

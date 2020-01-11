@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: aa313685-1334-4899-a55a-6549b48e1464
 ms.date: 12/05/2018
 ms.keywords: IFileSaveDialog interface [Windows Shell],SetSaveAsItem method, IFileSaveDialog.SetSaveAsItem, IFileSaveDialog::SetSaveAsItem, SetSaveAsItem, SetSaveAsItem method [Windows Shell], SetSaveAsItem method [Windows Shell],IFileSaveDialog interface, shell.IFileSaveDialog_SetSaveAsItem, shell_IFileSaveDialog_SetSaveAsItem, shobjidl_core/IFileSaveDialog::SetSaveAsItem
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileSaveDialog.SetSaveAsItem
 dev_langs:

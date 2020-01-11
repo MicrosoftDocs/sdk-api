@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 5234f582-88e2-4a9a-8650-d0d2d4b39f31
 ms.date: 12/05/2018
 ms.keywords: GetColumn, GetColumn method [COM+], GetColumn method [COM+],ICrmFormatLogRecords interface, ICrmFormatLogRecords interface [COM+],GetColumn method, ICrmFormatLogRecords.GetColumn, ICrmFormatLogRecords::GetColumn, _dtc_ICrmFormatLogRecords_GetColumn, comsvcs/ICrmFormatLogRecords::GetColumn, cos.icrmformatlogrecords_getcolumn
-ms.topic: method
 f1_keywords:
 - comsvcs/ICrmFormatLogRecords.GetColumn
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintuninit.htm
 ms.date: 12/05/2018
 ms.keywords: BufferedPaintUnInit, BufferedPaintUnInit function [Windows Controls], _shell_BufferedPaintUnInit, _shell_BufferedPaintUnInit_cpp, controls.BufferedPaintUnInit, controls._shell_BufferedPaintUnInit, uxtheme/BufferedPaintUnInit
-ms.topic: function
 f1_keywords:
 - uxtheme/BufferedPaintUnInit
 dev_langs:

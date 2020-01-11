@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 83529CFD-46D2-45A7-9B0D-F00FF43D911B
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationStylesPattern, IUIAutomationStylesPattern interface [Windows Accessibility], IUIAutomationStylesPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationStylesPattern, winauto.uiauto_IUIAutomationStylesPattern
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationStylesPattern
 dev_langs:

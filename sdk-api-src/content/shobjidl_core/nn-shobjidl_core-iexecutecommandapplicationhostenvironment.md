@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c890d306-66df-4c29-88db-d54362ac018a
 ms.date: 12/05/2018
 ms.keywords: IExecuteCommandApplicationHostEnvironment, IExecuteCommandApplicationHostEnvironment interface [Windows Shell], IExecuteCommandApplicationHostEnvironment interface [Windows Shell],described, shell.IExecuteCommandApplicationHostEnvironment, shobjidl_core/IExecuteCommandApplicationHostEnvironment
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IExecuteCommandApplicationHostEnvironment
 dev_langs:

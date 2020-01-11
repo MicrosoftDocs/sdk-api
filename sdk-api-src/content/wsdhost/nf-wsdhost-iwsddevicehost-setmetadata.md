@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: dc4cbed9-9ec4-4bbd-b1c9-89c4c11ff424
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,SetMetadata method, IWSDDeviceHost.SetMetadata, IWSDDeviceHost::SetMetadata, SetMetadata, SetMetadata method, SetMetadata method,IWSDDeviceHost interface, ncd.iwsddevicehost_setmetadata_method, wsdhost/IWSDDeviceHost::SetMetadata
-ms.topic: method
 f1_keywords:
 - wsdhost/IWSDDeviceHost.SetMetadata
 dev_langs:

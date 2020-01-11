@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7dir.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],Retries property, IFaxOutgoingMessage.Retries, IFaxOutgoingMessage.get_Retries, IFaxOutgoingMessage::Retries, IFaxOutgoingMessage::get_Retries, Retries property [Fax Service], Retries property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.retries, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_retries_cpp, fax._mfax_faxoutgoingmessage_retries, faxcomex/IFaxOutgoingMessage::Retries, faxcomex/IFaxOutgoingMessage::get_Retries, get_Retries
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutgoingMessage.Retries
 dev_langs:

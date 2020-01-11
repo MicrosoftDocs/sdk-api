@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 23960533-de71-4bff-a43f-75e5fe38fbec
 ms.date: 12/05/2018
 ms.keywords: SetBitmapDimensionEx, SetBitmapDimensionEx function [Windows GDI], _win32_SetBitmapDimensionEx, gdi.setbitmapdimensionex, wingdi/SetBitmapDimensionEx
-ms.topic: function
 f1_keywords:
 - wingdi/SetBitmapDimensionEx
 dev_langs:

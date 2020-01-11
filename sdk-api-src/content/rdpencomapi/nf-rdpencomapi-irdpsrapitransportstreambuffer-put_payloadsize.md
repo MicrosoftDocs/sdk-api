@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: bb85af9e-71d2-46bb-8d14-5aa1571ab6b7
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer interface [RDP],PayloadSize property, IRDPSRAPITransportStreamBuffer.PayloadSize, IRDPSRAPITransportStreamBuffer.put_PayloadSize, IRDPSRAPITransportStreamBuffer::PayloadSize, IRDPSRAPITransportStreamBuffer::get_PayloadSize, IRDPSRAPITransportStreamBuffer::put_PayloadSize, PayloadSize property [RDP], PayloadSize property [RDP],IRDPSRAPITransportStreamBuffer interface, put_PayloadSize, rdp.irdpsrapitransportstreambuffer_payloadsize, rdpencomapi/IRDPSRAPITransportStreamBuffer::PayloadSize, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_PayloadSize, rdpencomapi/IRDPSRAPITransportStreamBuffer::put_PayloadSize
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPITransportStreamBuffer::PayloadSize
 dev_langs:

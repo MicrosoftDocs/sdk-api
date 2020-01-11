@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: ace10974-784b-41f7-aee9-461c8d63b479
 ms.date: 12/05/2018
 ms.keywords: DhcpHlprFreeV4Policy, DhcpHlprFreeV4Policy function [DHCP], dhcp.dhcphlprfreev4policy, dhcpsapi/DhcpHlprFreeV4Policy
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpHlprFreeV4Policy
 dev_langs:

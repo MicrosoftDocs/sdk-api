@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 1881652A-005C-4EFB-B4ED-3BEAC35A460A
 ms.date: 12/05/2018
 ms.keywords: GetStreamingMode, GetStreamingMode method [Media Foundation], GetStreamingMode method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetStreamingMode method, IMFSensorProcessActivity.GetStreamingMode, IMFSensorProcessActivity::GetStreamingMode, mf.imfsensorprocessactivity_getstreamingmode, mfidl/IMFSensorProcessActivity::GetStreamingMode
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSensorProcessActivity.GetStreamingMode
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: 64cf82d5-c210-4ff2-a7c8-1a284859382e
 ms.date: 12/05/2018
 ms.keywords: GetRestrictionFacets, GetRestrictionFacets method [SMI], GetRestrictionFacets method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetRestrictionFacets method, ISettingsItem.GetRestrictionFacets, ISettingsItem::GetRestrictionFacets, smi.isettingsitem_getrestrictionfacets, wcmconfig/ISettingsItem::GetRestrictionFacets
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsItem.GetRestrictionFacets
 dev_langs:

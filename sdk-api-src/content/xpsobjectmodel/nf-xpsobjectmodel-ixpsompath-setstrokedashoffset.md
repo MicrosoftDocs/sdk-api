@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f6d222e4-9480-4dc7-9963-7dd637892281
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeDashOffset method, IXpsOMPath.SetStrokeDashOffset, IXpsOMPath::SetStrokeDashOffset, SetStrokeDashOffset, SetStrokeDashOffset method [XPS Documents and Packaging], SetStrokeDashOffset method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokedashoffset, xpsobjectmodel/IXpsOMPath::SetStrokeDashOffset
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.SetStrokeDashOffset
 dev_langs:

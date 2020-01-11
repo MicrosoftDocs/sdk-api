@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 54311cbe-1c54-4193-8991-891dbd0856bf
 ms.date: 12/05/2018
 ms.keywords: OffsetViewportOrgEx, OffsetViewportOrgEx function [Windows GDI], _win32_OffsetViewportOrgEx, gdi.offsetviewportorgex, wingdi/OffsetViewportOrgEx
-ms.topic: function
 f1_keywords:
 - wingdi/OffsetViewportOrgEx
 dev_langs:

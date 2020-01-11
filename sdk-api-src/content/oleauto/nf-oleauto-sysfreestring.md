@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 8f230ee3-5f6e-4cb9-a910-9c90b754dcd3
 ms.date: 12/05/2018
 ms.keywords: SysFreeString, SysFreeString function [Automation], _oa96_SysFreeString, automat.sysfreestring, oleauto/SysFreeString
-ms.topic: function
 f1_keywords:
 - oleauto/SysFreeString
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\onservershutdown.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountNotify.OnServerShutDown, OnServerShutDown, OnServerShutDown method [Fax Service], OnServerShutDown method [Fax Service],_IFaxAccountNotify interface, _IFaxAccountNotify interface [Fax Service],OnServerShutDown method, _IFaxAccountNotify.OnServerShutDown, _IFaxAccountNotify::OnServerShutDown, _mfax_ifaxaccountnotify_onservershutdown, fax._mfax_ifaxaccountnotify_onservershutdown, faxcomex/_IFaxAccountNotify::OnServerShutDown
-ms.topic: method
 f1_keywords:
 - faxcomex/_IFaxAccountNotify.OnServerShutDown
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: c463924a-1491-4d65-86ed-827327e560b9
 ms.date: 12/05/2018
 ms.keywords: WsGetHeapProperty, WsGetHeapProperty function [Web Services for Windows], webservices/WsGetHeapProperty, wsw.wsgetheapproperty
-ms.topic: function
 f1_keywords:
 - webservices/WsGetHeapProperty
 dev_langs:

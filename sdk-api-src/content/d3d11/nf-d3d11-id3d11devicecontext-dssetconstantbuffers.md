@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: ae2b8269-59b0-44e9-8173-89baf20436f1
 ms.date: 12/05/2018
 ms.keywords: 13e5cd44-c36b-5d23-3dc8-d47d8d5bbce9, DSSetConstantBuffers, DSSetConstantBuffers method [Direct3D 11], DSSetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DSSetConstantBuffers method, ID3D11DeviceContext.DSSetConstantBuffers, ID3D11DeviceContext::DSSetConstantBuffers, d3d11/ID3D11DeviceContext::DSSetConstantBuffers, direct3d11.id3d11devicecontext_dssetconstantbuffers
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11DeviceContext.DSSetConstantBuffers
 dev_langs:

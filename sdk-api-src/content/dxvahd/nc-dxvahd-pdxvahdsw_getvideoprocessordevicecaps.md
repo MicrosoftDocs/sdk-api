@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 09753e3b-7235-4204-ad08-a083a7db4a2b
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessorDeviceCaps, PDXVAHDSW_GetVideoProcessorDeviceCaps callback, PDXVAHDSW_GetVideoProcessorDeviceCaps callback function [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessorDeviceCaps, mf.pdxvahdsw_getvideoprocessordevicecaps
-ms.topic: callback
 f1_keywords:
 - dxvahd/PDXVAHDSW_GetVideoProcessorDeviceCaps
 dev_langs:

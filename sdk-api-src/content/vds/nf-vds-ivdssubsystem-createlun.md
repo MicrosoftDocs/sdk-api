@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: e8097364-1f23-4cda-8f12-a750bbb4eb4c
 ms.date: 12/05/2018
 ms.keywords: CreateLun, CreateLun method [VDS], CreateLun method [VDS],IVdsSubSystem interface, IVdsSubSystem interface [VDS],CreateLun method, IVdsSubSystem.CreateLun, IVdsSubSystem::CreateLun, base.ivdssubsystem_createlun, vds/IVdsSubSystem::CreateLun, vdshwprv/IVdsSubSystem::CreateLun
-ms.topic: method
 f1_keywords:
 - vds/IVdsSubSystem.CreateLun
 dev_langs:

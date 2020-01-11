@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 64ab5548-b562-44e4-9798-8f14d3ed653b
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionService2 interface [Windows Media Player],prepareForSync method, IWMPSubscriptionService2.prepareForSync, IWMPSubscriptionService2::prepareForSync, IWMPSubscriptionService2prepareForSync, prepareForSync, prepareForSync method [Windows Media Player], prepareForSync method [Windows Media Player],IWMPSubscriptionService2 interface, subscriptionservices/IWMPSubscriptionService2::prepareForSync, wmp.iwmpsubscriptionservice2_prepareforsync
-ms.topic: method
 f1_keywords:
 - subscriptionservices/IWMPSubscriptionService2.prepareForSync
 dev_langs:

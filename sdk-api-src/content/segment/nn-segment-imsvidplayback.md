@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ed954545-f58f-4841-9ffd-185350f76388
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback, IMSVidPlayback interface [Microsoft TV Technologies], IMSVidPlayback interface [Microsoft TV Technologies],described, IMSVidPlaybackInterface, mstv.imsvidplayback, segment/IMSVidPlayback
-ms.topic: interface
 f1_keywords:
 - segment/IMSVidPlayback
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: c4a0a07a-c80e-4dca-b3bb-8b2f26f969d8
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnceEventArgs interface [IMAPI],get_CurrentAction method, IDiscFormat2TrackAtOnceEventArgs.get_CurrentAction, IDiscFormat2TrackAtOnceEventArgs::get_CurrentAction, get_CurrentAction, get_CurrentAction method [IMAPI], get_CurrentAction method [IMAPI],IDiscFormat2TrackAtOnceEventArgs interface, imapi.idiscformat2trackatonceeventargs_get_currentaction, imapi2/IDiscFormat2TrackAtOnceEventArgs::get_CurrentAction
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2TrackAtOnceEventArgs.get_CurrentAction
 dev_langs:

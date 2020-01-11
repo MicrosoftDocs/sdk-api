@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: ee955482-e786-4478-bbaa-7c574ab1ecc5
 ms.date: 12/05/2018
 ms.keywords: UuidCreateNil, UuidCreateNil function [RPC], _rpc_uuidcreatenil, rpc.uuidcreatenil, rpcdce/UuidCreateNil
-ms.topic: function
 f1_keywords:
 - rpcdce/UuidCreateNil
 dev_langs:

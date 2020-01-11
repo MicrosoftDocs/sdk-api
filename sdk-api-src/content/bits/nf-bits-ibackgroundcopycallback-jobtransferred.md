@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 04ff96c4-5b22-4935-bce8-5b9d3196cbe5
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyCallback interface [BITS],JobTransferred method, IBackgroundCopyCallback.JobTransferred, IBackgroundCopyCallback::JobTransferred, JobTransferred, JobTransferred method [BITS], JobTransferred method [BITS],IBackgroundCopyCallback interface, _drz_ibackgroundcopycallback_jobtransferred, bits.ibackgroundcopycallback_jobtransferred, bits/IBackgroundCopyCallback::JobTransferred
-ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyCallback.JobTransferred
 dev_langs:

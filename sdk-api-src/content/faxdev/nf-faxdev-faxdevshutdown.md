@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_35m6.htm
 ms.date: 12/05/2018
 ms.keywords: FaxDevShutdown, FaxDevShutdown function [Fax Service], _mfax_faxdevshutdown, fax._mfax_faxdevshutdown, faxdev/FaxDevShutdown
-ms.topic: function
 f1_keywords:
 - faxdev/FaxDevShutdown
 dev_langs:

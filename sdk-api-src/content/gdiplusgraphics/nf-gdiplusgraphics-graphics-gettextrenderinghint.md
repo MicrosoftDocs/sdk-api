@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\gettextrenderinghint.htm
 ms.date: 12/05/2018
 ms.keywords: GetTextRenderingHint, GetTextRenderingHint method [GDI+], GetTextRenderingHint method [GDI+],Graphics class, Graphics class [GDI+],GetTextRenderingHint method, Graphics.GetTextRenderingHint, Graphics::GetTextRenderingHint, _gdiplus_CLASS_Graphics_GetTextRenderingHint_, gdiplus._gdiplus_CLASS_Graphics_GetTextRenderingHint_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.GetTextRenderingHint
 dev_langs:

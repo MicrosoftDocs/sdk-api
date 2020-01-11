@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0bcdfe92-cec0-44f3-a345-5b560d52fae9
 ms.date: 12/05/2018
 ms.keywords: IDragSourceHelper interface [Windows Shell],InitializeFromWindow method, IDragSourceHelper.InitializeFromWindow, IDragSourceHelper::InitializeFromWindow, InitializeFromWindow, InitializeFromWindow method [Windows Shell], InitializeFromWindow method [Windows Shell],IDragSourceHelper interface, _win32_IDragSourceHelper_InitializeFromWindow, shell.IDragSourceHelper_InitializeFromWindow, shobjidl_core/IDragSourceHelper::InitializeFromWindow
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IDragSourceHelper.InitializeFromWindow
 dev_langs:

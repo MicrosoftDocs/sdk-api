@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 96a9a158-d822-4cde-80c5-ea66f0fa4f1f
 ms.date: 12/05/2018
 ms.keywords: VarInt, VarInt function [Automation], _oa96_VarInt, automat.varint, oleauto/VarInt
-ms.topic: function
 f1_keywords:
 - oleauto/VarInt
 dev_langs:

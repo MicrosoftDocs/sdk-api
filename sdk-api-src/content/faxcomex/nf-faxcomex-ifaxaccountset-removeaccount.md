@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountset\removeaccount.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountSet interface [Fax Service],RemoveAccount method, IFaxAccountSet.RemoveAccount, IFaxAccountSet::RemoveAccount, RemoveAccount, RemoveAccount method [Fax Service], RemoveAccount method [Fax Service],IFaxAccountSet interface, _mfax_faxaccountset.removeaccount, fax._mfax_faxaccountset_cpp_mfax_faxaccountset_removeaccount_cpp, fax._mfax_faxaccountset_removeaccount, faxcomex/IFaxAccountSet::RemoveAccount
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxAccountSet.RemoveAccount
 dev_langs:

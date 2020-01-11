@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 24bf4ca7-db0e-4ce5-bffd-48d94130c424
 ms.date: 12/05/2018
 ms.keywords: MI_SessionFT, MI_SessionFT structure [Windows Management Infrastructure (MI)], mi/MI_SessionFT, wmi_v2.mi_sessionft
-ms.topic: struct
 f1_keywords:
 - mi/MI_SessionFT
 dev_langs:

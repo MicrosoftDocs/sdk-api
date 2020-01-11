@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_1cth.htm
 ms.date: 12/05/2018
 ms.keywords: BindIFilterFromStorage, BindIFilterFromStorage function [Indexing Service], _idxs_BindIFilterFromStorage, indexsrv.bindifilterfromstorage, ntquery/BindIFilterFromStorage
-ms.topic: function
 f1_keywords:
 - ntquery/BindIFilterFromStorage
 dev_langs:

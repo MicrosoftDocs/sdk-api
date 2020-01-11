@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 0EBA4FDB-A9EA-4FCF-BF40-3D73ED356CD4
 ms.date: 12/05/2018
 ms.keywords: ID2D1EffectImpl interface [Direct2D],PrepareForRender method, ID2D1EffectImpl.PrepareForRender, ID2D1EffectImpl::PrepareForRender, PrepareForRender, PrepareForRender method [Direct2D], PrepareForRender method [Direct2D],ID2D1EffectImpl interface, d2d1effectauthor/ID2D1EffectImpl::PrepareForRender, direct2d.id2d1effectimpl_prepareforrender
-ms.topic: method
 f1_keywords:
 - d2d1effectauthor/ID2D1EffectImpl.PrepareForRender
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtgetbandeddata.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtGetBandedData method, IWiaDataTransfer.idtGetBandedData, IWiaDataTransfer::idtGetBandedData, _wia_IWiaDataTransfer_idtGetBandedData, idtGetBandedData, idtGetBandedData method [WIA], idtGetBandedData method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtGetBandedData, wia_xp/IWiaDataTransfer::idtGetBandedData
-ms.topic: method
 f1_keywords:
 - wia_xp/IWiaDataTransfer.idtGetBandedData
 dev_langs:

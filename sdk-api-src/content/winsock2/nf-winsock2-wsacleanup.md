@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 72b7cc3e-be34-41e7-acbf-61742149ec8b
 ms.date: 12/05/2018
 ms.keywords: WSACleanup, WSACleanup function [Winsock], _win32_wsacleanup_2, winsock.wsacleanup_2, winsock/WSACleanup
-ms.topic: function
 f1_keywords:
 - winsock2/WSACleanup
 dev_langs:

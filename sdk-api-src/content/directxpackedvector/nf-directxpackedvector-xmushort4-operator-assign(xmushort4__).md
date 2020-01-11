@@ -5,7 +5,6 @@ description: Assigns the vector component data from one instance of XMUSHORT4 to
 ms.assetid: acc868e1-ad25-4ea9-b126-d5c50be8b888
 ms.date: 05/20/2019
 ms.keywords: XMUSHORT4::operator=
-ms.topic: language-reference
 f1_keywords:
 - directxpackedvector/XMUSHORT4::operator=
 dev_langs:

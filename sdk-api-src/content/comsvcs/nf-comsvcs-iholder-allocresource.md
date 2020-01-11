@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 2b6c5d54-4917-460f-9740-abe4b578761f
 ms.date: 12/05/2018
 ms.keywords: AllocResource, AllocResource method [COM+], AllocResource method [COM+],IHolder interface, IHolder interface [COM+],AllocResource method, IHolder.AllocResource, IHolder::AllocResource, _dtc_IHolder_AllocResource, comsvcs/IHolder::AllocResource, cos.iholder_allocresource
-ms.topic: method
 f1_keywords:
 - comsvcs/IHolder.AllocResource
 dev_langs:

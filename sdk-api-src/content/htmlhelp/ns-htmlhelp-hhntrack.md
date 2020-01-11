@@ -7,7 +7,6 @@ tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhntrack.htm
 ms.date: 12/05/2018
 ms.keywords: HHNTRACK, HHNTRACK structure [HTML Help Workshop], htmlhelp.hhntrack_structure, htmlhelp/HHNTRACK, vsconStrhhntrack
-ms.topic: struct
 f1_keywords:
 - htmlhelp/HHNTRACK
 dev_langs:

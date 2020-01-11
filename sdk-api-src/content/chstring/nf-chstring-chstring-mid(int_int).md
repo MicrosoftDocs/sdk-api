@@ -5,7 +5,6 @@ description:
 ms.assetid: f79f7b70-0587-4d5d-8a18-c61bd3c69212
 ms.date: 01/30/19
 ms.keywords: CHString::Mid
-ms.topic: language-reference
 f1_keywords:
 - chstring/CHString::Mid
 dev_langs:

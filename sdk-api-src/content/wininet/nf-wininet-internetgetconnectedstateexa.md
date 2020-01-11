@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 0b27b86d-6e55-4022-84ce-d4116d71f124
 ms.date: 12/05/2018
 ms.keywords: INTERNET_CONNECTION_CONFIGURED, INTERNET_CONNECTION_LAN, INTERNET_CONNECTION_MODEM, INTERNET_CONNECTION_MODEM_BUSY, INTERNET_CONNECTION_OFFLINE, INTERNET_CONNECTION_PROXY, InternetGetConnectedStateEx, InternetGetConnectedStateEx function [WinINet], InternetGetConnectedStateExA, InternetGetConnectedStateExW, _inet_internetgetconnectedstateex_function, wininet.internetgetconnectedstateex, winineti/InternetGetConnectedStateEx, winineti/InternetGetConnectedStateExA, winineti/InternetGetConnectedStateExW
-ms.topic: function
 f1_keywords:
 - wininet/InternetGetConnectedStateEx
 dev_langs:

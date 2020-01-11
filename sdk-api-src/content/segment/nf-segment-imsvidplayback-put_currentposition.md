@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 3e9e0128-5609-4a9f-bbfc-a29a2174c5d0
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],put_CurrentPosition method, IMSVidPlayback.put_CurrentPosition, IMSVidPlayback::put_CurrentPosition, IMSVidPlaybackput_CurrentPosition, mstv.imsvidplayback_put_currentposition, put_CurrentPosition, put_CurrentPosition method [Microsoft TV Technologies], put_CurrentPosition method [Microsoft TV Technologies],IMSVidPlayback interface, segment/IMSVidPlayback::put_CurrentPosition
-ms.topic: method
 f1_keywords:
 - segment/IMSVidPlayback.put_CurrentPosition
 dev_langs:

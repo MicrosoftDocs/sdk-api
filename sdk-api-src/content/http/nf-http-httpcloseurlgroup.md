@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 8b8e4ec9-3d85-4d64-98dc-86e5fd093e93
 ms.date: 12/05/2018
 ms.keywords: HttpCloseUrlGroup, HttpCloseUrlGroup function [HTTP], http.httpcloseurlgroup, http/HttpCloseUrlGroup
-ms.topic: function
 f1_keywords:
 - http/HttpCloseUrlGroup
 dev_langs:

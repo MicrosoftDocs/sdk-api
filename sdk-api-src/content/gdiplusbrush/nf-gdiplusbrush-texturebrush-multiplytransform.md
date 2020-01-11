@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\multiplytransform_37matrix_order.htm
 ms.date: 12/05/2018
 ms.keywords: MultiplyTransform, MultiplyTransform method [GDI+], MultiplyTransform method [GDI+],TextureBrush class, TextureBrush class [GDI+],MultiplyTransform method, TextureBrush.MultiplyTransform, TextureBrush::MultiplyTransform, _gdiplus_CLASS_TextureBrush_MultiplyTransform_matrix_order_, gdiplus._gdiplus_CLASS_TextureBrush_MultiplyTransform_matrix_order_
-ms.topic: method
 f1_keywords:
 - gdiplusbrush/TextureBrush.MultiplyTransform
 dev_langs:

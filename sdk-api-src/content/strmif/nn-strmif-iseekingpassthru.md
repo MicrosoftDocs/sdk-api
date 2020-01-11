@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a22f2723-b44e-4c7e-8508-db5c6af5b1d6
 ms.date: 12/05/2018
 ms.keywords: ISeekingPassThru, ISeekingPassThru interface [DirectShow], ISeekingPassThru interface [DirectShow],described, ISeekingPassThruInterface, dshow.iseekingpassthru, strmif/ISeekingPassThru
-ms.topic: interface
 f1_keywords:
 - strmif/ISeekingPassThru
 dev_langs:

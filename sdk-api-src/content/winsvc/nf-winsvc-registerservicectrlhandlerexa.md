@@ -7,7 +7,6 @@ tech.root: Services
 ms.assetid: 23eea346-9899-4214-88f4-9b7eb7ce1332
 ms.date: 12/05/2018
 ms.keywords: RegisterServiceCtrlHandlerEx, RegisterServiceCtrlHandlerEx function, RegisterServiceCtrlHandlerExA, RegisterServiceCtrlHandlerExW, _win32_registerservicectrlhandlerex, base.registerservicectrlhandlerex, winsvc/RegisterServiceCtrlHandlerEx, winsvc/RegisterServiceCtrlHandlerExA, winsvc/RegisterServiceCtrlHandlerExW
-ms.topic: function
 f1_keywords:
 - winsvc/RegisterServiceCtrlHandlerEx
 dev_langs:

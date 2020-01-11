@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTEN4.#ctor(uint32_t)
 ms.date: 12/05/2018
 ms.keywords: XMUBYTEN4, XMUBYTEN4 constructor [DirectX Math Support APIs], XMUBYTEN4 constructor [DirectX Math Support APIs],XMUBYTEN4 structure, XMUBYTEN4 structure [DirectX Math Support APIs],XMUBYTEN4 constructor, XMUBYTEN4.XMUBYTEN4, XMUBYTEN4.XMUBYTEN4(uint32_t), XMUBYTEN4::XMUBYTEN4, XMUBYTEN4::XMUBYTEN4(uint32_t), dxmath.xmubyten4_ctor_6
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMUBYTEN4.XMUBYTEN4
 dev_langs:

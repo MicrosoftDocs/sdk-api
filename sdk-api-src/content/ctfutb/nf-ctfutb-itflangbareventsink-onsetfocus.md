@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 66d70ff3-dcd4-42cd-bda4-7dbdf1c99da5
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarEventSink interface [Text Services Framework],OnSetFocus method, ITfLangBarEventSink.OnSetFocus, ITfLangBarEventSink::OnSetFocus, OnSetFocus, OnSetFocus method [Text Services Framework], OnSetFocus method [Text Services Framework],ITfLangBarEventSink interface, _tsf_itflangbareventsink_onsetfocus_ref, ctfutb/ITfLangBarEventSink::OnSetFocus, tsf.itflangbareventsink_onsetfocus
-ms.topic: method
 f1_keywords:
 - ctfutb/ITfLangBarEventSink.OnSetFocus
 dev_langs:

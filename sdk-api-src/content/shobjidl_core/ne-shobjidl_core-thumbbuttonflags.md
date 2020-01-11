@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 601a2517-cfce-4edb-b2ca-e2ed8a365a0d
 ms.date: 12/05/2018
 ms.keywords: THBF_DISABLED, THBF_DISMISSONCLICK, THBF_ENABLED, THBF_HIDDEN, THBF_NOBACKGROUND, THBF_NONINTERACTIVE, THUMBBUTTONFLAGS, THUMBBUTTONFLAGS enumeration [Windows Shell], _shell_THUMBBUTTONFLAGS, shell.THUMBBUTTONFLAGS, shobjidl_core/THBF_DISABLED, shobjidl_core/THBF_DISMISSONCLICK, shobjidl_core/THBF_ENABLED, shobjidl_core/THBF_HIDDEN, shobjidl_core/THBF_NOBACKGROUND, shobjidl_core/THBF_NONINTERACTIVE, shobjidl_core/THUMBBUTTONFLAGS
-ms.topic: enum
 f1_keywords:
 - shobjidl_core/THUMBBUTTONFLAGS
 dev_langs:

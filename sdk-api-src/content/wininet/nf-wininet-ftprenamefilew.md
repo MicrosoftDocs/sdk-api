@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 2c46d8bb-aceb-4dd2-be4f-2c418357d4ae
 ms.date: 12/05/2018
 ms.keywords: FtpRenameFile, FtpRenameFile function [WinINet], FtpRenameFileA, FtpRenameFileW, _inet_ftprenamefile_function, wininet.ftprenamefile, wininet/FtpRenameFile, wininet/FtpRenameFileA, wininet/FtpRenameFileW
-ms.topic: function
 f1_keywords:
 - wininet/FtpRenameFile
 dev_langs:

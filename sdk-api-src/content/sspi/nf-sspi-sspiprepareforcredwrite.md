@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 4db92042-38f2-42c2-9c94-b24e0eaafdf9
 ms.date: 12/05/2018
 ms.keywords: SspiPrepareForCredWrite, SspiPrepareForCredWrite function [Security], security.sspiprepareforcredwrite, sspi/SspiPrepareForCredWrite
-ms.topic: function
 f1_keywords:
 - sspi/SspiPrepareForCredWrite
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 7251c600-90a2-4903-b26a-643b4d10b0ce
 ms.date: 12/05/2018
 ms.keywords: IWMAddressAccess, IWMAddressAccess interface [windows Media Format], IWMAddressAccess interface [windows Media Format],described, IWMAddressAccessInterface, wmformat.iwmaddressaccess, wmsdkidl/IWMAddressAccess
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMAddressAccess
 dev_langs:

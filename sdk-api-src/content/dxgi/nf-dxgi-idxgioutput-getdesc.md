@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_getdesc.htm
 ms.date: 12/05/2018
 ms.keywords: 895d1ca4-22a2-332a-34a7-b0c55200b423, GetDesc, GetDesc method [DXGI], GetDesc method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetDesc method, IDXGIOutput.GetDesc, IDXGIOutput::GetDesc, direct3ddxgi.idxgioutput_getdesc, dxgi/IDXGIOutput::GetDesc
-ms.topic: method
 f1_keywords:
 - dxgi/IDXGIOutput.GetDesc
 dev_langs:

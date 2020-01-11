@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 468d20e3-a78b-47b3-9c56-ef355181eb63
 ms.date: 12/05/2018
 ms.keywords: PATHOBJ_bPolyLineTo, PATHOBJ_bPolyLineTo function [Display Devices], display.pathobj_bpolylineto, gdifncs_eaa54bcf-8b39-4661-a2cf-79198ffa1df6.xml, winddi/PATHOBJ_bPolyLineTo
-ms.topic: function
 f1_keywords:
 - winddi/PATHOBJ_bPolyLineTo
 dev_langs:

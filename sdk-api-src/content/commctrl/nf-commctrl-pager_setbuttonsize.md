@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setbuttonsize.htm
 ms.date: 12/05/2018
 ms.keywords: Pager_SetButtonSize, Pager_SetButtonSize macro [Windows Controls], _win32_Pager_SetButtonSize, _win32_Pager_SetButtonSize_cpp, commctrl/Pager_SetButtonSize, controls.Pager_SetButtonSize, controls._win32_Pager_SetButtonSize
-ms.topic: macro
 f1_keywords:
 - commctrl/Pager_SetButtonSize
 dev_langs:

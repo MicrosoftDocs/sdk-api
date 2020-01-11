@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: 7c51a1e4-1e07-4fb1-8db3-e48229f12aca
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_UDPTABLE_OWNER_PID, MIB_UDPTABLE_OWNER_PID, MIB_UDPTABLE_OWNER_PID structure [MIB], PMIB_UDPTABLE_OWNER_PID, PMIB_UDPTABLE_OWNER_PID structure pointer [MIB], iprtrmib/MIB_UDPTABLE_OWNER_PID, iprtrmib/PMIB_UDPTABLE_OWNER_PID, mib.mib_udptable_owner_pid, udpmib/MIB_UDPTABLE_OWNER_PID, udpmib/PMIB_UDPTABLE_OWNER_PID'
-ms.topic: struct
 f1_keywords:
 - udpmib/MIB_UDPTABLE_OWNER_PID
 dev_langs:

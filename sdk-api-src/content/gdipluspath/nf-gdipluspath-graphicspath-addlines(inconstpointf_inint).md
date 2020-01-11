@@ -5,7 +5,6 @@ description: The GraphicsPath::AddLines method adds a sequence of connected line
 ms.assetid: 8b530334-98d8-4f73-88d5-e585c4b8e8ea
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddLines
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/GraphicsPath::AddLines
 dev_langs:

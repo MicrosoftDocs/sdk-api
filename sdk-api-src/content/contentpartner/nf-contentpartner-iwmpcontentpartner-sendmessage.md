@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 9e3c3293-db5d-4963-a9ca-db955c80a959
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],SendMessage method, IWMPContentPartner.SendMessage, IWMPContentPartner::SendMessage, IWMPContentPartnerSendMessage, SendMessage, SendMessage method [Windows Media Player], SendMessage method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::SendMessage, wmp.iwmpcontentpartner_sendmessage
-ms.topic: method
 f1_keywords:
 - contentpartner/IWMPContentPartner.SendMessage
 dev_langs:

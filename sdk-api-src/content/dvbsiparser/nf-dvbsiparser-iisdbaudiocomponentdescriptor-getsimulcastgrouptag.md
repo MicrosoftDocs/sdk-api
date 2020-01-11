@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 125fa9c2-eba0-497b-82ca-cc3223e40b44
 ms.date: 12/05/2018
 ms.keywords: GetSimulcastGroupTag, GetSimulcastGroupTag method [Microsoft TV Technologies], GetSimulcastGroupTag method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetSimulcastGroupTag method, IIsdbAudioComponentDescriptor.GetSimulcastGroupTag, IIsdbAudioComponentDescriptor::GetSimulcastGroupTag, dvbsiparser/IIsdbAudioComponentDescriptor::GetSimulcastGroupTag, mstv.iisdbaudiocomponentdescriptor_getsimulcastgrouptag
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbAudioComponentDescriptor.GetSimulcastGroupTag
 dev_langs:

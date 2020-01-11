@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: c2ad4462-4e8a-4f1f-8e44-b1494ca37399
 ms.date: 12/05/2018
 ms.keywords: ICoCreatedLocally interface [Windows Accessibility],LocalInit method, ICoCreatedLocally.LocalInit, ICoCreatedLocally::LocalInit, LocalInit, LocalInit method [Windows Accessibility], LocalInit method [Windows Accessibility],ICoCreatedLocally interface, _msaa_ICoCreatedLocally_LocalInit, msaa.icocreatedlocally_icocreatedlocally__localinit, msaatext/ICoCreatedLocally::LocalInit, winauto.icocreatedlocally_icocreatedlocally__localinit
-ms.topic: method
 f1_keywords:
 - msaatext/ICoCreatedLocally.LocalInit
 dev_langs:

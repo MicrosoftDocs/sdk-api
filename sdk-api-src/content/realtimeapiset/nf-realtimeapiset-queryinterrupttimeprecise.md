@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 0F65A707-0899-4F79-B7CD-16C9143C4173
 ms.date: 12/05/2018
 ms.keywords: QueryInterruptTimePrecise, QueryInterruptTimePrecise function, base.queryinterrupttimeprecise, realtimeapiset/QueryInterruptTimePrecise
-ms.topic: function
 f1_keywords:
 - realtimeapiset/QueryInterruptTimePrecise
 dev_langs:

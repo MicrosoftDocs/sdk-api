@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 53f19eee-98da-4b90-99cd-b0bed4ec6d6f
 ms.date: 12/05/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_InternalPort method, INetSharingPortMappingProps.get_InternalPort, INetSharingPortMappingProps::get_InternalPort, _ics_inetsharingportmappingprops_get_port, get_InternalPort, get_InternalPort method [ICS/ICF], get_InternalPort method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_internalport, ics.inetsharingportmappingprops_get_port, netcon/INetSharingPortMappingProps::get_InternalPort
-ms.topic: method
 f1_keywords:
 - netcon/INetSharingPortMappingProps.get_InternalPort
 dev_langs:

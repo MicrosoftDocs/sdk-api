@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: debb3c57-b5d2-440b-acf2-b6d8e712849b
 ms.date: 12/05/2018
 ms.keywords: PeerEnumGroups, PeerEnumGroups function [Peer Networking], p2p.peerenumgroups, p2p/PeerEnumGroups
-ms.topic: function
 f1_keywords:
 - p2p/PeerEnumGroups
 dev_langs:

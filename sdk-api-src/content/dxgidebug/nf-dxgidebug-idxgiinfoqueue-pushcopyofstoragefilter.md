@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 1CD32898-90B1-4523-8C97-985CA9F7D92B
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushCopyOfStorageFilter method, IDXGIInfoQueue.PushCopyOfStorageFilter, IDXGIInfoQueue::PushCopyOfStorageFilter, PushCopyOfStorageFilter, PushCopyOfStorageFilter method [DXGI], PushCopyOfStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushcopyofstoragefilter, dxgidebug/IDXGIInfoQueue::PushCopyOfStorageFilter
-ms.topic: method
 f1_keywords:
 - dxgidebug/IDXGIInfoQueue.PushCopyOfStorageFilter
 dev_langs:

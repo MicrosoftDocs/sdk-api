@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenuiteminfo.htm
 ms.date: 12/05/2018
 ms.keywords: SetMenuItemInfo, SetMenuItemInfo function [Menus and Other Resources], SetMenuItemInfoA, SetMenuItemInfoW, _win32_SetMenuItemInfo, _win32_setmenuiteminfo_cpp, menurc.setmenuiteminfo, winui._win32_setmenuiteminfo, winuser/SetMenuItemInfo, winuser/SetMenuItemInfoA, winuser/SetMenuItemInfoW
-ms.topic: function
 f1_keywords:
 - winuser/SetMenuItemInfo
 dev_langs:

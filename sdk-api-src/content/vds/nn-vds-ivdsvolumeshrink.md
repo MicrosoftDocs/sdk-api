@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 08c354a6-5cc0-405c-91cf-dca55b87b49a
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeShrink, IVdsVolumeShrink interface, IVdsVolumeShrink interface,described, base.ivdsvolumeshrink, vds/IVdsVolumeShrink
-ms.topic: interface
 f1_keywords:
 - vds/IVdsVolumeShrink
 dev_langs:

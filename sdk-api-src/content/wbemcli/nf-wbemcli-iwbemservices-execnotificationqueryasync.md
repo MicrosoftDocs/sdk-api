@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: f26eb44a-e0c4-418b-b849-d38d85ef236a
 ms.date: 12/05/2018
 ms.keywords: ExecNotificationQueryAsync, ExecNotificationQueryAsync method [Windows Management Instrumentation], ExecNotificationQueryAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecNotificationQueryAsync method, IWbemServices.ExecNotificationQueryAsync, IWbemServices::ExecNotificationQueryAsync, WBEM_FLAG_SEND_STATUS, _hmm_iwbemservices_execnotificationqueryasync, wbemcli/IWbemServices::ExecNotificationQueryAsync, wmi.iwbemservices_execnotificationqueryasync
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemServices.ExecNotificationQueryAsync
 dev_langs:

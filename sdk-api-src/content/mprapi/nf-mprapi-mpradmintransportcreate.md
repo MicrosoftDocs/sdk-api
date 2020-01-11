@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 14639cec-9c9a-48f5-b7cc-0aaca7ececbc
 ms.date: 12/05/2018
 ms.keywords: MprAdminTransportCreate, MprAdminTransportCreate function [RAS], _mpr_mpradmintransportcreate, mprapi/MprAdminTransportCreate, rras.mpradmintransportcreate
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminTransportCreate
 dev_langs:

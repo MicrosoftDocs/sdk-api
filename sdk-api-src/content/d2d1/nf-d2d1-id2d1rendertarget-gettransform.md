@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 9ed0eded-ffbe-44f1-8fb0-b57f0cab7b70
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [Direct2D], GetTransform method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],GetTransform method, ID2D1RenderTarget.GetTransform, ID2D1RenderTarget::GetTransform, d2d1/ID2D1RenderTarget::GetTransform, direct2d.ID2D1RenderTarget_GetTransform
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1RenderTarget.GetTransform
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: fa24c473-efc7-408f-86e8-905161de10f0
 ms.date: 12/05/2018
 ms.keywords: GetRegularExpression, GetRegularExpression method [Text Services Framework], GetRegularExpression method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetRegularExpression method, ITfInputScope.GetRegularExpression, ITfInputScope::GetRegularExpression, inputscope/ITfInputScope::GetRegularExpression, tsf.itfinputscope_getregularexpression
-ms.topic: method
 f1_keywords:
 - inputscope/ITfInputScope.GetRegularExpression
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 2F2DDFC5-8D31-4BCE-B378-610C95D7805F
 ms.date: 12/05/2018
 ms.keywords: GetCompletedValue, GetCompletedValue method, GetCompletedValue method,ID3D12Fence interface, ID3D12Fence interface,GetCompletedValue method, ID3D12Fence.GetCompletedValue, ID3D12Fence::GetCompletedValue, d3d12/ID3D12Fence::GetCompletedValue, direct3d12.id3d12fence_getcompletedvalue
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Fence.GetCompletedValue
 dev_langs:

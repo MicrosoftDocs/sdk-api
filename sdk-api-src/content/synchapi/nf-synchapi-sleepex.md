@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: a73cff94-ad63-4110-9f01-6469481c3d55
 ms.date: 12/05/2018
 ms.keywords: SleepEx, SleepEx function, _win32_sleepex, base.sleepex, synchapi/SleepEx, winbase/SleepEx
-ms.topic: function
 f1_keywords:
 - synchapi/SleepEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 5c4f7f6a-331e-4c5d-9663-6a84245a203f
 ms.date: 12/05/2018
 ms.keywords: EngDeleteDriverObj, EngDeleteDriverObj function [Display Devices], display.engdeletedriverobj, gdifncs_6aada185-b1c4-4b55-9bc0-cc89d0bc67d4.xml, winddi/EngDeleteDriverObj
-ms.topic: function
 f1_keywords:
 - winddi/EngDeleteDriverObj
 dev_langs:

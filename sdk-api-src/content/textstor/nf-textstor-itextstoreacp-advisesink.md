@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: aadf54e4-25ba-4280-a184-e1d2a2594c3c
 ms.date: 12/05/2018
 ms.keywords: AdviseSink, AdviseSink method [Text Services Framework], AdviseSink method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],AdviseSink method, ITextStoreACP.AdviseSink, ITextStoreACP::AdviseSink, _tsf_itextstoreacp_advisesink_ref, textstor/ITextStoreACP::AdviseSink, tsf.itextstoreacp_advisesink
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreACP.AdviseSink
 dev_langs:

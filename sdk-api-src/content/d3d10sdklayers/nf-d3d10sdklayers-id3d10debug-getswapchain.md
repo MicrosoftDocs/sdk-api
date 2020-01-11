@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug_getswapchain.htm
 ms.date: 12/05/2018
 ms.keywords: 0701d3b1-1d64-2987-0b96-e4018a8313df, GetSwapChain, GetSwapChain method [Direct3D 10], GetSwapChain method [Direct3D 10],ID3D10Debug interface, ID3D10Debug interface [Direct3D 10],GetSwapChain method, ID3D10Debug.GetSwapChain, ID3D10Debug::GetSwapChain, d3d10sdklayers/ID3D10Debug::GetSwapChain, direct3d10.id3d10debug_getswapchain
-ms.topic: method
 f1_keywords:
 - d3d10sdklayers/ID3D10Debug.GetSwapChain
 dev_langs:

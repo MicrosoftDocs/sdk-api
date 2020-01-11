@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: c744fb64-2e94-484c-9045-46a8357b0007
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetRequestedSigner method, IXpsSignatureRequest.SetRequestedSigner, IXpsSignatureRequest::SetRequestedSigner, SetRequestedSigner, SetRequestedSigner method [XPS Documents and Packaging], SetRequestedSigner method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setrequestedsigner, xpsdigitalsignature/IXpsSignatureRequest::SetRequestedSigner
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureRequest.SetRequestedSigner
 dev_langs:

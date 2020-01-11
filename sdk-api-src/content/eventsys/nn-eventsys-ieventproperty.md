@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: e1ed7249-7fe3-4f90-b3e1-b79597773d85
 ms.date: 12/05/2018
 ms.keywords: IEventProperty, IEventProperty interface [COM], IEventProperty interface [COM],described, _com_ieventproperty, com.ieventproperty, eventsys/IEventProperty
-ms.topic: interface
 f1_keywords:
 - eventsys/IEventProperty
 dev_langs:

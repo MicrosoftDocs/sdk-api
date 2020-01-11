@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 74021f92-54ff-4c02-a8cf-49bcd7b9171e
 ms.date: 12/05/2018
 ms.keywords: IFileSaveDialog, IFileSaveDialog interface [Windows Shell], IFileSaveDialog interface [Windows Shell],described, shell.IFileSaveDialog, shell_IFileSaveDialog, shobjidl_core/IFileSaveDialog
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IFileSaveDialog
 dev_langs:

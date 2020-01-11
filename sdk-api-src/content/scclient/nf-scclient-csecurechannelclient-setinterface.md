@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: b1af8f10-7bad-4f85-89f1-b983af6d4dc9
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],SetInterface method, CSecureChannelClient.SetInterface, CSecureChannelClient::SetInterface, CSecureChannelClientSetInterface, SetInterface, SetInterface method [windows Media Device Manager], SetInterface method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::SetInterface, wmdm.csecurechannelclient_setinterface
-ms.topic: method
 f1_keywords:
 - scclient/CSecureChannelClient.SetInterface
 dev_langs:

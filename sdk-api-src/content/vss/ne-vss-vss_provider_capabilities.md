@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 933d7567-d3d3-49cd-970b-f1355702f290
 ms.date: 12/05/2018
 ms.keywords: '*PVSS_PROVIDER_CAPABILITIES, VSS_PROVIDER_CAPABILITIES, _VSS_PROVIDER_CAPABILITIES, _VSS_PROVIDER_CAPABILITIES enumeration, base._vss_provider_capabilities, vss/, vss/_VSS_PROVIDER_CAPABILITIES'
-ms.topic: enum
 f1_keywords:
 - vss/_VSS_PROVIDER_CAPABILITIES
 dev_langs:

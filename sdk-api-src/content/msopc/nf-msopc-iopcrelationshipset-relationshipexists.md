@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 18c989e2-8def-492d-ac57-014f9b6fcb22
 ms.date: 12/05/2018
 ms.keywords: IOpcRelationshipSet interface [Open Packaging Conventions],RelationshipExists method, IOpcRelationshipSet.RelationshipExists, IOpcRelationshipSet::RelationshipExists, RelationshipExists, RelationshipExists method [Open Packaging Conventions], RelationshipExists method [Open Packaging Conventions],IOpcRelationshipSet interface, msopc/IOpcRelationshipSet::RelationshipExists, opc.iopcrelationshipset_relationshipexists
-ms.topic: method
 f1_keywords:
 - msopc/IOpcRelationshipSet.RelationshipExists
 dev_langs:

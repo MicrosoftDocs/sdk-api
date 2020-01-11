@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_75sy.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxJob, IFaxJob interface [Fax Service], IFaxJob interface [Fax Service],described, _mfax_ifaxjob, fax._mfax_ifaxjob, faxcom/IFaxJob
-ms.topic: interface
 f1_keywords:
 - faxcom/IFaxJob
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: affb33ab-1b58-4d18-a908-8eaedb9ce1ca
 ms.date: 12/05/2018
 ms.keywords: MsiSequence, MsiSequence function, MsiSequenceA, MsiSequenceW, _msi_msisequence, msiquery/MsiSequence, msiquery/MsiSequenceA, msiquery/MsiSequenceW, setup.msisequence
-ms.topic: function
 f1_keywords:
 - msiquery/MsiSequence
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d5878cf1-c2c3-4f33-bc08-e4f868c8a5e7
 ms.date: 12/05/2018
 ms.keywords: CloseChannel, CloseChannel method [Windows GDI], CloseChannel method [Windows GDI],IPrintAsyncNotifyChannel interface, IPrintAsyncNotifyChannel interface [Windows GDI],CloseChannel method, IPrintAsyncNotifyChannel.CloseChannel, IPrintAsyncNotifyChannel::CloseChannel, _win32_IPrintAsyncNotifyChannel_CloseChannel, gdi.iprintasyncnotifychannel_iprintasyncnotifychannel__closechannel, prnasnot/IPrintAsyncNotifyChannel::CloseChannel
-ms.topic: method
 f1_keywords:
 - prnasnot/IPrintAsyncNotifyChannel.CloseChannel
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: proc_snap
 ms.assetid: C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0
 ms.date: 12/05/2018
 ms.keywords: PssWalkSnapshot, PssWalkSnapshot function, proc_snap.psswalksnapshot, processsnapshot/PssWalkSnapshot
-ms.topic: function
 f1_keywords:
 - processsnapshot/PssWalkSnapshot
 dev_langs:

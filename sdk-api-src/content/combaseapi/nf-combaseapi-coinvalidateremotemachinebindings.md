@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 6d0fa512-a9e9-44ff-929d-00b9c826da99
 ms.date: 12/05/2018
 ms.keywords: CoInvalidateRemoteMachineBindings, CoInvalidateRemoteMachineBindings function [COM], _com_CoInvalidateRemoteMachineBindings, com.coinvalidateremotemachinebindings, combaseapi/CoInvalidateRemoteMachineBindings
-ms.topic: function
 f1_keywords:
 - combaseapi/CoInvalidateRemoteMachineBindings
 dev_langs:

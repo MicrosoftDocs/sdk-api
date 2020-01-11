@@ -7,7 +7,6 @@ tech.root: parcon
 ms.assetid: 08217ad2-3b1e-4733-8ca2-4463ffe96516
 ms.date: 12/05/2018
 ms.keywords: GetVisibility, GetVisibility method, GetVisibility method,IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,GetVisibility method, IWindowsParentalControlsCore.GetVisibility, IWindowsParentalControlsCore::GetVisibility, WPCFLAG_WPC_HIDDEN, WPCFLAG_WPC_VISIBLE, parcon.iwindowsparentalcontrols_getvisibility, wpcapi/IWindowsParentalControlsCore::GetVisibility
-ms.topic: method
 f1_keywords:
 - wpcapi/IWindowsParentalControlsCore.GetVisibility
 dev_langs:

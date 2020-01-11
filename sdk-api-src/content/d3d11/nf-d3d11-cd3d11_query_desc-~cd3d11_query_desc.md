@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: C3D78C8D-F0A8-4354-BAE2-93F18B6EED6C
 ms.date: 12/05/2018
 ms.keywords: CD3D11_QUERY_DESC interface [Direct3D 11],~CD3D11_QUERY_DESC destructor, CD3D11_QUERY_DESC.~CD3D11_QUERY_DESC, CD3D11_QUERY_DESC::~CD3D11_QUERY_DESC, CD3D11_QUERY_DESC::~CD3D11_QUERY_DESC(), d3d11/CD3D11_QUERY_DESC::~CD3D11_QUERY_DESC, direct3d11.cd3d11_query_desc__cd3d11_query_desc__, ~CD3D11_QUERY_DESC, ~CD3D11_QUERY_DESC destructor [Direct3D 11], ~CD3D11_QUERY_DESC destructor [Direct3D 11],CD3D11_QUERY_DESC interface
-ms.topic: method
 f1_keywords:
 - d3d11/CD3D11_QUERY_DESC.~CD3D11_QUERY_DESC
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 061f42db-e9df-4d8c-981f-68d440dfc4c2
 ms.date: 12/05/2018
 ms.keywords: IDWriteTypography, IDWriteTypography interface [Direct Write], IDWriteTypography interface [Direct Write],described, directwrite.IDWriteTypography, dwrite/IDWriteTypography
-ms.topic: interface
 f1_keywords:
 - dwrite/IDWriteTypography
 dev_langs:

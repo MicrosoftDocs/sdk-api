@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 3725a282-2df8-4a0a-a1bf-a73c2b259cbf
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx2 interface,SetAuthoritativeRestore method, IVssBackupComponentsEx2.SetAuthoritativeRestore, IVssBackupComponentsEx2::SetAuthoritativeRestore, SetAuthoritativeRestore, SetAuthoritativeRestore method, SetAuthoritativeRestore method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_setauthoritativerestore, vsbackup/IVssBackupComponentsEx2::SetAuthoritativeRestore
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponentsEx2.SetAuthoritativeRestore
 dev_langs:

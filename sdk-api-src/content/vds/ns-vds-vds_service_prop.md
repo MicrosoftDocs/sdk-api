@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 9029ebbd-f05d-4317-913d-58c8a0a62886
 ms.date: 12/05/2018
 ms.keywords: VDS_SERVICE_PROP, VDS_SERVICE_PROP structure [VDS], base.vds_service_prop, vds/_VDS_SERVICE_PROP
-ms.topic: struct
 f1_keywords:
 - vds/VDS_SERVICE_PROP
 dev_langs:

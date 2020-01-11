@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 3ce214a0-e7ff-440a-a308-fea5608e13f0
 ms.date: 12/05/2018
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],SetValue method, IRangeValueProvider.SetValue, IRangeValueProvider::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],IRangeValueProvider interface, uiauto.uiauto_IRangeValueProvider_SetValue, uiauto_IRangeValueProvider_SetValue, uiautomationcore/IRangeValueProvider::SetValue, winauto.uiauto_IRangeValueProvider_SetValue
-ms.topic: method
 f1_keywords:
 - uiautomationcore/IRangeValueProvider.SetValue
 dev_langs:

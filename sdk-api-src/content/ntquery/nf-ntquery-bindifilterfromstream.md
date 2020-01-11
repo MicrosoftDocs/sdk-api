@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0f8t.htm
 ms.date: 12/05/2018
 ms.keywords: BindIFilterFromStream, BindIFilterFromStream function [Indexing Service], _idxs_BindIFilterFromStream, indexsrv.bindifilterfromstream, ntquery/BindIFilterFromStream
-ms.topic: function
 f1_keywords:
 - ntquery/BindIFilterFromStream
 dev_langs:

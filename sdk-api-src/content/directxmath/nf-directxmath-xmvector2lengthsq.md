@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2LengthSq(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2LengthSq, XMVector2LengthSq, XMVector2LengthSq method [DirectX Math Support APIs], dxmath.xmvector2lengthsq
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector2LengthSq
 dev_langs:

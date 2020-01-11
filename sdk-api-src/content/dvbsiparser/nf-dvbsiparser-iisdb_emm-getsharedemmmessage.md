@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: d3ad405c-cdf0-4a37-9495-3f126e6c0688
 ms.date: 12/05/2018
 ms.keywords: GetSharedEmmMessage, GetSharedEmmMessage method [Microsoft TV Technologies], GetSharedEmmMessage method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetSharedEmmMessage method, IISDB_EMM.GetSharedEmmMessage, IISDB_EMM::GetSharedEmmMessage, dvbsiparser/IISDB_EMM::GetSharedEmmMessage, mstv.iisdb_emm_getsharedemmmessage
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IISDB_EMM.GetSharedEmmMessage
 dev_langs:

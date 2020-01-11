@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontcanchange.htm
 ms.date: 12/05/2018
 ms.keywords: CanChange, CanChange method [Windows Controls], CanChange method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],CanChange method, ITextFont.CanChange, ITextFont::CanChange, _win32_ITextFont_CanChange, _win32_ITextFont_CanChange_cpp, controls.ITextFont_CanChange, controls._win32_ITextFont_CanChange, tom/ITextFont::CanChange
-ms.topic: method
 f1_keywords:
 - tom/ITextFont.CanChange
 dev_langs:

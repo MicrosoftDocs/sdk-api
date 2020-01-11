@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 29eb1e1f-b7ac-4b72-8fce-a4388d7edfcc
 ms.date: 12/05/2018
 ms.keywords: ILCombine, ILCombine function [Windows Shell], _win32_ILCombine, shell.ILCombine, shlobj_core/ILCombine
-ms.topic: function
 f1_keywords:
 - shlobj_core/ILCombine
 dev_langs:

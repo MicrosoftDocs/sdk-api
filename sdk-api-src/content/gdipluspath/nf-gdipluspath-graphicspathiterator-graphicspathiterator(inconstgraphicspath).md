@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiterator_66path.htm
 ms.date: 12/05/2018
 ms.keywords: GraphicsPathIterator, GraphicsPathIterator class [GDI+],GraphicsPathIterator constructor, GraphicsPathIterator constructor [GDI+], GraphicsPathIterator constructor [GDI+],GraphicsPathIterator class, GraphicsPathIterator.GraphicsPathIterator, GraphicsPathIterator.GraphicsPathIterator(IN const GraphicsPath), GraphicsPathIterator::GraphicsPathIterator, GraphicsPathIterator::GraphicsPathIterator(IN const GraphicsPath), _gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_
-ms.topic: method
 f1_keywords:
 - gdipluspath/GraphicsPathIterator.GraphicsPathIterator
 dev_langs:

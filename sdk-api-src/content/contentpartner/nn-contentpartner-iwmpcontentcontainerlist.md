@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: a8fd239b-2a53-4db4-8a82-a7c510d215bc
 ms.date: 12/05/2018
 ms.keywords: IWMPContentContainerList, IWMPContentContainerList interface [Windows Media Player], IWMPContentContainerList interface [Windows Media Player],described, IWMPContentContainerListInterface, contentpartner/IWMPContentContainerList, wmp.iwmpcontentcontainerlist
-ms.topic: interface
 f1_keywords:
 - contentpartner/IWMPContentContainerList
 dev_langs:

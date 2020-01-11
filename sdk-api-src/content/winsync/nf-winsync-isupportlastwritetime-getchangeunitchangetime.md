@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: f289d5a5-c991-4223-b59a-68b31ecffb8c
 ms.date: 12/05/2018
 ms.keywords: GetChangeUnitChangeTime, GetChangeUnitChangeTime method [Windows Sync], GetChangeUnitChangeTime method [Windows Sync],ISupportLastWriteTime interface, ISupportLastWriteTime interface [Windows Sync],GetChangeUnitChangeTime method, ISupportLastWriteTime.GetChangeUnitChangeTime, ISupportLastWriteTime::GetChangeUnitChangeTime, winsync.isupportlastwritetime_getchangeunitchangetime, winsync/ISupportLastWriteTime::GetChangeUnitChangeTime
-ms.topic: method
 f1_keywords:
 - winsync/ISupportLastWriteTime.GetChangeUnitChangeTime
 dev_langs:

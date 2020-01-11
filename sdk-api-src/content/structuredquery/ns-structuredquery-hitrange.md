@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\structures\hitrange.htm
 ms.date: 12/05/2018
 ms.keywords: HITRANGE, HITRANGE structure [search], _search_HITRANGE, search._search_HITRANGE, structuredquery/HITRANGE
-ms.topic: struct
 f1_keywords:
 - structuredquery/HITRANGE
 dev_langs:

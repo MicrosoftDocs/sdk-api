@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6708fc46-19cb-4843-9c9d-99ff67ee6d08
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [DirectShow], Advise method [DirectShow],IMixerOCX interface, IMixerOCX interface [DirectShow],Advise method, IMixerOCX.Advise, IMixerOCX::Advise, IMixerOCXAdvise, dshow.imixerocx_advise, mixerocx/IMixerOCX::Advise
-ms.topic: method
 f1_keywords:
 - mixerocx/IMixerOCX.Advise
 dev_langs:

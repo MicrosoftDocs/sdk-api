@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 0f13f00e-6ca2-4436-822e-01eff638c446
 ms.date: 12/05/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],SetFileProperty method, IFsrmClassificationManager interface [File Server Resource Manager],SetFileProperty method, IFsrmClassificationManager.SetFileProperty, IFsrmClassificationManager2 interface [File Server Resource Manager],SetFileProperty method, IFsrmClassificationManager2::SetFileProperty, IFsrmClassificationManager::SetFileProperty, SetFileProperty, SetFileProperty method [File Server Resource Manager], SetFileProperty method [File Server Resource Manager],FsrmClassificationManager class, SetFileProperty method [File Server Resource Manager],IFsrmClassificationManager interface, SetFileProperty method [File Server Resource Manager],IFsrmClassificationManager2 interface, fs.ifsrmclassificationmanager_setfileproperty, fsrm.ifsrmclassificationmanager_setfileproperty, fsrmpipeline/IFsrmClassificationManager2::SetFileProperty, fsrmpipeline/IFsrmClassificationManager::SetFileProperty
-ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmClassificationManager.SetFileProperty
 dev_langs:

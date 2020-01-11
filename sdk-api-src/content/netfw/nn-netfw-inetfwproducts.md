@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 66608887-02df-4caf-91d0-e5091849ff32
 ms.date: 12/05/2018
 ms.keywords: INetFwProducts, INetFwProducts interface [ICS/ICF], INetFwProducts interface [ICS/ICF],described, ics.inetfwproducts, netfw/INetFwProducts
-ms.topic: interface
 f1_keywords:
 - netfw/INetFwProducts
 dev_langs:

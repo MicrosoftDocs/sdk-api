@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 4ca8f7b9-e78e-4324-9e72-84267746fe53
 ms.date: 12/05/2018
 ms.keywords: WakeByAddressSingle, WakeByAddressSingle function, base.wakebyaddresssingle, synchapi/WakeByAddressSingle
-ms.topic: function
 f1_keywords:
 - synchapi/WakeByAddressSingle
 dev_langs:

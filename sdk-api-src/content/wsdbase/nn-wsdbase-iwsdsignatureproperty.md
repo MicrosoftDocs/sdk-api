@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 10e95100-4890-4c00-b231-bb7125fed197
 ms.date: 12/05/2018
 ms.keywords: IWSDSignatureProperty, IWSDSignatureProperty interface, IWSDSignatureProperty interface,described, ncd.iwsdsignatureproperty, wsdbase/IWSDSignatureProperty
-ms.topic: interface
 f1_keywords:
 - wsdbase/IWSDSignatureProperty
 dev_langs:

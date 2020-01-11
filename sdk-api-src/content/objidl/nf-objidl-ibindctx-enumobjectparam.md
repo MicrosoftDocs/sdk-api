@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 9e799ce4-e9b3-4b31-98a0-2167a0c19848
 ms.date: 12/05/2018
 ms.keywords: EnumObjectParam, EnumObjectParam method [COM], EnumObjectParam method [COM],IBindCtx interface, IBindCtx interface [COM],EnumObjectParam method, IBindCtx.EnumObjectParam, IBindCtx::EnumObjectParam, _com_ibindctx_enumobjectparam, com.ibindctx_enumobjectparam, objidl/IBindCtx::EnumObjectParam
-ms.topic: method
 f1_keywords:
 - objidl/IBindCtx.EnumObjectParam
 dev_langs:

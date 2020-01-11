@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2b706b8a-9c67-4f76-8ebe-af412fcd14cd
 ms.date: 12/05/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],RemoveAllControlItems method, IFileDialogCustomize.RemoveAllControlItems, IFileDialogCustomize::RemoveAllControlItems, RemoveAllControlItems, RemoveAllControlItems method [Windows Shell], RemoveAllControlItems method [Windows Shell],IFileDialogCustomize interface, _shell_IFileDialogCustomize_RemoveAllControlItems, shell.IFileDialogCustomize_RemoveAllControlItems, shobjidl_core/IFileDialogCustomize::RemoveAllControlItems
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileDialogCustomize.RemoveAllControlItems
 dev_langs:

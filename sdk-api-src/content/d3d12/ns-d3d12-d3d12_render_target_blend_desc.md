@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 911158CF-5F4F-4211-8CC6-F73BDB697BC5
 ms.date: 12/05/2018
 ms.keywords: D3D12_RENDER_TARGET_BLEND_DESC, D3D12_RENDER_TARGET_BLEND_DESC structure, d3d12/D3D12_RENDER_TARGET_BLEND_DESC, direct3d12.d3d12_render_target_blend_desc
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_RENDER_TARGET_BLEND_DESC
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 8059ff30-6301-4cf6-9620-2ba765303bb4
 ms.date: 12/05/2018
 ms.keywords: DeleteSharedMemory, DeleteSharedMemory callback function [Security], LSA_DELETE_SHARED_MEMORY, LSA_DELETE_SHARED_MEMORY callback, _ssp_deletesharedmemory, ntsecpkg/DeleteSharedMemory, security.deletesharedmemory
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/DeleteSharedMemory
 dev_langs:

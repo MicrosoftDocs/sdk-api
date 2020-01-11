@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 3fa1d193-03d0-44d8-a32b-b7754594d0ca
 ms.date: 12/05/2018
 ms.keywords: PdhCollectQueryDataEx, PdhCollectQueryDataEx function [Perf], _win32_pdhcollectquerydataex, base.pdhcollectquerydataex, pdh/PdhCollectQueryDataEx, perf.pdhcollectquerydataex
-ms.topic: function
 f1_keywords:
 - pdh/PdhCollectQueryDataEx
 dev_langs:

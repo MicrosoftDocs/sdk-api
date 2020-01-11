@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: fdd6ff92-d312-4789-b535-4859fa7c871c
 ms.date: 12/05/2018
 ms.keywords: ISimilarityFileIdTable interface [Remote Differential Compression],Invalidate method, ISimilarityFileIdTable.Invalidate, ISimilarityFileIdTable::Invalidate, Invalidate, Invalidate method [Remote Differential Compression], Invalidate method [Remote Differential Compression],ISimilarityFileIdTable interface, fs.isimilarityfileidtable_invalidate, msrdc/ISimilarityFileIdTable::Invalidate, rdc.isimilarityfileidtable_invalidate
-ms.topic: method
 f1_keywords:
 - msrdc/ISimilarityFileIdTable.Invalidate
 dev_langs:

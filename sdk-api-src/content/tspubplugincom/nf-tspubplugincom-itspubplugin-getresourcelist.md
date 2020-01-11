@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: c8f255fe-6f31-4cbb-a600-a27e977a84a0
 ms.date: 12/05/2018
 ms.keywords: GetResourceList, GetResourceList method [Remote Desktop Services], GetResourceList method [Remote Desktop Services],ItsPubPlugin interface, ItsPubPlugin interface [Remote Desktop Services],GetResourceList method, ItsPubPlugin.GetResourceList, ItsPubPlugin::GetResourceList, termserv.itspubplugin_getresourcelist, tspubplugincom/ItsPubPlugin::GetResourceList
-ms.topic: method
 f1_keywords:
 - tspubplugincom/ItsPubPlugin.GetResourceList
 dev_langs:

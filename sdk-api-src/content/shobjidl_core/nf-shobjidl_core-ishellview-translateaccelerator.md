@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 425a281e-2d34-4bb3-92b9-05ae4cf70a9f
 ms.date: 12/05/2018
 ms.keywords: IShellView interface [Windows Shell],TranslateAccelerator method, IShellView.TranslateAccelerator, IShellView::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [Windows Shell], TranslateAccelerator method [Windows Shell],IShellView interface, _win32_IShellView_TranslateAccelerator, shell.IShellView_TranslateAccelerator, shobjidl_core/IShellView::TranslateAccelerator
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellView.TranslateAccelerator
 dev_langs:

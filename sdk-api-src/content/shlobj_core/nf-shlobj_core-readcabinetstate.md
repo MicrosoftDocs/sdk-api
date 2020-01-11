@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0f0c6a10-588f-4c79-b73b-cf0bf9336ffc
 ms.date: 12/05/2018
 ms.keywords: ReadCabinetState, ReadCabinetState function [Windows Shell], _win32_ReadCabinetState, shell.ReadCabinetState, shlobj_core/ReadCabinetState
-ms.topic: function
 f1_keywords:
 - shlobj_core/ReadCabinetState
 dev_langs:

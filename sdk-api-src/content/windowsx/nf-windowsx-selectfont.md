@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: e7c145aa-566d-4754-a4dd-a5e71e188258
 ms.date: 12/05/2018
 ms.keywords: SelectFont, SelectFont macro [Windows GDI], _win32_SelectFont, gdi.selectfont, windowsx/SelectFont
-ms.topic: macro
 f1_keywords:
 - windowsx/SelectFont
 dev_langs:

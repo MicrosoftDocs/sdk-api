@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: bfb786fc-eb03-4449-b631-fb85813c08c8
 ms.date: 12/05/2018
 ms.keywords: VDS_PATH_ID, VDS_PATH_ID structure [VDS], base.vds_path_id, vds/VDS_PATH_ID, vdshwprv/VDS_PATH_ID
-ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_PATH_ID
 dev_langs:

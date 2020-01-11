@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: a31b3a9a-110f-4cdf-89d9-19937a2e40b4
 ms.date: 12/05/2018
 ms.keywords: LineTo, LineTo function [Windows GDI], _win32_LineTo, gdi.lineto, wingdi/LineTo
-ms.topic: function
 f1_keywords:
 - wingdi/LineTo
 dev_langs:

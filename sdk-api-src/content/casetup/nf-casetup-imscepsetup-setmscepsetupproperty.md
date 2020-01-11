@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 868f3e5f-1345-414b-a75f-d2e68213469b
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup interface [Security],SetMSCEPSetupProperty method, IMSCEPSetup.SetMSCEPSetupProperty, IMSCEPSetup::SetMSCEPSetupProperty, SetMSCEPSetupProperty, SetMSCEPSetupProperty method [Security], SetMSCEPSetupProperty method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::SetMSCEPSetupProperty, security.imscepsetup_setmscepsetupproperty
-ms.topic: method
 f1_keywords:
 - casetup/IMSCEPSetup.SetMSCEPSetupProperty
 dev_langs:

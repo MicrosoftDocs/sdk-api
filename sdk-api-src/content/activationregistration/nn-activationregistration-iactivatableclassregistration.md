@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 99834A2D-547B-4B04-8703-46B11E0BB812
 ms.date: 12/05/2018
 ms.keywords: IActivatableClassRegistration, IActivatableClassRegistration interface [Windows Runtime], IActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IActivatableClassRegistration, winrt.iactivatableclassregistration
-ms.topic: interface
 f1_keywords:
 - activationregistration/IActivatableClassRegistration
 dev_langs:

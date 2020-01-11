@@ -7,7 +7,6 @@ tech.root: enstor
 ms.assetid: 8b52815e-e100-4c25-b7d3-8469d1dad745
 ms.date: 12/05/2018
 ms.keywords: IEnhancedStorageSilo interface [Enhanced Storage],SendCommand method, IEnhancedStorageSilo.SendCommand, IEnhancedStorageSilo::SendCommand, SendCommand, SendCommand method [Enhanced Storage], SendCommand method [Enhanced Storage],IEnhancedStorageSilo interface, ehstorapi/IEnhancedStorageSilo::SendCommand, enstor.ienhancedstoragesilo_sendcommand
-ms.topic: method
 f1_keywords:
 - ehstorapi/IEnhancedStorageSilo.SendCommand
 dev_langs:

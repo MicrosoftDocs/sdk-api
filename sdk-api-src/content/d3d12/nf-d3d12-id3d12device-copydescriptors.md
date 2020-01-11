@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: F995EF34-74FF-4FCA-A018-E2F48DF92450
 ms.date: 12/05/2018
 ms.keywords: CopyDescriptors, CopyDescriptors method, CopyDescriptors method,ID3D12Device interface, ID3D12Device interface,CopyDescriptors method, ID3D12Device.CopyDescriptors, ID3D12Device::CopyDescriptors, d3d12/ID3D12Device::CopyDescriptors, direct3d12.id3d12device_copydescriptors
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device.CopyDescriptors
 dev_langs:

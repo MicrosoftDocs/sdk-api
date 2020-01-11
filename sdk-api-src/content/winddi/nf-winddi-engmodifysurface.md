@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 176f51c0-0075-4afb-8b5c-5d0b6b64a3ad
 ms.date: 12/05/2018
 ms.keywords: EngModifySurface, EngModifySurface function [Display Devices], display.engmodifysurface, gdifncs_422719a8-bffd-4c92-bbb8-fbd53ee1ce09.xml, winddi/EngModifySurface
-ms.topic: function
 f1_keywords:
 - winddi/EngModifySurface
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 9dac095d-4657-47ea-a673-4d8a96fc29bb
 ms.date: 12/05/2018
 ms.keywords: GetClassInfo, GetClassInfo method [COM], GetClassInfo method [COM],IProvideClassInfo interface, IProvideClassInfo interface [COM],GetClassInfo method, IProvideClassInfo.GetClassInfo, IProvideClassInfo::GetClassInfo, _com_iprovideclassinfo_getclassinfo, com.iprovideclassinfo_getclassinfo, ocidl/IProvideClassInfo::GetClassInfo
-ms.topic: method
 f1_keywords:
 - ocidl/IProvideClassInfo.GetClassInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 71442967-ee8a-448c-83cf-949934ddd152
 ms.date: 12/05/2018
 ms.keywords: PSFormatForDisplay, PSFormatForDisplay function [Windows Properties], properties.PSFormatForDisplay, propsys/PSFormatForDisplay, shell.PSFormatForDisplay, shell_PSFormatForDisplay
-ms.topic: function
 f1_keywords:
 - propsys/PSFormatForDisplay
 dev_langs:

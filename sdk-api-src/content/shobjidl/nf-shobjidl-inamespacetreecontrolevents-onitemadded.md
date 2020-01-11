@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7737e014-8e46-43da-b017-133bbf12b433
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemAdded method, INameSpaceTreeControlEvents.OnItemAdded, INameSpaceTreeControlEvents::OnItemAdded, OnItemAdded, OnItemAdded method [Windows Shell], OnItemAdded method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnItemAdded, shell.INameSpaceTreeControlEvents_OnItemAdded, shobjidl/INameSpaceTreeControlEvents::OnItemAdded
-ms.topic: method
 f1_keywords:
 - shobjidl/INameSpaceTreeControlEvents.OnItemAdded
 dev_langs:

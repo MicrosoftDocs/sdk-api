@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: e0933741-6b75-4ce1-aa63-6240e4a7130f
 ms.date: 12/05/2018
 ms.keywords: CoInitializeSecurity, CoInitializeSecurity function [COM], _com_CoInitializeSecurity, com.coinitializesecurity, combaseapi/CoInitializeSecurity
-ms.topic: function
 f1_keywords:
 - combaseapi/CoInitializeSecurity
 dev_langs:

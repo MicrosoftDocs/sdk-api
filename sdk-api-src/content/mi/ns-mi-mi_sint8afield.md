@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 42475234-e8e4-4fc5-9d5b-bf0dbd881b6e
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Sint8AField, MI_Sint8AField structure [Windows Management Infrastructure (MI)], mi/MI_Sint8AField, wmi._mi_sint8afield, wmi_v2.mi_sint8afield
-ms.topic: struct
 f1_keywords:
 - mi/MI_Sint8AField
 dev_langs:

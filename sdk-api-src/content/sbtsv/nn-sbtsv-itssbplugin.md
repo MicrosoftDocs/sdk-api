@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: db3d3ee7-9e53-4bac-9711-4e85f1016db9
 ms.date: 12/05/2018
 ms.keywords: ITsSbPlugin, ITsSbPlugin interface [Remote Desktop Services], ITsSbPlugin interface [Remote Desktop Services],described, sbtsv/ITsSbPlugin, termserv.itssbplugin
-ms.topic: interface
 f1_keywords:
 - sbtsv/ITsSbPlugin
 dev_langs:

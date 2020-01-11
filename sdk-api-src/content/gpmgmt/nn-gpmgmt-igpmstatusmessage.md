@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 8570d40c-25c2-405c-b52a-dae6c0eb50e0
 ms.date: 12/05/2018
 ms.keywords: GPMStatusMessage, IGPMStatusMessage, IGPMStatusMessage interface [GPMC], IGPMStatusMessage interface [GPMC],described, _win32_igpmstatusmessage, gpmc.igpmstatusmessage, gpmgmt/IGPMStatusMessage
-ms.topic: interface
 f1_keywords:
 - gpmgmt/IGPMStatusMessage
 dev_langs:

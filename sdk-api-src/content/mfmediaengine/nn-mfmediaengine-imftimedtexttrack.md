@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 55232D19-F3D0-42C7-8B24-C2A7768B2C7E
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextTrack, IMFTimedTextTrack interface [Media Foundation], IMFTimedTextTrack interface [Media Foundation],described, mf.imftimedtexttrack, mfmediaengine/IMFTimedTextTrack
-ms.topic: interface
 f1_keywords:
 - mfmediaengine/IMFTimedTextTrack
 dev_langs:

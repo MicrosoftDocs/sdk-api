@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 45685033-73cc-4810-90f2-49343494641b
 ms.date: 12/05/2018
 ms.keywords: GetAllSettings, GetAllSettings method [DirectShow], GetAllSettings method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetAllSettings method, ICodecAPI.GetAllSettings, ICodecAPI::GetAllSettings, ICodecAPIGetAllSettings, dshow.icodecapi_getallsettings, strmif/ICodecAPI::GetAllSettings
-ms.topic: method
 f1_keywords:
 - strmif/ICodecAPI.GetAllSettings
 dev_langs:

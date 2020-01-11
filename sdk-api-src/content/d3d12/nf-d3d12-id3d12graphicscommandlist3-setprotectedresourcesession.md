@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 5D176919-34DC-4FD5-A577-78B03D5AB76B
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList3 interface,SetProtectedResourceSession method, ID3D12GraphicsCommandList3.SetProtectedResourceSession, ID3D12GraphicsCommandList3::SetProtectedResourceSession, SetProtectedResourceSession, SetProtectedResourceSession method, SetProtectedResourceSession method,ID3D12GraphicsCommandList3 interface, d3d12/ID3D12GraphicsCommandList3::SetProtectedResourceSession, direct3d12.id3d12graphicscommandlist3_setprotectedresourcesession
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12GraphicsCommandList3.SetProtectedResourceSession
 dev_langs:

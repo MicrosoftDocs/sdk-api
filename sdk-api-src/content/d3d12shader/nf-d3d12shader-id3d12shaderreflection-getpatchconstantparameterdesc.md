@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 01353250-0C8F-4C72-93CE-64BEF52EB985
 ms.date: 12/05/2018
 ms.keywords: GetPatchConstantParameterDesc, GetPatchConstantParameterDesc method, GetPatchConstantParameterDesc method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetPatchConstantParameterDesc method, ID3D12ShaderReflection.GetPatchConstantParameterDesc, ID3D12ShaderReflection::GetPatchConstantParameterDesc, d3d12shader/ID3D12ShaderReflection::GetPatchConstantParameterDesc, direct3d12.id3d12shaderreflection_getpatchconstantparameterdesc
-ms.topic: method
 f1_keywords:
 - d3d12shader/ID3D12ShaderReflection.GetPatchConstantParameterDesc
 dev_langs:

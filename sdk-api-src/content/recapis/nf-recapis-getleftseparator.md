@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 5528d31e-580f-4da7-b683-e9ea2931989b
 ms.date: 12/05/2018
 ms.keywords: GetLeftSeparator, GetLeftSeparator function [Tablet PC], recapis/GetLeftSeparator, tablet.getleftseparator
-ms.topic: function
 f1_keywords:
 - recapis/GetLeftSeparator
 dev_langs:

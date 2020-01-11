@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c82107ad-68d1-4a46-ba78-37592d445c57
 ms.date: 12/05/2018
 ms.keywords: ICallFrame interface [COM],ReleaseMarshalData method, ICallFrame.ReleaseMarshalData, ICallFrame::ReleaseMarshalData, ReleaseMarshalData, ReleaseMarshalData method [COM], ReleaseMarshalData method [COM],ICallFrame interface, _com_icallframe_releasemarshaldata, callobj/ICallFrame::ReleaseMarshalData, com.icallframe_releasemarshaldata
-ms.topic: method
 f1_keywords:
 - callobj/ICallFrame.ReleaseMarshalData
 dev_langs:

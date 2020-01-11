@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: b08e61bc-8b76-4baf-acf7-9eb97e521b65
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromUInt32Array, InitVariantFromUInt32Array function [Windows Properties], _shell_InitVariantFromUInt32Array, properties.InitVariantFromUInt32Array, propvarutil/InitVariantFromUInt32Array, shell.InitVariantFromUInt32Array
-ms.topic: function
 f1_keywords:
 - propvarutil/InitVariantFromUInt32Array
 dev_langs:

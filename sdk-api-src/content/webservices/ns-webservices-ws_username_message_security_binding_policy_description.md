@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 6fc72eb4-a171-4e28-a121-074355f6ced6
 ms.date: 12/05/2018
 ms.keywords: WS_USERNAME_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION, WS_USERNAME_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION, wsw.ws_username_message_security_binding_policy_description
-ms.topic: struct
 f1_keywords:
 - webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION
 dev_langs:

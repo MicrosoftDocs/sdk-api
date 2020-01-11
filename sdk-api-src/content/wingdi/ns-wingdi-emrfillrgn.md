@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 84b81b9d-3def-403c-94cd-8f5ddea02d6d
 ms.date: 12/05/2018
 ms.keywords: '*PEMRFILLRGN, EMRFILLRGN, EMRFILLRGN structure [Windows GDI], PEMRFILLRGN, PEMRFILLRGN structure pointer [Windows GDI], _win32_EMRFILLRGN_str, gdi.emrfillrgn, wingdi/EMRFILLRGN, wingdi/PEMRFILLRGN'
-ms.topic: struct
 f1_keywords:
 - wingdi/EMRFILLRGN
 dev_langs:

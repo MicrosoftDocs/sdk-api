@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenustate.htm
 ms.date: 12/05/2018
 ms.keywords: GetMenuState, GetMenuState function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, _win32_GetMenuState, _win32_getmenustate_cpp, menurc.getmenustate, winui._win32_getmenustate, winuser/GetMenuState
-ms.topic: function
 f1_keywords:
 - winuser/GetMenuState
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: a7de2fef-7966-4742-a821-7fce0bf3bba2
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPorts interface [ICS/ICF],_NewEnum property, INetFwOpenPorts._NewEnum, INetFwOpenPorts.get__NewEnum, INetFwOpenPorts::_NewEnum, INetFwOpenPorts::get__NewEnum, _NewEnum property [ICS/ICF], _NewEnum property [ICS/ICF],INetFwOpenPorts interface, get__NewEnum, ics.inetfwopenports_newenum, netfw/INetFwOpenPorts::_NewEnum, netfw/INetFwOpenPorts::get__NewEnum
-ms.topic: method
 f1_keywords:
 - netfw/INetFwOpenPorts._NewEnum
 dev_langs:

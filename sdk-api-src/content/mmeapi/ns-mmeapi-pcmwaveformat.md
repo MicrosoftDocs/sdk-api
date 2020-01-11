@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: c09dc3f0-e1bc-4643-9b27-bcf1dcc5710c
 ms.date: 12/05/2018
 ms.keywords: '*LPPCMWAVEFORMAT, *NPPCMWAVEFORMAT, *PPCMWAVEFORMAT, PCMWAVEFORMAT, PCMWAVEFORMAT structure [Windows Multimedia], _win32_PCMWAVEFORMAT_str, mmeapi/PCMWAVEFORMAT, multimedia.pcmwaveformat, pcmwaveformat_tag'
-ms.topic: struct
 f1_keywords:
 - mmeapi/PCMWAVEFORMAT
 dev_langs:

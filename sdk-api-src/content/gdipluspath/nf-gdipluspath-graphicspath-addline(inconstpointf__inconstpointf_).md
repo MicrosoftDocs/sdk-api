@@ -5,7 +5,6 @@ description: The GraphicsPath::AddLine method adds a line to the current figure 
 ms.assetid: edb6b196-e8f0-4ddd-830b-ff740a94369a
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddLine
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/GraphicsPath::AddLine
 dev_langs:

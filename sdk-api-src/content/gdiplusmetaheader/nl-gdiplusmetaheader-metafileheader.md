@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheader.htm
 ms.date: 12/05/2018
 ms.keywords: MetafileHeader, MetafileHeader class [GDI+], MetafileHeader class [GDI+],described, _gdiplus_CLASS_MetafileHeader_Class, gdiplus._gdiplus_CLASS_MetafileHeader_Class, gdiplusmetaheader/MetafileHeader
-ms.topic: class
 f1_keywords:
 - gdiplusmetaheader/MetafileHeader
 dev_langs:

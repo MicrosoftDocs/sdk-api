@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 2c1e3d27-abb4-4bd0-ad9e-4dc9eda8e4b6
 ms.date: 12/05/2018
 ms.keywords: ISynchronize, ISynchronize interface [COM], ISynchronize interface [COM],described, _com_isynchronize, com.isynchronize, objidlbase/ISynchronize
-ms.topic: interface
 f1_keywords:
 - objidl/ISynchronize
 dev_langs:

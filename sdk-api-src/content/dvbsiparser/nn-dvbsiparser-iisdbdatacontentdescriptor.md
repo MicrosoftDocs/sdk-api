@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 91d55991-5994-4104-9a8f-01cfc347a96f
 ms.date: 12/05/2018
 ms.keywords: IIsdbDatacontentDescriptor, IIsdbDatacontentDescriptor interface [Microsoft TV Technologies], IIsdbDatacontentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbDatacontentDescriptor, mstv.iisdbdatacontentdescriptor
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IIsdbDatacontentDescriptor
 dev_langs:

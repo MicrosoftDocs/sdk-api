@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 62933ddf-9b0d-427a-8b5f-a0117a3b4885
 ms.date: 12/05/2018
 ms.keywords: PifMgr_GetProperties, PifMgr_GetProperties function [Windows Properties], _win32_PifMgr_GetProperties, properties.PifMgr_GetProperties, shell.PifMgr_GetProperties, shlobj_core/PifMgr_GetProperties
-ms.topic: function
 f1_keywords:
 - shlobj_core/PifMgr_GetProperties
 dev_langs:

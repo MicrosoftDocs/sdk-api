@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 08d3efb2-1e2e-42e3-aefe-644db3b480f4
 ms.date: 12/05/2018
 ms.keywords: GetPartitionName, GetPartitionName method [COM+], GetPartitionName method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],GetPartitionName method, ICOMAdminCatalog2.GetPartitionName, ICOMAdminCatalog2::GetPartitionName, _cos_icomadmincatalog2_GetPartitionName, comadmin/ICOMAdminCatalog2::GetPartitionName, cos.icomadmincatalog2_getpartitionname
-ms.topic: method
 f1_keywords:
 - comadmin/ICOMAdminCatalog2.GetPartitionName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: f83994ca-7ebe-42bc-bb54-f101a0a62e52
 ms.date: 12/05/2018
 ms.keywords: FLICK_DATA, FLICK_DATA structure [Tablet PC], f83994ca-7ebe-42bc-bb54-f101a0a62e52, tabflicks/FLICK_DATA, tablet.flick_data
-ms.topic: struct
 f1_keywords:
 - tabflicks/FLICK_DATA
 dev_langs:

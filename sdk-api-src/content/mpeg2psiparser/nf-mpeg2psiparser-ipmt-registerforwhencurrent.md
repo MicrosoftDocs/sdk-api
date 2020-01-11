@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 4759c813-3a1f-492a-bca9-cb6610f6426b
 ms.date: 12/05/2018
 ms.keywords: IPMT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IPMT.RegisterForWhenCurrent, IPMT::RegisterForWhenCurrent, IPMTRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::RegisterForWhenCurrent, mstv.ipmt_registerforwhencurrent
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/IPMT.RegisterForWhenCurrent
 dev_langs:

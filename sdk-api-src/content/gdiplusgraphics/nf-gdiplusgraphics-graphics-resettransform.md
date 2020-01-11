@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\resettransform.htm
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],ResetTransform method, Graphics.ResetTransform, Graphics::ResetTransform, ResetTransform, ResetTransform method [GDI+], ResetTransform method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_ResetTransform_, gdiplus._gdiplus_CLASS_Graphics_ResetTransform_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.ResetTransform
 dev_langs:

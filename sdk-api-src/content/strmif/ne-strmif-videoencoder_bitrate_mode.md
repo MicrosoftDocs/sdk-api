@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ccceae9a-6d1d-4453-bd84-88cefc20320e
 ms.date: 12/05/2018
 ms.keywords: ConstantBitRate, VIDEOENCODER_BITRATE_MODE, VIDEOENCODER_BITRATE_MODE , VIDEOENCODER_BITRATE_MODE enumeration [DirectShow], VIDEOENCODER_BITRATE_MODEEnumeration, VariableBitRateAverage, VariableBitRatePeak, dshow.videoencoder_bitrate_mode, strmif/ConstantBitRate, strmif/VIDEOENCODER_BITRATE_MODE, strmif/VariableBitRateAverage, strmif/VariableBitRatePeak
-ms.topic: enum
 f1_keywords:
 - strmif/VIDEOENCODER_BITRATE_MODE
 dev_langs:

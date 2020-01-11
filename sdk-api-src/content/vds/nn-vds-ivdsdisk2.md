@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 9fb8a08e-412d-415a-aa27-cc0180599903
 ms.date: 12/05/2018
 ms.keywords: IVdsDisk2, IVdsDisk2 interface, IVdsDisk2 interface,described, base.ivdsdisk2, vds/IVdsDisk2
-ms.topic: interface
 f1_keywords:
 - vds/IVdsDisk2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: b90473fe-eb8c-463a-971c-422c108dec1d
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassProperty, SetupDiGetClassProperty function [Device and Driver Installation], SetupDiGetClassPropertyW, devinst.setupdigetclassproperty, di-rtns_0fff1c27-692b-488f-9cec-373e8f7b7484.xml, setupapi/SetupDiGetClassProperty
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetClassProperty
 dev_langs:

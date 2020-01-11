@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 7e567714-1d91-4dd4-a560-2b57876c837c
 ms.date: 12/05/2018
 ms.keywords: '*LPRSVP_FILTERSPEC_V6, RSVP_FILTERSPEC_V6, RSVP_FILTERSPEC_V6 structure [QOS], qos.rsvp_filterspec_v6, qossp/RSVP_FILTERSPEC_V6'
-ms.topic: struct
 f1_keywords:
 - qossp/RSVP_FILTERSPEC_V6
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: b513e904-a6ff-494e-9f63-b5158467b245
 ms.date: 12/05/2018
 ms.keywords: IVdsOpenVDisk interface,Merge method, IVdsOpenVDisk.Merge, IVdsOpenVDisk::Merge, Merge, Merge method, Merge method,IVdsOpenVDisk interface, base.ivdsopenvdisk_merge, vds/IVdsOpenVDisk::Merge
-ms.topic: method
 f1_keywords:
 - vds/IVdsOpenVDisk.Merge
 dev_langs:

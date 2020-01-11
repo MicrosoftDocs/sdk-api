@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 4f3dcac0-c800-48e5-82d6-b6bc3fb0409b
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimerEventHandler interface [Windows Animation],OnPreUpdate method, IUIAnimationTimerEventHandler.OnPreUpdate, IUIAnimationTimerEventHandler::OnPreUpdate, OnPreUpdate, OnPreUpdate method [Windows Animation], OnPreUpdate method [Windows Animation],IUIAnimationTimerEventHandler interface, uianimation.iuianimationtimereventhandler_onpreupdate, uianimation/IUIAnimationTimerEventHandler::OnPreUpdate
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationTimerEventHandler.OnPreUpdate
 dev_langs:

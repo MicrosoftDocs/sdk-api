@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 16ac7bef-e88c-47da-8db9-9e6258a381a0
 ms.date: 12/05/2018
 ms.keywords: GetColorControls, GetColorControls method [DirectDraw], GetColorControls method [DirectDraw],IDirectDrawColorControl interface, IDirectDrawColorControl interface [DirectDraw],GetColorControls method, IDirectDrawColorControl.GetColorControls, IDirectDrawColorControl::GetColorControls, ddraw/IDirectDrawColorControl::GetColorControls, directdraw.idirectdrawcolorcontrol_getcolorcontrols
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawColorControl.GetColorControls
 dev_langs:

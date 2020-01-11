@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 9661d22b-5c82-412d-966d-83605c568e22
 ms.date: 12/05/2018
 ms.keywords: GetFilespec, GetFilespec method [VSS], GetFilespec method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetFilespec method, IVssWMFiledesc.GetFilespec, IVssWMFiledesc::GetFilespec, _win32_ivsswmfiledesc_getfilespec, base.ivsswmfiledesc_getfilespec, vswriter/IVssWMFiledesc::GetFilespec
-ms.topic: method
 f1_keywords:
 - vswriter/IVssWMFiledesc.GetFilespec
 dev_langs:

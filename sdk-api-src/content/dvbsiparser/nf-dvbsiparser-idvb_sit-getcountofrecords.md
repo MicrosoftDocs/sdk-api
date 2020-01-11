@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 93d04770-9ec5-411c-8892-4b9a7944d681
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDVB_SIT interface, IDVB_SIT interface [Microsoft TV Technologies],GetCountOfRecords method, IDVB_SIT.GetCountOfRecords, IDVB_SIT::GetCountOfRecords, IDVB_SITGetCountOfRecords, dvbsiparser/IDVB_SIT::GetCountOfRecords, mstv.idvb_sit_getcountofrecords
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_SIT.GetCountOfRecords
 dev_langs:

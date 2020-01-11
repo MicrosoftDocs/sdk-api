@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: fdc5a2f5-c44a-4cb3-b206-a598bd60024b
 ms.date: 12/05/2018
 ms.keywords: MsiOpenProduct, MsiOpenProduct function, MsiOpenProductA, MsiOpenProductW, _msi_msiopenproduct, msi/MsiOpenProduct, msi/MsiOpenProductA, msi/MsiOpenProductW, setup.msiopenproduct
-ms.topic: function
 f1_keywords:
 - msi/MsiOpenProduct
 dev_langs:

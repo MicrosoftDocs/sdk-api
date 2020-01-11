@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 1bdb1e47-fbbb-4952-9339-accdfe40bd18
 ms.date: 12/05/2018
 ms.keywords: WdsCliRegisterTrace, WdsCliRegisterTrace function [Windows Deployment Services], wds.wdscliregistertrace, wdsclientapi/WdsCliRegisterTrace
-ms.topic: function
 f1_keywords:
 - wdsclientapi/WdsCliRegisterTrace
 dev_langs:

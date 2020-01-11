@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6a41b6eb-3fe9-4b2e-bcbb-a407e0e6ab5e
 ms.date: 12/05/2018
 ms.keywords: IMediaEventEx interface [DirectShow],SetNotifyFlags method, IMediaEventEx.SetNotifyFlags, IMediaEventEx::SetNotifyFlags, IMediaEventExSetNotifyFlags, SetNotifyFlags, SetNotifyFlags method [DirectShow], SetNotifyFlags method [DirectShow],IMediaEventEx interface, control/IMediaEventEx::SetNotifyFlags, dshow.imediaeventex_setnotifyflags
-ms.topic: method
 f1_keywords:
 - control/IMediaEventEx.SetNotifyFlags
 dev_langs:

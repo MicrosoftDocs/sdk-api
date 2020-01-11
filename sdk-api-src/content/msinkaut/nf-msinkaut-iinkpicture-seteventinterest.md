@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 4baaf348-dec7-4b81-8415-b9f4ace14f5d
 ms.date: 12/05/2018
 ms.keywords: IInkPicture, IInkPicture interface [Tablet PC],SetEventInterest method, IInkPicture.SetEventInterest, IInkPicture::SetEventInterest, SetEventInterest, SetEventInterest method [Tablet PC], SetEventInterest method [Tablet PC],IInkPicture interface, df25efbb-5229-4211-948f-3a213154a967, msinkaut/IInkPicture::SetEventInterest, tablet.inkpicture_seteventinterest
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkPicture.SetEventInterest
 dev_langs:

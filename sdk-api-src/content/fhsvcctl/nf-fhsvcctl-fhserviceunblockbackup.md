@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 4CCCEEA5-40BC-4862-ADF5-C8757E02916A
 ms.date: 12/05/2018
 ms.keywords: FhServiceUnblockBackup, FhServiceUnblockBackup function [Windows API], fhsvcctl/FhServiceUnblockBackup, winprog.fhserviceunblockbackup
-ms.topic: function
 f1_keywords:
 - fhsvcctl/FhServiceUnblockBackup
 dev_langs:

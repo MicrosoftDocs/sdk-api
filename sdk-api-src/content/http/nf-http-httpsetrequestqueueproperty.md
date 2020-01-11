@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 56111cc0-94c8-47dc-a3bb-ffc5dae772fe
 ms.date: 12/05/2018
 ms.keywords: HttpServer503VerbosityProperty, HttpServerQueueLengthProperty, HttpServerStateProperty, HttpSetRequestQueueProperty, HttpSetRequestQueueProperty function [HTTP], http.httpsetrequestqueueproperty, http/HttpSetRequestQueueProperty
-ms.topic: function
 f1_keywords:
 - http/HttpSetRequestQueueProperty
 dev_langs:

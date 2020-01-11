@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 63aba8aa-bee7-46b6-a821-4e4d440356ac
 ms.date: 12/05/2018
 ms.keywords: EncryptedKeyHash property [Security], EncryptedKeyHash property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],EncryptedKeyHash property, IX509CertificateRequestCmc.EncryptedKeyHash, IX509CertificateRequestCmc.get_EncryptedKeyHash, IX509CertificateRequestCmc::EncryptedKeyHash, IX509CertificateRequestCmc::get_EncryptedKeyHash, certenroll/IX509CertificateRequestCmc::EncryptedKeyHash, certenroll/IX509CertificateRequestCmc::get_EncryptedKeyHash, get_EncryptedKeyHash, security.ix509certificaterequestcmc_encryptedkeyhash_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509CertificateRequestCmc.EncryptedKeyHash
 dev_langs:

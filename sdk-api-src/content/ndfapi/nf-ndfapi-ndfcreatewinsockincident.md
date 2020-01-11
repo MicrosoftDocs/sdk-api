@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: c4cb2713-b656-47a8-9de7-9d33e864a811
 ms.date: 12/05/2018
 ms.keywords: NdfCreateWinSockIncident, NdfCreateWinSockIncident function [NDF], ndf.ndfcreatewinsockincident, ndfapi/NdfCreateWinSockIncident
-ms.topic: function
 f1_keywords:
 - ndfapi/NdfCreateWinSockIncident
 dev_langs:

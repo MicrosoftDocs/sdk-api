@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: afb27235-a9b4-4629-aac0-9c43e5b2cf3f
 ms.date: 12/05/2018
 ms.keywords: FsiFileSystemISO9660, FsiFileSystemJoliet, FsiFileSystemNone, FsiFileSystemUDF, FsiFileSystemUnknown, FsiFileSystems, FsiFileSystems enumeration [IMAPI], imapi.fsifilesystems, imapi2fs/FsiFileSystemISO9660, imapi2fs/FsiFileSystemJoliet, imapi2fs/FsiFileSystemNone, imapi2fs/FsiFileSystemUDF, imapi2fs/FsiFileSystemUnknown, imapi2fs/FsiFileSystems
-ms.topic: enum
 f1_keywords:
 - imapi2fs/FsiFileSystems
 dev_langs:

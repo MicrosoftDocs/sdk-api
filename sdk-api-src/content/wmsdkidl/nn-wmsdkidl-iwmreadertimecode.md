@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 7f7d5608-c505-46ab-9e1e-e45b383c879b
 ms.date: 12/05/2018
 ms.keywords: IWMReaderTimecode, IWMReaderTimecode interface [windows Media Format], IWMReaderTimecode interface [windows Media Format],described, IWMReaderTimecodeInterface, wmformat.iwmreadertimecode, wmsdkidl/IWMReaderTimecode
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMReaderTimecode
 dev_langs:

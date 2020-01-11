@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: BF573834-FA5A-4ADE-9E19-389B1A15A1F8
 ms.date: 12/05/2018
 ms.keywords: KeyCredentialManagerInfo, KeyCredentialManagerInfo structure [Security], PKeyCredentialManagerInfo, PKeyCredentialManagerInfo structure pointer [Security], keycredmgr/KeyCredentialManagerInfo, keycredmgr/PKeyCredentialManagerInfo, security.keycredentialmanagerinfo
-ms.topic: struct
 f1_keywords:
 - keycredmgr/KeyCredentialManagerInfo
 dev_langs:

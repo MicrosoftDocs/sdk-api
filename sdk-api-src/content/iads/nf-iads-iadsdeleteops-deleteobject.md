@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 53685f60-9adf-40f0-b6d3-e59a0435f744
 ms.date: 12/05/2018
 ms.keywords: DeleteObject, DeleteObject method [ADSI], DeleteObject method [ADSI],IADsDeleteOps interface, IADsDeleteOps interface [ADSI],DeleteObject method, IADsDeleteOps.DeleteObject, IADsDeleteOps::DeleteObject, _ds_iadsdeleteops_deleteobject, adsi.iadsdeleteops__deleteobject, adsi.iadsdeleteops_deleteobject, iads/IADsDeleteOps::DeleteObject
-ms.topic: method
 f1_keywords:
 - iads/IADsDeleteOps.DeleteObject
 dev_langs:

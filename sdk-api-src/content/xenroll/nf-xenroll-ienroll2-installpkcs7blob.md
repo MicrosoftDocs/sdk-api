@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: fa704c5e-f6ec-4187-b787-7b15cc7d4eb4
 ms.date: 12/05/2018
 ms.keywords: IEnroll2 interface [Security],InstallPKCS7Blob method, IEnroll2.InstallPKCS7Blob, IEnroll2::InstallPKCS7Blob, InstallPKCS7Blob, InstallPKCS7Blob method [Security], InstallPKCS7Blob method [Security],IEnroll2 interface, security.ienroll4_installpkcs7blob, xenroll/IEnroll2::InstallPKCS7Blob
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll2.InstallPKCS7Blob
 dev_langs:

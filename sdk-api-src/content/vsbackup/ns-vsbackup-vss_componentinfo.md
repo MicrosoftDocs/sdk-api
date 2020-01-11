@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 9723e90e-cd5e-4815-843b-8ed8632ebe45
 ms.date: 12/05/2018
 ms.keywords: PVSSCOMPONENTINFO, PVSSCOMPONENTINFO structure pointer [VSS], VSS_COMPONENTINFO, VSS_COMPONENTINFO structure [VSS], _win32_vss_componentinfo, base.vss_componentinfo, vsbackup/PVSSCOMPONENTINFO, vsbackup/VSS_COMPONENTINFO
-ms.topic: struct
 f1_keywords:
 - vsbackup/VSS_COMPONENTINFO
 dev_langs:

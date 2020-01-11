@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: b17da883-7f8c-4df0-9ee2-7e75b5852aa9
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],LastAccessTime property, IFsrmPropertyBag.LastAccessTime, IFsrmPropertyBag.get_LastAccessTime, IFsrmPropertyBag::LastAccessTime, IFsrmPropertyBag::get_LastAccessTime, LastAccessTime property [File Server Resource Manager], LastAccessTime property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_lastaccesstime, fsrm.ifsrmpropertybag_lastaccesstime, fsrmpipeline/IFsrmPropertyBag::LastAccessTime, fsrmpipeline/IFsrmPropertyBag::get_LastAccessTime, get_LastAccessTime
-ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmPropertyBag.LastAccessTime
 dev_langs:

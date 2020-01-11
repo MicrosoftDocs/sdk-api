@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 4DAABF63-7CBA-4361-9E58-7072869CFDEC
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadRECTL, PSPropertyBag_ReadRECTL function [Windows Properties], properties.PSPropertyBag_ReadRECTL, propsys/PSPropertyBag_ReadRECTL, shell.PSPropertyBag_ReadRECTL, shell_PSPropertyBag_ReadRECTL
-ms.topic: function
 f1_keywords:
 - propsys/PSPropertyBag_ReadRECTL
 dev_langs:

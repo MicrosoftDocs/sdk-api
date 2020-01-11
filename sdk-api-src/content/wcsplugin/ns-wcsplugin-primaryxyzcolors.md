@@ -7,7 +7,6 @@ tech.root: WCS
 ms.assetid: 386d71ae-5997-4086-b034-7de356eed0a9
 ms.date: 12/05/2018
 ms.keywords: PrimaryXYZColors, PrimaryXYZColors structure [Windows Color System], _color_PrimaryXYZColors_str, wcs.primaryxyzcolors, wcsplugin/PrimaryXYZColors
-ms.topic: struct
 f1_keywords:
 - wcsplugin/PrimaryXYZColors
 dev_langs:

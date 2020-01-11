@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getfirstlineindent.htm
 ms.date: 12/05/2018
 ms.keywords: GetFirstLineIndent, GetFirstLineIndent method [Windows Controls], GetFirstLineIndent method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetFirstLineIndent method, ITextPara.GetFirstLineIndent, ITextPara::GetFirstLineIndent, _win32_ITextPara_GetFirstLineIndent, _win32_ITextPara_GetFirstLineIndent_cpp, controls.ITextPara_GetFirstLineIndent, controls._win32_ITextPara_GetFirstLineIndent, tom/ITextPara::GetFirstLineIndent
-ms.topic: method
 f1_keywords:
 - tom/ITextPara.GetFirstLineIndent
 dev_langs:

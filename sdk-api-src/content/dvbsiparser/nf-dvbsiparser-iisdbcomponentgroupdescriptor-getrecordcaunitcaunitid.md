@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 97aa98b7-d676-44ad-be93-e58d996a8a6a
 ms.date: 12/05/2018
 ms.keywords: GetRecordCAUnitCAUnitId, GetRecordCAUnitCAUnitId method [Microsoft TV Technologies], GetRecordCAUnitCAUnitId method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetRecordCAUnitCAUnitId method, IIsdbComponentGroupDescriptor.GetRecordCAUnitCAUnitId, IIsdbComponentGroupDescriptor::GetRecordCAUnitCAUnitId, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordCAUnitCAUnitId, mstv.iisdbcomponentgroupdescriptor_getrecordcaunitcaunitid
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbComponentGroupDescriptor.GetRecordCAUnitCAUnitId
 dev_langs:

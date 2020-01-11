@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 1a696ffc-b8e6-4ef9-b980-35bfbd3d4128
 ms.date: 12/05/2018
 ms.keywords: 1a696ffc-b8e6-4ef9-b980-35bfbd3d4128, IMFClockStateSink interface [Media Foundation],OnClockStart method, IMFClockStateSink.OnClockStart, IMFClockStateSink::OnClockStart, OnClockStart, OnClockStart method [Media Foundation], OnClockStart method [Media Foundation],IMFClockStateSink interface, mf.imfclockstatesink_onclockstart, mfidl/IMFClockStateSink::OnClockStart
-ms.topic: method
 f1_keywords:
 - mfidl/IMFClockStateSink.OnClockStart
 dev_langs:

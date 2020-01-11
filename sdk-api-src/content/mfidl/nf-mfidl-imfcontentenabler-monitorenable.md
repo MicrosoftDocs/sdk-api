@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 78fc4a17-f58c-4654-b37e-6b988848ff0d
 ms.date: 12/05/2018
 ms.keywords: 78fc4a17-f58c-4654-b37e-6b988848ff0d, IMFContentEnabler interface [Media Foundation],MonitorEnable method, IMFContentEnabler.MonitorEnable, IMFContentEnabler::MonitorEnable, MonitorEnable, MonitorEnable method [Media Foundation], MonitorEnable method [Media Foundation],IMFContentEnabler interface, mf.imfcontentenabler_monitorenable, mfidl/IMFContentEnabler::MonitorEnable
-ms.topic: method
 f1_keywords:
 - mfidl/IMFContentEnabler.MonitorEnable
 dev_langs:

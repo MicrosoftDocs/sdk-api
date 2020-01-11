@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 682fa0c7-8f17-457f-9f8a-dc9190866152
 ms.date: 12/05/2018
 ms.keywords: 682fa0c7-8f17-457f-9f8a-dc9190866152, DXVA2_VideoTransferMatrix, DXVA2_VideoTransferMatrix enumeration [Media Foundation], DXVA2_VideoTransferMatrixMask, DXVA2_VideoTransferMatrix_BT601, DXVA2_VideoTransferMatrix_BT709, DXVA2_VideoTransferMatrix_SMPTE240M, DXVA2_VideoTransferMatrix_Unknown, dxva2api/DXVA2_VideoTransferMatrix, dxva2api/DXVA2_VideoTransferMatrixMask, dxva2api/DXVA2_VideoTransferMatrix_BT601, dxva2api/DXVA2_VideoTransferMatrix_BT709, dxva2api/DXVA2_VideoTransferMatrix_SMPTE240M, dxva2api/DXVA2_VideoTransferMatrix_Unknown, mf.dxva2_videotransfermatrix
-ms.topic: enum
 f1_keywords:
 - dxva2api/DXVA2_VideoTransferMatrix
 dev_langs:

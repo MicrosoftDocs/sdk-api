@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\initializeflatsb.htm
 ms.date: 12/05/2018
 ms.keywords: InitializeFlatSB, InitializeFlatSB function [Windows Controls], _win32_InitializeFlatSB, _win32_InitializeFlatSB_cpp, commctrl/InitializeFlatSB, controls.InitializeFlatSB, controls._win32_InitializeFlatSB
-ms.topic: function
 f1_keywords:
 - commctrl/InitializeFlatSB
 dev_langs:

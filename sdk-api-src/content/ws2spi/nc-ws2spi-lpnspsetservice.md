@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: df76ea75-c0bc-48b8-b1a7-0c510c5cc28d
 ms.date: 12/05/2018
 ms.keywords: LPNSPSETSERVICE, NSPSetService, NSPSetService function [Winsock], RNRSERVICE_DELETE, RNRSERVICE_DEREGISTER, RNRSERVICE_REGISTER, SERVICE_MULTIPLE, _win32_nspsetservice_2, winsock.nspsetservice_2, ws2spi/NSPSetService
-ms.topic: callback
 f1_keywords:
 - ws2spi/NSPSetService
 dev_langs:

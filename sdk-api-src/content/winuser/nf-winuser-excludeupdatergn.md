@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 408fda82-30c3-4eb4-be42-3085c71ba99e
 ms.date: 12/05/2018
 ms.keywords: ExcludeUpdateRgn, ExcludeUpdateRgn function [Windows GDI], _win32_ExcludeUpdateRgn, gdi.excludeupdatergn, winuser/ExcludeUpdateRgn
-ms.topic: function
 f1_keywords:
 - winuser/ExcludeUpdateRgn
 dev_langs:

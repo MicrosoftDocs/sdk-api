@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: b388530c-688a-46a9-ae23-370f902b870e
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyJobs1 interface [BITS],Skip method, IEnumBackgroundCopyJobs1.Skip, IEnumBackgroundCopyJobs1::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBackgroundCopyJobs1 interface, bits.ienumbackgroundcopyjobs1_skip, qmgr/IEnumBackgroundCopyJobs1::Skip
-ms.topic: method
 f1_keywords:
 - qmgr/IEnumBackgroundCopyJobs1.Skip
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 44023a0c-3fb4-4746-a676-1671c3ad901b
 ms.date: 12/05/2018
 ms.keywords: CryptSetProvider, CryptSetProvider function [Security], CryptSetProviderA, CryptSetProviderW, _crypto2_cryptsetprovider, security.cryptsetprovider, wincrypt/CryptSetProvider, wincrypt/CryptSetProviderA, wincrypt/CryptSetProviderW
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptSetProvider
 dev_langs:

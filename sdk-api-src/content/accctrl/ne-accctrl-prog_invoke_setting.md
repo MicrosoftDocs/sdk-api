@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 3eee30d6-7d9d-468f-b6ba-e172da523169
 ms.date: 12/05/2018
 ms.keywords: '*PPROG_INVOKE_SETTING, PPROG_INVOKE_SETTING, PPROG_INVOKE_SETTING enumeration pointer [Security], PROG_INVOKE_SETTING, PROG_INVOKE_SETTING enumeration [Security], ProgressCancelOperation, ProgressInvokeEveryObject, ProgressInvokeNever, ProgressInvokeOnError, ProgressInvokePrePostError, ProgressRetryOperation, accctrl/PPROG_INVOKE_SETTING, accctrl/PROG_INVOKE_SETTING, accctrl/ProgressCancelOperation, accctrl/ProgressInvokeEveryObject, accctrl/ProgressInvokeNever, accctrl/ProgressInvokeOnError, accctrl/ProgressInvokePrePostError, accctrl/ProgressRetryOperation, security.prog_invoke_setting'
-ms.topic: enum
 f1_keywords:
 - accctrl/PROG_INVOKE_SETTING
 dev_langs:

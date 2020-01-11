@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawellipsemethods\drawellipse.htm
 ms.date: 12/05/2018
 ms.keywords: DrawEllipse, DrawEllipse method [GDI+], DrawEllipse method [GDI+],Graphics class, Graphics class [GDI+],DrawEllipse method, Graphics.DrawEllipse, Graphics.DrawEllipse(IN const Pen,IN const Rect &), Graphics.DrawEllipse(const Pen*,const Rect&), Graphics::DrawEllipse, Graphics::DrawEllipse(IN const Pen,IN const Rect &), _gdiplus_CLASS_Graphics_DrawEllipse_Pen_pen_Rect_rect_, gdiplus._gdiplus_CLASS_Graphics_DrawEllipse_Pen_pen_Rect_rect_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.DrawEllipse
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 4460f7ec-35fd-4ad1-8c20-dda9f4d3477a
 ms.date: 12/05/2018
 ms.keywords: SspiEncryptAuthIdentity, SspiEncryptAuthIdentity function [Security], security.sspiencryptauthidentity, sspi/SspiEncryptAuthIdentity
-ms.topic: function
 f1_keywords:
 - sspi/SspiEncryptAuthIdentity
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: f32d728d-eacc-4027-a1b1-31272425fd26
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderCreateEnumHandle0, FwpmProviderCreateEnumHandle0 function [Filtering], fwp.fwpmprovidercreateenumhandle0_func, fwpmu/FwpmProviderCreateEnumHandle0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmProviderCreateEnumHandle0
 dev_langs:

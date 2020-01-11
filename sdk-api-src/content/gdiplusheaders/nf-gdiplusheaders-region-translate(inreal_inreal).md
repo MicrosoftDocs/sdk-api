@@ -5,7 +5,6 @@ description: The Region::Translate method offsets this region by specified amoun
 ms.assetid: 0dc16555-1df7-44b8-85fb-ff0963f3c68e
 ms.date: 05/20/2019
 ms.keywords: Region::Translate
-ms.topic: language-reference
 f1_keywords:
 - gdiplusheaders/Region::Translate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 8c4c7047-6cb3-4ce3-bd19-a8d2c85cf310
 ms.date: 12/05/2018
 ms.keywords: MI_ConstUint32AField, MI_ConstUint32AField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstUint32AField, wmi._mi_constuint32afield, wmi_v2.mi_constuint32afield
-ms.topic: struct
 f1_keywords:
 - mi/MI_ConstUint32AField
 dev_langs:

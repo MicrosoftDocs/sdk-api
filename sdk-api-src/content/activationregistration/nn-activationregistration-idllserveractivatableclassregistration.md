@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 00E9476E-45E0-4D97-9DA4-FD293674BED4
 ms.date: 12/05/2018
 ms.keywords: IDllServerActivatableClassRegistration, IDllServerActivatableClassRegistration interface [Windows Runtime], IDllServerActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IDllServerActivatableClassRegistration, winrt.idllserveractivatableclassregistration
-ms.topic: interface
 f1_keywords:
 - activationregistration/IDllServerActivatableClassRegistration
 dev_langs:

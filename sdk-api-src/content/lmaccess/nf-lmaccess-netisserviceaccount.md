@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: 975e7c0d-d803-4d78-99ed-d07369341674
 ms.date: 12/05/2018
 ms.keywords: NetIsServiceAccount, NetIsServiceAccount function [Security], lmaccess/NetIsServiceAccount, security.netisserviceaccount
-ms.topic: function
 f1_keywords:
 - lmaccess/NetIsServiceAccount
 dev_langs:

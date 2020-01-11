@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: dea3df47-88a2-439f-bf07-b5c592bf23e8
 ms.date: 12/05/2018
 ms.keywords: '*LPWAVEFILTER, *NPWAVEFILTER, *PWAVEFILTER, WAVEFILTER, WAVEFILTER structure [Windows Multimedia], _win32_WAVEFILTER_str, mmreg/WAVEFILTER, multimedia.wavefilter'
-ms.topic: struct
 f1_keywords:
 - mmreg/WAVEFILTER
 dev_langs:

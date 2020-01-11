@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 1f994adb-79ff-4cc1-8769-0faeed893503
 ms.date: 12/05/2018
 ms.keywords: DirectDrawEnumerate, DirectDrawEnumerate function [DirectDraw], DirectDrawEnumerateW, ddraw/DirectDrawEnumerate, ddraw/DirectDrawEnumerateW, directdraw.directdrawenumerate
-ms.topic: function
 f1_keywords:
 - ddraw/DirectDrawEnumerate
 dev_langs:

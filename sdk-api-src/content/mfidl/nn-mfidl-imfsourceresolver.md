@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 079c61c5-7a29-4411-840e-9349190726ac
 ms.date: 12/05/2018
 ms.keywords: 079c61c5-7a29-4411-840e-9349190726ac, IMFSourceResolver, IMFSourceResolver interface [Media Foundation], IMFSourceResolver interface [Media Foundation],described, mf.imfsourceresolver, mfidl/IMFSourceResolver
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFSourceResolver
 dev_langs:

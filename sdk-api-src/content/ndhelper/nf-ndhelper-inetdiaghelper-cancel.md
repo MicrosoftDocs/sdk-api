@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: 0df79e75-f3a6-43fd-82a3-2798ac1d99cd
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [NDF], Cancel method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],Cancel method, INetDiagHelper.Cancel, INetDiagHelper::Cancel, ndf.inetdiaghelpe_cancel, ndhelper/INetDiagHelper::Cancel
-ms.topic: method
 f1_keywords:
 - ndhelper/INetDiagHelper.Cancel
 dev_langs:

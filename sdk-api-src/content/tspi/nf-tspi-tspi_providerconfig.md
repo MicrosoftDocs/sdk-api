@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: b0fa2a9e-bc8b-4364-9442-2091f2366107
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerConfig, TSPI_providerConfig function [TAPI 2.2], _tspi_tspi_providerconfig, tspi.tspi_providerconfig, tspi/TSPI_providerConfig
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_providerConfig
 dev_langs:

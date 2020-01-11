@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 230666c7-e7e4-4e75-a84d-1786e8cbbb6c
 ms.date: 12/05/2018
 ms.keywords: EndPrepareSnapshots, EndPrepareSnapshots method [VSS], EndPrepareSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, IVssProviderCreateSnapshotSet interface [VSS],EndPrepareSnapshots method, IVssProviderCreateSnapshotSet.EndPrepareSnapshots, IVssProviderCreateSnapshotSet::EndPrepareSnapshots, base.ivssprovidercreatesnapshotset_endpreparesnapshots, vsprov/IVssProviderCreateSnapshotSet::EndPrepareSnapshots
-ms.topic: method
 f1_keywords:
 - vsprov/IVssProviderCreateSnapshotSet.EndPrepareSnapshots
 dev_langs:

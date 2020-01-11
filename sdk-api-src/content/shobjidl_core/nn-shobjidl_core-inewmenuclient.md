@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f122d728-5677-4fb7-89fe-9f0b21c4c38d
 ms.date: 12/05/2018
 ms.keywords: INewMenuClient, INewMenuClient interface [Windows Shell], INewMenuClient interface [Windows Shell],described, _shell_INewMenuClient, shell.INewMenuClient, shobjidl_core/INewMenuClient
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/INewMenuClient
 dev_langs:

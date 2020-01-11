@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: cad6d8f0-f7d6-4ede-96a2-b00159962a1b
 ms.date: 12/05/2018
 ms.keywords: CspStatuses property [Security], CspStatuses property [Security],IX509CertificateRequestPkcs10 interface, IX509CertificateRequestPkcs10 interface [Security],CspStatuses property, IX509CertificateRequestPkcs10.CspStatuses, IX509CertificateRequestPkcs10.get_CspStatuses, IX509CertificateRequestPkcs10::CspStatuses, IX509CertificateRequestPkcs10::get_CspStatuses, certenroll/IX509CertificateRequestPkcs10::CspStatuses, certenroll/IX509CertificateRequestPkcs10::get_CspStatuses, get_CspStatuses, security.ix509certificaterequestpkcs10_cspstatuses_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509CertificateRequestPkcs10.CspStatuses
 dev_langs:

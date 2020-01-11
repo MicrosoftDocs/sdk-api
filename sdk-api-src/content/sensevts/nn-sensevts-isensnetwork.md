@@ -7,7 +7,6 @@ tech.root: Sens
 ms.assetid: 1cea5dff-13ea-4afb-84ac-7b8df4f55fc8
 ms.date: 12/05/2018
 ms.keywords: ISensNetwork, ISensNetwork interface [SENS], ISensNetwork interface [SENS],described, _zaw_isensnetwork, sens.isensnetwork, sensevts/ISensNetwork, syncmgr.isensnetwork
-ms.topic: interface
 f1_keywords:
 - sensevts/ISensNetwork
 dev_langs:

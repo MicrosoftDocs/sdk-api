@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 83e7c216-f08f-4dc2-9b53-faa2760985d4
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCreateBatch, ClusterRegCreateBatch function [Failover Cluster], PCLUSTER_REG_CREATE_BATCH, clusapi/ClusterRegCreateBatch, mscs.clusterregcreatebatch
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterRegCreateBatch
 dev_langs:

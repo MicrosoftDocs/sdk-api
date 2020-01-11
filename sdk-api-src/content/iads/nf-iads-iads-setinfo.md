@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: e7ff6acd-b7c4-463d-a34f-fd793067c63a
 ms.date: 12/05/2018
 ms.keywords: IADs interface [ADSI],SetInfo method, IADs.SetInfo, IADs::SetInfo, SetInfo, SetInfo method [ADSI], SetInfo method [ADSI],IADs interface, _ds_iads_setinfo, adsi.iads__setinfo, adsi.iads_setinfo, iads/IADs::SetInfo
-ms.topic: method
 f1_keywords:
 - iads/IADs.SetInfo
 dev_langs:

@@ -5,7 +5,6 @@ description: Gets the output stream description provided when the video processo
 tech.root: mf
 ms.assetid: 5047b341-d045-4210-b10f-026ee3a7a3ca
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoProcessor::GetOutputStreamDesc
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 8c5d6cf4-f99c-46fa-8b8e-008ff8a4d0d7
 ms.date: 12/05/2018
 ms.keywords: CONNECTION_REQUEST_CANCELLED, CONNECTION_REQUEST_FAILED, CONNECTION_REQUEST_PENDING, CONNECTION_REQUEST_SUCCEEDED, CONNECTION_REQUEST_TIMEDOUT, ITsSbResourceNotification interface [Remote Desktop Services],NotifyClientConnectionStateChange method, ITsSbResourceNotification.NotifyClientConnectionStateChange, ITsSbResourceNotification::NotifyClientConnectionStateChange, NotifyClientConnectionStateChange, NotifyClientConnectionStateChange method [Remote Desktop Services], NotifyClientConnectionStateChange method [Remote Desktop Services],ITsSbResourceNotification interface, sbtsv/ITsSbResourceNotification::NotifyClientConnectionStateChange, termserv.itssbresourcenotification_notifyclientconnectionstatechange
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbResourceNotification.NotifyClientConnectionStateChange
 dev_langs:

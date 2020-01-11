@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 0fb78ef8-2f46-4bee-9340-68c5043bf9a4
 ms.date: 12/05/2018
 ms.keywords: MBN_SMS_CAPS, MBN_SMS_CAPS enumeration [Microsoft Broadband Networks], MBN_SMS_CAPS_NONE, MBN_SMS_CAPS_PDU_RECEIVE, MBN_SMS_CAPS_PDU_SEND, MBN_SMS_CAPS_TEXT_RECEIVE, MBN_SMS_CAPS_TEXT_SEND, mbn.mbn_sms_caps, mbnapi/MBN_SMS_CAPS, mbnapi/MBN_SMS_CAPS_NONE, mbnapi/MBN_SMS_CAPS_PDU_RECEIVE, mbnapi/MBN_SMS_CAPS_PDU_SEND, mbnapi/MBN_SMS_CAPS_TEXT_RECEIVE, mbnapi/MBN_SMS_CAPS_TEXT_SEND
-ms.topic: enum
 f1_keywords:
 - mbnapi/MBN_SMS_CAPS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: b73e6344-f5d8-4d21-bda9-ac076bf79dc8
 ms.date: 12/05/2018
 ms.keywords: '*LPMCI_DGV_FREEZE_PARMS, *LPMCI_DGV_PUT_PARMS, *LPMCI_DGV_RECT_PARMS, *LPMCI_DGV_UNFREEZE_PARMS, *LPMCI_DGV_WHERE_PARMS, MCI_DGV_FREEZE_PARMS, MCI_DGV_PUT_PARMS, MCI_DGV_RECT_PARMS, MCI_DGV_RECT_PARMS structure [Windows Multimedia], MCI_DGV_UNFREEZE_PARMS, MCI_DGV_WHERE_PARMS, _win32_MCI_DGV_RECT_PARMS_str, digitalv/MCI_DGV_RECT_PARMS, multimedia.mci_dgv_rect_parms'
-ms.topic: struct
 f1_keywords:
 - digitalv/MCI_DGV_RECT_PARMS
 dev_langs:

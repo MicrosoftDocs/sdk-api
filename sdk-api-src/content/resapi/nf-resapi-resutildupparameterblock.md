@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: b05b5afe-7d4b-4a21-9f28-88d6effaf5af
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_DUP_PARAMETER_BLOCK, PRESUTIL_DUP_PARAMETER_BLOCK function [Failover Cluster], ResUtilDupParameterBlock, ResUtilDupParameterBlock function [Failover Cluster], _wolf_resutildupparameterblock, mscs.resutildupparameterblock, resapi/PRESUTIL_DUP_PARAMETER_BLOCK, resapi/ResUtilDupParameterBlock
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilDupParameterBlock
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 128e3834-d561-46d3-b32b-5bfd290f0995
 ms.date: 12/05/2018
 ms.keywords: IOverlayNotify interface [DirectShow],OnPaletteChange method, IOverlayNotify.OnPaletteChange, IOverlayNotify::OnPaletteChange, IOverlayNotifyOnPaletteChange, OnPaletteChange, OnPaletteChange method [DirectShow], OnPaletteChange method [DirectShow],IOverlayNotify interface, dshow.ioverlaynotify_onpalettechange, strmif/IOverlayNotify::OnPaletteChange
-ms.topic: method
 f1_keywords:
 - strmif/IOverlayNotify.OnPaletteChange
 dev_langs:

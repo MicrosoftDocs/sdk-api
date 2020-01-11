@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 125f09a6-df7f-4aa0-9180-410025b617e2
 ms.date: 12/05/2018
 ms.keywords: _win32_mixerGetLineInfo, mixerGetLineInfo, mixerGetLineInfo function [Windows Multimedia], mixerGetLineInfoA, mixerGetLineInfoW, mmeapi/mixerGetLineInfo, mmeapi/mixerGetLineInfoA, mmeapi/mixerGetLineInfoW, multimedia.mixergetlineinfo
-ms.topic: function
 f1_keywords:
 - mmeapi/mixerGetLineInfo
 dev_langs:

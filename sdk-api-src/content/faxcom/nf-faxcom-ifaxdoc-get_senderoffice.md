@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7gv9.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],SenderOffice property, IFaxDoc.SenderOffice, IFaxDoc.get_SenderOffice, IFaxDoc::SenderOffice, IFaxDoc::get_SenderOffice, IFaxDoc::put_SenderOffice, SenderOffice property [Fax Service], SenderOffice property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_senderoffice, fax._mfax_ifaxdoc_get_senderoffice, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_senderoffice_cpp, faxcom/IFaxDoc::SenderOffice, faxcom/IFaxDoc::get_SenderOffice, faxcom/IFaxDoc::put_SenderOffice, get_SenderOffice
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxDoc.SenderOffice
 dev_langs:

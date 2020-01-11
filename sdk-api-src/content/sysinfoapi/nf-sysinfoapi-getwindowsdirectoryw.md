@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 8c9b55e1-121a-4405-9f83-043752dd48ed
 ms.date: 12/05/2018
 ms.keywords: GetWindowsDirectory, GetWindowsDirectory function, GetWindowsDirectoryA, GetWindowsDirectoryW, _win32_getwindowsdirectory, base.getwindowsdirectory, sysinfoapi/GetWindowsDirectory, sysinfoapi/GetWindowsDirectoryA, sysinfoapi/GetWindowsDirectoryW
-ms.topic: function
 f1_keywords:
 - sysinfoapi/GetWindowsDirectory
 dev_langs:

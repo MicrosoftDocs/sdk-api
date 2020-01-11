@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: e0af1a04-efcb-4613-9715-f3d6ab60afed
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.IsIdentity, D2D1::Matrix3x2F::IsIdentity, IsIdentity, IsIdentity method [Direct2D], IsIdentity method [Direct2D],Matrix3x2F interface, Matrix3x2F interface [Direct2D],IsIdentity method, Matrix3x2F.IsIdentity, Matrix3x2F::IsIdentity, d2d1helper/Matrix3x2F::IsIdentity, direct2d.matrix3x2f_isidentity
-ms.topic: method
 f1_keywords:
 - d2d1helper/Matrix3x2F.IsIdentity
 dev_langs:

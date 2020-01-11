@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 2e1f45d9-dc89-4848-9ba5-e6d54b2a7737
 ms.date: 12/05/2018
 ms.keywords: WTSUserConfigSourceSAM, WTS_CONFIG_SOURCE, WTS_CONFIG_SOURCE enumeration [Remote Desktop Services], termserv.wts_config_source, wtsapi32/WTSUserConfigSourceSAM, wtsapi32/WTS_CONFIG_SOURCE
-ms.topic: enum
 f1_keywords:
 - wtsapi32/WTS_CONFIG_SOURCE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: CEC54C27-F49E-4B41-A18D-69F0414955A1
 ms.date: 12/05/2018
 ms.keywords: IRDPViewerInputSink interface [RDP],SendMouseWheelEvent method, IRDPViewerInputSink.SendMouseWheelEvent, IRDPViewerInputSink::SendMouseWheelEvent, SendMouseWheelEvent, SendMouseWheelEvent method [RDP], SendMouseWheelEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendmousewheelevent, rdpencomapi/IRDPViewerInputSink::SendMouseWheelEvent
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPViewerInputSink.SendMouseWheelEvent
 dev_langs:

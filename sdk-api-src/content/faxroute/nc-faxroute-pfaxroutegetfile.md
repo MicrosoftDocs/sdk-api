@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_4cf9.htm
 ms.date: 12/05/2018
 ms.keywords: FaxRouteGetFile, FaxRouteGetFile callback function [Fax Service], PFAXROUTEGETFILE, PFAXROUTEGETFILE callback, _mfax_faxroutegetfile, fax._mfax_faxroutegetfile, faxroute/FaxRouteGetFile
-ms.topic: callback
 f1_keywords:
 - faxroute/FaxRouteGetFile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 53c9cd2c-06da-41ba-bbd8-bd695fb7fabf
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationEnumerateAppContainerRules, NetworkIsolationEnumerateAppContainerRules function [ICS/ICF], ics.networkisolationenumerateappcontainerrules, netfw/NetworkIsolationEnumerateAppContainerRules
-ms.topic: function
 f1_keywords:
 - netfw/NetworkIsolationEnumerateAppContainerRules
 dev_langs:

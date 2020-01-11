@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_827c.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingArchive interface [Fax Service],Refresh method, IFaxIncomingArchive.Refresh, IFaxIncomingArchive::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxIncomingArchive interface, _mfax_faxincomingarchive.refresh, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_refresh_cpp, fax._mfax_faxincomingarchive_refresh, faxcomex/IFaxIncomingArchive::Refresh
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxIncomingArchive.Refresh
 dev_langs:

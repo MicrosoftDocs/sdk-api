@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 3bf0c7ed-84fc-45c0-8058-b833c3913f09
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetLanguage method, IXpsOMPage.SetLanguage, IXpsOMPage::SetLanguage, SetLanguage, SetLanguage method [XPS Documents and Packaging], SetLanguage method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setlanguage, xpsobjectmodel/IXpsOMPage::SetLanguage
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPage.SetLanguage
 dev_langs:

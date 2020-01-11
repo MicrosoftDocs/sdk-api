@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlansistringtounicodestring.htm
 ms.date: 12/05/2018
 ms.keywords: FALSE, RtlAnsiStringToUnicodeString, RtlAnsiStringToUnicodeString function [Windows API], TRUE, winprog.rtlansistringtounicodestring, winternl/RtlAnsiStringToUnicodeString, winui.rtlansistringtounicodestring
-ms.topic: function
 f1_keywords:
 - winternl/RtlAnsiStringToUnicodeString
 dev_langs:

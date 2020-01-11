@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: 47DD6801-5120-44D3-9EE4-58CCDB4B933A
 ms.date: 12/05/2018
 ms.keywords: EFFECTIVE_POWER_MODE_CALLBACK, EFFECTIVE_POWER_MODE_CALLBACK function, base.effective_power_mode_callback, powersetting/EFFECTIVE_POWER_MODE_CALLBACK
-ms.topic: function
 f1_keywords:
 - powersetting/EFFECTIVE_POWER_MODE_CALLBACK
 dev_langs:

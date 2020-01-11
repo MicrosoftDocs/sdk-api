@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 9aa43cfa-9518-428b-95a1-004fa23df90b
 ms.date: 12/05/2018
 ms.keywords: WTSGetActiveConsoleSessionId, WTSGetActiveConsoleSessionId function [Remote Desktop Services], _win32_wtsgetactiveconsolesessionid, termserv.wtsgetactiveconsolesessionid, winbase/WTSGetActiveConsoleSessionId
-ms.topic: function
 f1_keywords:
 - winbase/WTSGetActiveConsoleSessionId
 dev_langs:

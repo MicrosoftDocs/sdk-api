@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: db01f2a4-5cd5-4acc-be17-37b4c9861cc9
 ms.date: 12/05/2018
 ms.keywords: IComponentAuthenticate interface [windows Media Device Manager],SACGetProtocols method, IComponentAuthenticate.SACGetProtocols, IComponentAuthenticate::SACGetProtocols, IComponentAuthenticateSACGetProtocols, SACGetProtocols, SACGetProtocols method [windows Media Device Manager], SACGetProtocols method [windows Media Device Manager],IComponentAuthenticate interface, mswmdm/IComponentAuthenticate::SACGetProtocols, wmdm.icomponentauthenticate_sacgetprotocols
-ms.topic: method
 f1_keywords:
 - mswmdm/IComponentAuthenticate.SACGetProtocols
 dev_langs:

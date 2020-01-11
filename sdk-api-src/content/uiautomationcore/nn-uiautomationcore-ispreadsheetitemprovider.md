@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: E6428FED-2BCC-4AD5-B612-A22899624538
 ms.date: 12/05/2018
 ms.keywords: ISpreadsheetItemProvider, ISpreadsheetItemProvider interface [Windows Accessibility], ISpreadsheetItemProvider interface [Windows Accessibility],described, uiautomationcore/ISpreadsheetItemProvider, winauto.uiauto_ISpreadsheetItemProvider
-ms.topic: interface
 f1_keywords:
 - uiautomationcore/ISpreadsheetItemProvider
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 866e7ee7-5df1-4e6b-8b41-85c6ff8b64d5
 ms.date: 12/05/2018
 ms.keywords: GetServiceType, GetServiceType method [Windows Media Player], GetServiceType method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetServiceType method, IWMPRemoteMediaServices.GetServiceType, IWMPRemoteMediaServices::GetServiceType, IWMPRemoteMediaServicesGetServiceType, wmp.iwmpremotemediaservices_getservicetype, wmp/IWMPRemoteMediaServices::GetServiceType
-ms.topic: method
 f1_keywords:
 - wmp/IWMPRemoteMediaServices.GetServiceType
 dev_langs:

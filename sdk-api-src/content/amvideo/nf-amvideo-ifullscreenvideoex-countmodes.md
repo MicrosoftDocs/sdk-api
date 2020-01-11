@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 70d4e124-083b-4729-8f39-778e815ea23b
 ms.date: 12/05/2018
 ms.keywords: CountModes, CountModes method [DirectShow], CountModes method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoCountModes, IFullScreenVideoEx interface [DirectShow],CountModes method, IFullScreenVideoEx.CountModes, IFullScreenVideoEx::CountModes, amvideo/IFullScreenVideoEx::CountModes, dshow.ifullscreenvideoex_countmodes
-ms.topic: method
 f1_keywords:
 - amvideo/IFullScreenVideoEx.CountModes
 dev_langs:

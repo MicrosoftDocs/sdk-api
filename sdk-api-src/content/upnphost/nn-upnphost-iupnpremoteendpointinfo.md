@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 32e246cd-50eb-4221-8166-a7cd8ed42d69
 ms.date: 12/05/2018
 ms.keywords: IUPnPRemoteEndpointInfo, IUPnPRemoteEndpointInfo interface [UPnP APIs], IUPnPRemoteEndpointInfo interface [UPnP APIs],described, upnp.iupnpremoteendpointinfo, upnphost/IUPnPRemoteEndpointInfo
-ms.topic: interface
 f1_keywords:
 - upnphost/IUPnPRemoteEndpointInfo
 dev_langs:

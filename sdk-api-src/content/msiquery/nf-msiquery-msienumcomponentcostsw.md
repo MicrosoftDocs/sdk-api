@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 3de3a044-2780-445b-a09f-f08ff82f91f3
 ms.date: 12/05/2018
 ms.keywords: MsiEnumComponentCosts, MsiEnumComponentCosts function, MsiEnumComponentCostsA, MsiEnumComponentCostsW, _msi_msienumcomponentcosts, msiquery/MsiEnumComponentCosts, msiquery/MsiEnumComponentCostsA, msiquery/MsiEnumComponentCostsW, setup.msienumcomponentcosts
-ms.topic: function
 f1_keywords:
 - msiquery/MsiEnumComponentCosts
 dev_langs:

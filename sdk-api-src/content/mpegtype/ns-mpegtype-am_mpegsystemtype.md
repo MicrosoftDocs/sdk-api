@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 218bf0c3-e618-4dcc-8618-34cd1fb5c0a8
 ms.date: 12/05/2018
 ms.keywords: AM_MPEGSYSTEMTYPE, AM_MPEGSYSTEMTYPE structure [DirectShow], dshow.am_mpegsystemtype, mpegtype/AM_MPEGSYSTEMTYPE
-ms.topic: struct
 f1_keywords:
 - mpegtype/AM_MPEGSYSTEMTYPE
 dev_langs:

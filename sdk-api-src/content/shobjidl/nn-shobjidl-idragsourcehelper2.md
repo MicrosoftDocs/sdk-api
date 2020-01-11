@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 20529b27-22d2-4c77-a2a7-93e54b0b7748
 ms.date: 12/05/2018
 ms.keywords: IDragSourceHelper2, IDragSourceHelper2 interface [Windows Shell], IDragSourceHelper2 interface [Windows Shell],described, _shell_IDragSourceHelper2, shell.IDragSourceHelper2, shobjidl/IDragSourceHelper2
-ms.topic: interface
 f1_keywords:
 - shobjidl/IDragSourceHelper2
 dev_langs:

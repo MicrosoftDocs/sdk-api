@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 24670a23-4300-48f9-a089-dff3082cb544
 ms.date: 12/05/2018
 ms.keywords: IComMethodEvents, IComMethodEvents interface [COM+], IComMethodEvents interface [COM+],described, _dtc_IComMethodEvents, comsvcs/IComMethodEvents, cos.icommethodevents
-ms.topic: interface
 f1_keywords:
 - comsvcs/IComMethodEvents
 dev_langs:

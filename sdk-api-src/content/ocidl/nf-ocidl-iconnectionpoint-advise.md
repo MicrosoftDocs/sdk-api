@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 11257f24-096c-4240-8fac-4e42a6161d66
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [COM], Advise method [COM],IConnectionPoint interface, IConnectionPoint interface [COM],Advise method, IConnectionPoint.Advise, IConnectionPoint::Advise, _com_iconnectionpoint_advise, com.iconnectionpoint_advise, ocidl/IConnectionPoint::Advise
-ms.topic: method
 f1_keywords:
 - ocidl/IConnectionPoint.Advise
 dev_langs:

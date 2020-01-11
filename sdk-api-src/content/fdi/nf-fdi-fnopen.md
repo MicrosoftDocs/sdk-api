@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 45bd2d23-1f6d-42a6-8afb-86227da6118f
 ms.date: 12/05/2018
 ms.keywords: FNOPEN, FNOPEN macro [Windows API], fdi/FNOPEN, winprog.fnopen
-ms.topic: macro
 f1_keywords:
 - fdi/FNOPEN
 dev_langs:

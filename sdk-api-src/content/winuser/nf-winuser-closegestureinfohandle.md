@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: f2bf98b2-a4f7-4b63-b9ae-b2534415cb4b
 ms.date: 12/05/2018
 ms.keywords: CloseGestureInfoHandle, CloseGestureInfoHandle function [Windows Touch], wintouch.closegestureinfohandle, winuser/CloseGestureInfoHandle
-ms.topic: function
 f1_keywords:
 - winuser/CloseGestureInfoHandle
 dev_langs:

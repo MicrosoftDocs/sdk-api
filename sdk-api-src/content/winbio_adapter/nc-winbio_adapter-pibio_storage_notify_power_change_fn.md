@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 22c2ce7b-6e30-40e1-bbe8-f0e479ddcc77
 ms.date: 12/05/2018
 ms.keywords: PBT_APMPOWERSTATUSCHANGE, PBT_APMRESUMEAUTOMATIC, PBT_APMSUSPEND, PIBIO_STORAGE_NOTIFY_POWER_CHANGE_FN, PIBIO_STORAGE_NOTIFY_POWER_CHANGE_FN callback, StorageAdapterNotifyPowerChange, StorageAdapterNotifyPowerChange callback function [Windows Biometric Framework API], secbiomet.storageadapternotifypowerchange, winbio_adapter/StorageAdapterNotifyPowerChange
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterNotifyPowerChange
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: CE89671C-C70D-49C0-AA22-E39EEAA310D7
 ms.date: 12/05/2018
 ms.keywords: KeyCredentialManagerFreeInformation, KeyCredentialManagerFreeInformation function [Security], keycredmgr/KeyCredentialManagerFreeInformation, security.keycredentialmanagerfreeinformation
-ms.topic: function
 f1_keywords:
 - keycredmgr/KeyCredentialManagerFreeInformation
 dev_langs:

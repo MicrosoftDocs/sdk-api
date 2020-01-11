@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 53970f17-2857-4624-8594-069cceb93b1e
 ms.date: 12/05/2018
 ms.keywords: IRegisteredSyncProvider, IRegisteredSyncProvider interface [Windows Sync], IRegisteredSyncProvider interface [Windows Sync],described, syncregistration/IRegisteredSyncProvider, winsync.iregisteredsyncprovider
-ms.topic: interface
 f1_keywords:
 - syncregistration/IRegisteredSyncProvider
 dev_langs:

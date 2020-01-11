@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 896b0b83-b262-4a09-a88e-eb4b623888ab
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextGetByKey1, FwpmProviderContextGetByKey1 function [Filtering], fwp.fwpmprovidercontextgetbykey1_func, fwpmu/FwpmProviderContextGetByKey1
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmProviderContextGetByKey1
 dev_langs:

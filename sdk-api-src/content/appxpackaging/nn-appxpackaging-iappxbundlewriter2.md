@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: FD9EAF80-8449-4016-91A9-2299711C3D48
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleWriter2, IAppxBundleWriter2 interface [App packaging and management], IAppxBundleWriter2 interface [App packaging and management],described, appxpackaging/IAppxBundleWriter2, appxpkg.iappxbundlewriter2
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxBundleWriter2
 dev_langs:

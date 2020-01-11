@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 68B89E8C-2868-4F33-87A5-66A2FEFC0441
 ms.date: 12/05/2018
 ms.keywords: ICreatingProcess, ICreatingProcess interface [Windows Shell], ICreatingProcess interface [Windows Shell],described, shell.icreatingprocess, shobjidl_core/ICreatingProcess
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/ICreatingProcess
 dev_langs:

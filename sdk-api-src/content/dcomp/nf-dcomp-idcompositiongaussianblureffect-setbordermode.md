@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 34A96D63-E6F3-48F3-8105-A7E30C1D4E7D
 ms.date: 12/05/2018
 ms.keywords: IDCompositionGaussianBlurEffect interface [DirectComposition],SetBorderMode method, IDCompositionGaussianBlurEffect.SetBorderMode, IDCompositionGaussianBlurEffect::SetBorderMode, SetBorderMode, SetBorderMode method [DirectComposition], SetBorderMode method [DirectComposition],IDCompositionGaussianBlurEffect interface, dcomp/IDCompositionGaussianBlurEffect::SetBorderMode, directcomp.idcompositiongaussianblureffect_setbordermode
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionGaussianBlurEffect.SetBorderMode
 dev_langs:

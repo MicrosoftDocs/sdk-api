@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointfclass\pointfmethods\operator_17point.htm
 ms.date: 12/05/2018
 ms.keywords: PointF class [GDI+],operator- method, PointF.operator-, PointF.operator-(const PointF&), PointF.operator-sub, PointF::operator-, PointF::operator-sub, _gdiplus_CLASS_PointF_operator_opminus_point_, gdiplus._gdiplus_CLASS_PointF_operator_opminus_point_, operator-, operator- method [GDI+], operator- method [GDI+],PointF class
-ms.topic: method
 f1_keywords:
 - gdiplustypes/PointF.operator-
 dev_langs:

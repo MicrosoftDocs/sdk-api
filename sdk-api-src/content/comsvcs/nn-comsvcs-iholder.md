@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 3c852e72-2fdc-4fd0-b523-f5601154da2a
 ms.date: 12/05/2018
 ms.keywords: IHolder, IHolder interface [COM+], IHolder interface [COM+],described, _dtc_IHolder_Interface, comsvcs/IHolder, cos.iholder
-ms.topic: interface
 f1_keywords:
 - comsvcs/IHolder
 dev_langs:

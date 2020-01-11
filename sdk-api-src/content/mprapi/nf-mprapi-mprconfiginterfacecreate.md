@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: e368aa3c-bb80-49ed-a1da-39777dada960
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceCreate, MprConfigInterfaceCreate function [RAS], _mpr_mprconfiginterfacecreate, mprapi/MprConfigInterfaceCreate, rras.mprconfiginterfacecreate
-ms.topic: function
 f1_keywords:
 - mprapi/MprConfigInterfaceCreate
 dev_langs:

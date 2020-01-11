@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 5da582c2-37f9-47ee-b8ea-d21f1323f1df
 ms.date: 12/05/2018
 ms.keywords: CLSID_MFSinkWriter, CLSID_MFSourceReader, CreateInstanceFromObject, CreateInstanceFromObject method [Media Foundation], CreateInstanceFromObject method [Media Foundation],IMFReadWriteClassFactory interface, IMFByteStream, IMFMediaSink, IMFMediaSource, IMFReadWriteClassFactory interface [Media Foundation],CreateInstanceFromObject method, IMFReadWriteClassFactory.CreateInstanceFromObject, IMFReadWriteClassFactory::CreateInstanceFromObject, mf.imfreadwriteclassfactory_createinstancefromobject, mfreadwrite/IMFReadWriteClassFactory::CreateInstanceFromObject
-ms.topic: method
 f1_keywords:
 - mfreadwrite/IMFReadWriteClassFactory.CreateInstanceFromObject
 dev_langs:

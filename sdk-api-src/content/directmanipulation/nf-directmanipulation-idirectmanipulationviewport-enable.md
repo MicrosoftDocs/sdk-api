@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 47ebb502-26c6-4bff-8baf-bd825fc06755
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [Direct Manipulation], Enable method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],Enable method, IDirectManipulationViewport.Enable, IDirectManipulationViewport::Enable, directmanipulation.idirectmanipulationviewport_enable, directmanipulation/IDirectManipulationViewport::Enable
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationViewport.Enable
 dev_langs:

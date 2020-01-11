@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\geterrors.htm
 ms.date: 12/05/2018
 ms.keywords: GetErrors, GetErrors method [search], GetErrors method [search],IQuerySolution interface, IQuerySolution interface [search],GetErrors method, IQuerySolution.GetErrors, IQuerySolution::GetErrors, _search_IQuerySolution_GetErrors, search._search_IQuerySolution_GetErrors, structuredquery/IQuerySolution::GetErrors
-ms.topic: method
 f1_keywords:
 - structuredquery/IQuerySolution.GetErrors
 dev_langs:

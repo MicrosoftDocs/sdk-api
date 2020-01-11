@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: E90576A7-B665-4911-A17E-FD328CD71458
 ms.date: 12/05/2018
 ms.keywords: ID3D12SharingContract interface,SharedFenceSignal method, ID3D12SharingContract.SharedFenceSignal, ID3D12SharingContract::SharedFenceSignal, SharedFenceSignal, SharedFenceSignal method, SharedFenceSignal method,ID3D12SharingContract interface, d3d12sdklayers/ID3D12SharingContract::SharedFenceSignal, direct3d12.id3d12sharingcontract_sharedfencesignal
-ms.topic: method
 f1_keywords:
 - d3d12sdklayers/ID3D12SharingContract.SharedFenceSignal
 dev_langs:

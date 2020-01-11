@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 393f6e0a-fbea-4aa0-9c18-f96da18e61e9
 ms.date: 12/05/2018
 ms.keywords: GetUmsCompletionListEvent, GetUmsCompletionListEvent function, base.getumscompletionlistevent, winbase/GetUmsCompletionListEvent
-ms.topic: function
 f1_keywords:
 - winbase/GetUmsCompletionListEvent
 dev_langs:

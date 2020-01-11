@@ -7,7 +7,6 @@ tech.root: mediastreaming
 ms.assetid: 746BFF49-C75F-417B-A54A-841A4A0E84C5
 ms.date: 12/05/2018
 ms.keywords: IStreamSelectorStatics, IStreamSelectorStatics interface [Media Streaming API], IStreamSelectorStatics interface [Media Streaming API],described, mediastreaming.istreamselectorstatics, windows/IStreamSelectorStatics
-ms.topic: interface
 f1_keywords:
 - windows.media.streaming/IStreamSelectorStatics
 dev_langs:

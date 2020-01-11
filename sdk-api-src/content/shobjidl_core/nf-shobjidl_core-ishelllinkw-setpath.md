@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 032610ba-d6ff-4200-8fd3-455460587dec
 ms.date: 12/05/2018
 ms.keywords: IShellLink interface [Windows Shell],SetPath method, IShellLink::SetPath, IShellLinkA interface [Windows Shell],SetPath method, IShellLinkA::SetPath, IShellLinkW interface [Windows Shell],SetPath method, IShellLinkW.SetPath, IShellLinkW::SetPath, SetPath, SetPath method [Windows Shell], SetPath method [Windows Shell],IShellLink interface, SetPath method [Windows Shell],IShellLinkA interface, SetPath method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetPath, shell.IShellLink_SetPath, shobjidl_core/IShellLink::SetPath, shobjidl_core/IShellLinkA::SetPath, shobjidl_core/IShellLinkW::SetPath
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellLink.SetPath
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 9ACFE824-5F0D-42CC-8E2F-DF2658AC9908
 ms.date: 12/05/2018
 ms.keywords: IEnterpriseDropTarget, IEnterpriseDropTarget interface [COM], IEnterpriseDropTarget interface [COM],described, com.ienterprisedroptarget, oleidl/IEnterpriseDropTarget
-ms.topic: interface
 f1_keywords:
 - oleidl/IEnterpriseDropTarget
 dev_langs:

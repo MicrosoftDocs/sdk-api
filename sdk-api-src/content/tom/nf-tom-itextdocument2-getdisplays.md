@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 8f610b45-9c17-4b20-82e0-fa78169360cc
 ms.date: 12/05/2018
 ms.keywords: GetDisplays, GetDisplays method [Windows Controls], GetDisplays method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetDisplays method, ITextDocument2.GetDisplays, ITextDocument2::GetDisplays, controls.itextdocument2_getdisplays, tom/ITextDocument2::GetDisplays
-ms.topic: method
 f1_keywords:
 - tom/ITextDocument2.GetDisplays
 dev_langs:

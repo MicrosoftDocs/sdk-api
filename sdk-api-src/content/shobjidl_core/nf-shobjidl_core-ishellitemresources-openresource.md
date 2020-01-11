@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: abef9009-7e0d-4a09-aba8-2b391e4ab487
 ms.date: 12/05/2018
 ms.keywords: IShellItemResources interface [Windows Shell],OpenResource method, IShellItemResources.OpenResource, IShellItemResources::OpenResource, OpenResource, OpenResource method [Windows Shell], OpenResource method [Windows Shell],IShellItemResources interface, _shell_IShellItemResources_OpenResource, shell.IShellItemResources_OpenResource, shobjidl_core/IShellItemResources::OpenResource
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellItemResources.OpenResource
 dev_langs:

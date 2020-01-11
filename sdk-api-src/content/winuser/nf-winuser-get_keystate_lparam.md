@@ -7,7 +7,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_keystate_lparam.htm
 ms.date: 12/05/2018
 ms.keywords: GET_KEYSTATE_LPARAM, GET_KEYSTATE_LPARAM macro [Keyboard and Mouse Input], _win32_GET_KEYSTATE_LPARAM, _win32_get_keystate_lparam_cpp, inputdev.get_keystate_lparam, winui._win32_get_keystate_lparam, winuser/GET_KEYSTATE_LPARAM
-ms.topic: macro
 f1_keywords:
 - winuser/GET_KEYSTATE_LPARAM
 dev_langs:

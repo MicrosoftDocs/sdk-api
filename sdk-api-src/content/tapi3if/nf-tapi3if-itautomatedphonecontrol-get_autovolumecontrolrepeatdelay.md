@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: a26fd436-b792-4415-bc47-eca2b1114002
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoVolumeControlRepeatDelay method, ITAutomatedPhoneControl.get_AutoVolumeControlRepeatDelay, ITAutomatedPhoneControl::get_AutoVolumeControlRepeatDelay, _tapi3_itautomatedphonecontrol_get_autovolumecontrolrepeatdelay, get_AutoVolumeControlRepeatDelay, get_AutoVolumeControlRepeatDelay method [TAPI 2.2], get_AutoVolumeControlRepeatDelay method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autovolumecontrolrepeatdelay, tapi3if/ITAutomatedPhoneControl::get_AutoVolumeControlRepeatDelay
-ms.topic: method
 f1_keywords:
 - tapi3if/ITAutomatedPhoneControl.get_AutoVolumeControlRepeatDelay
 dev_langs:

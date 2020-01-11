@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 15DB3383-D7EC-4047-A1B8-90F8A47428EE
 ms.date: 12/05/2018
 ms.keywords: WindowsSubstring, WindowsSubstring function [Windows Runtime], winrt.windowssubstring, winstring/WindowsSubstring
-ms.topic: function
 f1_keywords:
 - winstring/WindowsSubstring
 dev_langs:

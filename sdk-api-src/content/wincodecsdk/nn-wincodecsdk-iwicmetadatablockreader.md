@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 09614b44-ebc2-44f4-9755-9df62f1b2178
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataBlockReader, IWICMetadataBlockReader interface [Windows Imaging Component], IWICMetadataBlockReader interface [Windows Imaging Component],described, _wic_codec_iwicmetadatablockreader, wic._wic_codec_iwicmetadatablockreader, wincodecsdk/IWICMetadataBlockReader
-ms.topic: interface
 f1_keywords:
 - wincodecsdk/IWICMetadataBlockReader
 dev_langs:

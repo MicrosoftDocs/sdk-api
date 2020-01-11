@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 557183b3-aaeb-42d3-b7e0-72fc17f1205b
 ms.date: 12/05/2018
 ms.keywords: FsrmPropertyValueType, FsrmPropertyValueType enumeration [File Server Resource Manager], FsrmPropertyValueType_DateOffset, FsrmPropertyValueType_Literal, FsrmPropertyValueType_Undefined, fs.fsrmpropertyvaluetype, fsrm.fsrmpropertyvaluetype, fsrmenums/FsrmPropertyValueType, fsrmenums/FsrmPropertyValueType_DateOffset, fsrmenums/FsrmPropertyValueType_Literal, fsrmenums/FsrmPropertyValueType_Undefined
-ms.topic: enum
 f1_keywords:
 - fsrmenums/FsrmPropertyValueType
 dev_langs:

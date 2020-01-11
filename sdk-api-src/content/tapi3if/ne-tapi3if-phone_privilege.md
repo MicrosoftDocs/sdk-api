@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: f1c162c6-058d-4cf2-a493-17b7752ffeeb
 ms.date: 12/05/2018
 ms.keywords: PHONE_PRIVILEGE, PHONE_PRIVILEGE enumeration [TAPI 2.2], PP_MONITOR, PP_OWNER, _tapi3_phone_privilege, tapi3.phone_privilege, tapi3if/PHONE_PRIVILEGE, tapi3if/PP_MONITOR, tapi3if/PP_OWNER
-ms.topic: enum
 f1_keywords:
 - tapi3if/PHONE_PRIVILEGE
 dev_langs:

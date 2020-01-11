@@ -7,7 +7,6 @@ tech.root: powermeter
 ms.assetid: E23B1ED2-A87D-419A-8BEB-136AA77258AE
 ms.date: 12/05/2018
 ms.keywords: IOCTL_EMI_GET_MEASUREMENT, IOCTL_EMI_GET_MEASUREMENT control, IOCTL_EMI_GET_MEASUREMENT control code [Power Metering and Budgeting Devices], emi/IOCTL_EMI_GET_MEASUREMENT, powermeter.ioctl_emi_get_measurement
-ms.topic: ioctl
 f1_keywords:
 - emi/IOCTL_EMI_GET_MEASUREMENT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: db0eff33-f20a-481e-bcae-8a72674ab906
 ms.date: 12/05/2018
 ms.keywords: ITextStrings interface [Windows Controls],MoveBoundary method, ITextStrings.MoveBoundary, ITextStrings::MoveBoundary, MoveBoundary, MoveBoundary method [Windows Controls], MoveBoundary method [Windows Controls],ITextStrings interface, controls.itextstrings_moveboundary, tom/ITextStrings::MoveBoundary
-ms.topic: method
 f1_keywords:
 - tom/ITextStrings.MoveBoundary
 dev_langs:

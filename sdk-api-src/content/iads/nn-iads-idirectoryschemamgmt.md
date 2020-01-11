@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 96062c41-6e95-4024-b16d-4002ed84ec5d
 ms.date: 12/05/2018
 ms.keywords: IDirectorySchemaMgmt, IDirectorySchemaMgmt interface [ADSI], IDirectorySchemaMgmt interface [ADSI],described, adsi.idirectoryschemamgmt, iads/IDirectorySchemaMgmt
-ms.topic: interface
 f1_keywords:
 - iads/IDirectorySchemaMgmt
 dev_langs:

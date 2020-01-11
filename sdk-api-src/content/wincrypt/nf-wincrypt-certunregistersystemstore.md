@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 958e4185-4c37-450c-abfc-91b95593227e
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_DELETE_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertUnregisterSystemStore, CertUnregisterSystemStore function [Security], _crypto2_certunregistersystemstore, security.certunregistersystemstore, wincrypt/CertUnregisterSystemStore
-ms.topic: function
 f1_keywords:
 - wincrypt/CertUnregisterSystemStore
 dev_langs:

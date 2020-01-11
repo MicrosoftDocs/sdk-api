@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: AA973F9D-264F-4D08-9D86-C5DAEF1C09D5
 ms.date: 12/05/2018
 ms.keywords: IPenInputPanel, IPenInputPanel interface [Tablet PC], IPenInputPanel interface [Tablet PC],described, peninputpanel/IPenInputPanel, tablet.ipeninputpanel
-ms.topic: interface
 f1_keywords:
 - peninputpanel/IPenInputPanel
 dev_langs:

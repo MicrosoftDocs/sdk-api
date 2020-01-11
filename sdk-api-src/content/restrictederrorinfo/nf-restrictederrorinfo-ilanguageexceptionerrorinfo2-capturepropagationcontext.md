@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 60026962-4E6C-4906-97D9-46BD2BCA3AC6
 ms.date: 12/05/2018
 ms.keywords: CapturePropagationContext, CapturePropagationContext method [Windows Runtime], CapturePropagationContext method [Windows Runtime],ILanguageExceptionErrorInfo2 interface, ILanguageExceptionErrorInfo2 interface [Windows Runtime],CapturePropagationContext method, ILanguageExceptionErrorInfo2.CapturePropagationContext, ILanguageExceptionErrorInfo2::CapturePropagationContext, restrictederrorinfo/ILanguageExceptionErrorInfo2::CapturePropagationContext, winrt.ilanguageexceptionerrorinfo2_capturepropagationcontext
-ms.topic: method
 f1_keywords:
 - restrictederrorinfo/ILanguageExceptionErrorInfo2.CapturePropagationContext
 dev_langs:

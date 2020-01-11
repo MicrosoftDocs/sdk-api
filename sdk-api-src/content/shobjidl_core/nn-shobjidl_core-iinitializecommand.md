@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e5a2a4d3-2488-4da2-aaab-c27461859d9f
 ms.date: 12/05/2018
 ms.keywords: IInitializeCommand, IInitializeCommand interface [Windows Shell], IInitializeCommand interface [Windows Shell],described, _shell_IInitializeCommand, shell.IInitializeCommand, shobjidl_core/IInitializeCommand
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IInitializeCommand
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: c642d329-c996-4207-bdcf-7c79d955b2c4
 ms.date: 12/05/2018
 ms.keywords: ITransactionProxy interface [COM+],IsReusable method, ITransactionProxy.IsReusable, ITransactionProxy::IsReusable, IsReusable, IsReusable method [COM+], IsReusable method [COM+],ITransactionProxy interface, comsvcs/ITransactionProxy::IsReusable, cos.itransactionproxy_isreusable
-ms.topic: method
 f1_keywords:
 - comsvcs/ITransactionProxy.IsReusable
 dev_langs:

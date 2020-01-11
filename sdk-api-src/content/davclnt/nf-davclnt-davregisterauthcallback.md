@@ -7,7 +7,6 @@ tech.root: WebDAV
 ms.assetid: 7b381929-174f-4b7b-aa22-dc7a2c3e3b4d
 ms.date: 12/05/2018
 ms.keywords: DavRegisterAuthCallback, DavRegisterAuthCallback function [WebDAV], davclnt/DavRegisterAuthCallback, webdav.davregisterauthcallback
-ms.topic: function
 f1_keywords:
 - davclnt/DavRegisterAuthCallback
 dev_langs:

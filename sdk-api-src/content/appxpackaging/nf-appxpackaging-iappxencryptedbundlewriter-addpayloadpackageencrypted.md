@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 974C29A7-3FEE-4042-986F-D8FD3774F9A6
 ms.date: 12/05/2018
 ms.keywords: AddPayloadPackageEncrypted, AddPayloadPackageEncrypted method [App packaging and management], AddPayloadPackageEncrypted method [App packaging and management],IAppxEncryptedBundleWriter interface, IAppxEncryptedBundleWriter interface [App packaging and management],AddPayloadPackageEncrypted method, IAppxEncryptedBundleWriter.AddPayloadPackageEncrypted, IAppxEncryptedBundleWriter::AddPayloadPackageEncrypted, appxpackaging/IAppxEncryptedBundleWriter::AddPayloadPackageEncrypted, appxpkg.iappxencryptedbundlewriter_addpayloadpackageencrypted
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxEncryptedBundleWriter.AddPayloadPackageEncrypted
 dev_langs:

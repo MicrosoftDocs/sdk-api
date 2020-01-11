@@ -7,7 +7,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\functions\wabopen.htm
 ms.date: 12/05/2018
 ms.keywords: WABOpen, WABOpen callback, WABOpen callback function [Windows Address Book], _wab_WABOpen, wab._wab_WABOpen, wabapi/WABOpen
-ms.topic: callback
 f1_keywords:
 - wabapi/WABOpen
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 9109d867-d9dc-4b95-a674-9f59ed7aa6a4
 ms.date: 12/05/2018
 ms.keywords: ConnectNotify, ConnectNotify method [Remote Desktop Services], ConnectNotify method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],ConnectNotify method, IWTSProtocolConnection.ConnectNotify, IWTSProtocolConnection::ConnectNotify, termserv.iwtsprotocolconnection_connectnotify, wtsprotocol/IWTSProtocolConnection::ConnectNotify
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolConnection.ConnectNotify
 dev_langs:

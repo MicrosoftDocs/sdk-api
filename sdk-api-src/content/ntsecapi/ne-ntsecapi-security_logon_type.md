@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: d775d782-9403-47b2-bb43-8f677db49eb9
 ms.date: 12/05/2018
 ms.keywords: '*PSECURITY_LOGON_TYPE, Batch, CachedInteractive, CachedRemoteInteractive, CachedUnlock, Interactive, Network, NetworkCleartext, NewCredentials, PSECURITY_LOGON_TYPE, PSECURITY_LOGON_TYPE enumeration pointer [Security], Proxy, RemoteInteractive, SECURITY_LOGON_TYPE, SECURITY_LOGON_TYPE enumeration [Security], Service, Unlock, _lsa_security_logon_type, ntsecapi/Batch, ntsecapi/CachedInteractive, ntsecapi/CachedRemoteInteractive, ntsecapi/CachedUnlock, ntsecapi/Interactive, ntsecapi/Network, ntsecapi/NetworkCleartext, ntsecapi/NewCredentials, ntsecapi/PSECURITY_LOGON_TYPE, ntsecapi/Proxy, ntsecapi/RemoteInteractive, ntsecapi/SECURITY_LOGON_TYPE, ntsecapi/Service, ntsecapi/Unlock, security.security_logon_type'
-ms.topic: enum
 f1_keywords:
 - ntsecapi/SECURITY_LOGON_TYPE
 dev_langs:

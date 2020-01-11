@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 29d9c39c-0067-4ec4-b49c-13a174ff8722
 ms.date: 12/05/2018
 ms.keywords: IAccClientDocMgr, IAccClientDocMgr interface [Windows Accessibility], IAccClientDocMgr interface [Windows Accessibility],described, msaa.iaccclientdocmgr, msaatext/IAccClientDocMgr, winauto.iaccclientdocmgr
-ms.topic: interface
 f1_keywords:
 - msaatext/IAccClientDocMgr
 dev_langs:

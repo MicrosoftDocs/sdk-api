@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: bcaf4a0d-8a0d-4016-ab6e-9e1a0fd65d4b
 ms.date: 12/05/2018
 ms.keywords: RpcServerUnregisterIf, RpcServerUnregisterIf function [RPC], _rpc_rpcserverunregisterif, rpc.rpcserverunregisterif, rpcdce/RpcServerUnregisterIf
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcServerUnregisterIf
 dev_langs:

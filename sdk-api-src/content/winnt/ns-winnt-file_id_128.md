@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 254ea6a9-e1dd-4b97-91f7-2693065c4bb8
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_ID_128, EXT_FILE_ID_128, EXT_FILE_ID_128 structure [Files], FILE_ID_128, FILE_ID_128 structure [Files], PEXT_FILE_ID_128, PEXT_FILE_ID_128 structure pointer [Files], _FILE_ID_128, fs.ext_file_id_128, winnt/FILE_ID_128, winnt/PEXT_FILE_ID_128'
-ms.topic: struct
 f1_keywords:
 - winnt/EXT_FILE_ID_128
 dev_langs:

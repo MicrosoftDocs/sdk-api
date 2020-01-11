@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1f16f6e4-7847-4bc7-adce-995876db24bd
 ms.date: 12/05/2018
 ms.keywords: DragAcceptFiles, DragAcceptFiles function [Windows Shell], _win32_DragAcceptFiles, shell.DragAcceptFiles, shellapi/DragAcceptFiles
-ms.topic: function
 f1_keywords:
 - shellapi/DragAcceptFiles
 dev_langs:

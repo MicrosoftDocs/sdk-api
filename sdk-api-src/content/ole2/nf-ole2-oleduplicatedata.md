@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c4ba0b54-e9e1-4c05-b4f8-ce5390cada17
 ms.date: 12/05/2018
 ms.keywords: OleDuplicateData, OleDuplicateData function [COM], _ole_OleDuplicateData, com.oleduplicatedata, ole2/OleDuplicateData
-ms.topic: function
 f1_keywords:
 - ole2/OleDuplicateData
 dev_langs:

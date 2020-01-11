@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: f779c197-8467-481a-abf5-d3fd3ac90ba7
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentWebClassFactory, IX509EnrollmentWebClassFactory interface [Security], IX509EnrollmentWebClassFactory interface [Security],described, certenroll/IX509EnrollmentWebClassFactory, security.ix509enrollmentwebclassfactory
-ms.topic: interface
 f1_keywords:
 - certenroll/IX509EnrollmentWebClassFactory
 dev_langs:

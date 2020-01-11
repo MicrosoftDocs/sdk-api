@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\init.htm
 ms.date: 12/05/2018
 ms.keywords: IWordBreaker interface [search],Init method, IWordBreaker.Init, IWordBreaker::Init, Init, Init method [search], Init method [search],IWordBreaker interface, _search_IWordBreaker_Init, indexsrv/IWordBreaker::Init, search._search_IWordBreaker_Init
-ms.topic: method
 f1_keywords:
 - indexsrv/IWordBreaker.Init
 dev_langs:

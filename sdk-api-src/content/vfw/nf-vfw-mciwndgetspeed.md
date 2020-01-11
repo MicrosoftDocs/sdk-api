@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: d327b649-8c1e-4219-a1ec-8f89e3a9a33e
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetSpeed, MCIWndGetSpeed macro [Windows Multimedia], _win32_MCIWndGetSpeed, multimedia.mciwndgetspeed, vfw/MCIWndGetSpeed
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndGetSpeed
 dev_langs:

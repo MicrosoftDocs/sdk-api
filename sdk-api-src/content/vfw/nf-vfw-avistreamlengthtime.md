@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 550d04b2-d5d4-4acc-97d3-8cd180de1545
 ms.date: 12/05/2018
 ms.keywords: AVIStreamLengthTime, AVIStreamLengthTime macro [Windows Multimedia], _win32_AVIStreamLengthTime, multimedia.avistreamlengthtime, vfw/AVIStreamLengthTime
-ms.topic: macro
 f1_keywords:
 - vfw/AVIStreamLengthTime
 dev_langs:

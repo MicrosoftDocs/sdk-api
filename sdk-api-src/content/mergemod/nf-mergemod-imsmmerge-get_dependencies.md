@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 0e59ac31-647e-4dd2-8f56-993eb4c59ab2
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge interface,get_Dependencies method, IMsmMerge.get_Dependencies, IMsmMerge::get_Dependencies, _msi_get_dependencies_function, get_Dependencies, get_Dependencies method, get_Dependencies method,IMsmMerge interface, mergemod/IMsmMerge::get_Dependencies, setup.imsmmerge_get_dependencies
-ms.topic: method
 f1_keywords:
 - mergemod/IMsmMerge.get_Dependencies
 dev_langs:

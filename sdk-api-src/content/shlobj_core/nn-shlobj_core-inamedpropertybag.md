@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5a7d6e06-712b-4b18-baad-f4166163c50f
 ms.date: 12/05/2018
 ms.keywords: INamedPropertyBag, INamedPropertyBag interface [Windows Shell], INamedPropertyBag interface [Windows Shell],described, _shell_INamedPropertyBag, shell.INamedPropertyBag, shlobj_core/INamedPropertyBag
-ms.topic: interface
 f1_keywords:
 - shlobj_core/INamedPropertyBag
 dev_langs:

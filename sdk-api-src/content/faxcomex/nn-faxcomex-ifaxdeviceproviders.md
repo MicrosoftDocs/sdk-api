@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7vxv_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceProviders, IFaxDeviceProviders interface [Fax Service], IFaxDeviceProviders interface [Fax Service],described, _mfax_faxdeviceproviders_cpp, fax._mfax_faxdeviceproviders_cpp, faxcomex/IFaxDeviceProviders
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxDeviceProviders
 dev_langs:

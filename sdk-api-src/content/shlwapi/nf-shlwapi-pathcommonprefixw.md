@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 13c32b32-8541-41c4-82d8-48d3b2439f0c
 ms.date: 12/05/2018
 ms.keywords: PathCommonPrefix, PathCommonPrefix function [Windows Shell], PathCommonPrefixA, PathCommonPrefixW, _win32_PathCommonPrefix, shell.PathCommonPrefix, shlwapi/PathCommonPrefix, shlwapi/PathCommonPrefixA, shlwapi/PathCommonPrefixW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathCommonPrefix
 dev_langs:

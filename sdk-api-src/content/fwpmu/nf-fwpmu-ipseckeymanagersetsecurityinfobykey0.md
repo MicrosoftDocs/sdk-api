@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 15C8BB3B-0345-42A6-8C99-4D92FC0AEDE4
 ms.date: 12/05/2018
 ms.keywords: IPsecKeyManagerSetSecurityInfoByKey0, IPsecKeyManagerSetSecurityInfoByKey0 function [Filtering], fwp.ipseckeymanagersetsecurityinfobykey0, fwpmu/IPsecKeyManagerSetSecurityInfoByKey0
-ms.topic: function
 f1_keywords:
 - fwpmu/IPsecKeyManagerSetSecurityInfoByKey0
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 348213d1-c03f-4c38-9d13-3b1009d94e07
 ms.date: 12/05/2018
 ms.keywords: IShellItemArray, IShellItemArray interface [Windows Shell], IShellItemArray interface [Windows Shell],described, _shell_IShellItemArray, shell.IShellItemArray, shobjidl_core/IShellItemArray
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IShellItemArray
 dev_langs:

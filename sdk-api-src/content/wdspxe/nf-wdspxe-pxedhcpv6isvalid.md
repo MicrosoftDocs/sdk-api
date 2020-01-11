@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: E20A9E7A-8CFA-4A2B-8A40-7937937332A5
 ms.date: 12/05/2018
 ms.keywords: FALSE, PxeDhcpv6IsValid, PxeDhcpv6IsValid function [Windows Deployment Services], TRUE, wds.pxedhcpv6isvalid, wdspxe/PxeDhcpv6IsValid
-ms.topic: function
 f1_keywords:
 - wdspxe/PxeDhcpv6IsValid
 dev_langs:

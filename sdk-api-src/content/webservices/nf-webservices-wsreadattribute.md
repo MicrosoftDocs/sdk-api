@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 2055182a-8aff-4db0-88f1-d344ca89e383
 ms.date: 12/05/2018
 ms.keywords: WsReadAttribute, WsReadAttribute function [Web Services for Windows], webservices/WsReadAttribute, wsw.wsreadattribute
-ms.topic: function
 f1_keywords:
 - webservices/WsReadAttribute
 dev_langs:

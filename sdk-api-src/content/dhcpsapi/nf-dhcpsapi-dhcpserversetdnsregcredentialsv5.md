@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 7fed2635-43a6-417a-996f-fff8d0692924
 ms.date: 12/05/2018
 ms.keywords: DhcpServerSetDnsRegCredentialsV5, DhcpServerSetDnsRegCredentialsV5 function [DHCP], dhcp.dhcpserversetdnsregcredentialsv5, dhcpsapi/DhcpServerSetDnsRegCredentialsV5
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpServerSetDnsRegCredentialsV5
 dev_langs:

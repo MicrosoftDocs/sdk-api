@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: f29f5a03-2b0b-4d36-97cb-f3b38f6037b3
 ms.date: 12/05/2018
 ms.keywords: MI_Operation_GetClass, MI_Operation_GetClass function [Windows Management Infrastructure (MI)], mi/MI_Operation_GetClass, wmi_v2.mi_operation_getclass
-ms.topic: function
 f1_keywords:
 - mi/MI_Operation_GetClass
 dev_langs:

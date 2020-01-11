@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c5b74037-1188-4979-8acf-6994ceb15719
 ms.date: 12/05/2018
 ms.keywords: IEnumExtraSearch interface [Windows Shell],Reset method, IEnumExtraSearch.Reset, IEnumExtraSearch::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumExtraSearch interface, _win32_IEnumExtraSearch_Reset, shell.IEnumExtraSearch_Reset, shobjidl_core/IEnumExtraSearch::Reset
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IEnumExtraSearch.Reset
 dev_langs:

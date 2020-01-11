@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ca602be6-a066-4192-a240-96192e5dbdf8
 ms.date: 12/05/2018
 ms.keywords: ShortMult, ShortMult function [Windows Shell], intsafe/ShortMult, shell.ShortMult
-ms.topic: function
 f1_keywords:
 - intsafe/ShortMult
 dev_langs:

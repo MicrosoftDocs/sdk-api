@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 08b67fd5-aebe-49f7-af78-6f49c8f47f64
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetSelection method, ITfContext.GetSelection, ITfContext::GetSelection, _tsf_itfcontext_getselection_ref, msctf/ITfContext::GetSelection, tsf.itfcontext_getselection
-ms.topic: method
 f1_keywords:
 - msctf/ITfContext.GetSelection
 dev_langs:

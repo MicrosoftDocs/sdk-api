@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 524d83ff-4303-448c-a070-58d17dec03ba
 ms.date: 12/05/2018
 ms.keywords: IAudioPeakMeter, IAudioPeakMeter interface [Core Audio], IAudioPeakMeter interface [Core Audio],described, coreaudio.iaudiopeakmeter, devicetopology/IAudioPeakMeter
-ms.topic: interface
 f1_keywords:
 - devicetopology/IAudioPeakMeter
 dev_langs:

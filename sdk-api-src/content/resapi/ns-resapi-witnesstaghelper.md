@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: FFE7EF63-4025-4CC5-B3F8-FF07FA67AFD1
 ms.date: 12/05/2018
 ms.keywords: PWitnessTagHelper, PWitnessTagHelper structure pointer [Failover Cluster], WitnessTagHelper, WitnessTagHelper structure [Failover Cluster], mscs.witnesstaghelper, resapi/PWitnessTagHelper, resapi/WitnessTagHelper
-ms.topic: struct
 f1_keywords:
 - resapi/WitnessTagHelper
 dev_langs:

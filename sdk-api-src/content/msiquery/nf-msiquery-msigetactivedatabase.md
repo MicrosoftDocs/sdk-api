@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 148d467f-fecd-42a9-b838-22799a159f97
 ms.date: 12/05/2018
 ms.keywords: MsiGetActiveDatabase, MsiGetActiveDatabase function, _msi_msigetactivedatabase, msiquery/MsiGetActiveDatabase, setup.msigetactivedatabase
-ms.topic: function
 f1_keywords:
 - msiquery/MsiGetActiveDatabase
 dev_langs:

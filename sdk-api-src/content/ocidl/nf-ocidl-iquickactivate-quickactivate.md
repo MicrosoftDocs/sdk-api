@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 504cb272-da1c-4ffb-b4b1-fdf288901660
 ms.date: 12/05/2018
 ms.keywords: IQuickActivate interface [COM],QuickActivate method, IQuickActivate.QuickActivate, IQuickActivate::QuickActivate, QuickActivate, QuickActivate method [COM], QuickActivate method [COM],IQuickActivate interface, _ctrl_iquickactivate_quickactivate, com.iquickactivate_quickactivate, ocidl/IQuickActivate::QuickActivate
-ms.topic: method
 f1_keywords:
 - ocidl/IQuickActivate.QuickActivate
 dev_langs:

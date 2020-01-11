@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: a8654fd1-4843-4489-ba43-444912107ca2
 ms.date: 12/05/2018
 ms.keywords: AVAudioSampleRate, AVAudioSampleRate method [Microsoft TV Technologies], AVAudioSampleRate method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVAudioSampleRate method, IMSVidAudioRendererEvent2.AVAudioSampleRate, IMSVidAudioRendererEvent2::AVAudioSampleRate, mstv.imsvidaudiorendererevent2_avaudiosamplerate, segment/IMSVidAudioRendererEvent2::AVAudioSampleRate
-ms.topic: method
 f1_keywords:
 - segment/IMSVidAudioRendererEvent2.AVAudioSampleRate
 dev_langs:

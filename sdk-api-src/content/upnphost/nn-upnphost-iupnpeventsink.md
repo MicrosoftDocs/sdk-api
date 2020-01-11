@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 431423c9-2873-422d-a28c-c4ef23109114
 ms.date: 12/05/2018
 ms.keywords: IUPnPEventSink, IUPnPEventSink interface [UPnP APIs], IUPnPEventSink interface [UPnP APIs],described, _upnp_iupnpeventsink, upnp.iupnpeventsink, upnphost/IUPnPEventSink
-ms.topic: interface
 f1_keywords:
 - upnphost/IUPnPEventSink
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NetShare
 ms.assetid: a1360f5d-9fd0-44af-b9f5-ab9bc057dfe6
 ms.date: 12/05/2018
 ms.keywords: NetSessionDel, NetSessionDel function [Files], _win32_netsessiondel, fs.netsessiondel, lmshare/NetSessionDel, netmgmt.netsessiondel
-ms.topic: function
 f1_keywords:
 - lmshare/NetSessionDel
 dev_langs:

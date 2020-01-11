@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 29820c1d-2add-402d-a9ca-9e8674d85f7f
 ms.date: 12/05/2018
 ms.keywords: CVssWriterEx, CVssWriterEx class, CVssWriterEx class,described, base.cvsswriterex, vswriter/CVssWriterEx
-ms.topic: class
 f1_keywords:
 - vswriter/CVssWriterEx
 dev_langs:

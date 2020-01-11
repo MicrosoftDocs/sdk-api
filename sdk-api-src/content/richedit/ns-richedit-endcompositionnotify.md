@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 5C137287-01B5-4E2E-A62E-F340A29CD8D7
 ms.date: 12/05/2018
 ms.keywords: ECN_ENDCOMPOSITION, ECN_NEWTEXT, ENDCOMPOSITIONNOTIFY, ENDCOMPOSITIONNOTIFY structure [Windows Controls], controls.endcompositionnotify, richedit/ENDCOMPOSITIONNOTIFY
-ms.topic: struct
 f1_keywords:
 - richedit/ENDCOMPOSITIONNOTIFY
 dev_langs:

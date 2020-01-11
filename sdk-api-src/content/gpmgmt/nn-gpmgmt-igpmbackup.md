@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: a593740a-9541-465a-9a2d-64ddf29793bf
 ms.date: 12/05/2018
 ms.keywords: GPMBackup, IGPMBackup, IGPMBackup interface [GPMC], IGPMBackup interface [GPMC],described, _win32_igpmbackup, gpmc.igpmbackup, gpmgmt/IGPMBackup
-ms.topic: interface
 f1_keywords:
 - gpmgmt/IGPMBackup
 dev_langs:

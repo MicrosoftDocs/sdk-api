@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: c2e5e6bf-cdff-42fa-9352-2f234f39849d
 ms.date: 12/05/2018
 ms.keywords: ITraceEvent interface [ETW],SetProcessId method, ITraceEvent.SetProcessId, ITraceEvent::SetProcessId, SetProcessId, SetProcessId method [ETW], SetProcessId method [ETW],ITraceEvent interface, etw.ievent_setprocessid, relogger/ITraceEvent::SetProcessId
-ms.topic: method
 f1_keywords:
 - relogger/ITraceEvent.SetProcessId
 dev_langs:

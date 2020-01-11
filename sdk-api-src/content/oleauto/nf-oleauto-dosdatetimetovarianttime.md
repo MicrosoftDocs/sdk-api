@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 61b029cb-8b60-400a-a6bb-a3f6839dc9d2
 ms.date: 12/05/2018
 ms.keywords: DosDateTimeToVariantTime, DosDateTimeToVariantTime function [Automation], _oa96_DosDateTimeToVariantTime, automat.dosdatetimetovarianttime, oleauto/DosDateTimeToVariantTime
-ms.topic: function
 f1_keywords:
 - oleauto/DosDateTimeToVariantTime
 dev_langs:

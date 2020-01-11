@@ -7,7 +7,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\pagepainthook.htm
 ms.date: 12/05/2018
 ms.keywords: LPPAGEPAINTHOOK, LPPAGEPAINTHOOK callback, LPPAGEPAINTHOOK callback function [Dialog Boxes], _win32_PagePaintHook, _win32_pagepainthook_cpp, commdlg/LPPAGEPAINTHOOK, dlgbox.pagepainthook, winui._win32_pagepainthook
-ms.topic: callback
 f1_keywords:
 - commdlg/LPPAGEPAINTHOOK
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: AD0A3BBC-3948-402A-AC3A-96BAF00A164C
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterRefreshCache, EngineAdapterRefreshCache callback function [Windows Biometric Framework API], PIBIO_ENGINE_REFRESH_CACHE_FN, PIBIO_ENGINE_REFRESH_CACHE_FN callback, secbiomet.engineadapterrefreshcache, winbio_adapter/EngineAdapterRefreshCache
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterRefreshCache
 dev_langs:

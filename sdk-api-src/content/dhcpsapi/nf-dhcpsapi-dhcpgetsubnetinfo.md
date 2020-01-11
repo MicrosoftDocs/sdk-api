@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 0e511993-a9c3-445b-bafc-3d66182ee32d
 ms.date: 12/05/2018
 ms.keywords: DhcpGetSubnetInfo, DhcpGetSubnetInfo function [DHCP], dhcp.dhcpgetsubnetinfo, dhcpsapi/DhcpGetSubnetInfo
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetSubnetInfo
 dev_langs:

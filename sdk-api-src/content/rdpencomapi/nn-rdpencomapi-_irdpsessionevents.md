@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 89ffdf37-156f-4977-93c4-bf9fe5aec838
 ms.date: 12/05/2018
 ms.keywords: _IRDPSessionEvents, _IRDPSessionEvents interface [RDP], _IRDPSessionEvents interface [RDP],described, rdp._irdpsessionevents, rdpencomapi/_IRDPSessionEvents
-ms.topic: interface
 f1_keywords:
 - rdpencomapi/_IRDPSessionEvents
 dev_langs:

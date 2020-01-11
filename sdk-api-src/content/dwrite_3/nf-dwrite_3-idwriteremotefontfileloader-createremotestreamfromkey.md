@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 434B7349-0FD3-492F-8973-600A0A0DFA7B
 ms.date: 12/05/2018
 ms.keywords: CreateRemoteStreamFromKey, CreateRemoteStreamFromKey method [Direct Write], CreateRemoteStreamFromKey method [Direct Write],IDWriteRemoteFontFileLoader interface, IDWriteRemoteFontFileLoader interface [Direct Write],CreateRemoteStreamFromKey method, IDWriteRemoteFontFileLoader.CreateRemoteStreamFromKey, IDWriteRemoteFontFileLoader::CreateRemoteStreamFromKey, directwrite.idwriteremotefontfileloader_createremotestreamfromkey, dwrite_3/IDWriteRemoteFontFileLoader::CreateRemoteStreamFromKey
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteRemoteFontFileLoader.CreateRemoteStreamFromKey
 dev_langs:

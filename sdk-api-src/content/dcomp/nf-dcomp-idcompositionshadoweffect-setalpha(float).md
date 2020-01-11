@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 78DAA4BF-3054-4F01-95CA-2575F0A83931
 ms.date: 12/05/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetAlpha method, IDCompositionShadowEffect.SetAlpha, IDCompositionShadowEffect::SetAlpha, IDCompositionShadowEffect::SetAlpha(float), SetAlpha, SetAlpha method [DirectComposition], SetAlpha method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetAlpha, directcomp.idcompositionshadoweffect_setalpha
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionShadowEffect.SetAlpha
 dev_langs:

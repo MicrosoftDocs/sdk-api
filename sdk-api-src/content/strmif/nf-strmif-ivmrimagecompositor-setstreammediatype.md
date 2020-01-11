@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ea3ed291-d837-4d11-bc82-0a060b093b21
 ms.date: 12/05/2018
 ms.keywords: IVMRImageCompositor interface [DirectShow],SetStreamMediaType method, IVMRImageCompositor.SetStreamMediaType, IVMRImageCompositor::SetStreamMediaType, IVMRImageCompositorSetStreamMediaType, SetStreamMediaType, SetStreamMediaType method [DirectShow], SetStreamMediaType method [DirectShow],IVMRImageCompositor interface, dshow.ivmrimagecompositor_setstreammediatype, strmif/IVMRImageCompositor::SetStreamMediaType
-ms.topic: method
 f1_keywords:
 - strmif/IVMRImageCompositor.SetStreamMediaType
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 273aa395-905a-41bd-a027-23f4b3f549b6
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityImport, PeerIdentityImport function [Peer Networking], p2p.peeridentityimport, p2p/PeerIdentityImport
-ms.topic: function
 f1_keywords:
 - p2p/PeerIdentityImport
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_openex.htm
 ms.date: 12/05/2018
 ms.keywords: Animate_OpenEx, Animate_OpenEx macro [Windows Controls], _win32_Animate_OpenEx, _win32_Animate_OpenEx_cpp, commctrl/Animate_OpenEx, controls.Animate_OpenEx, controls._win32_Animate_OpenEx
-ms.topic: macro
 f1_keywords:
 - commctrl/Animate_OpenEx
 dev_langs:

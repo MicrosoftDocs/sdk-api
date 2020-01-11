@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: adc35813-7368-4d8c-ad2b-1bb0824ad019
 ms.date: 12/05/2018
 ms.keywords: RemoveLogContainerSet, RemoveLogContainerSet function [Files], clfsw32/RemoveLogContainerSet, fs.removelogcontainerset
-ms.topic: function
 f1_keywords:
 - clfsw32/RemoveLogContainerSet
 dev_langs:

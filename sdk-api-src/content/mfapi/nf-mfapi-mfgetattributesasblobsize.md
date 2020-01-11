@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 52abfe30-a18d-45f7-93db-13f87b0647b7
 ms.date: 12/05/2018
 ms.keywords: 52abfe30-a18d-45f7-93db-13f87b0647b7, MFGetAttributesAsBlobSize, MFGetAttributesAsBlobSize function [Media Foundation], mf.mfgetattributesasblobsize, mfapi/MFGetAttributesAsBlobSize
-ms.topic: function
 f1_keywords:
 - mfapi/MFGetAttributesAsBlobSize
 dev_langs:

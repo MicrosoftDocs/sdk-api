@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 53d23dcb-081f-44f4-823f-e3cf79955bc3
 ms.date: 12/05/2018
 ms.keywords: IEnroll2 interface [Security],LimitExchangeKeyToEncipherment property, IEnroll2.LimitExchangeKeyToEncipherment, IEnroll2.put_LimitExchangeKeyToEncipherment, IEnroll2::LimitExchangeKeyToEncipherment, IEnroll2::get_LimitExchangeKeyToEncipherment, IEnroll2::put_LimitExchangeKeyToEncipherment, IEnroll4 interface [Security],LimitExchangeKeyToEncipherment property, IEnroll4.LimitExchangeKeyToEncipherment, IEnroll4::get_LimitExchangeKeyToEncipherment, IEnroll4::put_LimitExchangeKeyToEncipherment, LimitExchangeKeyToEncipherment property [Security], LimitExchangeKeyToEncipherment property [Security],IEnroll2 interface, LimitExchangeKeyToEncipherment property [Security],IEnroll4 interface, get_LimitExchangeKeyToEncipherment, put_LimitExchangeKeyToEncipherment, security.ienroll4_limitexchangekeytoencipherment, xenroll/IEnroll2::LimitExchangeKeyToEncipherment, xenroll/IEnroll2::get_LimitExchangeKeyToEncipherment, xenroll/IEnroll2::put_LimitExchangeKeyToEncipherment, xenroll/IEnroll4::LimitExchangeKeyToEncipherment, xenroll/IEnroll4::get_LimitExchangeKeyToEncipherment, xenroll/IEnroll4::put_LimitExchangeKeyToEncipherment
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll2.LimitExchangeKeyToEncipherment
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 443a8dbc-c12a-4d50-9005-1fedf701f6fd
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking interface [DirectShow],IsFormatSupported method, IMediaSeeking.IsFormatSupported, IMediaSeeking::IsFormatSupported, IMediaSeekingIsFormatSupported, IsFormatSupported, IsFormatSupported method [DirectShow], IsFormatSupported method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_isformatsupported, strmif/IMediaSeeking::IsFormatSupported
-ms.topic: method
 f1_keywords:
 - strmif/IMediaSeeking.IsFormatSupported
 dev_langs:

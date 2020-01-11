@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: b7965965-2fbc-4494-9368-7d9699e4092a
 ms.date: 12/05/2018
 ms.keywords: FrameStep, FrameStep method [Media Foundation], FrameStep method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],FrameStep method, IMFPMediaPlayer.FrameStep, IMFPMediaPlayer::FrameStep, mf.imfpmediaplayer_framestep, mfplay/IMFPMediaPlayer::FrameStep
-ms.topic: method
 f1_keywords:
 - mfplay/IMFPMediaPlayer.FrameStep
 dev_langs:

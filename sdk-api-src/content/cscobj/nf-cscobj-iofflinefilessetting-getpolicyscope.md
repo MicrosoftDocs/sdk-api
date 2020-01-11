@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 29f6d96f-c873-4cc3-88f2-cd075b3ec004
 ms.date: 12/05/2018
 ms.keywords: GetPolicyScope, GetPolicyScope method [Offline Files], GetPolicyScope method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetPolicyScope method, IOfflineFilesSetting.GetPolicyScope, IOfflineFilesSetting::GetPolicyScope, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPolicyScope, of.iofflinefilessetting_getpolicyscope
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesSetting.GetPolicyScope
 dev_langs:

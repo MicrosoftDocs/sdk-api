@@ -3,7 +3,6 @@ UID: NF:d3d12video.ID3D12VideoProcessor1.GetProtectedResourceSession
 title: ID3D12VideoProcessor1::GetProtectedResourceSession
 ms.date: 8/19/2019
 ms.keywords: ID3D12VideoProcessor1::GetProtectedResourceSession
-ms.topic: language-reference
 f1_keywords:
 - ID3D12VideoProcessor1::GetProtectedResourceSession
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: b4f09a75-5c9d-4870-80e1-3c589435a6b7
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Open Packaging Conventions], Delete method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceSet interface, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],Delete method, IOpcSignatureRelationshipReferenceSet.Delete, IOpcSignatureRelationshipReferenceSet::Delete, msopc/IOpcSignatureRelationshipReferenceSet::Delete, opc.iopcsignaturerelationshipreferenceset_delete
-ms.topic: method
 f1_keywords:
 - msopc/IOpcSignatureRelationshipReferenceSet.Delete
 dev_langs:

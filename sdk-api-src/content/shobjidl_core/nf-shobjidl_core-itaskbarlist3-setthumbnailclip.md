@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a22c4708-af59-4ccb-9ddb-885d14c17a33
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetThumbnailClip method, ITaskbarList3.SetThumbnailClip, ITaskbarList3::SetThumbnailClip, SetThumbnailClip, SetThumbnailClip method [Windows Shell], SetThumbnailClip method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetThumbnailClip, shell.ITaskbarList3_SetThumbnailClip, shobjidl_core/ITaskbarList3::SetThumbnailClip
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ITaskbarList3.SetThumbnailClip
 dev_langs:

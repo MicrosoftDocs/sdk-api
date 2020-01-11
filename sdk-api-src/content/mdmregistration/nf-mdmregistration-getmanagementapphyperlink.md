@@ -7,7 +7,6 @@ tech.root: MDMReg
 ms.assetid: e319dd2e-3d2b-4c65-9b59-cd4aab930f12
 ms.date: 12/05/2018
 ms.keywords: GetManagementAppHyperlink, GetManagementAppHyperlink function [MDM Registration], mdmreg.getmanagementapphyperlink, mdmregistration/GetManagementAppHyperlink
-ms.topic: function
 f1_keywords:
 - mdmregistration/GetManagementAppHyperlink
 dev_langs:

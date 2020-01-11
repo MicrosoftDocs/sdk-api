@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 42453BD7-AB65-49E0-86C0-4F96B4234397
 ms.date: 12/05/2018
 ms.keywords: CreateContentGroupMapReader, CreateContentGroupMapReader method [App packaging and management], CreateContentGroupMapReader method [App packaging and management],IAppxFactory2 interface, IAppxFactory2 interface [App packaging and management],CreateContentGroupMapReader method, IAppxFactory2.CreateContentGroupMapReader, IAppxFactory2::CreateContentGroupMapReader, appxpackaging/IAppxFactory2::CreateContentGroupMapReader, appxpkg.iappxfactory2_createcontentgroupmapreader
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxFactory2.CreateContentGroupMapReader
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 591e96ba-aaf1-42ba-9526-f839c30947d3
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Core Audio], GetName method [Core Audio],IControlInterface interface, IControlInterface interface [Core Audio],GetName method, IControlInterface.GetName, IControlInterface::GetName, IControlInterfaceGetName, coreaudio.icontrolinterface_getname, devicetopology/IControlInterface::GetName
-ms.topic: method
 f1_keywords:
 - devicetopology/IControlInterface.GetName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 082eabc4-6807-4d40-aa06-f7d230039073
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnSize method, IBrowserService2.OnSize, IBrowserService2::OnSize, OnSize, OnSize method [Windows Shell], OnSize method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnSize, shell.IBrowserService2_OnSize, zone_IBrowserService2_OnSize
-ms.topic: method
 f1_keywords:
 - shdeprecated/IBrowserService2.OnSize
 dev_langs:

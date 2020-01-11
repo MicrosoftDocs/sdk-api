@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 67b53e9a-c72c-4da5-835f-5623a02a14e1
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],MinimumBuffers property, ITraceDataCollector.MinimumBuffers, ITraceDataCollector.put_MinimumBuffers, ITraceDataCollector::MinimumBuffers, ITraceDataCollector::get_MinimumBuffers, ITraceDataCollector::put_MinimumBuffers, MinimumBuffers property [PLA], MinimumBuffers property [PLA],ITraceDataCollector interface, base.itracedatacollector_minimumbuffers, pla.itracedatacollector_minimumbuffers, pla/ITraceDataCollector::MinimumBuffers, pla/ITraceDataCollector::get_MinimumBuffers, pla/ITraceDataCollector::put_MinimumBuffers, put_MinimumBuffers
-ms.topic: method
 f1_keywords:
 - pla/ITraceDataCollector.MinimumBuffers
 dev_langs:

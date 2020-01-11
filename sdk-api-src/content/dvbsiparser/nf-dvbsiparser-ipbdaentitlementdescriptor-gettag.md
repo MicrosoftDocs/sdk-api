@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 484de26a-24e5-431d-ba4d-f2f3005502a1
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IPBDAEntitlementDescriptor interface, IPBDAEntitlementDescriptor interface [Microsoft TV Technologies],GetTag method, IPBDAEntitlementDescriptor.GetTag, IPBDAEntitlementDescriptor::GetTag, dvbsiparser/IPBDAEntitlementDescriptor::GetTag, mstv.ipbdaentitlementdescriptor_gettag
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IPBDAEntitlementDescriptor.GetTag
 dev_langs:

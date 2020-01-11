@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 87d654bc-f2c9-4a74-a822-352cdb242b5f
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],ImportFileSystem method, IFileSystemImage.ImportFileSystem, IFileSystemImage::ImportFileSystem, ImportFileSystem, ImportFileSystem method [IMAPI], ImportFileSystem method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_importfilesystem, imapi2fs/IFileSystemImage::ImportFileSystem
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFileSystemImage.ImportFileSystem
 dev_langs:

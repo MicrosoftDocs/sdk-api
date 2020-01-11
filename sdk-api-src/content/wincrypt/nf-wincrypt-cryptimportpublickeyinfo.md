@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: f5f8ebb6-c838-404b-9b61-3ec36fdaef01
 ms.date: 12/05/2018
 ms.keywords: CryptImportPublicKeyInfo, CryptImportPublicKeyInfo function [Security], _crypto2_cryptimportpublickeyinfo, security.cryptimportpublickeyinfo, wincrypt/CryptImportPublicKeyInfo
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptImportPublicKeyInfo
 dev_langs:

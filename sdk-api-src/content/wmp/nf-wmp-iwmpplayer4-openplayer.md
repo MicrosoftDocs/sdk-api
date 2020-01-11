@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: e2f08758-cd72-4b6b-bc9c-86f93d1d76c2
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer4 interface [Windows Media Player],openPlayer method, IWMPPlayer4.openPlayer, IWMPPlayer4::openPlayer, IWMPPlayer4openPlayer, openPlayer, openPlayer method [Windows Media Player], openPlayer method [Windows Media Player],IWMPPlayer4 interface, wmp.iwmpplayer4_openplayer, wmp/IWMPPlayer4::openPlayer
-ms.topic: method
 f1_keywords:
 - wmp/IWMPPlayer4.openPlayer
 dev_langs:

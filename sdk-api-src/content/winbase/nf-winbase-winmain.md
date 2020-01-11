@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\winmain.htm
 ms.date: 12/05/2018
 ms.keywords: SW_HIDE, SW_MAXIMIZE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, WinMain, WinMain callback, WinMain callback function [Windows and Messages], _win32_WinMain, _win32_winmain_cpp, winbase/WinMain, winmsg.winmain, winui._win32_winmain
-ms.topic: function
 f1_keywords:
 - winbase/WinMain
 dev_langs:

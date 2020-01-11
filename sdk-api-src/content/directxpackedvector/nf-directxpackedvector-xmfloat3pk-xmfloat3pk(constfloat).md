@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: ea6c8c8f-371d-40b8-8377-ccc4f75b0cf4
 ms.date: 05/06/2019
 ms.keywords: XMFLOAT3PK, XMFLOAT3PK constructor [DirectX Math Support APIs], XMFLOAT3PK constructor [DirectX Math Support APIs],XMFLOAT3PK structure, XMFLOAT3PK structure [DirectX Math Support APIs],XMFLOAT3PK constructor, XMFLOAT3PK.XMFLOAT3PK, XMFLOAT3PK.XMFLOAT3PK(), XMFLOAT3PK.XMFLOAT3PK(const float), XMFLOAT3PK::XMFLOAT3PK, XMFLOAT3PK::XMFLOAT3PK(const float), dxmath.xmfloat3pk_ctor_1
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMFLOAT3PK.XMFLOAT3PK
 dev_langs:

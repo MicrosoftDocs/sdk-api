@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 15E4D40F-85E8-451E-A076-052C0C5CF304
 ms.date: 12/05/2018
 ms.keywords: D3D12_EXPORT_DESC, D3D12_EXPORT_DESC structure, PD3D12_EXPORT_DESC, PD3D12_EXPORT_DESC structure pointer, d3d12/D3D12_EXPORT_DESC, d3d12/PD3D12_EXPORT_DESC, direct3d12.d3d12_export_desc
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_EXPORT_DESC
 dev_langs:

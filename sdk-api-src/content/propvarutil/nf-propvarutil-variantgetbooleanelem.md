@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: d21ad8cc-5919-4582-a593-64bd98a82a89
 ms.date: 12/05/2018
 ms.keywords: VariantGetBooleanElem, VariantGetBooleanElem function [Windows Properties], _shell_VariantGetBooleanElem, properties.VariantGetBooleanElem, propvarutil/VariantGetBooleanElem, shell.VariantGetBooleanElem
-ms.topic: function
 f1_keywords:
 - propvarutil/VariantGetBooleanElem
 dev_langs:

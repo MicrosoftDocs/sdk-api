@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 59EA778D-25DA-4EEA-8601-F6D72486410B
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [Media Foundation], Disconnect method [Media Foundation],IPlayToControl interface, IPlayToControl interface [Media Foundation],Disconnect method, IPlayToControl.Disconnect, IPlayToControl::Disconnect, mf.iplaytocontrol_disconnect, mfsharingengine/IPlayToControl::Disconnect
-ms.topic: method
 f1_keywords:
 - mfsharingengine/IPlayToControl.Disconnect
 dev_langs:

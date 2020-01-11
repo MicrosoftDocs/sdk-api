@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 07bbf6fa-f1df-4d9c-ae67-e79e2ccc12c8
 ms.date: 12/05/2018
 ms.keywords: RpcRevertToSelf, RpcRevertToSelf function [RPC], _rpc_rpcreverttoself, rpc.rpcreverttoself, rpcdce/RpcRevertToSelf
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcRevertToSelf
 dev_langs:

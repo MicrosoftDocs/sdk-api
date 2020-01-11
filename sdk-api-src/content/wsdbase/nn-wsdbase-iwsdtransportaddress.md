@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 84dfee11-8092-4018-8840-e766a94c60a4
 ms.date: 12/05/2018
 ms.keywords: IWSDTransportAddress, IWSDTransportAddress interface, IWSDTransportAddress interface,described, ncd.iwsdtransportaddress, wsdbase/IWSDTransportAddress
-ms.topic: interface
 f1_keywords:
 - wsdbase/IWSDTransportAddress
 dev_langs:

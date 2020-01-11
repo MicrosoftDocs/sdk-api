@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 546cede1-1702-403a-bba3-b5cd3b35a1bf
 ms.date: 12/05/2018
 ms.keywords: GetDateFormat, GetDateFormat function [Internationalization for Windows Applications], GetDateFormatA, GetDateFormatW, _win32_GetDateFormat, datetimeapi/GetDateFormat, datetimeapi/GetDateFormatA, datetimeapi/GetDateFormatW, intl.getdateformat
-ms.topic: function
 f1_keywords:
 - datetimeapi/GetDateFormat
 dev_langs:

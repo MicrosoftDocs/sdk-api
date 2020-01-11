@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditcallbackfunctions\editstreamcallback.htm
 ms.date: 12/05/2018
 ms.keywords: EditStreamCallback, EditStreamCallback callback, EditStreamCallback callback function [Windows Controls], _win32_EditStreamCallback, _win32_EditStreamCallback_cpp, controls.EditStreamCallback, controls._win32_EditStreamCallback, richedit/EditStreamCallback
-ms.topic: callback
 f1_keywords:
 - richedit/EditStreamCallback
 dev_langs:

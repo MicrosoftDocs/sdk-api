@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 291440d5-b6d3-4586-98d2-3f7c56da29aa
 ms.date: 12/05/2018
 ms.keywords: GetCatalogURL, GetCatalogURL method [Windows Media Player], GetCatalogURL method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetCatalogURL method, IWMPContentPartner.GetCatalogURL, IWMPContentPartner::GetCatalogURL, IWMPContentPartnerGetCatalogURL, contentpartner/IWMPContentPartner::GetCatalogURL, wmp.iwmpcontentpartner_getcatalogurl
-ms.topic: method
 f1_keywords:
 - contentpartner/IWMPContentPartner.GetCatalogURL
 dev_langs:

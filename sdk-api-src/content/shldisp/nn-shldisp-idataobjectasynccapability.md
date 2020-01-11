@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2E23A137-0C5B-4ce9-8100-758C7E17753B
 ms.date: 12/05/2018
 ms.keywords: IDataObjectAsyncCapability, IDataObjectAsyncCapability interface [Windows Shell], IDataObjectAsyncCapability interface [Windows Shell],described, shell.IDataObjectAsyncCapability, shldisp/IDataObjectAsyncCapability
-ms.topic: interface
 f1_keywords:
 - shldisp/IDataObjectAsyncCapability
 dev_langs:

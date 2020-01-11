@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: dffb0b0e-edce-47e7-b9c0-983fdd2c4746
 ms.date: 12/05/2018
 ms.keywords: DVD_KaraokeAttributes, DVD_KaraokeAttributes structure [DirectShow], DVD_KaraokeAttributesStructure, dshow.dvd_karaokeattributes, strmif/DVD_KaraokeAttributes
-ms.topic: struct
 f1_keywords:
 - strmif/DVD_KaraokeAttributes
 dev_langs:

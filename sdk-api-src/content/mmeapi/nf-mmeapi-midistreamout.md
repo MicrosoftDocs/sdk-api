@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: f2ebc646-7d8b-4fde-a6fc-2455b02d3d8b
 ms.date: 12/05/2018
 ms.keywords: _win32_midiStreamOut, midiStreamOut, midiStreamOut function [Windows Multimedia], mmeapi/midiStreamOut, multimedia.midistreamout
-ms.topic: function
 f1_keywords:
 - mmeapi/midiStreamOut
 dev_langs:

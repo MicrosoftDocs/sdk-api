@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_enable.htm
 ms.date: 12/05/2018
 ms.keywords: ScrollBar_Enable, ScrollBar_Enable macro [Windows Controls], _win32_ScrollBar_Enable, _win32_ScrollBar_Enable_cpp, controls.ScrollBar_Enable, controls._win32_ScrollBar_Enable, windowsx/ScrollBar_Enable
-ms.topic: macro
 f1_keywords:
 - windowsx/ScrollBar_Enable
 dev_langs:

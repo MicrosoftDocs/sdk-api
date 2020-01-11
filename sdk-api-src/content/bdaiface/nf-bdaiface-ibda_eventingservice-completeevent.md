@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 399530a7-5a02-485e-aa5e-6b3ddb7f3d54
 ms.date: 12/05/2018
 ms.keywords: CompleteEvent, CompleteEvent method [Microsoft TV Technologies], CompleteEvent method [Microsoft TV Technologies],IBDA_EventingService interface, IBDA_EventingService interface [Microsoft TV Technologies],CompleteEvent method, IBDA_EventingService.CompleteEvent, IBDA_EventingService::CompleteEvent, bdaiface/IBDA_EventingService::CompleteEvent, mstv.ibda_eventingservice_completeevent
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_EventingService.CompleteEvent
 dev_langs:

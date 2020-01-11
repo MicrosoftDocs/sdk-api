@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 2101e16e-ee05-417f-835b-c00cba7f6576
 ms.date: 12/05/2018
 ms.keywords: PeerCollabAsyncInviteContact, PeerCollabAsyncInviteContact function [Peer Networking], p2p.peercollabasyncinvitecontact, p2p/PeerCollabAsyncInviteContact
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabAsyncInviteContact
 dev_langs:

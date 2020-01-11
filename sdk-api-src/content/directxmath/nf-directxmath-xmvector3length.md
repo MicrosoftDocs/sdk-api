@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3Length(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3Length, XMVector3Length, XMVector3Length method [DirectX Math Support APIs], dxmath.xmvector3length
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector3Length
 dev_langs:

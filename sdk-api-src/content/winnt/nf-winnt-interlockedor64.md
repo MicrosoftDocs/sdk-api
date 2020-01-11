@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: ba0b03dc-de6c-4ecb-8f64-54c7c83f154a
 ms.date: 12/05/2018
 ms.keywords: InterlockedOr64, InterlockedOr64 function, base.interlockedor64, winnt/InterlockedOr64
-ms.topic: function
 f1_keywords:
 - winnt/InterlockedOr64
 dev_langs:

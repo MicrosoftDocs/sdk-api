@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 303EE887-DCF0-4575-A45F-5A4088DE8F7B
 ms.date: 12/05/2018
 ms.keywords: IComprehensiveSpellCheckProvider, IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications], IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications],described, intl.icomprehensivespellcheckprovider, spellcheckprovider/IComprehensiveSpellCheckProvider
-ms.topic: interface
 f1_keywords:
 - spellcheckprovider/IComprehensiveSpellCheckProvider
 dev_langs:

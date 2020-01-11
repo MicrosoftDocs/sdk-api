@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 3a0d090d-9eb1-4624-989b-c5da27b988aa
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriterEncoderConfig, IMFSinkWriterEncoderConfig interface [Media Foundation], IMFSinkWriterEncoderConfig interface [Media Foundation],described, mf.imfsinkwriterencoderconfig, mfreadwrite/IMFSinkWriterEncoderConfig
-ms.topic: interface
 f1_keywords:
 - mfreadwrite/IMFSinkWriterEncoderConfig
 dev_langs:

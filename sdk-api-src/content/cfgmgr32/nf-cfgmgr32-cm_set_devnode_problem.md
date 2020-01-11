@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 94bbedfc-aeef-46e7-bcf7-477e274f9d17
 ms.date: 12/05/2018
 ms.keywords: CM_Set_DevNode_Problem, CM_Set_DevNode_Problem function [Device and Driver Installation], cfgmgr32/CM_Set_DevNode_Problem, cfgmgrfn_86b84150-4e79-4eab-83ff-4a7bf5921021.xml, devinst.cm_set_devnode_problem
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Set_DevNode_Problem
 dev_langs:

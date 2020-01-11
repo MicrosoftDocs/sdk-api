@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2179e54a-c6e2-4837-9f89-be210bde9180
 ms.date: 12/05/2018
 ms.keywords: IDvdGraphBuilder, IDvdGraphBuilder interface [DirectShow], IDvdGraphBuilder interface [DirectShow],described, IDvdGraphBuilderInterface, dshow.idvdgraphbuilder, strmif/IDvdGraphBuilder
-ms.topic: interface
 f1_keywords:
 - strmif/IDvdGraphBuilder
 dev_langs:

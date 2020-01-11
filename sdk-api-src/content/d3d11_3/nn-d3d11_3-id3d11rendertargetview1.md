@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 6063229D-A85A-46E8-9034-D1C2C26A5274
 ms.date: 12/05/2018
 ms.keywords: ID3D11RenderTargetView1, ID3D11RenderTargetView1 interface [Direct3D 11], ID3D11RenderTargetView1 interface [Direct3D 11],described, d3d11_3/ID3D11RenderTargetView1, direct3d11.id3d11rendertargetview1
-ms.topic: interface
 f1_keywords:
 - d3d11_3/ID3D11RenderTargetView1
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 2b60d078-ccbd-4cc5-addf-e6e95832b3a1
 ms.date: 12/05/2018
 ms.keywords: IMbnSignal, IMbnSignal interface [Microsoft Broadband Networks], IMbnSignal interface [Microsoft Broadband Networks],described, mbn.imbnsignal, mbnapi/IMbnSignal
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnSignal
 dev_langs:

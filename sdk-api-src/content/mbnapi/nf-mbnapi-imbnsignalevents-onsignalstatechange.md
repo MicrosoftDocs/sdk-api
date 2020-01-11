@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 07e98555-03fa-4852-af65-55778dc9c477
 ms.date: 12/05/2018
 ms.keywords: IMbnSignalEvents interface [Microsoft Broadband Networks],OnSignalStateChange method, IMbnSignalEvents.OnSignalStateChange, IMbnSignalEvents::OnSignalStateChange, OnSignalStateChange, OnSignalStateChange method [Microsoft Broadband Networks], OnSignalStateChange method [Microsoft Broadband Networks],IMbnSignalEvents interface, mbn.imbnsignalevents_onsignalstatechange, mbnapi/IMbnSignalEvents::OnSignalStateChange
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnSignalEvents.OnSignalStateChange
 dev_langs:

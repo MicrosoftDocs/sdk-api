@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: d3a7d7e0-25c3-4dfa-8984-ca9c91db8493
 ms.date: 12/05/2018
 ms.keywords: ISnapinProperties, ISnapinProperties interface [MMC], ISnapinProperties interface [MMC],described, _slate_isnapinproperties, mmc.isnapinproperties, mmcobj/ISnapinProperties
-ms.topic: interface
 f1_keywords:
 - mmcobj/ISnapinProperties
 dev_langs:

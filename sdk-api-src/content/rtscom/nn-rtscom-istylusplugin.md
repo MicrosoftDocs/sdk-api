@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: bbef5cdb-4112-4733-80bb-692b7a198605
 ms.date: 12/05/2018
 ms.keywords: IStylusPlugin, IStylusPlugin interface [Tablet PC], IStylusPlugin interface [Tablet PC],described, bbef5cdb-4112-4733-80bb-692b7a198605, rtscom/IStylusPlugin, tablet.istylusplugin
-ms.topic: interface
 f1_keywords:
 - rtscom/IStylusPlugin
 dev_langs:

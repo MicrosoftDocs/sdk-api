@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: fa81e935-1207-44dd-85cb-215f754575fe
 ms.date: 12/05/2018
 ms.keywords: AddRoles, AddRoles method [Security], AddRoles method [Security],IAzClientContext2 interface, IAzClientContext2 interface [Security],AddRoles method, IAzClientContext2.AddRoles, IAzClientContext2::AddRoles, azroles/IAzClientContext2::AddRoles, security.iazclientcontext2_addroles
-ms.topic: method
 f1_keywords:
 - azroles/IAzClientContext2.AddRoles
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 89f9c883-6976-4af2-9a8b-c76101d8ed02
 ms.date: 12/05/2018
 ms.keywords: GetProcessMitigationPolicy, GetProcessMitigationPolicy function, ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSideChannelIsolationPolicy, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, base.getprocessmitigationpolicy, processthreadsapi/GetProcessMitigationPolicy
-ms.topic: function
 f1_keywords:
 - processthreadsapi/GetProcessMitigationPolicy
 dev_langs:

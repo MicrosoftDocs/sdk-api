@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: bc9f217a-75bd-4155-9d00-df44b00cf0e5
 ms.date: 12/05/2018
 ms.keywords: IAdviseSink, IAdviseSink interface [COM], IAdviseSink interface [COM],described, _ole_iadvisesink, com.iadvisesink, objidl/IAdviseSink
-ms.topic: interface
 f1_keywords:
 - objidl/IAdviseSink
 dev_langs:

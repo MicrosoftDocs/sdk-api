@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: cafdc512-2994-4374-9396-b0bb946bc490
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get__CustomCompositor method, IMSVidVideoRenderer.get__CustomCompositor, IMSVidVideoRenderer::get__CustomCompositor, IMSVidVideoRendererget__CustomCompositor, get__CustomCompositor, get__CustomCompositor method [Microsoft TV Technologies], get__CustomCompositor method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get__customcompositor, segment/IMSVidVideoRenderer::get__CustomCompositor
-ms.topic: method
 f1_keywords:
 - segment/IMSVidVideoRenderer.get__CustomCompositor
 dev_langs:

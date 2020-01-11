@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 9f8591a3-ecc2-497a-ac12-67e5862efde4
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob2 interface [BITS],SetReplyFileName method, IBackgroundCopyJob2.SetReplyFileName, IBackgroundCopyJob2::SetReplyFileName, SetReplyFileName, SetReplyFileName method [BITS], SetReplyFileName method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_setreplyfilename, bits.ibackgroundcopyjob2_setreplyfilename, bits1_5/IBackgroundCopyJob2::SetReplyFileName
-ms.topic: method
 f1_keywords:
 - bits1_5/IBackgroundCopyJob2.SetReplyFileName
 dev_langs:

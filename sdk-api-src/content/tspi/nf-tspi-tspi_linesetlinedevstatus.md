@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 82afe6fd-a9fd-4e53-a460-370cab404366
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetLineDevStatus, TSPI_lineSetLineDevStatus function [TAPI 2.2], _tspi_tspi_linesetlinedevstatus, tspi.tspi_linesetlinedevstatus, tspi/TSPI_lineSetLineDevStatus
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineSetLineDevStatus
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 59cb216f-818c-4189-b77b-984961889a62
 ms.date: 12/05/2018
 ms.keywords: GetCurrentApartmentType, GetCurrentApartmentType method [COM], GetCurrentApartmentType method [COM],IComThreadingInfo interface, IComThreadingInfo interface [COM],GetCurrentApartmentType method, IComThreadingInfo.GetCurrentApartmentType, IComThreadingInfo::GetCurrentApartmentType, _com_icomthreadinginfo_getcurrentapartmenttype, com.icomthreadinginfo_getcurrentapartmenttype, objidlbase/IComThreadingInfo::GetCurrentApartmentType
-ms.topic: method
 f1_keywords:
 - objidlbase/IComThreadingInfo.GetCurrentApartmentType
 dev_langs:

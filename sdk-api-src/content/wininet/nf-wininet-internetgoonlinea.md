@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: ed1c0282-5469-49d5-8a8c-b7671d27ebd2
 ms.date: 12/05/2018
 ms.keywords: INTERNET_GOONLINE_REFRESH, InternetGoOnline, InternetGoOnline function [WinINet], InternetGoOnlineA, InternetGoOnlineW, _inet_internetgoonline_function, wininet.internetgoonline, winineti/InternetGoOnline, winineti/InternetGoOnlineA, winineti/InternetGoOnlineW
-ms.topic: function
 f1_keywords:
 - wininet/InternetGoOnline
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 7b5cc425-8a7e-0bff-3fe1-73984872b60b
 ms.date: 12/05/2018
 ms.keywords: DWRITE_LINE_METRICS1, DWRITE_LINE_METRICS1 structure [Direct Write], directwrite.dwrite_line_metrics1, dwrite_3/DWRITE_LINE_METRICS1
-ms.topic: struct
 f1_keywords:
 - dwrite_3/DWRITE_LINE_METRICS1
 dev_langs:

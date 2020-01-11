@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 3d82dd05-c03c-4c97-8d41-84a74e3c3a8a
 ms.date: 12/05/2018
 ms.keywords: 3d82dd05-c03c-4c97-8d41-84a74e3c3a8a, ITextInputPanelRunInfo interface [Tablet PC],IsTipRunning method, ITextInputPanelRunInfo.IsTipRunning, ITextInputPanelRunInfo::IsTipRunning, IsTipRunning, IsTipRunning method [Tablet PC], IsTipRunning method [Tablet PC],ITextInputPanelRunInfo interface, peninputpanel/ITextInputPanelRunInfo::IsTipRunning, tablet.itextinputpanelruninfo_istiprunning
-ms.topic: method
 f1_keywords:
 - peninputpanel/ITextInputPanelRunInfo.IsTipRunning
 dev_langs:

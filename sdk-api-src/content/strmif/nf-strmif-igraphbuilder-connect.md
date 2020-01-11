@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8ddcbb73-8220-4d70-9ab3-58d99fa8a958
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [DirectShow], Connect method [DirectShow],IGraphBuilder interface, IGraphBuilder interface [DirectShow],Connect method, IGraphBuilder.Connect, IGraphBuilder::Connect, IGraphBuilderConnect, dshow.igraphbuilder_connect, strmif/IGraphBuilder::Connect
-ms.topic: method
 f1_keywords:
 - strmif/IGraphBuilder.Connect
 dev_langs:

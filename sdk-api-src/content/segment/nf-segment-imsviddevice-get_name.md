@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: eb484684-7c20-498d-939e-ae5964d35669
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_Name method, IMSVidDevice.get_Name, IMSVidDevice::get_Name, IMSVidDeviceget_Name, get_Name, get_Name method [Microsoft TV Technologies], get_Name method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_name, segment/IMSVidDevice::get_Name
-ms.topic: method
 f1_keywords:
 - segment/IMSVidDevice.get_Name
 dev_langs:

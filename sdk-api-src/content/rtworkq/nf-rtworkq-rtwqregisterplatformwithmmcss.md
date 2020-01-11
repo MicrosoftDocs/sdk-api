@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 17ba1e77-f1b0-4575-b96c-bf42813279ce
 ms.date: 12/05/2018
 ms.keywords: RtwqRegisterPlatformWithMMCSS, RtwqRegisterPlatformWithMMCSS function, base.rtwqregisterplatformwithmmcss, rtworkq/RtwqRegisterPlatformWithMMCSS
-ms.topic: function
 f1_keywords:
 - rtworkq/RtwqRegisterPlatformWithMMCSS
 dev_langs:

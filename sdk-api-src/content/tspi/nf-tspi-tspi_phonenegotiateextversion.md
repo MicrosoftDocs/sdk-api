@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 03ea6d25-8e65-4c8a-80dc-f2ecd214ad0e
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneNegotiateExtVersion, TSPI_phoneNegotiateExtVersion function [TAPI 2.2], _tspi_tspi_phonenegotiateextversion, tspi.tspi_phonenegotiateextversion, tspi/TSPI_phoneNegotiateExtVersion
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_phoneNegotiateExtVersion
 dev_langs:

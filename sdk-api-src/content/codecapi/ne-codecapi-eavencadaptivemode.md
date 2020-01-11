@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 5810E336-35F0-4109-9155-368C638AF987
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncAdaptiveMode, codecapi/eAVEncAdaptiveMode_FrameRate, codecapi/eAVEncAdaptiveMode_None, codecapi/eAVEncAdaptiveMode_Resolution, eAVEncAdaptiveMode, eAVEncAdaptiveMode enumeration [Media Foundation], eAVEncAdaptiveMode_FrameRate, eAVEncAdaptiveMode_None, eAVEncAdaptiveMode_Resolution, mf.eavencadaptivemode
-ms.topic: enum
 f1_keywords:
 - codecapi/eAVEncAdaptiveMode
 dev_langs:

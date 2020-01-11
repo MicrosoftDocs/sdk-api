@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: ca644bd3-6580-44da-87f5-11d543814043
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_UniqueDeviceName method, IUPnPDevice.get_UniqueDeviceName, IUPnPDevice::get_UniqueDeviceName, _upnp_iupnpdevice_uniquedevicename, get_UniqueDeviceName, get_UniqueDeviceName method [UPnP APIs], get_UniqueDeviceName method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_uniquedevicename, upnp/IUPnPDevice::get_UniqueDeviceName
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPDevice.get_UniqueDeviceName
 dev_langs:

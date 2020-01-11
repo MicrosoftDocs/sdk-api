@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 54621f0d-7478-4a6f-a96f-f3f93e64b281
 ms.date: 12/05/2018
 ms.keywords: IADsSession, IADsSession interface [ADSI], IADsSession interface [ADSI],described, _ds_iadssession, adsi.iadssession, iads/IADsSession
-ms.topic: interface
 f1_keywords:
 - iads/IADsSession
 dev_langs:

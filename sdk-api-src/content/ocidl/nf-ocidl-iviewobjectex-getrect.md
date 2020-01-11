@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: ff060cd2-c7e4-4c12-842a-663415b80c17
 ms.date: 12/05/2018
 ms.keywords: GetRect, GetRect method [COM], GetRect method [COM],IViewObjectEx interface, IViewObjectEx interface [COM],GetRect method, IViewObjectEx.GetRect, IViewObjectEx::GetRect, _ole_iviewobjectex_getrect, com.iviewobjectex_getrect, ocidl/IViewObjectEx::GetRect
-ms.topic: method
 f1_keywords:
 - ocidl/IViewObjectEx.GetRect
 dev_langs:

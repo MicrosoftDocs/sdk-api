@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: dcc44691-d621-4e28-8618-38238f866302
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_POLICY_MAPPINGS_INFO, CERT_POLICY_MAPPINGS_INFO, CERT_POLICY_MAPPINGS_INFO structure [Security], PCERT_POLICY_MAPPINGS_INFO, PCERT_POLICY_MAPPINGS_INFO structure pointer [Security], _crypto2_cert_policy_mappings_info, security.cert_policy_mappings_info, wincrypt/CERT_POLICY_MAPPINGS_INFO, wincrypt/PCERT_POLICY_MAPPINGS_INFO'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_POLICY_MAPPINGS_INFO
 dev_langs:

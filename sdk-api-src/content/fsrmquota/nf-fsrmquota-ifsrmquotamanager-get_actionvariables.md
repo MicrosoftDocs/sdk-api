@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: e7fe0139-692b-4f88-8411-ffd31d29e40d
 ms.date: 12/05/2018
 ms.keywords: ActionVariables property [File Server Resource Manager], ActionVariables property [File Server Resource Manager],FsrmQuotaManager class, ActionVariables property [File Server Resource Manager],IFsrmQuotaManager interface, ActionVariables property [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],ActionVariables property, IFsrmQuotaManager interface [File Server Resource Manager],ActionVariables property, IFsrmQuotaManager.ActionVariables, IFsrmQuotaManager.get_ActionVariables, IFsrmQuotaManager::ActionVariables, IFsrmQuotaManager::get_ActionVariables, IFsrmQuotaManagerEx interface [File Server Resource Manager],ActionVariables property, IFsrmQuotaManagerEx.ActionVariables, IFsrmQuotaManagerEx::get_ActionVariables, fs.ifsrmquotamanager_actionvariables, fsrm.ifsrmquotamanager_actionvariables, fsrmquota/IFsrmQuotaManager::ActionVariables, fsrmquota/IFsrmQuotaManager::get_ActionVariables, fsrmquota/IFsrmQuotaManagerEx::ActionVariables, fsrmquota/IFsrmQuotaManagerEx::get_ActionVariables, get_ActionVariables
-ms.topic: method
 f1_keywords:
 - fsrmquota/IFsrmQuotaManager.ActionVariables
 dev_langs:

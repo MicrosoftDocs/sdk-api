@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: e1ef03e6-fcb2-463b-b2b3-a88e958a1d19
 ms.date: 12/05/2018
 ms.keywords: IsCallerInRole, IsCallerInRole method [COM+], IsCallerInRole method [COM+],ObjectContext interface, ObjectContext interface [COM+],IsCallerInRole method, ObjectContext.IsCallerInRole, ObjectContext::IsCallerInRole, _cos_ObjectContext_IsCallerInRole, comsvcs/ObjectContext::IsCallerInRole, cos.objectcontext_iscallerinrole
-ms.topic: method
 f1_keywords:
 - comsvcs/ObjectContext.IsCallerInRole
 dev_langs:

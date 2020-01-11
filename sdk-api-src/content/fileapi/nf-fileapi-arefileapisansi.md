@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 6bebe896-86d1-40b8-ab7f-0305ada71fdf
 ms.date: 12/05/2018
 ms.keywords: AreFileApisANSI, AreFileApisANSI function [Files], _win32_arefileapisansi, base.arefileapisansi, fileapi/AreFileApisANSI, fs.arefileapisansi
-ms.topic: function
 f1_keywords:
 - fileapi/AreFileApisANSI
 dev_langs:

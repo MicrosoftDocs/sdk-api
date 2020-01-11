@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 46e81ecd-7fb5-465a-8caa-04288c559fea
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_SetNumber, MI_DestinationOptions_SetNumber function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetNumber, wmi_v2.mi_destinationoptions_setnumber
-ms.topic: function
 f1_keywords:
 - mi/MI_DestinationOptions_SetNumber
 dev_langs:

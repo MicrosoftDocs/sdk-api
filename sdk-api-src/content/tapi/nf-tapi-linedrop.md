@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: ce1f1dbb-287b-483a-9e7e-87af0d07e4e4
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linedrop, lineDrop, lineDrop function [TAPI 2.2], tapi/lineDrop, tapi2.linedrop
-ms.topic: function
 f1_keywords:
 - tapi/lineDrop
 dev_langs:

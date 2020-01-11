@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: b18a6e96-f5ed-4e48-af8c-4599c1864bf4
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllDigestData, CryptXmlDllDigestData callback, CryptXmlDllDigestData callback function [Security], cryptxml/CryptXmlDllDigestData, security.cryptxmldlldigestdata
-ms.topic: callback
 f1_keywords:
 - cryptxml/CryptXmlDllDigestData
 dev_langs:

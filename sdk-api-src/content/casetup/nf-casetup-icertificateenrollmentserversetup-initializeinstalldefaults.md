@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 2C6E8F84-56AC-4541-A778-839D5F2C764F
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],InitializeInstallDefaults method, ICertificateEnrollmentServerSetup.InitializeInstallDefaults, ICertificateEnrollmentServerSetup::InitializeInstallDefaults, InitializeInstallDefaults, InitializeInstallDefaults method [Security], InitializeInstallDefaults method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::InitializeInstallDefaults, security.icertificateenrollmentserversetup_initializeinstalldefaults
-ms.topic: method
 f1_keywords:
 - casetup/ICertificateEnrollmentServerSetup.InitializeInstallDefaults
 dev_langs:

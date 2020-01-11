@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b73416c0-2312-4164-8a6d-f8776dc1447f
 ms.date: 12/05/2018
 ms.keywords: IMixerOCXNotify, IMixerOCXNotify interface [DirectShow], IMixerOCXNotify interface [DirectShow],described, IMixerOCXNotifyInterface, dshow.imixerocxnotify, mixerocx/IMixerOCXNotify
-ms.topic: interface
 f1_keywords:
 - mixerocx/IMixerOCXNotify
 dev_langs:

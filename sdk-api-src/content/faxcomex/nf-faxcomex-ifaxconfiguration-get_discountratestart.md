@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\discountratestart.htm
 ms.date: 12/05/2018
 ms.keywords: DiscountRateStart property [Fax Service], DiscountRateStart property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],DiscountRateStart property, IFaxConfiguration.DiscountRateStart, IFaxConfiguration.get_DiscountRateStart, IFaxConfiguration::DiscountRateStart, IFaxConfiguration::get_DiscountRateStart, IFaxConfiguration::put_DiscountRateStart, _mfax_IFaxConfiguration_DiscountRateStart, fax._mfax_IFaxConfiguration_DiscountRateStart, faxcomex/IFaxConfiguration::DiscountRateStart, faxcomex/IFaxConfiguration::get_DiscountRateStart, faxcomex/IFaxConfiguration::put_DiscountRateStart, get_DiscountRateStart
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxConfiguration.DiscountRateStart
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: c2f19423-4410-44dd-83f1-5b858852051d
 ms.date: 12/05/2018
 ms.keywords: GetFontLanguageInfo, GetFontLanguageInfo function [Windows GDI], _win32_GetFontLanguageInfo, gdi.getfontlanguageinfo, wingdi/GetFontLanguageInfo
-ms.topic: function
 f1_keywords:
 - wingdi/GetFontLanguageInfo
 dev_langs:

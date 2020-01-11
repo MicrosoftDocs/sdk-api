@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 63117428-6676-4fb5-a0ae-7e3b22546d77
 ms.date: 12/05/2018
 ms.keywords: SafeArrayCreateEx, SafeArrayCreateEx function [Automation], _oa96_SafeArrayCreateEx, automat.safearraycreateex, oleauto/SafeArrayCreateEx
-ms.topic: function
 f1_keywords:
 - oleauto/SafeArrayCreateEx
 dev_langs:

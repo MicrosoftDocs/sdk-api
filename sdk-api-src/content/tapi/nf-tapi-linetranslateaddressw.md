@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 0347d526-9596-4b42-8075-07318bf39634
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linetranslateaddress, lineTranslateAddress, lineTranslateAddress function [TAPI 2.2], lineTranslateAddressA, lineTranslateAddressW, tapi/lineTranslateAddress, tapi/lineTranslateAddressA, tapi/lineTranslateAddressW, tapi2.linetranslateaddress
-ms.topic: function
 f1_keywords:
 - tapi/lineTranslateAddress
 dev_langs:

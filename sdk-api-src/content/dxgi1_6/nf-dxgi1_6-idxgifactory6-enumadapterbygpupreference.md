@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: E5F835FB-3699-4E27-B990-4C1CF6E6DD48
 ms.date: 12/05/2018
 ms.keywords: EnumAdapterByGpuPreference, EnumAdapterByGpuPreference method [DXGI], EnumAdapterByGpuPreference method [DXGI],IDXGIFactory6 interface, IDXGIFactory6 interface [DXGI],EnumAdapterByGpuPreference method, IDXGIFactory6.EnumAdapterByGpuPreference, IDXGIFactory6::EnumAdapterByGpuPreference, direct3ddxgi.idxgifactory6_enumadapterbygpupreference, dxgi1_6/IDXGIFactory6::EnumAdapterByGpuPreference
-ms.topic: method
 f1_keywords:
 - dxgi1_6/IDXGIFactory6.EnumAdapterByGpuPreference
 dev_langs:

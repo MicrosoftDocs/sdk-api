@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: D188BCD0-00F2-406D-BF69-33E8E37C8E6B
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip.SetTopLeftRadiusY, IDCompositionRectangleClip::SetTopLeftRadiusY, SetTopLeftRadiusY, SetTopLeftRadiusY methods [DirectComposition], dcomp/SetTopLeftRadiusY, directcomp.idcompositionrectangleclip_settopleftradiusy
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionRectangleClip::SetTopLeftRadiusY
 dev_langs:

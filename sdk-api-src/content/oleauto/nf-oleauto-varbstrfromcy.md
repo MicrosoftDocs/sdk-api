@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 5aa53d2c-ca43-4f10-a517-00a2fe80016e
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, LOCALE_USE_NLS, VarBstrFromCy, VarBstrFromCy function [Automation], _oa96_VarBstrFromCy, automat.varbstrfromcy, oleauto/VarBstrFromCy
-ms.topic: function
 f1_keywords:
 - oleauto/VarBstrFromCy
 dev_langs:

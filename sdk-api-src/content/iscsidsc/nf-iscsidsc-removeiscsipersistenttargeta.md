@@ -7,7 +7,6 @@ tech.root: iSCSIDisc
 ms.assetid: 2522f906-2a91-4d5b-8d6b-86e22c707046
 ms.date: 12/05/2018
 ms.keywords: RemoveIScsiPersistentTargetA, RemoveIscsiPersistentTarget, RemoveIscsiPersistentTarget function [iSCSI Discovery Library API], RemoveIscsiPersistentTargetA, RemoveIscsiPersistentTargetW, iscsidisc.removeiscsipersistenttarget, iscsidsc/RemoveIscsiPersistentTarget, iscsidsc/RemoveIscsiPersistentTargetA, iscsidsc/RemoveIscsiPersistentTargetW
-ms.topic: function
 f1_keywords:
 - iscsidsc/RemoveIscsiPersistentTarget
 dev_langs:

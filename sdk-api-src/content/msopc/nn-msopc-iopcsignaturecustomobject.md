@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 4ebb4fbe-66cc-46d9-b548-31177d9f6da9
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureCustomObject, IOpcSignatureCustomObject interface [Open Packaging Conventions], IOpcSignatureCustomObject interface [Open Packaging Conventions],described, msopc/IOpcSignatureCustomObject, opc.iopcsignaturecustomobject
-ms.topic: interface
 f1_keywords:
 - msopc/IOpcSignatureCustomObject
 dev_langs:

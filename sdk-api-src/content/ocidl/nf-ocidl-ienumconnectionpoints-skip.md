@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 53080d41-c8b8-46ad-a5f1-6eceb497aa9b
 ms.date: 12/05/2018
 ms.keywords: IEnumConnectionPoints interface [COM],Skip method, IEnumConnectionPoints.Skip, IEnumConnectionPoints::Skip, Skip, Skip method [COM], Skip method [COM],IEnumConnectionPoints interface, _com_ienumconnectionpoints_skip, com.ienumconnectionpoints_skip, ocidl/IEnumConnectionPoints::Skip
-ms.topic: method
 f1_keywords:
 - ocidl/IEnumConnectionPoints.Skip
 dev_langs:

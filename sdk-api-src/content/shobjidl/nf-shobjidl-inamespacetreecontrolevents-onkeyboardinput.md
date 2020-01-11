@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b5034847-cba9-4ebe-8578-c933234396e2
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnKeyboardInput method, INameSpaceTreeControlEvents.OnKeyboardInput, INameSpaceTreeControlEvents::OnKeyboardInput, OnKeyboardInput, OnKeyboardInput method [Windows Shell], OnKeyboardInput method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnKeyboardInput, shell.INameSpaceTreeControlEvents_OnKeyboardInput, shobjidl/INameSpaceTreeControlEvents::OnKeyboardInput
-ms.topic: method
 f1_keywords:
 - shobjidl/INameSpaceTreeControlEvents.OnKeyboardInput
 dev_langs:

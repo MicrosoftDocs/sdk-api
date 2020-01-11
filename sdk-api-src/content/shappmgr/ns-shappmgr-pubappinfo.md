@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 927c58d3-4208-4fd3-a3fa-18ae7d8d3136
 ms.date: 12/05/2018
 ms.keywords: '*PPUBAPPINFO, PUBAPPINFO, PUBAPPINFO structure [Windows Shell], inet_PUBAPPINFO, shappmgr/PUBAPPINFO, shell.PUBAPPINFO'
-ms.topic: struct
 f1_keywords:
 - shappmgr/PUBAPPINFO
 dev_langs:

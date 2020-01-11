@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: a743d942-69f9-426b-be88-adf88b9bb1e0
 ms.date: 12/05/2018
 ms.keywords: ISettingsItem, ISettingsItem interface [SMI], ISettingsItem interface [SMI],described, smi.isettingsitem, wcmconfig/ISettingsItem
-ms.topic: interface
 f1_keywords:
 - wcmconfig/ISettingsItem
 dev_langs:

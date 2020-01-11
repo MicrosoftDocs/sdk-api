@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 6c9f143e-bdd4-48be-a635-a382c8c770c1
 ms.date: 12/05/2018
 ms.keywords: COMEVENTSYSCHANGEINFO, COMEVENTSYSCHANGEINFO structure [COM+], _cos_COMEVENTSYSCHANGEINFO, cos.comeventsyschangeinfo, eventsys/COMEVENTSYSCHANGEINFO
-ms.topic: struct
 f1_keywords:
 - eventsys/COMEVENTSYSCHANGEINFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 32654e4b-158b-4d1a-afc7-98f90212b33b
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [Windows Animation], GetTime method [Windows Animation],IUIAnimationTimer interface, IUIAnimationTimer interface [Windows Animation],GetTime method, IUIAnimationTimer.GetTime, IUIAnimationTimer::GetTime, uianimation.iuianimationtimer_gettime, uianimation/IUIAnimationTimer::GetTime
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationTimer.GetTime
 dev_langs:

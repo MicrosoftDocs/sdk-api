@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 2986032f-647a-457a-ac7b-48439fd229a6
 ms.date: 12/05/2018
 ms.keywords: Days property [PLA], Days property [PLA],ISchedule interface, ISchedule interface [PLA],Days property, ISchedule.Days, ISchedule.get_Days, ISchedule::Days, ISchedule::get_Days, ISchedule::put_Days, base.ischedule_days, get_Days, pla.ischedule_days, pla/ISchedule::Days, pla/ISchedule::get_Days, pla/ISchedule::put_Days
-ms.topic: method
 f1_keywords:
 - pla/ISchedule.Days
 dev_langs:

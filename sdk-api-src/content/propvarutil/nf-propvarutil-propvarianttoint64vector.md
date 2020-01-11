@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: cda5589a-726f-4e43-aec4-bb7a7ca62b1a
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt64Vector, PropVariantToInt64Vector function [Windows Properties], _shell_PropVariantToInt64Vector, properties.PropVariantToInt64Vector, propvarutil/PropVariantToInt64Vector, shell.PropVariantToInt64Vector
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantToInt64Vector
 dev_langs:

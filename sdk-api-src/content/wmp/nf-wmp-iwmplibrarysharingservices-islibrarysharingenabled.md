@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: bd643869-9111-423e-9f9c-7147d1e3c7b8
 ms.date: 12/05/2018
 ms.keywords: IWMPLibrarySharingServices interface [Windows Media Player],isLibrarySharingEnabled method, IWMPLibrarySharingServices.isLibrarySharingEnabled, IWMPLibrarySharingServices::isLibrarySharingEnabled, IWMPLibrarySharingServicesisLibrarySharingEnabled, isLibrarySharingEnabled, isLibrarySharingEnabled method [Windows Media Player], isLibrarySharingEnabled method [Windows Media Player],IWMPLibrarySharingServices interface, wmp.iwmplibrarysharingservices_islibrarysharingenabled, wmp/IWMPLibrarySharingServices::isLibrarySharingEnabled
-ms.topic: method
 f1_keywords:
 - wmp/IWMPLibrarySharingServices.isLibrarySharingEnabled
 dev_langs:

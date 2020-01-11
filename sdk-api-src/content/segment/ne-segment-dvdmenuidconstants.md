@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: f58ce7b6-6fc4-4766-bf8a-180a5568d27c
 ms.date: 12/05/2018
 ms.keywords: DVDMenuID Constants, DVDMenuIDConstants, DVDMenuIDConstants enumeration [Microsoft TV Technologies], DVDMenuIDConstantsEnumeration, dvdMenu_Angle, dvdMenu_Audio, dvdMenu_Chapter, dvdMenu_Root, dvdMenu_Subpicture, dvdMenu_Title, enumeration [Microsoft TV Technologies], mstv.dvdmenuid_constants, segment/, segment/dvdMenu_Angle, segment/dvdMenu_Audio, segment/dvdMenu_Chapter, segment/dvdMenu_Root, segment/dvdMenu_Subpicture, segment/dvdMenu_Title
-ms.topic: enum
 f1_keywords:
 - segment/DVDMenuIDConstants
 dev_langs:

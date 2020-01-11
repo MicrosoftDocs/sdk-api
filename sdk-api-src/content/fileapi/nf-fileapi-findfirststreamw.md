@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: aab3af94-a2e0-45ad-a846-f457408a19d5
 ms.date: 12/05/2018
 ms.keywords: FindFirstStreamW, FindFirstStreamW function [Files], FindStreamInfoStandard, _win32_findfirststreamw, base.findfirststreamw, fileapi/FindFirstStreamW, fs.findfirststreamw
-ms.topic: function
 f1_keywords:
 - fileapi/FindFirstStreamW
 dev_langs:

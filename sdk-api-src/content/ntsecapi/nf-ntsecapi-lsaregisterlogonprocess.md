@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 1bef2949-b4c8-400e-8a2d-60aa88a4e238
 ms.date: 12/05/2018
 ms.keywords: LsaRegisterLogonProcess, LsaRegisterLogonProcess function [Security], _lsa_lsaregisterlogonprocess, ntsecapi/LsaRegisterLogonProcess, security.lsaregisterlogonprocess
-ms.topic: function
 f1_keywords:
 - ntsecapi/LsaRegisterLogonProcess
 dev_langs:

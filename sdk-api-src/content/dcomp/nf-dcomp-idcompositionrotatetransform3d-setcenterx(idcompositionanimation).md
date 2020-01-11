@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: F6421969-EE66-4A28-9236-697DE4D4EC5C
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetCenterX method, IDCompositionRotateTransform3D.SetCenterX, IDCompositionRotateTransform3D.SetCenterX(IDCompositionAnimation), IDCompositionRotateTransform3D::SetCenterX, IDCompositionRotateTransform3D::SetCenterX(IDCompositionAnimation), IDCompositionRotateTransform3D::SetCenterX(IDCompositionAnimation*), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetCenterX, directcomp.idcompositionrotatetransform3d_setcenterx_idcompositionanimation
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionRotateTransform3D.SetCenterX
 dev_langs:

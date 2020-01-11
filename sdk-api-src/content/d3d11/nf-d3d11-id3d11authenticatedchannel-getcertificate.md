@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: D7FC07CA-B045-4C44-B3FD-B902C5437E47
 ms.date: 12/05/2018
 ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertificate method [Media Foundation],ID3D11AuthenticatedChannel interface, ID3D11AuthenticatedChannel interface [Media Foundation],GetCertificate method, ID3D11AuthenticatedChannel.GetCertificate, ID3D11AuthenticatedChannel::GetCertificate, d3d11/ID3D11AuthenticatedChannel::GetCertificate, mf.id3d11authenticatedchannel_getcertificate
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11AuthenticatedChannel.GetCertificate
 dev_langs:

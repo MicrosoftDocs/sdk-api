@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 5fe87e87-6199-4a96-8e76-1838e515116e
 ms.date: 12/05/2018
 ms.keywords: PPP_INFO_2, PPP_INFO_2 structure [RAS], _mpr_ppp_info_2, mprapi/PPP_INFO_2, rras.ppp_info_2
-ms.topic: struct
 f1_keywords:
 - mprapi/PPP_INFO_2
 dev_langs:

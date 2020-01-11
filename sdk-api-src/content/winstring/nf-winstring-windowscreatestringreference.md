@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 0361BB7E-DA49-4289-A93E-DE7AAB8712AC
 ms.date: 12/05/2018
 ms.keywords: WindowsCreateStringReference, WindowsCreateStringReference function [Windows Runtime], winrt.windowscreatestringreference, winstring/WindowsCreateStringReference
-ms.topic: function
 f1_keywords:
 - winstring/WindowsCreateStringReference
 dev_langs:

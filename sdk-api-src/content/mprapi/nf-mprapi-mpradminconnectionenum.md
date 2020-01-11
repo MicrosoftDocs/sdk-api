@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 27be536e-0437-4e30-aef7-ed92f50baeaa
 ms.date: 12/05/2018
 ms.keywords: MprAdminConnectionEnum, MprAdminConnectionEnum function [RAS], _mpr_mpradminconnectionenum, mprapi/MprAdminConnectionEnum, rras.mpradminconnectionenum
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminConnectionEnum
 dev_langs:

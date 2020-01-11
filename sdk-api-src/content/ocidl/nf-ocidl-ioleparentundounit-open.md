@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 185eae3b-5323-45f1-9810-47bd21ce0d22
 ms.date: 12/05/2018
 ms.keywords: IOleParentUndoUnit interface [COM],Open method, IOleParentUndoUnit.Open, IOleParentUndoUnit::Open, Open, Open method [COM], Open method [COM],IOleParentUndoUnit interface, _ole_ioleparentundounit_open, com.ioleparentundounit_open, ocidl/IOleParentUndoUnit::Open
-ms.topic: method
 f1_keywords:
 - ocidl/IOleParentUndoUnit.Open
 dev_langs:

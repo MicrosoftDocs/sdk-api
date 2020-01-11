@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_29b9.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxTiff interface [Fax Service],RecipientName property, IFaxTiff.RecipientName, IFaxTiff.get_RecipientName, IFaxTiff::RecipientName, IFaxTiff::get_RecipientName, RecipientName property [Fax Service], RecipientName property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_recipientname, fax._mfax_ifaxtiff_get_recipientname, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_recipientname_cpp, faxcom/IFaxTiff::RecipientName, faxcom/IFaxTiff::get_RecipientName, get_RecipientName
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxTiff.RecipientName
 dev_langs:

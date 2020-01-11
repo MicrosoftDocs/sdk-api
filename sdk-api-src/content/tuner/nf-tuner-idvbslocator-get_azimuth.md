@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2c1314f4-6291-4440-8010-247f8fa82d0c
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_Azimuth method, IDVBSLocator.get_Azimuth, IDVBSLocator::get_Azimuth, IDVBSLocatorget_Azimuth, get_Azimuth, get_Azimuth method [Microsoft TV Technologies], get_Azimuth method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_azimuth, tuner/IDVBSLocator::get_Azimuth
-ms.topic: method
 f1_keywords:
 - tuner/IDVBSLocator.get_Azimuth
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 3e92d934-1ab7-4f09-a579-0dde4ef44c7f
 ms.date: 12/05/2018
 ms.keywords: IX509PublicKey interface [Security],InitializeFromEncodedPublicKeyInfo method, IX509PublicKey.InitializeFromEncodedPublicKeyInfo, IX509PublicKey::InitializeFromEncodedPublicKeyInfo, InitializeFromEncodedPublicKeyInfo, InitializeFromEncodedPublicKeyInfo method [Security], InitializeFromEncodedPublicKeyInfo method [Security],IX509PublicKey interface, certenroll/IX509PublicKey::InitializeFromEncodedPublicKeyInfo, security.ix509publickey_initializefromencodedpublickeyinfo_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509PublicKey.InitializeFromEncodedPublicKeyInfo
 dev_langs:

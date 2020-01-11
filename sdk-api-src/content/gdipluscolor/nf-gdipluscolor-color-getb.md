@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getb.htm
 ms.date: 12/05/2018
 ms.keywords: Color class [GDI+],GetB method, Color.GetB, Color::GetB, GetB, GetB method [GDI+], GetB method [GDI+],Color class, _gdiplus_CLASS_Color_GetB_, gdiplus._gdiplus_CLASS_Color_GetB_
-ms.topic: method
 f1_keywords:
 - gdipluscolor/Color.GetB
 dev_langs:

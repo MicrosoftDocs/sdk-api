@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: EB4197BA-5963-45E7-B196-94F907637EBB
 ms.date: 12/05/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],ProcessInput method, IMFDeviceTransform.ProcessInput, IMFDeviceTransform::ProcessInput, ProcessInput, ProcessInput method [Streaming Media Devices], ProcessInput method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::ProcessInput, stream.imfdevicetransform_processinput
-ms.topic: method
 f1_keywords:
 - mftransform/IMFDeviceTransform.ProcessInput
 dev_langs:

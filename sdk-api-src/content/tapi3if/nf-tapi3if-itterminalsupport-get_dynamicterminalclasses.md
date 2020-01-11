@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 258fad5c-6269-45ab-bdc0-d38338f8e515
 ms.date: 12/05/2018
 ms.keywords: ITTerminalSupport interface [TAPI 2.2],get_DynamicTerminalClasses method, ITTerminalSupport.get_DynamicTerminalClasses, ITTerminalSupport::get_DynamicTerminalClasses, _tapi3_itterminalsupport_get_dynamicterminalclasses, get_DynamicTerminalClasses, get_DynamicTerminalClasses method [TAPI 2.2], get_DynamicTerminalClasses method [TAPI 2.2],ITTerminalSupport interface, tapi3.itterminalsupport_get_dynamicterminalclasses, tapi3if/ITTerminalSupport::get_DynamicTerminalClasses
-ms.topic: method
 f1_keywords:
 - tapi3if/ITTerminalSupport.get_DynamicTerminalClasses
 dev_langs:

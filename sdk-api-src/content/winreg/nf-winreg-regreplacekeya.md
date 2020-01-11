@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: f968fa71-edc8-4f49-b9fa-1e89224df33b
 ms.date: 12/05/2018
 ms.keywords: RegReplaceKey, RegReplaceKey function, RegReplaceKeyA, RegReplaceKeyW, _win32_regreplacekey, base.regreplacekey, winreg/RegReplaceKey, winreg/RegReplaceKeyA, winreg/RegReplaceKeyW
-ms.topic: function
 f1_keywords:
 - winreg/RegReplaceKey
 dev_langs:

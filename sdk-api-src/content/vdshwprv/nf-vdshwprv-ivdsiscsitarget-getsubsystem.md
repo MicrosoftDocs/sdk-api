@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: c9feb332-1b30-4de8-ac30-79fe53750d8c
 ms.date: 12/05/2018
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],GetSubSystem method, IVdsIscsiTarget.GetSubSystem, IVdsIscsiTarget::GetSubSystem, base.ivdsiscsitarget_getsubsystem, vds/IVdsIscsiTarget::GetSubSystem, vdshwprv/IVdsIscsiTarget::GetSubSystem
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsIscsiTarget.GetSubSystem
 dev_langs:

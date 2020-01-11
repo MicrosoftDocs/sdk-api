@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], IWMPSettings interface [Windows Media Player],described, IWMPSettingsInterface, wmp.iwmpsettings, wmp/IWMPSettings
-ms.topic: interface
 f1_keywords:
 - wmp/IWMPSettings
 dev_langs:

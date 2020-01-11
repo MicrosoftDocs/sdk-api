@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 90f2dcfc-4704-4731-9b86-12a2a6f208f4
 ms.date: 12/05/2018
 ms.keywords: IPrincipal interface [Task Scheduler],RunLevel property, IPrincipal.RunLevel, IPrincipal.get_RunLevel, IPrincipal::RunLevel, IPrincipal::get_RunLevel, IPrincipal::put_RunLevel, RunLevel property [Task Scheduler], RunLevel property [Task Scheduler],IPrincipal interface, TASK_RUNLEVEL_HIGHEST, TASK_RUNLEVEL_LUA, get_RunLevel, taskschd.iprincipal_runlevel, taskschd/IPrincipal::RunLevel, taskschd/IPrincipal::get_RunLevel, taskschd/IPrincipal::put_RunLevel
-ms.topic: method
 f1_keywords:
 - taskschd/IPrincipal.RunLevel
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 59229720-cd3b-45d5-90c4-391acb124f4d
 ms.date: 12/05/2018
 ms.keywords: DeactivateAndUndo, DeactivateAndUndo method [COM], DeactivateAndUndo method [COM],IOleInPlaceSite interface, IOleInPlaceSite interface [COM],DeactivateAndUndo method, IOleInPlaceSite.DeactivateAndUndo, IOleInPlaceSite::DeactivateAndUndo, IOleInPlaceSiteWindowless.DeactivateAndUndo, _ole_ioleinplacesite_deactivateandundo, com.ioleinplacesite_deactivateandundo, oleidl/IOleInPlaceSite::DeactivateAndUndo
-ms.topic: method
 f1_keywords:
 - oleidl/IOleInPlaceSite.DeactivateAndUndo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: fc1a61ef-8a5d-4209-9134-f1660cfb6246
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],getROOTHStore method, IEnroll.getROOTHStore, IEnroll4 interface [Security],getROOTHStore method, IEnroll4::getROOTHStore, IEnroll::getROOTHStore, getROOTHStore, getROOTHStore method [Security], getROOTHStore method [Security],IEnroll interface, getROOTHStore method [Security],IEnroll4 interface, security.ienroll4_getroothstore, xenroll/IEnroll4::getROOTHStore, xenroll/IEnroll::getROOTHStore
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll.getROOTHStore
 dev_langs:

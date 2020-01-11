@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 742b03b0-f729-489c-a87f-b8eb404b6290
 ms.date: 12/05/2018
 ms.keywords: '*PDD_PALETTECALLBACKS, DD_PALETTECALLBACKS, DD_PALETTECALLBACKS structure [Display Devices], PDD_PALETTECALLBACKS, PDD_PALETTECALLBACKS structure pointer [Display Devices], ddrawint/DD_PALETTECALLBACKS, ddrawint/PDD_PALETTECALLBACKS, ddstrcts_def94357-6d48-46e6-848a-ef85f13de99e.xml, display.dd_palettecallbacks'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_PALETTECALLBACKS
 dev_langs:

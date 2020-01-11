@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a4ac28f4-8570-4307-80c1-2960d7c87544
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_PanRelative method, ICameraControl.put_PanRelative, ICameraControl::put_PanRelative, ICameraControlput_PanRelative, dshow.icameracontrol_put_panrelative, put_PanRelative, put_PanRelative method [DirectShow], put_PanRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_PanRelative
-ms.topic: method
 f1_keywords:
 - vidcap/ICameraControl.put_PanRelative
 dev_langs:

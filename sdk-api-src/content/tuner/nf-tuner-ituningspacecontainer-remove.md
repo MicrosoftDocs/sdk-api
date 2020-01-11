@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 72ead181-6c5a-49d1-a789-3ae4128417c6
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],Remove method, ITuningSpaceContainer.Remove, ITuningSpaceContainer::Remove, ITuningSpaceContainerRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_remove, tuner/ITuningSpaceContainer::Remove
-ms.topic: method
 f1_keywords:
 - tuner/ITuningSpaceContainer.Remove
 dev_langs:

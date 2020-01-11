@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: b13502d6-11eb-406b-bed0-e9d14e61e424
 ms.date: 12/05/2018
 ms.keywords: IADsComputerOperations interface [ADSI],Shutdown method, IADsComputerOperations.Shutdown, IADsComputerOperations::Shutdown, Shutdown, Shutdown method [ADSI], Shutdown method [ADSI],IADsComputerOperations interface, _ds_iadscomputeroperations_shutdown, adsi.iadscomputeroperations__shutdown, adsi.iadscomputeroperations_shutdown, iads/IADsComputerOperations::Shutdown
-ms.topic: method
 f1_keywords:
 - iads/IADsComputerOperations.Shutdown
 dev_langs:

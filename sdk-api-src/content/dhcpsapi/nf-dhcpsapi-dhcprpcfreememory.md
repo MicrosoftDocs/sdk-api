@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: bf22a0a6-2ecd-4460-89c4-3f870c6275dc
 ms.date: 12/05/2018
 ms.keywords: DhcpRpcFreeMemory, DhcpRpcFreeMemory function [DHCP], dhcp.dhcprpcfreememory, dhcpsapi/DhcpRpcFreeMemory
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpRpcFreeMemory
 dev_langs:

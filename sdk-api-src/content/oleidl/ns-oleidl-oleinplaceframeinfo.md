@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: e09445d2-61e5-4691-b51e-746e0cc91c00
 ms.date: 12/05/2018
 ms.keywords: '*LPOLEINPLACEFRAMEINFO, LPOLEINPLACEFRAMEINFO, LPOLEINPLACEFRAMEINFO structure pointer [COM], OLEINPLACEFRAMEINFO, OLEINPLACEFRAMEINFO structure [COM], _ole_OLEINPLACEFRAMEINFO, com.oleinplaceframeinfo, oleidl/LPOLEINPLACEFRAMEINFO, oleidl/OLEINPLACEFRAMEINFO'
-ms.topic: struct
 f1_keywords:
 - oleidl/OLEINPLACEFRAMEINFO
 dev_langs:

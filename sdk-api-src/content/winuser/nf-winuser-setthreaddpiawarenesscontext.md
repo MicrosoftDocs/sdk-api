@@ -7,7 +7,6 @@ tech.root: hidpi
 ms.assetid: 95531BDC-3D45-4BB6-8C63-0D845C66B88F
 ms.date: 12/05/2018
 ms.keywords: SetThreadDpiAwarenessContext, SetThreadDpiAwarenessContext function [High DPI], hidpi.setthreaddpiawarenesscontext, winuser/SetThreadDpiAwarenessContext
-ms.topic: function
 f1_keywords:
 - winuser/SetThreadDpiAwarenessContext
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 9ea79d7e-2f81-46c4-8afe-ebe4e2f3c49f
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],MatchesSourceTemplate property, IFsrmFileScreen.MatchesSourceTemplate, IFsrmFileScreen.get_MatchesSourceTemplate, IFsrmFileScreen::MatchesSourceTemplate, IFsrmFileScreen::get_MatchesSourceTemplate, MatchesSourceTemplate property [File Server Resource Manager], MatchesSourceTemplate property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_matchessourcetemplate, fsrm.ifsrmfilescreen_matchessourcetemplate, fsrmscreen/IFsrmFileScreen::MatchesSourceTemplate, fsrmscreen/IFsrmFileScreen::get_MatchesSourceTemplate, get_MatchesSourceTemplate
-ms.topic: method
 f1_keywords:
 - fsrmscreen/IFsrmFileScreen.MatchesSourceTemplate
 dev_langs:

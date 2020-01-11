@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 14b81b88-36db-4b01-96e6-eafed22ae02e
 ms.date: 12/05/2018
 ms.keywords: CCertServerPolicy object [Security],EnumerateAttributesSetup method, EnumerateAttributesSetup, EnumerateAttributesSetup method [Security], EnumerateAttributesSetup method [Security],CCertServerPolicy object, EnumerateAttributesSetup method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateAttributesSetup method, ICertServerPolicy.EnumerateAttributesSetup, ICertServerPolicy::EnumerateAttributesSetup, _certsrv_icertserverpolicy_enumerateattributessetup, certif/ICertServerPolicy::EnumerateAttributesSetup, security.icertserverpolicy_enumerateattributessetup
-ms.topic: method
 f1_keywords:
 - certif/ICertServerPolicy.EnumerateAttributesSetup
 dev_langs:

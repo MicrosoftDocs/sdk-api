@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: b1db14ed-345f-428e-9338-74c7b230e661
 ms.date: 12/05/2018
 ms.keywords: EngDeleteEvent, EngDeleteEvent function [Display Devices], display.engdeleteevent, gdifncs_8a703ede-e100-493c-8ede-82c03361633f.xml, winddi/EngDeleteEvent
-ms.topic: function
 f1_keywords:
 - winddi/EngDeleteEvent
 dev_langs:

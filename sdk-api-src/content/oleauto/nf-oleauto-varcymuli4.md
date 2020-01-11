@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 2adfa078-c00c-48df-bd31-e36bcab64cbf
 ms.date: 12/05/2018
 ms.keywords: VarCyMulI4, VarCyMulI4 function [Automation], _oa96_VarCyMulI4, automat.varcymuli4, oleauto/VarCyMulI4
-ms.topic: function
 f1_keywords:
 - oleauto/VarCyMulI4
 dev_langs:

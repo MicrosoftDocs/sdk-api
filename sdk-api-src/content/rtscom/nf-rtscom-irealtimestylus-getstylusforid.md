@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 16218bd3-9e92-407b-99b1-155d4387641e
 ms.date: 12/05/2018
 ms.keywords: 16218bd3-9e92-407b-99b1-155d4387641e, GetStylusForId, GetStylusForId method [Tablet PC], GetStylusForId method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStylusForId method, IRealTimeStylus.GetStylusForId, IRealTimeStylus::GetStylusForId, rtscom/IRealTimeStylus::GetStylusForId, tablet.irealtimestylus_getstylusforid
-ms.topic: method
 f1_keywords:
 - rtscom/IRealTimeStylus.GetStylusForId
 dev_langs:

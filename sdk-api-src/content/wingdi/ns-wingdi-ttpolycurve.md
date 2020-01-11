@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 59a26aec-786e-471b-8e08-ddffb04874d6
 ms.date: 12/05/2018
 ms.keywords: '*LPTTPOLYCURVE, LPTTPOLYCURVE, LPTTPOLYCURVE structure pointer [Windows GDI], TTPOLYCURVE, TTPOLYCURVE structure [Windows GDI], _win32_TTPOLYCURVE_str, gdi.ttpolycurve, wingdi/LPTTPOLYCURVE, wingdi/TTPOLYCURVE'
-ms.topic: struct
 f1_keywords:
 - wingdi/TTPOLYCURVE
 dev_langs:

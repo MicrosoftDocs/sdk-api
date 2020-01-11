@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: a7cc06b2-5a19-4ffe-b055-4756a0d305ef
 ms.date: 12/05/2018
 ms.keywords: VarCyMul, VarCyMul function [Automation], _oa96_VarCyMul, automat.varcymul, oleauto/VarCyMul
-ms.topic: function
 f1_keywords:
 - oleauto/VarCyMul
 dev_langs:

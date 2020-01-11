@@ -7,7 +7,6 @@ tech.root: Input_Radial
 ms.assetid: fe419ce2-9767-42c4-aaa6-a9b9ea93ec3e
 ms.date: 12/05/2018
 ms.keywords: CreateForWindow, CreateForWindow method, CreateForWindow method,IRadialControllerInterop interface, IRadialControllerInterop interface,CreateForWindow method, IRadialControllerInterop.CreateForWindow, IRadialControllerInterop::CreateForWindow, Input_Radial.iradialcontrollerinterop_createforwindow, radialcontrollerinterop/IRadialControllerInterop::CreateForWindow
-ms.topic: method
 f1_keywords:
 - radialcontrollerinterop/IRadialControllerInterop.CreateForWindow
 dev_langs:

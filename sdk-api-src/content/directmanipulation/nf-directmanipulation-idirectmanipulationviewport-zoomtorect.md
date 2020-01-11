@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: ce87521d-bbce-43d3-920b-89eca101d260
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],ZoomToRect method, IDirectManipulationViewport.ZoomToRect, IDirectManipulationViewport::ZoomToRect, ZoomToRect, ZoomToRect method [Direct Manipulation], ZoomToRect method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_zoomtorect, directmanipulation/IDirectManipulationViewport::ZoomToRect
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationViewport.ZoomToRect
 dev_langs:

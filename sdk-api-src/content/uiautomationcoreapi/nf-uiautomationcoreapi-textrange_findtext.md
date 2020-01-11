@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 24303a97-e8ad-4261-bff8-575980cf3c3d
 ms.date: 12/05/2018
 ms.keywords: TextRange_FindText, TextRange_FindText function [Windows Accessibility], uiauto.uiauto_TextRange_FindTextConPat, uiauto_TextRange_FindTextConPat, uiautomationcoreapi/TextRange_FindText, winauto.uiauto_TextRange_FindTextConPat
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/TextRange_FindText
 dev_langs:

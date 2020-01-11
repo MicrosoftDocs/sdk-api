@@ -4,7 +4,6 @@ title: LPWSPLISTEN
 description: The LPWSPListen function establishes a socket to listen for incoming connections.
 ms.date: 9/12/2019
 ms.keywords: LPWSPLISTEN
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

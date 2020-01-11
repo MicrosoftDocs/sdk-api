@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 23bbc186-3ef9-479a-94f9-a97269cf6dbc
 ms.date: 12/05/2018
 ms.keywords: ICInstall, ICInstall function [Windows Multimedia], _win32_ICInstall, multimedia.icinstall, vfw/ICInstall
-ms.topic: function
 f1_keywords:
 - vfw/ICInstall
 dev_langs:

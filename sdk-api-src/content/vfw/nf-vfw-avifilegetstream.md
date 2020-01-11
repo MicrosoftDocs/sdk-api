@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: b51a823c-6904-4942-883f-bda347541757
 ms.date: 12/05/2018
 ms.keywords: AVIFileGetStream, AVIFileGetStream function [Windows Multimedia], _win32_AVIFileGetStream, multimedia.avifilegetstream, vfw/AVIFileGetStream
-ms.topic: function
 f1_keywords:
 - vfw/AVIFileGetStream
 dev_langs:

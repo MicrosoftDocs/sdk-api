@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 0b58e0ca-03e7-43ea-aab2-5ac6cdb15807
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocumentStructureResource interface [XPS Documents and Packaging],SetContent method, IXpsOMDocumentStructureResource.SetContent, IXpsOMDocumentStructureResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMDocumentStructureResource interface, xps.ixpsomdocumentstructureresource_setcontent, xpsobjectmodel/IXpsOMDocumentStructureResource::SetContent
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDocumentStructureResource.SetContent
 dev_langs:

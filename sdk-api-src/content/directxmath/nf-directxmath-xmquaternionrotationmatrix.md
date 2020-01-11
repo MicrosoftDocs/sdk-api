@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionRotationMatrix(XMMATRIX)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionRotationMatrix, XMQuaternionRotationMatrix, XMQuaternionRotationMatrix method [DirectX Math Support APIs], dxmath.xmquaternionrotationmatrix
-ms.topic: function
 f1_keywords:
 - directxmath/XMQuaternionRotationMatrix
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: 6AC8958D-B060-4468-9811-9BAB0E6A06D3
 ms.date: 12/05/2018
 ms.keywords: CfExecute, CfExecute function, cfapi/CfExecute, cloudApi.cfexecute
-ms.topic: function
 f1_keywords:
 - cfapi/CfExecute
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 08cdea8a-5b36-428c-b90f-8741ae5f3205
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetaddresscaps, lineGetAddressCaps, lineGetAddressCaps function [TAPI 2.2], lineGetAddressCapsA, lineGetAddressCapsW, tapi/lineGetAddressCaps, tapi/lineGetAddressCapsA, tapi/lineGetAddressCapsW, tapi2.linegetaddresscaps
-ms.topic: function
 f1_keywords:
 - tapi/lineGetAddressCaps
 dev_langs:

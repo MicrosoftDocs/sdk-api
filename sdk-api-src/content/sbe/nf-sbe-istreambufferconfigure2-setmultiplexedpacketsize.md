@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 9133331b-cf0c-4dfb-8bb6-101742d194c7
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferConfigure2 interface [Microsoft TV Technologies],SetMultiplexedPacketSize method, IStreamBufferConfigure2.SetMultiplexedPacketSize, IStreamBufferConfigure2::SetMultiplexedPacketSize, IStreamBufferConfigure2SetMultiplexedPacketSize, SetMultiplexedPacketSize, SetMultiplexedPacketSize method [Microsoft TV Technologies], SetMultiplexedPacketSize method [Microsoft TV Technologies],IStreamBufferConfigure2 interface, mstv.istreambufferconfigure2_setmultiplexedpacketsize, sbe/IStreamBufferConfigure2::SetMultiplexedPacketSize
-ms.topic: method
 f1_keywords:
 - sbe/IStreamBufferConfigure2.SetMultiplexedPacketSize
 dev_langs:

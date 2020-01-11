@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 5b52ef5b-dc82-4a87-9204-d32134074c31
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_FLOWRATE_INFO, HTTP_FLOWRATE_INFO, HTTP_FLOWRATE_INFO structure [HTTP], PHTTP_FLOWRATE_INFO, PHTTP_FLOWRATE_INFO structure pointer [HTTP], http.http_flowrate_info, http/HTTP_FLOWRATE_INFO, http/PHTTP_FLOWRATE_INFO'
-ms.topic: struct
 f1_keywords:
 - http/HTTP_FLOWRATE_INFO
 dev_langs:

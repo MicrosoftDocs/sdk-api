@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 84cc51e8-78f3-4ee6-bc08-94feff89afb0
 ms.date: 12/05/2018
 ms.keywords: '*LPBITMAPINFO, *PBITMAPINFO, BITMAPINFO, BITMAPINFO structure [Windows GDI], PBITMAPINFO, PBITMAPINFO structure pointer [Windows GDI], _win32_BITMAPINFO_str, gdi.bitmapinfo, tagBITMAPINFO, wingdi/BITMAPINFO, wingdi/PBITMAPINFO'
-ms.topic: struct
 f1_keywords:
 - wingdi/BITMAPINFO
 dev_langs:

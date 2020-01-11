@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 62db148e-926d-47b3-a0f6-945730177184
 ms.date: 12/05/2018
 ms.keywords: IStreamConcatenate interface [IMAPI],Initialize method, IStreamConcatenate.Initialize, IStreamConcatenate::Initialize, Initialize, Initialize method [IMAPI], Initialize method [IMAPI],IStreamConcatenate interface, imapi.istreamconcatenate_initialize, imapi2/IStreamConcatenate::Initialize
-ms.topic: method
 f1_keywords:
 - imapi2/IStreamConcatenate.Initialize
 dev_langs:

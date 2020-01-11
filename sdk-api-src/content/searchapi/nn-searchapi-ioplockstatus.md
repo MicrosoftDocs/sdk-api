@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\ioplockstatus\ioplockstatus.htm
 ms.date: 12/05/2018
 ms.keywords: IOpLockStatus, IOpLockStatus interface [search], IOpLockStatus interface [search],described, _search_IOpLockStatus, search._search_IOpLockStatus, searchapi/IOpLockStatus
-ms.topic: interface
 f1_keywords:
 - searchapi/IOpLockStatus
 dev_langs:

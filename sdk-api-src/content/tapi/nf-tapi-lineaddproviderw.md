@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: d6c96dba-bbfb-4b4a-a4f5-a55fd4446f3b
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineaddprovider, lineAddProvider, lineAddProvider function [TAPI 2.2], lineAddProviderA, lineAddProviderW, tapi/lineAddProvider, tapi/lineAddProviderA, tapi/lineAddProviderW, tapi2.lineaddprovider
-ms.topic: function
 f1_keywords:
 - tapi/lineAddProvider
 dev_langs:

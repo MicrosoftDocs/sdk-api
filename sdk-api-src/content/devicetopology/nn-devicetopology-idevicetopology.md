@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 1b509f69-6277-40c0-a293-02afc30d464a
 ms.date: 12/05/2018
 ms.keywords: IDeviceTopology, IDeviceTopology interface [Core Audio], IDeviceTopology interface [Core Audio],described, coreaudio.idevicetopology, devicetopology/IDeviceTopology
-ms.topic: interface
 f1_keywords:
 - devicetopology/IDeviceTopology
 dev_langs:

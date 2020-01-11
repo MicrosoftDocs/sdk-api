@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 75c8bf34-1522-4db2-9c33-e1ca5ac11e4c
 ms.date: 12/05/2018
 ms.keywords: RpcSsDontSerializeContext, RpcSsDontSerializeContext function [RPC], _rpc_rpcssdontserializecontext, rpc.rpcssdontserializecontext, rpcdce/RpcSsDontSerializeContext
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcSsDontSerializeContext
 dev_langs:

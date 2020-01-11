@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 8743908b-c9b4-41ff-952e-039253fb1246
 ms.date: 12/05/2018
 ms.keywords: ImmInstallIME, ImmInstallIME function [Internationalization for Windows Applications], ImmInstallIMEA, ImmInstallIMEW, _win32_ImmInstallIME, imm/ImmInstallIME, imm/ImmInstallIMEA, imm/ImmInstallIMEW, intl.imminstallime
-ms.topic: function
 f1_keywords:
 - immdev/ImmInstallIME
 dev_langs:

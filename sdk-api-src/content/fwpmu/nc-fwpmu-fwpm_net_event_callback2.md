@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 0A5E0ADB-0879-4646-9F69-D8AB9BD067AD
 ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT_CALLBACK2, FWPM_NET_EVENT_CALLBACK2 callback, FWPM_NET_EVENT_CALLBACK2 callback function [Filtering], fwp.fwpm_net_event_callback2, fwpmu/FWPM_NET_EVENT_CALLBACK2
-ms.topic: callback
 f1_keywords:
 - fwpmu/FWPM_NET_EVENT_CALLBACK2
 dev_langs:

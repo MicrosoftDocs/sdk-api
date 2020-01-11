@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9af3e3da-6b3a-4e81-ba50-ff7aeeb73c44
 ms.date: 12/05/2018
 ms.keywords: PathIsDirectory, PathIsDirectory function [Windows Shell], PathIsDirectoryA, PathIsDirectoryW, _win32_PathIsDirectory, shell.PathIsDirectory, shlwapi/PathIsDirectory, shlwapi/PathIsDirectoryA, shlwapi/PathIsDirectoryW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathIsDirectory
 dev_langs:

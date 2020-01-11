@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 06cc7f1d-57a3-43b8-ab83-8d2ee8e655b5
 ms.date: 12/05/2018
 ms.keywords: 06cc7f1d-57a3-43b8-ab83-8d2ee8e655b5, GetOutputStreamInfo, GetOutputStreamInfo method [Media Foundation], GetOutputStreamInfo method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputStreamInfo method, IMFTransform.GetOutputStreamInfo, IMFTransform::GetOutputStreamInfo, mf.imftransform_getoutputstreaminfo, mftransform/IMFTransform::GetOutputStreamInfo
-ms.topic: method
 f1_keywords:
 - mftransform/IMFTransform.GetOutputStreamInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 51a26dc5-a551-4f97-9dd4-6522a14989a8
 ms.date: 12/05/2018
 ms.keywords: IMSVidGenericSink interface [Microsoft TV Technologies],SetSinkFilter method, IMSVidGenericSink.SetSinkFilter, IMSVidGenericSink::SetSinkFilter, IMSVidGenericSinkSetSinkFilter, SetSinkFilter, SetSinkFilter method [Microsoft TV Technologies], SetSinkFilter method [Microsoft TV Technologies],IMSVidGenericSink interface, mstv.imsvidgenericsink_setsinkfilter, segment/IMSVidGenericSink::SetSinkFilter
-ms.topic: method
 f1_keywords:
 - segment/IMSVidGenericSink.SetSinkFilter
 dev_langs:

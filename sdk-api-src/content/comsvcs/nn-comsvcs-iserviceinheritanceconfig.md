@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 8bb95aef-7470-43cc-941d-2105cdf48f37
 ms.date: 12/05/2018
 ms.keywords: IServiceInheritanceConfig, IServiceInheritanceConfig interface [COM+], IServiceInheritanceConfig interface [COM+],described, _cos_IServiceInheritanceConfig, comsvcs/IServiceInheritanceConfig, cos.iserviceinheritanceconfig
-ms.topic: interface
 f1_keywords:
 - comsvcs/IServiceInheritanceConfig
 dev_langs:

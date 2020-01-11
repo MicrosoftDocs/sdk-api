@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 903c697e-4fa5-472e-ab5b-7864a326f323
 ms.date: 12/05/2018
 ms.keywords: '*PDD_WAITFORVPORTSYNCDATA, DD_WAITFORVPORTSYNCDATA, DD_WAITFORVPORTSYNCDATA structure [Display Devices], ddrawint/DD_WAITFORVPORTSYNCDATA, ddstrcts_2a571554-4047-4ffd-88d0-cdea5bfeff63.xml, display.dd_waitforvportsyncdata'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_WAITFORVPORTSYNCDATA
 dev_langs:

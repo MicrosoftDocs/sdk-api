@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 061EF002-178E-42CA-9D32-7E1282297BA4
 ms.date: 12/05/2018
 ms.keywords: IMFSensorDevice, IMFSensorDevice interface [Media Foundation], IMFSensorDevice interface [Media Foundation],described, mf.imfsensordevice, mfidl/IMFSensorDevice
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFSensorDevice
 dev_langs:

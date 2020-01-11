@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 4499842b-c802-4328-b463-f3cfb270e635
 ms.date: 12/05/2018
 ms.keywords: PropVariantToUInt16, PropVariantToUInt16 function [Windows Properties], properties.PropVariantToUInt16, propvarutil/PropVariantToUInt16, shell.PropVariantToUInt16, shell_PropVariantToUInt16
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantToUInt16
 dev_langs:

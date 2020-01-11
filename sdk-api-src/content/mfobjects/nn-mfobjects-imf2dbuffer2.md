@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: BFA73B1A-F8A7-4100-9DBD-234CCA06F9F5
 ms.date: 12/05/2018
 ms.keywords: IMF2DBuffer2, IMF2DBuffer2 interface [Media Foundation], IMF2DBuffer2 interface [Media Foundation],described, mf.imf2dbuffer2, mfobjects/IMF2DBuffer2
-ms.topic: interface
 f1_keywords:
 - mfobjects/IMF2DBuffer2
 dev_langs:

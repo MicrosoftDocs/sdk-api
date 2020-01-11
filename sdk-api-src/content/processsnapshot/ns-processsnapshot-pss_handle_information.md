@@ -7,7 +7,6 @@ tech.root: proc_snap
 ms.assetid: 77192849-D919-4947-9BFF-343C166C5A51
 ms.date: 12/05/2018
 ms.keywords: PSS_HANDLE_INFORMATION, PSS_HANDLE_INFORMATION structure, proc_snap.pss_handle_information, processsnapshot/PSS_HANDLE_INFORMATION
-ms.topic: struct
 f1_keywords:
 - processsnapshot/PSS_HANDLE_INFORMATION
 dev_langs:

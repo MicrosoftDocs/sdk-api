@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 005d1c7a-00cc-4083-bde6-d3fa947de28e
 ms.date: 12/05/2018
 ms.keywords: AllowViewResize, AllowViewResize method [Windows Shell], AllowViewResize method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],AllowViewResize method, IBrowserService2.AllowViewResize, IBrowserService2::AllowViewResize, shdeprecated/IBrowserService2::AllowViewResize, shell.IBrowserService2_AllowViewResize, zone_IBrowserService2_AllowViewResize
-ms.topic: method
 f1_keywords:
 - shdeprecated/IBrowserService2.AllowViewResize
 dev_langs:

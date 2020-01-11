@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: D2E20195-D81F-4717-83D2-BF8DC1D1779B
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],SetProperty method, ICertificateEnrollmentServerSetup.SetProperty, ICertificateEnrollmentServerSetup::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::SetProperty, security.icertificateenrollmentserversetup_setproperty
-ms.topic: method
 f1_keywords:
 - casetup/ICertificateEnrollmentServerSetup.SetProperty
 dev_langs:

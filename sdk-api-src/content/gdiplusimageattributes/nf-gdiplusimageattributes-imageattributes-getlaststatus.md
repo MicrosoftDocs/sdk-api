@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\getlaststatus_2.htm
 ms.date: 12/05/2018
 ms.keywords: GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],GetLastStatus method, ImageAttributes.GetLastStatus, ImageAttributes::GetLastStatus, _gdiplus_CLASS_ImageAttributes_GetLastStatus_, gdiplus._gdiplus_CLASS_ImageAttributes_GetLastStatus_
-ms.topic: method
 f1_keywords:
 - gdiplusimageattributes/ImageAttributes.GetLastStatus
 dev_langs:

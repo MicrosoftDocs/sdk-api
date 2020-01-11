@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0ec4497c-68c3-4b0e-a9e4-332e42b2c89b
 ms.date: 12/05/2018
 ms.keywords: IISDB_BIT, IISDB_BIT interface [Microsoft TV Technologies], IISDB_BIT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_BIT, mstv.iisdb_bit
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IISDB_BIT
 dev_langs:

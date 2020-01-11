@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 834825d4-f92d-4cca-bf15-a3f94647c4f1
 ms.date: 12/05/2018
 ms.keywords: GetCASystemId, GetCASystemId method [Microsoft TV Technologies], GetCASystemId method [Microsoft TV Technologies],IIsdbCADescriptor interface, IIsdbCADescriptor interface [Microsoft TV Technologies],GetCASystemId method, IIsdbCADescriptor.GetCASystemId, IIsdbCADescriptor::GetCASystemId, dvbsiparser/IIsdbCADescriptor::GetCASystemId, mstv.iisdbcadescriptor_getcasystemid
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbCADescriptor.GetCASystemId
 dev_langs:

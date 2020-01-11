@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 905ef0c9-ac32-4dfd-a25a-820cafa04815
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolumeEx, IAudioEndpointVolumeEx interface [Core Audio], IAudioEndpointVolumeEx interface [Core Audio],described, coreaudio.iaudioendpointvolumeex, endpointvolume/IAudioEndpointVolumeEx
-ms.topic: interface
 f1_keywords:
 - endpointvolume/IAudioEndpointVolumeEx
 dev_langs:

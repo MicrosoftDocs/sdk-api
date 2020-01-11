@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 2b1452d3-2474-40c9-a913-de7e148e2d94
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetSigninOptions, PeerCollabGetSigninOptions function [Peer Networking], p2p.peercollabgetsigninoptions, p2p/PeerCollabGetSigninOptions
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabGetSigninOptions
 dev_langs:

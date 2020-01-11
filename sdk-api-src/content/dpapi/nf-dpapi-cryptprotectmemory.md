@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 6b372552-87d4-4047-afa5-0d1113348289
 ms.date: 12/05/2018
 ms.keywords: CRYPTPROTECTMEMORY_CROSS_PROCESS, CRYPTPROTECTMEMORY_SAME_LOGON, CRYPTPROTECTMEMORY_SAME_PROCESS, CryptProtectMemory, CryptProtectMemory function [Security], dpapi/CryptProtectMemory, security.cryptprotectmemory, wincrypt/CryptProtectMemory
-ms.topic: function
 f1_keywords:
 - dpapi/CryptProtectMemory
 dev_langs:

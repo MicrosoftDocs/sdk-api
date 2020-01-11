@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 7ec730fc-3286-4b83-88ac-d59bda85a6ae
 ms.date: 12/05/2018
 ms.keywords: _win32_mmioDescend, mmioDescend, mmioDescend function [Windows Multimedia], mmsystem/mmioDescend, multimedia.mmiodescend
-ms.topic: function
 f1_keywords:
 - mmiscapi/mmioDescend
 dev_langs:

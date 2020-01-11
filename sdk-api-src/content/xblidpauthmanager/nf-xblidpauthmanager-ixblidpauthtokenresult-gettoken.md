@@ -7,7 +7,6 @@ tech.root: xblidp
 ms.assetid: 2E90B1FA-1381-45D7-A700-A3627C56E282
 ms.date: 12/05/2018
 ms.keywords: GetToken, GetToken method, GetToken method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetToken method, IXblIdpAuthTokenResult.GetToken, IXblIdpAuthTokenResult::GetToken, xblidp.ixblidpauthtokenresult_gettoken, xblidpauthmanager/IXblIdpAuthTokenResult::GetToken
-ms.topic: method
 f1_keywords:
 - xblidpauthmanager/IXblIdpAuthTokenResult.GetToken
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: d146d12f-4a1a-44b4-9e08-9f660554fcbb
 ms.date: 12/05/2018
 ms.keywords: WS_SUBJECT_NAME_CERT_CREDENTIAL, WS_SUBJECT_NAME_CERT_CREDENTIAL structure [Web Services for Windows], webservices/WS_SUBJECT_NAME_CERT_CREDENTIAL, wsw.ws_subject_name_cert_credential
-ms.topic: struct
 f1_keywords:
 - webservices/WS_SUBJECT_NAME_CERT_CREDENTIAL
 dev_langs:

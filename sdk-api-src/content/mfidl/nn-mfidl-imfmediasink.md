@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 103e6fd8-a18f-480a-8261-099623014659
 ms.date: 12/05/2018
 ms.keywords: 103e6fd8-a18f-480a-8261-099623014659, IMFMediaSink, IMFMediaSink interface [Media Foundation], IMFMediaSink interface [Media Foundation],described, mf.imfmediasink, mfidl/IMFMediaSink
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFMediaSink
 dev_langs:

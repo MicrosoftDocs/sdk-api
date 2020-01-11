@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 5c0e9e2e-a50d-45d0-b51d-065784d1d912
 ms.date: 12/05/2018
 ms.keywords: CryptMsgEncodeAndSignCTL, CryptMsgEncodeAndSignCTL function [Security], _crypto2_cryptmsgencodeandsignctl, security.cryptmsgencodeandsignctl, wincrypt/CryptMsgEncodeAndSignCTL
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptMsgEncodeAndSignCTL
 dev_langs:

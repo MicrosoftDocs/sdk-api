@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: e03d86e3-4ace-4425-8aae-e3b4721cb9cc
 ms.date: 12/05/2018
 ms.keywords: PFN_CMSG_CNG_IMPORT_KEY_TRANS, PFN_CMSG_CNG_IMPORT_KEY_TRANS callback, PFN_CMSG_CNG_IMPORT_KEY_TRANS callback function [Security], security.pfn_cmsg_cng_import_key_trans, wincrypt/PFN_CMSG_CNG_IMPORT_KEY_TRANS
-ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CMSG_CNG_IMPORT_KEY_TRANS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: a4dfd99f-16d7-4bf1-9852-d6d1fd4a3f06
 ms.date: 12/05/2018
 ms.keywords: GetSignatureMethod, GetSignatureMethod method [Open Packaging Conventions], GetSignatureMethod method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignatureMethod method, IOpcDigitalSignature.GetSignatureMethod, IOpcDigitalSignature::GetSignatureMethod, msopc/IOpcDigitalSignature::GetSignatureMethod, opc.iopcdigitalsignature_getsignaturemethod
-ms.topic: method
 f1_keywords:
 - msopc/IOpcDigitalSignature.GetSignatureMethod
 dev_langs:

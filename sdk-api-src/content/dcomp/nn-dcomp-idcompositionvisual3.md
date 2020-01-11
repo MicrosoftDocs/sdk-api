@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: c7bf4e6f-119b-2122-1103-d6ab240121c9
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual3, IDCompositionVisual3 interface [DirectComposition], IDCompositionVisual3 interface [DirectComposition],described, dcomp/IDCompositionVisual3, directcomp.idcompositionvisual3
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionVisual3
 dev_langs:

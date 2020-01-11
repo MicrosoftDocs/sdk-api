@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 09e407a2-7a58-483d-8422-4ae40c05b742
 ms.date: 12/05/2018
 ms.keywords: '*LPCQPAGE, CQPAGE, CQPAGE structure [Active Directory], LPCQPAGE, LPCQPAGE structure pointer [Active Directory], _glines_cqpage, ad.cqpage, cmnquery/CQPAGE, cmnquery/LPCQPAGE'
-ms.topic: struct
 f1_keywords:
 - cmnquery/CQPAGE
 dev_langs:

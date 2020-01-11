@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9e80fd5e-f57d-4801-b198-73b8f5ffff6e
 ms.date: 12/05/2018
 ms.keywords: IDockingWindow, IDockingWindow interface [Windows Shell], IDockingWindow interface [Windows Shell],described, _win32_IDockingWindow, shell.IDockingWindow, shobjidl_core/IDockingWindow
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IDockingWindow
 dev_langs:

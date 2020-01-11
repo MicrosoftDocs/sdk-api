@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 5880f3dd-2a74-4af8-b0d8-2a8eedccc1e6
 ms.date: 12/05/2018
 ms.keywords: WSCGetProviderInfo, WSCGetProviderInfo function [Winsock], winsock.wscgetproviderinfo, ws2spi/WSCGetProviderInfo
-ms.topic: function
 f1_keywords:
 - ws2spi/WSCGetProviderInfo
 dev_langs:

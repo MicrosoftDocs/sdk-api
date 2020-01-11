@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 085f40ac-d91f-4853-8ad1-1fc5da08b981
 ms.date: 12/05/2018
 ms.keywords: OffsetWindowOrgEx, OffsetWindowOrgEx function [Windows GDI], _win32_OffsetWindowOrgEx, gdi.offsetwindoworgex, wingdi/OffsetWindowOrgEx
-ms.topic: function
 f1_keywords:
 - wingdi/OffsetWindowOrgEx
 dev_langs:

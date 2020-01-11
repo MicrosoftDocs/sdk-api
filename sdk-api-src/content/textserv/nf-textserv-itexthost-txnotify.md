@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxnotify.htm
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxNotify method, ITextHost.TxNotify, ITextHost::TxNotify, TxNotify, TxNotify method [Windows Controls], TxNotify method [Windows Controls],ITextHost interface, _win32_ITextHost_TxNotify, _win32_ITextHost_TxNotify_cpp, controls.ITextHost_TxNotify, controls._win32_ITextHost_TxNotify, textserv/ITextHost::TxNotify
-ms.topic: method
 f1_keywords:
 - textserv/ITextHost.TxNotify
 dev_langs:

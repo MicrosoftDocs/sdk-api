@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 4723c8a4-36af-4543-b6df-d51f68a3e94d
 ms.date: 12/05/2018
 ms.keywords: DrawDibRealize, DrawDibRealize function [Windows Multimedia], _win32_DrawDibRealize, multimedia.drawdibrealize, vfw/DrawDibRealize
-ms.topic: function
 f1_keywords:
 - vfw/DrawDibRealize
 dev_langs:

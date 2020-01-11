@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 724b2a38-f7ca-4423-acd4-0871623d1201
 ms.date: 12/05/2018
 ms.keywords: CreateStdAccessibleProxy, CreateStdAccessibleProxy function [Windows Accessibility], CreateStdAccessibleProxyA, CreateStdAccessibleProxyW, _msaa_CreateStdAccessibleProxy, msaa.createstdaccessibleproxy, oleacc/CreateStdAccessibleProxy, oleacc/CreateStdAccessibleProxyA, oleacc/CreateStdAccessibleProxyW, winauto.createstdaccessibleproxy
-ms.topic: function
 f1_keywords:
 - oleacc/CreateStdAccessibleProxy
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_gettext.htm
 ms.date: 12/05/2018
 ms.keywords: ListBox_GetText, ListBox_GetText macro [Windows Controls], _win32_ListBox_GetText, _win32_ListBox_GetText_cpp, controls.ListBox_GetText, controls._win32_ListBox_GetText, windowsx/ListBox_GetText
-ms.topic: macro
 f1_keywords:
 - windowsx/ListBox_GetText
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_seticonspacing.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_SetIconSpacing, ListView_SetIconSpacing macro [Windows Controls], _win32_ListView_SetIconSpacing, _win32_ListView_SetIconSpacing_cpp, commctrl/ListView_SetIconSpacing, controls.ListView_SetIconSpacing, controls._win32_ListView_SetIconSpacing
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_SetIconSpacing
 dev_langs:

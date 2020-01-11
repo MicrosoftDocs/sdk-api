@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: ce301fa4-d1dd-4470-b8b5-fc944afdc621
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],SetSelection method, ITextStoreAnchor.SetSelection, ITextStoreAnchor::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::SetSelection, tsf.itextstoreanchor_setselection
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreAnchor.SetSelection
 dev_langs:

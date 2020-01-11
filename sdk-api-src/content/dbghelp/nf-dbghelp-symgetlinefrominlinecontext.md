@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 0c362bd9-7496-436b-9e01-2054dc3dfc57
 ms.date: 12/05/2018
 ms.keywords: SymGetLineFromInlineContext, SymGetLineFromInlineContext function, SymGetLineFromInlineContextW, base.symgetlinefrominlinecontext, dbghelp/SymGetLineFromInlineContext, dbghelp/SymGetLineFromInlineContextW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymGetLineFromInlineContext
 dev_langs:

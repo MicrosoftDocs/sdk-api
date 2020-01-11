@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\updown\functions\createupdowncontrol.htm
 ms.date: 12/05/2018
 ms.keywords: CreateUpDownControl, CreateUpDownControl function [Windows Controls], _win32_CreateUpDownControl, _win32_CreateUpDownControl_cpp, commctrl/CreateUpDownControl, controls.CreateUpDownControl, controls._win32_CreateUpDownControl
-ms.topic: function
 f1_keywords:
 - commctrl/CreateUpDownControl
 dev_langs:

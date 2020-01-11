@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 305857c2-cb3a-4a56-9db3-b986b278bd02
 ms.date: 12/05/2018
 ms.keywords: IPropertyPage interface [COM],Move method, IPropertyPage.Move, IPropertyPage::Move, Move, Move method [COM], Move method [COM],IPropertyPage interface, _ctrl_ipropertypage_move, com.ipropertypage_move, ocidl/IPropertyPage::Move
-ms.topic: method
 f1_keywords:
 - ocidl/IPropertyPage.Move
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 9e456462-59a9-4f18-ba47-92fc2350889b
 ms.date: 12/05/2018
 ms.keywords: '*PLSA_FOREST_TRUST_INFORMATION, LSA_FOREST_TRUST_INFORMATION, LSA_FOREST_TRUST_INFORMATION structure [Security], PLSA_FOREST_TRUST_INFORMATION, PLSA_FOREST_TRUST_INFORMATION structure pointer [Security], _LSA_FOREST_TRUST_INFORMATION, ntsecapi/LSA_FOREST_TRUST_INFORMATION, ntsecapi/PLSA_FOREST_TRUST_INFORMATION, security.lsa_forest_trust_information'
-ms.topic: struct
 f1_keywords:
 - ntsecapi/LSA_FOREST_TRUST_INFORMATION
 dev_langs:

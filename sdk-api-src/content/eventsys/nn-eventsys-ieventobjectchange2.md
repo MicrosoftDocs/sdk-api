@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 1b51c7ad-eae7-4030-81c2-ed9259648d31
 ms.date: 12/05/2018
 ms.keywords: IEventObjectChange2, IEventObjectChange2 interface [COM+], IEventObjectChange2 interface [COM+],described, _cos_IEventObjectChange2, cos.ieventobjectchange2, eventsys/IEventObjectChange2
-ms.topic: interface
 f1_keywords:
 - eventsys/IEventObjectChange2
 dev_langs:

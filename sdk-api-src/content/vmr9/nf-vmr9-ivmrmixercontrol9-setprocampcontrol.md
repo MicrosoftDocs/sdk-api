@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6e2949f5-87e5-4748-bb23-be14452c8c82
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetProcAmpControl method, IVMRMixerControl9.SetProcAmpControl, IVMRMixerControl9::SetProcAmpControl, IVMRMixerControl9SetProcAmpControl, SetProcAmpControl, SetProcAmpControl method [DirectShow], SetProcAmpControl method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setprocampcontrol, vmr9/IVMRMixerControl9::SetProcAmpControl
-ms.topic: method
 f1_keywords:
 - vmr9/IVMRMixerControl9.SetProcAmpControl
 dev_langs:

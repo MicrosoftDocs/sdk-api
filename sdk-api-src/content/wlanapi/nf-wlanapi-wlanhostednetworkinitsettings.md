@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: aed4db5d-9740-43ee-bf09-7a4a5abae953
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkInitSettings, WlanHostedNetworkInitSettings function [NativeWIFI], nwifi.wlanhostednetworkinitsettings, wlanapi/WlanHostedNetworkInitSettings
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanHostedNetworkInitSettings
 dev_langs:

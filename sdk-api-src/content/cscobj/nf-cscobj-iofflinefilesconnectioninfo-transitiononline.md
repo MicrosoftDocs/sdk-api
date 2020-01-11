@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: b8cac664-598d-43fd-a77e-e8406c197afc
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesConnectionInfo interface [Offline Files],TransitionOnline method, IOfflineFilesConnectionInfo.TransitionOnline, IOfflineFilesConnectionInfo::TransitionOnline, OFFLINEFILES_TRANSITION_FLAG_CONSOLE, OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE, TransitionOnline, TransitionOnline method [Offline Files], TransitionOnline method [Offline Files],IOfflineFilesConnectionInfo interface, cscobj/IOfflineFilesConnectionInfo::TransitionOnline, of.iofflinefilesconnectioninfo_transitiononline
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesConnectionInfo.TransitionOnline
 dev_langs:

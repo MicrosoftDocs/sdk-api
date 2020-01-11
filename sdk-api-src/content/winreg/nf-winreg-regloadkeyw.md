@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 536395aa-03ba-430d-a66d-fcabdc9dfe22
 ms.date: 12/05/2018
 ms.keywords: RegLoadKey, RegLoadKey function, RegLoadKeyA, RegLoadKeyW, _win32_regloadkey, base.regloadkey, winreg/RegLoadKey, winreg/RegLoadKeyA, winreg/RegLoadKeyW
-ms.topic: function
 f1_keywords:
 - winreg/RegLoadKey
 dev_langs:

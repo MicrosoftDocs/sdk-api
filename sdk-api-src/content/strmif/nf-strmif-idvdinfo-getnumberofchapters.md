@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 65d36d1c-956f-480f-adbb-1682eafc9c93
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfChapters, GetNumberOfChapters method [DirectShow], GetNumberOfChapters method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetNumberOfChapters method, IDvdInfo.GetNumberOfChapters, IDvdInfo::GetNumberOfChapters, IDvdInfoGetNumberOfChapters, dshow.idvdinfo_getnumberofchapters, strmif/IDvdInfo::GetNumberOfChapters
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo.GetNumberOfChapters
 dev_langs:

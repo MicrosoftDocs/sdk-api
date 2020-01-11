@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 765a0f52-9360-4190-abc8-597028f781ac
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetIcon, TSPI_phoneGetIcon function [TAPI 2.2], _tspi_tspi_phonegeticon, tspi.tspi_phonegeticon, tspi/TSPI_phoneGetIcon
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_phoneGetIcon
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 09dae38c-3b2b-4f12-9c1e-90737cf0c7cc
 ms.date: 12/05/2018
 ms.keywords: '*LPPROFILEINFOA, LPPROFILEINFO, LPPROFILEINFO structure pointer [Windows Shell], PI_APPLYPOLICY, PI_NOUI, PROFILEINFO, PROFILEINFO structure [Windows Shell], PROFILEINFOA, PROFILEINFOW, _shell_PROFILEINFO, profinfo/LPPROFILEINFO, profinfo/PROFILEINFO, profinfo/PROFILEINFOA, profinfo/PROFILEINFOW, shell.PROFILEINFO'
-ms.topic: struct
 f1_keywords:
 - profinfo/PROFILEINFO
 dev_langs:

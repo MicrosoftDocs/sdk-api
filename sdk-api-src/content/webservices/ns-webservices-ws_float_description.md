@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 54af331f-92bd-4970-945d-13f3a2e62c4b
 ms.date: 12/05/2018
 ms.keywords: WS_FLOAT_DESCRIPTION, WS_FLOAT_DESCRIPTION structure [Web Services for Windows], webservices/WS_FLOAT_DESCRIPTION, wsw.ws_float_description
-ms.topic: struct
 f1_keywords:
 - webservices/WS_FLOAT_DESCRIPTION
 dev_langs:

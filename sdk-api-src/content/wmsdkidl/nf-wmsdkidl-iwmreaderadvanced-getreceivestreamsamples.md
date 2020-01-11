@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: cdb76a25-fc30-4be2-a54e-928050699e58
 ms.date: 12/05/2018
 ms.keywords: GetReceiveStreamSamples, GetReceiveStreamSamples method [windows Media Format], GetReceiveStreamSamples method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetReceiveStreamSamples method, IWMReaderAdvanced.GetReceiveStreamSamples, IWMReaderAdvanced::GetReceiveStreamSamples, IWMReaderAdvancedGetReceiveStreamSamples, wmformat.iwmreaderadvanced_getreceivestreamsamples, wmsdkidl/IWMReaderAdvanced::GetReceiveStreamSamples
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced.GetReceiveStreamSamples
 dev_langs:

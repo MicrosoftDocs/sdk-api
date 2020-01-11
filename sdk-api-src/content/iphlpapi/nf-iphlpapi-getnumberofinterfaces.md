@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 655d63eb-455a-4a5e-97e2-7b7588eee4d9
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfInterfaces, GetNumberOfInterfaces function [IP Helper], _iphlp_getnumberofinterfaces, iphlp.getnumberofinterfaces, iphlpapi/GetNumberOfInterfaces
-ms.topic: function
 f1_keywords:
 - iphlpapi/GetNumberOfInterfaces
 dev_langs:

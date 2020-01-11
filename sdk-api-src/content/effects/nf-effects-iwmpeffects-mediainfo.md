@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 1267cb11-1b45-4f38-ad3c-02213405ed66
 ms.date: 12/05/2018
 ms.keywords: EffectsMediaInfo, IWMPEffects interface [Windows Media Player],MediaInfo method, IWMPEffects.MediaInfo, IWMPEffects::MediaInfo, MediaInfo, MediaInfo method [Windows Media Player], MediaInfo method [Windows Media Player],IWMPEffects interface, effects/IWMPEffects::MediaInfo, wmp.iwmpeffects_mediainfo
-ms.topic: method
 f1_keywords:
 - effects/IWMPEffects.MediaInfo
 dev_langs:

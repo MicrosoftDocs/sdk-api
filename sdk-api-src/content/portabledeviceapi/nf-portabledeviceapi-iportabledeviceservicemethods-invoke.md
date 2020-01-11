@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: 9c972815-c95a-4718-abac-dcc28a2198e1
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceServiceMethods interface [Windows Portable Devices SDK],Invoke method, IPortableDeviceServiceMethods.Invoke, IPortableDeviceServiceMethods::Invoke, Invoke, Invoke method [Windows Portable Devices SDK], Invoke method [Windows Portable Devices SDK],IPortableDeviceServiceMethods interface, portabledeviceapi/IPortableDeviceServiceMethods::Invoke, wpdsdk.iportabledeviceservicemethods_invoke
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDeviceServiceMethods.Invoke
 dev_langs:

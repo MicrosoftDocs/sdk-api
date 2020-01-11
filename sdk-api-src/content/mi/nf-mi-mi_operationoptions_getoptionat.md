@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 06ae674b-c7d7-47c1-81f2-6a825d9889a2
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_GetOptionAt, MI_OperationOptions_GetOptionAt function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetOptionAt, wmi_v2.mi_operationoptions_getoptionat
-ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_GetOptionAt
 dev_langs:

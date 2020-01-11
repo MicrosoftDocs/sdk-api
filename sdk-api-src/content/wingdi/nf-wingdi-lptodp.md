@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 670a16fb-842e-4250-9ad7-dc08e849c2ba
 ms.date: 12/05/2018
 ms.keywords: LPtoDP, LPtoDP function [Windows GDI], _win32_LPtoDP, gdi.lptodp, wingdi/LPtoDP
-ms.topic: function
 f1_keywords:
 - wingdi/LPtoDP
 dev_langs:

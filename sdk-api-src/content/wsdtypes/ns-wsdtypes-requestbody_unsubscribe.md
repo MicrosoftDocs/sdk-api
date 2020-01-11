@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 4032fe2b-1fd4-4e6d-998d-3fb80a5b906f
 ms.date: 12/05/2018
 ms.keywords: REQUESTBODY_Unsubscribe, REQUESTBODY_Unsubscribe structure, ncd.requestbody_unsubscribe_struct, wsdtypes/REQUESTBODY_Unsubscribe
-ms.topic: struct
 f1_keywords:
 - wsdtypes/REQUESTBODY_Unsubscribe
 dev_langs:

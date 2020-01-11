@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: d98da825-ce27-41ec-8f82-6f44e4854018
 ms.date: 12/05/2018
 ms.keywords: WbioQueryEngineInterface, WbioQueryEngineInterface function [Windows Biometric Framework API], secbiomet.wbioqueryengineinterface, winbio_adapter/WbioQueryEngineInterface
-ms.topic: function
 f1_keywords:
 - winbio_adapter/WbioQueryEngineInterface
 dev_langs:

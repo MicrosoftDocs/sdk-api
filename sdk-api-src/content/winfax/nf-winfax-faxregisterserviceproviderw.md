@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_94xe.htm
 ms.date: 12/05/2018
 ms.keywords: FaxRegisterServiceProvider, FaxRegisterServiceProvider function [Fax Service], FaxRegisterServiceProviderW, _mfax_faxregisterserviceprovider, fax._mfax_faxregisterserviceprovider, winfax/FaxRegisterServiceProvider
-ms.topic: function
 f1_keywords:
 - winfax/FaxRegisterServiceProvider
 dev_langs:

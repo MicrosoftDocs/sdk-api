@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 7f2b30e8-ba1d-4db3-843f-f9eafca47add
 ms.date: 12/05/2018
 ms.keywords: MprAdminLinkHangupNotification, MprAdminLinkHangupNotification callback, MprAdminLinkHangupNotification callback function [RAS], _mpr_mpradminlinkhangupnotification, mprapi/MprAdminLinkHangupNotification, rras.mpradminlinkhangupnotification
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminLinkHangupNotification
 dev_langs:

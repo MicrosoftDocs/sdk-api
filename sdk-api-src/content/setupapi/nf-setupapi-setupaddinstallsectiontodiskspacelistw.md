@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 322f36d7-a683-4a48-b294-393277f09e7d
 ms.date: 12/05/2018
 ms.keywords: SetupAddInstallSectionToDiskSpaceList, SetupAddInstallSectionToDiskSpaceList function [Setup API], SetupAddInstallSectionToDiskSpaceListA, SetupAddInstallSectionToDiskSpaceListW, _setupapi_setupaddinstallsectiontodiskspacelist, setup.setupaddinstallsectiontodiskspacelist, setupapi/SetupAddInstallSectionToDiskSpaceList, setupapi/SetupAddInstallSectionToDiskSpaceListA, setupapi/SetupAddInstallSectionToDiskSpaceListW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupAddInstallSectionToDiskSpaceList
 dev_langs:

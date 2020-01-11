@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 38d94f36-f149-4b62-a710-8f7359bfd8cd
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation, ISecurityInformation interface [Security], ISecurityInformation interface [Security],described, _win32_isecurityinformation, aclui/ISecurityInformation, security.isecurityinformation
-ms.topic: interface
 f1_keywords:
 - aclui/ISecurityInformation
 dev_langs:

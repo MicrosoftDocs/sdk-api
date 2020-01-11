@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 51cc6c27-91ca-4d02-95d6-207827450fd5
 ms.date: 12/05/2018
 ms.keywords: '*PPEER_NODE_INFO, PEER_NODE_INFO, PEER_NODE_INFO structure [Peer Networking], PPEER_NODE_INFO, PPEER_NODE_INFO structure pointer [Peer Networking], p2p.peer_node_info, p2p/PPEER_NODE_INFO, p2p/peer_node_info_tag'
-ms.topic: struct
 f1_keywords:
 - p2p/PEER_NODE_INFO
 dev_langs:

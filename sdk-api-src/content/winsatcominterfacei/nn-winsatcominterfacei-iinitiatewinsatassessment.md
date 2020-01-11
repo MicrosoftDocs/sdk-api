@@ -7,7 +7,6 @@ tech.root: WinSAT
 ms.assetid: 0b299477-50a4-4f61-a0e5-fdbae239503b
 ms.date: 12/05/2018
 ms.keywords: IInitiateWinSATAssessment, IInitiateWinSATAssessment interface [WinSAT], IInitiateWinSATAssessment interface [WinSAT],described, winsat.iinitiatewinsatassessment, winsatcominterfacei/IInitiateWinSATAssessment
-ms.topic: interface
 f1_keywords:
 - winsatcominterfacei/IInitiateWinSATAssessment
 dev_langs:

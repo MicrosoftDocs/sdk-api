@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: bb821672-10b1-4fe6-a752-6cd1ccd1e49e
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronize, ISyncMgrSynchronize interface [Windows Shell], ISyncMgrSynchronize interface [Windows Shell],described, mobsync/ISyncMgrSynchronize, shell.syncmgr_isyncmgrsynchronize, syncmgr.isyncmgrsynchronize
-ms.topic: interface
 f1_keywords:
 - mobsync/ISyncMgrSynchronize
 dev_langs:

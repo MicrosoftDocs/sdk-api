@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c2b6e8d8-99a1-4af3-9881-bfe6932e4a76
 ms.date: 12/05/2018
 ms.keywords: CoResumeClassObjects, CoResumeClassObjects function [COM], _com_CoResumeClassObjects, com.coresumeclassobjects, combaseapi/CoResumeClassObjects
-ms.topic: function
 f1_keywords:
 - combaseapi/CoResumeClassObjects
 dev_langs:

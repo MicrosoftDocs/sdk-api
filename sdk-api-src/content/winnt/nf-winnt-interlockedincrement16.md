@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 93460ed0-2c2c-4686-a8ed-02669c4df214
 ms.date: 12/05/2018
 ms.keywords: InterlockedIncrement16, InterlockedIncrement16 function, base.interlockedincrement16, winnt/InterlockedIncrement16
-ms.topic: function
 f1_keywords:
 - winnt/InterlockedIncrement16
 dev_langs:

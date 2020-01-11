@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 68c99781-aedf-4676-bbd2-ab6cc14bba46
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrEvents interface [Windows Shell],Reset method, IEnumSyncMgrEvents.Reset, IEnumSyncMgrEvents::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumSyncMgrEvents interface, _shell_IEnumSyncMgrEvents_Reset, shell.IEnumSyncMgrEvents_Reset, syncmgr/IEnumSyncMgrEvents::Reset
-ms.topic: method
 f1_keywords:
 - syncmgr/IEnumSyncMgrEvents.Reset
 dev_langs:

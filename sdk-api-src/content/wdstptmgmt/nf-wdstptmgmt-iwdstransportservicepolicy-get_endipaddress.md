@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 9900acb3-a66b-4279-becc-6ad1a040d534
 ms.date: 12/05/2018
 ms.keywords: EndIpAddress property [Windows Deployment Services], EndIpAddress property [Windows Deployment Services],IWdsTransportServicePolicy interface, IWdsTransportServicePolicy interface [Windows Deployment Services],EndIpAddress property, IWdsTransportServicePolicy.EndIpAddress, IWdsTransportServicePolicy.get_EndIpAddress, IWdsTransportServicePolicy::EndIpAddress, IWdsTransportServicePolicy::get_EndIpAddress, IWdsTransportServicePolicy::put_EndIpAddress, get_EndIpAddress, wds.iwdstransportservicepolicy_endipaddress, wdstptmgmt/IWdsTransportServicePolicy::EndIpAddress, wdstptmgmt/IWdsTransportServicePolicy::get_EndIpAddress, wdstptmgmt/IWdsTransportServicePolicy::put_EndIpAddress
-ms.topic: method
 f1_keywords:
 - wdstptmgmt/IWdsTransportServicePolicy.EndIpAddress
 dev_langs:

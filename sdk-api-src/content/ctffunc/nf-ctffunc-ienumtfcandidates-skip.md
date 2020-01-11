@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: f32587f2-cdfa-4cbc-8a5c-f6630c7866f9
 ms.date: 12/05/2018
 ms.keywords: IEnumTfCandidates interface [Text Services Framework],Skip method, IEnumTfCandidates.Skip, IEnumTfCandidates::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfCandidates interface, _tsf_ienumtfcandidates_skip_ref, ctffunc/IEnumTfCandidates::Skip, tsf.ienumtfcandidates_skip
-ms.topic: method
 f1_keywords:
 - ctffunc/IEnumTfCandidates.Skip
 dev_langs:

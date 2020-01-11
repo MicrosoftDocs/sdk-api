@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 07c4debc-1817-46ac-9f67-9b8637a04662
 ms.date: 12/05/2018
 ms.keywords: IIsdbSeriesDescriptor, IIsdbSeriesDescriptor interface [Microsoft TV Technologies], IIsdbSeriesDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbSeriesDescriptor, mstv.iisdbseriesdescriptor
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IIsdbSeriesDescriptor
 dev_langs:

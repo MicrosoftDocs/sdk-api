@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 30d44536-2a2d-44ab-bafc-bdb851cd272b
 ms.date: 12/05/2018
 ms.keywords: IAMGraphStreams, IAMGraphStreams interface [DirectShow], IAMGraphStreams interface [DirectShow],described, IAMGraphStreamsInterface, dshow.iamgraphstreams, strmif/IAMGraphStreams
-ms.topic: interface
 f1_keywords:
 - strmif/IAMGraphStreams
 dev_langs:

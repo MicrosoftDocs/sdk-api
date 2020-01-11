@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 8fba6d5e-0d8c-488f-a17c-4852b487e300
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phoneopen, phoneOpen, phoneOpen function [TAPI 2.2], tapi/phoneOpen, tapi2.phoneopen
-ms.topic: function
 f1_keywords:
 - tapi/phoneOpen
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3e995e07-e088-40de-ba28-c30caea45786
 ms.date: 12/05/2018
 ms.keywords: IPersistStreamInit interface [COM],Load method, IPersistStreamInit.Load, IPersistStreamInit::Load, Load, Load method [COM], Load method [COM],IPersistStreamInit interface, _com_ipersiststreaminit_load, com.ipersiststreaminit_load, ocidl/IPersistStreamInit::Load
-ms.topic: method
 f1_keywords:
 - ocidl/IPersistStreamInit.Load
 dev_langs:

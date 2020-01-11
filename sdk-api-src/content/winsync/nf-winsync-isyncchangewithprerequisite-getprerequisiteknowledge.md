@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 48aa9436-b708-4dad-9201-d57988baf749
 ms.date: 12/05/2018
 ms.keywords: GetPrerequisiteKnowledge, GetPrerequisiteKnowledge method [Windows Sync], GetPrerequisiteKnowledge method [Windows Sync],ISyncChangeWithPrerequisite interface, ISyncChangeWithPrerequisite interface [Windows Sync],GetPrerequisiteKnowledge method, ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge, ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge, winsync.isyncchangewithprerequisite_getprerequisiteknowledge, winsync/ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge
-ms.topic: method
 f1_keywords:
 - winsync/ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge
 dev_langs:

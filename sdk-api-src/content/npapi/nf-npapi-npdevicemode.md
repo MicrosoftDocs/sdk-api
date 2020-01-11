@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 502e3d34-f582-4f0f-b3b2-263bd293cf11
 ms.date: 12/05/2018
 ms.keywords: NPDeviceMode, NPDeviceMode function [Security], _mnp_npdevicemode, npapi/NPDeviceMode, security.npdevicemode
-ms.topic: function
 f1_keywords:
 - npapi/NPDeviceMode
 dev_langs:

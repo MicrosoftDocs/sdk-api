@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 35eed36a-de3e-4bb6-8b1b-179ba72b568a
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Width method, IMSVidRect.put_Width, IMSVidRect::put_Width, IMSVidRectput_Width, mstv.imsvidrect_put_width, put_Width, put_Width method [Microsoft TV Technologies], put_Width method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Width
-ms.topic: method
 f1_keywords:
 - segment/IMSVidRect.put_Width
 dev_langs:

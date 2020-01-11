@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 09cd8826-4fdf-4ea5-8159-18bb81e3b5cf
 ms.date: 12/05/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],Move method, ITextRangeProvider.Move, ITextRangeProvider::Move, Move, Move method [Windows Accessibility], Move method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_Move, uiauto_ITextRangeProvider_Move, uiautomationcore/ITextRangeProvider::Move, winauto.uiauto_ITextRangeProvider_Move
-ms.topic: method
 f1_keywords:
 - uiautomationcore/ITextRangeProvider.Move
 dev_langs:

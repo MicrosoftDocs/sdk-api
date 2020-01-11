@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 41a018be-2c7e-4700-8447-4fd5f919e5ba
 ms.date: 12/05/2018
 ms.keywords: WinBioUnregisterEventMonitor, WinBioUnregisterEventMonitor function [Windows Biometric Framework API], secbiomet.winbiounregistereventmonitor, winbio/WinBioUnregisterEventMonitor
-ms.topic: function
 f1_keywords:
 - winbio/WinBioUnregisterEventMonitor
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: xblidp
 ms.assetid: B27ADEA9-EF4F-4A6C-8876-3D2358E442E1
 ms.date: 12/05/2018
 ms.keywords: GetMsaAppId, GetMsaAppId method, GetMsaAppId method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetMsaAppId method, IXblIdpAuthTokenResult.GetMsaAppId, IXblIdpAuthTokenResult::GetMsaAppId, xblidp.ixblidpauthtokenresult_getmsaappid, xblidpauthmanager/IXblIdpAuthTokenResult::GetMsaAppId
-ms.topic: method
 f1_keywords:
 - xblidpauthmanager/IXblIdpAuthTokenResult.GetMsaAppId
 dev_langs:

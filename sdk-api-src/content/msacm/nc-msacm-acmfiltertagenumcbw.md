@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 63469be1-d657-4e95-9978-d31140ccd46f
 ms.date: 12/05/2018
 ms.keywords: ACMFILTERTAGENUMCB, ACMFILTERTAGENUMCB callback, ACMFILTERTAGENUMCBA, ACMFILTERTAGENUMCBW, _win32_acmFilterTagEnumCallback, acmFilterTagEnumCallback, acmFilterTagEnumCallback callback function [Windows Multimedia], msacm/ACMFILTERTAGENUMCBA, msacm/ACMFILTERTAGENUMCBW, msacm/acmFilterTagEnumCallback, multimedia.acmfiltertagenumcallback
-ms.topic: callback
 f1_keywords:
 - msacm/acmFilterTagEnumCallback
 dev_langs:

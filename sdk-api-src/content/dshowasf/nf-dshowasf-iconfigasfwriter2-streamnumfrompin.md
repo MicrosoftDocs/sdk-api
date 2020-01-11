@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 374331ec-6665-4ed9-b4ee-6d33b1e2ef2c
 ms.date: 12/05/2018
 ms.keywords: IConfigAsfWriter2 interface [DirectShow],StreamNumFromPin method, IConfigAsfWriter2.StreamNumFromPin, IConfigAsfWriter2::StreamNumFromPin, IConfigAsfWriter2StreamNumFromPin, StreamNumFromPin, StreamNumFromPin method [DirectShow], StreamNumFromPin method [DirectShow],IConfigAsfWriter2 interface, dshow.iconfigasfwriter2_streamnumfrompin, dshowasf/IConfigAsfWriter2::StreamNumFromPin
-ms.topic: method
 f1_keywords:
 - dshowasf/IConfigAsfWriter2.StreamNumFromPin
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: devlic
 ms.assetid: 957CBEDC-CF3A-4A65-B0D9-4CEACCAAC344
 ms.date: 12/05/2018
 ms.keywords: CheckDeveloperLicense, CheckDeveloperLicense function, devlic.checkdeveloperlicense, wsdevlicensing/CheckDeveloperLicense
-ms.topic: function
 f1_keywords:
 - wsdevlicensing/CheckDeveloperLicense
 dev_langs:

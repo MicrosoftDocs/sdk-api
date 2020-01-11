@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowmodulefilename.htm
 ms.date: 12/05/2018
 ms.keywords: GetWindowModuleFileName, GetWindowModuleFileName function [Windows and Messages], GetWindowModuleFileNameA, GetWindowModuleFileNameW, _win32_GetWindowModuleFileName, _win32_getwindowmodulefilename_cpp, winmsg.getwindowmodulefilename, winui._win32_getwindowmodulefilename, winuser/GetWindowModuleFileName, winuser/GetWindowModuleFileNameA, winuser/GetWindowModuleFileNameW
-ms.topic: function
 f1_keywords:
 - winuser/GetWindowModuleFileName
 dev_langs:

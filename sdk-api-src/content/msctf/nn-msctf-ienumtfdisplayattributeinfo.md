@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: b222deb8-22dd-44c3-9ecc-0fb379682796
 ms.date: 12/05/2018
 ms.keywords: IEnumTfDisplayAttributeInfo, IEnumTfDisplayAttributeInfo interface [Text Services Framework], IEnumTfDisplayAttributeInfo interface [Text Services Framework],described, _tsf_ienumtfdisplayattributeinfo_ref, msctf/IEnumTfDisplayAttributeInfo, tsf.ienumtfdisplayattributeinfo
-ms.topic: interface
 f1_keywords:
 - msctf/IEnumTfDisplayAttributeInfo
 dev_langs:

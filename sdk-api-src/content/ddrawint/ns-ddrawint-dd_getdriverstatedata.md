@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: a8b02b56-1733-467b-bd11-0185e6778d34
 ms.date: 12/05/2018
 ms.keywords: '*PDD_GETDRIVERSTATEDATA, DD_GETDRIVERSTATEDATA, DD_GETDRIVERSTATEDATA structure [Display Devices], d3dstrct_a7ee9601-b71c-4ff4-8ac5-37b62608d463.xml, ddrawint/DD_GETDRIVERSTATEDATA, display.dd_getdriverstatedata'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_GETDRIVERSTATEDATA
 dev_langs:

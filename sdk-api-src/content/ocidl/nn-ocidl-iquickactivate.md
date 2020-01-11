@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 9b3e3b56-5055-4dfa-83e6-702578662463
 ms.date: 12/05/2018
 ms.keywords: IQuickActivate, IQuickActivate interface [COM], IQuickActivate interface [COM],described, _ctrl_iquickactivate, com.iquickactivate, ocidl/IQuickActivate
-ms.topic: interface
 f1_keywords:
 - ocidl/IQuickActivate
 dev_langs:

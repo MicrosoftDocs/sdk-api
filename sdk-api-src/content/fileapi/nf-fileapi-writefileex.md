@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 6995c4ee-ba91-41d5-b72d-19dc2eb95945
 ms.date: 12/05/2018
 ms.keywords: WriteFileEx, WriteFileEx function [Files], _win32_writefileex, base.writefileex, fileapi/WriteFileEx, fs.writefileex, winbase/WriteFileEx
-ms.topic: function
 f1_keywords:
 - fileapi/WriteFileEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getitemflags.htm
 ms.date: 12/05/2018
 ms.keywords: GetItemFlags, GetItemFlags method [Windows Controls], GetItemFlags method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetItemFlags method, IImageList.GetItemFlags, IImageList::GetItemFlags, ILIF_ALPHA, ILIF_LOWQUALITY, comctl_IImageList_GetItemFlags, comctl_IImageList_GetItemFlags_cpp, commoncontrols/IImageList::GetItemFlags, controls.IImageList_GetItemFlags, controls.comctl_IImageList_GetItemFlags
-ms.topic: method
 f1_keywords:
 - commoncontrols/IImageList.GetItemFlags
 dev_langs:

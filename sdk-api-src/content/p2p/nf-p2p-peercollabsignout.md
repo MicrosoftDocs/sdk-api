@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: aa69a233-6104-47c6-a0b5-378794108623
 ms.date: 12/05/2018
 ms.keywords: PeerCollabSignout, PeerCollabSignout function [Peer Networking], p2p.peercollabsignout, p2p/PeerCollabSignout
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabSignout
 dev_langs:

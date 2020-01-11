@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: bb934017-9054-42b5-89d4-a24f12829503
 ms.date: 12/05/2018
 ms.keywords: IEnumOLEVERB interface [COM],Next method, IEnumOLEVERB.Next, IEnumOLEVERB::Next, Next, Next method [COM], Next method [COM],IEnumOLEVERB interface, _ole_ienumoleverb_next, com.ienumoleverb_next, oleidl/IEnumOLEVERB::Next
-ms.topic: method
 f1_keywords:
 - oleidl/IEnumOLEVERB.Next
 dev_langs:

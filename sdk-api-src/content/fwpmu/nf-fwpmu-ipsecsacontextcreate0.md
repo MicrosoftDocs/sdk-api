@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 50b85c07-2e21-4c89-928b-8954348b9aba
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextCreate0, IPsecSaContextCreate0 function [Filtering], fwp.ipsecsacontextcreate0, fwpmu/IPsecSaContextCreate0
-ms.topic: function
 f1_keywords:
 - fwpmu/IPsecSaContextCreate0
 dev_langs:

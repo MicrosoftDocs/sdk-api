@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: edd746c8-3d76-4759-b2a7-9ec75dd16842
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSelectExtVersion, TSPI_phoneSelectExtVersion function [TAPI 2.2], _tspi_tspi_phoneselectextversion, tspi.tspi_phoneselectextversion, tspi/TSPI_phoneSelectExtVersion
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_phoneSelectExtVersion
 dev_langs:

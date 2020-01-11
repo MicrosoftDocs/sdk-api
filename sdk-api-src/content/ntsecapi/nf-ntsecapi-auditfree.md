@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 697baf9b-91c4-4a88-a190-e9f6812e08af
 ms.date: 12/05/2018
 ms.keywords: AuditFree, AuditFree function [Security], ntsecapi/AuditFree, security.auditfree_func
-ms.topic: function
 f1_keywords:
 - ntsecapi/AuditFree
 dev_langs:

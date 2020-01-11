@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 2e3cdb10-fde9-4936-9a7d-61404a754faa
 ms.date: 12/05/2018
 ms.keywords: EndSubscribeToMultipleOperations, EndSubscribeToMultipleOperations method, EndSubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,EndSubscribeToMultipleOperations method, IWSDServiceProxyEventing.EndSubscribeToMultipleOperations, IWSDServiceProxyEventing::EndSubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_endsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::EndSubscribeToMultipleOperations
-ms.topic: method
 f1_keywords:
 - wsdclient/IWSDServiceProxyEventing.EndSubscribeToMultipleOperations
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 6709936b-cd44-444a-a0c0-14b5ebce5226
 ms.date: 12/05/2018
 ms.keywords: SetupDiInstallClass, SetupDiInstallClass function [Device and Driver Installation], SetupDiInstallClassA, SetupDiInstallClassW, devinst.setupdiinstallclass, di-rtns_9d55009f-08f3-448c-9c1e-468e995f8cb9.xml, setupapi/SetupDiInstallClass
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiInstallClass
 dev_langs:

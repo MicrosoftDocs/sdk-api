@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 604e33fd-ab12-4861-a083-544045f46ef4
 ms.date: 12/05/2018
 ms.keywords: GetIpInterfaceEntry, GetIpInterfaceEntry function [IP Helper], iphlp.getipinterfaceentry, netioapi/GetIpInterfaceEntry
-ms.topic: function
 f1_keywords:
 - netioapi/GetIpInterfaceEntry
 dev_langs:

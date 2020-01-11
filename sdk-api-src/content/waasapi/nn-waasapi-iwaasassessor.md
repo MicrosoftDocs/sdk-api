@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: CE5D99C9-2348-4566-AC94-DFBA5B583503
 ms.date: 12/05/2018
 ms.keywords: IWaaSAssessor, IWaaSAssessor interface, IWaaSAssessor interface,described, base.iwaasassessor, waasapi/IWaaSAssessor
-ms.topic: interface
 f1_keywords:
 - waasapi/IWaaSAssessor
 dev_langs:

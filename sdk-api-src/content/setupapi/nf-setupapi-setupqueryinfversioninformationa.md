@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 58768b91-a0c7-4791-8667-2890b742798c
 ms.date: 12/05/2018
 ms.keywords: SetupQueryInfVersionInformation, SetupQueryInfVersionInformation function [Setup API], SetupQueryInfVersionInformationA, SetupQueryInfVersionInformationW, _setupapi_setupqueryinfversioninformation, setup.setupqueryinfversioninformation, setupapi/SetupQueryInfVersionInformation, setupapi/SetupQueryInfVersionInformationA, setupapi/SetupQueryInfVersionInformationW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupQueryInfVersionInformation
 dev_langs:

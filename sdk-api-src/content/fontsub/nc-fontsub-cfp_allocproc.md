@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: f6a98721-ebd1-4d83-bc9d-adde2e3ce525
 ms.date: 12/05/2018
 ms.keywords: CFP_ALLOCPROC, CFP_ALLOCPROC callback, CFP_ALLOCPROC callback function [Windows GDI], _win32_CFP_ALLOCPROC, fontsub/CFP_ALLOCPROC, gdi.cfp_allocproc
-ms.topic: callback
 f1_keywords:
 - fontsub/CFP_ALLOCPROC
 dev_langs:

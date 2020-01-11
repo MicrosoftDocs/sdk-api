@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5eb4a3ce-74ce-4b97-bb5e-67cab82401ec
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Windows Shell], GetName method [Windows Shell],INewShortcutHook interface, INewShortcutHook interface [Windows Shell],GetName method, INewShortcutHook::GetName, INewShortcutHookA, INewShortcutHookA::GetName, INewShortcutHookW, INewShortcutHookW.GetName, INewShortcutHookW::GetName, _win32_INewShortcutHook_GetName, shell.INewShortcutHook_GetName, shlobj/INewShortcutHook::GetName
-ms.topic: method
 f1_keywords:
 - shlobj/INewShortcutHook.GetName
 dev_langs:

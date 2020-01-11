@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 32d09bdc-e8e8-4368-9f51-cc7ba170c8a0
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup interface [Security],SetAccountInformation method, IMSCEPSetup.SetAccountInformation, IMSCEPSetup::SetAccountInformation, SetAccountInformation, SetAccountInformation method [Security], SetAccountInformation method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::SetAccountInformation, security.imscepsetup_setaccountinformation
-ms.topic: method
 f1_keywords:
 - casetup/IMSCEPSetup.SetAccountInformation
 dev_langs:

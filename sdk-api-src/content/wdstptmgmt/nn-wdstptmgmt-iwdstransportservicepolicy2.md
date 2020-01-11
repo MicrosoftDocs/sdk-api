@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: F03FC0C8-D589-4C3C-A6C1-AD631839ED26
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServicePolicy2, IWdsTransportServicePolicy2 interface [Windows Deployment Services], IWdsTransportServicePolicy2 interface [Windows Deployment Services],described, wds.iwdstransportservicepolicy2, wdstptmgmt/IWdsTransportServicePolicy2
-ms.topic: interface
 f1_keywords:
 - wdstptmgmt/IWdsTransportServicePolicy2
 dev_langs:

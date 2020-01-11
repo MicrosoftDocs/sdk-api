@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 0cfe2f62-63dc-45a6-96ce-fb4bf458358f
 ms.date: 12/05/2018
 ms.keywords: BufferCallback, BufferCallback callback function [ETW], PEVENT_TRACE_BUFFER_CALLBACK, PEVENT_TRACE_BUFFER_CALLBACK callback, PEVENT_TRACE_BUFFER_CALLBACKA, PEVENT_TRACE_BUFFER_CALLBACKW, _evt_buffercallback, base.buffercallback, etw.buffercallback, evntrace/BufferCallback
-ms.topic: callback
 f1_keywords:
 - evntrace/BufferCallback
 dev_langs:

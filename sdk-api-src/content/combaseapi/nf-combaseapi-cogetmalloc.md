@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: d1d09fbe-ca5c-4480-b807-3afcc043ccb9
 ms.date: 12/05/2018
 ms.keywords: CoGetMalloc, CoGetMalloc function [COM], _com_CoGetMalloc, com.cogetmalloc, combaseapi/CoGetMalloc
-ms.topic: function
 f1_keywords:
 - combaseapi/CoGetMalloc
 dev_langs:

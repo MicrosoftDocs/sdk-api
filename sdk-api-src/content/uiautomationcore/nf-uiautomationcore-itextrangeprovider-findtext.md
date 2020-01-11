@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 6012bc1e-5c1c-4874-ba2b-5e16eaf21f1d
 ms.date: 12/05/2018
 ms.keywords: FindText, FindText method [Windows Accessibility], FindText method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],FindText method, ITextRangeProvider.FindText, ITextRangeProvider::FindText, uiauto.uiauto_ITextRangeProvider_FindText, uiauto_ITextRangeProvider_FindText, uiautomationcore/ITextRangeProvider::FindText, winauto.uiauto_ITextRangeProvider_FindText
-ms.topic: method
 f1_keywords:
 - uiautomationcore/ITextRangeProvider.FindText
 dev_langs:

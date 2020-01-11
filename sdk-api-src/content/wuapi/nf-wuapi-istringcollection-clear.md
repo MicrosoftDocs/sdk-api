@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 480b8a8a-ecf1-4f1c-b53d-98a0151c57b5
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Windows Update Agent], Clear method [Windows Update Agent],IStringCollection interface, IStringCollection interface [Windows Update Agent],Clear method, IStringCollection.Clear, IStringCollection::Clear, wua.istringcollection_clear, wuapi/IStringCollection::Clear
-ms.topic: method
 f1_keywords:
 - wuapi/IStringCollection.Clear
 dev_langs:

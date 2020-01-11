@@ -7,7 +7,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffect\setinputsource.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffect interface [WPF Bitmap Effects],SetInputSource method, IMILBitmapEffect.SetInputSource, IMILBitmapEffect::SetInputSource, SetInputSource, SetInputSource method [WPF Bitmap Effects], SetInputSource method [WPF Bitmap Effects],IMILBitmapEffect interface, _wibe_imilbitmapeffect_setinputsource, mileffects/IMILBitmapEffect::SetInputSource, wibe._wibe_imilbitmapeffect_setinputsource
-ms.topic: method
 f1_keywords:
 - mileffects/IMILBitmapEffect.SetInputSource
 dev_langs:

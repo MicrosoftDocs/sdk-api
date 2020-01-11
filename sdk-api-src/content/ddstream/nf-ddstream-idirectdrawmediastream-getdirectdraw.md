@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 44c505fe-70d9-49bd-9135-8a6dc2c72e98
 ms.date: 12/05/2018
 ms.keywords: GetDirectDraw, GetDirectDraw method [DirectShow], GetDirectDraw method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],GetDirectDraw method, IDirectDrawMediaStream.GetDirectDraw, IDirectDrawMediaStream::GetDirectDraw, IDirectDrawMediaStreamGetDirectDraw, ddstream/IDirectDrawMediaStream::GetDirectDraw, dshow.idirectdrawmediastream_getdirectdraw
-ms.topic: method
 f1_keywords:
 - ddstream/IDirectDrawMediaStream.GetDirectDraw
 dev_langs:

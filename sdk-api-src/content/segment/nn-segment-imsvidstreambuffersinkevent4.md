@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: afec7f7a-0c5b-47ca-b442-5dbdba54a7af
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSinkEvent4, IMSVidStreamBufferSinkEvent4 interface [Microsoft TV Technologies], IMSVidStreamBufferSinkEvent4 interface [Microsoft TV Technologies],described, mstv.imsvidstreambuffersinkevent4, segment/IMSVidStreamBufferSinkEvent4
-ms.topic: interface
 f1_keywords:
 - segment/IMSVidStreamBufferSinkEvent4
 dev_langs:

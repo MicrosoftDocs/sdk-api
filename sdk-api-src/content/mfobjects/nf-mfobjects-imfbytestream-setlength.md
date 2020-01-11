@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 55bee595-0a32-4b9e-8b22-48fdb2913dfc
 ms.date: 12/05/2018
 ms.keywords: 55bee595-0a32-4b9e-8b22-48fdb2913dfc, IMFByteStream interface [Media Foundation],SetLength method, IMFByteStream.SetLength, IMFByteStream::SetLength, SetLength, SetLength method [Media Foundation], SetLength method [Media Foundation],IMFByteStream interface, mf.imfbytestream_setlength, mfobjects/IMFByteStream::SetLength
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFByteStream.SetLength
 dev_langs:

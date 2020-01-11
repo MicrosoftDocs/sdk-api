@@ -7,7 +7,6 @@ tech.root: hidpi
 ms.assetid: AB741D14-0BA1-4C33-91D8-1331BE96DE95
 ms.date: 12/05/2018
 ms.keywords: GetDpiForMonitor, GetDpiForMonitor function [High DPI], hidpi.getdpiformonitor, shellscalingapi/GetDpiForMonitor
-ms.topic: function
 f1_keywords:
 - shellscalingapi/GetDpiForMonitor
 dev_langs:

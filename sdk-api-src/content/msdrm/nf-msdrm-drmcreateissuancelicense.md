@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: db2e9aa6-7021-4805-8fd7-94c8d02776b0
 ms.date: 12/05/2018
 ms.keywords: DRMCreateIssuanceLicense, DRMCreateIssuanceLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateIssuanceLicense, rm.drmcreateissuancelicense
-ms.topic: function
 f1_keywords:
 - msdrm/DRMCreateIssuanceLicense
 dev_langs:

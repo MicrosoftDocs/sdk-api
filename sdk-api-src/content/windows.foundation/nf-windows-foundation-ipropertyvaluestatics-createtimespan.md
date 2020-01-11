@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: eae11d63-c909-45fc-a38f-d9599b873b6f
 ms.date: 12/05/2018
 ms.keywords: CreateTimeSpan, CreateTimeSpan method [Windows Runtime], CreateTimeSpan method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateTimeSpan method, IPropertyValueStatics.CreateTimeSpan, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateTimeSpan, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateTimeSpan, winrt.ipropertyvaluefactory_createtimespan, winrt.ipropertyvaluestatics_createtimespan
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValueStatics.CreateTimeSpan
 dev_langs:

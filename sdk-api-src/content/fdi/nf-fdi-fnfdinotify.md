@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 7655ddb2-7cd4-4012-913c-9909fcea639a
 ms.date: 12/05/2018
 ms.keywords: FNFDINOTIFY, FNFDINOTIFY macro [Windows API], fdi/FNFDINOTIFY, fdintCABINET_INFO, fdintCLOSE_FILE_INFO, fdintCOPY_FILE, fdintENUMERATE, fdintNEXT_CABINET, fdintPARTIAL_FILE, winprog.fnfdinotify
-ms.topic: macro
 f1_keywords:
 - fdi/FNFDINOTIFY
 dev_langs:

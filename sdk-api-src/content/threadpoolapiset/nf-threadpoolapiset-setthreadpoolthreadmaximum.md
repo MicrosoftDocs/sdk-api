@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 381849cf-6835-40f2-be68-0522b16e4822
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolThreadMaximum, SetThreadpoolThreadMaximum function, base.setthreadpoolthreadmaximum, threadpoolapiset/SetThreadpoolThreadMaximum
-ms.topic: function
 f1_keywords:
 - threadpoolapiset/SetThreadpoolThreadMaximum
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: B0F14D11-D896-4CFC-8914-087611347BEB
 ms.date: 12/05/2018
 ms.keywords: MFRegisterLocalSchemeHandler, MFRegisterLocalSchemeHandler function [Media Foundation], mf.mfregisterlocalschemehandler, mfapi/MFRegisterLocalSchemeHandler
-ms.topic: function
 f1_keywords:
 - mfapi/MFRegisterLocalSchemeHandler
 dev_langs:

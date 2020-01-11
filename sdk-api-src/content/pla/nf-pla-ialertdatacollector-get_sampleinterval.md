@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 657a5449-acb6-45cb-a862-815fa8cabdc2
 ms.date: 12/05/2018
 ms.keywords: IAlertDataCollector interface [PLA],SampleInterval property, IAlertDataCollector.SampleInterval, IAlertDataCollector.get_SampleInterval, IAlertDataCollector::SampleInterval, IAlertDataCollector::get_SampleInterval, IAlertDataCollector::put_SampleInterval, SampleInterval property [PLA], SampleInterval property [PLA],IAlertDataCollector interface, base.ialertdatacollector_sampleinterval, get_SampleInterval, pla.ialertdatacollector_sampleinterval, pla/IAlertDataCollector::SampleInterval, pla/IAlertDataCollector::get_SampleInterval, pla/IAlertDataCollector::put_SampleInterval
-ms.topic: method
 f1_keywords:
 - pla/IAlertDataCollector.SampleInterval
 dev_langs:

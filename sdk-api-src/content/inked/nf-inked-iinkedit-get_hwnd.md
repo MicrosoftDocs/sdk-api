@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: e2f01318-5073-43d2-9d26-91aeef5d7070
 ms.date: 12/05/2018
 ms.keywords: Hwnd property [Tablet PC], Hwnd property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],Hwnd property, IInkEdit.Hwnd, IInkEdit.get_Hwnd, IInkEdit::Hwnd, IInkEdit::get_Hwnd, InkEdit.get_Hwnd, get_Hwnd, inked/IInkEdit::Hwnd, inked/IInkEdit::get_Hwnd, put_Hwnd, tablet.inkedit_hwnd
-ms.topic: method
 f1_keywords:
 - inked/IInkEdit.Hwnd
 dev_langs:

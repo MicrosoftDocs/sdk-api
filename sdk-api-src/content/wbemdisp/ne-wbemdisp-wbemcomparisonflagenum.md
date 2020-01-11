@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 83fda164-1e98-499b-b599-f999e69ad501
 ms.date: 12/05/2018
 ms.keywords: WbemComparisonFlagEnum, WbemComparisonFlagEnum enumeration [Windows Management Instrumentation], _hmm_wbemcomparisonflagenum, wbemComparisonFlagIgnoreCase, wbemComparisonFlagIgnoreClass, wbemComparisonFlagIgnoreDefaultValues, wbemComparisonFlagIgnoreFlavor, wbemComparisonFlagIgnoreObjectSource, wbemComparisonFlagIgnoreQualifiers, wbemComparisonFlagIncludeAll, wbemdisp/WbemComparisonFlagEnum, wbemdisp/wbemComparisonFlagIgnoreCase, wbemdisp/wbemComparisonFlagIgnoreClass, wbemdisp/wbemComparisonFlagIgnoreDefaultValues, wbemdisp/wbemComparisonFlagIgnoreFlavor, wbemdisp/wbemComparisonFlagIgnoreObjectSource, wbemdisp/wbemComparisonFlagIgnoreQualifiers, wbemdisp/wbemComparisonFlagIncludeAll, wmi.wbemcomparisonflagenum
-ms.topic: enum
 f1_keywords:
 - wbemdisp/WbemComparisonFlagEnum
 dev_langs:

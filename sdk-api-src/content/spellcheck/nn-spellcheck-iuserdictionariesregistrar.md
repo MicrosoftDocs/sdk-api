@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: eca9446a-268e-4318-a5e7-8bb8592c9660
 ms.date: 12/05/2018
 ms.keywords: IUserDictionariesRegistrar, IUserDictionariesRegistrar interface [Internationalization for Windows Applications], IUserDictionariesRegistrar interface [Internationalization for Windows Applications],described, intl.iuserdictionariesregistrar, spellcheck/IUserDictionariesRegistrar
-ms.topic: interface
 f1_keywords:
 - spellcheck/IUserDictionariesRegistrar
 dev_langs:

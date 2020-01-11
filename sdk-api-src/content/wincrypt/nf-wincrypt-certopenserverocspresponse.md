@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: c29d1972-b329-4e32-aead-a038130fb85e
 ms.date: 12/05/2018
 ms.keywords: CertOpenServerOcspResponse, CertOpenServerOcspResponse function [Security], security.certopenserverocspresponse, wincrypt/CertOpenServerOcspResponse
-ms.topic: function
 f1_keywords:
 - wincrypt/CertOpenServerOcspResponse
 dev_langs:

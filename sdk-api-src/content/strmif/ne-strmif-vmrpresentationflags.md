@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 27aab657-802e-4967-a5bd-3907637e1cfe
 ms.date: 12/05/2018
 ms.keywords: VMRPresentationFlags, VMRPresentationFlags enumeration [DirectShow], VMRPresentationFlagsEnumeration, VMRSample_Discontinuity, VMRSample_Preroll, VMRSample_SyncPoint, VMRSample_TimeValid, dshow.vmrpresentationflags, strmif/VMRPresentationFlags, strmif/VMRSample_Discontinuity, strmif/VMRSample_Preroll, strmif/VMRSample_SyncPoint, strmif/VMRSample_TimeValid
-ms.topic: enum
 f1_keywords:
 - strmif/VMRPresentationFlags
 dev_langs:

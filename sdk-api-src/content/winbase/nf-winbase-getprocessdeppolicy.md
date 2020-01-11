@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: adf15b9c-24f4-49ea-9283-0db5f3f13e65
 ms.date: 12/05/2018
 ms.keywords: GetProcessDEPPolicy, GetProcessDEPPolicy function, PROCESS_DEP_DISABLE_ATL_THUNK_EMULATION, PROCESS_DEP_ENABLE, base.getprocessdeppolicy, winbase/GetProcessDEPPolicy
-ms.topic: function
 f1_keywords:
 - winbase/GetProcessDEPPolicy
 dev_langs:

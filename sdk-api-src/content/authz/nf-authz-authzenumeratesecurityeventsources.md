@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 2a20ccc9-f2ac-41e4-9d86-745004775e67
 ms.date: 12/05/2018
 ms.keywords: AuthzEnumerateSecurityEventSources, AuthzEnumerateSecurityEventSources function [Security], authz/AuthzEnumerateSecurityEventSources, security.authzenumeratesecurityeventsources
-ms.topic: function
 f1_keywords:
 - authz/AuthzEnumerateSecurityEventSources
 dev_langs:

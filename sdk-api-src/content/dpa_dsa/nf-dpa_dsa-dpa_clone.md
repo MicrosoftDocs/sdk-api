@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_clone.htm
 ms.date: 12/05/2018
 ms.keywords: DPA_Clone, DPA_Clone function [Windows Controls], _shell_DPA_Clone, _shell_DPA_Clone_cpp, controls.DPA_Clone, controls._shell_DPA_Clone, dpa_dsa/DPA_Clone
-ms.topic: function
 f1_keywords:
 - dpa_dsa/DPA_Clone
 dev_langs:

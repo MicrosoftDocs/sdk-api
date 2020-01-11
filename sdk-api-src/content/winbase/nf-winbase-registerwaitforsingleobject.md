@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: d0cd8b28-6e20-449a-94dd-cca2be46b812
 ms.date: 12/05/2018
 ms.keywords: RegisterWaitForSingleObject, RegisterWaitForSingleObject function, WT_EXECUTEDEFAULT, WT_EXECUTEINIOTHREAD, WT_EXECUTEINPERSISTENTTHREAD, WT_EXECUTEINWAITTHREAD, WT_EXECUTELONGFUNCTION, WT_EXECUTEONLYONCE, WT_TRANSFER_IMPERSONATION, _win32_registerwaitforsingleobject, base.registerwaitforsingleobject, winbase/RegisterWaitForSingleObject
-ms.topic: function
 f1_keywords:
 - winbase/RegisterWaitForSingleObject
 dev_langs:

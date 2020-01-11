@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 1cba931c-041a-4ec6-8c30-db3a02b59ec3
 ms.date: 12/05/2018
 ms.keywords: '*LPRASNAPSTATE, LPRASNAPSTATE, LPRASNAPSTATE structure pointer [RAS], RASNAPSTATE, RASNAPSTATE structure [RAS], ras/LPRASNAPSTATE, ras/RASNAPSTATE, rras.rasnapstate'
-ms.topic: struct
 f1_keywords:
 - ras/RASNAPSTATE
 dev_langs:

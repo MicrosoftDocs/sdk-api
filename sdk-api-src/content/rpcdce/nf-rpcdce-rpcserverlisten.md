@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 430561b2-c74b-423c-8448-339cc71dbd68
 ms.date: 12/05/2018
 ms.keywords: RpcServerListen, RpcServerListen function [RPC], _rpc_rpcserverlisten, rpc.rpcserverlisten, rpcdce/RpcServerListen
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcServerListen
 dev_langs:

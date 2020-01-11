@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 56ba0992-b5df-419d-b531-ea974413a7b0
 ms.date: 12/05/2018
 ms.keywords: BSTR_UserSize64, BSTR_UserSize64 function [Automation], automat.bstr_usersize64, oaidl/BSTR_UserSize64
-ms.topic: function
 f1_keywords:
 - oaidl/BSTR_UserSize64
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_75bm.htm
 ms.date: 12/05/2018
 ms.keywords: FaxExtFreeBuffer, FaxExtFreeBuffer function [Fax Service], _mfax_faxextfreebuffer, fax._mfax_faxextfreebuffer, faxext/FaxExtFreeBuffer
-ms.topic: function
 f1_keywords:
 - faxext/FaxExtFreeBuffer
 dev_langs:

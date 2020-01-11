@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 6c89d6f3-182e-4b10-931c-8d55d603c9dc
 ms.date: 12/05/2018
 ms.keywords: AddSecureMemoryCacheCallback, AddSecureMemoryCacheCallback function, base.addsecurememorycachecallback, winbase/AddSecureMemoryCacheCallback
-ms.topic: function
 f1_keywords:
 - winbase/AddSecureMemoryCacheCallback
 dev_langs:

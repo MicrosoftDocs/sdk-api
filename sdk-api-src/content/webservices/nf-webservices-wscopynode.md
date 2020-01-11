@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 36078f7d-4c1f-4b8a-9f44-cd4949b7de04
 ms.date: 12/05/2018
 ms.keywords: WsCopyNode, WsCopyNode function [Web Services for Windows], webservices/WsCopyNode, wsw.wscopynode
-ms.topic: function
 f1_keywords:
 - webservices/WsCopyNode
 dev_langs:

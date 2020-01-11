@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: d394b638-6015-47d8-89ea-2ed71611ddb3
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawClipper interface [DirectDraw],IsClipListChanged method, IDirectDrawClipper.IsClipListChanged, IDirectDrawClipper::IsClipListChanged, IsClipListChanged, IsClipListChanged method [DirectDraw], IsClipListChanged method [DirectDraw],IDirectDrawClipper interface, ddraw/IDirectDrawClipper::IsClipListChanged, directdraw.idirectdrawclipper_iscliplistchanged
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawClipper.IsClipListChanged
 dev_langs:

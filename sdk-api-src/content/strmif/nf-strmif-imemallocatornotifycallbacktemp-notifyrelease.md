@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: deb5d97c-67f7-48ae-b408-1af89477b1b7
 ms.date: 12/05/2018
 ms.keywords: IMemAllocatorNotifyCallbackTemp interface [DirectShow],NotifyRelease method, IMemAllocatorNotifyCallbackTemp.NotifyRelease, IMemAllocatorNotifyCallbackTemp::NotifyRelease, IMemAllocatorNotifyCallbackTempNotifyRelease, NotifyRelease, NotifyRelease method [DirectShow], NotifyRelease method [DirectShow],IMemAllocatorNotifyCallbackTemp interface, dshow.imemallocatornotifycallbacktemp_notifyrelease, strmif/IMemAllocatorNotifyCallbackTemp::NotifyRelease
-ms.topic: method
 f1_keywords:
 - strmif/IMemAllocatorNotifyCallbackTemp.NotifyRelease
 dev_langs:

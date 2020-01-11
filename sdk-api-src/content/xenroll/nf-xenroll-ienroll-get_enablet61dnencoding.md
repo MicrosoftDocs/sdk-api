@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 7ed181d1-b06f-40f4-892a-80edf327bf40
 ms.date: 12/05/2018
 ms.keywords: EnableT61DNEncoding property [Security], EnableT61DNEncoding property [Security],IEnroll interface, IEnroll interface [Security],EnableT61DNEncoding property, IEnroll.EnableT61DNEncoding, IEnroll.get_EnableT61DNEncoding, IEnroll::EnableT61DNEncoding, IEnroll::get_EnableT61DNEncoding, IEnroll::put_EnableT61DNEncoding, get_EnableT61DNEncoding, security.ienroll4_enablet61dnencoding, xenroll/IEnroll::EnableT61DNEncoding, xenroll/IEnroll::get_EnableT61DNEncoding, xenroll/IEnroll::put_EnableT61DNEncoding
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll.EnableT61DNEncoding
 dev_langs:

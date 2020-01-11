@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 8ab9fa3b-50f4-492d-a352-8e215b2d62c1
 ms.date: 12/05/2018
 ms.keywords: NPGetConnectionPerformance, NPGetConnectionPerformance function [Security], _mnp_npgetconnectionperformance, npapi/NPGetConnectionPerformance, security.npgetconnectionperformance
-ms.topic: function
 f1_keywords:
 - npapi/NPGetConnectionPerformance
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: be66ff8b-c883-4329-aaa4-e9549d0cbb9e
 ms.date: 12/05/2018
 ms.keywords: GetBandwidthSharing, GetBandwidthSharing method [windows Media Format], GetBandwidthSharing method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetBandwidthSharing method, IWMProfile3.GetBandwidthSharing, IWMProfile3::GetBandwidthSharing, IWMProfile3GetBandwidthSharing, wmformat.iwmprofile3_getbandwidthsharing, wmsdkidl/IWMProfile3::GetBandwidthSharing
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMProfile3.GetBandwidthSharing
 dev_langs:

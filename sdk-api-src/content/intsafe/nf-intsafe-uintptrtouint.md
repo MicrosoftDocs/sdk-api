@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 298333ae-1efc-41b8-a8e6-83c2c0d4088e
 ms.date: 12/05/2018
 ms.keywords: SizeTToUInt, UIntPtrToUInt, UIntPtrToUInt function [Windows Shell], _shell_UIntPtrToUInt, intsafe/UIntPtrToUInt, shell.UIntPtrToUInt
-ms.topic: function
 f1_keywords:
 - intsafe/UIntPtrToUInt
 dev_langs:

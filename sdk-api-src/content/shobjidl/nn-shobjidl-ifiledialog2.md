@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: be67a020-285d-4c1e-a8b5-8e1e90fae594
 ms.date: 12/05/2018
 ms.keywords: IFileDialog2, IFileDialog2 interface [Windows Shell], IFileDialog2 interface [Windows Shell],described, _shell_IFileDialog2, shell.IFileDialog2, shobjidl/IFileDialog2
-ms.topic: interface
 f1_keywords:
 - shobjidl/IFileDialog2
 dev_langs:

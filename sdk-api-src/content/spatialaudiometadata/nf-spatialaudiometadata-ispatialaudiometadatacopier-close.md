@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 891AFF53-7CAB-49FA-A8D2-CAEEB91E860F
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Core Audio], Close method [Core Audio],ISpatialAudioMetadataCopier interface, ISpatialAudioMetadataCopier interface [Core Audio],Close method, ISpatialAudioMetadataCopier.Close, ISpatialAudioMetadataCopier::Close, coreaudio.ispatialaudiometadatacopier_close, spatialaudiometadata/ISpatialAudioMetadataCopier::Close
-ms.topic: method
 f1_keywords:
 - spatialaudiometadata/ISpatialAudioMetadataCopier.Close
 dev_langs:

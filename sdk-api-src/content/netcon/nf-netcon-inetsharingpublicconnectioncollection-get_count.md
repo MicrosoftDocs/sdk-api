@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 7d90ce6c-4ac7-4188-9d25-9144e112a8df
 ms.date: 12/05/2018
 ms.keywords: INetSharingPublicConnectionCollection interface [ICS/ICF],get_Count method, INetSharingPublicConnectionCollection.get_Count, INetSharingPublicConnectionCollection::get_Count, _ics_inetsharingpublicconnectioncollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],INetSharingPublicConnectionCollection interface, ics.inetsharingpublicconnectioncollection_get_count, netcon/INetSharingPublicConnectionCollection::get_Count
-ms.topic: method
 f1_keywords:
 - netcon/INetSharingPublicConnectionCollection.get_Count
 dev_langs:

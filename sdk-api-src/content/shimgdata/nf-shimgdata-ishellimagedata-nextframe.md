@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b797539e-7766-4da7-864f-401c7c2ff082
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],NextFrame method, IShellImageData.NextFrame, IShellImageData::NextFrame, NextFrame, NextFrame method [Windows Shell], NextFrame method [Windows Shell],IShellImageData interface, _shell_IShellImageData_NextFrame, shell.IShellImageData_NextFrame, shimgdata/IShellImageData::NextFrame
-ms.topic: method
 f1_keywords:
 - shimgdata/IShellImageData.NextFrame
 dev_langs:

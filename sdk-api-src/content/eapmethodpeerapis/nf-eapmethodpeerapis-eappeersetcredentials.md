@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: d50a72bd-0b3f-4b68-be96-5debb3fd99f8
 ms.date: 12/05/2018
 ms.keywords: EapPeerSetCredentials, EapPeerSetCredentials function [EAPHost], eaphost.eappeersetcredentials, eapmethodpeerapis/EapPeerSetCredentials
-ms.topic: function
 f1_keywords:
 - eapmethodpeerapis/EapPeerSetCredentials
 dev_langs:

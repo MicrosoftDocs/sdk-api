@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 50528312-60e1-4648-b0e5-709a6b49737e
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],RefreshComponents method, ICOMAdminCatalog.RefreshComponents, ICOMAdminCatalog::RefreshComponents, RefreshComponents, RefreshComponents method [COM+], RefreshComponents method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_RefreshComponents, comadmin/ICOMAdminCatalog::RefreshComponents, cos.icomadmincatalog_refreshcomponents
-ms.topic: method
 f1_keywords:
 - comadmin/ICOMAdminCatalog.RefreshComponents
 dev_langs:

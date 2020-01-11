@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 95CD6739-06B2-4862-8313-4133AFBFD583
 ms.date: 12/05/2018
 ms.keywords: GetMainPackageName, GetMainPackageName method [App packaging and management], GetMainPackageName method [App packaging and management],IAppxManifestOptionalPackageInfo interface, IAppxManifestOptionalPackageInfo interface [App packaging and management],GetMainPackageName method, IAppxManifestOptionalPackageInfo.GetMainPackageName, IAppxManifestOptionalPackageInfo::GetMainPackageName, appxpackaging/IAppxManifestOptionalPackageInfo::GetMainPackageName, appxpkg.iappxmanifestoptionalpackageinfo_getmainpackagename
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxManifestOptionalPackageInfo.GetMainPackageName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProjFS
 ms.assetid: 7F149A78-2668-4BF2-88D3-1E40CA469AA6
 ms.date: 12/05/2018
 ms.keywords: PRJ_NOTIFICATION_CB, PRJ_NOTIFICATION_CB callback, PRJ_NOTIFICATION_CB callback function, ProjFS.prj_notification_cb, projectedfslib/PRJ_NOTIFICATION_CB
-ms.topic: callback
 f1_keywords:
 - projectedfslib/PRJ_NOTIFICATION_CB
 dev_langs:

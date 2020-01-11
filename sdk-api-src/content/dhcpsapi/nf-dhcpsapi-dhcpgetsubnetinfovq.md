@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 7ee3ba38-a90c-4409-a40f-80e1cd1fc3c3
 ms.date: 12/05/2018
 ms.keywords: DhcpGetSubnetInfoVQ, DhcpGetSubnetInfoVQ function [DHCP], dhcp.dhcpgetsubnetinfovq, dhcpsapi/DhcpGetSubnetInfoVQ
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetSubnetInfoVQ
 dev_langs:

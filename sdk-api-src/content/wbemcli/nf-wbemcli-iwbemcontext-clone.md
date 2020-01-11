@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: a832f4b0-a450-4f74-a6ec-d205f57c1656
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Management Instrumentation], Clone method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],Clone method, IWbemContext.Clone, IWbemContext::Clone, _hmm_iwbemcontext_clone, wbemcli/IWbemContext::Clone, wmi.iwbemcontext_clone
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemContext.Clone
 dev_langs:

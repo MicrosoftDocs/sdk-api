@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 73F5F30F-4083-4D33-B181-31B782AD40D6
 ms.date: 12/05/2018
 ms.keywords: CreateAppContainerProfile, CreateAppContainerProfile function [Windows Shell], shell.createappcontainerprofile, userenv/CreateAppContainerProfile
-ms.topic: function
 f1_keywords:
 - userenv/CreateAppContainerProfile
 dev_langs:

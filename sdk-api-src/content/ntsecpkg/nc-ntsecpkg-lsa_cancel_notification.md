@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: b7333318-ee17-4cc2-9382-2d4871ddee78
 ms.date: 12/05/2018
 ms.keywords: CancelNotification, CancelNotification callback function [Security], LSA_CANCEL_NOTIFICATION, LSA_CANCEL_NOTIFICATION callback, _ssp_cancelnotification, ntsecpkg/CancelNotification, security.cancelnotification
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/CancelNotification
 dev_langs:

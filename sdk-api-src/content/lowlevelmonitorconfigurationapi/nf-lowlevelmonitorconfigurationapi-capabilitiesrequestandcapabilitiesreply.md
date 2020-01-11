@@ -7,7 +7,6 @@ tech.root: Monitor
 ms.assetid: 1e556f66-a77a-43f3-b54f-d14995d841f8
 ms.date: 12/05/2018
 ms.keywords: CapabilitiesRequestAndCapabilitiesReply, CapabilitiesRequestAndCapabilitiesReply function [Monitor Configuration], lowlevelmonitorconfigurationapi/CapabilitiesRequestAndCapabilitiesReply, monitor.capabilitiesrequestandcapabilitiesreply
-ms.topic: function
 f1_keywords:
 - lowlevelmonitorconfigurationapi/CapabilitiesRequestAndCapabilitiesReply
 dev_langs:

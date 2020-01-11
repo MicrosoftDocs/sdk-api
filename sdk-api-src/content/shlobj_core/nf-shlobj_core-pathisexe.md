@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 54e9dae7-f9c4-48b8-9b91-32ed21365fb7
 ms.date: 12/05/2018
 ms.keywords: PathIsExe, PathIsExe function [Windows Shell], _win32_PathIsExe, shell.PathIsExe, shlobj_core/PathIsExe
-ms.topic: function
 f1_keywords:
 - shlobj_core/PathIsExe
 dev_langs:

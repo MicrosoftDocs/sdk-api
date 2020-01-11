@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: b288c28c-04bd-49a4-bf11-21d4968772d4
 ms.date: 12/05/2018
 ms.keywords: IWMMutualExclusion2 interface [windows Media Format],SetName method, IWMMutualExclusion2.SetName, IWMMutualExclusion2::SetName, IWMMutualExclusion2SetName, SetName, SetName method [windows Media Format], SetName method [windows Media Format],IWMMutualExclusion2 interface, wmformat.iwmmutualexclusion2_setname, wmsdkidl/IWMMutualExclusion2::SetName
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMMutualExclusion2.SetName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9086f8ae-6a81-463d-9482-7a60701ab8de
 ms.date: 12/05/2018
 ms.keywords: FindToolbar, FindToolbar method [Windows Shell], FindToolbar method [Windows Shell],IDockingWindowFrame interface, IDockingWindowFrame interface [Windows Shell],FindToolbar method, IDockingWindowFrame.FindToolbar, IDockingWindowFrame::FindToolbar, _win32_IDockingWindowFrame_FindToolbar, shell.IDockingWindowFrame_FindToolbar, shlobj/IDockingWindowFrame::FindToolbar
-ms.topic: method
 f1_keywords:
 - shlobj/IDockingWindowFrame.FindToolbar
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: d00e94bc-83c7-4cb6-869d-c6e7c02c678c
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetDeliveryRetryAttempts, MI_SubscriptionDeliveryOptions_SetDeliveryRetryAttempts function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetDeliveryRetryAttempts, wmi_v2.mi_subscriptiondeliveryoptions_setdeliveryretryattempts
-ms.topic: function
 f1_keywords:
 - mi/MI_SubscriptionDeliveryOptions_SetDeliveryRetryAttempts
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: aad07b35-99e0-4c76-ba65-93c2c972303d
 ms.date: 12/05/2018
 ms.keywords: ITfMouseTracker, ITfMouseTracker interface [Text Services Framework], ITfMouseTracker interface [Text Services Framework],described, _tsf_itfmousetracker_ref, msctf/ITfMouseTracker, tsf.itfmousetracker
-ms.topic: interface
 f1_keywords:
 - msctf/ITfMouseTracker
 dev_langs:

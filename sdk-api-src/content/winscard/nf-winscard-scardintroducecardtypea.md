@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 1ac88466-1277-44d7-a471-b31d6bfce99e
 ms.date: 12/05/2018
 ms.keywords: SCardIntroduceCardType, SCardIntroduceCardType function [Security], SCardIntroduceCardTypeA, SCardIntroduceCardTypeW, _smart_scardintroducecardtype, security.scardintroducecardtype, winscard/SCardIntroduceCardType, winscard/SCardIntroduceCardTypeA, winscard/SCardIntroduceCardTypeW
-ms.topic: function
 f1_keywords:
 - winscard/SCardIntroduceCardType
 dev_langs:

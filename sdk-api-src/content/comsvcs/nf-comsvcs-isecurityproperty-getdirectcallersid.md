@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: e322df62-25a4-40a3-9b80-da468a265162
 ms.date: 12/05/2018
 ms.keywords: GetDirectCallerSID, GetDirectCallerSID method [COM+], GetDirectCallerSID method [COM+],ISecurityProperty interface, ISecurityProperty interface [COM+],GetDirectCallerSID method, ISecurityProperty.GetDirectCallerSID, ISecurityProperty::GetDirectCallerSID, _cos_ISecurityProperty_GetDirectCallerSID, comsvcs/ISecurityProperty::GetDirectCallerSID, cos.isecurityproperty_getdirectcallersid
-ms.topic: method
 f1_keywords:
 - comsvcs/ISecurityProperty.GetDirectCallerSID
 dev_langs:

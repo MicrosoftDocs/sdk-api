@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 07e27472-2cb9-4bb1-9976-200bcdccb539
 ms.date: 12/05/2018
 ms.keywords: GetTOT, GetTOT method [Microsoft TV Technologies], GetTOT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetTOT method, IDvbSiParser.GetTOT, IDvbSiParser::GetTOT, IDvbSiParserGetTOT, dvbsiparser/IDvbSiParser::GetTOT, mstv.idvbsiparser_gettot
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbSiParser.GetTOT
 dev_langs:

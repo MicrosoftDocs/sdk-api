@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f82fb087-c511-48b7-9e0b-9ec690a86ac7
 ms.date: 12/05/2018
 ms.keywords: IXpsOMSolidColorBrush interface [XPS Documents and Packaging],SetColor method, IXpsOMSolidColorBrush.SetColor, IXpsOMSolidColorBrush::SetColor, SetColor, SetColor method [XPS Documents and Packaging], SetColor method [XPS Documents and Packaging],IXpsOMSolidColorBrush interface, xps.ixpsomsolidcolorbrush_setcolor, xpsobjectmodel/IXpsOMSolidColorBrush::SetColor
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMSolidColorBrush.SetColor
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: a6fc5cf0-d3b0-4a76-af8b-6a13ab32157d
 ms.date: 12/05/2018
 ms.keywords: '*LPBY_HANDLE_FILE_INFORMATION, *PBY_HANDLE_FILE_INFORMATION, BY_HANDLE_FILE_INFORMATION, BY_HANDLE_FILE_INFORMATION structure [Files], LPBY_HANDLE_FILE_INFORMATION, LPBY_HANDLE_FILE_INFORMATION structure pointer [Files], PBY_HANDLE_FILE_INFORMATION, PBY_HANDLE_FILE_INFORMATION structure pointer [Files], _win32_by_handle_file_information_str, base.by_handle_file_information_str, fileapi/BY_HANDLE_FILE_INFORMATION, fileapi/LPBY_HANDLE_FILE_INFORMATION, fileapi/PBY_HANDLE_FILE_INFORMATION, fs.by_handle_file_information_str, winbase/BY_HANDLE_FILE_INFORMATION, winbase/LPBY_HANDLE_FILE_INFORMATION, winbase/PBY_HANDLE_FILE_INFORMATION'
-ms.topic: struct
 f1_keywords:
 - fileapi/BY_HANDLE_FILE_INFORMATION
 dev_langs:

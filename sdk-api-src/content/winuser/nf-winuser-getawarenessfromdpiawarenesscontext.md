@@ -7,7 +7,6 @@ tech.root: hidpi
 ms.assetid: BE4DC6B9-BCD6-4E27-81F8-E3CF054CFBE9
 ms.date: 12/05/2018
 ms.keywords: GetAwarenessFromDpiAwarenessContext, GetAwarenessFromDpiAwarenessContext function [High DPI], hidpi.getawarenessfromdpiawarenesscontext, winuser/GetAwarenessFromDpiAwarenessContext
-ms.topic: function
 f1_keywords:
 - winuser/GetAwarenessFromDpiAwarenessContext
 dev_langs:

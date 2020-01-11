@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 8ccc0bdf-01db-4863-aaaf-94910bfa0b8b
 ms.date: 12/05/2018
 ms.keywords: AddNameValuePairToSignatureWStr, AddNameValuePairToSignatureWStr method [Security], AddNameValuePairToSignatureWStr method [Security],IEnroll interface, AddNameValuePairToSignatureWStr method [Security],IEnroll4 interface, IEnroll interface [Security],AddNameValuePairToSignatureWStr method, IEnroll.AddNameValuePairToSignatureWStr, IEnroll4 interface [Security],AddNameValuePairToSignatureWStr method, IEnroll4::AddNameValuePairToSignatureWStr, IEnroll::AddNameValuePairToSignatureWStr, security.ienroll4_addnamevaluepairtosignaturewstr, xenroll/IEnroll4::AddNameValuePairToSignatureWStr, xenroll/IEnroll::AddNameValuePairToSignatureWStr
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll.AddNameValuePairToSignatureWStr
 dev_langs:

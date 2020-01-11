@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 0a233830-631b-4a6d-8fce-eb8f47714e9c
 ms.date: 12/05/2018
 ms.keywords: DeleteTypeInfo, DeleteTypeInfo method [Automation], DeleteTypeInfo method [Automation],ICreateTypeLib2 interface, ICreateTypeLib2 interface [Automation],DeleteTypeInfo method, ICreateTypeLib2.DeleteTypeInfo, ICreateTypeLib2::DeleteTypeInfo, _oa96_ICreateTypeLib2_DeleteTypeInfo, automat.icreatetypelib2_deletetypeinfo, oaidl/ICreateTypeLib2::DeleteTypeInfo
-ms.topic: method
 f1_keywords:
 - oaidl/ICreateTypeLib2.DeleteTypeInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 32953AEC-01EE-4ED1-80F3-29963F43004F
 ms.date: 12/05/2018
 ms.keywords: NCryptQueryProtectionDescriptorName, NCryptQueryProtectionDescriptorName function [Security], ncryptprotect/NCryptQueryProtectionDescriptorName, security.ncryptqueryprotectiondescriptorname
-ms.topic: function
 f1_keywords:
 - ncryptprotect/NCryptQueryProtectionDescriptorName
 dev_langs:

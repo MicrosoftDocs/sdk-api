@@ -4,7 +4,6 @@ title: DnsServiceResolveCancel function
 description: Used to cancel a running DNS-SD resolve query.
 ms.date: 02/14/2019
 ms.keywords: DnsServiceResolveCancel
-ms.topic: language-reference
 f1_keywords:
 - windns/DnsServiceResolveCancel
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush, PathGradientBrush constructors [GDI+], PathGradientBrush.PathGradientBrush, PathGradientBrush.PathGradientBrush(const PathGradientBrush &), PathGradientBrush::PathGradientBrush, PathGradientBrush::PathGradientBrush(const PathGradientBrush &), _gdiplus_CLASS_PathGradientBrush_Constructors, gdiplus._gdiplus_CLASS_PathGradientBrush_Constructors, gdipluspath/PathGradientBrush
-ms.topic: method
 f1_keywords:
 - gdipluspath/PathGradientBrush.PathGradientBrush
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 6cae9a14-584c-474c-b34e-7c6e410afcc1
 ms.date: 12/05/2018
 ms.keywords: C_ASSERT, C_ASSERT macro, base.c_assert, winnt/C_ASSERT
-ms.topic: macro
 f1_keywords:
 - winnt/C_ASSERT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: ce4fe972-0ed5-4b18-8ec5-9883af326335
 ms.date: 12/05/2018
 ms.keywords: CryptCATStoreFromHandle, CryptCATStoreFromHandle function [Security], mscat/CryptCATStoreFromHandle, security.cryptcatstorefromhandle
-ms.topic: function
 f1_keywords:
 - mscat/CryptCATStoreFromHandle
 dev_langs:

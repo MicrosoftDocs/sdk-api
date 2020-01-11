@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 681c1c77-e3b2-4bb5-81f6-4eeadafcc404
 ms.date: 12/05/2018
 ms.keywords: MsiEnumClients, MsiEnumClients function, MsiEnumClientsA, MsiEnumClientsW, _msi_msienumclients, msi/MsiEnumClients, msi/MsiEnumClientsA, msi/MsiEnumClientsW, setup.msienumclients
-ms.topic: function
 f1_keywords:
 - msi/MsiEnumClients
 dev_langs:

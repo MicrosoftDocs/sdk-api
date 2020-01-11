@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: ee91a737-c6b4-48a1-88a2-57bef3730f5e
 ms.date: 12/05/2018
 ms.keywords: Command, Command method [MMC], Command method [MMC],IExtendContextMenu interface, IExtendContextMenu interface [MMC],Command method, IExtendContextMenu.Command, IExtendContextMenu::Command, _slate_iextendcontextmenu_command, mmc.iextendcontextmenu_command, mmc/IExtendContextMenu::Command
-ms.topic: method
 f1_keywords:
 - mmc/IExtendContextMenu.Command
 dev_langs:

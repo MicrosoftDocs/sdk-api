@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 84e065e6-b68d-4303-b98b-3f8507539468
 ms.date: 12/05/2018
 ms.keywords: SHAddToRecentDocs, SHAddToRecentDocs function [Windows Shell], _win32_SHAddToRecentDocs, shell.SHAddToRecentDocs, shlobj_core/SHAddToRecentDocs
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHAddToRecentDocs
 dev_langs:

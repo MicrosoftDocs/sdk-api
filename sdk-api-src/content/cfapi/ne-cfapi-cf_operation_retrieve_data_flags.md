@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: A233B2E8-B350-495A-9688-3795790F23EF
 ms.date: 12/05/2018
 ms.keywords: CF_OPERATION_RETRIEVE_DATA_FLAGS, CF_OPERATION_RETRIEVE_DATA_FLAGS enumeration, CF_OPERATION_RETRIEVE_DATA_FLAG_NONE, cfapi/CF_OPERATION_RETRIEVE_DATA_FLAGS, cfapi/CF_OPERATION_RETRIEVE_DATA_FLAG_NONE, cloudApi.cf_operation_retrieve_data_flags
-ms.topic: enum
 f1_keywords:
 - cfapi/CF_OPERATION_RETRIEVE_DATA_FLAGS
 dev_langs:

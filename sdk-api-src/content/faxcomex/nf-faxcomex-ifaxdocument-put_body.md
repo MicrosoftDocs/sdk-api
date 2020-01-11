@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1d6h.htm
 ms.date: 12/05/2018
 ms.keywords: Body property [Fax Service], Body property [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],Body property, IFaxDocument.Body, IFaxDocument.put_Body, IFaxDocument::Body, IFaxDocument::get_Body, IFaxDocument::put_Body, _mfax_faxdocument.body, fax._mfax_faxdocument_body, fax._mfax_faxdocument_cpp_mfax_faxdocument_body_cpp, faxcomex/IFaxDocument::Body, faxcomex/IFaxDocument::get_Body, faxcomex/IFaxDocument::put_Body, put_Body
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxDocument.Body
 dev_langs:

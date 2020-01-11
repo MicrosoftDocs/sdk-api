@@ -7,7 +7,6 @@ tech.root: WNet
 ms.assetid: 169c7bb4-cb08-424c-af79-2133684a99db
 ms.date: 12/05/2018
 ms.keywords: CONNECT_CMD_SAVECRED, CONNECT_COMMANDLINE, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_REDIRECT, CONNECT_UPDATE_PROFILE, WNetAddConnection3, WNetAddConnection3 function [Windows Networking (WNet)], WNetAddConnection3A, WNetAddConnection3W, _win32_wnetaddconnection3, dwType, lpLocalName, lpProvider, lpRemoteName, winnetwk/WNetAddConnection3, winnetwk/WNetAddConnection3A, winnetwk/WNetAddConnection3W, wnet.wnetaddconnection3
-ms.topic: function
 f1_keywords:
 - winnetwk/WNetAddConnection3
 dev_langs:

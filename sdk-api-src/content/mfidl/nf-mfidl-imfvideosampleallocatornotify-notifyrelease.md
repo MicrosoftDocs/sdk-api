@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 0467ebbe-b00d-41c1-8f50-77ca09337b15
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocatorNotify interface [Media Foundation],NotifyRelease method, IMFVideoSampleAllocatorNotify.NotifyRelease, IMFVideoSampleAllocatorNotify::NotifyRelease, IMFVideoSampleAllocatorNotifyEx interface [Media Foundation],NotifyRelease method, IMFVideoSampleAllocatorNotifyEx::NotifyRelease, NotifyRelease, NotifyRelease method [Media Foundation], NotifyRelease method [Media Foundation],IMFVideoSampleAllocatorNotify interface, NotifyRelease method [Media Foundation],IMFVideoSampleAllocatorNotifyEx interface, mf.imfvideosampleallocatornotify_notifyrelease, mfidl/IMFVideoSampleAllocatorNotify::NotifyRelease, mfidl/IMFVideoSampleAllocatorNotifyEx::NotifyRelease
-ms.topic: method
 f1_keywords:
 - mfidl/IMFVideoSampleAllocatorNotify.NotifyRelease
 dev_langs:

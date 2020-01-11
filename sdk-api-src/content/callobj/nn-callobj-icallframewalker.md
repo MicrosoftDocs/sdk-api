@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 1eeb00a3-d3c5-46f0-95a8-f694f802894b
 ms.date: 12/05/2018
 ms.keywords: ICallFrameWalker, ICallFrameWalker interface [COM], ICallFrameWalker interface [COM],described, _com_icallframewalker, callobj/ICallFrameWalker, com.icallframewalker
-ms.topic: interface
 f1_keywords:
 - callobj/ICallFrameWalker
 dev_langs:

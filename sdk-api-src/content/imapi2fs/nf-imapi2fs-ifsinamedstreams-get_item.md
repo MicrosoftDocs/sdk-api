@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: e5ab97cc-cc5a-4fc5-b79a-f1e0a8647c77
 ms.date: 12/05/2018
 ms.keywords: IFsiNamedStreams interface [IMAPI],get_Item method, IFsiNamedStreams.get_Item, IFsiNamedStreams::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IFsiNamedStreams interface, imapi.ifsinamedstreams_get_item, imapi2fs/IFsiNamedStreams::get_Item
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFsiNamedStreams.get_Item
 dev_langs:

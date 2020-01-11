@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 98124359-ddd1-468c-9f99-74dd3f631fa1
 ms.date: 12/05/2018
 ms.keywords: DeleteUmsCompletionList, DeleteUmsCompletionList function, base.deleteumscompletionlist, winbase/DeleteUmsCompletionList
-ms.topic: function
 f1_keywords:
 - winbase/DeleteUmsCompletionList
 dev_langs:

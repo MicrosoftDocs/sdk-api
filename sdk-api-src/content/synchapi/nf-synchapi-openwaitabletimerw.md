@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 0f9b49ea-5d04-449c-9b7d-f79ab28b548b
 ms.date: 12/05/2018
 ms.keywords: OpenWaitableTimer, OpenWaitableTimer function, OpenWaitableTimerA, OpenWaitableTimerW, _win32_openwaitabletimer, base.openwaitabletimer, synchapi/OpenWaitableTimer, synchapi/OpenWaitableTimerA, synchapi/OpenWaitableTimerW
-ms.topic: function
 f1_keywords:
 - synchapi/OpenWaitableTimer
 dev_langs:

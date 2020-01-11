@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 34b26c3a-ac5d-479e-ac9d-c782cd5dded8
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfStreams, GetNumberOfStreams method [DirectShow], GetNumberOfStreams method [DirectShow],IVMRFilterConfig9 interface, IVMRFilterConfig9 interface [DirectShow],GetNumberOfStreams method, IVMRFilterConfig9.GetNumberOfStreams, IVMRFilterConfig9::GetNumberOfStreams, IVMRFilterConfig9GetNumberOfStreams, dshow.ivmrfilterconfig9_getnumberofstreams, vmr9/IVMRFilterConfig9::GetNumberOfStreams
-ms.topic: method
 f1_keywords:
 - vmr9/IVMRFilterConfig9.GetNumberOfStreams
 dev_langs:

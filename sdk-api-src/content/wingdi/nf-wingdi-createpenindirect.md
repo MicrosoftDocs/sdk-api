@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 638c0294-9a8f-44ed-a791-1be152cd92dd
 ms.date: 12/05/2018
 ms.keywords: CreatePenIndirect, CreatePenIndirect function [Windows GDI], _win32_CreatePenIndirect, gdi.createpenindirect, wingdi/CreatePenIndirect
-ms.topic: function
 f1_keywords:
 - wingdi/CreatePenIndirect
 dev_langs:

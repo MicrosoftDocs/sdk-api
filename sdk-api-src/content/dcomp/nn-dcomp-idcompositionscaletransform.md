@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 8e59c484-b7c5-446a-a5d6-e00371e2c08a
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform, IDCompositionScaleTransform interface [DirectComposition], IDCompositionScaleTransform interface [DirectComposition],described, dcomp/IDCompositionScaleTransform, directcomp.idcompositionscaletransform
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionScaleTransform
 dev_langs:

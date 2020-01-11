@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 0f21ed97-e37f-4b44-a2eb-b8e284b3dc4b
 ms.date: 12/05/2018
 ms.keywords: SetEnhMetaFileBits, SetEnhMetaFileBits function [Windows GDI], _win32_SetEnhMetaFileBits, gdi.setenhmetafilebits, wingdi/SetEnhMetaFileBits
-ms.topic: function
 f1_keywords:
 - wingdi/SetEnhMetaFileBits
 dev_langs:

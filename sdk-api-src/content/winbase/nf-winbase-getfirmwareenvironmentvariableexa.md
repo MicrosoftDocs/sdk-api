@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: B093BA68-C68B-4ED6-9902-058650A191FD
 ms.date: 12/05/2018
 ms.keywords: GetFirmwareEnvironmentVariableEx, GetFirmwareEnvironmentVariableEx function, GetFirmwareEnvironmentVariableExA, GetFirmwareEnvironmentVariableExW, base.getfirmwareenvironmentvariableex, winbase/GetFirmwareEnvironmentVariableEx, winbase/GetFirmwareEnvironmentVariableExA, winbase/GetFirmwareEnvironmentVariableExW
-ms.topic: function
 f1_keywords:
 - winbase/GetFirmwareEnvironmentVariableEx
 dev_langs:

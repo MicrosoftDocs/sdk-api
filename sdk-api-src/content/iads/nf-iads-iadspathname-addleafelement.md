@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 6f29f11f-965e-4556-af74-2bc06588410f
 ms.date: 12/05/2018
 ms.keywords: AddLeafElement, AddLeafElement method [ADSI], AddLeafElement method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],AddLeafElement method, IADsPathname.AddLeafElement, IADsPathname::AddLeafElement, _ds_iadspathname_addleafelement, adsi.iadspathname__addleafelement, adsi.iadspathname_addleafelement, iads/IADsPathname::AddLeafElement
-ms.topic: method
 f1_keywords:
 - iads/IADsPathname.AddLeafElement
 dev_langs:

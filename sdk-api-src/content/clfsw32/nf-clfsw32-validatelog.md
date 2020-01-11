@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: dee4224e-bc94-42aa-95b9-226f13fd51ae
 ms.date: 12/05/2018
 ms.keywords: ValidateLog, ValidateLog function [Files], clfsw32/ValidateLog, fs.validatelogrestore
-ms.topic: function
 f1_keywords:
 - clfsw32/ValidateLog
 dev_langs:

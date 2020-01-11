@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 6f2b14bb-ecb9-4a63-9bef-e2ceaf09f97a
 ms.date: 12/05/2018
 ms.keywords: HttpCreateUrlGroup, HttpCreateUrlGroup function [HTTP], http.httpcreateurlgroup, http/HttpCreateUrlGroup
-ms.topic: function
 f1_keywords:
 - http/HttpCreateUrlGroup
 dev_langs:

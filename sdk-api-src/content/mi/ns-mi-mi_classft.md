@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 464dd009-5d99-483c-9e94-82ab07290189
 ms.date: 12/05/2018
 ms.keywords: MI_ClassFT, MI_ClassFT structure [Windows Management Infrastructure (MI)], mi/MI_ClassFT, wmi_v2.mi_classft
-ms.topic: struct
 f1_keywords:
 - mi/MI_ClassFT
 dev_langs:

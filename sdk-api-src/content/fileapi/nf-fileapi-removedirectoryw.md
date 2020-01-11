@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: d699cdd2-e270-4f17-bdec-6eea25b01578
 ms.date: 12/05/2018
 ms.keywords: RemoveDirectory, RemoveDirectory function [Files], RemoveDirectoryA, RemoveDirectoryW, _win32_removedirectory, base.removedirectory, fileapi/RemoveDirectory, fileapi/RemoveDirectoryA, fileapi/RemoveDirectoryW, fs.removedirectory, winbase/RemoveDirectory, winbase/RemoveDirectoryA, winbase/RemoveDirectoryW
-ms.topic: function
 f1_keywords:
 - fileapi/RemoveDirectory
 dev_langs:

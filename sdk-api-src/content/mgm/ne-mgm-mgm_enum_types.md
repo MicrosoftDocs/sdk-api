@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 09b60342-25a8-4d0a-8176-3701f0622aa8
 ms.date: 12/05/2018
 ms.keywords: ALL_SOURCES, ANY_SOURCE, MGM_ENUM_TYPES, MGM_ENUM_TYPES enumeration [RAS], _mpr_mgm_enum_types, mgm/ALL_SOURCES, mgm/ANY_SOURCE, mgm/MGM_ENUM_TYPES, rras.mgm_enum_types
-ms.topic: enum
 f1_keywords:
 - mgm/MGM_ENUM_TYPES
 dev_langs:

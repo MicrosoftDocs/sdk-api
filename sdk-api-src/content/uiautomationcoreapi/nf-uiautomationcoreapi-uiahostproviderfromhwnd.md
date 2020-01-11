@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 8cc8a8d8-a4e0-477e-bf3b-2fd5df2b9db1
 ms.date: 12/05/2018
 ms.keywords: UiaHostProviderFromHwnd, UiaHostProviderFromHwnd function [Windows Accessibility], uiauto.uiauto_UiaHostProviderFromHwndFunction, uiauto_UiaHostProviderFromHwndFunction, uiautomationcoreapi/UiaHostProviderFromHwnd, winauto.uiauto_UiaHostProviderFromHwndFunction
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaHostProviderFromHwnd
 dev_langs:

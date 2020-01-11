@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: d9175523-bbf0-4e20-b4da-140a6ee0ebd4
 ms.date: 12/05/2018
 ms.keywords: SnmpFreeVbl, SnmpFreeVbl function [SNMP], _snmp_snmpfreevbl, snmp.snmpfreevbl, winsnmp/SnmpFreeVbl
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpFreeVbl
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 2b616a69-1387-4c55-a80e-95ead719b911
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],Terminate method, IWdsTransportSession.Terminate, IWdsTransportSession::Terminate, Terminate, Terminate method [Windows Deployment Services], Terminate method [Windows Deployment Services],IWdsTransportSession interface, wds.iwdstransportsession_terminate, wdstptmgmt/IWdsTransportSession::Terminate
-ms.topic: method
 f1_keywords:
 - wdstptmgmt/IWdsTransportSession.Terminate
 dev_langs:

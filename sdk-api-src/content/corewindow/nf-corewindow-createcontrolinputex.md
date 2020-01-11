@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: AF12DA9F-7E5A-43B0-8B4D-7E41C4C1361F
 ms.date: 12/05/2018
 ms.keywords: CreateControlInputEx, CreateControlInputEx function [Windows Runtime], corewindow/CreateControlInputEx, winrt.createcontrolinputex
-ms.topic: function
 f1_keywords:
 - corewindow/CreateControlInputEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: F79E75E9-EB54-4C66-AB7C-98AF075718B1
 ms.date: 12/05/2018
 ms.keywords: CLUSAPI_GROUP_ONLINE_BEST_POSSIBLE_NODE, CLUSAPI_GROUP_ONLINE_IGNORE_RESOURCE_STATUS, CLUSAPI_GROUP_ONLINE_SYNCHRONOUS, OnlineClusterGroupEx, OnlineClusterGroupEx function [Failover Cluster], clusapi/OnlineClusterGroupEx, mscs.onlineclustergroupex
-ms.topic: function
 f1_keywords:
 - clusapi/OnlineClusterGroupEx
 dev_langs:

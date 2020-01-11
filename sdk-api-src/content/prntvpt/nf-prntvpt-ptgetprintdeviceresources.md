@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 39F17562-B8EB-41AF-BA55-42FE35B4560F
 ms.date: 12/05/2018
 ms.keywords: PTGetPrintDeviceResources, PTGetPrintDeviceResources function [XPS Documents and Packaging], prntvpt/PTGetPrintDeviceResources, xps.ptgetprintdeviceresources
-ms.topic: function
 f1_keywords:
 - prntvpt/PTGetPrintDeviceResources
 dev_langs:

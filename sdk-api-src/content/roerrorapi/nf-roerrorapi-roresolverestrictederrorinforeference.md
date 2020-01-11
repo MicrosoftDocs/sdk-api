@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 2F5C5A84-502C-4BD1-A01F-8F0E9B5857AD
 ms.date: 12/5/2018
 ms.keywords: RoResolveRestrictedErrorInfoReference, RoResolveRestrictedErrorInfoReference function [Windows Runtime], roerrorapi/RoResolveRestrictedErrorInfoReference, winrt.roresolverestrictederrorinforeference
-ms.topic: function
 f1_keywords:
 - roerrorapi/RoResolveRestrictedErrorInfoReference
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WindowsMAPI
 ms.assetid: 79a2f17e-fb07-4f3b-b8f6-0448399ffa50
 ms.date: 12/05/2018
 ms.keywords: MAPISendDocuments, MAPISendDocuments callback, MAPISendDocuments callback function, mapi.mapisenddocuments, mapi/MAPISendDocuments
-ms.topic: callback
 f1_keywords:
 - mapi/MAPISendDocuments
 dev_langs:

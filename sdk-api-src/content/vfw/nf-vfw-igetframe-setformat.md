@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 96a2afa5-af90-47e0-949a-a1498ed7f82e
 ms.date: 12/05/2018
 ms.keywords: IGetFrame interface [Windows Multimedia],SetFormat method, IGetFrame.SetFormat, IGetFrame::SetFormat, SetFormat, SetFormat method [Windows Multimedia], SetFormat method [Windows Multimedia],IGetFrame interface, _win32_IGetFrame_SetFormat, multimedia.igetframe_setformat, vfw/IGetFrame::SetFormat
-ms.topic: method
 f1_keywords:
 - vfw/IGetFrame.SetFormat
 dev_langs:

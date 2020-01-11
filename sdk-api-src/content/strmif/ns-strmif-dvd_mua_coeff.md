@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8b8402da-37c2-4983-ae09-967c269fc828
 ms.date: 12/05/2018
 ms.keywords: DVD_MUA_Coeff, DVD_MUA_Coeff structure [DirectShow], DVD_MUA_CoeffStructure, dshow.dvd_mua_coeff, strmif/DVD_MUA_Coeff
-ms.topic: struct
 f1_keywords:
 - strmif/DVD_MUA_Coeff
 dev_langs:

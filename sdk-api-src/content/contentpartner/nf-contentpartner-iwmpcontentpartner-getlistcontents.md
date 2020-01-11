@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: a48935ea-8275-4b68-a1ab-006a23c455ad
 ms.date: 12/05/2018
 ms.keywords: GetListContents, GetListContents method [Windows Media Player], GetListContents method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetListContents method, IWMPContentPartner.GetListContents, IWMPContentPartner::GetListContents, IWMPContentPartnerGetListContents, contentpartner/IWMPContentPartner::GetListContents, wmp.iwmpcontentpartner_getlistcontents
-ms.topic: method
 f1_keywords:
 - contentpartner/IWMPContentPartner.GetListContents
 dev_langs:

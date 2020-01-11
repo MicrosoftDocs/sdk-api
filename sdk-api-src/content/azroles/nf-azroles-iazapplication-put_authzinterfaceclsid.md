@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: d3dddd9c-a715-4697-bcca-ba12cead3b61
 ms.date: 12/05/2018
 ms.keywords: AuthzInterfaceClsid property [Security], AuthzInterfaceClsid property [Security],AzApplication object, AuthzInterfaceClsid property [Security],IAzApplication interface, AzApplication object [Security],AuthzInterfaceClsid property, IAzApplication interface [Security],AuthzInterfaceClsid property, IAzApplication.AuthzInterfaceClsid, IAzApplication.put_AuthzInterfaceClsid, IAzApplication::AuthzInterfaceClsid, IAzApplication::get_AuthzInterfaceClsid, IAzApplication::put_AuthzInterfaceClsid, azroles/IAzApplication::AuthzInterfaceClsid, azroles/IAzApplication::get_AuthzInterfaceClsid, azroles/IAzApplication::put_AuthzInterfaceClsid, put_AuthzInterfaceClsid, security.iazapplication_authzinterfaceclsid
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplication.AuthzInterfaceClsid
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 806c4142-b628-4ea0-b5e2-d2b4ead73c04
 ms.date: 12/05/2018
 ms.keywords: RtwqShutdown, RtwqShutdown function, base.rtwqshutdown, rtworkq/RtwqShutdown
-ms.topic: function
 f1_keywords:
 - rtworkq/RtwqShutdown
 dev_langs:

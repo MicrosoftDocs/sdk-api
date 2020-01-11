@@ -7,7 +7,6 @@ tech.root: Monitor
 ms.assetid: 9d000d86-02f8-442f-954c-c039c9dcc0cd
 ms.date: 12/05/2018
 ms.keywords: SetMonitorRedGreenOrBlueDrive, SetMonitorRedGreenOrBlueDrive function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueDrive, monitor.setmonitorredgreenorbluedrive
-ms.topic: function
 f1_keywords:
 - highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueDrive
 dev_langs:

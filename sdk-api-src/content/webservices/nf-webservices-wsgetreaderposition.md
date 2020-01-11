@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 91e543f3-7325-4a90-9b99-c98918478853
 ms.date: 12/05/2018
 ms.keywords: WsGetReaderPosition, WsGetReaderPosition function [Web Services for Windows], webservices/WsGetReaderPosition, wsw.wsgetreaderposition
-ms.topic: function
 f1_keywords:
 - webservices/WsGetReaderPosition
 dev_langs:

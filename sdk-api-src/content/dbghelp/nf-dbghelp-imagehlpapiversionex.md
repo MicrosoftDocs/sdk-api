@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 86a26160-ebad-4d6e-b559-3d59f2beb5ca
 ms.date: 12/05/2018
 ms.keywords: ImagehlpApiVersionEx, ImagehlpApiVersionEx function, _win32_imagehlpapiversionex, base.imagehlpapiversionex, dbghelp/ImagehlpApiVersionEx
-ms.topic: function
 f1_keywords:
 - dbghelp/ImagehlpApiVersionEx
 dev_langs:

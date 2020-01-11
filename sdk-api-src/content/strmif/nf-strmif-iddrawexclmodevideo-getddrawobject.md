@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b664fbcc-de14-42ca-95d0-97719e381605
 ms.date: 12/05/2018
 ms.keywords: GetDDrawObject, GetDDrawObject method [DirectShow], GetDDrawObject method [DirectShow],IDDrawExclModeVideo interface, IDDrawExclModeVideo interface [DirectShow],GetDDrawObject method, IDDrawExclModeVideo.GetDDrawObject, IDDrawExclModeVideo::GetDDrawObject, IDDrawExclModeVideoGetDDrawObject, dshow.iddrawexclmodevideo_getddrawobject, strmif/IDDrawExclModeVideo::GetDDrawObject
-ms.topic: method
 f1_keywords:
 - strmif/IDDrawExclModeVideo.GetDDrawObject
 dev_langs:

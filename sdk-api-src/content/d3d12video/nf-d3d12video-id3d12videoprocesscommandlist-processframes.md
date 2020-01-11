@@ -5,7 +5,6 @@ description: Records a video processing operation to the command list, operating
 tech.root: mf
 ms.assetid: 7f94fe17-318e-49cd-8041-71ca34030572
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoProcessCommandList::ProcessFrames
 dev_langs:

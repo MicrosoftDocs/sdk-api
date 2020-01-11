@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: e7b58957-4795-461f-ae3d-fb80e6711c9f
 ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceControl, IWMDMDeviceControl interface [windows Media Device Manager], IWMDMDeviceControl interface [windows Media Device Manager],described, IWMDMDeviceControlInterface, mswmdm/IWMDMDeviceControl, wmdm.iwmdmdevicecontrol
-ms.topic: interface
 f1_keywords:
 - mswmdm/IWMDMDeviceControl
 dev_langs:

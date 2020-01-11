@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 46E6EAF3-7EC7-4433-90E5-4C6E3A56AFA5
 ms.date: 12/05/2018
 ms.keywords: ID2D1Transform interface [Direct2D],MapInvalidRect method, ID2D1Transform.MapInvalidRect, ID2D1Transform::MapInvalidRect, MapInvalidRect, MapInvalidRect method [Direct2D], MapInvalidRect method [Direct2D],ID2D1Transform interface, d2d1effectauthor/ID2D1Transform::MapInvalidRect, direct2d.id2d1transform_setinputrects
-ms.topic: method
 f1_keywords:
 - d2d1effectauthor/ID2D1Transform.MapInvalidRect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: F07DFA37-6155-473F-A426-7D15F3ED46B1
 ms.date: 12/05/2018
 ms.keywords: GetFeatureEnabledState, GetFeatureEnabledState function [Windows API], featurestagingapi/GetFeatureEnabledState, winprog.getfeatureenabledstate
-ms.topic: function
 f1_keywords:
 - featurestagingapi/GetFeatureEnabledState
 dev_langs:

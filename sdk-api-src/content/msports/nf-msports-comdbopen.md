@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 6ae22de0-b71e-441d-af12-8518a3f474e3
 ms.date: 12/05/2018
 ms.keywords: ComDBOpen, ComDBOpen function [Serial Ports], comdb_ab14e7a4-69f0-42fc-82b5-df6f5863779a.xml, msports/ComDBOpen, serports.comdbopen
-ms.topic: function
 f1_keywords:
 - msports/ComDBOpen
 dev_langs:

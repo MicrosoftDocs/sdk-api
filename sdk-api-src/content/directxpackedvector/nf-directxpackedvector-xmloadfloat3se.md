@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat3SE(const XMFLOAT3SE)
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadFloat3SE, XMLoadFloat3SE, XMLoadFloat3SE method [DirectX Math Support APIs], dxmath.xmloadfloat3se
-ms.topic: function
 f1_keywords:
 - directxpackedvector/XMLoadFloat3SE
 dev_langs:

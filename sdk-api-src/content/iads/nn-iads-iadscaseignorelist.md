@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: e587d603-d235-4449-986c-89f0fdb86ab6
 ms.date: 12/05/2018
 ms.keywords: IADsCaseIgnoreList, IADsCaseIgnoreList interface [ADSI], IADsCaseIgnoreList interface [ADSI],described, _ds_iadscaseignorelist, adsi.iadscaseignorelist, iads/IADsCaseIgnoreList
-ms.topic: interface
 f1_keywords:
 - iads/IADsCaseIgnoreList
 dev_langs:

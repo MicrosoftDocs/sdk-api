@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: eeedeb4b-753f-4efb-b8ef-732cce116b42
 ms.date: 12/05/2018
 ms.keywords: IOPMVideoOutput interface [Media Foundation],StartInitialization method, IOPMVideoOutput.StartInitialization, IOPMVideoOutput::StartInitialization, StartInitialization, StartInitialization method [Media Foundation], StartInitialization method [Media Foundation],IOPMVideoOutput interface, mf.iopmvideooutput_iopmvideooutput__startinitialization, opmapi/IOPMVideoOutput::StartInitialization
-ms.topic: method
 f1_keywords:
 - opmapi/IOPMVideoOutput.StartInitialization
 dev_langs:

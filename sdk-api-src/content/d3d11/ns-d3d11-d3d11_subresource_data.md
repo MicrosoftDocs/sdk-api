@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 0ae10f12-4ef7-4dab-a7d7-fb4f2fd72a73
 ms.date: 12/05/2018
 ms.keywords: 9f8b9590-da23-b969-b66b-241a33559322, D3D11_SUBRESOURCE_DATA, D3D11_SUBRESOURCE_DATA structure [Direct3D 11], d3d11/D3D11_SUBRESOURCE_DATA, direct3d11.d3d11_subresource_data
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_SUBRESOURCE_DATA
 dev_langs:

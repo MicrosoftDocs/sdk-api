@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: a248e14a-ab17-4e8e-9e27-2ba31a4a999d
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyJobs interface [BITS],Next method, IEnumBackgroundCopyJobs.Next, IEnumBackgroundCopyJobs::Next, Next, Next method [BITS], Next method [BITS],IEnumBackgroundCopyJobs interface, _drz_ienumbackgroundcopyjobs_next, bits.ienumbackgroundcopyjobs_next, bits/IEnumBackgroundCopyJobs::Next
-ms.topic: method
 f1_keywords:
 - bits/IEnumBackgroundCopyJobs.Next
 dev_langs:

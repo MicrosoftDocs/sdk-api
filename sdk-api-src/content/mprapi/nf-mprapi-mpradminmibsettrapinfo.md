@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: fc223682-9dd9-4d3f-8cfb-ec7c438f68e7
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBSetTrapInfo, MprAdminMIBSetTrapInfo function [RAS], _mpr_mpradminmibsettrapinfo, mprapi/MprAdminMIBSetTrapInfo, rras.mpradminmibsettrapinfo
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminMIBSetTrapInfo
 dev_langs:

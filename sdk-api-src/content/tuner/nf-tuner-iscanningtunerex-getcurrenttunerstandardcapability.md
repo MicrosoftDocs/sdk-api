@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 4a3edf23-d782-4bfb-84c2-33eab7cb9d19
 ms.date: 12/05/2018
 ms.keywords: GetCurrentTunerStandardCapability, GetCurrentTunerStandardCapability method [Microsoft TV Technologies], GetCurrentTunerStandardCapability method [Microsoft TV Technologies],IScanningTunerEx interface, IScanningTunerEx interface [Microsoft TV Technologies],GetCurrentTunerStandardCapability method, IScanningTunerEx.GetCurrentTunerStandardCapability, IScanningTunerEx::GetCurrentTunerStandardCapability, IScanningTunerExGetCurrentTunerStandardCapability, mstv.iscanningtunerex_getcurrenttunerstandardcapability, tuner/IScanningTunerEx::GetCurrentTunerStandardCapability
-ms.topic: method
 f1_keywords:
 - tuner/IScanningTunerEx.GetCurrentTunerStandardCapability
 dev_langs:

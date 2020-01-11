@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: ccd01d38-2d8e-4509-b44f-fef6ff718558
 ms.date: 12/05/2018
 ms.keywords: OleCreatePropertyFrameIndirect, OleCreatePropertyFrameIndirect function [COM], _ctrl_OleCreatePropertyFrameIndirect, com.olecreatepropertyframeindirect, olectl/OleCreatePropertyFrameIndirect
-ms.topic: function
 f1_keywords:
 - olectl/OleCreatePropertyFrameIndirect
 dev_langs:

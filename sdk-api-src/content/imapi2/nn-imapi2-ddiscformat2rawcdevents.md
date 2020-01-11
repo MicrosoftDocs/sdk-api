@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 3a06911e-8a50-4e41-874c-478ad05f6488
 ms.date: 12/05/2018
 ms.keywords: DDiscFormat2RawCDEvents, DDiscFormat2RawCDEvents interface [IMAPI], DDiscFormat2RawCDEvents interface [IMAPI],described, imapi.ddiscformat2rawcdevents, imapi2/DDiscFormat2RawCDEvents
-ms.topic: interface
 f1_keywords:
 - imapi2/DDiscFormat2RawCDEvents
 dev_langs:

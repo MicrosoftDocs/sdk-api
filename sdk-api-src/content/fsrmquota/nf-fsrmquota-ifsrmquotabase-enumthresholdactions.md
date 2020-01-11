@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: ce4f85a9-f2e0-42df-adb4-7c21256d5305
 ms.date: 12/05/2018
 ms.keywords: EnumThresholdActions, EnumThresholdActions method [File Server Resource Manager], EnumThresholdActions method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],EnumThresholdActions method, IFsrmQuotaBase.EnumThresholdActions, IFsrmQuotaBase::EnumThresholdActions, fs.ifsrmquotabase_enumthresholdactions, fsrm.ifsrmquotabase_enumthresholdactions, fsrmquota/IFsrmQuotaBase::EnumThresholdActions
-ms.topic: method
 f1_keywords:
 - fsrmquota/IFsrmQuotaBase.EnumThresholdActions
 dev_langs:

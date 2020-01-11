@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: a5968193-e3d9-41d1-b13f-8e86db5e0c70
 ms.date: 12/05/2018
 ms.keywords: GetPatternProgrammaticName, GetPatternProgrammaticName method [Windows Accessibility], GetPatternProgrammaticName method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],GetPatternProgrammaticName method, IUIAutomation.GetPatternProgrammaticName, IUIAutomation::GetPatternProgrammaticName, uiauto.uiauto_IUIAutomation_GetPatternProgrammaticName, uiauto_IUIAutomation_GetPatternProgrammaticName, uiautomationclient/IUIAutomation::GetPatternProgrammaticName, winauto.uiauto_IUIAutomation_GetPatternProgrammaticName
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation.GetPatternProgrammaticName
 dev_langs:

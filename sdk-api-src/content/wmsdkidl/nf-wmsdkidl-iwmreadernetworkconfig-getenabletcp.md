@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 6623c2f9-24cb-4038-9aa5-2eb634b3f1a2
 ms.date: 12/05/2018
 ms.keywords: GetEnableTCP, GetEnableTCP method [windows Media Format], GetEnableTCP method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetEnableTCP method, IWMReaderNetworkConfig.GetEnableTCP, IWMReaderNetworkConfig::GetEnableTCP, IWMReaderNetworkConfigGetEnableTCP, wmformat.iwmreadernetworkconfig_getenabletcp, wmsdkidl/IWMReaderNetworkConfig::GetEnableTCP
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderNetworkConfig.GetEnableTCP
 dev_langs:

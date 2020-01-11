@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 65c4fa7c-76d8-47ec-b5c5-bf671529f5f1
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_delete_ext, ldap.ldap__delete__ext, ldap.ldap_delete_ext, ldap_delete_ext, ldap_delete_ext function [LDAP], ldap_delete_extA, ldap_delete_extW, winldap/ldap_delete_ext, winldap/ldap_delete_extA, winldap/ldap_delete_extW
-ms.topic: function
 f1_keywords:
 - winldap/ldap_delete_ext
 dev_langs:

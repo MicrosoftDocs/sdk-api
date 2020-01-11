@@ -7,7 +7,6 @@ tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\remoteuser.htm
 ms.date: 12/05/2018
 ms.keywords: IRendezvousSession interface [Remote Assistance],RemoteUser property, IRendezvousSession.RemoteUser, IRendezvousSession.get_RemoteUser, IRendezvousSession::RemoteUser, IRendezvousSession::get_RemoteUser, RemoteUser property [Remote Assistance], RemoteUser property [Remote Assistance],IRendezvousSession interface, get_RemoteUser, remoteassist.remoteassist_IRendezvousSession_RemoteUser, remoteassist_IRendezvousSession_RemoteUser, rendezvoussession/IRendezvousSession::RemoteUser, rendezvoussession/IRendezvousSession::get_RemoteUser
-ms.topic: method
 f1_keywords:
 - rendezvoussession/IRendezvousSession.RemoteUser
 dev_langs:

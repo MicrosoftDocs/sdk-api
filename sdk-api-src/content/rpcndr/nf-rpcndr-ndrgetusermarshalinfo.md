@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 772979eb-eb1c-4e41-91bf-f64766898c8a
 ms.date: 12/05/2018
 ms.keywords: NdrGetUserMarshalInfo, NdrGetUserMarshalInfo function [RPC], _rpc_ndrgetusermarshalinfo, rpc.ndrgetusermarshalinfo, rpcndr/NdrGetUserMarshalInfo
-ms.topic: function
 f1_keywords:
 - rpcndr/NdrGetUserMarshalInfo
 dev_langs:

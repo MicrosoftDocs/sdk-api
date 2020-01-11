@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 79FB0A54-EBF0-4aab-B631-B4D3EA54D20B
 ms.date: 12/05/2018
 ms.keywords: RegisterScaleChangeNotifications, RegisterScaleChangeNotifications function [Windows Shell], shell.RegisterScaleChangeNotifications, shellscalingapi/RegisterScaleChangeNotifications
-ms.topic: function
 f1_keywords:
 - shellscalingapi/RegisterScaleChangeNotifications
 dev_langs:

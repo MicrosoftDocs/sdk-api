@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 0c39b769-9523-42ce-942f-761e6d39ec5b
 ms.date: 12/05/2018
 ms.keywords: WICAsShotParameterSet, WICAutoAdjustedParameterSet, WICRawParameterSet, WICRawParameterSet enumeration [Windows Imaging Component], WICUserAdjustedParameterSet, _wic_codec_wicrawparameterset, wic._wic_codec_wicrawparameterset, wincodec/WICAsShotParameterSet, wincodec/WICAutoAdjustedParameterSet, wincodec/WICRawParameterSet, wincodec/WICUserAdjustedParameterSet
-ms.topic: enum
 f1_keywords:
 - wincodec/WICRawParameterSet
 dev_langs:

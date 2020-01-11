@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: c442447f-221d-4bce-9749-fb9fbe333808
 ms.date: 12/05/2018
 ms.keywords: EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, TTGetEmbeddingType, TTGetEmbeddingType function [Windows GDI], _win32_TTGetEmbeddingType, gdi.ttgetembeddingtype, t2embapi/TTGetEmbeddingType
-ms.topic: function
 f1_keywords:
 - t2embapi/TTGetEmbeddingType
 dev_langs:

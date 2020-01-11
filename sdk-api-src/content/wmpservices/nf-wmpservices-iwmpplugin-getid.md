@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 883b6e19-5d1a-4ad9-882b-953772e8e11a
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method [Windows Media Player], GetID method [Windows Media Player],IWMPPlugin interface, IWMPPlugin interface [Windows Media Player],GetID method, IWMPPlugin.GetID, IWMPPlugin::GetID, IWMPPluginGetIDDSP, wmp.iwmpplugin_getid, wmpservices/IWMPPlugin::GetID
-ms.topic: method
 f1_keywords:
 - wmpservices/IWMPPlugin.GetID
 dev_langs:

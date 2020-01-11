@@ -7,7 +7,6 @@ tech.root: WCS
 ms.assetid: ee28d4e3-314f-429d-841b-da432ff6dc78
 ms.date: 12/05/2018
 ms.keywords: CMYK, CMYK macro [Windows Color System], _color_CMYK, wcs.cmyk, wingdi/CMYK
-ms.topic: macro
 f1_keywords:
 - wingdi/CMYK
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 284d8411-6ac7-4496-893b-0349057523e8
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linesetagentsessionstate, lineSetAgentSessionState, lineSetAgentSessionState function [TAPI 2.2], tapi/lineSetAgentSessionState, tapi2.linesetagentsessionstate
-ms.topic: function
 f1_keywords:
 - tapi/lineSetAgentSessionState
 dev_langs:

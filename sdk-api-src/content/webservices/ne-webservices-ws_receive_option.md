@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: a2aefba7-40ff-4399-b13f-f1bad191f366
 ms.date: 12/05/2018
 ms.keywords: WS_RECEIVE_OPTION, WS_RECEIVE_OPTION enumeration [Web Services for Windows], WS_RECEIVE_OPTIONAL_MESSAGE, WS_RECEIVE_REQUIRED_MESSAGE, webservices/WS_RECEIVE_OPTION, webservices/WS_RECEIVE_OPTIONAL_MESSAGE, webservices/WS_RECEIVE_REQUIRED_MESSAGE, wsw.ws_receive_option
-ms.topic: enum
 f1_keywords:
 - webservices/WS_RECEIVE_OPTION
 dev_langs:

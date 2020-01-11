@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionLengthSq(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionLengthSq, XMQuaternionLengthSq, XMQuaternionLengthSq method [DirectX Math Support APIs], dxmath.xmquaternionlengthsq
-ms.topic: function
 f1_keywords:
 - directxmath/XMQuaternionLengthSq
 dev_langs:

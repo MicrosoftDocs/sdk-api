@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: ffd25a04-27a8-47c0-95a4-d66291971819
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetPara2 method, ITextRange2.SetPara2, ITextRange2::SetPara2, SetPara2, SetPara2 method [Windows Controls], SetPara2 method [Windows Controls],ITextRange2 interface, controls.itextrange2_setpara2, tom/ITextRange2::SetPara2
-ms.topic: method
 f1_keywords:
 - tom/ITextRange2.SetPara2
 dev_langs:

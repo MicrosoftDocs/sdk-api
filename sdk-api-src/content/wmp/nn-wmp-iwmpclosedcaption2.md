@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 21067ac1-d29e-4f1b-b123-34b24929369a
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption2, IWMPClosedCaption2 interface [Windows Media Player], IWMPClosedCaption2 interface [Windows Media Player],described, IWMPClosedCaption2Interface, wmp.iwmpclosedcaption2, wmp/IWMPClosedCaption2
-ms.topic: interface
 f1_keywords:
 - wmp/IWMPClosedCaption2
 dev_langs:

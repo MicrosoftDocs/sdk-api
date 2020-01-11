@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 90D6E8D2-191B-41D2-8C75-28A26462644B
 ms.date: 12/05/2018
 ms.keywords: VBS_ENCLAVE_REPORT, VBS_ENCLAVE_REPORT structure, base.vbs_enclave_report, ntenclv/VBS_ENCLAVE_REPORT
-ms.topic: struct
 f1_keywords:
 - ntenclv/VBS_ENCLAVE_REPORT
 dev_langs:

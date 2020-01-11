@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 7ad948fa-cd00-4496-bd62-433d7faa0f85
 ms.date: 12/05/2018
 ms.keywords: RtmGetOpaqueInformationPointer, RtmGetOpaqueInformationPointer function [RAS], _rtmv2ref_rtmgetopaqueinformationpointer, rras.rtmgetopaqueinformationpointer, rtmv2/RtmGetOpaqueInformationPointer
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmGetOpaqueInformationPointer
 dev_langs:

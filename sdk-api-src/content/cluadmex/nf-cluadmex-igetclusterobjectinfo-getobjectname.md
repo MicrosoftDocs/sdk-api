@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: e45f3652-74da-4d93-826d-320ddae10f49
 ms.date: 12/05/2018
 ms.keywords: GetObjectName, GetObjectName method [Failover Cluster], GetObjectName method [Failover Cluster],IGetClusterObjectInfo interface, IGetClusterObjectInfo interface [Failover Cluster],GetObjectName method, IGetClusterObjectInfo.GetObjectName, IGetClusterObjectInfo::GetObjectName, _wolf_igetclusterobjectinfo_getobjectname, cluadmex/IGetClusterObjectInfo::GetObjectName, mscs.igetclusterobjectinfo_getobjectname
-ms.topic: method
 f1_keywords:
 - cluadmex/IGetClusterObjectInfo.GetObjectName
 dev_langs:

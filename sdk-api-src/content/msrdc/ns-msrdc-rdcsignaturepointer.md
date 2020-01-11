@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: ece0fddf-1c06-493d-aed9-6bc86bb014f3
 ms.date: 12/05/2018
 ms.keywords: RdcSignaturePointer, RdcSignaturePointer structure [Remote Differential Compression], fs.rdcsignaturepointer, msrdc/RdcSignaturePointer, rdc.rdcsignaturepointer
-ms.topic: struct
 f1_keywords:
 - msrdc/RdcSignaturePointer
 dev_langs:

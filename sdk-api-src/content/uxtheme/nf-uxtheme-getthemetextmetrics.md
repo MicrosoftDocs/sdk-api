@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemetextmetrics.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeTextMetrics, GetThemeTextMetrics function [Windows Controls], controls.GetThemeTextMetrics, controls.inet_GetThemeTextMetrics, inet_GetThemeTextMetrics, inet_GetThemeTextMetrics_cpp, uxtheme/GetThemeTextMetrics
-ms.topic: function
 f1_keywords:
 - uxtheme/GetThemeTextMetrics
 dev_langs:

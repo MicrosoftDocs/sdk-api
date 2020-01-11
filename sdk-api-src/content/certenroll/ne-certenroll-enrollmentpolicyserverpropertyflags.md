@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 531502ac-8e89-46ee-a426-86e22a9dbe8d
 ms.date: 12/05/2018
 ms.keywords: DefaultNone, DefaultPolicyServer, EnrollmentPolicyServerPropertyFlags, EnrollmentPolicyServerPropertyFlags enumeration [Security], certenroll/DefaultNone, certenroll/DefaultPolicyServer, certenroll/EnrollmentPolicyServerPropertyFlags, security.enrollmentpolicyserverpropertyflags
-ms.topic: enum
 f1_keywords:
 - certenroll/EnrollmentPolicyServerPropertyFlags
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: abdf6fb2-e98f-4df8-98ec-06d33798abb5
 ms.date: 12/05/2018
 ms.keywords: ICaptureGraphBuilder2, ICaptureGraphBuilder2 interface [DirectShow], ICaptureGraphBuilder2 interface [DirectShow],described, ICaptureGraphBuilder2Interface, dshow.icapturegraphbuilder2, strmif/ICaptureGraphBuilder2
-ms.topic: interface
 f1_keywords:
 - strmif/ICaptureGraphBuilder2
 dev_langs:

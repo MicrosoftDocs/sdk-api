@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: cbb3d832-cd92-4875-8366-6b69be7a536f
 ms.date: 12/05/2018
 ms.keywords: TlsAlloc, TlsAlloc function, _win32_tlsalloc, base.tlsalloc, processthreadsapi/TlsAlloc, winbase/TlsAlloc
-ms.topic: function
 f1_keywords:
 - processthreadsapi/TlsAlloc
 dev_langs:

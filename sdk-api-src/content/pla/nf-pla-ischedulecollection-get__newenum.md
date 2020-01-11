@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 4aae67ae-8b9d-4baa-b617-b6e44b7e7edf
 ms.date: 12/05/2018
 ms.keywords: IScheduleCollection interface [PLA],_NewEnum property, IScheduleCollection._NewEnum, IScheduleCollection.get__NewEnum, IScheduleCollection::_NewEnum, IScheduleCollection::get__NewEnum, _NewEnum property [PLA], _NewEnum property [PLA],IScheduleCollection interface, get__NewEnum, pla.ischedulecollection__newenum, pla/IScheduleCollection::_NewEnum, pla/IScheduleCollection::get__NewEnum
-ms.topic: method
 f1_keywords:
 - pla/IScheduleCollection._NewEnum
 dev_langs:

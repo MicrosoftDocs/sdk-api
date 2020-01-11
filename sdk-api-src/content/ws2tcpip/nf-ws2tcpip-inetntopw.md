@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 1e26b88c-808f-4807-8641-e5c6b10853ad
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, InetNtop, InetNtop function [Winsock], InetNtopA, InetNtopA or inet_ntop, InetNtopW, inet_ntop, winsock.inet_ntop, ws2tcpip/InetNtop, ws2tcpip/InetNtopA or inet_ntop, ws2tcpip/InetNtopW
-ms.topic: function
 f1_keywords:
 - ws2tcpip/InetNtop
 dev_langs:

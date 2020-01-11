@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 22ebb9e7-10c6-4512-b749-d61f74bc82ed
 ms.date: 12/05/2018
 ms.keywords: PTConvertDevModeToPrintTicket, PTConvertDevModeToPrintTicket function [Windows GDI], _win32_PTConvertDevModeToPrintTicket, gdi.ptconvertdevmodetoprintticket, prntvpt/PTConvertDevModeToPrintTicket
-ms.topic: function
 f1_keywords:
 - prntvpt/PTConvertDevModeToPrintTicket
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: f8c29dc0-dde0-4782-8a54-52a40f6f1586
 ms.date: 12/05/2018
 ms.keywords: FreeClusterHealthFaultArray, FreeClusterHealthFaultArray function [Failover Cluster], mscs.freeclusterhealthfaultarray, resapi/FreeClusterHealthFaultArray
-ms.topic: function
 f1_keywords:
 - resapi/FreeClusterHealthFaultArray
 dev_langs:

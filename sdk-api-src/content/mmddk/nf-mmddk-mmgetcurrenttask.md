@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: a581fe3f-466c-4ea0-b9d5-e911b4ad282f
 ms.date: 12/05/2018
 ms.keywords: mmGetCurrentTask, mmGetCurrentTask function [Windows Multimedia], mmddk/mmGetCurrentTask, multimedia.mmgetcurrenttask
-ms.topic: function
 f1_keywords:
 - mmddk/mmGetCurrentTask
 dev_langs:

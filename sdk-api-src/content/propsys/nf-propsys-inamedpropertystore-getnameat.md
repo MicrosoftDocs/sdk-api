@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2fd3896e-b170-49af-811e-a1f2facc7a84
 ms.date: 12/05/2018
 ms.keywords: GetNameAt, GetNameAt method [Windows Shell], GetNameAt method [Windows Shell],INamedPropertyStore interface, INamedPropertyStore interface [Windows Shell],GetNameAt method, INamedPropertyStore.GetNameAt, INamedPropertyStore::GetNameAt, _shell_INamedPropertyStore_GetNameAt, propsys/INamedPropertyStore::GetNameAt, shell.INamedPropertyStore_GetNameAt
-ms.topic: method
 f1_keywords:
 - propsys/INamedPropertyStore.GetNameAt
 dev_langs:

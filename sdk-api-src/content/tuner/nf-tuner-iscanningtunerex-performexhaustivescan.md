@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 35ed1b43-020e-4baa-9f15-eb316d9a137b
 ms.date: 12/05/2018
 ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],PerformExhaustiveScan method, IScanningTunerEx.PerformExhaustiveScan, IScanningTunerEx::PerformExhaustiveScan, IScanningTunerExPerformExhaustiveScan, PerformExhaustiveScan, PerformExhaustiveScan method [Microsoft TV Technologies], PerformExhaustiveScan method [Microsoft TV Technologies],IScanningTunerEx interface, mstv.iscanningtunerex_performexhaustivescan, tuner/IScanningTunerEx::PerformExhaustiveScan
-ms.topic: method
 f1_keywords:
 - tuner/IScanningTunerEx.PerformExhaustiveScan
 dev_langs:

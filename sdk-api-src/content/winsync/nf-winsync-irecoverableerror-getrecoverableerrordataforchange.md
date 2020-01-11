@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: e6fbc99f-ae01-4f5e-b22c-bd802520ae39
 ms.date: 12/05/2018
 ms.keywords: GetRecoverableErrorDataForChange, GetRecoverableErrorDataForChange method [Windows Sync], GetRecoverableErrorDataForChange method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetRecoverableErrorDataForChange method, IRecoverableError.GetRecoverableErrorDataForChange, IRecoverableError::GetRecoverableErrorDataForChange, winsync.irecoverableerror_getrecoverableerrordataforchange, winsync/IRecoverableError::GetRecoverableErrorDataForChange
-ms.topic: method
 f1_keywords:
 - winsync/IRecoverableError.GetRecoverableErrorDataForChange
 dev_langs:

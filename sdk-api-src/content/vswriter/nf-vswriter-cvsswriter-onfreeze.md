@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 2aff5e87-4053-46a0-a7fb-7411e76166ba
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnFreeze method, CVssWriter.OnFreeze, CVssWriter::OnFreeze, OnFreeze, OnFreeze method [VSS], OnFreeze method [VSS],CVssWriter interface, _win32_cvsswriter_onfreeze, base.cvsswriter_onfreeze, vswriter/CVssWriter::OnFreeze
-ms.topic: method
 f1_keywords:
 - vswriter/CVssWriter.OnFreeze
 dev_langs:

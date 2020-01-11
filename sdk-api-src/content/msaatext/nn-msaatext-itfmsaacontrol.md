@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: e01a0177-7e3a-4087-84b8-151da2145be8
 ms.date: 12/05/2018
 ms.keywords: ITfMSAAControl, ITfMSAAControl interface [Text Services Framework], ITfMSAAControl interface [Text Services Framework],described, msaatext/ITfMSAAControl, tsf.itfmsaacontrol
-ms.topic: interface
 f1_keywords:
 - msaatext/ITfMSAAControl
 dev_langs:

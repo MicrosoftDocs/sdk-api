@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 80fb1d4a-d9b1-4e67-b585-eee81893ed34
 ms.date: 12/05/2018
 ms.keywords: ValidateRgn, ValidateRgn function [Windows GDI], _win32_ValidateRgn, gdi.validatergn, winuser/ValidateRgn
-ms.topic: function
 f1_keywords:
 - winuser/ValidateRgn
 dev_langs:

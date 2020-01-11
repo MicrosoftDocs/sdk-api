@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: bf961d70-2576-493b-a34d-c7c72b6c0234
 ms.date: 12/05/2018
 ms.keywords: IStylusAsyncPlugin, IStylusAsyncPlugin interface [Tablet PC], IStylusAsyncPlugin interface [Tablet PC],described, bf961d70-2576-493b-a34d-c7c72b6c0234, rtscom/IStylusAsyncPlugin, tablet.istylusasyncplugin
-ms.topic: interface
 f1_keywords:
 - rtscom/IStylusAsyncPlugin
 dev_langs:

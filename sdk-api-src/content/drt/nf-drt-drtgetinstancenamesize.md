@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: b600ee27-bcea-4496-888f-1300f74d41e4
 ms.date: 12/05/2018
 ms.keywords: DrtGetInstanceNameSize, DrtGetInstanceNameSize function [Peer Networking], drt/DrtGetInstanceNameSize, p2p.drtgetinstancenamesize
-ms.topic: function
 f1_keywords:
 - drt/DrtGetInstanceNameSize
 dev_langs:

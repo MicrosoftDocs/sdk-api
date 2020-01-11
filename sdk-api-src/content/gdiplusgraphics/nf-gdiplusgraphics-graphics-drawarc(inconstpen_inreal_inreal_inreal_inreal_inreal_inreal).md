@@ -5,7 +5,6 @@ description: The Graphics::DrawArc method draws an arc.
 ms.assetid: b4936938-7337-43d8-8cc1-ff1f6d3f6b24
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawArc
-ms.topic: language-reference
 f1_keywords:
 - gdiplusgraphics/Graphics::DrawArc
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 3c1ddb8c-fcbf-4b0c-8725-35dfc15e3c02
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard interface [Windows Animation],RepeatBetweenKeyframes method, IUIAnimationStoryboard.RepeatBetweenKeyframes, IUIAnimationStoryboard::RepeatBetweenKeyframes, RepeatBetweenKeyframes, RepeatBetweenKeyframes method [Windows Animation], RepeatBetweenKeyframes method [Windows Animation],IUIAnimationStoryboard interface, uianimation.iuianimationstoryboard_repeatbetweenkeyframes, uianimation/IUIAnimationStoryboard::RepeatBetweenKeyframes
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationStoryboard.RepeatBetweenKeyframes
 dev_langs:

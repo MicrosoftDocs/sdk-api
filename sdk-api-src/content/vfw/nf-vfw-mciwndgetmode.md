@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: d5b5d200-459c-4437-9685-1c95e8acc52f
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetMode, MCIWndGetMode macro [Windows Multimedia], _win32_MCIWndGetMode, multimedia.mciwndgetmode, vfw/MCIWndGetMode
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndGetMode
 dev_langs:

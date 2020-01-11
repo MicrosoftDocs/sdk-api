@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: d4a99b08-5616-4c75-b99f-680f55288baa
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],KeyContainerNamePrefix property, IX509CertificateRequestPkcs10.KeyContainerNamePrefix, IX509CertificateRequestPkcs10.get_KeyContainerNamePrefix, IX509CertificateRequestPkcs10::KeyContainerNamePrefix, IX509CertificateRequestPkcs10::get_KeyContainerNamePrefix, IX509CertificateRequestPkcs10::put_KeyContainerNamePrefix, KeyContainerNamePrefix property [Security], KeyContainerNamePrefix property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::KeyContainerNamePrefix, certenroll/IX509CertificateRequestPkcs10::get_KeyContainerNamePrefix, certenroll/IX509CertificateRequestPkcs10::put_KeyContainerNamePrefix, get_KeyContainerNamePrefix, security.ix509certificaterequestpkcs10_keycontainernameprefix_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509CertificateRequestPkcs10.KeyContainerNamePrefix
 dev_langs:

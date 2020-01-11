@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: aab137a0-0443-4ac0-b5b2-be6734771b73
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_GetEncodePortInSPN, MI_DestinationOptions_GetEncodePortInSPN function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetEncodePortInSPN, wmi_v2.mi_destinationoptions_getencodeportinspn
-ms.topic: function
 f1_keywords:
 - mi/MI_DestinationOptions_GetEncodePortInSPN
 dev_langs:

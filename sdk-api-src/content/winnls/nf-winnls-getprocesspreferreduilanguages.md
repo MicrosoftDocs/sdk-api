@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 115fd1f4-39ae-4c69-aa42-606617a989aa
 ms.date: 12/05/2018
 ms.keywords: GetProcessPreferredUILanguages, GetProcessPreferredUILanguages function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, intl.getprocesspreferreduilanguages, winnls/GetProcessPreferredUILanguages
-ms.topic: function
 f1_keywords:
 - winnls/GetProcessPreferredUILanguages
 dev_langs:

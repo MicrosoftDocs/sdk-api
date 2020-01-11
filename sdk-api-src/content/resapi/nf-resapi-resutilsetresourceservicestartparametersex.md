@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 12F1AD70-4B6C-4920-855C-C55C8F423C69
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX, PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX function [Failover Cluster], ResUtilSetResourceServiceStartParametersEx, ResUtilSetResourceServiceStartParametersEx function [Failover Cluster], mscs.resutilsetresourceservicestartparametersex, resapi/PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX, resapi/ResUtilSetResourceServiceStartParametersEx
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilSetResourceServiceStartParametersEx
 dev_langs:

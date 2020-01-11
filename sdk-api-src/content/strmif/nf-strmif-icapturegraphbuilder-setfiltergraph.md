@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 01cb7f09-6ff2-46c1-b6f2-76583785b242
 ms.date: 12/05/2018
 ms.keywords: ICaptureGraphBuilder interface [DirectShow],SetFiltergraph method, ICaptureGraphBuilder.SetFiltergraph, ICaptureGraphBuilder::SetFiltergraph, ICaptureGraphBuilderSetFiltergraph, SetFiltergraph, SetFiltergraph method [DirectShow], SetFiltergraph method [DirectShow],ICaptureGraphBuilder interface, dshow.icapturegraphbuilder_setfiltergraph, strmif/ICaptureGraphBuilder::SetFiltergraph
-ms.topic: method
 f1_keywords:
 - strmif/ICaptureGraphBuilder.SetFiltergraph
 dev_langs:

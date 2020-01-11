@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 1928c81a-c618-4afd-b0eb-06e7b8b80431
 ms.date: 12/05/2018
 ms.keywords: 1928c81a-c618-4afd-b0eb-06e7b8b80431, IInkRenderer interface [Tablet PC],Rotate method, IInkRenderer.Rotate, IInkRenderer::Rotate, Rotate, Rotate method [Tablet PC], Rotate method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::Rotate, tablet.inkrenderer_rotate
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRenderer.Rotate
 dev_langs:

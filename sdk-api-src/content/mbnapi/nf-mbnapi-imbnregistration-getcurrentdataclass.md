@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 365458a4-74df-4283-94db-3d855acadffe
 ms.date: 12/05/2018
 ms.keywords: GetCurrentDataClass, GetCurrentDataClass method [Microsoft Broadband Networks], GetCurrentDataClass method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetCurrentDataClass method, IMbnRegistration.GetCurrentDataClass, IMbnRegistration::GetCurrentDataClass, mbn.imbnregistration_getcurrentdataclass, mbnapi/IMbnRegistration::GetCurrentDataClass
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnRegistration.GetCurrentDataClass
 dev_langs:

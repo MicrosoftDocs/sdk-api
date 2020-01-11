@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 3e85f026-66bf-4c13-b476-3aca9e28b3b6
 ms.date: 12/05/2018
 ms.keywords: GetLeakRate, GetLeakRate method [Microsoft TV Technologies], GetLeakRate method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetLeakRate method, IIsdbDownloadContentDescriptor.GetLeakRate, IIsdbDownloadContentDescriptor::GetLeakRate, dvbsiparser/IIsdbDownloadContentDescriptor::GetLeakRate, mstv.iisdbdownloadcontentdescriptor_getleakrate
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbDownloadContentDescriptor.GetLeakRate
 dev_langs:

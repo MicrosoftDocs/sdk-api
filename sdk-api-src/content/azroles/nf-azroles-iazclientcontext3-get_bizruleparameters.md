@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 161f8a84-ee00-4f39-9997-a1e3d1c5b7a8
 ms.date: 12/05/2018
 ms.keywords: BizRuleParameters property [Security], BizRuleParameters property [Security],IAzClientContext3 interface, IAzClientContext3 interface [Security],BizRuleParameters property, IAzClientContext3.BizRuleParameters, IAzClientContext3.get_BizRuleParameters, IAzClientContext3::BizRuleParameters, IAzClientContext3::get_BizRuleParameters, azroles/IAzClientContext3::BizRuleParameters, azroles/IAzClientContext3::get_BizRuleParameters, get_BizRuleParameters, security.iazclientcontext3_bizruleparameters_method
-ms.topic: method
 f1_keywords:
 - azroles/IAzClientContext3.BizRuleParameters
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 306cfc34-7cb2-4f60-af5c-8b567149c2fc
 ms.date: 12/05/2018
 ms.keywords: PathIsUNCServerShare, PathIsUNCServerShare function [Windows Shell], PathIsUNCServerShareA, PathIsUNCServerShareW, _win32_PathIsUNCServerShare, shell.PathIsUNCServerShare, shlwapi/PathIsUNCServerShare, shlwapi/PathIsUNCServerShareA, shlwapi/PathIsUNCServerShareW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathIsUNCServerShare
 dev_langs:

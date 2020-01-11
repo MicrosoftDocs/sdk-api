@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 5bf0ae2e-504b-471b-bfc9-aa48f534e03f
 ms.date: 12/05/2018
 ms.keywords: IAMWMBufferPassCallback, IAMWMBufferPassCallback interface [windows Media Format], IAMWMBufferPassCallback interface [windows Media Format],described, IAMWMBufferPassCallbackInterface, dshowasf/IAMWMBufferPassCallback, wmformat.iamwmbufferpasscallback
-ms.topic: interface
 f1_keywords:
 - dshowasf/IAMWMBufferPassCallback
 dev_langs:

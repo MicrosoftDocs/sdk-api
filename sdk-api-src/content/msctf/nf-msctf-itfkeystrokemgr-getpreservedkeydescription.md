@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 5ae2b56f-0dd9-4f37-a677-20b53c7200c7
 ms.date: 12/05/2018
 ms.keywords: GetPreservedKeyDescription, GetPreservedKeyDescription method [Text Services Framework], GetPreservedKeyDescription method [Text Services Framework],ITfKeystrokeMgr interface, ITfKeystrokeMgr interface [Text Services Framework],GetPreservedKeyDescription method, ITfKeystrokeMgr.GetPreservedKeyDescription, ITfKeystrokeMgr::GetPreservedKeyDescription, _tsf_itfkeystrokemgr_getpreservedkeydescription_ref, msctf/ITfKeystrokeMgr::GetPreservedKeyDescription, tsf.itfkeystrokemgr_getpreservedkeydescription
-ms.topic: method
 f1_keywords:
 - msctf/ITfKeystrokeMgr.GetPreservedKeyDescription
 dev_langs:

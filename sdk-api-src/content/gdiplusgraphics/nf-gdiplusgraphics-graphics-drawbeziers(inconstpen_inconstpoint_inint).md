@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawbeziersmethods\drawbeziers.htm
 ms.date: 12/05/2018
 ms.keywords: DrawBeziers, DrawBeziers method [GDI+], DrawBeziers method [GDI+],Graphics class, Graphics class [GDI+],DrawBeziers method, Graphics.DrawBeziers, Graphics.DrawBeziers(IN const Pen,IN const Point,IN INT), Graphics.DrawBeziers(const Pen*,const Point*,INT), Graphics::DrawBeziers, Graphics::DrawBeziers(IN const Pen,IN const Point,IN INT), _gdiplus_CLASS_Graphics_DrawBeziers_Pen_pen_Point_points_INT_count_, gdiplus._gdiplus_CLASS_Graphics_DrawBeziers_Pen_pen_Point_points_INT_count_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.DrawBeziers
 dev_langs:

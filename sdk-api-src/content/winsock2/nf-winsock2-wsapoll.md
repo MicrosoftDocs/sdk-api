@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 3f6f872c-5cee-49f3-bf22-2e8a5d147987
 ms.date: 12/05/2018
 ms.keywords: WSAPoll, WSAPoll function [Winsock], mswsock/WSAPoll, winsock.wsapoll
-ms.topic: function
 f1_keywords:
 - winsock2/WSAPoll
 dev_langs:

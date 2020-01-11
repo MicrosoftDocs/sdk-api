@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: 8641e9e6-e251-4bf9-935a-f8888705f9a1
 ms.date: 12/05/2018
 ms.keywords: '*pMediaLabelInfo, MediaLabelInfo, MediaLabelInfo structure [Files], _zaw_medialabelinfo, base.medialabelinfo, fs.medialabelinfo, ntmsmli/MediaLabelInfo'
-ms.topic: struct
 f1_keywords:
 - ntmsmli/MediaLabelInfo
 dev_langs:

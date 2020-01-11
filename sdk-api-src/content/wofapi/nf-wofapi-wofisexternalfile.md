@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 9E06B486-B9F9-4B9B-B164-E3954FB87B8D
 ms.date: 12/05/2018
 ms.keywords: WofIsExternalFile, WofIsExternalFile function [Files], fs.wofisexternalfile, wofapi/WofIsExternalFile
-ms.topic: function
 f1_keywords:
 - wofapi/WofIsExternalFile
 dev_langs:

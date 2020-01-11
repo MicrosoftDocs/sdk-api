@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: B4433D0F-7938-4C6D-994F-D99393EC013A
 ms.date: 12/05/2018
 ms.keywords: '*PBTH_LE_GATT_SERVICE, BTH_LE_GATT_SERVICE, BTH_LE_GATT_SERVICE structure [Bluetooth Devices], PBTH_LE_GATT_SERVICE, PBTH_LE_GATT_SERVICE structure pointer [Bluetooth Devices], bltooth.bth_le_gatt_service, bthledef/BTH_LE_GATT_SERVICE, bthledef/PBTH_LE_GATT_SERVICE'
-ms.topic: struct
 f1_keywords:
 - bthledef/BTH_LE_GATT_SERVICE
 dev_langs:

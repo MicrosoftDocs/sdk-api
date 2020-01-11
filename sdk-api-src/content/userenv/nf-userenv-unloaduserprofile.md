@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7ecb8a3f-c041-4133-b23a-101de8884882
 ms.date: 12/05/2018
 ms.keywords: UnloadUserProfile, UnloadUserProfile function [Windows Shell], _shell_UnloadUserProfile, shell.UnloadUserProfile, userenv/UnloadUserProfile
-ms.topic: function
 f1_keywords:
 - userenv/UnloadUserProfile
 dev_langs:

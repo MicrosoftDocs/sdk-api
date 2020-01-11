@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 5e51a747-0b77-4ba3-b03c-217a3f81a0aa
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfRanges interface, IEnumTfRanges interface [Text Services Framework],Clone method, IEnumTfRanges.Clone, IEnumTfRanges::Clone, _tsf_ienumtfranges_clone_ref, msctf/IEnumTfRanges::Clone, tsf.ienumtfranges_clone
-ms.topic: method
 f1_keywords:
 - msctf/IEnumTfRanges.Clone
 dev_langs:

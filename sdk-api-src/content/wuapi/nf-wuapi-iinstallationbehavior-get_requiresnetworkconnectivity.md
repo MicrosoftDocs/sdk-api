@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: d74dd93a-17ba-4293-a146-19c86a8dfdf8
 ms.date: 12/05/2018
 ms.keywords: IInstallationBehavior interface [Windows Update Agent],RequiresNetworkConnectivity property, IInstallationBehavior.RequiresNetworkConnectivity, IInstallationBehavior.get_RequiresNetworkConnectivity, IInstallationBehavior::RequiresNetworkConnectivity, IInstallationBehavior::get_RequiresNetworkConnectivity, RequiresNetworkConnectivity property [Windows Update Agent], RequiresNetworkConnectivity property [Windows Update Agent],IInstallationBehavior interface, get_RequiresNetworkConnectivity, wua.iinstallationbehavior_requiresnetworkconnectivity, wuapi/IInstallationBehavior::RequiresNetworkConnectivity, wuapi/IInstallationBehavior::get_RequiresNetworkConnectivity
-ms.topic: method
 f1_keywords:
 - wuapi/IInstallationBehavior.RequiresNetworkConnectivity
 dev_langs:

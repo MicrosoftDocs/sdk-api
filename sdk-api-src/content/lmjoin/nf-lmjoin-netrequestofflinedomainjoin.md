@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: f3f8fe00-d6f7-4d59-a4e7-6aef7f507e1a
 ms.date: 12/05/2018
 ms.keywords: NETSETUP_PROVISION_ONLINE_CALLER, NetRequestOfflineDomainJoin, NetRequestOfflineDomainJoin function [Network Management], lmjoin/NetRequestOfflineDomainJoin, netmgmt.netrequestofflinedomainjoin
-ms.topic: function
 f1_keywords:
 - lmjoin/NetRequestOfflineDomainJoin
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b79e64e1-4b0f-4111-ae25-54891f743c01
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_WhiteBalance method, IVideoProcAmp.put_WhiteBalance, IVideoProcAmp::put_WhiteBalance, IVideoProcAmpput_WhiteBalance, dshow.ivideoprocamp_put_whitebalance, put_WhiteBalance, put_WhiteBalance method [DirectShow], put_WhiteBalance method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_WhiteBalance
-ms.topic: method
 f1_keywords:
 - vidcap/IVideoProcAmp.put_WhiteBalance
 dev_langs:

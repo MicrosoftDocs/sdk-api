@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 1fc11447-3125-4853-bba6-2784e69d033e
 ms.date: 12/05/2018
 ms.keywords: GetRightSeparator, GetRightSeparator function [Tablet PC], recapis/GetRightSeparator, tablet.getrightseparator
-ms.topic: function
 f1_keywords:
 - recapis/GetRightSeparator
 dev_langs:

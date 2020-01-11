@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 046eb6be-ac7c-4cf8-82e8-f58d9d826682
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay interface [Tablet PC],SetEventInterest method, IInkOverlay.SetEventInterest, IInkOverlay::SetEventInterest, SetEventInterest, SetEventInterest method [Tablet PC], SetEventInterest method [Tablet PC],IInkOverlay interface, df25efbb-5229-4211-948f-3a213154a967, msinkaut/IInkOverlay::SetEventInterest, tablet.inkoverlay_seteventinterest
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkOverlay.SetEventInterest
 dev_langs:

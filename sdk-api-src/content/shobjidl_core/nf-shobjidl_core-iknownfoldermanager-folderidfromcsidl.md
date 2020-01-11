@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8c819558-8cbd-4576-98e6-99efa39ca5a6
 ms.date: 12/05/2018
 ms.keywords: FolderIdFromCsidl, FolderIdFromCsidl method [Windows Shell], FolderIdFromCsidl method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],FolderIdFromCsidl method, IKnownFolderManager.FolderIdFromCsidl, IKnownFolderManager::FolderIdFromCsidl, _shell_IKnownFolderManager_FolderIdFromCsidl, shell.IKnownFolderManager_FolderIdFromCsidl, shobjidl_core/IKnownFolderManager::FolderIdFromCsidl
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IKnownFolderManager.FolderIdFromCsidl
 dev_langs:

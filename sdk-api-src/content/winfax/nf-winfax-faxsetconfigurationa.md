@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8iwe.htm
 ms.date: 12/05/2018
 ms.keywords: FaxSetConfiguration, FaxSetConfiguration function [Fax Service], FaxSetConfigurationA, FaxSetConfigurationW, _mfax_faxsetconfiguration, fax._mfax_faxsetconfiguration, winfax/FaxSetConfiguration, winfax/FaxSetConfigurationA, winfax/FaxSetConfigurationW
-ms.topic: function
 f1_keywords:
 - winfax/FaxSetConfiguration
 dev_langs:

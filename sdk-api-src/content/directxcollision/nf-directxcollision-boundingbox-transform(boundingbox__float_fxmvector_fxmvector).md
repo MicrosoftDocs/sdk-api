@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.Transform(BoundingBox@,float,XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: BoundingBox interface [DirectX Math Support APIs],Transform method, BoundingBox.Transform, BoundingBox.Transform(BoundingBox &,float,FXMVECTOR,FXMVECTOR), BoundingBox.Transform(BoundingBox&,float,XMVECTOR,XMVECTOR), BoundingBox::Transform, BoundingBox::Transform(BoundingBox &,float,FXMVECTOR,FXMVECTOR), Transform, Transform method [DirectX Math Support APIs], Transform method [DirectX Math Support APIs],BoundingBox interface, dxmath.boundingbox_transform_1
-ms.topic: method
 f1_keywords:
 - directxcollision/BoundingBox.Transform
 dev_langs:

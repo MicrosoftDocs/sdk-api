@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 91970f8b-2b19-4054-8aa2-28e1ea74b3f6
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumePlex, IVdsVolumePlex interface [VDS], IVdsVolumePlex interface [VDS],described, base.ivdsvolumeplex, vds/IVdsVolumePlex
-ms.topic: interface
 f1_keywords:
 - vds/IVdsVolumePlex
 dev_langs:

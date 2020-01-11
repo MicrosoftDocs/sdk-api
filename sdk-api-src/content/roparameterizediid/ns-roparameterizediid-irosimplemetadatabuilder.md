@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 031B9F9B-FF77-4524-87B7-D786459569C3
 ms.date: 12/05/2018
 ms.keywords: IRoSimpleMetaDataBuilder, IRoSimpleMetaDataBuilder structure [Windows Runtime], roparameterizediid/IRoSimpleMetaDataBuilder, winrt.irosimplemetadatabuilder_struct
-ms.topic: struct
 f1_keywords:
 - roparameterizediid/IRoSimpleMetaDataBuilder
 dev_langs:

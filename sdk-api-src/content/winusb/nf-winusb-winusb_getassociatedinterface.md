@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 1afc7b2f-4fb6-4ab4-8415-aaee9cd6ee0c
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetAssociatedInterface, WinUsb_GetAssociatedInterface function [Buses], buses.winusb_getassociatedinterface, winusb/WinUsb_GetAssociatedInterface, winusbfunc_22b6f592-12ca-433e-b7a1-885eebf60386.xml
-ms.topic: function
 f1_keywords:
 - winusb/WinUsb_GetAssociatedInterface
 dev_langs:

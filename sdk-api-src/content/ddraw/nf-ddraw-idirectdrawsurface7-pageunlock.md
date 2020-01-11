@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 1a87df37-a53f-4240-a5cb-47b13999c34b
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],PageUnlock method, IDirectDrawSurface7.PageUnlock, IDirectDrawSurface7::PageUnlock, PageUnlock, PageUnlock method [DirectDraw], PageUnlock method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::PageUnlock, directdraw.idirectdrawsurface7_pageunlock
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawSurface7.PageUnlock
 dev_langs:

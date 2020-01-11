@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: a79f75c5-be98-4120-85be-71bedbcc0ea2
 ms.date: 12/05/2018
 ms.keywords: TOC_DESCRIPTOR, TOC_DESCRIPTOR structure [Media Foundation], codecapi.toc_descriptor, mf.toc_descriptor, wmcodecdsp/TOC_DESCRIPTOR
-ms.topic: struct
 f1_keywords:
 - wmcodecdsp/TOC_DESCRIPTOR
 dev_langs:

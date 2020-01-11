@@ -3,7 +3,6 @@ UID: NF:shlobj_core.ILLoadFromStreamEx~r2
 title: ILLoadFromStreamEx
 ms.date: 01/30/19
 ms.keywords: ILLoadFromStreamEx
-ms.topic: language-reference
 f1_keywords:
 - shlobj_core/ILLoadFromStreamEx
 dev_langs:

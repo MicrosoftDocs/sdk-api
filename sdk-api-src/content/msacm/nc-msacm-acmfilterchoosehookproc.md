@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 974bdf53-cd1e-433b-9d49-8dfc20254ebf
 ms.date: 12/05/2018
 ms.keywords: _win32_acmFilterChooseHookProc, acmFilterChooseHookProc, acmFilterChooseHookProc callback, acmFilterChooseHookProc callback function [Windows Multimedia], msacm/acmFilterChooseHookProc, multimedia.acmfilterchoosehookproc
-ms.topic: callback
 f1_keywords:
 - msacm/acmFilterChooseHookProc
 dev_langs:

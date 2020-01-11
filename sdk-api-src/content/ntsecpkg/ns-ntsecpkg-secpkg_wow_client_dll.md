@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: AA48B271-E63F-4742-9776-6C85ED3A2BAB
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_WOW_CLIENT_DLL, PSECPKG_WOW_CLIENT_DLL, PSECPKG_WOW_CLIENT_DLL structure pointer [Security], SECPKG_WOW_CLIENT_DLL, SECPKG_WOW_CLIENT_DLL structure [Security], ntsecpkg/PSECPKG_WOW_CLIENT_DLL, ntsecpkg/SECPKG_WOW_CLIENT_DLL, security.secpkg_wow_client_dll'
-ms.topic: struct
 f1_keywords:
 - ntsecpkg/SECPKG_WOW_CLIENT_DLL
 dev_langs:

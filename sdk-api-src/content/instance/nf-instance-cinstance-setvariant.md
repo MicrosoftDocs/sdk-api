@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 45201e64-2ecc-4a18-9f41-2392dfe50caf
 ms.date: 12/05/2018
 ms.keywords: ?SetVariant@CInstance@@QAE_NPBGABUtagVARIANT@@@Z, CInstance interface [Windows Management Instrumentation],SetVariant method, CInstance.SetVariant, CInstance::SetVariant, SetVariant, SetVariant method [Windows Management Instrumentation], SetVariant method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setvariant, instance/CInstance::SetVariant, wmi.cinstance_setvariant
-ms.topic: method
 f1_keywords:
 - instance/CInstance.SetVariant
 dev_langs:

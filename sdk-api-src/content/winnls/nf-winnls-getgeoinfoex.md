@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 05BF6434-A80F-4BF5-9A43-C4D65E72F43B
 ms.date: 12/05/2018
 ms.keywords: GetGeoInfoEx, GetGeoInfoEx function [Internationalization for Windows Applications], intl.getgeoinfoex, winnls/GetGeoInfoEx
-ms.topic: function
 f1_keywords:
 - winnls/GetGeoInfoEx
 dev_langs:

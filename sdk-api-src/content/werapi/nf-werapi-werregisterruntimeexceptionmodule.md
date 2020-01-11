@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: b0fb2c0d-cc98-43cc-a508-e80545377b7f
 ms.date: 12/05/2018
 ms.keywords: WerRegisterRuntimeExceptionModule, WerRegisterRuntimeExceptionModule function [Windows Error Reporting], wer.werregisterruntimeexceptionmodule, werapi/WerRegisterRuntimeExceptionModule
-ms.topic: function
 f1_keywords:
 - werapi/WerRegisterRuntimeExceptionModule
 dev_langs:

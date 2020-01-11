@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 132b1cdc-6fb5-43b1-a5de-3b25c361e8e1
 ms.date: 12/05/2018
 ms.keywords: IADsContainer interface [ADSI],MoveHere method, IADsContainer.MoveHere, IADsContainer::MoveHere, MoveHere, MoveHere method [ADSI], MoveHere method [ADSI],IADsContainer interface, _ds_iadscontainer_movehere, adsi.iadscontainer__movehere, adsi.iadscontainer_movehere, iads/IADsContainer::MoveHere
-ms.topic: method
 f1_keywords:
 - iads/IADsContainer.MoveHere
 dev_langs:

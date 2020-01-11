@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: BEB1CBF0-05FB-4D48-AC43-AA957F2208DB
 ms.date: 12/05/2018
 ms.keywords: CF_PLATFORM_INFO, CF_PLATFORM_INFO structure, cfapi/CF_PLATFORM_INFO, cloudApi.cf_platform_info
-ms.topic: struct
 f1_keywords:
 - cfapi/CF_PLATFORM_INFO
 dev_langs:

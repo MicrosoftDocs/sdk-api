@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: e6453a70-2a11-4f01-adc1-67346a5856b2
 ms.date: 12/05/2018
 ms.keywords: WlanUIEditProfile, WlanUIEditProfile function [NativeWIFI], nwifi.wlanuieditprofile, wlanapi/WlanUIEditProfile
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanUIEditProfile
 dev_langs:

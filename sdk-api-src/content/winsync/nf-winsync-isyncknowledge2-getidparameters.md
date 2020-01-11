@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: dbb049b8-cd2c-49f3-a9f9-0d76da0b3824
 ms.date: 12/05/2018
 ms.keywords: GetIdParameters, GetIdParameters method [Windows Sync], GetIdParameters method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetIdParameters method, ISyncKnowledge2.GetIdParameters, ISyncKnowledge2::GetIdParameters, winsync.isyncknowledge2_getidparameters, winsync/ISyncKnowledge2::GetIdParameters
-ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge2.GetIdParameters
 dev_langs:

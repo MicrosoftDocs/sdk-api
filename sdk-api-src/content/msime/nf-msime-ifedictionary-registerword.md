@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: CD79FBF5-E540-4B5C-A398-B7FE95F86701
 ms.date: 12/05/2018
 ms.keywords: IFED_REG_DEL, IFED_REG_HEAD, IFED_REG_TAIL, IFEDictionary interface [Internationalization for Windows Applications],RegisterWord method, IFEDictionary.RegisterWord, IFEDictionary::RegisterWord, RegisterWord, RegisterWord method [Internationalization for Windows Applications], RegisterWord method [Internationalization for Windows Applications],IFEDictionary interface, intl.ifedictionary_registerword, msime/IFEDictionary::RegisterWord
-ms.topic: method
 f1_keywords:
 - msime/IFEDictionary.RegisterWord
 dev_langs:

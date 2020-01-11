@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 11ab6f15-1f16-42f9-9d7f-f0e51c83cba3
 ms.date: 12/05/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_DefaultPreferredComponentTypes method, ITuningSpace.put_DefaultPreferredComponentTypes, ITuningSpace::put_DefaultPreferredComponentTypes, ITuningSpaceput_DefaultPreferredComponentTypes, mstv.ituningspace_put_defaultpreferredcomponenttypes, put_DefaultPreferredComponentTypes, put_DefaultPreferredComponentTypes method [Microsoft TV Technologies], put_DefaultPreferredComponentTypes method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_DefaultPreferredComponentTypes
-ms.topic: method
 f1_keywords:
 - tuner/ITuningSpace.put_DefaultPreferredComponentTypes
 dev_langs:

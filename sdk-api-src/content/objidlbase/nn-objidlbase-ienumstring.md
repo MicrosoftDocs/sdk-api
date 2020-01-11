@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 7f3e642a-17c7-4646-8c70-da6b0946a415
 ms.date: 12/05/2018
 ms.keywords: IEnumString, IEnumString interface [COM], IEnumString interface [COM],described, _com_ienumstring, com.ienumstring, objidlbase/IEnumString
-ms.topic: interface
 f1_keywords:
 - objidlbase/IEnumString
 dev_langs:

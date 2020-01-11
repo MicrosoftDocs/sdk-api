@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 165eb8eb-092c-4084-a296-abc2421596d5
 ms.date: 12/05/2018
 ms.keywords: GetChangeBatch, GetChangeBatch method [Windows Sync], GetChangeBatch method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],GetChangeBatch method, IKnowledgeSyncProvider.GetChangeBatch, IKnowledgeSyncProvider::GetChangeBatch, winsync.iknowledgesyncprovider_getchangebatch, winsync/IKnowledgeSyncProvider::GetChangeBatch
-ms.topic: method
 f1_keywords:
 - winsync/IKnowledgeSyncProvider.GetChangeBatch
 dev_langs:

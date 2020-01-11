@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 531b4a4a-a251-4ab4-b00a-754783a51283
 ms.date: 12/05/2018
 ms.keywords: TlsSetValue, TlsSetValue function, _win32_tlssetvalue, base.tlssetvalue, processthreadsapi/TlsSetValue, winbase/TlsSetValue
-ms.topic: function
 f1_keywords:
 - processthreadsapi/TlsSetValue
 dev_langs:

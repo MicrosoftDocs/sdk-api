@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 79198de8-548a-4d9a-ae07-d421babe8700
 ms.date: 12/05/2018
 ms.keywords: CanRegisterWithAU property [Windows Update Agent], CanRegisterWithAU property [Windows Update Agent],IUpdateService interface, IUpdateService interface [Windows Update Agent],CanRegisterWithAU property, IUpdateService.CanRegisterWithAU, IUpdateService.get_CanRegisterWithAU, IUpdateService::CanRegisterWithAU, IUpdateService::get_CanRegisterWithAU, get_CanRegisterWithAU, wua.iupdateservice_canregisterwithau, wuapi/IUpdateService::CanRegisterWithAU, wuapi/IUpdateService::get_CanRegisterWithAU
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateService.CanRegisterWithAU
 dev_langs:

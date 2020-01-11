@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 5C0C9E9C-F332-4F4E-A3F0-423A302AC6FC
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetGreenDisable method, IDCompositionLinearTransferEffect.SetGreenDisable, IDCompositionLinearTransferEffect::SetGreenDisable, SetGreenDisable, SetGreenDisable method [DirectComposition], SetGreenDisable method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetGreenDisable, directcomp.idcompositionlineartransfereffect_setgreendisable
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionLinearTransferEffect.SetGreenDisable
 dev_langs:

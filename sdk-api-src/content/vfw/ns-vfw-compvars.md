@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: b34378cb-ccf0-4d97-a952-1966999e3f65
 ms.date: 12/05/2018
 ms.keywords: '*PCOMPVARS, COMPVARS, COMPVARS structure [Windows Multimedia], ICMF_COMPVARS_VALID, _win32_COMPVARS_str, multimedia.compvars, vfw/COMPVARS'
-ms.topic: struct
 f1_keywords:
 - vfw/COMPVARS
 dev_langs:

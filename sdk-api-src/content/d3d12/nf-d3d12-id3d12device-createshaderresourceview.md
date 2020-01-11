@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 4FD7082D-2DA9-469E-BA74-6735D407D5FE
 ms.date: 12/05/2018
 ms.keywords: CreateShaderResourceView, CreateShaderResourceView method, CreateShaderResourceView method,ID3D12Device interface, ID3D12Device interface,CreateShaderResourceView method, ID3D12Device.CreateShaderResourceView, ID3D12Device::CreateShaderResourceView, d3d12/ID3D12Device::CreateShaderResourceView, direct3d12.id3d12device_createshaderresourceview
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device.CreateShaderResourceView
 dev_langs:

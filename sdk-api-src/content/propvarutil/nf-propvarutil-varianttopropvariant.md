@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: b321d0a5-310a-4a64-8f39-4487602fbd3f
 ms.date: 12/05/2018
 ms.keywords: VariantToPropVariant, VariantToPropVariant function [Windows Properties], properties.VariantToPropVariant, propvarutil/VariantToPropVariant, shell.VariantToPropVariant, shell_VariantToPropVariant
-ms.topic: function
 f1_keywords:
 - propvarutil/VariantToPropVariant
 dev_langs:

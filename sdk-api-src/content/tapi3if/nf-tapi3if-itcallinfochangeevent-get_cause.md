@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: c49a5624-8867-46c0-acf6-5e60667fc969
 ms.date: 12/05/2018
 ms.keywords: ITCallInfoChangeEvent interface [TAPI 2.2],get_Cause method, ITCallInfoChangeEvent.get_Cause, ITCallInfoChangeEvent::get_Cause, _tapi3_itcallinfochangeevent_get_cause, get_Cause, get_Cause method [TAPI 2.2], get_Cause method [TAPI 2.2],ITCallInfoChangeEvent interface, tapi3.itcallinfochangeevent_get_cause, tapi3if/ITCallInfoChangeEvent::get_Cause
-ms.topic: method
 f1_keywords:
 - tapi3if/ITCallInfoChangeEvent.get_Cause
 dev_langs:

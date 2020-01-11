@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 30a4009c-5da0-4a07-9d4b-7c9047fb6dd8
 ms.date: 12/05/2018
 ms.keywords: IVMRVideoStreamControl interface [DirectShow],SetColorKey method, IVMRVideoStreamControl.SetColorKey, IVMRVideoStreamControl::SetColorKey, IVMRVideoStreamControlSetColorKey, SetColorKey, SetColorKey method [DirectShow], SetColorKey method [DirectShow],IVMRVideoStreamControl interface, dshow.ivmrvideostreamcontrol_setcolorkey, strmif/IVMRVideoStreamControl::SetColorKey
-ms.topic: method
 f1_keywords:
 - strmif/IVMRVideoStreamControl.SetColorKey
 dev_langs:

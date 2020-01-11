@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: A6F253AD-0756-4996-AC6C-5B09C55DE22E
 ms.date: 12/05/2018
 ms.keywords: IndexedResourceQualifier, IndexedResourceQualifier structure [Menus and Other Resources], menurc.indexedresourcequalifier, resourceindexer/IndexedResourceQualifier
-ms.topic: struct
 f1_keywords:
 - resourceindexer/IndexedResourceQualifier
 dev_langs:

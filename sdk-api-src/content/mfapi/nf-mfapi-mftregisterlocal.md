@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 802f7083-e224-4e5c-8a35-3e93da0cbd91
 ms.date: 12/05/2018
 ms.keywords: MFTRegisterLocal, MFTRegisterLocal function [Media Foundation], mf.mftregisterlocal, mfapi/MFTRegisterLocal
-ms.topic: function
 f1_keywords:
 - mfapi/MFTRegisterLocal
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 5D986C99-BB7D-4A46-A147-E907F1031E92
 ms.date: 12/05/2018
 ms.keywords: DrawGdiMetafile, DrawGdiMetafile method [Direct2D], DrawGdiMetafile method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],DrawGdiMetafile method, ID2D1CommandSink.DrawGdiMetafile, ID2D1CommandSink::DrawGdiMetafile, d2d1_1/ID2D1CommandSink::DrawGdiMetafile, direct2d.id2d1commandsink_drawmetafile
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1CommandSink.DrawGdiMetafile
 dev_langs:

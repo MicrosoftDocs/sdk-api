@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\imetadata\imetadata.htm
 ms.date: 12/05/2018
 ms.keywords: IMetaData, IMetaData interface [search], IMetaData interface [search],described, _search_IMetaData, search._search_IMetaData, structuredquery/IMetaData
-ms.topic: interface
 f1_keywords:
 - structuredquery/IMetaData
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 7763a879-a558-463d-837b-e38e6f84b9f7
 ms.date: 12/05/2018
 ms.keywords: ITfTextEditSink interface [Text Services Framework],OnEndEdit method, ITfTextEditSink.OnEndEdit, ITfTextEditSink::OnEndEdit, OnEndEdit, OnEndEdit method [Text Services Framework], OnEndEdit method [Text Services Framework],ITfTextEditSink interface, _tsf_itftexteditsink_onendedit_ref, msctf/ITfTextEditSink::OnEndEdit, tsf.itftexteditsink_onendedit
-ms.topic: method
 f1_keywords:
 - msctf/ITfTextEditSink.OnEndEdit
 dev_langs:

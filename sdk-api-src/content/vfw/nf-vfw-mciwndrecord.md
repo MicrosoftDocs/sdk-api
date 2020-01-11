@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 9f68f258-6e7d-45f0-8b42-93a03d559c04
 ms.date: 12/05/2018
 ms.keywords: MCIWndRecord, MCIWndRecord macro [Windows Multimedia], _win32_MCIWndRecord, multimedia.mciwndrecord, vfw/MCIWndRecord
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndRecord
 dev_langs:

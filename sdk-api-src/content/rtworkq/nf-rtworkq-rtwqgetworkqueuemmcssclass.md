@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 1fea099d-33cd-4edd-aa6c-026a0e3478e3
 ms.date: 12/05/2018
 ms.keywords: RtwqGetWorkQueueMMCSSClass, RtwqGetWorkQueueMMCSSClass function, base.rtwqgetworkqueuemmcssclass, rtworkq/RtwqGetWorkQueueMMCSSClass
-ms.topic: function
 f1_keywords:
 - rtworkq/RtwqGetWorkQueueMMCSSClass
 dev_langs:

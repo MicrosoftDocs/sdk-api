@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_2qjp.htm
 ms.date: 12/05/2018
 ms.keywords: CI_STATE, CI_STATE structure [Indexing Service], _idxs_CI_STATE, indexsrv.ci_state, ntquery/CI_STATE
-ms.topic: struct
 f1_keywords:
 - ntquery/CI_STATE
 dev_langs:

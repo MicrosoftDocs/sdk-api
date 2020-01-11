@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: da5413b7-adf4-4a3d-893f-f51441460541
 ms.date: 12/05/2018
 ms.keywords: IMbnRegistration, IMbnRegistration interface [Microsoft Broadband Networks], IMbnRegistration interface [Microsoft Broadband Networks],described, mbn.imbnregistration, mbnapi/IMbnRegistration
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnRegistration
 dev_langs:

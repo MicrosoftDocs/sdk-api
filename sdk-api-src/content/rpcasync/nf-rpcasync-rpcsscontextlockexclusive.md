@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 7ef2376b-da25-4e4b-8a25-0913d680945f
 ms.date: 12/05/2018
 ms.keywords: RpcSsContextLockExclusive, RpcSsContextLockExclusive function [RPC], _rpc_rpcsscontextlockexclusive, rpc.rpcsscontextlockexclusive, rpcasync/RpcSsContextLockExclusive
-ms.topic: function
 f1_keywords:
 - rpcasync/RpcSsContextLockExclusive
 dev_langs:

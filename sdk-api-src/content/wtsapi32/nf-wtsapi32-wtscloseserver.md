@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 092a6107-21bf-40a7-9fe7-f069eb0c89ca
 ms.date: 12/05/2018
 ms.keywords: WTSCloseServer, WTSCloseServer function [Remote Desktop Services], _win32_wtscloseserver, termserv.wtscloseserver, wtsapi32/WTSCloseServer
-ms.topic: function
 f1_keywords:
 - wtsapi32/WTSCloseServer
 dev_langs:

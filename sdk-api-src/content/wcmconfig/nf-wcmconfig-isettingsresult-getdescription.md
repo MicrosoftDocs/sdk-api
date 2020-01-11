@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: d020bd46-8967-4105-856d-ee448b527852
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [SMI], GetDescription method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetDescription method, ISettingsResult.GetDescription, ISettingsResult::GetDescription, smi.isettingsresult_getdescription, wcmconfig/ISettingsResult::GetDescription
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsResult.GetDescription
 dev_langs:

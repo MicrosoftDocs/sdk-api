@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: a6cd7421-5173-4edb-b752-5fbc44bac6dc
 ms.date: 12/05/2018
 ms.keywords: BeginCommitVariants, BeginCommitVariants method [COM+], BeginCommitVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],BeginCommitVariants method, ICrmCompensatorVariants.BeginCommitVariants, ICrmCompensatorVariants::BeginCommitVariants, _dtc_ICrmCompensatorVariants_BeginCommitVariants, comsvcs/ICrmCompensatorVariants::BeginCommitVariants, cos.icrmcompensatorvariants_begincommitvariants
-ms.topic: method
 f1_keywords:
 - comsvcs/ICrmCompensatorVariants.BeginCommitVariants
 dev_langs:

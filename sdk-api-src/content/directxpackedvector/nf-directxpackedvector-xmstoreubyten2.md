@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreUByteN2(XMUBYTEN2@,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreUByteN2, XMStoreUByteN2, XMStoreUByteN2 method [DirectX Math Support APIs], dxmath.xmstoreubyten2
-ms.topic: function
 f1_keywords:
 - directxpackedvector/XMStoreUByteN2
 dev_langs:

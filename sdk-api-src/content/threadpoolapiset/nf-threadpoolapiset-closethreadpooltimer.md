@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: c1270c5d-a1f5-4481-a343-c1ff3301a56e
 ms.date: 12/05/2018
 ms.keywords: CloseThreadpoolTimer, CloseThreadpoolTimer function, base.closethreadpooltimer, threadpoolapiset/CloseThreadpoolTimer, winbase/CloseThreadpoolTimer
-ms.topic: function
 f1_keywords:
 - threadpoolapiset/CloseThreadpoolTimer
 dev_langs:

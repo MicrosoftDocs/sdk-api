@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: f296a583-3af2-4165-8b3a-0b47eba8e89d
 ms.date: 12/05/2018
 ms.keywords: PropVariantCompare, PropVariantCompare function [Windows Properties], _shell_PropVariantCompare, properties.PropVariantCompare, propvarutil/PropVariantCompare, shell.PropVariantCompare
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantCompare
 dev_langs:

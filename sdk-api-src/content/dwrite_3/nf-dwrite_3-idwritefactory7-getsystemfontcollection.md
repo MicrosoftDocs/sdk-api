@@ -5,7 +5,6 @@ description: Retrieves a collection of fonts, grouped into families.
 tech.root: DirectWrite
 ms.date: 09/12/2019
 ms.keywords: IDWriteFactory7 interface [Direct Write],GetSystemFontCollection method, IDWriteFactory7.GetSystemFontCollection, IDWriteFactory7::GetSystemFontCollection, GetSystemFontCollection, GetSystemFontCollection method [Direct Write], GetSystemFontCollection method [Direct Write],IDWriteFactory7 interface, directwrite.idwritefactory7_getsystemfontcollection, dwrite_3/IDWriteFactory7::GetSystemFontCollection
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFactory7.GetSystemFontCollection
 dev_langs:

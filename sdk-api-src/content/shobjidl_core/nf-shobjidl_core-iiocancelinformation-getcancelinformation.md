@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 201537b5-1866-4df6-a51d-3f07c18fe0c8
 ms.date: 12/05/2018
 ms.keywords: GetCancelInformation, GetCancelInformation method [Windows Shell], GetCancelInformation method [Windows Shell],IIOCancelInformation interface, IIOCancelInformation interface [Windows Shell],GetCancelInformation method, IIOCancelInformation.GetCancelInformation, IIOCancelInformation::GetCancelInformation, _shell_IIOCancelInformation_GetCancelInformation, shell.IIOCancelInformation_GetCancelInformation, shobjidl_core/IIOCancelInformation::GetCancelInformation
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IIOCancelInformation.GetCancelInformation
 dev_langs:

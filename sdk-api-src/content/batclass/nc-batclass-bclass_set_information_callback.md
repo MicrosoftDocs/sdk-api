@@ -7,7 +7,6 @@ tech.root: battery
 ms.assetid: ebfcabb7-7447-486d-b980-7cb5456332f4
 ms.date: 12/05/2018
 ms.keywords: BCLASS_SET_INFORMATION_CALLBACK, BCLASS_SET_INFORMATION_CALLBACK callback, BatteryMiniSetInformation, BatteryMiniSetInformation callback function [Battery Devices], bat-mini_abc151e1-9d35-4b39-b1e8-576503335d3b.xml, batclass/BatteryMiniSetInformation, battery.batteryminisetinformation
-ms.topic: callback
 f1_keywords:
 - batclass/BatteryMiniSetInformation
 dev_langs:

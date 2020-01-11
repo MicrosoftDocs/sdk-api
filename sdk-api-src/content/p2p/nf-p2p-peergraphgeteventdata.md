@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: b64bb920-3fbc-4927-a1b1-39c99850bdd5
 ms.date: 12/05/2018
 ms.keywords: PeerGraphGetEventData, PeerGraphGetEventData function [Peer Networking], p2p.peergraphgeteventdata, p2p/PeerGraphGetEventData
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphGetEventData
 dev_langs:

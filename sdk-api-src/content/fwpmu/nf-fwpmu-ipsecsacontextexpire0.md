@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 7e249e61-ba40-4dd9-b675-c3c86e8dd1bf
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextExpire0, IPsecSaContextExpire0 function [Filtering], fwp.ipsecsacontextexpire0, fwpmu/IPsecSaContextExpire0
-ms.topic: function
 f1_keywords:
 - fwpmu/IPsecSaContextExpire0
 dev_langs:

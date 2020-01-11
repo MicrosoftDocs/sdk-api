@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 96fd8910-6cc7-460c-9f63-3363fbbae0b1
 ms.date: 12/05/2018
 ms.keywords: VirtualChannelClose, VirtualChannelClose callback, VirtualChannelClose callback function [Remote Desktop Services], _win32_virtualchannelclose, cchannel/VirtualChannelClose, termserv.virtualchannelclose
-ms.topic: callback
 f1_keywords:
 - cchannel/VirtualChannelClose
 dev_langs:

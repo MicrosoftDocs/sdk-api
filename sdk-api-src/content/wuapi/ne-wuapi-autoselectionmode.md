@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 847fd8a3-eb00-43f7-a89f-579cd79d0620
 ms.date: 12/05/2018
 ms.keywords: AutoSelectionMode, AutoSelectionMode enumeration [Windows Update Agent], asAlwaysAutoSelect, asAutoSelectIfDownloaded, asLetWindowsUpdateDecide, asNeverAutoSelect, wua.autoselectionmode, wuapi/AutoSelectionMode, wuapi/asAlwaysAutoSelect, wuapi/asAutoSelectIfDownloaded, wuapi/asLetWindowsUpdateDecide, wuapi/asNeverAutoSelect
-ms.topic: enum
 f1_keywords:
 - wuapi/AutoSelectionMode
 dev_langs:

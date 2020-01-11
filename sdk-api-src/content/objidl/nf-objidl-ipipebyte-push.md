@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 7dd672d3-22ef-4786-85e0-d5c2ebabaea2
 ms.date: 12/05/2018
 ms.keywords: IPipeByte interface [COM],Push method, IPipeByte.Push, IPipeByte::Push, Push, Push method [COM], Push method [COM],IPipeByte interface, _com_ipipebyte_push, com.ipipebyte_push, objidlbase/IPipeByte::Push
-ms.topic: method
 f1_keywords:
 - objidl/IPipeByte.Push
 dev_langs:

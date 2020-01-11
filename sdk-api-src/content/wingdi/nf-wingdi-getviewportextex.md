@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: e3fc188a-3796-497d-9d86-f116e9e48e30
 ms.date: 12/05/2018
 ms.keywords: GetViewportExtEx, GetViewportExtEx function [Windows GDI], _win32_GetViewportExtEx, gdi.getviewportextex, wingdi/GetViewportExtEx
-ms.topic: function
 f1_keywords:
 - wingdi/GetViewportExtEx
 dev_langs:

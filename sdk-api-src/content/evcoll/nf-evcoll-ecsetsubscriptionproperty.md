@@ -7,7 +7,6 @@ tech.root: WEC
 ms.assetid: acba54af-d09d-4de9-bd5d-e7441bf56b9b
 ms.date: 12/05/2018
 ms.keywords: EcSetSubscriptionProperty, EcSetSubscriptionProperty function, evcoll/EcSetSubscriptionProperty, wec.ecsetsubscriptionproperty, wes.ecsetsubscriptionproperty
-ms.topic: function
 f1_keywords:
 - evcoll/EcSetSubscriptionProperty
 dev_langs:

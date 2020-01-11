@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 386761e8-9234-4541-b593-ce8e323714bf
 ms.date: 12/05/2018
 ms.keywords: ICGetStateSize, ICGetStateSize macro [Windows Multimedia], _win32_ICGetStateSize, multimedia.icgetstatesize, vfw/ICGetStateSize
-ms.topic: macro
 f1_keywords:
 - vfw/ICGetStateSize
 dev_langs:

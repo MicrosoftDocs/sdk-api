@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9e68b09c-534c-46d2-bda0-72f3d1d86b66
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],VideoModePreferrence method, IDvdControl.VideoModePreferrence, IDvdControl::VideoModePreferrence, IDvdControlVideoModePreferrence, VideoModePreferrence, VideoModePreferrence method [DirectShow], VideoModePreferrence method [DirectShow],IDvdControl interface, dshow.idvdcontrol_videomodepreferrence, strmif/IDvdControl::VideoModePreferrence
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.VideoModePreferrence
 dev_langs:

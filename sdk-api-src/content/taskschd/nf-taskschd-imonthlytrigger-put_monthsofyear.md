@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: e587ea75-ecf9-40d0-82c2-c1325bac72fc
 ms.date: 12/05/2018
 ms.keywords: IMonthlyTrigger interface [Task Scheduler],MonthsOfYear property, IMonthlyTrigger.MonthsOfYear, IMonthlyTrigger.put_MonthsOfYear, IMonthlyTrigger::MonthsOfYear, IMonthlyTrigger::get_MonthsOfYear, IMonthlyTrigger::put_MonthsOfYear, MonthsOfYear property [Task Scheduler], MonthsOfYear property [Task Scheduler],IMonthlyTrigger interface, put_MonthsOfYear, taskschd.imonthlytrigger_monthsofyear, taskschd/IMonthlyTrigger::MonthsOfYear, taskschd/IMonthlyTrigger::get_MonthsOfYear, taskschd/IMonthlyTrigger::put_MonthsOfYear
-ms.topic: method
 f1_keywords:
 - taskschd/IMonthlyTrigger.MonthsOfYear
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 146855a2-97ec-4e71-88dc-316eaa1a24a0
 ms.date: 12/05/2018
 ms.keywords: CoSwitchCallContext, CoSwitchCallContext function [COM], _com_CoSwitchCallContext, com.coswitchcallcontext, combaseapi/CoSwitchCallContext
-ms.topic: function
 f1_keywords:
 - combaseapi/CoSwitchCallContext
 dev_langs:

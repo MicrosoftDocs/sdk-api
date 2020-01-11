@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 0d700648-b5fe-46f6-9d27-e2601fe88d71
 ms.date: 12/05/2018
 ms.keywords: CSC_COMTIIntrinsicsConfig, CSC_COMTIIntrinsicsConfig enumeration [COM+], CSC_InheritCOMTIIntrinsics, CSC_NoCOMTIIntrinsics, _cos_CSC_COMTIIntrinsicsConfig, comsvcs/CSC_COMTIIntrinsicsConfig, comsvcs/CSC_InheritCOMTIIntrinsics, comsvcs/CSC_NoCOMTIIntrinsics, cos.csc_comtiintrinsicsconfig
-ms.topic: enum
 f1_keywords:
 - comsvcs/CSC_COMTIIntrinsicsConfig
 dev_langs:

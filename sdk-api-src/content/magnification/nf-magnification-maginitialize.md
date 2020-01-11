@@ -7,7 +7,6 @@ tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maginitialize.htm
 ms.date: 12/05/2018
 ms.keywords: MagInitialize, MagInitialize function [Magnification API], magapi.magapi_MagInitialize, magapi_MagInitialize, magnification/MagInitialize
-ms.topic: function
 f1_keywords:
 - magnification/MagInitialize
 dev_langs:

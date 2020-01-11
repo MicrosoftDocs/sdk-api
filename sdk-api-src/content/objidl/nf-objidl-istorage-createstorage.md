@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 8c74cacf-8d3c-4d57-b1e9-dc5e4f281717
 ms.date: 12/05/2018
 ms.keywords: CreateStorage, CreateStorage method [Structured Storage], CreateStorage method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],CreateStorage method, IStorage.CreateStorage, IStorage::CreateStorage, _stg_istorage_createstorage, objidl/IStorage::CreateStorage, stg.istorage_createstorage
-ms.topic: method
 f1_keywords:
 - objidl/IStorage.CreateStorage
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 514359d4-595d-4cac-a784-527b65b53137
 ms.date: 12/05/2018
 ms.keywords: GetPropertyOccurrenceCount, GetPropertyOccurrenceCount method [Direct Write], GetPropertyOccurrenceCount method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],GetPropertyOccurrenceCount method, IDWriteFontSet.GetPropertyOccurrenceCount, IDWriteFontSet::GetPropertyOccurrenceCount, directwrite.idwritefontset_getpropertyoccurrencecount, dwrite_3/IDWriteFontSet::GetPropertyOccurrenceCount
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontSet.GetPropertyOccurrenceCount
 dev_langs:

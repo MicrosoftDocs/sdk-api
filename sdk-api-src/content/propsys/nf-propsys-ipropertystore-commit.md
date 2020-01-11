@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: a3cc6815-a16f-45e7-a2d5-8f354f712170
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit (IPropertyStore), Commit method [Audio Devices], Commit method [Audio Devices],IPropertyStore interface, IPropertyStore interface [Audio Devices],Commit method, IPropertyStore.Commit, IPropertyStore::Commit, audio.ipropertystore_commit, audio_syseffects_r_65453880-01ab-4b73-b766-bb1daeb863ba.xml, propsys/IPropertyStore::Commit
-ms.topic: method
 f1_keywords:
 - propsys/IPropertyStore.Commit
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: netshell
 ms.assetid: b2a3ae40-4aaa-41b2-965c-1467a07ab2de
 ms.date: 12/05/2018
 ms.keywords: '*PNS_HELPER_ATTRIBUTES, NS_HELPER_ATTRIBUTES, NS_HELPER_ATTRIBUTES structure [NetShell], PNS_HELPER_ATTRIBUTES, PNS_HELPER_ATTRIBUTES structure pointer [NetShell], _netsh_ns_helper_attributes, netsh/NS_HELPER_ATTRIBUTES, netsh/PNS_HELPER_ATTRIBUTES, netshell.ns_helper_attributes'
-ms.topic: struct
 f1_keywords:
 - netsh/NS_HELPER_ATTRIBUTES
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b02683ec-9bf9-4a69-87fb-d37a98f02e61
 ms.date: 12/05/2018
 ms.keywords: FALSE, TRUE, VMRVideoDesc, VMRVideoDesc structure [DirectShow], VMRVideoDescStructure, dshow.vmrvideodesc, strmif/VMRVideoDesc
-ms.topic: struct
 f1_keywords:
 - strmif/VMRVideoDesc
 dev_langs:

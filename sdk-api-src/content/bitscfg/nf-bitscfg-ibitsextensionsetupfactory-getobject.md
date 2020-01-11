@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: ac0bb9d5-3f1f-4c9b-bd7d-905e0451bf70
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [BITS], GetObject method [BITS],IBITSExtensionSetupFactory interface, IBITSExtensionSetupFactory interface [BITS],GetObject method, IBITSExtensionSetupFactory.GetObject, IBITSExtensionSetupFactory::GetObject, _drz_ibitsextensionsetupfactory_getobject, bits.ibitsextensionsetupfactory_getobject, bitscfg/IBITSExtensionSetupFactory::GetObject
-ms.topic: method
 f1_keywords:
 - bitscfg/IBITSExtensionSetupFactory.GetObject
 dev_langs:

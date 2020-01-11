@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getmonthdelta.htm
 ms.date: 12/05/2018
 ms.keywords: MonthCal_GetMonthDelta, MonthCal_GetMonthDelta macro [Windows Controls], _win32_MonthCal_GetMonthDelta, _win32_MonthCal_GetMonthDelta_cpp, commctrl/MonthCal_GetMonthDelta, controls.MonthCal_GetMonthDelta, controls._win32_MonthCal_GetMonthDelta
-ms.topic: macro
 f1_keywords:
 - commctrl/MonthCal_GetMonthDelta
 dev_langs:

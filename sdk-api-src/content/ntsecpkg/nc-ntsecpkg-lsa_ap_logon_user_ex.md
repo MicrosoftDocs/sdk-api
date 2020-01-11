@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 7778292a-7062-4f49-b4a9-6784e5e4ccd7
 ms.date: 12/05/2018
 ms.keywords: LSA_AP_LOGON_USER_EX, LSA_AP_LOGON_USER_EX callback, LsaApLogonUserEx, LsaApLogonUserEx callback function [Security], STATUS_ACCOUNT_DISABLED, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_PASSWORD_EXPIRED, _lsa_lsaaplogonuserex, ntsecpkg/LsaApLogonUserEx, security.lsaaplogonuserex
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/LsaApLogonUserEx
 dev_langs:

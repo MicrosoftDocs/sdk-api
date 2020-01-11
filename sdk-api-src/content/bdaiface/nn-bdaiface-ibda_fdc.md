@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 8b7a07fd-99e9-4f8e-9211-109689f2f892
 ms.date: 12/05/2018
 ms.keywords: IBDA_FDC, IBDA_FDC interface [Microsoft TV Technologies], IBDA_FDC interface [Microsoft TV Technologies],described, bdaiface/IBDA_FDC, mstv.ibda_fdc
-ms.topic: interface
 f1_keywords:
 - bdaiface/IBDA_FDC
 dev_langs:

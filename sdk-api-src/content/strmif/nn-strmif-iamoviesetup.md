@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b200dbee-bab7-43d7-a204-751592fa2405
 ms.date: 12/05/2018
 ms.keywords: IAMovieSetup, IAMovieSetup interface [DirectShow], IAMovieSetup interface [DirectShow],described, IAMovieSetupInterface, dshow.iamoviesetup, strmif/IAMovieSetup
-ms.topic: interface
 f1_keywords:
 - strmif/IAMovieSetup
 dev_langs:

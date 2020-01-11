@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 976A7F78-1801-47DD-9350-21F530B4D145
 ms.date: 12/05/2018
 ms.keywords: ID3D12MetaCommand, ID3D12MetaCommand interface, ID3D12MetaCommand interface,described, d3d12/ID3D12MetaCommand, direct3d12.id3d12metacommand
-ms.topic: interface
 f1_keywords:
 - d3d12/ID3D12MetaCommand
 dev_langs:

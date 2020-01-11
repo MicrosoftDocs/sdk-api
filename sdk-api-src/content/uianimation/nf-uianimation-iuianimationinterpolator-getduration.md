@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: c39acf72-7c03-4d8b-b4f2-776e4b32f781
 ms.date: 12/05/2018
 ms.keywords: GetDuration, GetDuration method [Windows Animation], GetDuration method [Windows Animation],IUIAnimationInterpolator interface, IUIAnimationInterpolator interface [Windows Animation],GetDuration method, IUIAnimationInterpolator.GetDuration, IUIAnimationInterpolator::GetDuration, uianimation.iuianimationinterpolator_getduration, uianimation/IUIAnimationInterpolator::GetDuration
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationInterpolator.GetDuration
 dev_langs:

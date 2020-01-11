@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 97F46974-9B20-46C6-B742-4BA5C60491DA
 ms.date: 12/05/2018
 ms.keywords: DeleteUrlCacheContainer, DeleteUrlCacheContainer function [WinINet], DeleteUrlCacheContainerA, DeleteUrlCacheContainerW, wininet.deleteurlcachecontainer, winineti/DeleteUrlCacheContainer, winineti/DeleteUrlCacheContainerA, winineti/DeleteUrlCacheContainerW
-ms.topic: function
 f1_keywords:
 - winineti/DeleteUrlCacheContainer
 dev_langs:

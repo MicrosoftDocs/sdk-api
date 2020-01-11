@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: cdb8af74-540d-4059-ac64-6243f6aabaa6
 ms.date: 12/05/2018
 ms.keywords: SetTokenInformation, SetTokenInformation function [Security], _win32_settokeninformation, security.settokeninformation, securitybaseapi/SetTokenInformation
-ms.topic: function
 f1_keywords:
 - securitybaseapi/SetTokenInformation
 dev_langs:

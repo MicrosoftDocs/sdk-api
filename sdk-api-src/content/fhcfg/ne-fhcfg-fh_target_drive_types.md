@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 4D3F3B57-BD6E-4334-8DF6-ECD317A051EC
 ms.date: 12/05/2018
 ms.keywords: FH_DRIVE_FIXED, FH_DRIVE_REMOTE, FH_DRIVE_REMOVABLE, FH_DRIVE_UNKNOWN, FH_TARGET_DRIVE_TYPES, FH_TARGET_DRIVE_TYPES enumeration [Windows API], fhcfg/FH_DRIVE_FIXED, fhcfg/FH_DRIVE_REMOTE, fhcfg/FH_DRIVE_REMOVABLE, fhcfg/FH_DRIVE_UNKNOWN, fhcfg/FH_TARGET_DRIVE_TYPES, winprog.fh_target_drive_types
-ms.topic: enum
 f1_keywords:
 - fhcfg/FH_TARGET_DRIVE_TYPES
 dev_langs:

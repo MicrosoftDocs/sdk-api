@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 93dba50a-c2a5-468d-851a-c43cd986d3ef
 ms.date: 12/05/2018
 ms.keywords: GetRecordEITPresentFollowingFlag, GetRecordEITPresentFollowingFlag method [Microsoft TV Technologies], GetRecordEITPresentFollowingFlag method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetRecordEITPresentFollowingFlag method, IDVB_SDT.GetRecordEITPresentFollowingFlag, IDVB_SDT::GetRecordEITPresentFollowingFlag, IDVB_SDTGetRecordEITPresentFollowingFlag, dvbsiparser/IDVB_SDT::GetRecordEITPresentFollowingFlag, mstv.idvb_sdt_getrecordeitpresentfollowingflag
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_SDT.GetRecordEITPresentFollowingFlag
 dev_langs:

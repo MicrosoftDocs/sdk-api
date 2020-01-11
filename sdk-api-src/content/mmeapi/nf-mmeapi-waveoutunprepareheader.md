@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 4e68886d-278e-401b-9709-f745c69934d4
 ms.date: 12/05/2018
 ms.keywords: _win32_waveOutUnprepareHeader, mmeapi/waveOutUnprepareHeader, multimedia.waveoutunprepareheader, waveOutUnprepareHeader, waveOutUnprepareHeader function [Windows Multimedia]
-ms.topic: function
 f1_keywords:
 - mmeapi/waveOutUnprepareHeader
 dev_langs:

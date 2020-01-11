@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: aa17e059-6208-4348-87f3-556a3818f2b9
 ms.date: 12/05/2018
 ms.keywords: IXpsPrintJob, IXpsPrintJob interface [Windows GDI], IXpsPrintJob interface [Windows GDI],described, gdi.ixpsprintjob, xpsprint/IXpsPrintJob
-ms.topic: interface
 f1_keywords:
 - xpsprint/IXpsPrintJob
 dev_langs:

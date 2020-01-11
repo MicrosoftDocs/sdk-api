@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 5932E338-AB0E-4D1E-9B7E-36E2D5A76B18
 ms.date: 12/05/2018
 ms.keywords: GetFrameCount, GetFrameCount method [Core Audio], GetFrameCount method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetFrameCount method, ISpatialAudioMetadataItems.GetFrameCount, ISpatialAudioMetadataItems::GetFrameCount, coreaudio.ispatialaudiometadataitems_getframecount, spatialaudiometadata/ISpatialAudioMetadataItems::GetFrameCount
-ms.topic: method
 f1_keywords:
 - spatialaudiometadata/ISpatialAudioMetadataItems.GetFrameCount
 dev_langs:

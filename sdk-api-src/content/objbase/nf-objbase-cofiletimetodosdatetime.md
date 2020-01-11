@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 38670fe7-10cf-44e2-a5f1-60ec43fd83b5
 ms.date: 12/05/2018
 ms.keywords: CoFileTimeToDosDateTime, CoFileTimeToDosDateTime function [COM], _com_CoFileTimeToDosDateTime, com.cofiletimetodosdatetime, objbase/CoFileTimeToDosDateTime
-ms.topic: function
 f1_keywords:
 - objbase/CoFileTimeToDosDateTime
 dev_langs:

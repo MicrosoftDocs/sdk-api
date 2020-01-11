@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 3c4a0d8b-75a5-4729-8c64-476c36d01a90
 ms.date: 12/05/2018
 ms.keywords: CloseEnhMetaFile, CloseEnhMetaFile function [Windows GDI], _win32_CloseEnhMetaFile, gdi.closeenhmetafile, wingdi/CloseEnhMetaFile
-ms.topic: function
 f1_keywords:
 - wingdi/CloseEnhMetaFile
 dev_langs:

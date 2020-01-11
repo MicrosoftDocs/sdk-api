@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 158e9569-b535-4744-ba12-c8a09f3e8491
 ms.date: 12/05/2018
 ms.keywords: GetMulticastMode, GetMulticastMode method [Microsoft TV Technologies], GetMulticastMode method [Microsoft TV Technologies],IBDA_IPV6Filter interface, IBDA_IPV6Filter interface [Microsoft TV Technologies],GetMulticastMode method, IBDA_IPV6Filter.GetMulticastMode, IBDA_IPV6Filter::GetMulticastMode, IBDA_IPV6FilterGetMulticastMode, bdaiface/IBDA_IPV6Filter::GetMulticastMode, mstv.ibda_ipv6filter_getmulticastmode
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_IPV6Filter.GetMulticastMode
 dev_langs:

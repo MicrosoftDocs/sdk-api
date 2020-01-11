@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 747ee8e6-aafa-42ec-9183-a5a4a2603fc0
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_AUTH_CIPHER_PAIR_LIST, PWLAN_AUTH_CIPHER_PAIR_LIST, PWLAN_AUTH_CIPHER_PAIR_LIST structure pointer [NativeWIFI], WLAN_AUTH_CIPHER_PAIR_LIST, WLAN_AUTH_CIPHER_PAIR_LIST structure [NativeWIFI], nwifi.wlan_auth_cipher_pair_list, wlanapi/PWLAN_AUTH_CIPHER_PAIR_LIST, wlanapi/WLAN_AUTH_CIPHER_PAIR_LIST'
-ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_AUTH_CIPHER_PAIR_LIST
 dev_langs:

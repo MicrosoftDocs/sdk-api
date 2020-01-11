@@ -7,7 +7,6 @@ tech.root: proc_snap
 ms.assetid: 5D062AE6-2F7C-4121-AB6E-9BFA06AB36C6
 ms.date: 12/05/2018
 ms.keywords: PssFreeSnapshot, PssFreeSnapshot function, proc_snap.pssfreesnapshot, processsnapshot/PssFreeSnapshot
-ms.topic: function
 f1_keywords:
 - processsnapshot/PssFreeSnapshot
 dev_langs:

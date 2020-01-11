@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 9e5a8f2c-4115-42bd-a541-d0ce75c45b72
 ms.date: 12/05/2018
 ms.keywords: ICrmCompensator, ICrmCompensator interface [COM+], ICrmCompensator interface [COM+],described, _dtc_ICrmCompensator_Interface, comsvcs/ICrmCompensator, cos.icrmcompensator
-ms.topic: interface
 f1_keywords:
 - comsvcs/ICrmCompensator
 dev_langs:

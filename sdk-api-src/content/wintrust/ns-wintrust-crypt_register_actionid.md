@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 0b2b482f-f087-4be7-b17f-91c287c3460d
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_REGISTER_ACTIONID, CRYPT_REGISTER_ACTIONID, CRYPT_REGISTER_ACTIONID structure [Security], PCRYPT_REGISTER_ACTIONID, PCRYPT_REGISTER_ACTIONID structure pointer [Security], security.crypt_register_actionid, wintrust/CRYPT_REGISTER_ACTIONID, wintrust/PCRYPT_REGISTER_ACTIONID'
-ms.topic: struct
 f1_keywords:
 - wintrust/CRYPT_REGISTER_ACTIONID
 dev_langs:

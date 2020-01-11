@@ -7,7 +7,6 @@ tech.root: hidpi
 ms.assetid: BD16F545-54A1-479A-BA4B-F54834043EB2
 ms.date: 12/05/2018
 ms.keywords: GetWindowDpiHostingBehavior, GetWindowDpiHostingBehavior function [High DPI], hidpi.getwindowdpihostingbehavior, winuser/GetWindowDpiHostingBehavior
-ms.topic: function
 f1_keywords:
 - winuser/GetWindowDpiHostingBehavior
 dev_langs:

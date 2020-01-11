@@ -7,7 +7,6 @@ tech.root: WebSock
 ms.assetid: fcfa67cf-9121-4f65-bba9-31ebca1291bd
 ms.date: 12/05/2018
 ms.keywords: WebSocketAbortHandle, WebSocketAbortHandle function [Websocket Protocol Component API], websock.websocketaborthandle, websocket/WebSocketAbortHandle
-ms.topic: function
 f1_keywords:
 - websocket/WebSocketAbortHandle
 dev_langs:

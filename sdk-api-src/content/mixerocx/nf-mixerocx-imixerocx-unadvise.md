@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9c2837c6-ee0f-45f4-b98a-9b8957e75b48
 ms.date: 12/05/2018
 ms.keywords: IMixerOCX interface [DirectShow],UnAdvise method, IMixerOCX.UnAdvise, IMixerOCX::UnAdvise, IMixerOCXUnAdvise, UnAdvise, UnAdvise method [DirectShow], UnAdvise method [DirectShow],IMixerOCX interface, dshow.imixerocx_unadvise, mixerocx/IMixerOCX::UnAdvise
-ms.topic: method
 f1_keywords:
 - mixerocx/IMixerOCX.UnAdvise
 dev_langs:

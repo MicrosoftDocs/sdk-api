@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectrendertargetviewvariable.htm
 ms.date: 12/05/2018
 ms.keywords: 9f15e11c-b222-431b-7b07-10de10ab1438, ID3D10EffectRenderTargetViewVariable, ID3D10EffectRenderTargetViewVariable interface [Direct3D 10], ID3D10EffectRenderTargetViewVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectRenderTargetViewVariable, direct3d10.id3d10effectrendertargetviewvariable
-ms.topic: interface
 f1_keywords:
 - d3d10effect/ID3D10EffectRenderTargetViewVariable
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: a03a6da4-d286-487e-a292-8a02626325a8
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Security], GetValue method [Security],IEnumCERTVIEWATTRIBUTE interface, IEnumCERTVIEWATTRIBUTE interface [Security],GetValue method, IEnumCERTVIEWATTRIBUTE.GetValue, IEnumCERTVIEWATTRIBUTE::GetValue, _certsrv_ienumcertviewattribute_getvalue, certview/IEnumCERTVIEWATTRIBUTE::GetValue, security.ienumcertviewattribute_getvalue
-ms.topic: method
 f1_keywords:
 - certview/IEnumCERTVIEWATTRIBUTE.GetValue
 dev_langs:

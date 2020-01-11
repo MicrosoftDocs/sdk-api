@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 437983a4-48a4-4b37-99ba-35fe1f03b3ec
 ms.date: 12/05/2018
 ms.keywords: DoTarget, DoTarget method [Remote Desktop Services], DoTarget method [Remote Desktop Services],IWTSProtocolShadowConnection interface, IWTSProtocolShadowConnection interface [Remote Desktop Services],DoTarget method, IWTSProtocolShadowConnection.DoTarget, IWTSProtocolShadowConnection::DoTarget, termserv.iwtsprotocolshadowconnection_dotarget, wtsprotocol/IWTSProtocolShadowConnection::DoTarget
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolShadowConnection.DoTarget
 dev_langs:

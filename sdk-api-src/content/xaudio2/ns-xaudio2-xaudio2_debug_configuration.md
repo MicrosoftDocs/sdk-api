@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_DEBUG_CONFIGURATION
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2_DEBUG_CONFIGURATION, XAUDIO2_DEBUG_CONFIGURATION structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_debug_configuration, xaudio2/XAUDIO2_DEBUG_CONFIGURATION
-ms.topic: struct
 f1_keywords:
 - xaudio2/XAUDIO2_DEBUG_CONFIGURATION
 dev_langs:

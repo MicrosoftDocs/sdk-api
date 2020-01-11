@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f13fd7f4-03b3-4e10-9fe8-b81470b37253
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify9 interface [DirectShow],SetD3DDevice method, IVMRSurfaceAllocatorNotify9.SetD3DDevice, IVMRSurfaceAllocatorNotify9::SetD3DDevice, IVMRSurfaceAllocatorNotify9SetD3DDevice, SetD3DDevice, SetD3DDevice method [DirectShow], SetD3DDevice method [DirectShow],IVMRSurfaceAllocatorNotify9 interface, dshow.ivmrsurfaceallocatornotify9_setd3ddevice, vmr9/IVMRSurfaceAllocatorNotify9::SetD3DDevice
-ms.topic: method
 f1_keywords:
 - vmr9/IVMRSurfaceAllocatorNotify9.SetD3DDevice
 dev_langs:

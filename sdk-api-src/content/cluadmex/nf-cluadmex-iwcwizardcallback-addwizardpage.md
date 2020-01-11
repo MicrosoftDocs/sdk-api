@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: e5ce7798-c1e6-47b6-a1bf-1262b3511b22
 ms.date: 12/05/2018
 ms.keywords: AddWizardPage, AddWizardPage method [Failover Cluster], AddWizardPage method [Failover Cluster],IWCWizardCallback interface, IWCWizardCallback interface [Failover Cluster],AddWizardPage method, IWCWizardCallback.AddWizardPage, IWCWizardCallback::AddWizardPage, _wolf_iwcwizardcallback_addwizardpage, cluadmex/IWCWizardCallback::AddWizardPage, mscs.iwcwizardcallback_addwizardpage
-ms.topic: method
 f1_keywords:
 - cluadmex/IWCWizardCallback.AddWizardPage
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 8c32f3f1-6a75-4f3f-96d3-1c84f6b20558
 ms.date: 12/05/2018
 ms.keywords: WS_XML_QNAME_TEXT, WS_XML_QNAME_TEXT structure [Web Services for Windows], webservices/WS_XML_QNAME_TEXT, wsw.ws_xml_qname_text
-ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_QNAME_TEXT
 dev_langs:

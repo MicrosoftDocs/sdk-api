@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 193786ad-751e-477d-8747-a38b43292648
 ms.date: 12/05/2018
 ms.keywords: EventDescGetChannel, EventDescGetChannel function [ETW], base.eventdescgetchannel_func, etw.eventdescgetchannel_func, evntprov/EventDescGetChannel
-ms.topic: function
 f1_keywords:
 - evntprov/EventDescGetChannel
 dev_langs:

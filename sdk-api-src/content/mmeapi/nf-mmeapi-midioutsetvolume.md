@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: a24ff9fa-06d1-4124-ab66-1cdcabacbc4c
 ms.date: 12/05/2018
 ms.keywords: _win32_midiOutSetVolume, midiOutSetVolume, midiOutSetVolume function [Windows Multimedia], mmeapi/midiOutSetVolume, multimedia.midioutsetvolume
-ms.topic: function
 f1_keywords:
 - mmeapi/midiOutSetVolume
 dev_langs:

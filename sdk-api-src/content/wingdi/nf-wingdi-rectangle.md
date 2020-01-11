@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: ed6b9824-1edc-4510-b9da-a4287845aa83
 ms.date: 12/05/2018
 ms.keywords: Rectangle, Rectangle function [Windows GDI], _win32_Rectangle, gdi.rectangle, wingdi/Rectangle
-ms.topic: function
 f1_keywords:
 - wingdi/Rectangle
 dev_langs:

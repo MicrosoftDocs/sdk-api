@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: b409a6fc-2cfd-491e-8f4c-f8567df7b08f
 ms.date: 12/05/2018
 ms.keywords: '*LPOPENCARDNAMEA, *POPENCARDNAMEA, LPOPENCARDNAME, LPOPENCARDNAME structure pointer [Security], OPENCARDNAME, OPENCARDNAME structure [Security], OPENCARDNAMEA, OPENCARDNAMEW, SC_DLG_FORCE_UI, SC_DLG_MINIMAL_UI, SC_DLG_NO_UI, _smart_opencardname, security.opencardname, winscard/LPOPENCARDNAME, winscard/OPENCARDNAME, winscard/OPENCARDNAMEA, winscard/OPENCARDNAMEW'
-ms.topic: struct
 f1_keywords:
 - winscard/OPENCARDNAME
 dev_langs:

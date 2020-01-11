@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 7a68713c-2de5-4944-a617-0b2d46c23eea
 ms.date: 12/05/2018
 ms.keywords: IResultDataCompare, IResultDataCompare interface [MMC], IResultDataCompare interface [MMC],described, _slate_iresultdatacompare, mmc.iresultdatacompare, mmc/IResultDataCompare
-ms.topic: interface
 f1_keywords:
 - mmc/IResultDataCompare
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 787A22DE-AEAB-4570-BB97-C49D656E5D40
 ms.date: 12/05/2018
 ms.keywords: IAgileObject, IAgileObject interface [COM], IAgileObject interface [COM],described, com.iagileobject, objidl/IAgileObject
-ms.topic: interface
 f1_keywords:
 - objidl/IAgileObject
 dev_langs:

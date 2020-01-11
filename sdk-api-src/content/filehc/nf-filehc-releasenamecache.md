@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 3abab799-4f55-40e4-9b2c-f40e92dc9af5
 ms.date: 12/05/2018
 ms.keywords: ReleaseNameCache, ReleaseNameCache function [Windows API], filehc/ReleaseNameCache, winprog._releasenamecache
-ms.topic: function
 f1_keywords:
 - filehc/ReleaseNameCache
 dev_langs:

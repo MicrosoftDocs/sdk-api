@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 6bf6e6c4-6268-479c-86a6-52e90cf317db
 ms.date: 12/05/2018
 ms.keywords: AF_APPLETALK, AF_BTH, AF_INET, AF_INET6, AF_IPX, AF_IRDA, AF_NETBIOS, AF_UNSPEC, BTHPROTO_RFCOMM, IPPROTO_ICMP, IPPROTO_ICMPV6, IPPROTO_IGMP, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, _win32_socket_2, socket, socket function [Winsock], winsock.socket_2, winsock2/socket
-ms.topic: function
 f1_keywords:
 - winsock2/socket
 dev_langs:

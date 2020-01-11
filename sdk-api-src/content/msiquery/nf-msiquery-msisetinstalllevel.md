@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 98f1d91d-632e-4dea-948f-2dc416b4d410
 ms.date: 12/05/2018
 ms.keywords: MsiSetInstallLevel, MsiSetInstallLevel function, _msi_msisetinstalllevel, msiquery/MsiSetInstallLevel, setup.msisetinstalllevel
-ms.topic: function
 f1_keywords:
 - msiquery/MsiSetInstallLevel
 dev_langs:

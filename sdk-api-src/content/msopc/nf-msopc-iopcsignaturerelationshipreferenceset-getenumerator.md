@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: a574a935-f89a-445f-a793-d8dc2e116a48
 ms.date: 12/05/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceSet interface, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],GetEnumerator method, IOpcSignatureRelationshipReferenceSet.GetEnumerator, IOpcSignatureRelationshipReferenceSet::GetEnumerator, msopc/IOpcSignatureRelationshipReferenceSet::GetEnumerator, opc.iopcsignaturerelationshipreferenceset_getenumerator
-ms.topic: method
 f1_keywords:
 - msopc/IOpcSignatureRelationshipReferenceSet.GetEnumerator
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: ea5c45d4-34c8-4d7c-a1b2-8f45574d9449
 ms.date: 12/05/2018
 ms.keywords: AddParameter, AddParameter method [Security], AddParameter method [Security],IAzBizRuleParameters interface, IAzBizRuleParameters interface [Security],AddParameter method, IAzBizRuleParameters.AddParameter, IAzBizRuleParameters::AddParameter, azroles/IAzBizRuleParameters::AddParameter, security.iazbizruleparameters_addparameter_method
-ms.topic: method
 f1_keywords:
 - azroles/IAzBizRuleParameters.AddParameter
 dev_langs:

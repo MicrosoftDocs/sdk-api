@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 23ADA8F5-9F44-45E6-88DC-852D8F62F03F
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAudioStream interface [RDP],Start method, IRDPSRAPIAudioStream.Start, IRDPSRAPIAudioStream::Start, Start, Start method [RDP], Start method [RDP],IRDPSRAPIAudioStream interface, rdp.irdpsrapiaudiostream_start, rdpencomapi/IRDPSRAPIAudioStream::Start
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPIAudioStream.Start
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f9f3eaf9-4afa-412f-aa8f-b75e787cfecb
 ms.date: 12/05/2018
 ms.keywords: IAMFilterMiscFlags, IAMFilterMiscFlags interface [DirectShow], IAMFilterMiscFlags interface [DirectShow],described, IAMFilterMiscFlagsInterface, dshow.iamfiltermiscflags, strmif/IAMFilterMiscFlags
-ms.topic: interface
 f1_keywords:
 - strmif/IAMFilterMiscFlags
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: C7687E52-433F-4E73-910D-86298E528F7B
 ms.date: 12/05/2018
 ms.keywords: Conclude, Conclude method [Windows Animation], Conclude method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],Conclude method, IUIAnimationStoryboard2.Conclude, IUIAnimationStoryboard2::Conclude, uianimation.iuianimationstoryboard2_conclude, uianimation/IUIAnimationStoryboard2::Conclude
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationStoryboard2.Conclude
 dev_langs:

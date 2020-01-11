@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 113c67b4-65d7-418d-9600-d1545e1cb0fb
 ms.date: 12/05/2018
 ms.keywords: SnmpSetPduData, SnmpSetPduData function [SNMP], _snmp_snmpsetpdudata, snmp.snmpsetpdudata, winsnmp/SnmpSetPduData
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpSetPduData
 dev_langs:

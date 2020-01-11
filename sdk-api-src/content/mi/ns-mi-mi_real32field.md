@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 817d23f9-cf93-4a19-b33b-713035fc6d96
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Real32Field, MI_Real32Field structure [Windows Management Infrastructure (MI)], mi/MI_Real32Field, wmi._mi_real32field, wmi_v2.mi_real32field
-ms.topic: struct
 f1_keywords:
 - mi/MI_Real32Field
 dev_langs:

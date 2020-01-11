@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 16c932a6-8def-4ff9-b531-03ebd011086a
 ms.date: 12/05/2018
 ms.keywords: CIShutdown, CIShutdown function [Windows Shell], _shell_CIShutdown, ntquery/CIShutdown, shell.CIShutdown
-ms.topic: function
 f1_keywords:
 - ntquery/CIShutdown
 dev_langs:

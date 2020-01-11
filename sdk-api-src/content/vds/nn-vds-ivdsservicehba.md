@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 0f3375fa-fc17-4808-ac29-a772a9c13850
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceHba, IVdsServiceHba interface [VDS], IVdsServiceHba interface [VDS],described, base.ivdsservicehba, vds/IVdsServiceHba
-ms.topic: interface
 f1_keywords:
 - vds/IVdsServiceHba
 dev_langs:

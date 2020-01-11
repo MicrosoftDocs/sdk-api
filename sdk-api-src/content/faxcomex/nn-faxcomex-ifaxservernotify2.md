@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxservernotify2\faxinto_z_ifaxservernotify2.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2, IFaxServerNotify2 interface [Fax Service], IFaxServerNotify2 interface [Fax Service],described, IIFaxServerNotify2, _mfax_ifaxservernotify2, fax._mfax_ifaxservernotify2, faxcomex/IFaxServerNotify2
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxServerNotify2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 85c8263b-e796-4748-b8e5-6315e5937861
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIWindow, IRDPSRAPIWindow interface [RDP], IRDPSRAPIWindow interface [RDP],described, rdp.irdpsrapiwindow, rdpencomapi/IRDPSRAPIWindow
-ms.topic: interface
 f1_keywords:
 - rdpencomapi/IRDPSRAPIWindow
 dev_langs:

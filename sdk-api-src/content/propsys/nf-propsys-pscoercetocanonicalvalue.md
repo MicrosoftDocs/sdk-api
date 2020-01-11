@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 8225dd01-47cc-451e-b6a6-c16ddf62ca20
 ms.date: 12/05/2018
 ms.keywords: PSCoerceToCanonicalValue, PSCoerceToCanonicalValue function [Windows Properties], _shell_PSCoerceToCanonicalValue, properties.PSCoerceToCanonicalValue, propsys/PSCoerceToCanonicalValue, shell.PSCoerceToCanonicalValue
-ms.topic: function
 f1_keywords:
 - propsys/PSCoerceToCanonicalValue
 dev_langs:

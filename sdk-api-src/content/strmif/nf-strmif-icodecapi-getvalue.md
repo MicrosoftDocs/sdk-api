@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 863ba518-c3c6-47d8-96d8-445a7e4d02aa
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [DirectShow], GetValue method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetValue method, ICodecAPI.GetValue, ICodecAPI::GetValue, ICodecAPIGetValue, dshow.icodecapi_getvalue, strmif/ICodecAPI::GetValue
-ms.topic: method
 f1_keywords:
 - strmif/ICodecAPI.GetValue
 dev_langs:

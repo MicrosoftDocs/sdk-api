@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.x3daudio.X3DAudioInitialize(UINT32,FLOAT32,X3DAUDIO_HANDLE@)
 ms.date: 12/05/2018
 ms.keywords: X3DAudioInitialize, X3DAudioInitialize function [XAudio2 Audio Mixing APIs], x3daudio/X3DAudioInitialize, xaudio2.x3daudioinitialize
-ms.topic: function
 f1_keywords:
 - x3daudio/X3DAudioInitialize
 dev_langs:

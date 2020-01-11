@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 4b000d0f-4ff1-4155-92be-b56793978b1f
 ms.date: 12/05/2018
 ms.keywords: '*PDD_SURFACE_MORE, DD_SURFACE_MORE, DD_SURFACE_MORE structure [Display Devices], PDD_SURFACE_MORE, PDD_SURFACE_MORE structure pointer [Display Devices], ddrawint/DD_SURFACE_MORE, ddrawint/PDD_SURFACE_MORE, ddstrcts_b86749f9-edbf-4e8b-ae17-27840ad4e5d5.xml, display.dd_surface_more'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_SURFACE_MORE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 6bb1e264-6141-4545-add5-e12f09769e25
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_SA_ROLE, IKEEXT_SA_ROLE enumeration [Filtering], IKEEXT_SA_ROLE_INITIATOR, IKEEXT_SA_ROLE_MAX, IKEEXT_SA_ROLE_RESPONDER, fwp.ikeext_sa_role, iketypes/IKEEXT_SA_ROLE, iketypes/IKEEXT_SA_ROLE_INITIATOR, iketypes/IKEEXT_SA_ROLE_MAX, iketypes/IKEEXT_SA_ROLE_RESPONDER
-ms.topic: enum
 f1_keywords:
 - iketypes/IKEEXT_SA_ROLE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: ae0fb86f-c567-4b85-abfe-7a035491e4fc
 ms.date: 12/05/2018
 ms.keywords: DecryptChallenge, DecryptChallenge method [Security], DecryptChallenge method [Security],ICertificateAttestationChallenge interface, ICertificateAttestationChallenge interface [Security],DecryptChallenge method, ICertificateAttestationChallenge.DecryptChallenge, ICertificateAttestationChallenge::DecryptChallenge, certenroll/ICertificateAttestationChallenge::DecryptChallenge, security.icertificateattestationchallenge_decryptchallenge
-ms.topic: method
 f1_keywords:
 - certenroll/ICertificateAttestationChallenge.DecryptChallenge
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 99a3e206-7d76-4773-956c-bbd101766392
 ms.date: 12/05/2018
 ms.keywords: PeerCollabSetObject, PeerCollabSetObject function [Peer Networking], p2p.peercollabsetobject, p2p/PeerCollabSetObject
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabSetObject
 dev_langs:

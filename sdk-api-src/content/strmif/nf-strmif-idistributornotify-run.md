@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d6a6595b-b243-41bf-bba9-6e35fa81116c
 ms.date: 12/05/2018
 ms.keywords: IDistributorNotify interface [DirectShow],Run method, IDistributorNotify.Run, IDistributorNotify::Run, IDistributorNotifyRun, Run, Run method [DirectShow], Run method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_run, strmif/IDistributorNotify::Run
-ms.topic: method
 f1_keywords:
 - strmif/IDistributorNotify.Run
 dev_langs:

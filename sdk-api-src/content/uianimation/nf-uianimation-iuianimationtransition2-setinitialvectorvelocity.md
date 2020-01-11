@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 29EFBBE0-E877-4521-B4A7-E1828E0493B9
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTransition2 interface [Windows Animation],SetInitialVectorVelocity method, IUIAnimationTransition2.SetInitialVectorVelocity, IUIAnimationTransition2::SetInitialVectorVelocity, SetInitialVectorVelocity, SetInitialVectorVelocity method [Windows Animation], SetInitialVectorVelocity method [Windows Animation],IUIAnimationTransition2 interface, uianimation.iuianimationtransition2_setinitialvectorvelocity, uianimation/IUIAnimationTransition2::SetInitialVectorVelocity
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationTransition2.SetInitialVectorVelocity
 dev_langs:

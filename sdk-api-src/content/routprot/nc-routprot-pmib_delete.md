@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 3097843e-ffa6-443a-9ee8-1034f3ed474a
 ms.date: 12/05/2018
 ms.keywords: MibDelete, MibDelete callback function [RAS], PMIB_DELETE, PMIB_DELETE callback, _mpr_mibdelete, routprot/MibDelete, rras.mibdelete
-ms.topic: callback
 f1_keywords:
 - routprot/MibDelete
 dev_langs:

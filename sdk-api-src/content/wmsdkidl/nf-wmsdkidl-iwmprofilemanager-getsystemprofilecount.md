@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 895fa99d-66a5-4f5f-82ce-394264a945f7
 ms.date: 12/05/2018
 ms.keywords: GetSystemProfileCount, GetSystemProfileCount method [windows Media Format], GetSystemProfileCount method [windows Media Format],IWMProfileManager interface, IWMProfileManager interface [windows Media Format],GetSystemProfileCount method, IWMProfileManager.GetSystemProfileCount, IWMProfileManager::GetSystemProfileCount, IWMProfileManagerGetSystemProfileCount, wmformat.iwmprofilemanager_getsystemprofilecount, wmsdkidl/IWMProfileManager::GetSystemProfileCount
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMProfileManager.GetSystemProfileCount
 dev_langs:

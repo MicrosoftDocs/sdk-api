@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c8e2545b-ea3c-441c-8721-e7dec09d100e
 ms.date: 12/05/2018
 ms.keywords: AdvisePeriodic, AdvisePeriodic method [DirectShow], AdvisePeriodic method [DirectShow],IReferenceClock interface, IReferenceClock interface [DirectShow],AdvisePeriodic method, IReferenceClock.AdvisePeriodic, IReferenceClock::AdvisePeriodic, IReferenceClockAdvisePeriodic, dshow.ireferenceclock_adviseperiodic, strmif/IReferenceClock::AdvisePeriodic
-ms.topic: method
 f1_keywords:
 - strmif/IReferenceClock.AdvisePeriodic
 dev_langs:

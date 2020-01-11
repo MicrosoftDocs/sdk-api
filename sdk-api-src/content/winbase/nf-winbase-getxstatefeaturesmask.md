@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: D9A8D0B6-21E3-46B7-AB88-CE2FF4025A17
 ms.date: 12/05/2018
 ms.keywords: GetXStateFeaturesMask, GetXStateFeaturesMask function, base.getxstatefeaturesmask, winbase/GetXStateFeaturesMask
-ms.topic: function
 f1_keywords:
 - winbase/GetXStateFeaturesMask
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 89abceae-1aed-401d-82ab-57215ec22d00
 ms.date: 12/05/2018
 ms.keywords: FreeIDListArrayChild, FreeIDListArrayChild function [Windows Shell], _shell_FreeIDListArrayChild, shell.FreeIDListArrayChild, shobjidl_core/FreeIDListArrayChild
-ms.topic: function
 f1_keywords:
 - shobjidl_core/FreeIDListArrayChild
 dev_langs:

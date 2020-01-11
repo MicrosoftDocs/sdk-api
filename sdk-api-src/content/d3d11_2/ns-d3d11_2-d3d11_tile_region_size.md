@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: D4A93462-9A2F-416A-9CC1-AC24DFF35890
 ms.date: 12/05/2018
 ms.keywords: D3D11_TILE_REGION_SIZE, D3D11_TILE_REGION_SIZE structure [Direct3D 11], d3d11_2/D3D11_TILE_REGION_SIZE, direct3d11.d3d11_tile_region_size
-ms.topic: struct
 f1_keywords:
 - d3d11_2/D3D11_TILE_REGION_SIZE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 98b9a05f-ff61-4c58-9c09-625077eb64ad
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],Initialize method, IDirectDrawSurface7.Initialize, IDirectDrawSurface7::Initialize, Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::Initialize, directdraw.idirectdrawsurface7_initialize
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawSurface7.Initialize
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: e5abe3e0-a07c-45e4-a590-133f6b30a7f7
 ms.date: 12/05/2018
 ms.keywords: IFunctionInstanceCollection interface,Remove method, IFunctionInstanceCollection.Remove, IFunctionInstanceCollection::Remove, Remove, Remove method, Remove method,IFunctionInstanceCollection interface, functiondiscoveryapi/IFunctionInstanceCollection::Remove, ncd.ifunctioninstancecollection_remove
-ms.topic: method
 f1_keywords:
 - functiondiscoveryapi/IFunctionInstanceCollection.Remove
 dev_langs:

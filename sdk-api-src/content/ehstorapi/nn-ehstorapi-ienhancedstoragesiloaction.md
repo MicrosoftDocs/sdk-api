@@ -7,7 +7,6 @@ tech.root: enstor
 ms.assetid: 6deb7e22-f153-45fd-98ea-53a2e5692df7
 ms.date: 12/05/2018
 ms.keywords: IEnhancedStorageSiloAction, IEnhancedStorageSiloAction interface [Enhanced Storage], IEnhancedStorageSiloAction interface [Enhanced Storage],described, ehstorapi/IEnhancedStorageSiloAction, enstor.ienhancedstoragesiloaction
-ms.topic: interface
 f1_keywords:
 - ehstorapi/IEnhancedStorageSiloAction
 dev_langs:

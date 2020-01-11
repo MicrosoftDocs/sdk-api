@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: D9557A6F-32C4-464F-8800-6E546808F100
 ms.date: 12/05/2018
 ms.keywords: WINBIO_ASYNC_NOTIFY_CALLBACK, WINBIO_ASYNC_NOTIFY_MESSAGE, WinBioAsyncOpenFramework, WinBioAsyncOpenFramework function [Windows Biometric Framework API], secbiomet.winbioasyncopenframework, winbio/WinBioAsyncOpenFramework
-ms.topic: function
 f1_keywords:
 - winbio/WinBioAsyncOpenFramework
 dev_langs:

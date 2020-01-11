@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ce73fff3-8d1a-4912-98ce-7149460ffa49
 ms.date: 12/05/2018
 ms.keywords: AppendKnownCategory, AppendKnownCategory method [Windows Shell], AppendKnownCategory method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],AppendKnownCategory method, ICustomDestinationList.AppendKnownCategory, ICustomDestinationList::AppendKnownCategory, KDC_FREQUENT, KDC_RECENT, _shell_ICustomDestinationList_AppendKnownCategory, shell.ICustomDestinationList_AppendKnownCategory, shobjidl_core/ICustomDestinationList::AppendKnownCategory
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ICustomDestinationList.AppendKnownCategory
 dev_langs:

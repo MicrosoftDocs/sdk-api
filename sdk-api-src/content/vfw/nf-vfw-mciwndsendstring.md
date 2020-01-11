@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: d73b087b-c697-470b-aa19-ca14d18ac430
 ms.date: 12/05/2018
 ms.keywords: MCIWndSendString, MCIWndSendString macro [Windows Multimedia], _win32_MCIWndSendString, multimedia.mciwndsendstring, vfw/MCIWndSendString
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndSendString
 dev_langs:

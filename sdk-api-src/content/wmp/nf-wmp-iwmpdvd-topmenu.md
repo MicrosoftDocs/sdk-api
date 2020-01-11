@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 5b96763f-a174-45df-b988-955f9619a4c1
 ms.date: 12/05/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],topMenu method, IWMPDVD.topMenu, IWMPDVD::topMenu, IWMPDVDtopMenu, topMenu, topMenu method [Windows Media Player], topMenu method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_topmenu, wmp/IWMPDVD::topMenu
-ms.topic: method
 f1_keywords:
 - wmp/IWMPDVD.topMenu
 dev_langs:

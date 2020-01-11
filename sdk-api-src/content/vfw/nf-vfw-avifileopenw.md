@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: a5d7b278-7c80-42a3-94a4-5c012ad9a9fd
 ms.date: 12/05/2018
 ms.keywords: AVIFileOpen, AVIFileOpen function [Windows Multimedia], AVIFileOpenA, AVIFileOpenW, _win32_AVIFileOpen, multimedia.avifileopen, vfw/AVIFileOpen, vfw/AVIFileOpenA, vfw/AVIFileOpenW
-ms.topic: function
 f1_keywords:
 - vfw/AVIFileOpen
 dev_langs:

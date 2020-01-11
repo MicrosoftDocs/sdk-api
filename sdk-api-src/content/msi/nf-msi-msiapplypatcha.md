@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: c78006ad-7355-49b6-8e79-a98dcdb0e54f
 ms.date: 12/05/2018
 ms.keywords: INSTALLTYPE_DEFAULT, INSTALLTYPE_NETWORK_IMAGE, INSTALLTYPE_SINGLE_INSTANCE, MsiApplyPatch, MsiApplyPatch function, MsiApplyPatchA, MsiApplyPatchW, _msi_msiapplypatch, msi/MsiApplyPatch, msi/MsiApplyPatchA, msi/MsiApplyPatchW, setup.msiapplypatch
-ms.topic: function
 f1_keywords:
 - msi/MsiApplyPatch
 dev_langs:

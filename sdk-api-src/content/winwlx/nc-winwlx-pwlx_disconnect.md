@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 4f9f56dd-13cf-4125-90d0-4858a6c141be
 ms.date: 12/05/2018
 ms.keywords: PWLX_DISCONNECT, PWLX_DISCONNECT callback, WlxDisconnect, WlxDisconnect callback function [Security], _gina_wlxdisconnect, security.wlxdisconnect, winwlx/WlxDisconnect
-ms.topic: callback
 f1_keywords:
 - winwlx/WlxDisconnect
 dev_langs:

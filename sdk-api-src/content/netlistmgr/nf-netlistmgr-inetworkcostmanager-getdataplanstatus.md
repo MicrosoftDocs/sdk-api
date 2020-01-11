@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: 82B4FF65-5D45-4D79-8F11-EA4CF4760EE2
 ms.date: 12/05/2018
 ms.keywords: GetDataPlanStatus, GetDataPlanStatus method [Network Awareness], GetDataPlanStatus method [Network Awareness],INetworkCostManager interface, INetworkCostManager interface [Network Awareness],GetDataPlanStatus method, INetworkCostManager.GetDataPlanStatus, INetworkCostManager::GetDataPlanStatus, netlistmgr/INetworkCostManager::GetDataPlanStatus, nla.inetworkcostmanager_getdataplanstatus
-ms.topic: method
 f1_keywords:
 - netlistmgr/INetworkCostManager.GetDataPlanStatus
 dev_langs:

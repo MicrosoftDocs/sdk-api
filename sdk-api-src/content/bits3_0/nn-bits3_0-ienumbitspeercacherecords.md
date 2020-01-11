@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 680c1468-d780-44a3-9048-c7c3928234f9
 ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeerCacheRecords, IEnumBitsPeerCacheRecords interface [BITS], IEnumBitsPeerCacheRecords interface [BITS],described, bits.ienumbitspeercacherecords, bits3_0/IEnumBitsPeerCacheRecords
-ms.topic: interface
 f1_keywords:
 - bits3_0/IEnumBitsPeerCacheRecords
 dev_langs:

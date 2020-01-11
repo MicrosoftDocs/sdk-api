@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_fastgetptr.htm
 ms.date: 12/05/2018
 ms.keywords: DPA_FastGetPtr, DPA_FastGetPtr macro [Windows Controls], _shell_DPA_FastGetPtr, _shell_DPA_FastGetPtr_cpp, controls.DPA_FastGetPtr, controls._shell_DPA_FastGetPtr, dpa_dsa/DPA_FastGetPtr
-ms.topic: macro
 f1_keywords:
 - dpa_dsa/DPA_FastGetPtr
 dev_langs:

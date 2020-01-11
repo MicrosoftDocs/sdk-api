@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 145e4716-05e1-41b8-98f3-72e719ca8b9f
 ms.date: 12/05/2018
 ms.keywords: GetDRMStatus, GetDRMStatus method [DirectShow], GetDRMStatus method [DirectShow],IBDA_DRIDRMService interface, IBDA_DRIDRMService interface [DirectShow],GetDRMStatus method, IBDA_DRIDRMService.GetDRMStatus, IBDA_DRIDRMService::GetDRMStatus, bdaiface/IBDA_DRIDRMService::GetDRMStatus, mstv.ibda_dridrmservice_getdrmstatus
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_DRIDRMService.GetDRMStatus
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 82b723fd-c9bb-4ddd-bd2a-4b6d1186846b
 ms.date: 12/05/2018
 ms.keywords: WSMAN_CERTIFICATE_DETAILS, WSMAN_CERTIFICATE_DETAILS structure [Windows Remote Management], winrm.wsman_certificate_details, wsman/WSMAN_CERTIFICATE_DETAILS
-ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_CERTIFICATE_DETAILS
 dev_langs:

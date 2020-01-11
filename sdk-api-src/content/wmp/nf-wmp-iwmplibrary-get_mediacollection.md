@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 6de39a4e-fcce-401b-9bbf-7b06d1fb0370
 ms.date: 12/05/2018
 ms.keywords: IWMPLibrary interface [Windows Media Player],get_mediaCollection method, IWMPLibrary.get_mediaCollection, IWMPLibrary::get_mediaCollection, IWMPLibraryget_mediaCollection, get_mediaCollection, get_mediaCollection method [Windows Media Player], get_mediaCollection method [Windows Media Player],IWMPLibrary interface, wmp.iwmplibrary_get_mediacollection, wmp/IWMPLibrary::get_mediaCollection
-ms.topic: method
 f1_keywords:
 - wmp/IWMPLibrary.get_mediaCollection
 dev_langs:

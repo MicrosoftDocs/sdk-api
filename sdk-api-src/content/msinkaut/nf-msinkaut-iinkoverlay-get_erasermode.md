@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 87dfd750-254a-4829-b5a2-04aee9890dd0
 ms.date: 12/05/2018
 ms.keywords: 87dfd750-254a-4829-b5a2-04aee9890dd0, EraserMode property [Tablet PC], EraserMode property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],EraserMode property, IInkOverlay.EraserMode, IInkOverlay.get_EraserMode, IInkOverlay::EraserMode, IInkOverlay::get_EraserMode, IInkOverlay::put_EraserMode, InkOverlay.get_EraserMode, InkOverlay.put_EraserMode, get_EraserMode, msinkaut/IInkOverlay::EraserMode, msinkaut/IInkOverlay::get_EraserMode, msinkaut/IInkOverlay::put_EraserMode, tablet.inkoverlay_erasermode
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkOverlay.EraserMode
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 661E4F12-E426-4811-81FA-4F065C6E488A
 ms.date: 12/05/2018
 ms.keywords: GetHashMethod, GetHashMethod method [App packaging and management], GetHashMethod method [App packaging and management],IAppxBlockMapReader interface, IAppxBlockMapReader interface [App packaging and management],GetHashMethod method, IAppxBlockMapReader.GetHashMethod, IAppxBlockMapReader::GetHashMethod, appxpackaging/IAppxBlockMapReader::GetHashMethod, appxpkg.iappxblockmapreader_gethashmethod
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxBlockMapReader.GetHashMethod
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 88cf437e-3be0-4f12-9058-ad078deed6a1
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_SessionKey, PSecPkgContext_SessionKey, PSecPkgContext_SessionKey structure pointer [Security], SecPkgContext_SessionKey, SecPkgContext_SessionKey structure [Security], security.secpkgcontext_sessionkey, sspi/PSecPkgContext_SessionKey, sspi/SecPkgContext_SessionKey'
-ms.topic: struct
 f1_keywords:
 - sspi/SecPkgContext_SessionKey
 dev_langs:

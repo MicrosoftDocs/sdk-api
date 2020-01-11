@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: D6EA6BC1-021A-432D-BBCB-BE2FD15E7BE5
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetDefaultPlaybackRate method, IMFMediaEngine.SetDefaultPlaybackRate, IMFMediaEngine::SetDefaultPlaybackRate, SetDefaultPlaybackRate, SetDefaultPlaybackRate method [Media Foundation], SetDefaultPlaybackRate method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setdefaultplaybackrate, mfmediaengine/IMFMediaEngine::SetDefaultPlaybackRate
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngine.SetDefaultPlaybackRate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 048871f3-39ea-4bf6-bc04-b4a34cd1a9d0
 ms.date: 12/05/2018
 ms.keywords: GPMBackupType, GPMBackupType enumeration [GPMC], gpmc.gpmbackuptype, gpmgmt/GPMBackupType, gpmgmt/typeGPO, gpmgmt/typeStarterGPO, typeGPO, typeStarterGPO
-ms.topic: enum
 f1_keywords:
 - gpmgmt/GPMBackupType
 dev_langs:

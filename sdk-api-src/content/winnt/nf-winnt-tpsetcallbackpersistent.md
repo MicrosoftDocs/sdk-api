@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: FE2CB959-25BC-4420-A921-2A65016B25CF
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackPersistent, TpSetCallbackPersistent function, base.tpsetcallbackpersistent, winnt/TpSetCallbackPersistent
-ms.topic: function
 f1_keywords:
 - winnt/TpSetCallbackPersistent
 dev_langs:

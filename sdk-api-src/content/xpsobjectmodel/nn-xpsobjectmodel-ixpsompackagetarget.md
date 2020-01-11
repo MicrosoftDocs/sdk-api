@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 980D2A37-933F-41B1-A975-6BC797E8E770
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackageTarget, IXpsOMPackageTarget interface [XPS Documents and Packaging], IXpsOMPackageTarget interface [XPS Documents and Packaging],described, xps.ixpsompackagetarget, xpsobjectmodel/IXpsOMPackageTarget
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMPackageTarget
 dev_langs:

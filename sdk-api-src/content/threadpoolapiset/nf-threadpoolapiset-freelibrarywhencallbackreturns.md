@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: a29ba988-5d66-4914-9e37-a229bce75af2
 ms.date: 12/05/2018
 ms.keywords: FreeLibraryWhenCallbackReturns, FreeLibraryWhenCallbackReturns function, base.freelibrarywhencallbackreturns, threadpoolapiset/FreeLibraryWhenCallbackReturns, winbase/FreeLibraryWhenCallbackReturns
-ms.topic: function
 f1_keywords:
 - threadpoolapiset/FreeLibraryWhenCallbackReturns
 dev_langs:

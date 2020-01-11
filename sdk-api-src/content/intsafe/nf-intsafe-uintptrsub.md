@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 629bc700-ca64-4849-bdad-59e67857ff8d
 ms.date: 12/05/2018
 ms.keywords: UIntPtrSub, UIntPtrSub function [Windows Shell], _shell_UIntPtrSub, intsafe/UIntPtrSub, shell.UIntPtrSub
-ms.topic: function
 f1_keywords:
 - intsafe/UIntPtrSub
 dev_langs:

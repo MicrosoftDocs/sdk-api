@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 1ce090cd-6824-4a89-acb4-138a1d0f6f76
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolShadowCallback interface [Remote Desktop Services],InvokeTargetShadow method, IWTSProtocolShadowCallback.InvokeTargetShadow, IWTSProtocolShadowCallback::InvokeTargetShadow, InvokeTargetShadow, InvokeTargetShadow method [Remote Desktop Services], InvokeTargetShadow method [Remote Desktop Services],IWTSProtocolShadowCallback interface, termserv.iwtsprotocolshadowcallback_invoketargetshadow, wtsprotocol/IWTSProtocolShadowCallback::InvokeTargetShadow
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolShadowCallback.InvokeTargetShadow
 dev_langs:

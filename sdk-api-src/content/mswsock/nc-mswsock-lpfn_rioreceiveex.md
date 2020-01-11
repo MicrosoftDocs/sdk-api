@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 74C006D0-EE13-4518-8ACC-C0CFD44D09A3
 ms.date: 01/30/19
 ms.keywords: LPFN_RIORECEIVEEX
-ms.topic: language-reference
 f1_keywords:
 - mswsock/LPFN_RIORECEIVEEX
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 9c8da574-5bda-49f1-a6b6-c026639d6504
 ms.date: 12/05/2018
 ms.keywords: DUPLICATE_CLOSE_SOURCE, DUPLICATE_SAME_ACCESS, DuplicateHandle, DuplicateHandle function, _win32_duplicatehandle, base.duplicatehandle, handleapi/DuplicateHandle
-ms.topic: function
 f1_keywords:
 - handleapi/DuplicateHandle
 dev_langs:

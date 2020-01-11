@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: bbdea7e1-620f-4b2b-8ac9-77061b8cfc1a
 ms.date: 12/05/2018
 ms.keywords: GetActivationPolicy, GetActivationPolicy method [COM], GetActivationPolicy method [COM],IPointerInactive interface, IPointerInactive interface [COM],GetActivationPolicy method, IPointerInactive.GetActivationPolicy, IPointerInactive::GetActivationPolicy, _ctrl_ipointerinactive_getactivationpolicy, com.ipointerinactive_getactivationpolicy, ocidl/IPointerInactive::GetActivationPolicy
-ms.topic: method
 f1_keywords:
 - ocidl/IPointerInactive.GetActivationPolicy
 dev_langs:

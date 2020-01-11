@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 267cf3c3-0e18-4a4f-bb32-d6766ceb6241
 ms.date: 12/05/2018
 ms.keywords: AllowDemandStart property [Task Scheduler], AllowDemandStart property [Task Scheduler],ITaskSettings interface, ITaskSettings interface [Task Scheduler],AllowDemandStart property, ITaskSettings.AllowDemandStart, ITaskSettings.put_AllowDemandStart, ITaskSettings::AllowDemandStart, ITaskSettings::get_AllowDemandStart, ITaskSettings::put_AllowDemandStart, put_AllowDemandStart, taskschd.itasksettings_allowdemandstart, taskschd/ITaskSettings::AllowDemandStart, taskschd/ITaskSettings::get_AllowDemandStart, taskschd/ITaskSettings::put_AllowDemandStart
-ms.topic: method
 f1_keywords:
 - taskschd/ITaskSettings.AllowDemandStart
 dev_langs:

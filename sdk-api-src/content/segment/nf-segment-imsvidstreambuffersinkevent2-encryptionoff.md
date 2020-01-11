@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: a4798851-b8e1-4b49-aba9-b8b06d91280d
 ms.date: 12/05/2018
 ms.keywords: EncryptionOff, EncryptionOff method [Microsoft TV Technologies], EncryptionOff method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent2 interface, IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies],EncryptionOff method, IMSVidStreamBufferSinkEvent2.EncryptionOff, IMSVidStreamBufferSinkEvent2::EncryptionOff, IMSVidStreamBufferSinkEvent2EncryptionOff, mstv.imsvidstreambuffersinkevent2_encryptionoff, segment/IMSVidStreamBufferSinkEvent2::EncryptionOff
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferSinkEvent2.EncryptionOff
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: ec56cac7-451b-4866-85cd-8a2dea12d1f5
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumPluggableSuperclassInfo interface, IEnumPluggableSuperclassInfo interface [TAPI 2.2],Clone method, IEnumPluggableSuperclassInfo.Clone, IEnumPluggableSuperclassInfo::Clone, _tapi3_ienumpluggablesuperclassinfo_clone, tapi3.ienumpluggablesuperclassinfo_clone, tapi3if/IEnumPluggableSuperclassInfo::Clone
-ms.topic: method
 f1_keywords:
 - tapi3if/IEnumPluggableSuperclassInfo.Clone
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: abf7145c-780b-4ec7-babb-0e3975520f4a
 ms.date: 12/05/2018
 ms.keywords: CloseClusterNotifyPort, CloseClusterNotifyPort function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT, PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT function [Failover Cluster], _wolf_closeclusternotifyport, clusapi/CloseClusterNotifyPort, clusapi/PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT, mscs.closeclusternotifyport
-ms.topic: function
 f1_keywords:
 - clusapi/CloseClusterNotifyPort
 dev_langs:

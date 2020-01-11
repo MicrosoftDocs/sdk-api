@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: b826f02d-3764-4f61-996f-42bf01ea44e2
 ms.date: 12/05/2018
 ms.keywords: MI_Filter_Evaluate, MI_Filter_Evaluate function [Windows Management Infrastructure (MI)], mi/MI_Filter_Evaluate, wmi_v2.mi_filter_evaluate
-ms.topic: function
 f1_keywords:
 - mi/MI_Filter_Evaluate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: db03e212-7021-433e-84dc-410b2cf7af87
 ms.date: 12/05/2018
 ms.keywords: IMFPresentationDescriptor, IMFPresentationDescriptor interface [Media Foundation], IMFPresentationDescriptor interface [Media Foundation],described, db03e212-7021-433e-84dc-410b2cf7af87, mf.imfpresentationdescriptor, mfidl/IMFPresentationDescriptor
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFPresentationDescriptor
 dev_langs:

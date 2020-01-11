@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: A55D652B-9295-42E4-9A83-CAC467BEE68E
 ms.date: 12/05/2018
 ms.keywords: DecoderUpdateDownsampling, DecoderUpdateDownsampling method [Media Foundation], DecoderUpdateDownsampling method [Media Foundation],ID3D11VideoContext1 interface, ID3D11VideoContext1 interface [Media Foundation],DecoderUpdateDownsampling method, ID3D11VideoContext1.DecoderUpdateDownsampling, ID3D11VideoContext1::DecoderUpdateDownsampling, d3d11_1/ID3D11VideoContext1::DecoderUpdateDownsampling, mf.id3d11videocontext1_decoderupdatedownsampling
-ms.topic: method
 f1_keywords:
 - d3d11_1/ID3D11VideoContext1.DecoderUpdateDownsampling
 dev_langs:

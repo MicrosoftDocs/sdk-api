@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 5f1cccd7-8b22-47a3-9704-0f22a1431c99
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationInterpolator interface [Windows Animation],InterpolateValue method, IUIAnimationInterpolator.InterpolateValue, IUIAnimationInterpolator::InterpolateValue, InterpolateValue, InterpolateValue method [Windows Animation], InterpolateValue method [Windows Animation],IUIAnimationInterpolator interface, uianimation.iuianimationinterpolator_interpolatevalue, uianimation/IUIAnimationInterpolator::InterpolateValue
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationInterpolator.InterpolateValue
 dev_langs:

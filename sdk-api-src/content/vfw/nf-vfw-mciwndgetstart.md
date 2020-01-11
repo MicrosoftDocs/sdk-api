@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: fe9346b8-e917-4bbc-9df5-3b0b5c2de306
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetStart, MCIWndGetStart macro [Windows Multimedia], _win32_MCIWndGetStart, multimedia.mciwndgetstart, vfw/MCIWndGetStart
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndGetStart
 dev_langs:

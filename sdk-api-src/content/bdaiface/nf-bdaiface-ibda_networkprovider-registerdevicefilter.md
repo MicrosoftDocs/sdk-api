@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 88050024-5960-4ce5-8645-82db3e17b12c
 ms.date: 12/05/2018
 ms.keywords: IBDA_NetworkProvider interface [Microsoft TV Technologies],RegisterDeviceFilter method, IBDA_NetworkProvider.RegisterDeviceFilter, IBDA_NetworkProvider::RegisterDeviceFilter, IBDA_NetworkProviderRegisterDeviceFilter, RegisterDeviceFilter, RegisterDeviceFilter method [Microsoft TV Technologies], RegisterDeviceFilter method [Microsoft TV Technologies],IBDA_NetworkProvider interface, bdaiface/IBDA_NetworkProvider::RegisterDeviceFilter, mstv.ibda_networkprovider_registerdevicefilter
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_NetworkProvider.RegisterDeviceFilter
 dev_langs:

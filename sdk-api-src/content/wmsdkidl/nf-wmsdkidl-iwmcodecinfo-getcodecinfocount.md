@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 873f8d03-5d7b-424c-91f3-e7c8156565be
 ms.date: 12/05/2018
 ms.keywords: GetCodecInfoCount, GetCodecInfoCount method [windows Media Format], GetCodecInfoCount method [windows Media Format],IWMCodecInfo interface, IWMCodecInfo interface [windows Media Format],GetCodecInfoCount method, IWMCodecInfo.GetCodecInfoCount, IWMCodecInfo::GetCodecInfoCount, IWMCodecInfoGetCodecInfoCount, wmformat.iwmcodecinfo_getcodecinfocount, wmsdkidl/IWMCodecInfo::GetCodecInfoCount
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMCodecInfo.GetCodecInfoCount
 dev_langs:

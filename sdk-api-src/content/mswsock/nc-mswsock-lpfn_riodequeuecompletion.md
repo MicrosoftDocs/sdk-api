@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 658729C0-2963-45F0-B616-01372A7144D1
 ms.date: 01/30/19
 ms.keywords: LPFN_RIODEQUEUECOMPLETION
-ms.topic: language-reference
 f1_keywords:
 - mswsock/LPFN_RIODEQUEUECOMPLETION
 dev_langs:

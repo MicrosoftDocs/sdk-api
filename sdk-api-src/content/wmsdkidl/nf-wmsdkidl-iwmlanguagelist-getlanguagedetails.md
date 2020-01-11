@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: beb9f4fb-0acf-4693-b98e-2c197b330de5
 ms.date: 12/05/2018
 ms.keywords: GetLanguageDetails, GetLanguageDetails method [windows Media Format], GetLanguageDetails method [windows Media Format],IWMLanguageList interface, IWMLanguageList interface [windows Media Format],GetLanguageDetails method, IWMLanguageList.GetLanguageDetails, IWMLanguageList::GetLanguageDetails, IWMLanguageListGetLanguageDetails, wmformat.iwmlanguagelist_getlanguagedetails, wmsdkidl/IWMLanguageList::GetLanguageDetails
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMLanguageList.GetLanguageDetails
 dev_langs:

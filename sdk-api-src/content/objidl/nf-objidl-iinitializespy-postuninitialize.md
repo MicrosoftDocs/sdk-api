@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: f91a1a4a-4d0b-491e-a7c6-01596b5b9712
 ms.date: 12/05/2018
 ms.keywords: IInitializeSpy interface [COM],PostUninitialize method, IInitializeSpy.PostUninitialize, IInitializeSpy::PostUninitialize, PostUninitialize, PostUninitialize method [COM], PostUninitialize method [COM],IInitializeSpy interface, _com_iinitializespy_postuninitialize, com.iinitializespy_postuninitialize, objidl/IInitializeSpy::PostUninitialize
-ms.topic: method
 f1_keywords:
 - objidl/IInitializeSpy.PostUninitialize
 dev_langs:

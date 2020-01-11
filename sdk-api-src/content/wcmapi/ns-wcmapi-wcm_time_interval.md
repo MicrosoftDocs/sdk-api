@@ -7,7 +7,6 @@ tech.root: wcm
 ms.assetid: 7744a577-5f3d-4cdd-b74d-a1430ea20b37
 ms.date: 12/05/2018
 ms.keywords: WCM_TIME_INTERVAL, WCM_TIME_INTERVAL structure [Windows Connection Manager], wcm.wcm_time_interval, wcmapi/WCM_TIME_INTERVAL
-ms.topic: struct
 f1_keywords:
 - wcmapi/WCM_TIME_INTERVAL
 dev_langs:

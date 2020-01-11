@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5f4bfe69-1ff3-4d21-9c27-f5d8ecfc8371
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflictResolveInfo interface [Windows Shell],SetPresenterChoice method, ISyncMgrConflictResolveInfo.SetPresenterChoice, ISyncMgrConflictResolveInfo::SetPresenterChoice, SetPresenterChoice, SetPresenterChoice method [Windows Shell], SetPresenterChoice method [Windows Shell],ISyncMgrConflictResolveInfo interface, _shell_ISyncMgrConflictResolveInfo_SetPresenterChoice, shell.ISyncMgrConflictResolveInfo_SetPresenterChoice, syncmgr/ISyncMgrConflictResolveInfo::SetPresenterChoice
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrConflictResolveInfo.SetPresenterChoice
 dev_langs:

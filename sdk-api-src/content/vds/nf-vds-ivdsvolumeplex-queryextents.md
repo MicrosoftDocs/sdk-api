@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 09548bcc-29b9-498f-a4c0-99428f26343a
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumePlex interface [VDS],QueryExtents method, IVdsVolumePlex.QueryExtents, IVdsVolumePlex::QueryExtents, QueryExtents, QueryExtents method [VDS], QueryExtents method [VDS],IVdsVolumePlex interface, base.ivdsvolumeplex_queryextents, vds/IVdsVolumePlex::QueryExtents
-ms.topic: method
 f1_keywords:
 - vds/IVdsVolumePlex.QueryExtents
 dev_langs:

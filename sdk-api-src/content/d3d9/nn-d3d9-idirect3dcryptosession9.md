@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 2511c9da-e696-4e49-b180-7fc1317c1652
 ms.date: 12/05/2018
 ms.keywords: IDirect3DCryptoSession9, IDirect3DCryptoSession9 interface [Media Foundation], IDirect3DCryptoSession9 interface [Media Foundation],described, d3d9/IDirect3DCryptoSession9, mf.idirect3dcryptosession9
-ms.topic: interface
 f1_keywords:
 - d3d9/IDirect3DCryptoSession9
 dev_langs:

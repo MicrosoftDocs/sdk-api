@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 933ca20c-8a28-4b6a-9ec8-85608fd02990
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientAddContentInformation, PeerDistClientAddContentInformation function [Peer Networking], p2p.peerdistclientaddcontentinformation, peerdist/PeerDistClientAddContentInformation
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistClientAddContentInformation
 dev_langs:

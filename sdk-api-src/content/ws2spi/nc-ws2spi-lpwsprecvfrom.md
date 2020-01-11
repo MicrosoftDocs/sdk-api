@@ -4,7 +4,6 @@ title: LPWSPRECVFROM
 description: The LPWSPRecvFrom function receives a datagram and stores the source address.
 ms.date: 9/12/2019
 ms.keywords: LPWSPRECVFROM
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 7b9946c3-c8b3-45ae-9bde-03faaf604bba
 ms.date: 12/05/2018
 ms.keywords: WSAStringToAddress, WSAStringToAddress function [Winsock], WSAStringToAddressA, WSAStringToAddressW, _win32_wsastringtoaddress_2, winsock.wsastringtoaddress_2, winsock2/WSAStringToAddress, winsock2/WSAStringToAddressA, winsock2/WSAStringToAddressW
-ms.topic: function
 f1_keywords:
 - winsock2/WSAStringToAddress
 dev_langs:

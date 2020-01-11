@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 5ba37006-1ded-4996-a190-d789e5cc0755
 ms.date: 12/05/2018
 ms.keywords: '*PPEER_EVENT_MEMBER_CHANGE_DATA, PEER_EVENT_MEMBER_CHANGE_DATA, PEER_EVENT_MEMBER_CHANGE_DATA structure [Peer Networking], PPEER_EVENT_MEMBER_CHANGE_DATA, PPEER_EVENT_MEMBER_CHANGE_DATA structure pointer [Peer Networking], p2p.peer_event_member_change_data, p2p/PPEER_EVENT_MEMBER_CHANGE_DATA, p2p/peer_event_member_change_data_tag'
-ms.topic: struct
 f1_keywords:
 - p2p/PEER_EVENT_MEMBER_CHANGE_DATA
 dev_langs:

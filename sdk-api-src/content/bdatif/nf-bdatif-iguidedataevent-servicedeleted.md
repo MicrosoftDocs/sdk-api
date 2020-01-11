@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: bba15ebe-d1c5-4c71-b052-6b75a7825613
 ms.date: 12/05/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ServiceDeleted method, IGuideDataEvent.ServiceDeleted, IGuideDataEvent::ServiceDeleted, IGuideDataEventServiceDeleted, ServiceDeleted, ServiceDeleted method [Microsoft TV Technologies], ServiceDeleted method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ServiceDeleted, mstv.iguidedataevent_servicedeleted
-ms.topic: method
 f1_keywords:
 - bdatif/IGuideDataEvent.ServiceDeleted
 dev_langs:

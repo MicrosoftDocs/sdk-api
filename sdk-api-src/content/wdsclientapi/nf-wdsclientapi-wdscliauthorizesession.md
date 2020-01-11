@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 88e95fa8-1a83-4ef9-b486-c8086cb08116
 ms.date: 12/05/2018
 ms.keywords: WdsCliAuthorizeSession, WdsCliAuthorizeSession function [Windows Deployment Services], wds.wdscliauthorizesession, wdsclientapi/WdsCliAuthorizeSession
-ms.topic: function
 f1_keywords:
 - wdsclientapi/WdsCliAuthorizeSession
 dev_langs:

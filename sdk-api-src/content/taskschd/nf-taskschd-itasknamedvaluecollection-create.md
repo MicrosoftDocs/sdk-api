@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: aec5ca20-b983-48e1-a5d0-761f18557fe4
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Task Scheduler], Create method [Task Scheduler],ITaskNamedValueCollection interface, ITaskNamedValueCollection interface [Task Scheduler],Create method, ITaskNamedValueCollection.Create, ITaskNamedValueCollection::Create, taskschd.itasknamedvaluecollection_create, taskschd/ITaskNamedValueCollection::Create
-ms.topic: method
 f1_keywords:
 - taskschd/ITaskNamedValueCollection.Create
 dev_langs:

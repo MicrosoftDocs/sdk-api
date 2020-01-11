@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.Process(UINT32,const XAPO_PROCESS_BUFFER_PARAMETERS,UINT32,XAPO_PROCESS_BUFFER_PARAMETERS@,BOOL)
 ms.date: 12/05/2018
 ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],Process method, IXAPO.Process, IXAPO::Process, Process, Process method [XAudio2 Audio Mixing APIs], Process method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::Process, xaudio2.ixapo_interface_process
-ms.topic: method
 f1_keywords:
 - xapo/IXAPO.Process
 dev_langs:

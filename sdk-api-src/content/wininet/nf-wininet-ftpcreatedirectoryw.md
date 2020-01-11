@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 51a33c5b-4e82-4148-8a3f-0cf7c0a8bac0
 ms.date: 12/05/2018
 ms.keywords: FtpCreateDirectory, FtpCreateDirectory function [WinINet], FtpCreateDirectoryA, FtpCreateDirectoryW, _inet_ftpcreatedirectory_function, wininet.ftpcreatedirectory, wininet/FtpCreateDirectory, wininet/FtpCreateDirectoryA, wininet/FtpCreateDirectoryW
-ms.topic: function
 f1_keywords:
 - wininet/FtpCreateDirectory
 dev_langs:

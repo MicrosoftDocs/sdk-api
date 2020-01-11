@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: f8a22f5f-a21f-49e7-bd6c-ca987206ee46
 ms.date: 12/05/2018
 ms.keywords: CoGetInstanceFromFile, CoGetInstanceFromFile function [COM], _com_CoGetInstanceFromFile, com.cogetinstancefromfile, objbase/CoGetInstanceFromFile
-ms.topic: function
 f1_keywords:
 - objbase/CoGetInstanceFromFile
 dev_langs:

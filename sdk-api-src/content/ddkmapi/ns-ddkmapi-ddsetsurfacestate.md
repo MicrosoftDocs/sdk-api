@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: a54b1496-1f7e-4ba9-acb3-2debbe7e980d
 ms.date: 12/05/2018
 ms.keywords: '*LPDDSETSURFACESTATE, DDSETSURFACESTATE, DDSETSURFACESTATE structure [Display Devices], LPDDSETSURFACESTATE, LPDDSETSURFACESTATE structure pointer [Display Devices], ddkmapi/DDSETSURFACESTATE, ddkmapi/LPDDSETSURFACESTATE, ddstrcts_ddf8814f-d375-4b3c-93dc-0a77d12f3aab.xml, display.ddsetsurfacestate'
-ms.topic: struct
 f1_keywords:
 - ddkmapi/DDSETSURFACESTATE
 dev_langs:

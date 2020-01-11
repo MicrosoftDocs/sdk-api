@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: AD333075-3358-4fee-BDEE-087B7012C93E
 ms.date: 12/05/2018
 ms.keywords: IThumbnailSettings interface [Windows Shell],SetContext method, IThumbnailSettings.SetContext, IThumbnailSettings::SetContext, SetContext, SetContext method [Windows Shell], SetContext method [Windows Shell],IThumbnailSettings interface, shell.IThumbnailSettings_SetContext, thumbcache/IThumbnailSettings::SetContext
-ms.topic: method
 f1_keywords:
 - thumbcache/IThumbnailSettings.SetContext
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: bd5a411f-3cf4-4dc5-89fc-0edc59f7b15a
 ms.date: 12/05/2018
 ms.keywords: OpenClusterResourceEx, OpenClusterResourceEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX, PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX function [Failover Cluster], clusapi/OpenClusterResourceEx, clusapi/PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX, mscs.openclusterresourceex
-ms.topic: function
 f1_keywords:
 - clusapi/OpenClusterResourceEx
 dev_langs:

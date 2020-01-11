@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a196cf6e-491c-4d01-abfe-831440e75058
 ms.date: 12/05/2018
 ms.keywords: GetMaxAvailableFrameRate, GetMaxAvailableFrameRate method [DirectShow], GetMaxAvailableFrameRate method [DirectShow],IAMVideoControl interface, IAMVideoControl interface [DirectShow],GetMaxAvailableFrameRate method, IAMVideoControl.GetMaxAvailableFrameRate, IAMVideoControl::GetMaxAvailableFrameRate, IAMVideoControlGetMaxAvailableFrameRate, dshow.iamvideocontrol_getmaxavailableframerate, strmif/IAMVideoControl::GetMaxAvailableFrameRate
-ms.topic: method
 f1_keywords:
 - strmif/IAMVideoControl.GetMaxAvailableFrameRate
 dev_langs:

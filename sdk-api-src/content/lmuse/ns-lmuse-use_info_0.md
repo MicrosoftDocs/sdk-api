@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 86db3f19-84c5-4e89-82cb-f01d17dcf4ec
 ms.date: 12/05/2018
 ms.keywords: '*LPUSE_INFO_0, *PUSE_INFO_0, LPUSE_INFO_0, LPUSE_INFO_0 structure pointer [Network Management], PUSE_INFO_0, PUSE_INFO_0 structure pointer [Network Management], USE_INFO_0, USE_INFO_0 structure [Network Management], _win32_use_info_0_str, lmuse/LPUSE_INFO_0, lmuse/PUSE_INFO_0, lmuse/USE_INFO_0, netmgmt.use_info_0_str'
-ms.topic: struct
 f1_keywords:
 - lmuse/USE_INFO_0
 dev_langs:

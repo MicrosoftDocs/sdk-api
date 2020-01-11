@@ -4,7 +4,6 @@ title: ID3D11VideoDevice2
 description: Provides the video decoding and video processing capabilities of a Microsoft Direct3D 11 device.
 ms.date: 4/26/2019
 ms.keywords: ID3D11VideoDevice2
-ms.topic: language-reference
 f1_keywords:
 - ID3D11VideoDevice2
 dev_langs:

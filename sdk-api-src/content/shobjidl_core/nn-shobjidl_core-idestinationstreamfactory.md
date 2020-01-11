@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7cedf8eb-b4ef-4889-bd7b-a734e939e872
 ms.date: 12/05/2018
 ms.keywords: IDestinationStreamFactory, IDestinationStreamFactory interface [Windows Shell], IDestinationStreamFactory interface [Windows Shell],described, shell.IDestinationStreamFactory, shell_IDestinationStreamFactory, shobjidl_core/IDestinationStreamFactory
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IDestinationStreamFactory
 dev_langs:

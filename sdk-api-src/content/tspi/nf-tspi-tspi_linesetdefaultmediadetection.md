@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 407fa545-6890-4a8c-b5a8-bddeacc46e18
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetDefaultMediaDetection, TSPI_lineSetDefaultMediaDetection function [TAPI 2.2], _tspi_tspi_linesetdefaultmediadetection, tspi.tspi_linesetdefaultmediadetection, tspi/TSPI_lineSetDefaultMediaDetection
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineSetDefaultMediaDetection
 dev_langs:

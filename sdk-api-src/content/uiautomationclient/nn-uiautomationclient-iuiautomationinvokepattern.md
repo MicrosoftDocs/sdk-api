@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 08031f22-9b36-4d85-9e15-2139551b893b
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationInvokePattern, IUIAutomationInvokePattern interface [Windows Accessibility], IUIAutomationInvokePattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationInvokePattern, uiauto_IUIAutomationInvokePattern, uiautomationclient/IUIAutomationInvokePattern, winauto.uiauto_IUIAutomationInvokePattern
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationInvokePattern
 dev_langs:

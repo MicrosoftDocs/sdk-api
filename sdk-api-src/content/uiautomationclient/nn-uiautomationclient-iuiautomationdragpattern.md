@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: F7768A87-3981-48E0-A72D-BEA14C189E6E
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationDragPattern, IUIAutomationDragPattern interface [Windows Accessibility], IUIAutomationDragPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationDragPattern, winauto.uiauto_iuiautomationdragpattern
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationDragPattern
 dev_langs:

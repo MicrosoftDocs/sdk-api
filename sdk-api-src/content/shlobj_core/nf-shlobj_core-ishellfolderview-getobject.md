@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a231e92f-b467-4fd7-929d-92259272a734
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [Windows Shell], GetObject method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetObject method, IShellFolderView.GetObject, IShellFolderView::GetObject, _shell_IShellFolderView_GetObject, shell.IShellFolderView_GetObject, shlobj_core/IShellFolderView::GetObject
-ms.topic: method
 f1_keywords:
 - shlobj_core/IShellFolderView.GetObject
 dev_langs:

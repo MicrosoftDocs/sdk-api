@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: ac4f3cbe-2769-468e-abe3-07b76ada5d7e
 ms.date: 12/05/2018
 ms.keywords: Disable, Disable method [Direct Manipulation], Disable method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],Disable method, IDirectManipulationViewport.Disable, IDirectManipulationViewport::Disable, directmanipulation.idirectmanipulationviewport_disable, directmanipulation/IDirectManipulationViewport::Disable
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationViewport.Disable
 dev_langs:

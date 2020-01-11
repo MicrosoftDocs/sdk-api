@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 12f8e54f-5d85-41e6-8c45-5d76d8925eb0
 ms.date: 12/05/2018
 ms.keywords: '*LPMIDIPROPTIMEDIV, MIDIPROPTIMEDIV, MIDIPROPTIMEDIV structure [Windows Multimedia], _win32_MIDIPROPTIMEDIV_str, midiproptimediv_tag, mmeapi/MIDIPROPTIMEDIV, multimedia.midiproptimediv'
-ms.topic: struct
 f1_keywords:
 - mmeapi/MIDIPROPTIMEDIV
 dev_langs:

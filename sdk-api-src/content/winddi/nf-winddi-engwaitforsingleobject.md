@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: a2a1c7ad-1e56-45f7-83de-49ebc0d831f9
 ms.date: 12/05/2018
 ms.keywords: EngWaitForSingleObject, EngWaitForSingleObject function [Display Devices], display.engwaitforsingleobject, gdifncs_12c16d6b-ff3f-4cd4-8d4c-150ab8377dfb.xml, winddi/EngWaitForSingleObject
-ms.topic: function
 f1_keywords:
 - winddi/EngWaitForSingleObject
 dev_langs:

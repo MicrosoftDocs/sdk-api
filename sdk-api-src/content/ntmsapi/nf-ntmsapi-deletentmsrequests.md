@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: 5368184a-419c-4cb7-b27f-b55fc26b4e81
 ms.date: 12/05/2018
 ms.keywords: DeleteNtmsRequests, DeleteNtmsRequests function [Files], NTMS_LIBREQUEST, NTMS_OPREQUEST, _zaw_deletentmsrequests, base.deletentmsrequests, fs.deletentmsrequests, ntmsapi/DeleteNtmsRequests
-ms.topic: function
 f1_keywords:
 - ntmsapi/DeleteNtmsRequests
 dev_langs:

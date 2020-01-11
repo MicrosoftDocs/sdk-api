@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 092162af-5f88-4ce5-ac2f-89327f094804
 ms.date: 12/05/2018
 ms.keywords: IDvbSiParser, IDvbSiParser interface [Microsoft TV Technologies], IDvbSiParser interface [Microsoft TV Technologies],described, IDvbSiParserInterface, dvbsiparser/IDvbSiParser, mstv.idvbsiparser
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IDvbSiParser
 dev_langs:

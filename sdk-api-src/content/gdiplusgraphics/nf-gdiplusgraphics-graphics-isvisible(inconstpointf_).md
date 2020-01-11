@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsisvisiblemethods\isvisible_44pointfamppoint.htm
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],IsVisible method, Graphics.IsVisible, Graphics.IsVisible(IN const PointF &), Graphics.IsVisible(const PointF&), Graphics::IsVisible, Graphics::IsVisible(IN const PointF &), IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_IsVisible_PointF_point_, gdiplus._gdiplus_CLASS_Graphics_IsVisible_PointF_point_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.IsVisible
 dev_langs:

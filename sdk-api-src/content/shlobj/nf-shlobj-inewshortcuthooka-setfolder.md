@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7f402d36-58cf-4912-af21-f8271eee98e4
 ms.date: 12/05/2018
 ms.keywords: INewShortcutHook interface [Windows Shell],SetFolder method, INewShortcutHook::SetFolder, INewShortcutHookA, INewShortcutHookA.SetFolder, INewShortcutHookA::SetFolder, INewShortcutHookW, INewShortcutHookW::SetFolder, SetFolder, SetFolder method [Windows Shell], SetFolder method [Windows Shell],INewShortcutHook interface, _win32_INewShortcutHook_SetFolder, shell.INewShortcutHook_SetFolder, shlobj/INewShortcutHook::SetFolder
-ms.topic: method
 f1_keywords:
 - shlobj/INewShortcutHook.SetFolder
 dev_langs:

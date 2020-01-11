@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 06687b2a-2dab-4102-8022-4b70677064b2
 ms.date: 12/05/2018
 ms.keywords: GetSystemRegistryQuota, GetSystemRegistryQuota function, base.getsystemregistryquota, winbase/GetSystemRegistryQuota
-ms.topic: function
 f1_keywords:
 - winbase/GetSystemRegistryQuota
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 67d081a6-ec10-4cd3-8f77-b7653aef27a1
 ms.date: 12/05/2018
 ms.keywords: CreatePackageWriterOnFile, CreatePackageWriterOnFile method [XPS Documents and Packaging], CreatePackageWriterOnFile method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackageWriterOnFile method, IXpsOMObjectFactory.CreatePackageWriterOnFile, IXpsOMObjectFactory::CreatePackageWriterOnFile, TRUE, xps.ixpsomobjectfactory_createpackagewriteronfile, xpsobjectmodel/IXpsOMObjectFactory::CreatePackageWriterOnFile
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreatePackageWriterOnFile
 dev_langs:

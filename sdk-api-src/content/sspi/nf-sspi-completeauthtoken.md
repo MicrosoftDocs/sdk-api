@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: a404d0a3-d1ea-4708-87d7-2d216e9a5f5f
 ms.date: 12/05/2018
 ms.keywords: CompleteAuthToken, CompleteAuthToken function [Security], _ssp_completeauthtoken, security.completeauthtoken, sspi/CompleteAuthToken
-ms.topic: function
 f1_keywords:
 - sspi/CompleteAuthToken
 dev_langs:

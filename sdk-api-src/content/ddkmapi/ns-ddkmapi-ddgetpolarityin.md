@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 8ef7a1b7-1111-440d-8318-46d2135142e2
 ms.date: 12/05/2018
 ms.keywords: '*LPDDGETPOLARITYIN, DDGETPOLARITYIN, DDGETPOLARITYIN structure [Display Devices], LPDDGETPOLARITYIN, LPDDGETPOLARITYIN structure pointer [Display Devices], ddkmapi/DDGETPOLARITYIN, ddkmapi/LPDDGETPOLARITYIN, ddstrcts_d84baddb-b5f0-4b66-86fd-504dbf05608c.xml, display.ddgetpolarityin'
-ms.topic: struct
 f1_keywords:
 - ddkmapi/DDGETPOLARITYIN
 dev_langs:

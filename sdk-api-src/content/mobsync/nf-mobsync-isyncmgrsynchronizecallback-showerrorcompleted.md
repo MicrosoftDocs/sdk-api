@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7441f8d3-1b9b-400f-a2c4-ec67f7677a32
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],ShowErrorCompleted method, ISyncMgrSynchronizeCallback.ShowErrorCompleted, ISyncMgrSynchronizeCallback::ShowErrorCompleted, ShowErrorCompleted, ShowErrorCompleted method [Windows Shell], ShowErrorCompleted method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::ShowErrorCompleted, shell.syncmgr_isyncmgrsynchronizecallback_showerrorcompleted, syncmgr.isyncmgrsynchronizecallback_showerrorcompleted
-ms.topic: method
 f1_keywords:
 - mobsync/ISyncMgrSynchronizeCallback.ShowErrorCompleted
 dev_langs:

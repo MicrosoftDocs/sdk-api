@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 17dfb601-1306-41b6-a504-8bf69ff204c9
 ms.date: 12/05/2018
 ms.keywords: PathGetArgs, PathGetArgs function [Windows Shell], PathGetArgsA, PathGetArgsW, _win32_PathGetArgs, shell.PathGetArgs, shlwapi/PathGetArgs, shlwapi/PathGetArgsA, shlwapi/PathGetArgsW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathGetArgs
 dev_langs:

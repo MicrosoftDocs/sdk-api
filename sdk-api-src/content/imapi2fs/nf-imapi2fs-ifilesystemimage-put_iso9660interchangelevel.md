@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 8bfb770a-5a69-4980-94e2-4a3f65caa645
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_ISO9660InterchangeLevel method, IFileSystemImage.put_ISO9660InterchangeLevel, IFileSystemImage::put_ISO9660InterchangeLevel, imapi.ifilesystemimage_put_iso9660interchangelevel, imapi2fs/IFileSystemImage::put_ISO9660InterchangeLevel, put_ISO9660InterchangeLevel, put_ISO9660InterchangeLevel method [IMAPI], put_ISO9660InterchangeLevel method [IMAPI],IFileSystemImage interface
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFileSystemImage.put_ISO9660InterchangeLevel
 dev_langs:

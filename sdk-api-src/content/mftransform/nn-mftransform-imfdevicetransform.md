@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 375293FA-8017-4F74-A93C-C15FED8F19AF
 ms.date: 12/05/2018
 ms.keywords: IMFDeviceTransform, IMFDeviceTransform interface [Streaming Media Devices], IMFDeviceTransform interface [Streaming Media Devices],described, mftransform/IMFDeviceTransform, stream.imfdevicetransform
-ms.topic: interface
 f1_keywords:
 - mftransform/IMFDeviceTransform
 dev_langs:

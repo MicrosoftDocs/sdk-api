@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 6147d0a4-8f50-40c6-864e-734cfef57089
 ms.date: 12/05/2018
 ms.keywords: GetTrimming, GetTrimming method [Direct Write], GetTrimming method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetTrimming method, IDWriteTextFormat.GetTrimming, IDWriteTextFormat::GetTrimming, directwrite.IDWriteTextFormat_GetTrimming, dwrite/IDWriteTextFormat::GetTrimming
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextFormat.GetTrimming
 dev_langs:

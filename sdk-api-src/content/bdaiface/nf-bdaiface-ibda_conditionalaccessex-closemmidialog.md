@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 30cba76b-ae52-4c87-a88e-faa9ad3f12f9
 ms.date: 12/05/2018
 ms.keywords: CloseMmiDialog, CloseMmiDialog method [Microsoft TV Technologies], CloseMmiDialog method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],CloseMmiDialog method, IBDA_ConditionalAccessEx.CloseMmiDialog, IBDA_ConditionalAccessEx::CloseMmiDialog, bdaiface/IBDA_ConditionalAccessEx::CloseMmiDialog, mstv.ibda_conditionalaccessex_closemmidialog
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_ConditionalAccessEx.CloseMmiDialog
 dev_langs:

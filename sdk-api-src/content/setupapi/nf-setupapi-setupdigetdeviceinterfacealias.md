@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: eb36da2a-4ff1-4f2b-abc6-9bdaf491252f
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDeviceInterfaceAlias, SetupDiGetDeviceInterfaceAlias function [Device and Driver Installation], devinst.setupdigetdeviceinterfacealias, di-rtns_a9f0fc2b-7a4e-49fc-afc5-723a0120a5d7.xml, setupapi/SetupDiGetDeviceInterfaceAlias
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetDeviceInterfaceAlias
 dev_langs:

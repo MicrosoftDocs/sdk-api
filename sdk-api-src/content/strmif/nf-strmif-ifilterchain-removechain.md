@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a47d2087-5f06-4fce-b573-16935370a34c
 ms.date: 12/05/2018
 ms.keywords: IFilterChain interface [DirectShow],RemoveChain method, IFilterChain.RemoveChain, IFilterChain::RemoveChain, IFilterChainRemoveChain, RemoveChain, RemoveChain method [DirectShow], RemoveChain method [DirectShow],IFilterChain interface, dshow.ifilterchain_removechain, strmif/IFilterChain::RemoveChain
-ms.topic: method
 f1_keywords:
 - strmif/IFilterChain.RemoveChain
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 7A986AD8-9DC3-4543-8FB9-5F633DEC95C7
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],IsCommandSessionOpen property, IMbnDeviceService.IsCommandSessionOpen, IMbnDeviceService.get_IsCommandSessionOpen, IMbnDeviceService::IsCommandSessionOpen, IMbnDeviceService::get_IsCommandSessionOpen, IsCommandSessionOpen property [Microsoft Broadband Networks], IsCommandSessionOpen property [Microsoft Broadband Networks],IMbnDeviceService interface, get_IsCommandSessionOpen, mbn.imbndeviceservice_iscommandsessionopen, mbnapi/IMbnDeviceService::IsCommandSessionOpen, mbnapi/IMbnDeviceService::get_IsCommandSessionOpen
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnDeviceService.IsCommandSessionOpen
 dev_langs:

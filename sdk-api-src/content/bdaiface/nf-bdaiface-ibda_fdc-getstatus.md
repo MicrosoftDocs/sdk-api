@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: feaa3d72-353f-45ed-b458-7345bbe07dd2
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Microsoft TV Technologies], GetStatus method [Microsoft TV Technologies],IBDA_FDC interface, IBDA_FDC interface [Microsoft TV Technologies],GetStatus method, IBDA_FDC.GetStatus, IBDA_FDC::GetStatus, bdaiface/IBDA_FDC::GetStatus, mstv.ibda_fdc_getstatus
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_FDC.GetStatus
 dev_langs:

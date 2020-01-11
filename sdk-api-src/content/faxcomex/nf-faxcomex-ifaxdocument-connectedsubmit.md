@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5cfo_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: ConnectedSubmit, ConnectedSubmit method [Fax Service], ConnectedSubmit method [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],ConnectedSubmit method, IFaxDocument.ConnectedSubmit, IFaxDocument::ConnectedSubmit, _mfax_faxdocument.connectedsubmit_cpp, fax._mfax_faxdocument_connectedsubmit_cpp, faxcomex/IFaxDocument::ConnectedSubmit
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxDocument.ConnectedSubmit
 dev_langs:

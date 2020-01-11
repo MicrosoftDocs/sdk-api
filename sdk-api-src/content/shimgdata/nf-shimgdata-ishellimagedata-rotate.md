@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 42fd8596-e130-4029-bf3c-67199e8dd804
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],Rotate method, IShellImageData.Rotate, IShellImageData::Rotate, Rotate, Rotate method [Windows Shell], Rotate method [Windows Shell],IShellImageData interface, _shell_IShellImageData_Rotate, shell.IShellImageData_Rotate, shimgdata/IShellImageData::Rotate
-ms.topic: method
 f1_keywords:
 - shimgdata/IShellImageData.Rotate
 dev_langs:

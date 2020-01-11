@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: cfe9ec32-ed6a-42fa-9891-3ce2e88cd5d0
 ms.date: 12/05/2018
 ms.keywords: DWordPtrSub, DWordPtrSub function [Windows Shell], _shell_DWordPtrSub, intsafe/DWordPtrSub, shell.DWordPtrSub
-ms.topic: function
 f1_keywords:
 - intsafe/DWordPtrSub
 dev_langs:

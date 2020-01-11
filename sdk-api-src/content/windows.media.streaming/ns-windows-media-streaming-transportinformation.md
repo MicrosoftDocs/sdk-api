@@ -7,7 +7,6 @@ tech.root: mediastreaming
 ms.assetid: c91f84f2-e19b-4bfa-862d-fc5e1dc756d4
 ms.date: 12/05/2018
 ms.keywords: TransportInformation, TransportInformation structure [Media Streaming API], mediastreaming.transportinformation, windows/TransportInformation
-ms.topic: struct
 f1_keywords:
 - windows.media.streaming/TransportInformation
 dev_langs:

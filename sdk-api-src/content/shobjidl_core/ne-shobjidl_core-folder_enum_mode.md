@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ef360e40-63c9-49a0-bcfa-1f2e2ff11a3a
 ms.date: 12/05/2018
 ms.keywords: FEM_NAVIGATION, FEM_VIEWRESULT, FOLDER_ENUM_MODE, FOLDER_ENUM_MODE enumeration [Windows Shell], _shell_FOLDER_ENUM_MODE, shell.FOLDER_ENUM_MODE, shobjidl_core/FEM_NAVIGATION, shobjidl_core/FEM_VIEWRESULT, shobjidl_core/FOLDER_ENUM_MODE
-ms.topic: enum
 f1_keywords:
 - shobjidl_core/FOLDER_ENUM_MODE
 dev_langs:

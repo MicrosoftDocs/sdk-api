@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 59e8d295-3be4-4e9a-a096-ead777d3aa8a
 ms.date: 12/05/2018
 ms.keywords: VariantToUInt16ArrayAlloc, VariantToUInt16ArrayAlloc function [Windows Properties], _shell_VariantToUInt16ArrayAlloc, properties.VariantToUInt16ArrayAlloc, propvarutil/VariantToUInt16ArrayAlloc, shell.VariantToUInt16ArrayAlloc
-ms.topic: function
 f1_keywords:
 - propvarutil/VariantToUInt16ArrayAlloc
 dev_langs:

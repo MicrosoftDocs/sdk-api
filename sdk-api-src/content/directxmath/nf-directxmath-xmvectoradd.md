@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorAdd(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorAdd, XMVectorAdd, XMVectorAdd method [DirectX Math Support APIs], dxmath.xmvectoradd
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorAdd
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getcompositingquality.htm
 ms.date: 12/05/2018
 ms.keywords: GetCompositingQuality, GetCompositingQuality method [GDI+], GetCompositingQuality method [GDI+],Graphics class, Graphics class [GDI+],GetCompositingQuality method, Graphics.GetCompositingQuality, Graphics::GetCompositingQuality, _gdiplus_CLASS_Graphics_GetCompositingQuality_, gdiplus._gdiplus_CLASS_Graphics_GetCompositingQuality_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.GetCompositingQuality
 dev_langs:

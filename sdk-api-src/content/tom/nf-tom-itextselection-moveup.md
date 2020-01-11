@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveup.htm
 ms.date: 12/05/2018
 ms.keywords: ITextSelection interface [Windows Controls],MoveUp method, ITextSelection.MoveUp, ITextSelection::MoveUp, MoveUp, MoveUp method [Windows Controls], MoveUp method [Windows Controls],ITextSelection interface, _win32_ITextSelection_MoveUp, _win32_ITextSelection_MoveUp_cpp, controls.ITextSelection_MoveUp, controls._win32_ITextSelection_MoveUp, tom/ITextSelection::MoveUp
-ms.topic: method
 f1_keywords:
 - tom/ITextSelection.MoveUp
 dev_langs:

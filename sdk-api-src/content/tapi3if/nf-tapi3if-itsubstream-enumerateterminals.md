@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: bf5e1f7f-3820-433e-b71f-53798c202593
 ms.date: 12/05/2018
 ms.keywords: EnumerateTerminals, EnumerateTerminals method [TAPI 2.2], EnumerateTerminals method [TAPI 2.2],ITSubStream interface, ITSubStream interface [TAPI 2.2],EnumerateTerminals method, ITSubStream.EnumerateTerminals, ITSubStream::EnumerateTerminals, _tapi3_itsubstream_enumerateterminals, tapi3.itsubstream_enumerateterminals, tapi3if/ITSubStream::EnumerateTerminals
-ms.topic: method
 f1_keywords:
 - tapi3if/ITSubStream.EnumerateTerminals
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMLSS
 ms.assetid: 577fb416-1ff4-4206-8916-9b54577e4cd3
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_userInternetMediaSharingState method, IWindowsMediaLibrarySharingServices.get_userInternetMediaSharingState, IWindowsMediaLibrarySharingServices::get_userInternetMediaSharingState, get_userInternetMediaSharingState, get_userInternetMediaSharingState method [Windows Media Library Sharing Services], get_userInternetMediaSharingState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_userInternetMediaSharingState, wmlss/IWindowsMediaLibrarySharingServices::get_userInternetMediaSharingState
-ms.topic: method
 f1_keywords:
 - wmlss/IWindowsMediaLibrarySharingServices.get_userInternetMediaSharingState
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 41662fe3-70ff-43ce-9734-15f151473b14
 ms.date: 12/05/2018
 ms.keywords: VarDecFromI8, VarDecFromI8 function [Automation], _oa96_VarDecFromI8, automat.vardecfromi8, oleauto/VarDecFromI8
-ms.topic: function
 f1_keywords:
 - oleauto/VarDecFromI8
 dev_langs:

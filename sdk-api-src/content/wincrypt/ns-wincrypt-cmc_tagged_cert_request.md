@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: a90ec8c8-bda5-47a8-a1bb-f70f2eda01b7
 ms.date: 12/05/2018
 ms.keywords: '*PCMC_TAGGED_CERT_REQUEST, CMC_TAGGED_CERT_REQUEST, CMC_TAGGED_CERT_REQUEST structure [Security], PCMC_TAGGED_CERT_REQUEST, PCMC_TAGGED_CERT_REQUEST structure pointer [Security], _crypto2_cmc_tagged_cert_request, security.cmc_tagged_cert_request, wincrypt/CMC_TAGGED_CERT_REQUEST, wincrypt/PCMC_TAGGED_CERT_REQUEST'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CMC_TAGGED_CERT_REQUEST
 dev_langs:

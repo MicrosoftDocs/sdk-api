@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 3444ad63-444a-481d-8fe7-f40b2b7d5283
 ms.date: 12/05/2018
 ms.keywords: NAPI_PROVIDER_INSTALLATION_BLOB, NAPI_PROVIDER_INSTALLATION_BLOB structure [Winsock], PNAPI_PROVIDER_INSTALLATION_BLOB, PNAPI_PROVIDER_INSTALLATION_BLOB structure pointer [Winsock], nsemail/NAPI_PROVIDER_INSTALLATION_BLOB, nsemail/PNAPI_PROVIDER_INSTALLATION_BLOB, winsock.napi_provider_installation_blob
-ms.topic: struct
 f1_keywords:
 - nsemail/NAPI_PROVIDER_INSTALLATION_BLOB
 dev_langs:

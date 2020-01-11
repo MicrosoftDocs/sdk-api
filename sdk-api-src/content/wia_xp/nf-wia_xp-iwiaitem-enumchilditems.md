@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\enumchilditems.htm
 ms.date: 12/05/2018
 ms.keywords: EnumChildItems, EnumChildItems method [WIA], EnumChildItems method [WIA],IWiaItem interface, IWiaItem interface [WIA],EnumChildItems method, IWiaItem.EnumChildItems, IWiaItem::EnumChildItems, _wia_IWiaItem_EnumChildItems, wia._wia_IWiaItem_EnumChildItems, wia_xp/IWiaItem::EnumChildItems
-ms.topic: method
 f1_keywords:
 - wia_xp/IWiaItem.EnumChildItems
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: f5b6d430-a50e-49fc-8274-81bac1300477
 ms.date: 12/05/2018
 ms.keywords: RtmLockNextHop, RtmLockNextHop function [RAS], _rtmv2ref_rtmlocknexthop, rras.rtmlocknexthop, rtmv2/RtmLockNextHop
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmLockNextHop
 dev_langs:

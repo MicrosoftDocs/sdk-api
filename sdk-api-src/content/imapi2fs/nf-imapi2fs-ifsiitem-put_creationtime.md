@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 242e6f68-d9bc-4881-adf3-22d7b32a1dfe
 ms.date: 12/05/2018
 ms.keywords: IFsiItem interface [IMAPI],put_CreationTime method, IFsiItem.put_CreationTime, IFsiItem::put_CreationTime, imapi.ifsiitem_put_creationtime, imapi2fs/IFsiItem::put_CreationTime, put_CreationTime, put_CreationTime method [IMAPI], put_CreationTime method [IMAPI],IFsiItem interface
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFsiItem.put_CreationTime
 dev_langs:

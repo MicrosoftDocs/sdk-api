@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 9c989b8d-0cd0-4556-bc96-a464b95911d0
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IDVB_BAT.GetTableDescriptorByTag, IDVB_BAT::GetTableDescriptorByTag, IDVB_BATGetTableDescriptorByTag, dvbsiparser/IDVB_BAT::GetTableDescriptorByTag, mstv.idvb_bat_gettabledescriptorbytag
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_BAT.GetTableDescriptorByTag
 dev_langs:

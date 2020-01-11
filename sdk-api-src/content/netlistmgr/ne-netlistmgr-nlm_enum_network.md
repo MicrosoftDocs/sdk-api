@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: 37eb1e2e-d769-4e58-b93d-582312bd500a
 ms.date: 12/05/2018
 ms.keywords: NLM_ENUM_NETWORK, NLM_ENUM_NETWORK enumeration [Network Awareness], NLM_ENUM_NETWORK_ALL, NLM_ENUM_NETWORK_CONNECTED, NLM_ENUM_NETWORK_DISCONNECTED, netlistmgr/NLM_ENUM_NETWORK, netlistmgr/NLM_ENUM_NETWORK_ALL, netlistmgr/NLM_ENUM_NETWORK_CONNECTED, netlistmgr/NLM_ENUM_NETWORK_DISCONNECTED, nla.nlm_enum_network
-ms.topic: enum
 f1_keywords:
 - netlistmgr/NLM_ENUM_NETWORK
 dev_langs:

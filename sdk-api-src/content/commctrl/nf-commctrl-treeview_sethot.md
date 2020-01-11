@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\messages\treeview_sethot.htm
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetHot, TreeView_SetHot macro [Windows Controls], _win32_TreeView_SetHot, _win32_TreeView_SetHot_cpp, commctrl/TreeView_SetHot, controls.TreeView_SetHot, controls._win32_TreeView_SetHot
-ms.topic: macro
 f1_keywords:
 - commctrl/TreeView_SetHot
 dev_langs:

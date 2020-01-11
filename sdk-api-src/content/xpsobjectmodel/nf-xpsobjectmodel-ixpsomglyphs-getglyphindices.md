@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 6698ae0b-3525-4612-8234-8ba4dd2870a0
 ms.date: 12/05/2018
 ms.keywords: GetGlyphIndices, GetGlyphIndices method [XPS Documents and Packaging], GetGlyphIndices method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphIndices method, IXpsOMGlyphs.GetGlyphIndices, IXpsOMGlyphs::GetGlyphIndices, xps.ixpsomglyphs_getglyphindices, xpsobjectmodel/IXpsOMGlyphs::GetGlyphIndices
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphs.GetGlyphIndices
 dev_langs:

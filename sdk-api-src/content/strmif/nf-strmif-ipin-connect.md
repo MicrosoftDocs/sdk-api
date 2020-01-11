@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1b02ee67-5dc5-44c1-bea5-2eab46ebd0f6
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [DirectShow], Connect method [DirectShow],IPin interface, IPin interface [DirectShow],Connect method, IPin.Connect, IPin::Connect, IPinConnect, dshow.ipin_connect, strmif/IPin::Connect
-ms.topic: method
 f1_keywords:
 - strmif/IPin.Connect
 dev_langs:

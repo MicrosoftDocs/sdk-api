@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 1cb78a75-752d-4e06-afdf-cd797f209114
 ms.date: 12/05/2018
 ms.keywords: TabbedTextOut, TabbedTextOut function [Windows GDI], TabbedTextOutA, TabbedTextOutW, _win32_TabbedTextOut, gdi.tabbedtextout, winuser/TabbedTextOut, winuser/TabbedTextOutA, winuser/TabbedTextOutW
-ms.topic: function
 f1_keywords:
 - winuser/TabbedTextOut
 dev_langs:

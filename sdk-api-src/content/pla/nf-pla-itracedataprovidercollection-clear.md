@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: aee595c2-bffc-4c79-89b3-b83f75e58d89
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],Clear method, ITraceDataProviderCollection.Clear, ITraceDataProviderCollection::Clear, base.itracedataprovidercollection_clear, pla.itracedataprovidercollection_clear, pla/ITraceDataProviderCollection::Clear
-ms.topic: method
 f1_keywords:
 - pla/ITraceDataProviderCollection.Clear
 dev_langs:

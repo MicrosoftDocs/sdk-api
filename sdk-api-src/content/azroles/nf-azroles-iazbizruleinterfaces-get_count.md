@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: f6838790-2223-4ae8-9cee-9d881d071ba0
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],Count property, IAzBizRuleInterfaces.Count, IAzBizRuleInterfaces.get_Count, IAzBizRuleInterfaces::Count, IAzBizRuleInterfaces::get_Count, azroles/IAzBizRuleInterfaces::Count, azroles/IAzBizRuleInterfaces::get_Count, get_Count, security.iazbizruleinterfaces_count_method
-ms.topic: method
 f1_keywords:
 - azroles/IAzBizRuleInterfaces.Count
 dev_langs:

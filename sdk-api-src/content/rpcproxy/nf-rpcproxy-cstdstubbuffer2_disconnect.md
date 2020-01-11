@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 5593A1C5-37B1-4A83-BEA3-F99AB82CF8FD
 ms.date: 12/05/2018
 ms.keywords: CStdStubBuffer2_Disconnect, CStdStubBuffer2_Disconnect function [RPC], rpc.cstdstubbuffer2_disconnect, rpcproxy/CStdStubBuffer2_Disconnect
-ms.topic: function
 f1_keywords:
 - rpcproxy/CStdStubBuffer2_Disconnect
 dev_langs:

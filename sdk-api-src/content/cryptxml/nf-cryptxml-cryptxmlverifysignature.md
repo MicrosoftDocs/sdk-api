@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 1f8776dc-d91a-4be9-90bf-7d36d587ffb2
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CryptXmlVerifySignature, CryptXmlVerifySignature function [Security], cryptxml/CryptXmlVerifySignature, security.cryptxmlverifysignature
-ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlVerifySignature
 dev_langs:

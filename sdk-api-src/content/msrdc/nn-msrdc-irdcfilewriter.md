@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: 8b6ac8d0-37fd-4bd3-aa44-5b57f546364d
 ms.date: 12/05/2018
 ms.keywords: IRdcFileWriter, IRdcFileWriter interface [Remote Differential Compression], IRdcFileWriter interface [Remote Differential Compression],described, fs.irdcfilewriter, msrdc/IRdcFileWriter, rdc.irdcfilewriter
-ms.topic: interface
 f1_keywords:
 - msrdc/IRdcFileWriter
 dev_langs:

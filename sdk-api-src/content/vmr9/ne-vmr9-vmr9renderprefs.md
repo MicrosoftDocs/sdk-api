@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a32119c2-a10d-41a0-b3e9-500323eb3094
 ms.date: 12/05/2018
 ms.keywords: RenderPrefs9_DoNotRenderBorder, RenderPrefs9_Mask, VMR9RenderPrefs, VMR9RenderPrefs , VMR9RenderPrefs enumeration [DirectShow], VMR9RenderPrefsEnumeration, dshow.vmr9renderprefs, vmr9/RenderPrefs9_DoNotRenderBorder, vmr9/RenderPrefs9_Mask, vmr9/VMR9RenderPrefs
-ms.topic: enum
 f1_keywords:
 - vmr9/VMR9RenderPrefs
 dev_langs:

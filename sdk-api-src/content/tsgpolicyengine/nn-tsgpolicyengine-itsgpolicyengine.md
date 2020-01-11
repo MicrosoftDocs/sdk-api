@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 1972032f-48ac-4a15-98ce-9349fa158a07
 ms.date: 12/05/2018
 ms.keywords: ITSGPolicyEngine, ITSGPolicyEngine interface [Remote Desktop Services], ITSGPolicyEngine interface [Remote Desktop Services],described, termserv.itsgpolicyengine, tsgpolicyengine/ITSGPolicyEngine
-ms.topic: interface
 f1_keywords:
 - tsgpolicyengine/ITSGPolicyEngine
 dev_langs:

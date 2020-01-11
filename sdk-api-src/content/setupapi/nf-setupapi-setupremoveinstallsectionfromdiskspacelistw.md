@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: dd104c59-faee-4eb6-abbc-a4c13d766298
 ms.date: 12/05/2018
 ms.keywords: SetupRemoveInstallSectionFromDiskSpaceList, SetupRemoveInstallSectionFromDiskSpaceList function [Setup API], SetupRemoveInstallSectionFromDiskSpaceListA, SetupRemoveInstallSectionFromDiskSpaceListW, _setupapi_setupremoveinstallsectionfromdiskspacelist, setup.setupremoveinstallsectionfromdiskspacelist, setupapi/SetupRemoveInstallSectionFromDiskSpaceList, setupapi/SetupRemoveInstallSectionFromDiskSpaceListA, setupapi/SetupRemoveInstallSectionFromDiskSpaceListW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupRemoveInstallSectionFromDiskSpaceList
 dev_langs:

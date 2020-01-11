@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: 2c403e22-3feb-415a-b65b-572802764548
 ms.date: 12/05/2018
 ms.keywords: OpenEnlistment, OpenEnlistment function [Files], fs.openenlistment, ktmw32/OpenEnlistment
-ms.topic: function
 f1_keywords:
 - ktmw32/OpenEnlistment
 dev_langs:

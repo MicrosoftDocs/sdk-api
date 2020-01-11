@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 5c4583f5-81e9-4723-8fd0-6909b0107446
 ms.date: 12/05/2018
 ms.keywords: NPGetPropertyText, NPGetPropertyText function [Security], WNPS_DIR, WNPS_FILE, WNPS_MULT, _mnp_npgetpropertytext, npapi/NPGetPropertyText, security.npgetpropertytext
-ms.topic: function
 f1_keywords:
 - npapi/NPGetPropertyText
 dev_langs:

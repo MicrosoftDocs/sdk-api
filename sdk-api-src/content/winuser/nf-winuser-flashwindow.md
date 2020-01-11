@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: c4af997d-5cb8-4d5d-ae8d-1e0cc724fe02
 ms.date: 12/05/2018
 ms.keywords: FlashWindow, FlashWindow function, _win32_flashwindow, base.flashwindow, winuser/FlashWindow
-ms.topic: function
 f1_keywords:
 - winuser/FlashWindow
 dev_langs:

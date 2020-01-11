@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: b673e252-91d0-45b9-a528-079868b47157
 ms.date: 12/05/2018
 ms.keywords: _win32_midiInAddBuffer, midiInAddBuffer, midiInAddBuffer function [Windows Multimedia], mmeapi/midiInAddBuffer, multimedia.midiinaddbuffer
-ms.topic: function
 f1_keywords:
 - mmeapi/midiInAddBuffer
 dev_langs:

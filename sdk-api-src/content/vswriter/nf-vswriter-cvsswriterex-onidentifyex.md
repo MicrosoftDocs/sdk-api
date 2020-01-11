@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 4cb3b8f6-f702-4fba-a3cc-af84897cfd82
 ms.date: 12/05/2018
 ms.keywords: CVssWriterEx interface,OnIdentifyEx method, CVssWriterEx.OnIdentifyEx, CVssWriterEx::OnIdentifyEx, OnIdentifyEx, OnIdentifyEx method, OnIdentifyEx method,CVssWriterEx interface, base.cvsswriterex_onidentifyex, vswriter/CVssWriterEx::OnIdentifyEx
-ms.topic: method
 f1_keywords:
 - vswriter/CVssWriterEx.OnIdentifyEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: bd5ea824-5ac7-44e3-b7db-636e1b350d4e
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_DecoderWordSize method, IMpegAudioDecoder.put_DecoderWordSize, IMpegAudioDecoder::put_DecoderWordSize, IMpegAudioDecoderputDecoderWordSize, dshow.impegaudiodecoder_put_decoderwordsize, mpegtype/IMpegAudioDecoder::put_DecoderWordSize, put_DecoderWordSize, put_DecoderWordSize method [DirectShow], put_DecoderWordSize method [DirectShow],IMpegAudioDecoder interface
-ms.topic: method
 f1_keywords:
 - mpegtype/IMpegAudioDecoder.put_DecoderWordSize
 dev_langs:

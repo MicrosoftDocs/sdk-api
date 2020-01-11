@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: B63CCE08-548F-44D3-BAE3-84E4358F25AD
 ms.date: 12/05/2018
 ms.keywords: IUPnPServiceEnumProperty, IUPnPServiceEnumProperty interface [UPnP APIs], IUPnPServiceEnumProperty interface [UPnP APIs],described, upnp.iupnpserviceenumproperty, upnp/IUPnPServiceEnumProperty
-ms.topic: interface
 f1_keywords:
 - upnp/IUPnPServiceEnumProperty
 dev_langs:

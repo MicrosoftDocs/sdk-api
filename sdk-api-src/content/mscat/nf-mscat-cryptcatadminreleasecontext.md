@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: dff253dc-c444-46be-a383-41340d634cce
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminReleaseContext, CryptCATAdminReleaseContext function [Security], mscat/CryptCATAdminReleaseContext, security.cryptcatadminreleasecontext
-ms.topic: function
 f1_keywords:
 - mscat/CryptCATAdminReleaseContext
 dev_langs:

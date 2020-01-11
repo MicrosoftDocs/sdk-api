@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: C092B786-BAB8-4F8F-95D2-3C23F59EF064
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorLogE, XMVectorLogE, XMVectorLogE method [DirectX Math Support APIs], dxmath.xmvectorloge
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorLogE
 dev_langs:

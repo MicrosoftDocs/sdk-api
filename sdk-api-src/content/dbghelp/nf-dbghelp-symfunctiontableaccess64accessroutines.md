@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 7AE8779A-F3F8-45FF-B11C-4D48CF76FDCA
 ms.date: 12/05/2018
 ms.keywords: SymFunctionTableAccess64AccessRoutines, SymFunctionTableAccess64AccessRoutines function, base.symfunctiontableaccess64accessroutines, dbghelp/SymFunctionTableAccess64AccessRoutines
-ms.topic: function
 f1_keywords:
 - dbghelp/SymFunctionTableAccess64AccessRoutines
 dev_langs:

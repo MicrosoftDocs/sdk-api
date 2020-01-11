@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1a3d8dba-4281-4385-b48f-d9d1b1134676
 ms.date: 12/05/2018
 ms.keywords: GetDiscID, GetDiscID method [DirectShow], GetDiscID method [DirectShow],IDvdState interface, IDvdState interface [DirectShow],GetDiscID method, IDvdState.GetDiscID, IDvdState::GetDiscID, IDvdStateGetDiscID, dshow.idvdstate_getdiscid, strmif/IDvdState::GetDiscID
-ms.topic: method
 f1_keywords:
 - strmif/IDvdState.GetDiscID
 dev_langs:

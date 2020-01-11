@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e6b2ac77-a206-413e-aba7-0fd627799a95
 ms.date: 12/05/2018
 ms.keywords: Win32DeleteFile, Win32DeleteFile function [Windows Shell], _shell_Win32DeleteFile, shell.Win32DeleteFile, shlobj_core/Win32DeleteFile
-ms.topic: function
 f1_keywords:
 - shlobj_core/Win32DeleteFile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 8d600d35-bd2b-44fc-9da4-3c6e50e90b65
 ms.date: 12/05/2018
 ms.keywords: IApiTracingDataCollector, IApiTracingDataCollector interface [PLA], IApiTracingDataCollector interface [PLA],described, base.iapitracingdatacollector, pla.iapitracingdatacollector, pla/IApiTracingDataCollector
-ms.topic: interface
 f1_keywords:
 - pla/IApiTracingDataCollector
 dev_langs:

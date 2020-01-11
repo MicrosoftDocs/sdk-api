@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 84d8518b-6cd7-4da9-9ce3-1ce6fe6eeb43
 ms.date: 12/05/2018
 ms.keywords: 84d8518b-6cd7-4da9-9ce3-1ce6fe6eeb43, IInkTablet interface [Tablet PC],MaximumInputRectangle property, IInkTablet.MaximumInputRectangle, IInkTablet.get_MaximumInputRectangle, IInkTablet::MaximumInputRectangle, IInkTablet::get_MaximumInputRectangle, MaximumInputRectangle property [Tablet PC], MaximumInputRectangle property [Tablet PC],IInkTablet interface, get_MaximumInputRectangle, msinkaut/IInkTablet::MaximumInputRectangle, msinkaut/IInkTablet::get_MaximumInputRectangle, tablet.iinktablet_maximuminputrectangle
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkTablet.MaximumInputRectangle
 dev_langs:

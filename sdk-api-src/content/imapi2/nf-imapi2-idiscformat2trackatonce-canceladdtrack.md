@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 09e71d36-da1d-4ba0-bd6b-4ce4425d481a
 ms.date: 12/05/2018
 ms.keywords: CancelAddTrack, CancelAddTrack method [IMAPI], CancelAddTrack method [IMAPI],IDiscFormat2TrackAtOnce interface, IDiscFormat2TrackAtOnce interface [IMAPI],CancelAddTrack method, IDiscFormat2TrackAtOnce.CancelAddTrack, IDiscFormat2TrackAtOnce::CancelAddTrack, imapi.idiscformat2trackatonce_canceladdtrack, imapi2/IDiscFormat2TrackAtOnce::CancelAddTrack
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2TrackAtOnce.CancelAddTrack
 dev_langs:

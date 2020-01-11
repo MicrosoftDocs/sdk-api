@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: b75f6ed2-7f7e-48d6-b5f3-a49dfac68d08
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICertProperties interface, ICertProperties interface [Security],Clear method, ICertProperties.Clear, ICertProperties::Clear, certenroll/ICertProperties::Clear, security.icertproperties_clear_method
-ms.topic: method
 f1_keywords:
 - certenroll/ICertProperties.Clear
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 54bf7114-0ebb-4d9c-bc67-2ac351dbe55d
 ms.date: 12/05/2018
 ms.keywords: CloseEncryptedFileRaw, CloseEncryptedFileRaw function [Files], base.closeencryptedfileraw, fs.closeencryptedfileraw, winbase/CloseEncryptedFileRaw
-ms.topic: function
 f1_keywords:
 - winbase/CloseEncryptedFileRaw
 dev_langs:

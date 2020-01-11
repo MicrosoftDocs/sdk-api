@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 0e213ba0-3993-41da-8ddd-5ecde7942a95
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0, IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0 structure [Filtering], fwp.ipsec_sa_auth_and_cipher_information0_struct, ipsectypes/IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0
-ms.topic: struct
 f1_keywords:
 - ipsectypes/IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0
 dev_langs:

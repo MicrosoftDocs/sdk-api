@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 317e2d37-432b-41ae-a1ef-66e2dd31a21c
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetPosition, MCIWndGetPosition macro [Windows Multimedia], _win32_MCIWndGetPosition, multimedia.mciwndgetposition, vfw/MCIWndGetPosition
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndGetPosition
 dev_langs:

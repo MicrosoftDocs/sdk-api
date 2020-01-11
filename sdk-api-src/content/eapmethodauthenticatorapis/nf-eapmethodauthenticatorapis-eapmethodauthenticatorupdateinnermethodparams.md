@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 13ca6504-63c6-4dd6-a3bf-0f3929bc527f
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorUpdateInnerMethodParams, EapMethodAuthenticatorUpdateInnerMethodParams function [EAPHost], eaphost.eapmethodauthenticatorupdateinnermethodparams, eapmethodauthenticatorapis/EapMethodAuthenticatorUpdateInnerMethodParams
-ms.topic: function
 f1_keywords:
 - eapmethodauthenticatorapis/EapMethodAuthenticatorUpdateInnerMethodParams
 dev_langs:

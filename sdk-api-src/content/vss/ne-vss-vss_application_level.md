@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: fc7fbaee-d223-4557-987d-2c09f3877ec2
 ms.date: 12/05/2018
 ms.keywords: '*PVSS_APPLICATION_LEVEL, PVSS_APPLICATION_LEVEL, PVSS_APPLICATION_LEVEL enumeration pointer [VSS], VSS_APPLICATION_LEVEL, VSS_APPLICATION_LEVEL enumeration [VSS], VSS_APP_AUTO, VSS_APP_BACK_END, VSS_APP_FRONT_END, VSS_APP_SYSTEM, VSS_APP_UNKNOWN, _win32_vss_application_level, base.vss_application_level, vss/PVSS_APPLICATION_LEVEL, vss/VSS_APPLICATION_LEVEL, vss/VSS_APP_AUTO, vss/VSS_APP_BACK_END, vss/VSS_APP_FRONT_END, vss/VSS_APP_SYSTEM, vss/VSS_APP_UNKNOWN'
-ms.topic: enum
 f1_keywords:
 - vss/VSS_APPLICATION_LEVEL
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: b8b9a332-ce28-46d4-92e2-91f9f6c24da5
 ms.date: 12/05/2018
 ms.keywords: PdhAddCounter, PdhAddCounter function [Perf], PdhAddCounterA, PdhAddCounterW, _win32_pdhaddcounter, base.pdhaddcounter, pdh/PdhAddCounter, pdh/PdhAddCounterA, pdh/PdhAddCounterW, perf.pdhaddcounter
-ms.topic: function
 f1_keywords:
 - pdh/PdhAddCounter
 dev_langs:

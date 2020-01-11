@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 53ca84c5-6f6e-403f-baff-6b2ce66c2ce9
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenterConfig9 interface [DirectShow],SetRenderingPrefs method, IVMRImagePresenterConfig9.SetRenderingPrefs, IVMRImagePresenterConfig9::SetRenderingPrefs, IVMRImagePresenterConfig9SetRenderingPrefs, SetRenderingPrefs, SetRenderingPrefs method [DirectShow], SetRenderingPrefs method [DirectShow],IVMRImagePresenterConfig9 interface, dshow.ivmrimagepresenterconfig9_setrenderingprefs, vmr9/IVMRImagePresenterConfig9::SetRenderingPrefs
-ms.topic: method
 f1_keywords:
 - vmr9/IVMRImagePresenterConfig9.SetRenderingPrefs
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 1873e20f-376a-45fe-ad02-0c28c894af18
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [windows Media Format], GetProperty method [windows Media Format],IWMIStreamProps interface, IWMIStreamProps interface [windows Media Format],GetProperty method, IWMIStreamProps.GetProperty, IWMIStreamProps::GetProperty, IWMIStreamPropsGetProperty, wmformat.iwmistreamprops_getproperty, wmsdkidl/IWMIStreamProps::GetProperty
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMIStreamProps.GetProperty
 dev_langs:

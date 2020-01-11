@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: ae631417-a83d-48d9-be9b-61424321ffd0
 ms.date: 12/05/2018
 ms.keywords: InventoryNtmsLibrary, InventoryNtmsLibrary function [Files], NTMS_INVENTORY_DEFAULT, NTMS_INVENTORY_FAST, NTMS_INVENTORY_OMID, NTMS_INVENTORY_STOP, _zaw_inventoryntmslibrary, base.inventoryntmslibrary, fs.inventoryntmslibrary, ntmsapi/InventoryNtmsLibrary
-ms.topic: function
 f1_keywords:
 - ntmsapi/InventoryNtmsLibrary
 dev_langs:

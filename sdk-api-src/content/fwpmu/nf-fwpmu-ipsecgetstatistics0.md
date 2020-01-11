@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: f33aad79-bc42-4f75-bc24-5d9838c02745
 ms.date: 12/05/2018
 ms.keywords: IPsecGetStatistics0, IPsecGetStatistics0 function [Filtering], fwp.ipsecgetstatistics0_func, fwpmu/IPsecGetStatistics0
-ms.topic: function
 f1_keywords:
 - fwpmu/IPsecGetStatistics0
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: b5ca5f76-d40b-4abf-925a-0de54fc476e4
 ms.date: 12/05/2018
 ms.keywords: 1, 2, 3, 4, NetUserAdd, NetUserAdd function [Network Management], _win32_netuseradd, lmaccess/NetUserAdd, netmgmt.netuseradd
-ms.topic: function
 f1_keywords:
 - lmaccess/NetUserAdd
 dev_langs:

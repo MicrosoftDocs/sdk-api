@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: A25788DC-83EE-455F-BC73-67639F47FFEC
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetSize method, IDCompositionTurbulenceEffect.SetSize, IDCompositionTurbulenceEffect::SetSize, SetSize, SetSize method [DirectComposition], SetSize method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetSize, directcomp.idcompositionturbulenceeffect_setsize
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionTurbulenceEffect.SetSize
 dev_langs:

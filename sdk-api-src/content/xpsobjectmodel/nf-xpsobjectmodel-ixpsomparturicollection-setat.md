@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: b41602ae-7d9e-48e4-b9f4-8db09e65f5c8
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPartUriCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMPartUriCollection.SetAt, IXpsOMPartUriCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, xps.ixpsomparturicollection_setat, xpsobjectmodel/IXpsOMPartUriCollection::SetAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPartUriCollection.SetAt
 dev_langs:

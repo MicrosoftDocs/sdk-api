@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 05a862e9-51db-442d-bdce-1209cb718b6f
 ms.date: 12/05/2018
 ms.keywords: WSDCreateHttpAddress, WSDCreateHttpAddress function, ncd.wsdcreatehttpaddress, wsdbase/WSDCreateHttpAddress
-ms.topic: function
 f1_keywords:
 - wsdbase/WSDCreateHttpAddress
 dev_langs:

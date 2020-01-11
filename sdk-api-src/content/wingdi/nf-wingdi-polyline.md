@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 55481dd0-3db7-4131-b383-4d0036943e60
 ms.date: 12/05/2018
 ms.keywords: Polyline, Polyline function [Windows GDI], _win32_Polyline, gdi.polyline, wingdi/Polyline
-ms.topic: function
 f1_keywords:
 - wingdi/Polyline
 dev_langs:

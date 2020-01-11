@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 9B832530-54B8-4D18-A5E4-4F4CAE65073A
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationInteractionEventHandler, IDirectManipulationInteractionEventHandler interface [Direct Manipulation], IDirectManipulationInteractionEventHandler interface [Direct Manipulation],described, directmanipulation.idirectmanipulationinteractioneventhandler, directmanipulation/IDirectManipulationInteractionEventHandler
-ms.topic: interface
 f1_keywords:
 - directmanipulation/IDirectManipulationInteractionEventHandler
 dev_langs:

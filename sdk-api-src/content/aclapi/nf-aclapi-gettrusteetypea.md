@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 19777929-43cf-45ea-8283-e42bf9ce8d7a
 ms.date: 12/05/2018
 ms.keywords: GetTrusteeType, GetTrusteeType function [Security], GetTrusteeTypeA, GetTrusteeTypeW, _win32_gettrusteetype, aclapi/GetTrusteeType, aclapi/GetTrusteeTypeA, aclapi/GetTrusteeTypeW, security.gettrusteetype
-ms.topic: function
 f1_keywords:
 - aclapi/GetTrusteeType
 dev_langs:

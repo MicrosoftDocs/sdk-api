@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 4386030d-4ce6-4b2e-adc5-a15ddc869349
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_NO_KEY_VALIDATION, NCRYPT_SILENT_FLAG, NCRYPT_WRITE_KEY_TO_LEGACY_STORE_FLAG, NCryptFinalizeKey, NCryptFinalizeKey function [Security], ncrypt/NCryptFinalizeKey, security.ncryptfinalizekey_func
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptFinalizeKey
 dev_langs:

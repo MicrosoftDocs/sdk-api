@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: a73dbd6d-d3f2-48d7-b053-b62f2f18f2d6
 ms.date: 12/05/2018
 ms.keywords: CoRegisterPSClsid, CoRegisterPSClsid function [COM], _com_CoRegisterPSClsid, com.coregisterpsclsid, combaseapi/CoRegisterPSClsid
-ms.topic: function
 f1_keywords:
 - combaseapi/CoRegisterPSClsid
 dev_langs:

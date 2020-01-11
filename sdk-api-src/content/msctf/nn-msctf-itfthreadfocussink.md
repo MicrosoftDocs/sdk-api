@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 17335fa9-01ee-4585-9454-f326b6281ab1
 ms.date: 12/05/2018
 ms.keywords: ITfThreadFocusSink, ITfThreadFocusSink interface [Text Services Framework], ITfThreadFocusSink interface [Text Services Framework],described, _tsf_itfthreadfocussink_ref, msctf/ITfThreadFocusSink, tsf.itfthreadfocussink
-ms.topic: interface
 f1_keywords:
 - msctf/ITfThreadFocusSink
 dev_langs:

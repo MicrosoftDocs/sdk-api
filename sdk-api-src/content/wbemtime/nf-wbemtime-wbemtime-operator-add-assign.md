@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: fedfce44-1da2-4443-8634-e341ffae999a
 ms.date: 12/05/2018
 ms.keywords: WBEMTime interface [Windows Management Instrumentation],operator+= method, WBEMTime.operator+=, WBEMTime.operator-add-assign, WBEMTime::operator+=, WBEMTime::operator-add-assign, _hmm_wbemtime_operator_plus_equal, operator+=, operator+= method [Windows Management Instrumentation], operator+= method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator+=, wmi.wbemtime_operator_plus_equal
-ms.topic: method
 f1_keywords:
 - wbemtime/WBEMTime.operator+=
 dev_langs:

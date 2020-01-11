@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 53b2aa38-b007-4938-8fdb-c3482735ae36
 ms.date: 12/05/2018
 ms.keywords: '*PDD_CREATEMOCOMPDATA, DD_CREATEMOCOMPDATA, DD_CREATEMOCOMPDATA structure [Display Devices], ddrawint/DD_CREATEMOCOMPDATA, ddstrcts_776346bf-3538-4965-b747-a017a7c21514.xml, display.dd_createmocompdata'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_CREATEMOCOMPDATA
 dev_langs:

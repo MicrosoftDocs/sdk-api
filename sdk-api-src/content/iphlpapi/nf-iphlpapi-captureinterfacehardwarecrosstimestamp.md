@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: FB3C27CD-7D56-40F3-9DF9-A1115772D1C6
 ms.date: 12/05/2018
 ms.keywords: CaptureInterfaceHardwareCrossTimestamp, CaptureInterfaceHardwareCrossTimestamp function [IP Helper], iphlp.captureinterfacehardwarecrosstimestamp, iphlpapi/CaptureInterfaceHardwareCrossTimestamp
-ms.topic: function
 f1_keywords:
 - iphlpapi/CaptureInterfaceHardwareCrossTimestamp
 dev_langs:

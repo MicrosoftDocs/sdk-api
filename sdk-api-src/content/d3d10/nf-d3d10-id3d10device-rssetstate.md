@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_rssetstate.htm
 ms.date: 12/05/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],RSSetState method, ID3D10Device.RSSetState, ID3D10Device::RSSetState, RSSetState, RSSetState method [Direct3D 10], RSSetState method [Direct3D 10],ID3D10Device interface, a9a649fb-abd5-0934-b091-8a577434dfdc, d3d10/ID3D10Device::RSSetState, direct3d10.id3d10device_rssetstate
-ms.topic: method
 f1_keywords:
 - d3d10/ID3D10Device.RSSetState
 dev_langs:

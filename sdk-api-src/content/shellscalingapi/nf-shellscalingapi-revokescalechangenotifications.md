@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 95F1D147-D364-4b11-AE2B-CD1FCEA07B5D
 ms.date: 12/05/2018
 ms.keywords: RevokeScaleChangeNotifications, RevokeScaleChangeNotifications function [Windows Shell], shell.RevokeScaleChangeNotifications, shellscalingapi/RevokeScaleChangeNotifications
-ms.topic: function
 f1_keywords:
 - shellscalingapi/RevokeScaleChangeNotifications
 dev_langs:

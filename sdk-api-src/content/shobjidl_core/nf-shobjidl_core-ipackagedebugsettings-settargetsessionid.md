@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a7794703-08ff-40a8-8807-a09e35a4bb8f
 ms.date: 12/05/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],SetTargetSessionId method, IPackageDebugSettings.SetTargetSessionId, IPackageDebugSettings::SetTargetSessionId, SetTargetSessionId, SetTargetSessionId method [Windows Shell], SetTargetSessionId method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_SetTargetSessionId, shobjidl_core/IPackageDebugSettings::SetTargetSessionId
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IPackageDebugSettings.SetTargetSessionId
 dev_langs:

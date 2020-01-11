@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 31FDA8BD-C837-4CA4-8635-D4A7B53AC7AC
 ms.date: 12/05/2018
 ms.keywords: MFCreateFMPEG4MediaSink, MFCreateFMPEG4MediaSink function [Media Foundation], mf.mfcreatefmpeg4mediasink, mfidl/MFCreateFMPEG4MediaSink
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreateFMPEG4MediaSink
 dev_langs:

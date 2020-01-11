@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: de294893-e78a-4b51-9a48-0c71f91b6fde
 ms.date: 12/05/2018
 ms.keywords: DSROLE_OPERATION_STATE, DSROLE_OPERATION_STATE enumeration [Active Directory], DsRoleOperationActive, DsRoleOperationIdle, DsRoleOperationNeedReboot, ad.dsrole_operation_state, dsrole/DSROLE_OPERATION_STATE, dsrole/DsRoleOperationActive, dsrole/DsRoleOperationIdle, dsrole/DsRoleOperationNeedReboot
-ms.topic: enum
 f1_keywords:
 - dsrole/DSROLE_OPERATION_STATE
 dev_langs:

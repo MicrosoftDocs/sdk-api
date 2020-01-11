@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: FF89301E-FE17-4B14-872E-271BDB85A784
 ms.date: 12/05/2018
 ms.keywords: UnregisterServerForPMP, UnregisterServerForPMP function [Windows API], comppkgsup/UnregisterServerForPMP, winprog.unregisterserverforpmp
-ms.topic: function
 f1_keywords:
 - comppkgsup/UnregisterServerForPMP
 dev_langs:

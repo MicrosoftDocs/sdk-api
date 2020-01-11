@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: a0facf08-1b03-415b-b97e-3fda5a164b89
 ms.date: 12/05/2018
 ms.keywords: ITAllocatorProperties, ITAllocatorProperties interface [TAPI 2.2], ITAllocatorProperties interface [TAPI 2.2],described, _tapi3_itallocatorproperties, tapi3.itallocatorproperties, tapi3ds/ITAllocatorProperties
-ms.topic: interface
 f1_keywords:
 - tapi3ds/ITAllocatorProperties
 dev_langs:

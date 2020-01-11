@@ -4,7 +4,6 @@ title: DnsServiceRegisterCancel function
 description: Used to cancel a pending registration operation.
 ms.date: 02/14/2019
 ms.keywords: DnsServiceRegisterCancel
-ms.topic: language-reference
 f1_keywords:
 - windns/DnsServiceRegisterCancel
 dev_langs:

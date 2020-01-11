@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 864b7560-3f19-4a73-a02b-b82caa88b2de
 ms.date: 12/05/2018
 ms.keywords: '*PWTSCLIENTW, PWTSCLIENT, PWTSCLIENT structure pointer [Remote Desktop Services], WTSCLIENT, WTSCLIENT structure [Remote Desktop Services], WTSCLIENTA, WTSCLIENTW, termserv.wtsclient, wtsapi32/PWTSCLIENT, wtsapi32/WTSCLIENT, wtsapi32/WTSCLIENTA, wtsapi32/WTSCLIENTW'
-ms.topic: struct
 f1_keywords:
 - wtsapi32/WTSCLIENT
 dev_langs:

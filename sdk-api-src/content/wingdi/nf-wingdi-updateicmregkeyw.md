@@ -7,7 +7,6 @@ tech.root: WCS
 ms.assetid: 705b9671-7bf2-4a47-a3a5-42dd0f334338
 ms.date: 12/05/2018
 ms.keywords: ICM_ADDPROFILE, ICM_DELETEPROFILE, ICM_QUERYMATCH, ICM_QUERYPROFILE, ICM_REGISTERICMATCHER, ICM_SETDEFAULTPROFILE, ICM_UNREGISTERICMATCHER, UpdateICMRegKey, UpdateICMRegKey function [Windows Color System], UpdateICMRegKeyA, UpdateICMRegKeyW, _color_UpdateICMRegKey, wcs.updateicmregkey, wingdi/UpdateICMRegKey, wingdi/UpdateICMRegKeyA, wingdi/UpdateICMRegKeyW
-ms.topic: function
 f1_keywords:
 - wingdi/UpdateICMRegKey
 dev_langs:

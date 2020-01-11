@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: e0826a25-1c50-4757-9355-69eb4946e8dd
 ms.date: 12/05/2018
 ms.keywords: HttpServerAuthenticationProperty, HttpServerBindingProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, HttpSetUrlGroupProperty, HttpSetUrlGroupProperty function [HTTP], http.httpseturlgroupproperty, http/HttpSetUrlGroupProperty
-ms.topic: function
 f1_keywords:
 - http/HttpSetUrlGroupProperty
 dev_langs:

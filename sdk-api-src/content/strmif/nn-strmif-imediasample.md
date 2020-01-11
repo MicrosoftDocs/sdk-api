@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 883e5e3b-db91-4806-96cc-c6f8cddfcca6
 ms.date: 12/05/2018
 ms.keywords: IMediaSample, IMediaSample interface [DirectShow], IMediaSample interface [DirectShow],described, IMediaSampleInterface, dshow.imediasample, strmif/IMediaSample
-ms.topic: interface
 f1_keywords:
 - strmif/IMediaSample
 dev_langs:

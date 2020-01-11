@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 4ce48038-bfcf-4b1f-8053-3446929a5f06
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], IAMExtTransport interface [DirectShow],described, IAMExtTransportInterface, dshow.iamexttransport, strmif/IAMExtTransport
-ms.topic: interface
 f1_keywords:
 - strmif/IAMExtTransport
 dev_langs:

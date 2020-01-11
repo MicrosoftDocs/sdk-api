@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 0660a1cb-904e-4ed0-bbc8-9903e8848f4e
 ms.date: 12/05/2018
 ms.keywords: FsrmFileScreenTemplateManager class [File Server Resource Manager],ImportTemplates method, IFsrmFileScreenTemplateManager interface [File Server Resource Manager],ImportTemplates method, IFsrmFileScreenTemplateManager.ImportTemplates, IFsrmFileScreenTemplateManager::ImportTemplates, ImportTemplates, ImportTemplates method [File Server Resource Manager], ImportTemplates method [File Server Resource Manager],FsrmFileScreenTemplateManager class, ImportTemplates method [File Server Resource Manager],IFsrmFileScreenTemplateManager interface, fs.ifsrmfilescreentemplatemanager_importtemplates, fsrm.ifsrmfilescreentemplatemanager_importtemplates, fsrmscreen/IFsrmFileScreenTemplateManager::ImportTemplates
-ms.topic: method
 f1_keywords:
 - fsrmscreen/IFsrmFileScreenTemplateManager.ImportTemplates
 dev_langs:

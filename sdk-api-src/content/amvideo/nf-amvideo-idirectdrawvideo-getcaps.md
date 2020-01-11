@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d63437e3-4e8a-49de-b555-db29d235569d
 ms.date: 12/05/2018
 ms.keywords: GetCaps, GetCaps method [DirectShow], GetCaps method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetCaps method, IDirectDrawVideo.GetCaps, IDirectDrawVideo::GetCaps, IDirectDrawVideoGetCaps, amvideo/IDirectDrawVideo::GetCaps, dshow.idirectdrawvideo_getcaps
-ms.topic: method
 f1_keywords:
 - amvideo/IDirectDrawVideo.GetCaps
 dev_langs:

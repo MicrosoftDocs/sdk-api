@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 3f79bf84-c7b9-4291-ae3b-7061fe3199e9
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],Query method, IVssBackupComponents.Query, IVssBackupComponents::Query, Query, Query method [VSS], Query method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_query, base.ivssbackupcomponents_query, vsbackup/IVssBackupComponents::Query
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.Query
 dev_langs:

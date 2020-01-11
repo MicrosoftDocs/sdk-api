@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: e04f0c47-ab89-49e4-aac6-028d2555ecf1
 ms.date: 12/05/2018
 ms.keywords: IRegistrationInfo, IRegistrationInfo interface [Task Scheduler], IRegistrationInfo interface [Task Scheduler],described, registration information [Task Scheduler],interface, taskschd.iregistrationinfo, taskschd/IRegistrationInfo
-ms.topic: interface
 f1_keywords:
 - taskschd/IRegistrationInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 7a31e45a-7d38-44b7-84c7-7471bc14cc94
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,Stop method, IWSDDeviceHost.Stop, IWSDDeviceHost::Stop, Stop, Stop method, Stop method,IWSDDeviceHost interface, ncd.iwsddevicehost_stop_method, wsdhost/IWSDDeviceHost::Stop
-ms.topic: method
 f1_keywords:
 - wsdhost/IWSDDeviceHost.Stop
 dev_langs:

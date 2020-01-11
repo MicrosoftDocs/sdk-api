@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: a0688b03-6f91-4b8e-88d1-b40af69fe8bb
 ms.date: 12/05/2018
 ms.keywords: WSDXMLAddChild, WSDXMLAddChild function, ncd.wsdxmladdchild, wsdutil/WSDXMLAddChild
-ms.topic: function
 f1_keywords:
 - wsdutil/WSDXMLAddChild
 dev_langs:

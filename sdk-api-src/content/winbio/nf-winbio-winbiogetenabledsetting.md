@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 5f66ba51-f84e-458b-9561-535871cbb24d
 ms.date: 12/05/2018
 ms.keywords: WINBIO_SETTING_SOURCE_DEFAULT, WINBIO_SETTING_SOURCE_INVALID, WINBIO_SETTING_SOURCE_LOCAL, WINBIO_SETTING_SOURCE_POLICY, WinBioGetEnabledSetting, WinBioGetEnabledSetting function [Windows Biometric Framework API], secbiomet.winbiogetenabledsetting, winbio/WinBioGetEnabledSetting
-ms.topic: function
 f1_keywords:
 - winbio/WinBioGetEnabledSetting
 dev_langs:

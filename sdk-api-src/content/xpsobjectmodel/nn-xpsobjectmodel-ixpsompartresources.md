@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 9f706f23-25a0-40ee-93f4-3d7ac98ad6ed
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPartResources, IXpsOMPartResources interface [XPS Documents and Packaging], IXpsOMPartResources interface [XPS Documents and Packaging],described, xps.ixpsompartresources, xpsobjectmodel/IXpsOMPartResources
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMPartResources
 dev_langs:

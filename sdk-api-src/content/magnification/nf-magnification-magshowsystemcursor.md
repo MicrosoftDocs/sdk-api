@@ -7,7 +7,6 @@ tech.root: magapi
 ms.assetid: 0C4D92D8-9B06-4592-A0FF-8AE4378E5641
 ms.date: 12/05/2018
 ms.keywords: MagShowSystemCursor, MagShowSystemCursor function [Magnification API], magapi.magapi_magshowsystemcursor, magnification/MagShowSystemCursor
-ms.topic: function
 f1_keywords:
 - magnification/MagShowSystemCursor
 dev_langs:

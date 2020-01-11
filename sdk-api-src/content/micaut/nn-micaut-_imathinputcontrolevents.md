@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: e055ab45-53a8-4795-aff6-72987faad5ef
 ms.date: 12/05/2018
 ms.keywords: _IMathInputControlEvents, _IMathInputControlEvents interface [Tablet PC], _IMathInputControlEvents interface [Tablet PC],described, micaut/_IMathInputControlEvents, tablet._imathinputcontrolevents
-ms.topic: interface
 f1_keywords:
 - micaut/_IMathInputControlEvents
 dev_langs:

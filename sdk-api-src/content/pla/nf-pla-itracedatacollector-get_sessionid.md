@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: bcbe5dba-6d45-4b0a-a66a-68ce03b493bf
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],SessionId property, ITraceDataCollector.SessionId, ITraceDataCollector.get_SessionId, ITraceDataCollector::SessionId, ITraceDataCollector::get_SessionId, SessionId property [PLA], SessionId property [PLA],ITraceDataCollector interface, base.itracedatacollector_sessionid, get_SessionId, pla.itracedatacollector_sessionid, pla/ITraceDataCollector::SessionId, pla/ITraceDataCollector::get_SessionId
-ms.topic: method
 f1_keywords:
 - pla/ITraceDataCollector.SessionId
 dev_langs:

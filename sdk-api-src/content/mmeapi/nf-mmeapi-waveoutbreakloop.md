@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: e2cbbd22-09be-4757-a659-94cc6e4a0a5b
 ms.date: 12/05/2018
 ms.keywords: _win32_waveOutBreakLoop, mmeapi/waveOutBreakLoop, multimedia.waveoutbreakloop, waveOutBreakLoop, waveOutBreakLoop function [Windows Multimedia]
-ms.topic: function
 f1_keywords:
 - mmeapi/waveOutBreakLoop
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: ce4f76be-caee-49f3-98b6-ee4309bca484
 ms.date: 12/05/2018
 ms.keywords: FwpmNetEventsSetSecurityInfo0, FwpmNetEventsSetSecurityInfo0 function [Filtering], fwp.fwpmneteventssetsecurityinfo0, fwpmu/FwpmNetEventsSetSecurityInfo0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmNetEventsSetSecurityInfo0
 dev_langs:

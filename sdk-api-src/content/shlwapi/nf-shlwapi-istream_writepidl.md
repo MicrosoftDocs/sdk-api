@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 29b6a42b-08bd-4b5f-92ad-a6456e7a6f98
 ms.date: 12/05/2018
 ms.keywords: IStream_WritePidl, IStream_WritePidl function [Windows Shell], _shell_IStream_WritePidl, shell.IStream_WritePidl, shlwapi/IStream_WritePidl
-ms.topic: function
 f1_keywords:
 - shlwapi/IStream_WritePidl
 dev_langs:

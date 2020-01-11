@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5c79d3e2-c1c9-4529-9a60-457c2d2e6af5
 ms.date: 12/05/2018
 ms.keywords: IEnumObjects interface [Windows Shell],Next method, IEnumObjects.Next, IEnumObjects::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumObjects interface, _shell_IEnumObjects_Next, shell.IEnumObjects_Next, shobjidl_core/IEnumObjects::Next
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IEnumObjects.Next
 dev_langs:

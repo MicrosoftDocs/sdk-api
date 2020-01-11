@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 843e8d93-3191-42e6-aa7b-d78b3b3370ec
 ms.date: 12/05/2018
 ms.keywords: WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE, WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE structure [Web Services for Windows], webservices/WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE, wsw.ws_ncrypt_asymmetric_security_key_handle
-ms.topic: struct
 f1_keywords:
 - webservices/WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE
 dev_langs:

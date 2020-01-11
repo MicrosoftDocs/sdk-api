@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: ab015f92-498e-44c7-95c9-869dfdfccc09
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],SetLiveSource method, IWMWriterAdvanced.SetLiveSource, IWMWriterAdvanced::SetLiveSource, IWMWriterAdvancedSetLiveSource, SetLiveSource, SetLiveSource method [windows Media Format], SetLiveSource method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_setlivesource, wmsdkidl/IWMWriterAdvanced::SetLiveSource
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriterAdvanced.SetLiveSource
 dev_langs:

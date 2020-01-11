@@ -5,7 +5,6 @@ description: Represents the minimum and maximum range of the possible values for
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: DWRITE_FONT_AXIS_RANGE, DWRITE_FONT_AXIS_RANGE structure [Direct Write], directwrite.dwrite_font_axis_range, dwrite_3/DWRITE_FONT_AXIS_RANGE
-ms.topic: struct
 f1_keywords:
 - dwrite_3/DWRITE_FONT_AXIS_RANGE
 dev_langs:

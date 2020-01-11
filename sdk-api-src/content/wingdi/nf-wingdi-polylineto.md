@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 76020742-b651-4244-82c3-13034573c306
 ms.date: 12/05/2018
 ms.keywords: PolylineTo, PolylineTo function [Windows GDI], _win32_PolylineTo, gdi.polylineto, wingdi/PolylineTo
-ms.topic: function
 f1_keywords:
 - wingdi/PolylineTo
 dev_langs:

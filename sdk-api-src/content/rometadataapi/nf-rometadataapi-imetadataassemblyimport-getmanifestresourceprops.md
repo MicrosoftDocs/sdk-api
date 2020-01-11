@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: caa859c8-de40-4de6-bf90-41104cef91b2
 ms.date: 12/05/2018
 ms.keywords: GetManifestResourceProps, GetManifestResourceProps method [Windows Runtime], GetManifestResourceProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetManifestResourceProps method, IMetaDataAssemblyImport.GetManifestResourceProps, IMetaDataAssemblyImport::GetManifestResourceProps, rometadataapi/IMetaDataAssemblyImport::GetManifestResourceProps, winrt.imetadataassemblyimport_getmanifestresourceprops
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataAssemblyImport.GetManifestResourceProps
 dev_langs:

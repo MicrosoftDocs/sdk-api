@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: d56bc0c8-0a63-48c8-bc2c-e3b4c2f313b8
 ms.date: 12/05/2018
 ms.keywords: GetRow, GetRow method [Windows Runtime], GetRow method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetRow method, IMetaDataTables.GetRow, IMetaDataTables::GetRow, rometadataapi/IMetaDataTables::GetRow, winrt.imetadatatables_getrow
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataTables.GetRow
 dev_langs:

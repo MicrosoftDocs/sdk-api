@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_usenotificationsonly.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],get_UseNotificationsOnly method, ISearchRoot.get_UseNotificationsOnly, ISearchRoot::get_UseNotificationsOnly, _search_ISearchRoot_get_UseNotificationsOnly, get_UseNotificationsOnly, get_UseNotificationsOnly method [search], get_UseNotificationsOnly method [search],ISearchRoot interface, search._search_ISearchRoot_get_UseNotificationsOnly, searchapi/ISearchRoot::get_UseNotificationsOnly
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchRoot.get_UseNotificationsOnly
 dev_langs:

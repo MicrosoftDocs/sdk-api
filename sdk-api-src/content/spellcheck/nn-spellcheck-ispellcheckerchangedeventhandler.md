@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 9dd1f768-a901-4682-9530-019fe1dfbf0b
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckerChangedEventHandler, ISpellCheckerChangedEventHandler interface [Internationalization for Windows Applications], ISpellCheckerChangedEventHandler interface [Internationalization for Windows Applications],described, intl.ispellcheckerchangedeventhandler, spellcheck/ISpellCheckerChangedEventHandler
-ms.topic: interface
 f1_keywords:
 - spellcheck/ISpellCheckerChangedEventHandler
 dev_langs:

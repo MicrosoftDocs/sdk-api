@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_6a5n.htm
 ms.date: 12/05/2018
 ms.keywords: STAT_CHUNK, STAT_CHUNK structure [Indexing Service], _idxs_STAT_CHUNK, filter/STAT_CHUNK, indexsrv.stat_chunk, tagSTAT_CHUNK
-ms.topic: struct
 f1_keywords:
 - filter/STAT_CHUNK
 dev_langs:

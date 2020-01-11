@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 0f1faea7-4272-42da-afdf-3399c9dd629f
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_SessionStartBlock method, IFileSystemImage.get_SessionStartBlock, IFileSystemImage::get_SessionStartBlock, get_SessionStartBlock, get_SessionStartBlock method [IMAPI], get_SessionStartBlock method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_sessionstartblock, imapi2fs/IFileSystemImage::get_SessionStartBlock
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFileSystemImage.get_SessionStartBlock
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 9571bff3-dfe5-48fa-be51-38d61da40414
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],DeleteApplicationGroup method, DeleteApplicationGroup, DeleteApplicationGroup method [Security], DeleteApplicationGroup method [Security],AzScope object, DeleteApplicationGroup method [Security],IAzScope interface, IAzScope interface [Security],DeleteApplicationGroup method, IAzScope.DeleteApplicationGroup, IAzScope::DeleteApplicationGroup, azroles/IAzScope::DeleteApplicationGroup, security.iazscope_deleteapplicationgroup
-ms.topic: method
 f1_keywords:
 - azroles/IAzScope.DeleteApplicationGroup
 dev_langs:

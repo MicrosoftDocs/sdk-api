@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: ca0f43b2-2b8f-4b22-8674-8223f0c607ab
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [Automation], GetSize method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetSize method, IRecordInfo.GetSize, IRecordInfo::GetSize, _oa96_IRecordInfo_GetSize, automat.irecordinfo_getsize, oaidl/IRecordInfo::GetSize
-ms.topic: method
 f1_keywords:
 - oaidl/IRecordInfo.GetSize
 dev_langs:

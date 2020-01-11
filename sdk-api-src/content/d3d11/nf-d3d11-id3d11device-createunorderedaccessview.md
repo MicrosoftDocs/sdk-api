@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 85b85114-4e3f-407e-879c-ef4c120cb3c1
 ms.date: 12/05/2018
 ms.keywords: CreateUnorderedAccessView, CreateUnorderedAccessView method [Direct3D 11], CreateUnorderedAccessView method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateUnorderedAccessView method, ID3D11Device.CreateUnorderedAccessView, ID3D11Device::CreateUnorderedAccessView, d3d11/ID3D11Device::CreateUnorderedAccessView, direct3d11.id3d11device_createunorderedaccessview, e40c2139-4401-eb51-d806-6b5f91c06ee6
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11Device.CreateUnorderedAccessView
 dev_langs:

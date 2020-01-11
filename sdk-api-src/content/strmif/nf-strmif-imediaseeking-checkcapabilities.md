@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d0062f66-213d-4f91-9f73-780be39ee432
 ms.date: 12/05/2018
 ms.keywords: CheckCapabilities, CheckCapabilities method [DirectShow], CheckCapabilities method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],CheckCapabilities method, IMediaSeeking.CheckCapabilities, IMediaSeeking::CheckCapabilities, IMediaSeekingCheckCapabilities, dshow.imediaseeking_checkcapabilities, strmif/IMediaSeeking::CheckCapabilities
-ms.topic: method
 f1_keywords:
 - strmif/IMediaSeeking.CheckCapabilities
 dev_langs:

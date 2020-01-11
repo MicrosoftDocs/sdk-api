@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 8786d7d8-9ffb-4492-9834-90b97f97e4cf
 ms.date: 12/05/2018
 ms.keywords: EnumPeers, EnumPeers method [BITS], EnumPeers method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],EnumPeers method, IBitsPeerCacheAdministration.EnumPeers, IBitsPeerCacheAdministration::EnumPeers, bits.ibitspeercacheadministration_enumpeers, bits3_0/IBitsPeerCacheAdministration::EnumPeers
-ms.topic: method
 f1_keywords:
 - bits3_0/IBitsPeerCacheAdministration.EnumPeers
 dev_langs:

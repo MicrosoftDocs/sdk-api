@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 5e36f052-a539-4020-8899-fb14c792c666
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLatticeElements, IEnumTfLatticeElements interface [Text Services Framework], IEnumTfLatticeElements interface [Text Services Framework],described, _tsf_ienumtflatticeelements_ref, ctffunc/IEnumTfLatticeElements, tsf.ienumtflatticeelements
-ms.topic: interface
 f1_keywords:
 - ctffunc/IEnumTfLatticeElements
 dev_langs:

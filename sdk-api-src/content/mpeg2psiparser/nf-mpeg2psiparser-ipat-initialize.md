@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 51aa6d14-655c-4800-87f0-85d9a77b6c15
 ms.date: 12/05/2018
 ms.keywords: IPAT interface [Microsoft TV Technologies],Initialize method, IPAT.Initialize, IPAT::Initialize, IPATInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IPAT interface, mpeg2psiparser/IPAT::Initialize, mstv.ipat_initialize
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/IPAT.Initialize
 dev_langs:

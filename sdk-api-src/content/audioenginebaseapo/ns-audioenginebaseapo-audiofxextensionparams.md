@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 832F1190-ED3E-4059-AB45-18C23D98663B
 ms.date: 12/05/2018
 ms.keywords: AudioFXExtensionParams, AudioFXExtensionParams structure [Audio Devices], PAudioFXExtensionParams, PAudioFXExtensionParams structure pointer [Audio Devices], audio.audiofxextensionparams, audioenginebaseapo/AudioFXExtensionParams, audioenginebaseapo/PAudioFXExtensionParams
-ms.topic: struct
 f1_keywords:
 - audioenginebaseapo/AudioFXExtensionParams
 dev_langs:

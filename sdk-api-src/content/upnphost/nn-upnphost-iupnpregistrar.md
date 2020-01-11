@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: c851e102-4f03-4a21-9e62-9b5c60a728f3
 ms.date: 12/05/2018
 ms.keywords: IUPnPRegistrar, IUPnPRegistrar interface [UPnP APIs], IUPnPRegistrar interface [UPnP APIs],described, _upnp_iupnpregistrar, upnp.iupnpregistrar, upnphost/IUPnPRegistrar
-ms.topic: interface
 f1_keywords:
 - upnphost/IUPnPRegistrar
 dev_langs:

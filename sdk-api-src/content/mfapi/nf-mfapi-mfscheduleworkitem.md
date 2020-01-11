@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: c14786e4-7fbe-4748-a6ba-e9e68f78b241
 ms.date: 12/05/2018
 ms.keywords: MFScheduleWorkItem, MFScheduleWorkItem function [Media Foundation], c14786e4-7fbe-4748-a6ba-e9e68f78b241, mf.mfscheduleworkitem, mfapi/MFScheduleWorkItem
-ms.topic: function
 f1_keywords:
 - mfapi/MFScheduleWorkItem
 dev_langs:

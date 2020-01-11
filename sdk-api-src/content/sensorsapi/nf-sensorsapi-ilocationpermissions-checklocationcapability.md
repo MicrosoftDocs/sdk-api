@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: B7D6268C-4A0D-490F-B1E7-573159EF7CFF
 ms.date: 12/05/2018
 ms.keywords: CheckLocationCapability, CheckLocationCapability method, CheckLocationCapability method,ILocationPermissions interface, ILocationPermissions interface,CheckLocationCapability method, ILocationPermissions.CheckLocationCapability, ILocationPermissions::CheckLocationCapability, sensorsapi/ILocationPermissions::CheckLocationCapability, winsensors.ilocationpermissions_checklocationcapability
-ms.topic: method
 f1_keywords:
 - sensorsapi/ILocationPermissions.CheckLocationCapability
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: f1e6616f-63ac-4afb-90dd-17a776d59eeb
 ms.date: 12/05/2018
 ms.keywords: WsSetMessageProperty, WsSetMessageProperty function [Web Services for Windows], webservices/WsSetMessageProperty, wsw.wssetmessageproperty
-ms.topic: function
 f1_keywords:
 - webservices/WsSetMessageProperty
 dev_langs:

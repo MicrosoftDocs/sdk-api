@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: b7a3eb72-6c9f-4164-a082-8b0951733dcb
 ms.date: 12/05/2018
 ms.keywords: EnumerateCompletionMessages, EnumerateCompletionMessages method [TAPI 2.2], EnumerateCompletionMessages method [TAPI 2.2],ITAddressCapabilities interface, ITAddressCapabilities interface [TAPI 2.2],EnumerateCompletionMessages method, ITAddressCapabilities.EnumerateCompletionMessages, ITAddressCapabilities::EnumerateCompletionMessages, _tapi3_itaddresscapabilities_enumeratecompletionmessages, tapi3.itaddresscapabilities_enumeratecompletionmessages, tapi3if/ITAddressCapabilities::EnumerateCompletionMessages
-ms.topic: method
 f1_keywords:
 - tapi3if/ITAddressCapabilities.EnumerateCompletionMessages
 dev_langs:

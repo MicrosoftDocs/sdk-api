@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_destroy.htm
 ms.date: 12/05/2018
 ms.keywords: DSA_Destroy, DSA_Destroy function [Windows Controls], _win32_DSA_Destroy, _win32_DSA_Destroy_cpp, controls.DSA_Destroy, controls._win32_DSA_Destroy, dpa_dsa/DSA_Destroy
-ms.topic: function
 f1_keywords:
 - dpa_dsa/DSA_Destroy
 dev_langs:

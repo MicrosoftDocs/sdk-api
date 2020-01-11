@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: e9482f82-a08a-498d-bad0-3a1438231b23
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Tablet PC], Clear method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],Clear method, IMathInputControl.Clear, IMathInputControl::Clear, micaut/IMathInputControl::Clear, tablet.imathinputcontrol_clear
-ms.topic: method
 f1_keywords:
 - micaut/IMathInputControl.Clear
 dev_langs:

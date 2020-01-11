@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 97f637df-3e0e-4349-a617-96b7c640b19d
 ms.date: 12/05/2018
 ms.keywords: '*LPNLSVERSIONINFOEX, LPNLSVERSIONINFOEX, LPNLSVERSIONINFOEX structure pointer [Internationalization for Windows Applications], NLSVERSIONINFOEX, NLSVERSIONINFOEX structure [Internationalization for Windows Applications], _win32_NLSVERSIONINFOEX_str, intl.nlsversioninfoex, winnls/LPNLSVERSIONINFOEX, winnls/NLSVERSIONINFOEX'
-ms.topic: struct
 f1_keywords:
 - winnls/NLSVERSIONINFOEX
 dev_langs:

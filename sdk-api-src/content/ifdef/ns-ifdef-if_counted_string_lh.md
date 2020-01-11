@@ -7,7 +7,6 @@ tech.root: NetVista
 ms.assetid: 44B59154-C5CA-42F0-A972-021833E29D81
 ms.date: 12/05/2018
 ms.keywords: '*PIF_COUNTED_STRING, *PIF_COUNTED_STRING_LH, IF_COUNTED_STRING, IF_COUNTED_STRING structure [Network Drivers Starting with Windows Vista], IF_COUNTED_STRING_LH, PIF_COUNTED_STRING, PIF_COUNTED_STRING structure pointer [Network Drivers Starting with Windows Vista], ifdef/IF_COUNTED_STRING, ifdef/PIF_COUNTED_STRING, netvista.if_counted_string'
-ms.topic: struct
 f1_keywords:
 - ifdef/IF_COUNTED_STRING
 dev_langs:

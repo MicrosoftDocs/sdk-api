@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 6b5474d2-a97e-4446-b4a9-7efb51c31ad3
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [XPS Documents and Packaging], GetTransform method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetTransform method, IXpsOMGradientBrush.GetTransform, IXpsOMGradientBrush::GetTransform, xps.ixpsomgradientbrush_gettransform, xpsobjectmodel/IXpsOMGradientBrush::GetTransform
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGradientBrush.GetTransform
 dev_langs:

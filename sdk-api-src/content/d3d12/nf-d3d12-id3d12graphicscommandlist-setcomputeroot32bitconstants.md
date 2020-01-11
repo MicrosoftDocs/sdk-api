@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: A4623522-4748-4999-80EC-E6AC8934136A
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetComputeRoot32BitConstants method, ID3D12GraphicsCommandList.SetComputeRoot32BitConstants, ID3D12GraphicsCommandList::SetComputeRoot32BitConstants, SetComputeRoot32BitConstants, SetComputeRoot32BitConstants method, SetComputeRoot32BitConstants method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetComputeRoot32BitConstants, direct3d12.id3d12graphicscommandlist_setcomputeroot32bitconstants
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12GraphicsCommandList.SetComputeRoot32BitConstants
 dev_langs:

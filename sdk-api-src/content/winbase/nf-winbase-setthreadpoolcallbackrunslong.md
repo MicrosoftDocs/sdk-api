@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 19ca0501-02d8-4851-8015-65e53d6f8074
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolCallbackRunsLong, SetThreadpoolCallbackRunsLong function, base.setthreadpoolcallbackrunslong, winbase/SetThreadpoolCallbackRunsLong
-ms.topic: function
 f1_keywords:
 - winbase/SetThreadpoolCallbackRunsLong
 dev_langs:

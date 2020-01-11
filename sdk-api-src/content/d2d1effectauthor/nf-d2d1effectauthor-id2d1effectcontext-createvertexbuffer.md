@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 8E59527F-B6CE-4E25-B7F7-2D03BC1ACAFD
 ms.date: 12/05/2018
 ms.keywords: CreateVertexBuffer, CreateVertexBuffer method [Direct2D], CreateVertexBuffer method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CreateVertexBuffer method, ID2D1EffectContext.CreateVertexBuffer, ID2D1EffectContext::CreateVertexBuffer, d2d1effectauthor/ID2D1EffectContext::CreateVertexBuffer, direct2d.id2d1contextinternal_createvertexbuffer
-ms.topic: method
 f1_keywords:
 - d2d1effectauthor/ID2D1EffectContext.CreateVertexBuffer
 dev_langs:

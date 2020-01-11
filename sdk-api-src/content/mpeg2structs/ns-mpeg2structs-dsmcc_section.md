@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: b043f63c-cee0-4167-9b11-09b747f63b8d
 ms.date: 12/05/2018
 ms.keywords: '*PDSMCC_SECTION, DSMCC_SECTION, DSMCC_SECTION structure [Microsoft TV Technologies], PDSMCC_SECTION, PDSMCC_SECTION structure pointer [Microsoft TV Technologies], mpeg2structs/DSMCC_SECTION, mpeg2structs/PDSMCC_SECTION, mstv.dsmcc_section'
-ms.topic: struct
 f1_keywords:
 - mpeg2structs/DSMCC_SECTION
 dev_langs:

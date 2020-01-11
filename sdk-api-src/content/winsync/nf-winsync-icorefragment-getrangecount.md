@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 8eb33224-f017-4f3b-bbf9-14d388d0868f
 ms.date: 12/05/2018
 ms.keywords: GetRangeCount, GetRangeCount method [Windows Sync], GetRangeCount method [Windows Sync],ICoreFragment interface, ICoreFragment interface [Windows Sync],GetRangeCount method, ICoreFragment.GetRangeCount, ICoreFragment::GetRangeCount, winsync.icorefragment_getrangecount, winsync/ICoreFragment::GetRangeCount
-ms.topic: method
 f1_keywords:
 - winsync/ICoreFragment.GetRangeCount
 dev_langs:

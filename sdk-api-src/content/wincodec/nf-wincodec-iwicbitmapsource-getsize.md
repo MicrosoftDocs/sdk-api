@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 2fba35fd-288c-4095-83b8-d2320dc5916c
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [Windows Imaging Component], GetSize method [Windows Imaging Component],IWICBitmapSource interface, IWICBitmapSource interface [Windows Imaging Component],GetSize method, IWICBitmapSource.GetSize, IWICBitmapSource::GetSize, _wic_codec_iwicbitmapsource_getsize, wic._wic_codec_iwicbitmapsource_getsize, wincodec/IWICBitmapSource::GetSize
-ms.topic: method
 f1_keywords:
 - wincodec/IWICBitmapSource.GetSize
 dev_langs:

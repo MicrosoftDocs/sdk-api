@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\getlaststatus_19.htm
 ms.date: 12/05/2018
 ms.keywords: GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],GraphicsPathIterator class, GraphicsPathIterator class [GDI+],GetLastStatus method, GraphicsPathIterator.GetLastStatus, GraphicsPathIterator::GetLastStatus, _gdiplus_CLASS_GraphicsPathIterator_GetLastStatus_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_GetLastStatus_
-ms.topic: method
 f1_keywords:
 - gdipluspath/GraphicsPathIterator.GetLastStatus
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6f9c9fd9-54f9-423d-af91-6f569a7c8616
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrEventLinkUIOperation interface [Windows Shell],Init method, ISyncMgrEventLinkUIOperation.Init, ISyncMgrEventLinkUIOperation::Init, Init, Init method [Windows Shell], Init method [Windows Shell],ISyncMgrEventLinkUIOperation interface, _shell_ISyncMgrEventLinkUIOperation_Init, shell.ISyncMgrEventLinkUIOperation_Init, syncmgr/ISyncMgrEventLinkUIOperation::Init
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrEventLinkUIOperation.Init
 dev_langs:

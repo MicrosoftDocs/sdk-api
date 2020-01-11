@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10devicechild_getdevice.htm
 ms.date: 12/05/2018
 ms.keywords: GetDevice, GetDevice method [Direct3D 10], GetDevice method [Direct3D 10],ID3D10DeviceChild interface, ID3D10DeviceChild interface [Direct3D 10],GetDevice method, ID3D10DeviceChild.GetDevice, ID3D10DeviceChild::GetDevice, a6448c63-5b6c-87fa-33e0-73a8850ca573, d3d10/ID3D10DeviceChild::GetDevice, direct3d10.id3d10devicechild_getdevice
-ms.topic: method
 f1_keywords:
 - d3d10/ID3D10DeviceChild.GetDevice
 dev_langs:

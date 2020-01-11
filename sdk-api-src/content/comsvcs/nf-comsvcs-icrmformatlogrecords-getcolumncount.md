@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: d1b1bc24-6e9d-4f48-ac11-f3892a3be2b1
 ms.date: 12/05/2018
 ms.keywords: GetColumnCount, GetColumnCount method [COM+], GetColumnCount method [COM+],ICrmFormatLogRecords interface, ICrmFormatLogRecords interface [COM+],GetColumnCount method, ICrmFormatLogRecords.GetColumnCount, ICrmFormatLogRecords::GetColumnCount, _dtc_ICrmFormatLogRecords_GetColumnCount, comsvcs/ICrmFormatLogRecords::GetColumnCount, cos.icrmformatlogrecords_getcolumncount
-ms.topic: method
 f1_keywords:
 - comsvcs/ICrmFormatLogRecords.GetColumnCount
 dev_langs:

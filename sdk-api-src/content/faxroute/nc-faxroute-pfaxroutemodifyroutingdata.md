@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_7ae9.htm
 ms.date: 12/05/2018
 ms.keywords: FaxRouteModifyRoutingData, FaxRouteModifyRoutingData callback function [Fax Service], PFAXROUTEMODIFYROUTINGDATA, PFAXROUTEMODIFYROUTINGDATA callback, _mfax_faxroutemodifyroutingdata, fax._mfax_faxroutemodifyroutingdata, faxroute/FaxRouteModifyRoutingData
-ms.topic: callback
 f1_keywords:
 - faxroute/FaxRouteModifyRoutingData
 dev_langs:

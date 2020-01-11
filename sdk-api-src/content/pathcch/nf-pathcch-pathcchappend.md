@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b64884ad-15c7-495e-8037-34daf68f8cf7
 ms.date: 12/05/2018
 ms.keywords: PathCchAppend, PathCchAppend function [Windows Shell], pathcch/PathCchAppend, shell.PathCchAppend
-ms.topic: function
 f1_keywords:
 - pathcch/PathCchAppend
 dev_langs:

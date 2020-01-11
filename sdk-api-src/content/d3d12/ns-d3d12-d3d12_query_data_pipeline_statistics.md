@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 0A84A3C8-0F6F-420E-88C9-26EC03F03179
 ms.date: 12/05/2018
 ms.keywords: D3D12_QUERY_DATA_PIPELINE_STATISTICS, D3D12_QUERY_DATA_PIPELINE_STATISTICS structure, d3d12/D3D12_QUERY_DATA_PIPELINE_STATISTICS, direct3d12.d3d12_query_data_pipeline_statistics
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_QUERY_DATA_PIPELINE_STATISTICS
 dev_langs:

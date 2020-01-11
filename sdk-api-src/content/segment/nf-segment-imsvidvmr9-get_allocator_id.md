@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 46ea07af-be29-4621-96cb-f3c17be12f85
 ms.date: 12/05/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],get_Allocator_ID method, IMSVidVMR9.get_Allocator_ID, IMSVidVMR9::get_Allocator_ID, IMSVidVMR9get_Allocator_ID, get_Allocator_ID, get_Allocator_ID method [Microsoft TV Technologies], get_Allocator_ID method [Microsoft TV Technologies],IMSVidVMR9 interface, mstv.imsvidvmr9_get_allocator_id, segment/IMSVidVMR9::get_Allocator_ID
-ms.topic: method
 f1_keywords:
 - segment/IMSVidVMR9.get_Allocator_ID
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 479958f6-e38c-404c-b4bd-2991be568a2b
 ms.date: 12/05/2018
 ms.keywords: IntToUIntPtr, IntToUIntPtr function [Windows Shell], IntToULongLong, _shell_IntToUIntPtr, intsafe/IntToUIntPtr, shell.IntToUIntPtr
-ms.topic: function
 f1_keywords:
 - intsafe/IntToUIntPtr
 dev_langs:

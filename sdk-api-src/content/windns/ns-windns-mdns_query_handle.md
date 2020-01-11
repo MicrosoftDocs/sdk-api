@@ -4,7 +4,6 @@ title: MDNS_QUERY_HANDLE structure
 description: Contains information related to an ongoing MDNS query. Your application must not modify its contents.
 ms.date: 02/19/2019
 ms.keywords: _MDNS_QUERY_HANDLE, MDNS_QUERY_HANDLE
-ms.topic: language-reference
 f1_keywords:
 - windns/_MDNS_QUERY_HANDLE
 dev_langs:

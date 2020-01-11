@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: b8f78552-27b5-4d64-9d35-baf1c636b526
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],GetBackupType method, CVssWriter.GetBackupType, CVssWriter::GetBackupType, GetBackupType, GetBackupType method [VSS], GetBackupType method [VSS],CVssWriter interface, _win32_cvsswriter_getbackuptype, base.cvsswriter_getbackuptype, vswriter/CVssWriter::GetBackupType
-ms.topic: method
 f1_keywords:
 - vswriter/CVssWriter.GetBackupType
 dev_langs:

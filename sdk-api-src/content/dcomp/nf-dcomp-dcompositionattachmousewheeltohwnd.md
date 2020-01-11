@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 0a047702-e707-8df7-7660-0759a94b21af
 ms.date: 12/05/2018
 ms.keywords: DCompositionAttachMouseWheelToHwnd, DCompositionAttachMouseWheelToHwnd function [DirectComposition], dcomp/DCompositionAttachMouseWheelToHwnd, directcomp.dcompositionattachmousewheeltohwnd
-ms.topic: function
 f1_keywords:
 - dcomp/DCompositionAttachMouseWheelToHwnd
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 179af1a1-078f-401c-8c15-12fc8ca06e3c
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetnewcalls, lineGetNewCalls, lineGetNewCalls function [TAPI 2.2], tapi/lineGetNewCalls, tapi2.linegetnewcalls
-ms.topic: function
 f1_keywords:
 - tapi/lineGetNewCalls
 dev_langs:

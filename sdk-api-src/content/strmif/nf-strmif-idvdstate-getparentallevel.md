@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f87c128f-d751-4593-ac26-3249b803bbe4
 ms.date: 12/05/2018
 ms.keywords: GetParentalLevel, GetParentalLevel method [DirectShow], GetParentalLevel method [DirectShow],IDvdState interface, IDvdState interface [DirectShow],GetParentalLevel method, IDvdState.GetParentalLevel, IDvdState::GetParentalLevel, IDvdStateGetParentalLevel, dshow.idvdstate_getparentallevel, strmif/IDvdState::GetParentalLevel
-ms.topic: method
 f1_keywords:
 - strmif/IDvdState.GetParentalLevel
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d8cb4ae1-cbbf-44cb-9387-770ee95280a1
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],put_SourceHeight method, IBasicVideo.put_SourceHeight, IBasicVideo::put_SourceHeight, IBasicVideoput_SourceHeight, control/IBasicVideo::put_SourceHeight, dshow.ibasicvideo_put_sourceheight, put_SourceHeight, put_SourceHeight method [DirectShow], put_SourceHeight method [DirectShow],IBasicVideo interface
-ms.topic: method
 f1_keywords:
 - control/IBasicVideo.put_SourceHeight
 dev_langs:

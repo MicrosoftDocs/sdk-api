@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e53e9015-5186-4807-a5ee-af8598a89a2b
 ms.date: 12/05/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [DirectShow], GetAspectRatioMode method [DirectShow],IVMRAspectRatioControl9 interface, IVMRAspectRatioControl9 interface [DirectShow],GetAspectRatioMode method, IVMRAspectRatioControl9.GetAspectRatioMode, IVMRAspectRatioControl9::GetAspectRatioMode, IVMRAspectRatioControl9GetAspectRatioMode, dshow.ivmraspectratiocontrol9_getaspectratiomode, vmr9/IVMRAspectRatioControl9::GetAspectRatioMode
-ms.topic: method
 f1_keywords:
 - vmr9/IVMRAspectRatioControl9.GetAspectRatioMode
 dev_langs:

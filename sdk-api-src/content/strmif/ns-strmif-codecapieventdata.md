@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 04d0177d-ec9d-4f23-abd1-a37c787c24b2
 ms.date: 12/05/2018
 ms.keywords: CodecAPIEventData, CodecAPIEventData structure [DirectShow], CodecAPIEventDataStructure, dshow.codecapieventdata, strmif/CodecAPIEventData
-ms.topic: struct
 f1_keywords:
 - strmif/CodecAPIEventData
 dev_langs:

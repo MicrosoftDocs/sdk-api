@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: bf3c5757-0e97-46d2-89c2-f62a5e367fbb
 ms.date: 12/05/2018
 ms.keywords: GetConfiguration, GetConfiguration method [Security], GetConfiguration method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetConfiguration method, IOCSPAdmin.GetConfiguration, IOCSPAdmin::GetConfiguration, certadm/IOCSPAdmin::GetConfiguration, security.iocspadmin_getconfiguration_method
-ms.topic: method
 f1_keywords:
 - certadm/IOCSPAdmin.GetConfiguration
 dev_langs:

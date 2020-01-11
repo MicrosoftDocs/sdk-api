@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 9116ca78-3b99-4b9a-97af-d01077e201f7
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithms interface [Security],Remove method, ICspAlgorithms.Remove, ICspAlgorithms::Remove, Remove, Remove method [Security], Remove method [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::Remove, security.icspalgorithms_remove_method
-ms.topic: method
 f1_keywords:
 - certenroll/ICspAlgorithms.Remove
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: cb4ec234-1e94-4c9f-8372-a5972df18948
 ms.date: 12/05/2018
 ms.keywords: CreateComponentList, CreateComponentList method [Microsoft TV Technologies], CreateComponentList method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],CreateComponentList method, ITuneRequestInfo.CreateComponentList, ITuneRequestInfo::CreateComponentList, ITuneRequestInfoCreateComponentList, bdatif/ITuneRequestInfo::CreateComponentList, mstv.itunerequestinfo_createcomponentlist
-ms.topic: method
 f1_keywords:
 - bdatif/ITuneRequestInfo.CreateComponentList
 dev_langs:

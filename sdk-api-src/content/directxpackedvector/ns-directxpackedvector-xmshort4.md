@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMSHORT4
 ms.date: 12/05/2018
 ms.keywords: XMSHORT4, XMSHORT4 structure [DirectX Math Support APIs], directxpackedvector/XMSHORT4, dxmath.xmshort4
-ms.topic: struct
 f1_keywords:
 - directxpackedvector/XMSHORT4
 dev_langs:

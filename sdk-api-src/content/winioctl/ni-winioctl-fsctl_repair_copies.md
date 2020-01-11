@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 1970ed09-5f37-4cc9-98c5-982629676fe4
 ms.date: 12/05/2018
 ms.keywords: FSCTL_REPAIR_COPIES, FSCTL_REPAIR_COPIES control, FSCTL_REPAIR_COPIES control code [Files], fs.fsctl_repair_copies, winioctl/FSCTL_REPAIR_COPIES
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_REPAIR_COPIES
 dev_langs:

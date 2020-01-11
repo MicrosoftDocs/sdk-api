@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b367dc07-8a50-4562-bd73-57c73c781d81
 ms.date: 12/05/2018
 ms.keywords: IPersistIDList, IPersistIDList interface [Windows Shell], IPersistIDList interface [Windows Shell],described, inet_IPersistIDList, shell.IPersistIDList, shobjidl_core/IPersistIDList
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IPersistIDList
 dev_langs:

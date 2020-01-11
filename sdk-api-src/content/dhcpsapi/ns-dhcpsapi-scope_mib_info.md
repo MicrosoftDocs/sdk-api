@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 54f54734-3e4a-489f-a61d-85fd436d28ad
 ms.date: 12/05/2018
 ms.keywords: '*LPSCOPE_MIB_INFO, LPSCOPE_MIB_INFO, LPSCOPE_MIB_INFO structure pointer [DHCP], SCOPE_MIB_INFO, SCOPE_MIB_INFO structure [DHCP], dhcp.scope_mib_info, dhcpsapi/LPSCOPE_MIB_INFO, dhcpsapi/_SCOPE_MIB_INFO'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/SCOPE_MIB_INFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 4bde8375-b03a-44b8-9ba5-bc15277f3a4a
 ms.date: 12/05/2018
 ms.keywords: CLIENT_MESSAGE_CONNECTION_ERROR, CLIENT_MESSAGE_CONNECTION_STATUS, ITsSbBaseNotifySink interface [Remote Desktop Services],OnReportStatus method, ITsSbBaseNotifySink.OnReportStatus, ITsSbBaseNotifySink::OnReportStatus, OnReportStatus, OnReportStatus method [Remote Desktop Services], OnReportStatus method [Remote Desktop Services],ITsSbBaseNotifySink interface, TS_STATUS_VM_BOOTING, TS_STATUS_VM_LOADING, TS_STATUS_VM_WAKING, sbtsv/ITsSbBaseNotifySink::OnReportStatus, termserv.itssbbasenotifysink_onreportstatus
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbBaseNotifySink.OnReportStatus
 dev_langs:

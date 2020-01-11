@@ -4,7 +4,6 @@ title: LPWSPASYNCSELECT
 description: The LPWSPAsyncSelect function requests Windows message-based event notification of network events for a socket.
 ms.date: 9/12/2019
 ms.keywords: LPWSPASYNCSELECT
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

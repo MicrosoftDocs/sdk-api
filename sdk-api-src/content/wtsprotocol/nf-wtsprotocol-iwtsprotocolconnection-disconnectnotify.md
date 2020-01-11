@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: d2712d53-2e52-49d9-874e-e6425235d3f0
 ms.date: 12/05/2018
 ms.keywords: DisconnectNotify, DisconnectNotify method [Remote Desktop Services], DisconnectNotify method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],DisconnectNotify method, IWTSProtocolConnection.DisconnectNotify, IWTSProtocolConnection::DisconnectNotify, termserv.iwtsprotocolconnection_disconnectnotify, wtsprotocol/IWTSProtocolConnection::DisconnectNotify
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolConnection.DisconnectNotify
 dev_langs:

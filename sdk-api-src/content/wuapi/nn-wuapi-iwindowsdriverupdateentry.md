@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 91b8ed77-70f7-400f-a887-b3cf9f573c76
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdateEntry, IWindowsDriverUpdateEntry interface [Windows Update Agent], IWindowsDriverUpdateEntry interface [Windows Update Agent],described, wua.iwindowsdriverupdateentry, wuapi/IWindowsDriverUpdateEntry
-ms.topic: interface
 f1_keywords:
 - wuapi/IWindowsDriverUpdateEntry
 dev_langs:

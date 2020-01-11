@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 84407961-5d79-4845-a81a-283b3689e562
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],put_label method, IWMPCdromBurn.put_label, IWMPCdromBurn::put_label, IWMPCdromBurnput_label, put_label, put_label method [Windows Media Player], put_label method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_put_label, wmp/IWMPCdromBurn::put_label
-ms.topic: method
 f1_keywords:
 - wmp/IWMPCdromBurn.put_label
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: a00f0e8d-a10b-48d4-b918-57b2ff9cb984
 ms.date: 12/05/2018
 ms.keywords: PVECTORED_EXCEPTION_HANDLER, VectoredHandler, VectoredHandler callback, VectoredHandler callback function, _win32_vectoredhandler, base.vectoredhandler, winnt/VectoredHandler
-ms.topic: callback
 f1_keywords:
 - winnt/VectoredHandler
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 496234C1-C20B-46FE-A9BB-4B90C14FEB46
 ms.date: 12/05/2018
 ms.keywords: IInkStrokes, IInkStrokes interface [Tablet PC], IInkStrokes interface [Tablet PC],described, msinkaut/IInkStrokes, tablet.iinkstrokes
-ms.topic: interface
 f1_keywords:
 - msinkaut/IInkStrokes
 dev_langs:

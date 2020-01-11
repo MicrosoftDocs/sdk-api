@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: c2d42c7a-3d6e-416c-a194-2228cc1b0fd9
 ms.date: 12/05/2018
 ms.keywords: DrvCopyBits, DrvCopyBits function [Display Devices], ddifncs_95bc17c2-b4ae-4883-8866-cd9dded1f30d.xml, display.drvcopybits, winddi/DrvCopyBits
-ms.topic: function
 f1_keywords:
 - winddi/DrvCopyBits
 dev_langs:

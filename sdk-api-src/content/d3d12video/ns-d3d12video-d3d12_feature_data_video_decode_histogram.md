@@ -5,7 +5,6 @@ description: Provides data for calls to ID3D12VideoDevice::CheckFeatureSupport w
 tech.root: mf
 ms.assetid: 052bfdcb-a6f6-4027-811f-9af11b1975b4
 ms.date: 11/14/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM
 dev_langs:

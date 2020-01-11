@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0d1695e2-6936-4f53-9594-e0e2bc69afd4
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrSyncItems, IEnumSyncMgrSyncItems interface [Windows Shell], IEnumSyncMgrSyncItems interface [Windows Shell],described, _shell_IEnumSyncMgrSyncItems, shell.IEnumSyncMgrSyncItems, syncmgr/IEnumSyncMgrSyncItems
-ms.topic: interface
 f1_keywords:
 - syncmgr/IEnumSyncMgrSyncItems
 dev_langs:

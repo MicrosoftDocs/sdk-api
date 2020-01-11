@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a68dca56-ae89-4280-b1de-8c85362bf9c6
 ms.date: 12/05/2018
 ms.keywords: GetObjectCount, GetObjectCount method [Windows Shell], GetObjectCount method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetObjectCount method, IShellFolderView.GetObjectCount, IShellFolderView::GetObjectCount, _shell_IShellFolderView_GetObjectCount, shell.IShellFolderView_GetObjectCount, shlobj_core/IShellFolderView::GetObjectCount
-ms.topic: method
 f1_keywords:
 - shlobj_core/IShellFolderView.GetObjectCount
 dev_langs:

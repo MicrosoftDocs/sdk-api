@@ -7,7 +7,6 @@ tech.root: EDP
 ms.assetid: AFA7F918-8730-40A2-871E-9356391B47F8
 ms.date: 12/05/2018
 ms.keywords: EDP.iprotectionpolicymanagerinterop, IProtectionPolicyManagerInterop, IProtectionPolicyManagerInterop interface, IProtectionPolicyManagerInterop interface,described, efswrtinterop/IProtectionPolicyManagerInterop interface
-ms.topic: interface
 f1_keywords:
 - efswrtinterop/IProtectionPolicyManagerInterop
 dev_langs:

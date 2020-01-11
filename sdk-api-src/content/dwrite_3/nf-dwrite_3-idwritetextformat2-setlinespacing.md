@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 71d8c6c4-920f-a1b5-5a13-9985a7aca41e
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat2 interface [Direct Write],SetLineSpacing method, IDWriteTextFormat2.SetLineSpacing, IDWriteTextFormat2::SetLineSpacing, SetLineSpacing, SetLineSpacing method [Direct Write], SetLineSpacing method [Direct Write],IDWriteTextFormat2 interface, directwrite.idwritetextformat2_setlinespacing, dwrite_3/IDWriteTextFormat2::SetLineSpacing
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteTextFormat2.SetLineSpacing
 dev_langs:

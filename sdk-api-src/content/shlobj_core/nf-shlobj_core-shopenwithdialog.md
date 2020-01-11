@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 026bfb34-a8a5-4bd7-9bc0-4aa395e6d535
 ms.date: 12/05/2018
 ms.keywords: SHOpenWithDialog, SHOpenWithDialog function [Windows Shell], _shell_SHOpenWithDialog, shell.SHOpenWithDialog, shlobj_core/SHOpenWithDialog
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHOpenWithDialog
 dev_langs:

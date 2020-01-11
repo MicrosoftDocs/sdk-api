@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: DB5DF4B2-4673-4B8D-BDED-9F672A41E7F6
 ms.date: 12/05/2018
 ms.keywords: CreateHeap, CreateHeap method, CreateHeap method,ID3D12Device interface, ID3D12Device interface,CreateHeap method, ID3D12Device.CreateHeap, ID3D12Device::CreateHeap, d3d12/ID3D12Device::CreateHeap, direct3d12.id3d12device_createheap
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device.CreateHeap
 dev_langs:

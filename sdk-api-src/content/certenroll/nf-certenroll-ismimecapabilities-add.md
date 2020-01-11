@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 8ad35758-0dc1-4887-aea7-b8ead537cab2
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],Add method, ISmimeCapabilities.Add, ISmimeCapabilities::Add, certenroll/ISmimeCapabilities::Add, security.ismimecapabilities_add_method
-ms.topic: method
 f1_keywords:
 - certenroll/ISmimeCapabilities.Add
 dev_langs:

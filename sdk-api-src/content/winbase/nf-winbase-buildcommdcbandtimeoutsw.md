@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: d7fbc6e4-f166-4341-8ce9-37c8baab1b00
 ms.date: 12/05/2018
 ms.keywords: BuildCommDCBAndTimeouts, BuildCommDCBAndTimeouts function, BuildCommDCBAndTimeoutsA, BuildCommDCBAndTimeoutsW, _win32_buildcommdcbandtimeouts, base.buildcommdcbandtimeouts, winbase/BuildCommDCBAndTimeouts, winbase/BuildCommDCBAndTimeoutsA, winbase/BuildCommDCBAndTimeoutsW
-ms.topic: function
 f1_keywords:
 - winbase/BuildCommDCBAndTimeouts
 dev_langs:

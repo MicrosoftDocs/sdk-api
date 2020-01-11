@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 5115192e-68de-4779-92dc-7cf63585faae
 ms.date: 12/05/2018
 ms.keywords: GenerateCustomTonesByCollection, GenerateCustomTonesByCollection method [TAPI 2.2], GenerateCustomTonesByCollection method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GenerateCustomTonesByCollection method, ITLegacyCallMediaControl2.GenerateCustomTonesByCollection, ITLegacyCallMediaControl2::GenerateCustomTonesByCollection, _tapi3_itlegacycallmediacontrol2_generatecustomtonesbycollection, tapi3.itlegacycallmediacontrol2_generatecustomtonesbycollection, tapi3if/ITLegacyCallMediaControl2::GenerateCustomTonesByCollection
-ms.topic: method
 f1_keywords:
 - tapi3if/ITLegacyCallMediaControl2.GenerateCustomTonesByCollection
 dev_langs:

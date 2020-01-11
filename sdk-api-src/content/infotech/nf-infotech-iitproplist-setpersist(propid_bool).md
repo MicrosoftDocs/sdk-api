@@ -7,7 +7,6 @@ tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistsetpersistproperty.htm
 ms.date: 12/05/2018
 ms.keywords: IITPropList interface [HTML Help Workshop],SetPersist method, IITPropList.SetPersist, IITPropList::SetPersist, IITPropList::SetPersist(PROPID,BOOL), SetPersist, SetPersist method [HTML Help Workshop], SetPersist method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_setpersist1, infotech/IITPropList::SetPersist, refIITPropListSetPersistProperty
-ms.topic: method
 f1_keywords:
 - infotech/IITPropList.SetPersist
 dev_langs:

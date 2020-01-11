@@ -7,7 +7,6 @@ tech.root: NetShare
 ms.assetid: 5923a8cc-bf7a-4ffa-b089-fd7f26ee42d2
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 10, 2, 502, NetSessionEnum, NetSessionEnum function [Files], _win32_netsessionenum, fs.netsessionenum, lmshare/NetSessionEnum, netmgmt.netsessionenum
-ms.topic: function
 f1_keywords:
 - lmshare/NetSessionEnum
 dev_langs:

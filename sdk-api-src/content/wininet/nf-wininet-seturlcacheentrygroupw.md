@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: b39a96ac-c5b5-4b02-88e2-298a037be25f
 ms.date: 12/05/2018
 ms.keywords: SetUrlCacheEntryGroup, SetUrlCacheEntryGroup function [WinINet], SetUrlCacheEntryGroupA, SetUrlCacheEntryGroupW, _inet_seturlcacheentrygroup_function, wininet.seturlcacheentrygroup, wininet/SetUrlCacheEntryGroup, wininet/SetUrlCacheEntryGroupA, wininet/SetUrlCacheEntryGroupW
-ms.topic: function
 f1_keywords:
 - wininet/SetUrlCacheEntryGroup
 dev_langs:

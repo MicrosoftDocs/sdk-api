@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: D8A2291A-792B-4D24-997A-9C152FFE5426
 ms.date: 12/05/2018
 ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],ResetDevice method, IMFDXGIDeviceManager.ResetDevice, IMFDXGIDeviceManager::ResetDevice, ResetDevice, ResetDevice method [Media Foundation], ResetDevice method [Media Foundation],IMFDXGIDeviceManager interface, mf.imfdxgidevicemanager_resetdevice, mfobjects/IMFDXGIDeviceManager::ResetDevice
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFDXGIDeviceManager.ResetDevice
 dev_langs:

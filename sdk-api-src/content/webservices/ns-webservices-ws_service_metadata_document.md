@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: d15fb735-9f82-4dd2-8586-f67999ab9727
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_METADATA_DOCUMENT, WS_SERVICE_METADATA_DOCUMENT structure [Web Services for Windows], webservices/WS_SERVICE_METADATA_DOCUMENT, wsw.ws_service_metadata_document
-ms.topic: struct
 f1_keywords:
 - webservices/WS_SERVICE_METADATA_DOCUMENT
 dev_langs:

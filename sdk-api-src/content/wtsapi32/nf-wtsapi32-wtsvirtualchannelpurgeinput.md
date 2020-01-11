@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: ec8ee90d-0871-466c-8da3-04813319216a
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelPurgeInput, WTSVirtualChannelPurgeInput function [Remote Desktop Services], _win32_wtsvirtualchannelpurgeinput, termserv.wtsvirtualchannelpurgeinput, wtsapi32/WTSVirtualChannelPurgeInput
-ms.topic: function
 f1_keywords:
 - wtsapi32/WTSVirtualChannelPurgeInput
 dev_langs:

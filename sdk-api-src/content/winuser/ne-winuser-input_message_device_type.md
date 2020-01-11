@@ -7,7 +7,6 @@ tech.root: Input_SourceId
 ms.assetid: aaaa8d9b-1056-4fa3-afcf-43d2c4b41c0e
 ms.date: 12/05/2018
 ms.keywords: IMDT_KEYBOARD, IMDT_MOUSE, IMDT_PEN, IMDT_TOUCH, IMDT_TOUCHPAD, IMDT_UNAVAILABLE, INPUT_MESSAGE_DEVICE_TYPE, INPUT_MESSAGE_DEVICE_TYPE enumeration, input_sourceid.input_message_device_type, inputsourceid.input_message_device_type, winuser/IMDT_KEYBOARD, winuser/IMDT_MOUSE, winuser/IMDT_PEN, winuser/IMDT_TOUCH, winuser/IMDT_TOUCHPAD, winuser/IMDT_UNAVAILABLE, winuser/INPUT_MESSAGE_DEVICE_TYPE
-ms.topic: enum
 f1_keywords:
 - winuser/INPUT_MESSAGE_DEVICE_TYPE
 dev_langs:

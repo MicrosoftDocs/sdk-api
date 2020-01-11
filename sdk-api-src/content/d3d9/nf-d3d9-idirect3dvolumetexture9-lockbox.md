@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolumetexture9__lockbox.htm
 ms.date: 12/05/2018
 ms.keywords: 9be8529a-2a7d-01f2-cddd-e44589e88cfe, IDirect3DVolumeTexture9 interface [Direct3D 9],LockBox method, IDirect3DVolumeTexture9.LockBox, IDirect3DVolumeTexture9::LockBox, LockBox, LockBox method [Direct3D 9], LockBox method [Direct3D 9],IDirect3DVolumeTexture9 interface, d3d9helper/IDirect3DVolumeTexture9::LockBox, direct3d9.idirect3dvolumetexture9__lockbox
-ms.topic: method
 f1_keywords:
 - d3d9/IDirect3DVolumeTexture9.LockBox
 dev_langs:

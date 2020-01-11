@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 137473ea-4785-4118-86af-a859f69f425f
 ms.date: 12/05/2018
 ms.keywords: '*PDXAPI_INTERFACE, DXAPI_INTERFACE, DXAPI_INTERFACE structure [Display Devices], PDXAPI_INTERFACE, PDXAPI_INTERFACE structure pointer [Display Devices], ddstrcts_99854747-7e4c-4a5a-9252-13f56abdffbc.xml, display.dxapi_interface, dxmini/DXAPI_INTERFACE, dxmini/PDXAPI_INTERFACE'
-ms.topic: struct
 f1_keywords:
 - dxmini/DXAPI_INTERFACE
 dev_langs:

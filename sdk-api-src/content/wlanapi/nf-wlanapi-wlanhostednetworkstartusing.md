@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 923ffc09-f378-442c-a891-34b0c0d04c41
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkStartUsing, WlanHostedNetworkStartUsing function [NativeWIFI], nwifi.wlanhostednetworkstartusing, wlanapi/WlanHostedNetworkStartUsing
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanHostedNetworkStartUsing
 dev_langs:

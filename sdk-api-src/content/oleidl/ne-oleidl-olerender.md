@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: bab871ba-4ec4-49fd-854a-585732b91290
 ms.date: 12/05/2018
 ms.keywords: '*LPOLERENDER, LPOLERENDER, LPOLERENDER enumeration pointer [COM], OLERENDER, OLERENDER enumeration [COM], OLERENDER_ASIS, OLERENDER_DRAW, OLERENDER_FORMAT, OLERENDER_NONE, _ole_OLERENDER, com.olerender, oleidl/LPOLERENDER, oleidl/OLERENDER, oleidl/OLERENDER_ASIS, oleidl/OLERENDER_DRAW, oleidl/OLERENDER_FORMAT, oleidl/OLERENDER_NONE'
-ms.topic: enum
 f1_keywords:
 - oleidl/OLERENDER
 dev_langs:

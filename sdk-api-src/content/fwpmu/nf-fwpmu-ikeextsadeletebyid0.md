@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: de3d1f4e-7b8a-46f5-9c3a-c6a504d5aabb
 ms.date: 12/05/2018
 ms.keywords: IkeextSaDeleteById0, IkeextSaDeleteById0 function [Filtering], fwp.ikeextsadeletebyid0, fwpmu/IkeextSaDeleteById0
-ms.topic: function
 f1_keywords:
 - fwpmu/IkeextSaDeleteById0
 dev_langs:

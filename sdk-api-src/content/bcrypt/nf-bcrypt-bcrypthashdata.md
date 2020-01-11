@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: dab89dff-dc84-4f69-8b6b-de65704b0265
 ms.date: 12/05/2018
 ms.keywords: BCryptHashData, BCryptHashData function [Security], bcrypt/BCryptHashData, security.bcrypthashdata_func
-ms.topic: function
 f1_keywords:
 - bcrypt/BCryptHashData
 dev_langs:

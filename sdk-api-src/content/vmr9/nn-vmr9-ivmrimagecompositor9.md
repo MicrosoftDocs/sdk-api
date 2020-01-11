@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 19fda7f2-000f-47d0-a7c7-d8421de418a2
 ms.date: 12/05/2018
 ms.keywords: IVMRImageCompositor9, IVMRImageCompositor9 interface [DirectShow], IVMRImageCompositor9 interface [DirectShow],described, IVMRImageCompositor9Interface, dshow.ivmrimagecompositor9, vmr9/IVMRImageCompositor9
-ms.topic: interface
 f1_keywords:
 - vmr9/IVMRImageCompositor9
 dev_langs:

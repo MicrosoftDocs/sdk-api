@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 2d09f81a-b422-4379-89c8-d50992ebb24c
 ms.date: 12/05/2018
 ms.keywords: IsAccelerator, IsAccelerator function [COM], _com_IsAccelerator, com.isaccelerator, ole2/IsAccelerator
-ms.topic: function
 f1_keywords:
 - ole2/IsAccelerator
 dev_langs:

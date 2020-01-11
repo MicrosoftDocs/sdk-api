@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: fb59b2bb-03c1-472d-bb97-6fd9d5f7169d
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationDiagnoseConnectFailureAndGetInfo, NetworkIsolationDiagnoseConnectFailureAndGetInfo function [ICS/ICF], ics.networkisolationdiagnoseconnectfailureandgetinfo, networkisolation/NetworkIsolationDiagnoseConnectFailureAndGetInfo
-ms.topic: function
 f1_keywords:
 - netfw/NetworkIsolationDiagnoseConnectFailureAndGetInfo
 dev_langs:

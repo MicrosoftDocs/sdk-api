@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: b21f8a42-3707-409c-b62a-9bbb29137b9b
 ms.date: 12/05/2018
 ms.keywords: '*PCREDUI_INFOA, CREDUI_INFO, CREDUI_INFO structure [Security], CREDUI_INFOA, PCREDUI_INFO, PCREDUI_INFO structure pointer [Security], _cred_credui_info, security.credui_info, wincred/CREDUI_INFO, wincred/PCREDUI_INFO'
-ms.topic: struct
 f1_keywords:
 - wincred/CREDUI_INFO
 dev_langs:

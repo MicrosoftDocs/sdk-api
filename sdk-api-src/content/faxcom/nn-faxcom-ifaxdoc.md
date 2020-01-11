@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6mub.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc, IFaxDoc interface [Fax Service], IFaxDoc interface [Fax Service],described, _mfax_ifaxdoc, fax._mfax_ifaxdoc, faxcom/IFaxDoc
-ms.topic: interface
 f1_keywords:
 - faxcom/IFaxDoc
 dev_langs:

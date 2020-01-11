@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_deleteallitems.htm
 ms.date: 12/05/2018
 ms.keywords: DSA_DeleteAllItems, DSA_DeleteAllItems function [Windows Controls], _shell_DSA_DeleteAllItems, _shell_DSA_DeleteAllItems_cpp, controls.DSA_DeleteAllItems, controls._shell_DSA_DeleteAllItems, dpa_dsa/DSA_DeleteAllItems
-ms.topic: function
 f1_keywords:
 - dpa_dsa/DSA_DeleteAllItems
 dev_langs:

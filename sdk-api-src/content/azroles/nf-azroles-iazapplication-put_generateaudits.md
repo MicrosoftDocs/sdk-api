@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: c35f612e-4a2c-46b6-913a-26b0819394f4
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],GenerateAudits property, GenerateAudits property [Security], GenerateAudits property [Security],AzApplication object, GenerateAudits property [Security],IAzApplication interface, IAzApplication interface [Security],GenerateAudits property, IAzApplication.GenerateAudits, IAzApplication.put_GenerateAudits, IAzApplication::GenerateAudits, IAzApplication::get_GenerateAudits, IAzApplication::put_GenerateAudits, azroles/IAzApplication::GenerateAudits, azroles/IAzApplication::get_GenerateAudits, azroles/IAzApplication::put_GenerateAudits, put_GenerateAudits, security.iazapplication_generateaudits
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplication.GenerateAudits
 dev_langs:

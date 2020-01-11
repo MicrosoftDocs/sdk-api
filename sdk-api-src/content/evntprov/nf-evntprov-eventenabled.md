@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: b332b6d4-6921-40bd-bebc-6646b5b9bcde
 ms.date: 12/05/2018
 ms.keywords: EventEnabled, EventEnabled function [ETW], base.eventenabled_func, etw.eventenabled_func, evntprov/EventEnabled
-ms.topic: function
 f1_keywords:
 - evntprov/EventEnabled
 dev_langs:

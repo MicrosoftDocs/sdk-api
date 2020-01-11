@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: a3972c08-82a1-44e8-b6c6-782294eacfa3
 ms.date: 12/05/2018
 ms.keywords: IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcDigitalSignatureEnumerator.MovePrevious, IOpcDigitalSignatureEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcDigitalSignatureEnumerator interface, msopc/IOpcDigitalSignatureEnumerator::MovePrevious, opc.iopcdigitalsignatureenumerator_moveprevious
-ms.topic: method
 f1_keywords:
 - msopc/IOpcDigitalSignatureEnumerator.MovePrevious
 dev_langs:

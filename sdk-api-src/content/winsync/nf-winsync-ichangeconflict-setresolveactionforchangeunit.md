@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 8594a888-21a1-4cfb-964c-9c670e3a7438
 ms.date: 12/05/2018
 ms.keywords: IChangeConflict interface [Windows Sync],SetResolveActionForChangeUnit method, IChangeConflict.SetResolveActionForChangeUnit, IChangeConflict::SetResolveActionForChangeUnit, SetResolveActionForChangeUnit, SetResolveActionForChangeUnit method [Windows Sync], SetResolveActionForChangeUnit method [Windows Sync],IChangeConflict interface, winsync.ichangeconflict_setresolveactionforchangeunit, winsync/IChangeConflict::SetResolveActionForChangeUnit
-ms.topic: method
 f1_keywords:
 - winsync/IChangeConflict.SetResolveActionForChangeUnit
 dev_langs:

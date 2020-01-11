@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 5a108160-a702-434c-8da6-3a2624d1d472
 ms.date: 12/05/2018
 ms.keywords: MI_DatetimeA, MI_DatetimeA structure [Windows Management Infrastructure (MI)], mi/MI_DatetimeA, wmi._mi_datetimea, wmi_v2.mi_datetimea
-ms.topic: struct
 f1_keywords:
 - mi/MI_DatetimeA
 dev_langs:

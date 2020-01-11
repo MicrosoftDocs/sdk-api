@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: b77348c7-4389-47ba-9f4f-e5643cf992aa
 ms.date: 12/05/2018
 ms.keywords: AddPolicyAdministratorName, AddPolicyAdministratorName method [Security], AddPolicyAdministratorName method [Security],AzAuthorizationStore object, AddPolicyAdministratorName method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddPolicyAdministratorName method, IAzAuthorizationStore interface [Security],AddPolicyAdministratorName method, IAzAuthorizationStore.AddPolicyAdministratorName, IAzAuthorizationStore::AddPolicyAdministratorName, azroles/IAzAuthorizationStore::AddPolicyAdministratorName, security.azauthorizationstore_addpolicyadministratorname
-ms.topic: method
 f1_keywords:
 - azroles/AzAuthorizationStore.AddPolicyAdministratorName
 dev_langs:

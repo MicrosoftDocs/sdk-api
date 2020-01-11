@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 5a98e265-8bef-4978-a257-1519006e9124
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IComponents interface, IComponents interface [Microsoft TV Technologies],Clone method, IComponents.Clone, IComponents::Clone, IComponentsClone, mstv.icomponents_clone, tuner/IComponents::Clone
-ms.topic: method
 f1_keywords:
 - tuner/IComponents.Clone
 dev_langs:

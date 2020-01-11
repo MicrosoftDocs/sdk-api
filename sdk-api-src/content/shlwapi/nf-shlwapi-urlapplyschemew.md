@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: af60643e-b1a4-4013-b116-dd9fad4e90bf
 ms.date: 12/05/2018
 ms.keywords: URL_APPLY_DEFAULT, URL_APPLY_FORCEAPPLY, URL_APPLY_GUESSFILE, URL_APPLY_GUESSSCHEME, UrlApplyScheme, UrlApplyScheme function [Windows Shell], UrlApplySchemeA, UrlApplySchemeW, _win32_UrlApplyScheme, shell.UrlApplyScheme, shlwapi/UrlApplyScheme, shlwapi/UrlApplySchemeA, shlwapi/UrlApplySchemeW
-ms.topic: function
 f1_keywords:
 - shlwapi/UrlApplyScheme
 dev_langs:

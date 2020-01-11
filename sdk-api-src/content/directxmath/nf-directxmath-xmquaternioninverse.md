@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionInverse(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionInverse, XMQuaternionInverse, XMQuaternionInverse method [DirectX Math Support APIs], dxmath.xmquaternioninverse
-ms.topic: function
 f1_keywords:
 - directxmath/XMQuaternionInverse
 dev_langs:

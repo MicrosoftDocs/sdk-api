@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: fb22709a-c1f8-4608-b984-46181e7c704e
 ms.date: 12/05/2018
 ms.keywords: EndSession, EndSession method [Picture Acquisition], EndSession method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndSession method, IPhotoAcquireProgressCB.EndSession, IPhotoAcquireProgressCB::EndSession, IPhotoAcquireProgressCBEndSession, photoacquire/IPhotoAcquireProgressCB::EndSession, picacq.iphotoacquireprogresscb_endsession
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoAcquireProgressCB.EndSession
 dev_langs:

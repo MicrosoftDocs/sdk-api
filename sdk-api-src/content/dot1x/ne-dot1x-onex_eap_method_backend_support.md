@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: ae0c30c3-331e-4b57-aa5f-f6b1f73dc69d
 ms.date: 12/05/2018
 ms.keywords: ONEX_EAP_METHOD_BACKEND_SUPPORT, ONEX_EAP_METHOD_BACKEND_SUPPORT enumeration [NativeWIFI], OneXEapMethodBackendSupportUnknown, OneXEapMethodBackendSupported, OneXEapMethodBackendUnsupported, dot1x/ONEX_EAP_METHOD_BACKEND_SUPPORT, dot1x/OneXEapMethodBackendSupportUnknown, dot1x/OneXEapMethodBackendSupported, dot1x/OneXEapMethodBackendUnsupported, nwifi.onex_eap_method_backend_support
-ms.topic: enum
 f1_keywords:
 - dot1x/ONEX_EAP_METHOD_BACKEND_SUPPORT
 dev_langs:

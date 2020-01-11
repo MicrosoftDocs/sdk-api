@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 3636833d-3c96-45d9-bf82-e3ff930c7d9b
 ms.date: 12/05/2018
 ms.keywords: GetPostViewFormat, GetPostViewFormat method [windows Media Format], GetPostViewFormat method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetPostViewFormat method, IWMWriterPostView.GetPostViewFormat, IWMWriterPostView::GetPostViewFormat, IWMWriterPostViewGetPostViewFormat, wmformat.iwmwriterpostview_getpostviewformat, wmsdkidl/IWMWriterPostView::GetPostViewFormat
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriterPostView.GetPostViewFormat
 dev_langs:

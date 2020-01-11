@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 0D7E90A1-90E4-44BE-A4DA-8DA300C81A35
 ms.date: 12/05/2018
 ms.keywords: BeginDraw, BeginDraw method [DirectComposition], BeginDraw method [DirectComposition],IDCompositionSurface interface, IDCompositionSurface interface [DirectComposition],BeginDraw method, IDCompositionSurface.BeginDraw, IDCompositionSurface::BeginDraw, dcomp/IDCompositionSurface::BeginDraw, directcomp.idcompositionsurface_begindraw
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionSurface.BeginDraw
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: EDP
 ms.assetid: AB8DD527-BABA-40D0-A423-2BEAAA544B2B
 ms.date: 12/05/2018
 ms.keywords: EDP.srpclosethreadnetworkcontext, SrpCloseThreadNetworkContext, SrpCloseThreadNetworkContext function, srpapi/SrpCloseThreadNetworkContext
-ms.topic: function
 f1_keywords:
 - srpapi/SrpCloseThreadNetworkContext
 dev_langs:

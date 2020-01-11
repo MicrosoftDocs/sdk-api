@@ -7,7 +7,6 @@ tech.root: locationapi
 ms.assetid: ba8c66cb-be94-4649-ada9-620ed3b35516
 ms.date: 12/05/2018
 ms.keywords: ICivicAddressReport, ICivicAddressReport interface [WinLocation], ICivicAddressReport interface [WinLocation],described, locationapi/ICivicAddressReport, winlocation.icivicaddressreport
-ms.topic: interface
 f1_keywords:
 - locationapi/ICivicAddressReport
 dev_langs:

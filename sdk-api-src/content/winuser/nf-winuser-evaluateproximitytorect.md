@@ -7,7 +7,6 @@ tech.root: Input_TouchHitTest
 ms.assetid: 269ef4c1-9c9f-4bd7-9852-e82c4a707d3c
 ms.date: 12/05/2018
 ms.keywords: EvaluateProximityToRect, EvaluateProximityToRect function, input_touchhittest.evaluateproximitytorect, touch_hittest.evaluateproximitytorect, winuser/EvaluateProximityToRect
-ms.topic: function
 f1_keywords:
 - winuser/EvaluateProximityToRect
 dev_langs:

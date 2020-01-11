@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 65C46775-9D4D-4C80-A5F0-6713C805053D
 ms.date: 12/05/2018
 ms.keywords: TKBLT_CLASSIC, TKBLT_OPTIMIZED, TKBLT_UNDEFINED, TKBLayoutType, TKBLayoutType enumeration [Text Services Framework], ctffunc/TKBLT_CLASSIC, ctffunc/TKBLT_OPTIMIZED, ctffunc/TKBLT_UNDEFINED, ctffunc/TKBLayoutType, tsf.tkblayouttype
-ms.topic: enum
 f1_keywords:
 - ctffunc/TKBLayoutType
 dev_langs:

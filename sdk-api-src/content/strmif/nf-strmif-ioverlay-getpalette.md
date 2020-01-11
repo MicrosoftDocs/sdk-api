@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 993c80fb-fa67-4dd6-815b-8e15d2f7f495
 ms.date: 12/05/2018
 ms.keywords: GetPalette, GetPalette method [DirectShow], GetPalette method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetPalette method, IOverlay.GetPalette, IOverlay::GetPalette, IOverlayGetPalette, dshow.ioverlay_getpalette, strmif/IOverlay::GetPalette
-ms.topic: method
 f1_keywords:
 - strmif/IOverlay.GetPalette
 dev_langs:

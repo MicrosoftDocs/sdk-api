@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: fb1335da-a863-4d15-8a8d-289d8cccd13f
 ms.date: 12/05/2018
 ms.keywords: OleUIPasteSpecial, OleUIPasteSpecial function [COM], OleUIPasteSpecialA, OleUIPasteSpecialW, _ole_OleUIPasteSpecial, com.oleuipastespecial, oledlg/OleUIPasteSpecial, oledlg/OleUIPasteSpecialA, oledlg/OleUIPasteSpecialW
-ms.topic: function
 f1_keywords:
 - oledlg/OleUIPasteSpecial
 dev_langs:

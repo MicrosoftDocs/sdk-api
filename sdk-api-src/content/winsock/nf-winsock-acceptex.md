@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: cfd4c169-a8af-46cc-9b0e-fd7fb5aad61b
 ms.date: 12/05/2018
 ms.keywords: AcceptEx, AcceptEx function [Winsock], _win32_acceptex_2, winsock.acceptex_2, winsock/AcceptEx
-ms.topic: function
 f1_keywords:
 - winsock/AcceptEx
 dev_langs:

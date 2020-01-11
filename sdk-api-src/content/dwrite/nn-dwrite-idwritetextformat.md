@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 64b2cac3-c4cb-4213-b808-7b279d296939
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat, IDWriteTextFormat interface [Direct Write], IDWriteTextFormat interface [Direct Write],described, directwrite.IDWriteTextFormat, dwrite/IDWriteTextFormat
-ms.topic: interface
 f1_keywords:
 - dwrite/IDWriteTextFormat
 dev_langs:

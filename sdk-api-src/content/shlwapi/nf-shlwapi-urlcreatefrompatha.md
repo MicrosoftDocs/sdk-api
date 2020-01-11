@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b69ab203-daab-4951-b3b9-c5ca37c532b3
 ms.date: 12/05/2018
 ms.keywords: UrlCreateFromPath, UrlCreateFromPath function [Windows Shell], UrlCreateFromPathA, UrlCreateFromPathW, _win32_UrlCreateFromPath, shell.UrlCreateFromPath, shlwapi/UrlCreateFromPath, shlwapi/UrlCreateFromPathA, shlwapi/UrlCreateFromPathW
-ms.topic: function
 f1_keywords:
 - shlwapi/UrlCreateFromPath
 dev_langs:

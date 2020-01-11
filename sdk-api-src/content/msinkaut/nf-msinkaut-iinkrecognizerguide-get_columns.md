@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: dfc2848c-6cd6-4dd6-95b6-4097ef641835
 ms.date: 12/05/2018
 ms.keywords: Columns property [Tablet PC], Columns property [Tablet PC],IInkRecognizerGuide interface, IInkRecognizerGuide interface [Tablet PC],Columns property, IInkRecognizerGuide.Columns, IInkRecognizerGuide.get_Columns, IInkRecognizerGuide::Columns, IInkRecognizerGuide::get_Columns, IInkRecognizerGuide::put_Columns, InkRecognizerGuide.get_Columns, InkRecognizerGuide.put_Columns, dfc2848c-6cd6-4dd6-95b6-4097ef641835, get_Columns, msinkaut/IInkRecognizerGuide::Columns, msinkaut/IInkRecognizerGuide::get_Columns, msinkaut/IInkRecognizerGuide::put_Columns, tablet.inkrecognizerguide_columns
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRecognizerGuide.Columns
 dev_langs:

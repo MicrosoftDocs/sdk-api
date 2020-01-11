@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 70501c3d-257c-4981-b841-4bd45f0bec27
 ms.date: 12/05/2018
 ms.keywords: IPropertyPage interface [COM],TranslateAccelerator method, IPropertyPage.TranslateAccelerator, IPropertyPage::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IPropertyPage interface, _ctrl_ipropertypage_translateaccelerator, com.ipropertypage_translateaccelerator, ocidl/IPropertyPage::TranslateAccelerator
-ms.topic: method
 f1_keywords:
 - ocidl/IPropertyPage.TranslateAccelerator
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: 08e197af-d88e-46dd-b862-66eb0ab27551
 ms.date: 12/05/2018
 ms.keywords: RegisterForLogWriteNotification, RegisterForLogWriteNotification function [Files], clfsmgmtw32/RegisterForLogWriteNotification, fs.registerforlogwritenotification
-ms.topic: function
 f1_keywords:
 - clfsmgmtw32/RegisterForLogWriteNotification
 dev_langs:

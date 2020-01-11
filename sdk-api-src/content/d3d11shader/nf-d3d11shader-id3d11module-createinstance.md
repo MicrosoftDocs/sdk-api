@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 737A69EF-F74E-4480-98EA-31D6CCAC0F8A
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Direct3D 11], CreateInstance method [Direct3D 11],ID3D11Module interface, ID3D11Module interface [Direct3D 11],CreateInstance method, ID3D11Module.CreateInstance, ID3D11Module::CreateInstance, d3d11shader/ID3D11Module::CreateInstance, direct3d11.id3d11module_createinstance
-ms.topic: method
 f1_keywords:
 - d3d11shader/ID3D11Module.CreateInstance
 dev_langs:

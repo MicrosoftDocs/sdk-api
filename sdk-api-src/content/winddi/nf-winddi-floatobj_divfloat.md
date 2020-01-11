@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 47ebf68c-6dfa-43d3-8bc9-1f0b8f030974
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_DivFloat, FLOATOBJ_DivFloat function [Display Devices], display.floatobj_divfloat, gdifncs_b815b21c-c9fb-4334-857f-e6e66053014a.xml, winddi/FLOATOBJ_DivFloat
-ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_DivFloat
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: E40517CE-3169-4F20-A572-EDBC8FEC2862
 ms.date: 12/05/2018
 ms.keywords: IMbnMultiCarrier, IMbnMultiCarrier interface [Microsoft Broadband Networks], IMbnMultiCarrier interface [Microsoft Broadband Networks],described, mbn.imbnmulticarrier, mbnapi/IMbnMultiCarrier
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnMultiCarrier
 dev_langs:

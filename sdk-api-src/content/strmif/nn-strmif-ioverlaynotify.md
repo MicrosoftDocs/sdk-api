@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 77dcee49-35ef-4664-b0e6-3044352d543c
 ms.date: 12/05/2018
 ms.keywords: IOverlayNotify, IOverlayNotify interface [DirectShow], IOverlayNotify interface [DirectShow],described, IOverlayNotifyInterface, dshow.ioverlaynotify, strmif/IOverlayNotify
-ms.topic: interface
 f1_keywords:
 - strmif/IOverlayNotify
 dev_langs:

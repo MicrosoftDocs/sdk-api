@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: c1d73e52-fd58-4895-822e-3ebc8fe12db7
 ms.date: 12/05/2018
 ms.keywords: INSTALLTYPE_SINGLE_INSTANCE, MsiRemovePatches, MsiRemovePatches function, MsiRemovePatchesA, MsiRemovePatchesW, msi/MsiRemovePatches, msi/MsiRemovePatchesA, msi/MsiRemovePatchesW, setup.msiremovepatches, setup.msiuninstallpatch
-ms.topic: function
 f1_keywords:
 - msi/MsiRemovePatches
 dev_langs:

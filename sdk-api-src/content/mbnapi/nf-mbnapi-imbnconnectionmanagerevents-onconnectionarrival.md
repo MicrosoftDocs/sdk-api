@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 88e48ce0-b2eb-431e-be0f-03b1d22ca61b
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionManagerEvents interface [Microsoft Broadband Networks],OnConnectionArrival method, IMbnConnectionManagerEvents.OnConnectionArrival, IMbnConnectionManagerEvents::OnConnectionArrival, OnConnectionArrival, OnConnectionArrival method [Microsoft Broadband Networks], OnConnectionArrival method [Microsoft Broadband Networks],IMbnConnectionManagerEvents interface, mbn.imbnconnectionmanagerevents_onconnectionarrival, mbnapi/IMbnConnectionManagerEvents::OnConnectionArrival
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnConnectionManagerEvents.OnConnectionArrival
 dev_langs:

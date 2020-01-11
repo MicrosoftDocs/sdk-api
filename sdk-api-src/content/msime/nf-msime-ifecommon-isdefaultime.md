@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: FFC3E200-54D4-4C47-A4A3-87AA2A4A2232
 ms.date: 12/05/2018
 ms.keywords: IFECommon interface [Internationalization for Windows Applications],IsDefaultIME method, IFECommon.IsDefaultIME, IFECommon::IsDefaultIME, IsDefaultIME, IsDefaultIME method [Internationalization for Windows Applications], IsDefaultIME method [Internationalization for Windows Applications],IFECommon interface, intl.ifecommon_isdefaultime, msime/IFECommon::IsDefaultIME
-ms.topic: method
 f1_keywords:
 - msime/IFECommon.IsDefaultIME
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 56BC813F-A1C1-4E3D-BDC1-13A7D9888EA7
 ms.date: 12/05/2018
 ms.keywords: CM_Delete_Device_Interface_Key_ExW, CM_Delete_Device_Interface_Key_ExW function [Device and Driver Installation], cfgmgr32/CM_Delete_Device_Interface_Key_ExW, devinst.cm_delete_device_interface_key_exw
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Delete_Device_Interface_Key_ExW
 dev_langs:

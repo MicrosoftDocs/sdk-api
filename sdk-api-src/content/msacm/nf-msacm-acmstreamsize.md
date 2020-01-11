@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 44b8c2cb-ae37-4919-83af-4a8ce6f8737c
 ms.date: 12/05/2018
 ms.keywords: _win32_acmStreamSize, acmStreamSize, acmStreamSize function [Windows Multimedia], msacm/acmStreamSize, multimedia.acmstreamsize
-ms.topic: function
 f1_keywords:
 - msacm/acmStreamSize
 dev_langs:

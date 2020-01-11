@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: a3e56415-fe75-4d54-8448-6ca7793147fd
 ms.date: 12/05/2018
 ms.keywords: IPortableDevicePropertiesBulkCallback interface [Windows Portable Devices SDK],OnEnd method, IPortableDevicePropertiesBulkCallback.OnEnd, IPortableDevicePropertiesBulkCallback::OnEnd, IPortableDevicePropertiesBulkCallbackOnEnd, OnEnd, OnEnd method [Windows Portable Devices SDK], OnEnd method [Windows Portable Devices SDK],IPortableDevicePropertiesBulkCallback interface, portabledeviceapi/IPortableDevicePropertiesBulkCallback::OnEnd, wpdsdk.iportabledevicepropertiesbulkcallback_onend
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDevicePropertiesBulkCallback.OnEnd
 dev_langs:

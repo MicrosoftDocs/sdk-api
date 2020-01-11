@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: dcee0bed-dc6f-435d-b292-07e331f6cf5b
 ms.date: 12/05/2018
 ms.keywords: QOSCreateHandle, QOSCreateHandle function [QOS], qos.qoscreatehandle, qos2/QOSCreateHandle
-ms.topic: function
 f1_keywords:
 - qos2/QOSCreateHandle
 dev_langs:

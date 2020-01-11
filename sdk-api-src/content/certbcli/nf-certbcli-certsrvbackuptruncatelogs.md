@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 8ccab63c-1057-485e-970e-8298dfea3426
 ms.date: 12/05/2018
 ms.keywords: CertSrvBackupTruncateLogs, CertSrvBackupTruncateLogs function [Security], _certsrv_certsrvbackuptruncatelogs, certbcli/CertSrvBackupTruncateLogs, security.certsrvbackuptruncatelogs
-ms.topic: function
 f1_keywords:
 - certbcli/CertSrvBackupTruncateLogs
 dev_langs:

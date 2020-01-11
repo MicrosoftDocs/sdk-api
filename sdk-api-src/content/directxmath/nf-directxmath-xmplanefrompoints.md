@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneFromPoints(XMVECTOR,XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneFromPoints, XMPlaneFromPoints, XMPlaneFromPoints method [DirectX Math Support APIs], dxmath.xmplanefrompoints
-ms.topic: function
 f1_keywords:
 - directxmath/XMPlaneFromPoints
 dev_langs:

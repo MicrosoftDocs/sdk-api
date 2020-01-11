@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 829C8CC6-3E2C-480A-9F36-41EB93CA8536
 ms.date: 12/05/2018
 ms.keywords: CreateSemaphoreA, CreateSemaphoreA function, CreateSemaphoreW, base.createsemaphorea, winbase/CreateSemaphoreA, winbase/CreateSemaphoreW
-ms.topic: function
 f1_keywords:
 - winbase/CreateSemaphoreA
 dev_langs:

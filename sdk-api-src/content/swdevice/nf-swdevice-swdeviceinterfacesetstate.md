@@ -7,7 +7,6 @@ tech.root: swdevice
 ms.assetid: 09430CEF-F386-4F08-9D11-78E61C44468D
 ms.date: 12/05/2018
 ms.keywords: SwDeviceInterfaceSetState, SwDeviceInterfaceSetState function, swdevice.swdeviceinterfacesetstate, swdevice/SwDeviceInterfaceSetState
-ms.topic: function
 f1_keywords:
 - swdevice/SwDeviceInterfaceSetState
 dev_langs:

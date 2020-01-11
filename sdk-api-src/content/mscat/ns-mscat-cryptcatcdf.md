@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 15d5710a-d4df-4e45-b161-5d4f7509ba29
 ms.date: 12/05/2018
 ms.keywords: CRYPTCATCDF, CRYPTCATCDF structure [Security], mscat/CRYPTCATCDF, security.cryptcatcdf
-ms.topic: struct
 f1_keywords:
 - mscat/CRYPTCATCDF
 dev_langs:

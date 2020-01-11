@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 26e11fd1-99fd-4afa-8879-096a40acecce
 ms.date: 12/05/2018
 ms.keywords: MCIWndDestroy, MCIWndDestroy macro [Windows Multimedia], _win32_MCIWndDestroy, multimedia.mciwnddestroy, vfw/MCIWndDestroy
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndDestroy
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 25c61f42-b190-44c3-b2ba-57861bdfbce3
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeDateArray object [Security],GetCount method, GetCount, GetCount method [Security], GetCount method [Security],CCertEncodeDateArray object, GetCount method [Security],ICertEncodeDateArray interface, ICertEncodeDateArray interface [Security],GetCount method, ICertEncodeDateArray.GetCount, ICertEncodeDateArray::GetCount, _certsrv_icertencodedatearray_getcount, certenc/ICertEncodeDateArray::GetCount, security.icertencodedatearray_getcount
-ms.topic: method
 f1_keywords:
 - certenc/ICertEncodeDateArray.GetCount
 dev_langs:

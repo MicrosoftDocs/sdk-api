@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 859faa13-bd66-46ee-8452-6ff5d53d66c9
 ms.date: 12/05/2018
 ms.keywords: '*LPQOS, LPQOS, LPQOS structure pointer [QOS], QOS, QOS structure [QOS], _gqos_qos, qos.qos, winsock2/LPQOS, winsock2/QOS'
-ms.topic: struct
 f1_keywords:
 - winsock2/QOS
 dev_langs:

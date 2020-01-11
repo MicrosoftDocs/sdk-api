@@ -7,7 +7,6 @@ tech.root: Input_TouchHitTest
 ms.assetid: c4061285-2d0f-4404-9b63-bda2ec61b764
 ms.date: 12/05/2018
 ms.keywords: PackTouchHitTestingProximityEvaluation, PackTouchHitTestingProximityEvaluation function, input_touchhittest.packtouchhittestingproximityevaluation, touch_hittest.packtouchhittestingproximityevaluation, winuser/PackTouchHitTestingProximityEvaluation
-ms.topic: function
 f1_keywords:
 - winuser/PackTouchHitTestingProximityEvaluation
 dev_langs:

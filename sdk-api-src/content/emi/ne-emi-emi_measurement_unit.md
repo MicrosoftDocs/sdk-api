@@ -7,7 +7,6 @@ tech.root: powermeter
 ms.assetid: 02152942-A024-4D53-962A-A2ECF7E7D50C
 ms.date: 12/05/2018
 ms.keywords: EMI_MEASUREMENT_UNIT, EMI_MEASUREMENT_UNIT enumeration [Power Metering and Budgeting Devices], EmiMeasurementUnitPicowattHours, emi/EMI_MEASUREMENT_UNIT, emi/EmiMeasurementUnitPicowattHours, powermeter.emi_measurement_unit
-ms.topic: enum
 f1_keywords:
 - emi/EMI_MEASUREMENT_UNIT
 dev_langs:

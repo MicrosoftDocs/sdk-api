@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 33fc5b7c-4d05-4ec7-8d03-631c6d9f2f34
 ms.date: 12/05/2018
 ms.keywords: IVdsVolume interface [VDS],QueryPlexes method, IVdsVolume.QueryPlexes, IVdsVolume::QueryPlexes, QueryPlexes, QueryPlexes method [VDS], QueryPlexes method [VDS],IVdsVolume interface, base.ivdsvolume_queryplexes, vds/IVdsVolume::QueryPlexes
-ms.topic: method
 f1_keywords:
 - vds/IVdsVolume.QueryPlexes
 dev_langs:

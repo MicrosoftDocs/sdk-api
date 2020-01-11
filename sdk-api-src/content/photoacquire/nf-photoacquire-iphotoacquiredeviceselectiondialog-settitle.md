@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: e8338978-3232-41b2-87ee-11eee3e90fc6
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],SetTitle method, IPhotoAcquireDeviceSelectionDialog.SetTitle, IPhotoAcquireDeviceSelectionDialog::SetTitle, IPhotoAcquireDeviceSelectionDialogSetTitle, SetTitle, SetTitle method [Picture Acquisition], SetTitle method [Picture Acquisition],IPhotoAcquireDeviceSelectionDialog interface, photoacquire/IPhotoAcquireDeviceSelectionDialog::SetTitle, picacq.iphotoacquiredeviceselectiondialog_settitle
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoAcquireDeviceSelectionDialog.SetTitle
 dev_langs:

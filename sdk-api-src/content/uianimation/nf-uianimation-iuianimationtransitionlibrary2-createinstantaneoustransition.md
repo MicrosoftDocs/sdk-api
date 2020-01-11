@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: E40313C5-F98E-4BF3-83B8-735271ED1E2C
 ms.date: 12/05/2018
 ms.keywords: CreateInstantaneousTransition, CreateInstantaneousTransition method [Windows Animation], CreateInstantaneousTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateInstantaneousTransition method, IUIAnimationTransitionLibrary2.CreateInstantaneousTransition, IUIAnimationTransitionLibrary2::CreateInstantaneousTransition, uianimation.iuianimationtransitionlibrary2_createinstantaneoustransition, uianimation/IUIAnimationTransitionLibrary2::CreateInstantaneousTransition
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationTransitionLibrary2.CreateInstantaneousTransition
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: be0840dc-e19a-454e-bbea-6968c7284cc8
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],Clear method, IDataCollectorCollection.Clear, IDataCollectorCollection::Clear, base.idatacollectorcollection_clear, pla.idatacollectorcollection_clear, pla/IDataCollectorCollection::Clear
-ms.topic: method
 f1_keywords:
 - pla/IDataCollectorCollection.Clear
 dev_langs:

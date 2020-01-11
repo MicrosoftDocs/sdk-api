@@ -7,7 +7,6 @@ tech.root: ProjFS
 ms.assetid: 466347B7-1D7D-4C7D-B17C-1E5E1A2223C1
 ms.date: 12/05/2018
 ms.keywords: PrjStartVirtualizing, PrjStartVirtualizing function, ProjFS.prjstartvirtualizing, projectedfslib/PrjStartVirtualizing
-ms.topic: function
 f1_keywords:
 - projectedfslib/PrjStartVirtualizing
 dev_langs:

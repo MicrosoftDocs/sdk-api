@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 9a296937-6f8b-4f04-989f-3a5d4c6f7b85
 ms.date: 12/05/2018
 ms.keywords: IMDSPEnumDevice, IMDSPEnumDevice interface [windows Media Device Manager], IMDSPEnumDevice interface [windows Media Device Manager],described, IMDSPEnumDeviceInterface, mswmdm/IMDSPEnumDevice, wmdm.imdspenumdevice
-ms.topic: interface
 f1_keywords:
 - mswmdm/IMDSPEnumDevice
 dev_langs:

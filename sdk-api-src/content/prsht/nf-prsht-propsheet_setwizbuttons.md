@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setwizbuttons.htm
 ms.date: 12/05/2018
 ms.keywords: PSWIZB_BACK, PSWIZB_DISABLEDFINISH, PSWIZB_FINISH, PSWIZB_NEXT, PropSheet_SetWizButtons, PropSheet_SetWizButtons macro [Windows Controls], _win32_PropSheet_SetWizButtons, _win32_PropSheet_SetWizButtons_cpp, controls.PropSheet_SetWizButtons, controls._win32_PropSheet_SetWizButtons, prsht/PropSheet_SetWizButtons
-ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_SetWizButtons
 dev_langs:

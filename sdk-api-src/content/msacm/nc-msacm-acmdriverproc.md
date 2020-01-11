@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: e29c157d-e56e-4242-abb8-2736d5599caa
 ms.date: 12/05/2018
 ms.keywords: _win32_acmDriverProc, acmDriverProc, acmDriverProc callback, acmDriverProc callback function [Windows Multimedia], msacm/acmDriverProc, multimedia.acmdriverproc
-ms.topic: callback
 f1_keywords:
 - msacm/acmDriverProc
 dev_langs:

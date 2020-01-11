@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: B9231C70-A6FF-4660-90B8-04207D2FF762
 ms.date: 12/05/2018
 ms.keywords: D3D12_PACKED_MIP_INFO, D3D12_PACKED_MIP_INFO structure, d3d12/D3D12_PACKED_MIP_INFO, direct3d12.d3d12_packed_mip_info
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_PACKED_MIP_INFO
 dev_langs:

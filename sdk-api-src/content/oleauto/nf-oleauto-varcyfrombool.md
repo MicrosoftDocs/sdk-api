@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: e611022e-966f-4f9a-9870-ee4ab8d1144c
 ms.date: 12/05/2018
 ms.keywords: VarCyFromBool, VarCyFromBool function [Automation], _oa96_VarCyFromBool, automat.varcyfrombool, oleauto/VarCyFromBool
-ms.topic: function
 f1_keywords:
 - oleauto/VarCyFromBool
 dev_langs:

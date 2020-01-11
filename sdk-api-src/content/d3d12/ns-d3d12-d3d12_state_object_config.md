@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 8D48150F-995E-4032-BA97-F8A6954FF728
 ms.date: 12/05/2018
 ms.keywords: D3D12_STATE_OBJECT_CONFIG, D3D12_STATE_OBJECT_CONFIG structure, PD3D12_STATE_OBJECT_CONFIG, PD3D12_STATE_OBJECT_CONFIG structure pointer, d3d12/D3D12_STATE_OBJECT_CONFIG, d3d12/PD3D12_STATE_OBJECT_CONFIG, direct3d12.d3d12_state_object_config
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_STATE_OBJECT_CONFIG
 dev_langs:

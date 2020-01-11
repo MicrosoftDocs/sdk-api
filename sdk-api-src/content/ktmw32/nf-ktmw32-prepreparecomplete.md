@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: b4a70a51-2c49-4626-9fca-9ca6e0d21a53
 ms.date: 12/05/2018
 ms.keywords: PrePrepareComplete, PrePrepareComplete function [Files], fs.prepreparecomplete, ktmw32/PrePrepareComplete
-ms.topic: function
 f1_keywords:
 - ktmw32/PrePrepareComplete
 dev_langs:

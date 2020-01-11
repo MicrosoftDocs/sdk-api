@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 0432892b-af22-43d1-be3c-a98af950f0a7
 ms.date: 12/05/2018
 ms.keywords: VARIANT_UserFree, VARIANT_UserFree function [Automation], _oa96_VARIANT_UserFree, automat.variant_userfree, oaidl/VARIANT_UserFree
-ms.topic: function
 f1_keywords:
 - oaidl/VARIANT_UserFree
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 53693e2f-f6d2-42cc-9387-798f8dc10556
 ms.date: 12/05/2018
 ms.keywords: GetDate, GetDate method [windows Media Device Manager], GetDate method [windows Media Device Manager],IWMDMStorage interface, IWMDMStorage interface [windows Media Device Manager],GetDate method, IWMDMStorage.GetDate, IWMDMStorage::GetDate, IWMDMStorageGetDate, mswmdm/IWMDMStorage::GetDate, wmdm.iwmdmstorage_getdate
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMStorage.GetDate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 1fd3b84d-ea45-4267-ac30-e4e2cf037c92
 ms.date: 12/05/2018
 ms.keywords: RpcTestCancel, RpcTestCancel function [RPC], _rpc_rpctestcancel, rpc.rpctestcancel, rpcdce/RpcTestCancel
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcTestCancel
 dev_langs:

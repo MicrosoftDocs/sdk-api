@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 81f42654-8f94-4231-a798-67fbbe46e812
 ms.date: 12/05/2018
 ms.keywords: WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT, WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], webservices/WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT, wsw.ws_cert_message_security_binding_constraint
-ms.topic: struct
 f1_keywords:
 - webservices/WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT
 dev_langs:

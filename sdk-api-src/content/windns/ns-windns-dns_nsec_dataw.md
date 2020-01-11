@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: ea446732-bc6a-4597-b164-11bfd77c07f2
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_NSEC_DATA, *PDNS_NSEC_DATAW, DNS_NSEC_DATA, DNS_NSEC_DATA structure [DNS], DNS_NSEC_DATAW, PDNS_NSEC_DATA, PDNS_NSEC_DATA structure pointer [DNS], dns.dns_nsec_data, windns/DNS_NSEC_DATA, windns/PDNS_NSEC_DATA'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_NSEC_DATA
 dev_langs:

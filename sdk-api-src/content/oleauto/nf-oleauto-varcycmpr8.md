@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 391ace93-7f08-4fa3-a897-1f4012fe631b
 ms.date: 12/05/2018
 ms.keywords: VarCyCmpR8, VarCyCmpR8 function [Automation], _oa96_VarCyCmpR8, automat.varcycmpr8, oleauto/VarCyCmpR8
-ms.topic: function
 f1_keywords:
 - oleauto/VarCyCmpR8
 dev_langs:

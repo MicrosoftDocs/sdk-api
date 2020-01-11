@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: EFF60EF7-C060-4148-916C-D971B65561F5
 ms.date: 12/05/2018
 ms.keywords: ID3D11FunctionParameterReflection, ID3D11FunctionParameterReflection interface [Direct3D 11], ID3D11FunctionParameterReflection interface [Direct3D 11],described, d3d11shader/ID3D11FunctionParameterReflection, direct3d11.id3d11functionparameterreflection
-ms.topic: interface
 f1_keywords:
 - d3d11shader/ID3D11FunctionParameterReflection
 dev_langs:

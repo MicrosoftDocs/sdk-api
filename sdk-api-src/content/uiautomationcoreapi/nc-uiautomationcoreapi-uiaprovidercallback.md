@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 45a32e14-9b8b-452e-a2eb-0f6773980f2f
 ms.date: 12/05/2018
 ms.keywords: UiaProviderCallback, UiaProviderCallback callback, UiaProviderCallback callback function [Windows Accessibility], uiauto.uiauto_UiaProviderCallbackAutoMeth, uiauto_UiaProviderCallbackAutoMeth, uiautomationcoreapi/UiaProviderCallback, winauto.uiauto_UiaProviderCallbackAutoMeth
-ms.topic: callback
 f1_keywords:
 - uiautomationcoreapi/UiaProviderCallback
 dev_langs:

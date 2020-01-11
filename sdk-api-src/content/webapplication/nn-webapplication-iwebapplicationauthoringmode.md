@@ -7,7 +7,6 @@ tech.root: debug_wwahost
 ms.assetid: c33793c9-499e-4a57-b52d-345d3b360789
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationAuthoringMode, IWebApplicationAuthoringMode interface [Debugging Windows Store apps], IWebApplicationAuthoringMode interface [Debugging Windows Store apps],described, debug.iwebapplicationauthoringmode, webapplication/IWebApplicationAuthoringMode
-ms.topic: interface
 f1_keywords:
 - webapplication/IWebApplicationAuthoringMode
 dev_langs:

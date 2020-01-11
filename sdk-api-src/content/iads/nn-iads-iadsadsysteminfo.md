@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 5573d37b-10a8-4176-80c7-711552ff36cb
 ms.date: 12/05/2018
 ms.keywords: ADSystemInfo, IADsADSystemInfo, IADsADSystemInfo interface [ADSI], IADsADSystemInfo interface [ADSI],described, _ds_iadsadsysteminfo, adsi.iadsadsysteminfo, iads/IADsADSystemInfo
-ms.topic: interface
 f1_keywords:
 - iads/IADsADSystemInfo
 dev_langs:

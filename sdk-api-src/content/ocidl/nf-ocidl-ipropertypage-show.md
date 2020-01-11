@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: f89aa820-a3d3-4a41-b2b2-9ee48354fbeb
 ms.date: 12/05/2018
 ms.keywords: IPropertyPage interface [COM],Show method, IPropertyPage.Show, IPropertyPage::Show, Show, Show method [COM], Show method [COM],IPropertyPage interface, _ctrl_ipropertypage_show, com.ipropertypage_show, ocidl/IPropertyPage::Show
-ms.topic: method
 f1_keywords:
 - ocidl/IPropertyPage.Show
 dev_langs:

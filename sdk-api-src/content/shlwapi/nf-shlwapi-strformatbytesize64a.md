@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b56dd90a-7033-409b-a8ea-e81a7a8a2342
 ms.date: 12/05/2018
 ms.keywords: StrFormatByteSize64, StrFormatByteSize64 function [Windows Shell], StrFormatByteSize64A, _win32_StrFormatByteSize64A, shell.StrFormatByteSize64A, shlwapi/StrFormatByteSize64, shlwapi/StrFormatByteSize64A
-ms.topic: function
 f1_keywords:
 - shlwapi/StrFormatByteSize64
 dev_langs:

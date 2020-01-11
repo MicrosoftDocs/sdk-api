@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: d65ee26c-28d4-4b58-9089-1aab959246cc
 ms.date: 12/05/2018
 ms.keywords: RadialGradientBrushProperties, RadialGradientBrushProperties function [Direct2D], d2d1helper/RadialGradientBrushProperties, direct2d.radialgradientbrushproperties
-ms.topic: function
 f1_keywords:
 - d2d1helper/RadialGradientBrushProperties
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 36fa395d-09b2-474d-85ae-5a22d25e88eb
 ms.date: 12/05/2018
 ms.keywords: AdjustRect, AdjustRect method [COM], AdjustRect method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],AdjustRect method, IOleInPlaceSiteWindowless.AdjustRect, IOleInPlaceSiteWindowless::AdjustRect, _ole_ioleinplacesitewindowless_adjustrect, com.ioleinplacesitewindowless_adjustrect, ocidl/IOleInPlaceSiteWindowless::AdjustRect
-ms.topic: method
 f1_keywords:
 - ocidl/IOleInPlaceSiteWindowless.AdjustRect
 dev_langs:

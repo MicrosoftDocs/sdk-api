@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 2b64a14f-ad55-46df-a7a6-7f05fcb2c875
 ms.date: 12/05/2018
 ms.keywords: ScriptGetFontAlternateGlyphs, ScriptGetFontAlternateGlyphs function [Internationalization for Windows Applications], _win32_ScriptGetFontAlternateGlyphs, intl.scriptgetfontalternateglyphs, usp10/ScriptGetFontAlternateGlyphs
-ms.topic: function
 f1_keywords:
 - usp10/ScriptGetFontAlternateGlyphs
 dev_langs:

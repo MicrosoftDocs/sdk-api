@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: 54a498c4-af27-4438-a78e-ce92c632a122
 ms.date: 12/05/2018
 ms.keywords: PROFILEPROPERTIES, PROFILEPROPERTIES enumeration [Network Policy Server], PROPERTY_PROFILE_ATTRIBUTES_COLLECTION, _sdo_profileproperties, nps.SDO_profileproperties, sdo.profileproperties, sdoias/PROFILEPROPERTIES, sdoias/PROPERTY_PROFILE_ATTRIBUTES_COLLECTION
-ms.topic: enum
 f1_keywords:
 - sdoias/PROFILEPROPERTIES
 dev_langs:

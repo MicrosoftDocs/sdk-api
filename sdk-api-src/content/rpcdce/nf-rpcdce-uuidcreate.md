@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 4008fb54-7770-4f1a-8e1c-4b20bef884f9
 ms.date: 12/05/2018
 ms.keywords: UuidCreate, UuidCreate function [RPC], _rpc_uuidcreate, rpc.uuidcreate, rpcdce/UuidCreate
-ms.topic: function
 f1_keywords:
 - rpcdce/UuidCreate
 dev_langs:

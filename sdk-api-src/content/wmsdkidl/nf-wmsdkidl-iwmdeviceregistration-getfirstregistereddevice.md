@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: a11249f5-0604-4de7-9dd2-152d570183c3
 ms.date: 12/05/2018
 ms.keywords: GetFirstRegisteredDevice, GetFirstRegisteredDevice method [windows Media Format], GetFirstRegisteredDevice method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetFirstRegisteredDevice method, IWMDeviceRegistration.GetFirstRegisteredDevice, IWMDeviceRegistration::GetFirstRegisteredDevice, IWMDeviceRegistrationGetFirstRegisteredDevice, wmformat.iwmdeviceregistration_getfirstregistereddevice, wmsdkidl/IWMDeviceRegistration::GetFirstRegisteredDevice
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDeviceRegistration.GetFirstRegisteredDevice
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 0496f241-9530-47fb-89e2-15d7ab6da87a
 ms.date: 12/05/2018
 ms.keywords: BCryptEnumProviders, BCryptEnumProviders function [Security], bcrypt/BCryptEnumProviders, security.bcryptenumproviders_func
-ms.topic: function
 f1_keywords:
 - bcrypt/BCryptEnumProviders
 dev_langs:

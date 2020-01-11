@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: b85d87c6-28b7-49f8-865c-9d246f89367e
 ms.date: 12/05/2018
 ms.keywords: PeerGroupCreate, PeerGroupCreate function [Peer Networking], p2p.peergroupcreate, p2p/PeerGroupCreate
-ms.topic: function
 f1_keywords:
 - p2p/PeerGroupCreate
 dev_langs:

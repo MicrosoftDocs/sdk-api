@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 637e0f6b-102f-436c-b0ec-edef16245675
 ms.date: 12/05/2018
 ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnEmergencyModeChange method, IMbnInterfaceEvents.OnEmergencyModeChange, IMbnInterfaceEvents::OnEmergencyModeChange, OnEmergencyModeChange, OnEmergencyModeChange method [Microsoft Broadband Networks], OnEmergencyModeChange method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_onemergencymodechange, mbnapi/IMbnInterfaceEvents::OnEmergencyModeChange
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnInterfaceEvents.OnEmergencyModeChange
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 68a69321-0aa9-423e-a72f-aa2f4dee2d51
 ms.date: 12/05/2018
 ms.keywords: MI_Session, MI_Session structure [Windows Management Infrastructure (MI)], mi/MI_Session, wmi._mi_session, wmi_v2.mi_session
-ms.topic: struct
 f1_keywords:
 - mi/MI_Session
 dev_langs:

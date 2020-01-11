@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 75a6857c-d5b7-4bb6-8035-e6317d4ea146
 ms.date: 12/05/2018
 ms.keywords: '*PMFCARD_DES, MFCARD_DES, MFCARD_DES structure [Device and Driver Installation], PMFCARD_DES, PMFCARD_DES structure pointer [Device and Driver Installation], cfgmgr32/MFCARD_DES, cfgmgr32/PMFCARD_DES, cfgmgrst_aea737e9-53c7-41dd-b4d3-80f29442358c.xml, devinst.mfcard_des'
-ms.topic: struct
 f1_keywords:
 - cfgmgr32/MFCARD_DES
 dev_langs:

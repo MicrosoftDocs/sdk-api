@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 6134f747-a138-4ec4-8a89-c25beddcf319
 ms.date: 12/05/2018
 ms.keywords: GetIcon, GetIcon method [Text Services Framework], GetIcon method [Text Services Framework],ITfLangBarItemButton interface, ITfLangBarItemButton interface [Text Services Framework],GetIcon method, ITfLangBarItemButton.GetIcon, ITfLangBarItemButton::GetIcon, _tsf_itflangbaritembutton_geticon_ref, ctfutb/ITfLangBarItemButton::GetIcon, tsf.itflangbaritembutton_geticon
-ms.topic: method
 f1_keywords:
 - ctfutb/ITfLangBarItemButton.GetIcon
 dev_langs:

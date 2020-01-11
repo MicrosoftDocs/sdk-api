@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: cfaf475c-336a-492f-b5a8-c49c21e5392d
 ms.date: 12/05/2018
 ms.keywords: GetDecoderCaps, GetDecoderCaps method [DirectShow], GetDecoderCaps method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDecoderCaps method, IDvdInfo2.GetDecoderCaps, IDvdInfo2::GetDecoderCaps, IDvdInfo2GetDecoderCaps, dshow.idvdinfo2_getdecodercaps, strmif/IDvdInfo2::GetDecoderCaps
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo2.GetDecoderCaps
 dev_langs:

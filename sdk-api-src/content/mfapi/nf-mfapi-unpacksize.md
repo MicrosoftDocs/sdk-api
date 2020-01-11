@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: A98C2908-E566-4E2F-BED8-10C7D649F8B2
 ms.date: 12/05/2018
 ms.keywords: UnpackSize, UnpackSize function [Media Foundation], mf.unpacksize, mfapi/UnpackSize
-ms.topic: function
 f1_keywords:
 - mfapi/UnpackSize
 dev_langs:

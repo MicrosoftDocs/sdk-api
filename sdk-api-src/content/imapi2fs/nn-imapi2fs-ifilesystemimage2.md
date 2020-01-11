@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: c38995b7-6f32-4489-bb6c-0e3561b11f81
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage2, IFileSystemImage2 interface [IMAPI], IFileSystemImage2 interface [IMAPI],described, imapi.ifilesystemimage2, imapi2fs/IFileSystemImage2
-ms.topic: interface
 f1_keywords:
 - imapi2fs/IFileSystemImage2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 5ade3e7a-a22a-458f-b463-1680893edc15
 ms.date: 12/05/2018
 ms.keywords: StgSetTimes, StgSetTimes function [Structured Storage], _stg_stgsettimes, coml2api/StgSetTimes, stg.stgsettimes
-ms.topic: function
 f1_keywords:
 - coml2api/StgSetTimes
 dev_langs:

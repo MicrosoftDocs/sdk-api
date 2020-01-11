@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: 219fc899-84ee-474f-9f86-6ebf9c721810
 ms.date: 12/05/2018
 ms.keywords: SetResourceManagerCompletionPort, SetResourceManagerCompletionPort function [Files], fs.setresourcemanagercompletionport, ktmw32/SetResourceManagerCompletionPort
-ms.topic: function
 f1_keywords:
 - ktmw32/SetResourceManagerCompletionPort
 dev_langs:

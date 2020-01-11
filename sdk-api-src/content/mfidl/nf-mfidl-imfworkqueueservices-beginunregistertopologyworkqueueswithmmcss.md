@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: af68b792-6e00-4ed1-91f8-f275288dc680
 ms.date: 12/05/2018
 ms.keywords: BeginUnregisterTopologyWorkQueuesWithMMCSS, BeginUnregisterTopologyWorkQueuesWithMMCSS method [Media Foundation], BeginUnregisterTopologyWorkQueuesWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],BeginUnregisterTopologyWorkQueuesWithMMCSS method, IMFWorkQueueServices.BeginUnregisterTopologyWorkQueuesWithMMCSS, IMFWorkQueueServices::BeginUnregisterTopologyWorkQueuesWithMMCSS, af68b792-6e00-4ed1-91f8-f275288dc680, mf.imfworkqueueservices_beginunregistertopologyworkqueueswithmmcss, mfidl/IMFWorkQueueServices::BeginUnregisterTopologyWorkQueuesWithMMCSS
-ms.topic: method
 f1_keywords:
 - mfidl/IMFWorkQueueServices.BeginUnregisterTopologyWorkQueuesWithMMCSS
 dev_langs:

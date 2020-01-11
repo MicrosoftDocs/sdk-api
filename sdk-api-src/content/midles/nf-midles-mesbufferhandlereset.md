@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: adc9681f-267e-4f6f-88a3-ec913e886dd1
 ms.date: 12/05/2018
 ms.keywords: MesBufferHandleReset, MesBufferHandleReset function [RPC], _rpc_mesbufferhandlereset, midles/MesBufferHandleReset, rpc.mesbufferhandlereset
-ms.topic: function
 f1_keywords:
 - midles/MesBufferHandleReset
 dev_langs:

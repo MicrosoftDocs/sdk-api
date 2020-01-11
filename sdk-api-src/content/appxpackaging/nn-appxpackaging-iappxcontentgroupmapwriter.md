@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: A9B3992C-D3D1-4190-9314-A21E388E88BA
 ms.date: 12/05/2018
 ms.keywords: IAppxContentGroupMapWriter, IAppxContentGroupMapWriter interface [App packaging and management], IAppxContentGroupMapWriter interface [App packaging and management],described, appxpackaging/IAppxContentGroupMapWriter, appxpkg.iappxcontentgroupmapwriter
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxContentGroupMapWriter
 dev_langs:

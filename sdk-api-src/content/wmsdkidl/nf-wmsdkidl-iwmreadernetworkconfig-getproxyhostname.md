@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: a7411ed6-90ee-450c-bb06-408469036d22
 ms.date: 12/05/2018
 ms.keywords: GetProxyHostName, GetProxyHostName method [windows Media Format], GetProxyHostName method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetProxyHostName method, IWMReaderNetworkConfig.GetProxyHostName, IWMReaderNetworkConfig::GetProxyHostName, IWMReaderNetworkConfigGetProxyHostName, wmformat.iwmreadernetworkconfig_getproxyhostname, wmsdkidl/IWMReaderNetworkConfig::GetProxyHostName
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderNetworkConfig.GetProxyHostName
 dev_langs:

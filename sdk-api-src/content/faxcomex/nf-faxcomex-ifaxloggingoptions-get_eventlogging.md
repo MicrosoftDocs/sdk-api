@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6rqf.htm
 ms.date: 12/05/2018
 ms.keywords: EventLogging property [Fax Service], EventLogging property [Fax Service],IFaxLoggingOptions interface, IFaxLoggingOptions interface [Fax Service],EventLogging property, IFaxLoggingOptions.EventLogging, IFaxLoggingOptions.get_EventLogging, IFaxLoggingOptions::EventLogging, IFaxLoggingOptions::get_EventLogging, _mfax_faxloggingoptions.eventlogging, fax._mfax_faxloggingoptions_cpp_mfax_faxloggingoptions_eventlogging_cpp, fax._mfax_faxloggingoptions_eventlogging, faxcomex/IFaxLoggingOptions::EventLogging, faxcomex/IFaxLoggingOptions::get_EventLogging, get_EventLogging
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxLoggingOptions.EventLogging
 dev_langs:

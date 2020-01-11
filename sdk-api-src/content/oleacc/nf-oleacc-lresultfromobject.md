@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: c219a4cd-7a8f-4942-8975-b3d823b6497f
 ms.date: 12/05/2018
 ms.keywords: LresultFromObject, LresultFromObject function [Windows Accessibility], _msaa_LresultFromObject, msaa.lresultfromobject, oleacc/LresultFromObject, winauto.lresultfromobject
-ms.topic: function
 f1_keywords:
 - oleacc/LresultFromObject
 dev_langs:

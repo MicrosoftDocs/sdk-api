@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 25bd3f8f-ba99-42e6-b7af-6b237343a17c
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM+], Clone method [COM+],IEnumEventObject interface, IEnumEventObject interface [COM+],Clone method, IEnumEventObject.Clone, IEnumEventObject::Clone, _cos_ienumeventobject_clone, cos.ienumeventobject_clone, eventsys/IEnumEventObject::Clone
-ms.topic: method
 f1_keywords:
 - eventsys/IEnumEventObject.Clone
 dev_langs:

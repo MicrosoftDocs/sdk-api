@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 3f6d6a77-8d8a-4ed8-8222-95086c08037c
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],SwitchedToControl method, IWMPEvents.SwitchedToControl, IWMPEvents::SwitchedToControl, IWMPEventsSwitchedToControl, SwitchedToControl, SwitchedToControl method [Windows Media Player], SwitchedToControl method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__switchedtocontrol, wmp/IWMPEvents::SwitchedToControl
-ms.topic: method
 f1_keywords:
 - wmp/IWMPEvents.SwitchedToControl
 dev_langs:

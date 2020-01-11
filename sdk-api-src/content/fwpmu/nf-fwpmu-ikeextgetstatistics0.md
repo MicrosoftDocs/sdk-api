@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 1fbcd013-b556-41c0-bfbb-25e4ab2f6291
 ms.date: 12/05/2018
 ms.keywords: IkeextGetStatistics0, IkeextGetStatistics0 function [Filtering], fwp.ikeextgetstatistics0, fwpmu/IkeextGetStatistics0
-ms.topic: function
 f1_keywords:
 - fwpmu/IkeextGetStatistics0
 dev_langs:

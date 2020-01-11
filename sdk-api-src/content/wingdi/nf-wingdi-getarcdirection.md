@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 6bf426cd-e028-4568-9e9a-aca58dd69732
 ms.date: 12/05/2018
 ms.keywords: GetArcDirection, GetArcDirection function [Windows GDI], _win32_GetArcDirection, gdi.getarcdirection, wingdi/GetArcDirection
-ms.topic: function
 f1_keywords:
 - wingdi/GetArcDirection
 dev_langs:

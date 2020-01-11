@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: e9deaed5-485f-40e4-96ee-391dc3d12a86
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceObjectWindowless interface [COM],OnWindowMessage method, IOleInPlaceObjectWindowless.OnWindowMessage, IOleInPlaceObjectWindowless::OnWindowMessage, OnWindowMessage, OnWindowMessage method [COM], OnWindowMessage method [COM],IOleInPlaceObjectWindowless interface, _ole_ioleinplaceobjectwindowless_onwindowmessage, com.ioleinplaceobjectwindowless_onwindowmessage, ocidl/IOleInPlaceObjectWindowless::OnWindowMessage
-ms.topic: method
 f1_keywords:
 - ocidl/IOleInPlaceObjectWindowless.OnWindowMessage
 dev_langs:

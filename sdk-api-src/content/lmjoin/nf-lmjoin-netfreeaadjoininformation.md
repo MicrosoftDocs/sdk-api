@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: BDFB6179-4B8C-43E3-8D34-A2B470EA0D0B
 ms.date: 12/05/2018
 ms.keywords: NetFreeAadJoinInformation, NetFreeAadJoinInformation function [Network Management], lmjoin/NetFreeAadJoinInformation, netmgmt.netfreeaadjoininformation
-ms.topic: function
 f1_keywords:
 - lmjoin/NetFreeAadJoinInformation
 dev_langs:

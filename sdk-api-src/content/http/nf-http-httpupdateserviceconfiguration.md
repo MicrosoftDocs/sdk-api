@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: B2102444-1183-4133-A83F-A58587FB6B89
 ms.date: 12/05/2018
 ms.keywords: HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpUpdateServiceConfiguration, HttpUpdateServiceConfiguration function [HTTP], http.httpupdateserviceconfiguration, http/HttpUpdateServiceConfiguration
-ms.topic: function
 f1_keywords:
 - http/HttpUpdateServiceConfiguration
 dev_langs:

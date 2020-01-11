@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 395B06D8-1BCF-44F2-9F69-A183C30E36B7
 ms.date: 12/05/2018
 ms.keywords: DecoderBeginFrame, DecoderBeginFrame method [Media Foundation], DecoderBeginFrame method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],DecoderBeginFrame method, ID3D11VideoContext.DecoderBeginFrame, ID3D11VideoContext::DecoderBeginFrame, d3d11/ID3D11VideoContext::DecoderBeginFrame, mf.id3d11videocontext_decoderbeginframe
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11VideoContext.DecoderBeginFrame
 dev_langs:

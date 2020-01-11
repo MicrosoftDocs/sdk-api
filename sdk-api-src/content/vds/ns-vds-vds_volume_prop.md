@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 3628b312-f830-4a1c-beb7-ad002a94313c
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_VOLUME_PROP, PVDS_VOLUME_PROP, PVDS_VOLUME_PROP structure pointer [VDS], VDS_VOLUME_PROP, VDS_VOLUME_PROP structure [VDS], base.vds_volume_prop, vds/PVDS_VOLUME_PROP, vds/_VDS_VOLUME_PROP'
-ms.topic: struct
 f1_keywords:
 - vds/VDS_VOLUME_PROP
 dev_langs:

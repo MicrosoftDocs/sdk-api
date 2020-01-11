@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 3c195842-316a-4c49-ace4-444fa4a38ad2
 ms.date: 12/05/2018
 ms.keywords: IReplicaKeyMap, IReplicaKeyMap interface [Windows Sync], IReplicaKeyMap interface [Windows Sync],described, winsync.ireplicakeymap, winsync/IReplicaKeyMap
-ms.topic: interface
 f1_keywords:
 - winsync/IReplicaKeyMap
 dev_langs:

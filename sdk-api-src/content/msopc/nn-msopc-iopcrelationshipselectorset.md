@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: cb23cbe2-764c-47e4-bd32-2791ddde9eee
 ms.date: 12/05/2018
 ms.keywords: IOpcRelationshipSelectorSet, IOpcRelationshipSelectorSet interface [Open Packaging Conventions], IOpcRelationshipSelectorSet interface [Open Packaging Conventions],described, msopc/IOpcRelationshipSelectorSet, opc.iopcrelationshipselectorset
-ms.topic: interface
 f1_keywords:
 - msopc/IOpcRelationshipSelectorSet
 dev_langs:

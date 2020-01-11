@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: e887c026-9300-4d20-8925-9939a664cd53
 ms.date: 12/05/2018
 ms.keywords: '*PGESTURENOTIFYSTRUCT, GESTURENOTIFYSTRUCT, GESTURENOTIFYSTRUCT structure [Windows Touch], PGESTURENOTIFYSTRUCT, PGESTURENOTIFYSTRUCT structure pointer [Windows Touch], tagGESTURENOTIFYSTRUCT, wintouch.gesturenotifystruct, winuser/GESTURENOTIFYSTRUCT, winuser/PGESTURENOTIFYSTRUCT'
-ms.topic: struct
 f1_keywords:
 - winuser/GESTURENOTIFYSTRUCT
 dev_langs:

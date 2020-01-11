@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 1c38cbc0-4e47-4f15-9a9b-548e74af6462
 ms.date: 12/05/2018
 ms.keywords: IISDB_BIT interface [Microsoft TV Technologies],Initialize method, IISDB_BIT.Initialize, IISDB_BIT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_BIT interface, dvbsiparser/IISDB_BIT::Initialize, mstv.iisdb_bit_initialize
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IISDB_BIT.Initialize
 dev_langs:

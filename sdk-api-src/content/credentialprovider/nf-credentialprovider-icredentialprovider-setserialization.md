@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: eeeaa3b8-ad0f-4d31-bdd1-646b0e33b7cd
 ms.date: 12/05/2018
 ms.keywords: ICredentialProvider interface [Windows Shell],SetSerialization method, ICredentialProvider.SetSerialization, ICredentialProvider::SetSerialization, SetSerialization, SetSerialization method [Windows Shell], SetSerialization method [Windows Shell],ICredentialProvider interface, _shell_ICredentialProvider_SetSerialization, credentialprovider/ICredentialProvider::SetSerialization, shell.ICredentialProvider_SetSerialization
-ms.topic: method
 f1_keywords:
 - credentialprovider/ICredentialProvider.SetSerialization
 dev_langs:

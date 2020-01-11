@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: c89f378d-daa6-4e01-a087-6082d368585b
 ms.date: 12/05/2018
 ms.keywords: IMSVidXDSEvent, IMSVidXDSEvent interface [Microsoft TV Technologies], IMSVidXDSEvent interface [Microsoft TV Technologies],described, IMSVidXDSEventInterface, mstv.imsvidxdsevent, segment/IMSVidXDSEvent
-ms.topic: interface
 f1_keywords:
 - segment/IMSVidXDSEvent
 dev_langs:

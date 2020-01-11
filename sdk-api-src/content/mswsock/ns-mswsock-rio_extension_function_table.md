@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 33C190B0-DE01-47A0-93AF-627FC5C5FF48
 ms.date: 12/05/2018
 ms.keywords: '*PRIO_EXTENSION_FUNCTION_TABLE, PRIO_EXTENSION_FUNCTION_TABLE, PRIO_EXTENSION_FUNCTION_TABLE structure pointer [Winsock], RIO_EXTENSION_FUNCTION_TABLE, RIO_EXTENSION_FUNCTION_TABLE structure [Winsock], mswsockdef/PRIO_EXTENSION_FUNCTION_TABLE, mswsockdef/RIO_EXTENSION_FUNCTION_TABLE, winsock.rio_extension_function_table'
-ms.topic: struct
 f1_keywords:
 - mswsock/RIO_EXTENSION_FUNCTION_TABLE
 dev_langs:

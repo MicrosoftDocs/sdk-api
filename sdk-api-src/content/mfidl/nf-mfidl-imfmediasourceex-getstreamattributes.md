@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 360B64E6-4936-4E40-A0EB-7E9EBAF1203E
 ms.date: 12/05/2018
 ms.keywords: GetStreamAttributes, GetStreamAttributes method [Media Foundation], GetStreamAttributes method [Media Foundation],IMFMediaSourceEx interface, IMFMediaSourceEx interface [Media Foundation],GetStreamAttributes method, IMFMediaSourceEx.GetStreamAttributes, IMFMediaSourceEx::GetStreamAttributes, mf.imfmediasourceex_getstreamattributes, mfidl/IMFMediaSourceEx::GetStreamAttributes
-ms.topic: method
 f1_keywords:
 - mfidl/IMFMediaSourceEx.GetStreamAttributes
 dev_langs:

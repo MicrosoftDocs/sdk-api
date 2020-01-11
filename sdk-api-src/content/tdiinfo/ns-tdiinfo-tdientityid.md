@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: d95a96b5-c062-44c5-9a66-b27db531800a
 ms.date: 12/05/2018
 ms.keywords: AT_ENTITY, CL_NL_ENTITY, CL_TL_ENTITY, CO_NL_ENTITY, CO_TL_ENTITY, ER_ENTITY, GENERIC_ENTITY, IF_ENTITY, TDIEntityID, TDIEntityID structure [Windows API], tdiinfo/TDIEntityID, winprog.tdientityid
-ms.topic: struct
 f1_keywords:
 - tdiinfo/TDIEntityID
 dev_langs:

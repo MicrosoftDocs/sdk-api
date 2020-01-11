@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9apf.htm
 ms.date: 12/05/2018
 ms.keywords: GetPorts, GetPorts method [Fax Service], GetPorts method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],GetPorts method, IFaxServer.GetPorts, IFaxServer::GetPorts, _mfax_ifaxserver_getports, fax._mfax_ifaxserver_client_mfax_ifaxserver_getports_cpp, fax._mfax_ifaxserver_getports, faxcom/IFaxServer::GetPorts
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxServer.GetPorts
 dev_langs:

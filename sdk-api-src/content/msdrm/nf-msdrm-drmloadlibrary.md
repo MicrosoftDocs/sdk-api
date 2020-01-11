@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: b0a95d3f-4252-4685-bc51-547620b5dcf7
 ms.date: 12/05/2018
 ms.keywords: DRMLoadLibrary, DRMLoadLibrary function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMLoadLibrary, rm.drmloadlibrary
-ms.topic: function
 f1_keywords:
 - msdrm/DRMLoadLibrary
 dev_langs:

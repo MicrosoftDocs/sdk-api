@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 7cd0acf8-34ef-425b-9967-43008d77b900
 ms.date: 12/05/2018
 ms.keywords: DrvDeriveSurface, DrvDeriveSurface function [Display Devices], ddifncs_b38de767-eeaf-4120-8711-6f3319a53058.xml, display.drvderivesurface, winddi/DrvDeriveSurface
-ms.topic: function
 f1_keywords:
 - winddi/DrvDeriveSurface
 dev_langs:

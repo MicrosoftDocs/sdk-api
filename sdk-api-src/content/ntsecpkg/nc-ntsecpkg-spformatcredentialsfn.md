@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: c6036636-7f22-4f64-b507-59212d37638b
 ms.date: 12/05/2018
 ms.keywords: SpFormatCredentials, SpFormatCredentials callback function [Security], SpFormatCredentialsFn, SpFormatCredentialsFn callback, _ssp_spformatcredentials, ntsecpkg/SpFormatCredentials, security.spformatcredentials
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpFormatCredentials
 dev_langs:

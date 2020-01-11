@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 1f73260b-04db-410a-ade0-a835805b2b0a
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionContextEvents, IMbnConnectionContextEvents interface [Microsoft Broadband Networks], IMbnConnectionContextEvents interface [Microsoft Broadband Networks],described, mbn.imbnconnectioncontextevents, mbnapi/IMbnConnectionContextEvents
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnConnectionContextEvents
 dev_langs:

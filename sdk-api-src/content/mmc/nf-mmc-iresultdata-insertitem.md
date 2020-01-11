@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: c354e718-ea9a-4d50-8a77-776500b86d25
 ms.date: 12/05/2018
 ms.keywords: IResultData interface [MMC],InsertItem method, IResultData.InsertItem, IResultData2 interface [MMC],InsertItem method, IResultData2::InsertItem, IResultData::InsertItem, InsertItem, InsertItem method [MMC], InsertItem method [MMC],IResultData interface, InsertItem method [MMC],IResultData2 interface, _slate_iresultdata_insertitem, mmc.iresultdata_insertitem, mmc/IResultData2::InsertItem, mmc/IResultData::InsertItem
-ms.topic: method
 f1_keywords:
 - mmc/IResultData.InsertItem
 dev_langs:

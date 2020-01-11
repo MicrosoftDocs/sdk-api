@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 6757e758-6525-47a4-9ed4-99ef42fa14a3
 ms.date: 12/05/2018
 ms.keywords: SCRIPT_FONTPROPERTIES, SCRIPT_FONTPROPERTIES structure [Internationalization for Windows Applications], _win32_SCRIPT_FONTPROPERTIES_str, intl.script_fontproperties, usp10/SCRIPT_FONTPROPERTIES
-ms.topic: struct
 f1_keywords:
 - usp10/SCRIPT_FONTPROPERTIES
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: f8c59c66-1c86-4cfd-b295-ac1d1a75af17
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableTuneRequest interface [Microsoft TV Technologies],get_MajorChannel method, IDigitalCableTuneRequest.get_MajorChannel, IDigitalCableTuneRequest::get_MajorChannel, IDigitalCableTuneRequestget_MajorChannel, get_MajorChannel, get_MajorChannel method [Microsoft TV Technologies], get_MajorChannel method [Microsoft TV Technologies],IDigitalCableTuneRequest interface, mstv.idigitalcabletunerequest_get_majorchannel, tuner/IDigitalCableTuneRequest::get_MajorChannel
-ms.topic: method
 f1_keywords:
 - tuner/IDigitalCableTuneRequest.get_MajorChannel
 dev_langs:

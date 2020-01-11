@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 5f90da9d-06eb-4ec0-8ea1-d040c8e084b7
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],QueryApplicationFile method, ICOMAdminCatalog.QueryApplicationFile, ICOMAdminCatalog::QueryApplicationFile, QueryApplicationFile, QueryApplicationFile method [COM+], QueryApplicationFile method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_QueryApplicationFile, comadmin/ICOMAdminCatalog::QueryApplicationFile, cos.icomadmincatalog_queryapplicationfile
-ms.topic: method
 f1_keywords:
 - comadmin/ICOMAdminCatalog.QueryApplicationFile
 dev_langs:

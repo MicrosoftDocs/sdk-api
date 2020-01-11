@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: a55a8f17-1a14-4267-ae39-1585e1090f21
 ms.date: 12/05/2018
 ms.keywords: EjectNtmsCleaner, EjectNtmsCleaner function [Files], NTMS_EJECT_START, NTMS_EJECT_STOP, _zaw_ejectntmscleaner, base.ejectntmscleaner, fs.ejectntmscleaner, ntmsapi/EjectNtmsCleaner
-ms.topic: function
 f1_keywords:
 - ntmsapi/EjectNtmsCleaner
 dev_langs:

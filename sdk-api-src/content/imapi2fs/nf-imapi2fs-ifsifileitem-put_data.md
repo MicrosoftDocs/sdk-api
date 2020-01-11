@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 5fe00500-615c-48fe-a4a3-b3291e61db1f
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem interface [IMAPI],put_Data method, IFsiFileItem.put_Data, IFsiFileItem::put_Data, imapi.ifsifileitem_put_data, imapi2fs/IFsiFileItem::put_Data, put_Data, put_Data method [IMAPI], put_Data method [IMAPI],IFsiFileItem interface
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFsiFileItem.put_Data
 dev_langs:

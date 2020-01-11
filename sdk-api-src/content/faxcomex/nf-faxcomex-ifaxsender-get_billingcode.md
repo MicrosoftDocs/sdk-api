@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6f39.htm
 ms.date: 12/05/2018
 ms.keywords: BillingCode property [Fax Service], BillingCode property [Fax Service],IFaxSender interface, IFaxSender interface [Fax Service],BillingCode property, IFaxSender.BillingCode, IFaxSender.get_BillingCode, IFaxSender::BillingCode, IFaxSender::get_BillingCode, IFaxSender::put_BillingCode, _mfax_faxsender.billingcode, fax._mfax_faxsender_billingcode, fax._mfax_faxsender_cpp_mfax_faxsender_billingcode_cpp, faxcomex/IFaxSender::BillingCode, faxcomex/IFaxSender::get_BillingCode, faxcomex/IFaxSender::put_BillingCode, get_BillingCode
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxSender.BillingCode
 dev_langs:

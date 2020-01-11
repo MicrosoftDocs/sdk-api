@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUInt2(const XMUINT2)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadUInt2, XMLoadUInt2, XMLoadUInt2 method [DirectX Math Support APIs], dxmath.xmloaduint2
-ms.topic: function
 f1_keywords:
 - directxmath/XMLoadUInt2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 7dbe8209-73c3-4eab-965e-91b94f77f0a7
 ms.date: 12/05/2018
 ms.keywords: '*LPCAPINFOCHUNK, *PCAPINFOCHUNK, CAPINFOCHUNK, CAPINFOCHUNK structure [Windows Multimedia], _win32_CAPINFOCHUNK_str, multimedia.capinfochunk, vfw/CAPINFOCHUNK'
-ms.topic: struct
 f1_keywords:
 - vfw/CAPINFOCHUNK
 dev_langs:

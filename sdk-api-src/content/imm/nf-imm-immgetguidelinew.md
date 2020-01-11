@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: f6639061-0ad9-4f42-b5d4-66ad3f6298aa
 ms.date: 12/05/2018
 ms.keywords: GGL_INDEX, GGL_LEVEL, GGL_PRIVATE, GGL_STRING, ImmGetGuideLine, ImmGetGuideLine function [Internationalization for Windows Applications], ImmGetGuideLineA, ImmGetGuideLineW, _win32_ImmGetGuideLine, imm/ImmGetGuideLine, imm/ImmGetGuideLineA, imm/ImmGetGuideLineW, intl.immgetguideline
-ms.topic: function
 f1_keywords:
 - imm/ImmGetGuideLine
 dev_langs:

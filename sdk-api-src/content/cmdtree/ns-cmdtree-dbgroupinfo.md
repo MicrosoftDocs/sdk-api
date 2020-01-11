@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_8s4v.htm
 ms.date: 12/05/2018
 ms.keywords: DBGROUPINFO, DBGROUPINFO structure [Indexing Service], _idxs_DBGROUPINFO, cmdtree/DBGROUPINFO, indexsrv.dbgroupinfo, tagDBGROUPINFO
-ms.topic: struct
 f1_keywords:
 - cmdtree/DBGROUPINFO
 dev_langs:

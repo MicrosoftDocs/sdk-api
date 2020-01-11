@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: 79a09cf3-cf6f-479a-89c7-27f5fcee3186
 ms.date: 12/05/2018
 ms.keywords: SLOpen, SLOpen function [Security], security.slopen, slpublic/SLOpen
-ms.topic: function
 f1_keywords:
 - slpublic/SLOpen
 dev_langs:

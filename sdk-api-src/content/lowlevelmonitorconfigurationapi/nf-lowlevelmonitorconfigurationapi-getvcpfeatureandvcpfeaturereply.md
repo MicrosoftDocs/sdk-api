@@ -7,7 +7,6 @@ tech.root: Monitor
 ms.assetid: b0b06137-8f67-46fc-ba6b-3022f3331fa5
 ms.date: 12/05/2018
 ms.keywords: GetVCPFeatureAndVCPFeatureReply, GetVCPFeatureAndVCPFeatureReply function [Monitor Configuration], lowlevelmonitorconfigurationapi/GetVCPFeatureAndVCPFeatureReply, monitor.getvcpfeatureandvcpfeaturereply
-ms.topic: function
 f1_keywords:
 - lowlevelmonitorconfigurationapi/GetVCPFeatureAndVCPFeatureReply
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: ea6ba2f0-ff79-41b8-9165-bb250077b2dc
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phonegetgain, phoneGetGain, phoneGetGain function [TAPI 2.2], tapi/phoneGetGain, tapi2.phonegetgain
-ms.topic: function
 f1_keywords:
 - tapi/phoneGetGain
 dev_langs:

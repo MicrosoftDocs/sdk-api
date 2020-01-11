@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: bf875481-74cf-4e29-af81-b1546fb00002
 ms.date: 12/05/2018
 ms.keywords: IEnumConnections interface [COM],Skip method, IEnumConnections.Skip, IEnumConnections::Skip, Skip, Skip method [COM], Skip method [COM],IEnumConnections interface, _com_ienumconnections_skip, com.ienumconnections_skip, ocidl/IEnumConnections::Skip
-ms.topic: method
 f1_keywords:
 - ocidl/IEnumConnections.Skip
 dev_langs:

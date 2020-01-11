@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.conversion.XMConvertVectorUIntToFloat(XMVECTOR,uint32_t)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMConvertVectorUIntToFloat, XMConvertVectorUIntToFloat, XMConvertVectorUIntToFloat method [DirectX Math Support APIs], dxmath.xmconvertvectoruinttofloat
-ms.topic: function
 f1_keywords:
 - directxmath/XMConvertVectorUIntToFloat
 dev_langs:

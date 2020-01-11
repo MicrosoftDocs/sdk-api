@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: f5b7d0c1-9cd0-48fc-8125-d4da040951c4
 ms.date: 12/05/2018
 ms.keywords: CreateTransactionManager, CreateTransactionManager function [Files], TRANSACTION_MANAGER_VOLATILE, fs.createtransactionmanager, ktmw32/CreateTransactionManager
-ms.topic: function
 f1_keywords:
 - ktmw32/CreateTransactionManager
 dev_langs:

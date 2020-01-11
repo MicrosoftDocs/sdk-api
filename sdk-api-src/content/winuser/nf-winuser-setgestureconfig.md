@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: 7df5a18e-5e65-4dd5-a59d-853a91ead710
 ms.date: 12/05/2018
 ms.keywords: SetGestureConfig, SetGestureConfig function [Windows Touch], wintouch.setgestureconfig, winuser/SetGestureConfig
-ms.topic: function
 f1_keywords:
 - winuser/SetGestureConfig
 dev_langs:

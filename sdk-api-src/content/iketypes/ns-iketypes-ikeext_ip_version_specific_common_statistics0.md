@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 0cacb7de-9f20-47ac-b040-8d65ede3bef3
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0, IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0 structure [Filtering], fwp.ikeext_ip_version_specific_common_statistics0, iketypes/IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0
-ms.topic: struct
 f1_keywords:
 - iketypes/IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0
 dev_langs:

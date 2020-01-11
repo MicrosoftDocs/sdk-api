@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 58cb60dd-160c-4e1c-a244-7f20b5e79b64
 ms.date: 12/05/2018
 ms.keywords: GetSmsStatus, GetSmsStatus method [Microsoft Broadband Networks], GetSmsStatus method [Microsoft Broadband Networks],IMbnSms interface, IMbnSms interface [Microsoft Broadband Networks],GetSmsStatus method, IMbnSms.GetSmsStatus, IMbnSms::GetSmsStatus, mbn.imbnsms_getsmsstatus, mbnapi/IMbnSms::GetSmsStatus
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnSms.GetSmsStatus
 dev_langs:

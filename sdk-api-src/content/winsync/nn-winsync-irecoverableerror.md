@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: a8b8a84a-6083-4696-bef1-46145a4d71c8
 ms.date: 12/05/2018
 ms.keywords: IRecoverableError, IRecoverableError interface [Windows Sync], IRecoverableError interface [Windows Sync],described, winsync.irecoverableerror, winsync/IRecoverableError
-ms.topic: interface
 f1_keywords:
 - winsync/IRecoverableError
 dev_langs:

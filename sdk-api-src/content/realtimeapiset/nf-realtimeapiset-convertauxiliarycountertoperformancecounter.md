@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 94664D63-D1B0-443B-BB88-C8A8771577A6
 ms.date: 12/05/2018
 ms.keywords: ConvertAuxiliaryCounterToPerformanceCounter, ConvertAuxiliaryCounterToPerformanceCounter function, base.convertauxiliarycountertoperformancecounter, realtimeapiset/ConvertAuxiliaryCounterToPerformanceCounter
-ms.topic: function
 f1_keywords:
 - realtimeapiset/ConvertAuxiliaryCounterToPerformanceCounter
 dev_langs:

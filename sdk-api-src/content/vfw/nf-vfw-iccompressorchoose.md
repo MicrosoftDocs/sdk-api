@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 4a58df6a-9ac4-44bb-8c49-338bb60193fc
 ms.date: 12/05/2018
 ms.keywords: ICCompressorChoose, ICCompressorChoose function [Windows Multimedia], _win32_ICCompressorChoose, multimedia.iccompressorchoose, vfw/ICCompressorChoose
-ms.topic: function
 f1_keywords:
 - vfw/ICCompressorChoose
 dev_langs:

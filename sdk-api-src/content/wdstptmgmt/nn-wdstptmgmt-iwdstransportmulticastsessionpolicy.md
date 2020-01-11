@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: bb6677d6-7c60-486a-825a-bafec1f3ffed
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportMulticastSessionPolicy, IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services], IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services],described, wds.iwdstransportmulticastsessionpolicy, wdstptmgmt/IWdsTransportMulticastSessionPolicy
-ms.topic: interface
 f1_keywords:
 - wdstptmgmt/IWdsTransportMulticastSessionPolicy
 dev_langs:

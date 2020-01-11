@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: dfacaa47-c844-434f-951a-9ee38fa8af4a
 ms.date: 12/05/2018
 ms.keywords: IBDA_EasMessage, IBDA_EasMessage interface [Microsoft TV Technologies], IBDA_EasMessage interface [Microsoft TV Technologies],described, IBDA_EasMessageInterface, bdaiface/IBDA_EasMessage, mstv.ibda_easmessage
-ms.topic: interface
 f1_keywords:
 - bdaiface/IBDA_EasMessage
 dev_langs:

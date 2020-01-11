@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3E2BAAD9-5C16-4ECF-BADB-16B355439BA5
 ms.date: 12/05/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],SetItemAlloc method, CItemIDFactory.SetItemAlloc, CItemIDFactory::SetItemAlloc, SetItemAlloc, SetItemAlloc method [Windows Shell], SetItemAlloc method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_setitemalloc, shidfact/CItemIDFactory::SetItemAlloc
-ms.topic: method
 f1_keywords:
 - shidfact/CItemIDFactory.SetItemAlloc
 dev_langs:

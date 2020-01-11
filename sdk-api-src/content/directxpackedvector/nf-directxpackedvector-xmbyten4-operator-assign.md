@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: 
 ms.date: 05/06/2019
 ms.keywords: DirectX::PackedVector.XMBYTEN4.operator =, DirectX::PackedVector::XMBYTEN4::operator =, XMBYTEN4 structure [DirectX Math Support APIs],operator = method, XMBYTEN4.operator =, XMBYTEN4.operator-assign, XMBYTEN4.operator=, XMBYTEN4::operator-assign, XMBYTEN4::operator=, dxmath.xmbyten4_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMBYTEN4 structure, operator=
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMBYTEN4.operator =
 dev_langs:

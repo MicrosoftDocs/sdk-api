@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 81d43941-7c81-4220-915f-0b373a7455e5
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoDecoder, IAMAnalogVideoDecoder interface [DirectShow], IAMAnalogVideoDecoder interface [DirectShow],described, IAMAnalogVideoDecoderInterface, dshow.iamanalogvideodecoder, strmif/IAMAnalogVideoDecoder
-ms.topic: interface
 f1_keywords:
 - strmif/IAMAnalogVideoDecoder
 dev_langs:

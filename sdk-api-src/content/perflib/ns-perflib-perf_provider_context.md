@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 9bfab8aa-f44b-4515-8a2a-764583080f57
 ms.date: 12/05/2018
 ms.keywords: '*PPERF_PROVIDER_CONTEXT, PERF_PROVIDER_CONTEXT, PERF_PROVIDER_CONTEXT structure [Perf], PPERF_PROVIDER_CONTEXT, PPERF_PROVIDER_CONTEXT structure pointer [Perf], perf.perf_provider_context, perflib/PERF_PROVIDER_CONTEXT, perflib/PPERF_PROVIDER_CONTEXT'
-ms.topic: struct
 f1_keywords:
 - perflib/PERF_PROVIDER_CONTEXT
 dev_langs:

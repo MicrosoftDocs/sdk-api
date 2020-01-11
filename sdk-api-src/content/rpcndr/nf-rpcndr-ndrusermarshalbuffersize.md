@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 6c3f9073-3695-4eec-a973-e40aa55f9504
 ms.date: 12/05/2018
 ms.keywords: NdrUserMarshalBufferSize, NdrUserMarshalBufferSize function [RPC], rpc.ndrusermarshalbuffersize, rpcndr/NdrUserMarshalBufferSize
-ms.topic: function
 f1_keywords:
 - rpcndr/NdrUserMarshalBufferSize
 dev_langs:

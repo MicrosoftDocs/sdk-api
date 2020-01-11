@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 58ea0741-1927-4cbf-abfb-059e4490accc
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [Windows Management Instrumentation], GetTime method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],GetTime method, WBEMTimeSpan.GetTime, WBEMTimeSpan::GetTime, _hmm_wbemtimespan_gettime, wbemtime/WBEMTimeSpan::GetTime, wmi.wbemtimespan_gettime
-ms.topic: method
 f1_keywords:
 - wbemtime/WBEMTimeSpan.GetTime
 dev_langs:

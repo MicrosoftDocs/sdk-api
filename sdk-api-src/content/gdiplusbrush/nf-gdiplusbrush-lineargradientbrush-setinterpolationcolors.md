@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\setinterpolationcolors.htm
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush class [GDI+],SetInterpolationColors method, LinearGradientBrush.SetInterpolationColors, LinearGradientBrush::SetInterpolationColors, SetInterpolationColors, SetInterpolationColors method [GDI+], SetInterpolationColors method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_SetInterpolationColors_presetColors_blendPositions_count_, gdiplus._gdiplus_CLASS_LinearGradientBrush_SetInterpolationColors_presetColors_blendPositions_count_
-ms.topic: method
 f1_keywords:
 - gdiplusbrush/LinearGradientBrush.SetInterpolationColors
 dev_langs:

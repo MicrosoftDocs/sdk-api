@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 08121380-ff75-4f18-aae4-fdd01e1dfa8b
 ms.date: 12/05/2018
 ms.keywords: RpcSsDisableAllocate, RpcSsDisableAllocate function [RPC], _rpc_rpcssdisableallocate, rpc.rpcssdisableallocate, rpcndr/RpcSsDisableAllocate
-ms.topic: function
 f1_keywords:
 - rpcndr/RpcSsDisableAllocate
 dev_langs:

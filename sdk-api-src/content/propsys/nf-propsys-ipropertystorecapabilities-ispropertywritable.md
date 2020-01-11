@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: ffd13c93-3011-4955-ad1e-2731afd83956
 ms.date: 12/05/2018
 ms.keywords: IPropertyStoreCapabilities interface [Windows Properties],IsPropertyWritable method, IPropertyStoreCapabilities.IsPropertyWritable, IPropertyStoreCapabilities::IsPropertyWritable, IsPropertyWritable, IsPropertyWritable method [Windows Properties], IsPropertyWritable method [Windows Properties],IPropertyStoreCapabilities interface, _shell_IPropertyStoreCapabilities_IsPropertyWritable, properties.IPropertyStoreCapabilities_IsPropertyWritable, propsys/IPropertyStoreCapabilities::IsPropertyWritable, shell.IPropertyStoreCapabilities_IsPropertyWritable
-ms.topic: method
 f1_keywords:
 - propsys/IPropertyStoreCapabilities.IsPropertyWritable
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 14838cea-1a19-4faa-ac7f-617fde82432d
 ms.date: 12/05/2018
 ms.keywords: GetExtent, GetExtent method [Text Services Framework], GetExtent method [Text Services Framework],ITfRangeACP interface, ITfRangeACP interface [Text Services Framework],GetExtent method, ITfRangeACP.GetExtent, ITfRangeACP::GetExtent, _tsf_itfrangeacp_getextent_ref, msctf/ITfRangeACP::GetExtent, tsf.itfrangeacp_getextent
-ms.topic: method
 f1_keywords:
 - msctf/ITfRangeACP.GetExtent
 dev_langs:

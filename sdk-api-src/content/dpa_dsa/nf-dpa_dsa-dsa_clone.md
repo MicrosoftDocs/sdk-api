@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_clone.htm
 ms.date: 12/05/2018
 ms.keywords: DSA_Clone, DSA_Clone function [Windows Controls], _shell_DSA_Clone, _shell_DSA_Clone_cpp, controls.DSA_Clone, controls._shell_DSA_Clone, dpa_dsa/DSA_Clone
-ms.topic: function
 f1_keywords:
 - dpa_dsa/DSA_Clone
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 9e12f169-b121-400d-9244-8d7d0097c030
 ms.date: 12/05/2018
 ms.keywords: IDirect3DCryptoSession9 interface [Media Foundation],NegotiateKeyExchange method, IDirect3DCryptoSession9.NegotiateKeyExchange, IDirect3DCryptoSession9::NegotiateKeyExchange, NegotiateKeyExchange, NegotiateKeyExchange method [Media Foundation], NegotiateKeyExchange method [Media Foundation],IDirect3DCryptoSession9 interface, d3d9/IDirect3DCryptoSession9::NegotiateKeyExchange, mf.idirect3dcryptosession9_negotiatekeyexchange
-ms.topic: method
 f1_keywords:
 - d3d9/IDirect3DCryptoSession9.NegotiateKeyExchange
 dev_langs:

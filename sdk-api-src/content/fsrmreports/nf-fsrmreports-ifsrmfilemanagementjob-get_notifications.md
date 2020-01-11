@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: f0aee951-12f3-40d0-bbf4-c72af117952f
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Notifications property, IFsrmFileManagementJob.Notifications, IFsrmFileManagementJob.get_Notifications, IFsrmFileManagementJob::Notifications, IFsrmFileManagementJob::get_Notifications, Notifications property [File Server Resource Manager], Notifications property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_notifications, fsrm.ifsrmfilemanagementjob_notifications, fsrmreports/IFsrmFileManagementJob::Notifications, fsrmreports/IFsrmFileManagementJob::get_Notifications, get_Notifications
-ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmFileManagementJob.Notifications
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 1d5d5332-f6e1-4fad-8b45-c518196c17d2
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetThumbnailResource method, IXpsOMPackage.SetThumbnailResource, IXpsOMPackage::SetThumbnailResource, SetThumbnailResource, SetThumbnailResource method [XPS Documents and Packaging], SetThumbnailResource method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_setthumbnailresource, xpsobjectmodel/IXpsOMPackage::SetThumbnailResource
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPackage.SetThumbnailResource
 dev_langs:

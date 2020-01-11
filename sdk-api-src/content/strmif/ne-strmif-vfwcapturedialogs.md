@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0465d887-6452-4a67-9f52-a459620d12d2
 ms.date: 12/05/2018
 ms.keywords: VfwCaptureDialog_Display, VfwCaptureDialog_Format, VfwCaptureDialog_Source, VfwCaptureDialogs, VfwCaptureDialogs enumeration [DirectShow], VfwCaptureDialogsEnumeration, dshow.vfwcapturedialogs, strmif/VfwCaptureDialog_Display, strmif/VfwCaptureDialog_Format, strmif/VfwCaptureDialog_Source, strmif/VfwCaptureDialogs
-ms.topic: enum
 f1_keywords:
 - strmif/VfwCaptureDialogs
 dev_langs:

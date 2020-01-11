@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 4EC64809-4647-4AEE-98ED-2EB6CC0329DB
 ms.date: 12/05/2018
 ms.keywords: GetStreamConfiguration, GetStreamConfiguration method [Media Foundation], GetStreamConfiguration method [Media Foundation],IMFMuxStreamSampleManager interface, IMFMuxStreamSampleManager interface [Media Foundation],GetStreamConfiguration method, IMFMuxStreamSampleManager.GetStreamConfiguration, IMFMuxStreamSampleManager::GetStreamConfiguration, mf.imfmuxstreamsamplemanager_getstreamconfiguration, mfobjects/IMFMuxStreamSampleManager::GetStreamConfiguration
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFMuxStreamSampleManager.GetStreamConfiguration
 dev_langs:

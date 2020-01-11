@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperule\isearchscoperule.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchScopeRule, ISearchScopeRule interface [search], ISearchScopeRule interface [search],described, _search_ISearchScopeRule, search._search_ISearchScopeRule, searchapi/ISearchScopeRule
-ms.topic: interface
 f1_keywords:
 - searchapi/ISearchScopeRule
 dev_langs:

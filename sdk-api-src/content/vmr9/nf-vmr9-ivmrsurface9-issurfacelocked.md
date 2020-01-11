@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ccc2ab3c-ec6d-47b5-b6cf-0686aa4260bc
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface9 interface [DirectShow],IsSurfaceLocked method, IVMRSurface9.IsSurfaceLocked, IVMRSurface9::IsSurfaceLocked, IVMRSurface9IsSurfaceLocked, IsSurfaceLocked, IsSurfaceLocked method [DirectShow], IsSurfaceLocked method [DirectShow],IVMRSurface9 interface, dshow.ivmrsurface9_issurfacelocked, vmr9/IVMRSurface9::IsSurfaceLocked
-ms.topic: method
 f1_keywords:
 - vmr9/IVMRSurface9.IsSurfaceLocked
 dev_langs:

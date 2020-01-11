@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: f573365d-100f-4df9-b1af-a484680436eb
 ms.date: 12/05/2018
 ms.keywords: WSD_NAME_LIST, WSD_NAME_LIST structure, ncd.wsd_name_list_struct, wsdtypes/WSD_NAME_LIST
-ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_NAME_LIST
 dev_langs:

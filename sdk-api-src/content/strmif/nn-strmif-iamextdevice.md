@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0423e888-39d1-45cb-9bcf-722240a31fbd
 ms.date: 12/05/2018
 ms.keywords: IAMExtDevice, IAMExtDevice interface [DirectShow], IAMExtDevice interface [DirectShow],described, IAMExtDeviceInterface, dshow.iamextdevice, strmif/IAMExtDevice
-ms.topic: interface
 f1_keywords:
 - strmif/IAMExtDevice
 dev_langs:

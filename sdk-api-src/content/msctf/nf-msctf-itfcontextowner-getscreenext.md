@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 499a446d-1575-4636-b444-dd6078ed8736
 ms.date: 12/05/2018
 ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetScreenExt method, ITfContextOwner.GetScreenExt, ITfContextOwner::GetScreenExt, _tsf_itfcontextowner_getscreenext_ref, msctf/ITfContextOwner::GetScreenExt, tsf.itfcontextowner_getscreenext
-ms.topic: method
 f1_keywords:
 - msctf/ITfContextOwner.GetScreenExt
 dev_langs:

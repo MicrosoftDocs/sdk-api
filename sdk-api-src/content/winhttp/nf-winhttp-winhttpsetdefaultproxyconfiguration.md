@@ -7,7 +7,6 @@ tech.root: WinHttp
 ms.assetid: df95703b-8fa0-4ea4-b9e6-7f19aa8c1941
 ms.date: 12/05/2018
 ms.keywords: WinHttpSetDefaultProxyConfiguration, WinHttpSetDefaultProxyConfiguration function [WinHTTP], http.winhttpsetdefaultproxyconfiguration, winhttp.winhttpsetdefaultproxyconfiguration_function, winhttp/WinHttpSetDefaultProxyConfiguration
-ms.topic: function
 f1_keywords:
 - winhttp/WinHttpSetDefaultProxyConfiguration
 dev_langs:

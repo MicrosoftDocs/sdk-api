@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_89nz.htm
 ms.date: 12/05/2018
 ms.keywords: FaxRouteSetRoutingInfo, FaxRouteSetRoutingInfo function [Fax Service], _mfax_faxroutesetroutinginfo, fax._mfax_faxroutesetroutinginfo, faxroute/FaxRouteSetRoutingInfo
-ms.topic: function
 f1_keywords:
 - faxroute/FaxRouteSetRoutingInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: bdf5d239-478a-47af-9240-19d1b6933f7e
 ms.date: 12/05/2018
 ms.keywords: DhcpAddServer, DhcpAddServer function [DHCP], dhcp.dhcpaddserver, dhcpsapi/DhcpAddServer
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpAddServer
 dev_langs:

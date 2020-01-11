@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 2fb2904d-7069-4303-bb3c-2caef9499c1e
 ms.date: 12/05/2018
 ms.keywords: IComInstance2Events, IComInstance2Events interface [COM+], IComInstance2Events interface [COM+],described, _dtc_icominstance2events, comsvcs/IComInstance2Events, cos.icominstance2events
-ms.topic: interface
 f1_keywords:
 - comsvcs/IComInstance2Events
 dev_langs:

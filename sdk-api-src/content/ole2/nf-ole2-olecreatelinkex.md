@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: b43acd14-3cf8-45da-8c2c-f2f6dc2ada78
 ms.date: 12/05/2018
 ms.keywords: OleCreateLinkEx, OleCreateLinkEx function [COM], _ole_OleCreateLinkEx, com.olecreatelinkex, ole2/OleCreateLinkEx
-ms.topic: function
 f1_keywords:
 - ole2/OleCreateLinkEx
 dev_langs:

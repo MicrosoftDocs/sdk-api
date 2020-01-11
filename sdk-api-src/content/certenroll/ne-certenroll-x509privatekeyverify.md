@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 23466035-6554-490f-ad46-e97ba5a5d996
 ms.date: 12/05/2018
 ms.keywords: VerifyAllowUI, VerifyNone, VerifySilent, VerifySmartCardNone, VerifySmartCardSilent, X509PrivateKeyVerify, X509PrivateKeyVerify enumeration [Security], certenroll/VerifyAllowUI, certenroll/VerifyNone, certenroll/VerifySilent, certenroll/VerifySmartCardNone, certenroll/VerifySmartCardSilent, certenroll/X509PrivateKeyVerify, security.x509privatekeyverify
-ms.topic: enum
 f1_keywords:
 - certenroll/X509PrivateKeyVerify
 dev_langs:

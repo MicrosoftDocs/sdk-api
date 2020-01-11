@@ -7,7 +7,6 @@ tech.root: NetShare
 ms.assetid: 1375b337-efb0-4be1-94f7-473456a825b5
 ms.date: 12/05/2018
 ms.keywords: 2, 3, NetFileEnum, NetFileEnum function [Files], _win32_netfileenum, fs.netfileenum, lmshare/NetFileEnum, netmgmt.netfileenum
-ms.topic: function
 f1_keywords:
 - lmshare/NetFileEnum
 dev_langs:

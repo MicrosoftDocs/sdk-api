@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 7b67739f-5c67-447a-a1a5-fad9ce3e857a
 ms.date: 12/05/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],Put method, IWbemClassObject.Put, IWbemClassObject::Put, Put, Put method [Windows Management Instrumentation], Put method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_put, wbemcli/IWbemClassObject::Put, wmi.iwbemclassobject_put
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemClassObject.Put
 dev_langs:

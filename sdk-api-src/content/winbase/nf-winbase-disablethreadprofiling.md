@@ -7,7 +7,6 @@ tech.root: hcp
 ms.assetid: 650631a6-fd90-46e1-8f2d-84aaaed05bac
 ms.date: 12/05/2018
 ms.keywords: DisableThreadProfiling, DisableThreadProfiling function [Hardware Counter Profiling], hcp.disablethreadprofiling, winbase/DisableThreadProfiling
-ms.topic: function
 f1_keywords:
 - winbase/DisableThreadProfiling
 dev_langs:

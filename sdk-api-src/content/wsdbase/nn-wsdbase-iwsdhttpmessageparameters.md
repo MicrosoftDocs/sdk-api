@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: fae10e9e-0c2b-4817-bd28-a4a85ca180cc
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpMessageParameters, IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,described, ncd.iwsdhttpmessageparameters, wsdbase/IWSDHttpMessageParameters
-ms.topic: interface
 f1_keywords:
 - wsdbase/IWSDHttpMessageParameters
 dev_langs:

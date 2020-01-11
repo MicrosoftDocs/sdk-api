@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 9446cd62-5a02-4701-8b13-9e46508fbfaa
 ms.date: 12/05/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],Request property, IX509SCEPEnrollment.Request, IX509SCEPEnrollment.get_Request, IX509SCEPEnrollment::Request, IX509SCEPEnrollment::get_Request, Request property [Security], Request property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::Request, certenroll/IX509SCEPEnrollment::get_Request, get_Request, security.ix509scepenrollment_request
-ms.topic: method
 f1_keywords:
 - certenroll/IX509SCEPEnrollment.Request
 dev_langs:

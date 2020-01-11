@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\callbackfunctions\lvgroupcompare.htm
 ms.date: 12/05/2018
 ms.keywords: LVGroupCompare, PFNLVGROUPCOMPARE, PFNLVGROUPCOMPARE callback, PFNLVGROUPCOMPARE callback function [Windows Controls], _win32_LVGroupCompare, _win32_LVGroupCompare_cpp, commctrl/PFNLVGROUPCOMPARE, controls.LVGroupCompare, controls._win32_LVGroupCompare
-ms.topic: callback
 f1_keywords:
 - commctrl/PFNLVGROUPCOMPARE
 dev_langs:

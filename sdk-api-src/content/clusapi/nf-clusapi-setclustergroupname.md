@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: d2dc3837-24d3-4455-8e3e-bb74b95b1d44
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_GROUP_NAME, PCLUSAPI_SET_CLUSTER_GROUP_NAME function [Failover Cluster], SetClusterGroupName, SetClusterGroupName function [Failover Cluster], _wolf_setclustergroupname, clusapi/PCLUSAPI_SET_CLUSTER_GROUP_NAME, clusapi/SetClusterGroupName, mscs.setclustergroupname
-ms.topic: function
 f1_keywords:
 - clusapi/SetClusterGroupName
 dev_langs:

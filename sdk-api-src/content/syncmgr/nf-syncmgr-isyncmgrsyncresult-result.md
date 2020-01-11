@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8ba7de05-0703-4bab-bf64-ae84f42fad69
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncResult interface [Windows Shell],Result method, ISyncMgrSyncResult.Result, ISyncMgrSyncResult::Result, Result, Result method [Windows Shell], Result method [Windows Shell],ISyncMgrSyncResult interface, _shell_ISyncMgrSyncResult_Result, shell.ISyncMgrSyncResult_Result, syncmgr/ISyncMgrSyncResult::Result
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrSyncResult.Result
 dev_langs:

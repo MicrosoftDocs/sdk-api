@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 4f3ad7c0-02fd-4232-89f1-49517c23ee28
 ms.date: 12/05/2018
 ms.keywords: IMSVidOutputDeviceEvent, IMSVidOutputDeviceEvent interface [Microsoft TV Technologies], IMSVidOutputDeviceEvent interface [Microsoft TV Technologies],described, IMSVidOutputDeviceEventInterface, mstv.imsvidoutputdeviceevent, segment/IMSVidOutputDeviceEvent
-ms.topic: interface
 f1_keywords:
 - segment/IMSVidOutputDeviceEvent
 dev_langs:

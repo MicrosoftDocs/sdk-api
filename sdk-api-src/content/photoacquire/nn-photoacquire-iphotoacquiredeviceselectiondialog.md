@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: 7ec649d2-9fd7-4c07-ad64-f3bc4acfc40d
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireDeviceSelectionDialog, IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition], IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],described, IPhotoAcquireDeviceSelectionDialogInterface, photoacquire/IPhotoAcquireDeviceSelectionDialog, picacq.iphotoacquiredeviceselectiondialog
-ms.topic: interface
 f1_keywords:
 - photoacquire/IPhotoAcquireDeviceSelectionDialog
 dev_langs:

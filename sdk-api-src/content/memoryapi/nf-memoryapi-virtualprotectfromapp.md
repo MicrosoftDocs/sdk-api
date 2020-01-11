@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 04202DB6-8A28-4B3C-9320-557E5F4D42AC
 ms.date: 12/05/2018
 ms.keywords: VirtualProtectFromApp, VirtualProtectFromApp function, base.virtualprotectfromapp, memoryapi/VirtualProtectFromApp
-ms.topic: function
 f1_keywords:
 - memoryapi/VirtualProtectFromApp
 dev_langs:

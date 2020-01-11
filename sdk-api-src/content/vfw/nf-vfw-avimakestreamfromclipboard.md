@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: e41f4ef2-bb57-4a92-b382-7faa106d2aa0
 ms.date: 12/05/2018
 ms.keywords: AVIMakeStreamFromClipboard, AVIMakeStreamFromClipboard function [Windows Multimedia], _win32_AVIMakeStreamFromClipboard, multimedia.avimakestreamfromclipboard, vfw/AVIMakeStreamFromClipboard
-ms.topic: function
 f1_keywords:
 - vfw/AVIMakeStreamFromClipboard
 dev_langs:

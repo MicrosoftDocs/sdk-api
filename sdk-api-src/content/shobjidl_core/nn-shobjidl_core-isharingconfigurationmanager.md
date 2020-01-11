@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 64bf628d-4e9b-42a8-a9cf-04d321645d9a
 ms.date: 12/05/2018
 ms.keywords: ISharingConfigurationManager, ISharingConfigurationManager interface [Windows Shell], ISharingConfigurationManager interface [Windows Shell],described, _shell_ISharingConfigurationManager, shell.ISharingConfigurationManager, shobjidl_core/ISharingConfigurationManager
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/ISharingConfigurationManager
 dev_langs:

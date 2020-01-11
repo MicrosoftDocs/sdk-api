@@ -7,7 +7,6 @@ tech.root: input_ink
 ms.assetid: 032ba18b-dee4-4c94-a9b2-0e95f1013ae2
 ms.date: 12/05/2018
 ms.keywords: IInkHostWorkItem interface,Invoke method, IInkHostWorkItem.Invoke, IInkHostWorkItem::Invoke, InkPresenterDesktop.iinkhostworkitem_invoke, Invoke, Invoke method, Invoke method,IInkHostWorkItem interface, inkpresenterdesktop/IInkHostWorkItem::Invoke, input_ink.iinkhostworkitem_invoke
-ms.topic: method
 f1_keywords:
 - inkpresenterdesktop/IInkHostWorkItem.Invoke
 dev_langs:

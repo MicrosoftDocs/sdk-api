@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 22a4ee47-030b-4aee-b9b1-c9e33b3e4fce
 ms.date: 12/05/2018
 ms.keywords: '*LPNSPV2_ROUTINE, *PNSPV2_ROUTINE, NSPV2_ROUTINE, NSPV2_ROUTINE structure [Winsock], PNSPV2_ROUTINE, PNSPV2_ROUTINE structure pointer [Winsock], winsock.nspv2_routine, ws2spi/NSPV2_ROUTINE, ws2spi/PNSPV2_ROUTINE'
-ms.topic: struct
 f1_keywords:
 - ws2spi/NSPV2_ROUTINE
 dev_langs:

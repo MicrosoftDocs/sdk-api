@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: fbe7000f-271a-4939-814d-3696d29f7a41
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method, GetID method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetID method, IWSDHttpMessageParameters.GetID, IWSDHttpMessageParameters::GetID, ncd.iwsdhttpmessageparameters_getid, wsdbase/IWSDHttpMessageParameters::GetID
-ms.topic: method
 f1_keywords:
 - wsdbase/IWSDHttpMessageParameters.GetID
 dev_langs:

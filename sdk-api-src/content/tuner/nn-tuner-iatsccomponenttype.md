@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: c7e05f63-b2cf-4a99-8e0f-bc7ec00463cf
 ms.date: 12/05/2018
 ms.keywords: IATSCComponentType, IATSCComponentType interface [Microsoft TV Technologies], IATSCComponentType interface [Microsoft TV Technologies],described, IATSCComponentTypeInterface, mstv.iatsccomponenttype, tuner/IATSCComponentType
-ms.topic: interface
 f1_keywords:
 - tuner/IATSCComponentType
 dev_langs:

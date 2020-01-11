@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: CB9E906F-86AB-4099-B067-C0D545F5B076
 ms.date: 12/05/2018
 ms.keywords: CD3D11_RECT interface [Direct3D 11],~CD3D11_RECT destructor, CD3D11_RECT.~CD3D11_RECT, CD3D11_RECT::~CD3D11_RECT, CD3D11_RECT::~CD3D11_RECT(), d3d11/CD3D11_RECT::~CD3D11_RECT, direct3d11.cd3d11_rect_cd3d11_rect_destructor, ~CD3D11_RECT, ~CD3D11_RECT destructor [Direct3D 11], ~CD3D11_RECT destructor [Direct3D 11],CD3D11_RECT interface
-ms.topic: method
 f1_keywords:
 - d3d11/CD3D11_RECT.~CD3D11_RECT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tracelogging
 ms.assetid: BFBC6802-64DC-478E-B09D-F550135994AB
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingWrite, TraceLoggingWrite macro, tracelogging.traceloggingwrite, traceloggingprovider/TraceLoggingWrite
-ms.topic: macro
 f1_keywords:
 - traceloggingprovider/TraceLoggingWrite
 dev_langs:

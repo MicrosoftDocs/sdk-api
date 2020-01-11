@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_809x.htm
 ms.date: 12/05/2018
 ms.keywords: SetCatalogState, SetCatalogState function [Indexing Service], _idxs_SetCatalogState, indexsrv.setcatalogstate, ntquery/SetCatalogState
-ms.topic: function
 f1_keywords:
 - ntquery/SetCatalogState
 dev_langs:

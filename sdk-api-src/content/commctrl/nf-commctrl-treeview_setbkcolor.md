@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setbkcolor.htm
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetBkColor, TreeView_SetBkColor macro [Windows Controls], _win32_TreeView_SetBkColor, _win32_TreeView_SetBkColor_cpp, commctrl/TreeView_SetBkColor, controls.TreeView_SetBkColor, controls._win32_TreeView_SetBkColor
-ms.topic: macro
 f1_keywords:
 - commctrl/TreeView_SetBkColor
 dev_langs:

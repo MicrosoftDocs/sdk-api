@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: BB1A65F5-797A-4240-9082-041068A87709
 ms.date: 12/05/2018
 ms.keywords: TreeTraversalOptions, TreeTraversalOptions enumeration [Windows Accessibility], TreeTraversalOptions_Default, TreeTraversalOptions_LastToFirstOrder, TreeTraversalOptions_PostOrder, uiautomationclient/TreeTraversalOptions, uiautomationclient/TreeTraversalOptions_Default, uiautomationclient/TreeTraversalOptions_LastToFirstOrder, uiautomationclient/TreeTraversalOptions_PostOrder, winauto.uiauto_TreeTraversalOptions
-ms.topic: enum
 f1_keywords:
 - uiautomationcoreapi/TreeTraversalOptions
 dev_langs:

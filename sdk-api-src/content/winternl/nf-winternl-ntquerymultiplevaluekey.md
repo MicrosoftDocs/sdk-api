@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: fe78446c-b936-4ded-846a-f3ca26eff06e
 ms.date: 12/05/2018
 ms.keywords: NtQueryMultipleValueKey, NtQueryMultipleValueKey function [Windows API], base.ntquerymultiplevaluekey, winprog.ntquerymultiplevaluekey, winternl/NtQueryMultipleValueKey
-ms.topic: function
 f1_keywords:
 - winternl/NtQueryMultipleValueKey
 dev_langs:

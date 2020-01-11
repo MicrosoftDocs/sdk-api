@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 319637fd-d9b5-4da0-ac92-4c52fa9f5231
 ms.date: 12/05/2018
 ms.keywords: EnumDAdvise, EnumDAdvise method [COM], EnumDAdvise method [COM],IDataObject interface, IDataObject interface [COM],EnumDAdvise method, IDataObject.EnumDAdvise, IDataObject::EnumDAdvise, _ole_idataobject_enumdadvise, com.idataobject_enumdadvise, objidl/IDataObject::EnumDAdvise
-ms.topic: method
 f1_keywords:
 - objidl/IDataObject.EnumDAdvise
 dev_langs:

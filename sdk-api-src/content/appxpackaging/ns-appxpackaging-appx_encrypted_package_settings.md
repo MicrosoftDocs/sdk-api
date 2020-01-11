@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: B5502C1D-2C92-4AE6-BC01-50A853D25CE5
 ms.date: 12/05/2018
 ms.keywords: APPX_ENCRYPTED_PACKAGE_SETTINGS, APPX_ENCRYPTED_PACKAGE_SETTINGS structure [App packaging and management], PAPPX_ENCRYPTED_PACKAGE_SETTINGS, PAPPX_ENCRYPTED_PACKAGE_SETTINGS structure pointer [App packaging and management], appxpackaging/APPX_ENCRYPTED_PACKAGE_SETTINGS, appxpackaging/PAPPX_ENCRYPTED_PACKAGE_SETTINGS, appxpkg.appx_encrypted_package_settings
-ms.topic: struct
 f1_keywords:
 - appxpackaging/APPX_ENCRYPTED_PACKAGE_SETTINGS
 dev_langs:

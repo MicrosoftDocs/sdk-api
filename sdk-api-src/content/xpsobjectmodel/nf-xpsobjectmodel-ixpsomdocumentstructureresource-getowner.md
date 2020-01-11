@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: cbaedef0-f1a9-4c2c-88ae-1542cfbff252
 ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMDocumentStructureResource interface, IXpsOMDocumentStructureResource interface [XPS Documents and Packaging],GetOwner method, IXpsOMDocumentStructureResource.GetOwner, IXpsOMDocumentStructureResource::GetOwner, xps.ixpsomdocumentstructureresource_getowner, xpsobjectmodel/IXpsOMDocumentStructureResource::GetOwner
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDocumentStructureResource.GetOwner
 dev_langs:

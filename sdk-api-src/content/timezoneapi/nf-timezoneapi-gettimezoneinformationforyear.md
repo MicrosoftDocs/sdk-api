@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 5bd29a25-98f0-439e-be88-8011bbf98926
 ms.date: 12/05/2018
 ms.keywords: GetTimeZoneInformationForYear, GetTimeZoneInformationForYear function, base.gettimezoneinformationforyear, timezoneapi/GetTimeZoneInformationForYear
-ms.topic: function
 f1_keywords:
 - timezoneapi/GetTimeZoneInformationForYear
 dev_langs:

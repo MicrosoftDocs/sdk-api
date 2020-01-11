@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: e4d794ca-4abb-4933-bd07-793e78c52881
 ms.date: 12/05/2018
 ms.keywords: CreateMemoryResourceNotification, CreateMemoryResourceNotification function, HighMemoryResourceNotification, LowMemoryResourceNotification, _win32_creatememoryresourcenotification, base.creatememoryresourcenotification, winbase/CreateMemoryResourceNotification
-ms.topic: function
 f1_keywords:
 - memoryapi/CreateMemoryResourceNotification
 dev_langs:

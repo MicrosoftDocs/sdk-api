@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\removescoperule.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchCrawlScopeManager interface [search],RemoveScopeRule method, ISearchCrawlScopeManager.RemoveScopeRule, ISearchCrawlScopeManager::RemoveScopeRule, RemoveScopeRule, RemoveScopeRule method [search], RemoveScopeRule method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_RemoveScopeRule, search._search_ISearchCrawlScopeManager_RemoveScopeRule, searchapi/ISearchCrawlScopeManager::RemoveScopeRule
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchCrawlScopeManager.RemoveScopeRule
 dev_langs:

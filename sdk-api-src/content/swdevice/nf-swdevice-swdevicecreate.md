@@ -7,7 +7,6 @@ tech.root: swdevice
 ms.assetid: 8274D7D9-D4AD-412E-A9C0-7D4A08C8A14F
 ms.date: 12/05/2018
 ms.keywords: SwDeviceCreate, SwDeviceCreate function, swdevice.swdevicecreate, swdevice/SwDeviceCreate
-ms.topic: function
 f1_keywords:
 - swdevice/SwDeviceCreate
 dev_langs:

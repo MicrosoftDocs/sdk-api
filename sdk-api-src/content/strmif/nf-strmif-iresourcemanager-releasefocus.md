@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: dfc1b178-eb81-488b-8a4a-f1a454b3d5f4
 ms.date: 12/05/2018
 ms.keywords: IResourceManager interface [DirectShow],ReleaseFocus method, IResourceManager.ReleaseFocus, IResourceManager::ReleaseFocus, IResourceManagerReleaseFocus, ReleaseFocus, ReleaseFocus method [DirectShow], ReleaseFocus method [DirectShow],IResourceManager interface, dshow.iresourcemanager_releasefocus, strmif/IResourceManager::ReleaseFocus
-ms.topic: method
 f1_keywords:
 - strmif/IResourceManager.ReleaseFocus
 dev_langs:

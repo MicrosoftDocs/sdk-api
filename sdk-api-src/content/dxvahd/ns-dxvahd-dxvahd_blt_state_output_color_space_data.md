@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: ec817ebc-dc3f-4101-863a-218f0a8c998a
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure [Media Foundation], dxvahd/DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, mf.dxvahd_blt_state_output_color_space_data
-ms.topic: struct
 f1_keywords:
 - dxvahd/DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
 dev_langs:

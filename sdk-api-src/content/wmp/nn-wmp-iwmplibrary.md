@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: add0ed43-d83f-4793-b1f6-ccad0f01854c
 ms.date: 12/05/2018
 ms.keywords: IWMPLibrary, IWMPLibrary interface [Windows Media Player], IWMPLibrary interface [Windows Media Player],described, IWMPLibraryInterface, wmp.iwmplibrary, wmp/IWMPLibrary
-ms.topic: interface
 f1_keywords:
 - wmp/IWMPLibrary
 dev_langs:

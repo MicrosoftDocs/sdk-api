@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 659b566e-d488-489d-9a12-bfe9695c5f94
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEME interface [Media Foundation],SetMediaKeys method, IMFMediaEngineEME.SetMediaKeys, IMFMediaEngineEME::SetMediaKeys, SetMediaKeys, SetMediaKeys method [Media Foundation], SetMediaKeys method [Media Foundation],IMFMediaEngineEME interface, mf.imfmediaengineeme_setmediakeys, mfmediaengine/IMFMediaEngineEME::SetMediaKeys
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineEME.SetMediaKeys
 dev_langs:

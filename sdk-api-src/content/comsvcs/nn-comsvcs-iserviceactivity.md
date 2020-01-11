@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 005bf0ec-f5a7-41a3-85b3-07f79f26af27
 ms.date: 12/05/2018
 ms.keywords: IServiceActivity, IServiceActivity interface [COM+], IServiceActivity interface [COM+],described, _cos_IServiceActivity, comsvcs/IServiceActivity, cos.iserviceactivity
-ms.topic: interface
 f1_keywords:
 - comsvcs/IServiceActivity
 dev_langs:

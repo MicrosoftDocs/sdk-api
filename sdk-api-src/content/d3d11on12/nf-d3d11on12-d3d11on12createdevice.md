@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 6FC2CB44-4AA8-4E89-9E9B-ED1C3C9C64CC
 ms.date: 12/05/2018
 ms.keywords: D3D11On12CreateDevice, D3D11On12CreateDevice function, d3d11on12/D3D11On12CreateDevice, direct3d12.d3d11on12createdevice
-ms.topic: function
 f1_keywords:
 - d3d11on12/D3D11On12CreateDevice
 dev_langs:

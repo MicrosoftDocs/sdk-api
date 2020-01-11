@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: f499cca3-ef24-4419-92b8-7794b3a6816b
 ms.date: 12/05/2018
 ms.keywords: MsiEnumComponentQualifiers, MsiEnumComponentQualifiers function, MsiEnumComponentQualifiersA, MsiEnumComponentQualifiersW, _msi_msienumcomponentqualifiers, msi/MsiEnumComponentQualifiers, msi/MsiEnumComponentQualifiersA, msi/MsiEnumComponentQualifiersW, setup.msienumcomponentqualifiers
-ms.topic: function
 f1_keywords:
 - msi/MsiEnumComponentQualifiers
 dev_langs:

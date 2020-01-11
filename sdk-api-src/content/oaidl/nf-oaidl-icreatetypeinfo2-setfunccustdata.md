@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 553e872f-0620-4b36-a01d-86088bd12f80
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetFuncCustData method, ICreateTypeInfo2.SetFuncCustData, ICreateTypeInfo2::SetFuncCustData, SetFuncCustData, SetFuncCustData method [Automation], SetFuncCustData method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetFuncCustData, automat.icreatetypeinfo2_setfunccustdata, oaidl/ICreateTypeInfo2::SetFuncCustData
-ms.topic: method
 f1_keywords:
 - oaidl/ICreateTypeInfo2.SetFuncCustData
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a23710d0-85aa-4ae0-84ea-03b9e22091ad
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig interface [DirectShow],RemoveFilterFromCache method, IGraphConfig.RemoveFilterFromCache, IGraphConfig::RemoveFilterFromCache, IGraphConfigRemoveFilterFromCache, RemoveFilterFromCache, RemoveFilterFromCache method [DirectShow], RemoveFilterFromCache method [DirectShow],IGraphConfig interface, dshow.igraphconfig_removefilterfromcache, strmif/IGraphConfig::RemoveFilterFromCache
-ms.topic: method
 f1_keywords:
 - strmif/IGraphConfig.RemoveFilterFromCache
 dev_langs:

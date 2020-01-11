@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: dc635134-33da-4197-966a-5cb64315cb7c
 ms.date: 12/05/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],put_MediaSubType method, IComponentType.put_MediaSubType, IComponentType::put_MediaSubType, IComponentTypeput_MediaSubType, mstv.icomponenttype_put_mediasubtype, put_MediaSubType, put_MediaSubType method [Microsoft TV Technologies], put_MediaSubType method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put_MediaSubType
-ms.topic: method
 f1_keywords:
 - tuner/IComponentType.put_MediaSubType
 dev_langs:

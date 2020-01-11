@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: D51E27FE-503E-459C-92F1-1826762A5188
 ms.date: 12/05/2018
 ms.keywords: GetSelectionStyle, GetSelectionStyle method [Text Services Framework], GetSelectionStyle method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ITfIntegratableCandidateListUIElement interface [Text Services Framework],GetSelectionStyle method, ITfIntegratableCandidateListUIElement.GetSelectionStyle, ITfIntegratableCandidateListUIElement::GetSelectionStyle, ctffunc/ITfIntegratableCandidateListUIElement::GetSelectionStyle, tsf.itfintegratablecandidatelistuielement_getselectionstyle
-ms.topic: method
 f1_keywords:
 - ctffunc/ITfIntegratableCandidateListUIElement.GetSelectionStyle
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a5635196-80de-4db9-9c3a-65f2b241b4a0
 ms.date: 12/05/2018
 ms.keywords: LPFNDFMCALLBACK, LPFNDFMCALLBACK callback, LPFNDFMCALLBACK callback function [Windows Shell], _win32_LPFNDFMCALLBACK, shell.LPFNDFMCALLBACK, shlobj_core/LPFNDFMCALLBACK
-ms.topic: callback
 f1_keywords:
 - shlobj_core/LPFNDFMCALLBACK
 dev_langs:

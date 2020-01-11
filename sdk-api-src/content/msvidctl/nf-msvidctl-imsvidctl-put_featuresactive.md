@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 293506fa-3208-468e-982a-3c1f8ce0269b
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_FeaturesActive method, IMSVidCtl.put_FeaturesActive, IMSVidCtl::put_FeaturesActive, IMSVidCtlput_FeaturesActive, mstv.imsvidctl_put_featuresactive, msvidctl/IMSVidCtl::put_FeaturesActive, put_FeaturesActive, put_FeaturesActive method [Microsoft TV Technologies], put_FeaturesActive method [Microsoft TV Technologies],IMSVidCtl interface
-ms.topic: method
 f1_keywords:
 - msvidctl/IMSVidCtl.put_FeaturesActive
 dev_langs:

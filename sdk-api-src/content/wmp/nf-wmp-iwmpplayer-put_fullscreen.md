@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 50ce0115-9e49-4431-b818-35bdc34da9a0
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],put_fullScreen method, IWMPPlayer.put_fullScreen, IWMPPlayer::put_fullScreen, IWMPPlayerput_fullScreen, put_fullScreen, put_fullScreen method [Windows Media Player], put_fullScreen method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_fullscreen, wmp/IWMPPlayer::put_fullScreen
-ms.topic: method
 f1_keywords:
 - wmp/IWMPPlayer.put_fullScreen
 dev_langs:

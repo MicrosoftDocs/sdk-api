@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: d50ab73d-6266-4aaa-8053-ebbc84ec1e2c
 ms.date: 12/05/2018
 ms.keywords: TF_CreateDisplayAttributeMgr, TF_CreateDisplayAttributeMgr function [Text Services Framework], msctf/TF_CreateDisplayAttributeMgr, tsf.tf_createdisplayattributemgr
-ms.topic: function
 f1_keywords:
 - msctf/TF_CreateDisplayAttributeMgr
 dev_langs:

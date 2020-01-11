@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 140386c8-2e35-4e83-812f-119bf8828d0b
 ms.date: 12/05/2018
 ms.keywords: '*PONEX_RESULT_UPDATE_DATA, ONEX_RESULT_UPDATE_DATA, ONEX_RESULT_UPDATE_DATA structure [NativeWIFI], PONEX_RESULT_UPDATE_DATA, PONEX_RESULT_UPDATE_DATA structure pointer [NativeWIFI], dot1x/ONEX_RESULT_UPDATE_DATA, dot1x/PONEX_RESULT_UPDATE_DATA, nwifi.onex_result_update_data'
-ms.topic: struct
 f1_keywords:
 - dot1x/ONEX_RESULT_UPDATE_DATA
 dev_langs:

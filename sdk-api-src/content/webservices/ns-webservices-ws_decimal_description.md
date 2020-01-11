@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: c2e8fc81-1a09-456c-b8bb-9160bc286ec2
 ms.date: 12/05/2018
 ms.keywords: WS_DECIMAL_DESCRIPTION, WS_DECIMAL_DESCRIPTION structure [Web Services for Windows], webservices/WS_DECIMAL_DESCRIPTION, wsw.ws_decimal_description
-ms.topic: struct
 f1_keywords:
 - webservices/WS_DECIMAL_DESCRIPTION
 dev_langs:

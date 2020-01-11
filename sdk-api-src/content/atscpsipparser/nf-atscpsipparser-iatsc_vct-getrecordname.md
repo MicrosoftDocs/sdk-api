@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: b97baa53-d927-4a3c-91a5-3d06d26e797f
 ms.date: 12/05/2018
 ms.keywords: GetRecordName, GetRecordName method [Microsoft TV Technologies], GetRecordName method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordName method, IATSC_VCT.GetRecordName, IATSC_VCT::GetRecordName, IATSC_VCTGetRecordName, atscpsipparser/IATSC_VCT::GetRecordName, mstv.iatsc_vct_getrecordname
-ms.topic: method
 f1_keywords:
 - atscpsipparser/IATSC_VCT.GetRecordName
 dev_langs:

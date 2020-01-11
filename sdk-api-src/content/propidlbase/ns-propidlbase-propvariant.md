@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: e86cc279-826d-4767-8d96-fc8280060ea1
 ms.date: 12/05/2018
 ms.keywords: '*LPPROPVARIANT, PROPVARIANT, PROPVARIANT structure [Structured Storage], _stg_propvariant, propidlbase/PROPVARIANT, stg.propvariant, tagPROPVARIANT'
-ms.topic: struct
 f1_keywords:
 - propidlbase/PROPVARIANT
 dev_langs:

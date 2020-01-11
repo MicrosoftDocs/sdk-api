@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 8fd13d56-f6fa-4aea-a7e5-535caf22a840
 ms.date: 12/05/2018
 ms.keywords: SetWindowExtEx, SetWindowExtEx function [Windows GDI], _win32_SetWindowExtEx, gdi.setwindowextex, wingdi/SetWindowExtEx
-ms.topic: function
 f1_keywords:
 - wingdi/SetWindowExtEx
 dev_langs:

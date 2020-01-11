@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: 2b17432f-fa5e-4ce3-9814-c24a45a49343
 ms.date: 12/05/2018
 ms.keywords: '*LPDIJOYCONFIG, DIJOYCONFIG, DIJOYCONFIG structure [Human Input Devices], di_ref_dc34a740-8987-4012-9e22-e59de2544445.xml, dinputd/DIJOYCONFIG, hid.dijoyconfig'
-ms.topic: struct
 f1_keywords:
 - dinputd/DIJOYCONFIG
 dev_langs:

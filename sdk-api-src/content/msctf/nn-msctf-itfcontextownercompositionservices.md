@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 7c84cffe-dec8-4e24-b00a-e536984f2a10
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerCompositionServices, ITfContextOwnerCompositionServices interface [Text Services Framework], ITfContextOwnerCompositionServices interface [Text Services Framework],described, _tsf_itfcontextownercompositionservices_ref, msctf/ITfContextOwnerCompositionServices, tsf.itfcontextownercompositionservices
-ms.topic: interface
 f1_keywords:
 - msctf/ITfContextOwnerCompositionServices
 dev_langs:

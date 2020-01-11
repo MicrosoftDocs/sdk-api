@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: d7b4caa5-e915-4e57-878a-2a2d6ce609a7
 ms.date: 12/05/2018
 ms.keywords: ITfFnGetSAPIObject, ITfFnGetSAPIObject interface [Text Services Framework], ITfFnGetSAPIObject interface [Text Services Framework],described, _tsf_itffngetsapiobject_ref, ctffunc/ITfFnGetSAPIObject, tsf.itffngetsapiobject
-ms.topic: interface
 f1_keywords:
 - ctffunc/ITfFnGetSAPIObject
 dev_langs:

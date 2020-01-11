@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 018e95b5-b817-44f8-909f-cc7c3edb84c8
 ms.date: 12/05/2018
 ms.keywords: PeerIdentitySetFriendlyName, PeerIdentitySetFriendlyName function [Peer Networking], p2p.peeridentitysetfriendlyname, p2p/PeerIdentitySetFriendlyName
-ms.topic: function
 f1_keywords:
 - p2p/PeerIdentitySetFriendlyName
 dev_langs:

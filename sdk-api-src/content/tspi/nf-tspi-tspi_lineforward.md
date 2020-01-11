@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: fd70bf7f-653c-47db-bf81-6a620f47e5bc
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineForward, TSPI_lineForward function [TAPI 2.2], _tspi_tspi_lineforward, tspi.tspi_lineforward, tspi/TSPI_lineForward
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineForward
 dev_langs:

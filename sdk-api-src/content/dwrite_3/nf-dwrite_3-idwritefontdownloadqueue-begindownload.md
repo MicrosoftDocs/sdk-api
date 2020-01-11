@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 1e3b200c-0190-f600-1cb6-4e2a46f882b4
 ms.date: 12/05/2018
 ms.keywords: BeginDownload, BeginDownload method [Direct Write], BeginDownload method [Direct Write],IDWriteFontDownloadQueue interface, IDWriteFontDownloadQueue interface [Direct Write],BeginDownload method, IDWriteFontDownloadQueue.BeginDownload, IDWriteFontDownloadQueue::BeginDownload, directwrite.idwritefontdownloadqueue_begindownload, dwrite_3/IDWriteFontDownloadQueue::BeginDownload
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontDownloadQueue.BeginDownload
 dev_langs:

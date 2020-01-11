@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 95A70E8B-6C39-422B-91A6-1660E7E05D4C
 ms.date: 12/5/2018
 ms.keywords: CreateCommandRecorder, CreateCommandRecorder method, CreateCommandRecorder method,IDMLDevice interface, IDMLDevice interface,CreateCommandRecorder method, IDMLDevice.CreateCommandRecorder, IDMLDevice::CreateCommandRecorder, direct3d12.idmldevice_createcommandrecorder, directml/IDMLDevice::CreateCommandRecorder
-ms.topic: method
 f1_keywords:
 - directml/IDMLDevice.CreateCommandRecorder
 dev_langs:

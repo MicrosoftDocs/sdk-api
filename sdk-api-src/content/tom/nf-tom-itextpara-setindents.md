@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setindents.htm
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetIndents method, ITextPara.SetIndents, ITextPara::SetIndents, SetIndents, SetIndents method [Windows Controls], SetIndents method [Windows Controls],ITextPara interface, _win32_ITextPara_SetIndents, _win32_ITextPara_SetIndents_cpp, controls.ITextPara_SetIndents, controls._win32_ITextPara_SetIndents, tom/ITextPara::SetIndents
-ms.topic: method
 f1_keywords:
 - tom/ITextPara.SetIndents
 dev_langs:

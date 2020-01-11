@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 05287e53-a988-43cc-ac41-5024a217621a
 ms.date: 12/05/2018
 ms.keywords: Capture, Capture method [Microsoft TV Technologies], Capture method [Microsoft TV Technologies],IMSVidVideoRenderer interface, IMSVidVideoRenderer interface [Microsoft TV Technologies],Capture method, IMSVidVideoRenderer.Capture, IMSVidVideoRenderer::Capture, IMSVidVideoRendererCapture, mstv.imsvidvideorenderer_capture, segment/IMSVidVideoRenderer::Capture
-ms.topic: method
 f1_keywords:
 - segment/IMSVidVideoRenderer.Capture
 dev_langs:

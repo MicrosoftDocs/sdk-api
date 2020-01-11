@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: e6ad4ab7-0e53-4fad-8f2e-a0ff7b376815
 ms.date: 12/05/2018
 ms.keywords: '*LPOLEMENUGROUPWIDTHS, LPOLEMENUGROUPWIDTHS, LPOLEMENUGROUPWIDTHS structure pointer [COM], OLEMENUGROUPWIDTHS, OLEMENUGROUPWIDTHS structure [COM], _ole_OLEMENUGROUPWIDTHS, com.olemenugroupwidths, oleidl/LPOLEMENUGROUPWIDTHS, oleidl/OLEMENUGROUPWIDTHS'
-ms.topic: struct
 f1_keywords:
 - oleidl/OLEMENUGROUPWIDTHS
 dev_langs:

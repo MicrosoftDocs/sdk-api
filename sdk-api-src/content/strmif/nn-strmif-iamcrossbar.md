@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9eef4923-62e7-475e-85e6-de8c1eefe483
 ms.date: 12/05/2018
 ms.keywords: IAMCrossbar, IAMCrossbar interface [DirectShow], IAMCrossbar interface [DirectShow],described, IAMCrossbarInterface, dshow.iamcrossbar, strmif/IAMCrossbar
-ms.topic: interface
 f1_keywords:
 - strmif/IAMCrossbar
 dev_langs:

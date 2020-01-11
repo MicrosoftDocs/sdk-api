@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: c1c934e5-4a0a-4cb5-bb12-d6743f034ccb
 ms.date: 12/05/2018
 ms.keywords: SymRefreshModuleList, SymRefreshModuleList function, base.symrefreshmodulelist, dbghelp/SymRefreshModuleList
-ms.topic: function
 f1_keywords:
 - dbghelp/SymRefreshModuleList
 dev_langs:

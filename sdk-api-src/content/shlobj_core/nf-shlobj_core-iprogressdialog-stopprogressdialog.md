@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6a46ca72-b19d-4fd3-b783-2d182326deb4
 ms.date: 12/05/2018
 ms.keywords: IProgressDialog interface [Windows Shell],StopProgressDialog method, IProgressDialog.StopProgressDialog, IProgressDialog::StopProgressDialog, StopProgressDialog, StopProgressDialog method [Windows Shell], StopProgressDialog method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_StopProgressDialog, shell.IProgressDialog_StopProgressDialog, shlobj_core/IProgressDialog::StopProgressDialog
-ms.topic: method
 f1_keywords:
 - shlobj_core/IProgressDialog.StopProgressDialog
 dev_langs:

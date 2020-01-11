@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: e0d586e3-5ad9-4996-b5bd-d6ab4f2eaf26
 ms.date: 12/05/2018
 ms.keywords: IExtendControlbar, IExtendControlbar interface [MMC], IExtendControlbar interface [MMC],described, _slate_iextendcontrolbar, mmc.iextendcontrolbar, mmc/IExtendControlbar
-ms.topic: interface
 f1_keywords:
 - mmc/IExtendControlbar
 dev_langs:

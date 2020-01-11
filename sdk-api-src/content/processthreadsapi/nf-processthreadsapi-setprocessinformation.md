@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 1739fadf-6b43-4b89-8a17-87d9867d5197
 ms.date: 12/05/2018
 ms.keywords: SetProcessInformation, SetProcessInformation function, base.setprocessinformation, processthreadsapi/SetProcessInformation
-ms.topic: function
 f1_keywords:
 - processthreadsapi/SetProcessInformation
 dev_langs:

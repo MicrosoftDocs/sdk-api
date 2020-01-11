@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: a715f7c8-a001-41a2-9c1f-ca133568133b
 ms.date: 12/05/2018
 ms.keywords: GetVoiceCallState, GetVoiceCallState method [Microsoft Broadband Networks], GetVoiceCallState method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],GetVoiceCallState method, IMbnConnection.GetVoiceCallState, IMbnConnection::GetVoiceCallState, mbn.imbnconnection_getvoicecallstate, mbnapi/IMbnConnection::GetVoiceCallState
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnConnection.GetVoiceCallState
 dev_langs:

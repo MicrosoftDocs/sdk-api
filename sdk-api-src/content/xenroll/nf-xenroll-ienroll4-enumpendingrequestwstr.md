@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: ae1ac12c-0332-4796-8269-a3b6f72b8bff
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],enumPendingRequestWStr method, IEnroll4.enumPendingRequestWStr, IEnroll4::enumPendingRequestWStr, XEPR_CADNS, XEPR_CAFRIENDLYNAME, XEPR_CANAME, XEPR_HASH, XEPR_REQUESTID, enumPendingRequestWStr, enumPendingRequestWStr method [Security], enumPendingRequestWStr method [Security],IEnroll4 interface, security.ienroll4_enumpendingrequestwstr, xenroll/IEnroll4::enumPendingRequestWStr
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll4.enumPendingRequestWStr
 dev_langs:

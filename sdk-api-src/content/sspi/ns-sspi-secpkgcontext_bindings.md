@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 6823cc31-acd3-4d67-92c6-65ff4d1c6aed
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_Bindings, PSecPkgContext_Bindings, PSecPkgContext_Bindings structure pointer [Security], SecPkgContext_Bindings, SecPkgContext_Bindings structure [Security], security.secpkgcontext_bindings, sspi/PSecPkgContext_Bindings, sspi/SecPkgContext_Bindings'
-ms.topic: struct
 f1_keywords:
 - sspi/SecPkgContext_Bindings
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: iSCSIDisc
 ms.assetid: 184b256b-0cb0-45c1-8f73-5ff28fb388fb
 ms.date: 12/05/2018
 ms.keywords: AddPersistentIScsiDeviceA, AddPersistentIscsiDevice, AddPersistentIscsiDevice function [iSCSI Discovery Library API], AddPersistentIscsiDeviceA, AddPersistentIscsiDeviceW, AddPersistentiScsiDevice, iscsidisc.addpersistentiscsidevice, iscsidsc/AddPersistentIscsiDevice, iscsidsc/AddPersistentIscsiDeviceA, iscsidsc/AddPersistentIscsiDeviceW
-ms.topic: function
 f1_keywords:
 - iscsidsc/AddPersistentIscsiDevice
 dev_langs:

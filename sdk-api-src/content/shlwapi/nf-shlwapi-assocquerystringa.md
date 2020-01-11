@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 026b841d-b831-475e-a788-2c79801e20b8
 ms.date: 12/05/2018
 ms.keywords: AssocQueryString, AssocQueryString function [Windows Shell], AssocQueryStringA, AssocQueryStringW, CLSID, Executable name, File name extension, ProgID, _win32_AssocQueryString, shell.AssocQueryString, shlwapi/AssocQueryString, shlwapi/AssocQueryStringA, shlwapi/AssocQueryStringW
-ms.topic: function
 f1_keywords:
 - shlwapi/AssocQueryString
 dev_langs:

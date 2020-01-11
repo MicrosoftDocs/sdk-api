@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: f4e6de7e-99c4-415f-b3b4-7e8bf1f082fc
 ms.date: 12/05/2018
 ms.keywords: ITCollection interface [TAPI 2.2],get_Item method, ITCollection.get_Item, ITCollection::get_Item, _tapi3_itcollection_get_item, get_Item, get_Item method [TAPI 2.2], get_Item method [TAPI 2.2],ITCollection interface, tapi3.itcollection_get_item, tapi3if/ITCollection::get_Item
-ms.topic: method
 f1_keywords:
 - tapi3if/ITCollection.get_Item
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 450e65f9-cca0-42bd-b70b-baaf2e353812
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionAuthorityKeyIdentifier interface [Security],InitializeEncode method, IX509ExtensionAuthorityKeyIdentifier.InitializeEncode, IX509ExtensionAuthorityKeyIdentifier::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionAuthorityKeyIdentifier interface, certenroll/IX509ExtensionAuthorityKeyIdentifier::InitializeEncode, security.ix509extensionauthoritykeyidentifier_initializeencode_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509ExtensionAuthorityKeyIdentifier.InitializeEncode
 dev_langs:

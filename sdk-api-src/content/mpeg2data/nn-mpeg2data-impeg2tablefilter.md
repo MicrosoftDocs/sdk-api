@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 9467352d-44a5-41eb-b426-28df83a6d423
 ms.date: 12/05/2018
 ms.keywords: IMpeg2TableFilter, IMpeg2TableFilter interface [Microsoft TV Technologies], IMpeg2TableFilter interface [Microsoft TV Technologies],described, IMpeg2TableFilterInterface, mpeg2data/IMpeg2TableFilter, mstv.impeg2tablefilter
-ms.topic: interface
 f1_keywords:
 - mpeg2data/IMpeg2TableFilter
 dev_langs:

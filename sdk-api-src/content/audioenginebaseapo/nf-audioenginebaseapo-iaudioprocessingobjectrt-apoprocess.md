@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: b32f3cc9-3ac0-47ff-a428-f0476bd1f39e
 ms.date: 12/05/2018
 ms.keywords: APOProcess, APOProcess method [Audio Devices], APOProcess method [Audio Devices],IAudioProcessingObjectRT interface, IAudioProcessingObjectRT interface [Audio Devices],APOProcess method, IAudioProcessingObjectRT.APOProcess, IAudioProcessingObjectRT::APOProcess, audio.iaudioprocessingobjectrt_apoprocess, audio_syseffects_r_7ef87c04-2fe2-46b9-9c4a-0e604639132c.xml, audioenginebaseapo/IAudioProcessingObjectRT::APOProcess
-ms.topic: method
 f1_keywords:
 - audioenginebaseapo/IAudioProcessingObjectRT.APOProcess
 dev_langs:

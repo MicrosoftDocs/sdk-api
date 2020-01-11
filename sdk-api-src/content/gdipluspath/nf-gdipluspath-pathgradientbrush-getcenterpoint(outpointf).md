@@ -5,7 +5,6 @@ description: The PathGradientBrush::GetCenterPoint method gets the center point 
 ms.assetid: 80e265c4-6f87-4a3f-b198-b2857a0aa182
 ms.date: 05/13/2019
 ms.keywords: PathGradientBrush::GetCenterPoint
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/PathGradientBrush::GetCenterPoint
 dev_langs:

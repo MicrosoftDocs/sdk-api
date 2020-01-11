@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: fe137da2-2c12-4732-9ab8-adf07381c692
 ms.date: 12/05/2018
 ms.keywords: IEnumPhone interface [TAPI 2.2],Skip method, IEnumPhone.Skip, IEnumPhone::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumPhone interface, _tapi3_ienumphone_skip, tapi3.ienumphone_skip, tapi3if/IEnumPhone::Skip
-ms.topic: method
 f1_keywords:
 - tapi3if/IEnumPhone.Skip
 dev_langs:

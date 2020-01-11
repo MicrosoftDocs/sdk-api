@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: cc7771a8-e1b4-4cba-b34c-aa002e5ef9fb
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_SSL_BINDING_TEMPLATE, WS_HTTP_SSL_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_HTTP_SSL_BINDING_TEMPLATE, wsw.ws_http_ssl_binding_template
-ms.topic: struct
 f1_keywords:
 - webservices/WS_HTTP_SSL_BINDING_TEMPLATE
 dev_langs:

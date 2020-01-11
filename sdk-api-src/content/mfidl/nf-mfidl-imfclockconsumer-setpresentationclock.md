@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 7F4CC427-1DBE-4586-BA67-7AB472A55408
 ms.date: 12/05/2018
 ms.keywords: IMFClockConsumer interface [Media Foundation],SetPresentationClock method, IMFClockConsumer.SetPresentationClock, IMFClockConsumer::SetPresentationClock, SetPresentationClock, SetPresentationClock method [Media Foundation], SetPresentationClock method [Media Foundation],IMFClockConsumer interface, mf.imfclockconsumer_setpresentationclock, mfidl/IMFClockConsumer::SetPresentationClock
-ms.topic: method
 f1_keywords:
 - mfidl/IMFClockConsumer.SetPresentationClock
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 2B0DC098-EA3B-4061-8191-C67BA54663A3
 ms.date: 12/05/2018
 ms.keywords: IMFSensorDevice interface [Media Foundation],SetSensorDeviceMode method, IMFSensorDevice.SetSensorDeviceMode, IMFSensorDevice::SetSensorDeviceMode, SetSensorDeviceMode, SetSensorDeviceMode method [Media Foundation], SetSensorDeviceMode method [Media Foundation],IMFSensorDevice interface, mf.imfsensordevice_setsensordevicemode, mfidl/IMFSensorDevice::SetSensorDeviceMode
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSensorDevice.SetSensorDeviceMode
 dev_langs:

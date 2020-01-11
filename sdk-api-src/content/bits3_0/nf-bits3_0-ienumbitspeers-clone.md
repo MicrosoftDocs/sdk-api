@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 72b3e0bc-9426-4953-a910-2dfaa955c4c0
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBitsPeers interface, IEnumBitsPeers interface [BITS],Clone method, IEnumBitsPeers.Clone, IEnumBitsPeers::Clone, bits.ienumbitspeers_clone, bits3_0/IEnumBitsPeers::Clone
-ms.topic: method
 f1_keywords:
 - bits3_0/IEnumBitsPeers.Clone
 dev_langs:

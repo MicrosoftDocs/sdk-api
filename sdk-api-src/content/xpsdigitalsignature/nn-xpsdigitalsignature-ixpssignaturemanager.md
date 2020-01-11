@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 31283ebe-91f4-42be-9a9b-6fcd641dc356
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureManager, IXpsSignatureManager interface [XPS Documents and Packaging], IXpsSignatureManager interface [XPS Documents and Packaging],described, xps.ixpssignaturemanager, xpsdigitalsignature/IXpsSignatureManager
-ms.topic: interface
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureManager
 dev_langs:

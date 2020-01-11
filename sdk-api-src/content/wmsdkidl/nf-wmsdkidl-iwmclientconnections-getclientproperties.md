@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: a05d7d1e-21dc-4e2a-a17b-5f04e639b143
 ms.date: 12/05/2018
 ms.keywords: GetClientProperties, GetClientProperties method [windows Media Format], GetClientProperties method [windows Media Format],IWMClientConnections interface, IWMClientConnections interface [windows Media Format],GetClientProperties method, IWMClientConnections.GetClientProperties, IWMClientConnections::GetClientProperties, IWMClientConnectionsGetClientProperties, wmformat.iwmclientconnections_getclientproperties, wmsdkidl/IWMClientConnections::GetClientProperties
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMClientConnections.GetClientProperties
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 89379dab-6f96-4a86-8433-b6b0a8e45516
 ms.date: 12/05/2018
 ms.keywords: EnumWordList, EnumWordList method [Text Services Framework], EnumWordList method [Text Services Framework],ITfInputScope2 interface, ITfInputScope2 interface [Text Services Framework],EnumWordList method, ITfInputScope2.EnumWordList, ITfInputScope2::EnumWordList, _tsf_itfinputscope2_enumwordlist_ref, inputscope/ITfInputScope2::EnumWordList, tsf.itfinputscope2_enumwordlist
-ms.topic: method
 f1_keywords:
 - inputscope/ITfInputScope2.EnumWordList
 dev_langs:

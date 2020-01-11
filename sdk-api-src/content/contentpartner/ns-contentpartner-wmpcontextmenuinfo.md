@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: a37ddbe1-7c66-4060-b93d-bd494cdc4521
 ms.date: 12/05/2018
 ms.keywords: WMPContextMenuInfo, WMPContextMenuInfo structure [Windows Media Player], contentpartner/WMPContextMenuInfo, wmp.wmpcontextmenuinfo
-ms.topic: struct
 f1_keywords:
 - contentpartner/WMPContextMenuInfo
 dev_langs:

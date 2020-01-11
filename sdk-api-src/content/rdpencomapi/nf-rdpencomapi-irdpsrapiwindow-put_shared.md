@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: e07ebdbc-79ce-4a85-9960-197c4c7ca445
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIWindow interface [RDP],Shared property, IRDPSRAPIWindow.Shared, IRDPSRAPIWindow.put_Shared, IRDPSRAPIWindow::Shared, IRDPSRAPIWindow::get_Shared, IRDPSRAPIWindow::put_Shared, RDPSRAPIWindow object [RDP],Shared property, Shared property [RDP], Shared property [RDP],IRDPSRAPIWindow interface, Shared property [RDP],RDPSRAPIWindow object, put_Shared, rdp.irdpsrapiwindow_shared, rdpencomapi/IRDPSRAPIWindow::Shared, rdpencomapi/IRDPSRAPIWindow::get_Shared, rdpencomapi/IRDPSRAPIWindow::put_Shared
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPIWindow.Shared
 dev_langs:

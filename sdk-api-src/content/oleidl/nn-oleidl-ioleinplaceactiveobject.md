@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: b077c256-1109-494c-95c2-2d33bccbe47b
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceActiveObject, IOleInPlaceActiveObject interface [COM], IOleInPlaceActiveObject interface [COM],described, _ole_ioleinplaceactiveobject, com.ioleinplaceactiveobject, oleidl/IOleInPlaceActiveObject
-ms.topic: interface
 f1_keywords:
 - oleidl/IOleInPlaceActiveObject
 dev_langs:

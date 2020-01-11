@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: 37f2e434-d98a-42f5-b9a8-90f93768faae
 ms.date: 12/05/2018
 ms.keywords: '*LPANIMATIONINFO, ANIMATIONINFO, ANIMATIONINFO structure [Windows and Messages], LPANIMATIONINFO, LPANIMATIONINFO structure pointer [Windows and Messages], _win32_animationinfo_str, animationinfo_str_cpp, base.animationinfo_str, tagANIMATIONINFO, winmsg.animationinfo_str, winui.animationinfo_str, winuser/ANIMATIONINFO, winuser/LPANIMATIONINFO'
-ms.topic: struct
 f1_keywords:
 - winuser/ANIMATIONINFO
 dev_langs:

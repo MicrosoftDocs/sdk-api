@@ -7,7 +7,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\setuphookproc.htm
 ms.date: 12/05/2018
 ms.keywords: LPSETUPHOOKPROC, LPSETUPHOOKPROC callback, LPSETUPHOOKPROC callback function [Dialog Boxes], _win32_SetupHookProc, _win32_setuphookproc_cpp, commdlg/LPSETUPHOOKPROC, dlgbox.setuphookproc, winui._win32_setuphookproc
-ms.topic: callback
 f1_keywords:
 - commdlg/LPSETUPHOOKPROC
 dev_langs:

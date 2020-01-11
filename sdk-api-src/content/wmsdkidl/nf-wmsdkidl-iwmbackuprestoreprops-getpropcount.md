@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 70b8dcf7-e48b-4c1e-be39-d0ae3c8a2b23
 ms.date: 12/05/2018
 ms.keywords: GetPropCount, GetPropCount method [windows Media Format], GetPropCount method [windows Media Format],IWMBackupRestoreProps interface, IWMBackupRestoreProps interface [windows Media Format],GetPropCount method, IWMBackupRestoreProps.GetPropCount, IWMBackupRestoreProps::GetPropCount, IWMBackupRestorePropsGetPropCount, wmformat.iwmbackuprestoreprops_getpropcount, wmsdkidl/IWMBackupRestoreProps::GetPropCount
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMBackupRestoreProps.GetPropCount
 dev_langs:

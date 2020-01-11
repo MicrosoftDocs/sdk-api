@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 00404566-b9ef-43ea-8056-ca9ab0117814
 ms.date: 12/05/2018
 ms.keywords: LocaleNameToLCID, LocaleNameToLCID function [Internationalization for Windows Applications], _win32_LocaleNameToLCID, intl.localenametolcid, winnls/LocaleNameToLCID
-ms.topic: function
 f1_keywords:
 - winnls/LocaleNameToLCID
 dev_langs:

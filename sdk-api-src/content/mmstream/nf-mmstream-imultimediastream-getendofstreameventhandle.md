@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0e4f59f8-c56e-4768-9047-2793515edfeb
 ms.date: 12/05/2018
 ms.keywords: GetEndOfStreamEventHandle, GetEndOfStreamEventHandle method [DirectShow], GetEndOfStreamEventHandle method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetEndOfStreamEventHandle method, IMultiMediaStream.GetEndOfStreamEventHandle, IMultiMediaStream::GetEndOfStreamEventHandle, IMultiMediaStreamGetEndOfStreamEventHandle, dshow.imultimediastream_getendofstreameventhandle, mmstream/IMultiMediaStream::GetEndOfStreamEventHandle
-ms.topic: method
 f1_keywords:
 - mmstream/IMultiMediaStream.GetEndOfStreamEventHandle
 dev_langs:

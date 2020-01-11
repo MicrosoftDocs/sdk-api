@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUShort2(const XMUSHORT2)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadUShort2, XMLoadUShort2, XMLoadUShort2 method [DirectX Math Support APIs], dxmath.xmloadushort2
-ms.topic: function
 f1_keywords:
 - directxpackedvector/XMLoadUShort2
 dev_langs:

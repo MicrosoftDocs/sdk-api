@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: b3c0cad8-d578-4752-a2ea-0aa5c35a181a
 ms.date: 12/05/2018
 ms.keywords: MFCancelCreateFile, MFCancelCreateFile function [Media Foundation], b3c0cad8-d578-4752-a2ea-0aa5c35a181a, mf.mfcancelcreatefile, mfapi/MFCancelCreateFile
-ms.topic: function
 f1_keywords:
 - mfapi/MFCancelCreateFile
 dev_langs:

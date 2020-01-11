@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\stringdigitsubstitute.htm
 ms.date: 12/05/2018
 ms.keywords: StringDigitSubstitute, StringDigitSubstitute enumeration [GDI+], StringDigitSubstituteNational, StringDigitSubstituteNone, StringDigitSubstituteTraditional, StringDigitSubstituteUser, _gdiplus_ENUM_StringDigitSubstitute, gdiplus._gdiplus_ENUM_StringDigitSubstitute, gdiplusenums/StringDigitSubstitute, gdiplusenums/StringDigitSubstituteNational, gdiplusenums/StringDigitSubstituteNone, gdiplusenums/StringDigitSubstituteTraditional, gdiplusenums/StringDigitSubstituteUser
-ms.topic: enum
 f1_keywords:
 - gdiplusenums/StringDigitSubstitute
 dev_langs:

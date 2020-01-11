@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: 53179559-e65a-4b5b-b82a-f1fea0cb4509
 ms.date: 12/05/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialRadius property, IInertiaProcessor.InitialRadius, IInertiaProcessor.get_InitialRadius, IInertiaProcessor::InitialRadius, IInertiaProcessor::get_InitialRadius, IInertiaProcessor::put_InitialRadius, InitialRadius property [Windows Touch], InitialRadius property [Windows Touch],IInertiaProcessor interface, get_InitialRadius, manipulations/IInertiaProcessor::InitialRadius, manipulations/IInertiaProcessor::get_InitialRadius, manipulations/IInertiaProcessor::put_InitialRadius, wintouch.iinertiaprocessor_initialradius
-ms.topic: method
 f1_keywords:
 - manipulations/IInertiaProcessor.InitialRadius
 dev_langs:

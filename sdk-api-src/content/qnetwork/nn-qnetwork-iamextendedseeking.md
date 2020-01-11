@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9e0e49af-61ef-408c-8c26-bb29ab26a1f5
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], IAMExtendedSeeking interface [DirectShow],described, IAMExtendedSeekingInterface, dshow.iamextendedseeking, qnetwork/IAMExtendedSeeking
-ms.topic: interface
 f1_keywords:
 - qnetwork/IAMExtendedSeeking
 dev_langs:

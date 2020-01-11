@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: abd5c40c-5907-4f1e-8fb3-28d43ecebfc8
 ms.date: 12/05/2018
 ms.keywords: FWPM_PROVIDER_CHANGE0, FWPM_PROVIDER_CHANGE0 structure [Filtering], fwp.fwpm_provider_change0_struct, fwpmtypes/FWPM_PROVIDER_CHANGE0
-ms.topic: struct
 f1_keywords:
 - fwpmtypes/FWPM_PROVIDER_CHANGE0
 dev_langs:

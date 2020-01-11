@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 1a3e3b65-b147-41e7-a5df-7424613b50f6
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevices interface [UPnP APIs],get_Count method, IUPnPDevices.get_Count, IUPnPDevices::get_Count, _upnp_iupnpdevices_count, get_Count, get_Count method [UPnP APIs], get_Count method [UPnP APIs],IUPnPDevices interface, upnp.iupnpdevices_count, upnp/IUPnPDevices::get_Count
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPDevices.get_Count
 dev_langs:

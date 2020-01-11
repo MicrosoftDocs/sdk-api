@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 283b0086-1dbf-45dc-9651-93af9a9ff6d0
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS, PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS function [Failover Cluster], ResUtilGetResourceDependentIPAddressProps, ResUtilGetResourceDependentIPAddressProps function [Failover Cluster], _wolf_resutilgetresourcedependentipaddressprops, mscs.resutilgetresourcedependentipaddressprops, resapi/PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS, resapi/ResUtilGetResourceDependentIPAddressProps
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilGetResourceDependentIPAddressProps
 dev_langs:

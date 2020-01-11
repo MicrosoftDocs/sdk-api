@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 3af69975-fe3c-45e6-b1f5-ce2dbda9a4dc
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenterExclModeConfig interface [DirectShow],SetXlcModeDDObjAndPrimarySurface method, IVMRImagePresenterExclModeConfig.SetXlcModeDDObjAndPrimarySurface, IVMRImagePresenterExclModeConfig::SetXlcModeDDObjAndPrimarySurface, SetXlcModeDDObjAndPrimarySurface, SetXlcModeDDObjAndPrimarySurface method [DirectShow], SetXlcModeDDObjAndPrimarySurface method [DirectShow],IVMRImagePresenterExclModeConfig interface, dshow.ivmrimagepresenterexclmodeconfig_setxlcmodeddobjandprimarysurface, strmif/IVMRImagePresenterExclModeConfig::SetXlcModeDDObjAndPrimarySurface
-ms.topic: method
 f1_keywords:
 - strmif/IVMRImagePresenterExclModeConfig.SetXlcModeDDObjAndPrimarySurface
 dev_langs:

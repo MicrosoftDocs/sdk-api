@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 1cf64805-e79d-4599-addf-0ad24d7d900e
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_TRANSFORM0, IPSEC_SA_TRANSFORM0 structure [Filtering], fwp.ipsec_sa_transform0_struct, ipsectypes/IPSEC_SA_TRANSFORM0
-ms.topic: struct
 f1_keywords:
 - ipsectypes/IPSEC_SA_TRANSFORM0
 dev_langs:

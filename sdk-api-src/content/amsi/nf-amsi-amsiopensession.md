@@ -7,7 +7,6 @@ tech.root: AMSI
 ms.assetid: 588C9003-8689-4D1C-BDFB-386E60BAECD5
 ms.date: 12/05/2018
 ms.keywords: AmsiOpenSession, AmsiOpenSession function [Antimalware Scan Interface], amsi.amsiopensession, amsi/AmsiOpenSession
-ms.topic: function
 f1_keywords:
 - amsi/AmsiOpenSession
 dev_langs:

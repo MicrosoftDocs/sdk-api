@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: f1c07033-dbfa-4bbe-b275-f5bfc629b2d7
 ms.date: 12/05/2018
 ms.keywords: '*PIPX_IF_INFO, IPX_IF_INFO, IPX_IF_INFO structure [RAS], PIPX_IF_INFO, PIPX_IF_INFO structure pointer [RAS], _mpr_ipx_if_info, ipxrtdef/IPX_IF_INFO, ipxrtdef/PIPX_IF_INFO, rras.ipx_if_info'
-ms.topic: struct
 f1_keywords:
 - ipxrtdef/IPX_IF_INFO
 dev_langs:

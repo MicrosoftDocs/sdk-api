@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: ad610b7a-9865-4feb-81d2-491f9f87ef3e
 ms.date: 12/05/2018
 ms.keywords: InitializeThreadpoolEnvironment, InitializeThreadpoolEnvironment function, base.initializethreadpoolenvironment, winbase/InitializeThreadpoolEnvironment
-ms.topic: function
 f1_keywords:
 - winbase/InitializeThreadpoolEnvironment
 dev_langs:

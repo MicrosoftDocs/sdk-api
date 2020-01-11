@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\isearchmanager.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchManager, ISearchManager interface [search], ISearchManager interface [search],described, _search_ISearchManager, search._search_ISearchManager, searchapi/ISearchManager
-ms.topic: interface
 f1_keywords:
 - searchapi/ISearchManager
 dev_langs:

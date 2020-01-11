@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: e90d1830-c356-48f1-ac7b-1d94c8c26569
 ms.date: 12/05/2018
 ms.keywords: ID2D1Effect, ID2D1Effect interface [Direct2D], ID2D1Effect interface [Direct2D],described, d2d1_1/ID2D1Effect, direct2d.id2d1effect
-ms.topic: interface
 f1_keywords:
 - d2d1_1/ID2D1Effect
 dev_langs:

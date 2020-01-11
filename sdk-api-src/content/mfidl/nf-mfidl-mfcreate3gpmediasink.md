@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: a0a1f6af-5d73-4347-abd7-9b2bde61fdf2
 ms.date: 12/05/2018
 ms.keywords: MFCreate3GPMediaSink, MFCreate3GPMediaSink function [Media Foundation], mf.mfcreate3gpmediasink, mfidl/MFCreate3GPMediaSink
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreate3GPMediaSink
 dev_langs:

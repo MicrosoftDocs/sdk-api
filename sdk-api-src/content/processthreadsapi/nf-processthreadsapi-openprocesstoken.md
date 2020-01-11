@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 1e760ad8-7e46-4748-8c45-36ad8efe936a
 ms.date: 12/05/2018
 ms.keywords: OpenProcessToken, OpenProcessToken function [Security], _win32_openprocesstoken, processthreadsapi/OpenProcessToken, security.openprocesstoken
-ms.topic: function
 f1_keywords:
 - processthreadsapi/OpenProcessToken
 dev_langs:

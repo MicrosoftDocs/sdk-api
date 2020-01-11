@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: bd69ec16-e8a3-4372-babf-65f8abb7a012
 ms.date: 12/05/2018
 ms.keywords: CM_Open_DevNode_Key, CM_Open_DevNode_Key function [Device and Driver Installation], cfgmgr32/CM_Open_DevNode_Key, cfgmgrfn_951f31d2-624f-4ef2-b954-1b33f9a779e7.xml, devinst.cm_open_devnode_key
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Open_DevNode_Key
 dev_langs:

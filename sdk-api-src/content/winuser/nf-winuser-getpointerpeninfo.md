@@ -7,7 +7,6 @@ tech.root: InputMsg
 ms.assetid: 5f1f7252-a4aa-4b06-94c9-2aa365cf0100
 ms.date: 12/05/2018
 ms.keywords: GetPointerPenInfo, GetPointerPenInfo function [Input Messages and Notifications], inputmsg.getpointerpeninfo, winuser/GetPointerPenInfo
-ms.topic: function
 f1_keywords:
 - winuser/GetPointerPenInfo
 dev_langs:

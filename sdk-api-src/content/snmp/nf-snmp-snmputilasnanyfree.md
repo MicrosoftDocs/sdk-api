@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: b18c3722-398e-4659-ab1c-edd09d5c220d
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilAsnAnyFree, SnmpUtilAsnAnyFree function [SNMP], _snmp_snmputilasnanyfree, snmp.snmputilasnanyfree, snmp/SnmpUtilAsnAnyFree
-ms.topic: function
 f1_keywords:
 - snmp/SnmpUtilAsnAnyFree
 dev_langs:

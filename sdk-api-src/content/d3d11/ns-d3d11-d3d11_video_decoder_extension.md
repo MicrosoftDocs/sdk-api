@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: F82746A4-16AB-49B5-96C8-777675416467
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_DECODER_EXTENSION, D3D11_VIDEO_DECODER_EXTENSION structure [Media Foundation], d3d11/D3D11_VIDEO_DECODER_EXTENSION, mf.d3d11_video_decoder_extension
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_VIDEO_DECODER_EXTENSION
 dev_langs:

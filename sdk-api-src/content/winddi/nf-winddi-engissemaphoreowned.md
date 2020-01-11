@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: a04f6f46-f075-40d1-8b56-d37a80fb3571
 ms.date: 12/05/2018
 ms.keywords: EngIsSemaphoreOwned, EngIsSemaphoreOwned function [Display Devices], display.engissemaphoreowned, gdifncs_9bf4c866-a563-4bc5-99d6-0189f10f0742.xml, winddi/EngIsSemaphoreOwned
-ms.topic: function
 f1_keywords:
 - winddi/EngIsSemaphoreOwned
 dev_langs:

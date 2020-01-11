@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 8d7a9bda-56e8-4b42-ace5-4d6cf5d52b59
 ms.date: 12/05/2018
 ms.keywords: ITocParser interface [Media Foundation],Init method, ITocParser.Init, ITocParser::Init, Init, Init method [Media Foundation], Init method [Media Foundation],ITocParser interface, codecapi.itocparser_init, mf.itocparser_init, wmcodecdsp/ITocParser::Init
-ms.topic: method
 f1_keywords:
 - wmcodecdsp/ITocParser.Init
 dev_langs:

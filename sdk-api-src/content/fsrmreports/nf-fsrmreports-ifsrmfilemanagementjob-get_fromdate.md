@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: f891679d-3d94-4fbe-99b1-9445666b7694
 ms.date: 12/05/2018
 ms.keywords: FromDate property [File Server Resource Manager], FromDate property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],FromDate property, IFsrmFileManagementJob.FromDate, IFsrmFileManagementJob.get_FromDate, IFsrmFileManagementJob::FromDate, IFsrmFileManagementJob::get_FromDate, IFsrmFileManagementJob::put_FromDate, fs.ifsrmfilemanagementjob_fromdate, fsrm.ifsrmfilemanagementjob_fromdate, fsrmreports/IFsrmFileManagementJob::FromDate, fsrmreports/IFsrmFileManagementJob::get_FromDate, fsrmreports/IFsrmFileManagementJob::put_FromDate, get_FromDate
-ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmFileManagementJob.FromDate
 dev_langs:

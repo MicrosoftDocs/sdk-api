@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: E5BDD684-46AC-40C0-89FC-DFABBB6AB72C
 ms.date: 12/05/2018
 ms.keywords: WofSetFileDataLocation, WofSetFileDataLocation function [Files], fs.wofsetfiledatalocation, wofapi/WofSetFileDataLocation
-ms.topic: function
 f1_keywords:
 - wofapi/WofSetFileDataLocation
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WebSock
 ms.assetid: 289f3880-22ed-44f8-8a69-1c983153ea72
 ms.date: 12/05/2018
 ms.keywords: WebSocketSend, WebSocketSend function [Websocket Protocol Component API], websock.websocketsend, websocket/WebSocketSend
-ms.topic: function
 f1_keywords:
 - websocket/WebSocketSend
 dev_langs:

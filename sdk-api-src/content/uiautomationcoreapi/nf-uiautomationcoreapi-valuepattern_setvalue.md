@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 6233abb0-7d18-4d1f-a611-28931d874bda
 ms.date: 12/05/2018
 ms.keywords: ValuePattern_SetValue, ValuePattern_SetValue function [Windows Accessibility], uiauto.uiauto_ValuePattern_SetValueConPat, uiauto_ValuePattern_SetValueConPat, uiautomationcoreapi/ValuePattern_SetValue, winauto.uiauto_ValuePattern_SetValueConPat
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/ValuePattern_SetValue
 dev_langs:

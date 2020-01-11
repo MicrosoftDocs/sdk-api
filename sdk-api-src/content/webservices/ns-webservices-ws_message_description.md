@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 399b3363-004b-499a-9726-0b2513826f43
 ms.date: 12/05/2018
 ms.keywords: WS_MESSAGE_DESCRIPTION, WS_MESSAGE_DESCRIPTION structure [Web Services for Windows], webservices/WS_MESSAGE_DESCRIPTION, wsw.ws_message_description
-ms.topic: struct
 f1_keywords:
 - webservices/WS_MESSAGE_DESCRIPTION
 dev_langs:

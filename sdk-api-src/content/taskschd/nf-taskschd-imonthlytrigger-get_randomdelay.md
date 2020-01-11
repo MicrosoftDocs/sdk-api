@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 6b2a42dc-4002-4e51-9a8a-2982f83835d6
 ms.date: 12/05/2018
 ms.keywords: IMonthlyTrigger interface [Task Scheduler],RandomDelay property, IMonthlyTrigger.RandomDelay, IMonthlyTrigger.get_RandomDelay, IMonthlyTrigger::RandomDelay, IMonthlyTrigger::get_RandomDelay, IMonthlyTrigger::put_RandomDelay, RandomDelay property [Task Scheduler], RandomDelay property [Task Scheduler],IMonthlyTrigger interface, get_RandomDelay, taskschd.imonthlytrigger_randomdelay, taskschd/IMonthlyTrigger::RandomDelay, taskschd/IMonthlyTrigger::get_RandomDelay, taskschd/IMonthlyTrigger::put_RandomDelay
-ms.topic: method
 f1_keywords:
 - taskschd/IMonthlyTrigger.RandomDelay
 dev_langs:

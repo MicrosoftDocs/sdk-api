@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 1198ad57-ea47-428f-8867-061afbfc7709
 ms.date: 12/05/2018
 ms.keywords: OpenClusterNetInterface, OpenClusterNetInterface function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE, PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE function [Failover Cluster], _wolf_openclusternetinterface, clusapi/OpenClusterNetInterface, clusapi/PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE, mscs.openclusternetinterface
-ms.topic: function
 f1_keywords:
 - clusapi/OpenClusterNetInterface
 dev_langs:

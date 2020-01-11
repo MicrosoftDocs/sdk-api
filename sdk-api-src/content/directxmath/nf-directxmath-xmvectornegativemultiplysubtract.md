@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorNegativeMultiplySubtract(XMVECTOR,XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorNegativeMultiplySubtract, XMVectorNegativeMultiplySubtract, XMVectorNegativeMultiplySubtract method [DirectX Math Support APIs], dxmath.xmvectornegativemultiplysubtract
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorNegativeMultiplySubtract
 dev_langs:

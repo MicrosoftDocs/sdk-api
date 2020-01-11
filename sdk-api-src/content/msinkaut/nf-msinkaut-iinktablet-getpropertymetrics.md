@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 9656bb56-01aa-4e9b-a3ad-4fbf117cdfeb
 ms.date: 12/05/2018
 ms.keywords: 9656bb56-01aa-4e9b-a3ad-4fbf117cdfeb, GetPropertyMetrics, GetPropertyMetrics method [Tablet PC], GetPropertyMetrics method [Tablet PC],IInkTablet interface, IInkTablet interface [Tablet PC],GetPropertyMetrics method, IInkTablet.GetPropertyMetrics, IInkTablet::GetPropertyMetrics, msinkaut/IInkTablet::GetPropertyMetrics, tablet.iinktablet_getpropertymetrics
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkTablet.GetPropertyMetrics
 dev_langs:

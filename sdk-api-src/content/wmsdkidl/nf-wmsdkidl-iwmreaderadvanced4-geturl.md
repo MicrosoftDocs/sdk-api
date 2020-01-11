@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 1c17be57-da35-40f2-a216-97d6953c7311
 ms.date: 12/05/2018
 ms.keywords: GetURL, GetURL method [windows Media Format], GetURL method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],GetURL method, IWMReaderAdvanced4.GetURL, IWMReaderAdvanced4::GetURL, IWMReaderAdvanced4GetURL, wmformat.iwmreaderadvanced4_geturl, wmsdkidl/IWMReaderAdvanced4::GetURL
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced4.GetURL
 dev_langs:

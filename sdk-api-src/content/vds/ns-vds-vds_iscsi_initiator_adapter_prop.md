@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: cfcc7c7a-d135-4404-8f67-64e43a425669
 ms.date: 12/05/2018
 ms.keywords: VDS_ISCSI_INITIATOR_ADAPTER_PROP, VDS_ISCSI_INITIATOR_ADAPTER_PROP structure [VDS], _VDS_ISCSI_INITIATOR_ADAPTER_PROP, base.vds_iscsi_initiator_adapter_prop, vds/VDS_ISCSI_INITIATOR_ADAPTER_PROP, vdshwprv/VDS_ISCSI_INITIATOR_ADAPTER_PROP
-ms.topic: struct
 f1_keywords:
 - vds/VDS_ISCSI_INITIATOR_ADAPTER_PROP
 dev_langs:

@@ -5,7 +5,6 @@ description: Describes the supported scaling range of output sizes for a video s
 tech.root: mf
 ms.assetid: f05d3e73-5912-4d1b-92c1-fba067719001
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_VIDEO_SCALE_SUPPORT
 dev_langs:

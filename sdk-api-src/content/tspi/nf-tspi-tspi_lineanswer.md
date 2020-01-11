@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: efd4d7f8-bf81-46c4-b51b-516036e9baef
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineAnswer, TSPI_lineAnswer function [TAPI 2.2], _tspi_tspi_lineanswer, tspi.tspi_lineanswer, tspi/TSPI_lineAnswer
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineAnswer
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: ea0cc4b8-e345-44bc-969e-f35f25b641f9
 ms.date: 12/05/2018
 ms.keywords: IEventControl interface [COM+],SetDefaultQuery method, IEventControl.SetDefaultQuery, IEventControl::SetDefaultQuery, SetDefaultQuery, SetDefaultQuery method [COM+], SetDefaultQuery method [COM+],IEventControl interface, _cos_IEventControl_SetDefaultQuery, cos.ieventcontrol_setdefaultquery, eventsys/IEventControl::SetDefaultQuery
-ms.topic: method
 f1_keywords:
 - eventsys/IEventControl.SetDefaultQuery
 dev_langs:

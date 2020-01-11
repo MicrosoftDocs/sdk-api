@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 8ae95850-59e9-4382-b88d-c51eb3077176
 ms.date: 12/05/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetInstanceKeysByPath method, CWbemProviderGlue.GetInstanceKeysByPath, CWbemProviderGlue::GetInstanceKeysByPath, GetInstanceKeysByPath, GetInstanceKeysByPath method [Windows Management Instrumentation], GetInstanceKeysByPath method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getinstancekeysbypath, wbemglue/CWbemProviderGlue::GetInstanceKeysByPath, wmi.cwbemproviderglue_getinstancekeysbypath
-ms.topic: method
 f1_keywords:
 - wbemglue/CWbemProviderGlue.GetInstanceKeysByPath
 dev_langs:

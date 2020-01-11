@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 6976fd52-98f0-4eff-aa83-7cf5cb5d5e67
 ms.date: 12/05/2018
 ms.keywords: AddExtensionsToRequest, AddExtensionsToRequest method [Security], AddExtensionsToRequest method [Security],IEnroll interface, IEnroll interface [Security],AddExtensionsToRequest method, IEnroll.AddExtensionsToRequest, IEnroll::AddExtensionsToRequest, security.ienroll4_addextensionstorequest, xenroll/IEnroll::AddExtensionsToRequest
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll.AddExtensionsToRequest
 dev_langs:

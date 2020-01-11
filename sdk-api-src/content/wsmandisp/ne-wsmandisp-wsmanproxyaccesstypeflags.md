@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: c17c3600-6a19-4937-90ff-1a4f7cf5b123
 ms.date: 12/05/2018
 ms.keywords: WSManProxyAccessTypeFlags, WSManProxyAccessTypeFlags enumeration [Windows Remote Management], WSManProxyAutoDetect, WSManProxyIEConfig, WSManProxyNoProxyServer, WSManProxyWinHttpConfig, winrm.wsmanproxyaccesstypeflags, wsmandisp/WSManProxyAccessTypeFlags, wsmandisp/WSManProxyAutoDetect, wsmandisp/WSManProxyIEConfig, wsmandisp/WSManProxyNoProxyServer, wsmandisp/WSManProxyWinHttpConfig
-ms.topic: enum
 f1_keywords:
 - wsmandisp/WSManProxyAccessTypeFlags
 dev_langs:

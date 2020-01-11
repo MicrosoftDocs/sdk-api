@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: d57aed5f-90cb-47e7-af80-f3573a3b8256
 ms.date: 12/05/2018
 ms.keywords: IMFVideoPositionMapper interface [Media Foundation],MapOutputCoordinateToInputStream method, IMFVideoPositionMapper.MapOutputCoordinateToInputStream, IMFVideoPositionMapper::MapOutputCoordinateToInputStream, MapOutputCoordinateToInputStream, MapOutputCoordinateToInputStream method [Media Foundation], MapOutputCoordinateToInputStream method [Media Foundation],IMFVideoPositionMapper interface, d57aed5f-90cb-47e7-af80-f3573a3b8256, evr/IMFVideoPositionMapper::MapOutputCoordinateToInputStream, mf.imfvideopositionmapper_mapoutputcoordinatetoinputstream
-ms.topic: method
 f1_keywords:
 - evr/IMFVideoPositionMapper.MapOutputCoordinateToInputStream
 dev_langs:

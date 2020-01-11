@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 2a8df6fb-2834-44f4-9f25-454dcc2ff660
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,Terminate method, IWSDDeviceHost.Terminate, IWSDDeviceHost::Terminate, Terminate, Terminate method, Terminate method,IWSDDeviceHost interface, ncd.iwsddevicehost_terminate, wsdhost/IWSDDeviceHost::Terminate
-ms.topic: method
 f1_keywords:
 - wsdhost/IWSDDeviceHost.Terminate
 dev_langs:

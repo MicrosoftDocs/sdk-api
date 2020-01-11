@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: BC3F1171-26BC-46D0-8AE2-6BCD2393D617
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectRenderStreamNotify interface [Core Audio],OnAvailableDynamicObjectCountChange method, ISpatialAudioObjectRenderStreamNotify.OnAvailableDynamicObjectCountChange, ISpatialAudioObjectRenderStreamNotify::OnAvailableDynamicObjectCountChange, OnAvailableDynamicObjectCountChange, OnAvailableDynamicObjectCountChange method [Core Audio], OnAvailableDynamicObjectCountChange method [Core Audio],ISpatialAudioObjectRenderStreamNotify interface, coreaudio.ispatialaudioobjectrenderstreamnotify_onavailabledynamicobjectcountchange, spatialaudioclient/ISpatialAudioObjectRenderStreamNotify::OnAvailableDynamicObjectCountChange
-ms.topic: method
 f1_keywords:
 - spatialaudioclient/ISpatialAudioObjectRenderStreamNotify.OnAvailableDynamicObjectCountChange
 dev_langs:

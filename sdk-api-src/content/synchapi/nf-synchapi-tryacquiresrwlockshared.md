@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: e7b0c273-c1d4-4a1c-a824-f519fb52ad8f
 ms.date: 12/05/2018
 ms.keywords: TryAcquireSRWLockShared, TryAcquireSRWLockShared function, base.tryacquiresrwlockshared, synchapi/TryAcquireSRWLockShared, winbase/TryAcquireSRWLockShared
-ms.topic: function
 f1_keywords:
 - synchapi/TryAcquireSRWLockShared
 dev_langs:

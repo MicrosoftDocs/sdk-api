@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 1149a76e-e714-4bc7-842c-6fcbe220cd24
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],acceptResponse method, ICEnroll4 interface [Security],acceptResponse method, ICEnroll4.acceptResponse, ICEnroll4::acceptResponse, _xen_icenroll4_acceptresponse, acceptResponse, acceptResponse method [Security], acceptResponse method [Security],CEnroll object, acceptResponse method [Security],ICEnroll4 interface, security.icenroll4_acceptresponse, xenroll/ICEnroll4::acceptResponse
-ms.topic: method
 f1_keywords:
 - xenroll/ICEnroll4.acceptResponse
 dev_langs:

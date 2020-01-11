@@ -7,7 +7,6 @@ tech.root: EventLog
 ms.assetid: cfef0912-9d35-44aa-a1d3-f9bb37213ce0
 ms.date: 12/05/2018
 ms.keywords: OpenBackupEventLog, OpenBackupEventLog function, OpenBackupEventLogA, OpenBackupEventLogW, _win32_openbackupeventlog, base.openbackupeventlog, winbase/OpenBackupEventLog, winbase/OpenBackupEventLogA, winbase/OpenBackupEventLogW
-ms.topic: function
 f1_keywords:
 - winbase/OpenBackupEventLog
 dev_langs:

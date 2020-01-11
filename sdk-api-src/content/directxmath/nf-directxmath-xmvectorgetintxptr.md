@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetIntXPtr(uint32_t@,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorGetIntXPtr, XMVectorGetIntXPtr, XMVectorGetIntXPtr method [DirectX Math Support APIs], dxmath.xmvectorgetintxptr
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorGetIntXPtr
 dev_langs:

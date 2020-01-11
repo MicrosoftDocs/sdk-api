@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: e22c9169-e770-4f3d-819b-b9363b6e6542
 ms.date: 12/05/2018
 ms.keywords: FillMesh, FillMesh method [Direct2D], FillMesh method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],FillMesh method, ID2D1RenderTarget.FillMesh, ID2D1RenderTarget::FillMesh, d2d1/ID2D1RenderTarget::FillMesh, direct2d.ID2D1RenderTarget_FillMesh
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1RenderTarget.FillMesh
 dev_langs:

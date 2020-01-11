@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 90a233a4-44a4-4f8f-92bb-ea65fa213616
 ms.date: 12/05/2018
 ms.keywords: ISpellingError, ISpellingError interface [Internationalization for Windows Applications], ISpellingError interface [Internationalization for Windows Applications],described, intl.ispellingerror, spellcheck/ISpellingError
-ms.topic: interface
 f1_keywords:
 - spellcheck/ISpellingError
 dev_langs:

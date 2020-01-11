@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: a1b84377-bb1f-4e88-aca5-91105ff2ad6a
 ms.date: 12/05/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],UnselectTerminal method, ITSubStream.UnselectTerminal, ITSubStream::UnselectTerminal, UnselectTerminal, UnselectTerminal method [TAPI 2.2], UnselectTerminal method [TAPI 2.2],ITSubStream interface, _tapi3_itsubstream_unselectterminal, tapi3.itsubstream_unselectterminal, tapi3if/ITSubStream::UnselectTerminal
-ms.topic: method
 f1_keywords:
 - tapi3if/ITSubStream.UnselectTerminal
 dev_langs:

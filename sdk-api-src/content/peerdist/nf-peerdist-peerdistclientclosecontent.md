@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: c55300b7-13b6-42bf-b673-56a5e077416d
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientCloseContent, PeerDistClientCloseContent function [Peer Networking], p2p.peerdistclientclosecontent, peerdist/PeerDistClientCloseContent
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistClientCloseContent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Input_IntContext
 ms.assetid: 162f35a0-5053-46ad-a7ca-ce314d584e34
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_ARGUMENTS_TAP, INTERACTION_ARGUMENTS_TAP structure, input_intcontext.interaction_arguments_tap, interactioncontext.interaction_arguments_tap, interactioncontext/INTERACTION_ARGUMENTS_TAP
-ms.topic: struct
 f1_keywords:
 - interactioncontext/INTERACTION_ARGUMENTS_TAP
 dev_langs:

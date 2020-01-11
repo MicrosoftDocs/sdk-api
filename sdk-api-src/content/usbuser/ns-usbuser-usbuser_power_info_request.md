@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: f2d60a3b-0ba9-4c2d-b830-f0eca735434b
 ms.date: 12/05/2018
 ms.keywords: '*PUSBUSER_POWER_INFO_REQUEST, PUSBUSER_POWER_INFO_REQUEST, PUSBUSER_POWER_INFO_REQUEST structure pointer [Buses], USBUSER_POWER_INFO_REQUEST, USBUSER_POWER_INFO_REQUEST structure [Buses], buses.usbuser_power_info_request, usbstrct_1cbb73ef-b3d5-4568-a5b1-ea3a52cbe771.xml, usbuser/PUSBUSER_POWER_INFO_REQUEST, usbuser/USBUSER_POWER_INFO_REQUEST'
-ms.topic: struct
 f1_keywords:
 - usbuser/USBUSER_POWER_INFO_REQUEST
 dev_langs:

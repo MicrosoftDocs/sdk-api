@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: deee44cb-92b8-4d10-91d7-c99324ab5832
 ms.date: 12/05/2018
 ms.keywords: IDVB_RST, IDVB_RST interface [Microsoft TV Technologies], IDVB_RST interface [Microsoft TV Technologies],described, IDVB_RSTInterface, dvbsiparser/IDVB_RST, mstv.idvb_rst
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IDVB_RST
 dev_langs:

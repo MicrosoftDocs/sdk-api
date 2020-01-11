@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 0E343396-A294-45E3-88E5-9B63EB8B10B9
 ms.date: 12/05/2018
 ms.keywords: GetServerForPMP, GetServerForPMP function [Windows API], comppkgsup/GetServerForPMP, winprog.getserverforpmp
-ms.topic: function
 f1_keywords:
 - comppkgsup/GetServerForPMP
 dev_langs:

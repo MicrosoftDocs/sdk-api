@@ -4,7 +4,6 @@ title: WSPPROC_TABLE
 description: Contains a table of pointers to service provider functions.
 ms.date: 4/26/2019
 ms.keywords: _WSPPROC_TABLE, WSPPROC_TABLE
-ms.topic: language-reference
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

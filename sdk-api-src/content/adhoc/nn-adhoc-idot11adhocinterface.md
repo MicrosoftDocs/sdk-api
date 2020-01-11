@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: a4a73ff8-e24a-4f44-9205-c60699d1c27d
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocInterface, IDot11AdHocInterface interface [NativeWIFI], IDot11AdHocInterface interface [NativeWIFI],described, adhoc/IDot11AdHocInterface, nwifi.idot11adhocinterface
-ms.topic: interface
 f1_keywords:
 - adhoc/IDot11AdHocInterface
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 1cfe230c-16b5-490d-938f-604489a4a936
 ms.date: 12/05/2018
 ms.keywords: MBN_PROVIDERID_LEN, MBN_PROVIDERNAME_LEN, MBN_PROVIDER_CONSTANTS, MBN_PROVIDER_CONSTANTS enumeration [Microsoft Broadband Networks], mbn.mbn_provider_constants, mbnapi/MBN_PROVIDERID_LEN, mbnapi/MBN_PROVIDERNAME_LEN, mbnapi/MBN_PROVIDER_CONSTANTS
-ms.topic: enum
 f1_keywords:
 - mbnapi/MBN_PROVIDER_CONSTANTS
 dev_langs:

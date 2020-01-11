@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 700824ed-05a1-4fb5-adf1-491e1dea7bf4
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineCloseMSPInstance, TSPI_lineCloseMSPInstance function [TAPI 2.2], _tspi_tspi_lineclosemspinstance, tspi.tspi_lineclosemspinstance, tspi/TSPI_lineCloseMSPInstance
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineCloseMSPInstance
 dev_langs:

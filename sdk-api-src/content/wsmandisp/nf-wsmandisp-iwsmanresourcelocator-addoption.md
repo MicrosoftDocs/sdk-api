@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: a6709cb7-35a1-41b6-981e-13d3f1bf9816
 ms.date: 12/05/2018
 ms.keywords: AddOption, AddOption method [Windows Remote Management], AddOption method [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],AddOption method, IWSManResourceLocator.AddOption, IWSManResourceLocator::AddOption, winrm.iwsmanresourcelocator_addoption, wsmandisp/IWSManResourceLocator::AddOption
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManResourceLocator.AddOption
 dev_langs:

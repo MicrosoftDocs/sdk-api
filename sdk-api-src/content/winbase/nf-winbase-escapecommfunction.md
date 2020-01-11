@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: 27c4ebdf-1c06-4a60-8e49-dcccba10789c
 ms.date: 12/05/2018
 ms.keywords: CLRBREAK, CLRDTR, CLRRTS, EscapeCommFunction, EscapeCommFunction function, SETBREAK, SETDTR, SETRTS, SETXOFF, SETXON, _win32_escapecommfunction, base.escapecommfunction, winbase/EscapeCommFunction
-ms.topic: function
 f1_keywords:
 - winbase/EscapeCommFunction
 dev_langs:

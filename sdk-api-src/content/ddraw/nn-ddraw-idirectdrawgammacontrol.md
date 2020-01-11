@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: a6286a2d-76d5-49ec-afd5-cbf112528db8
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawGammaControl, IDirectDrawGammaControl interface [DirectDraw], IDirectDrawGammaControl interface [DirectDraw],described, ddraw/IDirectDrawGammaControl, directdraw.idirectdrawgammacontrol
-ms.topic: interface
 f1_keywords:
 - ddraw/IDirectDrawGammaControl
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 0f56b855-a116-4c58-ae93-1a3d49240685
 ms.date: 12/05/2018
 ms.keywords: CreateUInt32Array, CreateUInt32Array method [Windows Runtime], CreateUInt32Array method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateUInt32Array method, IPropertyValueStatics.CreateUInt32Array, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateUInt32Array, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateUInt32Array, winrt.ipropertyvaluefactory_createuint32array, winrt.ipropertyvaluestatics_createuint32array
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValueStatics.CreateUInt32Array
 dev_langs:

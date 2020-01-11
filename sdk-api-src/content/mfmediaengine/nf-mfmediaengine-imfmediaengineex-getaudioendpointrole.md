@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: f63fa14e-44e6-41b9-a8c9-4b8eb66e98e0
 ms.date: 12/05/2018
 ms.keywords: GetAudioEndpointRole, GetAudioEndpointRole method [Media Foundation], GetAudioEndpointRole method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetAudioEndpointRole method, IMFMediaEngineEx.GetAudioEndpointRole, IMFMediaEngineEx::GetAudioEndpointRole, mf.imfmediaengineex_getaudioendpointrole, mfmediaengine/IMFMediaEngineEx::GetAudioEndpointRole
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineEx.GetAudioEndpointRole
 dev_langs:

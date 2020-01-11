@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 275843c5-3a8c-4add-b453-53ff5d2bb868
 ms.date: 12/05/2018
 ms.keywords: GetWriterId, GetWriterId method [VSS], GetWriterId method [VSS],IVssWMDependency interface, IVssWMDependency interface [VSS],GetWriterId method, IVssWMDependency.GetWriterId, IVssWMDependency::GetWriterId, _win32_ivsswmdependency_getwriterid, base.ivsswmdependency_getwriterid, vswriter/IVssWMDependency::GetWriterId
-ms.topic: method
 f1_keywords:
 - vswriter/IVssWMDependency.GetWriterId
 dev_langs:

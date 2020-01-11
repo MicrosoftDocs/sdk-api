@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0d862a41-6896-40a5-8bfc-129b15dfc671
 ms.date: 12/05/2018
 ms.keywords: IGraphBuilder interface [DirectShow],ShouldOperationContinue method, IGraphBuilder.ShouldOperationContinue, IGraphBuilder::ShouldOperationContinue, IGraphBuilderShouldOperationContinue, ShouldOperationContinue, ShouldOperationContinue method [DirectShow], ShouldOperationContinue method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_shouldoperationcontinue, strmif/IGraphBuilder::ShouldOperationContinue
-ms.topic: method
 f1_keywords:
 - strmif/IGraphBuilder.ShouldOperationContinue
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 5d9adc4f-30c9-42bd-89c9-e35384885b8c
 ms.date: 12/05/2018
 ms.keywords: GetDefaultProperty, GetDefaultProperty method [COM], GetDefaultProperty method [COM],IEventPublisher interface, IEventPublisher interface [COM],GetDefaultProperty method, IEventPublisher.GetDefaultProperty, IEventPublisher::GetDefaultProperty, _com_ieventpublisher_getdefaultproperty, com.ieventpublisher_getdefaultproperty, eventsys/IEventPublisher::GetDefaultProperty
-ms.topic: method
 f1_keywords:
 - eventsys/IEventPublisher.GetDefaultProperty
 dev_langs:

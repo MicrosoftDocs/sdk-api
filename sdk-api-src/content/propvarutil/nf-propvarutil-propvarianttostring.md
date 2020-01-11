@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: d545dc12-a780-4d95-8660-13b3f65725f9
 ms.date: 12/05/2018
 ms.keywords: PropVariantToString, PropVariantToString function [Windows Properties], properties.PropVariantToString, propvarutil/PropVariantToString, shell.PropVariantToString, shell_PropVariantToString
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantToString
 dev_langs:

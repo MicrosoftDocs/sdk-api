@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 4068f0bb-35fb-452b-8ab1-1a38b1a0c2fa
 ms.date: 12/05/2018
 ms.keywords: IRpcChannelBuffer interface [COM],IsConnected method, IRpcChannelBuffer.IsConnected, IRpcChannelBuffer::IsConnected, IsConnected, IsConnected method [COM], IsConnected method [COM],IRpcChannelBuffer interface, _com_irpcchannelbuffer_isconnected, com.irpcchannelbuffer_isconnected, objidlbase/IRpcChannelBuffer::IsConnected
-ms.topic: method
 f1_keywords:
 - objidlbase/IRpcChannelBuffer.IsConnected
 dev_langs:

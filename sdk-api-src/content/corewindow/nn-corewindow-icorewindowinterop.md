@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 6928FA3A-C367-4C99-A67E-8ED0153D6349
 ms.date: 12/05/2018
 ms.keywords: ICoreWindowInterop, ICoreWindowInterop interface [Windows Runtime], ICoreWindowInterop interface [Windows Runtime],described, corewindow/ICoreWindowInterop, winrt.icorewindowinterop
-ms.topic: interface
 f1_keywords:
 - corewindow/ICoreWindowInterop
 dev_langs:

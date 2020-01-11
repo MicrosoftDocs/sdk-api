@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTEN2.#ctor(uint8_t,uint8_t)
 ms.date: 12/05/2018
 ms.keywords: XMUBYTEN2, XMUBYTEN2 constructor [DirectX Math Support APIs], XMUBYTEN2 constructor [DirectX Math Support APIs],XMUBYTEN2 structure, XMUBYTEN2 structure [DirectX Math Support APIs],XMUBYTEN2 constructor, XMUBYTEN2.XMUBYTEN2, XMUBYTEN2.XMUBYTEN2(uint8_t,uint8_t), XMUBYTEN2::XMUBYTEN2, XMUBYTEN2::XMUBYTEN2(uint8_t,uint8_t), dxmath.xmubyten2_ctor_3
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMUBYTEN2.XMUBYTEN2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 50a5563d-5872-4cfd-a600-be83beceb0fe
 ms.date: 12/05/2018
 ms.keywords: _win32_capDriverGetName, capDriverGetName, capDriverGetName macro [Windows Multimedia], multimedia.capdrivergetname, vfw/capDriverGetName
-ms.topic: macro
 f1_keywords:
 - vfw/capDriverGetName
 dev_langs:

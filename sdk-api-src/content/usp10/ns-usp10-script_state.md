@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 4b1724f7-7773-42c0-9c19-fbded5aef14e
 ms.date: 12/05/2018
 ms.keywords: FALSE, SCRIPT_STATE, SCRIPT_STATE structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_STATE_str, intl.script_state, usp10/SCRIPT_STATE
-ms.topic: struct
 f1_keywords:
 - usp10/SCRIPT_STATE
 dev_langs:

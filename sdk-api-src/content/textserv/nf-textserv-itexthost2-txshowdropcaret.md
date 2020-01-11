@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: D7FAD45E-3467-4F07-A0D9-3131E48C314B
 ms.date: 12/05/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxShowDropCaret method, ITextHost2.TxShowDropCaret, ITextHost2::TxShowDropCaret, TxShowDropCaret, TxShowDropCaret method [Windows Controls], TxShowDropCaret method [Windows Controls],ITextHost2 interface, controls.itexthost2_txshowdropcaret, textserv/ITextHost2::TxShowDropCaret
-ms.topic: method
 f1_keywords:
 - textserv/ITextHost2.TxShowDropCaret
 dev_langs:

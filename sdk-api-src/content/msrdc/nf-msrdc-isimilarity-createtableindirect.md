@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: 84df73f5-0c39-44bd-81d8-d5ca144eb2e8
 ms.date: 12/05/2018
 ms.keywords: CreateTableIndirect, CreateTableIndirect method [Remote Differential Compression], CreateTableIndirect method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],CreateTableIndirect method, ISimilarity.CreateTableIndirect, ISimilarity::CreateTableIndirect, fs.isimilarity_createtableindirect, msrdc/ISimilarity::CreateTableIndirect, rdc.isimilarity_createtableindirect
-ms.topic: method
 f1_keywords:
 - msrdc/ISimilarity.CreateTableIndirect
 dev_langs:

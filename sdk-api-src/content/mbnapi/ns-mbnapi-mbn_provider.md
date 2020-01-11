@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: f4a02ca2-6be4-4843-a657-5d5dde8be623
 ms.date: 12/05/2018
 ms.keywords: MBN_PROVIDER, MBN_PROVIDER structure [Microsoft Broadband Networks], mbn.mbn_provider, mbnapi/MBN_PROVIDER
-ms.topic: struct
 f1_keywords:
 - mbnapi/MBN_PROVIDER
 dev_langs:

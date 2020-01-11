@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 5c9d2fb4-05e7-449d-8326-b983701b3302
 ms.date: 12/05/2018
 ms.keywords: EnumerateEnvironments, EnumerateEnvironments method [Remote Desktop Services], EnumerateEnvironments method [Remote Desktop Services],ITsSbResourcePluginStore interface, EnumerateEnvironments method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],EnumerateEnvironments method, ITsSbResourcePluginStore.EnumerateEnvironments, ITsSbResourcePluginStore::EnumerateEnvironments, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],EnumerateEnvironments method, ITsSbResourcePluginStoreEx::EnumerateEnvironments, sbtsv/ITsSbResourcePluginStore::EnumerateEnvironments, sbtsv/ITsSbResourcePluginStoreEx::EnumerateEnvironments, termserv.itssbresourcepluginstore_enumerateenvironments
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbResourcePluginStore.EnumerateEnvironments
 dev_langs:

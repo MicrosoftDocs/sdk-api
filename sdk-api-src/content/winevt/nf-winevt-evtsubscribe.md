@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: e7c4c5f9-2a5a-4004-8f19-13eb61c4346b
 ms.date: 12/05/2018
 ms.keywords: EvtSubscribe, EvtSubscribe function [EventLog], wes.evtsubscribe, winevt/EvtSubscribe
-ms.topic: function
 f1_keywords:
 - winevt/EvtSubscribe
 dev_langs:

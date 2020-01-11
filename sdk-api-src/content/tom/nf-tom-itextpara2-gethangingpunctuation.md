@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 781b7c53-e9a1-4c4a-84d7-ea70efc173d1
 ms.date: 12/05/2018
 ms.keywords: GetHangingPunctuation, GetHangingPunctuation method [Windows Controls], GetHangingPunctuation method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetHangingPunctuation method, ITextPara2.GetHangingPunctuation, ITextPara2::GetHangingPunctuation, controls.itextpara2_gethangingpunctuation, tom/ITextPara2::GetHangingPunctuation
-ms.topic: method
 f1_keywords:
 - tom/ITextPara2.GetHangingPunctuation
 dev_langs:

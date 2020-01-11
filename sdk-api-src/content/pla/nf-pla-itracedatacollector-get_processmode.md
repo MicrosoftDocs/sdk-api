@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 63962145-7627-46bc-9be1-3a0738bdb1ce
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],ProcessMode property, ITraceDataCollector.ProcessMode, ITraceDataCollector.get_ProcessMode, ITraceDataCollector::ProcessMode, ITraceDataCollector::get_ProcessMode, ITraceDataCollector::put_ProcessMode, ProcessMode property [PLA], ProcessMode property [PLA],ITraceDataCollector interface, base.itracedatacollector_processmode, get_ProcessMode, pla.itracedatacollector_processmode, pla/ITraceDataCollector::ProcessMode, pla/ITraceDataCollector::get_ProcessMode, pla/ITraceDataCollector::put_ProcessMode
-ms.topic: method
 f1_keywords:
 - pla/ITraceDataCollector.ProcessMode
 dev_langs:

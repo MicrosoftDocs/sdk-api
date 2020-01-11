@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b918bf3b-b91b-40fb-abb8-4115a4f254bb
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], IDirectDrawVideo interface [DirectShow],described, IDirectDrawVideoInterface, amvideo/IDirectDrawVideo, dshow.idirectdrawvideo
-ms.topic: interface
 f1_keywords:
 - amvideo/IDirectDrawVideo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 852395EE-AA84-4C61-A55F-E8D925FA1447
 ms.date: 12/05/2018
 ms.keywords: MFCreateSensorActivityMonitor, MFCreateSensorActivityMonitor function [Media Foundation], mf.mfcreatesensoractivitymonitor, mfidl/MFCreateSensorActivityMonitor
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreateSensorActivityMonitor
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 3941b469-46f3-4499-9062-81a873a36292
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetState method, IDvdControl2.SetState, IDvdControl2::SetState, IDvdControl2SetState, SetState, SetState method [DirectShow], SetState method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setstate, strmif/IDvdControl2::SetState
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.SetState
 dev_langs:

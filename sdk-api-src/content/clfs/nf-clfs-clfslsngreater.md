@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: 15657fc4-40f6-4f89-89b4-ff51d72d5e74
 ms.date: 12/05/2018
 ms.keywords: ClfsLsnGreater, LsnGreater, LsnGreater function [Files], clfs/LsnGreater, fs.lsngreater
-ms.topic: function
 f1_keywords:
 - clfs/LsnGreater
 dev_langs:

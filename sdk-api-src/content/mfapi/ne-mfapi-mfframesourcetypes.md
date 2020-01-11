@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: F5926479-C41D-4702-8220-6A79859BD0F4
 ms.date: 12/05/2018
 ms.keywords: MFFrameSourceTypes, MFFrameSourceTypes enumeration [Media Foundation], MFFrameSourceTypes_Color, MFFrameSourceTypes_Custom, MFFrameSourceTypes_Depth, MFFrameSourceTypes_Image, MFFrameSourceTypes_Infrared, _MFFrameSourceTypes, mf.mfframesourcetypes, mfapi/ MFFrameSourceTypes_Image, mfapi/MFFrameSourceTypes, mfapi/MFFrameSourceTypes_Color, mfapi/MFFrameSourceTypes_Custom, mfapi/MFFrameSourceTypes_Depth, mfapi/MFFrameSourceTypes_Infrared
-ms.topic: enum
 f1_keywords:
 - mfapi/MFFrameSourceTypes
 dev_langs:

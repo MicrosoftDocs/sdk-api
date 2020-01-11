@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: cf9c9fe9-f58f-47f0-9051-86a514df0c6d
 ms.date: 12/05/2018
 ms.keywords: IToolbar, IToolbar interface [MMC], IToolbar interface [MMC],described, _slate_itoolbar, mmc.itoolbar, mmc/IToolbar
-ms.topic: interface
 f1_keywords:
 - mmc/IToolbar
 dev_langs:

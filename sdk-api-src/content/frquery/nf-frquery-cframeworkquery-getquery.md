@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 2f7b5057-8522-4ef3-bf5a-3b96b72128b3
 ms.date: 12/05/2018
 ms.keywords: ?GetQuery@CFrameworkQuery@@QAEABVCHString@@XZ, CFrameworkQuery interface [Windows Management Instrumentation],GetQuery method, CFrameworkQuery.GetQuery, CFrameworkQuery::GetQuery, GetQuery, GetQuery method [Windows Management Instrumentation], GetQuery method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_getquery, frquery/CFrameworkQuery::GetQuery, wmi.cframeworkquery_getquery
-ms.topic: method
 f1_keywords:
 - frquery/CFrameworkQuery.GetQuery
 dev_langs:

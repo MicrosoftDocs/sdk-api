@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: efce8756-f42b-4d9a-bfed-4297e7e0fdec
 ms.date: 12/05/2018
 ms.keywords: IInkDivisionUnits, IInkDivisionUnits interface [Tablet PC], IInkDivisionUnits interface [Tablet PC],described, efce8756-f42b-4d9a-bfed-4297e7e0fdec, msinkaut15/IInkDivisionUnits, tablet.iinkdivisionunits
-ms.topic: interface
 f1_keywords:
 - msinkaut15/IInkDivisionUnits
 dev_langs:

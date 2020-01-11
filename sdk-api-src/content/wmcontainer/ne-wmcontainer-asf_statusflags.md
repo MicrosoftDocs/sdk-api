@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: c8f1944a-2b61-4c6e-8c87-37c2985fbdca
 ms.date: 12/05/2018
 ms.keywords: ASF_STATUSFLAGS, ASF_STATUSFLAGS enumeration [Media Foundation], ASF_STATUSFLAGS_INCOMPLETE, ASF_STATUSFLAGS_NONFATAL_ERROR, c8f1944a-2b61-4c6e-8c87-37c2985fbdca, mf.asf_statusflags, wmcontainer/ASF_STATUSFLAGS, wmcontainer/ASF_STATUSFLAGS_INCOMPLETE, wmcontainer/ASF_STATUSFLAGS_NONFATAL_ERROR
-ms.topic: enum
 f1_keywords:
 - wmcontainer/ASF_STATUSFLAGS
 dev_langs:

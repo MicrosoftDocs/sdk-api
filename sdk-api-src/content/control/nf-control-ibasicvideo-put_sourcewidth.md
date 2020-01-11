@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0747a1fb-42b6-452f-8a92-eb87931c004c
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],put_SourceWidth method, IBasicVideo.put_SourceWidth, IBasicVideo::put_SourceWidth, IBasicVideoput_SourceWidth, control/IBasicVideo::put_SourceWidth, dshow.ibasicvideo_put_sourcewidth, put_SourceWidth, put_SourceWidth method [DirectShow], put_SourceWidth method [DirectShow],IBasicVideo interface
-ms.topic: method
 f1_keywords:
 - control/IBasicVideo.put_SourceWidth
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 84eedf88-f0ea-4dc8-9840-b94a47fb7ca2
 ms.date: 12/05/2018
 ms.keywords: '*LPLINEAGENTINFO, LINEAGENTINFO, LINEAGENTINFO structure [TAPI 2.2], LPLINEAGENTINFO, LPLINEAGENTINFO structure pointer [TAPI 2.2], _tapi2_lineagentinfo, tapi/LINEAGENTINFO, tapi/LPLINEAGENTINFO, tapi2.lineagentinfo'
-ms.topic: struct
 f1_keywords:
 - tapi/LINEAGENTINFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2a7808b6-2e31-4cd9-a4cc-7a6a7cf46cd4
 ms.date: 12/05/2018
 ms.keywords: IPAT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IPAT.RegisterForWhenCurrent, IPAT::RegisterForWhenCurrent, IPATRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IPAT interface, mpeg2psiparser/IPAT::RegisterForWhenCurrent, mstv.ipat_registerforwhencurrent
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/IPAT.RegisterForWhenCurrent
 dev_langs:

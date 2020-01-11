@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 583687B6-5A87-4616-A5EE-4FECFF06749E
 ms.date: 12/05/2018
 ms.keywords: TokenBindingGetKeyTypesClient, TokenBindingGetKeyTypesClient function [Security], security.tokenbindinggetkeytypesclient, tokenbinding/TokenBindingGetKeyTypesClient
-ms.topic: function
 f1_keywords:
 - tokenbinding/TokenBindingGetKeyTypesClient
 dev_langs:

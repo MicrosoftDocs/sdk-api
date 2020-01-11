@@ -7,7 +7,6 @@ tech.root: Dfs
 ms.assetid: c4ce8f50-f090-4783-b6c9-834d9e0c33de
 ms.date: 12/05/2018
 ms.keywords: NetDfsAddRootTarget, NetDfsAddRootTarget function [Distributed File System], dfs.netdfsaddroottarget, fs.netdfsaddroottarget, lmdfs/NetDfsAddRootTarget
-ms.topic: function
 f1_keywords:
 - lmdfs/NetDfsAddRootTarget
 dev_langs:

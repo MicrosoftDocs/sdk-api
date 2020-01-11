@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: da8cd2be-ff4c-4da5-813c-8759a58228c9
 ms.date: 12/05/2018
 ms.keywords: LHND, LMEM_FIXED, LMEM_MOVEABLE, LMEM_ZEROINIT, LPTR, LocalAlloc, LocalAlloc function, NONZEROLHND, NONZEROLPTR, _win32_localalloc, base.localalloc, winbase/LocalAlloc
-ms.topic: function
 f1_keywords:
 - winbase/LocalAlloc
 dev_langs:

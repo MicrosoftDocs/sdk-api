@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: be0d21ee-bb15-4c6d-9d69-741adf047863
 ms.date: 12/05/2018
 ms.keywords: CloseCUB, CloseCUB method, CloseCUB method,IValidate interface, IValidate interface,CloseCUB method, IValidate.CloseCUB, IValidate::CloseCUB, evalcom2/IValidate::CloseCUB, setup.ivalidate_closecub
-ms.topic: method
 f1_keywords:
 - evalcom2/IValidate.CloseCUB
 dev_langs:

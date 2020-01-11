@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 60daf071-4e93-4e1c-bc38-894f706db04f
 ms.date: 12/05/2018
 ms.keywords: '*LPITEMIDLIST, *PIDLIST_ABSOLUTE, *PIDLIST_RELATIVE, *PITEMID_CHILD, *PUIDLIST_RELATIVE, *PUITEMID_CHILD, ITEMIDLIST, ITEMIDLIST structure [Windows Shell], ITEMIDLIST_ABSOLUTE, ITEMIDLIST_RELATIVE, ITEMID_CHILD, _win32_ITEMIDLIST, shell.ITEMIDLIST, shtypes/ITEMIDLIST'
-ms.topic: struct
 f1_keywords:
 - shtypes/ITEMIDLIST
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 04315431-FC5C-41FB-9806-7904F71C19FD
 ms.date: 12/05/2018
 ms.keywords: Edit_GetFileLineLength, Edit_GetFileLineLength macro [Windows Controls], commctrl/Edit_GetFileLineLength, controls.edit_getfilelinelength
-ms.topic: macro
 f1_keywords:
 - commctrl/Edit_GetFileLineLength
 dev_langs:

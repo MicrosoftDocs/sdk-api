@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 1350286D-522D-4549-B69C-31874352AEAD
 ms.date: 12/05/2018
 ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowClosing method, IUIManagerEventSink.OnWindowClosing, IUIManagerEventSink::OnWindowClosing, OnWindowClosing, OnWindowClosing method [Text Services Framework], OnWindowClosing method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowClosing, tsf.iuimanagereventsink_onwindowclosing
-ms.topic: method
 f1_keywords:
 - ctffunc/IUIManagerEventSink.OnWindowClosing
 dev_langs:

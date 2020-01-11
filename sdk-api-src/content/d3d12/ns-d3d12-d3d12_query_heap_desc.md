@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 1B1CB0D8-B370-4D38-BDA9-21C58D6A8F15
 ms.date: 12/05/2018
 ms.keywords: D3D12_QUERY_HEAP_DESC, D3D12_QUERY_HEAP_DESC structure, d3d12/D3D12_QUERY_HEAP_DESC, direct3d12.d3d12_query_heap_desc
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_QUERY_HEAP_DESC
 dev_langs:

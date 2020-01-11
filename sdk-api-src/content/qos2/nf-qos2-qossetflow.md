@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: b30e8887-4445-480d-aba8-79ec36384648
 ms.date: 12/05/2018
 ms.keywords: QOSSetFlow, QOSSetFlow function [QOS], QOSSetOutgoingDSCPValue, QOSSetOutgoingRate, QOSSetTrafficType, qos.qossetoutgoingrate, qos2/QOSSetFlow
-ms.topic: function
 f1_keywords:
 - qos2/QOSSetFlow
 dev_langs:

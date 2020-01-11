@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: fe98f00e-7887-4e37-8e09-037a804e6195
 ms.date: 12/05/2018
 ms.keywords: SetupGetTargetPath, SetupGetTargetPath function [Setup API], SetupGetTargetPathA, SetupGetTargetPathW, _setupapi_setupgettargetpath, setup.setupgettargetpath, setupapi/SetupGetTargetPath, setupapi/SetupGetTargetPathA, setupapi/SetupGetTargetPathW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupGetTargetPath
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 051F58C1-E3F3-4205-B834-7A14FEDFED2C
 ms.date: 12/05/2018
 ms.keywords: CD3D11_SHADER_RESOURCE_VIEW_DESC1, D3D11_SHADER_RESOURCE_VIEW_DESC1, D3D11_SHADER_RESOURCE_VIEW_DESC1 structure [Direct3D 11], d3d11_3/D3D11_SHADER_RESOURCE_VIEW_DESC1, direct3d11.d3d11_shader_resource_view_desc1
-ms.topic: struct
 f1_keywords:
 - d3d11_3/D3D11_SHADER_RESOURCE_VIEW_DESC1
 dev_langs:

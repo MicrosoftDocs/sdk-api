@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 8F97E69B-5534-409F-9702-9FC6D7940D65
 ms.date: 12/05/2018
 ms.keywords: GetNumMessagesDiscardedByMessageCountLimit, GetNumMessagesDiscardedByMessageCountLimit method [DXGI], GetNumMessagesDiscardedByMessageCountLimit method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetNumMessagesDiscardedByMessageCountLimit method, IDXGIInfoQueue.GetNumMessagesDiscardedByMessageCountLimit, IDXGIInfoQueue::GetNumMessagesDiscardedByMessageCountLimit, direct3ddxgi.idxgiinfoqueue_getnummessagesdiscardedbymessagecountlimit, dxgidebug/IDXGIInfoQueue::GetNumMessagesDiscardedByMessageCountLimit
-ms.topic: method
 f1_keywords:
 - dxgidebug/IDXGIInfoQueue.GetNumMessagesDiscardedByMessageCountLimit
 dev_langs:

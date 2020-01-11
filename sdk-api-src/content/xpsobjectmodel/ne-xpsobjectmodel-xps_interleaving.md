@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: cfb2d1f3-2edb-4342-9fcc-c058afa3ef83
 ms.date: 12/05/2018
 ms.keywords: XPS_INTERLEAVING, XPS_INTERLEAVING enumeration [XPS Documents and Packaging], XPS_INTERLEAVING_OFF, XPS_INTERLEAVING_ON, xps.xps_interleaving, xpsobjectmodel/XPS_INTERLEAVING, xpsobjectmodel/XPS_INTERLEAVING_OFF, xpsobjectmodel/XPS_INTERLEAVING_ON
-ms.topic: enum
 f1_keywords:
 - xpsobjectmodel/XPS_INTERLEAVING
 dev_langs:

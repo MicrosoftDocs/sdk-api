@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 776d7667-f48b-44c0-9441-177b86b52da9
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],SetMasterVolumeLevel method, IAudioEndpointVolume.SetMasterVolumeLevel, IAudioEndpointVolume::SetMasterVolumeLevel, IAudioEndpointVolumeSetMasterVolumeLevel, SetMasterVolumeLevel, SetMasterVolumeLevel method [Core Audio], SetMasterVolumeLevel method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_setmastervolumelevel, endpointvolume/IAudioEndpointVolume::SetMasterVolumeLevel
-ms.topic: method
 f1_keywords:
 - endpointvolume/IAudioEndpointVolume.SetMasterVolumeLevel
 dev_langs:

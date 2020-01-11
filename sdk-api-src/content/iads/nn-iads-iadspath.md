@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: e588195c-eb4f-48d3-a2fa-777dd6dc2901
 ms.date: 12/05/2018
 ms.keywords: IADsPath, IADsPath interface [ADSI], IADsPath interface [ADSI],described, _ds_iadspath, adsi.iadspath, iads/IADsPath
-ms.topic: interface
 f1_keywords:
 - iads/IADsPath
 dev_langs:

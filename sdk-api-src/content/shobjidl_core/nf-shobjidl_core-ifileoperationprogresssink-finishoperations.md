@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5d2d05c3-525d-4113-bb08-63395facf191
 ms.date: 12/05/2018
 ms.keywords: FinishOperations, FinishOperations method [Windows Shell], FinishOperations method [Windows Shell],IFileOperationProgressSink interface, IFileOperationProgressSink interface [Windows Shell],FinishOperations method, IFileOperationProgressSink.FinishOperations, IFileOperationProgressSink::FinishOperations, _shell_IFileOperationProgressSink_FinishOperations, shell.IFileOperationProgressSink_FinishOperations, shobjidl_core/IFileOperationProgressSink::FinishOperations
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileOperationProgressSink.FinishOperations
 dev_langs:

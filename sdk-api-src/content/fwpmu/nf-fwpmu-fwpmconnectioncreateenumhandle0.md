@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: b33878d5-437d-4625-b488-28fbe95eb69f
 ms.date: 12/05/2018
 ms.keywords: FwpmConnectionCreateEnumHandle0, FwpmConnectionCreateEnumHandle0 function [Filtering], fwp.fwpmconnectioncreateenumhandle0, fwpmu/FwpmConnectionCreateEnumHandle0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmConnectionCreateEnumHandle0
 dev_langs:

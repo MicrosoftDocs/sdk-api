@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: D24A2622-758D-4344-8872-F0D8E4EE80CC
 ms.date: 12/05/2018
 ms.keywords: CreateClusterGroupEx, CreateClusterGroupEx function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_GROUPEX, PCLUSAPI_CREATE_CLUSTER_GROUPEX function [Failover Cluster], clusapi/CreateClusterGroupEx, clusapi/PCLUSAPI_CREATE_CLUSTER_GROUPEX, mscs.createclustergroupex
-ms.topic: function
 f1_keywords:
 - clusapi/CreateClusterGroupEx
 dev_langs:

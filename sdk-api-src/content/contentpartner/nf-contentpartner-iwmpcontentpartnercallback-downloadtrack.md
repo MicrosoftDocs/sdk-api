@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: fe8772fa-2eb4-4dfe-b677-e667b6021690
 ms.date: 12/05/2018
 ms.keywords: DownloadTrack, DownloadTrack method [Windows Media Player], DownloadTrack method [Windows Media Player],IWMPContentPartnerCallback interface, IWMPContentPartnerCallback interface [Windows Media Player],DownloadTrack method, IWMPContentPartnerCallback.DownloadTrack, IWMPContentPartnerCallback::DownloadTrack, IWMPContentPartnerCallbackDownloadTrack, contentpartner/IWMPContentPartnerCallback::DownloadTrack, wmp.iwmpcontentpartnercallback_downloadtrack
-ms.topic: method
 f1_keywords:
 - contentpartner/IWMPContentPartnerCallback.DownloadTrack
 dev_langs:

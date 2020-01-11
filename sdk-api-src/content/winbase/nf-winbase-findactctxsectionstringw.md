@@ -7,7 +7,6 @@ tech.root: SbsCs
 ms.assetid: d3f0b057-44ec-47ec-a0aa-69f3540b8900
 ms.date: 12/05/2018
 ms.keywords: FIND_ACTCTX_SECTION_KEY_RETURN_HACTCTX, FindActCtxSectionString, FindActCtxSectionString function [Side-by-side Assemblies], FindActCtxSectionStringA, FindActCtxSectionStringW, _win32_findactctxsectionstring, setup.findactctxsectionstring, winbase/FindActCtxSectionString, winbase/FindActCtxSectionStringA, winbase/FindActCtxSectionStringW
-ms.topic: function
 f1_keywords:
 - winbase/FindActCtxSectionString
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 550cbd9d-5569-485e-897d-73d8bab8430a
 ms.date: 12/05/2018
 ms.keywords: PeerCollabEnumApplications, PeerCollabEnumApplications function [Peer Networking], p2p.peercollabenumapplications, p2p/PeerCollabEnumApplications
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabEnumApplications
 dev_langs:

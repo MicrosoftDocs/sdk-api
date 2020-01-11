@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 59DA5314-2A6C-42B0-A4B8-72F6302B4B0F
 ms.date: 12/05/2018
 ms.keywords: GetBounds, GetBounds method [Direct2D], GetBounds method [Direct2D],ID2D1GdiMetafile interface, ID2D1GdiMetafile interface [Direct2D],GetBounds method, ID2D1GdiMetafile.GetBounds, ID2D1GdiMetafile::GetBounds, d2d1_1/ID2D1GdiMetafile::GetBounds, direct2d.id2d1gdimetafile_getbounds
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1GdiMetafile.GetBounds
 dev_langs:

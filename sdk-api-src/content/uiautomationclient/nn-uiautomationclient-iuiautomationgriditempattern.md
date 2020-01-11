@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 03b284de-3079-4543-ac5a-a8504da0d755
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationGridItemPattern, IUIAutomationGridItemPattern interface [Windows Accessibility], IUIAutomationGridItemPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationGridItemPattern, uiauto_IUIAutomationGridItemPattern, uiautomationclient/IUIAutomationGridItemPattern, winauto.uiauto_IUIAutomationGridItemPattern
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationGridItemPattern
 dev_langs:

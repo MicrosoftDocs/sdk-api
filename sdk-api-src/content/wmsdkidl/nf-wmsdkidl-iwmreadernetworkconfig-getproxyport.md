@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 042d702e-b4a1-43f6-b2c4-c81922d7c3f2
 ms.date: 12/05/2018
 ms.keywords: GetProxyPort, GetProxyPort method [windows Media Format], GetProxyPort method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetProxyPort method, IWMReaderNetworkConfig.GetProxyPort, IWMReaderNetworkConfig::GetProxyPort, IWMReaderNetworkConfigGetProxyPort, wmformat.iwmreadernetworkconfig_getproxyport, wmsdkidl/IWMReaderNetworkConfig::GetProxyPort
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderNetworkConfig.GetProxyPort
 dev_langs:

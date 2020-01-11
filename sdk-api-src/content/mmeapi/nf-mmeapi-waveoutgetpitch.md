@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: e4adcf3d-2d9a-4cf3-81bc-3d109c90663f
 ms.date: 12/05/2018
 ms.keywords: _win32_waveOutGetPitch, mmeapi/waveOutGetPitch, multimedia.waveoutgetpitch, waveOutGetPitch, waveOutGetPitch function [Windows Multimedia]
-ms.topic: function
 f1_keywords:
 - mmeapi/waveOutGetPitch
 dev_langs:

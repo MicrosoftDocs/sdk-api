@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: ce848ba1-86b4-44cc-8f41-8b8eaba20521
 ms.date: 12/05/2018
 ms.keywords: EnableMcn, EnableMcn method [IMAPI], EnableMcn method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],EnableMcn method, IDiscRecorder2.EnableMcn, IDiscRecorder2::EnableMcn, imapi.idiscrecorder2_enablemcn, imapi2/IDiscRecorder2::EnableMcn
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscRecorder2.EnableMcn
 dev_langs:

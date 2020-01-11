@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: c656115a-a0d4-4860-9756-98df84c1672f
 ms.date: 12/05/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],RuleFlags property, IFsrmRule.RuleFlags, IFsrmRule.put_RuleFlags, IFsrmRule::RuleFlags, IFsrmRule::get_RuleFlags, IFsrmRule::put_RuleFlags, RuleFlags property [File Server Resource Manager], RuleFlags property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_ruleflags, fsrm.ifsrmrule_ruleflags, fsrmpipeline/IFsrmRule::RuleFlags, fsrmpipeline/IFsrmRule::get_RuleFlags, fsrmpipeline/IFsrmRule::put_RuleFlags, put_RuleFlags
-ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmRule.RuleFlags
 dev_langs:

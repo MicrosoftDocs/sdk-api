@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: b0894d3f-13d1-4f71-9171-592640d70969
 ms.date: 12/05/2018
 ms.keywords: IFolderActionCollection interface [PLA],Remove method, IFolderActionCollection.Remove, IFolderActionCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],IFolderActionCollection interface, base.ifolderactioncollection_remove, pla.ifolderactioncollection_remove, pla/IFolderActionCollection::Remove
-ms.topic: method
 f1_keywords:
 - pla/IFolderActionCollection.Remove
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 29fa3266-a0a7-4e17-bf15-35a454f78b12
 ms.date: 12/05/2018
 ms.keywords: DhcpPktDropHook, DhcpPktSendHook, LPDHCP_DROP_SEND, LPDHCP_DROP_SEND callback, LPDHCP_DROP_SEND callback function [DHCP], _dhcp_dhcppktdrophook, dhcp.dhcppktdrophook, dhcpssdk/LPDHCP_DROP_SEND
-ms.topic: callback
 f1_keywords:
 - dhcpssdk/LPDHCP_DROP_SEND
 dev_langs:

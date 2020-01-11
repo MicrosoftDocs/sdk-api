@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: a1daedfd-55f6-418e-b71f-8334cb628d98
 ms.date: 12/05/2018
 ms.keywords: '*PPDH_STATISTICS, PDH_STATISTICS, PDH_STATISTICS structure [Perf], PPDH_STATISTICS, PPDH_STATISTICS structure pointer [Perf], _win32_pdh_statistics_str, base.pdh_statistics_str, pdh/PDH_STATISTICS, pdh/PPDH_STATISTICS, perf.pdh_statistics_str'
-ms.topic: struct
 f1_keywords:
 - pdh/PDH_STATISTICS
 dev_langs:

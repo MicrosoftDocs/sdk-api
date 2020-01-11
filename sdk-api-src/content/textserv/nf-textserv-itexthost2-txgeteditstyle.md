@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 8C5468C9-D152-4F57-9E8A-23B4852BFD69
 ms.date: 12/05/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxGetEditStyle method, ITextHost2.TxGetEditStyle, ITextHost2::TxGetEditStyle, TXES_ISDIALOG, TxGetEditStyle, TxGetEditStyle method [Windows Controls], TxGetEditStyle method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgeteditstyle, textserv/ITextHost2::TxGetEditStyle
-ms.topic: method
 f1_keywords:
 - textserv/ITextHost2.TxGetEditStyle
 dev_langs:

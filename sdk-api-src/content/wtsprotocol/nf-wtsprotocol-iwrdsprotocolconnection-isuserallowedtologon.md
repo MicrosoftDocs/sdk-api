@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 4e2c5d2b-ec45-45ea-8bd3-71aaa0b15529
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],IsUserAllowedToLogon method, IWRdsProtocolConnection.IsUserAllowedToLogon, IWRdsProtocolConnection::IsUserAllowedToLogon, IsUserAllowedToLogon, IsUserAllowedToLogon method [Remote Desktop Services], IsUserAllowedToLogon method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_isuserallowedtologon, wtsprotocol/IWRdsProtocolConnection::IsUserAllowedToLogon
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWRdsProtocolConnection.IsUserAllowedToLogon
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 79cd9499-03b7-4482-abd3-a42edd1b2b67
 ms.date: 12/05/2018
 ms.keywords: PathCchRenameExtension, PathCchRenameExtension function [Windows Shell], pathcch/PathCchRenameExtension, shell.PathCchRenameExtension
-ms.topic: function
 f1_keywords:
 - pathcch/PathCchRenameExtension
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 8A8017E5-AB55-4660-855B-D6F93F69CB52
 ms.date: 12/05/2018
 ms.keywords: ID3D12CommandQueue interface,UpdateTileMappings method, ID3D12CommandQueue.UpdateTileMappings, ID3D12CommandQueue::UpdateTileMappings, UpdateTileMappings, UpdateTileMappings method, UpdateTileMappings method,ID3D12CommandQueue interface, d3d12/ID3D12CommandQueue::UpdateTileMappings, direct3d12.id3d12commandqueue_updatetilemappings
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12CommandQueue.UpdateTileMappings
 dev_langs:

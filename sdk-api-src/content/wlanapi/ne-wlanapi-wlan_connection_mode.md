@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: d62e863f-2aa8-49b1-9e27-8d9d053026f0
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_CONNECTION_MODE, PWLAN_CONNECTION_MODE, PWLAN_CONNECTION_MODE enumeration pointer [NativeWIFI], WLAN_CONNECTION_MODE, WLAN_CONNECTION_MODE enumeration [NativeWIFI], nwifi.wlan_connection_mode, wlan_connection_mode_auto, wlan_connection_mode_discovery_secure, wlan_connection_mode_discovery_unsecure, wlan_connection_mode_invalid, wlan_connection_mode_profile, wlan_connection_mode_temporary_profile, wlanapi/PWLAN_CONNECTION_MODE, wlanapi/WLAN_CONNECTION_MODE, wlanapi/wlan_connection_mode_auto, wlanapi/wlan_connection_mode_discovery_secure, wlanapi/wlan_connection_mode_discovery_unsecure, wlanapi/wlan_connection_mode_invalid, wlanapi/wlan_connection_mode_profile, wlanapi/wlan_connection_mode_temporary_profile'
-ms.topic: enum
 f1_keywords:
 - wlanapi/WLAN_CONNECTION_MODE
 dev_langs:

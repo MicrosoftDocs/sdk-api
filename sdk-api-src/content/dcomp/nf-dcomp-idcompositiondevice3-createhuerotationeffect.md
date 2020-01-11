@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 4DA99723-CC21-454B-A24A-3988A15861D2
 ms.date: 12/05/2018
 ms.keywords: CreateHueRotationEffect, CreateHueRotationEffect method [DirectComposition], CreateHueRotationEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateHueRotationEffect method, IDCompositionDevice3.CreateHueRotationEffect, IDCompositionDevice3::CreateHueRotationEffect, dcomp/IDCompositionDevice3::CreateHueRotationEffect, directcomp.idcompositiondevice3_createhuerotationeffect
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionDevice3.CreateHueRotationEffect
 dev_langs:

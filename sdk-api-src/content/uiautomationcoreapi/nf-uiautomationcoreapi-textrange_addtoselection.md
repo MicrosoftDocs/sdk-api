@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: a9e832ea-5761-4c5d-839e-9d4db2c551c2
 ms.date: 12/05/2018
 ms.keywords: TextRange_AddToSelection, TextRange_AddToSelection function [Windows Accessibility], uiauto.uiauto_TextRange_AddToSelectionConPat, uiauto_TextRange_AddToSelectionConPat, uiautomationcoreapi/TextRange_AddToSelection, winauto.uiauto_TextRange_AddToSelectionConPat
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/TextRange_AddToSelection
 dev_langs:

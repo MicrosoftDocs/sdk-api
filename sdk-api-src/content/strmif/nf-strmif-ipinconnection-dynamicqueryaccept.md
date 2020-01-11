@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 86a4f18c-4bd0-45d2-bb5a-b0f41cd0ab43
 ms.date: 12/05/2018
 ms.keywords: DynamicQueryAccept, DynamicQueryAccept method [DirectShow], DynamicQueryAccept method [DirectShow],IPinConnection interface, IPinConnection interface [DirectShow],DynamicQueryAccept method, IPinConnection.DynamicQueryAccept, IPinConnection::DynamicQueryAccept, IPinConnectionDynamicQueryAccept, dshow.ipinconnection_dynamicqueryaccept, strmif/IPinConnection::DynamicQueryAccept
-ms.topic: method
 f1_keywords:
 - strmif/IPinConnection.DynamicQueryAccept
 dev_langs:

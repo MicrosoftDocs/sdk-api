@@ -7,7 +7,6 @@ tech.root: WinSAT
 ms.assetid: dfa4d740-2dfd-41b5-a0be-a241f9ece939
 ms.date: 12/05/2018
 ms.keywords: GetAssessmentInfo, GetAssessmentInfo method [WinSAT], GetAssessmentInfo method [WinSAT],IProvideWinSATResultsInfo interface, IProvideWinSATResultsInfo interface [WinSAT],GetAssessmentInfo method, IProvideWinSATResultsInfo.GetAssessmentInfo, IProvideWinSATResultsInfo::GetAssessmentInfo, winsat.iprovidewinsatresultsinfo_getassessmentinfo, winsatcominterfacei/IProvideWinSATResultsInfo::GetAssessmentInfo
-ms.topic: method
 f1_keywords:
 - winsatcominterfacei/IProvideWinSATResultsInfo.GetAssessmentInfo
 dev_langs:

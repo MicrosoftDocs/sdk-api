@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: a3e2f0f8-7e06-43fd-94c2-da54ea5a761b
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbAudioComponentDescriptor.GetLength, IIsdbAudioComponentDescriptor::GetLength, dvbsiparser/IIsdbAudioComponentDescriptor::GetLength, mstv.iisdbaudiocomponentdescriptor_getlength
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbAudioComponentDescriptor.GetLength
 dev_langs:

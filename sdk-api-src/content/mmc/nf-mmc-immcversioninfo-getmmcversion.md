@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 64b8cdfe-e65e-48c6-bc7a-2349140867a4
 ms.date: 12/05/2018
 ms.keywords: GetMMCVersion, GetMMCVersion method [MMC], GetMMCVersion method [MMC],IMMCVersionInfo interface, IMMCVersionInfo interface [MMC],GetMMCVersion method, IMMCVersionInfo.GetMMCVersion, IMMCVersionInfo::GetMMCVersion, _slate_immcversioninfo_getmmcversion, mmc.immcversioninfo_getmmcversion, mmc/IMMCVersionInfo::GetMMCVersion
-ms.topic: method
 f1_keywords:
 - mmc/IMMCVersionInfo.GetMMCVersion
 dev_langs:

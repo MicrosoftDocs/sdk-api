@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 0AB546AC-F7AB-4C48-AA10-3DD2FF11B853
 ms.date: 12/05/2018
 ms.keywords: AddSegments, AddSegments method [Direct2D], AddSegments method [Direct2D],ID2D1Ink interface, ID2D1Ink interface [Direct2D],AddSegments method, ID2D1Ink.AddSegments, ID2D1Ink::AddSegments, d2d1_3/ID2D1Ink::AddSegments, direct2d.id2d1ink_addsegments
-ms.topic: method
 f1_keywords:
 - d2d1_3/ID2D1Ink.AddSegments
 dev_langs:

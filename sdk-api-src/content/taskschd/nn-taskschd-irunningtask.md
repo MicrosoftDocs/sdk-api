@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 71a06a8f-8628-415d-b002-977c0d27f9a4
 ms.date: 12/05/2018
 ms.keywords: IRunningTask, IRunningTask interface [Task Scheduler], IRunningTask interface [Task Scheduler],described, taskschd.irunningtask, taskschd/IRunningTask
-ms.topic: interface
 f1_keywords:
 - taskschd/IRunningTask
 dev_langs:

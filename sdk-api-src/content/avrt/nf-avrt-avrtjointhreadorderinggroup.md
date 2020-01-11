@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 76e70f91-750e-49c8-8ddf-e8eddd150aa4
 ms.date: 12/05/2018
 ms.keywords: AvRtJoinThreadOrderingGroup, AvRtJoinThreadOrderingGroup function, avrt/AvRtJoinThreadOrderingGroup, base.avrtjointhreadorderinggroup
-ms.topic: function
 f1_keywords:
 - avrt/AvRtJoinThreadOrderingGroup
 dev_langs:

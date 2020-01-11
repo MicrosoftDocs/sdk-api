@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: cba9a9e8-2397-4c78-925f-ee5d817d1ee4
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerOpenContentInformationEx, PeerDistServerOpenContentInformationEx function [Peer Networking], p2p.peerdistserveropencontentinformationex, peerdist/PeerDistServerOpenContentInformationEx
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistServerOpenContentInformationEx
 dev_langs:

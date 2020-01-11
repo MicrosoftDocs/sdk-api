@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 73b88019-f74b-4345-95f3-9f924c999b8a
 ms.date: 12/05/2018
 ms.keywords: GetCch, GetCch method [Windows Controls], GetCch method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],GetCch method, ITextStrings.GetCch, ITextStrings::GetCch, controls.itextstrings_getcch, tom/ITextStrings::GetCch
-ms.topic: method
 f1_keywords:
 - tom/ITextStrings.GetCch
 dev_langs:

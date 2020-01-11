@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectSink interface [Windows Management Instrumentation],SetStatus method, IWbemObjectSink.SetStatus, IWbemObjectSink::SetStatus, IWbemObjectSinkEx interface [Windows Management Instrumentation],SetStatus method, IWbemObjectSinkEx::SetStatus, SetStatus, SetStatus method [Windows Management Instrumentation], SetStatus method [Windows Management Instrumentation],IWbemObjectSink interface, SetStatus method [Windows Management Instrumentation],IWbemObjectSinkEx interface, WBEM_STATUS_COMPLETE, WBEM_STATUS_PROGRESS, WBEM_STATUS_REQUIREMENTS, _hmm_iwbemobjectsink_setstatus, wbemcli/IWbemObjectSink::SetStatus, wbemcli/IWbemObjectSinkEx::SetStatus, wmi.iwbemobjectsink_setstatus
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemObjectSink.SetStatus
 dev_langs:

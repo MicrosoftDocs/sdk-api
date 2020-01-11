@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: dc5df8d8-4998-4a4e-814b-f3119a156e14
 ms.date: 12/05/2018
 ms.keywords: FileId property [File Server Resource Manager], FileId property [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],FileId property, IFsrmPropertyBag.FileId, IFsrmPropertyBag.get_FileId, IFsrmPropertyBag::FileId, IFsrmPropertyBag::get_FileId, fs.ifsrmpropertybag_fileid, fsrm.ifsrmpropertybag_fileid, fsrmpipeline/IFsrmPropertyBag::FileId, fsrmpipeline/IFsrmPropertyBag::get_FileId, get_FileId
-ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmPropertyBag.FileId
 dev_langs:

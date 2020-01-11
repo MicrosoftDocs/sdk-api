@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: dc5423c7-4f21-4941-adda-6f4665e86210
 ms.date: 12/05/2018
 ms.keywords: End, End method [Windows Multimedia], End method [Windows Multimedia],IGetFrame interface, IGetFrame interface [Windows Multimedia],End method, IGetFrame.End, IGetFrame::End, _win32_IGetFrame_End, multimedia.igetframe_end, vfw/IGetFrame::End
-ms.topic: method
 f1_keywords:
 - vfw/IGetFrame.End
 dev_langs:

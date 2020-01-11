@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 3c75ed75-a0b2-435b-aa49-c1e7dadf260f
 ms.date: 12/05/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],RegisterWaitEvent method, CMSPCallMultiGraph.RegisterWaitEvent, CMSPCallMultiGraph::RegisterWaitEvent, RegisterWaitEvent, RegisterWaitEvent method [TAPI 2.2], RegisterWaitEvent method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_registerwaitevent, mspcall/CMSPCallMultiGraph::RegisterWaitEvent, tapi3.cmspcallmultigraph_registerwaitevent
-ms.topic: method
 f1_keywords:
 - mspcall/CMSPCallMultiGraph.RegisterWaitEvent
 dev_langs:

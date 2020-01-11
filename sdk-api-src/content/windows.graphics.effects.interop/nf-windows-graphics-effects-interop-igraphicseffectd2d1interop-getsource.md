@@ -7,7 +7,6 @@ tech.root: w_graph_fx
 ms.assetid: C4A212ED-EE68-40D7-B6E0-977F748942BB
 ms.date: 12/05/2018
 ms.keywords: GetSource, GetSource method, GetSource method,IGraphicsEffectD2D1Interop interface, IGraphicsEffectD2D1Interop interface,GetSource method, IGraphicsEffectD2D1Interop.GetSource, IGraphicsEffectD2D1Interop.effects, IGraphicsEffectD2D1Interop::GetSource, IGraphicsEffectD2D1Interop::effects, w_graph_fx.igraphicseffectd2d1interop_getsource, windows/IGraphicsEffectD2D1Interop::GetSource
-ms.topic: method
 f1_keywords:
 - windows.graphics.effects.interop/IGraphicsEffectD2D1Interop.GetSource
 dev_langs:

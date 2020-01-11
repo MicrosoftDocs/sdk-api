@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: a80c2cd3-291d-4646-9dba-20a42e78dee5
 ms.date: 12/05/2018
 ms.keywords: DhcpServerCalloutEntry, LPDHCP_ENTRY_POINT_FUNC, LPDHCP_ENTRY_POINT_FUNC callback, LPDHCP_ENTRY_POINT_FUNC callback function [DHCP], _dhcp_dhcpservercalloutentry, dhcp.dhcpservercalloutentry, dhcpssdk/LPDHCP_ENTRY_POINT_FUNC
-ms.topic: callback
 f1_keywords:
 - dhcpssdk/LPDHCP_ENTRY_POINT_FUNC
 dev_langs:

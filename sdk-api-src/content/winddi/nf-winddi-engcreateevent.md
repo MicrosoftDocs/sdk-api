@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 0fe4c840-ba85-492c-ac3d-b7c8639d1210
 ms.date: 12/05/2018
 ms.keywords: EngCreateEvent, EngCreateEvent function [Display Devices], display.engcreateevent, gdifncs_d8f6efc2-d0a2-4790-88c5-16e4487e2ce2.xml, winddi/EngCreateEvent
-ms.topic: function
 f1_keywords:
 - winddi/EngCreateEvent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8edb99d3-5860-4d78-a750-1df34cdfc313
 ms.date: 12/05/2018
 ms.keywords: IQueryAssociations, IQueryAssociations interface [Windows Shell], IQueryAssociations interface [Windows Shell],described, _win32_IQueryAssociations, shell.IQueryAssociations, shlwapi/IQueryAssociations
-ms.topic: interface
 f1_keywords:
 - shlwapi/IQueryAssociations
 dev_langs:

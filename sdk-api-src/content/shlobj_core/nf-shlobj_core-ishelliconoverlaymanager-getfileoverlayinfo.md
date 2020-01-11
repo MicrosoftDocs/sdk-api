@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0dd918a4-64c7-4d7a-846c-0751e23c05a2
 ms.date: 12/05/2018
 ms.keywords: GetFileOverlayInfo, GetFileOverlayInfo method [Windows Shell], GetFileOverlayInfo method [Windows Shell],IShellIconOverlayManager interface, IShellIconOverlayManager interface [Windows Shell],GetFileOverlayInfo method, IShellIconOverlayManager.GetFileOverlayInfo, IShellIconOverlayManager::GetFileOverlayInfo, _win32_IShellIconOverlayManager_GetFileOverlayInfo, shell.IShellIconOverlayManager_GetFileOverlayInfo, shlobj_core/IShellIconOverlayManager::GetFileOverlayInfo
-ms.topic: method
 f1_keywords:
 - shlobj_core/IShellIconOverlayManager.GetFileOverlayInfo
 dev_langs:

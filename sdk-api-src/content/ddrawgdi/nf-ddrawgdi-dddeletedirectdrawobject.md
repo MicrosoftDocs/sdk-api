@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dddeletedirectdrawobject.htm
 ms.date: 12/05/2018
 ms.keywords: DdDeleteDirectDrawObject, DdDeleteDirectDrawObject function [Windows API], GdiEntry3, _dxgkernel_dddeletedirectdrawobject, ddrawgdi/DdDeleteDirectDrawObject, ddrawgdi/GdiEntry3, winprog._dxgkernel_dddeletedirectdrawobject, winui._dxgkernel_dddeletedirectdrawobject
-ms.topic: function
 f1_keywords:
 - ddrawgdi/DdDeleteDirectDrawObject
 dev_langs:

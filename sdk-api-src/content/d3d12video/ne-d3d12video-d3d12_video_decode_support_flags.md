@@ -5,7 +5,6 @@ description: Specifies whether a video decoding operation is supported.
 tech.root: mf
 ms.assetid: af73b6a9-3d14-4242-b0b3-b1783ebf2c7b
 ms.date: 05/28/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_VIDEO_DECODE_SUPPORT_FLAGS
 dev_langs:

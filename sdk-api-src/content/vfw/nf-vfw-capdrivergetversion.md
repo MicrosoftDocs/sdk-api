@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 35afaef2-dc83-4b72-92e5-2fb9a75e90ba
 ms.date: 12/05/2018
 ms.keywords: _win32_capDriverGetVersion, capDriverGetVersion, capDriverGetVersion macro [Windows Multimedia], multimedia.capdrivergetversion, vfw/capDriverGetVersion
-ms.topic: macro
 f1_keywords:
 - vfw/capDriverGetVersion
 dev_langs:

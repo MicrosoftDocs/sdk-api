@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: a8f746a4-650f-4f6d-8734-2e98f01898f2
 ms.date: 12/05/2018
 ms.keywords: GetOutputTransform, GetOutputTransform method [Direct Manipulation], GetOutputTransform method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetOutputTransform method, IDirectManipulationContent.GetOutputTransform, IDirectManipulationContent::GetOutputTransform, directmanipulation.idirectmanipulationcontent_getoutputtransform, directmanipulation/IDirectManipulationContent::GetOutputTransform
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationContent.GetOutputTransform
 dev_langs:

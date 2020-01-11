@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: bbd2c3c4-d2d0-4590-9b5c-6916b91600cd
 ms.date: 12/05/2018
 ms.keywords: HttpQueryServiceConfiguration, HttpQueryServiceConfiguration function [HTTP], HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigUrlAclInfo, _http_httpqueryserviceconfiguration, http.httpqueryserviceconfiguration, http/HttpQueryServiceConfiguration
-ms.topic: function
 f1_keywords:
 - http/HttpQueryServiceConfiguration
 dev_langs:

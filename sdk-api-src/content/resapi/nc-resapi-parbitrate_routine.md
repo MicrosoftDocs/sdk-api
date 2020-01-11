@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: dc16b785-bbb1-4917-a826-e49445a86c26
 ms.date: 12/05/2018
 ms.keywords: Arbitrate, Arbitrate callback, Arbitrate callback function [Failover Cluster], PARBITRATE_ROUTINE, PARBITRATE_ROUTINE callback function [Failover Cluster], _wolf_arbitrate, mscs.arbitrate, resapi/Arbitrate, resapi/PARBITRATE_ROUTINE
-ms.topic: callback
 f1_keywords:
 - resapi/Arbitrate
 dev_langs:

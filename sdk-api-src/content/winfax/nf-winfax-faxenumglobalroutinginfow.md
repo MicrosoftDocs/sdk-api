@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5zvz.htm
 ms.date: 12/05/2018
 ms.keywords: FaxEnumGlobalRoutingInfo, FaxEnumGlobalRoutingInfo function [Fax Service], FaxEnumGlobalRoutingInfoA, FaxEnumGlobalRoutingInfoW, _mfax_faxenumglobalroutinginfo, fax._mfax_faxenumglobalroutinginfo, winfax/FaxEnumGlobalRoutingInfo, winfax/FaxEnumGlobalRoutingInfoA, winfax/FaxEnumGlobalRoutingInfoW
-ms.topic: function
 f1_keywords:
 - winfax/FaxEnumGlobalRoutingInfo
 dev_langs:

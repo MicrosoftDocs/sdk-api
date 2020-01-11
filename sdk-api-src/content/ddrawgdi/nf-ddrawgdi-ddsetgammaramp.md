@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddsetgammaramp.htm
 ms.date: 12/05/2018
 ms.keywords: DdSetGammaRamp, DdSetGammaRamp function [Windows API], GdiEntry15, _dxgkernel_ddsetgammaramp, ddrawgdi/DdSetGammaRamp, ddrawgdi/GdiEntry15, winprog._dxgkernel_ddsetgammaramp, winui._dxgkernel_ddsetgammaramp
-ms.topic: function
 f1_keywords:
 - ddrawgdi/DdSetGammaRamp
 dev_langs:

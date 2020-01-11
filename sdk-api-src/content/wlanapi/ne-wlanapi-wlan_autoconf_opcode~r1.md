@@ -3,7 +3,6 @@ UID: NE:wlanapi._WLAN_AUTOCONF_OPCODE~r1
 title: WLAN_AUTOCONF_OPCODE
 ms.date: 01/30/19
 ms.keywords: _WLAN_AUTOCONF_OPCODE, WLAN_AUTOCONF_OPCODE
-ms.topic: language-reference
 f1_keywords:
 - wlanapi/_WLAN_AUTOCONF_OPCODE
 dev_langs:

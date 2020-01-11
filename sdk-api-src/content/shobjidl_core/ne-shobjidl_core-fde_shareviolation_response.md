@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 976965f5-7806-41de-b1d4-f5bb6dc4f79b
 ms.date: 12/05/2018
 ms.keywords: FDESVR_ACCEPT, FDESVR_DEFAULT, FDESVR_REFUSE, FDE_SHAREVIOLATION_RESPONSE, FDE_SHAREVIOLATION_RESPONSE enumeration [Windows Shell], shell.FDE_SHAREVIOLATION_RESPONSE, shell_FDE_SHAREVIOLATION_RESPONSE, shobjidl_core/FDESVR_ACCEPT, shobjidl_core/FDESVR_DEFAULT, shobjidl_core/FDESVR_REFUSE, shobjidl_core/FDE_SHAREVIOLATION_RESPONSE
-ms.topic: enum
 f1_keywords:
 - shobjidl_core/FDE_SHAREVIOLATION_RESPONSE
 dev_langs:

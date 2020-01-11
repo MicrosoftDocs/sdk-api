@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 40bb4b59-90a4-4780-ae5f-fef8a6fa62cb
 ms.date: 12/05/2018
 ms.keywords: '*LPRASTERIZER_STATUS, LPRASTERIZER_STATUS, LPRASTERIZER_STATUS structure pointer [Windows GDI], RASTERIZER_STATUS, RASTERIZER_STATUS structure [Windows GDI], _win32_RASTERIZER_STATUS_str, gdi.rasterizer_status, wingdi/LPRASTERIZER_STATUS, wingdi/RASTERIZER_STATUS'
-ms.topic: struct
 f1_keywords:
 - wingdi/RASTERIZER_STATUS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 101744ea-97bc-4f92-88b0-fcdf0e4aaf4e
 ms.date: 12/05/2018
 ms.keywords: CreateDxgiSurfaceRenderTarget, CreateDxgiSurfaceRenderTarget methods [Direct2D], ID2D1Factory.CreateDxgiSurfaceRenderTarget, ID2D1Factory::CreateDxgiSurfaceRenderTarget, d2d1/CreateDxgiSurfaceRenderTarget, direct2d.id2d1factory_createdxgisurfacerendertarget
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1Factory::CreateDxgiSurfaceRenderTarget
 dev_langs:

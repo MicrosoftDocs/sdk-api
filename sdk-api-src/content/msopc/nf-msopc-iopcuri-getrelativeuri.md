@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: ce98b0a6-f4b3-4f49-897a-f144af7dfc49
 ms.date: 12/05/2018
 ms.keywords: GetRelativeUri, GetRelativeUri method [Open Packaging Conventions], GetRelativeUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],GetRelativeUri method, IOpcUri.GetRelativeUri, IOpcUri::GetRelativeUri, msopc/IOpcUri::GetRelativeUri, opc.iopcuri_getrelativeuri
-ms.topic: method
 f1_keywords:
 - msopc/IOpcUri.GetRelativeUri
 dev_langs:

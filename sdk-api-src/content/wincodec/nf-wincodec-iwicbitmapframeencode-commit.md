@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 6321fb9e-9ea8-423c-a332-9daa589af6f7
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Windows Imaging Component], Commit method [Windows Imaging Component],IWICBitmapFrameEncode interface, IWICBitmapFrameEncode interface [Windows Imaging Component],Commit method, IWICBitmapFrameEncode.Commit, IWICBitmapFrameEncode::Commit, _wic_codec_iwicbitmapframeencode_commit, wic._wic_codec_iwicbitmapframeencode_commit, wincodec/IWICBitmapFrameEncode::Commit
-ms.topic: method
 f1_keywords:
 - wincodec/IWICBitmapFrameEncode.Commit
 dev_langs:

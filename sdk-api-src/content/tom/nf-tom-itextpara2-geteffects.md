@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 7f672cc9-e8f3-416a-8f41-9b71ca1858a1
 ms.date: 12/05/2018
 ms.keywords: GetEffects, GetEffects method [Windows Controls], GetEffects method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetEffects method, ITextPara2.GetEffects, ITextPara2::GetEffects, controls.itextpara2_geteffects, tom/ITextPara2::GetEffects, tomParaEffectBox, tomParaEffectCollapsed, tomParaEffectDoNotHyphen, tomParaEffectKeep, tomParaEffectKeepNext, tomParaEffectNoLineNumber, tomParaEffectNoWidowControl, tomParaEffectOutlineLevel, tomParaEffectPageBreakBefore, tomParaEffectRTL, tomParaEffectSideBySide, tomParaEffectTable, tomParaEffectTableRowDelimiter
-ms.topic: method
 f1_keywords:
 - tom/ITextPara2.GetEffects
 dev_langs:

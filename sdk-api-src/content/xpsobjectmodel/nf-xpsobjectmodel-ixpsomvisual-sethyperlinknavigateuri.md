@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 6909d287-67c8-4f01-8523-6011932d1d34
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetHyperlinkNavigateUri method, IXpsOMVisual.SetHyperlinkNavigateUri, IXpsOMVisual::SetHyperlinkNavigateUri, SetHyperlinkNavigateUri, SetHyperlinkNavigateUri method [XPS Documents and Packaging], SetHyperlinkNavigateUri method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_sethyperlinknavigateuri, xpsobjectmodel/IXpsOMVisual::SetHyperlinkNavigateUri
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.SetHyperlinkNavigateUri
 dev_langs:

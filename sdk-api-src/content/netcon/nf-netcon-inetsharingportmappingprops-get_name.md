@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 0f2b4d49-a13d-49e1-96d0-276afe4208b2
 ms.date: 12/05/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_Name method, INetSharingPortMappingProps.get_Name, INetSharingPortMappingProps::get_Name, _ics_inetsharingportmappingprops_get_name, get_Name, get_Name method [ICS/ICF], get_Name method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_name, netcon/INetSharingPortMappingProps::get_Name
-ms.topic: method
 f1_keywords:
 - netcon/INetSharingPortMappingProps.get_Name
 dev_langs:

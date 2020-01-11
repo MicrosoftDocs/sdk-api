@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: 62e32f36-cbb2-4557-9773-8bd454870d55
 ms.date: 12/05/2018
 ms.keywords: GetManagedApplications, GetManagedApplications function [Group Policy], MANAGED_APPS_FROMCATEGORY, MANAGED_APPS_USERAPPLICATIONS, appmgmt/GetManagedApplications, policy.getmanagedapplications
-ms.topic: function
 f1_keywords:
 - appmgmt/GetManagedApplications
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 91d2d08b-a55e-492f-a509-9c080cc438df
 ms.date: 12/05/2018
 ms.keywords: MP_PARAMINFO, MP_PARAMINFO structure [DirectShow], MP_PARAMINFOStructure, dshow.mp_paraminfo, medparam/MP_PARAMINFO
-ms.topic: struct
 f1_keywords:
 - medparam/MP_PARAMINFO
 dev_langs:

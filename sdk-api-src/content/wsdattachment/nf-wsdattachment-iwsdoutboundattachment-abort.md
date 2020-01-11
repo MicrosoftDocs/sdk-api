@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: add0160c-bbf7-446e-8592-a05fd4d16fac
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method, Abort method,IWSDOutboundAttachment interface, IWSDOutboundAttachment interface,Abort method, IWSDOutboundAttachment.Abort, IWSDOutboundAttachment::Abort, ncd.iwsdoutboundattachment_abort, wsdattachment/IWSDOutboundAttachment::Abort
-ms.topic: method
 f1_keywords:
 - wsdattachment/IWSDOutboundAttachment.Abort
 dev_langs:

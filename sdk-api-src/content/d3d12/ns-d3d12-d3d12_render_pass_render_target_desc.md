@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: C319081F-290E-4031-AE0C-F97D82ED4178
 ms.date: 12/05/2018
 ms.keywords: D3D12_RENDER_PASS_RENDER_TARGET_DESC, D3D12_RENDER_PASS_RENDER_TARGET_DESC structure, d3d12/D3D12_RENDER_PASS_RENDER_TARGET_DESC, direct3d12.d3d12_render_pass_render_target_desc
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_RENDER_PASS_RENDER_TARGET_DESC
 dev_langs:

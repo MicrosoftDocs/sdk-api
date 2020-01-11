@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 158a6688-949b-4075-a790-fd6efb88792c
 ms.date: 12/05/2018
 ms.keywords: IRunnableTask, IRunnableTask interface [Windows Shell], IRunnableTask interface [Windows Shell],described, _win32_IRunnableTask, shell.IRunnableTask, shobjidl_core/IRunnableTask
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IRunnableTask
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: d110e30d-046e-45f3-b326-72160a69c17d
 ms.date: 12/05/2018
 ms.keywords: ClusterGetVolumeNameForVolumeMountPoint, ClusterGetVolumeNameForVolumeMountPoint function [Failover Cluster], PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT, PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT function [Failover Cluster], mscs.clustergetvolumenameforvolumemountpoint, resapi/ClusterGetVolumeNameForVolumeMountPoint, resapi/PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT
-ms.topic: function
 f1_keywords:
 - resapi/ClusterGetVolumeNameForVolumeMountPoint
 dev_langs:

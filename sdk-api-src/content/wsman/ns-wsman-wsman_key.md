@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: dbd66ad3-3816-43a3-a8e4-403ff3847da0
 ms.date: 12/05/2018
 ms.keywords: WSMAN_KEY, WSMAN_KEY structure [Windows Remote Management], winrm.wsman_key, wsman/WSMAN_KEY
-ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_KEY
 dev_langs:

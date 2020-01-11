@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 9013bf34-64bd-4621-af40-f979065c8cbd
 ms.date: 12/05/2018
 ms.keywords: EngHangNotification, EngHangNotification function [Display Devices], display.enghangnotification, gdifncs_ca454eea-7e11-4af6-a717-818f52f9fc59.xml, winddi/EngHangNotification
-ms.topic: function
 f1_keywords:
 - winddi/EngHangNotification
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: fa5028f6-80eb-4076-a81c-c83b462fc27c
 ms.date: 12/05/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],StopSubStream method, ITSubStream.StopSubStream, ITSubStream::StopSubStream, StopSubStream, StopSubStream method [TAPI 2.2], StopSubStream method [TAPI 2.2],ITSubStream interface, _tapi3_itsubstream_stopsubstream, tapi3.itsubstream_stopsubstream, tapi3if/ITSubStream::StopSubStream
-ms.topic: method
 f1_keywords:
 - tapi3if/ITSubStream.StopSubStream
 dev_langs:

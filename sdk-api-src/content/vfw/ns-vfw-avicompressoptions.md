@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 8084adc3-792f-4a6c-b407-51e0e435e629
 ms.date: 12/05/2018
 ms.keywords: '*LPAVICOMPRESSOPTIONS, AVICOMPRESSF_DATARATE, AVICOMPRESSF_INTERLEAVE, AVICOMPRESSF_KEYFRAMES, AVICOMPRESSF_VALID, AVICOMPRESSOPTIONS, AVICOMPRESSOPTIONS structure [Windows Multimedia], _win32_AVICOMPRESSOPTIONS_str, multimedia.avicompressoptions, streamtypeAUDIO, streamtypeMIDI, streamtypeTEXT, streamtypeVIDEO, vfw/AVICOMPRESSOPTIONS'
-ms.topic: struct
 f1_keywords:
 - vfw/AVICOMPRESSOPTIONS
 dev_langs:

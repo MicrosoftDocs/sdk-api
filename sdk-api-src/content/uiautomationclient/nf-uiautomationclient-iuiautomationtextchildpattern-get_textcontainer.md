@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 67E1F709-DF8E-4B79-A6B0-1466D27FD437
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextChildPattern interface [Windows Accessibility],TextContainer property, IUIAutomationTextChildPattern.TextContainer, IUIAutomationTextChildPattern.get_TextContainer, IUIAutomationTextChildPattern::TextContainer, IUIAutomationTextChildPattern::get_TextContainer, TextContainer property [Windows Accessibility], TextContainer property [Windows Accessibility],IUIAutomationTextChildPattern interface, get_TextContainer, uiautomationclient/IUIAutomationTextChildPattern::TextContainer, uiautomationclient/IUIAutomationTextChildPattern::get_TextContainer, winauto.uiauto_IUIAutomationTextChildPattern_TextContainer
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationTextChildPattern.TextContainer
 dev_langs:

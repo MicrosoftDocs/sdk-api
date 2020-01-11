@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 525303cc-052b-4895-92a6-cfb5985b31d2
 ms.date: 12/05/2018
 ms.keywords: CreateSingleArray, CreateSingleArray method [Windows Runtime], CreateSingleArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateSingleArray method, IPropertyValueStatics.CreateSingleArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateSingleArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateSingleArray, winrt.ipropertyvaluefactory_createsinglearray, winrt.ipropertyvaluestatics_createsinglearray
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValueStatics.CreateSingleArray
 dev_langs:

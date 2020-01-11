@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 11ada9ab-b55f-41c1-9d7d-1c856a17a3a9
 ms.date: 12/05/2018
 ms.keywords: GetRawNatureOfActivationText, GetRawNatureOfActivationText method [Microsoft TV Technologies], GetRawNatureOfActivationText method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetRawNatureOfActivationText method, ISCTE_EAS.GetRawNatureOfActivationText, ISCTE_EAS::GetRawNatureOfActivationText, atscpsipparser/ISCTE_EAS::GetRawNatureOfActivationText, mstv.iscte_eas_getrawnatureofactivationtext
-ms.topic: method
 f1_keywords:
 - atscpsipparser/ISCTE_EAS.GetRawNatureOfActivationText
 dev_langs:

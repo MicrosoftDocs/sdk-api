@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 673c9d23-e380-49f7-bd06-23552634d5b9
 ms.date: 12/05/2018
 ms.keywords: ASYNC_COMPLETION, ASYNC_COMPLETION callback, CompletionProc, CompletionProc callback function [TAPI 2.2], _tspi_async_completion, tspi.async_completion, tspi.completion_proc, tspi/CompletionProc
-ms.topic: callback
 f1_keywords:
 - tspi/CompletionProc
 dev_langs:

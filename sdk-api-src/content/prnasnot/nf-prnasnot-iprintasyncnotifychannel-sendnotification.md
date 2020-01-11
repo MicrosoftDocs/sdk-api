@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 729286d4-75ee-441e-b63d-fef72d41533a
 ms.date: 12/05/2018
 ms.keywords: IPrintAsyncNotifyChannel interface [Windows GDI],SendNotification method, IPrintAsyncNotifyChannel.SendNotification, IPrintAsyncNotifyChannel::SendNotification, SendNotification, SendNotification method [Windows GDI], SendNotification method [Windows GDI],IPrintAsyncNotifyChannel interface, _win32_IPrintAsyncNotifyChannel_SendNotification, gdi.iprintasyncnotifychannel_iprintasyncnotifychannel__sendnotification, prnasnot/IPrintAsyncNotifyChannel::SendNotification
-ms.topic: method
 f1_keywords:
 - prnasnot/IPrintAsyncNotifyChannel.SendNotification
 dev_langs:

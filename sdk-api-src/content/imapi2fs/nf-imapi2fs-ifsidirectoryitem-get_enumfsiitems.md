@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 723f28ad-f77d-494f-9ae6-ba6120675cfd
 ms.date: 12/05/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],get_EnumFsiItems method, IFsiDirectoryItem.get_EnumFsiItems, IFsiDirectoryItem::get_EnumFsiItems, get_EnumFsiItems, get_EnumFsiItems method [IMAPI], get_EnumFsiItems method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_get_enumfsiitems, imapi2fs/IFsiDirectoryItem::get_EnumFsiItems
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFsiDirectoryItem.get_EnumFsiItems
 dev_langs:

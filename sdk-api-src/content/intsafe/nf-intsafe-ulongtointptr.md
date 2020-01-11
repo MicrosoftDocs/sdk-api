@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0d7cd4f0-03fd-43a2-b3e9-10441f65bf78
 ms.date: 12/05/2018
 ms.keywords: DWordToIntPtr, DWordToPtrdiffT, ULongToIntPtr, ULongToIntPtr function [Windows Shell], ULongToPtrdiffT, _shell_ULongToIntPtr, intsafe/ULongToIntPtr, shell.ULongToIntPtr
-ms.topic: function
 f1_keywords:
 - intsafe/ULongToIntPtr
 dev_langs:

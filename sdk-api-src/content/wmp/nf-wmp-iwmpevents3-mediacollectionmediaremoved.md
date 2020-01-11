@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: c142a5ab-deed-41d0-8ddd-1d2f8a7b9d69
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents3 interface [Windows Media Player],MediaCollectionMediaRemoved method, IWMPEvents3.MediaCollectionMediaRemoved, IWMPEvents3::MediaCollectionMediaRemoved, IWMPEvents3MediaCollectionMediaRemoved, MediaCollectionMediaRemoved, MediaCollectionMediaRemoved method [Windows Media Player], MediaCollectionMediaRemoved method [Windows Media Player],IWMPEvents3 interface, wmp.iwmpevents3_iwmpevents3__mediacollectionmediaremoved, wmp/IWMPEvents3::MediaCollectionMediaRemoved
-ms.topic: method
 f1_keywords:
 - wmp/IWMPEvents3.MediaCollectionMediaRemoved
 dev_langs:

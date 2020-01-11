@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 4f266740-e33a-4dc1-8ade-720308bb82fe
 ms.date: 12/05/2018
 ms.keywords: IUnknown_QueryInterface_Proxy, IUnknown_QueryInterface_Proxy function [RPC], rpc.iunknown_queryinterface_proxy, unknwnbase/IUnknown_QueryInterface_Proxy
-ms.topic: function
 f1_keywords:
 - unknwnbase/IUnknown_QueryInterface_Proxy
 dev_langs:

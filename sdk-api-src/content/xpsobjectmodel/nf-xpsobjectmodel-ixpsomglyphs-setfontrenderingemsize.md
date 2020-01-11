@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 9863caa0-9f43-45f7-9bed-c5b7187491de
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFontRenderingEmSize method, IXpsOMGlyphs.SetFontRenderingEmSize, IXpsOMGlyphs::SetFontRenderingEmSize, SetFontRenderingEmSize, SetFontRenderingEmSize method [XPS Documents and Packaging], SetFontRenderingEmSize method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setfontrenderingemsize, xpsobjectmodel/IXpsOMGlyphs::SetFontRenderingEmSize
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphs.SetFontRenderingEmSize
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 73b60861-3d73-4bff-ae46-a7683d708c83
 ms.date: 12/05/2018
 ms.keywords: GetViewFlags, GetViewFlags method [Windows Properties], GetViewFlags method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetViewFlags method, IPropertyDescription.GetViewFlags, IPropertyDescription::GetViewFlags, properties.IPropertyDescription_GetViewFlags, propsys/IPropertyDescription::GetViewFlags, shell.IPropertyDescription_GetViewFlags, shell_IPropertyDescription_GetViewFlags
-ms.topic: method
 f1_keywords:
 - propsys/IPropertyDescription.GetViewFlags
 dev_langs:

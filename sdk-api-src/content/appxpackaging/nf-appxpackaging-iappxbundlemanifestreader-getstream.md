@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: DC276734-3837-466E-ADBA-60B68356504E
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [App packaging and management], GetStream method [App packaging and management],IAppxBundleManifestReader interface, IAppxBundleManifestReader interface [App packaging and management],GetStream method, IAppxBundleManifestReader.GetStream, IAppxBundleManifestReader::GetStream, appxpackaging/IAppxBundleManifestReader::GetStream, appxpkg.iappxbundlemanifestreader_getstream
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxBundleManifestReader.GetStream
 dev_langs:

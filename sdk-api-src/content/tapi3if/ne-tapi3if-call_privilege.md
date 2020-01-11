@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 8d2ab3d2-9531-40fc-910d-2bd81a075cc3
 ms.date: 12/05/2018
 ms.keywords: CALL_PRIVILEGE, CALL_PRIVILEGE enumeration [TAPI 2.2], CP_MONITOR, CP_OWNER, _tapi3_call_privilege, tapi3.call_privilege, tapi3if/CALL_PRIVILEGE, tapi3if/CP_MONITOR, tapi3if/CP_OWNER
-ms.topic: enum
 f1_keywords:
 - tapi3if/CALL_PRIVILEGE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: b25d9eb3-baaa-4508-b7d6-e2bccc3c2b77
 ms.date: 12/05/2018
 ms.keywords: EnumSystemGeoID, EnumSystemGeoID function [Internationalization for Windows Applications], _win32_EnumSystemGeoID, intl.enumsystemgeoid, winnls/EnumSystemGeoID
-ms.topic: function
 f1_keywords:
 - winnls/EnumSystemGeoID
 dev_langs:

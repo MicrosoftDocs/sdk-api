@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: ebf0f275-dbf6-4538-bd90-40ba47a8bfc0
 ms.date: 12/05/2018
 ms.keywords: IOCTL_KEYBOARD_QUERY_ATTRIBUTES, IOCTL_KEYBOARD_QUERY_ATTRIBUTES control, IOCTL_KEYBOARD_QUERY_ATTRIBUTES control code [Human Input Devices], hid.ioctl_keyboard_query_attributes2, i8042ref_51ea405d-a67d-4074-9e29-a307c9681196.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_ATTRIBUTES
-ms.topic: ioctl
 f1_keywords:
 - ntddkbd/IOCTL_KEYBOARD_QUERY_ATTRIBUTES
 dev_langs:

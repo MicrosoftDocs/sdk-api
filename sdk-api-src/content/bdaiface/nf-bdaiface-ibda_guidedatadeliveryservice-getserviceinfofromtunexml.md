@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 8084e4dd-a5d5-48a0-a052-24310a79df78
 ms.date: 12/05/2018
 ms.keywords: GetServiceInfoFromTuneXml, GetServiceInfoFromTuneXml method [Microsoft TV Technologies], GetServiceInfoFromTuneXml method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetServiceInfoFromTuneXml method, IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml, IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml, bdaiface/IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml, mstv.ibda_guidedatadeliveryservice_getserviceinfofromtunexml
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml
 dev_langs:

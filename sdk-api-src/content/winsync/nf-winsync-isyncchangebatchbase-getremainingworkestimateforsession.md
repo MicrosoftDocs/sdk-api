@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 8c1d3cf3-4d84-43c0-91cc-fbc418b8cb20
 ms.date: 12/05/2018
 ms.keywords: GetRemainingWorkEstimateForSession, GetRemainingWorkEstimateForSession method [Windows Sync], GetRemainingWorkEstimateForSession method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetRemainingWorkEstimateForSession method, ISyncChangeBatchBase.GetRemainingWorkEstimateForSession, ISyncChangeBatchBase::GetRemainingWorkEstimateForSession, winsync.isyncchangebatchbase_getremainingworkestimateforsession, winsync/ISyncChangeBatchBase::GetRemainingWorkEstimateForSession
-ms.topic: method
 f1_keywords:
 - winsync/ISyncChangeBatchBase.GetRemainingWorkEstimateForSession
 dev_langs:

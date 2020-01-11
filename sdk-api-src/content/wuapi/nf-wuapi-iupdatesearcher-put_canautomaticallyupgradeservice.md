@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 115a637d-0b70-4d33-a9c1-43d2faf79067
 ms.date: 12/05/2018
 ms.keywords: CanAutomaticallyUpgradeService property [Windows Update Agent], CanAutomaticallyUpgradeService property [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],CanAutomaticallyUpgradeService property, IUpdateSearcher.CanAutomaticallyUpgradeService, IUpdateSearcher.put_CanAutomaticallyUpgradeService, IUpdateSearcher::CanAutomaticallyUpgradeService, IUpdateSearcher::get_CanAutomaticallyUpgradeService, IUpdateSearcher::put_CanAutomaticallyUpgradeService, put_CanAutomaticallyUpgradeService, wua.iupdatesearchercanautomaticallyupgradeservice, wuapi/IUpdateSearcher::CanAutomaticallyUpgradeService, wuapi/IUpdateSearcher::get_CanAutomaticallyUpgradeService, wuapi/IUpdateSearcher::put_CanAutomaticallyUpgradeService
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateSearcher.CanAutomaticallyUpgradeService
 dev_langs:

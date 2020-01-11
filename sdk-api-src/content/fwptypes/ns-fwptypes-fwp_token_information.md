@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 30bc6d4b-e3a8-4adf-82d5-adaf30f042ff
 ms.date: 12/05/2018
 ms.keywords: FWP_TOKEN_INFORMATION, FWP_TOKEN_INFORMATION structure [Filtering], fwp.fwp_token_information, fwptypes/FWP_TOKEN_INFORMATION
-ms.topic: struct
 f1_keywords:
 - fwptypes/FWP_TOKEN_INFORMATION
 dev_langs:

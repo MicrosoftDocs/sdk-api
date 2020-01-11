@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 0799194f-dd3d-4aa6-b17b-0abe933f9b55
 ms.date: 12/05/2018
 ms.keywords: IIdleSettings interface [Task Scheduler],StopOnIdleEnd property, IIdleSettings.StopOnIdleEnd, IIdleSettings.get_StopOnIdleEnd, IIdleSettings::StopOnIdleEnd, IIdleSettings::get_StopOnIdleEnd, IIdleSettings::put_StopOnIdleEnd, StopOnIdleEnd property [Task Scheduler], StopOnIdleEnd property [Task Scheduler],IIdleSettings interface, get_StopOnIdleEnd, taskschd.iidlesettings_stoponidleend, taskschd/IIdleSettings::StopOnIdleEnd, taskschd/IIdleSettings::get_StopOnIdleEnd, taskschd/IIdleSettings::put_StopOnIdleEnd
-ms.topic: method
 f1_keywords:
 - taskschd/IIdleSettings.StopOnIdleEnd
 dev_langs:

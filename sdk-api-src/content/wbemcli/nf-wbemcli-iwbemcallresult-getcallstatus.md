@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 5a600fd8-87d8-446d-93da-5b22fd575a11
 ms.date: 12/05/2018
 ms.keywords: GetCallStatus, GetCallStatus method [Windows Management Instrumentation], GetCallStatus method [Windows Management Instrumentation],IWbemCallResult interface, IWbemCallResult interface [Windows Management Instrumentation],GetCallStatus method, IWbemCallResult.GetCallStatus, IWbemCallResult::GetCallStatus, _hmm_iwbemcallresult_getcallstatus, wbemcli/IWbemCallResult::GetCallStatus, wmi.iwbemcallresult_getcallstatus
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemCallResult.GetCallStatus
 dev_langs:

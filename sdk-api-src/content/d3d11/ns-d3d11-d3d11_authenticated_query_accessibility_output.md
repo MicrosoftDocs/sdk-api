@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 1E2EBE2C-3749-47B5-B7A8-3EAE371981DB
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT, D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT, mf.d3d11_authenticated_query_accessibility_output
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT
 dev_langs:

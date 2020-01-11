@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: c08bfbc8-f7ac-4534-8c98-c732c6daa2f7
 ms.date: 12/05/2018
 ms.keywords: WriteClassStm, WriteClassStm function [Structured Storage], _stg_writeclassstm, coml2api/WriteClassStm, stg.writeclassstm
-ms.topic: function
 f1_keywords:
 - coml2api/WriteClassStm
 dev_langs:

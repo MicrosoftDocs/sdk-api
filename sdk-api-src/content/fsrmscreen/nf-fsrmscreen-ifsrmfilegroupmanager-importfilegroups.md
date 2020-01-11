@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 81f62d49-5fce-4d8c-96b5-506d741c5f77
 ms.date: 12/05/2018
 ms.keywords: FsrmFileGroupManager class [File Server Resource Manager],ImportFileGroups method, IFsrmFileGroupManager interface [File Server Resource Manager],ImportFileGroups method, IFsrmFileGroupManager.ImportFileGroups, IFsrmFileGroupManager::ImportFileGroups, ImportFileGroups, ImportFileGroups method [File Server Resource Manager], ImportFileGroups method [File Server Resource Manager],FsrmFileGroupManager class, ImportFileGroups method [File Server Resource Manager],IFsrmFileGroupManager interface, fs.ifsrmfilegroupmanager_importfilegroups, fsrm.ifsrmfilegroupmanager_importfilegroups, fsrmscreen/IFsrmFileGroupManager::ImportFileGroups
-ms.topic: method
 f1_keywords:
 - fsrmscreen/IFsrmFileGroupManager.ImportFileGroups
 dev_langs:

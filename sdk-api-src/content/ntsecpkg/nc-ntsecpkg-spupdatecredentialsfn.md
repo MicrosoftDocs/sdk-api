@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 56aba12e-a335-4d16-81b0-7ab521f872e7
 ms.date: 12/05/2018
 ms.keywords: SEC_WINNT_AUTH_DATA_TYPE_CERT, SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA, SEC_WINNT_AUTH_DATA_TYPE_PASSWORD, SpUpdateCredentialsFn, SpUpdateCredentialsFn callback, SpUpdateCredentialsFn callback function [Security], ntsecpkg/SpUpdateCredentialsFn, security.spupdatecredentialsfn
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpUpdateCredentialsFn
 dev_langs:

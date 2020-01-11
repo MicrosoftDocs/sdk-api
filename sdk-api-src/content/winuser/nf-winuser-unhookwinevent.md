@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 5cffb279-85e1-4f7a-8bbb-d0d618f6afcd
 ms.date: 12/05/2018
 ms.keywords: UnhookWinEvent, UnhookWinEvent function [Windows Accessibility], _msaa_UnhookWinEvent, msaa.unhookwinevent, winauto.unhookwinevent, winuser/UnhookWinEvent
-ms.topic: function
 f1_keywords:
 - winuser/UnhookWinEvent
 dev_langs:

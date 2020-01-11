@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 1c8aac3e-384e-402e-aae8-11e240083603
 ms.date: 12/05/2018
 ms.keywords: ITfCompositionView, ITfCompositionView interface [Text Services Framework], ITfCompositionView interface [Text Services Framework],described, _tsf_itfcompositionview_ref, msctf/ITfCompositionView, tsf.itfcompositionview
-ms.topic: interface
 f1_keywords:
 - msctf/ITfCompositionView
 dev_langs:

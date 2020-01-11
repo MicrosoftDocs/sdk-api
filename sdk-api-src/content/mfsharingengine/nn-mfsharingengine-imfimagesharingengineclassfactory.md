@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 7D6385BC-4D9C-4026-9363-0F6917A62BDE
 ms.date: 12/05/2018
 ms.keywords: IMFImageSharingEngineClassFactory, IMFImageSharingEngineClassFactory interface [Media Foundation], IMFImageSharingEngineClassFactory interface [Media Foundation],described, mf.imfimagesharingengineclassfactory, mfsharingengine/IMFImageSharingEngineClassFactory
-ms.topic: interface
 f1_keywords:
 - mfsharingengine/IMFImageSharingEngineClassFactory
 dev_langs:

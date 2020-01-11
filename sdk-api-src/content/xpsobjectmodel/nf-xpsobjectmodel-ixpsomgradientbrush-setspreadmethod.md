@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 2114ba2e-95df-466e-983f-a56491bf891c
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientBrush interface [XPS Documents and Packaging],SetSpreadMethod method, IXpsOMGradientBrush.SetSpreadMethod, IXpsOMGradientBrush::SetSpreadMethod, SetSpreadMethod, SetSpreadMethod method [XPS Documents and Packaging], SetSpreadMethod method [XPS Documents and Packaging],IXpsOMGradientBrush interface, xps.ixpsomgradientbrush_setspreadmethod, xpsobjectmodel/IXpsOMGradientBrush::SetSpreadMethod
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGradientBrush.SetSpreadMethod
 dev_langs:

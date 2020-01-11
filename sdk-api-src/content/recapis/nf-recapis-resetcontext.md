@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 92446aca-e611-42b2-8b55-2d1c47ccaa5c
 ms.date: 12/05/2018
 ms.keywords: 92446aca-e611-42b2-8b55-2d1c47ccaa5c, ResetContext, ResetContext function [Tablet PC], recapis/ResetContext, tablet.resetcontext
-ms.topic: function
 f1_keywords:
 - recapis/ResetContext
 dev_langs:

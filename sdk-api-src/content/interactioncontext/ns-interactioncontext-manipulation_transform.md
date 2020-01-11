@@ -7,7 +7,6 @@ tech.root: Input_IntContext
 ms.assetid: f1019207-3197-4ccc-a795-01b868dcc9ca
 ms.date: 12/05/2018
 ms.keywords: MANIPULATION_TRANSFORM, MANIPULATION_TRANSFORM structure, input_intcontext.manipulation_transform, interactioncontext.manipulation_transform, interactioncontext/MANIPULATION_TRANSFORM
-ms.topic: struct
 f1_keywords:
 - interactioncontext/MANIPULATION_TRANSFORM
 dev_langs:

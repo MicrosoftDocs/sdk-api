@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolesetdvaspect.htm
 ms.date: 12/05/2018
 ms.keywords: IRichEditOle interface [Windows Controls],SetDvaspect method, IRichEditOle.SetDvaspect, IRichEditOle::SetDvaspect, SetDvaspect, SetDvaspect method [Windows Controls], SetDvaspect method [Windows Controls],IRichEditOle interface, _win32_IRichEditOle_SetDvaspect, _win32_IRichEditOle_SetDvaspect_cpp, controls.IRichEditOle_SetDvaspect, controls._win32_IRichEditOle_SetDvaspect, richole/IRichEditOle::SetDvaspect
-ms.topic: method
 f1_keywords:
 - richole/IRichEditOle.SetDvaspect
 dev_langs:

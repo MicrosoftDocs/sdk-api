@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: 75166c22-c55c-41b4-8089-ff9a89ddebf5
 ms.date: 12/05/2018
 ms.keywords: EVT_SUBSCRIBE_NOTIFY_ACTION, EVT_SUBSCRIBE_NOTIFY_ACTION enumeration [EventLog], EvtSubscribeActionDeliver, EvtSubscribeActionError, wes.evt_subscribe_notify_action, winevt/EVT_SUBSCRIBE_NOTIFY_ACTION, winevt/EvtSubscribeActionDeliver, winevt/EvtSubscribeActionError
-ms.topic: enum
 f1_keywords:
 - winevt/EVT_SUBSCRIBE_NOTIFY_ACTION
 dev_langs:

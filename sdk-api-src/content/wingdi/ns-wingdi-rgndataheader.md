@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 15990903-8a48-4c47-b527-269d775255a5
 ms.date: 12/05/2018
 ms.keywords: '*PRGNDATAHEADER, PRGNDATAHEADER, PRGNDATAHEADER structure pointer [Windows GDI], RGNDATAHEADER, RGNDATAHEADER structure [Windows GDI], _RGNDATAHEADER, _win32_RGNDATAHEADER_str, gdi.rgndataheader, wingdi/PRGNDATAHEADER, wingdi/RGNDATAHEADER'
-ms.topic: struct
 f1_keywords:
 - wingdi/RGNDATAHEADER
 dev_langs:

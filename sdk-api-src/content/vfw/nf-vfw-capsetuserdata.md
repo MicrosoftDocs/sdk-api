@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: fefbef56-aedb-4158-9514-d19e7986d850
 ms.date: 12/05/2018
 ms.keywords: _win32_capSetUserData, capSetUserData, capSetUserData macro [Windows Multimedia], multimedia.capsetuserdata, vfw/capSetUserData
-ms.topic: macro
 f1_keywords:
 - vfw/capSetUserData
 dev_langs:

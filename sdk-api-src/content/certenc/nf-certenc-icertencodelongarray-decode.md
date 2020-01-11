@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: b0ff8e1a-c4b2-48ac-be95-228638d00e6d
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeLongArray object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeLongArray object, Decode method [Security],ICertEncodeLongArray interface, ICertEncodeLongArray interface [Security],Decode method, ICertEncodeLongArray.Decode, ICertEncodeLongArray::Decode, _certsrv_icertencodelongarray_decode, certenc/ICertEncodeLongArray::Decode, security.icertencodelongarray_decode
-ms.topic: method
 f1_keywords:
 - certenc/ICertEncodeLongArray.Decode
 dev_langs:

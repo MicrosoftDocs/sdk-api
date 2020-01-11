@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: f037cab8-a1f4-487f-ab0a-11e11993b007
 ms.date: 12/05/2018
 ms.keywords: _win32_acmDriverAdd, acmDriverAdd, acmDriverAdd function [Windows Multimedia], acmDriverAddA, acmDriverAddW, msacm/acmDriverAdd, msacm/acmDriverAddA, msacm/acmDriverAddW, multimedia.acmdriveradd
-ms.topic: function
 f1_keywords:
 - msacm/acmDriverAdd
 dev_langs:

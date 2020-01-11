@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 32789bd2-2368-473b-accf-ac6e317d0172
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [BITS], GetState method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetState method, IBackgroundCopyJob.GetState, IBackgroundCopyJob::GetState, _drz_ibackgroundcopyjob_getstate, bits.ibackgroundcopyjob_getstate, bits/IBackgroundCopyJob::GetState
-ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyJob.GetState
 dev_langs:

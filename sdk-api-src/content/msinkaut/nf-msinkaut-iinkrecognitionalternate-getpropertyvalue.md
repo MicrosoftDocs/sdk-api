@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: b2ebf45a-b995-4fbc-b86d-b94d1f48f659
 ms.date: 12/05/2018
 ms.keywords: ConfidenceLevel, GetPropertyValue, GetPropertyValue method [Tablet PC], GetPropertyValue method [Tablet PC],IInkRecognitionAlternate interface, HotPoint, IInkRecognitionAlternate interface [Tablet PC],GetPropertyValue method, IInkRecognitionAlternate.GetPropertyValue, IInkRecognitionAlternate::GetPropertyValue, LineMetrics, LineNumber, MaximumStrokeCount, PointsPerInch, S_OK, Segmentation, b2ebf45a-b995-4fbc-b86d-b94d1f48f659, msinkaut/IInkRecognitionAlternate::GetPropertyValue, tablet.iinkrecognitionalternate_getpropertyvalue
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRecognitionAlternate.GetPropertyValue
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 9c2d9e20-7614-4010-9b8b-4f0e9bc2e6fe
 ms.date: 12/05/2018
 ms.keywords: CREATE_SUSPENDED, CreateRemoteThreadEx, CreateRemoteThreadEx function, STACK_SIZE_PARAM_IS_A_RESERVATION, base.createremotethreadex, processthreadsapi/CreateRemoteThreadEx, winbase/CreateRemoteThreadEx
-ms.topic: function
 f1_keywords:
 - processthreadsapi/CreateRemoteThreadEx
 dev_langs:

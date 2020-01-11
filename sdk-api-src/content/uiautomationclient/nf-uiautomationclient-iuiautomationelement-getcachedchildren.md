@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: dab24be3-0e0e-445f-a9cc-bb2733916cdc
 ms.date: 12/05/2018
 ms.keywords: GetCachedChildren, GetCachedChildren method [Windows Accessibility], GetCachedChildren method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCachedChildren method, IUIAutomationElement.GetCachedChildren, IUIAutomationElement::GetCachedChildren, uiauto.uiauto_IUIAutomationElement_GetCachedChildren, uiauto_IUIAutomationElement_GetCachedChildren, uiautomationclient/IUIAutomationElement::GetCachedChildren, winauto.uiauto_IUIAutomationElement_GetCachedChildren
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationElement.GetCachedChildren
 dev_langs:

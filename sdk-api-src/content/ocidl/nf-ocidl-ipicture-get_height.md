@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: a582cc9d-4356-49ec-9f14-38c75e690fbe
 ms.date: 12/05/2018
 ms.keywords: IPicture interface [COM],get_Height method, IPicture.get_Height, IPicture::get_Height, _ctrl_ipicture_get_height, com.ipicture_get_height, get_Height, get_Height method [COM], get_Height method [COM],IPicture interface, ocidl/IPicture::get_Height
-ms.topic: method
 f1_keywords:
 - ocidl/IPicture.get_Height
 dev_langs:

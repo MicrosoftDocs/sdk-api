@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2cef7dcb-be66-492c-a217-8b24d9f79506
 ms.date: 12/05/2018
 ms.keywords: GetItemIDList, GetItemIDList method [Windows Shell], GetItemIDList method [Windows Shell],IRelatedItem interface, IRelatedItem interface [Windows Shell],GetItemIDList method, IRelatedItem.GetItemIDList, IRelatedItem::GetItemIDList, _shell_IRelatedItem_GetItemIDList, shell.IRelatedItem_GetItemIDList, shobjidl_core/IRelatedItem::GetItemIDList
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IRelatedItem.GetItemIDList
 dev_langs:

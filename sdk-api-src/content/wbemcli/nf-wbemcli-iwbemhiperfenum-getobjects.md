@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 27dd9c2c-236e-41be-bfaa-90ebf8dfb1bc
 ms.date: 12/05/2018
 ms.keywords: GetObjects, GetObjects method [Windows Management Instrumentation], GetObjects method [Windows Management Instrumentation],IWbemHiPerfEnum interface, IWbemHiPerfEnum interface [Windows Management Instrumentation],GetObjects method, IWbemHiPerfEnum.GetObjects, IWbemHiPerfEnum::GetObjects, _hmm_iwbemhiperfenum_getobjects, wbemcli/IWbemHiPerfEnum::GetObjects, wmi.iwbemhiperfenum_getobjects
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemHiPerfEnum.GetObjects
 dev_langs:

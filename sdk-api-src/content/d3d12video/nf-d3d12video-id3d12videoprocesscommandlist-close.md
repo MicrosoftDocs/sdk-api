@@ -5,7 +5,6 @@ description: Indicates that recording to the command list has finished.
 tech.root: mf
 ms.assetid: 2d8a7a37-32b4-4fb0-b8db-d8460624aa63
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoProcessCommandList::Close
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 7402f031-b06c-4fc6-bb54-ad9fc28600b3
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Open Packaging Conventions], GetType method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetType method, IOpcSignatureReference.GetType, IOpcSignatureReference::GetType, msopc/IOpcSignatureReference::GetType, opc.iopcsignaturereference_gettype
-ms.topic: method
 f1_keywords:
 - msopc/IOpcSignatureReference.GetType
 dev_langs:

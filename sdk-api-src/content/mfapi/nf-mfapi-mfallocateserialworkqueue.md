@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 45198662-C861-49A5-8962-DC256A671350
 ms.date: 12/05/2018
 ms.keywords: MFAllocateSerialWorkQueue, MFAllocateSerialWorkQueue function [Media Foundation], mf.mfallocateserialworkqueue, mfapi/MFAllocateSerialWorkQueue
-ms.topic: function
 f1_keywords:
 - mfapi/MFAllocateSerialWorkQueue
 dev_langs:

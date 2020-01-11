@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 01CCF4B6-C3CA-4E59-8436-AAE633C7A5FD
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Direct2D], Clear method [Direct2D],ID2D1SpriteBatch interface, ID2D1SpriteBatch interface [Direct2D],Clear method, ID2D1SpriteBatch.Clear, ID2D1SpriteBatch::Clear, d2d1_3/ID2D1SpriteBatch::Clear, direct2d.id2d1spritebatch_clear
-ms.topic: method
 f1_keywords:
 - d2d1_3/ID2D1SpriteBatch.Clear
 dev_langs:

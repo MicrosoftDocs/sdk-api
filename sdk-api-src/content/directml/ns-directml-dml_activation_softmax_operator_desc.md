@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 93B799D1-E98B-42A1-87E5-F2B84721D98C
 ms.date: 12/5/2018
 ms.keywords: DML_ACTIVATION_SOFTMAX_OPERATOR_DESC, DML_ACTIVATION_SOFTMAX_OPERATOR_DESC structure, direct3d12.dml_activation_softmax_operator_desc, directml/DML_ACTIVATION_SOFTMAX_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_ACTIVATION_SOFTMAX_OPERATOR_DESC
 dev_langs:

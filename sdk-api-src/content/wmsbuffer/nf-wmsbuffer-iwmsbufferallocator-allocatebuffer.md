@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 857fb8fa-0e86-46f2-907d-a244d6c699ef
 ms.date: 12/05/2018
 ms.keywords: AllocateBuffer, AllocateBuffer method [windows Media Format], AllocateBuffer method [windows Media Format],IWMSBufferAllocator interface, IWMSBufferAllocator interface [windows Media Format],AllocateBuffer method, IWMSBufferAllocator.AllocateBuffer, IWMSBufferAllocator::AllocateBuffer, IWMSBufferAllocatorAllocateBuffer, wmformat.iwmsbufferallocator_allocatebuffer, wmsbuffer/IWMSBufferAllocator::AllocateBuffer
-ms.topic: method
 f1_keywords:
 - wmsbuffer/IWMSBufferAllocator.AllocateBuffer
 dev_langs:

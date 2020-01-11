@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: e58dee69-309c-4b52-bf28-f54b300801b9
 ms.date: 12/05/2018
 ms.keywords: PowerDuplicateScheme, PowerDuplicateScheme function, base.powerduplicatescheme, powrprof/PowerDuplicateScheme
-ms.topic: function
 f1_keywords:
 - powrprof/PowerDuplicateScheme
 dev_langs:

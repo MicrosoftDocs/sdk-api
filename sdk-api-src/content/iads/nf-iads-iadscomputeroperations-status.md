@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 85243a67-3fe4-43f2-8173-4e9a507609ba
 ms.date: 12/05/2018
 ms.keywords: IADsComputerOperations interface [ADSI],Status method, IADsComputerOperations.Status, IADsComputerOperations::Status, Status, Status method [ADSI], Status method [ADSI],IADsComputerOperations interface, _ds_iadscomputeroperations_status, adsi.iadscomputeroperations__status, adsi.iadscomputeroperations_status, iads/IADsComputerOperations::Status
-ms.topic: method
 f1_keywords:
 - iads/IADsComputerOperations.Status
 dev_langs:

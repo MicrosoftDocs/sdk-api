@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 22B11763-717A-49D7-8F5B-2FD21C13F11E
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_FILTER_RANGE, D3D11_VIDEO_PROCESSOR_FILTER_RANGE structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_FILTER_RANGE, mf.d3d11_video_processor_filter_range
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_VIDEO_PROCESSOR_FILTER_RANGE
 dev_langs:

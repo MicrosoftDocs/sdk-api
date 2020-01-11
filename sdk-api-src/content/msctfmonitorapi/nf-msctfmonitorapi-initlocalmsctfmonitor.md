@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: d382afea-e30a-4aeb-a357-551fee6229ae
 ms.date: 12/05/2018
 ms.keywords: ILMCM_CHECKLAYOUTANDTIPENABLED, ILMCM_LANGUAGEBAROFF, InitLocalMsCtfMonitor, InitLocalMsCtfMonitor function [Text Services Framework], msctfmonitorapi/InitLocalMsCtfMonitor, tsf.InitLocalMsCtfMonitor
-ms.topic: function
 f1_keywords:
 - msctfmonitorapi/InitLocalMsCtfMonitor
 dev_langs:

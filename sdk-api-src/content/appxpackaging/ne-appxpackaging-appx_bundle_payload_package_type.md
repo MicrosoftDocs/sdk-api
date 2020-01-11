@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 90A53E6D-D6DD-4E26-A343-9E6888675348
 ms.date: 12/05/2018
 ms.keywords: APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE, APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE enumeration [App packaging and management], APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE_APPLICATION, APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE_RESOURCE, appxpackaging/APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE, appxpackaging/APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE_APPLICATION, appxpackaging/APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE_RESOURCE, appxpkg.appx_bundle_payload_package_type
-ms.topic: enum
 f1_keywords:
 - appxpackaging/APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 65d04a7c-e42c-4956-a953-b9aec95254e0
 ms.date: 12/05/2018
 ms.keywords: RpcNsMgmtEntryDelete, RpcNsMgmtEntryDelete function [RPC], RpcNsMgmtEntryDeleteA, RpcNsMgmtEntryDeleteW, _rpc_rpcnsmgmtentrydelete, rpc.rpcnsmgmtentrydelete, rpcnsi/RpcNsMgmtEntryDelete, rpcnsi/RpcNsMgmtEntryDeleteA, rpcnsi/RpcNsMgmtEntryDeleteW
-ms.topic: function
 f1_keywords:
 - rpcnsi/RpcNsMgmtEntryDelete
 dev_langs:

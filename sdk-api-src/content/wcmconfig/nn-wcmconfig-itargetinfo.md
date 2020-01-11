@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: f1dd3c93-43ca-4804-8330-55acaccf8ea8
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo, ITargetInfo interface [SMI], ITargetInfo interface [SMI],described, smi.itargetinfo, wcmconfig/ITargetInfo
-ms.topic: interface
 f1_keywords:
 - wcmconfig/ITargetInfo
 dev_langs:

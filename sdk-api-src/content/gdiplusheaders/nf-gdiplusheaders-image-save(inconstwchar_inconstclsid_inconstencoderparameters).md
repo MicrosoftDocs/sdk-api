@@ -5,7 +5,6 @@ description: The Image::Save method saves this image to a file.
 ms.assetid: e2c57259-fe82-40dc-86a3-3f4110e6c0ee
 ms.date: 05/20/2019
 ms.keywords: Image::Save
-ms.topic: language-reference
 f1_keywords:
 - gdiplusheaders/Image::Save
 dev_langs:

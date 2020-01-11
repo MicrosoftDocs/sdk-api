@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: aa09b03d-5e72-4db5-b21a-87841fbce70b
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetAppSpecific, TSPI_lineSetAppSpecific function [TAPI 2.2], _tspi_tspi_linesetappspecific, tspi.tspi_linesetappspecific, tspi/TSPI_lineSetAppSpecific
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineSetAppSpecific
 dev_langs:

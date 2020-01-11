@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 0782d69f-6c4f-44f5-abd4-2b833be2f487
 ms.date: 12/05/2018
 ms.keywords: _win32_capGrabFrameNoStop, capGrabFrameNoStop, capGrabFrameNoStop macro [Windows Multimedia], multimedia.capgrabframenostop, vfw/capGrabFrameNoStop
-ms.topic: macro
 f1_keywords:
 - vfw/capGrabFrameNoStop
 dev_langs:

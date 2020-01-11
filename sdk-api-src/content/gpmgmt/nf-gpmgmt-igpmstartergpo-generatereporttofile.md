@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 29302091-0f2d-4511-a25b-9af078795d1d
 ms.date: 12/05/2018
 ms.keywords: GenerateReportToFile, GenerateReportToFile method [GPMC], GenerateReportToFile method [GPMC],IGPMStarterGPO interface, IGPMStarterGPO interface [GPMC],GenerateReportToFile method, IGPMStarterGPO.GenerateReportToFile, IGPMStarterGPO::GenerateReportToFile, gpmc.igpmstartergpo_generatereporttofile, gpmgmt/IGPMStarterGPO::GenerateReportToFile
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPMStarterGPO.GenerateReportToFile
 dev_langs:

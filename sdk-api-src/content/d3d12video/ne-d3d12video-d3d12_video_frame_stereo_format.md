@@ -5,7 +5,6 @@ description: Defines the layout in memory of a stereo 3D video frame.
 tech.root: mf
 ms.assetid: bc974169-35ed-4ebb-ba1c-d0c3fe56657a
 ms.date: 05/28/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_VIDEO_FRAME_STEREO_FORMAT
 dev_langs:

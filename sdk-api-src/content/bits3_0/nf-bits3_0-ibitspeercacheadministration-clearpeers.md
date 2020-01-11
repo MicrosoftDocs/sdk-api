@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 79a739ed-7618-410a-a6df-fab11794d932
 ms.date: 12/05/2018
 ms.keywords: ClearPeers, ClearPeers method [BITS], ClearPeers method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],ClearPeers method, IBitsPeerCacheAdministration.ClearPeers, IBitsPeerCacheAdministration::ClearPeers, bits.ibitspeercacheadministration_clearpeers, bits3_0/IBitsPeerCacheAdministration::ClearPeers
-ms.topic: method
 f1_keywords:
 - bits3_0/IBitsPeerCacheAdministration.ClearPeers
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 7630b8ac-41f9-4cc7-95e7-4172a876673f
 ms.date: 12/05/2018
 ms.keywords: IStreamPseudoRandomBased, IStreamPseudoRandomBased interface [IMAPI], IStreamPseudoRandomBased interface [IMAPI],described, imapi.istreampseudorandombased, imapi2/IStreamPseudoRandomBased
-ms.topic: interface
 f1_keywords:
 - imapi2/IStreamPseudoRandomBased
 dev_langs:

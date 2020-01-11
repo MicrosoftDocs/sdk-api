@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a0a82a8f-a03a-43d7-8fb0-4c15b0cb7c27
 ms.date: 12/05/2018
 ms.keywords: GetAlpha, GetAlpha method [DirectShow], GetAlpha method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetAlpha method, IVMRMixerControl.GetAlpha, IVMRMixerControl::GetAlpha, IVMRMixerControlGetAlpha, dshow.ivmrmixercontrol_getalpha, strmif/IVMRMixerControl::GetAlpha
-ms.topic: method
 f1_keywords:
 - strmif/IVMRMixerControl.GetAlpha
 dev_langs:

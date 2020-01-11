@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: fba6bb5a-6709-41e6-bf76-182c88ee42e3
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition interface [DirectShow],put_Rate method, IMediaPosition.put_Rate, IMediaPosition::put_Rate, IMediaPositionput_Rate, control/IMediaPosition::put_Rate, dshow.imediaposition_put_rate, put_Rate, put_Rate method [DirectShow], put_Rate method [DirectShow],IMediaPosition interface
-ms.topic: method
 f1_keywords:
 - control/IMediaPosition.put_Rate
 dev_langs:

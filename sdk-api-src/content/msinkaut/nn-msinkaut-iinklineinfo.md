@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 58774f49-6af2-4b81-bbd5-709eb694af2d
 ms.date: 12/05/2018
 ms.keywords: 58774f49-6af2-4b81-bbd5-709eb694af2d, IInkLineInfo, IInkLineInfo interface [Tablet PC], IInkLineInfo interface [Tablet PC],described, msinkaut/IInkLineInfo, tablet.iinklineinfo
-ms.topic: interface
 f1_keywords:
 - msinkaut/IInkLineInfo
 dev_langs:

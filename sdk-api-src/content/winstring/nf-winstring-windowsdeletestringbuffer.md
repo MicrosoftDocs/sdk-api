@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: c543b2ff-56be-48b5-8b44-3d7549c75df2
 ms.date: 12/05/2018
 ms.keywords: WindowsDeleteStringBuffer, WindowsDeleteStringBuffer function [Windows Runtime], winrt.windowsdeletestringbuffer, winstring/WindowsDeleteStringBuffer
-ms.topic: function
 f1_keywords:
 - winstring/WindowsDeleteStringBuffer
 dev_langs:

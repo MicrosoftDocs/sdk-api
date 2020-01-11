@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: e1d2e5d5-89db-4bda-9803-37f26d1fe30f
 ms.date: 12/05/2018
 ms.keywords: EvtOpenEventMetadataEnum, EvtOpenEventMetadataEnum function [EventLog], wes.evtopeneventmetadataenum, winevt/EvtOpenEventMetadataEnum
-ms.topic: function
 f1_keywords:
 - winevt/EvtOpenEventMetadataEnum
 dev_langs:

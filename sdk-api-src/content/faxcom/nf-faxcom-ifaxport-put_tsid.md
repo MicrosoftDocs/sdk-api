@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6p0k.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxPort interface [Fax Service],Tsid property, IFaxPort.Tsid, IFaxPort.put_Tsid, IFaxPort::Tsid, IFaxPort::get_Tsid, IFaxPort::put_Tsid, Tsid property [Fax Service], Tsid property [Fax Service],IFaxPort interface, _mfax_ifaxport_get_tsid, fax._mfax_ifaxport_get_tsid, fax._mfax_ifaxport_mfax_ifaxport_get_tsid_cpp, faxcom/IFaxPort::Tsid, faxcom/IFaxPort::get_Tsid, faxcom/IFaxPort::put_Tsid, put_Tsid
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxPort.Tsid
 dev_langs:

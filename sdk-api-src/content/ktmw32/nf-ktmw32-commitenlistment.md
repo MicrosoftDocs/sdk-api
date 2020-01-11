@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: d1e1043d-2db3-4f05-affc-2d32744baf10
 ms.date: 12/05/2018
 ms.keywords: CommitEnlistment, CommitEnlistment function [Files], fs.commitenlistment, ktmw32/CommitEnlistment
-ms.topic: function
 f1_keywords:
 - ktmw32/CommitEnlistment
 dev_langs:

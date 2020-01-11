@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 99d8564f-98bc-4f30-bff9-923a4016a5fe
 ms.date: 12/05/2018
 ms.keywords: IEnumTfProperties, IEnumTfProperties interface [Text Services Framework], IEnumTfProperties interface [Text Services Framework],described, _tsf_ienumtfproperties_ref, msctf/IEnumTfProperties, tsf.ienumtfproperties
-ms.topic: interface
 f1_keywords:
 - msctf/IEnumTfProperties
 dev_langs:

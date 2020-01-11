@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 46388cf1-6ad8-4320-a0cd-998216b0043c
 ms.date: 12/05/2018
 ms.keywords: AzRoles object [Security],_NewEnum property, IAzRoles interface [Security],_NewEnum property, IAzRoles._NewEnum, IAzRoles.get__NewEnum, IAzRoles::_NewEnum, IAzRoles::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzRoles object, _NewEnum property [Security],IAzRoles interface, azroles/IAzRoles::_NewEnum, azroles/IAzRoles::get__NewEnum, get__NewEnum, security.iazroles_newenum
-ms.topic: method
 f1_keywords:
 - azroles/IAzRoles._NewEnum
 dev_langs:

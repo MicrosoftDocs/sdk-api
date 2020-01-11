@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 87a1b606-f91b-4a14-b3b0-17d224d841fc
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCDEventArgs interface [IMAPI],get_ElapsedTime method, IDiscFormat2RawCDEventArgs.get_ElapsedTime, IDiscFormat2RawCDEventArgs::get_ElapsedTime, get_ElapsedTime, get_ElapsedTime method [IMAPI], get_ElapsedTime method [IMAPI],IDiscFormat2RawCDEventArgs interface, imapi.idiscformat2rawcdeventargs_get_elapsedtime, imapi2/IDiscFormat2RawCDEventArgs::get_ElapsedTime
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2RawCDEventArgs.get_ElapsedTime
 dev_langs:

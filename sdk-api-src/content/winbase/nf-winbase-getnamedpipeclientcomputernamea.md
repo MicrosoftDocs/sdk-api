@@ -7,7 +7,6 @@ tech.root: ipc
 ms.assetid: 8daa97fe-0ef7-4ada-a99c-aff487ad27e5
 ms.date: 12/05/2018
 ms.keywords: GetNamedPipeClientComputerName, GetNamedPipeClientComputerName function, GetNamedPipeClientComputerNameA, GetNamedPipeClientComputerNameW, base.getnamedpipeclientcomputername, winbase/GetNamedPipeClientComputerName, winbase/GetNamedPipeClientComputerNameA, winbase/GetNamedPipeClientComputerNameW
-ms.topic: function
 f1_keywords:
 - winbase/GetNamedPipeClientComputerName
 dev_langs:

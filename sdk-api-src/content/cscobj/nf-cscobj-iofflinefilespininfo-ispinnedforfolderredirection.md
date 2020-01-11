@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: b832f75a-3cd4-4421-a0a5-22c5682cb4c3
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinnedForFolderRedirection method, IOfflineFilesPinInfo.IsPinnedForFolderRedirection, IOfflineFilesPinInfo::IsPinnedForFolderRedirection, IsPinnedForFolderRedirection, IsPinnedForFolderRedirection method [Offline Files], IsPinnedForFolderRedirection method [Offline Files],IOfflineFilesPinInfo interface, cscobj/IOfflineFilesPinInfo::IsPinnedForFolderRedirection, of.iofflinefilespininfo_ispinnedforfolderredirection
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesPinInfo.IsPinnedForFolderRedirection
 dev_langs:

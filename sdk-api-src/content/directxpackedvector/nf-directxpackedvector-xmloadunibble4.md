@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUNibble4(const XMUNIBBLE4)
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadUNibble4, XMLoadUNibble4, XMLoadUNibble4 method [DirectX Math Support APIs], dxmath.xmloadunibble4
-ms.topic: function
 f1_keywords:
 - directxpackedvector/XMLoadUNibble4
 dev_langs:

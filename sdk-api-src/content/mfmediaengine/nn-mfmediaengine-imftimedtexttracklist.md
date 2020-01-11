@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: EA94A81E-3B1D-4723-B00F-B216991E19E5
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextTrackList, IMFTimedTextTrackList interface [Media Foundation], IMFTimedTextTrackList interface [Media Foundation],described, mf.imftimedtexttracklist, mfmediaengine/IMFTimedTextTrackList
-ms.topic: interface
 f1_keywords:
 - mfmediaengine/IMFTimedTextTrackList
 dev_langs:

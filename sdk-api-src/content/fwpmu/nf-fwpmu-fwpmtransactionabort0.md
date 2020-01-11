@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: e2574f0c-1070-4e06-8b75-80fa7ec20acf
 ms.date: 12/05/2018
 ms.keywords: FwpmTransactionAbort0, FwpmTransactionAbort0 function [Filtering], fwp.fwpmtransactionabort0_func, fwpmu/FwpmTransactionAbort0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmTransactionAbort0
 dev_langs:

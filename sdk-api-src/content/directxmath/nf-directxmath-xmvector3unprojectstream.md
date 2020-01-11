@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3UnprojectStream(XMFLOAT3@,size_t,const XMFLOAT3,size_t,size_t,float,float,float,float,float,float,XMMATRIX,XMMATRIX,XMMATRIX)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3UnprojectStream, XMVector3UnprojectStream, XMVector3UnprojectStream method [DirectX Math Support APIs], dxmath.xmvector3unprojectstream
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector3UnprojectStream
 dev_langs:

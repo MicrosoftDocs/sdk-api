@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 3e244e6c-0731-477a-b1d3-2601c29449ca
 ms.date: 12/05/2018
 ms.keywords: '*LPOVERLAPPED_ENTRY, LPOVERLAPPED_ENTRY, LPOVERLAPPED_ENTRY structure pointer [Files], OVERLAPPED_ENTRY, OVERLAPPED_ENTRY structure [Files], fs.overlapped_entry, minwinbase/LPOVERLAPPED_ENTRY, minwinbase/OVERLAPPED_ENTRY, winbase/LPOVERLAPPED_ENTRY, winbase/OVERLAPPED_ENTRY'
-ms.topic: struct
 f1_keywords:
 - minwinbase/OVERLAPPED_ENTRY
 dev_langs:

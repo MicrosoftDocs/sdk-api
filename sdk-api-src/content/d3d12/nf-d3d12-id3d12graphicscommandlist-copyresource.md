@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: EFC305CF-FBA9-4192-999B-6C6BFCDFF51F
 ms.date: 12/05/2018
 ms.keywords: CopyResource, CopyResource method, CopyResource method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,CopyResource method, ID3D12GraphicsCommandList.CopyResource, ID3D12GraphicsCommandList::CopyResource, d3d12/ID3D12GraphicsCommandList::CopyResource, direct3d12.id3d12graphicscommandlist_copyresource
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12GraphicsCommandList.CopyResource
 dev_langs:

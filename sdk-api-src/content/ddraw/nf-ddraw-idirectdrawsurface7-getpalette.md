@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 35a667aa-9a69-4c71-9e26-b42359815a0d
 ms.date: 12/05/2018
 ms.keywords: GetPalette, GetPalette method [DirectDraw], GetPalette method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetPalette method, IDirectDrawSurface7.GetPalette, IDirectDrawSurface7::GetPalette, ddraw/IDirectDrawSurface7::GetPalette, directdraw.idirectdrawsurface7_getpalette
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawSurface7.GetPalette
 dev_langs:

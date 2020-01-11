@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_proxyname.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchManager interface [search],get_ProxyName method, ISearchManager.get_ProxyName, ISearchManager::get_ProxyName, _search_ISearchManager_get_ProxyName, get_ProxyName, get_ProxyName method [search], get_ProxyName method [search],ISearchManager interface, search._search_ISearchManager_get_ProxyName, searchapi/ISearchManager::get_ProxyName
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchManager.get_ProxyName
 dev_langs:

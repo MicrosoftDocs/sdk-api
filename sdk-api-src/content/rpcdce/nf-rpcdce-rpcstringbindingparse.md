@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: c55d0259-e251-42d0-8565-ce71ab3bb59c
 ms.date: 12/05/2018
 ms.keywords: RpcStringBindingParse, RpcStringBindingParse function [RPC], RpcStringBindingParseA, RpcStringBindingParseW, _rpc_rpcstringbindingparse, rpc.rpcstringbindingparse, rpcdce/RpcStringBindingParse, rpcdce/RpcStringBindingParseA, rpcdce/RpcStringBindingParseW
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcStringBindingParse
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: b9e90ed4-fda8-4628-a713-67c651e1b572
 ms.date: 12/05/2018
 ms.keywords: MsiCloseHandle, MsiCloseHandle function, _msi_msiclosehandle, msi/MsiCloseHandle, setup.msiclosehandle
-ms.topic: function
 f1_keywords:
 - msi/MsiCloseHandle
 dev_langs:

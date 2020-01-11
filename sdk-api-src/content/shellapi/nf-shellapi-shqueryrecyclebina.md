@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a9a80486-2c99-4916-af25-10b00573456b
 ms.date: 12/05/2018
 ms.keywords: SHQueryRecycleBin, SHQueryRecycleBin function [Windows Shell], SHQueryRecycleBinA, SHQueryRecycleBinW, _win32_SHQueryRecycleBin, shell.SHQueryRecycleBin, shellapi/SHQueryRecycleBin, shellapi/SHQueryRecycleBinA, shellapi/SHQueryRecycleBinW
-ms.topic: function
 f1_keywords:
 - shellapi/SHQueryRecycleBin
 dev_langs:

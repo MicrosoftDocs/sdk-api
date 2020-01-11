@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 18826377-ddf7-4c36-8995-43310ea077dd
 ms.date: 12/05/2018
 ms.keywords: IAMVideoProcAmp interface [DirectShow],Set method, IAMVideoProcAmp.Set, IAMVideoProcAmp::Set, IAMVideoProcAmpSet, Set, Set method [DirectShow], Set method [DirectShow],IAMVideoProcAmp interface, dshow.iamvideoprocamp_set, strmif/IAMVideoProcAmp::Set
-ms.topic: method
 f1_keywords:
 - strmif/IAMVideoProcAmp.Set
 dev_langs:

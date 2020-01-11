@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcat.htm
 ms.date: 12/05/2018
 ms.keywords: StringCchCat, StringCchCat function [Menus and Other Resources], StringCchCatA, StringCchCatW, _shell_StringCchCat, _shell_stringcchcat_cpp, menurc.stringcchcat, strsafe/StringCchCat, strsafe/StringCchCatA, strsafe/StringCchCatW, winui._shell_stringcchcat
-ms.topic: function
 f1_keywords:
 - strsafe/StringCchCat
 dev_langs:

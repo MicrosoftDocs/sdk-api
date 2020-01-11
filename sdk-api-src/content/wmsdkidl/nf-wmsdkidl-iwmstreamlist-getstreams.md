@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: ef7e1141-284f-4570-8891-9f53b2da7229
 ms.date: 12/05/2018
 ms.keywords: GetStreams, GetStreams method [windows Media Format], GetStreams method [windows Media Format],IWMStreamList interface, IWMStreamList interface [windows Media Format],GetStreams method, IWMStreamList.GetStreams, IWMStreamList::GetStreams, IWMStreamListGetStreams, wmformat.iwmstreamlist_getstreams, wmsdkidl/IWMStreamList::GetStreams
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMStreamList.GetStreams
 dev_langs:

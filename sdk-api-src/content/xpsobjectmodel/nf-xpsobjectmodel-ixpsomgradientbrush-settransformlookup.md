@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 342434ff-9fdc-43ea-8beb-9d518f7a9454
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientBrush interface [XPS Documents and Packaging],SetTransformLookup method, IXpsOMGradientBrush.SetTransformLookup, IXpsOMGradientBrush::SetTransformLookup, SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging],IXpsOMGradientBrush interface, xps.ixpsomgradientbrush_settransformlookup, xpsobjectmodel/IXpsOMGradientBrush::SetTransformLookup
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGradientBrush.SetTransformLookup
 dev_langs:

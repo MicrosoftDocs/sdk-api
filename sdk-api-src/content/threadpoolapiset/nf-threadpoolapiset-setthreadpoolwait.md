@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: ebd0ecad-a864-43cf-a1cb-e4c2d595ef81
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolWait, SetThreadpoolWait function, base.setthreadpoolwait, threadpoolapiset/SetThreadpoolWait, winbase/SetThreadpoolWait
-ms.topic: function
 f1_keywords:
 - threadpoolapiset/SetThreadpoolWait
 dev_langs:

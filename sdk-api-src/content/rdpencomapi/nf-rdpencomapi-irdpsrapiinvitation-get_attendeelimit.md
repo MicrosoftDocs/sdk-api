@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: ab16039f-210a-46ba-aaa8-0dcc840123b2
 ms.date: 12/05/2018
 ms.keywords: AttendeeLimit property [RDP], AttendeeLimit property [RDP],IRDPSRAPIInvitation interface, AttendeeLimit property [RDP],RDPSRAPIInvitation object, IRDPSRAPIInvitation interface [RDP],AttendeeLimit property, IRDPSRAPIInvitation.AttendeeLimit, IRDPSRAPIInvitation.get_AttendeeLimit, IRDPSRAPIInvitation::AttendeeLimit, IRDPSRAPIInvitation::get_AttendeeLimit, IRDPSRAPIInvitation::put_AttendeeLimit, RDPSRAPIInvitation object [RDP],AttendeeLimit property, get_AttendeeLimit, rdp.irdpsrapiinvitation_attendeelimit, rdpencomapi/IRDPSRAPIInvitation::AttendeeLimit, rdpencomapi/IRDPSRAPIInvitation::get_AttendeeLimit, rdpencomapi/IRDPSRAPIInvitation::put_AttendeeLimit
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPIInvitation.AttendeeLimit
 dev_langs:

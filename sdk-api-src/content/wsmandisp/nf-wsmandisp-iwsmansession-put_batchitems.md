@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 883fc265-b84e-4757-a9b1-8c52174cb701
 ms.date: 12/05/2018
 ms.keywords: BatchItems property [Windows Remote Management], BatchItems property [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],BatchItems property, IWSManSession.BatchItems, IWSManSession.put_BatchItems, IWSManSession::BatchItems, IWSManSession::get_BatchItems, IWSManSession::put_BatchItems, put_BatchItems, winrm.iwsmansession_batchitems, wsmandisp/IWSManSession::BatchItems, wsmandisp/IWSManSession::get_BatchItems, wsmandisp/IWSManSession::put_BatchItems
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManSession.BatchItems
 dev_langs:

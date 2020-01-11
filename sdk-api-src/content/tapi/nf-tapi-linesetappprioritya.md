@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: f173c472-56bc-4773-a77a-1aa05ba8766f
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linesetapppriority, lineSetAppPriority, lineSetAppPriority function [TAPI 2.2], lineSetAppPriorityA, lineSetAppPriorityW, tapi/lineSetAppPriority, tapi/lineSetAppPriorityA, tapi/lineSetAppPriorityW, tapi2.linesetapppriority
-ms.topic: function
 f1_keywords:
 - tapi/lineSetAppPriority
 dev_langs:

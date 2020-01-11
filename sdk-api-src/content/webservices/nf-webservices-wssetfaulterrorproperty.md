@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 193664ab-4688-49c9-97e7-ccf2b3e2d7e8
 ms.date: 12/05/2018
 ms.keywords: WsSetFaultErrorProperty, WsSetFaultErrorProperty function [Web Services for Windows], webservices/WsSetFaultErrorProperty, wsw.wssetfaulterrorproperty
-ms.topic: function
 f1_keywords:
 - webservices/WsSetFaultErrorProperty
 dev_langs:

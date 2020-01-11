@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 3e54a2bc-c112-4c06-96ff-37de9758df01
 ms.date: 12/05/2018
 ms.keywords: IDVB_EIT interface [Microsoft TV Technologies],RegisterForNextTable method, IDVB_EIT.RegisterForNextTable, IDVB_EIT::RegisterForNextTable, IDVB_EITRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IDVB_EIT interface, dvbsiparser/IDVB_EIT::RegisterForNextTable, mstv.idvb_eit_registerfornexttable
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_EIT.RegisterForNextTable
 dev_langs:

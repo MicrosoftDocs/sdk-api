@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocolthreadcontext\threadidle.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchProtocolThreadContext interface [search],ThreadIdle method, ISearchProtocolThreadContext.ThreadIdle, ISearchProtocolThreadContext::ThreadIdle, ThreadIdle, ThreadIdle method [search], ThreadIdle method [search],ISearchProtocolThreadContext interface, _search_ISearchProtocolThreadContext_ThreadIdle, search._search_ISearchProtocolThreadContext_ThreadIdle, searchapi/ISearchProtocolThreadContext::ThreadIdle
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchProtocolThreadContext.ThreadIdle
 dev_langs:

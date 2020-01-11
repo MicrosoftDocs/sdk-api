@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: b2856d75-cf16-4eec-a0e1-2e9e9fff601e
 ms.date: 12/05/2018
 ms.keywords: AzRole object [Security],DeleteAppMember method, DeleteAppMember, DeleteAppMember method [Security], DeleteAppMember method [Security],AzRole object, DeleteAppMember method [Security],IAzRole interface, IAzRole interface [Security],DeleteAppMember method, IAzRole.DeleteAppMember, IAzRole::DeleteAppMember, azroles/IAzRole::DeleteAppMember, security.iazrole_deleteappmember
-ms.topic: method
 f1_keywords:
 - azroles/IAzRole.DeleteAppMember
 dev_langs:

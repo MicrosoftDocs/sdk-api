@@ -7,7 +7,6 @@ tech.root: WNet
 ms.assetid: 2dc383bb-0a1a-4612-88f9-f92c8e2a398d
 ms.date: 12/05/2018
 ms.keywords: RESOURCETYPE_DISK, WNetConnectionDialog, WNetConnectionDialog function [Windows Networking (WNet)], _win32_wnetconnectiondialog, winnetwk/WNetConnectionDialog, wnet.wnetconnectiondialog
-ms.topic: function
 f1_keywords:
 - winnetwk/WNetConnectionDialog
 dev_langs:

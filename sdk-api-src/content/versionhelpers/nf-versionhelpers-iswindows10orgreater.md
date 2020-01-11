@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 1F7AE6CA-3E2B-4DF1-A047-58AB9A0B1DA4
 ms.date: 12/05/2018
 ms.keywords: IsWindows10OrGreater, IsWindows10OrGreater function, base.iswindows10orgreater, versionhelpers/IsWindows10OrGreater
-ms.topic: function
 f1_keywords:
 - versionhelpers/IsWindows10OrGreater
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 29785bae-59b8-4bbb-b899-44f6fc3e83bd
 ms.date: 12/05/2018
 ms.keywords: ITfKeyTraceEventSink, ITfKeyTraceEventSink interface [Text Services Framework], ITfKeyTraceEventSink interface [Text Services Framework],described, _tsf_itfkeytraceeventsink_ref, msctf/ITfKeyTraceEventSink, tsf.itfkeytraceeventsink
-ms.topic: interface
 f1_keywords:
 - msctf/ITfKeyTraceEventSink
 dev_langs:

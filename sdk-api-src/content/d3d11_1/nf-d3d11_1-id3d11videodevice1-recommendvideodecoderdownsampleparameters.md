@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: DD1C1273-C069-4C46-933F-3450F9DDAFBD
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoDevice1 interface [Media Foundation],RecommendVideoDecoderDownsampleParameters method, ID3D11VideoDevice1.RecommendVideoDecoderDownsampleParameters, ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters, RecommendVideoDecoderDownsampleParameters, RecommendVideoDecoderDownsampleParameters method [Media Foundation], RecommendVideoDecoderDownsampleParameters method [Media Foundation],ID3D11VideoDevice1 interface, d3d11_1/ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters, mf.id3d11videodevice1_recommendvideodecoderdownsampleparameters
-ms.topic: method
 f1_keywords:
 - d3d11_1/ID3D11VideoDevice1.RecommendVideoDecoderDownsampleParameters
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 3125e27b-a280-43bc-99d7-a6b5697366b2
 ms.date: 12/05/2018
 ms.keywords: 3125e27b-a280-43bc-99d7-a6b5697366b2, IInkTransform interface [Tablet PC],Translate method, IInkTransform.Translate, IInkTransform::Translate, Translate, Translate method [Tablet PC], Translate method [Tablet PC],IInkTransform interface, msinkaut/IInkTransform::Translate, tablet.inktransform_translate
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkTransform.Translate
 dev_langs:

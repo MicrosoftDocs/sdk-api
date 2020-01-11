@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 0fdd85cb-f6a9-4a08-b72b-10d2075efb59
 ms.date: 12/05/2018
 ms.keywords: InternetSetFilePointer, InternetSetFilePointer function [WinINet], _inet_internetsetfilepointer_function, wininet.internetsetfilepointer, wininet/InternetSetFilePointer
-ms.topic: function
 f1_keywords:
 - wininet/InternetSetFilePointer
 dev_langs:

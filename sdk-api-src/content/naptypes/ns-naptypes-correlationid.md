@@ -7,7 +7,6 @@ tech.root: NAP
 ms.assetid: 99e5bad8-47dd-447b-bd8d-e35ae765808b
 ms.date: 12/05/2018
 ms.keywords: CorrelationId, CorrelationId structure [NAP], nap.correlationid_struct, naptypes/CorrelationId
-ms.topic: struct
 f1_keywords:
 - naptypes/CorrelationId
 dev_langs:

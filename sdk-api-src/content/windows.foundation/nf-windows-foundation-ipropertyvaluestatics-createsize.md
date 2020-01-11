@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 0a5055f1-6873-4396-9a3e-b7a4cc41200e
 ms.date: 12/05/2018
 ms.keywords: CreateSize, CreateSize method [Windows Runtime], CreateSize method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateSize method, IPropertyValueStatics.CreateSize, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateSize, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateSize, winrt.ipropertyvaluefactory_createsize, winrt.ipropertyvaluestatics_createsize
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValueStatics.CreateSize
 dev_langs:

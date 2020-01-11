@@ -7,7 +7,6 @@ tech.root: ProjFS
 ms.assetid: 569204FF-97F5-4FE2-9885-94C88AB5A6FE
 ms.date: 12/05/2018
 ms.keywords: PRJ_CALLBACK_DATA, PRJ_CALLBACK_DATA structure, ProjFS.prj_callback_data, projectedfslib/PRJ_CALLBACK_DATA
-ms.topic: struct
 f1_keywords:
 - projectedfslib/PRJ_CALLBACK_DATA
 dev_langs:

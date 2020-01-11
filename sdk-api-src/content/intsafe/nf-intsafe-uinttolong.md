@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c632b617-3b77-4a6e-80e7-90115ae0ac3a
 ms.date: 12/05/2018
 ms.keywords: UIntToLong, UIntToLong function [Windows Shell], _shell_UIntToLong, intsafe/UIntToLong, shell.UIntToLong
-ms.topic: function
 f1_keywords:
 - intsafe/UIntToLong
 dev_langs:

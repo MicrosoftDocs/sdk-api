@@ -4,7 +4,6 @@ title: WSPDATA
 description: The WSPDATA structure contains service provider information.
 ms.date: 4/26/2019
 ms.keywords: WSPData, WSPDATA
-ms.topic: language-reference
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

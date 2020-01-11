@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: e93406df-e61c-4ee5-9cd4-828aab2c05b6
 ms.date: 12/05/2018
 ms.keywords: GetObjectContext, GetObjectContext function [COM+], _cos_GetObjectContext, comsvcs/GetObjectContext, cos.getobjectcontext
-ms.topic: macro
 f1_keywords:
 - comsvcs/GetObjectContext
 dev_langs:

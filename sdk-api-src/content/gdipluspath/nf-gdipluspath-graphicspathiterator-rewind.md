@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\rewind.htm
 ms.date: 12/05/2018
 ms.keywords: GraphicsPathIterator class [GDI+],Rewind method, GraphicsPathIterator.Rewind, GraphicsPathIterator::Rewind, Rewind, Rewind method [GDI+], Rewind method [GDI+],GraphicsPathIterator class, _gdiplus_CLASS_GraphicsPathIterator_Rewind_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_Rewind_
-ms.topic: method
 f1_keywords:
 - gdipluspath/GraphicsPathIterator.Rewind
 dev_langs:

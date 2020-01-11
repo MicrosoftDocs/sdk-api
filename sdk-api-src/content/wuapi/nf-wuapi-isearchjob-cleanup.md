@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 35f345ac-cf5b-4ba6-9422-5d9da449bcdd
 ms.date: 12/05/2018
 ms.keywords: CleanUp, CleanUp method [Windows Update Agent], CleanUp method [Windows Update Agent],ISearchJob interface, ISearchJob interface [Windows Update Agent],CleanUp method, ISearchJob.CleanUp, ISearchJob::CleanUp, wua.isearchjob_cleanup, wuapi/ISearchJob::CleanUp
-ms.topic: method
 f1_keywords:
 - wuapi/ISearchJob.CleanUp
 dev_langs:

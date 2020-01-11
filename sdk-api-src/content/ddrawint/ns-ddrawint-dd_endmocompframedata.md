@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 4e604940-1c0f-43be-bac7-9936df0c4044
 ms.date: 12/05/2018
 ms.keywords: '*PDD_ENDMOCOMPFRAMEDATA, DD_ENDMOCOMPFRAMEDATA, DD_ENDMOCOMPFRAMEDATA structure [Display Devices], ddrawint/DD_ENDMOCOMPFRAMEDATA, ddstrcts_4c526986-eaf4-40ea-890c-e90295ac9ee6.xml, display.dd_endmocompframedata'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_ENDMOCOMPFRAMEDATA
 dev_langs:

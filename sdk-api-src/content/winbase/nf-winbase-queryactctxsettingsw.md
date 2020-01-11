@@ -7,7 +7,6 @@ tech.root: SbsCs
 ms.assetid: 80e419a5-7b57-488a-90bc-1d38d063b1ee
 ms.date: 12/05/2018
 ms.keywords: QueryActCtxSettingsW, QueryActCtxSettingsW function [Side-by-side Assemblies], setup.queryactctxsettingsw, winbase/QueryActCtxSettingsW
-ms.topic: function
 f1_keywords:
 - winbase/QueryActCtxSettingsW
 dev_langs:

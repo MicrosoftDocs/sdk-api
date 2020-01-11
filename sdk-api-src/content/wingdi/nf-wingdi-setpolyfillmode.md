@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 233926c4-2658-405d-89b6-05ece844623d
 ms.date: 12/05/2018
 ms.keywords: ALTERNATE, SetPolyFillMode, SetPolyFillMode function [Windows GDI], WINDING, _win32_SetPolyFillMode, gdi.setpolyfillmode, wingdi/SetPolyFillMode
-ms.topic: function
 f1_keywords:
 - wingdi/SetPolyFillMode
 dev_langs:

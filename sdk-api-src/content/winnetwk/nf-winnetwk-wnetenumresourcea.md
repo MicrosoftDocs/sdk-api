@@ -7,7 +7,6 @@ tech.root: WNet
 ms.assetid: 2c58c6d0-d5fe-447e-be39-df34072c160e
 ms.date: 12/05/2018
 ms.keywords: WNetEnumResource, WNetEnumResource function [Windows Networking (WNet)], WNetEnumResourceA, WNetEnumResourceW, _win32_wnetenumresource, winnetwk/WNetEnumResource, winnetwk/WNetEnumResourceA, winnetwk/WNetEnumResourceW, wnet.wnetenumresource
-ms.topic: function
 f1_keywords:
 - winnetwk/WNetEnumResource
 dev_langs:

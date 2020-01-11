@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: cb6f2869-ec31-49ac-873b-35a0dcd2c8d7
 ms.date: 12/05/2018
 ms.keywords: ITFileTerminalEvent, ITFileTerminalEvent interface [TAPI 2.2], ITFileTerminalEvent interface [TAPI 2.2],described, _tapi3_itfileterminalevent, tapi3.itfileterminalevent, tapi3if/ITFileTerminalEvent
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITFileTerminalEvent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 0cb3cd79-0640-4a3b-8e8b-d81df2ff749f
 ms.date: 12/05/2018
 ms.keywords: GetInputCount, GetInputCount method [windows Media Format], GetInputCount method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],GetInputCount method, IWMWriter.GetInputCount, IWMWriter::GetInputCount, IWMWriterGetInputCount, wmformat.iwmwriter_getinputcount, wmsdkidl/IWMWriter::GetInputCount
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriter.GetInputCount
 dev_langs:

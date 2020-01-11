@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 7f67ba11-41b5-4185-a78d-75c76dbe1fbe
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntry, IUpdateHistoryEntry interface [Windows Update Agent], IUpdateHistoryEntry interface [Windows Update Agent],described, wua.iupdatehistoryentry, wuapi/IUpdateHistoryEntry
-ms.topic: interface
 f1_keywords:
 - wuapi/IUpdateHistoryEntry
 dev_langs:

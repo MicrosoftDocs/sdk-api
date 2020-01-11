@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 2E175E21-D5A3-43B1-8AB9-A427E0F9350E
 ms.date: 12/05/2018
 ms.keywords: PackRatio, PackRatio function [Media Foundation], mf.packratio, mfapi/PackRatio
-ms.topic: function
 f1_keywords:
 - mfapi/PackRatio
 dev_langs:

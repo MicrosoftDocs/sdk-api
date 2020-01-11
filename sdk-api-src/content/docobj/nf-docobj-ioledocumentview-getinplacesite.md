@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: d48cd54c-11b3-4acd-a13a-75a612f1761a
 ms.date: 12/05/2018
 ms.keywords: GetInPlaceSite, GetInPlaceSite method [COM], GetInPlaceSite method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],GetInPlaceSite method, IOleDocumentView.GetInPlaceSite, IOleDocumentView::GetInPlaceSite, _ole_ioledocumentview_getinplacesite, com.ioledocumentview_getinplacesite, docobj/IOleDocumentView::GetInPlaceSite
-ms.topic: method
 f1_keywords:
 - docobj/IOleDocumentView.GetInPlaceSite
 dev_langs:

@@ -5,7 +5,6 @@ description: Provides methods for getting information about the parameters to th
 tech.root: mf
 ms.assetid: 73442724-7999-4044-8afa-9992bf5313b9
 ms.date: 05/28/2019
-ms.topic: interface
 f1_keywords:
 - ID3D12VideoProcessor
 dev_langs:

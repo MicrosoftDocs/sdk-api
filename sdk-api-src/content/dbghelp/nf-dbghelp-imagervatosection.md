@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: a11df748-242b-4dd8-bf57-7ac02548b701
 ms.date: 12/05/2018
 ms.keywords: ImageRvaToSection, ImageRvaToSection function, _win32_imagervatosection, base.imagervatosection, dbghelp/ImageRvaToSection
-ms.topic: function
 f1_keywords:
 - dbghelp/ImageRvaToSection
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b169c784-2ce3-47dc-ad64-3e4c96483f34
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph2 interface [DirectShow],RenderEx method, IFilterGraph2.RenderEx, IFilterGraph2::RenderEx, IFilterGraph2RenderEx, RenderEx, RenderEx method [DirectShow], RenderEx method [DirectShow],IFilterGraph2 interface, dshow.ifiltergraph2_renderex, strmif/IFilterGraph2::RenderEx
-ms.topic: method
 f1_keywords:
 - strmif/IFilterGraph2.RenderEx
 dev_langs:

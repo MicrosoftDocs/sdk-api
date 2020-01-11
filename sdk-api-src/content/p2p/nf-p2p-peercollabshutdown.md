@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 4e328188-c8a1-4ba9-817b-3d130a64b985
 ms.date: 12/05/2018
 ms.keywords: PeerCollabShutdown, PeerCollabShutdown function [Peer Networking], p2p.peercollabshutdown, p2p/PeerCollabShutdown
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabShutdown
 dev_langs:

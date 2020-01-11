@@ -5,7 +5,6 @@ description: The Region::IsVisible method determines whether a point is inside t
 ms.assetid: 6e7059c0-2029-4178-961a-88738894ee83
 ms.date: 05/20/2019
 ms.keywords: Region::IsVisible
-ms.topic: language-reference
 f1_keywords:
 - gdiplusheaders/Region::IsVisible
 dev_langs:

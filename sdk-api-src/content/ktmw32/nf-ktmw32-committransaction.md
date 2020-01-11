@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: 17db5e1f-685b-46f0-bac6-dff4c18bb515
 ms.date: 12/05/2018
 ms.keywords: CommitTransaction, CommitTransaction function [Files], fs.committransaction, ktmw32/CommitTransaction
-ms.topic: function
 f1_keywords:
 - ktmw32/CommitTransaction
 dev_langs:

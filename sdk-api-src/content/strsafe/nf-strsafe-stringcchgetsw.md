@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchgets.htm
 ms.date: 12/05/2018
 ms.keywords: StringCchGets, StringCchGets function [Menus and Other Resources], StringCchGetsA, StringCchGetsW, _shell_StringCchGets, _shell_stringcchgets_cpp, menurc.stringcchgets, strsafe/StringCchGets, strsafe/StringCchGetsA, strsafe/StringCchGetsW, winui._shell_stringcchgets
-ms.topic: function
 f1_keywords:
 - strsafe/StringCchGets
 dev_langs:

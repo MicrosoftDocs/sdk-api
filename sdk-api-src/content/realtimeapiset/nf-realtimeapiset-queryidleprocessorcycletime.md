@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 75a5c4cf-ccc7-47ab-a2a9-88051e0a7d06
 ms.date: 12/05/2018
 ms.keywords: QueryIdleProcessorCycleTime, QueryIdleProcessorCycleTime function, base.queryidleprocessorcycletime, realtimeapiset/QueryIdleProcessorCycleTime, winbase/QueryIdleProcessorCycleTime
-ms.topic: function
 f1_keywords:
 - realtimeapiset/QueryIdleProcessorCycleTime
 dev_langs:

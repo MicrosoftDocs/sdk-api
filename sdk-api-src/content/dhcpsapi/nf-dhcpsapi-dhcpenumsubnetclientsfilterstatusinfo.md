@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: a88455ca-ba64-46d0-af8f-be90c57d96f3
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumSubnetClientsFilterStatusInfo, DhcpEnumSubnetClientsFilterStatusInfo function [DHCP], dhcp.dhcpenumsubnetclientsfilterstatusinfo, dhcpsapi/DhcpEnumSubnetClientsFilterStatusInfo
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpEnumSubnetClientsFilterStatusInfo
 dev_langs:

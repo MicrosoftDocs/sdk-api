@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: a4a46b77-f8ab-4062-b966-1590ea9e46d2
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerInvokeInteractiveUI, EapHostPeerInvokeInteractiveUI function [EAPHost], eaphost.eaphostpeerinvokeinteractiveui, eaphostpeerconfigapis/EapHostPeerInvokeInteractiveUI
-ms.topic: function
 f1_keywords:
 - eaphostpeerconfigapis/EapHostPeerInvokeInteractiveUI
 dev_langs:

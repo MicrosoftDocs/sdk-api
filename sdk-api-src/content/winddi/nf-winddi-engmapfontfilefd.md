@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 582570b0-981f-4852-974f-cb6575c68717
 ms.date: 12/05/2018
 ms.keywords: EngMapFontFileFD, EngMapFontFileFD function [Display Devices], display.engmapfontfilefd, gdifncs_873b241c-9910-4699-8962-576e6083e1f0.xml, winddi/EngMapFontFileFD
-ms.topic: function
 f1_keywords:
 - winddi/EngMapFontFileFD
 dev_langs:

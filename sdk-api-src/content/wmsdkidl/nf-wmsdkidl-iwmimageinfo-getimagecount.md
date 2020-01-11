@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 95cf5906-9cbc-4bba-8892-236672cf4068
 ms.date: 12/05/2018
 ms.keywords: GetImageCount, GetImageCount method [windows Media Format], GetImageCount method [windows Media Format],IWMImageInfo interface, IWMImageInfo interface [windows Media Format],GetImageCount method, IWMImageInfo.GetImageCount, IWMImageInfo::GetImageCount, IWMImageInfoGetImageCount, wmformat.iwmimageinfo_getimagecount, wmsdkidl/IWMImageInfo::GetImageCount
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMImageInfo.GetImageCount
 dev_langs:

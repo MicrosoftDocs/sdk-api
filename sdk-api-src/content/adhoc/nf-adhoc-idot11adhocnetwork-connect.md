@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 3272e0fe-0844-4e02-bd5f-a1e1c656074d
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [NativeWIFI], Connect method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],Connect method, IDot11AdHocNetwork.Connect, IDot11AdHocNetwork::Connect, adhoc/IDot11AdHocNetwork::Connect, nwifi.idot11adhocnetwork_connect
-ms.topic: method
 f1_keywords:
 - adhoc/IDot11AdHocNetwork.Connect
 dev_langs:

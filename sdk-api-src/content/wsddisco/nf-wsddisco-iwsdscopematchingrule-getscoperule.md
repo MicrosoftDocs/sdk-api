@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 86ce14eb-555f-4575-a335-8a428cffa20d
 ms.date: 12/05/2018
 ms.keywords: GetScopeRule, GetScopeRule method, GetScopeRule method,IWSDScopeMatchingRule interface, IWSDScopeMatchingRule interface,GetScopeRule method, IWSDScopeMatchingRule.GetScopeRule, IWSDScopeMatchingRule::GetScopeRule, ncd.iwsdscopematchingrule_getscoperule_method, wsddisco/IWSDScopeMatchingRule::GetScopeRule
-ms.topic: method
 f1_keywords:
 - wsddisco/IWSDScopeMatchingRule.GetScopeRule
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 119e9e2f-0e26-4dfc-9c89-156b63a63640
 ms.date: 12/05/2018
 ms.keywords: 119e9e2f-0e26-4dfc-9c89-156b63a63640, MFGetService, MFGetService function [Media Foundation], mf.mfgetservice, mfidl/MFGetService
-ms.topic: function
 f1_keywords:
 - mfidl/MFGetService
 dev_langs:

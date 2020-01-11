@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 0c57aa3f-1d9a-4bb2-b142-bce9c054e658
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_PROVIDER_NAME, BCRYPT_PROVIDER_NAME structure [Security], bcrypt/BCRYPT_PROVIDER_NAME, security.bcrypt_provider_name_struct
-ms.topic: struct
 f1_keywords:
 - bcrypt/BCRYPT_PROVIDER_NAME
 dev_langs:

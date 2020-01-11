@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1f12140b-d10d-47d9-8bac-33fab084bff4
 ms.date: 12/05/2018
 ms.keywords: GetFiltergraph, GetFiltergraph method [DirectShow], GetFiltergraph method [DirectShow],IDvdGraphBuilder interface, IDvdGraphBuilder interface [DirectShow],GetFiltergraph method, IDvdGraphBuilder.GetFiltergraph, IDvdGraphBuilder::GetFiltergraph, IDvdGraphBuilderGetFiltergraph, dshow.idvdgraphbuilder_getfiltergraph, strmif/IDvdGraphBuilder::GetFiltergraph
-ms.topic: method
 f1_keywords:
 - strmif/IDvdGraphBuilder.GetFiltergraph
 dev_langs:

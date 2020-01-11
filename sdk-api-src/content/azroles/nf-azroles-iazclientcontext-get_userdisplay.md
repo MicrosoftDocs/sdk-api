@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: db75ecc1-0096-4e14-a5be-10b596ad5163
 ms.date: 12/05/2018
 ms.keywords: AzClientContext object [Security],UserDisplay property, IAzClientContext interface [Security],UserDisplay property, IAzClientContext.UserDisplay, IAzClientContext.get_UserDisplay, IAzClientContext::UserDisplay, IAzClientContext::get_UserDisplay, UserDisplay property [Security], UserDisplay property [Security],AzClientContext object, UserDisplay property [Security],IAzClientContext interface, azroles/IAzClientContext::UserDisplay, azroles/IAzClientContext::get_UserDisplay, get_UserDisplay, security.iazclientcontext_userdisplay
-ms.topic: method
 f1_keywords:
 - azroles/IAzClientContext.UserDisplay
 dev_langs:

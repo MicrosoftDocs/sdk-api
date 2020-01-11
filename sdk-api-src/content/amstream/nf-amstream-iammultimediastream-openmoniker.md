@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ccfed197-6637-4283-9996-56049da49b84
 ms.date: 12/05/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],OpenMoniker method, IAMMultiMediaStream.OpenMoniker, IAMMultiMediaStream::OpenMoniker, IAMMultiMediaStreamOpenMoniker, OpenMoniker, OpenMoniker method [DirectShow], OpenMoniker method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::OpenMoniker, dshow.iammultimediastream_openmoniker
-ms.topic: method
 f1_keywords:
 - amstream/IAMMultiMediaStream.OpenMoniker
 dev_langs:

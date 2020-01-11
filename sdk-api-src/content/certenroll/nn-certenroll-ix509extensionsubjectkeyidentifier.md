@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: dcf28967-65e0-4669-b1b1-b3d42f1b3d6b
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionSubjectKeyIdentifier, IX509ExtensionSubjectKeyIdentifier interface [Security], IX509ExtensionSubjectKeyIdentifier interface [Security],described, certenroll/IX509ExtensionSubjectKeyIdentifier, security.ix509extensionsubjectkeyidentifier
-ms.topic: interface
 f1_keywords:
 - certenroll/IX509ExtensionSubjectKeyIdentifier
 dev_langs:

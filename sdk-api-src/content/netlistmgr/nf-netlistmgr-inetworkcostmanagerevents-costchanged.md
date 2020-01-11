@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: 39262F6A-9701-4917-BBDF-1BAC201585D4
 ms.date: 12/05/2018
 ms.keywords: CostChanged, CostChanged method [Network Awareness], CostChanged method [Network Awareness],INetworkCostManagerEvents interface, INetworkCostManagerEvents interface [Network Awareness],CostChanged method, INetworkCostManagerEvents.CostChanged, INetworkCostManagerEvents::CostChanged, netlistmgr/INetworkCostManagerEvents::CostChanged, nla.inetworkcostmanagerevents_costchanged
-ms.topic: method
 f1_keywords:
 - netlistmgr/INetworkCostManagerEvents.CostChanged
 dev_langs:

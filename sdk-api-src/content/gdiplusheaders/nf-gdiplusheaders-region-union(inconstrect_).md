@@ -5,7 +5,6 @@ description: The Region::Union method updates this region.
 ms.assetid: dde2ebc1-cb66-41ac-81ef-5ef53f427ed7
 ms.date: 05/20/2019
 ms.keywords: Region::Union
-ms.topic: language-reference
 f1_keywords:
 - gdiplusheaders/Region::Union
 dev_langs:

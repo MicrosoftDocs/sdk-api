@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 64e44cab-b618-49af-bf0e-966b9eaa198a
 ms.date: 12/05/2018
 ms.keywords: IOleAdviseHolder interface [COM],SendOnRename method, IOleAdviseHolder.SendOnRename, IOleAdviseHolder::SendOnRename, SendOnRename, SendOnRename method [COM], SendOnRename method [COM],IOleAdviseHolder interface, _ole_ioleadviseholder_sendonrename, com.ioleadviseholder_sendonrename, oleidl/IOleAdviseHolder::SendOnRename
-ms.topic: method
 f1_keywords:
 - oleidl/IOleAdviseHolder.SendOnRename
 dev_langs:

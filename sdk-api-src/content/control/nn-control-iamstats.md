@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 01dbaba2-fdca-4f42-8816-fd99c4364dbd
 ms.date: 12/05/2018
 ms.keywords: IAMStats, IAMStats interface [DirectShow], IAMStats interface [DirectShow],described, IAMStatsInterface, control/IAMStats, dshow.iamstats
-ms.topic: interface
 f1_keywords:
 - control/IAMStats
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 2f13002f-bdaa-4c82-859a-da932615dd81
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeOSVersion interface [Security],InitializeDecode method, IX509AttributeOSVersion.InitializeDecode, IX509AttributeOSVersion::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509AttributeOSVersion interface, certenroll/IX509AttributeOSVersion::InitializeDecode, security.ix509attributeosversioner_initializedecode_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509AttributeOSVersion.InitializeDecode
 dev_langs:

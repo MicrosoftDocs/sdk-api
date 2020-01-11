@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: C265E5FC-F7A1-4E87-8311-C4D0613DD7BC
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTranslateTransform3D, IDCompositionTranslateTransform3D interface [DirectComposition], IDCompositionTranslateTransform3D interface [DirectComposition],described, dcomp/IDCompositionTranslateTransform3D, directcomp.idcompositiontranslatetransform3d
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionTranslateTransform3D
 dev_langs:

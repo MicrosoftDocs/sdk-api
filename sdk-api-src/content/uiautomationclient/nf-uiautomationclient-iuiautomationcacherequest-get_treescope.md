@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 3e45f35c-8a24-482f-acb6-9af6ce05d7fd
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationCacheRequest interface [Windows Accessibility],TreeScope property, IUIAutomationCacheRequest.TreeScope, IUIAutomationCacheRequest.get_TreeScope, IUIAutomationCacheRequest::TreeScope, IUIAutomationCacheRequest::get_TreeScope, IUIAutomationCacheRequest::put_TreeScope, TreeScope property [Windows Accessibility], TreeScope property [Windows Accessibility],IUIAutomationCacheRequest interface, get_TreeScope, uiauto.uiauto_IUIAutomationCacheRequest_TreeScope, uiauto_IUIAutomationCacheRequest_TreeScope, uiautomationclient/IUIAutomationCacheRequest::TreeScope, uiautomationclient/IUIAutomationCacheRequest::get_TreeScope, uiautomationclient/IUIAutomationCacheRequest::put_TreeScope, winauto.uiauto_IUIAutomationCacheRequest_TreeScope
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationCacheRequest.TreeScope
 dev_langs:

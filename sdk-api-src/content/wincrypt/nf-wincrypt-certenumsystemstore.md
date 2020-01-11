@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: fd9cb23b-e4a3-41cb-8f0a-30f4e813c6ac
 ms.date: 12/05/2018
 ms.keywords: CertEnumSystemStore, CertEnumSystemStore function [Security], _crypto2_certenumsystemstore, security.certenumsystemstore, wincrypt/CertEnumSystemStore
-ms.topic: function
 f1_keywords:
 - wincrypt/CertEnumSystemStore
 dev_langs:

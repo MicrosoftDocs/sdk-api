@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a
 ms.date: 12/05/2018
 ms.keywords: ITStream, ITStream interface [TAPI 2.2], ITStream interface [TAPI 2.2],described, _tapi3_itstream, tapi3.itstream, tapi3if/ITStream
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITStream
 dev_langs:

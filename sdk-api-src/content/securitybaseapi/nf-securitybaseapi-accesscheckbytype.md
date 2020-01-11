@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 50acfc17-459d-464c-9927-88b32dd424c7
 ms.date: 12/05/2018
 ms.keywords: AccessCheckByType, AccessCheckByType function [Security], _win32_accesscheckbytype, security.accesscheckbytype, securitybaseapi/AccessCheckByType
-ms.topic: function
 f1_keywords:
 - securitybaseapi/AccessCheckByType
 dev_langs:

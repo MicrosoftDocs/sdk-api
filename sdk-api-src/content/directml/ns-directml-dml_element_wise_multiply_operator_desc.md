@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 1ACECE42-6B96-487D-998E-DDCD202E8A01
 ms.date: 12/5/2018
 ms.keywords: DML_ELEMENT_WISE_MULTIPLY_OPERATOR_DESC, DML_ELEMENT_WISE_MULTIPLY_OPERATOR_DESC structure, direct3d12.dml_element_wise_multiply_operator_desc, directml/DML_ELEMENT_WISE_MULTIPLY_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_ELEMENT_WISE_MULTIPLY_OPERATOR_DESC
 dev_langs:

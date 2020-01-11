@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 701ff07e-2dd1-4985-8fc4-f570749c5834
 ms.date: 12/05/2018
 ms.keywords: IPrincipal2 interface [Task Scheduler],RequiredPrivilege property, IPrincipal2.RequiredPrivilege, IPrincipal2.get_RequiredPrivilege, IPrincipal2::RequiredPrivilege, IPrincipal2::get_RequiredPrivilege, RequiredPrivilege property [Task Scheduler], RequiredPrivilege property [Task Scheduler],IPrincipal2 interface, get_RequiredPrivilege, taskschd.iprincipal2_requiredprivilege, taskschd/IPrincipal2::RequiredPrivilege, taskschd/IPrincipal2::get_RequiredPrivilege
-ms.topic: method
 f1_keywords:
 - taskschd/IPrincipal2.RequiredPrivilege
 dev_langs:

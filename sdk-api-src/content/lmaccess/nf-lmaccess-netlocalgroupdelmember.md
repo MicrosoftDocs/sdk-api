@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 4a231da6-904e-4b49-9855-03e004a0b695
 ms.date: 12/05/2018
 ms.keywords: NetLocalGroupDelMember, NetLocalGroupDelMember function [Network Management], _win32_netlocalgroupdelmember, lmaccess/NetLocalGroupDelMember, netmgmt.netlocalgroupdelmember
-ms.topic: function
 f1_keywords:
 - lmaccess/NetLocalGroupDelMember
 dev_langs:

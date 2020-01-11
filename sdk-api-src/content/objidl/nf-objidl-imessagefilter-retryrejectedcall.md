@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3f800819-2a21-4e46-ad15-f9594fac1a3d
 ms.date: 12/05/2018
 ms.keywords: IMessageFilter interface [COM],RetryRejectedCall method, IMessageFilter.RetryRejectedCall, IMessageFilter::RetryRejectedCall, RetryRejectedCall, RetryRejectedCall method [COM], RetryRejectedCall method [COM],IMessageFilter interface, _com_imessagefilter_retryrejectedcall, com.imessagefilter_retryrejectedcall, objidl/IMessageFilter::RetryRejectedCall
-ms.topic: method
 f1_keywords:
 - objidl/IMessageFilter.RetryRejectedCall
 dev_langs:

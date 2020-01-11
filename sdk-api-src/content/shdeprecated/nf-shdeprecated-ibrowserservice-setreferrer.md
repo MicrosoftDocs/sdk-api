@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6458f28c-4eab-45dc-bc99-24e5f9ea3553
 ms.date: 12/05/2018
 ms.keywords: IBrowserService interface [Windows Shell],SetReferrer method, IBrowserService.SetReferrer, IBrowserService::SetReferrer, SetReferrer, SetReferrer method [Windows Shell], SetReferrer method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetReferrer, shell.IBrowserService_SetReferrer, zone_IBrowserService_SetReferrer
-ms.topic: method
 f1_keywords:
 - shdeprecated/IBrowserService.SetReferrer
 dev_langs:

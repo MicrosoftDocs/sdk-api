@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 7e762942-37b2-43ca-96e3-98594b929d98
 ms.date: 12/05/2018
 ms.keywords: IWSDMessageParameters interface,SetRemoteAddress method, IWSDMessageParameters.SetRemoteAddress, IWSDMessageParameters::SetRemoteAddress, SetRemoteAddress, SetRemoteAddress method, SetRemoteAddress method,IWSDMessageParameters interface, ncd.iwsdmessageparameters_setremoteaddress, wsdbase/IWSDMessageParameters::SetRemoteAddress
-ms.topic: method
 f1_keywords:
 - wsdbase/IWSDMessageParameters.SetRemoteAddress
 dev_langs:

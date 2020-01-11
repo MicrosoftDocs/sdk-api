@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 92932E4C-0A06-4CDE-B14B-BF53226E133B
 ms.date: 12/05/2018
 ms.keywords: ETW_PROCESS_HANDLE_INFO_TYPE, ETW_PROCESS_HANDLE_INFO_TYPE enumeration [ETW], EtwQueryPartitionInformation, EtwQueryProcessHandleInfoMax, etw.etw_process_handle_info_type, evntrace/ETW_PROCESS_HANDLE_INFO_TYPE, evntrace/EtwQueryPartitionInformation, evntrace/EtwQueryProcessHandleInfoMax
-ms.topic: enum
 f1_keywords:
 - evntrace/ETW_PROCESS_HANDLE_INFO_TYPE
 dev_langs:

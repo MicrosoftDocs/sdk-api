@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iinterval\iinterval.htm
 ms.date: 12/05/2018
 ms.keywords: IInterval, IInterval interface [search], IInterval interface [search],described, _search_IInterval, search._search_IInterval, structuredquery/IInterval
-ms.topic: interface
 f1_keywords:
 - structuredquery/IInterval
 dev_langs:

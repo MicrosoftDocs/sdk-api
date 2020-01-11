@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 7f8e9b53-3aff-491c-ab0c-2f414d1ddb27
 ms.date: 12/05/2018
 ms.keywords: EnumAttachedSurfaces, EnumAttachedSurfaces method [DirectDraw], EnumAttachedSurfaces method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],EnumAttachedSurfaces method, IDirectDrawSurface7.EnumAttachedSurfaces, IDirectDrawSurface7::EnumAttachedSurfaces, ddraw/IDirectDrawSurface7::EnumAttachedSurfaces, directdraw.idirectdrawsurface7_enumattachedsurfaces
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawSurface7.EnumAttachedSurfaces
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 197804a2-63e5-4f0c-9d6d-4abc751a8a82
 ms.date: 12/05/2018
 ms.keywords: GetColumnConfigData, GetColumnConfigData method [MMC], GetColumnConfigData method [MMC],IColumnData interface, IColumnData interface [MMC],GetColumnConfigData method, IColumnData.GetColumnConfigData, IColumnData::GetColumnConfigData, _slate_icolumndata_getcolumnconfigdata, mmc.icolumndata_getcolumnconfigdata, mmc/IColumnData::GetColumnConfigData
-ms.topic: method
 f1_keywords:
 - mmc/IColumnData.GetColumnConfigData
 dev_langs:

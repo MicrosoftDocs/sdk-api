@@ -7,7 +7,6 @@ tech.root: ual
 ms.assetid: C7A0340F-3250-4570-9672-FC78AFC9ECC6
 ms.date: 12/05/2018
 ms.keywords: UalInstrument, UalInstrument function [User Access Logging], ual.ualinstrument, ual/UalInstrument
-ms.topic: function
 f1_keywords:
 - ual/UalInstrument
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinProg
 ms.assetid: 30419ce3-3874-4066-91c8-7f63dfb50169
 ms.date: 12/05/2018
 ms.keywords: MulDiv, MulDiv function [Windows API], _win32_muldiv, winbase/MulDiv, winprog.muldiv
-ms.topic: function
 f1_keywords:
 - winbase/MulDiv
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: FBFBD963-0461-4357-9362-D32A83C1F969
 ms.date: 12/05/2018
 ms.keywords: _lclose, _lclose function [Windows API], winbase/_lclose, winprog._lclose
-ms.topic: function
 f1_keywords:
 - winbase/_lclose
 dev_langs:

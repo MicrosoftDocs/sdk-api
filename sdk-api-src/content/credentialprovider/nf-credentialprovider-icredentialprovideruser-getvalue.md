@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: CA8CD897-127E-4113-A5A5-08110E0E6C17
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Windows Shell], GetValue method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetValue method, ICredentialProviderUser.GetValue, ICredentialProviderUser::GetValue, credentialprovider/ICredentialProviderUser::GetValue, shell.ICredentialProviderUser_GetValue
-ms.topic: method
 f1_keywords:
 - credentialprovider/ICredentialProviderUser.GetValue
 dev_langs:

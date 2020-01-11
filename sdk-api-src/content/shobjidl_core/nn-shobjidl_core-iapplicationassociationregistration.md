@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 015a3be4-2e74-4a2b-8c02-54dcbf0ecacd
 ms.date: 12/05/2018
 ms.keywords: IApplicationAssociationRegistration, IApplicationAssociationRegistration interface [Windows Shell], IApplicationAssociationRegistration interface [Windows Shell],described, _shell_IApplicationAssociationRegistration, shell.IApplicationAssociationRegistration, shobjidl_core/IApplicationAssociationRegistration
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IApplicationAssociationRegistration
 dev_langs:

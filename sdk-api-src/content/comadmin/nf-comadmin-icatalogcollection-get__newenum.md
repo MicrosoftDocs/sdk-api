@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 82ba706c-4f66-448e-b6fa-33be496c56b2
 ms.date: 12/05/2018
 ms.keywords: ICatalogCollection interface [COM+],_NewEnum property, ICatalogCollection._NewEnum, ICatalogCollection.get__NewEnum, ICatalogCollection::_NewEnum, ICatalogCollection::get__NewEnum, _NewEnum property [COM+], _NewEnum property [COM+],ICatalogCollection interface, _cos_ICatalogCollection_get__NewEnum, comadmin/ICatalogCollection::_NewEnum, comadmin/ICatalogCollection::get__NewEnum, cos.icatalogcollection__newenum, get__NewEnum
-ms.topic: method
 f1_keywords:
 - comadmin/ICatalogCollection._NewEnum
 dev_langs:

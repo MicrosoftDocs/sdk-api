@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 0d3cc66e-575d-4451-bab7-e3dd24fd5060
 ms.date: 12/05/2018
 ms.keywords: EnumParams, EnumParams method [Windows Runtime], EnumParams method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumParams method, IMetaDataImport.EnumParams, IMetaDataImport::EnumParams, rometadataapi/IMetaDataImport::EnumParams, winrt.imetadataimport_enumparams
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataImport.EnumParams
 dev_langs:

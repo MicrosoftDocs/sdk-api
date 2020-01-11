@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 72cc10ae-ba0e-4f3a-a376-c0b1999b074e
 ms.date: 12/05/2018
 ms.keywords: WS_VALIDATE_SAML_CALLBACK, WS_VALIDATE_SAML_CALLBACK callback, WS_VALIDATE_SAML_CALLBACK callback function [Web Services for Windows], webservices/WS_VALIDATE_SAML_CALLBACK, wsw.ws_validate_saml_callback
-ms.topic: callback
 f1_keywords:
 - webservices/WS_VALIDATE_SAML_CALLBACK
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 233821e9-9916-4047-a554-4ff43769819f
 ms.date: 12/05/2018
 ms.keywords: IStreamBuilder, IStreamBuilder interface [DirectShow], IStreamBuilder interface [DirectShow],described, IStreamBuilderInterface, dshow.istreambuilder, strmif/IStreamBuilder
-ms.topic: interface
 f1_keywords:
 - strmif/IStreamBuilder
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 069d9cc9-0478-457a-826b-2e4d1e1b0b05
 ms.date: 12/05/2018
 ms.keywords: GetDotStuffState, GetDotStuffState function [Windows API], filehc/GetDotStuffState, winprog._getdotstuffstate
-ms.topic: function
 f1_keywords:
 - filehc/GetDotStuffState
 dev_langs:

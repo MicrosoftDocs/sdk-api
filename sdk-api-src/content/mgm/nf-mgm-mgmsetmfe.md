@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 143c080a-be80-47fb-a159-e6c95aa0d7ea
 ms.date: 12/05/2018
 ms.keywords: MgmSetMfe, MgmSetMfe function [RAS], _mpr_mgmsetmfe, mgm/MgmSetMfe, rras.mgmsetmfe
-ms.topic: function
 f1_keywords:
 - mgm/MgmSetMfe
 dev_langs:

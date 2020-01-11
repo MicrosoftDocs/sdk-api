@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 60fa6676-c098-41b6-bebd-0a600ca37954
 ms.date: 12/05/2018
 ms.keywords: GetResourceTypeInfo, GetResourceTypeInfo method [Remote Desktop Services], GetResourceTypeInfo method [Remote Desktop Services],IWorkspaceResTypeRegistry interface, GetResourceTypeInfo method [Remote Desktop Services],Workspace object, IWorkspaceResTypeRegistry interface [Remote Desktop Services],GetResourceTypeInfo method, IWorkspaceResTypeRegistry.GetResourceTypeInfo, IWorkspaceResTypeRegistry::GetResourceTypeInfo, Workspace object [Remote Desktop Services],GetResourceTypeInfo method, termserv.iworkspacerestyperegistry_getresourcetypeinfo, workspaceax/IWorkspaceResTypeRegistry::GetResourceTypeInfo
-ms.topic: method
 f1_keywords:
 - workspaceax/IWorkspaceResTypeRegistry.GetResourceTypeInfo
 dev_langs:

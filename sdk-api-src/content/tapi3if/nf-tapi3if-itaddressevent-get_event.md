@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 46dc4ce8-2453-47bb-a101-d925c9317b90
 ms.date: 12/05/2018
 ms.keywords: ITAddressEvent interface [TAPI 2.2],get_Event method, ITAddressEvent.get_Event, ITAddressEvent::get_Event, _tapi3_itaddressevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITAddressEvent interface, tapi3.itaddressevent_get_event, tapi3if/ITAddressEvent::get_Event
-ms.topic: method
 f1_keywords:
 - tapi3if/ITAddressEvent.get_Event
 dev_langs:

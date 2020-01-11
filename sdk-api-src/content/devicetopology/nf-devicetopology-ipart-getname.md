@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: a583f445-ebb2-4072-a272-6f186aef71b3
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Core Audio], GetName method [Core Audio],IPart interface, IPart interface [Core Audio],GetName method, IPart.GetName, IPart::GetName, IPartGetName, coreaudio.ipart_getname, devicetopology/IPart::GetName
-ms.topic: method
 f1_keywords:
 - devicetopology/IPart.GetName
 dev_langs:

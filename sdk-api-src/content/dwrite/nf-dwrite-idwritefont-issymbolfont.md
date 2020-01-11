@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 08fcbf51-6a88-4d92-848e-dc159d94d1d1
 ms.date: 12/05/2018
 ms.keywords: IDWriteFont interface [Direct Write],IsSymbolFont method, IDWriteFont.IsSymbolFont, IDWriteFont::IsSymbolFont, IsSymbolFont, IsSymbolFont method [Direct Write], IsSymbolFont method [Direct Write],IDWriteFont interface, directwrite.IDWriteFont_IsSymbolFont, dwrite/IDWriteFont::IsSymbolFont
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteFont.IsSymbolFont
 dev_langs:

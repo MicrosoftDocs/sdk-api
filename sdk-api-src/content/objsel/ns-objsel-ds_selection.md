@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 7a587997-0423-450f-a845-bddf12b69fae
 ms.date: 12/05/2018
 ms.keywords: '*PDS_SELECTION, DS_SELECTION, DS_SELECTION structure [Active Directory], PDS_SELECTION, PDS_SELECTION structure pointer [Active Directory], _glines_ds_selection, ad.ds__selection, ad.ds_selection, objsel/DS_SELECTION, objsel/PDS_SELECTION'
-ms.topic: struct
 f1_keywords:
 - objsel/DS_SELECTION
 dev_langs:

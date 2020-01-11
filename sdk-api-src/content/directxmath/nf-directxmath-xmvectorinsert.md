@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorInsert(XMVECTOR,XMVECTOR,uint32_t,uint32_t,uint32_t,uint32_t,uint32_t)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorInsert, XMVectorInsert, XMVectorInsert method [DirectX Math Support APIs], dxmath.xmvectorinsert
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorInsert
 dev_langs:

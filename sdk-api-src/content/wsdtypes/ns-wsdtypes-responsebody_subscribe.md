@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 8cba3835-9695-4741-b5ac-faba11c1c974
 ms.date: 12/05/2018
 ms.keywords: RESPONSEBODY_Subscribe, RESPONSEBODY_Subscribe structure, ncd.responsebody_subscribe_struct, wsdtypes/RESPONSEBODY_Subscribe
-ms.topic: struct
 f1_keywords:
 - wsdtypes/RESPONSEBODY_Subscribe
 dev_langs:

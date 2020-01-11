@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 6E2A5578-8308-41E2-B5E9-5E34E9E76C0B
 ms.date: 12/05/2018
 ms.keywords: NetCreateProvisioningPackage, NetCreateProvisioningPackage function [Network Management], aCertTemplateNames, aMachinePolicyNames, aMachinePolicyPaths, cCertTemplateNames, cMachinePolicyNames, cMachinePolicyPaths, dwProvisionOptions, dwVersion, lmjoin/NetCreateProvisioningPackage, lpDcName, lpDomain, lpMachineAccountOU, lpMachineName, netmgmt.netcreateprovisioningpackage
-ms.topic: function
 f1_keywords:
 - lmjoin/NetCreateProvisioningPackage
 dev_langs:

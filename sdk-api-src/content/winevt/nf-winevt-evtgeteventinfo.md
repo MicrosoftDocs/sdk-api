@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: 69aa22a1-10c1-43bd-ae3b-d7641bed2065
 ms.date: 12/05/2018
 ms.keywords: EvtGetEventInfo, EvtGetEventInfo function [EventLog], wes.evtgeteventinfo, winevt/EvtGetEventInfo
-ms.topic: function
 f1_keywords:
 - winevt/EvtGetEventInfo
 dev_langs:

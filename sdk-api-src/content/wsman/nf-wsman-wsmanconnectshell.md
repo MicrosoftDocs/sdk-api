@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: B765AB84-5EDA-46D6-9150-A8BBD101EF10
 ms.date: 12/05/2018
 ms.keywords: WSManConnectShell, WSManConnectShell function [Windows Remote Management], winrm.wsmanconnectshell, wsman/WSManConnectShell
-ms.topic: function
 f1_keywords:
 - wsman/WSManConnectShell
 dev_langs:

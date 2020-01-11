@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorRound(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorRound, XMVectorRound, XMVectorRound method [DirectX Math Support APIs], dxmath.xmvectorround
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorRound
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: 07DDC46A-0C10-4677-A4B0-5A0406BBDAB7
 ms.date: 12/05/2018
 ms.keywords: CfGetTransferKey, CfGetTransferKey function, cfapi/CfGetTransferKey, cloudApi.cfgettransferkey
-ms.topic: function
 f1_keywords:
 - cfapi/CfGetTransferKey
 dev_langs:

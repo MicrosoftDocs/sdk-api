@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 93a37f59-4269-4f84-93dc-8350aabd4ebe
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],erase method, IWMPCdromBurn.erase, IWMPCdromBurn::erase, IWMPCdromBurnerase, erase, erase method [Windows Media Player], erase method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_erase, wmp/IWMPCdromBurn::erase
-ms.topic: method
 f1_keywords:
 - wmp/IWMPCdromBurn.erase
 dev_langs:

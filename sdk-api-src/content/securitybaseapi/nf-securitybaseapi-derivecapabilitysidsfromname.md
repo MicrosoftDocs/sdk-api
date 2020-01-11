@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 1A911FCC-6D11-4185-B532-20FE6C7C4B0B
 ms.date: 12/05/2018
 ms.keywords: DeriveCapabilitySidsFromName, DeriveCapabilitySidsFromName function [Security], security.derivecapabilitysidsfromname, securitybaseapi/DeriveCapabilitySidsFromName
-ms.topic: function
 f1_keywords:
 - securitybaseapi/DeriveCapabilitySidsFromName
 dev_langs:

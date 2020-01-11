@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 3c5a0c04-9789-48dc-bc8f-a8b5ff350e27
 ms.date: 12/05/2018
 ms.keywords: '*PMAPPING_ENUM_OPTIONS, MAPPING_ENUM_OPTIONS, MAPPING_ENUM_OPTIONS structure [Internationalization for Windows Applications], PMAPPING_ENUM_OPTIONS, PMAPPING_ENUM_OPTIONS structure pointer [Internationalization for Windows Applications], elscore/MAPPING_ENUM_OPTIONS, elscore/PMAPPING_ENUM_OPTIONS, intl.mappingenumoptions'
-ms.topic: struct
 f1_keywords:
 - elscore/MAPPING_ENUM_OPTIONS
 dev_langs:

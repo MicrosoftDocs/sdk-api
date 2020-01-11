@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7998f49d-2515-4c77-991e-62c0fefa43df
 ms.date: 12/05/2018
 ms.keywords: SHCreateAssociationRegistration, SHCreateAssociationRegistration function [Windows Shell], _shell_SHCreateAssociationRegistration, shell.SHCreateAssociationRegistration, shobjidl_core/SHCreateAssociationRegistration
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHCreateAssociationRegistration
 dev_langs:

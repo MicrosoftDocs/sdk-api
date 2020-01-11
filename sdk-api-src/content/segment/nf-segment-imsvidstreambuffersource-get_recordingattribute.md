@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 9e7020c8-778d-4a24-ae29-3e66d4ac165a
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],get_RecordingAttribute method, IMSVidStreamBufferSource.get_RecordingAttribute, IMSVidStreamBufferSource::get_RecordingAttribute, IMSVidStreamBufferSourceget_RecordingAttribute, get_RecordingAttribute, get_RecordingAttribute method [Microsoft TV Technologies], get_RecordingAttribute method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_get_recordingattribute, segment/IMSVidStreamBufferSource::get_RecordingAttribute
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferSource.get_RecordingAttribute
 dev_langs:

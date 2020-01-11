@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 62c35cb1-f1e0-4852-9a59-555cf979615f
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],LeftButtonSelect method, IDvdControl.LeftButtonSelect, IDvdControl::LeftButtonSelect, IDvdControlLeftButtonSelect, LeftButtonSelect, LeftButtonSelect method [DirectShow], LeftButtonSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_leftbuttonselect, strmif/IDvdControl::LeftButtonSelect
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.LeftButtonSelect
 dev_langs:

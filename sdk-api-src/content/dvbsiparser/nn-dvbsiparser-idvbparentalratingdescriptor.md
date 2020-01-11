@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 667ef815-ef22-4dd1-9457-49af674b24ab
 ms.date: 12/05/2018
 ms.keywords: IDvbParentalRatingDescriptor, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies], IDvbParentalRatingDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbParentalRatingDescriptor, mstv.idvbparentalratingdescriptor
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IDvbParentalRatingDescriptor
 dev_langs:

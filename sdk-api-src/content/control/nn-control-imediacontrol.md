@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: bce64088-3751-420c-b9de-b9b5f3119198
 ms.date: 12/05/2018
 ms.keywords: IMediaControl, IMediaControl interface [DirectShow], IMediaControl interface [DirectShow],described, IMediaControlInterface, control/IMediaControl, dshow.imediacontrol
-ms.topic: interface
 f1_keywords:
 - control/IMediaControl
 dev_langs:

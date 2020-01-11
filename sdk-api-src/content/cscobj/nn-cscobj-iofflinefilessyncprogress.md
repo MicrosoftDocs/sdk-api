@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 7fc5ff29-be9d-4fad-96a8-94058bb708fa
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSyncProgress, IOfflineFilesSyncProgress interface [Offline Files], IOfflineFilesSyncProgress interface [Offline Files],described, cscobj/IOfflineFilesSyncProgress, of.iofflinefilessyncprogress
-ms.topic: interface
 f1_keywords:
 - cscobj/IOfflineFilesSyncProgress
 dev_langs:

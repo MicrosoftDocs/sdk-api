@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 16A07BA6-05C2-4CA6-97D6-F1B4CEE1E757
 ms.date: 12/05/2018
 ms.keywords: EnumDocumentMgrs, EnumDocumentMgrs method [Text Services Framework], EnumDocumentMgrs method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],EnumDocumentMgrs method, ITfThreadMgr2.EnumDocumentMgrs, ITfThreadMgr2::EnumDocumentMgrs, msctf/ITfThreadMgr2::EnumDocumentMgrs, tsf.itfthreadmgr2_enumdocumentmgrs
-ms.topic: method
 f1_keywords:
 - msctf/ITfThreadMgr2.EnumDocumentMgrs
 dev_langs:

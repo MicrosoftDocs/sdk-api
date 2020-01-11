@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: e6ac3789-1989-4331-ad00-6720f4503bb7
 ms.date: 12/05/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],get_MaxChannel method, IAnalogTVTuningSpace.get_MaxChannel, IAnalogTVTuningSpace::get_MaxChannel, IAnalogTVTuningSpaceget_MaxChannel, get_MaxChannel, get_MaxChannel method [Microsoft TV Technologies], get_MaxChannel method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, mstv.ianalogtvtuningspace_get_maxchannel, tuner/IAnalogTVTuningSpace::get_MaxChannel
-ms.topic: method
 f1_keywords:
 - tuner/IAnalogTVTuningSpace.get_MaxChannel
 dev_langs:

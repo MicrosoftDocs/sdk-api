@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 243cd002-c882-4ce9-b528-1a2229c46f4a
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],RequestSupportedAttrs method, ITextStoreACP.RequestSupportedAttrs, ITextStoreACP::RequestSupportedAttrs, RequestSupportedAttrs, RequestSupportedAttrs method [Text Services Framework], RequestSupportedAttrs method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_requestsupportedattrs_ref, textstor/ITextStoreACP::RequestSupportedAttrs, tsf.itextstoreacp_requestsupportedattrs
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreACP.RequestSupportedAttrs
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: winstation
 ms.assetid: 401be515-ada9-42be-b8e8-4e86f513bb8d
 ms.date: 12/05/2018
 ms.keywords: SwitchDesktop, SwitchDesktop function [Windows Stations and Desktops], base.switchdesktop, winstation.switchdesktop, winuser/SwitchDesktop
-ms.topic: function
 f1_keywords:
 - winuser/SwitchDesktop
 dev_langs:

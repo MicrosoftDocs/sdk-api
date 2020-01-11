@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 34fe404c-cef6-47d9-9eaf-8ab151bd4726
 ms.date: 12/05/2018
 ms.keywords: PropVariantToUInt16Vector, PropVariantToUInt16Vector function [Windows Properties], _shell_PropVariantToUInt16Vector, properties.PropVariantToUInt16Vector, propvarutil/PropVariantToUInt16Vector, shell.PropVariantToUInt16Vector
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantToUInt16Vector
 dev_langs:

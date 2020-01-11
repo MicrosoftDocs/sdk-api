@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 675b1078-8f8e-4a97-aa01-fbf8fbe2b50f
 ms.date: 12/05/2018
 ms.keywords: FwpmSystemPortsGet0, FwpmSystemPortsGet0 function [Filtering], fwp.fwpmsystemportsget0, fwpmu/FwpmSystemPortsGet0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmSystemPortsGet0
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 6FBDAEA2-78E6-4152-815D-FA6164FE396F
 ms.date: 12/05/2018
 ms.keywords: GetQuantizationTable, GetQuantizationTable method [Windows Imaging Component], GetQuantizationTable method [Windows Imaging Component],IWICJpegFrameEncode interface, IWICJpegFrameEncode interface [Windows Imaging Component],GetQuantizationTable method, IWICJpegFrameEncode.GetQuantizationTable, IWICJpegFrameEncode::GetQuantizationTable, wic.iwicjpegframeencode_getquantizationtable, wincodec/IWICJpegFrameEncode::GetQuantizationTable
-ms.topic: method
 f1_keywords:
 - wincodec/IWICJpegFrameEncode.GetQuantizationTable
 dev_langs:

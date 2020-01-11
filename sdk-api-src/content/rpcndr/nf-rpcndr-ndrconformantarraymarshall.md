@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 28098531-a836-4a22-8c1a-fbf28d4a1bdd
 ms.date: 12/05/2018
 ms.keywords: NdrComformantArrayMarshall, NdrConformantArrayMarshall, NdrConformantArrayMarshall function [Windows API], rpcndr/NdrConformantArrayMarshall, winprog.ndrcomformantarraymarshall
-ms.topic: function
 f1_keywords:
 - rpcndr/NdrConformantArrayMarshall
 dev_langs:

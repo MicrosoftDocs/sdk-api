@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 6e16112a-0cfe-41be-9d9c-4cbcde898c3f
 ms.date: 12/05/2018
 ms.keywords: ITfRange interface [Text Services Framework],ShiftStartRegion method, ITfRange.ShiftStartRegion, ITfRange::ShiftStartRegion, ShiftStartRegion, ShiftStartRegion method [Text Services Framework], ShiftStartRegion method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftstartregion_ref, msctf/ITfRange::ShiftStartRegion, tsf.itfrange_shiftstartregion
-ms.topic: method
 f1_keywords:
 - msctf/ITfRange.ShiftStartRegion
 dev_langs:

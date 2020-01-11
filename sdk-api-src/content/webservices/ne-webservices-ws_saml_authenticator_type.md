@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 3d4bf869-70c0-4a97-8f64-4d3aa2444d0c
 ms.date: 12/05/2018
 ms.keywords: WS_CERT_SIGNED_SAML_AUTHENTICATOR_TYPE, WS_SAML_AUTHENTICATOR_TYPE, WS_SAML_AUTHENTICATOR_TYPE enumeration [Web Services for Windows], webservices/WS_CERT_SIGNED_SAML_AUTHENTICATOR_TYPE, webservices/WS_SAML_AUTHENTICATOR_TYPE, wsw.ws_saml_authenticator_type
-ms.topic: enum
 f1_keywords:
 - webservices/WS_SAML_AUTHENTICATOR_TYPE
 dev_langs:

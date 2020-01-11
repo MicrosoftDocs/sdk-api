@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 8986b84c-a79b-49d8-adf2-1618e2d7c343
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],IsKernelTrace property, ITraceDataCollector.IsKernelTrace, ITraceDataCollector.get_IsKernelTrace, ITraceDataCollector::IsKernelTrace, ITraceDataCollector::get_IsKernelTrace, IsKernelTrace property [PLA], IsKernelTrace property [PLA],ITraceDataCollector interface, base.itracedatacollector_iskerneltrace, get_IsKernelTrace, pla.itracedatacollector_iskerneltrace, pla/ITraceDataCollector::IsKernelTrace, pla/ITraceDataCollector::get_IsKernelTrace
-ms.topic: method
 f1_keywords:
 - pla/ITraceDataCollector.IsKernelTrace
 dev_langs:

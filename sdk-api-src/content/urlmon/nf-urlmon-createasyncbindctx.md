@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 0c79b61b-d3d6-48fd-aaee-21cddad09208
 ms.date: 12/05/2018
 ms.keywords: CreateAsyncBindCtx, CreateAsyncBindCtx function [COM], _com_CreateAsyncBindCtx, com.createasyncbindctx, urlmon/CreateAsyncBindCtx
-ms.topic: function
 f1_keywords:
 - urlmon/CreateAsyncBindCtx
 dev_langs:

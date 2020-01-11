@@ -7,7 +7,6 @@ tech.root: lwef
 ms.assetid: 9c251e14-e080-480a-80c2-f3686429689f
 ms.date: 12/05/2018
 ms.keywords: IReconcileInitiator interface [Legacy Windows Environment Features],SetAbortCallback method, IReconcileInitiator.SetAbortCallback, IReconcileInitiator::SetAbortCallback, SetAbortCallback, SetAbortCallback method [Legacy Windows Environment Features], SetAbortCallback method [Legacy Windows Environment Features],IReconcileInitiator interface, _win32_IReconcileInitiator_SetAbortCallback, lwef.ireconcileinitiator_setabortcallback, reconcil/IReconcileInitiator::SetAbortCallback, shell.ireconcileinitiator_setabortcallback
-ms.topic: method
 f1_keywords:
 - reconcil/IReconcileInitiator.SetAbortCallback
 dev_langs:

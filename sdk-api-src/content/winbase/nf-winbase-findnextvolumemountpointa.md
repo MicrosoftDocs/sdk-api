@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 299e2fed-74d8-4008-b593-981c52016532
 ms.date: 12/05/2018
 ms.keywords: FindNextVolumeMountPoint, FindNextVolumeMountPoint function [Files], FindNextVolumeMountPointA, FindNextVolumeMountPointW, _win32_findnextvolumemountpoint, base.findnextvolumemountpoint, fs.findnextvolumemountpoint, winbase/FindNextVolumeMountPoint, winbase/FindNextVolumeMountPointA, winbase/FindNextVolumeMountPointW
-ms.topic: function
 f1_keywords:
 - winbase/FindNextVolumeMountPoint
 dev_langs:

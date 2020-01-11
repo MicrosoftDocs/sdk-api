@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: 8fdddce9-34fa-4223-b55e-17620db9bbfc
 ms.date: 12/05/2018
 ms.keywords: IdentifyNtmsSlot, IdentifyNtmsSlot function [Files], NTMS_DISMOUNT_DEFERRED, NTMS_DISMOUNT_IMMEDIATE, _zaw_identifyntmsslot, base.identifyntmsslot, fs.identifyntmsslot, ntmsapi/IdentifyNtmsSlot
-ms.topic: function
 f1_keywords:
 - ntmsapi/IdentifyNtmsSlot
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 91499eb9-9fc5-4135-95f6-1bced78f1e07
 ms.date: 12/05/2018
 ms.keywords: DequeueUmsCompletionListItems, DequeueUmsCompletionListItems function, base.dequeueumscompletionlistitems, winbase/DequeueUmsCompletionListItems
-ms.topic: function
 f1_keywords:
 - winbase/DequeueUmsCompletionListItems
 dev_langs:

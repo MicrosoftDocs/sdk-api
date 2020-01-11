@@ -7,7 +7,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\gettransform.htm
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [WPF Bitmap Effects], GetTransform method [WPF Bitmap Effects],IMILBitmapEffectRenderContextImpl interface, IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],GetTransform method, IMILBitmapEffectRenderContextImpl.GetTransform, IMILBitmapEffectRenderContextImpl::GetTransform, _wibe_imilbitmapeffectrendercontextimpl_gettransform, mileffects/IMILBitmapEffectRenderContextImpl::GetTransform, wibe._wibe_imilbitmapeffectrendercontextimpl_gettransform
-ms.topic: method
 f1_keywords:
 - mileffects/IMILBitmapEffectRenderContextImpl.GetTransform
 dev_langs:

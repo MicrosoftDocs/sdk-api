@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f7352fb0-7e6f-4145-bd5d-4ed3de0c9659
 ms.date: 12/05/2018
 ms.keywords: IObjectWithPropertyKey interface [Windows Shell],SetPropertyKey method, IObjectWithPropertyKey.SetPropertyKey, IObjectWithPropertyKey::SetPropertyKey, SetPropertyKey, SetPropertyKey method [Windows Shell], SetPropertyKey method [Windows Shell],IObjectWithPropertyKey interface, _shell_IObjectWithPropertyKey_SetPropertyKey, propsys/IObjectWithPropertyKey::SetPropertyKey, shell.IObjectWithPropertyKey_SetPropertyKey
-ms.topic: method
 f1_keywords:
 - propsys/IObjectWithPropertyKey.SetPropertyKey
 dev_langs:

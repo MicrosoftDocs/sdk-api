@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6f07b4d2-7a52-448c-9e9f-729bd5261757
 ms.date: 12/05/2018
 ms.keywords: IPSITables, IPSITables interface [Microsoft TV Technologies], IPSITables interface [Microsoft TV Technologies],described, mpeg2psiparser/IPSITables, mstv.ipsitables
-ms.topic: interface
 f1_keywords:
 - mpeg2psiparser/IPSITables
 dev_langs:

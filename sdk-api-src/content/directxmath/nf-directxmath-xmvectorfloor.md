@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorFloor(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorFloor, XMVectorFloor, XMVectorFloor method [DirectX Math Support APIs], dxmath.xmvectorfloor
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorFloor
 dev_langs:

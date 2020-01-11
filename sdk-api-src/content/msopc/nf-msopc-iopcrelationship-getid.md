@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 8646d592-d568-4b82-80f3-2673cd0d2721
 ms.date: 12/05/2018
 ms.keywords: GetId, GetId method [Open Packaging Conventions], GetId method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetId method, IOpcRelationship.GetId, IOpcRelationship::GetId, msopc/IOpcRelationship::GetId, opc.iopcrelationship_getid
-ms.topic: method
 f1_keywords:
 - msopc/IOpcRelationship.GetId
 dev_langs:

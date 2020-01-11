@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 5e777c02-980c-42f9-add7-9568c86c2efe
 ms.date: 12/05/2018
 ms.keywords: PeerGraphGetRecord, PeerGraphGetRecord function [Peer Networking], p2p.peergraphgetrecord, p2p/PeerGraphGetRecord
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphGetRecord
 dev_langs:

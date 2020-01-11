@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 573A9209-31EF-4FD4-A504-16795BA42337
 ms.date: 12/5/2018
 ms.keywords: RoOriginateLanguageException, RoOriginateLanguageException function [Windows Runtime], roerrorapi/RoOriginateLanguageException, winrt.rooriginatelanguageexception
-ms.topic: function
 f1_keywords:
 - roerrorapi/RoOriginateLanguageException
 dev_langs:

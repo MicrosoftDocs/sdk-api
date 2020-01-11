@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 70F78F02-6413-445F-9B5A-F70ADA741889
 ms.date: 12/05/2018
 ms.keywords: IOCTL_GENERICUSBFN_TRANSFER_IN, IOCTL_GENERICUSBFN_TRANSFER_IN control, IOCTL_GENERICUSBFN_TRANSFER_IN control code [Buses], buses.ioctl_genericusbfn_transfer_in, genericusbfnioctl/IOCTL_GENERICUSBFN_TRANSFER_IN
-ms.topic: ioctl
 f1_keywords:
 - genericusbfnioctl/IOCTL_GENERICUSBFN_TRANSFER_IN
 dev_langs:

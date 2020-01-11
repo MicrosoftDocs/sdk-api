@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: bf3341a0-5b1d-479b-998d-a61bb945e0c3
 ms.date: 12/05/2018
 ms.keywords: OLESTR, OLESTR macro [COM], _com_OLESTR, com.olestr, com.olestr_macro, wtypesbase/OLESTR
-ms.topic: macro
 f1_keywords:
 - wtypesbase/OLESTR
 dev_langs:

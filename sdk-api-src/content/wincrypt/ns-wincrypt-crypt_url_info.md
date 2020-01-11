@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 58289a66-6580-468c-b001-5da08cf6d4a9
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_URL_INFO, CRYPT_URL_INFO, CRYPT_URL_INFO structure [Security], PCRYPT_URL_INFO, PCRYPT_URL_INFO structure pointer [Security], _crypto2_crypt_url_info, security.crypt_url_info, wincrypt/CRYPT_URL_INFO, wincrypt/PCRYPT_URL_INFO'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_URL_INFO
 dev_langs:

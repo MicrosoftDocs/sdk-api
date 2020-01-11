@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 2cb78604-3c61-4362-9d8a-e40d5ddb4047
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],PollForPotentialSupportedProperties method, IUIAutomation.PollForPotentialSupportedProperties, IUIAutomation::PollForPotentialSupportedProperties, PollForPotentialSupportedProperties, PollForPotentialSupportedProperties method [Windows Accessibility], PollForPotentialSupportedProperties method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_PollForPotentialSupportedProperties, uiauto_IUIAutomation_PollForPotentialSupportedProperties, uiautomationclient/IUIAutomation::PollForPotentialSupportedProperties, winauto.uiauto_IUIAutomation_PollForPotentialSupportedProperties
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation.PollForPotentialSupportedProperties
 dev_langs:

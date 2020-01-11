@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsenumeratemetafilemethods\enumeratemetafile_17metafilemetafile_pointdestpoints_intco.htm
 ms.date: 12/05/2018
 ms.keywords: EnumerateMetafile, EnumerateMetafile method [GDI+], EnumerateMetafile method [GDI+],Graphics class, Graphics class [GDI+],EnumerateMetafile method, Graphics.EnumerateMetafile, Graphics.EnumerateMetafile(IN const Metafile,IN const Point,IN INT,IN EnumerateMetafileProc,IN VOID,IN const ImageAttributes), Graphics.EnumerateMetafile(const Metafile*,const Point*,INT,EnumerateMetafileProc,VOID*,ImageAttributes*), Graphics::EnumerateMetafile, Graphics::EnumerateMetafile(IN const Metafile,IN const Point,IN INT,IN EnumerateMetafileProc,IN VOID,IN const ImageAttributes), _gdiplus_CLASS_Graphics_EnumerateMetafile_Metafile_metafile_Point_destPoints_INT_count_EnumerateMeta, gdiplus._gdiplus_CLASS_Graphics_EnumerateMetafile_Metafile_metafile_Point_destPoints_INT_count_EnumerateMeta
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.EnumerateMetafile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: 593df7e3-dd2b-4ba9-b7a0-ed6ea06586ba
 ms.date: 12/05/2018
 ms.keywords: '*PCHANGER_INITIALIZE_ELEMENT_STATUS, CHANGER_INITIALIZE_ELEMENT_STATUS, CHANGER_INITIALIZE_ELEMENT_STATUS structure, PCHANGER_INITIALIZE_ELEMENT_STATUS, PCHANGER_INITIALIZE_ELEMENT_STATUS structure pointer, _win32_changer_initialize_element_status_str, base.changer_initialize_element_status_str, winioctl/CHANGER_INITIALIZE_ELEMENT_STATUS, winioctl/PCHANGER_INITIALIZE_ELEMENT_STATUS'
-ms.topic: struct
 f1_keywords:
 - winioctl/CHANGER_INITIALIZE_ELEMENT_STATUS
 dev_langs:

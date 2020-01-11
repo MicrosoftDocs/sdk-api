@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 9a2dbfe3-13e7-442d-a5f6-b2632878f618
 ms.date: 12/05/2018
 ms.keywords: GetNumaProximityNode, GetNumaProximityNode function, base.getnumaproximitynode, winbase/GetNumaProximityNode
-ms.topic: function
 f1_keywords:
 - winbase/GetNumaProximityNode
 dev_langs:

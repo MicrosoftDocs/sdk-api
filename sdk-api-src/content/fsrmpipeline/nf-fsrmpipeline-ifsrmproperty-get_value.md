@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: dc49c1d4-9f37-48f0-9e0b-9fd79a106301
 ms.date: 12/05/2018
 ms.keywords: IFsrmProperty interface [File Server Resource Manager],Value property, IFsrmProperty.Value, IFsrmProperty.get_Value, IFsrmProperty::Value, IFsrmProperty::get_Value, Value property [File Server Resource Manager], Value property [File Server Resource Manager],IFsrmProperty interface, fs.ifsrmproperty_value, fsrm.ifsrmproperty_value, fsrmpipeline/IFsrmProperty::Value, fsrmpipeline/IFsrmProperty::get_Value, get_Value
-ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmProperty.Value
 dev_langs:

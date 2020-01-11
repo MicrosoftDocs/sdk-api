@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 1a6775b5-a909-49b1-98e8-ccc110294df6
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionServiceCallback interface [Windows Media Player],onComplete method, IWMPSubscriptionServiceCallback.onComplete, IWMPSubscriptionServiceCallback::onComplete, IWMPSubscriptionServiceCallbackonComplete, onComplete, onComplete method [Windows Media Player], onComplete method [Windows Media Player],IWMPSubscriptionServiceCallback interface, subscriptionservices/IWMPSubscriptionServiceCallback::onComplete, wmp.iwmpsubscriptionservicecallback_oncomplete
-ms.topic: method
 f1_keywords:
 - subscriptionservices/IWMPSubscriptionServiceCallback.onComplete
 dev_langs:

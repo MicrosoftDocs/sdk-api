@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 9c2e72d0-5f6a-4884-a072-ed3d38b953c5
 ms.date: 12/05/2018
 ms.keywords: '*LPMCI_DGV_SETAUDIO_PARMSA, MCI_DGV_SETAUDIO_PARMS, MCI_DGV_SETAUDIO_PARMS structure [Windows Multimedia], MCI_DGV_SETAUDIO_PARMSA, _win32_MCI_DGV_SETAUDIO_PARMS_str, digitalv/MCI_DGV_SETAUDIO_PARMS, multimedia.mci_dgv_setaudio_parms'
-ms.topic: struct
 f1_keywords:
 - digitalv/MCI_DGV_SETAUDIO_PARMS
 dev_langs:

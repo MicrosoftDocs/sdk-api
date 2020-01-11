@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 2402aca6-4992-4c6e-a6ff-b4cc50c57dde
 ms.date: 12/05/2018
 ms.keywords: ApplicationProcessSummary, ApplicationProcessSummary structure [COM+], comsvcs/ApplicationProcessSummary, cos.applicationprocesssummary
-ms.topic: struct
 f1_keywords:
 - comsvcs/ApplicationProcessSummary
 dev_langs:

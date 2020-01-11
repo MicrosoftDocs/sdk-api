@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: 048116b6-1bae-4dcc-9bd0-a466c395e5d8
 ms.date: 12/05/2018
 ms.keywords: NetEnumerateServiceAccounts, NetEnumerateServiceAccounts function [Security], lmaccess/NetEnumerateServiceAccounts, security.netenumerateserviceaccounts
-ms.topic: function
 f1_keywords:
 - lmaccess/NetEnumerateServiceAccounts
 dev_langs:

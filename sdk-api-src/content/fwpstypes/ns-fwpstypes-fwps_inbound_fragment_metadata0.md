@@ -7,7 +7,6 @@ tech.root: NetVista
 ms.assetid: 9bead001-7ea7-4a51-8a7c-82fe01017dd7
 ms.date: 12/05/2018
 ms.keywords: FWPS_INBOUND_FRAGMENT_METADATA0, FWPS_INBOUND_FRAGMENT_METADATA0 structure [Network Drivers Starting with Windows Vista], fwpstypes/FWPS_INBOUND_FRAGMENT_METADATA0, netvista.fwps_inbound_fragment_metadata0, wfp_ref_3_struct_3_fwps_F-O_f826ecbb-5bd5-4ca3-a13a-49b385ca29c4.xml
-ms.topic: struct
 f1_keywords:
 - fwpstypes/FWPS_INBOUND_FRAGMENT_METADATA0
 dev_langs:

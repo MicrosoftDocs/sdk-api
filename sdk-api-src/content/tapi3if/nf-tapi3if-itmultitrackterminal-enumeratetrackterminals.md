@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 90ef12f5-1a94-49ca-85c3-092306503827
 ms.date: 12/05/2018
 ms.keywords: EnumerateTrackTerminals, EnumerateTrackTerminals method [TAPI 2.2], EnumerateTrackTerminals method [TAPI 2.2],ITMultiTrackTerminal interface, ITMultiTrackTerminal interface [TAPI 2.2],EnumerateTrackTerminals method, ITMultiTrackTerminal.EnumerateTrackTerminals, ITMultiTrackTerminal::EnumerateTrackTerminals, _tapi3_itmultitrackterminal_enumeratetrackterminals, tapi3.itmultitrackterminal_enumeratetrackterminals, tapi3if/ITMultiTrackTerminal::EnumerateTrackTerminals
-ms.topic: method
 f1_keywords:
 - tapi3if/ITMultiTrackTerminal.EnumerateTrackTerminals
 dev_langs:

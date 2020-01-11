@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 19DAF828-B0E4-49E2-843D-7350C8083C45
 ms.date: 12/05/2018
 ms.keywords: CreatePersistentTcpPortReservation, CreatePersistentTcpPortReservation function [IP Helper], iphlp.createpersistenttcpportreservation, iphlpapi/CreatePersistentTcpPortReservation
-ms.topic: function
 f1_keywords:
 - iphlpapi/CreatePersistentTcpPortReservation
 dev_langs:

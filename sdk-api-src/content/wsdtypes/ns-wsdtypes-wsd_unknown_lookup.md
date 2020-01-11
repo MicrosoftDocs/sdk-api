@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 7711f7d7-0d3c-419c-a02b-2e75ce550d24
 ms.date: 12/05/2018
 ms.keywords: WSD_UNKNOWN_LOOKUP, WSD_UNKNOWN_LOOKUP structure, ncd.wsd_unknown_lookup, wsdtypes/WSD_UNKNOWN_LOOKUP
-ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_UNKNOWN_LOOKUP
 dev_langs:

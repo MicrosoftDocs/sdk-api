@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: F2039094-E3B0-4FF4-9B69-ED29D681B388
 ms.date: 12/05/2018
 ms.keywords: GetAllRecognizers, GetAllRecognizers function [Tablet PC], recapis/GetAllRecognizers, tablet.getallrecognizers
-ms.topic: function
 f1_keywords:
 - recapis/GetAllRecognizers
 dev_langs:

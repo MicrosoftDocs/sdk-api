@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5vn8_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],Recipient property, IFaxOutgoingMessage.Recipient, IFaxOutgoingMessage.get_Recipient, IFaxOutgoingMessage::Recipient, IFaxOutgoingMessage::get_Recipient, Recipient property [Fax Service], Recipient property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.recipient_cpp, fax._mfax_faxoutgoingmessage_recipient_cpp, faxcomex/IFaxOutgoingMessage::Recipient, faxcomex/IFaxOutgoingMessage::get_Recipient, get_Recipient
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutgoingMessage.Recipient
 dev_langs:

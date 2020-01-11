@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 1504f166-2fa9-4041-9d72-b150cd8baa8a
 ms.date: 12/05/2018
 ms.keywords: CertGetValidUsages, CertGetValidUsages function [Security], _crypto2_certgetvalidusages, security.certgetvalidusages, wincrypt/CertGetValidUsages
-ms.topic: function
 f1_keywords:
 - wincrypt/CertGetValidUsages
 dev_langs:

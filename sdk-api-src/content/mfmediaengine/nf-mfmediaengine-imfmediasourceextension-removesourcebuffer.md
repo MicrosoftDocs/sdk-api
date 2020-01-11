@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 2f29cbac-4261-41ee-84c8-cb73686aeee5
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtension interface [Media Foundation],RemoveSourceBuffer method, IMFMediaSourceExtension.RemoveSourceBuffer, IMFMediaSourceExtension::RemoveSourceBuffer, RemoveSourceBuffer, RemoveSourceBuffer method [Media Foundation], RemoveSourceBuffer method [Media Foundation],IMFMediaSourceExtension interface, mf.imfmediasourceextension_removesourcebuffer, mfmediaengine/IMFMediaSourceExtension::RemoveSourceBuffer
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaSourceExtension.RemoveSourceBuffer
 dev_langs:

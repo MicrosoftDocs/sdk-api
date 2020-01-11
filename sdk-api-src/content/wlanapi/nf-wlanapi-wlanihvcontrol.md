@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 3fc32119-0f92-4939-8125-812f45584d45
 ms.date: 12/05/2018
 ms.keywords: WlanIhvControl, WlanIhvControl function [NativeWIFI], nwifi.wlanihvcontrol, wlanapi/WlanIhvControl
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanIhvControl
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: d3322907-c832-49ef-bf21-2e4581251a88
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],SetFileProperty method, IFsrmPropertyBag.SetFileProperty, IFsrmPropertyBag::SetFileProperty, SetFileProperty, SetFileProperty method [File Server Resource Manager], SetFileProperty method [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_setfileproperty, fsrm.ifsrmpropertybag_setfileproperty, fsrmpipeline/IFsrmPropertyBag::SetFileProperty
-ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmPropertyBag.SetFileProperty
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddequerynextserver.htm
 ms.date: 12/05/2018
 ms.keywords: DdeQueryNextServer, DdeQueryNextServer function [Data Exchange], _win32_DdeQueryNextServer, _win32_ddequerynextserver_cpp, dataxchg.ddequerynextserver, ddeml/DdeQueryNextServer, winui._win32_ddequerynextserver
-ms.topic: function
 f1_keywords:
 - ddeml/DdeQueryNextServer
 dev_langs:

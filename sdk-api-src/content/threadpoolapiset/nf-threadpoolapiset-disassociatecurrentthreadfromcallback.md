@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: f25f936c-2570-4e8c-807b-42000cd878bb
 ms.date: 12/05/2018
 ms.keywords: DisassociateCurrentThreadFromCallback, DisassociateCurrentThreadFromCallback function, base.disassociatecurrentthreadfromcallback, threadpoolapiset/DisassociateCurrentThreadFromCallback, winbase/DisassociateCurrentThreadFromCallback
-ms.topic: function
 f1_keywords:
 - threadpoolapiset/DisassociateCurrentThreadFromCallback
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: cd432d49-04f6-4f1f-a6a1-937658d615d6
 ms.date: 12/05/2018
 ms.keywords: ITStreamControl interface [TAPI 2.2],RemoveStream method, ITStreamControl.RemoveStream, ITStreamControl::RemoveStream, RemoveStream, RemoveStream method [TAPI 2.2], RemoveStream method [TAPI 2.2],ITStreamControl interface, _tapi3_itstreamcontrol_removestream, tapi3.itstreamcontrol_removestream, tapi3if/ITStreamControl::RemoveStream
-ms.topic: method
 f1_keywords:
 - tapi3if/ITStreamControl.RemoveStream
 dev_langs:

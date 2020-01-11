@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 2AB8C0C5-2203-4778-BBEA-6D52B727FDDB
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboardEventHandler2, IUIAnimationStoryboardEventHandler2 interface [Windows Animation], IUIAnimationStoryboardEventHandler2 interface [Windows Animation],described, uianimation.iuianimationstoryboardeventhandler2, uianimation/IUIAnimationStoryboardEventHandler2
-ms.topic: interface
 f1_keywords:
 - uianimation/IUIAnimationStoryboardEventHandler2
 dev_langs:

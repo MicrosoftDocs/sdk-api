@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: f6eed71b-4d14-471a-a686-f7a2be7bf63b
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaObject interface [File Server Resource Manager],UserSid property, IFsrmQuotaObject.UserSid, IFsrmQuotaObject.get_UserSid, IFsrmQuotaObject::UserSid, IFsrmQuotaObject::get_UserSid, UserSid property [File Server Resource Manager], UserSid property [File Server Resource Manager],IFsrmQuotaObject interface, fs.ifsrmquotaobject_usersid, fsrm.ifsrmquotaobject_usersid, fsrmquota/IFsrmQuotaObject::UserSid, fsrmquota/IFsrmQuotaObject::get_UserSid, get_UserSid
-ms.topic: method
 f1_keywords:
 - fsrmquota/IFsrmQuotaObject.UserSid
 dev_langs:

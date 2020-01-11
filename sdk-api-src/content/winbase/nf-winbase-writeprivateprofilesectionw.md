@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 23f9e012-4196-437a-9e22-0524b37505b4
 ms.date: 12/05/2018
 ms.keywords: WritePrivateProfileSection, WritePrivateProfileSection function, WritePrivateProfileSectionA, WritePrivateProfileSectionW, _win32_writeprivateprofilesection, base.writeprivateprofilesection, winbase/WritePrivateProfileSection, winbase/WritePrivateProfileSectionA, winbase/WritePrivateProfileSectionW
-ms.topic: function
 f1_keywords:
 - winbase/WritePrivateProfileSection
 dev_langs:

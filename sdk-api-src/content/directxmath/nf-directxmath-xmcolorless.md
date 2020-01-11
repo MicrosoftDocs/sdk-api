@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorLess(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorLess, XMColorLess, XMColorLess method [DirectX Math Support APIs], dxmath.xmcolorless
-ms.topic: function
 f1_keywords:
 - directxmath/XMColorLess
 dev_langs:

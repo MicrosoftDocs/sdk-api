@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.ValidateFormatPair(const WAVEFORMATEX,WAVEFORMATEX,BOOL)
 ms.date: 12/05/2018
 ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],ValidateFormatPair method, CXAPOBase.ValidateFormatPair, CXAPOBase::ValidateFormatPair, ValidateFormatPair, ValidateFormatPair method [XAudio2 Audio Mixing APIs], ValidateFormatPair method [XAudio2 Audio Mixing APIs],CXAPOBase interface, xapobase/CXAPOBase::ValidateFormatPair, xaudio2.cxapobase_validateformatpair
-ms.topic: method
 f1_keywords:
 - xapobase/CXAPOBase.ValidateFormatPair
 dev_langs:

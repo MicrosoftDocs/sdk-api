@@ -7,7 +7,6 @@ tech.root: rstmgr
 ms.assetid: 68f77dbc-14cb-4b87-9589-328b1cef38d9
 ms.date: 12/05/2018
 ms.keywords: RM_FILTER_ACTION, RM_FILTER_ACTION enumeration [Restart Mgr], RmInvalidFilterAction, RmNoRestart, RmNoShutdown, restartmanager/RM_FILTER_ACTION, restartmanager/RmInvalidFilterAction, restartmanager/RmNoRestart, restartmanager/RmNoShutdown, rstmgr.rm_filter_action
-ms.topic: enum
 f1_keywords:
 - restartmanager/RM_FILTER_ACTION
 dev_langs:

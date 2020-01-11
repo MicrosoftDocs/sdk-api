@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 4be1ca01-49c6-4b1e-8fb6-41e598fd157f
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_UseHTTPProxy method, IAMNetShowConfig.put_UseHTTPProxy, IAMNetShowConfig::put_UseHTTPProxy, IAMNetShowConfigput_UseHTTPProxy, dshow.iamnetshowconfig_put_usehttpproxy, put_UseHTTPProxy, put_UseHTTPProxy method [DirectShow], put_UseHTTPProxy method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_UseHTTPProxy
-ms.topic: method
 f1_keywords:
 - qnetwork/IAMNetShowConfig.put_UseHTTPProxy
 dev_langs:

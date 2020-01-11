@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: f69f906d-0d7b-4f45-9bf0-fd1b031e3492
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],INetFwAuthorizedApplications interface, INetFwAuthorizedApplications interface [ICS/ICF],Add method, INetFwAuthorizedApplications.Add, INetFwAuthorizedApplications::Add, ics.inetfwauthorizedapplications_add, netfw/INetFwAuthorizedApplications::Add
-ms.topic: method
 f1_keywords:
 - netfw/INetFwAuthorizedApplications.Add
 dev_langs:

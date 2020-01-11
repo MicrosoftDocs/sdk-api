@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 3498b674-5771-47b6-9dfa-a8e3e10bca40
 ms.date: 12/05/2018
 ms.keywords: DhcpServerSetConfigVQ, DhcpServerSetConfigVQ function [DHCP], dhcp.dhcpserversetconfigvq, dhcpsapi/DhcpServerSetConfigVQ
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpServerSetConfigVQ
 dev_langs:

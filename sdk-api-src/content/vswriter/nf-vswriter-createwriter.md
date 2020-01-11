@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: d459f025-3c47-4c9b-9fed-2da31aa63102
 ms.date: 12/05/2018
 ms.keywords: CreateWriter, CreateWriter function, base.createwriter, vswriter/CreateWriter
-ms.topic: function
 f1_keywords:
 - vswriter/CreateWriter
 dev_langs:

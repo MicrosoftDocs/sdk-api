@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_3of9.htm
 ms.date: 12/05/2018
 ms.keywords: FaxRouteEnumFile, FaxRouteEnumFile callback function [Fax Service], PFAXROUTEENUMFILE, PFAXROUTEENUMFILE callback, _mfax_faxrouteenumfile, fax._mfax_faxrouteenumfile, faxroute/FaxRouteEnumFile
-ms.topic: callback
 f1_keywords:
 - faxroute/FaxRouteEnumFile
 dev_langs:

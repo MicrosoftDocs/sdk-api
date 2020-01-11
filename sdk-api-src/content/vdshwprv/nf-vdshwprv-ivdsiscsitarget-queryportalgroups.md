@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: bcddd435-a422-4ba3-8978-24388346ab27
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],QueryPortalGroups method, IVdsIscsiTarget.QueryPortalGroups, IVdsIscsiTarget::QueryPortalGroups, QueryPortalGroups, QueryPortalGroups method [VDS], QueryPortalGroups method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_queryportalgroups, vds/IVdsIscsiTarget::QueryPortalGroups, vdshwprv/IVdsIscsiTarget::QueryPortalGroups
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsIscsiTarget.QueryPortalGroups
 dev_langs:

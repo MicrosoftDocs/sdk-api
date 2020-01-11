@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 8061ddbe-ed21-47f7-9ac4-b3ec910ff89d
 ms.date: 12/05/2018
 ms.keywords: CoRevertToSelf, CoRevertToSelf function [COM], _com_CoRevertToSelf, com.coreverttoself, combaseapi/CoRevertToSelf
-ms.topic: function
 f1_keywords:
 - combaseapi/CoRevertToSelf
 dev_langs:

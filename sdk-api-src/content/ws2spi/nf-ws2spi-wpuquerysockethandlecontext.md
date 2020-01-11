@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 661ddff0-b80c-4e24-84b3-b444ef1c2ad6
 ms.date: 12/05/2018
 ms.keywords: WPUQuerySocketHandleContext, WPUQuerySocketHandleContext function [Winsock], _win32_wpuquerysockethandlecontext_2, winsock.wpuquerysockethandlecontext_2, ws2spi/WPUQuerySocketHandleContext
-ms.topic: function
 f1_keywords:
 - ws2spi/WPUQuerySocketHandleContext
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: bf5302e9-da8f-4c57-a998-fd49484e0584
 ms.date: 12/05/2018
 ms.keywords: BG_FILE_INFO, BG_FILE_INFO structure [BITS], _drz_bg_file_info, bits.bg_file_info, bits/BG_FILE_INFO
-ms.topic: struct
 f1_keywords:
 - bits/BG_FILE_INFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a5d015c8-ef15-4bac-906f-5d064fbff11f
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method [DirectShow], GetBuffer method [DirectShow],IMemAllocator interface, IMemAllocator interface [DirectShow],GetBuffer method, IMemAllocator.GetBuffer, IMemAllocator::GetBuffer, IMemAllocatorGetBuffer, dshow.imemallocator_getbuffer, strmif/IMemAllocator::GetBuffer
-ms.topic: method
 f1_keywords:
 - strmif/IMemAllocator.GetBuffer
 dev_langs:

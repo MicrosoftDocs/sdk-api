@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 21ce80fe-542b-4350-b66c-fa26f62ca611
 ms.date: 12/05/2018
 ms.keywords: IADsCollection interface [ADSI],Remove method, IADsCollection.Remove, IADsCollection::Remove, Remove, Remove method [ADSI], Remove method [ADSI],IADsCollection interface, _ds_iadscollection_remove, adsi.iadscollection__remove, adsi.iadscollection_remove, iads/IADsCollection::Remove
-ms.topic: method
 f1_keywords:
 - iads/IADsCollection.Remove
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 55bfef31-f9c2-4edb-b4a9-369424584316
 ms.date: 12/05/2018
 ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],get_MaxMinorChannel method, IATSCTuningSpace.get_MaxMinorChannel, IATSCTuningSpace::get_MaxMinorChannel, IATSCTuningSpaceget_MaxMinorChannel, get_MaxMinorChannel, get_MaxMinorChannel method [Microsoft TV Technologies], get_MaxMinorChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, mstv.iatsctuningspace_get_maxminorchannel, tuner/IATSCTuningSpace::get_MaxMinorChannel
-ms.topic: method
 f1_keywords:
 - tuner/IATSCTuningSpace.get_MaxMinorChannel
 dev_langs:

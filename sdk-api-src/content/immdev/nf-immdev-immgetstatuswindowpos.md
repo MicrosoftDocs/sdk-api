@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 785d8523-14a7-4443-8326-34ca197b1cff
 ms.date: 12/05/2018
 ms.keywords: ImmGetStatusWindowPos, ImmGetStatusWindowPos function [Internationalization for Windows Applications], _win32_ImmGetStatusWindowPos, imm/ImmGetStatusWindowPos, intl.immgetstatuswindowpos
-ms.topic: function
 f1_keywords:
 - immdev/ImmGetStatusWindowPos
 dev_langs:

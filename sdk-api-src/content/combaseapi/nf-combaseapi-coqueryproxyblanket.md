@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: e613e06a-0900-413e-bde2-39ce1612fed1
 ms.date: 12/05/2018
 ms.keywords: CoQueryProxyBlanket, CoQueryProxyBlanket function [COM], _com_CoQueryProxyBlanket, com.coqueryproxyblanket, combaseapi/CoQueryProxyBlanket
-ms.topic: function
 f1_keywords:
 - combaseapi/CoQueryProxyBlanket
 dev_langs:

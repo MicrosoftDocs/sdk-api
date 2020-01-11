@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: d0259662-6bcf-4c04-924c-e568db335fd2
 ms.date: 12/05/2018
 ms.keywords: _win32_capCaptureSingleFrameClose, capCaptureSingleFrameClose, capCaptureSingleFrameClose macro [Windows Multimedia], multimedia.capcapturesingleframeclose, vfw/capCaptureSingleFrameClose
-ms.topic: macro
 f1_keywords:
 - vfw/capCaptureSingleFrameClose
 dev_langs:

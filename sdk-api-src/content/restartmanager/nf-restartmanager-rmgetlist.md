@@ -7,7 +7,6 @@ tech.root: rstmgr
 ms.assetid: de4feea4-2b45-4430-a4b3-8ca26c455e42
 ms.date: 12/05/2018
 ms.keywords: RmGetList, RmGetList function [Restart Mgr], restartmanager/RmGetList, rstmgr.rmgetlist
-ms.topic: function
 f1_keywords:
 - restartmanager/RmGetList
 dev_langs:

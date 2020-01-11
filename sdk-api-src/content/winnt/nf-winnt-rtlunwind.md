@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 254b2547-9d3d-468f-a360-20a12e9dd82e
 ms.date: 12/05/2018
 ms.keywords: RtlUnwind, RtlUnwind function, base.rtlunwind, winnt/RtlUnwind
-ms.topic: function
 f1_keywords:
 - winnt/RtlUnwind
 dev_langs:

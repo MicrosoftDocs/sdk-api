@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 9d4d196d-4000-4866-a4c7-e7b9cb669c6f
 ms.date: 12/05/2018
 ms.keywords: GetUserGeoID, GetUserGeoID function [Internationalization for Windows Applications], _win32_GetUserGeoID, intl.getusergeoid, winnls/GetUserGeoID
-ms.topic: function
 f1_keywords:
 - winnls/GetUserGeoID
 dev_langs:

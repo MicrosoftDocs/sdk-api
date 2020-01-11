@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: d9b54618-9750-49be-a966-1a2f02c81af6
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointControl interface [Remote Desktop Services],Start method, IAudioEndpointControl.Start, IAudioEndpointControl::Start, Start, Start method [Remote Desktop Services], Start method [Remote Desktop Services],IAudioEndpointControl interface, audioengineendpoint/IAudioEndpointControl::Start, termserv.iaudioendpointcontrol_start
-ms.topic: method
 f1_keywords:
 - audioengineendpoint/IAudioEndpointControl.Start
 dev_langs:

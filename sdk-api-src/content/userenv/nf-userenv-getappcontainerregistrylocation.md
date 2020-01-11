@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: DAD7EC07-D57D-40F5-AA99-AD7579910294
 ms.date: 12/05/2018
 ms.keywords: GetAppContainerRegistryLocation, GetAppContainerRegistryLocation function [Windows Shell], shell.getappcontainerregistrylocation, userenv/GetAppContainerRegistryLocation
-ms.topic: function
 f1_keywords:
 - userenv/GetAppContainerRegistryLocation
 dev_langs:

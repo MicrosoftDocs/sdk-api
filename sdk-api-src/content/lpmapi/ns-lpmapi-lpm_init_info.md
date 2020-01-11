@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 7eab2cf0-97e6-4298-99c3-09ce8c09fb87
 ms.date: 12/05/2018
 ms.keywords: LPM_INIT_INFO, LPM_INIT_INFO structure [QOS], lpmapi/LPM_INIT_INFO, qos.lpm_init_info
-ms.topic: struct
 f1_keywords:
 - lpmapi/LPM_INIT_INFO
 dev_langs:

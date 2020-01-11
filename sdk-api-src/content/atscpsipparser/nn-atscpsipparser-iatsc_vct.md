@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 3ff9cd6e-0d25-462c-93a7-2399395f68b0
 ms.date: 12/05/2018
 ms.keywords: IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], IATSC_VCT interface [Microsoft TV Technologies],described, IATSC_VCTInterface, atscpsipparser/IATSC_VCT, mstv.iatsc_vct
-ms.topic: interface
 f1_keywords:
 - atscpsipparser/IATSC_VCT
 dev_langs:

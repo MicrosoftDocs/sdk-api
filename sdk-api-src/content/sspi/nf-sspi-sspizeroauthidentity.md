@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 50b1f24a-c802-4691-a450-316cb31bf44d
 ms.date: 12/05/2018
 ms.keywords: SspiZeroAuthIdentity, SspiZeroAuthIdentity function [Security], security.sspizeroauthidentity, sspi/SspiZeroAuthIdentity
-ms.topic: function
 f1_keywords:
 - sspi/SspiZeroAuthIdentity
 dev_langs:

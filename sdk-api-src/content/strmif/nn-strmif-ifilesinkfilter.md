@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: aa1d3f8e-9790-4442-ba7e-896981bf1b96
 ms.date: 12/05/2018
 ms.keywords: IFileSinkFilter, IFileSinkFilter interface [DirectShow], IFileSinkFilter interface [DirectShow],described, IFileSinkFilterInterface, dshow.ifilesinkfilter, strmif/IFileSinkFilter
-ms.topic: interface
 f1_keywords:
 - strmif/IFileSinkFilter
 dev_langs:

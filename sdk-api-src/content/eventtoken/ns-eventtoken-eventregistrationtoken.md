@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: A98FE485-B3D8-4CD5-950F-765939F4672B
 ms.date: 12/05/2018
 ms.keywords: EventRegistrationToken, EventRegistrationToken structure [Windows Runtime], eventtoken/EventRegistrationToken, winrt.eventregistrationtoken
-ms.topic: struct
 f1_keywords:
 - eventtoken/EventRegistrationToken
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wincontacts
 ms.assetid: 4b037961-f2a4-4e75-a664-d70257bed426
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method [Windows Contacts], GetPath method [Windows Contacts],IContact interface, IContact interface [Windows Contacts],GetPath method, IContact.GetPath, IContact::GetPath, _wincontacts_IContact_GetPath, icontact/IContact::GetPath, wincontacts._wincontacts_IContact_GetPath
-ms.topic: method
 f1_keywords:
 - icontact/IContact.GetPath
 dev_langs:

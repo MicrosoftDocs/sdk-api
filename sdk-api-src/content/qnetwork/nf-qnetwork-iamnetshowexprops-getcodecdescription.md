@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 5a26e576-df4a-462d-8fab-0a133469e77b
 ms.date: 12/05/2018
 ms.keywords: GetCodecDescription, GetCodecDescription method [DirectShow], GetCodecDescription method [DirectShow],IAMNetShowExProps interface, IAMNetShowExProps interface [DirectShow],GetCodecDescription method, IAMNetShowExProps.GetCodecDescription, IAMNetShowExProps::GetCodecDescription, IAMNetShowExPropsGetCodecDescription, dshow.iamnetshowexprops_getcodecdescription, qnetwork/IAMNetShowExProps::GetCodecDescription
-ms.topic: method
 f1_keywords:
 - qnetwork/IAMNetShowExProps.GetCodecDescription
 dev_langs:

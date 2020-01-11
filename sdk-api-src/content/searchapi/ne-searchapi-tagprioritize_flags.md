@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\prioritize_flags.htm
 ms.date: 12/05/2018
 ms.keywords: PRIORITIZE_FLAGS, PRIORITIZE_FLAGS enumeration [search], PRIORITIZE_FLAG_IGNOREFAILURECOUNT, PRIORITIZE_FLAG_RETRYFAILEDITEMS, _search_PRIORITIZE_FLAGS, search._search_PRIORITIZE_FLAGS, searchapi/PRIORITIZE_FLAGS, searchapi/PRIORITIZE_FLAG_IGNOREFAILURECOUNT, searchapi/PRIORITIZE_FLAG_RETRYFAILEDITEMS, tagPRIORITIZE_FLAGS
-ms.topic: enum
 f1_keywords:
 - searchapi/PRIORITIZE_FLAGS
 dev_langs:

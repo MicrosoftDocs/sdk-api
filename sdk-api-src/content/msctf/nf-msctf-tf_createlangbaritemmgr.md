@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: b7492732-ae06-4344-b5c0-97b3734af36a
 ms.date: 12/05/2018
 ms.keywords: TF_CreateLangBarItemMgr, TF_CreateLangBarItemMgr function [Text Services Framework], msctf/TF_CreateLangBarItemMgr, tsf.tf_createlangbaritemmgr
-ms.topic: function
 f1_keywords:
 - msctf/TF_CreateLangBarItemMgr
 dev_langs:

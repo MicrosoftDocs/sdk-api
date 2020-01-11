@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 823db8d1-e4e3-4cfb-a864-5ad57a44ebc6
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_Addresses method, ITPhone.get_Addresses, ITPhone::get_Addresses, _tapi3_itphone_get_addresses, get_Addresses, get_Addresses method [TAPI 2.2], get_Addresses method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_addresses, tapi3if/ITPhone::get_Addresses
-ms.topic: method
 f1_keywords:
 - tapi3if/ITPhone.get_Addresses
 dev_langs:

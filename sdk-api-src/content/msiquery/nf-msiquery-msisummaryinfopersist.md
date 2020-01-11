@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 76fd8339-2c57-4695-83c7-dcd3cd642f55
 ms.date: 12/05/2018
 ms.keywords: MsiSummaryInfoPersist, MsiSummaryInfoPersist function, _msi_msisummaryinfopersist, msiquery/MsiSummaryInfoPersist, setup.msisummaryinfopersist
-ms.topic: function
 f1_keywords:
 - msiquery/MsiSummaryInfoPersist
 dev_langs:

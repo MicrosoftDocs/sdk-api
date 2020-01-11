@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c377db74-daa9-4d20-b2f2-954472dd7d2e
 ms.date: 12/05/2018
 ms.keywords: IntToChar, IntToChar function [Windows Shell], _shell_IntToChar, intsafe/IntToChar, shell.IntToChar
-ms.topic: function
 f1_keywords:
 - intsafe/IntToChar
 dev_langs:

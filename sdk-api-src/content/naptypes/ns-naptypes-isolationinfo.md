@@ -7,7 +7,6 @@ tech.root: NAP
 ms.assetid: ab5e54ab-de5d-489d-bff7-3be4f3973e7a
 ms.date: 12/05/2018
 ms.keywords: IsolationInfo, IsolationInfo structure [NAP], nap.isolationinfo_struct, naptypes/IsolationInfo
-ms.topic: struct
 f1_keywords:
 - naptypes/IsolationInfo
 dev_langs:

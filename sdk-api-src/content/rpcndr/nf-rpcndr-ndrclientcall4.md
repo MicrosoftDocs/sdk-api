@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: AD2B9995-B092-498E-8D54-204B213D555D
 ms.date: 12/05/2018
 ms.keywords: NdrClientCall4, NdrClientCall4 function [RPC], rpc.ndrclientcall4, rpcndr/NdrClientCall4
-ms.topic: function
 f1_keywords:
 - rpcndr/NdrClientCall4
 dev_langs:

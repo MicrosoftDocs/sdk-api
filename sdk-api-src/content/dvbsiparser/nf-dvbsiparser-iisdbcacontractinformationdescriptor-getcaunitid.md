@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 1e50f417-6403-499a-944c-2926a18dada1
 ms.date: 12/05/2018
 ms.keywords: GetCAUnitId, GetCAUnitId method [Microsoft TV Technologies], GetCAUnitId method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetCAUnitId method, IIsdbCAContractInformationDescriptor.GetCAUnitId, IIsdbCAContractInformationDescriptor::GetCAUnitId, dvbsiparser/IIsdbCAContractInformationDescriptor::GetCAUnitId, mstv.iisdbcacontractinformationdescriptor_getcaunitid
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbCAContractInformationDescriptor.GetCAUnitId
 dev_langs:

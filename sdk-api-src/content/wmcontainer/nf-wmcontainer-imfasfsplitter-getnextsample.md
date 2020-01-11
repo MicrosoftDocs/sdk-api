@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 85133059-6710-4fb2-b42b-f54747816f9c
 ms.date: 12/05/2018
 ms.keywords: 85133059-6710-4fb2-b42b-f54747816f9c, ASF_STATUSFLAGS_INCOMPLETE, GetNextSample, GetNextSample method [Media Foundation], GetNextSample method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],GetNextSample method, IMFASFSplitter.GetNextSample, IMFASFSplitter::GetNextSample, Zero, mf.imfasfsplitter_getnextsample, wmcontainer/IMFASFSplitter::GetNextSample
-ms.topic: method
 f1_keywords:
 - wmcontainer/IMFASFSplitter.GetNextSample
 dev_langs:

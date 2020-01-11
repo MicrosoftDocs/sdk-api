@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 00db96a3-d7e4-42eb-929a-c967ac8380d1
 ms.date: 12/05/2018
 ms.keywords: ICDrawStart, ICDrawStart macro [Windows Multimedia], _win32_ICDrawStart, multimedia.icdrawstart, vfw/ICDrawStart
-ms.topic: macro
 f1_keywords:
 - vfw/ICDrawStart
 dev_langs:

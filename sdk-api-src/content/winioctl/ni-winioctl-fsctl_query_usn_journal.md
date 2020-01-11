@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 9491b054-934a-4b76-bf77-f397b6386f82
 ms.date: 12/05/2018
 ms.keywords: FSCTL_QUERY_USN_JOURNAL, FSCTL_QUERY_USN_JOURNAL control, FSCTL_QUERY_USN_JOURNAL control code [Files], _win32_fsctl_query_usn_journal, base.fsctl_query_usn_journal, fs.fsctl_query_usn_journal, winioctl/FSCTL_QUERY_USN_JOURNAL
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_QUERY_USN_JOURNAL
 dev_langs:

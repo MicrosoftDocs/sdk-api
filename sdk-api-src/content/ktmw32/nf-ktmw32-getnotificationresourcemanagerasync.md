@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: c83e104b-6cd7-4399-8232-7c2e7b408f1a
 ms.date: 12/05/2018
 ms.keywords: GetNotificationResourceManagerAsync, GetNotificationResourceManagerAsync function [Files], fs.getnotificationresourcemanagerasync, ktmw32/GetNotificationResourceManagerAsync
-ms.topic: function
 f1_keywords:
 - ktmw32/GetNotificationResourceManagerAsync
 dev_langs:

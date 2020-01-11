@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 00385ea4-27a9-47f4-91af-22fa82d83668
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetVersionNumber method, IPMT.GetVersionNumber, IPMT::GetVersionNumber, IPMTGetVersionNumber, mpeg2psiparser/IPMT::GetVersionNumber, mstv.ipmt_getversionnumber
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/IPMT.GetVersionNumber
 dev_langs:

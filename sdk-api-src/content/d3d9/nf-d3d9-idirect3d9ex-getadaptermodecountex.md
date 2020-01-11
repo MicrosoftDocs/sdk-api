@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9ex_getadaptermodecountex.htm
 ms.date: 12/05/2018
 ms.keywords: GetAdapterModeCountEx, GetAdapterModeCountEx method [Direct3D 9], GetAdapterModeCountEx method [Direct3D 9],IDirect3D9Ex interface, IDirect3D9Ex interface [Direct3D 9],GetAdapterModeCountEx method, IDirect3D9Ex.GetAdapterModeCountEx, IDirect3D9Ex::GetAdapterModeCountEx, b588ce9d-6d83-1841-d193-8ee55c13af53, d3d9/IDirect3D9Ex::GetAdapterModeCountEx, direct3d9.idirect3d9ex_getadaptermodecountex
-ms.topic: method
 f1_keywords:
 - d3d9/IDirect3D9Ex.GetAdapterModeCountEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3xyc.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],Tsid property, IFaxDoc.Tsid, IFaxDoc.get_Tsid, IFaxDoc::Tsid, IFaxDoc::get_Tsid, IFaxDoc::put_Tsid, Tsid property [Fax Service], Tsid property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_tsid, fax._mfax_ifaxdoc_get_tsid, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_tsid_cpp, faxcom/IFaxDoc::Tsid, faxcom/IFaxDoc::get_Tsid, faxcom/IFaxDoc::put_Tsid, get_Tsid
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxDoc.Tsid
 dev_langs:

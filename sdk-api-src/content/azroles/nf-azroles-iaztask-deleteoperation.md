@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 3f370d04-2115-4dcc-bf18-2d28a52bdead
 ms.date: 12/05/2018
 ms.keywords: AzTask object [Security],DeleteOperation method, DeleteOperation, DeleteOperation method [Security], DeleteOperation method [Security],AzTask object, DeleteOperation method [Security],IAzTask interface, IAzTask interface [Security],DeleteOperation method, IAzTask.DeleteOperation, IAzTask::DeleteOperation, azroles/IAzTask::DeleteOperation, security.iaztask_deleteoperation
-ms.topic: method
 f1_keywords:
 - azroles/IAzTask.DeleteOperation
 dev_langs:

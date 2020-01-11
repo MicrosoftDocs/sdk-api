@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b97116f7-d42e-4619-bc5b-0a55ac012f0c
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],v_ShowHideChildWindows method, IBrowserService2.v_ShowHideChildWindows, IBrowserService2::v_ShowHideChildWindows, shdeprecated/IBrowserService2::v_ShowHideChildWindows, shell.IBrowserService2_v_ShowHideChildWindows, v_ShowHideChildWindows, v_ShowHideChildWindows method [Windows Shell], v_ShowHideChildWindows method [Windows Shell],IBrowserService2 interface, zone_IBrowserService2_v_ShowHideChildWindows
-ms.topic: method
 f1_keywords:
 - shdeprecated/IBrowserService2.v_ShowHideChildWindows
 dev_langs:

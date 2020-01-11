@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: FA3EB6F4-8D5A-4DBE-9A49-D21BC5A57EF3
 ms.date: 12/05/2018
 ms.keywords: GetInt64, GetInt64 method [Windows Runtime], GetInt64 method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetInt64 method, IPropertyValue.GetInt64, IPropertyValue.IPropertyValue, IPropertyValue::GetInt64, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetInt64, winrt.ipropertyvalue_getint64
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValue.GetInt64
 dev_langs:

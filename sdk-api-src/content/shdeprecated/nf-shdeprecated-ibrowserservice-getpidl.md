@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 49104b30-85c0-4adf-acfc-a06b5c4bbdef
 ms.date: 12/05/2018
 ms.keywords: GetPidl, GetPidl method [Windows Shell], GetPidl method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetPidl method, IBrowserService.GetPidl, IBrowserService::GetPidl, shdeprecated/IBrowserService::GetPidl, shell.IBrowserService_GetPidl, zone_IBrowserService_GetPidl
-ms.topic: method
 f1_keywords:
 - shdeprecated/IBrowserService.GetPidl
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2164bbe6-e030-4a64-85db-9ee1cd3c136d
 ms.date: 12/05/2018
 ms.keywords: GetDisplayNameOf, GetDisplayNameOf method [Windows Shell], GetDisplayNameOf method [Windows Shell],IShellFolder interface, GetDisplayNameOf method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],GetDisplayNameOf method, IShellFolder.GetDisplayNameOf, IShellFolder2 interface [Windows Shell],GetDisplayNameOf method, IShellFolder2::GetDisplayNameOf, IShellFolder::GetDisplayNameOf, _win32_IShellFolder_GetDisplayNameOf, shell.IShellFolder_GetDisplayNameOf, shobjidl_core/IShellFolder2::GetDisplayNameOf, shobjidl_core/IShellFolder::GetDisplayNameOf
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellFolder.GetDisplayNameOf
 dev_langs:

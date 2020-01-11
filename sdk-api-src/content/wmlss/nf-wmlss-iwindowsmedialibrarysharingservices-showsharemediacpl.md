@@ -7,7 +7,6 @@ tech.root: WMLSS
 ms.assetid: 38d185f3-f5d7-44e8-a36d-673594e3f80c
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],showShareMediaCPL method, IWindowsMediaLibrarySharingServices.showShareMediaCPL, IWindowsMediaLibrarySharingServices::showShareMediaCPL, showShareMediaCPL, showShareMediaCPL method [Windows Media Library Sharing Services], showShareMediaCPL method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSshowShareMediaCPL, wmlss/IWindowsMediaLibrarySharingServices::showShareMediaCPL
-ms.topic: method
 f1_keywords:
 - wmlss/IWindowsMediaLibrarySharingServices.showShareMediaCPL
 dev_langs:

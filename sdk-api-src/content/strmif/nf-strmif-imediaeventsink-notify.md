@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 331f8d58-c7c6-40dd-88ca-5678c7b8c8f1
 ms.date: 12/05/2018
 ms.keywords: IMediaEventSink interface [DirectShow],Notify method, IMediaEventSink.Notify, IMediaEventSink::Notify, IMediaEventSinkNotify, Notify, Notify method [DirectShow], Notify method [DirectShow],IMediaEventSink interface, dshow.imediaeventsink_notify, strmif/IMediaEventSink::Notify
-ms.topic: method
 f1_keywords:
 - strmif/IMediaEventSink.Notify
 dev_langs:

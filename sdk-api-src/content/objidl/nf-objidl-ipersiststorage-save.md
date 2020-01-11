@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3a200812-48d9-4202-987a-1400aa66191c
 ms.date: 12/05/2018
 ms.keywords: IPersistStorage interface [COM],Save method, IPersistStorage.Save, IPersistStorage::Save, Save, Save method [COM], Save method [COM],IPersistStorage interface, _com_ipersiststorage_save, com.ipersiststorage_save, objidl/IPersistStorage::Save
-ms.topic: method
 f1_keywords:
 - objidl/IPersistStorage.Save
 dev_langs:

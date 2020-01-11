@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: d5daa512-547f-4b2d-85b3-0f6e9244acb2
 ms.date: 12/05/2018
 ms.keywords: GPMBackup object [GPMC],GenerateReport method, GenerateReport, GenerateReport method [GPMC], GenerateReport method [GPMC],GPMBackup object, GenerateReport method [GPMC],IGPMBackup interface, IGPMBackup interface [GPMC],GenerateReport method, IGPMBackup.GenerateReport, IGPMBackup::GenerateReport, gpmc.igpmbackup_generatereport, gpmgmt/IGPMBackup::GenerateReport
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPMBackup.GenerateReport
 dev_langs:

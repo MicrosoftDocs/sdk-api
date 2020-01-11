@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: b767961e-0935-4662-9f54-d82dfa0e7bd0
 ms.date: 12/05/2018
 ms.keywords: MGM_FORWARD_STATE, MGM_JOIN_STATE_FLAG, MgmAddGroupMembershipEntry, MgmAddGroupMembershipEntry function [RAS], _mpr_mgmaddgroupmembershipentry, mgm/MgmAddGroupMembershipEntry, rras.mgmaddgroupmembershipentry
-ms.topic: function
 f1_keywords:
 - mgm/MgmAddGroupMembershipEntry
 dev_langs:

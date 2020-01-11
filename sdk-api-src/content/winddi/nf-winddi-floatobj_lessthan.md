@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: acd1cc6d-c88f-4336-8a6c-a8b02cf726ee
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_LessThan, FLOATOBJ_LessThan function [Display Devices], display.floatobj_lessthan, gdifncs_226d15f4-cebd-45a4-b8e8-7ae7ee770b30.xml, winddi/FLOATOBJ_LessThan
-ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_LessThan
 dev_langs:

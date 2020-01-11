@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 452f4e83-74a6-4830-b244-599e9dc5c854
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_VERIFY_RESOURCE_SERVICE, PRESUTIL_VERIFY_RESOURCE_SERVICE function [Failover Cluster], ResUtilVerifyResourceService, ResUtilVerifyResourceService function [Failover Cluster], _wolf_resutilverifyresourceservice, mscs.resutilverifyresourceservice, resapi/PRESUTIL_VERIFY_RESOURCE_SERVICE, resapi/ResUtilVerifyResourceService
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilVerifyResourceService
 dev_langs:

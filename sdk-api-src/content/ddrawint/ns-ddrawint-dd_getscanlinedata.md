@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 92433daa-43da-40d3-a319-e0d70abd3cb0
 ms.date: 12/05/2018
 ms.keywords: '*PDD_GETSCANLINEDATA, DD_GETSCANLINEDATA, DD_GETSCANLINEDATA structure [Display Devices], ddrawint/DD_GETSCANLINEDATA, ddstrcts_f7654548-917a-4c6d-a15a-0f09bca64b5d.xml, display.dd_getscanlinedata'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_GETSCANLINEDATA
 dev_langs:

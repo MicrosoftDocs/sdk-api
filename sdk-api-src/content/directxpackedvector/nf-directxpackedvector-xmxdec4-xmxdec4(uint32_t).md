@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMXDEC4.#ctor(uint32_t)
 ms.date: 12/05/2018
 ms.keywords: XMXDEC4, XMXDEC4 constructor [DirectX Math Support APIs], XMXDEC4 constructor [DirectX Math Support APIs],XMXDEC4 structure, XMXDEC4 structure [DirectX Math Support APIs],XMXDEC4 constructor, XMXDEC4.XMXDEC4, XMXDEC4.XMXDEC4(uint32_t), XMXDEC4::XMXDEC4, XMXDEC4::XMXDEC4(uint32_t), dxmath.xmxdec4_ctor_2
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMXDEC4.XMXDEC4
 dev_langs:

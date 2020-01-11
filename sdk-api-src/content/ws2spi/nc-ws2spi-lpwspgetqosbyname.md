@@ -4,7 +4,6 @@ title: LPWSPGETQOSBYNAME
 description: The LPWSPGetQOSByName function initializes a QOS structure based on a named template, or retrieves an enumeration of the available template names.
 ms.date: 4/26/2019
 ms.keywords: LPWSPGETQOSBYNAME
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: b47cc15d-b92d-4e8a-a8b8-6217d07a0495
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY structure [Security], PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY structure pointer [Security], _crypto2_crypt_content_info_sequence_of_any, security.crypt_content_info_sequence_of_any, wincrypt/CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, wincrypt/PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY
 dev_langs:

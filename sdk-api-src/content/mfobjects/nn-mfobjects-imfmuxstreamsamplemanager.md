@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: DABA5955-1366-4CEE-ABDF-7CC0F3788A8E
 ms.date: 12/05/2018
 ms.keywords: IMFMuxStreamSampleManager, IMFMuxStreamSampleManager interface [Media Foundation], IMFMuxStreamSampleManager interface [Media Foundation],described, mf.imfmuxstreamsamplemanager, mfobjects/IMFMuxStreamSampleManager
-ms.topic: interface
 f1_keywords:
 - mfobjects/IMFMuxStreamSampleManager
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: a0a0081b-9132-4dea-967b-1ee1d1fdfa13
 ms.date: 12/05/2018
 ms.keywords: FILE_BEGIN, FILE_CURRENT, FILE_END, SetFilePointer, SetFilePointer function [Files], _win32_setfilepointer, base.setfilepointer, fileapi/SetFilePointer, fs.setfilepointer, winbase/SetFilePointer
-ms.topic: function
 f1_keywords:
 - fileapi/SetFilePointer
 dev_langs:

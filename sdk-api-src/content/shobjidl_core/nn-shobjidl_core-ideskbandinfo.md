@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1fff31d0-e732-4c93-8238-a8b4a5a62d37
 ms.date: 12/05/2018
 ms.keywords: IDeskBandInfo, IDeskBandInfo interface [Windows Shell], IDeskBandInfo interface [Windows Shell],described, _shell_IDeskBandInfo, shell.IDeskBandInfo, shobjidl_core/IDeskBandInfo
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IDeskBandInfo
 dev_langs:

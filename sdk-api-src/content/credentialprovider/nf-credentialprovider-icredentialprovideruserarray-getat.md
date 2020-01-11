@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: E768CC54-4392-4d5f-BB90-4AA91E5D8B00
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [Windows Shell], GetAt method [Windows Shell],ICredentialProviderUserArray interface, ICredentialProviderUserArray interface [Windows Shell],GetAt method, ICredentialProviderUserArray.GetAt, ICredentialProviderUserArray::GetAt, credentialprovider/ICredentialProviderUserArray::GetAt, shell.ICredentialProviderUserArray_GetAt
-ms.topic: method
 f1_keywords:
 - credentialprovider/ICredentialProviderUserArray.GetAt
 dev_langs:

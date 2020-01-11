@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: d4decdab-e412-4719-ad65-74f34cf8df27
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDevicePropertyKeys, SetupDiGetDevicePropertyKeys function [Device and Driver Installation], devinst.setupdigetdevicepropertykeys, di-rtns_49d5f09f-3d86-4292-a389-e6a0ee0946b6.xml, setupapi/SetupDiGetDevicePropertyKeys
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetDevicePropertyKeys
 dev_langs:

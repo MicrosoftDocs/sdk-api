@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 76c52494-e8ad-41df-bee6-33d90f24e448
 ms.date: 12/05/2018
 ms.keywords: RASADP_ConnectionQueryTimeout, RASADP_DisableConnectionQuery, RASADP_FailedConnectionTimeout, RASADP_LoginSessionDisable, RASADP_SavedAddressesLimit, RasSetAutodialParam, RasSetAutodialParam function [RAS], RasSetAutodialParamA, RasSetAutodialParamW, _ras_rassetautodialparam, ras/RasSetAutodialParam, ras/RasSetAutodialParamA, ras/RasSetAutodialParamW, rras.rassetautodialparam
-ms.topic: function
 f1_keywords:
 - ras/RasSetAutodialParam
 dev_langs:

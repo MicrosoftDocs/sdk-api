@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 72647FCE-F1B0-4A50-927B-23EE38EEEC8B
 ms.date: 12/05/2018
 ms.keywords: IDCompositionCompositeEffect, IDCompositionCompositeEffect interface [DirectComposition], IDCompositionCompositeEffect interface [DirectComposition],described, dcomp/IDCompositionCompositeEffect, directcomp.idcompositioncompositeeffect
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionCompositeEffect
 dev_langs:

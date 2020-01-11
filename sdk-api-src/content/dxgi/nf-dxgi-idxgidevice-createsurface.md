@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevice_createsurface.htm
 ms.date: 12/05/2018
 ms.keywords: CreateSurface, CreateSurface method [DXGI], CreateSurface method [DXGI],IDXGIDevice interface, IDXGIDevice interface [DXGI],CreateSurface method, IDXGIDevice.CreateSurface, IDXGIDevice::CreateSurface, a6514b10-4398-2f19-86d3-e31bb2c9044c, direct3ddxgi.idxgidevice_createsurface, dxgi/IDXGIDevice::CreateSurface
-ms.topic: method
 f1_keywords:
 - dxgi/IDXGIDevice.CreateSurface
 dev_langs:

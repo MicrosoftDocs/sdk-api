@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b6257d66-36c8-41d6-88f0-99417755582b
 ms.date: 12/05/2018
 ms.keywords: GetItemInfo, GetItemInfo method [Windows Shell], GetItemInfo method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetItemInfo method, ISyncMgrSyncItem.GetItemInfo, ISyncMgrSyncItem::GetItemInfo, _shell_ISyncMgrSyncItem_GetItemInfo, shell.ISyncMgrSyncItem_GetItemInfo, syncmgr/ISyncMgrSyncItem::GetItemInfo
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrSyncItem.GetItemInfo
 dev_langs:

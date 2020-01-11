@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: dddd73d5-3ce5-43df-a685-05f519b45386
 ms.date: 12/05/2018
 ms.keywords: MCIWndNew, MCIWndNew macro [Windows Multimedia], _win32_MCIWndNew, multimedia.mciwndnew, vfw/MCIWndNew
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndNew
 dev_langs:

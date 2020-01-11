@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: e6c83775-56e7-4342-a26a-418f472e190f
 ms.date: 12/05/2018
 ms.keywords: GetInstanceOfGlobalStore, GetInstanceOfGlobalStore method [Remote Desktop Services], GetInstanceOfGlobalStore method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],GetInstanceOfGlobalStore method, ITsSbProvider.GetInstanceOfGlobalStore, ITsSbProvider::GetInstanceOfGlobalStore, sbtsv/ITsSbProvider::GetInstanceOfGlobalStore, termserv.itssbprovider_getinstanceofglobalstore
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbProvider.GetInstanceOfGlobalStore
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MDMReg
 ms.assetid: 3a927d98-decf-464a-82db-561e9abcfe29
 ms.date: 12/05/2018
 ms.keywords: RegisterDeviceWithManagement, RegisterDeviceWithManagement function [MDM Registration], mdmreg.registerdevicewithmanagement, mdmregistration/RegisterDeviceWithManagement
-ms.topic: function
 f1_keywords:
 - mdmregistration/RegisterDeviceWithManagement
 dev_langs:

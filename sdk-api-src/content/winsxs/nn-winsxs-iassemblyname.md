@@ -7,7 +7,6 @@ tech.root: SbsCs
 ms.assetid: 304b8fb3-5d17-4af0-b070-450a40dc5cc9
 ms.date: 12/05/2018
 ms.keywords: IAssemblyName, IAssemblyName interface [Side-by-side Assemblies], IAssemblyName interface [Side-by-side Assemblies],described, setup.iassemblyname, winsxs/IAssemblyName
-ms.topic: interface
 f1_keywords:
 - winsxs/IAssemblyName
 dev_langs:

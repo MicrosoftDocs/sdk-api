@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: f695845b-8980-45cd-8231-e3ce29ce322f
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetTag method, IDirectManipulationViewport.SetTag, IDirectManipulationViewport::SetTag, SetTag, SetTag method [Direct Manipulation], SetTag method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_settag, directmanipulation/IDirectManipulationViewport::SetTag
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationViewport.SetTag
 dev_langs:

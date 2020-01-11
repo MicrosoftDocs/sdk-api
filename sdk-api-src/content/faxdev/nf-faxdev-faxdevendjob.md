@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_9yua.htm
 ms.date: 12/05/2018
 ms.keywords: FaxDevEndJob, FaxDevEndJob function [Fax Service], _mfax_faxdevendjob, fax._mfax_faxdevendjob, faxdev/FaxDevEndJob
-ms.topic: function
 f1_keywords:
 - faxdev/FaxDevEndJob
 dev_langs:

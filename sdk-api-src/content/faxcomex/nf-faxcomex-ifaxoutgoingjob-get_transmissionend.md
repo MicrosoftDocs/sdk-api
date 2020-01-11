@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_50x0.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],TransmissionEnd property, IFaxOutgoingJob.TransmissionEnd, IFaxOutgoingJob.get_TransmissionEnd, IFaxOutgoingJob::TransmissionEnd, IFaxOutgoingJob::get_TransmissionEnd, TransmissionEnd property [Fax Service], TransmissionEnd property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.transmissionend, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_transmissionend_cpp, fax._mfax_faxoutgoingjob_transmissionend, faxcomex/IFaxOutgoingJob::TransmissionEnd, faxcomex/IFaxOutgoingJob::get_TransmissionEnd, get_TransmissionEnd
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutgoingJob.TransmissionEnd
 dev_langs:

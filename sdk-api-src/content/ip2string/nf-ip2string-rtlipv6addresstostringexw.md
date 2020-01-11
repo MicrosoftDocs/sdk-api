@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: a7de2da3-21ea-42fa-9474-f33252838632
 ms.date: 12/05/2018
 ms.keywords: RtlIpv6AddressToStringEx, RtlIpv6AddressToStringEx function [IP Helper], RtlIpv6AddressToStringExW, ip2string/RtlIpv6AddressToStringEx, ip2string/RtlIpv6AddressToStringExW, iphlp.rtlipv6addresstostringex
-ms.topic: function
 f1_keywords:
 - ip2string/RtlIpv6AddressToStringEx
 dev_langs:

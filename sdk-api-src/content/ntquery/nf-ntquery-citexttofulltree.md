@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_1mw5.htm
 ms.date: 12/05/2018
 ms.keywords: CITextToFullTree, CITextToFullTree function [Indexing Service], _idxs_CITextToFullTree, indexsrv.citexttofulltree, ntquery/CITextToFullTree
-ms.topic: function
 f1_keywords:
 - ntquery/CITextToFullTree
 dev_langs:

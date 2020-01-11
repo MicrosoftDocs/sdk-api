@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2b174f31-d7bb-4934-9d5b-2e4fd6ae8bf5
 ms.date: 12/05/2018
 ms.keywords: ICaptureGraphBuilder interface [DirectShow],RenderStream method, ICaptureGraphBuilder.RenderStream, ICaptureGraphBuilder::RenderStream, ICaptureGraphBuilderRenderStream, RenderStream, RenderStream method [DirectShow], RenderStream method [DirectShow],ICaptureGraphBuilder interface, dshow.icapturegraphbuilder_renderstream, strmif/ICaptureGraphBuilder::RenderStream
-ms.topic: method
 f1_keywords:
 - strmif/ICaptureGraphBuilder.RenderStream
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 63fc90ac-536a-4d9b-ba0d-19dc0cc09e6b
 ms.date: 12/05/2018
 ms.keywords: ImpersonateNamedPipeClient, ImpersonateNamedPipeClient function [Security], _win32_impersonatenamedpipeclient, namedpipeapi/ImpersonateNamedPipeClient, security.impersonatenamedpipeclient
-ms.topic: function
 f1_keywords:
 - namedpipeapi/ImpersonateNamedPipeClient
 dev_langs:

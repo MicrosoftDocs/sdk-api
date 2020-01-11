@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 7c90625c-e6b5-475f-a9ea-0dfd27810f03
 ms.date: 12/05/2018
 ms.keywords: DhcpHlprAddV4PolicyCondition, DhcpHlprAddV4PolicyCondition function [DHCP], dhcp.dhcphlpraddv4policycondition, dhcpsapi/DhcpHlprAddV4PolicyCondition
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpHlprAddV4PolicyCondition
 dev_langs:

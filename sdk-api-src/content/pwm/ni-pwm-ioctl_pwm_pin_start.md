@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: 2256B46F-2E81-4A28-8F48-C870E4B8D906
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_PIN_START, IOCTL_PWM_PIN_START control, IOCTL_PWM_PIN_START control code, base.ioctl_pwm_pin_start, pwm/IOCTL_PWM_PIN_START
-ms.topic: ioctl
 f1_keywords:
 - pwm/IOCTL_PWM_PIN_START
 dev_langs:

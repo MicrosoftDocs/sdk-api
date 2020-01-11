@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 09547806-16f4-40ce-8713-591a7691a588
 ms.date: 12/05/2018
 ms.keywords: ResUtilGetMultiSzValue, ResUtilGetMultiSzValue function [Failover Cluster], _wolf_resutilgetmultiszvalue, mscs.resutilgetmultiszvalue, resapi/ResUtilGetMultiSzValue
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilGetMultiSzValue
 dev_langs:

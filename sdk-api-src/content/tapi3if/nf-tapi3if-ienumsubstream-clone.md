@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 42f5ecba-4555-410c-97b1-65eb02cd5032
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumSubStream interface, IEnumSubStream interface [TAPI 2.2],Clone method, IEnumSubStream.Clone, IEnumSubStream::Clone, _tapi3_ienumsubstream_clone, tapi3.ienumsubstream_clone, tapi3if/IEnumSubStream::Clone
-ms.topic: method
 f1_keywords:
 - tapi3if/IEnumSubStream.Clone
 dev_langs:

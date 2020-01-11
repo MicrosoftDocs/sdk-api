@@ -7,7 +7,6 @@ tech.root: WMLSS
 ms.assetid: fd0d1031-875d-4081-b23b-fb2cf77c4f13
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services],get_Count method, IWindowsMediaLibrarySharingDeviceProperties.get_Count, IWindowsMediaLibrarySharingDeviceProperties::get_Count, get_Count, get_Count method [Windows Media Library Sharing Services], get_Count method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDeviceProperties interface, wmlss.IWMLSDevicePropertiesget_Count, wmlss/IWindowsMediaLibrarySharingDeviceProperties::get_Count
-ms.topic: method
 f1_keywords:
 - wmlss/IWindowsMediaLibrarySharingDeviceProperties.get_Count
 dev_langs:

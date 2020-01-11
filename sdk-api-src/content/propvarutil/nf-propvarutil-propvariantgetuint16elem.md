@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: da50e35b-f17f-4de6-b2e7-5a885e2149e5
 ms.date: 12/05/2018
 ms.keywords: PropVariantGetUInt16Elem, PropVariantGetUInt16Elem function [Windows Properties], _shell_PropVariantGetUInt16Elem, properties.PropVariantGetUInt16Elem, propvarutil/PropVariantGetUInt16Elem, shell.PropVariantGetUInt16Elem
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantGetUInt16Elem
 dev_langs:

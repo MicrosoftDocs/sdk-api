@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: 86ec9224-5704-4a7d-b554-f9baf3f14531
 ms.date: 12/05/2018
 ms.keywords: ISettingsNamespace interface [SMI],Settings method, ISettingsNamespace.Settings, ISettingsNamespace::Settings, Settings, Settings method [SMI], Settings method [SMI],ISettingsNamespace interface, smi.isettingsnamespace_settings, wcmconfig/ISettingsNamespace::Settings
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsNamespace.Settings
 dev_langs:

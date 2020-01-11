@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: dada8684-66e7-4983-984a-589d48d167ba
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_HTTPProxyPort method, IAMNetShowConfig.put_HTTPProxyPort, IAMNetShowConfig::put_HTTPProxyPort, IAMNetShowConfigput_HTTPProxyPort, dshow.iamnetshowconfig_put_httpproxyport, put_HTTPProxyPort, put_HTTPProxyPort method [DirectShow], put_HTTPProxyPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_HTTPProxyPort
-ms.topic: method
 f1_keywords:
 - qnetwork/IAMNetShowConfig.put_HTTPProxyPort
 dev_langs:

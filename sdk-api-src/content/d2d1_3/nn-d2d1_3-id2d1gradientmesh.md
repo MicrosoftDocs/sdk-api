@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 0c51da97-7b70-d828-2a4d-cb62ff378a56
 ms.date: 12/05/2018
 ms.keywords: ID2D1GradientMesh, ID2D1GradientMesh interface [Direct2D], ID2D1GradientMesh interface [Direct2D],described, d2d1_3/ID2D1GradientMesh, direct2d.id2d1gradientmesh
-ms.topic: interface
 f1_keywords:
 - d2d1_3/ID2D1GradientMesh
 dev_langs:

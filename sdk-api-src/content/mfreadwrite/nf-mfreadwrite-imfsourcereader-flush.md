@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 34992c64-9956-4b23-a979-df7f678405b5
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],Flush method, IMFSourceReader.Flush, IMFSourceReader::Flush, MF_SOURCE_READER_ALL_STREAMS, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereader_flush, mfreadwrite/IMFSourceReader::Flush
-ms.topic: method
 f1_keywords:
 - mfreadwrite/IMFSourceReader.Flush
 dev_langs:

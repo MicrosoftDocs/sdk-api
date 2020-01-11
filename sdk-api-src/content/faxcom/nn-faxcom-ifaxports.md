@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1hwz.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxPorts, IFaxPorts interface [Fax Service], IFaxPorts interface [Fax Service],described, _mfax_ifaxports, fax._mfax_ifaxports, faxcom/IFaxPorts
-ms.topic: interface
 f1_keywords:
 - faxcom/IFaxPorts
 dev_langs:

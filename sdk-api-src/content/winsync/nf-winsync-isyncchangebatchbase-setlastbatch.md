@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 7619b446-5c71-4533-8af6-15f06dda3c87
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatchBase interface [Windows Sync],SetLastBatch method, ISyncChangeBatchBase.SetLastBatch, ISyncChangeBatchBase::SetLastBatch, SetLastBatch, SetLastBatch method [Windows Sync], SetLastBatch method [Windows Sync],ISyncChangeBatchBase interface, winsync.isyncchangebatchbase_setlastbatch, winsync/ISyncChangeBatchBase::SetLastBatch
-ms.topic: method
 f1_keywords:
 - winsync/ISyncChangeBatchBase.SetLastBatch
 dev_langs:

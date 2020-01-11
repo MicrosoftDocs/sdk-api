@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 965d8575-a05b-45d8-8718-4004f1d22ca5
 ms.date: 12/05/2018
 ms.keywords: ExpandAuthDataForDomain, ExpandAuthDataForDomain callback function [Security], LSA_EXPAND_AUTH_DATA_FOR_DOMAIN, LSA_EXPAND_AUTH_DATA_FOR_DOMAIN callback, ntsecpkg/ExpandAuthDataForDomain, security.expandauthdatafordomain
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/ExpandAuthDataForDomain
 dev_langs:

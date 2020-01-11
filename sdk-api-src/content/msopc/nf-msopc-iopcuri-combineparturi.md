@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 9bb4c351-12ef-4e26-bcb1-59f81a413588
 ms.date: 12/05/2018
 ms.keywords: CombinePartUri, CombinePartUri method [Open Packaging Conventions], CombinePartUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],CombinePartUri method, IOpcUri.CombinePartUri, IOpcUri::CombinePartUri, msopc/IOpcUri::CombinePartUri, opc.iopcuri_combineparturi
-ms.topic: method
 f1_keywords:
 - msopc/IOpcUri.CombinePartUri
 dev_langs:

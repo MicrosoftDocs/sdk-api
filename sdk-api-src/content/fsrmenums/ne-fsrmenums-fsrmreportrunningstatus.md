@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: c14ba641-4f85-4a75-9d5c-d9381506c946
 ms.date: 12/05/2018
 ms.keywords: FsrmReportRunningStatus, FsrmReportRunningStatus enumeration [File Server Resource Manager], FsrmReportRunningStatus_NotRunning, FsrmReportRunningStatus_Queued, FsrmReportRunningStatus_Running, FsrmReportRunningStatus_Unknown, fs.fsrmreportrunningstatus, fsrm.fsrmreportrunningstatus, fsrmenums/FsrmReportRunningStatus, fsrmenums/FsrmReportRunningStatus_NotRunning, fsrmenums/FsrmReportRunningStatus_Queued, fsrmenums/FsrmReportRunningStatus_Running, fsrmenums/FsrmReportRunningStatus_Unknown
-ms.topic: enum
 f1_keywords:
 - fsrmenums/FsrmReportRunningStatus
 dev_langs:

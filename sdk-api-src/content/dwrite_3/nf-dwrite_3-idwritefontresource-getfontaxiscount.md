@@ -5,7 +5,6 @@ description: Retrieves the number of axes supported by the font resource.
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetFontAxisCount method, IDWriteFontResource.GetFontAxisCount, IDWriteFontResource::GetFontAxisCount, GetFontAxisCount, GetFontAxisCount method [Direct Write], GetFontAxisCount method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontaxiscount, dwrite_3/IDWriteFontResource::GetFontAxisCount
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontResource.GetFontAxisCount
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 5252b535-23e5-4af1-91df-006717c4e159
 ms.date: 12/05/2018
 ms.keywords: EnumMethodsWithName, EnumMethodsWithName method [Windows Runtime], EnumMethodsWithName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMethodsWithName method, IMetaDataImport.EnumMethodsWithName, IMetaDataImport::EnumMethodsWithName, rometadataapi/IMetaDataImport::EnumMethodsWithName, winrt.imetadataimport_enummethodswithname
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataImport.EnumMethodsWithName
 dev_langs:

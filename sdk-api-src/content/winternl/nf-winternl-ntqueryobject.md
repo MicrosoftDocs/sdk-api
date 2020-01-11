@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 08c801b5-a315-413e-adc5-576e6a740465
 ms.date: 12/05/2018
 ms.keywords: NtQueryObject, NtQueryObject function [Windows API], winprog.ntqueryobject, winternl/NtQueryObject
-ms.topic: function
 f1_keywords:
 - winternl/NtQueryObject
 dev_langs:

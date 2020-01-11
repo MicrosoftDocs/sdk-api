@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 81ef2af8-c1a9-44e7-857c-1591947609ed
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverEnumRelationship, DhcpV4FailoverEnumRelationship function [DHCP], dhcp.dhcpv4failoverenumrelationship, dhcpsapi/DhcpV4FailoverEnumRelationship
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4FailoverEnumRelationship
 dev_langs:

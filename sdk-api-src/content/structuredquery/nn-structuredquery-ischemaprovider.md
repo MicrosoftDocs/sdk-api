@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\ischemaprovider.htm
 ms.date: 12/05/2018
 ms.keywords: ISchemaProvider, ISchemaProvider interface [search], ISchemaProvider interface [search],described, _search_ISchemaProvider, search._search_ISchemaProvider, structuredquery/ISchemaProvider
-ms.topic: interface
 f1_keywords:
 - structuredquery/ISchemaProvider
 dev_langs:

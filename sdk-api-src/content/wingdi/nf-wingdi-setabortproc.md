@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 5b6333fc-f1c3-4c76-906c-0fd13bb73953
 ms.date: 12/05/2018
 ms.keywords: SetAbortProc, SetAbortProc function [Windows GDI], _win32_SetAbortProc, gdi.setabortproc, wingdi/SetAbortProc
-ms.topic: function
 f1_keywords:
 - wingdi/SetAbortProc
 dev_langs:

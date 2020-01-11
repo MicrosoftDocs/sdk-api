@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 0d74837e-12d1-4d94-941e-6a81aeac1151
 ms.date: 12/05/2018
 ms.keywords: EnumPartsIncoming, EnumPartsIncoming method [Core Audio], EnumPartsIncoming method [Core Audio],IPart interface, IPart interface [Core Audio],EnumPartsIncoming method, IPart.EnumPartsIncoming, IPart::EnumPartsIncoming, IPartEnumPartsIncoming, coreaudio.ipart_enumpartsincoming, devicetopology/IPart::EnumPartsIncoming
-ms.topic: method
 f1_keywords:
 - devicetopology/IPart.EnumPartsIncoming
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: f9808c48-dc98-465b-958d-223a8b7cc371
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationAndCondition, IUIAutomationAndCondition interface [Windows Accessibility], IUIAutomationAndCondition interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationAndCondition, uiauto_IUIAutomationAndCondition, uiautomationclient/IUIAutomationAndCondition, winauto.uiauto_IUIAutomationAndCondition
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationAndCondition
 dev_langs:

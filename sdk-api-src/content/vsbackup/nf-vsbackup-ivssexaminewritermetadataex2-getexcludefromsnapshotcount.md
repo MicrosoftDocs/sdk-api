@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 77f21feb-bd7c-4fd0-820b-9dabb1bcbc89
 ms.date: 12/05/2018
 ms.keywords: GetExcludeFromSnapshotCount, GetExcludeFromSnapshotCount method, GetExcludeFromSnapshotCount method,IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,GetExcludeFromSnapshotCount method, IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount, IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount, base.ivssexaminewritermetadataex2_getexcludefromsnapshotcount, vsbackup/IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount
 dev_langs:

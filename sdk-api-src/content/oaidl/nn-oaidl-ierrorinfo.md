@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 4dda6909-2d9a-4727-ae0c-b5f90dcfa447
 ms.date: 12/05/2018
 ms.keywords: IErrorInfo, IErrorInfo interface [Automation], IErrorInfo interface [Automation],described, _oa96_IErrorInfo_Interface, automat.ierrorinfo, oaidl/IErrorInfo
-ms.topic: interface
 f1_keywords:
 - oaidl/IErrorInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: cc62b295-23b5-40e8-a43a-1b4b67ac0f83
 ms.date: 12/05/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],ServiceRestriction property, INetFwPolicy2.ServiceRestriction, INetFwPolicy2.get_ServiceRestriction, INetFwPolicy2::ServiceRestriction, INetFwPolicy2::get_ServiceRestriction, ServiceRestriction property [ICS/ICF], ServiceRestriction property [ICS/ICF],INetFwPolicy2 interface, get_ServiceRestriction, ics.inetfwpolicy2_servicerestriction, netfw/INetFwPolicy2::ServiceRestriction, netfw/INetFwPolicy2::get_ServiceRestriction
-ms.topic: method
 f1_keywords:
 - netfw/INetFwPolicy2.ServiceRestriction
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 08fca00b-e187-40db-99c0-8b978dd0f10e
 ms.date: 12/05/2018
 ms.keywords: AudioStreamChange, AudioStreamChange method [DirectShow], AudioStreamChange method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],AudioStreamChange method, IDvdControl.AudioStreamChange, IDvdControl::AudioStreamChange, IDvdControlAudioStreamChange, dshow.idvdcontrol_audiostreamchange, strmif/IDvdControl::AudioStreamChange
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.AudioStreamChange
 dev_langs:

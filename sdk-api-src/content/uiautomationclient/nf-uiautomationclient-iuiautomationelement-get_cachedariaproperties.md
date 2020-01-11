@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 0156348c-4c3a-4351-9bcc-16e8f4107916
 ms.date: 12/05/2018
 ms.keywords: CachedAriaProperties property [Windows Accessibility], CachedAriaProperties property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedAriaProperties property, IUIAutomationElement.CachedAriaProperties, IUIAutomationElement.get_CachedAriaProperties, IUIAutomationElement::CachedAriaProperties, IUIAutomationElement::get_CachedAriaProperties, get_CachedAriaProperties, uiauto.uiauto_IUIAutomationElement_CachedAriaProperties, uiauto_IUIAutomationElement_CachedAriaProperties, uiautomationclient/IUIAutomationElement::CachedAriaProperties, uiautomationclient/IUIAutomationElement::get_CachedAriaProperties, winauto.uiauto_IUIAutomationElement_CachedAriaProperties
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationElement.CachedAriaProperties
 dev_langs:

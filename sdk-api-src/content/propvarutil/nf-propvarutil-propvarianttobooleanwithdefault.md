@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 223767a7-a4de-4e7e-ad8b-2a6bdcea0a47
 ms.date: 12/05/2018
 ms.keywords: PropVariantToBooleanWithDefault, PropVariantToBooleanWithDefault function [Windows Properties], properties.PropVariantToBooleanWithDefault, propvarutil/PropVariantToBooleanWithDefault, shell.PropVariantToBooleanWithDefault, shell_PropVariantToBooleanWithDefault
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantToBooleanWithDefault
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 03e5f6ad-a497-443f-981b-866c675961a1
 ms.date: 12/05/2018
 ms.keywords: NetErrorLogClear, NetErrorLogClear function [Network Management], _win32_neterrorlogclear, lmerrlog/NetErrorLogClear, netmgmt.neterrorlogclear
-ms.topic: function
 f1_keywords:
 - lmerrlog/NetErrorLogClear
 dev_langs:

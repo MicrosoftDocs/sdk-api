@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 80ec6587-515f-4697-8a19-8c486bec3473
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],Select method, IShellFolderView.Select, IShellFolderView::Select, SFVS_SELECT_ALLITEMS, SFVS_SELECT_INVERT, SFVS_SELECT_NONE, Select, Select method [Windows Shell], Select method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_Select, shell.IShellFolderView_Select, shlobj_core/IShellFolderView::Select
-ms.topic: method
 f1_keywords:
 - shlobj_core/IShellFolderView.Select
 dev_langs:

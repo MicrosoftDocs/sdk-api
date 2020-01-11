@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 9123bc22-2e48-4e4b-acc9-f11098970197
 ms.date: 12/05/2018
 ms.keywords: ITableProvider interface [Windows Accessibility],RowOrColumnMajor property, ITableProvider.RowOrColumnMajor, ITableProvider.get_RowOrColumnMajor, ITableProvider::RowOrColumnMajor, ITableProvider::get_RowOrColumnMajor, RowOrColumnMajor property [Windows Accessibility], RowOrColumnMajor property [Windows Accessibility],ITableProvider interface, get_RowOrColumnMajor, uiauto.uiauto_ITableProvider_RowOrColumnMajor, uiauto_ITableProvider_RowOrColumnMajor, uiautomationcore/ITableProvider::RowOrColumnMajor, uiautomationcore/ITableProvider::get_RowOrColumnMajor, winauto.uiauto_ITableProvider_RowOrColumnMajor
-ms.topic: method
 f1_keywords:
 - uiautomationcore/ITableProvider.RowOrColumnMajor
 dev_langs:

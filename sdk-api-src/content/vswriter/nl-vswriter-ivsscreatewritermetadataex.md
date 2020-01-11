@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: eec0a7ef-ad7c-4fb6-a101-573c2d0943c2
 ms.date: 12/05/2018
 ms.keywords: IVssCreateWriterMetadataEx, IVssCreateWriterMetadataEx interface, IVssCreateWriterMetadataEx interface,described, base.ivsscreatewritermetadataex, vswriter/IVssCreateWriterMetadataEx
-ms.topic: class
 f1_keywords:
 - vswriter/IVssCreateWriterMetadataEx
 dev_langs:

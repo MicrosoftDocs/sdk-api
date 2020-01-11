@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 936af9e5-707d-4d43-9035-e8239e3759a2
 ms.date: 12/05/2018
 ms.keywords: StrokeAndFillPath, StrokeAndFillPath function [Windows GDI], _win32_StrokeAndFillPath, gdi.strokeandfillpath, wingdi/StrokeAndFillPath
-ms.topic: function
 f1_keywords:
 - wingdi/StrokeAndFillPath
 dev_langs:

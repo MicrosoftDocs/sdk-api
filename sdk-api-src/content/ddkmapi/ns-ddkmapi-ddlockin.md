@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 47bc1879-80a5-4850-a303-dbbebbd83de6
 ms.date: 12/05/2018
 ms.keywords: '*LPDDLOCKIN, DDLOCKIN, DDLOCKIN structure [Display Devices], LPDDLOCKIN, LPDDLOCKIN structure pointer [Display Devices], ddkmapi/DDLOCKIN, ddkmapi/LPDDLOCKIN, ddstrcts_b8a5f627-94dd-4353-b9f1-edc6f65adaba.xml, display.ddlockin'
-ms.topic: struct
 f1_keywords:
 - ddkmapi/DDLOCKIN
 dev_langs:

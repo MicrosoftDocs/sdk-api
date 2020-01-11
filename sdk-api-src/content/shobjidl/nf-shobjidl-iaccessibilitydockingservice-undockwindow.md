@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 8A88D02C-E542-49F0-B423-771E755D506D
 ms.date: 12/05/2018
 ms.keywords: IAccessibilityDockingService interface [COM],UndockWindow method, IAccessibilityDockingService.UndockWindow, IAccessibilityDockingService::UndockWindow, UndockWindow, UndockWindow method [COM], UndockWindow method [COM],IAccessibilityDockingService interface, com.iaccessibilitydockingservice_undockwindow, shobjidl/IAccessibilityDockingService::UndockWindow
-ms.topic: method
 f1_keywords:
 - shobjidl/IAccessibilityDockingService.UndockWindow
 dev_langs:

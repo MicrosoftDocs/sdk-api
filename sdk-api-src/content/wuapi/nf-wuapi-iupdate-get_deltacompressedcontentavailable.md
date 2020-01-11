@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: b713a349-45fe-492a-a966-17112edf00ec
 ms.date: 12/05/2018
 ms.keywords: DeltaCompressedContentAvailable property [Windows Update Agent], DeltaCompressedContentAvailable property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],DeltaCompressedContentAvailable property, IUpdate.DeltaCompressedContentAvailable, IUpdate.get_DeltaCompressedContentAvailable, IUpdate::DeltaCompressedContentAvailable, IUpdate::get_DeltaCompressedContentAvailable, get_DeltaCompressedContentAvailable, wua.iupdate_deltacompressedcontentavailable, wuapi/IUpdate::DeltaCompressedContentAvailable, wuapi/IUpdate::get_DeltaCompressedContentAvailable
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdate.DeltaCompressedContentAvailable
 dev_langs:

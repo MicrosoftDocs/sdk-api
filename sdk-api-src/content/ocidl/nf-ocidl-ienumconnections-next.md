@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: af58f961-1182-43fc-95ce-4afb251b9b08
 ms.date: 12/05/2018
 ms.keywords: IEnumConnections interface [COM],Next method, IEnumConnections.Next, IEnumConnections::Next, Next, Next method [COM], Next method [COM],IEnumConnections interface, _com_ienumconnections_next, com.ienumconnections_next, ocidl/IEnumConnections::Next
-ms.topic: method
 f1_keywords:
 - ocidl/IEnumConnections.Next
 dev_langs:

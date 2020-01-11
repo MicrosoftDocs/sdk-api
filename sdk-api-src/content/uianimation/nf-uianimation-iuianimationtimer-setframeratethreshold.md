@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 6e9b5278-a959-40a7-a4dc-88400a80b0e3
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimer interface [Windows Animation],SetFrameRateThreshold method, IUIAnimationTimer.SetFrameRateThreshold, IUIAnimationTimer::SetFrameRateThreshold, SetFrameRateThreshold, SetFrameRateThreshold method [Windows Animation], SetFrameRateThreshold method [Windows Animation],IUIAnimationTimer interface, uianimation.iuianimationtimer_setframeratethreshold, uianimation/IUIAnimationTimer::SetFrameRateThreshold
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationTimer.SetFrameRateThreshold
 dev_langs:

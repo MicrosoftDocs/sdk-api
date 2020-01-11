@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 30d68d48-156e-440b-8607-8b64cfa25049
 ms.date: 12/05/2018
 ms.keywords: FWPM_FIELD0, FWPM_FIELD0 structure [Filtering], FWPM_FIELD0_, fwp.fwpm_field0_struct, fwpmtypes/FWPM_FIELD0
-ms.topic: struct
 f1_keywords:
 - fwpmtypes/FWPM_FIELD0
 dev_langs:

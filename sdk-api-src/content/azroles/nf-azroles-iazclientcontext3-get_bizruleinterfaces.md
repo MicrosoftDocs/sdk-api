@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 6cb1e53e-2e15-4f5f-9a8e-e9f988370cba
 ms.date: 12/05/2018
 ms.keywords: BizRuleInterfaces property [Security], BizRuleInterfaces property [Security],IAzClientContext3 interface, IAzClientContext3 interface [Security],BizRuleInterfaces property, IAzClientContext3.BizRuleInterfaces, IAzClientContext3.get_BizRuleInterfaces, IAzClientContext3::BizRuleInterfaces, IAzClientContext3::get_BizRuleInterfaces, azroles/IAzClientContext3::BizRuleInterfaces, azroles/IAzClientContext3::get_BizRuleInterfaces, get_BizRuleInterfaces, security.iazclientcontext3_bizruleinterfaces_method
-ms.topic: method
 f1_keywords:
 - azroles/IAzClientContext3.BizRuleInterfaces
 dev_langs:

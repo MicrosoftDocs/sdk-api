@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querycontentproperties.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],get_QueryContentProperties method, ISearchQueryHelper.get_QueryContentProperties, ISearchQueryHelper::get_QueryContentProperties, _search_ISearchQueryHelper_get_QueryContentProperties, get_QueryContentProperties, get_QueryContentProperties method [search], get_QueryContentProperties method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QueryContentProperties, searchapi/ISearchQueryHelper::get_QueryContentProperties
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchQueryHelper.get_QueryContentProperties
 dev_langs:

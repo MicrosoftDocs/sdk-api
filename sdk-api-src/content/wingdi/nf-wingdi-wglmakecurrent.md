@@ -7,7 +7,6 @@ tech.root: OpenGL
 ms.assetid: a1d3cbc9-2587-4f49-9d7d-749cf9a3ecfe
 ms.date: 12/05/2018
 ms.keywords: _ogl_wglMakeCurrent, opengl.wglmakecurrent, wglMakeCurrent, wglMakeCurrent function [OpenGL], wingdi/wglMakeCurrent
-ms.topic: function
 f1_keywords:
 - wingdi/wglMakeCurrent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 5104ce98-5b13-409a-9226-0c089ee8bb1e
 ms.date: 12/05/2018
 ms.keywords: Count, Count method [DirectShow], Count method [DirectShow],IAMStreamSelect interface, IAMStreamSelect interface [DirectShow],Count method, IAMStreamSelect.Count, IAMStreamSelect::Count, IAMStreamSelectCount, dshow.iamstreamselect_count, strmif/IAMStreamSelect::Count
-ms.topic: method
 f1_keywords:
 - strmif/IAMStreamSelect.Count
 dev_langs:

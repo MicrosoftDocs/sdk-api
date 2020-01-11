@@ -5,7 +5,6 @@ description: Retrieves the value ranges of each axis.
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetFontAxisRanges method, IDWriteFontResource.GetFontAxisRanges, IDWriteFontResource::GetFontAxisRanges, GetFontAxisRanges, GetFontAxisRanges method [Direct Write], GetFontAxisRanges method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontaxisranges, dwrite_3/IDWriteFontResource::GetFontAxisRanges
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontResource.GetFontAxisRanges
 dev_langs:

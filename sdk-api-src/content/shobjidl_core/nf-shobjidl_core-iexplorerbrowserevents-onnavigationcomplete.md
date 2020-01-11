@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 54c97a55-a8d1-4635-a1e0-2f92d52ddc10
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowserEvents interface [Windows Shell],OnNavigationComplete method, IExplorerBrowserEvents.OnNavigationComplete, IExplorerBrowserEvents::OnNavigationComplete, OnNavigationComplete, OnNavigationComplete method [Windows Shell], OnNavigationComplete method [Windows Shell],IExplorerBrowserEvents interface, _shell_IExplorerBrowserEvents_OnNavigationComplete, shell.IExplorerBrowserEvents_OnNavigationComplete, shobjidl_core/IExplorerBrowserEvents::OnNavigationComplete
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IExplorerBrowserEvents.OnNavigationComplete
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 502a94bf-3ec4-44d2-b0de-9994f2f9861f
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapCodecInfo, IWICBitmapCodecInfo interface [Windows Imaging Component], IWICBitmapCodecInfo interface [Windows Imaging Component],described, _wic_codec_iwicbitmapcodecinfo, wic._wic_codec_iwicbitmapcodecinfo, wincodec/IWICBitmapCodecInfo
-ms.topic: interface
 f1_keywords:
 - wincodec/IWICBitmapCodecInfo
 dev_langs:

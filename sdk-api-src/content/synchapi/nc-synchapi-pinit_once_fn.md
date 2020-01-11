@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: e4a73572-e477-4518-87fe-b9b74234e8ec
 ms.date: 12/05/2018
 ms.keywords: PINIT_ONCE_FN, PINIT_ONCE_FN callback, PINIT_ONCE_FN callback function, base.initoncecallback, synchapi/PINIT_ONCE_FN
-ms.topic: callback
 f1_keywords:
 - synchapi/PINIT_ONCE_FN
 dev_langs:

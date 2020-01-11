@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: d84873e2-ecfe-45cf-9048-7ed173117efa
 ms.date: 12/05/2018
 ms.keywords: AuthzModifySecurityAttributes, AuthzModifySecurityAttributes function [Security], authz/AuthzModifySecurityAttributes, security.authzmodifysecurityattributes
-ms.topic: function
 f1_keywords:
 - authz/AuthzModifySecurityAttributes
 dev_langs:

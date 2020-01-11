@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 3339E021-4AC3-43CB-9306-C8D58541CA5F
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectBase interface [Core Audio],IsActive method, ISpatialAudioObjectBase.IsActive, ISpatialAudioObjectBase::IsActive, IsActive, IsActive method [Core Audio], IsActive method [Core Audio],ISpatialAudioObjectBase interface, coreaudio.ispatialaudioobject_isactive, spatialaudioclient/ISpatialAudioObjectBase::IsActive
-ms.topic: method
 f1_keywords:
 - spatialaudioclient/ISpatialAudioObjectBase.IsActive
 dev_langs:

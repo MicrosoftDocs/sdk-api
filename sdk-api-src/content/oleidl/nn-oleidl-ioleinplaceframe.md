@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c530aff7-fd83-413d-8945-0c9d1bfb51ba
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceFrame, IOleInPlaceFrame interface [COM], IOleInPlaceFrame interface [COM],described, _ole_ioleinplaceframe, com.ioleinplaceframe, oleidl/IOleInPlaceFrame
-ms.topic: interface
 f1_keywords:
 - oleidl/IOleInPlaceFrame
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: A1CDA9D1-9FEE-4FCB-AA85-1DA58D9EF95B
 ms.date: 12/05/2018
 ms.keywords: IndexFilePath, IndexFilePath function [Menus and Other Resources], menurc.indexfilepath, resourceindexer/IndexFilePath
-ms.topic: function
 f1_keywords:
 - resourceindexer/IndexFilePath
 dev_langs:

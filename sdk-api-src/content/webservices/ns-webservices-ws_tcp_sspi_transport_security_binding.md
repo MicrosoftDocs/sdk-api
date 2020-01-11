@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: c617f6cf-cedb-4d52-954c-fd4577260ca3
 ms.date: 12/05/2018
 ms.keywords: WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING, WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING, wsw.ws_tcp_sspi_transport_security_binding
-ms.topic: struct
 f1_keywords:
 - webservices/WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING
 dev_langs:

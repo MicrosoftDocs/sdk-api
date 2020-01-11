@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 745e7aad-a598-4be6-b28b-bb5969ef0c77
 ms.date: 12/05/2018
 ms.keywords: VMR9ARMode_LetterBox, VMR9ARMode_None, VMR9AspectRatioMode, VMR9AspectRatioMode , VMR9AspectRatioMode enumeration [DirectShow], VMR9AspectRatioModeEnumeration, dshow.vmr9aspectratiomode, vmr9/VMR9ARMode_LetterBox, vmr9/VMR9ARMode_None, vmr9/VMR9AspectRatioMode
-ms.topic: enum
 f1_keywords:
 - vmr9/VMR9AspectRatioMode
 dev_langs:

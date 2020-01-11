@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 0d591343-84eb-410d-815b-b42850d3f2e1
 ms.date: 12/05/2018
 ms.keywords: IsThreadAFiber, IsThreadAFiber function, base.isthreadafiber, fibersapi/IsThreadAFiber, winbase/IsThreadAFiber
-ms.topic: function
 f1_keywords:
 - fibersapi/IsThreadAFiber
 dev_langs:

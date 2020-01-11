@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: fda52080-4117-47d6-8248-ffedd35e7625
 ms.date: 12/05/2018
 ms.keywords: IInputObjectSite, IInputObjectSite interface [Windows Shell], IInputObjectSite interface [Windows Shell],described, _win32_IInputObjectSite, shell.IInputObjectSite, shobjidl_core/IInputObjectSite
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IInputObjectSite
 dev_langs:

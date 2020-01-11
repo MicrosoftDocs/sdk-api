@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 738500d4-32f5-43cf-8d40-9ad201ca6d4b
 ms.date: 12/05/2018
 ms.keywords: PaintDesktop, PaintDesktop function [Windows GDI], _win32_PaintDesktop, gdi.paintdesktop, winuser/PaintDesktop
-ms.topic: function
 f1_keywords:
 - winuser/PaintDesktop
 dev_langs:

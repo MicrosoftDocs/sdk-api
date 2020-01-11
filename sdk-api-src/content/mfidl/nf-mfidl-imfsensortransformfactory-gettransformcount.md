@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: D1B1DA8D-9A59-43A0-9A2F-8749B2C05D37
 ms.date: 12/05/2018
 ms.keywords: GetTransformCount, GetTransformCount method [Media Foundation], GetTransformCount method [Media Foundation],IMFSensorTransformFactory interface, IMFSensorTransformFactory interface [Media Foundation],GetTransformCount method, IMFSensorTransformFactory.GetTransformCount, IMFSensorTransformFactory::GetTransformCount, mf.imfsensortransformfactory_gettransformcount, mfidl/IMFSensorTransformFactory::GetTransformCount
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSensorTransformFactory.GetTransformCount
 dev_langs:

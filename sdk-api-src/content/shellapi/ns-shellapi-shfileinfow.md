@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9dbf873a-b447-4579-961e-20f2a64c87fe
 ms.date: 12/05/2018
 ms.keywords: SHFILEINFO, SHFILEINFO structure [Windows Shell], SHFILEINFOW, _win32_SHFILEINFO, shell.SHFILEINFO, shellapi/SHFILEINFO
-ms.topic: struct
 f1_keywords:
 - shellapi/SHFILEINFO
 dev_langs:

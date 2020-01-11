@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: a27af4e1-293d-438a-8068-87275a51fd48
 ms.date: 12/05/2018
 ms.keywords: ILockBytes interface [Structured Storage],WriteAt method, ILockBytes.WriteAt, ILockBytes::WriteAt, WriteAt, WriteAt method [Structured Storage], WriteAt method [Structured Storage],ILockBytes interface, _stg_ilockbytes_writeat, objidl/ILockBytes::WriteAt, stg.ilockbytes_writeat
-ms.topic: method
 f1_keywords:
 - objidl/ILockBytes.WriteAt
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: f201dfaa-d9e6-41e0-8d22-23c073b1789d
 ms.date: 12/05/2018
 ms.keywords: ClusterAddGroupToGroupSet, ClusterAddGroupToGroupSet function [Failover Cluster], PCLUSAPI_CLUSTER_ADD_GROUP_TO_GROUP_GROUPSET, PCLUSAPI_CLUSTER_ADD_GROUP_TO_GROUP_GROUPSET function [Failover Cluster], clusapi/ClusterAddGroupToGroupSet, clusapi/PCLUSAPI_CLUSTER_ADD_GROUP_TO_GROUP_GROUPSET, mscs.clusteraddgrouptogroupcollection
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterAddGroupToGroupSet
 dev_langs:

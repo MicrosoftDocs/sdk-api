@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: f8897936-91fa-4b91-a13a-0ef0a52d780c
 ms.date: 12/05/2018
 ms.keywords: WSManPluginAuthzUserComplete, WSManPluginAuthzUserComplete function [Windows Remote Management], winrm.wsmanpluginauthzusercomplete, wsman/WSManPluginAuthzUserComplete
-ms.topic: function
 f1_keywords:
 - wsman/WSManPluginAuthzUserComplete
 dev_langs:

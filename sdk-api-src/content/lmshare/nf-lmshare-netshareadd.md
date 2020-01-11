@@ -7,7 +7,6 @@ tech.root: NetShare
 ms.assetid: 8b51c155-24e8-4d39-b818-eb2d1bb0ee8b
 ms.date: 12/05/2018
 ms.keywords: 2, 502, 503, NetShareAdd, NetShareAdd function [Files], _win32_netshareadd, fs.netshareadd, lmshare/NetShareAdd, netmgmt.netshareadd
-ms.topic: function
 f1_keywords:
 - lmshare/NetShareAdd
 dev_langs:

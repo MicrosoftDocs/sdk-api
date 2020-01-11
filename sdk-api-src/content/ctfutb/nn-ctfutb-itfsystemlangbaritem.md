@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 9b41e787-eb90-4858-8838-8c36c7dce0c1
 ms.date: 12/05/2018
 ms.keywords: ITfSystemLangBarItem, ITfSystemLangBarItem interface [Text Services Framework], ITfSystemLangBarItem interface [Text Services Framework],described, _tsf_itfsystemlangbaritem_ref, ctfutb/ITfSystemLangBarItem, tsf.itfsystemlangbaritem
-ms.topic: interface
 f1_keywords:
 - ctfutb/ITfSystemLangBarItem
 dev_langs:

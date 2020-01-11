@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 71ab5206-5127-45f1-a2b5-3fbcc867d678
 ms.date: 12/05/2018
 ms.keywords: IPropertyNotifySink interface [COM],OnChanged method, IPropertyNotifySink.OnChanged, IPropertyNotifySink::OnChanged, OnChanged, OnChanged method [COM], OnChanged method [COM],IPropertyNotifySink interface, _ctrl_ipropertynotifysink_onchanged, com.ipropertynotifysink_onchanged, ocidl/IPropertyNotifySink::OnChanged
-ms.topic: method
 f1_keywords:
 - ocidl/IPropertyNotifySink.OnChanged
 dev_langs:

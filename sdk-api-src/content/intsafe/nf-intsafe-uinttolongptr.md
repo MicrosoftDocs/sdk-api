@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: bf26b6da-ecc6-4ee0-9da8-54fa0261427a
 ms.date: 12/05/2018
 ms.keywords: UIntToLongPtr, UIntToLongPtr function [Windows Shell], UIntToSSIZET, _shell_UIntToLongPtr, intsafe/UIntToLongPtr, shell.UIntToLongPtr
-ms.topic: function
 f1_keywords:
 - intsafe/UIntToLongPtr
 dev_langs:

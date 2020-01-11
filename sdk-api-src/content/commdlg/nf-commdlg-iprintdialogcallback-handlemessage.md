@@ -7,7 +7,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogcallback\iprintdialogcallbackhandlemessage.htm
 ms.date: 12/05/2018
 ms.keywords: HandleMessage, HandleMessage method [Dialog Boxes], HandleMessage method [Dialog Boxes],IPrintDialogCallback interface, IPrintDialogCallback interface [Dialog Boxes],HandleMessage method, IPrintDialogCallback.HandleMessage, IPrintDialogCallback::HandleMessage, _win32_IPrintDialogCallback_HandleMessage, _win32_iprintdialogcallback_handlemessage_cpp, commdlg/IPrintDialogCallback::HandleMessage, dlgbox.iprintdialogcallback_handlemessage, winui._win32_iprintdialogcallback_handlemessage
-ms.topic: method
 f1_keywords:
 - commdlg/IPrintDialogCallback.HandleMessage
 dev_langs:

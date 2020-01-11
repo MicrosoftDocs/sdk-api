@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 2c200aae-dbc5-487c-a3a4-e8dcf50bc0f9
 ms.date: 12/05/2018
 ms.keywords: GetQuotaLimitText, GetQuotaLimitText method [Files], GetQuotaLimitText method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaLimitText method, IDiskQuotaUser.GetQuotaLimitText, IDiskQuotaUser::GetQuotaLimitText, _win32_idiskquotauser_getquotalimittext, base.idiskquotauser_getquotalimittext, dskquota/IDiskQuotaUser::GetQuotaLimitText, fs.idiskquotauser_getquotalimittext
-ms.topic: method
 f1_keywords:
 - dskquota/IDiskQuotaUser.GetQuotaLimitText
 dev_langs:

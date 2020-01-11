@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: f942fefc-2db1-4067-8311-f9ebbaca9d31
 ms.date: 12/05/2018
 ms.keywords: IUserInputString, IUserInputString interface [Picture Acquisition], IUserInputString interface [Picture Acquisition],described, IUserInputStringInterface, photoacquire/IUserInputString, picacq.iuserinputstring
-ms.topic: interface
 f1_keywords:
 - photoacquire/IUserInputString
 dev_langs:

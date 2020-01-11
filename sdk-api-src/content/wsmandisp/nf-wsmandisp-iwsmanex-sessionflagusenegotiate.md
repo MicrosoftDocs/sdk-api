@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 7f9670a5-2bf3-4971-8f7e-8cc677acfb65
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseNegotiate method, IWSManEx.SessionFlagUseNegotiate, IWSManEx::SessionFlagUseNegotiate, SessionFlagUseNegotiate, SessionFlagUseNegotiate method [Windows Remote Management], SessionFlagUseNegotiate method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusenegotiate, wsmandisp/IWSManEx::SessionFlagUseNegotiate
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManEx.SessionFlagUseNegotiate
 dev_langs:

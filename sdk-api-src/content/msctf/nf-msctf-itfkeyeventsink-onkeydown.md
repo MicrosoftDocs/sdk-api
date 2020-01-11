@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: aceeb367-0963-484b-afae-26a2c4fb24c7
 ms.date: 12/05/2018
 ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnKeyDown method, ITfKeyEventSink.OnKeyDown, ITfKeyEventSink::OnKeyDown, OnKeyDown, OnKeyDown method [Text Services Framework], OnKeyDown method [Text Services Framework],ITfKeyEventSink interface, _tsf_itfkeyeventsink_onkeydown_ref, msctf/ITfKeyEventSink::OnKeyDown, tsf.itfkeyeventsink_onkeydown
-ms.topic: method
 f1_keywords:
 - msctf/ITfKeyEventSink.OnKeyDown
 dev_langs:

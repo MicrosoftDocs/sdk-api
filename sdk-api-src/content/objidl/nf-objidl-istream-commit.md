@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 335c3a53-ca6a-42f3-bbf9-684ed48591e6
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Structured Storage], Commit method [Structured Storage],IStream interface, IStream interface [Structured Storage],Commit method, IStream.Commit, IStream::Commit, _stg_istream_commit, objidl/IStream::Commit, stg.istream_commit
-ms.topic: method
 f1_keywords:
 - objidl/IStream.Commit
 dev_langs:

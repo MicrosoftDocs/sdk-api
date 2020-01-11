@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: cc2304ef-c319-45eb-b2ec-7410510af213
 ms.date: 12/05/2018
 ms.keywords: mssip/pfnIsFileSupportedName, pfnIsFileSupportedName, pfnIsFileSupportedName callback, pfnIsFileSupportedName callback function [Security], security.pfnisfilesupportedname
-ms.topic: callback
 f1_keywords:
 - mssip/pfnIsFileSupportedName
 dev_langs:

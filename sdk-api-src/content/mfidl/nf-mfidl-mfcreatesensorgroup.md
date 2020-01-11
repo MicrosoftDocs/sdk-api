@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: A1DDA62D-D668-4292-9DFF-09B17A78A54E
 ms.date: 12/05/2018
 ms.keywords: MFCreateSensorGroup, MFCreateSensorGroup function [Media Foundation], mf.mfcreatesensorgroup, mfidl/MFCreateSensorGroup
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreateSensorGroup
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 712b7d02-0181-4a21-9221-514c062af171
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetImplTypeFlags method, ICreateTypeInfo.SetImplTypeFlags, ICreateTypeInfo::SetImplTypeFlags, SetImplTypeFlags, SetImplTypeFlags method [Automation], SetImplTypeFlags method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetImplTypeFlags, automat.icreatetypeinfo_setimpltypeflags, oaidl/ICreateTypeInfo::SetImplTypeFlags
-ms.topic: method
 f1_keywords:
 - oaidl/ICreateTypeInfo.SetImplTypeFlags
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: ebef3ee3-94e3-4aef-831d-5ce031882b5c
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetCallQualityOfService, TSPI_lineSetCallQualityOfService function [TAPI 2.2], _tspi_tspi_linesetcallqualityofservice, tspi.tspi_linesetcallqualityofservice, tspi/TSPI_lineSetCallQualityOfService
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineSetCallQualityOfService
 dev_langs:

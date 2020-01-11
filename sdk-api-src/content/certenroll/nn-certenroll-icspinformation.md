@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: e337ae2c-6f86-4025-8d31-47bc5d8a4ca8
 ms.date: 12/05/2018
 ms.keywords: ICspInformation, ICspInformation interface [Security], ICspInformation interface [Security],described, certenroll/ICspInformation, security.icspinformation
-ms.topic: interface
 f1_keywords:
 - certenroll/ICspInformation
 dev_langs:

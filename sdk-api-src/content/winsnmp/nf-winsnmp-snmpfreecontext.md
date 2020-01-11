@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 15ab137e-86ea-43fc-ac8c-cd6a76feaa04
 ms.date: 12/05/2018
 ms.keywords: SnmpFreeContext, SnmpFreeContext function [SNMP], _snmp_snmpfreecontext, snmp.snmpfreecontext, winsnmp/SnmpFreeContext
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpFreeContext
 dev_langs:

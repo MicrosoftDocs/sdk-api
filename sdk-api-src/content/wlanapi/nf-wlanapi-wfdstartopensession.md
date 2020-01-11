@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: CF1FF7C2-31CD-4FAB-9891-0A72BEA3E9F1
 ms.date: 12/05/2018
 ms.keywords: WFDStartOpenSession, WFDStartOpenSession function [NativeWIFI], nwifi.wfdstartopensession, wlanapi/WFDStartOpenSession
-ms.topic: function
 f1_keywords:
 - wlanapi/WFDStartOpenSession
 dev_langs:

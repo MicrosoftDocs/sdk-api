@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 204d289d-46c0-4815-a628-758310014790
 ms.date: 12/05/2018
 ms.keywords: BCryptUnregisterConfigChangeNotify, BCryptUnregisterConfigChangeNotify function [Security], BCryptUnregisterConfigChangeNotify(HANDLE), bcrypt/BCryptUnregisterConfigChangeNotify, security.bcryptunregisterconfigchangenotify_handle
-ms.topic: function
 f1_keywords:
 - bcrypt/BCryptUnregisterConfigChangeNotify
 dev_langs:

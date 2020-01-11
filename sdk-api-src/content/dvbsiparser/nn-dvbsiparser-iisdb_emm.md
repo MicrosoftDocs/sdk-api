@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: a1389e7c-a3f1-4782-b811-5e09615b3e47
 ms.date: 12/05/2018
 ms.keywords: IISDB_EMM, IISDB_EMM interface [Microsoft TV Technologies], IISDB_EMM interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_EMM, mstv.iisdb_emm
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IISDB_EMM
 dev_langs:

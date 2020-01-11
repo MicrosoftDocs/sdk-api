@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 91389083-e007-4d64-885f-e5188e74b9d8
 ms.date: 12/05/2018
 ms.keywords: LOG_ERROR, LOG_INFORMATION, LOG_SEVERE, LOG_WARNING, LogEvent, LogEvent callback, LogEvent callback function [Failover Cluster], PLOG_EVENT_ROUTINE, PLOG_EVENT_ROUTINE callback function [Failover Cluster], _wolf_logevent, mscs.logevent, resapi/LogEvent, resapi/PLOG_EVENT_ROUTINE
-ms.topic: callback
 f1_keywords:
 - resapi/LogEvent
 dev_langs:

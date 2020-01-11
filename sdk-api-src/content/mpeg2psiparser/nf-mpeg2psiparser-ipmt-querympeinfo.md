@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 14611397-7885-4553-905e-db56404f5e97
 ms.date: 12/05/2018
 ms.keywords: IPMT interface [Microsoft TV Technologies],QueryMPEInfo method, IPMT.QueryMPEInfo, IPMT::QueryMPEInfo, IPMTQueryMPEInfo, QueryMPEInfo, QueryMPEInfo method [Microsoft TV Technologies], QueryMPEInfo method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::QueryMPEInfo, mstv.ipmt_querympeinfo
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/IPMT.QueryMPEInfo
 dev_langs:

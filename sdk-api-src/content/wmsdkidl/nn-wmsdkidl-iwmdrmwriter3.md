@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: b300b97b-e558-4c33-a84a-e92c28a3a606
 ms.date: 12/05/2018
 ms.keywords: IWMDRMWriter3, IWMDRMWriter3 interface [windows Media Format], IWMDRMWriter3 interface [windows Media Format],described, IWMDRMWriter3Interface, wmformat.iwmdrmwriter3, wmsdkidl/IWMDRMWriter3
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMDRMWriter3
 dev_langs:

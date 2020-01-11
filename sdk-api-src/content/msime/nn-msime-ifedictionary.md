@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 4C63FF43-0170-4038-AB01-72441E1BB189
 ms.date: 12/05/2018
 ms.keywords: IFEDictionary, IFEDictionary interface [Internationalization for Windows Applications], IFEDictionary interface [Internationalization for Windows Applications],described, intl.ifedictionary, msime/IFEDictionary
-ms.topic: interface
 f1_keywords:
 - msime/IFEDictionary
 dev_langs:

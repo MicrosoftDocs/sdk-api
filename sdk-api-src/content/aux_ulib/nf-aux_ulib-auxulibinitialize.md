@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 2e46e323-669c-4fcd-b3e0-d1e4ec700c64
 ms.date: 12/05/2018
 ms.keywords: AuxUlibInitialize, AuxUlibInitialize function [Windows API], aux_ulib/AuxUlibInitialize, winprog.auxulibinitialize_func
-ms.topic: function
 f1_keywords:
 - aux_ulib/AuxUlibInitialize
 dev_langs:

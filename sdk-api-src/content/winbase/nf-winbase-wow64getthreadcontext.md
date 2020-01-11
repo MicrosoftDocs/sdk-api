@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 1bac28e1-3558-43c4-97e4-d8bb9514c38e
 ms.date: 12/05/2018
 ms.keywords: Wow64GetThreadContext, Wow64GetThreadContext function, base.wow64getthreadcontext, winbase/Wow64GetThreadContext
-ms.topic: function
 f1_keywords:
 - winbase/Wow64GetThreadContext
 dev_langs:

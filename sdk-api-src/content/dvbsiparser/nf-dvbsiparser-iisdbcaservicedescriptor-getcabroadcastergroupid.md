@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: cc783e34-3544-4bcf-9e76-cb098c89cd65
 ms.date: 12/05/2018
 ms.keywords: GetCABroadcasterGroupId, GetCABroadcasterGroupId method [Microsoft TV Technologies], GetCABroadcasterGroupId method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetCABroadcasterGroupId method, IIsdbCAServiceDescriptor.GetCABroadcasterGroupId, IIsdbCAServiceDescriptor::GetCABroadcasterGroupId, dvbsiparser/IIsdbCAServiceDescriptor::GetCABroadcasterGroupId, mstv.iisdbcaservicedescriptor_getcabroadcastergroupid
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbCAServiceDescriptor.GetCABroadcasterGroupId
 dev_langs:

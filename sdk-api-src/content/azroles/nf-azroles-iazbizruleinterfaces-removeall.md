@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 05e0d7af-5b09-4112-9229-862197a9895b
 ms.date: 12/05/2018
 ms.keywords: IAzBizRuleInterfaces interface [Security],RemoveAll method, IAzBizRuleInterfaces.RemoveAll, IAzBizRuleInterfaces::RemoveAll, RemoveAll, RemoveAll method [Security], RemoveAll method [Security],IAzBizRuleInterfaces interface, azroles/IAzBizRuleInterfaces::RemoveAll, security.iazbizruleinterfaces_removeall_method
-ms.topic: method
 f1_keywords:
 - azroles/IAzBizRuleInterfaces.RemoveAll
 dev_langs:

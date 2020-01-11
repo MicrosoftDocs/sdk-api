@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 141a650f-a829-47b1-abf9-427302d98444
 ms.date: 12/05/2018
 ms.keywords: IContextMenuCallback, IContextMenuCallback interface [MMC], IContextMenuCallback interface [MMC],described, _slate_icontextmenucallback, mmc.icontextmenucallback, mmc/IContextMenuCallback
-ms.topic: interface
 f1_keywords:
 - mmc/IContextMenuCallback
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: eddfebba-4f0e-405a-90b5-dbdc87dca3da
 ms.date: 12/05/2018
 ms.keywords: AzTasks object [Security],Item property, IAzTasks interface [Security],Item property, IAzTasks.Item, IAzTasks.get_Item, IAzTasks::Item, IAzTasks::get_Item, Item property [Security], Item property [Security],AzTasks object, Item property [Security],IAzTasks interface, azroles/IAzTasks::Item, azroles/IAzTasks::get_Item, get_Item, security.iaztasks_item
-ms.topic: method
 f1_keywords:
 - azroles/IAzTasks.Item
 dev_langs:

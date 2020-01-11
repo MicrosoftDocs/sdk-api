@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: cfc57325-847d-4f59-bee8-6a02b0a2ef32
 ms.date: 12/05/2018
 ms.keywords: LooksAlive, LooksAlive callback, LooksAlive callback function [Failover Cluster], PLOOKS_ALIVE_ROUTINE, PLOOKS_ALIVE_ROUTINE callback function [Failover Cluster], _wolf_looksalive, mscs.looksalive, resapi/LooksAlive, resapi/PLOOKS_ALIVE_ROUTINE
-ms.topic: callback
 f1_keywords:
 - resapi/LooksAlive
 dev_langs:

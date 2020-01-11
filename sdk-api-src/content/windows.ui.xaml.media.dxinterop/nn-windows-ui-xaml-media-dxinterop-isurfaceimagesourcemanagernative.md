@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 6DFC7A3D-0C29-421B-ADB0-360017DE7433
 ms.date: 12/05/2018
 ms.keywords: ISurfaceImageSourceManagerNative, ISurfaceImageSourceManagerNative interface [Windows Runtime], ISurfaceImageSourceManagerNative interface [Windows Runtime],described, windows/ISurfaceImageSourceManagerNative, winrt.isurfaceimagesourcemanagernative
-ms.topic: interface
 f1_keywords:
 - windows.ui.xaml.media.dxinterop/ISurfaceImageSourceManagerNative
 dev_langs:

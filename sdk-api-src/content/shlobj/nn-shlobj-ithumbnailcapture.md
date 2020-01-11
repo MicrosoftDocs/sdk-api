@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: fecf1f8f-ea76-4a3d-a6cf-faa3e400f5e4
 ms.date: 12/05/2018
 ms.keywords: IThumbnailCapture, IThumbnailCapture interface [Windows Shell], IThumbnailCapture interface [Windows Shell],described, _shell_IThumbnailCapture, shell.IThumbnailCapture, shlobj/IThumbnailCapture
-ms.topic: interface
 f1_keywords:
 - shlobj/IThumbnailCapture
 dev_langs:

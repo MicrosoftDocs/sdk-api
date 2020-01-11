@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: fcd4895d-5357-4b73-90b9-e506e3d7f16e
 ms.date: 12/05/2018
 ms.keywords: WSD_OPERATION, WSD_OPERATION structure, ncd.wsd_operation_struct, wsdtypes/WSD_OPERATION
-ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_OPERATION
 dev_langs:

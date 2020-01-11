@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: becd1edd-d06d-4328-8a7a-678f893bad3a
 ms.date: 12/05/2018
 ms.keywords: IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression],SetHorizonSize method, IRdcGeneratorFilterMaxParameters.SetHorizonSize, IRdcGeneratorFilterMaxParameters::SetHorizonSize, SetHorizonSize, SetHorizonSize method [Remote Differential Compression], SetHorizonSize method [Remote Differential Compression],IRdcGeneratorFilterMaxParameters interface, fs.irdcgeneratorfiltermaxparameters_sethorizonsize, msrdc/IRdcGeneratorFilterMaxParameters::SetHorizonSize, rdc.irdcgeneratorfiltermaxparameters_sethorizonsize
-ms.topic: method
 f1_keywords:
 - msrdc/IRdcGeneratorFilterMaxParameters.SetHorizonSize
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 6bbc826b-e296-42d0-89d0-a13d0ce94929
 ms.date: 12/05/2018
 ms.keywords: RasSetSubEntryProperties, RasSetSubEntryProperties function [RAS], RasSetSubEntryPropertiesA, RasSetSubEntryPropertiesW, _ras_rassetsubentryproperties, ras/RasSetSubEntryProperties, ras/RasSetSubEntryPropertiesA, ras/RasSetSubEntryPropertiesW, rras.rassetsubentryproperties
-ms.topic: function
 f1_keywords:
 - ras/RasSetSubEntryProperties
 dev_langs:

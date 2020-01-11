@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3de64914-b64e-47e8-8f84-6c64d849ffa9
 ms.date: 12/05/2018
 ms.keywords: ApplyProperties, ApplyProperties method [Windows Shell], ApplyProperties method [Windows Shell],IFileSaveDialog interface, IFileSaveDialog interface [Windows Shell],ApplyProperties method, IFileSaveDialog.ApplyProperties, IFileSaveDialog::ApplyProperties, shell.IFileSaveDialog_ApplyProperties, shell_IFileSaveDialog_ApplyProperties, shobjidl_core/IFileSaveDialog::ApplyProperties
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileSaveDialog.ApplyProperties
 dev_langs:

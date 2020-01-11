@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 7a5c1a39-e1e1-44e1-a7eb-fd053d305289
 ms.date: 12/05/2018
 ms.keywords: ExpandCollapsePattern_Expand, ExpandCollapsePattern_Expand function [Windows Accessibility], uiauto.uiauto_ExpandCollapsePattern_ExpandConPat, uiauto_ExpandCollapsePattern_ExpandConPat, uiautomationcoreapi/ExpandCollapsePattern_Expand, winauto.uiauto_ExpandCollapsePattern_ExpandConPat
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/ExpandCollapsePattern_Expand
 dev_langs:

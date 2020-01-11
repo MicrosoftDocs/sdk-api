@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 1b91c4dc-ac49-4002-b293-a25ca2ffcb21
 ms.date: 12/05/2018
 ms.keywords: RpcImpersonateClient, RpcImpersonateClient function [RPC], _rpc_rpcimpersonateclient, rpc.rpcimpersonateclient, rpcdce/RpcImpersonateClient
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcImpersonateClient
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NetShare
 ms.assetid: 36a5f464-fec3-4b4f-91c3-447ff5ff70af
 ms.date: 12/05/2018
 ms.keywords: NetFileClose, NetFileClose function [Files], _win32_netfileclose, fs.netfileclose, lmshare/NetFileClose, netmgmt.netfileclose
-ms.topic: function
 f1_keywords:
 - lmshare/NetFileClose
 dev_langs:

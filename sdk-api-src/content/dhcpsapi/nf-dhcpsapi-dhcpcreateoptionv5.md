@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: de6e8f87-af4b-4e7f-8468-54359c5a8907
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpCreateOptionV5, DhcpCreateOptionV5 function [DHCP], dhcp.dhcpcreateoptionv5, dhcpsapi/DhcpCreateOptionV5
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpCreateOptionV5
 dev_langs:

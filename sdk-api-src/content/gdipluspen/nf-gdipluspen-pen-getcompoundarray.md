@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getcompoundarray.htm
 ms.date: 12/05/2018
 ms.keywords: GetCompoundArray, GetCompoundArray method [GDI+], GetCompoundArray method [GDI+],Pen class, Pen class [GDI+],GetCompoundArray method, Pen.GetCompoundArray, Pen::GetCompoundArray, _gdiplus_CLASS_Pen_GetCompoundArray_compoundArray_count_, gdiplus._gdiplus_CLASS_Pen_GetCompoundArray_compoundArray_count_
-ms.topic: method
 f1_keywords:
 - gdipluspen/Pen.GetCompoundArray
 dev_langs:

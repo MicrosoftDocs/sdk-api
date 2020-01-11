@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbvprintf.htm
 ms.date: 12/05/2018
 ms.keywords: StringCbVPrintf, StringCbVPrintf function [Menus and Other Resources], StringCbVPrintfA, StringCbVPrintfW, _shell_StringCbVPrintf, _shell_stringcbvprintf_cpp, menurc.stringcbvprintf, strsafe/StringCbVPrintf, strsafe/StringCbVPrintfA, strsafe/StringCbVPrintfW, winui._shell_stringcbvprintf
-ms.topic: function
 f1_keywords:
 - strsafe/StringCbVPrintf
 dev_langs:

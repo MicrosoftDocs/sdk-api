@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: b22568b1-5043-422e-9c4e-cc51cc77d143
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_compare_ext_s, ldap.ldap__compare__ext__s, ldap.ldap_compare_ext_s, ldap_compare_ext_s, ldap_compare_ext_s function [LDAP], ldap_compare_ext_sA, ldap_compare_ext_sW, winldap/ldap_compare_ext_s, winldap/ldap_compare_ext_sA, winldap/ldap_compare_ext_sW
-ms.topic: function
 f1_keywords:
 - winldap/ldap_compare_ext_s
 dev_langs:

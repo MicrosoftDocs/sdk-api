@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 056e1ca5-2bce-4a69-9b30-2ac142bcb52b
 ms.date: 12/05/2018
 ms.keywords: ITCustomTone interface [TAPI 2.2],put_CadenceOff method, ITCustomTone.put_CadenceOff, ITCustomTone::put_CadenceOff, _tapi3_itcustomtone_put_cadenceoff, put_CadenceOff, put_CadenceOff method [TAPI 2.2], put_CadenceOff method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_put_cadenceoff, tapi3if/ITCustomTone::put_CadenceOff
-ms.topic: method
 f1_keywords:
 - tapi3if/ITCustomTone.put_CadenceOff
 dev_langs:

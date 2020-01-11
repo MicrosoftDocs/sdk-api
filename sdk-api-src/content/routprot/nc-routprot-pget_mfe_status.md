@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 518eb335-13b9-4980-90fc-11cdd7ef8f1a
 ms.date: 12/05/2018
 ms.keywords: GetMfeStatus, GetMfeStatus callback function [RAS], MFE_NO_ERROR, MFE_OIF_PRUNED, MFE_OLD_ROUTER, MFE_PRUNED_UPSTREAM, MFE_REACHED_CORE, PGET_MFE_STATUS, PGET_MFE_STATUS callback, _mpr_getmfestatus, routprot/GetMfeStatus, rras.getmfestatus
-ms.topic: callback
 f1_keywords:
 - routprot/GetMfeStatus
 dev_langs:

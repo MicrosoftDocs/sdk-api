@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: C26FF469-2B25-4EDA-8432-EF32A4550650
 ms.date: 12/05/2018
 ms.keywords: SLQueryLicenseValueFromApp, SLQueryLicenseValueFromApp function [Security], security.slquerylicensevaluefromapp, slpublic/SLQueryLicenseValueFromApp
-ms.topic: function
 f1_keywords:
 - slpublic/SLQueryLicenseValueFromApp
 dev_langs:

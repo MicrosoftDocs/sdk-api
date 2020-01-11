@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a14b56e2-3a90-4802-bb28-869467878c2b
 ms.date: 12/05/2018
 ms.keywords: DragLeave, DragLeave method [Windows Shell], DragLeave method [Windows Shell],IDropTargetHelper interface, IDropTargetHelper interface [Windows Shell],DragLeave method, IDropTargetHelper.DragLeave, IDropTargetHelper::DragLeave, _win32_IDropTargetHelper_DragLeave, shell.IDropTargetHelper_DragLeave, shobjidl_core/IDropTargetHelper::DragLeave
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IDropTargetHelper.DragLeave
 dev_langs:

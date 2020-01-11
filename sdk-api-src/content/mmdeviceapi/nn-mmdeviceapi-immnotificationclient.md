@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 76d3cd52-30bd-48b0-8adc-c23991a60d1b
 ms.date: 12/05/2018
 ms.keywords: IMMNotificationClient, IMMNotificationClient interface [Core Audio], IMMNotificationClient interface [Core Audio],described, coreaudio.immnotificationclient, mmdeviceapi/IMMNotificationClient
-ms.topic: interface
 f1_keywords:
 - mmdeviceapi/IMMNotificationClient
 dev_langs:

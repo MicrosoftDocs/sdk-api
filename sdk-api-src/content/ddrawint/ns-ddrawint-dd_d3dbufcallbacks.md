@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 59fa4043-6238-49f7-b9d6-58c1f215865a
 ms.date: 12/05/2018
 ms.keywords: '*PDD_D3DBUFCALLBACKS, DD_D3DBUFCALLBACKS, DD_D3DBUFCALLBACKS structure [Display Devices], PDD_D3DBUFCALLBACKS, PDD_D3DBUFCALLBACKS structure pointer [Display Devices], ddrawint/DD_D3DBUFCALLBACKS, ddrawint/PDD_D3DBUFCALLBACKS, ddstrcts_cfe891c1-2660-460f-ac58-79f243ee902e.xml, display.dd_d3dbufcallbacks'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_D3DBUFCALLBACKS
 dev_langs:

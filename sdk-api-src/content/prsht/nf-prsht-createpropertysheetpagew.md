@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\createpropertysheetpage.htm
 ms.date: 12/05/2018
 ms.keywords: CreatePropertySheetPage, CreatePropertySheetPage function [Windows Controls], CreatePropertySheetPageA, CreatePropertySheetPageW, _win32_CreatePropertySheetPage, _win32_CreatePropertySheetPage_cpp, controls.CreatePropertySheetPage, controls._win32_CreatePropertySheetPage, prsht/CreatePropertySheetPage, prsht/CreatePropertySheetPageA, prsht/CreatePropertySheetPageW
-ms.topic: function
 f1_keywords:
 - prsht/CreatePropertySheetPage
 dev_langs:

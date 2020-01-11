@@ -7,7 +7,6 @@ tech.root: parcon
 ms.assetid: 008786aa-72ef-4591-8826-01176d3e3fba
 ms.date: 12/05/2018
 ms.keywords: IWPCProviderConfig, IWPCProviderConfig interface, IWPCProviderConfig interface,described, parcon.iwpcproviderconfig, wpcapi/IWPCProviderConfig
-ms.topic: interface
 f1_keywords:
 - wpcapi/IWPCProviderConfig
 dev_langs:

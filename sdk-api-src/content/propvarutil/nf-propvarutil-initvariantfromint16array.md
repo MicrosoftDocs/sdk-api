@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 6aeca46e-96b5-42cb-b5db-2c1e3152d629
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromInt16Array, InitVariantFromInt16Array function [Windows Properties], _shell_InitVariantFromInt16Array, properties.InitVariantFromInt16Array, propvarutil/InitVariantFromInt16Array, shell.InitVariantFromInt16Array
-ms.topic: function
 f1_keywords:
 - propvarutil/InitVariantFromInt16Array
 dev_langs:

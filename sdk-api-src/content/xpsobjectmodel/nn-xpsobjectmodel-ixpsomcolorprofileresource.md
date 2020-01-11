@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8a344300-c3fc-4225-bfa5-d5d33798a094
 ms.date: 12/05/2018
 ms.keywords: IXpsOMColorProfileResource, IXpsOMColorProfileResource interface [XPS Documents and Packaging], IXpsOMColorProfileResource interface [XPS Documents and Packaging],described, xps.ixpsomcolorprofileresource, xpsobjectmodel/IXpsOMColorProfileResource
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMColorProfileResource
 dev_langs:

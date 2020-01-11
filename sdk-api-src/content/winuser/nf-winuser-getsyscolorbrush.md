@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 07a1d8e3-eae8-40ab-9d0f-4efa9fac0117
 ms.date: 12/05/2018
 ms.keywords: GetSysColorBrush, GetSysColorBrush function [Windows GDI], _win32_GetSysColorBrush, gdi.getsyscolorbrush, winuser/GetSysColorBrush
-ms.topic: function
 f1_keywords:
 - winuser/GetSysColorBrush
 dev_langs:

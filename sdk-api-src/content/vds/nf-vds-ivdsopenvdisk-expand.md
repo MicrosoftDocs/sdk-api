@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 6ba166de-8045-4ccb-8771-fc4dd9438c1f
 ms.date: 12/05/2018
 ms.keywords: Expand, Expand method, Expand method,IVdsOpenVDisk interface, IVdsOpenVDisk interface,Expand method, IVdsOpenVDisk.Expand, IVdsOpenVDisk::Expand, base.ivdsopenvdisk_expand, vds/IVdsOpenVDisk::Expand
-ms.topic: method
 f1_keywords:
 - vds/IVdsOpenVDisk.Expand
 dev_langs:

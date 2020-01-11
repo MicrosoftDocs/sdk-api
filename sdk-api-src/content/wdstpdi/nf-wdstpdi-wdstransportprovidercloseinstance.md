@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 3eb0a931-ca5d-4db4-9c40-9c52f98be429
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderCloseInstance, WdsTransportProviderCloseInstance callback, WdsTransportProviderCloseInstance callback function [Windows Deployment Services], wds.wdstransportprovidercloseinstance, wdstpdi/WdsTransportProviderCloseInstance
-ms.topic: function
 f1_keywords:
 - wdstpdi/WdsTransportProviderCloseInstance
 dev_langs:

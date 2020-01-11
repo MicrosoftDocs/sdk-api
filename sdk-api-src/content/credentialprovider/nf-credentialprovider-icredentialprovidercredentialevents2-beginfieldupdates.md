@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2E7EB8B4-ED6F-4954-88D3-FB79D80E53B2
 ms.date: 12/05/2018
 ms.keywords: BeginFieldUpdates, BeginFieldUpdates method [Windows Shell], BeginFieldUpdates method [Windows Shell],ICredentialProviderCredentialEvents2 interface, ICredentialProviderCredentialEvents2 interface [Windows Shell],BeginFieldUpdates method, ICredentialProviderCredentialEvents2.BeginFieldUpdates, ICredentialProviderCredentialEvents2::BeginFieldUpdates, credentialprovider/ICredentialProviderCredentialEvents2::BeginFieldUpdates, shell.ICredentialProviderCredentialEvents2_BeginFieldUpdates
-ms.topic: method
 f1_keywords:
 - credentialprovider/ICredentialProviderCredentialEvents2.BeginFieldUpdates
 dev_langs:

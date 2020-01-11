@@ -5,7 +5,6 @@ description: Represents the decode parameters for a frame.
 tech.root: mf
 ms.assetid: d5e35570-69a6-40a3-bfc6-a7c1e3d8b57d
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_VIDEO_DECODE_FRAME_ARGUMENT
 dev_langs:

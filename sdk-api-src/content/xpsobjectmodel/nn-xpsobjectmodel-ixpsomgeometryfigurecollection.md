@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 24ed79ff-9160-4e9b-b322-c538b30f113b
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometryFigureCollection, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging], IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],described, xps.ixpsomgeometryfigurecollection, xpsobjectmodel/IXpsOMGeometryFigureCollection
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMGeometryFigureCollection
 dev_langs:

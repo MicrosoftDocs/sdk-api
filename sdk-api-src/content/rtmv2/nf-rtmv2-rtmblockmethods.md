@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 492bb2bf-5b35-4eef-a039-3d3e1137220f
 ms.date: 12/05/2018
 ms.keywords: DEST_TYPE, NEXTHOP_TYPE, ROUTE_TYPE, RTM_BLOCK_METHODS, RTM_RESUME_METHODS, RtmBlockMethods, RtmBlockMethods function [RAS], _rtmv2ref_rtmblockmethods, rras.rtmblockmethods, rtmv2/RtmBlockMethods
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmBlockMethods
 dev_langs:

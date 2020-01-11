@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 9267b4f1-96d1-4367-8114-3db43755ffed
 ms.date: 12/05/2018
 ms.keywords: CSC_BindToPoolThread, CSC_Binding, CSC_Binding enumeration [COM+], CSC_NoBinding, _cos_CSC_Binding, comsvcs/CSC_BindToPoolThread, comsvcs/CSC_Binding, comsvcs/CSC_NoBinding, cos.csc_binding
-ms.topic: enum
 f1_keywords:
 - comsvcs/CSC_Binding
 dev_langs:

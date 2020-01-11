@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 384a15c0-a035-4f83-a927-e2f763e5fb44
 ms.date: 12/05/2018
 ms.keywords: 16820cec-2cc5-1d17-4d7f-118d1fd9660b, CSSetUnorderedAccessViews, CSSetUnorderedAccessViews method [Direct3D 11], CSSetUnorderedAccessViews method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSSetUnorderedAccessViews method, ID3D11DeviceContext.CSSetUnorderedAccessViews, ID3D11DeviceContext::CSSetUnorderedAccessViews, d3d11/ID3D11DeviceContext::CSSetUnorderedAccessViews, direct3d11.id3d11devicecontext_cssetunorderedaccessviews
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11DeviceContext.CSSetUnorderedAccessViews
 dev_langs:

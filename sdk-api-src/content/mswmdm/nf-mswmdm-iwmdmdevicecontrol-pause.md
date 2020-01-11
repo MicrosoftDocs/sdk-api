@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 420963d1-11ea-4f1d-b5c0-749e99ee7725
 ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Pause method, IWMDMDeviceControl.Pause, IWMDMDeviceControl::Pause, IWMDMDeviceControlPause, Pause, Pause method [windows Media Device Manager], Pause method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Pause, wmdm.iwmdmdevicecontrol_pause
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMDeviceControl.Pause
 dev_langs:

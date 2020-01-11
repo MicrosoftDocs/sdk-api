@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: d78aa6ab-caa7-44ec-8953-c64613b04430
 ms.date: 12/05/2018
 ms.keywords: _win32_midiInUnprepareHeader, midiInUnprepareHeader, midiInUnprepareHeader function [Windows Multimedia], mmeapi/midiInUnprepareHeader, multimedia.midiinunprepareheader
-ms.topic: function
 f1_keywords:
 - mmeapi/midiInUnprepareHeader
 dev_langs:

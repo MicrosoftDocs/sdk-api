@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: F6B9E025-53C4-4459-9EC4-EA228065FAD3
 ms.date: 12/05/2018
 ms.keywords: EventNotify, EventNotify method [Media Foundation], EventNotify method [Media Foundation],IMFMediaEngineNotify interface, IMFMediaEngineNotify interface [Media Foundation],EventNotify method, IMFMediaEngineNotify.EventNotify, IMFMediaEngineNotify::EventNotify, mf.imfmediaenginenotify_eventnotify, mfmediaengine/IMFMediaEngineNotify::EventNotify
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineNotify.EventNotify
 dev_langs:

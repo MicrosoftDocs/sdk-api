@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: d7ed1f64-578f-4b3a-b9af-9a48800b9ca4
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportContent, IWdsTransportContent interface [Windows Deployment Services], IWdsTransportContent interface [Windows Deployment Services],described, wds.iwdstransportcontent, wdstptmgmt/IWdsTransportContent
-ms.topic: interface
 f1_keywords:
 - wdstptmgmt/IWdsTransportContent
 dev_langs:

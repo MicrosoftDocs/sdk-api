@@ -7,7 +7,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\freebuffer.htm
 ms.date: 12/05/2018
 ms.keywords: FreeBuffer, FreeBuffer method [Windows Address Book], FreeBuffer method [Windows Address Book],IWABObject interface, IWABObject interface [Windows Address Book],FreeBuffer method, IWABObject.FreeBuffer, IWABObject::FreeBuffer, _wab_IWABObject_FreeBuffer, wab._wab_IWABObject_FreeBuffer, wabapi/IWABObject::FreeBuffer
-ms.topic: method
 f1_keywords:
 - wabapi/IWABObject.FreeBuffer
 dev_langs:

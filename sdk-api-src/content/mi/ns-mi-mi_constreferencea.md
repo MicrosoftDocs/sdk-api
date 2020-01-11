@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 01709e23-1c12-402b-a369-3100deeb0092
 ms.date: 12/05/2018
 ms.keywords: MI_ConstReferenceA, MI_ConstReferenceA structure [Windows Management Infrastructure (MI)], mi/MI_ConstReferenceA, wmi._mi_constreferencea, wmi_v2.mi_constreferencea
-ms.topic: struct
 f1_keywords:
 - mi/MI_ConstReferenceA
 dev_langs:

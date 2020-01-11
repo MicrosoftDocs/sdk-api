@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 78c2740b-c4fa-4dad-ae4f-0d5b41557669
 ms.date: 12/05/2018
 ms.keywords: _win32_mmioFlush, mmioFlush, mmioFlush function [Windows Multimedia], mmsystem/mmioFlush, multimedia.mmioflush
-ms.topic: function
 f1_keywords:
 - mmiscapi/mmioFlush
 dev_langs:

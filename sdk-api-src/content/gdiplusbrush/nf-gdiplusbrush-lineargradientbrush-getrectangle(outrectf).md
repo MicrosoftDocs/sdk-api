@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\lineargradientbrushgetrectanglemethods.htm
 ms.date: 12/05/2018
 ms.keywords: GetRectangle, GetRectangle methods [GDI+], LinearGradientBrush.GetRectangle, LinearGradientBrush::GetRectangle, _gdiplus_CLASS_LinearGradientBrush_GetRectangle_Methods, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetRectangle_Methods, gdiplusbrush/GetRectangle
-ms.topic: method
 f1_keywords:
 - gdiplusbrush/LinearGradientBrush.GetRectangle
 dev_langs:

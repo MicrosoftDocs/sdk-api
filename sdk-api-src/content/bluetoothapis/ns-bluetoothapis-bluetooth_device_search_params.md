@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: e267df61-d0f5-434f-b49c-6899c2abfa2a
 ms.date: 12/05/2018
 ms.keywords: BLUETOOTH_DEVICE_SEARCH_PARAMS, BLUETOOTH_DEVICE_SEARCH_PARAMS structure [Bluetooth], bluetooth.bluetooth_device_search_params, bluetoothapis/BLUETOOTH_DEVICE_SEARCH_PARAMS
-ms.topic: struct
 f1_keywords:
 - bluetoothapis/BLUETOOTH_DEVICE_SEARCH_PARAMS
 dev_langs:

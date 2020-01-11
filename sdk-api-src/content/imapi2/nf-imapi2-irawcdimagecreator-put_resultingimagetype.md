@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 1800717a-3b8a-45b2-849b-55c37d3b1b32
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],put_ResultingImageType method, IRawCDImageCreator.put_ResultingImageType, IRawCDImageCreator::put_ResultingImageType, imapi.irawcdimagecreator_put_resultingimagetype, imapi2/IRawCDImageCreator::put_ResultingImageType, put_ResultingImageType, put_ResultingImageType method [IMAPI], put_ResultingImageType method [IMAPI],IRawCDImageCreator interface
-ms.topic: method
 f1_keywords:
 - imapi2/IRawCDImageCreator.put_ResultingImageType
 dev_langs:

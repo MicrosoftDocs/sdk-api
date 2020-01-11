@@ -7,7 +7,6 @@ tech.root: WCS
 ms.assetid: c3fc798c-4bb9-4010-87d4-edc0005b7698
 ms.date: 12/05/2018
 ms.keywords: CreateColorSpace, CreateColorSpace function [Windows Color System], CreateColorSpaceA, CreateColorSpaceW, _color_CreateColorSpace, wcs.createcolorspace, wingdi/CreateColorSpace, wingdi/CreateColorSpaceA, wingdi/CreateColorSpaceW
-ms.topic: function
 f1_keywords:
 - wingdi/CreateColorSpace
 dev_langs:

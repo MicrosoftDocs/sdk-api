@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: d6674de9-7d79-40f2-ae45-4410408ba047
 ms.date: 12/05/2018
 ms.keywords: RSVP_SESSION, RSVP_SESSION structure [QOS], lpmapi/RSVP_SESSION, qos.rsvp_session
-ms.topic: struct
 f1_keywords:
 - lpmapi/RSVP_SESSION
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 64711453-bc70-4acb-bff7-8b5534cceff5
 ms.date: 12/05/2018
 ms.keywords: IShellIcon, IShellIcon interface [Windows Shell], IShellIcon interface [Windows Shell],described, _win32_IShellIcon, shell.IShellIcon, shobjidl_core/IShellIcon
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IShellIcon
 dev_langs:

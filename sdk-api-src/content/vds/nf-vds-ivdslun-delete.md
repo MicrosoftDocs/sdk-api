@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 21522c62-0b60-4c70-b2bd-7a33aa94d280
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsLun interface, IVdsLun interface [VDS],Delete method, IVdsLun.Delete, IVdsLun::Delete, base.ivdslun_delete, vds/IVdsLun::Delete, vdshwprv/IVdsLun::Delete
-ms.topic: method
 f1_keywords:
 - vds/IVdsLun.Delete
 dev_langs:

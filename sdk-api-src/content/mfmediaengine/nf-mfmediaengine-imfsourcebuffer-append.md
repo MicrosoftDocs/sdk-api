@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 824fa23d-57d9-411a-af8a-fb65dca124b2
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [Media Foundation], Append method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],Append method, IMFSourceBuffer.Append, IMFSourceBuffer::Append, mf.imfsourcebuffer_append, mfmediaengine/IMFSourceBuffer::Append
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFSourceBuffer.Append
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 6d24ffd1-987c-468f-a8cc-08992b7deb9d
 ms.date: 12/05/2018
 ms.keywords: GPMSearchCriteria, IGPMSearchCriteria, IGPMSearchCriteria interface [GPMC], IGPMSearchCriteria interface [GPMC],described, _win32_igpmsearchcriteria, gpmc.igpmsearchcriteria, gpmgmt/IGPMSearchCriteria
-ms.topic: interface
 f1_keywords:
 - gpmgmt/IGPMSearchCriteria
 dev_langs:

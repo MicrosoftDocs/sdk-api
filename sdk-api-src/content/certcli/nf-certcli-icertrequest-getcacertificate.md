@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 711fdcec-0a07-4559-a577-1eb73053dd38
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],GetCACertificate method, CR_OUT_BASE64, CR_OUT_BASE64HEADER, CR_OUT_BINARY, CR_OUT_CHAIN, GetCACertificate, GetCACertificate method [Security], GetCACertificate method [Security],CCertRequest object, GetCACertificate method [Security],ICertRequest interface, GetCACertificate method [Security],ICertRequest2 interface, GetCACertificate method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetCACertificate method, ICertRequest.GetCACertificate, ICertRequest2 interface [Security],GetCACertificate method, ICertRequest2::GetCACertificate, ICertRequest3 interface [Security],GetCACertificate method, ICertRequest3::GetCACertificate, ICertRequest::GetCACertificate, certcli/ICertRequest2::GetCACertificate, certcli/ICertRequest3::GetCACertificate, certcli/ICertRequest::GetCACertificate, security.icertrequest2_getcacertificate
-ms.topic: method
 f1_keywords:
 - certcli/ICertRequest3.GetCACertificate
 dev_langs:

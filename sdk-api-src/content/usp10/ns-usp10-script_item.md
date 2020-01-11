@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: d309f3a7-fec3-4999-bbbe-bb85ceecb4c4
 ms.date: 12/05/2018
 ms.keywords: SCRIPT_ITEM, SCRIPT_ITEM structure [Internationalization for Windows Applications], _win32_SCRIPT_ITEM_str, intl.script_item, usp10/SCRIPT_ITEM
-ms.topic: struct
 f1_keywords:
 - usp10/SCRIPT_ITEM
 dev_langs:

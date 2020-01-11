@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 03b30d08-6901-45cd-bd6d-d2672eb0f914
 ms.date: 12/05/2018
 ms.keywords: PdhGetRawCounterArray, PdhGetRawCounterArray function [Perf], PdhGetRawCounterArrayA, PdhGetRawCounterArrayW, _win32_pdhgetrawcounterarray, base.pdhgetrawcounterarray, pdh/PdhGetRawCounterArray, pdh/PdhGetRawCounterArrayA, pdh/PdhGetRawCounterArrayW, perf.pdhgetrawcounterarray
-ms.topic: function
 f1_keywords:
 - pdh/PdhGetRawCounterArray
 dev_langs:

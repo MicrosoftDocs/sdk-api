@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 18F65528-3038-4FF7-AEB8-AAEA3A5BB058
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation4 interface [Windows Accessibility],RemoveChangesEventHandler method, IUIAutomation4.RemoveChangesEventHandler, IUIAutomation4::RemoveChangesEventHandler, RemoveChangesEventHandler, RemoveChangesEventHandler method [Windows Accessibility], RemoveChangesEventHandler method [Windows Accessibility],IUIAutomation4 interface, uiautomationclient/IUIAutomation4::RemoveChangesEventHandler, winauto.uiauto_IUIAutomation4_RemoveChangesEventHandler
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation4.RemoveChangesEventHandler
 dev_langs:

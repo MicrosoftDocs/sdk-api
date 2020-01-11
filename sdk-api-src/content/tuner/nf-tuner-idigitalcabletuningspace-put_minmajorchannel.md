@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 3b5e1a01-5471-4bf4-9f08-ce910c69ba26
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableTuningSpace interface [Microsoft TV Technologies],put_MinMajorChannel method, IDigitalCableTuningSpace.put_MinMajorChannel, IDigitalCableTuningSpace::put_MinMajorChannel, IDigitalCableTuningSpaceput_MinMajorChannel, mstv.idigitalcabletuningspace_put_minmajorchannel, put_MinMajorChannel, put_MinMajorChannel method [Microsoft TV Technologies], put_MinMajorChannel method [Microsoft TV Technologies],IDigitalCableTuningSpace interface, tuner/IDigitalCableTuningSpace::put_MinMajorChannel
-ms.topic: method
 f1_keywords:
 - tuner/IDigitalCableTuningSpace.put_MinMajorChannel
 dev_langs:

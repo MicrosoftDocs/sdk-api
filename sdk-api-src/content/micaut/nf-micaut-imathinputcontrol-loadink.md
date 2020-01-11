@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 3313cb16-3400-48d5-8ba0-b3bd593b37ea
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl interface [Tablet PC],LoadInk method, IMathInputControl.LoadInk, IMathInputControl::LoadInk, LoadInk, LoadInk method [Tablet PC], LoadInk method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::LoadInk, tablet.imathinputcontrol_loadink
-ms.topic: method
 f1_keywords:
 - micaut/IMathInputControl.LoadInk
 dev_langs:

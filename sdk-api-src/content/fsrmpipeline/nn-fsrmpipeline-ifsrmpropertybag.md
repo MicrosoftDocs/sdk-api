@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 237f024d-2b1d-45d5-a63d-c530426278e6
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag, IFsrmPropertyBag interface [File Server Resource Manager], IFsrmPropertyBag interface [File Server Resource Manager],described, fs.ifsrmpropertybag, fsrm.ifsrmpropertybag, fsrm/IFsrmPropertyBag
-ms.topic: interface
 f1_keywords:
 - fsrmpipeline/IFsrmPropertyBag
 dev_langs:

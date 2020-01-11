@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 8af818b1-7dd8-4f48-b447-5b6dfbfce420
 ms.date: 12/05/2018
 ms.keywords: BeginSearch, BeginSearch method [Windows Update Agent], BeginSearch method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],BeginSearch method, IUpdateSearcher.BeginSearch, IUpdateSearcher::BeginSearch, wua.iupdatesearcherbeginsearch, wuapi/IUpdateSearcher::BeginSearch
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateSearcher.BeginSearch
 dev_langs:

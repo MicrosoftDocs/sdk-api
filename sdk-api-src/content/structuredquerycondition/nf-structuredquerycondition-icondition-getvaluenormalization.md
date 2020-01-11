@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getvaluenormalization.htm
 ms.date: 12/05/2018
 ms.keywords: GetValueNormalization, GetValueNormalization method [search], GetValueNormalization method [search],ICondition interface, ICondition interface [search],GetValueNormalization method, ICondition.GetValueNormalization, ICondition::GetValueNormalization, _search_ICondition_GetValueNormalization, search._search_ICondition_GetValueNormalization, structuredquerycondition/ICondition::GetValueNormalization
-ms.topic: method
 f1_keywords:
 - structuredquerycondition/ICondition.GetValueNormalization
 dev_langs:

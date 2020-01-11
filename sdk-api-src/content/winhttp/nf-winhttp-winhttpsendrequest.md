@@ -7,7 +7,6 @@ tech.root: WinHttp
 ms.assetid: 991bf531-2e6b-4581-8069-f75789915522
 ms.date: 12/05/2018
 ms.keywords: WinHttpSendRequest, WinHttpSendRequest function [WinHTTP], http.winhttpsendrequest, winhttp.winhttpsendrequest_function, winhttp/WinHttpSendRequest
-ms.topic: function
 f1_keywords:
 - winhttp/WinHttpSendRequest
 dev_langs:

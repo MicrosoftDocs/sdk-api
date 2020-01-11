@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e595ac21-14e0-45ae-a286-7938ad0e0a02
 ms.date: 12/05/2018
 ms.keywords: IMediaObjectImpl interface [DirectShow],InputType method, IMediaObjectImpl.InputType, IMediaObjectImpl::InputType, IMediaObjectImplInputType, InputType, InputType method [DirectShow], InputType method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::InputType, dshow.imediaobjectimpl_inputtype
-ms.topic: method
 f1_keywords:
 - dmoimpl/IMediaObjectImpl.InputType
 dev_langs:

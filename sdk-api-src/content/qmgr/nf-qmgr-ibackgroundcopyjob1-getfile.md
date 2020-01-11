@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 6cd680cc-abe0-44e1-a650-079295a8dd4a
 ms.date: 12/05/2018
 ms.keywords: GetFile, GetFile method [BITS], GetFile method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],GetFile method, IBackgroundCopyJob1.GetFile, IBackgroundCopyJob1::GetFile, bits.ibackgroundcopyjob1_getfile, qmgr/IBackgroundCopyJob1::GetFile
-ms.topic: method
 f1_keywords:
 - qmgr/IBackgroundCopyJob1.GetFile
 dev_langs:

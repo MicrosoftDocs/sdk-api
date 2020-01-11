@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3c5af682-8497-477e-8222-3eb37d1e295f
 ms.date: 12/05/2018
 ms.keywords: DAD_AutoScroll, DAD_AutoScroll function [Windows Shell], shell.DAD_AutoScroll, shell_DAD_AutoScroll, shlobj_core/DAD_AutoScroll
-ms.topic: function
 f1_keywords:
 - shlobj_core/DAD_AutoScroll
 dev_langs:

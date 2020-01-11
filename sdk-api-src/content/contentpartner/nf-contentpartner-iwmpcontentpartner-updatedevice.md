@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 893beb65-048f-4496-88e6-b0e0b8db0205
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],UpdateDevice method, IWMPContentPartner.UpdateDevice, IWMPContentPartner::UpdateDevice, IWMPContentPartnerUpdateDevice, UpdateDevice, UpdateDevice method [Windows Media Player], UpdateDevice method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::UpdateDevice, wmp.iwmpcontentpartner_updatedevice
-ms.topic: method
 f1_keywords:
 - contentpartner/IWMPContentPartner.UpdateDevice
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NAP
 ms.assetid: cde1f9df-f4d9-4601-a513-e00639ee9b6e
 ms.date: 12/05/2018
 ms.keywords: FixupState, FixupState enumeration [NAP], fixupStateCouldNotUpdate, fixupStateInProgress, fixupStateSuccess, nap.fixupstate_enum, naptypes/FixupState, naptypes/fixupStateCouldNotUpdate, naptypes/fixupStateInProgress, naptypes/fixupStateSuccess
-ms.topic: enum
 f1_keywords:
 - naptypes/FixupState
 dev_langs:

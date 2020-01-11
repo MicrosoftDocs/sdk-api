@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: e055caab-379c-47c5-b62a-28ce5c2a0573
 ms.date: 12/05/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityReenter method, IComActivityEvents.OnActivityReenter, IComActivityEvents::OnActivityReenter, OnActivityReenter, OnActivityReenter method [COM+], OnActivityReenter method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityReenter, comsvcs/IComActivityEvents::OnActivityReenter, cos.icomactivityevents_onactivityreenter
-ms.topic: method
 f1_keywords:
 - comsvcs/IComActivityEvents.OnActivityReenter
 dev_langs:

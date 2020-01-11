@@ -5,7 +5,6 @@ description: The Graphics::DrawRectangle method draws a rectangle.
 ms.assetid: cf3f26ad-2aec-4986-a884-95763e63013e
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawRectangle
-ms.topic: language-reference
 f1_keywords:
 - gdiplusgraphics/Graphics::DrawRectangle
 dev_langs:

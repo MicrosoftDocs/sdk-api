@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: d0c142a9-2495-46e6-b53b-0c415bddb0b2
 ms.date: 12/05/2018
 ms.keywords: WTSSBX_SESSION_INFO, WTSSBX_SESSION_INFO structure [Remote Desktop Services], __MIDL_IWTSSBPlugin_0009, termserv.wtssbx_session_info, tssbx/WTSSBX_SESSION_INFO
-ms.topic: struct
 f1_keywords:
 - tssbx/WTSSBX_SESSION_INFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CommitChanges(UINT32)
 ms.date: 12/05/2018
 ms.keywords: CommitChanges, CommitChanges method [XAudio2 Audio Mixing APIs], CommitChanges method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],CommitChanges method, IXAudio2.CommitChanges, IXAudio2::CommitChanges, xaudio2.ixaudio2_interface_commitchanges, xaudio2/IXAudio2::CommitChanges
-ms.topic: method
 f1_keywords:
 - xaudio2/IXAudio2.CommitChanges
 dev_langs:

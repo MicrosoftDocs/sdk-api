@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: b8f5da50-d296-4550-8810-114d1f0e810b
 ms.date: 12/05/2018
 ms.keywords: WsAbandonMessage, WsAbandonMessage function [Web Services for Windows], webservices/WsAbandonMessage, wsw.wsabandonmessage
-ms.topic: function
 f1_keywords:
 - webservices/WsAbandonMessage
 dev_langs:

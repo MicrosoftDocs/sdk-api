@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 92839109-91d5-45fc-85d0-dc5a14e4ebf0
 ms.date: 12/05/2018
 ms.keywords: DIRECTMANIPULATION_INPUT_MODE, DIRECTMANIPULATION_INPUT_MODE enumeration [Direct Manipulation], DIRECTMANIPULATION_INPUT_MODE_AUTOMATIC, DIRECTMANIPULATION_INPUT_MODE_MANUAL, directmanipulation.directmanipulation_input_mode, directmanipulation/DIRECTMANIPULATION_INPUT_MODE, directmanipulation/DIRECTMANIPULATION_INPUT_MODE_AUTOMATIC, directmanipulation/DIRECTMANIPULATION_INPUT_MODE_MANUAL
-ms.topic: enum
 f1_keywords:
 - directmanipulation/DIRECTMANIPULATION_INPUT_MODE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 3AE6D7A6-3974-4517-AEB6-992CAC543247
 ms.date: 12/05/2018
 ms.keywords: DeviceServiceID property [Microsoft Broadband Networks], DeviceServiceID property [Microsoft Broadband Networks],IMbnDeviceService interface, IMbnDeviceService interface [Microsoft Broadband Networks],DeviceServiceID property, IMbnDeviceService.DeviceServiceID, IMbnDeviceService.get_DeviceServiceID, IMbnDeviceService::DeviceServiceID, IMbnDeviceService::get_DeviceServiceID, get_DeviceServiceID, mbn.imbndeviceservice_deviceserviceid, mbnapi/IMbnDeviceService::DeviceServiceID, mbnapi/IMbnDeviceService::get_DeviceServiceID
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnDeviceService.DeviceServiceID
 dev_langs:

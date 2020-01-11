@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 95c689c9-34f6-49b2-bd3b-0f68a110c4f2
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableUDP method, IAMNetShowConfig.get_EnableUDP, IAMNetShowConfig::get_EnableUDP, IAMNetShowConfigget_EnableUDP, dshow.iamnetshowconfig_get_enableudp, get_EnableUDP, get_EnableUDP method [DirectShow], get_EnableUDP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableUDP
-ms.topic: method
 f1_keywords:
 - qnetwork/IAMNetShowConfig.get_EnableUDP
 dev_langs:

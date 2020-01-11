@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 3ac4b3b5-0882-4e30-b3fa-1dcee33a74d3
 ms.date: 12/05/2018
 ms.keywords: IAMPluginControl interface [DirectShow],SetDisabled method, IAMPluginControl.SetDisabled, IAMPluginControl::SetDisabled, SetDisabled, SetDisabled method [DirectShow], SetDisabled method [DirectShow],IAMPluginControl interface, dshow.iamplugincontrol_setdisabled, strmif/IAMPluginControl::SetDisabled
-ms.topic: method
 f1_keywords:
 - strmif/IAMPluginControl.SetDisabled
 dev_langs:

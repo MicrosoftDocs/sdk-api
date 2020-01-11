@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: e3cb8428-98d8-4bc3-926c-baa7cbf5d679
 ms.date: 12/05/2018
 ms.keywords: WSCRemoveQOSTemplate, WSCRemoveQOSTemplate function [Winsock], winsock.wscremoveqostemplate, ws2spi/WSCRemoveQOSTemplate
-ms.topic: function
 f1_keywords:
 - ws2spi/WSCRemoveQOSTemplate
 dev_langs:

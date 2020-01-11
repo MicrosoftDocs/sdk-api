@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 8266e58c-c0a3-42dd-9f06-0d04dccfcf7c
 ms.date: 12/05/2018
 ms.keywords: PerfDeleteInstance, PerfDeleteInstance function [Perf], base.perfdeleteinstance, perf.perfdeleteinstance, perflib/PerfDeleteInstance
-ms.topic: function
 f1_keywords:
 - perflib/PerfDeleteInstance
 dev_langs:

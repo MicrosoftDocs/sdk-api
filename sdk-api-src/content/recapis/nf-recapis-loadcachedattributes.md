@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 19DC01B8-FB2C-4724-907A-E68A9DD37FF3
 ms.date: 12/05/2018
 ms.keywords: LoadCachedAttributes, LoadCachedAttributes function [Tablet PC], recapis/LoadCachedAttributes, tablet.loadcachedattributes
-ms.topic: function
 f1_keywords:
 - recapis/LoadCachedAttributes
 dev_langs:

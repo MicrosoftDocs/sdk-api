@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 9d51c34e-6ed1-493d-8999-e67c4a60f6b6
 ms.date: 12/05/2018
 ms.keywords: IMallocSpy interface [COM],PostHeapMinimize method, IMallocSpy.PostHeapMinimize, IMallocSpy::PostHeapMinimize, PostHeapMinimize, PostHeapMinimize method [COM], PostHeapMinimize method [COM],IMallocSpy interface, _com_imallocspy_postheapminimize, com.imallocspy_postheapminimize, objidl/IMallocSpy::PostHeapMinimize
-ms.topic: method
 f1_keywords:
 - objidl/IMallocSpy.PostHeapMinimize
 dev_langs:

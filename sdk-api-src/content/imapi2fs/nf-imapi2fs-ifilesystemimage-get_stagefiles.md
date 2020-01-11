@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 7146ad88-071a-4df9-80f9-46e24b49286b
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_StageFiles method, IFileSystemImage.get_StageFiles, IFileSystemImage::get_StageFiles, get_StageFiles, get_StageFiles method [IMAPI], get_StageFiles method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_stagefiles, imapi2fs/IFileSystemImage::get_StageFiles
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFileSystemImage.get_StageFiles
 dev_langs:

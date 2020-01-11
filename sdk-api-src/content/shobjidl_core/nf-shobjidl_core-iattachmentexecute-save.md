@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 25661942-f38b-42d6-981b-4a3f4d083f6c
 ms.date: 12/05/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],Save method, IAttachmentExecute.Save, IAttachmentExecute::Save, Save, Save method [Windows Shell], Save method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_Save, shell.IAttachmentExecute_Save, shobjidl_core/IAttachmentExecute::Save
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IAttachmentExecute.Save
 dev_langs:

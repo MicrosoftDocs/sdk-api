@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 44eed02d-cf92-41e5-8748-1ce11ab4aac0
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtensionNotify, IMFMediaSourceExtensionNotify interface [Media Foundation], IMFMediaSourceExtensionNotify interface [Media Foundation],described, mf.imfmediasourceextensionnotify, mfmediaengine/IMFMediaSourceExtensionNotify
-ms.topic: interface
 f1_keywords:
 - mfmediaengine/IMFMediaSourceExtensionNotify
 dev_langs:

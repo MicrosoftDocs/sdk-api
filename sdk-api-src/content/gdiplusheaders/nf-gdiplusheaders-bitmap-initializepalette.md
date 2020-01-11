@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapgethistogrammethods\initializepalette.htm
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],InitializePalette method, Bitmap.InitializePalette, Bitmap::InitializePalette, InitializePalette, InitializePalette method [GDI+], InitializePalette method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_InitializePalette_, gdiplus._gdiplus_CLASS_Bitmap_InitializePalette_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Bitmap.InitializePalette
 dev_langs:

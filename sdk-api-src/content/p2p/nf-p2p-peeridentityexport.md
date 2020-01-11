@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 2b7cfc46-77f6-49cb-966c-0a96830c96fd
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityExport, PeerIdentityExport function [Peer Networking], p2p.peeridentityexport, p2p/PeerIdentityExport
-ms.topic: function
 f1_keywords:
 - p2p/PeerIdentityExport
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 6f32c776-3c4d-4b0f-ab81-1e880d979d3b
 ms.date: 12/05/2018
 ms.keywords: BluetoothEnumerateInstalledServices, BluetoothEnumerateInstalledServices function [Bluetooth], bluetooth.bluetoothenumerateinstalledservices, bluetoothapis/BluetoothEnumerateInstalledServices
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothEnumerateInstalledServices
 dev_langs:

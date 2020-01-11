@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: c87f0b11-59c2-4450-ad63-398cdb15016f
 ms.date: 12/05/2018
 ms.keywords: CredUnPackAuthenticationBuffer, CredUnPackAuthenticationBuffer function [Security], CredUnPackAuthenticationBufferA, CredUnPackAuthenticationBufferW, security.credunpackauthenticationbuffer, wincred/CredUnPackAuthenticationBuffer, wincred/CredUnPackAuthenticationBufferA, wincred/CredUnPackAuthenticationBufferW
-ms.topic: function
 f1_keywords:
 - wincred/CredUnPackAuthenticationBuffer
 dev_langs:

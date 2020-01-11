@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_58wcharfilename_hdcreferencehdc_rectfamp.htm
 ms.date: 12/05/2018
 ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(IN const WCHAR,IN HDC,IN const RectF &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR), Metafile.Metafile(const WCHAR*,HDC,const RectF&,MetafileFrameUnit,EmfType,const WCHAR*), Metafile::Metafile, Metafile::Metafile(IN const WCHAR,IN HDC,IN const RectF &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR), _gdiplus_CLASS_Metafile_Metafile_WCHAR_fileName_HDC_referenceHdc_RectF_frameRect_MetafileFrameUnit_f, gdiplus._gdiplus_CLASS_Metafile_Metafile_WCHAR_fileName_HDC_referenceHdc_RectF_frameRect_MetafileFrameUnit_f
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Metafile.Metafile
 dev_langs:

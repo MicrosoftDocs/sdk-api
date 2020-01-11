@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 9F569418-F5CF-4280-8E53-32F14AE6FD42
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Direct Write], GetString method [Direct Write],IDWriteStringList interface, IDWriteStringList interface [Direct Write],GetString method, IDWriteStringList.GetString, IDWriteStringList::GetString, directwrite.idwritestringlist_getstring, dwrite_3/IDWriteStringList::GetString
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteStringList.GetString
 dev_langs:

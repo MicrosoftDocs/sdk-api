@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 2be8430e-2968-416f-9503-b77d6abd6a12
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumDirectoryObject interface, IEnumDirectoryObject interface [TAPI 2.2],Clone method, IEnumDirectoryObject.Clone, IEnumDirectoryObject::Clone, _tapi3_ienumdirectoryobject_clone, rend/IEnumDirectoryObject::Clone, tapi3.ienumdirectoryobject_clone
-ms.topic: method
 f1_keywords:
 - rend/IEnumDirectoryObject.Clone
 dev_langs:

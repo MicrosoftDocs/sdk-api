@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: c380d562-0acb-4c90-9460-6007a8eeb596
 ms.date: 12/05/2018
 ms.keywords: MMC_PROPACT_CHANGING, MMC_PROPACT_DELETING, MMC_PROPACT_INITIALIZED, MMC_PROPERTY_ACTION, MMC_PROPERTY_ACTION enumeration [MMC], _slate_mmc_property_action, mmc.mmc_property_action, mmcobj/MMC_PROPACT_CHANGING, mmcobj/MMC_PROPACT_DELETING, mmcobj/MMC_PROPACT_INITIALIZED, mmcobj/MMC_PROPERTY_ACTION
-ms.topic: enum
 f1_keywords:
 - mmcobj/MMC_PROPERTY_ACTION
 dev_langs:

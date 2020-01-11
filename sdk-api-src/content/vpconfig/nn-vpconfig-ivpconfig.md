@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2c0eb294-7e57-4d8d-98b1-57c3834279a0
 ms.date: 12/05/2018
 ms.keywords: IVPConfig, IVPConfig interface [DirectShow], IVPConfig interface [DirectShow],described, IVPConfigInterface, dshow.ivpconfig, vpconfig/IVPConfig
-ms.topic: interface
 f1_keywords:
 - vpconfig/IVPConfig
 dev_langs:

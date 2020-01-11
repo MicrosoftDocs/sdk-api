@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtgetextendedtransferinfo.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtGetExtendedTransferInfo method, IWiaDataTransfer.idtGetExtendedTransferInfo, IWiaDataTransfer::idtGetExtendedTransferInfo, _wia_IWiaDataTransfer_idtGetExtendedTransferInfo, idtGetExtendedTransferInfo, idtGetExtendedTransferInfo method [WIA], idtGetExtendedTransferInfo method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtGetExtendedTransferInfo, wia_xp/IWiaDataTransfer::idtGetExtendedTransferInfo
-ms.topic: method
 f1_keywords:
 - wia_xp/IWiaDataTransfer.idtGetExtendedTransferInfo
 dev_langs:

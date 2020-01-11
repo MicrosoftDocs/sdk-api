@@ -7,7 +7,6 @@ tech.root: MachineLearning
 ms.assetid: 604ABFCC-9CA0-409D-A3FF-D5C59758462E
 ms.date: 12/05/2018
 ms.keywords: IWinMLModel, IWinMLModel interface, IWinMLModel interface,described, MachineLearning.iwinmlmodel, winml/IWinMLModel
-ms.topic: interface
 f1_keywords:
 - winml/IWinMLModel
 dev_langs:

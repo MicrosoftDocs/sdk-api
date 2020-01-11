@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: ed15e545-8b37-4098-8e2f-96f4cfb271d3
 ms.date: 12/05/2018
 ms.keywords: GetWriterTime, GetWriterTime method [windows Media Format], GetWriterTime method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetWriterTime method, IWMWriterAdvanced.GetWriterTime, IWMWriterAdvanced::GetWriterTime, IWMWriterAdvancedGetWriterTime, wmformat.iwmwriteradvanced_getwritertime, wmsdkidl/IWMWriterAdvanced::GetWriterTime
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriterAdvanced.GetWriterTime
 dev_langs:

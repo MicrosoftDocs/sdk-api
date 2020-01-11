@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 68948ACE-EF49-4F24-B579-72304A00A98D
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgr2 interface [Text Services Framework],ResumeKeystrokeHandling method, ITfThreadMgr2.ResumeKeystrokeHandling, ITfThreadMgr2::ResumeKeystrokeHandling, ResumeKeystrokeHandling, ResumeKeystrokeHandling method [Text Services Framework], ResumeKeystrokeHandling method [Text Services Framework],ITfThreadMgr2 interface, msctf/ITfThreadMgr2::ResumeKeystrokeHandling, tsf.itfthreadmgr2_resumekeystrokehandling
-ms.topic: method
 f1_keywords:
 - msctf/ITfThreadMgr2.ResumeKeystrokeHandling
 dev_langs:

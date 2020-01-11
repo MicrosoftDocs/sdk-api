@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 2EB8591E-8FBC-47DA-8128-F82D82CB0B26
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_BYTE_VECTOR, PSECPKG_BYTE_VECTOR, PSECPKG_BYTE_VECTOR structure pointer [Security], SECPKG_BYTE_VECTOR, SECPKG_BYTE_VECTOR structure [Security], ntsecpkg/PSECPKG_BYTE_VECTOR, ntsecpkg/SECPKG_BYTE_VECTOR, security.secpkg_byte_vector'
-ms.topic: struct
 f1_keywords:
 - ntsecpkg/SECPKG_BYTE_VECTOR
 dev_langs:

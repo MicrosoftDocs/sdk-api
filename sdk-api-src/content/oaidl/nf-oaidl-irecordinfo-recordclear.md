@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 979b0702-3342-4036-8113-c84728436ab6
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo interface [Automation],RecordClear method, IRecordInfo.RecordClear, IRecordInfo::RecordClear, RecordClear, RecordClear method [Automation], RecordClear method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordClear, automat.irecordinfo_recordclear, oaidl/IRecordInfo::RecordClear
-ms.topic: method
 f1_keywords:
 - oaidl/IRecordInfo.RecordClear
 dev_langs:

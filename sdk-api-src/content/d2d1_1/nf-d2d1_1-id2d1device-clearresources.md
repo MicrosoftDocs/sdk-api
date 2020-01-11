@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 310817b7-0548-4846-9d36-98842c06a450
 ms.date: 12/05/2018
 ms.keywords: ClearResources, ClearResources method [Direct2D], ClearResources method [Direct2D],ID2D1Device interface, ID2D1Device interface [Direct2D],ClearResources method, ID2D1Device.ClearResources, ID2D1Device::ClearResources, d2d1_1/ID2D1Device::ClearResources, direct2d.id2d1device_clearresources
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1Device.ClearResources
 dev_langs:

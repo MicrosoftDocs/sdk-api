@@ -7,7 +7,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddekeepstringhandle.htm
 ms.date: 12/05/2018
 ms.keywords: DdeKeepStringHandle, DdeKeepStringHandle function [Data Exchange], _win32_DdeKeepStringHandle, _win32_ddekeepstringhandle_cpp, dataxchg.ddekeepstringhandle, ddeml/DdeKeepStringHandle, winui._win32_ddekeepstringhandle
-ms.topic: function
 f1_keywords:
 - ddeml/DdeKeepStringHandle
 dev_langs:

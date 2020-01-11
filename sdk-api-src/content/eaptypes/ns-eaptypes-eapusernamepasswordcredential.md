@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 61484095-4354-4103-9E21-683002750B26
 ms.date: 12/05/2018
 ms.keywords: _EapUsernamePasswordCredential, EapUsernamePasswordCredential
-ms.topic: struct
 f1_keywords:
 - eaptypes/_EapUsernamePasswordCredential
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: aeb496d5-2cea-4c69-ba19-c9083d133c1e
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_StartTime method, ITDirectoryObjectConference.get_StartTime, ITDirectoryObjectConference::get_StartTime, _tapi3_itdirectoryobjectconference_get_starttime, get_StartTime, get_StartTime method [TAPI 2.2], get_StartTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_StartTime, tapi3.itdirectoryobjectconference_get_starttime
-ms.topic: method
 f1_keywords:
 - rend/ITDirectoryObjectConference.get_StartTime
 dev_langs:

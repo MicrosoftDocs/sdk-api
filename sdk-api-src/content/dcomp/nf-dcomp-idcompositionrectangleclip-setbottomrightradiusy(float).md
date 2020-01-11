@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: A2A3F43E-62C6-43B8-929F-AEDA11620DF1
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip.SetBottomRightRadiusY, IDCompositionRectangleClip::SetBottomRightRadiusY, SetBottomRightRadiusY, SetBottomRightRadiusY methods [DirectComposition], dcomp/SetBottomRightRadiusY, directcomp.idcompositionrectangleclip_setbottomrightradiusy
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionRectangleClip::SetBottomRightRadiusY
 dev_langs:

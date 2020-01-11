@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 6705BF71-9FF9-4D1F-B34B-752D9C83C964
 ms.date: 12/05/2018
 ms.keywords: GetDynamicTimeZoneInformationEffectiveYears, GetDynamicTimeZoneInformationEffectiveYears function, base.getdynamictimezoneinformationeffectiveyears, timezoneapi/GetDynamicTimeZoneInformationEffectiveYears
-ms.topic: function
 f1_keywords:
 - timezoneapi/GetDynamicTimeZoneInformationEffectiveYears
 dev_langs:

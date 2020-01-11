@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: b869ea8e-4fc8-4974-9e1c-1d2c480c3b0e
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],Stop method, IDataCollectorSet.Stop, IDataCollectorSet::Stop, Stop, Stop method [PLA], Stop method [PLA],IDataCollectorSet interface, base.idatacollectorset_stop, pla.idatacollectorset_stop, pla/IDataCollectorSet::Stop
-ms.topic: method
 f1_keywords:
 - pla/IDataCollectorSet.Stop
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: bf9d4eb2-e939-42c6-8d71-669a949ca77a
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientOpenContent, PeerDistClientOpenContent function [Peer Networking], p2p.peerdistclientopencontent, peerdist/PeerDistClientOpenContent
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistClientOpenContent
 dev_langs:

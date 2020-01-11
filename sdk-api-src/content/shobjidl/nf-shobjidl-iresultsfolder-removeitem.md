@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 17be32ed-50d7-4c16-9a06-97c4a0f8dc8d
 ms.date: 12/05/2018
 ms.keywords: IResultsFolder interface [Windows Shell],RemoveItem method, IResultsFolder.RemoveItem, IResultsFolder::RemoveItem, RemoveItem, RemoveItem method [Windows Shell], RemoveItem method [Windows Shell],IResultsFolder interface, _shell_IResultsFolder_RemoveItem, shell.IResultsFolder_RemoveItem, shobjidl/IResultsFolder::RemoveItem
-ms.topic: method
 f1_keywords:
 - shobjidl/IResultsFolder.RemoveItem
 dev_langs:

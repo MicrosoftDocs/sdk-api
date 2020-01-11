@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 3ad5be24-9558-442e-8c77-dd6a7d33c208
 ms.date: 12/05/2018
 ms.keywords: '*LPMETAHEADER, *PMETAHEADER, METAHEADER, METAHEADER structure [Windows GDI], PMETAHEADER, PMETAHEADER structure pointer [Windows GDI], _win32_METAHEADER_str, gdi.metaheader, wingdi/METAHEADER, wingdi/PMETAHEADER'
-ms.topic: struct
 f1_keywords:
 - wingdi/METAHEADER
 dev_langs:

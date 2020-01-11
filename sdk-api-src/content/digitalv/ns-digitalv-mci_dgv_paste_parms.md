@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: f350b992-5c0b-468e-8898-97793ad896e6
 ms.date: 12/05/2018
 ms.keywords: '*LPMCI_DGV_PASTE_PARMS, MCI_DGV_PASTE_PARMS, MCI_DGV_PASTE_PARMS structure [Windows Multimedia], _win32_MCI_DGV_PASTE_PARMS_str, digitalv/MCI_DGV_PASTE_PARMS, multimedia.mci_dgv_paste_parms'
-ms.topic: struct
 f1_keywords:
 - digitalv/MCI_DGV_PASTE_PARMS
 dev_langs:

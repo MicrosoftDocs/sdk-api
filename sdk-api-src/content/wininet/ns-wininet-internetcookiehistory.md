@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: c3aba5be-da66-4471-98e7-95fa5bd88c99
 ms.date: 12/05/2018
 ms.keywords: InternetCookieHistory, InternetCookieHistory structure [WinINet], wininet.internetcookiehistory, wininet/InternetCookieHistory
-ms.topic: struct
 f1_keywords:
 - wininet/InternetCookieHistory
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 97313e6f-ec9e-4dcb-b888-14436259a519
 ms.date: 12/05/2018
 ms.keywords: LPNSPREMOVESERVICECLASS, NSPRemoveServiceClass, NSPRemoveServiceClass function [Winsock], _win32_nspremoveserviceclass_2, winsock.nspremoveserviceclass_2, ws2spi/NSPRemoveServiceClass
-ms.topic: callback
 f1_keywords:
 - ws2spi/NSPRemoveServiceClass
 dev_langs:

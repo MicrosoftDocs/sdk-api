@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c37aeddc-ed24-4828-b92b-bce0e6384726
 ms.date: 12/05/2018
 ms.keywords: PathCchRemoveFileSpec, PathCchRemoveFileSpec function [Windows Shell], pathcch/PathCchRemoveFileSpec, shell.PathCchRemoveFileSpec
-ms.topic: function
 f1_keywords:
 - pathcch/PathCchRemoveFileSpec
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: EventLog
 ms.assetid: 53706f83-6bc9-45d6-981c-bd0680d7bc08
 ms.date: 12/05/2018
 ms.keywords: RegisterEventSource, RegisterEventSource function, RegisterEventSourceA, RegisterEventSourceW, _win32_registereventsource, base.registereventsource, winbase/RegisterEventSource, winbase/RegisterEventSourceA, winbase/RegisterEventSourceW
-ms.topic: function
 f1_keywords:
 - winbase/RegisterEventSource
 dev_langs:

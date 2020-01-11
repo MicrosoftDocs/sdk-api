@@ -7,7 +7,6 @@ tech.root: WEC
 ms.assetid: 41702fb8-5b39-4daa-8904-aa36de18665c
 ms.date: 12/05/2018
 ms.keywords: EcSaveSubscription, EcSaveSubscription function, evcoll/EcSaveSubscription, wec.ecsavesubscription, wes.ecsavesubscription
-ms.topic: function
 f1_keywords:
 - evcoll/EcSaveSubscription
 dev_langs:

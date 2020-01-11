@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 068c6963-7d69-45b9-8f8b-7af358548a56
 ms.date: 12/05/2018
 ms.keywords: BeginUIElement, BeginUIElement method [Text Services Framework], BeginUIElement method [Text Services Framework],ITfUIElementSink interface, ITfUIElementSink interface [Text Services Framework],BeginUIElement method, ITfUIElementSink.BeginUIElement, ITfUIElementSink::BeginUIElement, msctf/ITfUIElementSink::BeginUIElement, tsf.itfuielementsink_beginuielement
-ms.topic: method
 f1_keywords:
 - msctf/ITfUIElementSink.BeginUIElement
 dev_langs:

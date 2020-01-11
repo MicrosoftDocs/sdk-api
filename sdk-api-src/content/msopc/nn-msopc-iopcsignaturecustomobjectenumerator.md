@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: e82caa1e-4cf8-457f-86d9-24f707544199
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureCustomObjectEnumerator, IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions], IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions],described, msopc/IOpcSignatureCustomObjectEnumerator, opc.iopcsignaturecustomobjectenumerator
-ms.topic: interface
 f1_keywords:
 - msopc/IOpcSignatureCustomObjectEnumerator
 dev_langs:

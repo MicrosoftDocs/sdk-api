@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: cb1fcf78-b36a-4551-8eeb-da58edc80890
 ms.date: 12/05/2018
 ms.keywords: '*PCHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST structure, PCHANGER_ELEMENT_LIST, PCHANGER_ELEMENT_LIST structure pointer, _win32_changer_element_list_str, base.changer_element_list_str, winioctl/CHANGER_ELEMENT_LIST, winioctl/PCHANGER_ELEMENT_LIST'
-ms.topic: struct
 f1_keywords:
 - winioctl/CHANGER_ELEMENT_LIST
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 83800B10-7992-4A3D-B8D6-6872BAEAF7DA
 ms.date: 12/05/2018
 ms.keywords: CreateTranslateTransform, CreateTranslateTransform method [DirectComposition], CreateTranslateTransform method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateTranslateTransform method, IDCompositionDevice2.CreateTranslateTransform, IDCompositionDevice2::CreateTranslateTransform, dcomp/IDCompositionDevice2::CreateTranslateTransform, directcomp.idcompositiondevice2_createtranslatetransform
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionDevice2.CreateTranslateTransform
 dev_langs:

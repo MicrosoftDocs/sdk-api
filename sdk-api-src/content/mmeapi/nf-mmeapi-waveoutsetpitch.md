@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 103560b6-a93a-42ac-8c62-839091c56433
 ms.date: 12/05/2018
 ms.keywords: _win32_waveOutSetPitch, mmeapi/waveOutSetPitch, multimedia.waveoutsetpitch, waveOutSetPitch, waveOutSetPitch function [Windows Multimedia]
-ms.topic: function
 f1_keywords:
 - mmeapi/waveOutSetPitch
 dev_langs:

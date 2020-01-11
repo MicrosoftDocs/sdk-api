@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 86289ab5-c313-470d-9ac1-3651c23af979
 ms.date: 12/05/2018
 ms.keywords: SetupSetFileQueueAlternatePlatform, SetupSetFileQueueAlternatePlatform function [Setup API], SetupSetFileQueueAlternatePlatformA, SetupSetFileQueueAlternatePlatformW, _setupapi_setupsetfilequeuealternateplatform, setup.setupsetfilequeuealternateplatform, setupapi/SetupSetFileQueueAlternatePlatform, setupapi/SetupSetFileQueueAlternatePlatformA, setupapi/SetupSetFileQueueAlternatePlatformW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupSetFileQueueAlternatePlatform
 dev_langs:

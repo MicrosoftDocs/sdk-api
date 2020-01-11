@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 7b0bf0be-1f0d-4da9-a8d2-c8a29ae3dcac
 ms.date: 12/05/2018
 ms.keywords: IEnumTfInputProcessorProfiles interface [Text Services Framework],Skip method, IEnumTfInputProcessorProfiles.Skip, IEnumTfInputProcessorProfiles::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfInputProcessorProfiles interface, msctf/IEnumTfInputProcessorProfiles::Skip, tsf.ienumtfinputprocessorprofiles_skip
-ms.topic: method
 f1_keywords:
 - msctf/IEnumTfInputProcessorProfiles.Skip
 dev_langs:

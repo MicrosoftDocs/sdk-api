@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 7dfa6443-4eb8-4a88-8af1-c082750e8d22
 ms.date: 12/05/2018
 ms.keywords: IWMDMObjectInfo interface [windows Media Device Manager],SetPlayLength method, IWMDMObjectInfo.SetPlayLength, IWMDMObjectInfo::SetPlayLength, IWMDMObjectInfoSetPlayLength, SetPlayLength, SetPlayLength method [windows Media Device Manager], SetPlayLength method [windows Media Device Manager],IWMDMObjectInfo interface, mswmdm/IWMDMObjectInfo::SetPlayLength, wmdm.iwmdmobjectinfo_setplaylength
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMObjectInfo.SetPlayLength
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getactivewindow.htm
 ms.date: 12/05/2018
 ms.keywords: GetActiveWindow, GetActiveWindow function [Keyboard and Mouse Input], _win32_GetActiveWindow, _win32_getactivewindow_cpp, inputdev.getactivewindow, winui._win32_getactivewindow, winuser/GetActiveWindow
-ms.topic: function
 f1_keywords:
 - winuser/GetActiveWindow
 dev_langs:

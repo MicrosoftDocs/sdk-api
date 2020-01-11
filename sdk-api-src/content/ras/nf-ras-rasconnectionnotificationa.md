@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 7bbf928e-9b62-44fc-9d57-6c80f89865f0
 ms.date: 12/05/2018
 ms.keywords: RASCN_BandwidthAdded, RASCN_BandwidthRemoved, RASCN_Connection, RASCN_Disconnection, RasConnectionNotification, RasConnectionNotification function [RAS], RasConnectionNotificationA, RasConnectionNotificationW, _ras_rasconnectionnotification, ras/RasConnectionNotification, ras/RasConnectionNotificationA, ras/RasConnectionNotificationW, rras.rasconnectionnotification
-ms.topic: function
 f1_keywords:
 - ras/RasConnectionNotification
 dev_langs:

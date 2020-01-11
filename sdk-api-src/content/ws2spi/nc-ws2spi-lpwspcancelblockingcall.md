@@ -4,7 +4,6 @@ title: LPWSPCANCELBLOCKINGCALL
 description: The LPWSPCancelBlockingCall function cancels a blocking call that is currently in progress.
 ms.date: 9/12/2019
 ms.keywords: LPWSPCANCELBLOCKINGCALL
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

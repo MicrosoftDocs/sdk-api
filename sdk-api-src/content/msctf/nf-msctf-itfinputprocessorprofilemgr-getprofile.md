@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 581bddf5-3def-48c6-a092-4f751142cc1b
 ms.date: 12/05/2018
 ms.keywords: GetProfile, GetProfile method [Text Services Framework], GetProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, ITfInputProcessorProfileMgr interface [Text Services Framework],GetProfile method, ITfInputProcessorProfileMgr.GetProfile, ITfInputProcessorProfileMgr::GetProfile, TF_PROFILETYPE_INPUTPROCESSOR, TF_PROFILETYPE_KEYBOARDLAYOUT, msctf/ITfInputProcessorProfileMgr::GetProfile, tsf.itfinputprocessorprofilemgr_getprofile
-ms.topic: method
 f1_keywords:
 - msctf/ITfInputProcessorProfileMgr.GetProfile
 dev_langs:

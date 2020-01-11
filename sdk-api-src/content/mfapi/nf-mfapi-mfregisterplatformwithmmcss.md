@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 8F99849B-5363-4EEF-BCB8-C69A5309AF34
 ms.date: 12/05/2018
 ms.keywords: MFRegisterPlatformWithMMCSS, MFRegisterPlatformWithMMCSS function [Media Foundation], mf.mfregisterplatformwithmmcss, mfapi/MFRegisterPlatformWithMMCSS, mfplat/MFRegisterPlatformWithMMCSS
-ms.topic: function
 f1_keywords:
 - mfapi/MFRegisterPlatformWithMMCSS
 dev_langs:

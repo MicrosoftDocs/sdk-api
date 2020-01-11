@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.scalar.XMScalarModAngle(float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMScalarModAngle, XMScalarModAngle, XMScalarModAngle method [DirectX Math Support APIs], dxmath.xmscalarmodangle
-ms.topic: function
 f1_keywords:
 - directxmath/XMScalarModAngle
 dev_langs:

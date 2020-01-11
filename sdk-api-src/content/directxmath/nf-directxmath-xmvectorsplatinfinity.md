@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorSplatInfinity
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSplatInfinity, XMVectorSplatInfinity, XMVectorSplatInfinity method [DirectX Math Support APIs], dxmath.xmvectorsplatinfinity
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorSplatInfinity
 dev_langs:

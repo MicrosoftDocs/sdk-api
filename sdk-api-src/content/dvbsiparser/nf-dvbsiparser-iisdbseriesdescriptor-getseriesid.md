@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 90de5108-1d40-475b-83fe-20b68fa3f748
 ms.date: 12/05/2018
 ms.keywords: GetSeriesId, GetSeriesId method [Microsoft TV Technologies], GetSeriesId method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetSeriesId method, IIsdbSeriesDescriptor.GetSeriesId, IIsdbSeriesDescriptor::GetSeriesId, dvbsiparser/IIsdbSeriesDescriptor::GetSeriesId, mstv.iisdbseriesdescriptor_getseriesid
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbSeriesDescriptor.GetSeriesId
 dev_langs:

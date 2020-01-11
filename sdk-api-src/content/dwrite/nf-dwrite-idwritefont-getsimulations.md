@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 3e5ab7f9-0ed2-41d9-b973-a8775ea58358
 ms.date: 12/05/2018
 ms.keywords: GetSimulations, GetSimulations method [Direct Write], GetSimulations method [Direct Write],IDWriteFont interface, IDWriteFont interface [Direct Write],GetSimulations method, IDWriteFont.GetSimulations, IDWriteFont::GetSimulations, directwrite.IDWriteFont_GetSimulations, dwrite/IDWriteFont::GetSimulations
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteFont.GetSimulations
 dev_langs:

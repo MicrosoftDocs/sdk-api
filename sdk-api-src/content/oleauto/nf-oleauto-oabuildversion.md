@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: e7466457-1025-4f1b-8b29-01cdf2358217
 ms.date: 12/05/2018
 ms.keywords: OaBuildVersion, OaBuildVersion function [Automation], _oa96_OaBuildVersion, automat.oabuildversion, oleauto/OaBuildVersion
-ms.topic: function
 f1_keywords:
 - oleauto/OaBuildVersion
 dev_langs:

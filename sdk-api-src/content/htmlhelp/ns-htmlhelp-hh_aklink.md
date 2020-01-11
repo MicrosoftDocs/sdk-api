@@ -7,7 +7,6 @@ tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhaklink.htm
 ms.date: 12/05/2018
 ms.keywords: HH_AKLINK, HH_AKLINK structure [HTML Help Workshop], htmlhelp.hh_aklink_structure, htmlhelp/HH_AKLINK, vsconStrhhaklink
-ms.topic: struct
 f1_keywords:
 - htmlhelp/HH_AKLINK
 dev_langs:

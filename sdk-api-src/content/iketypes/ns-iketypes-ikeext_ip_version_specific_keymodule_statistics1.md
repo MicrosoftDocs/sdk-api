@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 45485729-dc02-4c59-83d7-0564e943e60b
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1, IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1 structure [Filtering], fwp.ikeext_ip_version_specific_keymodule_statistics1, iketypes/IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1
-ms.topic: struct
 f1_keywords:
 - iketypes/IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1
 dev_langs:

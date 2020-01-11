@@ -5,7 +5,6 @@ description: Creates a resource (optionally for a protected session) that is res
 tech.root: direct3d12
 ms.date: 10/15/2019
 ms.keywords: ID3D12Device4 interface,CreateReservedResource1 method, ID3D12Device4.CreateReservedResource1, ID3D12Device4::CreateReservedResource1, CreateReservedResource1, CreateReservedResource1 method, CreateReservedResource1 method,ID3D12Device4 interface, direct3d12.id3d12device4_createreservedresource1, d3d12/ID3D12Device4::CreateReservedResource1
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device4.CreateReservedResource1
 dev_langs:

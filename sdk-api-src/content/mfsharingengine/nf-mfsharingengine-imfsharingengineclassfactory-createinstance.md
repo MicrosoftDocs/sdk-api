@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 8410FA9C-22C1-412D-90ED-55F19F21B8BD
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFSharingEngineClassFactory interface, IMFSharingEngineClassFactory interface [Media Foundation],CreateInstance method, IMFSharingEngineClassFactory.CreateInstance, IMFSharingEngineClassFactory::CreateInstance, mf.imfsharingengineclassfactory_createinstance, mfsharingengine/IMFSharingEngineClassFactory::CreateInstance
-ms.topic: method
 f1_keywords:
 - mfsharingengine/IMFSharingEngineClassFactory.CreateInstance
 dev_langs:

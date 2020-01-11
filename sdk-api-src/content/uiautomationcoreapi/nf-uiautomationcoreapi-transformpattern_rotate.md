@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: c3c61c67-7c4a-4211-90f9-b5000a4938a3
 ms.date: 12/05/2018
 ms.keywords: TransformPattern_Rotate, TransformPattern_Rotate function [Windows Accessibility], uiauto.uiauto_TransformPattern_RotateConPat, uiauto_TransformPattern_RotateConPat, uiautomationcoreapi/TransformPattern_Rotate, winauto.uiauto_TransformPattern_RotateConPat
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/TransformPattern_Rotate
 dev_langs:

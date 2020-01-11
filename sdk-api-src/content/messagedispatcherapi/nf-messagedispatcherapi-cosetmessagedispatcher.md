@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3D6CFE01-8D3D-474E-A7D0-9B129ECD4EEA
 ms.date: 12/05/2018
 ms.keywords: CoSetMessageDispatcher, CoSetMessageDispatcher function [COM], com.cosetmessagedispatcher, messagedispatcherapi/CoSetMessageDispatcher
-ms.topic: function
 f1_keywords:
 - messagedispatcherapi/CoSetMessageDispatcher
 dev_langs:

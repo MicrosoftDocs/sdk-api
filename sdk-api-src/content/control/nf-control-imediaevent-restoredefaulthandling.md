@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2df616b0-b944-44ab-8147-4f70796dd2a2
 ms.date: 12/05/2018
 ms.keywords: IMediaEvent interface [DirectShow],RestoreDefaultHandling method, IMediaEvent.RestoreDefaultHandling, IMediaEvent::RestoreDefaultHandling, IMediaEventRestoreDefaultHandling, RestoreDefaultHandling, RestoreDefaultHandling method [DirectShow], RestoreDefaultHandling method [DirectShow],IMediaEvent interface, control/IMediaEvent::RestoreDefaultHandling, dshow.imediaevent_restoredefaulthandling
-ms.topic: method
 f1_keywords:
 - control/IMediaEvent.RestoreDefaultHandling
 dev_langs:

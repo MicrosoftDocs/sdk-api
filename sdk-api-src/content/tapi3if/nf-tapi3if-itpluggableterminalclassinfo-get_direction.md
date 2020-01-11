@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 843aeedc-08ca-436b-9d43-1e7b9aa1ac8e
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassInfo interface [TAPI 2.2],get_Direction method, ITPluggableTerminalClassInfo.get_Direction, ITPluggableTerminalClassInfo::get_Direction, _tapi3_itpluggableterminalclassinfo_get_direction, get_Direction, get_Direction method [TAPI 2.2], get_Direction method [TAPI 2.2],ITPluggableTerminalClassInfo interface, tapi3.itpluggableterminalclassinfo_get_direction, tapi3if/ITPluggableTerminalClassInfo::get_Direction
-ms.topic: method
 f1_keywords:
 - tapi3if/ITPluggableTerminalClassInfo.get_Direction
 dev_langs:

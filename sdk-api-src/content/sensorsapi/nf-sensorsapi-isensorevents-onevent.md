@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: 7dfe25d1-dc0e-4e97-8dad-ca66a829aa4c
 ms.date: 12/05/2018
 ms.keywords: ISensorEvents interface,OnEvent method, ISensorEvents.OnEvent, ISensorEvents::OnEvent, OnEvent, OnEvent method, OnEvent method,ISensorEvents interface, sensorsapi/ISensorEvents::OnEvent, winsensors_com_ref.isensorevents_onevent
-ms.topic: method
 f1_keywords:
 - sensorsapi/ISensorEvents.OnEvent
 dev_langs:

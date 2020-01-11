@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\pauseoutgoingqueue.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],OutgoingQueuePaused property, IFaxConfiguration.OutgoingQueuePaused, IFaxConfiguration.put_OutgoingQueuePaused, IFaxConfiguration::OutgoingQueuePaused, IFaxConfiguration::get_OutgoingQueuePaused, IFaxConfiguration::put_OutgoingQueuePaused, OutgoingQueuePaused property [Fax Service], OutgoingQueuePaused property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_PauseOutgoingQueue, fax._mfax_IFaxConfiguration_PauseOutgoingQueue, faxcomex/IFaxConfiguration::OutgoingQueuePaused, faxcomex/IFaxConfiguration::get_OutgoingQueuePaused, faxcomex/IFaxConfiguration::put_OutgoingQueuePaused, put_OutgoingQueuePaused
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxConfiguration.OutgoingQueuePaused
 dev_langs:

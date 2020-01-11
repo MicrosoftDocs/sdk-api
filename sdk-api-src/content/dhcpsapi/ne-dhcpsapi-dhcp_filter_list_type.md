@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 369b705c-2322-4be7-8550-41a42318204b
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_FILTER_LIST_TYPE, Allow, DHCP_FILTER_LIST_TYPE, DHCP_FILTER_LIST_TYPE enumeration [DHCP], Deny, dhcp.dhcp_filter_list_type, dhcpsapi/Allow, dhcpsapi/DHCP_FILTER_LIST_TYPE, dhcpsapi/Deny'
-ms.topic: enum
 f1_keywords:
 - dhcpsapi/DHCP_FILTER_LIST_TYPE
 dev_langs:

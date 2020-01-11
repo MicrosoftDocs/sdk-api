@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: EE803D8C-3EFD-414F-8E38-65A1DFA8079B
 ms.date: 12/05/2018
 ms.keywords: ClusterUpgradeProgressCallback, ClusterUpgradeProgressCallback callback, ClusterUpgradeProgressCallback callback function [Failover Cluster], PCLUSTER_UPGRADE_PROGRESS_CALLBACK, PCLUSTER_UPGRADE_PROGRESS_CALLBACK callback function [Failover Cluster], clusapi/ClusterUpgradeProgressCallback, clusapi/PCLUSTER_UPGRADE_PROGRESS_CALLBACK, mscs.clusterupgradeprogresscallback
-ms.topic: callback
 f1_keywords:
 - clusapi/ClusterUpgradeProgressCallback
 dev_langs:

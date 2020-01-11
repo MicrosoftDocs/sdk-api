@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1e503f8f-ebfa-4ac9-a6de-e9127919c758
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],ReportManualSync method, ISyncMgrSyncCallback.ReportManualSync, ISyncMgrSyncCallback::ReportManualSync, ReportManualSync, ReportManualSync method [Windows Shell], ReportManualSync method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_ReportManualSync, shell.ISyncMgrSyncCallback_ReportManualSync, syncmgr/ISyncMgrSyncCallback::ReportManualSync
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrSyncCallback.ReportManualSync
 dev_langs:

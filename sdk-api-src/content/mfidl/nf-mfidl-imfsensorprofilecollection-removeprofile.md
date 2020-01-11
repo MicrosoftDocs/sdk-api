@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: E0A0C773-7B60-46C7-9B89-07DF5CAA1E84
 ms.date: 12/05/2018
 ms.keywords: IMFSensorProfileCollection interface [Media Foundation],RemoveProfile method, IMFSensorProfileCollection.RemoveProfile, IMFSensorProfileCollection::RemoveProfile, RemoveProfile, RemoveProfile method [Media Foundation], RemoveProfile method [Media Foundation],IMFSensorProfileCollection interface, mf.imfsensorprofilecollection_removeprofile, mfidl/IMFSensorProfileCollection::RemoveProfile
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSensorProfileCollection.RemoveProfile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: ace88b14-951c-4482-a46d-12c4665c9450
 ms.date: 12/05/2018
 ms.keywords: GetInt32Array, GetInt32Array method [Windows Runtime], GetInt32Array method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetInt32Array method, IPropertyValue.GetInt32Array, IPropertyValue.IPropertyValue, IPropertyValue::GetInt32Array, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetInt32Array, winrt.ipropertyvalue_getint32array
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValue.GetInt32Array
 dev_langs:

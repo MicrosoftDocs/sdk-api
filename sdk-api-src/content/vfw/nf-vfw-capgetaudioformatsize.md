@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 6f2dbedb-bece-4082-aa68-c2390c75b4d7
 ms.date: 12/05/2018
 ms.keywords: _win32_capGetAudioFormatSize, capGetAudioFormatSize, capGetAudioFormatSize macro [Windows Multimedia], multimedia.capgetaudioformatsize, vfw/capGetAudioFormatSize
-ms.topic: macro
 f1_keywords:
 - vfw/capGetAudioFormatSize
 dev_langs:

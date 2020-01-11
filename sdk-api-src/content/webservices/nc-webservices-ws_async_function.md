@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 5645424b-4ca4-4f5d-b58d-16f3a7cceb6b
 ms.date: 12/05/2018
 ms.keywords: WS_ASYNC_FUNCTION, WS_ASYNC_FUNCTION callback, WS_ASYNC_FUNCTION callback function [Web Services for Windows], webservices/WS_ASYNC_FUNCTION, wsw.ws_async_function
-ms.topic: callback
 f1_keywords:
 - webservices/WS_ASYNC_FUNCTION
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 081b394c-1fe8-4519-999e-b3985a77bd9c
 ms.date: 12/05/2018
 ms.keywords: IMoniker interface [COM],IsRunning method, IMoniker.IsRunning, IMoniker::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IMoniker interface, _com_imoniker_isrunning, com.imoniker_isrunning, objidl/IMoniker::IsRunning
-ms.topic: method
 f1_keywords:
 - objidl/IMoniker.IsRunning
 dev_langs:

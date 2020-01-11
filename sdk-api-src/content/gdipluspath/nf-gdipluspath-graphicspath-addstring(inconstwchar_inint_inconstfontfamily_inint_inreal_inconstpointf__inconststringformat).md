@@ -5,7 +5,6 @@ description: The GraphicsPath::AddString method adds the outline of a string to 
 ms.assetid: 1bed1611-addc-464c-a7c9-64810e922a5e
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddString
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/GraphicsPath::AddString
 dev_langs:

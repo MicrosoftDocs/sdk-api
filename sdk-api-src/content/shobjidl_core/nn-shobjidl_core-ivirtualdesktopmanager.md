@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: B95AC349-63E3-4A5A-A353-1C93486BB67A
 ms.date: 12/05/2018
 ms.keywords: IVirtualDesktopManager, IVirtualDesktopManager interface [Windows Shell], IVirtualDesktopManager interface [Windows Shell],described, shell.ivirtualdesktopmanager, shobjidl_core/IVirtualDesktopManager
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IVirtualDesktopManager
 dev_langs:

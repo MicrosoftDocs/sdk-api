@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 2f370d6f-4670-401e-840e-11f775dbd873
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerEnum0, FwpmSubLayerEnum0 function [Filtering], fwp.fwpmsublayerenum0_func, fwpmu/FwpmSubLayerEnum0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmSubLayerEnum0
 dev_langs:

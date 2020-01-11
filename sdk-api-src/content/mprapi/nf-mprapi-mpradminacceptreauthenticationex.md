@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 32ea0cb5-f67d-4dcc-b5d0-705b6847b163
 ms.date: 12/05/2018
 ms.keywords: MprAdminAcceptReauthenticationEx, MprAdminAcceptReauthenticationEx callback, MprAdminAcceptReauthenticationEx callback function [RAS], mprapi/MprAdminAcceptReauthenticationEx, rras.mpradminacceptreauthenticationex
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminAcceptReauthenticationEx
 dev_langs:

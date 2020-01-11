@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTEN2.#ctor(float,float)
 ms.date: 12/05/2018
 ms.keywords: XMUBYTEN2, XMUBYTEN2 constructor [DirectX Math Support APIs], XMUBYTEN2 constructor [DirectX Math Support APIs],XMUBYTEN2 structure, XMUBYTEN2 structure [DirectX Math Support APIs],XMUBYTEN2 constructor, XMUBYTEN2.XMUBYTEN2, XMUBYTEN2.XMUBYTEN2(float,float), XMUBYTEN2::XMUBYTEN2, XMUBYTEN2::XMUBYTEN2(float,float), dxmath.xmubyten2_ctor_4
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMUBYTEN2.XMUBYTEN2
 dev_langs:

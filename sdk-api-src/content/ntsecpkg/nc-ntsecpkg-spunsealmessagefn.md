@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 3ece6f30-bb8b-4fad-a8c4-9088c134cf25
 ms.date: 12/05/2018
 ms.keywords: SpUnsealMessage, SpUnsealMessage callback function [Security], SpUnsealMessageFn, SpUnsealMessageFn callback, _ssp_spunsealmessage, ntsecpkg/SpUnsealMessage, security.spunsealmessage
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpUnsealMessage
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: a8fe2077-0606-4517-8e50-dc42a4c39b77
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagEnableSPNServerPort method, IWSManEx.SessionFlagEnableSPNServerPort, IWSManEx::SessionFlagEnableSPNServerPort, SessionFlagEnableSPNServerPort, SessionFlagEnableSPNServerPort method [Windows Remote Management], SessionFlagEnableSPNServerPort method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagenablespnserverport, wsmandisp/IWSManEx::SessionFlagEnableSPNServerPort
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManEx.SessionFlagEnableSPNServerPort
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: bfd0f35a-7f56-42e4-b3da-cd7c4a2bae5e
 ms.date: 12/05/2018
 ms.keywords: FWPM_SUBLAYER_SUBSCRIPTION0, FWPM_SUBLAYER_SUBSCRIPTION0 structure [Filtering], FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_ADD, FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_DELETE, fwp.fwpm_sublayer_subscription0_struct, fwpmtypes/FWPM_SUBLAYER_SUBSCRIPTION0
-ms.topic: struct
 f1_keywords:
 - fwpmtypes/FWPM_SUBLAYER_SUBSCRIPTION0
 dev_langs:

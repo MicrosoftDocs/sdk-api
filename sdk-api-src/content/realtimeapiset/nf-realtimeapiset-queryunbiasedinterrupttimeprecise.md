@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: FADFC168-A3CF-4676-9B6E-7A4028049423
 ms.date: 12/05/2018
 ms.keywords: QueryUnbiasedInterruptTimePrecise, QueryUnbiasedInterruptTimePrecise function, base.queryunbiasedinterrupttimeprecise, realtimeapiset/QueryUnbiasedInterruptTimePrecise
-ms.topic: function
 f1_keywords:
 - realtimeapiset/QueryUnbiasedInterruptTimePrecise
 dev_langs:

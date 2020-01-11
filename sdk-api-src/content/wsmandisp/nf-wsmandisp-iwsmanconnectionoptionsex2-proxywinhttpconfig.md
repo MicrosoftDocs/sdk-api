@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: a44cd693-cf85-4c04-89d5-920e4c2972a4
 ms.date: 12/05/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyWinHttpConfig method, IWSManConnectionOptionsEx2.ProxyWinHttpConfig, IWSManConnectionOptionsEx2::ProxyWinHttpConfig, ProxyWinHttpConfig, ProxyWinHttpConfig method [Windows Remote Management], ProxyWinHttpConfig method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxywinhttpconfig, wsmandisp/IWSManConnectionOptionsEx2::ProxyWinHttpConfig
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManConnectionOptionsEx2.ProxyWinHttpConfig
 dev_langs:

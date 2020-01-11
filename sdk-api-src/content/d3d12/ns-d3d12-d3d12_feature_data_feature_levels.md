@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 8C709889-0C7E-4D6D-84BD-1449BB8EA96A
 ms.date: 12/05/2018
 ms.keywords: D3D12_FEATURE_DATA_FEATURE_LEVELS, D3D12_FEATURE_DATA_FEATURE_LEVELS structure, d3d12/D3D12_FEATURE_DATA_FEATURE_LEVELS, direct3d12.d3d12_feature_data_feature_levels
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_FEATURE_DATA_FEATURE_LEVELS
 dev_langs:

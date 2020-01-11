@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: b6a416d1-0bad-49e0-91ad-19e9ff544a8a
 ms.date: 12/05/2018
 ms.keywords: CancelLicenseAcquisition, CancelLicenseAcquisition method [windows Media Format], CancelLicenseAcquisition method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],CancelLicenseAcquisition method, IWMDRMReader.CancelLicenseAcquisition, IWMDRMReader::CancelLicenseAcquisition, IWMDRMReaderCancelLicenseAcquisition, wmformat.iwmdrmreader_cancellicenseacquisition, wmsdkidl/IWMDRMReader::CancelLicenseAcquisition
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDRMReader.CancelLicenseAcquisition
 dev_langs:

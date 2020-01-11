@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: B3DC323F-C4F3-4B56-AE55-CD62876F016B
 ms.date: 12/05/2018
 ms.keywords: RecordFeatureUsage, RecordFeatureUsage function [Windows API], featurestagingapi/RecordFeatureUsage, winprog.recordfeatureusage
-ms.topic: function
 f1_keywords:
 - featurestagingapi/RecordFeatureUsage
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 0957ece7-93fe-411b-b69e-fd03933b09d1
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], IWMReaderNetworkConfig interface [windows Media Format],described, IWMReaderNetworkConfigInterface, wmformat.iwmreadernetworkconfig, wmsdkidl/IWMReaderNetworkConfig
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMReaderNetworkConfig
 dev_langs:

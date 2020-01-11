@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: fe4e8d34-b0fc-4c93-bbde-83cd38625930
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderDeleteByKey0, FwpmProviderDeleteByKey0 function [Filtering], fwp.fwpmproviderdeletebykey0_func, fwpmu/FwpmProviderDeleteByKey0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmProviderDeleteByKey0
 dev_langs:

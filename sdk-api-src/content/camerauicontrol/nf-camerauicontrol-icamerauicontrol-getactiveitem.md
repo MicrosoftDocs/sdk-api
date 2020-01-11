@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 9ef05929-7292-4833-95e7-d420abb6cd43
 ms.date: 12/05/2018
 ms.keywords: GetActiveItem, GetActiveItem method [Windows API], GetActiveItem method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],GetActiveItem method, ICameraUIControl.GetActiveItem, ICameraUIControl::GetActiveItem, camerauicontrol/ICameraUIControl::GetActiveItem, winprog.icamerauicontrol_getactiveitem
-ms.topic: method
 f1_keywords:
 - camerauicontrol/ICameraUIControl.GetActiveItem
 dev_langs:

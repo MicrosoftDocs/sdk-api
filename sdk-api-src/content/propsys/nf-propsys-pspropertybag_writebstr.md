@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 9C2DBD1F-6760-4812-A33E-9A71C5A421A9
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WriteBSTR, PSPropertyBag_WriteBSTR function [Windows Properties], properties.PSPropertyBag_WriteBSTR, propsys/PSPropertyBag_WriteBSTR, shell.PSPropertyBag_WriteBSTR, shell_PSPropertyBag_WriteBSTR
-ms.topic: function
 f1_keywords:
 - propsys/PSPropertyBag_WriteBSTR
 dev_langs:

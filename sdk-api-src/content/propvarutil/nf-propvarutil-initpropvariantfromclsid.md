@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: a48a8927-2718-4f9c-96f2-ab370206550b
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromCLSID, InitPropVariantFromCLSID function [Windows Properties], properties.InitPropVariantFromCLSID, propvarutil/InitPropVariantFromCLSID, shell.InitPropVariantFromCLSID, shell_InitPropVariantFromCLSID
-ms.topic: function
 f1_keywords:
 - propvarutil/InitPropVariantFromCLSID
 dev_langs:

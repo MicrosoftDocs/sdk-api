@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionxormethods\xor_61region.htm
 ms.date: 12/05/2018
 ms.keywords: Region class [GDI+],Xor method, Region.Xor, Region.Xor(IN const Region), Region.Xor(const Region*), Region::Xor, Region::Xor(IN const Region), Xor, Xor method [GDI+], Xor method [GDI+],Region class, _gdiplus_CLASS_Region_Xor_region_, gdiplus._gdiplus_CLASS_Region_Xor_region_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Region.Xor
 dev_langs:

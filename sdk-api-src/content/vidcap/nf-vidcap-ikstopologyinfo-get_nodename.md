@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 3e24ef6f-e49d-4397-a9b8-a46fcf576a01
 ms.date: 12/05/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NodeName method, IKsTopologyInfo.get_NodeName, IKsTopologyInfo::get_NodeName, IKsTopologyInfoget_NodeName, dshow.ikstopologyinfo_get_nodename, get_NodeName, get_NodeName method [DirectShow], get_NodeName method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NodeName
-ms.topic: method
 f1_keywords:
 - vidcap/IKsTopologyInfo.get_NodeName
 dev_langs:

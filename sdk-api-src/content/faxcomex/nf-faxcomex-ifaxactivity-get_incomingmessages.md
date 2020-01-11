@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4gtv.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxActivity interface [Fax Service],IncomingMessages property, IFaxActivity.IncomingMessages, IFaxActivity.get_IncomingMessages, IFaxActivity::IncomingMessages, IFaxActivity::get_IncomingMessages, IncomingMessages property [Fax Service], IncomingMessages property [Fax Service],IFaxActivity interface, _mfax_faxactivity.incomingmessages, fax._mfax_faxactivity_cpp_mfax_faxactivity_incomingmessages_cpp, fax._mfax_faxactivity_incomingmessages, faxcomex/IFaxActivity::IncomingMessages, faxcomex/IFaxActivity::get_IncomingMessages, get_IncomingMessages
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxActivity.IncomingMessages
 dev_langs:

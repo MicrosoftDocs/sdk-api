@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\clone_85.htm
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Pen class, Pen class [GDI+],Clone method, Pen.Clone, Pen::Clone, _gdiplus_CLASS_Pen_Clone_, gdiplus._gdiplus_CLASS_Pen_Clone_
-ms.topic: method
 f1_keywords:
 - gdipluspen/Pen.Clone
 dev_langs:

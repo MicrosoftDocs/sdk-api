@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 75f4f3a2-198d-41c0-b0fa-4a1fbefad7b6
 ms.date: 12/05/2018
 ms.keywords: IMFPluginControl interface [Media Foundation],IsDisabled method, IMFPluginControl.IsDisabled, IMFPluginControl::IsDisabled, IsDisabled, IsDisabled method [Media Foundation], IsDisabled method [Media Foundation],IMFPluginControl interface, mf.imfplugincontrol_imfplugincontrol__isdisabled, mfobjects/IMFPluginControl::IsDisabled
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFPluginControl.IsDisabled
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitemextras\cancelpendingio.htm
 ms.date: 12/05/2018
 ms.keywords: CancelPendingIO, CancelPendingIO method [WIA], CancelPendingIO method [WIA],IWiaItemExtras interface, IWiaItemExtras interface [WIA],CancelPendingIO method, IWiaItemExtras.CancelPendingIO, IWiaItemExtras::CancelPendingIO, _wia_IWiaItemExtras_CancelPendingIO, wia._wia_IWiaItemExtras_CancelPendingIO, wia_xp/IWiaItemExtras::CancelPendingIO
-ms.topic: method
 f1_keywords:
 - wia_xp/IWiaItemExtras.CancelPendingIO
 dev_langs:

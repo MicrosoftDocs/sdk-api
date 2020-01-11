@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 4c6dfc40-56d3-41bb-8094-1f30dbb27cf5
 ms.date: 12/05/2018
 ms.keywords: ImmSetOpenStatus, ImmSetOpenStatus function [Internationalization for Windows Applications], _win32_ImmSetOpenStatus, imm/ImmSetOpenStatus, intl.immsetopenstatus
-ms.topic: function
 f1_keywords:
 - immdev/ImmSetOpenStatus
 dev_langs:

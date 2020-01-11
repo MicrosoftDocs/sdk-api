@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: c18aa7d1-2788-473d-8ade-5e897b83a4d6
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MediaCollectionAttributeStringAdded method, IWMPEvents.MediaCollectionAttributeStringAdded, IWMPEvents::MediaCollectionAttributeStringAdded, IWMPEventsMediaCollectionAttributeStringAdded, MediaCollectionAttributeStringAdded, MediaCollectionAttributeStringAdded method [Windows Media Player], MediaCollectionAttributeStringAdded method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mediacollectionattributestringadded, wmp/IWMPEvents::MediaCollectionAttributeStringAdded
-ms.topic: method
 f1_keywords:
 - wmp/IWMPEvents.MediaCollectionAttributeStringAdded
 dev_langs:

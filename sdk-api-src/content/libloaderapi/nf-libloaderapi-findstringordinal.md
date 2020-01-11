@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 6aca64f5-640a-4be6-9606-260314e9c7dc
 ms.date: 12/05/2018
 ms.keywords: FIND_ENDSWITH, FIND_FROMEND, FIND_FROMSTART, FIND_STARTSWITH, FindStringOrdinal, FindStringOrdinal function [Internationalization for Windows Applications], intl.findstringordinal, libloaderapi/FindStringOrdinal
-ms.topic: function
 f1_keywords:
 - libloaderapi/FindStringOrdinal
 dev_langs:

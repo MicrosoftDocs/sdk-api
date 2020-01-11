@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 604b0128-1461-40f2-98fe-801dbb71e005
 ms.date: 12/05/2018
 ms.keywords: ITMediaRecord, ITMediaRecord interface [TAPI 2.2], ITMediaRecord interface [TAPI 2.2],described, _tapi3_itmediarecord, tapi3.itmediarecord, tapi3if/ITMediaRecord
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITMediaRecord
 dev_langs:

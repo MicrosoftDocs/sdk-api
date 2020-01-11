@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 71ec6c0d-f3de-4a5d-941b-16d33b718921
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],SelectedItems method, IShellFolderViewDual.SelectedItems, IShellFolderViewDual::SelectedItems, SelectedItems, SelectedItems method [Windows Shell], SelectedItems method [Windows Shell],IShellFolderViewDual interface, _shell_IShellFolderViewDual_SelectedItems, shell.IShellFolderViewDual_SelectedItems, shldisp/IShellFolderViewDual::SelectedItems
-ms.topic: method
 f1_keywords:
 - shldisp/IShellFolderViewDual.SelectedItems
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: dc02abb9-ab05-4a7f-a125-15530619633b
 ms.date: 12/05/2018
 ms.keywords: CreateThread, CreateThread callback function [Security], LSA_CREATE_THREAD, LSA_CREATE_THREAD callback, _ssp_createthread, ntsecpkg/CreateThread, security.createthread
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/CreateThread
 dev_langs:

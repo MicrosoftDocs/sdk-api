@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_query_desc.htm
 ms.date: 12/05/2018
 ms.keywords: D3D10_QUERY_DESC, D3D10_QUERY_DESC structure [Direct3D 10], c98685a6-35b0-8f3e-8e4a-9394a6936f46, d3d10/D3D10_QUERY_DESC, direct3d10.d3d10_query_desc
-ms.topic: struct
 f1_keywords:
 - d3d10/D3D10_QUERY_DESC
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: e7b7e703-f5d5-430f-8fa6-c26a236eab88
 ms.date: 12/05/2018
 ms.keywords: IEnumNames interface [COM+],Reset method, IEnumNames.Reset, IEnumNames::Reset, Reset, Reset method [COM+], Reset method [COM+],IEnumNames interface, _cos_IEnumNames_Reset, comsvcs/IEnumNames::Reset, cos.ienumnames_reset
-ms.topic: method
 f1_keywords:
 - comsvcs/IEnumNames.Reset
 dev_langs:

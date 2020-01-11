@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: FC08E5E8-A7E0-461C-B70C-B1273FCDD1A0
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamCacheControl2 interface [Media Foundation],IsBackgroundTransferActive method, IMFByteStreamCacheControl2.IsBackgroundTransferActive, IMFByteStreamCacheControl2::IsBackgroundTransferActive, IsBackgroundTransferActive, IsBackgroundTransferActive method [Media Foundation], IsBackgroundTransferActive method [Media Foundation],IMFByteStreamCacheControl2 interface, mf.imfbytestreamcachecontrol2_isbackgroundtransferactive, mfidl/IMFByteStreamCacheControl2::IsBackgroundTransferActive
-ms.topic: method
 f1_keywords:
 - mfidl/IMFByteStreamCacheControl2.IsBackgroundTransferActive
 dev_langs:

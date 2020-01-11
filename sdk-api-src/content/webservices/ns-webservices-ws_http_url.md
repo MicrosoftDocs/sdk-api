@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 36f4dda6-d46a-44cd-b4cd-597fa3298870
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_URL, WS_HTTP_URL structure [Web Services for Windows], webservices/WS_HTTP_URL, wsw.ws_http_url
-ms.topic: struct
 f1_keywords:
 - webservices/WS_HTTP_URL
 dev_langs:

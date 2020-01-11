@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 5a3a9230-0ccf-4a6e-a3e0-7a3c7dbe35cf
 ms.date: 12/05/2018
 ms.keywords: ImmSetCompositionFont, ImmSetCompositionFont function [Internationalization for Windows Applications], ImmSetCompositionFontA, ImmSetCompositionFontW, _win32_ImmSetCompositionFont, imm/ImmSetCompositionFont, imm/ImmSetCompositionFontA, imm/ImmSetCompositionFontW, intl.immsetcompositionfont
-ms.topic: function
 f1_keywords:
 - immdev/ImmSetCompositionFont
 dev_langs:

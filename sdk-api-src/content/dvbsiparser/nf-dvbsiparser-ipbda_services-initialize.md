@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2504627a-a5e3-4ed1-9aa2-93d9621bf2e6
 ms.date: 12/05/2018
 ms.keywords: IPBDA_Services interface [Microsoft TV Technologies],Initialize method, IPBDA_Services.Initialize, IPBDA_Services::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IPBDA_Services interface, dvbsiparser/IPBDA_Services::Initialize, mstv.ipbda_services_initialize
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IPBDA_Services.Initialize
 dev_langs:

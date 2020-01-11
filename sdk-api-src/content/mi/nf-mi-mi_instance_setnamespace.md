@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: edf17b80-698b-43f3-9e03-5435638d3209
 ms.date: 12/05/2018
 ms.keywords: MI_Instance_SetNameSpace, MI_Instance_SetNameSpace function [Windows Management Infrastructure (MI)], mi/MI_Instance_SetNameSpace, wmi_v2.mi_instance_setnamespace
-ms.topic: function
 f1_keywords:
 - mi/MI_Instance_SetNameSpace
 dev_langs:

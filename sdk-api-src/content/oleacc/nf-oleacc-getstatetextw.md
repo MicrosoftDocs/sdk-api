@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 2a136883-870e-48c3-b182-1cdc64768894
 ms.date: 12/05/2018
 ms.keywords: GetStateText, GetStateText function [Windows Accessibility], GetStateTextA, GetStateTextW, _msaa_GetStateText, msaa.getstatetext, oleacc/GetStateText, oleacc/GetStateTextA, oleacc/GetStateTextW, winauto.getstatetext
-ms.topic: function
 f1_keywords:
 - oleacc/GetStateText
 dev_langs:

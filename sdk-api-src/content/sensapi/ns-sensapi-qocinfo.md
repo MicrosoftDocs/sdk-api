@@ -7,7 +7,6 @@ tech.root: Sens
 ms.assetid: 1f78a7c5-b3c7-4f21-8848-58cfb481f4bb
 ms.date: 12/05/2018
 ms.keywords: '*LPQOCINFO, LPQOCINFO, LPQOCINFO structure pointer [SENS], NETWORK_ALIVE_AOL, NETWORK_ALIVE_LAN, NETWORK_ALIVE_WAN, QOCINFO, QOCINFO structure [SENS], _zaw_qocinfo, sens.qocinfo, sensapi/LPQOCINFO, sensapi/QOCINFO, syncmgr.qocinfo'
-ms.topic: struct
 f1_keywords:
 - sensapi/QOCINFO
 dev_langs:

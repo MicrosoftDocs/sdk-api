@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: d53da0e8-ce7d-4923-90c3-2469cbd9d9b1
 ms.date: 12/05/2018
 ms.keywords: '*smiLPBITS, *smiLPIPADDR, *smiLPNSAPADDR, *smiLPOCTETS, *smiLPOPAQUE, _snmp_smioctets_str, smiBITS, smiIPADDR, smiLPOCTETS, smiLPOCTETS structure pointer [SNMP], smiNSAPADDR, smiOCTETS, smiOCTETS structure [SNMP], smiOPAQUE, snmp.smioctets_str, winsnmp/smiLPOCTETS, winsnmp/smiOCTETS'
-ms.topic: struct
 f1_keywords:
 - winsnmp/smiOCTETS
 dev_langs:

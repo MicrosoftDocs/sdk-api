@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 446bfda3-63d9-4070-b758-bdaf267c9911
 ms.date: 12/05/2018
 ms.keywords: GetActiveLanguageProfile, GetActiveLanguageProfile method [Text Services Framework], GetActiveLanguageProfile method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],GetActiveLanguageProfile method, ITfInputProcessorProfiles.GetActiveLanguageProfile, ITfInputProcessorProfiles::GetActiveLanguageProfile, _tsf_itfinputprocessorprofiles_getactivelanguageprofile_ref, msctf/ITfInputProcessorProfiles::GetActiveLanguageProfile, tsf.itfinputprocessorprofiles_getactivelanguageprofile
-ms.topic: method
 f1_keywords:
 - msctf/ITfInputProcessorProfiles.GetActiveLanguageProfile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0e376a01-d353-434c-864a-8001c8022679
 ms.date: 12/05/2018
 ms.keywords: IEnumFilters interface [DirectShow],Next method, IEnumFilters.Next, IEnumFilters::Next, IEnumFiltersNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumFilters interface, dshow.ienumfilters_next, strmif/IEnumFilters::Next
-ms.topic: method
 f1_keywords:
 - strmif/IEnumFilters.Next
 dev_langs:

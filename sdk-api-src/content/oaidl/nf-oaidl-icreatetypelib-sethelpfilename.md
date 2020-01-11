@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: a9dc11b0-1483-4272-84cb-4f885f6cff6f
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetHelpFileName method, ICreateTypeLib.SetHelpFileName, ICreateTypeLib::SetHelpFileName, SetHelpFileName, SetHelpFileName method [Automation], SetHelpFileName method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetHelpFileName, automat.icreatetypelib_sethelpfilename, oaidl/ICreateTypeLib::SetHelpFileName
-ms.topic: method
 f1_keywords:
 - oaidl/ICreateTypeLib.SetHelpFileName
 dev_langs:

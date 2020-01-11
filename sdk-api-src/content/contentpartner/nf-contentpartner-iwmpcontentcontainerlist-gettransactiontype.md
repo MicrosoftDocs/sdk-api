@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 8712d134-9dd3-4964-ae53-f63c8b69818d
 ms.date: 12/05/2018
 ms.keywords: GetTransactionType, GetTransactionType method [Windows Media Player], GetTransactionType method [Windows Media Player],IWMPContentContainerList interface, IWMPContentContainerList interface [Windows Media Player],GetTransactionType method, IWMPContentContainerList.GetTransactionType, IWMPContentContainerList::GetTransactionType, IWMPContentContainerListGetTransactionType, contentpartner/IWMPContentContainerList::GetTransactionType, wmp.iwmpcontentcontainerlist_gettransactiontype
-ms.topic: method
 f1_keywords:
 - contentpartner/IWMPContentContainerList.GetTransactionType
 dev_langs:

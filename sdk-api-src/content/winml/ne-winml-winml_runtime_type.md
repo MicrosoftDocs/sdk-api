@@ -7,7 +7,6 @@ tech.root: MachineLearning
 ms.assetid: 5F522511-6186-4C1F-9315-3E382E87F62C
 ms.date: 12/05/2018
 ms.keywords: MachineLearning.winml_runtime_type, WINML_RUNTIME_CNTK, WINML_RUNTIME_TYPE, WINML_RUNTIME_TYPE enumeration, winml/WINML_RUNTIME_CNTK, winml/WINML_RUNTIME_TYPE
-ms.topic: enum
 f1_keywords:
 - winml/WINML_RUNTIME_TYPE
 dev_langs:

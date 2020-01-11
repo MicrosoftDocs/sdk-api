@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: dc9cd50f-a9cc-436c-a416-9fc4de506a9e
 ms.date: 12/05/2018
 ms.keywords: GetBAT, GetBAT method [Microsoft TV Technologies], GetBAT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetBAT method, IDvbSiParser.GetBAT, IDvbSiParser::GetBAT, IDvbSiParserGetBAT, dvbsiparser/IDvbSiParser::GetBAT, mstv.idvbsiparser_getbat
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbSiParser.GetBAT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 9b19ced6-728a-48e7-9e87-03fc53f7fb72
 ms.date: 12/05/2018
 ms.keywords: SetupEnumInfSections, SetupEnumInfSections function [Setup API], SetupEnumInfSectionsA, SetupEnumInfSectionsW, setup.setupenuminfsections, setupapi/SetupEnumInfSections, setupapi/SetupEnumInfSectionsA, setupapi/SetupEnumInfSectionsW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupEnumInfSections
 dev_langs:

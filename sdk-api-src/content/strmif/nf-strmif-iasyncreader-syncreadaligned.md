@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 862511f1-7580-44db-aed5-3dd8279dcc33
 ms.date: 12/05/2018
 ms.keywords: IAsyncReader interface [DirectShow],SyncReadAligned method, IAsyncReader.SyncReadAligned, IAsyncReader::SyncReadAligned, IAsyncReaderSyncReadAligned, SyncReadAligned, SyncReadAligned method [DirectShow], SyncReadAligned method [DirectShow],IAsyncReader interface, dshow.iasyncreader_syncreadaligned, strmif/IAsyncReader::SyncReadAligned
-ms.topic: method
 f1_keywords:
 - strmif/IAsyncReader.SyncReadAligned
 dev_langs:

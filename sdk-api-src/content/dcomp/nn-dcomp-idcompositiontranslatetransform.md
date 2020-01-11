@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 2215721e-a10d-4c9e-b5b7-1698afa547d8
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTranslateTransform, IDCompositionTranslateTransform interface [DirectComposition], IDCompositionTranslateTransform interface [DirectComposition],described, dcomp/IDCompositionTranslateTransform, directcomp.idcompositiontranslatetransform
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionTranslateTransform
 dev_langs:

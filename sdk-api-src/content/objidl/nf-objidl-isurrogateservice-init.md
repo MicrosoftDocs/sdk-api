@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: ed2e628c-5c86-48fd-aa55-f532602247ea
 ms.date: 12/05/2018
 ms.keywords: ISurrogateService interface [COM],Init method, ISurrogateService.Init, ISurrogateService::Init, Init, Init method [COM], Init method [COM],ISurrogateService interface, _com_isurrogateservice_init, com.isurrogateservice_init, objidl/ISurrogateService::Init
-ms.topic: method
 f1_keywords:
 - objidl/ISurrogateService.Init
 dev_langs:

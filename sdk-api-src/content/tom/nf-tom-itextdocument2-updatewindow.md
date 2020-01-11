@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 85bb0a41-e3a7-43ab-bc14-fdd4dae2ee69
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],UpdateWindow method, ITextDocument2.UpdateWindow, ITextDocument2::UpdateWindow, UpdateWindow, UpdateWindow method [Windows Controls], UpdateWindow method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_updatewindow, tom/ITextDocument2::UpdateWindow
-ms.topic: method
 f1_keywords:
 - tom/ITextDocument2.UpdateWindow
 dev_langs:

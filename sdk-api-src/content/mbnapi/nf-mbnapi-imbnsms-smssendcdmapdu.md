@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 8bc0cad6-dee3-4325-b5e9-397bbd346a87
 ms.date: 12/05/2018
 ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SmsSendCdmaPdu method, IMbnSms.SmsSendCdmaPdu, IMbnSms::SmsSendCdmaPdu, SmsSendCdmaPdu, SmsSendCdmaPdu method [Microsoft Broadband Networks], SmsSendCdmaPdu method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_smssendcdmapdu, mbnapi/IMbnSms::SmsSendCdmaPdu
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnSms.SmsSendCdmaPdu
 dev_langs:

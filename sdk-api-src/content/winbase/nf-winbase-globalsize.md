@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 9fd01460-d6fc-41f4-9e0c-209a3d1844c1
 ms.date: 12/05/2018
 ms.keywords: GlobalSize, GlobalSize function, _win32_globalsize, base.globalsize, winbase/GlobalSize
-ms.topic: function
 f1_keywords:
 - winbase/GlobalSize
 dev_langs:

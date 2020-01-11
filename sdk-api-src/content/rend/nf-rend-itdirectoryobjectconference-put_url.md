@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: ca275c06-fd8f-4044-b528-cc197e4f1177
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_Url method, ITDirectoryObjectConference.put_Url, ITDirectoryObjectConference::put_Url, _tapi3_itdirectoryobjectconference_put_url, put_Url, put_Url method [TAPI 2.2], put_Url method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_Url, tapi3.itdirectoryobjectconference_put_url
-ms.topic: method
 f1_keywords:
 - rend/ITDirectoryObjectConference.put_Url
 dev_langs:

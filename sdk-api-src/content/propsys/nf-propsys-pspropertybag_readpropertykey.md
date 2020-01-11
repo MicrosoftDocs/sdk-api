@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 910D1356-DC61-470b-90BB-0DCF1B861E05
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadPropertyKey, PSPropertyBag_ReadPropertyKey function [Windows Properties], properties.PSPropertyBag_ReadPropertyKey, propsys/PSPropertyBag_ReadPropertyKey, shell.PSPropertyBag_ReadPropertyKey
-ms.topic: function
 f1_keywords:
 - propsys/PSPropertyBag_ReadPropertyKey
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 6dad62c3-c56f-4526-ae5c-dbb74cb13c8f
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_IP_CLUSTER, DHCP_IP_CLUSTER, DHCP_IP_CLUSTER structure [DHCP], LPDHCP_IP_CLUSTER, LPDHCP_IP_CLUSTER structure pointer [DHCP], dhcp.dhcp_ip_cluster, dhcpsapi/LPDHCP_IP_CLUSTER, dhcpsapi/_DHCP_IP_CLUSTER'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_IP_CLUSTER
 dev_langs:

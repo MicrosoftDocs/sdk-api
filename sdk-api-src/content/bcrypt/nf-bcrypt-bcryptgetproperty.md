@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 5c62ca3a-843e-41a7-9340-41785fbb15f4
 ms.date: 12/05/2018
 ms.keywords: BCryptGetProperty, BCryptGetProperty function [Security], bcrypt/BCryptGetProperty, security.bcryptgetproperty_func
-ms.topic: function
 f1_keywords:
 - bcrypt/BCryptGetProperty
 dev_langs:

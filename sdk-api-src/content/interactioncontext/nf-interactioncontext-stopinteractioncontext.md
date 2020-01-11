@@ -7,7 +7,6 @@ tech.root: Input_IntContext
 ms.assetid: 52fb6054-c8f3-4dbe-af1f-0b8d39ebcf5b
 ms.date: 12/05/2018
 ms.keywords: StopInteractionContext, StopInteractionContext function, input_intcontext.stopinteractioncontext, interactioncontext.stopinteractioncontext, interactioncontext/StopInteractionContext
-ms.topic: function
 f1_keywords:
 - interactioncontext/StopInteractionContext
 dev_langs:

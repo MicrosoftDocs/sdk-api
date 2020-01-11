@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: F354F692-4D64-4A3F-8B27-1951C93A6FCA
 ms.date: 12/05/2018
 ms.keywords: WindowsIsStringEmpty, WindowsIsStringEmpty function [Windows Runtime], winrt.windowsisstringempty, winstring/WindowsIsStringEmpty
-ms.topic: function
 f1_keywords:
 - winstring/WindowsIsStringEmpty
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: d8cdfb24-0914-4e1f-bbdd-7bba31976ba0
 ms.date: 12/05/2018
 ms.keywords: '*PDD_GETVPORTINPUTFORMATDATA, DD_GETVPORTINPUTFORMATDATA, DD_GETVPORTINPUTFORMATDATA structure [Display Devices], ddrawint/DD_GETVPORTINPUTFORMATDATA, ddstrcts_c9ca2266-9add-4320-8b29-51d67b121957.xml, display.dd_getvportinputformatdata'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_GETVPORTINPUTFORMATDATA
 dev_langs:

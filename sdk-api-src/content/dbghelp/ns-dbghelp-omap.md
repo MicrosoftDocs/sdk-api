@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 47f1dc1d-9305-4514-83b8-6d32bd9914f2
 ms.date: 12/05/2018
 ms.keywords: '*POMAP, OMAP, OMAP structure, POMAP, POMAP structure pointer, _OMAP, base.omap, dbghelp/OMAP, dbghelp/POMAP'
-ms.topic: struct
 f1_keywords:
 - dbghelp/OMAP
 dev_langs:

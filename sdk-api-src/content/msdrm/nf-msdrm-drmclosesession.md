@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: e948b31f-382c-4a32-8cc3-98df8c4a6db0
 ms.date: 12/05/2018
 ms.keywords: DRMCloseSession, DRMCloseSession function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCloseSession, rm.drmclosesession
-ms.topic: function
 f1_keywords:
 - msdrm/DRMCloseSession
 dev_langs:

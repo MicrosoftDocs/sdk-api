@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 24aa2e4f-4024-4915-81f5-4bc704cc1559
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextRange interface [Windows Accessibility],RemoveFromSelection method, IUIAutomationTextRange.RemoveFromSelection, IUIAutomationTextRange::RemoveFromSelection, RemoveFromSelection, RemoveFromSelection method [Windows Accessibility], RemoveFromSelection method [Windows Accessibility],IUIAutomationTextRange interface, uiauto.uiauto_IUIAutomationTextRange_RemoveFromSelection, uiauto_IUIAutomationTextRange_RemoveFromSelection, uiautomationclient/IUIAutomationTextRange::RemoveFromSelection, winauto.uiauto_IUIAutomationTextRange_RemoveFromSelection
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationTextRange.RemoveFromSelection
 dev_langs:

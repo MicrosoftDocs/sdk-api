@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: 8e14bddc-d2ae-41a6-b927-15bdfd3bc598
 ms.date: 12/05/2018
 ms.keywords: IProviderPropertyConstraintCollection interface,Skip method, IProviderPropertyConstraintCollection.Skip, IProviderPropertyConstraintCollection::Skip, Skip, Skip method, Skip method,IProviderPropertyConstraintCollection interface, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Skip, ncd.iproviderpropertyconstraintcollection_skip
-ms.topic: method
 f1_keywords:
 - functiondiscoveryprovider/IProviderPropertyConstraintCollection.Skip
 dev_langs:

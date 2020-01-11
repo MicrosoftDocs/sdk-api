@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: c261d20e-3760-4bf9-905b-f5620df4166b
 ms.date: 12/05/2018
 ms.keywords: GetGuideData, GetGuideData method [Microsoft TV Technologies], GetGuideData method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetGuideData method, IBDA_GuideDataDeliveryService.GetGuideData, IBDA_GuideDataDeliveryService::GetGuideData, bdaiface/IBDA_GuideDataDeliveryService::GetGuideData, mstv.ibda_guidedatadeliveryservice_getguidedata
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_GuideDataDeliveryService.GetGuideData
 dev_langs:

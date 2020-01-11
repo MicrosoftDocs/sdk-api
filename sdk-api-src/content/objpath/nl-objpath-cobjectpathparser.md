@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 0138c48f-f61b-4127-adc2-bdf4da06f938
 ms.date: 12/05/2018
 ms.keywords: ??1CObjectPathParser@@QAE@XZ, ??1CObjectPathParser@@QEAA@XZ, CObjectPathParser, CObjectPathParser class [Windows Management Instrumentation], CObjectPathParser class [Windows Management Instrumentation],described, objpath/CObjectPathParser, wmi.cobjectpathparser
-ms.topic: class
 f1_keywords:
 - objpath/CObjectPathParser
 dev_langs:

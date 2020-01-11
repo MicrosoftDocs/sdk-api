@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: 8e88294c-5e00-48f4-9d08-802dafb85b0e
 ms.date: 05/06/2019
 ms.keywords: XMUNIBBLE4, XMUNIBBLE4 constructor [DirectX Math Support APIs], XMUNIBBLE4 constructor [DirectX Math Support APIs],XMUNIBBLE4 structure, XMUNIBBLE4 structure [DirectX Math Support APIs],XMUNIBBLE4 constructor, XMUNIBBLE4.XMUNIBBLE4, XMUNIBBLE4.XMUNIBBLE4(), XMUNIBBLE4.XMUNIBBLE4(uint8_t,uint8_t,uint8_t,uint8_t), XMUNIBBLE4::XMUNIBBLE4, XMUNIBBLE4::XMUNIBBLE4(uint8_t,uint8_t,uint8_t,uint8_t), dxmath.xmunibble4_ctor_1
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMUNIBBLE4.XMUNIBBLE4
 dev_langs:

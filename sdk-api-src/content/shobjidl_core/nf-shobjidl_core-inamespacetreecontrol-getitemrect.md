@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 57e7707c-0fe2-4cde-87d8-2d58e7c06bba
 ms.date: 12/05/2018
 ms.keywords: GetItemRect, GetItemRect method [Windows Shell], GetItemRect method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],GetItemRect method, INameSpaceTreeControl.GetItemRect, INameSpaceTreeControl::GetItemRect, _shell_INameSpaceTreeControl_GetItemRect, shell.INameSpaceTreeControl_GetItemRect, shobjidl_core/INameSpaceTreeControl::GetItemRect
-ms.topic: method
 f1_keywords:
 - shobjidl_core/INameSpaceTreeControl.GetItemRect
 dev_langs:

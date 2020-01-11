@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 19C282C5-AC5C-40C4-90D0-D8B6E6A27F18
 ms.date: 12/5/2018
 ms.keywords: DML_ACTIVATION_SCALED_TANH_OPERATOR_DESC, DML_ACTIVATION_SCALED_TANH_OPERATOR_DESC structure, direct3d12.dml_activation_scaled_tanh_operator_desc, directml/DML_ACTIVATION_SCALED_TANH_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_ACTIVATION_SCALED_TANH_OPERATOR_DESC
 dev_langs:

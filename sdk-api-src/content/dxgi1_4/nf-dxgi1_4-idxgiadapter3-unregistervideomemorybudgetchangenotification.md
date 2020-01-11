@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 11695B9E-75B5-44BF-BC09-D377BCEDA341
 ms.date: 12/05/2018
 ms.keywords: IDXGIAdapter3 interface [DXGI],UnregisterVideoMemoryBudgetChangeNotification method, IDXGIAdapter3.UnregisterVideoMemoryBudgetChangeNotification, IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification, UnregisterVideoMemoryBudgetChangeNotification, UnregisterVideoMemoryBudgetChangeNotification method [DXGI], UnregisterVideoMemoryBudgetChangeNotification method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_unregistervideomemorybudgetchangenotification, dxgi1_4/IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification
-ms.topic: method
 f1_keywords:
 - dxgi1_4/IDXGIAdapter3.UnregisterVideoMemoryBudgetChangeNotification
 dev_langs:

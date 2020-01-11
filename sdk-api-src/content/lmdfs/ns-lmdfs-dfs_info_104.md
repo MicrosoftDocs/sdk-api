@@ -7,7 +7,6 @@ tech.root: Dfs
 ms.assetid: 95b2cd36-4933-440d-889d-ebf36d7b9cc7
 ms.date: 12/05/2018
 ms.keywords: '*LPDFS_INFO_104, *PDFS_INFO_104, DFS_INFO_104, DFS_INFO_104 structure [Distributed File System], LPDFS_INFO_104, LPDFS_INFO_104 structure pointer [Distributed File System], PDFS_INFO_104, PDFS_INFO_104 structure pointer [Distributed File System], dfs.dfs_info_104, fs.dfs_info_104, lmdfs/DFS_INFO_104, lmdfs/LPDFS_INFO_104, lmdfs/PDFS_INFO_104, netmgmt.dfs_info_104'
-ms.topic: struct
 f1_keywords:
 - lmdfs/DFS_INFO_104
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 86e8a064-ce83-4224-81d3-84db39905f34
 ms.date: 12/05/2018
 ms.keywords: UShortToByte, UShortToUInt8, UShortToUInt8 function [Windows Shell], WordToByte, intsafe/UShortToUInt8, shell.UShortToUInt8
-ms.topic: function
 f1_keywords:
 - intsafe/UShortToUInt8
 dev_langs:

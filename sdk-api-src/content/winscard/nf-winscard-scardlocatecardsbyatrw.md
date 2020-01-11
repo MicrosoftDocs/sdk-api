@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 6c4a644c-033f-4654-b96d-0379e9ac0bb4
 ms.date: 12/05/2018
 ms.keywords: SCardLocateCardsByATR, SCardLocateCardsByATR function [Security], SCardLocateCardsByATRA, SCardLocateCardsByATRW, _smart_scardlocatecardsbyatr, security.scardlocatecardsbyatr, winscard/SCardLocateCardsByATR, winscard/SCardLocateCardsByATRA, winscard/SCardLocateCardsByATRW
-ms.topic: function
 f1_keywords:
 - winscard/SCardLocateCardsByATR
 dev_langs:

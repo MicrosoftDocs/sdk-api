@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 77178869-cbfb-4b91-a5b0-7d0404e7534f
 ms.date: 12/05/2018
 ms.keywords: ResizePalette, ResizePalette function [Windows GDI], _win32_ResizePalette, gdi.resizepalette, wingdi/ResizePalette
-ms.topic: function
 f1_keywords:
 - wingdi/ResizePalette
 dev_langs:

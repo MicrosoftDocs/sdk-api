@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: cb8870f6-1bae-40df-842e-ec3ca0167691
 ms.date: 12/05/2018
 ms.keywords: SymGetLineFromName, SymGetLineFromName function, SymGetLineFromName64, SymGetLineFromName64 function, SymGetLineFromNameW64, _win32_symgetlinefromname64, base.symgetlinefromname64, dbghelp/SymGetLineFromName, dbghelp/SymGetLineFromName64, dbghelp/SymGetLineFromNameW64
-ms.topic: function
 f1_keywords:
 - dbghelp/SymGetLineFromName64
 dev_langs:

@@ -5,7 +5,6 @@ description: The GraphicsPath::AddArc method adds an elliptical arc to the curre
 ms.assetid: 2616a8ff-8193-413b-ab7f-56c0dd82c17b
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddArc
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/GraphicsPath::AddArc
 dev_langs:

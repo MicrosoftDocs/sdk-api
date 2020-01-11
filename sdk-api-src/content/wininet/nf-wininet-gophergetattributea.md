@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: c9e95532-8c65-45fb-acd0-a1f09cee2ce2
 ms.date: 12/05/2018
 ms.keywords: GopherGetAttribute, GopherGetAttribute function [WinINet], GopherGetAttributeA, GopherGetAttributeW, _inet_gophergetattribute_function, wininet.gophergetattribute, wininet/GopherGetAttribute, wininet/GopherGetAttributeA, wininet/GopherGetAttributeW
-ms.topic: function
 f1_keywords:
 - wininet/GopherGetAttribute
 dev_langs:

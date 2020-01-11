@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0f7f1b2c-a191-45f5-a645-367e898b6ee2
 ms.date: 12/05/2018
 ms.keywords: IFrequencyMap, IFrequencyMap interface [Microsoft TV Technologies], IFrequencyMap interface [Microsoft TV Technologies],described, IFrequencyMapInterface, bdaiface/IFrequencyMap, mstv.ifrequencymap
-ms.topic: interface
 f1_keywords:
 - bdaiface/IFrequencyMap
 dev_langs:

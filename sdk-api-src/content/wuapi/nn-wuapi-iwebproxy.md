@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: acc09635-7370-475f-9c3a-a5faaa8d576a
 ms.date: 12/05/2018
 ms.keywords: IWebProxy, IWebProxy interface [Windows Update Agent], IWebProxy interface [Windows Update Agent],described, wua.iwebproxy, wuapi/IWebProxy
-ms.topic: interface
 f1_keywords:
 - wuapi/IWebProxy
 dev_langs:

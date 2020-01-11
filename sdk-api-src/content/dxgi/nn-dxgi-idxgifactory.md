@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory.htm
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory, IDXGIFactory interface [DXGI], IDXGIFactory interface [DXGI],described, b1276108-6fb6-9c57-75ed-b22303809d9e, direct3ddxgi.idxgifactory, dxgi/IDXGIFactory
-ms.topic: interface
 f1_keywords:
 - dxgi/IDXGIFactory
 dev_langs:

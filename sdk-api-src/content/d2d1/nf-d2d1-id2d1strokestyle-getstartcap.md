@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 8df80ac7-8dad-418f-bff5-14c39ad38fac
 ms.date: 12/05/2018
 ms.keywords: GetStartCap, GetStartCap method [Direct2D], GetStartCap method [Direct2D],ID2D1StrokeStyle interface, ID2D1StrokeStyle interface [Direct2D],GetStartCap method, ID2D1StrokeStyle.GetStartCap, ID2D1StrokeStyle::GetStartCap, d2d1/ID2D1StrokeStyle::GetStartCap, direct2d.ID2D1StrokeStyle_GetStartCap
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1StrokeStyle.GetStartCap
 dev_langs:

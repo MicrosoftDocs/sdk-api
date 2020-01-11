@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 3662fdac-9d8c-4e8d-a56e-2b34d9597211
 ms.date: 12/05/2018
 ms.keywords: TcQueryFlow, TcQueryFlow function [QOS], TcQueryFlowA, TcQueryFlowW, _gqos_tcqueryflow, qos.tcqueryflow, traffic/TcQueryFlow, traffic/TcQueryFlowA, traffic/TcQueryFlowW
-ms.topic: function
 f1_keywords:
 - traffic/TcQueryFlow
 dev_langs:

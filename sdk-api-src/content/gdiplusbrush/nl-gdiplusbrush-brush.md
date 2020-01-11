@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brush.htm
 ms.date: 12/05/2018
 ms.keywords: Brush, Brush class [GDI+], Brush class [GDI+],described, _gdiplus_CLASS_Brush_Class, gdiplus._gdiplus_CLASS_Brush_Class, gdiplusbrush/Brush
-ms.topic: class
 f1_keywords:
 - gdiplusbrush/Brush
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b8184c98-1f86-4714-baf8-af4ef3e71cf2
 ms.date: 12/05/2018
 ms.keywords: PathCompactPath, PathCompactPath function [Windows Shell], PathCompactPathA, PathCompactPathW, _win32_PathCompactPath, shell.PathCompactPath, shlwapi/PathCompactPath, shlwapi/PathCompactPathA, shlwapi/PathCompactPathW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathCompactPath
 dev_langs:

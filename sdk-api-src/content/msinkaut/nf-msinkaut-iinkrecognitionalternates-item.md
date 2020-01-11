@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 63a00f6d-f733-4b25-bfe2-4f841b9694fa
 ms.date: 12/05/2018
 ms.keywords: 63a00f6d-f733-4b25-bfe2-4f841b9694fa, IInkRecognitionAlternates interface [Tablet PC],Item method, IInkRecognitionAlternates.Item, IInkRecognitionAlternates::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkRecognitionAlternates interface, msinkaut/IInkRecognitionAlternates::Item, tablet.iinkrecognitionalternates_item
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRecognitionAlternates.Item
 dev_langs:

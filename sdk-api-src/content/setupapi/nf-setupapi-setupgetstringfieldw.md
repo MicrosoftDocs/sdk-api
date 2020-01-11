@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: fc735827-37ae-4d77-a0d4-4d31f0225d69
 ms.date: 12/05/2018
 ms.keywords: SetupGetStringField, SetupGetStringField function [Setup API], SetupGetStringFieldA, SetupGetStringFieldW, _setupapi_setupgetstringfield, setup.setupgetstringfield, setupapi/SetupGetStringField, setupapi/SetupGetStringFieldA, setupapi/SetupGetStringFieldW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupGetStringField
 dev_langs:

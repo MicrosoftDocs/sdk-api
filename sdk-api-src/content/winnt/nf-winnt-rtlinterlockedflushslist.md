@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: bc5f28d8-c976-4614-9136-99887c617023
 ms.date: 12/05/2018
 ms.keywords: RtlInterlockedFlushSList, RtlInterlockedFlushSList function, base.rtlinterlockedflushslist, winnt/RtlInterlockedFlushSList
-ms.topic: function
 f1_keywords:
 - winnt/RtlInterlockedFlushSList
 dev_langs:

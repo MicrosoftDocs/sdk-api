@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 357ac313-7ad2-411f-802e-d08ecf648710
 ms.date: 12/05/2018
 ms.keywords: WS_PARAMETER_DESCRIPTION, WS_PARAMETER_DESCRIPTION structure [Web Services for Windows], webservices/WS_PARAMETER_DESCRIPTION, wsw.ws_parameter_description
-ms.topic: struct
 f1_keywords:
 - webservices/WS_PARAMETER_DESCRIPTION
 dev_langs:

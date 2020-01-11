@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetacceleratorpos.htm
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetAcceleratorPos method, ITextHost.TxGetAcceleratorPos, ITextHost::TxGetAcceleratorPos, TxGetAcceleratorPos, TxGetAcceleratorPos method [Windows Controls], TxGetAcceleratorPos method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetAcceleratorPos, _win32_ITextHost_TxGetAcceleratorPos_cpp, controls.ITextHost_TxGetAcceleratorPos, controls._win32_ITextHost_TxGetAcceleratorPos, textserv/ITextHost::TxGetAcceleratorPos
-ms.topic: method
 f1_keywords:
 - textserv/ITextHost.TxGetAcceleratorPos
 dev_langs:

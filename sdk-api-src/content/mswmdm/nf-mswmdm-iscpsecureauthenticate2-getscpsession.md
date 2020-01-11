@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 7e09d8ea-65aa-427b-a876-00b089659b1b
 ms.date: 12/05/2018
 ms.keywords: GetSCPSession, GetSCPSession method [windows Media Device Manager], GetSCPSession method [windows Media Device Manager],ISCPSecureAuthenticate2 interface, ISCPSecureAuthenticate2 interface [windows Media Device Manager],GetSCPSession method, ISCPSecureAuthenticate2.GetSCPSession, ISCPSecureAuthenticate2::GetSCPSession, ISCPSecureAuthenticate2GetSCPSession, mswmdm/ISCPSecureAuthenticate2::GetSCPSession, wmdm.iscpsecureauthenticate2_getscpsession
-ms.topic: method
 f1_keywords:
 - mswmdm/ISCPSecureAuthenticate2.GetSCPSession
 dev_langs:

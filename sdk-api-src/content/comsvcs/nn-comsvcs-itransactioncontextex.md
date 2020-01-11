@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: cdf3a74f-cdef-4721-9c0d-90af724c24ba
 ms.date: 12/05/2018
 ms.keywords: ITransactionContextEx, ITransactionContextEx interface [COM+], ITransactionContextEx interface [COM+],described, _cos_ITransactionContextEx_Interface, comsvcs/ITransactionContextEx, cos.itransactioncontextex
-ms.topic: interface
 f1_keywords:
 - comsvcs/ITransactionContextEx
 dev_langs:

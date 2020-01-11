@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: faffc6a4-bbb2-47f3-b1f3-c8bd1cdadc9f
 ms.date: 12/05/2018
 ms.keywords: MI_ConstReal32A, MI_ConstReal32A structure [Windows Management Infrastructure (MI)], mi/MI_ConstReal32A, wmi._mi_constreal32a, wmi_v2.mi_constreal32a
-ms.topic: struct
 f1_keywords:
 - mi/MI_ConstReal32A
 dev_langs:

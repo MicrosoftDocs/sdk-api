@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 1a1be17c-2cae-4eea-a20a-3344915c5234
 ms.date: 12/05/2018
 ms.keywords: ITSubStreamControl interface [TAPI 2.2],RemoveSubStream method, ITSubStreamControl.RemoveSubStream, ITSubStreamControl::RemoveSubStream, RemoveSubStream, RemoveSubStream method [TAPI 2.2], RemoveSubStream method [TAPI 2.2],ITSubStreamControl interface, _tapi3_itsubstreamcontrol_removesubstream, tapi3.itsubstreamcontrol_removesubstream, tapi3if/ITSubStreamControl::RemoveSubStream
-ms.topic: method
 f1_keywords:
 - tapi3if/ITSubStreamControl.RemoveSubStream
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 76504031-b63a-40fc-aa5b-728f3551057b
 ms.date: 12/05/2018
 ms.keywords: LPEVALCOMCALLBACK, LPEVALCOMCALLBACK callback, LPEVALCOMCALLBACK callback function, evalcom2/LPEVALCOMCALLBACK, ieStatusCancel, ieStatusCreateEngine, ieStatusFail, ieStatusICECount, ieStatusMerge, ieStatusRunICE, ieStatusShutdown, ieStatusStarting, ieStatusSuccess, ieStatusSummaryInfo, setup.lpevalcomcallback
-ms.topic: callback
 f1_keywords:
 - evalcom2/LPEVALCOMCALLBACK
 dev_langs:

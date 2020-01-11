@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 88ac1c14-b5a8-4100-9fa5-d7af35052b48
 ms.date: 12/05/2018
 ms.keywords: OleGetIconOfClass, OleGetIconOfClass function [COM], _com_OleGetIconOfClass, com.olegeticonofclass, ole2/OleGetIconOfClass
-ms.topic: function
 f1_keywords:
 - ole2/OleGetIconOfClass
 dev_langs:

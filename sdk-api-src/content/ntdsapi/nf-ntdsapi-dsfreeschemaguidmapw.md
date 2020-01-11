@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 54d6acb9-5602-4996-a483-08534143bc0a
 ms.date: 12/05/2018
 ms.keywords: DsFreeSchemaGuidMap, DsFreeSchemaGuidMap function [Active Directory], DsFreeSchemaGuidMapA, DsFreeSchemaGuidMapW, _glines_dsfreeschemaguidmap, ad.dsfreeschemaguidmap, ntdsapi/DsFreeSchemaGuidMap, ntdsapi/DsFreeSchemaGuidMapA, ntdsapi/DsFreeSchemaGuidMapW
-ms.topic: function
 f1_keywords:
 - ntdsapi/DsFreeSchemaGuidMap
 dev_langs:

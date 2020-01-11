@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 60FD9084-CC79-48FE-AB26-C8FCB4288851
 ms.date: 12/05/2018
 ms.keywords: IMessageDispatcher, IMessageDispatcher interface [COM], IMessageDispatcher interface [COM],described, com.imessagedispatcher, imessagedispatcher/IMessageDispatcher
-ms.topic: interface
 f1_keywords:
 - imessagedispatcher/IMessageDispatcher
 dev_langs:

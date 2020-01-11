@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\blurparams.htm
 ms.date: 12/05/2018
 ms.keywords: BlurParams, BlurParams structure [GDI+], _gdiplus_STRUC_BlurParams, gdiplus._gdiplus_STRUC_BlurParams, gdipluseffects/BlurParams
-ms.topic: struct
 f1_keywords:
 - gdipluseffects/BlurParams
 dev_langs:

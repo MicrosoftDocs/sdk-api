@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: b0252ac4-856e-4aa7-aa3b-37b92472e864
 ms.date: 12/05/2018
 ms.keywords: IMcastScope, IMcastScope interface [TAPI 2.2], IMcastScope interface [TAPI 2.2],described, _tapi3_imcastscope, mdhcp/IMcastScope, tapi3.imcastscope
-ms.topic: interface
 f1_keywords:
 - mdhcp/IMcastScope
 dev_langs:

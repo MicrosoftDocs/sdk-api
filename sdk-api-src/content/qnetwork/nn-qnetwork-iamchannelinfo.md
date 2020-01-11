@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 779d1c0a-f838-4d02-8254-d66916d3b790
 ms.date: 12/05/2018
 ms.keywords: IAMChannelInfo, IAMChannelInfo interface [DirectShow], IAMChannelInfo interface [DirectShow],described, IAMChannelInfoInterface, dshow.iamchannelinfo, qnetwork/IAMChannelInfo
-ms.topic: interface
 f1_keywords:
 - qnetwork/IAMChannelInfo
 dev_langs:

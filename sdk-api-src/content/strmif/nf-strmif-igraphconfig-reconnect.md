@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e8cfac8e-df89-444d-bcc7-0cbc7ab5a592
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig interface [DirectShow],Reconnect method, IGraphConfig.Reconnect, IGraphConfig::Reconnect, IGraphConfigReconnect, Reconnect, Reconnect method [DirectShow], Reconnect method [DirectShow],IGraphConfig interface, dshow.igraphconfig_reconnect, strmif/IGraphConfig::Reconnect
-ms.topic: method
 f1_keywords:
 - strmif/IGraphConfig.Reconnect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: ad18ee99-685d-4a79-bd91-492df20edb8c
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_XML_TRANSFORM_CHAIN_CONFIG, CRYPT_XML_TRANSFORM_CHAIN_CONFIG, CRYPT_XML_TRANSFORM_CHAIN_CONFIG structure [Security], PCRYPT_XML_TRANSFORM_CHAIN_CONFIG, PCRYPT_XML_TRANSFORM_CHAIN_CONFIG structure pointer [Security], cryptxml/CRYPT_XML_TRANSFORM_CHAIN_CONFIG, cryptxml/PCRYPT_XML_TRANSFORM_CHAIN_CONFIG, security.crypt_xml_transform_chain_config'
-ms.topic: struct
 f1_keywords:
 - cryptxml/CRYPT_XML_TRANSFORM_CHAIN_CONFIG
 dev_langs:

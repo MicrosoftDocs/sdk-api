@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: fb97f68d-4992-4969-9b6b-ace26dcd3155
 ms.date: 12/05/2018
 ms.keywords: ClosePerformanceData, ClosePerformanceData callback function [Perf], PM_CLOSE_PROC, PM_CLOSE_PROC callback, base.closeperformancedata, perf.closeperformancedata, winperf/ClosePerformanceData
-ms.topic: callback
 f1_keywords:
 - winperf/ClosePerformanceData
 dev_langs:

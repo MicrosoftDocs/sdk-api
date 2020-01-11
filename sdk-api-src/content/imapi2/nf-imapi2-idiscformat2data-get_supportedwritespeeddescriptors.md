@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 9eb84ec6-900a-45ba-9111-9c9c6b3f5bb2
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_SupportedWriteSpeedDescriptors method, IDiscFormat2Data.get_SupportedWriteSpeedDescriptors, IDiscFormat2Data::get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors method [IMAPI], get_SupportedWriteSpeedDescriptors method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_supportedwritespeeddescriptors, imapi2/IDiscFormat2Data::get_SupportedWriteSpeedDescriptors
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2Data.get_SupportedWriteSpeedDescriptors
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: e02ea746-ed56-48a7-8cd4-9e51d100ef2a
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_ENDPOINT_METADATA, WS_SERVICE_ENDPOINT_METADATA structure [Web Services for Windows], webservices/WS_SERVICE_ENDPOINT_METADATA, wsw.ws_service_endpoint_metadata
-ms.topic: struct
 f1_keywords:
 - webservices/WS_SERVICE_ENDPOINT_METADATA
 dev_langs:

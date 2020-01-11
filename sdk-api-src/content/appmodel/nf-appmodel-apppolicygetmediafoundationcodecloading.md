@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 59231147-0505-4353-AADE-D81701ECBAD5
 ms.date: 12/05/2018
 ms.keywords: AppPolicyGetMediaFoundationCodecLoading, AppPolicyGetMediaFoundationCodecLoading function [App packaging and management], appmodel/AppPolicyGetMediaFoundationCodecLoading, appxpkg.apppolicygetmediafoundationcodecloading
-ms.topic: function
 f1_keywords:
 - appmodel/AppPolicyGetMediaFoundationCodecLoading
 dev_langs:

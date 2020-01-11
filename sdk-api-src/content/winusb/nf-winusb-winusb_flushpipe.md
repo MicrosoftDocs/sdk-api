@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 3f6d55c2-32df-4cb9-99bb-0e1a71c97394
 ms.date: 12/05/2018
 ms.keywords: WinUsb_FlushPipe, WinUsb_FlushPipe function [Buses], buses.winusb_flushpipe, winusb/WinUsb_FlushPipe, winusbfunc_44ebf8ef-770d-4102-8a2d-b0d996f36e41.xml
-ms.topic: function
 f1_keywords:
 - winusb/WinUsb_FlushPipe
 dev_langs:

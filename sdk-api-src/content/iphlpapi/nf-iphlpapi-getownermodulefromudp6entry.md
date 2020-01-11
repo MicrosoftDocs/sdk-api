@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 01ed27b6-3ca6-4c9c-8910-a71a073c2ca2
 ms.date: 12/05/2018
 ms.keywords: GetOwnerModuleFromUdp6Entry, GetOwnerModuleFromUdp6Entry function [IP Helper], iphlp.getownermodulefromudp6entry, iphlpapi/GetOwnerModuleFromUdp6Entry
-ms.topic: function
 f1_keywords:
 - iphlpapi/GetOwnerModuleFromUdp6Entry
 dev_langs:

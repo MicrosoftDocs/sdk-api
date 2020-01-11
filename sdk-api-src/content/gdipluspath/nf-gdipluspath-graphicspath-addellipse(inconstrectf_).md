@@ -5,7 +5,6 @@ description: The GraphicsPath::AddEllipse method adds an ellipse to this path.
 ms.assetid: 9acdbd19-0354-4728-a96c-611b93cbffe5
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddEllipse
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/GraphicsPath::AddEllipse
 dev_langs:

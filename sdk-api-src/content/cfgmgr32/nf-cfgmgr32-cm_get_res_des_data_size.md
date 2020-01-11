@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 51337d09-2ebb-45fd-82cd-2362093fb7ff
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Res_Des_Data_Size, CM_Get_Res_Des_Data_Size function [Device and Driver Installation], cfgmgr32/CM_Get_Res_Des_Data_Size, cfgmgrfn_bc279907-eb02-45fc-801d-48dde3d046a9.xml, devinst.cm_get_res_des_data_size
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Get_Res_Des_Data_Size
 dev_langs:

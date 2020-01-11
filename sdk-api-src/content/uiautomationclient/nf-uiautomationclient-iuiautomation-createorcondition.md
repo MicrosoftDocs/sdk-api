@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 17e83b94-21f0-44b6-87be-3fc44b0dc5a0
 ms.date: 12/05/2018
 ms.keywords: CreateOrCondition, CreateOrCondition method [Windows Accessibility], CreateOrCondition method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateOrCondition method, IUIAutomation.CreateOrCondition, IUIAutomation::CreateOrCondition, uiauto.uiauto_IUIAutomation_CreateOrCondition, uiauto_IUIAutomation_CreateOrCondition, uiautomationclient/IUIAutomation::CreateOrCondition, winauto.uiauto_IUIAutomation_CreateOrCondition
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation.CreateOrCondition
 dev_langs:

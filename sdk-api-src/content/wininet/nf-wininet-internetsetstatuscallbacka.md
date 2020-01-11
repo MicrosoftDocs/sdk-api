@@ -3,7 +3,6 @@ UID: NF:wininet.InternetSetStatusCallbackA
 title: InternetSetStatusCallbackA
 ms.date: 4/26/2019
 ms.keywords: InternetSetStatusCallbackA
-ms.topic: language-reference
 f1_keywords:
 - InternetSetStatusCallbackA
 dev_langs:

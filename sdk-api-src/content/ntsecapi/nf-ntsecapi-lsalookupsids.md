@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: 69051bad-91e7-469d-9010-48ac3d20f8af
 ms.date: 12/05/2018
 ms.keywords: LsaLookupSids, LsaLookupSids function [Security], _lsa_lsalookupsids, ntsecapi/LsaLookupSids, security.lsalookupsids
-ms.topic: function
 f1_keywords:
 - ntsecapi/LsaLookupSids
 dev_langs:

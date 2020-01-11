@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 58717990-a7f7-4b41-aceb-cbce55411396
 ms.date: 12/05/2018
 ms.keywords: '*POCSP_CERT_ID, OCSP_CERT_ID, OCSP_CERT_ID structure [Security], POCSP_CERT_ID, POCSP_CERT_ID structure pointer [Security], security.ocsp_cert_id, wincrypt/OCSP_CERT_ID, wincrypt/POCSP_CERT_ID'
-ms.topic: struct
 f1_keywords:
 - wincrypt/OCSP_CERT_ID
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 5be00911-f68a-410d-8d56-81458b5ff44e
 ms.date: 12/05/2018
 ms.keywords: AcceptConnection, AcceptConnection method [Remote Desktop Services], AcceptConnection method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],AcceptConnection method, IWTSProtocolConnection.AcceptConnection, IWTSProtocolConnection::AcceptConnection, termserv.iwtsprotocolconnection_acceptconnection, wtsprotocol/IWTSProtocolConnection::AcceptConnection
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolConnection.AcceptConnection
 dev_langs:

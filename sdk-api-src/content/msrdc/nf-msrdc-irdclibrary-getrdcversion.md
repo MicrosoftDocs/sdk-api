@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: 3eef00e8-62d9-49bc-8340-fb56f5a4573d
 ms.date: 12/05/2018
 ms.keywords: GetRDCVersion, GetRDCVersion method [Remote Differential Compression], GetRDCVersion method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],GetRDCVersion method, IRdcLibrary.GetRDCVersion, IRdcLibrary::GetRDCVersion, fs.irdclibrary_getrdcversion, msrdc/IRdcLibrary::GetRDCVersion, rdc.irdclibrary_getrdcversion
-ms.topic: method
 f1_keywords:
 - msrdc/IRdcLibrary.GetRDCVersion
 dev_langs:

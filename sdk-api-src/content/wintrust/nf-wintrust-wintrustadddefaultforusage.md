@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 511D05BD-0F8C-45B8-A1B0-D3C7AAFECCFC
 ms.date: 12/05/2018
 ms.keywords: WintrustAddDefaultForUsage, WintrustAddDefaultForUsage function [Security], security.wintrustadddefaultforusage, wintrust/WintrustAddDefaultForUsage
-ms.topic: function
 f1_keywords:
 - wintrust/WintrustAddDefaultForUsage
 dev_langs:

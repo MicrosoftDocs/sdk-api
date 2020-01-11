@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 5b60188e-3e4b-421a-9e34-3f6f2a70a71a
 ms.date: 12/05/2018
 ms.keywords: 3b2c8cfc-05e6-4b53-b709-72291ee78471, GetBoundingBox, GetBoundingBox method [Tablet PC], GetBoundingBox method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],GetBoundingBox method, IInkDisp.GetBoundingBox, IInkDisp::GetBoundingBox, msinkaut/IInkDisp::GetBoundingBox, tablet.inkdisp_getboundingbox
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkDisp.GetBoundingBox
 dev_langs:

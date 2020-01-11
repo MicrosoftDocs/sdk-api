@@ -7,7 +7,6 @@ tech.root: Dlls
 ms.assetid: 7eb49bdf-58f9-4520-876b-c8b69bf26b8a
 ms.date: 12/05/2018
 ms.keywords: AddDllDirectory, AddDllDirectory function, base.adddlldirectory, libloaderapi/AddDllDirectory
-ms.topic: function
 f1_keywords:
 - libloaderapi/AddDllDirectory
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 0c989362-0c76-4028-ac27-c49e3ec1c6fd
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetSharpness method, IWICDevelopRaw.SetSharpness, IWICDevelopRaw::SetSharpness, SetSharpness, SetSharpness method [Windows Imaging Component], SetSharpness method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setsharpness, wic._wic_codec_iwicdevelopraw_setsharpness, wincodec/IWICDevelopRaw::SetSharpness
-ms.topic: method
 f1_keywords:
 - wincodec/IWICDevelopRaw.SetSharpness
 dev_langs:

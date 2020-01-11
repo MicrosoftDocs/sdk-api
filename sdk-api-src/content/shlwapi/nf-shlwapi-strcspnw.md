@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 24e9ec52-a5d7-4220-8e71-f850b53c49dd
 ms.date: 12/05/2018
 ms.keywords: StrCSpn, StrCSpn function [Windows Shell], StrCSpnA, StrCSpnW, _win32_StrCSpn, shell.StrCSpn, shlwapi/StrCSpn, shlwapi/StrCSpnA, shlwapi/StrCSpnW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrCSpn
 dev_langs:

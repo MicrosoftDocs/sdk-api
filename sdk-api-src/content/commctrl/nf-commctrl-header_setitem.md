@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setitem.htm
 ms.date: 12/05/2018
 ms.keywords: Header_SetItem, Header_SetItem macro [Windows Controls], _win32_Header_SetItem, _win32_Header_SetItem_cpp, commctrl/Header_SetItem, controls.Header_SetItem, controls._win32_Header_SetItem
-ms.topic: macro
 f1_keywords:
 - commctrl/Header_SetItem
 dev_langs:

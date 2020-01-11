@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 7920bd46-0a8f-42e0-9988-59d85edb64e2
 ms.date: 12/05/2018
 ms.keywords: StgOpenStorageOnILockBytes, StgOpenStorageOnILockBytes function [Structured Storage], _stg_stgopenstorageonilockbytes, coml2api/StgOpenStorageOnILockBytes, stg.stgopenstorageonilockbytes
-ms.topic: function
 f1_keywords:
 - coml2api/StgOpenStorageOnILockBytes
 dev_langs:

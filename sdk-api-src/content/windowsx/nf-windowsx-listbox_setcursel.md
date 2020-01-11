@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setcursel.htm
 ms.date: 12/05/2018
 ms.keywords: ListBox_SetCurSel, ListBox_SetCurSel macro [Windows Controls], _win32_ListBox_SetCurSel, _win32_ListBox_SetCurSel_cpp, controls.ListBox_SetCurSel, controls._win32_ListBox_SetCurSel, windowsx/ListBox_SetCurSel
-ms.topic: macro
 f1_keywords:
 - windowsx/ListBox_SetCurSel
 dev_langs:

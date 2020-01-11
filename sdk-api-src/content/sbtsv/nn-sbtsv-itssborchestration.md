@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: fae858ae-19e5-453d-b9ef-1da7ea706e49
 ms.date: 12/05/2018
 ms.keywords: ITsSbOrchestration, ITsSbOrchestration interface [Remote Desktop Services], ITsSbOrchestration interface [Remote Desktop Services],described, sbtsv/ITsSbOrchestration, termserv.itssborchestration
-ms.topic: interface
 f1_keywords:
 - sbtsv/ITsSbOrchestration
 dev_langs:

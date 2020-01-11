@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 85db7d8b-e3f2-4a7a-840f-2d690aa82917
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigurableItem interface,get_Format method, IMsmConfigurableItem.get_Format, IMsmConfigurableItem::get_Format, _msi_get_format_function, get_Format, get_Format method, get_Format method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Format, setup.imsmconfigurableitem_get_format
-ms.topic: method
 f1_keywords:
 - mergemod/IMsmConfigurableItem.get_Format
 dev_langs:

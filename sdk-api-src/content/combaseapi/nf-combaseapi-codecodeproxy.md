@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: C61C68B1-78CA-4052-9E24-629AB4083B86
 ms.date: 12/05/2018
 ms.keywords: CoDecodeProxy, CoDecodeProxy function [Windows Runtime], combaseapi/CoDecodeProxy, winrt.codecodeproxy
-ms.topic: function
 f1_keywords:
 - combaseapi/CoDecodeProxy
 dev_langs:

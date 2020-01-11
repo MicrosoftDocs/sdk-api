@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: 9f8a9ab9-2873-44c2-aa8d-78514ffe42bb
 ms.date: 12/05/2018
 ms.keywords: CLFS_LOG_ARCHIVE_MODE, ClfsLogArchiveDisabled, ClfsLogArchiveEnabled, SetLogArchiveMode, SetLogArchiveMode function [Files], clfsw32/SetLogArchiveMode, fs.setlogarchivemode
-ms.topic: function
 f1_keywords:
 - clfsw32/SetLogArchiveMode
 dev_langs:

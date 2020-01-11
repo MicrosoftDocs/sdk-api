@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: F491E78E-86AF-499F-A729-2D534FBA8460
 ms.date: 12/05/2018
 ms.keywords: ResourceType, ResourceType enumeration, ResourceTypeStatic, ResourceTypeTheme, xaml_diagnostics.resourcetype, xamlom/ResourceType, xamlom/ResourceTypeStatic, xamlom/ResourceTypeTheme
-ms.topic: enum
 f1_keywords:
 - xamlom/ResourceType
 dev_langs:

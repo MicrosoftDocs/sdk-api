@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: bf378da2-be79-484e-84c6-bf1669b50218
 ms.date: 12/05/2018
 ms.keywords: CreateTuneRequestEx, CreateTuneRequestEx method [Microsoft TV Technologies], CreateTuneRequestEx method [Microsoft TV Technologies],IBDACreateTuneRequestEx interface, IBDACreateTuneRequestEx interface [Microsoft TV Technologies],CreateTuneRequestEx method, IBDACreateTuneRequestEx.CreateTuneRequestEx, IBDACreateTuneRequestEx::CreateTuneRequestEx, mstv.ibdacreatetunerequestex_createtunerequestex, tuner/IBDACreateTuneRequestEx::CreateTuneRequestEx
-ms.topic: method
 f1_keywords:
 - tuner/IBDACreateTuneRequestEx.CreateTuneRequestEx
 dev_langs:

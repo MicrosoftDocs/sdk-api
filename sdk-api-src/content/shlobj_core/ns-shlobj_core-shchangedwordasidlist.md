@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ebc05a9c-ed2b-41ff-93fb-9d8059fa360c
 ms.date: 12/05/2018
 ms.keywords: '*LPSHChangeDWORDAsIDList, LPSHChangeDWORDAsIDList, LPSHChangeDWORDAsIDList structure pointer [Windows Shell], SHChangeDWORDAsIDList, SHChangeDWORDAsIDList structure [Windows Shell], _SHChangeDWORDAsIDList, _shell_SHChangeDWORDAsIDList, shell.SHChangeDWORDAsIDList, shlobj_core/LPSHChangeDWORDAsIDList, shlobj_core/SHChangeDWORDAsIDList'
-ms.topic: struct
 f1_keywords:
 - shlobj_core/SHChangeDWORDAsIDList
 dev_langs:

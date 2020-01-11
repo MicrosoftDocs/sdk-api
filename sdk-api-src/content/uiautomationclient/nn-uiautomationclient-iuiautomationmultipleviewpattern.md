@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 4a1613b9-1e64-4d4e-876e-e2bf886097d4
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationMultipleViewPattern, IUIAutomationMultipleViewPattern interface [Windows Accessibility], IUIAutomationMultipleViewPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationMultipleViewPattern, uiauto_IUIAutomationMultipleViewPattern, uiautomationclient/IUIAutomationMultipleViewPattern, winauto.uiauto_IUIAutomationMultipleViewPattern
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationMultipleViewPattern
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: a3f20a35-8d9c-403b-ba76-24c8b3640c6d
 ms.date: 12/05/2018
 ms.keywords: ExportRSoPData, ExportRSoPData function [Group Policy], _win32_exportrsopdata, gpedit/ExportRSoPData, policy.exportrsopdata
-ms.topic: function
 f1_keywords:
 - gpedit/ExportRSoPData
 dev_langs:

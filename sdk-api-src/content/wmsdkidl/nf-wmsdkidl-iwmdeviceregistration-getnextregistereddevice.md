@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 396e60a8-5845-45fa-8393-6f0defbd38bb
 ms.date: 12/05/2018
 ms.keywords: GetNextRegisteredDevice, GetNextRegisteredDevice method [windows Media Format], GetNextRegisteredDevice method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetNextRegisteredDevice method, IWMDeviceRegistration.GetNextRegisteredDevice, IWMDeviceRegistration::GetNextRegisteredDevice, IWMDeviceRegistrationGetNextRegisteredDevice, wmformat.iwmdeviceregistration_getnextregistereddevice, wmsdkidl/IWMDeviceRegistration::GetNextRegisteredDevice
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDeviceRegistration.GetNextRegisteredDevice
 dev_langs:

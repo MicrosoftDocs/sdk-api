@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: b7835074-480d-4921-abaf-a55733e0f60f
 ms.date: 12/05/2018
 ms.keywords: MI_ConstReal64A, MI_ConstReal64A structure [Windows Management Infrastructure (MI)], mi/MI_ConstReal64A, wmi._mi_constreal64a, wmi_v2.mi_constreal64a
-ms.topic: struct
 f1_keywords:
 - mi/MI_ConstReal64A
 dev_langs:

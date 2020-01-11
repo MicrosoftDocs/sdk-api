@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10compileeffectfrommemory.htm
 ms.date: 12/05/2018
 ms.keywords: D3D10CompileEffectFromMemory, D3D10CompileEffectFromMemory function [Direct3D 10], a15fb616-366d-0a19-dbf6-a1e603c6c9db, d3d10effect/D3D10CompileEffectFromMemory, direct3d10.d3d10compileeffectfrommemory
-ms.topic: function
 f1_keywords:
 - d3d10effect/D3D10CompileEffectFromMemory
 dev_langs:

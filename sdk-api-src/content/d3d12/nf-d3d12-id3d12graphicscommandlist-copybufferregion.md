@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 46F89B85-EDAA-4095-B6C6-4CC47F972F09
 ms.date: 12/05/2018
 ms.keywords: CopyBufferRegion, CopyBufferRegion method, CopyBufferRegion method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,CopyBufferRegion method, ID3D12GraphicsCommandList.CopyBufferRegion, ID3D12GraphicsCommandList::CopyBufferRegion, d3d12/ID3D12GraphicsCommandList::CopyBufferRegion, direct3d12.id3d12graphicscommandlist_copybufferregion
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12GraphicsCommandList.CopyBufferRegion
 dev_langs:

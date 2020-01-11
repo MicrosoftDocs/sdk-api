@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_insertpage.htm
 ms.date: 12/05/2018
 ms.keywords: PropSheet_InsertPage, PropSheet_InsertPage macro [Windows Controls], _win32_PropSheet_InsertPage, _win32_PropSheet_InsertPage_cpp, controls.PropSheet_InsertPage, controls._win32_PropSheet_InsertPage, hpageInsertAfter, index, prsht/PropSheet_InsertPage
-ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_InsertPage
 dev_langs:

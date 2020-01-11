@@ -7,7 +7,6 @@ tech.root: WMLSS
 ms.assetid: f844f79e-ae6f-4f57-abec-2b6d5951961f
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_computerHomeMediaSharingAllowedState method, IWindowsMediaLibrarySharingServices.put_computerHomeMediaSharingAllowedState, IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState, put_computerHomeMediaSharingAllowedState, put_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services], put_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_computerHomeMediaSharingAllowedState, wmlss/IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState
-ms.topic: method
 f1_keywords:
 - wmlss/IWindowsMediaLibrarySharingServices.put_computerHomeMediaSharingAllowedState
 dev_langs:

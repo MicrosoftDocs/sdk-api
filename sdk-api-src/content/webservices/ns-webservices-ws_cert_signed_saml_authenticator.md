@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 228ba94f-6e99-4bbf-93be-19d0311985ee
 ms.date: 12/05/2018
 ms.keywords: WS_CERT_SIGNED_SAML_AUTHENTICATOR, WS_CERT_SIGNED_SAML_AUTHENTICATOR structure [Web Services for Windows], webservices/WS_CERT_SIGNED_SAML_AUTHENTICATOR, wsw.ws_cert_signed_saml_authenticator
-ms.topic: struct
 f1_keywords:
 - webservices/WS_CERT_SIGNED_SAML_AUTHENTICATOR
 dev_langs:

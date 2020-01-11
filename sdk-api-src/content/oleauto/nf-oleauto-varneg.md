@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 95a8c1ee-6c8a-4eff-871b-63be3a616995
 ms.date: 12/05/2018
 ms.keywords: VarNeg, VarNeg function [Automation], _oa96_VarNeg, automat.varneg, oleauto/VarNeg
-ms.topic: function
 f1_keywords:
 - oleauto/VarNeg
 dev_langs:

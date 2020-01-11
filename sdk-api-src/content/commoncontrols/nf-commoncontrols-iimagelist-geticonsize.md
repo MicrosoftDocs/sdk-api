@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\geticonsize.htm
 ms.date: 12/05/2018
 ms.keywords: GetIconSize, GetIconSize method [Windows Controls], GetIconSize method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetIconSize method, IImageList.GetIconSize, IImageList::GetIconSize, comctl_IImageList_GetIconSize, comctl_IImageList_GetIconSize_cpp, commoncontrols/IImageList::GetIconSize, controls.IImageList_GetIconSize, controls.comctl_IImageList_GetIconSize
-ms.topic: method
 f1_keywords:
 - commoncontrols/IImageList.GetIconSize
 dev_langs:

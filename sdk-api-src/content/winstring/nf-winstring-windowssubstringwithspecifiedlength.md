@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 8E5DA806-8CBA-4569-9A9B-3B30350F603D
 ms.date: 12/05/2018
 ms.keywords: WindowsSubstringWithSpecifiedLength, WindowsSubstringWithSpecifiedLength function [Windows Runtime], winrt.windowssubstringwithspecifiedlength, winstring/WindowsSubstringWithSpecifiedLength
-ms.topic: function
 f1_keywords:
 - winstring/WindowsSubstringWithSpecifiedLength
 dev_langs:

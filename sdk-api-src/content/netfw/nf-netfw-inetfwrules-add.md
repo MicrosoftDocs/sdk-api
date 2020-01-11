@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: c81bdf56-df71-425a-93d2-1fbae5ab536e
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],INetFwRules interface, INetFwRules interface [ICS/ICF],Add method, INetFwRules.Add, INetFwRules::Add, ics.inetfwrules_add, netfw/INetFwRules::Add
-ms.topic: method
 f1_keywords:
 - netfw/INetFwRules.Add
 dev_langs:

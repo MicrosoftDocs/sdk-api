@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 10cf616c-a082-4a74-99bb-1b0b364291e5
 ms.date: 12/05/2018
 ms.keywords: FindOrAddReplica, FindOrAddReplica method [Windows Sync], FindOrAddReplica method [Windows Sync],IConstructReplicaKeyMap interface, IConstructReplicaKeyMap interface [Windows Sync],FindOrAddReplica method, IConstructReplicaKeyMap.FindOrAddReplica, IConstructReplicaKeyMap::FindOrAddReplica, winsync.iconstructreplicakeymap_findoraddreplica, winsync/IConstructReplicaKeyMap::FindOrAddReplica
-ms.topic: method
 f1_keywords:
 - winsync/IConstructReplicaKeyMap.FindOrAddReplica
 dev_langs:

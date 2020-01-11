@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: b265e0ae-cdef-450e-bf16-25da5bea7d5e
 ms.date: 12/05/2018
 ms.keywords: RpcServerInqDefaultPrincName, RpcServerInqDefaultPrincName function [RPC], RpcServerInqDefaultPrincNameA, RpcServerInqDefaultPrincNameW, _rpc_rpcserverinqdefaultprincname, rpc.rpcserverinqdefaultprincname, rpcdce/RpcServerInqDefaultPrincName, rpcdce/RpcServerInqDefaultPrincNameA, rpcdce/RpcServerInqDefaultPrincNameW
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcServerInqDefaultPrincName
 dev_langs:

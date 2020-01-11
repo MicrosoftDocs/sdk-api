@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 6a59e80b-96d2-47ff-9d23-fab9d67886b4
 ms.date: 12/05/2018
 ms.keywords: VarBstrFromDisp, VarBstrFromDisp function [Automation], _oa96_VarBstrFromDisp, automat.varbstrfromdisp, oleauto/VarBstrFromDisp
-ms.topic: function
 f1_keywords:
 - oleauto/VarBstrFromDisp
 dev_langs:

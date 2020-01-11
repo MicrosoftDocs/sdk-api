@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: a75bb031-6e4a-4440-82f3-6a6f9417c62b
 ms.date: 12/05/2018
 ms.keywords: OleCreateFromFileEx, OleCreateFromFileEx function [COM], _ole_OleCreateFromFileEx, com.olecreatefromfileex, ole2/OleCreateFromFileEx
-ms.topic: function
 f1_keywords:
 - ole2/OleCreateFromFileEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 8a057dcd-985b-4ec7-be5b-c1cc2a6d1e72
 ms.date: 12/05/2018
 ms.keywords: _win32_waveOutReset, mmeapi/waveOutReset, multimedia.waveoutreset, waveOutReset, waveOutReset function [Windows Multimedia]
-ms.topic: function
 f1_keywords:
 - mmeapi/waveOutReset
 dev_langs:

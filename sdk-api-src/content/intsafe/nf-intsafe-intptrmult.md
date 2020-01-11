@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c93c088e-bef2-4999-bd6d-68d4dd493f0b
 ms.date: 12/05/2018
 ms.keywords: IntPtrMult, IntPtrMult function [Windows Shell], intsafe/IntPtrMult, shell.IntPtrMult
-ms.topic: function
 f1_keywords:
 - intsafe/IntPtrMult
 dev_langs:

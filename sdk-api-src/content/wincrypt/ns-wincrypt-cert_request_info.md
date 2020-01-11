@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 6edeed33-16e1-4295-90e9-769929ab916a
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_REQUEST_INFO, CERT_REQUEST_INFO, CERT_REQUEST_INFO structure [Security], CERT_V1, PCERT_REQUEST_INFO, PCERT_REQUEST_INFO structure pointer [Security], _crypto2_cert_request_info, security.cert_request_info, wincrypt/CERT_REQUEST_INFO, wincrypt/PCERT_REQUEST_INFO'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_REQUEST_INFO
 dev_langs:

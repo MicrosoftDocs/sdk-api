@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 7d72f727-cca9-4a07-beb4-d64f23c1f0c1
 ms.date: 12/05/2018
 ms.keywords: WSARemoveServiceClass, WSARemoveServiceClass function [Winsock], _win32_wsaremoveserviceclass_2, winsock.wsaremoveserviceclass_2, winsock2/WSARemoveServiceClass
-ms.topic: function
 f1_keywords:
 - winsock2/WSARemoveServiceClass
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: ad6557e9-1683-4ffd-a59e-8f37eb67d089
 ms.date: 12/05/2018
 ms.keywords: _ldap_ber_init, ber_init, ber_init function [LDAP], ldap.ber__init, ldap.ber_init, winber/ber_init
-ms.topic: function
 f1_keywords:
 - winber/ber_init
 dev_langs:

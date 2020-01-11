@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e5feb451-5bf9-475c-b501-599e2188a3f5
 ms.date: 12/05/2018
 ms.keywords: GetAppendWindowStart, GetAppendWindowStart method [Media Foundation], GetAppendWindowStart method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetAppendWindowStart method, IMFSourceBuffer.GetAppendWindowStart, IMFSourceBuffer::GetAppendWindowStart, mf.imfsourcebuffer_getappendwindowstart, mfmediaengine/IMFSourceBuffer::GetAppendWindowStart
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFSourceBuffer.GetAppendWindowStart
 dev_langs:

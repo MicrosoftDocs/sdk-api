@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 3e64783f-6ded-498a-a994-ccd3ba217e91
 ms.date: 12/05/2018
 ms.keywords: SetupVerifyInfFile, SetupVerifyInfFile function [Setup API], SetupVerifyInfFileA, SetupVerifyInfFileW, _setupapi_setupverifyinffile, setup.setupverifyinffile, setupapi/SetupVerifyInfFile, setupapi/SetupVerifyInfFileA, setupapi/SetupVerifyInfFileW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupVerifyInfFile
 dev_langs:

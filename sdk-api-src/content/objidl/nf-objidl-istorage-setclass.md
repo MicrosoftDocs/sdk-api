@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 02ab2708-fc8b-4941-939a-a819cf823108
 ms.date: 12/05/2018
 ms.keywords: IStorage interface [Structured Storage],SetClass method, IStorage.SetClass, IStorage::SetClass, SetClass, SetClass method [Structured Storage], SetClass method [Structured Storage],IStorage interface, _stg_istorage_setclass, objidl/IStorage::SetClass, stg.istorage_setclass
-ms.topic: method
 f1_keywords:
 - objidl/IStorage.SetClass
 dev_langs:

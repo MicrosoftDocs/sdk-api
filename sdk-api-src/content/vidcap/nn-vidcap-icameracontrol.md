@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7046f96d-a613-4056-84dd-be022efdda4f
 ms.date: 12/05/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], ICameraControl interface [DirectShow],described, ICameraControlInterface, dshow.icameracontrol, vidcap/ICameraControl
-ms.topic: interface
 f1_keywords:
 - vidcap/ICameraControl
 dev_langs:

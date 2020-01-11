@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 4e1d6d9e-ebf2-4cd6-b7b4-00f9e7bd9bdc
 ms.date: 12/05/2018
 ms.keywords: EnumAdvise, EnumAdvise method [COM], EnumAdvise method [COM],IOleObject interface, IOleObject interface [COM],EnumAdvise method, IOleObject.EnumAdvise, IOleObject::EnumAdvise, _ole_ioleobject_enumadvise, com.ioleobject_enumadvise, oleidl/IOleObject::EnumAdvise
-ms.topic: method
 f1_keywords:
 - oleidl/IOleObject.EnumAdvise
 dev_langs:

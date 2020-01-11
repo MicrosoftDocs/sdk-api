@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: a17ab1c3-8208-481f-8566-164e2d817e05
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionService interface [Windows Media Player],allowCDBurn method, IWMPSubscriptionService.allowCDBurn, IWMPSubscriptionService::allowCDBurn, IWMPSubscriptionServiceallowCDBurn, allowCDBurn, allowCDBurn method [Windows Media Player], allowCDBurn method [Windows Media Player],IWMPSubscriptionService interface, subscriptionservices/IWMPSubscriptionService::allowCDBurn, wmp.iwmpsubscriptionservice_allowcdburn
-ms.topic: method
 f1_keywords:
 - subscriptionservices/IWMPSubscriptionService.allowCDBurn
 dev_langs:

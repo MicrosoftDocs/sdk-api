@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor2\getdisplayurl.htm
 ms.date: 12/05/2018
 ms.keywords: GetDisplayUrl, GetDisplayUrl method [search], GetDisplayUrl method [search],IUrlAccessor2 interface, GetDisplayUrl method [search],IUrlAccessor4 interface, IUrlAccessor2 interface [search],GetDisplayUrl method, IUrlAccessor2.GetDisplayUrl, IUrlAccessor2::GetDisplayUrl, IUrlAccessor4 interface [search],GetDisplayUrl method, IUrlAccessor4::GetDisplayUrl, _search_IUrlAccessor2_GetDisplayUrl, search._search_IUrlAccessor2_GetDisplayUrl, searchapi/IUrlAccessor2::GetDisplayUrl, searchapi/IUrlAccessor4::GetDisplayUrl
-ms.topic: method
 f1_keywords:
 - searchapi/IUrlAccessor2.GetDisplayUrl
 dev_langs:

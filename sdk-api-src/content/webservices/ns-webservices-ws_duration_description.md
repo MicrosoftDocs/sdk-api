@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 51084a56-f666-4ca0-b98c-9f41e28b99c0
 ms.date: 12/05/2018
 ms.keywords: WS_DURATION_DESCRIPTION, WS_DURATION_DESCRIPTION structure [Web Services for Windows], webservices/WS_DURATION_DESCRIPTION, wsw.ws_duration_description
-ms.topic: struct
 f1_keywords:
 - webservices/WS_DURATION_DESCRIPTION
 dev_langs:

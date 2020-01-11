@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: d453ac8d-5bcb-4565-be95-17b8b45c8d98
 ms.date: 12/05/2018
 ms.keywords: NdrProxyErrorHandler, NdrProxyErrorHandler function [RPC], rpc.ndrproxyerrorhandler, rpcproxy/NdrProxyErrorHandler
-ms.topic: function
 f1_keywords:
 - rpcproxy/NdrProxyErrorHandler
 dev_langs:

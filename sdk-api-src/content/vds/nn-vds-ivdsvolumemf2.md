@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 3219233e-7141-472a-8cb9-207222a4e775
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeMF2, IVdsVolumeMF2 interface, IVdsVolumeMF2 interface,described, base.ivdsvolumemf2, vds/IVdsVolumeMF2
-ms.topic: interface
 f1_keywords:
 - vds/IVdsVolumeMF2
 dev_langs:

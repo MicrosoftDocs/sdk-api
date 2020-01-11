@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: d223736f-cf83-45a4-871e-0d6fcecb5c43
 ms.date: 12/05/2018
 ms.keywords: TF_CreateInputProcessorProfiles, TF_CreateInputProcessorProfiles function [Text Services Framework], msctf/TF_CreateInputProcessorProfiles, tsf.tf_createinputprocessorprofiles
-ms.topic: function
 f1_keywords:
 - msctf/TF_CreateInputProcessorProfiles
 dev_langs:

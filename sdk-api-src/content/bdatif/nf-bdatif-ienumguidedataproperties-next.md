@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 5d13ce97-5729-48e5-a742-0689b2aae1f3
 ms.date: 12/05/2018
 ms.keywords: IEnumGuideDataProperties interface [Microsoft TV Technologies],Next method, IEnumGuideDataProperties.Next, IEnumGuideDataProperties::Next, IEnumGuideDataPropertiesNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumGuideDataProperties interface, bdatif/IEnumGuideDataProperties::Next, mstv.ienumguidedataproperties_next
-ms.topic: method
 f1_keywords:
 - bdatif/IEnumGuideDataProperties.Next
 dev_langs:

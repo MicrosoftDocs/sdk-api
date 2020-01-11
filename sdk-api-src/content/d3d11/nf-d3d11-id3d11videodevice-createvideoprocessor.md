@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 5A5FB7F9-F299-4E67-AFAD-E7056CBAEE76
 ms.date: 12/05/2018
 ms.keywords: CreateVideoProcessor, CreateVideoProcessor method [Media Foundation], CreateVideoProcessor method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoProcessor method, ID3D11VideoDevice.CreateVideoProcessor, ID3D11VideoDevice::CreateVideoProcessor, d3d11/ID3D11VideoDevice::CreateVideoProcessor, mf.id3d11videodevice_createvideoprocessor
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11VideoDevice.CreateVideoProcessor
 dev_langs:

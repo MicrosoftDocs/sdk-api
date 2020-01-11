@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: b9fd4497-153f-45f9-8f23-0771ffc47830
 ms.date: 12/05/2018
 ms.keywords: WS_UNIQUE_ID, WS_UNIQUE_ID structure [Web Services for Windows], webservices/WS_UNIQUE_ID, wsw.ws_unique_id
-ms.topic: struct
 f1_keywords:
 - webservices/WS_UNIQUE_ID
 dev_langs:

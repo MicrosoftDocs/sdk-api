@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: fbae767d-1f30-4b73-8978-ea14ce707303
 ms.date: 12/05/2018
 ms.keywords: MI_Serializer_Close, MI_Serializer_Close function [Windows Management Infrastructure (MI)], mi/MI_Serializer_Close, wmi_v2.mi_serializer_close
-ms.topic: function
 f1_keywords:
 - mi/MI_Serializer_Close
 dev_langs:

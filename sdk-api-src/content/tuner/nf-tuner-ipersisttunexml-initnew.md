@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 75485d59-118c-4098-974b-40f7a36dbd91
 ms.date: 12/05/2018
 ms.keywords: IPersistTuneXml interface [Microsoft TV Technologies],InitNew method, IPersistTuneXml.InitNew, IPersistTuneXml::InitNew, InitNew, InitNew method [Microsoft TV Technologies], InitNew method [Microsoft TV Technologies],IPersistTuneXml interface, mstv.ipersisttunexml_initnew, tuner/IPersistTuneXml::InitNew
-ms.topic: method
 f1_keywords:
 - tuner/IPersistTuneXml.InitNew
 dev_langs:

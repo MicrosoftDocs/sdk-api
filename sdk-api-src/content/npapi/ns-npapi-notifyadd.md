@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 23698bd9-12f6-4c1f-b833-bd5fddeba048
 ms.date: 12/05/2018
 ms.keywords: '*LPNOTIFYADD, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_TEMPORARY, CONNECT_UPDATE_PROFILE, CONNECT_UPDATE_RECENT, LPNOTIFYADD, LPNOTIFYADD structure pointer [Security], NOTIFYADD, NOTIFYADD structure [Security], _mnp_notifyadd, npapi/LPNOTIFYADD, npapi/NOTIFYADD, security.notifyadd'
-ms.topic: struct
 f1_keywords:
 - npapi/NOTIFYADD
 dev_langs:

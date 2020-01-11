@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 6ecca6a0-eb47-4511-898d-cf097a78d6f0
 ms.date: 12/05/2018
 ms.keywords: GetFontResource, GetFontResource method [XPS Documents and Packaging], GetFontResource method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFontResource method, IXpsOMGlyphs.GetFontResource, IXpsOMGlyphs::GetFontResource, xps.ixpsomglyphs_getfontresource, xpsobjectmodel/IXpsOMGlyphs::GetFontResource
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphs.GetFontResource
 dev_langs:

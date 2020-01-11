@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 88cbefe6-51c7-4c09-80bb-677c83f97cac
 ms.date: 12/05/2018
 ms.keywords: GetPageContainer, GetPageContainer method [COM], GetPageContainer method [COM],IPropertyPageSite interface, IPropertyPageSite interface [COM],GetPageContainer method, IPropertyPageSite.GetPageContainer, IPropertyPageSite::GetPageContainer, _ctrl_ipropertypagesite_getpagecontainer, com.ipropertypagesite_getpagecontainer, ocidl/IPropertyPageSite::GetPageContainer
-ms.topic: method
 f1_keywords:
 - ocidl/IPropertyPageSite.GetPageContainer
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getimagelist.htm
 ms.date: 12/05/2018
 ms.keywords: Header_GetImageList, Header_GetImageList macro [Windows Controls], _win32_Header_GetImageList, _win32_Header_GetImageList_cpp, commctrl/Header_GetImageList, controls.Header_GetImageList, controls._win32_Header_GetImageList
-ms.topic: macro
 f1_keywords:
 - commctrl/Header_GetImageList
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: add06d80-46ab-48d8-b85e-146c875c54d1
 ms.date: 12/05/2018
 ms.keywords: VarUI4FromR4, VarUI4FromR4 function [Automation], _oa96_VarUI4FromR4, automat.varui4fromr4, oleauto/VarUI4FromR4
-ms.topic: function
 f1_keywords:
 - oleauto/VarUI4FromR4
 dev_langs:

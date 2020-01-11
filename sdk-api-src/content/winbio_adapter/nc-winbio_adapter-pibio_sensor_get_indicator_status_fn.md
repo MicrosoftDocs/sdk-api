@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 01dbf2ee-5b47-47a8-b22c-a80aec5f7fff
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_GET_INDICATOR_STATUS_FN, PIBIO_SENSOR_GET_INDICATOR_STATUS_FN callback, SensorAdapterGetIndicatorStatus, SensorAdapterGetIndicatorStatus callback function [Windows Biometric Framework API], secbiomet.sensoradaptergetindicatorstatus, winbio_adapter/SensorAdapterGetIndicatorStatus
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/SensorAdapterGetIndicatorStatus
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: ce33605e-c3ae-4b96-a13e-6f06e8d5ffee
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRequestOriginator, ICertPropertyRequestOriginator interface [Security], ICertPropertyRequestOriginator interface [Security],described, certenroll/ICertPropertyRequestOriginator, security.icertpropertyrequestoriginator
-ms.topic: interface
 f1_keywords:
 - certenroll/ICertPropertyRequestOriginator
 dev_langs:

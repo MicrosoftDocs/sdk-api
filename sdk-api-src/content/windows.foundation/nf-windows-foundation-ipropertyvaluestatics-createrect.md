@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 2938c3e0-6383-4136-99a6-c47a04c331f7
 ms.date: 12/05/2018
 ms.keywords: CreateRect, CreateRect method [Windows Runtime], CreateRect method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateRect method, IPropertyValueStatics.CreateRect, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateRect, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateRect, winrt.ipropertyvaluefactory_createrect, winrt.ipropertyvaluestatics_createrect
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValueStatics.CreateRect
 dev_langs:

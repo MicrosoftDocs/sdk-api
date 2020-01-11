@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizefclass\sizefconstructors\sizef_24.htm
 ms.date: 12/05/2018
 ms.keywords: SizeF, SizeF class [GDI+],SizeF constructor, SizeF constructor [GDI+], SizeF constructor [GDI+],SizeF class, SizeF.SizeF, SizeF.SizeF(), SizeF::SizeF, _gdiplus_CLASS_SizeF_SizeF_, gdiplus._gdiplus_CLASS_SizeF_SizeF_
-ms.topic: method
 f1_keywords:
 - gdiplustypes/SizeF.SizeF
 dev_langs:

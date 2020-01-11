@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 0420FC77-8035-42A5-8907-83D0CE53FB64
 ms.date: 12/05/2018
 ms.keywords: CheckTokenMembershipEx, CheckTokenMembershipEx function [Security], security.checktokenmembershipex, securitybaseapi/CheckTokenMembershipEx
-ms.topic: function
 f1_keywords:
 - securitybaseapi/CheckTokenMembershipEx
 dev_langs:

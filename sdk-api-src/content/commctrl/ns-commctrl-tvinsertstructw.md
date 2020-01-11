@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvinsertstruct.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPTVINSERTSTRUCTW, LPTVINSERTSTRUCT, LPTVINSERTSTRUCT structure pointer [Windows Controls], TVINSERTSTRUCT, TVINSERTSTRUCT structure [Windows Controls], TVINSERTSTRUCTA, TVINSERTSTRUCTW, TVI_FIRST, TVI_LAST, TVI_ROOT, TVI_SORT, _win32_TVINSERTSTRUCT, _win32_TVINSERTSTRUCT_cpp, commctrl/LPTVINSERTSTRUCT, commctrl/TVINSERTSTRUCT, commctrl/TVINSERTSTRUCTA, commctrl/TVINSERTSTRUCTW, controls.TVINSERTSTRUCT, controls._win32_TVINSERTSTRUCT'
-ms.topic: struct
 f1_keywords:
 - commctrl/TVINSERTSTRUCT
 dev_langs:

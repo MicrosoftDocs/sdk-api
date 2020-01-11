@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: dd76b96f-b616-420f-9f26-d88004574411
 ms.date: 12/05/2018
 ms.keywords: VarIdiv, VarIdiv function [Automation], _oa96_VarIdiv, automat.varidiv, oleauto/VarIdiv
-ms.topic: function
 f1_keywords:
 - oleauto/VarIdiv
 dev_langs:

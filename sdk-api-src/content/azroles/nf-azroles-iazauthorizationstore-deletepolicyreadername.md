@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: b3375c24-82c3-43fd-a063-8c8079324641
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],DeletePolicyReaderName method, DeletePolicyReaderName, DeletePolicyReaderName method [Security], DeletePolicyReaderName method [Security],AzAuthorizationStore object, DeletePolicyReaderName method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeletePolicyReaderName method, IAzAuthorizationStore.DeletePolicyReaderName, IAzAuthorizationStore::DeletePolicyReaderName, azroles/IAzAuthorizationStore::DeletePolicyReaderName, security.azauthorizationstore_deletepolicyreadername
-ms.topic: method
 f1_keywords:
 - azroles/AzAuthorizationStore.DeletePolicyReaderName
 dev_langs:

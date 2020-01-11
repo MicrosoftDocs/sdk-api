@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 8d2eb1eb-97a3-4001-bec0-7bb9b107d38e
 ms.date: 12/05/2018
 ms.keywords: ACMFILTERENUMCB, ACMFILTERENUMCB callback, ACMFILTERENUMCB callback function [Windows Multimedia], ACMFILTERENUMCBA, ACMFILTERENUMCBW, _win32_acmFilterEnumCallback, acmFilterEnumCallback, msacm/ACMFILTERENUMCB, msacm/ACMFILTERENUMCBA, msacm/ACMFILTERENUMCBW, multimedia.acmfilterenumcallback
-ms.topic: callback
 f1_keywords:
 - msacm/ACMFILTERENUMCB
 dev_langs:

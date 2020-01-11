@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 756d56a4-083f-45cd-bcdc-7c8a15dabae6
 ms.date: 12/05/2018
 ms.keywords: ILog interface [COM],ReadRecord method, ILog.ReadRecord, ILog::ReadRecord, ReadRecord, ReadRecord method [COM], ReadRecord method [COM],ILog interface, _com_ilog_readrecord, com.ilog_readrecord, txlogpub/ILog::ReadRecord
-ms.topic: method
 f1_keywords:
 - txlogpub/ILog.ReadRecord
 dev_langs:

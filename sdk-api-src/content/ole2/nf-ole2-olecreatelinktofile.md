@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 06b013db-0554-4dbc-b19d-28314fb4fee0
 ms.date: 12/05/2018
 ms.keywords: OleCreateLinkToFile, OleCreateLinkToFile function [COM], _ole_OleCreateLinkToFile, com.olecreatelinktofile, ole2/OleCreateLinkToFile
-ms.topic: function
 f1_keywords:
 - ole2/OleCreateLinkToFile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 095a8c28-d0f2-4c0d-9e96-eefd5786b88d
 ms.date: 12/05/2018
 ms.keywords: IFilterChain interface [DirectShow],StartChain method, IFilterChain.StartChain, IFilterChain::StartChain, IFilterChainStartChain, StartChain, StartChain method [DirectShow], StartChain method [DirectShow],IFilterChain interface, dshow.ifilterchain_startchain, strmif/IFilterChain::StartChain
-ms.topic: method
 f1_keywords:
 - strmif/IFilterChain.StartChain
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemefont.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeFont, GetThemeFont function [Windows Controls], controls.GetThemeFont, controls.inet_GetThemeFont, inet_GetThemeFont, inet_GetThemeFont_cpp, uxtheme/GetThemeFont
-ms.topic: function
 f1_keywords:
 - uxtheme/GetThemeFont
 dev_langs:

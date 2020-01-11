@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: cf158770-c9af-4488-9ed0-486e9a528a65
 ms.date: 12/05/2018
 ms.keywords: SHGlobalCounterGetValue, SHGlobalCounterGetValue function [Windows Shell], _shell_SHGlobalCounterGetValue, shell.SHGlobalCounterGetValue, shlwapi/SHGlobalCounterGetValue
-ms.topic: function
 f1_keywords:
 - shlwapi/SHGlobalCounterGetValue
 dev_langs:

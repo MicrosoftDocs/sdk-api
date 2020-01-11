@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 2637b6ef-2324-40db-99e4-773fcb6fdbf6
 ms.date: 12/05/2018
 ms.keywords: ICOpen, ICOpen function [Windows Multimedia], _win32_ICOpen, multimedia.icopen, vfw/ICOpen
-ms.topic: function
 f1_keywords:
 - vfw/ICOpen
 dev_langs:

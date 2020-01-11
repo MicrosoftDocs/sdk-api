@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e9271439-8785-4743-9e6f-81342af117f8
 ms.date: 12/05/2018
 ms.keywords: GetPlatformWorkQueueMMCSSPriority, GetPlatformWorkQueueMMCSSPriority method [Media Foundation], GetPlatformWorkQueueMMCSSPriority method [Media Foundation],IMFWorkQueueServicesEx interface, IMFWorkQueueServicesEx interface [Media Foundation],GetPlatformWorkQueueMMCSSPriority method, IMFWorkQueueServicesEx.GetPlatformWorkQueueMMCSSPriority, IMFWorkQueueServicesEx::GetPlatformWorkQueueMMCSSPriority, mf.imfworkqueueservicesex_getplatformworkqueuemmcsspriority, mfidl/IMFWorkQueueServicesEx::GetPlatformWorkQueueMMCSSPriority
-ms.topic: method
 f1_keywords:
 - mfidl/IMFWorkQueueServicesEx.GetPlatformWorkQueueMMCSSPriority
 dev_langs:

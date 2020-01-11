@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4a8c6223-df1e-4f04-8818-d7752f686cb5
 ms.date: 12/05/2018
 ms.keywords: IParseAndCreateItem, IParseAndCreateItem interface [Windows Shell], IParseAndCreateItem interface [Windows Shell],described, _shell_IParseAndCreateItem, shell.IParseAndCreateItem, shobjidl_core/IParseAndCreateItem
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IParseAndCreateItem
 dev_langs:

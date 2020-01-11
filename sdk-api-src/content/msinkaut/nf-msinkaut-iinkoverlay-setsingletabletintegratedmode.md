@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 2d2cc966-6f3f-4195-9113-8b0cf4603eb1
 ms.date: 12/05/2018
 ms.keywords: 96787996-c0fd-455f-952e-90ddc8640253, IInkOverlay interface [Tablet PC],SetSingleTabletIntegratedMode method, IInkOverlay.SetSingleTabletIntegratedMode, IInkOverlay::SetSingleTabletIntegratedMode, SetSingleTabletIntegratedMode, SetSingleTabletIntegratedMode method [Tablet PC], SetSingleTabletIntegratedMode method [Tablet PC],IInkOverlay interface, msinkaut/IInkOverlay::SetSingleTabletIntegratedMode, tablet.inkoverlay_setsingletabletintegratedmode
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkOverlay.SetSingleTabletIntegratedMode
 dev_langs:

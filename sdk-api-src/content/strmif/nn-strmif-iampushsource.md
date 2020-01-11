@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 5ab294a8-f250-405c-a589-68998bc04cdf
 ms.date: 12/05/2018
 ms.keywords: IAMPushSource, IAMPushSource interface [DirectShow], IAMPushSource interface [DirectShow],described, IAMPushSourceInterface, dshow.iampushsource, strmif/IAMPushSource
-ms.topic: interface
 f1_keywords:
 - strmif/IAMPushSource
 dev_langs:

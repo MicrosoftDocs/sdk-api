@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: ac84ec09-7d91-42fc-8271-3e0e54bbb788
 ms.date: 12/05/2018
 ms.keywords: MI_Application_NewSubscriptionDeliveryOptions, MI_Application_NewSubscriptionDeliveryOptions function [Windows Management Infrastructure (MI)], mi/MI_Application_NewSubscriptionDeliveryOptions, wmi_v2.mi_application_newsubscriptiondeliveryoptions
-ms.topic: function
 f1_keywords:
 - mi/MI_Application_NewSubscriptionDeliveryOptions
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: c8521aed-0762-4412-b117-c911fc77049b
 ms.date: 12/05/2018
 ms.keywords: 0, NetServerTransportAdd, NetServerTransportAdd function [Network Management], _win32_netservertransportadd, lmserver/NetServerTransportAdd, netmgmt.netservertransportadd
-ms.topic: function
 f1_keywords:
 - lmserver/NetServerTransportAdd
 dev_langs:

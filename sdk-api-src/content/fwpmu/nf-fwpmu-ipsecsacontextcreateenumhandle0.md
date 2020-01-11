@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: ce4340df-e4e0-48ca-b827-2216803a8a94
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextCreateEnumHandle0, IPsecSaContextCreateEnumHandle0 function [Filtering], fwp.ipsecsacontextcreateenumhandle0, fwpmu/IPsecSaContextCreateEnumHandle0
-ms.topic: function
 f1_keywords:
 - fwpmu/IPsecSaContextCreateEnumHandle0
 dev_langs:

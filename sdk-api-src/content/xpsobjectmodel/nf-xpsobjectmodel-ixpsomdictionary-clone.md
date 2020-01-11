@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f0e57247-73c2-466e-beba-b4dd09fb1f3c
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],Clone method, IXpsOMDictionary.Clone, IXpsOMDictionary::Clone, xps.ixpsomdictionary_clone, xpsobjectmodel/IXpsOMDictionary::Clone
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDictionary.Clone
 dev_langs:

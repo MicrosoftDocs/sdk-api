@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: b9d4718a-42a6-4be5-9f57-1a392cd98469
 ms.date: 12/05/2018
 ms.keywords: ITfEditSession, ITfEditSession interface [Text Services Framework], ITfEditSession interface [Text Services Framework],described, _tsf_itfeditsession_ref, msctf/ITfEditSession, tsf.itfeditsession
-ms.topic: interface
 f1_keywords:
 - msctf/ITfEditSession
 dev_langs:

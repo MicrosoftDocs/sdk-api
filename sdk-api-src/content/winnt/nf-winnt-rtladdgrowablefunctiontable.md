@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 84ba7171-a4eb-4807-9883-f4fac6296ed0
 ms.date: 12/05/2018
 ms.keywords: RtlAddGrowableFunctionTable, RtlAddGrowableFunctionTable function, base.rtladdgrowablefunctiontable, winnt/RtlAddGrowableFunctionTable
-ms.topic: function
 f1_keywords:
 - winnt/RtlAddGrowableFunctionTable
 dev_langs:

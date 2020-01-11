@@ -7,7 +7,6 @@ tech.root: WindowsMAPI
 ms.assetid: 28fbafff-8f34-4db8-bcb5-98f61883bea0
 ms.date: 12/05/2018
 ms.keywords: MAPIDetails, MAPIDetails callback, MAPIDetails callback function, MAPI_AB_NOMODIFY, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapidetails, mapi/MAPIDetails
-ms.topic: callback
 f1_keywords:
 - mapi/MAPIDetails
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\draglb\functions\drawinsert.htm
 ms.date: 12/05/2018
 ms.keywords: DrawInsert, DrawInsert function [Windows Controls], _win32_DrawInsert, _win32_DrawInsert_cpp, commctrl/DrawInsert, controls.DrawInsert, controls._win32_DrawInsert
-ms.topic: function
 f1_keywords:
 - commctrl/DrawInsert
 dev_langs:

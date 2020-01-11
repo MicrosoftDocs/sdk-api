@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 0301b570-9a03-4f50-89df-3c15d8de246f
 ms.date: 12/05/2018
 ms.keywords: RpcNsGroupMbrRemove, RpcNsGroupMbrRemove function [RPC], RpcNsGroupMbrRemoveA, RpcNsGroupMbrRemoveW, _rpc_rpcnsgroupmbrremove, rpc.rpcnsgroupmbrremove, rpcnsi/RpcNsGroupMbrRemove, rpcnsi/RpcNsGroupMbrRemoveA, rpcnsi/RpcNsGroupMbrRemoveW
-ms.topic: function
 f1_keywords:
 - rpcnsi/RpcNsGroupMbrRemove
 dev_langs:

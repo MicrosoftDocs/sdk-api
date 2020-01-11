@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: b0d78121-35d0-4f33-b1e9-19e0b2c5b78f
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceFinderAddCallbackWithInterface, IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs], IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs],described, upnp.iupnpdevicefinderaddcallbackwithinterface, upnp/IUPnPDeviceFinderAddCallbackWithInterface
-ms.topic: interface
 f1_keywords:
 - upnp/IUPnPDeviceFinderAddCallbackWithInterface
 dev_langs:

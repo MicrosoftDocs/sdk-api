@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\dumptreeitemdata.htm
 ms.date: 12/05/2018
 ms.keywords: DumpTreeItemData, DumpTreeItemData method [WIA], DumpTreeItemData method [WIA],IWiaItem interface, IWiaItem interface [WIA],DumpTreeItemData method, IWiaItem.DumpTreeItemData, IWiaItem::DumpTreeItemData, _wia_IWiaItem_DumpTreeItemData, wia._wia_IWiaItem_DumpTreeItemData, wia_xp/IWiaItem::DumpTreeItemData
-ms.topic: method
 f1_keywords:
 - wia_xp/IWiaItem.DumpTreeItemData
 dev_langs:

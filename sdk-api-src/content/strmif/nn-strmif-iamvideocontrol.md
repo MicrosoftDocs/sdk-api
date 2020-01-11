@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: bd114977-c76c-4429-a835-98601b350a93
 ms.date: 12/05/2018
 ms.keywords: IAMVideoControl, IAMVideoControl interface [DirectShow], IAMVideoControl interface [DirectShow],described, IAMVideoControlInterface, dshow.iamvideocontrol, strmif/IAMVideoControl
-ms.topic: interface
 f1_keywords:
 - strmif/IAMVideoControl
 dev_langs:

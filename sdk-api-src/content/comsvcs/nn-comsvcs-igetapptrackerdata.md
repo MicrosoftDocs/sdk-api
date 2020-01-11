@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: f2f9c03b-4f57-4087-8fef-5cdccece91d9
 ms.date: 12/05/2018
 ms.keywords: IGetAppTrackerData, IGetAppTrackerData interface [COM+], IGetAppTrackerData interface [COM+],described, comsvcs/IGetAppTrackerData, cos.igetapptrackerdata
-ms.topic: interface
 f1_keywords:
 - comsvcs/IGetAppTrackerData
 dev_langs:

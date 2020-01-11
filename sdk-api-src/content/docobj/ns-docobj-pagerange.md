@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: b37d57e6-1634-4676-9f31-e3db2835983f
 ms.date: 12/05/2018
 ms.keywords: PAGERANGE, PAGERANGE structure [COM], _ctrl_PAGERANGE, com.pagerange, docobj/PAGERANGE
-ms.topic: struct
 f1_keywords:
 - docobj/PAGERANGE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 0426eeaa-4d9a-4e5e-8550-2f7adbb26685
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortDestroy, DdVideoPortDestroy callback function [Display Devices], PDD_VPORTCB_DESTROYVPORT, PDD_VPORTCB_DESTROYVPORT callback, ddfncs_865d04b1-c817-4000-9fdc-9e498dee679c.xml, ddrawint/DdVideoPortDestroy, display.ddvideoportdestroy
-ms.topic: callback
 f1_keywords:
 - ddrawint/DdVideoPortDestroy
 dev_langs:

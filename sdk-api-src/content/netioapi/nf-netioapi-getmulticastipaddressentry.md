@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: dc6401b6-7692-44a5-b2f0-4e729b996765
 ms.date: 12/05/2018
 ms.keywords: GetMulticastIpAddressEntry, GetMulticastIpAddressEntry function [IP Helper], iphlp.getmulticastipaddressentry, netioapi/GetMulticastIpAddressEntry
-ms.topic: function
 f1_keywords:
 - netioapi/GetMulticastIpAddressEntry
 dev_langs:

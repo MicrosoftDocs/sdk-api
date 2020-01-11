@@ -7,7 +7,6 @@ tech.root: EDP
 ms.assetid: 2649E719-2BF8-4AE6-B563-0230487A7BD2
 ms.date: 12/05/2018
 ms.keywords: EDP.srpdoespolicyallowappexecution_, SrpDoesPolicyAllowAppExecution, SrpDoesPolicyAllowAppExecution , SrpDoesPolicyAllowAppExecution function, srpapi/SrpDoesPolicyAllowAppExecution
-ms.topic: function
 f1_keywords:
 - srpapi/SrpDoesPolicyAllowAppExecution
 dev_langs:

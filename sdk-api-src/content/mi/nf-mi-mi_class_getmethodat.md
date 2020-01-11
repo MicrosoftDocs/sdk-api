@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 00239417-f771-48fa-afce-fef2ec99a171
 ms.date: 12/05/2018
 ms.keywords: MI_Class_GetMethodAt, MI_Class_GetMethodAt function [Windows Management Infrastructure (MI)], mi/MI_Class_GetMethodAt, wmi_v2.mi_class_getmethodat
-ms.topic: function
 f1_keywords:
 - mi/MI_Class_GetMethodAt
 dev_langs:

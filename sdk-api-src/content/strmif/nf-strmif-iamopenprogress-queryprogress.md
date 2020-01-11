@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8471271d-36cc-4660-8a4e-4c234ba6b406
 ms.date: 12/05/2018
 ms.keywords: IAMOpenProgress interface [DirectShow],QueryProgress method, IAMOpenProgress.QueryProgress, IAMOpenProgress::QueryProgress, IAMOpenProgressQueryProgress, QueryProgress, QueryProgress method [DirectShow], QueryProgress method [DirectShow],IAMOpenProgress interface, dshow.iamopenprogress_queryprogress, strmif/IAMOpenProgress::QueryProgress
-ms.topic: method
 f1_keywords:
 - strmif/IAMOpenProgress.QueryProgress
 dev_langs:

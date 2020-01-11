@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 44087315-7a71-4557-89b3-bf8c66ed10a4
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer, IRDPSRAPITransportStreamBuffer interface [RDP], IRDPSRAPITransportStreamBuffer interface [RDP],described, rdp.irdpsrapitransportstreambuffer, rdpencomapi/IRDPSRAPITransportStreamBuffer
-ms.topic: interface
 f1_keywords:
 - rdpencomapi/IRDPSRAPITransportStreamBuffer
 dev_langs:

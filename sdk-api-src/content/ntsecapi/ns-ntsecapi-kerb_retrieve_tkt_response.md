@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 682d4076-dc65-4291-8a82-981f207ae432
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_RETRIEVE_TKT_RESPONSE, KERB_RETRIEVE_TKT_RESPONSE, KERB_RETRIEVE_TKT_RESPONSE structure [Security], PKERB_RETRIEVE_TKT_RESPONSE, PKERB_RETRIEVE_TKT_RESPONSE structure pointer [Security], _lsa_kerb_retrieve_tkt_response, ntsecapi/KERB_RETRIEVE_TKT_RESPONSE, ntsecapi/PKERB_RETRIEVE_TKT_RESPONSE, security.kerb_retrieve_tkt_response'
-ms.topic: struct
 f1_keywords:
 - ntsecapi/KERB_RETRIEVE_TKT_RESPONSE
 dev_langs:

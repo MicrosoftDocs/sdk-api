@@ -7,7 +7,6 @@ tech.root: iSCSIDisc
 ms.assetid: d61036f5-a5e8-4c1a-8f99-57fe8e5c5bd0
 ms.date: 12/05/2018
 ms.keywords: '*PIKE_AUTHENTICATION_INFORMATION, IKE_AUTHENTICATION_INFORMATION, IKE_AUTHENTICATION_INFORMATION structure [iSCSI Discovery Library API], PIKE_AUTHENTICATION_INFORMATION, PIKE_AUTHENTICATION_INFORMATION structure pointer [iSCSI Discovery Library API], iscsidisc.ike_authentication_information, iscsidsc/IKE_AUTHENTICATION_INFORMATION, iscsidsc/PIKE_AUTHENTICATION_INFORMATION'
-ms.topic: struct
 f1_keywords:
 - iscsidsc/IKE_AUTHENTICATION_INFORMATION
 dev_langs:

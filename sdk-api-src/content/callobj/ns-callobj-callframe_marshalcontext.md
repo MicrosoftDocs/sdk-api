@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 4ecc4646-db3f-4d0e-9c45-b78a288156e1
 ms.date: 12/05/2018
 ms.keywords: CALLFRAME_MARSHALCONTEXT, CALLFRAME_MARSHALCONTEXT structure [COM], callobj/CALLFRAME_MARSHALCONTEXT, com.callframe_marshalcontext
-ms.topic: struct
 f1_keywords:
 - callobj/CALLFRAME_MARSHALCONTEXT
 dev_langs:

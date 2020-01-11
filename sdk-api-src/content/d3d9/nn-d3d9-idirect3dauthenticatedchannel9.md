@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: dd969956-a140-44ed-9917-5a0a09a432fa
 ms.date: 12/05/2018
 ms.keywords: IDirect3DAuthenticatedChannel9, IDirect3DAuthenticatedChannel9 interface [Media Foundation], IDirect3DAuthenticatedChannel9 interface [Media Foundation],described, d3d9/IDirect3DAuthenticatedChannel9, mf.idirect3dauthenticatedchannel9
-ms.topic: interface
 f1_keywords:
 - d3d9/IDirect3DAuthenticatedChannel9
 dev_langs:

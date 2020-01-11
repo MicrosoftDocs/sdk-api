@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 5dbaa5ad-4a35-49e2-a528-de1ea38e6e0b
 ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,IsVolumeSupported method, IVssSoftwareSnapshotProvider.IsVolumeSupported, IVssSoftwareSnapshotProvider::IsVolumeSupported, IsVolumeSupported, IsVolumeSupported method, IsVolumeSupported method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_isvolumesupported, vsprov/IVssSoftwareSnapshotProvider::IsVolumeSupported
-ms.topic: method
 f1_keywords:
 - vsprov/IVssSoftwareSnapshotProvider.IsVolumeSupported
 dev_langs:

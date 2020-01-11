@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: eb25fae9-1a89-4474-bcb6-28c09bc3e0c9
 ms.date: 12/05/2018
 ms.keywords: IPSNMPInfo, IPSNMPInfo structure [Windows API], tcpioctl/IPSNMPInfo, winprog.ipsnmpinfo
-ms.topic: struct
 f1_keywords:
 - tcpioctl/IPSNMPInfo
 dev_langs:

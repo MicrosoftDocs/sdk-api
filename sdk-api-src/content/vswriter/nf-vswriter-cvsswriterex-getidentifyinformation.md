@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 995f353b-d0dc-425a-861d-46b7ee6062da
 ms.date: 12/05/2018
 ms.keywords: CVssWriterEx interface,GetIdentifyInformation method, CVssWriterEx.GetIdentifyInformation, CVssWriterEx::GetIdentifyInformation, GetIdentifyInformation, GetIdentifyInformation method, GetIdentifyInformation method,CVssWriterEx interface, base.cvsswriterex_getidentifyinformation, vswriter/CVssWriterEx::GetIdentifyInformation
-ms.topic: method
 f1_keywords:
 - vswriter/CVssWriterEx.GetIdentifyInformation
 dev_langs:

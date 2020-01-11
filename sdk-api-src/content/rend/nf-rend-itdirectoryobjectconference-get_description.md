@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: f90defa9-5e70-4168-9a07-ccb520bd5a1f
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_Description method, ITDirectoryObjectConference.get_Description, ITDirectoryObjectConference::get_Description, _tapi3_itdirectoryobjectconference_get_description, get_Description, get_Description method [TAPI 2.2], get_Description method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_Description, tapi3.itdirectoryobjectconference_get_description
-ms.topic: method
 f1_keywords:
 - rend/ITDirectoryObjectConference.get_Description
 dev_langs:

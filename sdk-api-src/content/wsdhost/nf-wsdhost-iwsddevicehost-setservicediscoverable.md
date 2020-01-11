@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 8f6aa8f6-3b7a-4d13-a052-c73f21823661
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,SetServiceDiscoverable method, IWSDDeviceHost.SetServiceDiscoverable, IWSDDeviceHost::SetServiceDiscoverable, SetServiceDiscoverable, SetServiceDiscoverable method, SetServiceDiscoverable method,IWSDDeviceHost interface, ncd.iwsddevicehost_setservicediscoverable, wsdhost/IWSDDeviceHost::SetServiceDiscoverable
-ms.topic: method
 f1_keywords:
 - wsdhost/IWSDDeviceHost.SetServiceDiscoverable
 dev_langs:

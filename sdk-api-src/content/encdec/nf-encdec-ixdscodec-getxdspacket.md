@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 44a74489-4ed7-42f0-b8d5-bf86e0f7072c
 ms.date: 12/05/2018
 ms.keywords: GetXDSPacket, GetXDSPacket method [Microsoft TV Technologies], GetXDSPacket method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetXDSPacket method, IXDSCodec.GetXDSPacket, IXDSCodec::GetXDSPacket, IXDSCodecGetXDSPacket, encdec/IXDSCodec::GetXDSPacket, mstv.ixdscodec_getxdspacket
-ms.topic: method
 f1_keywords:
 - encdec/IXDSCodec.GetXDSPacket
 dev_langs:

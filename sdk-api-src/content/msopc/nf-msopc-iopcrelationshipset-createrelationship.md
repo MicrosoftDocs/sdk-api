@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 0cbf7446-d94e-447f-a82b-3d56a8036c19
 ms.date: 12/05/2018
 ms.keywords: CreateRelationship, CreateRelationship method [Open Packaging Conventions], CreateRelationship method [Open Packaging Conventions],IOpcRelationshipSet interface, IOpcRelationshipSet interface [Open Packaging Conventions],CreateRelationship method, IOpcRelationshipSet.CreateRelationship, IOpcRelationshipSet::CreateRelationship, msopc/IOpcRelationshipSet::CreateRelationship, opc.iopcrelationshipset_createrelationship
-ms.topic: method
 f1_keywords:
 - msopc/IOpcRelationshipSet.CreateRelationship
 dev_langs:

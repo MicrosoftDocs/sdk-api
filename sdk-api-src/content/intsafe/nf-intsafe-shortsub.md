@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: df438d87-5786-4c55-81f2-534fa9532f09
 ms.date: 12/05/2018
 ms.keywords: ShortSub, ShortSub function [Windows Shell], intsafe/ShortSub, shell.ShortSub
-ms.topic: function
 f1_keywords:
 - intsafe/ShortSub
 dev_langs:

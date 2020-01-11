@@ -5,7 +5,6 @@ description: Specifies alpha blending parameters for video processing.
 tech.root: mf
 ms.assetid: 8907413b-b313-4b9e-bbe7-7e6c2a58de68
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_VIDEO_PROCESS_ALPHA_BLENDING
 dev_langs:

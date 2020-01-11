@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: 1D49752C-2D80-4EC8-AE24-2DEAFCB7FD46
 ms.date: 12/05/2018
 ms.keywords: CF_HYDRATE_FLAGS, CF_HYDRATE_FLAGS enumeration, CF_HYDRATE_FLAG_NONE, cfapi/CF_HYDRATE_FLAGS, cfapi/CF_HYDRATE_FLAG_NONE, cloudApi.cf_hydrate_flags
-ms.topic: enum
 f1_keywords:
 - cfapi/CF_HYDRATE_FLAGS
 dev_langs:

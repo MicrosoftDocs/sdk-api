@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 2780e704-72f1-44a9-ad54-ab3d2b19befe
 ms.date: 12/05/2018
 ms.keywords: STATE_ACTIVE, STATE_CONNECTED, STATE_CONNECTQUERY, STATE_DISCONNECTED, STATE_DOWN, STATE_IDLE, STATE_INIT, STATE_INVALID, STATE_LISTEN, STATE_RESET, STATE_SHADOW, TSSESSION_STATE, TSSESSION_STATE enumeration [Remote Desktop Services], sessdirpublictypes/STATE_ACTIVE, sessdirpublictypes/STATE_CONNECTED, sessdirpublictypes/STATE_CONNECTQUERY, sessdirpublictypes/STATE_DISCONNECTED, sessdirpublictypes/STATE_DOWN, sessdirpublictypes/STATE_IDLE, sessdirpublictypes/STATE_INIT, sessdirpublictypes/STATE_INVALID, sessdirpublictypes/STATE_LISTEN, sessdirpublictypes/STATE_RESET, sessdirpublictypes/STATE_SHADOW, sessdirpublictypes/TSSESSION_STATE, termserv.tssession_state
-ms.topic: enum
 f1_keywords:
 - sessdirpublictypes/TSSESSION_STATE
 dev_langs:

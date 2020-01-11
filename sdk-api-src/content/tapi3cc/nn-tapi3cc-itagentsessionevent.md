@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 70d37d06-b1a6-4f7e-bfe5-731d1b4cd66b
 ms.date: 12/05/2018
 ms.keywords: ITAgentSessionEvent, ITAgentSessionEvent interface [TAPI 2.2], ITAgentSessionEvent interface [TAPI 2.2],described, _tapi3_itagentsessionevent, tapi3.itagentsessionevent, tapi3cc/ITAgentSessionEvent
-ms.topic: interface
 f1_keywords:
 - tapi3cc/ITAgentSessionEvent
 dev_langs:

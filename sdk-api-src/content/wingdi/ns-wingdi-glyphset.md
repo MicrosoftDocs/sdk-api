@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: b8ac8d3f-b062-491c-966f-02f3d4c11419
 ms.date: 12/05/2018
 ms.keywords: '*LPGLYPHSET, *PGLYPHSET, GLYPHSET, GLYPHSET structure [Windows GDI], PGLYPHSET, PGLYPHSET structure pointer [Windows GDI], _win32_GLYPHSET_str, gdi.glyphset, wingdi/GLYPHSET, wingdi/PGLYPHSET'
-ms.topic: struct
 f1_keywords:
 - wingdi/GLYPHSET
 dev_langs:

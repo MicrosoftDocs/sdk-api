@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 2aee0929-2340-4901-a5d2-f1cd4395624a
 ms.date: 12/05/2018
 ms.keywords: WinBioRemoveAllDomainCredentials, WinBioRemoveAllDomainCredentials function [Windows Biometric Framework API], secbiomet.winbioremovealldomaincredentials, winbio/WinBioRemoveAllDomainCredentials
-ms.topic: function
 f1_keywords:
 - winbio/WinBioRemoveAllDomainCredentials
 dev_langs:

@@ -5,7 +5,6 @@ description: Creates a Graphics::Graphics object that is associated with a speci
 ms.assetid: f048c2f7-27b4-48dc-b6d8-871f010603f5
 ms.date: 05/13/2019
 ms.keywords: Graphics::Graphics
-ms.topic: language-reference
 f1_keywords:
 - gdiplusgraphics/Graphics::Graphics
 dev_langs:

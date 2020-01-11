@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: c02dabfe-33ef-4835-a707-d1350b18629f
 ms.date: 12/05/2018
 ms.keywords: GetAudioAttributes, GetAudioAttributes method [Media Foundation], GetAudioAttributes method [Media Foundation],IMFTranscodeProfile interface, IMFTranscodeProfile interface [Media Foundation],GetAudioAttributes method, IMFTranscodeProfile.GetAudioAttributes, IMFTranscodeProfile::GetAudioAttributes, mf.imftranscodeprofile_getaudioattributes, mfidl/IMFTranscodeProfile::GetAudioAttributes
-ms.topic: method
 f1_keywords:
 - mfidl/IMFTranscodeProfile.GetAudioAttributes
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 383e829c-5089-4404-a6bd-429812069e85
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],Path property, IFsrmFileScreen.Path, IFsrmFileScreen.get_Path, IFsrmFileScreen::Path, IFsrmFileScreen::get_Path, Path property [File Server Resource Manager], Path property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_path, fsrm.ifsrmfilescreen_path, fsrmscreen/IFsrmFileScreen::Path, fsrmscreen/IFsrmFileScreen::get_Path, get_Path
-ms.topic: method
 f1_keywords:
 - fsrmscreen/IFsrmFileScreen.Path
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 733c4ece-283b-4d25-8dab-1351f6ca7d12
 ms.date: 12/05/2018
 ms.keywords: PeerCollabCancelInvitation, PeerCollabCancelInvitation function [Peer Networking], p2p.peercollabcancelinvitation, p2p/PeerCollabCancelInvitation
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabCancelInvitation
 dev_langs:

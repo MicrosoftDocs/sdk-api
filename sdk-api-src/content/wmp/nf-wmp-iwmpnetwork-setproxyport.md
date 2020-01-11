@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 36b7290d-c359-45bb-b77b-46b696e9edcf
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],setProxyPort method, IWMPNetwork.setProxyPort, IWMPNetwork::setProxyPort, IWMPNetworksetProxyPort, setProxyPort, setProxyPort method [Windows Media Player], setProxyPort method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_setproxyport, wmp/IWMPNetwork::setProxyPort
-ms.topic: method
 f1_keywords:
 - wmp/IWMPNetwork.setProxyPort
 dev_langs:

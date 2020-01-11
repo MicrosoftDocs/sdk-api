@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: 681791b1-caeb-46ef-8cae-c93d46a6729e
 ms.date: 12/05/2018
 ms.keywords: DRMGetIntervalTime, DRMGetIntervalTime function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetIntervalTime, rm.drmgetintervaltime
-ms.topic: function
 f1_keywords:
 - msdrm/DRMGetIntervalTime
 dev_langs:

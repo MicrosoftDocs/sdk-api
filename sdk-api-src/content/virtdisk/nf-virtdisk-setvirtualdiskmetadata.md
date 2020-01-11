@@ -7,7 +7,6 @@ tech.root: VStor
 ms.assetid: 27ee1529-ccd9-43ea-aed9-4fd32d793354
 ms.date: 12/05/2018
 ms.keywords: SetVirtualDiskMetadata, SetVirtualDiskMetadata function [Virtual Storage], virtdisk/SetVirtualDiskMetadata, vstor.setvirtualdiskmetadata
-ms.topic: function
 f1_keywords:
 - virtdisk/SetVirtualDiskMetadata
 dev_langs:

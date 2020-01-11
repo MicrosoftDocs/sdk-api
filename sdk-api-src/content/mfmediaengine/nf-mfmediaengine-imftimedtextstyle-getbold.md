@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 53CAE4C9-061B-44F3-A81B-A276085C69F2
 ms.date: 12/05/2018
 ms.keywords: GetBold, GetBold method [Media Foundation], GetBold method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetBold method, IMFTimedTextStyle.GetBold, IMFTimedTextStyle::GetBold, mf.imftimedtextstyle_getbold, mfmediaengine/IMFTimedTextStyle::GetBold
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextStyle.GetBold
 dev_langs:

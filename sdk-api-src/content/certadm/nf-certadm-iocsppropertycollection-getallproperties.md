@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 46a20d55-a673-4f9b-9fb9-bfc631d70f99
 ms.date: 12/05/2018
 ms.keywords: GetAllProperties, GetAllProperties method [Security], GetAllProperties method [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],GetAllProperties method, IOCSPPropertyCollection.GetAllProperties, IOCSPPropertyCollection::GetAllProperties, certadm/IOCSPPropertyCollection::GetAllProperties, security.iocsppropertycollection_getallproperties_method
-ms.topic: method
 f1_keywords:
 - certadm/IOCSPPropertyCollection.GetAllProperties
 dev_langs:

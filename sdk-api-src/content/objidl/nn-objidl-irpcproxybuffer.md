@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: e1b18997-f99b-4611-8ba6-da28fd8df898
 ms.date: 12/05/2018
 ms.keywords: IRpcProxyBuffer, IRpcProxyBuffer interface [COM], IRpcProxyBuffer interface [COM],described, _com_irpcproxybuffer, com.irpcproxybuffer, objidlbase/IRpcProxyBuffer
-ms.topic: interface
 f1_keywords:
 - objidl/IRpcProxyBuffer
 dev_langs:

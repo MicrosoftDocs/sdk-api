@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: f2cb3a5b-826b-428a-9e92-e5d08880bddc
 ms.date: 12/05/2018
 ms.keywords: IAdviseSink interface [COM],OnViewChange method, IAdviseSink.OnViewChange, IAdviseSink::OnViewChange, OnViewChange, OnViewChange method [COM], OnViewChange method [COM],IAdviseSink interface, _ole_iadvisesink_onviewchange, com.iadvisesink_onviewchange, objidl/IAdviseSink::OnViewChange
-ms.topic: method
 f1_keywords:
 - objidl/IAdviseSink.OnViewChange
 dev_langs:

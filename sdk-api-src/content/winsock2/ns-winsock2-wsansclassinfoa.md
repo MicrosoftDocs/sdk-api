@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: b4f811ad-7967-45bd-b563-a28bb1633596
 ms.date: 12/05/2018
 ms.keywords: '*LPWSANSCLASSINFOA, *PWSANSCLASSINFO,*LPWSANSCLASSINFO, *PWSANSCLASSINFO,*LPWSANSCLASSINFO structure [Winsock], *PWSANSCLASSINFOA, WSANSCLASSINFO, WSANSCLASSINFO structure [Winsock], WSANSCLASSINFOA, winsock.wsansclassinfo, winsock2/*PWSANSCLASSINFO,*LPWSANSCLASSINFO, winsock2/WSANSCLASSINFO'
-ms.topic: struct
 f1_keywords:
 - winsock2/WSANSCLASSINFO
 dev_langs:

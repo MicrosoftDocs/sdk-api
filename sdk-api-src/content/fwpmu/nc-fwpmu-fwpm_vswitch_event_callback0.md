@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 95cccc54-8f58-4942-8770-f07f4d293396
 ms.date: 12/05/2018
 ms.keywords: FWPM_VSWITCH_EVENT_CALLBACK0, FWPM_VSWITCH_EVENT_CALLBACK0 callback, FWPM_VSWITCH_EVENT_CALLBACK0 callback function [Filtering], fwp.fwpm_vswitch_event_callback0, fwpmu/FWPM_VSWITCH_EVENT_CALLBACK0
-ms.topic: callback
 f1_keywords:
 - fwpmu/FWPM_VSWITCH_EVENT_CALLBACK0
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 75d8b2a3-7c50-4dd5-8927-b11eb9f12602
 ms.date: 12/05/2018
 ms.keywords: 75d8b2a3-7c50-4dd5-8927-b11eb9f12602, IMFASFSplitter, IMFASFSplitter interface [Media Foundation], IMFASFSplitter interface [Media Foundation],described, mf.imfasfsplitter, wmcontainer/IMFASFSplitter
-ms.topic: interface
 f1_keywords:
 - wmcontainer/IMFASFSplitter
 dev_langs:

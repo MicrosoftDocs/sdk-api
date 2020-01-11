@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 47561b53-3f7b-4939-8b86-5acb5eaeea5a
 ms.date: 12/05/2018
 ms.keywords: ITypeLib2, ITypeLib2 interface [Automation], ITypeLib2 interface [Automation],described, _oa96_ITypeLib2_Interface, automat.itypelib2, oaidl/ITypeLib2
-ms.topic: interface
 f1_keywords:
 - oaidl/ITypeLib2
 dev_langs:

@@ -5,7 +5,6 @@ description: Ends a query.
 tech.root: mf
 ms.assetid: e90086c6-2044-444c-a655-d1f3aea002b4
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoProcessCommandList::EndQuery
 dev_langs:

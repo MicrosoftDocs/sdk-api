@@ -5,7 +5,6 @@ description: The Graphics::IntersectClip method updates the clipping region of t
 ms.assetid: 9aa49ff6-adce-4495-9af2-719ad029f751
 ms.date: 05/13/2019
 ms.keywords: Graphics::IntersectClip
-ms.topic: language-reference
 f1_keywords:
 - gdiplusgraphics/Graphics::IntersectClip
 dev_langs:

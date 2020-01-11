@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 001b8972-6a7f-4964-af8d-a6f31ea3a525
 ms.date: 12/05/2018
 ms.keywords: IsBadCodePtr, IsBadCodePtr function, _win32_isbadcodeptr, base.isbadcodeptr, winbase/IsBadCodePtr
-ms.topic: function
 f1_keywords:
 - winbase/IsBadCodePtr
 dev_langs:

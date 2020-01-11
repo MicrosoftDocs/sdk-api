@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e065ae51-85dd-48ef-9322-de4ade62c0fe
 ms.date: 12/05/2018
 ms.keywords: MFTEnumEx, MFTEnumEx function [Media Foundation], mf.mftenumex, mfapi/MFTEnumEx
-ms.topic: function
 f1_keywords:
 - mfapi/MFTEnumEx
 dev_langs:

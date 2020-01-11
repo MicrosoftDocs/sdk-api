@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 29d1a6d1-0c10-43c1-bef1-b063f07b16a4
 ms.date: 12/05/2018
 ms.keywords: DebugActiveProcessStop, DebugActiveProcessStop function, _win32_debugactiveprocessstop, base.debugactiveprocessstop, debugapi/DebugActiveProcessStop
-ms.topic: function
 f1_keywords:
 - debugapi/DebugActiveProcessStop
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 7b3bc23d-312d-494d-afd0-ce82d2d5136c
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerProcessReceivedPacket, EapHostPeerProcessReceivedPacket function [EAPHost], eaphost.eaphostpeerprocessreceivedpacket, eappapis/EapHostPeerProcessReceivedPacket
-ms.topic: function
 f1_keywords:
 - eappapis/EapHostPeerProcessReceivedPacket
 dev_langs:

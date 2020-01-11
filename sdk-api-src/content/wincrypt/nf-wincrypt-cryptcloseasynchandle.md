@@ -3,7 +3,6 @@ UID: NF:wincrypt.CryptCloseAsyncHandle
 title: CryptCloseAsyncHandle
 ms.date: 4/26/2019
 ms.keywords: CryptCloseAsyncHandle
-ms.topic: language-reference
 f1_keywords:
 - CryptCloseAsyncHandle
 dev_langs:

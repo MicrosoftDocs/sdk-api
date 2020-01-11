@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: be4fa727-962e-4254-8615-58f6ced15fc3
 ms.date: 12/05/2018
 ms.keywords: ConfigureBYOT, ConfigureBYOT method [COM+], ConfigureBYOT method [COM+],IServiceTransactionConfig interface, IServiceTransactionConfig interface [COM+],ConfigureBYOT method, IServiceTransactionConfig.ConfigureBYOT, IServiceTransactionConfig::ConfigureBYOT, _cos_IServiceTransactionConfig_ConfigureBYOT, comsvcs/IServiceTransactionConfig::ConfigureBYOT, cos.iservicetransactionconfig_configurebyot
-ms.topic: method
 f1_keywords:
 - comsvcs/IServiceTransactionConfig.ConfigureBYOT
 dev_langs:

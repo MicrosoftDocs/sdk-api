@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 77150609-d06d-4492-bbd7-21eecd825bde
 ms.date: 12/05/2018
 ms.keywords: GetTcp6Table, GetTcp6Table function [IP Helper], iphlp.gettcp6table, iphlpapi/GetTcp6Table
-ms.topic: function
 f1_keywords:
 - iphlpapi/GetTcp6Table
 dev_langs:

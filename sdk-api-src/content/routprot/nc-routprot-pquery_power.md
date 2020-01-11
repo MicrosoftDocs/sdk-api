@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 591082fb-ef1e-4271-bf6c-d5034bdbae99
 ms.date: 12/05/2018
 ms.keywords: PQUERY_POWER, PQUERY_POWER callback, QueryPower, QueryPower callback function [RAS], _mpr_querypower, routprot/QueryPower, rras.querypower
-ms.topic: callback
 f1_keywords:
 - routprot/QueryPower
 dev_langs:

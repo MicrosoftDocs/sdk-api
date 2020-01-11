@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 5cb911fc-59aa-49c1-9df2-594b0dc22414
 ms.date: 12/05/2018
 ms.keywords: IEnumCall interface [TAPI 2.2],Next method, IEnumCall.Next, IEnumCall::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumCall interface, _tapi3_ienumcall_next, tapi3.ienumcall_next, tapi3if/IEnumCall::Next
-ms.topic: method
 f1_keywords:
 - tapi3if/IEnumCall.Next
 dev_langs:

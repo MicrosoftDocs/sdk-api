@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: D6827DA3-75DC-4F31-B57A-4ED5B5F03112
 ms.date: 12/05/2018
 ms.keywords: TokenBindingVerifyMessage, TokenBindingVerifyMessage function [Security], security.tokenbindingverifymessage, tokenbinding/TokenBindingVerifyMessage
-ms.topic: function
 f1_keywords:
 - tokenbinding/TokenBindingVerifyMessage
 dev_langs:

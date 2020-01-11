@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 7D9A749D-954E-43BA-A522-98CBAD79D18C
 ms.date: 12/05/2018
 ms.keywords: GetPackageTarget, GetPackageTarget method [XPS Documents and Packaging], GetPackageTarget method [XPS Documents and Packaging],IPrintDocumentPackageTarget interface, IPrintDocumentPackageTarget interface [XPS Documents and Packaging],GetPackageTarget method, IPrintDocumentPackageTarget.GetPackageTarget, IPrintDocumentPackageTarget::GetPackageTarget, documenttarget/IPrintDocumentPackageTarget::GetPackageTarget, xps.iprintdocumentpackagetarget_getpackagetarget
-ms.topic: method
 f1_keywords:
 - documenttarget/IPrintDocumentPackageTarget.GetPackageTarget
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: dc5749b1-43b7-4f68-ac38-8a6e99613149
 ms.date: 12/05/2018
 ms.keywords: IMenuPopup, IMenuPopup interface [Windows Shell], IMenuPopup interface [Windows Shell],described, _win32_IMenuPopup, shell.IMenuPopup, shobjidl_core/IMenuPopup
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IMenuPopup
 dev_langs:

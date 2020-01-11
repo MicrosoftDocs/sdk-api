@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: b7fbcfb6-686c-4464-ba78-e689019e74be
 ms.date: 12/05/2018
 ms.keywords: RasSecurityDialogGetInfo, RasSecurityDialogGetInfo function [RAS], _ras_rassecuritydialoggetinfo, rasshost/RasSecurityDialogGetInfo, rras.rassecuritydialoggetinfo
-ms.topic: function
 f1_keywords:
 - rasshost/RasSecurityDialogGetInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: bab167cf-2726-4423-87b3-69227404bddc
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference, ITDirectoryObjectConference interface [TAPI 2.2], ITDirectoryObjectConference interface [TAPI 2.2],described, _tapi3_itdirectoryobjectconference, rend/ITDirectoryObjectConference, tapi3.itdirectoryobjectconference
-ms.topic: interface
 f1_keywords:
 - rend/ITDirectoryObjectConference
 dev_langs:

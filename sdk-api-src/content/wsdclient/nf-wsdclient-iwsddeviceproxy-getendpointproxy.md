@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 088c14a7-f2aa-4415-a056-a0c725602938
 ms.date: 12/05/2018
 ms.keywords: GetEndpointProxy, GetEndpointProxy method, GetEndpointProxy method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetEndpointProxy method, IWSDDeviceProxy.GetEndpointProxy, IWSDDeviceProxy::GetEndpointProxy, ncd.iwsddeviceproxy_getendpointproxy, wsdclient/IWSDDeviceProxy::GetEndpointProxy
-ms.topic: method
 f1_keywords:
 - wsdclient/IWSDDeviceProxy.GetEndpointProxy
 dev_langs:

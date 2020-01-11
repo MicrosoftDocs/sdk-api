@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 55ed2bb7-56d0-41d6-a8c3-dc0ff8cde7f8
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetSigningTimeFormat method, IXpsSigningOptions.SetSigningTimeFormat, IXpsSigningOptions::SetSigningTimeFormat, SetSigningTimeFormat, SetSigningTimeFormat method [XPS Documents and Packaging], SetSigningTimeFormat method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setsigningtimeformat, xpsdigitalsignature/IXpsSigningOptions::SetSigningTimeFormat
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSigningOptions.SetSigningTimeFormat
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 1EBDB616-6FA9-4E4E-9BC6-CA1E382A08D9
 ms.date: 12/05/2018
 ms.keywords: MFCreateMediaBufferFromMediaType, MFCreateMediaBufferFromMediaType function [Media Foundation], mf.mfcreatemediabufferfrommediatype, mfapi/MFCreateMediaBufferFromMediaType
-ms.topic: function
 f1_keywords:
 - mfapi/MFCreateMediaBufferFromMediaType
 dev_langs:

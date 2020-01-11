@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 8d982eb5-a7b5-418e-94ad-3e5dc43d225c
 ms.date: 12/05/2018
 ms.keywords: SnmpCreateSession, SnmpCreateSession function [SNMP], _snmp_snmpcreatesession, snmp.snmpcreatesession, winsnmp/SnmpCreateSession
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpCreateSession
 dev_langs:

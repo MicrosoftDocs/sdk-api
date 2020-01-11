@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneFromPointNormal(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneFromPointNormal, XMPlaneFromPointNormal, XMPlaneFromPointNormal method [DirectX Math Support APIs], dxmath.xmplanefrompointnormal
-ms.topic: function
 f1_keywords:
 - directxmath/XMPlaneFromPointNormal
 dev_langs:

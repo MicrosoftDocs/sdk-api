@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: dadb22b2-6b20-401f-b2b5-256135a345b1
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextSubscribe0, IPsecSaContextSubscribe0 function [Filtering], fwp.ipsecsacontextsubscribe0, fwpmu/IPsecSaContextSubscribe0
-ms.topic: function
 f1_keywords:
 - fwpmu/IPsecSaContextSubscribe0
 dev_langs:

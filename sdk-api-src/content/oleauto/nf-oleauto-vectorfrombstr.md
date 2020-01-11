@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 46cde8da-f6c8-4b29-b4ef-eda30b0fa3f1
 ms.date: 12/05/2018
 ms.keywords: VectorFromBstr, VectorFromBstr function [Automation], _oa96_VectorFromBstr, automat.vectorfrombstr, oleauto/VectorFromBstr
-ms.topic: function
 f1_keywords:
 - oleauto/VectorFromBstr
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_sethotdivider.htm
 ms.date: 12/05/2018
 ms.keywords: FALSE, Header_SetHotDivider, Header_SetHotDivider macro [Windows Controls], TRUE, _win32_Header_SetHotDivider, _win32_Header_SetHotDivider_cpp, commctrl/Header_SetHotDivider, controls.Header_SetHotDivider, controls._win32_Header_SetHotDivider
-ms.topic: macro
 f1_keywords:
 - commctrl/Header_SetHotDivider
 dev_langs:

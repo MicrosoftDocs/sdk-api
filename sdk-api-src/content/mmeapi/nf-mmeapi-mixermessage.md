@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 021669bb-144b-4107-955c-c4cc9cd53c00
 ms.date: 12/05/2018
 ms.keywords: _win32_mixerMessage, mixerMessage, mixerMessage function [Windows Multimedia], mmeapi/mixerMessage, multimedia.mixermessage
-ms.topic: function
 f1_keywords:
 - mmeapi/mixerMessage
 dev_langs:

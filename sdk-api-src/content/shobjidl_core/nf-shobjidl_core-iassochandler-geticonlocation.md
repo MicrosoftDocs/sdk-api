@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4b883c2c-6845-4e53-b41b-83c09091ee53
 ms.date: 12/05/2018
 ms.keywords: GetIconLocation, GetIconLocation method [Windows Shell], GetIconLocation method [Windows Shell],IAssocHandler interface, IAssocHandler interface [Windows Shell],GetIconLocation method, IAssocHandler.GetIconLocation, IAssocHandler::GetIconLocation, _shell_IAssocHandler_GetIconLocation, shell.IAssocHandler_GetIconLocation, shobjidl_core/IAssocHandler::GetIconLocation
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IAssocHandler.GetIconLocation
 dev_langs:

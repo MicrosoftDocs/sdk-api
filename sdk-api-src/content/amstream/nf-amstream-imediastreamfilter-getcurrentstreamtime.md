@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 933f83a3-600e-4897-b4df-a481d2874155
 ms.date: 12/05/2018
 ms.keywords: GetCurrentStreamTime, GetCurrentStreamTime method [DirectShow], GetCurrentStreamTime method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],GetCurrentStreamTime method, IMediaStreamFilter.GetCurrentStreamTime, IMediaStreamFilter::GetCurrentStreamTime, IMediaStreamFilterGetCurrentStreamTime, amstream/IMediaStreamFilter::GetCurrentStreamTime, dshow.imediastreamfilter_getcurrentstreamtime
-ms.topic: method
 f1_keywords:
 - amstream/IMediaStreamFilter.GetCurrentStreamTime
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: f69b745c-d990-42cf-8994-9640bcb7d1bf
 ms.date: 12/05/2018
 ms.keywords: DrtGetInstanceName, DrtGetInstanceName function [Distributed Routing Tables], drt/DrtGetInstanceName, p2p.drtgetinstancename
-ms.topic: function
 f1_keywords:
 - drt/DrtGetInstanceName
 dev_langs:

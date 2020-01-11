@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: a5556124-a832-477d-80ab-424779eb9553
 ms.date: 12/05/2018
 ms.keywords: GetCurrentThreadStackLimits, GetCurrentThreadStackLimits function, base.getcurrentthreadstacklimits, processthreadsapi/GetCurrentThreadStackLimits
-ms.topic: function
 f1_keywords:
 - processthreadsapi/GetCurrentThreadStackLimits
 dev_langs:

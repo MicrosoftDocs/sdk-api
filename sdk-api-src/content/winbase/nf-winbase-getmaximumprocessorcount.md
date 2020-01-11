@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 71ce4fb4-ef63-4750-a842-bbfb1a5b0543
 ms.date: 12/05/2018
 ms.keywords: GetMaximumProcessorCount, GetMaximumProcessorCount function, base.getmaximumprocessorcount, winbase/GetMaximumProcessorCount
-ms.topic: function
 f1_keywords:
 - winbase/GetMaximumProcessorCount
 dev_langs:

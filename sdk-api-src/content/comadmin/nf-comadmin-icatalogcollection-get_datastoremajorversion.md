@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 846f4966-ff58-46b5-a56a-dc14f64fcae7
 ms.date: 12/05/2018
 ms.keywords: DataStoreMajorVersion property [COM+], DataStoreMajorVersion property [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],DataStoreMajorVersion property, ICatalogCollection.DataStoreMajorVersion, ICatalogCollection.get_DataStoreMajorVersion, ICatalogCollection::DataStoreMajorVersion, ICatalogCollection::get_DataStoreMajorVersion, _cos_ICatalogCollection_get_DataStoreMajorVersion, comadmin/ICatalogCollection::DataStoreMajorVersion, comadmin/ICatalogCollection::get_DataStoreMajorVersion, cos.icatalogcollection_datastoremajorversion, get_DataStoreMajorVersion
-ms.topic: method
 f1_keywords:
 - comadmin/ICatalogCollection.DataStoreMajorVersion
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 958cf2e7-0956-489a-904f-01ec00af48d1
 ms.date: 12/05/2018
 ms.keywords: GetSignatureOriginPartName, GetSignatureOriginPartName method [Open Packaging Conventions], GetSignatureOriginPartName method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, IOpcDigitalSignatureManager interface [Open Packaging Conventions],GetSignatureOriginPartName method, IOpcDigitalSignatureManager.GetSignatureOriginPartName, IOpcDigitalSignatureManager::GetSignatureOriginPartName, msopc/IOpcDigitalSignatureManager::GetSignatureOriginPartName, opc.iopcdigitalsignaturemanager_getsignatureoriginpartname
-ms.topic: method
 f1_keywords:
 - msopc/IOpcDigitalSignatureManager.GetSignatureOriginPartName
 dev_langs:

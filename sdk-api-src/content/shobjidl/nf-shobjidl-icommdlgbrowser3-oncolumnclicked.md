@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 19cd3dc6-14e4-494d-b4d7-2c9d4fd0fe55
 ms.date: 12/05/2018
 ms.keywords: ICommDlgBrowser3 interface [Windows Shell],OnColumnClicked method, ICommDlgBrowser3.OnColumnClicked, ICommDlgBrowser3::OnColumnClicked, OnColumnClicked, OnColumnClicked method [Windows Shell], OnColumnClicked method [Windows Shell],ICommDlgBrowser3 interface, _shell_ICommDlgBrowser3_OnColumnClicked, shell.ICommDlgBrowser3_OnColumnClicked, shobjidl/ICommDlgBrowser3::OnColumnClicked
-ms.topic: method
 f1_keywords:
 - shobjidl/ICommDlgBrowser3.OnColumnClicked
 dev_langs:

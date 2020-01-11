@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: f1a9cfb1-1b56-4873-994b-7fe929fdc86c
 ms.date: 12/05/2018
 ms.keywords: PowerRestoreIndividualDefaultPowerScheme, PowerRestoreIndividualDefaultPowerScheme function, base.powerrestoreindividualdefaultpowerscheme, powrprof/PowerRestoreIndividualDefaultPowerScheme
-ms.topic: function
 f1_keywords:
 - powrprof/PowerRestoreIndividualDefaultPowerScheme
 dev_langs:

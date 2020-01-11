@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: ab8ce12a-60c0-4d79-8894-4537c6568e15
 ms.date: 12/05/2018
 ms.keywords: NetGroupDelUser, NetGroupDelUser function [Network Management], _win32_netgroupdeluser, lmaccess/NetGroupDelUser, netmgmt.netgroupdeluser
-ms.topic: function
 f1_keywords:
 - lmaccess/NetGroupDelUser
 dev_langs:

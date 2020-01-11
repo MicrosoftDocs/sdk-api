@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f70407af-d8ee-4333-be32-01887d4add4c
 ms.date: 12/05/2018
 ms.keywords: SHRegDeleteUSValue, SHRegDeleteUSValue function [Windows Shell], SHRegDeleteUSValueA, SHRegDeleteUSValueW, _win32_SHRegDeleteUSValue, shell.SHRegDeleteUSValue, shlwapi/SHRegDeleteUSValue, shlwapi/SHRegDeleteUSValueA, shlwapi/SHRegDeleteUSValueW
-ms.topic: function
 f1_keywords:
 - shlwapi/SHRegDeleteUSValue
 dev_langs:

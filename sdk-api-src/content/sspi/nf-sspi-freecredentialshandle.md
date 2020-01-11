@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: e089618c-8233-475a-9725-39265c6427ab
 ms.date: 12/05/2018
 ms.keywords: FreeCredentialsHandle, FreeCredentialsHandle function [Security], _ssp_freecredentialshandle, security.freecredentialshandle, sspi/FreeCredentialsHandle
-ms.topic: function
 f1_keywords:
 - sspi/FreeCredentialsHandle
 dev_langs:

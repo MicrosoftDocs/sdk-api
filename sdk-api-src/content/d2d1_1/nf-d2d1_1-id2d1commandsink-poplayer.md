@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 885fb53b-da63-4c46-8ca2-306fd430858b
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],PopLayer method, ID2D1CommandSink.PopLayer, ID2D1CommandSink::PopLayer, PopLayer, PopLayer method [Direct2D], PopLayer method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::PopLayer, direct2d.id2d1commandsink_poplayer
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1CommandSink.PopLayer
 dev_langs:

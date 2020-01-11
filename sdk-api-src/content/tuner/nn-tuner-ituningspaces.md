@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: db252e22-8efe-4bfc-8fd3-2be7022bbbbd
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaces, ITuningSpaces interface [Microsoft TV Technologies], ITuningSpaces interface [Microsoft TV Technologies],described, ITuningSpacesInterface, mstv.ituningspaces, tuner/ITuningSpaces
-ms.topic: interface
 f1_keywords:
 - tuner/ITuningSpaces
 dev_langs:

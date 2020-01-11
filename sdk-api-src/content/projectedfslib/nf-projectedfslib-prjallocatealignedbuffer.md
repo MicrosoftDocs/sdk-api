@@ -7,7 +7,6 @@ tech.root: ProjFS
 ms.assetid: 49B723CC-976D-44C6-91D9-0FB26CFD45CA
 ms.date: 12/05/2018
 ms.keywords: PrjAllocateAlignedBuffer, PrjAllocateAlignedBuffer function, ProjFS.prjallocatealignedbuffer, projectedfslib/PrjAllocateAlignedBuffer
-ms.topic: function
 f1_keywords:
 - projectedfslib/PrjAllocateAlignedBuffer
 dev_langs:

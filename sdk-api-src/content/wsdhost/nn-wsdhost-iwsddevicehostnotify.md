@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: e68e347d-5251-4931-bbcc-7a92b46bf4bd
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHostNotify, IWSDDeviceHostNotify interface, IWSDDeviceHostNotify interface,described, ncd.iwsddevicehostnotify, wsdhost/IWSDDeviceHostNotify
-ms.topic: interface
 f1_keywords:
 - wsdhost/IWSDDeviceHostNotify
 dev_langs:

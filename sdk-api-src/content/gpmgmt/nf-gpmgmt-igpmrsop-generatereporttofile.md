@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 92a199d6-244f-44e5-8158-d77b8488fde0
 ms.date: 12/05/2018
 ms.keywords: GenerateReportToFile, GenerateReportToFile method [GPMC], GenerateReportToFile method [GPMC],IGPMRSOP interface, IGPMRSOP interface [GPMC],GenerateReportToFile method, IGPMRSOP.GenerateReportToFile, IGPMRSOP::GenerateReportToFile, gpmc.igpmrsop_generatereporttofile, gpmgmt/IGPMRSOP::GenerateReportToFile
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPMRSOP.GenerateReportToFile
 dev_langs:

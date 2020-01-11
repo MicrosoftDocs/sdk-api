@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 7dbd829e-eaae-42f4-ae39-9ec35cbd3102
 ms.date: 12/05/2018
 ms.keywords: GetStartPoint, GetStartPoint method [XPS Documents and Packaging], GetStartPoint method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetStartPoint method, IXpsOMGeometryFigure.GetStartPoint, IXpsOMGeometryFigure::GetStartPoint, xps.ixpsomgeometryfigure_getstartpoint, xpsobjectmodel/IXpsOMGeometryFigure::GetStartPoint
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGeometryFigure.GetStartPoint
 dev_langs:

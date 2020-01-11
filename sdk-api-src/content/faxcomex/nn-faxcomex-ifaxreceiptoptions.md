@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8k4z_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxReceiptOptions, IFaxReceiptOptions interface [Fax Service], IFaxReceiptOptions interface [Fax Service],described, _mfax_faxreceiptoptions_cpp, fax._mfax_faxreceiptoptions_cpp, faxcomex/IFaxReceiptOptions
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxReceiptOptions
 dev_langs:

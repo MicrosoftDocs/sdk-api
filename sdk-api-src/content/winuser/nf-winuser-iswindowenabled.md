@@ -7,7 +7,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\iswindowenabled.htm
 ms.date: 12/05/2018
 ms.keywords: IsWindowEnabled, IsWindowEnabled function [Keyboard and Mouse Input], _win32_IsWindowEnabled, _win32_iswindowenabled_cpp, inputdev.iswindowenabled, winui._win32_iswindowenabled, winuser/IsWindowEnabled
-ms.topic: function
 f1_keywords:
 - winuser/IsWindowEnabled
 dev_langs:

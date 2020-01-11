@@ -4,7 +4,6 @@ title: LPWSPCONNECT
 description: The LPWSPConnect function establishes a connection to a peer, exchanges connect data, and specifies needed quality of service based on the supplied flow specification.
 ms.date: 9/12/2019
 ms.keywords: LPWSPCONNECT
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: E72DEFAB-1176-47AA-B6FC-35346D63CBD9
 ms.date: 12/05/2018
 ms.keywords: HistogramBlobHeader, HistogramBlobHeader structure [Streaming Media Devices], mfapi/HistogramBlobHeader, stream.histogramblobheader
-ms.topic: struct
 f1_keywords:
 - mfapi/HistogramBlobHeader
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: dc75ee60-7319-4a11-949e-dd0c3deabd8f
 ms.date: 12/05/2018
 ms.keywords: SHCreateItemInKnownFolder, SHCreateItemInKnownFolder function [Windows Shell], _shell_SHCreateItemInKnownFolder, shell.SHCreateItemInKnownFolder, shobjidl_core/SHCreateItemInKnownFolder
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHCreateItemInKnownFolder
 dev_langs:

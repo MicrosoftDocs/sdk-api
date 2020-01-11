@@ -5,7 +5,6 @@ description: TBD
 tech.root: 
 ms.assetid: b7381962-b76e-4041-a080-66408d0f3cb7
 ms.date: 11/14/2019
-ms.topic: interface
 f1_keywords:
 - tuner/IMPEG2TuneRequestSupport
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 51e8937b-0c42-49fe-8930-7af303fce788
 ms.date: 12/05/2018
 ms.keywords: PlayEnhMetaFile, PlayEnhMetaFile function [Windows GDI], _win32_PlayEnhMetaFile, gdi.playenhmetafile, wingdi/PlayEnhMetaFile
-ms.topic: function
 f1_keywords:
 - wingdi/PlayEnhMetaFile
 dev_langs:

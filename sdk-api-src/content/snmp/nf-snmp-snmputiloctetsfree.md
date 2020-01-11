@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: be101ab3-393c-4b1a-882d-0284715d1da4
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilOctetsFree, SnmpUtilOctetsFree function [SNMP], _snmp_snmputiloctetsfree, snmp.snmputiloctetsfree, snmp/SnmpUtilOctetsFree
-ms.topic: function
 f1_keywords:
 - snmp/SnmpUtilOctetsFree
 dev_langs:

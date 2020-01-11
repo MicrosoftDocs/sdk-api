@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\enumerate.htm
 ms.date: 12/05/2018
 ms.keywords: Enumerate, Enumerate method [GDI+], Enumerate method [GDI+],GraphicsPathIterator class, GraphicsPathIterator class [GDI+],Enumerate method, GraphicsPathIterator.Enumerate, GraphicsPathIterator::Enumerate, _gdiplus_CLASS_GraphicsPathIterator_Enumerate_points_types_count_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_Enumerate_points_types_count_
-ms.topic: method
 f1_keywords:
 - gdipluspath/GraphicsPathIterator.Enumerate
 dev_langs:

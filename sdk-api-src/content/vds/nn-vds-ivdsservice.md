@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 6b081cc8-fe06-427f-b06d-831a1f1fef52
 ms.date: 12/05/2018
 ms.keywords: IVdsService, IVdsService interface [VDS], IVdsService interface [VDS],described, base.ivdsservice, vds/IVdsService
-ms.topic: interface
 f1_keywords:
 - vds/IVdsService
 dev_langs:

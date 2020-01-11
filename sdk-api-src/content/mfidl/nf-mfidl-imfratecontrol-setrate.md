@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 428d73fa-f284-4861-a41e-04ea7709db0f
 ms.date: 12/05/2018
 ms.keywords: 428d73fa-f284-4861-a41e-04ea7709db0f, IMFRateControl interface [Media Foundation],SetRate method, IMFRateControl.SetRate, IMFRateControl::SetRate, SetRate, SetRate method [Media Foundation], SetRate method [Media Foundation],IMFRateControl interface, mf.imfratecontrol_setrate, mfidl/IMFRateControl::SetRate
-ms.topic: method
 f1_keywords:
 - mfidl/IMFRateControl.SetRate
 dev_langs:

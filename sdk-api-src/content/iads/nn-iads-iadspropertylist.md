@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 70e9ce0e-ae83-43b7-8b84-99d5e1f8a8d2
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyList, IADsPropertyList interface [ADSI], IADsPropertyList interface [ADSI],described, _ds_iadspropertylist, adsi.iadspropertylist, iads/IADsPropertyList
-ms.topic: interface
 f1_keywords:
 - iads/IADsPropertyList
 dev_langs:

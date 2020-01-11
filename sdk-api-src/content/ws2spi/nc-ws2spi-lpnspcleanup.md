@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: bef888a2-7cfd-4096-bd03-e1864af42365
 ms.date: 12/05/2018
 ms.keywords: LPNSPCLEANUP, NSPCleanup, NSPCleanup function [Winsock], _win32_nspcleanup_2, winsock.nspcleanup_2, ws2spi/NSPCleanup
-ms.topic: callback
 f1_keywords:
 - ws2spi/NSPCleanup
 dev_langs:

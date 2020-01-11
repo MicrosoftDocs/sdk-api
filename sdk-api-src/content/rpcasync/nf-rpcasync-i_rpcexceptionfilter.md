@@ -4,7 +4,6 @@ title: I_RpcExceptionFilter
 description: Determines whether an exception is fatal or non-fatal
 ms.date: 4/26/2019
 ms.keywords: I_RpcExceptionFilter
-ms.topic: language-reference
 f1_keywords:
 - I_RpcExceptionFilter
 dev_langs:

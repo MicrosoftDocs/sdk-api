@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: ed27cc77-7ff2-4f22-87c4-c6edc0709813
 ms.date: 12/05/2018
 ms.keywords: EnrollDenied, EnrollError, EnrollPended, EnrollSkipped, EnrollUIDeferredEnrollmentRequired, EnrollUnknown, Enrolled, EnrollmentEnrollStatus, EnrollmentEnrollStatus enumeration [Security], certenroll/EnrollDenied, certenroll/EnrollError, certenroll/EnrollPended, certenroll/EnrollSkipped, certenroll/EnrollUIDeferredEnrollmentRequired, certenroll/EnrollUnknown, certenroll/Enrolled, certenroll/EnrollmentEnrollStatus, security.enrollmentenrollstatus_enum
-ms.topic: enum
 f1_keywords:
 - certenroll/EnrollmentEnrollStatus
 dev_langs:

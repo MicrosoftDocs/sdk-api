@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: ba15bb69-7b65-47ea-b938-f235e3d9f9ee
 ms.date: 12/05/2018
 ms.keywords: RegisterActiveObject, RegisterActiveObject function [Automation], _oa96_RegisterActiveObject, automat.registeractiveobject, oleauto/RegisterActiveObject
-ms.topic: function
 f1_keywords:
 - oleauto/RegisterActiveObject
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 369f7690-6d70-401a-84aa-e5761dc874b5
 ms.date: 12/05/2018
 ms.keywords: WsGetMessageProperty, WsGetMessageProperty function [Web Services for Windows], webservices/WsGetMessageProperty, wsw.wsgetmessageproperty
-ms.topic: function
 f1_keywords:
 - webservices/WsGetMessageProperty
 dev_langs:

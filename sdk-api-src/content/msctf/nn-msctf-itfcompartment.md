@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: c9ca3eb5-1fb1-4e45-9ec4-a0296f1bc8c3
 ms.date: 12/05/2018
 ms.keywords: ITfCompartment, ITfCompartment interface [Text Services Framework], ITfCompartment interface [Text Services Framework],described, _tsf_itfcompartment_ref, msctf/ITfCompartment, tsf.itfcompartment
-ms.topic: interface
 f1_keywords:
 - msctf/ITfCompartment
 dev_langs:

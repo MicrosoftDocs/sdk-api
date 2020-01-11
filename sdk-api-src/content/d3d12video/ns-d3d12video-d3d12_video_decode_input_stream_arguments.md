@@ -5,7 +5,6 @@ description: Specifies the parameters for the input stream for a video decode op
 tech.root: mf
 ms.assetid: 6eaa5bd2-2381-494c-b081-e1d72fe175f3
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS
 dev_langs:

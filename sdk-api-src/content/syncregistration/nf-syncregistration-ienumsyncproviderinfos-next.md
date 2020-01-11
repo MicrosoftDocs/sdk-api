@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: b56cacfd-9cfe-4f5a-a945-dca299e43497
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncProviderInfos interface [Windows Sync],Next method, IEnumSyncProviderInfos.Next, IEnumSyncProviderInfos::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumSyncProviderInfos interface, syncregistration/IEnumSyncProviderInfos::Next, winsync.ienumsyncproviderinfos_next
-ms.topic: method
 f1_keywords:
 - syncregistration/IEnumSyncProviderInfos.Next
 dev_langs:

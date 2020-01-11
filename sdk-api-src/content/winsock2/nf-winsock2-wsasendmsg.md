@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 3b2ba645-6a70-4ba2-b4a2-5bde0c7f8d08
 ms.date: 12/05/2018
 ms.keywords: WSASendMsg, WSASendMsg function [Winsock], winsock.wsasendmsg, winsock2/WSASendMsg
-ms.topic: function
 f1_keywords:
 - winsock2/WSASendMsg
 dev_langs:

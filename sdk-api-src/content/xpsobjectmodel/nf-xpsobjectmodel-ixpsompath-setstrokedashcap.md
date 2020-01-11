@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 949f366b-1161-4db8-b9b9-d95b422b8931
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeDashCap method, IXpsOMPath.SetStrokeDashCap, IXpsOMPath::SetStrokeDashCap, SetStrokeDashCap, SetStrokeDashCap method [XPS Documents and Packaging], SetStrokeDashCap method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokedashcap, xpsobjectmodel/IXpsOMPath::SetStrokeDashCap
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.SetStrokeDashCap
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: bf0974b1-8ddf-4f88-8b15-75f255f7a9d6
 ms.date: 12/05/2018
 ms.keywords: FwpmNetEventEnum2, FwpmNetEventEnum2 function [Filtering], fwp.fwpmneteventenum2, fwpmu/FwpmNetEventEnum2
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmNetEventEnum2
 dev_langs:

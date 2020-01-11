@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 3e1eb580-8f36-4ddb-8d65-7c7e65dd08bb
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryType, MI_SubscriptionDeliveryType enumeration [Windows Management Infrastructure (MI)], MI_SubscriptionDeliveryType_Pull, MI_SubscriptionDeliveryType_Push, mi/MI_SubscriptionDeliveryType, mi/MI_SubscriptionDeliveryType_Pull, mi/MI_SubscriptionDeliveryType_Push, wmi._mi_subscriptiondeliverytype, wmi_v2.mi_subscriptiondeliverytype
-ms.topic: enum
 f1_keywords:
 - mi/MI_SubscriptionDeliveryType
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ad228cc9-2c13-4e28-8468-7f8c66eb221e
 ms.date: 12/05/2018
 ms.keywords: IPreviewItem, IPreviewItem interface [Windows Shell], IPreviewItem interface [Windows Shell],described, _shell_IPreviewItem, shell.IPreviewItem, shobjidl_core/IPreviewItem
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IPreviewItem
 dev_langs:

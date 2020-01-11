@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 509c1d6e-c7ae-4c74-8635-27071ea37696
 ms.date: 12/05/2018
 ms.keywords: TextPattern_GetVisibleRanges, TextPattern_GetVisibleRanges function [Windows Accessibility], uiauto.uiauto_TextPattern_GetVisibleRangesConPat, uiauto_TextPattern_GetVisibleRangesConPat, uiautomationcoreapi/TextPattern_GetVisibleRanges, winauto.uiauto_TextPattern_GetVisibleRangesConPat
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/TextPattern_GetVisibleRanges
 dev_langs:

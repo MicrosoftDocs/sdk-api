@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 16CFF7ED-642A-48D8-8C72-3EC68B702E50
 ms.date: 12/05/2018
 ms.keywords: IDWriteRemoteFontFileLoader, IDWriteRemoteFontFileLoader interface [Direct Write], IDWriteRemoteFontFileLoader interface [Direct Write],described, directwrite.idwriteremotefontfileloader, dwrite_3/IDWriteRemoteFontFileLoader
-ms.topic: interface
 f1_keywords:
 - dwrite_3/IDWriteRemoteFontFileLoader
 dev_langs:

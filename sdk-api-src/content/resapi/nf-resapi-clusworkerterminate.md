@@ -5,7 +5,6 @@ description: Waits for a worker thread to terminate up to the specified timeout.
 ms.date: 07/01/2019
 tech.root: MsCS
 ms.keywords: ClusWorkerTerminate
-ms.topic: language-reference
 targetos: Windows
 f1_keywords:
 - resapi/ClusWorkerTerminate

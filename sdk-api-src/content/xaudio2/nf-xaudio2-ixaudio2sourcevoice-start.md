@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.Start(UINT32,UINT32)
 ms.date: 12/05/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],Start method, IXAudio2SourceVoice.Start, IXAudio2SourceVoice::Start, Start, Start method [XAudio2 Audio Mixing APIs], Start method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_start, xaudio2/IXAudio2SourceVoice::Start
-ms.topic: method
 f1_keywords:
 - xaudio2/IXAudio2SourceVoice.Start
 dev_langs:

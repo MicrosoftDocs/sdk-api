@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: dccf53c3-19d9-435b-91b7-98e41bd48e29
 ms.date: 12/05/2018
 ms.keywords: IMTSCall, IMTSCall interface [COM+], IMTSCall interface [COM+],described, _cos_IMTSCall, comsvcs/IMTSCall, cos.imtscall
-ms.topic: interface
 f1_keywords:
 - comsvcs/IMTSCall
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 38ecde61-fd4a-4ba3-9cd4-d62a5aa55294
 ms.date: 12/05/2018
 ms.keywords: GetParamText, GetParamText method [DirectShow], GetParamText method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetParamText method, IMediaParamInfo.GetParamText, IMediaParamInfo::GetParamText, IMediaParamInfoGetParamText, dshow.imediaparaminfo_getparamtext, medparam/IMediaParamInfo::GetParamText
-ms.topic: method
 f1_keywords:
 - medparam/IMediaParamInfo.GetParamText
 dev_langs:

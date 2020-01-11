@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 789b2003-1538-4617-a44b-38b80320e21c
 ms.date: 12/05/2018
 ms.keywords: IEnumProgressItems interface [IMAPI],Skip method, IEnumProgressItems.Skip, IEnumProgressItems::Skip, Skip, Skip method [IMAPI], Skip method [IMAPI],IEnumProgressItems interface, imapi.ienumprogressitems_skip, imapi2fs/IEnumProgressItems::Skip
-ms.topic: method
 f1_keywords:
 - imapi2fs/IEnumProgressItems.Skip
 dev_langs:

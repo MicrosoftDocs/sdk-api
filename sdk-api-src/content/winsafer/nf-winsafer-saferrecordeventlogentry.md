@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: 7eb48f80-3a57-46ec-aca1-6ff8c1c514c6
 ms.date: 12/05/2018
 ms.keywords: SaferRecordEventLogEntry, SaferRecordEventLogEntry function [Security], _mnp_saferrecordeventlogentry, security.saferrecordeventlogentry, winsafer/SaferRecordEventLogEntry
-ms.topic: function
 f1_keywords:
 - winsafer/SaferRecordEventLogEntry
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 2e77fa0e-1d98-4c59-8d3c-65bd7235ec8f
 ms.date: 12/05/2018
 ms.keywords: OleConvertOLESTREAMToIStorageEx, OleConvertOLESTREAMToIStorageEx function [Structured Storage], _stg_oleconvertolestreamtoistorageex, ole2/OleConvertOLESTREAMToIStorageEx, stg.oleconvertolestreamtoistorageex
-ms.topic: function
 f1_keywords:
 - ole2/OleConvertOLESTREAMToIStorageEx
 dev_langs:

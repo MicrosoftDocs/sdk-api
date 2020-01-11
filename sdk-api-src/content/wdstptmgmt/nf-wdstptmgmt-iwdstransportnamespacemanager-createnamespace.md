@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: fda205d6-f99a-4fec-96bb-0e37e9ca16ce
 ms.date: 12/05/2018
 ms.keywords: CreateNamespace, CreateNamespace method [Windows Deployment Services], CreateNamespace method [Windows Deployment Services],IWdsTransportNamespaceManager interface, IWdsTransportNamespaceManager interface [Windows Deployment Services],CreateNamespace method, IWdsTransportNamespaceManager.CreateNamespace, IWdsTransportNamespaceManager::CreateNamespace, wds.iwdstransportnamespacemanager_createnamespace, wdstptmgmt/IWdsTransportNamespaceManager::CreateNamespace
-ms.topic: method
 f1_keywords:
 - wdstptmgmt/IWdsTransportNamespaceManager.CreateNamespace
 dev_langs:

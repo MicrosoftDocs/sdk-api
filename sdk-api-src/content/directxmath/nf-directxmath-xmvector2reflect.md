@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2Reflect(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2Reflect, XMVector2Reflect, XMVector2Reflect method [DirectX Math Support APIs], dxmath.xmvector2reflect
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector2Reflect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: E6F3D334-6974-40E2-B00A-17CA5F05C3F4
 ms.date: 12/05/2018
 ms.keywords: '*PCSV_NAMESPACE_INFO, CSV_NAMESPACE_INFO, CSV_NAMESPACE_INFO structure [Files], CSV_NAMESPACE_INFO_V1, PCSV_NAMESPACE_INFO, PCSV_NAMESPACE_INFO structure pointer [Files], fs.csv_namespace_info, winioctl/CSV_NAMESPACE_INFO, winioctl/PCSV_NAMESPACE_INFO'
-ms.topic: struct
 f1_keywords:
 - winioctl/CSV_NAMESPACE_INFO
 dev_langs:

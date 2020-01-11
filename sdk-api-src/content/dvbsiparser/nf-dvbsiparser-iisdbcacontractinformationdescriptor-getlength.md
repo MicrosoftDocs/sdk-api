@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: f8a4f327-c3ad-4170-91c8-57f6dc22e162
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbCAContractInformationDescriptor.GetLength, IIsdbCAContractInformationDescriptor::GetLength, dvbsiparser/IIsdbCAContractInformationDescriptor::GetLength, mstv.iisdbcacontractinformationdescriptor_getlength
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbCAContractInformationDescriptor.GetLength
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: f0f09a9d-e463-4457-9078-3d324fa8d4d6
 ms.date: 12/05/2018
 ms.keywords: FindVolumeMountPointClose, FindVolumeMountPointClose function [Files], _win32_findvolumemountpointclose, base.findvolumemountpointclose, fs.findvolumemountpointclose, winbase/FindVolumeMountPointClose
-ms.topic: function
 f1_keywords:
 - winbase/FindVolumeMountPointClose
 dev_langs:

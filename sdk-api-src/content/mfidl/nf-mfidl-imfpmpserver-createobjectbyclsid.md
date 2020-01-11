@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: ece956bb-ee83-42c7-9410-90f34956fdde
 ms.date: 12/05/2018
 ms.keywords: CreateObjectByCLSID, CreateObjectByCLSID method [Media Foundation], CreateObjectByCLSID method [Media Foundation],IMFPMPServer interface, IMFPMPServer interface [Media Foundation],CreateObjectByCLSID method, IMFPMPServer.CreateObjectByCLSID, IMFPMPServer::CreateObjectByCLSID, ece956bb-ee83-42c7-9410-90f34956fdde, mf.imfpmpserver_createobjectbyclsid, mfidl/IMFPMPServer::CreateObjectByCLSID
-ms.topic: method
 f1_keywords:
 - mfidl/IMFPMPServer.CreateObjectByCLSID
 dev_langs:

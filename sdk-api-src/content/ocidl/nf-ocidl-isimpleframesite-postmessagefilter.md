@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: b9725ef9-16e0-4574-9b94-826814a396be
 ms.date: 12/05/2018
 ms.keywords: ISimpleFrameSite interface [COM],PostMessageFilter method, ISimpleFrameSite.PostMessageFilter, ISimpleFrameSite::PostMessageFilter, PostMessageFilter, PostMessageFilter method [COM], PostMessageFilter method [COM],ISimpleFrameSite interface, _ctrl_isimpleframesite_postmessagefilter, com.isimpleframesite_postmessagefilter, ocidl/ISimpleFrameSite::PostMessageFilter
-ms.topic: method
 f1_keywords:
 - ocidl/ISimpleFrameSite.PostMessageFilter
 dev_langs:

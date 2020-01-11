@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 90535A05-9835-45F2-A62F-718736A80ED3
 ms.date: 12/05/2018
 ms.keywords: RpcServerInterfaceGroupInqBindings, RpcServerInterfaceGroupInqBindings function [RPC], rpc.rpcserverinterfacegroupinqbindings, rpcdce/RpcServerInterfaceGroupInqBindings
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcServerInterfaceGroupInqBindings
 dev_langs:

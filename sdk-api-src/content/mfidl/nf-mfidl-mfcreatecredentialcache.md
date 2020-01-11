@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: ec27f54a-4534-4342-856b-f6f55c5a7fdb
 ms.date: 12/05/2018
 ms.keywords: MFCreateCredentialCache, MFCreateCredentialCache function [Media Foundation], ec27f54a-4534-4342-856b-f6f55c5a7fdb, mf.mfcreatecredentialcache, mfidl/MFCreateCredentialCache
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreateCredentialCache
 dev_langs:

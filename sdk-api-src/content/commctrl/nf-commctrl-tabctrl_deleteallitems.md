@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_deleteallitems.htm
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_DeleteAllItems, TabCtrl_DeleteAllItems macro [Windows Controls], _win32_TabCtrl_DeleteAllItems, _win32_TabCtrl_DeleteAllItems_cpp, commctrl/TabCtrl_DeleteAllItems, controls.TabCtrl_DeleteAllItems, controls._win32_TabCtrl_DeleteAllItems
-ms.topic: macro
 f1_keywords:
 - commctrl/TabCtrl_DeleteAllItems
 dev_langs:

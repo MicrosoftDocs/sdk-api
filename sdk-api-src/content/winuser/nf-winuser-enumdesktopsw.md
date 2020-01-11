@@ -7,7 +7,6 @@ tech.root: winstation
 ms.assetid: 3e900b34-2c60-4281-881f-13a746674aec
 ms.date: 12/05/2018
 ms.keywords: EnumDesktops, EnumDesktops function [Windows Stations and Desktops], EnumDesktopsA, EnumDesktopsW, _win32_enumdesktops, base.enumdesktops, winstation.enumdesktops, winuser/EnumDesktops, winuser/EnumDesktopsA, winuser/EnumDesktopsW
-ms.topic: function
 f1_keywords:
 - winuser/EnumDesktops
 dev_langs:

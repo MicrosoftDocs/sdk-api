@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0195d515-4018-4a96-9af9-566fcdeffaf7
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],NameSetLock method, IMSVidStreamBufferSink.NameSetLock, IMSVidStreamBufferSink::NameSetLock, IMSVidStreamBufferSinkNameSetLock, NameSetLock, NameSetLock method [Microsoft TV Technologies], NameSetLock method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_namesetlock, segment/IMSVidStreamBufferSink::NameSetLock
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferSink.NameSetLock
 dev_langs:

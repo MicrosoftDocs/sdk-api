@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 841858AA-4840-4B04-B54A-F10362D43F5B
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutputDuplication interface [DXGI],ReleaseFrame method, IDXGIOutputDuplication.ReleaseFrame, IDXGIOutputDuplication::ReleaseFrame, ReleaseFrame, ReleaseFrame method [DXGI], ReleaseFrame method [DXGI],IDXGIOutputDuplication interface, direct3ddxgi.idxgioutputduplication_releaseframe, dxgi1_2/IDXGIOutputDuplication::ReleaseFrame
-ms.topic: method
 f1_keywords:
 - dxgi1_2/IDXGIOutputDuplication.ReleaseFrame
 dev_langs:

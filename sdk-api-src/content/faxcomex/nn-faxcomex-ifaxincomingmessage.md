@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_44h1_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage, IFaxIncomingMessage interface [Fax Service], IFaxIncomingMessage interface [Fax Service],described, _mfax_faxincomingmessage_cpp, fax._mfax_faxincomingmessage_cpp, faxcomex/IFaxIncomingMessage
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxIncomingMessage
 dev_langs:

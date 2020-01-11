@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 52186ddb-ea08-4615-a3df-35ea7288270c
 ms.date: 12/05/2018
 ms.keywords: GetFileSize, GetFileSize method [Direct Write], GetFileSize method [Direct Write],IDWriteFontFileStream interface, IDWriteFontFileStream interface [Direct Write],GetFileSize method, IDWriteFontFileStream.GetFileSize, IDWriteFontFileStream::GetFileSize, directwrite.IDWriteFontFileStream_GetFileSize, dwrite/IDWriteFontFileStream::GetFileSize
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteFontFileStream.GetFileSize
 dev_langs:

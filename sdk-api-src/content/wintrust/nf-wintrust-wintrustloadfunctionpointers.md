@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: c36db226-34b4-4a31-b8c6-b9d124acc669
 ms.date: 12/05/2018
 ms.keywords: HTTPSPROV_ACTION, WINTRUST_ACTION_GENERIC_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WintrustLoadFunctionPointers, WintrustLoadFunctionPointers function [Security], security.wintrustloadfunctionpointers, wintrust/WintrustLoadFunctionPointers
-ms.topic: function
 f1_keywords:
 - wintrust/WintrustLoadFunctionPointers
 dev_langs:

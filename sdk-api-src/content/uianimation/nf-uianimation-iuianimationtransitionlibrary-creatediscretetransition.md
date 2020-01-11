@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 7c3f6ccb-7a42-4a48-90ad-dba99c67aa6f
 ms.date: 12/05/2018
 ms.keywords: CreateDiscreteTransition, CreateDiscreteTransition method [Windows Animation], CreateDiscreteTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateDiscreteTransition method, IUIAnimationTransitionLibrary.CreateDiscreteTransition, IUIAnimationTransitionLibrary::CreateDiscreteTransition, uianimation.iuianimationtransitionlibrary_creatediscretetransition, uianimation/IUIAnimationTransitionLibrary::CreateDiscreteTransition
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationTransitionLibrary.CreateDiscreteTransition
 dev_langs:

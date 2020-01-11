@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_gettext.htm
 ms.date: 12/05/2018
 ms.keywords: Static_GetText, Static_GetText macro [Windows Controls], _win32_Static_GetText, _win32_Static_GetText_cpp, controls.Static_GetText, controls._win32_Static_GetText, windowsx/Static_GetText
-ms.topic: macro
 f1_keywords:
 - windowsx/Static_GetText
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\recipients.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage2 interface [Fax Service],Recipients property, IFaxIncomingMessage2.Recipients, IFaxIncomingMessage2.get_Recipients, IFaxIncomingMessage2.put_Recipients, IFaxIncomingMessage2::Recipients, IFaxIncomingMessage2::get_Recipients, IFaxIncomingMessage2::put_Recipients, Recipients property [Fax Service], Recipients property [Fax Service],IFaxIncomingMessage2 interface, _mfax_faxincomingmessage.recipients, fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_recipients_cpp, fax._mfax_faxincomingmessage_recipients, faxcomex/IFaxIncomingMessage2::Recipients, faxcomex/IFaxIncomingMessage2::get_Recipients, faxcomex/IFaxIncomingMessage2::put_Recipients, put_Recipients
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxIncomingMessage2.Recipients
 dev_langs:

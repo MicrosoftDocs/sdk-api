@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: dfb8a996-89df-4975-ac13-d871598a2787
 ms.date: 12/05/2018
 ms.keywords: IActionProgress interface [Windows Shell],UpdateText method, IActionProgress.UpdateText, IActionProgress::UpdateText, UpdateText, UpdateText method [Windows Shell], UpdateText method [Windows Shell],IActionProgress interface, shell.IActionProgress_UpdateText, shell_IActionProgress_UpdateText, shobjidl_core/IActionProgress::UpdateText
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IActionProgress.UpdateText
 dev_langs:

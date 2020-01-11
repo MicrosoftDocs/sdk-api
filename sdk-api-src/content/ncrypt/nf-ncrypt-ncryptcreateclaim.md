@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: EBEE3A67-0693-4B85-88B1-580CB2152703
 ms.date: 12/05/2018
 ms.keywords: NCryptCreateClaim, NCryptCreateClaim function [Security], ncrypt/NCryptCreateClaim, security.ncryptcreateclaim
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptCreateClaim
 dev_langs:

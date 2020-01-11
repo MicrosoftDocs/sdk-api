@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: c0817edb-49af-48b8-82d0-a8c0a827f290
 ms.date: 12/05/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],resume method, IWMPDVD.resume, IWMPDVD::resume, IWMPDVDresume, resume, resume method [Windows Media Player], resume method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_resume, wmp/IWMPDVD::resume
-ms.topic: method
 f1_keywords:
 - wmp/IWMPDVD.resume
 dev_langs:

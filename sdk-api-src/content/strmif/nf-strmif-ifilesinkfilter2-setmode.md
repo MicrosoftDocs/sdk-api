@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a32ae597-1468-4ac8-ae7b-8831d2a9ad6e
 ms.date: 12/05/2018
 ms.keywords: IFileSinkFilter2 interface [DirectShow],SetMode method, IFileSinkFilter2.SetMode, IFileSinkFilter2::SetMode, IFileSinkFilter2SetMode, SetMode, SetMode method [DirectShow], SetMode method [DirectShow],IFileSinkFilter2 interface, dshow.ifilesinkfilter2_setmode, strmif/IFileSinkFilter2::SetMode
-ms.topic: method
 f1_keywords:
 - strmif/IFileSinkFilter2.SetMode
 dev_langs:

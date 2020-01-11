@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 3a5a7ffd-15e1-4313-ad44-e720cd260f02
 ms.date: 12/05/2018
 ms.keywords: GetSettings, GetSettings method [Remote Desktop Services], GetSettings method [Remote Desktop Services],IWRdsProtocolSettings interface, IWRdsProtocolSettings interface [Remote Desktop Services],GetSettings method, IWRdsProtocolSettings.GetSettings, IWRdsProtocolSettings::GetSettings, termserv.iwrdsprotocolsettings_getsettings, wtsprotocol/IWRdsProtocolSettings::GetSettings
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWRdsProtocolSettings.GetSettings
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: b37462aa-cd1c-4986-ad23-f9523c962d19
 ms.date: 12/05/2018
 ms.keywords: IEnumDiskQuotaUsers interface [Files],Skip method, IEnumDiskQuotaUsers.Skip, IEnumDiskQuotaUsers::Skip, Skip, Skip method [Files], Skip method [Files],IEnumDiskQuotaUsers interface, _win32_ienumdiskquotausers_skip, base.ienumdiskquotausers_skip, dskquota/IEnumDiskQuotaUsers::Skip, fs.ienumdiskquotausers_skip
-ms.topic: method
 f1_keywords:
 - dskquota/IEnumDiskQuotaUsers.Skip
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\reset.htm
 ms.date: 12/05/2018
 ms.keywords: IEnumWiaItem interface [WIA],Reset method, IEnumWiaItem.Reset, IEnumWiaItem::Reset, Reset, Reset method [WIA], Reset method [WIA],IEnumWiaItem interface, _wia_IEnumWiaItem_Reset, wia._wia_IEnumWiaItem_Reset, wia_xp/IEnumWiaItem::Reset
-ms.topic: method
 f1_keywords:
 - wia_xp/IEnumWiaItem.Reset
 dev_langs:

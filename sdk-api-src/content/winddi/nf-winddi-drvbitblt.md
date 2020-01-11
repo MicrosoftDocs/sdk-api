@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: d7b4e25c-b9a1-4200-b449-b7c7ed059db4
 ms.date: 12/05/2018
 ms.keywords: DrvBitBlt, DrvBitBlt function [Display Devices], ddifncs_1314a0f2-0f0d-4b76-b060-207e332dafde.xml, display.drvbitblt, winddi/DrvBitBlt
-ms.topic: function
 f1_keywords:
 - winddi/DrvBitBlt
 dev_langs:

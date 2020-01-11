@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 864B6B5D-EB7E-4C49-A326-9B6704A27635
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSource, IMFCaptureSource interface [Media Foundation], IMFCaptureSource interface [Media Foundation],described, mf.imfcapturesource, mfcaptureengine/IMFCaptureSource
-ms.topic: interface
 f1_keywords:
 - mfcaptureengine/IMFCaptureSource
 dev_langs:

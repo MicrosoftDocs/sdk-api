@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 731f64bf-49f0-4799-b84a-9ca04292aa91
 ms.date: 12/05/2018
 ms.keywords: CryptSIPPutSignedDataMsg, CryptSIPPutSignedDataMsg function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, mssip/CryptSIPPutSignedDataMsg, security.cryptsipputsigneddatamsg
-ms.topic: function
 f1_keywords:
 - mssip/CryptSIPPutSignedDataMsg
 dev_langs:

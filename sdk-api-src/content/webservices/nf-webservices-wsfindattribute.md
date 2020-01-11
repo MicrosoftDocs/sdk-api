@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: beb00382-6cc0-42c6-b835-4ebc94c5faa2
 ms.date: 12/05/2018
 ms.keywords: WsFindAttribute, WsFindAttribute function [Web Services for Windows], webservices/WsFindAttribute, wsw.wsfindattribute
-ms.topic: function
 f1_keywords:
 - webservices/WsFindAttribute
 dev_langs:

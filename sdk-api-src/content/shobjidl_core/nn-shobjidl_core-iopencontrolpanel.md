@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: fbf86553-7aa1-4a0f-9775-5f71f41b1705
 ms.date: 12/05/2018
 ms.keywords: IOpenControlPanel, IOpenControlPanel interface [Windows Shell], IOpenControlPanel interface [Windows Shell],described, _shell_IOpenControlPanel, shell.IOpenControlPanel, shobjidl_core/IOpenControlPanel
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IOpenControlPanel
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6794c94a-8efe-4d53-a4f4-e25d14644270
 ms.date: 12/05/2018
 ms.keywords: IPMT interface [Microsoft TV Technologies],RegisterForNextTable method, IPMT.RegisterForNextTable, IPMT::RegisterForNextTable, IPMTRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::RegisterForNextTable, mstv.ipmt_registerfornexttable
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/IPMT.RegisterForNextTable
 dev_langs:

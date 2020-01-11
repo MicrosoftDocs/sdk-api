@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5oz1.htm
 ms.date: 12/05/2018
 ms.keywords: FAX_PRIORITY_TYPE_ENUM, FAX_PRIORITY_TYPE_ENUM enumeration [Fax Service], _mfax_fax_priority_type_enum, fax._mfax_fax_priority_type_enum, faxcomex/FAX_PRIORITY_TYPE_ENUM, faxcomex/fptHIGH, faxcomex/fptLOW, faxcomex/fptNORMAL, fptHIGH, fptLOW, fptNORMAL
-ms.topic: enum
 f1_keywords:
 - faxcomex/FAX_PRIORITY_TYPE_ENUM
 dev_langs:

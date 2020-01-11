@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 4FB5D8D5-992C-49D2-87FE-FA1F34D98D70
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetAdjustedFrameNumber, WinUsb_GetAdjustedFrameNumber function [Buses], buses.winusb_getadjustedframenumber, winusb/WinUsb_GetAdjustedFrameNumber
-ms.topic: function
 f1_keywords:
 - winusb/WinUsb_GetAdjustedFrameNumber
 dev_langs:

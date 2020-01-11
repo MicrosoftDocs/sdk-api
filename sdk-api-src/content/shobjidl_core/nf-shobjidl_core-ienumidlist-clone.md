@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f0118153-25ea-42d6-90bf-b85ffd99b74b
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumIDList interface, IEnumIDList interface [Windows Shell],Clone method, IEnumIDList.Clone, IEnumIDList::Clone, _win32_IEnumIDList_Clone, shell.IEnumIDList_Clone, shobjidl_core/IEnumIDList::Clone
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IEnumIDList.Clone
 dev_langs:

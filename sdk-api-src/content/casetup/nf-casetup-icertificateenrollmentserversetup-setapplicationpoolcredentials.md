@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: E85DA115-C705-44B8-B4D4-E862634CDC41
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],SetApplicationPoolCredentials method, ICertificateEnrollmentServerSetup.SetApplicationPoolCredentials, ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials, SetApplicationPoolCredentials, SetApplicationPoolCredentials method [Security], SetApplicationPoolCredentials method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials, security.icertificateenrollmentserversetup_setapplicationpoolcredentials
-ms.topic: method
 f1_keywords:
 - casetup/ICertificateEnrollmentServerSetup.SetApplicationPoolCredentials
 dev_langs:

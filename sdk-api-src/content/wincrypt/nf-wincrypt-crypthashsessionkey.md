@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 75781993-7faf-4149-80cc-ae50dbd4de2a
 ms.date: 12/05/2018
 ms.keywords: CRYPT_LITTLE_ENDIAN, CryptHashSessionKey, CryptHashSessionKey function [Security], _crypto2_crypthashsessionkey, security.crypthashsessionkey, wincrypt/CryptHashSessionKey
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptHashSessionKey
 dev_langs:

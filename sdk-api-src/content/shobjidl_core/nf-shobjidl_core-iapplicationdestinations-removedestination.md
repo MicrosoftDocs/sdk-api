@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d1c33908-8450-4baf-8598-535a1941820c
 ms.date: 12/05/2018
 ms.keywords: IApplicationDestinations interface [Windows Shell],RemoveDestination method, IApplicationDestinations.RemoveDestination, IApplicationDestinations::RemoveDestination, RemoveDestination, RemoveDestination method [Windows Shell], RemoveDestination method [Windows Shell],IApplicationDestinations interface, _shell_IApplicationDestinations_RemoveDestination, shell.IApplicationDestinations_RemoveDestination, shobjidl_core/IApplicationDestinations::RemoveDestination
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IApplicationDestinations.RemoveDestination
 dev_langs:

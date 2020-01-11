@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.Contains(BoundingBox)
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere interface [DirectX Math Support APIs],Contains method, BoundingSphere.Contains, BoundingSphere.Contains(const BoundingBox &), BoundingSphere.Contains(const BoundingBox&), BoundingSphere::Contains, BoundingSphere::Contains(const BoundingBox &), Contains, Contains method [DirectX Math Support APIs], Contains method [DirectX Math Support APIs],BoundingSphere interface, dxmath.boundingsphere_contains_3
-ms.topic: method
 f1_keywords:
 - directxcollision/BoundingSphere.Contains
 dev_langs:

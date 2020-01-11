@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: 71a9a573-a354-47ce-89a0-ebc5acd86159
 ms.date: 12/05/2018
 ms.keywords: IRdcFileWriter interface [Remote Differential Compression],Truncate method, IRdcFileWriter.Truncate, IRdcFileWriter::Truncate, Truncate, Truncate method [Remote Differential Compression], Truncate method [Remote Differential Compression],IRdcFileWriter interface, fs.irdcfilewriter_truncate, msrdc/IRdcFileWriter::Truncate, rdc.irdcfilewriter_truncate
-ms.topic: method
 f1_keywords:
 - msrdc/IRdcFileWriter.Truncate
 dev_langs:

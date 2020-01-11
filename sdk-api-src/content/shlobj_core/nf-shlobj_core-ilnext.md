@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9f9650b3-1f0c-413c-bc32-29dd81556ce0
 ms.date: 12/05/2018
 ms.keywords: ILNext, ILNext function [Windows Shell], ILNext(PCUIDLIST_RELATIVE), _shell_ILNext_PCUIDLIST_RELATIVE, shell.ILNext_PCUIDLIST_RELATIVE, shlobj_core/ILNext
-ms.topic: function
 f1_keywords:
 - shlobj_core/ILNext
 dev_langs:

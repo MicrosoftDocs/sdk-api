@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: d3da183d-eb12-4411-b461-b58689ef5bff
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesFileSysInfo, IOfflineFilesFileSysInfo interface [Offline Files], IOfflineFilesFileSysInfo interface [Offline Files],described, cscobj/IOfflineFilesFileSysInfo, of.iofflinefilesfilesysinfo
-ms.topic: interface
 f1_keywords:
 - cscobj/IOfflineFilesFileSysInfo
 dev_langs:

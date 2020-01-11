@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: 9c03f24c-073f-40bc-aee7-c462d4e2d781
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelperEx, INetDiagHelperEx interface [NDF], INetDiagHelperEx interface [NDF],described, ndf.inetdiaghelperex, ndhelper/INetDiagHelperEx
-ms.topic: interface
 f1_keywords:
 - ndhelper/INetDiagHelperEx
 dev_langs:

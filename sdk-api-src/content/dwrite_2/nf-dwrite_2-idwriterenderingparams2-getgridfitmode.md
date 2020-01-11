@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: E455D3B7-FF2E-44D0-93E4-9FFA5D6BC328
 ms.date: 12/05/2018
 ms.keywords: GetGridFitMode, GetGridFitMode method [Direct Write], GetGridFitMode method [Direct Write],IDWriteRenderingParams2 interface, IDWriteRenderingParams2 interface [Direct Write],GetGridFitMode method, IDWriteRenderingParams2.GetGridFitMode, IDWriteRenderingParams2::GetGridFitMode, directwrite.idwriterenderingparams2_getgridfitmode, dwrite_2/IDWriteRenderingParams2::GetGridFitMode
-ms.topic: method
 f1_keywords:
 - dwrite_2/IDWriteRenderingParams2.GetGridFitMode
 dev_langs:

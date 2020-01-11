@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 023abd16-7a07-4247-96cc-607a5e313bad
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [ICS/ICF], Disconnect method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],Disconnect method, INetConnection.Disconnect, INetConnection::Disconnect, _ics_inetconnection_disconnect, ics.inetconnection_disconnect, netcon/INetConnection::Disconnect
-ms.topic: method
 f1_keywords:
 - netcon/INetConnection.Disconnect
 dev_langs:

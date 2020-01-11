@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 77246a9f-15fa-48a7-a4a8-9f7579b195c7
 ms.date: 12/05/2018
 ms.keywords: DrvGetModuleHandle, DrvGetModuleHandle function [Windows Multimedia], _win32_DrvGetModuleHandle, mmsystem/DrvGetModuleHandle, multimedia.drvgetmodulehandle
-ms.topic: function
 f1_keywords:
 - mmiscapi/DrvGetModuleHandle
 dev_langs:

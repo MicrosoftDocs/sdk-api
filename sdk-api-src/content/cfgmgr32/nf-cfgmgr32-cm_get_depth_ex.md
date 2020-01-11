@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 1b82df77-56b1-4bb4-9964-76d6d120dd6e
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Depth_Ex, CM_Get_Depth_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Depth_Ex, cfgmgrfn_a709eff6-4f44-4f1e-b0a4-23d67963f152.xml, devinst.cm_get_depth_ex
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Get_Depth_Ex
 dev_langs:

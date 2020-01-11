@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: e440e696-37a5-4853-b205-a4701b2c9beb
 ms.date: 12/05/2018
 ms.keywords: DSEditSecurity, DSEditSecurity function [Security], dssec/DSEditSecurity, security.dseditsecurity
-ms.topic: function
 f1_keywords:
 - dssec/DSEditSecurity
 dev_langs:

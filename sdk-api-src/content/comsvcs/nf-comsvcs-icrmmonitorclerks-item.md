@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: af25d159-95e6-4695-9350-9a3c1bc034e9
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorClerks interface [COM+],Item method, ICrmMonitorClerks.Item, ICrmMonitorClerks::Item, Item, Item method [COM+], Item method [COM+],ICrmMonitorClerks interface, _dtc_ICrmMonitorClerks_Item, comsvcs/ICrmMonitorClerks::Item, cos.icrmmonitorclerks_item
-ms.topic: method
 f1_keywords:
 - comsvcs/ICrmMonitorClerks.Item
 dev_langs:

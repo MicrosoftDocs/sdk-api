@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: d36c9c17-13b1-4f68-9406-f17ed4c39062
 ms.date: 12/05/2018
 ms.keywords: VARIANT_UserFree64, VARIANT_UserFree64 function [Automation], automat.variant_userfree64, oaidl/VARIANT_UserFree64
-ms.topic: function
 f1_keywords:
 - oaidl/VARIANT_UserFree64
 dev_langs:

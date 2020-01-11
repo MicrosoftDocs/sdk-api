@@ -7,7 +7,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\structs\mil_rectd.htm
 ms.date: 12/05/2018
 ms.keywords: MIL_RECTD, MIL_RECTD structure [WPF Bitmap Effects], MilRectD, _wibe_mil_rectd, mileffects/MIL_RECTD, wibe._wibe_mil_rectd
-ms.topic: struct
 f1_keywords:
 - mileffects/MIL_RECTD
 dev_langs:

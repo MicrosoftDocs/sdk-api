@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: b9bca010-7401-4a2f-95df-a5d0ef3dbfae
 ms.date: 12/05/2018
 ms.keywords: GetClusterNetInterface, GetClusterNetInterface function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NET_INTERFACE, PCLUSAPI_GET_CLUSTER_NET_INTERFACE function [Failover Cluster], _wolf_getclusternetinterface, clusapi/GetClusterNetInterface, clusapi/PCLUSAPI_GET_CLUSTER_NET_INTERFACE, mscs.getclusternetinterface
-ms.topic: function
 f1_keywords:
 - clusapi/GetClusterNetInterface
 dev_langs:

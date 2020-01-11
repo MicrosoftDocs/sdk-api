@@ -7,7 +7,6 @@ tech.root: ProjFS
 ms.assetid: 1B218D41-AF24-48C2-9E11-7E0455CE15AC
 ms.date: 12/05/2018
 ms.keywords: PRJ_QUERY_FILE_NAME_CB, PRJ_QUERY_FILE_NAME_CB callback, PRJ_QUERY_FILE_NAME_CB callback function, ProjFS.prj_query_file_name_cb, projectedfslib/PRJ_QUERY_FILE_NAME_CB
-ms.topic: callback
 f1_keywords:
 - projectedfslib/PRJ_QUERY_FILE_NAME_CB
 dev_langs:

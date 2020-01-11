@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\getcount.htm
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [GDI+], GetCount method [GDI+],GraphicsPathIterator class, GraphicsPathIterator class [GDI+],GetCount method, GraphicsPathIterator.GetCount, GraphicsPathIterator::GetCount, _gdiplus_CLASS_GraphicsPathIterator_GetCount_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_GetCount_
-ms.topic: method
 f1_keywords:
 - gdipluspath/GraphicsPathIterator.GetCount
 dev_langs:

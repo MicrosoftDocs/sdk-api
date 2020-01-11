@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: f66dbfd1-331f-4e1b-a17e-f8071044d073
 ms.date: 12/05/2018
 ms.keywords: IX509NameValuePairs interface [Security],Remove method, IX509NameValuePairs.Remove, IX509NameValuePairs::Remove, Remove, Remove method [Security], Remove method [Security],IX509NameValuePairs interface, certenroll/IX509NameValuePairs::Remove, security.ix509namevaluepairs_remove_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509NameValuePairs.Remove
 dev_langs:

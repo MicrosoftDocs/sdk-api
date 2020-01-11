@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflectiontype_getmembertypebyname.htm
 ms.date: 12/05/2018
 ms.keywords: GetMemberTypeByName, GetMemberTypeByName method [Direct3D 10], GetMemberTypeByName method [Direct3D 10],ID3D10ShaderReflectionType interface, ID3D10ShaderReflectionType interface [Direct3D 10],GetMemberTypeByName method, ID3D10ShaderReflectionType.GetMemberTypeByName, ID3D10ShaderReflectionType::GetMemberTypeByName, d3d10shader/ID3D10ShaderReflectionType::GetMemberTypeByName, d7735138-8dfe-8eb2-a7a0-debca04496e6, direct3d10.id3d10shaderreflectiontype_getmembertypebyname
-ms.topic: method
 f1_keywords:
 - d3d10shader/ID3D10ShaderReflectionType.GetMemberTypeByName
 dev_langs:

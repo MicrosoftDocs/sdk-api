@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 039a24d0-8cda-48bf-a10b-baf6d76c808d
 ms.date: 12/05/2018
 ms.keywords: GetPalette, GetPalette method [Windows Shell], GetPalette method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetPalette method, IBrowserService.GetPalette, IBrowserService::GetPalette, shdeprecated/IBrowserService::GetPalette, shell.IBrowserService_GetPalette, zone_IBrowserService_GetPalette
-ms.topic: method
 f1_keywords:
 - shdeprecated/IBrowserService.GetPalette
 dev_langs:

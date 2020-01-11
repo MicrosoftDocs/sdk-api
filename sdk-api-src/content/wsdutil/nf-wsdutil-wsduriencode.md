@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 3d086ac8-0c14-46fb-baa5-b1d89b86ebbb
 ms.date: 12/05/2018
 ms.keywords: WSDUriEncode, WSDUriEncode function, ncd.wsduriencode, wsdutil/WSDUriEncode
-ms.topic: function
 f1_keywords:
 - wsdutil/WSDUriEncode
 dev_langs:

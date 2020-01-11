@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 129e682c-bc95-46d5-a0d3-adbadc7e6478
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_GET_METADATA_INFO, FSCTL_TXFS_GET_METADATA_INFO control, FSCTL_TXFS_GET_METADATA_INFO control code [Files], fs.fsctl_txfs_get_metadata_info, winioctl/FSCTL_TXFS_GET_METADATA_INFO
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_TXFS_GET_METADATA_INFO
 dev_langs:

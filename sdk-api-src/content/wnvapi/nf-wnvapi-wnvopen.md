@@ -7,7 +7,6 @@ tech.root: wnv
 ms.assetid: C20BA303-7ECD-4CF3-BB5E-D4509162CD85
 ms.date: 12/05/2018
 ms.keywords: WnvOpen, WnvOpen function [Windows Network Virtualization], wnv.wnvopen, wnvapi/WnvOpen
-ms.topic: function
 f1_keywords:
 - wnvapi/WnvOpen
 dev_langs:

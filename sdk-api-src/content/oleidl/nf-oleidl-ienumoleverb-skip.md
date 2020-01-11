@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: f949f993-1c4c-4d42-ba23-93330f0e9967
 ms.date: 12/05/2018
 ms.keywords: IEnumOLEVERB interface [COM],Skip method, IEnumOLEVERB.Skip, IEnumOLEVERB::Skip, Skip, Skip method [COM], Skip method [COM],IEnumOLEVERB interface, _ole_ienumoleverb_skip, com.ienumoleverb_skip, oleidl/IEnumOLEVERB::Skip
-ms.topic: method
 f1_keywords:
 - oleidl/IEnumOLEVERB.Skip
 dev_langs:

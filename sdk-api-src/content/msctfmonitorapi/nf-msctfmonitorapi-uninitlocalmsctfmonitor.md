@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 73c8b170-da76-4710-b307-61c42954997a
 ms.date: 12/05/2018
 ms.keywords: UninitLocalMsCtfMonitor, UninitLocalMsCtfMonitor function [Text Services Framework], msctfmonitorapi/UninitLocalMsCtfMonitor, tsf.UninitLocalMsCtfMonitor
-ms.topic: function
 f1_keywords:
 - msctfmonitorapi/UninitLocalMsCtfMonitor
 dev_langs:

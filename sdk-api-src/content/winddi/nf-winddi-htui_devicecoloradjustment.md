@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 063320e3-b103-4c9a-ae82-790e5b768dc9
 ms.date: 12/05/2018
 ms.keywords: HTUI_DeviceColorAdjustment, HTUI_DeviceColorAdjustment function [Display Devices], display.htui_devicecoloradjustment, gdifncs_4f705094-588c-47ce-ac45-f0d2744ce5d2.xml, winddi/HTUI_DeviceColorAdjustment
-ms.topic: function
 f1_keywords:
 - winddi/HTUI_DeviceColorAdjustment
 dev_langs:

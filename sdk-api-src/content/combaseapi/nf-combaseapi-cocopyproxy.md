@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 26de7bac-8745-40c0-be0a-dcec88a3ecaf
 ms.date: 12/05/2018
 ms.keywords: CoCopyProxy, CoCopyProxy function [COM], _com_CoCopyProxy, com.cocopyproxy, combaseapi/CoCopyProxy
-ms.topic: function
 f1_keywords:
 - combaseapi/CoCopyProxy
 dev_langs:

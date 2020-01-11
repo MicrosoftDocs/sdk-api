@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 4575728c-79ca-4b3f-b068-3b0f8f976cf9
 ms.date: 12/05/2018
 ms.keywords: Appearance property [Tablet PC], Appearance property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],Appearance property, IInkEdit.Appearance, IInkEdit.get_Appearance, IInkEdit::Appearance, IInkEdit::get_Appearance, IInkEdit::put_Appearance, InkEdit.get_Appearance, InkEdit.put_Appearance, get_Appearance, inked/IInkEdit::Appearance, inked/IInkEdit::get_Appearance, inked/IInkEdit::put_Appearance, put_Appearance, tablet.inkedit_appearance
-ms.topic: method
 f1_keywords:
 - inked/IInkEdit.Appearance
 dev_langs:

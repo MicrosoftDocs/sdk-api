@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5cca426f-73fb-4b39-8eb0-16c01673c311
 ms.date: 12/05/2018
 ms.keywords: IParentAndItem, IParentAndItem interface [Windows Shell], IParentAndItem interface [Windows Shell],described, _shell_IParentAndItem, shell.IParentAndItem, shobjidl_core/IParentAndItem
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IParentAndItem
 dev_langs:

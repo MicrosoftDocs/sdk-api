@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemepartdefined.htm
 ms.date: 12/05/2018
 ms.keywords: IsThemePartDefined, IsThemePartDefined function [Windows Controls], controls.IsThemePartDefined, controls.inet_IsThemePartDefined, inet_IsThemePartDefined, inet_IsThemePartDefined_cpp, uxtheme/IsThemePartDefined
-ms.topic: function
 f1_keywords:
 - uxtheme/IsThemePartDefined
 dev_langs:

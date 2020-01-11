@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 582c1590-8855-409c-9964-a0fb7baa05bd
 ms.date: 12/05/2018
 ms.keywords: IWMBackupRestoreProps interface [windows Media Format],SetProp method, IWMBackupRestoreProps.SetProp, IWMBackupRestoreProps::SetProp, IWMBackupRestorePropsSetProp, SetProp, SetProp method [windows Media Format], SetProp method [windows Media Format],IWMBackupRestoreProps interface, wmformat.iwmbackuprestoreprops_setprop, wmsdkidl/IWMBackupRestoreProps::SetProp
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMBackupRestoreProps.SetProp
 dev_langs:

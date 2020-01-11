@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 4d1ec30a-d8fe-41b2-b689-4011dbb55d34
 ms.date: 12/05/2018
 ms.keywords: WS_ENUM_VALUE, WS_ENUM_VALUE structure [Web Services for Windows], webservices/WS_ENUM_VALUE, wsw.ws_enum_value
-ms.topic: struct
 f1_keywords:
 - webservices/WS_ENUM_VALUE
 dev_langs:

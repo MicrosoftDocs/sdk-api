@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacefunctions\createmdiwindow.htm
 ms.date: 12/05/2018
 ms.keywords: CreateMDIWindow, CreateMDIWindow function [Windows and Messages], CreateMDIWindowA, CreateMDIWindowW, WS_HSCROLL, WS_MAXIMIZE, WS_MINIMIZE, WS_VSCROLL, _win32_CreateMDIWindow, _win32_createmdiwindow_cpp, winmsg.createmdiwindow, winui._win32_createmdiwindow, winuser/CreateMDIWindow, winuser/CreateMDIWindowA, winuser/CreateMDIWindowW
-ms.topic: function
 f1_keywords:
 - winuser/CreateMDIWindow
 dev_langs:

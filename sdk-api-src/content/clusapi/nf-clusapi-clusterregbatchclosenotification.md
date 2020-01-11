@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: d7a127ba-6e97-46ac-8510-2da355359c50
 ms.date: 12/05/2018
 ms.keywords: ClusterRegBatchCloseNotification, ClusterRegBatchCloseNotification function [Failover Cluster], PCLUSTER_REG_BATCH_CLOSE_NOTIFICATION, clusapi/ClusterRegBatchCloseNotification, mscs.clusterregbatchclosenotification
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterRegBatchCloseNotification
 dev_langs:

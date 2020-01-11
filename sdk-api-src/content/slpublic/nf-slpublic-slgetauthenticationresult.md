@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: 8f30ac28-92a0-41f5-b076-eda7014fb526
 ms.date: 12/05/2018
 ms.keywords: SLGetAuthenticationResult, SLGetAuthenticationResult function [Security], security.slgetauthenticationresult, slpublic/SLGetAuthenticationResult
-ms.topic: function
 f1_keywords:
 - slpublic/SLGetAuthenticationResult
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 996b56d7-1187-4ed7-b5f5-7d77291113f6
 ms.date: 12/05/2018
 ms.keywords: APO_BUFFER_FLAGS, APO_BUFFER_FLAGS enumeration [Remote Desktop Services], BUFFER_INVALID, BUFFER_SILENT, BUFFER_VALID, audioapotypes/APO_BUFFER_FLAGS, audioapotypes/BUFFER_INVALID, audioapotypes/BUFFER_SILENT, audioapotypes/BUFFER_VALID, termserv.apo_buffer_flags
-ms.topic: enum
 f1_keywords:
 - audioapotypes/APO_BUFFER_FLAGS
 dev_langs:

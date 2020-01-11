@@ -7,7 +7,6 @@ tech.root: parcon
 ms.assetid: 2e229b0e-59ae-4fcf-a398-32bc20611802
 ms.date: 12/05/2018
 ms.keywords: IWPCWebSettings interface,RequestURLOverride method, IWPCWebSettings.RequestURLOverride, IWPCWebSettings::RequestURLOverride, RequestURLOverride, RequestURLOverride method, RequestURLOverride method,IWPCWebSettings interface, parcon.iwpcwebsettings_requesturloverride, wpcapi/IWPCWebSettings::RequestURLOverride
-ms.topic: method
 f1_keywords:
 - wpcapi/IWPCWebSettings.RequestURLOverride
 dev_langs:

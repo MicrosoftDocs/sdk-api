@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: F3C77812-9096-4D65-9D6C-082133C873A7
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamDestRect method, ID3D11VideoContext.VideoProcessorSetStreamDestRect, ID3D11VideoContext::VideoProcessorSetStreamDestRect, VideoProcessorSetStreamDestRect, VideoProcessorSetStreamDestRect method [Media Foundation], VideoProcessorSetStreamDestRect method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamDestRect, mf.id3d11videocontext_videoprocessorsetstreamdestrect
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11VideoContext.VideoProcessorSetStreamDestRect
 dev_langs:

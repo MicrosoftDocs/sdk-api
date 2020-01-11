@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: c63185a7-b2a4-4c3d-b455-220e1954a31a
 ms.date: 12/05/2018
 ms.keywords: WMPTemplateSize, WMPTemplateSize enumeration [Windows Media Player], contentpartner/WMPTemplateSize, contentpartner/wmptsLarge, contentpartner/wmptsMedium, contentpartner/wmptsSmall, enumeration [Windows Media Player], wmp.wmptemplatesize, wmptsLarge, wmptsMedium, wmptsSmall
-ms.topic: enum
 f1_keywords:
 - contentpartner/WMPTemplateSize
 dev_langs:

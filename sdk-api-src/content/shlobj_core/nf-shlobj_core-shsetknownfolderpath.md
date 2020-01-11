@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b5758086-93d1-49d6-b9ac-ba8927f3bd1e
 ms.date: 12/05/2018
 ms.keywords: KF_FLAG_DONT_UNEXPAND, SHSetKnownFolderPath, SHSetKnownFolderPath function [Windows Shell], _shell_SHSetKnownFolderPath, shell.SHSetKnownFolderPath, shlobj_core/SHSetKnownFolderPath
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHSetKnownFolderPath
 dev_langs:

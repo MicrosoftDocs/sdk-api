@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 9DBC3AB6-0C58-4CC4-8851-7AF36E7FA2A7
 ms.date: 12/05/2018
 ms.keywords: GetValueByName, GetValueByName method [Direct2D], GetValueByName method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValueByName method, ID2D1Properties.GetValueByName, ID2D1Properties.GetValueByName(PCWSTR,), ID2D1Properties::GetValueByName, ID2D1Properties::GetValueByName(PCWSTR), ID2D1Properties::GetValueByName(PCWSTR,), d2d1_1/ID2D1Properties::GetValueByName, direct2d.id2d1properties_getvaluebyname4
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1Properties.GetValueByName
 dev_langs:

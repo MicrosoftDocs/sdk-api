@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 1D31F807-C3F2-466F-9723-E6F12B13BFA1
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory2 interface [Direct Write],TranslateColorGlyphRun method, IDWriteFactory2.TranslateColorGlyphRun, IDWriteFactory2::TranslateColorGlyphRun, TranslateColorGlyphRun, TranslateColorGlyphRun method [Direct Write], TranslateColorGlyphRun method [Direct Write],IDWriteFactory2 interface, directwrite.idwritefactory2_translatecolorglyphrun, dwrite_2/IDWriteFactory2::TranslateColorGlyphRun
-ms.topic: method
 f1_keywords:
 - dwrite_2/IDWriteFactory2.TranslateColorGlyphRun
 dev_langs:

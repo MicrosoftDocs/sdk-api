@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 579bd9ff-cb23-426b-8188-6897d83ada28
 ms.date: 12/05/2018
 ms.keywords: SymSrvStoreSupplement, SymSrvStoreSupplement function, SymSrvStoreSupplementW, base.symsrvstoresupplement, dbghelp/SymSrvStoreSupplement, dbghelp/SymSrvStoreSupplementW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymSrvStoreSupplement
 dev_langs:

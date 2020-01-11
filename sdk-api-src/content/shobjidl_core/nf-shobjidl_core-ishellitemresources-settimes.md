@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d5112da8-36a0-4b13-b674-c68eab24266d
 ms.date: 12/05/2018
 ms.keywords: IShellItemResources interface [Windows Shell],SetTimes method, IShellItemResources.SetTimes, IShellItemResources::SetTimes, SetTimes, SetTimes method [Windows Shell], SetTimes method [Windows Shell],IShellItemResources interface, _shell_IShellItemResources_SetTimes, shell.IShellItemResources_SetTimes, shobjidl_core/IShellItemResources::SetTimes
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellItemResources.SetTimes
 dev_langs:

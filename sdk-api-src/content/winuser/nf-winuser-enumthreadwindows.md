@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\enumthreadwindows.htm
 ms.date: 12/05/2018
 ms.keywords: EnumThreadWindows, EnumThreadWindows function [Windows and Messages], _win32_EnumThreadWindows, _win32_enumthreadwindows_cpp, winmsg.enumthreadwindows, winui._win32_enumthreadwindows, winuser/EnumThreadWindows
-ms.topic: function
 f1_keywords:
 - winuser/EnumThreadWindows
 dev_langs:

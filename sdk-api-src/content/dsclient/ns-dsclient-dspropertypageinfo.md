@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 1f8313cd-5cbe-440b-bcf9-de835f2b4f4a
 ms.date: 12/05/2018
 ms.keywords: '*LPDSPROPERTYPAGEINFO, DSPROPERTYPAGEINFO, DSPROPERTYPAGEINFO structure [Active Directory], LPDSPROPERTYPAGEINFO, LPDSPROPERTYPAGEINFO structure pointer [Active Directory], _glines_dspropertypageinfo, ad.dspropertypageinfo, dsclient/DSPROPERTYPAGEINFO, dsclient/LPDSPROPERTYPAGEINFO'
-ms.topic: struct
 f1_keywords:
 - dsclient/DSPROPERTYPAGEINFO
 dev_langs:

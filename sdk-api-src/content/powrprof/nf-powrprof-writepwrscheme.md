@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: b9233601-6848-41c4-bb58-27decad60ba5
 ms.date: 12/05/2018
 ms.keywords: WritePwrScheme, WritePwrScheme function, _win32_writepwrscheme, base.writepwrscheme, powrprof/WritePwrScheme
-ms.topic: function
 f1_keywords:
 - powrprof/WritePwrScheme
 dev_langs:

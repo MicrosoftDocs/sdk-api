@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: ba715518-1aa0-42de-bad7-f2d0d0f00460
 ms.date: 12/05/2018
 ms.keywords: Help, Help method [COM], Help method [COM],IPropertyPage interface, IPropertyPage interface [COM],Help method, IPropertyPage.Help, IPropertyPage::Help, _ctrl_ipropertypage_help, com.ipropertypage_help, ocidl/IPropertyPage::Help
-ms.topic: method
 f1_keywords:
 - ocidl/IPropertyPage.Help
 dev_langs:

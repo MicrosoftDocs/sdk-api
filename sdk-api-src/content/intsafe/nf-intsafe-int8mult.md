@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0dbdd21a-b38b-4130-bc60-eef78a063ea8
 ms.date: 12/05/2018
 ms.keywords: Int8Mult, Int8Mult function [Windows Shell], intsafe/Int8Mult, shell.Int8Mult
-ms.topic: function
 f1_keywords:
 - intsafe/Int8Mult
 dev_langs:

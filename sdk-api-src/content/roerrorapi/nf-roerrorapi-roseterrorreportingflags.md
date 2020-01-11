@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 167C2EC9-9EA0-4E1D-840B-DAF5F47ED1FE
 ms.date: 12/5/2018
 ms.keywords: RoSetErrorReportingFlags, RoSetErrorReportingFlags function [Windows Runtime], WinRTSetErrorReportingFlags, roerrorapi/RoSetErrorReportingFlags, roerrorapi/WinRTSetErrorReportingFlags, winrt.roseterrorreportingflags, winrt.winrtseterrorreportingflags
-ms.topic: function
 f1_keywords:
 - roerrorapi/RoSetErrorReportingFlags
 dev_langs:

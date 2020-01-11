@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3AngleBetweenVectors(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3AngleBetweenVectors, XMVector3AngleBetweenVectors, XMVector3AngleBetweenVectors method [DirectX Math Support APIs], dxmath.xmvector3anglebetweenvectors
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector3AngleBetweenVectors
 dev_langs:

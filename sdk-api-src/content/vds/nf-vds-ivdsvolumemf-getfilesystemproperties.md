@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 43f5495c-5a60-44fd-b217-16464c4693a4
 ms.date: 12/05/2018
 ms.keywords: GetFileSystemProperties, GetFileSystemProperties method [VDS], GetFileSystemProperties method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],GetFileSystemProperties method, IVdsVolumeMF.GetFileSystemProperties, IVdsVolumeMF::GetFileSystemProperties, base.ivdsvolumemf_getfilesystemproperties, vds/IVdsVolumeMF::GetFileSystemProperties
-ms.topic: method
 f1_keywords:
 - vds/IVdsVolumeMF.GetFileSystemProperties
 dev_langs:

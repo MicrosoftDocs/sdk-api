@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getstringwidth.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_GetStringWidth, ListView_GetStringWidth macro [Windows Controls], _win32_ListView_GetStringWidth, _win32_ListView_GetStringWidth_cpp, commctrl/ListView_GetStringWidth, controls.ListView_GetStringWidth, controls._win32_ListView_GetStringWidth
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_GetStringWidth
 dev_langs:

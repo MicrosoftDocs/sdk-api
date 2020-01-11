@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 440E6659-C62F-4567-B00F-B0F0B0F21817
 ms.date: 12/05/2018
 ms.keywords: UiaProviderForNonClient, UiaProviderForNonClient function [Windows Accessibility], uiautomationcoreapi/UiaProviderForNonClient, winauto.uiauto_UiaProviderForNonClientFunction
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaProviderForNonClient
 dev_langs:

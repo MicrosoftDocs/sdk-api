@@ -7,7 +7,6 @@ tech.root: WebDAV
 ms.assetid: 94a4607c-2770-4656-8710-987d6b951e0e
 ms.date: 12/05/2018
 ms.keywords: DavGetTheLockOwnerOfTheFile, DavGetTheLockOwnerOfTheFile function [WebDAV], davclnt/DavGetTheLockOwnerOfTheFile, webdav.davgetthelockownerofthefile
-ms.topic: function
 f1_keywords:
 - davclnt/DavGetTheLockOwnerOfTheFile
 dev_langs:

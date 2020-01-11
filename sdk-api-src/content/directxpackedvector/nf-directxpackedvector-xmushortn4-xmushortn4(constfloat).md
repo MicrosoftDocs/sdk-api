@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: d9b1c62d-8201-4235-a532-9a0674fd1887
 ms.date: 05/06/2019
 ms.keywords: XMUSHORTN4, XMUSHORTN4 constructor [DirectX Math Support APIs], XMUSHORTN4 constructor [DirectX Math Support APIs],XMUSHORTN4 structure, XMUSHORTN4 structure [DirectX Math Support APIs],XMUSHORTN4 constructor, XMUSHORTN4.XMUSHORTN4, XMUSHORTN4.XMUSHORTN4(), XMUSHORTN4.XMUSHORTN4(const float), XMUSHORTN4::XMUSHORTN4, XMUSHORTN4::XMUSHORTN4(const float), dxmath.xmushortn4_ctor_1
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMUSHORTN4.XMUSHORTN4
 dev_langs:

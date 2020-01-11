@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a12a0648-ea60-4537-9d5c-8d21fd53cc80
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderFilter, ICredentialProviderFilter interface [Windows Shell], ICredentialProviderFilter interface [Windows Shell],described, _shell_ICredentialProviderFilter, credentialprovider/ICredentialProviderFilter, shell.ICredentialProviderFilter
-ms.topic: interface
 f1_keywords:
 - credentialprovider/ICredentialProviderFilter
 dev_langs:

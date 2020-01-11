@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 8b47bd52-e153-4000-9f4e-5335f029464b
 ms.date: 12/05/2018
 ms.keywords: DhcpCreateClientInfoVQ, DhcpCreateClientInfoVQ function [DHCP], dhcp.dhcpcreateclientinfovq, dhcpsapi/DhcpCreateClientInfoVQ
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpCreateClientInfoVQ
 dev_langs:

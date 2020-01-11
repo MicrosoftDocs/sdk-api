@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 1ef4ab68-8bf3-4141-aba2-826bb606eab5
 ms.date: 12/05/2018
 ms.keywords: IInstallationProgressChangedCallback interface [Windows Update Agent],Invoke method, IInstallationProgressChangedCallback.Invoke, IInstallationProgressChangedCallback::Invoke, Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent],IInstallationProgressChangedCallback interface, wua.iinstallationprogresschangedcallback_invoke, wuapi/IInstallationProgressChangedCallback::Invoke
-ms.topic: method
 f1_keywords:
 - wuapi/IInstallationProgressChangedCallback.Invoke
 dev_langs:

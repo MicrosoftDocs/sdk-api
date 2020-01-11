@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: B77025D6-26C7-46C9-84FE-69685C61735D
 ms.date: 12/05/2018
 ms.keywords: IUPnPServiceAsync, IUPnPServiceAsync interface [UPnP APIs], IUPnPServiceAsync interface [UPnP APIs],described, upnp.iupnpserviceasync, upnp/IUPnPServiceAsync
-ms.topic: interface
 f1_keywords:
 - upnp/IUPnPServiceAsync
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 6ec65e7c-fb67-4435-90cd-d17b8fbcbc84
 ms.date: 12/05/2018
 ms.keywords: GetCollectionByQuery, GetCollectionByQuery method [COM+], GetCollectionByQuery method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetCollectionByQuery method, ICOMAdminCatalog.GetCollectionByQuery, ICOMAdminCatalog::GetCollectionByQuery, _cos_ICOMAdminCatalog_GetCollectionByQuery, comadmin/ICOMAdminCatalog::GetCollectionByQuery, cos.icomadmincatalog_getcollectionbyquery
-ms.topic: method
 f1_keywords:
 - comadmin/ICOMAdminCatalog.GetCollectionByQuery
 dev_langs:

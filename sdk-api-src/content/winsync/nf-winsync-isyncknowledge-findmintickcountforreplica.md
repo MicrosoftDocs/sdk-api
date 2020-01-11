@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 6a1a3fb2-b656-4ecf-8fed-dc5f20cd22f1
 ms.date: 12/05/2018
 ms.keywords: FindMinTickCountForReplica, FindMinTickCountForReplica method [Windows Sync], FindMinTickCountForReplica method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],FindMinTickCountForReplica method, ISyncKnowledge.FindMinTickCountForReplica, ISyncKnowledge::FindMinTickCountForReplica, winsync.isyncknowledge_findmintickcountforreplica, winsync/ISyncKnowledge::FindMinTickCountForReplica
-ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge.FindMinTickCountForReplica
 dev_langs:

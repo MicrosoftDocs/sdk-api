@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 0f91380d-b8c8-47db-99ca-12c897bdff20
 ms.date: 12/05/2018
 ms.keywords: IWMVideoMediaProps interface [windows Media Format],SetQuality method, IWMVideoMediaProps.SetQuality, IWMVideoMediaProps::SetQuality, IWMVideoMediaPropsSetQuality, SetQuality, SetQuality method [windows Media Format], SetQuality method [windows Media Format],IWMVideoMediaProps interface, wmformat.iwmvideomediaprops_setquality, wmsdkidl/IWMVideoMediaProps::SetQuality
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMVideoMediaProps.SetQuality
 dev_langs:

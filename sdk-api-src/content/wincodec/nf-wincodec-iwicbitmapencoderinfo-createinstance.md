@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 333663d2-9b71-44ee-bf58-f6f283666b78
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component],IWICBitmapEncoderInfo interface, IWICBitmapEncoderInfo interface [Windows Imaging Component],CreateInstance method, IWICBitmapEncoderInfo.CreateInstance, IWICBitmapEncoderInfo::CreateInstance, _wic_codec_iwicbitmapencoderinfo_createinstance, wic._wic_codec_iwicbitmapencoderinfo_createinstance, wincodec/IWICBitmapEncoderInfo::CreateInstance
-ms.topic: method
 f1_keywords:
 - wincodec/IWICBitmapEncoderInfo.CreateInstance
 dev_langs:

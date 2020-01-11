@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\finditembyname.htm
 ms.date: 12/05/2018
 ms.keywords: FindItemByName, FindItemByName method [WIA], FindItemByName method [WIA],IWiaItem interface, IWiaItem interface [WIA],FindItemByName method, IWiaItem.FindItemByName, IWiaItem::FindItemByName, _wia_IWiaItem_FindItemByName, wia._wia_IWiaItem_FindItemByName, wia_xp/IWiaItem::FindItemByName
-ms.topic: method
 f1_keywords:
 - wia_xp/IWiaItem.FindItemByName
 dev_langs:

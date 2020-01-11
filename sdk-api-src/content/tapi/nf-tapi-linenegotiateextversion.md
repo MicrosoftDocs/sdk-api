@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 89a49709-a15b-4358-984a-fd836d8e237b
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linenegotiateextversion, lineNegotiateExtVersion, lineNegotiateExtVersion function [TAPI 2.2], tapi/lineNegotiateExtVersion, tapi2.linenegotiateextversion
-ms.topic: function
 f1_keywords:
 - tapi/lineNegotiateExtVersion
 dev_langs:

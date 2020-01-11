@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: f54bba2a-872e-4ed1-b2c6-3e6b85a48df6
 ms.date: 12/05/2018
 ms.keywords: IWMDRMWriter interface [windows Media Format],SetDRMAttribute method, IWMDRMWriter.SetDRMAttribute, IWMDRMWriter::SetDRMAttribute, IWMDRMWriterSetDRMAttribute, SetDRMAttribute, SetDRMAttribute method [windows Media Format], SetDRMAttribute method [windows Media Format],IWMDRMWriter interface, wmformat.iwmdrmwriter_setdrmattribute, wmsdkidl/IWMDRMWriter::SetDRMAttribute
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDRMWriter.SetDRMAttribute
 dev_langs:

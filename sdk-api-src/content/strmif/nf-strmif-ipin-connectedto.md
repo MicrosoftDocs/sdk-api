@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 970c814f-2309-481e-9e8e-9bd32b83fdc7
 ms.date: 12/05/2018
 ms.keywords: ConnectedTo, ConnectedTo method [DirectShow], ConnectedTo method [DirectShow],IPin interface, IPin interface [DirectShow],ConnectedTo method, IPin.ConnectedTo, IPin::ConnectedTo, IPinConnectedTo, dshow.ipin_connectedto, strmif/IPin::ConnectedTo
-ms.topic: method
 f1_keywords:
 - strmif/IPin.ConnectedTo
 dev_langs:

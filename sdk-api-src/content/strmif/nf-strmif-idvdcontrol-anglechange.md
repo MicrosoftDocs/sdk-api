@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 4a91f05d-1ded-4ecb-8850-5ee7faad134d
 ms.date: 12/05/2018
 ms.keywords: AngleChange, AngleChange method [DirectShow], AngleChange method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],AngleChange method, IDvdControl.AngleChange, IDvdControl::AngleChange, IDvdControlAngleChange, dshow.idvdcontrol_anglechange, strmif/IDvdControl::AngleChange
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.AngleChange
 dev_langs:

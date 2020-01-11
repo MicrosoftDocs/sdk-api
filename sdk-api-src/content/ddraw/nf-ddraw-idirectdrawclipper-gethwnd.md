@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 025e898f-e160-4485-87cf-f5fbc014e9f1
 ms.date: 12/05/2018
 ms.keywords: GetHWnd, GetHWnd method [DirectDraw], GetHWnd method [DirectDraw],IDirectDrawClipper interface, IDirectDrawClipper interface [DirectDraw],GetHWnd method, IDirectDrawClipper.GetHWnd, IDirectDrawClipper::GetHWnd, ddraw/IDirectDrawClipper::GetHWnd, directdraw.idirectdrawclipper_gethwnd
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawClipper.GetHWnd
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 08299592-867c-491d-9769-d16602133659
 ms.date: 12/05/2018
 ms.keywords: WSAStartup, WSAStartup function [Winsock], _win32_wsastartup_2, winsock.wsastartup_2, winsock/WSAStartup
-ms.topic: function
 f1_keywords:
 - winsock2/WSAStartup
 dev_langs:

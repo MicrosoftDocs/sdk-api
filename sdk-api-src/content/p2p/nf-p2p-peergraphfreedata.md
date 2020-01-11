@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: a5b7d563-214a-48e0-b184-0c12d62fb125
 ms.date: 12/05/2018
 ms.keywords: PeerGraphFreeData, PeerGraphFreeData function [Peer Networking], p2p.peergraphfreedata, p2p/PeerGraphFreeData
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphFreeData
 dev_langs:

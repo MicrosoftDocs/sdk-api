@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: 18caab11-9c22-46ac-b89f-dd3e662bea1e
 ms.date: 12/05/2018
 ms.keywords: GetTouchInputInfo, GetTouchInputInfo function [Windows Touch], wintouch.gettouchinputinfo, winuser/GetTouchInputInfo
-ms.topic: function
 f1_keywords:
 - winuser/GetTouchInputInfo
 dev_langs:

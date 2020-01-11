@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMSHORTN4.#ctor(int16_t,int16_t,int16_t,int16_t)
 ms.date: 12/05/2018
 ms.keywords: XMSHORTN4, XMSHORTN4 constructor [DirectX Math Support APIs], XMSHORTN4 constructor [DirectX Math Support APIs],XMSHORTN4 structure, XMSHORTN4 structure [DirectX Math Support APIs],XMSHORTN4 constructor, XMSHORTN4.XMSHORTN4, XMSHORTN4.XMSHORTN4(int16_t,int16_t,int16_t,int16_t), XMSHORTN4::XMSHORTN4, XMSHORTN4::XMSHORTN4(int16_t,int16_t,int16_t,int16_t), dxmath.xmshortn4_ctor_2
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMSHORTN4.XMSHORTN4
 dev_langs:

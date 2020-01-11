@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 76c3f603-8abc-450a-adb2-f2a90cb1634d
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeReader, IAMTimecodeReader interface [DirectShow], IAMTimecodeReader interface [DirectShow],described, IAMTimecodeReaderInterface, dshow.iamtimecodereader, strmif/IAMTimecodeReader
-ms.topic: interface
 f1_keywords:
 - strmif/IAMTimecodeReader
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3dad6648-752d-48f8-9267-24a5f5b0346c
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],get_Weight method, IFont.get_Weight, IFont::get_Weight, _ctrl_ifont_get_weight, com.ifont_get_weight, get_Weight, get_Weight method [COM], get_Weight method [COM],IFont interface, ocidl/IFont::get_Weight
-ms.topic: method
 f1_keywords:
 - ocidl/IFont.get_Weight
 dev_langs:

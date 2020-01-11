@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: f52c9d8a-245b-489a-81c1-cb4715faa8be
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnGroupingParamChanged method, IAudioSessionEvents.OnGroupingParamChanged, IAudioSessionEvents::OnGroupingParamChanged, IAudioSessionEventsOnGroupingParamChanged, OnGroupingParamChanged, OnGroupingParamChanged method [Core Audio], OnGroupingParamChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnGroupingParamChanged, coreaudio.iaudiosessionevents_ongroupingparamchanged
-ms.topic: method
 f1_keywords:
 - audiopolicy/IAudioSessionEvents.OnGroupingParamChanged
 dev_langs:

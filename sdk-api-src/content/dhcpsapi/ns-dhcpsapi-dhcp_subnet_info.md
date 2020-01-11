@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 030b4743-7558-493c-931c-1ad28a6b435a
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_SUBNET_INFO, DHCP_SUBNET_INFO, DHCP_SUBNET_INFO structure [DHCP], LPDHCP_SUBNET_INFO, LPDHCP_SUBNET_INFO structure pointer [DHCP], dhcp.dhcp_subnet_info, dhcpsapi/LPDHCP_SUBNET_INFO, dhcpsapi/_DHCP_SUBNET_INFO'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_SUBNET_INFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f95b7106-18ab-4f7f-8d3f-267ac0293245
 ms.date: 12/05/2018
 ms.keywords: IFileOpenDialog, IFileOpenDialog interface [Windows Shell], IFileOpenDialog interface [Windows Shell],described, shell.IFileOpenDialog, shell_IFileOpenDialog, shobjidl_core/IFileOpenDialog
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IFileOpenDialog
 dev_langs:

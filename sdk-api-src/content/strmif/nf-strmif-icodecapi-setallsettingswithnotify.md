@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 30f840d1-4c73-4a76-ba0b-c04f2901ad76
 ms.date: 12/05/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetAllSettingsWithNotify method, ICodecAPI.SetAllSettingsWithNotify, ICodecAPI::SetAllSettingsWithNotify, ICodecAPISetAllSettingsWithNotify, SetAllSettingsWithNotify, SetAllSettingsWithNotify method [DirectShow], SetAllSettingsWithNotify method [DirectShow],ICodecAPI interface, dshow.icodecapi_setallsettingswithnotify, strmif/ICodecAPI::SetAllSettingsWithNotify
-ms.topic: method
 f1_keywords:
 - strmif/ICodecAPI.SetAllSettingsWithNotify
 dev_langs:

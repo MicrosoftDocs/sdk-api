@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 554915f0-4bfc-4777-98cd-c2bee6ac4ef4
 ms.date: 12/05/2018
 ms.keywords: ScriptGetFontLanguageTags, ScriptGetFontLanguageTags function [Internationalization for Windows Applications], _win32_ScriptGetFontLanguageTags, intl.scriptgetfontlanguagetags, usp10/ScriptGetFontLanguageTags
-ms.topic: function
 f1_keywords:
 - usp10/ScriptGetFontLanguageTags
 dev_langs:

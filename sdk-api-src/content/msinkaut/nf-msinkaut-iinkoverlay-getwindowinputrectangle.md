@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: e0e4cabe-f8f1-48b5-a12a-789b7c9c5973
 ms.date: 12/05/2018
 ms.keywords: 0f47b4c7-7ba1-44a6-8f62-9e97c318bd2c, GetWindowInputRectangle, GetWindowInputRectangle method [Tablet PC], GetWindowInputRectangle method [Tablet PC],IInkOverlay interface, IInkOverlay, IInkOverlay interface [Tablet PC],GetWindowInputRectangle method, IInkOverlay.GetWindowInputRectangle, IInkOverlay::GetWindowInputRectangle, msinkaut/IInkOverlay::GetWindowInputRectangle, tablet.inkoverlay_getwindowinputrectangle
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkOverlay.GetWindowInputRectangle
 dev_langs:

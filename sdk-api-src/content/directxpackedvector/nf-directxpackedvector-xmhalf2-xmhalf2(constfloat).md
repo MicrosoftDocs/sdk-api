@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: 6f2f9747-e00e-4217-a144-3d476c09b62e
 ms.date: 05/06/2019
 ms.keywords: XMHALF2, XMHALF2 constructor [DirectX Math Support APIs], XMHALF2 constructor [DirectX Math Support APIs],XMHALF2 structure, XMHALF2 structure [DirectX Math Support APIs],XMHALF2 constructor, XMHALF2.XMHALF2, XMHALF2.XMHALF2(), XMHALF2.XMHALF2(const float), XMHALF2::XMHALF2, XMHALF2::XMHALF2(const float), dxmath.xmhalf2_ctor_1
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMHALF2.XMHALF2
 dev_langs:

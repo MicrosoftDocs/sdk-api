@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: ba70154b-a2d1-4121-bea6-4572446bf9ee
 ms.date: 12/05/2018
 ms.keywords: MprAdminRegisterConnectionNotification, MprAdminRegisterConnectionNotification function [RAS], _mpr_mpradminregisterconnectionnotification, mprapi/MprAdminRegisterConnectionNotification, rras.mpradminregisterconnectionnotification
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminRegisterConnectionNotification
 dev_langs:

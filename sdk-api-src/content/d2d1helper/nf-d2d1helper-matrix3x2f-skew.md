@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 7d53aaff-3a6f-4949-9835-a30027d247dd
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.Skew, D2D1::Matrix3x2F::Skew, Matrix3x2F interface [Direct2D],Skew method, Matrix3x2F.Skew, Matrix3x2F::Skew, Skew, Skew method [Direct2D], Skew method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::Skew, direct2d.matrix3x2f_skew
-ms.topic: method
 f1_keywords:
 - d2d1helper/Matrix3x2F.Skew
 dev_langs:

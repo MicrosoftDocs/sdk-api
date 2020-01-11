@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 335114ff-3db8-4867-b830-6806adef01f8
 ms.date: 12/05/2018
 ms.keywords: IGetClusterGroupInfo, IGetClusterGroupInfo interface [Failover Cluster], IGetClusterGroupInfo interface [Failover Cluster],described, _wolf_igetclustergroupinfo, cluadmex/IGetClusterGroupInfo, mscs.igetclustergroupinfo
-ms.topic: interface
 f1_keywords:
 - cluadmex/IGetClusterGroupInfo
 dev_langs:

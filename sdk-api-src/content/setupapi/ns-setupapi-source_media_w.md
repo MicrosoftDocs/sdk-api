@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 93a72ec8-b979-4e61-bb06-eed1a6432f16
 ms.date: 12/05/2018
 ms.keywords: '*PSOURCE_MEDIA_W, PSOURCE_MEDIA, PSOURCE_MEDIA structure pointer [Setup API], SOURCE_MEDIA, SOURCE_MEDIA structure [Setup API], SOURCE_MEDIA_W, _setupapi_source_media_str, setup.source_media_str, setupapi/PSOURCE_MEDIA, setupapi/SOURCE_MEDIA'
-ms.topic: struct
 f1_keywords:
 - setupapi/SOURCE_MEDIA
 dev_langs:

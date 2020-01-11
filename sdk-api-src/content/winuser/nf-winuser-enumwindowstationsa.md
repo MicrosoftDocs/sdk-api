@@ -7,7 +7,6 @@ tech.root: winstation
 ms.assetid: 418d4d6a-9e4d-4fe3-8e1b-398c732c6e23
 ms.date: 12/05/2018
 ms.keywords: EnumWindowStations, EnumWindowStations function [Windows Stations and Desktops], EnumWindowStationsA, EnumWindowStationsW, _win32_enumwindowstations, base.enumwindowstations, winstation.enumwindowstations, winuser/EnumWindowStations, winuser/EnumWindowStationsA, winuser/EnumWindowStationsW
-ms.topic: function
 f1_keywords:
 - winuser/EnumWindowStations
 dev_langs:

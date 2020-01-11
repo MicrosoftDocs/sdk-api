@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 5df01ad8-71fd-4831-8eba-1d6cabd61348
 ms.date: 12/05/2018
 ms.keywords: '*PWTS_PROCESS_INFOA, PWTS_PROCESS_INFO, PWTS_PROCESS_INFO structure pointer [Remote Desktop Services], WTS_PROCESS_INFO, WTS_PROCESS_INFO structure [Remote Desktop Services], WTS_PROCESS_INFOA, WTS_PROCESS_INFOW, _win32_wts_process_info_str, termserv.wts_process_info_str, wtsapi32/PWTS_PROCESS_INFO, wtsapi32/WTS_PROCESS_INFO, wtsapi32/WTS_PROCESS_INFOA, wtsapi32/WTS_PROCESS_INFOW'
-ms.topic: struct
 f1_keywords:
 - wtsapi32/WTS_PROCESS_INFO
 dev_langs:

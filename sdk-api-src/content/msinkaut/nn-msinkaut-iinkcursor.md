@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 39b365ad-1eb0-4183-8799-a3c3ecbd3f6e
 ms.date: 12/05/2018
 ms.keywords: 39b365ad-1eb0-4183-8799-a3c3ecbd3f6e, IInkCursor, IInkCursor interface [Tablet PC], IInkCursor interface [Tablet PC],described, msinkaut/IInkCursor, tablet.iinkcursor
-ms.topic: interface
 f1_keywords:
 - msinkaut/IInkCursor
 dev_langs:

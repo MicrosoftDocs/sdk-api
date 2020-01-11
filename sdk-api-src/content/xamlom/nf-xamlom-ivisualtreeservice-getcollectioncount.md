@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: BB6D0885-27BD-4DF6-A48A-570345F1EE14
 ms.date: 12/05/2018
 ms.keywords: GetCollectionCount, GetCollectionCount method, GetCollectionCount method,IVisualTreeService interface, IVisualTreeService interface,GetCollectionCount method, IVisualTreeService.GetCollectionCount, IVisualTreeService::GetCollectionCount, xaml_diagnostics.ivisualtreeservice_getcollectioncount, xamlom/IVisualTreeService::GetCollectionCount
-ms.topic: method
 f1_keywords:
 - xamlom/IVisualTreeService.GetCollectionCount
 dev_langs:

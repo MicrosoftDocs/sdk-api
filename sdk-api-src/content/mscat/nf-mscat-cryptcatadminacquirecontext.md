@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 693af055-fa93-4526-aa9c-3a659f8ff78f
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminAcquireContext, CryptCATAdminAcquireContext function [Security], mscat/CryptCATAdminAcquireContext, security.cryptcatadminacquirecontext
-ms.topic: function
 f1_keywords:
 - mscat/CryptCATAdminAcquireContext
 dev_langs:

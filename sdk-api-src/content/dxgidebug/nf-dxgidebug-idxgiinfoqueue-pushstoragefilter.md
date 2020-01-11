@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: D90738A8-2C9F-4955-9A96-762C650F3B00
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushStorageFilter method, IDXGIInfoQueue.PushStorageFilter, IDXGIInfoQueue::PushStorageFilter, PushStorageFilter, PushStorageFilter method [DXGI], PushStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushstoragefilter, dxgidebug/IDXGIInfoQueue::PushStorageFilter
-ms.topic: method
 f1_keywords:
 - dxgidebug/IDXGIInfoQueue.PushStorageFilter
 dev_langs:

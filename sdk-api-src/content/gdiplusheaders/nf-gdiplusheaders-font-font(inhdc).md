@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontconstructors\font_8hdc.htm
 ms.date: 12/05/2018
 ms.keywords: Font, Font class [GDI+],Font constructor, Font constructor [GDI+], Font constructor [GDI+],Font class, Font.Font, Font.Font(HDC), Font.Font(IN HDC), Font::Font, Font::Font(IN HDC), _gdiplus_CLASS_Font_Font_hdc_, gdiplus._gdiplus_CLASS_Font_Font_hdc_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Font.Font
 dev_langs:

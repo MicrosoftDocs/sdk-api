@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 2AB56616-3F67-4428-8A99-FCE733A5FDBF
 ms.date: 12/05/2018
 ms.keywords: IInkRenderer, IInkRenderer interface [Tablet PC], IInkRenderer interface [Tablet PC],described, msinkaut/IInkRenderer, tablet.iinkrenderer
-ms.topic: interface
 f1_keywords:
 - msinkaut/IInkRenderer
 dev_langs:

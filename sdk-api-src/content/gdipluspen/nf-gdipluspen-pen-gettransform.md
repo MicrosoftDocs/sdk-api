@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\gettransform_97matrix.htm
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [GDI+], GetTransform method [GDI+],Pen class, Pen class [GDI+],GetTransform method, Pen.GetTransform, Pen::GetTransform, _gdiplus_CLASS_Pen_GetTransform_matrix_, gdiplus._gdiplus_CLASS_Pen_GetTransform_matrix_
-ms.topic: method
 f1_keywords:
 - gdipluspen/Pen.GetTransform
 dev_langs:

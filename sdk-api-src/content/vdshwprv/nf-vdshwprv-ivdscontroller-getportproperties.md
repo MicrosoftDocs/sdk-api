@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 01972923-2a43-4a80-80f8-8dab4207bbc4
 ms.date: 12/05/2018
 ms.keywords: GetPortProperties, GetPortProperties method [VDS], GetPortProperties method [VDS],IVdsController interface, IVdsController interface [VDS],GetPortProperties method, IVdsController.GetPortProperties, IVdsController::GetPortProperties, base.ivdscontroller_getportproperties, vds/IVdsController::GetPortProperties, vdshwprv/IVdsController::GetPortProperties
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsController.GetPortProperties
 dev_langs:

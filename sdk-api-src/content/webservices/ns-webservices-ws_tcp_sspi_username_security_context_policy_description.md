@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: ec51c3a6-726d-470a-b818-f604d2519151
 ms.date: 12/05/2018
 ms.keywords: WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION, WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION, wsw.ws_tcp_sspi_username_security_context_policy_description
-ms.topic: struct
 f1_keywords:
 - webservices/WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION
 dev_langs:

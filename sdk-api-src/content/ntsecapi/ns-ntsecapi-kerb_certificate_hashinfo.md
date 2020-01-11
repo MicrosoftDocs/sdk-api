@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 09D78E91-5873-481D-A5FC-B7F39F8F9BB8
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_CERTIFICATE_HASHINFO, KERB_CERTIFICATE_HASHINFO, KERB_CERTIFICATE_HASHINFO structure [Security], PKERB_CERTIFICATE_HASHINFO, PKERB_CERTIFICATE_HASHINFO structure pointer [Security], ntsecapi/KERB_CERTIFICATE_HASHINFO, ntsecapi/PKERB_CERTIFICATE_HASHINFO, security.kerb_certificate_hashinfo'
-ms.topic: struct
 f1_keywords:
 - ntsecapi/KERB_CERTIFICATE_HASHINFO
 dev_langs:

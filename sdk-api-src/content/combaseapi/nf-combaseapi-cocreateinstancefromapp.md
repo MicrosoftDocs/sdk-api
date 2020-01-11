@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 1C773D78-5B33-44FE-A09B-AB8087F678A1
 ms.date: 12/05/2018
 ms.keywords: CoCreateInstanceFromApp, CoCreateInstanceFromApp function [COM], com.cocreateinstancefromapp, combaseapi/CoCreateInstanceFromApp
-ms.topic: function
 f1_keywords:
 - combaseapi/CoCreateInstanceFromApp
 dev_langs:

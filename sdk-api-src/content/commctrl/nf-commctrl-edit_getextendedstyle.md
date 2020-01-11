@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 6E29C7FE-A0D4-4A4D-B10A-2E2B2211D6C3
 ms.date: 12/05/2018
 ms.keywords: Edit_GetExtendedStyle, Edit_GetExtendedStyle macro [Windows Controls], commctrl/Edit_GetExtendedStyle, controls.edit_getextendedstyle
-ms.topic: macro
 f1_keywords:
 - commctrl/Edit_GetExtendedStyle
 dev_langs:

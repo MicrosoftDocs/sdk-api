@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: b7d556fd-d3f5-4b93-96a9-cc5c58fb8a95
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [TAPI 2.2], Disconnect method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Disconnect method, ITBasicCallControl.Disconnect, ITBasicCallControl::Disconnect, _tapi3_itbasiccallcontrol_disconnect, tapi3.itbasiccallcontrol_disconnect, tapi3if/ITBasicCallControl::Disconnect
-ms.topic: method
 f1_keywords:
 - tapi3if/ITBasicCallControl.Disconnect
 dev_langs:

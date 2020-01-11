@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 5d9e09f9-3bb7-4877-b9f7-ce045fb30c8f
 ms.date: 12/05/2018
 ms.keywords: MprAdminIsDomainRasServer, MprAdminIsDomainRasServer function [RAS], mprapi/MprAdminIsDomainRasServer, rras.mpradminisdomainrasserver
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminIsDomainRasServer
 dev_langs:

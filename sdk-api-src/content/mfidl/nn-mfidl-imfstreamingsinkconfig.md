@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 5eaef815-9660-487a-885d-457cd270ba3d
 ms.date: 12/05/2018
 ms.keywords: IMFStreamingSinkConfig, IMFStreamingSinkConfig interface [Media Foundation], IMFStreamingSinkConfig interface [Media Foundation],described, mf.imfstreamingsinkconfig, mfidl/IMFStreamingSinkConfig
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFStreamingSinkConfig
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: e6712e47-7f00-4932-9a12-40ecafdbf584
 ms.date: 12/05/2018
 ms.keywords: ComposeHwndIdentityString, ComposeHwndIdentityString method [Windows Accessibility], ComposeHwndIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ComposeHwndIdentityString method, IAccPropServices.ComposeHwndIdentityString, IAccPropServices::ComposeHwndIdentityString, _msaa_IAccPropServices_ComposeHwndIdentityString, msaa.iaccpropservices_iaccpropservices__composehwndidentitystring, oleacc/IAccPropServices::ComposeHwndIdentityString, winauto.iaccpropservices_iaccpropservices__composehwndidentitystring
-ms.topic: method
 f1_keywords:
 - oleacc/IAccPropServices.ComposeHwndIdentityString
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: deviceaccess
 ms.assetid: 082d6297-20ac-4557-8205-0451482a5758
 ms.date: 12/05/2018
 ms.keywords: CreateDeviceAccessInstance, CreateDeviceAccessInstance function [Device Access Broker API], deviceaccess.createdeviceaccessinstance, deviceaccess/CreateDeviceAccessInstance
-ms.topic: function
 f1_keywords:
 - deviceaccess/CreateDeviceAccessInstance
 dev_langs:

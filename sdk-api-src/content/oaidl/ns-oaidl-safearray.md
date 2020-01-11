@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 9ec8025b-4763-4526-ab45-390c5d8b3b1e
 ms.date: 12/05/2018
 ms.keywords: '*LPSAFEARRAY, FADF_AUTO, FADF_BSTR, FADF_DISPATCH, FADF_EMBEDDED, FADF_FIXEDSIZE, FADF_HAVEIID, FADF_HAVEVARTYPE, FADF_RECORD, FADF_RESERVED, FADF_STATIC, FADF_UNKNOWN, FADF_VARIANT, LPSAFEARRAY, LPSAFEARRAY structure pointer [Automation], SAFEARRAY, SAFEARRAY structure [Automation], automat.safearray, oaidl/LPSAFEARRAY, oaidl/SAFEARRAY'
-ms.topic: struct
 f1_keywords:
 - oaidl/SAFEARRAY
 dev_langs:

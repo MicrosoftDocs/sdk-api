@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemindexstate.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_SetItemIndexState, ListView_SetItemIndexState macro [Windows Controls], _shell_ListView_SetItemIndexState, _shell_ListView_SetItemIndexState_cpp, commctrl/ListView_SetItemIndexState, controls.ListView_SetItemIndexState, controls._shell_ListView_SetItemIndexState
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_SetItemIndexState
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\enhmetaheader3.htm
 ms.date: 12/05/2018
 ms.keywords: ENHMETAHEADER3, ENHMETAHEADER3 structure [GDI+], _gdiplus_STRUC_ENHMETAHEADER3, gdiplus._gdiplus_STRUC_ENHMETAHEADER3, gdiplusmetaheader/ENHMETAHEADER3
-ms.topic: struct
 f1_keywords:
 - gdiplusmetaheader/ENHMETAHEADER3
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: 4831fdf9-411b-4fdb-bd5c-3a309e6b6918
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo interface [SMI],SetModulePath method, ITargetInfo.SetModulePath, ITargetInfo::SetModulePath, SetModulePath, SetModulePath method [SMI], SetModulePath method [SMI],ITargetInfo interface, smi.itargetinfo_setmodulepath, wcmconfig/ITargetInfo::SetModulePath
-ms.topic: method
 f1_keywords:
 - wcmconfig/ITargetInfo.SetModulePath
 dev_langs:

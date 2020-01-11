@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 949dafeb-f59d-4507-a3eb-4a381f4108ff
 ms.date: 12/05/2018
 ms.keywords: GetRecordOriginalNetworkId, GetRecordOriginalNetworkId method [Microsoft TV Technologies], GetRecordOriginalNetworkId method [Microsoft TV Technologies],IDVB_RST interface, IDVB_RST interface [Microsoft TV Technologies],GetRecordOriginalNetworkId method, IDVB_RST.GetRecordOriginalNetworkId, IDVB_RST::GetRecordOriginalNetworkId, IDVB_RSTGetRecordOriginalNetworkId, dvbsiparser/IDVB_RST::GetRecordOriginalNetworkId, mstv.idvb_rst_getrecordoriginalnetworkid
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_RST.GetRecordOriginalNetworkId
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: F540CD4F-BDFB-44F8-B3A8-BFDA9199F2B9
 ms.date: 12/05/2018
 ms.keywords: MetaDataGetDispenser, MetaDataGetDispenser function [Windows Runtime], rometadata/MetaDataGetDispenser, winrt.metadatagetdispenser
-ms.topic: function
 f1_keywords:
 - rometadata/MetaDataGetDispenser
 dev_langs:

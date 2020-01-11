@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: ea6df1bc-2d15-4a09-8100-ee17d3de34d9
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_SUBNET_ELEMENT_DATA_V5, DHCP_SUBNET_ELEMENT_DATA_V5, DHCP_SUBNET_ELEMENT_DATA_V5 structure [DHCP], LPDHCP_SUBNET_ELEMENT_DATA_V5, LPDHCP_SUBNET_ELEMENT_DATA_V5 structure pointer [DHCP], dhcp.dhcp_subnet_element_data_v5, dhcpsapi/LPDHCP_SUBNET_ELEMENT_DATA_V5, dhcpsapi/_DHCP_SUBNET_ELEMENT_DATA_V5'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_SUBNET_ELEMENT_DATA_V5
 dev_langs:

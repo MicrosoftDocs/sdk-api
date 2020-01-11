@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: 29DB2CE5-2A96-450B-96C8-082B786613F9
 ms.date: 12/05/2018
 ms.keywords: WerUnRegisterCustomMetadata, WerUnRegisterCustomMetadata function [Windows Error Reporting], WerUnregisterCustomMetadata, wer.werunregistercustommetadata, werapi/WerUnRegisterCustomMetadata
-ms.topic: function
 f1_keywords:
 - werapi/WerUnRegisterCustomMetadata
 dev_langs:

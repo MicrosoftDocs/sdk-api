@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 121b94cd-cc39-4ac2-9423-f75df9fcd491
 ms.date: 12/05/2018
 ms.keywords: DiscardAlternateVideoFrames, DiscardAlternateVideoFrames method [DirectShow], DiscardAlternateVideoFrames method [DirectShow],IDVSplitter interface, IDVSplitter interface [DirectShow],DiscardAlternateVideoFrames method, IDVSplitter.DiscardAlternateVideoFrames, IDVSplitter::DiscardAlternateVideoFrames, IDVSplitterDiscardAlternateVideoFrames, dshow.idvsplitter_discardalternatevideoframes, strmif/IDVSplitter::DiscardAlternateVideoFrames
-ms.topic: method
 f1_keywords:
 - strmif/IDVSplitter.DiscardAlternateVideoFrames
 dev_langs:

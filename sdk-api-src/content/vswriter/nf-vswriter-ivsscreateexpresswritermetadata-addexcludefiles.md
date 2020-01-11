@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: a8d0d6bc-456a-405e-abd9-5ab4b2a59e63
 ms.date: 12/05/2018
 ms.keywords: AddExcludeFiles, AddExcludeFiles method, AddExcludeFiles method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddExcludeFiles method, IVssCreateExpressWriterMetadata.AddExcludeFiles, IVssCreateExpressWriterMetadata::AddExcludeFiles, base.ivsscreateexpresswritermetadata_addexcludefiles, vswriter/IVssCreateExpressWriterMetadata::AddExcludeFiles
-ms.topic: method
 f1_keywords:
 - vswriter/IVssCreateExpressWriterMetadata.AddExcludeFiles
 dev_langs:

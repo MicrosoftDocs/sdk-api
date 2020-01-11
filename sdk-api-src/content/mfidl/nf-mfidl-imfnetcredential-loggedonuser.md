@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 70f3dc70-ed6b-417c-93cb-e00efcdb43ec
 ms.date: 12/05/2018
 ms.keywords: 70f3dc70-ed6b-417c-93cb-e00efcdb43ec, IMFNetCredential interface [Media Foundation],LoggedOnUser method, IMFNetCredential.LoggedOnUser, IMFNetCredential::LoggedOnUser, LoggedOnUser, LoggedOnUser method [Media Foundation], LoggedOnUser method [Media Foundation],IMFNetCredential interface, mf.imfnetcredential_loggedonuser, mfidl/IMFNetCredential::LoggedOnUser
-ms.topic: method
 f1_keywords:
 - mfidl/IMFNetCredential.LoggedOnUser
 dev_langs:

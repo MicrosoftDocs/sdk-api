@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3a91156d-eef9-4d3c-9cb8-fd50bfa94354
 ms.date: 12/05/2018
 ms.keywords: ILMM_IE4, SHIsLowMemoryMachine, SHIsLowMemoryMachine function [Windows Shell], _shell_SHIsLowMemoryMachine, shell.SHIsLowMemoryMachine, shlwapi/SHIsLowMemoryMachine
-ms.topic: function
 f1_keywords:
 - shlwapi/SHIsLowMemoryMachine
 dev_langs:

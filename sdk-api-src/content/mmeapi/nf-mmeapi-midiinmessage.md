@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: c58a5800-df2e-43bd-9798-66d7cb9f3a19
 ms.date: 12/05/2018
 ms.keywords: _win32_midiInMessage, midiInMessage, midiInMessage function [Windows Multimedia], mmeapi/midiInMessage, multimedia.midiinmessage
-ms.topic: function
 f1_keywords:
 - mmeapi/midiInMessage
 dev_langs:

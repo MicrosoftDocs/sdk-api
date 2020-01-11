@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 7CCA902A-51E9-4B6D-B16C-643177BE1BC9
 ms.date: 12/05/2018
 ms.keywords: GetNetworkState, GetNetworkState method [Media Foundation], GetNetworkState method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetNetworkState method, IMFMediaEngine.GetNetworkState, IMFMediaEngine::GetNetworkState, mf.imfmediaengine_getnetworkstate, mfmediaengine/IMFMediaEngine::GetNetworkState
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngine.GetNetworkState
 dev_langs:

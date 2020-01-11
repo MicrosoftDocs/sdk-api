@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 3e60d1c6-1d58-403a-b75f-2a6bea91081e
 ms.date: 12/05/2018
 ms.keywords: ISharedPropertyGroupManager interface [COM+],get_Group method, ISharedPropertyGroupManager.get_Group, ISharedPropertyGroupManager::get_Group, _cos_ISharedPropertyGroupManager_get_Group, comsvcs/ISharedPropertyGroupManager::get_Group, cos.isharedpropertygroupmanager_get_group, get_Group, get_Group method [COM+], get_Group method [COM+],ISharedPropertyGroupManager interface
-ms.topic: method
 f1_keywords:
 - comsvcs/ISharedPropertyGroupManager.get_Group
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\createvideobywiadevid.htm
 ms.date: 12/05/2018
 ms.keywords: CreateVideoByWiaDevID, CreateVideoByWiaDevID method [WIA], CreateVideoByWiaDevID method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],CreateVideoByWiaDevID method, IWiaVideo.CreateVideoByWiaDevID, IWiaVideo::CreateVideoByWiaDevID, _wia_IWiaVideo_CreateVideoByWiaDevID, wia._wia_IWiaVideo_CreateVideoByWiaDevID, wiavideo/IWiaVideo::CreateVideoByWiaDevID
-ms.topic: method
 f1_keywords:
 - wiavideo/IWiaVideo.CreateVideoByWiaDevID
 dev_langs:

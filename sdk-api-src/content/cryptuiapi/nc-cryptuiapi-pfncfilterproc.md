@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: ced0f35c-7e22-4d19-8352-0bfa37ff1a4b
 ms.date: 12/05/2018
 ms.keywords: PFNCFILTERPROC, PFNCFILTERPROC callback, PFNCFILTERPROC callback function [Security], cryptuiapi/PFNCFILTERPROC, security.pfncfilterproc
-ms.topic: callback
 f1_keywords:
 - cryptuiapi/PFNCFILTERPROC
 dev_langs:

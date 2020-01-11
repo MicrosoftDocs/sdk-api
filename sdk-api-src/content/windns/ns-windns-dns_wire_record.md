@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: fb36930c-dd43-427a-8034-078c99497a3e
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_WIRE_RECORD, *PDNS_WIRE_RECORD structure [DNS], DNS_WIRE_RECORD, DNS_WIRE_RECORD structure [DNS], dns.dns_wire_record, windns/*PDNS_WIRE_RECORD, windns/DNS_WIRE_RECORD'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_WIRE_RECORD
 dev_langs:

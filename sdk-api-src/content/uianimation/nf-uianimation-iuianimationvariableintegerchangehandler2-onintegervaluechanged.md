@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 76889784-BF1B-475B-8D84-201BEE6F0594
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation],OnIntegerValueChanged method, IUIAnimationVariableIntegerChangeHandler2.OnIntegerValueChanged, IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged, OnIntegerValueChanged, OnIntegerValueChanged method [Windows Animation], OnIntegerValueChanged method [Windows Animation],IUIAnimationVariableIntegerChangeHandler2 interface, uianimation.iuianimationvariableintegerchangehandler2_onintegervaluechanged, uianimation/IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationVariableIntegerChangeHandler2.OnIntegerValueChanged
 dev_langs:

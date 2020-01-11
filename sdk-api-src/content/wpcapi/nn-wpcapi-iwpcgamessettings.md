@@ -7,7 +7,6 @@ tech.root: parcon
 ms.assetid: 7509d9ef-d437-406a-8de6-39733499ca0a
 ms.date: 12/05/2018
 ms.keywords: IWPCGamesSettings, IWPCGamesSettings interface, IWPCGamesSettings interface,described, parcon.iwpcgamessettings, wpcapi/IWPCGamesSettings
-ms.topic: interface
 f1_keywords:
 - wpcapi/IWPCGamesSettings
 dev_langs:

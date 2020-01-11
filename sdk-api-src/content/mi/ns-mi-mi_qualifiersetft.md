@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 3868c336-e3c1-4977-8c5d-3964c93b6074
 ms.date: 12/05/2018
 ms.keywords: MI_QualifierSetFT, MI_QualifierSetFT structure [Windows Management Infrastructure (MI)], mi/MI_QualifierSetFT, wmi_v2.mi_qualifiersetft
-ms.topic: struct
 f1_keywords:
 - mi/MI_QualifierSetFT
 dev_langs:

@@ -5,7 +5,6 @@ description: Resets a command list back to its initial state as if a new command
 tech.root: mf
 ms.assetid: 95ddb93d-313e-48a3-ac09-e4675b4a1cad
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoProcessCommandList::Reset
 dev_langs:

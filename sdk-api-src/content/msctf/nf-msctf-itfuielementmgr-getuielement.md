@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: e3a2a7ae-1ca2-4c1e-83af-207821966147
 ms.date: 12/05/2018
 ms.keywords: GetUIElement, GetUIElement method [Text Services Framework], GetUIElement method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],GetUIElement method, ITfUIElementMgr.GetUIElement, ITfUIElementMgr::GetUIElement, msctf/ITfUIElementMgr::GetUIElement, tsf.itfuielementmgr_getuielement
-ms.topic: method
 f1_keywords:
 - msctf/ITfUIElementMgr.GetUIElement
 dev_langs:

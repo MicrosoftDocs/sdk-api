@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 22ba436f-8ccf-4f78-b33c-2328bd495df6
 ms.date: 12/05/2018
 ms.keywords: IMPEG2TuneRequestSupport, IMPEG2TuneRequestSupport interface [Microsoft TV Technologies], IMPEG2TuneRequestSupport interface [Microsoft TV Technologies],described, mstv.impeg2tunerequestsupport, tuner/IMPEG2TuneRequestSupport
-ms.topic: interface
 f1_keywords:
 - tuner/IMPEG2TuneRequestSupport
 dev_langs:

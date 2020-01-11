@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: b0f8bb2a-003f-471f-b1a6-ffec97e2752a
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RemoveStructureChangedEventHandler method, IUIAutomation.RemoveStructureChangedEventHandler, IUIAutomation::RemoveStructureChangedEventHandler, RemoveStructureChangedEventHandler, RemoveStructureChangedEventHandler method [Windows Accessibility], RemoveStructureChangedEventHandler method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_RemoveStructureChangedEventHandler, uiauto_IUIAutomation_RemoveStructureChangedEventHandler, uiautomationclient/IUIAutomation::RemoveStructureChangedEventHandler, winauto.uiauto_IUIAutomation_RemoveStructureChangedEventHandler
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation.RemoveStructureChangedEventHandler
 dev_langs:

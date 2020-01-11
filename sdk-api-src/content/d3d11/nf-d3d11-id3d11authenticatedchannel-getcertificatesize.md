@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: B393140A-9744-4290-B168-4E7F4E9F55DC
 ms.date: 12/05/2018
 ms.keywords: GetCertificateSize, GetCertificateSize method [Media Foundation], GetCertificateSize method [Media Foundation],ID3D11AuthenticatedChannel interface, ID3D11AuthenticatedChannel interface [Media Foundation],GetCertificateSize method, ID3D11AuthenticatedChannel.GetCertificateSize, ID3D11AuthenticatedChannel::GetCertificateSize, d3d11/ID3D11AuthenticatedChannel::GetCertificateSize, mf.id3d11authenticatedchannel_getcertificatesize
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11AuthenticatedChannel.GetCertificateSize
 dev_langs:

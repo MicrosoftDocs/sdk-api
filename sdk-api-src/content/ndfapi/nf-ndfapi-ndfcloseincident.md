@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: 5e5caf41-ca24-42e0-ac22-3b569400c383
 ms.date: 12/05/2018
 ms.keywords: NdfCloseIncident, NdfCloseIncident function [NDF], ndf.ndfcloseincident, ndfapi/NdfCloseIncident
-ms.topic: function
 f1_keywords:
 - ndfapi/NdfCloseIncident
 dev_langs:

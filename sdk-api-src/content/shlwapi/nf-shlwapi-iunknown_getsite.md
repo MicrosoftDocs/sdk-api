@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 95e83078-ab74-40d6-8e31-653e578770f2
 ms.date: 12/05/2018
 ms.keywords: IUnknown_GetSite, IUnknown_GetSite function [Windows Shell], _win32_IUnknown_GetSite, shell.IUnknown_GetSite, shlwapi/IUnknown_GetSite
-ms.topic: function
 f1_keywords:
 - shlwapi/IUnknown_GetSite
 dev_langs:

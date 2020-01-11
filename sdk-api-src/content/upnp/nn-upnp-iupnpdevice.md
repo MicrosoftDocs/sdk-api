@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 566cc606-3dfb-4052-93b0-3c922bf30f84
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice, IUPnPDevice interface [UPnP APIs], IUPnPDevice interface [UPnP APIs],described, _upnp_iupnpdevice, upnp.iupnpdevice, upnp/IUPnPDevice
-ms.topic: interface
 f1_keywords:
 - upnp/IUPnPDevice
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: de0509a4-550b-49f2-a850-fc1bd57b60cd
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Windows Sync], GetFlags method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetFlags method, ISyncChange.GetFlags, ISyncChange::GetFlags, winsync.isyncchange_getflags, winsync/ISyncChange::GetFlags
-ms.topic: method
 f1_keywords:
 - winsync/ISyncChange.GetFlags
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c53306ec-cb5c-4f55-afb0-de72386a166d
 ms.date: 12/05/2018
 ms.keywords: GetSurface, GetSurface method [DirectShow], GetSurface method [DirectShow],IMediaSample2Config interface, IMediaSample2Config interface [DirectShow],GetSurface method, IMediaSample2Config.GetSurface, IMediaSample2Config::GetSurface, IMediaSample2ConfigGetSurface, dshow.imediasample2config_getsurface, strmif/IMediaSample2Config::GetSurface
-ms.topic: method
 f1_keywords:
 - strmif/IMediaSample2Config.GetSurface
 dev_langs:

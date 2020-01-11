@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 095202ed-0272-4bda-a268-6a407ef74a94
 ms.date: 12/05/2018
 ms.keywords: 095202ed-0272-4bda-a268-6a407ef74a94, GetDesiredSampleTimeAndDuration, GetDesiredSampleTimeAndDuration method [Media Foundation], GetDesiredSampleTimeAndDuration method [Media Foundation],IMFDesiredSample interface, IMFDesiredSample interface [Media Foundation],GetDesiredSampleTimeAndDuration method, IMFDesiredSample.GetDesiredSampleTimeAndDuration, IMFDesiredSample::GetDesiredSampleTimeAndDuration, evr/IMFDesiredSample::GetDesiredSampleTimeAndDuration, mf.imfdesiredsample_getdesiredsampletimeandduration
-ms.topic: method
 f1_keywords:
 - evr/IMFDesiredSample.GetDesiredSampleTimeAndDuration
 dev_langs:

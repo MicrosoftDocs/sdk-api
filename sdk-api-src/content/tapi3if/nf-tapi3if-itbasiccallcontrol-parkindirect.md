@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 661ad11c-b653-4b70-9553-59d484527c29
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],ParkIndirect method, ITBasicCallControl.ParkIndirect, ITBasicCallControl::ParkIndirect, ParkIndirect, ParkIndirect method [TAPI 2.2], ParkIndirect method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_parkindirect, tapi3.itbasiccallcontrol_parkindirect, tapi3if/ITBasicCallControl::ParkIndirect
-ms.topic: method
 f1_keywords:
 - tapi3if/ITBasicCallControl.ParkIndirect
 dev_langs:

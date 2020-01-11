@@ -7,7 +7,6 @@ tech.root: Shutdown
 ms.assetid: b7bf376a-79b5-4f63-b3ca-0d515c23d67c
 ms.date: 12/05/2018
 ms.keywords: ShutdownBlockReasonDestroy, ShutdownBlockReasonDestroy function, base.shutdownblockreasondestroy, winuser/ShutdownBlockReasonDestroy
-ms.topic: function
 f1_keywords:
 - winuser/ShutdownBlockReasonDestroy
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 0ac13320-c0c2-45e3-b1c0-b4bf6c7e5315
 ms.date: 12/05/2018
 ms.keywords: ADsFreeEnumerator, ADsFreeEnumerator function [ADSI], _ds_adsfreeenumerator, adshlp/ADsFreeEnumerator, adsi.adsfreeenumerator
-ms.topic: function
 f1_keywords:
 - adshlp/ADsFreeEnumerator
 dev_langs:

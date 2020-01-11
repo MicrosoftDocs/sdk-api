@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 65d773bd-3828-4c9d-a841-bb85a53aeadc
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortalGroup, IVdsIscsiPortalGroup interface [VDS], IVdsIscsiPortalGroup interface [VDS],described, base.ivdsiscsiportalgroup, vds/IVdsIscsiPortalGroup, vdshwprv/IVdsIscsiPortalGroup
-ms.topic: interface
 f1_keywords:
 - vds/IVdsIscsiPortalGroup
 dev_langs:

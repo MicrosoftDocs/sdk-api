@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\hasparentscoperule.htm
 ms.date: 12/05/2018
 ms.keywords: HasParentScopeRule, HasParentScopeRule method [search], HasParentScopeRule method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],HasParentScopeRule method, ISearchCrawlScopeManager.HasParentScopeRule, ISearchCrawlScopeManager::HasParentScopeRule, _search_ISearchCrawlScopeManager_HasParentScopeRule, search._search_ISearchCrawlScopeManager_HasParentScopeRule, searchapi/ISearchCrawlScopeManager::HasParentScopeRule
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchCrawlScopeManager.HasParentScopeRule
 dev_langs:

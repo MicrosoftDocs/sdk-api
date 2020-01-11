@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 0d2c0592-d29a-4e70-978e-55690aed82cb
 ms.date: 12/05/2018
 ms.keywords: GetRootElementBuildCache, GetRootElementBuildCache method [Windows Accessibility], GetRootElementBuildCache method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],GetRootElementBuildCache method, IUIAutomation.GetRootElementBuildCache, IUIAutomation::GetRootElementBuildCache, uiauto.uiauto_IUIAutomation_GetRootElementBuildCache, uiauto_IUIAutomation_GetRootElementBuildCache, uiautomationclient/IUIAutomation::GetRootElementBuildCache, winauto.uiauto_IUIAutomation_GetRootElementBuildCache
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation.GetRootElementBuildCache
 dev_langs:

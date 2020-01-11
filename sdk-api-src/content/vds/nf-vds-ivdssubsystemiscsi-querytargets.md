@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 86a89c23-beed-48d0-8d35-ed8dd39db3c6
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemIscsi interface [VDS],QueryTargets method, IVdsSubSystemIscsi.QueryTargets, IVdsSubSystemIscsi::QueryTargets, QueryTargets, QueryTargets method [VDS], QueryTargets method [VDS],IVdsSubSystemIscsi interface, base.ivdssubsystemiscsi_querytargets, vds/IVdsSubSystemIscsi::QueryTargets, vdshwprv/IVdsSubSystemIscsi::QueryTargets
-ms.topic: method
 f1_keywords:
 - vds/IVdsSubSystemIscsi.QueryTargets
 dev_langs:

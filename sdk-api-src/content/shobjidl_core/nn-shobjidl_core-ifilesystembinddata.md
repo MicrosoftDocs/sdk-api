@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f5099bb3-21a7-4708-ac48-d32a14646614
 ms.date: 12/05/2018
 ms.keywords: IFileSystemBindData, IFileSystemBindData interface [Windows Shell], IFileSystemBindData interface [Windows Shell],described, _shell_ifilesystembinddata, shell.IFileSystemBindData, shobjidl_core/IFileSystemBindData
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IFileSystemBindData
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 91d8fdea-3fe0-4623-ab83-ce3927321bbc
 ms.date: 12/05/2018
 ms.keywords: Enabled property [RDP], Enabled property [RDP],IRDPSRAPIApplicationFilter interface, Enabled property [RDP],RDPSRAPIApplicationFilter object, IRDPSRAPIApplicationFilter interface [RDP],Enabled property, IRDPSRAPIApplicationFilter.Enabled, IRDPSRAPIApplicationFilter.put_Enabled, IRDPSRAPIApplicationFilter::Enabled, IRDPSRAPIApplicationFilter::get_Enabled, IRDPSRAPIApplicationFilter::put_Enabled, RDPSRAPIApplicationFilter object [RDP],Enabled property, put_Enabled, rdp.irdpsrapiapplicationfilter_enabled, rdpencomapi/IRDPSRAPIApplicationFilter::Enabled, rdpencomapi/IRDPSRAPIApplicationFilter::get_Enabled, rdpencomapi/IRDPSRAPIApplicationFilter::put_Enabled
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPIApplicationFilter.Enabled
 dev_langs:

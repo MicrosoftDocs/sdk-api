@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 46e9b3e1-e9a5-4c18-8595-6f883a790b01
 ms.date: 12/05/2018
 ms.keywords: HT_Get8BPPMaskPalette, HT_Get8BPPMaskPalette function [Display Devices], display.ht_get8bppmaskpalette, gdifncs_5d4e6366-f721-442d-9666-12cadfef89b9.xml, winddi/HT_Get8BPPMaskPalette
-ms.topic: function
 f1_keywords:
 - winddi/HT_Get8BPPMaskPalette
 dev_langs:

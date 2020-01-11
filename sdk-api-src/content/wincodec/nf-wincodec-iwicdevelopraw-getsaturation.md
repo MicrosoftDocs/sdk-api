@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 621868d6-3444-48f9-a069-f52ebacd7bbb
 ms.date: 12/05/2018
 ms.keywords: GetSaturation, GetSaturation method [Windows Imaging Component], GetSaturation method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetSaturation method, IWICDevelopRaw.GetSaturation, IWICDevelopRaw::GetSaturation, _wic_codec_iwicdevelopraw_getsaturation, wic._wic_codec_iwicdevelopraw_getsaturation, wincodec/IWICDevelopRaw::GetSaturation
-ms.topic: method
 f1_keywords:
 - wincodec/IWICDevelopRaw.GetSaturation
 dev_langs:

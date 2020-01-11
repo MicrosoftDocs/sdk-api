@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 47ccc16c-b061-489b-b534-5b5929c5d010
 ms.date: 12/05/2018
 ms.keywords: SetupDiDestroyClassImageList, SetupDiDestroyClassImageList function [Device and Driver Installation], devinst.setupdidestroyclassimagelist, di-rtns_15428f4d-4785-460b-9da1-746cf2c69159.xml, setupapi/SetupDiDestroyClassImageList
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiDestroyClassImageList
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneDotNormal(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneDotNormal, XMPlaneDotNormal, XMPlaneDotNormal method [DirectX Math Support APIs], dxmath.xmplanedotnormal
-ms.topic: function
 f1_keywords:
 - directxmath/XMPlaneDotNormal
 dev_langs:

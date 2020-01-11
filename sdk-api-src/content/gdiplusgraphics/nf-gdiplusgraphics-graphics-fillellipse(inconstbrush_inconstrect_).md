@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillellipsemethods\fillellipse.htm
 ms.date: 12/05/2018
 ms.keywords: FillEllipse, FillEllipse method [GDI+], FillEllipse method [GDI+],Graphics class, Graphics class [GDI+],FillEllipse method, Graphics.FillEllipse, Graphics.FillEllipse(IN const Brush,IN const Rect &), Graphics.FillEllipse(const Brush*,const Rect&), Graphics::FillEllipse, Graphics::FillEllipse(IN const Brush,IN const Rect &), _gdiplus_CLASS_Graphics_FillEllipse_Brush_brush_Rect_rect_, gdiplus._gdiplus_CLASS_Graphics_FillEllipse_Brush_brush_Rect_rect_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.FillEllipse
 dev_langs:

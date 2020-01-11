@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 99f1d60a-69c2-4736-a328-19796f4d37f0
 ms.date: 12/05/2018
 ms.keywords: IAzOperation2 interface [Security],RoleAssignments method, IAzOperation2.RoleAssignments, IAzOperation2::RoleAssignments, RoleAssignments, RoleAssignments method [Security], RoleAssignments method [Security],IAzOperation2 interface, azroles/IAzOperation2::RoleAssignments, security.iazoperation2_roleassignments_method
-ms.topic: method
 f1_keywords:
 - azroles/IAzOperation2.RoleAssignments
 dev_langs:

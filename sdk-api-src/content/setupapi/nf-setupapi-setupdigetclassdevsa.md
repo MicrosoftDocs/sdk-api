@@ -4,7 +4,6 @@ title: SetupDiGetClassDevsA
 description: The SetupDiGetClassDevs function returns a handle to a device information set that contains requested device information elements for a local computer.
 ms.date: 4/26/2019
 ms.keywords: SetupDiGetClassDevsA
-ms.topic: language-reference
 targetos: Windows
 f1_keywords:
 - setupapi/SetupDiGetClassDevs

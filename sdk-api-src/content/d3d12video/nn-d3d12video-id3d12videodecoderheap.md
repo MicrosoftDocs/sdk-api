@@ -5,7 +5,6 @@ description: Represents a Direct3D 12 video decoder heap.
 tech.root: mf
 ms.assetid: b731f246-dbdf-46f4-8ccf-8f59c0f8a26e
 ms.date: 05/28/2019
-ms.topic: interface
 f1_keywords:
 - ID3D12VideoDecoderHeap
 dev_langs:

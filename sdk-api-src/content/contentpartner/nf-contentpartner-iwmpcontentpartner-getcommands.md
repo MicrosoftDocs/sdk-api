@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: bc6dfd97-50bb-438c-9cd6-3eac91e99cab
 ms.date: 12/05/2018
 ms.keywords: GetCommands, GetCommands method [Windows Media Player], GetCommands method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetCommands method, IWMPContentPartner.GetCommands, IWMPContentPartner::GetCommands, IWMPContentPartnerGetCommands, contentpartner/IWMPContentPartner::GetCommands, wmp.iwmpcontentpartner_getcommands
-ms.topic: method
 f1_keywords:
 - contentpartner/IWMPContentPartner.GetCommands
 dev_langs:

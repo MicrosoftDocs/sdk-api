@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 71be0151-20dd-40e3-a478-d67e4d8d9c36
 ms.date: 12/05/2018
 ms.keywords: IAudioProcessingObject, IAudioProcessingObject interface [Audio Devices], IAudioProcessingObject interface [Audio Devices],described, audio.iaudioprocessingobject, audio_syseffects_r_7b8bb04d-2546-4fa3-ae7b-7e11df3b1e15.xml, audioenginebaseapo/IAudioProcessingObject
-ms.topic: interface
 f1_keywords:
 - audioenginebaseapo/IAudioProcessingObject
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: d93bafc6-d946-4214-b3c0-5e5a8e359638
 ms.date: 12/05/2018
 ms.keywords: SpInitialize, SpInitialize callback function [Security], SpInitializeFn, SpInitializeFn callback, _ssp_spinitialize, ntsecpkg/SpInitialize, security.spinitialize
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpInitialize
 dev_langs:

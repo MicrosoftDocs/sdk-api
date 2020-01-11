@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 22627f2e-adfb-49de-bae5-20aaf69830ac
 ms.date: 12/05/2018
 ms.keywords: DsGetRdnW, DsGetRdnW function [Active Directory], ad.dsgetrdnw, dsparse/DsGetRdnW
-ms.topic: function
 f1_keywords:
 - dsparse/DsGetRdnW
 dev_langs:

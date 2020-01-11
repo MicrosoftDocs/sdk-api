@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 7d639391-77ee-4889-a11b-1bbd1b88b38e
 ms.date: 12/05/2018
 ms.keywords: DFileSystemImageEvents interface [IMAPI],Update method, DFileSystemImageEvents.Update, DFileSystemImageEvents::Update, Update, Update method [IMAPI], Update method [IMAPI],DFileSystemImageEvents interface, imapi.dfilesystemimageevents_update, imapi2fs/DFileSystemImageEvents::Update
-ms.topic: method
 f1_keywords:
 - imapi2fs/DFileSystemImageEvents.Update
 dev_langs:

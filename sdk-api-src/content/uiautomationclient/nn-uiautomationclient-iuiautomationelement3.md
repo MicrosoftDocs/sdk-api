@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 97AB327B-7A5D-C009-F430-42ADFC27F455
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationElement3, IUIAutomationElement3 interface [Windows Accessibility], IUIAutomationElement3 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationElement3, winauto.uiauto_IUIAutomationElement3
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationElement3
 dev_langs:

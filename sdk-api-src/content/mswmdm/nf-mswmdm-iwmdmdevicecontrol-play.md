@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: e8d717e6-365c-44ad-b24e-daa3c35664de
 ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Play method, IWMDMDeviceControl.Play, IWMDMDeviceControl::Play, IWMDMDeviceControlPlay, Play, Play method [windows Media Device Manager], Play method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Play, wmdm.iwmdmdevicecontrol_play
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMDeviceControl.Play
 dev_langs:

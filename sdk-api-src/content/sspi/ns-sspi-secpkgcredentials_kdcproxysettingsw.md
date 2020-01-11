@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 42BC75B8-6392-4FD4-95BC-266B3AFDDC62
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgCredentials_KdcProxySettingsW, PSecPkgCredentials_KdcProxySettings, PSecPkgCredentials_KdcProxySettings structure pointer [Security], SecPkgCredentials_KdcProxySettings, SecPkgCredentials_KdcProxySettings structure [Security], SecPkgCredentials_KdcProxySettingsW, security.secpkgcredentials_kdcproxysettings, sspi/PSecPkgCredentials_KdcProxySettings, sspi/SecPkgCredentials_KdcProxySettings, sspi/SecPkgCredentials_KdcProxySettingsW'
-ms.topic: struct
 f1_keywords:
 - sspi/SecPkgCredentials_KdcProxySettings
 dev_langs:

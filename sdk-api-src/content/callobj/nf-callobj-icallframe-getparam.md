@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 43662600-841c-4237-80ac-3822eb47be88
 ms.date: 12/05/2018
 ms.keywords: GetParam, GetParam method [COM], GetParam method [COM],ICallFrame interface, ICallFrame interface [COM],GetParam method, ICallFrame.GetParam, ICallFrame::GetParam, _com_icallframe_getparam, callobj/ICallFrame::GetParam, com.icallframe_getparam
-ms.topic: method
 f1_keywords:
 - callobj/ICallFrame.GetParam
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9ov8.htm
 ms.date: 12/05/2018
 ms.keywords: FaxEnableRoutingMethod, FaxEnableRoutingMethod function [Fax Service], FaxEnableRoutingMethodA, FaxEnableRoutingMethodW, _mfax_faxenableroutingmethod, fax._mfax_faxenableroutingmethod, winfax/FaxEnableRoutingMethod, winfax/FaxEnableRoutingMethodA, winfax/FaxEnableRoutingMethodW
-ms.topic: function
 f1_keywords:
 - winfax/FaxEnableRoutingMethod
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 9320b6b6-5253-419e-a293-3b9d030f5963
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],SetSize method, CHStringArray.SetSize, CHStringArray::SetSize, SetSize, SetSize method [Windows Management Instrumentation], SetSize method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_setsize, chstrarr/CHStringArray::SetSize, wmi.chstringarray_setsize
-ms.topic: method
 f1_keywords:
 - chstrarr/CHStringArray.SetSize
 dev_langs:

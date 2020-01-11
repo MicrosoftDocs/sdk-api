@@ -5,7 +5,6 @@ description: Adds a floating point value to an XMVECTOR instance, and returns a 
 ms.assetid: 2e3873c5-2871-49b5-ac2d-4da0d84aa169
 ms.date: 05/13/2019
 ms.keywords: operator+=
-ms.topic: language-reference
 f1_keywords:
 - directxmath/operator+=
 dev_langs:

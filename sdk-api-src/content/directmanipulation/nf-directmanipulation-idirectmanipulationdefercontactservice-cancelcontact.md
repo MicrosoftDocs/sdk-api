@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 5C5029E5-CA4B-4853-B9D3-B99E869A44C3
 ms.date: 12/05/2018
 ms.keywords: CancelContact, CancelContact method [Direct Manipulation], CancelContact method [Direct Manipulation],IDirectManipulationDeferContactService interface, IDirectManipulationDeferContactService interface [Direct Manipulation],CancelContact method, IDirectManipulationDeferContactService.CancelContact, IDirectManipulationDeferContactService::CancelContact, directmanipulation.idirectmanipulationdefercontactservice_cancelcontact, directmanipulation/IDirectManipulationDeferContactService::CancelContact
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationDeferContactService.CancelContact
 dev_langs:

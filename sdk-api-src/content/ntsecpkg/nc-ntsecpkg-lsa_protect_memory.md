@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: c851fe8b-be22-4966-ab99-f177989cf382
 ms.date: 12/05/2018
 ms.keywords: LSA_PROTECT_MEMORY, LSA_PROTECT_MEMORY callback, LsaProtectMemory, LsaProtectMemory callback function [Security], ntsecpkg/LsaProtectMemory, security.lsaprotectmemory
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/LsaProtectMemory
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 31b0e558-0f22-4761-a964-1908c2835478
 ms.date: 12/05/2018
 ms.keywords: IPAT, IPAT interface [Microsoft TV Technologies], IPAT interface [Microsoft TV Technologies],described, IPATInterface, mpeg2psiparser/IPAT, mstv.ipat
-ms.topic: interface
 f1_keywords:
 - mpeg2psiparser/IPAT
 dev_langs:

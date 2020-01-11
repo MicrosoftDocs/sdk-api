@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b42fa81e-99d7-4051-b909-2189581825d0
 ms.date: 12/05/2018
 ms.keywords: IVMRVideoStreamControl, IVMRVideoStreamControl interface [DirectShow], IVMRVideoStreamControl interface [DirectShow],described, IVMRVideoStreamControlInterface, dshow.ivmrvideostreamcontrol, strmif/IVMRVideoStreamControl
-ms.topic: interface
 f1_keywords:
 - strmif/IVMRVideoStreamControl
 dev_langs:

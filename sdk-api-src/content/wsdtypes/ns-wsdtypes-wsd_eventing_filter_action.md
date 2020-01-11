@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: d6fc39ec-f57a-4b20-8c8a-7e370ee3f377
 ms.date: 12/05/2018
 ms.keywords: WSD_EVENTING_FILTER_ACTION, WSD_EVENTING_FILTER_ACTION structure, ncd.wsd_eventing_filter_action, wsdtypes/WSD_EVENTING_FILTER_ACTION
-ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_EVENTING_FILTER_ACTION
 dev_langs:

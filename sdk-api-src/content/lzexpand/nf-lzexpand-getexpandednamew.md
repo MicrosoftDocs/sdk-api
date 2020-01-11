@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 173344bc-59ba-46ba-901a-f8a8929bc4ee
 ms.date: 12/05/2018
 ms.keywords: GetExpandedName, GetExpandedName function [Files], GetExpandedNameA, GetExpandedNameW, _win32_getexpandedname, base.getexpandedname, fs.getexpandedname, lzexpand/GetExpandedName, lzexpand/GetExpandedNameA, lzexpand/GetExpandedNameW
-ms.topic: function
 f1_keywords:
 - lzexpand/GetExpandedName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 7f7bcf12-8d8d-4dea-8191-4f7b24be1b5a
 ms.date: 12/05/2018
 ms.keywords: SymSetScopeFromAddr, SymSetScopeFromAddr function, base.symsetscopefromaddr, dbghelp/SymSetScopeFromAddr
-ms.topic: function
 f1_keywords:
 - dbghelp/SymSetScopeFromAddr
 dev_langs:

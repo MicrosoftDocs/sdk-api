@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6fbedcba-4b76-4cf0-8fa1-c71140d49643
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_OuterFECMethod method, IBDA_DigitalDemodulator.get_OuterFECMethod, IBDA_DigitalDemodulator::get_OuterFECMethod, IBDA_DigitalDemodulatorget_OuterFECMethod, bdaiface/IBDA_DigitalDemodulator::get_OuterFECMethod, get_OuterFECMethod, get_OuterFECMethod method [Microsoft TV Technologies], get_OuterFECMethod method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_outerfecmethod
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_DigitalDemodulator.get_OuterFECMethod
 dev_langs:

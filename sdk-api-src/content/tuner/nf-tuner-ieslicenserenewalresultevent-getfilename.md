@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6ef49a38-c005-4731-a1cb-d5a63ea94e71
 ms.date: 12/05/2018
 ms.keywords: GetFileName, GetFileName method [DirectShow], GetFileName method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetFileName method, IESLicenseRenewalResultEvent.GetFileName, IESLicenseRenewalResultEvent::GetFileName, mstv.ieslicenserenewalresultevent_getfilename, tuner/IESLicenseRenewalResultEvent::GetFileName
-ms.topic: method
 f1_keywords:
 - tuner/IESLicenseRenewalResultEvent.GetFileName
 dev_langs:

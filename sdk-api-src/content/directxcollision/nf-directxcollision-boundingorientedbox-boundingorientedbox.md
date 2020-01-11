@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.#ctor
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox, BoundingOrientedBox constructor [DirectX Math Support APIs], BoundingOrientedBox constructor [DirectX Math Support APIs],BoundingOrientedBox interface, BoundingOrientedBox interface [DirectX Math Support APIs],BoundingOrientedBox constructor, BoundingOrientedBox.BoundingOrientedBox, BoundingOrientedBox.BoundingOrientedBox(), BoundingOrientedBox::BoundingOrientedBox, dxmath.boundingorientedbox_ctor_2
-ms.topic: method
 f1_keywords:
 - directxcollision/BoundingOrientedBox.BoundingOrientedBox
 dev_langs:

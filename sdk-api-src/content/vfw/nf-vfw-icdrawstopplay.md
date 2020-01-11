@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 41faa7cd-13c9-47bc-a62e-c09c7d3264d7
 ms.date: 12/05/2018
 ms.keywords: ICDrawStopPlay, ICDrawStopPlay macro [Windows Multimedia], _win32_ICDrawStopPlay, multimedia.icdrawstopplay, vfw/ICDrawStopPlay
-ms.topic: macro
 f1_keywords:
 - vfw/ICDrawStopPlay
 dev_langs:

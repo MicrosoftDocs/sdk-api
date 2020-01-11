@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixRotationNormal(XMVECTOR,float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixRotationNormal, XMMatrixRotationNormal, XMMatrixRotationNormal method [DirectX Math Support APIs], dxmath.xmmatrixrotationnormal
-ms.topic: function
 f1_keywords:
 - directxmath/XMMatrixRotationNormal
 dev_langs:

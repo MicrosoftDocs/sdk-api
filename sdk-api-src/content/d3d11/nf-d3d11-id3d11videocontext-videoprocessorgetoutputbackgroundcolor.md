@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: B22666BC-EADF-4812-B299-1EA45F1943C4
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetOutputBackgroundColor method, ID3D11VideoContext.VideoProcessorGetOutputBackgroundColor, ID3D11VideoContext::VideoProcessorGetOutputBackgroundColor, VideoProcessorGetOutputBackgroundColor, VideoProcessorGetOutputBackgroundColor method [Media Foundation], VideoProcessorGetOutputBackgroundColor method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetOutputBackgroundColor, mf.id3d11videocontext_videoprocessorgetoutputbackgroundcolor
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11VideoContext.VideoProcessorGetOutputBackgroundColor
 dev_langs:

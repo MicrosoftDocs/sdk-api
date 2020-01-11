@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2ab6709e-3d96-4388-a9b2-97a2f04a4eae
 ms.date: 12/05/2018
 ms.keywords: GetSourceId, GetSourceId method [Microsoft TV Technologies], GetSourceId method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetSourceId method, IATSC_EIT.GetSourceId, IATSC_EIT::GetSourceId, IATSC_EITGetSourceId, atscpsipparser/IATSC_EIT::GetSourceId, mstv.iatsc_eit_getsourceid
-ms.topic: method
 f1_keywords:
 - atscpsipparser/IATSC_EIT.GetSourceId
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: be6161ed-d797-4090-9bf0-5d6ee11cac0e
 ms.date: 12/05/2018
 ms.keywords: ID2D1RenderTarget interface [Direct2D],SetTextAntialiasMode method, ID2D1RenderTarget.SetTextAntialiasMode, ID2D1RenderTarget::SetTextAntialiasMode, SetTextAntialiasMode, SetTextAntialiasMode method [Direct2D], SetTextAntialiasMode method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::SetTextAntialiasMode, direct2d.ID2D1RenderTarget_SetTextAntialiasMode
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1RenderTarget.SetTextAntialiasMode
 dev_langs:

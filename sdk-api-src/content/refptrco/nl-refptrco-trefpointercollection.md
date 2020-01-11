@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: a2d1758a-4a7e-40fd-84c7-a25bc36ab538
 ms.date: 12/05/2018
 ms.keywords: TRefPointerCollection, TRefPointerCollection class [Windows Management Instrumentation], TRefPointerCollection class [Windows Management Instrumentation],described, _hmm_trefpointercollection, refptrco/TRefPointerCollection, wmi.trefpointercollection
-ms.topic: class
 f1_keywords:
 - refptrco/TRefPointerCollection
 dev_langs:

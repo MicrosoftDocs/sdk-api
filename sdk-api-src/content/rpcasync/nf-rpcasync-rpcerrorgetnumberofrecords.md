@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 1b498cc8-9ee5-47bd-a484-33bf1c89413c
 ms.date: 12/05/2018
 ms.keywords: RpcErrorGetNumberOfRecords, RpcErrorGetNumberOfRecords function [RPC], _rpc_rpcerrorgetnumberofrecords, rpc.rpcerrorgetnumberofrecords, rpcasync/RpcErrorGetNumberOfRecords
-ms.topic: function
 f1_keywords:
 - rpcasync/RpcErrorGetNumberOfRecords
 dev_langs:

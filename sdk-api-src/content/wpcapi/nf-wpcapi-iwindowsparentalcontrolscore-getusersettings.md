@@ -7,7 +7,6 @@ tech.root: parcon
 ms.assetid: 92c7a138-10b8-4bdf-afea-985e203e04e4
 ms.date: 12/05/2018
 ms.keywords: GetUserSettings, GetUserSettings method, GetUserSettings method,IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,GetUserSettings method, IWindowsParentalControlsCore.GetUserSettings, IWindowsParentalControlsCore::GetUserSettings, parcon.iwindowsparentalcontrols_getusersettings, wpcapi/IWindowsParentalControlsCore::GetUserSettings
-ms.topic: method
 f1_keywords:
 - wpcapi/IWindowsParentalControlsCore.GetUserSettings
 dev_langs:

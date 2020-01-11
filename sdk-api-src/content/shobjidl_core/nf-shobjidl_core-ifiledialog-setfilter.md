@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6f650ae2-77c4-496c-8b8b-279c69eaaf65
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFilter method, IFileDialog.SetFilter, IFileDialog::SetFilter, SetFilter, SetFilter method [Windows Shell], SetFilter method [Windows Shell],IFileDialog interface, _shell_IFileDialog_SetFilter, shell.IFileDialog_SetFilter, shobjidl_core/IFileDialog::SetFilter
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileDialog.SetFilter
 dev_langs:

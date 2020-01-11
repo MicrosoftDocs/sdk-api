@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: CEFB457B-2022-4FCC-AF1E-78A62D62E034
 ms.date: 12/05/2018
 ms.keywords: GetThemeAnimationProperty, GetThemeAnimationProperty function [Windows Controls], controls.getthemeanimationproperty, uxtheme/GetThemeAnimationProperty
-ms.topic: function
 f1_keywords:
 - uxtheme/GetThemeAnimationProperty
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetcompositiontiminginfo.htm
 ms.date: 12/05/2018
 ms.keywords: DwmGetCompositionTimingInfo, DwmGetCompositionTimingInfo function [Desktop Window Manager], _udwm_dwmgetcompositiontiminginfo, _udwm_dwmgetcompositiontiminginfo_cpp, dwm.dwmgetcompositiontiminginfo, dwmapi/DwmGetCompositionTimingInfo, winui._udwm_dwmgetcompositiontiminginfo
-ms.topic: function
 f1_keywords:
 - dwmapi/DwmGetCompositionTimingInfo
 dev_langs:

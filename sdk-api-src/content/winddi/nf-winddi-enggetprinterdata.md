@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: aeeda5d8-1447-42e4-b54b-39f657a0a53c
 ms.date: 12/05/2018
 ms.keywords: EngGetPrinterData, EngGetPrinterData function [Display Devices], display.enggetprinterdata, gdifncs_63eb49b8-c997-4d78-b4ec-0620afac41e9.xml, winddi/EngGetPrinterData
-ms.topic: function
 f1_keywords:
 - winddi/EngGetPrinterData
 dev_langs:

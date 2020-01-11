@@ -7,7 +7,6 @@ tech.root: NetVista
 ms.assetid: 94a81a93-7c92-4c0a-9ac7-c2085175c1a7
 ms.date: 12/05/2018
 ms.keywords: FWPS_INCOMING_VALUE0, FWPS_INCOMING_VALUE0 structure [Network Drivers Starting with Windows Vista], fwpstypes/FWPS_INCOMING_VALUE0, netvista.fwps_incoming_value0, wfp_ref_3_struct_3_fwps_F-O_de0ecafa-7ade-4473-a04e-3fb924c22db0.xml
-ms.topic: struct
 f1_keywords:
 - fwpstypes/FWPS_INCOMING_VALUE0
 dev_langs:

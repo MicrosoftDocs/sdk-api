@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: cc0f4314-e216-490b-a49a-14bb850e0762
 ms.date: 12/05/2018
 ms.keywords: CommitTransactionAsync, CommitTransactionAsync function [Files], fs.committransactionasync, ktmw32/CommitTransactionAsync
-ms.topic: function
 f1_keywords:
 - ktmw32/CommitTransactionAsync
 dev_langs:

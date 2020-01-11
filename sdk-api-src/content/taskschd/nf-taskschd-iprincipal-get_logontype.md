@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: cf0a8ad4-f1bb-46a2-ae92-d00e08b8d459
 ms.date: 12/05/2018
 ms.keywords: IPrincipal interface [Task Scheduler],LogonType property, IPrincipal.LogonType, IPrincipal.get_LogonType, IPrincipal::LogonType, IPrincipal::get_LogonType, IPrincipal::put_LogonType, LogonType property [Task Scheduler], LogonType property [Task Scheduler],IPrincipal interface, TASK_LOGON_GROUP, TASK_LOGON_INTERACTIVE_TOKEN, TASK_LOGON_INTERACTIVE_TOKEN_OR_PASSWORD, TASK_LOGON_NONE, TASK_LOGON_PASSWORD, TASK_LOGON_S4U, TASK_LOGON_SERVICE_ACCOUNT, get_LogonType, taskschd.iprincipal_logontype, taskschd/IPrincipal::LogonType, taskschd/IPrincipal::get_LogonType, taskschd/IPrincipal::put_LogonType
-ms.topic: method
 f1_keywords:
 - taskschd/IPrincipal.LogonType
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: C57F5758-2BF7-444E-A22C-62C925B899A1
 ms.date: 12/05/2018
 ms.keywords: WerRegisterAppLocalDump, WerRegisterAppLocalDump function [Windows Error Reporting], wer.werregisterapplocaldump, werapi/WerRegisterAppLocalDump
-ms.topic: function
 f1_keywords:
 - werapi/WerRegisterAppLocalDump
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: c463debc-341b-4491-8543-70623bf717d0
 ms.date: 12/05/2018
 ms.keywords: IInkPicture interface [Tablet PC],MarginX property, IInkPicture.MarginX, IInkPicture.get_MarginX, IInkPicture::MarginX, IInkPicture::get_MarginX, IInkPicture::put_MarginX, InkPicture.get_MarginX, InkPicture.put_MarginX, MarginX property [Tablet PC], MarginX property [Tablet PC],IInkPicture interface, get_MarginX, msinkaut/IInkPicture::MarginX, msinkaut/IInkPicture::get_MarginX, msinkaut/IInkPicture::put_MarginX, put_MarginX, tablet.inkpicture_marginx
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkPicture.MarginX
 dev_langs:

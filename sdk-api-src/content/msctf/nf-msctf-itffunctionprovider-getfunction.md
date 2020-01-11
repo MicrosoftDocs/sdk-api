@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: a8ec629a-9ac6-4f25-82f2-42af6ce52ddc
 ms.date: 12/05/2018
 ms.keywords: GetFunction, GetFunction method [Text Services Framework], GetFunction method [Text Services Framework],ITfFunctionProvider interface, ITfFunctionProvider interface [Text Services Framework],GetFunction method, ITfFunctionProvider.GetFunction, ITfFunctionProvider::GetFunction, _tsf_itffunctionprovider_getfunction_ref, msctf/ITfFunctionProvider::GetFunction, tsf.itffunctionprovider_getfunction
-ms.topic: method
 f1_keywords:
 - msctf/ITfFunctionProvider.GetFunction
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 8c114e9e-b201-4317-8a45-d5b0964c6ff8
 ms.date: 12/05/2018
 ms.keywords: CSC_InheritSxs, CSC_NewSxs, CSC_NoSxs, CSC_SxsConfig, CSC_SxsConfig enumeration [COM+], _cos_CSC_SxsConfig, comsvcs/CSC_InheritSxs, comsvcs/CSC_NewSxs, comsvcs/CSC_NoSxs, comsvcs/CSC_SxsConfig, cos.csc_sxsconfig
-ms.topic: enum
 f1_keywords:
 - comsvcs/CSC_SxsConfig
 dev_langs:

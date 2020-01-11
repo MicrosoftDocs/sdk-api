@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 6ccc7601-4355-49c8-b280-875f1accf9ff
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumAgentSession interface, IEnumAgentSession interface [TAPI 2.2],Clone method, IEnumAgentSession.Clone, IEnumAgentSession::Clone, _tapi3_ienumagentsession_clone, tapi3.ienumagentsession_clone, tapi3cc/IEnumAgentSession::Clone
-ms.topic: method
 f1_keywords:
 - tapi3cc/IEnumAgentSession.Clone
 dev_langs:

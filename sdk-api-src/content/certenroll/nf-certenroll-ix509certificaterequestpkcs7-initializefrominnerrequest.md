@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: b63bfaaa-a8af-4c72-a191-447230adae72
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],InitializeFromInnerRequest method, IX509CertificateRequestPkcs7.InitializeFromInnerRequest, IX509CertificateRequestPkcs7::InitializeFromInnerRequest, InitializeFromInnerRequest, InitializeFromInnerRequest method [Security], InitializeFromInnerRequest method [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::InitializeFromInnerRequest, security.ix509certificaterequestpkcs7_initializefrominnerrequest_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509CertificateRequestPkcs7.InitializeFromInnerRequest
 dev_langs:

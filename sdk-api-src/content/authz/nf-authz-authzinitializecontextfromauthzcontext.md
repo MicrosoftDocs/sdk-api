@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: dac5e354-ee31-45e3-9eb8-8f3263161ad2
 ms.date: 12/05/2018
 ms.keywords: AuthzInitializeContextFromAuthzContext, AuthzInitializeContextFromAuthzContext function [Security], _win32_authzinitializecontextfromauthzcontext, authz/AuthzInitializeContextFromAuthzContext, security.authzinitializecontextfromauthzcontext
-ms.topic: function
 f1_keywords:
 - authz/AuthzInitializeContextFromAuthzContext
 dev_langs:

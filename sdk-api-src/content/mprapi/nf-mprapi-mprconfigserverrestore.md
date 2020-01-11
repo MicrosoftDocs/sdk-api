@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 1489ce8a-4f9d-4cf0-8729-b24e8c571557
 ms.date: 12/05/2018
 ms.keywords: MprConfigServerRestore, MprConfigServerRestore function [RAS], _mpr_mprconfigserverrestore, mprapi/MprConfigServerRestore, rras.mprconfigserverrestore
-ms.topic: function
 f1_keywords:
 - mprapi/MprConfigServerRestore
 dev_langs:

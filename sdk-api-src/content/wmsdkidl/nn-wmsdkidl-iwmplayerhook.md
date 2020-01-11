@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 5e58cb6a-3398-4b12-881e-76f936f6c7b3
 ms.date: 12/05/2018
 ms.keywords: IWMPlayerHook, IWMPlayerHook interface [windows Media Format], IWMPlayerHook interface [windows Media Format],described, IWMPlayerHookInterface, wmformat.iwmplayerhook, wmsdkidl/IWMPlayerHook
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMPlayerHook
 dev_langs:

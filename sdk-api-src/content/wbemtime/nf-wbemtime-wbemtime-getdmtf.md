@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 3bfcf7f8-0b0c-4a3f-83c7-be4c37753a7a
 ms.date: 12/05/2018
 ms.keywords: ?GetDMTF@WBEMTime@@QBEPAGH@Z, ?GetDMTF@WBEMTime@@QEBAPEAGH@Z, GetDMTF, GetDMTF method [Windows Management Instrumentation], GetDMTF method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetDMTF method, WBEMTime.GetDMTF, WBEMTime::GetDMTF, _hmm_wbemtime_getdmtf, wbemtime/WBEMTime::GetDMTF, wmi.wbemtime_getdmtf
-ms.topic: method
 f1_keywords:
 - wbemtime/WBEMTime.GetDMTF
 dev_langs:

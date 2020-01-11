@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: c923b0a5-1a8d-42aa-bd05-0d318199756d
 ms.date: 12/05/2018
 ms.keywords: FDITruncateCabinet, FDITruncateCabinet function [Windows API], fdi/FDITruncateCabinet, winprog.fditruncatecabinet
-ms.topic: function
 f1_keywords:
 - fdi/FDITruncateCabinet
 dev_langs:

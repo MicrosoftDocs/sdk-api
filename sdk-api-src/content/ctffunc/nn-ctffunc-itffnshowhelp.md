@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: d5d60767-95f3-4ed0-b61e-58e06d1e1a98
 ms.date: 12/05/2018
 ms.keywords: ITfFnShowHelp, ITfFnShowHelp interface [Text Services Framework], ITfFnShowHelp interface [Text Services Framework],described, _tsf_itffnshowhelp_ref, ctffunc/ITfFnShowHelp, tsf.itffnshowhelp
-ms.topic: interface
 f1_keywords:
 - ctffunc/ITfFnShowHelp
 dev_langs:

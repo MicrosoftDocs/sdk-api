@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 9b0e5646-ac57-4eae-bad7-a16c07b51f4b
 ms.date: 12/05/2018
 ms.keywords: NPLogonNotify, NPLogonNotify function [Security], SvcCtl, WinSta_0, _mnp_nplogonnotify, npapi/NPLogonNotify, security.nplogonnotify
-ms.topic: function
 f1_keywords:
 - npapi/NPLogonNotify
 dev_langs:

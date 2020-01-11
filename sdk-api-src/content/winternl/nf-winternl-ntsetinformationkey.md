@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 74772ebf-684b-4579-a28a-9b80afb4ccf9
 ms.date: 12/05/2018
 ms.keywords: NtSetInformationKey, NtSetInformationKey function [Windows API], base.ntsetinformationkey, winprog.ntsetinformationkey, winternl/NtSetInformationKey
-ms.topic: function
 f1_keywords:
 - winternl/NtSetInformationKey
 dev_langs:

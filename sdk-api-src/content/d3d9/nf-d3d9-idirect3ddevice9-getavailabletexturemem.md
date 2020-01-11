@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getavailabletexturemem.htm
 ms.date: 12/05/2018
 ms.keywords: 4c038892-740b-67d5-cbdf-79de3acfb3d1, GetAvailableTextureMem, GetAvailableTextureMem method [Direct3D 9], GetAvailableTextureMem method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetAvailableTextureMem method, IDirect3DDevice9.GetAvailableTextureMem, IDirect3DDevice9::GetAvailableTextureMem, d3d9helper/IDirect3DDevice9::GetAvailableTextureMem, direct3d9.idirect3ddevice9__getavailabletexturemem
-ms.topic: method
 f1_keywords:
 - d3d9/IDirect3DDevice9.GetAvailableTextureMem
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 6405bf6f-da60-463c-9acc-820b586e42e1
 ms.date: 12/05/2018
 ms.keywords: IOpcPartEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcPartEnumerator.MovePrevious, IOpcPartEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcPartEnumerator interface, msopc/IOpcPartEnumerator::MovePrevious, opc.iopcpartenumerator_moveprevious
-ms.topic: method
 f1_keywords:
 - msopc/IOpcPartEnumerator.MovePrevious
 dev_langs:

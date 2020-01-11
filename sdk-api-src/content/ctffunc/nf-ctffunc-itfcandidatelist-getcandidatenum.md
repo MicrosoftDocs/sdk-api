@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 53b8f8cc-776c-454a-86fa-6fa3b6ac097b
 ms.date: 12/05/2018
 ms.keywords: GetCandidateNum, GetCandidateNum method [Text Services Framework], GetCandidateNum method [Text Services Framework],ITfCandidateList interface, ITfCandidateList interface [Text Services Framework],GetCandidateNum method, ITfCandidateList.GetCandidateNum, ITfCandidateList::GetCandidateNum, _tsf_itfcandidatelist_getcandidatenum_ref, ctffunc/ITfCandidateList::GetCandidateNum, tsf.itfcandidatelist_getcandidatenum
-ms.topic: method
 f1_keywords:
 - ctffunc/ITfCandidateList.GetCandidateNum
 dev_langs:

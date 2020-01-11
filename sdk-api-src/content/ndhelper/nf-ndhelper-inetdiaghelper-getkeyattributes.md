@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: f9501450-a883-4941-a03f-ab735acca82f
 ms.date: 12/05/2018
 ms.keywords: GetKeyAttributes, GetKeyAttributes method [NDF], GetKeyAttributes method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetKeyAttributes method, INetDiagHelper.GetKeyAttributes, INetDiagHelper::GetKeyAttributes, ndf.inetdiaghelpe_getkeyattributes, ndhelper/INetDiagHelper::GetKeyAttributes
-ms.topic: method
 f1_keywords:
 - ndhelper/INetDiagHelper.GetKeyAttributes
 dev_langs:

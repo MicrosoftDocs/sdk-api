@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: c9e2f353-d5d4-47a2-8398-5cbd9d499fb7
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemImportTarget, IVdsSubSystemImportTarget interface [VDS], IVdsSubSystemImportTarget interface [VDS],described, base.ivdssubsystemimporttarget, vds/IVdsSubSystemImportTarget
-ms.topic: interface
 f1_keywords:
 - vds/IVdsSubSystemImportTarget
 dev_langs:

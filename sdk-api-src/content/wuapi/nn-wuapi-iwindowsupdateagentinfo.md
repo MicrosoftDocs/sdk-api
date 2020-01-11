@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 46692b86-0fd9-4e48-9fb2-0ea3521b6bca
 ms.date: 12/05/2018
 ms.keywords: IWindowsUpdateAgentInfo, IWindowsUpdateAgentInfo interface [Windows Update Agent], IWindowsUpdateAgentInfo interface [Windows Update Agent],described, wua.iwindowsupdateagentinfo, wuapi/IWindowsUpdateAgentInfo
-ms.topic: interface
 f1_keywords:
 - wuapi/IWindowsUpdateAgentInfo
 dev_langs:

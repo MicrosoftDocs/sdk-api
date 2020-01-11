@@ -7,7 +7,6 @@ tech.root: proc_snap
 ms.assetid: 58E2FBAF-661C-45BE-A25A-A096AF52ED3E
 ms.date: 12/05/2018
 ms.keywords: PssWalkMarkerCreate, PssWalkMarkerCreate function, proc_snap.psswalkmarkercreate, processsnapshot/PssWalkMarkerCreate
-ms.topic: function
 f1_keywords:
 - processsnapshot/PssWalkMarkerCreate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 7d9bd900-dda3-4deb-ab38-484842873dea
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncChangeUnits interface [Windows Sync],Reset method, IEnumSyncChangeUnits.Reset, IEnumSyncChangeUnits::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSyncChangeUnits interface, winsync.ienumsyncchangeunits_reset, winsync/IEnumSyncChangeUnits::Reset
-ms.topic: method
 f1_keywords:
 - winsync/IEnumSyncChangeUnits.Reset
 dev_langs:

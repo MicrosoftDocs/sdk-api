@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_scopevar_info.htm
 ms.date: 12/05/2018
 ms.keywords: 90b648c2-0ae3-a5f5-05de-ba4f5d6c85d1, D3D10_SHADER_DEBUG_SCOPEVAR_INFO, D3D10_SHADER_DEBUG_SCOPEVAR_INFO structure [Direct3D 10], d3d10_1shader/D3D10_SHADER_DEBUG_SCOPEVAR_INFO, direct3d10.d3d10_shader_debug_scopevar_info
-ms.topic: struct
 f1_keywords:
 - d3d10_1shader/D3D10_SHADER_DEBUG_SCOPEVAR_INFO
 dev_langs:

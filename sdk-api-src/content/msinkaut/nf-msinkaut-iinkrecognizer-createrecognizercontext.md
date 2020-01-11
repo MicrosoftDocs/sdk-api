@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: b6aeec3f-8d57-4667-b171-1d8cad95f45c
 ms.date: 12/05/2018
 ms.keywords: CreateRecognizerContext, CreateRecognizerContext method [Tablet PC], CreateRecognizerContext method [Tablet PC],IInkRecognizer interface, IInkRecognizer interface [Tablet PC],CreateRecognizerContext method, IInkRecognizer.CreateRecognizerContext, IInkRecognizer::CreateRecognizerContext, b6aeec3f-8d57-4667-b171-1d8cad95f45c, msinkaut/IInkRecognizer::CreateRecognizerContext, tablet.iinkrecognizer_createrecognizercontext
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRecognizer.CreateRecognizerContext
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 752bda5e-d3e1-4566-90c3-aaa336479670
 ms.date: 12/05/2018
 ms.keywords: IMtsGrp interface [COM+],Refresh method, IMtsGrp.Refresh, IMtsGrp::Refresh, Refresh, Refresh method [COM+], Refresh method [COM+],IMtsGrp interface, _dtc_IMtsGrp_Refresh, comsvcs/IMtsGrp::Refresh, cos.imtsgrp_refresh
-ms.topic: method
 f1_keywords:
 - comsvcs/IMtsGrp.Refresh
 dev_langs:

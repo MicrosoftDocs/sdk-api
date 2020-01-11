@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 3CC91F7C-7F82-4B3B-AA50-FE03CFEC0278
 ms.date: 12/05/2018
 ms.keywords: TraceQueryInformation, TraceQueryInformation function [ETW], etw.tracequeryinformation, evntrace/TraceQueryInformation
-ms.topic: function
 f1_keywords:
 - evntrace/TraceQueryInformation
 dev_langs:

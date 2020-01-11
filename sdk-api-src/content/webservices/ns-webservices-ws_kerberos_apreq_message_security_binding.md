@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 03127248-f5cc-44da-9c3d-abf016dd6bb2
 ms.date: 12/05/2018
 ms.keywords: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING, WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING, wsw.ws_kerberos_apreq_message_security_binding
-ms.topic: struct
 f1_keywords:
 - webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING
 dev_langs:

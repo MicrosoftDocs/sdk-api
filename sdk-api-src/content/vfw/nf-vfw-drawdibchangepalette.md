@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 8c94ecac-d12c-45c4-8a11-e17502bd7d5d
 ms.date: 12/05/2018
 ms.keywords: DrawDibChangePalette, DrawDibChangePalette function [Windows Multimedia], _win32_DrawDibChangePalette, multimedia.drawdibchangepalette, vfw/DrawDibChangePalette
-ms.topic: function
 f1_keywords:
 - vfw/DrawDibChangePalette
 dev_langs:

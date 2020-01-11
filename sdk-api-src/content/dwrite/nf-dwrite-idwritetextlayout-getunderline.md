@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: cd34ba6b-748c-44ca-8db6-d4715a057def
 ms.date: 12/05/2018
 ms.keywords: GetUnderline, GetUnderline method [Direct Write], GetUnderline method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetUnderline method, IDWriteTextLayout.GetUnderline, IDWriteTextLayout::GetUnderline, directwrite.IDWriteTextLayout_GetUnderline, dwrite/IDWriteTextLayout::GetUnderline
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextLayout.GetUnderline
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: ca049695-02d0-4b30-ad1f-60cdbf0a4dbd
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],SetApplicationPriority method, ITTAPI.SetApplicationPriority, ITTAPI::SetApplicationPriority, SetApplicationPriority, SetApplicationPriority method [TAPI 2.2], SetApplicationPriority method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_setapplicationpriority, tapi3.ittapi_setapplicationpriority, tapi3if/ITTAPI::SetApplicationPriority
-ms.topic: method
 f1_keywords:
 - tapi3if/ITTAPI.SetApplicationPriority
 dev_langs:

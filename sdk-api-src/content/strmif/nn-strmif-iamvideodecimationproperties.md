@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: fd435eff-a4bc-40b3-8aa7-50d78d17e4ce
 ms.date: 12/05/2018
 ms.keywords: IAMVideoDecimationProperties, IAMVideoDecimationProperties interface [DirectShow], IAMVideoDecimationProperties interface [DirectShow],described, IAMVideoDecimationPropertiesInterface, dshow.iamvideodecimationproperties, strmif/IAMVideoDecimationProperties
-ms.topic: interface
 f1_keywords:
 - strmif/IAMVideoDecimationProperties
 dev_langs:

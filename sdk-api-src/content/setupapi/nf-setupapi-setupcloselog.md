@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 659e7922-205c-4da2-90ed-aa7d7625af87
 ms.date: 12/05/2018
 ms.keywords: SetupCloseLog, SetupCloseLog function [Setup API], _setupapi_setupcloselog, setup.setupcloselog, setupapi/SetupCloseLog
-ms.topic: function
 f1_keywords:
 - setupapi/SetupCloseLog
 dev_langs:

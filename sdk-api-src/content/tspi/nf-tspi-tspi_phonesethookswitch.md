@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: e0cfe1b7-9904-4baf-8801-43bc1a5d05d8
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSetHookSwitch, TSPI_phoneSetHookSwitch function [TAPI 2.2], _tspi_tspi_phonesethookswitch, tspi.tspi_phonesethookswitch, tspi/TSPI_phoneSetHookSwitch
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_phoneSetHookSwitch
 dev_langs:

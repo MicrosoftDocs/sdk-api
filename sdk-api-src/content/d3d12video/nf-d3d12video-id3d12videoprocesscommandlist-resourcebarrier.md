@@ -5,7 +5,6 @@ description: Notifies the driver that it needs to synchronize multiple accesses 
 tech.root: mf
 ms.assetid: 9c37e5aa-b9f7-4e72-ae08-cf0403d0bc5a
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoProcessCommandList::ResourceBarrier
 dev_langs:

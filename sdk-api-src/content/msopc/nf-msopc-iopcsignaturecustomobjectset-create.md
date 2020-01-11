@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 93bf4509-900c-42bc-9834-c8a33cfe7e65
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignatureCustomObjectSet interface, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],Create method, IOpcSignatureCustomObjectSet.Create, IOpcSignatureCustomObjectSet::Create, msopc/IOpcSignatureCustomObjectSet::Create, opc.iopcsignaturecustomobjectset_create
-ms.topic: method
 f1_keywords:
 - msopc/IOpcSignatureCustomObjectSet.Create
 dev_langs:

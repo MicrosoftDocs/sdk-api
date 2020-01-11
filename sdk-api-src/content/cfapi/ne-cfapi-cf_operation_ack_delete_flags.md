@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: 407B7035-09A0-43BC-AC07-2CC0973DDBCC
 ms.date: 12/05/2018
 ms.keywords: CF_OPERATION_ACK_DELETE_FLAGS, CF_OPERATION_ACK_DELETE_FLAGS enumeration, CF_OPERATION_ACK_DELETE_FLAG_NONE, cfapi/CF_OPERATION_ACK_DELETE_FLAGS, cfapi/CF_OPERATION_ACK_DELETE_FLAG_NONE, cloudApi.cf_operation_ack_delete_flags
-ms.topic: enum
 f1_keywords:
 - cfapi/CF_OPERATION_ACK_DELETE_FLAGS
 dev_langs:

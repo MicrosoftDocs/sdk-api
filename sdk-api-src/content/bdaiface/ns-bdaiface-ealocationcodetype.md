@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: dd705e3a-4125-46db-b33d-d97476096484
 ms.date: 12/05/2018
 ms.keywords: EALocationCodeType, EALocationCodeType structure [Microsoft TV Technologies], EALocationCodeTypeStructure, bdaiface_enums/EALocationCodeType, mstv.ealocationcodetype
-ms.topic: struct
 f1_keywords:
 - bdaiface/EALocationCodeType
 dev_langs:

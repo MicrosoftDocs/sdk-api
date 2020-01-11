@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4Refract(XMVECTOR,XMVECTOR,float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4Refract, XMVector4Refract, XMVector4Refract method [DirectX Math Support APIs], dxmath.xmvector4refract
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector4Refract
 dev_langs:

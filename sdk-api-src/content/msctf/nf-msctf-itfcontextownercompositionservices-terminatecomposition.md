@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 950ba2b3-cb12-4697-a4b2-1c87373b9a23
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerCompositionServices interface [Text Services Framework],TerminateComposition method, ITfContextOwnerCompositionServices.TerminateComposition, ITfContextOwnerCompositionServices::TerminateComposition, TerminateComposition, TerminateComposition method [Text Services Framework], TerminateComposition method [Text Services Framework],ITfContextOwnerCompositionServices interface, _tsf_itfcontextownercompositionservices_terminatecomposition_ref, msctf/ITfContextOwnerCompositionServices::TerminateComposition, tsf.itfcontextownercompositionservices_terminatecomposition
-ms.topic: method
 f1_keywords:
 - msctf/ITfContextOwnerCompositionServices.TerminateComposition
 dev_langs:

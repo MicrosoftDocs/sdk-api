@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 79B9E5CF-396C-45FB-931B-7B50281A0446
 ms.date: 12/05/2018
 ms.keywords: WindowsDeleteString, WindowsDeleteString function [Windows Runtime], winrt.windowsdeletestring, winstring/WindowsDeleteString
-ms.topic: function
 f1_keywords:
 - winstring/WindowsDeleteString
 dev_langs:

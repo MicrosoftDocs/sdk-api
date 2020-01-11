@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: a6f01573-c1ee-421d-8591-e1c9fa6c3d68
 ms.date: 12/05/2018
 ms.keywords: AzTask object [Security],Submit method, IAzTask interface [Security],Submit method, IAzTask.Submit, IAzTask::Submit, Submit, Submit method [Security], Submit method [Security],AzTask object, Submit method [Security],IAzTask interface, azroles/IAzTask::Submit, security.iaztask_submit
-ms.topic: method
 f1_keywords:
 - azroles/IAzTask.Submit
 dev_langs:

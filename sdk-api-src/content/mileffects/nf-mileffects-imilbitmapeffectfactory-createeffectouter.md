@@ -7,7 +7,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectfactory\createeffectouter.htm
 ms.date: 12/05/2018
 ms.keywords: CreateEffectOuter, CreateEffectOuter method [WPF Bitmap Effects], CreateEffectOuter method [WPF Bitmap Effects],IMILBitmapEffectFactory interface, IMILBitmapEffectFactory interface [WPF Bitmap Effects],CreateEffectOuter method, IMILBitmapEffectFactory.CreateEffectOuter, IMILBitmapEffectFactory::CreateEffectOuter, _wibe_imilbitmapeffectfactory_createeffectouter, mileffects/IMILBitmapEffectFactory::CreateEffectOuter, wibe._wibe_imilbitmapeffectfactory_createeffectouter
-ms.topic: method
 f1_keywords:
 - mileffects/IMILBitmapEffectFactory.CreateEffectOuter
 dev_langs:

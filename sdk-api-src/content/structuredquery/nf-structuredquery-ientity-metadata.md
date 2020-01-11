@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\metadata.htm
 ms.date: 12/05/2018
 ms.keywords: IEntity interface [search],MetaData method, IEntity.MetaData, IEntity::MetaData, MetaData, MetaData method [search], MetaData method [search],IEntity interface, _search_IEntity_MetaData, search._search_IEntity_MetaData, structuredquery/IEntity::MetaData
-ms.topic: method
 f1_keywords:
 - structuredquery/IEntity.MetaData
 dev_langs:

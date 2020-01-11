@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 71fad98a-d115-4350-b3aa-3f3927b2c24d
 ms.date: 12/05/2018
 ms.keywords: WSD_HELLO, WSD_HELLO structure, ncd.wsd_hello_struct, wsdtypes/WSD_HELLO
-ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_HELLO
 dev_langs:

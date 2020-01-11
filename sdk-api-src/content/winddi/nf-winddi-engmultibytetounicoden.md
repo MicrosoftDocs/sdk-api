@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: fa7a4e64-46be-49c8-9862-04348b9dc79e
 ms.date: 12/05/2018
 ms.keywords: EngMultiByteToUnicodeN, EngMultiByteToUnicodeN function [Display Devices], display.engmultibytetounicoden, gdifncs_ad2cf58d-ac6c-438f-b9be-74e2617a857c.xml, winddi/EngMultiByteToUnicodeN
-ms.topic: function
 f1_keywords:
 - winddi/EngMultiByteToUnicodeN
 dev_langs:

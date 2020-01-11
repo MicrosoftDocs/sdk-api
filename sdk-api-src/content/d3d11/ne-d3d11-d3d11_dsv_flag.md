@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 8894ec55-9d56-4d41-a5d6-72ce064e3351
 ms.date: 12/05/2018
 ms.keywords: D3D11_DSV_FLAG, D3D11_DSV_FLAG enumeration [Direct3D 11], D3D11_DSV_READ_ONLY_DEPTH, D3D11_DSV_READ_ONLY_STENCIL, d3d11/D3D11_DSV_FLAG, d3d11/D3D11_DSV_READ_ONLY_DEPTH, d3d11/D3D11_DSV_READ_ONLY_STENCIL, direct3d11.d3d11_dsv_flag, f62b0b22-d913-ed95-64ca-e81a26c5564b
-ms.topic: enum
 f1_keywords:
 - d3d11/D3D11_DSV_FLAG
 dev_langs:

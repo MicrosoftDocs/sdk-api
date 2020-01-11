@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: f04d4d61-ebe0-4eb1-b0e7-b94d9ef3c900
 ms.date: 12/05/2018
 ms.keywords: MsiRecordGetInteger, MsiRecordGetInteger function, _msi_msirecordgetinteger, msiquery/MsiRecordGetInteger, setup.msirecordgetinteger
-ms.topic: function
 f1_keywords:
 - msiquery/MsiRecordGetInteger
 dev_langs:

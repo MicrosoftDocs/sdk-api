@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 214b98c7-4143-4466-a359-1e9c9e4c778d
 ms.date: 12/05/2018
 ms.keywords: IAMDeviceRemoval interface [DirectShow],Reassociate method, IAMDeviceRemoval.Reassociate, IAMDeviceRemoval::Reassociate, IAMDeviceRemovalReassociate, Reassociate, Reassociate method [DirectShow], Reassociate method [DirectShow],IAMDeviceRemoval interface, dshow.iamdeviceremoval_reassociate, strmif/IAMDeviceRemoval::Reassociate
-ms.topic: method
 f1_keywords:
 - strmif/IAMDeviceRemoval.Reassociate
 dev_langs:

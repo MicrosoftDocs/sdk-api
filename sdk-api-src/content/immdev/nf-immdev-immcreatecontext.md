@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 2207927a-0edb-4d3a-a1b7-75b94d1616d5
 ms.date: 12/05/2018
 ms.keywords: ImmCreateContext, ImmCreateContext function [Internationalization for Windows Applications], _win32_ImmCreateContext, imm/ImmCreateContext, intl.immcreatecontext
-ms.topic: function
 f1_keywords:
 - immdev/ImmCreateContext
 dev_langs:

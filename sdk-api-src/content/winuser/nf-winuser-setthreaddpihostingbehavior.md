@@ -7,7 +7,6 @@ tech.root: hidpi
 ms.assetid: CF31D96A-EC84-4911-81A2-82EC90D417B9
 ms.date: 12/05/2018
 ms.keywords: SetThreadDpiHostingBehavior, SetThreadDpiHostingBehavior function [High DPI], hidpi.setthreaddpihostingbehavior, winuser/SetThreadDpiHostingBehavior
-ms.topic: function
 f1_keywords:
 - winuser/SetThreadDpiHostingBehavior
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProjFS
 ms.assetid: 596DC712-C6DD-4834-9E0F-CA21B0BC3BB3
 ms.date: 12/05/2018
 ms.keywords: PRJ_NOTIFICATION_PARAMETERS, PRJ_NOTIFICATION_PARAMETERS union, ProjFS.prj_notification_parameters, projectedfslib/PRJ_NOTIFICATION_PARAMETERS
-ms.topic: struct
 f1_keywords:
 - projectedfslib/PRJ_NOTIFICATION_PARAMETERS
 dev_langs:

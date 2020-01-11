@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 1d3c7b25-92a8-41f5-8186-f6425cc6be74
 ms.date: 12/05/2018
 ms.keywords: '*LPTAPI_CUSTOMTONE, TAPI_CUSTOMTONE, TAPI_CUSTOMTONE structure [TAPI 2.2], _tapi3_tapi_customtone_str, tapi3.tapi_customtone_str, tapi3if/TAPI_CUSTOMTONE'
-ms.topic: struct
 f1_keywords:
 - tapi3if/TAPI_CUSTOMTONE
 dev_langs:

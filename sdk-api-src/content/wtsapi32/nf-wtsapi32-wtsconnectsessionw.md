@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 3911b02c-43df-4a8d-9cd6-92d2e5323f61
 ms.date: 12/05/2018
 ms.keywords: WTSConnectSession, WTSConnectSession function [Remote Desktop Services], WTSConnectSessionA, WTSConnectSessionW, termserv.wtsconnectsession, wtsapi32/WTSConnectSession, wtsapi32/WTSConnectSessionA, wtsapi32/WTSConnectSessionW
-ms.topic: function
 f1_keywords:
 - wtsapi32/WTSConnectSession
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 439C12FD-4BAE-4609-88D3-D7B006816716
 ms.date: 12/05/2018
 ms.keywords: BindUnorderedAccessViewByName, BindUnorderedAccessViewByName method [Direct3D 11], BindUnorderedAccessViewByName method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindUnorderedAccessViewByName method, ID3D11ModuleInstance.BindUnorderedAccessViewByName, ID3D11ModuleInstance::BindUnorderedAccessViewByName, d3d11shader/ID3D11ModuleInstance::BindUnorderedAccessViewByName, direct3d11.id3d11moduleinstance_bindunorderedaccessviewbyname
-ms.topic: method
 f1_keywords:
 - d3d11shader/ID3D11ModuleInstance.BindUnorderedAccessViewByName
 dev_langs:

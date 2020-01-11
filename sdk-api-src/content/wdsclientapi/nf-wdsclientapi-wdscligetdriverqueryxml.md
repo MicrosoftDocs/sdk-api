@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 0E5ABBBD-CD8A-4D0B-9D4B-5044278961D8
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetDriverQueryXml, WdsCliGetDriverQueryXml function [Windows Deployment Services], wds.wdscligetdriverqueryxml, wdsclientapi/WdsCliGetDriverQueryXml
-ms.topic: function
 f1_keywords:
 - wdsclientapi/WdsCliGetDriverQueryXml
 dev_langs:

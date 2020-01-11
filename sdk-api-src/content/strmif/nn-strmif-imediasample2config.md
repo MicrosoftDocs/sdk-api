@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 99a3d957-b504-4242-87de-54b5468f00b5
 ms.date: 12/05/2018
 ms.keywords: IMediaSample2Config, IMediaSample2Config interface [DirectShow], IMediaSample2Config interface [DirectShow],described, IMediaSample2ConfigInterface, dshow.imediasample2config, strmif/IMediaSample2Config
-ms.topic: interface
 f1_keywords:
 - strmif/IMediaSample2Config
 dev_langs:

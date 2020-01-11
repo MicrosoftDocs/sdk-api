@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: ccd162e4-84be-4ed5-a583-c9bd195f503b
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRawNotificationCallback, IWICDevelopRawNotificationCallback interface [Windows Imaging Component], IWICDevelopRawNotificationCallback interface [Windows Imaging Component],described, _wic_codec_iwicdeveloprawnotificationcallback, wic._wic_codec_iwicdeveloprawnotificationcallback, wincodec/IWICDevelopRawNotificationCallback
-ms.topic: interface
 f1_keywords:
 - wincodec/IWICDevelopRawNotificationCallback
 dev_langs:

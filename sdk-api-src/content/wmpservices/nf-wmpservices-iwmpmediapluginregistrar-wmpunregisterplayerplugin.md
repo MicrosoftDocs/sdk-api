@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: b6165962-3ca6-49c8-826c-ce87e55c09fd
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaPluginRegistrar.WMPUnRegisterPlayerPlugin, IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin, WMPUnRegisterPlayerPlugin, WMPUnRegisterPlayerPlugin function [Windows Media Player], wmp.iwmpmediapluginregistrar__wmpunregisterplayerplugin, wmpservices/WMPUnRegisterPlayerPlugin
-ms.topic: method
 f1_keywords:
 - wmpservices/WMPUnRegisterPlayerPlugin
 dev_langs:

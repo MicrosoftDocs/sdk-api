@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 52a45351-669c-42f3-b02b-afbf42727313
 ms.date: 12/05/2018
 ms.keywords: CollectPartResources, CollectPartResources method [XPS Documents and Packaging], CollectPartResources method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],CollectPartResources method, IXpsOMPageReference.CollectPartResources, IXpsOMPageReference::CollectPartResources, xps.ixpsompagereference_collectpartresources, xpsobjectmodel/IXpsOMPageReference::CollectPartResources
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPageReference.CollectPartResources
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhnnotify.htm
 ms.date: 12/05/2018
 ms.keywords: HHN_NOTIFY, HHN_NOTIFY structure [HTML Help Workshop], htmlhelp.hhn_notify_structure, htmlhelp/HHN_NOTIFY, vsconStrhhnnotify
-ms.topic: struct
 f1_keywords:
 - htmlhelp/HHN_NOTIFY
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: eebf1729-8492-47d3-90b2-6700d886de4a
 ms.date: 12/05/2018
 ms.keywords: WsGetPolicyProperty, WsGetPolicyProperty function [Web Services for Windows], webservices/WsGetPolicyProperty, wsw.wsgetpolicyproperty
-ms.topic: function
 f1_keywords:
 - webservices/WsGetPolicyProperty
 dev_langs:

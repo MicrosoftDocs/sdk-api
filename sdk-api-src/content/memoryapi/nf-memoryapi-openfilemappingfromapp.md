@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 66BAB9A6-F983-49D8-8F87-69A3CCBBB1BC
 ms.date: 12/05/2018
 ms.keywords: OpenFileMappingFromApp, OpenFileMappingFromApp function, base.openfilemappingfromapp, memoryapi/OpenFileMappingFromApp
-ms.topic: function
 f1_keywords:
 - memoryapi/OpenFileMappingFromApp
 dev_langs:

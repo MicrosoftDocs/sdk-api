@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: fadaa7e6-ccf2-42cd-a26e-19db107ce56c
 ms.date: 12/05/2018
 ms.keywords: AddForms, AddForms method [Active Directory], AddForms method [Active Directory],IQueryForm interface, IQueryForm interface [Active Directory],AddForms method, IQueryForm.AddForms, IQueryForm::AddForms, _glines_iqueryform_addforms, ad.iqueryform__addforms, ad.iqueryform_addforms, cmnquery/IQueryForm::AddForms
-ms.topic: method
 f1_keywords:
 - cmnquery/IQueryForm.AddForms
 dev_langs:

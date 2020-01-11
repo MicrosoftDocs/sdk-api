@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 44515be4-891b-4f3d-a2c2-1699e468e708
 ms.date: 12/05/2018
 ms.keywords: IUPnPServiceCallback, IUPnPServiceCallback interface [UPnP APIs], IUPnPServiceCallback interface [UPnP APIs],described, _upnp_iupnpservicecallback, upnp.iupnpservicecallback, upnp/IUPnPServiceCallback
-ms.topic: interface
 f1_keywords:
 - upnp/IUPnPServiceCallback
 dev_langs:

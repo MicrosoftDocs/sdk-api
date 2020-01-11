@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4c366f9c-d774-4390-8f43-8c25f86e3c35
 ms.date: 12/05/2018
 ms.keywords: IWizardSite, IWizardSite interface [Windows Shell], IWizardSite interface [Windows Shell],described, _shell_IWizardSite, shell.IWizardSite, shobjidl/IWizardSite
-ms.topic: interface
 f1_keywords:
 - shobjidl/IWizardSite
 dev_langs:

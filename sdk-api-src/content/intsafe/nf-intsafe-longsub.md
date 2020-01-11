@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8691044c-0706-4fff-a8fe-3ac9ad22de64
 ms.date: 12/05/2018
 ms.keywords: LongSub, LongSub function [Windows Shell], intsafe/LongSub, shell.LongSub
-ms.topic: function
 f1_keywords:
 - intsafe/LongSub
 dev_langs:

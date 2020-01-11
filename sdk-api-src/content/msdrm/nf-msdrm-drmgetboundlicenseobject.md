@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: d1be0668-fb5a-4541-92dc-34255ba3fdad
 ms.date: 12/05/2018
 ms.keywords: DRMGetBoundLicenseObject, DRMGetBoundLicenseObject function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetBoundLicenseObject, rm.drmgetboundlicenseobject
-ms.topic: function
 f1_keywords:
 - msdrm/DRMGetBoundLicenseObject
 dev_langs:

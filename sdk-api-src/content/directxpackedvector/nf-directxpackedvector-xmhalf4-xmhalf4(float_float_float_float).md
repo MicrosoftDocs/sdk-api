@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF4.#ctor(float,float,float,float)
 ms.date: 12/05/2018
 ms.keywords: XMHALF4, XMHALF4 constructor [DirectX Math Support APIs], XMHALF4 constructor [DirectX Math Support APIs],XMHALF4 structure, XMHALF4 structure [DirectX Math Support APIs],XMHALF4 constructor, XMHALF4.XMHALF4, XMHALF4.XMHALF4(float,float,float,float), XMHALF4::XMHALF4, XMHALF4::XMHALF4(float,float,float,float), dxmath.xmhalf4_ctor_4
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMHALF4.XMHALF4
 dev_langs:

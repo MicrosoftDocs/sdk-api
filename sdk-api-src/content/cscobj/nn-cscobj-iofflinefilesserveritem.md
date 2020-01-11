@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 724fabf6-fb27-49c9-8f99-dc61377ac921
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesServerItem, IOfflineFilesServerItem interface [Offline Files], IOfflineFilesServerItem interface [Offline Files],described, cscobj/IOfflineFilesServerItem, of.iofflinefilesserveritem
-ms.topic: interface
 f1_keywords:
 - cscobj/IOfflineFilesServerItem
 dev_langs:

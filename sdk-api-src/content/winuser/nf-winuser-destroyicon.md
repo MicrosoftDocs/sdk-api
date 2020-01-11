@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\destroyicon.htm
 ms.date: 12/05/2018
 ms.keywords: DestroyIcon, DestroyIcon function [Menus and Other Resources], _win32_DestroyIcon, _win32_destroyicon_cpp, menurc.destroyicon, winui._win32_destroyicon, winuser/DestroyIcon
-ms.topic: function
 f1_keywords:
 - winuser/DestroyIcon
 dev_langs:

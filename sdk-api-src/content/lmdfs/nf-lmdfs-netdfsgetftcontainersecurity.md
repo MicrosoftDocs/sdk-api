@@ -7,7 +7,6 @@ tech.root: Dfs
 ms.assetid: 88e988db-1418-49d5-8cac-1ea6144474a5
 ms.date: 12/05/2018
 ms.keywords: NetDfsGetFtContainerSecurity, NetDfsGetFtContainerSecurity function [Distributed File System], dfs.netdfsgetftcontainersecurity, fs.netdfsgetftcontainersecurity, lmdfs/NetDfsGetFtContainerSecurity, netmgmt.netdfsgetftcontainersecurity
-ms.topic: function
 f1_keywords:
 - lmdfs/NetDfsGetFtContainerSecurity
 dev_langs:

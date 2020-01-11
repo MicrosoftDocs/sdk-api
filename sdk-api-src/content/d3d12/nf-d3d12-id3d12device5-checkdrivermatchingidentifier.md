@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 765714D4-5133-4CCA-A09F-EDE650B06905
 ms.date: 12/05/2018
 ms.keywords: CheckDriverMatchingIdentifier, CheckDriverMatchingIdentifier method, CheckDriverMatchingIdentifier method,ID3D12Device5 interface, ID3D12Device5 interface,CheckDriverMatchingIdentifier method, ID3D12Device5.CheckDriverMatchingIdentifier, ID3D12Device5::CheckDriverMatchingIdentifier, d3d12/ID3D12Device5::CheckDriverMatchingIdentifier, direct3d12.id3d12device5_checkdrivermatchingidentifier
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device5.CheckDriverMatchingIdentifier
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetclientsite.htm
 ms.date: 12/05/2018
 ms.keywords: GetClientSite, GetClientSite method [Windows Controls], GetClientSite method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],GetClientSite method, IRichEditOle.GetClientSite, IRichEditOle::GetClientSite, _win32_IRichEditOle_GetClientSite, _win32_IRichEditOle_GetClientSite_cpp, controls.IRichEditOle_GetClientSite, controls._win32_IRichEditOle_GetClientSite, richole/IRichEditOle::GetClientSite
-ms.topic: method
 f1_keywords:
 - richole/IRichEditOle.GetClientSite
 dev_langs:

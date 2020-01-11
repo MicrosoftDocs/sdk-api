@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9b698951-dd9d-427c-9f95-63392ef0f0d4
 ms.date: 12/05/2018
 ms.keywords: SSIZETMult, SSIZETMult function [Windows Shell], intsafe/SSIZETMult, shell.SSIZETMult
-ms.topic: function
 f1_keywords:
 - intsafe/SSIZETMult
 dev_langs:

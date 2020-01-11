@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 694C732B-EAA0-4C8A-B3D5-E55ECA5EF733
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_CONNECT, WSMAN_PLUGIN_CONNECT callback, WSMAN_PLUGIN_CONNECT callback function [Windows Remote Management], WSManPluginConnect, winrm.wsman_plugin_connect, wsman/WSMAN_PLUGIN_CONNECT
-ms.topic: callback
 f1_keywords:
 - wsman/WSMAN_PLUGIN_CONNECT
 dev_langs:

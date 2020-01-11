@@ -7,7 +7,6 @@ tech.root: Sens
 ms.assetid: aa1b1beb-f59a-4990-84e1-deca1432f6cf
 ms.date: 12/05/2018
 ms.keywords: DisplayUnLock method [SENS], DisplayUnLock method [SENS],ISensLogon interface, DisplayUnlock, ISensLogon interface [SENS],DisplayUnLock method, ISensLogon.DisplayUnlock, ISensLogon::DisplayUnLock, ISensLogon::DisplayUnlock, _zaw_isenslogon_displayunlock, sens.isenslogon_displayunlock, sensevts/ISensLogon::DisplayUnLock, syncmgr.isenslogon_displayunlock
-ms.topic: method
 f1_keywords:
 - sensevts/ISensLogon.DisplayUnLock
 dev_langs:

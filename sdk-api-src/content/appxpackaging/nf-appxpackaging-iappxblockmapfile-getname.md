@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 82D100DB-CAE8-4FF7-B428-B14E8CBDE7A5
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxBlockMapFile interface, IAppxBlockMapFile interface [App packaging and management],GetName method, IAppxBlockMapFile.GetName, IAppxBlockMapFile::GetName, appxpackaging/IAppxBlockMapFile::GetName, appxpkg.iappxblockmapfile_getname
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxBlockMapFile.GetName
 dev_langs:

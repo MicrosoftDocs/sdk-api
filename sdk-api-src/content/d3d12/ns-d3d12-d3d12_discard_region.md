@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 8F0916CB-3389-40BC-8028-BA8CF9BC566B
 ms.date: 12/05/2018
 ms.keywords: D3D12_DISCARD_REGION, D3D12_DISCARD_REGION structure, d3d12/D3D12_DISCARD_REGION, direct3d12.d3d12_discard_region
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_DISCARD_REGION
 dev_langs:

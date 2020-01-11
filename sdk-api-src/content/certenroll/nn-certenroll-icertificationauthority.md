@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: ffd64396-a258-4cf5-aca1-a61102ecf313
 ms.date: 12/05/2018
 ms.keywords: ICertificationAuthority, ICertificationAuthority interface [Security], ICertificationAuthority interface [Security],described, certenroll/ICertificationAuthority, security.icertificationauthority
-ms.topic: interface
 f1_keywords:
 - certenroll/ICertificationAuthority
 dev_langs:

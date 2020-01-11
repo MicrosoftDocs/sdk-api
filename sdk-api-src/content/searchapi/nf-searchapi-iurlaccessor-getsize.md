@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsize.htm
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [search], GetSize method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetSize method, IUrlAccessor.GetSize, IUrlAccessor::GetSize, _search_IUrlAccessor_GetSize, search._search_IUrlAccessor_GetSize, searchapi/IUrlAccessor::GetSize
-ms.topic: method
 f1_keywords:
 - searchapi/IUrlAccessor.GetSize
 dev_langs:

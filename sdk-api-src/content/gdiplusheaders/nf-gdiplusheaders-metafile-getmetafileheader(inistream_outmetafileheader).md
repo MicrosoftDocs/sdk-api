@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\metafilegetmetafileheadermethods\getmetafileheader_98stream_header.htm
 ms.date: 12/05/2018
 ms.keywords: GetMetafileHeader, GetMetafileHeader method [GDI+], GetMetafileHeader method [GDI+],Metafile class, Metafile class [GDI+],GetMetafileHeader method, Metafile.GetMetafileHeader, Metafile.GetMetafileHeader(IN IStream,OUT MetafileHeader), Metafile.GetMetafileHeader(IStream*,MetafileHeader*), Metafile::GetMetafileHeader, Metafile::GetMetafileHeader(IN IStream,OUT MetafileHeader), _gdiplus_CLASS_Metafile_GetMetafileHeader_stream_header_, gdiplus._gdiplus_CLASS_Metafile_GetMetafileHeader_stream_header_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Metafile.GetMetafileHeader
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: 62dc9e75-ff40-472f-8acf-ebe40dbac95c
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IProviderPropertyConstraintCollection interface, IProviderPropertyConstraintCollection interface,GetCount method, IProviderPropertyConstraintCollection.GetCount, IProviderPropertyConstraintCollection::GetCount, functiondiscoveryprovider/IProviderPropertyConstraintCollection::GetCount, ncd.iproviderpropertyconstraintcollection_getcount
-ms.topic: method
 f1_keywords:
 - functiondiscoveryprovider/IProviderPropertyConstraintCollection.GetCount
 dev_langs:

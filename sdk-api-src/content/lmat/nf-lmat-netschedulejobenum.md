@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: e3384414-6a15-4979-bed4-6f94f046474a
 ms.date: 12/05/2018
 ms.keywords: NetScheduleJobEnum, NetScheduleJobEnum function [Network Management], _win32_netschedulejobenum, lmat/NetScheduleJobEnum, netmgmt.netschedulejobenum
-ms.topic: function
 f1_keywords:
 - lmat/NetScheduleJobEnum
 dev_langs:

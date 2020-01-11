@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: C7473291-89EA-4412-848E-07257C0AC0FB
 ms.date: 12/05/2018
 ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxBundleManifestOptionalBundleInfoEnumerator interface, IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management],GetHasCurrent method, IAppxBundleManifestOptionalBundleInfoEnumerator.GetHasCurrent, IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent, appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent, appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator_gethascurrent
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator.GetHasCurrent
 dev_langs:

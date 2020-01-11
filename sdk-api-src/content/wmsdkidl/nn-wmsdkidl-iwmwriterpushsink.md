@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 47bee154-0d29-4f4c-ac38-af8747088024
 ms.date: 12/05/2018
 ms.keywords: IWMWriterPushSink, IWMWriterPushSink interface [windows Media Format], IWMWriterPushSink interface [windows Media Format],described, IWMWriterPushSinkInterface, wmformat.iwmwriterpushsink, wmsdkidl/IWMWriterPushSink
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMWriterPushSink
 dev_langs:

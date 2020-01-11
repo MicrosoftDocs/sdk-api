@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 570CB5FD-7586-41AD-84A6-DA6966B18E91
 ms.date: 12/05/2018
 ms.keywords: FhConfigMgr class [Windows API],GetDefaultTarget method, GetDefaultTarget, GetDefaultTarget method [Windows API], GetDefaultTarget method [Windows API],FhConfigMgr class, GetDefaultTarget method [Windows API],IFhConfigMgr interface, IFhConfigMgr interface [Windows API],GetDefaultTarget method, IFhConfigMgr.GetDefaultTarget, IFhConfigMgr::GetDefaultTarget, fhcfg/IFhConfigMgr::GetDefaultTarget, winprog.ifhconfigmgr_getdefaulttarget
-ms.topic: method
 f1_keywords:
 - fhcfg/IFhConfigMgr.GetDefaultTarget
 dev_langs:

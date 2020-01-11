@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 16fb3e3a-1686-4bdf-9112-564bb85fb601
 ms.date: 12/05/2018
 ms.keywords: GetItemCustomState, GetItemCustomState method [Windows Shell], GetItemCustomState method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],GetItemCustomState method, INameSpaceTreeControl.GetItemCustomState, INameSpaceTreeControl::GetItemCustomState, _shell_INameSpaceTreeControl_GetItemCustomState, shell.INameSpaceTreeControl_GetItemCustomState, shobjidl_core/INameSpaceTreeControl::GetItemCustomState
-ms.topic: method
 f1_keywords:
 - shobjidl_core/INameSpaceTreeControl.GetItemCustomState
 dev_langs:

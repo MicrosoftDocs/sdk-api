@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: c7bf5e21-1c88-4b5e-b043-33a127fad65f
 ms.date: 12/05/2018
 ms.keywords: GetComponentType, GetComponentType method [Microsoft TV Technologies], GetComponentType method [Microsoft TV Technologies],IDvbComponentDescriptor interface, IDvbComponentDescriptor interface [Microsoft TV Technologies],GetComponentType method, IDvbComponentDescriptor.GetComponentType, IDvbComponentDescriptor::GetComponentType, dvbsiparser/IDvbComponentDescriptor::GetComponentType, mstv.idvbcomponentdescriptor_getcomponenttype
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbComponentDescriptor.GetComponentType
 dev_langs:

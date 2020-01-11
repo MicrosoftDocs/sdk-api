@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: dff38609-9e90-491c-b8c4-33fd07471895
 ms.date: 12/05/2018
 ms.keywords: GetDRMPairingStatus, GetDRMPairingStatus method [Microsoft TV Technologies], GetDRMPairingStatus method [Microsoft TV Technologies],IBDA_DRM interface, IBDA_DRM interface [Microsoft TV Technologies],GetDRMPairingStatus method, IBDA_DRM.GetDRMPairingStatus, IBDA_DRM::GetDRMPairingStatus, IBDA_DRMGetDRMPairingStatus, bdaiface/IBDA_DRM::GetDRMPairingStatus, mstv.ibda_drm_getdrmpairingstatus
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_DRM.GetDRMPairingStatus
 dev_langs:

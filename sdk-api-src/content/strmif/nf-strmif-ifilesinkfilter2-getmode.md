@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b2a8e34e-a6c1-448b-be6e-31fba9d64f6e
 ms.date: 12/05/2018
 ms.keywords: GetMode, GetMode method [DirectShow], GetMode method [DirectShow],IFileSinkFilter2 interface, IFileSinkFilter2 interface [DirectShow],GetMode method, IFileSinkFilter2.GetMode, IFileSinkFilter2::GetMode, IFileSinkFilter2GetMode, dshow.ifilesinkfilter2_getmode, strmif/IFileSinkFilter2::GetMode
-ms.topic: method
 f1_keywords:
 - strmif/IFileSinkFilter2.GetMode
 dev_langs:

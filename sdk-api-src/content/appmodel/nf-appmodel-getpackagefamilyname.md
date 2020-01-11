@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: AC239898-9924-4193-9072-7A7EEC2D03E9
 ms.date: 12/05/2018
 ms.keywords: GetPackageFamilyName, GetPackageFamilyName function [App packaging and management], appmodel/GetPackageFamilyName, appxpkg.getpackagefamilyname
-ms.topic: function
 f1_keywords:
 - appmodel/GetPackageFamilyName
 dev_langs:

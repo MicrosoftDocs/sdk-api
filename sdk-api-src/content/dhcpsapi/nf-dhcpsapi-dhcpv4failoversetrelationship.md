@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 04012953-dca3-426f-99de-798870d1eb97
 ms.date: 12/05/2018
 ms.keywords: CHANGESTATE, DhcpV4FailoverSetRelationship, DhcpV4FailoverSetRelationship function [DHCP], MCLT, MODE, PERCENTAGE, PREVSTATE, SAFEPERIOD, dhcp.dhcpv4failoversetrelationship, dhcpsapi/DhcpV4FailoverSetRelationship
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4FailoverSetRelationship
 dev_langs:

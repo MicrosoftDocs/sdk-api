@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 51b1fb95-dd44-47f8-9311-2c6dc9c57bbc
 ms.date: 12/05/2018
 ms.keywords: GetMiterLimit, GetMiterLimit function [Windows GDI], _win32_GetMiterLimit, gdi.getmiterlimit, wingdi/GetMiterLimit
-ms.topic: function
 f1_keywords:
 - wingdi/GetMiterLimit
 dev_langs:

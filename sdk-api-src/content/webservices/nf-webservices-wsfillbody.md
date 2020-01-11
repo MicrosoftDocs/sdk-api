@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: fe70338d-d2bf-4126-96b2-30ef6ebfa74d
 ms.date: 12/05/2018
 ms.keywords: WsFillBody, WsFillBody function [Web Services for Windows], webservices/WsFillBody, wsw.wsfillbody
-ms.topic: function
 f1_keywords:
 - webservices/WsFillBody
 dev_langs:

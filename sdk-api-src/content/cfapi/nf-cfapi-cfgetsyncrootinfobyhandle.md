@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: EC96CB4E-6BCE-49D9-9CDA-A24A9303B5CF
 ms.date: 12/05/2018
 ms.keywords: CfGetSyncRootInfoByHandle, CfGetSyncRootInfoByHandle function, cfapi/CfGetSyncRootInfoByHandle, cloudApi.cfgetsyncrootinfobyhandle
-ms.topic: function
 f1_keywords:
 - cfapi/CfGetSyncRootInfoByHandle
 dev_langs:

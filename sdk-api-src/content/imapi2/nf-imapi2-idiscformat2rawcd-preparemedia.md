@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 8c393786-0c2d-4244-8ec3-0ac9e47e76c6
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],PrepareMedia method, IDiscFormat2RawCD.PrepareMedia, IDiscFormat2RawCD::PrepareMedia, PrepareMedia, PrepareMedia method [IMAPI], PrepareMedia method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_preparemedia, imapi2/IDiscFormat2RawCD::PrepareMedia
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2RawCD.PrepareMedia
 dev_langs:

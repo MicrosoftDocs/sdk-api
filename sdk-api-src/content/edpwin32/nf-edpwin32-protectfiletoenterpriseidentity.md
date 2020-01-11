@@ -7,7 +7,6 @@ tech.root: EDP
 ms.assetid: 91993A9E-AC1D-4F3E-BCFC-9DE79F1C2C8D
 ms.date: 12/05/2018
 ms.keywords: EDP.protectfiletoenterpriseidentity, ProtectFileToEnterpriseIdentity, ProtectFileToEnterpriseIdentity function, edpwin32/ProtectFileToEnterpriseIdentity
-ms.topic: function
 f1_keywords:
 - edpwin32/ProtectFileToEnterpriseIdentity
 dev_langs:

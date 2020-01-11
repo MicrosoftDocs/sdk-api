@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c7fa0eae-f950-423a-8a89-9a7619b27ce6
 ms.date: 12/05/2018
 ms.keywords: IAMFilterGraphCallback interface [DirectShow],UnableToRender method, IAMFilterGraphCallback.UnableToRender, IAMFilterGraphCallback::UnableToRender, IAMFilterGraphCallbackUnableToRender, UnableToRender, UnableToRender method [DirectShow], UnableToRender method [DirectShow],IAMFilterGraphCallback interface, dshow.iamfiltergraphcallback_unabletorender, strmif/IAMFilterGraphCallback::UnableToRender
-ms.topic: method
 f1_keywords:
 - strmif/IAMFilterGraphCallback.UnableToRender
 dev_langs:

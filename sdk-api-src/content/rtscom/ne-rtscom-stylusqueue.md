@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 245f1c78-a6e9-4138-bddb-c0c890583aea
 ms.date: 12/05/2018
 ms.keywords: 245f1c78-a6e9-4138-bddb-c0c890583aea, AsyncStylusQueue, AsyncStylusQueueImmediate, StylusQueue, StylusQueue enumeration [Tablet PC], SyncStylusQueue, rtscom/AsyncStylusQueue, rtscom/AsyncStylusQueueImmediate, rtscom/StylusQueue, rtscom/SyncStylusQueue, tablet.stylusqueue
-ms.topic: enum
 f1_keywords:
 - rtscom/StylusQueue
 dev_langs:

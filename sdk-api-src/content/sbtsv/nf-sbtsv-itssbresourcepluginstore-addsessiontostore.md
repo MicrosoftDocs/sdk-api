@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 354ca945-cefe-42f6-a255-9918b8ffc339
 ms.date: 12/05/2018
 ms.keywords: AddSessionToStore, AddSessionToStore method [Remote Desktop Services], AddSessionToStore method [Remote Desktop Services],ITsSbResourcePluginStore interface, AddSessionToStore method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],AddSessionToStore method, ITsSbResourcePluginStore.AddSessionToStore, ITsSbResourcePluginStore::AddSessionToStore, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],AddSessionToStore method, ITsSbResourcePluginStoreEx::AddSessionToStore, sbtsv/ITsSbResourcePluginStore::AddSessionToStore, sbtsv/ITsSbResourcePluginStoreEx::AddSessionToStore, termserv.itssbresourcepluginstore_addsessiontostore
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbResourcePluginStore.AddSessionToStore
 dev_langs:

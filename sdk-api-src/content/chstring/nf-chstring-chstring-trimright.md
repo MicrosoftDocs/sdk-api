@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: e87ad3c4-d27a-403c-b59e-391d8021e87b
 ms.date: 12/05/2018
 ms.keywords: ?TrimRight@CHString@@QAEXXZ, ?TrimRight@CHString@@QEAAXXZ, CHString interface [Windows Management Instrumentation],TrimRight method, CHString.TrimRight, CHString::TrimRight, TrimRight, TrimRight method [Windows Management Instrumentation], TrimRight method [Windows Management Instrumentation],CHString interface, _hmm_chstring_trimright, chstring/CHString::TrimRight, wmi.chstring_trimright
-ms.topic: method
 f1_keywords:
 - chstring/CHString.TrimRight
 dev_langs:

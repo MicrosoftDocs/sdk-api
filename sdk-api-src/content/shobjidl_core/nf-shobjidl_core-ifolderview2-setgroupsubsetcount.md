@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5aacc63a-d129-4539-a43f-f4dd74ab4fea
 ms.date: 12/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetGroupSubsetCount method, IFolderView2.SetGroupSubsetCount, IFolderView2::SetGroupSubsetCount, SetGroupSubsetCount, SetGroupSubsetCount method [Windows Shell], SetGroupSubsetCount method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetGroupSubsetCount, shell.IFolderView2_SetGroupSubsetCount, shobjidl_core/IFolderView2::SetGroupSubsetCount
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFolderView2.SetGroupSubsetCount
 dev_langs:

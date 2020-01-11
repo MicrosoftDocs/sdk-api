@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 9bc67911-cfb6-450c-bdc6-ade8d4617271
 ms.date: 12/05/2018
 ms.keywords: ITACDGroupEvent interface [TAPI 2.2],get_Event method, ITACDGroupEvent.get_Event, ITACDGroupEvent::get_Event, _tapi3_itacdgroupevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITACDGroupEvent interface, tapi3.itacdgroupevent_get_event, tapi3cc/ITACDGroupEvent::get_Event
-ms.topic: method
 f1_keywords:
 - tapi3cc/ITACDGroupEvent.get_Event
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: db147395-4d60-4d74-9331-18137bcfff8e
 ms.date: 12/05/2018
 ms.keywords: WerReportHang, WerReportHang function [Windows Error Reporting], errorrep/WerReportHang, wer.werreporthang
-ms.topic: function
 f1_keywords:
 - errorrep/WerReportHang
 dev_langs:

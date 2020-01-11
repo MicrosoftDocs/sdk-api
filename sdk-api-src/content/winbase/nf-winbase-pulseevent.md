@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: b3cfe15a-1a0e-4c29-8840-032e56404400
 ms.date: 12/05/2018
 ms.keywords: PulseEvent, PulseEvent function, _win32_pulseevent, base.pulseevent, winbase/PulseEvent
-ms.topic: function
 f1_keywords:
 - winbase/PulseEvent
 dev_langs:

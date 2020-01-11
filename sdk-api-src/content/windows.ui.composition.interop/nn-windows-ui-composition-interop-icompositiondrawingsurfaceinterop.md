@@ -7,7 +7,6 @@ tech.root: w_ui_comp
 ms.assetid: C8A94128-009A-4327-8E77-A4E155D0910E
 ms.date: 12/05/2018
 ms.keywords: ICompositionDrawingSurfaceInterop, ICompositionDrawingSurfaceInterop interface, ICompositionDrawingSurfaceInterop interface,described, w_ui_comp.icompositiondrawingsurfaceinterop, windows/ICompositionDrawingSurfaceInterop
-ms.topic: interface
 f1_keywords:
 - windows.ui.composition.interop/ICompositionDrawingSurfaceInterop
 dev_langs:

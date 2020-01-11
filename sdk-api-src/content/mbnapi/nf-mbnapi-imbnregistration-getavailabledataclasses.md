@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: fb799232-0ef5-4fbd-9b7f-a106ef440a68
 ms.date: 12/05/2018
 ms.keywords: GetAvailableDataClasses, GetAvailableDataClasses method [Microsoft Broadband Networks], GetAvailableDataClasses method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetAvailableDataClasses method, IMbnRegistration.GetAvailableDataClasses, IMbnRegistration::GetAvailableDataClasses, mbn.imbnregistration_getavailabledataclasses, mbnapi/IMbnRegistration::GetAvailableDataClasses
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnRegistration.GetAvailableDataClasses
 dev_langs:

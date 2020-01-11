@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 93feac90-8eb8-49d8-9841-d78a2645fbcb
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyJobs1, IEnumBackgroundCopyJobs1 interface [BITS], IEnumBackgroundCopyJobs1 interface [BITS],described, bits.ienumbackgroundcopyjobs1, qmgr/IEnumBackgroundCopyJobs1
-ms.topic: interface
 f1_keywords:
 - qmgr/IEnumBackgroundCopyJobs1
 dev_langs:

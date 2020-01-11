@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\enumwindows.htm
 ms.date: 12/05/2018
 ms.keywords: EnumWindows, EnumWindows function [Windows and Messages], _win32_EnumWindows, _win32_enumwindows_cpp, winmsg.enumwindows, winui._win32_enumwindows, winuser/EnumWindows
-ms.topic: function
 f1_keywords:
 - winuser/EnumWindows
 dev_langs:

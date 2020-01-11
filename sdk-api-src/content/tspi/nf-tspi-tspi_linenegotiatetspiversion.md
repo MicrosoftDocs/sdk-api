@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: d92fbf18-282d-485b-9d56-22e4896ece57
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineNegotiateTSPIVersion, TSPI_lineNegotiateTSPIVersion function [TAPI 2.2], _tspi_tspi_linenegotiatetspiversion, tspi.tspi_linenegotiatetspiversion, tspi/TSPI_lineNegotiateTSPIVersion
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineNegotiateTSPIVersion
 dev_langs:

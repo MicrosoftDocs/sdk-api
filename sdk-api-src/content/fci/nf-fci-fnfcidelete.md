@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 5c85ad86-2794-4f7c-8c10-18fea3519b11
 ms.date: 12/05/2018
 ms.keywords: FNFCIDELETE, FNFCIDELETE macro [Windows API], fci/FNFCIDELETE, winprog.fnfcidelete
-ms.topic: macro
 f1_keywords:
 - fci/FNFCIDELETE
 dev_langs:

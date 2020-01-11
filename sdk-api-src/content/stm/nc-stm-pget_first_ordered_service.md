@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 193ca671-3b1a-493f-a655-a27f6348f5d2
 ms.date: 12/05/2018
 ms.keywords: GetFirstOrderedService, GetFirstOrderedService callback function [RAS], PGET_FIRST_ORDERED_SERVICE, PGET_FIRST_ORDERED_SERVICE callback, STM_ORDER_BY_INTERFACE_TYPE_NAME, STM_ORDER_BY_TYPE_AND_NAME, _mpr_getfirstorderedservice, rras.getfirstorderedservice, stm/GetFirstOrderedService
-ms.topic: callback
 f1_keywords:
 - stm/GetFirstOrderedService
 dev_langs:

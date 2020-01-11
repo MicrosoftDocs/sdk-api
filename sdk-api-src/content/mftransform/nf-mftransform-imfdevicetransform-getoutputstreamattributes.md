@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: ABC8699B-0DFB-401B-9DB2-F3EBA5A64C8B
 ms.date: 12/05/2018
 ms.keywords: GetOutputStreamAttributes, GetOutputStreamAttributes method [Streaming Media Devices], GetOutputStreamAttributes method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetOutputStreamAttributes method, IMFDeviceTransform.GetOutputStreamAttributes, IMFDeviceTransform::GetOutputStreamAttributes, mftransform/IMFDeviceTransform::GetOutputStreamAttributes, stream.imfdevicetransform_getoutputstreamattributes
-ms.topic: method
 f1_keywords:
 - mftransform/IMFDeviceTransform.GetOutputStreamAttributes
 dev_langs:

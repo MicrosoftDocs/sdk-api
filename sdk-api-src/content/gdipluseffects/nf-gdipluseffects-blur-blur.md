@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\blurclass\blurconstructors\blur.htm
 ms.date: 12/05/2018
 ms.keywords: Blur, Blur class [GDI+],Blur constructor, Blur constructor [GDI+], Blur constructor [GDI+],Blur class, Blur.Blur, Blur::Blur, _gdiplus_CLASS_Blur_Blur_, gdiplus._gdiplus_CLASS_Blur_Blur_
-ms.topic: method
 f1_keywords:
 - gdipluseffects/Blur.Blur
 dev_langs:

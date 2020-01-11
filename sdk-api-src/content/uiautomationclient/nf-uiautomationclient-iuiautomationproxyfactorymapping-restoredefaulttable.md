@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: adf9ca6d-4206-4b7e-b43c-0701fdeb1b23
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationProxyFactoryMapping interface [Windows Accessibility],RestoreDefaultTable method, IUIAutomationProxyFactoryMapping.RestoreDefaultTable, IUIAutomationProxyFactoryMapping::RestoreDefaultTable, RestoreDefaultTable, RestoreDefaultTable method [Windows Accessibility], RestoreDefaultTable method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, uiauto.uiauto_IUIAutomationProxyFactoryMapping_RestoreDefaultTable, uiauto_IUIAutomationProxyFactoryMapping_RestoreDefaultTable, uiautomationclient/IUIAutomationProxyFactoryMapping::RestoreDefaultTable, winauto.uiauto_IUIAutomationProxyFactoryMapping_RestoreDefaultTable
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationProxyFactoryMapping.RestoreDefaultTable
 dev_langs:

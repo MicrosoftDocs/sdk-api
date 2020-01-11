@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 7987761f-429c-4a6f-876b-eafe4274907a
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linemonitordigits, lineMonitorDigits, lineMonitorDigits function [TAPI 2.2], tapi/lineMonitorDigits, tapi2.linemonitordigits
-ms.topic: function
 f1_keywords:
 - tapi/lineMonitorDigits
 dev_langs:

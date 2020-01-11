@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: e97bf5c7-90fd-49a7-9c3c-c719d5374f84
 ms.date: 12/05/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator= method, WBEMTimeSpan.operator-assign, WBEMTimeSpan.operator=, WBEMTimeSpan::operator-assign, WBEMTimeSpan::operator=, _hmm_wbemtimespan_operator_equal, operator=, operator= method [Windows Management Instrumentation], operator= method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator=, wmi.wbemtimespan_operator_equal
-ms.topic: method
 f1_keywords:
 - wbemtime/WBEMTimeSpan.operator=
 dev_langs:

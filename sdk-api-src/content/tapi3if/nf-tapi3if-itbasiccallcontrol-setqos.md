@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: f1e6ef32-5706-4b1c-a1fa-a7be48fd6efd
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],SetQOS method, ITBasicCallControl.SetQOS, ITBasicCallControl::SetQOS, SetQOS, SetQOS method [TAPI 2.2], SetQOS method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_setqos, tapi3.itbasiccallcontrol_setqos, tapi3if/ITBasicCallControl::SetQOS
-ms.topic: method
 f1_keywords:
 - tapi3if/ITBasicCallControl.SetQOS
 dev_langs:

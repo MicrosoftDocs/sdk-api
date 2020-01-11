@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 4826bd47-0091-4a74-b88d-72a5b0f1c5ac
 ms.date: 12/05/2018
 ms.keywords: IAMVfwCompressDialogs interface [DirectShow],ShowDialog method, IAMVfwCompressDialogs.ShowDialog, IAMVfwCompressDialogs::ShowDialog, IAMVfwCompressDialogsShowDialog, ShowDialog, ShowDialog method [DirectShow], ShowDialog method [DirectShow],IAMVfwCompressDialogs interface, dshow.iamvfwcompressdialogs_showdialog, strmif/IAMVfwCompressDialogs::ShowDialog
-ms.topic: method
 f1_keywords:
 - strmif/IAMVfwCompressDialogs.ShowDialog
 dev_langs:

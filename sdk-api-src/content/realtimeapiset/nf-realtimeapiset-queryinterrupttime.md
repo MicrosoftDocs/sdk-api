@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: FB2B179B-5E44-4201-86E2-DB386607FD90
 ms.date: 12/05/2018
 ms.keywords: QueryInterruptTime, QueryInterruptTime function, base.queryinterrupttime, realtimeapiset/QueryInterruptTime
-ms.topic: function
 f1_keywords:
 - realtimeapiset/QueryInterruptTime
 dev_langs:

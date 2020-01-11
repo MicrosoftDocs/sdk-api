@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 884624e2-96d7-491a-add3-a5bd3edc473e
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_RequestedRotationTypeIsPureCAV method, IDiscFormat2RawCD.get_RequestedRotationTypeIsPureCAV, IDiscFormat2RawCD::get_RequestedRotationTypeIsPureCAV, get_RequestedRotationTypeIsPureCAV, get_RequestedRotationTypeIsPureCAV method [IMAPI], get_RequestedRotationTypeIsPureCAV method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_requestedrotationtypeispurecav, imapi2/IDiscFormat2RawCD::get_RequestedRotationTypeIsPureCAV
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2RawCD.get_RequestedRotationTypeIsPureCAV
 dev_langs:

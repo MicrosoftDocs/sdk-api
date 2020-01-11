@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: D5404BB6-A066-4B5F-A355-A11A107610CE
 ms.date: 12/05/2018
 ms.keywords: CfRevertPlaceholder, CfRevertPlaceholder function, cfapi/CfRevertPlaceholder, cloudApi.cfrevertplaceholder
-ms.topic: function
 f1_keywords:
 - cfapi/CfRevertPlaceholder
 dev_langs:

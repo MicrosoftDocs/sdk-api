@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: DF9EEFD2-E699-4251-9769-D1F940938D45
 ms.date: 12/05/2018
 ms.keywords: GetActiveTracks, GetActiveTracks method [Media Foundation], GetActiveTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetActiveTracks method, IMFTimedText.GetActiveTracks, IMFTimedText::GetActiveTracks, mf.imftimedtext_getactivetracks, mfmediaengine/IMFTimedText::GetActiveTracks
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedText.GetActiveTracks
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mediastreaming
 ms.assetid: 411CAF71-2888-46A3-8777-80B0D6D9CDE5
 ms.date: 12/05/2018
 ms.keywords: GetMuteAsync, GetMuteAsync method [Media Streaming API], GetMuteAsync method [Media Streaming API],IMediaRenderer interface, IMediaRenderer interface [Media Streaming API],GetMuteAsync method, IMediaRenderer.GetMuteAsync, IMediaRenderer.streaming, IMediaRenderer::GetMuteAsync, IMediaRenderer::streaming, mediastreaming.imediarenderer_getmuteasync, windows/IMediaRenderer::GetMuteAsync
-ms.topic: method
 f1_keywords:
 - windows.media.streaming/IMediaRenderer.GetMuteAsync
 dev_langs:

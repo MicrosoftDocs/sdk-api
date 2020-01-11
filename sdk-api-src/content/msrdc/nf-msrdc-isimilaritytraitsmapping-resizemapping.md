@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: ea4fe3f9-7422-4673-90e4-4907fb8dd690
 ms.date: 12/05/2018
 ms.keywords: ISimilarityTraitsMapping interface [Remote Differential Compression],ResizeMapping method, ISimilarityTraitsMapping.ResizeMapping, ISimilarityTraitsMapping::ResizeMapping, ResizeMapping, ResizeMapping method [Remote Differential Compression], ResizeMapping method [Remote Differential Compression],ISimilarityTraitsMapping interface, fs.isimilaritytraitsmapping_resizemapping, msrdc/ISimilarityTraitsMapping::ResizeMapping, rdc.isimilaritytraitsmapping_resizemapping
-ms.topic: method
 f1_keywords:
 - msrdc/ISimilarityTraitsMapping.ResizeMapping
 dev_langs:

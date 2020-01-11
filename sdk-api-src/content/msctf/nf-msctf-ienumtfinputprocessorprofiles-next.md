@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: b936c479-a5f1-47a3-bd5a-f1b83cd84dc0
 ms.date: 12/05/2018
 ms.keywords: IEnumTfInputProcessorProfiles interface [Text Services Framework],Next method, IEnumTfInputProcessorProfiles.Next, IEnumTfInputProcessorProfiles::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfInputProcessorProfiles interface, msctf/IEnumTfInputProcessorProfiles::Next, tsf.ienumtfinputprocessorprofiles_next
-ms.topic: method
 f1_keywords:
 - msctf/IEnumTfInputProcessorProfiles.Next
 dev_langs:

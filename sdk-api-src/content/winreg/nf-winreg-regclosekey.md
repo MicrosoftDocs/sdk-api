@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 10175499-abf3-4694-9594-bb97b43f3fa5
 ms.date: 12/05/2018
 ms.keywords: RegCloseKey, RegCloseKey function, _win32_regclosekey, base.regclosekey, winreg/RegCloseKey
-ms.topic: function
 f1_keywords:
 - winreg/RegCloseKey
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: e62c0c81-6802-4a76-94bb-617933490e83
 ms.date: 12/05/2018
 ms.keywords: RollbackEnlistment, RollbackEnlistment function [Files], fs.rollbackenlistment, ktmw32/RollbackEnlistment
-ms.topic: function
 f1_keywords:
 - ktmw32/RollbackEnlistment
 dev_langs:

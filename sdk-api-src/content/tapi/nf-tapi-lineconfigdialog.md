@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 52f23647-e9f5-48a3-95f4-1ac52898cb5a
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineconfigdialog, lineConfigDialog, lineConfigDialog function [TAPI 2.2], lineConfigDialogA, lineConfigDialogW, tapi/lineConfigDialog, tapi/lineConfigDialogA, tapi/lineConfigDialogW, tapi2.lineconfigdialog
-ms.topic: function
 f1_keywords:
 - tapi/lineConfigDialog
 dev_langs:

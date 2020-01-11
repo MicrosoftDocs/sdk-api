@@ -6,7 +6,6 @@ tech.root: WinRT
 ms.assetid: 
 ms.date: 05/13/2019
 ms.keywords: GetInterface, GetInterface function [Direct3D 11], windows.graphics.directx.direct3d11.interop/GetInterface, direct3d11.getinterface
-ms.topic: function
 f1_keywords:
 - windows.graphics.directx.direct3d11.interop/GetInterface
 dev_langs:

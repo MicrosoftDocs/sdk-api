@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 0893162d-f110-472a-91c0-70ba58943a22
 ms.date: 12/05/2018
 ms.keywords: WMCreateSecureChannel, WMCreateSecureChannel function [windows Media Format], wmformat.wmcreatesecurechannel, wmsecure/WMCreateSecureChannel
-ms.topic: function
 f1_keywords:
 - wmsecure/WMCreateSecureChannel
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: cf9d2f64-a8ad-46f8-9e91-a927b6b3ce08
 ms.date: 12/05/2018
 ms.keywords: GetSystemDefaultLangID, GetSystemDefaultLangID function [Internationalization for Windows Applications], _win32_GetSystemDefaultLangID, intl.getsystemdefaultlangid, winnls/GetSystemDefaultLangID
-ms.topic: function
 f1_keywords:
 - winnls/GetSystemDefaultLangID
 dev_langs:

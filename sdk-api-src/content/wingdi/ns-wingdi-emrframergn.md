@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 578a2824-b42e-401d-b4b0-8426440713c6
 ms.date: 12/05/2018
 ms.keywords: '*PEMRFRAMERGN, EMRFRAMERGN, EMRFRAMERGN structure [Windows GDI], PEMRFRAMERGN, PEMRFRAMERGN structure pointer [Windows GDI], _win32_EMRFRAMERGN_str, gdi.emrframergn, wingdi/EMRFRAMERGN, wingdi/PEMRFRAMERGN'
-ms.topic: struct
 f1_keywords:
 - wingdi/EMRFRAMERGN
 dev_langs:

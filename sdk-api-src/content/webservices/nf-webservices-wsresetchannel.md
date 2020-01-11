@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 7aca8ae0-44a0-4ec7-87e8-bec9bd17d04b
 ms.date: 12/05/2018
 ms.keywords: WsResetChannel, WsResetChannel function [Web Services for Windows], webservices/WsResetChannel, wsw.wsresetchannel
-ms.topic: function
 f1_keywords:
 - webservices/WsResetChannel
 dev_langs:

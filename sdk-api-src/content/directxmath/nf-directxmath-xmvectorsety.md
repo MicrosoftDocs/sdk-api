@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetY(XMVECTOR,float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetY, XMVectorSetY, XMVectorSetY method [DirectX Math Support APIs], dxmath.xmvectorsety
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorSetY
 dev_langs:

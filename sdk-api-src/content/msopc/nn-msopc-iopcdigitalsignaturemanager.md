@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 13e8a7b9-1d25-421b-bc81-adc495e6d9c7
 ms.date: 12/05/2018
 ms.keywords: IOpcDigitalSignatureManager, IOpcDigitalSignatureManager interface [Open Packaging Conventions], IOpcDigitalSignatureManager interface [Open Packaging Conventions],described, msopc/IOpcDigitalSignatureManager, opc.iopcdigitalsignaturemanager
-ms.topic: interface
 f1_keywords:
 - msopc/IOpcDigitalSignatureManager
 dev_langs:

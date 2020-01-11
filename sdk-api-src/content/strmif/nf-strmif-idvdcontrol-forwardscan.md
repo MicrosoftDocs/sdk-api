@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: dedeec1c-8565-491e-ab2c-4cdc17d988a9
 ms.date: 12/05/2018
 ms.keywords: ForwardScan, ForwardScan method [DirectShow], ForwardScan method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ForwardScan method, IDvdControl.ForwardScan, IDvdControl::ForwardScan, IDvdControlForwardScan, dshow.idvdcontrol_forwardscan, strmif/IDvdControl::ForwardScan
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.ForwardScan
 dev_langs:

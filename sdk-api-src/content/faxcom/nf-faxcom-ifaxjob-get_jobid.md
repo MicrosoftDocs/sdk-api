@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0xwk.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxJob interface [Fax Service],JobId property, IFaxJob.JobId, IFaxJob.get_JobId, IFaxJob::JobId, IFaxJob::get_JobId, JobId property [Fax Service], JobId property [Fax Service],IFaxJob interface, _mfax_ifaxjob_get_jobid, fax._mfax_ifaxjob_get_jobid, fax._mfax_ifaxjob_mfax_ifaxjob_get_jobid_cpp, faxcom/IFaxJob::JobId, faxcom/IFaxJob::get_JobId, get_JobId
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxJob.JobId
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: de5fc470-af9f-4f9f-bc17-a347dc702e36
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespaceManager, IWdsTransportNamespaceManager interface [Windows Deployment Services], IWdsTransportNamespaceManager interface [Windows Deployment Services],described, wds.iwdstransportnamespacemanager, wdstptmgmt/IWdsTransportNamespaceManager
-ms.topic: interface
 f1_keywords:
 - wdstptmgmt/IWdsTransportNamespaceManager
 dev_langs:

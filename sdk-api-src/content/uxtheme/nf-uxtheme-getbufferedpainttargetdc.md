@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getbufferedpainttargetdc.htm
 ms.date: 12/05/2018
 ms.keywords: GetBufferedPaintTargetDC, GetBufferedPaintTargetDC function [Windows Controls], _shell_GetBufferedPaintTargetDC, _shell_GetBufferedPaintTargetDC_cpp, controls.GetBufferedPaintTargetDC, controls._shell_GetBufferedPaintTargetDC, uxtheme/GetBufferedPaintTargetDC
-ms.topic: function
 f1_keywords:
 - uxtheme/GetBufferedPaintTargetDC
 dev_langs:

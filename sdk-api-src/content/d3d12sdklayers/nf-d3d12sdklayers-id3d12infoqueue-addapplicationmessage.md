@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: C5979BF4-C44D-461F-8FAB-D0577691C5BF
 ms.date: 12/05/2018
 ms.keywords: AddApplicationMessage, AddApplicationMessage method, AddApplicationMessage method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,AddApplicationMessage method, ID3D12InfoQueue.AddApplicationMessage, ID3D12InfoQueue::AddApplicationMessage, d3d12sdklayers/ID3D12InfoQueue::AddApplicationMessage, direct3d12.id3d12infoqueue_addapplicationmessage
-ms.topic: method
 f1_keywords:
 - d3d12sdklayers/ID3D12InfoQueue.AddApplicationMessage
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat3PK(const XMFLOAT3PK)
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadFloat3PK, XMLoadFloat3PK, XMLoadFloat3PK method [DirectX Math Support APIs], dxmath.xmloadfloat3pk
-ms.topic: function
 f1_keywords:
 - directxpackedvector/XMLoadFloat3PK
 dev_langs:

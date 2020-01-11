@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: F0CDC9CD-7D31-4854-9568-8F13516C6D15
 ms.date: 12/05/2018
 ms.keywords: CF_PLACEHOLDER_STANDARD_INFO, CF_PLACEHOLDER_STANDARD_INFO structure, cfapi/CF_PLACEHOLDER_STANDARD_INFO, cloudApi.cf_placeholder_standard_info
-ms.topic: struct
 f1_keywords:
 - cfapi/CF_PLACEHOLDER_STANDARD_INFO
 dev_langs:

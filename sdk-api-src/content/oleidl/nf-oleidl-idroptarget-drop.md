@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 7ea6d815-bf8f-47d5-99d3-f9a55bafee2e
 ms.date: 12/05/2018
 ms.keywords: Drop, Drop method [COM], Drop method [COM],IDropTarget interface, IDropTarget interface [COM],Drop method, IDropTarget.Drop, IDropTarget::Drop, _ole_idroptarget_drop, com.idroptarget_drop, oleidl/IDropTarget::Drop
-ms.topic: method
 f1_keywords:
 - oleidl/IDropTarget.Drop
 dev_langs:

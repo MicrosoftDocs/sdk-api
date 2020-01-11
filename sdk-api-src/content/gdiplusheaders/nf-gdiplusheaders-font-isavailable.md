@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\isavailable.htm
 ms.date: 12/05/2018
 ms.keywords: Font class [GDI+],IsAvailable method, Font.IsAvailable, Font::IsAvailable, IsAvailable, IsAvailable method [GDI+], IsAvailable method [GDI+],Font class, _gdiplus_CLASS_Font_IsAvailable_, gdiplus._gdiplus_CLASS_Font_IsAvailable_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Font.IsAvailable
 dev_langs:

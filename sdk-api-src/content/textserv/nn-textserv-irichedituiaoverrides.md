@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 2590002F-A6B0-4AA7-A54C-A5AB5304D9FA
 ms.date: 12/05/2018
 ms.keywords: IRicheditUiaOverrides, IRicheditUiaOverrides interface [Windows Controls], IRicheditUiaOverrides interface [Windows Controls],described, controls.irichedituiaoverrides, textserv/IRicheditUiaOverrides
-ms.topic: interface
 f1_keywords:
 - textserv/IRicheditUiaOverrides
 dev_langs:

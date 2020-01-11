@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: f6fa2d10-0049-4d5e-9688-566e5c11d64e
 ms.date: 12/05/2018
 ms.keywords: CryptCATClose, CryptCATClose function [Security], mscat/CryptCATClose, security.cryptcatclose
-ms.topic: function
 f1_keywords:
 - mscat/CryptCATClose
 dev_langs:

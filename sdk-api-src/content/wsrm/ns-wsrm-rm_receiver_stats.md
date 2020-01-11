@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 972cf340-1e0e-4add-b218-054d6998023c
 ms.date: 12/05/2018
 ms.keywords: RM_RECEIVER_STATS, RM_RECEIVER_STATS structure [Winsock], winsock.rm_receiver_stats, wsrm/RM_RECEIVER_STATS
-ms.topic: struct
 f1_keywords:
 - wsrm/RM_RECEIVER_STATS
 dev_langs:

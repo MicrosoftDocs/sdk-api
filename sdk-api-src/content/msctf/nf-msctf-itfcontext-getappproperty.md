@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 5c04ff8e-5686-4802-b312-71dddaf0155e
 ms.date: 12/05/2018
 ms.keywords: GetAppProperty, GetAppProperty method [Text Services Framework], GetAppProperty method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetAppProperty method, ITfContext.GetAppProperty, ITfContext::GetAppProperty, _tsf_itfcontext_getappproperty_ref, msctf/ITfContext::GetAppProperty, tsf.itfcontext_getappproperty
-ms.topic: method
 f1_keywords:
 - msctf/ITfContext.GetAppProperty
 dev_langs:

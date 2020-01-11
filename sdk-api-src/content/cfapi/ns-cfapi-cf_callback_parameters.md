@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: FA403E9E-5EFA-4285-9619-614DB0044FFB
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_PARAMETERS, CF_CALLBACK_PARAMETERS structure, cfapi/CF_CALLBACK_PARAMETERS, cloudApi.cf_callback_parameters
-ms.topic: struct
 f1_keywords:
 - cfapi/CF_CALLBACK_PARAMETERS
 dev_langs:

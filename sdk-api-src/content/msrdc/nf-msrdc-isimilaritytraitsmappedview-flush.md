@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: 88ac6bd2-846e-40ae-bbc6-3f2c49e66e3a
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [Remote Differential Compression], Flush method [Remote Differential Compression],ISimilarityTraitsMappedView interface, ISimilarityTraitsMappedView interface [Remote Differential Compression],Flush method, ISimilarityTraitsMappedView.Flush, ISimilarityTraitsMappedView::Flush, fs.isimilaritytraitsmappedview_flush, msrdc/ISimilarityTraitsMappedView::Flush, rdc.isimilaritytraitsmappedview_flush
-ms.topic: method
 f1_keywords:
 - msrdc/ISimilarityTraitsMappedView.Flush
 dev_langs:

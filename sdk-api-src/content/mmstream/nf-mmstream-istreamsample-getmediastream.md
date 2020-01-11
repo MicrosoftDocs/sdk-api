@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: dfc38480-7b8d-42ad-937b-dd39384796c9
 ms.date: 12/05/2018
 ms.keywords: GetMediaStream, GetMediaStream method [DirectShow], GetMediaStream method [DirectShow],IStreamSample interface, IStreamSample interface [DirectShow],GetMediaStream method, IStreamSample.GetMediaStream, IStreamSample::GetMediaStream, IStreamSampleGetMediaStream, dshow.istreamsample_getmediastream, mmstream/IStreamSample::GetMediaStream
-ms.topic: method
 f1_keywords:
 - mmstream/IStreamSample.GetMediaStream
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: iSCSIDisc
 ms.assetid: f9c05a86-3484-4092-b384-c599fbf1e60f
 ms.date: 12/05/2018
 ms.keywords: RemoveIScsiSendTargetPortalA, RemoveIscsiSendTargetPortal, RemoveIscsiSendTargetPortal function [iSCSI Discovery Library API], RemoveIscsiSendTargetPortalA, RemoveIscsiSendTargetPortalW, iscsidisc.removeiscsisendtargetportal, iscsidsc/RemoveIscsiSendTargetPortal, iscsidsc/RemoveIscsiSendTargetPortalA, iscsidsc/RemoveIscsiSendTargetPortalW
-ms.topic: function
 f1_keywords:
 - iscsidsc/RemoveIscsiSendTargetPortal
 dev_langs:

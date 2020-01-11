@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 2c524f64-0b35-4433-9768-582dcb580a74
 ms.date: 12/05/2018
 ms.keywords: IMMDeviceEnumerator interface [Core Audio],RegisterEndpointNotificationCallback method, IMMDeviceEnumerator.RegisterEndpointNotificationCallback, IMMDeviceEnumerator::RegisterEndpointNotificationCallback, IMMDeviceEnumeratorRegisterEndpointNotificationCal, RegisterEndpointNotificationCallback, RegisterEndpointNotificationCallback method [Core Audio], RegisterEndpointNotificationCallback method [Core Audio],IMMDeviceEnumerator interface, coreaudio.immdeviceenumerator_registerendpointnotificationcallback, mmdeviceapi/IMMDeviceEnumerator::RegisterEndpointNotificationCallback
-ms.topic: method
 f1_keywords:
 - mmdeviceapi/IMMDeviceEnumerator.RegisterEndpointNotificationCallback
 dev_langs:

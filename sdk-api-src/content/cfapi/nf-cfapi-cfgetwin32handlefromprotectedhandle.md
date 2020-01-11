@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: 8C54B6F3-7709-4021-8965-E96B74DD3319
 ms.date: 12/05/2018
 ms.keywords: CfGetWin32HandleFromProtectedHandle, CfGetWin32HandleFromProtectedHandle function, cfapi/CfGetWin32HandleFromProtectedHandle, cloudApi.cfgetwin32handlefromprotectedhandle
-ms.topic: function
 f1_keywords:
 - cfapi/CfGetWin32HandleFromProtectedHandle
 dev_langs:

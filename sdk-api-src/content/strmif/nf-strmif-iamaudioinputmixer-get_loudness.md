@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 620003c0-401f-4415-a82f-a80e7b32dbd3
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Loudness method, IAMAudioInputMixer.get_Loudness, IAMAudioInputMixer::get_Loudness, IAMAudioInputMixerget_Loudness, dshow.iamaudioinputmixer_get_loudness, get_Loudness, get_Loudness method [DirectShow], get_Loudness method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Loudness
-ms.topic: method
 f1_keywords:
 - strmif/IAMAudioInputMixer.get_Loudness
 dev_langs:

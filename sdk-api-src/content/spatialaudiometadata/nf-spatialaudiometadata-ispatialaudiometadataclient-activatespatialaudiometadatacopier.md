@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 52534220-65A0-46BE-9A05-E00B84170382
 ms.date: 12/05/2018
 ms.keywords: ActivateSpatialAudioMetadataCopier, ActivateSpatialAudioMetadataCopier method [Core Audio], ActivateSpatialAudioMetadataCopier method [Core Audio],ISpatialAudioMetadataClient interface, ISpatialAudioMetadataClient interface [Core Audio],ActivateSpatialAudioMetadataCopier method, ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataCopier, ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataCopier, coreaudio.ispatialaudiometadataclient_activatespatialaudiometadatacopier, spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataCopier
-ms.topic: method
 f1_keywords:
 - spatialaudiometadata/ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataCopier
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: bebeef92-1d6e-4879-846f-12d706db0653
 ms.date: 12/05/2018
 ms.keywords: VerifySignature, VerifySignature function [Security], _ssp_verifysignature, security.verifysignature, sspi/VerifySignature
-ms.topic: function
 f1_keywords:
 - sspi/VerifySignature
 dev_langs:

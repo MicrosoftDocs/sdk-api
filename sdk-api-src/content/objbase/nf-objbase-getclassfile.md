@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: dc3cb263-7b9a-45f9-8eab-3a88aa9392db
 ms.date: 12/05/2018
 ms.keywords: GetClassFile, GetClassFile function [COM], _com_GetClassFile, com.getclassfile, objbase/GetClassFile
-ms.topic: function
 f1_keywords:
 - objbase/GetClassFile
 dev_langs:

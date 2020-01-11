@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 80313abc-2212-4b1a-9d4e-9f3015370ea7
 ms.date: 12/05/2018
 ms.keywords: GetDeviceCertificate, GetDeviceCertificate method [windows Media Format], GetDeviceCertificate method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetDeviceCertificate method, IWMRegisteredDevice.GetDeviceCertificate, IWMRegisteredDevice::GetDeviceCertificate, IWMRegisteredDeviceGetDeviceCertificate, wmformat.iwmregistereddevice_getdevicecertificate, wmsdkidl/IWMRegisteredDevice::GetDeviceCertificate
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMRegisteredDevice.GetDeviceCertificate
 dev_langs:

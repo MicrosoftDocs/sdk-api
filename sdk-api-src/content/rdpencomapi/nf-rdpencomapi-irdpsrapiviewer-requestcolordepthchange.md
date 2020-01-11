@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 3dd57235-89bb-4199-a95a-d8f522cda6a2
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],RequestColorDepthChange method, IRDPSRAPIViewer.RequestColorDepthChange, IRDPSRAPIViewer::RequestColorDepthChange, RequestColorDepthChange, RequestColorDepthChange method [RDP], RequestColorDepthChange method [RDP],IRDPSRAPIViewer interface, rdp.irdpsrapiviewer_requestcolordepthchange, rdpencomapi/IRDPSRAPIViewer::RequestColorDepthChange
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPIViewer.RequestColorDepthChange
 dev_langs:

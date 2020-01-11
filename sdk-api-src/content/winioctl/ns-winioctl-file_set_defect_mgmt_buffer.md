@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 4a2ee2d5-8886-4472-85b7-de029eeffd55
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_SET_DEFECT_MGMT_BUFFER, FILE_SET_DEFECT_MGMT_BUFFER, FILE_SET_DEFECT_MGMT_BUFFER structure [Files], PFILE_SET_DEFECT_MGMT_BUFFER, PFILE_SET_DEFECT_MGMT_BUFFER structure pointer [Files], fs.file_set_defect_mgmt_buffer, winioctl/FILE_SET_DEFECT_MGMT_BUFFER, winioctl/PFILE_SET_DEFECT_MGMT_BUFFER'
-ms.topic: struct
 f1_keywords:
 - winioctl/FILE_SET_DEFECT_MGMT_BUFFER
 dev_langs:

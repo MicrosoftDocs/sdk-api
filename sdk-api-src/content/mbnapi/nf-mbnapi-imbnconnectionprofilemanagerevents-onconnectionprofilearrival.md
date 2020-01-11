@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 94338c8c-2a89-412f-811e-5c50ecd9be70
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionProfileManagerEvents interface [Microsoft Broadband Networks],OnConnectionProfileArrival method, IMbnConnectionProfileManagerEvents.OnConnectionProfileArrival, IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival, OnConnectionProfileArrival, OnConnectionProfileArrival method [Microsoft Broadband Networks], OnConnectionProfileArrival method [Microsoft Broadband Networks],IMbnConnectionProfileManagerEvents interface, mbn.imbnconnectionprofilemanagerevents_onconnectionprofilearrival, mbnapi/IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnConnectionProfileManagerEvents.OnConnectionProfileArrival
 dev_langs:

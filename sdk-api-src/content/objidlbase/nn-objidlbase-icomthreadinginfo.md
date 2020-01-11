@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: fa4c7d82-ec5d-43d6-914e-bba60ad19aa2
 ms.date: 12/05/2018
 ms.keywords: IComThreadingInfo, IComThreadingInfo interface [COM], IComThreadingInfo interface [COM],described, _com_icomthreadinginfo_interface, com.icomthreadinginfo, objidlbase/IComThreadingInfo
-ms.topic: interface
 f1_keywords:
 - objidlbase/IComThreadingInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: a3fa7c45-cad3-43be-a6c1-fffe6d025d95
 ms.date: 12/05/2018
 ms.keywords: DhcpDeRegisterParamChange, DhcpDeRegisterParamChange function [DHCP], _dhcp_dhcpderegisterparamchange, dhcp.dhcpderegisterparamchange, dhcpcsdk/DhcpDeRegisterParamChange
-ms.topic: function
 f1_keywords:
 - dhcpcsdk/DhcpDeRegisterParamChange
 dev_langs:

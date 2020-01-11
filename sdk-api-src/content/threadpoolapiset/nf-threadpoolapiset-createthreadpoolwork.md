@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 50647d87-1768-4918-8376-a6a04daca621
 ms.date: 12/05/2018
 ms.keywords: CreateThreadpoolWork, CreateThreadpoolWork function, base.createthreadpoolwork, threadpoolapiset/CreateThreadpoolWork
-ms.topic: function
 f1_keywords:
 - threadpoolapiset/CreateThreadpoolWork
 dev_langs:

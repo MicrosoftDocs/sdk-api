@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 6a8bcfe2-d09a-4eec-8e68-5e0dfc868033
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_NumberOfExistingTracks method, IDiscFormat2TrackAtOnce.get_NumberOfExistingTracks, IDiscFormat2TrackAtOnce::get_NumberOfExistingTracks, get_NumberOfExistingTracks, get_NumberOfExistingTracks method [IMAPI], get_NumberOfExistingTracks method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_numberofexistingtracks, imapi2/IDiscFormat2TrackAtOnce::get_NumberOfExistingTracks
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2TrackAtOnce.get_NumberOfExistingTracks
 dev_langs:

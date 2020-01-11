@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: a8fe754a-ce6f-45f4-9536-7ffda2183e9e
 ms.date: 12/05/2018
 ms.keywords: EAP_ATTRIBUTE, EAP_ATTRIBUTE structure [EAPHost], EapAttribute, EapAttribute structure [EAPHost], eaphost.eap_attribute, eaptypes/EAP_ATTRIBUTE, eaptypes/EapAttribute
-ms.topic: struct
 f1_keywords:
 - eaptypes/EAP_ATTRIBUTE
 dev_langs:

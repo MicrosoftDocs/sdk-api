@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: f9fd5cbe-2cb7-4ae7-9cf2-f8545095eec8
 ms.date: 12/05/2018
 ms.keywords: PDOPSTATUS, PDOPSTATUS enumeration [Windows Properties], PDOPS_CANCELLED, PDOPS_ERRORS, PDOPS_PAUSED, PDOPS_RUNNING, PDOPS_STOPPED, _shell_PDOPSTATUS, properties.PDOPSTATUS, shell.PDOPSTATUS, shobjidl_core/PDOPSTATUS, shobjidl_core/PDOPS_CANCELLED, shobjidl_core/PDOPS_ERRORS, shobjidl_core/PDOPS_PAUSED, shobjidl_core/PDOPS_RUNNING, shobjidl_core/PDOPS_STOPPED
-ms.topic: enum
 f1_keywords:
 - shobjidl_core/PDOPSTATUS
 dev_langs:

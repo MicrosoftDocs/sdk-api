@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e373c790-5366-4bff-a08d-817b0c566b1d
 ms.date: 12/05/2018
 ms.keywords: ITransferSource interface [Windows Shell],LinkItem method, ITransferSource.LinkItem, ITransferSource::LinkItem, LinkItem, LinkItem method [Windows Shell], LinkItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_LinkItem, shell.ITransferSource_LinkItem, shobjidl_core/ITransferSource::LinkItem
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ITransferSource.LinkItem
 dev_langs:

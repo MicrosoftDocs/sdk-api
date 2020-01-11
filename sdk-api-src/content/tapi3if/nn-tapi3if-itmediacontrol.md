@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 016166a1-72ac-4ce8-9c86-43cf94b1bdbd
 ms.date: 12/05/2018
 ms.keywords: ITMediaControl, ITMediaControl interface [TAPI 2.2], ITMediaControl interface [TAPI 2.2],described, _tapi3_itmediacontrol, tapi3.itmediacontrol, tapi3if/ITMediaControl
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITMediaControl
 dev_langs:

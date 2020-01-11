@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: f3a664a8-565c-4894-bea7-6664df0ecd9b
 ms.date: 12/05/2018
 ms.keywords: PxePacketAllocate, PxePacketAllocate function [Windows Deployment Services], wds.pxepacketallocate, wdspxe/PxePacketAllocate
-ms.topic: function
 f1_keywords:
 - wdspxe/PxePacketAllocate
 dev_langs:

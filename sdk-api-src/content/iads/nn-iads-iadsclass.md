@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 690b0c96-6319-42d8-8b0e-c43f46f91031
 ms.date: 12/05/2018
 ms.keywords: IADsClass, IADsClass interface [ADSI], IADsClass interface [ADSI],described, _ds_iadsclass, adsi.iadsclass, iads/IADsClass
-ms.topic: interface
 f1_keywords:
 - iads/IADsClass
 dev_langs:

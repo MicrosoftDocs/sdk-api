@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 820ff316-9edd-4894-8461-fc532d439348
 ms.date: 12/05/2018
 ms.keywords: IMallocSpy interface [COM],PostDidAlloc method, IMallocSpy.PostDidAlloc, IMallocSpy::PostDidAlloc, PostDidAlloc, PostDidAlloc method [COM], PostDidAlloc method [COM],IMallocSpy interface, _com_imallocspy_postdidalloc, com.imallocspy_postdidalloc, objidl/IMallocSpy::PostDidAlloc
-ms.topic: method
 f1_keywords:
 - objidl/IMallocSpy.PostDidAlloc
 dev_langs:

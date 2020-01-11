@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 446b535c-d576-4f96-8b74-305e34cb99d4
 ms.date: 12/05/2018
 ms.keywords: IBootOptions, IBootOptions interface [IMAPI], IBootOptions interface [IMAPI],described, imapi.ibootoptions, imapi2fs/IBootOptions
-ms.topic: interface
 f1_keywords:
 - imapi2fs/IBootOptions
 dev_langs:

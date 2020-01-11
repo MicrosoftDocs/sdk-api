@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: C5E69D48-5CE1-49AB-A535-244AB586C71E
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandSink4, ID2D1CommandSink4 interface [Direct2D], ID2D1CommandSink4 interface [Direct2D],described, d2d1_3/ID2D1CommandSink4, direct2d.id2d1commandsink4
-ms.topic: interface
 f1_keywords:
 - d2d1_3/ID2D1CommandSink4
 dev_langs:

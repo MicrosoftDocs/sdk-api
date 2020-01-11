@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: d7905687-1af8-4469-b8de-a2445afa90f4
 ms.date: 12/05/2018
 ms.keywords: SENDER_TSPEC, SENDER_TSPEC structure [QOS], lpmapi/SENDER_TSPEC, qos.sender_tspec
-ms.topic: struct
 f1_keywords:
 - lpmapi/SENDER_TSPEC
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: e06e109a-3f9d-4b08-bde9-888cb795287c
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Structured Storage], Clone method [Structured Storage],IEnumSTATPROPSTG interface, IEnumSTATPROPSTG interface [Structured Storage],Clone method, IEnumSTATPROPSTG.Clone, IEnumSTATPROPSTG::Clone, propidlbase/IEnumSTATPROPSTG::Clone, stg.ienumstatpropstg_clone
-ms.topic: method
 f1_keywords:
 - propidl/IEnumSTATPROPSTG.Clone
 dev_langs:

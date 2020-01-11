@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: ddfab09d-5477-4c4e-883c-d3c19258c49d
 ms.date: 12/05/2018
 ms.keywords: SCardAccessStartedEvent, SCardAccessStartedEvent function [Security], _smart_scardaccessstartedevent, security.scardaccessstartedevent, winscard/SCardAccessStartedEvent
-ms.topic: function
 f1_keywords:
 - winscard/SCardAccessStartedEvent
 dev_langs:

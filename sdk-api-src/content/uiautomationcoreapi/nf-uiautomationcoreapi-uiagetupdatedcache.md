@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 06f0874d-ca25-4fa8-8cbc-96c1eee1b36c
 ms.date: 12/05/2018
 ms.keywords: UiaGetUpdatedCache, UiaGetUpdatedCache function [Windows Accessibility], uiauto.uiauto_UiaGetUpdatedCacheAutoMeth, uiauto_UiaGetUpdatedCacheAutoMeth, uiautomationcoreapi/UiaGetUpdatedCache, winauto.uiauto_UiaGetUpdatedCacheAutoMeth
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaGetUpdatedCache
 dev_langs:

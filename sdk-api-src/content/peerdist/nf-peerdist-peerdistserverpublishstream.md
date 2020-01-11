@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 2133e578-f89d-4cfd-a522-12c2531babaa
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerPublishStream, PeerDistServerPublishStream function [Peer Networking], p2p.peerdistserverpublishstream, peerdist/PeerDistServerPublishStream
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistServerPublishStream
 dev_langs:

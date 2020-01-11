@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 619b54a0-7015-4453-a09e-ac199eb1c581
 ms.date: 12/05/2018
 ms.keywords: CreateValueMapItem, CreateValueMapItem method [PLA], CreateValueMapItem method [PLA],IValueMap interface, IValueMap interface [PLA],CreateValueMapItem method, IValueMap.CreateValueMapItem, IValueMap::CreateValueMapItem, pla.ivaluemap_createvaluemapitem, pla/IValueMap::CreateValueMapItem
-ms.topic: method
 f1_keywords:
 - pla/IValueMap.CreateValueMapItem
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 513341d7-bed8-469c-a067-ee71dc8860f9
 ms.date: 12/05/2018
 ms.keywords: BeginPaint, BeginPaint function [Windows GDI], _win32_BeginPaint, gdi.beginpaint, winuser/BeginPaint
-ms.topic: function
 f1_keywords:
 - winuser/BeginPaint
 dev_langs:

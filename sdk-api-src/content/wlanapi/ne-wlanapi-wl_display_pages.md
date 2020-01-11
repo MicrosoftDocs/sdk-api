@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 040433b7-9204-4462-a8fd-7b65bcd1880b
 ms.date: 12/05/2018
 ms.keywords: '*PWL_DISPLAY_PAGES, PWL_DISPLAY_PAGES, PWL_DISPLAY_PAGES enumeration pointer [NativeWIFI], WLConnectionPage, WLSecurityPage, WL_DISPLAY_PAGES, WL_DISPLAY_PAGES enumeration [NativeWIFI], nwifi.wl_display_pages, wlanapi/PWL_DISPLAY_PAGES, wlanapi/WLConnectionPage, wlanapi/WLSecurityPage, wlanapi/WL_DISPLAY_PAGES'
-ms.topic: enum
 f1_keywords:
 - wlanapi/WL_DISPLAY_PAGES
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 2d32c0a7-1069-4c76-ba5c-5978e3fd7125
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],SetRadiiSizes method, IXpsOMRadialGradientBrush.SetRadiiSizes, IXpsOMRadialGradientBrush::SetRadiiSizes, SetRadiiSizes, SetRadiiSizes method [XPS Documents and Packaging], SetRadiiSizes method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, xps.ixpsomradialgradientbrush_setradiisizes, xpsobjectmodel/IXpsOMRadialGradientBrush::SetRadiiSizes
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMRadialGradientBrush.SetRadiiSizes
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 42d10cb5-dea9-4fdb-a588-7bc647e0b95b
 ms.date: 12/05/2018
 ms.keywords: IDvbDefaultAuthorityDescriptor, IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies], IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbDefaultAuthorityDescriptor, mstv.idvbdefaultauthoritydescriptor
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IDvbDefaultAuthorityDescriptor
 dev_langs:

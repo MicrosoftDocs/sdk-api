@@ -4,7 +4,6 @@ title: DnsServiceCopyInstance function
 description: Used to copy a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure.
 ms.date: 02/19/2019
 ms.keywords: DnsServiceCopyInstance
-ms.topic: language-reference
 f1_keywords:
 - windns/DnsServiceCopyInstance
 dev_langs:

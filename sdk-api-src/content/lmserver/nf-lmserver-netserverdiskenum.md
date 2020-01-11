@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 56c981f4-7a1d-4465-bd7b-5996222c4210
 ms.date: 12/05/2018
 ms.keywords: NetServerDiskEnum, NetServerDiskEnum function [Network Management], _win32_netserverdiskenum, lmserver/NetServerDiskEnum, netmgmt.netserverdiskenum
-ms.topic: function
 f1_keywords:
 - lmserver/NetServerDiskEnum
 dev_langs:

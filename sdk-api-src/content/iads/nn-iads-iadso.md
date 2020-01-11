@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 223021ff-58ef-4762-a64a-056ccab2696c
 ms.date: 12/05/2018
 ms.keywords: IADsO, IADsO interface [ADSI], IADsO interface [ADSI],described, _ds_iadso, adsi.iadso, iads/IADsO
-ms.topic: interface
 f1_keywords:
 - iads/IADsO
 dev_langs:

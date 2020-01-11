@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 533148f3-ecb4-495c-81c4-c75db7284ded
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMRecoveryDone method, IComCRMEvents.OnCRMRecoveryDone, IComCRMEvents::OnCRMRecoveryDone, OnCRMRecoveryDone, OnCRMRecoveryDone method [COM+], OnCRMRecoveryDone method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMRecoveryDone, comsvcs/IComCRMEvents::OnCRMRecoveryDone, cos.icomcrmevents_oncrmrecoverydone
-ms.topic: method
 f1_keywords:
 - comsvcs/IComCRMEvents.OnCRMRecoveryDone
 dev_langs:

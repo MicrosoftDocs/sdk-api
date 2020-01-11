@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: de72aa25-7d0c-445c-aa1b-f0f3bdc07d10
 ms.date: 12/05/2018
 ms.keywords: IUserAccountChangeCallback, IUserAccountChangeCallback interface [Windows Shell], IUserAccountChangeCallback interface [Windows Shell],described, _shell_IUserAccountChangeCallback, shell.IUserAccountChangeCallback, shobjidl/IUserAccountChangeCallback
-ms.topic: interface
 f1_keywords:
 - shobjidl/IUserAccountChangeCallback
 dev_langs:

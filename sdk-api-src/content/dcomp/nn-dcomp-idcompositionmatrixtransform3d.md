@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 56C9A564-2504-4940-B850-D280C8E0CF82
 ms.date: 12/05/2018
 ms.keywords: IDCompositionMatrixTransform3D, IDCompositionMatrixTransform3D interface [DirectComposition], IDCompositionMatrixTransform3D interface [DirectComposition],described, dcomp/IDCompositionMatrixTransform3D, directcomp.idcompositionmatrixtransform3d
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionMatrixTransform3D
 dev_langs:

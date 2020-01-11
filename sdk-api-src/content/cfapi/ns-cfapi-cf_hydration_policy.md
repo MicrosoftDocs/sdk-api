@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: 1541E108-7AE4-4899-8940-94FD264C1B10
 ms.date: 12/05/2018
 ms.keywords: CF_HYDRATION_POLICY, CF_HYDRATION_POLICY structure, cfapi/CF_HYDRATION_POLICY, cloudApi.cf_hydration_policy
-ms.topic: struct
 f1_keywords:
 - cfapi/CF_HYDRATION_POLICY
 dev_langs:

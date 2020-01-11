@@ -5,7 +5,6 @@ description: Determines whether this font face's resource supports any variable 
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],HasVariations method, IDWriteFontResource.HasVariations, IDWriteFontResource::HasVariations, HasVariations, HasVariations method [Direct Write], HasVariations method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_hasvariations, dwrite_3/IDWriteFontResource::HasVariations
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontResource.HasVariations
 dev_langs:

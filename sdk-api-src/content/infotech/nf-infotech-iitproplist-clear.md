@@ -7,7 +7,6 @@ tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistclear.htm
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [HTML Help Workshop], Clear method [HTML Help Workshop],IITPropList interface, IITPropList interface [HTML Help Workshop],Clear method, IITPropList.Clear, IITPropList::Clear, htmlhelp.iitproplist_clear, infotech/IITPropList::Clear, refIITPropListClear
-ms.topic: method
 f1_keywords:
 - infotech/IITPropList.Clear
 dev_langs:

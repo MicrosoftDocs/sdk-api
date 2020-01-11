@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 83cd0b99-32e4-4a25-aebb-b769745df78f
 ms.date: 12/05/2018
 ms.keywords: IValueProvider interface [Windows Accessibility],Value property, IValueProvider.Value, IValueProvider.get_Value, IValueProvider::Value, IValueProvider::get_Value, Value property [Windows Accessibility], Value property [Windows Accessibility],IValueProvider interface, get_Value, uiauto.uiauto_IValueProvider_Value, uiauto_IValueProvider_Value, uiautomationcore/IValueProvider::Value, uiautomationcore/IValueProvider::get_Value, winauto.uiauto_IValueProvider_Value
-ms.topic: method
 f1_keywords:
 - uiautomationcore/IValueProvider.Value
 dev_langs:

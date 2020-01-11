@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: d0d26f32-1c15-4641-bdeb-0f464a510669
 ms.date: 12/05/2018
 ms.keywords: ADsPropSetHwndWithTitle, ADsPropSetHwndWithTitle function [Active Directory], ad.adspropsethwndwithtitle, adsprop/ADsPropSetHwndWithTitle
-ms.topic: function
 f1_keywords:
 - adsprop/ADsPropSetHwndWithTitle
 dev_langs:

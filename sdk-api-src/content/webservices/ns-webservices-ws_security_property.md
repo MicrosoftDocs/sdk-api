@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 676079cd-6ca8-486b-9604-172423210ad5
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_PROPERTY, WS_SECURITY_PROPERTY structure [Web Services for Windows], webservices/WS_SECURITY_PROPERTY, wsw.ws_security_property
-ms.topic: struct
 f1_keywords:
 - webservices/WS_SECURITY_PROPERTY
 dev_langs:

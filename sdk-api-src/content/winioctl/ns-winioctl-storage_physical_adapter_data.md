@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 8CC7CF43-61C8-4561-BA9C-473878818858
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Files], STORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA structure [Files], fs.storage_physical_adapter_data, winioctl/PSTORAGE_PHYSICAL_ADAPTER_DATA, winioctl/STORAGE_PHYSICAL_ADAPTER_DATA'
-ms.topic: struct
 f1_keywords:
 - winioctl/STORAGE_PHYSICAL_ADAPTER_DATA
 dev_langs:

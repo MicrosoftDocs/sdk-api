@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: c4861878-639b-45a5-aff8-3f1fd1a2e153
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSetData, TSPI_phoneSetData function [TAPI 2.2], _tspi_tspi_phonesetdata, tspi.tspi_phonesetdata, tspi/TSPI_phoneSetData
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_phoneSetData
 dev_langs:

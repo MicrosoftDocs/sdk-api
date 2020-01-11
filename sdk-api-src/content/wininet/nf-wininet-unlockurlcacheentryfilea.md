@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: ccc650dc-1759-4438-85d5-539c71d21a74
 ms.date: 12/05/2018
 ms.keywords: UnlockUrlCacheEntryFile, UnlockUrlCacheEntryFile function [WinINet], UnlockUrlCacheEntryFileA, UnlockUrlCacheEntryFileW, _inet_unlockurlcacheentryfile_function, wininet.unlockurlcacheentryfile, wininet/UnlockUrlCacheEntryFile, wininet/UnlockUrlCacheEntryFileA, wininet/UnlockUrlCacheEntryFileW
-ms.topic: function
 f1_keywords:
 - wininet/UnlockUrlCacheEntryFile
 dev_langs:

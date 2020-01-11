@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d9d3cc66-5622-4641-b302-6ecc6a05b1aa
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVDecAudioDualMono, codecapi/eAVDecAudioDualMono_IsDualMono, codecapi/eAVDecAudioDualMono_IsNotDualMono, codecapi/eAVDecAudioDualMono_UnSpecified, dshow.eavdecaudiodualmono, eAVDecAudioDualMono, eAVDecAudioDualMono enumeration [DirectShow], eAVDecAudioDualMonoEnumeration, eAVDecAudioDualMono_IsDualMono, eAVDecAudioDualMono_IsNotDualMono, eAVDecAudioDualMono_UnSpecified
-ms.topic: enum
 f1_keywords:
 - codecapi/eAVDecAudioDualMono
 dev_langs:

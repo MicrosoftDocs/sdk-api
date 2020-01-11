@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: a606e340-33fb-4a51-acdd-b7428c755ac5
 ms.date: 12/05/2018
 ms.keywords: IEnumWorkItems interface [Task Scheduler],Next method, IEnumWorkItems.Next, IEnumWorkItems::Next, Next, Next method [Task Scheduler], Next method [Task Scheduler],IEnumWorkItems interface, _msb_ienumworkitems_next, mstask/IEnumWorkItems::Next, taskschd.ienumworkitems_next
-ms.topic: method
 f1_keywords:
 - mstask/IEnumWorkItems.Next
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: dd8c5975-c67a-4f1b-9d48-25053ba5c0e9
 ms.date: 12/05/2018
 ms.keywords: COMAdminComponentAlreadyInstalled, COMAdminComponentCOMPlusPropertiesFound, COMAdminComponentFlagTypeInfoFound, COMAdminComponentInterfacesFound, COMAdminComponentNotInApplication, COMAdminComponentProxyFound, COMAdminFileFlagAlreadyInstalled, COMAdminFileFlagBadTLB, COMAdminFileFlagCOM, COMAdminFileFlagClassNotAvailable, COMAdminFileFlagContainsComp, COMAdminFileFlagContainsRS, COMAdminFileFlagContainsTLB, COMAdminFileFlagDLLRegsvrFailed, COMAdminFileFlagDoesNotExist, COMAdminFileFlagError, COMAdminFileFlagGetClassObjFailed, COMAdminFileFlagLoadable, COMAdminFileFlagNoRegistrar, COMAdminFileFlagRegTLBFailed, COMAdminFileFlagRegistrar, COMAdminFileFlagRegistrarFailed, COMAdminFileFlagSelfReg, COMAdminFileFlagSelfUnReg, COMAdminFileFlagUnloadableDLL, GetMultipleComponentsInfo, GetMultipleComponentsInfo method [COM+], GetMultipleComponentsInfo method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetMultipleComponentsInfo method, ICOMAdminCatalog.GetMultipleComponentsInfo, ICOMAdminCatalog::GetMultipleComponentsInfo, _cos_ICOMAdminCatalog_GetMultipleComponentsInfo, comadmin/ICOMAdminCatalog::GetMultipleComponentsInfo, cos.icomadmincatalog_getmultiplecomponentsinfo
-ms.topic: method
 f1_keywords:
 - comadmin/ICOMAdminCatalog.GetMultipleComponentsInfo
 dev_langs:

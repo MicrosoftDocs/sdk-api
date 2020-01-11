@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 9c6aa422-b5b3-4fe8-a1ca-f401a3c5a1fb
 ms.date: 12/05/2018
 ms.keywords: '*PWDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS, WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS, WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS enumeration [Windows Deployment Services], WdsTptDiagnosticsComponentImageServer, WdsTptDiagnosticsComponentMulticast, WdsTptDiagnosticsComponentPxe, WdsTptDiagnosticsComponentTftp, wds.wdstransport_diagnostics_component_flags, wdstptmgmt/WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS, wdstptmgmt/WdsTptDiagnosticsComponentImageServer, wdstptmgmt/WdsTptDiagnosticsComponentMulticast, wdstptmgmt/WdsTptDiagnosticsComponentPxe, wdstptmgmt/WdsTptDiagnosticsComponentTftp'
-ms.topic: enum
 f1_keywords:
 - wdstptmgmt/WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS
 dev_langs:

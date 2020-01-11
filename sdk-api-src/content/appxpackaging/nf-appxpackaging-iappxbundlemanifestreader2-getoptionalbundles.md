@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 26246BB1-7FE7-462F-9731-D8AD32373184
 ms.date: 12/05/2018
 ms.keywords: GetOptionalBundles, GetOptionalBundles method [App packaging and management], GetOptionalBundles method [App packaging and management],IAppxBundleManifestReader2 interface, IAppxBundleManifestReader2 interface [App packaging and management],GetOptionalBundles method, IAppxBundleManifestReader2.GetOptionalBundles, IAppxBundleManifestReader2::GetOptionalBundles, appxpackaging/IAppxBundleManifestReader2::GetOptionalBundles, appxpkg.iappxbundlemanifestreader2_getoptionalbundles
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxBundleManifestReader2.GetOptionalBundles
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: d0ba65fe-0355-4bd6-b9ad-98e8f7992827
 ms.date: 12/05/2018
 ms.keywords: CancelNtmsOperatorRequest, CancelNtmsOperatorRequest function [Files], _zaw_cancelntmsoperatorrequest, base.cancelntmsoperatorrequest, fs.cancelntmsoperatorrequest, ntmsapi/CancelNtmsOperatorRequest
-ms.topic: function
 f1_keywords:
 - ntmsapi/CancelNtmsOperatorRequest
 dev_langs:

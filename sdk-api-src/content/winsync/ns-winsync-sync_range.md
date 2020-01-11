@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: d3e4a4f4-4a67-4dce-a81a-3861dcf788e6
 ms.date: 12/05/2018
 ms.keywords: SYNC_RANGE, SYNC_RANGE structure [Windows Sync], winsync.sync_range, winsync/SYNC_RANGE
-ms.topic: struct
 f1_keywords:
 - winsync/SYNC_RANGE
 dev_langs:

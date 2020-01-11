@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 621ffc7d-186e-451c-8d97-9c8291549f51
 ms.date: 12/05/2018
 ms.keywords: IManagedActivationEvents, IManagedActivationEvents interface [COM+], IManagedActivationEvents interface [COM+],described, _cos_IManagedActivationEvents, comsvcs/IManagedActivationEvents, cos.imanagedactivationevents
-ms.topic: interface
 f1_keywords:
 - comsvcs/IManagedActivationEvents
 dev_langs:

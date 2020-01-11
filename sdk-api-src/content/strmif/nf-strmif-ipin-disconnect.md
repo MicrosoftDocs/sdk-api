@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 46e1e99c-848b-4936-b6bf-4ef1703a1f42
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [DirectShow], Disconnect method [DirectShow],IPin interface, IPin interface [DirectShow],Disconnect method, IPin.Disconnect, IPin::Disconnect, IPinDisconnect, dshow.ipin_disconnect, strmif/IPin::Disconnect
-ms.topic: method
 f1_keywords:
 - strmif/IPin.Disconnect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: 2bb1a54b-6308-4ccd-9fc6-1b11f4432a3f
 ms.date: 12/05/2018
 ms.keywords: DecommissionNtmsMedia, DecommissionNtmsMedia function [Files], _zaw_decommissionntmsmedia, base.decommissionntmsmedia, fs.decommissionntmsmedia, ntmsapi/DecommissionNtmsMedia
-ms.topic: function
 f1_keywords:
 - ntmsapi/DecommissionNtmsMedia
 dev_langs:

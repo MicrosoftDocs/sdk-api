@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 5013fea2-e767-4600-a10c-6859b7be42e4
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], IStaticPortMapping interface [ICS/ICF],described, _ics_istaticportmapping, ics.istaticportmapping, natupnp/IStaticPortMapping
-ms.topic: interface
 f1_keywords:
 - natupnp/IStaticPortMapping
 dev_langs:

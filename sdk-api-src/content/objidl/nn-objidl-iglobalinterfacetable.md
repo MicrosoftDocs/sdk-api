@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 0c1feee7-e33b-4b5d-8e35-4de6895e3947
 ms.date: 12/05/2018
 ms.keywords: IGlobalInterfaceTable, IGlobalInterfaceTable interface [COM], IGlobalInterfaceTable interface [COM],described, _com_iglobalinterfacetable, com.iglobalinterfacetable, objidl/IGlobalInterfaceTable
-ms.topic: interface
 f1_keywords:
 - objidl/IGlobalInterfaceTable
 dev_langs:

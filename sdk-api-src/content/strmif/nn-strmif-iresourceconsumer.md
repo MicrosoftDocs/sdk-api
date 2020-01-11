@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: dda2b207-dcd8-42df-95a3-d4bfbb4a7fd8
 ms.date: 12/05/2018
 ms.keywords: IResourceConsumer, IResourceConsumer interface [DirectShow], IResourceConsumer interface [DirectShow],described, IResourceConsumerInterface, dshow.iresourceconsumer, strmif/IResourceConsumer
-ms.topic: interface
 f1_keywords:
 - strmif/IResourceConsumer
 dev_langs:

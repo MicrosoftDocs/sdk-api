@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 6856cad0-4571-4951-a917-8d010706f2d5
 ms.date: 12/05/2018
 ms.keywords: GetWeakReference, GetWeakReference method [Windows Runtime], GetWeakReference method [Windows Runtime],IWeakReferenceSource interface, IWeakReferenceSource interface [Windows Runtime],GetWeakReference method, IWeakReferenceSource.GetWeakReference, IWeakReferenceSource::GetWeakReference, weakreference/IWeakReferenceSource::GetWeakReference, winrt.iweakreferencesource_getweakreference
-ms.topic: method
 f1_keywords:
 - weakreference/IWeakReferenceSource.GetWeakReference
 dev_langs:

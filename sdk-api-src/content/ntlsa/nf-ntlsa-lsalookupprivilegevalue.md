@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: 4926fff9-6e1a-475c-95ab-78c9b67aaa87
 ms.date: 12/05/2018
 ms.keywords: LsaLookupPrivilegeValue, LsaLookupPrivilegeValue function [Security], ntlsa/LsaLookupPrivilegeValue, security.lsalookupprivilegevalue
-ms.topic: function
 f1_keywords:
 - ntlsa/LsaLookupPrivilegeValue
 dev_langs:

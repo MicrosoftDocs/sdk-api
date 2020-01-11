@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: a27d7144-bd76-40e3-b8a7-951ae1974afb
 ms.date: 12/05/2018
 ms.keywords: AutoSelectOnWebSites property [Windows Update Agent], AutoSelectOnWebSites property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],AutoSelectOnWebSites property, IUpdate.AutoSelectOnWebSites, IUpdate.get_AutoSelectOnWebSites, IUpdate::AutoSelectOnWebSites, IUpdate::get_AutoSelectOnWebSites, get_AutoSelectOnWebSites, wua.iupdate_autoselectonwebsites, wuapi/IUpdate::AutoSelectOnWebSites, wuapi/IUpdate::get_AutoSelectOnWebSites
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdate.AutoSelectOnWebSites
 dev_langs:

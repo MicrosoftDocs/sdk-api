@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 7eb70308-4142-4d32-a070-9e937579b896
 ms.date: 12/05/2018
 ms.keywords: DrawLine, DrawLine method [Direct2D], DrawLine method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawLine method, ID2D1RenderTarget.DrawLine, ID2D1RenderTarget::DrawLine, d2d1/ID2D1RenderTarget::DrawLine, direct2d.ID2D1RenderTarget_DrawLine
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1RenderTarget.DrawLine
 dev_langs:

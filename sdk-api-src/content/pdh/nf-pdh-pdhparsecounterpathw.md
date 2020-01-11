@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 760b94e9-88df-4f7d-92e9-333d682779f6
 ms.date: 12/05/2018
 ms.keywords: PdhParseCounterPath, PdhParseCounterPath function [Perf], PdhParseCounterPathA, PdhParseCounterPathW, _win32_pdhparsecounterpath, base.pdhparsecounterpath, pdh/PdhParseCounterPath, pdh/PdhParseCounterPathA, pdh/PdhParseCounterPathW, perf.pdhparsecounterpath
-ms.topic: function
 f1_keywords:
 - pdh/PdhParseCounterPath
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1d0d70ca-a0e6-4620-9a01-8d4986990b9c
 ms.date: 12/05/2018
 ms.keywords: SHSetThreadRef, SHSetThreadRef function [Windows Shell], _win32_SHSetThreadRef, shell.SHSetThreadRef, shlwapi/SHSetThreadRef
-ms.topic: function
 f1_keywords:
 - shlwapi/SHSetThreadRef
 dev_langs:

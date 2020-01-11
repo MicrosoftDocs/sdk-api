@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 93185b3d-458d-4254-af2d-02cf7b1c5be7
 ms.date: 12/05/2018
 ms.keywords: IDataRetrieverCallback interface [Windows Sync],LoadChangeDataError method, IDataRetrieverCallback.LoadChangeDataError, IDataRetrieverCallback::LoadChangeDataError, LoadChangeDataError, LoadChangeDataError method [Windows Sync], LoadChangeDataError method [Windows Sync],IDataRetrieverCallback interface, winsync.idataretrievercallback_loadchangedataerror, winsync/IDataRetrieverCallback::LoadChangeDataError
-ms.topic: method
 f1_keywords:
 - winsync/IDataRetrieverCallback.LoadChangeDataError
 dev_langs:

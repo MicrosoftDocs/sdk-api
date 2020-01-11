@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 202058e8-50c2-4366-9bb6-bbc46dc5ea3f
 ms.date: 12/05/2018
 ms.keywords: GetParentTerm, GetParentTerm method [Windows Accessibility], GetParentTerm method [Windows Accessibility],IAccDictionary interface, IAccDictionary interface [Windows Accessibility],GetParentTerm method, IAccDictionary.GetParentTerm, IAccDictionary::GetParentTerm, _msaa_IAccDictionary_GetParentTerm, msaa.iaccdictionary_iaccdictionary__getparentterm, msaatext/IAccDictionary::GetParentTerm, winauto.iaccdictionary_iaccdictionary__getparentterm
-ms.topic: method
 f1_keywords:
 - msaatext/IAccDictionary.GetParentTerm
 dev_langs:

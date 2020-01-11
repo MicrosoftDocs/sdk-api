@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: fe86b393-9c8d-46f1-85dc-5ac37f423ce0
 ms.date: 12/05/2018
 ms.keywords: UiaFind, UiaFind function [Windows Accessibility], uiauto.uiauto_UiaFindAutoMeth, uiauto_UiaFindAutoMeth, uiautomationcoreapi/UiaFind, winauto.uiauto_UiaFindAutoMeth
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaFind
 dev_langs:

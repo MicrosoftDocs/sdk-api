@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: d38161af-d662-4430-99b7-6563efda6f4e
 ms.date: 12/05/2018
 ms.keywords: CoGetCancelObject, CoGetCancelObject function [COM], _com_CoGetCancelObject, com.cogetcancelobject, combaseapi/CoGetCancelObject
-ms.topic: function
 f1_keywords:
 - combaseapi/CoGetCancelObject
 dev_langs:

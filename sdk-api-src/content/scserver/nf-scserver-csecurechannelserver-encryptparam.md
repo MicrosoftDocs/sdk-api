@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: dbfc72a6-acd5-40c2-8951-ab90e5c4d752
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],EncryptParam method, CSecureChannelServer.EncryptParam, CSecureChannelServer::EncryptParam, CSecureChannelServerEncryptParam, EncryptParam, EncryptParam method [windows Media Device Manager], EncryptParam method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::EncryptParam, wmdm.csecurechannelserver_encryptparam
-ms.topic: method
 f1_keywords:
 - scserver/CSecureChannelServer.EncryptParam
 dev_langs:

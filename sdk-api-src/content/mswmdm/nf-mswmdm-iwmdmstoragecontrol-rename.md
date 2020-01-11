@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 06cd302b-7876-4256-aa75-27127eb45ac9
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Rename method, IWMDMStorageControl.Rename, IWMDMStorageControl::Rename, IWMDMStorageControlRename, Rename, Rename method [windows Media Device Manager], Rename method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Rename, wmdm.iwmdmstoragecontrol_rename
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMStorageControl.Rename
 dev_langs:

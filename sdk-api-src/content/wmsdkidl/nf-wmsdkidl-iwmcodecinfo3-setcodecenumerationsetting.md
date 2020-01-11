@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 5b4883b8-63c0-40ff-b13f-303d30ebfe15
 ms.date: 12/05/2018
 ms.keywords: IWMCodecInfo3 interface [windows Media Format],SetCodecEnumerationSetting method, IWMCodecInfo3.SetCodecEnumerationSetting, IWMCodecInfo3::SetCodecEnumerationSetting, IWMCodecInfo3SetCodecEnumerationSetting, SetCodecEnumerationSetting, SetCodecEnumerationSetting method [windows Media Format], SetCodecEnumerationSetting method [windows Media Format],IWMCodecInfo3 interface, wmformat.iwmcodecinfo3_setcodecenumerationsetting, wmsdkidl/IWMCodecInfo3::SetCodecEnumerationSetting
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMCodecInfo3.SetCodecEnumerationSetting
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 95bce5f8-5230-4b69-b4e9-3cb766edce90
 ms.date: 12/05/2018
 ms.keywords: DRM_VIDEO_OUTPUT_PROTECTION_IDS, DRM_VIDEO_OUTPUT_PROTECTION_IDS structure [windows Media Format], structure [windows Media Format], wmformat.drm_video_output_protection_ids, wmsdkidl/DRM_VIDEO_OUTPUT_PROTECTION_IDS
-ms.topic: struct
 f1_keywords:
 - wmsdkidl/DRM_VIDEO_OUTPUT_PROTECTION_IDS
 dev_langs:

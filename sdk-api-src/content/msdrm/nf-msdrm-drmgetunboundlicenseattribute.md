@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: 4ddf2920-95ea-47be-a5dd-b68eee2de29e
 ms.date: 12/05/2018
 ms.keywords: DRMGetUnboundLicenseAttribute, DRMGetUnboundLicenseAttribute function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUnboundLicenseAttribute, rm.drmgetunboundlicenseattribute
-ms.topic: function
 f1_keywords:
 - msdrm/DRMGetUnboundLicenseAttribute
 dev_langs:

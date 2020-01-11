@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 27e607d9-85f0-4e17-b8e7-6df729288acd
 ms.date: 12/05/2018
 ms.keywords: IPinFlowControl, IPinFlowControl interface [DirectShow], IPinFlowControl interface [DirectShow],described, IPinFlowControlInterface, dshow.ipinflowcontrol, strmif/IPinFlowControl
-ms.topic: interface
 f1_keywords:
 - strmif/IPinFlowControl
 dev_langs:

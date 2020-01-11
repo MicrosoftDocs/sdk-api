@@ -7,7 +7,6 @@ tech.root: swdevice
 ms.assetid: A53FEBC2-E7D7-4DF7-B41C-BBB5A7EE044B
 ms.date: 12/05/2018
 ms.keywords: SwDeviceInterfaceRegister, SwDeviceInterfaceRegister function, swdevice.swdeviceinterfaceregister, swdevice/SwDeviceInterfaceRegister
-ms.topic: function
 f1_keywords:
 - swdevice/SwDeviceInterfaceRegister
 dev_langs:

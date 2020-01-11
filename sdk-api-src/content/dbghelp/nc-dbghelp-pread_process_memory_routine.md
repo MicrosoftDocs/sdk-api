@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 84ff0085-295d-48bd-baa5-d6b2845520a6
 ms.date: 12/05/2018
 ms.keywords: PREAD_PROCESS_MEMORY_ROUTINE, PREAD_PROCESS_MEMORY_ROUTINE64, ReadProcessMemoryProc64, ReadProcessMemoryProc64 callback, ReadProcessMemoryProc64 callback function, _win32_readprocessmemoryproc64, base.readprocessmemoryproc64, dbghelp/ReadProcessMemoryProc64
-ms.topic: callback
 f1_keywords:
 - dbghelp/ReadProcessMemoryProc64
 dev_langs:

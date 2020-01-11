@@ -7,7 +7,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\getopenfilename.htm
 ms.date: 12/05/2018
 ms.keywords: GetOpenFileName, GetOpenFileName function [Dialog Boxes], GetOpenFileNameA, GetOpenFileNameW, _win32_GetOpenFileName, _win32_getopenfilename_cpp, commdlg/GetOpenFileName, commdlg/GetOpenFileNameA, commdlg/GetOpenFileNameW, dlgbox.getopenfilename, winui._win32_getopenfilename
-ms.topic: function
 f1_keywords:
 - commdlg/GetOpenFileName
 dev_langs:

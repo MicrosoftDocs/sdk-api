@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: 6ea374e3-cb09-44e5-b80a-b68447589191
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IPMCAST_IF_TABLE, MIB_IPMCAST_IF_TABLE, MIB_IPMCAST_IF_TABLE structure [MIB], PMIB_IPMCAST_IF_TABLE, PMIB_IPMCAST_IF_TABLE structure pointer [MIB], _mpr_mib_ipmcast_if_table, ipmib/MIB_IPMCAST_IF_TABLE, ipmib/PMIB_IPMCAST_IF_TABLE, iprtrmib/MIB_IPMCAST_IF_TABLE, iprtrmib/PMIB_IPMCAST_IF_TABLE, mib.mib_ipmcast_if_table, rras.mib_ipmcast_if_table'
-ms.topic: struct
 f1_keywords:
 - ipmib/MIB_IPMCAST_IF_TABLE
 dev_langs:

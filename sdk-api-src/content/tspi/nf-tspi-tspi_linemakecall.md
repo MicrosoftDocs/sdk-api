@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 9c3d6a7d-b0bf-4068-9d64-e0c715a8c011
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineMakeCall, TSPI_lineMakeCall function [TAPI 2.2], _tspi_tspi_linemakecall, tspi.tspi_linemakecall, tspi/TSPI_lineMakeCall
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineMakeCall
 dev_langs:

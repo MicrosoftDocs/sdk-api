@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: DED84AC1-0126-450E-8A0A-1336BB4084D4
 ms.date: 12/05/2018
 ms.keywords: D3D12_MESSAGE, D3D12_MESSAGE structure, d3d12sdklayers/D3D12_MESSAGE, direct3d12.d3d12_message
-ms.topic: struct
 f1_keywords:
 - d3d12sdklayers/D3D12_MESSAGE
 dev_langs:

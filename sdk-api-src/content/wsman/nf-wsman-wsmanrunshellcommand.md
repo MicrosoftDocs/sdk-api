@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 8f5c89f8-418c-4a4d-9a52-0fc01ec636b2
 ms.date: 12/05/2018
 ms.keywords: WSManRunShellCommand, WSManRunShellCommand function [Windows Remote Management], winrm.wsmanrunshellcommand, wsman/WSManRunShellCommand
-ms.topic: function
 f1_keywords:
 - wsman/WSManRunShellCommand
 dev_langs:

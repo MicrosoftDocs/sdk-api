@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 884b5498-7f10-4a44-a947-bc7d93fa0cbf
 ms.date: 12/05/2018
 ms.keywords: 66d569bb-5ee1-ef49-184c-1e392e6a777a, D3D11_UNORDERED_ACCESS_VIEW_DESC, D3D11_UNORDERED_ACCESS_VIEW_DESC structure [Direct3D 11], d3d11/D3D11_UNORDERED_ACCESS_VIEW_DESC, direct3d11.d3d11_unordered_access_view_desc
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_UNORDERED_ACCESS_VIEW_DESC
 dev_langs:

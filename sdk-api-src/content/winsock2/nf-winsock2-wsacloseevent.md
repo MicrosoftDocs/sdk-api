@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 40cefe46-10a3-4b6a-8c89-3e16237fc685
 ms.date: 12/05/2018
 ms.keywords: WSACloseEvent, WSACloseEvent function [Winsock], _win32_wsacloseevent_2, winsock.wsacloseevent_2, winsock2/WSACloseEvent
-ms.topic: function
 f1_keywords:
 - winsock2/WSACloseEvent
 dev_langs:

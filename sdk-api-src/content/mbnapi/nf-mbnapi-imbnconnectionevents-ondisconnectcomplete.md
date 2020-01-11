@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 2d225823-2b9b-4c3a-b847-7b2b9a13d121
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionEvents interface [Microsoft Broadband Networks],OnDisconnectComplete method, IMbnConnectionEvents.OnDisconnectComplete, IMbnConnectionEvents::OnDisconnectComplete, OnDisconnectComplete, OnDisconnectComplete method [Microsoft Broadband Networks], OnDisconnectComplete method [Microsoft Broadband Networks],IMbnConnectionEvents interface, mbn.imbnconnectionevents_ondisconnectcomplete, mbnapi/IMbnConnectionEvents::OnDisconnectComplete
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnConnectionEvents.OnDisconnectComplete
 dev_langs:

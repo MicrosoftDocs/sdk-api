@@ -5,7 +5,6 @@ description: Defines constants that specify what should be done with the results
 tech.root: direct3d12
 ms.date: 10/14/2019
 ms.keywords: D3D12_MEASUREMENTS_ACTION, D3D12_MEASUREMENTS_ACTION enumeration, direct3d12.d3d12_measurements_action
-ms.topic: enum
 f1_keywords:
 - d3d12/D3D12_MEASUREMENTS_ACTION
 dev_langs:

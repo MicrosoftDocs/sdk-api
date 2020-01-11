@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 40c28e67-8ff3-4330-90a1-7ebccb0023ad
 ms.date: 12/05/2018
 ms.keywords: IProgressItems, IProgressItems interface [IMAPI], IProgressItems interface [IMAPI],described, imapi.iprogressitems, imapi2fs/IProgressItems
-ms.topic: interface
 f1_keywords:
 - imapi2fs/IProgressItems
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 8d5510c6-6c1c-4cc5-85a6-00514278029d
 ms.date: 12/05/2018
 ms.keywords: IsVarTypeSignedInteger, IsVarTypeSignedInteger function [Windows Properties], _shell_IsVarTypeSignedInteger, properties.IsVarTypeSignedInteger, propvarutil/IsVarTypeSignedInteger, shell.IsVarTypeSignedInteger
-ms.topic: function
 f1_keywords:
 - propvarutil/IsVarTypeSignedInteger
 dev_langs:

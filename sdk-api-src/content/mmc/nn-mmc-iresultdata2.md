@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: cca0c2a4-7a41-48d1-bdaa-27b7aad7cc05
 ms.date: 12/05/2018
 ms.keywords: IResultData2, IResultData2 interface [MMC], IResultData2 interface [MMC],described, _slate_iresultdata2, mmc.iresultdata2, mmc/IResultData2
-ms.topic: interface
 f1_keywords:
 - mmc/IResultData2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: C17D13E4-4BAD-436F-8A82-6568F1AFA751
 ms.date: 12/05/2018
 ms.keywords: GetSource, GetSource method [Direct2D], GetSource method [Direct2D],ID2D1TransformedImageSource interface, ID2D1TransformedImageSource interface [Direct2D],GetSource method, ID2D1TransformedImageSource.GetSource, ID2D1TransformedImageSource::GetSource, d2d1_3/ID2D1TransformedImageSource::GetSource, direct2d.id2d1transformedimagesource_getsource
-ms.topic: method
 f1_keywords:
 - d2d1_3/ID2D1TransformedImageSource.GetSource
 dev_langs:

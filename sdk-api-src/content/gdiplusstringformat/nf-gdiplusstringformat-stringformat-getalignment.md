@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getalignment_66.htm
 ms.date: 12/05/2018
 ms.keywords: GetAlignment, GetAlignment method [GDI+], GetAlignment method [GDI+],StringFormat class, StringFormat class [GDI+],GetAlignment method, StringFormat.GetAlignment, StringFormat::GetAlignment, _gdiplus_CLASS_StringFormat_GetAlignment_, gdiplus._gdiplus_CLASS_StringFormat_GetAlignment_
-ms.topic: method
 f1_keywords:
 - gdiplusstringformat/StringFormat.GetAlignment
 dev_langs:

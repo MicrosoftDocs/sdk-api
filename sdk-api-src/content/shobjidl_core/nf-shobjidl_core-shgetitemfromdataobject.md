@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1d7b9ffa-9980-4d68-85e4-7bab667be168
 ms.date: 12/05/2018
 ms.keywords: SHGetItemFromDataObject, SHGetItemFromDataObject function [Windows Shell], _shell_SHGetItemFromDataObject, shell.SHGetItemFromDataObject, shobjidl_core/SHGetItemFromDataObject
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHGetItemFromDataObject
 dev_langs:

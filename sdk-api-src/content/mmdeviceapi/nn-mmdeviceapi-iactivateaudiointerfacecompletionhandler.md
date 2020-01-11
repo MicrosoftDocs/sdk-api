@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 04ff7cbb-fd33-40d9-9c11-4f716c6423b0
 ms.date: 12/05/2018
 ms.keywords: IActivateAudioInterfaceCompletionHandler, IActivateAudioInterfaceCompletionHandler interface [Core Audio], IActivateAudioInterfaceCompletionHandler interface [Core Audio],described, coreaudio.iactivateaudiointerfacecompletionhandler, mmdeviceapi/IActivateAudioInterfaceCompletionHandler
-ms.topic: interface
 f1_keywords:
 - mmdeviceapi/IActivateAudioInterfaceCompletionHandler
 dev_langs:

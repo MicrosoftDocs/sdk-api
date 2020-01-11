@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: db74d4b5-6564-4fbe-9ea3-0c373be4af44
 ms.date: 12/05/2018
 ms.keywords: ISBE2EnumStream interface [Microsoft TV Technologies],Reset method, ISBE2EnumStream.Reset, ISBE2EnumStream::Reset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],ISBE2EnumStream interface, mstv.isbe2enumstream_reset, sbe/ISBE2EnumStream::Reset
-ms.topic: method
 f1_keywords:
 - sbe/ISBE2EnumStream.Reset
 dev_langs:

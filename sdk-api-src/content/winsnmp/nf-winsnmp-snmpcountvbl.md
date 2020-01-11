@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 08e7d450-0c75-4ef5-a9c5-ef0255601a9a
 ms.date: 12/05/2018
 ms.keywords: SnmpCountVbl, SnmpCountVbl function [SNMP], _snmp_snmpcountvbl, snmp.snmpcountvbl, winsnmp/SnmpCountVbl
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpCountVbl
 dev_langs:

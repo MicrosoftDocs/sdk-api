@@ -7,7 +7,6 @@ tech.root: VStor
 ms.assetid: 9d9f187e-dea1-48ca-a3fe-9e9c513e9088
 ms.date: 12/05/2018
 ms.keywords: CreateVirtualDisk, CreateVirtualDisk function [VHD], vdssys/CreateVirtualDisk, vhd.createvirtualdisk, virtdisk/CreateVirtualDisk
-ms.topic: function
 f1_keywords:
 - virtdisk/CreateVirtualDisk
 dev_langs:

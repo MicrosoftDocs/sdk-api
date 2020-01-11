@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 983864bc-b737-4a4d-8f3f-f062eb88cfa7
 ms.date: 12/05/2018
 ms.keywords: CreateCustomFontCollection, CreateCustomFontCollection method [Direct Write], CreateCustomFontCollection method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateCustomFontCollection method, IDWriteFactory.CreateCustomFontCollection, IDWriteFactory::CreateCustomFontCollection, directwrite.IDWriteFactory_CreateCustomFontCollection, dwrite/IDWriteFactory::CreateCustomFontCollection
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteFactory.CreateCustomFontCollection
 dev_langs:

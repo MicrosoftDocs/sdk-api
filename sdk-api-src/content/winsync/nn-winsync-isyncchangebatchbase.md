@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 14ca01a1-04eb-4282-adf0-e775d6ff0801
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatchBase, ISyncChangeBatchBase interface [Windows Sync], ISyncChangeBatchBase interface [Windows Sync],described, winsync.isyncchangebatchbase, winsync/ISyncChangeBatchBase
-ms.topic: interface
 f1_keywords:
 - winsync/ISyncChangeBatchBase
 dev_langs:

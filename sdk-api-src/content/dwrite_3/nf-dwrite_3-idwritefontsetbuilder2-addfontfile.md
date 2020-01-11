@@ -5,7 +5,6 @@ description: Adds references to all the fonts in the specified font file. The me
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSetBuilder2 interface [Direct Write],AddFontFile method, IDWriteFontSetBuilder2.AddFontFile, IDWriteFontSetBuilder2::AddFontFile, AddFontFile, AddFontFile method [Direct Write], AddFontFile method [Direct Write],IDWriteFontSetBuilder2 interface, directwrite.idwritefontsetbuilder2_addfontfile, dwrite_3/IDWriteFontSetBuilder2::AddFontFile
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontSetBuilder2.AddFontFile
 dev_langs:

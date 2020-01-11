@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: AA0E913F-D89F-4AF1-91DE-B57D0C016DB7
 ms.date: 12/05/2018
 ms.keywords: EnableDebugCounters, EnableDebugCounters method [DirectComposition], EnableDebugCounters method [DirectComposition],IDCompositionDeviceDebug interface, IDCompositionDeviceDebug interface [DirectComposition],EnableDebugCounters method, IDCompositionDeviceDebug.EnableDebugCounters, IDCompositionDeviceDebug::EnableDebugCounters, dcomp/IDCompositionDeviceDebug::EnableDebugCounters, directcomp.idcompositiondevicedebug_enabledebugcounters
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionDeviceDebug.EnableDebugCounters
 dev_langs:

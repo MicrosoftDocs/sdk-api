@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: f6165772-be55-4b56-bc70-dfa2c4a40c61
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetEndpointName, PeerCollabGetEndpointName function [Peer Networking], p2p.peercollabgetendpointname, p2p/PeerCollabGetEndpointName
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabGetEndpointName
 dev_langs:

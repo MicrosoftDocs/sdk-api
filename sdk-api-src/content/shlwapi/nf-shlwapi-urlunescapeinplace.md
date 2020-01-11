@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 315215dc-c074-4abb-8bb2-006eff18b88d
 ms.date: 12/05/2018
 ms.keywords: URL_DONT_UNESCAPE_EXTRA_INFO, UrlUnescapeInPlace, UrlUnescapeInPlace function [Windows Shell], _win32_UrlUnescapeInPlace, shell.UrlUnescapeInPlace, shlwapi/UrlUnescapeInPlace
-ms.topic: macro
 f1_keywords:
 - shlwapi/UrlUnescapeInPlace
 dev_langs:

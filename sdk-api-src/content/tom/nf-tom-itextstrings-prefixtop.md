@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: fbdae612-1d6e-4f10-9b55-5ee038f27b79
 ms.date: 12/05/2018
 ms.keywords: ITextStrings interface [Windows Controls],PrefixTop method, ITextStrings.PrefixTop, ITextStrings::PrefixTop, PrefixTop, PrefixTop method [Windows Controls], PrefixTop method [Windows Controls],ITextStrings interface, controls.itextstrings_prefixtop, tom/ITextStrings::PrefixTop
-ms.topic: method
 f1_keywords:
 - tom/ITextStrings.PrefixTop
 dev_langs:

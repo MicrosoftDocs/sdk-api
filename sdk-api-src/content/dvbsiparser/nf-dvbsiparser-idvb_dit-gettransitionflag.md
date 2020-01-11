@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 3db3ee1e-7fff-442d-9e78-7862b19c339a
 ms.date: 12/05/2018
 ms.keywords: GetTransitionFlag, GetTransitionFlag method [Microsoft TV Technologies], GetTransitionFlag method [Microsoft TV Technologies],IDVB_DIT interface, IDVB_DIT interface [Microsoft TV Technologies],GetTransitionFlag method, IDVB_DIT.GetTransitionFlag, IDVB_DIT::GetTransitionFlag, IDVB_DITGetTransitionFlag, dvbsiparser/IDVB_DIT::GetTransitionFlag, mstv.idvb_dit_gettransitionflag
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_DIT.GetTransitionFlag
 dev_langs:

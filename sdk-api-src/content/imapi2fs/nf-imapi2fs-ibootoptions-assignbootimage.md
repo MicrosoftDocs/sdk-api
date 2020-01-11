@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 63d598dd-72a8-4544-813d-11f2e7e53ec5
 ms.date: 12/05/2018
 ms.keywords: AssignBootImage, AssignBootImage method [IMAPI], AssignBootImage method [IMAPI],IBootOptions interface, IBootOptions interface [IMAPI],AssignBootImage method, IBootOptions.AssignBootImage, IBootOptions::AssignBootImage, imapi.ibootoptions_assignbootimage, imapi2fs/IBootOptions::AssignBootImage
-ms.topic: method
 f1_keywords:
 - imapi2fs/IBootOptions.AssignBootImage
 dev_langs:

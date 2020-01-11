@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10buffer_unmap.htm
 ms.date: 12/05/2018
 ms.keywords: 13d21090-d886-01c2-e3ba-12169dea4cc5, ID3D10Buffer interface [Direct3D 10],Unmap method, ID3D10Buffer.Unmap, ID3D10Buffer::Unmap, Unmap, Unmap method [Direct3D 10], Unmap method [Direct3D 10],ID3D10Buffer interface, d3d10/ID3D10Buffer::Unmap, direct3d10.id3d10buffer_unmap
-ms.topic: method
 f1_keywords:
 - d3d10/ID3D10Buffer.Unmap
 dev_langs:

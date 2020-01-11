@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 709c1752-f2fb-463e-a95e-a082cd28b110
 ms.date: 12/05/2018
 ms.keywords: ObjectContext interface [COM+],SetAbort method, ObjectContext.SetAbort, ObjectContext::SetAbort, SetAbort, SetAbort method [COM+], SetAbort method [COM+],ObjectContext interface, _cos_ObjectContext_SetAbort, comsvcs/ObjectContext::SetAbort, cos.objectcontext_setabort
-ms.topic: method
 f1_keywords:
 - comsvcs/ObjectContext.SetAbort
 dev_langs:

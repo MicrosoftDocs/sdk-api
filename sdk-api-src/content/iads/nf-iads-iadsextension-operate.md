@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: c3cab311-6717-4d95-ad46-9da6047f84b8
 ms.date: 12/05/2018
 ms.keywords: ADS_EXT_INITCREDENTIALS, IADsExtension interface [ADSI],Operate method, IADsExtension.Operate, IADsExtension::Operate, Operate, Operate method [ADSI], Operate method [ADSI],IADsExtension interface, _ds_iadsextension_operate, adsi.iadsextension__operate, adsi.iadsextension_operate, iads/IADsExtension::Operate
-ms.topic: method
 f1_keywords:
 - iads/IADsExtension.Operate
 dev_langs:

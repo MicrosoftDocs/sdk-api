@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: 84ba8cb6-13ad-459b-b154-c495aaeb67f3
 ms.date: 12/05/2018
 ms.keywords: PowerImportPowerScheme, PowerImportPowerScheme function, base.powerimportpowerscheme, powrprof/PowerImportPowerScheme
-ms.topic: function
 f1_keywords:
 - powrprof/PowerImportPowerScheme
 dev_langs:

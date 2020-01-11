@@ -7,7 +7,6 @@ tech.root: Input_IntContext
 ms.assetid: b4d9459a-7b07-4316-bf5c-628de08de7dc
 ms.date: 12/05/2018
 ms.keywords: SetCrossSlideParametersInteractionContext, SetCrossSlideParametersInteractionContext function, input_intcontext.setcrossslideparametersinteractioncontext, interactioncontext.setcrossslideparametersinteractioncontext, interactioncontext/SetCrossSlideParametersInteractionContext
-ms.topic: function
 f1_keywords:
 - interactioncontext/SetCrossSlideParametersInteractionContext
 dev_langs:

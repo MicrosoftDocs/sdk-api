@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 424d1507-e42a-43d7-8904-347bfb311dd4
 ms.date: 12/05/2018
 ms.keywords: GetFolder, GetFolder method [Windows Shell], GetFolder method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetFolder method, IFileDialog.GetFolder, IFileDialog::GetFolder, shell.IFileDialog_GetFolder, shell_IFileDialog_GetFolder, shobjidl_core/IFileDialog::GetFolder
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileDialog.GetFolder
 dev_langs:

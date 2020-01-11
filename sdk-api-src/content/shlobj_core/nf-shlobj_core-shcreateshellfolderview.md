@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f2948a6d-84a5-456b-b328-ba76dba46e9d
 ms.date: 12/05/2018
 ms.keywords: SHCreateShellFolderView, SHCreateShellFolderView function [Windows Shell], _win32_SHCreateShellFolderView, shell.SHCreateShellFolderView, shlobj_core/SHCreateShellFolderView
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHCreateShellFolderView
 dev_langs:

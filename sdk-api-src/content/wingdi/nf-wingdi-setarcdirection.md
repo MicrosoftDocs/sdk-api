@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: cec31eb2-cc9d-4384-b973-dd4339b96ed0
 ms.date: 12/05/2018
 ms.keywords: AD_CLOCKWISE, AD_COUNTERCLOCKWISE, SetArcDirection, SetArcDirection function [Windows GDI], _win32_SetArcDirection, gdi.setarcdirection, wingdi/SetArcDirection
-ms.topic: function
 f1_keywords:
 - wingdi/SetArcDirection
 dev_langs:

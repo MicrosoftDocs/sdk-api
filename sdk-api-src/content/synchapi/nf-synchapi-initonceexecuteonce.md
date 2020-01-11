@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 04c161ed-d1b0-4995-b246-cb64cb67ae47
 ms.date: 12/05/2018
 ms.keywords: InitOnceExecuteOnce, InitOnceExecuteOnce function, base.initonceexecuteonce, synchapi/InitOnceExecuteOnce, winbase/InitOnceExecuteOnce
-ms.topic: function
 f1_keywords:
 - synchapi/InitOnceExecuteOnce
 dev_langs:

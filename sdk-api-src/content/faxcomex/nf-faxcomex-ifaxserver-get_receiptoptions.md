@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9gxf_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],ReceiptOptions property, IFaxServer.ReceiptOptions, IFaxServer.get_ReceiptOptions, IFaxServer::ReceiptOptions, IFaxServer::get_ReceiptOptions, ReceiptOptions property [Fax Service], ReceiptOptions property [Fax Service],IFaxServer interface, _mfax_faxserver.receiptoptions_cpp, fax._mfax_faxserver_receiptoptions_cpp, faxcomex/IFaxServer::ReceiptOptions, faxcomex/IFaxServer::get_ReceiptOptions, get_ReceiptOptions
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxServer.ReceiptOptions
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 8107910f-eb77-4313-97f5-1bd8126d6dec
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Windows Controls], GetText method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetText method, ITextStory.GetText, ITextStory::GetText, controls.itextstory_gettext, tom/ITextStory::GetText, tomAdjustCRLF, tomAllowFinalEOP, tomFoldMathAlpha, tomIncludeNumbering, tomLanguageTag, tomNoHidden, tomNoMathZoneBrackets, tomTextize, tomTranslateTableCell, tomUseCRLF
-ms.topic: method
 f1_keywords:
 - tom/ITextStory.GetText
 dev_langs:

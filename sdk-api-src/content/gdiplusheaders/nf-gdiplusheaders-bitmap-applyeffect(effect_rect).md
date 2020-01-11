@@ -5,7 +5,6 @@ description: The Bitmap::ApplyEffect method alters this Bitmap object by applyin
 ms.assetid: fff2c151-92df-477e-aafd-6aaca27df414
 ms.date: 05/20/2019
 ms.keywords: Bitmap::ApplyEffect
-ms.topic: language-reference
 f1_keywords:
 - gdiplusheaders/Bitmap::ApplyEffect
 dev_langs:

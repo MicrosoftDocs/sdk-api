@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f51b487e-10b0-4539-885b-f3b9af29dc28
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageResourceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMImageResourceCollection.SetAt, IXpsOMImageResourceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, xps.ixpsomimageresourcecollection_setat, xpsobjectmodel/IXpsOMImageResourceCollection::SetAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMImageResourceCollection.SetAt
 dev_langs:

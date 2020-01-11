@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\getfileversioninfoex.htm
 ms.date: 12/05/2018
 ms.keywords: FILE_VER_GET_LOCALISED, FILE_VER_GET_NEUTRAL, FILE_VER_GET_PREFETCHED, GetFileVersionInfoEx, GetFileVersionInfoEx function [Menus and Other Resources], GetFileVersionInfoExA, GetFileVersionInfoExW, _win32_GetFileVersionInfoEx, _win32_getfileversioninfoex_cpp, menurc.getfileversioninfoex, winui._win32_getfileversioninfoex, winver/GetFileVersionInfoEx, winver/GetFileVersionInfoExA, winver/GetFileVersionInfoExW
-ms.topic: function
 f1_keywords:
 - winver/GetFileVersionInfoEx
 dev_langs:

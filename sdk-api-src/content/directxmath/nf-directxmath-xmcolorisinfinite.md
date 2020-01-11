@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorIsInfinite(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorIsInfinite, XMColorIsInfinite, XMColorIsInfinite method [DirectX Math Support APIs], dxmath.xmcolorisinfinite
-ms.topic: function
 f1_keywords:
 - directxmath/XMColorIsInfinite
 dev_langs:

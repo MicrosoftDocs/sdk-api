@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 10e8def6-be78-4b0f-8b47-d0485a1b50f1
 ms.date: 12/05/2018
 ms.keywords: GetServiceIdx, GetServiceIdx method [Microsoft TV Technologies], GetServiceIdx method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetServiceIdx method, IPBDA_EIT.GetServiceIdx, IPBDA_EIT::GetServiceIdx, dvbsiparser/IPBDA_EIT::GetServiceIdx, mstv.ipbda_eit_getserviceidx
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IPBDA_EIT.GetServiceIdx
 dev_langs:

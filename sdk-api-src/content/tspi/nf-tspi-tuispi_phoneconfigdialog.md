@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 6bdd4206-0028-43f0-8da8-2fc11779f7d2
 ms.date: 12/05/2018
 ms.keywords: TUISPI_phoneConfigDialog, TUISPI_phoneConfigDialog function [TAPI 2.2], _tspi_tuispi_phoneconfigdialog, tspi.tuispi_phoneconfigdialog, tspi/TUISPI_phoneConfigDialog
-ms.topic: function
 f1_keywords:
 - tspi/TUISPI_phoneConfigDialog
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: df277641-393e-4202-bb92-4b813ddaa0ca
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseImport, MsiDatabaseImport function, MsiDatabaseImportA, MsiDatabaseImportW, _msi_msidatabaseimport, msiquery/MsiDatabaseImport, msiquery/MsiDatabaseImportA, msiquery/MsiDatabaseImportW, setup.msidatabaseimport
-ms.topic: function
 f1_keywords:
 - msiquery/MsiDatabaseImport
 dev_langs:

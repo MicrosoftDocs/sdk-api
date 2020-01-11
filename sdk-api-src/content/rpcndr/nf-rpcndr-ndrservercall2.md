@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 82E79B9E-5022-498A-B22A-0BEC6BF7DD5A
 ms.date: 12/05/2018
 ms.keywords: NdrServerCall2, NdrServerCall2 function [RPC], rpc.ndrservercall2, rpcndr/NdrServerCall2
-ms.topic: function
 f1_keywords:
 - rpcndr/NdrServerCall2
 dev_langs:

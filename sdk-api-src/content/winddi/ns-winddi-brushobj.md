@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 81216bee-d13f-4880-a839-337a247a6c82
 ms.date: 12/05/2018
 ms.keywords: BRUSHOBJ, BRUSHOBJ structure [Display Devices], display.brushobj, grstrcts_eb8de3ab-7f42-4f7b-b4bd-7c3c739e52ed.xml, winddi/BRUSHOBJ
-ms.topic: struct
 f1_keywords:
 - winddi/BRUSHOBJ
 dev_langs:

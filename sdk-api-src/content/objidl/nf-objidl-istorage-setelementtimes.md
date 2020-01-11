@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: f6a1fba4-0444-4de3-a838-2d339878fe24
 ms.date: 12/05/2018
 ms.keywords: IStorage interface [Structured Storage],SetElementTimes method, IStorage.SetElementTimes, IStorage::SetElementTimes, SetElementTimes, SetElementTimes method [Structured Storage], SetElementTimes method [Structured Storage],IStorage interface, _stg_istorage_setelementtimes, objidl/IStorage::SetElementTimes, stg.istorage_setelementtimes
-ms.topic: method
 f1_keywords:
 - objidl/IStorage.SetElementTimes
 dev_langs:

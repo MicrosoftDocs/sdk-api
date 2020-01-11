@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: f7a95bb4-a2f1-4734-8a71-286591544984
 ms.date: 12/05/2018
 ms.keywords: ITfDisplayAttributeInfo interface [Text Services Framework],Reset method, ITfDisplayAttributeInfo.Reset, ITfDisplayAttributeInfo::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],ITfDisplayAttributeInfo interface, _tsf_itfdisplayattributeinfo_reset_ref, msctf/ITfDisplayAttributeInfo::Reset, tsf.itfdisplayattributeinfo_reset
-ms.topic: method
 f1_keywords:
 - msctf/ITfDisplayAttributeInfo.Reset
 dev_langs:

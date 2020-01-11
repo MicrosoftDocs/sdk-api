@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: E76B9CBE-2584-4DBC-8EF4-E9DA105226B9
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoProcessorInputView, ID3D11VideoProcessorInputView interface [Media Foundation], ID3D11VideoProcessorInputView interface [Media Foundation],described, d3d11/ID3D11VideoProcessorInputView, mf.id3d11videoprocessorinputview
-ms.topic: interface
 f1_keywords:
 - d3d11/ID3D11VideoProcessorInputView
 dev_langs:

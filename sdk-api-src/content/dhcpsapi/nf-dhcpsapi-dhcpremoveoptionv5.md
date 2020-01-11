@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 53b57879-7533-4e92-a179-d6786052ad46
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpRemoveOptionV5, DhcpRemoveOptionV5 function [DHCP], dhcp.dhcpremoveoptionv5, dhcpsapi/DhcpRemoveOptionV5
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpRemoveOptionV5
 dev_langs:

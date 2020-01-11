@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 6ACAB26C-22FC-45D7-9F6A-98B56B615DCA
 ms.date: 12/05/2018
 ms.keywords: GetPayloadPackage, GetPayloadPackage method [App packaging and management], GetPayloadPackage method [App packaging and management],IAppxBundleReader interface, IAppxBundleReader interface [App packaging and management],GetPayloadPackage method, IAppxBundleReader.GetPayloadPackage, IAppxBundleReader::GetPayloadPackage, appxpackaging/IAppxBundleReader::GetPayloadPackage, appxpkg.iappxbundlereader_getpayloadpackage
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxBundleReader.GetPayloadPackage
 dev_langs:

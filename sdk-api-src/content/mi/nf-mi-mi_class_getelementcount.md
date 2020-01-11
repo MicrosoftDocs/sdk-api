@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: f6db81ca-0411-4693-8bcc-830d4fd757ca
 ms.date: 12/05/2018
 ms.keywords: MI_Class_GetElementCount, MI_Class_GetElementCount function [Windows Management Infrastructure (MI)], mi/MI_Class_GetElementCount, wmi_v2.mi_class_getelementcount
-ms.topic: function
 f1_keywords:
 - mi/MI_Class_GetElementCount
 dev_langs:

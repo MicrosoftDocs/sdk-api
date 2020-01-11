@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8b3e19d2-23de-42ae-9e5b-d53e24bb764a
 ms.date: 12/05/2018
 ms.keywords: GetMonitor, GetMonitor method [DirectShow], GetMonitor method [DirectShow],IVMRMonitorConfig9 interface, IVMRMonitorConfig9 interface [DirectShow],GetMonitor method, IVMRMonitorConfig9.GetMonitor, IVMRMonitorConfig9::GetMonitor, IVMRMonitorConfig9GetMonitor, dshow.ivmrmonitorconfig9_getmonitor, vmr9/IVMRMonitorConfig9::GetMonitor
-ms.topic: method
 f1_keywords:
 - vmr9/IVMRMonitorConfig9.GetMonitor
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_getboolvectorarray.htm
 ms.date: 12/05/2018
 ms.keywords: GetBoolVectorArray, GetBoolVectorArray method [Direct3D 10], GetBoolVectorArray method [Direct3D 10],ID3D10EffectVectorVariable interface, ID3D10EffectVectorVariable interface [Direct3D 10],GetBoolVectorArray method, ID3D10EffectVectorVariable.GetBoolVectorArray, ID3D10EffectVectorVariable::GetBoolVectorArray, a6cfd4e9-ded5-2e31-f74b-352c828f9eb6, d3d10effect/ID3D10EffectVectorVariable::GetBoolVectorArray, direct3d10.id3d10effectvectorvariable_getboolvectorarray
-ms.topic: method
 f1_keywords:
 - d3d10effect/ID3D10EffectVectorVariable.GetBoolVectorArray
 dev_langs:

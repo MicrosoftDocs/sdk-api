@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 93185921-8f41-4222-86d8-602d197c4b33
 ms.date: 12/05/2018
 ms.keywords: IForgottenKnowledge, IForgottenKnowledge interface [Windows Sync], IForgottenKnowledge interface [Windows Sync],described, winsync.iforgottenknowledge, winsync/IForgottenKnowledge
-ms.topic: interface
 f1_keywords:
 - winsync/IForgottenKnowledge
 dev_langs:

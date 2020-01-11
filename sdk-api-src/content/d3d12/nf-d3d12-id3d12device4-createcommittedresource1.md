@@ -5,7 +5,6 @@ description: Creates both a resource and an implicit heap (optionally for a prot
 tech.root: direct3d12
 ms.date: 10/15/2019
 ms.keywords: ID3D12Device4 interface,CreateCommittedResource1 method, ID3D12Device4.CreateCommittedResource1, ID3D12Device4::CreateCommittedResource1, CreateCommittedResource1, CreateCommittedResource1 method, CreateCommittedResource1 method,ID3D12Device4 interface, direct3d12.id3d12device4_createcommittedresource1, d3d12/ID3D12Device4::CreateCommittedResource1
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device4.CreateCommittedResource1
 dev_langs:

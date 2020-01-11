@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 74ea8132-cb06-40ce-b3bf-4bd8babe3711
 ms.date: 12/05/2018
 ms.keywords: ITsSbTargetPropertySet, ITsSbTargetPropertySet interface [Remote Desktop Services], ITsSbTargetPropertySet interface [Remote Desktop Services],described, sbtsv/ITsSbTargetPropertySet, termserv.itssbtargetpropertyset
-ms.topic: interface
 f1_keywords:
 - sbtsv/ITsSbTargetPropertySet
 dev_langs:

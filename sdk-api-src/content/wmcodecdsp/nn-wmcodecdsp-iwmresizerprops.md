@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 12c26507-c729-4143-a0bd-e043d42744f6
 ms.date: 12/05/2018
 ms.keywords: IWMResizerProps, IWMResizerProps interface [Media Foundation], IWMResizerProps interface [Media Foundation],described, codecapi.iwmresizerpropsinterface, mf.iwmresizerprops, mf.iwmresizerpropsinterface, wmcodecdsp/IWMResizerProps
-ms.topic: interface
 f1_keywords:
 - wmcodecdsp/IWMResizerProps
 dev_langs:

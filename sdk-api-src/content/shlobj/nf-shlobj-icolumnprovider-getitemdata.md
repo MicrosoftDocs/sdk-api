@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 88e76f03-acc3-46b1-ad03-d2343f4f3dac
 ms.date: 12/05/2018
 ms.keywords: GetItemData, GetItemData method [Windows Shell], GetItemData method [Windows Shell],IColumnProvider interface, IColumnProvider interface [Windows Shell],GetItemData method, IColumnProvider.GetItemData, IColumnProvider::GetItemData, _win32_IColumnProvider_GetItemData, shell.IColumnProvider_GetItemData, shlobj/IColumnProvider::GetItemData
-ms.topic: method
 f1_keywords:
 - shlobj/IColumnProvider.GetItemData
 dev_langs:

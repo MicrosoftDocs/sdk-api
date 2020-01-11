@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector4IsNaN(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4IsNaN, XMVector4IsNaN, XMVector4IsNaN method [DirectX Math Support APIs], dxmath.xmvector4isnan
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector4IsNaN
 dev_langs:

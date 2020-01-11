@@ -6,7 +6,6 @@ tech.root: shell
 ms.assetid: 50cba486-12b2-4ac7-8bf2-37b5784bb9fe
 ms.date: 01/30/19
 ms.keywords: ICopyHookW::CopyCallback
-ms.topic: language-reference
 f1_keywords:
 - shlobj/ICopyHookW::CopyCallback
 dev_langs:

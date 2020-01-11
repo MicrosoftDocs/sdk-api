@@ -5,7 +5,6 @@ description: Specifies support for the image filters defined by the D3D12_VIDEO_
 tech.root: mf
 ms.assetid: 5ed6a952-6333-41d5-ab6e-73332cf2f590
 ms.date: 05/28/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_VIDEO_PROCESS_FILTER_FLAGS
 dev_langs:

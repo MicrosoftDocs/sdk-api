@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 89b0adcd-0084-4538-b162-661ddae53dc8
 ms.date: 12/05/2018
 ms.keywords: CacheRichCreateFile, CacheRichCreateFile function [Windows API], filehc/CacheRichCreateFile, winprog._cacherichcreatefile
-ms.topic: function
 f1_keywords:
 - filehc/CacheRichCreateFile
 dev_langs:

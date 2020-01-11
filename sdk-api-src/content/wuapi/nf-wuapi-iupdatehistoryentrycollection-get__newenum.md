@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: ff34cf19-c189-41ce-a14e-c833e6366487
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntryCollection interface [Windows Update Agent],_NewEnum property, IUpdateHistoryEntryCollection._NewEnum, IUpdateHistoryEntryCollection.get__NewEnum, IUpdateHistoryEntryCollection::_NewEnum, IUpdateHistoryEntryCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IUpdateHistoryEntryCollection interface, get__NewEnum, wua.iupdatehistoryentrycollection__newenum, wuapi/IUpdateHistoryEntryCollection::_NewEnum, wuapi/IUpdateHistoryEntryCollection::get__NewEnum
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateHistoryEntryCollection._NewEnum
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: c9a5f417-ffd5-452d-9218-3ac045a55de0
 ms.date: 12/05/2018
 ms.keywords: IPerformanceCounterDataCollector, IPerformanceCounterDataCollector interface [PLA], IPerformanceCounterDataCollector interface [PLA],described, base.iperformancecounterdatacollector, pla.iperformancecounterdatacollector, pla/IPerformanceCounterDataCollector
-ms.topic: interface
 f1_keywords:
 - pla/IPerformanceCounterDataCollector
 dev_langs:

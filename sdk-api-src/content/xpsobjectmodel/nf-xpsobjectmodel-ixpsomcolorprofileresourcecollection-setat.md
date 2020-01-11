@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: dbabddbb-a558-4166-9951-7126221d88e6
 ms.date: 12/05/2018
 ms.keywords: IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMColorProfileResourceCollection.SetAt, IXpsOMColorProfileResourceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, xps.ixpsomcolorprofileresourcecollection_setat, xpsobjectmodel/IXpsOMColorProfileResourceCollection::SetAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMColorProfileResourceCollection.SetAt
 dev_langs:

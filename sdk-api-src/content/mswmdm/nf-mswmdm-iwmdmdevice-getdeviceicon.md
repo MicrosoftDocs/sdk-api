@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 55da3443-ad5b-469d-a493-0e2e8ea21f0c
 ms.date: 12/05/2018
 ms.keywords: GetDeviceIcon, GetDeviceIcon method [windows Media Device Manager], GetDeviceIcon method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetDeviceIcon method, IWMDMDevice.GetDeviceIcon, IWMDMDevice::GetDeviceIcon, IWMDMDeviceGetDeviceIcon, mswmdm/IWMDMDevice::GetDeviceIcon, wmdm.iwmdmdevice_getdeviceicon
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMDevice.GetDeviceIcon
 dev_langs:

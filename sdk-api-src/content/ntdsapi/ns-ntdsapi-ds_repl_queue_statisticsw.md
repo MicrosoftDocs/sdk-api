@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: bfddd7ed-0ff4-46ca-84c2-39020acb37d0
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_QUEUE_STATISTICSW, DS_REPL_QUEUE_STATISTICSW structure [Active Directory], DS_REPL_QUEUE_STATISTICSW_BLOB, _DS_REPL_QUEUE_STATISTICSW, ad.ds_repl_queue_statisticsw, ntdsapi/DS_REPL_QUEUE_STATISTICSW
-ms.topic: struct
 f1_keywords:
 - ntdsapi/DS_REPL_QUEUE_STATISTICSW
 dev_langs:

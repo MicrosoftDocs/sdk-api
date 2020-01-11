@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3TransformNormalStream(XMFLOAT3@,size_t,const XMFLOAT3,size_t,size_t,XMMATRIX)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3TransformNormalStream, XMVector3TransformNormalStream, XMVector3TransformNormalStream method [DirectX Math Support APIs], dxmath.xmvector3transformnormalstream
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector3TransformNormalStream
 dev_langs:

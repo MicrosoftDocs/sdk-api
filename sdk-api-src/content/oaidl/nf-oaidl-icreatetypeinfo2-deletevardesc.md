@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 0fcf55d9-2592-4fed-9612-48085eb7791b
 ms.date: 12/05/2018
 ms.keywords: DeleteVarDesc, DeleteVarDesc method [Automation], DeleteVarDesc method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteVarDesc method, ICreateTypeInfo2.DeleteVarDesc, ICreateTypeInfo2::DeleteVarDesc, _oa96_ICreateTypeInfo2_DeleteVarDesc, automat.icreatetypeinfo2_deletevardesc, oaidl/ICreateTypeInfo2::DeleteVarDesc
-ms.topic: method
 f1_keywords:
 - oaidl/ICreateTypeInfo2.DeleteVarDesc
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 36e7f210-0532-424f-b958-a7a1be904b3c
 ms.date: 12/05/2018
 ms.keywords: IManagedPooledObj interface [COM+],SetHeld method, IManagedPooledObj.SetHeld, IManagedPooledObj::SetHeld, SetHeld, SetHeld method [COM+], SetHeld method [COM+],IManagedPooledObj interface, _cos_IManagedPooledObj_SetHeld, comsvcs/IManagedPooledObj::SetHeld, cos.imanagedpooledobj_setheld
-ms.topic: method
 f1_keywords:
 - comsvcs/IManagedPooledObj.SetHeld
 dev_langs:

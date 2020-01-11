@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 5dc5abe8-f43b-4cff-baa1-cef9e2c1a7a4
 ms.date: 12/05/2018
 ms.keywords: GetManufacturer, GetManufacturer method [windows Media Device Manager], GetManufacturer method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetManufacturer method, IMDSPDevice.GetManufacturer, IMDSPDevice::GetManufacturer, IMDSPDeviceGetManufacturer, mswmdm/IMDSPDevice::GetManufacturer, wmdm.imdspdevice_getmanufacturer
-ms.topic: method
 f1_keywords:
 - mswmdm/IMDSPDevice.GetManufacturer
 dev_langs:

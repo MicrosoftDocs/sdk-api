@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 97243031-ef60-467d-ba65-6c7e6432d51f
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],ParentWindow property, IX509PrivateKey.ParentWindow, IX509PrivateKey.put_ParentWindow, IX509PrivateKey::ParentWindow, IX509PrivateKey::get_ParentWindow, IX509PrivateKey::put_ParentWindow, ParentWindow property [Security], ParentWindow property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::ParentWindow, certenroll/IX509PrivateKey::get_ParentWindow, certenroll/IX509PrivateKey::put_ParentWindow, put_ParentWindow, security.ix509privatekey_parentwindow_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509PrivateKey.ParentWindow
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: e8aa252d-6b24-4864-9b3e-8edd30895303
 ms.date: 12/05/2018
 ms.keywords: EndInkInput, EndInkInput function [Tablet PC], e8aa252d-6b24-4864-9b3e-8edd30895303, recapis/EndInkInput, tablet.endinkinput
-ms.topic: function
 f1_keywords:
 - recapis/EndInkInput
 dev_langs:

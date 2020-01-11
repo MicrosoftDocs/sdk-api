@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: B4224C70-5864-4AE3-8388-2B9A62517B62
 ms.date: 12/05/2018
 ms.keywords: GetOutputAvailableType, GetOutputAvailableType method [Streaming Media Devices], GetOutputAvailableType method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetOutputAvailableType method, IMFDeviceTransform.GetOutputAvailableType, IMFDeviceTransform::GetOutputAvailableType, mftransform/IMFDeviceTransform::GetOutputAvailableType, stream.imfdevicetransform_getoutputavailabletype
-ms.topic: method
 f1_keywords:
 - mftransform/IMFDeviceTransform.GetOutputAvailableType
 dev_langs:

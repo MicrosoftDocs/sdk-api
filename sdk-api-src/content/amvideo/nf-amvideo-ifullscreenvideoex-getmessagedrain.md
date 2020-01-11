@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c1a83ad9-be4b-4adf-a316-d5dfb3df05ef
 ms.date: 12/05/2018
 ms.keywords: GetMessageDrain, GetMessageDrain method [DirectShow], GetMessageDrain method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetMessageDrain method, IFullScreenVideoEx.GetMessageDrain, IFullScreenVideoEx::GetMessageDrain, IFullScreenVideoGetMessageDrain, amvideo/IFullScreenVideoEx::GetMessageDrain, dshow.ifullscreenvideoex_getmessagedrain
-ms.topic: method
 f1_keywords:
 - amvideo/IFullScreenVideoEx.GetMessageDrain
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\loadcursorfromfile.htm
 ms.date: 12/05/2018
 ms.keywords: LoadCursorFromFile, LoadCursorFromFile function [Menus and Other Resources], LoadCursorFromFileA, LoadCursorFromFileW, _win32_LoadCursorFromFile, _win32_loadcursorfromfile_cpp, menurc.loadcursorfromfile, winui._win32_loadcursorfromfile, winuser/LoadCursorFromFile, winuser/LoadCursorFromFileA, winuser/LoadCursorFromFileW
-ms.topic: function
 f1_keywords:
 - winuser/LoadCursorFromFile
 dev_langs:

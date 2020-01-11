@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 945d2faa-f35d-488f-a0df-ace3fbb85971
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetFuncHelpContext method, ICreateTypeInfo.SetFuncHelpContext, ICreateTypeInfo::SetFuncHelpContext, SetFuncHelpContext, SetFuncHelpContext method [Automation], SetFuncHelpContext method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetFuncHelpContext, automat.icreatetypeinfo_setfunchelpcontext, oaidl/ICreateTypeInfo::SetFuncHelpContext
-ms.topic: method
 f1_keywords:
 - oaidl/ICreateTypeInfo.SetFuncHelpContext
 dev_langs:

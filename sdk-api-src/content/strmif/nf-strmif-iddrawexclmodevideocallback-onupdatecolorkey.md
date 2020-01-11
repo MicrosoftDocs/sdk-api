@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 87d4a4b5-f67e-46f6-956a-1c9c309bfde7
 ms.date: 12/05/2018
 ms.keywords: IDDrawExclModeVideoCallback interface [DirectShow],OnUpdateColorKey method, IDDrawExclModeVideoCallback.OnUpdateColorKey, IDDrawExclModeVideoCallback::OnUpdateColorKey, IDDrawExclModeVideoCallbackOnUpdateColorKey, OnUpdateColorKey, OnUpdateColorKey method [DirectShow], OnUpdateColorKey method [DirectShow],IDDrawExclModeVideoCallback interface, dshow.iddrawexclmodevideocallback_onupdatecolorkey, strmif/IDDrawExclModeVideoCallback::OnUpdateColorKey
-ms.topic: method
 f1_keywords:
 - strmif/IDDrawExclModeVideoCallback.OnUpdateColorKey
 dev_langs:

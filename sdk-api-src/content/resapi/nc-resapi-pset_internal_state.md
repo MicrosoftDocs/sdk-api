@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: B9ECD98B-D867-44C0-846F-8FE96E44F387
 ms.date: 12/05/2018
 ms.keywords: PSET_INTERNAL_STATE, PSET_INTERNAL_STATE callback function [Failover Cluster], SetInternalState, SetInternalState callback, SetInternalState callback function [Failover Cluster], mscs.setinternalstate, resapi/PSET_INTERNAL_STATE, resapi/SetInternalState
-ms.topic: callback
 f1_keywords:
 - resapi/SetInternalState
 dev_langs:

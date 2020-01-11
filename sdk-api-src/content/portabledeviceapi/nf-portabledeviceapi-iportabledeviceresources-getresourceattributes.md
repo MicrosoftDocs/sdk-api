@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: 6188d0cc-3161-400e-9abf-ef43a4dee690
 ms.date: 12/05/2018
 ms.keywords: GetResourceAttributes, GetResourceAttributes method [Windows Portable Devices SDK], GetResourceAttributes method [Windows Portable Devices SDK],IPortableDeviceResources interface, IPortableDeviceResources interface [Windows Portable Devices SDK],GetResourceAttributes method, IPortableDeviceResources.GetResourceAttributes, IPortableDeviceResources::GetResourceAttributes, IPortableDeviceResourcesGetResourceAttributes, portabledeviceapi/IPortableDeviceResources::GetResourceAttributes, wpdsdk.iportabledeviceresources_getresourceattributes
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDeviceResources.GetResourceAttributes
 dev_langs:

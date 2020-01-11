@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 2bbdc26a-5543-4de4-b347-2062be593c4b
 ms.date: 12/05/2018
 ms.keywords: ITfCleanupContextDurationSink, ITfCleanupContextDurationSink interface [Text Services Framework], ITfCleanupContextDurationSink interface [Text Services Framework],described, _tsf_itfcleanupcontextdurationsink_ref, msctf/ITfCleanupContextDurationSink, tsf.itfcleanupcontextdurationsink
-ms.topic: interface
 f1_keywords:
 - msctf/ITfCleanupContextDurationSink
 dev_langs:

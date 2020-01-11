@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5a5fb679-f2e7-457f-9624-64ed993c2d74
 ms.date: 12/05/2018
 ms.keywords: GetGroupByProperty, GetGroupByProperty method [Windows Shell], GetGroupByProperty method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetGroupByProperty method, IFolderViewSettings.GetGroupByProperty, IFolderViewSettings::GetGroupByProperty, _shell_IFolderViewSettings_GetGroupByProperty, shell.IFolderViewSettings_GetGroupByProperty, shobjidl_core/IFolderViewSettings::GetGroupByProperty
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFolderViewSettings.GetGroupByProperty
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: c5c58acd-ebf9-46ce-977b-1478b42559c4
 ms.date: 12/05/2018
 ms.keywords: GetHurryup, GetHurryup method [Media Foundation], GetHurryup method [Media Foundation],IWMVideoDecoderHurryup interface, IWMVideoDecoderHurryup interface [Media Foundation],GetHurryup method, IWMVideoDecoderHurryup.GetHurryup, IWMVideoDecoderHurryup::GetHurryup, codecapi.iwmvideodecoderhurryupgethurryup, mf.iwmvideodecoderhurryupgethurryup, wmcodecdsp/IWMVideoDecoderHurryup::GetHurryup
-ms.topic: method
 f1_keywords:
 - wmcodecdsp/IWMVideoDecoderHurryup.GetHurryup
 dev_langs:

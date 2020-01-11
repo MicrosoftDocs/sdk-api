@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 31da0e86-a298-4ef6-a515-4954aa120656
 ms.date: 12/05/2018
 ms.keywords: _win32_acmFormatEnum, acmFormatEnum, acmFormatEnum function [Windows Multimedia], acmFormatEnumA, acmFormatEnumW, msacm/acmFormatEnum, msacm/acmFormatEnumA, msacm/acmFormatEnumW, multimedia.acmformatenum
-ms.topic: function
 f1_keywords:
 - msacm/acmFormatEnum
 dev_langs:

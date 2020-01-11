@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 764f09c9-ff20-4ae2-b94f-4b0a1e117e49
 ms.date: 12/05/2018
 ms.keywords: '*LPBIND_OPTS, BIND_OPTS, BIND_OPTS structure [COM], LPBIND_OPTS, LPBIND_OPTS structure pointer [COM], _com_BIND_OPTS, com.bind_opts, objidl/BIND_OPTS, objidl/LPBIND_OPTS'
-ms.topic: struct
 f1_keywords:
 - objidl/BIND_OPTS
 dev_langs:

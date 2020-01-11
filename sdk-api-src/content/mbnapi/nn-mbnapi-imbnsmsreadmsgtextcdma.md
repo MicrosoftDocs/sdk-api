@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: d26b09f7-eb83-46ed-82cb-a702d3af5d05
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsReadMsgTextCdma, IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks], IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],described, mbn.imbnsmsreadmsgtextcdma, mbnapi/IMbnSmsReadMsgTextCdma
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnSmsReadMsgTextCdma
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\iquerysolution.htm
 ms.date: 12/05/2018
 ms.keywords: IQuerySolution, IQuerySolution interface [search], IQuerySolution interface [search],described, _search_IQuerySolution, search._search_IQuerySolution, structuredquery/IQuerySolution
-ms.topic: interface
 f1_keywords:
 - structuredquery/IQuerySolution
 dev_langs:

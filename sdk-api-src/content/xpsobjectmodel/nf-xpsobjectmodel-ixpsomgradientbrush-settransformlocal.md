@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: aabb0410-bdff-4b6b-8d8a-de1cc6fca68b
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientBrush interface [XPS Documents and Packaging],SetTransformLocal method, IXpsOMGradientBrush.SetTransformLocal, IXpsOMGradientBrush::SetTransformLocal, SetTransformLocal, SetTransformLocal method [XPS Documents and Packaging], SetTransformLocal method [XPS Documents and Packaging],IXpsOMGradientBrush interface, xps.ixpsomgradientbrush_settransformlocal, xpsobjectmodel/IXpsOMGradientBrush::SetTransformLocal
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGradientBrush.SetTransformLocal
 dev_langs:

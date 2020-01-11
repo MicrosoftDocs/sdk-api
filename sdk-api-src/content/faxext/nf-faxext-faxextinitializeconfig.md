@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_15lz.htm
 ms.date: 12/05/2018
 ms.keywords: FaxExtInitializeConfig, FaxExtInitializeConfig function [Fax Service], _mfax_faxextinitializeconfig, fax._mfax_faxextinitializeconfig, faxext/FaxExtInitializeConfig
-ms.topic: function
 f1_keywords:
 - faxext/FaxExtInitializeConfig
 dev_langs:

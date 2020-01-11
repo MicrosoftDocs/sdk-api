@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: adaf3abe-9a8c-45af-bcc7-bcc516ed75ff
 ms.date: 12/05/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkConnectivityChanged method, INetworkEvents.NetworkConnectivityChanged, INetworkEvents::NetworkConnectivityChanged, NetworkConnectivityChanged, NetworkConnectivityChanged method [Network Awareness], NetworkConnectivityChanged method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkConnectivityChanged, nla.inetworkevents_networkconnectivitychanged
-ms.topic: method
 f1_keywords:
 - netlistmgr/INetworkEvents.NetworkConnectivityChanged
 dev_langs:

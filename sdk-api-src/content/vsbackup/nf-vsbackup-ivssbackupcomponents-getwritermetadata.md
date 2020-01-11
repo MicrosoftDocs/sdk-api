@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: a577d06a-4c9d-4ebe-b4d4-685f96ec9c83
 ms.date: 12/05/2018
 ms.keywords: GetWriterMetadata, GetWriterMetadata method [VSS], GetWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterMetadata method, IVssBackupComponents.GetWriterMetadata, IVssBackupComponents::GetWriterMetadata, _win32_ivssbackupcomponents_getwritermetadata, base.ivssbackupcomponents_getwritermetadata, vsbackup/IVssBackupComponents::GetWriterMetadata
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.GetWriterMetadata
 dev_langs:

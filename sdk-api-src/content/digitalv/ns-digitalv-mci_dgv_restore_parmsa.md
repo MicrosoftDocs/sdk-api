@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 2b8fb9a8-b7a2-4775-a21e-0ebcb2c96b24
 ms.date: 12/05/2018
 ms.keywords: '*LPMCI_DGV_RESTORE_PARMSA, MCI_DGV_RESTORE_PARMS, MCI_DGV_RESTORE_PARMS structure [Windows Multimedia], MCI_DGV_RESTORE_PARMSA, _win32_MCI_DGV_RESTORE_PARMS_str, digitalv/MCI_DGV_RESTORE_PARMS, multimedia.mci_dgv_restore_parms'
-ms.topic: struct
 f1_keywords:
 - digitalv/MCI_DGV_RESTORE_PARMS
 dev_langs:

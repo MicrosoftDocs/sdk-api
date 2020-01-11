@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: f35d1cd9-8a04-4c12-9af3-38f2c44b8c06
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem2, IFsiFileItem2 interface [IMAPI], IFsiFileItem2 interface [IMAPI],described, imapi.ifsifileitem2, imapi2fs/IFsiFileItem2
-ms.topic: interface
 f1_keywords:
 - imapi2fs/IFsiFileItem2
 dev_langs:

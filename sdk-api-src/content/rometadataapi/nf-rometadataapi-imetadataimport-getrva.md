@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 125f7891-0ffe-48f9-a9de-4b4d2f50fc25
 ms.date: 12/05/2018
 ms.keywords: GetRVA, GetRVA method [Windows Runtime], GetRVA method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetRVA method, IMetaDataImport.GetRVA, IMetaDataImport::GetRVA, rometadataapi/IMetaDataImport::GetRVA, winrt.imetadataimport_getrva
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataImport.GetRVA
 dev_langs:

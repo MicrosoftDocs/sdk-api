@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ec9a2050-23ad-4478-a705-0a7324e8f84d
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflictPresenter, ISyncMgrConflictPresenter interface [Windows Shell], ISyncMgrConflictPresenter interface [Windows Shell],described, _shell_ISyncMgrConflictPresenter, shell.ISyncMgrConflictPresenter, syncmgr/ISyncMgrConflictPresenter
-ms.topic: interface
 f1_keywords:
 - syncmgr/ISyncMgrConflictPresenter
 dev_langs:

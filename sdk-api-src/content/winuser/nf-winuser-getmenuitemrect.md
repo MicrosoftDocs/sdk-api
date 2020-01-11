@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenuitemrect.htm
 ms.date: 12/05/2018
 ms.keywords: GetMenuItemRect, GetMenuItemRect function [Menus and Other Resources], _win32_GetMenuItemRect, _win32_getmenuitemrect_cpp, menurc.getmenuitemrect, winui._win32_getmenuitemrect, winuser/GetMenuItemRect
-ms.topic: function
 f1_keywords:
 - winuser/GetMenuItemRect
 dev_langs:

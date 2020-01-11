@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: a9e30764-22ea-4dbf-9311-f37bd55ed2c4
 ms.date: 12/05/2018
 ms.keywords: RpcBindingUnbind, RpcBindingUnbind function [RPC], rpc.rpcbindingunbind, rpcasync/RpcBindingUnbind
-ms.topic: function
 f1_keywords:
 - rpcasync/RpcBindingUnbind
 dev_langs:

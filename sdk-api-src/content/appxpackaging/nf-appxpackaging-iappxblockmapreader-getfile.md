@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 3F38BC3A-9CFD-4FB3-A744-612E25DF0F0F
 ms.date: 12/05/2018
 ms.keywords: GetFile, GetFile method [App packaging and management], GetFile method [App packaging and management],IAppxBlockMapReader interface, IAppxBlockMapReader interface [App packaging and management],GetFile method, IAppxBlockMapReader.GetFile, IAppxBlockMapReader::GetFile, appxpackaging/IAppxBlockMapReader::GetFile, appxpkg.iappxblockmapreader_getfile
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxBlockMapReader.GetFile
 dev_langs:

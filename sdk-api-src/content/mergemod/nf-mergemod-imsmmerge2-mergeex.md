@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: fdfd950f-cba9-4b87-ae07-c3d3b127f69d
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge2 interface,MergeEx method, IMsmMerge2.MergeEx, IMsmMerge2::MergeEx, MergeEx, MergeEx method, MergeEx method,IMsmMerge2 interface, _msi_mergeex_function, mergemod/IMsmMerge2::MergeEx, setup.imsmmerge2_mergeex
-ms.topic: method
 f1_keywords:
 - mergemod/IMsmMerge2.MergeEx
 dev_langs:

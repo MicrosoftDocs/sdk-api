@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 2FD0F98C-2B20-47B2-8F86-F59E3E9B9086
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management],MoveNext method, IAppxManifestDeviceCapabilitiesEnumerator.MoveNext, IAppxManifestDeviceCapabilitiesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxManifestDeviceCapabilitiesEnumerator interface, appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator::MoveNext, appxpkg.iappxmanifestdevicecapabilitiesenumerator_movenext
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator.MoveNext
 dev_langs:

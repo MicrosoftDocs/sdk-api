@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: a70fc72e-0fbd-4ee7-ae87-780fdc942384
 ms.date: 12/05/2018
 ms.keywords: DhcpUndoRequestParams, DhcpUndoRequestParams function [DHCP], _dhcp_dhcpundorequestparams, dhcp.dhcpundorequestparams, dhcpcsdk/DhcpUndoRequestParams
-ms.topic: function
 f1_keywords:
 - dhcpcsdk/DhcpUndoRequestParams
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 7c54d57f-7cca-4068-80d9-995c46de1962
 ms.date: 12/05/2018
 ms.keywords: AddToSelection, AddToSelection method [Windows Accessibility], AddToSelection method [Windows Accessibility],ISelectionItemProvider interface, ISelectionItemProvider interface [Windows Accessibility],AddToSelection method, ISelectionItemProvider.AddToSelection, ISelectionItemProvider::AddToSelection, uiauto.uiauto_ISelectionItemProvider_AddToSelection, uiauto_ISelectionItemProvider_AddToSelection, uiautomationcore/ISelectionItemProvider::AddToSelection, winauto.uiauto_ISelectionItemProvider_AddToSelection
-ms.topic: method
 f1_keywords:
 - uiautomationcore/ISelectionItemProvider.AddToSelection
 dev_langs:

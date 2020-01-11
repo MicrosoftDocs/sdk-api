@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: e895ed4f-67cb-43c2-aeb2-9a3ddb79c4fd
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_TotalBlocks method, IFileSystemImageResult.get_TotalBlocks, IFileSystemImageResult::get_TotalBlocks, get_TotalBlocks, get_TotalBlocks method [IMAPI], get_TotalBlocks method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_totalblocks, imapi2fs/IFileSystemImageResult::get_TotalBlocks
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFileSystemImageResult.get_TotalBlocks
 dev_langs:

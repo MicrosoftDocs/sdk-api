@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: dcf2fa1e-229a-4302-898c-f7a213584521
 ms.date: 12/05/2018
 ms.keywords: IEnumSubStream interface [TAPI 2.2],Skip method, IEnumSubStream.Skip, IEnumSubStream::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumSubStream interface, _tapi3_ienumsubstream_skip, tapi3.ienumsubstream_skip, tapi3if/IEnumSubStream::Skip
-ms.topic: method
 f1_keywords:
 - tapi3if/IEnumSubStream.Skip
 dev_langs:

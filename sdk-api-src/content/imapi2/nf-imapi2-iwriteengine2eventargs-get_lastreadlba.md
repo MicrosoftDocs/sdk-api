@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 2db929b4-dbba-4f6a-bde0-0cefb30abf64
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_LastReadLba method, IWriteEngine2EventArgs.get_LastReadLba, IWriteEngine2EventArgs::get_LastReadLba, get_LastReadLba, get_LastReadLba method [IMAPI], get_LastReadLba method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_lastreadlba, imapi2/IWriteEngine2EventArgs::get_LastReadLba
-ms.topic: method
 f1_keywords:
 - imapi2/IWriteEngine2EventArgs.get_LastReadLba
 dev_langs:

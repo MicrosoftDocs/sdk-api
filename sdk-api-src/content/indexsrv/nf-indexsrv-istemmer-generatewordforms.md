@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\generatewordforms.htm
 ms.date: 12/05/2018
 ms.keywords: GenerateWordForms, GenerateWordForms method [search], GenerateWordForms method [search],IStemmer interface, IStemmer interface [search],GenerateWordForms method, IStemmer.GenerateWordForms, IStemmer::GenerateWordForms, _search_IStemmer_GenerateWordForms, indexsrv/IStemmer::GenerateWordForms, search._search_IStemmer_GenerateWordForms
-ms.topic: method
 f1_keywords:
 - indexsrv/IStemmer.GenerateWordForms
 dev_langs:

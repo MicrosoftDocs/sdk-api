@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 1b3a6326-c0da-470a-9cd5-19daa9d48ccd
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_ENUM_PROPERTIES, PRESUTIL_ENUM_PROPERTIES function [Failover Cluster], ResUtilEnumProperties, ResUtilEnumProperties function [Failover Cluster], _wolf_resutilenumproperties, mscs.resutilenumproperties, resapi/PRESUTIL_ENUM_PROPERTIES, resapi/ResUtilEnumProperties
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilEnumProperties
 dev_langs:

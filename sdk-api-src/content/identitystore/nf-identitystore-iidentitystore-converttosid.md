@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 484365a9-aeaf-453f-9a5b-6f88b79f8a35
 ms.date: 12/05/2018
 ms.keywords: ConvertToSid, ConvertToSid method [Security], ConvertToSid method [Security],IIdentityStore interface, IIdentityStore interface [Security],ConvertToSid method, IIdentityStore.ConvertToSid, IIdentityStore::ConvertToSid, identitystore/IIdentityStore::ConvertToSid, security.iidentitystore_converttosid
-ms.topic: method
 f1_keywords:
 - identitystore/IIdentityStore.ConvertToSid
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getalttabinfo.htm
 ms.date: 12/05/2018
 ms.keywords: GetAltTabInfo, GetAltTabInfo function [Windows and Messages], GetAltTabInfoA, GetAltTabInfoW, _win32_GetAltTabInfo, _win32_getalttabinfo_cpp, winmsg.getalttabinfo, winui._win32_getalttabinfo, winuser/GetAltTabInfo, winuser/GetAltTabInfoA, winuser/GetAltTabInfoW
-ms.topic: function
 f1_keywords:
 - winuser/GetAltTabInfo
 dev_langs:

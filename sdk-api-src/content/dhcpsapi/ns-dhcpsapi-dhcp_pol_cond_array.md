@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 2A084E80-92F8-43F5-89C8-22F08CE449E9
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_POL_COND_ARRAY, *PDHCP_POL_COND_ARRAY, DHCP_POL_COND_ARRAY, DHCP_POL_COND_ARRAY structure [DHCP], LPDHCP_POL_COND_ARRAY, LPDHCP_POL_COND_ARRAY structure pointer [DHCP], PDHCP_POL_COND_ARRAY, PDHCP_POL_COND_ARRAY structure pointer [DHCP], dhcp.dhcp_pol_cond_array, dhcpsapi/DHCP_POL_COND_ARRAY, dhcpsapi/LPDHCP_POL_COND_ARRAY, dhcpsapi/PDHCP_POL_COND_ARRAY'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_POL_COND_ARRAY
 dev_langs:

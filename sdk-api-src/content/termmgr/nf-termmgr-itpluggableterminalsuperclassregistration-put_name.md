@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: fe9b569b-bfb7-401b-98a8-5db7f3739d41
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],put_Name method, ITPluggableTerminalSuperclassRegistration.put_Name, ITPluggableTerminalSuperclassRegistration::put_Name, _tapi3_itpluggableterminalsuperclassregistration_put_name, put_Name, put_Name method [TAPI 2.2], put_Name method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, tapi3.itpluggableterminalsuperclassregistration_put_name, termmgr/ITPluggableTerminalSuperclassRegistration::put_Name
-ms.topic: method
 f1_keywords:
 - termmgr/ITPluggableTerminalSuperclassRegistration.put_Name
 dev_langs:

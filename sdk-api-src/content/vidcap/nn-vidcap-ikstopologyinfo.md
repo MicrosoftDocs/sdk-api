@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 641a10fe-8e8c-4225-b05e-b09dfb5f2fee
 ms.date: 12/05/2018
 ms.keywords: IKsTopologyInfo, IKsTopologyInfo interface [DirectShow], IKsTopologyInfo interface [DirectShow],described, IKsTopologyInfoInterface, dshow.ikstopologyinfo, vidcap/IKsTopologyInfo
-ms.topic: interface
 f1_keywords:
 - vidcap/IKsTopologyInfo
 dev_langs:

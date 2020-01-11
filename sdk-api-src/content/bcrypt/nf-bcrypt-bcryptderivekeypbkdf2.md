@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: afdddfec-a3a5-410c-998b-9a5af8e051b6
 ms.date: 12/05/2018
 ms.keywords: BCryptDeriveKeyPBKDF2, BCryptDeriveKeyPBKDF2 function [Security], bcrypt/BCryptDeriveKeyPBKDF2, security.bcryptderivekeypbkdf2
-ms.topic: function
 f1_keywords:
 - bcrypt/BCryptDeriveKeyPBKDF2
 dev_langs:

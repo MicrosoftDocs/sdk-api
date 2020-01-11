@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 33B2C0D6-52D6-4443-9F30-A86C0F7BA627
 ms.date: 12/05/2018
 ms.keywords: CreateScaleTransform3D, CreateScaleTransform3D method [DirectComposition], CreateScaleTransform3D method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateScaleTransform3D method, IDCompositionDevice2.CreateScaleTransform3D, IDCompositionDevice2::CreateScaleTransform3D, dcomp/IDCompositionDevice2::CreateScaleTransform3D, directcomp.idcompositiondevice2_createscaletransform3d
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionDevice2.CreateScaleTransform3D
 dev_langs:

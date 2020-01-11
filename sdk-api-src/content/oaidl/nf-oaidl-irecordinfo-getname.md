@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: b769f792-45cb-4070-9be7-0b95b17a9ed8
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Automation], GetName method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetName method, IRecordInfo.GetName, IRecordInfo::GetName, _oa96_IRecordInfo_GetName, automat.irecordinfo_getname, oaidl/IRecordInfo::GetName
-ms.topic: method
 f1_keywords:
 - oaidl/IRecordInfo.GetName
 dev_langs:

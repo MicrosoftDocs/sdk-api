@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 370CF89E-97BF-4AB5-8AD6-3B2DF08463E0
 ms.date: 12/05/2018
 ms.keywords: CORRECTIVE_ACTION, CORRECTIVE_ACTION enumeration [Internationalization for Windows Applications], CORRECTIVE_ACTION_DELETE, CORRECTIVE_ACTION_GET_SUGGESTIONS, CORRECTIVE_ACTION_NONE, CORRECTIVE_ACTION_REPLACE, intl.corrective_action, spellcheck/CORRECTIVE_ACTION, spellcheck/CORRECTIVE_ACTION_DELETE, spellcheck/CORRECTIVE_ACTION_GET_SUGGESTIONS, spellcheck/CORRECTIVE_ACTION_NONE, spellcheck/CORRECTIVE_ACTION_REPLACE
-ms.topic: enum
 f1_keywords:
 - spellcheck/CORRECTIVE_ACTION
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 27af3b20-9460-466d-bc58-5e31e08bb6c8
 ms.date: 12/05/2018
 ms.keywords: '*LPWSAVERSION, *PWSAVERSION, LPWSAVERSION, LPWSAVERSION structure pointer [Winsock], PWSAVERSION, PWSAVERSION structure pointer [Winsock], WSAVERSION, WSAVERSION structure [Winsock], _win32_wsaversion_2, winsock.wsaversion_2, winsock2/LPWSAVERSION, winsock2/PWSAVERSION, winsock2/WSAVERSION'
-ms.topic: struct
 f1_keywords:
 - winsock2/WSAVERSION
 dev_langs:

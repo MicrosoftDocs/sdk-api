@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 325c09c6-ae32-4f5d-8b21-174dafc94aea
 ms.date: 12/05/2018
 ms.keywords: IFileOperation interface [Windows Shell],RenameItems method, IFileOperation.RenameItems, IFileOperation::RenameItems, RenameItems, RenameItems method [Windows Shell], RenameItems method [Windows Shell],IFileOperation interface, _shell_IFileOperation_RenameItems, shell.IFileOperation_RenameItems, shobjidl_core/IFileOperation::RenameItems
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileOperation.RenameItems
 dev_langs:

@@ -4,7 +4,6 @@ title: LPWSPGETPEERNAME
 description: The LPWSPGetPeerName function gets the address of the peer to which a socket is connected.
 ms.date: 9/12/2019
 ms.keywords: LPWSPGETPEERNAME
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

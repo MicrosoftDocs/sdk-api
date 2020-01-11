@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 5b1cda40-36bd-481a-bc59-81b810ebed09
 ms.date: 12/05/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_TotalWrapUpTime method, ITAgentSession.get_TotalWrapUpTime, ITAgentSession::get_TotalWrapUpTime, _tapi3_itagentsession_get_totalwrapuptime, get_TotalWrapUpTime, get_TotalWrapUpTime method [TAPI 2.2], get_TotalWrapUpTime method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_totalwrapuptime, tapi3cc/ITAgentSession::get_TotalWrapUpTime
-ms.topic: method
 f1_keywords:
 - tapi3cc/ITAgentSession.get_TotalWrapUpTime
 dev_langs:

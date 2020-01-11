@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\clone_97.htm
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],Clone method, GraphicsPath.Clone, GraphicsPath::Clone, _gdiplus_CLASS_GraphicsPath_Clone_, gdiplus._gdiplus_CLASS_GraphicsPath_Clone_
-ms.topic: method
 f1_keywords:
 - gdipluspath/GraphicsPath.Clone
 dev_langs:

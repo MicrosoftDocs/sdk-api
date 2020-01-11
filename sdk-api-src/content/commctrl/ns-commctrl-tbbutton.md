@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbbutton.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPTBBUTTON, *PTBBUTTON, LPTBBUTTON, LPTBBUTTON structure pointer [Windows Controls], PTBBUTTON, PTBBUTTON structure pointer [Windows Controls], TBBUTTON, TBBUTTON structure [Windows Controls], _win32_TBBUTTON, _win32_TBBUTTON_cpp, commctrl/LPTBBUTTON, commctrl/PTBBUTTON, commctrl/TBBUTTON, controls.TBBUTTON, controls._win32_TBBUTTON'
-ms.topic: struct
 f1_keywords:
 - commctrl/TBBUTTON
 dev_langs:

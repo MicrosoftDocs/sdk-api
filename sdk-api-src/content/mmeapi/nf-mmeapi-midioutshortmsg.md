@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: b46d342a-7bfc-495a-98d3-e0c93ae4fd59
 ms.date: 12/05/2018
 ms.keywords: _win32_midiOutShortMsg, midiOutShortMsg, midiOutShortMsg function [Windows Multimedia], mmeapi/midiOutShortMsg, multimedia.midioutshortmsg
-ms.topic: function
 f1_keywords:
 - mmeapi/midiOutShortMsg
 dev_langs:

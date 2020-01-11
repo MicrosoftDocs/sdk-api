@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 113cc7ba-d05e-48a7-88cb-13645beb16d1
 ms.date: 12/05/2018
 ms.keywords: '*LPAMVAUncompBufferInfo, AMVAUncompBufferInfo, AMVAUncompBufferInfo structure [DirectShow], AMVAUncompBufferInfoStructure, LPAMVAUncompBufferInfo, LPAMVAUncompBufferInfo structure pointer [DirectShow], amva/AMVAUncompBufferInfo, amva/LPAMVAUncompBufferInfo, dshow.amvauncompbufferinfo'
-ms.topic: struct
 f1_keywords:
 - amva/AMVAUncompBufferInfo
 dev_langs:

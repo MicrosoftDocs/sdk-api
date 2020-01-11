@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 88eb79c1-9ea0-436e-ad2e-9ce05b8dcb2c
 ms.date: 12/05/2018
 ms.keywords: RegLoadAppKey, RegLoadAppKey function, RegLoadAppKeyA, RegLoadAppKeyW, base.regloadappkey, winreg/RegLoadAppKey, winreg/RegLoadAppKeyA, winreg/RegLoadAppKeyW
-ms.topic: function
 f1_keywords:
 - winreg/RegLoadAppKey
 dev_langs:

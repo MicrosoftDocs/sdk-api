@@ -7,7 +7,6 @@ tech.root: wcn
 ms.assetid: 79c8482a-5cb2-44a7-b324-964bfedd3d2f
 ms.date: 12/05/2018
 ms.keywords: ConnectSucceeded, ConnectSucceeded method [Windows Connect Now], ConnectSucceeded method [Windows Connect Now],IWCNConnectNotify interface, IWCNConnectNotify interface [Windows Connect Now],ConnectSucceeded method, IWCNConnectNotify.ConnectSucceeded, IWCNConnectNotify::ConnectSucceeded, wcn.iwcnconnectnotify_connectsucceeded, wcndevice/IWCNConnectNotify::ConnectSucceeded
-ms.topic: method
 f1_keywords:
 - wcndevice/IWCNConnectNotify.ConnectSucceeded
 dev_langs:

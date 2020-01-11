@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b9770030-b298-47f8-98a7-3ce9b4d44dd1
 ms.date: 12/05/2018
 ms.keywords: PathCchIsRoot, PathCchIsRoot function [Windows Shell], pathcch/PathCchIsRoot, shell.PathCchIsRoot
-ms.topic: function
 f1_keywords:
 - pathcch/PathCchIsRoot
 dev_langs:

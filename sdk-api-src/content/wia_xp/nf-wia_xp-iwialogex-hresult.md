@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialogex\hresult.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaLogEx interface [WIA],hResult method, IWiaLogEx.hResult, IWiaLogEx::hResult, _wia_IWiaLogEx_hResult, hResult, hResult method [WIA], hResult method [WIA],IWiaLogEx interface, wia._wia_IWiaLogEx_hResult, wia_xp/IWiaLogEx::hResult
-ms.topic: method
 f1_keywords:
 - wia_xp/IWiaLogEx.hResult
 dev_langs:

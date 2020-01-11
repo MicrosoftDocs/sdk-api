@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 334b6c88-4d5d-4e73-843f-2be07b9de9c9
 ms.date: 12/05/2018
 ms.keywords: PeerGraphSetNodeAttributes, PeerGraphSetNodeAttributes function [Peer Networking], p2p.peergraphsetnodeattributes, p2p/PeerGraphSetNodeAttributes
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphSetNodeAttributes
 dev_langs:

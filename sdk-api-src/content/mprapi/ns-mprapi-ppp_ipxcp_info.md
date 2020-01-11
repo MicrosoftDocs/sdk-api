@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 6e269c4e-8014-4d59-a7dc-3314a67a4d12
 ms.date: 12/05/2018
 ms.keywords: PPP_IPXCP_INFO, PPP_IPXCP_INFO structure [RAS], _mpr_ppp_ipxcp_info, mprapi/PPP_IPXCP_INFO, rras.ppp_ipxcp_info
-ms.topic: struct
 f1_keywords:
 - mprapi/PPP_IPXCP_INFO
 dev_langs:

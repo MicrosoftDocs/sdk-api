@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 2C5B04DD-888B-4400-A01D-CDF9DD870584
 ms.date: 12/5/2018
 ms.keywords: RoInspectCapturedStackBackTrace, RoInspectCapturedStackBackTrace function [Windows Runtime], roerrorapi/RoInspectCapturedStackBackTrace, winrt.roinspectcapturedstackbacktrace
-ms.topic: function
 f1_keywords:
 - roerrorapi/RoInspectCapturedStackBackTrace
 dev_langs:

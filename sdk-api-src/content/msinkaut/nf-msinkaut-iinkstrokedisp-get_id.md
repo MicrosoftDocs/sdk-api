@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: f8e9d2b2-c3d1-4ea8-aed6-649bf6d4d353
 ms.date: 12/05/2018
 ms.keywords: ID property [Tablet PC], ID property [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],ID property, IInkStrokeDisp.ID, IInkStrokeDisp.get_ID, IInkStrokeDisp.get_Id, IInkStrokeDisp::ID, IInkStrokeDisp::get_ID, get_ID, msinkaut/IInkStrokeDisp::ID, msinkaut/IInkStrokeDisp::get_ID, tablet.iinkstrokedisp_id
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkStrokeDisp.ID
 dev_langs:

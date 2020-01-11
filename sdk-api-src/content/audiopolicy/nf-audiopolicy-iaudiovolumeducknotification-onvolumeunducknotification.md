@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: f25f066e-999f-45ff-8287-afa8acb82a19
 ms.date: 12/05/2018
 ms.keywords: IAudioVolumeDuckNotification interface [Core Audio],OnVolumeUnduckNotification method, IAudioVolumeDuckNotification.OnVolumeUnduckNotification, IAudioVolumeDuckNotification::OnVolumeUnduckNotification, OnVolumeUnduckNotification, OnVolumeUnduckNotification method [Core Audio], OnVolumeUnduckNotification method [Core Audio],IAudioVolumeDuckNotification interface, audiopolicy/IAudioVolumeDuckNotification::OnVolumeUnduckNotification, coreaudio.iaudiovolumeducknotification_onvolumeunducknotification
-ms.topic: method
 f1_keywords:
 - audiopolicy/IAudioVolumeDuckNotification.OnVolumeUnduckNotification
 dev_langs:

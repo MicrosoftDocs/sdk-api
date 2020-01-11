@@ -7,7 +7,6 @@ tech.root: Sens
 ms.assetid: 1675ffc7-7031-492d-bf39-64281a16a074
 ms.date: 12/05/2018
 ms.keywords: DisplayLock, DisplayLock method [SENS], DisplayLock method [SENS],ISensLogon interface, ISensLogon interface [SENS],DisplayLock method, ISensLogon.DisplayLock, ISensLogon::DisplayLock, _zaw_isenslogon_displaylock, sens.isenslogon_displaylock, sensevts/ISensLogon::DisplayLock, syncmgr.isenslogon_displaylock
-ms.topic: method
 f1_keywords:
 - sensevts/ISensLogon.DisplayLock
 dev_langs:

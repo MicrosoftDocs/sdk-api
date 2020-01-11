@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 424aab99-990e-4b45-9b58-ac22b2cee87c
 ms.date: 12/05/2018
 ms.keywords: EnumConnections, EnumConnections method [COM], EnumConnections method [COM],IConnectionPoint interface, IConnectionPoint interface [COM],EnumConnections method, IConnectionPoint.EnumConnections, IConnectionPoint::EnumConnections, _com_iconnectionpoint_enumconnections, com.iconnectionpoint_enumconnections, ocidl/IConnectionPoint::EnumConnections
-ms.topic: method
 f1_keywords:
 - ocidl/IConnectionPoint.EnumConnections
 dev_langs:

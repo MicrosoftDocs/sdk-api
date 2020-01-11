@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: fbbaea96-727c-46b9-91d1-31d3f89d8ad8
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineaddtoconference, lineAddToConference, lineAddToConference function [TAPI 2.2], tapi/lineAddToConference, tapi2.lineaddtoconference
-ms.topic: function
 f1_keywords:
 - tapi/lineAddToConference
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ec115bee-7ce3-428b-9081-2f21f3793de4
 ms.date: 12/05/2018
 ms.keywords: IInitializeCommand interface [Windows Shell],Initialize method, IInitializeCommand.Initialize, IInitializeCommand::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeCommand interface, _shell_IInitializeCommand_Initialize, shell.IInitializeCommand_Initialize, shobjidl_core/IInitializeCommand::Initialize
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IInitializeCommand.Initialize
 dev_langs:

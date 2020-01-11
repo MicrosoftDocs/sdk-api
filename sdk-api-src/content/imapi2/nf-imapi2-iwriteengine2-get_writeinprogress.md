@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 88f67eab-c87b-4a15-b29f-25675d0cac22
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],get_WriteInProgress method, IWriteEngine2.get_WriteInProgress, IWriteEngine2::get_WriteInProgress, get_WriteInProgress, get_WriteInProgress method [IMAPI], get_WriteInProgress method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_writeinprogress, imapi2/IWriteEngine2::get_WriteInProgress
-ms.topic: method
 f1_keywords:
 - imapi2/IWriteEngine2.get_WriteInProgress
 dev_langs:

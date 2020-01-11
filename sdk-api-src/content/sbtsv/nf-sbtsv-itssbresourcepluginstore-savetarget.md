@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 323ac6ee-6a50-433b-85b3-a4409be08226
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SaveTarget method, ITsSbResourcePluginStore.SaveTarget, ITsSbResourcePluginStore::SaveTarget, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],SaveTarget method, ITsSbResourcePluginStoreEx::SaveTarget, SaveTarget, SaveTarget method [Remote Desktop Services], SaveTarget method [Remote Desktop Services],ITsSbResourcePluginStore interface, SaveTarget method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::SaveTarget, sbtsv/ITsSbResourcePluginStoreEx::SaveTarget, termserv.itssbresourcepluginstore_savetarget
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbResourcePluginStore.SaveTarget
 dev_langs:

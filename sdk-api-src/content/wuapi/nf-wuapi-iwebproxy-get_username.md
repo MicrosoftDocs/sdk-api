@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: cef38d9d-5706-4008-be61-5bbe7c29ca68
 ms.date: 12/05/2018
 ms.keywords: IWebProxy interface [Windows Update Agent],UserName property, IWebProxy.UserName, IWebProxy.get_UserName, IWebProxy::UserName, IWebProxy::get_UserName, IWebProxy::put_UserName, UserName property [Windows Update Agent], UserName property [Windows Update Agent],IWebProxy interface, get_UserName, wua.iwebproxy_username, wuapi/IWebProxy::UserName, wuapi/IWebProxy::get_UserName, wuapi/IWebProxy::put_UserName
-ms.topic: method
 f1_keywords:
 - wuapi/IWebProxy.UserName
 dev_langs:

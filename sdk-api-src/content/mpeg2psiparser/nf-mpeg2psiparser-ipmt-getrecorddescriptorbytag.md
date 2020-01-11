@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 7ed3dd22-331a-419a-ab30-5645e259e36a
 ms.date: 12/05/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IPMT.GetRecordDescriptorByTag, IPMT::GetRecordDescriptorByTag, IPMTGetRecordDescriptorByTag, mpeg2psiparser/IPMT::GetRecordDescriptorByTag, mstv.ipmt_getrecorddescriptorbytag
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/IPMT.GetRecordDescriptorByTag
 dev_langs:

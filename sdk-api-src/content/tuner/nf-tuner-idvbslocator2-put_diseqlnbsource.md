@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 665ea57d-6cb7-43d6-8bf3-993d0075b3cc
 ms.date: 12/05/2018
 ms.keywords: DiseqLNBSource property [Microsoft TV Technologies], DiseqLNBSource property [Microsoft TV Technologies],IDVBSLocator2 interface, IDVBSLocator2 interface [Microsoft TV Technologies],DiseqLNBSource property, IDVBSLocator2.DiseqLNBSource, IDVBSLocator2.put_DiseqLNBSource, IDVBSLocator2::DiseqLNBSource, IDVBSLocator2::get_DiseqLNBSource, IDVBSLocator2::put_DiseqLNBSource, mstv.idvbslocator2_diseqlnbsource, put_DiseqLNBSource, tuner/IDVBSLocator2::DiseqLNBSource, tuner/IDVBSLocator2::get_DiseqLNBSource, tuner/IDVBSLocator2::put_DiseqLNBSource
-ms.topic: method
 f1_keywords:
 - tuner/IDVBSLocator2.DiseqLNBSource
 dev_langs:

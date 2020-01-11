@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: ABBEEEB6-4D9C-47E3-A030-8F85B5197B09
 ms.date: 12/05/2018
 ms.keywords: NotifyIfTimestampConfigChange, NotifyIfTimestampConfigChange function [IP Helper], iphlp.notifyiftimestampconfigchange, iphlpapi/NotifyIfTimestampConfigChange
-ms.topic: function
 f1_keywords:
 - iphlpapi/NotifyIfTimestampConfigChange
 dev_langs:

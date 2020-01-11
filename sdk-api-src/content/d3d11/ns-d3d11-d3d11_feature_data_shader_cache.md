@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 45F1184E-0E82-4AF4-86F7-ED0E4C860026
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_SHADER_CACHE, D3D11_FEATURE_DATA_SHADER_CACHE structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_SHADER_CACHE, direct3d11.d3d11_feature_data_shader_cache
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_FEATURE_DATA_SHADER_CACHE
 dev_langs:

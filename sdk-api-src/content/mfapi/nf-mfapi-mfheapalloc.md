@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 3ad97cbf-4065-4807-ad6a-68e84a3601d4
 ms.date: 12/05/2018
 ms.keywords: 3ad97cbf-4065-4807-ad6a-68e84a3601d4, MFHeapAlloc, MFHeapAlloc function [Media Foundation], mf.mfheapalloc, mfapi/MFHeapAlloc
-ms.topic: function
 f1_keywords:
 - mfapi/MFHeapAlloc
 dev_langs:

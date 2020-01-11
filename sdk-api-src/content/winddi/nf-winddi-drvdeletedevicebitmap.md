@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: cb52b133-95c6-4a3d-b8b6-e1628a301542
 ms.date: 12/05/2018
 ms.keywords: DrvDeleteDeviceBitmap, DrvDeleteDeviceBitmap function [Display Devices], ddifncs_3c8f9ccd-c145-481c-9d31-6a951557527d.xml, display.drvdeletedevicebitmap, winddi/DrvDeleteDeviceBitmap
-ms.topic: function
 f1_keywords:
 - winddi/DrvDeleteDeviceBitmap
 dev_langs:

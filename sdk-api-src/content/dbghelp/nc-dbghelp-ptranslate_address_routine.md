@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 56c374df-6b48-4649-a914-5cb2f9575bf3
 ms.date: 12/05/2018
 ms.keywords: PTRANSLATE_ADDRESS_ROUTINE, PTRANSLATE_ADDRESS_ROUTINE64, TranslateAddressProc64, TranslateAddressProc64 callback, TranslateAddressProc64 callback function, _win32_translateaddressproc64, base.translateaddressproc64, dbghelp/TranslateAddressProc64
-ms.topic: callback
 f1_keywords:
 - dbghelp/TranslateAddressProc64
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: e3af20d4-be61-446e-90be-765f1e84178a
 ms.date: 12/05/2018
 ms.keywords: IsVarTypeUnsignedInteger, IsVarTypeUnsignedInteger function [Windows Properties], _shell_IsVarTypeUnsignedInteger, properties.IsVarTypeUnsignedInteger, propvarutil/IsVarTypeUnsignedInteger, shell.IsVarTypeUnsignedInteger
-ms.topic: function
 f1_keywords:
 - propvarutil/IsVarTypeUnsignedInteger
 dev_langs:

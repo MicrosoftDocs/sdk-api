@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: d1859037-7a33-4943-8ca9-6782fc8b0b92
 ms.date: 12/05/2018
 ms.keywords: GetEnableData, GetEnableData method [Media Foundation], GetEnableData method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],GetEnableData method, IMFContentEnabler.GetEnableData, IMFContentEnabler::GetEnableData, d1859037-7a33-4943-8ca9-6782fc8b0b92, mf.imfcontentenabler_getenabledata, mfidl/IMFContentEnabler::GetEnableData
-ms.topic: method
 f1_keywords:
 - mfidl/IMFContentEnabler.GetEnableData
 dev_langs:

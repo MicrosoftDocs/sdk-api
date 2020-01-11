@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: f304dbb7-7d5c-403c-9418-60947cc4c3a1
 ms.date: 12/05/2018
 ms.keywords: ReadPreviousLogRestartArea, ReadPreviousLogRestartArea function [Files], clfsw32/ReadPreviousLogRestartArea, fs.readpreviouslogrestartarea
-ms.topic: function
 f1_keywords:
 - clfsw32/ReadPreviousLogRestartArea
 dev_langs:

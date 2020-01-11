@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: ac46d390-9e08-4f79-a621-60ea75f4acff
 ms.date: 12/05/2018
 ms.keywords: OleSavePictureFile, OleSavePictureFile function [Automation], _oa96_OleSavePictureFile, automat.olesavepicturefile, olectl/OleSavePictureFile
-ms.topic: function
 f1_keywords:
 - olectl/OleSavePictureFile
 dev_langs:

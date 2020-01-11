@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: a1cc25ec-b519-4c24-ba85-f2c240749fbd
 ms.date: 12/05/2018
 ms.keywords: IPBDASiParser, IPBDASiParser interface [DirectShow], IPBDASiParser interface [DirectShow],described, dvbsiparser/IPBDASiParser, mstv.ipbdasiparser
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IPBDASiParser
 dev_langs:

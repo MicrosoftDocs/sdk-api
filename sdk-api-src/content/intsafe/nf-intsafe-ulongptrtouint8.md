@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1a287c22-80d8-4cd9-8878-c19aaeddd407
 ms.date: 12/05/2018
 ms.keywords: ULongPtrToUInt8, ULongPtrToUInt8 function [Windows Shell], ULongToByte, intsafe/ULongPtrToUInt8, shell.ULongPtrToUInt8
-ms.topic: function
 f1_keywords:
 - intsafe/ULongPtrToUInt8
 dev_langs:

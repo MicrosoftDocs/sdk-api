@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7a927341-6ff4-41f5-918b-ea5b9e1ebe9a
 ms.date: 12/05/2018
 ms.keywords: GetServiceState, GetServiceState method [DirectShow], GetServiceState method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetServiceState method, IAMWstDecoder.GetServiceState, IAMWstDecoder::GetServiceState, IAMWstDecoderGetServiceState, dshow.iamwstdecoder_getservicestate, iwstdec/IAMWstDecoder::GetServiceState
-ms.topic: method
 f1_keywords:
 - iwstdec/IAMWstDecoder.GetServiceState
 dev_langs:

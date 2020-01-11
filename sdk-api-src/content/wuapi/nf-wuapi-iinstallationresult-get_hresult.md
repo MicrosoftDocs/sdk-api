@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 75178661-3b21-4d21-971c-93362a2cc287
 ms.date: 12/05/2018
 ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent],IInstallationResult interface, IInstallationResult interface [Windows Update Agent],HResult property, IInstallationResult.HResult, IInstallationResult.get_HResult, IInstallationResult::HResult, IInstallationResult::get_HResult, get_HResult, wua.iinstallationresult_hresult, wuapi/IInstallationResult::HResult, wuapi/IInstallationResult::get_HResult
-ms.topic: method
 f1_keywords:
 - wuapi/IInstallationResult.HResult
 dev_langs:

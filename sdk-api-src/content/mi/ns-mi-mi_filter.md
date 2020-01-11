@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 0849cb55-ba2f-4855-ac33-fa96d8ecd94f
 ms.date: 12/05/2018
 ms.keywords: MI_Filter, MI_Filter structure [Windows Management Infrastructure (MI)], mi/MI_Filter, wmi._mi_filter, wmi_v2.mi_filter
-ms.topic: struct
 f1_keywords:
 - mi/MI_Filter
 dev_langs:

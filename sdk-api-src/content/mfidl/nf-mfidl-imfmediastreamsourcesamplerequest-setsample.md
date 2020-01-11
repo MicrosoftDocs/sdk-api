@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: a35c5e18-f307-4e40-bc92-f91aa9eb80ba
 ms.date: 12/05/2018
 ms.keywords: IMFMediaStreamSourceSampleRequest interface [Media Foundation],SetSample method, IMFMediaStreamSourceSampleRequest.SetSample, IMFMediaStreamSourceSampleRequest::SetSample, SetSample, SetSample method [Media Foundation], SetSample method [Media Foundation],IMFMediaStreamSourceSampleRequest interface, mf.imfmediastreamsourcesamplerequest_setsample, mfidl/IMFMediaStreamSourceSampleRequest::SetSample
-ms.topic: method
 f1_keywords:
 - mfidl/IMFMediaStreamSourceSampleRequest.SetSample
 dev_langs:

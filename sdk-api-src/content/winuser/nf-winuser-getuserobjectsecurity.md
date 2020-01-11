@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 998c2520-7833-4efd-a794-b13b528f0485
 ms.date: 12/05/2018
 ms.keywords: GetUserObjectSecurity, GetUserObjectSecurity function [Security], _win32_getuserobjectsecurity, security.getuserobjectsecurity, winuser/GetUserObjectSecurity
-ms.topic: function
 f1_keywords:
 - winuser/GetUserObjectSecurity
 dev_langs:

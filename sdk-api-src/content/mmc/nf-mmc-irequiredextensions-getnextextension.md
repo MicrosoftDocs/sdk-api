@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 09372a73-e67d-4f1f-805d-b64ca1501976
 ms.date: 12/05/2018
 ms.keywords: GetNextExtension, GetNextExtension method [MMC], GetNextExtension method [MMC],IRequiredExtensions interface, IRequiredExtensions interface [MMC],GetNextExtension method, IRequiredExtensions.GetNextExtension, IRequiredExtensions::GetNextExtension, _slate_irequiredextensions_getnextextension, mmc.irequiredextensions_getnextextension, mmc/IRequiredExtensions::GetNextExtension
-ms.topic: method
 f1_keywords:
 - mmc/IRequiredExtensions.GetNextExtension
 dev_langs:

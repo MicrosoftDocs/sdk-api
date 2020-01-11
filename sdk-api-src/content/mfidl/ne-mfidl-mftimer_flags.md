@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: bd94247a-ed58-4857-a39d-16880eea75e0
 ms.date: 12/05/2018
 ms.keywords: MFTIMER_FLAGS, MFTIMER_FLAGS enumeration [Media Foundation], MFTIMER_RELATIVE, bd94247a-ed58-4857-a39d-16880eea75e0, mf.mftimer_flags, mfidl/MFTIMER_FLAGS, mfidl/MFTIMER_RELATIVE
-ms.topic: enum
 f1_keywords:
 - mfidl/MFTIMER_FLAGS
 dev_langs:

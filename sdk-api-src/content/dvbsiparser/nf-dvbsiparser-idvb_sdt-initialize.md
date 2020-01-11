@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: f9e3bfb8-e879-4016-bd4d-f2a0d4d44938
 ms.date: 12/05/2018
 ms.keywords: IDVB_SDT interface [Microsoft TV Technologies],Initialize method, IDVB_SDT.Initialize, IDVB_SDT::Initialize, IDVB_SDTInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDVB_SDT interface, dvbsiparser/IDVB_SDT::Initialize, mstv.idvb_sdt_initialize
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_SDT.Initialize
 dev_langs:

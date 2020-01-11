@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 0ef6b3b0-1b65-4919-8857-33651b9c154f
 ms.date: 12/05/2018
 ms.keywords: TASKENUMPROCEX, TASKENUMPROCEX callback, TASKENUMPROCEX callback function [Windows API], vdmdbg/TASKENUMPROCEX, winprog.processtasks
-ms.topic: callback
 f1_keywords:
 - vdmdbg/TASKENUMPROCEX
 dev_langs:

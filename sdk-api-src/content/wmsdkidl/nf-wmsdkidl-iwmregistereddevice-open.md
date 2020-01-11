@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 277f2724-5d82-4db7-96d9-af392b39fccf
 ms.date: 12/05/2018
 ms.keywords: IWMRegisteredDevice interface [windows Media Format],Open method, IWMRegisteredDevice.Open, IWMRegisteredDevice::Open, IWMRegisteredDeviceOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_open, wmsdkidl/IWMRegisteredDevice::Open
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMRegisteredDevice.Open
 dev_langs:

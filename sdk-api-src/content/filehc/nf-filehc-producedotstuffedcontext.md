@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 6fbac935-339d-4744-9359-7b3b85bfb7c6
 ms.date: 12/05/2018
 ms.keywords: ProduceDotStuffedContext, ProduceDotStuffedContext function [Windows API], filehc/ProduceDotStuffedContext, winprog._producedotstuffedcontext
-ms.topic: function
 f1_keywords:
 - filehc/ProduceDotStuffedContext
 dev_langs:

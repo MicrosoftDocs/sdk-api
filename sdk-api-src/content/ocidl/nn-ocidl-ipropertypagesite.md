@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: a9035a10-2078-4626-8386-f9298526dfb7
 ms.date: 12/05/2018
 ms.keywords: IPropertyPageSite, IPropertyPageSite interface [COM], IPropertyPageSite interface [COM],described, _ctrl_ipropertypagesite, com.ipropertypagesite, ocidl/IPropertyPageSite
-ms.topic: interface
 f1_keywords:
 - ocidl/IPropertyPageSite
 dev_langs:

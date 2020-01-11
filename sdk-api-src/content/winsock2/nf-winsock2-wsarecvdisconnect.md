@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 33e0fb8e-3ece-427f-b3ef-43a0f5cf0cc8
 ms.date: 12/05/2018
 ms.keywords: WSARecvDisconnect, WSARecvDisconnect function [Winsock], _win32_wsarecvdisconnect_2, winsock.wsarecvdisconnect_2, winsock2/WSARecvDisconnect
-ms.topic: function
 f1_keywords:
 - winsock2/WSARecvDisconnect
 dev_langs:

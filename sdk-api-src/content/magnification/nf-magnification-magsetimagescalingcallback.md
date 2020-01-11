@@ -7,7 +7,6 @@ tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magsetimagescalingcallback.htm
 ms.date: 12/05/2018
 ms.keywords: MagSetImageScalingCallback, MagSetImageScalingCallback function [Magnification API], magapi.magapi_MagSetImageScalingCallback, magapi_MagSetImageScalingCallback, magnification/MagSetImageScalingCallback
-ms.topic: function
 f1_keywords:
 - magnification/MagSetImageScalingCallback
 dev_langs:

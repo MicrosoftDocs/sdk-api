@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 53821725-EB51-47C4-9C9F-403D41FD1FA4
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetAlphaTableValue method, IDCompositionTableTransferEffect.SetAlphaTableValue, IDCompositionTableTransferEffect::SetAlphaTableValue, IDCompositionTableTransferEffect::SetAlphaTableValue(UINT,float), SetAlphaTableValue, SetAlphaTableValue method [DirectComposition], SetAlphaTableValue method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetAlphaTableValue, directcomp.idcompositiontabletransfereffect_setalphatablevalue
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionTableTransferEffect.SetAlphaTableValue
 dev_langs:

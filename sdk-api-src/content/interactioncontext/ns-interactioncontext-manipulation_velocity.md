@@ -7,7 +7,6 @@ tech.root: Input_IntContext
 ms.assetid: fe7ef0b7-52f6-4171-8ecf-7bc8db7c7a48
 ms.date: 12/05/2018
 ms.keywords: MANIPULATION_VELOCITY, MANIPULATION_VELOCITY structure, input_intcontext.manipulation_velocity, interactioncontext.manipulation_velocity, interactioncontext/MANIPULATION_VELOCITY
-ms.topic: struct
 f1_keywords:
 - interactioncontext/MANIPULATION_VELOCITY
 dev_langs:

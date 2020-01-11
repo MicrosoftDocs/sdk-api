@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: b0332360-a737-4b48-b592-0c55d493a02d
 ms.date: 12/05/2018
 ms.keywords: CryptMsgVerifyCountersignatureEncoded, CryptMsgVerifyCountersignatureEncoded function [Security], _crypto2_cryptmsgverifycountersignatureencoded, security.cryptmsgverifycountersignatureencoded, wincrypt/CryptMsgVerifyCountersignatureEncoded
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptMsgVerifyCountersignatureEncoded
 dev_langs:

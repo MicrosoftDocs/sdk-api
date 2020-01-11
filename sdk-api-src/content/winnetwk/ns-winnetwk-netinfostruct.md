@@ -7,7 +7,6 @@ tech.root: WNet
 ms.assetid: 2f60209f-7777-4130-b212-245673dd0055
 ms.date: 12/05/2018
 ms.keywords: '*LPNETINFOSTRUCT, ERROR_BUSY, ERROR_NO_NETWORK, LPNETINFOSTRUCT, LPNETINFOSTRUCT structure pointer [Windows Networking (WNet)], NETINFOSTRUCT, NETINFOSTRUCT structure [Windows Networking (WNet)], NETINFO_DISKRED, NETINFO_DLL16, NETINFO_PRINTERRED, NO_ERROR, _win32_netinfostruct_str, winnetwk/LPNETINFOSTRUCT, winnetwk/NETINFOSTRUCT, wnet.netinfostruct_str'
-ms.topic: struct
 f1_keywords:
 - winnetwk/NETINFOSTRUCT
 dev_langs:

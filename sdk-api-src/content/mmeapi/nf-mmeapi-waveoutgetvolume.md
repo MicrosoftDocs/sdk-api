@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 7f1b3ae0-8890-49f7-b249-bab934095cca
 ms.date: 12/05/2018
 ms.keywords: _win32_waveOutGetVolume, mmeapi/waveOutGetVolume, multimedia.waveoutgetvolume, waveOutGetVolume, waveOutGetVolume function [Windows Multimedia]
-ms.topic: function
 f1_keywords:
 - mmeapi/waveOutGetVolume
 dev_langs:

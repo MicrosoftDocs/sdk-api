@@ -7,7 +7,6 @@ tech.root: WinHttp
 ms.assetid: 4d2c6f82-6b61-4a7b-a5d7-560152e25302
 ms.date: 12/05/2018
 ms.keywords: '*LPURL_COMPONENTS, INTERNET_SCHEME_HTTP, INTERNET_SCHEME_HTTPS, URL_COMPONENTS, URL_COMPONENTS structure [HTTP], URL_COMPONENTSW, http.url_components, winhttp/URL_COMPONENTS, winhttp_url_components_structure'
-ms.topic: struct
 f1_keywords:
 - winhttp/URL_COMPONENTS
 dev_langs:

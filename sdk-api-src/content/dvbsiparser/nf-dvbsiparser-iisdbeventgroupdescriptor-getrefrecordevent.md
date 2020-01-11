@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: fede6a0e-5ac1-472e-aaa8-9d31737a8a1d
 ms.date: 12/05/2018
 ms.keywords: GetRefRecordEvent, GetRefRecordEvent method [Microsoft TV Technologies], GetRefRecordEvent method [Microsoft TV Technologies],IIsdbEventGroupDescriptor interface, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],GetRefRecordEvent method, IIsdbEventGroupDescriptor.GetRefRecordEvent, IIsdbEventGroupDescriptor::GetRefRecordEvent, dvbsiparser/IIsdbEventGroupDescriptor::GetRefRecordEvent, mstv.iisdbeventgroupdescriptor_getrefrecordevent
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbEventGroupDescriptor.GetRefRecordEvent
 dev_langs:

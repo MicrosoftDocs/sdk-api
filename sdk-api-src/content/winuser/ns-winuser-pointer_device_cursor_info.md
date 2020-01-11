@@ -7,7 +7,6 @@ tech.root: Input_PointerDevice
 ms.assetid: 5d71e5b4-95eb-453e-9164-e7659ef4059e
 ms.date: 12/05/2018
 ms.keywords: POINTER_DEVICE_CURSOR_INFO, POINTER_DEVICE_CURSOR_INFO structure, input_pointerdevice.pointer_device_cursor_info, tagPOINTER_DEVICE_CURSOR_INFO, unifiedinputstack.pointer_device_cursor_info, winuser/POINTER_DEVICE_CURSOR_INFO
-ms.topic: struct
 f1_keywords:
 - winuser/POINTER_DEVICE_CURSOR_INFO
 dev_langs:

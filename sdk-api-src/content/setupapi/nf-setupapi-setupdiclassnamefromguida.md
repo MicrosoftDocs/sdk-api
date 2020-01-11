@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: e23631b4-eb7f-4a75-ac23-25d3d974a3e3
 ms.date: 12/05/2018
 ms.keywords: SetupDiClassNameFromGuid, SetupDiClassNameFromGuid function [Device and Driver Installation], SetupDiClassNameFromGuidA, SetupDiClassNameFromGuidW, devinst.setupdiclassnamefromguid, di-rtns_b17476f2-25e2-48ed-be4d-53af55541056.xml, setupapi/SetupDiClassNameFromGuid
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiClassNameFromGuid
 dev_langs:

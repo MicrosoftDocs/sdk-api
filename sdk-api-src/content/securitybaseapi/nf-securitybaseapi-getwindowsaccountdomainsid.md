@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: ee2ba1b4-1bef-4d79-bb18-512705e2c378
 ms.date: 12/05/2018
 ms.keywords: GetWindowsAccountDomainSid, GetWindowsAccountDomainSid function [Security], _win32_getwindowsaccountdomainsid, security.getwindowsaccountdomainsid, securitybaseapi/GetWindowsAccountDomainSid
-ms.topic: function
 f1_keywords:
 - securitybaseapi/GetWindowsAccountDomainSid
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 6b689344-6748-49d7-aa98-a87435b7cb0b
 ms.date: 12/05/2018
 ms.keywords: GetNestLevel, GetNestLevel method [Windows Controls], GetNestLevel method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetNestLevel method, ITextRow.GetNestLevel, ITextRow::GetNestLevel, controls.itextrow_getnestlevel, tom/ITextRow::GetNestLevel
-ms.topic: method
 f1_keywords:
 - tom/ITextRow.GetNestLevel
 dev_langs:

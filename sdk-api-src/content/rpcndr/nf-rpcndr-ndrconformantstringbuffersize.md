@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 6090d96c-dd00-4df6-879b-893cd5b457b9
 ms.date: 12/05/2018
 ms.keywords: NdrConformantStringBufferSize, NdrConformantStringBufferSize function [RPC], rpc.ndrconformantstringbuffersize, rpcndr/NdrConformantStringBufferSize
-ms.topic: function
 f1_keywords:
 - rpcndr/NdrConformantStringBufferSize
 dev_langs:

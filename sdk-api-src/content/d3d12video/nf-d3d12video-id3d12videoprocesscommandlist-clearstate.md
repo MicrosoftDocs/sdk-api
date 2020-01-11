@@ -5,7 +5,6 @@ description: Resets the state of a direct command list back to the state it was 
 tech.root: mf
 ms.assetid: 362dd711-69dc-4d5c-bb6d-cc53aaec7be0
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoProcessCommandList::ClearState
 dev_langs:

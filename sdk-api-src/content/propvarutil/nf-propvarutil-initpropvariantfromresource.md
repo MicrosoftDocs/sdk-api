@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: c958f823-f820-4b0b-86ed-84ad18befbd1
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromResource, InitPropVariantFromResource function [Windows Properties], properties.InitPropVariantFromResource, propvarutil/InitPropVariantFromResource, shell.InitPropVariantFromResource, shell_InitPropVariantFromResource
-ms.topic: function
 f1_keywords:
 - propvarutil/InitPropVariantFromResource
 dev_langs:

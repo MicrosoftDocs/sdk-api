@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: be9891d4-aad3-42a0-8c8e-4b86091ff03b
 ms.date: 12/05/2018
 ms.keywords: DAdvise, DAdvise method [COM], DAdvise method [COM],IDataObject interface, IDataObject interface [COM],DAdvise method, IDataObject.DAdvise, IDataObject::DAdvise, _ole_idataobject_dadvise, com.idataobject_dadvise, objidl/IDataObject::DAdvise
-ms.topic: method
 f1_keywords:
 - objidl/IDataObject.DAdvise
 dev_langs:

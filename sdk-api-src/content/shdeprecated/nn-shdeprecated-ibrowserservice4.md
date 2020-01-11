@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6054bdef-05c9-487f-8df1-4cbdd1c6d749
 ms.date: 12/05/2018
 ms.keywords: IBrowserService4, IBrowserService4 interface [Windows Shell], IBrowserService4 interface [Windows Shell],described, _shell_IBrowserService4, shdeprecated/IBrowserService4, shell.IBrowserService4
-ms.topic: interface
 f1_keywords:
 - shdeprecated/IBrowserService4
 dev_langs:

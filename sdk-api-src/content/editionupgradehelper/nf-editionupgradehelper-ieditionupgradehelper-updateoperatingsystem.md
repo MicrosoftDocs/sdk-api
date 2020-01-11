@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: C7A97C7E-654D-4717-975F-41B05F3BE901
 ms.date: 12/05/2018
 ms.keywords: IEditionUpgradeHelper interface [Windows API],UpdateOperatingSystem method, IEditionUpgradeHelper.UpdateOperatingSystem, IEditionUpgradeHelper::UpdateOperatingSystem, UpdateOperatingSystem, UpdateOperatingSystem method [Windows API], UpdateOperatingSystem method [Windows API],IEditionUpgradeHelper interface, editionupgradehelper/IEditionUpgradeHelper::UpdateOperatingSystem, winprog.ieditionupgradehelper_updateoperatingsystem
-ms.topic: method
 f1_keywords:
 - editionupgradehelper/IEditionUpgradeHelper.UpdateOperatingSystem
 dev_langs:

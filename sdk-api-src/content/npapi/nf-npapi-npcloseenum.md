@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: fc6d5fe1-0953-4912-bdbd-b1372597f61d
 ms.date: 12/05/2018
 ms.keywords: NPCloseEnum, NPCloseEnum function [Security], _mnp_npcloseenum, npapi/NPCloseEnum, security.npcloseenum
-ms.topic: function
 f1_keywords:
 - npapi/NPCloseEnum
 dev_langs:

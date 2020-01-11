@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 3e72367f-a066-43ad-9f96-648cad13b43d
 ms.date: 12/05/2018
 ms.keywords: GetPushSourceFlags, GetPushSourceFlags method [DirectShow], GetPushSourceFlags method [DirectShow],IAMPushSource interface, IAMPushSource interface [DirectShow],GetPushSourceFlags method, IAMPushSource.GetPushSourceFlags, IAMPushSource::GetPushSourceFlags, IAMPushSourceGetPushSourceFlags, dshow.iampushsource_getpushsourceflags, strmif/IAMPushSource::GetPushSourceFlags
-ms.topic: method
 f1_keywords:
 - strmif/IAMPushSource.GetPushSourceFlags
 dev_langs:

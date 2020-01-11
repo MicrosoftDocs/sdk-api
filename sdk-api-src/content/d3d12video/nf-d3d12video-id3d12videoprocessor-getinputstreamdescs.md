@@ -5,7 +5,6 @@ description: Gets the input stream descriptions provided when the video processo
 tech.root: mf
 ms.assetid: 1973387b-966f-4a85-8a28-74a324d80697
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoProcessor::GetInputStreamDescs
 dev_langs:

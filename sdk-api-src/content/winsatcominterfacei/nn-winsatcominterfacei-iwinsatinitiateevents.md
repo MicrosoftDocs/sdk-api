@@ -7,7 +7,6 @@ tech.root: WinSAT
 ms.assetid: f6ab3284-a76f-4148-ae40-04aa782ea9a7
 ms.date: 12/05/2018
 ms.keywords: IWinSATInitiateEvents, IWinSATInitiateEvents interface [WinSAT], IWinSATInitiateEvents interface [WinSAT],described, winsat.iwinsatinitiateevents, winsatcominterfacei/IWinSATInitiateEvents
-ms.topic: interface
 f1_keywords:
 - winsatcominterfacei/IWinSATInitiateEvents
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: fdb0837c-1ee3-4dc9-b797-3d726c8ba3dc
 ms.date: 12/05/2018
 ms.keywords: AdviseSurfaceAllocator, AdviseSurfaceAllocator method [DirectShow], AdviseSurfaceAllocator method [DirectShow],IVMRSurfaceAllocatorNotify interface, IVMRSurfaceAllocatorNotify interface [DirectShow],AdviseSurfaceAllocator method, IVMRSurfaceAllocatorNotify.AdviseSurfaceAllocator, IVMRSurfaceAllocatorNotify::AdviseSurfaceAllocator, IVMRSurfaceAllocatorNotifyAdviseSurfaceAllocator, dshow.ivmrsurfaceallocatornotify_advisesurfaceallocator, strmif/IVMRSurfaceAllocatorNotify::AdviseSurfaceAllocator
-ms.topic: method
 f1_keywords:
 - strmif/IVMRSurfaceAllocatorNotify.AdviseSurfaceAllocator
 dev_langs:

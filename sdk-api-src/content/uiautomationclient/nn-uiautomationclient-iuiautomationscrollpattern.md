@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: cb62389c-5a7a-412d-a024-0ce9bc6403a2
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationScrollPattern, IUIAutomationScrollPattern interface [Windows Accessibility], IUIAutomationScrollPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationScrollPattern, uiauto_IUIAutomationScrollPattern, uiautomationclient/IUIAutomationScrollPattern, winauto.uiauto_IUIAutomationScrollPattern
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationScrollPattern
 dev_langs:

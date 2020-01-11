@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 287a4574-0a0f-4f20-932b-22bb6f40401d
 ms.date: 12/05/2018
 ms.keywords: '*PIP_INTERFACE_INFO, IP_INTERFACE_INFO, IP_INTERFACE_INFO structure [IP Helper], PIP_INTERFACE_INFO, PIP_INTERFACE_INFO structure pointer [IP Helper], _iphlp_ip_interface_info, ipexport/IP_INTERFACE_INFO, ipexport/PIP_INTERFACE_INFO, iphlp.ip_interface_info'
-ms.topic: struct
 f1_keywords:
 - ipexport/IP_INTERFACE_INFO
 dev_langs:

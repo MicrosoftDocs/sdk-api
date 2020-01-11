@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 34e674f7-61a4-4045-9643-374f05906227
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_POL_EXPR, *PDHCP_POL_EXPR, DHCP_POL_EXPR, DHCP_POL_EXPR structure [DHCP], LPDHCP_POL_EXPR, LPDHCP_POL_EXPR structure pointer [DHCP], PDHCP_POL_EXPR, PDHCP_POL_EXPR structure pointer [DHCP], dhcp.dhcp_pol_expr, dhcpsapi/DHCP_POL_EXPR, dhcpsapi/LPDHCP_POL_EXPR, dhcpsapi/PDHCP_POL_EXPR'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_POL_EXPR
 dev_langs:

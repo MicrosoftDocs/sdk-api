@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 0E34340F-D886-4E69-9AF3-D9142E350173
 ms.date: 12/05/2018
 ms.keywords: KeyCredentialManagerGetOperationErrorStates, KeyCredentialManagerGetOperationErrorStates function [Security], keycredmgr/KeyCredentialManagerGetOperationErrorStates, security.keycredentialmanagergetoperationerrorstates
-ms.topic: function
 f1_keywords:
 - keycredmgr/KeyCredentialManagerGetOperationErrorStates
 dev_langs:

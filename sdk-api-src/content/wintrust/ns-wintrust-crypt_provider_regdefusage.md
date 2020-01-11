@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: A6047CBA-E4BA-4A31-B700-C368CFB57895
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_PROVIDER_REGDEFUSAGE, CRYPT_PROVIDER_REGDEFUSAGE, CRYPT_PROVIDER_REGDEFUSAGE structure [Security], PCRYPT_PROVIDER_REGDEFUSAGE, PCRYPT_PROVIDER_REGDEFUSAGE structure pointer [Security], security.crypt_provider_regdefusage, wintrust/CRYPT_PROVIDER_REGDEFUSAGE, wintrust/PCRYPT_PROVIDER_REGDEFUSAGE'
-ms.topic: struct
 f1_keywords:
 - wintrust/CRYPT_PROVIDER_REGDEFUSAGE
 dev_langs:

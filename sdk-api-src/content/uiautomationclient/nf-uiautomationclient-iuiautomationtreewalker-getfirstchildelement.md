@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 2f1df27c-664b-451a-8a1f-e4dbc70b1845
 ms.date: 12/05/2018
 ms.keywords: GetFirstChildElement, GetFirstChildElement method [Windows Accessibility], GetFirstChildElement method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetFirstChildElement method, IUIAutomationTreeWalker.GetFirstChildElement, IUIAutomationTreeWalker::GetFirstChildElement, uiauto.uiauto_IUIAutomationTreeWalker_GetFirstChild, uiauto_IUIAutomationTreeWalker_GetFirstChild, uiautomationclient/IUIAutomationTreeWalker::GetFirstChildElement, winauto.uiauto_IUIAutomationTreeWalker_GetFirstChild
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationTreeWalker.GetFirstChildElement
 dev_langs:

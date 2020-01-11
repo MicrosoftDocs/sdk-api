@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3b40afc9-89cf-4dfc-ab25-055bdf6964ce
 ms.date: 12/05/2018
 ms.keywords: IOleControl interface [COM],OnMnemonic method, IOleControl.OnMnemonic, IOleControl::OnMnemonic, OnMnemonic, OnMnemonic method [COM], OnMnemonic method [COM],IOleControl interface, _ctrl_iolecontrol_onmnemonic, com.iolecontrol_onmnemonic, ocidl/IOleControl::OnMnemonic
-ms.topic: method
 f1_keywords:
 - ocidl/IOleControl.OnMnemonic
 dev_langs:

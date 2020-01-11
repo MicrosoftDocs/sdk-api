@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: d5465070-1706-4420-8351-fab5e8e8cd08
 ms.date: 12/05/2018
 ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertificate method [Media Foundation],IMFSecureChannel interface, IMFSecureChannel interface [Media Foundation],GetCertificate method, IMFSecureChannel.GetCertificate, IMFSecureChannel::GetCertificate, d5465070-1706-4420-8351-fab5e8e8cd08, mf.imfsecurechannel_getcertificate, mfidl/IMFSecureChannel::GetCertificate
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSecureChannel.GetCertificate
 dev_langs:

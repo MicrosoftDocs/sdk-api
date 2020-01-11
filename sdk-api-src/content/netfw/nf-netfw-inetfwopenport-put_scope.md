@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: a5bd787f-e00c-4a57-adc7-a9618809198a
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPort interface [ICS/ICF],Scope property, INetFwOpenPort.Scope, INetFwOpenPort.put_Scope, INetFwOpenPort::Scope, INetFwOpenPort::get_Scope, INetFwOpenPort::put_Scope, Scope property [ICS/ICF], Scope property [ICS/ICF],INetFwOpenPort interface, ics.inetfwopenport_scope, netfw/INetFwOpenPort::Scope, netfw/INetFwOpenPort::get_Scope, netfw/INetFwOpenPort::put_Scope, put_Scope
-ms.topic: method
 f1_keywords:
 - netfw/INetFwOpenPort.Scope
 dev_langs:

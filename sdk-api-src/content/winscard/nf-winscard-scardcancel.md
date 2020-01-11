@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: abf3b4ff-4775-40e9-b68d-97dcf6a892ba
 ms.date: 12/05/2018
 ms.keywords: SCardCancel, SCardCancel function [Security], _smart_scardcancel, security.scardcancel, winscard/SCardCancel
-ms.topic: function
 f1_keywords:
 - winscard/SCardCancel
 dev_langs:

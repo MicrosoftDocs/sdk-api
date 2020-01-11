@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: A901F679-B6F2-4DB7-8EFC-EA61249B64FB
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamCacheControl2, IMFByteStreamCacheControl2 interface [Media Foundation], IMFByteStreamCacheControl2 interface [Media Foundation],described, mf.imfbytestreamcachecontrol2, mfidl/IMFByteStreamCacheControl2
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFByteStreamCacheControl2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 9073927c-b4fe-41e8-b112-e1f6988adb49
 ms.date: 12/05/2018
 ms.keywords: TogglePattern_Toggle, TogglePattern_Toggle function [Windows Accessibility], uiauto.uiauto_TogglePattern_ToggleConPat, uiauto_TogglePattern_ToggleConPat, uiautomationcoreapi/TogglePattern_Toggle, winauto.uiauto_TogglePattern_ToggleConPat
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/TogglePattern_Toggle
 dev_langs:

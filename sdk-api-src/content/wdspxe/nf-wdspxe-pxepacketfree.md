@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: de93d42d-9c46-4944-a6e9-5dd72b8a3278
 ms.date: 12/05/2018
 ms.keywords: PxePacketFree, PxePacketFree function [Windows Deployment Services], wds.pxepacketfree, wdspxe/PxePacketFree
-ms.topic: function
 f1_keywords:
 - wdspxe/PxePacketFree
 dev_langs:

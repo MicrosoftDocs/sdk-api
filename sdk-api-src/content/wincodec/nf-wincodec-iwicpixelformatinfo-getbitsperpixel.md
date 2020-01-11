@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 484fb014-5999-46b9-8e32-3fd5296e483f
 ms.date: 12/05/2018
 ms.keywords: GetBitsPerPixel, GetBitsPerPixel method [Windows Imaging Component], GetBitsPerPixel method [Windows Imaging Component],IWICPixelFormatInfo interface, IWICPixelFormatInfo interface [Windows Imaging Component],GetBitsPerPixel method, IWICPixelFormatInfo.GetBitsPerPixel, IWICPixelFormatInfo::GetBitsPerPixel, _wic_codec_iwicpixelformatinfo_getbitsperpixel, wic._wic_codec_iwicpixelformatinfo_getbitsperpixel, wincodec/IWICPixelFormatInfo::GetBitsPerPixel
-ms.topic: method
 f1_keywords:
 - wincodec/IWICPixelFormatInfo.GetBitsPerPixel
 dev_langs:

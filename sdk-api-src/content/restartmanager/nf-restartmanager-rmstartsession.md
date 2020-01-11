@@ -7,7 +7,6 @@ tech.root: rstmgr
 ms.assetid: bc79c6e5-49e6-44d3-90f6-b0109fb9611b
 ms.date: 12/05/2018
 ms.keywords: RmStartSession, RmStartSession function [Restart Mgr], restartmanager/RmStartSession, rstmgr.rmstartsession
-ms.topic: function
 f1_keywords:
 - restartmanager/RmStartSession
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: cab9e20b-d94c-42e5-ada9-27194f398bb3
 ms.date: 12/05/2018
 ms.keywords: CreateProfile, CreateProfile function [Windows Shell], _shell_CreateProfile, shell.CreateProfile, userenv/CreateProfile
-ms.topic: function
 f1_keywords:
 - userenv/CreateProfile
 dev_langs:

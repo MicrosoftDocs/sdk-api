@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5ea237fb-6b1c-4e87-a9f3-711ffa37b3dc
 ms.date: 12/05/2018
 ms.keywords: GetThumbnail, GetThumbnail method [Windows Shell], GetThumbnail method [Windows Shell],IThumbnailProvider interface, IThumbnailProvider interface [Windows Shell],GetThumbnail method, IThumbnailProvider.GetThumbnail, IThumbnailProvider::GetThumbnail, WTSAT_ARGB, WTSAT_RGB, WTSAT_UNKNOWN, _shell_IThumbnailProvider_GetThumbnail, shell.IThumbnailProvider_GetThumbnail, thumbcache/IThumbnailProvider::GetThumbnail
-ms.topic: method
 f1_keywords:
 - thumbcache/IThumbnailProvider.GetThumbnail
 dev_langs:

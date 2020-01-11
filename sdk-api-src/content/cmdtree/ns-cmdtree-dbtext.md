@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_2qyc.htm
 ms.date: 12/05/2018
 ms.keywords: DBTEXT, DBTEXT structure [Indexing Service], _idxs_DBTEXT, cmdtree/DBTEXT, indexsrv.dbtext, tagDBTEXT
-ms.topic: struct
 f1_keywords:
 - cmdtree/DBTEXT
 dev_langs:

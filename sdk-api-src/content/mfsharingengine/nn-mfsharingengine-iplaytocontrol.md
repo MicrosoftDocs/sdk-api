@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 53355EEA-559B-4803-89F6-D454E15F9254
 ms.date: 12/05/2018
 ms.keywords: IPlayToControl, IPlayToControl interface [Media Foundation], IPlayToControl interface [Media Foundation],described, mf.iplaytocontrol, mfsharingengine/IPlayToControl
-ms.topic: interface
 f1_keywords:
 - mfsharingengine/IPlayToControl
 dev_langs:

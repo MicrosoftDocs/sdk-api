@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 1d916450-4a4e-4f11-b95b-dbf9693b7cdd
 ms.date: 12/05/2018
 ms.keywords: IAlternativeName interface [Security],StrValue property, IAlternativeName.StrValue, IAlternativeName.get_StrValue, IAlternativeName::StrValue, IAlternativeName::get_StrValue, StrValue property [Security], StrValue property [Security],IAlternativeName interface, certenroll/IAlternativeName::StrValue, certenroll/IAlternativeName::get_StrValue, get_StrValue, security.ialternativename_strvalue_property
-ms.topic: method
 f1_keywords:
 - certenroll/IAlternativeName.StrValue
 dev_langs:

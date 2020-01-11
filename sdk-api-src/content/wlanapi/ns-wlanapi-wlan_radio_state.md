@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 61551b46-785e-4353-910c-8ce23172b176
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_RADIO_STATE, PWLAN_RADIO_STATE, PWLAN_RADIO_STATE structure pointer [NativeWIFI], WLAN_RADIO_STATE, WLAN_RADIO_STATE structure [NativeWIFI], nwifi.wlan_radio_state, wlanapi/PWLAN_RADIO_STATE, wlanapi/WLAN_RADIO_STATE'
-ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_RADIO_STATE
 dev_langs:

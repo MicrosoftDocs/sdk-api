@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 6979aea4-5121-4a65-85f6-4b5753083715
 ms.date: 12/05/2018
 ms.keywords: 6baaded3-822f-0135-c977-9d5552c9ac99, ID3DX11FFT, ID3DX11FFT interface [Direct3D 11], ID3DX11FFT interface [Direct3D 11],described, d3dcsx/ID3DX11FFT, direct3d11.id3dx11fft
-ms.topic: interface
 f1_keywords:
 - d3dcsx/ID3DX11FFT
 dev_langs:

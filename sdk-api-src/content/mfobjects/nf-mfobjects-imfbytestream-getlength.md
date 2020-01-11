@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 6fb817a6-5b43-4716-a997-bbd8a0b9305d
 ms.date: 12/05/2018
 ms.keywords: 6fb817a6-5b43-4716-a997-bbd8a0b9305d, GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],GetLength method, IMFByteStream.GetLength, IMFByteStream::GetLength, mf.imfbytestream_getlength, mfobjects/IMFByteStream::GetLength
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFByteStream.GetLength
 dev_langs:

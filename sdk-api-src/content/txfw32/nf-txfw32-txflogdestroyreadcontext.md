@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: e1f323bd-48cb-4264-89a0-185d18881726
 ms.date: 12/05/2018
 ms.keywords: TxfLogDestroyReadContext, TxfLogDestroyReadContext function [Files], fs.txflogdestroyreadcontext, txfw32/TxfLogDestroyReadContext
-ms.topic: function
 f1_keywords:
 - txfw32/TxfLogDestroyReadContext
 dev_langs:

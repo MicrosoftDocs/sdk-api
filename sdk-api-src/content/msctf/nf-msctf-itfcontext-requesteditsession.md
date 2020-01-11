@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 6c7b150c-0ca0-4aa5-8828-0c548dbfb215
 ms.date: 12/05/2018
 ms.keywords: ITfContext interface [Text Services Framework],RequestEditSession method, ITfContext.RequestEditSession, ITfContext::RequestEditSession, RequestEditSession, RequestEditSession method [Text Services Framework], RequestEditSession method [Text Services Framework],ITfContext interface, TF_ES_ASYNC, TF_ES_ASYNCDONTCARE, TF_ES_READ, TF_ES_READWRITE, TF_ES_SYNC, _tsf_itfcontext_requesteditsession_ref, msctf/ITfContext::RequestEditSession, tsf.itfcontext_requesteditsession
-ms.topic: method
 f1_keywords:
 - msctf/ITfContext.RequestEditSession
 dev_langs:

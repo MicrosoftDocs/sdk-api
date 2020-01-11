@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_item_change.htm
 ms.date: 12/05/2018
 ms.keywords: SEARCH_ITEM_CHANGE, SEARCH_ITEM_CHANGE structure [search], _search_SEARCH_ITEM_CHANGE, search._search_SEARCH_ITEM_CHANGE, searchapi/SEARCH_ITEM_CHANGE
-ms.topic: struct
 f1_keywords:
 - searchapi/SEARCH_ITEM_CHANGE
 dev_langs:

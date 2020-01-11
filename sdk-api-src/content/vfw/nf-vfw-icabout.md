@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 18ec2659-8589-4a13-95ea-825a3aecbf98
 ms.date: 12/05/2018
 ms.keywords: ICAbout, ICAbout macro [Windows Multimedia], _win32_ICAbout, multimedia.icabout, vfw/ICAbout
-ms.topic: macro
 f1_keywords:
 - vfw/ICAbout
 dev_langs:

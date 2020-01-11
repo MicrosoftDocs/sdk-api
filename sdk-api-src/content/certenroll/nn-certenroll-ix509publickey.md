@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: cd6f28a3-9998-40d7-a3e8-dab0cf3991a8
 ms.date: 12/05/2018
 ms.keywords: IX509PublicKey, IX509PublicKey interface [Security], IX509PublicKey interface [Security],described, certenroll/IX509PublicKey, security.ix509publickey
-ms.topic: interface
 f1_keywords:
 - certenroll/IX509PublicKey
 dev_langs:

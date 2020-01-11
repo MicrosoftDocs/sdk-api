@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 2617a6af-c91d-4416-8bef-fe69404e7c3f
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureExchange3, ISCPSecureExchange3 interface [windows Media Device Manager], ISCPSecureExchange3 interface [windows Media Device Manager],described, ISCPSecureExchange3Interface, mswmdm/ISCPSecureExchange3, wmdm.iscpsecureexchange3
-ms.topic: interface
 f1_keywords:
 - mswmdm/ISCPSecureExchange3
 dev_langs:

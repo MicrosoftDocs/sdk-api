@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 9cd5d185-ff0f-45f4-91fc-da601d256914
 ms.date: 12/05/2018
 ms.keywords: E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnSetPreferredProvidersComplete method, IMbnInterfaceEvents.OnSetPreferredProvidersComplete, IMbnInterfaceEvents::OnSetPreferredProvidersComplete, OnSetPreferredProvidersComplete, OnSetPreferredProvidersComplete method [Microsoft Broadband Networks], OnSetPreferredProvidersComplete method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, S_OK, mbn.imbninterfaceevents_onsetpreferredproviderscomplete, mbnapi/IMbnInterfaceEvents::OnSetPreferredProvidersComplete
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnInterfaceEvents.OnSetPreferredProvidersComplete
 dev_langs:

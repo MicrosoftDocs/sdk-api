@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_showdropdown.htm
 ms.date: 12/05/2018
 ms.keywords: ComboBox_ShowDropdown, ComboBox_ShowDropdown macro [Windows Controls], _win32_ComboBox_ShowDropdown, _win32_ComboBox_ShowDropdown_cpp, controls.ComboBox_ShowDropdown, controls._win32_ComboBox_ShowDropdown, windowsx/ComboBox_ShowDropdown
-ms.topic: macro
 f1_keywords:
 - windowsx/ComboBox_ShowDropdown
 dev_langs:

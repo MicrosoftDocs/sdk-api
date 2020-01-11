@@ -7,7 +7,6 @@ tech.root: wsb
 ms.assetid: BFC13B54-60F3-43A1-B464-D09DD96F57FA
 ms.date: 12/05/2018
 ms.keywords: WSB_OB_STATUS_ENTRY, WSB_OB_STATUS_ENTRY structure [Windows Server Backup], wsb.wsb_ob_status_entry, wsbonline/WSB_OB_STATUS_ENTRY
-ms.topic: struct
 f1_keywords:
 - wsbonline/WSB_OB_STATUS_ENTRY
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 18B73928-F797-457A-84A1-0E1B2B1208A2
 ms.date: 12/05/2018
 ms.keywords: SnapshotFormatBmp, SnapshotFormatJpeg, SnapshotFormatPng, SnapshotFormatType, SnapshotFormatType enumeration [Remote Desktop Services], rdpappcontainerclient/SnapshotFormatBmp, rdpappcontainerclient/SnapshotFormatJpeg, rdpappcontainerclient/SnapshotFormatPng, rdpappcontainerclient/SnapshotFormatType, termserv.snapshotformattype
-ms.topic: enum
 f1_keywords:
 - rdpappcontainerclient/SnapshotFormatType
 dev_langs:

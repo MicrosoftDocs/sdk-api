@@ -7,7 +7,6 @@ tech.root: WCS
 ms.assetid: 5948db59-649f-4940-afb6-5bdb84544915
 ms.date: 12/05/2018
 ms.keywords: GetYValue, GetYValue macro [Windows Color System], _color_GetYValue, wcs.getyvalue, wingdi/GetYValue
-ms.topic: macro
 f1_keywords:
 - wingdi/GetYValue
 dev_langs:

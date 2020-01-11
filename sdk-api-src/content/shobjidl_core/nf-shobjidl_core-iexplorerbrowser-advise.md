@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b77f9c41-248e-4f16-a9ff-6ff5437df11c
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],Advise method, IExplorerBrowser.Advise, IExplorerBrowser::Advise, _shell_IExplorerBrowser_Advise, shell.IExplorerBrowser_Advise, shobjidl_core/IExplorerBrowser::Advise
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IExplorerBrowser.Advise
 dev_langs:

@@ -3,7 +3,6 @@ UID: NE:wlanapi._DOT11_RADIO_STATE~r1
 title: DOT11_RADIO_STATE
 ms.date: 01/30/19
 ms.keywords: _DOT11_RADIO_STATE, DOT11_RADIO_STATE
-ms.topic: language-reference
 f1_keywords:
 - wlanapi/_DOT11_RADIO_STATE
 dev_langs:

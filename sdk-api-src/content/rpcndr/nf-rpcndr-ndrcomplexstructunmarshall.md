@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: a29d685e-df89-4ffd-95e1-d265a8e7b7a2
 ms.date: 12/05/2018
 ms.keywords: NdrComplexStructUnmarshall, NdrComplexStructUnmarshall function [Windows API], rpcndr/NdrComplexStructUnmarshall, winprog.ndrcomplexstructunmarshall
-ms.topic: function
 f1_keywords:
 - rpcndr/NdrComplexStructUnmarshall
 dev_langs:

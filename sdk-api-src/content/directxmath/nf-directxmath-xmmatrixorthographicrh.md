@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixOrthographicRH(float,float,float,float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixOrthographicRH, XMMatrixOrthographicRH, XMMatrixOrthographicRH method [DirectX Math Support APIs], dxmath.xmmatrixorthographicrh
-ms.topic: function
 f1_keywords:
 - directxmath/XMMatrixOrthographicRH
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 5178A987-397A-44E5-9485-221D72490124
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_STORAGE_TIER_REGION, FILE_STORAGE_TIER_REGION, FILE_STORAGE_TIER_REGION structure [Files], PFILE_STORAGE_TIER_REGION, PFILE_STORAGE_TIER_REGION structure pointer [Files], fs.file_storage_tier_region, winioctl/FILE_STORAGE_TIER_REGION, winioctl/PFILE_STORAGE_TIER_REGION'
-ms.topic: struct
 f1_keywords:
 - winioctl/FILE_STORAGE_TIER_REGION
 dev_langs:

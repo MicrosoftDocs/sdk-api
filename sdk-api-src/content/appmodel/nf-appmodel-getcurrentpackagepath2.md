@@ -5,7 +5,6 @@ description: Gets the package path for the calling process.
 tech.root: appxpkg
 ms.date: 01/31/19
 ms.keywords: GetCurrentPackagePath2
-ms.topic: function
 f1_keywords:
 - appmodel/GetCurrentPackagePath2
 dev_langs:

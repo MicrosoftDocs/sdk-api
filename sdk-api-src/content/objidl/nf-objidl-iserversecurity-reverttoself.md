@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 21952f54-439e-446f-a206-4b35759b1090
 ms.date: 12/05/2018
 ms.keywords: IServerSecurity interface [COM],RevertToSelf method, IServerSecurity.RevertToSelf, IServerSecurity::RevertToSelf, RevertToSelf, RevertToSelf method [COM], RevertToSelf method [COM],IServerSecurity interface, _com_iserversecurity_reverttoself, com.iserversecurity_reverttoself, objidlbase/IServerSecurity::RevertToSelf
-ms.topic: method
 f1_keywords:
 - objidl/IServerSecurity.RevertToSelf
 dev_langs:

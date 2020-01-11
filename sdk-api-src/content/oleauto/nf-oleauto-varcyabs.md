@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 72ab02df-69e8-40ab-884c-6b23ce5dc6ce
 ms.date: 12/05/2018
 ms.keywords: VarCyAbs, VarCyAbs function [Automation], _oa96_VarCyAbs, automat.varcyabs, oleauto/VarCyAbs
-ms.topic: function
 f1_keywords:
 - oleauto/VarCyAbs
 dev_langs:

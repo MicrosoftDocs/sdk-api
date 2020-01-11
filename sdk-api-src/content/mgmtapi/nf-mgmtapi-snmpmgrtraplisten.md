@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 9ba799a7-0088-4939-9665-ce96074c6448
 ms.date: 12/05/2018
 ms.keywords: SnmpMgrTrapListen, SnmpMgrTrapListen function [SNMP], _snmp_snmpmgrtraplisten, mgmtapi/SnmpMgrTrapListen, snmp.snmpmgrtraplisten
-ms.topic: function
 f1_keywords:
 - mgmtapi/SnmpMgrTrapListen
 dev_langs:

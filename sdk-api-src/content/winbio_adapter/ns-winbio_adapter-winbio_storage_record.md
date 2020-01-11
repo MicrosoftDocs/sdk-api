@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: fd638a08-cff0-4984-8580-a1eecd509a1f
 ms.date: 12/05/2018
 ms.keywords: '*PWINBIO_STORAGE_RECORD, PWINBIO_STORAGE_RECORD, PWINBIO_STORAGE_RECORD structure pointer [Windows Biometric Framework API], WINBIO_STORAGE_RECORD, WINBIO_STORAGE_RECORD structure [Windows Biometric Framework API], secbiomet.winbio_storage_record, winbio_adapter/PWINBIO_STORAGE_RECORD, winbio_adapter/WINBIO_STORAGE_RECORD'
-ms.topic: struct
 f1_keywords:
 - winbio_adapter/WINBIO_STORAGE_RECORD
 dev_langs:

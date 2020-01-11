@@ -7,7 +7,6 @@ tech.root: Sens
 ms.assetid: 377af331-8494-4a3d-b822-78c2b568239c
 ms.date: 12/05/2018
 ms.keywords: IsDestinationReachable, IsDestinationReachable function [SENS], IsDestinationReachableA, IsDestinationReachableW, _zaw_isdestinationreachable, sens.isdestinationreachable, sensapi/IsDestinationReachable, sensapi/IsDestinationReachableA, sensapi/IsDestinationReachableW, syncmgr.isdestinationreachable
-ms.topic: function
 f1_keywords:
 - sensapi/IsDestinationReachable
 dev_langs:

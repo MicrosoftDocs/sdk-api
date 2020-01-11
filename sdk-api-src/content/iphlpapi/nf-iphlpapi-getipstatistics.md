@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 15daaa34-2011-462a-9543-f8d7ccb9f6fd
 ms.date: 12/05/2018
 ms.keywords: GetIpStatistics, GetIpStatistics function [IP Helper], _iphlp_getipstatistics, iphlp.getipstatistics, iphlpapi/GetIpStatistics
-ms.topic: function
 f1_keywords:
 - iphlpapi/GetIpStatistics
 dev_langs:

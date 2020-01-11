@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 66A388D0-C704-45D2-AD56-4F81E1928774
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents, IMbnDeviceServicesEvents interface [Microsoft Broadband Networks], IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],described, mbn.imbndeviceservicesevents, mbnapi/IMbnDeviceServicesEvents
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnDeviceServicesEvents
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7F3678B2-4B18-4344-ADEE-F0D0A6CE635E
 ms.date: 12/05/2018
 ms.keywords: GetDataObject, GetDataObject method [Windows Shell], GetDataObject method [Windows Shell],IDataObjectProvider interface, IDataObjectProvider interface [Windows Shell],GetDataObject method, IDataObjectProvider.GetDataObject, IDataObjectProvider::GetDataObject, shell.IDataObjectProvider_GetDataObject, shobjidl_core/IDataObjectProvider::GetDataObject
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IDataObjectProvider.GetDataObject
 dev_langs:

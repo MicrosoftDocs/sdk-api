@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: a8096303-5940-4ad1-aa5a-de604efe8c9e
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetIsHyperlinkTarget method, IXpsOMPage.SetIsHyperlinkTarget, IXpsOMPage::SetIsHyperlinkTarget, SetIsHyperlinkTarget, SetIsHyperlinkTarget method [XPS Documents and Packaging], SetIsHyperlinkTarget method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setishyperlinktarget, xpsobjectmodel/IXpsOMPage::SetIsHyperlinkTarget
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPage.SetIsHyperlinkTarget
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinProg
 ms.assetid: 5c0caf42-2a2f-4eae-b0be-e8bb1b87dd9d
 ms.date: 12/05/2018
 ms.keywords: Int32x32To64, Int32x32To64 macro [Windows API], _win32_int32x32to64, winnt/Int32x32To64, winprog.int32x32to64
-ms.topic: macro
 f1_keywords:
 - winnt/Int32x32To64
 dev_langs:

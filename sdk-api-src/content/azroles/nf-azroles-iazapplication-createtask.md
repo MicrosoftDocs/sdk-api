@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 9c15f1aa-f0d7-4c6b-8c3c-b6537f7dac90
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],CreateTask method, CreateTask, CreateTask method [Security], CreateTask method [Security],AzApplication object, CreateTask method [Security],IAzApplication interface, IAzApplication interface [Security],CreateTask method, IAzApplication.CreateTask, IAzApplication::CreateTask, azroles/IAzApplication::CreateTask, security.iazapplication_createtask
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplication.CreateTask
 dev_langs:

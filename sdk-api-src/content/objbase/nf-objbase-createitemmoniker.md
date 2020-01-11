@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 339919ed-660c-4239-825b-7fa96c48e5cd
 ms.date: 12/05/2018
 ms.keywords: CreateItemMoniker, CreateItemMoniker function [COM], _com_CreateItemMoniker, com.createitemmoniker, objbase/CreateItemMoniker
-ms.topic: function
 f1_keywords:
 - objbase/CreateItemMoniker
 dev_langs:

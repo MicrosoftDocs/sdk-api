@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 65154EB1-ABE5-4C4F-8B09-08633D82FD62
 ms.date: 12/05/2018
 ms.keywords: IConsole, IConsole interface [MMC], IConsole interface [MMC],described, mmc.iconsole, mmc/IConsole
-ms.topic: interface
 f1_keywords:
 - mmc/IConsole
 dev_langs:

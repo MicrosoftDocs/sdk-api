@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: b11d53cb-5b08-4798-acca-45237fc3e170
 ms.date: 12/05/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt2, IVssDifferentialSoftwareSnapshotMgmt2 interface, IVssDifferentialSoftwareSnapshotMgmt2 interface,described, base.ivssdifferentialsoftwaresnapshotmgmt2, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2
-ms.topic: interface
 f1_keywords:
 - vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2
 dev_langs:

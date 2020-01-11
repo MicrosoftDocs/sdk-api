@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: f65d13ae-ccec-49a8-8818-225464b3a117
 ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion method [Windows Imaging Component], GetVersion method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetVersion method, IWICComponentInfo.GetVersion, IWICComponentInfo::GetVersion, _wic_codec_iwiccomponentinfo_getversion, wic._wic_codec_iwiccomponentinfo_getversion, wincodec/IWICComponentInfo::GetVersion
-ms.topic: method
 f1_keywords:
 - wincodec/IWICComponentInfo.GetVersion
 dev_langs:

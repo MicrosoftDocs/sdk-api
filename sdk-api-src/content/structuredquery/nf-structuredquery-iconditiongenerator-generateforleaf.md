@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\generateforleaf.htm
 ms.date: 12/05/2018
 ms.keywords: GenerateForLeaf, GenerateForLeaf method [search], GenerateForLeaf method [search],IConditionGenerator interface, IConditionGenerator interface [search],GenerateForLeaf method, IConditionGenerator.GenerateForLeaf, IConditionGenerator::GenerateForLeaf, _search_IConditionGenerator_GenerateForLeaf, search._search_IConditionGenerator_GenerateForLeaf, structuredquery/IConditionGenerator::GenerateForLeaf
-ms.topic: method
 f1_keywords:
 - structuredquery/IConditionGenerator.GenerateForLeaf
 dev_langs:

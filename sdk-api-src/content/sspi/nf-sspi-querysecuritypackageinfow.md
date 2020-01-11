@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 130ef0fe-bb13-4a65-b476-cd25ed234da1
 ms.date: 12/05/2018
 ms.keywords: QuerySecurityPackageInfo, QuerySecurityPackageInfo function [Security], QuerySecurityPackageInfoA, QuerySecurityPackageInfoW, _ssp_querysecuritypackageinfo, security.querysecuritypackageinfo, sspi/QuerySecurityPackageInfo, sspi/QuerySecurityPackageInfoA, sspi/QuerySecurityPackageInfoW
-ms.topic: function
 f1_keywords:
 - sspi/QuerySecurityPackageInfo
 dev_langs:

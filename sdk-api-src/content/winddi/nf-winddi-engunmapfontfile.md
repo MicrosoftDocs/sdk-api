@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 0fc34dfe-fbe8-4bee-8766-4b1db9b5ccfa
 ms.date: 12/05/2018
 ms.keywords: EngUnmapFontFile, EngUnmapFontFile function [Display Devices], display.engunmapfontfile, gdifncs_8e66998b-e7dd-4ccb-b388-9b5faf4a64f4.xml, winddi/EngUnmapFontFile
-ms.topic: function
 f1_keywords:
 - winddi/EngUnmapFontFile
 dev_langs:

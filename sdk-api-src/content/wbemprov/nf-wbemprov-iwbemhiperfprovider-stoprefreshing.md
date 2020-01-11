@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: d1de54de-b57b-4e15-84b3-96cc36bf023b
 ms.date: 12/05/2018
 ms.keywords: IWbemHiPerfProvider interface [Windows Management Instrumentation],StopRefreshing method, IWbemHiPerfProvider.StopRefreshing, IWbemHiPerfProvider::StopRefreshing, StopRefreshing, StopRefreshing method [Windows Management Instrumentation], StopRefreshing method [Windows Management Instrumentation],IWbemHiPerfProvider interface, _hmm_iwbemhiperfprovider_stoprefreshing, wbemprov/IWbemHiPerfProvider::StopRefreshing, wmi.iwbemhiperfprovider_stoprefreshing
-ms.topic: method
 f1_keywords:
 - wbemprov/IWbemHiPerfProvider.StopRefreshing
 dev_langs:

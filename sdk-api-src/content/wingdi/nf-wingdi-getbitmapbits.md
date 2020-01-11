@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 72e8cc6b-d282-451e-b6ec-0473d2daea7c
 ms.date: 12/05/2018
 ms.keywords: GetBitmapBits, GetBitmapBits function [Windows GDI], _win32_GetBitmapBits, gdi.getbitmapbits, wingdi/GetBitmapBits
-ms.topic: function
 f1_keywords:
 - wingdi/GetBitmapBits
 dev_langs:

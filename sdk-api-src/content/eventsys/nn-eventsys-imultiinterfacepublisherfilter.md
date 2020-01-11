@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: f20f778b-fdd5-4c34-871b-d03cd1cd31cc
 ms.date: 12/05/2018
 ms.keywords: IMultiInterfacePublisherFilter, IMultiInterfacePublisherFilter interface [COM+], IMultiInterfacePublisherFilter interface [COM+],described, _cos_IMultiInterfacePublisherFilter, cos.imultiinterfacepublisherfilter, eventsys/IMultiInterfacePublisherFilter
-ms.topic: interface
 f1_keywords:
 - eventsys/IMultiInterfacePublisherFilter
 dev_langs:

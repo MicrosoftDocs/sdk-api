@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 0e3a8094-0d09-4a9c-8211-a0eb6a89ad55
 ms.date: 12/05/2018
 ms.keywords: Compare, Compare method [MMC], Compare method [MMC],IResultDataCompareEx interface, IResultDataCompareEx interface [MMC],Compare method, IResultDataCompareEx.Compare, IResultDataCompareEx::Compare, _slate_iresultdatacompareex_compare, mmc.iresultdatacompareex_compare, mmc/IResultDataCompareEx::Compare
-ms.topic: method
 f1_keywords:
 - mmc/IResultDataCompareEx.Compare
 dev_langs:

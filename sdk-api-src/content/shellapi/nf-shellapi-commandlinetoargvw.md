@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9889a016-b7a5-402b-8305-6f7c199d41b3
 ms.date: 12/05/2018
 ms.keywords: CommandLineToArgvW, CommandLineToArgvW function [Windows Shell], _shell_CommandLineToArgvW, shell.CommandLineToArgvW, shellapi/CommandLineToArgvW
-ms.topic: function
 f1_keywords:
 - shellapi/CommandLineToArgvW
 dev_langs:

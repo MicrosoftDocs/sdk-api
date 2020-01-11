@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 023f5137-fbdb-44c2-9c11-a3a8f1eb615e
 ms.date: 12/05/2018
 ms.keywords: NdrContextHandleInitialize, NdrContextHandleInitialize function [RPC], rpc.ndrcontexthandleinitialize, rpcndr/NdrContextHandleInitialize
-ms.topic: function
 f1_keywords:
 - rpcndr/NdrContextHandleInitialize
 dev_langs:

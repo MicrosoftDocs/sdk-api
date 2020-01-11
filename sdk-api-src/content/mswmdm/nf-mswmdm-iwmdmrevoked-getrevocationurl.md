@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 0158a664-8f0b-4481-8028-46b05776a482
 ms.date: 12/05/2018
 ms.keywords: GetRevocationURL, GetRevocationURL method [windows Media Device Manager], GetRevocationURL method [windows Media Device Manager],IWMDMRevoked interface, IWMDMRevoked interface [windows Media Device Manager],GetRevocationURL method, IWMDMRevoked.GetRevocationURL, IWMDMRevoked::GetRevocationURL, IWMDMRevokedGetRevocationURL, mswmdm/IWMDMRevoked::GetRevocationURL, wmdm.iwmdmrevoked_getrevocationurl
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMRevoked.GetRevocationURL
 dev_langs:

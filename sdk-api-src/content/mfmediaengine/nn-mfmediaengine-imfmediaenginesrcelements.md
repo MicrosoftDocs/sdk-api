@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 37A3EAC0-639C-47F3-AAB9-588EBEC8E1E3
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineSrcElements, IMFMediaEngineSrcElements interface [Media Foundation], IMFMediaEngineSrcElements interface [Media Foundation],described, mf.imfmediaenginesrcelements, mfmediaengine/IMFMediaEngineSrcElements
-ms.topic: interface
 f1_keywords:
 - mfmediaengine/IMFMediaEngineSrcElements
 dev_langs:

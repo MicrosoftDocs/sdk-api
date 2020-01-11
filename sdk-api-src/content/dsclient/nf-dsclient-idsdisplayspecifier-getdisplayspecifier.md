@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: c4fc25f6-0157-406d-b523-8542183291ed
 ms.date: 12/05/2018
 ms.keywords: GetDisplaySpecifier, GetDisplaySpecifier method [Active Directory], GetDisplaySpecifier method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],GetDisplaySpecifier method, IDsDisplaySpecifier.GetDisplaySpecifier, IDsDisplaySpecifier::GetDisplaySpecifier, _glines_idsdisplayspecifier_getdisplayspecifier, ad.idsdisplayspecifier__getdisplayspecifier, ad.idsdisplayspecifier_getdisplayspecifier, dsclient/IDsDisplaySpecifier::GetDisplaySpecifier
-ms.topic: method
 f1_keywords:
 - dsclient/IDsDisplaySpecifier.GetDisplaySpecifier
 dev_langs:

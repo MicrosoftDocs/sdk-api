@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: b11eb19f-ffc3-4a68-85c6-90a2412168f8
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolListener, IWTSProtocolListener interface [Remote Desktop Services], IWTSProtocolListener interface [Remote Desktop Services],described, termserv.iwtsprotocollistener, wtsprotocol/IWTSProtocolListener
-ms.topic: interface
 f1_keywords:
 - wtsprotocol/IWTSProtocolListener
 dev_langs:

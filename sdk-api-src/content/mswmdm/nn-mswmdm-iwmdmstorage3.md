@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: b62ea18b-c692-464f-a009-727a2924f8b8
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorage3, IWMDMStorage3 interface [windows Media Device Manager], IWMDMStorage3 interface [windows Media Device Manager],described, IWMDMStorage3Interface, mswmdm/IWMDMStorage3, wmdm.iwmdmstorage3
-ms.topic: interface
 f1_keywords:
 - mswmdm/IWMDMStorage3
 dev_langs:

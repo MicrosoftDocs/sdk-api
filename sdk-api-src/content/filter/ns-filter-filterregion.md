@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9usu.htm
 ms.date: 12/05/2018
 ms.keywords: FILTERREGION, FILTERREGION structure [Indexing Service], _idxs_FILTERREGION, filter/FILTERREGION, indexsrv.filterregion, tagFILTERREGION
-ms.topic: struct
 f1_keywords:
 - filter/FILTERREGION
 dev_langs:

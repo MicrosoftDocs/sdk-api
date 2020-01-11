@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: d73b53f5-4a8f-4903-986d-fbf4277a2d45
 ms.date: 12/05/2018
 ms.keywords: IMFAttributes interface [Media Foundation],SetGUID method, IMFAttributes.SetGUID, IMFAttributes::SetGUID, SetGUID, SetGUID method [Media Foundation], SetGUID method [Media Foundation],IMFAttributes interface, d73b53f5-4a8f-4903-986d-fbf4277a2d45, mf.imfattributes_setguid, mfobjects/IMFAttributes::SetGUID
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFAttributes.SetGUID
 dev_langs:

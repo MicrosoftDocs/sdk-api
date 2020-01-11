@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 3fb6d2af-a60c-4173-a2c0-9d9ce5d26811
 ms.date: 12/05/2018
 ms.keywords: GetDisconnectedSession, GetDisconnectedSession method [Remote Desktop Services], GetDisconnectedSession method [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],GetDisconnectedSession method, ITsSbClientConnection.GetDisconnectedSession, ITsSbClientConnection::GetDisconnectedSession, sbtsv/ITsSbClientConnection::GetDisconnectedSession, termserv.itssbclientconnection_getdisconnectedsession
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbClientConnection.GetDisconnectedSession
 dev_langs:

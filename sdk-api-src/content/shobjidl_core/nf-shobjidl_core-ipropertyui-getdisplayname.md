@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: F1B97A0C-B21F-45d6-8B2D-02BFF74C9CEE
 ms.date: 12/05/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Windows Properties], GetDisplayName method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],GetDisplayName method, IPropertyUI.GetDisplayName, IPropertyUI::GetDisplayName, PUIFNF_DEFAULT, PUIFNF_MNEMONIC, _shell_IPropertyUI_GetDisaplayName, properties.IPropertyUI_GetDisaplayName, shell.IPropertyUI_GetDisaplayName, shobjidl_core/IPropertyUI::GetDisplayName
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IPropertyUI.GetDisplayName
 dev_langs:

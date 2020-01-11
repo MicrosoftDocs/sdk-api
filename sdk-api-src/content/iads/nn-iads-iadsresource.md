@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 217749a4-55dc-457f-8582-1513ff3b0666
 ms.date: 12/05/2018
 ms.keywords: IADsResource, IADsResource interface [ADSI], IADsResource interface [ADSI],described, _ds_iadsresource, adsi.iadsresource, iads/IADsResource
-ms.topic: interface
 f1_keywords:
 - iads/IADsResource
 dev_langs:

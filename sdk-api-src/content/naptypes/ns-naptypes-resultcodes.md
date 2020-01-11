@@ -7,7 +7,6 @@ tech.root: NAP
 ms.assetid: 9d608f0a-9841-48e6-8856-2d8c1afc3e5d
 ms.date: 12/05/2018
 ms.keywords: ResultCodes, ResultCodes structure [NAP], nap.resultcodes_struct, naptypes/ResultCodes
-ms.topic: struct
 f1_keywords:
 - naptypes/ResultCodes
 dev_langs:

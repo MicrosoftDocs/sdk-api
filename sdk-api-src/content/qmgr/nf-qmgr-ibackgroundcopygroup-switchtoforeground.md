@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 19619a97-b4f2-4609-9b06-bb188e00860c
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],SwitchToForeground method, IBackgroundCopyGroup.SwitchToForeground, IBackgroundCopyGroup::SwitchToForeground, SwitchToForeground, SwitchToForeground method [BITS], SwitchToForeground method [BITS],IBackgroundCopyGroup interface, bits.ibackgroundcopygroup_switchtoforeground, qmgr/IBackgroundCopyGroup::SwitchToForeground
-ms.topic: method
 f1_keywords:
 - qmgr/IBackgroundCopyGroup.SwitchToForeground
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: c3ea46bb-931a-4ca6-93f5-db7e07b4cb7a
 ms.date: 12/05/2018
 ms.keywords: CryptSIPRemoveSignedDataMsg, CryptSIPRemoveSignedDataMsg function [Security], mssip/CryptSIPRemoveSignedDataMsg, security.cryptsipremovesigneddatamsg
-ms.topic: function
 f1_keywords:
 - mssip/CryptSIPRemoveSignedDataMsg
 dev_langs:

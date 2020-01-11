@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 2EBAE322-2A5F-4610-B64F-F1B8CE2DFD2D
 ms.date: 12/05/2018
 ms.keywords: SpatialAudioHrtfDistanceDecay, SpatialAudioHrtfDistanceDecay union [Core Audio], coreaudio.spatialaudiohrtfdistancedecay, spatialaudiohrtf/SpatialAudioHrtfDistanceDecay
-ms.topic: struct
 f1_keywords:
 - spatialaudiohrtf/SpatialAudioHrtfDistanceDecay
 dev_langs:

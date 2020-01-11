@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 555ab876-d990-426d-915c-f98df82a10aa
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject function [Windows GDI], GetObjectA, GetObjectW, HBITMAP, HBITMAP returned from a call to CreateDIBSection, HBRUSH, HFONT, HPALETTE, HPEN, HPEN returned from a call to ExtCreatePen, _win32_GetObject, gdi.getobject, wingdi/GetObject, wingdi/GetObjectA, wingdi/GetObjectW
-ms.topic: function
 f1_keywords:
 - wingdi/GetObject
 dev_langs:

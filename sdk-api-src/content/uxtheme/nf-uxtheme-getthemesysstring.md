@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysstring.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeSysString, GetThemeSysString function [Windows Controls], TMT_CSSNAME, TMT_XMLNAME, controls.GetThemeSysString, controls.inet_GetThemeSysString, inet_GetThemeSysString, inet_GetThemeSysString_cpp, uxtheme/GetThemeSysString
-ms.topic: function
 f1_keywords:
 - uxtheme/GetThemeSysString
 dev_langs:

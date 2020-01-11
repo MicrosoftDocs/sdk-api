@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassstructures\wndclassex.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPWNDCLASSEXW, *NPWNDCLASSEXW, *PWNDCLASSEXW, PWNDCLASSEX, PWNDCLASSEX structure pointer [Windows and Messages], WNDCLASSEX, WNDCLASSEX structure [Windows and Messages], WNDCLASSEXA, WNDCLASSEXW, _win32_WNDCLASSEX_str, _win32_wndclassex_str_cpp, winmsg.wndclassex, winui._win32_wndclassex_str, winuser/PWNDCLASSEX, winuser/WNDCLASSEX, winuser/WNDCLASSEXA, winuser/WNDCLASSEXW'
-ms.topic: struct
 f1_keywords:
 - winuser/WNDCLASSEX
 dev_langs:

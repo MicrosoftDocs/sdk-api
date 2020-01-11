@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 39579030-1cf5-4e82-a5e7-cb3415903d02
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrHandler, ISyncMgrHandler interface [Windows Shell], ISyncMgrHandler interface [Windows Shell],described, _shell_ISyncMgrHandler, shell.ISyncMgrHandler, syncmgr/ISyncMgrHandler
-ms.topic: interface
 f1_keywords:
 - syncmgr/ISyncMgrHandler
 dev_langs:

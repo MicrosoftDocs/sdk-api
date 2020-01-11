@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: e3810588-1be7-4e66-9b25-78aaa24b96c7
 ms.date: 12/05/2018
 ms.keywords: AVISaveV, AVISaveV function [Windows Multimedia], AVISaveVA, AVISaveVW, _win32_AVISaveV, multimedia.avisavev, vfw/AVISaveV, vfw/AVISaveVA, vfw/AVISaveVW
-ms.topic: function
 f1_keywords:
 - vfw/AVISaveV
 dev_langs:

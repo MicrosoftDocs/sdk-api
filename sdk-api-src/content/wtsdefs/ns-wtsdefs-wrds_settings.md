@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 38AD33F9-F955-4906-90E2-3FE5261A3E58
 ms.date: 12/05/2018
 ms.keywords: '*PWRDS_SETTINGS, PWRDS_SETTINGS, PWRDS_SETTINGS structure pointer [Remote Desktop Services], WRDS_SETTINGS, WRDS_SETTINGS structure [Remote Desktop Services], termserv.wrds_settings, wtsdefs/PWRDS_SETTINGS, wtsdefs/WRDS_SETTINGS'
-ms.topic: struct
 f1_keywords:
 - wtsdefs/WRDS_SETTINGS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: b8f66128-88d5-4fe0-99f3-59621080be5c
 ms.date: 12/05/2018
 ms.keywords: MF_TRANSCODE_SINK_INFO, MF_TRANSCODE_SINK_INFO structure [Media Foundation], mf.mf_transcode_sink_info, mfidl/MF_TRANSCODE_SINK_INFO
-ms.topic: struct
 f1_keywords:
 - mfidl/MF_TRANSCODE_SINK_INFO
 dev_langs:

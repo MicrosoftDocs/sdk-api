@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 1f8c6dd2-e511-48f2-8ab0-d2fadb1ce433
 ms.date: 12/05/2018
 ms.keywords: '*LPPAINTSTRUCT, *NPPAINTSTRUCT, *PPAINTSTRUCT, PAINTSTRUCT, PAINTSTRUCT structure [Windows GDI], PPAINTSTRUCT, PPAINTSTRUCT structure pointer [Windows GDI], _win32_PAINTSTRUCT_str, gdi.paintstruct, tagPAINTSTRUCT, winuser/PAINTSTRUCT, winuser/PPAINTSTRUCT'
-ms.topic: struct
 f1_keywords:
 - winuser/PAINTSTRUCT
 dev_langs:

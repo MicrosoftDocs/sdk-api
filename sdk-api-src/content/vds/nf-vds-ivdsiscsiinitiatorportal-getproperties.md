@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 7bf00853-ca26-40b4-a09a-dcb5e7e08f49
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsIscsiInitiatorPortal interface, IVdsIscsiInitiatorPortal interface [VDS],GetProperties method, IVdsIscsiInitiatorPortal.GetProperties, IVdsIscsiInitiatorPortal::GetProperties, base.ivdsiscsiinitiatorportal_getproperties, vds/IVdsIscsiInitiatorPortal::GetProperties
-ms.topic: method
 f1_keywords:
 - vds/IVdsIscsiInitiatorPortal.GetProperties
 dev_langs:

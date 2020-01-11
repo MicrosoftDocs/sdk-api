@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 78d2832f-706e-4d4e-90f5-762026ef69ae
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],Id property, IWdsTransportSession.Id, IWdsTransportSession.get_Id, IWdsTransportSession::Id, IWdsTransportSession::get_Id, Id property [Windows Deployment Services], Id property [Windows Deployment Services],IWdsTransportSession interface, get_Id, wds.iwdstransportsession_id, wdstptmgmt/IWdsTransportSession::Id, wdstptmgmt/IWdsTransportSession::get_Id
-ms.topic: method
 f1_keywords:
 - wdstptmgmt/IWdsTransportSession.Id
 dev_langs:

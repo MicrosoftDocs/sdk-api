@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: 99132138-b7ba-47a1-ac40-353d5d70db42
 ms.date: 12/05/2018
 ms.keywords: '*PCLFS_NODE_ID, CLFS_NODE_ID, CLFS_NODE_ID structure [Files], PCLFS_NODE_ID, PCLFS_NODE_ID structure pointer [Files], clfs/CLFS_NODE_ID, clfs/PCLFS_NODE_ID, fs.clfs_node_id'
-ms.topic: struct
 f1_keywords:
 - clfs/CLFS_NODE_ID
 dev_langs:

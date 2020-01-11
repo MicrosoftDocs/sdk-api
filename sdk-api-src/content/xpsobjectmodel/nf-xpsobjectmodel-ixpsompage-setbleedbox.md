@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 947313e1-6c95-4751-997f-d5172acaa5d5
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetBleedBox method, IXpsOMPage.SetBleedBox, IXpsOMPage::SetBleedBox, SetBleedBox, SetBleedBox method [XPS Documents and Packaging], SetBleedBox method [XPS Documents and Packaging],IXpsOMPage interface, bleedBox.height, bleedBox.width, bleedBox.x, bleedBox.y, xps.ixpsompage_setbleedbox, xpsobjectmodel/IXpsOMPage::SetBleedBox
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPage.SetBleedBox
 dev_langs:

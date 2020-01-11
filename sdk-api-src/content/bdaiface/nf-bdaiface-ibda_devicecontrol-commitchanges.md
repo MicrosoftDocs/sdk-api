@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 1f55346b-1d32-4eb9-84ef-4671cdd2bc61
 ms.date: 12/05/2018
 ms.keywords: CommitChanges, CommitChanges method [Microsoft TV Technologies], CommitChanges method [Microsoft TV Technologies],IBDA_DeviceControl interface, IBDA_DeviceControl interface [Microsoft TV Technologies],CommitChanges method, IBDA_DeviceControl.CommitChanges, IBDA_DeviceControl::CommitChanges, IBDA_DeviceControlCommitChanges, bdaiface/IBDA_DeviceControl::CommitChanges, mstv.ibda_devicecontrol_commitchanges
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_DeviceControl.CommitChanges
 dev_langs:

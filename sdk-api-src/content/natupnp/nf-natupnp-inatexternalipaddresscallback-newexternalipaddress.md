@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: b231ed4d-a115-4f4c-bda5-f6f3131ac45b
 ms.date: 12/05/2018
 ms.keywords: INATExternalIPAddressCallback interface [ICS/ICF],NewExternalIPAddress method, INATExternalIPAddressCallback.NewExternalIPAddress, INATExternalIPAddressCallback::NewExternalIPAddress, NewExternalIPAddress, NewExternalIPAddress method [ICS/ICF], NewExternalIPAddress method [ICS/ICF],INATExternalIPAddressCallback interface, _ics_inatexternalipaddresscallback_newexternalipaddress, ics.inatexternalipaddresscallback_newexternalipaddress, natupnp/INATExternalIPAddressCallback::NewExternalIPAddress
-ms.topic: method
 f1_keywords:
 - natupnp/INATExternalIPAddressCallback.NewExternalIPAddress
 dev_langs:

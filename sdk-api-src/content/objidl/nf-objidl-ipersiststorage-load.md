@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 34379b8d-4e00-49cd-9fd1-65f88746c61a
 ms.date: 12/05/2018
 ms.keywords: IPersistStorage interface [COM],Load method, IPersistStorage.Load, IPersistStorage::Load, Load, Load method [COM], Load method [COM],IPersistStorage interface, _com_ipersiststorage_load, com.ipersiststorage_load, objidl/IPersistStorage::Load
-ms.topic: method
 f1_keywords:
 - objidl/IPersistStorage.Load
 dev_langs:

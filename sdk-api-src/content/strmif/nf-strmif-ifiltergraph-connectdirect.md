@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: fb17bd98-dd6b-4fad-9b56-9cab10725b28
 ms.date: 12/05/2018
 ms.keywords: ConnectDirect, ConnectDirect method [DirectShow], ConnectDirect method [DirectShow],IFilterGraph interface, IFilterGraph interface [DirectShow],ConnectDirect method, IFilterGraph.ConnectDirect, IFilterGraph::ConnectDirect, IFilterGraphConnectDirect, dshow.ifiltergraph_connectdirect, strmif/IFilterGraph::ConnectDirect
-ms.topic: method
 f1_keywords:
 - strmif/IFilterGraph.ConnectDirect
 dev_langs:

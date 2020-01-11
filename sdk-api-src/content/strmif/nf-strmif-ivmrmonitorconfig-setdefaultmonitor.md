@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 85757536-ab7d-4b68-9e04-cf04fc4ebd5e
 ms.date: 12/05/2018
 ms.keywords: IVMRMonitorConfig interface [DirectShow],SetDefaultMonitor method, IVMRMonitorConfig.SetDefaultMonitor, IVMRMonitorConfig::SetDefaultMonitor, IVMRMonitorConfigSetDefaultMonitor, SetDefaultMonitor, SetDefaultMonitor method [DirectShow], SetDefaultMonitor method [DirectShow],IVMRMonitorConfig interface, dshow.ivmrmonitorconfig_setdefaultmonitor, strmif/IVMRMonitorConfig::SetDefaultMonitor
-ms.topic: method
 f1_keywords:
 - strmif/IVMRMonitorConfig.SetDefaultMonitor
 dev_langs:

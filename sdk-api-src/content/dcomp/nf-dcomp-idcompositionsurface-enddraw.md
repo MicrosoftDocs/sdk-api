@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 127195F7-6000-4D8C-B850-3E4D40BC4082
 ms.date: 12/05/2018
 ms.keywords: EndDraw, EndDraw method [DirectComposition], EndDraw method [DirectComposition],IDCompositionSurface interface, IDCompositionSurface interface [DirectComposition],EndDraw method, IDCompositionSurface.EndDraw, IDCompositionSurface::EndDraw, dcomp/IDCompositionSurface::EndDraw, directcomp.idcompositionsurface_enddraw
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionSurface.EndDraw
 dev_langs:

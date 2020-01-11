@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 4602CB19-D8C0-460E-A853-8DDECE643A76
 ms.date: 12/05/2018
 ms.keywords: TpInitializeCallbackEnviron, TpInitializeCallbackEnviron function, base.tpinitializecallbackenviron, winnt/TpInitializeCallbackEnviron
-ms.topic: function
 f1_keywords:
 - winnt/TpInitializeCallbackEnviron
 dev_langs:

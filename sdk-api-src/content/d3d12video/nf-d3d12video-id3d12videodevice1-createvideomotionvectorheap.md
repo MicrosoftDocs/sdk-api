@@ -3,7 +3,6 @@ UID: NF:d3d12video.ID3D12VideoDevice1.CreateVideoMotionVectorHeap
 title: ID3D12VideoDevice1::CreateVideoMotionVectorHeap
 ms.date: 4/26/2019
 ms.keywords: ID3D12VideoDevice1::CreateVideoMotionVectorHeap
-ms.topic: language-reference
 f1_keywords:
 - ID3D12VideoDevice1::CreateVideoMotionVectorHeap
 dev_langs:

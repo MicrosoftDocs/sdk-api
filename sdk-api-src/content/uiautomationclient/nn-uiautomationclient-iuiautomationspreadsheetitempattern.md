@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 4B90ED28-5F85-4F36-8F11-1F2B60CEC9E5
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationSpreadsheetItemPattern, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility], IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationSpreadsheetItemPattern, winauto.uiauto_IUIAutomationSpreadsheetItemPattern
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationSpreadsheetItemPattern
 dev_langs:

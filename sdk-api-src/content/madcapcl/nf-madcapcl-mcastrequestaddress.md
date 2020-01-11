@@ -7,7 +7,6 @@ tech.root: Madcap
 ms.assetid: 856eb251-1909-41a1-8e4f-c081942280de
 ms.date: 12/05/2018
 ms.keywords: McastRequestAddress, McastRequestAddress function [MADCAP], _mdhcp_mcastrequestaddress, madcap.mcastrequestaddress, madcapcl/McastRequestAddress
-ms.topic: function
 f1_keywords:
 - madcapcl/McastRequestAddress
 dev_langs:

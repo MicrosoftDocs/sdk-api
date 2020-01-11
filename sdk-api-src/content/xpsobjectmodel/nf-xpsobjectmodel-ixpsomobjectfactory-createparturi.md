@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 0ed86fd1-ebc0-4eb6-a332-0dea3a21c100
 ms.date: 12/05/2018
 ms.keywords: CreatePartUri, CreatePartUri method [XPS Documents and Packaging], CreatePartUri method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePartUri method, IXpsOMObjectFactory.CreatePartUri, IXpsOMObjectFactory::CreatePartUri, xps.ixpsomobjectfactory_createparturi, xpsobjectmodel/IXpsOMObjectFactory::CreatePartUri
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreatePartUri
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 4cb6e270-6bbf-414f-a9ed-b290da3dafe9
 ms.date: 12/05/2018
 ms.keywords: IFsiItem interface [IMAPI],get_Name method, IFsiItem.get_Name, IFsiItem::get_Name, get_Name, get_Name method [IMAPI], get_Name method [IMAPI],IFsiItem interface, imapi.ifsiitem_get_name, imapi2fs/IFsiItem::get_Name
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFsiItem.get_Name
 dev_langs:

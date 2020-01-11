@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: f47c07b8-0919-44d4-b331-e062341aa050
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],getProviderType method, ICEnroll4 interface [Security],getProviderType method, ICEnroll4.getProviderType, ICEnroll4::getProviderType, getProviderType, getProviderType method [Security], getProviderType method [Security],CEnroll object, getProviderType method [Security],ICEnroll4 interface, security.icenroll4_getprovidertype, xenroll/ICEnroll4::getProviderType
-ms.topic: method
 f1_keywords:
 - xenroll/ICEnroll4.getProviderType
 dev_langs:

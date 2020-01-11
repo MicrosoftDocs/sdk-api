@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 0a3e1fb8-360d-4bfa-8fa3-8c114b9fd681
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilVarBindCpy, SnmpUtilVarBindCpy function [SNMP], _snmp_snmputilvarbindcpy, snmp.snmputilvarbindcpy, snmp/SnmpUtilVarBindCpy
-ms.topic: function
 f1_keywords:
 - snmp/SnmpUtilVarBindCpy
 dev_langs:

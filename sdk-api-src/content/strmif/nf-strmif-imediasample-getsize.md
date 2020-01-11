@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6dc50db2-dc75-4c04-ac30-78275ee35ce8
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [DirectShow], GetSize method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetSize method, IMediaSample.GetSize, IMediaSample::GetSize, IMediaSampleGetSize, dshow.imediasample_getsize, strmif/IMediaSample::GetSize
-ms.topic: method
 f1_keywords:
 - strmif/IMediaSample.GetSize
 dev_langs:

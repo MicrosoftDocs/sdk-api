@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: e1b5d987-8365-4fea-a88b-0d574749b38a
 ms.date: 12/05/2018
 ms.keywords: TcModifyFlow, TcModifyFlow function [QOS], _gqos_tcmodifyflow, qos.tcmodifyflow, traffic/TcModifyFlow
-ms.topic: function
 f1_keywords:
 - traffic/TcModifyFlow
 dev_langs:

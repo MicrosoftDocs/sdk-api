@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 53953a5a-04a2-4749-a03b-8cbd5ac889f1
 ms.date: 12/05/2018
 ms.keywords: SHGetTemporaryPropertyForItem, SHGetTemporaryPropertyForItem function [Windows Shell], _shell_SHGetTemporaryPropertyForItem, shell.SHGetTemporaryPropertyForItem, shobjidl_core/SHGetTemporaryPropertyForItem
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHGetTemporaryPropertyForItem
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: a9ee26c4-cf5f-4ca9-b40a-0522097a2f07
 ms.date: 12/05/2018
 ms.keywords: IViewObjectEx interface [COM],QueryHitPoint method, IViewObjectEx.QueryHitPoint, IViewObjectEx::QueryHitPoint, QueryHitPoint, QueryHitPoint method [COM], QueryHitPoint method [COM],IViewObjectEx interface, _ole_iviewobjectex_queryhitpoint, com.iviewobjectex_queryhitpoint, ocidl/IViewObjectEx::QueryHitPoint
-ms.topic: method
 f1_keywords:
 - ocidl/IViewObjectEx.QueryHitPoint
 dev_langs:

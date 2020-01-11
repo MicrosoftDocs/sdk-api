@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 32f98df7-e357-4d17-9e33-f162a6ffb7ed
 ms.date: 12/05/2018
 ms.keywords: DAD_DragEnterEx, DAD_DragEnterEx function [Windows Shell], shell.DAD_DragEnterEx, shell_DAD_DragEnterEx, shlobj_core/DAD_DragEnterEx
-ms.topic: function
 f1_keywords:
 - shlobj_core/DAD_DragEnterEx
 dev_langs:

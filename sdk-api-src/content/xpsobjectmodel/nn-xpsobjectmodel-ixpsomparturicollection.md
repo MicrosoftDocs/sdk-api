@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 05fe9700-19e6-4e63-9693-cfa4b019f643
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPartUriCollection, IXpsOMPartUriCollection interface [XPS Documents and Packaging], IXpsOMPartUriCollection interface [XPS Documents and Packaging],described, xps.ixpsomparturicollection, xpsobjectmodel/IXpsOMPartUriCollection
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMPartUriCollection
 dev_langs:

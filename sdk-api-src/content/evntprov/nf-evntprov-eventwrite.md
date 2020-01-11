@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 93070eb7-c167-4419-abff-e861877dad07
 ms.date: 12/05/2018
 ms.keywords: EventWrite, EventWrite function [ETW], base.eventwrite_func, etw.eventwrite_func, evntprov/EventWrite
-ms.topic: function
 f1_keywords:
 - evntprov/EventWrite
 dev_langs:

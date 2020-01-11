@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: FB3DD615-F08B-4cdb-A6EB-3458C474EBEE
 ms.date: 12/05/2018
 ms.keywords: IPropertyUI, IPropertyUI interface [Windows Properties], IPropertyUI interface [Windows Properties],described, _shell_IPropertyUI, properties.IPropertyUI, shell.IPropertyUI, shobjidl_core/IPropertyUI
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IPropertyUI
 dev_langs:

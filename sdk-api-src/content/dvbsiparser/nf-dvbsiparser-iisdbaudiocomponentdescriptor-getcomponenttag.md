@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 4b06f566-b5e0-43c8-8694-24d913bbf971
 ms.date: 12/05/2018
 ms.keywords: GetComponentTag, GetComponentTag method [Microsoft TV Technologies], GetComponentTag method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetComponentTag method, IIsdbAudioComponentDescriptor.GetComponentTag, IIsdbAudioComponentDescriptor::GetComponentTag, dvbsiparser/IIsdbAudioComponentDescriptor::GetComponentTag, mstv.iisdbaudiocomponentdescriptor_getcomponenttag
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbAudioComponentDescriptor.GetComponentTag
 dev_langs:

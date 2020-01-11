@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 11f2703c-b596-4cb9-855a-d8cf4b947fae
 ms.date: 12/05/2018
 ms.keywords: OleCreateEx, OleCreateEx function [COM], _ole_OleCreateEx, com.olecreateex, ole2/OleCreateEx
-ms.topic: function
 f1_keywords:
 - ole2/OleCreateEx
 dev_langs:

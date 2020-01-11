@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: f7b8787f-f383-4cae-970e-8f4eb34b00da
 ms.date: 12/05/2018
 ms.keywords: ENUMRECTS, ENUMRECTS structure [Display Devices], display.enumrects, grstrcts_8ea2422f-1b57-4a7a-be86-adca8b830a36.xml, winddi/ENUMRECTS
-ms.topic: struct
 f1_keywords:
 - winddi/ENUMRECTS
 dev_langs:

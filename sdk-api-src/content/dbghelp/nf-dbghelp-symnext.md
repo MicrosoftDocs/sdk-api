@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: ffd2d416-7149-4a4c-a1d5-7a7f3bdf5dc4
 ms.date: 12/05/2018
 ms.keywords: SymNext, SymNext function, SymNextW, base.symnext, dbghelp/SymNext, dbghelp/SymNextW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymNext
 dev_langs:

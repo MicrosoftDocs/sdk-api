@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_rooturl.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],put_RootURL method, ISearchRoot.put_RootURL, ISearchRoot::put_RootURL, _search_ISearchRoot_put_RootURL, put_RootURL, put_RootURL method [search], put_RootURL method [search],ISearchRoot interface, search._search_ISearchRoot_put_RootURL, searchapi/ISearchRoot::put_RootURL
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchRoot.put_RootURL
 dev_langs:

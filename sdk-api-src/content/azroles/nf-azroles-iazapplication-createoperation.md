@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 4faf4fc3-5847-40a1-9f85-fb10bb3048b4
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],CreateOperation method, CreateOperation, CreateOperation method [Security], CreateOperation method [Security],AzApplication object, CreateOperation method [Security],IAzApplication interface, IAzApplication interface [Security],CreateOperation method, IAzApplication.CreateOperation, IAzApplication::CreateOperation, azroles/IAzApplication::CreateOperation, security.iazapplication_createoperation
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplication.CreateOperation
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: C4F49401-C863-4D3B-80EE-D36F714E7D90
 ms.date: 12/05/2018
 ms.keywords: IDataTransferManagerInterop, IDataTransferManagerInterop interface [Windows Shell], IDataTransferManagerInterop interface [Windows Shell],described, shell.idatatransfermanagerinterop, shobjidl_core/IDataTransferManagerInterop
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IDataTransferManagerInterop
 dev_langs:

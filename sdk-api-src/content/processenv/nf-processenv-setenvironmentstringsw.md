@@ -3,7 +3,6 @@ UID: NF:processenv.SetEnvironmentStringsW
 title: SetEnvironmentStringsW
 ms.date: 4/26/2019
 ms.keywords: SetEnvironmentStringsW
-ms.topic: language-reference
 f1_keywords:
 - SetEnvironmentStringsW
 dev_langs:

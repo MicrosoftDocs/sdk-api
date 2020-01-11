@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: 71508d8e-3265-4c08-913c-248af2d8bbd6
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IPFORWARDNUMBER, MIB_IPFORWARDNUMBER, MIB_IPFORWARDNUMBER structure [MIB], PMIB_IPFORWARDNUMBER, PMIB_IPFORWARDNUMBER structure pointer [MIB], _mpr_mib_ipforwardnumber, ipmib/MIB_IPFORWARDNUMBER, ipmib/PMIB_IPFORWARDNUMBER, iprtrmib/MIB_IPFORWARDNUMBER, iprtrmib/PMIB_IPFORWARDNUMBER, mib.mib_ipforwardnumber, rras.mib_ipforwardnumber'
-ms.topic: struct
 f1_keywords:
 - ipmib/MIB_IPFORWARDNUMBER
 dev_langs:

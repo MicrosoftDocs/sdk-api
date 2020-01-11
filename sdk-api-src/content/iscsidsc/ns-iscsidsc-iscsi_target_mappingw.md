@@ -7,7 +7,6 @@ tech.root: iSCSIDisc
 ms.assetid: bdc27e67-1d64-42cd-adfa-a792012b7142
 ms.date: 12/05/2018
 ms.keywords: '*PISCSI_TARGET_MAPPINGW, ISCSI_TARGET_MAPPING, ISCSI_TARGET_MAPPING structure [iSCSI Discovery Library API], ISCSI_TARGET_MAPPINGA, ISCSI_TARGET_MAPPINGW, PISCSI_TARGET_MAPPING, PISCSI_TARGET_MAPPING structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_target_mapping, iscsidsc/ISCSI_TARGET_MAPPING, iscsidsc/ISCSI_TARGET_MAPPINGA, iscsidsc/ISCSI_TARGET_MAPPINGW, iscsidsc/PISCSI_TARGET_MAPPING'
-ms.topic: struct
 f1_keywords:
 - iscsidsc/ISCSI_TARGET_MAPPING
 dev_langs:

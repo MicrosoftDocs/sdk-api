@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 4CE57EB6-0738-4A5B-84FE-9761363F304B
 ms.date: 12/5/2018
 ms.keywords: IDMLDispatchable, IDMLDispatchable interface, IDMLDispatchable interface,described, direct3d12.idmldispatchable, directml/IDMLDispatchable
-ms.topic: interface
 f1_keywords:
 - directml/IDMLDispatchable
 dev_langs:

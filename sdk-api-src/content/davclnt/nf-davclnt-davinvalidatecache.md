@@ -7,7 +7,6 @@ tech.root: WebDAV
 ms.assetid: f111b19c-5472-463a-b33d-7d2188d224e8
 ms.date: 12/05/2018
 ms.keywords: DavInvalidateCache, DavInvalidateCache function [WebDAV], davclnt/DavInvalidateCache, webdav.davinvalidatecache
-ms.topic: function
 f1_keywords:
 - davclnt/DavInvalidateCache
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ef02da20-7c81-4c0b-83fd-7e4c0a36ea1a
 ms.date: 12/05/2018
 ms.keywords: GetRecordIsHiddenBitSet, GetRecordIsHiddenBitSet method [Microsoft TV Technologies], GetRecordIsHiddenBitSet method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordIsHiddenBitSet method, IATSC_VCT.GetRecordIsHiddenBitSet, IATSC_VCT::GetRecordIsHiddenBitSet, IATSC_VCTGetRecordIsHiddenBitSet, atscpsipparser/IATSC_VCT::GetRecordIsHiddenBitSet, mstv.iatsc_vct_getrecordishiddenbitset
-ms.topic: method
 f1_keywords:
 - atscpsipparser/IATSC_VCT.GetRecordIsHiddenBitSet
 dev_langs:

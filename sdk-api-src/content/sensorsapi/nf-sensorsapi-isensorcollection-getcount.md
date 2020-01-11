@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: 40bcf993-55fb-4d75-91dc-44d770a0e226
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method, GetCount method,ISensorCollection interface, ISensorCollection interface,GetCount method, ISensorCollection.GetCount, ISensorCollection::GetCount, sensorsapi/ISensorCollection::GetCount, winsensors_com_ref.isensorcollection_getcount
-ms.topic: method
 f1_keywords:
 - sensorsapi/ISensorCollection.GetCount
 dev_langs:

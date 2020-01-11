@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 04FCD129-3A3B-40EA-AD62-01C674CF2E61
 ms.date: 12/05/2018
 ms.keywords: DeleteEnclave, DeleteEnclave function, base.deleteenclave, enclaveapi/DeleteEnclave
-ms.topic: function
 f1_keywords:
 - enclaveapi/DeleteEnclave
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 26938d07-d772-4e72-a6aa-57dd2f2cece1
 ms.date: 12/05/2018
 ms.keywords: GetRunningObjectTable, GetRunningObjectTable method [COM], GetRunningObjectTable method [COM],IBindCtx interface, IBindCtx interface [COM],GetRunningObjectTable method, IBindCtx.GetRunningObjectTable, IBindCtx::GetRunningObjectTable, _com_ibindctx_getrunningobjecttable, com.ibindctx_getrunningobjecttable, objidl/IBindCtx::GetRunningObjectTable
-ms.topic: method
 f1_keywords:
 - objidl/IBindCtx.GetRunningObjectTable
 dev_langs:

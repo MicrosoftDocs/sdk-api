@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: E29B3EDC-5037-4409-B1BB-94457A249D8A
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform interface [DirectComposition],SetCenterY method, IDCompositionScaleTransform.SetCenterY, IDCompositionScaleTransform.SetCenterY(IDCompositionAnimation), IDCompositionScaleTransform::SetCenterY, IDCompositionScaleTransform::SetCenterY(IDCompositionAnimation), IDCompositionScaleTransform::SetCenterY(IDCompositionAnimation*), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionScaleTransform interface, dcomp/IDCompositionScaleTransform::SetCenterY, directcomp.idcompositionscaletransform_setcentery_idcompositionanimation
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionScaleTransform.SetCenterY
 dev_langs:

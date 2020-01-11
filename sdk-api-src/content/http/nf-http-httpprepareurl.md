@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 45199AEE-950D-44C4-8590-96077DBDC846
 ms.date: 12/05/2018
 ms.keywords: HttpPrepareUrl, HttpPrepareUrl function [HTTP], http.httpprepareurl, http/HttpPrepareUrl
-ms.topic: function
 f1_keywords:
 - http/HttpPrepareUrl
 dev_langs:

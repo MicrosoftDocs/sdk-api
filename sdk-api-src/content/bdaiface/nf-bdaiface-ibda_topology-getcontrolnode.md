@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: eff76633-10c0-4f71-a267-b2e454dcfa6c
 ms.date: 12/05/2018
 ms.keywords: GetControlNode, GetControlNode method [Microsoft TV Technologies], GetControlNode method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],GetControlNode method, IBDA_Topology.GetControlNode, IBDA_Topology::GetControlNode, IBDA_TopologyGetControlNode, bdaiface/IBDA_Topology::GetControlNode, mstv.ibda_topology_getcontrolnode
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_Topology.GetControlNode
 dev_langs:

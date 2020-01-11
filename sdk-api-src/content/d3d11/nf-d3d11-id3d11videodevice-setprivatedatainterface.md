@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: E20FC248-92B2-4284-9EDC-9D5E6AB9506B
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoDevice interface [Media Foundation],SetPrivateDataInterface method, ID3D11VideoDevice.SetPrivateDataInterface, ID3D11VideoDevice::SetPrivateDataInterface, SetPrivateDataInterface, SetPrivateDataInterface method [Media Foundation], SetPrivateDataInterface method [Media Foundation],ID3D11VideoDevice interface, d3d11/ID3D11VideoDevice::SetPrivateDataInterface, mf.id3d11videodevice_setprivatedatainterface
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11VideoDevice.SetPrivateDataInterface
 dev_langs:

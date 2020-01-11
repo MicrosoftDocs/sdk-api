@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ea581065-b10b-4a2a-9090-99d6fd140ea9
 ms.date: 12/05/2018
 ms.keywords: CheckEntitlementToken, CheckEntitlementToken method [Microsoft TV Technologies], CheckEntitlementToken method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],CheckEntitlementToken method, IBDA_ConditionalAccessEx.CheckEntitlementToken, IBDA_ConditionalAccessEx::CheckEntitlementToken, bdaiface/IBDA_ConditionalAccessEx::CheckEntitlementToken, mstv.ibda_conditionalaccessex_checkentitlementtoken
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_ConditionalAccessEx.CheckEntitlementToken
 dev_langs:

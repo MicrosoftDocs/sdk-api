@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 6c748726-c81d-4669-87a1-28aad0fccead
 ms.date: 12/05/2018
 ms.keywords: GetSystemTimeAdjustment, GetSystemTimeAdjustment function, _win32_getsystemtimeadjustment, base.getsystemtimeadjustment, sysinfoapi/GetSystemTimeAdjustment
-ms.topic: function
 f1_keywords:
 - sysinfoapi/GetSystemTimeAdjustment
 dev_langs:

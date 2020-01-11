@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 685eaf9e-6cc8-4c38-be34-afa4b504a326
 ms.date: 12/05/2018
 ms.keywords: GetCodecInfo, GetCodecInfo method [windows Media Format], GetCodecInfo method [windows Media Format],IWMHeaderInfo2 interface, GetCodecInfo method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo2 interface [windows Media Format],GetCodecInfo method, IWMHeaderInfo2.GetCodecInfo, IWMHeaderInfo2::GetCodecInfo, IWMHeaderInfo2GetCodecInfo, IWMHeaderInfo3 interface [windows Media Format],GetCodecInfo method, IWMHeaderInfo3::GetCodecInfo, wmformat.iwmheaderinfo2_getcodecinfo, wmsdkidl/IWMHeaderInfo2::GetCodecInfo, wmsdkidl/IWMHeaderInfo3::GetCodecInfo
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMHeaderInfo2.GetCodecInfo
 dev_langs:

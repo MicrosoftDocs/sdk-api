@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2B61EDB2-F967-450a-9294-4A6597859F2C
 ms.date: 12/05/2018
 ms.keywords: IDListContainerIsConsistent, IDListContainerIsConsistent function [Windows Shell], shell.IDListContainerIsConsistent, shlobj_core/IDListContainerIsConsistent
-ms.topic: function
 f1_keywords:
 - shlobj_core/IDListContainerIsConsistent
 dev_langs:

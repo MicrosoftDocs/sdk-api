@@ -4,7 +4,6 @@ title: LPWSPENUMNETWORKEVENTS
 description: The LPWSPEnumNetworkEvents function reports occurrences of network events for the indicated socket.
 ms.date: 9/12/2019
 ms.keywords: LPWSPENUMNETWORKEVENTS
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

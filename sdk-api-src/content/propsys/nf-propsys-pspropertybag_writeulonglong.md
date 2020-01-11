@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 37854C80-00B9-465c-88D9-619695D418CD
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WriteULONGLONG, PSPropertyBag_WriteULONGLONG function [Windows Properties], properties.PSPropertyBag_WriteULONGLONG, propsys/PSPropertyBag_WriteULONGLONG, shell.PSPropertyBag_WriteULONGLONG, shell_PSPropertyBag_WriteULONGLONG
-ms.topic: function
 f1_keywords:
 - propsys/PSPropertyBag_WriteULONGLONG
 dev_langs:

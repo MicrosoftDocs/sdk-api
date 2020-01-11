@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMBYTEN4
 ms.date: 12/05/2018
 ms.keywords: XMBYTEN4, XMBYTEN4 structure [DirectX Math Support APIs], directxpackedvector/XMBYTEN4, dxmath.xmbyten4
-ms.topic: struct
 f1_keywords:
 - directxpackedvector/XMBYTEN4
 dev_langs:

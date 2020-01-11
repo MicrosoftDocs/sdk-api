@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c1f9ab7b-8915-4433-ae9f-57b1aedcad4d
 ms.date: 12/05/2018
 ms.keywords: THDTYPE, THDTYPE enumeration [COM], THDTYPE_BLOCKMESSAGES, THDTYPE_PROCESSMESSAGES, _com_THDTYPE, com.thdtype, objidlbase/THDTYPE, objidlbase/THDTYPE_BLOCKMESSAGES, objidlbase/THDTYPE_PROCESSMESSAGES
-ms.topic: enum
 f1_keywords:
 - objidlbase/THDTYPE
 dev_langs:

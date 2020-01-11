@@ -5,7 +5,6 @@ description: Specifies the automatic processing features that a video processor 
 tech.root: mf
 ms.assetid: 4a93c0be-32e7-4c7a-a015-3195490280cb
 ms.date: 05/28/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS
 dev_langs:

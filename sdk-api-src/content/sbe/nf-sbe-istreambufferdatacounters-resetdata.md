@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 643f0f67-8915-4097-b53a-7007610c9c8a
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferDataCounters interface [Microsoft TV Technologies],ResetData method, IStreamBufferDataCounters.ResetData, IStreamBufferDataCounters::ResetData, IStreamBufferDataCountersResetData, ResetData, ResetData method [Microsoft TV Technologies], ResetData method [Microsoft TV Technologies],IStreamBufferDataCounters interface, mstv.istreambufferdatacounters_resetdata, sbe/IStreamBufferDataCounters::ResetData
-ms.topic: method
 f1_keywords:
 - sbe/IStreamBufferDataCounters.ResetData
 dev_langs:

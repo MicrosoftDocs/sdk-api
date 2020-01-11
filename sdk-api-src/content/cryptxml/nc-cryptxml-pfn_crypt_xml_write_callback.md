@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 722f6ab4-ca6f-460d-9282-e4b7ca484077
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_XML_WRITE_CALLBACK, PFN_CRYPT_XML_WRITE_CALLBACK callback, PFN_CRYPT_XML_WRITE_CALLBACK callback function [Security], cryptxml/PFN_CRYPT_XML_WRITE_CALLBACK, security.pfn_crypt_xml_write_callback
-ms.topic: callback
 f1_keywords:
 - cryptxml/PFN_CRYPT_XML_WRITE_CALLBACK
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 020490f1-ccbe-41aa-b6ad-022be9c9bef4
 ms.date: 12/05/2018
 ms.keywords: FWPM_CONNECTION_SUBSCRIPTION0, FWPM_CONNECTION_SUBSCRIPTION0 structure [Filtering], fwp.fwpm_connection_subscription0, fwpmtypes/FWPM_CONNECTION_SUBSCRIPTION0
-ms.topic: struct
 f1_keywords:
 - fwpmtypes/FWPM_CONNECTION_SUBSCRIPTION0
 dev_langs:

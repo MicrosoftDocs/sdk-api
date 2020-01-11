@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 8fe9f474-c47b-4b53-8cbc-d658c82d7591
 ms.date: 12/05/2018
 ms.keywords: IContextMenuProvider interface [MMC],ShowContextMenu method, IContextMenuProvider.ShowContextMenu, IContextMenuProvider::ShowContextMenu, ShowContextMenu, ShowContextMenu method [MMC], ShowContextMenu method [MMC],IContextMenuProvider interface, _slate_icontextmenuprovider_showcontextmenu, mmc.icontextmenuprovider_showcontextmenu, mmc/IContextMenuProvider::ShowContextMenu
-ms.topic: method
 f1_keywords:
 - mmc/IContextMenuProvider.ShowContextMenu
 dev_langs:

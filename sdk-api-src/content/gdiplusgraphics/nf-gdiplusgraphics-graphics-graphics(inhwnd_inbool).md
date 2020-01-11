@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsconstructors\graphics_7hwnd_icm.htm
 ms.date: 12/05/2018
 ms.keywords: Graphics, Graphics class [GDI+],Graphics constructor, Graphics constructor [GDI+], Graphics constructor [GDI+],Graphics class, Graphics.Graphics, Graphics.Graphics(HWND,BOOL), Graphics.Graphics(IN HWND,IN BOOL), Graphics::Graphics, Graphics::Graphics(IN HWND,IN BOOL), _gdiplus_CLASS_Graphics_Graphics_hwnd_icm_, gdiplus._gdiplus_CLASS_Graphics_Graphics_hwnd_icm_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.Graphics
 dev_langs:

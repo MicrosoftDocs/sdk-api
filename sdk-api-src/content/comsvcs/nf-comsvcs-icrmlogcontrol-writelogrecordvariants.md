@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: ebd3943d-0c77-49fe-a53e-bc0c45e13a54
 ms.date: 12/05/2018
 ms.keywords: ICrmLogControl interface [COM+],WriteLogRecordVariants method, ICrmLogControl.WriteLogRecordVariants, ICrmLogControl::WriteLogRecordVariants, WriteLogRecordVariants, WriteLogRecordVariants method [COM+], WriteLogRecordVariants method [COM+],ICrmLogControl interface, _dtc_ICrmLogControl_WriteLogRecordVariants, comsvcs/ICrmLogControl::WriteLogRecordVariants, cos.icrmlogcontrol_writelogrecordvariants
-ms.topic: method
 f1_keywords:
 - comsvcs/ICrmLogControl.WriteLogRecordVariants
 dev_langs:

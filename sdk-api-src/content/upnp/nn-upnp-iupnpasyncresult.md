@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 53854510-BB0C-41E6-8651-F34991B24D5E
 ms.date: 12/05/2018
 ms.keywords: IUPnPAsyncResult, IUPnPAsyncResult interface [UPnP APIs], IUPnPAsyncResult interface [UPnP APIs],described, upnp.iupnpasyncresult, upnp/IUPnPAsyncResult
-ms.topic: interface
 f1_keywords:
 - upnp/IUPnPAsyncResult
 dev_langs:

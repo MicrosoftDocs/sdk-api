@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1276b63d-6d5e-4e60-b936-b307cd922b4b
 ms.date: 12/05/2018
 ms.keywords: GetFirstPage, GetFirstPage method [Windows Shell], GetFirstPage method [Windows Shell],IWizardExtension interface, IWizardExtension interface [Windows Shell],GetFirstPage method, IWizardExtension.GetFirstPage, IWizardExtension::GetFirstPage, _shell_IWizardExtension_GetFirstPage, shell.IWizardExtension_GetFirstPage, shobjidl/IWizardExtension::GetFirstPage
-ms.topic: method
 f1_keywords:
 - shobjidl/IWizardExtension.GetFirstPage
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: E271B4DC-5F09-426A-A5D3-43A48F30CB24
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSurface, IDCompositionSurface interface [DirectComposition], IDCompositionSurface interface [DirectComposition],described, dcomp/IDCompositionSurface, directcomp.idcompositionsurface
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionSurface
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: 6861dcea-7f50-4175-85f1-b59478d6c119
 ms.date: 12/05/2018
 ms.keywords: '*LPNTMS_ALLOCATION_INFORMATION, LPNTMS_ALLOCATION_INFORMATION, LPNTMS_ALLOCATION_INFORMATION structure pointer [Files], NTMS_ALLOCATION_INFORMATION, NTMS_ALLOCATION_INFORMATION structure [Files], _zaw_ntms_allocation_information, base.ntms_allocation_information, fs.ntms_allocation_information, ntmsapi/LPNTMS_ALLOCATION_INFORMATION, ntmsapi/NTMS_ALLOCATION_INFORMATION'
-ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_ALLOCATION_INFORMATION
 dev_langs:

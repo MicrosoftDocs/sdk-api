@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6b40ba9e-8562-4d31-beaf-e4d4858bf145
 ms.date: 12/05/2018
 ms.keywords: IVPNotify, IVPNotify interface [DirectShow], IVPNotify interface [DirectShow],described, IVPNotifyInterface, dshow.ivpnotify, vpnotify/IVPNotify
-ms.topic: interface
 f1_keywords:
 - vpnotify/IVPNotify
 dev_langs:

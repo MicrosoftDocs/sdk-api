@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: da264d42-28ee-4589-a790-51da9f788ee9
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_REMOVE_CLUSTER_GROUP_DEPENDENCY, PCLUSAPI_REMOVE_CLUSTER_GROUP_DEPENDENCY function [Failover Cluster], RemoveClusterGroupDependency, RemoveClusterGroupDependency function [Failover Cluster], clusapi/PCLUSAPI_REMOVE_CLUSTER_GROUP_DEPENDENCY, clusapi/RemoveClusterGroupDependency, mscs.removeclustergroupdependency
-ms.topic: function
 f1_keywords:
 - clusapi/RemoveClusterGroupDependency
 dev_langs:

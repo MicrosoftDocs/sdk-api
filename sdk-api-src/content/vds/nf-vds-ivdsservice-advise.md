@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: be1d5385-6c72-4847-9ed7-4d2309a3e9ac
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [VDS], Advise method [VDS],IVdsService interface, IVdsService interface [VDS],Advise method, IVdsService.Advise, IVdsService::Advise, base.ivdsservice_advise, vds/IVdsService::Advise
-ms.topic: method
 f1_keywords:
 - vds/IVdsService.Advise
 dev_langs:

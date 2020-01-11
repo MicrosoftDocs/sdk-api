@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 2af5d69d-190e-4814-8d8b-438431808625
 ms.date: 12/05/2018
 ms.keywords: FD_SET, _win32_fd_set_2, fd_set, fd_set structure [Winsock], winsock.fd_set_2, winsock/fd_set
-ms.topic: macro
 f1_keywords:
 - winsock/fd_set
 dev_langs:

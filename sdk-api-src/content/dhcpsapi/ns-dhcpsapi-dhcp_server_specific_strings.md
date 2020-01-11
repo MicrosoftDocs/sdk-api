@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 5fc52d5c-22b0-454b-bc07-8f9c4ca163e3
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_SERVER_SPECIFIC_STRINGS, DHCP_SERVER_SPECIFIC_STRINGS, DHCP_SERVER_SPECIFIC_STRINGS structure [DHCP], PDHCP_SERVER_SPECIFIC_STRINGS, PDHCP_SERVER_SPECIFIC_STRINGS structure pointer [DHCP], dhcp.dhcp_server_specific_strings, dhcpsapi/DHCP_SERVER_SPECIFIC_STRINGS, dhcpsapi/PDHCP_SERVER_SPECIFIC_STRINGS'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_SERVER_SPECIFIC_STRINGS
 dev_langs:

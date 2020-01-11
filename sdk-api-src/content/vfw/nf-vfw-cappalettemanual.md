@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 81dc204a-36a5-45eb-8c29-a6004d3cd49c
 ms.date: 12/05/2018
 ms.keywords: _win32_capPaletteManual, capPaletteManual, capPaletteManual macro [Windows Multimedia], multimedia.cappalettemanual, vfw/capPaletteManual
-ms.topic: macro
 f1_keywords:
 - vfw/capPaletteManual
 dev_langs:

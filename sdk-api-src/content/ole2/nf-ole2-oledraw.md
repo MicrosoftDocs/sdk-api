@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c45c6746-59ea-43bb-9f2b-2182d7a3fc7a
 ms.date: 12/05/2018
 ms.keywords: OleDraw, OleDraw function [COM], _ole_OleDraw, com.oledraw, ole/OleDraw
-ms.topic: function
 f1_keywords:
 - ole2/OleDraw
 dev_langs:

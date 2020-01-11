@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: f08753b2-9666-498d-aee4-8eb2c7f0d95b
 ms.date: 12/05/2018
 ms.keywords: SetShellNext, SetShellNext function [Windows API], icwcfg/SetShellNext, winprog.setshellnext
-ms.topic: function
 f1_keywords:
 - icwcfg/SetShellNext
 dev_langs:

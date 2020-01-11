@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 97cde843-65bc-46ae-a6ae-724f2c9c5217
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineOpen, TSPI_lineOpen function [TAPI 2.2], _tspi_tspi_lineopen, tspi.tspi_lineopen, tspi/TSPI_lineOpen
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineOpen
 dev_langs:

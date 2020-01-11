@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: 915e676a-4aaa-4b10-b913-51b856c61dba
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquirePlugin interface [Picture Acquisition],TransferComplete method, IPhotoAcquirePlugin.TransferComplete, IPhotoAcquirePlugin::TransferComplete, IPhotoAcquirePluginTransferComplete, TransferComplete, TransferComplete method [Picture Acquisition], TransferComplete method [Picture Acquisition],IPhotoAcquirePlugin interface, photoacquire/IPhotoAcquirePlugin::TransferComplete, picacq.iphotoacquireplugin_transfercomplete
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoAcquirePlugin.TransferComplete
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimage\getbitmap.htm
 ms.date: 12/05/2018
 ms.keywords: GetBitmap, GetBitmap method [Windows Ribbon], GetBitmap method [Windows Ribbon],IUIImage interface, IUIImage interface [Windows Ribbon],GetBitmap method, IUIImage.GetBitmap, IUIImage::GetBitmap, scenicintent_IUIImage_GetBitmap, uiribbon/IUIImage::GetBitmap, windowsribbon.windowsribbon_iuiimage_getbitmap
-ms.topic: method
 f1_keywords:
 - uiribbon/IUIImage.GetBitmap
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: d04f6925-ac38-4adf-ac2e-701db5435c90
 ms.date: 12/05/2018
 ms.keywords: MprAdminUserGetInfo, MprAdminUserGetInfo function [RAS], _mpr_mpradminusergetinfo, mprapi/MprAdminUserGetInfo, rras.mpradminusergetinfo
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminUserGetInfo
 dev_langs:

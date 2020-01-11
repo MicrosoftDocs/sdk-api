@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 94B34741-88AA-4AD4-B1F4-30A7AE5AFCC8
 ms.date: 12/05/2018
 ms.keywords: GetLanguageException, GetLanguageException method [Windows Runtime], GetLanguageException method [Windows Runtime],ILanguageExceptionErrorInfo interface, ILanguageExceptionErrorInfo interface [Windows Runtime],GetLanguageException method, ILanguageExceptionErrorInfo.GetLanguageException, ILanguageExceptionErrorInfo::GetLanguageException, restrictederrorinfo/ILanguageExceptionErrorInfo::GetLanguageException, winrt.ilanguageexceptionerrorinfo_getlanguageexception
-ms.topic: method
 f1_keywords:
 - restrictederrorinfo/ILanguageExceptionErrorInfo.GetLanguageException
 dev_langs:

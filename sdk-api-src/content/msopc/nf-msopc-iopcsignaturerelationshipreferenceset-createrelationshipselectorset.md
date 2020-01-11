@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 7b11f066-3e3a-4dd0-a938-853301bc6914
 ms.date: 12/05/2018
 ms.keywords: CreateRelationshipSelectorSet, CreateRelationshipSelectorSet method [Open Packaging Conventions], CreateRelationshipSelectorSet method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceSet interface, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],CreateRelationshipSelectorSet method, IOpcSignatureRelationshipReferenceSet.CreateRelationshipSelectorSet, IOpcSignatureRelationshipReferenceSet::CreateRelationshipSelectorSet, msopc/IOpcSignatureRelationshipReferenceSet::CreateRelationshipSelectorSet, opc.iopcsignaturerelationshipreferenceset_createrelationshipselectorset
-ms.topic: method
 f1_keywords:
 - msopc/IOpcSignatureRelationshipReferenceSet.CreateRelationshipSelectorSet
 dev_langs:

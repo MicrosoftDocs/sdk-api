@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 8e2d6103-baed-40ee-9a94-9434cf8e3474
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],TuningSpacesForCLSID method, ITuningSpaceContainer.TuningSpacesForCLSID, ITuningSpaceContainer::TuningSpacesForCLSID, TuningSpacesForCLSID, TuningSpacesForCLSID method [Microsoft TV Technologies], TuningSpacesForCLSID method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_tuningspacesforclsid, tuner/ITuningSpaceContainer::TuningSpacesForCLSID
-ms.topic: method
 f1_keywords:
 - tuner/ITuningSpaceContainer.TuningSpacesForCLSID
 dev_langs:

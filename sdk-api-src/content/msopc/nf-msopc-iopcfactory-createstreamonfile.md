@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: d41bb51d-127c-4b24-8c93-4224404e0b2d
 ms.date: 12/05/2018
 ms.keywords: CreateStreamOnFile, CreateStreamOnFile method [Open Packaging Conventions], CreateStreamOnFile method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreateStreamOnFile method, IOpcFactory.CreateStreamOnFile, IOpcFactory::CreateStreamOnFile, msopc/IOpcFactory::CreateStreamOnFile, opc.iopcfactory_createstreamonfile
-ms.topic: method
 f1_keywords:
 - msopc/IOpcFactory.CreateStreamOnFile
 dev_langs:

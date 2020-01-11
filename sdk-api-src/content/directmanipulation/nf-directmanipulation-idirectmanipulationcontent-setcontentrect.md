@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 41b14e56-ba24-4ad2-9dac-28daf7d13c6a
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationContent interface [Direct Manipulation],SetContentRect method, IDirectManipulationContent.SetContentRect, IDirectManipulationContent::SetContentRect, SetContentRect, SetContentRect method [Direct Manipulation], SetContentRect method [Direct Manipulation],IDirectManipulationContent interface, directmanipulation.idirectmanipulationcontent_setcontentrect, directmanipulation/IDirectManipulationContent::SetContentRect
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationContent.SetContentRect
 dev_langs:

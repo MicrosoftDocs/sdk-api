@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: b6fb8e25-b6f9-4134-bb63-0a96fea88db8
 ms.date: 12/05/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],WriteData method, IAVIStream.WriteData, IAVIStream::WriteData, WriteData, WriteData method [Windows Multimedia], WriteData method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_WriteData, multimedia.iavistream_writedata, vfw/IAVIStream::WriteData
-ms.topic: method
 f1_keywords:
 - vfw/IAVIStream.WriteData
 dev_langs:

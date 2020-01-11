@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: dbf0b70c-5be0-4acc-9c44-bf32f6f752fd
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],SetOption method, IUpdateServiceManager.SetOption, IUpdateServiceManager::SetOption, SetOption, SetOption method [Windows Update Agent], SetOption method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_setoption, wuapi/IUpdateServiceManager::SetOption
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateServiceManager.SetOption
 dev_langs:

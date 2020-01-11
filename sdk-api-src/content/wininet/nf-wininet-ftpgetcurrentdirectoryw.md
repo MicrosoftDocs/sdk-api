@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 1b757061-469b-4c11-9d0d-38b300216221
 ms.date: 12/05/2018
 ms.keywords: FtpGetCurrentDirectory, FtpGetCurrentDirectory function [WinINet], FtpGetCurrentDirectoryA, FtpGetCurrentDirectoryW, _inet_ftpgetcurrentdirectory_function, wininet.ftpgetcurrentdirectory, wininet/FtpGetCurrentDirectory, wininet/FtpGetCurrentDirectoryA, wininet/FtpGetCurrentDirectoryW
-ms.topic: function
 f1_keywords:
 - wininet/FtpGetCurrentDirectory
 dev_langs:

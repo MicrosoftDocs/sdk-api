@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 0272c1e9-d910-4a9a-9dee-9d875437ca99
 ms.date: 12/05/2018
 ms.keywords: ExtendedProperties property [Tablet PC], ExtendedProperties property [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ExtendedProperties property, IInkDisp.ExtendedProperties, IInkDisp.get_ExtendedProperties, IInkDisp::ExtendedProperties, IInkDisp::get_ExtendedProperties, InkDisp.get_ExtendedProperties, get_ExtendedProperties, msinkaut/IInkDisp::ExtendedProperties, msinkaut/IInkDisp::get_ExtendedProperties, tablet.inkdisp_extendedproperties
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkDisp.ExtendedProperties
 dev_langs:

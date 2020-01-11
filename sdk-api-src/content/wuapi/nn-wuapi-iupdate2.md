@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 75041e85-0f3c-4996-9af2-d2969549393e
 ms.date: 12/05/2018
 ms.keywords: IUpdate2, IUpdate2 interface [Windows Update Agent], IUpdate2 interface [Windows Update Agent],described, wua.iupdate2, wuapi/IUpdate2
-ms.topic: interface
 f1_keywords:
 - wuapi/IUpdate2
 dev_langs:

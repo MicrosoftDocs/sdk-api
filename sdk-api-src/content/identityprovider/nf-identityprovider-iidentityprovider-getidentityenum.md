@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 9e216959-7038-43cf-a57d-bee85d521f58
 ms.date: 12/05/2018
 ms.keywords: GetIdentityEnum, GetIdentityEnum method [Security], GetIdentityEnum method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],GetIdentityEnum method, IIdentityProvider.GetIdentityEnum, IIdentityProvider::GetIdentityEnum, identityprovider/IIdentityProvider::GetIdentityEnum, security.iidentityprovider_getidentityenum
-ms.topic: method
 f1_keywords:
 - identityprovider/IIdentityProvider.GetIdentityEnum
 dev_langs:

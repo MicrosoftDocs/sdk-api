@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 73f969c3-3fa7-43f5-88c5-ba78e59a8d1c
 ms.date: 12/05/2018
 ms.keywords: InternetOpenUrl, InternetOpenUrl function [WinINet], InternetOpenUrlA, InternetOpenUrlW, _inet_internetopenurl_function, wininet.internetopenurl, wininet/InternetOpenUrl, wininet/InternetOpenUrlA, wininet/InternetOpenUrlW
-ms.topic: function
 f1_keywords:
 - wininet/InternetOpenUrl
 dev_langs:

@@ -5,7 +5,6 @@ description: Provides video decoding and processing capabilities of a Microsoft 
 tech.root: mf
 ms.assetid: 283d0a88-eb23-4083-af27-c08d2ce463a2
 ms.date: 05/28/2019
-ms.topic: interface
 f1_keywords:
 - ID3D12VideoDevice
 dev_langs:

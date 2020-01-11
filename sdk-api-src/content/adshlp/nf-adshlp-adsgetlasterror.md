@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 5e9899e9-e51e-4785-812a-f86eac6e2006
 ms.date: 12/05/2018
 ms.keywords: ADsGetLastError, ADsGetLastError function [ADSI], _ds_adsgetlasterror, adshlp/ADsGetLastError, adsi.adsgetlasterror
-ms.topic: function
 f1_keywords:
 - adshlp/ADsGetLastError
 dev_langs:

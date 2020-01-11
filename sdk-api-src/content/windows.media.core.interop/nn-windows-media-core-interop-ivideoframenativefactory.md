@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: A884D0B5-6E12-4225-A46B-DD0C0A77B58E
 ms.date: 12/05/2018
 ms.keywords: IVideoFrameNativeFactory, IVideoFrameNativeFactory interface [Windows Runtime], IVideoFrameNativeFactory interface [Windows Runtime],described, windows/IVideoFrameNativeFactory, winrt.ivideoframenativefactory
-ms.topic: interface
 f1_keywords:
 - windows.media.core.interop/IVideoFrameNativeFactory
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: c50954b2-0e63-412e-85ca-5149ed73791f
 ms.date: 12/05/2018
 ms.keywords: PeerCollabParseContact, PeerCollabParseContact function [Peer Networking], p2p.peercollabparsecontact, p2p/PeerCollabParseContact
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabParseContact
 dev_langs:

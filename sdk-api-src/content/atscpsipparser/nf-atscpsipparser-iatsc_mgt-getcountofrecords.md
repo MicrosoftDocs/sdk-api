@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 9f0c7f28-3280-4c2a-a030-68326eac23f0
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetCountOfRecords method, IATSC_MGT.GetCountOfRecords, IATSC_MGT::GetCountOfRecords, IATSC_MGTGetCountOfRecords, atscpsipparser/IATSC_MGT::GetCountOfRecords, mstv.iatsc_mgt_getcountofrecords
-ms.topic: method
 f1_keywords:
 - atscpsipparser/IATSC_MGT.GetCountOfRecords
 dev_langs:

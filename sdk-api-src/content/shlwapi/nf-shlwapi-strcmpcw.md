@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f4c4bc76-1e42-4cb0-bf74-d395743c9b1c
 ms.date: 12/05/2018
 ms.keywords: StrCmpC, StrCmpC function [Windows Shell], StrCmpCA, StrCmpCW, _shell_StrCmpC, shell.StrCmpC, shlwapi/StrCmpC, shlwapi/StrCmpCA, shlwapi/StrCmpCW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrCmpC
 dev_langs:

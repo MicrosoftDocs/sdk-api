@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: f5916b17-66ed-46d4-87f1-5ee2ef57c1a1
 ms.date: 12/05/2018
 ms.keywords: IEnumDiskQuotaUsers, IEnumDiskQuotaUsers interface [Files], IEnumDiskQuotaUsers interface [Files],described, _win32_ienumdiskquotausers, base.ienumdiskquotausers, dskquota/IEnumDiskQuotaUsers, fs.ienumdiskquotausers
-ms.topic: interface
 f1_keywords:
 - dskquota/IEnumDiskQuotaUsers
 dev_langs:

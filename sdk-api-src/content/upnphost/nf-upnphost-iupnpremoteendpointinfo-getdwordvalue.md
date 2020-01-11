@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: efbb0671-cb32-41e1-8405-1d145c247673
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, GetDwordValue, GetDwordValue method [UPnP APIs], GetDwordValue method [UPnP APIs],IUPnPRemoteEndpointInfo interface, IUPnPRemoteEndpointInfo interface [UPnP APIs],GetDwordValue method, IUPnPRemoteEndpointInfo.GetDwordValue, IUPnPRemoteEndpointInfo::GetDwordValue, upnp.iupnpremoteendpointinfo_getdwordvalue, upnphost/IUPnPRemoteEndpointInfo::GetDwordValue
-ms.topic: method
 f1_keywords:
 - upnphost/IUPnPRemoteEndpointInfo.GetDwordValue
 dev_langs:

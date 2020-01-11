@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: b87c942b-8e58-471d-8cdf-e46cdac647c4
 ms.date: 12/05/2018
 ms.keywords: '*PTOKEN_CONTROL, PTOKEN_CONTROL, PTOKEN_CONTROL structure pointer [Security], TOKEN_CONTROL, TOKEN_CONTROL structure [Security], _TOKEN_CONTROL, _win32_token_control_str, security.token_control, winnt/PTOKEN_CONTROL, winnt/TOKEN_CONTROL'
-ms.topic: struct
 f1_keywords:
 - winnt/TOKEN_CONTROL
 dev_langs:

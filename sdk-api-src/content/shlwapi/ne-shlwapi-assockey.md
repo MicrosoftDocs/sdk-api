@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f4ac0ba0-4113-498f-a51b-74a37fe33d49
 ms.date: 12/05/2018
 ms.keywords: ASSOCKEY, ASSOCKEY enumeration [Windows Shell], ASSOCKEY_APP, ASSOCKEY_BASECLASS, ASSOCKEY_CLASS, ASSOCKEY_SHELLEXECCLASS, _win32_ASSOCKEY_str, shell.ASSOCKEY_str, shlwapi/ASSOCKEY, shlwapi/ASSOCKEY_APP, shlwapi/ASSOCKEY_BASECLASS, shlwapi/ASSOCKEY_CLASS, shlwapi/ASSOCKEY_SHELLEXECCLASS
-ms.topic: enum
 f1_keywords:
 - shlwapi/ASSOCKEY
 dev_langs:

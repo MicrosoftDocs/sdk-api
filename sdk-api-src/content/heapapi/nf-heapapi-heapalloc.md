@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 9a176312-0312-4cc1-baf5-949b346d983e
 ms.date: 12/05/2018
 ms.keywords: HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HEAP_ZERO_MEMORY, HeapAlloc, HeapAlloc function, _win32_heapalloc, base.heapalloc, heapapi/HeapAlloc, winbase/HeapAlloc
-ms.topic: function
 f1_keywords:
 - heapapi/HeapAlloc
 dev_langs:

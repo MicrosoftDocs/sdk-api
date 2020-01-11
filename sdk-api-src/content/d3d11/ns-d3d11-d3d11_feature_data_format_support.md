@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 153e246e-9e2f-4557-94c4-a9f1a3b926bd
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_FORMAT_SUPPORT, D3D11_FEATURE_DATA_FORMAT_SUPPORT structure [Direct3D 11], a30c19a0-2294-7e25-009e-e49d1560486d, d3d11/D3D11_FEATURE_DATA_FORMAT_SUPPORT, direct3d11.d3d11_feature_data_format_support
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_FEATURE_DATA_FORMAT_SUPPORT
 dev_langs:

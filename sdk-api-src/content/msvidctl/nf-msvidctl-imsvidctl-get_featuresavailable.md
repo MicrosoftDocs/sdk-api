@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 73da686c-0c25-4dfb-8a13-681f1dac6a4a
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_FeaturesAvailable method, IMSVidCtl.get_FeaturesAvailable, IMSVidCtl::get_FeaturesAvailable, IMSVidCtlget_FeaturesAvailable, get_FeaturesAvailable, get_FeaturesAvailable method [Microsoft TV Technologies], get_FeaturesAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_featuresavailable, msvidctl/IMSVidCtl::get_FeaturesAvailable
-ms.topic: method
 f1_keywords:
 - msvidctl/IMSVidCtl.get_FeaturesAvailable
 dev_langs:

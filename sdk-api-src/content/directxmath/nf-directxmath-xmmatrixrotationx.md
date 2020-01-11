@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixRotationX(float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixRotationX, XMMatrixRotationX, XMMatrixRotationX method [DirectX Math Support APIs], dxmath.xmmatrixrotationx
-ms.topic: function
 f1_keywords:
 - directxmath/XMMatrixRotationX
 dev_langs:

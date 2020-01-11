@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: dd4c6407-d14e-4e67-9681-1f90741da38e
 ms.date: 12/05/2018
 ms.keywords: AutomationElementMode property [Windows Accessibility], AutomationElementMode property [Windows Accessibility],IUIAutomationCacheRequest interface, IUIAutomationCacheRequest interface [Windows Accessibility],AutomationElementMode property, IUIAutomationCacheRequest.AutomationElementMode, IUIAutomationCacheRequest.put_AutomationElementMode, IUIAutomationCacheRequest::AutomationElementMode, IUIAutomationCacheRequest::get_AutomationElementMode, IUIAutomationCacheRequest::put_AutomationElementMode, put_AutomationElementMode, uiauto.uiauto_IUIAutomationCacheRequest_AutomationElementMode, uiauto_IUIAutomationCacheRequest_AutomationElementMode, uiautomationclient/IUIAutomationCacheRequest::AutomationElementMode, uiautomationclient/IUIAutomationCacheRequest::get_AutomationElementMode, uiautomationclient/IUIAutomationCacheRequest::put_AutomationElementMode, winauto.uiauto_IUIAutomationCacheRequest_AutomationElementMode
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationCacheRequest.AutomationElementMode
 dev_langs:

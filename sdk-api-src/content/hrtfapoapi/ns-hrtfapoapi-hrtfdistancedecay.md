@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: B488A674-91A7-41CB-9FF5-8270C6E941D2
 ms.date: 12/05/2018
 ms.keywords: HrtfDistanceDecay, HrtfDistanceDecay structure [XAudio2 Audio Mixing APIs], PHrtfDistanceDecay, PHrtfDistanceDecay structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfDistanceDecay, hrtfapoapi/PHrtfDistanceDecay, xaudio2.hrtfdistancedecay
-ms.topic: struct
 f1_keywords:
 - hrtfapoapi/HrtfDistanceDecay
 dev_langs:

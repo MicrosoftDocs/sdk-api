@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: FE314254-AAE4-482E-A7AE-28B2591E0060
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessorControl2, IMFVideoProcessorControl2 interface [Media Foundation], IMFVideoProcessorControl2 interface [Media Foundation],described, mf.imfvideoprocessorcontrol2, mfidl/IMFVideoProcessorControl2
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFVideoProcessorControl2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 7c73fb37-5551-497f-86d9-b7158109ca38
 ms.date: 12/05/2018
 ms.keywords: ITaskNamedValueCollection interface [Task Scheduler],Remove method, ITaskNamedValueCollection.Remove, ITaskNamedValueCollection::Remove, Remove, Remove method [Task Scheduler], Remove method [Task Scheduler],ITaskNamedValueCollection interface, taskschd.itasknamedvaluecollection_remove, taskschd/ITaskNamedValueCollection::Remove
-ms.topic: method
 f1_keywords:
 - taskschd/ITaskNamedValueCollection.Remove
 dev_langs:

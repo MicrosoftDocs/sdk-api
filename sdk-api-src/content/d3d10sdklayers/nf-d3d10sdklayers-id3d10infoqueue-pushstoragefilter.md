@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_pushstoragefilter.htm
 ms.date: 12/05/2018
 ms.keywords: ID3D10InfoQueue interface [Direct3D 10],PushStorageFilter method, ID3D10InfoQueue.PushStorageFilter, ID3D10InfoQueue::PushStorageFilter, PushStorageFilter, PushStorageFilter method [Direct3D 10], PushStorageFilter method [Direct3D 10],ID3D10InfoQueue interface, d3d10sdklayers/ID3D10InfoQueue::PushStorageFilter, direct3d10.id3d10infoqueue_pushstoragefilter, f8b3ecae-90a5-7c55-1e43-1a305aafd928
-ms.topic: method
 f1_keywords:
 - d3d10sdklayers/ID3D10InfoQueue.PushStorageFilter
 dev_langs:

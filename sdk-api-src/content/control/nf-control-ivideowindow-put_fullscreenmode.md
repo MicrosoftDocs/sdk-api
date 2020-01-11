@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: efa1c6ed-bea5-4c25-89c2-1b6fcdad3834
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_FullScreenMode method, IVideoWindow.put_FullScreenMode, IVideoWindow::put_FullScreenMode, IVideoWindowput_FullScreenMode, control/IVideoWindow::put_FullScreenMode, dshow.ivideowindow_put_fullscreenmode, put_FullScreenMode, put_FullScreenMode method [DirectShow], put_FullScreenMode method [DirectShow],IVideoWindow interface
-ms.topic: method
 f1_keywords:
 - control/IVideoWindow.put_FullScreenMode
 dev_langs:

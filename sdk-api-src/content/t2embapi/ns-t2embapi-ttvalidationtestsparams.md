@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 901fd8e5-1602-4e20-9269-d0c3fe661e45
 ms.date: 12/05/2018
 ms.keywords: TTVALIDATIONTESTSPARAMS, TTVALIDATIONTESTSPARAMS structure [Windows GDI], _win32_TTVALIDATIONTESTPARAMS, gdi.ttvalidationtestparams, t2embapi/TTVALIDATIONTESTSPARAMS
-ms.topic: struct
 f1_keywords:
 - t2embapi/TTVALIDATIONTESTSPARAMS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: fb846bdb-f0ce-44f7-8d15-608c21e095c1
 ms.date: 12/05/2018
 ms.keywords: IEnumTuneRequests interface [Microsoft TV Technologies],Next method, IEnumTuneRequests.Next, IEnumTuneRequests::Next, IEnumTuneRequestsNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumTuneRequests interface, bdatif/IEnumTuneRequests::Next, mstv.ienumtunerequests_next
-ms.topic: method
 f1_keywords:
 - bdatif/IEnumTuneRequests.Next
 dev_langs:

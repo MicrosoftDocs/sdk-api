@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: dc214dfb-1717-4f84-af4d-6eb8cf17522c
 ms.date: 12/05/2018
 ms.keywords: WSDXML_TYPE, WSDXML_TYPE structure, _WSDXML_TYPE, ncd.wsdxml_type_struct, wsdxmldom/WSDXML_TYPE
-ms.topic: struct
 f1_keywords:
 - wsdxmldom/WSDXML_TYPE
 dev_langs:

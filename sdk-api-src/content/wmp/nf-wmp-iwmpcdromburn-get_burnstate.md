@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: a6bcb8d6-07ad-4d8f-a94a-6b8c1b7f0c2b
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_burnState method, IWMPCdromBurn.get_burnState, IWMPCdromBurn::get_burnState, IWMPCdromBurnget_burnState, get_burnState, get_burnState method [Windows Media Player], get_burnState method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_get_burnstate, wmp/IWMPCdromBurn::get_burnState
-ms.topic: method
 f1_keywords:
 - wmp/IWMPCdromBurn.get_burnState
 dev_langs:

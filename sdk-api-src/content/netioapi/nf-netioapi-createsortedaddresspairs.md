@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: cdc90d63-15a4-4278-afc3-dbf9ad6ba698
 ms.date: 12/05/2018
 ms.keywords: CreateSortedAddressPairs, CreateSortedAddressPairs function [IP Helper], iphlp.createsortedaddresspairs, netioapi/CreateSortedAddressPairs
-ms.topic: function
 f1_keywords:
 - netioapi/CreateSortedAddressPairs
 dev_langs:

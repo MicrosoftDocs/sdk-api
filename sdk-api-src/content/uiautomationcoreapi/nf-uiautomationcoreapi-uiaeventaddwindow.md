@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 1044dbe0-1b66-41f4-916d-eb23c0a0c92b
 ms.date: 12/05/2018
 ms.keywords: UiaEventAddWindow, UiaEventAddWindow function [Windows Accessibility], uiauto.uiauto_UiaEventAddWindowFunction, uiauto_UiaEventAddWindowFunction, uiautomationcoreapi/UiaEventAddWindow, winauto.uiauto_UiaEventAddWindowFunction
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaEventAddWindow
 dev_langs:

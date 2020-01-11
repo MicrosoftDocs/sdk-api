@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: ff96904c-285d-4d39-af3b-bf295c29e62f
 ms.date: 12/05/2018
 ms.keywords: RpcErrorClearInformation, RpcErrorClearInformation function [RPC], _rpc_rpcerrorclearinformation, rpc.rpcerrorclearinformation, rpcasync/RpcErrorClearInformation
-ms.topic: function
 f1_keywords:
 - rpcasync/RpcErrorClearInformation
 dev_langs:

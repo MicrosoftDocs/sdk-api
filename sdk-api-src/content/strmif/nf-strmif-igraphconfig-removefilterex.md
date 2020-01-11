@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c3298aa2-4eb2-4e47-9f36-5f2cf541d13e
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig interface [DirectShow],RemoveFilterEx method, IGraphConfig.RemoveFilterEx, IGraphConfig::RemoveFilterEx, IGraphConfigRemoveFilterEx, RemoveFilterEx, RemoveFilterEx method [DirectShow], RemoveFilterEx method [DirectShow],IGraphConfig interface, dshow.igraphconfig_removefilterex, strmif/IGraphConfig::RemoveFilterEx
-ms.topic: method
 f1_keywords:
 - strmif/IGraphConfig.RemoveFilterEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3959e7d9-6220-474e-8f85-76f7f935727f
 ms.date: 12/05/2018
 ms.keywords: CoFreeLibrary, CoFreeLibrary function [COM], _com_CoFreeLibrary, com.cofreelibrary, objbase/CoFreeLibrary
-ms.topic: function
 f1_keywords:
 - objbase/CoFreeLibrary
 dev_langs:

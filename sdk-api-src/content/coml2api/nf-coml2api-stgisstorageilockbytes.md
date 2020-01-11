@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: ce0e29fd-1b21-4064-8e37-1a5d5df8bb61
 ms.date: 12/05/2018
 ms.keywords: StgIsStorageILockBytes, StgIsStorageILockBytes function [Structured Storage], _stg_stgisstorageilockbytes, coml2api/StgIsStorageILockBytes, stg.stgisstorageilockbytes
-ms.topic: function
 f1_keywords:
 - coml2api/StgIsStorageILockBytes
 dev_langs:

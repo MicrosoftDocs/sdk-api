@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: fe87c9ae-dedf-4ec2-ac11-0ea5fc6aa3ad
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapEncoder, IWICBitmapEncoder interface [Windows Imaging Component], IWICBitmapEncoder interface [Windows Imaging Component],described, _wic_codec_iwicbitmapencoder, wic._wic_codec_iwicbitmapencoder, wincodec/IWICBitmapEncoder
-ms.topic: interface
 f1_keywords:
 - wincodec/IWICBitmapEncoder
 dev_langs:

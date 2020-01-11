@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 38DD3673-17FD-4F2A-BA58-A1A9983B92BF
 ms.date: 12/05/2018
 ms.keywords: PropVariantToWinRTPropertyValue, PropVariantToWinRTPropertyValue function [Windows Properties], properties.propvarianttowinrtpropertyvalue, propsys/PropVariantToWinRTPropertyValue
-ms.topic: function
 f1_keywords:
 - propsys/PropVariantToWinRTPropertyValue
 dev_langs:

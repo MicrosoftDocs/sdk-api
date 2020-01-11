@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: d25cab25-2227-4afe-ae45-93a229d7f78b
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_PROPERTY, WS_SERVICE_PROPERTY structure [Web Services for Windows], webservices/WS_SERVICE_PROPERTY, wsw.ws_service_property
-ms.topic: struct
 f1_keywords:
 - webservices/WS_SERVICE_PROPERTY
 dev_langs:

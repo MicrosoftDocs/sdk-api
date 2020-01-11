@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 077d200a-2eab-4dbe-b7b9-873061fa2c4b
 ms.date: 12/05/2018
 ms.keywords: IVdsLun2 interface,QueryHints2 method, IVdsLun2.QueryHints2, IVdsLun2::QueryHints2, QueryHints2, QueryHints2 method, QueryHints2 method,IVdsLun2 interface, base.ivdslun2_queryhints2, vds/IVdsLun2::QueryHints2, vdshwprv/IVdsLun2::QueryHints2
-ms.topic: method
 f1_keywords:
 - vds/IVdsLun2.QueryHints2
 dev_langs:

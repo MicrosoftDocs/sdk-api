@@ -7,7 +7,6 @@ tech.root: hidpi
 ms.assetid: DC744BFC-4410-4878-BEA7-382550DDF9E3
 ms.date: 12/05/2018
 ms.keywords: PhysicalToLogicalPointForPerMonitorDPI, PhysicalToLogicalPointForPerMonitorDPI function [High DPI], hidpi.physicaltologicalpointforpermonitordpi, winuser/PhysicalToLogicalPointForPerMonitorDPI
-ms.topic: function
 f1_keywords:
 - winuser/PhysicalToLogicalPointForPerMonitorDPI
 dev_langs:

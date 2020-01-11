@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: d01245d9-fbca-4346-acf5-86ae7f0eb01e
 ms.date: 12/05/2018
 ms.keywords: SECPKG_CRED_INBOUND, SECPKG_CRED_OUTBOUND, SpAcquireCredentialsHandle, SpAcquireCredentialsHandle callback function [Security], SpAcquireCredentialsHandleFn, SpAcquireCredentialsHandleFn callback, _ssp_spacquirecredentialshandle, ntsecpkg/SpAcquireCredentialsHandle, security.spacquirecredentialshandle
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpAcquireCredentialsHandle
 dev_langs:

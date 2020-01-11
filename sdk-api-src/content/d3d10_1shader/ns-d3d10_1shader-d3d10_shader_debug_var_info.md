@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_var_info.htm
 ms.date: 12/05/2018
 ms.keywords: 0c0984a6-cb8d-ef1f-dfe5-bbc4ed81714f, D3D10_SHADER_DEBUG_VAR_INFO, D3D10_SHADER_DEBUG_VAR_INFO structure [Direct3D 10], d3d10_1shader/D3D10_SHADER_DEBUG_VAR_INFO, direct3d10.d3d10_shader_debug_var_info
-ms.topic: struct
 f1_keywords:
 - d3d10_1shader/D3D10_SHADER_DEBUG_VAR_INFO
 dev_langs:

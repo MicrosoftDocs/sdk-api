@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 63e6a944-f16e-4b90-ab77-22e5c8ef3fb2
 ms.date: 12/05/2018
 ms.keywords: IntServServiceHdr, IntServServiceHdr structure [QOS], lpmapi/IntServServiceHdr, qos.intservservicehdr
-ms.topic: struct
 f1_keywords:
 - lpmapi/IntServServiceHdr
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 94ed3028-0bd1-449b-9902-7dbae4a70ec1
 ms.date: 12/05/2018
 ms.keywords: DrtGetEventData, DrtGetEventData function [Peer Networking], drt/DrtGetEventData, p2p.drtgeteventdata
-ms.topic: function
 f1_keywords:
 - drt/DrtGetEventData
 dev_langs:

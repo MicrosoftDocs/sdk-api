@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: be96da1e-e392-4b1f-8951-aa9be644c787
 ms.date: 12/05/2018
 ms.keywords: VarI1FromI8, VarI1FromI8 function [Automation], _oa96_VarI1FromI8, automat.vari1fromi8, oleauto/VarI1FromI8
-ms.topic: function
 f1_keywords:
 - oleauto/VarI1FromI8
 dev_langs:

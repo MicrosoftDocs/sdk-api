@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 750aec1a-92b4-4c70-8c17-c15c9536bc41
 ms.date: 12/05/2018
 ms.keywords: GetDigestMethod, GetDigestMethod method [Open Packaging Conventions], GetDigestMethod method [Open Packaging Conventions],IOpcSignaturePartReference interface, IOpcSignaturePartReference interface [Open Packaging Conventions],GetDigestMethod method, IOpcSignaturePartReference.GetDigestMethod, IOpcSignaturePartReference::GetDigestMethod, msopc/IOpcSignaturePartReference::GetDigestMethod, opc.iopcsignaturepartreference_getdigestmethod
-ms.topic: method
 f1_keywords:
 - msopc/IOpcSignaturePartReference.GetDigestMethod
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 281b83ff-8375-4edb-8a10-97af5dbdc87b
 ms.date: 12/05/2018
 ms.keywords: SymEnumProcesses, SymEnumProcesses function, base.symenumprocesses, dbghelp/SymEnumProcesses
-ms.topic: function
 f1_keywords:
 - dbghelp/SymEnumProcesses
 dev_langs:

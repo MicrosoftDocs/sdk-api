@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: 7c81a695-b93c-4c74-8ee8-133eea9f12d9
 ms.date: 12/05/2018
 ms.keywords: '*PCLFS_WRITE_ENTRY, *PCLS_WRITE_ENTRY, CLFS_WRITE_ENTRY, CLFS_WRITE_ENTRY structure [Files], CLS_WRITE_ENTRY, PCLFS_WRITE_ENTRY, PCLFS_WRITE_ENTRY structure pointer [Files], PPCLS_WRITE_ENTRY, clfs/PCLFS_WRITE_ENTRY, clfs/_CLFS_WRITE_ENTRY, fs.clfs_write_entry'
-ms.topic: struct
 f1_keywords:
 - clfs/CLFS_WRITE_ENTRY
 dev_langs:

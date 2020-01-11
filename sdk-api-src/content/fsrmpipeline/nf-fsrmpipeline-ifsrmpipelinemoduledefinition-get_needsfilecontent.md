@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: c2cbcfe1-113c-4eb9-9dea-5619bcda58a2
 ms.date: 12/05/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],NeedsFileContent property, IFsrmPipelineModuleDefinition.NeedsFileContent, IFsrmPipelineModuleDefinition.get_NeedsFileContent, IFsrmPipelineModuleDefinition::NeedsFileContent, IFsrmPipelineModuleDefinition::get_NeedsFileContent, IFsrmPipelineModuleDefinition::put_NeedsFileContent, NeedsFileContent property [File Server Resource Manager], NeedsFileContent property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_needsfilecontent, fsrm.ifsrmpipelinemoduledefinition_needsfilecontent, fsrmpipeline/IFsrmPipelineModuleDefinition::NeedsFileContent, fsrmpipeline/IFsrmPipelineModuleDefinition::get_NeedsFileContent, fsrmpipeline/IFsrmPipelineModuleDefinition::put_NeedsFileContent, get_NeedsFileContent
-ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmPipelineModuleDefinition.NeedsFileContent
 dev_langs:

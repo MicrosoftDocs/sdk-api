@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 86e21634-1cb9-42b2-ac50-d17535a4bf40
 ms.date: 12/05/2018
 ms.keywords: IFsrmProperty interface [File Server Resource Manager],Name property, IFsrmProperty.Name, IFsrmProperty.get_Name, IFsrmProperty::Name, IFsrmProperty::get_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmProperty interface, fs.ifsrmproperty_name, fsrm.ifsrmproperty_name, fsrmpipeline/IFsrmProperty::Name, fsrmpipeline/IFsrmProperty::get_Name, get_Name
-ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmProperty.Name
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 34c8ab5a-1f9f-4a71-9bf8-3b762d065da9
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Windows Media Player], GetType method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetType method, IWMPContentContainer.GetType, IWMPContentContainer::GetType, IWMPContentContainerGetType, contentpartner/IWMPContentContainer::GetType, wmp.iwmpcontentcontainer_gettype
-ms.topic: method
 f1_keywords:
 - contentpartner/IWMPContentContainer.GetType
 dev_langs:

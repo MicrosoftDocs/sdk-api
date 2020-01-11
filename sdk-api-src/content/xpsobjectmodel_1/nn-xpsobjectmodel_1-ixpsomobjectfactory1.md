@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f013e59d-83ae-453f-9cc5-9a8230729128
 ms.date: 12/05/2018
 ms.keywords: IXpsOMObjectFactory1, IXpsOMObjectFactory1 interface [XPS Documents and Packaging], IXpsOMObjectFactory1 interface [XPS Documents and Packaging],described, xps.ixpsomobjectfactory1, xpsobjectmodel_1/IXpsOMObjectFactory1
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel_1/IXpsOMObjectFactory1
 dev_langs:

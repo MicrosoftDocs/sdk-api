@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: D3C837A5-49D7-4099-B8FE-37364A275A73
 ms.date: 12/05/2018
 ms.keywords: NCryptVerifyClaim, NCryptVerifyClaim function [Security], ncrypt/NCryptVerifyClaim, security.ncryptverifyclaim
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptVerifyClaim
 dev_langs:

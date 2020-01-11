@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 4BEBE8AB-90D3-4BBA-A544-7722309160A1
 ms.date: 12/05/2018
 ms.keywords: MI_Qualifier, MI_Qualifier structure [Windows Management Infrastructure (MI)], mi/MI_Qualifier, wmi_v2.mi_qualifier
-ms.topic: struct
 f1_keywords:
 - mi/MI_Qualifier
 dev_langs:

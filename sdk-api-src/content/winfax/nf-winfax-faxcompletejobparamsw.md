@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9b8z.htm
 ms.date: 12/05/2018
 ms.keywords: FaxCompleteJobParams, FaxCompleteJobParams function [Fax Service], FaxCompleteJobParamsA, FaxCompleteJobParamsW, _mfax_faxcompletejobparams, fax._mfax_faxcompletejobparams, winfax/FaxCompleteJobParams, winfax/FaxCompleteJobParamsA, winfax/FaxCompleteJobParamsW
-ms.topic: function
 f1_keywords:
 - winfax/FaxCompleteJobParams
 dev_langs:

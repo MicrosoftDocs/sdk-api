@@ -7,7 +7,6 @@ tech.root: Monitor
 ms.assetid: 8f476ba3-24d2-456a-9335-873368993d71
 ms.date: 12/05/2018
 ms.keywords: DegaussMonitor, DegaussMonitor function [Monitor Configuration], highlevelmonitorconfigurationapi/DegaussMonitor, monitor.degaussmonitor
-ms.topic: function
 f1_keywords:
 - highlevelmonitorconfigurationapi/DegaussMonitor
 dev_langs:

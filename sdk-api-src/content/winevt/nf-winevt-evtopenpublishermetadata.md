@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: 0839fb15-12a9-4e30-9afa-6f6437956df0
 ms.date: 12/05/2018
 ms.keywords: EvtOpenPublisherMetadata, EvtOpenPublisherMetadata function [EventLog], wes.evtopenpublishermetadata, winevt/EvtOpenPublisherMetadata
-ms.topic: function
 f1_keywords:
 - winevt/EvtOpenPublisherMetadata
 dev_langs:

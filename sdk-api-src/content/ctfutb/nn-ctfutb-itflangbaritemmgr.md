@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: a7fa257f-e600-4554-8b23-f73323f37e69
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemMgr, ITfLangBarItemMgr interface [Text Services Framework], ITfLangBarItemMgr interface [Text Services Framework],described, _tsf_itflangbaritemmgr_ref, ctfutb/ITfLangBarItemMgr, tsf.itflangbaritemmgr
-ms.topic: interface
 f1_keywords:
 - ctfutb/ITfLangBarItemMgr
 dev_langs:

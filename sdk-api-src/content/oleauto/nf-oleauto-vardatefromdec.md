@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 37cba5ec-5e17-474a-8d63-422f7e828ab3
 ms.date: 12/05/2018
 ms.keywords: VarDateFromDec, VarDateFromDec function [Automation], _oa96_VarDateFromDec, automat.vardatefromdec, oleauto/VarDateFromDec
-ms.topic: function
 f1_keywords:
 - oleauto/VarDateFromDec
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: cd0955cb-602f-4a47-a6f8-6fb2f0c9cb31
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice2, IMSVidDevice2 interface [Microsoft TV Technologies], IMSVidDevice2 interface [Microsoft TV Technologies],described, IMSVidDevice2Interface, mstv.imsviddevice2, segment/IMSVidDevice2
-ms.topic: interface
 f1_keywords:
 - segment/IMSVidDevice2
 dev_langs:

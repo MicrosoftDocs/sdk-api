@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f0b8da9f-75ee-418d-8df6-fa0d7c600e62
 ms.date: 12/05/2018
 ms.keywords: IHandlerInfo, IHandlerInfo interface [Windows Shell], IHandlerInfo interface [Windows Shell],described, shell.IHandlerInfo, shobjidl_core/IHandlerInfo
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IHandlerInfo
 dev_langs:

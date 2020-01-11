@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b24c3007-662a-4c42-9ca7-367180152deb
 ms.date: 12/05/2018
 ms.keywords: EnumApps, EnumApps method [Windows Shell], EnumApps method [Windows Shell],IAppPublisher interface, IAppPublisher interface [Windows Shell],EnumApps method, IAppPublisher.EnumApps, IAppPublisher::EnumApps, inet_IAppPublisher_EnumApps, shappmgr/IAppPublisher::EnumApps, shell.IAppPublisher_EnumApps
-ms.topic: method
 f1_keywords:
 - shappmgr/IAppPublisher.EnumApps
 dev_langs:

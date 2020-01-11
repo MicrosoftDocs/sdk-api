@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 55f6a75c-dffb-46e7-8679-70c7d59ff5b4
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_RingMode method, ITPhone.get_RingMode, ITPhone::get_RingMode, _tapi3_itphone_get_ringmode, get_RingMode, get_RingMode method [TAPI 2.2], get_RingMode method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_ringmode, tapi3if/ITPhone::get_RingMode
-ms.topic: method
 f1_keywords:
 - tapi3if/ITPhone.get_RingMode
 dev_langs:

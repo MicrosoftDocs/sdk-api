@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 9a286298-b4a1-4386-99b1-bb6044ade87e
 ms.date: 12/05/2018
 ms.keywords: NdrDllUnregisterProxy, NdrDllUnregisterProxy function [RPC], rpc.ndrdllunregisterproxy, rpcproxy/NdrDllUnregisterProxy
-ms.topic: function
 f1_keywords:
 - rpcproxy/NdrDllUnregisterProxy
 dev_langs:

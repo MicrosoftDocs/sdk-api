@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 694dbf3d-3355-44d9-8af0-ea2baae832fd
 ms.date: 12/05/2018
 ms.keywords: OfflineClusterResource, OfflineClusterResource function [Failover Cluster], PCLUSAPI_OFFLINE_CLUSTER_RESOURCE, PCLUSAPI_OFFLINE_CLUSTER_RESOURCE function [Failover Cluster], _wolf_offlineclusterresource, clusapi/OfflineClusterResource, clusapi/PCLUSAPI_OFFLINE_CLUSTER_RESOURCE, mscs.offlineclusterresource
-ms.topic: function
 f1_keywords:
 - clusapi/OfflineClusterResource
 dev_langs:

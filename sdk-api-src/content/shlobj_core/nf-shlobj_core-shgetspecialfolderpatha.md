@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4c39fdc1-5e43-4042-8703-fb72c88e2637
 ms.date: 12/05/2018
 ms.keywords: SHGetSpecialFolderPath, SHGetSpecialFolderPath function [Windows Shell], SHGetSpecialFolderPathA, SHGetSpecialFolderPathW, _win32_SHGetSpecialFolderPath, shell.SHGetSpecialFolderPath, shlobj_core/SHGetSpecialFolderPath, shlobj_core/SHGetSpecialFolderPathA, shlobj_core/SHGetSpecialFolderPathW
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHGetSpecialFolderPath
 dev_langs:

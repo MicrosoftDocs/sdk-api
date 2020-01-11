@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 3d35b808-4fa6-44ec-9c46-96ceee1dafd0
 ms.date: 12/05/2018
 ms.keywords: StgConvertVariantToProperty, StgConvertVariantToProperty function [Structured Storage], propidl/StgConvertVariantToProperty, stg.stgconvertvarianttoproperty
-ms.topic: function
 f1_keywords:
 - propidl/StgConvertVariantToProperty
 dev_langs:

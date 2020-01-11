@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: b0622c7b-49f2-4879-a0dc-9267851fe03d
 ms.date: 12/05/2018
 ms.keywords: DSCreateISecurityInfoObjectEx, DSCreateISecurityInfoObjectEx function [Security], DSSI_IS_ROOT, DSSI_NO_ACCESS_CHECK, DSSI_NO_EDIT_OWNER, DSSI_NO_EDIT_SACL, DSSI_NO_FILTER, DSSI_NO_READONLY_MESSAGE, DSSI_READ_ONLY, dssec/DSCreateISecurityInfoObjectEx, security.dscreateisecurityinfoobjectex
-ms.topic: function
 f1_keywords:
 - dssec/DSCreateISecurityInfoObjectEx
 dev_langs:

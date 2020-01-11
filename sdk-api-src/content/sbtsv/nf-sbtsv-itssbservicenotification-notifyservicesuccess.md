@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 063ed950-f168-491c-85db-14f35741c129
 ms.date: 12/05/2018
 ms.keywords: ITsSbServiceNotification interface [Remote Desktop Services],NotifyServiceSuccess method, ITsSbServiceNotification.NotifyServiceSuccess, ITsSbServiceNotification::NotifyServiceSuccess, NotifyServiceSuccess, NotifyServiceSuccess method [Remote Desktop Services], NotifyServiceSuccess method [Remote Desktop Services],ITsSbServiceNotification interface, sbtsv/ITsSbServiceNotification::NotifyServiceSuccess, termserv.itssbservicenotification_notifyservicesuccess
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbServiceNotification.NotifyServiceSuccess
 dev_langs:

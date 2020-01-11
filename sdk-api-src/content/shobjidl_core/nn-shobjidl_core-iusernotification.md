@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 24ff171c-e9e2-4d62-8a8c-d62e5d7a92ad
 ms.date: 12/05/2018
 ms.keywords: IUserNotification, IUserNotification interface [Windows Shell], IUserNotification interface [Windows Shell],described, inet_IUserNotification, shell.IUserNotification, shobjidl_core/IUserNotification
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IUserNotification
 dev_langs:

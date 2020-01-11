@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 8634d166-767a-46a5-9001-5fca88bfa844
 ms.date: 12/05/2018
 ms.keywords: CreatePartUri, CreatePartUri method [Open Packaging Conventions], CreatePartUri method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreatePartUri method, IOpcFactory.CreatePartUri, IOpcFactory::CreatePartUri, msopc/IOpcFactory::CreatePartUri, opc.iopcfactory_createparturi
-ms.topic: method
 f1_keywords:
 - msopc/IOpcFactory.CreatePartUri
 dev_langs:

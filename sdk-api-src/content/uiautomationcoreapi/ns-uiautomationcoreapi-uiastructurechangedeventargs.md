@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 3bd47116-e6e7-4535-a939-460d460a3eb5
 ms.date: 12/05/2018
 ms.keywords: UiaStructureChangedEventArgs, UiaStructureChangedEventArgs structure [Windows Accessibility], uiauto.uiauto_UiaStructureChangedEventArgsStruct, uiauto_UiaStructureChangedEventArgsStruct, uiautomationcoreapi/UiaStructureChangedEventArgs, winauto.uiauto_UiaStructureChangedEventArgsStruct
-ms.topic: struct
 f1_keywords:
 - uiautomationcoreapi/UiaStructureChangedEventArgs
 dev_langs:

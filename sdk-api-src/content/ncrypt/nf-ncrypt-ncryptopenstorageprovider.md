@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: febcf440-78b3-420b-b13d-030e8071cd50
 ms.date: 12/05/2018
 ms.keywords: MS_KEY_STORAGE_PROVIDER, MS_SMART_CARD_KEY_STORAGE_PROVIDER, MS_PLATFORM_CRYPTO_PROVIDER, NCryptOpenStorageProvider, NCryptOpenStorageProvider function [Security], ncrypt/NCryptOpenStorageProvider, security.ncryptopenstorageprovider_func
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptOpenStorageProvider
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 2f2f1bdb-e57c-42e2-9afb-65b13cdc22f8
 ms.date: 12/05/2018
 ms.keywords: DragLeave, DragLeave method [COM], DragLeave method [COM],IDropTarget interface, IDropTarget interface [COM],DragLeave method, IDropTarget.DragLeave, IDropTarget::DragLeave, _ole_idroptarget_dragleave, com.idroptarget_dragleave, oleidl/IDropTarget::DragLeave
-ms.topic: method
 f1_keywords:
 - oleidl/IDropTarget.DragLeave
 dev_langs:

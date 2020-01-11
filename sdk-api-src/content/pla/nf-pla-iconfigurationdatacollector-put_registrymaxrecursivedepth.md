@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: f291a404-a952-42cd-a538-c7d326aa29d8
 ms.date: 12/05/2018
 ms.keywords: IConfigurationDataCollector interface [PLA],RegistryMaxRecursiveDepth property, IConfigurationDataCollector.RegistryMaxRecursiveDepth, IConfigurationDataCollector.put_RegistryMaxRecursiveDepth, IConfigurationDataCollector::RegistryMaxRecursiveDepth, IConfigurationDataCollector::get_RegistryMaxRecursiveDepth, IConfigurationDataCollector::put_RegistryMaxRecursiveDepth, RegistryMaxRecursiveDepth property [PLA], RegistryMaxRecursiveDepth property [PLA],IConfigurationDataCollector interface, base.iconfigurationdatacollector_registrymaxrecursivedepth, pla.iconfigurationdatacollector_registrymaxrecursivedepth, pla/IConfigurationDataCollector::RegistryMaxRecursiveDepth, pla/IConfigurationDataCollector::get_RegistryMaxRecursiveDepth, pla/IConfigurationDataCollector::put_RegistryMaxRecursiveDepth, put_RegistryMaxRecursiveDepth
-ms.topic: method
 f1_keywords:
 - pla/IConfigurationDataCollector.RegistryMaxRecursiveDepth
 dev_langs:

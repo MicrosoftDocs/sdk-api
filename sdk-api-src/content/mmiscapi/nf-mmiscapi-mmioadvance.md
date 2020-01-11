@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 30c0b014-a0ac-4002-aeef-24816673f1ed
 ms.date: 12/05/2018
 ms.keywords: _win32_mmioAdvance, mmioAdvance, mmioAdvance function [Windows Multimedia], mmsystem/mmioAdvance, multimedia.mmioadvance
-ms.topic: function
 f1_keywords:
 - mmiscapi/mmioAdvance
 dev_langs:

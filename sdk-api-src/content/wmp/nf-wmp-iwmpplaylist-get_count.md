@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: e37d1d96-27c3-415a-ac85-ab4b94dbc688
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],get_count method, IWMPPlaylist.get_count, IWMPPlaylist::get_count, IWMPPlaylistget_count, get_count, get_count method [Windows Media Player], get_count method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_get_count, wmp/IWMPPlaylist::get_count
-ms.topic: method
 f1_keywords:
 - wmp/IWMPPlaylist.get_count
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 05ce400e-c2e5-4852-9c41-d98ac2a6b467
 ms.date: 12/05/2018
 ms.keywords: EventDescCreate, EventDescCreate function [ETW], base.eventdesccreate_func, etw.eventdesccreate_func, evntprov/EventDescCreate
-ms.topic: function
 f1_keywords:
 - evntprov/EventDescCreate
 dev_langs:

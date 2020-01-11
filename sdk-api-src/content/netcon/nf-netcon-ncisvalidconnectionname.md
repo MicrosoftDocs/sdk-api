@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 08fe9ba2-3314-45ff-8aea-742dd5b15560
 ms.date: 12/05/2018
 ms.keywords: NcIsValidConnectionName, NcIsValidConnectionName function [ICS/ICF], ics.ncisvalidconnectionname, netcon/NcIsValidConnectionName
-ms.topic: function
 f1_keywords:
 - netcon/NcIsValidConnectionName
 dev_langs:

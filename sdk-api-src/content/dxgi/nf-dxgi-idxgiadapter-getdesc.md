@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter_getdesc.htm
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [DXGI], GetDesc method [DXGI],IDXGIAdapter interface, IDXGIAdapter interface [DXGI],GetDesc method, IDXGIAdapter.GetDesc, IDXGIAdapter::GetDesc, d6097f67-3411-f7d2-50dc-507efce034b7, direct3ddxgi.idxgiadapter_getdesc, dxgi/IDXGIAdapter::GetDesc
-ms.topic: method
 f1_keywords:
 - dxgi/IDXGIAdapter.GetDesc
 dev_langs:

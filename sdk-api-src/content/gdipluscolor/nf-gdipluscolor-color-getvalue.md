@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getvalue.htm
 ms.date: 12/05/2018
 ms.keywords: Color class [GDI+],GetValue method, Color.GetValue, Color::GetValue, GetValue, GetValue method [GDI+], GetValue method [GDI+],Color class, _gdiplus_CLASS_Color_GetValue_, gdiplus._gdiplus_CLASS_Color_GetValue_
-ms.topic: method
 f1_keywords:
 - gdipluscolor/Color.GetValue
 dev_langs:

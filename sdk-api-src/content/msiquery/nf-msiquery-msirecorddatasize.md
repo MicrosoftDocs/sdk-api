@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: e0e4e842-697f-43fa-8012-dd911bf3eebc
 ms.date: 12/05/2018
 ms.keywords: MsiRecordDataSize, MsiRecordDataSize function, _msi_msirecorddatasize, msiquery/MsiRecordDataSize, setup.msirecorddatasize
-ms.topic: function
 f1_keywords:
 - msiquery/MsiRecordDataSize
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 74a68851-f1c2-41ed-94cd-ec043be0f0d1
 ms.date: 12/05/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],MSPAddressAddRef method, CMSPAddress.MSPAddressAddRef, CMSPAddress::MSPAddressAddRef, MSPAddressAddRef, MSPAddressAddRef method [TAPI 2.2], MSPAddressAddRef method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_mspaddressaddref, mspaddr/CMSPAddress::MSPAddressAddRef, tapi3.cmspaddress_mspaddressaddref
-ms.topic: method
 f1_keywords:
 - mspaddr/CMSPAddress.MSPAddressAddRef
 dev_langs:

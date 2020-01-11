@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: a957239b-6cb2-4101-adeb-e9ba4f876af4
 ms.date: 12/05/2018
 ms.keywords: IImageList, IImageList interface [MMC], IImageList interface [MMC],described, _slate_iimagelist, mmc.iimagelist, mmc/IImageList
-ms.topic: interface
 f1_keywords:
 - mmc/IImageList
 dev_langs:

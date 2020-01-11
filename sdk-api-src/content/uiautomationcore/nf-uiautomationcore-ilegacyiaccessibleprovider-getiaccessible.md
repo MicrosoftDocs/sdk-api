@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 1d156866-d19a-4fd2-8664-d22e8b5434be
 ms.date: 12/05/2018
 ms.keywords: GetIAccessible, GetIAccessible method [Windows Accessibility], GetIAccessible method [Windows Accessibility],ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider interface [Windows Accessibility],GetIAccessible method, ILegacyIAccessibleProvider.GetIAccessible, ILegacyIAccessibleProvider::GetIAccessible, uiauto.uiauto_ILegacyIAccessibleProvider_GetIAccessible, uiauto_ILegacyIAccessibleProvider_GetIAccessible, uiautomationcore/ILegacyIAccessibleProvider::GetIAccessible, winauto.uiauto_ILegacyIAccessibleProvider_GetIAccessible
-ms.topic: method
 f1_keywords:
 - uiautomationcore/ILegacyIAccessibleProvider.GetIAccessible
 dev_langs:

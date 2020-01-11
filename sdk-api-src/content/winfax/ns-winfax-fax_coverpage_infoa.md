@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3zaq.htm
 ms.date: 12/05/2018
 ms.keywords: '*PFAX_COVERPAGE_INFOA, FAX_COVERPAGE_INFO, FAX_COVERPAGE_INFO structure [Fax Service], FAX_COVERPAGE_INFOA, FAX_COVERPAGE_INFOW, PFAX_COVERPAGE_INFO, PFAX_COVERPAGE_INFO structure pointer [Fax Service], _mfax_fax_coverpage_info_str, fax._mfax_fax_coverpage_info_str, winfax/FAX_COVERPAGE_INFO, winfax/FAX_COVERPAGE_INFOA, winfax/FAX_COVERPAGE_INFOW, winfax/PFAX_COVERPAGE_INFO'
-ms.topic: struct
 f1_keywords:
 - winfax/FAX_COVERPAGE_INFO
 dev_langs:

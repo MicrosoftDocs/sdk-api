@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 2bf4c575-f94d-43df-b141-94ed5a55294b
 ms.date: 12/05/2018
 ms.keywords: FreeWriterStatus, FreeWriterStatus method [VSS], FreeWriterStatus method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],FreeWriterStatus method, IVssBackupComponents.FreeWriterStatus, IVssBackupComponents::FreeWriterStatus, _win32_ivssbackupcomponents_freewriterstatus, base.ivssbackupcomponents_freewriterstatus, vsbackup/IVssBackupComponents::FreeWriterStatus
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.FreeWriterStatus
 dev_langs:

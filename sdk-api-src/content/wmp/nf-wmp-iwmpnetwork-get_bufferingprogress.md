@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 5c8cc541-3fc2-49b8-8a1a-f4959989aafe
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_bufferingProgress method, IWMPNetwork.get_bufferingProgress, IWMPNetwork::get_bufferingProgress, IWMPNetworkget_bufferingProgress, get_bufferingProgress, get_bufferingProgress method [Windows Media Player], get_bufferingProgress method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_bufferingprogress, wmp/IWMPNetwork::get_bufferingProgress
-ms.topic: method
 f1_keywords:
 - wmp/IWMPNetwork.get_bufferingProgress
 dev_langs:

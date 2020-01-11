@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 52d51058-d5fd-4b62-9206-2dc60a3eafb1
 ms.date: 12/05/2018
 ms.keywords: GPMReportingOptions, GPMReportingOptions enumeration [GPMC], gpmc.gpmreportingoptions, gpmgmt/GPMReportingOptions, gpmgmt/opReportComments, gpmgmt/opReportLegacy, opReportComments, opReportLegacy
-ms.topic: enum
 f1_keywords:
 - gpmgmt/GPMReportingOptions
 dev_langs:

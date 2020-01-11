@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: ca420136-0b3b-45a1-85ce-83ab6ba1a70a
 ms.date: 12/05/2018
 ms.keywords: __WSAFDIsSet, __WSAFDIsSet function [Winsock], winsock.wsafdisset, winsock/__WSAFDIsSet
-ms.topic: function
 f1_keywords:
 - winsock/__WSAFDIsSet
 dev_langs:

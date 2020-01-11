@@ -7,7 +7,6 @@ tech.root: iSCSIDisc
 ms.assetid: 8b7e874b-5d2b-4948-98f2-1bcd6d4f8ca6
 ms.date: 12/05/2018
 ms.keywords: '*PISCSI_TARGET_PORTAL_GROUPA, ISCSI_TARGET_PORTAL_GROUP, ISCSI_TARGET_PORTAL_GROUP structure [iSCSI Discovery Library API], ISCSI_TARGET_PORTAL_GROUPA, ISCSI_TARGET_PORTAL_GROUPW, PISCSI_TARGET_PORTAL_GROUP, PISCSI_TARGET_PORTAL_GROUP structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_target_portal_group, iscsidsc/ISCSI_TARGET_PORTAL_GROUP, iscsidsc/ISCSI_TARGET_PORTAL_GROUPA, iscsidsc/ISCSI_TARGET_PORTAL_GROUPW, iscsidsc/PISCSI_TARGET_PORTAL_GROUP'
-ms.topic: struct
 f1_keywords:
 - iscsidsc/ISCSI_TARGET_PORTAL_GROUP
 dev_langs:

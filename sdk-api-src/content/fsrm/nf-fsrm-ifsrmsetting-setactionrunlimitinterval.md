@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 4cd4d583-2906-4ba0-b113-c21db143dec2
 ms.date: 12/05/2018
 ms.keywords: FsrmSetting class [File Server Resource Manager],SetActionRunLimitInterval method, IFsrmSetting interface [File Server Resource Manager],SetActionRunLimitInterval method, IFsrmSetting.SetActionRunLimitInterval, IFsrmSetting::SetActionRunLimitInterval, SetActionRunLimitInterval, SetActionRunLimitInterval method [File Server Resource Manager], SetActionRunLimitInterval method [File Server Resource Manager],FsrmSetting class, SetActionRunLimitInterval method [File Server Resource Manager],IFsrmSetting interface, fs.ifsrmsetting_setactionrunlimitinterval, fsrm.ifsrmsetting_setactionrunlimitinterval, fsrm/IFsrmSetting::SetActionRunLimitInterval
-ms.topic: method
 f1_keywords:
 - fsrm/IFsrmSetting.SetActionRunLimitInterval
 dev_langs:

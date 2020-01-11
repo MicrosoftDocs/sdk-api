@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 9ebceb0b-bd78-48a8-ae57-c11fda0fe8a6
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment interface [Security],Status property, IX509Enrollment.Status, IX509Enrollment.get_Status, IX509Enrollment::Status, IX509Enrollment::get_Status, Status property [Security], Status property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Status, certenroll/IX509Enrollment::get_Status, get_Status, security.ix509enrollment_status_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509Enrollment.Status
 dev_langs:

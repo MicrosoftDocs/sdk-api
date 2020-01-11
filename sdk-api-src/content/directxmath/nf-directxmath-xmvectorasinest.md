@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorASinEst(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorASinEst, XMVectorASinEst, XMVectorASinEst method [DirectX Math Support APIs], dxmath.xmvectorasinest
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorASinEst
 dev_langs:

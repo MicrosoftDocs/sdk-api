@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 17852fb8-7e8e-44bb-99f2-b7b7a5053f49
 ms.date: 12/05/2018
 ms.keywords: IThreadPoolKnobs interface [COM+],SetMinThreads method, IThreadPoolKnobs.SetMinThreads, IThreadPoolKnobs::SetMinThreads, SetMinThreads, SetMinThreads method [COM+], SetMinThreads method [COM+],IThreadPoolKnobs interface, _cos_IThreadPoolKnobs_SetMinThreads, comsvcs/IThreadPoolKnobs::SetMinThreads, cos.ithreadpoolknobs_setminthreads
-ms.topic: method
 f1_keywords:
 - comsvcs/IThreadPoolKnobs.SetMinThreads
 dev_langs:

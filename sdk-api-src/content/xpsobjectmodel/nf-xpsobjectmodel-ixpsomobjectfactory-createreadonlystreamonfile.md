@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 00df5162-6fcd-4df8-b7d4-614c14aca8b5
 ms.date: 12/05/2018
 ms.keywords: CreateReadOnlyStreamOnFile, CreateReadOnlyStreamOnFile method [XPS Documents and Packaging], CreateReadOnlyStreamOnFile method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateReadOnlyStreamOnFile method, IXpsOMObjectFactory.CreateReadOnlyStreamOnFile, IXpsOMObjectFactory::CreateReadOnlyStreamOnFile, xps.ixpsomobjectfactory_createreadonlystreamonfile, xpsobjectmodel/IXpsOMObjectFactory::CreateReadOnlyStreamOnFile
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreateReadOnlyStreamOnFile
 dev_langs:

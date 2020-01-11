@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 59acd90c-60de-457a-94d7-418b79247a2e
 ms.date: 12/05/2018
 ms.keywords: SMMCDynamicExtensions, SMMCDynamicExtensions structure [MMC], SMMCObjectTypes, SMMCObjectTypes structure [MMC], _slate_smmcdynamicextensions, mmc.smmcdynamicextensions, mmc/SMMCDynamicExtensions
-ms.topic: struct
 f1_keywords:
 - mmc/SMMCObjectTypes
 dev_langs:

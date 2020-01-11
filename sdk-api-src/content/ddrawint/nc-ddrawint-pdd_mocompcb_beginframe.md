@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 0038aedc-2e4f-4d89-878f-7f6f751015cc
 ms.date: 12/05/2018
 ms.keywords: DdMoCompBeginFrame, DdMoCompBeginFrame callback function [Display Devices], PDD_MOCOMPCB_BEGINFRAME, PDD_MOCOMPCB_BEGINFRAME callback, ddfncs_5bfa2d81-42a3-4615-be52-605e5e3a2b14.xml, ddrawint/DdMoCompBeginFrame, display.ddmocompbeginframe
-ms.topic: callback
 f1_keywords:
 - ddrawint/DdMoCompBeginFrame
 dev_langs:

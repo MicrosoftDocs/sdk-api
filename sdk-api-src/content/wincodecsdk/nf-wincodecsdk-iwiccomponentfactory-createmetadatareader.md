@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 3fc94831-1743-4269-97af-48116e2a4e1a
 ms.date: 12/05/2018
 ms.keywords: CreateMetadataReader, CreateMetadataReader method [Windows Imaging Component], CreateMetadataReader method [Windows Imaging Component],IWICComponentFactory interface, IWICComponentFactory interface [Windows Imaging Component],CreateMetadataReader method, IWICComponentFactory.CreateMetadataReader, IWICComponentFactory::CreateMetadataReader, _wic_codec_iwiccomponentfactory_createmetadatareader, wic._wic_codec_iwiccomponentfactory_createmetadatareader, wincodecsdk/IWICComponentFactory::CreateMetadataReader
-ms.topic: method
 f1_keywords:
 - wincodecsdk/IWICComponentFactory.CreateMetadataReader
 dev_langs:

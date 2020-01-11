@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: bc4f8920-2881-4393-bb01-ed837c3db6ad
 ms.date: 12/05/2018
 ms.keywords: IDirectoryObject, IDirectoryObject interface [ADSI], IDirectoryObject interface [ADSI],described, _ds_idirectoryobject_ref, adsi.idirectoryobject, adsi.idirectoryobject__ref, iads/IDirectoryObject
-ms.topic: interface
 f1_keywords:
 - iads/IDirectoryObject
 dev_langs:

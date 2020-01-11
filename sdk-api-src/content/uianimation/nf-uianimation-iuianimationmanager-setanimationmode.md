@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: b5d6c5f1-1e1c-497f-a556-f419e2c68585
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],SetAnimationMode method, IUIAnimationManager.SetAnimationMode, IUIAnimationManager::SetAnimationMode, SetAnimationMode, SetAnimationMode method [Windows Animation], SetAnimationMode method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_setanimationmode, uianimation/IUIAnimationManager::SetAnimationMode
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationManager.SetAnimationMode
 dev_langs:

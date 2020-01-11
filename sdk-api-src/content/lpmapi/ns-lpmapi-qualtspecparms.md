@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: f9afa6f9-1de7-469e-a317-2dea98c8291c
 ms.date: 12/05/2018
 ms.keywords: QualTspecParms, QualTspecParms structure [QOS], lpmapi/QualTspecParms, qos.qualtspecparms
-ms.topic: struct
 f1_keywords:
 - lpmapi/QualTspecParms
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_33zo.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxJobs interface [Fax Service],get_Count method, IFaxJobs.get_Count, IFaxJobs::get_Count, _mfax_ifaxjobs_get_count, fax._mfax_ifaxjobs_get_count, faxcom/IFaxJobs::get_Count, get_Count, get_Count method [Fax Service], get_Count method [Fax Service],IFaxJobs interface
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxJobs.get_Count
 dev_langs:

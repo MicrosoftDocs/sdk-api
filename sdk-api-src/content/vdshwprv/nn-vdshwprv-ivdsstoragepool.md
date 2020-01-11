@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 1518ab95-1f0a-4f28-b2ae-e75bb4d19790
 ms.date: 12/05/2018
 ms.keywords: IVdsStoragePool, IVdsStoragePool interface, IVdsStoragePool interface,described, base.ivdsstoragepool, vds/IVdsStoragePool, vdshwprv/IVdsStoragePool
-ms.topic: interface
 f1_keywords:
 - vdshwprv/IVdsStoragePool
 dev_langs:

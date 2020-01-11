@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 54dfac6b-8355-4064-9f54-4172975b8028
 ms.date: 12/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetSortColumns method, IFolderView2.SetSortColumns, IFolderView2::SetSortColumns, SetSortColumns, SetSortColumns method [Windows Shell], SetSortColumns method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetSortColumns, shell.IFolderView2_SetSortColumns, shobjidl_core/IFolderView2::SetSortColumns
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFolderView2.SetSortColumns
 dev_langs:

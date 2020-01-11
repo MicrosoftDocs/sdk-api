@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: abd18861-550b-4968-ac96-05f07315d4db
 ms.date: 12/05/2018
 ms.keywords: GetTotalLength, GetTotalLength method [windows Media Device Manager], GetTotalLength method [windows Media Device Manager],IMDSPObjectInfo interface, IMDSPObjectInfo interface [windows Media Device Manager],GetTotalLength method, IMDSPObjectInfo.GetTotalLength, IMDSPObjectInfo::GetTotalLength, IMDSPObjectInfoGetTotalLength, mswmdm/IMDSPObjectInfo::GetTotalLength, wmdm.imdspobjectinfo_gettotallength
-ms.topic: method
 f1_keywords:
 - mswmdm/IMDSPObjectInfo.GetTotalLength
 dev_langs:

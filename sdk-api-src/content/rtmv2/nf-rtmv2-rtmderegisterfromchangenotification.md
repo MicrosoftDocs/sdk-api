@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 489668ce-9226-470d-8306-5ad0546275e7
 ms.date: 12/05/2018
 ms.keywords: RtmDeregisterFromChangeNotification, RtmDeregisterFromChangeNotification function [RAS], _rtmv2ref_rtmderegisterfromchangenotification, rras.rtmderegisterfromchangenotification, rtmv2/RtmDeregisterFromChangeNotification
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmDeregisterFromChangeNotification
 dev_langs:

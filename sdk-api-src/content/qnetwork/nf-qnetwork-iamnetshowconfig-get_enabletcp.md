@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b4282f84-e05b-407f-9425-0690783957c4
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableTCP method, IAMNetShowConfig.get_EnableTCP, IAMNetShowConfig::get_EnableTCP, IAMNetShowConfigget_EnableTCP, dshow.iamnetshowconfig_get_enabletcp, get_EnableTCP, get_EnableTCP method [DirectShow], get_EnableTCP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableTCP
-ms.topic: method
 f1_keywords:
 - qnetwork/IAMNetShowConfig.get_EnableTCP
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 51c28816-91a2-47cf-86b9-327a538ebca1
 ms.date: 12/05/2018
 ms.keywords: IStreamUnbufferedInfo, IStreamUnbufferedInfo interface [Windows Shell], IStreamUnbufferedInfo interface [Windows Shell],described, _shell_IStreamUnbufferedInfo, shell.IStreamUnbufferedInfo, shobjidl/IStreamUnbufferedInfo
-ms.topic: interface
 f1_keywords:
 - shobjidl/IStreamUnbufferedInfo
 dev_langs:

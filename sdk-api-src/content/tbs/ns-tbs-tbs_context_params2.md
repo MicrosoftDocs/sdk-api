@@ -7,7 +7,6 @@ tech.root: TBS
 ms.assetid: B113B422-A66E-4498-99DA-65D4ED0B84B1
 ms.date: 12/05/2018
 ms.keywords: '*PTBS_CONTEXT_PARAMS2, PTBS_CONTEXT_PARAMS2, PTBS_CONTEXT_PARAMS2 structure pointer [TBS], TBS_CONTEXT_PARAMS2, TBS_CONTEXT_PARAMS2 structure [TBS], tbs.tbs_context_params2, tbs/PTBS_CONTEXT_PARAMS2, tbs/TBS_CONTEXT_PARAMS2'
-ms.topic: struct
 f1_keywords:
 - tbs/TBS_CONTEXT_PARAMS2
 dev_langs:

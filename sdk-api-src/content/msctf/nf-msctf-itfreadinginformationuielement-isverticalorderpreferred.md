@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: a45d8928-5cfd-4af9-ba3b-7171e48d81c8
 ms.date: 12/05/2018
 ms.keywords: ITfReadingInformationUIElement interface [Text Services Framework],IsVerticalOrderPreferred method, ITfReadingInformationUIElement.IsVerticalOrderPreferred, ITfReadingInformationUIElement::IsVerticalOrderPreferred, IsVerticalOrderPreferred, IsVerticalOrderPreferred method [Text Services Framework], IsVerticalOrderPreferred method [Text Services Framework],ITfReadingInformationUIElement interface, msctf/ITfReadingInformationUIElement::IsVerticalOrderPreferred, tsf.iitfreadinginformationuielement_isverticalorderpreferred, tsf.itfreadinginformationuielement_isverticalorderpreferred
-ms.topic: method
 f1_keywords:
 - msctf/ITfReadingInformationUIElement.IsVerticalOrderPreferred
 dev_langs:

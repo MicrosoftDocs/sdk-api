@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 2074df23-a2dd-45ea-9ef4-5619cebebe31
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsCreatedOffline method, IOfflineFilesChangeInfo.IsCreatedOffline, IOfflineFilesChangeInfo::IsCreatedOffline, IsCreatedOffline, IsCreatedOffline method [Offline Files], IsCreatedOffline method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsCreatedOffline, of.iofflinefileschangeinfo_iscreatedoffline
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesChangeInfo.IsCreatedOffline
 dev_langs:

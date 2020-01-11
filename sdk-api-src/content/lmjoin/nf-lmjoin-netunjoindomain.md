@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: cc755c22-1fd6-4787-999e-a43258287a05
 ms.date: 12/05/2018
 ms.keywords: NetUnjoinDomain, NetUnjoinDomain function [Network Management], _win32_netunjoindomain, lmjoin/NetUnjoinDomain, netmgmt.netunjoindomain
-ms.topic: function
 f1_keywords:
 - lmjoin/NetUnjoinDomain
 dev_langs:

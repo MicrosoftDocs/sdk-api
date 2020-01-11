@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: b7592e8d-6d7d-426a-8520-7b9cc5810d5a
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderInitialize, WdsTransportProviderInitialize callback, WdsTransportProviderInitialize callback function [Windows Deployment Services], wds.wdstransportproviderinitialize, wdstpdi/WdsTransportProviderInitialize
-ms.topic: function
 f1_keywords:
 - wdstpdi/WdsTransportProviderInitialize
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d59b9772-7061-4ea5-964a-75deb293b407
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],TreeAdvise method, INameSpaceTreeControl.TreeAdvise, INameSpaceTreeControl::TreeAdvise, TreeAdvise, TreeAdvise method [Windows Shell], TreeAdvise method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_TreeAdvise, shell.INameSpaceTreeControl_TreeAdvise, shobjidl_core/INameSpaceTreeControl::TreeAdvise
-ms.topic: method
 f1_keywords:
 - shobjidl_core/INameSpaceTreeControl.TreeAdvise
 dev_langs:

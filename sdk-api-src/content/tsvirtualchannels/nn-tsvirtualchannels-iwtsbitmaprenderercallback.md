@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: bdb8280b-6ebc-47e4-9789-47e3bda96efc
 ms.date: 12/05/2018
 ms.keywords: IWTSBitmapRendererCallback, IWTSBitmapRendererCallback interface [Remote Desktop Services], IWTSBitmapRendererCallback interface [Remote Desktop Services],described, termserv.iwtsbitmaprenderercallback, tsvirtualchannels/IWTSBitmapRendererCallback
-ms.topic: interface
 f1_keywords:
 - tsvirtualchannels/IWTSBitmapRendererCallback
 dev_langs:

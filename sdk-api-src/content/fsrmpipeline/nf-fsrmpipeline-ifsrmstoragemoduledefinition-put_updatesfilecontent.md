@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 461befff-0bb4-44a2-9c37-e9a8fb1b080f
 ms.date: 12/05/2018
 ms.keywords: IFsrmStorageModuleDefinition interface [File Server Resource Manager],UpdatesFileContent property, IFsrmStorageModuleDefinition.UpdatesFileContent, IFsrmStorageModuleDefinition.put_UpdatesFileContent, IFsrmStorageModuleDefinition::UpdatesFileContent, IFsrmStorageModuleDefinition::get_UpdatesFileContent, IFsrmStorageModuleDefinition::put_UpdatesFileContent, UpdatesFileContent property [File Server Resource Manager], UpdatesFileContent property [File Server Resource Manager],IFsrmStorageModuleDefinition interface, fs.ifsrmstoragemoduledefinition_updatesfilecontent, fsrm.ifsrmstoragemoduledefinition_updatesfilecontent, fsrmpipeline/IFsrmStorageModuleDefinition::UpdatesFileContent, fsrmpipeline/IFsrmStorageModuleDefinition::get_UpdatesFileContent, fsrmpipeline/IFsrmStorageModuleDefinition::put_UpdatesFileContent, put_UpdatesFileContent
-ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmStorageModuleDefinition.UpdatesFileContent
 dev_langs:

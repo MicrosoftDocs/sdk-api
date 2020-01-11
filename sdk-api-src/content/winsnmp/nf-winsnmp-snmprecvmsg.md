@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 0e306e40-cccc-4083-b3ba-97b8ece0ae35
 ms.date: 12/05/2018
 ms.keywords: SnmpRecvMsg, SnmpRecvMsg function [SNMP], _snmp_snmprecvmsg, snmp.snmprecvmsg, winsnmp/SnmpRecvMsg
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpRecvMsg
 dev_langs:

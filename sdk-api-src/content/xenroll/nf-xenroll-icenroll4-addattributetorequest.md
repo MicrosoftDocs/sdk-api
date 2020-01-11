@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: a15fe06c-e2a5-4292-ad82-ea350e652a07
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],addAttributeToRequest method, ICEnroll4 interface [Security],addAttributeToRequest method, ICEnroll4.addAttributeToRequest, ICEnroll4::addAttributeToRequest, _xen_icenroll4_addattributetorequest, addAttributeToRequest, addAttributeToRequest method [Security], addAttributeToRequest method [Security],CEnroll object, addAttributeToRequest method [Security],ICEnroll4 interface, security.icenroll4_addattributetorequest, xenroll/ICEnroll4::addAttributeToRequest
-ms.topic: method
 f1_keywords:
 - xenroll/ICEnroll4.addAttributeToRequest
 dev_langs:

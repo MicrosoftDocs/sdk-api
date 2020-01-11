@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 41ead360-0b11-4e47-86c5-24e636cc589d
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IPolicyQualifiers interface, IPolicyQualifiers interface [Security],Add method, IPolicyQualifiers.Add, IPolicyQualifiers::Add, certenroll/IPolicyQualifiers::Add, security.ipolicyqualifiers_add_method
-ms.topic: method
 f1_keywords:
 - certenroll/IPolicyQualifiers.Add
 dev_langs:

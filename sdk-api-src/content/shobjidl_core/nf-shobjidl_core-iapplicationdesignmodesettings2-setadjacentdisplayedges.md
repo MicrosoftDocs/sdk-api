@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: FD8B2436-1ADD-4371-AEB4-27EBDEC5BA04
 ms.date: 12/05/2018
 ms.keywords: ADE_LEFT, ADE_NONE, ADE_RIGHT, IApplicationDesignModeSettings2 interface [Windows Shell],SetAdjacentDisplayEdges method, IApplicationDesignModeSettings2.SetAdjacentDisplayEdges, IApplicationDesignModeSettings2::SetAdjacentDisplayEdges, SetAdjacentDisplayEdges, SetAdjacentDisplayEdges method [Windows Shell], SetAdjacentDisplayEdges method [Windows Shell],IApplicationDesignModeSettings2 interface, shell.IApplicationDesignModeSettings2_SetAdjacentDisplayEdges, shobjidl_core/IApplicationDesignModeSettings2::SetAdjacentDisplayEdges
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IApplicationDesignModeSettings2.SetAdjacentDisplayEdges
 dev_langs:

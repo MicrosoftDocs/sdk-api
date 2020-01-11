@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: FEDA0802-45A6-4ED5-9683-5278BD60B7A4
 ms.date: 12/05/2018
 ms.keywords: ID3D12RootSignatureDeserializer, ID3D12RootSignatureDeserializer interface, ID3D12RootSignatureDeserializer interface,described, d3d12/ID3D12RootSignatureDeserializer, direct3d12.id3d12rootsignaturedeserializer
-ms.topic: interface
 f1_keywords:
 - d3d12/ID3D12RootSignatureDeserializer
 dev_langs:

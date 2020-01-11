@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 9e7aba07-940d-400a-8618-44aca6df2291
 ms.date: 12/05/2018
 ms.keywords: IEnumAddress interface [TAPI 2.2],Skip method, IEnumAddress.Skip, IEnumAddress::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumAddress interface, _tapi3_ienumaddress_skip, tapi3.ienumaddress_skip, tapi3if/IEnumAddress::Skip
-ms.topic: method
 f1_keywords:
 - tapi3if/IEnumAddress.Skip
 dev_langs:

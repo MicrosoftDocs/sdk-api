@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 8251f391-7697-4024-9a9d-c7c810129a78
 ms.date: 12/05/2018
 ms.keywords: MprConfigServerSetInfoEx, MprConfigServerSetInfoEx function [RAS], mprapi/MprConfigServerSetInfoEx, rras.mprconfigserversetinfoex
-ms.topic: function
 f1_keywords:
 - mprapi/MprConfigServerSetInfoEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: c34f2a5e-5faf-45bf-acc6-8db5fc8bf5fa
 ms.date: 12/05/2018
 ms.keywords: IADsPathname interface [ADSI],Retrieve method, IADsPathname.Retrieve, IADsPathname::Retrieve, Retrieve, Retrieve method [ADSI], Retrieve method [ADSI],IADsPathname interface, _ds_iadspathname_retrieve, adsi.iadspathname__retrieve, adsi.iadspathname_retrieve, iads/IADsPathname::Retrieve
-ms.topic: method
 f1_keywords:
 - iads/IADsPathname.Retrieve
 dev_langs:

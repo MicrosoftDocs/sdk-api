@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: bf770761-008a-4a35-b31f-b781d5a8622b
 ms.date: 12/05/2018
 ms.keywords: FindFirstFreeAce, FindFirstFreeAce function [Security], _win32_findfirstfreeace, security.findfirstfreeace, securitybaseapi/FindFirstFreeAce
-ms.topic: function
 f1_keywords:
 - securitybaseapi/FindFirstFreeAce
 dev_langs:

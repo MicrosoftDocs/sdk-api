@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 4267FCA0-10AF-4731-8B68-B3425FA00185
 ms.date: 12/05/2018
 ms.keywords: ID2D1RenderInfo interface [Direct2D],SetOutputBuffer method, ID2D1RenderInfo.SetOutputBuffer, ID2D1RenderInfo::SetOutputBuffer, SetOutputBuffer, SetOutputBuffer method [Direct2D], SetOutputBuffer method [Direct2D],ID2D1RenderInfo interface, d2d1effectauthor/ID2D1RenderInfo::SetOutputBuffer, direct2d.id2d1renderinfo_setoutputbuffer
-ms.topic: method
 f1_keywords:
 - d2d1effectauthor/ID2D1RenderInfo.SetOutputBuffer
 dev_langs:

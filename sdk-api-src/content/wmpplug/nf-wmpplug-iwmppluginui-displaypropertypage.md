@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 29d1438a-164a-460b-9c3e-804417ce362a
 ms.date: 12/05/2018
 ms.keywords: DisplayPropertyPage, DisplayPropertyPage method [Windows Media Player], DisplayPropertyPage method [Windows Media Player],IWMPPluginUI interface, IWMPPluginUI interface [Windows Media Player],DisplayPropertyPage method, IWMPPluginUI.DisplayPropertyPage, IWMPPluginUI::DisplayPropertyPage, IWMPPluginUIDisplayPropertyPage, wmp.iwmppluginui_displaypropertypage, wmpplug/IWMPPluginUI::DisplayPropertyPage
-ms.topic: method
 f1_keywords:
 - wmpplug/IWMPPluginUI.DisplayPropertyPage
 dev_langs:

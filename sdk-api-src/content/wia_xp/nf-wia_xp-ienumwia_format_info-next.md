@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_format_info\next.htm
 ms.date: 12/05/2018
 ms.keywords: IEnumWIA_FORMAT_INFO interface [WIA],Next method, IEnumWIA_FORMAT_INFO.Next, IEnumWIA_FORMAT_INFO::Next, Next, Next method [WIA], Next method [WIA],IEnumWIA_FORMAT_INFO interface, _wia_IEnumWIA_FORMAT_INFO_Next, wia._wia_IEnumWIA_FORMAT_INFO_Next, wia_xp/IEnumWIA_FORMAT_INFO::Next
-ms.topic: method
 f1_keywords:
 - wia_xp/IEnumWIA_FORMAT_INFO.Next
 dev_langs:

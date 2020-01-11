@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 90cc83b5-cd2c-41f1-8bb1-b51bcc894f80
 ms.date: 12/05/2018
 ms.keywords: _win32_mmioClose, mmioClose, mmioClose function [Windows Multimedia], mmsystem/mmioClose, multimedia.mmioclose
-ms.topic: function
 f1_keywords:
 - mmiscapi/mmioClose
 dev_langs:

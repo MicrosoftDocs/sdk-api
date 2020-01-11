@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 84a5b2ce-d26b-4ffc-b757-a799658f2b34
 ms.date: 12/05/2018
 ms.keywords: ILocator interface [Microsoft TV Technologies],put_Modulation method, ILocator.put_Modulation, ILocator::put_Modulation, ILocatorput_Modulation, mstv.ilocator_put_modulation, put_Modulation, put_Modulation method [Microsoft TV Technologies], put_Modulation method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_Modulation
-ms.topic: method
 f1_keywords:
 - tuner/ILocator.put_Modulation
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: B82E6BEB-CF92-4EA6-8157-5AA0A41282F1
 ms.date: 12/05/2018
 ms.keywords: IDCompositionEffectGroup interface [DirectComposition],SetOpacity method, IDCompositionEffectGroup.SetOpacity, IDCompositionEffectGroup.SetOpacity(float), IDCompositionEffectGroup::SetOpacity, IDCompositionEffectGroup::SetOpacity(float), SetOpacity, SetOpacity method [DirectComposition], SetOpacity method [DirectComposition],IDCompositionEffectGroup interface, dcomp/IDCompositionEffectGroup::SetOpacity, directcomp.idcompositioneffectgroup_setopacity_double
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionEffectGroup.SetOpacity
 dev_langs:

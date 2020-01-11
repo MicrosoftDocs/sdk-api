@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 2CC73CE0-162A-4808-ACB6-A9599FD4D09F
 ms.date: 12/05/2018
 ms.keywords: IDWriteRemoteFontFileStream, IDWriteRemoteFontFileStream interface [Direct Write], IDWriteRemoteFontFileStream interface [Direct Write],described, directwrite.idwriteremotefontfilestream, dwrite_3/IDWriteRemoteFontFileStream
-ms.topic: interface
 f1_keywords:
 - dwrite_3/IDWriteRemoteFontFileStream
 dev_langs:

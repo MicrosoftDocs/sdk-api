@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 1D8F7B12-2883-478D-B83D-84AC47D512E4
 ms.date: 12/05/2018
 ms.keywords: IExeServerActivatableClassRegistration, IExeServerActivatableClassRegistration interface [Windows Runtime], IExeServerActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IExeServerActivatableClassRegistration, winrt.iexeserveractivatableclassregistration
-ms.topic: interface
 f1_keywords:
 - activationregistration/IExeServerActivatableClassRegistration
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: FB3BC989-F165-417A-963A-7B78B65930FA
 ms.date: 12/05/2018
 ms.keywords: DecryptPackage, DecryptPackage method [App packaging and management], DecryptPackage method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],DecryptPackage method, IAppxEncryptionFactory.DecryptPackage, IAppxEncryptionFactory::DecryptPackage, appxpackaging/IAppxEncryptionFactory::DecryptPackage, appxpkg.iappxencryptionfactory_decryptpackage
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxEncryptionFactory.DecryptPackage
 dev_langs:

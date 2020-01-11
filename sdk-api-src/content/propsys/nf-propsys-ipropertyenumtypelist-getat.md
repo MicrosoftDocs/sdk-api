@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 1713d16f-58d9-46f9-9795-4e05ff257901
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [Windows Properties], GetAt method [Windows Properties],IPropertyEnumTypeList interface, IPropertyEnumTypeList interface [Windows Properties],GetAt method, IPropertyEnumTypeList.GetAt, IPropertyEnumTypeList::GetAt, _shell_IPropertyEnumTypeList_GetAt, properties.IPropertyEnumTypeList_GetAt, propsys/IPropertyEnumTypeList::GetAt, shell.IPropertyEnumTypeList_GetAt
-ms.topic: method
 f1_keywords:
 - propsys/IPropertyEnumTypeList.GetAt
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wincontacts
 ms.assetid: 7ad95916-4e21-4607-b27d-584a931f9201
 ms.date: 12/05/2018
 ms.keywords: GetPropertyModificationDate, GetPropertyModificationDate method [Windows Contacts], GetPropertyModificationDate method [Windows Contacts],IContactPropertyCollection interface, IContactPropertyCollection interface [Windows Contacts],GetPropertyModificationDate method, IContactPropertyCollection.GetPropertyModificationDate, IContactPropertyCollection::GetPropertyModificationDate, _wincontacts_IContactPropertyCollection_GetPropertyModificationDate, icontact/IContactPropertyCollection::GetPropertyModificationDate, wincontacts._wincontacts_IContactPropertyCollection_GetPropertyModificationDate
-ms.topic: method
 f1_keywords:
 - icontact/IContactPropertyCollection.GetPropertyModificationDate
 dev_langs:

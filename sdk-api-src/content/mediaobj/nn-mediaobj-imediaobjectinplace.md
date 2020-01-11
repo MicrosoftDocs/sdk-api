@@ -8,7 +8,6 @@ tech.root: DirectShow
 ms.assetid: c2105141-6c5e-4edb-aa3b-3227ca223329
 ms.date: 12/05/2018
 ms.keywords: IMediaObjectInPlace, IMediaObjectInPlace interface [DirectShow], IMediaObjectInPlace interface [DirectShow],described, IMediaObjectInPlaceInterface, dshow.imediaobjectinplace, mediaobj/IMediaObjectInPlace
-ms.topic: interface
 f1_keywords: 
  - "mediaobj/IMediaObjectInPlace"
 dev_langs:

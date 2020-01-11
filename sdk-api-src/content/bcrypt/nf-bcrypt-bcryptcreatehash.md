@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: deb02f67-f3d3-4542-8245-fd4982c3190b
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_HASH_REUSABLE_FLAG, BCryptCreateHash, BCryptCreateHash function [Security], bcrypt/BCryptCreateHash, security.bcryptcreatehash_func
-ms.topic: function
 f1_keywords:
 - bcrypt/BCryptCreateHash
 dev_langs:

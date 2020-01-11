@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 72a25b78-96fd-42bf-9e71-6bb80efea0ac
 ms.date: 12/05/2018
 ms.keywords: GetDpi, GetDpi method [Direct2D], GetDpi method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],GetDpi method, ID2D1RenderTarget.GetDpi, ID2D1RenderTarget::GetDpi, d2d1/ID2D1RenderTarget::GetDpi, direct2d.ID2D1RenderTarget_GetDpi
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1RenderTarget.GetDpi
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 3EB42081-6949-46F8-B235-377234A90C39
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterCreateKey, EngineAdapterCreateKey callback function [Windows Biometric Framework API], PIBIO_ENGINE_CREATE_KEY_FN, PIBIO_ENGINE_CREATE_KEY_FN callback, secbiomet.engineadaptercreatekey, winbio_adapter/EngineAdapterCreateKey
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterCreateKey
 dev_langs:

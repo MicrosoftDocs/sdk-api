@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 0d23c8ce-ada6-4640-b9ad-8989f9a122a2
 ms.date: 12/05/2018
 ms.keywords: FILEOP_COPY, FILEOP_DELETE, SetupRemoveFromDiskSpaceList, SetupRemoveFromDiskSpaceList function [Setup API], SetupRemoveFromDiskSpaceListA, SetupRemoveFromDiskSpaceListW, _setupapi_setupremovefromdiskspacelist, setup.setupremovefromdiskspacelist, setupapi/SetupRemoveFromDiskSpaceList, setupapi/SetupRemoveFromDiskSpaceListA, setupapi/SetupRemoveFromDiskSpaceListW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupRemoveFromDiskSpaceList
 dev_langs:

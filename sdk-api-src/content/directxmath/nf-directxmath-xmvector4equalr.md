@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector4EqualR(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4EqualR, XMVector4EqualR, XMVector4EqualR method [DirectX Math Support APIs], dxmath.xmvector4equalr
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector4EqualR
 dev_langs:

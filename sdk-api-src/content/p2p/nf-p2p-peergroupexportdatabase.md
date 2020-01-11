@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: ce448780-5a9b-4d2d-9dfb-192b4e6c1b22
 ms.date: 12/05/2018
 ms.keywords: PeerGroupExportDatabase, PeerGroupExportDatabase function [Peer Networking], p2p.peergroupexportdatabase, p2p/PeerGroupExportDatabase
-ms.topic: function
 f1_keywords:
 - p2p/PeerGroupExportDatabase
 dev_langs:

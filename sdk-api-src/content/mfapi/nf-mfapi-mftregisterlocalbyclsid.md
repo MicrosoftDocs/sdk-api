@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 80c45ac3-4487-41bf-a5f5-f459db3cd700
 ms.date: 12/05/2018
 ms.keywords: MFTRegisterLocalByCLSID, MFTRegisterLocalByCLSID function [Media Foundation], mf.mftregisterlocalbyclsid, mfapi/MFTRegisterLocalByCLSID
-ms.topic: function
 f1_keywords:
 - mfapi/MFTRegisterLocalByCLSID
 dev_langs:

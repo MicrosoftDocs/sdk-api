@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 202f8534-9990-4e69-b3b8-8a8884b651f1
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumACDGroup interface, IEnumACDGroup interface [TAPI 2.2],Clone method, IEnumACDGroup.Clone, IEnumACDGroup::Clone, _tapi3_ienumacdgroup_clone, tapi3.ienumacdgroup_clone, tapi3cc/IEnumACDGroup::Clone
-ms.topic: method
 f1_keywords:
 - tapi3/IEnumACDGroup.Clone
 dev_langs:

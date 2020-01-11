@@ -7,7 +7,6 @@ tech.root: wsl
 ms.assetid: F9DF5B7A-D315-44B7-BB01-6440CCB4C64C
 ms.date: 12/05/2018
 ms.keywords: WslLaunchInteractive, WslLaunchInteractive function, wsl.wsllaunchinteractive, wslapi/WslLaunchInteractive
-ms.topic: function
 f1_keywords:
 - wslapi/WslLaunchInteractive
 dev_langs:

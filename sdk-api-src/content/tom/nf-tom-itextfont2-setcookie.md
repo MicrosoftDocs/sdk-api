@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: d1b4c7a8-ba4c-482f-8431-14d45474ccc0
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetCookie method, ITextFont2.SetCookie, ITextFont2::SetCookie, SetCookie, SetCookie method [Windows Controls], SetCookie method [Windows Controls],ITextFont2 interface, controls.itextfont2_setcookie, tom/ITextFont2::SetCookie
-ms.topic: method
 f1_keywords:
 - tom/ITextFont2.SetCookie
 dev_langs:

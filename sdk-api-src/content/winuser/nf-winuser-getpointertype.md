@@ -7,7 +7,6 @@ tech.root: InputMsg
 ms.assetid: 63bfc340-9691-463c-96ca-0a5b80b8fe40
 ms.date: 12/05/2018
 ms.keywords: GetPointerType, GetPointerType function [Input Messages and Notifications], inputmsg.getpointertype, winuser/GetPointerType
-ms.topic: function
 f1_keywords:
 - winuser/GetPointerType
 dev_langs:

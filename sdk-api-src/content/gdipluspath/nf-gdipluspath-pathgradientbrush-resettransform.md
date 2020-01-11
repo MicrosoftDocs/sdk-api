@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\resettransform_69.htm
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],ResetTransform method, PathGradientBrush.ResetTransform, PathGradientBrush::ResetTransform, ResetTransform, ResetTransform method [GDI+], ResetTransform method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_ResetTransform_, gdiplus._gdiplus_CLASS_PathGradientBrush_ResetTransform_
-ms.topic: method
 f1_keywords:
 - gdipluspath/PathGradientBrush.ResetTransform
 dev_langs:

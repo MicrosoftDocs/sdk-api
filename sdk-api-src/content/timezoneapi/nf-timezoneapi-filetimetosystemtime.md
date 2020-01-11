@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: d1d55f1f-4daa-4b9d-9962-873e38b1e0cf
 ms.date: 12/05/2018
 ms.keywords: FileTimeToSystemTime, FileTimeToSystemTime function, _win32_filetimetosystemtime, base.filetimetosystemtime, timezoneapi/FileTimeToSystemTime, winbase/FileTimeToSystemTime
-ms.topic: function
 f1_keywords:
 - timezoneapi/FileTimeToSystemTime
 dev_langs:

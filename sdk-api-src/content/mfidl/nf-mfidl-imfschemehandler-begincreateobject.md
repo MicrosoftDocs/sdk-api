@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 78858e8c-0eb3-4b62-84f0-76e9dff0e3ce
 ms.date: 12/05/2018
 ms.keywords: 78858e8c-0eb3-4b62-84f0-76e9dff0e3ce, BeginCreateObject, BeginCreateObject method [Media Foundation], BeginCreateObject method [Media Foundation],IMFSchemeHandler interface, IMFSchemeHandler interface [Media Foundation],BeginCreateObject method, IMFSchemeHandler.BeginCreateObject, IMFSchemeHandler::BeginCreateObject, mf.imfschemehandler_begincreateobject, mfidl/IMFSchemeHandler::BeginCreateObject
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSchemeHandler.BeginCreateObject
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 9a376412-5c16-44d5-b976-0cf1f766f72a
 ms.date: 12/05/2018
 ms.keywords: ICClose, ICClose function [Windows Multimedia], _win32_ICClose, multimedia.icclose, vfw/ICClose
-ms.topic: function
 f1_keywords:
 - vfw/ICClose
 dev_langs:

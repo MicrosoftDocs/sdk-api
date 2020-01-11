@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 29f89719-7597-4f7b-879e-1670386f8396
 ms.date: 12/05/2018
 ms.keywords: '*PPERF_DATA_BLOCK, PERF_DATA_BLOCK, PERF_DATA_BLOCK structure [Perf], _win32_perf_data_block_str, base.perf_data_block_str, perf.perf_data_block_str, winperf/PERF_DATA_BLOCK'
-ms.topic: struct
 f1_keywords:
 - winperf/PERF_DATA_BLOCK
 dev_langs:

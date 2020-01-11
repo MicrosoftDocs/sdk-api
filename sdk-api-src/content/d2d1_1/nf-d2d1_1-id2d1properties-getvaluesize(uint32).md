@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: fd65a610-9552-4efe-9050-715cb672acc8
 ms.date: 12/05/2018
 ms.keywords: GetValueSize, GetValueSize method [Direct2D], GetValueSize method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValueSize method, ID2D1Properties.GetValueSize, ID2D1Properties::GetValueSize, ID2D1Properties::GetValueSize(UINT32), d2d1_1/ID2D1Properties::GetValueSize, direct2d.id2d1properties_getvaluesize
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1Properties.GetValueSize
 dev_langs:

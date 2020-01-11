@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: 385acdb9-5642-47c1-b2ac-be388edaac12
 ms.date: 12/05/2018
 ms.keywords: ISceSvcAttachmentData, ISceSvcAttachmentData interface [Security], ISceSvcAttachmentData interface [Security],described, _config_iscesvcattachmentdata, scesvc/ISceSvcAttachmentData, security.iscesvcattachmentdata
-ms.topic: interface
 f1_keywords:
 - scesvc/ISceSvcAttachmentData
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 14a36fe9-8293-4079-8189-8a8e0720c100
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink interface [windows Media Format],Open method, IWMWriterFileSink.Open, IWMWriterFileSink::Open, IWMWriterFileSinkOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMWriterFileSink interface, wmformat.iwmwriterfilesink_open, wmsdkidl/IWMWriterFileSink::Open
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriterFileSink.Open
 dev_langs:

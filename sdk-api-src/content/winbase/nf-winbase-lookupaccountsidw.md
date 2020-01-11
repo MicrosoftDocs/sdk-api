@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: b8a44ffc-86e1-4f79-ad51-8340da9eaefd
 ms.date: 12/05/2018
 ms.keywords: LookupAccountSid, LookupAccountSid function [Security], LookupAccountSidA, LookupAccountSidW, _win32_lookupaccountsid, security.lookupaccountsid, winbase/LookupAccountSid, winbase/LookupAccountSidA, winbase/LookupAccountSidW
-ms.topic: function
 f1_keywords:
 - winbase/LookupAccountSid
 dev_langs:

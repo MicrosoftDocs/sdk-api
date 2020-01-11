@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: cd4ed8a0-e5a8-4809-a9bd-d013a84b0bd4
 ms.date: 12/05/2018
 ms.keywords: AddResource, AddResource method [Remote Desktop Services], AddResource method [Remote Desktop Services],IWorkspaceRegistration interface, AddResource method [Remote Desktop Services],IWorkspaceRegistration2 interface, AddResource method [Remote Desktop Services],Workspace object, IWorkspaceRegistration interface [Remote Desktop Services],AddResource method, IWorkspaceRegistration.AddResource, IWorkspaceRegistration2 interface [Remote Desktop Services],AddResource method, IWorkspaceRegistration2::AddResource, IWorkspaceRegistration::AddResource, Workspace object [Remote Desktop Services],AddResource method, termserv.iworkspaceregistration_addresource, workspaceruntime/IWorkspaceRegistration2::AddResource, workspaceruntime/IWorkspaceRegistration::AddResource
-ms.topic: method
 f1_keywords:
 - workspaceruntime/IWorkspaceRegistration.AddResource
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 8890E44F-595A-4116-B4A4-F10FAEE598B7
 ms.date: 12/05/2018
 ms.keywords: CreateBehavior, CreateBehavior method [Direct Manipulation], CreateBehavior method [Direct Manipulation],IDirectManipulationManager2 interface, IDirectManipulationManager2 interface [Direct Manipulation],CreateBehavior method, IDirectManipulationManager2.CreateBehavior, IDirectManipulationManager2::CreateBehavior, directmanipulation.idirectmanipulationmanager2_createbehavior, directmanipulation/IDirectManipulationManager2::CreateBehavior
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationManager2.CreateBehavior
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: f2c06679-fa2f-4357-ae11-6cec1e50fd8f
 ms.date: 12/05/2018
 ms.keywords: MemoryBarrier, MemoryBarrier function, base.memorybarrier, winnt/MemoryBarrier
-ms.topic: function
 f1_keywords:
 - winnt/MemoryBarrier
 dev_langs:

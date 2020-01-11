@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 5C15E553-D6C6-47F7-B6DE-E7CA4795CA87
 ms.date: 12/05/2018
 ms.keywords: ClusterEncrypt, ClusterEncrypt function [Failover Cluster], PCLUSTER_ENCRYPT, PCLUSTER_ENCRYPT function [Failover Cluster], mscs.clusterencrypt, resapi/ClusterEncrypt, resapi/PCLUSTER_ENCRYPT
-ms.topic: function
 f1_keywords:
 - resapi/ClusterEncrypt
 dev_langs:

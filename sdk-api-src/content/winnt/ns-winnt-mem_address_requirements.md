@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 1CAB4942-F0D2-4A60-9472-4EDF2FC9FA7A
 ms.date: 12/05/2018
 ms.keywords: '*PMEM_ADDRESS_REQUIREMENTS, MEM_ADDRESS_REQUIREMENTS, MEM_ADDRESS_REQUIREMENTS structure, PMEM_ADDRESS_REQUIREMENTS, PMEM_ADDRESS_REQUIREMENTS structure pointer, base.mem_address_requirements, winnt/MEM_ADDRESS_REQUIREMENTS, winnt/PMEM_ADDRESS_REQUIREMENTS'
-ms.topic: struct
 f1_keywords:
 - winnt/MEM_ADDRESS_REQUIREMENTS
 dev_langs:

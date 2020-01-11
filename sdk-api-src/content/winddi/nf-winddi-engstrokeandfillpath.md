@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: a58ce829-aa55-46d6-b6d0-205140a9548c
 ms.date: 12/05/2018
 ms.keywords: EngStrokeAndFillPath, EngStrokeAndFillPath function [Display Devices], display.engstrokeandfillpath, gdifncs_aad2693d-6a0e-40ab-ad95-aa38e77c7651.xml, winddi/EngStrokeAndFillPath
-ms.topic: function
 f1_keywords:
 - winddi/EngStrokeAndFillPath
 dev_langs:

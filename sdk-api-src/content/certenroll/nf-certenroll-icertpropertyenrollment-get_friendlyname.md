@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: a12b7368-cace-47c4-bfd4-08845dc2634c
 ms.date: 12/05/2018
 ms.keywords: FriendlyName property [Security], FriendlyName property [Security],ICertPropertyEnrollment interface, ICertPropertyEnrollment interface [Security],FriendlyName property, ICertPropertyEnrollment.FriendlyName, ICertPropertyEnrollment.get_FriendlyName, ICertPropertyEnrollment::FriendlyName, ICertPropertyEnrollment::get_FriendlyName, certenroll/ICertPropertyEnrollment::FriendlyName, certenroll/ICertPropertyEnrollment::get_FriendlyName, get_FriendlyName, security.icertpropertyenrollment_friendlyname_property
-ms.topic: method
 f1_keywords:
 - certenroll/ICertPropertyEnrollment.FriendlyName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 4dd02f48-9b49-4e74-b0cf-c51c0a594437
 ms.date: 12/05/2018
 ms.keywords: GetUri, GetUri method [Open Packaging Conventions], GetUri method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetUri method, IOpcSignatureReference.GetUri, IOpcSignatureReference::GetUri, msopc/IOpcSignatureReference::GetUri, opc.iopcsignaturereference_geturi
-ms.topic: method
 f1_keywords:
 - msopc/IOpcSignatureReference.GetUri
 dev_langs:

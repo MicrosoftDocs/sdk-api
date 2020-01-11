@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 5225bda1-6e20-4f6b-9f9b-633c62acfdce
 ms.date: 12/05/2018
 ms.keywords: TryEnterCriticalSection, TryEnterCriticalSection function, _win32_tryentercriticalsection, base.tryentercriticalsection, synchapi/TryEnterCriticalSection, winbase/TryEnterCriticalSection
-ms.topic: function
 f1_keywords:
 - synchapi/TryEnterCriticalSection
 dev_langs:

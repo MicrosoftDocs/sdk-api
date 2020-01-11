@@ -7,7 +7,6 @@ tech.root: tcui
 ms.assetid: 620159FC-AC62-4568-8354-D15BCAEEEEB2
 ms.date: 12/05/2018
 ms.keywords: TryCancelPendingGameUI, TryCancelPendingGameUI function, gamingtcui/TryCancelPendingGameUI, tcui.trycancelpendinggameui
-ms.topic: function
 f1_keywords:
 - gamingtcui/TryCancelPendingGameUI
 dev_langs:

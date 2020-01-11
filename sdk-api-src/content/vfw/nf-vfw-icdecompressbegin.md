@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 3e9fb4b7-bdc6-402c-a5c6-3f837149c291
 ms.date: 12/05/2018
 ms.keywords: ICDecompressBegin, ICDecompressBegin macro [Windows Multimedia], _win32_ICDecompressBegin, multimedia.icdecompressbegin, vfw/ICDecompressBegin
-ms.topic: macro
 f1_keywords:
 - vfw/ICDecompressBegin
 dev_langs:

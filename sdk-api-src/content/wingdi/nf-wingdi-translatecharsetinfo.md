@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 0e6e81f1-ec7b-42ba-8706-a352349fa6ab
 ms.date: 12/05/2018
 ms.keywords: TCI_SRCCHARSET, TCI_SRCCODEPAGE, TCI_SRCFONTSIG, TCI_SRCLOCALE, TranslateCharsetInfo, TranslateCharsetInfo function [Internationalization for Windows Applications], _win32_TranslateCharsetInfo, intl.translatecharsetinfo, wingdi/TranslateCharsetInfo
-ms.topic: function
 f1_keywords:
 - wingdi/TranslateCharsetInfo
 dev_langs:

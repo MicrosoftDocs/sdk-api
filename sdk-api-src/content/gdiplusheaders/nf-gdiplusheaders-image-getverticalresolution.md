@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getverticalresolution.htm
 ms.date: 12/05/2018
 ms.keywords: GetVerticalResolution, GetVerticalResolution method [GDI+], GetVerticalResolution method [GDI+],Image class, Image class [GDI+],GetVerticalResolution method, Image.GetVerticalResolution, Image::GetVerticalResolution, _gdiplus_CLASS_Image_GetVerticalResolution_, gdiplus._gdiplus_CLASS_Image_GetVerticalResolution_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Image.GetVerticalResolution
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 2541cfc9-ca65-4156-ae33-c04083556006
 ms.date: 12/05/2018
 ms.keywords: _win32_midiInStop, midiInStop, midiInStop function [Windows Multimedia], mmeapi/midiInStop, multimedia.midiinstop
-ms.topic: function
 f1_keywords:
 - mmeapi/midiInStop
 dev_langs:

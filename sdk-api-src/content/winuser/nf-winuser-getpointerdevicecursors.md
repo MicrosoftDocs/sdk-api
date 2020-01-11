@@ -7,7 +7,6 @@ tech.root: Input_PointerDevice
 ms.assetid: 4dd25033-e63a-4fa9-89b9-bfcae4061a76
 ms.date: 12/05/2018
 ms.keywords: GetPointerDeviceCursors, GetPointerDeviceCursors function, input_pointerdevice.getpointerdevicecursors, unifiedinputstack.getpointerdevicecursors, winuser/GetPointerDeviceCursors
-ms.topic: function
 f1_keywords:
 - winuser/GetPointerDeviceCursors
 dev_langs:

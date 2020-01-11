@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: ad5e06cf-e2fa-4696-9521-61ff012b9204
 ms.date: 12/05/2018
 ms.keywords: EventDescOrKeyword, EventDescOrKeyword function [ETW], base.eventdescorkeyword_func, etw.eventdescorkeyword_func, evntprov/EventDescOrKeyword
-ms.topic: function
 f1_keywords:
 - evntprov/EventDescOrKeyword
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2f7a7323-c9da-47f9-95e2-dd13fc023373
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],SetMinSeek method, IMSVidStreamBufferSink3.SetMinSeek, IMSVidStreamBufferSink3::SetMinSeek, IMSVidStreamBufferSink3SetMinSeek, SetMinSeek, SetMinSeek method [Microsoft TV Technologies], SetMinSeek method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_setminseek, segment/IMSVidStreamBufferSink3::SetMinSeek
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferSink3.SetMinSeek
 dev_langs:

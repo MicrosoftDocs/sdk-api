@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 8555bc24-c017-4d02-854b-e64cf9e8ae1b
 ms.date: 12/05/2018
 ms.keywords: AVIStreamEndStreaming, AVIStreamEndStreaming function [Windows Multimedia], _win32_AVIStreamEndStreaming, multimedia.avistreamendstreaming, vfw/AVIStreamEndStreaming
-ms.topic: function
 f1_keywords:
 - vfw/AVIStreamEndStreaming
 dev_langs:

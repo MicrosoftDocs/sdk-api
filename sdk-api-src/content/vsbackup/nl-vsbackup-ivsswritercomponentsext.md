@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 29772c1f-1cc4-4ee7-8e1d-f1a6cbebf470
 ms.date: 12/05/2018
 ms.keywords: IVssWriterComponentsExt, IVssWriterComponentsExt interface [VSS], IVssWriterComponentsExt interface [VSS],described, _win32_ivsswritercomponentsext, base.ivsswritercomponentsext, vsbackup/IVssWriterComponentsExt
-ms.topic: class
 f1_keywords:
 - vsbackup/IVssWriterComponentsExt
 dev_langs:

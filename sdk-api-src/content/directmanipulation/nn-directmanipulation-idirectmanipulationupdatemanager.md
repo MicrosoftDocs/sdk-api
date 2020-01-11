@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 30626a22-1ded-49ff-a6c3-619a14d5ee3b
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationUpdateManager, IDirectManipulationUpdateManager interface [Direct Manipulation], IDirectManipulationUpdateManager interface [Direct Manipulation],described, directmanipulation.idirectmanipulationupdatemanager, directmanipulation/IDirectManipulationUpdateManager
-ms.topic: interface
 f1_keywords:
 - directmanipulation/IDirectManipulationUpdateManager
 dev_langs:

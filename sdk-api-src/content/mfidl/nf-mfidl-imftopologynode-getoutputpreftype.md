@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 972052ca-1d87-4fa4-abeb-6e74ba6c9368
 ms.date: 12/05/2018
 ms.keywords: 972052ca-1d87-4fa4-abeb-6e74ba6c9368, GetOutputPrefType, GetOutputPrefType method [Media Foundation], GetOutputPrefType method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetOutputPrefType method, IMFTopologyNode.GetOutputPrefType, IMFTopologyNode::GetOutputPrefType, mf.imftopologynode_getoutputpreftype, mfidl/IMFTopologyNode::GetOutputPrefType
-ms.topic: method
 f1_keywords:
 - mfidl/IMFTopologyNode.GetOutputPrefType
 dev_langs:

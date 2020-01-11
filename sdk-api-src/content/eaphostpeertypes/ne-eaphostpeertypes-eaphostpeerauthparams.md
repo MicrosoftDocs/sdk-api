@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: adbb08d7-36a0-4e10-b0bc-2fb7030c2fcc
 ms.date: 12/05/2018
 ms.keywords: EapHostNapInfo, EapHostPeerAuthParams, EapHostPeerAuthParams enumeration [EAPHost], EapHostPeerAuthStatus, EapHostPeerIdentity, EapHostPeerIdentityExtendedInfo, eaphost.eaphostpeerauthparams, eaphostpeertypes/EapHostNapInfo, eaphostpeertypes/EapHostPeerAuthParams, eaphostpeertypes/EapHostPeerAuthStatus, eaphostpeertypes/EapHostPeerIdentity, eaphostpeertypes/EapHostPeerIdentityExtendedInfo
-ms.topic: enum
 f1_keywords:
 - eaphostpeertypes/EapHostPeerAuthParams
 dev_langs:

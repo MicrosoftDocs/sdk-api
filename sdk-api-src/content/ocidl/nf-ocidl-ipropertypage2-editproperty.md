@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: a41d2d50-6484-43d0-a41c-1cfa3bfdbe8e
 ms.date: 12/05/2018
 ms.keywords: EditProperty, EditProperty method [COM], EditProperty method [COM],IPropertyPage2 interface, IPropertyPage2 interface [COM],EditProperty method, IPropertyPage2.EditProperty, IPropertyPage2::EditProperty, _ctrl_ipropertypage2_editproperty, com.ipropertypage2_editproperty, ocidl/IPropertyPage2::EditProperty
-ms.topic: method
 f1_keywords:
 - ocidl/IPropertyPage2.EditProperty
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 681bdb9c-69dd-4bf6-a4b3-c490f7a0363e
 ms.date: 12/05/2018
 ms.keywords: IXpsOMSignatureBlockResourceCollection, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging], IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomsignatureblockresourcecollection, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMSignatureBlockResourceCollection
 dev_langs:

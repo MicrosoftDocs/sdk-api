@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: BA995C04-9004-4A41-8E4A-8701E8C64F2E
 ms.date: 12/05/2018
 ms.keywords: WTSEnableChildSessions, WTSEnableChildSessions function [Remote Desktop Services], termserv.wtsenablechildsessions, wtsapi32/WTSEnableChildSessions
-ms.topic: function
 f1_keywords:
 - wtsapi32/WTSEnableChildSessions
 dev_langs:

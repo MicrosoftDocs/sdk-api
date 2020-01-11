@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690
 ms.date: 12/05/2018
 ms.keywords: GetFileAttributes, GetFileAttributes function [Files], GetFileAttributesA, GetFileAttributesW, _win32_getfileattributes, base.getfileattributes, fileapi/GetFileAttributes, fileapi/GetFileAttributesA, fileapi/GetFileAttributesW, fs.getfileattributes, winbase/GetFileAttributes, winbase/GetFileAttributesA, winbase/GetFileAttributesW
-ms.topic: function
 f1_keywords:
 - fileapi/GetFileAttributes
 dev_langs:

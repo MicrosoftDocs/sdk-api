@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: af4b1a1d-b08d-4165-a011-bdbd1e063e74
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Core Audio], GetSelection method [Core Audio],IAudioOutputSelector interface, IAudioOutputSelector interface [Core Audio],GetSelection method, IAudioOutputSelector.GetSelection, IAudioOutputSelector::GetSelection, IAudioOutputSelectorGetSelection, coreaudio.iaudiooutputselector_getselection, devicetopology/IAudioOutputSelector::GetSelection
-ms.topic: method
 f1_keywords:
 - devicetopology/IAudioOutputSelector.GetSelection
 dev_langs:

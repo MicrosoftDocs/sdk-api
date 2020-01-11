@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_097o.htm
 ms.date: 12/05/2018
 ms.keywords: DeviceId property [Fax Service], DeviceId property [Fax Service],IFaxStatus interface, IFaxStatus interface [Fax Service],DeviceId property, IFaxStatus.DeviceId, IFaxStatus.get_DeviceId, IFaxStatus::DeviceId, IFaxStatus::get_DeviceId, _mfax_ifaxstatus_get_deviceid, fax._mfax_ifaxstatus_get_deviceid, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_deviceid_cpp, faxcom/IFaxStatus::DeviceId, faxcom/IFaxStatus::get_DeviceId, get_DeviceId
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxStatus.DeviceId
 dev_langs:

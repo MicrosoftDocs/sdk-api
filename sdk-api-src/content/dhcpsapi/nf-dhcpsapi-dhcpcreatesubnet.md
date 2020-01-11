@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: acae01cf-cbd9-4461-a1cc-5fcb745b9c8f
 ms.date: 12/05/2018
 ms.keywords: DhcpCreateSubnet, DhcpCreateSubnet function [DHCP], dhcp.dhcpcreatesubnet, dhcpsapi/DhcpCreateSubnet
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpCreateSubnet
 dev_langs:

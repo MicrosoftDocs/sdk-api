@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f8a6f61f-bea3-4049-89fb-c33ef00b327f
 ms.date: 12/05/2018
 ms.keywords: IUnknown_GetWindow, IUnknown_GetWindow function [Windows Shell], _win32_IUnknown_GetWindow, shell.IUnknown_GetWindow, shlwapi/IUnknown_GetWindow
-ms.topic: function
 f1_keywords:
 - shlwapi/IUnknown_GetWindow
 dev_langs:

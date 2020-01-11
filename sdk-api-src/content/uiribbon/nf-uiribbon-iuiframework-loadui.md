@@ -7,7 +7,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\loadui.htm
 ms.date: 12/05/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],LoadUI method, IUIFramework.LoadUI, IUIFramework::LoadUI, LoadUI, LoadUI method [Windows Ribbon], LoadUI method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_LoadUI, uiribbon/IUIFramework::LoadUI, windowsribbon.windowsribbon_iuiframework_loadui
-ms.topic: method
 f1_keywords:
 - uiribbon/IUIFramework.LoadUI
 dev_langs:

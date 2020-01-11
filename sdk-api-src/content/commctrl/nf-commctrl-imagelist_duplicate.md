@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_duplicate.htm
 ms.date: 12/05/2018
 ms.keywords: ImageList_Duplicate, ImageList_Duplicate function [Windows Controls], _win32_ImageList_Duplicate, _win32_ImageList_Duplicate_cpp, commctrl/ImageList_Duplicate, controls.ImageList_Duplicate, controls._win32_ImageList_Duplicate
-ms.topic: function
 f1_keywords:
 - commctrl/ImageList_Duplicate
 dev_langs:

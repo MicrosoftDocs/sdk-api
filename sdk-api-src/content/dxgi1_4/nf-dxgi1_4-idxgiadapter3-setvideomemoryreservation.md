@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 5D17F57F-9FFA-4B5C-98B6-33E5B3982A63
 ms.date: 12/05/2018
 ms.keywords: IDXGIAdapter3 interface [DXGI],SetVideoMemoryReservation method, IDXGIAdapter3.SetVideoMemoryReservation, IDXGIAdapter3::SetVideoMemoryReservation, SetVideoMemoryReservation, SetVideoMemoryReservation method [DXGI], SetVideoMemoryReservation method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_setvideomemoryreservation, dxgi1_4/IDXGIAdapter3::SetVideoMemoryReservation
-ms.topic: method
 f1_keywords:
 - dxgi1_4/IDXGIAdapter3.SetVideoMemoryReservation
 dev_langs:

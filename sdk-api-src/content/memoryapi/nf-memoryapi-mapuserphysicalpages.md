@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 7e9804dd-717d-4658-aac8-228878e61e4b
 ms.date: 12/05/2018
 ms.keywords: MapUserPhysicalPages, MapUserPhysicalPages function, _win32_mapuserphysicalpages, base.mapuserphysicalpages, winbase/MapUserPhysicalPages
-ms.topic: function
 f1_keywords:
 - memoryapi/MapUserPhysicalPages
 dev_langs:

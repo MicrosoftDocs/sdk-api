@@ -7,7 +7,6 @@ tech.root: ProjFS
 ms.assetid: 0C04D13F-862C-4E4C-9BC1-13E6FAC86E99
 ms.date: 12/05/2018
 ms.keywords: PrjGetVirtualizationInstanceInfo, PrjGetVirtualizationInstanceInfo function, ProjFS.prjgetvirtualizationinstanceinfo, projectedfslib/PrjGetVirtualizationInstanceInfo
-ms.topic: function
 f1_keywords:
 - projectedfslib/PrjGetVirtualizationInstanceInfo
 dev_langs:

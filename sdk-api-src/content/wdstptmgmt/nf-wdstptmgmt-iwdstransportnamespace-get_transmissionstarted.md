@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: abc395e5-aabe-478b-8232-48a107813da9
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],TransmissionStarted property, IWdsTransportNamespace.TransmissionStarted, IWdsTransportNamespace.get_TransmissionStarted, IWdsTransportNamespace::TransmissionStarted, IWdsTransportNamespace::get_TransmissionStarted, TransmissionStarted property [Windows Deployment Services], TransmissionStarted property [Windows Deployment Services],IWdsTransportNamespace interface, get_TransmissionStarted, wds.iwdstransportnamespace_transmissionstarted, wdstptmgmt/IWdsTransportNamespace::TransmissionStarted, wdstptmgmt/IWdsTransportNamespace::get_TransmissionStarted
-ms.topic: method
 f1_keywords:
 - wdstptmgmt/IWdsTransportNamespace.TransmissionStarted
 dev_langs:

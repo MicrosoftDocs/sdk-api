@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: c74c0906-0a5c-4ab8-87cf-a195566e1d9e
 ms.date: 12/05/2018
 ms.keywords: DWriteCreateFactory, DWriteCreateFactory function [Direct Write], directwrite.dwritecreatefactory, dwrite/DWriteCreateFactory
-ms.topic: function
 f1_keywords:
 - dwrite/DWriteCreateFactory
 dev_langs:

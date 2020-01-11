@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 959cd8e7-ea0c-4b98-8e13-398e09c62668
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],Add method, TRefPointerCollection.Add, TRefPointerCollection::Add, _hmm_trefpointercollection_add, refptrco/TRefPointerCollection::Add, wmi.trefpointercollection_add
-ms.topic: method
 f1_keywords:
 - refptrco/TRefPointerCollection.Add
 dev_langs:

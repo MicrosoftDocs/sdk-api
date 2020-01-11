@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_canceltoclose.htm
 ms.date: 12/05/2018
 ms.keywords: PropSheet_CancelToClose, PropSheet_CancelToClose macro [Windows Controls], _win32_PropSheet_CancelToClose, _win32_PropSheet_CancelToClose_cpp, controls.PropSheet_CancelToClose, controls._win32_PropSheet_CancelToClose, prsht/PropSheet_CancelToClose
-ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_CancelToClose
 dev_langs:

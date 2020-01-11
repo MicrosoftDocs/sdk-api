@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 9a087a73-1b61-481d-8deb-a251511906a9
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],put_ForceMediaToBeClosed method, IDiscFormat2Data.put_ForceMediaToBeClosed, IDiscFormat2Data::put_ForceMediaToBeClosed, imapi.idiscformat2data_put_forcemediatobeclosed, imapi2/IDiscFormat2Data::put_ForceMediaToBeClosed, put_ForceMediaToBeClosed, put_ForceMediaToBeClosed method [IMAPI], put_ForceMediaToBeClosed method [IMAPI],IDiscFormat2Data interface
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2Data.put_ForceMediaToBeClosed
 dev_langs:

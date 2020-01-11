@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 6761cf80-60b1-4c3a-8c3f-f040fab60f24
 ms.date: 12/05/2018
 ms.keywords: ITfMouseTrackerACP, ITfMouseTrackerACP interface [Text Services Framework], ITfMouseTrackerACP interface [Text Services Framework],described, _tsf_itfmousetrackeracp_ref, msctf/ITfMouseTrackerACP, tsf.itfmousetrackeracp
-ms.topic: interface
 f1_keywords:
 - msctf/ITfMouseTrackerACP
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: ecb33eee-4622-4a2e-bc24-7a77d16ef4a4
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],LoadPackageFile method, IXpsSignatureManager.LoadPackageFile, IXpsSignatureManager::LoadPackageFile, LoadPackageFile, LoadPackageFile method [XPS Documents and Packaging], LoadPackageFile method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_loadpackagefile, xpsdigitalsignature/IXpsSignatureManager::LoadPackageFile
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureManager.LoadPackageFile
 dev_langs:

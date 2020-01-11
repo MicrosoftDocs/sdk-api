@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3mk4.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],RecipientDepartment property, IFaxDoc.RecipientDepartment, IFaxDoc.get_RecipientDepartment, IFaxDoc::RecipientDepartment, IFaxDoc::get_RecipientDepartment, IFaxDoc::put_RecipientDepartment, RecipientDepartment property [Fax Service], RecipientDepartment property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientdepartment, fax._mfax_ifaxdoc_get_recipientdepartment, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientdepartment_cpp, faxcom/IFaxDoc::RecipientDepartment, faxcom/IFaxDoc::get_RecipientDepartment, faxcom/IFaxDoc::put_RecipientDepartment, get_RecipientDepartment
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxDoc.RecipientDepartment
 dev_langs:

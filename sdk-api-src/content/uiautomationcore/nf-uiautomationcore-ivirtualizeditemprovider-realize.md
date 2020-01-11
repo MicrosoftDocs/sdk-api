@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: ec69f0d2-a643-4f1b-892a-0d90f79afe72
 ms.date: 12/05/2018
 ms.keywords: IVirtualizedItemProvider interface [Windows Accessibility],Realize method, IVirtualizedItemProvider.Realize, IVirtualizedItemProvider::Realize, Realize, Realize method [Windows Accessibility], Realize method [Windows Accessibility],IVirtualizedItemProvider interface, uiauto.uiauto_IVirtualizedItemProvider_Realize, uiauto_IVirtualizedItemProvider_Realize, uiautomationcore/IVirtualizedItemProvider::Realize, winauto.uiauto_IVirtualizedItemProvider_Realize
-ms.topic: method
 f1_keywords:
 - uiautomationcore/IVirtualizedItemProvider.Realize
 dev_langs:

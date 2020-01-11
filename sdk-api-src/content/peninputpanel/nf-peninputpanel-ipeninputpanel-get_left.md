@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 99af3767-5bc9-43e3-9413-5886f057cb85
 ms.date: 12/05/2018
 ms.keywords: 99af3767-5bc9-43e3-9413-5886f057cb85, IPenInputPanel interface [Tablet PC],Left property, IPenInputPanel.Left, IPenInputPanel.get_Left, IPenInputPanel::Left, IPenInputPanel::get_Left, Left property [Tablet PC], Left property [Tablet PC],IPenInputPanel interface, PenInputPanel.get_Left, get_Left, peninputpanel/IPenInputPanel::Left, peninputpanel/IPenInputPanel::get_Left, tablet.peninputpanel_left
-ms.topic: method
 f1_keywords:
 - peninputpanel/IPenInputPanel.Left
 dev_langs:

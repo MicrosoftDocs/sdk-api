@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 0e1a8195-4fd3-43d4-ae9e-1a1e05c2119a
 ms.date: 12/05/2018
 ms.keywords: TerminateProcess, TerminateProcess function, _win32_terminateprocess, base.terminateprocess, processthreadsapi/TerminateProcess, winbase/TerminateProcess
-ms.topic: function
 f1_keywords:
 - processthreadsapi/TerminateProcess
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 28C0C0DE-7ED2-4D01-B532-E56AD81AE8D0
 ms.date: 12/05/2018
 ms.keywords: PUiaChangeInfo, PUiaChangeInfo structure pointer [Windows Accessibility], UiaChangeInfo, UiaChangeInfo structure [Windows Accessibility], uiautomationcore/PUiaChangeInfo, uiautomationcore/UiaChangeInfo, winauto.uiachangeinfo
-ms.topic: struct
 f1_keywords:
 - uiautomationcore/UiaChangeInfo
 dev_langs:

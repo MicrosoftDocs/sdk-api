@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: d1b9fd8f-7d49-4396-8f0c-6db8fad5749e
 ms.date: 12/05/2018
 ms.keywords: RESOURCE_EXIT_STATE, RESOURCE_EXIT_STATE enumeration [Failover Cluster], ResourceExitStateContinue, ResourceExitStateMax, ResourceExitStateTerminate, mscs.resource_exit_state, resapi/RESOURCE_EXIT_STATE, resapi/ResourceExitStateContinue, resapi/ResourceExitStateMax, resapi/ResourceExitStateTerminate
-ms.topic: enum
 f1_keywords:
 - resapi/RESOURCE_EXIT_STATE
 dev_langs:

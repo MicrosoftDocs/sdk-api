@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 018c10ca-698e-42e6-9439-09f183870f91
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method [Text Services Framework], GetContext method [Text Services Framework],ITfReadingInformationUIElement interface, ITfReadingInformationUIElement interface [Text Services Framework],GetContext method, ITfReadingInformationUIElement.GetContext, ITfReadingInformationUIElement::GetContext, msctf/ITfReadingInformationUIElement::GetContext, tsf.iitfreadinginformationuielement_getcontext, tsf.itfreadinginformationuielement_getcontext
-ms.topic: method
 f1_keywords:
 - msctf/ITfReadingInformationUIElement.GetContext
 dev_langs:

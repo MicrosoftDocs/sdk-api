@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: e4af0aa3-8420-4297-993c-dda4d4f7cf61
 ms.date: 12/05/2018
 ms.keywords: GetCertificateEnumerator, GetCertificateEnumerator method [XPS Documents and Packaging], GetCertificateEnumerator method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetCertificateEnumerator method, IXpsSignature.GetCertificateEnumerator, IXpsSignature::GetCertificateEnumerator, xps.ixpssignature_getcertificateenumerator, xpsdigitalsignature/IXpsSignature::GetCertificateEnumerator
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignature.GetCertificateEnumerator
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 97f59440-112b-49ea-9f8e-97e8a831229d
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_UsedBlocks method, IFileSystemImage.get_UsedBlocks, IFileSystemImage::get_UsedBlocks, get_UsedBlocks, get_UsedBlocks method [IMAPI], get_UsedBlocks method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_usedblocks, imapi2fs/IFileSystemImage::get_UsedBlocks
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFileSystemImage.get_UsedBlocks
 dev_langs:

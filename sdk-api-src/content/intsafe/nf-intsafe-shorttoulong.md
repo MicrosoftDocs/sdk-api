@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3a959f88-cca2-4fa6-802c-35411e7c5a4d
 ms.date: 12/05/2018
 ms.keywords: ShortToULong, ShortToULong function [Windows Shell], intsafe/ShortToULong, shell.ShortToULong
-ms.topic: function
 f1_keywords:
 - intsafe/ShortToULong
 dev_langs:

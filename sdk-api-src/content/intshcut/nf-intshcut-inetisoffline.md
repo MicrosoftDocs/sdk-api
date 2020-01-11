@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e0afac1c-c083-4b60-a30f-5dfc1a4b8fd3
 ms.date: 12/05/2018
 ms.keywords: InetIsOffline, InetIsOffline function [Windows Shell], _win32_InetIsOffline, intshcut/InetIsOffline, shell.InetIsOffline
-ms.topic: function
 f1_keywords:
 - intshcut/InetIsOffline
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionNormalize(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionNormalize, XMQuaternionNormalize, XMQuaternionNormalize method [DirectX Math Support APIs], dxmath.xmquaternionnormalize
-ms.topic: function
 f1_keywords:
 - directxmath/XMQuaternionNormalize
 dev_langs:

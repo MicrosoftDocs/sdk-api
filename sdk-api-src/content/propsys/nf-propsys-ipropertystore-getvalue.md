@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 11204335-0f00-4af8-8787-93e91248e5bd
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue (IPropertyStore), GetValue method [Audio Devices], GetValue method [Audio Devices],IPropertyStore interface, IPropertyStore interface [Audio Devices],GetValue method, IPropertyStore.GetValue, IPropertyStore::GetValue, audio.ipropertystore_getvalue, audio_syseffects_r_5540088b-f979-440e-93b8-feb9db17001c.xml, propsys/IPropertyStore::GetValue
-ms.topic: method
 f1_keywords:
 - propsys/IPropertyStore.GetValue
 dev_langs:

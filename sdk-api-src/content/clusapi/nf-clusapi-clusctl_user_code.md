@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: b21a565a-df43-486c-a474-2dc6d2f45197
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, CLUSCTL_USER_CODE, CLUSCTL_USER_CODE macro [Failover Cluster], _wolf_clusctl_user_code, clusapi/CLUSCTL_USER_CODE, mscs.clusctl_user_code
-ms.topic: macro
 f1_keywords:
 - clusapi/CLUSCTL_USER_CODE
 dev_langs:

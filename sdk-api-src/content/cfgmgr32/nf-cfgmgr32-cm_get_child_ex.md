@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: bcd46252-6f87-4d49-a24c-81789b0148d9
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Child_Ex, CM_Get_Child_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Child_Ex, cfgmgrfn_0f1bca09-50a8-4807-a1d8-79476328b649.xml, devinst.cm_get_child_ex
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Get_Child_Ex
 dev_langs:

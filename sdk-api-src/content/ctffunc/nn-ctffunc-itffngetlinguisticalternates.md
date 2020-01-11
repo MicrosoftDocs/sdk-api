@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 854FB6EC-CEF1-4FB6-AA5F-34B26B46A3CA
 ms.date: 12/05/2018
 ms.keywords: ITfFnGetLinguisticAlternates, ITfFnGetLinguisticAlternates interface [Text Services Framework], ITfFnGetLinguisticAlternates interface [Text Services Framework],described, ctffunc/ITfFnGetLinguisticAlternates, tsf.itffngetlinguisticalternates
-ms.topic: interface
 f1_keywords:
 - ctffunc/ITfFnGetLinguisticAlternates
 dev_langs:

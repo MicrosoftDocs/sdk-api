@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: d39f662b-60ef-4e84-ae62-14e360a57b4f
 ms.date: 12/05/2018
 ms.keywords: BINDSPEED, BINDSPEED enumeration [COM], BINDSPEED_IMMEDIATE, BINDSPEED_INDEFINITE, BINDSPEED_MODERATE, _com_BINDSPEED, com.bindspeed, oleidl/BINDSPEED, oleidl/BINDSPEED_IMMEDIATE, oleidl/BINDSPEED_INDEFINITE, oleidl/BINDSPEED_MODERATE
-ms.topic: enum
 f1_keywords:
 - oleidl/BINDSPEED
 dev_langs:

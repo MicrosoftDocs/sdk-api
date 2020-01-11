@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: f1b465ad-f03b-4ce8-ae83-f8e93b7fa4c4
 ms.date: 12/05/2018
 ms.keywords: VDS_PARTITION_PROP, VDS_PARTITION_PROP structure [VDS], base.vds_partition_prop, vds/_VDS_PARTITION_PROP
-ms.topic: struct
 f1_keywords:
 - vds/VDS_PARTITION_PROP
 dev_langs:

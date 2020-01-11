@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 16db95e8-43e7-403c-bce1-dd2f42e81d6a
 ms.date: 12/05/2018
 ms.keywords: ID2D1Effect interface [Direct2D],SetInput method, ID2D1Effect.SetInput, ID2D1Effect::SetInput, SetInput, SetInput method [Direct2D], SetInput method [Direct2D],ID2D1Effect interface, d2d1_1/ID2D1Effect::SetInput, direct2d.id2d1effect_setinput
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1Effect.SetInput
 dev_langs:

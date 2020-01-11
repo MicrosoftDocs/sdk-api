@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3f6d1ca1-fbd2-4ce2-b6d4-c3dfb37f1f87
 ms.date: 12/05/2018
 ms.keywords: StrCmpIC, StrCmpIC function [Windows Shell], StrCmpICA, StrCmpICW, _shell_StrCmpIC, shell.StrCmpIC, shlwapi/StrCmpIC, shlwapi/StrCmpICA, shlwapi/StrCmpICW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrCmpIC
 dev_langs:

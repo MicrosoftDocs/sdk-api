@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dcibeginaccess.htm
 ms.date: 12/05/2018
 ms.keywords: DCIBeginAccess, DCIBeginAccess function [Windows API], _dciman_dcibeginaccess, dciman/DCIBeginAccess, winprog._dciman_dcibeginaccess, winui._dciman_dcibeginaccess
-ms.topic: function
 f1_keywords:
 - dciman/DCIBeginAccess
 dev_langs:

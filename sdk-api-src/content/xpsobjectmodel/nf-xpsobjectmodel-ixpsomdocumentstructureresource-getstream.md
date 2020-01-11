@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 77c08ced-bc0d-4ebf-a257-d4298c7a352d
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMDocumentStructureResource interface, IXpsOMDocumentStructureResource interface [XPS Documents and Packaging],GetStream method, IXpsOMDocumentStructureResource.GetStream, IXpsOMDocumentStructureResource::GetStream, xps.ixpsomdocumentstructureresource_getstream, xpsobjectmodel/IXpsOMDocumentStructureResource::GetStream
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDocumentStructureResource.GetStream
 dev_langs:

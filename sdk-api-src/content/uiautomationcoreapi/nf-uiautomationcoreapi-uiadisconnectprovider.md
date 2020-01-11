@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: D4CE0071-47C4-421D-A0F1-D6E2D9983838
 ms.date: 12/05/2018
 ms.keywords: UiaDisconnectProvider, UiaDisconnectProvider function [Windows Accessibility], uiautomationcoreapi/UiaDisconnectProvider, winauto.uiauto_UiaDisconnectProvider
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaDisconnectProvider
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 1a154034-6a2d-46be-9fb6-7c7d425d12f6
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_SMART_CARD_LOGON, KERB_SMART_CARD_LOGON, KERB_SMART_CARD_LOGON structure [Security], PKERB_SMART_CARD_LOGON, PKERB_SMART_CARD_LOGON structure pointer [Security], ntsecapi/KERB_SMART_CARD_LOGON, ntsecapi/PKERB_SMART_CARD_LOGON, security.kerb_smart_card_logon'
-ms.topic: struct
 f1_keywords:
 - ntsecapi/KERB_SMART_CARD_LOGON
 dev_langs:

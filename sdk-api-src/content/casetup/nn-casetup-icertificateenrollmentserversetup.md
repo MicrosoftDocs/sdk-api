@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentServerSetup, ICertificateEnrollmentServerSetup interface [Security], ICertificateEnrollmentServerSetup interface [Security],described, casetup/ICertificateEnrollmentServerSetup, security.icertificateenrollmentserversetup
-ms.topic: interface
 f1_keywords:
 - casetup/ICertificateEnrollmentServerSetup
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: beb3c1b1-deef-440d-8cf7-f76b3f396efa
 ms.date: 12/05/2018
 ms.keywords: SHDestroyPropSheetExtArray, SHDestroyPropSheetExtArray function [Windows Shell], _win32_SHDestroyPropSheetExtArray, shell.SHDestroyPropSheetExtArray, shlobj_core/SHDestroyPropSheetExtArray
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHDestroyPropSheetExtArray
 dev_langs:

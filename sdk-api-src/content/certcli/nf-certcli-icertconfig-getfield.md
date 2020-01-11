@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 8e477fa7-d0e7-43f3-98b5-79c924a1a29c
 ms.date: 12/05/2018
 ms.keywords: Authority, CCertConfig object [Security],GetField method, CommonName, Config, Country, Description, ExchangeCertificate, Flags, GetField, GetField method [Security], GetField method [Security],CCertConfig object, GetField method [Security],ICertConfig interface, GetField method [Security],ICertConfig2 interface, ICertConfig interface [Security],GetField method, ICertConfig.GetField, ICertConfig2 interface [Security],GetField method, ICertConfig2::GetField, ICertConfig::GetField, Locality, OrgUnit, Organization, SanitizedName, SanitizedShortName, Server, ShortName, SignatureCertificate, State, WebEnrollmentServers, _certsrv_icertconfig_getfield, certcli/ICertConfig2::GetField, certcli/ICertConfig::GetField, security.icertconfig2_getfield
-ms.topic: method
 f1_keywords:
 - certcli/ICertConfig2.GetField
 dev_langs:

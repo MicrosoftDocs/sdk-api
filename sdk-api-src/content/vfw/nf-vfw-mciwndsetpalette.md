@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: dba9370b-2412-47b2-a140-bc787a448024
 ms.date: 12/05/2018
 ms.keywords: MCIWndSetPalette, MCIWndSetPalette macro [Windows Multimedia], _win32_MCIWndSetPalette, multimedia.mciwndsetpalette, vfw/MCIWndSetPalette
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndSetPalette
 dev_langs:

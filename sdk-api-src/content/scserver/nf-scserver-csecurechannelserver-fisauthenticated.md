@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 673d3bf6-27ba-4d91-b485-1171bc47a0d0
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],fIsAuthenticated method, CSecureChannelServer.fIsAuthenticated, CSecureChannelServer::fIsAuthenticated, CSecureChannelServerfIsAuthenticated, fIsAuthenticated, fIsAuthenticated method [windows Media Device Manager], fIsAuthenticated method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::fIsAuthenticated, wmdm.csecurechannelserver_fisauthenticated
-ms.topic: method
 f1_keywords:
 - scserver/CSecureChannelServer.fIsAuthenticated
 dev_langs:

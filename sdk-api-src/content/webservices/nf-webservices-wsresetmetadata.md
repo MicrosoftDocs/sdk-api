@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 091a227a-62d4-4625-9e96-b03f96e2304a
 ms.date: 12/05/2018
 ms.keywords: WsResetMetadata, WsResetMetadata function [Web Services for Windows], webservices/WsResetMetadata, wsw.wsresetmetadata
-ms.topic: function
 f1_keywords:
 - webservices/WsResetMetadata
 dev_langs:

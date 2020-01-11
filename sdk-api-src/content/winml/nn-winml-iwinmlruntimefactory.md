@@ -7,7 +7,6 @@ tech.root: MachineLearning
 ms.assetid: 7817A028-031C-49AA-A17A-4364DC0E78D0
 ms.date: 12/05/2018
 ms.keywords: IWinMLRuntimeFactory, IWinMLRuntimeFactory interface, IWinMLRuntimeFactory interface,described, MachineLearning.iwinmlruntimefactory, winml/IWinMLRuntimeFactory
-ms.topic: interface
 f1_keywords:
 - winml/IWinMLRuntimeFactory
 dev_langs:

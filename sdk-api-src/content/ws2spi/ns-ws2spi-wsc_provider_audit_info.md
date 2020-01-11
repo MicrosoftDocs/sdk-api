@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: de2e643f-08d5-4cbb-bd12-843478856011
 ms.date: 12/05/2018
 ms.keywords: PWSC_PROVIDER_AUDIT_INFO, PWSC_PROVIDER_AUDIT_INFO structure pointer [Winsock], WSC_PROVIDER_AUDIT_INFO, WSC_PROVIDER_AUDIT_INFO structure [Winsock], winsock.wsc_provider_audit_info, ws2spi/PWSC_PROVIDER_AUDIT_INFO, ws2spi/WSC_PROVIDER_AUDIT_INFO
-ms.topic: struct
 f1_keywords:
 - ws2spi/WSC_PROVIDER_AUDIT_INFO
 dev_langs:

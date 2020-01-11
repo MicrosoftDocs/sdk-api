@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0c11.htm
 ms.date: 12/05/2018
 ms.keywords: CIBuildQueryNode, CIBuildQueryNode function [Indexing Service], _idxs_CIBuildQueryNode, indexsrv.cibuildquerynode, ntquery/CIBuildQueryNode
-ms.topic: function
 f1_keywords:
 - ntquery/CIBuildQueryNode
 dev_langs:

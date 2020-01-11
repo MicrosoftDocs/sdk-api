@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 5392e5b7-eac7-40f1-b5cd-adde5a6ff1b8
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionEvents interface [Microsoft Broadband Networks],OnConnectStateChange method, IMbnConnectionEvents.OnConnectStateChange, IMbnConnectionEvents::OnConnectStateChange, OnConnectStateChange, OnConnectStateChange method [Microsoft Broadband Networks], OnConnectStateChange method [Microsoft Broadband Networks],IMbnConnectionEvents interface, mbn.imbnconnectionevents_onconnectstatechange, mbnapi/IMbnConnectionEvents::OnConnectStateChange
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnConnectionEvents.OnConnectStateChange
 dev_langs:

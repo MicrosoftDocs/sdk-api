@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 4c510900-bcff-4ea1-a8f3-95b6f47b3432
 ms.date: 12/05/2018
 ms.keywords: GetEnd, GetEnd method [Text Services Framework], GetEnd method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetEnd method, ITextStoreAnchor.GetEnd, ITextStoreAnchor::GetEnd, textstor/ITextStoreAnchor::GetEnd, tsf.itextstoreanchor_getend
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreAnchor.GetEnd
 dev_langs:

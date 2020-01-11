@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 912FC8B0-8B66-4203-BF27-8D7186F7CAC0
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory2 interface [DXGI],RegisterStereoStatusEvent method, IDXGIFactory2.RegisterStereoStatusEvent, IDXGIFactory2::RegisterStereoStatusEvent, RegisterStereoStatusEvent, RegisterStereoStatusEvent method [DXGI], RegisterStereoStatusEvent method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_RegisterStereoStatusEvent, dxgi1_2/IDXGIFactory2::RegisterStereoStatusEvent
-ms.topic: method
 f1_keywords:
 - dxgi1_2/IDXGIFactory2.RegisterStereoStatusEvent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 89a6d1c4-691d-4356-9ef5-1364b5a7507d
 ms.date: 12/05/2018
 ms.keywords: ISyncFilterInfo, ISyncFilterInfo interface [Windows Sync], ISyncFilterInfo interface [Windows Sync],described, winsync.isyncfilterinfo, winsync/ISyncFilterInfo
-ms.topic: interface
 f1_keywords:
 - winsync/ISyncFilterInfo
 dev_langs:

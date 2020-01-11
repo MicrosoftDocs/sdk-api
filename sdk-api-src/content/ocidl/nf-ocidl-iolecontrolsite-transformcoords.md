@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c7add062-4b42-43be-a982-c881c947f8f0
 ms.date: 12/05/2018
 ms.keywords: IOleControlSite interface [COM],TransformCoords method, IOleControlSite.TransformCoords, IOleControlSite::TransformCoords, TransformCoords, TransformCoords method [COM], TransformCoords method [COM],IOleControlSite interface, XFORMCOORDS_CONTAINERTOHIMETRIC, XFORMCOORDS_EVENTCOMPAT, XFORMCOORDS_HIMETRICTOCONTAINER, XFORMCOORDS_POSITION, XFORMCOORDS_SIZE, _ctrl_iolecontrolsite_transformcoords, com.iolecontrolsite_transformcoords, ocidl/IOleControlSite::TransformCoords
-ms.topic: method
 f1_keywords:
 - ocidl/IOleControlSite.TransformCoords
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 86bbe461-37c1-4dbc-bebd-fa8784d49083
 ms.date: 12/05/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NumCategories method, IKsTopologyInfo.get_NumCategories, IKsTopologyInfo::get_NumCategories, IKsTopologyInfoget_NumCategories, dshow.ikstopologyinfo_get_numcategories, get_NumCategories, get_NumCategories method [DirectShow], get_NumCategories method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NumCategories
-ms.topic: method
 f1_keywords:
 - vidcap/IKsTopologyInfo.get_NumCategories
 dev_langs:

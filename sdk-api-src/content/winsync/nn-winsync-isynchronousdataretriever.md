@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: d59a5198-5878-4a48-b6c4-042afc36054d
 ms.date: 12/05/2018
 ms.keywords: ISynchronousDataRetriever, ISynchronousDataRetriever interface [Windows Sync], ISynchronousDataRetriever interface [Windows Sync],described, winsync.isynchronousdataretriever, winsync/ISynchronousDataRetriever
-ms.topic: interface
 f1_keywords:
 - winsync/ISynchronousDataRetriever
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\enabletheming.htm
 ms.date: 12/05/2018
 ms.keywords: EnableTheming, EnableTheming function [Windows Controls], controls.EnableTheming, controls.inet_EnableTheming, inet_EnableTheming, inet_EnableTheming_cpp, uxtheme/EnableTheming
-ms.topic: function
 f1_keywords:
 - uxtheme/EnableTheming
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 85E8C8F8-31D4-42F1-9267-15F74E473D57
 ms.date: 12/05/2018
 ms.keywords: '*PEVENT_FILTER_EVENT_NAME, EVENT_FILTER_EVENT_NAME, EVENT_FILTER_EVENT_NAME structure [ETW], etw.event_filter_event_name, evntprov/EVENT_FILTER_EVENT_NAME'
-ms.topic: struct
 f1_keywords:
 - evntprov/EVENT_FILTER_EVENT_NAME
 dev_langs:

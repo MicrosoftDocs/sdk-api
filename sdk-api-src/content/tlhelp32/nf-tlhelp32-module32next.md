@@ -7,7 +7,6 @@ tech.root: ToolHelp
 ms.assetid: 88ec1af4-bae7-4cd7-b830-97a98fb337f4
 ms.date: 12/05/2018
 ms.keywords: Module32Next, Module32Next function [ToolHelp], Module32NextW, _win32_module32next, base.module32next, tlhelp32/Module32Next, tlhelp32/Module32NextW, toolhelp.module32next
-ms.topic: function
 f1_keywords:
 - tlhelp32/Module32Next
 dev_langs:

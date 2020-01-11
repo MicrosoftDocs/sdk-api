@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: b5cfabc7-81f8-4ea0-b6f4-5de011320f0b
 ms.date: 12/05/2018
 ms.keywords: IMbnPinManager, IMbnPinManager interface [Microsoft Broadband Networks], IMbnPinManager interface [Microsoft Broadband Networks],described, mbn.imbnpinmanager, mbnapi/IMbnPinManager
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnPinManager
 dev_langs:

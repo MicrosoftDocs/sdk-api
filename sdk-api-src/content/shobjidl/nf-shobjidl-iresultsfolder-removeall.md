@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2aac1b5a-298a-4682-9874-7cf114ce1f63
 ms.date: 12/05/2018
 ms.keywords: IResultsFolder interface [Windows Shell],RemoveAll method, IResultsFolder.RemoveAll, IResultsFolder::RemoveAll, RemoveAll, RemoveAll method [Windows Shell], RemoveAll method [Windows Shell],IResultsFolder interface, _shell_IResultsFolder_RemoveAll, shell.IResultsFolder_RemoveAll, shobjidl/IResultsFolder::RemoveAll
-ms.topic: method
 f1_keywords:
 - shobjidl/IResultsFolder.RemoveAll
 dev_langs:

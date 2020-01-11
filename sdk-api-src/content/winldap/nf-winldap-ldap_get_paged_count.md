@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 17ad1c7e-c3a1-4f6a-8303-fbbedfc36409
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_get_paged_count, ldap.ldap__get__paged__count, ldap.ldap_get_paged_count, ldap_get_paged_count, ldap_get_paged_count function [LDAP], winldap/ldap_get_paged_count
-ms.topic: function
 f1_keywords:
 - winldap/ldap_get_paged_count
 dev_langs:

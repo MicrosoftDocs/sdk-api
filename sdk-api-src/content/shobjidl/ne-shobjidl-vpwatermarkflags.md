@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e54db88e-c334-442b-8ab5-6004176aab41
 ms.date: 12/05/2018
 ms.keywords: VPWATERMARKFLAGS, VPWATERMARKFLAGS enumeration [Windows Shell], VPWF_ALPHABLEND, VPWF_DEFAULT, _shell_VPWATERMARKFLAGS, shell.VPWATERMARKFLAGS, shobjidl/VPWATERMARKFLAGS, shobjidl/VPWF_ALPHABLEND, shobjidl/VPWF_DEFAULT
-ms.topic: enum
 f1_keywords:
 - shobjidl/VPWATERMARKFLAGS
 dev_langs:

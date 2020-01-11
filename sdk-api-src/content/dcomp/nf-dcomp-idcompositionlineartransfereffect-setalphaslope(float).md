@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 2FC6E287-D71B-40DC-A8A8-95B031327771
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetAlphaSlope method, IDCompositionLinearTransferEffect.SetAlphaSlope, IDCompositionLinearTransferEffect::SetAlphaSlope, IDCompositionLinearTransferEffect::SetAlphaSlope(float), SetAlphaSlope, SetAlphaSlope method [DirectComposition], SetAlphaSlope method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetAlphaSlope, directcomp.idcompositionlineartransfereffect_setalphaslope
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionLinearTransferEffect.SetAlphaSlope
 dev_langs:

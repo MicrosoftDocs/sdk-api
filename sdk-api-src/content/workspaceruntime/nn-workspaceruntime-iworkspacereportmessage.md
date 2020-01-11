@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 841fce89-2996-42eb-81fc-7d6f8f864398
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceReportMessage, IWorkspaceReportMessage interface [Remote Desktop Services], IWorkspaceReportMessage interface [Remote Desktop Services],described, termserv.iworkspacereportmessage, workspaceruntime/IWorkspaceReportMessage
-ms.topic: interface
 f1_keywords:
 - workspaceruntime/IWorkspaceReportMessage
 dev_langs:

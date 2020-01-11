@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 90d61009-e0f7-4df6-a23b-1f9f489b15f9
 ms.date: 12/05/2018
 ms.keywords: EnumItems, EnumItems method [Text Services Framework], EnumItems method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],EnumItems method, ITfLangBarItemMgr.EnumItems, ITfLangBarItemMgr::EnumItems, _tsf_itflangbaritemmgr_enumitems_ref, ctfutb/ITfLangBarItemMgr::EnumItems, tsf.itflangbaritemmgr_enumitems
-ms.topic: method
 f1_keywords:
 - ctfutb/ITfLangBarItemMgr.EnumItems
 dev_langs:

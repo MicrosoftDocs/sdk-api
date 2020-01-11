@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 18ac00d5-f574-463f-a34a-40c2dc16d4d8
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStream, IRDPSRAPITransportStream interface [RDP], IRDPSRAPITransportStream interface [RDP],described, rdp.irdpsrapitransportstream, rdpencomapi/IRDPSRAPITransportStream
-ms.topic: interface
 f1_keywords:
 - rdpencomapi/IRDPSRAPITransportStream
 dev_langs:

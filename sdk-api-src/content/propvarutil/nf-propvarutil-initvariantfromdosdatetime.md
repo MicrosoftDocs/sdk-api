@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: deb1b3e6-4e7b-49c2-a4dc-e3dfaa2727a0
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromDosDateTime, InitVariantFromDosDateTime function [Windows Properties], _shell_InitVariantFromDosDateTime, properties.InitVariantFromDosDateTime, propvarutil/InitVariantFromDosDateTime, shell.InitVariantFromDosDateTime
-ms.topic: function
 f1_keywords:
 - propvarutil/InitVariantFromDosDateTime
 dev_langs:

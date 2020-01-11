@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: d10bfd31-22a8-4100-ac0b-dd0795622808
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigurableItem, IMsmConfigurableItem interface, IMsmConfigurableItem interface,described, mergemod/IMsmConfigurableItem, setup.imsmconfigurableitem_interface
-ms.topic: interface
 f1_keywords:
 - mergemod/IMsmConfigurableItem
 dev_langs:

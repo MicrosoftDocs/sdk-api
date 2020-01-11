@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: db3236c4-0eac-4484-b36c-fcfa3e148b42
 ms.date: 12/05/2018
 ms.keywords: LongPtrToShort, LongPtrToShort function [Windows Shell], intsafe/LongPtrToShort, shell.LongPtrToShort
-ms.topic: function
 f1_keywords:
 - intsafe/LongPtrToShort
 dev_langs:

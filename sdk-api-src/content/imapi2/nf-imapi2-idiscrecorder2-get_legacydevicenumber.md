@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 14ec2007-3648-49b6-a96e-b682d592c2f1
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_LegacyDeviceNumber method, IDiscRecorder2.get_LegacyDeviceNumber, IDiscRecorder2::get_LegacyDeviceNumber, get_LegacyDeviceNumber, get_LegacyDeviceNumber method [IMAPI], get_LegacyDeviceNumber method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_legacydevicenumber, imapi2/IDiscRecorder2::get_LegacyDeviceNumber
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscRecorder2.get_LegacyDeviceNumber
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: 32003720-ca59-4203-a78c-9e40c626c9f8
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelper interface [NDF],Initialize method, INetDiagHelper.Initialize, INetDiagHelper::Initialize, Initialize, Initialize method [NDF], Initialize method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_initialize, ndhelper/INetDiagHelper::Initialize
-ms.topic: method
 f1_keywords:
 - ndhelper/INetDiagHelper.Initialize
 dev_langs:

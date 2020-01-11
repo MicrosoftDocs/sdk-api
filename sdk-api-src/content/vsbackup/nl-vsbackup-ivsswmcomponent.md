@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 8567ca7f-dc50-4cf2-b3c1-a2ae8d55dc95
 ms.date: 12/05/2018
 ms.keywords: IVssWMComponent, IVssWMComponent interface [VSS], IVssWMComponent interface [VSS],described, _win32_ivsswmcomponent, base.ivsswmcomponent, vsbackup/IVssWMComponent
-ms.topic: class
 f1_keywords:
 - vsbackup/IVssWMComponent
 dev_langs:

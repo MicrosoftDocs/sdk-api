@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 3960d0d5-9d82-4ed5-843d-04fdb0538438
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncDDPreferredStereoDownMixMode, codecapi/eAVEncDDPreferredStereoDownMixMode_LoRo, codecapi/eAVEncDDPreferredStereoDownMixMode_LtRt, dshow.eavencddpreferredstereodownmixmode, eAVEncDDPreferredStereoDownMixMode, eAVEncDDPreferredStereoDownMixMode enumeration [DirectShow], eAVEncDDPreferredStereoDownMixMode_LoRo, eAVEncDDPreferredStereoDownMixMode_LtRt
-ms.topic: enum
 f1_keywords:
 - codecapi/eAVEncDDPreferredStereoDownMixMode
 dev_langs:

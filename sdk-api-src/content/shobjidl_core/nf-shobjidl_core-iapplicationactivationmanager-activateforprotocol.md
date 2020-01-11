@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: A37E140A-5369-4abe-A9E9-8BD2E4492082
 ms.date: 12/05/2018
 ms.keywords: ActivateForProtocol, ActivateForProtocol method [Windows Shell], ActivateForProtocol method [Windows Shell],IApplicationActivationManager interface, IApplicationActivationManager interface [Windows Shell],ActivateForProtocol method, IApplicationActivationManager.ActivateForProtocol, IApplicationActivationManager::ActivateForProtocol, shell.IApplicationActivationManager_ActivateForProtocol, shobjidl_core/IApplicationActivationManager::ActivateForProtocol
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IApplicationActivationManager.ActivateForProtocol
 dev_langs:

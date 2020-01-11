@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 6ed1b09a-44e4-41dc-aa35-27efb3df66d6
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceUIWindow interface [COM],SetActiveObject method, IOleInPlaceUIWindow.SetActiveObject, IOleInPlaceUIWindow::SetActiveObject, SetActiveObject, SetActiveObject method [COM], SetActiveObject method [COM],IOleInPlaceUIWindow interface, _ole_ioleinplaceuiwindow_setactiveobject, com.ioleinplaceuiwindow_setactiveobject, oleidl/IOleInPlaceUIWindow::SetActiveObject
-ms.topic: method
 f1_keywords:
 - oleidl/IOleInPlaceUIWindow.SetActiveObject
 dev_langs:

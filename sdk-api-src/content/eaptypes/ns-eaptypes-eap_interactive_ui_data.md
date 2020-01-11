@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 68141611-4a1c-409e-8ed2-3d21a76640c3
 ms.date: 12/05/2018
 ms.keywords: EAP_INTERACTIVE_UI_DATA, EAP_INTERACTIVE_UI_DATA structure [EAPHost], EAP_INTERACTIVE_UI_DATA_VERSION, eaphost.eap_interactive_ui_data, eaptypes/EAP_INTERACTIVE_UI_DATA
-ms.topic: struct
 f1_keywords:
 - eaptypes/EAP_INTERACTIVE_UI_DATA
 dev_langs:

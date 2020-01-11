@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: fb1a2ac3-12d1-42f0-9c73-c4d0d8a88700
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumCallingCard interface, IEnumCallingCard interface [TAPI 2.2],Clone method, IEnumCallingCard.Clone, IEnumCallingCard::Clone, _tapi3_ienumcallingcard_clone, tapi3.ienumcallingcard_clone, tapi3if/IEnumCallingCard::Clone
-ms.topic: method
 f1_keywords:
 - tapi3if/IEnumCallingCard.Clone
 dev_langs:

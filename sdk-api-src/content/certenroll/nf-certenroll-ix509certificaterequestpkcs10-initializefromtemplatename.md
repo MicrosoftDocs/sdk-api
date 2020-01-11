@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 4ea746c3-b967-41b4-94ae-7b16b93ca4e4
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],InitializeFromTemplateName method, IX509CertificateRequestPkcs10.InitializeFromTemplateName, IX509CertificateRequestPkcs10::InitializeFromTemplateName, InitializeFromTemplateName, InitializeFromTemplateName method [Security], InitializeFromTemplateName method [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::InitializeFromTemplateName, security.ix509certificaterequestpkcs10_initializefromtemplatename_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509CertificateRequestPkcs10.InitializeFromTemplateName
 dev_langs:

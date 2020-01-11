@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 3722e5f2-3cd7-490a-84b7-4a1c9fa11de7
 ms.date: 12/05/2018
 ms.keywords: MprAdminIsServiceRunning, MprAdminIsServiceRunning function [RAS], _mpr_mpradminisservicerunning, mprapi/MprAdminIsServiceRunning, rras.mpradminisservicerunning
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminIsServiceRunning
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 39f2ec4d-131a-4a0a-9740-0d96aaea2dc7
 ms.date: 12/05/2018
 ms.keywords: NotifyRouteChange, NotifyRouteChange function [IP Helper], _iphlp_notifyroutechange, iphlp.notifyroutechange, iphlpapi/NotifyRouteChange
-ms.topic: function
 f1_keywords:
 - iphlpapi/NotifyRouteChange
 dev_langs:

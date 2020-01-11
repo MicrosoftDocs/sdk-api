@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: f3875ddd-293e-4abb-b468-a6754bc361a0
 ms.date: 12/05/2018
 ms.keywords: DRMCreateEnablingBitsEncryptor, DRMCreateEnablingBitsEncryptor function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateEnablingBitsEncryptor, rm.drmcreateenablingbitsencryptor
-ms.topic: function
 f1_keywords:
 - msdrm/DRMCreateEnablingBitsEncryptor
 dev_langs:

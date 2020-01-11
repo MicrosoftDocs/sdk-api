@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 78496DA1-1C8F-4C63-83E1-45FC0BC80779
 ms.date: 12/05/2018
 ms.keywords: IConsole interface [MMC],NewWindow method, IConsole.NewWindow, IConsole::NewWindow, MMC_NW_OPTION_CUSTOMTITLE, MMC_NW_OPTION_NONE, MMC_NW_OPTION_NOPERSIST, MMC_NW_OPTION_NOSCOPEPANE, MMC_NW_OPTION_NOTOOLBARS, MMC_NW_OPTION_SHORTTITLE, NewWindow, NewWindow method [MMC], NewWindow method [MMC],IConsole interface, mmc.iconsole_newwindow, mmc/IConsole::NewWindow
-ms.topic: method
 f1_keywords:
 - mmc/IConsole.NewWindow
 dev_langs:

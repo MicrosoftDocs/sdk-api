@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 69c5f8b2-f3c8-43aa-8dae-cedd0036dc03
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimer interface [Windows Animation],SetTimerUpdateHandler method, IUIAnimationTimer.SetTimerUpdateHandler, IUIAnimationTimer::SetTimerUpdateHandler, SetTimerUpdateHandler, SetTimerUpdateHandler method [Windows Animation], SetTimerUpdateHandler method [Windows Animation],IUIAnimationTimer interface, uianimation.iuianimationtimer_settimerupdatehandler, uianimation/IUIAnimationTimer::SetTimerUpdateHandler
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationTimer.SetTimerUpdateHandler
 dev_langs:

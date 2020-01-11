@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 20c0eb1e-671b-4d31-88d4-57f2c149fcd9
 ms.date: 12/05/2018
 ms.keywords: PENUMSOURCEFILETOKENSCALLBACK, PENUMSOURCEFILETOKENSCALLBACK callback, SymEnumSourceFileTokensProc, SymEnumSourceFileTokensProc callback function, base.symenumsourcefiletokensproc, dbghelp/SymEnumSourceFileTokensProc
-ms.topic: callback
 f1_keywords:
 - dbghelp/SymEnumSourceFileTokensProc
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 7d0266fa-193b-4883-8007-8151e411b46f
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_CANCEL_REASON, WS_SERVICE_CANCEL_REASON enumeration [Web Services for Windows], WS_SERVICE_CHANNEL_FAULTED, WS_SERVICE_HOST_ABORT, webservices/WS_SERVICE_CANCEL_REASON, webservices/WS_SERVICE_CHANNEL_FAULTED, webservices/WS_SERVICE_HOST_ABORT, wsw.ws_service_cancel_reason
-ms.topic: enum
 f1_keywords:
 - webservices/WS_SERVICE_CANCEL_REASON
 dev_langs:

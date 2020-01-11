@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 3A57C19C-F0A2-4183-ACA6-0CEF2F2FF23E
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY_EX, PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY_EX function [Failover Cluster], ResUtilGetResourceNameDependencyEx, ResUtilGetResourceNameDependencyEx function [Failover Cluster], mscs.resutilgetresourcenamedependencyex, resapi/PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY_EX, resapi/ResUtilGetResourceNameDependencyEx
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilGetResourceNameDependencyEx
 dev_langs:

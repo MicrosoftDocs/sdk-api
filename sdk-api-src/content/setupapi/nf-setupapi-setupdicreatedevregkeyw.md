@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 8c07db95-eb59-4e01-851d-f6a8da169625
 ms.date: 12/05/2018
 ms.keywords: SetupDiCreateDevRegKey, SetupDiCreateDevRegKey function [Device and Driver Installation], SetupDiCreateDevRegKeyA, SetupDiCreateDevRegKeyW, devinst.setupdicreatedevregkey, di-rtns_284367d1-6053-4fd1-990b-7028a116ece2.xml, setupapi/SetupDiCreateDevRegKey
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiCreateDevRegKey
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: dc75972d-7917-406d-8ed8-e05679ab86eb
 ms.date: 12/05/2018
 ms.keywords: EnumerateTerminalClasses, EnumerateTerminalClasses method [TAPI 2.2], EnumerateTerminalClasses method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],EnumerateTerminalClasses method, ITPluggableTerminalSuperclassRegistration.EnumerateTerminalClasses, ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses, _tapi3_itpluggableterminalsuperclassregistration_enumerateterminalclasses, tapi3.itpluggableterminalsuperclassregistration_enumerateterminalclasses, termmgr/ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses
-ms.topic: method
 f1_keywords:
 - termmgr/ITPluggableTerminalSuperclassRegistration.EnumerateTerminalClasses
 dev_langs:

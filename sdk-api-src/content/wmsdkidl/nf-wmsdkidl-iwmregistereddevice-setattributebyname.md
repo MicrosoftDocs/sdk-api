@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 49562f2a-1bb5-46d7-81cc-c13b66cf691f
 ms.date: 12/05/2018
 ms.keywords: IWMRegisteredDevice interface [windows Media Format],SetAttributeByName method, IWMRegisteredDevice.SetAttributeByName, IWMRegisteredDevice::SetAttributeByName, IWMRegisteredDeviceSetAttributeByName, SetAttributeByName, SetAttributeByName method [windows Media Format], SetAttributeByName method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_setattributebyname, wmsdkidl/IWMRegisteredDevice::SetAttributeByName
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMRegisteredDevice.SetAttributeByName
 dev_langs:

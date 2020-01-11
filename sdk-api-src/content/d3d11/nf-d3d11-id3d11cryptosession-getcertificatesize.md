@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: C5FE51B8-A681-4B8C-BFC0-9D0B625292F1
 ms.date: 12/05/2018
 ms.keywords: GetCertificateSize, GetCertificateSize method [Media Foundation], GetCertificateSize method [Media Foundation],ID3D11CryptoSession interface, ID3D11CryptoSession interface [Media Foundation],GetCertificateSize method, ID3D11CryptoSession.GetCertificateSize, ID3D11CryptoSession::GetCertificateSize, d3d11/ID3D11CryptoSession::GetCertificateSize, mf.id3d11cryptosession_getcertificatesize
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11CryptoSession.GetCertificateSize
 dev_langs:

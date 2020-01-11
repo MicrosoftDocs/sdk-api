@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: 0c713d2b-e13a-44e0-8b48-68b233d1c562
 ms.date: 12/05/2018
 ms.keywords: LsaRegisterPolicyChangeNotification, LsaRegisterPolicyChangeNotification function [Security], PolicyNotifyAccountDomainInformation, PolicyNotifyAuditEventsInformation, PolicyNotifyDnsDomainInformation, PolicyNotifyDomainEfsInformation, PolicyNotifyDomainKerberosTicketInformation, PolicyNotifyServerRoleInformation, _lsa_lsaregisterpolicychangenotification, ntsecapi/LsaRegisterPolicyChangeNotification, security.lsaregisterpolicychangenotification
-ms.topic: function
 f1_keywords:
 - ntsecapi/LsaRegisterPolicyChangeNotification
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 91d123cd-f68f-4120-b98d-7e3f94b7b1ec
 ms.date: 12/05/2018
 ms.keywords: SymRegisterCallback, SymRegisterCallback function, SymRegisterCallback64, SymRegisterCallback64 function, SymRegisterCallbackW64, _win32_symregistercallback64, base.symregistercallback64, dbghelp/SymRegisterCallback, dbghelp/SymRegisterCallback64, dbghelp/SymRegisterCallbackW64
-ms.topic: function
 f1_keywords:
 - dbghelp/SymRegisterCallback64
 dev_langs:

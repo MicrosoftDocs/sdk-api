@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8acn.htm
 ms.date: 12/05/2018
 ms.keywords: Branding property [Fax Service], Branding property [Fax Service],IFaxOutgoingQueue interface, IFaxOutgoingQueue interface [Fax Service],Branding property, IFaxOutgoingQueue.Branding, IFaxOutgoingQueue.put_Branding, IFaxOutgoingQueue::Branding, IFaxOutgoingQueue::get_Branding, IFaxOutgoingQueue::put_Branding, _mfax_faxoutgoingqueue.branding, fax._mfax_faxoutgoingqueue_branding, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_branding_cpp, faxcomex/IFaxOutgoingQueue::Branding, faxcomex/IFaxOutgoingQueue::get_Branding, faxcomex/IFaxOutgoingQueue::put_Branding, put_Branding
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutgoingQueue.Branding
 dev_langs:

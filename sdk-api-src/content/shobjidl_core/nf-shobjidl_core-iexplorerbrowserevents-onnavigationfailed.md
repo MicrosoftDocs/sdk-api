@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d4de3b81-4482-47c8-bb47-593aba484952
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowserEvents interface [Windows Shell],OnNavigationFailed method, IExplorerBrowserEvents.OnNavigationFailed, IExplorerBrowserEvents::OnNavigationFailed, OnNavigationFailed, OnNavigationFailed method [Windows Shell], OnNavigationFailed method [Windows Shell],IExplorerBrowserEvents interface, _shell_IExplorerBrowserEvents_OnNavigationFailed, shell.IExplorerBrowserEvents_OnNavigationFailed, shobjidl_core/IExplorerBrowserEvents::OnNavigationFailed
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IExplorerBrowserEvents.OnNavigationFailed
 dev_langs:

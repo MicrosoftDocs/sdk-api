@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 75502b28-1157-4bdd-ba8f-d2cf0c1228c4
 ms.date: 12/05/2018
 ms.keywords: DeleteMethod, DeleteMethod method [Windows Management Instrumentation], DeleteMethod method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],DeleteMethod method, IWbemClassObject.DeleteMethod, IWbemClassObject::DeleteMethod, _hmm_iwbemclassobject_deletemethod, wbemcli/IWbemClassObject::DeleteMethod, wmi.iwbemclassobject_deletemethod
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemClassObject.DeleteMethod
 dev_langs:

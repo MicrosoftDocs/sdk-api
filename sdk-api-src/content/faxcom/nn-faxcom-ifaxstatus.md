@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0ckz.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxStatus, IFaxStatus interface [Fax Service], IFaxStatus interface [Fax Service],described, _mfax_ifaxstatus, fax._mfax_ifaxstatus, faxcom/IFaxStatus
-ms.topic: interface
 f1_keywords:
 - faxcom/IFaxStatus
 dev_langs:

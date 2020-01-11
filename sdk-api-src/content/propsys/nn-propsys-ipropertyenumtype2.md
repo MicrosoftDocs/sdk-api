@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 272d3ab3-f66b-4ff1-85b2-7a1e167299e5
 ms.date: 12/05/2018
 ms.keywords: IPropertyEnumType2, IPropertyEnumType2 interface [Windows Properties], IPropertyEnumType2 interface [Windows Properties],described, _shell_IPropertyEnumType2, properties.IPropertyEnumType2, propsys/IPropertyEnumType2, shell.IPropertyEnumType2
-ms.topic: interface
 f1_keywords:
 - propsys/IPropertyEnumType2
 dev_langs:

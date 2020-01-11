@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: dd1f7cba-0a0f-49da-ad67-5c2e01830750
 ms.date: 12/05/2018
 ms.keywords: ITextInputPanelEventSink interface [Tablet PC],InPlaceSizeChanged method, ITextInputPanelEventSink.InPlaceSizeChanged, ITextInputPanelEventSink::InPlaceSizeChanged, InPlaceSizeChanged, InPlaceSizeChanged method [Tablet PC], InPlaceSizeChanged method [Tablet PC],ITextInputPanelEventSink interface, dd1f7cba-0a0f-49da-ad67-5c2e01830750, peninputpanel/ITextInputPanelEventSink::InPlaceSizeChanged, tablet.itextinputpaneleventsink_inplacesizechanged
-ms.topic: method
 f1_keywords:
 - peninputpanel/ITextInputPanelEventSink.InPlaceSizeChanged
 dev_langs:

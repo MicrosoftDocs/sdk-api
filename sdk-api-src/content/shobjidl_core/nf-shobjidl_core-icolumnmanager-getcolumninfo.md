@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 22b3e5a6-a0a1-46e4-91b8-7bfe3944fffb
 ms.date: 12/05/2018
 ms.keywords: GetColumnInfo, GetColumnInfo method [Windows Shell], GetColumnInfo method [Windows Shell],IColumnManager interface, IColumnManager interface [Windows Shell],GetColumnInfo method, IColumnManager.GetColumnInfo, IColumnManager::GetColumnInfo, shell.IColumnManager_GetColumnInfo, shell_IColumnManager_GetColumnInfo, shobjidl_core/IColumnManager::GetColumnInfo
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IColumnManager.GetColumnInfo
 dev_langs:

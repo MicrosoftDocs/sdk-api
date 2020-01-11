@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 4aa238a6-1a47-4fdc-b02b-f10cf0e90040
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerDeleteByKey0, FwpmSubLayerDeleteByKey0 function [Filtering], fwp.fwpmsublayerdeletebykey0_func, fwpmu/FwpmSubLayerDeleteByKey0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmSubLayerDeleteByKey0
 dev_langs:

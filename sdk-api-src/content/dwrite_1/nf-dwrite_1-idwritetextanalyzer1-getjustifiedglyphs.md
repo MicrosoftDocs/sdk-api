@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 8F7BB9EC-90AE-48BD-A596-EAF2EDC4053F
 ms.date: 12/05/2018
 ms.keywords: GetJustifiedGlyphs, GetJustifiedGlyphs method [Direct Write], GetJustifiedGlyphs method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],GetJustifiedGlyphs method, IDWriteTextAnalyzer1.GetJustifiedGlyphs, IDWriteTextAnalyzer1::GetJustifiedGlyphs, directwrite.idwritetextanalyzer1_getjustifiedglyphs, dwrite_1/IDWriteTextAnalyzer1::GetJustifiedGlyphs
-ms.topic: method
 f1_keywords:
 - dwrite_1/IDWriteTextAnalyzer1.GetJustifiedGlyphs
 dev_langs:

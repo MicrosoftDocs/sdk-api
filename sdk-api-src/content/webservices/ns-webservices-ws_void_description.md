@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 92373e0d-3fe1-4486-8e79-deb0fc24cb63
 ms.date: 12/05/2018
 ms.keywords: WS_VOID_DESCRIPTION, WS_VOID_DESCRIPTION structure [Web Services for Windows], webservices/WS_VOID_DESCRIPTION, wsw.ws_void_description
-ms.topic: struct
 f1_keywords:
 - webservices/WS_VOID_DESCRIPTION
 dev_langs:

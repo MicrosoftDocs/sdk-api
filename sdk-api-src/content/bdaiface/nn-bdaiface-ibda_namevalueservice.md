@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 7b6a12d2-24e4-42d8-9138-86c2fe558d86
 ms.date: 12/05/2018
 ms.keywords: IBDA_NameValueService, IBDA_NameValueService interface [Microsoft TV Technologies], IBDA_NameValueService interface [Microsoft TV Technologies],described, bdaiface/IBDA_NameValueService, mstv.ibda_namevalueservice
-ms.topic: interface
 f1_keywords:
 - bdaiface/IBDA_NameValueService
 dev_langs:

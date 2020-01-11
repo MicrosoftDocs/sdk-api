@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 2ea0b2bd-793b-427f-9177-c8d124e5ae25
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],RunOnlyIfIdle property, ITaskSettings.RunOnlyIfIdle, ITaskSettings.get_RunOnlyIfIdle, ITaskSettings::RunOnlyIfIdle, ITaskSettings::get_RunOnlyIfIdle, ITaskSettings::put_RunOnlyIfIdle, RunOnlyIfIdle property [Task Scheduler], RunOnlyIfIdle property [Task Scheduler],ITaskSettings interface, get_RunOnlyIfIdle, taskschd.itasksettings_runonlyifidle, taskschd/ITaskSettings::RunOnlyIfIdle, taskschd/ITaskSettings::get_RunOnlyIfIdle, taskschd/ITaskSettings::put_RunOnlyIfIdle
-ms.topic: method
 f1_keywords:
 - taskschd/ITaskSettings.RunOnlyIfIdle
 dev_langs:

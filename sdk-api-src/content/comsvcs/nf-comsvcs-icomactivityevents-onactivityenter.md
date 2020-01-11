@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 5933798d-2208-4eab-8024-50236e5483a3
 ms.date: 12/05/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityEnter method, IComActivityEvents.OnActivityEnter, IComActivityEvents::OnActivityEnter, OnActivityEnter, OnActivityEnter method [COM+], OnActivityEnter method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityEnter, comsvcs/IComActivityEvents::OnActivityEnter, cos.icomactivityevents_onactivityenter
-ms.topic: method
 f1_keywords:
 - comsvcs/IComActivityEvents.OnActivityEnter
 dev_langs:

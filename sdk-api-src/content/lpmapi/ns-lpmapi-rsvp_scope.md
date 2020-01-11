@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 64a7e461-d767-4571-97ca-cf7862a05d18
 ms.date: 12/05/2018
 ms.keywords: RSVP_SCOPE, RSVP_SCOPE structure [QOS], lpmapi/RSVP_SCOPE, qos.rsvp_scope
-ms.topic: struct
 f1_keywords:
 - lpmapi/RSVP_SCOPE
 dev_langs:

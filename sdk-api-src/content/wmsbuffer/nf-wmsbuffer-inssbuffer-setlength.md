@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 3f0e8d8a-efc7-4f1b-8a42-7907439ed8af
 ms.date: 12/05/2018
 ms.keywords: INSSBuffer interface [windows Media Format],SetLength method, INSSBuffer.SetLength, INSSBuffer::SetLength, INSSBufferSetLength, SetLength, SetLength method [windows Media Format], SetLength method [windows Media Format],INSSBuffer interface, wmformat.inssbuffer_setlength, wmsbuffer/INSSBuffer::SetLength
-ms.topic: method
 f1_keywords:
 - wmsbuffer/INSSBuffer.SetLength
 dev_langs:

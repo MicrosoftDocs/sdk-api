@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 759769E2-A379-4790-82AD-1B9D3B35D616
 ms.date: 12/5/2018
 ms.keywords: DML_SPACE_TO_DEPTH_OPERATOR_DESC, DML_SPACE_TO_DEPTH_OPERATOR_DESC structure, direct3d12.dml_space_to_depth_operator_desc, directml/DML_SPACE_TO_DEPTH_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_SPACE_TO_DEPTH_OPERATOR_DESC
 dev_langs:

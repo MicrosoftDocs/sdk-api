@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 1FFFF954-0AD2-418E-B0CC-D674994C3CCE
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutputDuplication interface [DXGI],MapDesktopSurface method, IDXGIOutputDuplication.MapDesktopSurface, IDXGIOutputDuplication::MapDesktopSurface, MapDesktopSurface, MapDesktopSurface method [DXGI], MapDesktopSurface method [DXGI],IDXGIOutputDuplication interface, direct3ddxgi.idxgioutputduplication_mapdesktopsurface, dxgi1_2/IDXGIOutputDuplication::MapDesktopSurface
-ms.topic: method
 f1_keywords:
 - dxgi1_2/IDXGIOutputDuplication.MapDesktopSurface
 dev_langs:

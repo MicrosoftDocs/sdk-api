@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: a3c52754-91b0-4722-a459-87c70b3ab9ad
 ms.date: 12/05/2018
 ms.keywords: PeerGroupOpenDirectConnection, PeerGroupOpenDirectConnection function [Peer Networking], p2p.peergroupopendirectconnection, p2p/PeerGroupOpenDirectConnection
-ms.topic: function
 f1_keywords:
 - p2p/PeerGroupOpenDirectConnection
 dev_langs:

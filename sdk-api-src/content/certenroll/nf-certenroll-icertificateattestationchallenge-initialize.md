@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: d4dbda92-4523-4adb-9b88-b2bc763570fd
 ms.date: 12/05/2018
 ms.keywords: ICertificateAttestationChallenge interface [Security],Initialize method, ICertificateAttestationChallenge.Initialize, ICertificateAttestationChallenge::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertificateAttestationChallenge interface, certenroll/ICertificateAttestationChallenge::Initialize, security.icertificateattestationchallenge_initialize
-ms.topic: method
 f1_keywords:
 - certenroll/ICertificateAttestationChallenge.Initialize
 dev_langs:

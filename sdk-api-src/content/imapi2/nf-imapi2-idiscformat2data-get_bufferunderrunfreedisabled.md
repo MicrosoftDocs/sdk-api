@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 2b85f13c-33c2-4b19-9b70-5a829f9de3ea
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_BufferUnderrunFreeDisabled method, IDiscFormat2Data.get_BufferUnderrunFreeDisabled, IDiscFormat2Data::get_BufferUnderrunFreeDisabled, get_BufferUnderrunFreeDisabled, get_BufferUnderrunFreeDisabled method [IMAPI], get_BufferUnderrunFreeDisabled method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_bufferunderrunfreedisabled, imapi2/IDiscFormat2Data::get_BufferUnderrunFreeDisabled
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2Data.get_BufferUnderrunFreeDisabled
 dev_langs:

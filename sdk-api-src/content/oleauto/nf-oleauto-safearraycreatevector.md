@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: b794b8c6-a523-4636-8681-a936dff3fc6f
 ms.date: 12/05/2018
 ms.keywords: SafeArrayCreateVector, SafeArrayCreateVector function [Automation], _oa96_SafeArrayCreateVector, automat.safearraycreatevector, oleauto/SafeArrayCreateVector
-ms.topic: function
 f1_keywords:
 - oleauto/SafeArrayCreateVector
 dev_langs:

@@ -6,7 +6,6 @@ tech.root: WinRT
 ms.assetid: 01a51e06-4c21-bffb-212e-cea0f718e519
 ms.date: 05/13/2019
 ms.keywords: interop::CreateDirect3DSurface
-ms.topic: function
 f1_keywords:
 - windows.graphics.directx.direct3d11.interop/interop::CreateDirect3DSurface
 dev_langs:

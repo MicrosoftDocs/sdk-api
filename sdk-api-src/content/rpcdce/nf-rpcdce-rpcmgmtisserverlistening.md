@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: e4c5e8aa-764d-489f-ac98-ab40ca4a3534
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtIsServerListening, RpcMgmtIsServerListening function [RPC], _rpc_rpcmgmtisserverlistening, rpc.rpcmgmtisserverlistening, rpcdce/RpcMgmtIsServerListening
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcMgmtIsServerListening
 dev_langs:

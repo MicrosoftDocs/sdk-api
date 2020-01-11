@@ -7,7 +7,6 @@ tech.root: iSCSIDisc
 ms.assetid: 1d34348a-b16a-4420-88e1-092e3f521ea5
 ms.date: 12/05/2018
 ms.keywords: RemoveIScsiConnection, RemoveIscsiConnection, RemoveIscsiConnection function [iSCSI Discovery Library API], iscsidisc.removeiscsiconnection, iscsidsc/RemoveIscsiConnection
-ms.topic: function
 f1_keywords:
 - iscsidsc/RemoveIscsiConnection
 dev_langs:

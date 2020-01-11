@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 08fa8ec6-8832-4b5d-bb0d-0a7485ca63d3
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_AddSignature method, IWMSecureChannel.WMSC_AddSignature, IWMSecureChannel::WMSC_AddSignature, WMSC_AddSignature, WMSC_AddSignature method [windows Media Format], WMSC_AddSignature method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_addsignature, wmsecure/IWMSecureChannel::WMSC_AddSignature
-ms.topic: method
 f1_keywords:
 - wmsecure/IWMSecureChannel.WMSC_AddSignature
 dev_langs:

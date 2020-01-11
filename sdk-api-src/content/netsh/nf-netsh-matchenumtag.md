@@ -7,7 +7,6 @@ tech.root: netshell
 ms.assetid: def20f98-76a2-4d92-a954-152474e25f05
 ms.date: 12/05/2018
 ms.keywords: MatchEnumTag, MatchEnumTag function [NetShell], _netsh_matchenumtag, netsh/MatchEnumTag, netshell.matchenumtag
-ms.topic: function
 f1_keywords:
 - netsh/MatchEnumTag
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 5916f66d-3c85-406d-b6f9-6c1c84161be4
 ms.date: 12/05/2018
 ms.keywords: SetTcpEntry, SetTcpEntry function [IP Helper], _iphlp_settcpentry, iphlp.settcpentry, iphlpapi/SetTcpEntry
-ms.topic: function
 f1_keywords:
 - iphlpapi/SetTcpEntry
 dev_langs:

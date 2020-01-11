@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8bec0c71-3170-4ff9-aa87-4880d6ac7e32
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SetOptions method, IShellLibrary.SetOptions, IShellLibrary::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SetOptions, shell.IShellLibrary_SetOptions, shobjidl_core/IShellLibrary::SetOptions
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellLibrary.SetOptions
 dev_langs:

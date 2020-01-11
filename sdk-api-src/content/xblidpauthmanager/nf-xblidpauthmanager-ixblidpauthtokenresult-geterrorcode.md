@@ -7,7 +7,6 @@ tech.root: xblidp
 ms.assetid: 0870EC42-9E67-4A5F-A465-CDD8B152D257
 ms.date: 12/05/2018
 ms.keywords: GetErrorCode, GetErrorCode method, GetErrorCode method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetErrorCode method, IXblIdpAuthTokenResult.GetErrorCode, IXblIdpAuthTokenResult::GetErrorCode, xblidp.ixblidpauthtokenresult_geterrorcode, xblidpauthmanager/IXblIdpAuthTokenResult::GetErrorCode
-ms.topic: method
 f1_keywords:
 - xblidpauthmanager/IXblIdpAuthTokenResult.GetErrorCode
 dev_langs:

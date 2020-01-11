@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 37836fd1-e95a-4025-b268-f78a9113e568
 ms.date: 12/05/2018
 ms.keywords: GetCAs, GetCAs method [Security], GetCAs method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCAs method, IX509EnrollmentPolicyServer.GetCAs, IX509EnrollmentPolicyServer::GetCAs, certenroll/IX509EnrollmentPolicyServer::GetCAs, security.ix509enrollmentpolicyserver_getcas
-ms.topic: method
 f1_keywords:
 - certenroll/IX509EnrollmentPolicyServer.GetCAs
 dev_langs:

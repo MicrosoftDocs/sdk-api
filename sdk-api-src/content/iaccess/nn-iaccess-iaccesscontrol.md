@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: f7f19a9d-27ed-479f-b5d4-562cab5be12a
 ms.date: 12/05/2018
 ms.keywords: IAccessControl, IAccessControl interface [COM], IAccessControl interface [COM],described, _com_iaccesscontrol, com.iaccesscontrol, iaccess/IAccessControl
-ms.topic: interface
 f1_keywords:
 - iaccess/IAccessControl
 dev_langs:

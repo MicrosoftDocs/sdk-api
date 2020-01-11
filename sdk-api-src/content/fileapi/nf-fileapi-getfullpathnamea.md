@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 4cf59ee3-4065-4096-a2b5-fbed20aa5caa
 ms.date: 12/05/2018
 ms.keywords: GetFullPathName, GetFullPathName function [Files], GetFullPathNameA, GetFullPathNameW, _win32_getfullpathname, base.getfullpathname, fileapi/GetFullPathName, fileapi/GetFullPathNameA, fileapi/GetFullPathNameW, fs.getfullpathname, winbase/GetFullPathName, winbase/GetFullPathNameA, winbase/GetFullPathNameW
-ms.topic: function
 f1_keywords:
 - fileapi/GetFullPathName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: ac44010b-b14f-41d7-89f7-6f7822ed2a5d
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],NetTransportArrived method, IOfflineFilesEvents.NetTransportArrived, IOfflineFilesEvents::NetTransportArrived, NetTransportArrived, NetTransportArrived method [Offline Files], NetTransportArrived method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::NetTransportArrived, of.iofflinefilesevents_nettransportarrived
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesEvents.NetTransportArrived
 dev_langs:

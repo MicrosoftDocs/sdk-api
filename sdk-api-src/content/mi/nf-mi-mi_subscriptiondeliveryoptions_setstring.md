@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: c2bcf5b7-24c1-43cd-bf65-18ad891be7b8
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetString, MI_SubscriptionDeliveryOptions_SetString function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetString, wmi_v2.mi_subscriptiondeliveryoptions_setstring
-ms.topic: function
 f1_keywords:
 - mi/MI_SubscriptionDeliveryOptions_SetString
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: ee3bb3c8-4d7d-424b-abc9-db7307793794
 ms.date: 12/05/2018
 ms.keywords: DesiredAngularDeceleration property [Windows Touch], DesiredAngularDeceleration property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredAngularDeceleration property, IInertiaProcessor.DesiredAngularDeceleration, IInertiaProcessor.get_DesiredAngularDeceleration, IInertiaProcessor::DesiredAngularDeceleration, IInertiaProcessor::get_DesiredAngularDeceleration, IInertiaProcessor::put_DesiredAngularDeceleration, get_DesiredAngularDeceleration, manipulations/IInertiaProcessor::DesiredAngularDeceleration, manipulations/IInertiaProcessor::get_DesiredAngularDeceleration, manipulations/IInertiaProcessor::put_DesiredAngularDeceleration, wintouch.iinertiaprocessor_desiredangulardeceleration
-ms.topic: method
 f1_keywords:
 - manipulations/IInertiaProcessor.DesiredAngularDeceleration
 dev_langs:

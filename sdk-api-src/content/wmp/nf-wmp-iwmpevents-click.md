@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 6535012d-61d5-4200-8de9-786c633cf079
 ms.date: 12/05/2018
 ms.keywords: Click, Click method [Windows Media Player], Click method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],Click method, IWMPEvents.Click, IWMPEvents::Click, IWMPEventsClick, wmp.iwmpevents_iwmpevents__click, wmp/IWMPEvents::Click
-ms.topic: method
 f1_keywords:
 - wmp/IWMPEvents.Click
 dev_langs:

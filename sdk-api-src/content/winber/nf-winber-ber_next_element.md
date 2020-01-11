@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 3daf33c9-730d-4032-a0fc-21de4c425209
 ms.date: 12/05/2018
 ms.keywords: _ldap_ber_next_element, ber_next_element, ber_next_element function [LDAP], ldap.ber__next__element, ldap.ber_next_element, winber/ber_next_element
-ms.topic: function
 f1_keywords:
 - winber/ber_next_element
 dev_langs:

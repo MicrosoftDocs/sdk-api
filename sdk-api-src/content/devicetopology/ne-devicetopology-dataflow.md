@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: bdc2336c-5609-43f2-9b65-d8806f0fc63b
 ms.date: 12/05/2018
 ms.keywords: DataFlow, DataFlow , DataFlow enumeration [Core Audio], In, Out, coreaudio.dataflow, devicetopology/DataFlow, devicetopology/In, devicetopology/Out
-ms.topic: enum
 f1_keywords:
 - devicetopology/DataFlow
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3kx0.htm
 ms.date: 12/05/2018
 ms.keywords: CallerId property [Fax Service], CallerId property [Fax Service],IFaxStatus interface, IFaxStatus interface [Fax Service],CallerId property, IFaxStatus.CallerId, IFaxStatus.get_CallerId, IFaxStatus::CallerId, IFaxStatus::get_CallerId, _mfax_ifaxstatus_get_callerid, fax._mfax_ifaxstatus_get_callerid, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_callerid_cpp, faxcom/IFaxStatus::CallerId, faxcom/IFaxStatus::get_CallerId, get_CallerId
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxStatus.CallerId
 dev_langs:

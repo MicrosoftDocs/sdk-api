@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: f6376a19-579a-4e25-8ab6-bb66c623dd25
 ms.date: 12/05/2018
 ms.keywords: MsiSetProperty, MsiSetProperty function, MsiSetPropertyA, MsiSetPropertyW, _msi_msisetproperty, msiquery/MsiSetProperty, msiquery/MsiSetPropertyA, msiquery/MsiSetPropertyW, setup.msisetproperty
-ms.topic: function
 f1_keywords:
 - msiquery/MsiSetProperty
 dev_langs:

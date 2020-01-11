@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 358305a6-e0a6-4d01-92be-fd88b3bd32a0
 ms.date: 12/05/2018
 ms.keywords: FWP_AF, FWP_AF enumeration [Filtering], FWP_AF_ETHER, FWP_AF_INET, FWP_AF_INET6, FWP_AF_NONE, fwp.fwp_af, fwptypes/FWP_AF, fwptypes/FWP_AF_ETHER, fwptypes/FWP_AF_INET, fwptypes/FWP_AF_INET6, fwptypes/FWP_AF_NONE
-ms.topic: enum
 f1_keywords:
 - fwptypes/FWP_AF
 dev_langs:

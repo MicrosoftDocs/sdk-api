@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 72246263-4806-4ab2-9b26-89a1782a954b
 ms.date: 12/05/2018
 ms.keywords: _win32_accept_2, accept, accept function [Winsock], winsock.accept_2, winsock2/accept
-ms.topic: function
 f1_keywords:
 - winsock2/accept
 dev_langs:

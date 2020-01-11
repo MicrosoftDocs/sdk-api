@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: b2f5af15-c773-4741-a8dc-71d2b89776a7
 ms.date: 12/05/2018
 ms.keywords: '*PDD_SETEXCLUSIVEMODEDATA, DD_SETEXCLUSIVEMODEDATA, DD_SETEXCLUSIVEMODEDATA structure [Display Devices], ddrawint/DD_SETEXCLUSIVEMODEDATA, ddstrcts_c6ba3e13-afcd-4e8a-994b-d3c006d2c952.xml, display.dd_setexclusivemodedata'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_SETEXCLUSIVEMODEDATA
 dev_langs:

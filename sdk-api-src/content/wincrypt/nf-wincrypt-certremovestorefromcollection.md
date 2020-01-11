@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: e1564848-8b39-4ea9-9148-142ceaaaed15
 ms.date: 12/05/2018
 ms.keywords: CertRemoveStoreFromCollection, CertRemoveStoreFromCollection function [Security], _crypto2_certremovestorefromcollection, security.certremovestorefromcollection, wincrypt/CertRemoveStoreFromCollection
-ms.topic: function
 f1_keywords:
 - wincrypt/CertRemoveStoreFromCollection
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 798ad6d8-de1c-49dc-87a1-86bb4f73603a
 ms.date: 12/05/2018
 ms.keywords: 798ad6d8-de1c-49dc-87a1-86bb4f73603a, InPlaceDirection, InPlaceDirection enumeration [Tablet PC], InPlaceDirection_Auto, InPlaceDirection_Bottom, InPlaceDirection_Top, peninputpanel/InPlaceDirection, peninputpanel/InPlaceDirection_Auto, peninputpanel/InPlaceDirection_Bottom, peninputpanel/InPlaceDirection_Top, tablet.inplacedirection
-ms.topic: enum
 f1_keywords:
 - peninputpanel/InPlaceDirection
 dev_langs:

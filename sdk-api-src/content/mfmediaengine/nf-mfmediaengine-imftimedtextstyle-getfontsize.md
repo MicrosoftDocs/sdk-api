@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: A640F042-80BE-4454-B974-F7D076E72737
 ms.date: 12/05/2018
 ms.keywords: GetFontSize, GetFontSize method [Media Foundation], GetFontSize method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetFontSize method, IMFTimedTextStyle.GetFontSize, IMFTimedTextStyle::GetFontSize, mf.imftimedtextstyle_getfontsize, mfmediaengine/IMFTimedTextStyle::GetFontSize
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextStyle.GetFontSize
 dev_langs:

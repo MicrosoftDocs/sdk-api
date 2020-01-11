@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: a6355e47-5373-4b03-bafc-308a64e8e0aa
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_AddLong, FLOATOBJ_AddLong function [Display Devices], display.floatobj_addlong, gdifncs_d669d0ec-1d1e-4e14-b259-cd7b8bfe5d85.xml, winddi/FLOATOBJ_AddLong
-ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_AddLong
 dev_langs:

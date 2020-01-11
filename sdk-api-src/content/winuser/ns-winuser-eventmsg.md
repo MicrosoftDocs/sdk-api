@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\eventmsg.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPEVENTMSG, *LPEVENTMSGMSG, *NPEVENTMSG, *NPEVENTMSGMSG, *PEVENTMSG, *PEVENTMSGMSG, EVENTMSG, EVENTMSG structure [Windows and Messages], LPEVENTMSG, LPEVENTMSG structure pointer [Windows and Messages], PEVENTMSG, PEVENTMSG structure pointer [Windows and Messages], _win32_EVENTMSG_str, _win32_eventmsg_str_cpp, winmsg.eventmsg, winui._win32_eventmsg_str, winuser/EVENTMSG, winuser/LPEVENTMSG, winuser/PEVENTMSG'
-ms.topic: struct
 f1_keywords:
 - winuser/EVENTMSG
 dev_langs:

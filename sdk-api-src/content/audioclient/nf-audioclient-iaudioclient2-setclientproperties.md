@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: B9B98EF9-C0E1-430A-9C79-1B414F4D67B5
 ms.date: 12/05/2018
 ms.keywords: IAudioClient2 interface [Core Audio],SetClientProperties method, IAudioClient2.SetClientProperties, IAudioClient2::SetClientProperties, SetClientProperties, SetClientProperties method [Core Audio], SetClientProperties method [Core Audio],IAudioClient2 interface, audioclient/IAudioClient2::SetClientProperties, coreaudio.iaudioclient2_setclientproperties
-ms.topic: method
 f1_keywords:
 - audioclient/IAudioClient2.SetClientProperties
 dev_langs:

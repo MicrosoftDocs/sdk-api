@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2e83c953-b4c5-4411-90ca-49ffb94ee374
 ms.date: 12/05/2018
 ms.keywords: URLIS_APPLIABLE, URLIS_DIRECTORY, URLIS_FILEURL, URLIS_HASQUERY, URLIS_NOHISTORY, URLIS_OPAQUE, URLIS_URL, UrlIs, UrlIs function [Windows Shell], UrlIsA, UrlIsW, _win32_UrlIs, shell.UrlIs, shlwapi/UrlIs, shlwapi/UrlIsA, shlwapi/UrlIsW
-ms.topic: function
 f1_keywords:
 - shlwapi/UrlIs
 dev_langs:

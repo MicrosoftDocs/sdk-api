@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 8133238f-c968-4a65-a8dd-7b9a61a193f5
 ms.date: 12/05/2018
 ms.keywords: '*LPUSER_INFO_1024, *PUSER_INFO_1024, LPUSER_INFO_1024, LPUSER_INFO_1024 structure pointer [Network Management], PUSER_INFO_1024, PUSER_INFO_1024 structure pointer [Network Management], USER_INFO_1024, USER_INFO_1024 structure [Network Management], _win32_user_info_1024_str, lmaccess/LPUSER_INFO_1024, lmaccess/PUSER_INFO_1024, lmaccess/USER_INFO_1024, netmgmt.user_info_1024_str'
-ms.topic: struct
 f1_keywords:
 - lmaccess/USER_INFO_1024
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 03fe03fc-c58d-4e2a-a187-5ab9a676e89e
 ms.date: 12/05/2018
 ms.keywords: ITTAPI2 interface [TAPI 2.2],get_Phones method, ITTAPI2.get_Phones, ITTAPI2::get_Phones, _tapi3_ittapi2_get_phones, get_Phones, get_Phones method [TAPI 2.2], get_Phones method [TAPI 2.2],ITTAPI2 interface, tapi3.ittapi2_get_phones, tapi3if/ITTAPI2::get_Phones
-ms.topic: method
 f1_keywords:
 - tapi3if/ITTAPI2.get_Phones
 dev_langs:

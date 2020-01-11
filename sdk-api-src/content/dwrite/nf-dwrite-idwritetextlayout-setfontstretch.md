@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 34e7e476-abed-4b0f-a18d-662a277548b1
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontStretch method, IDWriteTextLayout.SetFontStretch, IDWriteTextLayout::SetFontStretch, SetFontStretch, SetFontStretch method [Direct Write], SetFontStretch method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetFontStretch, dwrite/IDWriteTextLayout::SetFontStretch
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextLayout.SetFontStretch
 dev_langs:

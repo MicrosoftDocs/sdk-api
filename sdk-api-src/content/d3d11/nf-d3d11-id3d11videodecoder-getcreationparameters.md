@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 6F104317-19C2-4FCB-8CA7-34FD0C237822
 ms.date: 12/05/2018
 ms.keywords: GetCreationParameters, GetCreationParameters method [Media Foundation], GetCreationParameters method [Media Foundation],ID3D11VideoDecoder interface, ID3D11VideoDecoder interface [Media Foundation],GetCreationParameters method, ID3D11VideoDecoder.GetCreationParameters, ID3D11VideoDecoder::GetCreationParameters, d3d11/ID3D11VideoDecoder::GetCreationParameters, mf.id3d11videodecoder_getcreationparameters
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11VideoDecoder.GetCreationParameters
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2c88b3b9-32eb-473b-9db5-9e9d65e2062c
 ms.date: 12/05/2018
 ms.keywords: IVMRDeinterlaceControl9 interface [DirectShow],SetDeinterlaceMode method, IVMRDeinterlaceControl9.SetDeinterlaceMode, IVMRDeinterlaceControl9::SetDeinterlaceMode, IVMRDeinterlaceControl9SetDeinterlaceMode, SetDeinterlaceMode, SetDeinterlaceMode method [DirectShow], SetDeinterlaceMode method [DirectShow],IVMRDeinterlaceControl9 interface, dshow.ivmrdeinterlacecontrol9_setdeinterlacemode, vmr9/IVMRDeinterlaceControl9::SetDeinterlaceMode
-ms.topic: method
 f1_keywords:
 - vmr9/IVMRDeinterlaceControl9.SetDeinterlaceMode
 dev_langs:

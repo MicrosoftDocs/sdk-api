@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 56b47743-f205-407b-80f2-03e3c9b78be1
 ms.date: 12/05/2018
 ms.keywords: PeerGroupCloseDirectConnection, PeerGroupCloseDirectConnection function [Peer Networking], p2p.peergroupclosedirectconnection, p2p/PeerGroupCloseDirectConnection
-ms.topic: function
 f1_keywords:
 - p2p/PeerGroupCloseDirectConnection
 dev_langs:

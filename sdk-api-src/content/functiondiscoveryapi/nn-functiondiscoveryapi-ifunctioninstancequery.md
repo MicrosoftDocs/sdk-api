@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: 03343d85-c0db-436d-bedc-c001b1886173
 ms.date: 12/05/2018
 ms.keywords: IFunctionInstanceQuery, IFunctionInstanceQuery interface, IFunctionInstanceQuery interface,described, functiondiscoveryapi/IFunctionInstanceQuery, ncd.ifunctioninstancequery
-ms.topic: interface
 f1_keywords:
 - functiondiscoveryapi/IFunctionInstanceQuery
 dev_langs:

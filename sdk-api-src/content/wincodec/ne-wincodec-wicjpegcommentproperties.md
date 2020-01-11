@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: aacf1f1a-49c6-4caf-acd5-8bba0415d41a
 ms.date: 12/05/2018
 ms.keywords: WICJpegCommentProperties, WICJpegCommentProperties enumeration [Windows Imaging Component], WICJpegCommentText, _wic_codec_wicjpegcommentproperties, wic._wic_codec_wicjpegcommentproperties, wincodec/WICJpegCommentProperties, wincodec/WICJpegCommentText
-ms.topic: enum
 f1_keywords:
 - wincodec/WICJpegCommentProperties
 dev_langs:

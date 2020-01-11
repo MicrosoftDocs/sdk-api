@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 0634d683-2c6e-40cb-94d9-2cf128fc3421
 ms.date: 12/05/2018
 ms.keywords: GetMetrics, GetMetrics method [Direct Write], GetMetrics method [Direct Write],IDWriteFont interface, IDWriteFont interface [Direct Write],GetMetrics method, IDWriteFont.GetMetrics, IDWriteFont::GetMetrics, directwrite.IDWriteFont_GetMetrics, dwrite/IDWriteFont::GetMetrics
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteFont.GetMetrics
 dev_langs:

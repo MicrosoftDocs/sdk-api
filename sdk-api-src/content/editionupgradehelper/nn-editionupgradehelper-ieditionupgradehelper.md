@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 2A243B2F-F7A1-448F-B16D-143514725658
 ms.date: 12/05/2018
 ms.keywords: IEditionUpgradeHelper, IEditionUpgradeHelper interface [Windows API], IEditionUpgradeHelper interface [Windows API],described, editionupgradehelper/IEditionUpgradeHelper, winprog.ieditionupgradehelper
-ms.topic: interface
 f1_keywords:
 - editionupgradehelper/IEditionUpgradeHelper
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 87a1db34-371e-4c02-a470-55f35dfbf4ab
 ms.date: 12/05/2018
 ms.keywords: 87a1db34-371e-4c02-a470-55f35dfbf4ab, IInkGesture, IInkGesture interface [Tablet PC], IInkGesture interface [Tablet PC],described, msinkaut/IInkGesture, tablet.iinkgesture
-ms.topic: interface
 f1_keywords:
 - msinkaut/IInkGesture
 dev_langs:

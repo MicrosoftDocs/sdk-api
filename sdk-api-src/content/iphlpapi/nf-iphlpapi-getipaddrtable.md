@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 03bf5645-8237-4c78-a921-47315cab1c44
 ms.date: 12/05/2018
 ms.keywords: GetIpAddrTable, GetIpAddrTable function [IP Helper], _iphlp_getipaddrtable, iphlp.getipaddrtable, iphlpapi/GetIpAddrTable
-ms.topic: function
 f1_keywords:
 - iphlpapi/GetIpAddrTable
 dev_langs:

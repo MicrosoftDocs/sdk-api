@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: B7047026-F176-494E-90A5-2C6085A5D027
 ms.date: 12/5/2018
 ms.keywords: CreateOperatorInitializer, CreateOperatorInitializer method, CreateOperatorInitializer method,IDMLDevice interface, IDMLDevice interface,CreateOperatorInitializer method, IDMLDevice.CreateOperatorInitializer, IDMLDevice::CreateOperatorInitializer, direct3d12.idmldevice_createoperatorinitializer, directml/IDMLDevice::CreateOperatorInitializer
-ms.topic: method
 f1_keywords:
 - directml/IDMLDevice.CreateOperatorInitializer
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 083fc743-79be-43c6-ac4b-458c74f42fa0
 ms.date: 12/05/2018
 ms.keywords: GetStreamSelected, GetStreamSelected method [windows Media Format], GetStreamSelected method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetStreamSelected method, IWMReaderAdvanced.GetStreamSelected, IWMReaderAdvanced::GetStreamSelected, IWMReaderAdvancedGetStreamSelected, wmformat.iwmreaderadvanced_getstreamselected, wmsdkidl/IWMReaderAdvanced::GetStreamSelected
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced.GetStreamSelected
 dev_langs:

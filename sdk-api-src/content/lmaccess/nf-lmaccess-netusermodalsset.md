@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 9884e076-ee6a-4aca-abe6-a79754667759
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 2, 3, NetUserModalsSet, NetUserModalsSet function [Network Management], _win32_netusermodalsset, lmaccess/NetUserModalsSet, netmgmt.netusermodalsset
-ms.topic: function
 f1_keywords:
 - lmaccess/NetUserModalsSet
 dev_langs:

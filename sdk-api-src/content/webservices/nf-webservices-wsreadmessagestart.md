@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: e4f92e99-f272-47b5-8eaa-56713b22df7e
 ms.date: 12/05/2018
 ms.keywords: WsReadMessageStart, WsReadMessageStart function [Web Services for Windows], webservices/WsReadMessageStart, wsw.wsreadmessagestart
-ms.topic: function
 f1_keywords:
 - webservices/WsReadMessageStart
 dev_langs:

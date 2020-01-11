@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9971ca0e-a16d-4227-9efa-c965d501e6ef
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition interface [DirectShow],get_Duration method, IMediaPosition.get_Duration, IMediaPosition::get_Duration, IMediaPositionget_Duration, control/IMediaPosition::get_Duration, dshow.imediaposition_get_duration, get_Duration, get_Duration method [DirectShow], get_Duration method [DirectShow],IMediaPosition interface
-ms.topic: method
 f1_keywords:
 - control/IMediaPosition.get_Duration
 dev_langs:

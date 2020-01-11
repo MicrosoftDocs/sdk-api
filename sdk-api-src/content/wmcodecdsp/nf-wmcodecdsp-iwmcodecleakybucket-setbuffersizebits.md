@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: b602e8ca-8446-4f94-bcd0-193084d96565
 ms.date: 12/05/2018
 ms.keywords: IWMCodecLeakyBucket interface [Media Foundation],SetBufferSizeBits method, IWMCodecLeakyBucket.SetBufferSizeBits, IWMCodecLeakyBucket::SetBufferSizeBits, SetBufferSizeBits, SetBufferSizeBits method [Media Foundation], SetBufferSizeBits method [Media Foundation],IWMCodecLeakyBucket interface, codecapi.iwmcodecleakybucketsetbuffersizebits, mf.iwmcodecleakybucketsetbuffersizebits, wmcodecdsp/IWMCodecLeakyBucket::SetBufferSizeBits
-ms.topic: method
 f1_keywords:
 - wmcodecdsp/IWMCodecLeakyBucket.SetBufferSizeBits
 dev_langs:

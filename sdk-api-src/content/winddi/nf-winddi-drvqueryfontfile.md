@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 4d853dbd-0448-43c3-9f01-13b7118a0743
 ms.date: 12/05/2018
 ms.keywords: DrvQueryFontFile, DrvQueryFontFile function [Display Devices], ddifncs_e1440df7-d91a-4c86-b43b-10a5c5b7aab9.xml, display.drvqueryfontfile, winddi/DrvQueryFontFile
-ms.topic: function
 f1_keywords:
 - winddi/DrvQueryFontFile
 dev_langs:

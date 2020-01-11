@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2738e62b-5577-416b-952e-18a189fc717f
 ms.date: 12/05/2018
 ms.keywords: CreateBrowserPropSheetExt, CreateBrowserPropSheetExt method [Windows Shell], CreateBrowserPropSheetExt method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],CreateBrowserPropSheetExt method, IBrowserService2.CreateBrowserPropSheetExt, IBrowserService2::CreateBrowserPropSheetExt, shdeprecated/IBrowserService2::CreateBrowserPropSheetExt, shell.IBrowserService2_CreateBrowserPropSheetExt, zone_IBrowserService2_CreateBrowserPropSheetExt
-ms.topic: method
 f1_keywords:
 - shdeprecated/IBrowserService2.CreateBrowserPropSheetExt
 dev_langs:

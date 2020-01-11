@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0e4fdc28-3117-4b9d-a914-ddb70aa5125d
 ms.date: 12/05/2018
 ms.keywords: AddMediaStream, AddMediaStream method [DirectShow], AddMediaStream method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],AddMediaStream method, IMediaStreamFilter.AddMediaStream, IMediaStreamFilter::AddMediaStream, IMediaStreamFilterAddMediaStream, amstream/IMediaStreamFilter::AddMediaStream, dshow.imediastreamfilter_addmediastream
-ms.topic: method
 f1_keywords:
 - amstream/IMediaStreamFilter.AddMediaStream
 dev_langs:

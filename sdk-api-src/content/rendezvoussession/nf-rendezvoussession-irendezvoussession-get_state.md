@@ -7,7 +7,6 @@ tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\state.htm
 ms.date: 12/05/2018
 ms.keywords: IRendezvousSession interface [Remote Assistance],State property, IRendezvousSession.State, IRendezvousSession.get_State, IRendezvousSession::State, IRendezvousSession::get_State, State property [Remote Assistance], State property [Remote Assistance],IRendezvousSession interface, get_State, remoteassist.remoteassist_IRendezvousSession_State, remoteassist_IRendezvousSession_State, rendezvoussession/IRendezvousSession::State, rendezvoussession/IRendezvousSession::get_State
-ms.topic: method
 f1_keywords:
 - rendezvoussession/IRendezvousSession.State
 dev_langs:

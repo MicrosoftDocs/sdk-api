@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 82fb6417-efee-4f04-a9a9-4e52934e2e86
 ms.date: 12/05/2018
 ms.keywords: GETIF_DICTGRAM, GETIF_RECOCONTEXT, GETIF_RECOGNIZER, GETIF_RECOGNIZERNOINIT, GETIF_RESMGR, GETIF_VOICE, TfSapiObject, TfSapiObject enumeration [Text Services Framework], _tsf_tfsapiobject_ref, ctffunc/GETIF_DICTGRAM, ctffunc/GETIF_RECOCONTEXT, ctffunc/GETIF_RECOGNIZER, ctffunc/GETIF_RECOGNIZERNOINIT, ctffunc/GETIF_RESMGR, ctffunc/GETIF_VOICE, ctffunc/TfSapiObject, tsf.tfsapiobject
-ms.topic: enum
 f1_keywords:
 - ctffunc/TfSapiObject
 dev_langs:

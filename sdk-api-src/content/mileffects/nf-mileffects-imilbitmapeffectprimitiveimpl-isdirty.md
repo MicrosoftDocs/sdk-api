@@ -7,7 +7,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitiveimpl\isdirty.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectPrimitiveImpl interface [WPF Bitmap Effects],IsDirty method, IMILBitmapEffectPrimitiveImpl.IsDirty, IMILBitmapEffectPrimitiveImpl::IsDirty, IsDirty, IsDirty method [WPF Bitmap Effects], IsDirty method [WPF Bitmap Effects],IMILBitmapEffectPrimitiveImpl interface, _wibe_imilbitmapeffectprimitiveimpl_isdirty, mileffects/IMILBitmapEffectPrimitiveImpl::IsDirty, wibe._wibe_imilbitmapeffectprimitiveimpl_isdirty
-ms.topic: method
 f1_keywords:
 - mileffects/IMILBitmapEffectPrimitiveImpl.IsDirty
 dev_langs:

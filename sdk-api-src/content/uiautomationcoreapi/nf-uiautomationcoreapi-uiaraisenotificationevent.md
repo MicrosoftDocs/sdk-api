@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: E9555BC0-A53B-416F-95C3-53696716F61F
 ms.date: 12/05/2018
 ms.keywords: UiaRaiseNotificationEvent, UiaRaiseNotificationEvent function [Windows Accessibility], uiautomationcoreapi/UiaRaiseNotificationEvent, winauto.uiauto_UiaRaiseNotificationEvent
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaRaiseNotificationEvent
 dev_langs:

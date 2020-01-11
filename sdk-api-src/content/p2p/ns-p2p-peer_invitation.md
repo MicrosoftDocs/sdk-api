@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: b74b45c0-760f-4008-87dd-9fdea0d4be05
 ms.date: 12/05/2018
 ms.keywords: '*PPEER_INVITATION, PEER_INVITATION, PEER_INVITATION structure [Peer Networking], PPEER_INVITATION, PPEER_INVITATION structure pointer [Peer Networking], p2p.peer_invitation, p2p/PEER_INVITATION, p2p/PPEER_INVITATION'
-ms.topic: struct
 f1_keywords:
 - p2p/PEER_INVITATION
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\wrapmode.htm
 ms.date: 12/05/2018
 ms.keywords: WrapMode, WrapMode enumeration [GDI+], WrapModeClamp, WrapModeTile, WrapModeTileFlipX, WrapModeTileFlipXY, WrapModeTileFlipY, _gdiplus_ENUM_WrapMode, gdiplus._gdiplus_ENUM_WrapMode, gdiplusenums/WrapMode, gdiplusenums/WrapModeClamp, gdiplusenums/WrapModeTile, gdiplusenums/WrapModeTileFlipX, gdiplusenums/WrapModeTileFlipXY, gdiplusenums/WrapModeTileFlipY
-ms.topic: enum
 f1_keywords:
 - gdiplusenums/WrapMode
 dev_langs:

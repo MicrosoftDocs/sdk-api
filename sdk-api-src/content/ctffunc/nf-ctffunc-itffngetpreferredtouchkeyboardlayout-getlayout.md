@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 03C14744-A4A3-4C62-8E7F-CDCC638BBCA1
 ms.date: 12/05/2018
 ms.keywords: GetLayout, GetLayout method [Text Services Framework], GetLayout method [Text Services Framework],ITfFnGetPreferredTouchKeyboardLayout interface, ITfFnGetPreferredTouchKeyboardLayout interface [Text Services Framework],GetLayout method, ITfFnGetPreferredTouchKeyboardLayout.GetLayout, ITfFnGetPreferredTouchKeyboardLayout::GetLayout, ctffunc/ITfFnGetPreferredTouchKeyboardLayout::GetLayout, tsf.itffngetpreferredtouchkeyboardlayout_getlayout
-ms.topic: method
 f1_keywords:
 - ctffunc/ITfFnGetPreferredTouchKeyboardLayout.GetLayout
 dev_langs:

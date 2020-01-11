@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 5d6818f9-4e44-4f24-a489-84defd1117c0
 ms.date: 12/05/2018
 ms.keywords: DhcpHlprModifyV4PolicyExpr, DhcpHlprModifyV4PolicyExpr function [DHCP], dhcp.dhcphlprmodifyv4policyexpr, dhcpsapi/DhcpHlprModifyV4PolicyExpr
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpHlprModifyV4PolicyExpr
 dev_langs:

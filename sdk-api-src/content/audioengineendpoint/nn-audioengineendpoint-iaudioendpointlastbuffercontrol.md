@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 79f4b370-fd04-41a9-ad74-54f7edd084c2
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointLastBufferControl, IAudioEndpointLastBufferControl interface [Core Audio], IAudioEndpointLastBufferControl interface [Core Audio],described, audioengineendpoint/IAudioEndpointLastBufferControl, coreaudio.iaudioendpointlastbuffercontrol
-ms.topic: interface
 f1_keywords:
 - audioengineendpoint/IAudioEndpointLastBufferControl
 dev_langs:

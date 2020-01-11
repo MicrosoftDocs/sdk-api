@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 6b929983-9905-48c1-96f3-01d8b39878be
 ms.date: 12/05/2018
 ms.keywords: CertSrvRestoreRegisterThroughFile, CertSrvRestoreRegisterThroughFile function [Security], certbcli/CertSrvRestoreRegisterThroughFile, security.certsrvrestoreregisterthroughfile
-ms.topic: function
 f1_keywords:
 - certbcli/CertSrvRestoreRegisterThroughFile
 dev_langs:

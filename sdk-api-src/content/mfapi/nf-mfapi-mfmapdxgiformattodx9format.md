@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: D3DF4739-31CC-4D0E-9EF2-6FCCAB8969EF
 ms.date: 12/05/2018
 ms.keywords: MFMapDXGIFormatToDX9Format, MFMapDXGIFormatToDX9Format function [Media Foundation], mf.mfmapdxgiformattodx9format, mfapi/MFMapDXGIFormatToDX9Format
-ms.topic: function
 f1_keywords:
 - mfapi/MFMapDXGIFormatToDX9Format
 dev_langs:

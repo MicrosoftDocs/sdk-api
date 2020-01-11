@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9b008034-3576-429e-b67c-e2222592ca46
 ms.date: 12/05/2018
 ms.keywords: IShellFolder2, IShellFolder2 interface [Windows Shell], IShellFolder2 interface [Windows Shell],described, _win32_IShellFolder2, shell.IShellFolder2, shobjidl_core/IShellFolder2
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IShellFolder2
 dev_langs:

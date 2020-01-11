@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: 1bbbb37b-8197-44bd-b19b-c43ece1c46d2
 ms.date: 12/05/2018
 ms.keywords: LsnContainer, LsnContainer function [Files], clfsw32/LsnContainer, fs.lsncontainer
-ms.topic: function
 f1_keywords:
 - clfsw32/LsnContainer
 dev_langs:

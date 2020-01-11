@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3Cross(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3Cross, XMVector3Cross, XMVector3Cross method [DirectX Math Support APIs], dxmath.xmvector3cross
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector3Cross
 dev_langs:

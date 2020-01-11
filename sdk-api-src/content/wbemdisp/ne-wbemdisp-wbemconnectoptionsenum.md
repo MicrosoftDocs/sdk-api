@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 781121e9-9dea-408c-a241-0c9f28c2cd46
 ms.date: 12/05/2018
 ms.keywords: WbemConnectOptionsEnum, WbemConnectOptionsEnum enumeration [Windows Management Instrumentation], _hmm_wbemconnectoptionsenum, wbemConnectFlagUseMaxWait, wbemdisp/WbemConnectOptionsEnum, wbemdisp/wbemConnectFlagUseMaxWait, wmi.wbemconnectoptionsenum
-ms.topic: enum
 f1_keywords:
 - wbemdisp/WbemConnectOptionsEnum
 dev_langs:

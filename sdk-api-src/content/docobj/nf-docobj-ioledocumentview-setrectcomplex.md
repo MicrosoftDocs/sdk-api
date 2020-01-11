@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: d220b200-85cb-43ff-a59d-147c14eef544
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],SetRectComplex method, IOleDocumentView.SetRectComplex, IOleDocumentView::SetRectComplex, SetRectComplex, SetRectComplex method [COM], SetRectComplex method [COM],IOleDocumentView interface, _ole_ioledocumentview_setrectcomplex, com.ioledocumentview_setrectcomplex, docobj/IOleDocumentView::SetRectComplex
-ms.topic: method
 f1_keywords:
 - docobj/IOleDocumentView.SetRectComplex
 dev_langs:

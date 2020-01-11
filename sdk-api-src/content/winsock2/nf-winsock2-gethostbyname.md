@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 2526ecb5-927b-40c8-8d8f-919e7986ff05
 ms.date: 12/05/2018
 ms.keywords: _win32_gethostbyname_2, gethostbyname, gethostbyname function [Winsock], winsock.gethostbyname_2, wsipv6ok/gethostbyname
-ms.topic: function
 f1_keywords:
 - winsock2/gethostbyname
 dev_langs:

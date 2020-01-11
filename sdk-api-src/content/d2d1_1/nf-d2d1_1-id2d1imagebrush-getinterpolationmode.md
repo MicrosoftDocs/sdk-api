@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 74f708eb-e860-4186-822f-8c5296a4b3ba
 ms.date: 12/05/2018
 ms.keywords: GetInterpolationMode, GetInterpolationMode method [Direct2D], GetInterpolationMode method [Direct2D],ID2D1ImageBrush interface, ID2D1ImageBrush interface [Direct2D],GetInterpolationMode method, ID2D1ImageBrush.GetInterpolationMode, ID2D1ImageBrush::GetInterpolationMode, d2d1_1/ID2D1ImageBrush::GetInterpolationMode, direct2d.id2d1imagebrush_getinterpolationmode
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1ImageBrush.GetInterpolationMode
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: dcf95e9e-e2de-449e-a45a-4974094ecb7e
 ms.date: 12/05/2018
 ms.keywords: DRMSetMetaData, DRMSetMetaData function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetMetaData, rm.drmsetmetadata
-ms.topic: function
 f1_keywords:
 - msdrm/DRMSetMetaData
 dev_langs:

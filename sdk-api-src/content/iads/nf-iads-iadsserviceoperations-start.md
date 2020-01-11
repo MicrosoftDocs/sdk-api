@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 8eabd59e-2abf-4e6f-be42-342f3b722d75
 ms.date: 12/05/2018
 ms.keywords: IADsServiceOperations interface [ADSI],Start method, IADsServiceOperations.Start, IADsServiceOperations::Start, Start, Start method [ADSI], Start method [ADSI],IADsServiceOperations interface, _ds_iadsserviceoperations_start, adsi.iadsserviceoperations__start, adsi.iadsserviceoperations_start, iads/IADsServiceOperations::Start
-ms.topic: method
 f1_keywords:
 - iads/IADsServiceOperations.Start
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: b4300a8c-f0bf-465f-a717-c54de95c1183
 ms.date: 12/05/2018
 ms.keywords: XPS_IMAGE_TYPE, XPS_IMAGE_TYPE enumeration [XPS Documents and Packaging], XPS_IMAGE_TYPE_JPEG, XPS_IMAGE_TYPE_JXR, XPS_IMAGE_TYPE_PNG, XPS_IMAGE_TYPE_TIFF, XPS_IMAGE_TYPE_WDP, xps.xps_image_type, xpsobjectmodel/XPS_IMAGE_TYPE, xpsobjectmodel/XPS_IMAGE_TYPE_JPEG, xpsobjectmodel/XPS_IMAGE_TYPE_JXR, xpsobjectmodel/XPS_IMAGE_TYPE_PNG, xpsobjectmodel/XPS_IMAGE_TYPE_TIFF, xpsobjectmodel/XPS_IMAGE_TYPE_WDP
-ms.topic: enum
 f1_keywords:
 - xpsobjectmodel/XPS_IMAGE_TYPE
 dev_langs:

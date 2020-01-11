@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionExp(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionExp, XMQuaternionExp, XMQuaternionExp method [DirectX Math Support APIs], dxmath.xmquaternionexp
-ms.topic: function
 f1_keywords:
 - directxmath/XMQuaternionExp
 dev_langs:

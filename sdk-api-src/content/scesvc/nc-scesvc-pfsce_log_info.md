@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: 8960b0c0-abde-4ea1-bbe4-7409a848d81b
 ms.date: 12/05/2018
 ms.keywords: PFSCE_LOG_INFO, PFSCE_LOG_INFO callback, PFSCE_LOG_INFO callback function [Security], SCE_LOG_LEVEL_ALWAYS, SCE_LOG_LEVEL_DEBUG, SCE_LOG_LEVEL_DETAIL, SCE_LOG_LEVEL_ERROR, _config_pfsce_log_info, scesvc/PFSCE_LOG_INFO, security.pfsce_log_info
-ms.topic: callback
 f1_keywords:
 - scesvc/PFSCE_LOG_INFO
 dev_langs:

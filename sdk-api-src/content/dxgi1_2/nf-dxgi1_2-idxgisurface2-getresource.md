@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 0CDA5693-610F-4E7E-9540-353709E4FA8D
 ms.date: 12/05/2018
 ms.keywords: GetResource, GetResource method [DXGI], GetResource method [DXGI],IDXGISurface2 interface, IDXGISurface2 interface [DXGI],GetResource method, IDXGISurface2.GetResource, IDXGISurface2::GetResource, direct3ddxgi.idxgisurface2_getresource, dxgi1_2/IDXGISurface2::GetResource
-ms.topic: method
 f1_keywords:
 - dxgi1_2/IDXGISurface2.GetResource
 dev_langs:

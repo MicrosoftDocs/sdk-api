@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 3b25a5fa-5829-4c7f-8858-59fdddccdc65
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Microsoft TV Technologies], GetText method [Microsoft TV Technologies],IDvbDataBroadcastDescriptor interface, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],GetText method, IDvbDataBroadcastDescriptor.GetText, IDvbDataBroadcastDescriptor::GetText, dvbsiparser/IDvbDataBroadcastDescriptor::GetText, mstv.idvbdatabroadcastdescriptor_gettext
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbDataBroadcastDescriptor.GetText
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 20338631-19ab-4ad8-9ba2-56fa4812b33e
 ms.date: 12/05/2018
 ms.keywords: SymFromAddr, SymFromAddr function, SymFromAddrW, _win32_symfromaddr, base.symfromaddr, dbghelp/SymFromAddr, dbghelp/SymFromAddrW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymFromAddr
 dev_langs:

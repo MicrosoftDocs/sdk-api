@@ -7,7 +7,6 @@ tech.root: wpdauto
 ms.assetid: 0ec81d6a-3671-4c4e-b650-f251fa99f7ea
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceWebControl, IPortableDeviceWebControl interface [WPD Automation], IPortableDeviceWebControl interface [WPD Automation],described, portabledeviceapi/IPortableDeviceWebControl, wpdauto.iportabledevicewebcontrol
-ms.topic: interface
 f1_keywords:
 - portabledeviceapi/IPortableDeviceWebControl
 dev_langs:

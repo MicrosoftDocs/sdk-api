@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: c172dc3c-0c0a-4c92-8103-465b636d0c61
 ms.date: 12/05/2018
 ms.keywords: WsWriteArray, WsWriteArray function [Web Services for Windows], webservices/WsWriteArray, wsw.wswritearray
-ms.topic: function
 f1_keywords:
 - webservices/WsWriteArray
 dev_langs:

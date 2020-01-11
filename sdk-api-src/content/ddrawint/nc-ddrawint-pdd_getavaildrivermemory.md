@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 21a1988a-1bfd-47b8-b4b6-1bc137b2ba64
 ms.date: 12/05/2018
 ms.keywords: DdGetAvailDriverMemory, DdGetAvailDriverMemory callback function [Display Devices], PDD_GETAVAILDRIVERMEMORY, PDD_GETAVAILDRIVERMEMORY callback, ddfncs_670b3444-286c-4258-9936-9cb7995d0b24.xml, ddrawint/DdGetAvailDriverMemory, display.ddgetavaildrivermemory
-ms.topic: callback
 f1_keywords:
 - ddrawint/DdGetAvailDriverMemory
 dev_langs:

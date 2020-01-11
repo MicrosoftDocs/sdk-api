@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: b05a1862-9709-4459-a445-5ea4e00cab88
 ms.date: 12/05/2018
 ms.keywords: EAPHOST_AUTH_INFO, EAPHOST_AUTH_INFO structure [EAPHost], eaphost.eaphost_auth_info, eaphostpeertypes/EAPHOST_AUTH_INFO
-ms.topic: struct
 f1_keywords:
 - eaphostpeertypes/EAPHOST_AUTH_INFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\gettop.htm
 ms.date: 12/05/2018
 ms.keywords: GetTop, GetTop method [GDI+], GetTop method [GDI+],Rect class, Rect class [GDI+],GetTop method, Rect.GetTop, Rect::GetTop, _gdiplus_CLASS_Rect_GetTop_, gdiplus._gdiplus_CLASS_Rect_GetTop_
-ms.topic: method
 f1_keywords:
 - gdiplustypes/Rect.GetTop
 dev_langs:

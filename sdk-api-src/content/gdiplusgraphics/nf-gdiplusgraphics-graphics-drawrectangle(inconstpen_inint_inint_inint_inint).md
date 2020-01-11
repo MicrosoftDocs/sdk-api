@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawrectanglemethods\drawrectangle_31penpen_intx_inty_intwidth_intheight.htm
 ms.date: 12/05/2018
 ms.keywords: DrawRectangle, DrawRectangle method [GDI+], DrawRectangle method [GDI+],Graphics class, Graphics class [GDI+],DrawRectangle method, Graphics.DrawRectangle, Graphics.DrawRectangle(IN const Pen,IN INT,IN INT,IN INT,IN INT), Graphics.DrawRectangle(const Pen*,INT,INT,INT,INT), Graphics::DrawRectangle, Graphics::DrawRectangle(IN const Pen,IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_Graphics_DrawRectangle_Pen_pen_INT_x_INT_y_INT_width_INT_height_, gdiplus._gdiplus_CLASS_Graphics_DrawRectangle_Pen_pen_INT_x_INT_y_INT_width_INT_height_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.DrawRectangle
 dev_langs:

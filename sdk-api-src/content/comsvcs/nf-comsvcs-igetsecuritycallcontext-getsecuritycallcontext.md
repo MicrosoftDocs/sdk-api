@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 6a386cf6-1f75-4915-8c89-e453c4ebdab8
 ms.date: 12/05/2018
 ms.keywords: GetSecurityCallContext, GetSecurityCallContext method [COM+], GetSecurityCallContext method [COM+],IGetSecurityCallContext interface, IGetSecurityCallContext interface [COM+],GetSecurityCallContext method, IGetSecurityCallContext.GetSecurityCallContext, IGetSecurityCallContext::GetSecurityCallContext, _cos_IGetSecurityCallContext_GetSecurityCallContext, comsvcs/IGetSecurityCallContext::GetSecurityCallContext, cos.igetsecuritycallcontext_getsecuritycallcontext
-ms.topic: method
 f1_keywords:
 - comsvcs/IGetSecurityCallContext.GetSecurityCallContext
 dev_langs:

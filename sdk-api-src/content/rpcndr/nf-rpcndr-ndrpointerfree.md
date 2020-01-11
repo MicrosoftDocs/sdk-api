@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 8b90ae12-af0f-41f8-9b8d-4b354de511be
 ms.date: 12/05/2018
 ms.keywords: NdrPointerFree, NdrPointerFree function [RPC], rpc.ndrpointerfree, rpcndr/NdrPointerFree
-ms.topic: function
 f1_keywords:
 - rpcndr/NdrPointerFree
 dev_langs:

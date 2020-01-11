@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 884e922f-5cc6-4e46-b2f6-2436e7fc634e
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FIND_DWORD_PROPERTY, PRESUTIL_FIND_DWORD_PROPERTY function [Failover Cluster], ResUtilFindDwordProperty, ResUtilFindDwordProperty function [Failover Cluster], _wolf_resutilfinddwordproperty, mscs.resutilfinddwordproperty, resapi/PRESUTIL_FIND_DWORD_PROPERTY, resapi/ResUtilFindDwordProperty
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilFindDwordProperty
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: cd96ef31-784f-40fa-beb5-92a88823326b
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallContext, ISecurityCallContext interface [COM+], ISecurityCallContext interface [COM+],described, _cos_ISecurityCallContext, comsvcs/ISecurityCallContext, cos.isecuritycallcontext
-ms.topic: interface
 f1_keywords:
 - comsvcs/ISecurityCallContext
 dev_langs:

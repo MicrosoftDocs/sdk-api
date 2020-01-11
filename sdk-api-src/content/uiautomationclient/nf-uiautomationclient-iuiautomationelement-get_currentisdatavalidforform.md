@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 002d87c4-5389-4dc4-8253-484b8d2f28f9
 ms.date: 12/05/2018
 ms.keywords: CurrentIsDataValidForForm property [Windows Accessibility], CurrentIsDataValidForForm property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentIsDataValidForForm property, IUIAutomationElement.CurrentIsDataValidForForm, IUIAutomationElement.get_CurrentIsDataValidForForm, IUIAutomationElement::CurrentIsDataValidForForm, IUIAutomationElement::get_CurrentIsDataValidForForm, get_CurrentIsDataValidForForm, uiauto.uiauto_IUIAutomationElement_CurrentIsDataValidForForm, uiauto_IUIAutomationElement_CurrentIsDataValidForForm, uiautomationclient/IUIAutomationElement::CurrentIsDataValidForForm, uiautomationclient/IUIAutomationElement::get_CurrentIsDataValidForForm, winauto.uiauto_IUIAutomationElement_CurrentIsDataValidForForm
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationElement.CurrentIsDataValidForForm
 dev_langs:

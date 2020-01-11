@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 31f52445-a4f5-40f5-ad55-30f3b43b1528
 ms.date: 12/05/2018
 ms.keywords: HashEquivalent, HashEquivalent method [Microsoft TV Technologies], HashEquivalent method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],HashEquivalent method, IBDAComparable.HashEquivalent, IBDAComparable::HashEquivalent, IBDAComparableHashEquivalent, mstv.ibdacomparable_hashequivalent, tuner/IBDAComparable::HashEquivalent
-ms.topic: method
 f1_keywords:
 - tuner/IBDAComparable.HashEquivalent
 dev_langs:

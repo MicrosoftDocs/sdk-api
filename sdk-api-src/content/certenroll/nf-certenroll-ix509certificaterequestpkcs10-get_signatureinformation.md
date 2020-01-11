@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: d90a8b82-a4d7-4d31-bcd0-293572a2bdd2
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],SignatureInformation property, IX509CertificateRequestPkcs10.SignatureInformation, IX509CertificateRequestPkcs10.get_SignatureInformation, IX509CertificateRequestPkcs10::SignatureInformation, IX509CertificateRequestPkcs10::get_SignatureInformation, SignatureInformation property [Security], SignatureInformation property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::SignatureInformation, certenroll/IX509CertificateRequestPkcs10::get_SignatureInformation, get_SignatureInformation, security.ix509certificaterequestpkcs10_signatureinformation_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509CertificateRequestPkcs10.SignatureInformation
 dev_langs:

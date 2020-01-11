@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: f31bb18b-c129-417f-ab87-cf114a2e094f
 ms.date: 12/05/2018
 ms.keywords: BluetoothFindFirstRadio, BluetoothFindFirstRadio function [Bluetooth], bluetooth.bluetoothfindfirstradio, bluetoothapis/BluetoothFindFirstRadio
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothFindFirstRadio
 dev_langs:

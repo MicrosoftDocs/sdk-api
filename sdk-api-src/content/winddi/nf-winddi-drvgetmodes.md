@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 55ca7733-184a-4bc0-8e91-b5899073bca7
 ms.date: 12/05/2018
 ms.keywords: DrvGetModes, DrvGetModes function [Display Devices], ddifncs_2dfdc736-13de-4235-8be3-946e0cb1ed44.xml, display.drvgetmodes, winddi/DrvGetModes
-ms.topic: function
 f1_keywords:
 - winddi/DrvGetModes
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 8f5b5471-edfa-45e6-b556-ba12c0721aed
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],NumberOfMissedRuns property, IRegisteredTask.NumberOfMissedRuns, IRegisteredTask.get_NumberOfMissedRuns, IRegisteredTask::NumberOfMissedRuns, IRegisteredTask::get_NumberOfMissedRuns, NumberOfMissedRuns property [Task Scheduler], NumberOfMissedRuns property [Task Scheduler],IRegisteredTask interface, get_NumberOfMissedRuns, taskschd.iregisteredtask_numberofmissedruns, taskschd/IRegisteredTask::NumberOfMissedRuns, taskschd/IRegisteredTask::get_NumberOfMissedRuns
-ms.topic: method
 f1_keywords:
 - taskschd/IRegisteredTask.NumberOfMissedRuns
 dev_langs:

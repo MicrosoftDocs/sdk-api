@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: d384ff93-220f-4714-a76a-b8b495496d79
 ms.date: 12/05/2018
 ms.keywords: RenderTargetProperties, RenderTargetProperties function [Direct2D], d2d1helper/RenderTargetProperties, direct2d.rendertargetproperties
-ms.topic: function
 f1_keywords:
 - d2d1helper/RenderTargetProperties
 dev_langs:

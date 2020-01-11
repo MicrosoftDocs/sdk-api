@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 5AACADE4-304D-47FA-9A55-78B974E8D46C
 ms.date: 12/05/2018
 ms.keywords: CurrentAnnotationTypeName property [Windows Accessibility], CurrentAnnotationTypeName property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CurrentAnnotationTypeName property, IUIAutomationAnnotationPattern.CurrentAnnotationTypeName, IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeName, IUIAutomationAnnotationPattern::CurrentAnnotationTypeName, IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeName, get_CurrentAnnotationTypeName, uiautomationclient/IUIAutomationAnnotationPattern::CurrentAnnotationTypeName, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeName, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentAnnotationTypeName
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationAnnotationPattern.CurrentAnnotationTypeName
 dev_langs:

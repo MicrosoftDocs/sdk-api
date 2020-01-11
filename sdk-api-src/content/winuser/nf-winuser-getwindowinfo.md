@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowinfo.htm
 ms.date: 12/05/2018
 ms.keywords: GetWindowInfo, GetWindowInfo function [Windows and Messages], _win32_GetWindowInfo, _win32_getwindowinfo_cpp, winmsg.getwindowinfo, winui._win32_getwindowinfo, winuser/GetWindowInfo
-ms.topic: function
 f1_keywords:
 - winuser/GetWindowInfo
 dev_langs:

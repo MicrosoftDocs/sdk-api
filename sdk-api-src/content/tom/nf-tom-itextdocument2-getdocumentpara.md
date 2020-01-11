@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 3667587e-3cf1-4b86-82fd-2fc34d4cbeee
 ms.date: 12/05/2018
 ms.keywords: GetDocumentPara, GetDocumentPara method [Windows Controls], GetDocumentPara method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetDocumentPara method, ITextDocument2.GetDocumentPara, ITextDocument2::GetDocumentPara, controls.itextdocument2_getdocumentpara, tom/ITextDocument2::GetDocumentPara
-ms.topic: method
 f1_keywords:
 - tom/ITextDocument2.GetDocumentPara
 dev_langs:

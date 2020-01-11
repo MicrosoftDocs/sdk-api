@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 6e7a2ac0-2a4a-41ec-a2a8-ddbe8aa45bc9
 ms.date: 12/05/2018
 ms.keywords: PSCreateMemoryPropertyStore, PSCreateMemoryPropertyStore function [Windows Properties], _shell_PSCreateMemoryPropertyStore, properties.PSCreateMemoryPropertyStore, propsys/PSCreateMemoryPropertyStore, shell.PSCreateMemoryPropertyStore
-ms.topic: function
 f1_keywords:
 - propsys/PSCreateMemoryPropertyStore
 dev_langs:

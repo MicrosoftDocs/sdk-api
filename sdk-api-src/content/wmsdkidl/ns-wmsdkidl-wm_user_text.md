@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 49a8faf1-2af4-4c47-bbac-d8745c0f60a1
 ms.date: 12/05/2018
 ms.keywords: WM_USER_TEXT, WM_USER_TEXT structure [windows Media Format], wmformat.wm_user_text, wmsdkidl/WM_USER_TEXT
-ms.topic: struct
 f1_keywords:
 - wmsdkidl/WM_USER_TEXT
 dev_langs:

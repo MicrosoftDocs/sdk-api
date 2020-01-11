@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: ea2476b4-2f98-4295-95c4-c96c6b719e05
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpRegister, SnmpRegister function [SNMP], _snmp_snmpregister, snmp.snmpregister, winsnmp/SnmpRegister
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpRegister
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 245f4f27-9a57-459c-b6e9-fe11fe58d77a
 ms.date: 12/05/2018
 ms.keywords: IApiTracingDataCollector interface [PLA],LogApisRecursively property, IApiTracingDataCollector.LogApisRecursively, IApiTracingDataCollector.get_LogApisRecursively, IApiTracingDataCollector::LogApisRecursively, IApiTracingDataCollector::get_LogApisRecursively, IApiTracingDataCollector::put_LogApisRecursively, LogApisRecursively property [PLA], LogApisRecursively property [PLA],IApiTracingDataCollector interface, get_LogApisRecursively, pla.iapitracingdatacollector_logapisrecursively, pla/IApiTracingDataCollector::LogApisRecursively, pla/IApiTracingDataCollector::get_LogApisRecursively, pla/IApiTracingDataCollector::put_LogApisRecursively
-ms.topic: method
 f1_keywords:
 - pla/IApiTracingDataCollector.LogApisRecursively
 dev_langs:

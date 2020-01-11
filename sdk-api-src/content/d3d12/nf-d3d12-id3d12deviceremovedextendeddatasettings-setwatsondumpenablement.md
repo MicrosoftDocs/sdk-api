@@ -6,7 +6,6 @@ old-location: direct3d12\id3d12deviceremovedextendeddatasettings_setwatsondumpen
 tech.root: direct3d12
 ms.date: 02/08/2019
 ms.keywords: SetWatsonDumpEnablement, SetWatsonDumpEnablement method, ID3D12DeviceRemovedExtendedDataSettings, ID3D12DeviceRemovedExtendedDataSettings interface, ID3D12DeviceRemovedExtendedDataSettings.SetWatsonDumpEnablement, ID3D12DeviceRemovedExtendedDataSettings::SetWatsonDumpEnablement, d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetWatsonDumpEnablement, direct3d12.id3d12deviceremovedextendeddatasettings_setwatsondumpenablement
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetWatsonDumpEnablement
 dev_langs:

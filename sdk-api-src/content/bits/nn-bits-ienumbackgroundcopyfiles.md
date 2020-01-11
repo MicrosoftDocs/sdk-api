@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 831998ba-601c-43c4-ba27-faff741f8eb4
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyFiles, IEnumBackgroundCopyFiles interface [BITS], IEnumBackgroundCopyFiles interface [BITS],described, _drz_ienumbackgroundcopyfiles, bits.ienumbackgroundcopyfiles, bits/IEnumBackgroundCopyFiles
-ms.topic: interface
 f1_keywords:
 - bits/IEnumBackgroundCopyFiles
 dev_langs:

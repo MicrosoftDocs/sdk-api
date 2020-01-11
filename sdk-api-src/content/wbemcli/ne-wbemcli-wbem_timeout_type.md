@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 5A4E800A-7CA2-42D0-AF40-DA18171B3DB8
 ms.date: 12/05/2018
 ms.keywords: WBEM_INFINITE, WBEM_NO_WAIT, WBEM_TIMEOUT_TYPE, WBEM_TIMEOUT_TYPE enumeration [Windows Management Instrumentation], wbemcli/WBEM_INFINITE, wbemcli/WBEM_NO_WAIT, wbemcli/WBEM_TIMEOUT_TYPE, wmi.wbem_timeout_type
-ms.topic: enum
 f1_keywords:
 - wbemcli/WBEM_TIMEOUT_TYPE
 dev_langs:

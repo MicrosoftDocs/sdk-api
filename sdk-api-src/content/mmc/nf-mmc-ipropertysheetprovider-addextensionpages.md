@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 3a2ce7a6-65d6-4e39-b8b8-8d9b59b32d11
 ms.date: 12/05/2018
 ms.keywords: AddExtensionPages, AddExtensionPages method [MMC], AddExtensionPages method [MMC],IPropertySheetProvider interface, IPropertySheetProvider interface [MMC],AddExtensionPages method, IPropertySheetProvider.AddExtensionPages, IPropertySheetProvider::AddExtensionPages, _slate_ipropertysheetprovider_addextensionpages, mmc.ipropertysheetprovider_addextensionpages, mmc/IPropertySheetProvider::AddExtensionPages
-ms.topic: method
 f1_keywords:
 - mmc/IPropertySheetProvider.AddExtensionPages
 dev_langs:

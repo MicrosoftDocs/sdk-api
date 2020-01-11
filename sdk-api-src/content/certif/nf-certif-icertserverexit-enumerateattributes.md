@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: df778207-3b20-45a5-a705-8dba566eb658
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],EnumerateAttributes method, EnumerateAttributes, EnumerateAttributes method [Security], EnumerateAttributes method [Security],CCertServerExit object, EnumerateAttributes method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateAttributes method, ICertServerExit.EnumerateAttributes, ICertServerExit::EnumerateAttributes, _certsrv_icertserverexit_enumerateattributes, certif/ICertServerExit::EnumerateAttributes, security.icertserverexit_enumerateattributes
-ms.topic: method
 f1_keywords:
 - certif/ICertServerExit.EnumerateAttributes
 dev_langs:

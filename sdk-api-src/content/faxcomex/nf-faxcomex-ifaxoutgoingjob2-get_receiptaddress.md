@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingjob2\receiptaddress.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob2 interface [Fax Service],ReceiptAddress property, IFaxOutgoingJob2.ReceiptAddress, IFaxOutgoingJob2.get_ReceiptAddress, IFaxOutgoingJob2::ReceiptAddress, IFaxOutgoingJob2::get_ReceiptAddress, ReceiptAddress property [Fax Service], ReceiptAddress property [Fax Service],IFaxOutgoingJob2 interface, _mfax_faxoutgoingjob.receiptaddress, fax._mfax_faxoutgoingjob2_cpp_mfax_faxoutgoingjob_receiptaddress_cpp, fax._mfax_faxoutgoingjob_receiptaddress, faxcomex/IFaxOutgoingJob2::ReceiptAddress, faxcomex/IFaxOutgoingJob2::get_ReceiptAddress, get_ReceiptAddress
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutgoingJob2.ReceiptAddress
 dev_langs:

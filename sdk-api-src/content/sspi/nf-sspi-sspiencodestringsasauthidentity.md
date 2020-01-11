@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 0aea2f00-fcf1-4c4e-a22f-a669dd4fb294
 ms.date: 12/05/2018
 ms.keywords: SspiEncodeStringsAsAuthIdentity, SspiEncodeStringsAsAuthIdentity function [Security], security.sspiencodestringsasauthidentity, sspi/SspiEncodeStringsAsAuthIdentity
-ms.topic: function
 f1_keywords:
 - sspi/SspiEncodeStringsAsAuthIdentity
 dev_langs:

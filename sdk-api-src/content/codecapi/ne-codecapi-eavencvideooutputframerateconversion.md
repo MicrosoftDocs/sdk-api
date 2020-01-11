@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0303f49c-9651-4781-8a6b-2af0a1b8f1ab
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncVideoOutputFrameRateConversion, codecapi/eAVEncVideoOutputFrameRateConversion_Alias, codecapi/eAVEncVideoOutputFrameRateConversion_Disable, codecapi/eAVEncVideoOutputFrameRateConversion_Enable, dshow.eavencvideooutputframerateconversion, eAVEncVideoOutputFrameRateConversion, eAVEncVideoOutputFrameRateConversion enumeration [DirectShow], eAVEncVideoOutputFrameRateConversionEnumeration, eAVEncVideoOutputFrameRateConversion_Alias, eAVEncVideoOutputFrameRateConversion_Disable, eAVEncVideoOutputFrameRateConversion_Enable
-ms.topic: enum
 f1_keywords:
 - codecapi/eAVEncVideoOutputFrameRateConversion
 dev_langs:

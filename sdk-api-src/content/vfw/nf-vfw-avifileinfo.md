@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 10d7decf-a133-4d55-93d5-867952307819
 ms.date: 12/05/2018
 ms.keywords: AVIFileInfo, AVIFileInfo function [Windows Multimedia], AVIFileInfoA, AVIFileInfoW, _win32_AVIFileInfo, multimedia.avifileinfo, vfw/AVIFileInfo, vfw/AVIFileInfoA, vfw/AVIFileInfoW
-ms.topic: function
 f1_keywords:
 - vfw/AVIFileInfo
 dev_langs:

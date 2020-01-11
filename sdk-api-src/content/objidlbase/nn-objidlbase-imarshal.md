@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: e6f08949-f27d-4aba-adff-eaf9c356a928
 ms.date: 12/05/2018
 ms.keywords: IMarshal, IMarshal interface [COM], IMarshal interface [COM],described, _com_imarshal, com.imarshal, objidlbase/IMarshal
-ms.topic: interface
 f1_keywords:
 - objidlbase/IMarshal
 dev_langs:

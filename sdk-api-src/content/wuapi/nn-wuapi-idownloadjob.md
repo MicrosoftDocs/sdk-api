@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 0157acab-53b6-43f9-a358-81cd5108c531
 ms.date: 12/05/2018
 ms.keywords: IDownloadJob, IDownloadJob interface [Windows Update Agent], IDownloadJob interface [Windows Update Agent],described, wua.idownloadjob, wuapi/IDownloadJob
-ms.topic: interface
 f1_keywords:
 - wuapi/IDownloadJob
 dev_langs:

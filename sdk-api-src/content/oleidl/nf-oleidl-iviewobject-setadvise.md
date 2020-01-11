@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 64712679-8454-41fa-9497-f0ab97240a51
 ms.date: 12/05/2018
 ms.keywords: ADVF_ONLYONCE, ADVF_PRIMEFIRST, IViewObject interface [COM],SetAdvise method, IViewObject.SetAdvise, IViewObject::SetAdvise, SetAdvise, SetAdvise method [COM], SetAdvise method [COM],IViewObject interface, _ole_iviewobject_setadvise, com.iviewobject_setadvise, oleidl/IViewObject::SetAdvise
-ms.topic: method
 f1_keywords:
 - oleidl/IViewObject.SetAdvise
 dev_langs:

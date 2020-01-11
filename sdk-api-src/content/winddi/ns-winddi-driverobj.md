@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 313ee1bf-ee0c-4283-b5e1-5bbabb944a4a
 ms.date: 12/05/2018
 ms.keywords: DRIVEROBJ, DRIVEROBJ structure [Display Devices], display.driverobj, grstrcts_8b5c3216-cbe0-4ddf-97b3-c54b39f996cb.xml, winddi/DRIVEROBJ
-ms.topic: struct
 f1_keywords:
 - winddi/DRIVEROBJ
 dev_langs:

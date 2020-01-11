@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 141c6798-5dca-495e-bdbe-f07e457a3d8a
 ms.date: 12/05/2018
 ms.keywords: IESIsdbCasResponseEvent, IESIsdbCasResponseEvent interface [DirectShow], IESIsdbCasResponseEvent interface [DirectShow],described, mstv.iesisdbcasresponseevent, tuner/IESIsdbCasResponseEvent
-ms.topic: interface
 f1_keywords:
 - tuner/IESIsdbCasResponseEvent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: bde390fe-3ada-48d3-b9aa-b4bb56228eac
 ms.date: 12/05/2018
 ms.keywords: RtmIsMarkedForChangeNotification, RtmIsMarkedForChangeNotification function [RAS], _rtmv2ref_rtmismarkedforchangenotification, rras.rtmismarkedforchangenotification, rtmv2/RtmIsMarkedForChangeNotification
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmIsMarkedForChangeNotification
 dev_langs:

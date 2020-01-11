@@ -7,7 +7,6 @@ tech.root: battery
 ms.assetid: b74466e0-d900-49c6-a92e-d10a994fa948
 ms.date: 12/05/2018
 ms.keywords: BatteryClassStatusNotify, BatteryClassStatusNotify function [Battery Devices], bat-rtn_3e9d25d2-bd07-419a-80a5-98fcc08faedd.xml, batclass/BatteryClassStatusNotify, battery.batteryclassstatusnotify
-ms.topic: function
 f1_keywords:
 - batclass/BatteryClassStatusNotify
 dev_langs:

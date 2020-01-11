@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 6fab6126-4672-49d6-825b-66a7927a7e99
 ms.date: 12/05/2018
 ms.keywords: PtInRegion, PtInRegion function [Windows GDI], _win32_PtInRegion, gdi.ptinregion, wingdi/PtInRegion
-ms.topic: function
 f1_keywords:
 - wingdi/PtInRegion
 dev_langs:

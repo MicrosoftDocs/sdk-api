@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: e1ba7851-570e-4ddc-8981-766294011409
 ms.date: 12/05/2018
 ms.keywords: '*PDD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA structure [Display Devices], ddrawint/DD_UPDATEVPORTDATA, ddstrcts_a266490e-9cac-45ca-9129-63f3dcef6a6f.xml, display.dd_updatevportdata'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_UPDATEVPORTDATA
 dev_langs:

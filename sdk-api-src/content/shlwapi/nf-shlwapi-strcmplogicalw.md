@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 013c6db3-7d14-44ef-89af-b3aac28f4e3f
 ms.date: 12/05/2018
 ms.keywords: StrCmpLogicalW, StrCmpLogicalW function [Windows Shell], _shell_StrCmpLogicalW, shell.StrCmpLogicalW, shlwapi/StrCmpLogicalW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrCmpLogicalW
 dev_langs:

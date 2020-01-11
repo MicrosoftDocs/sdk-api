@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 668ebede-73ec-4ee9-9b81-7167e827db60
 ms.date: 12/05/2018
 ms.keywords: RasDialFunc, RasDialFunc callback, RasDialFunc callback function [RAS], _ras_rasdialfunc, ras/RasDialFunc, rras.rasdialfunc
-ms.topic: callback
 f1_keywords:
 - ras/RasDialFunc
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 5c398554-af2b-4e7d-8f5c-1c361535e7c6
 ms.date: 12/05/2018
 ms.keywords: GetNumTimeFormats, GetNumTimeFormats method [DirectShow], GetNumTimeFormats method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetNumTimeFormats method, IMediaParamInfo.GetNumTimeFormats, IMediaParamInfo::GetNumTimeFormats, IMediaParamInfoGetNumTimeFormats, dshow.imediaparaminfo_getnumtimeformats, medparam/IMediaParamInfo::GetNumTimeFormats
-ms.topic: method
 f1_keywords:
 - medparam/IMediaParamInfo.GetNumTimeFormats
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: b7dbd25f-6865-44fa-9d46-e77de393ce13
 ms.date: 12/05/2018
 ms.keywords: IWMPTranscodePolicy, IWMPTranscodePolicy interface [Windows Media Player], IWMPTranscodePolicy interface [Windows Media Player],described, IWMPTranscodePolicyInterface, wmp.iwmptranscodepolicy, wmpservices/IWMPTranscodePolicy
-ms.topic: interface
 f1_keywords:
 - wmpservices/IWMPTranscodePolicy
 dev_langs:

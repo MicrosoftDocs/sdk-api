@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 15e598bb-bcc9-4254-aa1c-24d7dd6b97a8
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [windows Media Device Manager], GetType method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetType method, IMDSPDevice.GetType, IMDSPDevice::GetType, IMDSPDeviceGetType, mswmdm/IMDSPDevice::GetType, wmdm.imdspdevice_gettype
-ms.topic: method
 f1_keywords:
 - mswmdm/IMDSPDevice.GetType
 dev_langs:

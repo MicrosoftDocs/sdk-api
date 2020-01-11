@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: a49a21c9-5668-4709-b52a-f6cacd944845
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ALGORITHM_IDENTIFIER, BCRYPT_ALGORITHM_IDENTIFIER structure [Security], bcrypt/BCRYPT_ALGORITHM_IDENTIFIER, security.bcrypt_algorithm_identifier_struct
-ms.topic: struct
 f1_keywords:
 - bcrypt/BCRYPT_ALGORITHM_IDENTIFIER
 dev_langs:

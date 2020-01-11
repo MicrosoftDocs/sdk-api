@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 5b6e2dcf-6feb-454a-a56a-79ae1506b4f9
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetDOUBLE method, CInstance.SetDOUBLE, CInstance::SetDOUBLE, SetDOUBLE, SetDOUBLE method [Windows Management Instrumentation], SetDOUBLE method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setdouble, instance/CInstance::SetDOUBLE, wmi.cinstance_setdouble
-ms.topic: method
 f1_keywords:
 - instance/CInstance.SetDOUBLE
 dev_langs:

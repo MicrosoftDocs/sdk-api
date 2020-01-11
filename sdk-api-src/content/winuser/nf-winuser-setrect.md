@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 346c573b-eaf7-4ca6-bd36-18074f7eccf5
 ms.date: 12/05/2018
 ms.keywords: SetRect, SetRect function [Windows GDI], _win32_SetRect, gdi.setrect, winuser/SetRect
-ms.topic: function
 f1_keywords:
 - winuser/SetRect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 86EE47E1-B2AD-4610-8C9A-679536F9C51D
 ms.date: 12/05/2018
 ms.keywords: GetContentType, GetContentType method [App packaging and management], GetContentType method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetContentType method, IAppxFile.GetContentType, IAppxFile::GetContentType, appxpackaging/IAppxFile::GetContentType, appxpkg.iappxfile_getcontenttype
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxFile.GetContentType
 dev_langs:

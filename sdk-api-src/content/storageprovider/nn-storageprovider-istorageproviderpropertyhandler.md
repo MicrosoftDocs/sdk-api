@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8CB56726-DABA-44A4-ADAE-DAD8ECB047E6
 ms.date: 12/05/2018
 ms.keywords: IStorageProviderPropertyHandler, IStorageProviderPropertyHandler interface [Windows Shell], IStorageProviderPropertyHandler interface [Windows Shell],described, shell.istorageproviderpropertyhandler, storageprovider/IStorageProviderPropertyHandler
-ms.topic: interface
 f1_keywords:
 - storageprovider/IStorageProviderPropertyHandler
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\enddeferwindowpos.htm
 ms.date: 12/05/2018
 ms.keywords: EndDeferWindowPos, EndDeferWindowPos function [Windows and Messages], _win32_EndDeferWindowPos, _win32_enddeferwindowpos_cpp, winmsg.enddeferwindowpos, winui._win32_enddeferwindowpos, winuser/EndDeferWindowPos
-ms.topic: function
 f1_keywords:
 - winuser/EndDeferWindowPos
 dev_langs:

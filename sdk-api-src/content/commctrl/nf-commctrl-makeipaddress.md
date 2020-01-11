@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\makeipaddress.htm
 ms.date: 12/05/2018
 ms.keywords: MAKEIPADDRESS, MAKEIPADDRESS macro [Windows Controls], _win32_MAKEIPADDRESS, _win32_MAKEIPADDRESS_cpp, commctrl/MAKEIPADDRESS, controls.MAKEIPADDRESS, controls._win32_MAKEIPADDRESS
-ms.topic: macro
 f1_keywords:
 - commctrl/MAKEIPADDRESS
 dev_langs:

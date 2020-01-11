@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 706cab9d-7d04-4151-80df-badd1d446a80
 ms.date: 12/05/2018
 ms.keywords: _win32_joyGetDevCaps, joGetDevCapsA, joyGetDevCaps, joyGetDevCaps function [Windows Multimedia], joyGetDevCapsW, joystickapi/joGetDevCapsA, joystickapi/joyGetDevCaps, joystickapi/joyGetDevCapsW, multimedia.joygetdevcaps
-ms.topic: function
 f1_keywords:
 - joystickapi/joyGetDevCaps
 dev_langs:

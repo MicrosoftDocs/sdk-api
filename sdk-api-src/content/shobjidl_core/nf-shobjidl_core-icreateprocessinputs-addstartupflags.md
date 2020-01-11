@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 62270ED9-678B-4D39-BFF1-3F9E10AAF03A
 ms.date: 12/05/2018
 ms.keywords: AddStartupFlags, AddStartupFlags method [Windows Shell], AddStartupFlags method [Windows Shell],ICreateProcessInputs interface, ICreateProcessInputs interface [Windows Shell],AddStartupFlags method, ICreateProcessInputs.AddStartupFlags, ICreateProcessInputs::AddStartupFlags, shell.icreateprocessinputs_addstartupflags, shobjidl_core/ICreateProcessInputs::AddStartupFlags
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ICreateProcessInputs.AddStartupFlags
 dev_langs:

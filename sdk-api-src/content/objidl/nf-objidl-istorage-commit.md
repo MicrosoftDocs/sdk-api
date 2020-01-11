@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 72831f2c-1e07-429b-af4c-2aaced3f3888
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Structured Storage], Commit method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],Commit method, IStorage.Commit, IStorage::Commit, _stg_istorage_commit, objidl/IStorage::Commit, stg.istorage_commit
-ms.topic: method
 f1_keywords:
 - objidl/IStorage.Commit
 dev_langs:

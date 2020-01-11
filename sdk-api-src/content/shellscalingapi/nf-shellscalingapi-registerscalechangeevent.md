@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 05FAFC9B-DCB7-464A-9933-7166C7E53D40
 ms.date: 12/05/2018
 ms.keywords: RegisterScaleChangeEvent, RegisterScaleChangeEvent function [Windows Shell], shell.RegisterScaleChangeEvent, shellscalingapi/RegisterScaleChangeEvent
-ms.topic: function
 f1_keywords:
 - shellscalingapi/RegisterScaleChangeEvent
 dev_langs:

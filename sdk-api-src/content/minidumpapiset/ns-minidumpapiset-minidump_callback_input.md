@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 0ce3083c-21c9-48a4-9099-1dab31afcafa
 ms.date: 12/05/2018
 ms.keywords: '*PMINIDUMP_CALLBACK_INPUT, MINIDUMP_CALLBACK_INPUT, MINIDUMP_CALLBACK_INPUT structure, PMINIDUMP_CALLBACK_INPUT, PMINIDUMP_CALLBACK_INPUT structure pointer, _MINIDUMP_CALLBACK_INPUT, _win32_minidump_callback_input_str, base.minidump_callback_input_str, minidumpapiset/MINIDUMP_CALLBACK_INPUT, minidumpapiset/PMINIDUMP_CALLBACK_INPUT'
-ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_CALLBACK_INPUT
 dev_langs:

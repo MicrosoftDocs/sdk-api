@@ -7,7 +7,6 @@ tech.root: Monitor
 ms.assetid: e5676134-ae4d-4db6-86fa-dbff0dd14a25
 ms.date: 12/05/2018
 ms.keywords: RestoreMonitorFactoryColorDefaults, RestoreMonitorFactoryColorDefaults function [Monitor Configuration], highlevelmonitorconfigurationapi/RestoreMonitorFactoryColorDefaults, monitor.restoremonitorfactorycolordefaults
-ms.topic: function
 f1_keywords:
 - highlevelmonitorconfigurationapi/RestoreMonitorFactoryColorDefaults
 dev_langs:

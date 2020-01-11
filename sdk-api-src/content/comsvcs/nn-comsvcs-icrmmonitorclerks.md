@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 90403516-f677-4396-8991-ae621c159567
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorClerks, ICrmMonitorClerks interface [COM+], ICrmMonitorClerks interface [COM+],described, _dtc_ICrmMonitorClerks_Interface, comsvcs/ICrmMonitorClerks, cos.icrmmonitorclerks
-ms.topic: interface
 f1_keywords:
 - comsvcs/ICrmMonitorClerks
 dev_langs:

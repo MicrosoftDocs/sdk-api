@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 5b46c6fc-2415-4ed2-a2f9-47a6e8455ff0
 ms.date: 12/05/2018
 ms.keywords: 5b46c6fc-2415-4ed2-a2f9-47a6e8455ff0, IOAM_Behind, IOAM_InFront, InkOverlayAttachMode, InkOverlayAttachMode enumeration [Tablet PC], msinkaut/IOAM_Behind, msinkaut/IOAM_InFront, msinkaut/InkOverlayAttachMode, tablet.inkoverlayattachmode
-ms.topic: enum
 f1_keywords:
 - msinkaut/InkOverlayAttachMode
 dev_langs:

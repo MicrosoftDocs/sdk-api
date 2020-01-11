@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: A01233F3-3C5F-4184-9AAA-7391BFD2EB02
 ms.date: 12/05/2018
 ms.keywords: IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN, IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN control, IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN control code [Buses], buses.ioctl_genericusbfn_control_status_handshake_in, genericusbfnioctl/IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN
-ms.topic: ioctl
 f1_keywords:
 - genericusbfnioctl/IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN
 dev_langs:

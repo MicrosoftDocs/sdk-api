@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 553a0a51-fc2f-4ace-a69d-6aef4d9b06af
 ms.date: 12/05/2018
 ms.keywords: DaysOfWeek property [Task Scheduler], DaysOfWeek property [Task Scheduler],IMonthlyDOWTrigger interface, IMonthlyDOWTrigger interface [Task Scheduler],DaysOfWeek property, IMonthlyDOWTrigger.DaysOfWeek, IMonthlyDOWTrigger.get_DaysOfWeek, IMonthlyDOWTrigger::DaysOfWeek, IMonthlyDOWTrigger::get_DaysOfWeek, IMonthlyDOWTrigger::put_DaysOfWeek, get_DaysOfWeek, taskschd.imonthlydowtrigger_daysofweek, taskschd/IMonthlyDOWTrigger::DaysOfWeek, taskschd/IMonthlyDOWTrigger::get_DaysOfWeek, taskschd/IMonthlyDOWTrigger::put_DaysOfWeek
-ms.topic: method
 f1_keywords:
 - taskschd/IMonthlyDOWTrigger.DaysOfWeek
 dev_langs:

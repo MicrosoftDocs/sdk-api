@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 02646a80-6e93-4169-83da-0488ff3da56f
 ms.date: 12/05/2018
 ms.keywords: BCryptEnumContexts, BCryptEnumContexts function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptEnumContexts, security.bcryptenumcontexts
-ms.topic: function
 f1_keywords:
 - bcrypt/BCryptEnumContexts
 dev_langs:

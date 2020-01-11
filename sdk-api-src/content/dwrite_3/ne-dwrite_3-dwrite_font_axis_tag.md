@@ -5,7 +5,6 @@ description: Defines constants that specify a four-character identifier for a fo
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: DWRITE_FONT_AXIS_TAG, DWRITE_FONT_AXIS_TAG enumeration [Direct Write], directwrite.dwrite_font_axis_tag, dwrite_3/DWRITE_FONT_AXIS_TAG
-ms.topic: enum
 f1_keywords:
 - dwrite_3/DWRITE_FONT_AXIS_TAG
 dev_langs:

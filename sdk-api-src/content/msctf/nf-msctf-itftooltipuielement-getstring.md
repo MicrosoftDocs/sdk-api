@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 2858a16a-7550-4e16-8872-ecfffa7d1b4e
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfToolTipUIElement interface, ITfToolTipUIElement interface [Text Services Framework],GetString method, ITfToolTipUIElement.GetString, ITfToolTipUIElement::GetString, msctf/ITfToolTipUIElement::GetString, tsf.itftooltipuielement_getstring
-ms.topic: method
 f1_keywords:
 - msctf/ITfToolTipUIElement.GetString
 dev_langs:

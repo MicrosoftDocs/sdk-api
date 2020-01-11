@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: D97138F0-2FB3-488A-91AC-A654B22FE9AD
 ms.date: 12/05/2018
 ms.keywords: MapViewOfFile2, MapViewOfFile2 function, base.mapviewoffile2, winbase/MapViewOfFile2
-ms.topic: function
 f1_keywords:
 - memoryapi/MapViewOfFile2
 dev_langs:

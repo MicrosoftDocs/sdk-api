@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: cbd08812-eedc-4ba7-827e-1e5d1e3e6368
 ms.date: 12/05/2018
 ms.keywords: WriteCabinetState, WriteCabinetState function [Windows Shell], _win32_WriteCabinetState, shell.WriteCabinetState, shlobj_core/WriteCabinetState
-ms.topic: function
 f1_keywords:
 - shlobj_core/WriteCabinetState
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 3ad667ed-bbb5-44e2-992a-df90bbab7b79
 ms.date: 12/05/2018
 ms.keywords: EnableRemoteFXGraphics, EnableRemoteFXGraphics method [Remote Desktop Services], EnableRemoteFXGraphics method [Remote Desktop Services],IWRdsRemoteFXGraphicsConnection interface, IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services],EnableRemoteFXGraphics method, IWRdsRemoteFXGraphicsConnection.EnableRemoteFXGraphics, IWRdsRemoteFXGraphicsConnection::EnableRemoteFXGraphics, termserv.iwrdsremotefxgraphicsconnection_enableremotefxgraphics, wtsprotocol/IWRdsRemoteFXGraphicsConnection::EnableRemoteFXGraphics
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWRdsRemoteFXGraphicsConnection.EnableRemoteFXGraphics
 dev_langs:

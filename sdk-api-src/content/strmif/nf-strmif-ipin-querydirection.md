@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: cc36b5d6-bcca-403d-b840-ceabbf159f5d
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],QueryDirection method, IPin.QueryDirection, IPin::QueryDirection, IPinQueryDirection, QueryDirection, QueryDirection method [DirectShow], QueryDirection method [DirectShow],IPin interface, dshow.ipin_querydirection, strmif/IPin::QueryDirection
-ms.topic: method
 f1_keywords:
 - strmif/IPin.QueryDirection
 dev_langs:

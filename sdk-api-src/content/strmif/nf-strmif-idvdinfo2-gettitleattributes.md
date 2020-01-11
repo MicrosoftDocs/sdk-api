@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 4e901e14-9e98-4ca5-ae37-7a4564b187ab
 ms.date: 12/05/2018
 ms.keywords: GetTitleAttributes, GetTitleAttributes method [DirectShow], GetTitleAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetTitleAttributes method, IDvdInfo2.GetTitleAttributes, IDvdInfo2::GetTitleAttributes, IDvdInfo2GetTitleAttributes, dshow.idvdinfo2_gettitleattributes, strmif/IDvdInfo2::GetTitleAttributes
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo2.GetTitleAttributes
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 9ebdcd7f-06c1-4464-a66c-4d134a6b5d36
 ms.date: 12/05/2018
 ms.keywords: OleQueryLinkFromData, OleQueryLinkFromData function [COM], _ole_OleQueryLinkFromData, com.olequerylinkfromdata, ole2/OleQueryLinkFromData
-ms.topic: function
 f1_keywords:
 - ole2/OleQueryLinkFromData
 dev_langs:

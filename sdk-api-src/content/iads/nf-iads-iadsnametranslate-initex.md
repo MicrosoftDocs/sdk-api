@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 169e1e0d-26c0-484d-b461-8817d37d17b8
 ms.date: 12/05/2018
 ms.keywords: IADsNameTranslate interface [ADSI],InitEx method, IADsNameTranslate.InitEx, IADsNameTranslate::InitEx, InitEx, InitEx method [ADSI], InitEx method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_initex, adsi.iadsnametranslate__initex, adsi.iadsnametranslate_initex, iads/IADsNameTranslate::InitEx
-ms.topic: method
 f1_keywords:
 - iads/IADsNameTranslate.InitEx
 dev_langs:

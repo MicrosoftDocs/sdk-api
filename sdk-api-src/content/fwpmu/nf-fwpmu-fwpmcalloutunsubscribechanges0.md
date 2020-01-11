@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: ab0825fc-edf8-4634-a6bb-86de7e1e030c
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutUnsubscribeChanges0, FwpmCalloutUnsubscribeChanges0 function [Filtering], fwp.fwpmcalloutunsubscribechanges0_func, fwpmu/FwpmCalloutUnsubscribeChanges0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmCalloutUnsubscribeChanges0
 dev_langs:

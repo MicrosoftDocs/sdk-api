@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e4ae8b5e-7657-476c-83f9-c27de858e328
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFPMediaItem interface [Media Foundation],IsProtected method, IMFPMediaItem.IsProtected, IMFPMediaItem::IsProtected, IsProtected, IsProtected method [Media Foundation], IsProtected method [Media Foundation],IMFPMediaItem interface, TRUE, mf.imfpmediaitem_isprotected, mfplay/IMFPMediaItem::IsProtected
-ms.topic: method
 f1_keywords:
 - mfplay/IMFPMediaItem.IsProtected
 dev_langs:

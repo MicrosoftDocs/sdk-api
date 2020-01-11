@@ -5,7 +5,6 @@ description: Retrieves the list of supported profiles.
 tech.root: mf
 ms.assetid: a6721430-bde7-473f-87de-8257bf621a8e
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES
 dev_langs:

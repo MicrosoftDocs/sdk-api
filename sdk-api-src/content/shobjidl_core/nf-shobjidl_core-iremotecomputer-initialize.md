@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 69bd0b90-dcb0-45a6-9144-294fcd2d29eb
 ms.date: 12/05/2018
 ms.keywords: IRemoteComputer interface [Windows Shell],Initialize method, IRemoteComputer.Initialize, IRemoteComputer::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IRemoteComputer interface, _win32_IRemoteComputer_Initialize, shell.IRemoteComputer_Initialize, shobjidl_core/IRemoteComputer::Initialize
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IRemoteComputer.Initialize
 dev_langs:

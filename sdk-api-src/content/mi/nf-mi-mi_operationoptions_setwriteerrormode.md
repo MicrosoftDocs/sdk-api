@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 5a6d764a-09a8-45fc-8d8d-468ea7ee5d59
 ms.date: 12/05/2018
 ms.keywords: MI_CALLBACKMODE_INQUIRE, MI_CALLBACKMODE_REPORT, MI_OperationOptions_SetWriteErrorMode, MI_OperationOptions_SetWriteErrorMode function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetWriteErrorMode, wmi_v2.mi_operationoptions_setwriteerrormode
-ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_SetWriteErrorMode
 dev_langs:

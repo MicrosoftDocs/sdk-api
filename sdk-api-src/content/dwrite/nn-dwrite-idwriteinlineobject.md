@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: cf915458-acbc-4a37-be5c-b1337153f386
 ms.date: 12/05/2018
 ms.keywords: IDWriteInlineObject, IDWriteInlineObject interface [Direct Write], IDWriteInlineObject interface [Direct Write],described, directwrite.IDWriteInlineObject, dwrite/IDWriteInlineObject
-ms.topic: interface
 f1_keywords:
 - dwrite/IDWriteInlineObject
 dev_langs:

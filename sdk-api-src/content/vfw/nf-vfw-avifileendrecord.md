@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 0f04c384-7702-43d4-9c7e-e9e74d6f2796
 ms.date: 12/05/2018
 ms.keywords: AVIFileEndRecord, AVIFileEndRecord function [Windows Multimedia], _win32_AVIFileEndRecord, multimedia.avifileendrecord, vfw/AVIFileEndRecord
-ms.topic: function
 f1_keywords:
 - vfw/AVIFileEndRecord
 dev_langs:

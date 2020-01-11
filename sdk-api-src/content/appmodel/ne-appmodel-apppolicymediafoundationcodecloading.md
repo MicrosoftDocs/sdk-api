@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 23572AF3-DD47-41A7-9C55-A4E36BB55541
 ms.date: 12/05/2018
 ms.keywords: AppPolicyMediaFoundationCodecLoading, AppPolicyMediaFoundationCodecLoading enumeration [App packaging and management], AppPolicyMediaFoundationCodecLoading_All, AppPolicyMediaFoundationCodecLoading_InboxOnly, appmodel/AppPolicyMediaFoundationCodecLoading, appmodel/AppPolicyMediaFoundationCodecLoading_All, appmodel/AppPolicyMediaFoundationCodecLoading_InboxOnly, appxpkg.apppolicymediafoundationcodecloading
-ms.topic: enum
 f1_keywords:
 - appmodel/AppPolicyMediaFoundationCodecLoading
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 253f26c6-b5dd-4837-9135-96e11b4688c8
 ms.date: 12/05/2018
 ms.keywords: ContextSensitiveHelp, ContextSensitiveHelp method [COM], ContextSensitiveHelp method [COM],IOleWindow interface, IOleInPlaceSiteWindowless.ContextSensitiveHelp, IOleWindow interface [COM],ContextSensitiveHelp method, IOleWindow.ContextSensitiveHelp, IOleWindow::ContextSensitiveHelp, _ole_iolewindow_contextsensitivehelp, com.iolewindow_contextsensitivehelp, oleidl/IOleWindow::ContextSensitiveHelp
-ms.topic: method
 f1_keywords:
 - oleidl/IOleWindow.ContextSensitiveHelp
 dev_langs:

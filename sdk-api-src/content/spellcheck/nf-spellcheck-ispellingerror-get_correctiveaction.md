@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 9b28d194-01a3-4ea2-8428-d2e91e6abad8
 ms.date: 12/05/2018
 ms.keywords: CorrectiveAction property [Internationalization for Windows Applications], CorrectiveAction property [Internationalization for Windows Applications],ISpellingError interface, ISpellingError interface [Internationalization for Windows Applications],CorrectiveAction property, ISpellingError.CorrectiveAction, ISpellingError.get_CorrectiveAction, ISpellingError::CorrectiveAction, ISpellingError::get_CorrectiveAction, get_CorrectiveAction, intl.ispellingerror_correctiveaction, spellcheck/ISpellingError::CorrectiveAction, spellcheck/ISpellingError::get_CorrectiveAction
-ms.topic: method
 f1_keywords:
 - spellcheck/ISpellingError.CorrectiveAction
 dev_langs:

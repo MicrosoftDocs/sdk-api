@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 3c650b21-56dc-4ef5-b986-417a247b3eb0
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Device_ID_List_Size, CM_Get_Device_ID_List_Size function [Device and Driver Installation], CM_Get_Device_ID_List_SizeA, CM_Get_Device_ID_List_SizeW, cfgmgr32/CM_Get_Device_ID_List_Size, cfgmgr32/CM_Get_Device_ID_List_SizeA, cfgmgr32/CM_Get_Device_ID_List_SizeW, cfgmgrfn_b3d09a40-04c8-4b59-9e33-cd8b7a41972d.xml, devinst.cm_get_device_id_list_size
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Get_Device_ID_List_Size
 dev_langs:

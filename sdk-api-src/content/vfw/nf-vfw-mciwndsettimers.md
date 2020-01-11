@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 0a1b1c87-714b-438f-b865-5f5798cb4cf3
 ms.date: 12/05/2018
 ms.keywords: MCIWndSetTimers, MCIWndSetTimers macro [Windows Multimedia], _win32_MCIWndSetTimers, multimedia.mciwndsettimers, vfw/MCIWndSetTimers
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndSetTimers
 dev_langs:

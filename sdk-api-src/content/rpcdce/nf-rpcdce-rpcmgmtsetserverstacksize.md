@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 5cf04ff5-d25b-42f5-a14e-2e73225765e9
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtSetServerStackSize, RpcMgmtSetServerStackSize function [RPC], _rpc_rpcmgmtsetserverstacksize, rpc.rpcmgmtsetserverstacksize, rpcdce/RpcMgmtSetServerStackSize
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcMgmtSetServerStackSize
 dev_langs:

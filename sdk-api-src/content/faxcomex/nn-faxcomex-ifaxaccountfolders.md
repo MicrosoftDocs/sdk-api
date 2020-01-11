@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountfolders\faxint_ifaxaccountfolders.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountFolders, IFaxAccountFolders interface [Fax Service], IFaxAccountFolders interface [Fax Service],described, _mfax_faxaccountfolders_cpp, fax._mfax_faxaccountfolders_cpp, faxcomex/IFaxAccountFolders
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxAccountFolders
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat4x3(const XMFLOAT4X3)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadFloat4x3, XMLoadFloat4x3, XMLoadFloat4x3 method [DirectX Math Support APIs], dxmath.xmloadfloat4x3
-ms.topic: function
 f1_keywords:
 - directxmath/XMLoadFloat4x3
 dev_langs:

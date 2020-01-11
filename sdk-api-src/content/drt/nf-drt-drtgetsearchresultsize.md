@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: ef17c42e-4cf9-4b5c-b6ef-430500fddff2
 ms.date: 12/05/2018
 ms.keywords: DrtGetSearchResultSize, DrtGetSearchResultSize function [Peer Networking], drt/DrtGetSearchResultSize, p2p.drtgetsearchresultsize
-ms.topic: function
 f1_keywords:
 - drt/DrtGetSearchResultSize
 dev_langs:

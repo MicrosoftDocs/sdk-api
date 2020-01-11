@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: f7c955af-97ec-4c27-a9de-d1498398608e
 ms.date: 12/05/2018
 ms.keywords: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0, IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0 structure [Filtering], fwp.ipsec_aggregate_drop_packet_statistics0_struct, ipsectypes/IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0
-ms.topic: struct
 f1_keywords:
 - ipsectypes/IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0
 dev_langs:

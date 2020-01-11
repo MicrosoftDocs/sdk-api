@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: CACEFB80-A47E-45A7-9E13-29C1326B9453
 ms.date: 12/05/2018
 ms.keywords: WindowsCreateString, WindowsCreateString function [Windows Runtime], winrt.windowscreatestring, winstring/WindowsCreateString
-ms.topic: function
 f1_keywords:
 - winstring/WindowsCreateString
 dev_langs:

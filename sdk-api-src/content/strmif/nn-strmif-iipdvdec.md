@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0e40841a-e297-4c05-aefa-7131de9c6a97
 ms.date: 12/05/2018
 ms.keywords: IIPDVDec, IIPDVDec interface [DirectShow], IIPDVDec interface [DirectShow],described, IIPDVDecInterface, dshow.iipdvdec, strmif/IIPDVDec
-ms.topic: interface
 f1_keywords:
 - strmif/IIPDVDec
 dev_langs:

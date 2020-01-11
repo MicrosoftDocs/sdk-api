@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: C71C0A78-C3D1-4725-99E2-542786B03C8F
 ms.date: 12/05/2018
 ms.keywords: AsyncOperationComplete, AsyncOperationComplete method [UPnP APIs], AsyncOperationComplete method [UPnP APIs],IUPnPAsyncResult interface, IUPnPAsyncResult interface [UPnP APIs],AsyncOperationComplete method, IUPnPAsyncResult.AsyncOperationComplete, IUPnPAsyncResult::AsyncOperationComplete, upnp.iupnpasyncresult_asyncoperationcomplete, upnp/IUPnPAsyncResult::AsyncOperationComplete
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPAsyncResult.AsyncOperationComplete
 dev_langs:

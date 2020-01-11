@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 49c8213c-e8a1-4cb8-9b58-120fc0982b7b
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesTransparentCacheInfo, IOfflineFilesTransparentCacheInfo interface [Offline Files], IOfflineFilesTransparentCacheInfo interface [Offline Files],described, cscobj/IOfflineFilesTransparentCacheInfo, of.iofflinefilestransparentcacheinfo
-ms.topic: interface
 f1_keywords:
 - cscobj/IOfflineFilesTransparentCacheInfo
 dev_langs:

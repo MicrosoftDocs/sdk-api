@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 39ec171e-24a0-40ff-b199-36b5a2809164
 ms.date: 12/05/2018
 ms.keywords: IShellItemFilter interface [Windows Shell],IncludeItem method, IShellItemFilter.IncludeItem, IShellItemFilter::IncludeItem, IncludeItem, IncludeItem method [Windows Shell], IncludeItem method [Windows Shell],IShellItemFilter interface, _shell_IShellItemFilter_IncludeItem, shell.IShellItemFilter_IncludeItem, shobjidl_core/IShellItemFilter::IncludeItem
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellItemFilter.IncludeItem
 dev_langs:

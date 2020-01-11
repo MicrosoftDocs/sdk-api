@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 35feb978-3859-423d-ac33-711b242ab939
 ms.date: 12/05/2018
 ms.keywords: RDITEMHDR, RDITEMHDR structure [MMC], _slate_rditemhdr, mmc.rditemhdr, mmc/RDITEMHDR
-ms.topic: struct
 f1_keywords:
 - mmc/RDITEMHDR
 dev_langs:

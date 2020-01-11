@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 29c8dbc0-052e-40f4-a036-cb647d920055
 ms.date: 12/05/2018
 ms.keywords: PrivacySetZonePreferenceW, PrivacySetZonePreferenceW function [WinINet], wininet.privacysetzonepreferencew, winineti/PrivacySetZonePreferenceW
-ms.topic: function
 f1_keywords:
 - wininet/PrivacySetZonePreferenceW
 dev_langs:

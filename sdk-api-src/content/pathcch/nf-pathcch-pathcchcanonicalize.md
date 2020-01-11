@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 25ff08b2-5978-4d44-9877-ba4230ef7d12
 ms.date: 12/05/2018
 ms.keywords: PathCchCanonicalize, PathCchCanonicalize function [Windows Shell], pathcch/PathCchCanonicalize, shell.PathCchCanonicalize
-ms.topic: function
 f1_keywords:
 - pathcch/PathCchCanonicalize
 dev_langs:

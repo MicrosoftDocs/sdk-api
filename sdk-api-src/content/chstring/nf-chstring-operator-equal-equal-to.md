@@ -5,7 +5,6 @@ description:
 ms.assetid: 2121ed0a-74e5-4e44-a20e-52f4f895a3ae
 ms.date: 05/20/2019
 ms.keywords: operator==
-ms.topic: language-reference
 f1_keywords:
 - chstring/operator==
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8363aa97-b7ca-458e-84d9-d9316070a3d0
 ms.date: 12/05/2018
 ms.keywords: GetDictionary, GetDictionary method [XPS Documents and Packaging], GetDictionary method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResource interface, IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging],GetDictionary method, IXpsOMRemoteDictionaryResource.GetDictionary, IXpsOMRemoteDictionaryResource::GetDictionary, xps.ixpsomremotedictionaryresource_getdictionary, xpsobjectmodel/IXpsOMRemoteDictionaryResource::GetDictionary
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMRemoteDictionaryResource.GetDictionary
 dev_langs:

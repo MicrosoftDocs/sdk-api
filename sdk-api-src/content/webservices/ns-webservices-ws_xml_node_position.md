@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 40ca058c-04e1-4358-b330-360a094a8791
 ms.date: 12/05/2018
 ms.keywords: WS_XML_NODE_POSITION, WS_XML_NODE_POSITION structure [Web Services for Windows], webservices/WS_XML_NODE_POSITION, wsw.ws_xml_node_position
-ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_NODE_POSITION
 dev_langs:

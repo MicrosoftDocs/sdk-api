@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvcustomdraw.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMTVCUSTOMDRAW, LPNMTVCUSTOMDRAW, LPNMTVCUSTOMDRAW structure pointer [Windows Controls], NMTVCUSTOMDRAW, NMTVCUSTOMDRAW structure [Windows Controls], _win32_NMTVCUSTOMDRAW, _win32_NMTVCUSTOMDRAW_cpp, commctrl/LPNMTVCUSTOMDRAW, commctrl/NMTVCUSTOMDRAW, controls.NMTVCUSTOMDRAW, controls._win32_NMTVCUSTOMDRAW'
-ms.topic: struct
 f1_keywords:
 - commctrl/NMTVCUSTOMDRAW
 dev_langs:

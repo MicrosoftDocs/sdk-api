@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 9d2c4e6f-aa12-4874-a8e0-ca21a981b43f
 ms.date: 12/05/2018
 ms.keywords: IServiceThreadPoolConfig interface [COM+],SetBindingInfo method, IServiceThreadPoolConfig.SetBindingInfo, IServiceThreadPoolConfig::SetBindingInfo, SetBindingInfo, SetBindingInfo method [COM+], SetBindingInfo method [COM+],IServiceThreadPoolConfig interface, _cos_IServiceThreadPoolConfig_SetBindingInfo, comsvcs/IServiceThreadPoolConfig::SetBindingInfo, cos.iservicethreadpoolconfig_setbindinginfo
-ms.topic: method
 f1_keywords:
 - comsvcs/IServiceThreadPoolConfig.SetBindingInfo
 dev_langs:

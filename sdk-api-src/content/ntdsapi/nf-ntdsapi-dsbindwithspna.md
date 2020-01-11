@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 9a149654-fd94-4b0c-b712-07fb827bef2f
 ms.date: 12/05/2018
 ms.keywords: DsBindWithSpn, DsBindWithSpn function [Active Directory], DsBindWithSpnA, DsBindWithSpnW, _glines_dsbindwithspn, ad.dsbindwithspn, ntdsapi/DsBindWithSpn, ntdsapi/DsBindWithSpnA, ntdsapi/DsBindWithSpnW
-ms.topic: function
 f1_keywords:
 - ntdsapi/DsBindWithSpn
 dev_langs:

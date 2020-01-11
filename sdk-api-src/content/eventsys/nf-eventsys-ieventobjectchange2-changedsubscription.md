@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 848d5af0-53aa-4ba4-9b21-0caf8e85d01d
 ms.date: 12/05/2018
 ms.keywords: ChangedSubscription, ChangedSubscription method [COM+], ChangedSubscription method [COM+],IEventObjectChange2 interface, IEventObjectChange2 interface [COM+],ChangedSubscription method, IEventObjectChange2.ChangedSubscription, IEventObjectChange2::ChangedSubscription, _cos_ieventobjectchange2_changedsubscription, cos.ieventobjectchange2_changedsubscription, eventsys/IEventObjectChange2::ChangedSubscription
-ms.topic: method
 f1_keywords:
 - eventsys/IEventObjectChange2.ChangedSubscription
 dev_langs:

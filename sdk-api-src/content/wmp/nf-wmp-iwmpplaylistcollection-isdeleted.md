@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: ac3e3401-ac7e-44d2-9680-5abe69678fc7
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],isDeleted method, IWMPPlaylistCollection.isDeleted, IWMPPlaylistCollection::isDeleted, IWMPPlaylistCollectionisDeleted, isDeleted, isDeleted method [Windows Media Player], isDeleted method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_isdeleted, wmp/IWMPPlaylistCollection::isDeleted
-ms.topic: method
 f1_keywords:
 - wmp/IWMPPlaylistCollection.isDeleted
 dev_langs:

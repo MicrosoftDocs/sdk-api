@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 853885cf-36cc-402a-96a8-bc44701fc0a4
 ms.date: 12/05/2018
 ms.keywords: GetFutureUse1, GetFutureUse1 method [Microsoft TV Technologies], GetFutureUse1 method [Microsoft TV Technologies],IIsdbHierarchicalTransmissionDescriptor interface, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],GetFutureUse1 method, IIsdbHierarchicalTransmissionDescriptor.GetFutureUse1, IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1, mstv.iisdbhierarchicaltransmissiondescriptor_getfutureuse1
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbHierarchicalTransmissionDescriptor.GetFutureUse1
 dev_langs:

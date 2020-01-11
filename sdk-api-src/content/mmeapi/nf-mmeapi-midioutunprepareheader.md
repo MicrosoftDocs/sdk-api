@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: c36fdd79-afd4-42ce-b251-d0630243af77
 ms.date: 12/05/2018
 ms.keywords: _win32_midiOutUnprepareHeader, midiOutUnprepareHeader, midiOutUnprepareHeader function [Windows Multimedia], mmeapi/midiOutUnprepareHeader, multimedia.midioutunprepareheader
-ms.topic: function
 f1_keywords:
 - mmeapi/midiOutUnprepareHeader
 dev_langs:

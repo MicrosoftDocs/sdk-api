@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: a82dbc70-783a-4061-9526-dd19f94d843b
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [ICS/ICF], Clone method [ICS/ICF],IEnumNetSharingPrivateConnection interface, IEnumNetSharingPrivateConnection interface [ICS/ICF],Clone method, IEnumNetSharingPrivateConnection.Clone, IEnumNetSharingPrivateConnection::Clone, _ics_ienumnetsharingprivateconnection_clone, ics.ienumnetsharingprivateconnection_clone, netcon/IEnumNetSharingPrivateConnection::Clone
-ms.topic: method
 f1_keywords:
 - netcon/IEnumNetSharingPrivateConnection.Clone
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 579C2425-9C3E-4CFF-8A25-C661670FB636
 ms.date: 12/05/2018
 ms.keywords: GetParentAccessible, GetParentAccessible method [Windows Accessibility], GetParentAccessible method [Windows Accessibility],IAccessibleWindowlessSite interface, IAccessibleWindowlessSite interface [Windows Accessibility],GetParentAccessible method, IAccessibleWindowlessSite.GetParentAccessible, IAccessibleWindowlessSite::GetParentAccessible, oleacc/IAccessibleWindowlessSite::GetParentAccessible, winauto.uiauto_IAccessibleWindowlessSite_GetParentAccessible
-ms.topic: method
 f1_keywords:
 - oleacc/IAccessibleWindowlessSite.GetParentAccessible
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionisvisiblemethods\isvisible_11pointfamppoint_graphicsg.htm
 ms.date: 12/05/2018
 ms.keywords: IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],Region class, Region class [GDI+],IsVisible method, Region.IsVisible, Region.IsVisible(IN const PointF &,IN const Graphics), Region.IsVisible(const PointF&,const Graphics*), Region::IsVisible, Region::IsVisible(IN const PointF &,IN const Graphics), _gdiplus_CLASS_Region_IsVisible_PointF_point_Graphics_g_, gdiplus._gdiplus_CLASS_Region_IsVisible_PointF_point_Graphics_g_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Region.IsVisible
 dev_langs:

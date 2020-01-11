@@ -4,7 +4,6 @@ title: BoundingSphere::Transform
 description: Transforms the BoundingSphere.
 ms.date: 04/22/19
 ms.keywords: BoundingSphere::Transform
-ms.topic: language-reference
 f1_keywords:
 - directxcollision/BoundingSphere::Transform
 dev_langs:

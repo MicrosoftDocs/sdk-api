@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 69382815-845d-402a-9a0a-fcc478dd21b2
 ms.date: 12/05/2018
 ms.keywords: WBEMPATH_QUOTEDTEXT, WBEMPATH_TEXT, tag_WBEM_GET_KEY_FLAGS, tag_WBEM_GET_KEY_FLAGS enumeration [Windows Management Instrumentation], wmi.tag_wbem_get_key_flags, wmiutils/WBEMPATH_QUOTEDTEXT, wmiutils/WBEMPATH_TEXT, wmiutils/tag_WBEM_GET_KEY_FLAGS
-ms.topic: enum
 f1_keywords:
 - wmiutils/tag_WBEM_GET_KEY_FLAGS
 dev_langs:

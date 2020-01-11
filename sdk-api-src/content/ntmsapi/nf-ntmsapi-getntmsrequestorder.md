@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: 68617846-63c7-4a47-887a-ee49705753ce
 ms.date: 12/05/2018
 ms.keywords: GetNtmsRequestOrder, GetNtmsRequestOrder function [Files], _zaw_getntmsrequestorder, base.getntmsrequestorder, fs.getntmsrequestorder, ntmsapi/GetNtmsRequestOrder
-ms.topic: function
 f1_keywords:
 - ntmsapi/GetNtmsRequestOrder
 dev_langs:

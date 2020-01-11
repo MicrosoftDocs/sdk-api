@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMComparisonMixed(uint32_t)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMComparisonMixed, XMComparisonMixed, XMComparisonMixed method [DirectX Math Support APIs], dxmath.xmcomparisonmixed
-ms.topic: function
 f1_keywords:
 - directxmath/XMComparisonMixed
 dev_langs:

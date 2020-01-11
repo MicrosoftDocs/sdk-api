@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 8975a42e-69f8-43b8-8c02-2f03a4dde29f
 ms.date: 12/05/2018
 ms.keywords: GetRecordServiceType, GetRecordServiceType method [Microsoft TV Technologies], GetRecordServiceType method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordServiceType method, IATSC_VCT.GetRecordServiceType, IATSC_VCT::GetRecordServiceType, IATSC_VCTGetRecordServiceType, atscpsipparser/IATSC_VCT::GetRecordServiceType, mstv.iatsc_vct_getrecordservicetype
-ms.topic: method
 f1_keywords:
 - atscpsipparser/IATSC_VCT.GetRecordServiceType
 dev_langs:

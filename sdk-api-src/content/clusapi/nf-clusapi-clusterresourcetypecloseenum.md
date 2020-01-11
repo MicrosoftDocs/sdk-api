@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: c6524604-7a73-414c-95bb-dce9524f3295
 ms.date: 12/05/2018
 ms.keywords: ClusterResourceTypeCloseEnum, ClusterResourceTypeCloseEnum function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM, PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM function [Failover Cluster], _wolf_clusterresourcetypecloseenum, clusapi/ClusterResourceTypeCloseEnum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM, mscs.clusterresourcetypecloseenum
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterResourceTypeCloseEnum
 dev_langs:

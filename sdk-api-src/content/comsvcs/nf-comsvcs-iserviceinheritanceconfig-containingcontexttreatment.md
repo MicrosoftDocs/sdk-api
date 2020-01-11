@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 05009c50-1d39-46f7-b549-281342d07f5b
 ms.date: 12/05/2018
 ms.keywords: ContainingContextTreatment, ContainingContextTreatment method [COM+], ContainingContextTreatment method [COM+],IServiceInheritanceConfig interface, IServiceInheritanceConfig interface [COM+],ContainingContextTreatment method, IServiceInheritanceConfig.ContainingContextTreatment, IServiceInheritanceConfig::ContainingContextTreatment, _cos_IServiceInheritanceConfig_ContainingContextTreatment, comsvcs/IServiceInheritanceConfig::ContainingContextTreatment, cos.iserviceinheritanceconfig_containingcontexttreatment
-ms.topic: method
 f1_keywords:
 - comsvcs/IServiceInheritanceConfig.ContainingContextTreatment
 dev_langs:

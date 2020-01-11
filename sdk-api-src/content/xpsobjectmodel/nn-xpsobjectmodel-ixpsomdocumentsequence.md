@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 472095a4-ecd8-406a-97c2-1a34b4e5184a
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocumentSequence, IXpsOMDocumentSequence interface [XPS Documents and Packaging], IXpsOMDocumentSequence interface [XPS Documents and Packaging],described, xps.ixpsomdocumentsequence, xpsobjectmodel/IXpsOMDocumentSequence
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMDocumentSequence
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 37dc50a0-530c-4b31-b766-9e161b04c6d5
 ms.date: 12/05/2018
 ms.keywords: CreateCategory, CreateCategory method [DirectShow], CreateCategory method [DirectShow],IFilterMapper2 interface, IFilterMapper2 interface [DirectShow],CreateCategory method, IFilterMapper2.CreateCategory, IFilterMapper2::CreateCategory, IFilterMapper2CreateCategory, dshow.ifiltermapper2_createcategory, strmif/IFilterMapper2::CreateCategory
-ms.topic: method
 f1_keywords:
 - strmif/IFilterMapper2.CreateCategory
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c903096f-f15f-4a36-8efc-20cf7102e77d
 ms.date: 12/05/2018
 ms.keywords: OleLoadPictureEx, OleLoadPictureEx function [COM], _ole_OleLoadPictureEx, com.oleloadpictureex, olectl/OleLoadPictureEx
-ms.topic: function
 f1_keywords:
 - olectl/OleLoadPictureEx
 dev_langs:

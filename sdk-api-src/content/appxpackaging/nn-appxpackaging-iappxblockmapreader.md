@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 233539FD-E3BE-4783-9F23-B34F6397FBBE
 ms.date: 12/05/2018
 ms.keywords: IAppxBlockMapReader, IAppxBlockMapReader interface [App packaging and management], IAppxBlockMapReader interface [App packaging and management],described, appxpackaging/IAppxBlockMapReader, appxpkg.iappxblockmapreader
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxBlockMapReader
 dev_langs:

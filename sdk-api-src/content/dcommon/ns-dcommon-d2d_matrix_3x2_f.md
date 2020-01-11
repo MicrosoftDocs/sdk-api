@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: c8a54bad-4376-479b-8529-1e407623e473
 ms.date: 12/05/2018
 ms.keywords: D2D1_MATRIX_3X2_F, D2D_MATRIX_3X2_F, D2D_MATRIX_3X2_F structure [Direct2D], dcommon/D2D_MATRIX_3X2_F, direct2d.D2D_MATRIX_3X2_F
-ms.topic: struct
 f1_keywords:
 - dcommon/D2D_MATRIX_3X2_F
 dev_langs:

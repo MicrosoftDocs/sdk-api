@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effectclass\effectconstructors\effect.htm
 ms.date: 12/05/2018
 ms.keywords: Effect, Effect class [GDI+],Effect constructor, Effect constructor [GDI+], Effect constructor [GDI+],Effect class, Effect.Effect, Effect::Effect, _gdiplus_CLASS_Effect_Effect_, gdiplus._gdiplus_CLASS_Effect_Effect_
-ms.topic: method
 f1_keywords:
 - gdipluseffects/Effect.Effect
 dev_langs:

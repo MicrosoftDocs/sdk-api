@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 4b23f6c5-cacc-41e2-8934-6f95208b999a
 ms.date: 12/05/2018
 ms.keywords: GetOverhangMetrics, GetOverhangMetrics method [Direct Write], GetOverhangMetrics method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetOverhangMetrics method, IDWriteTextLayout.GetOverhangMetrics, IDWriteTextLayout::GetOverhangMetrics, directwrite.idwritetextlayout_getoverhangmetrics, dwrite/IDWriteTextLayout::GetOverhangMetrics
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextLayout.GetOverhangMetrics
 dev_langs:

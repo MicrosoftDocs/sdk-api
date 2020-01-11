@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: BA36B91C-C6B8-43B8-BEDA-0089FAE1BAAD
 ms.date: 12/05/2018
 ms.keywords: CreateInMemoryFontFileLoader, CreateInMemoryFontFileLoader method [Direct Write], CreateInMemoryFontFileLoader method [Direct Write],IDWriteFactory5 interface, IDWriteFactory5 interface [Direct Write],CreateInMemoryFontFileLoader method, IDWriteFactory5.CreateInMemoryFontFileLoader, IDWriteFactory5::CreateInMemoryFontFileLoader, directwrite.idwritefactory5_createinmemoryfontfileloader, dwrite_3/IDWriteFactory5::CreateInMemoryFontFileLoader
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFactory5.CreateInMemoryFontFileLoader
 dev_langs:

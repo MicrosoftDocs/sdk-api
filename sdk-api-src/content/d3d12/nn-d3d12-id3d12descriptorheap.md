@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: B6FF011B-3FED-425B-B9D5-A823E6915FD5
 ms.date: 12/05/2018
 ms.keywords: ID3D12DescriptorHeap, ID3D12DescriptorHeap interface, ID3D12DescriptorHeap interface,described, d3d12/ID3D12DescriptorHeap, direct3d12.id3d12descriptorheap
-ms.topic: interface
 f1_keywords:
 - d3d12/ID3D12DescriptorHeap
 dev_langs:

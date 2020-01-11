@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: eddef5db-432d-4615-9f0f-a712dffe42ab
 ms.date: 12/05/2018
 ms.keywords: WS_XML_NODE_TYPE, WS_XML_NODE_TYPE enumeration [Web Services for Windows], WS_XML_NODE_TYPE_BOF, WS_XML_NODE_TYPE_CDATA, WS_XML_NODE_TYPE_COMMENT, WS_XML_NODE_TYPE_ELEMENT, WS_XML_NODE_TYPE_END_CDATA, WS_XML_NODE_TYPE_END_ELEMENT, WS_XML_NODE_TYPE_EOF, WS_XML_NODE_TYPE_TEXT, webservices/WS_XML_NODE_TYPE, webservices/WS_XML_NODE_TYPE_BOF, webservices/WS_XML_NODE_TYPE_CDATA, webservices/WS_XML_NODE_TYPE_COMMENT, webservices/WS_XML_NODE_TYPE_ELEMENT, webservices/WS_XML_NODE_TYPE_END_CDATA, webservices/WS_XML_NODE_TYPE_END_ELEMENT, webservices/WS_XML_NODE_TYPE_EOF, webservices/WS_XML_NODE_TYPE_TEXT, wsw.ws_xml_node_type
-ms.topic: enum
 f1_keywords:
 - webservices/WS_XML_NODE_TYPE
 dev_langs:

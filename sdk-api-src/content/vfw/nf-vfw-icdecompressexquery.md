@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 6a1aa686-7f3d-43be-baaa-d20ea4a33f9b
 ms.date: 12/05/2018
 ms.keywords: ICDecompressExQuery, ICDecompressExQuery function [Windows Multimedia], _win32_ICDecompressExQuery, multimedia.icdecompressexquery, vfw/ICDecompressExQuery
-ms.topic: function
 f1_keywords:
 - vfw/ICDecompressExQuery
 dev_langs:

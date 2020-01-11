@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 0AD341B6-DA74-417B-9F2F-20557B090F49
 ms.date: 12/05/2018
 ms.keywords: PrintControlProperties, PrintControlProperties function [Direct2D], d2d1_1helper/PrintControlProperties, direct2d.printcontrolproperties
-ms.topic: function
 f1_keywords:
 - d2d1_1helper/PrintControlProperties
 dev_langs:

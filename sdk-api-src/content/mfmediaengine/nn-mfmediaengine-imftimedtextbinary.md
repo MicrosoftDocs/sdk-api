@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: C76FAC0F-6C15-4874-BAE6-7315E1C3066E
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextBinary, IMFTimedTextBinary interface [Media Foundation], IMFTimedTextBinary interface [Media Foundation],described, mf.imftimedtextbinary, mfmediaengine/IMFTimedTextBinary
-ms.topic: interface
 f1_keywords:
 - mfmediaengine/IMFTimedTextBinary
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 42300501-2a64-4433-81e9-6ee3fc31b094
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],ProviderNameWStr property, IEnroll.ProviderNameWStr, IEnroll.put_ProviderNameWStr, IEnroll::ProviderNameWStr, IEnroll::get_ProviderNameWStr, IEnroll::put_ProviderNameWStr, ProviderNameWStr property [Security], ProviderNameWStr property [Security],IEnroll interface, put_ProviderNameWStr, security.ienroll4_providernamewstr, xenroll/IEnroll::ProviderNameWStr, xenroll/IEnroll::get_ProviderNameWStr, xenroll/IEnroll::put_ProviderNameWStr
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll.ProviderNameWStr
 dev_langs:

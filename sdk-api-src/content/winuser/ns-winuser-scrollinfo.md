@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarstructures\scrollinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPSCROLLINFO, LPCSCROLLINFO, LPCSCROLLINFO structure pointer [Windows Controls], SCROLLINFO, SCROLLINFO structure [Windows Controls], SIF_ALL, SIF_DISABLENOSCROLL, SIF_PAGE, SIF_POS, SIF_RANGE, SIF_TRACKPOS, _win32_SCROLLINFO_str, _win32_SCROLLINFO_str_cpp, controls.SCROLLINFO, controls._win32_SCROLLINFO_str, winuser/LPCSCROLLINFO, winuser/SCROLLINFO'
-ms.topic: struct
 f1_keywords:
 - winuser/SCROLLINFO
 dev_langs:

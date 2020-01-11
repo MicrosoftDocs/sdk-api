@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 2a77029b-fbae-49af-bd91-c688c11b3b16
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia3 interface [Windows Media Player],getItemInfoByType method, IWMPMedia3.getItemInfoByType, IWMPMedia3::getItemInfoByType, IWMPMedia3getItemInfoByType, getItemInfoByType, getItemInfoByType method [Windows Media Player], getItemInfoByType method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia3_getiteminfobytype, wmp/IWMPMedia3::getItemInfoByType
-ms.topic: method
 f1_keywords:
 - wmp/IWMPMedia3.getItemInfoByType
 dev_langs:

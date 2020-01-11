@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 2264BB6F-D2B7-49A8-959A-FA5AA935F6CC
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetAxisZ method, IDCompositionRotateTransform3D.SetAxisZ, IDCompositionRotateTransform3D.SetAxisZ(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAxisZ, IDCompositionRotateTransform3D::SetAxisZ(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAxisZ(IDCompositionAnimation*), SetAxisZ, SetAxisZ method [DirectComposition], SetAxisZ method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetAxisZ, directcomp.idcompositionrotatetransform3d_setaxisz_idcompositionanimation
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionRotateTransform3D.SetAxisZ
 dev_langs:

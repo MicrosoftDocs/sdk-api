@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 1bc965a5-6bc9-488a-a2f9-f35d0cfbcccd
 ms.date: 12/05/2018
 ms.keywords: ITuner, ITuner interface [Microsoft TV Technologies], ITuner interface [Microsoft TV Technologies],described, ITunerInterface, mstv.ituner, tuner/ITuner
-ms.topic: interface
 f1_keywords:
 - tuner/ITuner
 dev_langs:

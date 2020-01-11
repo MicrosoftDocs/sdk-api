@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 7d1fb0ed-cc32-4b38-8ff5-88c2cca4f375
 ms.date: 12/05/2018
 ms.keywords: GetNameInfoA, _win32_getnameinfo_2, getnameinfo, getnameinfo function [Winsock], winsock.getnameinfo_2, ws2tcpip/getnameinfo
-ms.topic: function
 f1_keywords:
 - ws2tcpip/getnameinfo
 dev_langs:

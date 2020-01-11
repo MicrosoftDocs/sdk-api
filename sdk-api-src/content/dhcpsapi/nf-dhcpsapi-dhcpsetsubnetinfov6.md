@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 6913881d-a7d5-4465-aadc-5a4dab1a28da
 ms.date: 12/05/2018
 ms.keywords: DhcpSetSubnetInfoV6, DhcpSetSubnetInfoV6 function [DHCP], dhcp.dhcpsetsubnetinfov6, dhcpsapi/DhcpSetSubnetInfoV6
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpSetSubnetInfoV6
 dev_langs:

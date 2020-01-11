@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: c4f48f1e-4a37-4330-908e-2ac5c65e1a1d
 ms.date: 12/05/2018
 ms.keywords: ReleaseDC, ReleaseDC function [Windows GDI], _win32_ReleaseDC, gdi.releasedc, winuser/ReleaseDC
-ms.topic: function
 f1_keywords:
 - winuser/ReleaseDC
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 978ea304-c44d-4f00-b86f-932bbd5f603c
 ms.date: 12/05/2018
 ms.keywords: ImmAssociateContext, ImmAssociateContext function [Internationalization for Windows Applications], _win32_ImmAssociateContext, imm/ImmAssociateContext, intl.immassociatecontext
-ms.topic: function
 f1_keywords:
 - immdev/ImmAssociateContext
 dev_langs:

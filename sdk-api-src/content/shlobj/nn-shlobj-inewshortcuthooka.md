@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5a097e96-178a-44bd-9d3d-ed53338b97d5
 ms.date: 12/05/2018
 ms.keywords: INewShortcutHook, INewShortcutHook interface [Windows Shell], INewShortcutHook interface [Windows Shell],described, INewShortcutHookA, INewShortcutHookW, _win32_INewShortcutHook, shell.INewShortcutHook, shlobj/INewShortcutHook
-ms.topic: interface
 f1_keywords:
 - shlobj/INewShortcutHook
 dev_langs:

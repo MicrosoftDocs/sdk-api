@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8f51e5c5-ac80-4f45-a0bb-ef19137fe391
 ms.date: 12/05/2018
 ms.keywords: GetDocumentType, GetDocumentType method [XPS Documents and Packaging], GetDocumentType method [XPS Documents and Packaging],IXpsOMPackage1 interface, IXpsOMPackage1 interface [XPS Documents and Packaging],GetDocumentType method, IXpsOMPackage1.GetDocumentType, IXpsOMPackage1::GetDocumentType, xps.ixpsompackage1_getdocumenttype, xpsobjectmodel_1/IXpsOMPackage1::GetDocumentType
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel_1/IXpsOMPackage1.GetDocumentType
 dev_langs:

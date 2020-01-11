@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemeparentbackground.htm
 ms.date: 12/05/2018
 ms.keywords: DrawThemeParentBackground, DrawThemeParentBackground function [Windows Controls], controls.DrawThemeParentBackground, controls.inet_DrawThemeParentBackground, inet_DrawThemeParentBackground, inet_DrawThemeParentBackground_cpp, uxtheme/DrawThemeParentBackground
-ms.topic: function
 f1_keywords:
 - uxtheme/DrawThemeParentBackground
 dev_langs:

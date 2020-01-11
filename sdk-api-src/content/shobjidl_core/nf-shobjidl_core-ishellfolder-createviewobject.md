@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8a1b73ad-6719-403a-a8aa-27bef537b7a9
 ms.date: 12/05/2018
 ms.keywords: CreateViewObject, CreateViewObject method [Windows Shell], CreateViewObject method [Windows Shell],IShellFolder interface, CreateViewObject method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],CreateViewObject method, IShellFolder.CreateViewObject, IShellFolder2 interface [Windows Shell],CreateViewObject method, IShellFolder2::CreateViewObject, IShellFolder::CreateViewObject, _win32_IShellFolder_CreateViewObject, shell.IShellFolder_CreateViewObject, shobjidl_core/IShellFolder2::CreateViewObject, shobjidl_core/IShellFolder::CreateViewObject
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellFolder.CreateViewObject
 dev_langs:

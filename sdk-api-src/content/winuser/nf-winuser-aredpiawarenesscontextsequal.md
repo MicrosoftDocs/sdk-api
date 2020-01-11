@@ -7,7 +7,6 @@ tech.root: hidpi
 ms.assetid: 77660CAB-97ED-4DAC-A95E-A149F1A479FD
 ms.date: 12/05/2018
 ms.keywords: AreDpiAwarenessContextsEqual, AreDpiAwarenessContextsEqual function [High DPI], hidpi.aredpiawarenesscontextsequal, winuser/AreDpiAwarenessContextsEqual
-ms.topic: function
 f1_keywords:
 - winuser/AreDpiAwarenessContextsEqual
 dev_langs:

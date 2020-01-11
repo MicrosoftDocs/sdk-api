@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: ac6f2ced-d60d-4472-8549-c52314375ac6
 ms.date: 12/05/2018
 ms.keywords: GetInclusionList, GetInclusionList method [windows Media Format], GetInclusionList method [windows Media Format],IWMDRMReader3 interface, IWMDRMReader3 interface [windows Media Format],GetInclusionList method, IWMDRMReader3.GetInclusionList, IWMDRMReader3::GetInclusionList, IWMDRMReader3GetInclusionList, wmformat.iwmdrmreader3_getinclusionlist, wmsdkidl/IWMDRMReader3::GetInclusionList
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDRMReader3.GetInclusionList
 dev_langs:

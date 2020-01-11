@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\iconditiongenerator.htm
 ms.date: 12/05/2018
 ms.keywords: IConditionGenerator, IConditionGenerator interface [search], IConditionGenerator interface [search],described, _search_IConditionGenerator, search._search_IConditionGenerator, structuredquery/IConditionGenerator
-ms.topic: interface
 f1_keywords:
 - structuredquery/IConditionGenerator
 dev_langs:

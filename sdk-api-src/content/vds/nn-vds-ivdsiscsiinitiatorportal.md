@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: ae64cc73-4f36-4846-a1c0-f329de6299ee
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiInitiatorPortal, IVdsIscsiInitiatorPortal interface [VDS], IVdsIscsiInitiatorPortal interface [VDS],described, base.ivdsiscsiinitiatorportal, vds/IVdsIscsiInitiatorPortal
-ms.topic: interface
 f1_keywords:
 - vds/IVdsIscsiInitiatorPortal
 dev_langs:

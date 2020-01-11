@@ -4,7 +4,6 @@ title: LPWSPGETSOCKOPT
 description: The LPWSPGetSockOpt function retrieves a socket option.
 ms.date: 9/12/2019
 ms.keywords: LPWSPGETSOCKOPT
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: 963f87c1-e128-4bd5-9f28-d49418f768fb
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor, IManipulationProcessor interface [Windows Touch], IManipulationProcessor interface [Windows Touch],described, manipulations/IManipulationProcessor, wintouch.imanipulationprocessor
-ms.topic: interface
 f1_keywords:
 - manipulations/IManipulationProcessor
 dev_langs:

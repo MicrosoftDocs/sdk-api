@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 6c1cb030-c6c7-4f91-a1ea-eebbec41813b
 ms.date: 12/05/2018
 ms.keywords: IComResourceEvents interface [COM+],OnResourceCreate method, IComResourceEvents.OnResourceCreate, IComResourceEvents::OnResourceCreate, OnResourceCreate, OnResourceCreate method [COM+], OnResourceCreate method [COM+],IComResourceEvents interface, _dtc_IComResourceEvents_OnResourceCreate, comsvcs/IComResourceEvents::OnResourceCreate, cos.icomresourceevents_onresourcecreate
-ms.topic: method
 f1_keywords:
 - comsvcs/IComResourceEvents.OnResourceCreate
 dev_langs:

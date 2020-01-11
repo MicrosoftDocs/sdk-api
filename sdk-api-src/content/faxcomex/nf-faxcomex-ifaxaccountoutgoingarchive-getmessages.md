@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingarchive\getmessages.htm
 ms.date: 12/05/2018
 ms.keywords: GetMessages, GetMessages method [Fax Service], GetMessages method [Fax Service],IFaxAccountOutgoingArchive interface, IFaxAccountOutgoingArchive interface [Fax Service],GetMessages method, IFaxAccountOutgoingArchive.GetMessages, IFaxAccountOutgoingArchive::GetMessages, _mfax_faxaccountoutgoingarchive.getmessages, fax._mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_getmessages_cpp, fax._mfax_faxaccountoutgoingarchive_getmessages, faxcomex/IFaxAccountOutgoingArchive::GetMessages
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxAccountOutgoingArchive.GetMessages
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 33a52126-8757-44d0-91e1-758f51e3d0f8
 ms.date: 12/05/2018
 ms.keywords: UIAutomationMethodInfo, UIAutomationMethodInfo structure [Windows Accessibility], uiauto.uiauto_UIAutomationMethodInfoStruct, uiauto_UIAutomationMethodInfoStruct, uiautomationcore/UIAutomationMethodInfo, winauto.uiauto_UIAutomationMethodInfoStruct
-ms.topic: struct
 f1_keywords:
 - uiautomationcore/UIAutomationMethodInfo
 dev_langs:

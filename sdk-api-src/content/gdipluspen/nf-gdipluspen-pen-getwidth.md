@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getwidth_36.htm
 ms.date: 12/05/2018
 ms.keywords: GetWidth, GetWidth method [GDI+], GetWidth method [GDI+],Pen class, Pen class [GDI+],GetWidth method, Pen.GetWidth, Pen::GetWidth, _gdiplus_CLASS_Pen_GetWidth_, gdiplus._gdiplus_CLASS_Pen_GetWidth_
-ms.topic: method
 f1_keywords:
 - gdipluspen/Pen.GetWidth
 dev_langs:

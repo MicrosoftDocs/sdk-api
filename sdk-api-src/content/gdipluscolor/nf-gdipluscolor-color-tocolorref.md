@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\tocolorref.htm
 ms.date: 12/05/2018
 ms.keywords: Color class [GDI+],ToCOLORREF method, Color.ToCOLORREF, Color::ToCOLORREF, ToCOLORREF, ToCOLORREF method [GDI+], ToCOLORREF method [GDI+],Color class, _gdiplus_CLASS_Color_ToCOLORREF_, gdiplus._gdiplus_CLASS_Color_ToCOLORREF_
-ms.topic: method
 f1_keywords:
 - gdipluscolor/Color.ToCOLORREF
 dev_langs:

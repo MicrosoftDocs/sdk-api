@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 801dc601-9d1d-4f7d-acf0-b36ea2314d70
 ms.date: 12/05/2018
 ms.keywords: GopherFindFirstFile, GopherFindFirstFile function [WinINet], GopherFindFirstFileA, GopherFindFirstFileW, _inet_gopherfindfirstfile_function, wininet.gopherfindfirstfile, wininet/GopherFindFirstFile, wininet/GopherFindFirstFileA, wininet/GopherFindFirstFileW
-ms.topic: function
 f1_keywords:
 - wininet/GopherFindFirstFile
 dev_langs:

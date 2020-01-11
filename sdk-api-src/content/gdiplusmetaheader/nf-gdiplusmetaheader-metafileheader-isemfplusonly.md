@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\isemfplusonly.htm
 ms.date: 12/05/2018
 ms.keywords: IsEmfPlusOnly, IsEmfPlusOnly method [GDI+], IsEmfPlusOnly method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],IsEmfPlusOnly method, MetafileHeader.IsEmfPlusOnly, MetafileHeader::IsEmfPlusOnly, _gdiplus_CLASS_MetafileHeader_IsEmfPlusOnly_, gdiplus._gdiplus_CLASS_MetafileHeader_IsEmfPlusOnly_
-ms.topic: method
 f1_keywords:
 - gdiplusmetaheader/MetafileHeader.IsEmfPlusOnly
 dev_langs:

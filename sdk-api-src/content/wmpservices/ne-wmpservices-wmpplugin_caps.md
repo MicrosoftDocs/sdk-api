@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 0f6cad76-7583-4272-88d7-25a121a0c2b9
 ms.date: 12/05/2018
 ms.keywords: WMPPlugin_Caps, WMPPlugin_Caps enumeration [Windows Media Player], WMPPlugin_CapsDSP, WMPPlugin_Caps_CannotConvertFormats, wmp.wmpplugin_caps, wmpservices/WMPPlugin_Caps, wmpservices/WMPPlugin_Caps_CannotConvertFormats
-ms.topic: enum
 f1_keywords:
 - wmpservices/WMPPlugin_Caps
 dev_langs:

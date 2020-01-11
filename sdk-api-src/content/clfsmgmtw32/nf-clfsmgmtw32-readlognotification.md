@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: 08931011-511b-471b-9a4a-ebc96e963c51
 ms.date: 12/05/2018
 ms.keywords: ReadLogNotification, ReadLogNotification function [Files], clfsmgmtw32/ReadLogNotification, fs.readlognotification
-ms.topic: function
 f1_keywords:
 - clfsmgmtw32/ReadLogNotification
 dev_langs:

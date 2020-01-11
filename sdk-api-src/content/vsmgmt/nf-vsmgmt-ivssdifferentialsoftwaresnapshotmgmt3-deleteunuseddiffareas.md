@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: daa23f2c-8342-4387-800a-def5951896ee
 ms.date: 12/05/2018
 ms.keywords: DeleteUnusedDiffAreas, DeleteUnusedDiffAreas method, DeleteUnusedDiffAreas method,IVssDifferentialSoftwareSnapshotMgmt3 interface, IVssDifferentialSoftwareSnapshotMgmt3 interface,DeleteUnusedDiffAreas method, IVssDifferentialSoftwareSnapshotMgmt3.DeleteUnusedDiffAreas, IVssDifferentialSoftwareSnapshotMgmt3::DeleteUnusedDiffAreas, base.ivssdifferentialsoftwaresnapshotmgmt3_deleteunuseddiffareas, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::DeleteUnusedDiffAreas
-ms.topic: method
 f1_keywords:
 - vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3.DeleteUnusedDiffAreas
 dev_langs:

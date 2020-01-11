@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 98ece2f3-36c4-4bb2-9a06-c3ce57cbcbe7
 ms.date: 12/05/2018
 ms.keywords: IWMPError interface [Windows Media Player],webHelp method, IWMPError.webHelp, IWMPError::webHelp, IWMPErrorwebHelp, webHelp, webHelp method [Windows Media Player], webHelp method [Windows Media Player],IWMPError interface, wmp.iwmperror_webhelp, wmp/IWMPError::webHelp
-ms.topic: method
 f1_keywords:
 - wmp/IWMPError.webHelp
 dev_langs:

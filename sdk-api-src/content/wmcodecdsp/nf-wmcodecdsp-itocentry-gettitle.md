@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: d610e9e8-daa4-4d8c-a640-627b23afd316
 ms.date: 12/05/2018
 ms.keywords: GetTitle, GetTitle method [Media Foundation], GetTitle method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetTitle method, ITocEntry.GetTitle, ITocEntry::GetTitle, codecapi.itocentry_gettitle, mf.itocentry_gettitle, wmcodecdsp/ITocEntry::GetTitle
-ms.topic: method
 f1_keywords:
 - wmcodecdsp/ITocEntry.GetTitle
 dev_langs:

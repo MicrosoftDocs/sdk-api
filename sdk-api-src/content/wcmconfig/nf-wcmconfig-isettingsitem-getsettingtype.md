@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: d222939f-9295-4751-8b32-586fa9930177
 ms.date: 12/05/2018
 ms.keywords: GetSettingType, GetSettingType method [SMI], GetSettingType method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetSettingType method, ISettingsItem.GetSettingType, ISettingsItem::GetSettingType, smi.isettingsitem_getsettingtype, wcmconfig/ISettingsItem::GetSettingType
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsItem.GetSettingType
 dev_langs:

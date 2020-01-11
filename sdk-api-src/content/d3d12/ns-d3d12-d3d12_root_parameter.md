@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: CC1DFE85-7F83-4551-86C6-1AFDF746FC92
 ms.date: 12/05/2018
 ms.keywords: D3D12_ROOT_PARAMETER, D3D12_ROOT_PARAMETER structure, d3d12/D3D12_ROOT_PARAMETER, direct3d12.d3d12_root_parameter
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_ROOT_PARAMETER
 dev_langs:

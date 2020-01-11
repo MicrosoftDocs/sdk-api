@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 589f416d-058a-4711-863f-74b0dacc63eb
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationUnregisterForAppContainerChanges, NetworkIsolationUnregisterForAppContainerChanges function [ICS/ICF], ics.networkisolationunregisterforappcontainerchanges, networkisolation/NetworkIsolationUnregisterForAppContainerChanges
-ms.topic: function
 f1_keywords:
 - netfw/NetworkIsolationUnregisterForAppContainerChanges
 dev_langs:

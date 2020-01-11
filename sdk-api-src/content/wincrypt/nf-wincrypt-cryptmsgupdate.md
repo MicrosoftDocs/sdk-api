@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: d27d75f0-1646-4926-b375-59e52b00326c
 ms.date: 12/05/2018
 ms.keywords: CryptMsgUpdate, CryptMsgUpdate function [Security], _crypto2_cryptmsgupdate, security.cryptmsgupdate, wincrypt/CryptMsgUpdate
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptMsgUpdate
 dev_langs:

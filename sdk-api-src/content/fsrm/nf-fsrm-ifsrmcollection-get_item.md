@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 95d35117-b9fb-46ae-b392-aa0c12717359
 ms.date: 12/05/2018
 ms.keywords: IFsrmCollection interface [File Server Resource Manager],Item property, IFsrmCollection.Item, IFsrmCollection.get_Item, IFsrmCollection::Item, IFsrmCollection::get_Item, Item property [File Server Resource Manager], Item property [File Server Resource Manager],IFsrmCollection interface, fs.ifsrmcollection_item, fsrm.ifsrmcollection_item, fsrm/IFsrmCollection::Item, fsrm/IFsrmCollection::get_Item, get_Item
-ms.topic: method
 f1_keywords:
 - fsrm/IFsrmCollection.Item
 dev_langs:

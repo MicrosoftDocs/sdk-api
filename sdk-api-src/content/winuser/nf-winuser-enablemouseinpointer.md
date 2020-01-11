@@ -7,7 +7,6 @@ tech.root: InputMsg
 ms.assetid: 66D9BF17-164F-455F-803F-36CDF88C34FF
 ms.date: 12/05/2018
 ms.keywords: EnableMouseInPointer, EnableMouseInPointer function [Keyboard and Mouse Input], inputdev.enablemouseinpointer, inputmsg.enablemouseinpointer, winuser/EnableMouseInPointer
-ms.topic: function
 f1_keywords:
 - winuser/EnableMouseInPointer
 dev_langs:

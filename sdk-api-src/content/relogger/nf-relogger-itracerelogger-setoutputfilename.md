@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: ed3f8bcd-88c7-4d05-a396-41ee8f35bc97
 ms.date: 12/05/2018
 ms.keywords: ITraceRelogger interface [ETW],SetOutputFilename method, ITraceRelogger.SetOutputFilename, ITraceRelogger::SetOutputFilename, SetOutputFilename, SetOutputFilename method [ETW], SetOutputFilename method [ETW],ITraceRelogger interface, etw.itracerelogger_setoutputfilename, relogger/ITraceRelogger::SetOutputFilename
-ms.topic: method
 f1_keywords:
 - relogger/ITraceRelogger.SetOutputFilename
 dev_langs:

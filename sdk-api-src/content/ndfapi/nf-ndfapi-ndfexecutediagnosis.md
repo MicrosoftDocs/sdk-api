@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: b65f30c3-53d5-4282-8d38-5723772f15fc
 ms.date: 12/05/2018
 ms.keywords: NdfExecuteDiagnosis, NdfExecuteDiagnosis function [NDF], ndf.ndfexecutediagnosis, ndfapi/NdfExecuteDiagnosis
-ms.topic: function
 f1_keywords:
 - ndfapi/NdfExecuteDiagnosis
 dev_langs:

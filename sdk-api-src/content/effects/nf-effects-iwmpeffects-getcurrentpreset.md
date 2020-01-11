@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 09ad671b-612d-4e00-8fa9-d9d76954a010
 ms.date: 12/05/2018
 ms.keywords: EffectsGetCurrentPreset, GetCurrentPreset, GetCurrentPreset method [Windows Media Player], GetCurrentPreset method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetCurrentPreset method, IWMPEffects.GetCurrentPreset, IWMPEffects::GetCurrentPreset, effects/IWMPEffects::GetCurrentPreset, wmp.iwmpeffects_getcurrentpreset
-ms.topic: method
 f1_keywords:
 - effects/IWMPEffects.GetCurrentPreset
 dev_langs:

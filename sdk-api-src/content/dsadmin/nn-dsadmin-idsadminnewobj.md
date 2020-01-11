@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: b38016a2-bbb7-4715-81cc-bd9911fb5a3b
 ms.date: 12/05/2018
 ms.keywords: IDsAdminNewObj, IDsAdminNewObj interface [Active Directory], IDsAdminNewObj interface [Active Directory],described, _glines_idsadminnewobj, ad.idsadminnewobj, dsadmin/IDsAdminNewObj
-ms.topic: interface
 f1_keywords:
 - dsadmin/IDsAdminNewObj
 dev_langs:

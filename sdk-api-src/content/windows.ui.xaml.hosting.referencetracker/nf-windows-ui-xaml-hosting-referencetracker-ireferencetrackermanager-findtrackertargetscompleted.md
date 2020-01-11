@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 16e6f9ac-0466-4ada-ad72-278b3dba6a26
 ms.date: 12/05/2018
 ms.keywords: FindTrackerTargetsCompleted, FindTrackerTargetsCompleted method [Windows Runtime], FindTrackerTargetsCompleted method [Windows Runtime],IReferenceTrackerManager interface, IReferenceTrackerManager interface [Windows Runtime],FindTrackerTargetsCompleted method, IReferenceTrackerManager.FindTrackerTargetsCompleted, IReferenceTrackerManager.xaml, IReferenceTrackerManager::FindTrackerTargetsCompleted, IReferenceTrackerManager::xaml, windows/IReferenceTrackerManager::FindTrackerTargetsCompleted, winrt.ireferencetrackermanager_findtrackertargetscompleted
-ms.topic: method
 f1_keywords:
 - windows.ui.xaml.hosting.referencetracker/IReferenceTrackerManager.FindTrackerTargetsCompleted
 dev_langs:

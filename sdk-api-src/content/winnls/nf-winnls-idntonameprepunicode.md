@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 25790685-9797-4cde-a530-94793b1245a0
 ms.date: 12/05/2018
 ms.keywords: IdnToNameprepUnicode, IdnToNameprepUnicode function [Internationalization for Windows Applications], _win32_IdnToNameprepUnicode, intl.idntonameprepunicode, winnls/IdnToNameprepUnicode
-ms.topic: function
 f1_keywords:
 - winnls/IdnToNameprepUnicode
 dev_langs:

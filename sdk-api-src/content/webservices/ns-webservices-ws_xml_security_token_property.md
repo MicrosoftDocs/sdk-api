@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: dd235e33-39f7-459d-8b7f-76d5c3f96770
 ms.date: 12/05/2018
 ms.keywords: WS_XML_SECURITY_TOKEN_PROPERTY, WS_XML_SECURITY_TOKEN_PROPERTY structure [Web Services for Windows], webservices/WS_XML_SECURITY_TOKEN_PROPERTY, wsw.ws_xml_security_token_property
-ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_SECURITY_TOKEN_PROPERTY
 dev_langs:

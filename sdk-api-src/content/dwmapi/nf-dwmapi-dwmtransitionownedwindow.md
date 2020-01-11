@@ -7,7 +7,6 @@ tech.root: dwm
 ms.assetid: 12108F8D-7D9A-4459-9FC0-1856FD097CAA
 ms.date: 12/05/2018
 ms.keywords: DwmTransitionOwnedWindow, DwmTransitionOwnedWindow function [Desktop Window Manager], dwm.dwmtransitionownedwindow, dwmapi/DwmTransitionOwnedWindow
-ms.topic: function
 f1_keywords:
 - dwmapi/DwmTransitionOwnedWindow
 dev_langs:

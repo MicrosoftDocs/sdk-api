@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2eb6243a-6f69-45d2-9b72-2dd28d02e86d
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectRelativeButton method, IDvdControl2.SelectRelativeButton, IDvdControl2::SelectRelativeButton, IDvdControl2SelectRelativeButton, SelectRelativeButton, SelectRelativeButton method [DirectShow], SelectRelativeButton method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectrelativebutton, strmif/IDvdControl2::SelectRelativeButton
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.SelectRelativeButton
 dev_langs:

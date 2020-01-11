@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\itokencollection\itokencollection.htm
 ms.date: 12/05/2018
 ms.keywords: ITokenCollection, ITokenCollection interface [search], ITokenCollection interface [search],described, _search_ITokenCollection, search._search_ITokenCollection, structuredquery/ITokenCollection
-ms.topic: interface
 f1_keywords:
 - structuredquery/ITokenCollection
 dev_langs:

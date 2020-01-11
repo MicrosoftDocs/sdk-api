@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 30ef83f0-cad1-4aee-9b70-0fe7189aff9e
 ms.date: 12/05/2018
 ms.keywords: ActivateBackgroundTask, ActivateBackgroundTask method [Windows Shell], ActivateBackgroundTask method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],ActivateBackgroundTask method, IPackageDebugSettings.ActivateBackgroundTask, IPackageDebugSettings::ActivateBackgroundTask, shell.IPackageDebugSettings_ActivateBackgroundTask, shobjidl_core/IPackageDebugSettings::ActivateBackgroundTask
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IPackageDebugSettings.ActivateBackgroundTask
 dev_langs:

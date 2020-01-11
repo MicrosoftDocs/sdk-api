@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: f9e8627b-0531-4dcb-9818-7560372aa4b0
 ms.date: 12/05/2018
 ms.keywords: GetFileSystemTypeName, GetFileSystemTypeName method, GetFileSystemTypeName method,IVdsVolumeMF2 interface, IVdsVolumeMF2 interface,GetFileSystemTypeName method, IVdsVolumeMF2.GetFileSystemTypeName, IVdsVolumeMF2::GetFileSystemTypeName, base.ivdsvolumemf2_getfilesystemtypename, vds/IVdsVolumeMF2::GetFileSystemTypeName
-ms.topic: method
 f1_keywords:
 - vds/IVdsVolumeMF2.GetFileSystemTypeName
 dev_langs:

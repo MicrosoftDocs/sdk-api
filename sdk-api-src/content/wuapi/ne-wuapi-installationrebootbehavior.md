@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 28c5179a-bdfa-40ca-9cf2-239a9fbf5856
 ms.date: 12/05/2018
 ms.keywords: InstallationRebootBehavior, InstallationRebootBehavior [Windows Update Services], InstallationRebootBehavior enumeration [Windows Update Agent], irbAlwaysRequiresReboot, irbCanRequestReboot, irbNeverReboots, wua.installationrebootbehavior, wuapi/InstallationRebootBehavior, wuapi/irbAlwaysRequiresReboot, wuapi/irbCanRequestReboot, wuapi/irbNeverReboots
-ms.topic: enum
 f1_keywords:
 - wuapi/InstallationRebootBehavior
 dev_langs:

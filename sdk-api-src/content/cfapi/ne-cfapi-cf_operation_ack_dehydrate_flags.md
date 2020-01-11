@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: A1236139-947A-4360-91A0-E634A22C26A5
 ms.date: 12/05/2018
 ms.keywords: CF_OPERATION_ACK_DEHYDRATE_FLAGS, CF_OPERATION_ACK_DEHYDRATE_FLAGS enumeration, CF_OPERATION_ACK_DEHYDRATE_FLAG_NONE, cfapi/CF_OPERATION_ACK_DEHYDRATE_FLAGS, cfapi/CF_OPERATION_ACK_DEHYDRATE_FLAG_NONE, cloudApi.cf_operation_ack_dehydrate_flags
-ms.topic: enum
 f1_keywords:
 - cfapi/CF_OPERATION_ACK_DEHYDRATE_FLAGS
 dev_langs:

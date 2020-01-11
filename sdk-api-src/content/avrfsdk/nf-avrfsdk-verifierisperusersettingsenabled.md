@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 29ea23ca-cb11-4b88-8863-9893e94f4e20
 ms.date: 12/05/2018
 ms.keywords: VerifierIsPerUserSettingsEnabled, VerifierIsPerUserSettingsEnabled function [Windows API], avrfsdk/VerifierIsPerUserSettingsEnabled, winprog.verifierisperusersettingsenabled
-ms.topic: function
 f1_keywords:
 - avrfsdk/VerifierIsPerUserSettingsEnabled
 dev_langs:

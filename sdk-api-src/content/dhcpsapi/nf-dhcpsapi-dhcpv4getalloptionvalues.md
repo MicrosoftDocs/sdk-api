@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 3c2fff2f-3d79-4e0d-8a31-9917088b1413
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpV4GetAllOptionValues, DhcpV4GetAllOptionValues function [DHCP], dhcp.dhcpv4getalloptionvalues, dhcpsapi/DhcpV4GetAllOptionValues
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4GetAllOptionValues
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: ee5c6582-f040-4b65-8ed7-3ba571d3a348
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarBstrFromUI2, VarBstrFromUI2 function [Automation], _oa96_VarBstrFromUI2, automat.varbstrfromui2, oleauto/VarBstrFromUI2
-ms.topic: function
 f1_keywords:
 - oleauto/VarBstrFromUI2
 dev_langs:

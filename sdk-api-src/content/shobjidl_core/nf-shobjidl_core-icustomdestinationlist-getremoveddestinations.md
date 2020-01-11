@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 705763cf-a97f-430f-bfc3-916e943668ef
 ms.date: 12/05/2018
 ms.keywords: GetRemovedDestinations, GetRemovedDestinations method [Windows Shell], GetRemovedDestinations method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],GetRemovedDestinations method, ICustomDestinationList.GetRemovedDestinations, ICustomDestinationList::GetRemovedDestinations, _shell_ICustomDestinationList_GetRemovedDestinations, shell.ICustomDestinationList_GetRemovedDestinations, shobjidl_core/ICustomDestinationList::GetRemovedDestinations
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ICustomDestinationList.GetRemovedDestinations
 dev_langs:

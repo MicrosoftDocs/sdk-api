@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 8CF3809C-0EC7-4FBB-AEEF-E74FCD9B836D
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList1 interface,ResolveSubresourceRegion method, ID3D12GraphicsCommandList1.ResolveSubresourceRegion, ID3D12GraphicsCommandList1::ResolveSubresourceRegion, ResolveSubresourceRegion, ResolveSubresourceRegion method, ResolveSubresourceRegion method,ID3D12GraphicsCommandList1 interface, d3d12/ID3D12GraphicsCommandList1::ResolveSubresourceRegion, direct3d12.id3d12graphicscommandlist1_resolvesubresourceregion
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12GraphicsCommandList1.ResolveSubresourceRegion
 dev_langs:

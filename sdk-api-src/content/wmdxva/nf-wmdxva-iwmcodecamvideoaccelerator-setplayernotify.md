@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 3be015c4-a641-44b9-9be8-a76b5dd4f998
 ms.date: 12/05/2018
 ms.keywords: IWMCodecAMVideoAccelerator interface [windows Media Format],SetPlayerNotify method, IWMCodecAMVideoAccelerator.SetPlayerNotify, IWMCodecAMVideoAccelerator::SetPlayerNotify, IWMCodecAMVideoAcceleratorSetPlayerNotify, SetPlayerNotify, SetPlayerNotify method [windows Media Format], SetPlayerNotify method [windows Media Format],IWMCodecAMVideoAccelerator interface, wmdxva/IWMCodecAMVideoAccelerator::SetPlayerNotify, wmformat.iwmcodecamvideoaccelerator_setplayernotify
-ms.topic: method
 f1_keywords:
 - wmdxva/IWMCodecAMVideoAccelerator.SetPlayerNotify
 dev_langs:

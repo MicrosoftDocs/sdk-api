@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 45a445d1-cbe2-4588-a184-7d7bab6bc1ee
 ms.date: 12/05/2018
 ms.keywords: UI_ANIMATION_TIMER_CLIENT_BUSY, UI_ANIMATION_TIMER_CLIENT_IDLE, UI_ANIMATION_TIMER_CLIENT_STATUS, UI_ANIMATION_TIMER_CLIENT_STATUS enumeration [Windows Animation], uianimation.ui_animation_timer_client_status, uianimation/UI_ANIMATION_TIMER_CLIENT_BUSY, uianimation/UI_ANIMATION_TIMER_CLIENT_IDLE, uianimation/UI_ANIMATION_TIMER_CLIENT_STATUS
-ms.topic: enum
 f1_keywords:
 - uianimation/UI_ANIMATION_TIMER_CLIENT_STATUS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 6a7ff5ac-df0f-4aea-b6f1-813c7e22e6c2
 ms.date: 12/05/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCRecord method, IComQCEvents.OnQCRecord, IComQCEvents::OnQCRecord, OnQCRecord, OnQCRecord method [COM+], OnQCRecord method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCRecord, comsvcs/IComQCEvents::OnQCRecord, cos.icomqcevents_onqcrecord
-ms.topic: method
 f1_keywords:
 - comsvcs/IComQCEvents.OnQCRecord
 dev_langs:

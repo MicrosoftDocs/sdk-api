@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 9a024147-8bfe-427a-af12-a63f23328e38
 ms.date: 12/05/2018
 ms.keywords: GetProcessId, GetProcessId function, base.getprocessid, processthreadsapi/GetProcessId, winbase/GetProcessId
-ms.topic: function
 f1_keywords:
 - processthreadsapi/GetProcessId
 dev_langs:

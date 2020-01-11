@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeposition.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemePosition, GetThemePosition function [Windows Controls], controls.GetThemePosition, controls.inet_GetThemePosition, inet_GetThemePosition, inet_GetThemePosition_cpp, uxtheme/GetThemePosition
-ms.topic: function
 f1_keywords:
 - uxtheme/GetThemePosition
 dev_langs:

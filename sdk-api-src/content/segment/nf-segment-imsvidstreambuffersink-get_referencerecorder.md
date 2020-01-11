@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 81315825-165a-48ef-be5e-fdeba67765f6
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_ReferenceRecorder method, IMSVidStreamBufferSink.get_ReferenceRecorder, IMSVidStreamBufferSink::get_ReferenceRecorder, IMSVidStreamBufferSinkget_ReferenceRecorder, get_ReferenceRecorder, get_ReferenceRecorder method [Microsoft TV Technologies], get_ReferenceRecorder method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_get_referencerecorder, segment/IMSVidStreamBufferSink::get_ReferenceRecorder
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferSink.get_ReferenceRecorder
 dev_langs:

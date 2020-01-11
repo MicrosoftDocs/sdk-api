@@ -7,7 +7,6 @@ tech.root: ipc
 ms.assetid: 125e0fbb-9013-4194-bc0b-1b8ea7db799e
 ms.date: 12/05/2018
 ms.keywords: PeekNamedPipe, PeekNamedPipe function, _win32_peeknamedpipe, base.peeknamedpipe, namedpipeapi/PeekNamedPipe
-ms.topic: function
 f1_keywords:
 - namedpipeapi/PeekNamedPipe
 dev_langs:

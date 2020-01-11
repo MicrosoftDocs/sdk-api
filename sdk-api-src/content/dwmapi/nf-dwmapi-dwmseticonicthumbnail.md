@@ -7,7 +7,6 @@ tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmseticonicthumbnail.htm
 ms.date: 12/05/2018
 ms.keywords: 0, DWM_SIT_DISPLAYFRAME, DwmSetIconicThumbnail, DwmSetIconicThumbnail function [Desktop Window Manager], _udwm_dwmseticonicthumbnail, _udwm_dwmseticonicthumbnail_cpp, dwm.dwmseticonicthumbnail, dwmapi/DwmSetIconicThumbnail, winui._udwm_dwmseticonicthumbnail
-ms.topic: function
 f1_keywords:
 - dwmapi/DwmSetIconicThumbnail
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: fee774b3-66ee-4ffd-b000-8032118e9a9d
 ms.date: 12/05/2018
 ms.keywords: IMsmError interface,get_DatabaseTable method, IMsmError.get_DatabaseTable, IMsmError::get_DatabaseTable, _msi_get_databasetable_function, get_DatabaseTable, get_DatabaseTable method, get_DatabaseTable method,IMsmError interface, mergemod/IMsmError::get_DatabaseTable, setup.imsmerror_get_databasetable
-ms.topic: method
 f1_keywords:
 - mergemod/IMsmError.get_DatabaseTable
 dev_langs:

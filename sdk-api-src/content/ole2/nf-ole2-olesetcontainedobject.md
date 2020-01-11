@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 154aa6f0-3c02-4139-8c8e-c2112b015fe0
 ms.date: 12/05/2018
 ms.keywords: OleSetContainedObject, OleSetContainedObject function [COM], _ole_OleSetContainedObject, com.olesetcontainedobject, ole2/OleSetContainedObject
-ms.topic: function
 f1_keywords:
 - ole2/OleSetContainedObject
 dev_langs:

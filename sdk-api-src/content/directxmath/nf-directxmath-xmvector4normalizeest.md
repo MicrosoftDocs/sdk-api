@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4NormalizeEst(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4NormalizeEst, XMVector4NormalizeEst, XMVector4NormalizeEst method [DirectX Math Support APIs], dxmath.xmvector4normalizeest
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector4NormalizeEst
 dev_langs:

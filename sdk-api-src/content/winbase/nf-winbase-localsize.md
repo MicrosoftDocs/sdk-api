@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: d1337845-d89c-4cd5-a584-36fe0c682c1a
 ms.date: 12/05/2018
 ms.keywords: LocalSize, LocalSize function, _win32_localsize, base.localsize, winbase/LocalSize
-ms.topic: function
 f1_keywords:
 - winbase/LocalSize
 dev_langs:

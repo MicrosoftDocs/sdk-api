@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d2fc1eeb-bd76-4bd7-9a4f-4142e53f0afb
 ms.date: 12/05/2018
 ms.keywords: SHGetNameFromIDList, SHGetNameFromIDList function [Windows Shell], _shell_SHGetNameFromIDList, shell.SHGetNameFromIDList, shobjidl_core/SHGetNameFromIDList
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHGetNameFromIDList
 dev_langs:

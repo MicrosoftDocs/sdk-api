@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: f06eb965-af34-4247-b8a6-0ac1ee4e4839
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorage3 interface [windows Media Device Manager],SetMetadata method, IWMDMStorage3.SetMetadata, IWMDMStorage3::SetMetadata, IWMDMStorage3SetMetadata, SetMetadata, SetMetadata method [windows Media Device Manager], SetMetadata method [windows Media Device Manager],IWMDMStorage3 interface, mswmdm/IWMDMStorage3::SetMetadata, wmdm.iwmdmstorage3_setmetadata
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMStorage3.SetMetadata
 dev_langs:

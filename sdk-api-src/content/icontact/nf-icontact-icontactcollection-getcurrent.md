@@ -7,7 +7,6 @@ tech.root: wincontacts
 ms.assetid: e5a5d27d-121a-4755-892e-53d148facd74
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method [Windows Contacts], GetCurrent method [Windows Contacts],IContactCollection interface, IContactCollection interface [Windows Contacts],GetCurrent method, IContactCollection.GetCurrent, IContactCollection::GetCurrent, _wincontacts_IContactCollection_GetCurrent, icontact/IContactCollection::GetCurrent, wincontacts._wincontacts_IContactCollection_GetCurrent
-ms.topic: method
 f1_keywords:
 - icontact/IContactCollection.GetCurrent
 dev_langs:

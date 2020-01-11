@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 984c7238-99ba-438f-b122-e952f95e018d
 ms.date: 12/05/2018
 ms.keywords: ApplicationFilter property [RDP], ApplicationFilter property [RDP],IRDPSRAPIViewer interface, ApplicationFilter property [RDP],RDPViewer object, IRDPSRAPIViewer interface [RDP],ApplicationFilter property, IRDPSRAPIViewer.ApplicationFilter, IRDPSRAPIViewer.get_ApplicationFilter, IRDPSRAPIViewer::ApplicationFilter, IRDPSRAPIViewer::get_ApplicationFilter, RDPViewer object [RDP],ApplicationFilter property, get_ApplicationFilter, rdp.irdpsrapiviewer_applicationfilter, rdpencomapi/IRDPSRAPIViewer::ApplicationFilter, rdpencomapi/IRDPSRAPIViewer::get_ApplicationFilter
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPIViewer.ApplicationFilter
 dev_langs:

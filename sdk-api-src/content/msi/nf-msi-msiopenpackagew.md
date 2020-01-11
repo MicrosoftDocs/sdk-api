@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 1227493a-58dc-4e41-b6d7-9ecce0b3df40
 ms.date: 12/05/2018
 ms.keywords: MsiOpenPackage, MsiOpenPackage function, MsiOpenPackageA, MsiOpenPackageW, _msi_msiopenpackage, msi/MsiOpenPackage, msi/MsiOpenPackageA, msi/MsiOpenPackageW, setup.msiopenpackage
-ms.topic: function
 f1_keywords:
 - msi/MsiOpenPackage
 dev_langs:

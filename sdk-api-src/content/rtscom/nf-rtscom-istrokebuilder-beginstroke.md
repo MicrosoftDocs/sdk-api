@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 40b8ce05-0272-4505-8361-13bb6ca701ea
 ms.date: 12/05/2018
 ms.keywords: 40b8ce05-0272-4505-8361-13bb6ca701ea, BeginStroke, BeginStroke method [Tablet PC], BeginStroke method [Tablet PC],IStrokeBuilder interface, IStrokeBuilder interface [Tablet PC],BeginStroke method, IStrokeBuilder.BeginStroke, IStrokeBuilder::BeginStroke, rtscom/IStrokeBuilder::BeginStroke, tablet.istrokebuilder_beginstroke
-ms.topic: method
 f1_keywords:
 - rtscom/IStrokeBuilder.BeginStroke
 dev_langs:

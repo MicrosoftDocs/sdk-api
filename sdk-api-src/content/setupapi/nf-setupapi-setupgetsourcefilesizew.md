@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: f1db8ad5-b133-410e-9843-38b09e2ef5e7
 ms.date: 12/05/2018
 ms.keywords: SetupGetSourceFileSize, SetupGetSourceFileSize function [Setup API], SetupGetSourceFileSizeA, SetupGetSourceFileSizeW, _setupapi_setupgetsourcefilesize, setup.setupgetsourcefilesize, setupapi/SetupGetSourceFileSize, setupapi/SetupGetSourceFileSizeA, setupapi/SetupGetSourceFileSizeW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupGetSourceFileSize
 dev_langs:

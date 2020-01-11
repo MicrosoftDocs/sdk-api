@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: c2067822-1824-4676-8376-7d83fcbbaea3
 ms.date: 12/05/2018
 ms.keywords: IVssEnumMgmtObject, IVssEnumMgmtObject interface [Files], IVssEnumMgmtObject interface [Files],described, base.ivssenummgmtobject, vsmgmt/IVssEnumMgmtObject
-ms.topic: interface
 f1_keywords:
 - vsmgmt/IVssEnumMgmtObject
 dev_langs:

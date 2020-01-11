@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 29f38464-bd16-4ee9-92b2-6697a3851f55
 ms.date: 12/05/2018
 ms.keywords: IUpdateIDList interface [Windows Shell],Update method, IUpdateIDList.Update, IUpdateIDList::Update, Update, Update method [Windows Shell], Update method [Windows Shell],IUpdateIDList interface, _shell_IUpdateIDList_Update, shell.IUpdateIDList_Update, shobjidl_core/IUpdateIDList::Update
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IUpdateIDList.Update
 dev_langs:

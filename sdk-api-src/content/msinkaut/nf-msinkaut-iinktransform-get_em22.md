@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 46a50a77-f834-4d75-89db-a9be6e1ed24f
 ms.date: 12/05/2018
 ms.keywords: 46a50a77-f834-4d75-89db-a9be6e1ed24f, IInkTransform interface [Tablet PC],eM22 property, IInkTransform.eM22, IInkTransform.get_eM22, IInkTransform::eM22, IInkTransform::get_eM22, IInkTransform::put_eM22, InkTransform.get_eM22, InkTransform.put_eM22, eM22 property [Tablet PC], eM22 property [Tablet PC],IInkTransform interface, get_eM22, msinkaut/IInkTransform::eM22, msinkaut/IInkTransform::get_eM22, msinkaut/IInkTransform::put_eM22, put_eM22, tablet.inktransform_em22
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkTransform.eM22
 dev_langs:

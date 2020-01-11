@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: 7d7c4f04-f11c-48ff-b579-dc4dd7599a6b
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Network Awareness], GetDescription method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetDescription method, INetwork.GetDescription, INetwork::GetDescription, netlistmgr/INetwork::GetDescription, nla.inetwork_getdescription
-ms.topic: method
 f1_keywords:
 - netlistmgr/INetwork.GetDescription
 dev_langs:

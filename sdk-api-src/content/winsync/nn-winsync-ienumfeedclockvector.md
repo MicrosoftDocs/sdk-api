@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 87679327-3a09-4416-b802-91171feb160a
 ms.date: 12/05/2018
 ms.keywords: IEnumFeedClockVector, IEnumFeedClockVector interface [Windows Sync], IEnumFeedClockVector interface [Windows Sync],described, winsync.ienumfeedclockvector, winsync/IEnumFeedClockVector
-ms.topic: interface
 f1_keywords:
 - winsync/IEnumFeedClockVector
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: c3664dec-5ba4-4842-80f1-6652d526295d
 ms.date: 12/05/2018
 ms.keywords: GenerateKeySeed, GenerateKeySeed method [windows Media Format], GenerateKeySeed method [windows Media Format],IWMDRMWriter interface, IWMDRMWriter interface [windows Media Format],GenerateKeySeed method, IWMDRMWriter.GenerateKeySeed, IWMDRMWriter::GenerateKeySeed, IWMDRMWriterGenerateKeySeed, wmformat.iwmdrmwriter_generatekeyseed, wmsdkidl/IWMDRMWriter::GenerateKeySeed
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDRMWriter.GenerateKeySeed
 dev_langs:

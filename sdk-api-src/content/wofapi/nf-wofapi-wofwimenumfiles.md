@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: D95F344F-762F-4F3C-ADAE-0A20BAE448F2
 ms.date: 12/05/2018
 ms.keywords: WofWimEnumFiles, WofWimEnumFiles function [Files], fs.wofwimenumfiles, wofapi/WofWimEnumFiles
-ms.topic: function
 f1_keywords:
 - wofapi/WofWimEnumFiles
 dev_langs:

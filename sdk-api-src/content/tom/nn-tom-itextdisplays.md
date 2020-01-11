@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: e7266734-c066-4f80-8d3d-99ffb251cd39
 ms.date: 12/05/2018
 ms.keywords: ITextDisplays, ITextDisplays interface [Windows Controls], ITextDisplays interface [Windows Controls],described, controls.itextdisplays, tom/ITextDisplays
-ms.topic: interface
 f1_keywords:
 - tom/ITextDisplays
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: 0E1D8CC6-B662-4068-A6BA-822E79321C33
 ms.date: 12/05/2018
 ms.keywords: DestroyIndexedResults, DestroyIndexedResults function [Menus and Other Resources], menurc.destroyindexedresults, resourceindexer/DestroyIndexedResults
-ms.topic: function
 f1_keywords:
 - resourceindexer/DestroyIndexedResults
 dev_langs:

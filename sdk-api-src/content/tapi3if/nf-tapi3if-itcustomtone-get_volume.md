@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 28eead55-915a-4bb6-9915-ebd56c9d123d
 ms.date: 12/05/2018
 ms.keywords: ITCustomTone interface [TAPI 2.2],get_Volume method, ITCustomTone.get_Volume, ITCustomTone::get_Volume, _tapi3_itcustomtone_get_volume, get_Volume, get_Volume method [TAPI 2.2], get_Volume method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_get_volume, tapi3if/ITCustomTone::get_Volume
-ms.topic: method
 f1_keywords:
 - tapi3if/ITCustomTone.get_Volume
 dev_langs:

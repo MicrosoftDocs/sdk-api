@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: cbd37f0a-4245-415d-bd74-501aa4c7ade7
 ms.date: 12/05/2018
 ms.keywords: GetPreferredProviders, GetPreferredProviders method [Microsoft Broadband Networks], GetPreferredProviders method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetPreferredProviders method, IMbnInterface.GetPreferredProviders, IMbnInterface::GetPreferredProviders, mbn.imbninterface_getpreferredproviders, mbnapi/IMbnInterface::GetPreferredProviders
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnInterface.GetPreferredProviders
 dev_langs:

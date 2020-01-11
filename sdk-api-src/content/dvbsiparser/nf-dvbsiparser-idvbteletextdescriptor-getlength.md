@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: e785d05a-d4f1-40d8-b93e-ea944373f4c3
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbTeletextDescriptor interface, IDvbTeletextDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbTeletextDescriptor.GetLength, IDvbTeletextDescriptor::GetLength, dvbsiparser/IDvbTeletextDescriptor::GetLength, mstv.idvbteletextdescriptor_getlength
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbTeletextDescriptor.GetLength
 dev_langs:

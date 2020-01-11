@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwiaitem\getcount.htm
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [WIA], GetCount method [WIA],IEnumWiaItem interface, IEnumWiaItem interface [WIA],GetCount method, IEnumWiaItem.GetCount, IEnumWiaItem::GetCount, _wia_IEnumWiaItem_GetCount, wia._wia_IEnumWiaItem_GetCount, wia_xp/IEnumWiaItem::GetCount
-ms.topic: method
 f1_keywords:
 - wia_xp/IEnumWiaItem.GetCount
 dev_langs:

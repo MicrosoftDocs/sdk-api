@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 7f967958-fc32-4336-aae5-bea180ba86d1
 ms.date: 12/05/2018
 ms.keywords: GetPluggableTerminalClasses, GetPluggableTerminalClasses method [TAPI 2.2], GetPluggableTerminalClasses method [TAPI 2.2],ITTerminalManager2 interface, ITTerminalManager2 interface [TAPI 2.2],GetPluggableTerminalClasses method, ITTerminalManager2.GetPluggableTerminalClasses, ITTerminalManager2::GetPluggableTerminalClasses, _tapi3_itterminalmanager2_getpluggableterminalclasses, tapi3.itterminalmanager2_getpluggableterminalclasses, termmgr/ITTerminalManager2::GetPluggableTerminalClasses
-ms.topic: method
 f1_keywords:
 - termmgr/ITTerminalManager2.GetPluggableTerminalClasses
 dev_langs:

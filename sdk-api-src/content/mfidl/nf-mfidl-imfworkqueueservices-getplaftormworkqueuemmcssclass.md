@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: f953a54b-2bc0-4ddc-9837-57f72e564c02
 ms.date: 12/05/2018
 ms.keywords: GetPlaftormWorkQueueMMCSSClass, GetPlaftormWorkQueueMMCSSClass method [Media Foundation], GetPlaftormWorkQueueMMCSSClass method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],GetPlaftormWorkQueueMMCSSClass method, IMFWorkQueueServices.GetPlaftormWorkQueueMMCSSClass, IMFWorkQueueServices::GetPlaftormWorkQueueMMCSSClass, f953a54b-2bc0-4ddc-9837-57f72e564c02, mf.imfworkqueueservices_getplaftormworkqueuemmcssclass, mfidl/IMFWorkQueueServices::GetPlaftormWorkQueueMMCSSClass
-ms.topic: method
 f1_keywords:
 - mfidl/IMFWorkQueueServices.GetPlaftormWorkQueueMMCSSClass
 dev_langs:

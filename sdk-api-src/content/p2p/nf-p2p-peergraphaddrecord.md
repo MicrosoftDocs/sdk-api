@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 8256e379-e5d5-4aef-ab05-e220602edf12
 ms.date: 12/05/2018
 ms.keywords: PeerGraphAddRecord, PeerGraphAddRecord function [Peer Networking], p2p.peergraphaddrecord, p2p/PeerGraphAddRecord
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphAddRecord
 dev_langs:

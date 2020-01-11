@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: b4fb2fd0-e32a-4737-8095-7d4df40a26a0
 ms.date: 12/05/2018
 ms.keywords: IDvbCableDeliverySystemDescriptor, IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies], IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies],described, IDvbCableDeliverySystemDescriptorInterface, dvbsiparser/IDvbCableDeliverySystemDescriptor, mstv.idvbcabledeliverysystemdescriptor
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IDvbCableDeliverySystemDescriptor
 dev_langs:

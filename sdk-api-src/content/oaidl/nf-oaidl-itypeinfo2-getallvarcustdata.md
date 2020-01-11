@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: d123b63e-8393-4c76-914e-87aa399aae1c
 ms.date: 12/05/2018
 ms.keywords: GetAllVarCustData, GetAllVarCustData method [Automation], GetAllVarCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetAllVarCustData method, ITypeInfo2.GetAllVarCustData, ITypeInfo2::GetAllVarCustData, _oa96_ITypeInfo2_GetAllVarCustData, automat.itypeinfo2_getallvarcustdata, oaidl/ITypeInfo2::GetAllVarCustData
-ms.topic: method
 f1_keywords:
 - oaidl/ITypeInfo2.GetAllVarCustData
 dev_langs:

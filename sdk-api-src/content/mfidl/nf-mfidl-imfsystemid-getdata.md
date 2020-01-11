@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 5b345a8d-65d1-4780-a7b9-b1025f9fa773
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [Media Foundation], GetData method [Media Foundation],IMFSystemId interface, IMFSystemId interface [Media Foundation],GetData method, IMFSystemId.GetData, IMFSystemId::GetData, mf.imfsystemid_getdata, mfidl/IMFSystemId::GetData
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSystemId.GetData
 dev_langs:

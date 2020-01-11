@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 7ca28fac-999c-4386-81e7-65003e89d9c5
 ms.date: 12/05/2018
 ms.keywords: TcSetInterface, TcSetInterface function [QOS], _gqos_tcsetinterface, qos.tcsetinterface, traffic/TcSetInterface
-ms.topic: function
 f1_keywords:
 - traffic/TcSetInterface
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: f473fd7a-5c0f-4a77-829b-28a82ad0d28d
 ms.date: 12/05/2018
 ms.keywords: SspiPrepareForCredRead, SspiPrepareForCredRead function [Security], security.sspiprepareforcredread, sspi/SspiPrepareForCredRead
-ms.topic: function
 f1_keywords:
 - sspi/SspiPrepareForCredRead
 dev_langs:

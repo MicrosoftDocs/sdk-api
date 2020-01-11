@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0388b6a0-24d9-48eb-bef2-3a1658d8bb3c
 ms.date: 12/05/2018
 ms.keywords: SHAllocShared, SHAllocShared function [Windows Shell], _win32_SHAllocShared, shell.SHAllocShared, shlwapi/SHAllocShared
-ms.topic: function
 f1_keywords:
 - shlwapi/SHAllocShared
 dev_langs:

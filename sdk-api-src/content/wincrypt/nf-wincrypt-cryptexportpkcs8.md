@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: defd0b23-d9c2-4b28-a6a6-1be7487ae656
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CryptExportPKCS8, CryptExportPKCS8 function [Security], security.cryptexportpkcs8, wincrypt/CryptExportPKCS8
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptExportPKCS8
 dev_langs:

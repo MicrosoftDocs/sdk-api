@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 2f3873e0-376e-4212-a28d-bd9bc112f6cf
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [ADSI], Delete method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],Delete method, IADsContainer.Delete, IADsContainer::Delete, _ds_iadscontainer_delete, adsi.iadscontainer__delete, adsi.iadscontainer_delete, iads/IADsContainer::Delete
-ms.topic: method
 f1_keywords:
 - iads/IADsContainer.Delete
 dev_langs:

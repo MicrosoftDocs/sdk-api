@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: f189a417-48a4-436e-bb1c-6b0c9f066c04
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Version_Ex, CM_Get_Version_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Version_Ex, cfgmgrfn_0c27aa6b-5682-4901-b57b-2477a0cb9919.xml, devinst.cm_get_version_ex
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Get_Version_Ex
 dev_langs:

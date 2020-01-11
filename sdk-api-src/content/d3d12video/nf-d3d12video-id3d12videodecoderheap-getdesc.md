@@ -5,7 +5,6 @@ description: Gets the D3D12_VIDEO_DECODER_HEAP_DESC structure that was passed in
 tech.root: mf
 ms.assetid: 784d436a-f69d-4b62-b2f4-1954c92e774f
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoDecoderHeap::GetDesc
 dev_langs:

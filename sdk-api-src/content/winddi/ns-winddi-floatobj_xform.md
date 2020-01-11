@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 0c58a0df-4a0a-46e2-90de-dc50b8077709
 ms.date: 12/05/2018
 ms.keywords: '*LPFLOATOBJ_XFORM, *PFLOATOBJ_XFORM, FAR *LPFLOATOBJ_XFORM, FAR *LPFLOATOBJ_XFORM structure [Display Devices], FLOATOBJ_XFORM, FLOATOBJ_XFORM structure [Display Devices], PFLOATOBJ_XFORM, PFLOATOBJ_XFORM structure pointer [Display Devices], display.floatobj_xform, grstrcts_a53b73a9-2233-4cdf-bc65-d7db00c3ec9b.xml, winddi/FAR *LPFLOATOBJ_XFORM, winddi/FLOATOBJ_XFORM, winddi/PFLOATOBJ_XFORM'
-ms.topic: struct
 f1_keywords:
 - winddi/FLOATOBJ_XFORM
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getupdatedclipboardformats.htm
 ms.date: 12/05/2018
 ms.keywords: GetUpdatedClipboardFormats, GetUpdatedClipboardFormats function [Data Exchange], _win32_GetUpdatedClipboardFormats, _win32_getupdatedclipboardformats_cpp, dataxchg.getupdatedclipboardformats, winui._win32_getupdatedclipboardformats, winuser/GetUpdatedClipboardFormats
-ms.topic: function
 f1_keywords:
 - winuser/GetUpdatedClipboardFormats
 dev_langs:

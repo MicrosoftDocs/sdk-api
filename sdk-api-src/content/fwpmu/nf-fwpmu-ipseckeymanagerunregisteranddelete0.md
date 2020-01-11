@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 6A200451-3528-4728-A2D1-643385BA23E6
 ms.date: 12/05/2018
 ms.keywords: IPsecKeyManagerUnregisterAndDelete0, IPsecKeyManagerUnregisterAndDelete0 function [Filtering], fwp.ipseckeymanagerunregisteranddelete0, fwpmu/IPsecKeyManagerUnregisterAndDelete0
-ms.topic: function
 f1_keywords:
 - fwpmu/IPsecKeyManagerUnregisterAndDelete0
 dev_langs:

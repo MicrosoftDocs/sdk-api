@@ -5,7 +5,6 @@ description: Represents a virtual adapter. This interface extends [ID3D12Device5
 tech.root: direct3d12
 ms.date: 10/14/2019
 ms.keywords: ID3D12Device6, ID3D12Device6 interface, ID3D12Device6 interface,described, ID3D12Device6, d3d12/ID3D12Device6, direct3d12.id3d12device6
-ms.topic: interface
 f1_keywords:
 - d3d12/ID3D12Device6
 dev_langs:

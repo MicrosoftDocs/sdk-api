@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: a8ffad44-c621-4335-a312-16e7d6af2c18
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolumeCallback interface [Core Audio],OnNotify method, IAudioEndpointVolumeCallback.OnNotify, IAudioEndpointVolumeCallback::OnNotify, IAudioEndpointVolumeCallbackOnNotify, OnNotify, OnNotify method [Core Audio], OnNotify method [Core Audio],IAudioEndpointVolumeCallback interface, coreaudio.iaudioendpointvolumecallback_onnotify, endpointvolume/IAudioEndpointVolumeCallback::OnNotify
-ms.topic: method
 f1_keywords:
 - endpointvolume/IAudioEndpointVolumeCallback.OnNotify
 dev_langs:

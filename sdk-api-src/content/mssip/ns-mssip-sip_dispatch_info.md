@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: d34b5081-0af8-4dcc-8133-a91d0603d419
 ms.date: 12/05/2018
 ms.keywords: '*LPSIP_DISPATCH_INFO, PSIP_DISPATCH_INFO, PSIP_DISPATCH_INFO structure pointer [Security], SIP_DISPATCH_INFO, SIP_DISPATCH_INFO structure [Security], mssip/PSIP_DISPATCH_INFO, mssip/SIP_DISPATCH_INFO, security.sip_dispatch_info'
-ms.topic: struct
 f1_keywords:
 - mssip/SIP_DISPATCH_INFO
 dev_langs:

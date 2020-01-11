@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: e2021bf3-40d8-4697-b82f-eebee2140a6e
 ms.date: 12/05/2018
 ms.keywords: RtwqAllocateSerialWorkQueue, RtwqAllocateSerialWorkQueue function, base.rtwqallocateserialworkqueue, rtworkq/RtwqAllocateSerialWorkQueue
-ms.topic: function
 f1_keywords:
 - rtworkq/RtwqAllocateSerialWorkQueue
 dev_langs:

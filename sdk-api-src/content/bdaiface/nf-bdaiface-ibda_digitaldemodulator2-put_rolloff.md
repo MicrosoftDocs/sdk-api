@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ade8c334-b7b3-464e-a3ab-f8816a44a9dd
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],put_RollOff method, IBDA_DigitalDemodulator2.put_RollOff, IBDA_DigitalDemodulator2::put_RollOff, bdaiface/IBDA_DigitalDemodulator2::put_RollOff, mstv.ibda_digitaldemodulator2_put_rolloff, put_RollOff, put_RollOff method [Microsoft TV Technologies], put_RollOff method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_DigitalDemodulator2.put_RollOff
 dev_langs:

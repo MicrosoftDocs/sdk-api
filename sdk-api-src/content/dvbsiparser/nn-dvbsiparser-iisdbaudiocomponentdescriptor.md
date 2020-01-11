@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: f771b318-5fd5-4c7f-a22b-6966aec5c0fa
 ms.date: 12/05/2018
 ms.keywords: IIsdbAudioComponentDescriptor, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies], IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbAudioComponentDescriptor, mstv.iisdbaudiocomponentdescriptor
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IIsdbAudioComponentDescriptor
 dev_langs:

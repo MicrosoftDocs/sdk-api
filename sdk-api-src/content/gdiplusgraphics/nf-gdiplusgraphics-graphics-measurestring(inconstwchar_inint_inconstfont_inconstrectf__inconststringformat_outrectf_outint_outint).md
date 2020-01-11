@@ -5,7 +5,6 @@ description: The Graphics::MeasureString method measures the extent of the strin
 ms.assetid: 95fe1f97-1978-4356-8707-f539adad3853
 ms.date: 05/13/2019
 ms.keywords: Graphics::MeasureString
-ms.topic: language-reference
 f1_keywords:
 - gdiplusgraphics/Graphics::MeasureString
 dev_langs:

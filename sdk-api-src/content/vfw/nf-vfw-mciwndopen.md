@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 88620085-8cba-489c-bfb8-d28b0a5e6013
 ms.date: 12/05/2018
 ms.keywords: MCIWndOpen, MCIWndOpen macro [Windows Multimedia], _win32_MCIWndOpen, multimedia.mciwndopen, vfw/MCIWndOpen
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndOpen
 dev_langs:

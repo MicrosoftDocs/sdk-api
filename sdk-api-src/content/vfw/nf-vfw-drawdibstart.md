@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 2c992a4f-3308-4f0a-a1cf-40515e28ae33
 ms.date: 12/05/2018
 ms.keywords: DrawDibStart, DrawDibStart function [Windows Multimedia], _win32_DrawDibStart, multimedia.drawdibstart, vfw/DrawDibStart
-ms.topic: function
 f1_keywords:
 - vfw/DrawDibStart
 dev_langs:

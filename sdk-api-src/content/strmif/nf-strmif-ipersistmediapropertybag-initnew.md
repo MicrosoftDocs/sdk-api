@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 46d51c05-b653-4f14-810a-eb49d33da359
 ms.date: 12/05/2018
 ms.keywords: IPersistMediaPropertyBag interface [DirectShow],InitNew method, IPersistMediaPropertyBag.InitNew, IPersistMediaPropertyBag::InitNew, IPersistMediaPropertyBagInitNew, InitNew, InitNew method [DirectShow], InitNew method [DirectShow],IPersistMediaPropertyBag interface, dshow.ipersistmediapropertybag_initnew, strmif/IPersistMediaPropertyBag::InitNew
-ms.topic: method
 f1_keywords:
 - strmif/IPersistMediaPropertyBag.InitNew
 dev_langs:

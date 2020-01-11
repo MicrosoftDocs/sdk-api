@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: f99b342c-9233-43e3-93f1-88586e975608
 ms.date: 12/05/2018
 ms.keywords: GetTrigger, GetTrigger method [Task Scheduler], GetTrigger method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetTrigger method, IScheduledWorkItem.GetTrigger, IScheduledWorkItem::GetTrigger, _msb_ischeduledworkitem_gettrigger, mstask/IScheduledWorkItem::GetTrigger, taskschd.ischeduledworkitem_gettrigger
-ms.topic: method
 f1_keywords:
 - mstask/IScheduledWorkItem.GetTrigger
 dev_langs:

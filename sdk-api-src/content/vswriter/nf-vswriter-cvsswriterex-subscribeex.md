@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: b60ca619-c92b-4700-a048-7c74fad3d0e9
 ms.date: 12/05/2018
 ms.keywords: CVssWriterEx interface,SubscribeEx method, CVssWriterEx.SubscribeEx, CVssWriterEx::SubscribeEx, SubscribeEx, SubscribeEx method, SubscribeEx method,CVssWriterEx interface, base.cvsswriterex_subscribeex, vswriter/CVssWriterEx::SubscribeEx
-ms.topic: method
 f1_keywords:
 - vswriter/CVssWriterEx.SubscribeEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 35553C1C-3661-4778-8BC5-F2E6775DF96D
 ms.date: 12/05/2018
 ms.keywords: D3D12_STATIC_SAMPLER_DESC, D3D12_STATIC_SAMPLER_DESC structure, d3d12/D3D12_STATIC_SAMPLER_DESC, direct3d12.d3d12_static_sampler_desc
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_STATIC_SAMPLER_DESC
 dev_langs:

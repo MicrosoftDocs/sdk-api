@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: AC0C24AF-F844-488B-A9E7-AE118C5E2F32
 ms.date: 12/05/2018
 ms.keywords: IOCTL_GENERICUSBFN_GET_PIPE_STATE, IOCTL_GENERICUSBFN_GET_PIPE_STATE control, IOCTL_GENERICUSBFN_GET_PIPE_STATE control code [Buses], buses.ioctl_genericusbfn_get_pipe_state, genericusbfnioctl/IOCTL_GENERICUSBFN_GET_PIPE_STATE
-ms.topic: ioctl
 f1_keywords:
 - genericusbfnioctl/IOCTL_GENERICUSBFN_GET_PIPE_STATE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 5EE69CCD-C941-4346-B539-C415CE9EA1FB
 ms.date: 12/05/2018
 ms.keywords: GetManifest, GetManifest method [App packaging and management], GetManifest method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetManifest method, IAppxPackageReader.GetManifest, IAppxPackageReader::GetManifest, appxpackaging/IAppxPackageReader::GetManifest, appxpkg.iappxpackagereader_getmanifest
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxPackageReader.GetManifest
 dev_langs:

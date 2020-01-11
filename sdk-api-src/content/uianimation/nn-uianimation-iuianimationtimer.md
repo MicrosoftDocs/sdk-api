@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 75d29528-005e-4f49-b8ff-651b58d58fc7
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimer, IUIAnimationTimer interface [Windows Animation], IUIAnimationTimer interface [Windows Animation],described, uianimation.iuianimationtimer, uianimation/IUIAnimationTimer
-ms.topic: interface
 f1_keywords:
 - uianimation/IUIAnimationTimer
 dev_langs:

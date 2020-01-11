@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorMax(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorMax, XMVectorMax, XMVectorMax method [DirectX Math Support APIs], dxmath.xmvectormax
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorMax
 dev_langs:

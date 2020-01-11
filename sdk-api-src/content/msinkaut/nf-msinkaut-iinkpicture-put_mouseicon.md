@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: a095dca7-4dc9-4661-8c78-0e357a57f982
 ms.date: 12/05/2018
 ms.keywords: IInkPicture interface [Tablet PC],MouseIcon property, IInkPicture.MouseIcon, IInkPicture.put_MouseIcon, IInkPicture::MouseIcon, IInkPicture::get_MouseIcon, IInkPicture::put_MouseIcon, InkPicture.get_MouseIcon, InkPicture.put_MouseIcon, MouseIcon property [Tablet PC], MouseIcon property [Tablet PC],IInkPicture interface, get_MouseIcon, msinkaut/IInkPicture::MouseIcon, msinkaut/IInkPicture::get_MouseIcon, msinkaut/IInkPicture::put_MouseIcon, put_MouseIcon, putref_MouseIcon, tablet.inkpicture_mouseicon
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkPicture.MouseIcon
 dev_langs:

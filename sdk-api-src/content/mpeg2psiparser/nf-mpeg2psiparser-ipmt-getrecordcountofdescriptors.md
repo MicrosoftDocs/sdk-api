@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: b2470267-25a6-4ed3-91a1-30fd3ac7bbea
 ms.date: 12/05/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IPMT.GetRecordCountOfDescriptors, IPMT::GetRecordCountOfDescriptors, IPMTGetRecordCountOfDescriptors, mpeg2psiparser/IPMT::GetRecordCountOfDescriptors, mstv.ipmt_getrecordcountofdescriptors
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/IPMT.GetRecordCountOfDescriptors
 dev_langs:

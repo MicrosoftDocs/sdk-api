@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 6C301184-255B-4FE7-8DD6-962B236F90A6
 ms.date: 12/05/2018
 ms.keywords: MFCreateContentProtectionDevice, MFCreateContentProtectionDevice function [Media Foundation], mf.mfcreatecontentprotectiondevice, mfidl/MFCreateContentProtectionDevice
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreateContentProtectionDevice
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 71ddbf0b-17aa-4481-81a7-6d4a12275c31
 ms.date: 12/05/2018
 ms.keywords: IMediaStreamFilter interface [DirectShow],ReferenceTimeToStreamTime method, IMediaStreamFilter.ReferenceTimeToStreamTime, IMediaStreamFilter::ReferenceTimeToStreamTime, IMediaStreamFilterReferenceTimeToStreamTime, ReferenceTimeToStreamTime, ReferenceTimeToStreamTime method [DirectShow], ReferenceTimeToStreamTime method [DirectShow],IMediaStreamFilter interface, amstream/IMediaStreamFilter::ReferenceTimeToStreamTime, dshow.imediastreamfilter_referencetimetostreamtime
-ms.topic: method
 f1_keywords:
 - amstream/IMediaStreamFilter.ReferenceTimeToStreamTime
 dev_langs:

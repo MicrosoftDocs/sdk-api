@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: F6E71602-86D0-41be-854F-83C5D5B64BF8
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadSHORT, PSPropertyBag_ReadSHORT function [Windows Properties], properties.PSPropertyBag_ReadSHORT, propsys/PSPropertyBag_ReadSHORT, shell.PSPropertyBag_ReadSHORT, shell_PSPropertyBag_ReadSHORT
-ms.topic: function
 f1_keywords:
 - propsys/PSPropertyBag_ReadSHORT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: e3b08b80-b81d-444b-86f6-2d10607ad02e
 ms.date: 12/05/2018
 ms.keywords: IVdsController interface [VDS],Reset method, IVdsController.Reset, IVdsController::Reset, Reset, Reset method [VDS], Reset method [VDS],IVdsController interface, base.ivdscontroller_reset, vds/IVdsController::Reset, vdshwprv/IVdsController::Reset
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsController.Reset
 dev_langs:

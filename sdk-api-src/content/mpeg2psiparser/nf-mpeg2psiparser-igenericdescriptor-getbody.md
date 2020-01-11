@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: fbb17e16-b0a4-45c1-b723-cbb6a61d4d0f
 ms.date: 12/05/2018
 ms.keywords: GetBody, GetBody method [Microsoft TV Technologies], GetBody method [Microsoft TV Technologies],IGenericDescriptor interface, IGenericDescriptor interface [Microsoft TV Technologies],GetBody method, IGenericDescriptor.GetBody, IGenericDescriptor::GetBody, IGenericDescriptorGetBody, mpeg2psiparser/IGenericDescriptor::GetBody, mstv.igenericdescriptor_getbody
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/IGenericDescriptor.GetBody
 dev_langs:

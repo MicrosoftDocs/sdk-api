@@ -5,7 +5,6 @@ description: Returns the object implementing the current instance of **XMVECTORF
 ms.assetid: 9870b86b-290d-4665-bee6-19c4834cc43a
 ms.date: 05/13/2019
 ms.keywords: XMVECTORF32::operator __m128i
-ms.topic: language-reference
 f1_keywords:
 - directxmath/XMVECTORF32::operator __m128i
 dev_langs:

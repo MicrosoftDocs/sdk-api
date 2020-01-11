@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: c88c1137-5690-4139-9d10-90d036e8f31c
 ms.date: 12/05/2018
 ms.keywords: GRADIENT_FILL_RECT_H, GRADIENT_FILL_RECT_V, GRADIENT_FILL_TRIANGLE, GdiGradientFill, GdiGradientFill function [Windows GDI], gdi.gdigradientfill, wingdi/GdiGradientFill
-ms.topic: function
 f1_keywords:
 - wingdi/GdiGradientFill
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4c96d0b7-74d1-4f87-946d-beeaad517d91
 ms.date: 12/05/2018
 ms.keywords: IFileDialogControlEvents interface [Windows Shell],OnItemSelected method, IFileDialogControlEvents.OnItemSelected, IFileDialogControlEvents::OnItemSelected, OnItemSelected, OnItemSelected method [Windows Shell], OnItemSelected method [Windows Shell],IFileDialogControlEvents interface, shell.IFileDialogControlEvents_OnItemSelected, shell_IFileDialogControlEvents_OnItemSelected, shobjidl/IFileDialogControlEvents::OnItemSelected
-ms.topic: method
 f1_keywords:
 - shobjidl/IFileDialogControlEvents.OnItemSelected
 dev_langs:

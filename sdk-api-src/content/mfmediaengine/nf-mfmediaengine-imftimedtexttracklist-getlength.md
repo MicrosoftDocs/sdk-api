@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 468BF969-9D8D-4866-8E33-F1CC6F09E90A
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFTimedTextTrackList interface, IMFTimedTextTrackList interface [Media Foundation],GetLength method, IMFTimedTextTrackList.GetLength, IMFTimedTextTrackList::GetLength, mf.imftimedtexttracklist_getlength, mfmediaengine/IMFTimedTextTrackList::GetLength
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextTrackList.GetLength
 dev_langs:

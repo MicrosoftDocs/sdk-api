@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 2697d30d-17c7-417d-a02b-c4427987ec4b
 ms.date: 12/05/2018
 ms.keywords: WSDXML_ATTRIBUTE, WSDXML_ATTRIBUTE structure, _WSDXML_ATTRIBUTE, ncd.wsdxml_attribute_struct, wsdxmldom/WSDXML_ATTRIBUTE
-ms.topic: struct
 f1_keywords:
 - wsdxmldom/WSDXML_ATTRIBUTE
 dev_langs:

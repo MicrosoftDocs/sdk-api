@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 0a8c6c9f-051c-43a0-b43b-1fd8b4fef10c
 ms.date: 12/05/2018
 ms.keywords: FNREAD, FNREAD macro [Windows API], fdi/FNREAD, winprog.fnread
-ms.topic: macro
 f1_keywords:
 - fdi/FNREAD
 dev_langs:

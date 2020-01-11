@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: ccddeae4-14fc-47df-a612-83d48a479b48
 ms.date: 12/05/2018
 ms.keywords: ISimpleFrameSite, ISimpleFrameSite interface [COM], ISimpleFrameSite interface [COM],described, _ctrl_isimpleframesite, com.isimpleframesite, ocidl/ISimpleFrameSite
-ms.topic: interface
 f1_keywords:
 - ocidl/ISimpleFrameSite
 dev_langs:

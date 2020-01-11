@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 76bb749d-76cd-4c40-add3-4065d46ed6cb
 ms.date: 12/05/2018
 ms.keywords: 76bb749d-76cd-4c40-add3-4065d46ed6cb, BezierPoints property [Tablet PC], BezierPoints property [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],BezierPoints property, IInkStrokeDisp.BezierPoints, IInkStrokeDisp.get_BezierPoints, IInkStrokeDisp::BezierPoints, IInkStrokeDisp::get_BezierPoints, get_BezierPoints, msinkaut/IInkStrokeDisp::BezierPoints, msinkaut/IInkStrokeDisp::get_BezierPoints, tablet.iinkstrokedisp_bezierpoints
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkStrokeDisp.BezierPoints
 dev_langs:

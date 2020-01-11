@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 039c352c-d1f0-443f-acef-f730e949725c
 ms.date: 12/05/2018
 ms.keywords: WMT_TIMECODE_EXTENSION_DATA, WMT_TIMECODE_EXTENSION_DATA structure [windows Media Format], structure [windows Media Format], wmformat.wmt_timecode_extension_data, wmsdkidl/WMT_TIMECODE_EXTENSION_DATA
-ms.topic: struct
 f1_keywords:
 - wmsdkidl/WMT_TIMECODE_EXTENSION_DATA
 dev_langs:

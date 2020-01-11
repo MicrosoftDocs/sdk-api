@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 02690232-a887-4de3-a850-84ad8ffa9ee0
 ms.date: 12/05/2018
 ms.keywords: ?GetDWORD@CInstance@@QBE_NPBGAAK@Z, ?GetDWORD@CInstance@@QEBA_NPEBGAEAK@Z, CInstance interface [Windows Management Instrumentation],GetDWORD method, CInstance.GetDWORD, CInstance::GetDWORD, GetDWORD, GetDWORD method [Windows Management Instrumentation], GetDWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getdword, instance/CInstance::GetDWORD, wmi.cinstance_getdword
-ms.topic: method
 f1_keywords:
 - instance/CInstance.GetDWORD
 dev_langs:

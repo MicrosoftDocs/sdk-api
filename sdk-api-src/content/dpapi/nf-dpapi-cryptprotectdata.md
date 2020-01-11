@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 765a68fd-f105-49fc-a738-4a8129eb0770
 ms.date: 12/05/2018
 ms.keywords: CRYPTPROTECT_AUDIT, CRYPTPROTECT_LOCAL_MACHINE, CRYPTPROTECT_UI_FORBIDDEN, CryptProtectData, CryptProtectData function [Security], _crypto2_cryptprotectdata, dpapi/CryptProtectData, security.cryptprotectdata, wincrypt/CryptProtectData
-ms.topic: function
 f1_keywords:
 - dpapi/CryptProtectData
 dev_langs:

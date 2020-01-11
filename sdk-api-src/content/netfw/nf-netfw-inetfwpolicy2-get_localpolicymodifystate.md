@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 505c60b9-8359-49eb-aee0-cfa801d9113f
 ms.date: 12/05/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],LocalPolicyModifyState property, INetFwPolicy2.LocalPolicyModifyState, INetFwPolicy2.get_LocalPolicyModifyState, INetFwPolicy2::LocalPolicyModifyState, INetFwPolicy2::get_LocalPolicyModifyState, LocalPolicyModifyState property [ICS/ICF], LocalPolicyModifyState property [ICS/ICF],INetFwPolicy2 interface, NET_FW_MODIFY_STATE_GP_OVERRIDE, NET_FW_MODIFY_STATE_INBOUND_BLOCKED, NET_FW_MODIFY_STATE_OK, get_LocalPolicyModifyState, ics.inetfwpolicy2_localpolicymodifystate, netfw/INetFwPolicy2::LocalPolicyModifyState, netfw/INetFwPolicy2::get_LocalPolicyModifyState
-ms.topic: method
 f1_keywords:
 - netfw/INetFwPolicy2.LocalPolicyModifyState
 dev_langs:

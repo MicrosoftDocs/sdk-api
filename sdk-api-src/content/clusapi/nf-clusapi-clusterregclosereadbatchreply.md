@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: C8CC4292-A7CC-4613-B5A8-B504E804E00E
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCloseReadBatchReply, ClusterRegCloseReadBatchReply function [Failover Cluster], clusapi/ClusterRegCloseReadBatchReply, mscs.clusterregclosereadbatchreply
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterRegCloseReadBatchReply
 dev_langs:

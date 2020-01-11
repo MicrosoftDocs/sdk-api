@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 56BD9A75-2779-4D21-A083-75736DE6880E
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterIdentifyFeatureSetSecure, EngineAdapterIdentifyFeatureSetSecure callback function [Windows Biometric Framework API], PIBIO_ENGINE_IDENTIFY_FEATURE_SET_SECURE_FN, PIBIO_ENGINE_IDENTIFY_FEATURE_SET_SECURE_FN callback, secbiomet.engineadapteridentifyfeaturesetsecure, winbio_adapter/EngineAdapterIdentifyFeatureSetSecure
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterIdentifyFeatureSetSecure
 dev_langs:

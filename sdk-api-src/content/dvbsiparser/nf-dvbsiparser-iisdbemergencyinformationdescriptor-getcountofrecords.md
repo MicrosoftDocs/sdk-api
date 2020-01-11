@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: d23f1cc0-c6b0-4054-80be-36d7675fdec7
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbEmergencyInformationDescriptor.GetCountOfRecords, IIsdbEmergencyInformationDescriptor::GetCountOfRecords, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetCountOfRecords, mstv.iisdbemergencyinformationdescriptor_getcountofrecords
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbEmergencyInformationDescriptor.GetCountOfRecords
 dev_langs:

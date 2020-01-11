@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: 2ec606d7-42bd-47cc-a4cd-82908774aa43
 ms.date: 12/05/2018
 ms.keywords: '*PTRUSTED_DOMAIN_AUTH_INFORMATION, PTRUSTED_DOMAIN_AUTH_INFORMATION, PTRUSTED_DOMAIN_AUTH_INFORMATION structure pointer [Security], TRUSTED_DOMAIN_AUTH_INFORMATION, TRUSTED_DOMAIN_AUTH_INFORMATION structure [Security], _TRUSTED_DOMAIN_AUTH_INFORMATION, _lsa_trusted_domain_auth_information, ntsecapi/PTRUSTED_DOMAIN_AUTH_INFORMATION, ntsecapi/TRUSTED_DOMAIN_AUTH_INFORMATION, security.trusted_domain_auth_information'
-ms.topic: struct
 f1_keywords:
 - ntsecapi/TRUSTED_DOMAIN_AUTH_INFORMATION
 dev_langs:

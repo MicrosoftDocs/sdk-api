@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 90e37a33-6d58-4bfc-99e7-e1c244f927ed
 ms.date: 12/05/2018
 ms.keywords: DhcpServerBackupDatabase, DhcpServerBackupDatabase function [DHCP], dhcp.dhcpserverbackupdatabase, dhcpsapi/DhcpServerBackupDatabase
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpServerBackupDatabase
 dev_langs:

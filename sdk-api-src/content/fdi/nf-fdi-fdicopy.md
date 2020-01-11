@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 6ec2b10b-f70a-4a22-beff-df6b6a4c4cfd
 ms.date: 12/05/2018
 ms.keywords: FDICopy, FDICopy function [Windows API], fdi/FDICopy, winprog.fdicopy
-ms.topic: function
 f1_keywords:
 - fdi/FDICopy
 dev_langs:

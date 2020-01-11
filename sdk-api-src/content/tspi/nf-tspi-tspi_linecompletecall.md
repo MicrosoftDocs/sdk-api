@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: ec7b9aec-01f2-497a-924b-471fbb526bee
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineCompleteCall, TSPI_lineCompleteCall function [TAPI 2.2], _tspi_tspi_linecompletecall, tspi.tspi_linecompletecall, tspi/TSPI_lineCompleteCall
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineCompleteCall
 dev_langs:

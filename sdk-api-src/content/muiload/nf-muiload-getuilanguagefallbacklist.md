@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 18581fa1-f498-46ff-af83-dfbca80252e2
 ms.date: 12/05/2018
 ms.keywords: GetUILanguageFallbackList, GetUILanguageFallbackList function [Internationalization for Windows Applications], intl.getuilanguagefallbacklist, muiload/GetUILanguageFallbackList
-ms.topic: function
 f1_keywords:
 - muiload/GetUILanguageFallbackList
 dev_langs:

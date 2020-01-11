@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: D0927124-0568-4897-9169-445C252E8ED4
 ms.date: 12/05/2018
 ms.keywords: FhServiceOpenPipe, FhServiceOpenPipe function [Windows API], fhsvcctl/FhServiceOpenPipe, winprog.fhserviceopenpipe
-ms.topic: function
 f1_keywords:
 - fhsvcctl/FhServiceOpenPipe
 dev_langs:

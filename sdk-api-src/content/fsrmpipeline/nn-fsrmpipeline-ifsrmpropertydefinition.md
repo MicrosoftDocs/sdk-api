@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: b85d5df0-a99a-48d2-9bad-3b8c86abea91
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyDefinition, IFsrmPropertyDefinition interface [File Server Resource Manager], IFsrmPropertyDefinition interface [File Server Resource Manager],described, fs.ifsrmpropertydefinition, fsrm.ifsrmpropertydefinition, fsrm/IFsrmPropertyDefinition
-ms.topic: interface
 f1_keywords:
 - fsrmpipeline/IFsrmPropertyDefinition
 dev_langs:

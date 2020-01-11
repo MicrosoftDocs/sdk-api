@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6e26d005-50af-4376-b734-19ba3d9c470f
 ms.date: 12/05/2018
 ms.keywords: PathRemoveExtension, PathRemoveExtension function [Windows Shell], PathRemoveExtensionA, PathRemoveExtensionW, _win32_PathRemoveExtension, shell.PathRemoveExtension, shlwapi/PathRemoveExtension, shlwapi/PathRemoveExtensionA, shlwapi/PathRemoveExtensionW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathRemoveExtension
 dev_langs:

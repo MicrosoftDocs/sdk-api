@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 9175224c-82f0-4f22-9975-b1d7a332c3df
 ms.date: 12/05/2018
 ms.keywords: LDAPAPIInfo, LDAPAPIInfo structure [LDAP], LDAPAPIInfoA, LDAPAPIInfoW, ldap.ldapapiinfo, winldap/LDAPAPIInfo, winldap/LDAPAPIInfoA, winldap/LDAPAPIInfoW
-ms.topic: struct
 f1_keywords:
 - winldap/LDAPAPIInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: d5f2188f-f813-4c42-9878-52836ec8ebdc
 ms.date: 12/05/2018
 ms.keywords: GetPlayLength, GetPlayLength method [windows Media Device Manager], GetPlayLength method [windows Media Device Manager],IMDSPObjectInfo interface, IMDSPObjectInfo interface [windows Media Device Manager],GetPlayLength method, IMDSPObjectInfo.GetPlayLength, IMDSPObjectInfo::GetPlayLength, IMDSPObjectInfoGetPlayLength, mswmdm/IMDSPObjectInfo::GetPlayLength, wmdm.imdspobjectinfo_getplaylength
-ms.topic: method
 f1_keywords:
 - mswmdm/IMDSPObjectInfo.GetPlayLength
 dev_langs:

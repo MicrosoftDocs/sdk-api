@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7d9d960f-0dc9-4a36-8559-94cf1ea53e28
 ms.date: 12/05/2018
 ms.keywords: IViewStateIdentityItem, IViewStateIdentityItem interface [Windows Shell], IViewStateIdentityItem interface [Windows Shell],described, _shell_IViewStateIdentityItem, shell.IViewStateIdentityItem, shobjidl_core/IViewStateIdentityItem
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IViewStateIdentityItem
 dev_langs:

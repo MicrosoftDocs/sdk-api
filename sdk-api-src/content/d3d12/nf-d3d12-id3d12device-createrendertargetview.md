@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: B5BFAE54-4FAC-47E5-A7F1-3F9E78FED3B4
 ms.date: 12/05/2018
 ms.keywords: CreateRenderTargetView, CreateRenderTargetView method, CreateRenderTargetView method,ID3D12Device interface, ID3D12Device interface,CreateRenderTargetView method, ID3D12Device.CreateRenderTargetView, ID3D12Device::CreateRenderTargetView, d3d12/ID3D12Device::CreateRenderTargetView, direct3d12.id3d12device_createrendertargetview
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device.CreateRenderTargetView
 dev_langs:

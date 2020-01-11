@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 8c700357-0cb4-4780-9ff1-ac57c46f9183
 ms.date: 12/05/2018
 ms.keywords: IOCSPPropertyCollection, IOCSPPropertyCollection interface [Security], IOCSPPropertyCollection interface [Security],described, certadm/IOCSPPropertyCollection, security.iocsppropertycollection
-ms.topic: interface
 f1_keywords:
 - certadm/IOCSPPropertyCollection
 dev_langs:

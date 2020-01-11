@@ -5,7 +5,6 @@ description: Retrieves the number of axes defined by the font. This includes bot
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: IDWriteFontFace5 interface [Direct Write],GetFontAxisValueCount method, IDWriteFontFace5.GetFontAxisValueCount, IDWriteFontFace5::GetFontAxisValueCount, GetFontAxisValueCount, GetFontAxisValueCount method [Direct Write], GetFontAxisValueCount method [Direct Write],IDWriteFontFace5 interface, directwrite.idwritefontface5_getfontaxisvaluecount, dwrite_3/IDWriteFontFace5::GetFontAxisValueCount
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontFace5.GetFontAxisValueCount
 dev_langs:

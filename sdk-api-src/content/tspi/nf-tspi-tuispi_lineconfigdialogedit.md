@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 05169974-31f3-445b-b55f-5931bace6505
 ms.date: 12/05/2018
 ms.keywords: TUISPI_lineConfigDialogEdit, TUISPI_lineConfigDialogEdit function [TAPI 2.2], _tspi_tuispi_lineconfigdialogedit, tspi.tuispi_lineconfigdialogedit, tspi/TUISPI_lineConfigDialogEdit
-ms.topic: function
 f1_keywords:
 - tspi/TUISPI_lineConfigDialogEdit
 dev_langs:

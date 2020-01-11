@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: b14b8c40-f97f-4e41-8d8d-687692acfda9
 ms.date: 12/05/2018
 ms.keywords: GrayString, GrayString function [Windows GDI], GrayStringA, GrayStringW, _win32_GrayString, gdi.graystring, winuser/GrayString, winuser/GrayStringA, winuser/GrayStringW
-ms.topic: function
 f1_keywords:
 - winuser/GrayString
 dev_langs:

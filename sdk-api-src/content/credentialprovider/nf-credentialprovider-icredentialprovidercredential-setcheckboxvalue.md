@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7da8e80f-1cbe-4a10-96a0-7eb6e61b0f9b
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetCheckboxValue method, ICredentialProviderCredential.SetCheckboxValue, ICredentialProviderCredential::SetCheckboxValue, SetCheckboxValue, SetCheckboxValue method [Windows Shell], SetCheckboxValue method [Windows Shell],ICredentialProviderCredential interface, _shell_ICredentialProviderCredential_SetCheckboxValue, credentialprovider/ICredentialProviderCredential::SetCheckboxValue, shell.ICredentialProviderCredential_SetCheckboxValue
-ms.topic: method
 f1_keywords:
 - credentialprovider/ICredentialProviderCredential.SetCheckboxValue
 dev_langs:

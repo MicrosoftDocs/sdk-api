@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1e7a881d-decb-4018-b2e8-e0cba454236d
 ms.date: 12/05/2018
 ms.keywords: IStream_Reset, IStream_Reset function [Windows Shell], _win32_IStream_Reset, shell.IStream_Reset, shlwapi/IStream_Reset
-ms.topic: function
 f1_keywords:
 - shlwapi/IStream_Reset
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ixhr2
 ms.assetid: 64341C82-85EC-402F-A875-85706DFD7B25
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetCustomResponseStream method, IXMLHTTPRequest2.SetCustomResponseStream, IXMLHTTPRequest2::SetCustomResponseStream, SetCustomResponseStream, SetCustomResponseStream method [XMLHttpRequest2], SetCustomResponseStream method [XMLHttpRequest2],IXMLHTTPRequest2 interface, ixhr2.ixmlhttprequest2_setcustomresponsestream, msxml6/IXMLHTTPRequest2::SetCustomResponseStream
-ms.topic: method
 f1_keywords:
 - msxml6/IXMLHTTPRequest2.SetCustomResponseStream
 dev_langs:

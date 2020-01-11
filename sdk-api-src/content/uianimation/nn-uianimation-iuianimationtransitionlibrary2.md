@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 92C10ED5-DCE6-4B1D-8608-E2C3C6AD97BA
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTransitionLibrary2, IUIAnimationTransitionLibrary2 interface [Windows Animation], IUIAnimationTransitionLibrary2 interface [Windows Animation],described, uianimation.iuianimationtransitionlibrary2, uianimation/IUIAnimationTransitionLibrary2
-ms.topic: interface
 f1_keywords:
 - uianimation/IUIAnimationTransitionLibrary2
 dev_langs:

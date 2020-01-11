@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 381c87a8-fe40-4251-a4df-dddc9e2a126d
 ms.date: 12/05/2018
 ms.keywords: '*PDRIVE_LAYOUT_INFORMATION_EX, DRIVE_LAYOUT_INFORMATION_EX, DRIVE_LAYOUT_INFORMATION_EX structure [Files], PARTITION_STYLE_GPT, PARTITION_STYLE_MBR, PARTITION_STYLE_RAW, PDRIVE_LAYOUT_INFORMATION_EX, PDRIVE_LAYOUT_INFORMATION_EX structure pointer [Files], _win32_drive_layout_information_ex_str, base.drive_layout_information_ex_str, fs.drive_layout_information_ex_str, winioctl/DRIVE_LAYOUT_INFORMATION_EX, winioctl/PDRIVE_LAYOUT_INFORMATION_EX'
-ms.topic: struct
 f1_keywords:
 - winioctl/DRIVE_LAYOUT_INFORMATION_EX
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 086fd3ad-26d7-4b5b-b73a-a7d4db44d2c2
 ms.date: 12/05/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],put_SampleTime method, IBDA_SignalStatistics.put_SampleTime, IBDA_SignalStatistics::put_SampleTime, IBDA_SignalStatisticsput_SampleTime, bdaiface/IBDA_SignalStatistics::put_SampleTime, mstv.ibda_signalstatistics_put_sampletime, put_SampleTime, put_SampleTime method [Microsoft TV Technologies], put_SampleTime method [Microsoft TV Technologies],IBDA_SignalStatistics interface
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_SignalStatistics.put_SampleTime
 dev_langs:

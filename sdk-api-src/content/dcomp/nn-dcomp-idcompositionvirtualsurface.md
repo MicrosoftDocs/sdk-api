@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 51E8D52C-2446-46B6-A5C1-0DC7FA9DF4CC
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVirtualSurface, IDCompositionVirtualSurface interface [DirectComposition], IDCompositionVirtualSurface interface [DirectComposition],described, dcomp/IDCompositionVirtualSurface, directcomp.idcompositionvirtualsurface
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionVirtualSurface
 dev_langs:

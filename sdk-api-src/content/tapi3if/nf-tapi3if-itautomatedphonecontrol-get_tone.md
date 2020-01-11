@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 62e7ae4d-7839-4568-b8b2-7a377601ea7c
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_Tone method, ITAutomatedPhoneControl.get_Tone, ITAutomatedPhoneControl::get_Tone, _tapi3_itautomatedphonecontrol_get_tone, get_Tone, get_Tone method [TAPI 2.2], get_Tone method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_tone, tapi3if/ITAutomatedPhoneControl::get_Tone
-ms.topic: method
 f1_keywords:
 - tapi3if/ITAutomatedPhoneControl.get_Tone
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: C40694CB-7110-4ED0-B2E5-F73ADEA7BEA4
 ms.date: 12/05/2018
 ms.keywords: DCompositionCreateDevice2, DCompositionCreateDevice2 function [DirectComposition], dcomp/DCompositionCreateDevice2, directcomp.dcompositioncreatedevice2
-ms.topic: function
 f1_keywords:
 - dcomp/DCompositionCreateDevice2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 1a163774-2e32-48f7-9aa1-cbfa0ec7a943
 ms.date: 12/05/2018
 ms.keywords: GetStringProperty, GetStringProperty method [Security], GetStringProperty method [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],GetStringProperty method, IX509PolicyServerUrl.GetStringProperty, IX509PolicyServerUrl::GetStringProperty, PsFriendlyName, PsPolicyID, certenroll/IX509PolicyServerUrl::GetStringProperty, security.ix509policyserverurl_getstringproperty
-ms.topic: method
 f1_keywords:
 - certenroll/IX509PolicyServerUrl.GetStringProperty
 dev_langs:

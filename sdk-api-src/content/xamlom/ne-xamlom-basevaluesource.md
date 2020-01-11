@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: 1B5C4153-A266-43B1-B659-FE0FD0FD6A37
 ms.date: 12/05/2018
 ms.keywords: Animation, BaseValueSource, BaseValueSource enumeration, BaseValueSourceBuiltInStyle, BaseValueSourceDefault, BaseValueSourceLocal, BaseValueSourceStyle, BaseValueSourceUnknown, BaseValueSourceVisualState, Coercion, DefaultStyleTrigger, ImplicitStyleReference, Inherited, ParentTemplate, ParentTemplateTrigger, StyleTrigger, TemplateTrigger, xaml_diagnostics.basevaluesource, xamlom/Animation, xamlom/BaseValueSource, xamlom/BaseValueSourceBuiltInStyle, xamlom/BaseValueSourceDefault, xamlom/BaseValueSourceLocal, xamlom/BaseValueSourceStyle, xamlom/BaseValueSourceUnknown, xamlom/BaseValueSourceVisualState, xamlom/Coercion, xamlom/DefaultStyleTrigger, xamlom/ImplicitStyleReference, xamlom/Inherited, xamlom/ParentTemplate, xamlom/ParentTemplateTrigger, xamlom/StyleTrigger, xamlom/TemplateTrigger
-ms.topic: enum
 f1_keywords:
 - xamlom/BaseValueSource
 dev_langs:

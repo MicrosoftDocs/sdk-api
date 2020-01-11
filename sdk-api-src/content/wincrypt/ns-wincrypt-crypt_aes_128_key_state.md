@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 1a472caa-e57a-4b3a-ab28-8aacf8e39ad1
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_AES_128_KEY_STATE, CRYPT_AES_128_KEY_STATE, CRYPT_AES_128_KEY_STATE structure [Security], PCRYPT_AES_128_KEY_STATE, PCRYPT_AES_128_KEY_STATE structure pointer [Security], security.crypt_aes_128_key_state, wincrypt/CRYPT_AES_128_KEY_STATE, wincrypt/PCRYPT_AES_128_KEY_STATE'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_AES_128_KEY_STATE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3eeecd34-aa94-4a48-8b41-167a71b52860
 ms.date: 12/05/2018
 ms.keywords: CoWaitForMultipleHandles, CoWaitForMultipleHandles function [COM], _com_CoWaitForMultipleHandles, com.cowaitformultiplehandles, combaseapi/CoWaitForMultipleHandles
-ms.topic: function
 f1_keywords:
 - combaseapi/CoWaitForMultipleHandles
 dev_langs:

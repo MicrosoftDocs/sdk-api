@@ -4,7 +4,6 @@ title: LPWSPIOCTL
 description: The LPWSPIoctl function controls the mode of a socket.
 ms.date: 9/12/2019
 ms.keywords: LPWSPIOCTL
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

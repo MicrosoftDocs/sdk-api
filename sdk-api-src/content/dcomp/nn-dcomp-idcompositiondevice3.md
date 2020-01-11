@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 5da076dc-360d-0b28-f131-8669d1a91dd6
 ms.date: 12/05/2018
 ms.keywords: IDCompositionDevice3, IDCompositionDevice3 interface [DirectComposition], IDCompositionDevice3 interface [DirectComposition],described, dcomp/IDCompositionDevice3, directcomp.idcompositiondevice3
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionDevice3
 dev_langs:

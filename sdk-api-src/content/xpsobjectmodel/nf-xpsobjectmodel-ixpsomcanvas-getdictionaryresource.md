@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 96fa8c03-ce00-4d10-8a88-228600fdcae7
 ms.date: 12/05/2018
 ms.keywords: GetDictionaryResource, GetDictionaryResource method [XPS Documents and Packaging], GetDictionaryResource method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetDictionaryResource method, IXpsOMCanvas.GetDictionaryResource, IXpsOMCanvas::GetDictionaryResource, xps.ixpsomcanvas_getdictionaryresource, xpsobjectmodel/IXpsOMCanvas::GetDictionaryResource
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCanvas.GetDictionaryResource
 dev_langs:

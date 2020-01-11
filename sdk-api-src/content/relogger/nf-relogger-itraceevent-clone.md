@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: a4fa29f4-a265-4b42-a499-bc53566dc889
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [ETW], Clone method [ETW],ITraceEvent interface, ITraceEvent interface [ETW],Clone method, ITraceEvent.Clone, ITraceEvent::Clone, etw.ievent_clone, relogger/ITraceEvent::Clone
-ms.topic: method
 f1_keywords:
 - relogger/ITraceEvent.Clone
 dev_langs:

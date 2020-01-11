@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 055f3228-1e3b-4e31-9035-e509a98016a8
 ms.date: 12/05/2018
 ms.keywords: TF_HALTCOND, TF_HALTCOND structure [Text Services Framework], _tsf_tf_haltcond_ref, msctf/TF_HALTCOND, tsf.tf_haltcond
-ms.topic: struct
 f1_keywords:
 - msctf/TF_HALTCOND
 dev_langs:

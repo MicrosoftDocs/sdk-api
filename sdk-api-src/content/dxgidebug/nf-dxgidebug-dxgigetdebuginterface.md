@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 7702B842-6808-4CA9-A5B4-B1A1DC2479A7
 ms.date: 12/05/2018
 ms.keywords: DXGIGetDebugInterface, DXGIGetDebugInterface function [DXGI], direct3ddxgi.dxgigetdebuginterface, dxgidebug/DXGIGetDebugInterface
-ms.topic: function
 f1_keywords:
 - dxgidebug/DXGIGetDebugInterface
 dev_langs:

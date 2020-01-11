@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditoleinplacedeactivate.htm
 ms.date: 12/05/2018
 ms.keywords: IRichEditOle interface [Windows Controls],InPlaceDeactivate method, IRichEditOle.InPlaceDeactivate, IRichEditOle::InPlaceDeactivate, InPlaceDeactivate, InPlaceDeactivate method [Windows Controls], InPlaceDeactivate method [Windows Controls],IRichEditOle interface, _win32_IRichEditOle_InPlaceDeactivate, _win32_IRichEditOle_InPlaceDeactivate_cpp, controls.IRichEditOle_InPlaceDeactivate, controls._win32_IRichEditOle_InPlaceDeactivate, richole/IRichEditOle::InPlaceDeactivate
-ms.topic: method
 f1_keywords:
 - richole/IRichEditOle.InPlaceDeactivate
 dev_langs:

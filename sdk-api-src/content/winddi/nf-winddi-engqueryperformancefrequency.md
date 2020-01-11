@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: d4194278-eb49-43e4-b4bf-576e65d9e5ad
 ms.date: 12/05/2018
 ms.keywords: EngQueryPerformanceFrequency, EngQueryPerformanceFrequency function [Display Devices], display.engqueryperformancefrequency, gdifncs_46139586-61a2-4418-9400-ac9bbce12167.xml, winddi/EngQueryPerformanceFrequency
-ms.topic: function
 f1_keywords:
 - winddi/EngQueryPerformanceFrequency
 dev_langs:

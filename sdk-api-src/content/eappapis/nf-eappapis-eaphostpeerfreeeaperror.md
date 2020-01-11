@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 36f9b5dd-821d-4cc5-a1dd-587098635d17
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerFreeEapError, EapHostPeerFreeEapError function [EAPHost], eaphost.eaphostpeerfreeeaperror, eappapis/EapHostPeerFreeEapError
-ms.topic: function
 f1_keywords:
 - eappapis/EapHostPeerFreeEapError
 dev_langs:

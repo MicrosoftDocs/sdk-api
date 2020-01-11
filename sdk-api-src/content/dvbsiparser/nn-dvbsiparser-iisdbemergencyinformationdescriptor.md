@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 1d098415-1e64-4b49-aa48-654b0d0da5df
 ms.date: 12/05/2018
 ms.keywords: IIsdbEmergencyInformationDescriptor, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies], IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbEmergencyInformationDescriptor, mstv.iisdbemergencyinformationdescriptor
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IIsdbEmergencyInformationDescriptor
 dev_langs:

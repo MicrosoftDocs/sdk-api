@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: 45bed7c7-132e-48f9-8b9a-d8cb1580f456
 ms.date: 12/05/2018
 ms.keywords: QueryLogPolicy, QueryLogPolicy function [Files], clfsmgmtw32/QueryLogPolicy, fs.querylogpolicy
-ms.topic: function
 f1_keywords:
 - clfsmgmtw32/QueryLogPolicy
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 990702f4-fb6f-47a7-b538-f6632f831a4e
 ms.date: 12/05/2018
 ms.keywords: ITaskTrigger, ITaskTrigger interface [Task Scheduler], ITaskTrigger interface [Task Scheduler],described, _msb_itasktrigger, mstask/ITaskTrigger, taskschd.itasktrigger, triggers [Task Scheduler],interfaces,ITaskTrigger (obsolete)
-ms.topic: interface
 f1_keywords:
 - mstask/ITaskTrigger
 dev_langs:

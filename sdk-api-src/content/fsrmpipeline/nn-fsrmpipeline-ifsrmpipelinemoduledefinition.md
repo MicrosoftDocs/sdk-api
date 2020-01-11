@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 982c82a4-466d-476e-ad17-8f6f1c309c79
 ms.date: 12/05/2018
 ms.keywords: IFsrmPipelineModuleDefinition, IFsrmPipelineModuleDefinition interface [File Server Resource Manager], IFsrmPipelineModuleDefinition interface [File Server Resource Manager],described, fs.ifsrmpipelinemoduledefinition, fsrm.ifsrmpipelinemoduledefinition, fsrm/IFsrmPipelineModuleDefinition
-ms.topic: interface
 f1_keywords:
 - fsrmpipeline/IFsrmPipelineModuleDefinition
 dev_langs:

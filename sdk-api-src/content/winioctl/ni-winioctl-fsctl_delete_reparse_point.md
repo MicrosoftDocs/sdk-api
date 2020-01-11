@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: f582f3e3-56bd-4a21-817e-233ff0fece6e
 ms.date: 12/05/2018
 ms.keywords: FSCTL_DELETE_REPARSE_POINT, FSCTL_DELETE_REPARSE_POINT control, FSCTL_DELETE_REPARSE_POINT control code [Files], _win32_fsctl_delete_reparse_point, base.fsctl_delete_reparse_point, fs.fsctl_delete_reparse_point, winioctl/FSCTL_DELETE_REPARSE_POINT
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_DELETE_REPARSE_POINT
 dev_langs:

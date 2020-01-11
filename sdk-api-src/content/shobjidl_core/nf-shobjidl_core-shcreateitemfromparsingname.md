@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 81e48318-b6a4-4b1a-8b78-21c00b9dc485
 ms.date: 12/05/2018
 ms.keywords: SHCreateItemFromParsingName, SHCreateItemFromParsingName function [Windows Shell], _shell_SHCreateItemFromParsingName, shell.SHCreateItemFromParsingName, shobjidl_core/SHCreateItemFromParsingName
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHCreateItemFromParsingName
 dev_langs:

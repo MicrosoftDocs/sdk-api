@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 2a3c3c80-1bfc-4da0-ba6e-ac9e9a5c3e5b
 ms.date: 12/05/2018
 ms.keywords: SHGetPropertyStoreFromIDList, SHGetPropertyStoreFromIDList function [Windows Properties], _shell_SHGetPropertyStoreFromIDList, properties.SHGetPropertyStoreFromIDList, shell.SHGetPropertyStoreFromIDList, shobjidl_core/SHGetPropertyStoreFromIDList
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHGetPropertyStoreFromIDList
 dev_langs:

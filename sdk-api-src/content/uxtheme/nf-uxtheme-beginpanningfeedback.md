@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\beginpanningfeedback.htm
 ms.date: 12/05/2018
 ms.keywords: BeginPanningFeedback, BeginPanningFeedback function [Windows Controls], _controls_BeginPanningFeedback, _controls_BeginPanningFeedback_cpp, controls.BeginPanningFeedback, controls._controls_BeginPanningFeedback, uxtheme/BeginPanningFeedback
-ms.topic: function
 f1_keywords:
 - uxtheme/BeginPanningFeedback
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 7a4dc671-d82e-4775-8198-79b80a4dd9e4
 ms.date: 12/05/2018
 ms.keywords: MsiUseFeature, MsiUseFeature function, MsiUseFeatureA, MsiUseFeatureW, _msi_msiusefeature, msi/MsiUseFeature, msi/MsiUseFeatureA, msi/MsiUseFeatureW, setup.msiusefeature
-ms.topic: function
 f1_keywords:
 - msi/MsiUseFeature
 dev_langs:

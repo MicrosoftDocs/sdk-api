@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: 
 ms.date: 05/13/2019
 ms.keywords: XMUINT2, XMUINT2 constructor [DirectX Math Support APIs], XMUINT2 constructor [DirectX Math Support APIs],XMUINT2 structure, XMUINT2 structure [DirectX Math Support APIs],XMUINT2 constructor, XMUINT2.XMUINT2, XMUINT2.XMUINT2(), XMUINT2.XMUINT2(XMUINT2 &&), XMUINT2::XMUINT2, XMUINT2::XMUINT2(XMUINT2 &&), dxmath.xmuint2_ctor_1
-ms.topic: method
 f1_keywords:
 - directxmath/XMUINT2.XMUINT2
 dev_langs:

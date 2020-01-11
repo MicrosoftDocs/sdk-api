@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_7pf6.htm
 ms.date: 12/05/2018
 ms.keywords: '*PFAX_RECEIVE, FAX_RECEIVE, FAX_RECEIVE structure [Fax Service], PFAX_RECEIVE, PFAX_RECEIVE structure pointer [Fax Service], _mfax_fax_receive_str, fax._mfax_fax_receive_str, faxdev/FAX_RECEIVE, faxdev/PFAX_RECEIVE'
-ms.topic: struct
 f1_keywords:
 - faxdev/FAX_RECEIVE
 dev_langs:

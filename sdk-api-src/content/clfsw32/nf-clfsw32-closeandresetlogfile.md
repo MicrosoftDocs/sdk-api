@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: 333b2de0-f472-43f7-ae57-5cefa7ab6746
 ms.date: 12/05/2018
 ms.keywords: CloseAndResetLogFile, CloseAndResetLogFile function [Files], clfsw32/CloseAndResetLogFile, fs.closeandresetlogfile
-ms.topic: function
 f1_keywords:
 - clfsw32/CloseAndResetLogFile
 dev_langs:

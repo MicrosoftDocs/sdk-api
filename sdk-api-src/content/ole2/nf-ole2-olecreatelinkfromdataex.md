@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: f486dc73-3cb9-4839-931a-91cc3a5837d3
 ms.date: 12/05/2018
 ms.keywords: OleCreateLinkFromDataEx, OleCreateLinkFromDataEx function [COM], _ole_OleCreateLinkFromDataEx, com.olecreatelinkfromdataex, ole2/OleCreateLinkFromDataEx
-ms.topic: function
 f1_keywords:
 - ole2/OleCreateLinkFromDataEx
 dev_langs:

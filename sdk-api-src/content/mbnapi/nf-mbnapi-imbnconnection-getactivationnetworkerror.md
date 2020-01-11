@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: a8bda00b-5eff-46a4-b640-1794e8ea21cf
 ms.date: 12/05/2018
 ms.keywords: GetActivationNetworkError, GetActivationNetworkError method [Microsoft Broadband Networks], GetActivationNetworkError method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],GetActivationNetworkError method, IMbnConnection.GetActivationNetworkError, IMbnConnection::GetActivationNetworkError, mbn.imbnconnection_getactivationnetworkerror, mbnapi/IMbnConnection::GetActivationNetworkError
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnConnection.GetActivationNetworkError
 dev_langs:

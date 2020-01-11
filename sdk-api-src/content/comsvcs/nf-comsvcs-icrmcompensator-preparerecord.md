@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 12b4d0d5-29f3-4fbb-8091-1b7d5ba0adb4
 ms.date: 12/05/2018
 ms.keywords: ICrmCompensator interface [COM+],PrepareRecord method, ICrmCompensator.PrepareRecord, ICrmCompensator::PrepareRecord, PrepareRecord, PrepareRecord method [COM+], PrepareRecord method [COM+],ICrmCompensator interface, _dtc_ICrmCompensator_PrepareRecord, comsvcs/ICrmCompensator::PrepareRecord, cos.icrmcompensator_preparerecord
-ms.topic: method
 f1_keywords:
 - comsvcs/ICrmCompensator.PrepareRecord
 dev_langs:

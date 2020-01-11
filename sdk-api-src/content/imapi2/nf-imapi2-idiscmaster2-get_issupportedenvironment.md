@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: abaa4d89-07b2-4e7a-a0c9-8a31abfd9dd0
 ms.date: 12/05/2018
 ms.keywords: IDiscMaster2 interface [IMAPI],get_IsSupportedEnvironment method, IDiscMaster2.get_IsSupportedEnvironment, IDiscMaster2::get_IsSupportedEnvironment, get_IsSupportedEnvironment, get_IsSupportedEnvironment method [IMAPI], get_IsSupportedEnvironment method [IMAPI],IDiscMaster2 interface, imapi.idiscmaster2_get_issupportedenvironment, imapi2/IDiscMaster2::get_IsSupportedEnvironment
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscMaster2.get_IsSupportedEnvironment
 dev_langs:

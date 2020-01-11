@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 43c17910-a4b6-4889-ba98-4e125b4a3ac0
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDiscoveryPublisher2, WSDCreateDiscoveryPublisher2 function, ncd.wsdcreatediscoverypublisher2, wsddisco/WSDCreateDiscoveryPublisher2
-ms.topic: function
 f1_keywords:
 - wsddisco/WSDCreateDiscoveryPublisher2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 2d3ac397-07a0-45c4-84b4-0f4806a324bc
 ms.date: 12/05/2018
 ms.keywords: WsGetPolicyAlternativeCount, WsGetPolicyAlternativeCount function [Web Services for Windows], webservices/WsGetPolicyAlternativeCount, wsw.wsgetpolicyalternativecount
-ms.topic: function
 f1_keywords:
 - webservices/WsGetPolicyAlternativeCount
 dev_langs:

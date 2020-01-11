@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: a2c161ce-937e-449a-884f-89a8a847d8aa
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimerClientEventHandler interface [Windows Animation],OnTimerClientStatusChanged method, IUIAnimationTimerClientEventHandler.OnTimerClientStatusChanged, IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged, OnTimerClientStatusChanged, OnTimerClientStatusChanged method [Windows Animation], OnTimerClientStatusChanged method [Windows Animation],IUIAnimationTimerClientEventHandler interface, uianimation.iuianimationtimerclienteventhandler_ontimerclientstatuschanged, uianimation/IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationTimerClientEventHandler.OnTimerClientStatusChanged
 dev_langs:

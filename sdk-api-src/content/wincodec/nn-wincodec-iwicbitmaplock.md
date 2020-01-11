@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: c0ddbc25-6abe-484b-a545-3b9376c514df
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapLock, IWICBitmapLock interface [Windows Imaging Component], IWICBitmapLock interface [Windows Imaging Component],described, _wic_codec_iwicbitmaplock, wic._wic_codec_iwicbitmaplock, wincodec/IWICBitmapLock
-ms.topic: interface
 f1_keywords:
 - wincodec/IWICBitmapLock
 dev_langs:

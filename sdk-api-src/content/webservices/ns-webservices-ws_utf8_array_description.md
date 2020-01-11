@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: f4aa8194-06b0-4da7-b4cc-b59c0a046711
 ms.date: 12/05/2018
 ms.keywords: WS_UTF8_ARRAY_DESCRIPTION, WS_UTF8_ARRAY_DESCRIPTION structure [Web Services for Windows], webservices/WS_UTF8_ARRAY_DESCRIPTION, wsw.ws_utf8_array_description
-ms.topic: struct
 f1_keywords:
 - webservices/WS_UTF8_ARRAY_DESCRIPTION
 dev_langs:

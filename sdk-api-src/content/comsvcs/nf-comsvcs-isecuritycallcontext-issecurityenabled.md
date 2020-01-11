@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: b247d430-56b1-40be-a85a-5ed141d90c85
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallContext interface [COM+],IsSecurityEnabled method, ISecurityCallContext.IsSecurityEnabled, ISecurityCallContext::IsSecurityEnabled, IsSecurityEnabled, IsSecurityEnabled method [COM+], IsSecurityEnabled method [COM+],ISecurityCallContext interface, _cos_ISecurityCallContext_IsSecurityEnabled, comsvcs/ISecurityCallContext::IsSecurityEnabled, cos.isecuritycallcontext_issecurityenabled
-ms.topic: method
 f1_keywords:
 - comsvcs/ISecurityCallContext.IsSecurityEnabled
 dev_langs:

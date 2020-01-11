@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 259d0224-4e6e-43c8-905d-3529c781986a
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows GDI], Close method [Windows GDI],IXpsPrintJobStream interface, IXpsPrintJobStream interface [Windows GDI],Close method, IXpsPrintJobStream.Close, IXpsPrintJobStream::Close, gdi.ixpsprintjobstream_close, xpsprint/IXpsPrintJobStream::Close
-ms.topic: method
 f1_keywords:
 - xpsprint/IXpsPrintJobStream.Close
 dev_langs:

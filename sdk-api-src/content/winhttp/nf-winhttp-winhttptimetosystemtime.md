@@ -7,7 +7,6 @@ tech.root: WinHttp
 ms.assetid: 4a587832-e1ce-42d4-97bb-a728f895906b
 ms.date: 12/05/2018
 ms.keywords: WinHttpTimeToSystemTime, WinHttpTimeToSystemTime function [WinHTTP], http.winhttptimetosystemtime, winhttp.winhttptimetosystemtime_function, winhttp/WinHttpTimeToSystemTime
-ms.topic: function
 f1_keywords:
 - winhttp/WinHttpTimeToSystemTime
 dev_langs:

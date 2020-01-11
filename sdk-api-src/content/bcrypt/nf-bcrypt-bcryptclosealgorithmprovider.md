@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: def90d52-87e0-40e6-9c50-fd77177991d0
 ms.date: 12/05/2018
 ms.keywords: BCryptCloseAlgorithmProvider, BCryptCloseAlgorithmProvider function [Security], bcrypt/BCryptCloseAlgorithmProvider, security.bcryptclosealgorithmprovider_func
-ms.topic: function
 f1_keywords:
 - bcrypt/BCryptCloseAlgorithmProvider
 dev_langs:

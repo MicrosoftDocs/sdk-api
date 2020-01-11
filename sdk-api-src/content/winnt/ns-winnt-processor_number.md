@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 9005c6d4-07a9-4ce0-9ee2-54880d7244c3
 ms.date: 12/05/2018
 ms.keywords: '*PPROCESSOR_NUMBER, PPROCESSOR_NUMBER, PPROCESSOR_NUMBER structure pointer, PROCESSOR_NUMBER, PROCESSOR_NUMBER structure, base.processor_number, winnt/PPROCESSOR_NUMBER, winnt/PROCESSOR_NUMBER'
-ms.topic: struct
 f1_keywords:
 - winnt/PROCESSOR_NUMBER
 dev_langs:

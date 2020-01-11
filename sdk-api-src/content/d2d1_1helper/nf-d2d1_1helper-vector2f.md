@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 11279C5A-F825-437D-9F5F-ADCA328EBD33
 ms.date: 12/05/2018
 ms.keywords: Vector2F, Vector2F function [Direct2D], d2d1_1helper/Vector2F, direct2d.vector2f
-ms.topic: function
 f1_keywords:
 - d2d1_1helper/Vector2F
 dev_langs:

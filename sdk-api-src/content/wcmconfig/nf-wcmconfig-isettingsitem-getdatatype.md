@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: 6ccb99aa-35d5-4f0b-a4f3-a42c4579bc4a
 ms.date: 12/05/2018
 ms.keywords: GetDataType, GetDataType method [SMI], GetDataType method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetDataType method, ISettingsItem.GetDataType, ISettingsItem::GetDataType, smi.isettingsitem_getdatatype, wcmconfig/ISettingsItem::GetDataType
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsItem.GetDataType
 dev_langs:

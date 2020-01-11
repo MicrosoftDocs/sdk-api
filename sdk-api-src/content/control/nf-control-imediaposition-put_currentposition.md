@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6af44ce9-91d3-4329-835a-a1249924d672
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition interface [DirectShow],put_CurrentPosition method, IMediaPosition.put_CurrentPosition, IMediaPosition::put_CurrentPosition, IMediaPositionput_CurrentPosition, control/IMediaPosition::put_CurrentPosition, dshow.imediaposition_put_currentposition, put_CurrentPosition, put_CurrentPosition method [DirectShow], put_CurrentPosition method [DirectShow],IMediaPosition interface
-ms.topic: method
 f1_keywords:
 - control/IMediaPosition.put_CurrentPosition
 dev_langs:

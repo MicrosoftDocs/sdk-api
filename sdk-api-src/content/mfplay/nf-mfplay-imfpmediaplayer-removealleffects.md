@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 8745714c-315c-4183-86a2-7c189328dfe6
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],RemoveAllEffects method, IMFPMediaPlayer.RemoveAllEffects, IMFPMediaPlayer::RemoveAllEffects, RemoveAllEffects, RemoveAllEffects method [Media Foundation], RemoveAllEffects method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_removealleffects, mfplay/IMFPMediaPlayer::RemoveAllEffects
-ms.topic: method
 f1_keywords:
 - mfplay/IMFPMediaPlayer.RemoveAllEffects
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effectclass\effectmethods\getauxdatasize.htm
 ms.date: 12/05/2018
 ms.keywords: Effect class [GDI+],GetAuxDataSize method, Effect.GetAuxDataSize, Effect::GetAuxDataSize, GetAuxDataSize, GetAuxDataSize method [GDI+], GetAuxDataSize method [GDI+],Effect class, _gdiplus_CLASS_Effect_GetAuxDataSize_, gdiplus._gdiplus_CLASS_Effect_GetAuxDataSize_
-ms.topic: method
 f1_keywords:
 - gdipluseffects/Effect.GetAuxDataSize
 dev_langs:

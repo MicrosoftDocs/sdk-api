@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: b3efd0c9-d216-4b16-818d-76f3bb8f627e
 ms.date: 12/05/2018
 ms.keywords: MCIWndPlayFrom, MCIWndPlayFrom macro [Windows Multimedia], _win32_MCIWndPlayFrom, multimedia.mciwndplayfrom, vfw/MCIWndPlayFrom
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndPlayFrom
 dev_langs:

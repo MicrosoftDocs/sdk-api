@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 0AEDDE0D-D8E2-4C9E-AB2B-2FF0ACC3695D
 ms.date: 12/05/2018
 ms.keywords: ANRUS_ON_SCREEN_KEYBOARD_ACTIVE, ANRUS_PRIORITY_AUDIO_ACTIVE, ANRUS_PRIORITY_AUDIO_ACTIVE_NODUCK, ANRUS_TOUCH_MODIFICATION_ACTIVE, AccSetRunningUtilityState, AccSetRunningUtilityState function [Windows Accessibility], oleacc/AccSetRunningUtilityState, winauto.accsetrunningutilitystate
-ms.topic: function
 f1_keywords:
 - oleacc/AccSetRunningUtilityState
 dev_langs:

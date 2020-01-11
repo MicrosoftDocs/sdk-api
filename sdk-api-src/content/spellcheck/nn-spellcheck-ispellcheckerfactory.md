@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 7febbb7e-c557-4698-bf58-6e6e7f61b071
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckerFactory, ISpellCheckerFactory interface [Internationalization for Windows Applications], ISpellCheckerFactory interface [Internationalization for Windows Applications],described, intl.ispellcheckerfactory, spellcheck/ISpellCheckerFactory
-ms.topic: interface
 f1_keywords:
 - spellcheck/ISpellCheckerFactory
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 74d6ddd0-1b78-446a-9bce-6816eb34a2b9
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiInitiatorAdapter interface [VDS],LoginToTarget method, IVdsIscsiInitiatorAdapter.LoginToTarget, IVdsIscsiInitiatorAdapter::LoginToTarget, LoginToTarget, LoginToTarget method [VDS], LoginToTarget method [VDS],IVdsIscsiInitiatorAdapter interface, base.ivdsiscsiinitiatoradapter_logintotarget, vds/IVdsIscsiInitiatorAdapter::LoginToTarget
-ms.topic: method
 f1_keywords:
 - vds/IVdsIscsiInitiatorAdapter.LoginToTarget
 dev_langs:

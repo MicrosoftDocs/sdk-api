@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: bbcbde18-2b2d-48b0-9f52-185648f502ce
 ms.date: 12/05/2018
 ms.keywords: IEncoderAPI interface [Microsoft TV Technologies],IsSupported method, IEncoderAPI.IsSupported, IEncoderAPI::IsSupported, IEncoderAPIIsSupported, IsSupported, IsSupported method [Microsoft TV Technologies], IsSupported method [Microsoft TV Technologies],IEncoderAPI interface, mstv.iencoderapi_issupported, strmif/IEncoderAPI::IsSupported
-ms.topic: method
 f1_keywords:
 - strmif/IEncoderAPI.IsSupported
 dev_langs:

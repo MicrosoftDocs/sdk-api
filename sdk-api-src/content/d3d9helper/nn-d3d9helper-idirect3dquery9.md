@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dquery9.htm
 ms.date: 12/05/2018
 ms.keywords: 6e601b3e-6b1d-4777-8fd2-a1c3ed1d5565, IDirect3DQuery9, IDirect3DQuery9 interface [Direct3D 9], IDirect3DQuery9 interface [Direct3D 9],described, d3d9helper/IDirect3DQuery9, direct3d9.idirect3dquery9
-ms.topic: interface
 f1_keywords:
 - d3d9helper/IDirect3DQuery9
 dev_langs:

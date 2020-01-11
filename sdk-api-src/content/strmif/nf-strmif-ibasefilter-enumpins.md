@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 02675c93-7901-40f6-a9fc-f6f13f56acca
 ms.date: 12/05/2018
 ms.keywords: EnumPins, EnumPins method [DirectShow], EnumPins method [DirectShow],IBaseFilter interface, IBaseFilter interface [DirectShow],EnumPins method, IBaseFilter.EnumPins, IBaseFilter::EnumPins, IBaseFilterEnumPins, dshow.ibasefilter_enumpins, strmif/IBaseFilter::EnumPins
-ms.topic: method
 f1_keywords:
 - strmif/IBaseFilter.EnumPins
 dev_langs:

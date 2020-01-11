@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 03ed29b4-89c1-4702-a23f-d013eeef5d44
 ms.date: 12/05/2018
 ms.keywords: 03ed29b4-89c1-4702-a23f-d013eeef5d44, IMFTopologyServiceLookupClient interface [Media Foundation],ReleaseServicePointers method, IMFTopologyServiceLookupClient.ReleaseServicePointers, IMFTopologyServiceLookupClient::ReleaseServicePointers, ReleaseServicePointers, ReleaseServicePointers method [Media Foundation], ReleaseServicePointers method [Media Foundation],IMFTopologyServiceLookupClient interface, evr/IMFTopologyServiceLookupClient::ReleaseServicePointers, mf.imftopologyservicelookupclient_releaseservicepointers
-ms.topic: method
 f1_keywords:
 - evr/IMFTopologyServiceLookupClient.ReleaseServicePointers
 dev_langs:

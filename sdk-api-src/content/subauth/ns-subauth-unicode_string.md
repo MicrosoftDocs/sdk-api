@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 4687d63a-4e58-4181-a48f-2724e5015e77
 ms.date: 12/05/2018
 ms.keywords: '*PUNICODE_STRING, LSA_UNICODE_STRING, LSA_UNICODE_STRING structure [Security], PLSA_UNICODE_STRING, PLSA_UNICODE_STRING structure pointer [Security], PUNICODE_STRING, PUNICODE_STRING structure pointer [Security], UNICODE_STRING, UNICODE_STRING structure [Security], _lsa_unicode_string, ntsecapi/PLSA_UNICODE_STRING, ntsecapi/PUNICODE_STRING, ntsecapi/UNICODE_STRING, security.unicode_string, subauth/PLSA_UNICODE_STRING, subauth/PUNICODE_STRING, subauth/UNICODE_STRING'
-ms.topic: struct
 f1_keywords:
 - subauth/LSA_UNICODE_STRING
 dev_langs:

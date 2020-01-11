@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 10b25552-e923-4cd5-afb7-52164057f2e0
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawStreamSample interface [DirectShow],SetRect method, IDirectDrawStreamSample.SetRect, IDirectDrawStreamSample::SetRect, IDirectDrawStreamSampleSetRect, SetRect, SetRect method [DirectShow], SetRect method [DirectShow],IDirectDrawStreamSample interface, ddstream/IDirectDrawStreamSample::SetRect, dshow.idirectdrawstreamsample_setrect
-ms.topic: method
 f1_keywords:
 - ddstream/IDirectDrawStreamSample.SetRect
 dev_langs:

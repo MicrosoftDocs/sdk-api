@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 5f320288-09a8-4eaf-a7cd-54a4b52d0b47
 ms.date: 12/05/2018
 ms.keywords: IWMRegisterCallback interface [windows Media Format],Unadvise method, IWMRegisterCallback.Unadvise, IWMRegisterCallback::Unadvise, IWMRegisterCallbackUnadvise, Unadvise, Unadvise method [windows Media Format], Unadvise method [windows Media Format],IWMRegisterCallback interface, wmformat.iwmregistercallback_unadvise, wmsdkidl/IWMRegisterCallback::Unadvise
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMRegisterCallback.Unadvise
 dev_langs:

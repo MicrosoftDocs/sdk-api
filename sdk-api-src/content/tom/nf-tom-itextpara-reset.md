@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparareset.htm
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],Reset method, ITextPara.Reset, ITextPara::Reset, Reset, Reset method [Windows Controls], Reset method [Windows Controls],ITextPara interface, _win32_ITextPara_Reset, _win32_ITextPara_Reset_cpp, controls.ITextPara_Reset, controls._win32_ITextPara_Reset, tom/ITextPara::Reset
-ms.topic: method
 f1_keywords:
 - tom/ITextPara.Reset
 dev_langs:

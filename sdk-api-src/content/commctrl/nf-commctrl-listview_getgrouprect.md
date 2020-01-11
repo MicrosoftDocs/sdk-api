@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgrouprect.htm
 ms.date: 12/05/2018
 ms.keywords: LVGGR_GROUP, LVGGR_HEADER, LVGGR_LABEL, LVGGR_SUBSETLINK, ListView_GetGroupRect, ListView_GetGroupRect macro [Windows Controls], _shell_ListView_GetGroupRect, _shell_ListView_GetGroupRect_cpp, commctrl/ListView_GetGroupRect, controls.ListView_GetGroupRect, controls._shell_ListView_GetGroupRect
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_GetGroupRect
 dev_langs:

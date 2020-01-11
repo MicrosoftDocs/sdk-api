@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: D82269CF-8056-46CF-9832-AAE8767A854B
 ms.date: 12/05/2018
 ms.keywords: CfGetPlaceholderInfo, CfGetPlaceholderInfo function, cfapi/CfGetPlaceholderInfo, cloudApi.cfgetplaceholderinfo
-ms.topic: function
 f1_keywords:
 - cfapi/CfGetPlaceholderInfo
 dev_langs:

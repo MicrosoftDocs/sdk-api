@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.IsLocked
 ms.date: 12/05/2018
 ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],IsLocked method, CXAPOBase.IsLocked, CXAPOBase::IsLocked, IsLocked, IsLocked method [XAudio2 Audio Mixing APIs], IsLocked method [XAudio2 Audio Mixing APIs],CXAPOBase interface, xapobase/CXAPOBase::IsLocked, xaudio2.cxapobase_islocked
-ms.topic: method
 f1_keywords:
 - xapobase/CXAPOBase.IsLocked
 dev_langs:

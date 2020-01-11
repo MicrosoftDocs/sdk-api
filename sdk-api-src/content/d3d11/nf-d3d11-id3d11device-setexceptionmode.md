@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: a442a5dc-7931-4464-a6e7-76441e61da5b
 ms.date: 12/05/2018
 ms.keywords: ID3D11Device interface [Direct3D 11],SetExceptionMode method, ID3D11Device.SetExceptionMode, ID3D11Device::SetExceptionMode, SetExceptionMode, SetExceptionMode method [Direct3D 11], SetExceptionMode method [Direct3D 11],ID3D11Device interface, a5c01332-6f00-24e5-1424-e59e0f7353bd, d3d11/ID3D11Device::SetExceptionMode, direct3d11.id3d11device_setexceptionmode
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11Device.SetExceptionMode
 dev_langs:

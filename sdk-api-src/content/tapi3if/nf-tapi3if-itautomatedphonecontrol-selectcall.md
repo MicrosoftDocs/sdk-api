@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: b9e721cb-8f62-420d-bfc1-f8e634f0f2d4
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],SelectCall method, ITAutomatedPhoneControl.SelectCall, ITAutomatedPhoneControl::SelectCall, SelectCall, SelectCall method [TAPI 2.2], SelectCall method [TAPI 2.2],ITAutomatedPhoneControl interface, _tapi3_itautomatedphonecontrol_selectcall, tapi3.itautomatedphonecontrol_selectcall, tapi3if/ITAutomatedPhoneControl::SelectCall
-ms.topic: method
 f1_keywords:
 - tapi3if/ITAutomatedPhoneControl.SelectCall
 dev_langs:

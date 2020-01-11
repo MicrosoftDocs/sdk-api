@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: e247b79d-354c-4211-9160-e705436d669c
 ms.date: 12/05/2018
 ms.keywords: TS_SD_BACKWARD, TS_SD_FORWARD, TsShiftDir, TsShiftDir enumeration [Text Services Framework], _tsf_tsshiftdir_ref, textstor/TS_SD_BACKWARD, textstor/TS_SD_FORWARD, textstor/TsShiftDir, tsf.tsshiftdir
-ms.topic: enum
 f1_keywords:
 - textstor/TsShiftDir
 dev_langs:

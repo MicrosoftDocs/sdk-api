@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 7b20fcac-0481-4619-aa57-f72318a9a68d
 ms.date: 12/05/2018
 ms.keywords: IWSManConnectionOptions interface [Windows Remote Management],UserName property, IWSManConnectionOptions.UserName, IWSManConnectionOptions.put_UserName, IWSManConnectionOptions::UserName, IWSManConnectionOptions::get_UserName, IWSManConnectionOptions::put_UserName, UserName property [Windows Remote Management], UserName property [Windows Remote Management],IWSManConnectionOptions interface, put_UserName, winrm.iwsmanconnectionoptions_username, wsmandisp/IWSManConnectionOptions::UserName, wsmandisp/IWSManConnectionOptions::get_UserName, wsmandisp/IWSManConnectionOptions::put_UserName
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManConnectionOptions.UserName
 dev_langs:

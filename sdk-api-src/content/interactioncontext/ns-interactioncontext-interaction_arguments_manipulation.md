@@ -7,7 +7,6 @@ tech.root: Input_IntContext
 ms.assetid: 8ef21f5a-51ae-4923-a5b4-0ee18bca563f
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_ARGUMENTS_MANIPULATION, INTERACTION_ARGUMENTS_MANIPULATION structure, input_intcontext.interaction_arguments_manipulation, interactioncontext.interaction_arguments_manipulation, interactioncontext/INTERACTION_ARGUMENTS_MANIPULATION
-ms.topic: struct
 f1_keywords:
 - interactioncontext/INTERACTION_ARGUMENTS_MANIPULATION
 dev_langs:

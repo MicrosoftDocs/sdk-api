@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: c9f18299-bd0a-4c1c-acc0-2cc8bc84aa82
 ms.date: 12/05/2018
 ms.keywords: RtwqGetWorkQueueMMCSSPriority, RtwqGetWorkQueueMMCSSPriority function, base.rtwqgetworkqueuemmcsspriority, rtworkq/RtwqGetWorkQueueMMCSSPriority
-ms.topic: function
 f1_keywords:
 - rtworkq/RtwqGetWorkQueueMMCSSPriority
 dev_langs:

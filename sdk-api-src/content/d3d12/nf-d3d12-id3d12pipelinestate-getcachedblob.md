@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 318FCFEE-74A7-4546-989E-9AF674D2B853
 ms.date: 12/05/2018
 ms.keywords: GetCachedBlob, GetCachedBlob method, GetCachedBlob method,ID3D12PipelineState interface, ID3D12PipelineState interface,GetCachedBlob method, ID3D12PipelineState.GetCachedBlob, ID3D12PipelineState::GetCachedBlob, d3d12/ID3D12PipelineState::GetCachedBlob, direct3d12.id3d12pipelinestate_getcachedblob
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12PipelineState.GetCachedBlob
 dev_langs:

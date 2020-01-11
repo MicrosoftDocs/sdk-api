@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: c471716d-c2cc-4f79-8011-46690812b848
 ms.date: 12/05/2018
 ms.keywords: D2D1_ARC_SIZE, D2D1_ARC_SIZE enumeration [Direct2D], D2D1_ARC_SIZE_LARGE, D2D1_ARC_SIZE_SMALL, d2d1/D2D1_ARC_SIZE, d2d1/D2D1_ARC_SIZE_LARGE, d2d1/D2D1_ARC_SIZE_SMALL, direct2d.D2D1_ARC_SIZE
-ms.topic: enum
 f1_keywords:
 - d2d1/D2D1_ARC_SIZE
 dev_langs:

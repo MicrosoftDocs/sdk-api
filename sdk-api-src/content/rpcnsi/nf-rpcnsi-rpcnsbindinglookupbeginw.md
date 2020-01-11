@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 75b7e901-706a-4e3d-b958-d04a0709b993
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingLookupBegin, RpcNsBindingLookupBegin function [RPC], RpcNsBindingLookupBeginA, RpcNsBindingLookupBeginW, _rpc_rpcnsbindinglookupbegin, rpc.rpcnsbindinglookupbegin, rpcnsi/RpcNsBindingLookupBegin, rpcnsi/RpcNsBindingLookupBeginA, rpcnsi/RpcNsBindingLookupBeginW
-ms.topic: function
 f1_keywords:
 - rpcnsi/RpcNsBindingLookupBegin
 dev_langs:

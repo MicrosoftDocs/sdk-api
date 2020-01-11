@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 2b7502ac-fa1e-4104-a7ad-051303131a73
 ms.date: 12/05/2018
 ms.keywords: ImmGetContext, ImmGetContext function [Internationalization for Windows Applications], _win32_ImmGetContext, imm/ImmGetContext, intl.immgetcontext
-ms.topic: function
 f1_keywords:
 - immdev/ImmGetContext
 dev_langs:

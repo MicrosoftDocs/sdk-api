@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: abcfc33d-0310-46d2-a543-5c9529c2b851
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkForceStop, WlanHostedNetworkForceStop function [NativeWIFI], nwifi.wlanhostednetworkforcestop, wlanapi/WlanHostedNetworkForceStop
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanHostedNetworkForceStop
 dev_langs:

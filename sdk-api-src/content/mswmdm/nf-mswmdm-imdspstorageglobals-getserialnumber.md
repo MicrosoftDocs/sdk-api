@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 42765429-c230-4fa1-9e2e-e21c71e49ae0
 ms.date: 12/05/2018
 ms.keywords: GetSerialNumber, GetSerialNumber method [windows Media Device Manager], GetSerialNumber method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetSerialNumber method, IMDSPStorageGlobals.GetSerialNumber, IMDSPStorageGlobals::GetSerialNumber, IMDSPStorageGlobalsGetSerialNumber, mswmdm/IMDSPStorageGlobals::GetSerialNumber, wmdm.imdspstorageglobals_getserialnumber
-ms.topic: method
 f1_keywords:
 - mswmdm/IMDSPStorageGlobals.GetSerialNumber
 dev_langs:

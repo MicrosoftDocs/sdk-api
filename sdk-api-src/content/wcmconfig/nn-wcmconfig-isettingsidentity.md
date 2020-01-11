@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: aa9d5604-5b94-47d9-9e68-d708a656a5ea
 ms.date: 12/05/2018
 ms.keywords: ISettingsIdentity, ISettingsIdentity interface [SMI], ISettingsIdentity interface [SMI],described, smi.isettingsidentity, wcmconfig/ISettingsIdentity
-ms.topic: interface
 f1_keywords:
 - wcmconfig/ISettingsIdentity
 dev_langs:

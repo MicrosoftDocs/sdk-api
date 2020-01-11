@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: e1e984a2-2aee-452c-840c-42201ef5ee96
 ms.date: 12/05/2018
 ms.keywords: CoRevokeMallocSpy, CoRevokeMallocSpy function [COM], _com_CoRevokeMallocSpy, com.corevokemallocspy, objbase/CoRevokeMallocSpy
-ms.topic: function
 f1_keywords:
 - objbase/CoRevokeMallocSpy
 dev_langs:

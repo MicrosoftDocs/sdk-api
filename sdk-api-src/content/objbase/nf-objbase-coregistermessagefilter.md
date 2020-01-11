@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: caa5b277-ddbd-4ba9-892d-590d953b8433
 ms.date: 12/05/2018
 ms.keywords: CoRegisterMessageFilter, CoRegisterMessageFilter function [COM], _com_CoRegisterMessageFilter, com.coregistermessagefilter, objbase/CoRegisterMessageFilter
-ms.topic: function
 f1_keywords:
 - objbase/CoRegisterMessageFilter
 dev_langs:

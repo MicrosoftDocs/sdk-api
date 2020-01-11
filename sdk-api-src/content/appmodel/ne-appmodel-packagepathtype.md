@@ -5,7 +5,6 @@ description: Indicates the type of package folder to retrieve.
 tech.root: appxpkg
 ms.date: 01/31/19
 ms.keywords: PackagePathType
-ms.topic: enum
 f1_keywords:
 - appmodel/PackagePathType
 dev_langs:

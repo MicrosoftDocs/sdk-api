@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: d376af4c-4b22-4a2d-917a-6f25d2c38861
 ms.date: 12/05/2018
 ms.keywords: '*PMPEG_STREAM_BUFFER, MPEG_STREAM_BUFFER, MPEG_STREAM_BUFFER structure [Microsoft TV Technologies], PMPEG_STREAM_BUFFER, PMPEG_STREAM_BUFFER structure pointer [Microsoft TV Technologies], mpeg2structs/MPEG_STREAM_BUFFER, mpeg2structs/PMPEG_STREAM_BUFFER, mstv.mpeg_stream_buffer'
-ms.topic: struct
 f1_keywords:
 - mpeg2structs/MPEG_STREAM_BUFFER
 dev_langs:

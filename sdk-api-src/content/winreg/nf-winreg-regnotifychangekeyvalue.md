@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: aad72ed5-1123-4a8b-9fc4-b54a713b635e
 ms.date: 12/05/2018
 ms.keywords: REG_NOTIFY_CHANGE_ATTRIBUTES, REG_NOTIFY_CHANGE_LAST_SET, REG_NOTIFY_CHANGE_NAME, REG_NOTIFY_CHANGE_SECURITY, REG_NOTIFY_THREAD_AGNOSTIC, RegNotifyChangeKeyValue, RegNotifyChangeKeyValue function, _win32_regnotifychangekeyvalue, base.regnotifychangekeyvalue, winreg/RegNotifyChangeKeyValue
-ms.topic: function
 f1_keywords:
 - winreg/RegNotifyChangeKeyValue
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 58d7cd77-cfb6-493e-a9fd-26f469eec9f0
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetHelpContext method, ICreateTypeLib.SetHelpContext, ICreateTypeLib::SetHelpContext, SetHelpContext, SetHelpContext method [Automation], SetHelpContext method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetHelpContext, automat.icreatetypelib_sethelpcontext, oaidl/ICreateTypeLib::SetHelpContext
-ms.topic: method
 f1_keywords:
 - oaidl/ICreateTypeLib.SetHelpContext
 dev_langs:

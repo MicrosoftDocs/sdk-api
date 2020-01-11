@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 300e6345-0be0-48c7-a3a3-174879cf0bbb
 ms.date: 12/05/2018
 ms.keywords: CERT_NAME_ATTR_TYPE, CERT_NAME_DISABLE_IE4_UTF8_FLAG, CERT_NAME_DNS_TYPE, CERT_NAME_EMAIL_TYPE, CERT_NAME_FRIENDLY_DISPLAY_TYPE, CERT_NAME_ISSUER_FLAG, CERT_NAME_RDN_TYPE, CERT_NAME_SEARCH_ALL_NAMES_FLAG, CERT_NAME_SIMPLE_DISPLAY_TYPE, CERT_NAME_STR_ENABLE_PUNYCODE_FLAG, CERT_NAME_UPN_TYPE, CERT_NAME_URL_TYPE, CertGetNameString, CertGetNameString function [Security], CertGetNameStringA, CertGetNameStringW, _crypto2_certgetnamestring, security.certgetnamestring, wincrypt/CertGetNameString, wincrypt/CertGetNameStringA, wincrypt/CertGetNameStringW
-ms.topic: function
 f1_keywords:
 - wincrypt/CertGetNameString
 dev_langs:

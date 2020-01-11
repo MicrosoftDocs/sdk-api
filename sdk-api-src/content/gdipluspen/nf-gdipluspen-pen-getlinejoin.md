@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getlinejoin.htm
 ms.date: 12/05/2018
 ms.keywords: GetLineJoin, GetLineJoin method [GDI+], GetLineJoin method [GDI+],Pen class, Pen class [GDI+],GetLineJoin method, Pen.GetLineJoin, Pen::GetLineJoin, _gdiplus_CLASS_Pen_GetLineJoin_, gdiplus._gdiplus_CLASS_Pen_GetLineJoin_
-ms.topic: method
 f1_keywords:
 - gdipluspen/Pen.GetLineJoin
 dev_langs:

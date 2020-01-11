@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: a153d88f-4c7e-45fd-9cd8-497160711de4
 ms.date: 12/05/2018
 ms.keywords: IDataManager, IDataManager interface [PLA], IDataManager interface [PLA],described, base.idatamanager, pla.idatamanager, pla/IDataManager
-ms.topic: interface
 f1_keywords:
 - pla/IDataManager
 dev_langs:

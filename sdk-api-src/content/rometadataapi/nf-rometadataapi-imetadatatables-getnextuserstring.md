@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: d35a6622-df0a-4949-bc22-9bbd583337d4
 ms.date: 12/05/2018
 ms.keywords: GetNextUserString, GetNextUserString method [Windows Runtime], GetNextUserString method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetNextUserString method, IMetaDataTables.GetNextUserString, IMetaDataTables::GetNextUserString, rometadataapi/IMetaDataTables::GetNextUserString, winrt.imetadatatables_getnextuserstring
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataTables.GetNextUserString
 dev_langs:

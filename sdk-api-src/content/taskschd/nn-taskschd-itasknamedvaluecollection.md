@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 440dc70b-02de-4974-ad2a-462491d12775
 ms.date: 12/05/2018
 ms.keywords: ITaskNamedValueCollection, ITaskNamedValueCollection interface [Task Scheduler], ITaskNamedValueCollection interface [Task Scheduler],described, taskschd.itasknamedvaluecollection, taskschd/ITaskNamedValueCollection
-ms.topic: interface
 f1_keywords:
 - taskschd/ITaskNamedValueCollection
 dev_langs:

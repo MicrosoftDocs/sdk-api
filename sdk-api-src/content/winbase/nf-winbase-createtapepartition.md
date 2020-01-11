@@ -7,7 +7,6 @@ tech.root: Backup
 ms.assetid: 9add07a2-1f70-4c9a-b278-4bc8b6c9d043
 ms.date: 12/05/2018
 ms.keywords: CreateTapePartition, CreateTapePartition function [Backup], TAPE_FIXED_PARTITIONS, TAPE_INITIATOR_PARTITIONS, TAPE_SELECT_PARTITIONS, _win32_createtapepartition, backup.createtapepartition, base.createtapepartition, winbase/CreateTapePartition
-ms.topic: function
 f1_keywords:
 - winbase/CreateTapePartition
 dev_langs:

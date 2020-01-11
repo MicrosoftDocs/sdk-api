@@ -7,7 +7,6 @@ tech.root: xblidp
 ms.assetid: 0FC3C8A8-FB37-4207-9EC4-4DA15721C7AF
 ms.date: 12/05/2018
 ms.keywords: IXblIdpAuthManager interface,SetAppViewInitialized method, IXblIdpAuthManager.SetAppViewInitialized, IXblIdpAuthManager::SetAppViewInitialized, SetAppViewInitialized, SetAppViewInitialized method, SetAppViewInitialized method,IXblIdpAuthManager interface, xblidp.ixblidpauthmanager_setappviewinitialized, xblidpauthmanager/IXblIdpAuthManager::SetAppViewInitialized
-ms.topic: method
 f1_keywords:
 - xblidpauthmanager/IXblIdpAuthManager.SetAppViewInitialized
 dev_langs:

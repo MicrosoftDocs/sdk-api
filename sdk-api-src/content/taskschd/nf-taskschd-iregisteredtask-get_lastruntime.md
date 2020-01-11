@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: c7ac7fea-35c7-4336-9142-6c97caa1dea0
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],LastRunTime property, IRegisteredTask.LastRunTime, IRegisteredTask.get_LastRunTime, IRegisteredTask::LastRunTime, IRegisteredTask::get_LastRunTime, LastRunTime property [Task Scheduler], LastRunTime property [Task Scheduler],IRegisteredTask interface, get_LastRunTime, taskschd.iregisteredtask_lastruntime, taskschd/IRegisteredTask::LastRunTime, taskschd/IRegisteredTask::get_LastRunTime
-ms.topic: method
 f1_keywords:
 - taskschd/IRegisteredTask.LastRunTime
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: d2ea9e07-f11f-4418-ac79-578f86eb8568
 ms.date: 05/06/2019
 ms.keywords: XMSHORT2, XMSHORT2 constructor [DirectX Math Support APIs], XMSHORT2 constructor [DirectX Math Support APIs],XMSHORT2 structure, XMSHORT2 structure [DirectX Math Support APIs],XMSHORT2 constructor, XMSHORT2.XMSHORT2, XMSHORT2.XMSHORT2(), XMSHORT2.XMSHORT2(const float), XMSHORT2::XMSHORT2, XMSHORT2::XMSHORT2(const float), dxmath.xmshort2_ctor_1
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMSHORT2.XMSHORT2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2de6796d-beb3-4611-a559-449fe21193a6
 ms.date: 12/05/2018
 ms.keywords: ICCSubStreamFiltering, ICCSubStreamFiltering interface [Microsoft TV Technologies], ICCSubStreamFiltering interface [Microsoft TV Technologies],described, ICCSubStreamFilteringInterface, bdaiface/ICCSubStreamFiltering, mstv.iccsubstreamfiltering
-ms.topic: interface
 f1_keywords:
 - bdaiface/ICCSubStreamFiltering
 dev_langs:

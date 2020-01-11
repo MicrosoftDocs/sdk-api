@@ -7,7 +7,6 @@ tech.root: Services
 ms.assetid: 7d7940c3-b562-455f-9a21-6d5fb5953030
 ms.date: 12/05/2018
 ms.keywords: EnumServicesStatusEx, EnumServicesStatusEx function, EnumServicesStatusExA, EnumServicesStatusExW, SERVICE_ACTIVE, SERVICE_DRIVER, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INACTIVE, SERVICE_KERNEL_DRIVER, SERVICE_STATE_ALL, SERVICE_WIN32, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_enumservicesstatusex, base.enumservicesstatusex, winsvc/EnumServicesStatusEx, winsvc/EnumServicesStatusExA, winsvc/EnumServicesStatusExW
-ms.topic: function
 f1_keywords:
 - winsvc/EnumServicesStatusEx
 dev_langs:

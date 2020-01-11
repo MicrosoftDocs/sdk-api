@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 8ce69033-b69b-438b-a27f-938dd327c8ec
 ms.date: 11/25/2019
 ms.keywords: GetLongPathName, GetLongPathName function [Files], GetLongPathNameA, GetLongPathNameW, _win32_getlongpathname, base.getlongpathname, fileapi/GetLongPathName, fileapi/GetLongPathNameA, fileapi/GetLongPathNameW, fs.getlongpathname, winbase/GetLongPathName, winbase/GetLongPathNameA, winbase/GetLongPathNameW
-ms.topic: function
 f1_keywords:
 - fileapi/GetLongPathName
 dev_langs:

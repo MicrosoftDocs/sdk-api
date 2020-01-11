@@ -7,7 +7,6 @@ tech.root: proc_snap
 ms.assetid: 69B8F6A3-76DF-421B-B89B-73BA3254F897
 ms.date: 12/05/2018
 ms.keywords: PSS_VA_SPACE_ENTRY, PSS_VA_SPACE_ENTRY structure, proc_snap.pss_va_space_entry, processsnapshot/PSS_VA_SPACE_ENTRY
-ms.topic: struct
 f1_keywords:
 - processsnapshot/PSS_VA_SPACE_ENTRY
 dev_langs:

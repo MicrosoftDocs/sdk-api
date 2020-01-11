@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 2f70222d-f87a-49a5-8da5-15dfa2807cd7
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_FILTER_DATA, DXVAHD_STREAM_STATE_FILTER_DATA structure [Media Foundation], dxvahd/DXVAHD_STREAM_STATE_FILTER_DATA, mf.dxvahd_stream_state_filter_data
-ms.topic: struct
 f1_keywords:
 - dxvahd/DXVAHD_STREAM_STATE_FILTER_DATA
 dev_langs:

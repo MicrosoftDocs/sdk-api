@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 866fcd8d-775c-4dc0-824f-6817767247d9
 ms.date: 12/05/2018
 ms.keywords: 866fcd8d-775c-4dc0-824f-6817767247d9, ITextInputPanelEventSink interface [Tablet PC],InPlaceStateChanging method, ITextInputPanelEventSink.InPlaceStateChanging, ITextInputPanelEventSink::InPlaceStateChanging, InPlaceStateChanging, InPlaceStateChanging method [Tablet PC], InPlaceStateChanging method [Tablet PC],ITextInputPanelEventSink interface, peninputpanel/ITextInputPanelEventSink::InPlaceStateChanging, tablet.itextinputpaneleventsink_inplacestatechanging
-ms.topic: method
 f1_keywords:
 - peninputpanel/ITextInputPanelEventSink.InPlaceStateChanging
 dev_langs:

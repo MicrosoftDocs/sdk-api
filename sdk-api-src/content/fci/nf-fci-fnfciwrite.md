@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: ca4c3b5b-1ed5-4f12-8317-c1e1dac5f816
 ms.date: 12/05/2018
 ms.keywords: FNFCIWRITE, FNFCIWRITE macro [Windows API], fci/FNFCIWRITE, winprog.fnfciwrite
-ms.topic: macro
 f1_keywords:
 - fci/FNFCIWRITE
 dev_langs:

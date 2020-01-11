@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\previewvisible.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaVideo interface [WIA],PreviewVisible property, IWiaVideo.PreviewVisible, IWiaVideo.put_PreviewVisible, IWiaVideo::PreviewVisible, IWiaVideo::get_PreviewVisible, IWiaVideo::put_PreviewVisible, PreviewVisible property [WIA], PreviewVisible property [WIA],IWiaVideo interface, _wia_IWiaVideo_PreviewVisible, put_PreviewVisible, wia._wia_IWiaVideo_PreviewVisible, wiavideo/IWiaVideo::PreviewVisible, wiavideo/IWiaVideo::get_PreviewVisible, wiavideo/IWiaVideo::put_PreviewVisible
-ms.topic: method
 f1_keywords:
 - wiavideo/IWiaVideo.PreviewVisible
 dev_langs:

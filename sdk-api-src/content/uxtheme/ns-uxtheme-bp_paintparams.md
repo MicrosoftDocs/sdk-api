@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\bp_paintparams.htm
 ms.date: 12/05/2018
 ms.keywords: '*PBP_PAINTPARAMS, BPPF_ERASE, BPPF_NOCLIP, BPPF_NONCLIENT, BP_PAINTPARAMS, BP_PAINTPARAMS structure [Windows Controls], PBP_PAINTPARAMS, PBP_PAINTPARAMS structure pointer [Windows Controls], _shell_BP_PAINTPARAMS, _shell_BP_PAINTPARAMS_cpp, controls.BP_PAINTPARAMS, controls._shell_BP_PAINTPARAMS, uxtheme/BP_PAINTPARAMS, uxtheme/PBP_PAINTPARAMS'
-ms.topic: struct
 f1_keywords:
 - uxtheme/BP_PAINTPARAMS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: f3a87ec2-67a0-418f-af6e-6c0b5547cffb
 ms.date: 12/05/2018
 ms.keywords: SystemTimeToTzSpecificLocalTime, SystemTimeToTzSpecificLocalTime function, _win32_systemtimetotzspecificlocaltime, base.systemtimetotzspecificlocaltime, timezoneapi/SystemTimeToTzSpecificLocalTime
-ms.topic: function
 f1_keywords:
 - timezoneapi/SystemTimeToTzSpecificLocalTime
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: 01A2694F-E9CF-4DD2-95EA-6CD5C72C65A8
 ms.date: 12/05/2018
 ms.keywords: GetCollectionElements, GetCollectionElements method, GetCollectionElements method,IVisualTreeService interface, IVisualTreeService interface,GetCollectionElements method, IVisualTreeService.GetCollectionElements, IVisualTreeService::GetCollectionElements, xaml_diagnostics.ivisualtreeservice_getcollectionelements, xamlom/IVisualTreeService::GetCollectionElements
-ms.topic: method
 f1_keywords:
 - xamlom/IVisualTreeService.GetCollectionElements
 dev_langs:

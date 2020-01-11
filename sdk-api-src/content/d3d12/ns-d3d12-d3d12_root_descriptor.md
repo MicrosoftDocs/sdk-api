@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: F3ABC3B7-AD09-4CD6-9BE9-E30FAFD6E4F3
 ms.date: 12/05/2018
 ms.keywords: D3D12_ROOT_DESCRIPTOR, D3D12_ROOT_DESCRIPTOR structure, d3d12/D3D12_ROOT_DESCRIPTOR, direct3d12.d3d12_root_descriptor
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_ROOT_DESCRIPTOR
 dev_langs:

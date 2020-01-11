@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 03F4F1D8-8A90-4DDE-B0BC-8F10EBA9691E
 ms.date: 12/05/2018
 ms.keywords: IRtwqPlatformEvents interface,ShutdownComplete method, IRtwqPlatformEvents.ShutdownComplete, IRtwqPlatformEvents::ShutdownComplete, ShutdownComplete, ShutdownComplete method, ShutdownComplete method,IRtwqPlatformEvents interface, base.irtwqplatformevents_shutdowncomplete, rtworkq/IRtwqPlatformEvents::ShutdownComplete
-ms.topic: method
 f1_keywords:
 - rtworkq/IRtwqPlatformEvents.ShutdownComplete
 dev_langs:

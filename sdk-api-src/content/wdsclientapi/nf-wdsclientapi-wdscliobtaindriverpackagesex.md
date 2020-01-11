@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: C9AA3036-8E34-4F57-829C-F5D8CDA2EAA7
 ms.date: 12/05/2018
 ms.keywords: WdsCliObtainDriverPackagesEx, WdsCliObtainDriverPackagesEx function [Windows Deployment Services], wds.wdscliobtaindriverpackagesex, wdsclientapi/WdsCliObtainDriverPackagesEx
-ms.topic: function
 f1_keywords:
 - wdsclientapi/WdsCliObtainDriverPackagesEx
 dev_langs:

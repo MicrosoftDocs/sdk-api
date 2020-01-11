@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brightnesscontrast.htm
 ms.date: 12/05/2018
 ms.keywords: BrightnessContrast, BrightnessContrast class [GDI+], BrightnessContrast class [GDI+],described, _gdiplus_CLASS_BrightnessContrast_Class, gdiplus._gdiplus_CLASS_BrightnessContrast_Class, gdipluseffects/BrightnessContrast
-ms.topic: class
 f1_keywords:
 - gdipluseffects/BrightnessContrast
 dev_langs:

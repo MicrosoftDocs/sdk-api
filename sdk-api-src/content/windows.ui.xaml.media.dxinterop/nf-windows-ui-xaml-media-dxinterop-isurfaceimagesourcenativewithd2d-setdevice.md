@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: FBBF0A5E-68FF-4143-A874-0C1100100428
 ms.date: 12/05/2018
 ms.keywords: ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],SetDevice method, ISurfaceImageSourceNativeWithD2D.SetDevice, ISurfaceImageSourceNativeWithD2D.xaml, ISurfaceImageSourceNativeWithD2D::SetDevice, ISurfaceImageSourceNativeWithD2D::xaml, SetDevice, SetDevice method [Windows Runtime], SetDevice method [Windows Runtime],ISurfaceImageSourceNativeWithD2D interface, windows/ISurfaceImageSourceNativeWithD2D::SetDevice, winrt.isurfaceimagesourcenativewithd2d_setdevice
-ms.topic: method
 f1_keywords:
 - windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNativeWithD2D.SetDevice
 dev_langs:

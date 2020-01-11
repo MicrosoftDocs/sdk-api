@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 91a11552-66c1-42bd-b837-8a7685977bc9
 ms.date: 12/05/2018
 ms.keywords: GetCurrentThread, GetCurrentThread function, _win32_getcurrentthread, base.getcurrentthread, processthreadsapi/GetCurrentThread, winbase/GetCurrentThread
-ms.topic: function
 f1_keywords:
 - processthreadsapi/GetCurrentThread
 dev_langs:

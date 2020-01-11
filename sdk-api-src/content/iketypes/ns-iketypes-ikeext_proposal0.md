@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 59568ef7-12bd-407a-a8ee-9bf261f49883
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_PROPOSAL0, IKEEXT_PROPOSAL0 structure [Filtering], fwp.ikeext_proposal0, iketypes/IKEEXT_PROPOSAL0
-ms.topic: struct
 f1_keywords:
 - iketypes/IKEEXT_PROPOSAL0
 dev_langs:

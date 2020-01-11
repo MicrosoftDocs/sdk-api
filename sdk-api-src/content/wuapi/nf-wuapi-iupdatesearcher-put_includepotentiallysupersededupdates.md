@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: e01be972-e5d1-4b37-9ac4-cf9966ed0a4d
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],IncludePotentiallySupersededUpdates property, IUpdateSearcher.IncludePotentiallySupersededUpdates, IUpdateSearcher.put_IncludePotentiallySupersededUpdates, IUpdateSearcher::IncludePotentiallySupersededUpdates, IUpdateSearcher::get_IncludePotentiallySupersededUpdates, IUpdateSearcher::put_IncludePotentiallySupersededUpdates, IncludePotentiallySupersededUpdates property [Windows Update Agent], IncludePotentiallySupersededUpdates property [Windows Update Agent],IUpdateSearcher interface, put_IncludePotentiallySupersededUpdates, wua.iupdatesearcher_includepotentiallysupersededupdates, wua.iupdatesearcherincludepotentiallysupercededupdates, wuapi/IUpdateSearcher::IncludePotentiallySupersededUpdates, wuapi/IUpdateSearcher::get_IncludePotentiallySupersededUpdates, wuapi/IUpdateSearcher::put_IncludePotentiallySupersededUpdates
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateSearcher.IncludePotentiallySupersededUpdates
 dev_langs:

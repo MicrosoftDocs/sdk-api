@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: 46d40734-f022-4775-aa4f-13f4069c43c8
 ms.date: 12/05/2018
 ms.keywords: EvtNext, EvtNext function [EventLog], wes.evtnext, winevt/EvtNext
-ms.topic: function
 f1_keywords:
 - winevt/EvtNext
 dev_langs:

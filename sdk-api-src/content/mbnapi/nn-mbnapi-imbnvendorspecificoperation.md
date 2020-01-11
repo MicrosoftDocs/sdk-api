@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: cbc905f6-c5ac-4c6a-9021-4ec00b938bb2
 ms.date: 12/05/2018
 ms.keywords: IMbnVendorSpecificOperation, IMbnVendorSpecificOperation interface [Microsoft Broadband Networks], IMbnVendorSpecificOperation interface [Microsoft Broadband Networks],described, mbn.imbnvendorspecificoperation, mbnapi/IMbnVendorSpecificOperation
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnVendorSpecificOperation
 dev_langs:

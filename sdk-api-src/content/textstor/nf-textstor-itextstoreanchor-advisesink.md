@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: a2196d1c-b03e-44b4-b695-970feddb8ce5
 ms.date: 12/05/2018
 ms.keywords: AdviseSink, AdviseSink method [Text Services Framework], AdviseSink method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],AdviseSink method, ITextStoreAnchor.AdviseSink, ITextStoreAnchor::AdviseSink, textstor/ITextStoreAnchor::AdviseSink, tsf.itextstoreanchor_advisesink
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreAnchor.AdviseSink
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: EC0D1933-37C3-41E2-AB13-DA4AAF4B8F04
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationInterpolator2, IUIAnimationInterpolator2 interface [Windows Animation], IUIAnimationInterpolator2 interface [Windows Animation],described, uianimation.iuianimationinterpolator2, uianimation/IUIAnimationInterpolator2
-ms.topic: interface
 f1_keywords:
 - uianimation/IUIAnimationInterpolator2
 dev_langs:

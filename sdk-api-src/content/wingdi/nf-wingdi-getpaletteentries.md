@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 5e72e881-32e1-458e-a09e-91fa13abe178
 ms.date: 12/05/2018
 ms.keywords: GetPaletteEntries, GetPaletteEntries function [Windows GDI], _win32_GetPaletteEntries, gdi.getpaletteentries, wingdi/GetPaletteEntries
-ms.topic: function
 f1_keywords:
 - wingdi/GetPaletteEntries
 dev_langs:

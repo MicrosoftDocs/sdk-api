@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: a2428142-4dd0-467d-bb7c-3d7fca31111e
 ms.date: 12/05/2018
 ms.keywords: VDS_ISCSI_IPSEC_KEY, VDS_ISCSI_IPSEC_KEY structure [VDS], base.vds_iscsi_ipsec_key, vds/VDS_ISCSI_IPSEC_KEY, vdshwprv/VDS_ISCSI_IPSEC_KEY
-ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_ISCSI_IPSEC_KEY
 dev_langs:

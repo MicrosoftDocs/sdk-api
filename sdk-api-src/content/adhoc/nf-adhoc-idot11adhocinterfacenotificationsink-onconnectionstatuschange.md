@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: a2116e44-e29b-4110-8794-ed161fdb534d
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocInterfaceNotificationSink interface [NativeWIFI],OnConnectionStatusChange method, IDot11AdHocInterfaceNotificationSink.OnConnectionStatusChange, IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange, OnConnectionStatusChange, OnConnectionStatusChange method [NativeWIFI], OnConnectionStatusChange method [NativeWIFI],IDot11AdHocInterfaceNotificationSink interface, adhoc/IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange, nwifi.idot11adhocinterfacenotificationsink_onconnectionstatuschange
-ms.topic: method
 f1_keywords:
 - adhoc/IDot11AdHocInterfaceNotificationSink.OnConnectionStatusChange
 dev_langs:

@@ -5,7 +5,6 @@ description: The PathGradientBrush::SetCenterPoint method sets the center point 
 ms.assetid: 3123b926-ce18-4d71-a1e9-24dd9ecbd50e
 ms.date: 05/13/2019
 ms.keywords: PathGradientBrush::SetCenterPoint
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/PathGradientBrush::SetCenterPoint
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 504380d4-4df6-4b01-8db3-5c769a3d4106
 ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig interface [DirectShow],SetImageCompositor method, IVMRFilterConfig.SetImageCompositor, IVMRFilterConfig::SetImageCompositor, IVMRFilterConfigSetImageCompositor, SetImageCompositor, SetImageCompositor method [DirectShow], SetImageCompositor method [DirectShow],IVMRFilterConfig interface, dshow.ivmrfilterconfig_setimagecompositor, strmif/IVMRFilterConfig::SetImageCompositor
-ms.topic: method
 f1_keywords:
 - strmif/IVMRFilterConfig.SetImageCompositor
 dev_langs:

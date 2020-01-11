@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: 037170B1-B2DF-402F-A9E6-48C7693C9A93
 ms.date: 12/05/2018
 ms.keywords: '*PWER_REPORT_METADATA_V2, PWER_REPORT_METADATA_V2, PWER_REPORT_METADATA_V2 structure pointer [Windows Error Reporting], WER_REPORT_METADATA_V2, WER_REPORT_METADATA_V2 structure [Windows Error Reporting], wer.wer_report_metadata_v2, werapi/PWER_REPORT_METADATA_V2, werapi/WER_REPORT_METADATA_V2'
-ms.topic: struct
 f1_keywords:
 - werapi/WER_REPORT_METADATA_V2
 dev_langs:

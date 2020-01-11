@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: b3e58024-9a51-46e9-a9a1-c850166c9a85
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_WriteProtectStatus method, IDiscFormat2Data.get_WriteProtectStatus, IDiscFormat2Data::get_WriteProtectStatus, get_WriteProtectStatus, get_WriteProtectStatus method [IMAPI], get_WriteProtectStatus method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_writeprotectstatus, imapi2/IDiscFormat2Data::get_WriteProtectStatus
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2Data.get_WriteProtectStatus
 dev_langs:

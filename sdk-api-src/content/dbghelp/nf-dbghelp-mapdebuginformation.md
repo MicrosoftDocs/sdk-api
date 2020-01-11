@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 749a2a99-f6c4-4af3-aa0b-8a7bb5c690da
 ms.date: 12/05/2018
 ms.keywords: MapDebugInformation, MapDebugInformation function, _win32_mapdebuginformation, base.mapdebuginformation, dbghelp/MapDebugInformation
-ms.topic: function
 f1_keywords:
 - dbghelp/MapDebugInformation
 dev_langs:

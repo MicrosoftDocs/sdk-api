@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: fbbe12ea-964a-4a83-ac0a-ac8808bd9a63
 ms.date: 12/05/2018
 ms.keywords: IBDA_IPSinkInfo, IBDA_IPSinkInfo interface [Microsoft TV Technologies], IBDA_IPSinkInfo interface [Microsoft TV Technologies],described, IBDA_IPSinkInfoInterface, bdaiface/IBDA_IPSinkInfo, mstv.ibda_ipsinkinfo
-ms.topic: interface
 f1_keywords:
 - bdaiface/IBDA_IPSinkInfo
 dev_langs:

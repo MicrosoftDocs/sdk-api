@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: e0a51387-e638-40ee-a4e4-edd7f3115975
 ms.date: 12/05/2018
 ms.keywords: ITaskHandler interface [Task Scheduler],Start method, ITaskHandler.Start, ITaskHandler::Start, Start, Start method [Task Scheduler], Start method [Task Scheduler],ITaskHandler interface, taskschd.itaskhandler_start, taskschd/ITaskHandler::Start
-ms.topic: method
 f1_keywords:
 - taskschd/ITaskHandler.Start
 dev_langs:

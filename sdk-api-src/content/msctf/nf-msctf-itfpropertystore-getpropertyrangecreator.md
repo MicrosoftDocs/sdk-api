@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 94fa2e8f-5bdd-4ec0-b632-269d4a7b3f73
 ms.date: 12/05/2018
 ms.keywords: GetPropertyRangeCreator, GetPropertyRangeCreator method [Text Services Framework], GetPropertyRangeCreator method [Text Services Framework],ITfPropertyStore interface, ITfPropertyStore interface [Text Services Framework],GetPropertyRangeCreator method, ITfPropertyStore.GetPropertyRangeCreator, ITfPropertyStore::GetPropertyRangeCreator, _tsf_itfpropertystore_getpropertyrangecreator_ref, msctf/ITfPropertyStore::GetPropertyRangeCreator, tsf.itfpropertystore_getpropertyrangecreator
-ms.topic: method
 f1_keywords:
 - msctf/ITfPropertyStore.GetPropertyRangeCreator
 dev_langs:

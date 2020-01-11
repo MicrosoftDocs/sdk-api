@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: feb493da-0db2-4251-ba6f-ded1fbd3e430
 ms.date: 12/05/2018
 ms.keywords: OLECMDF, OLECMDF enumeration [COM], OLECMDF_DEFHIDEONCTXTMENU, OLECMDF_ENABLED, OLECMDF_INVISIBLE, OLECMDF_LATCHED, OLECMDF_NINCHED, OLECMDF_SUPPORTED, _ole_OLECMDF, com.olecmdf, docobj/OLECMDF, docobj/OLECMDF_DEFHIDEONCTXTMENU, docobj/OLECMDF_ENABLED, docobj/OLECMDF_INVISIBLE, docobj/OLECMDF_LATCHED, docobj/OLECMDF_NINCHED, docobj/OLECMDF_SUPPORTED
-ms.topic: enum
 f1_keywords:
 - docobj/OLECMDF
 dev_langs:

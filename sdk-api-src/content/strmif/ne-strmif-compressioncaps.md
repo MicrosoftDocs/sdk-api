@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e964756f-1c60-42fd-8497-637d5fc005d7
 ms.date: 12/05/2018
 ms.keywords: CompressionCaps, CompressionCaps enumeration [DirectShow], CompressionCapsEnumeration, CompressionCaps_CanBFrame, CompressionCaps_CanCrunch, CompressionCaps_CanKeyFrame, CompressionCaps_CanQuality, CompressionCaps_CanWindow, dshow.compressioncaps, strmif/CompressionCaps, strmif/CompressionCaps_CanBFrame, strmif/CompressionCaps_CanCrunch, strmif/CompressionCaps_CanKeyFrame, strmif/CompressionCaps_CanQuality, strmif/CompressionCaps_CanWindow
-ms.topic: enum
 f1_keywords:
 - strmif/CompressionCaps
 dev_langs:

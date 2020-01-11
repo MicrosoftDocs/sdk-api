@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 9aed5795-cfac-4a81-a05a-adcd661c7e3f
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarI8FromStr, VarI8FromStr function [Automation], _oa96_VarI8FromStr, automat.vari8fromstr, oleauto/VarI8FromStr
-ms.topic: function
 f1_keywords:
 - oleauto/VarI8FromStr
 dev_langs:

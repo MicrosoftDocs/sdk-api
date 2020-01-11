@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: d3f6155d-3989-49d7-8944-da26fd03617a
 ms.date: 12/05/2018
 ms.keywords: ITMediaRecord interface [TAPI 2.2],put_FileName method, ITMediaRecord.put_FileName, ITMediaRecord::put_FileName, _tapi3_itmediarecord_put_filename, put_FileName, put_FileName method [TAPI 2.2], put_FileName method [TAPI 2.2],ITMediaRecord interface, tapi3.itmediarecord_put_filename, tapi3if/ITMediaRecord::put_FileName
-ms.topic: method
 f1_keywords:
 - tapi3if/ITMediaRecord.put_FileName
 dev_langs:

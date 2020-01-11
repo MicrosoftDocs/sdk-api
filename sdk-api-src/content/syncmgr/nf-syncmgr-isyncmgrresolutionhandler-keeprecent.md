@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a2327234-4a8d-42b4-aa62-f5c286e3c24b
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],KeepRecent method, ISyncMgrResolutionHandler.KeepRecent, ISyncMgrResolutionHandler::KeepRecent, KeepRecent, KeepRecent method [Windows Shell], KeepRecent method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_KeepRecent, shell.ISyncMgrResolutionHandler_KeepRecent, syncmgr/ISyncMgrResolutionHandler::KeepRecent
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrResolutionHandler.KeepRecent
 dev_langs:

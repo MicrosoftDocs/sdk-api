@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: b89cfbab-5063-4c1b-92a8-d8ba067f7148
 ms.date: 12/05/2018
 ms.keywords: GetReadingDirection, GetReadingDirection method [Direct Write], GetReadingDirection method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetReadingDirection method, IDWriteTextFormat.GetReadingDirection, IDWriteTextFormat::GetReadingDirection, directwrite.IDWriteTextFormat_GetReadingDirection, dwrite/IDWriteTextFormat::GetReadingDirection
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextFormat.GetReadingDirection
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: b7efaa05-e6ac-4fb8-889f-ff6fa0755476
 ms.date: 12/05/2018
 ms.keywords: AssociateFileEx, AssociateFileEx function [Windows API], filehc/AssociateFileEx, winprog._associatefileex
-ms.topic: function
 f1_keywords:
 - filehc/AssociateFileEx
 dev_langs:

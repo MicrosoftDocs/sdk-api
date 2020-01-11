@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: bbbaf5a3-df17-42fd-ba2b-ad5b572c8a3f
 ms.date: 12/05/2018
 ms.keywords: PropStgNameToFmtId, PropStgNameToFmtId function [Structured Storage], _stg_propstgnametofmtid, coml2api/PropStgNameToFmtId, stg.propstgnametofmtid
-ms.topic: function
 f1_keywords:
 - coml2api/PropStgNameToFmtId
 dev_langs:

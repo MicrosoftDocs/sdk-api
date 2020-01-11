@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: f7278976-8f15-43a4-b9ef-fb1952fdd455
 ms.date: 12/05/2018
 ms.keywords: EnableAllExtensions, EnableAllExtensions method [MMC], EnableAllExtensions method [MMC],IRequiredExtensions interface, IRequiredExtensions interface [MMC],EnableAllExtensions method, IRequiredExtensions.EnableAllExtensions, IRequiredExtensions::EnableAllExtensions, _slate_irequiredextensions_enableallextensions, mmc.irequiredextensions_enableallextensions, mmc/IRequiredExtensions::EnableAllExtensions
-ms.topic: method
 f1_keywords:
 - mmc/IRequiredExtensions.EnableAllExtensions
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: A5AA17A2-414B-4641-A417-4F73384216F9
 ms.date: 12/05/2018
 ms.keywords: ILanguageExceptionStackBackTrace, ILanguageExceptionStackBackTrace interface [Windows Runtime], ILanguageExceptionStackBackTrace interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionStackBackTrace, winrt.ilanguageexceptionstackbacktrace
-ms.topic: interface
 f1_keywords:
 - restrictederrorinfo/ILanguageExceptionStackBackTrace
 dev_langs:

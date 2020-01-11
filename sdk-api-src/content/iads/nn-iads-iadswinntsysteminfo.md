@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 63a20250-1b93-49df-b7f8-7169db8efde0
 ms.date: 12/05/2018
 ms.keywords: IADsWinNTSystemInfo, IADsWinNTSystemInfo interface [ADSI], IADsWinNTSystemInfo interface [ADSI],described, _ds_iadswinntsysteminfo, adsi.iadswinntsysteminfo, iads/IADsWinNTSystemInfo
-ms.topic: interface
 f1_keywords:
 - iads/IADsWinNTSystemInfo
 dev_langs:

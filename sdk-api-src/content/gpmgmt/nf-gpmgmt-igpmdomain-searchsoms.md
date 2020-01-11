@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 7ca3b0ef-b0d5-408a-8d75-647546087155
 ms.date: 12/05/2018
 ms.keywords: GPMDomain object [GPMC],SearchSOMs method, IGPMDomain interface [GPMC],SearchSOMs method, IGPMDomain.SearchSOMs, IGPMDomain::SearchSOMs, SearchSOMs, SearchSOMs method [GPMC], SearchSOMs method [GPMC],GPMDomain object, SearchSOMs method [GPMC],IGPMDomain interface, _win32_igpmdomain_searchsoms, gpmc.igpmdomain_searchsoms, gpmgmt/IGPMDomain::SearchSOMs, somLinks
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPMDomain.SearchSOMs
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: a7bf24fb-a775-4a13-a808-86a0d4d25332
 ms.date: 12/05/2018
 ms.keywords: NPFMXGetPermHelp, NPFMXGetPermHelp function [Security], WNPERM_DLG_AUDIT, WNPERM_DLG_OWNER, WNPERM_DLG_PERM, _mnp_npfmxgetpermhelp, npapi/NPFMXGetPermHelp, security.npfmxgetpermhelp
-ms.topic: function
 f1_keywords:
 - npapi/NPFMXGetPermHelp
 dev_langs:

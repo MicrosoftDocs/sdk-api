@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 9906acea-5246-4f01-8d76-03b89ff2f789
 ms.date: 12/05/2018
 ms.keywords: UiaLookupId, UiaLookupId function [Windows Accessibility], uiauto.uiauto_UiaLookupIdAutoMeth, uiauto_UiaLookupIdAutoMeth, uiautomationcoreapi/UiaLookupId, winauto.uiauto_UiaLookupIdAutoMeth
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaLookupId
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 9e629cc8-2e5f-4682-a9b5-902d13a9792d
 ms.date: 12/05/2018
 ms.keywords: ClusterGroupSetOpenEnum, ClusterGroupSetOpenEnum function [Failover Cluster], clusapi/ClusterGroupSetOpenEnum, mscs.clustergroupcollectionopenenum
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterGroupSetOpenEnum
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 986591cf-97c5-4328-900e-b49f0f0859a5
 ms.date: 12/05/2018
 ms.keywords: '*PDELEGATEITEMID, DELEGATEITEMID, DELEGATEITEMID structure [Windows Shell], shell.DELEGATEITEMID, shell_DELEGATEITEMID, shobjidl_core/DELEGATEITEMID'
-ms.topic: struct
 f1_keywords:
 - shobjidl_core/DELEGATEITEMID
 dev_langs:

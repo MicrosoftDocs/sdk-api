@@ -7,7 +7,6 @@ tech.root: direct3dhlsl
 ms.assetid: cf9cea53-e7a3-4473-bfdf-0cdeb8370974
 ms.date: 12/05/2018
 ms.keywords: D3DGetBlobPart, D3DGetBlobPart function [HLSL], d3dcompiler/D3DGetBlobPart, direct3dhlsl.d3dgetblobpart
-ms.topic: function
 f1_keywords:
 - d3dcompiler/D3DGetBlobPart
 dev_langs:

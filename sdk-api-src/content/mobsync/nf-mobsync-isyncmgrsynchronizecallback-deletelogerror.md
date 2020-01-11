@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 06e90b81-14cc-4b3e-9d2d-30e60eeb8eb2
 ms.date: 12/05/2018
 ms.keywords: DeleteLogError, DeleteLogError method [Windows Shell], DeleteLogError method [Windows Shell],ISyncMgrSynchronizeCallback interface, ISyncMgrSynchronizeCallback interface [Windows Shell],DeleteLogError method, ISyncMgrSynchronizeCallback.DeleteLogError, ISyncMgrSynchronizeCallback::DeleteLogError, mobsync/ISyncMgrSynchronizeCallback::DeleteLogError, shell.syncmgr_isyncmgrsynchronizecallback_deletelogerror, syncmgr.isyncmgrsynchronizecallback_deletelogerror
-ms.topic: method
 f1_keywords:
 - mobsync/ISyncMgrSynchronizeCallback.DeleteLogError
 dev_langs:

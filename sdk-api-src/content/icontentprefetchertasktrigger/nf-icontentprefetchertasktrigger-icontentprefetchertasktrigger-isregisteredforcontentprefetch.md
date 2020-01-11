@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 6F8A0A9B-CF05-47F9-8486-10DFE720E0DD
 ms.date: 12/05/2018
 ms.keywords: IContentPrefetcherTaskTrigger interface [Web Services for Windows],IsRegisteredForContentPrefetch method, IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch, IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch, IsRegisteredForContentPrefetch, IsRegisteredForContentPrefetch method [Web Services for Windows], IsRegisteredForContentPrefetch method [Web Services for Windows],IContentPrefetcherTaskTrigger interface, icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch, wsw.icontentprefetchertasktrigger_isregisteredforcontentprefetch
-ms.topic: method
 f1_keywords:
 - icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch
 dev_langs:

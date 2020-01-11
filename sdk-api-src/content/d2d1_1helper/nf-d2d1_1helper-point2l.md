@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 25F6819F-BDCB-4E1E-95F0-00251A534ACC
 ms.date: 12/05/2018
 ms.keywords: Point2L, Point2L function [Direct2D], d2d1_1helper/Point2L, direct2d.point2l
-ms.topic: function
 f1_keywords:
 - d2d1_1helper/Point2L
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 8F5459DE-4BAA-412D-88E9-A81125150CAA
 ms.date: 12/05/2018
 ms.keywords: CurrentDropEffect property [Windows Accessibility], CurrentDropEffect property [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],CurrentDropEffect property, IUIAutomationDragPattern.CurrentDropEffect, IUIAutomationDragPattern.get_CurrentDropEffect, IUIAutomationDragPattern::CurrentDropEffect, IUIAutomationDragPattern::get_CurrentDropEffect, get_CurrentDropEffect, uiautomationclient/IUIAutomationDragPattern::CurrentDropEffect, uiautomationclient/IUIAutomationDragPattern::get_CurrentDropEffect, winauto.uiauto_iuiautomationdragpattern_currentdropeffect
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationDragPattern.CurrentDropEffect
 dev_langs:

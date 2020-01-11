@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 19f6989a-708a-485d-94c0-ab617707ced4
 ms.date: 12/05/2018
 ms.keywords: LoadPerfCounterTextStrings, LoadPerfCounterTextStrings function [Perf], LoadPerfCounterTextStringsA, LoadPerfCounterTextStringsW, _win32_loadperfcountertextstrings, base.loadperfcountertextstrings, loadperf/LoadPerfCounterTextStrings, loadperf/LoadPerfCounterTextStringsA, loadperf/LoadPerfCounterTextStringsW, perf.loadperfcountertextstrings
-ms.topic: function
 f1_keywords:
 - loadperf/LoadPerfCounterTextStrings
 dev_langs:

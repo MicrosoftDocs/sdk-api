@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 67e12738-9951-4118-b968-7959cd175cf2
 ms.date: 12/05/2018
 ms.keywords: IMenuBand, IMenuBand interface [Windows Shell], IMenuBand interface [Windows Shell],described, _shell_IMenuBand, shell.IMenuBand, shobjidl_core/IMenuBand
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IMenuBand
 dev_langs:

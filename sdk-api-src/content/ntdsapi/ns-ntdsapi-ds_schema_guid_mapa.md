@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 8128f511-ebdc-479d-b99c-ed210c72d151
 ms.date: 12/05/2018
 ms.keywords: '*PDS_SCHEMA_GUID_MAPA, DS_SCHEMA_GUID_ATTR, DS_SCHEMA_GUID_ATTR_SET, DS_SCHEMA_GUID_CLASS, DS_SCHEMA_GUID_CONTROL_RIGHT, DS_SCHEMA_GUID_MAP, DS_SCHEMA_GUID_MAP structure [Active Directory], DS_SCHEMA_GUID_MAPA, DS_SCHEMA_GUID_MAPW, DS_SCHEMA_GUID_NOT_FOUND, PDS_SCHEMA_GUID_MAP, PDS_SCHEMA_GUID_MAP structure pointer [Active Directory], _glines_ds_schema_guid_map, ad.ds__schema__guid__map, ad.ds_schema_guid_map, ntdsapi/DS_SCHEMA_GUID_MAP, ntdsapi/DS_SCHEMA_GUID_MAPA, ntdsapi/DS_SCHEMA_GUID_MAPW, ntdsapi/PDS_SCHEMA_GUID_MAP'
-ms.topic: struct
 f1_keywords:
 - ntdsapi/DS_SCHEMA_GUID_MAP
 dev_langs:

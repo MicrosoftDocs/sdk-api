@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 0082b7d3-61b2-478a-a6dd-ba59c20b7e1d
 ms.date: 12/05/2018
 ms.keywords: 0082b7d3-61b2-478a-a6dd-ba59c20b7e1d, GetInkExtent, GetInkExtent method [Tablet PC], GetInkExtent method [Tablet PC],IInkLineInfo interface, IInkLineInfo interface [Tablet PC],GetInkExtent method, IInkLineInfo.GetInkExtent, IInkLineInfo::GetInkExtent, msinkaut/IInkLineInfo::GetInkExtent, tablet.iinklineinfo_getinkextent
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkLineInfo.GetInkExtent
 dev_langs:

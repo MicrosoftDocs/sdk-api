@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.IsInputFormatSupported(const WAVEFORMATEX,const WAVEFORMATEX,WAVEFORMATEX)
 ms.date: 12/05/2018
 ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],IsInputFormatSupported method, IXAPO.IsInputFormatSupported, IXAPO::IsInputFormatSupported, IsInputFormatSupported, IsInputFormatSupported method [XAudio2 Audio Mixing APIs], IsInputFormatSupported method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::IsInputFormatSupported, xaudio2.ixapo_interface_isinputformatsupported
-ms.topic: method
 f1_keywords:
 - xapo/IXAPO.IsInputFormatSupported
 dev_langs:

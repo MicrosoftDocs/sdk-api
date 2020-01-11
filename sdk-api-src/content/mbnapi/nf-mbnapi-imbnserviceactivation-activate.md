@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 3c131363-9403-4c7a-984d-6602b879c08e
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Microsoft Broadband Networks], Activate method [Microsoft Broadband Networks],IMbnServiceActivation interface, IMbnServiceActivation interface [Microsoft Broadband Networks],Activate method, IMbnServiceActivation.Activate, IMbnServiceActivation::Activate, mbn.imbnserviceactivation_activate, mbnapi/IMbnServiceActivation::Activate
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnServiceActivation.Activate
 dev_langs:

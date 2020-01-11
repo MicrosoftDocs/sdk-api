@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: FDD227A5-FFB9-46E3-B7F7-BECE785ECD7C
 ms.date: 12/05/2018
 ms.keywords: D3D12_SIGNATURE_PARAMETER_DESC, D3D12_SIGNATURE_PARAMETER_DESC structure, d3d12shader/D3D12_SIGNATURE_PARAMETER_DESC, direct3d12.d3d12_signature_parameter_desc
-ms.topic: struct
 f1_keywords:
 - d3d12shader/D3D12_SIGNATURE_PARAMETER_DESC
 dev_langs:

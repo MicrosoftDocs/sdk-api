@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: c47c016a-e7eb-4a2c-b365-5537749db5bc
 ms.date: 12/05/2018
 ms.keywords: INSSBuffer, INSSBuffer interface [windows Media Format], INSSBuffer interface [windows Media Format],described, INSSBufferInterface, wmformat.inssbuffer, wmsbuffer/INSSBuffer
-ms.topic: interface
 f1_keywords:
 - wmsbuffer/INSSBuffer
 dev_langs:

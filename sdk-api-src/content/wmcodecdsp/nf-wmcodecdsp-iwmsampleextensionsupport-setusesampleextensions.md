@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e268167e-4c29-45ec-9ce3-733374268113
 ms.date: 12/05/2018
 ms.keywords: IWMSampleExtensionSupport interface [Media Foundation],SetUseSampleExtensions method, IWMSampleExtensionSupport.SetUseSampleExtensions, IWMSampleExtensionSupport::SetUseSampleExtensions, SetUseSampleExtensions, SetUseSampleExtensions method [Media Foundation], SetUseSampleExtensions method [Media Foundation],IWMSampleExtensionSupport interface, codecapi.iwmsampleextensionsupportsetusesampleextensions, mf.iwmsampleextensionsupportsetusesampleextensions, wmcodecdsp/IWMSampleExtensionSupport::SetUseSampleExtensions
-ms.topic: method
 f1_keywords:
 - wmcodecdsp/IWMSampleExtensionSupport.SetUseSampleExtensions
 dev_langs:

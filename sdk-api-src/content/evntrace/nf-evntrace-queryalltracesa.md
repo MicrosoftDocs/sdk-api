@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 6b6144b0-9152-4b5e-863d-06e823fbe084
 ms.date: 12/05/2018
 ms.keywords: QueryAllTraces, QueryAllTraces function [ETW], QueryAllTracesA, QueryAllTracesW, _evt_queryalltraces, base.queryalltraces, etw.queryalltraces, evntrace/QueryAllTraces, evntrace/QueryAllTracesA, evntrace/QueryAllTracesW
-ms.topic: function
 f1_keywords:
 - evntrace/QueryAllTraces
 dev_langs:

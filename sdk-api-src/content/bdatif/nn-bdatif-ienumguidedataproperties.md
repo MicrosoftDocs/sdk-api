@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ae4db426-7e90-4cb6-b53a-2cb7074308fc
 ms.date: 12/05/2018
 ms.keywords: IEnumGuideDataProperties, IEnumGuideDataProperties interface [Microsoft TV Technologies], IEnumGuideDataProperties interface [Microsoft TV Technologies],described, IEnumGuideDataPropertiesInterface, bdatif/IEnumGuideDataProperties, mstv.ienumguidedataproperties
-ms.topic: interface
 f1_keywords:
 - bdatif/IEnumGuideDataProperties
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: e6a7c5a2-838d-47b1-ab16-aa1d27806f53
 ms.date: 12/05/2018
 ms.keywords: FilterFindFirst, FilterFindFirst function [Installable File System Drivers], FltWin32ApiRef_1e28a34d-5d84-42cb-b530-24cac8c7b4dc.xml, fltuser/FilterFindFirst, ifsk.filterfindfirst
-ms.topic: function
 f1_keywords:
 - fltuser/FilterFindFirst
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 450ee4cc-5a09-4f14-832a-3982ec9de03b
 ms.date: 12/05/2018
 ms.keywords: GetFolderType, GetFolderType method [Windows Shell], GetFolderType method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],GetFolderType method, IShellLibrary.GetFolderType, IShellLibrary::GetFolderType, _shell_IShellLibrary_GetFolderType, shell.IShellLibrary_GetFolderType, shobjidl_core/IShellLibrary::GetFolderType
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellLibrary.GetFolderType
 dev_langs:

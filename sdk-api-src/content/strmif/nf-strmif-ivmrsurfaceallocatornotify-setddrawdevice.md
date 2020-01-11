@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 3e6bd77e-8b2d-4cd8-9bd3-40a3fe9373f3
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify interface [DirectShow],SetDDrawDevice method, IVMRSurfaceAllocatorNotify.SetDDrawDevice, IVMRSurfaceAllocatorNotify::SetDDrawDevice, IVMRSurfaceAllocatorNotifySetDDrawDevice, SetDDrawDevice, SetDDrawDevice method [DirectShow], SetDDrawDevice method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_setddrawdevice, strmif/IVMRSurfaceAllocatorNotify::SetDDrawDevice
-ms.topic: method
 f1_keywords:
 - strmif/IVMRSurfaceAllocatorNotify.SetDDrawDevice
 dev_langs:

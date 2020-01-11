@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a1feaa57-f403-46d0-b9a4-56e94ff2ceee
 ms.date: 12/05/2018
 ms.keywords: DIBSIZE, DIBSIZE macro [DirectShow], amvideo/DIBSIZE, dshow.dibsize
-ms.topic: macro
 f1_keywords:
 - amvideo/DIBSIZE
 dev_langs:

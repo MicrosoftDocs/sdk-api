@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 2f5b7b99-64a0-4156-8963-cfceb0d73503
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRadialGradientBrush, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging], IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],described, xps.ixpsomradialgradientbrush, xpsobjectmodel/IXpsOMRadialGradientBrush
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMRadialGradientBrush
 dev_langs:

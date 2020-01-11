@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 3cf8f2a1-61b4-4702-954e-e5eb260820c7
 ms.date: 12/05/2018
 ms.keywords: WS_VALIDATE_PASSWORD_CALLBACK, WS_VALIDATE_PASSWORD_CALLBACK callback, WS_VALIDATE_PASSWORD_CALLBACK callback function [Web Services for Windows], webservices/WS_VALIDATE_PASSWORD_CALLBACK, wsw.ws_validate_password_callback
-ms.topic: callback
 f1_keywords:
 - webservices/WS_VALIDATE_PASSWORD_CALLBACK
 dev_langs:

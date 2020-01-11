@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: a276e30c-6a7f-4cde-9639-21a9f5170b62
 ms.date: 12/05/2018
 ms.keywords: GetActiveObject, GetActiveObject function [Automation], _oa96_GetActiveObject, automat.getactiveobject, oleauto/GetActiveObject
-ms.topic: function
 f1_keywords:
 - oleauto/GetActiveObject
 dev_langs:

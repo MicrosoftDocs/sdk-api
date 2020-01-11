@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors\bitmap_56filename_useicm.htm
 ms.date: 12/05/2018
 ms.keywords: Bitmap, Bitmap class [GDI+],Bitmap constructor, Bitmap constructor [GDI+], Bitmap constructor [GDI+],Bitmap class, Bitmap.Bitmap, Bitmap.Bitmap(IN const WCHAR,IN BOOL), Bitmap.Bitmap(const WCHAR*,BOOL), Bitmap::Bitmap, Bitmap::Bitmap(IN const WCHAR,IN BOOL), _gdiplus_CLASS_Bitmap_Bitmap_filename_useIcm_, gdiplus._gdiplus_CLASS_Bitmap_Bitmap_filename_useIcm_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Bitmap.Bitmap
 dev_langs:

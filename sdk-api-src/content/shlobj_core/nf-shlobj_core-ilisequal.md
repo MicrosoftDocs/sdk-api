@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 139613fc-cd3b-4d5b-b590-096af8f01b62
 ms.date: 12/05/2018
 ms.keywords: ILIsEqual, ILIsEqual function [Windows Shell], _win32_ILIsEqual, shell.ILIsEqual, shlobj_core/ILIsEqual
-ms.topic: function
 f1_keywords:
 - shlobj_core/ILIsEqual
 dev_langs:

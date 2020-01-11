@@ -3,7 +3,6 @@ UID: NE:wlanapi._WLAN_IHV_CONTROL_TYPE~r1
 title: WLAN_IHV_CONTROL_TYPE
 ms.date: 01/30/19
 ms.keywords: _WLAN_IHV_CONTROL_TYPE, WLAN_IHV_CONTROL_TYPE
-ms.topic: language-reference
 f1_keywords:
 - wlanapi/_WLAN_IHV_CONTROL_TYPE
 dev_langs:

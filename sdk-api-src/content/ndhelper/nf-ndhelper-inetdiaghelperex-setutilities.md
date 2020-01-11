@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: cdc3cdd5-c301-4052-81ec-a4a68248d3a4
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelperEx interface [NDF],SetUtilities method, INetDiagHelperEx.SetUtilities, INetDiagHelperEx::SetUtilities, SetUtilities, SetUtilities method [NDF], SetUtilities method [NDF],INetDiagHelperEx interface, ndf.inetdiaghelperex_setutilities, ndhelper/INetDiagHelperEx::SetUtilities
-ms.topic: method
 f1_keywords:
 - ndhelper/INetDiagHelperEx.SetUtilities
 dev_langs:

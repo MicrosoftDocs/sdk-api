@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 4d9145d2-5be4-4da3-9d03-01ebd74e0d06
 ms.date: 12/05/2018
 ms.keywords: GRAYSTRINGPROC, GRAYSTRINGPROC callback, GRAYSTRINGPROC callback function [Windows GDI], _win32_OutputProc, gdi.outputproc, winuser/GRAYSTRINGPROC
-ms.topic: callback
 f1_keywords:
 - winuser/GRAYSTRINGPROC
 dev_langs:

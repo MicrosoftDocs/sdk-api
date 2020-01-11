@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 56fbe145-1972-4b44-a730-17860e428dd0
 ms.date: 12/05/2018
 ms.keywords: TS_SELECTION_ANCHOR, TS_SELECTION_ANCHOR structure [Text Services Framework], _tsf_ts_selection_anchor_ref, textstor/TS_SELECTION_ANCHOR, tsf.ts_selection_anchor
-ms.topic: struct
 f1_keywords:
 - textstor/TS_SELECTION_ANCHOR
 dev_langs:

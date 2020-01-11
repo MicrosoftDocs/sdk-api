@@ -7,7 +7,6 @@ tech.root: WinHttp
 ms.assetid: c8b94285-1b01-451b-9803-cc1bacb015ff
 ms.date: 12/05/2018
 ms.keywords: WinHttpWriteData, WinHttpWriteData function [WinHTTP], http.winhttpwritedata, winhttp.winhttpwritedata_function, winhttp/WinHttpWriteData
-ms.topic: function
 f1_keywords:
 - winhttp/WinHttpWriteData
 dev_langs:

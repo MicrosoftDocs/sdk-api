@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: b3597d29-51a5-410f-9925-4d678dd641c1
 ms.date: 12/05/2018
 ms.keywords: WSACancelBlockingCall, WSACancelBlockingCall function [Winsock], _win32_wsacancelblockingcall_2, winsock.wsacancelblockingcall_2, winsock2/WSACancelBlockingCall
-ms.topic: function
 f1_keywords:
 - winsock2/WSACancelBlockingCall
 dev_langs:

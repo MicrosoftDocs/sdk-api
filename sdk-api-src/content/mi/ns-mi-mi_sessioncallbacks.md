@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 76b21381-201e-4128-b0db-18d8968a80bb
 ms.date: 12/05/2018
 ms.keywords: MI_SessionCallbacks, MI_SessionCallbacks structure [Windows Management Infrastructure (MI)], mi/MI_SessionCallbacks, wmi_v2.mi_sessioncallbacks
-ms.topic: struct
 f1_keywords:
 - mi/MI_SessionCallbacks
 dev_langs:

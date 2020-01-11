@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 440d2838-0314-45f7-b73b-653fe5535c88
 ms.date: 12/05/2018
 ms.keywords: 440d2838-0314-45f7-b73b-653fe5535c88, AddStream, AddStream method [Media Foundation], AddStream method [Media Foundation],IMFASFStreamPrioritization interface, IMFASFStreamPrioritization interface [Media Foundation],AddStream method, IMFASFStreamPrioritization.AddStream, IMFASFStreamPrioritization::AddStream, mf.imfasfstreamprioritization_addstream, wmcontainer/IMFASFStreamPrioritization::AddStream
-ms.topic: method
 f1_keywords:
 - wmcontainer/IMFASFStreamPrioritization.AddStream
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tcui
 ms.assetid: D6336E6F-427B-4122-B437-411A7F6A0751
 ms.date: 12/05/2018
 ms.keywords: CheckGamingPrivilegeWithUI, CheckGamingPrivilegeWithUI function, gamingtcui/CheckGamingPrivilegeWithUI, tcui.CheckGamingPrivilegeWithUI
-ms.topic: function
 f1_keywords:
 - gamingtcui/CheckGamingPrivilegeWithUI
 dev_langs:

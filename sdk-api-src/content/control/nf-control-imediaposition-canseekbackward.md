@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8152553a-173b-4f0b-bcdf-b9c20912921d
 ms.date: 12/05/2018
 ms.keywords: CanSeekBackward, CanSeekBackward method [DirectShow], CanSeekBackward method [DirectShow],IMediaPosition interface, IMediaPosition interface [DirectShow],CanSeekBackward method, IMediaPosition.CanSeekBackward, IMediaPosition::CanSeekBackward, IMediaPositionCanSeekBackward, control/IMediaPosition::CanSeekBackward, dshow.imediaposition_canseekbackward
-ms.topic: method
 f1_keywords:
 - control/IMediaPosition.CanSeekBackward
 dev_langs:

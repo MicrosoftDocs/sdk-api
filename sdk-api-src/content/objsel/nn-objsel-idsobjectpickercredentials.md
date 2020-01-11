@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 336e7e68-0903-42f7-9810-53ccceed32de
 ms.date: 12/05/2018
 ms.keywords: IDsObjectPickerCredentials, IDsObjectPickerCredentials object [Active Directory], IDsObjectPickerCredentials object [Active Directory],described, ad.idsobjectpickercredentials, objsel/IDsObjectPickerCredentials
-ms.topic: interface
 f1_keywords:
 - objsel/IDsObjectPickerCredentials
 dev_langs:

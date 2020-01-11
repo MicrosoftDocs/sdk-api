@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 7a507e06-382f-40e3-8bbd-fcc6a24718db
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCertificate interface [Security],NotAfter property, IX509CertificateRequestCertificate.NotAfter, IX509CertificateRequestCertificate.get_NotAfter, IX509CertificateRequestCertificate::NotAfter, IX509CertificateRequestCertificate::get_NotAfter, IX509CertificateRequestCertificate::put_NotAfter, NotAfter property [Security], NotAfter property [Security],IX509CertificateRequestCertificate interface, certenroll/IX509CertificateRequestCertificate::NotAfter, certenroll/IX509CertificateRequestCertificate::get_NotAfter, certenroll/IX509CertificateRequestCertificate::put_NotAfter, get_NotAfter, security.ix509certificaterequestcertificate_notafter_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509CertificateRequestCertificate.NotAfter
 dev_langs:

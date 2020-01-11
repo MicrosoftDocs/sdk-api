@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 778BE01B-360C-431C-9515-DE43B4F2B77D
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariableIntegerChangeHandler2, IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation], IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation],described, uianimation.iuianimationvariableintegerchangehandler2, uianimation/IUIAnimationVariableIntegerChangeHandler2
-ms.topic: interface
 f1_keywords:
 - uianimation/IUIAnimationVariableIntegerChangeHandler2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: sr
 ms.assetid: 46f0094d-9079-41b5-9efc-ef07082653d3
 ms.date: 12/05/2018
 ms.keywords: SRSetRestorePoint, SRSetRestorePoint function [System Restore], SRSetRestorePointA, SRSetRestorePointW, _sr_srsetrestorepoint, sr.srsetrestorepoint, srrestoreptapi/SRSetRestorePoint, srrestoreptapi/SRSetRestorePointA, srrestoreptapi/SRSetRestorePointW
-ms.topic: function
 f1_keywords:
 - srrestoreptapi/SRSetRestorePoint
 dev_langs:

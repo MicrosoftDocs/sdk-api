@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 18714107-7287-4d50-a2f9-b5d72f111f8b
 ms.date: 12/05/2018
 ms.keywords: DrvDisableSurface, DrvDisableSurface function [Display Devices], ddifncs_1b5543ca-2860-4383-a2a7-a73adc5cf2a4.xml, display.drvdisablesurface, winddi/DrvDisableSurface
-ms.topic: function
 f1_keywords:
 - winddi/DrvDisableSurface
 dev_langs:

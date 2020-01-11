@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: c34c39c0-8200-438a-8353-238225aea5cb
 ms.date: 12/05/2018
 ms.keywords: WLAN_SET_EAPHOST_DATA_ALL_USERS, WlanSetProfileEapXmlUserData, WlanSetProfileEapXmlUserData function [NativeWIFI], nwifi.wlansetprofileeapxmluserdata, wlanapi/WlanSetProfileEapXmlUserData
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanSetProfileEapXmlUserData
 dev_langs:

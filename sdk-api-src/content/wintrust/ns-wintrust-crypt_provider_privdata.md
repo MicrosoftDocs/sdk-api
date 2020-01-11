@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 499e4d9b-991a-4317-bc74-a1dfb6609a70
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_PROVIDER_PRIVDATA, CRYPT_PROVIDER_PRIVDATA, CRYPT_PROVIDER_PRIVDATA structure [Security], PCRYPT_PROVIDER_PRIVDATA, PCRYPT_PROVIDER_PRIVDATA structure pointer [Security], security.crypt_provider_privdata, wintrust/CRYPT_PROVIDER_PRIVDATA, wintrust/PCRYPT_PROVIDER_PRIVDATA'
-ms.topic: struct
 f1_keywords:
 - wintrust/CRYPT_PROVIDER_PRIVDATA
 dev_langs:

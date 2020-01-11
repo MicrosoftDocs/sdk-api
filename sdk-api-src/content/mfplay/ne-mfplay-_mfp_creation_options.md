@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e01b402c-e21e-4db0-b933-5a32fdca5d2f
 ms.date: 12/05/2018
 ms.keywords: MFP_OPTION_FREE_THREADED_CALLBACK, MFP_OPTION_NONE, MFP_OPTION_NO_MMCSS, MFP_OPTION_NO_REMOTE_DESKTOP_OPTIMIZATION, _MFP_CREATION_OPTIONS, _MFP_CREATION_OPTIONS enumeration [Media Foundation], mf._mfp_creation_options, mfplay/MFP_OPTION_FREE_THREADED_CALLBACK, mfplay/MFP_OPTION_NONE, mfplay/MFP_OPTION_NO_MMCSS, mfplay/MFP_OPTION_NO_REMOTE_DESKTOP_OPTIMIZATION, mfplay/_MFP_CREATION_OPTIONS
-ms.topic: enum
 f1_keywords:
 - mfplay/_MFP_CREATION_OPTIONS
 dev_langs:

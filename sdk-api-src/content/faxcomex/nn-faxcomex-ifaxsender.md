@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0gtu_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxSender, IFaxSender interface [Fax Service], IFaxSender interface [Fax Service],described, _mfax_faxsender_cpp, fax._mfax_faxsender_cpp, faxcomex/IFaxSender
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxSender
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 3bde7ba7-8498-42e5-bd5a-625e162fc1db
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawGammaControl interface [DirectDraw],SetGammaRamp method, IDirectDrawGammaControl.SetGammaRamp, IDirectDrawGammaControl::SetGammaRamp, SetGammaRamp, SetGammaRamp method [DirectDraw], SetGammaRamp method [DirectDraw],IDirectDrawGammaControl interface, ddraw/IDirectDrawGammaControl::SetGammaRamp, directdraw.idirectdrawgammacontrol_setgammaramp
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawGammaControl.SetGammaRamp
 dev_langs:

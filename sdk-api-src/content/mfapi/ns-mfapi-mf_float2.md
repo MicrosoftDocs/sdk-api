@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 88855E0D-382D-44F5-A4D9-2A65EF4F580C
 ms.date: 12/05/2018
 ms.keywords: MF_FLOAT2, MF_FLOAT2 structure [Media Foundation], PMF_FLOAT2, PMF_FLOAT2 structure pointer [Media Foundation], mf.mf_float2, mfapi/MF_FLOAT2, mfapi/PMF_FLOAT2
-ms.topic: struct
 f1_keywords:
 - mfapi/MF_FLOAT2
 dev_langs:

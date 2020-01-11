@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: cd938370-b046-4369-931d-5c7c8db7303a
 ms.date: 12/05/2018
 ms.keywords: EnterSynchronizationBarrier, EnterSynchronizationBarrier function, SYNCHRONIZATION_BARRIER_FLAGS_BLOCK_ONLY, SYNCHRONIZATION_BARRIER_FLAGS_NO_DELETE, SYNCHRONIZATION_BARRIER_FLAGS_SPIN_ONLY, base.entersynchronizationbarrier, synchapi/EnterSynchronizationBarrier
-ms.topic: function
 f1_keywords:
 - synchapi/EnterSynchronizationBarrier
 dev_langs:

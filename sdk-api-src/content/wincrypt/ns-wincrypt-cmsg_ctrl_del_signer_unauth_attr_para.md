@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 729fbbe0-40c6-41e7-851f-6f93f47e8f4d
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA, CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA, CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA structure [Security], PCMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA, PCMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA structure pointer [Security], _crypto2_cmsg_ctrl_del_signer_unauth_attr_para, security.cmsg_ctrl_del_signer_unauth_attr_para, wincrypt/CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA, wincrypt/PCMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA
 dev_langs:

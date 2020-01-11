@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 42985fdf-b3b3-43f0-addb-478298bd8ebd
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],Pause method, IAutomaticUpdates.Pause, IAutomaticUpdates::Pause, Pause, Pause method [Windows Update Agent], Pause method [Windows Update Agent],IAutomaticUpdates interface, wua.iautomaticupdates_pause, wuapi/IAutomaticUpdates::Pause
-ms.topic: method
 f1_keywords:
 - wuapi/IAutomaticUpdates.Pause
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 32de2395-174a-4e14-82db-9043db817708
 ms.date: 12/05/2018
 ms.keywords: RpcNsMgmtEntryCreate, RpcNsMgmtEntryCreate function [RPC], RpcNsMgmtEntryCreateA, RpcNsMgmtEntryCreateW, _rpc_rpcnsmgmtentrycreate, rpc.rpcnsmgmtentrycreate, rpcnsi/RpcNsMgmtEntryCreate, rpcnsi/RpcNsMgmtEntryCreateA, rpcnsi/RpcNsMgmtEntryCreateW
-ms.topic: function
 f1_keywords:
 - rpcnsi/RpcNsMgmtEntryCreate
 dev_langs:

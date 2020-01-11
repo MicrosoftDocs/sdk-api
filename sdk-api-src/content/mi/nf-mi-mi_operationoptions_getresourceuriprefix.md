@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: c6ef1e8c-0d80-4359-a0f4-9d25ed39eae3
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_GetResourceUriPrefix, MI_OperationOptions_GetResourceUriPrefix function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetResourceUriPrefix, wmi_v2.mi_operationoptions_getresourceuriprefix
-ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_GetResourceUriPrefix
 dev_langs:

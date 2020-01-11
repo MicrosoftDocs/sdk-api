@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: fccfec3b-0177-4a3d-8c82-0cba3633a613
 ms.date: 12/05/2018
 ms.keywords: GetLastDescriptorNumber, GetLastDescriptorNumber method [Microsoft TV Technologies], GetLastDescriptorNumber method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetLastDescriptorNumber method, IDvbExtendedEventDescriptor.GetLastDescriptorNumber, IDvbExtendedEventDescriptor::GetLastDescriptorNumber, dvbsiparser/IDvbExtendedEventDescriptor::GetLastDescriptorNumber, mstv.idvbextendedeventdescriptor_getlastdescriptornumber
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbExtendedEventDescriptor.GetLastDescriptorNumber
 dev_langs:

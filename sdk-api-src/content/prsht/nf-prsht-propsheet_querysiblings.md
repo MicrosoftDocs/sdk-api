@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_querysiblings.htm
 ms.date: 12/05/2018
 ms.keywords: PropSheet_QuerySiblings, PropSheet_QuerySiblings macro [Windows Controls], _win32_PropSheet_QuerySiblings, _win32_PropSheet_QuerySiblings_cpp, controls.PropSheet_QuerySiblings, controls._win32_PropSheet_QuerySiblings, prsht/PropSheet_QuerySiblings
-ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_QuerySiblings
 dev_langs:

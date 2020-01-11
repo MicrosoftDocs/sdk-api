@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 6e71b75a-a542-459c-9935-b05f3ce39217
 ms.date: 12/05/2018
 ms.keywords: WICMapSchemaToName, WICMapSchemaToName function [Windows Imaging Component], _wic_codec_wicmapschematoname, wic._wic_codec_wicmapschematoname, wincodec/WICMapSchemaToName
-ms.topic: function
 f1_keywords:
 - wincodec/WICMapSchemaToName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 070b79f2-8ed7-4bb3-85ce-a946b7cf0e6e
 ms.date: 12/05/2018
 ms.keywords: UiaAsyncContentLoadedEventArgs, UiaAsyncContentLoadedEventArgs structure [Windows Accessibility], uiauto.uiauto_UiaAsyncContentLoadedEventArgsStruct, uiauto_UiaAsyncContentLoadedEventArgsStruct, uiautomationcoreapi/UiaAsyncContentLoadedEventArgs, winauto.uiauto_UiaAsyncContentLoadedEventArgsStruct
-ms.topic: struct
 f1_keywords:
 - uiautomationcoreapi/UiaAsyncContentLoadedEventArgs
 dev_langs:

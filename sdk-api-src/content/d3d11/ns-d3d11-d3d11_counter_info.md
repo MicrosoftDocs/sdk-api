@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 64730e19-1a9e-4494-a3aa-314fd72281e1
 ms.date: 12/05/2018
 ms.keywords: D3D11_COUNTER_INFO, D3D11_COUNTER_INFO structure [Direct3D 11], a2dae015-a80c-d3f9-238a-93195e884579, d3d11/D3D11_COUNTER_INFO, direct3d11.d3d11_counter_info
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_COUNTER_INFO
 dev_langs:

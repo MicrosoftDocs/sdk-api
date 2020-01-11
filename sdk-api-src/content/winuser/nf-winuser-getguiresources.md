@@ -6,7 +6,6 @@ tech.root: ProcThread
 ms.assetid: 55fbb7e8-79b4-4011-b522-25ea5a928b86
 ms.date: 11/4/2019
 ms.keywords: GR_GDIOBJECTS, GR_GDIOBJECTS_PEAK, GR_USEROBJECTS, GR_USEROBJECTS_PEAK, GetGuiResources, GetGuiResources function, _win32_getguiresources, base.getguiresources, winuser/GetGuiResources
-ms.topic: language-reference
 targetos: Windows
 description: Retrieves the count of handles to graphical user interface (GUI) objects in use by the specified process.
 f1_keywords:

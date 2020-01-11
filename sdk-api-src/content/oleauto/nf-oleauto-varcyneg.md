@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: cbd9711b-45f4-4917-84ec-22ee5438579f
 ms.date: 12/05/2018
 ms.keywords: VarCyNeg, VarCyNeg function [Automation], _oa96_VarCyNeg, automat.varcyneg, oleauto/VarCyNeg
-ms.topic: function
 f1_keywords:
 - oleauto/VarCyNeg
 dev_langs:

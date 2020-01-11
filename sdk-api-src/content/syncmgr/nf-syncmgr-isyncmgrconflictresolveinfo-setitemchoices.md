@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e4485f49-9bcb-47a8-8559-da2217ee1eab
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflictResolveInfo interface [Windows Shell],SetItemChoices method, ISyncMgrConflictResolveInfo.SetItemChoices, ISyncMgrConflictResolveInfo::SetItemChoices, SetItemChoices, SetItemChoices method [Windows Shell], SetItemChoices method [Windows Shell],ISyncMgrConflictResolveInfo interface, _shell_ISyncMgrConflictResolveInfo_SetItemChoices, shell.ISyncMgrConflictResolveInfo_SetItemChoices, syncmgr/ISyncMgrConflictResolveInfo::SetItemChoices
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrConflictResolveInfo.SetItemChoices
 dev_langs:

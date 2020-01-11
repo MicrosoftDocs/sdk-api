@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 51e95b01-71e7-435b-85fb-28ee43eb08a7
 ms.date: 12/05/2018
 ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], IAccessible interface [Windows Accessibility],described, _msaa_IAccessible, msaa.iaccessible, oleacc/IAccessible, winauto.iaccessible
-ms.topic: interface
 f1_keywords:
 - oleacc/IAccessible
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 11a6b670-93d6-4455-b279-a1fc5fca0d1d
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynthSink interface [Audio Devices],RefTimeToSample method, IDirectMusicSynthSink.RefTimeToSample, IDirectMusicSynthSink::RefTimeToSample, RefTimeToSample, RefTimeToSample method [Audio Devices], RefTimeToSample method [Audio Devices],IDirectMusicSynthSink interface, audio.idirectmusicsynthsink_reftimetosample, audmp-routines_0e3d6a54-9625-48de-8ac2-2359047acd90.xml, dmusics/IDirectMusicSynthSink::RefTimeToSample
-ms.topic: method
 f1_keywords:
 - dmusics/IDirectMusicSynthSink.RefTimeToSample
 dev_langs:

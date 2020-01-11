@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 3921ab24-c9c8-4068-a885-e55759f04076
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetqueuelist, lineGetQueueList, lineGetQueueList function [TAPI 2.2], lineGetQueueListA, lineGetQueueListW, tapi/lineGetQueueList, tapi/lineGetQueueListA, tapi/lineGetQueueListW, tapi2.linegetqueuelist
-ms.topic: function
 f1_keywords:
 - tapi/lineGetQueueList
 dev_langs:

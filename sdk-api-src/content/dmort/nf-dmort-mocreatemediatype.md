@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f67b04b5-163e-4793-8df0-10a4b2be5025
 ms.date: 12/05/2018
 ms.keywords: MoCreateMediaType, MoCreateMediaType function [DirectShow], dmort/MoCreateMediaType, dshow.mocreatemediatype
-ms.topic: function
 f1_keywords:
 - dmort/MoCreateMediaType
 dev_langs:

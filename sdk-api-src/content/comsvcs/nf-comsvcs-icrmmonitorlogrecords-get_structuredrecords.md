@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: a9b687c9-1e78-4896-a407-b069328ce66d
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorLogRecords interface [COM+],get_StructuredRecords method, ICrmMonitorLogRecords.get_StructuredRecords, ICrmMonitorLogRecords::get_StructuredRecords, _dtc_ICrmMonitorLogRecords_StructuredRecords, comsvcs/ICrmMonitorLogRecords::get_StructuredRecords, cos.icrmmonitorlogrecords_get_structuredrecords, get_StructuredRecords, get_StructuredRecords method [COM+], get_StructuredRecords method [COM+],ICrmMonitorLogRecords interface
-ms.topic: method
 f1_keywords:
 - comsvcs/ICrmMonitorLogRecords.get_StructuredRecords
 dev_langs:

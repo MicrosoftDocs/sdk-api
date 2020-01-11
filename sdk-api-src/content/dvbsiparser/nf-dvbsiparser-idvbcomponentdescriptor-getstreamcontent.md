@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 3bfa86c4-2b94-43cd-842e-33cc03b713a5
 ms.date: 12/05/2018
 ms.keywords: GetStreamContent, GetStreamContent method [Microsoft TV Technologies], GetStreamContent method [Microsoft TV Technologies],IDvbComponentDescriptor interface, IDvbComponentDescriptor interface [Microsoft TV Technologies],GetStreamContent method, IDvbComponentDescriptor.GetStreamContent, IDvbComponentDescriptor::GetStreamContent, dvbsiparser/IDvbComponentDescriptor::GetStreamContent, mstv.idvbcomponentdescriptor_getstreamcontent
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbComponentDescriptor.GetStreamContent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: dae4e2d4-0293-4ee4-9687-9fed4b3a3600
 ms.date: 12/05/2018
 ms.keywords: FindUserName, FindUserName method [Files], FindUserName method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],FindUserName method, IDiskQuotaControl.FindUserName, IDiskQuotaControl::FindUserName, _win32_idiskquotacontrol_findusername, base.idiskquotacontrol_findusername, dskquota/IDiskQuotaControl::FindUserName, fs.idiskquotacontrol_findusername
-ms.topic: method
 f1_keywords:
 - dskquota/IDiskQuotaControl.FindUserName
 dev_langs:

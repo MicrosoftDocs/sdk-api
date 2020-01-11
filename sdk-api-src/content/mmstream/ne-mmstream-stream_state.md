@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0be95819-0a42-4459-a891-194aacd26e2e
 ms.date: 12/05/2018
 ms.keywords: STREAMSTATE_RUN, STREAMSTATE_STOP, STREAM_STATE, STREAM_STATE enumeration [DirectShow], dshow.stream_state, mmstream/STREAMSTATE_RUN, mmstream/STREAMSTATE_STOP, mmstream/STREAM_STATE
-ms.topic: enum
 f1_keywords:
 - mmstream/STREAM_STATE
 dev_langs:

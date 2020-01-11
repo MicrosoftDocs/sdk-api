@@ -4,7 +4,6 @@ title: DnsServiceRegister function
 description: Used to register a discoverable service on this device.
 ms.date: 02/14/2019
 ms.keywords: DnsServiceRegister
-ms.topic: language-reference
 f1_keywords:
 - windns/DnsServiceRegister
 dev_langs:

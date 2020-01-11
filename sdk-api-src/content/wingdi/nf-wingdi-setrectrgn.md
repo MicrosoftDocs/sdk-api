@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 9a024d61-f397-43d8-a48e-edb8102a6f55
 ms.date: 12/05/2018
 ms.keywords: SetRectRgn, SetRectRgn function [Windows GDI], _win32_SetRectRgn, gdi.setrectrgn, wingdi/SetRectRgn
-ms.topic: function
 f1_keywords:
 - wingdi/SetRectRgn
 dev_langs:

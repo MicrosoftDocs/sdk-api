@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 957cdfb6-2b5a-4339-8197-897999df5ea0
 ms.date: 12/05/2018
 ms.keywords: RpcNsProfileEltInqDone, RpcNsProfileEltInqDone function [RPC], _rpc_rpcnsprofileeltinqdone, rpc.rpcnsprofileeltinqdone, rpcnsi/RpcNsProfileEltInqDone
-ms.topic: function
 f1_keywords:
 - rpcnsi/RpcNsProfileEltInqDone
 dev_langs:

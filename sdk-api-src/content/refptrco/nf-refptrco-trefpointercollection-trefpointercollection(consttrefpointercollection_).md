@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: f4fcfe31-49ce-434c-a6e4-cf60e0a435e6
 ms.date: 12/05/2018
 ms.keywords: TRefPointerCollection, TRefPointerCollection interface [Windows Management Instrumentation],TRefPointerCollection method, TRefPointerCollection method [Windows Management Instrumentation], TRefPointerCollection method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection.TRefPointerCollection, TRefPointerCollection.TRefPointerCollection(const TRefPointerCollection &), TRefPointerCollection::TRefPointerCollection, TRefPointerCollection::TRefPointerCollection(const TRefPointerCollection &), _hmm_trefpointercollection_trefpointercollection, refptrco/TRefPointerCollection::TRefPointerCollection, wmi.trefpointercollection_trefpointercollection
-ms.topic: method
 f1_keywords:
 - refptrco/TRefPointerCollection.TRefPointerCollection
 dev_langs:

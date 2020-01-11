@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: EF682ED4-2AD5-4A5B-A308-C671A9E6EB10
 ms.date: 12/05/2018
 ms.keywords: NdfCreateNetConnectionIncident, NdfCreateNetConnectionIncident function [NDF], ndf.ndfcreatenetconnectionincident, ndfapi/NdfCreateNetConnectionIncident
-ms.topic: function
 f1_keywords:
 - ndfapi/NdfCreateNetConnectionIncident
 dev_langs:

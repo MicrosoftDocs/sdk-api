@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 06bff83f-c3f2-4eca-85dd-7e7b93cfd73d
 ms.date: 12/05/2018
 ms.keywords: GetDownloadProgress, GetDownloadProgress method [windows Media Format], GetDownloadProgress method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetDownloadProgress method, IWMReaderAdvanced2.GetDownloadProgress, IWMReaderAdvanced2::GetDownloadProgress, IWMReaderAdvanced2GetDownloadProgress, wmformat.iwmreaderadvanced2_getdownloadprogress, wmsdkidl/IWMReaderAdvanced2::GetDownloadProgress
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced2.GetDownloadProgress
 dev_langs:

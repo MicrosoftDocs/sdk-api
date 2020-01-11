@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 23B8D1A5-05F4-4056-BFA8-8D9C89FE0492
 ms.date: 12/05/2018
 ms.keywords: CreateBlendTransform, CreateBlendTransform method [Direct2D], CreateBlendTransform method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CreateBlendTransform method, ID2D1EffectContext.CreateBlendTransform, ID2D1EffectContext::CreateBlendTransform, d2d1effectauthor/ID2D1EffectContext::CreateBlendTransform, direct2d.id2d1contextinternal_createblendtransform
-ms.topic: method
 f1_keywords:
 - d2d1effectauthor/ID2D1EffectContext.CreateBlendTransform
 dev_langs:

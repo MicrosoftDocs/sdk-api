@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 202be688-e739-4e80-9574-f85b2eb168fc
 ms.date: 12/05/2018
 ms.keywords: IWMStreamConfig interface [windows Media Format],SetBitrate method, IWMStreamConfig.SetBitrate, IWMStreamConfig::SetBitrate, IWMStreamConfigSetBitrate, SetBitrate, SetBitrate method [windows Media Format], SetBitrate method [windows Media Format],IWMStreamConfig interface, wmformat.iwmstreamconfig_setbitrate, wmsdkidl/IWMStreamConfig::SetBitrate
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMStreamConfig.SetBitrate
 dev_langs:

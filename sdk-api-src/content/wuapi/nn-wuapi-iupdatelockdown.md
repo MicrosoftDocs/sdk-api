@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 918a46f5-a1da-4f47-84f1-b715fc97bb8f
 ms.date: 12/05/2018
 ms.keywords: IUpdateLockdown, IUpdateLockdown interface [Windows Update Agent], IUpdateLockdown interface [Windows Update Agent],described, wua.iupdatelockdown, wuapi/IUpdateLockdown
-ms.topic: interface
 f1_keywords:
 - wuapi/IUpdateLockdown
 dev_langs:

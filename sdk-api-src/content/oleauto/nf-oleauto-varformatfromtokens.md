@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 36437d1a-970d-4a52-a8a5-1cddfe3d42f3
 ms.date: 12/05/2018
 ms.keywords: VarFormatFromTokens, VarFormatFromTokens function [Automation], _oa96_VarFormatFromTokens, automat.varformatfromtokens, oleauto/VarFormatFromTokens
-ms.topic: function
 f1_keywords:
 - oleauto/VarFormatFromTokens
 dev_langs:

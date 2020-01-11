@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: f0318061-40f9-4380-9681-34db70659c49
 ms.date: 12/05/2018
 ms.keywords: IPSEC_AGGREGATE_SA_STATISTICS0, IPSEC_AGGREGATE_SA_STATISTICS0 structure [Filtering], fwp.ipsec_aggregate_sa_statistics0_struct, ipsectypes/IPSEC_AGGREGATE_SA_STATISTICS0
-ms.topic: struct
 f1_keywords:
 - ipsectypes/IPSEC_AGGREGATE_SA_STATISTICS0
 dev_langs:

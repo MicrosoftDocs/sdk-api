@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 4634851e-e868-4915-a7da-32a39f405974
 ms.date: 12/05/2018
 ms.keywords: GetInstances, GetInstances method [Task Scheduler], GetInstances method [Task Scheduler],IRegisteredTask interface, IRegisteredTask interface [Task Scheduler],GetInstances method, IRegisteredTask.GetInstances, IRegisteredTask::GetInstances, taskschd.iregisteredtask_getinstances, taskschd/IRegisteredTask::GetInstances
-ms.topic: method
 f1_keywords:
 - taskschd/IRegisteredTask.GetInstances
 dev_langs:

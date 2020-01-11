@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 0c194731-0992-47c3-b069-fa9e1d16944b
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetCategory method, IXpsOMCoreProperties.SetCategory, IXpsOMCoreProperties::SetCategory, SetCategory, SetCategory method [XPS Documents and Packaging], SetCategory method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcategory, xpsobjectmodel/IXpsOMCoreProperties::SetCategory
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.SetCategory
 dev_langs:

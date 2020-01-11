@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 4b758048-31e5-43af-a4ae-8916982e90a9
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],RemoveStream method, IFsiFileItem2.RemoveStream, IFsiFileItem2::RemoveStream, RemoveStream, RemoveStream method [IMAPI], RemoveStream method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_removestream, imapi2fs/IFsiFileItem2::RemoveStream
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFsiFileItem2.RemoveStream
 dev_langs:

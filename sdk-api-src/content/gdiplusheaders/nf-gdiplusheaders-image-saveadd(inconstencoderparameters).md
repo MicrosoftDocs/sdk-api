@@ -5,7 +5,6 @@ description: The Image::SaveAdd method adds a frame to a file or stream specifie
 ms.assetid: 03ebcd9f-83c9-4970-bc89-cfed876de44b
 ms.date: 05/20/2019
 ms.keywords: Image::SaveAdd
-ms.topic: language-reference
 f1_keywords:
 - gdiplusheaders/Image::SaveAdd
 dev_langs:

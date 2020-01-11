@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 90707414-aef7-4265-bc2b-d48ac79db099
 ms.date: 12/05/2018
 ms.keywords: IdnToUnicode, IdnToUnicode function [Internationalization for Windows Applications], _win32_IdnToUnicode, intl.idntounicode, winnls/IdnToUnicode
-ms.topic: function
 f1_keywords:
 - winnls/IdnToUnicode
 dev_langs:

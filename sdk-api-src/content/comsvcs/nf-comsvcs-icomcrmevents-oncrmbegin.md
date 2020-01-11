@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 8975cb5e-024f-40bf-acd7-c5af0abd88a0
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMBegin method, IComCRMEvents.OnCRMBegin, IComCRMEvents::OnCRMBegin, OnCRMBegin, OnCRMBegin method [COM+], OnCRMBegin method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMBegin, comsvcs/IComCRMEvents::OnCRMBegin, cos.icomcrmevents_oncrmbegin
-ms.topic: method
 f1_keywords:
 - comsvcs/IComCRMEvents.OnCRMBegin
 dev_langs:

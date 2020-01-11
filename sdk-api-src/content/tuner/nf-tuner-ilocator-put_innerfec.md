@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 3ba6cfdf-2095-489c-a899-4b4305758ccb
 ms.date: 12/05/2018
 ms.keywords: IDigitalLocatorput_InnerFEC, ILocator interface [Microsoft TV Technologies],put_InnerFEC method, ILocator.put_InnerFEC, ILocator::put_InnerFEC, mstv.ilocator_put_innerfec, put_InnerFEC, put_InnerFEC method [Microsoft TV Technologies], put_InnerFEC method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_InnerFEC
-ms.topic: method
 f1_keywords:
 - tuner/ILocator.put_InnerFEC
 dev_langs:

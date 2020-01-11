@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 3cc186df-572b-48ed-ac0b-56c8d91a9794
 ms.date: 12/05/2018
 ms.keywords: DrvSetPointerShape, DrvSetPointerShape function [Display Devices], ddifncs_86472b92-edfc-4811-8b35-e690136a2430.xml, display.drvsetpointershape, winddi/DrvSetPointerShape
-ms.topic: function
 f1_keywords:
 - winddi/DrvSetPointerShape
 dev_langs:

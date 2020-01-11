@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 1be4dd1e-6bef-4ef6-9db3-6725c27ec16d
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetDeviceInterfaceDefault, SetupDiSetDeviceInterfaceDefault function [Device and Driver Installation], devinst.setupdisetdeviceinterfacedefault, di-rtns_3c21b60f-d837-4c08-8e1c-816bd88e9ba7.xml, setupapi/SetupDiSetDeviceInterfaceDefault
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiSetDeviceInterfaceDefault
 dev_langs:

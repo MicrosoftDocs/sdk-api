@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 210f7595-ac12-4bb2-bd77-819649ebec10
 ms.date: 12/05/2018
 ms.keywords: GetExitCodeProcess, GetExitCodeProcess function, _win32_getexitcodeprocess, base.getexitcodeprocess, processthreadsapi/GetExitCodeProcess, winbase/GetExitCodeProcess
-ms.topic: function
 f1_keywords:
 - processthreadsapi/GetExitCodeProcess
 dev_langs:

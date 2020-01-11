@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: E09F96C2-72C6-4426-B395-DD590D731E5B
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceHardwareTimestampCapabilities, GetInterfaceHardwareTimestampCapabilities function [IP Helper], iphlp.getinterfacehardwaretimestampcapabilities, iphlpapi/GetInterfaceHardwareTimestampCapabilities
-ms.topic: function
 f1_keywords:
 - iphlpapi/GetInterfaceHardwareTimestampCapabilities
 dev_langs:

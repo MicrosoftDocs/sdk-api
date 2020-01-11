@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 3ca939de-31ce-4ce6-84cd-4b4191a0753c
 ms.date: 12/05/2018
 ms.keywords: ObjectControl, ObjectControl interface [COM+], ObjectControl interface [COM+],described, _cos_ObjectControl, comsvcs/ObjectControl, cos.objectcontrol
-ms.topic: interface
 f1_keywords:
 - comsvcs/ObjectControl
 dev_langs:

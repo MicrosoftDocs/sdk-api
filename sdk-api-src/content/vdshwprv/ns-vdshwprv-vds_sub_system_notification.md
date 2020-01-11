@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 368e5b3d-11ba-400e-8dd0-929d45199dd9
 ms.date: 12/05/2018
 ms.keywords: VDS_NF_SUB_SYSTEM_ARRIVE, VDS_NF_SUB_SYSTEM_DEPART, VDS_NF_SUB_SYSTEM_MODIFY, VDS_SUB_SYSTEM_NOTIFICATION, VDS_SUB_SYSTEM_NOTIFICATION structure [VDS], base.vds_sub_system_notification, vds/_VDS_SUB_SYSTEM_NOTIFICATION, vdshwprv/_VDS_SUB_SYSTEM_NOTIFICATION
-ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_SUB_SYSTEM_NOTIFICATION
 dev_langs:

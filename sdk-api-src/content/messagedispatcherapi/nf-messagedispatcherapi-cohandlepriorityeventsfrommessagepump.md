@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 24EA766D-82F8-4E57-AAB8-A06ECE644319
 ms.date: 12/05/2018
 ms.keywords: CoHandlePriorityEventsFromMessagePump, CoHandlePriorityEventsFromMessagePump function [COM], com.cohandlepriorityeventsfrommessagepump, messagedispatcherapi/CoHandlePriorityEventsFromMessagePump
-ms.topic: function
 f1_keywords:
 - messagedispatcherapi/CoHandlePriorityEventsFromMessagePump
 dev_langs:

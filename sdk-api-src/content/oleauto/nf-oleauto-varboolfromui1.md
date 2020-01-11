@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 50f27808-ab41-4883-9c0f-abb04a0d2d34
 ms.date: 12/05/2018
 ms.keywords: VarBoolFromUI1, VarBoolFromUI1 function [Automation], _oa96_VarBoolFromUI1, automat.varboolfromui1, oleauto/VarBoolFromUI1
-ms.topic: function
 f1_keywords:
 - oleauto/VarBoolFromUI1
 dev_langs:

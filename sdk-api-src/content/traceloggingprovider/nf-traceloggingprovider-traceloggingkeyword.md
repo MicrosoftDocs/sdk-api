@@ -7,7 +7,6 @@ tech.root: tracelogging
 ms.assetid: 4837DCE3-929F-458B-95E1-8720FD3E9FFA
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingKeyword, TraceLoggingKeyword macro, tracelogging.traceloggingkeyword, traceloggingprovider/TraceLoggingKeyword
-ms.topic: macro
 f1_keywords:
 - traceloggingprovider/TraceLoggingKeyword
 dev_langs:

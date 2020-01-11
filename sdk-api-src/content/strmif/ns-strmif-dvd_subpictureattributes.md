@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 55ddfa21-5600-4aa9-b554-7ff7f3c05b91
 ms.date: 12/05/2018
 ms.keywords: DVD_SubpictureAttributes, DVD_SubpictureAttributes structure [DirectShow], DVD_SubpictureAttributesStructure, dshow.dvd_subpictureattributes, strmif/DVD_SubpictureAttributes
-ms.topic: struct
 f1_keywords:
 - strmif/DVD_SubpictureAttributes
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 91CAE0F4-C0DB-40CE-BED9-C27E4856D4A0
 ms.date: 12/05/2018
 ms.keywords: WofWimUpdateEntry, WofWimUpdateEntry function [Files], fs.wofwimupdateentry, wofapi/WofWimUpdateEntry
-ms.topic: function
 f1_keywords:
 - wofapi/WofWimUpdateEntry
 dev_langs:

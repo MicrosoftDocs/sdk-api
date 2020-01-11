@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 7024aa3e-d227-4c22-8259-6299e9205f53
 ms.date: 12/05/2018
 ms.keywords: _win32_capSetCallbackOnStatus, capSetCallbackOnStatus, capSetCallbackOnStatus macro [Windows Multimedia], multimedia.capsetcallbackonstatus, vfw/capSetCallbackOnStatus
-ms.topic: macro
 f1_keywords:
 - vfw/capSetCallbackOnStatus
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c9375b9d-c822-4322-ba6f-967792257672
 ms.date: 12/05/2018
 ms.keywords: DVASPECTINFO, DVASPECTINFO structure [COM], _ole_DVASPECTINFO, com.dvaspectinfo, ocidl/DVASPECTINFO
-ms.topic: struct
 f1_keywords:
 - ocidl/DVASPECTINFO
 dev_langs:

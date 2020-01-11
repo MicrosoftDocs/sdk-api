@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: b485fa81-b927-4f0c-bde1-075f36c76d9a
 ms.date: 12/05/2018
 ms.keywords: CertCompareCertificate, CertCompareCertificate function [Security], _crypto2_certcomparecertificate, security.certcomparecertificate, wincrypt/CertCompareCertificate
-ms.topic: function
 f1_keywords:
 - wincrypt/CertCompareCertificate
 dev_langs:

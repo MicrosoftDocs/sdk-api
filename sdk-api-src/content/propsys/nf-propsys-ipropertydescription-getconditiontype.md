@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: d71bfed8-22e4-4dde-ba88-4bedfe07af62
 ms.date: 12/05/2018
 ms.keywords: GetConditionType, GetConditionType method [Windows Properties], GetConditionType method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetConditionType method, IPropertyDescription.GetConditionType, IPropertyDescription::GetConditionType, properties.IPropertyDescription_GetConditionType, propsys/IPropertyDescription::GetConditionType, shell.IPropertyDescription_GetConditionType, shell_IPropertyDescription_GetConditionType
-ms.topic: method
 f1_keywords:
 - propsys/IPropertyDescription.GetConditionType
 dev_langs:

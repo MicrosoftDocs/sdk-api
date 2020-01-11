@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 3c760254-a8c0-406a-aa15-3a5a42aba2e7
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineReleaseUserUserInfo, TSPI_lineReleaseUserUserInfo function [TAPI 2.2], _tspi_tspi_linereleaseuseruserinfo, tspi.tspi_linereleaseuseruserinfo, tspi/TSPI_lineReleaseUserUserInfo
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineReleaseUserUserInfo
 dev_langs:

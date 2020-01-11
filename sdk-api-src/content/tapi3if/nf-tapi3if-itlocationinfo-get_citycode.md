@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: ab8aee25-84b8-4913-876f-dd01bca5e3b0
 ms.date: 12/05/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_CityCode method, ITLocationInfo.get_CityCode, ITLocationInfo::get_CityCode, _tapi3_itlocationinfo_get_citycode, get_CityCode, get_CityCode method [TAPI 2.2], get_CityCode method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_citycode, tapi3if/ITLocationInfo::get_CityCode
-ms.topic: method
 f1_keywords:
 - tapi3if/ITLocationInfo.get_CityCode
 dev_langs:

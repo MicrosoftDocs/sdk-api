@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 818797dd-7255-453c-85b3-cf0c44fe5d0d
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],GetAt method, IXpsOMDictionary.GetAt, IXpsOMDictionary::GetAt, xps.ixpsomdictionary_getat, xpsobjectmodel/IXpsOMDictionary::GetAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDictionary.GetAt
 dev_langs:

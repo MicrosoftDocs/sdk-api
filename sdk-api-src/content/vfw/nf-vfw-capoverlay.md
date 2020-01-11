@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: a6508e33-7864-4f19-a844-0ba280028f43
 ms.date: 12/05/2018
 ms.keywords: _win32_capOverlay, capOverlay, capOverlay macro [Windows Multimedia], multimedia.capoverlay, vfw/capOverlay
-ms.topic: macro
 f1_keywords:
 - vfw/capOverlay
 dev_langs:

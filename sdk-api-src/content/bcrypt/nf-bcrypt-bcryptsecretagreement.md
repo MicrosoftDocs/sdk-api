@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 96863d81-3643-4962-8abf-db1cc2acde07
 ms.date: 12/05/2018
 ms.keywords: BCryptSecretAgreement, BCryptSecretAgreement function [Security], bcrypt/BCryptSecretAgreement, security.bcryptsecretagreement
-ms.topic: function
 f1_keywords:
 - bcrypt/BCryptSecretAgreement
 dev_langs:

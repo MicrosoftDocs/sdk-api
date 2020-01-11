@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 395b5c1c-988b-4d85-9b31-c1f84e02a90c
 ms.date: 12/05/2018
 ms.keywords: FWP_BYTE_ARRAY6, FWP_BYTE_ARRAY6 structure [Filtering], fwp.fwp_byte_array6, fwptypes/FWP_BYTE_ARRAY6
-ms.topic: struct
 f1_keywords:
 - fwptypes/FWP_BYTE_ARRAY6
 dev_langs:

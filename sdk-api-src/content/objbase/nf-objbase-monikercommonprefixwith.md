@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 6caa8c2e-c3d6-45d5-8efe-74d6a2c4a926
 ms.date: 12/05/2018
 ms.keywords: MonikerCommonPrefixWith, MonikerCommonPrefixWith function [COM], _com_MonikerCommonPrefixWith, com.monikercommonprefixwith, objbase/MonikerCommonPrefixWith
-ms.topic: function
 f1_keywords:
 - objbase/MonikerCommonPrefixWith
 dev_langs:

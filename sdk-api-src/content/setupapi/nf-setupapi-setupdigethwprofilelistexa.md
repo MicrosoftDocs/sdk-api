@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: add700ee-48aa-47dd-8b55-6338dea05bfb
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetHwProfileListEx, SetupDiGetHwProfileListEx function [Device and Driver Installation], SetupDiGetHwProfileListExA, SetupDiGetHwProfileListExW, devinst.setupdigethwprofilelistex, di-rtns_ef3bbf07-27d9-48fc-86a2-1bdfc10cbc33.xml, setupapi/SetupDiGetHwProfileListEx
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetHwProfileListEx
 dev_langs:

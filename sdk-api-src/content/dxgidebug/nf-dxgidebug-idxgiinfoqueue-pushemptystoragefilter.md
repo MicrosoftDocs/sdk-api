@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: C0DC43B8-4869-49B0-A4D9-6907BCF1CB9E
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushEmptyStorageFilter method, IDXGIInfoQueue.PushEmptyStorageFilter, IDXGIInfoQueue::PushEmptyStorageFilter, PushEmptyStorageFilter, PushEmptyStorageFilter method [DXGI], PushEmptyStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushemptystoragefilter, dxgidebug/IDXGIInfoQueue::PushEmptyStorageFilter
-ms.topic: method
 f1_keywords:
 - dxgidebug/IDXGIInfoQueue.PushEmptyStorageFilter
 dev_langs:

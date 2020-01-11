@@ -7,7 +7,6 @@ tech.root: WinHttp
 ms.assetid: 6a621701-3325-4877-99ba-8580ad07739d
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_PROXY_RESULT, WINHTTP_PROXY_RESULT structure [HTTP], http.winhttp_proxy_result, winhttp/WINHTTP_PROXY_RESULT
-ms.topic: struct
 f1_keywords:
 - winhttp/WINHTTP_PROXY_RESULT
 dev_langs:

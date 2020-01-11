@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 5fd74752-60bb-4bdb-973d-76d4ab0ae4c4
 ms.date: 12/05/2018
 ms.keywords: GetUseClientId, GetUseClientId method [Security], GetUseClientId method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetUseClientId method, IX509EnrollmentPolicyServer.GetUseClientId, IX509EnrollmentPolicyServer::GetUseClientId, certenroll/IX509EnrollmentPolicyServer::GetUseClientId, security.ix509enrollmentpolicyserver_getuseclientid
-ms.topic: method
 f1_keywords:
 - certenroll/IX509EnrollmentPolicyServer.GetUseClientId
 dev_langs:

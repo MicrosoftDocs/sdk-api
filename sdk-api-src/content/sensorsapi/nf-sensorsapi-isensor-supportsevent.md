@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: abf4e339-651d-4444-b219-e5177dbaa7ee
 ms.date: 12/05/2018
 ms.keywords: ISensor interface,SupportsEvent method, ISensor.SupportsEvent, ISensor::SupportsEvent, SupportsEvent, SupportsEvent method, SupportsEvent method,ISensor interface, sensorsapi/ISensor::SupportsEvent, winsensors_com_ref.isensor_supportsevent
-ms.topic: method
 f1_keywords:
 - sensorsapi/ISensor.SupportsEvent
 dev_langs:

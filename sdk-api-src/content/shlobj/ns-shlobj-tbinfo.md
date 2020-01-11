@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: da82e861-129b-4536-b036-2238c9e4c84c
 ms.date: 12/05/2018
 ms.keywords: '*LPTBINFO, TBIF_APPEND, TBIF_PREPEND, TBIF_REPLACE, TBINFO, TBINFO structure [Windows Shell], _win32_TBINFO_str, shell.TBINFO_str, shlobj/TBINFO'
-ms.topic: struct
 f1_keywords:
 - shlobj/TBINFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 36970f1b-9dbf-421f-a078-3da3bbb050e8
 ms.date: 12/05/2018
 ms.keywords: PFN_WdsTransportClientSessionStartEx, PFN_WdsTransportClientSessionStartEx callback, PFN_WdsTransportClientSessionStartEx callback function [Windows Deployment Services], wds.pfn_wdstransportclientsessionstartex, wdstci/PFN_WdsTransportClientSessionStartEx
-ms.topic: callback
 f1_keywords:
 - wdstci/PFN_WdsTransportClientSessionStartEx
 dev_langs:

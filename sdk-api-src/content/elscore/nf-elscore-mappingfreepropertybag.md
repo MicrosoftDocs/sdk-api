@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 7e06e85d-109a-4c5f-be18-3750e25c4986
 ms.date: 12/05/2018
 ms.keywords: MappingFreePropertyBag, MappingFreePropertyBag function [Internationalization for Windows Applications], elscore/MappingFreePropertyBag, intl.mappingfreepropertybag
-ms.topic: function
 f1_keywords:
 - elscore/MappingFreePropertyBag
 dev_langs:

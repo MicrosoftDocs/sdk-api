@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: ffcab5ee-400a-424f-ab98-3c9e36ef40ce
 ms.date: 12/05/2018
 ms.keywords: MFCreateASFStreamingMediaSinkActivate, MFCreateASFStreamingMediaSinkActivate function [Media Foundation], mf.mfcreateasfstreamingmediasinkactivate, wmcontainer/MFCreateASFStreamingMediaSinkActivate
-ms.topic: function
 f1_keywords:
 - wmcontainer/MFCreateASFStreamingMediaSinkActivate
 dev_langs:

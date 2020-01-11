@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 25ec7a49-fd26-4105-823b-a257a57f724e
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 1101, NetWkstaUserGetInfo, NetWkstaUserGetInfo function [Network Management], _win32_netwkstausergetinfo, lmwksta/NetWkstaUserGetInfo, netmgmt.netwkstausergetinfo
-ms.topic: function
 f1_keywords:
 - lmwksta/NetWkstaUserGetInfo
 dev_langs:

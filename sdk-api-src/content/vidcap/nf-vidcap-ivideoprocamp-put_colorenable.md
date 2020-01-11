@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6a1caa3f-e591-4176-90b9-80a4bd71533b
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_ColorEnable method, IVideoProcAmp.put_ColorEnable, IVideoProcAmp::put_ColorEnable, IVideoProcAmpput_ColorEnable, dshow.ivideoprocamp_put_colorenable, put_ColorEnable, put_ColorEnable method [DirectShow], put_ColorEnable method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_ColorEnable
-ms.topic: method
 f1_keywords:
 - vidcap/IVideoProcAmp.put_ColorEnable
 dev_langs:

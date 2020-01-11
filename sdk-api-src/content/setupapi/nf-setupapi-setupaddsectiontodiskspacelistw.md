@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 8225d0b4-b750-4580-83f5-dcffdf2ee67b
 ms.date: 12/05/2018
 ms.keywords: FILEOP_COPY, FILEOP_DELETE, SetupAddSectionToDiskSpaceList, SetupAddSectionToDiskSpaceList function [Setup API], SetupAddSectionToDiskSpaceListA, SetupAddSectionToDiskSpaceListW, _setupapi_setupaddsectiontodiskspacelist, setup.setupaddsectiontodiskspacelist, setupapi/SetupAddSectionToDiskSpaceList, setupapi/SetupAddSectionToDiskSpaceListA, setupapi/SetupAddSectionToDiskSpaceListW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupAddSectionToDiskSpaceList
 dev_langs:

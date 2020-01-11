@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 478b9f33-db01-4a1d-9b5b-dc2662ee8d7b
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtInqStats, RpcMgmtInqStats function [RPC], _rpc_rpcmgmtinqstats, rpc.rpcmgmtinqstats, rpcdce/RpcMgmtInqStats
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcMgmtInqStats
 dev_langs:

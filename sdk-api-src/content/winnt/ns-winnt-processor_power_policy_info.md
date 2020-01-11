@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: 9d29aec0-ba22-46be-b429-d6dfd2191b98
 ms.date: 12/05/2018
 ms.keywords: '*PPROCESSOR_POWER_POLICY_INFO, PPROCESSOR_POWER_POLICY_INFO, PPROCESSOR_POWER_POLICY_INFO structure pointer, PROCESSOR_POWER_POLICY_INFO, PROCESSOR_POWER_POLICY_INFO structure, _PROCESSOR_POWER_POLICY_INFO, _win32_processor_power_policy_info_str, base.processor_power_policy_info_str, winnt/PPROCESSOR_POWER_POLICY_INFO, winnt/PROCESSOR_POWER_POLICY_INFO'
-ms.topic: struct
 f1_keywords:
 - winnt/PROCESSOR_POWER_POLICY_INFO
 dev_langs:

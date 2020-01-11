@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6AD9A9CD-933B-432F-A124-48092588C5DF
 ms.date: 12/05/2018
 ms.keywords: IPackageExecutionStateChangeNotification, IPackageExecutionStateChangeNotification interface [Windows Shell], IPackageExecutionStateChangeNotification interface [Windows Shell],described, shell.IPackageExecutionStateChangeNotification, shobjidl_core/IPackageExecutionStateChangeNotification
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IPackageExecutionStateChangeNotification
 dev_langs:

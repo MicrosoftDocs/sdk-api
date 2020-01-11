@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a5c52f5b-1c21-4f4c-b698-15b6ec7f7fed
 ms.date: 12/05/2018
 ms.keywords: IResourceManager interface [DirectShow],NotifyAcquire method, IResourceManager.NotifyAcquire, IResourceManager::NotifyAcquire, IResourceManagerNotifyAcquire, NotifyAcquire, NotifyAcquire method [DirectShow], NotifyAcquire method [DirectShow],IResourceManager interface, dshow.iresourcemanager_notifyacquire, strmif/IResourceManager::NotifyAcquire
-ms.topic: method
 f1_keywords:
 - strmif/IResourceManager.NotifyAcquire
 dev_langs:

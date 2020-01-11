@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 62f51b6e-3db1-48cd-8853-0dbe522c5e82
 ms.date: 12/05/2018
 ms.keywords: WlanGetNetworkBssList, WlanGetNetworkBssList function [NativeWIFI], dot11_BSS_type_any, dot11_BSS_type_independent, dot11_BSS_type_infrastructure, nwifi.wlangetnetworkbsslist, wlanapi/WlanGetNetworkBssList
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanGetNetworkBssList
 dev_langs:

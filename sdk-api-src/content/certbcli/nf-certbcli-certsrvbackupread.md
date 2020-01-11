@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: cfc72002-40ee-4854-a026-b956acd5d758
 ms.date: 12/05/2018
 ms.keywords: CertSrvBackupRead, CertSrvBackupRead function [Security], _certsrv_certsrvbackupread, certbcli/CertSrvBackupRead, security.certsrvbackupread
-ms.topic: function
 f1_keywords:
 - certbcli/CertSrvBackupRead
 dev_langs:

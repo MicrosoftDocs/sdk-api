@@ -7,7 +7,6 @@ tech.root: htmlhelp
 ms.assetid: 83d9fa7b-d814-4293-93b9-9454c01c1503
 ms.date: 12/05/2018
 ms.keywords: GetDataSize, GetDataSize method [HTML Help Workshop], GetDataSize method [HTML Help Workshop],IITPropList interface, IITPropList interface [HTML Help Workshop],GetDataSize method, IITPropList.GetDataSize, IITPropList::GetDataSize, htmlhelp.iitproplist_getdatasize, infotech/IITPropList::GetDataSize
-ms.topic: method
 f1_keywords:
 - infotech/IITPropList.GetDataSize
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_search.htm
 ms.date: 12/05/2018
 ms.keywords: DPAS_INSERTAFTER, DPAS_INSERTBEFORE, DPAS_SORTED, DPA_Search, DPA_Search function [Windows Controls], _win32_DPA_Search, _win32_DPA_Search_cpp, controls.DPA_Search, controls._win32_DPA_Search, dpa_dsa/DPA_Search
-ms.topic: function
 f1_keywords:
 - dpa_dsa/DPA_Search
 dev_langs:

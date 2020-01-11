@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: bd0e4086-087b-460f-a6af-fa073644f1bb
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],UpperButtonSelect method, IDvdControl.UpperButtonSelect, IDvdControl::UpperButtonSelect, IDvdControlUpperButtonSelect, UpperButtonSelect, UpperButtonSelect method [DirectShow], UpperButtonSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_upperbuttonselect, strmif/IDvdControl::UpperButtonSelect
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.UpperButtonSelect
 dev_langs:

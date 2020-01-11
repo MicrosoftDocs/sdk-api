@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 75A90895-BAD0-41F7-BFB1-16B8BF145441
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller4, IUpdateInstaller4 interface [Windows Update Agent], IUpdateInstaller4 interface [Windows Update Agent],described, wua.iupdateinstaller4, wuapi/IUpdateInstaller4
-ms.topic: interface
 f1_keywords:
 - wuapi/IUpdateInstaller4
 dev_langs:

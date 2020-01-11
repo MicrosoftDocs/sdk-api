@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 6c42d028-b832-470c-ab15-1cf46a3f8414
 ms.date: 12/05/2018
 ms.keywords: 52389497-00e9-1a7b-1543-a60e2a6b6479, GSSetShader, GSSetShader method [Direct3D 11], GSSetShader method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GSSetShader method, ID3D11DeviceContext.GSSetShader, ID3D11DeviceContext::GSSetShader, d3d11/ID3D11DeviceContext::GSSetShader, direct3d11.id3d11devicecontext_gssetshader
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11DeviceContext.GSSetShader
 dev_langs:

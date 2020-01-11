@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: a7ff421b-3ef3-406a-ae05-8d8bf9f4357f
 ms.date: 12/05/2018
 ms.keywords: GetOutputFromStream, GetOutputFromStream method [Media Foundation], GetOutputFromStream method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputFromStream method, IMFASFStreamSelector.GetOutputFromStream, IMFASFStreamSelector::GetOutputFromStream, a7ff421b-3ef3-406a-ae05-8d8bf9f4357f, mf.imfasfstreamselector_getoutputfromstream, wmcontainer/IMFASFStreamSelector::GetOutputFromStream
-ms.topic: method
 f1_keywords:
 - wmcontainer/IMFASFStreamSelector.GetOutputFromStream
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 9006a76f-11db-4e8c-9133-c335af7fe5ff
 ms.date: 12/05/2018
 ms.keywords: GetSubstituteKeyboardLayout, GetSubstituteKeyboardLayout method [Text Services Framework], GetSubstituteKeyboardLayout method [Text Services Framework],ITfInputProcessorProfileSubstituteLayout interface, ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework],GetSubstituteKeyboardLayout method, ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout, ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout, textstor/ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout, tsf.getsubstitutekeyboardlayout
-ms.topic: method
 f1_keywords:
 - msctf/ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout
 dev_langs:

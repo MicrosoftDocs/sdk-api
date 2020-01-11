@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountincomingarchive\refresh.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountIncomingArchive interface [Fax Service],Refresh method, IFaxAccountIncomingArchive.Refresh, IFaxAccountIncomingArchive::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxAccountIncomingArchive interface, _mfax_faxaccountincomingarchive.refresh, fax._mfax_faxaccountincomingarchive_cpp_mfax_faxaccountincomingarchive_refresh_cpp, fax._mfax_faxaccountincomingarchive_refresh, faxcomex/IFaxAccountIncomingArchive::Refresh
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxAccountIncomingArchive.Refresh
 dev_langs:

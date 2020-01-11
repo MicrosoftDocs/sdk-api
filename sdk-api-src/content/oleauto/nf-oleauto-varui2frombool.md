@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 0d1ee7cf-3d3b-49a3-9afa-9ee5afc49d19
 ms.date: 12/05/2018
 ms.keywords: VarUI2FromBool, VarUI2FromBool function [Automation], _oa96_VarUI2FromBool, automat.varui2frombool, oleauto/VarUI2FromBool
-ms.topic: function
 f1_keywords:
 - oleauto/VarUI2FromBool
 dev_langs:

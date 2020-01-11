@@ -7,7 +7,6 @@ tech.root: Madcap
 ms.assetid: 6cb87e3b-0d2e-46f8-8ccf-6309c8fb888c
 ms.date: 12/05/2018
 ms.keywords: McastReleaseAddress, McastReleaseAddress function [MADCAP], _mdhcp_mcastreleaseaddress, madcap.mcastreleaseaddress, madcapcl/McastReleaseAddress
-ms.topic: function
 f1_keywords:
 - madcapcl/McastReleaseAddress
 dev_langs:

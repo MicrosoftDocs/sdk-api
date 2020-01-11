@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 466e0767-d13a-4f5d-9715-47bb7b9d4142
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRequestOriginator interface [Security],InitializeFromLocalRequestOriginator method, ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator, ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator, InitializeFromLocalRequestOriginator, InitializeFromLocalRequestOriginator method [Security], InitializeFromLocalRequestOriginator method [Security],ICertPropertyRequestOriginator interface, certenroll/ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator, security.icertpropertyrequestoriginator_initializefromlocalrequestoriginator_method
-ms.topic: method
 f1_keywords:
 - certenroll/ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 1884efe5-86f5-4579-a25e-2ff9c9a6ec2a
 ms.date: 12/05/2018
 ms.keywords: IADsObjectOptions, IADsObjectOptions interface [ADSI], IADsObjectOptions interface [ADSI],described, _ds_iadsobjectoptions, adsi.iadsobjectoptions, iads/IADsObjectOptions
-ms.topic: interface
 f1_keywords:
 - iads/IADsObjectOptions
 dev_langs:

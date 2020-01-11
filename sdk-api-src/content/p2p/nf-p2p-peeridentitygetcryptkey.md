@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 27a1b563-7bbe-4117-8bc3-19dd47360308
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityGetCryptKey, PeerIdentityGetCryptKey function [Peer Networking], p2p.peeridentitygetcryptkey, p2p/PeerIdentityGetCryptKey
-ms.topic: function
 f1_keywords:
 - p2p/PeerIdentityGetCryptKey
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: d3700208-4e87-495e-98cf-cc495b380528
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],Required property, IAutomaticUpdatesSettings.Required, IAutomaticUpdatesSettings.get_Required, IAutomaticUpdatesSettings::Required, IAutomaticUpdatesSettings::get_Required, Required property [Windows Update Agent], Required property [Windows Update Agent],IAutomaticUpdatesSettings interface, get_Required, wua.iautomaticupdatessettings_required, wuapi/IAutomaticUpdatesSettings::Required, wuapi/IAutomaticUpdatesSettings::get_Required
-ms.topic: method
 f1_keywords:
 - wuapi/IAutomaticUpdatesSettings.Required
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 5f33e46a-0926-4802-8581-eca5f1cdea65
 ms.date: 12/05/2018
 ms.keywords: IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMSignatureBlockResourceCollection.RemoveAt, IXpsOMSignatureBlockResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, xps.ixpsomsignatureblockresourcecollection_removeat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::RemoveAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMSignatureBlockResourceCollection.RemoveAt
 dev_langs:

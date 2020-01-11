@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 856C7D91-15AB-4101-BC5F-232004AD6DF4
 ms.date: 12/05/2018
 ms.keywords: IClosable, IClosable interface [Windows Runtime], IClosable interface [Windows Runtime],described, windows/IClosable, winrt.iclosable
-ms.topic: interface
 f1_keywords:
 - windows.foundation/IClosable
 dev_langs:

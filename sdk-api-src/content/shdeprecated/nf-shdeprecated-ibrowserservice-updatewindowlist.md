@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0c82a486-f8ad-4868-80ab-ae4a2ebcc95f
 ms.date: 12/05/2018
 ms.keywords: IBrowserService interface [Windows Shell],UpdateWindowList method, IBrowserService.UpdateWindowList, IBrowserService::UpdateWindowList, UpdateWindowList, UpdateWindowList method [Windows Shell], UpdateWindowList method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::UpdateWindowList, shell.IBrowserService_UpdateWindowList, zone_IBrowserService_UpdateWindowList
-ms.topic: method
 f1_keywords:
 - shdeprecated/IBrowserService.UpdateWindowList
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: 4a7afa28-1786-4a58-a955-d2d8b12e62e4
 ms.date: 12/05/2018
 ms.keywords: LsaDeleteTrustedDomain, LsaDeleteTrustedDomain function [Security], _lsa_lsadeletetrusteddomain, ntsecapi/LsaDeleteTrustedDomain, security.lsadeletetrusteddomain
-ms.topic: function
 f1_keywords:
 - ntsecapi/LsaDeleteTrustedDomain
 dev_langs:

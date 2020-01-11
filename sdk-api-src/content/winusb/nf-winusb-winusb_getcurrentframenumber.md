@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 178E1679-B78F-4032-8D1B-66B7ABE902C7
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetCurrentFrameNumber, WinUsb_GetCurrentFrameNumber function [Buses], buses.winusb_getcurrentframenumber, winusb/WinUsb_GetCurrentFrameNumber
-ms.topic: function
 f1_keywords:
 - winusb/WinUsb_GetCurrentFrameNumber
 dev_langs:

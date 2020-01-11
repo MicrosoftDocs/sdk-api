@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 51ae200a-a630-44fd-afd4-33d1b1dbf6d7
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Windows Animation], GetValue method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetValue method, IUIAnimationVariable.GetValue, IUIAnimationVariable::GetValue, uianimation.iuianimationvariable_getvalue, uianimation/IUIAnimationVariable::GetValue
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationVariable.GetValue
 dev_langs:

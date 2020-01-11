@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: dec23c5a-3999-4f9b-81f3-2718b38d5835
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_WhiteBalanceComponent method, IVideoProcAmp.getRange_WhiteBalanceComponent, IVideoProcAmp::getRange_WhiteBalanceComponent, IVideoProcAmpgetRange_WhiteBalanceComponent, dshow.ivideoprocamp_getrange_whitebalancecomponent, getRange_WhiteBalanceComponent, getRange_WhiteBalanceComponent method [DirectShow], getRange_WhiteBalanceComponent method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_WhiteBalanceComponent
-ms.topic: method
 f1_keywords:
 - vidcap/IVideoProcAmp.getRange_WhiteBalanceComponent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: c1f27a79-837f-4833-af62-2181406ed725
 ms.date: 12/05/2018
 ms.keywords: IWMPSkinManager, IWMPSkinManager interface [Windows Media Player], IWMPSkinManager interface [Windows Media Player],described, IWMPSkinManagerInterface, wmp.iwmpskinmanager, wmp/IWMPSkinManager
-ms.topic: interface
 f1_keywords:
 - wmp/IWMPSkinManager
 dev_langs:

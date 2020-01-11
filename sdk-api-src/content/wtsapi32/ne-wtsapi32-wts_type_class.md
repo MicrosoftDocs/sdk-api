@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 1827e862-add0-4271-b5d7-62834c396250
 ms.date: 12/05/2018
 ms.keywords: WTSTypeProcessInfoLevel0, WTSTypeProcessInfoLevel1, WTSTypeSessionInfoLevel1, WTS_TYPE_CLASS, WTS_TYPE_CLASS enumeration [Remote Desktop Services], termserv.wts_type_class, wtsapi32/WTSTypeProcessInfoLevel0, wtsapi32/WTSTypeProcessInfoLevel1, wtsapi32/WTSTypeSessionInfoLevel1, wtsapi32/WTS_TYPE_CLASS
-ms.topic: enum
 f1_keywords:
 - wtsapi32/WTS_TYPE_CLASS
 dev_langs:

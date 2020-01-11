@@ -7,7 +7,6 @@ tech.root: WebSock
 ms.assetid: c61992cc-7715-4fad-a66a-916402088ad0
 ms.date: 12/05/2018
 ms.keywords: WebSocketCreateClientHandle, WebSocketCreateClientHandle function [Websocket Protocol Component API], websock.websocketcreateclienthandle, websocket/WebSocketCreateClientHandle
-ms.topic: function
 f1_keywords:
 - websocket/WebSocketCreateClientHandle
 dev_langs:

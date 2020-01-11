@@ -7,7 +7,6 @@ tech.root: wsb
 ms.assetid: 45865f1b-0f0a-46fc-b1f3-f2fd7c49f56f
 ms.date: 12/05/2018
 ms.keywords: IWsbApplicationBackupSupport, IWsbApplicationBackupSupport interface [Windows Server Backup], IWsbApplicationBackupSupport interface [Windows Server Backup],described, wsb.iwsbapplicationbackupsupport, wsbapp/IWsbApplicationBackupSupport
-ms.topic: interface
 f1_keywords:
 - wsbapp/IWsbApplicationBackupSupport
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 980c7920-a25e-4e05-a742-77178a7f000a
 ms.date: 12/05/2018
 ms.keywords: WlanSetProfileList, WlanSetProfileList function [NativeWIFI], nwifi.wlansetprofilelist, wlanapi/WlanSetProfileList
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanSetProfileList
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: a52f2dbd-bda6-4217-9e72-f100f8bbe334
 ms.date: 12/05/2018
 ms.keywords: GetDiskFreeSpaceEx, GetDiskFreeSpaceEx function [Files], GetDiskFreeSpaceExA, GetDiskFreeSpaceExW, _win32_getdiskfreespaceex, base.getdiskfreespaceex, fileapi/GetDiskFreeSpaceEx, fileapi/GetDiskFreeSpaceExA, fileapi/GetDiskFreeSpaceExW, fs.getdiskfreespaceex, winbase/GetDiskFreeSpaceEx, winbase/GetDiskFreeSpaceExA, winbase/GetDiskFreeSpaceExW
-ms.topic: function
 f1_keywords:
 - fileapi/GetDiskFreeSpaceEx
 dev_langs:

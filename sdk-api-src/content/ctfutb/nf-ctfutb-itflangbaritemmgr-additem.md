@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: c9a36b2c-e7ea-4932-928e-05dd05ca02ca
 ms.date: 12/05/2018
 ms.keywords: AddItem, AddItem method [Text Services Framework], AddItem method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],AddItem method, ITfLangBarItemMgr.AddItem, ITfLangBarItemMgr::AddItem, _tsf_itflangbaritemmgr_additem_ref, ctfutb/ITfLangBarItemMgr::AddItem, tsf.itflangbaritemmgr_additem
-ms.topic: method
 f1_keywords:
 - ctfutb/ITfLangBarItemMgr.AddItem
 dev_langs:

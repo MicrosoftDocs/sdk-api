@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: fbc971ad-7cfb-4f75-8d63-a210a7967424
 ms.date: 12/05/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],TabletAdded method, IStylusPlugin.TabletAdded, IStylusPlugin::TabletAdded, TabletAdded, TabletAdded method [Tablet PC], TabletAdded method [Tablet PC],IStylusPlugin interface, fbc971ad-7cfb-4f75-8d63-a210a7967424, rtscom/IStylusPlugin::TabletAdded, tablet.istylusplugin_tabletadded
-ms.topic: method
 f1_keywords:
 - rtscom/IStylusPlugin.TabletAdded
 dev_langs:

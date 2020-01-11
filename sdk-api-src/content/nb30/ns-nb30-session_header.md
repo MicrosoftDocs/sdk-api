@@ -7,7 +7,6 @@ tech.root: NetBIOS
 ms.assetid: 0b466bc7-6d20-477f-9e64-1d3dc0744484
 ms.date: 12/05/2018
 ms.keywords: '*PSESSION_HEADER, PSESSION_HEADER, PSESSION_HEADER structure pointer [NetBIOS], SESSION_HEADER, SESSION_HEADER structure [NetBIOS], _SESSION_HEADER, nb30/PSESSION_HEADER, nb30/SESSION_HEADER, netbios.session_header'
-ms.topic: struct
 f1_keywords:
 - nb30/SESSION_HEADER
 dev_langs:

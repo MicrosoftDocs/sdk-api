@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: fb48a460-c891-4fbe-8fe2-f900f8b405b7
 ms.date: 12/05/2018
 ms.keywords: GetParameterRange, GetParameterRange method [Microsoft TV Technologies], GetParameterRange method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetParameterRange method, IEncoderAPI.GetParameterRange, IEncoderAPI::GetParameterRange, IEncoderAPIGetParameterRange, mstv.iencoderapi_getparameterrange, strmif/IEncoderAPI::GetParameterRange
-ms.topic: method
 f1_keywords:
 - strmif/IEncoderAPI.GetParameterRange
 dev_langs:

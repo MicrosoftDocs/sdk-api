@@ -7,7 +7,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\entryid.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPENTRYID, ENTRYID, ENTRYID structure [Windows Address Book], LPENTRYID, LPENTRYID structure pointer [Windows Address Book], _wab_ENTRYID, wab._wab_ENTRYID, wabdefs/ENTRYID, wabdefs/LPENTRYID'
-ms.topic: struct
 f1_keywords:
 - wabdefs/ENTRYID
 dev_langs:

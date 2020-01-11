@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: a1894ab3-0b3f-492b-8ed7-51f3b4ee1eaa
 ms.date: 12/05/2018
 ms.keywords: GetId, GetId method [BITS], GetId method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetId method, IBitsPeerCacheRecord.GetId, IBitsPeerCacheRecord::GetId, bits.ibitspeercacherecord_getid, bits3_0/IBitsPeerCacheRecord::GetId
-ms.topic: method
 f1_keywords:
 - bits3_0/IBitsPeerCacheRecord.GetId
 dev_langs:

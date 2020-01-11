@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 92d21f29-240f-407e-89a7-bbbb8f9bf0eb
 ms.date: 12/05/2018
 ms.keywords: WPUOpenCurrentThread, WPUOpenCurrentThread function [Winsock], _win32_wpuopencurrentthread_2, winsock.wpuopencurrentthread_2, ws2spi/WPUOpenCurrentThread
-ms.topic: function
 f1_keywords:
 - ws2spi/WPUOpenCurrentThread
 dev_langs:

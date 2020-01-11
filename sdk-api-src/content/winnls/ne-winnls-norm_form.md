@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: d0133c6d-3534-4616-8b6f-07ec712808a3
 ms.date: 12/05/2018
 ms.keywords: NORM_FORM, NORM_FORM enumeration [Internationalization for Windows Applications], NormalizationC, NormalizationD, NormalizationKC, NormalizationKD, NormalizationOther, _win32_NORM_FORM, intl.norm_form, winnls/NORM_FORM, winnls/NormalizationC, winnls/NormalizationD, winnls/NormalizationKC, winnls/NormalizationKD, winnls/NormalizationOther
-ms.topic: enum
 f1_keywords:
 - winnls/NORM_FORM
 dev_langs:

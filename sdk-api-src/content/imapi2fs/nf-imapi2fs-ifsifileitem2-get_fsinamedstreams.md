@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 011c6241-4989-41ca-9876-d6810797a382
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],get_FsiNamedStreams method, IFsiFileItem2.get_FsiNamedStreams, IFsiFileItem2::get_FsiNamedStreams, get_FsiNamedStreams, get_FsiNamedStreams method [IMAPI], get_FsiNamedStreams method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_get_fsinamedstreams, imapi2fs/IFsiFileItem2::get_FsiNamedStreams
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFsiFileItem2.get_FsiNamedStreams
 dev_langs:

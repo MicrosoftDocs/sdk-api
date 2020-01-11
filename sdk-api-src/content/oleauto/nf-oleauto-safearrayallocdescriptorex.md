@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: c368d278-ef62-4cf3-a7f8-c48549207c09
 ms.date: 12/05/2018
 ms.keywords: SafeArrayAllocDescriptorEx, SafeArrayAllocDescriptorEx function [Automation], _oa96_SafeArrayAllocDescriptorEx, automat.safearrayallocdescriptorex, oleauto/SafeArrayAllocDescriptorEx
-ms.topic: function
 f1_keywords:
 - oleauto/SafeArrayAllocDescriptorEx
 dev_langs:

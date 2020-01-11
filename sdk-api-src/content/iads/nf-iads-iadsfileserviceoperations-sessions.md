@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 97b485c9-650a-4d87-adbb-51799581c3bc
 ms.date: 12/05/2018
 ms.keywords: IADsFileServiceOperations interface [ADSI],Sessions method, IADsFileServiceOperations.Sessions, IADsFileServiceOperations::Sessions, Sessions, Sessions method [ADSI], Sessions method [ADSI],IADsFileServiceOperations interface, _ds_iadsfileserviceoperations_sessions, adsi.iadsfileserviceoperations__sessions, adsi.iadsfileserviceoperations_sessions, iads/IADsFileServiceOperations::Sessions
-ms.topic: method
 f1_keywords:
 - iads/IADsFileServiceOperations.Sessions
 dev_langs:

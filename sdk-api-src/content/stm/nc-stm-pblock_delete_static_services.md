@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: eb680a9c-aad8-44b5-8c20-af15c1fd8930
 ms.date: 12/05/2018
 ms.keywords: BlockDeleteStaticServices, BlockDeleteStaticServices callback function [RAS], PBLOCK_DELETE_STATIC_SERVICES, PBLOCK_DELETE_STATIC_SERVICES callback, _mpr_blockdeletestaticservices, rras.blockdeletestaticservices, stm/BlockDeleteStaticServices
-ms.topic: callback
 f1_keywords:
 - stm/BlockDeleteStaticServices
 dev_langs:

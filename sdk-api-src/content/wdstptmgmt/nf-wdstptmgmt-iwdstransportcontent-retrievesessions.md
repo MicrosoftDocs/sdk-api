@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 8901f9c5-931e-40d5-8a5c-d3a814556400
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportContent interface [Windows Deployment Services],RetrieveSessions method, IWdsTransportContent.RetrieveSessions, IWdsTransportContent::RetrieveSessions, RetrieveSessions, RetrieveSessions method [Windows Deployment Services], RetrieveSessions method [Windows Deployment Services],IWdsTransportContent interface, wds.iwdstransportcontent_retrievesessions, wdstptmgmt/IWdsTransportContent::RetrieveSessions
-ms.topic: method
 f1_keywords:
 - wdstptmgmt/IWdsTransportContent.RetrieveSessions
 dev_langs:

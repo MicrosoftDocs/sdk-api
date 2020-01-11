@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\enumdevicecapabilities.htm
 ms.date: 12/05/2018
 ms.keywords: EnumDeviceCapabilities, EnumDeviceCapabilities method [WIA], EnumDeviceCapabilities method [WIA],IWiaItem interface, IWiaItem interface [WIA],EnumDeviceCapabilities method, IWiaItem.EnumDeviceCapabilities, IWiaItem::EnumDeviceCapabilities, _wia_IWiaItem_EnumDeviceCapabilities, wia._wia_IWiaItem_EnumDeviceCapabilities, wia_xp/IWiaItem::EnumDeviceCapabilities
-ms.topic: method
 f1_keywords:
 - wia_xp/IWiaItem.EnumDeviceCapabilities
 dev_langs:

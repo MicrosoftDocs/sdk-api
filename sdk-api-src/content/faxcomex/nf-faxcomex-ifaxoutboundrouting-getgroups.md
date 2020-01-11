@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8j1v_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: GetGroups, GetGroups method [Fax Service], GetGroups method [Fax Service],IFaxOutboundRouting interface, IFaxOutboundRouting interface [Fax Service],GetGroups method, IFaxOutboundRouting.GetGroups, IFaxOutboundRouting::GetGroups, _mfax_faxoutboundrouting.getgroups_cpp, fax._mfax_faxoutboundrouting_getgroups_cpp, faxcomex/IFaxOutboundRouting::GetGroups
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutboundRouting.GetGroups
 dev_langs:

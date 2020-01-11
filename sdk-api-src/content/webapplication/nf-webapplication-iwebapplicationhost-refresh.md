@@ -7,7 +7,6 @@ tech.root: debug_wwahost
 ms.assetid: 66f94cc9-9407-4844-a100-8144fc6f45ce
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationHost interface [Debugging Windows Store apps],Refresh method, IWebApplicationHost.Refresh, IWebApplicationHost::Refresh, Refresh, Refresh method [Debugging Windows Store apps], Refresh method [Debugging Windows Store apps],IWebApplicationHost interface, debug.iwebapplicationhost_refresh, webapplication/IWebApplicationHost::Refresh
-ms.topic: method
 f1_keywords:
 - webapplication/IWebApplicationHost.Refresh
 dev_langs:

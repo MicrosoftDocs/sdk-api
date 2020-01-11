@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: e15e47aa-e5c4-4944-a3c4-14e459a31bb5
 ms.date: 12/05/2018
 ms.keywords: IStreamPseudoRandomBased interface [IMAPI],get_ExtendedSeed method, IStreamPseudoRandomBased.get_ExtendedSeed, IStreamPseudoRandomBased::get_ExtendedSeed, get_ExtendedSeed, get_ExtendedSeed method [IMAPI], get_ExtendedSeed method [IMAPI],IStreamPseudoRandomBased interface, imapi.istreampseudorandombased_get_extendedseed, imapi2/IStreamPseudoRandomBased::get_ExtendedSeed
-ms.topic: method
 f1_keywords:
 - imapi2/IStreamPseudoRandomBased.get_ExtendedSeed
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 24daca16-834c-424a-8569-e448f515d76f
 ms.date: 12/05/2018
 ms.keywords: SymCompareInlineTrace, SymCompareInlineTrace function, base.symcompareinlinetrace, dbghelp/SymCompareInlineTrace
-ms.topic: function
 f1_keywords:
 - dbghelp/SymCompareInlineTrace
 dev_langs:

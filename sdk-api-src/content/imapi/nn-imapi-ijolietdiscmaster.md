@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: e2269b68-1860-4afd-90f2-d61297f3fa9b
 ms.date: 12/05/2018
 ms.keywords: IJolietDiscMaster, IJolietDiscMaster interface [IMAPI], IJolietDiscMaster interface [IMAPI],described, _win32_ijolietdiscmaster, base.ijolietdiscmaster, imapi.ijolietdiscmaster, imapi/IJolietDiscMaster
-ms.topic: interface
 f1_keywords:
 - imapi/IJolietDiscMaster
 dev_langs:

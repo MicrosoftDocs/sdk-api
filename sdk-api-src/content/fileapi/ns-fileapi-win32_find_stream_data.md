@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: f21f5161-10a8-474c-85d8-dde075b9daff
 ms.date: 12/05/2018
 ms.keywords: '*PWIN32_FIND_STREAM_DATA, PWIN32_FIND_STREAM_DATA, PWIN32_FIND_STREAM_DATA structure pointer [Files], WIN32_FIND_STREAM_DATA, WIN32_FIND_STREAM_DATA structure [Files], _win32_win32_find_stream_data_str, base.win32_find_stream_data_str, fileapi/PWIN32_FIND_STREAM_DATA, fileapi/WIN32_FIND_STREAM_DATA, fs.win32_find_stream_data_str'
-ms.topic: struct
 f1_keywords:
 - fileapi/WIN32_FIND_STREAM_DATA
 dev_langs:

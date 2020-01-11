@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\isidentity.htm
 ms.date: 12/05/2018
 ms.keywords: IsIdentity, IsIdentity method [GDI+], IsIdentity method [GDI+],Matrix class, Matrix class [GDI+],IsIdentity method, Matrix.IsIdentity, Matrix::IsIdentity, _gdiplus_CLASS_Matrix_IsIdentity_, gdiplus._gdiplus_CLASS_Matrix_IsIdentity_
-ms.topic: method
 f1_keywords:
 - gdiplusmatrix/Matrix.IsIdentity
 dev_langs:

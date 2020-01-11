@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF2.#ctor
 ms.date: 12/05/2018
 ms.keywords: XMHALF2, XMHALF2 constructor [DirectX Math Support APIs], XMHALF2 constructor [DirectX Math Support APIs],XMHALF2 structure, XMHALF2 structure [DirectX Math Support APIs],XMHALF2 constructor, XMHALF2.XMHALF2, XMHALF2.XMHALF2(), XMHALF2::XMHALF2, dxmath.xmhalf2_ctor_1
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMHALF2.XMHALF2
 dev_langs:

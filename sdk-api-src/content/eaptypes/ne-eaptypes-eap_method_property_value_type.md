@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 17ef654a-d4a0-45ba-a49d-45add8e78b28
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE_TYPE, EAP_METHOD_PROPERTY_VALUE_TYPE enumeration [EAPHost], eaphost.eap_method_property_value_type, eaptypes/EAP_METHOD_PROPERTY_VALUE_TYPE, eaptypes/empvtBool, eaptypes/empvtDword, eaptypes/empvtString, empvtBool, empvtDword, empvtString
-ms.topic: enum
 f1_keywords:
 - eaptypes/EAP_METHOD_PROPERTY_VALUE_TYPE
 dev_langs:

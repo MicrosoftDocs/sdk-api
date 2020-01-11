@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 84b6cd51-4cb5-4a43-9ac2-88ca8049b950
 ms.date: 12/05/2018
 ms.keywords: IBDA_NetworkProvider, IBDA_NetworkProvider interface [Microsoft TV Technologies], IBDA_NetworkProvider interface [Microsoft TV Technologies],described, IBDA_NetworkProviderInterface, bdaiface/IBDA_NetworkProvider, mstv.ibda_networkprovider
-ms.topic: interface
 f1_keywords:
 - bdaiface/IBDA_NetworkProvider
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: ca0ac386-9435-49f0-95fe-503aa7183517
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_PROVIDER_REG, CRYPT_PROVIDER_REG, CRYPT_PROVIDER_REG structure [Security], PCRYPT_PROVIDER_REG, PCRYPT_PROVIDER_REG structure pointer [Security], bcrypt/CRYPT_PROVIDER_REG, bcrypt/PCRYPT_PROVIDER_REG, security.crypt_provider_reg'
-ms.topic: struct
 f1_keywords:
 - bcrypt/CRYPT_PROVIDER_REG
 dev_langs:

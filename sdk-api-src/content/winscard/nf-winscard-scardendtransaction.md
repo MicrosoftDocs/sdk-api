@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 0acaff20-006a-47d3-bc7a-834b3281cde6
 ms.date: 12/05/2018
 ms.keywords: SCARD_EJECT_CARD, SCARD_LEAVE_CARD, SCARD_RESET_CARD, SCARD_UNPOWER_CARD, SCardEndTransaction, SCardEndTransaction function [Security], _smart_scardendtransaction, security.scardendtransaction, winscard/SCardEndTransaction
-ms.topic: function
 f1_keywords:
 - winscard/SCardEndTransaction
 dev_langs:

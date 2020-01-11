@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 938ec37b-450e-4ebf-ad2b-9f1ac5f56112
 ms.date: 12/05/2018
 ms.keywords: '*PDISK_PERFORMANCE, DISK_PERFORMANCE, DISK_PERFORMANCE structure [Files], PDISK_PERFORMANCE, PDISK_PERFORMANCE structure pointer [Files], _win32_disk_performance_str, base.disk_performance_str, fs.disk_performance_str, winioctl/DISK_PERFORMANCE, winioctl/PDISK_PERFORMANCE'
-ms.topic: struct
 f1_keywords:
 - winioctl/DISK_PERFORMANCE
 dev_langs:

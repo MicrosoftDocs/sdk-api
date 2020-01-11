@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: C64BCBA0-097E-4035-BFEE-F9EC949B109A
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetCurrentTime method, IMFMediaEngine.SetCurrentTime, IMFMediaEngine::SetCurrentTime, SetCurrentTime, SetCurrentTime method [Media Foundation], SetCurrentTime method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setcurrenttime, mfmediaengine/IMFMediaEngine::SetCurrentTime
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngine.SetCurrentTime
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 6cd34ca5-6561-4161-beac-98248f0415f6
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],RetrieveRequestedAttrs method, ITextStoreACP.RetrieveRequestedAttrs, ITextStoreACP::RetrieveRequestedAttrs, RetrieveRequestedAttrs, RetrieveRequestedAttrs method [Text Services Framework], RetrieveRequestedAttrs method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_retrieverequestedattrs_ref, textstor/ITextStoreACP::RetrieveRequestedAttrs, tsf.itextstoreacp_retrieverequestedattrs
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreACP.RetrieveRequestedAttrs
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: beb50d34-ff68-43e6-8deb-b1ba2c02d70d
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnStartupComplete method, ICameraUIControlEventCallback.OnStartupComplete, ICameraUIControlEventCallback::OnStartupComplete, OnStartupComplete, OnStartupComplete method [Windows API], OnStartupComplete method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnStartupComplete, winprog.icamerauicontroleventcallback_onstartupcomplete
-ms.topic: method
 f1_keywords:
 - camerauicontrol/ICameraUIControlEventCallback.OnStartupComplete
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: ed3187c5-e175-4287-b930-2c283c9e93f3
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],MsrcSeverity property, IUpdate.MsrcSeverity, IUpdate.get_MsrcSeverity, IUpdate::MsrcSeverity, IUpdate::get_MsrcSeverity, MsrcSeverity property [Windows Update Agent], MsrcSeverity property [Windows Update Agent],IUpdate interface, get_MsrcSeverity, wua.iupdate_msrcseverity, wuapi/IUpdate::MsrcSeverity, wuapi/IUpdate::get_MsrcSeverity
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdate.MsrcSeverity
 dev_langs:

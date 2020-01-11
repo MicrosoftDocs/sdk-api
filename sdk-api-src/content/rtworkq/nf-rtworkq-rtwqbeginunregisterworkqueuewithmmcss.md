@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 1faa9661-9b65-472a-b1d5-c99b10b149e9
 ms.date: 12/05/2018
 ms.keywords: RtwqBeginUnregisterWorkQueueWithMMCSS, RtwqBeginUnregisterWorkQueueWithMMCSS function, base.rtwqbeginunregisterworkqueuewithmmcss, rtworkq/RtwqBeginUnregisterWorkQueueWithMMCSS
-ms.topic: function
 f1_keywords:
 - rtworkq/RtwqBeginUnregisterWorkQueueWithMMCSS
 dev_langs:

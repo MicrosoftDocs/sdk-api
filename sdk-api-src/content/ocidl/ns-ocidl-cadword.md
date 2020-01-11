@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 4e7f8e1a-53cc-40db-9651-00f5d912e768
 ms.date: 12/05/2018
 ms.keywords: '*LPCADWORD, CADWORD, CADWORD structure [COM], LPCADWORD, LPCADWORD structure pointer [COM], _ctrl_CADWORD, com.cadword, ocidl/CADWORD, ocidl/LPCADWORD'
-ms.topic: struct
 f1_keywords:
 - ocidl/CADWORD
 dev_langs:

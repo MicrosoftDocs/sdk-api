@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 01a4c79e-9867-47c0-9aca-b2f1596f1c2a
 ms.date: 12/05/2018
 ms.keywords: IWMPRenderConfig, IWMPRenderConfig interface [Windows Media Player], IWMPRenderConfig interface [Windows Media Player],described, IWMPRenderConfigInterface, wmp.iwmprenderconfig, wmprealestate/IWMPRenderConfig
-ms.topic: interface
 f1_keywords:
 - wmprealestate/IWMPRenderConfig
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 0A35A174-9020-438E-94CF-3A790D158144
 ms.date: 12/5/2018
 ms.keywords: RoReportFailedDelegate, RoReportFailedDelegate function [Windows Runtime], roerrorapi/RoReportFailedDelegate, winrt.roreportfaileddelegate
-ms.topic: function
 f1_keywords:
 - roerrorapi/RoReportFailedDelegate
 dev_langs:

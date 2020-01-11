@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a9f40c32-afbe-4f1f-9693-72a757d93a05
 ms.date: 12/05/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],StartSessionRedirection method, IPackageDebugSettings.StartSessionRedirection, IPackageDebugSettings::StartSessionRedirection, StartSessionRedirection, StartSessionRedirection method [Windows Shell], StartSessionRedirection method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_StartSessionRedirection, shobjidl_core/IPackageDebugSettings::StartSessionRedirection
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IPackageDebugSettings.StartSessionRedirection
 dev_langs:

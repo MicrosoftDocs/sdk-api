@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 4a6b907a-2475-48c8-afd7-e212144bc165
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_LastUsedUserSectorInImage method, IRawCDImageCreator.get_LastUsedUserSectorInImage, IRawCDImageCreator::get_LastUsedUserSectorInImage, get_LastUsedUserSectorInImage, get_LastUsedUserSectorInImage method [IMAPI], get_LastUsedUserSectorInImage method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_lastusedusersectorinimage, imapi2/IRawCDImageCreator::get_LastUsedUserSectorInImage
-ms.topic: method
 f1_keywords:
 - imapi2/IRawCDImageCreator.get_LastUsedUserSectorInImage
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 0F2ED4B7-AE71-4431-83FE-739F7D0D5CD2
 ms.date: 12/05/2018
 ms.keywords: GetOptionDescription, GetOptionDescription method [Internationalization for Windows Applications], GetOptionDescription method [Internationalization for Windows Applications],ISpellCheckProvider interface, ISpellCheckProvider interface [Internationalization for Windows Applications],GetOptionDescription method, ISpellCheckProvider.GetOptionDescription, ISpellCheckProvider::GetOptionDescription, intl.ispellcheckprovider_getoptiondescription, spellcheckprovider/ISpellCheckProvider::GetOptionDescription
-ms.topic: method
 f1_keywords:
 - spellcheckprovider/ISpellCheckProvider.GetOptionDescription
 dev_langs:

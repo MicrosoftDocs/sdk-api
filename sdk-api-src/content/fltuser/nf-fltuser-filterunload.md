@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 74de2531-1666-420e-b500-131622f1b76f
 ms.date: 12/05/2018
 ms.keywords: FilterUnload, FilterUnload function [Installable File System Drivers], FltWin32ApiRef_d6c75950-e58b-4f4c-8707-85566c03d219.xml, fltuser/FilterUnload, ifsk.filterunload
-ms.topic: function
 f1_keywords:
 - fltuser/FilterUnload
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 4c96fad0-23c4-44cc-8b8f-2d62f08429d2
 ms.date: 12/05/2018
 ms.keywords: EventDescGetKeyword, EventDescGetKeyword function [ETW], base.eventdescgetkeyword_func, etw.eventdescgetkeyword_func, evntprov/EventDescGetKeyword
-ms.topic: function
 f1_keywords:
 - evntprov/EventDescGetKeyword
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5fd69b1f-4e4b-4643-8429-9b5f98f3d702
 ms.date: 12/05/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnSelectionChange method, IFileDialogEvents.OnSelectionChange, IFileDialogEvents::OnSelectionChange, OnSelectionChange, OnSelectionChange method [Windows Shell], OnSelectionChange method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnSelectionChange, shell_IFileDialogEvents_OnSelectionChange, shobjidl_core/IFileDialogEvents::OnSelectionChange
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileDialogEvents.OnSelectionChange
 dev_langs:

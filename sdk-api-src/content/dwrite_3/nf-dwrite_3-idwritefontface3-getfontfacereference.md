@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 3830951F-B304-4EBC-B8D5-611D1AC87F63
 ms.date: 12/05/2018
 ms.keywords: GetFontFaceReference, GetFontFaceReference method [Direct Write], GetFontFaceReference method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetFontFaceReference method, IDWriteFontFace3.GetFontFaceReference, IDWriteFontFace3::GetFontFaceReference, directwrite.idwritefontface3_getfontfacereference, dwrite_3/IDWriteFontFace3::GetFontFaceReference
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontFace3.GetFontFaceReference
 dev_langs:

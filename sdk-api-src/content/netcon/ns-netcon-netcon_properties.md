@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 5acda2b8-960f-41ef-9ff2-49787f4e1c0c
 ms.date: 12/05/2018
 ms.keywords: NETCON_PROPERTIES, NETCON_PROPERTIES structure [ICS/ICF], _ics_netcon_properties, ics.netcon_properties, netcon/NETCON_PROPERTIES
-ms.topic: struct
 f1_keywords:
 - netcon/NETCON_PROPERTIES
 dev_langs:

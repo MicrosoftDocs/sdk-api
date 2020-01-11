@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 6C61B35A-FD43-434F-BD56-C912E2FCE464
 ms.date: 12/05/2018
 ms.keywords: PdfCreateRenderer, PdfCreateRenderer function [Windows Runtime], windows/PdfCreateRenderer, winrt.pdfcreaterenderer
-ms.topic: function
 f1_keywords:
 - windows.data.pdf.interop/PdfCreateRenderer
 dev_langs:

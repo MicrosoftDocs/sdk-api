@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: E9C00E8A-AD1E-475C-9B81-A5EB995669C6
 ms.date: 12/05/2018
 ms.keywords: D2D1_CROP_PROP, D2D1_CROP_PROP enumeration [Direct2D], D2D1_CROP_PROP_BORDER_MODE, D2D1_CROP_PROP_RECT, d2d1effects/D2D1_CROP_PROP, d2d1effects/D2D1_CROP_PROP_BORDER_MODE, d2d1effects/D2D1_CROP_PROP_RECT, direct2d.d2d1_crop_prop
-ms.topic: enum
 f1_keywords:
 - d2d1effects/D2D1_CROP_PROP
 dev_langs:

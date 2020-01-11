@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 77664778-5be3-45b7-9d33-37c923070080
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],put__VideoAnalysisFilter method, IMSVidStreamBufferSink3.put__VideoAnalysisFilter, IMSVidStreamBufferSink3::put__VideoAnalysisFilter, IMSVidStreamBufferSink3put__VideoAnalysisFilter, mstv.imsvidstreambuffersink3_put__videoanalysisfilter, put__VideoAnalysisFilter, put__VideoAnalysisFilter method [Microsoft TV Technologies], put__VideoAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, segment/IMSVidStreamBufferSink3::put__VideoAnalysisFilter
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferSink3.put__VideoAnalysisFilter
 dev_langs:

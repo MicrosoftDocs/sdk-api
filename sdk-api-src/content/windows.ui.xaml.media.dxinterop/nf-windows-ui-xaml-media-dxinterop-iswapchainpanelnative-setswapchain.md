@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 8269A6DC-1732-40CF-96C7-FA13BC6763D2
 ms.date: 12/05/2018
 ms.keywords: ISwapChainPanelNative interface [Windows Runtime],SetSwapChain method, ISwapChainPanelNative.SetSwapChain, ISwapChainPanelNative.xaml, ISwapChainPanelNative::SetSwapChain, ISwapChainPanelNative::xaml, SetSwapChain, SetSwapChain method [Windows Runtime], SetSwapChain method [Windows Runtime],ISwapChainPanelNative interface, windows/ISwapChainPanelNative::SetSwapChain, winrt.iswapchainpanelnative_setswapchain
-ms.topic: method
 f1_keywords:
 - windows.ui.xaml.media.dxinterop/ISwapChainPanelNative.SetSwapChain
 dev_langs:

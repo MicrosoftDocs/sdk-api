@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2eee9fd9-ed8d-482d-833a-c785d65cbf6a
 ms.date: 12/05/2018
 ms.keywords: IMSVidEVREvent interface [Microsoft TV Technologies],OnUserEvent method, IMSVidEVREvent.OnUserEvent, IMSVidEVREvent::OnUserEvent, IMSVidEVREventOnUserEvent, OnUserEvent, OnUserEvent method [Microsoft TV Technologies], OnUserEvent method [Microsoft TV Technologies],IMSVidEVREvent interface, mstv.imsvidevrevent_onuserevent, segment/IMSVidEVREvent::OnUserEvent
-ms.topic: method
 f1_keywords:
 - segment/IMSVidEVREvent.OnUserEvent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 58d0c73b-46a4-498d-bcef-f5b8aaf52392
 ms.date: 12/05/2018
 ms.keywords: _win32_midiOutCachePatches, midiOutCachePatches, midiOutCachePatches function [Windows Multimedia], mmeapi/midiOutCachePatches, multimedia.midioutcachepatches
-ms.topic: function
 f1_keywords:
 - mmeapi/midiOutCachePatches
 dev_langs:

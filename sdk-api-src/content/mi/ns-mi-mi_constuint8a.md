@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 459f3d7b-5801-453f-9274-1473aac2cfbf
 ms.date: 12/05/2018
 ms.keywords: MI_ConstUint8A, MI_ConstUint8A structure [Windows Management Infrastructure (MI)], mi/MI_ConstUint8A, wmi._mi_constuint8a, wmi_v2.mi_constuint8a
-ms.topic: struct
 f1_keywords:
 - mi/MI_ConstUint8A
 dev_langs:

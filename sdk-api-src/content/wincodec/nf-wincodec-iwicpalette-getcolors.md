@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: efec97fd-251c-4e52-b92e-4e624cdb9881
 ms.date: 12/05/2018
 ms.keywords: GetColors, GetColors method [Windows Imaging Component], GetColors method [Windows Imaging Component],IWICPalette interface, IWICPalette interface [Windows Imaging Component],GetColors method, IWICPalette.GetColors, IWICPalette::GetColors, _wic_codec_iwicpalette_getcolors, wic._wic_codec_iwicpalette_getcolors, wincodec/IWICPalette::GetColors
-ms.topic: method
 f1_keywords:
 - wincodec/IWICPalette.GetColors
 dev_langs:

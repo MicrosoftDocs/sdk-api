@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: c3f25484-7c6c-4625-9d26-1c01d15b10c4
 ms.date: 12/05/2018
 ms.keywords: AddObjectByTemplate, AddObjectByTemplate method [Windows Management Instrumentation], AddObjectByTemplate method [Windows Management Instrumentation],IWbemConfigureRefresher interface, IWbemConfigureRefresher interface [Windows Management Instrumentation],AddObjectByTemplate method, IWbemConfigureRefresher.AddObjectByTemplate, IWbemConfigureRefresher::AddObjectByTemplate, _hmm_iwbemconfigurerefresher_addobjectbytemplate, wbemcli/IWbemConfigureRefresher::AddObjectByTemplate, wmi.iwbemconfigurerefresher_addobjectbytemplate
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemConfigureRefresher.AddObjectByTemplate
 dev_langs:

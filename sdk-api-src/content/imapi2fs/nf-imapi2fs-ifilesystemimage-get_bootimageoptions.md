@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: b9721313-a2b0-4d91-af10-7932bd2d01be
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_BootImageOptions method, IFileSystemImage.get_BootImageOptions, IFileSystemImage::get_BootImageOptions, get_BootImageOptions, get_BootImageOptions method [IMAPI], get_BootImageOptions method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_bootimageoptions, imapi2fs/IFileSystemImage::get_BootImageOptions
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFileSystemImage.get_BootImageOptions
 dev_langs:

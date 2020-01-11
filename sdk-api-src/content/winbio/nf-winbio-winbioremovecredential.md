@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 56a5d510-f2cb-457b-884a-ad08ea21ce01
 ms.date: 12/05/2018
 ms.keywords: WINBIO_CREDENTIAL_ALL, WINBIO_CREDENTIAL_PASSWORD, WinBioRemoveCredential, WinBioRemoveCredential function [Windows Biometric Framework API], secbiomet.winbioremovecredential, winbio/WinBioRemoveCredential
-ms.topic: function
 f1_keywords:
 - winbio/WinBioRemoveCredential
 dev_langs:

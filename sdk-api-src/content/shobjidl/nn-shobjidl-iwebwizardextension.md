@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f1b5f53a-3163-486f-bbe9-a8fc6b244591
 ms.date: 12/05/2018
 ms.keywords: IWebWizardExtension, IWebWizardExtension interface [Windows Shell], IWebWizardExtension interface [Windows Shell],described, _shell_IWebWizardExtension, shell.IWebWizardExtension, shobjidl/IWebWizardExtension
-ms.topic: interface
 f1_keywords:
 - shobjidl/IWebWizardExtension
 dev_langs:

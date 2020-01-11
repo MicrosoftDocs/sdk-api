@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: df830598-f484-483d-a0dc-e6bd9debbe53
 ms.date: 12/05/2018
 ms.keywords: DVD_MUA_MixingInfo, DVD_MUA_MixingInfo structure [DirectShow], DVD_MUA_MixingInfoStructure, dshow.dvd_mua_mixinginfo, strmif/DVD_MUA_MixingInfo
-ms.topic: struct
 f1_keywords:
 - strmif/DVD_MUA_MixingInfo
 dev_langs:

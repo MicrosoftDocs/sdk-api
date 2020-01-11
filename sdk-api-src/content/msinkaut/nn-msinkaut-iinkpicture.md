@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: EA6AC3DD-5F13-442A-B93D-FF0A5333609A
 ms.date: 12/05/2018
 ms.keywords: IInkPicture, IInkPicture interface [Tablet PC], IInkPicture interface [Tablet PC],described, msinkaut/IInkPicture, tablet.iinkpicture
-ms.topic: interface
 f1_keywords:
 - msinkaut/IInkPicture
 dev_langs:

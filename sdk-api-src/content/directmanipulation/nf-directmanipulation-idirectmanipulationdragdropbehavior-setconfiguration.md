@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 972EF04E-B14C-4EF9-B40A-EAF0458F2947
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationDragDropBehavior interface [Direct Manipulation],SetConfiguration method, IDirectManipulationDragDropBehavior.SetConfiguration, IDirectManipulationDragDropBehavior::SetConfiguration, SetConfiguration, SetConfiguration method [Direct Manipulation], SetConfiguration method [Direct Manipulation],IDirectManipulationDragDropBehavior interface, directmanipulation.idirectmanipulationdragdropbehavior_setconfiguration, directmanipulation/IDirectManipulationDragDropBehavior::SetConfiguration
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationDragDropBehavior.SetConfiguration
 dev_langs:

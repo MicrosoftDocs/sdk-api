@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 829ffb8f-150b-438a-bcbd-42f2e9c01479
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_close_extended_op, ldap.ldap__close__extended__op, ldap.ldap_close_extended_op, ldap_close_extended_op, ldap_close_extended_op function [LDAP], winldap/ldap_close_extended_op
-ms.topic: function
 f1_keywords:
 - winldap/ldap_close_extended_op
 dev_langs:

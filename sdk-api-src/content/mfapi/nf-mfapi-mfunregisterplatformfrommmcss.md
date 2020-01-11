@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: B080E515-AD0E-492D-A9EF-8391DCEC3891
 ms.date: 12/05/2018
 ms.keywords: MFUnregisterPlatformFromMMCSS, MFUnregisterPlatformFromMMCSS function [Media Foundation], mf.mfunregisterplatformfrommmcss, mfapi/MFUnregisterPlatformFromMMCSS, mfplat/MFUnregisterPlatformFromMMCSS
-ms.topic: function
 f1_keywords:
 - mfapi/MFUnregisterPlatformFromMMCSS
 dev_langs:

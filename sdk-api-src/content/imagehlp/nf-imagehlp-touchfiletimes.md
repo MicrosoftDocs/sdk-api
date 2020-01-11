@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: add84ca7-2497-4859-bc69-270ad493a08a
 ms.date: 12/05/2018
 ms.keywords: TouchFileTimes, TouchFileTimes function, _win32_touchfiletimes, base.touchfiletimes, imagehlp/TouchFileTimes
-ms.topic: function
 f1_keywords:
 - imagehlp/TouchFileTimes
 dev_langs:

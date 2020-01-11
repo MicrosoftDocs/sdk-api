@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d01cacd8-1867-4f44-bbc3-876bd727c0fe
 ms.date: 12/05/2018
 ms.keywords: IColumnManager, IColumnManager interface [Windows Shell], IColumnManager interface [Windows Shell],described, shell.IColumnManager, shell_IColumnManager, shobjidl_core/IColumnManager
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IColumnManager
 dev_langs:

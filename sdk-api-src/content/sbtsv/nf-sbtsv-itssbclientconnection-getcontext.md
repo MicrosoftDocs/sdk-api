@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: dd4938b5-aa33-4eca-851c-fdef75ecc815
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method [Remote Desktop Services], GetContext method [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],GetContext method, ITsSbClientConnection.GetContext, ITsSbClientConnection::GetContext, sbtsv/ITsSbClientConnection::GetContext, termserv.itssbclientconnection_getcontext
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbClientConnection.GetContext
 dev_langs:

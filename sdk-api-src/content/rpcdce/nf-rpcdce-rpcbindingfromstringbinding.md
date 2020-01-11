@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: fd82fb9f-da0e-46fb-9c11-a75a9b6ee858
 ms.date: 12/05/2018
 ms.keywords: RpcBindingFromStringBinding, RpcBindingFromStringBinding function [RPC], RpcBindingFromStringBindingA, RpcBindingFromStringBindingW, _rpc_rpcbindingfromstringbinding, rpc.rpcbindingfromstringbinding, rpcdce/RpcBindingFromStringBinding, rpcdce/RpcBindingFromStringBindingA, rpcdce/RpcBindingFromStringBindingW
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcBindingFromStringBinding
 dev_langs:

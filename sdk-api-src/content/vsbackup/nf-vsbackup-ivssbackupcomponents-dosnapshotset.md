@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 3cc6c375-8a24-4af3-b4ad-5a695cc2645c
 ms.date: 12/05/2018
 ms.keywords: DoSnapshotSet, DoSnapshotSet method [VSS], DoSnapshotSet method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DoSnapshotSet method, IVssBackupComponents.DoSnapshotSet, IVssBackupComponents::DoSnapshotSet, _win32_ivssbackupcomponents_dosnapshotset, base.ivssbackupcomponents_dosnapshotset, vsbackup/IVssBackupComponents::DoSnapshotSet
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.DoSnapshotSet
 dev_langs:

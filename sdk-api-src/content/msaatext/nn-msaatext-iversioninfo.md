@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: a149466a-a274-495a-a6cd-1553205abc07
 ms.date: 12/05/2018
 ms.keywords: IVersionInfo, IVersionInfo interface [Windows Accessibility], IVersionInfo interface [Windows Accessibility],described, msaa.iversioninfo, msaatext/IVersionInfo, winauto.iversioninfo
-ms.topic: interface
 f1_keywords:
 - msaatext/IVersionInfo
 dev_langs:

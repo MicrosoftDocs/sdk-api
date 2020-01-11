@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 3de74059-dbfb-49b9-830b-7b2f81f8b68c
 ms.date: 12/05/2018
 ms.keywords: WSCDeinstallProvider32, WSCDeinstallProvider32 function [Winsock], winsock.wscdeinstallprovider32, ws2spi/WSCDeinstallProvider32
-ms.topic: function
 f1_keywords:
 - ws2spi/WSCDeinstallProvider32
 dev_langs:

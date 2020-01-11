@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9bcd325d-41fc-4166-8fce-50fc921efdba
 ms.date: 12/05/2018
 ms.keywords: Block, Block method [DirectShow], Block method [DirectShow],IPinFlowControl interface, IPinFlowControl interface [DirectShow],Block method, IPinFlowControl.Block, IPinFlowControl::Block, IPinFlowControlBlock, dshow.ipinflowcontrol_block, strmif/IPinFlowControl::Block
-ms.topic: method
 f1_keywords:
 - strmif/IPinFlowControl.Block
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: 0cf969b2-40a9-4fbd-ba2b-38979fb5796a
 ms.date: 12/05/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetDSPath, GetDSPath method [Group Policy], GetDSPath method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetDSPath method, IGPEInformation.GetDSPath, IGPEInformation::GetDSPath, _win32_igpeinformation_getdspath, gpedit/IGPEInformation::GetDSPath, policy.igpeinformation_getdspath
-ms.topic: method
 f1_keywords:
 - gpedit/IGPEInformation.GetDSPath
 dev_langs:

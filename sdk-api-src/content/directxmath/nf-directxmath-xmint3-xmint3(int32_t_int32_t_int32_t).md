@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMINT3.#ctor(int32_t,int32_t,int32_t)
 ms.date: 12/05/2018
 ms.keywords: XMINT3, XMINT3 constructor [DirectX Math Support APIs], XMINT3 constructor [DirectX Math Support APIs],XMINT3 structure, XMINT3 structure [DirectX Math Support APIs],XMINT3 constructor, XMINT3.XMINT3, XMINT3.XMINT3(int32_t,int32_t,int32_t), XMINT3::XMINT3, XMINT3::XMINT3(int32_t,int32_t,int32_t), dxmath.xmint3_ctor_2
-ms.topic: method
 f1_keywords:
 - directxmath/XMINT3.XMINT3
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8af23586-349f-4d21-98cb-0aaa27a586ff
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList2, ITaskbarList2 interface [Windows Shell], ITaskbarList2 interface [Windows Shell],described, shell.ITaskbarList2, shell_ITaskbarList2, shobjidl_core/ITaskbarList2
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/ITaskbarList2
 dev_langs:

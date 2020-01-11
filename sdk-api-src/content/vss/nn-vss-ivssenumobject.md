@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: b8e80909-a28a-45d7-87e2-4f44bf6990f4
 ms.date: 12/05/2018
 ms.keywords: IVssEnumObject, IVssEnumObject interface [VSS], IVssEnumObject interface [VSS],described, _win32_ivssenumobject, base.ivssenumobject, vss/IVssEnumObject
-ms.topic: interface
 f1_keywords:
 - vss/IVssEnumObject
 dev_langs:

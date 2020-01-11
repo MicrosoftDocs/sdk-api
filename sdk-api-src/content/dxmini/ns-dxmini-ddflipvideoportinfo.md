@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 9cf87d19-2db6-48f8-96a6-2b6ac969c774
 ms.date: 12/05/2018
 ms.keywords: '*PDDFLIPVIDEOPORTINFO, DDFLIPVIDEOPORTINFO, DDFLIPVIDEOPORTINFO structure [Display Devices], PDDFLIPVIDEOPORTINFO, PDDFLIPVIDEOPORTINFO structure pointer [Display Devices], Video_Structs_e5e5e93f-25a2-47a6-a99c-6ac8ca43f069.xml, display.ddflipvideoportinfo, dxmini/DDFLIPVIDEOPORTINFO, dxmini/PDDFLIPVIDEOPORTINFO'
-ms.topic: struct
 f1_keywords:
 - dxmini/DDFLIPVIDEOPORTINFO
 dev_langs:

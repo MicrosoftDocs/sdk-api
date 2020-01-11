@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: f1e37c8f-7fca-4bf1-868f-8ec03a23a434
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_OR_CRL_BLOB, CERT_BUNDLE_CERTIFICATE, CERT_BUNDLE_CRL, CERT_OR_CRL_BLOB, CERT_OR_CRL_BLOB structure [Security], PCERT_OR_CRL_BLOB, PCERT_OR_CRL_BLOB structure pointer [Security], security.cert_or_crl_blob, wincrypt/CERT_OR_CRL_BLOB, wincrypt/PCERT_OR_CRL_BLOB'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_OR_CRL_BLOB
 dev_langs:

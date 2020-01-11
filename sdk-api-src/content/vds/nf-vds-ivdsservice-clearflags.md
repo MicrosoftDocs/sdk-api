@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 91cb21ea-725b-4032-9a60-34c1b42b55d0
 ms.date: 12/05/2018
 ms.keywords: ClearFlags, ClearFlags method [VDS], ClearFlags method [VDS],IVdsService interface, IVdsService interface [VDS],ClearFlags method, IVdsService.ClearFlags, IVdsService::ClearFlags, base.ivdsservice_clearflags, vds/IVdsService::ClearFlags
-ms.topic: method
 f1_keywords:
 - vds/IVdsService.ClearFlags
 dev_langs:

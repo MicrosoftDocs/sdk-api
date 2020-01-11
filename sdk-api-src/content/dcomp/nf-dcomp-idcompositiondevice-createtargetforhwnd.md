@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: eba2388a-9c94-43f0-bf7f-e814895a2792
 ms.date: 12/05/2018
 ms.keywords: CreateTargetForHwnd, CreateTargetForHwnd method [DirectComposition], CreateTargetForHwnd method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateTargetForHwnd method, IDCompositionDevice.CreateTargetForHwnd, IDCompositionDevice::CreateTargetForHwnd, dcomp/IDCompositionDevice::CreateTargetForHwnd, directcomp.idcompositiondevice_createhwndtarget
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionDevice.CreateTargetForHwnd
 dev_langs:

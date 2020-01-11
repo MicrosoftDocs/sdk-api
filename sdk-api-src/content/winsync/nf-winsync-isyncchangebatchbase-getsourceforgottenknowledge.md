@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 309b2c83-4480-421c-ae90-9cbe7ac11055
 ms.date: 12/05/2018
 ms.keywords: GetSourceForgottenKnowledge, GetSourceForgottenKnowledge method [Windows Sync], GetSourceForgottenKnowledge method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetSourceForgottenKnowledge method, ISyncChangeBatchBase.GetSourceForgottenKnowledge, ISyncChangeBatchBase::GetSourceForgottenKnowledge, winsync.isyncchangebatchbase_getsourceforgottenknowledge, winsync/ISyncChangeBatchBase::GetSourceForgottenKnowledge
-ms.topic: method
 f1_keywords:
 - winsync/ISyncChangeBatchBase.GetSourceForgottenKnowledge
 dev_langs:

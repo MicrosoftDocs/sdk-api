@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: d8ccf65d-a4f1-44d9-9903-43e5529f1f29
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJobHttpOptions, IBackgroundCopyJobHttpOptions interface [BITS], IBackgroundCopyJobHttpOptions interface [BITS],described, bits.ibackgroundcopyjobhttpoptions, bits2_5/IBackgroundCopyJobHttpOptions
-ms.topic: interface
 f1_keywords:
 - bits2_5/IBackgroundCopyJobHttpOptions
 dev_langs:

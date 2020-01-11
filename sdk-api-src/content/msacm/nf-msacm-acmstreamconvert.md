@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 97537dcc-acf4-4fea-b17f-2301a72a6a78
 ms.date: 12/05/2018
 ms.keywords: _win32_acmStreamConvert, acmStreamConvert, acmStreamConvert function [Windows Multimedia], msacm/acmStreamConvert, multimedia.acmstreamconvert
-ms.topic: function
 f1_keywords:
 - msacm/acmStreamConvert
 dev_langs:

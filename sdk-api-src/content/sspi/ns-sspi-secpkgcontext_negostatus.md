@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 09201338-4743-44a2-b84f-35b26116976d
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_NegoStatus, PSecPkgContext_NegoStatus, PSecPkgContext_NegoStatus structure pointer [Security], SecPkgContext_NegoStatus, SecPkgContext_NegoStatus structure [Security], security.secpkgcontext_negostatus, sspi/PSecPkgContext_NegoStatus, sspi/SecPkgContext_NegoStatus'
-ms.topic: struct
 f1_keywords:
 - sspi/SecPkgContext_NegoStatus
 dev_langs:

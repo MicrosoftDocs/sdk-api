@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: c58d7b15-1044-4d35-a501-b936503ee0fc
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],Stop method, IRegisteredTask.Stop, IRegisteredTask::Stop, Stop, Stop method [Task Scheduler], Stop method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_stop, taskschd/IRegisteredTask::Stop
-ms.topic: method
 f1_keywords:
 - taskschd/IRegisteredTask.Stop
 dev_langs:

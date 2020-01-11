@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: c27ca754-7808-4c96-8966-0be3960f2926
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],DeletePolicyAdministrator method, DeletePolicyAdministrator, DeletePolicyAdministrator method [Security], DeletePolicyAdministrator method [Security],AzAuthorizationStore object, DeletePolicyAdministrator method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeletePolicyAdministrator method, IAzAuthorizationStore.DeletePolicyAdministrator, IAzAuthorizationStore::DeletePolicyAdministrator, azroles/IAzAuthorizationStore::DeletePolicyAdministrator, security.azauthorizationstore_deletepolicyadministrator
-ms.topic: method
 f1_keywords:
 - azroles/AzAuthorizationStore.DeletePolicyAdministrator
 dev_langs:

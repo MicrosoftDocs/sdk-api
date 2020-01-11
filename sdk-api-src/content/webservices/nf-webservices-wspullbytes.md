@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 39e25db6-e51f-45cb-9739-260e7c246fcc
 ms.date: 12/05/2018
 ms.keywords: WsPullBytes, WsPullBytes function [Web Services for Windows], webservices/WsPullBytes, wsw.wspullbytes
-ms.topic: function
 f1_keywords:
 - webservices/WsPullBytes
 dev_langs:

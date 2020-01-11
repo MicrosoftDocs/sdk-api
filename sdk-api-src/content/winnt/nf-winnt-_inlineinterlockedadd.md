@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: ec1746cc-aff9-440e-b7e1-15a3d7a0fa58
 ms.date: 12/05/2018
 ms.keywords: InterlockedAddAcquire, InterlockedAddAcquire function, _InlineInterlockedAdd, base.interlockedaddacquire, winnt/InterlockedAddAcquire
-ms.topic: function
 f1_keywords:
 - winnt/InterlockedAddAcquire
 dev_langs:

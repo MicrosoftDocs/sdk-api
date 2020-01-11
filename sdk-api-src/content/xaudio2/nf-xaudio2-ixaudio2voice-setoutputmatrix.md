@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.SetOutputMatrix(IXAudio2Voice,UINT32,UINT32,const float,UINT32)
 ms.date: 12/05/2018
 ms.keywords: IXAudio2Voice interface [XAudio2 Audio Mixing APIs],SetOutputMatrix method, IXAudio2Voice.SetOutputMatrix, IXAudio2Voice::SetOutputMatrix, SetOutputMatrix, SetOutputMatrix method [XAudio2 Audio Mixing APIs], SetOutputMatrix method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, xaudio2.ixaudio2voice_interface_setoutputmatrix, xaudio2/IXAudio2Voice::SetOutputMatrix
-ms.topic: method
 f1_keywords:
 - xaudio2/IXAudio2Voice.SetOutputMatrix
 dev_langs:

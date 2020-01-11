@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: a07bacbd-3d45-4733-a506-3c54ec10b634
 ms.date: 12/05/2018
 ms.keywords: GetBorderColor, GetBorderColor method [Media Foundation], GetBorderColor method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetBorderColor method, IMFPMediaPlayer.GetBorderColor, IMFPMediaPlayer::GetBorderColor, mf.imfpmediaplayer_getbordercolor, mfplay/IMFPMediaPlayer::GetBorderColor
-ms.topic: method
 f1_keywords:
 - mfplay/IMFPMediaPlayer.GetBorderColor
 dev_langs:

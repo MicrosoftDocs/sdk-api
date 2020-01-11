@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 6A549BFB-993A-4A20-AFAB-B38D03EAE35C
 ms.date: 12/05/2018
 ms.keywords: PSpatialAudioHrtfActivationParams, PSpatialAudioHrtfActivationParams structure pointer [Core Audio], SpatialAudioHrtfActivationParams, SpatialAudioHrtfActivationParams structure [Core Audio], coreaudio.spatialaudiohrtfactivationparams, spatialaudiohrtf/PSpatialAudioHrtfActivationParams, spatialaudiohrtf/SpatialAudioHrtfActivationParams
-ms.topic: struct
 f1_keywords:
 - spatialaudiohrtf/SpatialAudioHrtfActivationParams
 dev_langs:

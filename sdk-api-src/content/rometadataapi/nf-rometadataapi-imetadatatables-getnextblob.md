@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: f70e5377-4cc1-4066-acc2-bb13f336881b
 ms.date: 12/05/2018
 ms.keywords: GetNextBlob, GetNextBlob method [Windows Runtime], GetNextBlob method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetNextBlob method, IMetaDataTables.GetNextBlob, IMetaDataTables::GetNextBlob, rometadataapi/IMetaDataTables::GetNextBlob, winrt.imetadatatables_getnextblob
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataTables.GetNextBlob
 dev_langs:

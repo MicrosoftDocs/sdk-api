@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: d3abebcd-1200-417c-a0ec-64768b3c320a
 ms.date: 12/05/2018
 ms.keywords: DRMRepair, DRMRepair function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMRepair, rm.drmrepair
-ms.topic: function
 f1_keywords:
 - msdrm/DRMRepair
 dev_langs:

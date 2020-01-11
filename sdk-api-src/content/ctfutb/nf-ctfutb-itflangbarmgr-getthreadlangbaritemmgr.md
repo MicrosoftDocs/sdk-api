@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 3ca37268-eb27-4d8b-9a16-306f77369e8f
 ms.date: 12/05/2018
 ms.keywords: GetThreadLangBarItemMgr, GetThreadLangBarItemMgr method [Text Services Framework], GetThreadLangBarItemMgr method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],GetThreadLangBarItemMgr method, ITfLangBarMgr.GetThreadLangBarItemMgr, ITfLangBarMgr::GetThreadLangBarItemMgr, _tsf_itflangbarmgr_getthreadlangbaritemmgr_ref, ctfutb/ITfLangBarMgr::GetThreadLangBarItemMgr, tsf.itflangbarmgr_getthreadlangbaritemmgr
-ms.topic: method
 f1_keywords:
 - ctfutb/ITfLangBarMgr.GetThreadLangBarItemMgr
 dev_langs:

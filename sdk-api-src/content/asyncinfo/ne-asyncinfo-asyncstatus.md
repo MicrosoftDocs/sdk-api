@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 085BF8A1-087F-4B01-8A20-69730BA603B1
 ms.date: 12/05/2018
 ms.keywords: AsyncStatus, AsyncStatus enumeration [Windows Runtime], Cancelled, Completed, Created, Error, Started, asyncinfo/AsyncStatus, asyncinfo/Cancelled, asyncinfo/Completed, asyncinfo/Created, asyncinfo/Error, asyncinfo/Started, winrt.asyncstatus
-ms.topic: enum
 f1_keywords:
 - asyncinfo/AsyncStatus
 dev_langs:

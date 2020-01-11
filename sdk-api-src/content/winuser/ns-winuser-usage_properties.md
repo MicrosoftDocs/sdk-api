@@ -7,7 +7,6 @@ tech.root: Input_PointerDevice
 ms.assetid: 387E241E-2FE9-46C0-9B7C-5357731339BF
 ms.date: 12/05/2018
 ms.keywords: '*PUSAGE_PROPERTIES, PUSAGE_PROPERTIES, PUSAGE_PROPERTIES structure pointer, USAGE_PROPERTIES, USAGE_PROPERTIES structure, input_pointerdevice.usage_properties, winuser/PUSAGE_PROPERTIES, winuser/USAGE_PROPERTIES'
-ms.topic: struct
 f1_keywords:
 - winuser/USAGE_PROPERTIES
 dev_langs:

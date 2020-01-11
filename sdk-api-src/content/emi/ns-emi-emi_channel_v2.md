@@ -7,7 +7,6 @@ tech.root: powermeter
 ms.assetid: D0635128-9B95-4A53-883C-FD6CCD5B694B
 ms.date: 12/05/2018
 ms.keywords: EMI_CHANNEL_V2, EMI_CHANNEL_V2 structure [Power Metering and Budgeting Devices], emi/EMI_CHANNEL_V2, powermeter.emi_channel_v2
-ms.topic: struct
 f1_keywords:
 - emi/EMI_CHANNEL_V2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: deeb1cc7-e943-47bd-82f0-089fb3f4c3c6
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnEndLabelEdit method, INameSpaceTreeControlEvents.OnEndLabelEdit, INameSpaceTreeControlEvents::OnEndLabelEdit, OnEndLabelEdit, OnEndLabelEdit method [Windows Shell], OnEndLabelEdit method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnEndLabelEdit, shell.INameSpaceTreeControlEvents_OnEndLabelEdit, shobjidl/INameSpaceTreeControlEvents::OnEndLabelEdit
-ms.topic: method
 f1_keywords:
 - shobjidl/INameSpaceTreeControlEvents.OnEndLabelEdit
 dev_langs:

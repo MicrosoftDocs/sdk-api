@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 9d4af44c-c03f-4d9f-9b36-c04513a18133
 ms.date: 12/05/2018
 ms.keywords: '*PPEER_EVENT_WATCHLIST_CHANGED_DATA, PEER_EVENT_WATCHLIST_CHANGED_DATA, PEER_EVENT_WATCHLIST_CHANGED_DATA structure [Peer Networking], PPEER_EVENT_WATCHLIST_CHANGED_DATA, PPEER_EVENT_WATCHLIST_CHANGED_DATA structure pointer [Peer Networking], p2p.peer_event_watchlist_changed_data, p2p/PEER_EVENT_WATCHLIST_CHANGED_DATA, p2p/PPEER_EVENT_WATCHLIST_CHANGED_DATA'
-ms.topic: struct
 f1_keywords:
 - p2p/PEER_EVENT_WATCHLIST_CHANGED_DATA
 dev_langs:

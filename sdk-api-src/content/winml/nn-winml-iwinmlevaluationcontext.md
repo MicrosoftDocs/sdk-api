@@ -7,7 +7,6 @@ tech.root: MachineLearning
 ms.assetid: D4C9B16A-B351-41E4-AD42-20C25F3CC404
 ms.date: 12/05/2018
 ms.keywords: IWinMLEvaluationContext, IWinMLEvaluationContext interface, IWinMLEvaluationContext interface,described, MachineLearning.iwinmlevaluationcontext, winml/IWinMLEvaluationContext
-ms.topic: interface
 f1_keywords:
 - winml/IWinMLEvaluationContext
 dev_langs:

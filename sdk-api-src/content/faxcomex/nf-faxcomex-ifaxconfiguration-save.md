@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\save.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],Save method, IFaxConfiguration.Save, IFaxConfiguration::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_Save, fax._mfax_IFaxConfiguration_Save, faxcomex/IFaxConfiguration::Save
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxConfiguration.Save
 dev_langs:

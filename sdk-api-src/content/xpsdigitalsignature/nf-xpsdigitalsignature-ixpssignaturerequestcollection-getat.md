@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f3bf89d4-468e-4514-a192-165d18fd12e4
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsSignatureRequestCollection interface, IXpsSignatureRequestCollection interface [XPS Documents and Packaging],GetAt method, IXpsSignatureRequestCollection.GetAt, IXpsSignatureRequestCollection::GetAt, xps.ixpssignaturerequestcollection_getat, xpsdigitalsignature/IXpsSignatureRequestCollection::GetAt
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureRequestCollection.GetAt
 dev_langs:

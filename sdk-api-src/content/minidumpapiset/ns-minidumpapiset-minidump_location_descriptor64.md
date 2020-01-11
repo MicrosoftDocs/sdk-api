@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: aef17239-9b56-4d49-8347-610270f8612b
 ms.date: 12/05/2018
 ms.keywords: MINIDUMP_LOCATION_DESCRIPTOR, MINIDUMP_LOCATION_DESCRIPTOR structure, MINIDUMP_LOCATION_DESCRIPTOR64, _MINIDUMP_LOCATION_DESCRIPTOR, _win32_minidump_location_descriptor_str, base.minidump_location_descriptor_str, minidumpapiset/MINIDUMP_LOCATION_DESCRIPTOR
-ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_LOCATION_DESCRIPTOR
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: a38f8b26-9450-4033-bdd7-e73726c2d609
 ms.date: 12/05/2018
 ms.keywords: TimeProvSysCallbacks, TimeProvSysCallbacks structure, _win32_timeprovsyscallbacks_str, base.timeprovsyscallbacks_str, timeprov/TimeProvSysCallbacks
-ms.topic: struct
 f1_keywords:
 - timeprov/TimeProvSysCallbacks
 dev_langs:

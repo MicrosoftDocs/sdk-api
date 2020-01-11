@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 96eaac9c-7fab-4326-a737-4819794a34c6
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeAccessible interface [Windows Shell],OnGetDefaultAccessibilityAction method, INameSpaceTreeAccessible.OnGetDefaultAccessibilityAction, INameSpaceTreeAccessible::OnGetDefaultAccessibilityAction, OnGetDefaultAccessibilityAction, OnGetDefaultAccessibilityAction method [Windows Shell], OnGetDefaultAccessibilityAction method [Windows Shell],INameSpaceTreeAccessible interface, _shell_INameSpaceTreeAccessible_OnGetDefaultAccessibilityAction, shell.INameSpaceTreeAccessible_OnGetDefaultAccessibilityAction, shobjidl/INameSpaceTreeAccessible::OnGetDefaultAccessibilityAction
-ms.topic: method
 f1_keywords:
 - shobjidl/INameSpaceTreeAccessible.OnGetDefaultAccessibilityAction
 dev_langs:

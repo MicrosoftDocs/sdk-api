@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 4e7eff5e-2877-4524-8f76-55d41afe521d
 ms.date: 12/05/2018
 ms.keywords: SetFileIoOverlappedRange, SetFileIoOverlappedRange function [Files], fileapi/SetFileIoOverlappedRange, fs.setfileiooverlappedrange_func
-ms.topic: function
 f1_keywords:
 - fileapi/SetFileIoOverlappedRange
 dev_langs:

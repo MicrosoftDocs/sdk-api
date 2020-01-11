@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1ac911bb-28d6-4cb6-a66a-1a0c8a4bd6a1
 ms.date: 12/05/2018
 ms.keywords: SHShowManageLibraryUI, SHShowManageLibraryUI function [Windows Shell], _shell_SHShowManageLibraryUI, shell.SHShowManageLibraryUI, shobjidl_core/SHShowManageLibraryUI
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHShowManageLibraryUI
 dev_langs:

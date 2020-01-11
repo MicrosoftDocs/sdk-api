@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 556C70DC-6A44-4D85-BDBF-C1110D63DC69
 ms.date: 12/05/2018
 ms.keywords: IsWindowsVistaOrGreater, IsWindowsVistaOrGreater function, base.iswindowsvistaorgreater, versionhelpers/IsWindowsVistaOrGreater
-ms.topic: function
 f1_keywords:
 - versionhelpers/IsWindowsVistaOrGreater
 dev_langs:

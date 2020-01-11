@@ -7,7 +7,6 @@ tech.root: Dlls
 ms.assetid: a0d7fc09-f888-4f46-a571-d3719a627597
 ms.date: 12/05/2018
 ms.keywords: GetProcAddress, GetProcAddress function, _win32_getprocaddress, base.getprocaddress, libloaderapi/GetProcAddress, winbase/GetProcAddress
-ms.topic: function
 f1_keywords:
 - libloaderapi/GetProcAddress
 dev_langs:

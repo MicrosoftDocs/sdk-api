@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: A74F66F8-3F02-4CD0-86BC-FBEC340466C4
 ms.date: 12/05/2018
 ms.keywords: CreateSingle, CreateSingle method [Windows Runtime], CreateSingle method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateSingle method, IPropertyValueStatics.CreateSingle, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateSingle, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateSingle, winrt.ipropertyvaluefactory_createsingle, winrt.ipropertyvaluestatics_createsingle
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValueStatics.CreateSingle
 dev_langs:

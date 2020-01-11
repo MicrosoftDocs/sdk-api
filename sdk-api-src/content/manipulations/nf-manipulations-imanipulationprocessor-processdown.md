@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: 2c192bc4-6922-4c70-961d-1f8684ad792b
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessDown method, IManipulationProcessor.ProcessDown, IManipulationProcessor::ProcessDown, ProcessDown, ProcessDown method [Windows Touch], ProcessDown method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessDown, wintouch.imanipulationprocessor_processdown
-ms.topic: method
 f1_keywords:
 - manipulations/IManipulationProcessor.ProcessDown
 dev_langs:

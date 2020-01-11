@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: bd9bf950-e349-4b67-8608-7acad84c0907
 ms.date: 12/05/2018
 ms.keywords: PMSF_DONT_STRIP_SPACES, PMSF_MULTIPLE, PMSF_NORMAL, PathMatchSpecEx, PathMatchSpecEx function [Windows Shell], PathMatchSpecExA, PathMatchSpecExW, _win32_PathMatchSpecEx, shell.PathMatchSpecEx, shlwapi/PathMatchSpecEx, shlwapi/PathMatchSpecExA, shlwapi/PathMatchSpecExW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathMatchSpecEx
 dev_langs:

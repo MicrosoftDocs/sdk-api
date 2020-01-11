@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 5cb22573-a318-4682-bc82-0a81c9dbdcbe
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTransition interface [Windows Animation],IsDurationKnown method, IUIAnimationTransition.IsDurationKnown, IUIAnimationTransition::IsDurationKnown, IsDurationKnown, IsDurationKnown method [Windows Animation], IsDurationKnown method [Windows Animation],IUIAnimationTransition interface, uianimation.iuianimationtransition_isdurationknown, uianimation/IUIAnimationTransition::IsDurationKnown
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationTransition.IsDurationKnown
 dev_langs:

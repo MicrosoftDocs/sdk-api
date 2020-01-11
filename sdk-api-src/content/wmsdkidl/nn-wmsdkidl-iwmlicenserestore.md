@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 29444445-7104-4900-a00d-dabd2766d1d7
 ms.date: 12/05/2018
 ms.keywords: IWMLicenseRestore, IWMLicenseRestore interface [windows Media Format], IWMLicenseRestore interface [windows Media Format],described, IWMLicenseRestoreInterface, wmformat.iwmlicenserestore, wmsdkidl/IWMLicenseRestore
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMLicenseRestore
 dev_langs:

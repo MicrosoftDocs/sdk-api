@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 0dc98053-8599-4884-a56a-5889a4480dcb
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtStatsVectorFree, RpcMgmtStatsVectorFree function [RPC], _rpc_rpcmgmtstatsvectorfree, rpc.rpcmgmtstatsvectorfree, rpcdce/RpcMgmtStatsVectorFree
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcMgmtStatsVectorFree
 dev_langs:

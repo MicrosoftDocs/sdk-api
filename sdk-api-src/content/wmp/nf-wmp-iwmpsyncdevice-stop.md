@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 30e6787e-851b-420c-934c-5f8e5e4d83df
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],stop method, IWMPSyncDevice.stop, IWMPSyncDevice::stop, IWMPSyncDevicestop, stop, stop method [Windows Media Player], stop method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_stop, wmp/IWMPSyncDevice::stop
-ms.topic: method
 f1_keywords:
 - wmp/IWMPSyncDevice.stop
 dev_langs:

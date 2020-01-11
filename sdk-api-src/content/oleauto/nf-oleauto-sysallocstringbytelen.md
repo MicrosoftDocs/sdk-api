@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: e7f49441-eff1-4c00-b61f-8522c4e250ef
 ms.date: 12/05/2018
 ms.keywords: SysAllocStringByteLen, SysAllocStringByteLen function [Automation], _oa96_SysAllocStringByteLen, automat.sysallocstringbytelen, oleauto/SysAllocStringByteLen
-ms.topic: function
 f1_keywords:
 - oleauto/SysAllocStringByteLen
 dev_langs:

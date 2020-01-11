@@ -7,7 +7,6 @@ tech.root: ProjFS
 ms.assetid: CBCB0A0E-9227-42EF-B747-62783400AD16
 ms.date: 12/05/2018
 ms.keywords: PrjFillDirEntryBuffer, PrjFillDirEntryBuffer function, ProjFS.prjfilldirentrybuffer, projectedfslib/PrjFillDirEntryBuffer
-ms.topic: function
 f1_keywords:
 - projectedfslib/PrjFillDirEntryBuffer
 dev_langs:

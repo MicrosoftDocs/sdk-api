@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: dd1d1d99-008b-4234-a38a-314ba02bb116
 ms.date: 12/05/2018
 ms.keywords: VMR_ARMODE_LETTER_BOX, VMR_ARMODE_NONE, VMR_ASPECT_RATIO_MODE, VMR_ASPECT_RATIO_MODE , VMR_ASPECT_RATIO_MODE enumeration [DirectShow], VMR_ASPECT_RATIO_MODEEnumeration, dshow.vmr_aspect_ratio_mode, strmif/VMR_ARMODE_LETTER_BOX, strmif/VMR_ARMODE_NONE, strmif/VMR_ASPECT_RATIO_MODE
-ms.topic: enum
 f1_keywords:
 - strmif/VMR_ASPECT_RATIO_MODE
 dev_langs:

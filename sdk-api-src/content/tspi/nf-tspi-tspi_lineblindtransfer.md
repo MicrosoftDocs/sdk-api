@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 825f132c-fb0e-4e3d-bd2c-4e5226a30ba3
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineBlindTransfer, TSPI_lineBlindTransfer function [TAPI 2.2], _tspi_tspi_lineblindtransfer, tspi.tspi_lineblindtransfer, tspi/TSPI_lineBlindTransfer
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineBlindTransfer
 dev_langs:

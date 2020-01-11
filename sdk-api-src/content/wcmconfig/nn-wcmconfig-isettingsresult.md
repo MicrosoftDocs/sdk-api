@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: 0bbfd39a-0292-4d8e-ae31-f45aebd326a7
 ms.date: 12/05/2018
 ms.keywords: ISettingsResult, ISettingsResult interface [SMI], ISettingsResult interface [SMI],described, smi.isettingsresult, wcmconfig/ISettingsResult
-ms.topic: interface
 f1_keywords:
 - wcmconfig/ISettingsResult
 dev_langs:

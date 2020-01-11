@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: affaa0b0-3bd1-4d17-adec-518d2cb7e5b6
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_SUPER_SCOPE_TABLE_ENTRY, DHCP_SUPER_SCOPE_TABLE_ENTRY, DHCP_SUPER_SCOPE_TABLE_ENTRY structure [DHCP], LPDHCP_SUPER_SCOPE_TABLE_ENTRY, LPDHCP_SUPER_SCOPE_TABLE_ENTRY structure pointer [DHCP], dhcp.dhcp_super_scope_table_entry, dhcpsapi/LPDHCP_SUPER_SCOPE_TABLE_ENTRY, dhcpsapi/_DHCP_SUPER_SCOPE_TABLE_ENTRY'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_SUPER_SCOPE_TABLE_ENTRY
 dev_langs:

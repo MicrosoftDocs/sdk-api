@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: ADBF5402-C1B5-4A10-92DF-E9F5706F52A1
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESOURCE_ALLOCATION_INFO, D3D12_RESOURCE_ALLOCATION_INFO structure, d3d12/D3D12_RESOURCE_ALLOCATION_INFO, direct3d12.d3d12_resource_allocation_info
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_RESOURCE_ALLOCATION_INFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: ae7bf0d0-333b-429d-9dd1-9580745aad35
 ms.date: 12/05/2018
 ms.keywords: IMbnRadioEvents interface [Microsoft Broadband Networks],OnRadioStateChange method, IMbnRadioEvents.OnRadioStateChange, IMbnRadioEvents::OnRadioStateChange, OnRadioStateChange, OnRadioStateChange method [Microsoft Broadband Networks], OnRadioStateChange method [Microsoft Broadband Networks],IMbnRadioEvents interface, mbn.imbnradioevents_onradiostatechange, mbnapi/IMbnRadioEvents::OnRadioStateChange
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnRadioEvents.OnRadioStateChange
 dev_langs:

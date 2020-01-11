@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: f9bc5933-c766-5b30-e2cf-b276a80aecda
 ms.date: 12/05/2018
 ms.keywords: CreateFontFace, CreateFontFace method [Direct Write], CreateFontFace method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],CreateFontFace method, IDWriteFontFaceReference.CreateFontFace, IDWriteFontFaceReference::CreateFontFace, directwrite.idwritefontfacereference_createfontface, dwrite_3/IDWriteFontFaceReference::CreateFontFace
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontFaceReference.CreateFontFace
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 660d4da9-ddbc-466c-ab1a-7e60ecf61473
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Media Foundation], GetDescription method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetDescription method, IToc.GetDescription, IToc::GetDescription, codecapi.itoc_getdescription, mf.itoc_getdescription, wmcodecdsp/IToc::GetDescription
-ms.topic: method
 f1_keywords:
 - wmcodecdsp/IToc.GetDescription
 dev_langs:

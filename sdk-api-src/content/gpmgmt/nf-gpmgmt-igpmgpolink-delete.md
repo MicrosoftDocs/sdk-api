@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 6f4151a5-6c65-4257-a2f2-28f8395968ed
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [GPMC], Delete method [GPMC],GPMGPOLink class, Delete method [GPMC],IGPMGPOLink interface, GPMGPOLink class [GPMC],Delete method, IGPMGPOLink interface [GPMC],Delete method, IGPMGPOLink.Delete, IGPMGPOLink::Delete, _win32_igpmgpolink_delete, gpmc.igpmgpolink_delete, gpmgmt/IGPMGPOLink::Delete
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPMGPOLink.Delete
 dev_langs:

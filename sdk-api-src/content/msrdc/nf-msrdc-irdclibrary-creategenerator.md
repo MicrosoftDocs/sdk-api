@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: 9cd64c3f-acd7-4e59-916f-90e90f452e12
 ms.date: 12/05/2018
 ms.keywords: CreateGenerator, CreateGenerator method [Remote Differential Compression], CreateGenerator method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],CreateGenerator method, IRdcLibrary.CreateGenerator, IRdcLibrary::CreateGenerator, fs.irdclibrary_creategenerator, msrdc/IRdcLibrary::CreateGenerator, rdc.irdclibrary_creategenerator
-ms.topic: method
 f1_keywords:
 - msrdc/IRdcLibrary.CreateGenerator
 dev_langs:

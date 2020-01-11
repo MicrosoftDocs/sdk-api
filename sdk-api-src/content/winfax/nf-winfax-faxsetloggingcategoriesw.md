@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_30vn.htm
 ms.date: 12/05/2018
 ms.keywords: FaxSetLoggingCategories, FaxSetLoggingCategories function [Fax Service], FaxSetLoggingCategoriesA, FaxSetLoggingCategoriesW, _mfax_faxsetloggingcategories, fax._mfax_faxsetloggingcategories, winfax/FaxSetLoggingCategories, winfax/FaxSetLoggingCategoriesA, winfax/FaxSetLoggingCategoriesW
-ms.topic: function
 f1_keywords:
 - winfax/FaxSetLoggingCategories
 dev_langs:

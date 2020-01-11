@@ -7,7 +7,6 @@ tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwminvalidateiconicbitmaps.htm
 ms.date: 12/05/2018
 ms.keywords: DwmInvalidateIconicBitmaps, DwmInvalidateIconicBitmaps function [Desktop Window Manager], _udwm_dwminvalidateiconicbitmaps, _udwm_dwminvalidateiconicbitmaps_cpp, dwm.dwminvalidateiconicbitmaps, dwmapi/DwmInvalidateIconicBitmaps, winui._udwm_dwminvalidateiconicbitmaps
-ms.topic: function
 f1_keywords:
 - dwmapi/DwmInvalidateIconicBitmaps
 dev_langs:

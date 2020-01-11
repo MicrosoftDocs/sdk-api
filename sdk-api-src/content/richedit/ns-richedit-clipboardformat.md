@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 5AD870B6-C4F1-446C-A516-171B24355EFA
 ms.date: 12/05/2018
 ms.keywords: CLIPBOARDFORMAT, CLIPBOARDFORMAT structure [Windows Controls], controls.clipboardformat, richedit/CLIPBOARDFORMAT
-ms.topic: struct
 f1_keywords:
 - richedit/CLIPBOARDFORMAT
 dev_langs:

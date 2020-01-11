@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: c1429b82-4fd1-48b6-8957-04dee0426077
 ms.date: 12/05/2018
 ms.keywords: NetUserDel, NetUserDel function [Network Management], _win32_netuserdel, lmaccess/NetUserDel, netmgmt.netuserdel
-ms.topic: function
 f1_keywords:
 - lmaccess/NetUserDel
 dev_langs:

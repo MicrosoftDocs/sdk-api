@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.#ctor(BoundingSphere)
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere, BoundingSphere interface [DirectX Math Support APIs],DirectX.BoundingSphere constructor, BoundingSphere.BoundingSphere, BoundingSphere.BoundingSphere(const BoundingSphere &), BoundingSphere.DirectX.BoundingSphere(const BoundingSphere&), BoundingSphere::BoundingSphere, BoundingSphere::BoundingSphere(const BoundingSphere &), DirectX.BoundingSphere constructor [DirectX Math Support APIs], DirectX.BoundingSphere constructor [DirectX Math Support APIs],BoundingSphere interface, dxmath.boundingsphere_ctor_3
-ms.topic: method
 f1_keywords:
 - directxcollision/BoundingSphere.DirectX.BoundingSphere
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 59467fd5-c462-4827-a4f8-e152df981ace
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetFlags method, IXpsSigningOptions.SetFlags, IXpsSigningOptions::SetFlags, SetFlags, SetFlags method [XPS Documents and Packaging], SetFlags method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setflags, xpsdigitalsignature/IXpsSigningOptions::SetFlags
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSigningOptions.SetFlags
 dev_langs:

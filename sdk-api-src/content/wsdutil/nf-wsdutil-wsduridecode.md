@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 30232a4c-f7bb-4a22-b148-2576a259808a
 ms.date: 12/05/2018
 ms.keywords: WSDUriDecode, WSDUriDecode function, ncd.wsduridecode, wsdutil/WSDUriDecode
-ms.topic: function
 f1_keywords:
 - wsdutil/WSDUriDecode
 dev_langs:

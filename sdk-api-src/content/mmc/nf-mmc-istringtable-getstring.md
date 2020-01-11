@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 34dbf92a-b54d-4f60-87ff-493c9946a57d
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [MMC], GetString method [MMC],IStringTable interface, IStringTable interface [MMC],GetString method, IStringTable.GetString, IStringTable::GetString, _slate_istringtable_getstring, mmc.istringtable_getstring, mmc/IStringTable::GetString
-ms.topic: method
 f1_keywords:
 - mmc/IStringTable.GetString
 dev_langs:

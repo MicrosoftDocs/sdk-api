@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 10159c09-609a-4263-a515-241ab942c3e8
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProvider interface [PLA],KeywordsAny property, ITraceDataProvider.KeywordsAny, ITraceDataProvider.get_KeywordsAny, ITraceDataProvider::KeywordsAny, ITraceDataProvider::get_KeywordsAny, KeywordsAny property [PLA], KeywordsAny property [PLA],ITraceDataProvider interface, get_KeywordsAny, pla.itracedataprovider_keywordsany, pla/ITraceDataProvider::KeywordsAny, pla/ITraceDataProvider::get_KeywordsAny
-ms.topic: method
 f1_keywords:
 - pla/ITraceDataProvider.KeywordsAny
 dev_langs:

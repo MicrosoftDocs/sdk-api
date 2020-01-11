@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e7aac4c7-b2d5-43d8-97f5-1b11ebb24ee1
 ms.date: 12/05/2018
 ms.keywords: StrStrNW, StrStrNW function [Windows Shell], _shell_StrStrNW, shell.StrStrNW, shlwapi/StrStrNW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrStrNW
 dev_langs:

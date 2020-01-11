@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b62df5fb-6759-4869-a6b3-f78978e1f5e2
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify interface [DirectShow],RestoreDDrawSurfaces method, IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces, IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces, IVMRSurfaceAllocatorNotifyRestoreDDrawSurfaces, RestoreDDrawSurfaces, RestoreDDrawSurfaces method [DirectShow], RestoreDDrawSurfaces method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_restoreddrawsurfaces, strmif/IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces
-ms.topic: method
 f1_keywords:
 - strmif/IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces
 dev_langs:

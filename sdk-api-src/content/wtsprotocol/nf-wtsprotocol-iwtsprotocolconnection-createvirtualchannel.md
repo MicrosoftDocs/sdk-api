@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 28cdabde-980f-48b7-920e-1eeeb70b6952
 ms.date: 12/05/2018
 ms.keywords: CreateVirtualChannel, CreateVirtualChannel method [Remote Desktop Services], CreateVirtualChannel method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],CreateVirtualChannel method, IWTSProtocolConnection.CreateVirtualChannel, IWTSProtocolConnection::CreateVirtualChannel, termserv.iwtsprotocolconnection_createvirtualchannel, wtsprotocol/IWTSProtocolConnection::CreateVirtualChannel
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolConnection.CreateVirtualChannel
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 46773631-d464-4d9e-83e7-aa502599df71
 ms.date: 12/05/2018
 ms.keywords: DsListServersInSite, DsListServersInSite function [Active Directory], DsListServersInSiteA, DsListServersInSiteW, _glines_dslistserversinsite, ad.dslistserversinsite, ntdsapi/DsListServersInSite, ntdsapi/DsListServersInSiteA, ntdsapi/DsListServersInSiteW
-ms.topic: function
 f1_keywords:
 - ntdsapi/DsListServersInSite
 dev_langs:

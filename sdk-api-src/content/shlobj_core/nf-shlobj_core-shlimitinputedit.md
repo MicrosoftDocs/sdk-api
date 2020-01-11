@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3f03374f-8dfe-4b80-9ecc-12c6548f2865
 ms.date: 12/05/2018
 ms.keywords: SHLimitInputEdit, SHLimitInputEdit function [Windows Shell], _shell_SHLimitInputEdit, shell.SHLimitInputEdit, shlobj_core/SHLimitInputEdit
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHLimitInputEdit
 dev_langs:

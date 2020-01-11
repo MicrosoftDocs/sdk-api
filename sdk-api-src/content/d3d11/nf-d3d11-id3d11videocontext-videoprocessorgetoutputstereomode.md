@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: E7BDB9DA-2760-416D-BD51-F73A035B790A
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetOutputStereoMode method, ID3D11VideoContext.VideoProcessorGetOutputStereoMode, ID3D11VideoContext::VideoProcessorGetOutputStereoMode, VideoProcessorGetOutputStereoMode, VideoProcessorGetOutputStereoMode method [Media Foundation], VideoProcessorGetOutputStereoMode method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetOutputStereoMode, mf.id3d11videocontext_videoprocessorgetoutputstereomode
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11VideoContext.VideoProcessorGetOutputStereoMode
 dev_langs:

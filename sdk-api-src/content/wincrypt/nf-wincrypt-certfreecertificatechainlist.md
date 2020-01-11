@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: a53b02ca-bc3f-43fd-8c90-2f646d550182
 ms.date: 12/05/2018
 ms.keywords: CertFreeCertificateChainList, CertFreeCertificateChainList function [Security], security.certfreecertificatechainlist, wincrypt/CertFreeCertificateChainList
-ms.topic: function
 f1_keywords:
 - wincrypt/CertFreeCertificateChainList
 dev_langs:

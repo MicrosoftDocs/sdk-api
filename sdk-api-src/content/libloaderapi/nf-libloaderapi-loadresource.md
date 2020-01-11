@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\loadresource.htm
 ms.date: 12/05/2018
 ms.keywords: LoadResource, LoadResource function [Menus and Other Resources], _win32_LoadResource, _win32_loadresource_cpp, libloaderapi/LoadResource, menurc.loadresource, winui._win32_loadresource
-ms.topic: function
 f1_keywords:
 - libloaderapi/LoadResource
 dev_langs:

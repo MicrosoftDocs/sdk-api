@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 25b1bf9f-3ae1-453c-baae-5f70ae46cd24
 ms.date: 12/05/2018
 ms.keywords: IpRenewAddress, IpRenewAddress function [IP Helper], _iphlp_iprenewaddress, iphlp.iprenewaddress, iphlpapi/IpRenewAddress
-ms.topic: function
 f1_keywords:
 - iphlpapi/IpRenewAddress
 dev_langs:

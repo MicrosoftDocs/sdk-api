@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 830eff1a-e70e-440c-81be-69058d14f314
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_MixerBitmapOpacity method, IMSVidVideoRenderer.get_MixerBitmapOpacity, IMSVidVideoRenderer::get_MixerBitmapOpacity, IMSVidVideoRendererget_MixerBitmapOpacity, get_MixerBitmapOpacity, get_MixerBitmapOpacity method [Microsoft TV Technologies], get_MixerBitmapOpacity method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_mixerbitmapopacity, segment/IMSVidVideoRenderer::get_MixerBitmapOpacity
-ms.topic: method
 f1_keywords:
 - segment/IMSVidVideoRenderer.get_MixerBitmapOpacity
 dev_langs:

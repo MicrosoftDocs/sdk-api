@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 7d86cc61-849d-40a3-9e8f-e319b0c9ea48
 ms.date: 12/05/2018
 ms.keywords: MCIWndEject, MCIWndEject macro [Windows Multimedia], _win32_MCIWndEject, multimedia.mciwndeject, vfw/MCIWndEject
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndEject
 dev_langs:

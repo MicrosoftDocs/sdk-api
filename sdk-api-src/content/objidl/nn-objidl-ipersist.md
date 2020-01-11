@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 932eb0e2-35a6-482e-9138-00cff30508a9
 ms.date: 12/05/2018
 ms.keywords: IPersist, IPersist interface [COM], IPersist interface [COM],described, _com_ipersist, com.ipersist, objidl/IPersist
-ms.topic: interface
 f1_keywords:
 - objidl/IPersist
 dev_langs:

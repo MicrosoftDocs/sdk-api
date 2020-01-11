@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 4ccf78af-19b0-4bc9-a519-92df8276804e
 ms.date: 12/05/2018
 ms.keywords: Compare, Compare method [Windows Accessibility], Compare method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],Compare method, IUIAutomationTextRange.Compare, IUIAutomationTextRange::Compare, uiauto.uiauto_IUIAutomationTextRange_Compare, uiauto_IUIAutomationTextRange_Compare, uiautomationclient/IUIAutomationTextRange::Compare, winauto.uiauto_IUIAutomationTextRange_Compare
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationTextRange.Compare
 dev_langs:

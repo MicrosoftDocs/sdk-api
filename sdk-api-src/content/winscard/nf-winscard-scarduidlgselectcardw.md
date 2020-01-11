@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 68014e9e-0ea3-4032-8db5-c1887a1cc9ad
 ms.date: 12/05/2018
 ms.keywords: SCardUIDlgSelectCard, SCardUIDlgSelectCard function [Security], SCardUIDlgSelectCardA, SCardUIDlgSelectCardW, _smart_scarduidlgselectcard, security.scarduidlgselectcard, winscard/SCardUIDlgSelectCard, winscard/SCardUIDlgSelectCardA, winscard/SCardUIDlgSelectCardW
-ms.topic: function
 f1_keywords:
 - winscard/SCardUIDlgSelectCard
 dev_langs:

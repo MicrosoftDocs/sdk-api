@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 21752fb9-db6b-4fd1-9c6f-a756408bda53
 ms.date: 12/05/2018
 ms.keywords: GetPin, GetPin method [Microsoft Broadband Networks], GetPin method [Microsoft Broadband Networks],IMbnPinManager interface, IMbnPinManager interface [Microsoft Broadband Networks],GetPin method, IMbnPinManager.GetPin, IMbnPinManager::GetPin, mbn.imbnpinmanager_getpin, mbnapi/IMbnPinManager::GetPin
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnPinManager.GetPin
 dev_langs:

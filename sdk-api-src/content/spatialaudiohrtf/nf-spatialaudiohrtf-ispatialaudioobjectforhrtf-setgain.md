@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 7DE268DC-5AA0-4866-8495-34292AEFB142
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetGain method, ISpatialAudioObjectForHrtf.SetGain, ISpatialAudioObjectForHrtf::SetGain, SetGain, SetGain method [Core Audio], SetGain method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setgain, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetGain
-ms.topic: method
 f1_keywords:
 - spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetGain
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: b078ead4-3df6-42b0-8844-143969e7e71e
 ms.date: 12/05/2018
 ms.keywords: VarDecCmpR8, VarDecCmpR8 function [Automation], _oa96_VarDecCmpR8, automat.vardeccmpr8, oleauto/VarDecCmpR8
-ms.topic: function
 f1_keywords:
 - oleauto/VarDecCmpR8
 dev_langs:

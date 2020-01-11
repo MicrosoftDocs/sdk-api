@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: 164b1d10-9ec0-43c8-80fe-be1ad8ec991f
 ms.date: 12/05/2018
 ms.keywords: DeleteAllGPOLinks, DeleteAllGPOLinks function [Group Policy], _win32_deleteallgpolinks, gpedit/DeleteAllGPOLinks, policy.deleteallgpolinks
-ms.topic: function
 f1_keywords:
 - gpedit/DeleteAllGPOLinks
 dev_langs:

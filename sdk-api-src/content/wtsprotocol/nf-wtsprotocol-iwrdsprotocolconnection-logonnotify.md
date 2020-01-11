@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 2b6ce1cd-0e9f-465d-a5d6-e0d35bddebc4
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],LogonNotify method, IWRdsProtocolConnection.LogonNotify, IWRdsProtocolConnection::LogonNotify, LogonNotify, LogonNotify method [Remote Desktop Services], LogonNotify method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_logonnotify, wtsprotocol/IWRdsProtocolConnection::LogonNotify
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWRdsProtocolConnection.LogonNotify
 dev_langs:

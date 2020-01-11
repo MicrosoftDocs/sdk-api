@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 4EE5DE54-DCA2-4DDC-BDE1-6417E4ADF4A2
 ms.date: 12/05/2018
 ms.keywords: GetOptionValue, GetOptionValue method [Internationalization for Windows Applications], GetOptionValue method [Internationalization for Windows Applications],ISpellCheckProvider interface, ISpellCheckProvider interface [Internationalization for Windows Applications],GetOptionValue method, ISpellCheckProvider.GetOptionValue, ISpellCheckProvider::GetOptionValue, intl.ispellcheckprovider_getoptionvalue, spellcheckprovider/ISpellCheckProvider::GetOptionValue
-ms.topic: method
 f1_keywords:
 - spellcheckprovider/ISpellCheckProvider.GetOptionValue
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 6c45d735-9a07-41ca-8d8a-919f32c98a3c
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetIpNetTable2, GetIpNetTable2 function [IP Helper], iphlp.getipnettable2, netioapi/GetIpNetTable2
-ms.topic: function
 f1_keywords:
 - netioapi/GetIpNetTable2
 dev_langs:

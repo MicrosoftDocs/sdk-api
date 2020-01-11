@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 7E97B8EB-E674-4B90-9B9B-202552DBD95C
 ms.date: 12/05/2018
 ms.keywords: ID3D10Blob, ID3D10Blob interface [Direct3D 11], ID3D10Blob interface [Direct3D 11],described, d3dcommon/ID3D10Blob, direct3d11.id3d10blob
-ms.topic: interface
 f1_keywords:
 - d3dcommon/ID3D10Blob
 dev_langs:

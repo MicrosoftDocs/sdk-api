@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 8bfbd58d-3c9d-4828-9922-ba13033a6c96
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_GetOptionCount, MI_DestinationOptions_GetOptionCount function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetOptionCount, wmi_v2.mi_destinationoptions_getoptioncount
-ms.topic: function
 f1_keywords:
 - mi/MI_DestinationOptions_GetOptionCount
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 330808ef-9b39-4bd4-ba0b-9e70ec516f33
 ms.date: 12/05/2018
 ms.keywords: CertEnumCRLContextProperties, CertEnumCRLContextProperties function [Security], _crypto2_certenumcrlcontextproperties, security.certenumcrlcontextproperties, wincrypt/CertEnumCRLContextProperties
-ms.topic: function
 f1_keywords:
 - wincrypt/CertEnumCRLContextProperties
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 7a71924b-47d6-4aea-b384-09874f85976b
 ms.date: 12/05/2018
 ms.keywords: Author property [Task Scheduler], Author property [Task Scheduler],IRegistrationInfo interface, IRegistrationInfo interface [Task Scheduler],Author property, IRegistrationInfo.Author, IRegistrationInfo.put_Author, IRegistrationInfo::Author, IRegistrationInfo::get_Author, IRegistrationInfo::put_Author, put_Author, taskschd.iregistrationinfo_author, taskschd/IRegistrationInfo::Author, taskschd/IRegistrationInfo::get_Author, taskschd/IRegistrationInfo::put_Author
-ms.topic: method
 f1_keywords:
 - taskschd/IRegistrationInfo.Author
 dev_langs:

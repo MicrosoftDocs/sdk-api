@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: 08627c9d-7470-47ab-9209-32734082c393
 ms.date: 12/05/2018
 ms.keywords: CreateSignatureReader, CreateSignatureReader method [Remote Differential Compression], CreateSignatureReader method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],CreateSignatureReader method, IRdcLibrary.CreateSignatureReader, IRdcLibrary::CreateSignatureReader, fs.irdclibrary_createsignaturereader, msrdc/IRdcLibrary::CreateSignatureReader, rdc.irdclibrary_createsignaturereader
-ms.topic: method
 f1_keywords:
 - msrdc/IRdcLibrary.CreateSignatureReader
 dev_langs:

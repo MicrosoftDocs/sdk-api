@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 558d5412-1165-4dda-8ac1-6c599267beaf
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetEnd, MCIWndGetEnd macro [Windows Multimedia], _win32_MCIWndGetEnd, multimedia.mciwndgetend, vfw/MCIWndGetEnd
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndGetEnd
 dev_langs:

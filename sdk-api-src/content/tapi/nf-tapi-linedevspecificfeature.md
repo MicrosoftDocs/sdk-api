@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 8498318f-9615-4242-86e2-c57b50293b83
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linedevspecificfeature, lineDevSpecificFeature, lineDevSpecificFeature function [TAPI 2.2], tapi/lineDevSpecificFeature, tapi2.linedevspecificfeature
-ms.topic: function
 f1_keywords:
 - tapi/lineDevSpecificFeature
 dev_langs:

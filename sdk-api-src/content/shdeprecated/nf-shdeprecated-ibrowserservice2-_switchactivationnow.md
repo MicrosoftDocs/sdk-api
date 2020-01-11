@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4e0a74cf-e554-4be4-8221-5a64addff12d
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_SwitchActivationNow method, IBrowserService2._SwitchActivationNow, IBrowserService2::_SwitchActivationNow, _SwitchActivationNow, _SwitchActivationNow method [Windows Shell], _SwitchActivationNow method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_SwitchActivationNow, shell.IBrowserService2__SwitchActivationNow, zone_IBrowserService2__SwitchActivationNow
-ms.topic: method
 f1_keywords:
 - shdeprecated/IBrowserService2._SwitchActivationNow
 dev_langs:

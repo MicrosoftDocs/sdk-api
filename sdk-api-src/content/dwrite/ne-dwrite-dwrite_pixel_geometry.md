@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: de84b37b-bcb1-432c-8876-d84eaa0e30e0
 ms.date: 12/05/2018
 ms.keywords: DWRITE_PIXEL_GEOMETRY, DWRITE_PIXEL_GEOMETRY enumeration [Direct Write], DWRITE_PIXEL_GEOMETRY_BGR, DWRITE_PIXEL_GEOMETRY_FLAT, DWRITE_PIXEL_GEOMETRY_RGB, directwrite.dwrite_pixel_geometry, dwrite/DWRITE_PIXEL_GEOMETRY, dwrite/DWRITE_PIXEL_GEOMETRY_BGR, dwrite/DWRITE_PIXEL_GEOMETRY_FLAT, dwrite/DWRITE_PIXEL_GEOMETRY_RGB
-ms.topic: enum
 f1_keywords:
 - dwrite/DWRITE_PIXEL_GEOMETRY
 dev_langs:

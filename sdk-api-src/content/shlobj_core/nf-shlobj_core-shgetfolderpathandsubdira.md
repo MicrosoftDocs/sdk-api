@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7e92e136-1036-4c96-931f-6e0129fb839a
 ms.date: 12/05/2018
 ms.keywords: SHGFP_TYPE_CURRENT, SHGFP_TYPE_DEFAULT, SHGetFolderPathAndSubDir, SHGetFolderPathAndSubDir function [Windows Shell], SHGetFolderPathAndSubDirA, SHGetFolderPathAndSubDirW, _shell_SHGetFolderPathAndSubDir, shell.SHGetFolderPathAndSubDir, shlobj_core/SHGetFolderPathAndSubDir, shlobj_core/SHGetFolderPathAndSubDirA, shlobj_core/SHGetFolderPathAndSubDirW
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHGetFolderPathAndSubDir
 dev_langs:

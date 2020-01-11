@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0c3261e8-c671-48c7-b07c-59ce74b13c76
 ms.date: 12/05/2018
 ms.keywords: GetTransportStreamId, GetTransportStreamId method [Microsoft TV Technologies], GetTransportStreamId method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetTransportStreamId method, IATSC_VCT.GetTransportStreamId, IATSC_VCT::GetTransportStreamId, IATSC_VCTGetTransportStreamId, atscpsipparser/IATSC_VCT::GetTransportStreamId, mstv.iatsc_vct_gettransportstreamid
-ms.topic: method
 f1_keywords:
 - atscpsipparser/IATSC_VCT.GetTransportStreamId
 dev_langs:

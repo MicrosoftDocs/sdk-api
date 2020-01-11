@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 121cbd41-d512-4f33-b89c-d0dd9933df87
 ms.date: 12/05/2018
 ms.keywords: SHGetDesktopFolder, SHGetDesktopFolder function [Windows Shell], _win32_SHGetDesktopFolder, shell.SHGetDesktopFolder, shlobj_core/SHGetDesktopFolder
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHGetDesktopFolder
 dev_langs:

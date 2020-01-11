@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: e7963be7-ccd8-49fb-85bb-e22fbbb6dc5c
 ms.date: 12/05/2018
 ms.keywords: CreateILockBytesOnHGlobal, CreateILockBytesOnHGlobal function [Structured Storage], _stg_createilockbytesonhglobal, coml2api/CreateILockBytesOnHGlobal, stg.createilockbytesonhglobal
-ms.topic: function
 f1_keywords:
 - coml2api/CreateILockBytesOnHGlobal
 dev_langs:

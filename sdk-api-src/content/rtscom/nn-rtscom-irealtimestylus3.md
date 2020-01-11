@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 93eabb45-0b0e-495f-9b64-43ad8060b958
 ms.date: 12/05/2018
 ms.keywords: IRealTimeStylus3, IRealTimeStylus3 interface [Tablet PC], IRealTimeStylus3 interface [Tablet PC],described, rtscom/IRealTimeStylus3, tablet.irealtimestylus3
-ms.topic: interface
 f1_keywords:
 - rtscom/IRealTimeStylus3
 dev_langs:

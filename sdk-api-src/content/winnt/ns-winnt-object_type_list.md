@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: c729ff1a-65f3-4f6f-84dd-5700aead75ce
 ms.date: 12/05/2018
 ms.keywords: '*POBJECT_TYPE_LIST, ACCESS_OBJECT_GUID, ACCESS_PROPERTY_GUID, ACCESS_PROPERTY_SET_GUID, OBJECT_TYPE_LIST, OBJECT_TYPE_LIST structure [Security], POBJECT_TYPE_LIST, POBJECT_TYPE_LIST structure pointer [Security], _OBJECT_TYPE_LIST, _win32_object_type_list_str, security.object_type_list, winnt/OBJECT_TYPE_LIST, winnt/POBJECT_TYPE_LIST'
-ms.topic: struct
 f1_keywords:
 - winnt/OBJECT_TYPE_LIST
 dev_langs:

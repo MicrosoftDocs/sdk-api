@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 35e66c77-db26-4806-9b56-51539b23bb61
 ms.date: 12/05/2018
 ms.keywords: WS_METADATA_EXCHANGE_TYPE, WS_METADATA_EXCHANGE_TYPE enumeration [Web Services for Windows], WS_METADATA_EXCHANGE_TYPE_HTTP_GET, WS_METADATA_EXCHANGE_TYPE_MEX, WS_METADATA_EXCHANGE_TYPE_NONE, webservices/WS_METADATA_EXCHANGE_TYPE, webservices/WS_METADATA_EXCHANGE_TYPE_HTTP_GET, webservices/WS_METADATA_EXCHANGE_TYPE_MEX, webservices/WS_METADATA_EXCHANGE_TYPE_NONE, wsw.ws_metadata_exchange_type
-ms.topic: enum
 f1_keywords:
 - webservices/WS_METADATA_EXCHANGE_TYPE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 6b7105c1-7395-462f-ad52-daf621258714
 ms.date: 12/05/2018
 ms.keywords: 6b7105c1-7395-462f-ad52-daf621258714, GetBandwidthStepCount, GetBandwidthStepCount method [Media Foundation], GetBandwidthStepCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetBandwidthStepCount method, IMFASFStreamSelector.GetBandwidthStepCount, IMFASFStreamSelector::GetBandwidthStepCount, mf.imfasfstreamselector_getbandwidthstepcount, wmcontainer/IMFASFStreamSelector::GetBandwidthStepCount
-ms.topic: method
 f1_keywords:
 - wmcontainer/IMFASFStreamSelector.GetBandwidthStepCount
 dev_langs:

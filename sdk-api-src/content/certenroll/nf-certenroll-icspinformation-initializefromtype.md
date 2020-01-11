@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 24466981-2ea2-41f5-b2db-85b5629fba7d
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],InitializeFromType method, ICspInformation.InitializeFromType, ICspInformation::InitializeFromType, InitializeFromType, InitializeFromType method [Security], InitializeFromType method [Security],ICspInformation interface, certenroll/ICspInformation::InitializeFromType, security.icspinformation_initializefromtype_method
-ms.topic: method
 f1_keywords:
 - certenroll/ICspInformation.InitializeFromType
 dev_langs:

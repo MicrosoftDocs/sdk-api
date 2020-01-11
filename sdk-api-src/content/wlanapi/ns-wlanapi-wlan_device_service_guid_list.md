@@ -3,7 +3,6 @@ UID: NS:wlanapi._WLAN_DEVICE_SERVICE_GUID_LIST
 title: WLAN_DEVICE_SERVICE_GUID_LIST
 description: Contains an array of device service GUIDs.
 ms.date: 12/18/2019
-ms.topic: language-reference
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

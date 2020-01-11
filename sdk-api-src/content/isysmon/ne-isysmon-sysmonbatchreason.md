@@ -7,7 +7,6 @@ tech.root: SysMon
 ms.assetid: f8dac303-105a-4d83-a92c-7d2002d7e4a3
 ms.date: 12/05/2018
 ms.keywords: SysmonBatchAddCounters, SysmonBatchAddFiles, SysmonBatchNone, SysmonBatchReason, SysmonBatchReason enumeration [SysMon], isysmon/SysmonBatchAddCounters, isysmon/SysmonBatchAddFiles, isysmon/SysmonBatchNone, isysmon/SysmonBatchReason, sysmon.sysmonbatchreason
-ms.topic: enum
 f1_keywords:
 - isysmon/SysmonBatchReason
 dev_langs:

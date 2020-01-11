@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: c699c6a9-f554-4e2d-ac7f-9b5ff954fa6b
 ms.date: 12/05/2018
 ms.keywords: CardDataChanged, CardError, CardFirmwareUpgrade, CardInserted, CardRemoved, SmartCardStatusType, SmartCardStatusType enumeration [Microsoft TV Technologies], bdaiface/CardDataChanged, bdaiface/CardError, bdaiface/CardFirmwareUpgrade, bdaiface/CardInserted, bdaiface/CardRemoved, bdaiface/SmartCardStatusType, mstv.smartcardstatustype
-ms.topic: enum
 f1_keywords:
 - bdaiface/SmartCardStatusType
 dev_langs:

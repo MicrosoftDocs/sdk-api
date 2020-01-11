@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: bb473a7e-8957-4e85-98d0-13c6992fbf37
 ms.date: 12/05/2018
 ms.keywords: IDVB_SDT, IDVB_SDT interface [Microsoft TV Technologies], IDVB_SDT interface [Microsoft TV Technologies],described, IDVB_SDTInterface, dvbsiparser/IDVB_SDT, mstv.idvb_sdt
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IDVB_SDT
 dev_langs:

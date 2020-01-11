@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: 27c2bf2e-54b1-4ed4-a754-e8b3b3bd58cb
 ms.date: 12/05/2018
 ms.keywords: DRMConstructCertificateChain, DRMConstructCertificateChain function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMConstructCertificateChain, rm.drmconstructcertificatechain
-ms.topic: function
 f1_keywords:
 - msdrm/DRMConstructCertificateChain
 dev_langs:

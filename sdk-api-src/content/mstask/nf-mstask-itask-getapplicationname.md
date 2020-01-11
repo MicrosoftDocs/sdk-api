@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 79a8c324-1191-412b-be2b-eb5935337925
 ms.date: 12/05/2018
 ms.keywords: GetApplicationName, GetApplicationName method [Task Scheduler], GetApplicationName method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetApplicationName method, ITask.GetApplicationName, ITask::GetApplicationName, _msb_itask_getapplicationname, mstask/ITask::GetApplicationName, taskschd.itask_getapplicationname
-ms.topic: method
 f1_keywords:
 - mstask/ITask.GetApplicationName
 dev_langs:

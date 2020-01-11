@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 8152f75c-1c93-4c30-8a13-c47fd5dde4af
 ms.date: 12/05/2018
 ms.keywords: INetConnectionProps, INetConnectionProps interface [ICS/ICF], INetConnectionProps interface [ICS/ICF],described, _ics_inetconnectionprops, ics.inetconnectionprops, netcon/INetConnectionProps
-ms.topic: interface
 f1_keywords:
 - netcon/INetConnectionProps
 dev_langs:

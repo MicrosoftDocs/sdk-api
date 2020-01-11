@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: cf1ccd40-36bf-4597-b34f-d26cef63d800
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_IssuerListInfoEx, PSecPkgContext_IssuerListInfoEx, PSecPkgContext_IssuerListInfoEx structure pointer [Security], SecPkgContext_IssuerListInfoEx, SecPkgContext_IssuerListInfoEx structure [Security], _ssp_secpkgcontext_issuerlistinfoex, schannel/PSecPkgContext_IssuerListInfoEx, schannel/SecPkgContext_IssuerListInfoEx, security.secpkgcontext_issuerlistinfoex'
-ms.topic: struct
 f1_keywords:
 - schannel/SecPkgContext_IssuerListInfoEx
 dev_langs:

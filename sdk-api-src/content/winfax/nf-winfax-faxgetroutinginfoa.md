@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1pwv.htm
 ms.date: 12/05/2018
 ms.keywords: FaxGetRoutingInfo, FaxGetRoutingInfo function [Fax Service], FaxGetRoutingInfoA, FaxGetRoutingInfoW, _mfax_faxgetroutinginfo, fax._mfax_faxgetroutinginfo, winfax/FaxGetRoutingInfo, winfax/FaxGetRoutingInfoA, winfax/FaxGetRoutingInfoW
-ms.topic: function
 f1_keywords:
 - winfax/FaxGetRoutingInfo
 dev_langs:

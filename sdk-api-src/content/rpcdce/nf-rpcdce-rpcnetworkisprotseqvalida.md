@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 72a28f64-2a66-4b61-96a9-80b8b9486151
 ms.date: 12/05/2018
 ms.keywords: RpcNetworkIsProtseqValid, RpcNetworkIsProtseqValid function [RPC], RpcNetworkIsProtseqValidA, RpcNetworkIsProtseqValidW, _rpc_rpcnetworkisprotseqvalid, rpc.rpcnetworkisprotseqvalid, rpcdce/RpcNetworkIsProtseqValid, rpcdce/RpcNetworkIsProtseqValidA, rpcdce/RpcNetworkIsProtseqValidW
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcNetworkIsProtseqValid
 dev_langs:

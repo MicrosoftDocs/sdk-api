@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: b97890f8-dc9d-494f-82f9-3d32c09f5d67
 ms.date: 12/05/2018
 ms.keywords: ComparePartUri, ComparePartUri method [Open Packaging Conventions], ComparePartUri method [Open Packaging Conventions],IOpcPartUri interface, IOpcPartUri interface [Open Packaging Conventions],ComparePartUri method, IOpcPartUri.ComparePartUri, IOpcPartUri::ComparePartUri, msopc/IOpcPartUri::ComparePartUri, opc.iopcparturi_compareparturi
-ms.topic: method
 f1_keywords:
 - msopc/IOpcPartUri.ComparePartUri
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 21d6c74a-2adb-4015-b0df-5acb26c22212
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_DestinationHeight method, IBasicVideo.get_DestinationHeight, IBasicVideo::get_DestinationHeight, IBasicVideoget_DestinationHeight, control/IBasicVideo::get_DestinationHeight, dshow.ibasicvideo_get_destinationheight, get_DestinationHeight, get_DestinationHeight method [DirectShow], get_DestinationHeight method [DirectShow],IBasicVideo interface
-ms.topic: method
 f1_keywords:
 - control/IBasicVideo.get_DestinationHeight
 dev_langs:

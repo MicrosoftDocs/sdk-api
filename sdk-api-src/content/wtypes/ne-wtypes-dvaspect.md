@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: a2b729c8-7091-4520-93cd-c44468ba0274
 ms.date: 12/05/2018
 ms.keywords: DVASPECT, DVASPECT enumeration [COM], DVASPECT_CONTENT, DVASPECT_DOCPRINT, DVASPECT_ICON, DVASPECT_THUMBNAIL, _ole_DVASPECT, com.dvaspect, wtypes/DVASPECT, wtypes/DVASPECT_CONTENT, wtypes/DVASPECT_DOCPRINT, wtypes/DVASPECT_ICON, wtypes/DVASPECT_THUMBNAIL
-ms.topic: enum
 f1_keywords:
 - wtypes/DVASPECT
 dev_langs:

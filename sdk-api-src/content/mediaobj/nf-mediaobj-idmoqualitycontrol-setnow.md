@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 36efee4f-0a06-421f-bc37-688a6499bda7
 ms.date: 12/05/2018
 ms.keywords: IDMOQualityControl interface [DirectShow],SetNow method, IDMOQualityControl.SetNow, IDMOQualityControl::SetNow, IDMOQualityControlSetNow, SetNow, SetNow method [DirectShow], SetNow method [DirectShow],IDMOQualityControl interface, dshow.idmoqualitycontrol_setnow, mediaobj/IDMOQualityControl::SetNow
-ms.topic: method
 f1_keywords:
 - mediaobj/IDMOQualityControl.SetNow
 dev_langs:

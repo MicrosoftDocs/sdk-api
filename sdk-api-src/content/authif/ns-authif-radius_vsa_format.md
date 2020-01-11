@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: 6f883a2f-84f1-44f5-8b15-c7e55fae4289
 ms.date: 12/05/2018
 ms.keywords: RADIUS_VSA_FORMAT, RADIUS_VSA_FORMAT structure [Network Policy Server], _ias_radius_vsa_format, authif/RADIUS_VSA_FORMAT, ias.radius_vsa_format, nps.IAS_radius_vsa_format
-ms.topic: struct
 f1_keywords:
 - authif/RADIUS_VSA_FORMAT
 dev_langs:

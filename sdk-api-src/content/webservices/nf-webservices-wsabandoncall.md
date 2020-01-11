@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 709af94d-44ad-46af-8771-99d0aba5d77d
 ms.date: 12/05/2018
 ms.keywords: WsAbandonCall, WsAbandonCall function [Web Services for Windows], webservices/WsAbandonCall, wsw.wsabandoncall
-ms.topic: function
 f1_keywords:
 - webservices/WsAbandonCall
 dev_langs:

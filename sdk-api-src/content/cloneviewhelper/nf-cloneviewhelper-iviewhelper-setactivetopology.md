@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: a4a9d98c-834b-4578-9ba3-7c7295989a84
 ms.date: 12/05/2018
 ms.keywords: IViewHelper interface [Display Devices],SetActiveTopology method, IViewHelper.SetActiveTopology, IViewHelper::SetActiveTopology, SetActiveTopology, SetActiveTopology method [Display Devices], SetActiveTopology method [Display Devices],IViewHelper interface, TMM_Ref_2624b29c-5a04-4312-b65c-9878af440c39.xml, cloneviewhelper/IViewHelper::SetActiveTopology, display.iviewhelper_setactivetopology
-ms.topic: method
 f1_keywords:
 - cloneviewhelper/IViewHelper.SetActiveTopology
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4x7p_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingQueue, IFaxIncomingQueue interface [Fax Service], IFaxIncomingQueue interface [Fax Service],described, _mfax_faxincomingqueue_cpp, fax._mfax_faxincomingqueue_cpp, faxcomex/IFaxIncomingQueue
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxIncomingQueue
 dev_langs:

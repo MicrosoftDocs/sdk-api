@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: fc79ad9b-4044-4a33-83b4-f3033283058a
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],ParentalCountrySelect method, IDvdControl.ParentalCountrySelect, IDvdControl::ParentalCountrySelect, IDvdControlParentalCountrySelect, ParentalCountrySelect, ParentalCountrySelect method [DirectShow], ParentalCountrySelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_parentalcountryselect, strmif/IDvdControl::ParentalCountrySelect
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.ParentalCountrySelect
 dev_langs:

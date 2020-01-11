@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 02bc092a-f5ef-4f9d-b9a6-e03aba784d66
 ms.date: 12/05/2018
 ms.keywords: GetAnyDCName, GetAnyDCName method [ADSI], GetAnyDCName method [ADSI],IADsADSystemInfo interface, IADsADSystemInfo interface [ADSI],GetAnyDCName method, IADsADSystemInfo.GetAnyDCName, IADsADSystemInfo::GetAnyDCName, _ds_iadsadsysteminfo_getanydcname, adsi.iadsadsysteminfo__getanydcname, adsi.iadsadsysteminfo_getanydcname, iads/IADsADSystemInfo::GetAnyDCName
-ms.topic: method
 f1_keywords:
 - iads/IADsADSystemInfo.GetAnyDCName
 dev_langs:

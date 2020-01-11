@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 50c2c15c-459f-451b-9b79-9118acc81c8c
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phonenegotiateapiversion, phoneNegotiateAPIVersion, phoneNegotiateAPIVersion function [TAPI 2.2], tapi/phoneNegotiateAPIVersion, tapi2.phonenegotiateapiversion
-ms.topic: function
 f1_keywords:
 - tapi/phoneNegotiateAPIVersion
 dev_langs:

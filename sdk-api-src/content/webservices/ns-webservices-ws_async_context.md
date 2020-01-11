@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 3c9ffbef-2f5b-42b0-96b1-f17f0ab98ca4
 ms.date: 12/05/2018
 ms.keywords: WS_ASYNC_CONTEXT, WS_ASYNC_CONTEXT structure [Web Services for Windows], webservices/WS_ASYNC_CONTEXT, wsw.ws_async_context
-ms.topic: struct
 f1_keywords:
 - webservices/WS_ASYNC_CONTEXT
 dev_langs:

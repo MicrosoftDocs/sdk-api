@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 231d6ed9-ad41-488c-ad8b-ba64ae73f5b9
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_INTEGRITY_ALGORITHM0, IKEEXT_INTEGRITY_ALGORITHM0 structure [Filtering], fwp.ikeext_integrity_algorithm0, iketypes/IKEEXT_INTEGRITY_ALGORITHM0
-ms.topic: struct
 f1_keywords:
 - iketypes/IKEEXT_INTEGRITY_ALGORITHM0
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: e9d4079d-28d2-4975-a33f-1f4ec5175c36
 ms.date: 12/05/2018
 ms.keywords: LINE_SEGMENT, LINE_SEGMENT structure [Tablet PC], e9d4079d-28d2-4975-a33f-1f4ec5175c36, rectypes/LINE_SEGMENT, tablet.line_segment
-ms.topic: struct
 f1_keywords:
 - rectypes/LINE_SEGMENT
 dev_langs:

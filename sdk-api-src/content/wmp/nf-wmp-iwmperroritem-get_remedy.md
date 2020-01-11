@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: f37ec43a-cf58-4e90-9b2a-aef8afc30744
 ms.date: 12/05/2018
 ms.keywords: IWMPErrorItem interface [Windows Media Player],get_remedy method, IWMPErrorItem.get_remedy, IWMPErrorItem::get_remedy, IWMPErrorItemget_remedy, get_remedy, get_remedy method [Windows Media Player], get_remedy method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_remedy, wmp/IWMPErrorItem::get_remedy
-ms.topic: method
 f1_keywords:
 - wmp/IWMPErrorItem.get_remedy
 dev_langs:

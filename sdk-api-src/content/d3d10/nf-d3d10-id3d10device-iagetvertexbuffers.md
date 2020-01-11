@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iagetvertexbuffers.htm
 ms.date: 12/05/2018
 ms.keywords: 8b5abcbf-002c-c104-ad3f-1b179ff1df50, IAGetVertexBuffers, IAGetVertexBuffers method [Direct3D 10], IAGetVertexBuffers method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],IAGetVertexBuffers method, ID3D10Device.IAGetVertexBuffers, ID3D10Device::IAGetVertexBuffers, d3d10/ID3D10Device::IAGetVertexBuffers, direct3d10.id3d10device_iagetvertexbuffers
-ms.topic: method
 f1_keywords:
 - d3d10/ID3D10Device.IAGetVertexBuffers
 dev_langs:

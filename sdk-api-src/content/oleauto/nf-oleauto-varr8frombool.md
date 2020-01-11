@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: f1625830-72c6-4efc-b234-f4def897aae6
 ms.date: 12/05/2018
 ms.keywords: VarR8FromBool, VarR8FromBool function [Automation], _oa96_VarR8FromBool, automat.varr8frombool, oleauto/VarR8FromBool
-ms.topic: function
 f1_keywords:
 - oleauto/VarR8FromBool
 dev_langs:

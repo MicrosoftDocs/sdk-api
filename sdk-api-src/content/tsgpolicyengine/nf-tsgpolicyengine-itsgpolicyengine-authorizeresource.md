@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 77950541-c94a-4035-a2d8-a6014eb387e5
 ms.date: 12/05/2018
 ms.keywords: AuthorizeResource, AuthorizeResource method [Remote Desktop Services], AuthorizeResource method [Remote Desktop Services],ITSGPolicyEngine interface, ITSGPolicyEngine interface [Remote Desktop Services],AuthorizeResource method, ITSGPolicyEngine.AuthorizeResource, ITSGPolicyEngine::AuthorizeResource, termserv.itsgpolicyengine_authorizeresource, tsgpolicyengine/ITSGPolicyEngine::AuthorizeResource
-ms.topic: method
 f1_keywords:
 - tsgpolicyengine/ITSGPolicyEngine.AuthorizeResource
 dev_langs:

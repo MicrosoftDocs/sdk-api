@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3a784453-db29-4917-90ee-8893f787646a
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],get_Charset method, IFont.get_Charset, IFont::get_Charset, _ctrl_ifont_get_charset, com.ifont_get_charset, get_Charset, get_Charset method [COM], get_Charset method [COM],IFont interface, ocidl/IFont::get_Charset
-ms.topic: method
 f1_keywords:
 - ocidl/IFont.get_Charset
 dev_langs:

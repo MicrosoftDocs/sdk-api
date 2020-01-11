@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: df34dc7e-e6aa-442d-905e-4ae11b62a781
 ms.date: 12/05/2018
 ms.keywords: 186739b6-e023-0b79-ed38-b3030b56e2ed, GetGSInputPrimitive, GetGSInputPrimitive method [Direct3D 11], GetGSInputPrimitive method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetGSInputPrimitive method, ID3D11ShaderReflection.GetGSInputPrimitive, ID3D11ShaderReflection::GetGSInputPrimitive, d3d11shader/ID3D11ShaderReflection::GetGSInputPrimitive, direct3d11.id3d11shaderreflection_getgsinputprimitive
-ms.topic: method
 f1_keywords:
 - d3d11shader/ID3D11ShaderReflection.GetGSInputPrimitive
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 27913630-d0c2-4bc1-9d6a-623f7aa631ec
 ms.date: 12/05/2018
 ms.keywords: GetCurrentLocation, GetCurrentLocation method [DirectShow], GetCurrentLocation method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentLocation method, IDvdInfo.GetCurrentLocation, IDvdInfo::GetCurrentLocation, IDvdInfoGetCurrentLocation, dshow.idvdinfo_getcurrentlocation, strmif/IDvdInfo::GetCurrentLocation
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo.GetCurrentLocation
 dev_langs:

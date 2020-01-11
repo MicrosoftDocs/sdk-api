@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 72a3ac43-aebf-4801-9e36-23cf338b18ab
 ms.date: 12/05/2018
 ms.keywords: PFXExportChainNoRoot, PFXExportChainWithRoot, PFXExportEEOnly, PFXExportOptions, PFXExportOptions enumeration [Security], certenroll/PFXExportChainNoRoot, certenroll/PFXExportChainWithRoot, certenroll/PFXExportEEOnly, certenroll/PFXExportOptions, security.pfxexportoptions_enum
-ms.topic: enum
 f1_keywords:
 - certenroll/PFXExportOptions
 dev_langs:

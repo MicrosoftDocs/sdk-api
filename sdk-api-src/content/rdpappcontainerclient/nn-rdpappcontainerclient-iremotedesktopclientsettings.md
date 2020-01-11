@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 8bdb224c-bb29-43f1-8a7c-94686a8efe0a
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientSettings, IRemoteDesktopClientSettings interface [Remote Desktop Services], IRemoteDesktopClientSettings interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClientSettings, termserv.iremotedesktopclientsettings
-ms.topic: interface
 f1_keywords:
 - rdpappcontainerclient/IRemoteDesktopClientSettings
 dev_langs:

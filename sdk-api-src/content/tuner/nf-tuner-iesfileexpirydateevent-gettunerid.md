@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 1271df60-7830-4e10-9af8-caf59aff56f8
 ms.date: 12/05/2018
 ms.keywords: GetTunerId, GetTunerId method [Microsoft TV Technologies], GetTunerId method [Microsoft TV Technologies],IESFileExpiryDateEvent interface, IESFileExpiryDateEvent interface [Microsoft TV Technologies],GetTunerId method, IESFileExpiryDateEvent.GetTunerId, IESFileExpiryDateEvent::GetTunerId, mstv.iesfileexpirydateevent_gettunerid, tuner/IESFileExpiryDateEvent::GetTunerId
-ms.topic: method
 f1_keywords:
 - tuner/IESFileExpiryDateEvent.GetTunerId
 dev_langs:

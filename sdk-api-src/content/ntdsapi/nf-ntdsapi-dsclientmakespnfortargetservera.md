@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: d205e7cc-4879-41a4-baa7-75e7dd177cd0
 ms.date: 12/05/2018
 ms.keywords: DsClientMakeSpnForTargetServer, DsClientMakeSpnForTargetServer function [Active Directory], DsClientMakeSpnForTargetServerA, DsClientMakeSpnForTargetServerW, _glines_dsclientmakespnfortargetserver, ad.dsclientmakespnfortargetserver, ntdsapi/DsClientMakeSpnForTargetServer, ntdsapi/DsClientMakeSpnForTargetServerA, ntdsapi/DsClientMakeSpnForTargetServerW
-ms.topic: function
 f1_keywords:
 - ntdsapi/DsClientMakeSpnForTargetServer
 dev_langs:

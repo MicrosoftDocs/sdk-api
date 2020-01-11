@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 5ca1e67a-11f5-44bb-afe8-c934837d711b
 ms.date: 12/05/2018
 ms.keywords: WS_XML_TOKEN_MESSAGE_SECURITY_BINDING, WS_XML_TOKEN_MESSAGE_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_XML_TOKEN_MESSAGE_SECURITY_BINDING, wsw.ws_xml_token_message_security_binding
-ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
 dev_langs:

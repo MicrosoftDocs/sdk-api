@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 380b09ad-08d6-4d25-8d80-0e56d4295b8f
 ms.date: 12/05/2018
 ms.keywords: IHolder interface [COM+],UntrackResource method, IHolder.UntrackResource, IHolder::UntrackResource, UntrackResource, UntrackResource method [COM+], UntrackResource method [COM+],IHolder interface, _dtc_IHolder_UntrackResource, comsvcs/IHolder::UntrackResource, cos.iholder_untrackresource
-ms.topic: method
 f1_keywords:
 - comsvcs/IHolder.UntrackResource
 dev_langs:

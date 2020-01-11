@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getcount.htm
 ms.date: 12/05/2018
 ms.keywords: ComboBox_GetCount, ComboBox_GetCount macro [Windows Controls], _win32_ComboBox_GetCount, _win32_ComboBox_GetCount_cpp, controls.ComboBox_GetCount, controls._win32_ComboBox_GetCount, windowsx/ComboBox_GetCount
-ms.topic: macro
 f1_keywords:
 - windowsx/ComboBox_GetCount
 dev_langs:

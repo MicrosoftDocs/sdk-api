@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_gettoday.htm
 ms.date: 12/05/2018
 ms.keywords: MonthCal_GetToday, MonthCal_GetToday macro [Windows Controls], _win32_MonthCal_GetToday, _win32_MonthCal_GetToday_cpp, commctrl/MonthCal_GetToday, controls.MonthCal_GetToday, controls._win32_MonthCal_GetToday
-ms.topic: macro
 f1_keywords:
 - commctrl/MonthCal_GetToday
 dev_langs:

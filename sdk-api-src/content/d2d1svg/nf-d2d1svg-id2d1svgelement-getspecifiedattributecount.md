@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: DB683CA6-57B5-4B13-9EB3-269DDCA94667
 ms.date: 12/05/2018
 ms.keywords: GetSpecifiedAttributeCount, GetSpecifiedAttributeCount method [Direct2D], GetSpecifiedAttributeCount method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetSpecifiedAttributeCount method, ID2D1SvgElement.GetSpecifiedAttributeCount, ID2D1SvgElement::GetSpecifiedAttributeCount, d2d1svg/ID2D1SvgElement::GetSpecifiedAttributeCount, direct2d.id2d1svgelement_getspecifiedattributecount
-ms.topic: method
 f1_keywords:
 - d2d1svg/ID2D1SvgElement.GetSpecifiedAttributeCount
 dev_langs:

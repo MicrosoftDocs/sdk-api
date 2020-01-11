@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0aee92b4-740a-4c5a-a64e-9de08d1c35c2
 ms.date: 12/05/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],SetGraph method, IESEventServiceConfiguration.SetGraph, IESEventServiceConfiguration::SetGraph, SetGraph, SetGraph method [Microsoft TV Technologies], SetGraph method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_setgraph, tuner/IESEventServiceConfiguration::SetGraph
-ms.topic: method
 f1_keywords:
 - tuner/IESEventServiceConfiguration.SetGraph
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_deleteptr.htm
 ms.date: 12/05/2018
 ms.keywords: DPA_DeletePtr, DPA_DeletePtr function [Windows Controls], _win32_DPA_DeletePtr, _win32_DPA_DeletePtr_cpp, controls.DPA_DeletePtr, controls._win32_DPA_DeletePtr, dpa_dsa/DPA_DeletePtr
-ms.topic: function
 f1_keywords:
 - dpa_dsa/DPA_DeletePtr
 dev_langs:

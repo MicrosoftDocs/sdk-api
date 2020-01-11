@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 00245cb9-99de-464a-a0b4-d1efb1f1331b
 ms.date: 12/05/2018
 ms.keywords: SetupGetSourceFileLocation, SetupGetSourceFileLocation function [Setup API], SetupGetSourceFileLocationA, SetupGetSourceFileLocationW, _setupapi_setupgetsourcefilelocation, setup.setupgetsourcefilelocation, setupapi/SetupGetSourceFileLocation, setupapi/SetupGetSourceFileLocationA, setupapi/SetupGetSourceFileLocationW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupGetSourceFileLocation
 dev_langs:

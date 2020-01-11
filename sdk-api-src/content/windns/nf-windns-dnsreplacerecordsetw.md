@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 7b99f440-72fa-4cf4-9267-98f436e99a50
 ms.date: 12/05/2018
 ms.keywords: DnsReplaceRecordSet, DnsReplaceRecordSet function [DNS], DnsReplaceRecordSetA, DnsReplaceRecordSetUTF8, DnsReplaceRecordSetW, _dns_dnsreplacerecordset, dns.dnsreplacerecordset, windns/DnsReplaceRecordSet, windns/DnsReplaceRecordSetA, windns/DnsReplaceRecordSetUTF8, windns/DnsReplaceRecordSetW
-ms.topic: function
 f1_keywords:
 - windns/DnsReplaceRecordSet
 dev_langs:

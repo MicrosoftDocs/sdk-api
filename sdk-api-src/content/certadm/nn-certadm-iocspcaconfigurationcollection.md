@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 4e232c34-b5ab-4269-903b-189aac5a8ddc
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfigurationCollection, IOCSPCAConfigurationCollection interface [Security], IOCSPCAConfigurationCollection interface [Security],described, certadm/IOCSPCAConfigurationCollection, security.iocspcaconfigurationcollection
-ms.topic: interface
 f1_keywords:
 - certadm/IOCSPCAConfigurationCollection
 dev_langs:

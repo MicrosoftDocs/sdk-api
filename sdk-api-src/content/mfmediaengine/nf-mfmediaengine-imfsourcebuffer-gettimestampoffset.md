@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: bb8a237b-2602-40ad-921e-3b76fbac3ea8
 ms.date: 12/05/2018
 ms.keywords: GetTimeStampOffset, GetTimeStampOffset method [Media Foundation], GetTimeStampOffset method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetTimeStampOffset method, IMFSourceBuffer.GetTimeStampOffset, IMFSourceBuffer::GetTimeStampOffset, mf.imfsourcebuffer_gettimestampoffset, mfmediaengine/IMFSourceBuffer::GetTimeStampOffset
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFSourceBuffer.GetTimeStampOffset
 dev_langs:

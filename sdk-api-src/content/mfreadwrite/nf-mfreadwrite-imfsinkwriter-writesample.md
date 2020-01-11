@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 1c65a5d0-cc1b-456e-9d88-a24da57ee30a
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriter interface [Media Foundation],WriteSample method, IMFSinkWriter.WriteSample, IMFSinkWriter::WriteSample, WriteSample, WriteSample method [Media Foundation], WriteSample method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_writesample, mfreadwrite/IMFSinkWriter::WriteSample
-ms.topic: method
 f1_keywords:
 - mfreadwrite/IMFSinkWriter.WriteSample
 dev_langs:

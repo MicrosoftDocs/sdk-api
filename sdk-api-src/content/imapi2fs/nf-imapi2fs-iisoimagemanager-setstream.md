@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 3ee540aa-8ccc-40cb-afc8-b1790cabee6e
 ms.date: 12/05/2018
 ms.keywords: IIsoImageManager interface [IMAPI],SetStream method, IIsoImageManager.SetStream, IIsoImageManager::SetStream, SetStream, SetStream method [IMAPI], SetStream method [IMAPI],IIsoImageManager interface, imapi.iisoimagemanager_setstream, imapi2fs/IIsoImageManager::SetStream
-ms.topic: method
 f1_keywords:
 - imapi2fs/IIsoImageManager.SetStream
 dev_langs:

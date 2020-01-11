@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 5e50396f-2931-403f-946a-dc096cb012cc
 ms.date: 12/05/2018
 ms.keywords: IMultiQI, IMultiQI interface [COM], IMultiQI interface [COM],described, _com_imultiqi, com.imultiqi, objidlbase/IMultiQI
-ms.topic: interface
 f1_keywords:
 - objidl/IMultiQI
 dev_langs:

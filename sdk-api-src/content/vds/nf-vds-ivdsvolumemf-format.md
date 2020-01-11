@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 8203ac16-99af-4962-bafc-12c0d238d062
 ms.date: 12/05/2018
 ms.keywords: Format, Format method [VDS], Format method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],Format method, IVdsVolumeMF.Format, IVdsVolumeMF::Format, base.ivdsvolumemf_format, vds/IVdsVolumeMF::Format
-ms.topic: method
 f1_keywords:
 - vds/IVdsVolumeMF.Format
 dev_langs:

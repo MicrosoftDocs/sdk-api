@@ -7,7 +7,6 @@ tech.root: locationapi
 ms.assetid: 408062c8-2fea-4734-a243-e4ed21b7b3c3
 ms.date: 12/05/2018
 ms.keywords: IDefaultLocation, IDefaultLocation interface [WinLocation], IDefaultLocation interface [WinLocation],described, locationapi/IDefaultLocation, winlocation.idefaultlocation
-ms.topic: interface
 f1_keywords:
 - locationapi/IDefaultLocation
 dev_langs:

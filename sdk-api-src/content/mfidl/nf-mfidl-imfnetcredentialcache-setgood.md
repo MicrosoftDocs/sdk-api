@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e2e9d87a-6238-49a0-9a19-fe213749d627
 ms.date: 12/05/2018
 ms.keywords: IMFNetCredentialCache interface [Media Foundation],SetGood method, IMFNetCredentialCache.SetGood, IMFNetCredentialCache::SetGood, SetGood, SetGood method [Media Foundation], SetGood method [Media Foundation],IMFNetCredentialCache interface, e2e9d87a-6238-49a0-9a19-fe213749d627, mf.imfnetcredentialcache_setgood, mfidl/IMFNetCredentialCache::SetGood
-ms.topic: method
 f1_keywords:
 - mfidl/IMFNetCredentialCache.SetGood
 dev_langs:

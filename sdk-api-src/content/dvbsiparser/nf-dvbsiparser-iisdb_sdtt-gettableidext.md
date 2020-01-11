@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2b77ce3b-c706-4820-88dc-08b37978664b
 ms.date: 12/05/2018
 ms.keywords: GetTableIdExt, GetTableIdExt method [Microsoft TV Technologies], GetTableIdExt method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetTableIdExt method, IISDB_SDTT.GetTableIdExt, IISDB_SDTT::GetTableIdExt, dvbsiparser/IISDB_SDTT::GetTableIdExt, mstv.iisdb_sdtt_gettableidext
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IISDB_SDTT.GetTableIdExt
 dev_langs:

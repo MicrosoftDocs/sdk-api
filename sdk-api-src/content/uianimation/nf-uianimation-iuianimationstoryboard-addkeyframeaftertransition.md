@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 055206d8-ea9e-4013-89ee-2929bfeb2731
 ms.date: 12/05/2018
 ms.keywords: AddKeyframeAfterTransition, AddKeyframeAfterTransition method [Windows Animation], AddKeyframeAfterTransition method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],AddKeyframeAfterTransition method, IUIAnimationStoryboard.AddKeyframeAfterTransition, IUIAnimationStoryboard::AddKeyframeAfterTransition, uianimation.iuianimationstoryboard_addkeyframeaftertransition, uianimation/IUIAnimationStoryboard::AddKeyframeAfterTransition
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationStoryboard.AddKeyframeAfterTransition
 dev_langs:

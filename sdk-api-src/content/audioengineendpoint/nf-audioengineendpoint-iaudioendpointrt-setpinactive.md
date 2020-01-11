@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 6c445b06-d576-4474-be8f-b984c43d3765
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointRT interface [Remote Desktop Services],SetPinActive method, IAudioEndpointRT.SetPinActive, IAudioEndpointRT::SetPinActive, SetPinActive, SetPinActive method [Remote Desktop Services], SetPinActive method [Remote Desktop Services],IAudioEndpointRT interface, audioengineendpoint/IAudioEndpointRT::SetPinActive, termserv.iaudioendpointrt_setpinactive
-ms.topic: method
 f1_keywords:
 - audioengineendpoint/IAudioEndpointRT.SetPinActive
 dev_langs:

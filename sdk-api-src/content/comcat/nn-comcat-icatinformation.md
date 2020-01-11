@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 1fd68126-b512-4131-8e93-cea7c1c3e9c0
 ms.date: 12/05/2018
 ms.keywords: ICatInformation, ICatInformation interface [COM], ICatInformation interface [COM],described, _com_icatinformation, com.icatinformation, comcat/ICatInformation
-ms.topic: interface
 f1_keywords:
 - comcat/ICatInformation
 dev_langs:

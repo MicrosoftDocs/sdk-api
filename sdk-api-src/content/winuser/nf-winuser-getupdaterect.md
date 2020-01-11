@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: e54483a1-8738-4b22-a24e-c0b31f6ca9d6
 ms.date: 12/05/2018
 ms.keywords: GetUpdateRect, GetUpdateRect function [Windows GDI], _win32_GetUpdateRect, gdi.getupdaterect, winuser/GetUpdateRect
-ms.topic: function
 f1_keywords:
 - winuser/GetUpdateRect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: 56bd143b-b3eb-4273-854b-4d6876ad5e4d
 ms.date: 12/05/2018
 ms.keywords: IProviderQueryConstraintCollection interface,Reset method, IProviderQueryConstraintCollection.Reset, IProviderQueryConstraintCollection::Reset, Reset, Reset method, Reset method,IProviderQueryConstraintCollection interface, functiondiscoveryprovider/IProviderQueryConstraintCollection::Reset, ncd.iproviderqueryconstraintcollection_reset
-ms.topic: method
 f1_keywords:
 - functiondiscoveryprovider/IProviderQueryConstraintCollection.Reset
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 6b3f4dd9-500b-420e-804a-401a9e188be8
 ms.date: 12/05/2018
 ms.keywords: CreateProcessAsUser, CreateProcessAsUser function, CreateProcessAsUserA, CreateProcessAsUserW, _win32_createprocessasuser, base.createprocessasuser, processthreadsapi/CreateProcessAsUser, processthreadsapi/CreateProcessAsUserA, processthreadsapi/CreateProcessAsUserW
-ms.topic: function
 f1_keywords:
 - processthreadsapi/CreateProcessAsUser
 dev_langs:

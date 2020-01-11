@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 82e0aa15-b67c-4c0a-bafb-f1dc5f822aec
 ms.date: 12/05/2018
 ms.keywords: PSGetItemPropertyHandlerWithCreateObject, PSGetItemPropertyHandlerWithCreateObject function [Windows Properties], _shell_PSGetItemPropertyHandlerWithCreateObject, properties.PSGetItemPropertyHandlerWithCreateObject, propsys/PSGetItemPropertyHandlerWithCreateObject, shell.PSGetItemPropertyHandlerWithCreateObject
-ms.topic: function
 f1_keywords:
 - propsys/PSGetItemPropertyHandlerWithCreateObject
 dev_langs:

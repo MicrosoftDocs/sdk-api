@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 792ec16f-d6b0-4afd-a832-29fe12b25058
 ms.date: 12/05/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapCompact, HeapCompact function, _win32_heapcompact, base.heapcompact, heapapi/HeapCompact, winbase/HeapCompact
-ms.topic: function
 f1_keywords:
 - heapapi/HeapCompact
 dev_langs:

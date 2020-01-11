@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: d1d96045-a19b-46b0-8b71-5d0bea6889c3
 ms.date: 12/05/2018
 ms.keywords: GetSurfaceFromDC, GetSurfaceFromDC method [DirectDraw], GetSurfaceFromDC method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetSurfaceFromDC method, IDirectDraw7.GetSurfaceFromDC, IDirectDraw7::GetSurfaceFromDC, ddraw/IDirectDraw7::GetSurfaceFromDC, directdraw.idirectdraw7_getsurfacefromdc
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDraw7.GetSurfaceFromDC
 dev_langs:

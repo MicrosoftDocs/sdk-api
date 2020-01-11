@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: db19fc38-7111-42f2-83a9-a08473a4d49b
 ms.date: 12/05/2018
 ms.keywords: AddPage, AddPage method [MMC], AddPage method [MMC],IPropertySheetCallback interface, IPropertySheetCallback interface [MMC],AddPage method, IPropertySheetCallback.AddPage, IPropertySheetCallback::AddPage, _slate_ipropertysheetcallback_addpage, mmc.ipropertysheetcallback_addpage, mmc/IPropertySheetCallback::AddPage
-ms.topic: method
 f1_keywords:
 - mmc/IPropertySheetCallback.AddPage
 dev_langs:

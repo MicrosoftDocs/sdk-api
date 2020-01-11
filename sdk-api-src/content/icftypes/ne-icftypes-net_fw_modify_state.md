@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: c9bfe7e8-2668-499f-9b75-3457235655b8
 ms.date: 12/05/2018
 ms.keywords: NET_FW_MODIFY_STATE, NET_FW_MODIFY_STATE enumeration [ICS/ICF], NET_FW_MODIFY_STATE_GP_OVERRIDE, NET_FW_MODIFY_STATE_INBOUND_BLOCKED, NET_FW_MODIFY_STATE_OK, icftypes/NET_FW_MODIFY_STATE, icftypes/NET_FW_MODIFY_STATE_GP_OVERRIDE, icftypes/NET_FW_MODIFY_STATE_INBOUND_BLOCKED, icftypes/NET_FW_MODIFY_STATE_OK, ics.net_fw_modify_state
-ms.topic: enum
 f1_keywords:
 - icftypes/NET_FW_MODIFY_STATE
 dev_langs:

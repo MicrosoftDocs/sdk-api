@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: 0FEEF910-3545-4D94-BFF9-88AEE084F454
 ms.date: 12/05/2018
 ms.keywords: CfGetSyncRootInfoByPath, CfGetSyncRootInfoByPath function, cfapi/CfGetSyncRootInfoByPath, cloudApi.cfgetsyncrootinfobypath
-ms.topic: function
 f1_keywords:
 - cfapi/CfGetSyncRootInfoByPath
 dev_langs:

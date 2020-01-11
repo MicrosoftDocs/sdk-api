@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: E2A472A0-F9CE-4778-96DD-60B00D53EEA6
 ms.date: 12/05/2018
 ms.keywords: IDragProvider interface [Windows Accessibility],IsGrabbed property, IDragProvider.IsGrabbed, IDragProvider.get_IsGrabbed, IDragProvider::IsGrabbed, IDragProvider::get_IsGrabbed, IsGrabbed property [Windows Accessibility], IsGrabbed property [Windows Accessibility],IDragProvider interface, get_IsGrabbed, uiautomationcore/IDragProvider::IsGrabbed, uiautomationcore/IDragProvider::get_IsGrabbed, winauto.uiauto_idragprovider_isgrabbed
-ms.topic: method
 f1_keywords:
 - uiautomationcore/IDragProvider.IsGrabbed
 dev_langs:

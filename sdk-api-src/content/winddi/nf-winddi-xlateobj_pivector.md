@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 7dcfd280-26af-47ff-a5a6-50325e6471bc
 ms.date: 12/05/2018
 ms.keywords: XLATEOBJ_piVector, XLATEOBJ_piVector function [Display Devices], display.xlateobj_pivector, gdifncs_875168b9-8752-46cb-9198-53af5769db5b.xml, winddi/XLATEOBJ_piVector
-ms.topic: function
 f1_keywords:
 - winddi/XLATEOBJ_piVector
 dev_langs:

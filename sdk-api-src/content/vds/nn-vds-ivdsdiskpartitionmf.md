@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 84d0918d-479f-4026-b120-11cc21a43233
 ms.date: 12/05/2018
 ms.keywords: IVdsDiskPartitionMF, IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,described, base.ivdsdiskpartitionmf, vds/IVdsDiskPartitionMF
-ms.topic: interface
 f1_keywords:
 - vds/IVdsDiskPartitionMF
 dev_langs:

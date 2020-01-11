@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 70c90851-b6a4-41ce-a048-c828adcd4ed8
 ms.date: 12/05/2018
 ms.keywords: ImmRequestMessage, ImmRequestMessage function [Internationalization for Windows Applications], ImmRequestMessageA, ImmRequestMessageW, immdev/ImmRequestMessage, immdev/ImmRequestMessageA, immdev/ImmRequestMessageW, intl.immrequestmessage
-ms.topic: function
 f1_keywords:
 - immdev/ImmRequestMessage
 dev_langs:

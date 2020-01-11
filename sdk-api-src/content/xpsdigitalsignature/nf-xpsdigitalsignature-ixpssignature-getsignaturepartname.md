@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: ed0c29e2-225b-4478-a8d7-d9ec28f8b1f4
 ms.date: 12/05/2018
 ms.keywords: GetSignaturePartName, GetSignaturePartName method [XPS Documents and Packaging], GetSignaturePartName method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSignaturePartName method, IXpsSignature.GetSignaturePartName, IXpsSignature::GetSignaturePartName, xps.ixpssignature_getsignaturepartname, xpsdigitalsignature/IXpsSignature::GetSignaturePartName
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignature.GetSignaturePartName
 dev_langs:

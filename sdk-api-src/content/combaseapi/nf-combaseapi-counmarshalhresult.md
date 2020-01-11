@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: a45ef72c-d385-4012-9683-7d2cc6d68b6d
 ms.date: 12/05/2018
 ms.keywords: CoUnmarshalHresult, CoUnmarshalHresult function [COM], _com_CoUnmarshalHresult, com.counmarshalhresult, combaseapi/CoUnmarshalHresult
-ms.topic: function
 f1_keywords:
 - combaseapi/CoUnmarshalHresult
 dev_langs:

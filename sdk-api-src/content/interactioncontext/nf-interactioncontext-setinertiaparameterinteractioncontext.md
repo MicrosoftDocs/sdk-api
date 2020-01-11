@@ -7,7 +7,6 @@ tech.root: Input_IntContext
 ms.assetid: 5b228339-3830-407f-a8ea-55f40156cc32
 ms.date: 12/05/2018
 ms.keywords: SetInertiaParameterInteractionContext, SetInertiaParameterInteractionContext function, input_intcontext.setinertiaparameterinteractioncontext, interactioncontext.setinertiaparameterinteractioncontext, interactioncontext/SetInertiaParameterInteractionContext
-ms.topic: function
 f1_keywords:
 - interactioncontext/SetInertiaParameterInteractionContext
 dev_langs:

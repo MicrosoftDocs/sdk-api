@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 39f85712-1afd-4e34-8e7b-0938a7a48234
 ms.date: 12/05/2018
 ms.keywords: '*LPUSER_MODALS_INFO_3, *PUSER_MODALS_INFO_3, LPUSER_MODALS_INFO_3, LPUSER_MODALS_INFO_3 structure pointer [Network Management], PUSER_MODALS_INFO_3, PUSER_MODALS_INFO_3 structure pointer [Network Management], USER_MODALS_INFO_3, USER_MODALS_INFO_3 structure [Network Management], _win32_user_modals_info_3_str, lmaccess/LPUSER_MODALS_INFO_3, lmaccess/PUSER_MODALS_INFO_3, lmaccess/USER_MODALS_INFO_3, netmgmt.user_modals_info_3_str'
-ms.topic: struct
 f1_keywords:
 - lmaccess/USER_MODALS_INFO_3
 dev_langs:

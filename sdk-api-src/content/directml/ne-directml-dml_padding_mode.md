@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 634BED62-0566-44ED-A908-4839B61401F1
 ms.date: 12/5/2018
 ms.keywords: DML_PADDING_MODE, DML_PADDING_MODE enumeration, DML_PADDING_MODE_CONSTANT, DML_PADDING_MODE_EDGE, DML_PADDING_MODE_REFLECTION, direct3d12.dml_padding_mode, directml/DML_PADDING_MODE, directml/DML_PADDING_MODE_CONSTANT, directml/DML_PADDING_MODE_EDGE, directml/DML_PADDING_MODE_REFLECTION
-ms.topic: enum
 f1_keywords:
 - directml/DML_PADDING_MODE
 dev_langs:

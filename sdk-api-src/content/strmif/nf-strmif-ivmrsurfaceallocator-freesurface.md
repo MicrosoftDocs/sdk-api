@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7b00d32c-832f-439f-8da5-7e77f90e1510
 ms.date: 12/05/2018
 ms.keywords: FreeSurface, FreeSurface method [DirectShow], FreeSurface method [DirectShow],IVMRSurfaceAllocator interface, IVMRSurfaceAllocator interface [DirectShow],FreeSurface method, IVMRSurfaceAllocator.FreeSurface, IVMRSurfaceAllocator::FreeSurface, IVMRSurfaceAllocatorFreeSurface, dshow.ivmrsurfaceallocator_freesurface, strmif/IVMRSurfaceAllocator::FreeSurface
-ms.topic: method
 f1_keywords:
 - strmif/IVMRSurfaceAllocator.FreeSurface
 dev_langs:

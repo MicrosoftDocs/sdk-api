@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 20b342e6-cac4-4bc5-820b-e397e0ce4648
 ms.date: 12/05/2018
 ms.keywords: IEnumTfContexts, IEnumTfContexts interface [Text Services Framework], IEnumTfContexts interface [Text Services Framework],described, _tsf_ienumtfcontexts_ref, msctf/IEnumTfContexts, tsf.ienumtfcontexts
-ms.topic: interface
 f1_keywords:
 - msctf/IEnumTfContexts
 dev_langs:

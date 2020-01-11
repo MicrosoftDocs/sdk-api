@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verinstallfile.htm
 ms.date: 12/05/2018
 ms.keywords: VIFF_DONTDELETEOLD, VIFF_FORCEINSTALL, VerInstallFile, VerInstallFile function [Menus and Other Resources], VerInstallFileA, VerInstallFileW, _win32_VerInstallFile, _win32_verinstallfile_cpp, menurc.verinstallfile, winui._win32_verinstallfile, winver/VerInstallFile, winver/VerInstallFileA, winver/VerInstallFileW
-ms.topic: function
 f1_keywords:
 - winver/VerInstallFile
 dev_langs:

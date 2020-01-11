@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: dfe404d3-66ea-407b-a2e0-caa065f41afe
 ms.date: 12/05/2018
 ms.keywords: IMFASFProfile interface [Media Foundation],RemoveStream method, IMFASFProfile.RemoveStream, IMFASFProfile::RemoveStream, RemoveStream, RemoveStream method [Media Foundation], RemoveStream method [Media Foundation],IMFASFProfile interface, dfe404d3-66ea-407b-a2e0-caa065f41afe, mf.imfasfprofile_removestream, wmcontainer/IMFASFProfile::RemoveStream
-ms.topic: method
 f1_keywords:
 - wmcontainer/IMFASFProfile.RemoveStream
 dev_langs:

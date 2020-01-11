@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e5898fc8-72e9-45cc-8e85-4410ed7cc512
 ms.date: 12/05/2018
 ms.keywords: MFAddPeriodicCallback, MFAddPeriodicCallback function [Media Foundation], e5898fc8-72e9-45cc-8e85-4410ed7cc512, mf.mfaddperiodiccallback, mfapi/MFAddPeriodicCallback
-ms.topic: function
 f1_keywords:
 - mfapi/MFAddPeriodicCallback
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3288e0c6-e345-4c4d-a7bf-0c5f45c19732
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [COM], Add method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],Add method, IOleUndoManager.Add, IOleUndoManager::Add, _ole_ioleundomanager_add, com.ioleundomanager_add, ocidl/IOleUndoManager::Add
-ms.topic: method
 f1_keywords:
 - ocidl/IOleUndoManager.Add
 dev_langs:

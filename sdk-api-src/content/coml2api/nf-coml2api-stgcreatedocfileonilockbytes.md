@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 8af5098d-db04-4273-8f5f-6d1a1d9541de
 ms.date: 12/05/2018
 ms.keywords: StgCreateDocfileOnILockBytes, StgCreateDocfileOnILockBytes function [Structured Storage], _stg_stgcreatedocfileonilockbytes, coml2api/StgCreateDocfileOnILockBytes, stg.stgcreatedocfileonilockbytes
-ms.topic: function
 f1_keywords:
 - coml2api/StgCreateDocfileOnILockBytes
 dev_langs:

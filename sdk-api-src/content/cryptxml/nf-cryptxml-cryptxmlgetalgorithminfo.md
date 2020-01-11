@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 6def15be-d88f-4e2b-b579-eea7742d77b0
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CryptXmlGetAlgorithmInfo, CryptXmlGetAlgorithmInfo function [Security], cryptxml/CryptXmlGetAlgorithmInfo, security.cryptxmlgetalgorithminfo
-ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlGetAlgorithmInfo
 dev_langs:

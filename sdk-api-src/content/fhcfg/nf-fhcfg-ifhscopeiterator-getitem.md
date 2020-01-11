@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: EB732725-497C-4D58-A05C-373732054BE5
 ms.date: 12/05/2018
 ms.keywords: GetItem, GetItem method [Windows API], GetItem method [Windows API],IFhScopeIterator interface, IFhScopeIterator interface [Windows API],GetItem method, IFhScopeIterator.GetItem, IFhScopeIterator::GetItem, fhcfg/IFhScopeIterator::GetItem, winprog.ifhscopeiterator_getitem
-ms.topic: method
 f1_keywords:
 - fhcfg/IFhScopeIterator.GetItem
 dev_langs:

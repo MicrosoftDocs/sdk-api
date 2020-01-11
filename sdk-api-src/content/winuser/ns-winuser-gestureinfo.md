@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: f5b8b530-ff1e-4d78-a12f-86990fe9ac88
 ms.date: 12/05/2018
 ms.keywords: '*PGESTUREINFO, GESTUREINFO, GESTUREINFO structure [Windows Touch], PGESTUREINFO, PGESTUREINFO structure pointer [Windows Touch], tagGESTUREINFO, wintouch.gestureinfo, winuser/GESTUREINFO, winuser/PGESTUREINFO'
-ms.topic: struct
 f1_keywords:
 - winuser/GESTUREINFO
 dev_langs:

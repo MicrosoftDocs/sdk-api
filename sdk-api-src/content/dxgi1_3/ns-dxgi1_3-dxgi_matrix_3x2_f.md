@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 5EA0FAD4-5F19-4E5A-97D4-11AE750E8560
 ms.date: 12/05/2018
 ms.keywords: DXGI_MATRIX_3X2_F, DXGI_MATRIX_3X2_F structure [DXGI], direct3ddxgi.dxgi_matrix_3x2_f, dxgi1_3/DXGI_MATRIX_3X2_F
-ms.topic: struct
 f1_keywords:
 - dxgi1_3/DXGI_MATRIX_3X2_F
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: c334d780-784b-4fa3-bf4f-ea5d65459baf
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],VolumeStepDown method, IAudioEndpointVolume.VolumeStepDown, IAudioEndpointVolume::VolumeStepDown, IAudioEndpointVolumeVolumeStepDown, VolumeStepDown, VolumeStepDown method [Core Audio], VolumeStepDown method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_volumestepdown, endpointvolume/IAudioEndpointVolume::VolumeStepDown
-ms.topic: method
 f1_keywords:
 - endpointvolume/IAudioEndpointVolume.VolumeStepDown
 dev_langs:

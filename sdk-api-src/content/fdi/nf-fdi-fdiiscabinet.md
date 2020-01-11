@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 01d223ca-56c6-49fa-b9e6-e5eeda88936a
 ms.date: 12/05/2018
 ms.keywords: FDIIsCabinet, FDIIsCabinet function [Windows API], fdi/FDIIsCabinet, winprog.fdiiscabinet
-ms.topic: function
 f1_keywords:
 - fdi/FDIIsCabinet
 dev_langs:

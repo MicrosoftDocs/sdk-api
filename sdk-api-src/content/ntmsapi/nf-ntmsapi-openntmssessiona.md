@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: 5a323911-e99c-4f81-9580-0feac2f0a54e
 ms.date: 12/05/2018
 ms.keywords: OpenNtmsSession, OpenNtmsSession function [Files], OpenNtmsSessionA, OpenNtmsSessionW, _zaw_openntmssession, base.openntmssession, fs.openntmssession, ntmsapi/OpenNtmsSession, ntmsapi/OpenNtmsSessionA, ntmsapi/OpenNtmsSessionW
-ms.topic: function
 f1_keywords:
 - ntmsapi/OpenNtmsSession
 dev_langs:

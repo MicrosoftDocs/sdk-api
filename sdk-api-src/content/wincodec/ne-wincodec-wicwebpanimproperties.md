@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: BECCBE42-5546-4243-A0B4-1240992D42DC
 ms.date: 12/05/2018
 ms.keywords: WICWebpAnimLoopCount, WICWebpAnimProperties, WICWebpAnimProperties enumeration [Windows Imaging Component], wic.wicwebpanimproperties, wincodec/WICWebpAnimLoopCount, wincodec/WICWebpAnimProperties
-ms.topic: enum
 f1_keywords:
 - wincodec/WICWebpAnimProperties
 dev_langs:

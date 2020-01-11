@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 7ef29e40-4b42-4794-83b6-44581c0d529f
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIEWPORT, D3D11_VIEWPORT structure [Direct3D 11], d3d11/D3D11_VIEWPORT, direct3d11.d3d11_viewport, e40eb7eb-7ea6-54bc-b846-b83c9856e3fe
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_VIEWPORT
 dev_langs:

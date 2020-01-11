@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: e20ad938-cab4-4017-95bf-8d6843f048eb
 ms.date: 12/05/2018
 ms.keywords: BluetoothIsConnectable, BluetoothIsConnectable function [Bluetooth], bluetooth.bluetoothisconnectable, bluetoothapis/BluetoothIsConnectable
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothIsConnectable
 dev_langs:

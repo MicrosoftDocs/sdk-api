@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 1be34eb4-a226-4f07-b763-173a4f8a0671
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_OPTION, DHCP_OPTION, DHCP_OPTION structure [DHCP], LPDHCP_OPTION, LPDHCP_OPTION structure pointer [DHCP], dhcp.dhcp_option, dhcpsapi/DHCP_OPTION, dhcpsapi/LPDHCP_OPTION'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_OPTION
 dev_langs:

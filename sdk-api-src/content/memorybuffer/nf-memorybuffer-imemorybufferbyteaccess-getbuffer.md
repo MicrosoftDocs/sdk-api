@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: E9C2AF2D-ADBE-4D76-A549-2DBCB9818B09
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method [Windows Runtime], GetBuffer method [Windows Runtime],IMemoryBufferByteAccess interface, IMemoryBufferByteAccess interface [Windows Runtime],GetBuffer method, IMemoryBufferByteAccess.GetBuffer, IMemoryBufferByteAccess::GetBuffer, memorybuffer/IMemoryBufferByteAccess::GetBuffer, winrt.imemorybufferbyteaccess_getbuffer
-ms.topic: method
 f1_keywords:
 - memorybuffer/IMemoryBufferByteAccess.GetBuffer
 dev_langs:

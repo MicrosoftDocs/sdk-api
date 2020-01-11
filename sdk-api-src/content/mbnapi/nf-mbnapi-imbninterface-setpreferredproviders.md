@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 2ea95b4a-07d9-40d6-bb82-091b49c965c4
 ms.date: 12/05/2018
 ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],SetPreferredProviders method, IMbnInterface.SetPreferredProviders, IMbnInterface::SetPreferredProviders, SetPreferredProviders, SetPreferredProviders method [Microsoft Broadband Networks], SetPreferredProviders method [Microsoft Broadband Networks],IMbnInterface interface, mbn.imbninterface_setpreferredproviders, mbnapi/IMbnInterface::SetPreferredProviders
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnInterface.SetPreferredProviders
 dev_langs:

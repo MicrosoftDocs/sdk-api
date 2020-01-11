@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: e043486d-9a6e-46c0-b258-6f8d463bf6fe
 ms.date: 12/05/2018
 ms.keywords: CertSetStoreProperty, CertSetStoreProperty function [Security], _crypto2_certsetstoreproperty, security.certsetstoreproperty, wincrypt/CertSetStoreProperty
-ms.topic: function
 f1_keywords:
 - wincrypt/CertSetStoreProperty
 dev_langs:

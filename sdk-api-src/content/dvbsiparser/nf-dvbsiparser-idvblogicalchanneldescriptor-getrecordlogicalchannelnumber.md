@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: fa74587a-ba11-449c-ba0d-bea371e7f019
 ms.date: 12/05/2018
 ms.keywords: GetRecordLogicalChannelNumber, GetRecordLogicalChannelNumber method [DirectShow], GetRecordLogicalChannelNumber method [DirectShow],IDvbLogicalChannelDescriptor interface, IDvbLogicalChannelDescriptor interface [DirectShow],GetRecordLogicalChannelNumber method, IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber, IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber, IDvbLogicalChannelDescriptorGetRecordLogicalChannelNumber, dvbsiparser/IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber, mstv.idvblogicalchanneldescriptor_getrecordlogicalchannelnumber
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber
 dev_langs:

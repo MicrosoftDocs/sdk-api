@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: d66d89f1-bb12-4c2e-8c7a-a4eba008955d
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_STATISTICS, PWLAN_STATISTICS, PWLAN_STATISTICS structure pointer [NativeWIFI], WLAN_STATISTICS, WLAN_STATISTICS structure [NativeWIFI], nwifi.wlan_statistics, wlanapi/PWLAN_STATISTICS, wlanapi/WLAN_STATISTICS'
-ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_STATISTICS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 4b60f7cd-0375-4569-abb1-721fd8cdf5a1
 ms.date: 12/05/2018
 ms.keywords: DiShowUpdateDevice, DiShowUpdateDevice function [Device and Driver Installation], devinst.dishowupdatedevice, di-rtns_096f087c-2947-4424-861d-af7287eec8ad.xml, newdev/DiShowUpdateDevice
-ms.topic: function
 f1_keywords:
 - newdev/DiShowUpdateDevice
 dev_langs:

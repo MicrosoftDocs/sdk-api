@@ -3,7 +3,6 @@ UID: NF:wlanapi.WlanDeviceServiceCommand
 title: WlanDeviceServiceCommand
 description: Allows an OEM or IHV component to communicate with a device service on a particular wireless LAN interface.
 ms.date: 01/07/2019
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

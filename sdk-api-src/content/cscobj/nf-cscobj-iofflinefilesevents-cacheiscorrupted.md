@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: d76d9af4-bfc4-4584-b014-31a62a2894cf
 ms.date: 12/05/2018
 ms.keywords: CacheIsCorrupted, CacheIsCorrupted method [Offline Files], CacheIsCorrupted method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],CacheIsCorrupted method, IOfflineFilesEvents.CacheIsCorrupted, IOfflineFilesEvents::CacheIsCorrupted, cscobj/IOfflineFilesEvents::CacheIsCorrupted, of.iofflinefilesevents_cacheiscorrupted
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesEvents.CacheIsCorrupted
 dev_langs:

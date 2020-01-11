@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1ac5072b-d397-4415-b4b9-656fd59a9269
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayChapterInTitle method, IDvdControl2.PlayChapterInTitle, IDvdControl2::PlayChapterInTitle, IDvdControl2PlayChapterInTitle, PlayChapterInTitle, PlayChapterInTitle method [DirectShow], PlayChapterInTitle method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playchapterintitle, strmif/IDvdControl2::PlayChapterInTitle
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.PlayChapterInTitle
 dev_langs:

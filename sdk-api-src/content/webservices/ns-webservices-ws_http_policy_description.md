@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 808d4198-7863-448e-a299-23c6d1f53dc6
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_POLICY_DESCRIPTION, WS_HTTP_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_HTTP_POLICY_DESCRIPTION, wsw.ws_http_policy_description
-ms.topic: struct
 f1_keywords:
 - webservices/WS_HTTP_POLICY_DESCRIPTION
 dev_langs:

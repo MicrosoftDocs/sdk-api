@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 52965079-ECC6-411a-BBB9-4EA2B7C01631
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WritePropertyKey, PSPropertyBag_WritePropertyKey function [Windows Properties], properties.PSPropertyBag_WritePropertyKey, propsys/PSPropertyBag_WritePropertyKey, shell.PSPropertyBag_WritePropertyKey
-ms.topic: function
 f1_keywords:
 - propsys/PSPropertyBag_WritePropertyKey
 dev_langs:

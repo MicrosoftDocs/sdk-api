@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 502738a3-1f4a-460c-bd1c-5f1ea411d899
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetDateTime, MI_SubscriptionDeliveryOptions_GetDateTime function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetDateTime, wmi_v2.mi_subscriptiondeliveryoptions_getdatetime
-ms.topic: function
 f1_keywords:
 - mi/MI_SubscriptionDeliveryOptions_GetDateTime
 dev_langs:

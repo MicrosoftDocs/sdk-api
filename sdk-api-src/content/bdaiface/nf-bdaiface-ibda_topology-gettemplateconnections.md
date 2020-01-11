@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: eeceee7f-8e0f-4852-a69d-eced9772df1a
 ms.date: 12/05/2018
 ms.keywords: GetTemplateConnections, GetTemplateConnections method [Microsoft TV Technologies], GetTemplateConnections method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],GetTemplateConnections method, IBDA_Topology.GetTemplateConnections, IBDA_Topology::GetTemplateConnections, IBDA_TopologyGetTemplateConnections, bdaiface/IBDA_Topology::GetTemplateConnections, mstv.ibda_topology_gettemplateconnections
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_Topology.GetTemplateConnections
 dev_langs:

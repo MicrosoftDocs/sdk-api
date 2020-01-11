@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 653b286b-dc86-4896-8f03-1628b7178680
 ms.date: 12/05/2018
 ms.keywords: HttpQueryServerSessionProperty, HttpQueryServerSessionProperty function [HTTP], HttpServerAuthenticationProperty, HttpServerChannelBindProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, http.httpqueryserversessionproperty, http/HttpQueryServerSessionProperty
-ms.topic: function
 f1_keywords:
 - http/HttpQueryServerSessionProperty
 dev_langs:

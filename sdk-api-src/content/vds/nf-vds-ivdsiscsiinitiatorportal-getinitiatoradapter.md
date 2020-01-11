@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: fcdd2083-36e0-4924-9af0-87a9fe4711e0
 ms.date: 12/05/2018
 ms.keywords: GetInitiatorAdapter, GetInitiatorAdapter method [VDS], GetInitiatorAdapter method [VDS],IVdsIscsiInitiatorPortal interface, IVdsIscsiInitiatorPortal interface [VDS],GetInitiatorAdapter method, IVdsIscsiInitiatorPortal.GetInitiatorAdapter, IVdsIscsiInitiatorPortal::GetInitiatorAdapter, base.ivdsiscsiinitiatorportal_getinitiatoradapter, vds/IVdsIscsiInitiatorPortal::GetInitiatorAdapter
-ms.topic: method
 f1_keywords:
 - vds/IVdsIscsiInitiatorPortal.GetInitiatorAdapter
 dev_langs:

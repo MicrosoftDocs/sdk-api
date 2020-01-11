@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_add.htm
 ms.date: 12/05/2018
 ms.keywords: ImageList_Add, ImageList_Add function [Windows Controls], _win32_ImageList_Add, _win32_ImageList_Add_cpp, commctrl/ImageList_Add, controls.ImageList_Add, controls._win32_ImageList_Add
-ms.topic: function
 f1_keywords:
 - commctrl/ImageList_Add
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 6821b1b0-74b0-4caf-b8e6-a9df4d7693d7
 ms.date: 12/05/2018
 ms.keywords: PTOpenProvider, PTOpenProvider function [Windows GDI], _win32_PTOpenProvider, gdi.ptopenprovider, prntvpt/PTOpenProvider
-ms.topic: function
 f1_keywords:
 - prntvpt/PTOpenProvider
 dev_langs:

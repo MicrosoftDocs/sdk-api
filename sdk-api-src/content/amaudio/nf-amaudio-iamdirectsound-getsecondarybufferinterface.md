@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6296d45c-e582-45d6-9f13-e758691ef5de
 ms.date: 12/05/2018
 ms.keywords: GetSecondaryBufferInterface, GetSecondaryBufferInterface method [DirectShow], GetSecondaryBufferInterface method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetSecondaryBufferInterface method, IAMDirectSound.GetSecondaryBufferInterface, IAMDirectSound::GetSecondaryBufferInterface, IAMDirectSoundGetSecondaryBufferInterface, amaudio/IAMDirectSound::GetSecondaryBufferInterface, dshow.iamdirectsound_getsecondarybufferinterface
-ms.topic: method
 f1_keywords:
 - amaudio/IAMDirectSound.GetSecondaryBufferInterface
 dev_langs:

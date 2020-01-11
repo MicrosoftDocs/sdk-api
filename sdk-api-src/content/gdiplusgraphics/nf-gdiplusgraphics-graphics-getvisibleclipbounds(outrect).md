@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsgetvisibleclipboundsmethods\getvisibleclipbounds.htm
 ms.date: 12/05/2018
 ms.keywords: GetVisibleClipBounds, GetVisibleClipBounds method [GDI+], GetVisibleClipBounds method [GDI+],Graphics class, Graphics class [GDI+],GetVisibleClipBounds method, Graphics.GetVisibleClipBounds, Graphics.GetVisibleClipBounds(OUT Rect), Graphics.GetVisibleClipBounds(Rect*), Graphics::GetVisibleClipBounds, Graphics::GetVisibleClipBounds(OUT Rect), _gdiplus_CLASS_Graphics_GetVisibleClipBounds_Rect_rect_, gdiplus._gdiplus_CLASS_Graphics_GetVisibleClipBounds_Rect_rect_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.GetVisibleClipBounds
 dev_langs:

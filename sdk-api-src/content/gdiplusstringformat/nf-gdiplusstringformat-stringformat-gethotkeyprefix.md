@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\gethotkeyprefix.htm
 ms.date: 12/05/2018
 ms.keywords: GetHotkeyPrefix, GetHotkeyPrefix method [GDI+], GetHotkeyPrefix method [GDI+],StringFormat class, StringFormat class [GDI+],GetHotkeyPrefix method, StringFormat.GetHotkeyPrefix, StringFormat::GetHotkeyPrefix, _gdiplus_CLASS_StringFormat_GetHotkeyPrefix_, gdiplus._gdiplus_CLASS_StringFormat_GetHotkeyPrefix_
-ms.topic: method
 f1_keywords:
 - gdiplusstringformat/StringFormat.GetHotkeyPrefix
 dev_langs:

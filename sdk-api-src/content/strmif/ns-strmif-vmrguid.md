@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e05d986a-c044-47c9-8430-7190ad29c7ec
 ms.date: 12/05/2018
 ms.keywords: VMRGUID, VMRGUID structure [DirectShow], VMRGUIDStructure, dshow.vmrguid, strmif/VMRGUID
-ms.topic: struct
 f1_keywords:
 - strmif/VMRGUID
 dev_langs:

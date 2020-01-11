@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 86645d7c-f683-48e7-8342-3e9d5961913a
 ms.date: 12/05/2018
 ms.keywords: '*LPLINEQUEUELIST, LINEQUEUELIST, LINEQUEUELIST structure [TAPI 2.2], LPLINEQUEUELIST, LPLINEQUEUELIST structure pointer [TAPI 2.2], _tapi2_linequeuelist, tapi/LINEQUEUELIST, tapi/LPLINEQUEUELIST, tapi2.linequeuelist'
-ms.topic: struct
 f1_keywords:
 - tapi/LINEQUEUELIST
 dev_langs:

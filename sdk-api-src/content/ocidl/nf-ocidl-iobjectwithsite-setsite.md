@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 5e95b2a6-85b3-4899-9e23-54ed9e69e821
 ms.date: 12/05/2018
 ms.keywords: IObjectWithSite interface [COM],SetSite method, IObjectWithSite.SetSite, IObjectWithSite::SetSite, SetSite, SetSite method [COM], SetSite method [COM],IObjectWithSite interface, _ole_iobjectwithsite_setsite, com.iobjectwithsite_setsite, ocidl/IObjectWithSite::SetSite
-ms.topic: method
 f1_keywords:
 - ocidl/IObjectWithSite.SetSite
 dev_langs:

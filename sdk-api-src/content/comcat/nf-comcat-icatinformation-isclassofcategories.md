@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 772d4d75-2076-4922-bf47-2e6e41a5687d
 ms.date: 12/05/2018
 ms.keywords: ICatInformation interface [COM],IsClassOfCategories method, ICatInformation.IsClassOfCategories, ICatInformation::IsClassOfCategories, IsClassOfCategories, IsClassOfCategories method [COM], IsClassOfCategories method [COM],ICatInformation interface, _com_icatinformation_isclassofcategories, com.icatinformation_isclassofcategories, comcat/ICatInformation::IsClassOfCategories
-ms.topic: method
 f1_keywords:
 - comcat/ICatInformation.IsClassOfCategories
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 740a6366-6ab1-4a20-82df-1efdd62211eb
 ms.date: 12/05/2018
 ms.keywords: IDataAdviseHolder, IDataAdviseHolder interface [COM], IDataAdviseHolder interface [COM],described, _ole_idataadviseholder, com.idataadviseholder, objidl/IDataAdviseHolder
-ms.topic: interface
 f1_keywords:
 - objidl/IDataAdviseHolder
 dev_langs:

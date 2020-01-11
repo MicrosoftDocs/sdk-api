@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\clusion_reason.htm
 ms.date: 12/05/2018
 ms.keywords: CLUSIONREASON_DEFAULT, CLUSIONREASON_GROUPPOLICY, CLUSIONREASON_UNKNOWNSCOPE, CLUSIONREASON_USER, CLUSION_REASON, CLUSION_REASON enumeration [search], _search_CLUSION_REASON, search._search_CLUSION_REASON, searchapi/CLUSIONREASON_DEFAULT, searchapi/CLUSIONREASON_GROUPPOLICY, searchapi/CLUSIONREASON_UNKNOWNSCOPE, searchapi/CLUSIONREASON_USER, searchapi/CLUSION_REASON
-ms.topic: enum
 f1_keywords:
 - searchapi/CLUSION_REASON
 dev_langs:

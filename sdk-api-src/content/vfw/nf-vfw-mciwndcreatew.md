@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 7a4a22e1-6b04-4d46-8427-738181769f5b
 ms.date: 12/05/2018
 ms.keywords: MCIWndCreate, MCIWndCreate function [Windows Multimedia], MCIWndCreateA, MCIWndCreateW, _win32_MCIWndCreate, multimedia.mciwndcreate, vfw/MCIWndCreate, vfw/MCIWndCreateA, vfw/MCIWndCreateW
-ms.topic: function
 f1_keywords:
 - vfw/MCIWndCreate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 3DA5BD50-54AE-47A5-A99C-9E24CB2FA3D6
 ms.date: 12/05/2018
 ms.keywords: CM_Delete_Device_Interface_Key, CM_Delete_Device_Interface_Key function [Device and Driver Installation], CM_Delete_Device_Interface_KeyW, cfgmgr32/CM_Delete_Device_Interface_Key, cfgmgr32/CM_Delete_Device_Interface_KeyW, devinst.cm_delete_device_interface_key
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Delete_Device_Interface_Key
 dev_langs:

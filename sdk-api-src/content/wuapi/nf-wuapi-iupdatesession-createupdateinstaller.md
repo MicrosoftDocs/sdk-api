@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: e5b5f760-0d25-4506-95d3-63ff4a0b9188
 ms.date: 12/05/2018
 ms.keywords: CreateUpdateInstaller, CreateUpdateInstaller method [Windows Update Agent], CreateUpdateInstaller method [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],CreateUpdateInstaller method, IUpdateSession.CreateUpdateInstaller, IUpdateSession::CreateUpdateInstaller, wua.iupdatesession_createupdateinstaller, wuapi/IUpdateSession::CreateUpdateInstaller
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateSession.CreateUpdateInstaller
 dev_langs:

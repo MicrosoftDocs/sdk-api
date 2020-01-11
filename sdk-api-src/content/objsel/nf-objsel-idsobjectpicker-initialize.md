@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: bcf4d283-6709-4425-a122-8f0808502b58
 ms.date: 12/05/2018
 ms.keywords: IDsObjectPicker interface [Active Directory],Initialize method, IDsObjectPicker.Initialize, IDsObjectPicker::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsObjectPicker interface, _glines_idsobjectpicker_initialize, ad.idsobjectpicker__initialize, ad.idsobjectpicker_initialize, objsel/IDsObjectPicker::Initialize
-ms.topic: method
 f1_keywords:
 - objsel/IDsObjectPicker.Initialize
 dev_langs:

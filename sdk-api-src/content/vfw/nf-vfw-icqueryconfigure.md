@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: a0e65123-5224-43a4-9a1e-28a10ecbed5c
 ms.date: 12/05/2018
 ms.keywords: ICQueryConfigure, ICQueryConfigure macro [Windows Multimedia], _win32_ICQueryConfigure, multimedia.icqueryconfigure, vfw/ICQueryConfigure
-ms.topic: macro
 f1_keywords:
 - vfw/ICQueryConfigure
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 89b2bbe6-51a3-48fc-85c9-13e1b0cfd880
 ms.date: 12/05/2018
 ms.keywords: DrtDeleteDerivedKeySecurityProvider, DrtDeleteDerivedKeySecurityProvider function [Peer Networking], drt/DrtDeleteDerivedKeySecurityProvider, p2p.drtdeletederivedkeysecurityprovider
-ms.topic: function
 f1_keywords:
 - drt/DrtDeleteDerivedKeySecurityProvider
 dev_langs:

@@ -5,7 +5,6 @@ description: Specifies whether a video decode conversion operation is supported.
 tech.root: mf
 ms.assetid: b19f3999-9427-49bd-aa5c-38d7d79fae72
 ms.date: 05/28/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\getrootitem.htm
 ms.date: 12/05/2018
 ms.keywords: GetRootItem, GetRootItem method [WIA], GetRootItem method [WIA],IWiaItem interface, IWiaItem interface [WIA],GetRootItem method, IWiaItem.GetRootItem, IWiaItem::GetRootItem, _wia_IWiaItem_GetRootItem, wia._wia_IWiaItem_GetRootItem, wia_xp/IWiaItem::GetRootItem
-ms.topic: method
 f1_keywords:
 - wia_xp/IWiaItem.GetRootItem
 dev_langs:

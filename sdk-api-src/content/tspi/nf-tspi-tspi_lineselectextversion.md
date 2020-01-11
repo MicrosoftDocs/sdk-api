@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 8c083afc-2e15-4260-ba67-84125c777cbf
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSelectExtVersion, TSPI_lineSelectExtVersion function [TAPI 2.2], _tspi_tspi_lineselectextversion, tspi.tspi_lineselectextversion, tspi/TSPI_lineSelectExtVersion
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineSelectExtVersion
 dev_langs:

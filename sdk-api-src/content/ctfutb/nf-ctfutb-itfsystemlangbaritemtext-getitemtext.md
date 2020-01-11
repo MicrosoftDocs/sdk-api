@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: eec4486e-c4fd-484f-bbd7-9f2ee974459b
 ms.date: 12/05/2018
 ms.keywords: GetItemText, GetItemText method [Text Services Framework], GetItemText method [Text Services Framework],ITfSystemLangBarItemText interface, ITfSystemLangBarItemText interface [Text Services Framework],GetItemText method, ITfSystemLangBarItemText.GetItemText, ITfSystemLangBarItemText::GetItemText, ctfutb/ITfSystemLangBarItemText::GetItemText, tsf.itfsystemlangbaritemtext_getitemtext
-ms.topic: method
 f1_keywords:
 - ctfutb/ITfSystemLangBarItemText.GetItemText
 dev_langs:

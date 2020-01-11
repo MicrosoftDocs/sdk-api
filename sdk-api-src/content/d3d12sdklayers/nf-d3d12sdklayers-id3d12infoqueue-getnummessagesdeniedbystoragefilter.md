@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: A1702C92-516C-4ECF-AD75-3D2CCFE360D2
 ms.date: 12/05/2018
 ms.keywords: GetNumMessagesDeniedByStorageFilter, GetNumMessagesDeniedByStorageFilter method, GetNumMessagesDeniedByStorageFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumMessagesDeniedByStorageFilter method, ID3D12InfoQueue.GetNumMessagesDeniedByStorageFilter, ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter, d3d12sdklayers/ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter, direct3d12.id3d12infoqueue_getnummessagesdeniedbystoragefilter
-ms.topic: method
 f1_keywords:
 - d3d12sdklayers/ID3D12InfoQueue.GetNumMessagesDeniedByStorageFilter
 dev_langs:

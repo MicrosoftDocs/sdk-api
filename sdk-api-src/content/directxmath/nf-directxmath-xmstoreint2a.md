@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreInt2A(VOID@,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMStoreInt2A, XMStoreInt2A, XMStoreInt2A method [DirectX Math Support APIs], dxmath.xmstoreint2a
-ms.topic: function
 f1_keywords:
 - directxmath/XMStoreInt2A
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4b050a69-39df-41f8-8d54-8c576bad3c2d
 ms.date: 12/05/2018
 ms.keywords: GetViewMode, GetViewMode method [Windows Shell], GetViewMode method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetViewMode method, IFolderViewSettings.GetViewMode, IFolderViewSettings::GetViewMode, _shell_IFolderViewSettings_GetViewMode, shell.IFolderViewSettings_GetViewMode, shobjidl_core/IFolderViewSettings::GetViewMode
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFolderViewSettings.GetViewMode
 dev_langs:

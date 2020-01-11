@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 071c4040-cdcf-4a01-918d-397726a235ed
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentStatus interface [Security],Text property, IX509EnrollmentStatus.Text, IX509EnrollmentStatus.put_Text, IX509EnrollmentStatus::Text, IX509EnrollmentStatus::get_Text, IX509EnrollmentStatus::put_Text, Text property [Security], Text property [Security],IX509EnrollmentStatus interface, certenroll/IX509EnrollmentStatus::Text, certenroll/IX509EnrollmentStatus::get_Text, certenroll/IX509EnrollmentStatus::put_Text, put_Text, security.ix509enrollmentstatus_text_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509EnrollmentStatus.Text
 dev_langs:

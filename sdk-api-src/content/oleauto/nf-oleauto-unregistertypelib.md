@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 36c763f0-562c-4fc8-9449-b37e993d5f5c
 ms.date: 12/05/2018
 ms.keywords: UnRegisterTypeLib, UnRegisterTypeLib function [Automation], _oa96_UnRegisterTypeLib, automat.unregistertypelib, oleauto/UnRegisterTypeLib
-ms.topic: function
 f1_keywords:
 - oleauto/UnRegisterTypeLib
 dev_langs:

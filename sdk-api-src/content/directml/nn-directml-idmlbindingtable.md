@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: ED3D6CCD-BBF5-4CA6-BA59-F8B3FEE40DA1
 ms.date: 12/5/2018
 ms.keywords: IDMLBindingTable, IDMLBindingTable interface, IDMLBindingTable interface,described, direct3d12.idmlbindingtable, directml/IDMLBindingTable
-ms.topic: interface
 f1_keywords:
 - directml/IDMLBindingTable
 dev_langs:

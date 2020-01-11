@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: a6780070-d8de-40f9-8163-e5306e2aa1cc
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromBuffer, InitPropVariantFromBuffer function [Windows Properties], properties.InitPropVariantFromBuffer, propvarutil/InitPropVariantFromBuffer, shell.InitPropVariantFromBuffer, shell_InitPropVariantFromBuffer
-ms.topic: function
 f1_keywords:
 - propvarutil/InitPropVariantFromBuffer
 dev_langs:

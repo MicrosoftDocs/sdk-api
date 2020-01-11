@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 90da281d-349a-460a-aa5a-14e3b4ced727
 ms.date: 12/05/2018
 ms.keywords: PathSearchAndQualify, PathSearchAndQualify function [Windows Shell], PathSearchAndQualifyA, PathSearchAndQualifyW, _win32_PathSearchAndQualify, shell.PathSearchAndQualify, shlwapi/PathSearchAndQualify, shlwapi/PathSearchAndQualifyA, shlwapi/PathSearchAndQualifyW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathSearchAndQualify
 dev_langs:

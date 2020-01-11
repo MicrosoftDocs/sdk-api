@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 611b43dc-7f6d-404e-90a4-b109b9475fb6
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], IAMNetShowConfig interface [DirectShow],described, IAMNetShowConfigInterface, dshow.iamnetshowconfig, qnetwork/IAMNetShowConfig
-ms.topic: interface
 f1_keywords:
 - qnetwork/IAMNetShowConfig
 dev_langs:

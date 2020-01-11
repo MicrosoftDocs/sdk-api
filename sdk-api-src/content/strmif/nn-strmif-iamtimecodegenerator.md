@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7fe74fc2-03bd-43dd-917f-ee0149f1e17f
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeGenerator, IAMTimecodeGenerator interface [DirectShow], IAMTimecodeGenerator interface [DirectShow],described, IAMTimecodeGeneratorInterface, dshow.iamtimecodegenerator, strmif/IAMTimecodeGenerator
-ms.topic: interface
 f1_keywords:
 - strmif/IAMTimecodeGenerator
 dev_langs:

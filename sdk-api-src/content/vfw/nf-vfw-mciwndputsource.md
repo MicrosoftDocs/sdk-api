@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: a55e72e3-47af-4846-a20d-5f0176127459
 ms.date: 12/05/2018
 ms.keywords: MCIWndPutSource, MCIWndPutSource macro [Windows Multimedia], _win32_MCIWndPutSource, multimedia.mciwndputsource, vfw/MCIWndPutSource
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndPutSource
 dev_langs:

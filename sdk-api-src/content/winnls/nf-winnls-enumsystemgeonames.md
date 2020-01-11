@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 0CB7AE4E-F48A-49A6-A5E8-F151D38CE11E
 ms.date: 12/05/2018
 ms.keywords: EnumSystemGeoNames, EnumSystemGeoNames function [Internationalization for Windows Applications], intl.enumsystemgeonames, winnls/EnumSystemGeoNames
-ms.topic: function
 f1_keywords:
 - winnls/EnumSystemGeoNames
 dev_langs:

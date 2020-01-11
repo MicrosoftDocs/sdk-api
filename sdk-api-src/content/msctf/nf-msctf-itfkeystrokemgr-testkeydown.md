@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: e1f03aff-ce6e-4bb6-ad08-666e04cf6c13
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],TestKeyDown method, ITfKeystrokeMgr.TestKeyDown, ITfKeystrokeMgr::TestKeyDown, TestKeyDown, TestKeyDown method [Text Services Framework], TestKeyDown method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_testkeydown_ref, msctf/ITfKeystrokeMgr::TestKeyDown, tsf.itfkeystrokemgr_testkeydown
-ms.topic: method
 f1_keywords:
 - msctf/ITfKeystrokeMgr.TestKeyDown
 dev_langs:

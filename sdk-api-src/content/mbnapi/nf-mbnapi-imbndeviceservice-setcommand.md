@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: DA45B319-4E6A-4999-85A7-7F5A4F9BED7B
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],SetCommand method, IMbnDeviceService.SetCommand, IMbnDeviceService::SetCommand, SetCommand, SetCommand method [Microsoft Broadband Networks], SetCommand method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_setcommand, mbnapi/IMbnDeviceService::SetCommand
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnDeviceService.SetCommand
 dev_langs:

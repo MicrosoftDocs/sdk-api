@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3md0_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDocument, IFaxDocument interface [Fax Service], IFaxDocument interface [Fax Service],described, _mfax_faxdocument_cpp, fax._mfax_faxdocument_cpp, faxcomex/IFaxDocument
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxDocument
 dev_langs:

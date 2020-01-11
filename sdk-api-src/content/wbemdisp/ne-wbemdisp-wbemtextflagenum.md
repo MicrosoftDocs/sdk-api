@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 81384e65-5ea0-420a-b92f-e93d5e545252
 ms.date: 12/05/2018
 ms.keywords: WbemTextFlagEnum, WbemTextFlagEnum enumeration [Windows Management Instrumentation], _hmm_wbemtextflagenum, wbemTextFlagNoFlavors, wbemdisp/WbemTextFlagEnum, wbemdisp/wbemTextFlagNoFlavors, wmi.wbemtextflagenum
-ms.topic: enum
 f1_keywords:
 - wbemdisp/WbemTextFlagEnum
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: d31aae7b-df93-419d-9a53-80a601a3c437
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_EJECTION_CONTROL, IOCTL_STORAGE_EJECTION_CONTROL control, IOCTL_STORAGE_EJECTION_CONTROL control code, _win32_ioctl_storage_ejection_control, base.ioctl_storage_ejection_control, winioctl/IOCTL_STORAGE_EJECTION_CONTROL
-ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_STORAGE_EJECTION_CONTROL
 dev_langs:

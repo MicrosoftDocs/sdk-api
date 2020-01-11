@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: ecf36951-cdb5-425d-a9b1-83b7ce8aebc4
 ms.date: 12/05/2018
 ms.keywords: OutOfProcessExceptionEventDebuggerLaunchCallback, OutOfProcessExceptionEventDebuggerLaunchCallback callback function [Windows Error Reporting], PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH, PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH callback, wer.outofprocessexceptioneventdebuggerlaunchcallback, werapi/OutOfProcessExceptionEventDebuggerLaunchCallback
-ms.topic: callback
 f1_keywords:
 - werapi/OutOfProcessExceptionEventDebuggerLaunchCallback
 dev_langs:

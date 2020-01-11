@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: eb131a33-96c8-40fc-92be-05522676541a
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_OBJECT_ID, FSCTL_SET_OBJECT_ID control, FSCTL_SET_OBJECT_ID control code [Files], _win32_fsctl_set_object_id, base.fsctl_set_object_id, fs.fsctl_set_object_id, winioctl/FSCTL_SET_OBJECT_ID
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_SET_OBJECT_ID
 dev_langs:

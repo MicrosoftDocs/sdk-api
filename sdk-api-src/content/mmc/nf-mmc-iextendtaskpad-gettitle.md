@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: d04eb4fe-bcb2-457f-8d22-434352068056
 ms.date: 12/05/2018
 ms.keywords: GetTitle, GetTitle method [MMC], GetTitle method [MMC],IExtendTaskPad interface, IExtendTaskPad interface [MMC],GetTitle method, IExtendTaskPad.GetTitle, IExtendTaskPad::GetTitle, _slate_iextendtaskpad_gettitle, mmc.iextendtaskpad_gettitle, mmc/IExtendTaskPad::GetTitle
-ms.topic: method
 f1_keywords:
 - mmc/IExtendTaskPad.GetTitle
 dev_langs:

@@ -4,7 +4,6 @@ title: D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT
 description: Specifies indices for arrays of per component histogram infromation.
 ms.date: 4/26/2019
 ms.keywords: D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT
-ms.topic: language-reference
 f1_keywords:
 - D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: a3c4b04f-23a5-4499-b76e-50ab4565857d
 ms.date: 12/05/2018
 ms.keywords: ICDecompressSetPalette, ICDecompressSetPalette macro [Windows Multimedia], _win32_ICDecompressSetPalette, multimedia.icdecompresssetpalette, vfw/ICDecompressSetPalette
-ms.topic: macro
 f1_keywords:
 - vfw/ICDecompressSetPalette
 dev_langs:

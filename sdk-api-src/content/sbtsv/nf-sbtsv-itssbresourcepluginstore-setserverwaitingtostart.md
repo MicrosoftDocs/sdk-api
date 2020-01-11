@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: cf677be1-387b-4a63-902b-bacda8729b23
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetServerWaitingToStart method, ITsSbResourcePluginStore.SetServerWaitingToStart, ITsSbResourcePluginStore::SetServerWaitingToStart, SetServerWaitingToStart, SetServerWaitingToStart method [Remote Desktop Services], SetServerWaitingToStart method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::SetServerWaitingToStart, termserv.itssbresourcepluginstore_setserverwaitingtostart
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbResourcePluginStore.SetServerWaitingToStart
 dev_langs:

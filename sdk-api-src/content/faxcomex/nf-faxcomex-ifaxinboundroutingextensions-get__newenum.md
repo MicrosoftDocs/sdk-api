@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9965.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxInboundRoutingExtensions interface [Fax Service],get__NewEnum method, IFaxInboundRoutingExtensions.get__NewEnum, IFaxInboundRoutingExtensions::get__NewEnum, _mfax_ifaxinboundroutingextensions_get__newenum, fax._mfax_ifaxinboundroutingextensions_get__newenum, faxcomex/IFaxInboundRoutingExtensions::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxInboundRoutingExtensions interface
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxInboundRoutingExtensions.get__NewEnum
 dev_langs:

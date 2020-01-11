@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 4ff96d45-e70e-4d80-9bab-dd1d67aee8f3
 ms.date: 12/05/2018
 ms.keywords: '*PPSFEATURE_OUTPUT, PPSFEATURE_OUTPUT, PPSFEATURE_OUTPUT structure pointer [Windows GDI], PSFEATURE_OUTPUT, PSFEATURE_OUTPUT structure [Windows GDI], _win32_PSFEATURE_OUTPUT_str, gdi.psfeature_output, wingdi/PPSFEATURE_OUTPUT, wingdi/PSFEATURE_OUTPUT'
-ms.topic: struct
 f1_keywords:
 - wingdi/PSFEATURE_OUTPUT
 dev_langs:

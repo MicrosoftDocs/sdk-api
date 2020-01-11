@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0166cdc3-de1c-4505-855e-f69144cc71aa
 ms.date: 12/05/2018
 ms.keywords: DisableAudio, DisableAudio method [Microsoft TV Technologies], DisableAudio method [Microsoft TV Technologies],IMSVidCtl interface, IMSVidCtl interface [Microsoft TV Technologies],DisableAudio method, IMSVidCtl.DisableAudio, IMSVidCtl::DisableAudio, IMSVidCtlDisableAudio, mstv.imsvidctl_disableaudio, msvidctl/IMSVidCtl::DisableAudio
-ms.topic: method
 f1_keywords:
 - msvidctl/IMSVidCtl.DisableAudio
 dev_langs:

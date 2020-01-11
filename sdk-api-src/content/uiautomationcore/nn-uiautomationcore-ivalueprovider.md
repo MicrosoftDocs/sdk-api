@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: e6adbc23-dbfe-4dd2-82d9-66ce16de3338
 ms.date: 12/05/2018
 ms.keywords: IValueProvider, IValueProvider interface [Windows Accessibility], IValueProvider interface [Windows Accessibility],described, uiauto.uiauto_IValueProvider, uiauto_IValueProvider, uiautomationcore/IValueProvider, winauto.uiauto_IValueProvider
-ms.topic: interface
 f1_keywords:
 - uiautomationcore/IValueProvider
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 9221e99b-6900-4b5d-923c-352bb27a5f8b
 ms.date: 12/05/2018
 ms.keywords: UnhandledExceptionFilter, UnhandledExceptionFilter function, _win32_unhandledexceptionfilter, base.unhandledexceptionfilter, errhandlingapi/UnhandledExceptionFilter
-ms.topic: function
 f1_keywords:
 - errhandlingapi/UnhandledExceptionFilter
 dev_langs:

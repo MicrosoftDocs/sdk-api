@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 12e31e22-b9ac-454d-a423-b3fee582fcba
 ms.date: 12/05/2018
 ms.keywords: '*PEMRCOLORCORRECTPALETTE, EMRCOLORCORRECTPALETTE, EMRCOLORCORRECTPALETTE structure [Windows GDI], PEMRCOLORCORRECTPALETTE, PEMRCOLORCORRECTPALETTE structure pointer [Windows GDI], _win32_EMRCOLORCORRECTPALETTE_str, gdi.emrcolorcorrectpalette, wingdi/EMRCOLORCORRECTPALETTE, wingdi/PEMRCOLORCORRECTPALETTE'
-ms.topic: struct
 f1_keywords:
 - wingdi/EMRCOLORCORRECTPALETTE
 dev_langs:

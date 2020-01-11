@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: bd9058c0-55b0-4231-a336-7cea4db75c0f
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Text Services Framework], Activate method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],Activate method, ITfThreadMgr.Activate, ITfThreadMgr::Activate, _tsf_itfthreadmgr_activate_ref, msctf/ITfThreadMgr::Activate, tsf.itfthreadmgr_activate
-ms.topic: method
 f1_keywords:
 - msctf/ITfThreadMgr.Activate
 dev_langs:

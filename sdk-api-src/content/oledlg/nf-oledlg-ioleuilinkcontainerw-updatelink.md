@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: fccee32a-3a6f-4ef8-9ca7-c5b664ee03cf
 ms.date: 12/05/2018
 ms.keywords: IOleUILinkContainer interface [COM],UpdateLink method, IOleUILinkContainer::UpdateLink, IOleUILinkContainerA interface [COM],UpdateLink method, IOleUILinkContainerA::UpdateLink, IOleUILinkContainerW interface [COM],UpdateLink method, IOleUILinkContainerW.UpdateLink, IOleUILinkContainerW::UpdateLink, UpdateLink, UpdateLink method [COM], UpdateLink method [COM],IOleUILinkContainer interface, UpdateLink method [COM],IOleUILinkContainerA interface, UpdateLink method [COM],IOleUILinkContainerW interface, _ole_IOleUILinkContainer_UpdateLink, com.ioleuilinkcontainer_updatelink, oledlg/IOleUILinkContainer::UpdateLink, oledlg/IOleUILinkContainerA::UpdateLink, oledlg/IOleUILinkContainerW::UpdateLink
-ms.topic: method
 f1_keywords:
 - oledlg/IOleUILinkContainer.UpdateLink
 dev_langs:

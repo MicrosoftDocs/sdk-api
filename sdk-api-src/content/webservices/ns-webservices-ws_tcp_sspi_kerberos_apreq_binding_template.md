@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 3856d462-baa3-49c7-8f14-f116d16efce0
 ms.date: 12/05/2018
 ms.keywords: WS_TCP_SSPI_KERBEROS_APREQ_BINDING_TEMPLATE, WS_TCP_SSPI_KERBEROS_APREQ_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_TCP_SSPI_KERBEROS_APREQ_BINDING_TEMPLATE, wsw.ws_tcp_sspi_kerberos_apreq_binding_template
-ms.topic: struct
 f1_keywords:
 - webservices/WS_TCP_SSPI_KERBEROS_APREQ_BINDING_TEMPLATE
 dev_langs:

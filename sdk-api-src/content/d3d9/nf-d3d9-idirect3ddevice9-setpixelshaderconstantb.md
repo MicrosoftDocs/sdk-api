@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setpixelshaderconstantb.htm
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetPixelShaderConstantB method, IDirect3DDevice9.SetPixelShaderConstantB, IDirect3DDevice9::SetPixelShaderConstantB, SetPixelShaderConstantB, SetPixelShaderConstantB method [Direct3D 9], SetPixelShaderConstantB method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetPixelShaderConstantB, dcb060c3-b816-f722-dc79-1f7a1f30e4b9, direct3d9.idirect3ddevice9__setpixelshaderconstantb
-ms.topic: method
 f1_keywords:
 - d3d9/IDirect3DDevice9.SetPixelShaderConstantB
 dev_langs:

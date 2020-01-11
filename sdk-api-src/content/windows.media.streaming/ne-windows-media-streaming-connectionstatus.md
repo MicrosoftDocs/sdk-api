@@ -7,7 +7,6 @@ tech.root: mediastreaming
 ms.assetid: e1893a59-ce7d-4e9c-a013-02ac916d4ee8
 ms.date: 12/05/2018
 ms.keywords: ConnectionStatus, ConnectionStatus enumeration [Media Streaming API], Offline, Online, Sleeping, mediastreaming.connectionstatus, windows/ConnectionStatus, windows/Offline, windows/Online, windows/Sleeping
-ms.topic: enum
 f1_keywords:
 - windows.media.streaming/ConnectionStatus
 dev_langs:

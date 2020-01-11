@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: e77b5218-45e4-4fe1-a41f-1d7b5887ba30
 ms.date: 12/05/2018
 ms.keywords: GetWnd, GetWnd method [Text Services Framework], GetWnd method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetWnd method, ITextStoreAnchor.GetWnd, ITextStoreAnchor::GetWnd, textstor/ITextStoreAnchor::GetWnd, tsf.itextstoreanchor_getwnd
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreAnchor.GetWnd
 dev_langs:
