@@ -80,7 +80,7 @@ The magnification filter mode. It can be one of the following values:
 <tr>
 <td>MW_FILTERMODE_INCLUDE</td>
 <td>Magnify the windows.
-<div class="alert"><b>Note</b>  This value is not supported on Windows 7, Windows 8, or Windows 10.</div>
+<div class="alert"><b>Note:</b>  This value is not supported on Windows 7 or newer.</div>
 <div> </div>
 
 
