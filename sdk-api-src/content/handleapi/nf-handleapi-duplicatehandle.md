@@ -289,8 +289,7 @@ If the process that calls
 <tr>
 <td>Timer</td>
 <td>The handle is returned by the 
-[CreateWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)a> or 
-[OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)a> function.</td>
+<a href="https://docs.microsoft.com/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw">CreateWaitableTimerW</a> or <a href="https://docs.microsoft.com/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw">OpenWaitableTimerW</a> function.</td>
 </tr>
 <tr>
 <td>Transaction</td>
