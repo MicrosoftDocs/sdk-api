@@ -45,7 +45,7 @@ ms.custom: 19H1
 
 ## -description
 
-The **LPWSPSocket** function creates a socket. For info about the part played by **LPWSPSocket** in creating a shared socket, see the [Shared Sockets](/windows/win32/winsock/shared-sockets-2) article.
+The **LPWSPSocket** function creates a socket. For info about the part played by **LPWSPSocket** in creating a shared socket, see [Shared sockets](/windows/win32/winsock/shared-sockets-2) and [Shared sockets in the SPI](/windows/win32/winsock/shared-sockets-in-the-spi-2).
 
 ## -parameters
 ### -param af [in]

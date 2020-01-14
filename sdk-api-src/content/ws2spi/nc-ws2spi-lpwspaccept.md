@@ -231,9 +231,19 @@ For sockets that are in the (default) blocking mode, if no pending connections a
 
 The parameter <i>addr</i> is a result parameter that is filled with the address of the connecting entity, as known to the service provider. The exact format of the <i>addr</i> parameter is determined by the address family in which the communication is occurring. The <i>addrlen</i> is a value-result parameter; it will initially contain the amount of space pointed to by <i>addr</i>. On return, it must contain the actual length (in bytes) of the address returned by the service provider. This call is used with connection-oriented socket types such as SOCK_STREAM. If <i>addr</i> and/or <i>addrlen</i> are equal to null, then no information about the remote address of the accepted socket is returned. Otherwise, these two parameters shall be filled in regardless of whether the condition function is specified or what it returns.
 
-The prototype of the condition function is as follows:
+The prototype of the condition function is as follows.
 
-```C++
+```cpp
+int CALLBACK 
+ConditionFunc( 
+  IN     LPWSABUF    lpCallerId, 
+  IN     LPWSABUF    lpCallerData, 
+  IN OUT LPQOS       lpSQOS, 
+  IN OUT LPQOS       lpGQOS,
+  IN     LPWSABUF    lpCalleeId, 
+  IN     LPWSABUF    lpCalleeData, 
+  OUT    GROUP FAR * g, 	
+  IN     DWORD       dwCallbackData
 );
 ```
 
