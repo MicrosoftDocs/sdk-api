@@ -81,6 +81,11 @@ A pointer to the application-defined function of type <b>WAITORTIMERCALLBACK</b>
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms687066(v=vs.85)">WaitOrTimerCallback</a>.
 
 
+### -param Parameter [in, optional]
+
+A single parameter value that will be passed to the callback function.
+
+
 ### -param DueTime [in]
 
 The amount of time in milliseconds relative to the current time that must elapse before the timer is signaled for the first time. 
@@ -196,11 +201,6 @@ Callback functions will use the current access token, whether it is a process or
 </tr>
 </table>
  
-
-
-### -param Parameter [in, optional]
-
-A single parameter value that will be passed to the callback function.
 
 
 ## -returns

@@ -43,54 +43,41 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# LPWSPSOCKET callback function
-
-
 ## -description
 
-The **LPWSPSocket** function creates a socket.
-
+The **LPWSPSocket** function creates a socket. For info about the part played by **LPWSPSocket** in creating a shared socket, see [Shared sockets](/windows/win32/winsock/shared-sockets-2) and [Shared sockets in the SPI](/windows/win32/winsock/shared-sockets-in-the-spi-2).
 
 ## -parameters
 ### -param af [in]
 
 Address family specification.
 
-
 ### -param type [in]
 
 Type specification for the new socket.
 
-
 ### -param protocol [in]
 
 Protocol to be used with the socket that is specific to the indicated address family.
-
 
 ### -param lpProtocolInfo [in]
 
 Pointer to a 
 [WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure that defines the characteristics of the socket to be created.
 
-
 ### -param g [in]
 
 Reserved.
-
 
 ### -param dwFlags
 
 Socket attribute specification.
 
-
 ### -param lpErrno [out]
 
 Pointer to the error code.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 **LPWSPSocket** returns a descriptor referencing the new socket. Otherwise, a value of INVALID_SOCKET is returned, and a specific error code is available in <i>lpErrno</i>.
@@ -200,14 +187,8 @@ Parameter <i>g</i> specified is not valid.
 </td>
 </tr>
 </table>
- 
-
 
 <div> </div>
-
-
-
-
 
 ## -remarks
 
@@ -258,11 +239,8 @@ The <i>dwFlags</i> parameter can be used to specify the attributes of the socket
 [WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure.</td>
 </tr>
 </table>
- 
-
 
 <div> </div>
-
 
 <div class="alert">**Note**  For multipoint sockets, exactly one  WSA_FLAG_MULTIPOINT_C_ROOT or WSA_FLAG_MULTIPOINT_C_LEAF must be specified, and exactly one of WSA_FLAG_MULTIPOINT_D_ROOT or WSA_FLAG_MULTIPOINT_D_LEAF must be specified. Refer to 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/protocol-independent-multicast-and-multipoint-in-the-spi-2">Protocol-Independent Multicast and Multipoint in the SPI</a> for additional information.</div>
@@ -284,8 +262,6 @@ Connectionless, message-oriented sockets allow sending and receiving of datagram
 
 Support for sockets with type **SOCK RAW** is not required but service providers are encouraged to support raw sockets whenever it makes sense to do so.
 
-
-
 A layered service provider supplies an implementation of this function, but it is also a client of this function if and when it calls 
 **LPWSPSocket** of the next layer in the protocol chain. Some special considerations apply to this function's <i>lpProtocolInfo</i> parameter as it is propagated down through the layers of the protocol chain.
 
@@ -304,41 +280,20 @@ This same propagation policy applies when propagating a
 [WSPStartup](nf-ws2spi-wspstartup.md), or 
 [LPWSPStringToAddress](nc-ws2spi-lpwspstringtoaddress.md).
 
-
-
-
 ## -see-also
 
-[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md)
-
-[LPWSPAccept](nc-ws2spi-lpwspaccept.md)
-
-[LPWSPBind](nc-ws2spi-lpwspbind.md)
-
-[LPWSPConnect](nc-ws2spi-lpwspconnect.md)
-
-[LPWSPCloseSocket](nc-ws2spi-lpwspclosesocket.md)
-
-[LPWSPGetSockName](nc-ws2spi-lpwspgetsockname.md)
-
-[LPWSPGetSockOpt](nc-ws2spi-lpwspgetsockopt.md)
-
-[LPWSPIoctl](nc-ws2spi-lpwspioctl.md)
-
-[LPWSPListen](nc-ws2spi-lpwsplisten.md)
-
-[LPWSPRecv](nc-ws2spi-lpwsprecv.md)
-
-[LPWSPRecvFrom](nc-ws2spi-lpwsprecvfrom.md)
-
-[LPWSPSend](nc-ws2spi-lpwspsend.md)
-
-[LPWSPSendTo](nc-ws2spi-lpwspsendto.md)
-
-[LPWSPSetSockOpt](nc-ws2spi-lpwspsetsockopt.md)
-
-[LPWSPShutdown](nc-ws2spi-lpwspshutdown.md)
- 
-
- 
-
+* [WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md)
+* [LPWSPAccept](nc-ws2spi-lpwspaccept.md)
+* [LPWSPBind](nc-ws2spi-lpwspbind.md)
+* [LPWSPConnect](nc-ws2spi-lpwspconnect.md)
+* [LPWSPCloseSocket](nc-ws2spi-lpwspclosesocket.md)
+* [LPWSPGetSockName](nc-ws2spi-lpwspgetsockname.md)
+* [LPWSPGetSockOpt](nc-ws2spi-lpwspgetsockopt.md)
+* [LPWSPIoctl](nc-ws2spi-lpwspioctl.md)
+* [LPWSPListen](nc-ws2spi-lpwsplisten.md)
+* [LPWSPRecv](nc-ws2spi-lpwsprecv.md)
+* [LPWSPRecvFrom](nc-ws2spi-lpwsprecvfrom.md)
+* [LPWSPSend](nc-ws2spi-lpwspsend.md)
+* [LPWSPSendTo](nc-ws2spi-lpwspsendto.md)
+* [LPWSPSetSockOpt](nc-ws2spi-lpwspsetsockopt.md)
+* [LPWSPShutdown](nc-ws2spi-lpwspshutdown.md)

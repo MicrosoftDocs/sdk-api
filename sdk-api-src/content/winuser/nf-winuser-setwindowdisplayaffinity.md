@@ -49,17 +49,11 @@ ms.custom: 19H1
 
 # SetWindowDisplayAffinity function
 
-
 ## -description
-
 
 Stores the display affinity setting in kernel mode on the hWnd associated with the window. 
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
@@ -67,64 +61,33 @@ Type: <b>HWND</b>
 
 A handle to the window. 
 
-
 ### -param dwAffinity [in]
 
 Type: <b>DWORD</b>
 
-The display affinity setting. This setting specifies where the window's 
-				contents are can be displayed. Set this value to WDA_MONITOR to display the window's contents only on a monitor.
- 				
-				
-				Set this value to WDA_NONE to remove the monitor-only affinity.
+The display affinity setting that specifies where the content of the window can be displayed. 
 
+Set this value to WDA_MONITOR to display the content only on a monitor. 
+
+Set this value to WDA_NONE to remove the monitor-only affinity.
 
 ## -returns
-
-
 
 Type: <strong>Type: <b>BOOL</b>
 </strong>
 
 If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b> when, for example,  the function call is made on a non top-level window. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
-
-
-
 ## -remarks
 
+This function and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdisplayaffinity">GetWindowDisplayAffinity</a> are designed to support the window content protection feature that is new to Windows 7. This feature enables applications to protect their own onscreen window content from being captured or copied through a specific set of public operating system features and APIs. However, it works only when the Desktop Window Manager(DWM) is composing the desktop. 		
 
-
-This function and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdisplayaffinity">GetWindowDisplayAffinity</a> are designed to support the window content protection feature that is new to Windows 7. This feature enables applications to protect their
-		own onscreen window content from being captured or copied through a specific set of public operating system features 
-		and APIs. However, it works only when the Desktop Window Manager(DWM) is composing the desktop. 
-		
-
-It is important to note that unlike a security feature or an implementation of Digital Rights Management (DRM), there is no guarantee that 
-		 using <b>SetWindowDisplayAffinity</b> 
-		and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdisplayaffinity">GetWindowDisplayAffinity</a>, and other necessary functions such as <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmiscompositionenabled">DwmIsCompositionEnabled</a>, will strictly protect windowed content, for example where someone takes a photograph of the screen.
-
-
-
+It is important to note that unlike a security feature or an implementation of Digital Rights Management (DRM), there is no guarantee that using <b>SetWindowDisplayAffinity</b> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdisplayaffinity">GetWindowDisplayAffinity</a>, and other necessary functions such as <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmiscompositionenabled">DwmIsCompositionEnabled</a>, will strictly protect windowed content, for example where someone takes a photograph of the screen.
 
 ## -see-also
 
+[SetWindowDisplayAffinity](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowdisplayaffinity), [Windows](https://docs.microsoft.com/windows/desktop/winmsg/windows)
 
-
-
-<b>Conceptual</b>
-
-
-
-<b>Reference</b>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowdisplayaffinity">SetWindowDisplayAffinity</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

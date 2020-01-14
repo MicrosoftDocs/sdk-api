@@ -89,7 +89,8 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_b
 
 
 Use this structure with a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_unordered_access_view_desc">D3D12_UNORDERED_ACCESS_VIEW_DESC</a> structure to view the resource as a buffer.
-      
+
+If <i>StructureByteStride</i> value is not 0, a view of a structured buffer is created and the D3D12_UNORDERED_ACCESS_VIEW_DESC::Format field must be DXGI_FORMAT_UNKNOWN. If <i>StructureByteStride</i> is 0, a typed view of a buffer is created and a format must be supplied. The specified format for the typed view must be supported by the hardware. More information on this topic can be found in the <a href="https://docs.microsoft.com/en-gb/windows/win32/direct3d12/typed-unordered-access-view-loads">Typed unordered access view (UAV) loads</a> page.
 
 
 
@@ -100,6 +101,8 @@ Use this structure with a <a href="https://docs.microsoft.com/windows/desktop/ap
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
+
+<a href="https://docs.microsoft.com/en-gb/windows/win32/direct3d12/typed-unordered-access-view-loads">Typed unordered access view (UAV) loads</a>
  
 
  
