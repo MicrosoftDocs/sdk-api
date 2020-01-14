@@ -230,6 +230,19 @@ The credential dialog box is invoked by the <a href="https://docs.microsoft.com/
 </td>
 </tr>
 <tr>
+<td width="40%"><a id=""></a><a id=""></a><dl>
+<dt><b></b></dt>
+<dt>0x40000</dt>
+</dl>
+</td>
+<td width="60%">
+The credential provider will not pack the AAD authority name. This is only applied to Azure AD joined devices.
+
+<b>Windows 10, version 1607:  </b>This value is supported beginning with Windows 10, version 1607.
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="CREDUIWIN_PACK_32_WOW"></a><a id="creduiwin_pack_32_wow"></a><dl>
 <dt><b>CREDUIWIN_PACK_32_WOW</b></dt>
 <dt>0x10000000</dt>
@@ -240,6 +253,20 @@ The credential provider should align the credential BLOB pointed to by the <i>pp
 
 </td>
 </tr>
+<tr>
+<td width="40%"><a id=""></a><a id=""></a><dl>
+<dt><b></b></dt>
+<dt>0x10000000</dt>
+</dl>
+</td>
+<td width="60%">
+Windows Hello credentials will be packed in a smart card auth buffer. This only applies to the face, fingerprint, and PIN credential providers. 
+
+<b>Windows 10, version 1809:  </b>This value is supported beginning with Windows 10, version 1809.
+
+</td>
+</tr>
+
 </table>
  
 
