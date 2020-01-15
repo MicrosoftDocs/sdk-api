@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 **LPWSPAddressToString** function converts all components of a 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure into a human readableâ€“numeric string representation of the address. This is used mainly for display purposes.
+<a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure into a human readableâ€“numeric string representation of the address. This is used mainly for display purposes.
 
 
 ## -parameters
@@ -62,18 +62,18 @@ The
 ### -param lpsaAddress [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure to translate into a string.
+<a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure to translate into a string.
 
 
 ### -param dwAddressLength [in]
 
-Length of the address of <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>, in bytes.
+Length of the address of <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>, in bytes.
 
 
 ### -param lpProtocolInfo [in]
 
 (required) 
-[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure associated with the provider that will do the translation.
+<a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structure associated with the provider that will do the translation.
 
 
 ### -param lpszAddressString [out]
@@ -84,7 +84,7 @@ Buffer that receives the human readableâ€“address string..
 ### -param lpdwAddressStringLength [in, out]
 
 Length of the <i>AddressString</i> buffer, in bytes. Returns the length of the string actually copied into the buffer. If the supplied buffer is not large enough, the function fails with a specific error of 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a> and this parameter is updated with the required size, in bytes.
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a> and this parameter is updated with the required size, in bytes.
 
 
 ### -param lpErrno [out]
@@ -107,7 +107,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -118,12 +118,12 @@ The specified AddressString buffer is too small. Pass in a larger buffer.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
 The specified address is not a valid socket address, or its address family is not supported by the provider, or the specified <i>lpProtocolInfo</i> did not refer to a 
-[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure supported by the provider.
+<a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structure supported by the provider.
 
 </td>
 </tr>
@@ -146,14 +146,14 @@ A layered service provider supplies an implementation of this function, but it i
 
 If the next layer in the protocol chain is another layer, then, when the next layer's 
 **LPWSPAddressToString** is called, this layer must pass to the next layer a <i>lpProtocolInfo</i> parameter that references the same unmodified 
-[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure with the same unmodified chain information. However, if the next layer is the base protocol (that is, the last element in the chain), this layer performs a substitution when calling the base provider's 
+<a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structure with the same unmodified chain information. However, if the next layer is the base protocol (that is, the last element in the chain), this layer performs a substitution when calling the base provider's 
 **LPWSPAddressToString**. In this case, the base provider's 
 **WSAPROTOCOL_INFO** structure should be referenced by the <i>lpProtocolInfo</i> parameter. One vital benefit of this policy is that base service providers do not have to be aware of protocol chains.
 
 This same propagation policy applies when propagating a 
-[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure through a layered sequence of other functions such as 
+<a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structure through a layered sequence of other functions such as 
 [LPWSPDuplicateSocket](nc-ws2spi-lpwspduplicatesocket.md), 
-[WSPStartup](nf-ws2spi-wspstartup.md), 
+<a href="/windows/win32/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a>, 
 [LPWSPSocket](nc-ws2spi-lpwspsocket.md), or 
 [LPWSPStringToAddress](nc-ws2spi-lpwspstringtoaddress.md).
 
@@ -165,7 +165,7 @@ This same propagation policy applies when propagating a
 
 
 
-[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa)
+<a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a>
 
 
 
@@ -177,11 +177,11 @@ This same propagation policy applies when propagating a
 
 
 
-[WSPStartup](nf-ws2spi-wspstartup.md)
+<a href="/windows/win32/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
+<a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
  
 
  

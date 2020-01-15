@@ -63,7 +63,7 @@ Protocol to be used with the socket that is specific to the indicated address fa
 ### -param lpProtocolInfo [in]
 
 Pointer to a 
-[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure that defines the characteristics of the socket to be created.
+<a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structure that defines the characteristics of the socket to be created.
 
 ### -param g [in]
 
@@ -90,7 +90,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -101,7 +101,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEAFNOSUPPORT</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEAFNOSUPPORT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -112,7 +112,7 @@ The specified address family is not supported.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -123,7 +123,7 @@ Blocking Windows Sockets call is in progress, or the service provider is still p
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEMFILE</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEMFILE</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -134,7 +134,7 @@ No more socket descriptors are available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -145,7 +145,7 @@ No buffer space is available. The socket cannot be created.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEPROTONOSUPPORT</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEPROTONOSUPPORT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -156,7 +156,7 @@ The specified protocol is not supported.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEPROTOTYPE</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEPROTOTYPE</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -167,7 +167,7 @@ The specified protocol is the wrong type for this socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAESOCKTNOSUPPORT</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAESOCKTNOSUPPORT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -178,7 +178,7 @@ The specified socket type is not supported in this address family.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -193,65 +193,35 @@ Parameter <i>g</i> specified is not valid.
 ## -remarks
 
 The **LPWSPSocket** function causes a socket descriptor and any related resources to be allocated. By default, the created socket will not have the overlapped attribute. Windows Sockets providers are encouraged to be realized as Windows installable file systems, and supply system file handles as socket descriptors. These providers must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpumodifyifshandle">WPUModifyIFSHandle</a> prior to returning from this function. For nonfile-system Windows Sockets providers, 
-[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md) must be used to acquire a unique socket descriptor from the Ws2_32.dll prior to returning from this function. See  
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/descriptor-allocation-2">Descriptor Allocation</a> for more information.
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpumodifyifshandle">WPUModifyIFSHandle</a> prior to returning from this function. For nonfile-system Windows Sockets providers, 
+<a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a> must be used to acquire a unique socket descriptor from the Ws2_32.dll prior to returning from this function. See  
+<a href="/windows/desktop/WinSock/descriptor-allocation-2">Descriptor Allocation</a> for more information.
 
 The values for <i>af</i>, <i>type</i>, and <i>protocol</i> are those supplied by the application in the corresponding API functions 
-[socket](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket) or 
-[WSASocket](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa). A service provider is free to ignore or pay attention to any or all of these values as is appropriate for the particular protocol. However, the provider must be willing to accept the value of zero for <i>af</i> and <i>type</i>, since the Ws2_32.dll considers these to be wildcard values. Also the value of manifest constant **FROM_PROTOCOL_INFO** must be accepted for any of <i>af</i>, <i>type</i>, and <i>protocol</i>. This value indicates that the Windows Sockets 2 application needs to use the corresponding values from the 
-[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure (**iAddressFamily**, **iSocketType**, **iProtocol**).
+[socket](/windows/desktop/api/winsock2/nf-winsock2-socket) or 
+[WSASocket](/windows/desktop/api/winsock2/nf-winsock2-wsasocketa). A service provider is free to ignore or pay attention to any or all of these values as is appropriate for the particular protocol. However, the provider must be willing to accept the value of zero for <i>af</i> and <i>type</i>, since the Ws2_32.dll considers these to be wildcard values. Also the value of manifest constant **FROM_PROTOCOL_INFO** must be accepted for any of <i>af</i>, <i>type</i>, and <i>protocol</i>. This value indicates that the Windows Sockets 2 application needs to use the corresponding values from the 
+<a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structure (**iAddressFamily**, **iSocketType**, **iProtocol**).
 
-The <i>dwFlags</i> parameter can be used to specify the attributes of the socket by using the bitwise **OR** operator with any of the following flags.
+The <i>dwFlags</i> parameter can be used to specify the attributes of the socket by using the bitwise OR operator with any of the following flags.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>WSA_FLAG_OVERLAPPED</td>
-<td>This flag causes an overlapped socket to be created. Overlapped sockets can utilize 
-[LPWSPSend](nc-ws2spi-lpwspsend.md), 
-[LPWSPSendTo](nc-ws2spi-lpwspsendto.md), 
-[LPWSPRecv](nc-ws2spi-lpwsprecv.md), 
-[LPWSPRecvFrom](nc-ws2spi-lpwsprecvfrom.md) and 
-[LPWSPIoctl](nc-ws2spi-lpwspioctl.md) for overlapped I/O operations, which allow multiple operations to be initiated and in process simultaneously. All functions that allow overlapped operations also support nonoverlapped usage on an overlapped socket if the values for parameters related to overlapped operation are null.</td>
-</tr>
-<tr>
-<td>WSA_FLAG_MULTIPOINT_C_ROOT</td>
-<td>Indicates that the socket created will be a c_root in a multipoint session. Only allowed if a rooted control plane is indicated in the protocol's 
-[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure.</td>
-</tr>
-<tr>
-<td>WSA_FLAG_MULTIPOINT_C_LEAF</td>
-<td>Indicates that the socket created will be a c_leaf in a multicast session. Only allowed if XP1_SUPPORT_MULTIPOINT is indicated in the protocol's 
-[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure.</td>
-</tr>
-<tr>
-<td>WSA_FLAG_MULTIPOINT_D_ROOT</td>
-<td>Indicates that the socket created will be a d_root in a multipoint session. Only allowed if a rooted data plane is indicated in the protocol's 
-[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure.</td>
-</tr>
-<tr>
-<td>WSA_FLAG_MULTIPOINT_D_LEAF</td>
-<td>Indicates that the socket created will be a d_leaf in a multipoint session. Only allowed if XP1_SUPPORT_MULTIPOINT is indicated in the protocol's 
-[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure.</td>
-</tr>
-</table>
+|Flag|Meaning|
+|-|-|
+|WSA_FLAG_OVERLAPPED|This flag causes an overlapped socket to be created. Overlapped sockets can utilize [LPWSPSend](nc-ws2spi-lpwspsend.md), [LPWSPSendTo](nc-ws2spi-lpwspsendto.md), [LPWSPRecv](nc-ws2spi-lpwsprecv.md), [LPWSPRecvFrom](nc-ws2spi-lpwsprecvfrom.md), and [LPWSPIoctl](nc-ws2spi-lpwspioctl.md) for overlapped I/O operations, which allow multiple operations to be initiated and in process simultaneously. All functions that allow overlapped operations also support nonoverlapped usage on an overlapped socket if the values for parameters related to overlapped operation are null.|
+|WSA_FLAG_MULTIPOINT_C_ROOT|Indicates that the socket created will be a c_root in a multipoint session. Only allowed if a rooted control plane is indicated in the protocol's <a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structure.|
+|WSA_FLAG_MULTIPOINT_C_LEAF|Indicates that the socket created will be a c_leaf in a multicast session. Only allowed if XP1_SUPPORT_MULTIPOINT is indicated in the protocol's <a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structure.|
+|WSA_FLAG_MULTIPOINT_D_ROOT|Indicates that the socket created will be a d_root in a multipoint session. Only allowed if a rooted data plane is indicated in the protocol's <a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structure.|
+|WSA_FLAG_MULTIPOINT_D_LEAF|Indicates that the socket created will be a d_leaf in a multipoint session. Only allowed if XP1_SUPPORT_MULTIPOINT is indicated in the protocol's <a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structure.|
 
-<div> </div>
+> [!NOTE]
+> For multipoint sockets, exactly one WSA_FLAG_MULTIPOINT_C_ROOT or WSA_FLAG_MULTIPOINT_C_LEAF must be specified, and exactly one of WSA_FLAG_MULTIPOINT_D_ROOT or WSA_FLAG_MULTIPOINT_D_LEAF must be specified. Refer to <a href="/windows/desktop/WinSock/protocol-independent-multicast-and-multipoint-in-the-spi-2">Protocol-Independent Multicast and Multipoint in the SPI</a> for additional information.
 
-<div class="alert">**Note**  For multipoint sockets, exactly one  WSA_FLAG_MULTIPOINT_C_ROOT or WSA_FLAG_MULTIPOINT_C_LEAF must be specified, and exactly one of WSA_FLAG_MULTIPOINT_D_ROOT or WSA_FLAG_MULTIPOINT_D_LEAF must be specified. Refer to 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/protocol-independent-multicast-and-multipoint-in-the-spi-2">Protocol-Independent Multicast and Multipoint in the SPI</a> for additional information.</div>
-<div> </div>
 Connection-oriented sockets such as SOCK_STREAM provide full-duplex connections, and must be in a connected state before any data can be sent or received on them. A connection to another socket is created with a 
 [LPWSPConnect](nc-ws2spi-lpwspconnect.md) call. Once connected, data can be transferred using 
 [LPWSPSend](nc-ws2spi-lpwspsend.md) and 
 [LPWSPRecv](nc-ws2spi-lpwsprecv.md) calls. When a session has been completed, a 
 [LPWSPCloseSocket](nc-ws2spi-lpwspclosesocket.md) must be performed.
 
-The communications protocols used to implement a reliable, connection-oriented socket ensure that data is not lost or duplicated. If data for which the peer protocol has buffer space cannot be successfully transmitted within a reasonable length of time, the connection is considered broken and subsequent calls will fail with the error code set to <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAETIMEDOUT</a>.
+The communications protocols used to implement a reliable, connection-oriented socket ensure that data is not lost or duplicated. If data for which the peer protocol has buffer space cannot be successfully transmitted within a reasonable length of time, the connection is considered broken and subsequent calls will fail with the error code set to <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAETIMEDOUT</a>.
 
 Connectionless, message-oriented sockets allow sending and receiving of datagrams to and from arbitrary peers using 
 [LPWSPSendTo](nc-ws2spi-lpwspsendto.md) and 
@@ -267,22 +237,22 @@ A layered service provider supplies an implementation of this function, but it i
 
 If the next layer in the protocol chain is another layer then when the next layer's 
 **LPWSPSocket** is called, this layer must pass to the next layer a <i>lpProtocolInfo</i> that references the same unmodified 
-[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure with the same unmodified chain information. However, if the next layer is the base protocol (that is, the last element in the chain), this layer performs a substitution when calling the base provider's 
+<a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structure with the same unmodified chain information. However, if the next layer is the base protocol (that is, the last element in the chain), this layer performs a substitution when calling the base provider's 
 **LPWSPSocket**. In this case, the base provider's 
 **WSAPROTOCOL_INFO** structure should be referenced by the <i>lpProtocolInfo</i> parameter.
 
 One vital benefit of this policy is that base service providers do not have to be aware of protocol chains.
 
 This same propagation policy applies when propagating a 
-[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure through a layered sequence of other functions such as 
+<a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structure through a layered sequence of other functions such as 
 [LPWSPAddressToString](nc-ws2spi-lpwspaddresstostring.md), 
 [LPWSPDuplicateSocket](nc-ws2spi-lpwspduplicatesocket.md), 
-[WSPStartup](nf-ws2spi-wspstartup.md), or 
+<a href="/windows/win32/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a>, or 
 [LPWSPStringToAddress](nc-ws2spi-lpwspstringtoaddress.md).
 
 ## -see-also
 
-* [WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md)
+* <a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>
 * [LPWSPAccept](nc-ws2spi-lpwspaccept.md)
 * [LPWSPBind](nc-ws2spi-lpwspbind.md)
 * [LPWSPConnect](nc-ws2spi-lpwspconnect.md)

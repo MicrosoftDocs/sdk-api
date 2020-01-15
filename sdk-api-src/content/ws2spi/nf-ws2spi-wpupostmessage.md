@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-**WPUPostMessage** function performs the standard Windows <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a> function in a way that maintains backward compatibility with older versions of WSOCK32.dll.
+**WPUPostMessage** function performs the standard Windows <a href="/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a> function in a way that maintains backward compatibility with older versions of WSOCK32.dll.
 
 
 ## -parameters

@@ -59,7 +59,7 @@ If no error occurs, **LPWSPListen** returns zero. Otherwise, a value of SOCKET_E
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETDOWN">WSAENETDOWN</a></dt>
+<dt><a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETDOWN">WSAENETDOWN</a></dt>
 </dl>
 </td>
 <td width="60%">
@@ -70,18 +70,18 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEADDRINUSE">WSAEADDRINUSE</a></dt>
+<dt><a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAEADDRINUSE">WSAEADDRINUSE</a></dt>
 </dl>
 </td>
 <td width="60%">
-Socket's local address is already in use and the socket was not marked to allow address reuse with SO_REUSEADDR. This error usually occurs at the time of <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-bind">Bind</a></b>, but could be delayed until this function if the **bind** was to a partially wildcard address (involving ADDR_ANY) and if a specific address needs to be committed at the time of this function.
+Socket's local address is already in use and the socket was not marked to allow address reuse with SO_REUSEADDR. This error usually occurs at the time of <b><a href="/windows/win32/api/winsock/nf-winsock-bind">Bind</a></b>, but could be delayed until this function if the **bind** was to a partially wildcard address (involving ADDR_ANY) and if a specific address needs to be committed at the time of this function.
 </td>
 </tr>
 
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINPROGRESS">WSAEINPROGRESS</a></dt>
+<dt><a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINPROGRESS">WSAEINPROGRESS</a></dt>
 </dl>
 </td>
 <td width="60%">
@@ -92,18 +92,18 @@ Function is invoked when a callback is in progress.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINVAL">WSAEINVAL</a></dt>
+<dt><a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINVAL">WSAEINVAL</a></dt>
 </dl>
 </td>
 <td width="60%">
-Socket has not been bound with <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b>.
+Socket has not been bound with <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b>.
 </td>
 </tr>
 
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEISCONN">WSAEISCONN</a></dt>
+<dt><a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAEISCONN">WSAEISCONN</a></dt>
 </dl>
 </td>
 <td width="60%">
@@ -114,7 +114,7 @@ Socket is already connected.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEMFILE">WSAEMFILE</a></dt>
+<dt><a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAEMFILE">WSAEMFILE</a></dt>
 </dl>
 </td>
 <td width="60%">
@@ -125,7 +125,7 @@ No more socket descriptors are available.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOBUFS">WSAENOBUFS</a></dt>
+<dt><a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOBUFS">WSAENOBUFS</a></dt>
 </dl>
 </td>
 <td width="60%">
@@ -136,7 +136,7 @@ No buffer space is available.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></dt>
+<dt><a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></dt>
 </dl>
 </td>
 <td width="60%">
@@ -147,19 +147,19 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEOPNOTSUPP">WSAEOPNOTSUPP</a></dt>
+<dt><a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAEOPNOTSUPP">WSAEOPNOTSUPP</a></dt>
 </dl>
 </td>
 <td width="60%">
-Referenced socket is not of a type that supports the <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwsplisten">LPWSPListen</a></b> operation.
+Referenced socket is not of a type that supports the <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwsplisten">LPWSPListen</a></b> operation.
 </td>
 </tr>
 </table>
  
 ## -remarks
-To accept connections, a socket is first created with <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a> bound to a local address with <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b>, a backlog for incoming connections is specified with **LPWSPListen**, and then the connections are accepted with **[LPWSPAccept](nc-ws2spi-lpwspaccept.md)**. **LPWSPListen** applies only to sockets that are connection oriented (for example, SOCK_STREAM). The socket <i>s</i> is put into passive mode where incoming connection requests are acknowledged and queued pending acceptance by the Windows Sockets SPI client.
+To accept connections, a socket is first created with <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a> bound to a local address with <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b>, a backlog for incoming connections is specified with **LPWSPListen**, and then the connections are accepted with **[LPWSPAccept](nc-ws2spi-lpwspaccept.md)**. **LPWSPListen** applies only to sockets that are connection oriented (for example, SOCK_STREAM). The socket <i>s</i> is put into passive mode where incoming connection requests are acknowledged and queued pending acceptance by the Windows Sockets SPI client.
 
-This function is typically used by servers that could have more than one connection request at a time: if a connection request arrives with the queue full, the client will receive an error with an indication of <a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAECONNREFUSED">WSAECONNREFUSED</a>.
+This function is typically used by servers that could have more than one connection request at a time: if a connection request arrives with the queue full, the client will receive an error with an indication of <a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAECONNREFUSED">WSAECONNREFUSED</a>.
 
 **LPWSPListen** should continue to function rationally when there are no available descriptors. It should accept connections until the queue is emptied. If descriptors become available, a later call to **LPWSPListen** or **[LPWSPAccept](nc-ws2spi-lpwspaccept.md)** will refill the queue to the current or most recent backlog, if possible, and resume listening for incoming connections.
 
@@ -171,8 +171,8 @@ The <i>backlog</i> parameter is limited (silently) to a reasonable value as dete
 **[LPWSPAccept](nc-ws2spi-lpwspaccept.md)**
    
 
-<b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b>
+<b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b>
    
 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
+<a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
   
