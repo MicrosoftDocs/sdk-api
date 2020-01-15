@@ -77,7 +77,7 @@ A pointer to a
 
 ### -param UpcallTable [in]
 
-The Winsock 2 DLL (Ws2_32.dll) upcall dispatch table 	passed in a [WSPUpCallTable](ns-ws2spi-wspupcalltable.md) structure. 
+The Winsock 2 DLL (Ws2_32.dll) upcall dispatch table passed in a [WSPUpCallTable](ns-ws2spi-wspupcalltable.md) structure. 
 
 
 ### -param lpProcTable [out]

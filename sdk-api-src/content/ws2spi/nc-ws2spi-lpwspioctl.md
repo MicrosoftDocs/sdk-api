@@ -75,18 +75,16 @@ A pointer to the error code.
 ## -returns
 If no error occurs and the operation has completed immediately, **LPWSPIoctl** returns zero. Note that in this case the completion routine, if specified, will have already been queued. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>. The error code WSA_IO_PENDING indicates that an overlapped operation has been successfully initiated and that completion will be indicated at a later time. Any other error code indicates that no overlapped operation was initiated and no completion indication will occur.
 
-
-
 | Error code                                                                                                                                          | Meaning                                                                                                                                                                                                        |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt><b>**[WSA_IO_PENDING](/windows/win32/winsock/windows-sockets-error-codes-2#wsa-io-pending)**   | An overlapped operation was successfully initiated and completion will be indicated at a later time.<br/>                                                                                                |
-| <dl> <dt><b>**[WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault)**               | The <i>lpvInBuffer</i>, <i>lpvOutBuffer</i> or <i>lpcbBytesReturned</i> parameter is not totally contained in a valid part of the user address space, or the *cbInBuffer* or <i>cbOutBuffer</i> parameter is too small.<br/> |
-| <dl> <dt><b>**[WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)**               | The <i>dwIoControlCode</i> is not a valid command, or a supplied input parameter is not acceptable, or the command is not applicable to the type of socket supplied.<br/>                                     |
-| <dl> <dt><b>**[WSAEINPROGRESS](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinprogress)**     | The function is invoked when a callback is in progress.<br/>                                                                                                                                             |
-| <dl> <dt><b>**[WSAENETDOWN](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenetdown)**           | The network subsystem has failed.<br/>                                                                                                                                                                   |
-| <dl> <dt><b>**[WSAENOTSOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenotsock)**           | The descriptor <i>s</i> is not a socket.<br/>                                                                                                                                                                 |
-| <dl> <dt><b>**[WSAEOPNOTSUPP](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeopnotsupp)**       | The specified IOCTL command cannot be realized. For example, the flow specifications specified in **SIO_SET_QOS** cannot be satisfied.<br/>                                                            |
-| <dl> <dt><b>**[WSAEWOULDBLOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaewouldblock)**     | The socket is marked as nonblocking and the requested operation would block.<br/>         
+| <dl> <dt>[WSA_IO_PENDING](/windows/win32/winsock/windows-sockets-error-codes-2#wsa-io-pending)   | An overlapped operation was successfully initiated and completion will be indicated at a later time.<br/>                                                                                                |
+| <dl> <dt>[WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault)               | The <i>lpvInBuffer</i>, <i>lpvOutBuffer</i> or <i>lpcbBytesReturned</i> parameter is not totally contained in a valid part of the user address space, or the *cbInBuffer* or <i>cbOutBuffer</i> parameter is too small.<br/> |
+| <dl> <dt>[WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)               | The <i>dwIoControlCode</i> is not a valid command, or a supplied input parameter is not acceptable, or the command is not applicable to the type of socket supplied.<br/>                                     |
+| <dl> <dt>[WSAEINPROGRESS](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinprogress)     | The function is invoked when a callback is in progress.<br/>                                                                                                                                             |
+| <dl> <dt>[WSAENETDOWN](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenetdown)           | The network subsystem has failed.<br/>                                                                                                                                                                   |
+| <dl> <dt>[WSAENOTSOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenotsock)           | The descriptor <i>s</i> is not a socket.<br/>                                                                                                                                                                 |
+| <dl> <dt>[WSAEOPNOTSUPP](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeopnotsupp)       | The specified IOCTL command cannot be realized. For example, the flow specifications specified in **SIO_SET_QOS** cannot be satisfied.<br/>                                                            |
+| <dl> <dt>[WSAEWOULDBLOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaewouldblock)     | The socket is marked as nonblocking and the requested operation would block.<br/>         
 ## -remarks
 This routine is used to set or retrieve operating parameters associated with the socket, the transport protocol, or the communications subsystem. If both <i>lpOverlapped</i> and <i>lpCompletionRoutine</i> are **NULL**, the socket in this function will be treated as a nonoverlapped socket.
 
@@ -107,14 +105,17 @@ Any IOCTL may block indefinitely, depending on the implementation of the service
 
 Some protocol-specific IOCTLs may also be particularly likely to block. Check the relevant protocol-specific annex for available information.
 
-The prototype for the completion routine pointed to by the <i>lpCompletionRoutine</i> parameter is as follows:
+The prototype for the completion routine pointed to by the <i>lpCompletionRoutine</i> parameter is as follows.
 
-
-```C++
+```cpp
+void CALLBACK 
+CompletionRoutine(  
+  IN DWORD           dwError, 
+  IN DWORD           cbTransferred, 
+  IN LPWSAOVERLAPPED lpOverlapped, 
+  IN DWORD           dwFlags 
 );
 ```
-
-
 
 The CompletionRoutine is a placeholder for an application-supplied function name. The <i>dwError</i> parameter specifies the completion status for the overlapped operation as indicated by <i>lpOverlapped</i> parameter. The <i>cbTransferred</i> parameter specifies the number of bytes received. The <i>dwFlags</i> parameter is not used for this IOCTL. The completion routine does not return a value.
 
