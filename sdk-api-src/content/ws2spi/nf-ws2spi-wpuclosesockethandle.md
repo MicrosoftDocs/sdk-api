@@ -61,7 +61,7 @@ The
 ### -param s [in]
 
 Handle to socket created with 
-[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md).
+<a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>.
 
 
 ### -param lpErrno [out]
@@ -74,7 +74,7 @@ Pointer to the error code.
 
 
 If no error occurs, 
-[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md) returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
+<a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a> returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
 
 
 
@@ -86,12 +86,12 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dl>
 </dl>
 </td>
 <td width="60%">
 The descriptor is not a socket created by 
-[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md).
+<a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ The descriptor is not a socket created by
 
 The 
 **WPUCloseSocketHandle** function closes an existing socket handle created by 
-[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md). This function removes the socket from Ws2_32.dll's internal socket table. The owning service provider is responsible for releasing any resources associated with the socket.
+<a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>. This function removes the socket from Ws2_32.dll's internal socket table. The owning service provider is responsible for releasing any resources associated with the socket.
 
 
 
@@ -121,7 +121,7 @@ The
 
 
 
-[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md)
+<a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>
  
 
  

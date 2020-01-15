@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 **WPUCloseThread** function closes a thread opened with a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a>.
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a>.
 
 
 ## -parameters
@@ -62,8 +62,8 @@ The
 ### -param lpThreadId [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a> structure that identifies the thread context. This structure must have been initialized by a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a>.
+<a href="/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a> structure that identifies the thread context. This structure must have been initialized by a previous call to 
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a>.
 
 
 ### -param lpErrno [out]
@@ -76,7 +76,7 @@ Pointer to the error code.
 
 
 If no error occurs, 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a> returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a> returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
 
 
 
@@ -88,12 +88,12 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dl>
 </dl>
 </td>
 <td width="60%">
 A successful 
-[WSPStartup](nf-ws2spi-wspstartup.md) call must occur before using this function.
+<a href="/windows/win32/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a> call must occur before using this function.
 
 </td>
 </tr>
@@ -113,11 +113,11 @@ A successful
 
 The 
 **WPUCloseThread** function is used in a layered service provider to deallocate the resources that were initiated in a call by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a> function. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a> structure in the <i>lpThreadId</i> is the thread to deallocate.
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a> function. The 
+<a href="/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a> structure in the <i>lpThreadId</i> is the thread to deallocate.
 
 Every call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a> must have a call to 
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a> must have a call to 
 **WPUCloseThread**. These two functions are used when the overlapped functions, such as 
 [LPWSPSend](nc-ws2spi-lpwspsend.md), are called in a lower layer of the service provider than the current thread.
 
@@ -129,11 +129,11 @@ Every call to
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a>
+<a href="/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a>
  
 
  

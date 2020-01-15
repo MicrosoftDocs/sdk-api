@@ -51,4 +51,4 @@ Null-terminated Unicode string into which the Windows Sockets provider copies a 
 ## -remarks
 
 ## -see-also
-<b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a></b>
+<b><a href="/windows/win32/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a></b>

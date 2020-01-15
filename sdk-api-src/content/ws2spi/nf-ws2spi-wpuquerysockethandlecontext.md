@@ -90,12 +90,12 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dl>
 </dl>
 </td>
 <td width="60%">
 The descriptor is not a socket created by 
-[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md).
+<a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>.
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ Only non-IFS providers use this function, because IFS providers are not able to 
 
 
 
-[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md)
+<a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>
  
 
  

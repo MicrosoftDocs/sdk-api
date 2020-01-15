@@ -61,13 +61,13 @@ The size, in bytes, of the output buffer.
 A pointer to actual number of bytes of output.
 
 ### -param lpOverlapped [in]
-A pointer to a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaoverlapped">WSAOverlapped</a></b> structure (ignored for non-overlapped sockets).
+A pointer to a <b><a href="/windows/win32/api/winsock2/ns-winsock2-wsaoverlapped">WSAOverlapped</a></b> structure (ignored for non-overlapped sockets).
 
 ### -param lpCompletionRoutine [in]
 A pointer to the completion routine called when the operation has been completed (ignored for non-overlapped sockets). See Remarks.
 
 ### -param lpThreadId [in]
-A pointer to a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a></b> structure to be used by the provider in a subsequent call to <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a></b>. The provider should store the referenced **WSATHREADID** structure (not the pointer) until after the **WPUQueueApc** function returns.
+A pointer to a <b><a href="/windows/win32/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a></b> structure to be used by the provider in a subsequent call to <b><a href="/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a></b>. The provider should store the referenced **WSATHREADID** structure (not the pointer) until after the **WPUQueueApc** function returns.
 
 ### -param lpErrno [in]
 A pointer to the error code.
@@ -75,18 +75,16 @@ A pointer to the error code.
 ## -returns
 If no error occurs and the operation has completed immediately, **LPWSPIoctl** returns zero. Note that in this case the completion routine, if specified, will have already been queued. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>. The error code WSA_IO_PENDING indicates that an overlapped operation has been successfully initiated and that completion will be indicated at a later time. Any other error code indicates that no overlapped operation was initiated and no completion indication will occur.
 
-
-
 | Error code                                                                                                                                          | Meaning                                                                                                                                                                                                        |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt><b>**[WSA_IO_PENDING](/windows/win32/winsock/windows-sockets-error-codes-2#wsa-io-pending)**   | An overlapped operation was successfully initiated and completion will be indicated at a later time.<br/>                                                                                                |
-| <dl> <dt><b>**[WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault)**               | The <i>lpvInBuffer</i>, <i>lpvOutBuffer</i> or <i>lpcbBytesReturned</i> parameter is not totally contained in a valid part of the user address space, or the *cbInBuffer* or <i>cbOutBuffer</i> parameter is too small.<br/> |
-| <dl> <dt><b>**[WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)**               | The <i>dwIoControlCode</i> is not a valid command, or a supplied input parameter is not acceptable, or the command is not applicable to the type of socket supplied.<br/>                                     |
-| <dl> <dt><b>**[WSAEINPROGRESS](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinprogress)**     | The function is invoked when a callback is in progress.<br/>                                                                                                                                             |
-| <dl> <dt><b>**[WSAENETDOWN](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenetdown)**           | The network subsystem has failed.<br/>                                                                                                                                                                   |
-| <dl> <dt><b>**[WSAENOTSOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenotsock)**           | The descriptor <i>s</i> is not a socket.<br/>                                                                                                                                                                 |
-| <dl> <dt><b>**[WSAEOPNOTSUPP](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeopnotsupp)**       | The specified IOCTL command cannot be realized. For example, the flow specifications specified in **SIO_SET_QOS** cannot be satisfied.<br/>                                                            |
-| <dl> <dt><b>**[WSAEWOULDBLOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaewouldblock)**     | The socket is marked as nonblocking and the requested operation would block.<br/>         
+| <dl> <dt>[WSA_IO_PENDING](/windows/win32/winsock/windows-sockets-error-codes-2#wsa-io-pending)   | An overlapped operation was successfully initiated and completion will be indicated at a later time.<br/>                                                                                                |
+| <dl> <dt>[WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault)               | The <i>lpvInBuffer</i>, <i>lpvOutBuffer</i> or <i>lpcbBytesReturned</i> parameter is not totally contained in a valid part of the user address space, or the *cbInBuffer* or <i>cbOutBuffer</i> parameter is too small.<br/> |
+| <dl> <dt>[WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)               | The <i>dwIoControlCode</i> is not a valid command, or a supplied input parameter is not acceptable, or the command is not applicable to the type of socket supplied.<br/>                                     |
+| <dl> <dt>[WSAEINPROGRESS](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinprogress)     | The function is invoked when a callback is in progress.<br/>                                                                                                                                             |
+| <dl> <dt>[WSAENETDOWN](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenetdown)           | The network subsystem has failed.<br/>                                                                                                                                                                   |
+| <dl> <dt>[WSAENOTSOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenotsock)           | The descriptor <i>s</i> is not a socket.<br/>                                                                                                                                                                 |
+| <dl> <dt>[WSAEOPNOTSUPP](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeopnotsupp)       | The specified IOCTL command cannot be realized. For example, the flow specifications specified in **SIO_SET_QOS** cannot be satisfied.<br/>                                                            |
+| <dl> <dt>[WSAEWOULDBLOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaewouldblock)     | The socket is marked as nonblocking and the requested operation would block.<br/>         
 ## -remarks
 This routine is used to set or retrieve operating parameters associated with the socket, the transport protocol, or the communications subsystem. If both <i>lpOverlapped</i> and <i>lpCompletionRoutine</i> are **NULL**, the socket in this function will be treated as a nonoverlapped socket.
 
@@ -107,49 +105,42 @@ Any IOCTL may block indefinitely, depending on the implementation of the service
 
 Some protocol-specific IOCTLs may also be particularly likely to block. Check the relevant protocol-specific annex for available information.
 
-The prototype for the completion routine pointed to by the <i>lpCompletionRoutine</i> parameter is as follows:
+The prototype for the completion routine pointed to by the <i>lpCompletionRoutine</i> parameter is as follows.
 
-
-```C++
+```cpp
+void CALLBACK 
+CompletionRoutine(  
+  IN DWORD           dwError, 
+  IN DWORD           cbTransferred, 
+  IN LPWSAOVERLAPPED lpOverlapped, 
+  IN DWORD           dwFlags 
 );
 ```
-
-
 
 The CompletionRoutine is a placeholder for an application-supplied function name. The <i>dwError</i> parameter specifies the completion status for the overlapped operation as indicated by <i>lpOverlapped</i> parameter. The <i>cbTransferred</i> parameter specifies the number of bytes received. The <i>dwFlags</i> parameter is not used for this IOCTL. The completion routine does not return a value.
 
 In as much as the <i>dwIoControlCode</i> parameter is now a 32-bit entity, it is possible to adopt an encoding scheme that provides a convenient way to partition the opcode identifier space. The <i>dwIoControlCode</i> parameter is constructed to allow for protocol and vendor independence when adding new control codes, while retaining backward compatibility with Windows Sockets 1.1 and UNIX control codes. The <i>dwIoControlCode</i> parameter has the following form.
 
+|||||||
+|----|----|----|-----|-----------------------|---------------------------------|
+| bit 31 | bit 30 | bit 29 | bits 28 and 27 | bits 26 thru 16 | bits 15 thru 0 |
+| **I** | **O** | **V** | **T** | **Vendor/Address family** | **Code** |
 
+**I** is set if the input buffer is valid for the code, as with **IOC_IN**.
 
-| I   | O   | V   | T   | Vendor/Address family | Code                            |
-|-----|-----|-----|-----|-----------------------|---------------------------------|
-| 3   | 3   | 2   | 2 2 | 2 2 2 2 2 2 2 1 1 1 1 | 1 1 1 1 1 1                     |
-| 1   | 0   | 9   | 8 7 | 6 5 4 3 2 1 0 9 8 7 6 | 5 4 3 2 1 0 9 8 7 6 5 4 3 2 1 0 |
+**O** is set if the output buffer is valid for the code, as with **IOC_OUT**. Note that for codes with both input and output parameters, both **I** and **O** will be set.
 
+**V** is set if there are no parameters for the code, as with **IOC_VOID**.
 
+**T** is a two-bit quantity that defines the type of IOCTL. The following values are defined.
+- **0** indicates that the IOCTL is a standard UNIX IOCTL code, as with **FIONREAD**, **FIONBIO**, and so on.
+- **1** indicates that the IOCTL is a generic Windows Sockets 2 IOCTL code. New IOCTL codes defined for Windows Sockets 2 will have **T** == **1**.
+- **2** indicates that the IOCTL applies only to a specific address family.
+- **3**  The IOCTL applies only to a specific vendor's provider. This type allows companies to be assigned a vendor number that appears in the **Vendor/Address family** member. Then, the vendor can define new IOCTLs specific to that vendor without having to register the IOCTL with a clearinghouse, thereby providing vendor flexibility and privacy.
 
- 
+**Vendor/Address family** is an 11-bit quantity that defines the vendor who owns the code (if **T** == **3**), or that contains the address family to which the code applies (if **T** == **2**). If this is a UNIX IOCTL code (**T** == **0**) then this member has the same value as the code on UNIX. If this is a generic Windows Sockets 2 IOCTL (**T** == **1**) then this member can be used as an extension of the code member to provide additional code values.
 
-I Set if the input buffer is valid for the code, as with **IOC_IN**.
-
-O Set if the output buffer is valid for the code, as with **IOC_OUT**. Note that for codes with both input and output parameters, both I and O will be set.
-
-V Set if there are no parameters for the code, as with **IOC_VOID**.
-
-T A two-bit quantity that defines the type of IOCTL. The following values are defined:
-
-0 The IOCTL is a standard UNIX IOCTL code, as with **FIONREAD** and **FIONBIO**.
-
-1 The IOCTL is a generic Windows Sockets 2 IOCTL code. New IOCTL codes defined for Windows Sockets 2 will have T == 1.
-
-2 The IOCTL applies only to a specific address family.
-
-3 The IOCTL applies only to a specific vendor's provider. This type allows companies to be assigned a vendor number that appears in the **Vendor/Address family** member. Then, the vendor can define new IOCTLs specific to that vendor without having to register the IOCTL with a clearinghouse, thereby providing vendor flexibility and privacy.
-
-The **Vendor/Address family** is an 11-bit quantity that defines the vendor who owns the code (if T == 3) or that contains the address family to which the code applies (if T == 2). If this is a UNIX IOCTL code (T == 0) then this member has the same value as the code on UNIX. If this is a generic Windows Sockets 2 IOCTL (T == 1) then this member can be used as an extension of the code member to provide additional code values.
-
-**Code** The specific IOCTL code for the operation.
+**Code** is the specific IOCTL code for the operation.
 
 The following UNIX commands are supported:
 
@@ -220,14 +211,14 @@ Obtains a list of local transport addresses of the socket's protocol family to w
 -   Issue **SIO_ADDRESS_LIST_QUERY** IOCTL
 -   Whenever **SIO_ADDRESS_LIST_CHANGE** IOCTL notifies the application of address list change (either through overlapped I/O or by signaling FD_ADDRESS_LIST_CHANGE event), the whole sequence of actions should be repeated.
 
-For more detailed information, see the [**SIO_ADDRESS_LIST_QUERY**](sio-address-list-query.md) reference. **SIO_ADDRESS_LIST_QUERY** is supported on Windows 2000 and later.
+For more detailed information, see the [**SIO_ADDRESS_LIST_QUERY**](/previous-versions/windows/desktop/legacy/dd877219(v%3Dvs.85)) reference. **SIO_ADDRESS_LIST_QUERY** is supported on Windows 2000 and later.
 
 </dd> <dt>
 
 <span id="SIO_ASSOCIATE_HANDLE__opcode_setting__I__T__1_"></span><span id="sio_associate_handle__opcode_setting__i__t__1_"></span><span id="SIO_ASSOCIATE_HANDLE__OPCODE_SETTING__I__T__1_"></span>**SIO_ASSOCIATE_HANDLE** (opcode setting: I, T==1)
 </dt> <dd>
 
-Associates this socket with the specified handle of a companion interface. The input buffer contains the integer value corresponding to the manifest constant for the companion interface (for example, TH_NETDEV and TH_TAPI), followed by a value that is a handle of the specified companion interface, along with any other required information. Refer to the appropriate section in the <i>Windows Sockets 2 Protocol-Specific Annex</i> and/or documentation for the particular companion interface for additional details. (These resources may only be available in English.) The total size is reflected in the input buffer length. No output buffer is required. The <a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOPROTOOPT">WSAENOPROTOOPT</a>  error code is indicated for service providers that do not support this IOCTL. The handle associated by this IOCTL can be retrieved using **SIO_TRANSLATE_HANDLE**.
+Associates this socket with the specified handle of a companion interface. The input buffer contains the integer value corresponding to the manifest constant for the companion interface (for example, TH_NETDEV and TH_TAPI), followed by a value that is a handle of the specified companion interface, along with any other required information. Refer to the appropriate section in the <i>Windows Sockets 2 Protocol-Specific Annex</i> and/or documentation for the particular companion interface for additional details. (These resources may only be available in English.) The total size is reflected in the input buffer length. No output buffer is required. The <a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOPROTOOPT">WSAENOPROTOOPT</a>  error code is indicated for service providers that do not support this IOCTL. The handle associated by this IOCTL can be retrieved using **SIO_TRANSLATE_HANDLE**.
 
 A companion interface might be used, for example, if a particular provider provides:
 
@@ -241,7 +232,7 @@ It is recommended that the Component Object Model (COM) be used instead of this 
 <span id="SIO_ASSOCIATE_PORT_RESERVATION__opcode_setting__I__T__3_"></span><span id="sio_associate_port_reservation__opcode_setting__i__t__3_"></span><span id="SIO_ASSOCIATE_PORT_RESERVATION__OPCODE_SETTING__I__T__3_"></span>**SIO_ASSOCIATE_PORT_RESERVATION** (opcode setting: I, T==3)
 </dt> <dd>
 
-Associate a socket with a persistent or runtime reservation for a block of TCP or UDP ports identified by the port reservation token. The [**SIO_ASSOCIATE_PORT_RESERVATION**](sio-associate-port-reservation.md) IOCTL must be issued before the socket is bound. If and when the socket is bound, the port assigned to it will be selected from the port reservation identified by the given token. If no ports are available from the specified reservation, the <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-bind">Bind</a></b> function call will fail.
+Associate a socket with a persistent or runtime reservation for a block of TCP or UDP ports identified by the port reservation token. The [**SIO_ASSOCIATE_PORT_RESERVATION**](sio-associate-port-reservation.md) IOCTL must be issued before the socket is bound. If and when the socket is bound, the port assigned to it will be selected from the port reservation identified by the given token. If no ports are available from the specified reservation, the <b><a href="/windows/win32/api/winsock/nf-winsock-bind">Bind</a></b> function call will fail.
 
 For more detailed information, see the [**SIO_ASSOCIATE_PORT_RESERVATION**](sio-associate-port-reservation.md) reference.
 
@@ -318,21 +309,21 @@ Indicates to a message-oriented service provider that a newly arrived message sh
 <span id="SIO_FIND_ROUTE__opcode_setting__O__T__1_"></span><span id="sio_find_route__opcode_setting__o__t__1_"></span><span id="SIO_FIND_ROUTE__OPCODE_SETTING__O__T__1_"></span>**SIO_FIND_ROUTE** (opcode setting: O, T==1)
 </dt> <dd>
 
-When issued, this IOCTL requests that the route to the remote address specified as a <b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/sockaddr-2">sockaddr</a></b> in the input buffer be discovered. If the address already exists in the local cache, its entry is invalidated. In the case of Novell's IPX, this call initiates an IPX GetLocalTarget (GLT), that queries the network for the given remote address.
+When issued, this IOCTL requests that the route to the remote address specified as a <b><a href="/windows/win32/winsock/sockaddr-2">sockaddr</a></b> in the input buffer be discovered. If the address already exists in the local cache, its entry is invalidated. In the case of Novell's IPX, this call initiates an IPX GetLocalTarget (GLT), that queries the network for the given remote address.
 
 </dd> <dt>
 
 <span id="SIO_FLUSH__opcode_setting__V__T__1_"></span><span id="sio_flush__opcode_setting__v__t__1_"></span><span id="SIO_FLUSH__OPCODE_SETTING__V__T__1_"></span>**SIO_FLUSH** (opcode setting: V, T==1)
 </dt> <dd>
 
-Discards current contents of the sending queue associated with this socket. No input and output buffers are required. The <a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOPROTOOPT">WSAENOPROTOOPT</a>  error code is indicated for service providers that do not support this IOCTL.
+Discards current contents of the sending queue associated with this socket. No input and output buffers are required. The <a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOPROTOOPT">WSAENOPROTOOPT</a>  error code is indicated for service providers that do not support this IOCTL.
 
 </dd> <dt>
 
 <span id="SIO_GET_BROADCAST_ADDRESS__opcode_setting__O__T__1_"></span><span id="sio_get_broadcast_address__opcode_setting__o__t__1_"></span><span id="SIO_GET_BROADCAST_ADDRESS__OPCODE_SETTING__O__T__1_"></span>**SIO_GET_BROADCAST_ADDRESS** (opcode setting: O, T==1)
 </dt> <dd>
 
-This IOCTL fills the output buffer with a <b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/sockaddr-2">sockaddr</a></b> structure containing a suitable broadcast address for use with <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsendto">LPWSPSendTo</a></b>.
+This IOCTL fills the output buffer with a <b><a href="/windows/win32/winsock/sockaddr-2">sockaddr</a></b> structure containing a suitable broadcast address for use with <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsendto">LPWSPSendTo</a></b>.
 
 </dd> <dt>
 
@@ -442,7 +433,7 @@ Enables or disables the per-connection setting of the TCP **keep-alive** option 
 
 **SIO_KEEPALIVE_VALS** can be used to enable or disable keep-alive probes and set the keep-alive timeout and interval. The keep-alive timeout specifies the timeout, in milliseconds, with no activity until the first keep-alive packet is sent. The keep-alive interval specifies the interval, in milliseconds, between when successive keep-alive packets are sent if no acknowledgement is received.
 
-The <b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/so-keepalive">SO_KEEPALIVE</a></b> option, which is one of the [SOL_SOCKET Socket Options](sol-socket-socket-options.md), can also be used to enable or disable the TCP keep-alive on a connection, as well as query the current state of this option. To query whether TCP keep-alive is enabled on a socket, the [**getsockopt**](getsockopt-2.md) function can be called with the **SO_KEEPALIVE** option. To enable or disable TCP keep-alive, the [**setsockopt**](setsockopt-2.md) function can be called with the <b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/so-keepalive">SO_KEEPALIVE</a></b> option. If TCP keep-alive is enabled with **SO_KEEPALIVE**, then the default TCP settings are used for keep-alive timeout and interval unless these values have been changed using **SIO_KEEPALIVE_VALS**.
+The <b><a href="/windows/win32/winsock/so-keepalive">SO_KEEPALIVE</a></b> option, which is one of the [SOL_SOCKET Socket Options](sol-socket-socket-options.md), can also be used to enable or disable the TCP keep-alive on a connection, as well as query the current state of this option. To query whether TCP keep-alive is enabled on a socket, the [**getsockopt**](getsockopt-2.md) function can be called with the **SO_KEEPALIVE** option. To enable or disable TCP keep-alive, the [**setsockopt**](setsockopt-2.md) function can be called with the <b><a href="/windows/win32/winsock/so-keepalive">SO_KEEPALIVE</a></b> option. If TCP keep-alive is enabled with **SO_KEEPALIVE**, then the default TCP settings are used for keep-alive timeout and interval unless these values have been changed using **SIO_KEEPALIVE_VALS**.
 
 For more detailed information, see the [**SIO_KEEPALIVE_VALS**](sio-keepalive-vals.md) reference. **SIO_KEEPALIVE_VALS** is supported on Windows 2000 and later.
 
@@ -465,14 +456,17 @@ Specifies the scope over which multicast transmissions will occur. Scope is defi
 <span id="SIO_QUERY_RSS_SCALABILITY_INFO__opcode_setting__O__T__3_"></span><span id="sio_query_rss_scalability_info__opcode_setting__o__t__3_"></span><span id="SIO_QUERY_RSS_SCALABILITY_INFO__OPCODE_SETTING__O__T__3_"></span>**SIO_QUERY_RSS_SCALABILITY_INFO** (opcode setting: O, T==3)
 </dt> <dd>
 
-Queries offload interfaces for receive-side scaling (RSS) capability. The argument structure returned for **SIO_QUERY_RSS_SCALABILITY_INFO** is specified in the **RSS_SCALABILITY_INFO** structure defined in the <i>Mstcpip.h</i> header file. This structure is defined as follows:
+Queries offload interfaces for receive-side scaling (RSS) capability. The argument structure returned for **SIO_QUERY_RSS_SCALABILITY_INFO** is specified in the **RSS_SCALABILITY_INFO** structure defined in the <i>Mstcpip.h</i> header file. This structure is defined as follows.
 
-
-```C++
-
+```cpp
+void CALLBACK 
+CompletionRoutine(  
+  IN DWORD           dwError, 
+  IN DWORD           cbTransferred, 
+  IN LPWSAOVERLAPPED lpOverlapped, 
+  IN DWORD           dwFlags 
+);
 ```
-
-
 
 The value returned in the **RssEnabled** member indicates if RSS is enabled on at least one interface.
 
@@ -504,7 +498,7 @@ If the output buffer is not large enough for the endpoint handle (the <i>cbOutBu
 
 To obtain the socket descriptor of the next provider in the chain on which the current socket depends in PnP sense. This IOCTL is invoked by the Windows Sockets 2 DLL only on sockets of non-IFS service providers created through [**WPUCreateSocketHandle**](wpucreatesockethandle-2.md) call. The provider should return in the output buffer the socket handle of the next provider in the chain on which a given socket handle depends in PnP sense (for example, the removal of the device that supports the underlying handle will result in the invalidation of the handle above it in the chain).
 
-If an overlapped operation completes immediately, this function returns a value of zero and the <i>lpcbBytesReturned</i> parameter is updated with the number of bytes in the output buffer. If the overlapped operation is successfully initiated and will complete later, this function returns SOCKET_ERROR and indicates error code WSA_IO_PENDING. In this case, <i>lpcbBytesReturned</i> is not updated. When the overlapped operation completes, the amount of data in the output buffer is indicated either through the <i>cbTransferred</i> parameter in the completion routine (if specified), or through the <i>lpcbTransfer</i> parameter in <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a>.
+If an overlapped operation completes immediately, this function returns a value of zero and the <i>lpcbBytesReturned</i> parameter is updated with the number of bytes in the output buffer. If the overlapped operation is successfully initiated and will complete later, this function returns SOCKET_ERROR and indicates error code WSA_IO_PENDING. In this case, <i>lpcbBytesReturned</i> is not updated. When the overlapped operation completes, the amount of data in the output buffer is indicated either through the <i>cbTransferred</i> parameter in the completion routine (if specified), or through the <i>lpcbTransfer</i> parameter in <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a>.
 
 </dd> <dt>
 
@@ -561,13 +555,13 @@ For more detailed information, see the [**SIO_RELEASE_PORT_RESERVATION**](sio-re
 <span id="SIO_ROUTING_INTERFACE_CHANGE__opcode_setting__I__T__1_"></span><span id="sio_routing_interface_change__opcode_setting__i__t__1_"></span><span id="SIO_ROUTING_INTERFACE_CHANGE__OPCODE_SETTING__I__T__1_"></span>**SIO_ROUTING_INTERFACE_CHANGE** (opcode setting: I, T==1)
 </dt> <dd>
 
-To receive notification of a routing interface change that should be used to reach the remote address in the input buffer (specified as a <b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/sockaddr-2">sockaddr</a></b> structure). No output information on the new routing interface will be provided upon completion of this IOCTL; the completion merely indicates that the routing interface for a given destination has changed and should be queried using the **SIO_ROUTING_INTERFACE_QUERY** IOCTL.
+To receive notification of a routing interface change that should be used to reach the remote address in the input buffer (specified as a <b><a href="/windows/win32/winsock/sockaddr-2">sockaddr</a></b> structure). No output information on the new routing interface will be provided upon completion of this IOCTL; the completion merely indicates that the routing interface for a given destination has changed and should be queried using the **SIO_ROUTING_INTERFACE_QUERY** IOCTL.
 
 It is assumed (although not required) that the application uses overlapped I/O to be notified of the routing interface change through completion of **SIO_ROUTING_INTERFACE_CHANGE** request. Alternatively, if the **SIO_ROUTING_INTERFACE_CHANGE** IOCTL is issued on a non-blocking socket with the <i>lpOverlapped</i> and <i>lpCompletionRoutine</i> parameters set to **NULL**), it will complete immediately with error [WSAEWOULDBLOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaewouldblock) and the Windows Socket SPI client can then wait for routing change events using a call to [**LPWSPEventSelect**](wspeventselect-2.md) or **[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)** with the FD_ROUTING_INTERFACE_CHANGE bit set in the network event bitmask.
 
 It is recognized that routing information remains stable in most cases so that requiring the application to keep multiple outstanding IOCTLs to get notifications about all destinations that it is interested in as well as having the service provider keep track of these notification requests will use a significant amount system resources. This situation can be avoided by extending the meaning of the input parameters and relaxing the service provider requirements as follows:
 
-The Windows Sockets SPI client can specify a protocol family specific wildcard address (same as one used in <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-bind">Bind</a></b> call when requesting to bind to any available address) to request notifications of any routing changes. This allows the Windows Sockets SPI client to keep only one outstanding **SIO_ROUTING_INTERFACE_CHANGE** for all the sockets and destinations it has and then use **SIO_ROUTING_INTERFACE_QUERY** to get the actual routing information.
+The Windows Sockets SPI client can specify a protocol family specific wildcard address (same as one used in <b><a href="/windows/win32/api/winsock/nf-winsock-bind">Bind</a></b> call when requesting to bind to any available address) to request notifications of any routing changes. This allows the Windows Sockets SPI client to keep only one outstanding **SIO_ROUTING_INTERFACE_CHANGE** for all the sockets and destinations it has and then use **SIO_ROUTING_INTERFACE_QUERY** to get the actual routing information.
 
 The service provider can opt to ignore the information supplied by the Windows Sockets SPI client in the input buffer of the **SIO_ROUTING_INTERFACE_CHANGE** (as though the Windows Sockets SPI client specified a wildcard address) and complete the **SIO_ROUTING_INTERFACE_CHANGE** IOCTL or signal FD_ROUTING_INTERFACE_CHANGE event in the event of any routing information change (not just the route to the destination specified in the input buffer).
 
@@ -576,7 +570,7 @@ The service provider can opt to ignore the information supplied by the Windows S
 <span id="SIO_ROUTING_INTERFACE_QUERY__opcode_setting__I__O__T__1_"></span><span id="sio_routing_interface_query__opcode_setting__i__o__t__1_"></span><span id="SIO_ROUTING_INTERFACE_QUERY__OPCODE_SETTING__I__O__T__1_"></span>**SIO_ROUTING_INTERFACE_QUERY** (opcode setting: I, O, T==1)
 </dt> <dd>
 
-To obtain the address of the local interface (represented as <b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/sockaddr-2">sockaddr</a></b> structure) that should be used to send to the remote address specified in the input buffer (as **sockaddr**). Remote multicast addresses may be submitted in the input buffer to get the address of the preferred interface for multicast transmission. In any case, the interface address returned may be used by the application in a subsequent <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-bind">Bind</a></b> request.
+To obtain the address of the local interface (represented as <b><a href="/windows/win32/winsock/sockaddr-2">sockaddr</a></b> structure) that should be used to send to the remote address specified in the input buffer (as **sockaddr**). Remote multicast addresses may be submitted in the input buffer to get the address of the preferred interface for multicast transmission. In any case, the interface address returned may be used by the application in a subsequent <b><a href="/windows/win32/api/winsock/nf-winsock-bind">Bind</a></b> request.
 
 Note that routes are subject to change. Therefore, Windows Socket SPI clients cannot rely on the information returned by **SIO_ROUTING_INTERFACE_QUERY** to be persistent. SPI clients may register for routing change notifications using the **SIO_ROUTING_INTERFACE_CHANGE** IOCTL, which provides for notification through either overlapped I/O or a FD_ROUTING_INTERFACE_CHANGE event. The following sequence of actions can be used to guarantee that the Windows Socket SPI client always has current routing interface information for a given destination:
 
@@ -641,7 +635,7 @@ Associate the supplied <b><a href="https://docs.microsoft.com/en-us/previous-ver
 <span id="SIO_TRANSLATE_HANDLE__opcode_setting__I__O__T__1_"></span><span id="sio_translate_handle__opcode_setting__i__o__t__1_"></span><span id="SIO_TRANSLATE_HANDLE__OPCODE_SETTING__I__O__T__1_"></span>**SIO_TRANSLATE_HANDLE** (opcode setting: I, O, T==1)
 </dt> <dd>
 
-To obtain a corresponding handle for socket <i>s</i> that is valid in the context of a companion interface (for example, TH_NETDEV and TH_TAPI). A manifest constant identifying the companion interface along with any other needed parameters are specified in the input buffer. The corresponding handle will be available in the output buffer upon completion of this function. Refer to the appropriate section in the <i>Windows Sockets 2 Protocol-Specific Annex</i> and/or documentation for the particular companion interface for additional details. The <a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOPROTOOPT">WSAENOPROTOOPT</a>  error code is indicated for service providers that do not support this IOCTL for the specified companion interface. This IOCTL retrieves the handle associated using **SIO_TRANSLATE_HANDLE**.
+To obtain a corresponding handle for socket <i>s</i> that is valid in the context of a companion interface (for example, TH_NETDEV and TH_TAPI). A manifest constant identifying the companion interface along with any other needed parameters are specified in the input buffer. The corresponding handle will be available in the output buffer upon completion of this function. Refer to the appropriate section in the <i>Windows Sockets 2 Protocol-Specific Annex</i> and/or documentation for the particular companion interface for additional details. The <a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOPROTOOPT">WSAENOPROTOOPT</a>  error code is indicated for service providers that do not support this IOCTL for the specified companion interface. This IOCTL retrieves the handle associated using **SIO_TRANSLATE_HANDLE**.
 
 It is recommended that COM be used instead of this IOCTL to discover and track other interfaces that might be supported by a socket. This IOCTL is present for backward compatibility with systems where COM is not available or cannot be used for some other reason.
 
@@ -656,15 +650,15 @@ It is recommended that COM be used instead of this IOCTL to discover and track o
 
 When called with an overlapped socket, the <i>lpOverlapped</i> parameter must be valid for the duration of the overlapped operation.
 
-If the <i>lpCompletionRoutine</i> parameter is **NULL**, the service provider signals the **hEvent** member of <i>lpOverlapped</i> when the overlapped operation completes if it contains a valid event object handle. The Windows Sockets SPI client can use <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a> to poll or wait on the event object.
+If the <i>lpCompletionRoutine</i> parameter is **NULL**, the service provider signals the **hEvent** member of <i>lpOverlapped</i> when the overlapped operation completes if it contains a valid event object handle. The Windows Sockets SPI client can use <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a> to poll or wait on the event object.
 
-If <i>lpCompletionRoutine</i> is not **NULL**, the **hEvent** member is ignored and can be used by the Windows Sockets SPI client to pass context information to the completion routine. A client that passes a non-**NULL** <i>lpCompletionRoutine</i> and later calls <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-wsagetoverlappedresult">WSAGetOverlappedResult</a></b> for the same overlapped I/O request may not set the <i>fWait</i> parameter for that invocation of **WSAGetOverlappedResult** to **TRUE**. In this case, the usage of the **hEvent** member is undefined, and attempting to wait on the **hEvent** member would produce unpredictable results.
+If <i>lpCompletionRoutine</i> is not **NULL**, the **hEvent** member is ignored and can be used by the Windows Sockets SPI client to pass context information to the completion routine. A client that passes a non-**NULL** <i>lpCompletionRoutine</i> and later calls <b><a href="/windows/win32/api/winsock2/nf-winsock2-wsagetoverlappedresult">WSAGetOverlappedResult</a></b> for the same overlapped I/O request may not set the <i>fWait</i> parameter for that invocation of **WSAGetOverlappedResult** to **TRUE**. In this case, the usage of the **hEvent** member is undefined, and attempting to wait on the **hEvent** member would produce unpredictable results.
 
 It is the service provider's responsibility to arrange for invocation of the client specified–completion routine when the overlapped operation completes. Since the completion routine must be executed in the context of the same thread that initiated the overlapped operation, it cannot be invoked directly from the service provider. The WS2_32.DLL offers an asynchronous procedure call (APC) mechanism to facilitate invocation of completion routines.
 
-A service provider arranges for a function to be executed in the proper thread and process context by calling <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a></b>. This function can be called from any process and thread context, even a context different from the thread and process that was used to initiate the overlapped operation.
+A service provider arranges for a function to be executed in the proper thread and process context by calling <b><a href="/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a></b>. This function can be called from any process and thread context, even a context different from the thread and process that was used to initiate the overlapped operation.
 
-<b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a></b> takes as input parameters a pointer to a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a></b> structure (supplied to the provider through the <i>lpThreadId</i> input parameter), a pointer to an APC function to be invoked, and a 32-bit context value that is subsequently passed to the APC function. Because only a single 32-bit context value is available, the APC function itself cannot be the client specified–completion routine. The service provider must instead supply a pointer to its own APC function that uses the supplied context value to access the needed result information for the overlapped operation, and then invokes the client specified–completion routine.
+<b><a href="/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a></b> takes as input parameters a pointer to a <b><a href="/windows/win32/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a></b> structure (supplied to the provider through the <i>lpThreadId</i> input parameter), a pointer to an APC function to be invoked, and a 32-bit context value that is subsequently passed to the APC function. Because only a single 32-bit context value is available, the APC function itself cannot be the client specified–completion routine. The service provider must instead supply a pointer to its own APC function that uses the supplied context value to access the needed result information for the overlapped operation, and then invokes the client specified–completion routine.
 
 The prototype for the client-supplied completion routine is as follows:
 
@@ -684,15 +678,15 @@ Returning from this function allows invocation of another pending completion rou
 The IOCTL codes with T == 0 are a subset of the IOCTL codes used in Berkeley sockets. In particular, there is no command that is equivalent to FIOASYNC.
 
 > [!Note]  
-> All I/O initiated by a given thread is canceled when that thread exits. For overlapped sockets, pending asynchronous operations can fail if the thread is closed before the operations complete. See <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a></b> for more information.
+> All I/O initiated by a given thread is canceled when that thread exits. For overlapped sockets, pending asynchronous operations can fail if the thread is closed before the operations complete. See <b><a href="/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a></b> for more information.
 
 ## -see-also
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a>
+<a href="/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a>
    
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockopt">LPWSPGetSockopt</a>
-   
-
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsetsockopt">LPWSPSetSockOpt</a>
+<a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockopt">LPWSPGetSockopt</a>
    
 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
+<a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsetsockopt">LPWSPSetSockOpt</a>
+   
+
+<a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
