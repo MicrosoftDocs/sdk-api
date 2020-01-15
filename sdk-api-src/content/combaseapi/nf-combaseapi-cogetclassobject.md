@@ -82,7 +82,7 @@ A pointer to computer on which to instantiate the class object. If this paramete
 
 ### -param riid [in]
 
-Reference to the identifier of the interface, which will be supplied in ppv on successful return. This interface will be used to communicate with the class object. Typically this value is IID_IClassFactory, although other values â€“ such as IID_IClassFactory2 which supports a form of licensing â€“ are allowed. All OLE-defined interface IIDs are defined in the OLE header files as IID_interfacename, where interfacename is the name of the interface.
+Reference to the identifier of the interface, which will be supplied in _ppv_ on successful return. This interface will be used to communicate with the class object. Typically this value is IID_IClassFactory, although other values such as IID_IClassFactory2 which supports a form of licensing are allowed. All OLE-defined interface IIDs are defined in the OLE header files as IID_interfacename, where interfacename is the name of the interface.
 
 
 
