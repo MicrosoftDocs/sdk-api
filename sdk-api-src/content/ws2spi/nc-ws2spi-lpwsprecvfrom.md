@@ -313,12 +313,15 @@ A service provider arranges for a function to be executed in the proper thread a
 
 The prototype for the client-supplied completion routine is as follows:
 
-
-```C++
+```cpp
+void CALLBACK 
+CompletionRoutine(  
+  IN DWORD           dwError, 
+  IN DWORD           cbTransferred, 
+  IN LPWSAOVERLAPPED lpOverlapped, 
+  IN DWORD           dwFlags 
 );
 ```
-
-
 
 The CompletionRoutine is a placeholder for a client-supplied function name. <i>dwError</i> specifies the completion status for the overlapped operation as indicated by <i>lpOverlapped</i>. <i>cbTransferred</i> specifies the number of bytes received. <i>dwFlags</i> contains information that would have appeared in <i>lpFlags</i> if the receive operation had completed immediately. This function does not return a value.
 

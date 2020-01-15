@@ -223,14 +223,14 @@ A Windows Sockets SPI client can request that a TCP/IP provider enable the use o
 <span id="SO_LINGER"></span><span id="so_linger"></span>SO_LINGER
 </dt> <dd>
 
-SO_LINGER controls the action taken when unsent data is queued on a socket and a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b> is performed. See **LPWSPCloseSocket** for a description of the way in which the **SO_LINGER** settings affect the semantics of **LPWSPCloseSocket**. The Windows Sockets SPI client sets the desired behavior by creating a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-linger">LINGER</a></b> structure, pointed to by the <i>optval</i> parameter, with the following elements:
+SO_LINGER controls the action taken when unsent data is queued on a socket and a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b> is performed. See **LPWSPCloseSocket** for a description of the way in which the **SO_LINGER** settings affect the semantics of **LPWSPCloseSocket**. The Windows Sockets SPI client sets the desired behavior by creating a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-linger">LINGER</a></b> structure, pointed to by the <i>optval</i> parameter, with the following elements.
 
-
-```C++
-};
+```cpp
+struct linger {
+  u_short l_onoff;
+  u_short l_linger;
+}
 ```
-
-
 
 To enable **SO_LINGER**, a Windows Sockets SPI client should set **l_onoff** to a nonzero value, set **l_linger** to zero or the desired time-out, in seconds, and call **LPWSPSetSockOpt**. To enable **SO_DONTLINGER**, that is, disable SO_LINGER, **l_onoff** should be set to zero and **LPWSPSetSockOpt** should be called. Be aware that enabling **SO_LINGER** with a nonzero time-out on a nonblocking socket is not recommended. For more information, see <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b>.
 

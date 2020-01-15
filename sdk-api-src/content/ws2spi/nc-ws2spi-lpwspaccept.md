@@ -243,7 +243,7 @@ ConditionFunc(
   IN     LPWSABUF    lpCalleeId, 
   IN     LPWSABUF    lpCalleeData, 
   OUT    GROUP FAR * g, 	
-  IN     DWORD       dwCallbackData
+  IN     DWORD_PTR   dwCallbackData
 );
 ```
 

@@ -69,7 +69,6 @@ A pointer to the error code.
 ## -returns
 If no error occurs and the receive operation has completed immediately, **LPWSPRecv** returns zero. Note that in this case the completion routine, if specified, will have already been queued. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>. The error code WSA_IO_PENDING indicates that the overlapped operation has been successfully initiated and that completion will be indicated at a later time. Any other error code indicates that no overlapped operations was initiated and no completion indication will occur.
 
-
 <table>
 <tr>
 <th>Error Code</th>
@@ -278,20 +277,12 @@ For nonoverlapped sockets, the <i>lpOverlapped</i>, <i>lpCompletionRoutine</i>, 
 
 Whether or not a protocol is acting as byte-stream is determined by the setting of XP1_MESSAGE_ORIENTED and XP1_PSEUDO_STREAM in its <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa?redirectedfrom=MSDN">WSAPROTOCOL_INFO</a></b> structure and the setting of the MSG_PARTIAL flag passed in to this function (for protocols that support it). The relevant combinations are summarized in the following table (an asterisk (\*) indicates that the setting of this bit does not matter in this case).
 
-
-
 | XP1_MESSAGE_ORIENTED | XP1_PSEUDO_STREAM | MSG_PARTIAL | Acts as          |
 |------------------------|---------------------|--------------|------------------|
 | not set                | \*                  | \*           | byte stream      |
 | \*                     | set                 | \*           | byte stream      |
 | set                    | not set             | set          | byte stream      |
 | set                    | not set             | not set      | message oriented |
-
-
-
- 
-
- 
 
 The supplied buffers are filled in the order in which they appear in the array pointed to by <i>lpBuffers</i>, and the buffers are packed so that no holes are created.
 
@@ -303,19 +294,11 @@ For connection-oriented sockets, **LPWSPRecv** can indicate the graceful termina
 
 The <i>lpFlags</i> parameter can be used to influence the behavior of the function invocation beyond the options specified for the associated socket. That is, the semantics of this function are determined by the socket options and the <i>lpFlags</i> parameter. The latter is constructed by using the bitwise OR operator with any of the following values.
 
-
-
 | Value        | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | MSG_PEEK    | Peeks at the incoming data. The data is copied into the buffer but is not removed from the input queue. This flag is valid only for nonoverlapped sockets.                                                                                                                                                                                                                                                                                                                                                             |
 | MSG_OOB     | Processes Out Of Band (OOB) data.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | MSG_PARTIAL | This flag is for message-oriented sockets only. On output, indicates that the data supplied is a portion of the message transmitted by the sender. Remaining portions of the message will be supplied in subsequent receive operations. A subsequent receive operation with MSG_PARTIAL flag cleared indicates end of sender's message. As an input parameter, MSG_PARTIAL indicates that the receive operation should complete even if only part of a message has been received by the service provider.<br/> |
-
-
-
- 
-
- 
 
 If an overlapped operation completes immediately, **LPWSPRecv** returns a value of zero and the <i>lpNumberOfBytesRecvd</i> parameter is updated with the number of bytes received and the flag bits pointed by the <i>lpFlags</i> parameter are also updated. If the overlapped operation is successfully initiated and will complete later, **LPWSPRecv** returns SOCKET_ERROR and indicates error code [WSA_IO_PENDING](/windows/win32/winsock/windows-sockets-error-codes-2#wsa-io-pending). In this case, <i>lpNumberOfBytesRecvd</i> and <i>lpFlags</i> are not updated. When the overlapped operation completes the amount of data transferred is indicated either through the <i>cbTransferred</i> parameter in the completion routine (if specified), or through the <i>lpcbTransfer</i> parameter in <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a>. Flag values are obtained either through the <i>dwFlags</i> parameter of the completion routine, or by examining the <i>lpdwFlags</i> parameter of <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-wsagetoverlappedresult">WSAGetOverlappedResult</a></b>.
 
@@ -333,14 +316,17 @@ A service provider arranges for a function to be executed in the proper thread a
 
 <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a></b> takes as input parameters a pointer to a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a></b> structure (supplied to the provider through the <i>lpThreadId</i> input parameter), a pointer to an APC function to be invoked, and a context value that is subsequently passed to the APC function. Because only a single context value is available, the APC function itself cannot be the client specified–completion routine. The service provider must instead supply a pointer to its own APC function that uses the supplied context value to access the needed result information for the overlapped operation, and then invokes the client specified–completion routine.
 
-The prototype for the client-supplied completion routine is as follows:
+The prototype for the client-supplied completion routine is as follows.
 
-
-```C++
+```cpp
+void CALLBACK 
+CompletionRoutine(  
+  IN DWORD           dwError, 
+  IN DWORD           cbTransferred, 
+  IN LPWSAOVERLAPPED lpOverlapped, 
+  IN DWORD           dwFlags 
 );
 ```
-
-
 
 The <i>CompletionRoutine</i> parameter is a placeholder for a client-supplied function name. <i>dwError</i> specifies the completion status for the overlapped operation as indicated by <i>lpOverlapped</i>. The <i>cbTransferred</i> parameter specifies the number of bytes received. <i>dwFlags</i> contains information that would have appeared in <i>lpFlags</i> if the receive operation had completed immediately. This function does not return a value.
 
@@ -352,15 +338,10 @@ The completion routines can be called in any order, but not necessarily the same
 ## -see-also
 <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nf-ws2spi-wpucloseevent">WPUCloseEvent</a>
 
-
 <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nf-ws2spi-wpucreateevent">WPUCreateEvent</a>
-   
 
 <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a>
-   
 
 <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a>
-   
 
 <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
-  

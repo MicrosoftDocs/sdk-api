@@ -132,10 +132,9 @@ A source process calls **LPWSPDuplicateSocket** to obtain a special <b><a href="
 
 It is the service provider's responsibility to perform whatever operations are needed in the source process context and to create a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa?redirectedfrom=MSDN">WSAPROTOCOL_INFO</a></b> structure that will be recognized when it subsequently appears as a parameter to <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a></b> in the target processes' context. The provider must then return a socket descriptor that references a common underlying socket. The **dwProviderReserved** member of the **WSAPROTOCOL_INFO** structure is available for the service provider's use and can be used to store any useful context information, including a duplicated handle.
 
-When new socket descriptors are allocated, IFS providers must call <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nf-ws2spi-wpumodifyifshandle">WPUModifyIFSHandle</a></b> and non-IFS providers must call <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a></b>. To ensure proper execution of socket duplication, service providers must use the **LPWSPDuplicateSocket** function; do not use the <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a></b> function.
+When a new socket descriptor is allocated, an installable file system (IFS) provider must call [WPUModifyIFSHandle](/windows/win32/api/ws2spi/nf-ws2spi-wpumodifyifshandle), and a non-IFS provider must call [WPUCreateSocketHandle](/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle). An IFS provider can use the [DuplicateHandle](/windows/win32/api/handleapi/nf-handleapi-duplicatehandle) function. To ensure proper execution of socket duplication, a non-IFS service provider must use the **LPWSPDuplicateSocket** function.
 
 One possible scenario for establishing and using a shared socket in handoff mode is illustrated in the following.
-
 
 <table>
 <tr>

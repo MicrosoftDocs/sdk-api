@@ -120,36 +120,26 @@ The CompletionRoutine is a placeholder for an application-supplied function name
 
 In as much as the <i>dwIoControlCode</i> parameter is now a 32-bit entity, it is possible to adopt an encoding scheme that provides a convenient way to partition the opcode identifier space. The <i>dwIoControlCode</i> parameter is constructed to allow for protocol and vendor independence when adding new control codes, while retaining backward compatibility with Windows Sockets 1.1 and UNIX control codes. The <i>dwIoControlCode</i> parameter has the following form.
 
+|||||||
+|----|----|----|-----|-----------------------|---------------------------------|
+| bit 31 | bit 30 | bit 29 | bits 28 and 27 | bits 26 thru 16 | bits 15 thru 0 |
+| **I** | **O** | **V** | **T** | **Vendor/Address family** | **Code** |
 
+**I** is set if the input buffer is valid for the code, as with **IOC_IN**.
 
-| I   | O   | V   | T   | Vendor/Address family | Code                            |
-|-----|-----|-----|-----|-----------------------|---------------------------------|
-| 3   | 3   | 2   | 2 2 | 2 2 2 2 2 2 2 1 1 1 1 | 1 1 1 1 1 1                     |
-| 1   | 0   | 9   | 8 7 | 6 5 4 3 2 1 0 9 8 7 6 | 5 4 3 2 1 0 9 8 7 6 5 4 3 2 1 0 |
+**O** is set if the output buffer is valid for the code, as with **IOC_OUT**. Note that for codes with both input and output parameters, both **I** and **O** will be set.
 
+**V** is set if there are no parameters for the code, as with **IOC_VOID**.
 
+**T** is a two-bit quantity that defines the type of IOCTL. The following values are defined.
+- **0** indicates that the IOCTL is a standard UNIX IOCTL code, as with **FIONREAD**, **FIONBIO**, and so on.
+- **1** indicates that the IOCTL is a generic Windows Sockets 2 IOCTL code. New IOCTL codes defined for Windows Sockets 2 will have **T** == **1**.
+- **2** indicates that the IOCTL applies only to a specific address family.
+- **3**  The IOCTL applies only to a specific vendor's provider. This type allows companies to be assigned a vendor number that appears in the **Vendor/Address family** member. Then, the vendor can define new IOCTLs specific to that vendor without having to register the IOCTL with a clearinghouse, thereby providing vendor flexibility and privacy.
 
- 
+**Vendor/Address family** is an 11-bit quantity that defines the vendor who owns the code (if **T** == **3**), or that contains the address family to which the code applies (if **T** == **2**). If this is a UNIX IOCTL code (**T** == **0**) then this member has the same value as the code on UNIX. If this is a generic Windows Sockets 2 IOCTL (**T** == **1**) then this member can be used as an extension of the code member to provide additional code values.
 
-I Set if the input buffer is valid for the code, as with **IOC_IN**.
-
-O Set if the output buffer is valid for the code, as with **IOC_OUT**. Note that for codes with both input and output parameters, both I and O will be set.
-
-V Set if there are no parameters for the code, as with **IOC_VOID**.
-
-T A two-bit quantity that defines the type of IOCTL. The following values are defined:
-
-0 The IOCTL is a standard UNIX IOCTL code, as with **FIONREAD** and **FIONBIO**.
-
-1 The IOCTL is a generic Windows Sockets 2 IOCTL code. New IOCTL codes defined for Windows Sockets 2 will have T == 1.
-
-2 The IOCTL applies only to a specific address family.
-
-3 The IOCTL applies only to a specific vendor's provider. This type allows companies to be assigned a vendor number that appears in the **Vendor/Address family** member. Then, the vendor can define new IOCTLs specific to that vendor without having to register the IOCTL with a clearinghouse, thereby providing vendor flexibility and privacy.
-
-The **Vendor/Address family** is an 11-bit quantity that defines the vendor who owns the code (if T == 3) or that contains the address family to which the code applies (if T == 2). If this is a UNIX IOCTL code (T == 0) then this member has the same value as the code on UNIX. If this is a generic Windows Sockets 2 IOCTL (T == 1) then this member can be used as an extension of the code member to provide additional code values.
-
-**Code** The specific IOCTL code for the operation.
+**Code** is the specific IOCTL code for the operation.
 
 The following UNIX commands are supported:
 
@@ -220,7 +210,7 @@ Obtains a list of local transport addresses of the socket's protocol family to w
 -   Issue **SIO_ADDRESS_LIST_QUERY** IOCTL
 -   Whenever **SIO_ADDRESS_LIST_CHANGE** IOCTL notifies the application of address list change (either through overlapped I/O or by signaling FD_ADDRESS_LIST_CHANGE event), the whole sequence of actions should be repeated.
 
-For more detailed information, see the [**SIO_ADDRESS_LIST_QUERY**](sio-address-list-query.md) reference. **SIO_ADDRESS_LIST_QUERY** is supported on Windows 2000 and later.
+For more detailed information, see the [**SIO_ADDRESS_LIST_QUERY**](/previous-versions/windows/desktop/legacy/dd877219(v%3Dvs.85)) reference. **SIO_ADDRESS_LIST_QUERY** is supported on Windows 2000 and later.
 
 </dd> <dt>
 
@@ -465,14 +455,17 @@ Specifies the scope over which multicast transmissions will occur. Scope is defi
 <span id="SIO_QUERY_RSS_SCALABILITY_INFO__opcode_setting__O__T__3_"></span><span id="sio_query_rss_scalability_info__opcode_setting__o__t__3_"></span><span id="SIO_QUERY_RSS_SCALABILITY_INFO__OPCODE_SETTING__O__T__3_"></span>**SIO_QUERY_RSS_SCALABILITY_INFO** (opcode setting: O, T==3)
 </dt> <dd>
 
-Queries offload interfaces for receive-side scaling (RSS) capability. The argument structure returned for **SIO_QUERY_RSS_SCALABILITY_INFO** is specified in the **RSS_SCALABILITY_INFO** structure defined in the <i>Mstcpip.h</i> header file. This structure is defined as follows:
+Queries offload interfaces for receive-side scaling (RSS) capability. The argument structure returned for **SIO_QUERY_RSS_SCALABILITY_INFO** is specified in the **RSS_SCALABILITY_INFO** structure defined in the <i>Mstcpip.h</i> header file. This structure is defined as follows.
 
-
-```C++
-
+```cpp
+void CALLBACK 
+CompletionRoutine(  
+  IN DWORD           dwError, 
+  IN DWORD           cbTransferred, 
+  IN LPWSAOVERLAPPED lpOverlapped, 
+  IN DWORD           dwFlags 
+);
 ```
-
-
 
 The value returned in the **RssEnabled** member indicates if RSS is enabled on at least one interface.
 

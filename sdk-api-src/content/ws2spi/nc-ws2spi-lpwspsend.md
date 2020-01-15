@@ -292,14 +292,17 @@ A service provider arranges for a function to be executed in the proper thread b
 
 The <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a></b> function takes as input parameters a pointer to a <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a></b> structure (supplied to the provider through the <i>lpThreadId</i> input parameter), a pointer to an APC function to be invoked, and a context value that is subsequently passed to the APC function. Because only a single context value is available, the APC function itself cannot be the client specified–completion routine. The service provider must instead supply a pointer to its own APC function that uses the supplied context value to access the needed result information for the overlapped operation, and then invokes the client specified–completion routine.
 
-The prototype for the client-supplied completion routine is as follows:
+The prototype for the client-supplied completion routine is as follows.
 
-
-```C++
+```cpp
+void CALLBACK 
+CompletionRoutine(  
+  IN DWORD           dwError, 
+  IN DWORD           cbTransferred, 
+  IN LPWSAOVERLAPPED lpOverlapped, 
+  IN DWORD           dwFlags 
 );
 ```
-
-
 
 The CompletionRoutine is a placeholder for a client supplied function name. <i>dwError</i> specifies the completion status for the overlapped operation as indicated by <i>lpOverlapped</i>. <i>cbTransferred</i> specifies the number of bytes sent. No flag values are currently defined and the <i>dwFlags</i> value will be zero. This function does not return a value.
 
