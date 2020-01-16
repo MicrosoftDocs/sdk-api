@@ -75,7 +75,7 @@ A directory on the disk.
 If this parameter is <b>NULL</b>, the function uses the root of the current disk.
 
 If this parameter is a UNC name, it must include a trailing backslash, for example, 
-       "\\MyServer\MyShare\".
+       "\\\\MyServer\\MyShare\\".
 
 This parameter does not have to specify the root directory on a disk. The function accepts any directory on a 
        disk.
