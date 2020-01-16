@@ -170,7 +170,7 @@ Returns S_OK if successful; otherwise, returns one of the following values:
 Both heaps and committed resources can be shared.
         Sharing a committed resource shares the implicit heap along with the committed resource description, such that a compatible resource description can be mapped to the heap from another device. 
         For Direct3D 11 and Direct3D 12 interop scenarios, shared fences are opened in DX11 with the <a href="https://docs.microsoft.com/en-us/windows/win32/api/d3d11_4/nf-d3d11_4-id3d11device5-opensharedfence">ID3D11Device5::OpenSharedFence</a> member function and shared resources are opened with the <a href="https://docs.microsoft.com/en-us/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11device1-opensharedresource1">ID3D11Device::OpenSharedResource1</a> member function.
-        For Direct3D 12, shard handles are opened with the <a href="https://docs.microsoft.com/en-us/windows/win32/api/d3d12/nf-d3d12-id3d12device-opensharedhandle>ID3D12Device::OpenSharedHandle</a> member function or ID3D12Device::OpenSharedHandleByName.
+        For Direct3D 12, shared handles are opened with the <a href="https://docs.microsoft.com/en-us/windows/win32/api/d3d12/nf-d3d12-id3d12device-opensharedhandle">ID3D12Device::OpenSharedHandle</a> member function or ID3D12Device::OpenSharedHandleByName.
 
 
       
