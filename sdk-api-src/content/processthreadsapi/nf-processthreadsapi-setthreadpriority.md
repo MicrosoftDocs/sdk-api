@@ -237,7 +237,7 @@ The <b>THREAD_PRIORITY_*</b> values affect the CPU scheduling priority of the th
 
 When a thread is in background processing mode, it should minimize sharing resources such as critical sections, heaps, and handles with other threads in the process, otherwise priority inversions can occur. If there are threads executing at high priority, a thread in background processing mode may not be scheduled promptly, but it will never be starved.
 
-<b>Windows Server 2008 and Windows Vista:  </b>While the system is starting, the <b>SetThreadPriority</b> function returns a success return value but does not change thread priority  for applications that are started from the system Startup folder or listed in the <b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>Run</b> registry key. These applications run at reduced priority for a short time (approximately 60 seconds) to make the system more responsive to user actions during startup. 
+<b>Windows Server 2008 and Windows Vista:  </b>While the system is starting, the <b>SetThreadPriority</b> function returns a success return value but does not change thread priority  for applications that are started from the system Startup folder or listed in the <b>HKEY_LOCAL_MACHINE</b>\\<b>SOFTWARE</b>\\<b>Microsoft</b>\\<b>Windows</b>\\<b>CurrentVersion</b>\\<b>Run</b> registry key. These applications run at reduced priority for a short time (approximately 60 seconds) to make the system more responsive to user actions during startup. 
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps.
 
