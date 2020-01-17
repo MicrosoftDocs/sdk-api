@@ -3,7 +3,7 @@ UID: NA:cmnquery
 ms.assetid: abd5885b-c8db-3998-9edb-520f306c5343
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: ad
 ---
 

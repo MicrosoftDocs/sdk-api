@@ -3,7 +3,7 @@ UID: NA:dispatcherqueue
 ms.assetid: c8dd2bfa-e43d-3631-a911-59055132d000
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: base
 ---
 

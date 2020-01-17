@@ -3,7 +3,7 @@ UID: NA:stringapiset
 ms.assetid: b0a163cd-d95c-3cca-b637-b21e2c1741bc
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: intl
 ---
 

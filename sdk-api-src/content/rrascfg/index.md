@@ -3,7 +3,7 @@ UID: NA:rrascfg
 ms.assetid: 33fe5403-6b0a-3226-bec3-81a70b16d14e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: eap
 ---
 

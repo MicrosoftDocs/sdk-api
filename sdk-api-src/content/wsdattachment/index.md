@@ -3,7 +3,7 @@ UID: NA:wsdattachment
 ms.assetid: 72724d5c-8b15-3e29-b82f-3121bb521659
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: ncd
 ---
 

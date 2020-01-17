@@ -3,7 +3,7 @@ UID: NA:wct
 ms.assetid: 04c676ca-472b-3429-9445-0f8c26ce9170
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: base
 ---
 

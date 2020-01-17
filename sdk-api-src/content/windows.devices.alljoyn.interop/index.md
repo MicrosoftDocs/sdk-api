@@ -3,7 +3,7 @@ UID: NA:windows.devices.alljoyn.interop
 ms.assetid: 2c766203-b990-32c4-bed9-d664aec33084
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: alljoyn
 ---
 

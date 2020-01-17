@@ -3,7 +3,7 @@ UID: NA:msctf
 ms.assetid: ef92eca1-73be-3e47-bafd-fff6e05e51ac
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: tsf
 ---
 

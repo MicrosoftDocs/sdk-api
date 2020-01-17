@@ -3,7 +3,7 @@ UID: TP:iscsitarg
 ms.assetid: 55221415-bb39-3fdd-9d5e-3be143be538d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # iSCSI Target Server Provider

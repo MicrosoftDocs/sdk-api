@@ -3,7 +3,7 @@ UID: NA:msiquery
 ms.assetid: 9a9d70d7-e5fb-3262-964b-62f94fd6201f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: setup
 ---
 

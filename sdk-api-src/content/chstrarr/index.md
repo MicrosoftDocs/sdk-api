@@ -3,7 +3,7 @@ UID: NA:chstrarr
 ms.assetid: e38b81d1-057e-3ea0-bd92-b6c10bc02719
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: wmi
 ---
 

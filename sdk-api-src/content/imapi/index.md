@@ -3,7 +3,7 @@ UID: NA:imapi
 ms.assetid: 5c97d1a0-3ba6-3560-9a81-8f890868b1f0
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: imapi
 ---
 

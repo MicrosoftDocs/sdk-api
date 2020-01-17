@@ -3,7 +3,7 @@ UID: NA:xenroll
 ms.assetid: 97a71295-ffa2-3103-9402-0ae01f1a9ca9
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: security
 ---
 

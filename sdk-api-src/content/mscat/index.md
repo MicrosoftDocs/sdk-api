@@ -3,7 +3,7 @@ UID: NA:mscat
 ms.assetid: 0ccc0ad4-1626-30c5-b59d-db12f260faa0
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: security
 ---
 

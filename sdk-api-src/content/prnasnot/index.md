@@ -3,7 +3,7 @@ UID: NA:prnasnot
 ms.assetid: 1eb91635-73d3-3f0b-9f59-38a93fa05834
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: gdi
 ---
 

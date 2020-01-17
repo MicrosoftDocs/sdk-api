@@ -3,7 +3,7 @@ UID: NA:mfreadwrite
 ms.assetid: 31d4c454-f1ac-361d-a5a9-077050faf944
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: mf
 ---
 

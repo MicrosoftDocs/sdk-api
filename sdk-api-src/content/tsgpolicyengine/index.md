@@ -3,7 +3,7 @@ UID: NA:tsgpolicyengine
 ms.assetid: e10a2b62-7ae2-38df-8c08-1cae3a20664b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: termserv
 ---
 

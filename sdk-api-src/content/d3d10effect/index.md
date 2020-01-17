@@ -3,7 +3,7 @@ UID: NA:d3d10effect
 ms.assetid: bf99cf0b-02b4-3ff6-bcf5-70a97c32691a
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: direct3d10
 ---
 

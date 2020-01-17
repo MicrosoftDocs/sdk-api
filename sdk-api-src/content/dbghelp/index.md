@@ -3,7 +3,7 @@ UID: NA:dbghelp
 ms.assetid: 63d2ebef-ed2d-346d-9d25-eeb8f171c5c3
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: base
 ---
 

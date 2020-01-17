@@ -3,7 +3,7 @@ UID: NA:loadperf
 ms.assetid: f0322b8e-3b6d-33fb-a951-03f5bdca629b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: winprog
 ---
 

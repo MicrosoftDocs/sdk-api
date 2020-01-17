@@ -3,7 +3,7 @@ UID: TP:wmmdvdm
 ms.assetid: 2918b17d-1d88-3802-aeee-9f212bd56dfe
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Windows Movie Maker 6.0 and Windows DVD Maker 1.0 SDK

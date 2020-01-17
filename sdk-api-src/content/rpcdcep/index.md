@@ -3,7 +3,7 @@ UID: NA:rpcdcep
 ms.assetid: 466566d5-c1f1-3a27-b263-0e94ec24f7b9
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: rpc
 ---
 

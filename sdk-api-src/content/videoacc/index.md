@@ -3,7 +3,7 @@ UID: NA:videoacc
 ms.assetid: 13e308ee-c79d-328e-872a-7614ff20daeb
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: dshow
 archived: true
 ---

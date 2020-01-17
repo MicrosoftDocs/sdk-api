@@ -3,7 +3,7 @@ UID: TP:wininet
 ms.assetid: a15a265a-5b11-3750-b1a2-587bb83a92f1
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Windows Internet

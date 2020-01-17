@@ -3,7 +3,7 @@ UID: TP:wingen
 ms.assetid: e9c62382-8b92-33aa-8f38-f0150c61496b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Windows Genuine Advantage API

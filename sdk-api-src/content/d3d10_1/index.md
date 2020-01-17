@@ -3,7 +3,7 @@ UID: NA:d3d10_1
 ms.assetid: 4ba732e9-2aa8-3873-97ce-3ba8c5283104
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: direct3d10
 ---
 

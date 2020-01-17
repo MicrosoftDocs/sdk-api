@@ -3,7 +3,7 @@ UID: NA:tapi3
 ms.assetid: 2a803490-7d07-3381-9db6-225fc7f8dfbb
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: tapi3
 ---
 

@@ -3,7 +3,7 @@ UID: NA:efswrtinterop
 ms.assetid: 7abe7af0-89b1-33bb-a90b-5f41c2980004
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: edp
 archived: true
 ---

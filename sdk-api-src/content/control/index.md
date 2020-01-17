@@ -3,7 +3,7 @@ UID: NA:control
 ms.assetid: f733fa94-5a03-3d90-8bc0-76283dc51940
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: dshow
 ---
 

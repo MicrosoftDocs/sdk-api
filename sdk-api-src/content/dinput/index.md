@@ -3,7 +3,7 @@ UID: NA:dinput
 ms.assetid: b3863d7e-5815-3deb-b7ae-defb8eb6e15a
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: hid
 ---
 

@@ -3,7 +3,7 @@ UID: NA:windows.graphics.imaging.interop
 ms.assetid: 79a1faa0-5343-3d8b-b1cb-77a394593ff1
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: winrt
 ---
 

@@ -3,7 +3,7 @@ UID: NA:identitycommon
 ms.assetid: ecfe21d1-b6bf-32d4-a8cf-93ffd4272965
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: security
 ---
 

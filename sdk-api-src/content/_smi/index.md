@@ -3,7 +3,7 @@ UID: TP:smi
 ms.assetid: b1cdcf64-e5d8-3c70-974f-c11fa9c6d21f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Settings Management Infrastructure (SMI)

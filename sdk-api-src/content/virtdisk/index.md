@@ -3,7 +3,7 @@ UID: NA:virtdisk
 ms.assetid: a48ab29b-70df-3605-aa11-a93da33433d8
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: vhd
 ---
 

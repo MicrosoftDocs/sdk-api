@@ -3,7 +3,7 @@ UID: NA:shlobj
 ms.assetid: 7e8dadd8-b163-38b9-92c1-3788e581a6ce
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: controls
 ---
 

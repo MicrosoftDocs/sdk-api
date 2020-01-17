@@ -3,7 +3,7 @@ UID: NA:d3d12video
 ms.assetid: 
 ms.date: 03/19/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: mf
 ---
 

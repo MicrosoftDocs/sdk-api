@@ -3,7 +3,7 @@ UID: NA:d3d10shader
 ms.assetid: eea57fb4-925c-3f6e-a61c-1512fed0a24c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: direct3d10
 ---
 

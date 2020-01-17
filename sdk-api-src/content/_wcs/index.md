@@ -3,7 +3,7 @@ UID: TP:wcs
 ms.assetid: eeb1ffa7-e242-359c-9255-b6198917a526
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Windows Color System

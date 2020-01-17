@@ -3,7 +3,7 @@ UID: NA:dhcpv6csdk
 ms.assetid: f31358a7-4b3e-352e-be82-92517d26ec1c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: dhcp
 ---
 

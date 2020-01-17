@@ -3,7 +3,7 @@ UID: NA:ncryptprotect
 ms.assetid: 47b92e44-e7e5-337a-aa66-31b792346c0a
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: security
 ---
 

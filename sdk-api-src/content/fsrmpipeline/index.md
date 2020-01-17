@@ -3,7 +3,7 @@ UID: NA:fsrmpipeline
 ms.assetid: 1100e59c-44eb-35fa-abbc-b0e9423b5969
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: fsrm
 ---
 

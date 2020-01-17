@@ -3,7 +3,7 @@ UID: NA:wmsbuffer
 ms.assetid: 3613131a-c116-3995-accb-050d1c0c8353
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: wmformat
 archived: true
 ---

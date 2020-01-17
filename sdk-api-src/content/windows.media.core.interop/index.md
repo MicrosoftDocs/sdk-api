@@ -3,7 +3,7 @@ UID: NA:windows.media.core.interop
 ms.assetid: ac82089b-5833-36c5-961e-38216f91cd89
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: winrt
 ---
 

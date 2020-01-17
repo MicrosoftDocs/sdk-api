@@ -3,7 +3,7 @@ UID: TP:tbs
 ms.assetid: b019afc6-9bb9-3617-8f7c-f2c8dc273ea7
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # TPM Base Services

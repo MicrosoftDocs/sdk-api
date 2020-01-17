@@ -3,7 +3,7 @@ UID: NA:d2d1
 ms.assetid: 987984de-3b73-3b3f-8ffc-38d9e4024997
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: direct2d
 ---
 

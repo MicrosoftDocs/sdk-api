@@ -3,7 +3,7 @@ UID: NA:sessdirpublictypes
 ms.assetid: 5f270033-e013-3a22-892b-c87e56f63488
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: termserv
 ---
 

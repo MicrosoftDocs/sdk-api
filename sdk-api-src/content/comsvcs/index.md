@@ -3,7 +3,7 @@ UID: NA:comsvcs
 ms.assetid: 03923598-8e51-32d0-ab59-a6cc44135a18
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: winmessenger
 ---
 

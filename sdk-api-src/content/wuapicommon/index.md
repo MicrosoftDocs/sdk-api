@@ -3,7 +3,7 @@ UID: NA:wuapicommon
 ms.assetid: dc973ffc-d9e6-3b90-8eff-c56a3d671c92
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: wua
 ---
 

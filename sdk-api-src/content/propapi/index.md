@@ -3,7 +3,7 @@ UID: NA:propapi
 ms.assetid: c29f690c-152d-37dd-8171-91d771ca2a99
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: stg
 ---
 

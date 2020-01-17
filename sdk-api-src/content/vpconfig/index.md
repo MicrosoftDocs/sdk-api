@@ -3,7 +3,7 @@ UID: NA:vpconfig
 ms.assetid: 3de5c87a-e20a-3050-8a52-ba60800977f1
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: dshow
 archived: true
 ---

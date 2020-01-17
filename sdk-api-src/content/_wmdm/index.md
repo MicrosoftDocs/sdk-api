@@ -3,7 +3,7 @@ UID: TP:wmdm
 ms.assetid: ffc3f87d-c8ce-3f13-8c97-815310907dc0
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Windows Media Device Manager 11 SDK

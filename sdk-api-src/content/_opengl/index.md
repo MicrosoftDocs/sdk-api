@@ -3,7 +3,7 @@ UID: TP:opengl
 ms.assetid: f3b832d0-ebcb-33ea-bfb2-aa910e23d054
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # OpenGL

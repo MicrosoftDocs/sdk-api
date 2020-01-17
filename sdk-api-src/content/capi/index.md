@@ -3,7 +3,7 @@ UID: NA:capi
 ms.assetid: fff82193-eb79-3515-ab53-ba472b0f2a56
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: winprog
 ---
 

@@ -3,7 +3,7 @@ UID: NA:raseapif
 ms.assetid: e655ee18-e35d-3e45-a978-87a1288d8061
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: eap
 ---
 

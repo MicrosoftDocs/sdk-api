@@ -3,7 +3,7 @@ UID: NA:wmcontainer
 ms.assetid: bc85a06e-51f0-3104-9a96-35b003f555ac
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: mf
 ---
 

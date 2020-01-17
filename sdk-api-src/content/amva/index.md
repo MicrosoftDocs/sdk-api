@@ -3,7 +3,7 @@ UID: NA:amva
 ms.assetid: 05d449fc-d8fc-34fa-94e6-139135cb409a
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: dshow
 archived: true
 ---

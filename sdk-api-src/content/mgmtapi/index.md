@@ -3,7 +3,7 @@ UID: NA:mgmtapi
 ms.assetid: c4208891-4fd0-3a6d-98ce-9203b0e28cd2
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: snmp
 ---
 

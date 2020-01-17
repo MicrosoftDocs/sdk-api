@@ -3,7 +3,7 @@ UID: NA:stm
 ms.assetid: 2c3fca5c-e1f9-3a98-9847-9d97845b84be
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: rras
 ---
 

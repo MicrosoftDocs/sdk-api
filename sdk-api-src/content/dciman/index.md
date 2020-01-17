@@ -3,7 +3,7 @@ UID: NA:dciman
 ms.assetid: bd676d3c-636f-3d67-9081-41926146aed2
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: winprog
 ---
 

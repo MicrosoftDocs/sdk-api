@@ -3,7 +3,7 @@ UID: NA:tspubplugincom
 ms.assetid: db5925cd-1105-35d1-afda-0717160667d6
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: termserv
 ---
 
