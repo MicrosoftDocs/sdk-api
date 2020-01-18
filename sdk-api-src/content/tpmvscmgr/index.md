@@ -3,7 +3,7 @@ UID: NA:tpmvscmgr
 ms.assetid: 854666f9-436b-3b7c-b8bb-dc79f5cd74e6
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: security
 ---
 

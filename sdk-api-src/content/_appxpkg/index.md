@@ -3,7 +3,7 @@ UID: TP:appxpkg
 ms.assetid: 293875dc-2153-3c83-b216-e0140d6681e4
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Packaging, deployment, and query of Windows Store apps

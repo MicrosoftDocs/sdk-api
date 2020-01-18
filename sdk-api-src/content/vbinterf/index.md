@@ -3,7 +3,7 @@ UID: NA:vbinterf
 ms.assetid: 81393bd3-e71f-31d0-b3b7-458661ff2647
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: com
 ---
 

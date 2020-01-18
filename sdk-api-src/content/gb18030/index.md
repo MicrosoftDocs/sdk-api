@@ -3,7 +3,7 @@ UID: NA:gb18030
 ms.assetid: 0127d981-a784-3545-bf9e-7ba347005523
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: intl
 ---
 

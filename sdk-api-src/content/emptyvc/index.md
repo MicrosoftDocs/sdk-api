@@ -3,7 +3,7 @@ UID: NA:emptyvc
 ms.assetid: dc9171a7-acf9-3e6d-b584-9fdbd2cebd74
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: lwef
 ---
 

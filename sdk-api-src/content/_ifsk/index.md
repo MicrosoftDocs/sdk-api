@@ -3,7 +3,7 @@ UID: TP:ifsk
 ms.assetid: c842e40c-3483-3721-b6bf-4da6e333af1a
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Installable file systems DDI reference

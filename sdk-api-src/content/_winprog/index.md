@@ -3,7 +3,7 @@ UID: TP:winprog
 ms.assetid: 83e6e3dc-b151-3e86-ac66-a7eabe59b7b6
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Developer Notes

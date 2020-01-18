@@ -3,7 +3,7 @@ UID: NA:mstcpip
 ms.assetid: 5795aad3-d73f-3d60-acb3-db3855cccafa
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: winsock
 ---
 

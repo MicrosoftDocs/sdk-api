@@ -3,7 +3,7 @@ UID: TP:direct3d10
 ms.assetid: a9b90496-403a-3103-9c22-78cf6593fb96
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Direct3D 10 Graphics

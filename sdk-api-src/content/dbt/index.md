@@ -3,7 +3,7 @@ UID: NA:dbt
 ms.assetid: cc1c1ad4-0659-3db1-a026-4ab396fc7c33
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: base
 ---
 

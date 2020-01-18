@@ -3,7 +3,7 @@ UID: TP:toolhelp
 ms.assetid: bbb1a0a1-e6e5-3e10-914e-b5a3e35dfb5e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Tool Help Library

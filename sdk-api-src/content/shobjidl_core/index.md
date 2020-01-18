@@ -3,7 +3,7 @@ UID: NA:shobjidl_core
 ms.assetid: 73c069a9-9e15-357c-9c84-3dd7166c825c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: properties
 ---
 

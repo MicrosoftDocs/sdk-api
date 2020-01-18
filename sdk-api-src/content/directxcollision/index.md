@@ -3,7 +3,7 @@ UID: NA:directxcollision
 ms.assetid: 99342ae6-316f-3c01-8d39-173dd588aa1c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: dxmath
 ---
 

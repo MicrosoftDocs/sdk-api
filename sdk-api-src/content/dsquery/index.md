@@ -3,7 +3,7 @@ UID: NA:dsquery
 ms.assetid: a83ae1ee-3fe9-3c09-8fc2-4b96ea35acb2
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: ad
 ---
 

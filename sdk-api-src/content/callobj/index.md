@@ -3,7 +3,7 @@ UID: NA:callobj
 ms.assetid: 4f9d8388-f254-38ce-8079-ea72ba0796f4
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: com
 ---
 

@@ -3,7 +3,7 @@ UID: TP:wcm
 ms.assetid: 022e09f2-6845-37d9-bf82-c9eb1f6ba5ab
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Windows Connection Manager

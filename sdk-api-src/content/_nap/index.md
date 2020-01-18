@@ -3,7 +3,7 @@ UID: TP:nap
 ms.assetid: da2f9760-5388-3a9b-87b5-2055fc52784f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Network Access Protection

@@ -3,7 +3,7 @@ UID: NA:wcmconfig
 ms.assetid: 95ac423c-bf97-334b-a8ff-0e284ec817e7
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: smi
 ---
 

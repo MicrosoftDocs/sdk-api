@@ -3,7 +3,7 @@ UID: NA:gpmgmt
 ms.assetid: d6f6d8c9-d4c4-3bd5-b377-ca4015cf9c41
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: gpmc
 ---
 

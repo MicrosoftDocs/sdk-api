@@ -3,7 +3,7 @@ UID: TP:gamingdvcinfo
 ms.assetid: b4972891-4403-3035-b6d1-a021050f576f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Gaming Device Information

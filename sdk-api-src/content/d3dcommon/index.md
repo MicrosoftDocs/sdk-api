@@ -3,7 +3,7 @@ UID: NA:d3dcommon
 ms.assetid: 74c800d7-df10-3e74-b39e-d36d7acd05ef
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: direct3d11
 ---
 

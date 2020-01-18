@@ -3,7 +3,7 @@ UID: NA:functiondiscoveryprovider
 ms.assetid: 2f4773ea-0356-383f-bf0d-c2cc96842842
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: ncd
 ---
 

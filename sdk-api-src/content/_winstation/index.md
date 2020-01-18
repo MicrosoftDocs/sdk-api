@@ -3,7 +3,7 @@ UID: TP:winstation
 ms.assetid: 3a5e52d7-77fd-394a-945f-244406c46175
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Window Stations and Desktops

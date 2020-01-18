@@ -3,7 +3,7 @@ UID: NA:nsemail
 ms.assetid: eaf7ba32-c687-3088-9d7e-e1eadfe0646e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: winsock
 ---
 

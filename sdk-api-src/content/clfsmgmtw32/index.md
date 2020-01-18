@@ -3,7 +3,7 @@ UID: NA:clfsmgmtw32
 ms.assetid: 31590a65-d681-39f5-91e5-6df5efb582fb
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: fs
 ---
 

@@ -3,7 +3,7 @@ UID: NA:mftransform
 ms.assetid: 0d01b4e7-a8bd-3daf-a967-84a5905034fd
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: mf
 ---
 

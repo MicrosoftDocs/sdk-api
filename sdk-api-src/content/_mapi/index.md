@@ -3,7 +3,7 @@ UID: TP:mapi
 ms.assetid: df90a58f-c6be-32ff-8ffe-8c92b362ec85
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Windows Messaging (MAPI)

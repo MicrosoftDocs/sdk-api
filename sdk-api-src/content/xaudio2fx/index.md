@@ -3,7 +3,7 @@ UID: NA:xaudio2fx
 ms.assetid: 5f39ed02-5d31-35b4-8add-f7d37e0d9cbf
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: xaudio2
 ---
 

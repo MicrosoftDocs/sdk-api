@@ -3,7 +3,7 @@ UID: NA:dwmapi
 ms.assetid: 2c136a87-153d-3485-b30d-37c922eb9a76
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: dwm
 ---
 

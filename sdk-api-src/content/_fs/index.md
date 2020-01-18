@@ -3,7 +3,7 @@ UID: TP:fs
 ms.assetid: a9f12332-38ed-3ca3-94de-b920c35101cd
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Data Access and Storage

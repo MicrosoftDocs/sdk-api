@@ -3,7 +3,7 @@ UID: NA:x3daudio
 ms.assetid: 07b380d5-6a4d-380a-b05e-6d9912f83b2b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: xaudio2
 ---
 

@@ -3,7 +3,7 @@ UID: NA:d2d1effects_1
 ms.assetid: e03e57f5-7922-331f-a70e-b183d198ba93
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: direct2d
 ---
 

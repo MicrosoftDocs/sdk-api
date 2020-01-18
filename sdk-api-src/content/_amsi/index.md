@@ -3,7 +3,7 @@ UID: TP:amsi
 ms.assetid: 2e9afe53-8233-3700-b784-fd4779116249
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Antimalware Scan Interface

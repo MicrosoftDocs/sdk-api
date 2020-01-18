@@ -3,7 +3,7 @@ UID: NA:bits2_0
 ms.assetid: e57aeadc-3684-3315-a06e-54ad7f000dad
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: bits
 ---
 

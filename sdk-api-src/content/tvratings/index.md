@@ -3,7 +3,7 @@ UID: NA:tvratings
 ms.assetid: 781bf555-7067-324a-badb-3c29797eba39
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: mstv
 archived: true
 ---

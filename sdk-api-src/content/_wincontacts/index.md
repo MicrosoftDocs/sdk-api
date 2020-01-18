@@ -3,7 +3,7 @@ UID: TP:wincontacts
 ms.assetid: e0e7bda2-6a92-33f7-a8e7-cf235874dd82
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Windows Contacts

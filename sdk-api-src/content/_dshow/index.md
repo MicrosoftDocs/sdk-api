@@ -3,7 +3,7 @@ UID: TP:dshow
 ms.assetid: b1546a05-da85-3ec0-b7d1-f1e3c27d19c5
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 archived: true
 ---
 

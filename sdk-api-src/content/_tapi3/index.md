@@ -3,7 +3,7 @@ UID: TP:tapi3
 ms.assetid: 64ae5436-6ff5-354b-8cdb-80f9efe7c1c9
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Telephony Application Programming Interfaces

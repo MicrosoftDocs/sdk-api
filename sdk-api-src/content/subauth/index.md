@@ -3,7 +3,7 @@ UID: NA:subauth
 ms.assetid: 9c39c148-90de-38f5-9692-43d80ffd4b1b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: security
 ---
 

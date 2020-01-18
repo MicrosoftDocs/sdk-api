@@ -3,7 +3,7 @@ UID: TP:winrt
 ms.assetid: 19ccb9a3-b0f9-3246-95d5-0d1c2650a2d5
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Windows Runtime C++ reference

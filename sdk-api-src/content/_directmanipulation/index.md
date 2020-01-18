@@ -3,7 +3,7 @@ UID: TP:directmanipulation
 ms.assetid: b4054831-982d-3b85-96f1-a2f6819aac6a
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Direct Manipulation

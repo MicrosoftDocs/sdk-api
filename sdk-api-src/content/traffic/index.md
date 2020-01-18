@@ -3,7 +3,7 @@ UID: NA:traffic
 ms.assetid: 3b68caa4-02b0-3b3b-b132-3980a3c09514
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: qos
 ---
 

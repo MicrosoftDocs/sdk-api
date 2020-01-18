@@ -3,7 +3,7 @@ UID: NA:mpeg2psiparser
 ms.assetid: 54715a95-b419-3892-8010-27255b61e7a0
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: mstv
 archived: true
 ---

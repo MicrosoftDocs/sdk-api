@@ -3,7 +3,7 @@ UID: NA:windows.media.streaming
 ms.assetid: 9b4f8128-bd7f-360f-973e-176b548774c2
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: mediastreaming
 archived: true
 ---

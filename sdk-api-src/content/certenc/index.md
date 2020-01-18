@@ -3,7 +3,7 @@ UID: NA:certenc
 ms.assetid: 85d548ab-64b8-378d-b871-637af43e23eb
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: security
 ---
 

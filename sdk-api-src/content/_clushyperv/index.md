@@ -3,7 +3,7 @@ UID: TP:clushyperv
 ms.assetid: 09a832ff-7219-3268-86c1-02f6fc739622
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Failover Clustering Hyper-V WMI Provider

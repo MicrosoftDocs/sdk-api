@@ -3,7 +3,7 @@ UID: TP:cimwin32
 ms.assetid: 92dbe873-a150-3410-9a24-d0fb9f4bda00
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # CIMWin32 WMI Providers

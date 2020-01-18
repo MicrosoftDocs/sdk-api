@@ -3,7 +3,7 @@ UID: NA:comcat
 ms.assetid: 65650daf-ed77-35e1-bc89-cd88d0ca1d64
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: com
 ---
 

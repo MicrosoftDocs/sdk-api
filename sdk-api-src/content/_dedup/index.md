@@ -3,7 +3,7 @@ UID: TP:dedup
 ms.assetid: cd834ca0-b712-386c-8042-173e3d8c8820
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Data Deduplication API

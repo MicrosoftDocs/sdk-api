@@ -2,7 +2,7 @@
 UID: NA:diagnosticdataquery
 ms.date: 08/19/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: security
 ---
 

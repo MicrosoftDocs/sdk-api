@@ -3,7 +3,7 @@ UID: NA:structuredquery
 ms.assetid: 1e8d25dd-fd2d-3c20-8fc7-cac06317a8ed
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: search
 ---
 

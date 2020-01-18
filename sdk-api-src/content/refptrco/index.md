@@ -3,7 +3,7 @@ UID: NA:refptrco
 ms.assetid: f80ad2b3-75e3-3de1-b71a-f841b474b6b3
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: wmi
 ---
 

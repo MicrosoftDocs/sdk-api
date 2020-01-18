@@ -3,7 +3,7 @@ UID: NA:gdiplusimaging
 ms.assetid: 94b6f27c-995e-336a-b084-40d41214618e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: gdiplus
 ---
 

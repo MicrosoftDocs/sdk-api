@@ -3,7 +3,7 @@ UID: NA:ncrypt
 ms.assetid: 9d9ca017-f280-36f9-bfa9-e3f802095a19
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: security
 ---
 

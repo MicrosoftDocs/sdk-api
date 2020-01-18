@@ -3,7 +3,7 @@ UID: NA:wabapi
 ms.assetid: 03f7eea4-0c0d-3b20-9057-af11bd3c91b6
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: wab
 ---
 

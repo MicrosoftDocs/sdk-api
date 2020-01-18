@@ -3,7 +3,7 @@ UID: TP:bltooth
 ms.assetid: a24d2124-fb4a-3c14-aeb8-83c46e9ed71c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Bluetooth Devices Reference

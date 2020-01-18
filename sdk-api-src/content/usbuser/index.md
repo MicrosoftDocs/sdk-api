@@ -3,7 +3,7 @@ UID: NA:usbuser
 ms.assetid: 4c366795-5d02-392f-8b00-48074d301df6
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: buses
 ---
 
