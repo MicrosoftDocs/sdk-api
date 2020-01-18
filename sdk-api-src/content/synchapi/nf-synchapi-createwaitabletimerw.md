@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 Creates or opens a waitable timer object.
 
-To specify an access mask for the object, use the [CreateWaitableTimerEx](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerexw)a> function.
+To specify an access mask for the object, use the [CreateWaitableTimerEx](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerexw) function.
 
 
 ## -parameters
@@ -126,9 +126,7 @@ Multiple processes can have handles to the same timer object, enabling use of th
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function can inherit a handle to a timer object if the <i>lpTimerAttributes</i> parameter of 
 <b>CreateWaitableTimer</b> enables inheritance.</li>
 <li>A process can specify the timer object handle in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> function. The resulting handle can be used by another process.</li>
-<li>A process can specify the name of a timer object in a call to the 
-[OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)a> or 
-<b>CreateWaitableTimer</b> function.</li>
+<li>A process can specify the name of a timer object in a call to the <a href="https://docs.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw">OpenWaitableTimer</a> or <b>CreateWaitableTimer</b> function.</li>
 </ul>
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The timer object is destroyed when its last handle has been closed.
 
