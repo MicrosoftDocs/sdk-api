@@ -59,9 +59,14 @@ To perform this operation, call the <a href="https://docs.microsoft.com/windows/
 <tr>
 <td>
 <pre>BOOL DeviceIoControl(
-  (HANDLE) hDevice,            // handle to a volume
-  (DWORD) FSCTL_DISMOUNT_VOLUME,   // dwIoControlCodeNULL,                        // lpInBuffer0,                           // nInBufferSizeNULL,                        // lpOutBuffer0,                           // nOutBufferSize(LPDWORD) lpBytesReturned,   // number of bytes returned
-  (LPOVERLAPPED) lpOverlapped  // OVERLAPPED structure
+  (HANDLE) hDevice,              // handle to a volume
+  (DWORD) FSCTL_DISMOUNT_VOLUME, // dwIoControlCode
+  NULL,                          // lpInBuffer
+  0,                             // nInBufferSize
+  NULL,                          // lpOutBuffer
+  0,                             // nOutBufferSize
+  (LPDWORD) lpBytesReturned,     // number of bytes returned
+  (LPOVERLAPPED) lpOverlapped    // OVERLAPPED structure
 );</pre>
 </td>
 </tr>
@@ -151,7 +156,7 @@ The <i>hDevice</i> handle passed to
      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
      <i>lpFileName</i> parameter set to a string of the following form:
 
-\\.\<i>X</i>:
+<i>\\\\.\\X:</i>
 
 where <i>X</i> is a hard-drive partition letter, floppy disk drive, or CD-ROM drive. The 
      application must also specify the <b>FILE_SHARE_READ</b> and 
