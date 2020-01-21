@@ -70,12 +70,12 @@ Retrieves a volume <b>GUID</b> path for the volume that is associated with the s
 
 ### -param lpszVolumeMountPoint [in]
 
-A pointer to a string that contains the path of a mounted folder (for example, "Y:\MountX\") or a drive letter (for example, "X:\"). The string must end with a trailing backslash ('\').
+A pointer to a string that contains the path of a mounted folder (for example, "Y:\MountX\\") or a drive letter (for example, "X:\\"). The string must end with a trailing backslash ('\\').
 
 
 ### -param lpszVolumeName [out]
 
-A pointer to a string that receives the volume <b>GUID</b> path. This path is of the form "\\?\Volume{<i>GUID</i>}\" where <i>GUID</i> is a <b>GUID</b> that identifies the volume. If there is more than one volume <b>GUID</b> path for the volume, only the first one in the mount manager's cache is returned.
+A pointer to a string that receives the volume <b>GUID</b> path. This path is of the form "\\\\?\Volume{<i>GUID</i>}\\" where <i>GUID</i> is a <b>GUID</b> that identifies the volume. If there is more than one volume <b>GUID</b> path for the volume, only the first one in the mount manager's cache is returned.
 
 
 ### -param cchBufferLength [in]
