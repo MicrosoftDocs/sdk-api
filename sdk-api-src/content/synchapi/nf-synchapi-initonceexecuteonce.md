@@ -72,14 +72,14 @@ A pointer to the one-time initialization structure.
 A pointer to an application-defined <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nc-synchapi-pinit_once_fn">InitOnceCallback</a> function.
 
 
-### -param Context [out, optional]
+### -param Parameter [in, optional]
+
+A parameter to be passed to the callback function.
+
+### -param Context [in, out, optional]
 
 A parameter that receives data stored with the one-time initialization structure upon success. The low-order <b>INIT_ONCE_CTX_RESERVED_BITS</b> bits of the data are always zero.
 
-
-### -param Parameter [in, out, optional]
-
-A parameter to be passed to the callback function.
 
 
 ## -returns
