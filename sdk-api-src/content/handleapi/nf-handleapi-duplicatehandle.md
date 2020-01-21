@@ -309,6 +309,7 @@ You should not use
 <ul>
 <li>I/O completion ports. No error is returned, but the duplicate handle cannot be used.</li>
 <li>Sockets. No error is returned, but the duplicate handle may not be recognized by Winsock at the target process. Also, using <b>DuplicateHandle</b> interferes with internal reference counting on the underlying object. To duplicate a socket handle, use the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaduplicatesocketa">WSADuplicateSocket</a> function.</li>
+<li>Pseudo-handles other than the ones returned by the <a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> or <a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentthread">GetCurrentThread</a> functions.</li>
 </ul>
 The <i>dwDesiredAccess</i> parameter specifies the new handle's access rights. All objects support the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">standard access rights</a>. Objects may also support additional access rights depending on the object type. For more information, see the following topics:
 
