@@ -164,7 +164,7 @@ For an example that uses
 
 
 
-[CreateWaitableTimerEx](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerexw)a>
+[CreateWaitableTimerEx](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerexw)
 
 
 
@@ -180,7 +180,7 @@ For an example that uses
 
 
 
-[OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)a>
+[OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)
 
 
 
