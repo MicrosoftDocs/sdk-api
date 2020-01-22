@@ -452,7 +452,7 @@ int wmain()
                     if (pBssEntry->dwFlags) {
                         if (pBssEntry->dwFlags & WLAN_AVAILABLE_NETWORK_CONNECTED)
                             wprintf(L" - Currently connected");
-                        if (pBssEntry->dwFlags & WLAN_AVAILABLE_NETWORK_CONNECTED)
+                        if (pBssEntry->dwFlags & WLAN_AVAILABLE_NETWORK_HAS_PROFILE)
                             wprintf(L" - Has profile");
                     }   
                     wprintf(L"\n");
