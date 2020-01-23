@@ -67,7 +67,8 @@ Retrieves or sets the value of one of the system-wide parameters. This function 
 
 Type: <b>UINT</b>
 
-The system-wide parameter to be retrieved or set. The possible values are organized in the following tables of related parameters:                            
+The system-wide parameter to be retrieved or set. The possible values are organized in the following tables of related parameters:
+
 <ul>
 <li>Accessibility parameters</li>
 <li>Desktop parameters</li>
