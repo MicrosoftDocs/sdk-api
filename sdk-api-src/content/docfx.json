@@ -41,6 +41,7 @@
       "titleSuffix": "Win32 apps",
       "ms.prod": "desktop",
       "ms.technology": "sdk-api-reference",
+      "ms.topic": "language-reference",
       "extendBreadcrumb": true,
       "feedback_system": "none",
       "searchScope": [
