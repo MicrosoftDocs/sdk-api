@@ -130,7 +130,7 @@ Retrieve the folder's default path.
 
 Type: <b>LPTSTR</b>
 
-A pointer to a <b>null</b>-terminated string of length MAX_PATH which will receive the path. If an error occurs or S_FALSE is returned, this string will be empty. The returned path does not include a trailing backslash. For example, "C:\Users" is returned rather than "C:\Users\".
+A pointer to a <b>null</b>-terminated string of length MAX_PATH which will receive the path. If an error occurs or S_FALSE is returned, this string will be empty. The returned path does not include a trailing backslash. For example, "C:\Users" is returned rather than "C:\Users\\".
 
 
 ##### - dwFlags.SHGFP_TYPE_CURRENT

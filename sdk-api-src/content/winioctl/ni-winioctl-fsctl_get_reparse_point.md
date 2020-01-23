@@ -60,7 +60,10 @@ To perform this operation, call the
 <td>
 <pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,            // handle to file or directory
-  FSCTL_GET_REPARSE_POINT,     // dwIoControlCodeNULL,                        // lpInBuffer0,                           // nInBufferSize(LPVOID) lpOutBuffer,        // output buffer
+  FSCTL_GET_REPARSE_POINT,     // dwIoControlCode
+  NULL,                        // lpInBuffer
+  0,                           // nInBufferSize
+  (LPVOID) lpOutBuffer,        // output buffer
   (DWORD) nOutBufferSize,      // size of output buffer
   (LPDWORD) lpBytesReturned,   // number of bytes returned
   (LPOVERLAPPED) lpOverlapped  // OVERLAPPED structure
@@ -134,7 +137,7 @@ To perform this operation, call the
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+Otherwise, Status is set to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
 
