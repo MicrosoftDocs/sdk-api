@@ -90,6 +90,10 @@ Setting the value of <i>fFullscreen</i> to <b>TRUE</b>, the Shell treats this wi
 
 
 
+**Since Windows 7,** call `SetProp(hwnd, L”NonRudeHWND”, reinterpret_cast<HANDLE>(TRUE))` before showing a window to indicate to the Shell that the window should not be treated as full-screen. This ensures the taskbar does not adjust itself to be below the window in z-order. This is similar to `ITaskbarList2::MarkFullscreenWindow(FALSE)` except the Shell will not fallback to its automatic detection facility and will not treat the window as full-screen.
+
+
+
 
 ## -see-also
 
@@ -101,7 +105,12 @@ Setting the value of <i>fFullscreen</i> to <b>TRUE</b>, the Shell treats this wi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2">ITaskbarList2</a>
- 
 
- 
+
+
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setpropa">SetPropA</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setpropw">SetPropW</a>
 
