@@ -92,6 +92,11 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a> functions. It also effectively disables safe DLL search mode while the specified directory is in the search path. 
 
+<div class="alert">
+    <b>Note</b><br/>
+    Calling this function will also affect the DLL search order of the children processes started from the process that has called the function, given the children processes don't call `SetDllDirectory` themselves.
+</div>
+
 After calling 
 <b>SetDllDirectory</b>, the standard DLL search path is:
 
