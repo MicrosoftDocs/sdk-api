@@ -75,8 +75,8 @@ The user-mode path to be associated with the volume. This may be a drive letter 
 ### -param lpszVolumeName [in]
 
 A volume <b>GUID</b> path for the volume. This string must be of the form 
-      "\\?\Volume{<i>GUID</i>}\" where <i>GUID</i> is a <b>GUID</b> that identifies 
-      the volume. The "\\?\" turns off path parsing and is ignored as part of the path, as discussed in 
+      "\\\\?\Volume{<i>GUID</i>}\" where <i>GUID</i> is a <b>GUID</b> that identifies 
+      the volume. The "\\\\?\" turns off path parsing and is ignored as part of the path, as discussed in 
       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-volume">Naming a Volume</a>.
 
 
