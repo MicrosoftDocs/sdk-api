@@ -59,7 +59,7 @@ Sets new values for the binding parameters stored in the bind context.
 
 ### -param pbindopts [in]
 
-A pointer to a [BIND_OPTS3](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1)a> structure containing the binding parameters.
+A pointer to a [BIND_OPTS3](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1) structure containing the binding parameters.
 
 
 ## -returns
