@@ -66,7 +66,7 @@ A handle to the top-level window that <b>DiUninstallDriver</b> should use to dis
 
 ### -param InfPath [in]
 
-A pointer to a NULL-terminated string that supplies the fully qualified path of the INF file for the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>.
+A pointer to a NULL-terminated string that supplies the fully qualified path of the INF file for the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-packages">driver package</a>.
 
 
 ### -param Flags [in]
@@ -89,7 +89,7 @@ A pointer to a value of type BOOL that <b>DiUninstallDriver</b> sets to indicate
 
 
 
-<b>DiUninstallDriver</b> returns <b>TRUE</b> if the function successfully removes the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> from any devices it is installed on and is successfully removed from the driver store of the system.  If the driver package is not successfully uninstalled from the driver store, <b>DiUninstallDriver</b> returns <b>FALSE</b> and the logged error can be retrieved by making a call to <b>GetLastError</b>. Some of the more common error values that <b>GetLastError</b> might return are as follows:
+<b>DiUninstallDriver</b> returns <b>TRUE</b> if the function successfully removes the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-packages">driver package</a> from any devices it is installed on and is successfully removed from the driver store of the system.  If the driver package is not successfully uninstalled from the driver store, <b>DiUninstallDriver</b> returns <b>FALSE</b> and the logged error can be retrieved by making a call to <b>GetLastError</b>. Some of the more common error values that <b>GetLastError</b> might return are as follows:
 
 <table>
 <tr>
@@ -103,7 +103,7 @@ A pointer to a value of type BOOL that <b>DiUninstallDriver</b> sets to indicate
 </dl>
 </td>
 <td width="60%">
-The caller does not have Administrator privileges. By default, Windows requires that the caller have Administrator privileges to uninstall a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> from the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-store">driver store</a>. 
+The caller does not have Administrator privileges. By default, Windows requires that the caller have Administrator privileges to uninstall a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-packages">driver package</a> from the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-store">driver store</a>. 
 
 </td>
 </tr>
