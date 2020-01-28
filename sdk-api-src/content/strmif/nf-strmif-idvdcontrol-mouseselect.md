@@ -80,7 +80,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 This method checks the specified point within the display window to see if it is within a current DVD button's highlight rectangle. If it is, this method selects the button.
 

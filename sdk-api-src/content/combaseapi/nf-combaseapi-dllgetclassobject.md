@@ -134,7 +134,7 @@ You need to implement <b>DllGetClassObject</b> in (and export it from) DLLs that
 
 #### Examples
 
-The following is an example (in C++) of an implementation of <b>DllGetClassObject</b>. In this example, <b>DllGetClassObject</b> creates a class object and calls its <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method to retrieve a pointer to the interface requested in riid. The implementation releases the reference it holds to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a> interface because it returns a reference-counted pointer to <b>IClassFactory</b> to the caller.
+The following is an example (in C++) of an implementation of <b>DllGetClassObject</b>. In this example, <b>DllGetClassObject</b> creates a class object and calls its <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method to retrieve a pointer to the interface requested in riid. The implementation releases the reference it holds to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a> interface because it returns a reference-counted pointer to <b>IClassFactory</b> to the caller.
 
 
 

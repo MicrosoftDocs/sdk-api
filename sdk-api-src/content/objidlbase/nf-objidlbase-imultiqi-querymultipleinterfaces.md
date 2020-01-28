@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Retrieves pointers to multiple supported interfaces on an object.
 
-Calling this method is equivalent to issuing a series of separate <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> calls except that you do not incur the overhead of a corresponding number of RPC calls. In multithreaded applications and distributed environments, keeping RPC calls to a minimum is essential for optimal performance.
+Calling this method is equivalent to issuing a series of separate <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> calls except that you do not incur the overhead of a corresponding number of RPC calls. In multithreaded applications and distributed environments, keeping RPC calls to a minimum is essential for optimal performance.
 
 
 ## -parameters
@@ -137,7 +137,7 @@ If the value returned from a call to <b>QueryMultipleInterfaces</b> is S_OK, the
 
 If the return value is E_NOINTERFACE, then pointers were returned for none of the requested interfaces. If the return value is S_FALSE, then pointers to one or more requested interfaces were not returned. In this event, the client should check the <b>hr</b> member of each <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-multi_qi">MULTI_QI</a> structure to determine which interfaces were acquired and which were not.
 
-If a client knows ahead of time that it will be using several of an object's interfaces, it can call <b>QueryMultipleInterfaces</b> up front and then, later, if a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> is done for one of the interfaces already acquired through <b>QueryMultipleInterfaces</b>, no RPC call will be necessary.
+If a client knows ahead of time that it will be using several of an object's interfaces, it can call <b>QueryMultipleInterfaces</b> up front and then, later, if a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> is done for one of the interfaces already acquired through <b>QueryMultipleInterfaces</b>, no RPC call will be necessary.
 
 
 

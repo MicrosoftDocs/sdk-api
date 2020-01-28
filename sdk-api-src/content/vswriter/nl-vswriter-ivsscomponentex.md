@@ -56,7 +56,7 @@ Defines additional methods for examining  and modifying information about compon
 The <b>IVssComponentEx</b> interface is a C++ (not COM) interface.
 
 To obtain an instance of the <b>IVssComponentEx</b> 
-   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of the 
+   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> interface, and pass 
    the <b>IID_IVssComponentEx</b> constant as the interface identifier (IID) parameter.
 

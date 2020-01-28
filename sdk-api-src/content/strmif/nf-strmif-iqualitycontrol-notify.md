@@ -69,7 +69,7 @@ Pointer to the filter that is sending the quality notification.
 ### -param q [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-quality">Quality</a> structure.
+[Quality](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-quality) structure.
 
 
 ## -returns

@@ -67,7 +67,7 @@ The session handle.
 ### -param ResultMessage [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmsg">LDAPMessage</a> structure containing the search response.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure containing the search response.
 
 
 ### -param Referrals [out]
@@ -109,7 +109,7 @@ When it is no longer needed, free the <i>Referrals</i> pointer by calling
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmsg">LDAPMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
 
 
 

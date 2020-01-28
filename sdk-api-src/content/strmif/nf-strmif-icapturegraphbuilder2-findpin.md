@@ -68,7 +68,7 @@ Pointer to an interface on a filter, or to an interface on a pin.
 
 ### -param pindir [in]
 
-Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-pin_direction">PIN_DIRECTION</a> enumeration that specifies the pin direction (input or output).
+Member of the [PIN_DIRECTION](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-pin_direction) enumeration that specifies the pin direction (input or output).
 
 
 ### -param pCategory [in]

@@ -17,5 +17,5 @@ To develop NetBIOS, you need these headers:
  * [nb30.h](../nb30/index.md)
 
 For programming guidance for this technology, see:
-* [NetBIOS](/windows/desktop/netbios)
+* [NetBIOS](https://docs.microsoft.com/previous-versions/windows/desktop/netbios)
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates and initializes a standard font object using an initial description of the font's properties in a <a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-fontdesc">FONTDESC</a> structure. The function returns an interface pointer to the new font object specified by caller in the riid parameter. A <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> call is part of this call. The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> through the interface pointer returned.
+Creates and initializes a standard font object using an initial description of the font's properties in a <a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-fontdesc">FONTDESC</a> structure. The function returns an interface pointer to the new font object specified by caller in the riid parameter. A <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> call is part of this call. The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> through the interface pointer returned.
 
 
 

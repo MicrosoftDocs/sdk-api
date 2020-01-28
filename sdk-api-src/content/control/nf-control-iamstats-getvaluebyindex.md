@@ -169,7 +169,7 @@ Insufficient memory.
 
 The caller must free the string returned in <i>szName</i>, by calling the <b>SysFreeString</b> function.
 
-To get the number of statistics, call <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-iamstats-get_count">IAMStats::get_Count</a>. To get the index of a particular statistic, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/control/nf-control-iamstats-getindex">IAMStats::GetIndex</a>.
+To get the number of statistics, call [IAMStats::GetIndex](https://docs.microsoft.com/windows/desktop/api/control/nf-control-iamstats-getindex).
 
 
 

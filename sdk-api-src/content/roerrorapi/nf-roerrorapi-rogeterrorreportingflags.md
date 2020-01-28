@@ -64,7 +64,7 @@ Gets the current reporting behavior of Windows Runtime error functions.
 
 Type: <b>UINT32*</b>
 
-A pointer to the bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-ro_error_reporting_flags">RO_ERROR_REPORTING_FLAGS</a> values that represents the current error-reporting behavior.
+A pointer to the bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-roerrorreportingflags">RO_ERROR_REPORTING_FLAGS</a> values that represents the current error-reporting behavior.
 
 
 ## -returns
@@ -122,7 +122,7 @@ Set the reporting behavior of   Windows Runtime error functions by calling the  
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-ro_error_reporting_flags">RO_ERROR_REPORTING_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-roerrorreportingflags">RO_ERROR_REPORTING_FLAGS</a>
 
 
 

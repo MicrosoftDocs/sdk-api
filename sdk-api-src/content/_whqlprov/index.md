@@ -15,5 +15,5 @@ Overview of the WhqlProvider Provider technology.
 The WhqlProvider Provider technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [WhqlProvider Provider](/windows/desktop/whqlprov)
+* [WhqlProvider Provider](https://docs.microsoft.com/previous-versions/windows/desktop/whqlprov)
 

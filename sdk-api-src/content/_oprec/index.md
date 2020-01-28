@@ -15,5 +15,5 @@ Overview of the Operation Recorder technology.
 The Operation Recorder technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Operation Recorder](/windows/desktop/oprec)
+* [Operation Recorder](https://docs.microsoft.com/previous-versions/windows/desktop/oprec)
 

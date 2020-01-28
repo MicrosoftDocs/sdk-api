@@ -63,7 +63,7 @@ This property is read-only.
 
 
 If the item is an interface, the variant type is <b>VT_DISPATCH</b>. Call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method on the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method on the 
     <b>pdispVal</b> member of the variant to get an interface to the specific object.
 
 If the item is an <b>HRESULT</b> value, the variant type is 

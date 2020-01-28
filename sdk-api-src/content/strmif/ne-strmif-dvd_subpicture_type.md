@@ -83,7 +83,7 @@ The subpicture contains nonlanguage-related content such as a bouncing ball in k
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_subpictureattributes">DVD_SubpictureAttributes</a>
+[DVD_SubpictureAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_subpictureattributes)
 
 
 

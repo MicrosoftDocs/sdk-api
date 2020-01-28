@@ -19,5 +19,5 @@ To develop Windows Messaging (MAPI), you need these headers:
  * [wabmem.h](../wabmem/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Messaging (MAPI)](/windows/desktop/windowsmapi)
+* [Windows Messaging (MAPI)](https://docs.microsoft.com/previous-versions/windows/desktop/windowsmapi)
 

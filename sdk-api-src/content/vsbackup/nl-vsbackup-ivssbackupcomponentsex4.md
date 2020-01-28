@@ -52,7 +52,7 @@ ms.custom: 19H1
 Defines additional methods to support the processing of UNC file share paths in a requester.
 
 To obtain an instance of the <b>IVssBackupComponentsEx4</b> 
-   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of the 
+   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> interface, and pass 
    the <b>IID_IVssBackupComponentsEx4</b> constant as the interface identifier (IID) parameter.
 

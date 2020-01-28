@@ -63,7 +63,7 @@ The <b>GetAlphaBitmapParameters</b> method retrieves a copy of the current image
 
 ### -param pBmpParms [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmralphabitmap">VMRALPHABITMAP</a> structure that receives the bitmap, information about the blending values, and the location to blend it.
+A pointer to a [VMRALPHABITMAP](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure that receives the bitmap, information about the blending values, and the location to blend it.
           
 
 

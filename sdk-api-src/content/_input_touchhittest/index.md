@@ -15,5 +15,5 @@ Overview of the Touch Hit Testing technology.
 The Touch Hit Testing technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Touch Hit Testing](/windows/desktop/input_touchhittest)
+* [Touch Hit Testing](https://docs.microsoft.com/previous-versions/windows/desktop/input_touchhittest)
 

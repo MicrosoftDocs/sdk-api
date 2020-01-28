@@ -75,7 +75,7 @@ An address of an interface pointer whose type <b>T</b> is used to determine the 
 
 
 
-A common syntax in methods that retrieve an interface pointer (most notably <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> and <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>) includes two parameters:
+A common syntax in methods that retrieve an interface pointer (most notably <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> and <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>) includes two parameters:
 
                 
 

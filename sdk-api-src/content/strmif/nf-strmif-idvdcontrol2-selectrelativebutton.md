@@ -64,7 +64,7 @@ The <code>SelectRelativeButton</code> method sets the specified relative button 
 ### -param buttonDir
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_relative_button">DVD_RELATIVE_BUTTON</a> enumeration value indicating the button to select.
+[DVD_RELATIVE_BUTTON](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_relative_button) enumeration value indicating the button to select.
 
 
 ## -returns

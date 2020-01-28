@@ -17,5 +17,5 @@ To develop XblIdpAuthManager, you need these headers:
  * [xblidpauthmanager.h](../xblidpauthmanager/index.md)
 
 For programming guidance for this technology, see:
-* [XblIdpAuthManager](/windows/desktop/xblidp)
+* [XblIdpAuthManager](https://docs.microsoft.com/previous-versions/windows/desktop/xblidp)
 

@@ -64,7 +64,7 @@ Retrieves the type and name of the physical pin.
 
 ### -param pType [out]
 
-Pointer to a variable that receives a value indicating the pin's type. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-physicalconnectortype">PhysicalConnectorType</a> enumeration defines the pin type values.
+Pointer to a variable that receives a value indicating the pin's type. The [PhysicalConnectorType](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-physicalconnectortype) enumeration defines the pin type values.
 
 
 ### -param ppszType [out]

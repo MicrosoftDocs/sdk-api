@@ -68,7 +68,7 @@ Variable of type ULONG specifying the audio stream whose attributes you wish to 
 
 ### -param pATR [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_audioattributes">DVD_AudioAttributes</a> structure that is filled with the attributes of the specified audio stream.
+Pointer to a [DVD_AudioAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_audioattributes) structure that is filled with the attributes of the specified audio stream.
 
 
 ## -returns

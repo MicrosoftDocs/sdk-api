@@ -60,7 +60,7 @@ The <code>ProtectionCommand</code> method sends a COPP command to the graphics d
 
 ### -param cmd [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-amcoppcommand">AMCOPPCommand</a> structure that contains the command.
+Pointer to an [AMCOPPCommand](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-amcoppcommand) structure that contains the command.
 
 
 ## -returns

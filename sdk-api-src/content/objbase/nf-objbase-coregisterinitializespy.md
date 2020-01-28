@@ -119,7 +119,7 @@ The <b>CoRegisterInitializeSpy</b> function registers an implementation of the <
 
 
 
-<b>CoRegisterInitializeSpy</b> calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> for IID_InitializeSpy on <i>pSpy</i>. It stores the address of the returned interface pointer in thread-specific storage that is independent of the COM initialization state for this thread. On success, it stores in <i>puliCookie</i> a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a> cookie that represents this registration. Pass this cookie to <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-corevokeinitializespy">CoRevokeInitializeSpy</a> to revoke the registration.
+<b>CoRegisterInitializeSpy</b> calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for IID_InitializeSpy on <i>pSpy</i>. It stores the address of the returned interface pointer in thread-specific storage that is independent of the COM initialization state for this thread. On success, it stores in <i>puliCookie</i> a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a> cookie that represents this registration. Pass this cookie to <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-corevokeinitializespy">CoRevokeInitializeSpy</a> to revoke the registration.
 
 
 

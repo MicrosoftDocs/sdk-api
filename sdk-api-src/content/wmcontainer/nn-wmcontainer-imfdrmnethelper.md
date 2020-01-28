@@ -55,7 +55,7 @@ Configures Windows Media Digital Rights Management (DRM) for Network Devices on 
 <ol>
 <li>Get the activation object for the ASF streaming media sink by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfstreamingmediasinkactivate">MFCreateASFStreamingMediaSinkActivate</a>.</li>
 <li>Create the media sink by calling  the activation object <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">ActivateObject</a> method.</li>
-<li>Get an <b>IMFDRMNetHelper</b> pointer by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the media sink.</li>
+<li>Get an <b>IMFDRMNetHelper</b> pointer by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the media sink.</li>
 </ol>For more information, see Remarks.
 
 

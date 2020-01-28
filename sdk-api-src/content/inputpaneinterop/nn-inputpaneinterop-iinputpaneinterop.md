@@ -110,7 +110,7 @@ Gets the trust level of the current Windows Runtime object.
 
 
 
-You can obtain an instance of the <b>IInputPaneInterop</b> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method on the activation factory instance for the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> class.
+You can obtain an instance of the <b>IInputPaneInterop</b> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method on the activation factory instance for the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> class.
 
  
 

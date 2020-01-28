@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-A table-driven implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method.
+A table-driven implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method.
 
 
 ## -parameters

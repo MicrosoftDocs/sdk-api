@@ -119,7 +119,7 @@ Failed to allocate <i>iids</i>.
 
 Use the <b>GetIids</b> method to discover the interfaces that are implemented by a Windows Runtime object.
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> call on any IID in the <i>iids</i> array must succeed.
+A <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> call on any IID in the <i>iids</i> array must succeed.
 
 The caller is responsible for freeing the IID array by using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 

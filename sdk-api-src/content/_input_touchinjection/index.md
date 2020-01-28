@@ -15,5 +15,5 @@ Overview of the Touch Injection technology.
 The Touch Injection technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Touch Injection](/windows/desktop/input_touchinjection)
+* [Touch Injection](https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection)
 

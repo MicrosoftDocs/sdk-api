@@ -56,7 +56,7 @@ The
 
 An 
 tapi3.itterminalsupport pointer can be obtained by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on any Address interface, such as 
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on any Address interface, such as 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>. If E_NOINTERFACE is returned, the service provider associated with the address does not support media controls.
 
 The 

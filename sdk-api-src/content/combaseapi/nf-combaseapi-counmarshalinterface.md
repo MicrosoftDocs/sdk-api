@@ -150,7 +150,7 @@ An error occurred reading the registration database.
 </dl>
 </td>
 <td width="60%">
-The final <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> of this function for the requested interface returned E_NOINTERFACE.
+The final <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> of this function for the requested interface returned E_NOINTERFACE.
 
 </td>
 </tr>

@@ -15,5 +15,5 @@ Overview of the Microsoft Management Console 2.0 technology.
 The Microsoft Management Console 2.0 technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Microsoft Management Console 2.0](/windows/desktop/mmc)
+* [Microsoft Management Console 2.0](https://docs.microsoft.com/previous-versions/windows/desktop/mmc)
 

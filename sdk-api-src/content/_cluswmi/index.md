@@ -15,5 +15,5 @@ Overview of the Failover Cluster WMI Provider technology.
 The Failover Cluster WMI Provider technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Failover Cluster WMI Provider](/windows/desktop/cluswmi)
+* [Failover Cluster WMI Provider](https://docs.microsoft.com/previous-versions/windows/desktop/cluswmi)
 

@@ -60,7 +60,7 @@ The <b>GetNumberOfDeinterlaceModes</b> method retrieves the deinterlacing modes 
 
 ### -param lpVideoDescription [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrvideodesc">VMRVideoDesc</a> structure that describes the video.
+Pointer to a [VMRVideoDesc](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrvideodesc) structure that describes the video.
 
 
 ### -param lpdwNumDeinterlaceModes [in, out]

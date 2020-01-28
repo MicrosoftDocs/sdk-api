@@ -15,5 +15,5 @@ Overview of the Active Directory Lightweight Directory Services technology.
 The Active Directory Lightweight Directory Services technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Active Directory Lightweight Directory Services](/windows/desktop/adam)
+* [Active Directory Lightweight Directory Services](https://docs.microsoft.com/previous-versions/windows/desktop/adam)
 

@@ -97,7 +97,7 @@ Address of a variable that receives the length, in bytes, of the callee-allocate
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-Return S_OK, except under exceptional error conditions, such as low memory. If not supported, calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccidentity">IAccIdentity</a> should fail.
+Return S_OK, except under exceptional error conditions, such as low memory. If not supported, calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccidentity">IAccIdentity</a> should fail.
 
 
 

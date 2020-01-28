@@ -130,7 +130,7 @@ Reserved.
 Receives a pointer to a substitute object to be used in asynchronous 
       <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> calls. The user receives an 
       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer and must call 
-      <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> for 
+      <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for 
       <b>IID_WbemObjectSink</b> before using this object in asynchronous 
       <b>IWbemServices</b> calls.
 
@@ -140,7 +140,7 @@ Receives a pointer to a substitute object to be used in asynchronous
 
 
 This method returns standard COM error codes for 
-       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a>. It returns 
+       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>. It returns 
        <b>S_OK</b> if the call succeeds. If the call fails because the requested interface was not 
        supported, the method returns <b>E_NOINTERFACE</b>.
 

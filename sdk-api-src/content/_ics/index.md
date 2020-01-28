@@ -21,5 +21,5 @@ To develop Windows Firewall Technologies, you need these headers:
  * [networkisolation.h](../networkisolation/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Firewall Technologies](/windows/desktop/ics)
+* [Windows Firewall Technologies](https://docs.microsoft.com/previous-versions/windows/desktop/ics)
 

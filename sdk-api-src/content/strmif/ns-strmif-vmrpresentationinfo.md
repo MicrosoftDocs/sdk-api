@@ -103,7 +103,7 @@ The destination rectangle.
 
 ### -field dwTypeSpecificFlags
 
-Bitwise combination of flags, as defined for the <b>dwTypeSpecificFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure.
+Bitwise combination of flags, as defined for the [AM_SAMPLE2_PROPERTIES](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure.
 
 
 ### -field dwInterlaceFlags

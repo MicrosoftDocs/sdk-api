@@ -90,7 +90,7 @@ System access control list (ACL) of the object.
 
 ### -param ppSD [out]
 
-Address of a pointer to an <b>IDispatch</b> interface. You can call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method to obtain a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> interface on the security descriptor of the GPO.
+Address of a pointer to an <b>IDispatch</b> interface. You can call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method to obtain a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> interface on the security descriptor of the GPO.
 
 
 ## -returns

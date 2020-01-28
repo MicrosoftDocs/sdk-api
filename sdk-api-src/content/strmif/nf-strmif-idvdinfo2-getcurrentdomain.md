@@ -63,7 +63,7 @@ The <code>GetCurrentDomain</code> method retrieves the domain in which the <a hr
 
 ### -param pDomain [out]
 
-Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a> that receives the current domain.
+Pointer to a variable of type <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a> that receives the current domain.
 
 
 ## -returns

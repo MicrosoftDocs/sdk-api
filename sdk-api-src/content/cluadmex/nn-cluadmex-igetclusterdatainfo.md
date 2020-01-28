@@ -128,7 +128,7 @@ You can use the <b>IGetClusterDataInfo</b> interface when
 </ul>
 Failover Cluster Administrator passes in an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer as the 
      <i>piData</i> parameter for these methods. Use <i>piData</i> to call the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method for one of the 
+     <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method for one of the 
      <b>IGetClusterDataInfo</b> methods.
 
 

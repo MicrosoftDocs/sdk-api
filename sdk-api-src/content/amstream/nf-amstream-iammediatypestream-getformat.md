@@ -64,7 +64,7 @@ The <code>GetFormat</code> method retrieves the format of the stream.
 
 ### -param pMediaType [out]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that receives the stream format.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that receives the stream format.
 
 
 ### -param dwFlags [in]

@@ -21,5 +21,5 @@ To develop Automation, you need these headers:
  * [wtypes.h](../wtypes/index.md)
 
 For programming guidance for this technology, see:
-* [Automation](/windows/desktop/automat)
+* [Automation](https://docs.microsoft.com/previous-versions/windows/desktop/automat)
 

@@ -97,7 +97,7 @@ Number of streams that failed to render.
 
 ### -field dwFailedStreamsFlag
 
-Combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-am_dvd_stream_flags">AM_DVD_STREAM_FLAGS</a> flags indicating which streams failed.
+Combination of [AM_DVD_STREAM_FLAGS](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-am_dvd_stream_flags) flags indicating which streams failed.
 
 
 ## -see-also

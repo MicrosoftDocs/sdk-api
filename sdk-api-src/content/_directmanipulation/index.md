@@ -17,5 +17,5 @@ To develop Direct Manipulation, you need these headers:
  * [directmanipulation.h](../directmanipulation/index.md)
 
 For programming guidance for this technology, see:
-* [Direct Manipulation](/windows/desktop/directmanipulation)
+* [Direct Manipulation](https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation)
 

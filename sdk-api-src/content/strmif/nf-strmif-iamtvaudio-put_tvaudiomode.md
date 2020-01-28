@@ -63,7 +63,7 @@ The <code>put_TVAudioMode</code> method sets the current TV audio mode.
 
 ### -param lMode [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-tvaudiomode">TVAudioMode</a> enumeration value that identifies the audio mode.
+A [TVAudioMode](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tvaudiomode) enumeration value that identifies the audio mode.
 
 
 ## -returns

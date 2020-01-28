@@ -17,5 +17,5 @@ To develop Packaging, you need these headers:
  * [msopc.h](../msopc/index.md)
 
 For programming guidance for this technology, see:
-* [Packaging](/windows/desktop/opc)
+* [Packaging](https://docs.microsoft.com/previous-versions/windows/desktop/opc)
 

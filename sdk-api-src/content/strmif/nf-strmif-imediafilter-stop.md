@@ -124,7 +124,7 @@ This method always sets the filter's state to State_Stopped, even if the method 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-filter_state">FILTER_STATE Enumeration</a>
+[FILTER_STATE Enumeration](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-filter_state)
 
 
 

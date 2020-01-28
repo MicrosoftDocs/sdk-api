@@ -23,5 +23,5 @@ To develop File Server Resource Manager, you need these headers:
  * [fsrmtlb.h](../fsrmtlb/index.md)
 
 For programming guidance for this technology, see:
-* [File Server Resource Manager](/windows/desktop/fsrm)
+* [File Server Resource Manager](https://docs.microsoft.com/previous-versions/windows/desktop/fsrm)
 

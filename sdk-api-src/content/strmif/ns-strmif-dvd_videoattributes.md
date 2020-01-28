@@ -92,7 +92,7 @@ The frame height in lines (525 for a frame rate of 60 Hz or 625 for 50 Hz).
 
 ### -field Compression
 
-Variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_video_compression">DVD_VIDEO_COMPRESSION</a> indicating the MPEG compression type used on the disc.
+Variable of type [DVD_VIDEO_COMPRESSION](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_video_compression) indicating the MPEG compression type used on the disc.
 
 
 ### -field fLine21Field1InGOP

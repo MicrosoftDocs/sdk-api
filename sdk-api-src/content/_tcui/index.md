@@ -17,5 +17,5 @@ To develop Title Callable UI, you need these headers:
  * [gamingtcui.h](../gamingtcui/index.md)
 
 For programming guidance for this technology, see:
-* [Title Callable UI](/windows/desktop/tcui)
+* [Title Callable UI](https://docs.microsoft.com/previous-versions/windows/desktop/tcui)
 

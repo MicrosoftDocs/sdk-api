@@ -68,7 +68,7 @@ Title for which parental levels are requested. Specify 0xfffffff to return the p
 
 ### -param pulParentalLevels [out]
 
-Pointer to a variable of type ULONG that receives a bitwise OR combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_parental_level">DVD_PARENTAL_LEVEL</a> values defined for the title.
+Pointer to a variable of type ULONG that receives a bitwise OR combination of [DVD_PARENTAL_LEVEL](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_parental_level) values defined for the title.
 
 
 ## -returns

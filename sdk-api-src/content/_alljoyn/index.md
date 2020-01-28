@@ -18,5 +18,5 @@ To develop AllJoyn API, you need these headers:
  * [windows.devices.alljoyn.interop.h](../windows.devices.alljoyn.interop/index.md)
 
 For programming guidance for this technology, see:
-* [AllJoyn API](/windows/desktop/alljoyn)
+* [AllJoyn API](https://docs.microsoft.com/previous-versions/windows/desktop/alljoyn)
 

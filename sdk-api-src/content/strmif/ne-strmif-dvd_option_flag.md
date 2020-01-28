@@ -126,18 +126,18 @@ Specifies the format for timecode information.
 </tr>
 <tr>
 <td><b>TRUE</b></td>
-<td>The DVD Navigator sends all timecode information using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> structure.</td>
+[DVD_HMSF_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode) structure.</td>
 </tr>
 <tr>
 <td><b>FALSE</b></td>
-<td>The DVD Navigator sends timecode information using binary coded decimal (BCD) format, which is defined in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_timecode">DVD_TIMECODE</a> structure. </td>
+[DVD_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_timecode) structure. </td>
 </tr>
 </table>
  
 
 
 
-For backward compatibility, the default value is <b>FALSE</b>, but the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> format is easier to use.
+For backward compatibility, the default value is [DVD_HMSF_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode) format is easier to use.
 
 
 ### -field DVD_AudioDuringFFwdRew
@@ -352,7 +352,7 @@ The default value is <b>FALSE</b>.
 </tr>
 <tr>
 <td><b>TRUE</b></td>
-<td>The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleattributes">IDvdInfo2::GetTitleAttributes</a> method returns the length of the title in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_titleattributes">DVD_TitleAttributes</a> structure.</td>
+[DVD_TitleAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_titleattributes) structure.</td>
 </tr>
 <tr>
 <td><b>FALSE</b></td>

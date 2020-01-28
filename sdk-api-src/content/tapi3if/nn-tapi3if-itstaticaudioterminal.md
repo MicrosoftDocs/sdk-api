@@ -53,7 +53,7 @@ The
 <b>ITStaticAudioTerminal</b> interface is an interface that TAPI 3.1 MSPs must expose on all static audio terminals. The interface defines methods on static audio terminal objects that are needed to support phone devices.
 
 If an MSP's audio terminals are for devices that are not accessible via standard audio APIs, then a 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on 
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>(IID_ITStaticAudioTerminal) should return E_NOINTERFACE, and it will be impossible to associate a USB phone with any of these audio terminals in TAPI 3.1.
 
 

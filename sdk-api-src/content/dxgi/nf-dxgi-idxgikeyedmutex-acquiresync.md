@@ -106,7 +106,7 @@ When a surface is created using the <b>D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX</b>
       you must call the <b>AcquireSync</b> method before rendering to the surface.  You must call the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-releasesync">ReleaseSync</a> method when you are done 
       rendering to a surface.
 
-To acquire a reference to the keyed mutex object of a shared resource, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of the resource and pass in 
+To acquire a reference to the keyed mutex object of a shared resource, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the resource and pass in 
       the <b>UUID</b> of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex">IDXGIKeyedMutex</a> interface.  For more information about acquiring this reference, see the following code example.
 
 The <b>AcquireSync</b> method uses the key as follows, depending on the state of the surface:

@@ -17,5 +17,5 @@ To develop NetShell, you need these headers:
  * [netsh.h](../netsh/index.md)
 
 For programming guidance for this technology, see:
-* [NetShell](/windows/desktop/netshell)
+* [NetShell](https://docs.microsoft.com/previous-versions/windows/desktop/netshell)
 

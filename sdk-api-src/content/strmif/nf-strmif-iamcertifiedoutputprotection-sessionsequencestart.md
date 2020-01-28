@@ -60,7 +60,7 @@ The <code>SessionSequenceStart</code> method initiates the COPP session with the
 
 ### -param pSig [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-amcoppsignature">AMCOPPSignature</a> structure. Fill this structure as described in the Remarks session.
+Pointer to an [AMCOPPSignature](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-amcoppsignature) structure. Fill this structure as described in the Remarks session.
 
 
 ## -returns

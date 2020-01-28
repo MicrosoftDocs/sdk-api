@@ -15,5 +15,5 @@ Overview of the iSCSI Target Server Provider technology.
 The iSCSI Target Server Provider technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [iSCSI Target Server Provider](/windows/desktop/iscsitarg)
+* [iSCSI Target Server Provider](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg)
 

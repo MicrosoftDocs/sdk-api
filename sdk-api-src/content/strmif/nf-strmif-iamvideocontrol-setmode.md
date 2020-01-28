@@ -68,7 +68,7 @@ Pointer to the pin to set the video control mode on.
 
 ### -param Mode [in]
 
-Value specifying a combination of the flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-videocontrolflags">VideoControlFlags</a> enumeration to set the video control mode.
+Value specifying a combination of the flags from the [VideoControlFlags](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videocontrolflags) enumeration to set the video control mode.
 
 
 ## -returns

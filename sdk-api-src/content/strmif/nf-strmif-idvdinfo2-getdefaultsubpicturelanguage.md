@@ -68,7 +68,7 @@ Receives the language information.
 
 ### -param pSubpictureExtension [out]
 
-Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_lang_ext">DVD_SUBPICTURE_LANG_EXT</a> that receives one of the allowable values indicating the default language extension.
+Pointer to a variable of type [DVD_SUBPICTURE_LANG_EXT](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_lang_ext) that receives one of the allowable values indicating the default language extension.
 
 
 ## -returns

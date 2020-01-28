@@ -63,7 +63,7 @@ The <code>VMRMONITORINFO</code> structure is used in the <a href="https://docs.m
 
 ### -field guid
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrguid">VMRGUID</a> structure that specifies the monitor.
+A [VMRGUID](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrguid) structure that specifies the monitor.
 
 
 ### -field rcMonitor

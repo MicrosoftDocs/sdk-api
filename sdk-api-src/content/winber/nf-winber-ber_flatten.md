@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>ber_flatten</b> function allocates a new 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structure containing the data taken from the supplied 
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure containing the data taken from the supplied 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
 
 
@@ -66,7 +66,7 @@ Pointer to the source <a href="https://docs.microsoft.com/previous-versions/wind
 
 ### -param pBerVal [out]
 
-Pointer to the newly allocated <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structure, which should be freed using 
+Pointer to the newly allocated <a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure, which should be freed using 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_bvfree">ber_bvfree</a>.
 
 
@@ -109,7 +109,7 @@ The use of <b>ber_flatten</b> on a <a href="https://docs.microsoft.com/previous-
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
  
 
  
