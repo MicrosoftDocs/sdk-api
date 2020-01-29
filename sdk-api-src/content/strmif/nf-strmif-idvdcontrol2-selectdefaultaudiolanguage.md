@@ -69,7 +69,7 @@ Locale identifier that specifies the default language.
 ### -param audioExtension [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_audio_lang_ext">DVD_AUDIO_LANG_EXT</a> enumeration that specifies the default audio language extension.
+[DVD_AUDIO_LANG_EXT](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_audio_lang_ext) enumeration that specifies the default audio language extension.
 
 
 ## -returns

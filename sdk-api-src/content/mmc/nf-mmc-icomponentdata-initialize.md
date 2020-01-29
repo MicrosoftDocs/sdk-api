@@ -77,7 +77,7 @@ This method can return one of these values.
 
 
 
-<b>IComponentData::Initialize</b> is called when a snap-in is created and has items to enumerate in the scope pane. The pointer to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> that is passed in is used to make <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> calls to the console for interfaces such as 
+<b>IComponentData::Initialize</b> is called when a snap-in is created and has items to enumerate in the scope pane. The pointer to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> that is passed in is used to make <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> calls to the console for interfaces such as 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNamespace2</a>. The snap-in should also call 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814791(v=vs.85)">IConsole2::QueryScopeImageList</a> to get the image list for the scope pane and add images to be displayed on the scope pane side.

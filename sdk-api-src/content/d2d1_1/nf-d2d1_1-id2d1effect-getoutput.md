@@ -79,7 +79,7 @@ This method does not return a value.
 
 The output image  can be set as an input to another effect, or can be directly passed into the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a> in order to render the effect. 
 
-It is  also possible to use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> to retrieve the same output image.
+It is  also possible to use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to retrieve the same output image.
 
 
 

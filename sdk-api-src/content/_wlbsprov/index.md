@@ -15,5 +15,5 @@ Overview of the Network Load Balancing Provider technology.
 The Network Load Balancing Provider technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Network Load Balancing Provider](/windows/desktop/wlbsprov)
+* [Network Load Balancing Provider](https://docs.microsoft.com/previous-versions/windows/desktop/wlbsprov)
 

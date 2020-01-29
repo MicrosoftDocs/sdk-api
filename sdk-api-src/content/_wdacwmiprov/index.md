@@ -15,5 +15,5 @@ Overview of the Windows Data Access Components WMI Provider technology.
 The Windows Data Access Components WMI Provider technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Windows Data Access Components WMI Provider](/windows/desktop/wdacwmiprov)
+* [Windows Data Access Components WMI Provider](https://docs.microsoft.com/previous-versions/windows/desktop/wdacwmiprov)
 

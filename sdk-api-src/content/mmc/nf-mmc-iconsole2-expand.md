@@ -92,7 +92,7 @@ The <b>IConsole2::Expand</b> method applies only to a particular view. This mean
 Therefore, the snap-in should only call this method on the 
 <b>IConsole2</b> interface pointer associated with an 
 <b>IComponent</b> object, that is, an 
-<b>IConsole2</b> interface pointer retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the <b>IConsole</b> interface pointer returned by 
+<b>IConsole2</b> interface pointer retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the <b>IConsole</b> interface pointer returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-initialize">IComponent::Initialize</a>.
 
 To enumerate the child items of an item in the namespace without visibly expanding the item, the snap-in should use the 

@@ -63,7 +63,7 @@ The <b>GetRange</b> method gets the range and default value of a specified camer
 
 ### -param Property [in]
 
-Specifies the property to query, as a value from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolproperty">CameraControlProperty</a> enumeration.
+Specifies the property to query, as a value from the [CameraControlProperty](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-cameracontrolproperty) enumeration.
           
 
 
@@ -93,7 +93,7 @@ Receives the default value of the property.
 
 ### -param pCapsFlags [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a> enumeration, indicating whether the property is controlled automatically or manually.
+Receives a member of the [CameraControlFlags](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-cameracontrolflags) enumeration, indicating whether the property is controlled automatically or manually.
           
 
 

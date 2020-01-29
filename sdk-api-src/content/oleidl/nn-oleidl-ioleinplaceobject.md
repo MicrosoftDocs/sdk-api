@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Manages the activation and deactivation of in-place objects, and determines how much of the in-place object should be visible.
 
-You can obtain a pointer to <b>IOleInPlaceObject</b> by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> on <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>.
+You can obtain a pointer to <b>IOleInPlaceObject</b> by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> on <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>.
 
 
 ## -inheritance

@@ -20,5 +20,5 @@ To develop Windows Address Book, you need these headers:
  * [wabtags.h](../wabtags/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Address Book](/windows/desktop/wab)
+* [Windows Address Book](https://docs.microsoft.com/previous-versions/windows/desktop/wab)
 

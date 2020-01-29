@@ -124,7 +124,7 @@ The specified number of returned objects is greater than the number of objects r
 
 
 
-To obtain object-specific interface pointers from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers returned in the <i>ppObjectArray</i> array, use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method.
+To obtain object-specific interface pointers from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers returned in the <i>ppObjectArray</i> array, use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method.
 
 
 

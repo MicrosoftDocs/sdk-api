@@ -68,7 +68,7 @@ Pointer to the pin to query for the list of frame rates.
 
 ### -param iIndex [in]
 
-Index of the format to query for frame rates. This index corresponds to the order in which formats are enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getstreamcaps">IAMStreamConfig::GetStreamCaps</a>. The value must range between zero and the number of supported <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps">VIDEO_STREAM_CONFIG_CAPS</a> structures returned by <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getnumberofcapabilities">IAMStreamConfig::GetNumberOfCapabilities</a>) minus one.
+Index of the format to query for frame rates. This index corresponds to the order in which formats are enumerated by [VIDEO_STREAM_CONFIG_CAPS](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps) structures returned by <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getnumberofcapabilities">IAMStreamConfig::GetNumberOfCapabilities</a>) minus one.
 
 
 ### -param Dimensions [in]
@@ -117,7 +117,7 @@ The caller is responsible for freeing the memory through a call to <b>CoTaskMemF
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps">VIDEO_STREAM_CONFIG_CAPS Structure</a>
+[VIDEO_STREAM_CONFIG_CAPS Structure](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps)
  
 
  

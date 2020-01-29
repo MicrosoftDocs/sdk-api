@@ -68,7 +68,7 @@ An application-defined DWORD_PTR that uniquely identifies this instance of the V
 
 ### -param lpPresInfo [in]
 
-Specifies the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrpresentationinfo">VMRPRESENTATIONINFO</a> structure.
+Specifies the [VMRPRESENTATIONINFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrpresentationinfo) structure.
 
 
 ## -returns

@@ -15,5 +15,5 @@ Overview of the Windows Installer Provider technology.
 The Windows Installer Provider technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Windows Installer Provider](/windows/desktop/msiprov)
+* [Windows Installer Provider](https://docs.microsoft.com/previous-versions/windows/desktop/msiprov)
 

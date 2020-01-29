@@ -63,7 +63,7 @@ The <code>SetDecimationUsage</code> method sets the decimation strategy.
 
 ### -param Usage [in]
 
-Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-decimation_usage">DECIMATION_USAGE</a> enumeration that specifies the decimation strategy.
+Member of the [DECIMATION_USAGE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-decimation_usage) enumeration that specifies the decimation strategy.
 
 
 ## -returns

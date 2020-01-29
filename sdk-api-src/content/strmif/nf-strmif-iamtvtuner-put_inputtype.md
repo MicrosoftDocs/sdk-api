@@ -68,7 +68,7 @@ Index value that specifies the input pin to be set.
 
 ### -param InputType [in]
 
-Value indicating the connection type, as specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-tunerinputtype">TunerInputType</a> enumeration.
+Value indicating the connection type, as specified in the [TunerInputType](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tunerinputtype) enumeration.
 
 
 ## -returns

@@ -87,7 +87,7 @@ It is erroneous to call the
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 If you are implementing your own storage objects, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irootstorage">IRootStorage</a> methods (including <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a>, <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>) must not consume additional memory or file handles.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irootstorage">IRootStorage</a> methods (including <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>, <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>) must not consume additional memory or file handles.
 
 
 

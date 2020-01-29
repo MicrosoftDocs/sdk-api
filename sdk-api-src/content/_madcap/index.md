@@ -17,5 +17,5 @@ To develop Multicast Address Dynamic Client Allocation Protocol (MADCAP), you ne
  * [madcapcl.h](../madcapcl/index.md)
 
 For programming guidance for this technology, see:
-* [Multicast Address Dynamic Client Allocation Protocol (MADCAP)](/windows/desktop/madcap)
+* [Multicast Address Dynamic Client Allocation Protocol (MADCAP)](https://docs.microsoft.com/previous-versions/windows/desktop/madcap)
 

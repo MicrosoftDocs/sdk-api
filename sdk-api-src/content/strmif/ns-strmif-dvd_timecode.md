@@ -102,7 +102,7 @@ Tens of frames.
 
 ### -field FrameRateCode
 
-Frames per second dropped and not dropped as indicated by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_framerate">DVD_FRAMERATE</a>.
+Frames per second dropped and not dropped as indicated by [DVD_FRAMERATE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_framerate).
 
 
 ## -remarks

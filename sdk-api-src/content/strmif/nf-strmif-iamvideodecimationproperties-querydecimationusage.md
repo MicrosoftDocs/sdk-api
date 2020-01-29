@@ -63,7 +63,7 @@ The <code>QueryDecimationUsage</code> method retrieves the current decimation st
 
 ### -param lpUsage [out]
 
-Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-decimation_usage">DECIMATION_USAGE</a> that receives the decimation setting.
+Pointer to a variable of type [DECIMATION_USAGE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-decimation_usage) that receives the decimation setting.
 
 
 ## -returns

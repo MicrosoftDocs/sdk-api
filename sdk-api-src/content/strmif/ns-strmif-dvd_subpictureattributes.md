@@ -62,12 +62,12 @@ The <code>DVD_SubpictureAttributes</code> structure contains information about t
 
 ### -field Type
 
-Variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_type">DVD_SUBPICTURE_TYPE</a> that indicates whether the subpicture contains language-related content.
+Variable of type [DVD_SUBPICTURE_TYPE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_type) that indicates whether the subpicture contains language-related content.
 
 
 ### -field CodingMode
 
-Variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_coding">DVD_SUBPICTURE_CODING</a> that indicates how the subpicture graphics stream is encoded.
+Variable of type [DVD_SUBPICTURE_CODING](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_coding) that indicates how the subpicture graphics stream is encoded.
 
 
 ### -field Language
@@ -77,7 +77,7 @@ Variable of type LCID that identifies the subpicture language if Type equals DVD
 
 ### -field LanguageExtension
 
-Variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_lang_ext">DVD_SUBPICTURE_LANG_EXT</a> that identifies the subpicture language extension if Type equals DVD_SPType_Language.
+Variable of type [DVD_SUBPICTURE_LANG_EXT](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_lang_ext) that identifies the subpicture language extension if Type equals DVD_SPType_Language.
 
 
 ## -see-also

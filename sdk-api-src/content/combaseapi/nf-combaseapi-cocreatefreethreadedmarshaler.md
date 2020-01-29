@@ -114,7 +114,7 @@ The <b>CoCreateFreeThreadedMarshaler</b> function performs the following tasks:
 <li>Creates a free-threaded marshaler object.</li>
 <li>Aggregates this marshaler to the object specified by the <i>punkOuter</i> parameter. This object is normally the one whose interface pointers are to be marshaled.</li>
 </ol>
-The aggregating object's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a> should delegate <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> calls for IID_IMarshal to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the free-threaded marshaler. Upon receiving a call, the free-threaded marshaler performs the following tasks: 
+The aggregating object's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a> should delegate <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> calls for IID_IMarshal to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the free-threaded marshaler. Upon receiving a call, the free-threaded marshaler performs the following tasks: 
 
 
 

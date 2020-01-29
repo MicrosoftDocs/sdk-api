@@ -63,7 +63,7 @@ The <b>SetAlphaBitmap</b> method specifies a new bitmap image and the source loc
 
 ### -param pBmpParms [in]
 
-A oointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmralphabitmap">VMRALPHABITMAP</a> structure that contains information about the bitmap.
+A oointer to a [VMRALPHABITMAP](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure that contains information about the bitmap.
 
 
 ## -returns
@@ -131,13 +131,13 @@ BitBlt to bitmap surface failed.
 
 
 
-To remove the bitmap, set the <b>VMRBITMAP_DISABLE</b> flag in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmralphabitmap">VMRALPHABITMAP</a> structure and call <b>SetAlphaBitmap</b> again.
+To remove the bitmap, set the [VMRALPHABITMAP](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure and call <b>SetAlphaBitmap</b> again.
 
 The method might return <b>E_INVALIDARG</b> for several reasons:
 
 <ul>
-<li>The <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmralphabitmap">VMRALPHABITMAP</a> structure contains an invalid combination of flags.</li>
-<li>The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmralphabitmap">VMRALPHABITMAP</a> structure does not specify a valid HDC or DirectDraw surface.</li>
+[VMRALPHABITMAP](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure contains an invalid combination of flags.</li>
+[VMRALPHABITMAP](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure does not specify a valid HDC or DirectDraw surface.</li>
 <li>The value of <b>fAlpha</b> is invalid.</li>
 </ul>
 

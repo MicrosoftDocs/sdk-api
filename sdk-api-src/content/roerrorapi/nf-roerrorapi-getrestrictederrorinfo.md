@@ -112,7 +112,7 @@ Call the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-r
 
 <b>GetRestrictedErrorInfo</b> transfers ownership of the error object to the caller and clears the error state for the thread. If the most recently set error object doesn't support the <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> interface, the error state for the thread is cleared, but no interface is returned to the caller.
 
-The <b>GetRestrictedErrorInfo</b> retrieves the error object from the current thread and calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> to find the <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> interface.  If <b>IRestrictedErrorInfo</b> isn't found, <b>GetRestrictedErrorInfo</b> returns <b>S_FALSE</b>.  In this case, the error object is removed from the thread. For more info, see <a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a>.
+The <b>GetRestrictedErrorInfo</b> retrieves the error object from the current thread and calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to find the <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> interface.  If <b>IRestrictedErrorInfo</b> isn't found, <b>GetRestrictedErrorInfo</b> returns <b>S_FALSE</b>.  In this case, the error object is removed from the thread. For more info, see <a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a>.
 
 Calling the <b>GetRestrictedErrorInfo</b>  function fails if <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> isn't the system implementation. To create an <b>IRestrictedErrorInfo</b> object, call  the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">OriginateError</a>, <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror">TransformError</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rocaptureerrorcontext">RoCaptureErrorContext</a> functions.
 
@@ -132,7 +132,7 @@ Calling the <b>GetRestrictedErrorInfo</b>  function fails if <a href="https://do
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-ro_error_reporting_flags">RO_ERROR_REPORTING_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-roerrorreportingflags">RO_ERROR_REPORTING_FLAGS</a>
 
 
 

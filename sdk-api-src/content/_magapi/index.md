@@ -17,5 +17,5 @@ To develop Magnification API, you need these headers:
  * [magnification.h](../magnification/index.md)
 
 For programming guidance for this technology, see:
-* [Magnification API](/windows/desktop/magapi)
+* [Magnification API](https://docs.microsoft.com/previous-versions/windows/desktop/magapi)
 

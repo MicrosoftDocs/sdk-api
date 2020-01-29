@@ -69,7 +69,7 @@ Locale identifier that specifies the default language.
 ### -param subpictureExtension [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_lang_ext">DVD_SUBPICTURE_LANG_EXT</a> enumeration that specifies the default subpicture extension.
+[DVD_SUBPICTURE_LANG_EXT](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_lang_ext) enumeration that specifies the default subpicture extension.
 
 
 ## -returns

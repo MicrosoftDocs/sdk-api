@@ -146,7 +146,7 @@ The AVI Mux filter always creates an AVI 2.0 index ('indx' format). If the value
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/nf-strmif-iconfigavimux-setoutputcompatibilityindex">IConfigAviMux::SetOutputCompatibilityIndex</a>
+[IConfigAviMux::SetOutputCompatibilityIndex](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfigavimux-setoutputcompatibilityindex)
  
 
  

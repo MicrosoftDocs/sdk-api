@@ -103,7 +103,7 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps">VIDEO_STREAM_CONFIG_CAPS Structure</a>
+[VIDEO_STREAM_CONFIG_CAPS Structure](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps)
  
 
  

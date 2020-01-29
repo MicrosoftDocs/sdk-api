@@ -107,7 +107,7 @@ The algorithm identifies objects within a sequence of video fields. Before it re
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrdeinterlacecaps">VMRDeinterlaceCaps Structure</a>
+[VMRDeinterlaceCaps Structure](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrdeinterlacecaps)
  
 
  

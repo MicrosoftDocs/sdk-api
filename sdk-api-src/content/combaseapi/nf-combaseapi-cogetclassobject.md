@@ -132,7 +132,7 @@ The CLSID is not properly registered. This error can also indicate that the valu
 </dl>
 </td>
 <td width="60%">
-Either the object pointed to by <i>ppv</i> does not support the interface identified by <i>riid</i>, or the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> operation on the class object returned E_NOINTERFACE.
+Either the object pointed to by <i>ppv</i> does not support the interface identified by <i>riid</i>, or the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> operation on the class object returned E_NOINTERFACE.
 
 </td>
 </tr>

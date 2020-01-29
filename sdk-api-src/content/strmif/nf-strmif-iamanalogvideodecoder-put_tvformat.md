@@ -63,7 +63,7 @@ The <code>put_TVFormat</code> method sets the analog video format.
 
 ### -param lAnalogVideoStandard [in]
 
-Specifies the video format as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a> enumeration.
+Specifies the video format as a member of the [AnalogVideoStandard](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-analogvideostandard) enumeration.
 
 
 ## -returns

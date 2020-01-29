@@ -15,5 +15,5 @@ Overview of the Pointer Device Input Stack technology.
 The Pointer Device Input Stack technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Pointer Device Input Stack](/windows/desktop/input_pointerdevice)
+* [Pointer Device Input Stack](https://docs.microsoft.com/previous-versions/windows/desktop/input_pointerdevice)
 

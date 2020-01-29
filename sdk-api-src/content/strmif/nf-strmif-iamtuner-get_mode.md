@@ -63,7 +63,7 @@ The <code>get_Mode</code> method retrieves the current mode on a multifunction t
 
 ### -param plMode [out]
 
-Pointer to a variable that receives a flag indicating the current mode setting. The possible values are defined in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-amtunermodetype">AMTunerModeType</a> enumeration.
+Pointer to a variable that receives a flag indicating the current mode setting. The possible values are defined in the [AMTunerModeType](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-amtunermodetype) enumeration.
 
 
 ## -returns

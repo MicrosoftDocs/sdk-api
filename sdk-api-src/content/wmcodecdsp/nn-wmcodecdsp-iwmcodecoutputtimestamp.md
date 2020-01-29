@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Gets the time stamp of the  next video frame to be decoded.
 
-This interface is implemented by the video decoders. You can obtain a pointer to <b>IWMCodecOutputTimestamp</b> by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of any other interface of the decoder object, such as <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>.
+This interface is implemented by the video decoders. You can obtain a pointer to <b>IWMCodecOutputTimestamp</b> by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of any other interface of the decoder object, such as <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>.
 
 
 ## -inheritance

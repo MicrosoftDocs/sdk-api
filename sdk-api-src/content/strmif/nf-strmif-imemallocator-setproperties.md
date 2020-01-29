@@ -63,7 +63,7 @@ The <code>SetProperties</code> method specifies the number of buffers to allocat
 
 ### -param pRequest
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties">ALLOCATOR_PROPERTIES</a> structure that contains the buffer requirements.
+Pointer to an [ALLOCATOR_PROPERTIES](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure that contains the buffer requirements.
 
 
 ### -param pActual

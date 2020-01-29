@@ -63,7 +63,7 @@ Creates property pages for a <a href="https://docs.microsoft.com/previous-versio
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer for retrieving information relating to the new 
-       property pages. By calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method with the 
+       property pages. By calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method with the 
        <i>piData</i> pointer, the following interfaces are available:
 
 <ul>
@@ -174,7 +174,7 @@ The extension does not support adding property pages.
 <p class="proch"><b>For each property page to be added</b>
 
 <ol>
-<li>Use <i>piData</i> to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> and retrieve an 
+<li>Use <i>piData</i> to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> and retrieve an 
        interface pointer for the cluster object associated with the page. For example, if you are adding a property 
        page for a resource, you want to retrieve a pointer to the 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterresourceinfo">IGetClusterResourceInfo</a> interface. 

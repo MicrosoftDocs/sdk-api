@@ -233,7 +233,7 @@ Back in the server process, COM now creates a new instance of the object, along 
 
 When a new interface proxy is created, COM hands it a pointer to the proxy manager's implementation of 
       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, to which it delegates all 
-      <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> calls. Each interface proxy 
+      <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> calls. Each interface proxy 
       implements two interfaces of its own: the interface it represents and 
       <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer">IRpcProxyBuffer</a>. The interface proxy exposes its own 
       interface directly to clients, which can obtain its pointer by calling 
@@ -278,7 +278,7 @@ A particular instance of an interface proxy can be used to service more than one
 <li>The IIDs of the affected interfaces must be mapped to the appropriate 
        <a href="https://docs.microsoft.com/windows/desktop/com/proxystubclsid">ProxyStubClsid</a> in the system registry.</li>
 <li>The interface proxy must support calls to 
-       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> from one supported interface to 
+       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> from one supported interface to 
        the other interfaces, as usual, as well as from <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and 
        <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer">IRpcProxyBuffer</a>.</li>
 </ul>

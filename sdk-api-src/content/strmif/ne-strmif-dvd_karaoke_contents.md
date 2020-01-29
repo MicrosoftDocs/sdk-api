@@ -112,7 +112,7 @@ The channel contains sound effect B.
 
 
 
-This enumeration is used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_karaokeattributes">DVD_KaraokeAttributes</a> structure.
+This enumeration is used in the [DVD_KaraokeAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_karaokeattributes) structure.
 
 
 

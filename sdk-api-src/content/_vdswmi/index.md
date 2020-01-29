@@ -15,5 +15,5 @@ Overview of the Storage Volume Provider technology.
 The Storage Volume Provider technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Storage Volume Provider](/windows/desktop/vdswmi)
+* [Storage Volume Provider](https://docs.microsoft.com/previous-versions/windows/desktop/vdswmi)
 

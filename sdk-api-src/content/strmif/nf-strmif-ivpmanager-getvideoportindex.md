@@ -98,7 +98,7 @@ This method returns the current video port index being used by the Video Port Ma
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/nf-strmif-ivpmanager-setvideoportindex">SetVideoPortIndex</a>
+[SetVideoPortIndex](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivpmanager-setvideoportindex)
  
 
  

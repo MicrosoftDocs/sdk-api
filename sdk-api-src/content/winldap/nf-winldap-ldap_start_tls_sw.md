@@ -71,7 +71,7 @@ Optional. A pointer to a <b>ULONG</b> that may contain a server error code. This
 
 ### -param result [out]
 
-Optional. A pointer to a pointer for an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmsg">LDAPMessage</a>  structure that may contain a server referral message.  Pass in <b>NULL</b> if you do not wish to use it.
+Optional. A pointer to a pointer for an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>  structure that may contain a server referral message.  Pass in <b>NULL</b> if you do not wish to use it.
 
 
 ### -param ServerControls [in]

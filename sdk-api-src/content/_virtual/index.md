@@ -18,5 +18,5 @@ To develop Hyper-V WMI Provider, you need these headers:
  * [mpconfig.h](../mpconfig/index.md)
 
 For programming guidance for this technology, see:
-* [Hyper-V WMI Provider](/windows/desktop/virtual)
+* [Hyper-V WMI Provider](https://docs.microsoft.com/previous-versions/windows/desktop/virtual)
 

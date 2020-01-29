@@ -15,5 +15,5 @@ Overview of the Mobile Device Management Settings Provider technology.
 The Mobile Device Management Settings Provider technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Mobile Device Management Settings Provider](/windows/desktop/mdmsettingsprov)
+* [Mobile Device Management Settings Provider](https://docs.microsoft.com/previous-versions/windows/desktop/mdmsettingsprov)
 

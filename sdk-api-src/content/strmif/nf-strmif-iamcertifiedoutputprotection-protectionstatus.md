@@ -60,12 +60,12 @@ The <code>ProtectionStatus</code> method sends a COPP status request to the grap
 
 ### -param pStatusInput [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-amcoppstatusinput">AMCOPPStatusInput</a> structure that contains the status request.
+Pointer to an [AMCOPPStatusInput](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-amcoppstatusinput) structure that contains the status request.
 
 
 ### -param pStatusOutput [out]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-amcoppstatusoutput">AMCOPPStatusOutput</a> structure. The method fills this structure with the driver's response.
+Pointer to an [AMCOPPStatusOutput](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-amcoppstatusoutput) structure. The method fills this structure with the driver's response.
 
 
 ## -returns

@@ -63,7 +63,7 @@ The <code>GetFormat</code> method retrieves the current or preferred output form
 
 ### -param ppmt [out]
 
-Address of a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure.
+Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure.
 
 
 ## -returns

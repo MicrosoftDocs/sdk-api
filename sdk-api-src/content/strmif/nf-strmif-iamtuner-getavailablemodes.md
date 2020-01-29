@@ -63,7 +63,7 @@ The <code>GetAvailableModes</code> method retrieves the tuner's supported modes.
 
 ### -param plModes [out]
 
-Pointer to a variable that receives any combination of the values as specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-amtunermodetype">AMTunerModeType</a> enumeration.
+Pointer to a variable that receives any combination of the values as specified in the [AMTunerModeType](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-amtunermodetype) enumeration.
 
 
 ## -returns

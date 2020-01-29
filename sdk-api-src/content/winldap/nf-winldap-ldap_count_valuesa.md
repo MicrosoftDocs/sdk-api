@@ -81,7 +81,7 @@ If a <b>NULL</b> pointer is passed as the argument, 0 is returned. If an invalid
 
 
 The <b>ldap_count_values</b> function returns the number of values in an array of strings. To count binary values in an array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structures, call 
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures, call 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_count_values_len">ldap_count_values_len</a>.
 
 
@@ -104,7 +104,7 @@ The <b>ldap_count_values</b> function returns the number of values in an array o
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
 
 
 

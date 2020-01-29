@@ -113,7 +113,7 @@ You do not explicitly call this method if you are implementing existing COM inte
 
 If you are not using MIDL to define your own interface, your stub must call this method, either directly or indirectly, to get the CLSID that the client-side COM library needs to create a proxy for the object implementing the interface.
 
-If the caller has a pointer to the interface to be marshaled, it should, as a matter of efficiency, use the <i>pv</i> parameter to pass that pointer. In this way, an implementation that may use such a pointer to determine the appropriate CLSID for the proxy does not have to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on itself. If a caller does not have a pointer to the interface to be marshaled, it can pass <b>NULL</b>.
+If the caller has a pointer to the interface to be marshaled, it should, as a matter of efficiency, use the <i>pv</i> parameter to pass that pointer. In this way, an implementation that may use such a pointer to determine the appropriate CLSID for the proxy does not have to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on itself. If a caller does not have a pointer to the interface to be marshaled, it can pass <b>NULL</b>.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 COM calls <b>GetUnmarshalClass</b> to obtain the CLSID to be used for creating a proxy in the client process. The CLSID to be used for a proxy is normally not that of the original object, but one you will have generated (using the Guidgen.exe tool) specifically for your proxy object.
@@ -122,7 +122,7 @@ Implement this method for each object that provides marshaling for one or more o
 
 If your proxy implementation consists simply of copying the entire original object into the client process, thereby eliminating the need to forward calls to the original object, the CLSID returned would be the same as that of the original object. This strategy, of course, is advisable only for objects that are not expected to change.
 
-If the <i>pv</i> parameter is <b>NULL</b> and your implementation needs an interface pointer, it can call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the current object to get it. The <i>pv</i> parameter exists merely to improve efficiency.
+If the <i>pv</i> parameter is <b>NULL</b> and your implementation needs an interface pointer, it can call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the current object to get it. The <i>pv</i> parameter exists merely to improve efficiency.
 
 To ensure that your implementation of <b>GetUnmarshalClass</b> continues to work properly as new destination contexts are supported in the future, delegate marshaling to the COM default implementation for all <i>dwDestContext</i> values that your implementation does not handle. To delegate marshaling to the COM default implementation, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetstandardmarshal">CoGetStandardMarshal</a> function.
 

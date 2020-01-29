@@ -15,5 +15,5 @@ Overview of the WPD Automation Object Model technology.
 The WPD Automation Object Model technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [WPD Automation Object Model](/windows/desktop/wpdauto)
+* [WPD Automation Object Model](https://docs.microsoft.com/previous-versions/windows/desktop/wpdauto)
 

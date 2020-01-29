@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Manages the rendering surface for the viewer. The viewer control host uses this interface to set the rendering surface that the viewer should use.
 
-This interface is implemented by the viewer control. An instance of this interface is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer">IRDPSRAPIViewer</a> object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method, passing <b>IID_IRDPViewerRenderingSurface</b>.
+This interface is implemented by the viewer control. An instance of this interface is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer">IRDPSRAPIViewer</a> object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method, passing <b>IID_IRDPViewerRenderingSurface</b>.
 
 
 ## -inheritance

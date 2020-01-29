@@ -15,5 +15,5 @@ Overview of the Input Source Identification technology.
 The Input Source Identification technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Input Source Identification](/windows/desktop/input_sourceid)
+* [Input Source Identification](https://docs.microsoft.com/previous-versions/windows/desktop/input_sourceid)
 

@@ -62,7 +62,7 @@ The <code>Quality</code> structure describes a quality message by indicating Flo
 
 ### -field Type
 
-Value from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-qualitymessagetype">QualityMessageType</a> enumeration, indicating whether the downstream filter needs more or less data.
+Value from the [QualityMessageType](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-qualitymessagetype) enumeration, indicating whether the downstream filter needs more or less data.
 
 
 ### -field Proportion

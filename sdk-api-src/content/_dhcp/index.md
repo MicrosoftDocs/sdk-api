@@ -20,5 +20,5 @@ To develop Dynamic Host Configuration Protocol (DHCP), you need these headers:
  * [dhcpv6csdk.h](../dhcpv6csdk/index.md)
 
 For programming guidance for this technology, see:
-* [Dynamic Host Configuration Protocol (DHCP)](/windows/desktop/dhcp)
+* [Dynamic Host Configuration Protocol (DHCP)](https://docs.microsoft.com/previous-versions/windows/desktop/dhcp)
 

@@ -90,7 +90,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 Chapters range from 1 through 999. See EC_DVD_CHAPTER_AUTOSTOP in <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-notification-codes">DVD Event Notification Codes</a> for more information.
 

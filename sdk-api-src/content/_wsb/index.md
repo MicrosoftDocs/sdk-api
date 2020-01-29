@@ -18,5 +18,5 @@ To develop Windows Server Backup, you need these headers:
  * [wsbonline.h](../wsbonline/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Server Backup](/windows/desktop/wsb)
+* [Windows Server Backup](https://docs.microsoft.com/previous-versions/windows/desktop/wsb)
 

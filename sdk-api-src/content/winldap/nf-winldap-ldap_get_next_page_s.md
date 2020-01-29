@@ -85,7 +85,7 @@ The server estimate of the total number of entries in the entire result set. A v
 ### -param Results [out]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmsg">LDAPMessage</a> structure that contains the results.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure that contains the results.
 
 
 ## -returns
@@ -130,7 +130,7 @@ If <b>ldap_get_next_page_s</b> is used, it is not required that
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmsg">LDAPMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
 
 
 

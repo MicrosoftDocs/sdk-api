@@ -63,7 +63,7 @@ The <code>QueryFilterInfo</code> method retrieves information about the filter.
 
 ### -param pInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-filter_info">FILTER_INFO</a> structure.
+Pointer to a [FILTER_INFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-filter_info) structure.
 
 
 ## -returns

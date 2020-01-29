@@ -122,7 +122,7 @@ All channels within a stream will use the same speaker configuration, although t
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_karaokeattributes">DVD_KaraokeAttributes Structure</a>
+[DVD_KaraokeAttributes Structure](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_karaokeattributes)
 
 
 

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>ber_bvecfree</b> function frees an array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structures.
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>ber_bvecfree</b> function frees an array of
 
 ### -param pBerVal [in]
 
-Pointer to a NULL-terminated array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structures to be deallocated.
+Pointer to a NULL-terminated array of <a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures to be deallocated.
 
 
 ## -returns
@@ -77,9 +77,9 @@ None.
 
 
 Use this function only to free an array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structures returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_scanf">ber_scanf</a> with the <b>V</b> character included in the format string.
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_scanf">ber_scanf</a> with the <b>V</b> character included in the format string.
 
-An application should not call this function to free a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structures that it has allocated.
+An application should not call this function to free a <a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures that it has allocated.
 
 
 
@@ -93,7 +93,7 @@ An application should not call this function to free a <a href="https://docs.mic
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
  
 
  

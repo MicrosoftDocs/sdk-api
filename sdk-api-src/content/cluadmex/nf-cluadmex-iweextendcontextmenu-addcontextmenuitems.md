@@ -65,7 +65,7 @@ Allows you to create context menu items for a cluster object and add the items t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer for retrieving information relating to the new menu 
-       item. By calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method with the 
+       item. By calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method with the 
        <i>piData</i> pointer, the following interfaces are available:
 
 <ul>
@@ -167,7 +167,7 @@ The extension does not support adding context menu items.
 <p class="proch"><b>To implement AddContextMenuItems</b>
 
 <ol>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method pointed to by 
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method pointed to by 
       <i>piData</i> to retrieve a pointer to an interface that can provide information about the 
       object associated with the menu item.</li>
 <li>Call the 

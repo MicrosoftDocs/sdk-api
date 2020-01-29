@@ -15,5 +15,5 @@ Overview of the Spell Checker API technology.
 The Spell Checker API technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Spell Checker API](/windows/desktop/spellcheck)
+* [Spell Checker API](https://docs.microsoft.com/previous-versions/windows/desktop/spellcheck)
 

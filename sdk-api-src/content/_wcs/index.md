@@ -17,5 +17,5 @@ To develop Windows Color System, you need these headers:
  * [wcsplugin.h](../wcsplugin/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Color System](/windows/desktop/wcs)
+* [Windows Color System](https://docs.microsoft.com/previous-versions/windows/desktop/wcs)
 

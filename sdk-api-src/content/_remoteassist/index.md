@@ -17,5 +17,5 @@ To develop Remote Assistance, you need these headers:
  * [rendezvoussession.h](../rendezvoussession/index.md)
 
 For programming guidance for this technology, see:
-* [Remote Assistance](/windows/desktop/remoteassist)
+* [Remote Assistance](https://docs.microsoft.com/previous-versions/windows/desktop/remoteassist)
 

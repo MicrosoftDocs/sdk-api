@@ -215,7 +215,7 @@ One of the following conditions occurred:
 <li><i>pInterfaceGuid</i> is <b>NULL</b>.</li>
 <li><i>pReserved</i> is not <b>NULL</b>.</li>
 <li><i>strProfileXml</i> is <b>NULL</b>.</li>
-<li><i>strProfileXml</i> contains a zero-length <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eaphostconfigschema-configblob-eaphostconfig-element">ConfigBlob</a>. If the profile must have an empty <b>ConfigBlob</b>, use <code>&lt;ConfigBlob&gt;00&lt;/ConfigBlob&gt;</code> in the profile.</li>
+[ConfigBlob](https://docs.microsoft.com/windows/desktop/eaphost/eaphostconfigschema-configblob-eaphostconfig-element). If the profile must have an empty <b>ConfigBlob</b>, use <code>&lt;ConfigBlob&gt;00&lt;/ConfigBlob&gt;</code> in the profile.</li>
 <li><i>pdwReasonCode</i> is <b>NULL</b>.</li>
 <li><i>dwFlags</i> is not set to one of the specified values.</li>
 <li><i>dwFlags</i> is set to WLAN_PROFILE_GROUP_POLICY and <i>bOverwrite</i> is set to <b>FALSE</b>.</li>
