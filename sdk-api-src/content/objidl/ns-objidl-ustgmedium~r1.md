@@ -51,37 +51,39 @@ The type of storage medium. The marshaling and unmarshaling routines use this va
 
 ### -field DUMMYUNIONNAME
 
-### -field hBitmap
+Handle, string, or interface pointer that the receiving process can use to access the data being transferred. If tymed is TYMED_NULL, the union member is undefined; otherwise, it is one of the following values.
+
+### -field DUMMYUNIONNAME.hBitmap
 
 Bitmap handle. The tymed member is TYMED_GDI.
 
 
-### -field hMetaFilePict
+### -field DUMMYUNIONNAME.hMetaFilePict
 
 Metafile handle. The tymed member is TYMED_MFPICT.
 
 
-### -field hEnhMetaFile
+### -field DUMMYUNIONNAME.hEnhMetaFile
 
 Enhanced metafile handle. The tymed member is TYMED_ENHMF.
 
 
-### -field hGlobal
+### -field DUMMYUNIONNAME.hGlobal
 
 Global memory handle. The tymed member is TYMED_HGLOBAL.
 
 
-### -field lpszFileName
+### -field DUMMYUNIONNAME.lpszFileName
 
 Pointer to the path of a disk file that contains the data. The tymed member is TYMED_FILE. 
 
 
-### -field pstm
+### -field DUMMYUNIONNAME.pstm
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface. The tymed member is TYMED_ISTREAM.
 
 
-### -field pstg
+### -field DUMMYUNIONNAME.pstg
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface. The tymed member is TYMED_ISTORAGE.
 
