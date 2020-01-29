@@ -185,7 +185,7 @@ The credential is  a certificate credential that is a generic authentication pac
 <td width="60%">
 The credential is supported by extended Negotiate packages.
 
-<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
+<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:</b> This value is not supported.
 
 </td>
 </tr>
@@ -242,16 +242,16 @@ If <b>Type</b> is <b>CRED_TYPE_DOMAIN_PASSWORD</b> or <b>CRED_TYPE_DOMAIN_CERTIF
 
 If <b>TargetName</b> is a DNS host name, the <b>TargetAlias</b> member can be the NetBIOS name of the host.
 
-If the <b>TargetName</b> is  a DNS host name suffix that contains a wildcard character, the leftmost label of the DNS host name is an asterisk (*), which denotes that the target name is any server whose name ends in the specified name, for example, *.microsoft.com.
+If the <b>TargetName</b> is a DNS host name suffix that contains a wildcard character, the leftmost label of the DNS host name is an asterisk (\*), which denotes that the target name is any server whose name ends in the specified name, for example, \*.microsoft.com.
 
-If the <b>TargetName</b> is a domain name that contains a wildcard character sequence, the syntax is the domain name followed by a backslash and asterisk (\*), which denotes that the target name is any server that is a member of the named domain (or realm).
+If the <b>TargetName</b> is a domain name that contains a wildcard character sequence, the syntax is the domain name followed by a backslash and asterisk (\\*), which denotes that the target name is any server that is a member of the named domain (or realm).
 
 If <b>TargetName</b> is a DNS domain name that contains a wildcard character sequence, the <b>TargetAlias</b> member can be a NetBIOS domain name that uses a wildcard sequence for the same domain.
 
 
-If <b>TargetName</b>  specifies a DFS share, for example, <i>DfsRoot</i><b>\</b><i>DfsShare</i>, then this credential matches the specific DFS share and any servers reached through that DFS share.
+If <b>TargetName</b> specifies a DFS share, for example, _DfsRoot\\DfsShare_, then this credential matches the specific DFS share and any servers reached through that DFS share.
 
-If <b>TargetName</b> is a single asterisk (*), this credential matches any server name.
+If <b>TargetName</b> is a single asterisk (\*), this credential matches any server name.
 
 If <b>TargetName</b> is CRED_SESSION_WILDCARD_NAME, this credential matches any server name. This credential matches before a single asterisk and is only valid if <b>Persist</b> is <b>CRED_PERSIST_SESSION</b>. The credential can be set by applications that want to temporarily override the default credential.
 
@@ -464,7 +464,7 @@ The user name of the account used to connect to <b>TargetName</b>.
 
 
 
-If the credential <b>Type</b> is <b>CRED_TYPE_DOMAIN_PASSWORD</b>, this member can be either a <i>DomainName</i><b>\</b><i>UserName</i> or a UPN.
+If the credential <b>Type</b> is <b>CRED_TYPE_DOMAIN_PASSWORD</b>, this member can be either a _DomainName\\UserName_ or a UPN.
 
 If the credential <b>Type</b> is <b>CRED_TYPE_DOMAIN_CERTIFICATE</b>, this member must be a marshaled certificate reference created by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a> with a CertCredential.
 
