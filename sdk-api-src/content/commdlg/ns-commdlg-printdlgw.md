@@ -246,7 +246,7 @@ Hides and disables the <b>Network</b> button.
 <tr>
 <td width="40%"><a id="PD_NOPAGENUMS"></a><a id="pd_nopagenums"></a><dl>
 <dt><b>PD_NOPAGENUMS</b></dt>
-<dt>0x00000002</dt>
+<dt>0x00000008</dt>
 </dl>
 </td>
 <td width="60%">
