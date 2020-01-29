@@ -394,7 +394,7 @@ You must prefix group names with <b>SC_GROUP_IDENTIFIER</b> so that they can be 
 
 ### -param lpServiceStartName [in, optional]
 
-The name of the account under which the service should run. If the service type is SERVICE_WIN32_OWN_PROCESS, use an account name in the form <i>DomainName</i>\<i>UserName</i>. The service process will be logged on as this user. If the account belongs to the built-in domain, you can specify .\<i>UserName</i>. 
+The name of the account under which the service should run. If the service type is SERVICE_WIN32_OWN_PROCESS, use an account name in the form *DomainName\UserName*. The service process will be logged on as this user. If the account belongs to the built-in domain, you can specify *.\UserName*. 
 
 
 
@@ -413,7 +413,7 @@ A shared process can run as any user.
 
 If the service type is <b>SERVICE_KERNEL_DRIVER</b> or <b>SERVICE_FILE_SYSTEM_DRIVER</b>, the name is the driver object name that the system uses to load the device driver. Specify NULL if the driver is to use a default object name created by the I/O system.
 
-A service can be configured to use a managed account or a virtual  account. If the service is configured to use a managed service account, the name is the managed service account name. If the service is configured to use a virtual  account, specify the name as NT SERVICE\<i>ServiceName</i>. For more information about managed service accounts and virtual accounts, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=147314">Service Accounts Step-by-Step Guide</a>.
+A service can be configured to use a managed account or a virtual  account. If the service is configured to use a managed service account, the name is the managed service account name. If the service is configured to use a virtual  account, specify the name as *NT SERVICE\ServiceName*. For more information about managed service accounts and virtual accounts, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=147314">Service Accounts Step-by-Step Guide</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>Managed service accounts and virtual accounts are not supported until Windows 7 and Windows Server 2008 R2.
 
