@@ -89,7 +89,7 @@ The provider passes this value when calling functions that require a PRJ_NAMESPA
 
 
 
-The error, HRESULT_FROM_WIN32(ERROR_REPARSE_TAG_MISMATCH), indicates that virtualizationRootPath has not bee configured as a virtualization root.
+The error, HRESULT_FROM_WIN32(ERROR_REPARSE_TAG_MISMATCH), indicates that virtualizationRootPath has not been configured as a virtualization root.
 
 
 

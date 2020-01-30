@@ -82,7 +82,7 @@ Reserved.
 
 
 
-[QueryCangesVirtualDisk](/windows/win32/api/virtdisk/nf-virtdisk-querychangesvirtualdisk)a>
+[QueryChangesVirtualDisk](/windows/win32/api/virtdisk/nf-virtdisk-querychangesvirtualdisk)
 
 
 
