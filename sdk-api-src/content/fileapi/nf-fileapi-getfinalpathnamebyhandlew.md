@@ -81,8 +81,7 @@ A pointer to a buffer that receives the path of <i>hFile</i>.
 
 ### -param cchFilePath [in]
 
-The size of <i>lpszFilePath</i>, in <b>TCHAR</b>s. This value does 
-      not include a <b>NULL</b> termination character.
+The size of <i>lpszFilePath</i>, in <b>TCHAR</b>s. This value must include a <b>NULL</b> termination character.
 
 
 ### -param dwFlags [in]
