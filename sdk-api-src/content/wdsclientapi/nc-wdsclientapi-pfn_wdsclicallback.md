@@ -43,29 +43,17 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# PFN_WdsCliCallback callback function
-
-
 ## -description
 
-
-Defines a callback function that WDS can call for progress notification and error messages during a 
-    file or image transfer.
-
+Defines a callback function that WDS can call for progress notification and error messages during a file or image transfer.
 
 ## -parameters
-
-
-
 
 ### -param dwMessageId [in]
 
 The type of message and the meaning of the <i>lParam</i> parameter.
 
-
 This parameter can have only one of the following values.
-
-
 
 <table>
 <tr>
@@ -142,16 +130,6 @@ The meaning of the value contained by this parameter depends upon the
 A pointer to optional user information attached to this session by the 
       <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferimage">WdsCliTransferImage</a> or 
       <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferfile">WdsCliTransferFile</a> function.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
 
 ## -remarks
 

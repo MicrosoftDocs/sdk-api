@@ -44,7 +44,6 @@ req.product: GDI+ 1.0
 ms.custom: 19H1
 ---
 
-# Color::SetFromCOLORREF
 
 
 ## -description
@@ -65,11 +64,7 @@ Type: <b>COLORREF</b>
 GDI<b>COLORREF</b> value that specifies the red, green, and blue components of this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object's <b>ARGB</b> value. The default value of the alpha component for this <b>Color</b> object is 255. 
 
 
-## -returns
 
-
-
-This method does not return a value.
 
 
 

@@ -43,50 +43,20 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# DavUnregisterAuthCallback function
-
-
 ## -description
-
 
 Unregisters a registered callback function that the WebDAV client uses to prompt the user for credentials.
 
-
 ## -parameters
-
-
-
 
 ### -param hCallback [in]
 
 The opaque handle that was returned by the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nf-davclnt-davregisterauthcallback">DavRegisterAuthCallback</a> function.
 
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
-
-
 
 To register the callback function, use the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nf-davclnt-davregisterauthcallback">DavRegisterAuthCallback</a> function.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nf-davclnt-davregisterauthcallback">DavRegisterAuthCallback</a>
- 
-
- 
-

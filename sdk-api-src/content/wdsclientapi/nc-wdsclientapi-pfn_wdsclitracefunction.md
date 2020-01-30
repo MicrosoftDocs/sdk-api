@@ -43,35 +43,16 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# PFN_WdsCliTraceFunction callback function
-
-
 ## -description
-
 
 Defines a callback function that can receive debugging messages from the WDS client.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszFormat [in]
 
 A pointer to a null-terminated string value that contains a formatted string.
 
-
 ### -param Params [in]
 
 A list of parameters used by the formatted string.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

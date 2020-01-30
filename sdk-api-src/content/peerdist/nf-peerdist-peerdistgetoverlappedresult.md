@@ -43,31 +43,26 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# PeerDistGetOverlappedResult function
-
-
 ## -description
-
 
 The <b>PeerDistGetOverlappedResult</b> function retrieves the results of asynchronous operations. This function replaces the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function for Peer Distribution asynchronous operations.
 
-
 ## -parameters
-
-
-
 
 ### -param lpOverlapped [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that was specified when the overlapped operation was started.
 
-
 ### -param lpNumberOfBytesTransferred [out]
 
 A pointer to a variable that receives the number of bytes that were actually transferred by a read or write operation. 
 
-
 ### -param bWait [in]
 
-If this parameter is TRUE, the function does not return until the operation has been completed. If this parameter is FALSE and the operation is still pending, the function returns FALSE.
+If this parameter is `true`, the function does not return until the operation has been completed. If this parameter is `false` and the operation is still pending, the function returns `false`.
 
+## -returns
+
+Type: **[BOOL](/windows/win32/winprog/windows-data-types)**
+
+`true` if the operation has completed. `false` if the *bWait* argument is `false` and the operation is still pending.
