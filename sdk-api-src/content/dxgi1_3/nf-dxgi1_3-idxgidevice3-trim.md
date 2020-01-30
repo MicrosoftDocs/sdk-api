@@ -44,14 +44,9 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDXGIDevice3::Trim
-
-
 ## -description
 
-
-Trims the graphics memory allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgidevice3">IDXGIDevice3</a> 
-    DXGI device on the app's behalf.
+Trims the graphics memory allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgidevice3">IDXGIDevice3</a> DXGI device on the app's behalf.
 
 For apps that render with DirectX, graphics drivers periodically allocate internal memory buffers in order to speed up subsequent rendering requests. These memory allocations count against the app's memory usage for PLM  and in general lead to increased memory usage by the overall system.
 
@@ -66,30 +61,6 @@ Similar to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d1
 It is also prudent to release references on middleware before calling <b>Trim</b>, as that middleware may also need to release references
 to Direct3D objects.
 
-
-## -parameters
-
-
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgidevice3">IDXGIDevice3</a>
- 
-
- 
-

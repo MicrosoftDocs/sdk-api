@@ -43,31 +43,21 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# PFNDAVAUTHCALLBACK callback function
-
-
 ## -description
-
 
 The WebDAV client calls the application-defined <i>DavAuthCallback</i> callback function to prompt the user for credentials.
 
 The <i>PFNDAVAUTHCALLBACK</i> type defines a pointer to this callback function. <i>DavAuthCallback</i> is a placeholder for the application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param lpwzServerName [in]
 
 A pointer to a <b>NULL</b>-terminated Unicode string that contains the name of the target server.
 
-
 ### -param lpwzRemoteName [in]
 
 A pointer to a <b>NULL</b>-terminated Unicode string that contains the name of the network resource.
-
 
 ### -param dwAuthScheme [in]
 
@@ -160,8 +150,6 @@ Forms-based authentication is to be used.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
@@ -173,39 +161,28 @@ The flags that the WebDAV service passed in the <i>dwFlags</i> parameter when it
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_cred">DAV_CALLBACK_CRED</a> structure.
 
 
-### -param *NextStep [in, out]
+### -param NextStep [in, out]
 
 A pointer to an  <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ne-davclnt-authnextstep">AUTHNEXTSTEP</a> enumeration value that specifies the next action that the WebDAV client should take after  a successful call to the <i>DavAuthCallback</i> callback function.
 
 
-### -param *pFreeCred [out]
+### -param pFreeCred [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback_freecred">DavFreeCredCallback</a> callback function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <i>DavAuthCallback</i> callback function must be registered by calling the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nf-davclnt-davregisterauthcallback">DavRegisterAuthCallback</a> function.
 
 To unregister this callback function, use the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nf-davclnt-davunregisterauthcallback">DavUnregisterAuthCallback</a> function.
 
 This callback function should prompt the user for credentials (either a <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_unp">user name and password</a> or an <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_blob">authentication BLOB</a>) and store this information in the appropriate member of the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_cred">DAV_CALLBACK_CRED</a> structure that the <i>pCallbackCred</i> parameter points to.
-
-
-
 
 ## -see-also
 
@@ -229,7 +206,3 @@ This callback function should prompt the user for credentials (either a <a href=
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback_freecred">DavFreeCredCallback</a>
- 
-
- 
-

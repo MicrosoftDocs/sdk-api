@@ -44,11 +44,7 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# MethodContext::GetStatusObject
-
-
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/methodco/nl-methodco-methodcontext">MethodContext</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -58,21 +54,12 @@ ms.custom: 19H1
 
 The <b>GetStatusObject</b> method gets an internal pointer to <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> information. WMI does not implement any functionality based on the pointer.
 
+## -returns
 
-## -parameters
+Type: **[IWbemClassObject](/windows/win32/api/wbemcli/nn-wbemcli-iwbemclassobject)\***
 
-
-
-
-
+A pointer to the **IWbemClassObject** information.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/methodco/nl-methodco-methodcontext">MethodContext</a>
- 
-
- 
-

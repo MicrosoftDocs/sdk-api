@@ -65,11 +65,7 @@ Type: <b>ARGB</b>
 Thirty-two bit <b>ARGB</b> value that specifies the color. An <b>ARGB</b> value consolidates the alpha, red, green, and blue components of a color. <b>ARGB</b> is defined in Gdipluspixelformats.h. 
 
 
-## -returns
 
-
-
-This method does not return a value.
 
 
 
