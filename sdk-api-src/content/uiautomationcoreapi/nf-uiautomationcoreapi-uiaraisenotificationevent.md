@@ -63,12 +63,12 @@ Called by providers to initiate a notification event.
 The provider node where the notification event occurred.
 
 
-### -param <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/uiautomationcore/ne-uiautomationcore-notificationkind?redirectedfrom=MSDN">notificationKind</a></b>
+### -param **[notificationKind](/windows/win32/api/uiautomationcore/ne-uiautomationcore-notificationkind)**
 
 The type of notification.
 
 
-### -param <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/uiautomationcore/ne-uiautomationcore-notificationprocessing">notificationProcessing</a></b>
+### -param **[notificationProcessing](/windows/win32/api/uiautomationcore/ne-uiautomationcore-notificationprocessing)**
 
 Indicates how to process notifications.
 
