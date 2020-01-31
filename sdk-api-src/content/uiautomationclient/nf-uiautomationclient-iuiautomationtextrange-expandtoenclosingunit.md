@@ -5,7 +5,7 @@ description: Normalizes the text range by the specified text unit. The range is 
 old-location: winauto\uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit.htm
 tech.root: WinAuto
 ms.assetid: 09ec62c1-f738-43af-bd6c-b45fdfb32236
-ms.date: 12/05/2018
+ms.date: 01/30/2020
 ms.keywords: ExpandToEnclosingUnit, ExpandToEnclosingUnit method [Windows Accessibility], ExpandToEnclosingUnit method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],ExpandToEnclosingUnit method, IUIAutomationTextRange.ExpandToEnclosingUnit, IUIAutomationTextRange::ExpandToEnclosingUnit, uiauto.uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit, uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit, uiautomationclient/IUIAutomationTextRange::ExpandToEnclosingUnit, winauto.uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit
 f1_keywords:
 - uiautomationclient/IUIAutomationTextRange.ExpandToEnclosingUnit
@@ -49,9 +49,15 @@ ms.custom: 19H1
 
 Normalizes the text range by the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is longer than the specified unit.
 
+## -syntax
+
+```cpp
+HRESULT ExpandToEnclosingUnit (TextUnit unit);
+```
+
 ## -parameters
 
-#### - textUnit [in]
+### -param unit [in]
 
 Type: **[TextUnit](../uiautomationcore/ne-uiautomationcore-textunit.md)**
 
@@ -67,7 +73,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 > ### Parameters
 >
-> `textUnit` [in]
+> `unit` [in]
 >
 > Type: **[TextUnit](../uiautomationcore/ne-uiautomationcore-textunit.md)**
 >
