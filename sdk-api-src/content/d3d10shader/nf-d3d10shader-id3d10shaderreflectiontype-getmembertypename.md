@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Get a shader-reflection-variable type.
+Get a shader-reflection-variable name(function name contains a typo, should be GetMemberName).
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Zero-based index.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
-The variable type.
+The member name.
 
 
 
