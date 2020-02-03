@@ -84,6 +84,8 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi
 The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
 
 
+When GetLastError returns <b>ERROR_IN_WOW64</b>, this means that the calling application is a 32-bit application attempting to execute in a 64-bit environment, which is not allowed.
+
 
 
 ## -remarks
