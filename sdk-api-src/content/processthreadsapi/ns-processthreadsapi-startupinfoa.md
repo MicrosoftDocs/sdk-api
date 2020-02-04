@@ -349,7 +349,7 @@ If this flag is specified when calling one of the process creation functions, th
 function's <i>bInheritHandles</i> parameter must be set to TRUE. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/handle-inheritance">Handle Inheritance</a>.
 
-If this flag is specified when calling the [GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)a> function, these members are either the handle value specified during process creation or INVALID_HANDLE_VALUE.
+If this flag is specified when calling the [GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow) function, these members are either the handle value specified during process creation or INVALID_HANDLE_VALUE.
 
 Handles must be closed with 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> when they are no longer needed.
