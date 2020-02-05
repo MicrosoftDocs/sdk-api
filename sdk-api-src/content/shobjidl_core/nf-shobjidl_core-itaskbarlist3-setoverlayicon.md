@@ -74,7 +74,7 @@ The handle of an icon to use as the overlay. This should be a small icon, measur
 
 This value can be <b>NULL</b>. How a <b>NULL</b> value is handled depends on whether the taskbar button represents a single window or a group of windows.
                         
-                        <ul>
+<ul>
 <li>If the taskbar button represents a single window, the overlay icon is removed from the display.</li>
 <li>If the taskbar button represents a group of windows and a previous overlay is still available (received earlier than the current overlay, but not yet freed by a <b>NULL</b> value), then that previous overlay is displayed in place of the current overlay.</li>
 </ul>
