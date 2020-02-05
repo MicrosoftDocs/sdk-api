@@ -46,48 +46,32 @@ ms.custom: 19H1
 
 # UiaRaiseNotificationEvent function
 
-
 ## -description
-
 
 Called by providers to initiate a notification event.
 
-
 ## -parameters
-
-
-
 
 ### -param provider [in]
 
 The provider node where the notification event occurred.
 
+### -param notificationKind
 
-### -param **[notificationKind](/windows/win32/api/uiautomationcore/ne-uiautomationcore-notificationkind)**
+The type of notification, as a [NotificationKind enumeration](../uiautomationcore/ne-uiautomationcore-notificationkind.md) value.
 
-The type of notification.
+### -param notificationProcessing
 
-
-### -param **[notificationProcessing](/windows/win32/api/uiautomationcore/ne-uiautomationcore-notificationprocessing)**
-
-Indicates how to process notifications.
-
+The preferred way to process a notification, as a [NotificationProcessing enumeration](../uiautomationcore/ne-uiautomationcore-notificationprocessing.md) value.
 
 ### -param displayString [in, optional]
 
 A string to display in the notification message.
 
-
 ### -param activityId [in]
 
 A unique non-localized string to identify an action or group of actions. Use this to pass additional information to the event handler.
 
-
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
