@@ -122,13 +122,9 @@ You can create a constant buffer that is larger than the maximum constant buffer
           you can define a range of the buffer that the shader can access that fits within the 4096 constant limit.
         
 
-The runtime will emulate this feature for <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> 9.1, 9.2, and 9.3; therefore, this feature is supported for feature level 9.1, 9.2, and 9.3.
+The Direct3D 11.1 runtime available in Windows 8 and later operating systems will emulate this feature for <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> 9.1, 9.2, and 9.3; therefore, this feature is supported for feature level 9.1, 9.2, and 9.3.
           This feature is always available on new drivers for feature level 10 and higher.
-          On existing drivers that are implemented to feature level 10 and higher, a call to <b>CreateBuffer</b> to request a constant buffer that is larger than 4096 fails.
-        
-
-
-
+          On runtimes older than Direct3D 11.1, a call to <b>CreateBuffer</b> to request a constant buffer that is larger than 4096 fails.
 
 ## -see-also
 
