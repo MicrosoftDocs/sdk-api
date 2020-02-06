@@ -1,5 +1,6 @@
 ---
 UID: NA:certmod
+title: Certmod.h header
 ms.assetid: 1486e939-e833-33f7-945e-3bd2e8d0bc16
 ms.date: 01/11/2019
 ms.keywords: 

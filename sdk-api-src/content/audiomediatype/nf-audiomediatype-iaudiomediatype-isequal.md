@@ -148,7 +148,7 @@ The media types are not equal. Examine the <i>pdwFlags</i> parameter to determin
 
 
 
-Both media types must have a major type, otherwise the method returns E_INVALIDARG. For more information about media types, see <a href="http://go.microsoft.com/fwlink/p/?linkid=154684">Media Types</a>.
+Both media types must have a major type, otherwise the method returns E_INVALIDARG. For more information about media types, see <a href="https://go.microsoft.com/fwlink/p/?linkid=154684">Media Types</a>.
 
 The MF_MEDIATYPE_EQUAL_FORMAT_DATA flag indicates that both media types have compatible attributes, although one might be a superset of the other. This method of comparison means that you can compare a partially-specified media type against a complete media type. For example, you might have two video types that describe the same format, but one type includes attributes for extended color information (chroma siting, nominal range, and so forth).
 
@@ -166,7 +166,7 @@ If the method succeeds and all the comparison flags are set in <i>pdwFlags</i>, 
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=154684">Media Types</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=154684">Media Types</a>
 
 
 

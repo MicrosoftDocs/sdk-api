@@ -73,7 +73,7 @@ Length of the packet pointed to by the <i>pReplyPacket</i> parameter.
 
 An Enterprise Number assigned to the vendor of the option by the Internet Assigned Numbers Authority (IANA).
 
-For more information about assigned Enterprise Numbers, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="Http://go.microsoft.com/fwlink/p/?linkid=132626">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
+For more information about assigned Enterprise Numbers, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="https://go.microsoft.com/fwlink/p/?linkid=132626">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
 
 
 ### -param wOption [in]

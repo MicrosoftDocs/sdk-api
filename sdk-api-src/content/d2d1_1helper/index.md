@@ -1,5 +1,6 @@
 ---
 UID: NA:d2d1_1helper
+title: D2D1_1Helper.h header
 ms.assetid: c94ea661-b910-3910-9528-15c03470e322
 ms.date: 01/11/2019
 ms.keywords: 

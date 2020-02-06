@@ -86,7 +86,7 @@ A pointer to a value of type BOOL that <b>DiShowUpdateDevice</b> sets to indicat
 
 
 
-<b>DiShowUpdateDevice</b> returns <b>TRUE</b> if the Hardware Update wizard successfully updated the driver for the specified device. Otherwise, <b>DiShowUpdateDevice</b> returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>. Some of the more common error values that <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> might return are as follows:
+<b>DiShowUpdateDevice</b> returns <b>TRUE</b> if the Hardware Update wizard successfully updated the driver for the specified device. Otherwise, <b>DiShowUpdateDevice</b> returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>. Some of the more common error values that <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> might return are as follows:
 
 <table>
 <tr>

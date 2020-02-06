@@ -1,5 +1,6 @@
 ---
 UID: TP:deviceaccess
+title: Device Access API
 ms.assetid: c4afd78e-1e89-3dda-9c6f-6a2002ebabca
 ms.date: 01/11/2019
 ms.keywords: 

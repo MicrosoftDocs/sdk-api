@@ -56,7 +56,7 @@ Gets one line of text from stdin, up to and including the newline character ('\n
 
 <b>StringCchGetsEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192504">gets, _getws, _getts</a></li>
+<li><a href="https://go.microsoft.com/fwlink/p/?linkid=192504">gets, _getws, _getts</a></li>
 </ul><b>StringCchGetsEx</b> is not a replacement for <b>fgets</b>, which does not replace newline characters with a terminating null character.
 
 

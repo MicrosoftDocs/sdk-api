@@ -1,5 +1,6 @@
 ---
 UID: NA:snmp
+title: Snmp.h header
 ms.assetid: ee6e30d8-1567-383e-8ee8-89568a834400
 ms.date: 01/11/2019
 ms.keywords: 

@@ -1,5 +1,6 @@
 ---
 UID: NA:azroles
+title: Azroles.h header
 ms.assetid: b0d03ad2-0c6d-3dd5-a767-8f008a9fc4c0
 ms.date: 01/11/2019
 ms.keywords: 

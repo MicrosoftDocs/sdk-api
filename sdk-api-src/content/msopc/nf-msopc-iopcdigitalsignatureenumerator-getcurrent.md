@@ -187,7 +187,7 @@ A Signature part does not contain the signature markup for exactly one signature
 </dl>
 </td>
 <td width="60%">
-The signature markup in a Signature part does not conform to the schema specified in the <i>OPC</i> or <a href="http://go.microsoft.com/fwlink/p/?linkid=132847">XML-Signature Syntax and Processing</a> (http://go.microsoft.com/fwlink/p/?linkid=132847).
+The signature markup in a Signature part does not conform to the schema specified in the <i>OPC</i> or <a href="https://go.microsoft.com/fwlink/p/?linkid=132847">XML-Signature Syntax and Processing</a> (https://go.microsoft.com/fwlink/p/?linkid=132847).
 
 </td>
 </tr>
@@ -319,7 +319,7 @@ The <b>URI</b> attribute is required for a <b>Reference</b> element but is missi
 </dl>
 </td>
 <td width="60%">
-Either the content type of a part differed from the expected content type (specified in the OPC, <a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 Part 2</a>), or the part content did not match the part's  content type.
+Either the content type of a part differed from the expected content type (specified in the OPC, <a href="https://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 Part 2</a>), or the part content did not match the part's  content type.
 
 </td>
 </tr>

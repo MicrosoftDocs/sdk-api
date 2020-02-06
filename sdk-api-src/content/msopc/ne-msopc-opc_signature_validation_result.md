@@ -78,7 +78,7 @@ Signature markup or signed package components might have been altered. Alternati
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML standard</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML standard</a>
 
 
 
@@ -114,7 +114,7 @@ Signature markup or signed package components might have been altered. Alternati
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=132847">W3C Recommendation, XML Signature and Syntax Processing</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=132847">W3C Recommendation, XML Signature and Syntax Processing</a>
  
 
  

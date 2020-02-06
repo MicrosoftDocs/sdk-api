@@ -54,7 +54,7 @@ ms.custom: 19H1
 Describes a TCP/IP interface in accord with 
 				the Simple Network Management Protocol, version 2, (SNMPv2) standard for Management Information Base for network management 
 				of TCP/IP networks (MIB-II), as specified in the Internet Engineering Task Force (IETF) Request for Comments 
-				<a href="Http://go.microsoft.com/fwlink/p/?linkid=85307">(RFC) 1213</a> on pages 16 through 23.
+				<a href="https://go.microsoft.com/fwlink/p/?linkid=85307">(RFC) 1213</a> on pages 16 through 23.
 
 
 ## -struct-fields
@@ -75,7 +75,7 @@ The interface type according to
 						the physical or link protocol(s) immediately below the network layer in the protocol 
 						stack. The following table lists the possible values of this <b>if_type</b> 
 						member enumerated on pages  18 and 19 of 
-						<a href="Http://go.microsoft.com/fwlink/p/?linkid=85307">RFC 1213</a>.
+						<a href="https://go.microsoft.com/fwlink/p/?linkid=85307">RFC 1213</a>.
 
 <table>
 <tr>
@@ -471,7 +471,7 @@ The interface's address at the protocol layer immediately below the network laye
 ### -field if_adminstatus
 
 The desired state of the interface; one of the following values specified on page 20 of 
-						<a href="Http://go.microsoft.com/fwlink/p/?linkid=85307">RFC 1213</a>.
+						<a href="https://go.microsoft.com/fwlink/p/?linkid=85307">RFC 1213</a>.
 					
 			 
 
@@ -520,7 +520,7 @@ In a test state, such that no operational packets can be passed.
 ### -field if_operstatus
 
 The actual current operational state of the interface; one of the following values specified on page 20 of 
-						<a href="Http://go.microsoft.com/fwlink/p/?linkid=85307">RFC 1213</a>.
+						<a href="https://go.microsoft.com/fwlink/p/?linkid=85307">RFC 1213</a>.
 					
 				 
 

@@ -1,5 +1,6 @@
 ---
 UID: NA:wsbonline
+title: Wsbonline.h header
 ms.assetid: 9df88687-7f2b-3cfe-b7a1-e8804e6fc954
 ms.date: 01/11/2019
 ms.keywords: 

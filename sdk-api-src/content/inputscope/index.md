@@ -1,5 +1,6 @@
 ---
 UID: NA:inputscope
+title: Inputscope.h header
 ms.assetid: 34803fab-f9b7-37c1-a42f-98fbb1bee73c
 ms.date: 01/11/2019
 ms.keywords: 

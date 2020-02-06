@@ -82,7 +82,7 @@ Specifies the assignment of audio channels to speaker positions in the transform
 
 ### -field Coeff
 
-Array that contains the fold-down coefficients. The number of coefficients is <b>cSrcChannels</b>×<b>cDstChannels</b>. If the number of coefficients is less than the size of the array, the remaining elements in the array are ignored. For more information about how the coefficients are applied, see <a href="http://go.microsoft.com/fwlink/p/?linkid=22396">Windows Media Audio Professional Codec Features</a>.
+Array that contains the fold-down coefficients. The number of coefficients is <b>cSrcChannels</b>×<b>cDstChannels</b>. If the number of coefficients is less than the size of the array, the remaining elements in the array are ignored. For more information about how the coefficients are applied, see <a href="https://go.microsoft.com/fwlink/p/?linkid=22396">Windows Media Audio Professional Codec Features</a>.
 
 
 ## -remarks

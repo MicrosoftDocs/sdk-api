@@ -207,7 +207,7 @@ Retrieves a value that determines whether Windows 8 is displaying apps using th
 
 Apps can provide text and image resources for each of several scaling plateaus: 100%, 140%, and 180%. Providing separate resources optimized for a particular scale avoids distortion due to resizing. Windows 8 determines the appropriate scaling plateau based on a number of factors, including screen size and pixel density. When "Make everything on your screen bigger" is selected (SPI_GETLOGICALDPIOVERRIDE returns a value of 1), Windows uses resources from the next higher plateau. For example, in the case of hardware that Windows determines should use a scale of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-device_scale_factor">SCALE_100_PERCENT</a>, this override causes Windows to use the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-device_scale_factor">SCALE_140_PERCENT</a> scale value, assuming that it does not violate other constraints.
 
-<div class="alert"><b>Note</b>  You should not use this value. It might be altered or unavailable in subsequent versions of Windows. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getscalefactorfordevice">GetScaleFactorForDevice</a> function or the <a href="http://go.microsoft.com/fwlink/p/?linkid=282416">DisplayProperties</a> class to retrieve the preferred scaling factor. Desktop applications should use desktop logical DPI rather than scale factor. Desktop logical DPI can be retrieved through the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function.</div>
+<div class="alert"><b>Note</b>  You should not use this value. It might be altered or unavailable in subsequent versions of Windows. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getscalefactorfordevice">GetScaleFactorForDevice</a> function or the <a href="https://go.microsoft.com/fwlink/p/?linkid=282416">DisplayProperties</a> class to retrieve the preferred scaling factor. Desktop applications should use desktop logical DPI rather than scale factor. Desktop logical DPI can be retrieved through the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function.</div>
 <div> </div>
 </td>
 </tr>
@@ -708,7 +708,7 @@ The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives 
 </dl>
 </td>
 <td width="60%">
-Retrieves a contrast value that is used in <a href="Http://go.microsoft.com/fwlink/p/?linkid=84132">ClearType</a> smoothing. The <i>pvParam</i> parameter must point to a <b>UINT</b> that receives the information. Valid contrast values are from 1000 to 2200. The default value is 1400.
+Retrieves a contrast value that is used in <a href="https://go.microsoft.com/fwlink/p/?linkid=84132">ClearType</a> smoothing. The <i>pvParam</i> parameter must point to a <b>UINT</b> that receives the information. Valid contrast values are from 1000 to 2200. The default value is 1400.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -852,7 +852,7 @@ To enable the feature, set the <i>uiParam</i> parameter to <b>TRUE</b>. To disab
 </dl>
 </td>
 <td width="60%">
-Sets the contrast value used in <a href="Http://go.microsoft.com/fwlink/p/?linkid=84132">ClearType</a> smoothing. The <i>pvParam</i> parameter is the contrast value. Valid contrast values are from 1000 to 2200. The default value is 1400.
+Sets the contrast value used in <a href="https://go.microsoft.com/fwlink/p/?linkid=84132">ClearType</a> smoothing. The <i>pvParam</i> parameter is the contrast value. Valid contrast values are from 1000 to 2200. The default value is 1400.
 
 <b>SPI_SETFONTSMOOTHINGTYPE</b> must also be set to <b>FE_FONTSMOOTHINGCLEARTYPE</b>.
 
@@ -880,7 +880,7 @@ Sets the font smoothing orientation. The <i>pvParam</i> parameter is either <b>F
 </dl>
 </td>
 <td width="60%">
-Sets the font smoothing type. The <i>pvParam</i> parameter is either <b>FE_FONTSMOOTHINGSTANDARD</b>, if standard anti-aliasing is used, or <b>FE_FONTSMOOTHINGCLEARTYPE</b>, if <a href="Http://go.microsoft.com/fwlink/p/?linkid=84132">ClearType</a> is used. The default is <b>FE_FONTSMOOTHINGSTANDARD</b>.
+Sets the font smoothing type. The <i>pvParam</i> parameter is either <b>FE_FONTSMOOTHINGSTANDARD</b>, if standard anti-aliasing is used, or <b>FE_FONTSMOOTHINGCLEARTYPE</b>, if <a href="https://go.microsoft.com/fwlink/p/?linkid=84132">ClearType</a> is used. The default is <b>FE_FONTSMOOTHINGSTANDARD</b>.
 
 <b>SPI_SETFONTSMOOTHING</b> must also be set.
 
@@ -1821,7 +1821,7 @@ The following are the screen saver parameters.
 <td width="60%">
 Determines whether screen saving is enabled. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if screen saving is enabled, or <b>FALSE</b> otherwise.
 
-<b>Windows 7, Windows Server 2008 R2 and Windows 2000:  </b>The function returns <b>TRUE</b> even when screen saving is not enabled. For more information and a workaround, see <a href="http://go.microsoft.com/fwlink/p/?linkid=182995">KB318781</a>.
+<b>Windows 7, Windows Server 2008 R2 and Windows 2000:  </b>The function returns <b>TRUE</b> even when screen saving is not enabled. For more information and a workaround, see <a href="https://go.microsoft.com/fwlink/p/?linkid=182995">KB318781</a>.
 
 </td>
 </tr>

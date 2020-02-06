@@ -1,5 +1,6 @@
 ---
 UID: NA:profinfo
+title: Profinfo.h header
 ms.assetid: cb4cdb83-0353-3618-b576-37e40ef77b40
 ms.date: 01/11/2019
 ms.keywords: 

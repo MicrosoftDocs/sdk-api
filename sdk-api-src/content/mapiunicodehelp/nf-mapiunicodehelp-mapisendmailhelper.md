@@ -444,7 +444,7 @@ For more information about MAPI send mail functions, see <a href="https://docs.m
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=258388">Windows SDK for Windows 8</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=258388">Windows SDK for Windows 8</a>
  
 
  

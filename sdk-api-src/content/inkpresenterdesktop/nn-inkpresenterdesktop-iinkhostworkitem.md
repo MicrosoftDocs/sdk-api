@@ -57,7 +57,7 @@ An <b>IInkHostWorkItem</b> object represents an ink operation to be executed on 
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620314">Complex ink sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=620314">Complex ink sample</a>
 
 
 
@@ -65,7 +65,7 @@ An <b>IInkHostWorkItem</b> object represents an ink operation to be executed on 
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
 
 
 
@@ -77,7 +77,7 @@ An <b>IInkHostWorkItem</b> object represents an ink operation to be executed on 
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620312">Simple ink sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=620312">Simple ink sample</a>
  
 
  

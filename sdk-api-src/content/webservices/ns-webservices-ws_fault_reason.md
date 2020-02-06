@@ -69,6 +69,6 @@ The language identifier that identifies the language of the text.
                 
 
 The identifier is serialized using the xml:lang attribute, and has
-                    values that follow <a href="http://go.microsoft.com/fwlink/p/?linkid=139708">RFC3066.txt</a>. 
+                    values that follow <a href="https://go.microsoft.com/fwlink/p/?linkid=139708">RFC3066.txt</a>. 
                 
 

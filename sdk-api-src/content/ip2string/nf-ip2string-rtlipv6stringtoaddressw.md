@@ -134,7 +134,7 @@ The string pointed to by the <i>S</i> parameter must be represented in the form 
     separated by colons. A string of consecutive zero numbers may be replaced
     with a double-colon.
     There can only be one double-colon in the string representation of the IPv6 address. The last 32 bits may be represented in IPv4-style dotted-octet notation
-    if the address is an IPv4-compatible address, an IPv4-mapped IPv6 address, or an ISATAP address. For more information, see section 5 of <a href="http://go.microsoft.com/fwlink/p/?linkid=222408">RFC 5942</a> published by the IETF. 
+    if the address is an IPv4-compatible address, an IPv4-mapped IPv6 address, or an ISATAP address. For more information, see section 5 of <a href="https://go.microsoft.com/fwlink/p/?linkid=222408">RFC 5942</a> published by the IETF. 
 
 On success, the <i>Terminator</i> parameter points to the character that terminated the string that was converted. This allows an application to pass a string that contains and IP address plus additional information to the <b>RtlIpv6StringToAddress</b> function and then parse the remaining information. 
 

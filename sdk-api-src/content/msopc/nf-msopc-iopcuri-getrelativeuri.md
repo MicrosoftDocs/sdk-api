@@ -64,7 +64,7 @@ A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/d
 
 ### -param relativeUri [out, retval]
 
-A pointer to the <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface of the URI of the part, relative to the current OPC URI object.
+A pointer to the <a href="https://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface of the URI of the part, relative to the current OPC URI object.
 
 
 ## -returns
@@ -139,7 +139,7 @@ Example input and output:
 <tr>
 <th>Input <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> represents</th>
 <th>Current <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a> represents</th>
-<th>Returned relative <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> represents</th>
+<th>Returned relative <a href="https://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> represents</th>
 </tr>
 <tr>
 <td>/mydoc/markup/page.xml</td>

@@ -1,5 +1,6 @@
 ---
 UID: TP:edp
+title: Windows Information Protection (WIP)
 ms.assetid: 13bd1e1d-a2d1-3fd8-be4b-3200f4a9456f
 ms.date: 01/11/2019
 ms.keywords: 

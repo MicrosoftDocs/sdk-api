@@ -1,5 +1,6 @@
 ---
 UID: NA:qospol
+title: Qospol.h header
 ms.assetid: 32e0a3ad-8da3-3fe4-ad80-0d8074c78c47
 ms.date: 01/11/2019
 ms.keywords: 

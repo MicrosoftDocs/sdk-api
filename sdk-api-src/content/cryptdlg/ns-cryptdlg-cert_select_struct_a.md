@@ -256,7 +256,7 @@ A pointer to a null-terminated string that contains the full path to the Help fi
 ### -field dwHelpId
 
 The context identifier for the topic. For more information, see  
-      <a href="http://go.microsoft.com/fwlink/p/?linkid=84527">WinHelp</a>.
+      <a href="https://go.microsoft.com/fwlink/p/?linkid=84527">WinHelp</a>.
 
 
 ### -field hprov

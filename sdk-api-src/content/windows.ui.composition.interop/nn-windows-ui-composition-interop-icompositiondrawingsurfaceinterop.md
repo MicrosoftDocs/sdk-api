@@ -131,7 +131,7 @@ Suspends drawing on the surface object.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=692061">Composition Native Interoperation Overview</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=692061">Composition Native Interoperation Overview</a>
 
 
 

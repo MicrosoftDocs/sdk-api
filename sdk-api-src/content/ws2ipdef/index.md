@@ -1,5 +1,6 @@
 ---
 UID: NA:ws2ipdef
+title: Ws2Ipdef.h header
 ms.assetid: 0b5e9c34-d4cb-3d5e-adb7-89d7a9f8f532
 ms.date: 01/11/2019
 ms.keywords: 

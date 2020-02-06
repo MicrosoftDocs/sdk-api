@@ -145,7 +145,7 @@ Used by NPS user interface to mark whether an attribute is used in profiles for 
 
 ### -field PROPERTY_ATTRIBUTE_ENUM_FILTERS
 
-Used by filter configuration attributes <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid">MS_ATTRIBUTE_FILTER</a> and <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid">MS_ATTRIBUTE_QUARANTINE_IPFILTER</a>. See MS-Filter section in <a href="Http://go.microsoft.com/fwlink/p/?linkid=90366">RFC 2548</a> for more information.
+Used by filter configuration attributes <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid">MS_ATTRIBUTE_FILTER</a> and <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid">MS_ATTRIBUTE_QUARANTINE_IPFILTER</a>. See MS-Filter section in <a href="https://go.microsoft.com/fwlink/p/?linkid=90366">RFC 2548</a> for more information.
 
 
 ## -remarks

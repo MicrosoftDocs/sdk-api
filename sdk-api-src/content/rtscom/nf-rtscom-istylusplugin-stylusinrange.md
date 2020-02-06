@@ -93,7 +93,7 @@ The stylus is in range of the digitizer. This is a good place to check if the st
 
 #### Examples
 
-The following C++ example implements a <b>IStylusPlugin::StylusInRange Method</b> method that gets the status of all the buttons on a stylus and reports them to the debug window using the <a href="http://go.microsoft.com/fwlink/p/?linkid=73729">TRACE</a> macro.
+The following C++ example implements a <b>IStylusPlugin::StylusInRange Method</b> method that gets the status of all the buttons on a stylus and reports them to the debug window using the <a href="https://go.microsoft.com/fwlink/p/?linkid=73729">TRACE</a> macro.
 
 
 ```cpp

@@ -114,7 +114,7 @@ The updated provider address when a virtual machine is migrated from one host to
 Hyper-V Network Virtualization uses an Internet Control Message Protocol
 (ICMP) redirect message to indicate a change in the virtual machine's provider address in the case of a live migration of a virtual machine.
 
-For a detailed description of network virtualization concepts and terminology, refer to <a href="http://go.microsoft.com/fwlink/p/?linkid=263545">Hyper-V Network Virtualization Overview</a>.
+For a detailed description of network virtualization concepts and terminology, refer to <a href="https://go.microsoft.com/fwlink/p/?linkid=263545">Hyper-V Network Virtualization Overview</a>.
 
 
 

@@ -1,5 +1,6 @@
 ---
 UID: NA:wcndevice
+title: Wcndevice.h header
 ms.assetid: 3b93f6bf-39a2-3969-bbf3-2b507c72c799
 ms.date: 01/11/2019
 ms.keywords: 

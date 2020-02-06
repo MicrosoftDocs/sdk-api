@@ -67,7 +67,7 @@ Valid
 ### -param pswzServerName [in]
 
 Pointer to a <b>null</b>-terminated string that contains the host name of an HTTP server. Alternately, the string can contain the IP address of the site in ASCII, for example, 10.0.1.45.
-Note that WinHttp does not accept international host names without converting them first to <a href="http://go.microsoft.com/fwlink/p/?linkid=204920">Punycode</a>. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=153789">Handling Internationalized Domain Names (IDNs)</a>.
+Note that WinHttp does not accept international host names without converting them first to <a href="https://go.microsoft.com/fwlink/p/?linkid=204920">Punycode</a>. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=153789">Handling Internationalized Domain Names (IDNs)</a>.
 
 
 ### -param nServerPort [in]

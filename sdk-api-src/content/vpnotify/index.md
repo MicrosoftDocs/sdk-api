@@ -1,5 +1,6 @@
 ---
 UID: NA:vpnotify
+title: Vpnotify.h header
 ms.assetid: 73b1c34d-9829-3a61-bf4a-fce71bd51cf9
 ms.date: 01/11/2019
 ms.keywords: 

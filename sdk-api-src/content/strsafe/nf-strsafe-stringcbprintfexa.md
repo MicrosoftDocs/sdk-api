@@ -57,14 +57,14 @@ Writes formatted data to the specified string. The size of the destination buffe
 
 <b>StringCbPrintfEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192497">sprintf, swprintf, _stprintf</a></li>
+<li><a href="https://go.microsoft.com/fwlink/p/?linkid=192497">sprintf, swprintf, _stprintf</a></li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-wsprintfa">wsprintf</a>
 </li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-wnsprintfa">wnsprintf</a>
 </li>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192507">_snprintf, _snwprintf, _sntprintf</a></li>
+<li><a href="https://go.microsoft.com/fwlink/p/?linkid=192507">_snprintf, _snwprintf, _sntprintf</a></li>
 </ul>
 
 ## -parameters

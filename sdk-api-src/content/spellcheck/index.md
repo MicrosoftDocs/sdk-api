@@ -1,5 +1,6 @@
 ---
 UID: NA:spellcheck
+title: Spellcheck.h header
 ms.assetid: f76616ad-6324-32ad-b54a-894aef1cf4af
 ms.date: 01/11/2019
 ms.keywords: 

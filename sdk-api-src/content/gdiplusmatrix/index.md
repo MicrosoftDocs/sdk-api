@@ -1,5 +1,6 @@
 ---
 UID: NA:gdiplusmatrix
+title: Gdiplusmatrix.h header
 ms.assetid: 9677b0b5-d3cb-3f60-a5e3-2981a585008a
 ms.date: 01/11/2019
 ms.keywords: 

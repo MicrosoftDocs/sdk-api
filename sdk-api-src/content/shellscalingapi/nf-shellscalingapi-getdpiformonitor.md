@@ -146,7 +146,7 @@ The values of <i>*dpiX</i> and <i>*dpiY</i> are identical. You only need to reco
 
 When <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-monitor_dpi_type">MONITOR_DPI_TYPE</a> is <b>MDT_ANGULAR_DPI</b> or <b>MDT_RAW_DPI</b>, the returned DPI value does not include any changes that the user made to the DPI by using the desktop scaling override slider control in Control Panel.
 
-For more information about DPI settings in Control Panel, see the <a href="http://go.microsoft.com/fwlink/p/?LinkID=307061">Writing DPI-Aware Desktop Applications in Windows 8.1 Preview</a> white paper.
+For more information about DPI settings in Control Panel, see the <a href="https://go.microsoft.com/fwlink/p/?LinkID=307061">Writing DPI-Aware Desktop Applications in Windows 8.1 Preview</a> white paper.
 
 
 

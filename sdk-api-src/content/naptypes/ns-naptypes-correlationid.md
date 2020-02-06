@@ -64,7 +64,7 @@ A globally unique identifier (GUID) that identifies a SoH  exchange.
 
 ### -field timeStamp
 
-A  unique <a href="http://go.microsoft.com/fwlink/p/?linkid=90006">FILETIME</a> value that contains the system time at which the <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-soh">SoHRequest</a> was generated. 
+A  unique <a href="https://go.microsoft.com/fwlink/p/?linkid=90006">FILETIME</a> value that contains the system time at which the <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-soh">SoHRequest</a> was generated. 
 
 
 ## -remarks

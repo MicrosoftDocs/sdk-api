@@ -89,7 +89,7 @@ A handle to the completion port that can be used for retrieving the completion n
 
 ### -param ulCompletionKey [in, optional]
 
-Value  returned through the <i>lpCompletionKey</i> parameter of the <a href="http://go.microsoft.com/fwlink/p/?linkid=131008">GetQueuedCompletionStatus</a> function. This parameter is ignored when <i>hCompletionPort</i> is <b>NULL</b>.
+Value  returned through the <i>lpCompletionKey</i> parameter of the <a href="https://go.microsoft.com/fwlink/p/?linkid=131008">GetQueuedCompletionStatus</a> function. This parameter is ignored when <i>hCompletionPort</i> is <b>NULL</b>.
 
 
 ### -param phStream [out]

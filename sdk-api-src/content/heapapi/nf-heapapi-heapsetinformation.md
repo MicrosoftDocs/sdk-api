@@ -98,9 +98,9 @@ Enables heap features. Only the
 
 The LFH cannot be enabled for heaps created with <b>HEAP_NO_SERIALIZE</b> or for heaps 
            created with a fixed size. The LFH also cannot be enabled if you are using the heap debugging tools in 
-           <a href="http://go.microsoft.com/fwlink/p/?linkid=153784">Debugging Tools for Windows</a> 
+           <a href="https://go.microsoft.com/fwlink/p/?linkid=153784">Debugging Tools for Windows</a> 
            or 
-           <a href="http://go.microsoft.com/fwlink/p/?linkid=153785">Microsoft Application Verifier</a>.
+           <a href="https://go.microsoft.com/fwlink/p/?linkid=153785">Microsoft Application Verifier</a>.
 
 When a process is run under any debugger, certain heap debug options are automatically enabled for all 
            heaps in the process. These heap debug options prevent the use of the LFH. To enable the low-fragmentation 

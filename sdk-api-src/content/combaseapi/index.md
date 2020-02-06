@@ -1,5 +1,6 @@
 ---
 UID: NA:combaseapi
+title: Combaseapi.h header
 ms.assetid: e62ae5e8-bef8-3cc9-8ea3-abd486b1c7cb
 ms.date: 01/11/2019
 ms.keywords: 

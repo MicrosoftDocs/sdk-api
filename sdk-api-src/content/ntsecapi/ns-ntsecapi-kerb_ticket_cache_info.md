@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>KERB_TICKET_CACHE_INFO</b> structure contains information about a cached <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> ticket. The Kerberos ticket is defined in Internet <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a>. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84023">http://www.ietf.org</a>.
+The <b>KERB_TICKET_CACHE_INFO</b> structure contains information about a cached <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> ticket. The Kerberos ticket is defined in Internet <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a>. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84023">http://www.ietf.org</a>.
 
 It can be used both for retrieving tickets and querying the ticket cache. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_query_tkt_cache_response">KERB_QUERY_TKT_CACHE_RESPONSE</a> structure uses this structure.

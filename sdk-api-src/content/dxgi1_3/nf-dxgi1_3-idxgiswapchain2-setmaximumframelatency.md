@@ -86,7 +86,7 @@ This method is only valid for use on swap chains created with <a href="https://d
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=320129">DirectX latency sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=320129">DirectX latency sample</a>
 
 
 

@@ -127,7 +127,7 @@ The <b>IUICollectionChangedEvent::OnChanged</b> interface is implemented by the 
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=132598">Events in COM and Connectable Objects</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=132598">Events in COM and Connectable Objects</a>
 
 
 

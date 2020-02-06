@@ -1,5 +1,6 @@
 ---
 UID: NA:certview
+title: Certview.h header
 ms.assetid: c415e444-f55c-375e-92f1-a66002eda15f
 ms.date: 01/11/2019
 ms.keywords: 

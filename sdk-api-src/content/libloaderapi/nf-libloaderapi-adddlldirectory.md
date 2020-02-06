@@ -108,7 +108,7 @@ To remove a directory added with <b>AddDllDirectory</b>,
 <b>Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:  </b>To use this function in an application, call 
       <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to retrieve the function's address 
       from Kernel32.dll. 
-      <a href="http://go.microsoft.com/fwlink/p/?linkid=217865">KB2533623</a> must be 
+      <a href="https://go.microsoft.com/fwlink/p/?linkid=217865">KB2533623</a> must be 
       installed on the target platform.
 
 

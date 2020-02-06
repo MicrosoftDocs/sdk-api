@@ -59,7 +59,7 @@ Retrieves an enumerator for the security call context collection.
 
 ### -param ppEnum [out]
 
-A reference to the returned <a href="http://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a> interface.
+A reference to the returned <a href="https://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a> interface.
 
 
 ## -returns

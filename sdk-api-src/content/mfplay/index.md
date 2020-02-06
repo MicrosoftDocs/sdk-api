@@ -1,5 +1,6 @@
 ---
 UID: NA:mfplay
+title: Mfplay.h header
 ms.assetid: da41ae68-1d65-3a09-8082-43710ac22c6c
 ms.date: 01/11/2019
 ms.keywords: 

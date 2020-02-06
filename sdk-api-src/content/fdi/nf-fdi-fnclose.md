@@ -66,7 +66,7 @@ An application-defined value used to identify the open file.
 
 
 
-The function accepts parameters similar to <a href="http://go.microsoft.com/fwlink/p/?linkid=196541">_close</a>.
+The function accepts parameters similar to <a href="https://go.microsoft.com/fwlink/p/?linkid=196541">_close</a>.
 
 
 #### Examples

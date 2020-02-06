@@ -384,7 +384,7 @@ This method cannot be used to format removable media.
 
 If an OEM partition is formatted as FAT or FAT32, the partition type does not change. If it is formatted with NTFS, the partition type changes to PARTITION_IFS (0x07). For information about partition types, see <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-create_partition_parameters">CREATE_PARTITION_PARAMETERS</a>.
 
-For more information about file system limits such as minimum and maximum allocation unit size (also called cluster size), see <a href="Http://go.microsoft.com/fwlink/p/?linkid=89389">NTFS Technical Reference</a> and <a href="Http://go.microsoft.com/fwlink/p/?linkid=89461">FAT Technical Reference</a>.
+For more information about file system limits such as minimum and maximum allocation unit size (also called cluster size), see <a href="https://go.microsoft.com/fwlink/p/?linkid=89389">NTFS Technical Reference</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=89461">FAT Technical Reference</a>.
 
 
 

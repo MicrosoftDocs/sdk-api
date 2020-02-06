@@ -145,7 +145,7 @@ A part with the specified part name already exists in the current package.
 </dl>
 </td>
 <td width="60%">
-A content type does not conform to the rules for a valid media type, specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=143979">RFC 2616: HTTP/1.1</a> (http://go.microsoft.com/fwlink/p/?linkid=143979) and the <i>OPC</i>.
+A content type does not conform to the rules for a valid media type, specified in <a href="https://go.microsoft.com/fwlink/p/?linkid=143979">RFC 2616: HTTP/1.1</a> (https://go.microsoft.com/fwlink/p/?linkid=143979) and the <i>OPC</i>.
 
 </td>
 </tr>
@@ -157,7 +157,7 @@ A content type does not conform to the rules for a valid media type, specified i
 </dl>
 </td>
 <td width="60%">
-Either the content type of a part differed from the expected content type (specified in the OPC, <a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 Part 2</a>), or the part content did not match the part's  content type.
+Either the content type of a part differed from the expected content type (specified in the OPC, <a href="https://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 Part 2</a>), or the part content did not match the part's  content type.
 
 </td>
 </tr>
@@ -220,7 +220,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
 
 
 
@@ -264,7 +264,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=143979">RFC 2616: HTTP/1.1</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=143979">RFC 2616: HTTP/1.1</a>
 
 
 

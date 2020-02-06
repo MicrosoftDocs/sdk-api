@@ -1,5 +1,6 @@
 ---
 UID: NA:interlockedapi
+title: Interlockedapi.h header
 ms.assetid: fe90fd84-157f-3510-a20e-c2dbc58d69c2
 ms.date: 01/11/2019
 ms.keywords: 

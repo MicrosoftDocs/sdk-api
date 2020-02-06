@@ -220,7 +220,7 @@ A value that indicates if the IP interface advertises the default route. This me
 
 Type: <b>NL_ROUTER_DISCOVERY_BEHAVIOR</b>
 
-The router discovery behavior. This member can be one of the values from the <b>NL_ROUTER_DISCOVERY_BEHAVIOR</b> enumeration type defined in the <i>Nldef.h</i> header file. The member is described in RFC 2461. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84044">http://www.ietf.org/rfc/rfc2461.txt</a>.
+The router discovery behavior. This member can be one of the values from the <b>NL_ROUTER_DISCOVERY_BEHAVIOR</b> enumeration type defined in the <i>Nldef.h</i> header file. The member is described in RFC 2461. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84044">http://www.ietf.org/rfc/rfc2461.txt</a>.
 
 <table>
 <tr>
@@ -285,21 +285,21 @@ The number of consecutive messages sent while performing duplicate address
                      performed on tentative IP addresses. A value of one
                      indicates a single transmission with no follow up
                      retransmissions. For IPv4, the default for this member is 3. For IPv6, the default for this member is 1. For IPv6, these messages will sent as neighbor solicitation requests.
-                     This member is defined as DupAddrDetectTransmits in RFC 2462. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84045">http://www.ietf.org/rfc/rfc2462.txt</a>.
+                     This member is defined as DupAddrDetectTransmits in RFC 2462. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84045">http://www.ietf.org/rfc/rfc2462.txt</a>.
 
 
 ### -field BaseReachableTime
 
 Type: <b>ULONG</b>
 
-The base for random reachable time,  in milliseconds. The member is described in RFC 2461. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84044">http://www.ietf.org/rfc/rfc2461.txt</a>.
+The base for random reachable time,  in milliseconds. The member is described in RFC 2461. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84044">http://www.ietf.org/rfc/rfc2461.txt</a>.
 
 
 ### -field RetransmitTime
 
 Type: <b>ULONG</b>
 
-The neighbor solicitation timeout,  in milliseconds. The member is described in RFC 2461. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84044">http://www.ietf.org/rfc/rfc2461.txt</a>.
+The neighbor solicitation timeout,  in milliseconds. The member is described in RFC 2461. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84044">http://www.ietf.org/rfc/rfc2461.txt</a>.
 
 
 ### -field PathMtuDiscoveryTimeout

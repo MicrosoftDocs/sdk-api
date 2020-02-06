@@ -59,7 +59,7 @@ Creates a spell checker that supports the specified language.
 
 ### -param languageTag [in]
 
-A <a href="http://go.microsoft.com/fwlink/p/?linkid=227302">BCP47</a> language tag that identifies the language for the requested spell checker.
+A <a href="https://go.microsoft.com/fwlink/p/?linkid=227302">BCP47</a> language tag that identifies the language for the requested spell checker.
 
 
 ### -param value [out, retval]
@@ -133,7 +133,7 @@ This will create the preferred spell checker (according to user ranking) for the
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=227302">BCP47 Tags for Identifying Languages</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=227302">BCP47 Tags for Identifying Languages</a>
 
 
 

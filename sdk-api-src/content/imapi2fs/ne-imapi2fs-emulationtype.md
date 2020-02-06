@@ -88,7 +88,7 @@ Emulates a hard disk.
 
 Other values not defined here may exist. Consumers of this enumeration should not presume this list to be the only set of valid values.
 
-For complete details of these emulation types, see the "El Torito" Bootable CD-ROM format specification at  <a href="Http://go.microsoft.com/fwlink/p/?linkid=84155">http://www.phoenix.com/docs/specscdrom.pdf</a>.
+For complete details of these emulation types, see the "El Torito" Bootable CD-ROM format specification at  <a href="https://go.microsoft.com/fwlink/p/?linkid=84155">http://www.phoenix.com/docs/specscdrom.pdf</a>.
 
 
 

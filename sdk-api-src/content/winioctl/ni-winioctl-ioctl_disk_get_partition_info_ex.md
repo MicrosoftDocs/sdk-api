@@ -148,7 +148,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 The <b>IOCTL_DISK_GET_PARTITION_INFO_EX</b> 
     control code is supported on basic disks. It is only supported on dynamic disks that are boot or system disks, or have retained 
-    entries in the partition table. The <a href="Http://go.microsoft.com/fwlink/p/?linkid=103544">DiskPart.exe</a> command <b>RETAIN</b> can be used to do 
+    entries in the partition table. The <a href="https://go.microsoft.com/fwlink/p/?linkid=103544">DiskPart.exe</a> command <b>RETAIN</b> can be used to do 
     this for other dynamic simple partitions.
 
 The disk support can be summarized as follows.

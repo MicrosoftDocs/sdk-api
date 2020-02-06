@@ -199,12 +199,12 @@ The <b>TCP_ESTATS_REC_ROD_v0</b> is defined as version 0 of the structure for  r
 
 The <b>TCP_ESTATS_REC_ROD_v0</b> structure is retrieved by calls to  the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a> or <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a> functions when <b>TcpConnectionEstatsRec</b> is passed in the <i>EstatsType</i> parameter. Extended TCP statistics need to be enabled to retrieve this structure.
 
-TCP congestion control and congestion control algorithms are discussed in detail in the IETF RFC 2581 on TCP Congestion Control. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=166789">http://www.ietf.org/rfc/rfc2581.txt</a>.
+TCP congestion control and congestion control algorithms are discussed in detail in the IETF RFC 2581 on TCP Congestion Control. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=166789">http://www.ietf.org/rfc/rfc2581.txt</a>.
 
 Explicit Congestion Notification in IP is discussed in detail in the IETF RFC 2581 on The Addition of Explicit Congestion Notification
-           (ECN) to IP. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=167116">http://www.ietf.org/rfc/rfc3168.txt</a>.
+           (ECN) to IP. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=167116">http://www.ietf.org/rfc/rfc3168.txt</a>.
 
-The members of this structure are defined in the IETF RFC on the TCP Extended Statistics MIB. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=121686">http://www.ietf.org/rfc/rfc4898.txt</a>.
+The members of this structure are defined in the IETF RFC on the TCP Extended Statistics MIB. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=121686">http://www.ietf.org/rfc/rfc4898.txt</a>.
 
 
 

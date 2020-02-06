@@ -73,7 +73,7 @@ This member is ignored; the response is always an HTTP/1.1 response.
 ### -field StatusCode
 
 Numeric status code that characterizes the result of the HTTP request (for example, 200 signifying "OK" or 404 signifying "Not Found"). For more information and a list of these codes, see Section 10 of 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a>.
 
 If a request is directed to a URL that is reserved but not registered, indicating that the appropriate application to handle it is not running, then the HTTP Server API itself returns a response with status code 400, signifying "Bad Request". This is transparent to the application. A code 400 is preferred here to 503 ("Server not available") because the latter is interpreted by some smart load balancers as an indication that the server is overloaded.
 

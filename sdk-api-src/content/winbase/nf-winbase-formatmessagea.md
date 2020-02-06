@@ -396,7 +396,7 @@ Within the message text, several escape sequences are supported for dynamically 
 Identifies an insert. The value of <i>n</i> can be in the range from 1 through 99. The 
         format string (which must be surrounded by exclamation marks) is optional and defaults to !s! if not 
         specified. For more information, see 
-        <a href="Http://go.microsoft.com/fwlink/p/?linkid=83949">Format Specification Fields</a>.
+        <a href="https://go.microsoft.com/fwlink/p/?linkid=83949">Format Specification Fields</a>.
 
 The format string can include a width and precision specifier for strings and a width specifier for 
         integers. Use an asterisk (*) to specify the width and precision. For example, %1!*.*s! or %1!*u!.

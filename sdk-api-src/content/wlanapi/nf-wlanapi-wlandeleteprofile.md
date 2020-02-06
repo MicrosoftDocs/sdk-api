@@ -164,7 +164,7 @@ All wireless LAN functions require an interface GUID for the wireless interface 
 
 The <b>WlanDeleteProfile</b> function can fail with <b>ERROR_INVALID_PARAMETER</b> if the wireless interface specified in the <i>pInterfaceGuid</i> parameter for the wireless LAN profile has been removed from the system (a USB  wireless adapter that has been removed, for example). 
 
-To delete a profile at the command line, use the <b>netsh wlan delete profile</b> command. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=120964">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
+To delete a profile at the command line, use the <b>netsh wlan delete profile</b> command. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=120964">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
 
 
 #### Examples

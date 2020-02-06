@@ -69,7 +69,7 @@ Also see the restrictions on changing properties described in the Remarks sectio
 
 The <b>Protocol</b> property must be set before the <a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_localports">LocalPorts</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_remoteports">RemotePorts</a> properties or an error will be returned.
 
-A list of protocol numbers is available at the  <a href="http://go.microsoft.com/fwlink/p/?linkid=89889">IANA website</a>.
+A list of protocol numbers is available at the  <a href="https://go.microsoft.com/fwlink/p/?linkid=89889">IANA website</a>.
 
 
 

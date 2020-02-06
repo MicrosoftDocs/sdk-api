@@ -1,5 +1,6 @@
 ---
 UID: NA:subscriptionservices
+title: Subscriptionservices.h header
 ms.assetid: af64e3fb-acc6-3f2a-a609-7f029a53da75
 ms.date: 01/11/2019
 ms.keywords: 

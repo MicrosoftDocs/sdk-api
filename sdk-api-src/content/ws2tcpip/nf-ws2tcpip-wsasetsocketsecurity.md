@@ -272,7 +272,7 @@ Authip QM policy =
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=86174">AuthIP in Windows Vista</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=86174">AuthIP in Windows Vista</a>
 
 
 

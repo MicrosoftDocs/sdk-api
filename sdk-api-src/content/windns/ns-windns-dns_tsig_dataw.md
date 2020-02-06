@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>DNS_TSIG_DATA</b> structure represents a secret key transaction authentication (TSIG) resource record (RR) as specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=90388">RFC 2845</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=90440">RFC 3645</a>.
+<b>DNS_TSIG_DATA</b> structure represents a secret key transaction authentication (TSIG) resource record (RR) as specified in <a href="https://go.microsoft.com/fwlink/p/?linkid=90388">RFC 2845</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=90440">RFC 3645</a>.
 
 
 ## -struct-fields
@@ -60,12 +60,12 @@ The
 
 ### -field pNameAlgorithm
 
-A pointer to a string that represents the name of the key used to generate <b>pSignature</b> as defined in section 2.3 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90388">RFC 2845</a>.
+A pointer to a string that represents the name of the key used to generate <b>pSignature</b> as defined in section 2.3 of <a href="https://go.microsoft.com/fwlink/p/?linkid=90388">RFC 2845</a>.
 
 
 ### -field pAlgorithmPacket
 
-A pointer to a string that represents the name of the   algorithm used to generate <b>pSignature</b> as defined in section 2.3 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90388">RFC 2845</a>.
+A pointer to a string that represents the name of the   algorithm used to generate <b>pSignature</b> as defined in section 2.3 of <a href="https://go.microsoft.com/fwlink/p/?linkid=90388">RFC 2845</a>.
 
 <table>
 <tr>
@@ -79,7 +79,7 @@ A pointer to a string that represents the name of the   algorithm used to genera
 </td>
 <td width="60%">
 Windows 2000 Server only: Generic Security Service Algorithm for
-        Secret Key Transaction Authentication for DNS (GSS-API) as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=90440">RFC 3645</a>.
+        Secret Key Transaction Authentication for DNS (GSS-API) as defined in <a href="https://go.microsoft.com/fwlink/p/?linkid=90440">RFC 3645</a>.
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Windows 2000 Server only: Generic Security Service Algorithm for
 </td>
 <td width="60%">
 Generic Security Service Algorithm for
-        Secret Key Transaction Authentication for DNS (GSS-API) as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=90440">RFC 3645</a>.
+        Secret Key Transaction Authentication for DNS (GSS-API) as defined in <a href="https://go.microsoft.com/fwlink/p/?linkid=90440">RFC 3645</a>.
 
 </td>
 </tr>

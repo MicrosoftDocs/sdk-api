@@ -65,7 +65,7 @@ Specifies the elementary stream,
 
 ### -param LangCode [out]
 
-Pointer to a buffer that receives the language code. For a list of language codes, refer to <a href="http://go.microsoft.com/fwlink?linkID=161422">ISO 639 Code Tables</a>.
+Pointer to a buffer that receives the language code. For a list of language codes, refer to <a href="https://go.microsoft.com/fwlink?linkID=161422">ISO 639 Code Tables</a>.
 
 
 ## -returns

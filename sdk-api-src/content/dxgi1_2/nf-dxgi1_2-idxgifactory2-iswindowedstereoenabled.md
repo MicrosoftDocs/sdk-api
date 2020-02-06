@@ -83,7 +83,7 @@ We recommend that windowed applications call <b>IsWindowedStereoEnabled</b> befo
 </ul>
 The creation of a windowed stereo swap chain succeeds if the first requirement is met. However, if the adapter can't scan out stereo, the output on that adapter is reduced to mono.
 
-The <a href="http://go.microsoft.com/fwlink/p/?linkid=238402">Direct3D 11.1 Simple Stereo 3D Sample</a> shows how to add a stereoscopic 3D effect and how to respond to system stereo changes.
+The <a href="https://go.microsoft.com/fwlink/p/?linkid=238402">Direct3D 11.1 Simple Stereo 3D Sample</a> shows how to add a stereoscopic 3D effect and how to respond to system stereo changes.
 
 
 

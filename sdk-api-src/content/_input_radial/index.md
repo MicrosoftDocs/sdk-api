@@ -1,5 +1,6 @@
 ---
 UID: TP:input_radial
+title: Radial controller input
 ms.assetid: 3b040a71-85bd-31c0-932b-26b46f58738e
 ms.date: 01/11/2019
 ms.keywords: 

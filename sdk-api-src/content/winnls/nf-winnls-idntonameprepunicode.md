@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts an internationalized domain name (IDN) or another internationalized label to the NamePrep form specified by Network Working Group <a href="http://go.microsoft.com/fwlink/p/?linkid=161552">RFC 3491</a>, but does not perform the additional conversion to Punycode. For more information and links to related draft standards, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>.
+Converts an internationalized domain name (IDN) or another internationalized label to the NamePrep form specified by Network Working Group <a href="https://go.microsoft.com/fwlink/p/?linkid=161552">RFC 3491</a>, but does not perform the additional conversion to Punycode. For more information and links to related draft standards, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>.
 
 
 ## -parameters

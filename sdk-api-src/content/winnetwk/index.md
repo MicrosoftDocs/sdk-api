@@ -1,5 +1,6 @@
 ---
 UID: NA:winnetwk
+title: Winnetwk.h header
 ms.assetid: e6e806da-f911-30d6-95dc-97d0ccc22f6a
 ms.date: 01/11/2019
 ms.keywords: 

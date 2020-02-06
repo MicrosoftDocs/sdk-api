@@ -1,5 +1,6 @@
 ---
 UID: NA:rtlsupportapi
+title: Rtlsupportapi.h header
 ms.assetid: 0172ca77-a8b5-30ad-92a3-cc4f8451076a
 ms.date: 01/11/2019
 ms.keywords: 

@@ -94,7 +94,7 @@ A pointer to a buffer that receives information about the device that supports t
 
 
 
-<b>SetupDiGetDeviceInterfaceDetail</b> returns <b>TRUE</b> if the function completed without error. If the function completed with an error, <b>FALSE</b> is returned and the error code for the failure can be retrieved by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+<b>SetupDiGetDeviceInterfaceDetail</b> returns <b>TRUE</b> if the function completed without error. If the function completed with an error, <b>FALSE</b> is returned and the error code for the failure can be retrieved by calling <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
 
 
 
@@ -107,7 +107,7 @@ Using this function to get details about an interface is typically a two-step pr
 
 <ol>
 <li>
-Get the required buffer size. Call <b>SetupDiGetDeviceInterfaceDetail</b> with a <b>NULL</b><i>DeviceInterfaceDetailData</i> pointer, a <i>DeviceInterfaceDetailDataSize</i> of zero, and a valid <i>RequiredSize</i> variable. In response to such a call, this function returns the required buffer size at <i>RequiredSize</i> and fails with <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returning ERROR_INSUFFICIENT_BUFFER.
+Get the required buffer size. Call <b>SetupDiGetDeviceInterfaceDetail</b> with a <b>NULL</b><i>DeviceInterfaceDetailData</i> pointer, a <i>DeviceInterfaceDetailDataSize</i> of zero, and a valid <i>RequiredSize</i> variable. In response to such a call, this function returns the required buffer size at <i>RequiredSize</i> and fails with <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returning ERROR_INSUFFICIENT_BUFFER.
 
 </li>
 <li>
@@ -117,7 +117,7 @@ Allocate an appropriately sized buffer and call the function again to get the in
 </ol>
 The interface detail returned by this function consists of a device path that can be passed to Win32 functions such as <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>. Do not attempt to parse the device path symbolic name. The device path can be reused across system starts.
 
-<b>SetupDiGetDeviceInterfaceDetail</b> can be used to get just the <i>DeviceInfoData</i>. If the interface exists but <i>DeviceInterfaceDetailData</i> is <b>NULL</b>, this function fails, <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER, and the <i>DeviceInfoData</i> structure is filled with information about the device that exposes the interface.
+<b>SetupDiGetDeviceInterfaceDetail</b> can be used to get just the <i>DeviceInfoData</i>. If the interface exists but <i>DeviceInterfaceDetailData</i> is <b>NULL</b>, this function fails, <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER, and the <i>DeviceInfoData</i> structure is filled with information about the device that exposes the interface.
 
 
 

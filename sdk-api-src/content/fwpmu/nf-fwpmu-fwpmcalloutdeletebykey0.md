@@ -151,7 +151,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/st
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=98329">Kernel-Mode FwpmCalloutDeleteByKey0</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=98329">Kernel-Mode FwpmCalloutDeleteByKey0</a>
  
 
  

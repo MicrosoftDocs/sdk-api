@@ -90,7 +90,7 @@ This function can return the standard return values S_OK and E_INVALIDARG, as we
 
 
 
-<div class="alert"><b>Important</b>  <p class="note">Security Note: Calling this method with untrusted data is a security risk. Call this method only with trusted data. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=798821">Untrusted Data Security Risks</a>.
+<div class="alert"><b>Important</b>  <p class="note">Security Note: Calling this method with untrusted data is a security risk. Call this method only with trusted data. For more information, see <a href="https://go.microsoft.com/fwlink/?LinkId=798821">Untrusted Data Security Risks</a>.
 
 </div>
 <div> </div>

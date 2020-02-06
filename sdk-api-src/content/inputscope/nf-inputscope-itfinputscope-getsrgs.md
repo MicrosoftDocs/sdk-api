@@ -93,7 +93,7 @@ The method was successful.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=161740">http://www.w3.org/TR/speech-grammar</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=161740">http://www.w3.org/TR/speech-grammar</a>
 
 
 

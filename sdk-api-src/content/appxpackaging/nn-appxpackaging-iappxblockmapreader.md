@@ -117,7 +117,7 @@ This object can be retrieved using the <a href="https://docs.microsoft.com/windo
 
 #### Examples
 
-For a example code, see <a href="http://go.microsoft.com/fwlink/p/?linkid=236966">Read app package manifest info sample (DescribeAppx)</a>.
+For a example code, see <a href="https://go.microsoft.com/fwlink/p/?linkid=236966">Read app package manifest info sample (DescribeAppx)</a>.
 
 <div class="code"></div>
 
@@ -144,7 +144,7 @@ For a example code, see <a href="http://go.microsoft.com/fwlink/p/?linkid=236966
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=236966">Read app package manifest info sample (DescribeAppx)</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=236966">Read app package manifest info sample (DescribeAppx)</a>
 
 
 

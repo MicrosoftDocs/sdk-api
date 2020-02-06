@@ -1,5 +1,6 @@
 ---
 UID: NA:syncregistration
+title: Syncregistration.h header
 ms.assetid: 05194385-47f4-366f-94d1-ba46ad648cba
 ms.date: 01/11/2019
 ms.keywords: 

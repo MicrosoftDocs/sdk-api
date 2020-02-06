@@ -133,7 +133,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This factory method is useful when an application dynamically generates an image 
 				 resource and wants to pass the new HBITMAP to the Ribbon, 
 				 for example, loading a Portable Network Graphics (PNG) through the Windows Imaging Component (WIC) or using 
-				 <a href="http://go.microsoft.com/fwlink/p/?linkid=133010">CreateDIBSection</a> to create an image for a new style 
+				 <a href="https://go.microsoft.com/fwlink/p/?linkid=133010">CreateDIBSection</a> to create an image for a new style 
 				 in a styles gallery.
 			
 

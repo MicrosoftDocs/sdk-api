@@ -1,5 +1,6 @@
 ---
 UID: NA:lowlevelmonitorconfigurationapi
+title: Lowlevelmonitorconfigurationapi.h header
 ms.assetid: cad85e24-c16b-37e3-b635-d5ef7c3d2481
 ms.date: 01/11/2019
 ms.keywords: 

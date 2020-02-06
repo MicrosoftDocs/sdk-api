@@ -1,5 +1,6 @@
 ---
 UID: TP:direct3ddxgi
+title: DXGI
 ms.assetid: 13788405-72f0-3653-b458-78589ede8b8a
 ms.date: 01/11/2019
 ms.keywords: 

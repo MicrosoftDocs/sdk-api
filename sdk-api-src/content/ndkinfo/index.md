@@ -1,5 +1,6 @@
 ---
 UID: NA:ndkinfo
+title: Ndkinfo.h header
 ms.assetid: 55a8285c-2038-3caa-9def-61c74e31393d
 ms.date: 01/11/2019
 ms.keywords: 

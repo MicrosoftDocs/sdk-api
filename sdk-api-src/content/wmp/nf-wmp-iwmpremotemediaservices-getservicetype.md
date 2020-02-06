@@ -136,7 +136,7 @@ For Windows Media Player 11, an application that embeds the Player control remot
 
 NoDialogs, FindFolders, and Exclusive:<i>keyname</i> are valid only when combined with Remote. These values are not supported when combined with Local.
 
-The RemoteNoDialogs value is supported for backward compatibility with Windows Media Player 9 Series. (See <a href="http://go.microsoft.com/fwlink/p/?linkid=28632">Microsoft Knowledge Base Article - 819756</a> for more information.) For Windows Media Player 10, the recommended usage is "Remote NoDialogs".
+The RemoteNoDialogs value is supported for backward compatibility with Windows Media Player 9 Series. (See <a href="https://go.microsoft.com/fwlink/p/?linkid=28632">Microsoft Knowledge Base Article - 819756</a> for more information.) For Windows Media Player 10, the recommended usage is "Remote NoDialogs".
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 

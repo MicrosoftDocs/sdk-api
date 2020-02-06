@@ -1,5 +1,6 @@
 ---
 UID: NA:wrdsgraphicschannels
+title: Wrdsgraphicschannels.h header
 ms.assetid: 2300415a-7842-3e17-849f-2ea7ed0d2a68
 ms.date: 01/11/2019
 ms.keywords: 

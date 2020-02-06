@@ -385,7 +385,7 @@ Reserved for use by the C Run-time; must be NULL.
 
 If <b>dwFlags</b> specifies STARTF_USESTDHANDLES, this member is the standard input handle for the process. If STARTF_USESTDHANDLES is not specified, the default for standard input is the keyboard buffer.
 
-If <b>dwFlags</b> specifies STARTF_USEHOTKEY, this member specifies a hotkey value that is sent as the <i>wParam</i> parameter of a <a href="http://go.microsoft.com/fwlink/p/?linkid=181898">WM_SETHOTKEY</a> message to the first  eligible top-level window created by the application that owns the process. If the window is created with the WS_POPUP window style, it is not eligible unless the WS_EX_APPWINDOW extended window style is also set. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=181910">CreateWindowEx</a>.  
+If <b>dwFlags</b> specifies STARTF_USEHOTKEY, this member specifies a hotkey value that is sent as the <i>wParam</i> parameter of a <a href="https://go.microsoft.com/fwlink/p/?linkid=181898">WM_SETHOTKEY</a> message to the first  eligible top-level window created by the application that owns the process. If the window is created with the WS_POPUP window style, it is not eligible unless the WS_EX_APPWINDOW extended window style is also set. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=181910">CreateWindowEx</a>.  
 
 Otherwise, this member is ignored.
 

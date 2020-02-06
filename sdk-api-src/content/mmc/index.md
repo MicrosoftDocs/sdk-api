@@ -1,5 +1,6 @@
 ---
 UID: NA:mmc
+title: Mmc.h header
 ms.assetid: 6aee6fd7-74b5-3f40-b93b-68d592cd0950
 ms.date: 01/11/2019
 ms.keywords: 

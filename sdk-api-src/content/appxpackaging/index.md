@@ -1,5 +1,6 @@
 ---
 UID: NA:appxpackaging
+title: Appxpackaging.h header
 ms.assetid: d2a5a480-89cf-33fc-bbd1-18e4d5ed5dc8
 ms.date: 01/11/2019
 ms.keywords: 

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Implements part of the Management Information Base (MIB-II) 
 			information group for the Internet Protocol (IP) as specified in the 
-			Internet Engineering Task Force (IETF) Request for Comments <a href="Http://go.microsoft.com/fwlink/p/?linkid=85308">(RFC) 2011</a>.
+			Internet Engineering Task Force (IETF) Request for Comments <a href="https://go.microsoft.com/fwlink/p/?linkid=85308">(RFC) 2011</a>.
 
 
 ## -struct-fields

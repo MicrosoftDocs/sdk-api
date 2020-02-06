@@ -80,7 +80,7 @@ The "parity" substring indicates how the parity bit is used to detect transmissi
        The values represent "none", "even", "odd",        
        "mark", and "space".
 
-For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=192055">Mode</a> command 
+For more information, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=192055">Mode</a> command 
        reference in TechNet.
 
 For example, the following string specifies a baud rate of 1200, no parity, 8 data bits, and 1 stop bit:
