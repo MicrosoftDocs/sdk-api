@@ -60,7 +60,7 @@ Additionally, textures must be in the COMMON state for CPU access to be legal, a
 
 ### -field D3D12_RESOURCE_STATE_VERTEX_AND_CONSTANT_BUFFER
 
-A subresource must be in this state when it is accessed by the 3D pipeline as a vertex buffer or constant buffer. This is a read-only state.
+A subresource must be in this state when it is accessed by the GPU as a vertex buffer or constant buffer. This is a read-only state.
 
 ### -field D3D12_RESOURCE_STATE_INDEX_BUFFER
 
@@ -74,7 +74,7 @@ This is a write-only state. To read from a render target as a shader resource th
 
 ### -field D3D12_RESOURCE_STATE_UNORDERED_ACCESS
 
-The resource is used for unordered access. A subresource must be in this state when it is accessed by the 3D pipeline via an unordered access view. A subresource must also be in this state when it is cleared with <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewuint">ID3D12GraphicsCommandList::ClearUnorderedAccessViewInt</a> or <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewfloat">ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat</a>. This is a read/write state.
+The resource is used for unordered access. A subresource must be in this state when it is accessed by the GPU via an unordered access view. A subresource must also be in this state when it is cleared with <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewuint">ID3D12GraphicsCommandList::ClearUnorderedAccessViewInt</a> or <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewfloat">ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat</a>. This is a read/write state.
 
 ### -field D3D12_RESOURCE_STATE_DEPTH_WRITE
 
