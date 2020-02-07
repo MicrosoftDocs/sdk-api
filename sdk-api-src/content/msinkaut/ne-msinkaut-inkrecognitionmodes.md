@@ -104,7 +104,7 @@ The recognizer does not emply line breaking inside the recognizer and all of the
 
 ### -field IRM_DisablePersonalization
 
-The recognizer disables oersonalization on the recognizer.
+The recognizer disables personalization on the recognizer.
 
 
 ### -field IRM_AutoSpace
