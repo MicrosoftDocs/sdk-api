@@ -110,7 +110,7 @@ A pointer to a caller-supplied context buffer that is passed into the callback f
 
 ### -param DupDeviceInfoData [out, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure to receive information about a duplicate device instance, if any, discovered as a result of attempting to register this device. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, the caller must set <i>DupDeviceInfoData.</i><b>cbSize</b> to <b>sizeof</b>(SP_DEVINFO_DATA). This will be filled in if the function returns <b>FALSE</b>, and <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_DUPLICATE_FOUND. This device information element is added as a member of the specified <i>DeviceInfoSet</i>, if not already a member. If <i>DupDeviceInfoData</i> is not specified, the duplicate is not added to the device information set.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure to receive information about a duplicate device instance, if any, discovered as a result of attempting to register this device. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, the caller must set <i>DupDeviceInfoData.</i><b>cbSize</b> to <b>sizeof</b>(SP_DEVINFO_DATA). This will be filled in if the function returns <b>FALSE</b>, and <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_DUPLICATE_FOUND. This device information element is added as a member of the specified <i>DeviceInfoSet</i>, if not already a member. If <i>DupDeviceInfoData</i> is not specified, the duplicate is not added to the device information set.
 
 If you call this function when handling a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-registerdevice">DIF_REGISTERDEVICE</a> request, the <i>DupDeviceInfoData</i> parameter must be <b>NULL</b>. 
 
@@ -119,7 +119,7 @@ If you call this function when handling a <a href="https://docs.microsoft.com/wi
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
 
 
 
@@ -150,7 +150,7 @@ If your installation application creates a new device and does duplicate detecti
 
 If <b>SetupDiCallClassInstaller</b> returns <b>TRUE</b> for the DIF_REGISTERDEVICE request, the class installer or class co-installers registered the device instance. In this case, the installation application can continue to install the device.
 
-If <b>SetupDiCallClassInstaller</b> returns <b>FALSE</b> for the DIF_REGISTERDEVICE request, the class installer or class co-installers did not register the device instance. In this case, the installation application should do one of the following, depending on the last error that <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns for the request:
+If <b>SetupDiCallClassInstaller</b> returns <b>FALSE</b> for the DIF_REGISTERDEVICE request, the class installer or class co-installers did not register the device instance. In this case, the installation application should do one of the following, depending on the last error that <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns for the request:
 
 <ul>
 <li>If the last error is ERROR_DI_DO_DEFAULT, the installation application can directly call <b>SetupDiRegisterDeviceInfo</b> and supply a <i>CompareProc</i> to do duplicate detection. If this call is successful and no duplicates are found, device installation can continue. If a duplicate is found, <b>SetupDiRegisterDeviceInfo</b> returns <b>FALSE</b>, and the installation application must terminate device installation.</li>

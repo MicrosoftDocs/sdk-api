@@ -1,5 +1,6 @@
 ---
 UID: NA:rasshost
+title: Rasshost.h header
 ms.assetid: aa6c027b-df1d-3d8d-aa15-e2c9733f29b9
 ms.date: 01/11/2019
 ms.keywords: 

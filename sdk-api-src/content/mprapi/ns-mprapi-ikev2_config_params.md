@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IKEV2_CONFIG_PARAMS</b> structure is used to get or set parameters for Internet Key Exchange version 2 (IKEv2) devices (<a href="Http://go.microsoft.com/fwlink/p/?linkid=90469">RFC 4306</a>).
+The <b>IKEV2_CONFIG_PARAMS</b> structure is used to get or set parameters for Internet Key Exchange version 2 (IKEv2) devices (<a href="https://go.microsoft.com/fwlink/p/?linkid=90469">RFC 4306</a>).
 
 
 ## -struct-fields

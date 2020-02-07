@@ -145,7 +145,7 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-han
     <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-committransaction">CommitTransaction</a> function with the transaction 
     handle, then  KTM rolls back the transaction.
 
-If the transaction might need to be promotable to a distributed transaction, then you must grant the Distributed Transaction Coordinator (DTC)  access rights to enlist in the transaction.  To do this, the  <i>lpTransactionAttributes</i> parameter needs to contain an access control entry with the DTC’s SID (S-1-5-80-2818357584-3387065753-4000393942-342927828-138088443) and the TRANSACTION_ENLIST right. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=139572">Distributed Transaction Coordinator</a> and <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-components">Access Control Components</a>.
+If the transaction might need to be promotable to a distributed transaction, then you must grant the Distributed Transaction Coordinator (DTC)  access rights to enlist in the transaction.  To do this, the  <i>lpTransactionAttributes</i> parameter needs to contain an access control entry with the DTC’s SID (S-1-5-80-2818357584-3387065753-4000393942-342927828-138088443) and the TRANSACTION_ENLIST right. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=139572">Distributed Transaction Coordinator</a> and <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-components">Access Control Components</a>.
 
 
 
@@ -159,7 +159,7 @@ If the transaction might need to be promotable to a distributed transaction, the
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=139572">Distributed Transaction Coordinator</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=139572">Distributed Transaction Coordinator</a>
 
 
 

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Implements part of the Management Information Base (MIB-II) 
 			information group for the Internet Protocol (IP) as specified in the 
-			Internet Engineering Task Force (IETF) Request for Comments <a href="Http://go.microsoft.com/fwlink/p/?linkid=85308">(RFC) 2011</a>.
+			Internet Engineering Task Force (IETF) Request for Comments <a href="https://go.microsoft.com/fwlink/p/?linkid=85308">(RFC) 2011</a>.
 
 
 ## -struct-fields
@@ -175,7 +175,7 @@ The number of IP datagrams that have been successfully reassembled at this entit
 
 The number of reassembly failures of any sort detected by the IP reassembly 
 					algorithm. Note that this is not necessarily a count of discarded IP fragments, 
-					because some algorithms such as that described in <a href="Http://go.microsoft.com/fwlink/p/?linkid=85309">RFC 815</a> do not keep track of 
+					because some algorithms such as that described in <a href="https://go.microsoft.com/fwlink/p/?linkid=85309">RFC 815</a> do not keep track of 
 					the number of fragments being combined.
 
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure with the requested state.
+Retrieves the <a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure with the requested state.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTE
 
 ### -param pContext [in]
 
-A pointer to an <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure.
+A pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure.
 
 
 ### -param lpstrName [in]
@@ -69,14 +69,14 @@ Not currently used.
 
 ### -param fWantItDotStuffed [in]
 
-Specifies whether the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure should be dot stuffed. If <b>TRUE</b>, dots should be added. If <b>FALSE</b>, dots should be removed.
+Specifies whether the <a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure should be dot stuffed. If <b>TRUE</b>, dots should be added. If <b>FALSE</b>, dots should be removed.
 
 
 ## -returns
 
 
 
-Returns the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure.
+Returns the <a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure.
 
 
 
@@ -85,7 +85,7 @@ Returns the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT
 
 
 
-This call may or may not create a new <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure. If a new structure is created, it remains in the cache so that it can be used again. If a new structure is created, the user has the only reference to the resulting <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure, so it disappears when <a href="Http://go.microsoft.com/fwlink/p/?linkid=85303">ReleaseContext</a> is called.
+This call may or may not create a new <a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure. If a new structure is created, it remains in the cache so that it can be used again. If a new structure is created, the user has the only reference to the resulting <a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure, so it disappears when <a href="https://go.microsoft.com/fwlink/p/?linkid=85303">ReleaseContext</a> is called.
 
 
 
@@ -95,11 +95,11 @@ This call may or may not create a new <a href="Http://go.microsoft.com/fwlink/p/
 
 
 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>
 
 
 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=85303">ReleaseContext</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=85303">ReleaseContext</a>
  
 
  

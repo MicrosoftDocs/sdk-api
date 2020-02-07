@@ -73,7 +73,7 @@ Requested length of the inquiry, in seconds.
 
 
 See the Bluetooth specification at 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84017">www.bluetooth.com</a> for additional information about LAP.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84017">www.bluetooth.com</a> for additional information about LAP.
 
 
 

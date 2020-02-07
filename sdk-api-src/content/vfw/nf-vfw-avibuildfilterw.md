@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The <b>AVIBuildFilter</b> function builds a filter specification that is subsequently used by the <a href="http://go.microsoft.com/fwlink/p/?linkid=16939">GetOpenFileName</a> or <a href="http://go.microsoft.com/fwlink/p/?linkid=16940">GetSaveFileName</a> function.
+The <b>AVIBuildFilter</b> function builds a filter specification that is subsequently used by the <a href="https://go.microsoft.com/fwlink/p/?linkid=16939">GetOpenFileName</a> or <a href="https://go.microsoft.com/fwlink/p/?linkid=16940">GetSaveFileName</a> function.
 
 
 

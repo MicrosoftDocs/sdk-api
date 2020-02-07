@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Obtains an <a href="http://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDevice</a> pointer used to issue  commands to the corresponding Enhanced Storage silo driver.
+Obtains an <a href="https://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDevice</a> pointer used to issue  commands to the corresponding Enhanced Storage silo driver.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Obtains an <a href="http://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDe
 
 ### -param ppIPortableDevice [out]
 
-Pointer to a pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDevice</a>  object.
+Pointer to a pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDevice</a>  object.
 
 
 ## -returns
@@ -80,7 +80,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-Pointer to <a href="http://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDevice</a> was obtained successfully.
+Pointer to <a href="https://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDevice</a> was obtained successfully.
 
 </td>
 </tr>

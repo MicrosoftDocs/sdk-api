@@ -102,7 +102,7 @@ An array of pointers to <a href="https://docs.microsoft.com/previous-versions/wi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=91156">RFC 2560  Online Certificate Status Protocol</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=91156">RFC 2560  Online Certificate Status Protocol</a>
  
 
  

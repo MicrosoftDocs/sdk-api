@@ -344,7 +344,7 @@ Causes the Internet Explorer WebBrowser control to show the Information Bar menu
 
 ### -field OLECMDID_ADDTRAVELENTRY
 
-Causes the Internet Explorer WebBrowser control to create an entry at the current Travel Log offset. The Docobject should implement <a href="http://go.microsoft.com/fwlink/p/?LinkID=144763">ITravelLogClient</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersist">IPersist</a> interfaces, which are used by the Travel Log as it processes this command with calls to GetWindowData and GetPersistID, respectively.
+Causes the Internet Explorer WebBrowser control to create an entry at the current Travel Log offset. The Docobject should implement <a href="https://go.microsoft.com/fwlink/p/?LinkID=144763">ITravelLogClient</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersist">IPersist</a> interfaces, which are used by the Travel Log as it processes this command with calls to GetWindowData and GetPersistID, respectively.
 
 
 ### -field OLECMDID_UPDATETRAVELENTRY

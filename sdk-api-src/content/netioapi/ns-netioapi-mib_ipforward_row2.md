@@ -113,14 +113,14 @@ The preferred time, in seconds, that the IP route entry is valid. A value of 0xf
 Type: <b>ULONG</b>
 
 The route metric offset value for this IP route entry. Note the actual route metric used to compute the route preference is the summation of interface metric specified in the <b>Metric</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a> structure and the route metric offset specified in this member. The semantics of this metric are determined by the routing protocol specified in the <b>Protocol</b> member. If this metric is not used, its value should be set to -1. This value is documented in RFC 4292. 
-For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84065">http://www.ietf.org/rfc/rfc4292.txt</a>.
+For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84065">http://www.ietf.org/rfc/rfc4292.txt</a>.
 
 
 ### -field Protocol
 
 Type: <b>NL_ROUTE_PROTOCOL</b>
 
-The routing mechanism how this IP route was added. This member can be one of the values from the <b>NL_ROUTE_PROTOCOL</b> enumeration type defined in the <i>Nldef.h</i> header file. The member is described in RFC 4292. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84065">http://www.ietf.org/rfc/rfc4292.txt</a>. 
+The routing mechanism how this IP route was added. This member can be one of the values from the <b>NL_ROUTE_PROTOCOL</b> enumeration type defined in the <i>Nldef.h</i> header file. The member is described in RFC 4292. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84065">http://www.ietf.org/rfc/rfc4292.txt</a>. 
 
 Note that the <i>Nldef.h</i> header is automatically included by the <i>Ipmib.h</i> header file which is automatically included by the <i>Iprtrmib.h</i> header. The <i>Iphlpapi.h</i> header  automatically includes the <i>Iprtrmib.h</i> header file. The  <i>Iprtrmib.h</i>, <i>Ipmib.h</i>, and <i>Nldef.h</i> header files should never be used directly.  
 
@@ -207,7 +207,7 @@ The Gateway-to-Gateway Protocol (GGP), a dynamic routing protocol.
 </td>
 <td width="60%">
 The Hellospeak protocol, a dynamic routing protocol. This is a historical entry no longer in use and was an early routing protocol used by the original ARPANET routers that ran special software called the Fuzzball routing protocol, sometimes called Hellospeak, as described in 
-RFC 891 and RFC 1305. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84070">http://www.ietf.org/rfc/rfc891.txt</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=96750">http://www.ietf.org/rfc/rfc1305.txt</a>. 
+RFC 891 and RFC 1305. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84070">http://www.ietf.org/rfc/rfc891.txt</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=96750">http://www.ietf.org/rfc/rfc1305.txt</a>. 
 
 </td>
 </tr>

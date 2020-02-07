@@ -103,7 +103,7 @@ Specifies that the tunnel uses IP over Hypertext Transfer Protocol Secure (HTTPS
 
 For more information about the tunnel type as described by the Internet Assigned Names Authority
     (IANA) see 
-    <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">"IANAifType-MIB DEFINITIONS"</a>.
+    <a href="https://go.microsoft.com/fwlink/p/?linkid=60066">"IANAifType-MIB DEFINITIONS"</a>.
 
 
 

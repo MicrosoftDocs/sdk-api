@@ -76,7 +76,7 @@ The local IPv4 address of the interface or the interface index on which the mult
 
 The <b>ip_mreq</b> structure is used with IPv4 addresses. The <b>ip_mreq</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ip-socket-options">IP_ADD_MEMBERSHIP</a> and <b>IP_DROP_MEMBERSHIP</b> socket options. 
 
-The <b>ip_mreq</b> structure and related structures used for IPv4 multicast programming are based on IETF recommendations in sections 4 and 8.1 of RFC 3768. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=87353">http://www.ietf.org/rfc/rfc3678.txt</a>.
+The <b>ip_mreq</b> structure and related structures used for IPv4 multicast programming are based on IETF recommendations in sections 4 and 8.1 of RFC 3768. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=87353">http://www.ietf.org/rfc/rfc3678.txt</a>.
 
 For more configurable multicast capabilities with IPv4, use the <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ip_mreq_source">ip_mreq_source</a> structure. See <a href="https://docs.microsoft.com/windows/desktop/WinSock/multicast-programming">Multicast Programming</a> for more information. 
 

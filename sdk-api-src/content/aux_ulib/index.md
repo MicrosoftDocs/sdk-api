@@ -1,5 +1,6 @@
 ---
 UID: NA:aux_ulib
+title: Aux_Ulib.h header
 ms.assetid: 143b2ad9-8d11-30f5-8f4f-9cf0deb265dd
 ms.date: 01/11/2019
 ms.keywords: 

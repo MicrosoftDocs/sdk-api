@@ -1,5 +1,6 @@
 ---
 UID: NA:xaudio2
+title: Xaudio2.h header
 ms.assetid: 145ad793-3734-3735-a02b-7de3fd601fa1
 ms.date: 01/11/2019
 ms.keywords: 

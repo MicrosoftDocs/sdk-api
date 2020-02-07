@@ -1,5 +1,6 @@
 ---
 UID: NA:msxml
+title: Msxml.h header
 ms.assetid: e4a5a6c4-bb63-3f9b-bfd4-8ceef23a65b2
 ms.date: 01/11/2019
 ms.keywords: 

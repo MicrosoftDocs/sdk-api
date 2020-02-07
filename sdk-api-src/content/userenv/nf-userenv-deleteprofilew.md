@@ -100,7 +100,7 @@ Type: <b>BOOL</b>
 
 
 
-<b>DeleteProfile</b> might fail when passed the security identifier (SID) of the local system account (S-1-5-18). For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=200321">KB890212</a>.
+<b>DeleteProfile</b> might fail when passed the security identifier (SID) of the local system account (S-1-5-18). For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=200321">KB890212</a>.
 
 
 

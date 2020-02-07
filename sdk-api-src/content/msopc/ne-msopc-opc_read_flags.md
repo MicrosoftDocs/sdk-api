@@ -82,7 +82,7 @@ Cache decompressed package component data as a temp file when accessing the comp
 
 If both the <b>OPC_CACHE_ON_ACCESS</b> and <b>OPC_VALIDATE_ON_LOAD</b> read flags are set, all package components are decompressed and cached when a package is loaded.
 
-The Packaging APIs do not use the <i>OPC</i> core properties feature; therefore, the core properties requirements listed in Table H-9 of the <i>OPC</i> are not validated by the Packaging APIs. For more information about <i>OPC</i> conformance requirements, see 1st edition, Part 2: Open Packaging Conventions in <a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>  (http://go.microsoft.com/fwlink/p/?linkid=123375).
+The Packaging APIs do not use the <i>OPC</i> core properties feature; therefore, the core properties requirements listed in Table H-9 of the <i>OPC</i> are not validated by the Packaging APIs. For more information about <i>OPC</i> conformance requirements, see 1st edition, Part 2: Open Packaging Conventions in <a href="https://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>  (https://go.microsoft.com/fwlink/p/?linkid=123375).
 
 <div class="alert"><b>Important</b>  Parts may be repeatedly read from the stream at any time, regardless of which read flags are set. For example, when a package is saved, previously accessed relationships in a Relationships part in the original package may be accessed again to preserve markup compatibility.</div>
 <div> </div>
@@ -94,7 +94,7 @@ The Packaging APIs do not use the <i>OPC</i> core properties feature; therefore,
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML standard</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML standard</a>
 
 
 

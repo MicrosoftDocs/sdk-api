@@ -167,7 +167,7 @@ If the partition is on a disk formatted as type master boot record (MBR), partit
 
 
 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=128030">SET_PARTITION_INFORMATION_EX</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=128030">SET_PARTITION_INFORMATION_EX</a>
  
 
  

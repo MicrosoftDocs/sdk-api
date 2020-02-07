@@ -1,5 +1,6 @@
 ---
 UID: NA:msapofxproxy
+title: Msapofxproxy.h header
 ms.assetid: 7d1ccc83-8d8e-360f-8bcc-fee9ee400c97
 ms.date: 01/11/2019
 ms.keywords: 

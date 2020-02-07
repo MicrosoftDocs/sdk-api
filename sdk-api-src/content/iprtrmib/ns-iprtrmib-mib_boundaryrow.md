@@ -61,7 +61,7 @@ The <b>MIB_BOUNDARYROW</b> structure contains the IPv4 group address value and m
 
 The 32-bit integer representation of the IPv4 group address which, when combined with the corresponding value in <b>dwGroupMask</b>, identifies the group range for which the scoped boundary exists. 
 
-<div class="alert"><b>Note</b>  Scoped addresses must come from the range 239.*.*.* as specified in <a href="Http://go.microsoft.com/fwlink/p/?linkid=84040">RFC 2365</a>.</div>
+<div class="alert"><b>Note</b>  Scoped addresses must come from the range 239.*.*.* as specified in <a href="https://go.microsoft.com/fwlink/p/?linkid=84040">RFC 2365</a>.</div>
 <div> </div>
 
 ### -field dwGroupMask

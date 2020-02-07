@@ -70,97 +70,97 @@ Specifies the minimum value for values of this enumeration type.
 ### -field RADIUS_ATTRIBUTE_USER_NAME
 
 Specifies the name of the user to be authenticated. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_USER_PASSWORD
 
 Specifies the password of the user to be authenticated. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_CHAP_PASSWORD
 
 Specifies the password provided by the user in response to an MD5 Challenge Handshake Authentication Protocol (CHAP) challenge. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_NAS_IP_ADDRESS
 
 Specifies the Network Access Server (NAS) IP address. An Access-Request should specify either an NAS IP address or an NAS identifier. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_NAS_PORT
 
 Specifies the physical or virtual private network (VPN) through which the user is connecting to the NAS. Note that this value is not a port number in the sense of TCP or UDP. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_SERVICE_TYPE
 
 Specifies the type of service the user has requested or the type of service to be provided. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_PROTOCOL
 
 Specifies the type of framed protocol to use for framed access, for example SLIP, PPP, or ARAP (AppleTalk Remote Access Protocol). For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_IP_ADDRESS
 
 Specifies the IP address that is configured for the user requesting authentication. This attribute is typically returned by the authentication provider. However, the NAS may use it in an authentication request to specify a preferred IP address. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_IP_NETMASK
 
 Specifies the IP network mask for a user that is a router to a network. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_ROUTING
 
 Specifies the routing method for a user that is a router to a network. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FILTER_ID
 
 Specifies the filter list for the user requesting authentication. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_MTU
 
 Specifies the Maximum Transmission Unit (MTU) for the user. This attribute is used in cases where the MTU is not negotiated through some other means, such as PPP. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_COMPRESSION
 
 Specifies a compression protocol to use for the connection. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_LOGIN_IP_HOST
 
 Specifies the system with which to connect the user. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_LOGIN_SERVICE
 
 Specifies the service to use to connect the user to the host specified by <b>raatLoginIPHost</b>. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_LOGIN_TCP_PORT
 
 Specifies the port to which to connect the user. This attribute is present only if the <b>raatLoginService</b> attribute is present. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_UNASSIGNED1
@@ -171,19 +171,19 @@ This value is currently unassigned.
 ### -field RADIUS_ATTRIBUTE_REPLY_MESSAGE
 
 Specifies a message to display to the user. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_CALLBACK_NUMBER
 
 Specifies a callback number. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_CALLBACK_ID
 
 Specifies a location to call back. The value of this attribute is interpreted by the NAS. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_UNASSIGNED2
@@ -194,205 +194,205 @@ This value is currently unassigned. The value field in for this type is also und
 ### -field RADIUS_ATTRIBUTE_FRAMED_ROUTE
 
 Specifies routing information to configure on the NAS for the user. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_IPX_NETWORK
 
 Specifies the IPX network number to configure for the user. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_STATE
 
 Specifies state information provided to the client by the server. Refer to 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a> for detailed information about this value. The value field in for this type is a pointer.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a> for detailed information about this value. The value field in for this type is a pointer.
 
 
 ### -field RADIUS_ATTRIBUTE_CLASS
 
 Specifies a value that is provided to the NAS by the authentication provider. The NAS should use this value when communicating with the accounting provider. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_VENDOR_SPECIFIC
 
 Specifies a field for vendor-supplied extended attributes. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_SESSION_TIMEOUT
 
 Specifies the maximum number of seconds for which to provide service to the user. After this time, the session is terminated. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_IDLE_TIMEOUT
 
 Specifies the maximum number of consecutive seconds the session can be idle. If the idle time exceeds this value, the session is terminated. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_TERMINATION_ACTION
 
 Specifies an action the server performs when time the connection terminates. Refer to the above-referenced files for detailed information about this value. The value field in for this type is 32-bit integral value. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_CALLED_STATION_ID
 
 Specifies the number that the user dialed to connect to the NAS. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_CALLING_STATION_ID
 
 Specifies the number from which the user is calling. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_NAS_IDENTIFIER
 
 Specifies the NAS identifier. An Access-Request should specify either an NAS identifier or an NAS IP address. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_PROXY_STATE
 
 Specifies a value that a proxy server includes when forwarding an authentication request. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_LOGIN_LAT_SERVICE
 
 Specifies an attribute that is not currently used for authentication on Windows. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_LOGIN_LAT_NODE
 
 Specifies an attribute that is not currently used for authentication on Windows. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_LOGIN_LAT_GROUP
 
 Specifies an attribute that is not currently used for authentication on Windows. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_APPLETALK_LINK
 
 Specifies the AppleTalk network number for the user when the user is another router. The value field in for this type is 32-bit integral value. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_APPLETALK_NET
 
 Specifies the AppleTalk network number that the NAS should use to allocate an AppleTalk node for the user. This attribute is used only when the user is not another router. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_APPLETALK_ZONE
 
 Specifies the AppleTalk default zone for the user. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_STATUS_TYPE
 
 Specifies whether the accounting provider should start or stop accounting for the user. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_DELAY_TIME
 
 Specifies the length of time that the client has been attempting to send the current request. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_INPUT_OCTETS
 
 Specifies the number of octets that have been received during the current accounting session. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_OUTPUT_OCTETS
 
 Specifies the number of octets that were sent during the current accounting session. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_SESSION_ID
 
 Specifies a value to enable the identification of matching start and stop records within a log file. The start and stop records are sent in the <b>raatAcctStatusType</b> attribute. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_AUTHENTIC
 
 Specifies, to the accounting provider, how the user was authenticated; for example by Windows Directory Services, RADIUS, or some other authentication provider. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_SESSION_TIME
 
 Specifies the number of seconds that have elapsed in the current accounting session. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_INPUT_PACKETS
 
 Specifies the number of packets that are received during the current accounting session. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_OUTPUT_PACKETS
 
 Specifies the number of packets that are sent during the current accounting session. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_TERMINATE_CAUSE
 
 Specifies how the current accounting session was terminated. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_MULTI_SSN_ID
 
 Specifies a value to enable the identification of related accounting sessions within a log file. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_LINK_COUNT
 
 Specifies the number of links if the current accounting session is using a multilink connection. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_CHAP_CHALLENGE
 
 Specifies the CHAP challenge sent by the NAS to a CHAP user. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_NAS_PORT_TYPE
 
 Specifies the type of the port through which the user is connecting, for example, asynchronous, ISDN, virtual. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_PORT_LIMIT
 
 Specifies the number of ports the NAS should make available to the user for multilink sessions. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_LOGIN_LAT_PORT
 
 Specifies an attribute that is not currently used for authentication on Windows. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_TUNNEL_TYPE
@@ -543,7 +543,7 @@ Specifies the address of the server end of the tunnel.
 
 Specifies an identifier assigned to the tunnel
          session. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84057">RFC 2867</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84057">RFC 2867</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_TUNNEL_PASSWORD
@@ -554,31 +554,31 @@ The password for authenticating to the remote server.
 ### -field RADIUS_ATTRIBUTE_ARAP_PASSWORD
 
 Specifies a password to use for AppleTalk Remote Access Protocol (ARAP) authentication. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ARAP_FEATURES
 
 Specifies information that an NAS should send back to the user in an ARAP "feature flags" packet. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ARAP_ZONE_ACCESS
 
 Specifies how to use the ARAP zone list for the user. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ARAP_SECURITY
 
 Specifies an ARAP security module to use during a secondary authentication phase between the NAS and the user. The value field for this type is a 32-bit integral. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ARAP_SECURITY_DATA
 
 Specifies the data to use with an ARAP security module. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_PASSWORD_RETRY
@@ -589,31 +589,31 @@ Specifies the number of password retry attempts to permit the user access. The v
 ### -field RADIUS_ATTRIBUTE_PROMPT
 
 Specifies whether the NAS should echo the user response to a challenge. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_CONNECT_INFO
 
 Specifies information about the type of connection the user is using. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_CONFIGURATION_TOKEN
 
 Specifies user-profile information in communications between RADIUS Proxy Servers and RADIUS Proxy Clients. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_EAP_MESSAGE
 
 Specifies that EAP information be sent directly between the user and the authentication provider. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_SIGNATURE
 
 Specifies a signature to include with CHAP, EAP, or ARAP packets. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_TUNNEL_PVT_GROUP_ID
@@ -634,32 +634,32 @@ Relative preference assigned to each tunnel when more than one set of tunneling 
 ### -field RADIUS_ATTRIBUTE_ARAP_CHALLENGE_RESPONSE
 
 Specifies the response to a Apple Remote Access Protocol (ARAP) challenge. In ARAP, either the server or the client responds to challenges. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_INTERIM_INTERVAL
 
 Indicates the number of seconds between each interim update for this specific session. This value can only appear in the Access-Accept message. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_NAS_IPv6_ADDRESS
 
-Specifies the IPv6 Address of the NAS that requests authentication of the user. It should be unique to the NAS within the scope of the RADIUS server. It is only used in an Access-Request packet. For more information, see the NAS-IPv6-Address section in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
+Specifies the IPv6 Address of the NAS that requests authentication of the user. It should be unique to the NAS within the scope of the RADIUS server. It is only used in an Access-Request packet. For more information, see the NAS-IPv6-Address section in <a href="https://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_INTERFACE_ID
 
 Specifies the IPv6 interface identifier to be
       configured for the user.  It may be used in an Access-Accept packet.
-      For more information, see the Framed-Interface-Id section in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
+      For more information, see the Framed-Interface-Id section in <a href="https://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_IPv6_PREFIX
 
 Specifies an IPv6 prefix (and corresponding route)
       to be configured for the user.  It may be used in an Access-Accept
-      packet and can appear multiple times.  For more information, see the Framed-IPv6-Prefix section in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
+      packet and can appear multiple times.  For more information, see the Framed-IPv6-Prefix section in <a href="https://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_LOGIN_IPv6_HOST
@@ -667,7 +667,7 @@ Specifies an IPv6 prefix (and corresponding route)
 Specifies the system with which to connect the
       user, when the ratLoginService attribute is included.  It may be
       used in an Access-Accept packet.
-For more information, see the Login-IPv6-Host section in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
+For more information, see the Login-IPv6-Host section in <a href="https://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_IPv6_ROUTE
@@ -675,7 +675,7 @@ For more information, see the Login-IPv6-Host section in <a href="http://go.micr
 Specifies routing information to be configured for
       the user on the NAS.  It is used in an Access-Accept packet and
       can appear multiple times.
-For more information, see the Framed-IPv6-Route section in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
+For more information, see the Framed-IPv6-Route section in <a href="https://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_IPv6_POOL
@@ -684,7 +684,7 @@ Specifies the name of an assigned pool that should
       be used to assign an IPv6 prefix for the user.  If a NAS does not
       support multiple prefix pools, the NAS must ignore this attribute.
 
-For more information, see the Framed-IPv6-Pool section in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
+For more information, see the Framed-IPv6-Pool section in <a href="https://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
 
 
 ### -field IAS_ATTRIBUTE_SAVED_RADIUS_FRAMED_IP_ADDRESS
@@ -920,13 +920,13 @@ This attribute is reserved for system use.
 ### -field IAS_ATTRIBUTE_REASON_CODE
 
 Specifies an MS-CHAP reason-for-failure code. This attribute is returned in the Failure packet Message field. For more information, see Request for Comments (RFC) 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84041">2433</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84041">2433</a>.
 
 
 ### -field MS_ATTRIBUTE_FILTER
 
 See Request for Comments (RFC) 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
 
 
 ### -field MS_ATTRIBUTE_CHAP2_RESPONSE
@@ -947,13 +947,13 @@ This attribute is reserved for system use.
 ### -field MS_ATTRIBUTE_RAS_VENDOR
 
 See Request for Comments (RFC) 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
 
 
 ### -field MS_ATTRIBUTE_RAS_VERSION
 
 See Request for Comments (RFC) 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
 
 
 ### -field IAS_ATTRIBUTE_NP_NAME
@@ -964,25 +964,25 @@ This attribute is reserved for system use.
 ### -field MS_ATTRIBUTE_PRIMARY_DNS_SERVER
 
 See Request for Comments (RFC) 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
 
 
 ### -field MS_ATTRIBUTE_SECONDARY_DNS_SERVER
 
 See Request for Comments (RFC) 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
 
 
 ### -field MS_ATTRIBUTE_PRIMARY_NBNS_SERVER
 
 See Request for Comments (RFC) 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
 
 
 ### -field MS_ATTRIBUTE_SECONDARY_NBNS_SERVER
 
 See Request for Comments (RFC) 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
 
 
 ### -field IAS_ATTRIBUTE_PROXY_POLICY_NAME
@@ -1142,7 +1142,7 @@ Specifies which group of DHCP scopes correspond to the client requesting access.
 
 ### -field MS_ATTRIBUTE_QUARANTINE_USER_CLASS
 
-Vendor-specific attribute used to carry the name of a special DHCP user class, as specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3004</a>, called Network Access Protection (NAP) user class.
+Vendor-specific attribute used to carry the name of a special DHCP user class, as specified in <a href="https://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3004</a>, called Network Access Protection (NAP) user class.
 
 
 ### -field MS_ATTRIBUTE_QUARANTINE_STATE
@@ -1477,7 +1477,7 @@ Specifies the encryption type of the user's connection.
 ### -field RAS_ATTRIBUTE_ENCRYPTION_POLICY
 
 Specifies the whether encryption is Allowed, Required, or None (disallowed). For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84047">RFC 2548</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84047">RFC 2548</a>.
 
 
 ### -field RAS_ATTRIBUTE_BAP_REQUIRED

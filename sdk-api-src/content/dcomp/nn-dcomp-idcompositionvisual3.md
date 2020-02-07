@@ -129,7 +129,7 @@ Changes the value of the visual's Visible property.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=313910">DirectComposition Backface and D2D Batching</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=313910">DirectComposition Backface and D2D Batching</a>
 
 
 

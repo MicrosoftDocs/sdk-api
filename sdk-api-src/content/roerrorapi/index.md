@@ -1,6 +1,6 @@
 ---
 UID: NA:roerrorapi
-title: roerrorapi
+title: roerrorapi.h header
 ms.date: 05/20/2019
 ms.keywords: roerrorapi
 ms.topic: language-reference
@@ -35,6 +35,8 @@ api_location:
 api_name:
 - roerrorapi
 ---
+
+# roerrorapi.h header
 
 ## -description
 

@@ -1,5 +1,6 @@
 ---
 UID: TP:nla
+title: Network List Manager
 ms.assetid: bab08dd3-cacc-3530-8910-b8ce6776ff7b
 ms.date: 01/11/2019
 ms.keywords: 

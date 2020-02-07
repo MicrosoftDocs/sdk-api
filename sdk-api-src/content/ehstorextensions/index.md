@@ -1,5 +1,6 @@
 ---
 UID: NA:ehstorextensions
+title: Ehstorextensions.h header
 ms.assetid: 76031899-9961-3bf4-935c-302de8f4c1af
 ms.date: 01/11/2019
 ms.keywords: 

@@ -65,7 +65,7 @@ TBD
 
 ### -param pv
 
-After the <code>IPropertyStore::GetValue</code> method returns successfully, this parameter points to a <a href="http://go.microsoft.com/fwlink/p/?linkid=106396">PROPVARIANT </a> structure that contains data about the property.
+After the <code>IPropertyStore::GetValue</code> method returns successfully, this parameter points to a <a href="https://go.microsoft.com/fwlink/p/?linkid=106396">PROPVARIANT </a> structure that contains data about the property.
 
 
 #### - Key
@@ -88,7 +88,7 @@ INPLACE_S_TRUNCATED is returned to indicate that the returned PROPVARIANT was co
 
 
 
-If the PROPERTYKEY referenced in key is not present in the property store, this method returns S_OK and the <a href="http://go.microsoft.com/fwlink/p/?linkid=106396">vt </a> member of the structure that is pointed to by pv is set to VT_EMPTY.
+If the PROPERTYKEY referenced in key is not present in the property store, this method returns S_OK and the <a href="https://go.microsoft.com/fwlink/p/?linkid=106396">vt </a> member of the structure that is pointed to by pv is set to VT_EMPTY.
 
 
 

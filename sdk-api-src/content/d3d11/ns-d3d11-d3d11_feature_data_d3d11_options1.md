@@ -122,7 +122,7 @@ On non-unified memory architecture systems (discrete GPUs), apps should not use 
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=316897">DirectX Mappable Default Buffers SDK Sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=316897">DirectX Mappable Default Buffers SDK Sample</a>
  
 
  

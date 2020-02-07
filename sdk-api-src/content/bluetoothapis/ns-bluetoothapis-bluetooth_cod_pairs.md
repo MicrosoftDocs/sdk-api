@@ -75,7 +75,7 @@ Descriptive string of the mask.
 If a minor code is provided in <b>ulCODMask</b> it must also match the minor code returned by the remote device.  A major code must be set if a minor code is specified; zero is not a valid major code.
 
 See the Bluetooth specification at 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84017">www.bluetooth.com</a> for Class Of Device information.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84017">www.bluetooth.com</a> for Class Of Device information.
 
 
 

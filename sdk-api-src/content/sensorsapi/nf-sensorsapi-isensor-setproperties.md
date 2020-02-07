@@ -59,7 +59,7 @@ Specifies sensor properties.
 
 ### -param pProperties [in]
 
- Pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=134660">IPortableDeviceValues</a> interface containing the list of properties and values to set.
+ Pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=134660">IPortableDeviceValues</a> interface containing the list of properties and values to set.
 
 
 ### -param ppResults [out]

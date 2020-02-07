@@ -1,5 +1,6 @@
 ---
 UID: NA:printmanagerinterop
+title: Printmanagerinterop.h header
 ms.assetid: a7dd6937-534d-3b57-a486-d2bce92f7695
 ms.date: 01/11/2019
 ms.keywords: 

@@ -1,5 +1,6 @@
 ---
 UID: NA:notificationactivationcallback
+title: Notificationactivationcallback.h header
 ms.assetid: bd43c3d1-f444-368e-89ce-2a1a2a9a0197
 ms.date: 01/11/2019
 ms.keywords: 

@@ -1,5 +1,6 @@
 ---
 UID: NA:winsatcominterfacei
+title: Winsatcominterfacei.h header
 ms.assetid: 76c75004-d546-3d55-9e2d-5744db03b8ab
 ms.date: 01/11/2019
 ms.keywords: 

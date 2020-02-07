@@ -1,5 +1,6 @@
 ---
 UID: NA:richole
+title: Richole.h header
 ms.assetid: 2faf07a3-448c-3a2e-ac1f-506e91790b29
 ms.date: 01/11/2019
 ms.keywords: 

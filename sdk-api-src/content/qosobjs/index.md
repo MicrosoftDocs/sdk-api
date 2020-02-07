@@ -1,5 +1,6 @@
 ---
 UID: NA:qosobjs
+title: Qosobjs.h header
 ms.assetid: 3a6805db-4bd5-3c71-be14-63083ccb7508
 ms.date: 01/11/2019
 ms.keywords: 

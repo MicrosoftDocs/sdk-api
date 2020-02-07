@@ -1,5 +1,6 @@
 ---
 UID: NA:scserver
+title: Scserver.h header
 ms.assetid: 382cdac1-02d0-3b67-b262-ff8aa4e4d3a3
 ms.date: 01/11/2019
 ms.keywords: 

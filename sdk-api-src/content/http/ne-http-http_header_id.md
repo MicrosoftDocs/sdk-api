@@ -77,7 +77,7 @@ The Date is a general header field that indicates the time that the request or r
 
 ### -field HttpHeaderKeepAlive
 
-Based on the keepalive XML element (see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84046">RFC 2518</a>, section 12.12.1, page 66); a list of URIs included in the KeepAlive
+Based on the keepalive XML element (see <a href="https://go.microsoft.com/fwlink/p/?linkid=84046">RFC 2518</a>, section 12.12.1, page 66); a list of URIs included in the KeepAlive
    header must be "live" after they are copied
    (moved) to the destination.
 

@@ -84,7 +84,7 @@ This member contains data specific to individual Bluetooth device manufacturers.
 
 ### -field manufacturer
 
-Manufacturer of the Bluetooth radio, expressed as a <b>BTH_MFG_Xxx</b> value. For more information about the Bluetooth assigned numbers document and a current list of values, see the Bluetooth specification at <a href="Http://go.microsoft.com/fwlink/p/?linkid=84017">www.bluetooth.com</a>.
+Manufacturer of the Bluetooth radio, expressed as a <b>BTH_MFG_Xxx</b> value. For more information about the Bluetooth assigned numbers document and a current list of values, see the Bluetooth specification at <a href="https://go.microsoft.com/fwlink/p/?linkid=84017">www.bluetooth.com</a>.
 
 
 ## -see-also

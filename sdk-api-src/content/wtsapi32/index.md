@@ -1,5 +1,6 @@
 ---
 UID: NA:wtsapi32
+title: Wtsapi32.h header
 ms.assetid: c382edfa-3d15-3b93-9cf9-3fd6a08595cd
 ms.date: 01/11/2019
 ms.keywords: 

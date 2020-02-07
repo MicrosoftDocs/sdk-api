@@ -1,5 +1,6 @@
 ---
 UID: NA:mswsock
+title: Mswsock.h header
 ms.assetid: 30a43468-acbe-3e87-acb1-8eb3b02b5c85
 ms.date: 01/11/2019
 ms.keywords: 

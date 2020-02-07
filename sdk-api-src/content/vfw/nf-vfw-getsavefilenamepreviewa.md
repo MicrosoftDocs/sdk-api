@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The <b>GetSaveFileNamePreview</b> function selects a file by using the Save As dialog box. The dialog box also allows the user to preview the currently specified file. This function augments the capability found in the <a href="http://go.microsoft.com/fwlink/p/?linkid=16940">GetSaveFileName</a> function.
+The <b>GetSaveFileNamePreview</b> function selects a file by using the Save As dialog box. The dialog box also allows the user to preview the currently specified file. This function augments the capability found in the <a href="https://go.microsoft.com/fwlink/p/?linkid=16940">GetSaveFileName</a> function.
 
 
 

@@ -88,5 +88,5 @@ The subject name (such as "CN=service.com") of the specified
 certificate.  The supplied subject name string must be in a format acceptable to
 CERT_FIND_SUBJECT_NAME-based
 search.
-                (See <a href="http://go.microsoft.com/fwlink/p/?linkid=139700">CertFindCertificateInStore</a>.)
+                (See <a href="https://go.microsoft.com/fwlink/p/?linkid=139700">CertFindCertificateInStore</a>.)
 

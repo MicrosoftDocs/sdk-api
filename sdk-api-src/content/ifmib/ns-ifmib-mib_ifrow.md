@@ -78,7 +78,7 @@ The index that identifies the interface. This index value may change when a netw
 
 Type: <b>DWORD</b>
 
-The interface type as defined by the Internet Assigned Names Authority (IANA). For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84022">http://www.iana.org/assignments/ianaiftype-mib</a>. Possible values for the interface type are listed in the <i>Ipifcons.h</i> header file. 
+The interface type as defined by the Internet Assigned Names Authority (IANA). For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84022">http://www.iana.org/assignments/ianaiftype-mib</a>. Possible values for the interface type are listed in the <i>Ipifcons.h</i> header file. 
 
 The table below lists common values for the interface type although many other values are possible. 
 

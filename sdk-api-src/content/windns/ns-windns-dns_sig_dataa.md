@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>DNS_RRSIG_DATA</b> structure represents a DNS
-   Security Extensions (DNSSEC) cryptographic signature (SIG) resource  record (RR) as specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
+   Security Extensions (DNSSEC) cryptographic signature (SIG) resource  record (RR) as specified in <a href="https://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
 
 
 ## -struct-fields
@@ -78,7 +78,7 @@ A value that specifies the  algorithm used to generate <b>Signature</b>. The pos
 </dl>
 </td>
 <td width="60%">
-RSA/MD5 (<a href="http://go.microsoft.com/fwlink/p/?linkid=124777">RFC 2537</a>)
+RSA/MD5 (<a href="https://go.microsoft.com/fwlink/p/?linkid=124777">RFC 2537</a>)
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ RSA/MD5 (<a href="http://go.microsoft.com/fwlink/p/?linkid=124777">RFC 2537</a>)
 </dl>
 </td>
 <td width="60%">
-Diffie-Hellman (<a href="http://go.microsoft.com/fwlink/p/?linkid=124778">RFC 2539</a>)
+Diffie-Hellman (<a href="https://go.microsoft.com/fwlink/p/?linkid=124778">RFC 2539</a>)
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ Diffie-Hellman (<a href="http://go.microsoft.com/fwlink/p/?linkid=124778">RFC 25
 </dl>
 </td>
 <td width="60%">
-DSA (<a href="http://go.microsoft.com/fwlink/p/?linkid=124779">RFC 2536</a>)
+DSA (<a href="https://go.microsoft.com/fwlink/p/?linkid=124779">RFC 2536</a>)
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ Elliptic curve cryptography
 </dl>
 </td>
 <td width="60%">
-RSA/SHA-1 (<a href="http://go.microsoft.com/fwlink/p/?linkid=90406">RFC 3110</a>)
+RSA/SHA-1 (<a href="https://go.microsoft.com/fwlink/p/?linkid=90406">RFC 3110</a>)
 
 </td>
 </tr>
@@ -128,7 +128,7 @@ RSA/SHA-1 (<a href="http://go.microsoft.com/fwlink/p/?linkid=90406">RFC 3110</a>
 
 ### -field chLabelCount
 
-The number of labels in the original signature RR owner name as specified in section 3.1.3 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
+The number of labels in the original signature RR owner name as specified in section 3.1.3 of <a href="https://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
 
 
 ### -field dwOriginalTtl
@@ -148,7 +148,7 @@ The date and time at which <b>Signature</b> becomes valid, expressed in seconds 
 
 ### -field wKeyTag
 
-A value that represents the method to choose which public key is used to verify  <b>Signature</b> as specified Appendix B of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
+A value that represents the method to choose which public key is used to verify  <b>Signature</b> as specified Appendix B of <a href="https://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
 
 
 ### -field wSignatureLength
@@ -173,7 +173,7 @@ A pointer to a string that represents  the name of the <b>Signature</b> generato
 
 ### -field Signature
 
-A <b>BYTE</b> array that contains the RR set signature as specified in section 3.1.8 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
+A <b>BYTE</b> array that contains the RR set signature as specified in section 3.1.8 of <a href="https://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
 
 
 #### - Pad

@@ -96,7 +96,7 @@ The IP address object for the provider address, which is the matching IP address
 
 
 
-For a detailed description of network virtualization concepts and terminology, see <a href="http://go.microsoft.com/fwlink/p/?linkid=263545">Hyper-V Network Virtualization Overview</a>.
+For a detailed description of network virtualization concepts and terminology, see <a href="https://go.microsoft.com/fwlink/p/?linkid=263545">Hyper-V Network Virtualization Overview</a>.
 
 
 

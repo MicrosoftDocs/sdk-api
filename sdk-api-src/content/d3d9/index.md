@@ -1,5 +1,6 @@
 ---
 UID: NA:d3d9
+title: D3D9.h header
 ms.assetid: 0939acd7-c4e4-38c8-bacf-342cf6d335d5
 ms.date: 01/11/2019
 ms.keywords: 

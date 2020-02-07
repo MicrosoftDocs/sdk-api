@@ -73,7 +73,7 @@ The registry security access for the key to be opened. For information about reg
 
 If the function is successful, it returns a handle to an opened registry key where information about this setup class can be stored/retrieved. 
 
-If the function fails, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+If the function fails, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
 
 
 
@@ -86,7 +86,7 @@ Depending on the value that is passed in the <i>samDesired</i> parameter, it mig
 
 This function does not create a registry key if it does not already exist.
 
-The handle returned from this function must be closed by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=194543">RegCloseKey</a>.
+The handle returned from this function must be closed by calling <a href="https://go.microsoft.com/fwlink/p/?linkid=194543">RegCloseKey</a>.
 
 To open the interface class registry key or a specific interface class subkey, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopenclassregkeyexa">SetupDiOpenClassRegKeyEx</a>.
 

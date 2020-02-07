@@ -91,7 +91,7 @@ If an application processes a <a href="https://docs.microsoft.com/windows/deskto
    process memory leaks.
   
 
-If the message is passed to <a href="http://go.microsoft.com/fwlink/p/?linkid=136637">DefWindowProc</a>, or is forwarded using
+If the message is passed to <a href="https://go.microsoft.com/fwlink/p/?linkid=136637">DefWindowProc</a>, or is forwarded using
    one of the PostMessage or SendMessage classes of API functions, the handle
    is transferred with the message and need not be closed by the application.
   

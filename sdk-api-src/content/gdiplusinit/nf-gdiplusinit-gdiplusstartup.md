@@ -114,7 +114,7 @@ Do not call <b>GdiplusStartup</b> or <a href="https://docs.microsoft.com/windows
 <li>Export your own startup function that calls <b>GdiplusStartup</b> and your own shutdown function that calls <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusshutdown">GdiplusShutdown</a>. Require your clients to call your startup function before they call other functions in your DLL and to call your shutdown function when they have finished using your DLL. </li>
 <li>Call <b>GdiplusStartup</b> and <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusshutdown">GdiplusShutdown</a> in each of your functions that make GDI+ calls. </li>
 </ul>
-<div class="alert"><b>Warning</b>  For info about how to use dynamic data exchange (DDE) with GDI+, see <a href="http://go.microsoft.com/fwlink/p/?linkid=237639">Special CWinApp Services</a>.</div>
+<div class="alert"><b>Warning</b>  For info about how to use dynamic data exchange (DDE) with GDI+, see <a href="https://go.microsoft.com/fwlink/p/?linkid=237639">Special CWinApp Services</a>.</div>
 <div> </div>
 
 #### Examples

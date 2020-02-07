@@ -251,7 +251,7 @@ If <i>hFile</i> is opened with <b>FILE_FLAG_OVERLAPPED</b>, it is an
 <div class="alert"><b>Note</b>  If a file or device is opened for asynchronous I/O, subsequent calls to functions such as 
       <b>ReadFile</b> using that handle generally return immediately, but 
       can also behave synchronously with respect to blocked execution. For more information see 
-      <a href="Http://go.microsoft.com/fwlink/p/?linkid=116863">http://support.microsoft.com/kb/156932</a>.</div>
+      <a href="https://go.microsoft.com/fwlink/p/?linkid=116863">http://support.microsoft.com/kb/156932</a>.</div>
 <div> </div>
 Considerations for working with asynchronous file handles:
 

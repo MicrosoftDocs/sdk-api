@@ -1,5 +1,6 @@
 ---
 UID: TP:ldap
+title: Lightweight Directory Access Protocol
 ms.assetid: 15a0bafb-f4a0-3e3e-87c9-c56597e8b4ff
 ms.date: 01/11/2019
 ms.keywords: 

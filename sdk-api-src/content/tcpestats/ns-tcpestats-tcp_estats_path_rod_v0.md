@@ -460,19 +460,19 @@ The <b>TCP_ESTATS_PATH_ROD_v0</b> is defined as version 0 of the structure for  
 
 The <b>TCP_ESTATS_PATH_ROD_v0</b> structure is retrieved by calls to  the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a> or <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a> functions when <b>TcpConnectionEstatsPath</b> is passed in the <i>EstatsType</i> parameter. Extended TCP statistics need to be enabled to retrieve this structure.
 
-The path MTU discovery and maximum segment size are discussed in detail in the IETF RFC 1191 on Path MTU discovery. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=167113">http://www.ietf.org/rfc/rfc1191.txt</a>.
+The path MTU discovery and maximum segment size are discussed in detail in the IETF RFC 1191 on Path MTU discovery. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=167113">http://www.ietf.org/rfc/rfc1191.txt</a>.
 
-TCP congestion control and congestion control algorithms are discussed in detail in the IETF RFC 2581 on TCP Congestion Control. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=166789">http://www.ietf.org/rfc/rfc2581.txt</a>.
+TCP congestion control and congestion control algorithms are discussed in detail in the IETF RFC 2581 on TCP Congestion Control. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=166789">http://www.ietf.org/rfc/rfc2581.txt</a>.
 
 SACK and an extension to the SACK option are discussed in detail in the IETF RFC 2883 on An Extension to the Selective Acknowledgement
-           (SACK) Option for TCP. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=166925">http://www.ietf.org/rfc/rfc2883.txt</a>.
+           (SACK) Option for TCP. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=166925">http://www.ietf.org/rfc/rfc2883.txt</a>.
 
-The TCP retransmission timer (RTO) and the smoothed round-trip-time (RTT) are discussed in detail in the IETF RFC 2988 on Computing TCP's Retransmission Timer. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=167112">http://www.ietf.org/rfc/rfc2988.txt</a>.
+The TCP retransmission timer (RTO) and the smoothed round-trip-time (RTT) are discussed in detail in the IETF RFC 2988 on Computing TCP's Retransmission Timer. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=167112">http://www.ietf.org/rfc/rfc2988.txt</a>.
 
 Explicit Congestion Notification in IP is discussed in detail in the IETF RFC 2581 on The Addition of Explicit Congestion Notification
-           (ECN) to IP. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=167116">http://www.ietf.org/rfc/rfc3168.txt</a>.
+           (ECN) to IP. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=167116">http://www.ietf.org/rfc/rfc3168.txt</a>.
 
-The members of this structure are defined in the IETF RFC on the TCP Extended Statistics MIB. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=121686">http://www.ietf.org/rfc/rfc4898.txt</a>.
+The members of this structure are defined in the IETF RFC on the TCP Extended Statistics MIB. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=121686">http://www.ietf.org/rfc/rfc4898.txt</a>.
 
 
 

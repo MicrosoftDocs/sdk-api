@@ -65,7 +65,7 @@ The <b>CM_Get_Version</b> function returns version 4.0 of the Plug and Play (PnP
 
 
 
-If the function succeeds, it returns the major revision number in the high-order byte, and the minor revision number in the low-order byte. Version 4.0 is returned as 0x0400. By default, version 4.0 is supported by Microsoft Windows 2000 and later versions of Windows. If an internal error occurs, the function returns 0x0000. Call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> to obtain the error code for the failure.
+If the function succeeds, it returns the major revision number in the high-order byte, and the minor revision number in the low-order byte. Version 4.0 is returned as 0x0400. By default, version 4.0 is supported by Microsoft Windows 2000 and later versions of Windows. If an internal error occurs, the function returns 0x0000. Call <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> to obtain the error code for the failure.
 
 
 

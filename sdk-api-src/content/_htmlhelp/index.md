@@ -1,5 +1,6 @@
 ---
 UID: TP:htmlhelp
+title: Microsoft HTML Help 1.4
 ms.assetid: adfbbda2-b7ca-3f58-bd38-3aaccbf29126
 ms.date: 01/11/2019
 ms.keywords: 

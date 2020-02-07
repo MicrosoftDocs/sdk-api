@@ -1,5 +1,6 @@
 ---
 UID: TP:mediatransport
+title: Media Transport Controls
 ms.assetid: d171fe26-62b3-31af-9f9a-88c6cce5d3b1
 ms.date: 01/11/2019
 ms.keywords: 

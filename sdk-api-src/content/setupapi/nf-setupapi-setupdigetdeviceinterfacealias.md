@@ -81,9 +81,9 @@ A pointer to a caller-allocated buffer that contains, on successful return, a co
 
 
 
-<b>SetupDiGetDeviceInterfaceAlias</b> returns <b>TRUE</b> if the function completed without error. If the function completed with an error, <b>FALSE</b> is returned and the error code for the failure can be retrieved by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+<b>SetupDiGetDeviceInterfaceAlias</b> returns <b>TRUE</b> if the function completed without error. If the function completed with an error, <b>FALSE</b> is returned and the error code for the failure can be retrieved by calling <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
 
-Possible errors returned by <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> are listed in the following table.
+Possible errors returned by <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> are listed in the following table.
 
 
 <table>
@@ -140,7 +140,7 @@ Device interfaces are considered aliases if they are of different interface clas
 
 To locate such a multi-interface device, first locate all available devices that expose one of the interfaces, such as the fault-tolerant-volume interface, using <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a> and <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces">SetupDiEnumDeviceInterfaces</a>. Then, pass a device with the first interface (fault-tolerant-volume) to <b>SetupDiGetDeviceInterfaceAlias</b> and request an alias of the other interface class (encrypted-volume). 
 
-If the requested alias exists but the caller-supplied <i>AliasDeviceInterfaceData</i> buffer is invalid, this function successfully adds the device interface element to <i>DevInfoSet</i> but returns <b>FALSE</b> for the return value. In this case, <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_INVALID_USER_BUFFER.
+If the requested alias exists but the caller-supplied <i>AliasDeviceInterfaceData</i> buffer is invalid, this function successfully adds the device interface element to <i>DevInfoSet</i> but returns <b>FALSE</b> for the return value. In this case, <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_INVALID_USER_BUFFER.
 
 
 

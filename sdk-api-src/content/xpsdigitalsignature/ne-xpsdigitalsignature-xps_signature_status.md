@@ -96,7 +96,7 @@ This is a valid signature: it is not broken, incompliant, or questionable. The a
 
 The digital signature status values correspond to section 10.2.1.2 in the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>.
 
-The Open Packaging Conventions are specified in   the 1st edition, Part 2, "Open Packaging Conventions," of <a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>.
+The Open Packaging Conventions are specified in   the 1st edition, Part 2, "Open Packaging Conventions," of <a href="https://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>.
 
 <div class="alert"><b>Note</b>  These resources may not be available in some languages 
 
@@ -110,7 +110,7 @@ and countries.</div>
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 

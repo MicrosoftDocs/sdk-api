@@ -61,11 +61,11 @@ Forms the part name of the part that is referenced by the specified relative URI
 
 ### -param relativeUri [in]
 
-A pointer to the  <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface of the relative URI of the part.
+A pointer to the  <a href="https://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface of the relative URI of the part.
 
 To form the part URI object that represents the part name, this input URI is resolved against the URI represented as the current OPC URI object. Therefore, the input URI must be relative to the URI represented by the current OPC URI object.
 
-This URI may include a fragment component; however, the fragment will be ignored and will not be included in the part name to be formed. A fragment component is preceded by a '#', as described in <a href="http://go.microsoft.com/fwlink/p/?linkid=143950">RFC 3986: URI Generic Syntax</a>.
+This URI may include a fragment component; however, the fragment will be ignored and will not be included in the part name to be formed. A fragment component is preceded by a '#', as described in <a href="https://go.microsoft.com/fwlink/p/?linkid=143950">RFC 3986: URI Generic Syntax</a>.
 
 
 ### -param combinedUri [out, retval]
@@ -156,7 +156,7 @@ The part name does not conform to the rules specified in the <i>OPC</i> standard
 </dl>
 </td>
 <td width="60%">
-A part name cannot be an absolute URI. An absolute URI begins with a schema component followed by a ":", as described in <a href="http://go.microsoft.com/fwlink/p/?linkid=143950">RFC 3986: URI Generic Syntax</a>.
+A part name cannot be an absolute URI. An absolute URI begins with a schema component followed by a ":", as described in <a href="https://go.microsoft.com/fwlink/p/?linkid=143950">RFC 3986: URI Generic Syntax</a>.
 
 </td>
 </tr>
@@ -214,7 +214,7 @@ Example input and output:
 
 <table>
 <tr>
-<th>Input relative <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a></th>
+<th>Input relative <a href="https://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a></th>
 <th>Current <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a>
 </th>
 <th>Formed <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a>
@@ -260,7 +260,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
 
 
 
@@ -296,7 +296,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=143950">RFC 3986: URI Generic Syntax</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=143950">RFC 3986: URI Generic Syntax</a>
 
 
 

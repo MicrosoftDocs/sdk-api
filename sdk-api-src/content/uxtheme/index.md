@@ -1,5 +1,6 @@
 ---
 UID: NA:uxtheme
+title: Uxtheme.h header
 ms.assetid: 6ca9ff0e-e465-3684-8ba2-beb75756b79e
 ms.date: 01/11/2019
 ms.keywords: 

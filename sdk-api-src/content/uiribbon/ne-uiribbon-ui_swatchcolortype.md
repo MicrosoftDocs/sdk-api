@@ -64,7 +64,7 @@ The swatch is transparent.
 
 ### -field UI_SWATCHCOLORTYPE_AUTOMATIC
 
-The swatch is filled with a solid RGB color bound to <a href="http://go.microsoft.com/fwlink/p/?linkid=143871">GetSysColor(COLOR_WINDOWTEXT)</a>.
+The swatch is filled with a solid RGB color bound to <a href="https://go.microsoft.com/fwlink/p/?linkid=143871">GetSysColor(COLOR_WINDOWTEXT)</a>.
 
 
 ### -field UI_SWATCHCOLORTYPE_RGB

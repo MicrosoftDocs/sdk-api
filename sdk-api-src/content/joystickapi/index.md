@@ -1,5 +1,6 @@
 ---
 UID: NA:joystickapi
+title: Joystickapi.h header
 ms.assetid: 0160d399-eaff-3d4f-9b19-ae0d716465dd
 ms.date: 01/11/2019
 ms.keywords: 

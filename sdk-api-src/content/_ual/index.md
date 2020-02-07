@@ -1,5 +1,6 @@
 ---
 UID: TP:ual
+title: User Access Logging
 ms.assetid: 064ae0f9-7282-39cf-be9e-a2768a182496
 ms.date: 01/11/2019
 ms.keywords: 

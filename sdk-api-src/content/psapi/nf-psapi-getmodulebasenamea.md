@@ -167,7 +167,7 @@ For an example, see
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=120208">strrchr, wcsrchr, _mbsrchr, _mbsrchr_l</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=120208">strrchr, wcsrchr, _mbsrchr, _mbsrchr_l</a>
  
 
  

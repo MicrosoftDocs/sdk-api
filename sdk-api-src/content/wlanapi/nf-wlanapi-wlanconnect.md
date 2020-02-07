@@ -164,7 +164,7 @@ The <b>WlanConnect</b> function returns immediately.  To be notified when a conn
 
 The <b>strProfile</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_parameters">WLAN_CONNECTION_PARAMETERS</a> structure pointed to by <i>pConnectionParameters</i> specifies the profile to use for connection. If this profile is an all-user profile, the <b>WlanConnect</b>  caller must have execute access on the profile. Otherwise, the <b>WlanConnect</b> call will fail with return value ERROR_ACCESS_DENIED. The permissions on an all-user profile are established when the profile is created or saved using <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansavetemporaryprofile">WlanSaveTemporaryProfile</a>.
 
-To perform a connection operation at the command line, use the <b>netsh wlan connect</b> command. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=120964">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
+To perform a connection operation at the command line, use the <b>netsh wlan connect</b> command. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=120964">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>You can only use <b>WlanConnect</b> to connect to networks on the preferred network list. To add a network to the preferred network list, call <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a>. 
 

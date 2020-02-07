@@ -212,7 +212,7 @@ There is a possibility that some of the IPsec settings specified in the <b>SOCKE
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=86174">AuthIP in Windows Vista</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=86174">AuthIP in Windows Vista</a>
 
 
 

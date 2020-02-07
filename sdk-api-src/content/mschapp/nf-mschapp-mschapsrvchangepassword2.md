@@ -72,7 +72,7 @@ A pointer to a null-terminated Unicode string that specifies the name of the use
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mschapp/ns-mschapp-sampr_encrypted_user_password">SAMPR_ENCRYPTED_USER_PASSWORD</a> structure that contains the new clear text password encrypted using the current NT one-way function (OWF) password hash as the encryption key.
 
-<div class="alert"><b>Note</b>  Use  the <b>NewPasswordEncryptedWithOldNtPasswordHash()</b> function as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=84041">RFC 2433</a>, section A.11 to calculate the cipher for <i>NewPasswordEncryptedWithOldNt</i>.</div>
+<div class="alert"><b>Note</b>  Use  the <b>NewPasswordEncryptedWithOldNtPasswordHash()</b> function as defined in <a href="https://go.microsoft.com/fwlink/p/?linkid=84041">RFC 2433</a>, section A.11 to calculate the cipher for <i>NewPasswordEncryptedWithOldNt</i>.</div>
 <div> </div>
 
 ### -param OldNtOwfPasswordEncryptedWithNewNt [in]
@@ -89,7 +89,7 @@ A <b>BOOLEAN</b> that specifies if the current Lan Manager (LM) or NT OWF passwo
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mschapp/ns-mschapp-sampr_encrypted_user_password">SAMPR_ENCRYPTED_USER_PASSWORD</a> structure that contains the new clear text password encrypted using the current LM OWF password hash.
 
-<div class="alert"><b>Note</b>  Use  the <b>NewPasswordEncryptedWithOldLmPasswordHash()</b> function as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=84041">RFC 2433</a>, section A.15 to calculate the cipher for <i>NewPasswordEncryptedWithOldLm</i>.</div>
+<div class="alert"><b>Note</b>  Use  the <b>NewPasswordEncryptedWithOldLmPasswordHash()</b> function as defined in <a href="https://go.microsoft.com/fwlink/p/?linkid=84041">RFC 2433</a>, section A.15 to calculate the cipher for <i>NewPasswordEncryptedWithOldLm</i>.</div>
 <div> </div>
 
 ### -param OldLmOwfPasswordEncryptedWithNewLmOrNt [in]
@@ -204,7 +204,7 @@ The domain controller is serving in the incorrect role to perform the requested 
 
 
 
-This function allows users to change their own passwords only if they have the access: <a href="http://go.microsoft.com/fwlink/p/?linkid=114813">USER_CHANGE_PASSWORD</a>.
+This function allows users to change their own passwords only if they have the access: <a href="https://go.microsoft.com/fwlink/p/?linkid=114813">USER_CHANGE_PASSWORD</a>.
 
 This function fails with <b>STATUS_PASSWORD_RESTRICTION</b> if the attempt to change the password conflicts with an administrative password restriction.
 

@@ -1,5 +1,6 @@
 ---
 UID: NA:winefs
+title: Winefs.h header
 ms.assetid: ed616764-d220-3733-87e3-a22d2583f482
 ms.date: 01/11/2019
 ms.keywords: 

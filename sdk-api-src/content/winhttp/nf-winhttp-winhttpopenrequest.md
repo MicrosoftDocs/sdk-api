@@ -90,7 +90,7 @@ Pointer to a string that specifies the URL of the document from which the URL in
 ### -param ppwszAcceptTypes [in]
 
 Pointer to a <b>null</b>-terminated array of string pointers that specifies media types accepted by the client. If this parameter is set to <b>WINHTTP_DEFAULT_ACCEPT_TYPES</b>, no types are accepted by the client. Typically, servers handle a lack of accepted types as indication that the client accepts only documents of type "text/*"; that is, only text documents—no pictures or other binary files. For a list of valid media types, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84521">Media Types</a> defined by IANA at http://www.iana.org/assignments/media-types/.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84521">Media Types</a> defined by IANA at http://www.iana.org/assignments/media-types/.
 
 
 ### -param dwFlags [in]
@@ -281,7 +281,7 @@ The return value indicates success or failure.  To get extended error informatio
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The 
-<b>WinHttpOpenRequest</b> function creates a new HTTP request handle and stores the specified parameters in that handle. An HTTP request handle holds a request to send to an HTTP server and contains all <a href="Http://go.microsoft.com/fwlink/p/?linkid=84545">RFC822</a>/MIME/HTTP headers to be sent as part of the request.
+<b>WinHttpOpenRequest</b> function creates a new HTTP request handle and stores the specified parameters in that handle. An HTTP request handle holds a request to send to an HTTP server and contains all <a href="https://go.microsoft.com/fwlink/p/?linkid=84545">RFC822</a>/MIME/HTTP headers to be sent as part of the request.
 
 If 
 <i>pwszVerb</i> is set to "HEAD", the Content-Length header is ignored.

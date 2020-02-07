@@ -1,5 +1,6 @@
 ---
 UID: TP:wmi
+title: Windows Management Instrumentation
 ms.assetid: f7736949-4243-340f-890f-1ae3a5bda3e9
 ms.date: 01/11/2019
 ms.keywords: 

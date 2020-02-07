@@ -1,5 +1,6 @@
 ---
 UID: NA:ktmw32
+title: Ktmw32.h header
 ms.assetid: 7665644d-c912-398d-9e0d-b988d168e5d1
 ms.date: 01/11/2019
 ms.keywords: 

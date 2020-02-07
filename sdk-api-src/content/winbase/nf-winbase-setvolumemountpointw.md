@@ -106,7 +106,7 @@ It is an error to associate a volume with a directory that has any files or subd
 
 When mounted folders are created on a volume on a clustered disk, they may be deleted unexpectedly under certain 
     circumstances. For information on how to create and configure mounted folders to ensure that this does not happen, 
-    see <a href="Http://go.microsoft.com/fwlink/p/?linkid=169338">Cluster Disk and Drive Connection Problems</a>.
+    see <a href="https://go.microsoft.com/fwlink/p/?linkid=169338">Cluster Disk and Drive Connection Problems</a>.
 
 IIn Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 

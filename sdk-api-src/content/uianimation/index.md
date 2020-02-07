@@ -1,5 +1,6 @@
 ---
 UID: NA:uianimation
+title: Uianimation.h header
 ms.assetid: cce0348a-2b23-397d-8923-833fc1b60c0f
 ms.date: 01/11/2019
 ms.keywords: 

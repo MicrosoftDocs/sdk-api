@@ -1,5 +1,6 @@
 ---
 UID: NA:diagnosticdataquerytypes
+title: diagnosticdataquerytypes.h header
 ms.date: 08/19/2019
 ms.keywords: 
 ms.topic: conceptual

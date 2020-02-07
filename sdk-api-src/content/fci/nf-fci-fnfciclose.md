@@ -76,7 +76,7 @@ Pointer to an application-defined value.
 
 
 
-The function accepts parameters similar to <a href="http://go.microsoft.com/fwlink/p/?linkid=196541">_close</a>, with the addition of <i>err</i> and <i>pv</i>.
+The function accepts parameters similar to <a href="https://go.microsoft.com/fwlink/p/?linkid=196541">_close</a>, with the addition of <i>err</i> and <i>pv</i>.
 
 
 #### Examples

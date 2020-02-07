@@ -1,5 +1,6 @@
 ---
 UID: NA:dssec
+title: Dssec.h header
 ms.assetid: 5f549b69-b5f5-3588-bcc6-2cf4c79520f1
 ms.date: 01/11/2019
 ms.keywords: 

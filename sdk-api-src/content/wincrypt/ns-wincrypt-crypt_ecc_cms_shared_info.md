@@ -86,7 +86,7 @@ The following table contains the definition of the array dimension.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=92228">RFC 3278</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=92228">RFC 3278</a>
  
 
  

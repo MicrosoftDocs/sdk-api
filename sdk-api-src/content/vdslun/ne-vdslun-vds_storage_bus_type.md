@@ -186,7 +186,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=133544">STORAGE_BUS_TYPE</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=133544">STORAGE_BUS_TYPE</a>
 
 
 

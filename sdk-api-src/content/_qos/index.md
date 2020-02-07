@@ -1,5 +1,6 @@
 ---
 UID: TP:qos
+title: Quality of Service (QOS)
 ms.assetid: 226c23a3-f2d6-320b-87c9-2bb3973f6073
 ms.date: 01/11/2019
 ms.keywords: 

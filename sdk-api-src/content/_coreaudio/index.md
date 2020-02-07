@@ -1,5 +1,6 @@
 ---
 UID: TP:coreaudio
+title: Core Audio APIs
 ms.assetid: 42959537-bb25-3eb8-8a95-3f33f2da8462
 ms.date: 01/11/2019
 ms.keywords: 

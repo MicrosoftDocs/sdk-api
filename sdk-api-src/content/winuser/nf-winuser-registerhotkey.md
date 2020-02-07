@@ -255,15 +255,15 @@ int _cdecl _tmain (
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=528102">Register hotkey for the current app (CSRegisterHotkey)</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=528102">Register hotkey for the current app (CSRegisterHotkey)</a>
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=528099">Register hotkey for the current app (CppRegisterHotkey)</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=528099">Register hotkey for the current app (CppRegisterHotkey)</a>
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=528101">Register hotkey for the current app (VBRegisterHotkey)</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=528101">Register hotkey for the current app (VBRegisterHotkey)</a>
 
 
 

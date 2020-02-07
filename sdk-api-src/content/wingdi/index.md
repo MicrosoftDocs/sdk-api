@@ -1,5 +1,6 @@
 ---
 UID: NA:wingdi
+title: Wingdi.h header
 ms.assetid: c22a6527-8fa4-3099-a4a2-f0aaa2f4684d
 ms.date: 01/11/2019
 ms.keywords: 

@@ -65,7 +65,7 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 ### -param SubnetAddress [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains the subnet ID. See <a href="Http://go.microsoft.com/fwlink/p/?linkid=84025">RFC 950</a> for more information about subnet ID.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains the subnet ID. See <a href="https://go.microsoft.com/fwlink/p/?linkid=84025">RFC 950</a> for more information about subnet ID.
 
 
 ### -param ResumeHandle [in, out]

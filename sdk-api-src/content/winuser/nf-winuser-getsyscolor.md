@@ -522,7 +522,7 @@ System colors for monochrome displays are usually interpreted as shades of gray.
 To paint with a system color brush, an application should use <code>GetSysColorBrush(nIndex)</code>, instead of 
 <code>CreateSolidBrush(GetSysColor(nIndex))</code>, because <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolorbrush">GetSysColorBrush</a> returns a cached brush, instead of allocating a new one.
 
-Color is an important visual element of most user interfaces. For guidelines about using color in your applications, see <a href="http://go.microsoft.com/fwlink/p/?linkid=112188">Color</a>.
+Color is an important visual element of most user interfaces. For guidelines about using color in your applications, see <a href="https://go.microsoft.com/fwlink/p/?linkid=112188">Color</a>.
 
 
 #### Examples

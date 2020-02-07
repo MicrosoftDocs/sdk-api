@@ -1,5 +1,6 @@
 ---
 UID: NA:profileapi
+title: Profileapi.h header
 ms.assetid: 81110c70-75f0-3a0a-85c6-36ad23ef2aa7
 ms.date: 01/11/2019
 ms.keywords: 

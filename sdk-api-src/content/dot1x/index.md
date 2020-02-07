@@ -1,5 +1,6 @@
 ---
 UID: NA:dot1x
+title: Dot1X.h header
 ms.assetid: 2a7bf8b9-273f-3795-823b-4358785e0159
 ms.date: 01/11/2019
 ms.keywords: 

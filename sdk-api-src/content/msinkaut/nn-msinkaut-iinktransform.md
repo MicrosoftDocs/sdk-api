@@ -160,7 +160,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets access to the <a href="http://go.microsoft.com/fwlink/p/?linkid=9696">XFORM structure</a>.
+Gets or sets access to the <a href="https://go.microsoft.com/fwlink/p/?linkid=9696">XFORM structure</a>.
 
 </td>
 </tr>

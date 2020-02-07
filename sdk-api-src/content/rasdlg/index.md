@@ -1,5 +1,6 @@
 ---
 UID: NA:rasdlg
+title: Rasdlg.h header
 ms.assetid: 0bd3ce17-f37f-328a-8759-a9957b6c6ad5
 ms.date: 01/11/2019
 ms.keywords: 

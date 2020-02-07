@@ -1,5 +1,6 @@
 ---
 UID: NA:rpcndr
+title: Rpcndr.h header
 ms.assetid: 94d2ad6f-f235-3269-ab39-c3bf3e799b2b
 ms.date: 01/11/2019
 ms.keywords: 

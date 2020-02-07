@@ -1,5 +1,6 @@
 ---
 UID: NA:wtshintapi
+title: Wtshintapi.h header
 ms.assetid: 4d9a39cc-3c75-346a-aec9-3d79d787f384
 ms.date: 01/11/2019
 ms.keywords: 

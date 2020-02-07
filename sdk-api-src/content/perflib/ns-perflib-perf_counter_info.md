@@ -64,7 +64,7 @@ Identifier that uniquely identifies the counter within the counter set.
 
 ### -field Type
 
-Specifies the type of counter. For possible counter types, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84422">Counter Types</a> in the Windows 2003 Deployment Guide.
+Specifies the type of counter. For possible counter types, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84422">Counter Types</a> in the Windows 2003 Deployment Guide.
 
 
 ### -field Attrib

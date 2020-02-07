@@ -1,5 +1,6 @@
 ---
 UID: NA:htmlhelp
+title: Htmlhelp.h header
 ms.assetid: b629df63-ed88-35d2-810d-a309160c7f7d
 ms.date: 01/11/2019
 ms.keywords: 

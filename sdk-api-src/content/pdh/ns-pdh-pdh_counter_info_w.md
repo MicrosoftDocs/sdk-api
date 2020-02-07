@@ -68,7 +68,7 @@ Size of the structure, including the appended strings, in bytes.
 
 ### -field dwType
 
-Counter type. For a list of counter types, see the Counter Types section of the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84422">Windows Server 2003 Deployment Kit</a>. The counter type constants are defined in Winperf.h.
+Counter type. For a list of counter types, see the Counter Types section of the <a href="https://go.microsoft.com/fwlink/p/?linkid=84422">Windows Server 2003 Deployment Kit</a>. The counter type constants are defined in Winperf.h.
 					
 
 

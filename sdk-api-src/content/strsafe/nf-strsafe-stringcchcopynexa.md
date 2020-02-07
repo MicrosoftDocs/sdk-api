@@ -57,7 +57,7 @@ Copies the specified number of characters from one string to another. The size o
 
 <b>StringCchCopyNEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192506">strncpy, wcsncpy, _tcsncpy</a></li>
+<li><a href="https://go.microsoft.com/fwlink/p/?linkid=192506">strncpy, wcsncpy, _tcsncpy</a></li>
 </ul>
 
 ## -parameters

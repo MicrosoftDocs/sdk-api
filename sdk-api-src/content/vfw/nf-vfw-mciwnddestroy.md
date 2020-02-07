@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndDestroy</b> macro closes an MCI device or file associated with an MCIWnd window and destroys the window. You can use this macro or explicitly send the <a href="http://go.microsoft.com/fwlink/p/?linkid=17092">WM_CLOSE</a> message.
+The <b>MCIWndDestroy</b> macro closes an MCI device or file associated with an MCIWnd window and destroys the window. You can use this macro or explicitly send the <a href="https://go.microsoft.com/fwlink/p/?linkid=17092">WM_CLOSE</a> message.
 
 
 
@@ -70,7 +70,7 @@ Handle of the MCIWnd window.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=17092">WM_CLOSE</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=17092">WM_CLOSE</a>
  
 
  

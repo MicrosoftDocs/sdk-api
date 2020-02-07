@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>DNS_AAAA_DATA</b> structure represents a DNS IPv6 (AAAA) record as specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=107027">RFC 3596</a>.
+<b>DNS_AAAA_DATA</b> structure represents a DNS IPv6 (AAAA) record as specified in <a href="https://go.microsoft.com/fwlink/p/?linkid=107027">RFC 3596</a>.
 
 
 ## -struct-fields

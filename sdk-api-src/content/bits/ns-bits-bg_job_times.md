@@ -59,7 +59,7 @@ Provides job-related time stamps.
 ### -field CreationTime
 
 Time the job was created. The time is specified as 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=128776">FILETIME</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=128776">FILETIME</a>.
 
 
 ### -field ModificationTime
@@ -70,13 +70,13 @@ Time the job was last modified or bytes were transferred. Adding files or callin
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">Resume</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-cancel">Cancel</a>, and 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-complete">Complete</a> methods change this value. The time is specified as 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=128776">FILETIME</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=128776">FILETIME</a>.
 
 
 ### -field TransferCompletionTime
 
 Time the job entered the BG_JOB_STATE_TRANSFERRED state. The time is specified as 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=128776">FILETIME</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=128776">FILETIME</a>.
 
 
 ## -see-also

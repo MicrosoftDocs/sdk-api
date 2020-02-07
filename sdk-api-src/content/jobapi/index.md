@@ -1,5 +1,6 @@
 ---
 UID: NA:jobapi
+title: Jobapi.h header
 ms.assetid: 2d36f962-e00f-342c-b70b-049aab2f5e32
 ms.date: 01/11/2019
 ms.keywords: 

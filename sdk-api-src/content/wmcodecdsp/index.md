@@ -1,5 +1,6 @@
 ---
 UID: NA:wmcodecdsp
+title: Wmcodecdsp.h header
 ms.assetid: 75f67bd6-f134-3f81-8b6c-463ec552fd28
 ms.date: 01/11/2019
 ms.keywords: 

@@ -55,7 +55,7 @@ Concatenates the specified number of bytes from one  string to another string. T
 
 <b>StringCbCatN</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192505">strncat</a></li>
+<li><a href="https://go.microsoft.com/fwlink/p/?linkid=192505">strncat</a></li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strncata">StrNCat</a>
 </li>

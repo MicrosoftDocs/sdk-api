@@ -1,5 +1,6 @@
 ---
 UID: NA:windows.foundation
+title: Windows.Foundation.h header
 ms.assetid: 2063e2b3-e542-3e7b-a5ea-900424880af8
 ms.date: 01/11/2019
 ms.keywords: 

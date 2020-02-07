@@ -61,7 +61,7 @@ This property is restricted in Microsoft Visual Basic and cannot be used.
 
 ### -param ppEnum [out]
 
-A reference to the returned <a href="http://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a> interface.
+A reference to the returned <a href="https://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a> interface.
 
 
 ## -returns

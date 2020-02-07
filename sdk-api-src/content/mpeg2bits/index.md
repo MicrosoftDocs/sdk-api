@@ -1,5 +1,6 @@
 ---
 UID: NA:mpeg2bits
+title: Mpeg2Bits.h header
 ms.assetid: 37fd74c2-5cd8-3b7c-8a05-3c6f72f309de
 ms.date: 01/11/2019
 ms.keywords: 

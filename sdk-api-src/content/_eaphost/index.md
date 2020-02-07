@@ -1,5 +1,6 @@
 ---
 UID: TP:eaphost
+title: Extensible Authentication Protocol Host
 ms.assetid: bfd933dc-0ef7-3b44-91ff-81467060c7da
 ms.date: 01/11/2019
 ms.keywords: 

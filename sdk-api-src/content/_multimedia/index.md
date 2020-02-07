@@ -1,5 +1,6 @@
 ---
 UID: TP:multimedia
+title: Windows Multimedia
 ms.assetid: a1710ddf-acd2-3419-b799-1773d9f162a5
 ms.date: 01/11/2019
 ms.keywords: 

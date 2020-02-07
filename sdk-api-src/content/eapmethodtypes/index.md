@@ -1,5 +1,6 @@
 ---
 UID: NA:eapmethodtypes
+title: Eapmethodtypes.h header
 ms.assetid: cf48ad63-8d42-37fe-89f1-5e7eb25b877a
 ms.date: 01/11/2019
 ms.keywords: 

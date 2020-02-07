@@ -206,7 +206,7 @@ The
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess">ExitProcess</a> does not complete until there are no threads in their DLL initialization or detach routines.</li>
 </ul>
-A thread in an executable that calls the C run-time library (CRT) should use the <a href="http://go.microsoft.com/fwlink/p/?linkid=125829">_beginthreadex</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=125830">_endthreadex</a> functions for thread management rather than 
+A thread in an executable that calls the C run-time library (CRT) should use the <a href="https://go.microsoft.com/fwlink/p/?linkid=125829">_beginthreadex</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=125830">_endthreadex</a> functions for thread management rather than 
 <b>CreateThread</b> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a>; this requires the use of the multithreaded version of the CRT. If a thread created using <b>CreateThread</b> calls the CRT, the CRT may terminate the process in low-memory conditions.
 

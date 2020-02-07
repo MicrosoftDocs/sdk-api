@@ -1,6 +1,6 @@
 ---
 UID: NA:windows.graphics.capture.interop
-title: windows.graphics.capture.interop
+title: windows.graphics.capture.interop.h header
 ms.date: 6/24/2019
 ms.keywords: windows.graphics.capture.interop
 ms.topic: language-reference
@@ -35,6 +35,9 @@ api_name:
 - windows.graphics.capture.interop
 tech.root: winrt
 ---
+
+
+# windows.graphics.capture.interop.h header
 
 ## -description
 

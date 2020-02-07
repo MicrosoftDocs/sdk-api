@@ -1,5 +1,6 @@
 ---
 UID: NA:msrdc
+title: Msrdc.h header
 ms.assetid: 9b35c935-bd0c-30c6-bfec-6e68edbbdd03
 ms.date: 01/11/2019
 ms.keywords: 

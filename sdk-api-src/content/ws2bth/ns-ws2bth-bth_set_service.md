@@ -103,7 +103,7 @@ When using the
 <b>BTH_SET_SERVICE</b> members must be used.
 
 For more information about class of device (COD), see the Bluetooth specification at 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84017">www.bluetooth.com</a>.<table>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84017">www.bluetooth.com</a>.<table>
 <tr>
 <th>Member</th>
 <th>Required value</th>

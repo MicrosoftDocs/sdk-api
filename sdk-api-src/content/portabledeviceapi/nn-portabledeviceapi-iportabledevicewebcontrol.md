@@ -120,7 +120,7 @@ var deviceService = device.services[0];
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=266421">Portable Device Service Sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=266421">Portable Device Service Sample</a>
  
 
  
