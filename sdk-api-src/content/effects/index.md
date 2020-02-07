@@ -1,5 +1,6 @@
 ---
 UID: NA:effects
+title: Effects.h header
 ms.assetid: 83d6d36b-e15b-3519-b476-cd79cc8f2728
 ms.date: 01/11/2019
 ms.keywords: 

@@ -66,7 +66,7 @@ Handle of the counter from which to retrieve the current raw value. The
 
 ### -param lpdwType [out]
 
-Receives the counter type. For a list of counter types, see the Counter Types section of the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84422">Windows Server 2003 Deployment Kit</a>. This parameter is optional.
+Receives the counter type. For a list of counter types, see the Counter Types section of the <a href="https://go.microsoft.com/fwlink/p/?linkid=84422">Windows Server 2003 Deployment Kit</a>. This parameter is optional.
 
 
 ### -param pValue [out]

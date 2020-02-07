@@ -59,7 +59,7 @@ Gets the URI of the relationship target.
 
 ### -param targetUri [out, retval]
 
-A pointer to the <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface of the URI that represents the URI of the relationship's target.
+A pointer to the <a href="https://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface of the URI that represents the URI of the relationship's target.
 
 If the relationship target is internal, the  target is a part and the URI of the target is relative to the URI of the source part.
 
@@ -136,7 +136,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
 
 
 

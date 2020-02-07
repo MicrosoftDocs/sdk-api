@@ -1,5 +1,6 @@
 ---
 UID: NA:gdiplusinit
+title: Gdiplusinit.h header
 ms.assetid: e8dd5160-6e8e-3d18-b63a-901714998da4
 ms.date: 01/11/2019
 ms.keywords: 

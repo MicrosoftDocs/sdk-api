@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 Converts an internationalized domain name (IDN) or another internationalized label to a Unicode (wide character) representation of the ASCII string that represents the name in the Punycode transfer encoding syntax. 
-        <div class="alert"><b>Caution</b>  This function implements the <a href="http://go.microsoft.com/fwlink/p/?linkid=161551">RFC 3490: Internationalizing Domain Names in Applications (IDNA)</a> standard algorithm for converting an IDN to Punycode. The standard introduces some security issues. One issue is that glyphs representing certain characters from different scripts might appear similar or even identical. For example, in many fonts, Cyrillic lowercase A ("а") is indistinguishable from Latin lowercase A ("a"). There is no way to tell visually that "example.com" and "exаmple.com" are two different domain names, one with a Latin lowercase A in the name, the other with a Cyrillic lowercase A. For more information about IDN-related security concerns, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>.</div>
+        <div class="alert"><b>Caution</b>  This function implements the <a href="https://go.microsoft.com/fwlink/p/?linkid=161551">RFC 3490: Internationalizing Domain Names in Applications (IDNA)</a> standard algorithm for converting an IDN to Punycode. The standard introduces some security issues. One issue is that glyphs representing certain characters from different scripts might appear similar or even identical. For example, in many fonts, Cyrillic lowercase A ("а") is indistinguishable from Latin lowercase A ("a"). There is no way to tell visually that "example.com" and "exаmple.com" are two different domain names, one with a Latin lowercase A in the name, the other with a Cyrillic lowercase A. For more information about IDN-related security concerns, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>.</div>
 <div> </div>
 
 
@@ -111,7 +111,7 @@ The function fails if the input Unicode string contains control characters (U+00
 <td width="60%">
 <b>Starting with Windows 8:</b> Enable EAI algorithmic fallback for the local parts of email addresses (such as <i>&lt;local&gt;</i>@microsoft.com). The default is for this function to fail when an email address has an invalid address or syntax.
 
-An application can set this flag to enable Email Address Internationalization (EAI) to return a discoverable fallback address, if possible. For more information, see the IETF <a href="http://go.microsoft.com/fwlink/p/?linkid=231184">Email Address Internationalization (eai) Charter</a>.
+An application can set this flag to enable Email Address Internationalization (EAI) to return a discoverable fallback address, if possible. For more information, see the IETF <a href="https://go.microsoft.com/fwlink/p/?linkid=231184">Email Address Internationalization (eai) Charter</a>.
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ The function does not null-terminate an output string if the input string length
 Note that the function always fails if the input string contains control characters (U+0001 through U+0020) or the "delete" character (U+007F). Since the character U+0000 can appear only as a terminating null character, the function always fails if U+0000 appears anywhere else in the input string.
 
 <b>Windows XP, Windows Server 2003</b>: 
-The required header file and DLL are part of the <a href="https://www.microsoft.com/download/details.aspx?id=734"> "Microsoft Internationalized Domain Name (IDN) Mitigation APIs"</a> download, available at the <a href="http://go.microsoft.com/fwlink/p/?linkid=362">MSDN Download Center</a>.
+The required header file and DLL are part of the <a href="https://www.microsoft.com/download/details.aspx?id=734"> "Microsoft Internationalized Domain Name (IDN) Mitigation APIs"</a> download, available at the <a href="https://go.microsoft.com/fwlink/p/?linkid=362">MSDN Download Center</a>.
 
 
 

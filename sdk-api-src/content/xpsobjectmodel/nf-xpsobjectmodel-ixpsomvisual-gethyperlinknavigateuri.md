@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a pointer to the <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface  to which this visual object links.
+Gets a pointer to the <a href="https://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface  to which this visual object links.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets a pointer to the <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">
 
 ### -param hyperlinkUri [out, retval]
 
-A pointer to the <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface that contains the destination URI for the link. 
+A pointer to the <a href="https://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface that contains the destination URI for the link. 
 				If  a URI has not been set for this object, a <b>NULL</b> pointer is returned.
 
 

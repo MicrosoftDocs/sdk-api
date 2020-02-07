@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-If the <b>FragmentDialect</b> property is not specified in the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> object, the default is the XPath 1.0 specification. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84163">http://www.w3.org/TR/xpath</a>.
+If the <b>FragmentDialect</b> property is not specified in the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> object, the default is the XPath 1.0 specification. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84163">http://www.w3.org/TR/xpath</a>.
 
 
 

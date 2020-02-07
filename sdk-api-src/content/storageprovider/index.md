@@ -1,5 +1,6 @@
 ---
 UID: NA:storageprovider
+title: Storageprovider.h header
 ms.assetid: e40e10d9-a646-3f5f-805f-3492778bf552
 ms.date: 01/11/2019
 ms.keywords: 

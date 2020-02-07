@@ -74,7 +74,7 @@ Handle to the module instance to associate with the MCIWnd window.
 
 ### -param dwStyle
 
-Flags defining the window style. In addition to specifying the window styles used with the <a href="http://go.microsoft.com/fwlink/p/?linkid=16991">CreateWindowEx</a> function, you can specify the following styles to use with MCIWnd windows.
+Flags defining the window style. In addition to specifying the window styles used with the <a href="https://go.microsoft.com/fwlink/p/?linkid=16991">CreateWindowEx</a> function, you can specify the following styles to use with MCIWnd windows.
 
 <table>
 <tr>

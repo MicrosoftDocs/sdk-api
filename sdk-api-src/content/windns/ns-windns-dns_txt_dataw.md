@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>DNS_TXT_DATA</b> structure represents a DNS text (TXT) record as specified in section 3.3.14 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
+<b>DNS_TXT_DATA</b> structure represents a DNS text (TXT) record as specified in section 3.3.14 of <a href="https://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
 
 
 ## -struct-fields

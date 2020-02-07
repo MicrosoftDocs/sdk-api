@@ -67,7 +67,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/VDS/vds-data-types">VDS_
 
 ### -field tag
 
-The portal group tag that is assigned by the provider to the portal group. For more information about portal group tags, see the iSCSI specification at <a href="http://go.microsoft.com/fwlink/p/?linkid=158752">http://go.microsoft.com/fwlink/p/?linkid=158752</a>.
+The portal group tag that is assigned by the provider to the portal group. For more information about portal group tags, see the iSCSI specification at <a href="https://go.microsoft.com/fwlink/p/?linkid=158752">https://go.microsoft.com/fwlink/p/?linkid=158752</a>.
 
 
 ## -see-also

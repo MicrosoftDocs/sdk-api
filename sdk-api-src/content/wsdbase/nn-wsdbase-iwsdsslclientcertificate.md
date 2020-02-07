@@ -92,7 +92,7 @@ Gets the mapped access token.
 
 
 
-An application can acquire this interface by calling the <a href="http://go.microsoft.com/fwlink/p/?linkid=22407">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>.  If the connection did not arrive over SSL, the call to <a href="http://go.microsoft.com/fwlink/p/?linkid=22407">QueryInterface</a> will return <b>E_NOINTERFACE</b>.
+An application can acquire this interface by calling the <a href="https://go.microsoft.com/fwlink/p/?linkid=22407">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>.  If the connection did not arrive over SSL, the call to <a href="https://go.microsoft.com/fwlink/p/?linkid=22407">QueryInterface</a> will return <b>E_NOINTERFACE</b>.
 
 On the device host, the generated code calls the application's service method. This service method has access to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a> interface through the <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_event">WSD_EVENT</a> structure. The <b>IWSDSSLClientCertificate</b> provides access to the client SSL certificate.
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DNS_NSEC_DATA</b> structure represents an NSEC resource record (RR) as specified in section 4 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
+The <b>DNS_NSEC_DATA</b> structure represents an NSEC resource record (RR) as specified in section 4 of <a href="https://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <b>DNS_NSEC_DATA</b> structure represents an NSEC resource record (RR) as sp
 
 ### -field pNextDomainName
 
-A pointer to a string that represents the authoritative owner name of the next domain in the canonical ordering of the zone as specified in section 4.1.1 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
+A pointer to a string that represents the authoritative owner name of the next domain in the canonical ordering of the zone as specified in section 4.1.1 of <a href="https://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
 
 
 ### -field wTypeBitMapsLength
@@ -84,7 +84,7 @@ Reserved. Do not use.
 
 ### -field TypeBitMaps
 
-A <b>BYTE</b> array that contains a bitmap that specifies which RR types are supported by the NSEC RR owner. Each bit in the array corresponds to a <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Record Type</a> as defined in section in section 4.1.2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
+A <b>BYTE</b> array that contains a bitmap that specifies which RR types are supported by the NSEC RR owner. Each bit in the array corresponds to a <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Record Type</a> as defined in section in section 4.1.2 of <a href="https://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
 
 
 ## -remarks

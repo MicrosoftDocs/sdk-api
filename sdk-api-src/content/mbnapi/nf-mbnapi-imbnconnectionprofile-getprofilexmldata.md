@@ -61,7 +61,7 @@ Gets the XML data of the current profile.
 
 ### -param profileData [out, retval]
 
-A pointer to a string containing the profile in XML format.  If the method returns S_OK, the calling application must free the allocated memory by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
+A pointer to a string containing the profile in XML format.  If the method returns S_OK, the calling application must free the allocated memory by calling <a href="https://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
 
 
 ## -returns

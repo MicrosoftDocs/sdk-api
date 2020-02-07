@@ -1,5 +1,6 @@
 ---
 UID: TP:iphlp
+title: IP Helper
 ms.assetid: 2d8e8199-22bc-381d-9913-ad803143e6e3
 ms.date: 01/11/2019
 ms.keywords: 

@@ -119,7 +119,7 @@ Specifies if a message is signed.
 
 
 
-An application can acquire this interface by calling the <a href="http://go.microsoft.com/fwlink/p/?linkid=22407">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>.
+An application can acquire this interface by calling the <a href="https://go.microsoft.com/fwlink/p/?linkid=22407">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>.
 
 <b>IWSDSignatureProperty</b> is useful to an application that wants to perform its own signature validation.  By passing a <b>NULL</b> to the <i>pConfigParam</i> of <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-wsdcreatediscoveryprovider2">WSDCreateDiscoveryProvider2</a>, the internal signature validation is disabled and the provider can perform its own validation by examining these properties.
 

@@ -87,7 +87,7 @@ This filtering type is not available.
       
 
 For more information, see 
-       <a href="Http://go.microsoft.com/fwlink/p/?linkid=94247">Device Interface Classes</a>.
+       <a href="https://go.microsoft.com/fwlink/p/?linkid=94247">Device Interface Classes</a>.
 
 
 ### -field FindExSearchMaxSearchOp

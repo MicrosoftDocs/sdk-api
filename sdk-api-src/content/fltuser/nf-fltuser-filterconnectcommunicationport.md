@@ -122,7 +122,7 @@ Pointer to a caller-allocated variable that receives a handle for the newly crea
 
 After it successfully calls <b>FilterConnectCommunicationPort</b>, the application can send messages to the minifilter through the connection port by calling <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtersendmessage">FilterSendMessage</a>. It can also receive and reply to messages from the minifilter by calling <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a> and <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>, respectively. The connection port handle returned in the <i>hPort</i> parameter is passed as the first parameter to <b>FilterSendMessage</b>, <b>FilterGetMessage</b>, and <b>FilterReplyMessage</b>. 
 
-Any handle that is obtained from <b>FilterConnectCommunicationPort</b> must eventually be released by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=139078">CloseHandle</a>. 
+Any handle that is obtained from <b>FilterConnectCommunicationPort</b> must eventually be released by calling <a href="https://go.microsoft.com/fwlink/p/?linkid=139078">CloseHandle</a>. 
 
 
 
@@ -132,7 +132,7 @@ Any handle that is obtained from <b>FilterConnectCommunicationPort</b> must even
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=139078">CloseHandle</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=139078">CloseHandle</a>
 
 
 
@@ -168,7 +168,7 @@ Any handle that is obtained from <b>FilterConnectCommunicationPort</b> must even
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=139079">SECURITY_ATTRIBUTES</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=139079">SECURITY_ATTRIBUTES</a>
  
 
  

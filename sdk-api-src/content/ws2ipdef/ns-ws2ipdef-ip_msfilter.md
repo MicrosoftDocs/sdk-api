@@ -95,7 +95,7 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-
 
 The <b>ip_msfilter</b> structure is used with IPv4 addresses. The <b>ip_msfilter</b> structure is passed as an argument  for the <b>SIO_GET_MULTICAST_FILTER</b> and <b>SIO_SET_MULTICAST_FILTER</b> IOCTLs. 
 
-The <b>ip_msfilter</b> structure and related structures used for IPv4 multicast programming are based on IETF recommendations in sections 4 and 8.1 of RFC 3768. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=87353">http://www.ietf.org/rfc/rfc3678.txt</a>.
+The <b>ip_msfilter</b> structure and related structures used for IPv4 multicast programming are based on IETF recommendations in sections 4 and 8.1 of RFC 3768. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=87353">http://www.ietf.org/rfc/rfc3678.txt</a>.
 
 On Windows Vista and later, a set of socket options are available for multicast programming that support IPv6 and IPv4 addresses. These socket options are IP agnostic and can be used on both IPv6 and IPv4. These IP agnostic options use the <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_req">GROUP_REQ</a> and the <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_source_req">GROUP_SOURCE_REQ</a> structures and the <b>SIOCSMSFILTER</b>and <b>SIOCGMSFILTER</b> IOCTLs. These are the preferred socket options and IOCTLs for multicast programming on Windows Vista and later.
 

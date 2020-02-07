@@ -342,7 +342,7 @@ The IP options in the IP header of the reply, in the form of an <a href="https:/
 The <b>ICMP_ECHO_REPLY32</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpparsereplies">IcmpParseReplies</a> function to return the response to an IPv4 echo request on a 64-bit platform. This structure is only defined if _WIN64 is defined.
 
 For IPv4, some of the possible values for the <b>Status</b> member are specified in 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84068">RFC 792</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84068">RFC 792</a>.
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getiperrorstring">GetIpErrorString</a> function can be used to retrieve the IP helper error string for the <b>IP_STATUS</b> error code in the <b>Status</b> member.
 

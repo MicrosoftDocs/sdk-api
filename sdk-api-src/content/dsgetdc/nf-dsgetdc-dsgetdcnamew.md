@@ -197,7 +197,7 @@ Requires that the returned domain controller be a global catalog server for the 
 <b>DsGetDcName</b> attempts to find a domain controller that is 
         a reliable time server. The Windows Time Service can be configured to declare one or more domain controllers 
         as a reliable time server. For more information, see the 
-        <a href="http://go.microsoft.com/fwlink/p/?linkid=139810">Windows Time Service</a> documentation. This 
+        <a href="https://go.microsoft.com/fwlink/p/?linkid=139810">Windows Time Service</a> documentation. This 
         flag is intended to be used only by the Windows Time Service.
 
 
@@ -414,7 +414,7 @@ Requires that the returned domain controller be a global catalog server for the 
 <b>DsGetDcName</b> attempts to find a domain controller that is 
         a reliable time server. The Windows Time Service can be configured to declare one or more domain controllers 
         as a reliable time server. For more information, see the 
-        <a href="http://go.microsoft.com/fwlink/p/?linkid=139810">Windows Time Service</a> documentation. This 
+        <a href="https://go.microsoft.com/fwlink/p/?linkid=139810">Windows Time Service</a> documentation. This 
         flag is intended to be used only by the Windows Time Service.
 
 
@@ -863,7 +863,7 @@ Run the following command to stop the trace session:
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=139810">Windows Time Service</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=139810">Windows Time Service</a>
  
 
  

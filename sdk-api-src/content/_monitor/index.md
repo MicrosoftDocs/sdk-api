@@ -1,5 +1,6 @@
 ---
 UID: TP:monitor
+title: Monitor Configuration
 ms.assetid: 8cab0d3b-2754-3016-85c3-9450f6d2181b
 ms.date: 01/11/2019
 ms.keywords: 

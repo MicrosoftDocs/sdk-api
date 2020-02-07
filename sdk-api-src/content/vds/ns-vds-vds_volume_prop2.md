@@ -124,7 +124,7 @@ When a volume is offline, the <b>VDS_VF_PERMANENTLY_DISMOUNTED</b> flag is set i
 
 For GPT and dynamic volumes, the unique identifier that the <b>pUniqueId</b> member points to is globally unique.
 
-For removable media drives, the volume exists and has its own unique identifier even if there is no media in the device. If a volume is formatted on removable media, that volume has its own unique identifier. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=147709">Supporting Mount Manager Requests in a Storage Class Driver</a>.
+For removable media drives, the volume exists and has its own unique identifier even if there is no media in the device. If a volume is formatted on removable media, that volume has its own unique identifier. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=147709">Supporting Mount Manager Requests in a Storage Class Driver</a>.
 
 The format of the unique identifier may vary among different types of devices and volumes. For basic volumes on MBR disks, the unique identifier is based on the disk signature and partition offset. Because the disk signature and partition offset are DWORD values, the unique identifier cannot be guaranteed to be globally unique across computers.
 
@@ -144,7 +144,7 @@ Note that a unique identifier is not the same as a volume GUID path. To find the
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=158259">MOUNTDEV_UNIQUE_ID</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=158259">MOUNTDEV_UNIQUE_ID</a>
 
 
 

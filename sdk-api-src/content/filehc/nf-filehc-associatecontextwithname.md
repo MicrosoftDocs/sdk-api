@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Inserts a name into the name cache to find a specified <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure.
+Inserts a name into the name cache to find a specified <a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure.
 
 
 ## -parameters
@@ -94,12 +94,12 @@ The self-relative security descriptor to be associated with the name. This descr
 
 ### -param pContext [in]
 
-A pointer to an <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure.
+A pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure.
 
 
 ### -param fKeepReference [in]
 
-Specifies whether the reference on the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure should be kept. If set to <b>TRUE</b>, the reference is kept.
+Specifies whether the reference on the <a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure should be kept. If set to <b>TRUE</b>, the reference is kept.
 
 
 ## -returns
@@ -125,7 +125,7 @@ If the name is already present in the cache, this call fails and <a href="https:
 
 
 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>
 
 
 

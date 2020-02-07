@@ -68,7 +68,7 @@ Handle to a DrawDib DC.
 
 ### -param lpbi
 
-Pointer to a <a href="http://go.microsoft.com/fwlink/p/?linkid=16913">BITMAPINFO</a> structure. This structure is made up of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure and a 256-entry table defining the colors used by the bitmap.
+Pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=16913">BITMAPINFO</a> structure. This structure is made up of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure and a 256-entry table defining the colors used by the bitmap.
           
 
 

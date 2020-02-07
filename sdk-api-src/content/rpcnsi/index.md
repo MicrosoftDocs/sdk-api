@@ -1,5 +1,6 @@
 ---
 UID: NA:rpcnsi
+title: Rpcnsi.h header
 ms.assetid: 52a96bd2-e6b0-3f1e-b3bb-f2fbad9f02cd
 ms.date: 01/11/2019
 ms.keywords: 

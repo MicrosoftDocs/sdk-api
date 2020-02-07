@@ -161,7 +161,7 @@ The policy URL prefix for an XML store is <b>msxml:</b>.  The general format for
 </ul>
 Note that in the fourth example, the URL uses encoding for the space (%20) and the period (%2e) characters. Also, the traditional relative path notation is not supported in URLs. If you specify msxml://abc.xml, the URL points to the file at the root of your drive.
 
-<div class="alert"><b>Note</b>  If an XML or SQL store is used over a network, the traffic is not automatically encrypted. IPsec can be used to encrypt the authorization information in transit. For an SQL store, it is also possible to set up the open database connectivity (ODBC) connection to use encryption. For information about how to set up the ODBC connection, see <a href="http://go.microsoft.com/fwlink/p/?linkid=120846">How to enable encryption after SQL Server has been installed (Network Utility)</a>.</div>
+<div class="alert"><b>Note</b>  If an XML or SQL store is used over a network, the traffic is not automatically encrypted. IPsec can be used to encrypt the authorization information in transit. For an SQL store, it is also possible to set up the open database connectivity (ODBC) connection to use encryption. For information about how to set up the ODBC connection, see <a href="https://go.microsoft.com/fwlink/p/?linkid=120846">How to enable encryption after SQL Server has been installed (Network Utility)</a>.</div>
 <div> </div>
 
 ### -param varReserved [in, optional]

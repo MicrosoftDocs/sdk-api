@@ -1,5 +1,6 @@
 ---
 UID: NA:icontact
+title: Icontact.h header
 ms.assetid: c62c671d-c967-3561-84d5-ca8e3fe1b2f6
 ms.date: 01/11/2019
 ms.keywords: 

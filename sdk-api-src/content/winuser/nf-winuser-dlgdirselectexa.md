@@ -115,7 +115,7 @@ If the string is as long or longer than the buffer, the buffer will contain the 
 <b>DlgDirSelectEx</b> sends <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-getcursel">LB_GETCURSEL</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-gettext">LB_GETTEXT</a> messages to the list box. The function does not allow more than one filename to be returned from a list box. The list box must not be a multiple-selection list box. If it is, this function does not return a zero value and 
 				<i>lpString</i> remains unchanged. 
 
-<b>Windows 95 or later</b>: <b>DlgDirSelectExW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="http://go.microsoft.com/fwlink/p/?linkid=198351">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
+<b>Windows 95 or later</b>: <b>DlgDirSelectExW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="https://go.microsoft.com/fwlink/p/?linkid=198351">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
 
 
 #### Examples

@@ -74,7 +74,7 @@ Minor version of the HTTP protocol.
 
 
 For more information about the HTTP protocol, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a>.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a>.
 
 The following macros define various versions of the HTTP protocol:"#define HTTP_VERSION_UNKNOWN    { 0, 0 }""#define HTTP_VERSION_0_9        { 0, 9 }""#define HTTP_VERSION_1_0        { 1, 0 }""#define HTTP_VERSION_1_1        { 1, 1 }"
 

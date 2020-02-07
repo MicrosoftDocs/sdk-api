@@ -1,5 +1,6 @@
 ---
 UID: NA:vbinterf
+title: Vbinterf.h header
 ms.assetid: 81393bd3-e71f-31d0-b3b7-458661ff2647
 ms.date: 01/11/2019
 ms.keywords: 

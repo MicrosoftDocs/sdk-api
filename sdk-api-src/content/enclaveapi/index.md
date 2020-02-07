@@ -1,5 +1,6 @@
 ---
 UID: NA:enclaveapi
+title: Enclaveapi.h header
 ms.assetid: 91a0db05-9113-3f1e-987e-2ce774ff0b6f
 ms.date: 01/11/2019
 ms.keywords: 

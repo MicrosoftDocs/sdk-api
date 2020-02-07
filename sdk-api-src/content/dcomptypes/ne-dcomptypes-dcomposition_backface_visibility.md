@@ -77,7 +77,7 @@ The back face visibility is the same as that of the target visual's parent visua
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=313910">DirectComposition Backface and D2D Batching</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=313910">DirectComposition Backface and D2D Batching</a>
 
 
 

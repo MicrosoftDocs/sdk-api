@@ -297,7 +297,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib
   TIME-WAIT, and the fictional state CLOSED.  The CLOSED state is fictional
   because it represents the state when there is no Transmission Control Block, and therefore,
   no connection.  The TCP protocol is described in RFC 793. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84069">http://www.ietf.org/rfc/rfc793.txt</a>. 
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84069">http://www.ietf.org/rfc/rfc793.txt</a>. 
 
 The <b>ucLocalAddr</b> and <b>ucRemoteAddr</b> members are stored in  a character array in network byte order. The <a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv6addresstostringa">RtlIpv6AddressToString</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv6addresstostringexw">RtlIpv6AddressToStringEx</a> functions may be used to convert the IPv6 address in the <b>ucLocalAddr</b> or <b>ucRemoteAddr</b> members to a string without loading the Windows Sockets DLL. 
 

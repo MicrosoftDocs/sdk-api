@@ -1,5 +1,6 @@
 ---
 UID: TP:wnet
+title: Windows Networking (WNet)
 ms.assetid: 65604794-a7a0-34a4-8073-0694baf923aa
 ms.date: 01/11/2019
 ms.keywords: 

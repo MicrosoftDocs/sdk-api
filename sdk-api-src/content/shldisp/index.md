@@ -1,5 +1,6 @@
 ---
 UID: NA:shldisp
+title: Shldisp.h header
 ms.assetid: 32cb97de-ca26-310d-b5f5-452475e87d24
 ms.date: 01/11/2019
 ms.keywords: 

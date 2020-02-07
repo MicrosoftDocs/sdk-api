@@ -102,7 +102,7 @@ Gets the lookup key for the <a href="https://docs.microsoft.com/windows/desktop/
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-gethyperlinknavigateuri">GetHyperlinkNavigateUri</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to the <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface  to which this visual object links.
+Gets a pointer to the <a href="https://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface  to which this visual object links.
             
 
 </td>

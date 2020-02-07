@@ -494,7 +494,7 @@ You should not  rely upon only the <b>VER_SUITE_SMALLBUSINESS</b> flag to determ
     Business Server was once installed on this system. If this installation is further upgraded to Windows Server, 
     Enterprise Edition, the <b>VER_SUITE_SMALLBUSINESS</b> flag will remain set.
 
-If compatibility mode is in effect, the <b>OSVERSIONINFOEX</b> structure contains information about the operating system that is selected for <a href="http://go.microsoft.com/fwlink/p/?linkid=115300">application compatibility</a>.
+If compatibility mode is in effect, the <b>OSVERSIONINFOEX</b> structure contains information about the operating system that is selected for <a href="https://go.microsoft.com/fwlink/p/?linkid=115300">application compatibility</a>.
 
 To determine whether a Win32-based application is running on WOW64, call the 
     <a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process">IsWow64Process</a> function. To determine whether the system is running a  64-bit version of Windows, call the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo">GetNativeSystemInfo</a> function.

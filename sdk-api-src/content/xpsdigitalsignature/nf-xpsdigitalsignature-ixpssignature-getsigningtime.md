@@ -105,7 +105,7 @@ The interface is not connected to the signature manager.
 
 
 
-The date-time string returned in <i>sigDateTimeString</i> is in a  W3C date-time format, which is described at <a href="http://go.microsoft.com/fwlink/p/?linkid=161711">http://www.w3.org/TR/NOTE-datetime</a>.
+The date-time string returned in <i>sigDateTimeString</i> is in a  W3C date-time format, which is described at <a href="https://go.microsoft.com/fwlink/p/?linkid=161711">http://www.w3.org/TR/NOTE-datetime</a>.
 
 To get the specific format of the date-time string that is returned in <i>sigDateTimeString</i>, call <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignature-getsigningtimeformat">GetSigningTimeFormat</a>.
 

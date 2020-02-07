@@ -148,7 +148,7 @@ Reserved; do not use.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=16915">BITMAPINFOHEADER</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=16915">BITMAPINFOHEADER</a>
 
 
 

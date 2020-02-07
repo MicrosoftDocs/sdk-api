@@ -1,5 +1,6 @@
 ---
 UID: TP:devlic
+title: Developer licensing
 ms.assetid: e6269e03-703c-34d5-9f95-03f3a0f3921e
 ms.date: 01/11/2019
 ms.keywords: 

@@ -1,5 +1,6 @@
 ---
 UID: NA:regbag
+title: Regbag.h header
 ms.assetid: 58224248-7176-32f2-ae6f-57666dad29aa
 ms.date: 01/11/2019
 ms.keywords: 

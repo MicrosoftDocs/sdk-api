@@ -1,5 +1,6 @@
 ---
 UID: NA:ipsectypes
+title: Ipsectypes.h header
 ms.assetid: c2ec380e-1e56-3855-91de-e4e8527ef5d7
 ms.date: 01/11/2019
 ms.keywords: 

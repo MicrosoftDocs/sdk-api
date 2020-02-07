@@ -80,7 +80,7 @@ Optional style flags for the <a href="https://docs.microsoft.com/windows/desktop
 </dl>
 </td>
 <td width="60%">
-Context-sensitive help will be available in the dialog box. To use this feature, an application must register the ACMHELPMSGCONTEXTMENU and ACMHELPMSGCONTEXTHELP constants, using the <a href="http://go.microsoft.com/fwlink/p/?linkid=16933">RegisterWindowMessage</a> function. When the user invokes help, the registered message will be posted to the owning window. The message will contain the <i>wParam</i> and <i>lParam</i> parameters from the original WM_CONTEXTMENU or WM_CONTEXTHELP message.
+Context-sensitive help will be available in the dialog box. To use this feature, an application must register the ACMHELPMSGCONTEXTMENU and ACMHELPMSGCONTEXTHELP constants, using the <a href="https://go.microsoft.com/fwlink/p/?linkid=16933">RegisterWindowMessage</a> function. When the user invokes help, the registered message will be posted to the owning window. The message will contain the <i>wParam</i> and <i>lParam</i> parameters from the original WM_CONTEXTMENU or WM_CONTEXTHELP message.
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ The buffer pointed to by <b>pwfltr</b> contains a valid <a href="https://docs.mi
 </dl>
 </td>
 <td width="60%">
-A help button will appear in the dialog box. To use a custom Help file, an application must register the ACMHELPMSGSTRING value with the <a href="http://go.microsoft.com/fwlink/p/?linkid=16933">RegisterWindowMessage</a> function. When the user presses the help button, the registered message is posted to the owner.
+A help button will appear in the dialog box. To use a custom Help file, an application must register the ACMHELPMSGSTRING value with the <a href="https://go.microsoft.com/fwlink/p/?linkid=16933">RegisterWindowMessage</a> function. When the user presses the help button, the registered message is posted to the owner.
 
 </td>
 </tr>
@@ -215,12 +215,12 @@ Handle to a data block that contains a dialog box template specified by the <b>p
 
 ### -field pszTemplateName
 
-Pointer to a null-terminated string that specifies the name of the resource file for the dialog box template that is to be substituted for the dialog box template in the ACM. An application can use the <a href="http://go.microsoft.com/fwlink/p/?linkid=16934">MAKEINTRESOURCE</a> macro for numbered dialog box resources. This member is used only if the <b>fdwStyle</b> member specifies the ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATE flag; otherwise, this member should be <b>NULL</b> on input.
+Pointer to a null-terminated string that specifies the name of the resource file for the dialog box template that is to be substituted for the dialog box template in the ACM. An application can use the <a href="https://go.microsoft.com/fwlink/p/?linkid=16934">MAKEINTRESOURCE</a> macro for numbered dialog box resources. This member is used only if the <b>fdwStyle</b> member specifies the ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATE flag; otherwise, this member should be <b>NULL</b> on input.
 
 
 ### -field lCustData
 
-Application-defined data that the ACM passes to the hook function identified by the <b>pfnHook</b> member. The system passes the data in the <i>lParam</i> parameter of the <a href="http://go.microsoft.com/fwlink/p/?linkid=16935">WM_INITDIALOG</a> message.
+Application-defined data that the ACM passes to the hook function identified by the <b>pfnHook</b> member. The system passes the data in the <i>lParam</i> parameter of the <a href="https://go.microsoft.com/fwlink/p/?linkid=16935">WM_INITDIALOG</a> message.
 
 
 ### -field pfnHook
@@ -249,7 +249,7 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=16934">MAKEINTRESOURCE</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=16934">MAKEINTRESOURCE</a>
 
 
 
@@ -257,7 +257,7 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=16933">RegisterWindowMessage</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=16933">RegisterWindowMessage</a>
 
 
 
@@ -265,7 +265,7 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=16935">WM_INITDIALOG</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=16935">WM_INITDIALOG</a>
 
 
 

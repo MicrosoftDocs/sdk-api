@@ -96,7 +96,7 @@ To get a pointer to this interface, call either the <a href="https://docs.micros
 
 Package relationships serve as an entry point  to the package by  links from the package to target  resources. The target of a package relationship is often an important part described in the <i>ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)</i> or by the package format designer.
 
-For example, a package relationship can provide access to the Core Properties part that stores package metadata, or to a part containing format-specific data, where the part and data are described by the package designer.  The Main Document part of the word processing OpenXML format is one such format-specific part. For more information about this part, see Part 1: Fundamentals in <a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a> (http://go.microsoft.com/fwlink/p/?linkid=123375).
+For example, a package relationship can provide access to the Core Properties part that stores package metadata, or to a part containing format-specific data, where the part and data are described by the package designer.  The Main Document part of the word processing OpenXML format is one such format-specific part. For more information about this part, see Part 1: Fundamentals in <a href="https://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a> (https://go.microsoft.com/fwlink/p/?linkid=123375).
 
 The definitive way to find a part of interest is by using a relationship type. Several steps are required; for details, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/parts-overview">Parts Overview</a> and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/finding-the-core-properties-part">Finding the Core Properties Part</a> how-to task.
 
@@ -121,7 +121,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
 
 
 

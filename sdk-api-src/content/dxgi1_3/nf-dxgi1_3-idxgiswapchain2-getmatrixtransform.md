@@ -85,7 +85,7 @@ The transform matrix currently used for swap chain scaling and translation.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=311761">DirectX foreground swap chains sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=311761">DirectX foreground swap chains sample</a>
 
 
 

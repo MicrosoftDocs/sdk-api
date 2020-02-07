@@ -65,7 +65,7 @@ Unicode string containing the IPv4 address of the DHCP server.
 ### -param OptionID [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that contains the unique option ID number (also called an "option code") of the new option. Many of these option ID numbers are defined; a complete list of standard DHCP and BOOTP option codes can be found in  <a href="http://go.microsoft.com/fwlink/p/?linkid=84033">DHCP Options and BOOTP Vendor Extensions</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that contains the unique option ID number (also called an "option code") of the new option. Many of these option ID numbers are defined; a complete list of standard DHCP and BOOTP option codes can be found in  <a href="https://go.microsoft.com/fwlink/p/?linkid=84033">DHCP Options and BOOTP Vendor Extensions</a>.
 
 
 ### -param OptionInfo [in]

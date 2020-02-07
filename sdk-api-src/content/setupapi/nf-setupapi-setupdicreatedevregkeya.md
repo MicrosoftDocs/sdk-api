@@ -125,7 +125,7 @@ The name of an INF <i>DDInstall</i> section in the INF file specified by <i>InfH
 
 
 
-If <b>SetupDiCreateDevRegKey</b> succeeds, the function returns a handle to the specified registry key in which device-specific configuration data can be stored and retrieved. If <b>SetupDiCreateDevRegKey</b> fails, the function returns INVALID_HANDLE_VALUE. Call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> to get extended error information.
+If <b>SetupDiCreateDevRegKey</b> succeeds, the function returns a handle to the specified registry key in which device-specific configuration data can be stored and retrieved. If <b>SetupDiCreateDevRegKey</b> fails, the function returns INVALID_HANDLE_VALUE. Call <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> to get extended error information.
 
 
 
@@ -136,7 +136,7 @@ If <b>SetupDiCreateDevRegKey</b> succeeds, the function returns a handle to the 
 
 The caller of <b>SetupDiCreateDevRegKey</b> must be a member of the Administrators group.
 
-Close the handle returned from <b>SetupDiCreateDevRegKey</b> by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=194543">RegCloseKey</a>.
+Close the handle returned from <b>SetupDiCreateDevRegKey</b> by calling <a href="https://go.microsoft.com/fwlink/p/?linkid=194543">RegCloseKey</a>.
 
 If the specified key already exists, <b>SetupDiCreateDevRegKey</b> returns a handle to that key. Otherwise, <b>SetupDiCreateDevRegKey</b> creates the specified key and returns a handle to the new key. For Windows Server 2003 and later versions of Windows, the key handle has KEY_READ and KEY_WRITE access only. For previous Windows versions, this handle has KEY_ALL_ACCESS access. 
 
@@ -144,7 +144,7 @@ The specified device instance must be registered before <b>SetupDiCreateDevRegKe
 
 For installations that use layout files (specified by the <b>LayoutFile</b> entry in an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-version-section">INF Version section</a>), the layout file must be opened by a call to <b>SetupOpenAppendInfFile</b> (described in the Microsoft Windows SDK documentation) before <b>SetupDiCreateDevRegKey</b> is called.
 
-If the supplied device information set contains device information elements for a remote system, and <i>InfHandle</i> and <i>InfSectionName</i> are also specified, the create request will fail, and a subsequent call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> will return ERROR_REMOTE_REQUEST_UNSUPPORTED.
+If the supplied device information set contains device information elements for a remote system, and <i>InfHandle</i> and <i>InfSectionName</i> are also specified, the create request will fail, and a subsequent call to <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> will return ERROR_REMOTE_REQUEST_UNSUPPORTED.
 
 
 

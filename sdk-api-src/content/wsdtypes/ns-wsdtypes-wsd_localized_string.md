@@ -59,7 +59,7 @@ Represents a single localized string.
 
 ### -field lang
 
-The standard language code used for localization. Valid language codes are specified in <a href="Http://go.microsoft.com/fwlink/p/?linkid=84408">RFC 1766</a>.
+The standard language code used for localization. Valid language codes are specified in <a href="https://go.microsoft.com/fwlink/p/?linkid=84408">RFC 1766</a>.
 
 
 ### -field String
@@ -71,7 +71,7 @@ The string data in the localized language.
 
 
 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84408">RFC 1766</a> extends <a href="Http://go.microsoft.com/fwlink/p/?linkid=84445">ISO-639</a>. Dialect extensions to the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84445">ISO-639</a> codes are used for the <i>lang</i> member. For example, "en-US" is used to indicate a string localized for the USA/English dialect.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=84408">RFC 1766</a> extends <a href="https://go.microsoft.com/fwlink/p/?linkid=84445">ISO-639</a>. Dialect extensions to the <a href="https://go.microsoft.com/fwlink/p/?linkid=84445">ISO-639</a> codes are used for the <i>lang</i> member. For example, "en-US" is used to indicate a string localized for the USA/English dialect.
 
 
 

@@ -1,5 +1,6 @@
 ---
 UID: NA:dxgi1_5
+title: Dxgi1_5.h header
 ms.assetid: 73aabbbc-b761-3cc5-b155-c286436467a6
 ms.date: 01/11/2019
 ms.keywords: 

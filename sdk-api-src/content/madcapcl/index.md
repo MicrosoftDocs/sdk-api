@@ -1,5 +1,6 @@
 ---
 UID: NA:madcapcl
+title: Madcapcl.h header
 ms.assetid: 598b0a32-58b6-3672-a7cc-4fdd66b72aee
 ms.date: 01/11/2019
 ms.keywords: 

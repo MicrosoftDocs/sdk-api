@@ -72,11 +72,11 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=104367">RFC 3280</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=104367">RFC 3280</a>
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=104368">RFC 3739</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=104368">RFC 3739</a>
  
 
  

@@ -86,7 +86,7 @@ Pointer to an application-defined value.
 
 
 
-The function accepts parameters similar to <a href="http://go.microsoft.com/fwlink/p/?linkid=196547">_write</a>.
+The function accepts parameters similar to <a href="https://go.microsoft.com/fwlink/p/?linkid=196547">_write</a>.
 
 
 #### Examples

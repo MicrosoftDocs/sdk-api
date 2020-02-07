@@ -214,7 +214,7 @@ The value of the <i>LmOldPresent</i> parameter is not correct for the contents o
 
 The value specified by <i>LmNewOwfPassword</i> must always contain a valid OWF. If the new password is greater than 128-bits long, and therefore cannot be represented by a LAN Manager (LM) password, then <i>LmNewOwfPassword</i> should be the LM OWF of a <b>NULL</b> password.
 
-This function allows users to change their own passwords only if they have the access: <a href="http://go.microsoft.com/fwlink/p/?linkid=114813">USER_CHANGE_PASSWORD</a>.
+This function allows users to change their own passwords only if they have the access: <a href="https://go.microsoft.com/fwlink/p/?linkid=114813">USER_CHANGE_PASSWORD</a>.
 
 This function fails with <b>STATUS_PASSWORD_RESTRICTION</b> if the attempt to change the password conflicts with an administrative password restriction.
 

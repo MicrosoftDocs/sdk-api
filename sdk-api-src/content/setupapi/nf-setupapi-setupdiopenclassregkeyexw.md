@@ -113,7 +113,7 @@ Open an interface class key. If <i>ClassGuid</i> is <b>NULL</b>, open the root k
 
 <b>SetupDiOpenClassRegKeyEx</b> returns a handle to an opened registry key where information about this setup class can be stored/retrieved. 
 
-If the function fails, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+If the function fails, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
 
 
 
@@ -126,7 +126,7 @@ Depending on the value that is passed in the <i>samDesired</i> parameter, it mig
 
 <b>SetupDiOpenClassRegKeyEx</b> does not create a registry key if it does not already exist.
 
-Callers of this function must close the handle returned from this function by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=194543">RegCloseKey</a>.
+Callers of this function must close the handle returned from this function by calling <a href="https://go.microsoft.com/fwlink/p/?linkid=194543">RegCloseKey</a>.
 
 
 

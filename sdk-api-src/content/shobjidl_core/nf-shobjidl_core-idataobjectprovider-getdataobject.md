@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> representation of the current <a href="http://go.microsoft.com/fwlink/p/?linkid=267543">DataPackage</a> object.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> representation of the current <a href="https://go.microsoft.com/fwlink/p/?linkid=267543">DataPackage</a> object.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>**</b>
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface pointer that, when this method returns successfully, points to the <b>IDataObject</b> representation of the <a href="http://go.microsoft.com/fwlink/p/?linkid=267543">DataPackage</a> object.
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface pointer that, when this method returns successfully, points to the <b>IDataObject</b> representation of the <a href="https://go.microsoft.com/fwlink/p/?linkid=267543">DataPackage</a> object.
 
 
 ## -returns

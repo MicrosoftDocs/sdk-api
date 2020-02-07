@@ -123,7 +123,7 @@ This method allocates the memory used by the string that is returned in <i>langu
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=161490">The Internet Engineering Task Force (IETF) RFC 3066</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=161490">The Internet Engineering Task Force (IETF) RFC 3066</a>
 
 
 

@@ -133,7 +133,7 @@ Certain messages with a value less than <b>WM_USER</b> are required to pass thro
 
 Processes at or below <b>SECURITY_MANDATORY_LOW_RID</b> are not allowed to change the filter. If those processes call this function, it will fail.
 
-For more information on integrity levels, see <a href="http://go.microsoft.com/fwlink/p/?linkid=204861">Understanding and Working in Protected Mode Internet Explorer</a>.
+For more information on integrity levels, see <a href="https://go.microsoft.com/fwlink/p/?linkid=204861">Understanding and Working in Protected Mode Internet Explorer</a>.
 
 
 

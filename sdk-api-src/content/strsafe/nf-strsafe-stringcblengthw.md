@@ -55,7 +55,7 @@ Determines whether a  string exceeds the specified length, in bytes.
 
 <b>StringCbLength</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192495">strlen, wcslen, _tcslen</a></li>
+<li><a href="https://go.microsoft.com/fwlink/p/?linkid=192495">strlen, wcslen, _tcslen</a></li>
 </ul>
 
 ## -parameters

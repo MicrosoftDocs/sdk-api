@@ -64,12 +64,12 @@ The name of the file to be inserted.
 
 ### -param pContext [in]
 
-A pointer to the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure that is associated with the file being inserted.
+A pointer to the <a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure that is associated with the file being inserted.
 
 
 ### -param fKeepReference [in]
 
-Specifies whether the reference to the file is to be kept. If <b>TRUE</b>, the user must make a call to <a href="Http://go.microsoft.com/fwlink/p/?linkid=85303">ReleaseContext</a> for the inserted <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>.
+Specifies whether the reference to the file is to be kept. If <b>TRUE</b>, the user must make a call to <a href="https://go.microsoft.com/fwlink/p/?linkid=85303">ReleaseContext</a> for the inserted <a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>.
 
 
 ## -returns
@@ -86,11 +86,11 @@ Returns <b>TRUE</b> if the file is inserted; otherwise, it returns <b>FALSE</b>.
 
 
 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>
 
 
 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=85303">ReleaseContext</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=85303">ReleaseContext</a>
  
 
  

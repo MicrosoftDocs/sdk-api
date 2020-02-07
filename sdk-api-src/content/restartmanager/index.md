@@ -1,5 +1,6 @@
 ---
 UID: NA:restartmanager
+title: Restartmanager.h header
 ms.assetid: 21f1e14b-0313-3382-ac2f-72157ee70414
 ms.date: 01/11/2019
 ms.keywords: 

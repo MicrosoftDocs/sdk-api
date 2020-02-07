@@ -1,5 +1,6 @@
 ---
 UID: NA:inspectable
+title: Inspectable.h header
 ms.assetid: fc28571c-8620-355b-b58f-bc64d526561a
 ms.date: 01/11/2019
 ms.keywords: 

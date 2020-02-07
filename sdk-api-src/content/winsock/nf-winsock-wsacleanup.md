@@ -150,7 +150,7 @@ In  Windows Sockets 1.1, attempting to call
 
 The 
 <b>WSACleanup</b> function typically leads to protocol-specific helper DLLs being unloaded. As a result, the 
-<b>WSACleanup</b> function should not be called from the DllMain function in a application DLL. This can potentially cause deadlocks. For more information, please see the <a href="http://go.microsoft.com/fwlink/p/?linkid=109533">DLL Main Function</a>.
+<b>WSACleanup</b> function should not be called from the DllMain function in a application DLL. This can potentially cause deadlocks. For more information, please see the <a href="https://go.microsoft.com/fwlink/p/?linkid=109533">DLL Main Function</a>.
 
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 

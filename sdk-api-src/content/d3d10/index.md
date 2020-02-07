@@ -1,5 +1,6 @@
 ---
 UID: NA:d3d10
+title: D3D10.h header
 ms.assetid: 0e839bab-bc29-3652-bfbd-9c066b00ce86
 ms.date: 01/11/2019
 ms.keywords: 

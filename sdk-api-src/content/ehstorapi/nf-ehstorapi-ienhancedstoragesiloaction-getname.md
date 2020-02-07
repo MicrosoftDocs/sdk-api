@@ -107,7 +107,7 @@ The <i>ppwszActionName</i> parameter is <b>NULL</b>.
 
 A name string is short, consisting of one or two words, and is suitable for display in a UI element such as a menu item or button label.
 
-When the caller no longer requires access to the string, this buffer must be freed by passing this pointer to <a href="http://go.microsoft.com/fwlink/p/?linkid=134839">CoTaskMemFree</a>.
+When the caller no longer requires access to the string, this buffer must be freed by passing this pointer to <a href="https://go.microsoft.com/fwlink/p/?linkid=134839">CoTaskMemFree</a>.
 
 
 

@@ -80,7 +80,7 @@ On error, a new object is not returned.
 
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-On error, the COM function <a href="http://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a> can be called to obtain more error information.
+On error, the COM function <a href="https://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a> can be called to obtain more error information.
 
 COM-specific error codes may also be returned if network problems cause you to lose the remote connection to Windows Management.
 

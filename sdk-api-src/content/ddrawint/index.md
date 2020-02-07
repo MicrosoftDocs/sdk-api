@@ -1,5 +1,6 @@
 ---
 UID: NA:ddrawint
+title: Ddrawint.h header
 ms.assetid: 954b5e65-fa11-3768-9767-46435bb4ee33
 ms.date: 01/11/2019
 ms.keywords: 

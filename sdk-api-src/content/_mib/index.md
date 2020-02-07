@@ -1,5 +1,6 @@
 ---
 UID: TP:mib
+title: Management Information Base
 ms.assetid: ab00077e-575e-37b9-8750-c458f936d496
 ms.date: 01/11/2019
 ms.keywords: 

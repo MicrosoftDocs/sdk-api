@@ -1,5 +1,6 @@
 ---
 UID: NA:tlogstg
+title: Tlogstg.h header
 ms.assetid: e644ecc0-1533-319e-84f8-1a82883a3b4c
 ms.date: 01/11/2019
 ms.keywords: 

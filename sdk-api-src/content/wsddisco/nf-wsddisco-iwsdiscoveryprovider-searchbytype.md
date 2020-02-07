@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes a search for <a href="http://go.microsoft.com/fwlink/p/?linkid=87841">WS-Discovery</a> hosts by device type.
+Initializes a search for <a href="https://go.microsoft.com/fwlink/p/?linkid=87841">WS-Discovery</a> hosts by device type.
 
 
 ## -parameters

@@ -1,5 +1,6 @@
 ---
 UID: TP:mmc
+title: Microsoft Management Console 2.0
 ms.assetid: de56c74d-5f5f-3cef-a733-c5b42e122a67
 ms.date: 01/11/2019
 ms.keywords: 

@@ -82,7 +82,7 @@ Length of the option value pointed to by the <i>pBuffer</i> parameter.
 
 Address of the buffer that contains the DHCPv6 option value. The buffer must contain the encoded option code and option size.
 
-For more information about encoding the option code and option size, developers should refer to the Dynamic Host Configuration Protocol for IPv6 <a href="Http://go.microsoft.com/fwlink/p/?linkid=132626">RFC 3315</a> maintained by The Internet Engineering Task Force (IETF).
+For more information about encoding the option code and option size, developers should refer to the Dynamic Host Configuration Protocol for IPv6 <a href="https://go.microsoft.com/fwlink/p/?linkid=132626">RFC 3315</a> maintained by The Internet Engineering Task Force (IETF).
 
 
 ## -returns

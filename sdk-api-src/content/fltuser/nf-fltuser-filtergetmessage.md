@@ -108,7 +108,7 @@ A minifilter or instance sends a message to a user-mode application by calling <
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=139082">CreateEvent</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=139082">CreateEvent</a>
 
 
 
@@ -132,11 +132,11 @@ A minifilter or instance sends a message to a user-mode application by calling <
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=139083">GetOverlappedResult</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=139083">GetOverlappedResult</a>
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=139084">HasOverlappedIoCompleted</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=139084">HasOverlappedIoCompleted</a>
  
 
  

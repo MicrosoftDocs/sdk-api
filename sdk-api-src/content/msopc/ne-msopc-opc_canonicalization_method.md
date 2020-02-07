@@ -76,8 +76,8 @@ The C14N canonicalization method that preserves comments is applied.
 
 
 
-For more information about XML canonicalization, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=125240">W3C Recommendation, Canonical XML
-Version 1.0</a> (http://go.microsoft.com/fwlink/p/?linkid=125240).
+For more information about XML canonicalization, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=125240">W3C Recommendation, Canonical XML
+Version 1.0</a> (https://go.microsoft.com/fwlink/p/?linkid=125240).
 
 For more information about canonicalization and packages, see the <i>ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)</i>.
 
@@ -89,7 +89,7 @@ For more information about canonicalization and packages, see the <i>ECMA-376 Op
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML standard</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML standard</a>
 
 
 
@@ -153,7 +153,7 @@ For more information about canonicalization and packages, see the <i>ECMA-376 Op
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=125240">W3C Recommendation, Canonical XML
+<a href="https://go.microsoft.com/fwlink/p/?linkid=125240">W3C Recommendation, Canonical XML
 Version 1.0</a>
  
 

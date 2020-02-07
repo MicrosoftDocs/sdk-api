@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WEB_SOCKET_CLOSE_STATUS</b> enumeration specifies the WebSocket close status as defined by <a href="http://go.microsoft.com/fwlink/p/?linkid=240293">WSPROTO</a>.
+The <b>WEB_SOCKET_CLOSE_STATUS</b> enumeration specifies the WebSocket close status as defined by <a href="https://go.microsoft.com/fwlink/p/?linkid=240293">WSPROTO</a>.
 
 
 ## -enum-fields

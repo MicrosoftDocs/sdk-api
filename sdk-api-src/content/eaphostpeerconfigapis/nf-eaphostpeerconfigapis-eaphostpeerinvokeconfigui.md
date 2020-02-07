@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Starts the configuration user interface of the specified EAP method.
 
-<b>EapHostPeerInvokeConfigUI</b> must be called on threads that have COM initialized for <a href="Http://go.microsoft.com/fwlink/p/?linkid=83881">Single Threaded Apartment</a> (STA). This can be achieved by calling COM API <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>; when the supplicant has finished  with the STA thread <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> must be called before exiting.
+<b>EapHostPeerInvokeConfigUI</b> must be called on threads that have COM initialized for <a href="https://go.microsoft.com/fwlink/p/?linkid=83881">Single Threaded Apartment</a> (STA). This can be achieved by calling COM API <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>; when the supplicant has finished  with the STA thread <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> must be called before exiting.
 
 
 ## -parameters

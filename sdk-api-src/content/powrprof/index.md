@@ -1,5 +1,6 @@
 ---
 UID: NA:powrprof
+title: Powrprof.h header
 ms.assetid: 3c12841e-131b-3ade-ba75-d4846154dc3f
 ms.date: 01/11/2019
 ms.keywords: 

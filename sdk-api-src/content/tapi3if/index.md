@@ -1,5 +1,6 @@
 ---
 UID: NA:tapi3if
+title: Tapi3If.h header
 ms.assetid: fbaa400a-936d-3809-a254-1bf196f12294
 ms.date: 01/11/2019
 ms.keywords: 

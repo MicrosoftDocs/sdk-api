@@ -113,7 +113,7 @@ To get a pointer to this interface, call <a href="https://docs.microsoft.com/win
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=241429">Media Engine Sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=241429">Media Engine Sample</a>
 
 
 

@@ -1,5 +1,6 @@
 ---
 UID: NA:gdiplusenums
+title: Gdiplusenums.h header
 ms.assetid: 048bda3e-ab55-327b-bcb3-e711a59137e1
 ms.date: 01/11/2019
 ms.keywords: 

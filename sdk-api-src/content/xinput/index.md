@@ -1,5 +1,6 @@
 ---
 UID: NA:xinput
+title: Xinput.h header
 ms.assetid: f35006d7-b766-3947-88e4-f589a0517f91
 ms.date: 01/11/2019
 ms.keywords: 

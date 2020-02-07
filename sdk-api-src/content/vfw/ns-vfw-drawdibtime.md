@@ -105,7 +105,7 @@ Time to transfer bitmaps by using the <a href="https://docs.microsoft.com/window
 
 ### -field timeSetDIBits
 
-Time to transfer bitmaps by using the <a href="http://go.microsoft.com/fwlink/p/?linkid=17003">SetDIBits</a> function.
+Time to transfer bitmaps by using the <a href="https://go.microsoft.com/fwlink/p/?linkid=17003">SetDIBits</a> function.
           
 
 
@@ -126,7 +126,7 @@ Time to transfer bitmaps by using the <a href="http://go.microsoft.com/fwlink/p/
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=17003">SetDIBits</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=17003">SetDIBits</a>
  
 
  

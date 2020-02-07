@@ -118,7 +118,7 @@ Advances the position of the enumerator to the next file.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=236966">Read app package manifest info sample (DescribeAppx)</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=236966">Read app package manifest info sample (DescribeAppx)</a>
 
 
 

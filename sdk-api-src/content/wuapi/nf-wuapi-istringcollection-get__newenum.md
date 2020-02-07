@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="http://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a> interface that can be used to enumerate the collection.
+Gets an <a href="https://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a> interface that can be used to enumerate the collection.
 
 This property is read-only.
 

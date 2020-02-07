@@ -201,9 +201,9 @@ This member can be one or more of the following values.
 If this attribute is set, the partition is required by  a computer to function properly.
 
 For example, this attribute must be set for OEM partitions. Note that if this attribute is set, you can use 
-         the <a href="Http://go.microsoft.com/fwlink/p/?linkid=103544">DiskPart.exe</a> utility to perform 
+         the <a href="https://go.microsoft.com/fwlink/p/?linkid=103544">DiskPart.exe</a> utility to perform 
          partition operations such as deleting the partition. However, because the partition is not a volume, you 
-         cannot use the <a href="Http://go.microsoft.com/fwlink/p/?linkid=103544">DiskPart.exe</a> utility to 
+         cannot use the <a href="https://go.microsoft.com/fwlink/p/?linkid=103544">DiskPart.exe</a> utility to 
          perform volume operations on the partition.
 
 This attribute can be set for basic and dynamic disks. If it is set for a partition on a basic disk and the 

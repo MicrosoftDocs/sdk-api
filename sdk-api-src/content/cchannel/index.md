@@ -1,5 +1,6 @@
 ---
 UID: NA:cchannel
+title: Cchannel.h header
 ms.assetid: d7069716-bbfa-36d2-8aaf-c3c1287df62e
 ms.date: 01/11/2019
 ms.keywords: 

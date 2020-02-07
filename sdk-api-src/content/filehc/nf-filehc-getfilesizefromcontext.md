@@ -59,7 +59,7 @@ Reports the file size cached with the handle.
 
 ### -param pContext [in]
 
-A pointer to the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure that is associated with the file.
+A pointer to the <a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure that is associated with the file.
 
 
 ### -param pcbFileSizeHigh [out]
@@ -81,7 +81,7 @@ Returns the size of the file in bytes.
 
 
 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>
  
 
  

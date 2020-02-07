@@ -157,7 +157,7 @@ The position of group policy profiles cannot be changed.
 
 By default, only a user logged on as a member of the Administrators group can change the position of an all-user profile. Call <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetsecuritysettings">WlanGetSecuritySettings</a> to determine the actual user rights required to change the position of an all-user profile.
 
-To set the profile position at the command line, use the <b>netsh wlan set profileorder</b> command. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=120964">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
+To set the profile position at the command line, use the <b>netsh wlan set profileorder</b> command. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=120964">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>Ad hoc profiles appear after the infrastructure profiles in the profile list. If you try to position an ad hoc profile before an infrastructure profile using <b>WlanSetProfilePosition</b>, the   <b>WlanSetProfilePosition</b> call will succeed but the Wireless Zero Configuration service will reorder the profile list such that the ad hoc profile is positioned after all infrastructure network profiles.
 

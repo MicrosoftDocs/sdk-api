@@ -76,7 +76,7 @@ The starting point for the file pointer move.
 
 
 
-The function accepts parameters similar to <a href="http://go.microsoft.com/fwlink/p/?linkid=196546">_lseek</a>.
+The function accepts parameters similar to <a href="https://go.microsoft.com/fwlink/p/?linkid=196546">_lseek</a>.
 
 
 #### Examples

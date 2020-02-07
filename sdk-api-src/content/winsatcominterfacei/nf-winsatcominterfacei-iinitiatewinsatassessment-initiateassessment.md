@@ -61,7 +61,7 @@ Initiates an ad hoc assessment.
 
 ### -param cmdLine [in]
 
-Command-line arguments to pass to WinSAT. The command line cannot be empty. For command line usage, see <a href="http://go.microsoft.com/fwlink/p/?linkid=74613">WinSAT Command Reference</a> on Microsoft TechNet.
+Command-line arguments to pass to WinSAT. The command line cannot be empty. For command line usage, see <a href="https://go.microsoft.com/fwlink/p/?linkid=74613">WinSAT Command Reference</a> on Microsoft TechNet.
 
 
 ### -param pCallbacks [in, optional]

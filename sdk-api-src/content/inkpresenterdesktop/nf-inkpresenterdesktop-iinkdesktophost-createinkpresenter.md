@@ -85,7 +85,7 @@ If successful, returns the requested interface pointer. Otherwise, returns <b>NU
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620314">Complex ink sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=620314">Complex ink sample</a>
 
 
 
@@ -93,7 +93,7 @@ If successful, returns the requested interface pointer. Otherwise, returns <b>NU
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
 
 
 
@@ -105,7 +105,7 @@ If successful, returns the requested interface pointer. Otherwise, returns <b>NU
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620312">Simple ink sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=620312">Simple ink sample</a>
  
 
  

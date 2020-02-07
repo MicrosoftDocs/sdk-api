@@ -88,7 +88,7 @@ Returns S_OK if successful; otherwise, an error code.
 
 
 This method is not supported by DXGI 1.0, which shipped in Windows Vista and Windows Server 2008. DXGI 1.1 support is required, which is available on 
-      Windows 7, Windows Server 2008 R2, and as an update to Windows Vista with Service Pack 2 (SP2) (<a href="http://go.microsoft.com/fwlink/p/?linkid=160189">KB 971644</a>) and Windows Server 2008 (<a href="http://go.microsoft.com/fwlink/p/?linkid=183689">KB 971512</a>).
+      Windows 7, Windows Server 2008 R2, and as an update to Windows Vista with Service Pack 2 (SP2) (<a href="https://go.microsoft.com/fwlink/p/?linkid=160189">KB 971644</a>) and Windows Server 2008 (<a href="https://go.microsoft.com/fwlink/p/?linkid=183689">KB 971512</a>).
 
 After you use the <b>GetDC</b> method to retrieve a DC, you can render to the DXGI surface by using GDI.  
       The <b>GetDC</b> method readies the surface for GDI rendering and allows inter-operation between DXGI and GDI technologies.  

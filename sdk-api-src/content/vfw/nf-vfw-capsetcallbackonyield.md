@@ -78,7 +78,7 @@ Applications can optionally set a yield callback function. The yield callback fu
 
 If the yield callback function is used, it must be installed before starting the capture session and it must remain enabled for the duration of the session. It can be disabled after streaming capture ends.
 
-Applications typically perform some type of message processing in the callback function consisting of a <a href="http://go.microsoft.com/fwlink/p/?linkid=16992">PeekMessage</a>, <a href="http://go.microsoft.com/fwlink/p/?linkid=16993">TranslateMessage</a>, <a href="http://go.microsoft.com/fwlink/p/?linkid=16994">DispatchMessage</a> loop, as in the message loop of a <a href="http://go.microsoft.com/fwlink/p/?linkid=16995">WinMain</a> function. The yield callback function must also filter and remove messages that can cause reentrancy problems.
+Applications typically perform some type of message processing in the callback function consisting of a <a href="https://go.microsoft.com/fwlink/p/?linkid=16992">PeekMessage</a>, <a href="https://go.microsoft.com/fwlink/p/?linkid=16993">TranslateMessage</a>, <a href="https://go.microsoft.com/fwlink/p/?linkid=16994">DispatchMessage</a> loop, as in the message loop of a <a href="https://go.microsoft.com/fwlink/p/?linkid=16995">WinMain</a> function. The yield callback function must also filter and remove messages that can cause reentrancy problems.
 
 An application typically returns <b>TRUE</b> in the yield procedure to continue streaming capture. If a yield callback function returns <b>FALSE</b>, the capture window stops the capture process.
 

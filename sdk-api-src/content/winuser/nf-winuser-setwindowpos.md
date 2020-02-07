@@ -363,7 +363,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-As part of the Vista re-architecture, all services were moved off the interactive desktop into Session 0. hwnd and window manager operations are only effective inside a session and cross-session attempts to manipulate the hwnd will fail. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=204865">The Windows Vista Developer Story: Application Compatibility Cookbook</a>.
+As part of the Vista re-architecture, all services were moved off the interactive desktop into Session 0. hwnd and window manager operations are only effective inside a session and cross-session attempts to manipulate the hwnd will fail. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=204865">The Windows Vista Developer Story: Application Compatibility Cookbook</a>.
 
 If you have changed certain window data using <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a>, you must call <b>SetWindowPos</b> for the changes to take effect. Use the following combination for <i>uFlags</i>: <code>SWP_NOMOVE | SWP_NOSIZE | SWP_NOZORDER | SWP_FRAMECHANGED</code>. 
 

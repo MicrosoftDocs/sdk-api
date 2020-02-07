@@ -54,7 +54,7 @@ ms.custom: 19H1
 Gets one line of text from stdin, up to and including the newline character ('\n'). The line of text is copied to the destination buffer, and the newline character is replaced with a null character. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 <div class="alert"><b>Note</b>  This function can only be used inline.</div><div> </div><b>StringCchGets</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192504">gets, _getws, _getts</a></li>
+<li><a href="https://go.microsoft.com/fwlink/p/?linkid=192504">gets, _getws, _getts</a></li>
 </ul><b>StringCchGets</b> is not a replacement for <b>fgets</b>, which does not replace newline characters with a terminating null character.
 
 

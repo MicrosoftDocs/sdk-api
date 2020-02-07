@@ -83,7 +83,7 @@ Gets a string that represents the current object.
 
 
 
-<div class="alert"><b>Important</b>  Managed types should not implement the <b>IStringable</b> interface. For more info, see <a href="http://go.microsoft.com/fwlink/p/?LinkID=85776">Object.ToString Method</a>.</div>
+<div class="alert"><b>Important</b>  Managed types should not implement the <b>IStringable</b> interface. For more info, see <a href="https://go.microsoft.com/fwlink/p/?LinkID=85776">Object.ToString Method</a>.</div>
 <div> </div>
 
 

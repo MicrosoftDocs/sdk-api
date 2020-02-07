@@ -104,7 +104,7 @@ In Windows Server 2008, ADSI attempts to connect to either Read-Only DCs (RODCs
        writable DC.
 
 For more information about programming for RODC compatibility, see the 
-       <a href="http://go.microsoft.com/fwlink/p/?linkid=217948">Read-Only Domain Controllers Application Compatibility Guide</a>.
+       <a href="https://go.microsoft.com/fwlink/p/?linkid=217948">Read-Only Domain Controllers Application Compatibility Guide</a>.
 
 
 ### -field ADS_PROMPT_CREDENTIALS

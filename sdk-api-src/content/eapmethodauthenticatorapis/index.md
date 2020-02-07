@@ -1,5 +1,6 @@
 ---
 UID: NA:eapmethodauthenticatorapis
+title: Eapmethodauthenticatorapis.h header
 ms.assetid: 7fccf58f-472d-3712-a1fb-928d94acddbc
 ms.date: 01/11/2019
 ms.keywords: 

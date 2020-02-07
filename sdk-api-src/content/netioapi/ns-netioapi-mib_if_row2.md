@@ -125,7 +125,7 @@ The maximum transmission unit (MTU) size, in bytes, for this network interface.
 
 Type: <b>IFTYPE</b>
 
-The interface type as defined by the Internet Assigned Names Authority (IANA). For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84022">http://www.iana.org/assignments/ianaiftype-mib</a>. Possible values for the interface type are listed in the <i>Ipifcons.h</i> header file.
+The interface type as defined by the Internet Assigned Names Authority (IANA). For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84022">http://www.iana.org/assignments/ianaiftype-mib</a>. Possible values for the interface type are listed in the <i>Ipifcons.h</i> header file.
 
 The table below lists common values for the interface type although many other values are possible. 
 
@@ -291,7 +291,7 @@ A mobile broadband interface for CDMA-based devices.
 
 Type: <b>TUNNEL_TYPE</b>
 
-The encapsulation method used by a tunnel if the <b>Type</b> member is <b>IF_TYPE_TUNNEL</b>. The tunnel type is defined by the Internet Assigned Names Authority (IANA). For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84022">http://www.iana.org/assignments/ianaiftype-mib</a>. This member can be one of the values from the <b>TUNNEL_TYPE</b> enumeration type defined in the <i>Ifdef.h</i> header file.
+The encapsulation method used by a tunnel if the <b>Type</b> member is <b>IF_TYPE_TUNNEL</b>. The tunnel type is defined by the Internet Assigned Names Authority (IANA). For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84022">http://www.iana.org/assignments/ianaiftype-mib</a>. This member can be one of the values from the <b>TUNNEL_TYPE</b> enumeration type defined in the <i>Ifdef.h</i> header file.
 
 <table>
 <tr>
@@ -1047,7 +1047,7 @@ Set if the network interface is an endpoint device and not a true network interf
 
 Type: <b>IF_OPER_STATUS</b>
 
-The operational status for the interface as defined in RFC 2863 as  IfOperStatus.  For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84054">http://www.ietf.org/rfc/rfc2863.txt</a>. This member can be one of the values from the <b>IF_OPER_STATUS</b> enumeration type defined in the <i>Ifdef.h</i> header file.
+The operational status for the interface as defined in RFC 2863 as  IfOperStatus.  For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84054">http://www.ietf.org/rfc/rfc2863.txt</a>. This member can be one of the values from the <b>IF_OPER_STATUS</b> enumeration type defined in the <i>Ifdef.h</i> header file.
 
 <table>
 <tr>
@@ -1158,7 +1158,7 @@ A refinement on the <b>IfOperStatusDown</b> state.
 
 Type: <b>NET_IF_ADMIN_STATUS</b>
 
-The administrative status for the interface as defined in RFC 2863. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84054">http://www.ietf.org/rfc/rfc2863.txt</a>. This member can be one of the values from the <b>NET_IF_ADMIN_STATUS</b> enumeration type defined in the <i>Ifdef.h</i> header file.
+The administrative status for the interface as defined in RFC 2863. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84054">http://www.ietf.org/rfc/rfc2863.txt</a>. This member can be one of the values from the <b>NET_IF_ADMIN_STATUS</b> enumeration type defined in the <i>Ifdef.h</i> header file.
 
 <table>
 <tr>

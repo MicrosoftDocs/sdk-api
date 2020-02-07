@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IADsOpenDSObject::OpenDSObject</b> method binds to an ADSI object, using the given credentials, and retrieves an  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> pointer to the specified object.
-<div class="alert"><b>Important</b>  It is not recommended that you use this method with the WinNT Provider. For more information, please see KB article 218497, <a href="http://go.microsoft.com/fwlink/p/?linkid=83981">User Authentication Issues with the Active Directory Service Interfaces WinNT Provider</a>.</div><div> </div>
+<div class="alert"><b>Important</b>  It is not recommended that you use this method with the WinNT Provider. For more information, please see KB article 218497, <a href="https://go.microsoft.com/fwlink/p/?linkid=83981">User Authentication Issues with the Active Directory Service Interfaces WinNT Provider</a>.</div><div> </div>
 
 ## -parameters
 
@@ -98,7 +98,7 @@ For more information, see  <a href="https://docs.microsoft.com/windows/desktop/A
 
 
 
-This method should not be used just to validate user credentials. For information about validating user credentials, see Microsoft Knowledge Base article 180548 <a href="http://go.microsoft.com/fwlink/p/?linkid=83979">HOWTO: Validate User Credentials on Microsoft Operating Systems</a>.
+This method should not be used just to validate user credentials. For information about validating user credentials, see Microsoft Knowledge Base article 180548 <a href="https://go.microsoft.com/fwlink/p/?linkid=83979">HOWTO: Validate User Credentials on Microsoft Operating Systems</a>.
 
 When <i>lnReserved</i> is set, the behavior of <b>OpenDSObject</b> depends on the provider it connects to. High security namespaces may ignore these flags and always require authentication.
 

@@ -111,7 +111,7 @@ Enumerate a list of compatible drivers for the specified device. This driver lis
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
 
 
 
@@ -120,7 +120,7 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 
 
-To enumerate driver information set members, an installer should first call <b>SetupDiEnumDriverInfo</b> with the <i>MemberIndex</i> parameter set to 0. It should then increment <i>MemberIndex</i> and call <b>SetupDiEnumDriverInfo</b> until there are no more values. When there are no more values, the function fails and a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_NO_MORE_ITEMS.
+To enumerate driver information set members, an installer should first call <b>SetupDiEnumDriverInfo</b> with the <i>MemberIndex</i> parameter set to 0. It should then increment <i>MemberIndex</i> and call <b>SetupDiEnumDriverInfo</b> until there are no more values. When there are no more values, the function fails and a call to <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_NO_MORE_ITEMS.
 
 If you do not properly initialize the <b>cbSize</b> member of the SP_DRVINFO_DATA structure that is supplied by the pointer <i>DriverInfoData</i>, the function will fail and log the error ERROR_INVALID_USER_BUFFER.
 

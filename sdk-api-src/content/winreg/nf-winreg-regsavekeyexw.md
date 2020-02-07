@@ -60,7 +60,7 @@ ms.custom: 19H1
 
 Saves the specified key and all of its subkeys and values to a registry file, in the specified format.
 
- Applications that back up or restore system state including system files and registry hives should use the <a href="http://go.microsoft.com/fwlink/p/?linkid=177790">Volume Shadow Copy Service</a> instead of the registry functions.
+ Applications that back up or restore system state including system files and registry hives should use the <a href="https://go.microsoft.com/fwlink/p/?linkid=177790">Volume Shadow Copy Service</a> instead of the registry functions.
 
 
 ## -parameters

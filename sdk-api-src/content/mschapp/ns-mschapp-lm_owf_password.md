@@ -59,7 +59,7 @@ The <b>LM_OWF_PASSWORD</b> stores the Lan Manage (LM) one-way function (OWF) of 
 
 ### -field data
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/mschapp/ns-mschapp-cypher_block">CYPHER_BLOCK</a> structures that contain a LM OWF password hash. The contents of the array are calculated using the <b>LmEncryptedPasswordHash()</b> function as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=84041">RFC 2433</a>, section A.8.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/mschapp/ns-mschapp-cypher_block">CYPHER_BLOCK</a> structures that contain a LM OWF password hash. The contents of the array are calculated using the <b>LmEncryptedPasswordHash()</b> function as defined in <a href="https://go.microsoft.com/fwlink/p/?linkid=84041">RFC 2433</a>, section A.8.
 
 
 ## -remarks

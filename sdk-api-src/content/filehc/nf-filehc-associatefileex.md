@@ -79,7 +79,7 @@ The terminating dot is used by the NNTP/SMTP protocol to identify the end of mes
 
 
 
-Returns a pointer to the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure that was obtained. If the function fails, it returns <b>NULL</b>.
+Returns a pointer to the <a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure that was obtained. If the function fails, it returns <b>NULL</b>.
 
 
 
@@ -89,7 +89,7 @@ Returns a pointer to the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304
 
 
 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>
  
 
  

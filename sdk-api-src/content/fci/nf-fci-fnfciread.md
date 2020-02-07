@@ -86,7 +86,7 @@ Pointer to an application-defined value
 
 
 
-The function accepts parameters similar to<a href="http://go.microsoft.com/fwlink/p/?linkid=196544"> _read</a> with the addition to <i>err</i> and <i>pv</i>.
+The function accepts parameters similar to<a href="https://go.microsoft.com/fwlink/p/?linkid=196544"> _read</a> with the addition to <i>err</i> and <i>pv</i>.
 
 
 #### Examples
