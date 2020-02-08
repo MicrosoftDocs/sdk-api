@@ -42,6 +42,8 @@
       "ms.prod": "desktop",
       "ms.technology": "sdk-api-reference",
       "ms.topic": "language-reference",
+      "ms.author": "jken",
+      "author": "GrantMeStrength",
       "extendBreadcrumb": true,
       "feedback_system": "none",
       "searchScope": [
