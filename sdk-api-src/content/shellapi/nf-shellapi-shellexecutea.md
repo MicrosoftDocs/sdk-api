@@ -108,6 +108,12 @@ Prints the file specified by <i>lpFile</i>. If <i>lpFile</i> is not a document f
 
 
 
+#### runas
+
+Launches an application as Administrator. User Account Control (UAC) will prompt the user for consent to run the application elevated or enter the credentials of an administrator account used to run the application.
+
+
+
 #### NULL
 
 The default verb is used, if available. If not, the "open" verb is used. If neither verb is available, the system uses the first verb listed in the registry.
