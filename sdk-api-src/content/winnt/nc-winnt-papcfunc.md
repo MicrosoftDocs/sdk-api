@@ -68,7 +68,7 @@ An application-defined completion routine. Specify this address when calling the
 
 
 
-#### - dwParam [in]
+#### - Parameter [in]
 
 The data passed to the function using the <i>dwData</i> parameter of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queueuserapc">QueueUserAPC</a> function.
