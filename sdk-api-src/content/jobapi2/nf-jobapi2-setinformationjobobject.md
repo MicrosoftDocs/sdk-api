@@ -252,7 +252,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpJobObjectInfo</i> parameter is a pointer to a 
-        <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-jobobject_notification_limit_information">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2</a> 
+        <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-jobobject_notification_limit_information_2">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2</a> 
         structure.
         
 
