@@ -65,39 +65,39 @@ A [DXGI_RATIONAL](https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-d
  
 ### -field SourceSizeRange
 
-A [D3D12_VIDEO_SIZE_RANGE](ns-d3d12video-d3d12_video_size_range) structure representing the size of the source rectangle. This argument specifies the input range size this video processor must support for [ProcessFrames](nf-d3d12video-id3d12videoprocesscommandlist-processframes).  If a source size exceeds the range, the video processor must be recreated.
+A [D3D12_VIDEO_SIZE_RANGE](ns-d3d12video-d3d12_video_size_range.md) structure representing the size of the source rectangle. This argument specifies the input range size this video processor must support for [ProcessFrames](nf-d3d12video-id3d12videoprocesscommandlist-processframes.md).  If a source size exceeds the range, the video processor must be recreated.
  
 ### -field DestinationSizeRange
 
-A [D3D12_VIDEO_SIZE_RANGE](ns-d3d12video-d3d12_video_size_range) structure representing the size of the destination rectangle. This argument specifies the destination range size this video processor must support for [ProcessFrames](nf-d3d12video-id3d12videoprocesscommandlist-processframes).  If a source size exceeds the range, the video processor must be recreated.
+A [D3D12_VIDEO_SIZE_RANGE](ns-d3d12video-d3d12_video_size_range.md) structure representing the size of the destination rectangle. This argument specifies the destination range size this video processor must support for [ProcessFrames](nf-d3d12video-id3d12videoprocesscommandlist-processframes.md).  If a source size exceeds the range, the video processor must be recreated.
  
 ### -field EnableOrientation
  
-A boolean value specifying whether the video processor should support all [D3D12_VIDEO_PROCESS_ORIENTATION](ne-d3d12video-d3d12_video_process_orientation) for [ProcessFrames](nf-d3d12video-id3d12videoprocesscommandlist-processframes). 
+A boolean value specifying whether the video processor should support all [D3D12_VIDEO_PROCESS_ORIENTATION](ne-d3d12video-d3d12_video_process_orientation.md) for [ProcessFrames](nf-d3d12video-id3d12videoprocesscommandlist-processframes.md). 
 
 ### -field FilterFlags
 
-A bitwise OR combination of one or more flags from the [D3D12_VIDEO_PROCESS_FILTER_FLAGS](ne-d3d12video-d3d12_video_process_filter_flags) enumeration specifying the filters to enable.
+A bitwise OR combination of one or more flags from the [D3D12_VIDEO_PROCESS_FILTER_FLAGS](ne-d3d12video-d3d12_video_process_filter_flags.md) enumeration specifying the filters to enable.
  
 ### -field StereoFormat
 
-A value from the [D3D12_VIDEO_FRAME_STEREO_FORMAT](ne-d3d12video-d3d12_video_frame_stereo_format) enumeration specifies whether the stream is stereo or not. A value of **D3D12_VIDEO_PROCESS_STEREO_FORMAT_SEPARATE** indicates that there will be two sets of input textures, and two sets of references for the stereo interlaced case.
+A value from the [D3D12_VIDEO_FRAME_STEREO_FORMAT](ne-d3d12video-d3d12_video_frame_stereo_format.md) enumeration specifies whether the stream is stereo or not. A value of **D3D12_VIDEO_PROCESS_STEREO_FORMAT_SEPARATE** indicates that there will be two sets of input textures, and two sets of references for the stereo interlaced case.
  
 ### -field FieldType
 
-A value from the [D3D12_VIDEO_FIELD_TYPE](ne-d3d12video-d3d12_video_field_type) enumeration specfying the interlaced field type of the input source. When working with mixed content, use [ID3D12VideoProcessCommandList1::ProcessFrames1](nf-d3d12video-id3d12videoprocesscommandlist1-processframes1) which supports changing the field type for each call.
+A value from the [D3D12_VIDEO_FIELD_TYPE](ne-d3d12video-d3d12_video_field_type.md) enumeration specfying the interlaced field type of the input source. When working with mixed content, use [ID3D12VideoProcessCommandList1::ProcessFrames1](nf-d3d12video-id3d12videoprocesscommandlist1-processframes1.md) which supports changing the field type for each call.
  
 ### -field DeinterlaceMode
 
-A value from the [D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS](ne-d3d12video-d3d12_video_process_deinterlace_flags) enumeration specifying the deinterlace mode to use.
+A value from the [D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS](ne-d3d12video-d3d12_video_process_deinterlace_flags.md) enumeration specifying the deinterlace mode to use.
  
 ### -field EnableAlphaBlending
 
-A boolean value specifying whether alpha blending is enabled. Alpha blending settings are provided to [ProcessFrames](nf-d3d12video-id3d12videoprocesscommandlist-processframes) with *AlphaBlending* the field of the [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS](ns-d3d12video-d3d12_video_process_input_stream_arguments) structure.
+A boolean value specifying whether alpha blending is enabled. Alpha blending settings are provided to [ProcessFrames](nf-d3d12video-id3d12videoprocesscommandlist-processframes.md) with *AlphaBlending* the field of the [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS](ns-d3d12video-d3d12_video_process_input_stream_arguments.md) structure.
  
 ### -field LumaKey
 
-A [D3D12_VIDEO_PROCESS_LUMA_KEY](ns-d3d12video-d3d12_video_process_luma_key) structure specifying the luma key for an input stream on the video processor. 
+A [D3D12_VIDEO_PROCESS_LUMA_KEY](ns-d3d12video-d3d12_video_process_luma_key.md) structure specifying the luma key for an input stream on the video processor. 
  
 ### -field NumPastFrames
 

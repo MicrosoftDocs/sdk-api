@@ -39,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-Provides data for calls to [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport) when the feature specified is [D3D12\_FEATURE\_VIDEO\_DECODE\_PROFILES](ne-d3d12video-d3d12_feature_video). Retrieves the list of supported profiles.
+Provides data for calls to [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport.md) when the feature specified is [D3D12\_FEATURE\_VIDEO\_DECODE\_PROFILES](ne-d3d12video-d3d12_feature_video.md). Retrieves the list of supported profiles.
 
 ## -struct-fields
 
@@ -49,7 +49,7 @@ In multi-adapter operation, identifies the physical adapter of the device this o
 
 ### -field ProfileCount
 
-The number of profiles to retrieve.  This number must match the value returned from a call [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport) when the feature specified is [D3D12\_FEATURE\_VIDEO\_DECODE\_PROFILE\_COUNT](ne-d3d12video-d3d12_feature_video).
+The number of profiles to retrieve.  This number must match the value returned from a call [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport.md) when the feature specified is [D3D12\_FEATURE\_VIDEO\_DECODE\_PROFILE\_COUNT](ne-d3d12video-d3d12_feature_video.md).
  
 ### -field pProfiles
 
@@ -59,4 +59,4 @@ A list of GUIDs representing the supported profiles.  The calling application mu
 
 ## -see-also
 
-[D3D12_FEATURE_VIDEO_DECODE_CONVERSION_SUPPORT](ne-d3d12video-d3d12_feature_video)
+[D3D12_FEATURE_VIDEO_DECODE_CONVERSION_SUPPORT](ne-d3d12video-d3d12_feature_video.md)

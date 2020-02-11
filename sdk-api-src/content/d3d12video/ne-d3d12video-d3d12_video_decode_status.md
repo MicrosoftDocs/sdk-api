@@ -36,7 +36,7 @@ targetos: Windows
 
 ## -description
 
-Specifes the status of a video decode operation. This enumeration is used in the status field of a [D3D12_VIDEO_DECODE_STATUS](ne-d3d12video-d3d12_video_decode_status) structure.
+Specifes the status of a video decode operation. This enumeration is used in the status field of a [D3D12_VIDEO_DECODE_STATUS](ne-d3d12video-d3d12_video_decode_status.md) structure.
 
 
 ## -enum-fields

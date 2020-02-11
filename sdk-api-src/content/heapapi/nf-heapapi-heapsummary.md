@@ -56,7 +56,7 @@ The heap summary options.
 
 ### -param lpSummary
 
-Receives a pointer to a [Heap_Summary](ns-heapapi-heap_summary) structure representing the heap summary.
+Receives a pointer to a [Heap_Summary](ns-heapapi-heap_summary.md) structure representing the heap summary.
 
 ## -returns
 

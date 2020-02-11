@@ -53,7 +53,7 @@ The height of the sample.
 
 ### -field Format
 
-A [D3D12_VIDEO_FORMAT](ns-d3d12video-d3d12_video_format) structure describing the format and colorspace of the sample.
+A [D3D12_VIDEO_FORMAT](ns-d3d12video-d3d12_video_format.md) structure describing the format and colorspace of the sample.
  
 
 ## -remarks
