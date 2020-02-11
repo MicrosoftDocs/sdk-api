@@ -2,7 +2,7 @@
 UID: NF:windows.graphics.directx.direct3d11.interop.CreateDirect3DSurface
 title: CreateDirect3DSurface
 description: Creates an instance of [IDirect3DSurface](/uwp/api/windows.graphics.directx.direct3d11.idirect3dsurface) from an [IDXGISurface](/windows/desktop/api/dxgi/nn-dxgi-idxgisurface).
-tech.root: WinRT
+tech.root: winrt
 ms.assetid: 01a51e06-4c21-bffb-212e-cea0f718e519
 ms.date: 05/13/2019
 ms.keywords: interop::CreateDirect3DSurface
