@@ -84,6 +84,9 @@ A variant time is stored as an 8-byte real value (<b>double</b>), representing a
 
 The variant time resolves to one second. Any milliseconds in the input date are ignored. 
 
+> [!NOTE]
+> When working with variant time, be mindful of the additional day added in leap years, which might produce unexpected results if unhandled. For more information, see [leap year readiness](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/it-s-2020-is-your-code-ready-for-leap-day/ba-p/1157279).
+
 The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure is useful for the following reasons:  
 
 <ul>
