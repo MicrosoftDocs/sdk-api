@@ -74,7 +74,7 @@ Receives the position of the nearest key frame that appears earlier than <i>pvar
 
 ### -param pvarNextKeyFrame [out]
 
-Receives the position of the nearest key frame that appears earlier than <i>pvarStartPosition</i>. The units for this parameter are specified by <i>pguidTimeFormat</i>.
+Receives the position of the nearest key frame that appears later than <i>pvarStartPosition</i>. The units for this parameter are specified by <i>pguidTimeFormat</i>.
 
 
 ## -returns
