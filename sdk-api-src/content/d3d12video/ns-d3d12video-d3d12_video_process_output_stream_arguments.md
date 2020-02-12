@@ -39,13 +39,13 @@ targetos: Windows
 
 ## -description
 
-Specifies output stream arguments for the output passed to [ID3D12VideoCommandList::ProcessFrames](nf-d3d12video-id3d12videoprocesscommandlist-processframes).
+Specifies output stream arguments for the output passed to [ID3D12VideoCommandList::ProcessFrames](nf-d3d12video-id3d12videoprocesscommandlist-processframes.md).
 
 ## -struct-fields
 
 ### -field OutputStream
 
-An array of [D3D12_VIDEO_PROCESS_OUTPUT_STREAM](ns-d3d12video-d3d12_video_process_output_stream) structures representing the output surfaces for the video process command.  If stereo output is enabled, index zero contains the left output while index 1 contains the right input.  If stereo output is not enabled, only index 0 is used to specify the output while index 1 should be set to nullptr.
+An array of [D3D12_VIDEO_PROCESS_OUTPUT_STREAM](ns-d3d12video-d3d12_video_process_output_stream.md) structures representing the output surfaces for the video process command.  If stereo output is enabled, index zero contains the left output while index 1 contains the right input.  If stereo output is not enabled, only index 0 is used to specify the output while index 1 should be set to nullptr.
  
 ### -field TargetRectangle
  

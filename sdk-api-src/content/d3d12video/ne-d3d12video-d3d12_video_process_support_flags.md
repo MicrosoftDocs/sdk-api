@@ -51,6 +51,6 @@ The conversion from the source format and colorspace to destination format and c
 
 ## -remarks
 
-This enumeration is used by the [D3D12_FEATURE_DATA_VIDEO_PROCESS_SUPPORT](ns-d3d12video-d3d12_feature_data_video_process_support) structure.
+This enumeration is used by the [D3D12_FEATURE_DATA_VIDEO_PROCESS_SUPPORT](ns-d3d12video-d3d12_feature_data_video_process_support.md) structure.
 
 ## -see-also

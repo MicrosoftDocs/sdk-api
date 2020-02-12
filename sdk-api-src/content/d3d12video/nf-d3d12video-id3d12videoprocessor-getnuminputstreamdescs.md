@@ -44,14 +44,14 @@ targetos: Windows
 
 ## -description
 
-Gets the number of input stream descriptions provided when the video processor was created with a call to [ID3D12VideoDevice::CreateVideoProcessor](nf-d3d12video-id3d12videodevice-createvideoprocessor).
+Gets the number of input stream descriptions provided when the video processor was created with a call to [ID3D12VideoDevice::CreateVideoProcessor](nf-d3d12video-id3d12videodevice-createvideoprocessor.md).
 
 ## -parameters
 
 
 ## -returns
 
-This method returns UINT. Use this value to determine the correct size of the array you pass in the *pInputStreamDescs* parameter to [ID3D12VideoProcessor::GetInputStreamDescs](nf-d3d12video-id3d12videoprocessor-getinputstreamdescs).
+This method returns UINT. Use this value to determine the correct size of the array you pass in the *pInputStreamDescs* parameter to [ID3D12VideoProcessor::GetInputStreamDescs](nf-d3d12video-id3d12videoprocessor-getinputstreamdescs.md).
 
 
 

@@ -38,7 +38,7 @@ The **ID3D11VideoDevice2** interface inherits from [ID3D11VideoDevice1](https://
 
 ## -description
 
-Provides the video decoding and video processing capabilities of a Microsoft Direct3D 11 device. Adds the [CheckFeatureSupport](nf-d3d11_4-id3d11videodevice2-checkfeaturesupport) method for querying for decoding capabilities.
+Provides the video decoding and video processing capabilities of a Microsoft Direct3D 11 device. Adds the [CheckFeatureSupport](nf-d3d11_4-id3d11videodevice2-checkfeaturesupport.md) method for querying for decoding capabilities.
 
 ## -remarks
 

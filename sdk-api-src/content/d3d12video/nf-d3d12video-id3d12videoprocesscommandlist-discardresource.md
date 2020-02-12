@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-Indicates that the current contents of a resource can be discarded.  The current contents of the resource are no longer valid allowing optimizations for subsequent operations such as [ResourceBarrier](nf-d3d12video-id3d12videoprocesscommandlist-discardresource).
+Indicates that the current contents of a resource can be discarded.  The current contents of the resource are no longer valid allowing optimizations for subsequent operations such as [ResourceBarrier](nf-d3d12video-id3d12videoprocesscommandlist-discardresource.md).
 
 ## -parameters
 

@@ -73,5 +73,5 @@ ID3D12VideoDevice interits from IUnknown.
 
 ## -see-also
 
-- [ID3D12VideoDevice1](nn-d3d12video-id3d12videodevice1)
-- [ID3D12VideoDevice2](nn-d3d12video-id3d12videodevice2)
+- [ID3D12VideoDevice1](nn-d3d12video-id3d12videodevice1.md)
+- [ID3D12VideoDevice2](nn-d3d12video-id3d12videodevice2.md)

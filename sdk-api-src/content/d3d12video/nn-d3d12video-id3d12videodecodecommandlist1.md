@@ -63,5 +63,5 @@ ID3D12VideoDecodeCommandList1 interits from [ID3D12VideoDecodeCommandList](nn-d3
 
 ## -see-also
 
-- [ID3D12VideoDecodeCommandList](nn-d3d12video-id3d12videodecodecommandlist)
-- [ID3D12VideoDecodeCommandList2](nn-d3d12video-id3d12videodecodecommandlist2)
+- [ID3D12VideoDecodeCommandList](nn-d3d12video-id3d12videodecodecommandlist.md)
+- [ID3D12VideoDecodeCommandList2](nn-d3d12video-id3d12videodecodecommandlist2.md)

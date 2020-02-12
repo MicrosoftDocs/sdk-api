@@ -39,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-Provides data for calls to [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport) when the feature specified is [D3D12\_FEATURE\_VIDEO\_PROCESS\_MAX\_INPUT\_STREAMS](ne-d3d12video-d3d12_feature_video). Retrieves the maximum number of enabled input streams supported by the video processor.
+Provides data for calls to [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport.md) when the feature specified is [D3D12\_FEATURE\_VIDEO\_PROCESS\_MAX\_INPUT\_STREAMS](ne-d3d12video-d3d12_feature_video.md). Retrieves the maximum number of enabled input streams supported by the video processor.
 
 ## -struct-fields
 

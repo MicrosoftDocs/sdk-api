@@ -44,17 +44,17 @@ targetos: Windows
 
 ## -description
 
-Gets the input stream descriptions provided when the video processor was created with a call to [ID3D12VideoDevice::CreateVideoProcessor](nf-d3d12video-id3d12videodevice-createvideoprocessor).
+Gets the input stream descriptions provided when the video processor was created with a call to [ID3D12VideoDevice::CreateVideoProcessor](nf-d3d12video-id3d12videodevice-createvideoprocessor.md).
 
 ## -parameters
 
 ### -param NumInputStreamDescs
 
-The size of the array pointed to by *pInputStreamDescs*. Get the number of input stream descriptions associated with the video processor by calling [ID3DVideoProcessor::GetNumInputStreamDescs](nf-d3d12video-id3d12videoprocessor-getnuminputstreamdescs).
+The size of the array pointed to by *pInputStreamDescs*. Get the number of input stream descriptions associated with the video processor by calling [ID3DVideoProcessor::GetNumInputStreamDescs](nf-d3d12video-id3d12videoprocessor-getnuminputstreamdescs.md).
 
 ### -param pInputStreamDescs
 
-An array of [D3D12_VIDEO_PROCESS_INPUT_STREAM_DESC](ns-d3d12video-d3d12_video_process_input_stream_desc) structures that is populated with the input stream descriptions associated with the video processor.
+An array of [D3D12_VIDEO_PROCESS_INPUT_STREAM_DESC](ns-d3d12video-d3d12_video_process_input_stream_desc.md) structures that is populated with the input stream descriptions associated with the video processor.
 
 
 ## -returns

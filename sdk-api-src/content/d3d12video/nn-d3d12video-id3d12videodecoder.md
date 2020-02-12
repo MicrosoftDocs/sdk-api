@@ -59,7 +59,7 @@ ID3D12VideoDecoder interits from ID3D12Pageable.
 
 ## -remarks
 
-Get an instance of this class by calling [ID3D12VideoDevice::CreateVideoDecoder](nf-d3d12video-id3d12videodevice-createvideodecoder).
+Get an instance of this class by calling [ID3D12VideoDevice::CreateVideoDecoder](nf-d3d12video-id3d12videodevice-createvideodecoder.md).
 
 It is not necessary to recreate this object during a resolution change.
 

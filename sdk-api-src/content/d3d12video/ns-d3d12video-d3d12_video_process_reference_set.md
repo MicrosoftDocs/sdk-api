@@ -71,4 +71,4 @@ An array of subresource indices for the list of *ppFutureFrames* textures.  NULL
 
 ## -see-also
 
-[D3D12_FEATURE_VIDEO_PROCESS_REFERENCE_INFO](ne-d3d12video-d3d12_feature_video)
+[D3D12_FEATURE_VIDEO_PROCESS_REFERENCE_INFO](ne-d3d12video-d3d12_feature_video.md)

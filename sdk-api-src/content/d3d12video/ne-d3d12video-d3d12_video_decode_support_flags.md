@@ -50,8 +50,8 @@ The video decoding operation is supported.
 
 ## -remarks
 
-This enumeration is used by the [D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT](ns-d3d12video-d3d12_feature_data_video_decode_support) structure.
+This enumeration is used by the [D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT](ns-d3d12video-d3d12_feature_data_video_decode_support.md) structure.
 
 ## -see-also
 
-[D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT](ns-d3d12video-d3d12_feature_data_video_decode_support)
+[D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT](ns-d3d12video-d3d12_feature_data_video_decode_support.md)

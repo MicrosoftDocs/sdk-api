@@ -36,7 +36,7 @@ api_name:
 
 ## -description
 
-Represents a heap summary retrieved with a call to [HeapSummary](nf-heapapi-heapsummary)
+Represents a heap summary retrieved with a call to [HeapSummary](nf-heapapi-heapsummary.md)
 
 ## -struct-fields
 

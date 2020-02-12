@@ -39,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-Provides data for calls to [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport) when the feature specified is [D3D12\_FEATURE\_VIDEO\_DECODE\_SUPPORT](ne-d3d12video-d3d12_feature_video). Retrieves support information for video decoding.
+Provides data for calls to [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport.md) when the feature specified is [D3D12\_FEATURE\_VIDEO\_DECODE\_SUPPORT](ne-d3d12video-d3d12_feature_video.md). Retrieves support information for video decoding.
 
 ## -struct-fields
 
@@ -49,7 +49,7 @@ An integer indicating which physical adapter of the device the operation applies
  
 ### -field Configuration
 
-A [D3D12\_VIDEO\_DECODE\_CONFIGURATION](ns-d3d12video-d3d12_video_decode_configuration) structure specifying the decode profile, bitstream encryption, and interlace type of the source stream.
+A [D3D12\_VIDEO\_DECODE\_CONFIGURATION](ns-d3d12video-d3d12_video_decode_configuration.md) structure specifying the decode profile, bitstream encryption, and interlace type of the source stream.
  
 ### -field Width
 
@@ -73,15 +73,15 @@ The average bits per second data compression rate for the compressed video strea
  
 ### -field SupportFlags
  
-A combination of values from the [D3D12\_VIDEO\_DECODE\_SUPPORT\_FLAGS](ne-d3d12video-d3d12_video_decode_support_flags) enumeration indicating the support for video decoding. This value is populated by the call to **ID3D12Device::CheckFeatureSupport**.
+A combination of values from the [D3D12\_VIDEO\_DECODE\_SUPPORT\_FLAGS](ne-d3d12video-d3d12_video_decode_support_flags.md) enumeration indicating the support for video decoding. This value is populated by the call to **ID3D12Device::CheckFeatureSupport**.
 
 ### -field ConfigurationFlags
 
-A combination of values from the [D3D12\_VIDEO\_DECODE\_CONFIGURATION\_FLAGS](ne-d3d12video-d3d12_video_decode_configuration_flags) eumeration describing the video decode configuration. This value is populated by the call to **ID3D12Device::CheckFeatureSupport**.
+A combination of values from the [D3D12\_VIDEO\_DECODE\_CONFIGURATION\_FLAGS](ne-d3d12video-d3d12_video_decode_configuration_flags.md) eumeration describing the video decode configuration. This value is populated by the call to **ID3D12Device::CheckFeatureSupport**.
  
 ### -field DecodeTier
 
-A member of the [D3D12\_VIDEO\_DECODE\_TIER](ne-d3d12video-d3d12_video_decode_tier) enumeration specifying the decoding tier of a hardware video decoder.
+A member of the [D3D12\_VIDEO\_DECODE\_TIER](ne-d3d12video-d3d12_video_decode_tier.md) enumeration specifying the decoding tier of a hardware video decoder.
  
 
 ## -remarks
