@@ -44,21 +44,21 @@ targetos: Windows
 
 ## -description
 
-Records a decode frame operation to the command list.  Inputs, outputs, and parameters for the decode are specified as arguments to this method. Takes a [D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS1](ns-d3d12video-d3d12_video_decode_output_stream_arguments1) structure to support video decode histograms.
+Records a decode frame operation to the command list.  Inputs, outputs, and parameters for the decode are specified as arguments to this method. Takes a [D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS1](ns-d3d12video-d3d12_video_decode_output_stream_arguments1.md) structure to support video decode histograms.
 
 ## -parameters
 
 ### -param pDecoder
 
-A pointer to an [ID3D12VideoDecoder](nn-d3d12video-id3d12videodecoder) interface representing a decoder instance. 
+A pointer to an [ID3D12VideoDecoder](nn-d3d12video-id3d12videodecoder.md) interface representing a decoder instance. 
 
 ### -param pOutputArguments
 
-A [D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS1](ns-d3d12video-d3d12_video_decode_output_stream_arguments1) structure specifying the output surface and output arguments.
+A [D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS1](ns-d3d12video-d3d12_video_decode_output_stream_arguments1.md) structure specifying the output surface and output arguments.
 
 ### -param pInputArguments
 
-A [D3D12_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS](ns-d3d12video-d3d12_video_decode_input_stream_arguments) structure specifying the input bitstream, reference frames, and other input parameters.
+A [D3D12_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS](ns-d3d12video-d3d12_video_decode_input_stream_arguments.md) structure specifying the input bitstream, reference frames, and other input parameters.
 
 ## -returns
 

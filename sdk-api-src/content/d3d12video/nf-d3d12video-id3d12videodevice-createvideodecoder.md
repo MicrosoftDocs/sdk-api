@@ -50,7 +50,7 @@ Creates a video decoder instance that contains the resolution-independent driver
 
 ### -param pDesc
 
-A pointer to a [D3D12\_VIDEO\_DECODER\_DESC](ns-d3d12video-d3d12_video_decoder_desc) structure describing the decode profile and bitstream encryption for the decoder.
+A pointer to a [D3D12\_VIDEO\_DECODER\_DESC](ns-d3d12video-d3d12_video_decoder_desc.md) structure describing the decode profile and bitstream encryption for the decoder.
 
 ### -param riid
 
@@ -58,7 +58,7 @@ The globally unique identifier (GUID) for the decode video state interface.
 
 ### -param ppVideoDecoder
 
-A pointer to a memory block that receives a pointer to the [ID3D12VideoDecoder](nn-d3d12video-id3d12videodecoder) interface.
+A pointer to a memory block that receives a pointer to the [ID3D12VideoDecoder](nn-d3d12video-id3d12videodecoder.md) interface.
 
 ## -returns
 

@@ -39,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-Specifies the parameters for decode output conversion.  [D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS](ns-d3d12video-d3d12_video_decode_conversion_arguments) is used for the same purpose, but does not contain fields for output width and output height.
+Specifies the parameters for decode output conversion.  [D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS](ns-d3d12video-d3d12_video_decode_conversion_arguments.md) is used for the same purpose, but does not contain fields for output width and output height.
 
 ## -struct-fields
 

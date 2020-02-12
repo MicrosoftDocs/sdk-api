@@ -70,7 +70,7 @@ The globally unique identifier (GUID) for the video processor interface.
 
 ### -param ppVideoProcessor
 
-A pointer to a memory block that receives a pointer to the [ID3D12VideoProcessor](nn-d3d12video-id3d12videoprocessor) interface
+A pointer to a memory block that receives a pointer to the [ID3D12VideoProcessor](nn-d3d12video-id3d12videoprocessor.md) interface
 
 ## -returns
 This method returns HRESULT.

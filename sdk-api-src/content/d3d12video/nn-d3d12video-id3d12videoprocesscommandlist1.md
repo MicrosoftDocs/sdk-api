@@ -38,12 +38,12 @@ targetos: Windows
 
 ## -description
 
-Encapsulates a list of graphics commands for video processing. Adds the [ID3D12VideoProcessCommandList1::DecodeFrame1](nf-d3d12video-id3d12videodecodecommandlist1-decodeframe1) method to support video decode histograms.
+Encapsulates a list of graphics commands for video processing. Adds the [ID3D12VideoProcessCommandList1::DecodeFrame1](nf-d3d12video-id3d12videodecodecommandlist1-decodeframe1.md) method to support video decode histograms.
 
 
 ## -inheritance
 
-ID3D12VideoProcessCommandList1 interits from [ID3D12VideoProcessCommandList](nn-d3d12video-id3d12videoprocesscommandlist). 
+ID3D12VideoProcessCommandList1 interits from [ID3D12VideoProcessCommandList](nn-d3d12video-id3d12videoprocesscommandlist.md). 
 
 ## -members
 
@@ -63,4 +63,4 @@ ID3D12VideoProcessCommandList1 interits from [ID3D12VideoProcessCommandList](nn-
 
 ## -see-also
 
-[ID3D12VideoProcessCommandList](nn-d3d12video-id3d12videoprocesscommandlist)
+[ID3D12VideoProcessCommandList](nn-d3d12video-id3d12videoprocesscommandlist.md)

@@ -34,11 +34,11 @@ api_name:
 
 ## -inheritance
 
-The ID3D11VideoContext3 interface inherits from [ID3D11VideoContext2](nn-d3d11_4-id3d11videocontext2)
+The ID3D11VideoContext3 interface inherits from [ID3D11VideoContext2](nn-d3d11_4-id3d11videocontext2.md)
 
 ## -description
 
-Provides the video functionality of a Microsoft Direct3D 11 device. This interface provides the [DecoderBeginFrame1](nf-d3d11_4-id3d11videocontext3-decoderbeginframe1) method, which provides support for decode histograms.
+Provides the video functionality of a Microsoft Direct3D 11 device. This interface provides the [DecoderBeginFrame1](nf-d3d11_4-id3d11videocontext3-decoderbeginframe1.md) method, which provides support for decode histograms.
 
 ## -remarks
 

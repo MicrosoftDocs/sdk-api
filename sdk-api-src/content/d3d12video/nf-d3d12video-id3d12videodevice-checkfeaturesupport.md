@@ -50,11 +50,11 @@ Gets information about the features that are supported by the current video driv
 
 ### -param FeatureVideo
 
-A member of the [D3D12\_FEATURE\_VIDEO](ne-d3d12video-d3d12_feature_video) enumeration that specifies the feature to query for support. 
+A member of the [D3D12\_FEATURE\_VIDEO](ne-d3d12video-d3d12_feature_video.md) enumeration that specifies the feature to query for support. 
 
 ### -param pFeatureSupportData
 
-A structure that contains data that describes the configuration details of the feature for which support is requested and, upon the completion of the call, is populated with details about the level of support available. For information on the structure that is associated with each type of feature support request, see the field descriptions for [D3D12\_FEATURE\_VIDEO](ne-d3d12video-d3d12_feature_video).
+A structure that contains data that describes the configuration details of the feature for which support is requested and, upon the completion of the call, is populated with details about the level of support available. For information on the structure that is associated with each type of feature support request, see the field descriptions for [D3D12\_FEATURE\_VIDEO](ne-d3d12video-d3d12_feature_video.md).
 
 ### -param FeatureSupportDataSize
 

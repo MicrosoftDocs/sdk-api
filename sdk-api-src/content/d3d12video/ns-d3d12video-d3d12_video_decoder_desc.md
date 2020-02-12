@@ -39,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-Describes a [ID3D12VideoDecoder](nn-d3d12video-id3d12videodecoder). Pass this structure into [ID3D12VideoDevice::CreateVideoDecoder](nf-d3d12video-id3d12videodevice-createvideodecoder) to create an instance of **ID3D12VideoDecoder**.
+Describes a [ID3D12VideoDecoder](nn-d3d12video-id3d12videodecoder.md). Pass this structure into [ID3D12VideoDevice::CreateVideoDecoder](nf-d3d12video-id3d12videodevice-createvideodecoder.md) to create an instance of **ID3D12VideoDecoder**.
 
 ## -struct-fields
 
@@ -49,7 +49,7 @@ The node mask specifying the physical adapter on which the video processor will 
  
 ### -field Configuration
 
-A [D3D12_VIDEO_DECODE_CONFIGURATION](ns-d3d12video-d3d12_video_decode_configuration) structure specifying the configuration of the video decoder.
+A [D3D12_VIDEO_DECODE_CONFIGURATION](ns-d3d12video-d3d12_video_decode_configuration.md) structure specifying the configuration of the video decoder.
 
 ## -remarks
 

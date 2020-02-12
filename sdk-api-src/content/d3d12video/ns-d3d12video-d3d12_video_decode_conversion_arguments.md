@@ -39,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-Specifies the parameters for decode output conversion. [D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS1](ns-d3d12video-d3d12_video_decode_conversion_arguments) is used for the same purpose, but provides additional fields for output width and output height. 
+Specifies the parameters for decode output conversion. [D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS1](ns-d3d12video-d3d12_video_decode_conversion_arguments.md) is used for the same purpose, but provides additional fields for output width and output height. 
 
 ## -struct-fields
 
@@ -67,8 +67,8 @@ A value from the [DXGI_COLOR_SPACE_TYPE](https://docs.microsoft.com/windows/desk
 
 Scaling is specified by the difference between the native decode texture size and the output texture size.
 
-Use [D3D12_FEATURE_VIDEO_DECODE_CONVERSION_SUPPORT](ne-d3d12video-d3d12_feature_video) to determine if a conversion combination is supported.
+Use [D3D12_FEATURE_VIDEO_DECODE_CONVERSION_SUPPORT](ne-d3d12video-d3d12_feature_video.md) to determine if a conversion combination is supported.
 
-The source and destination resolution and format are communicated by the resource properties of decode textures and the output buffer specified in [ID3D12VideoCommandList::DecodeFrame](nf-d3d12video-id3d12videodecodecommandlist-decodeframe).
+The source and destination resolution and format are communicated by the resource properties of decode textures and the output buffer specified in [ID3D12VideoCommandList::DecodeFrame](nf-d3d12video-id3d12videodecodecommandlist-decodeframe.md).
 
 ## -see-also

@@ -53,7 +53,7 @@ The subresource index to use of the *pInputTexture* argument.
  
 ### -field ReferenceSet
 
-A [D3D12_VIDEO_PROCESS_REFERENCE_SET](ns-d3d12video-d3d12_video_process_reference_set) containing the set of references for video processing. Some video processing algorithms require forward or backward frame references. For more information, see [D3D12_FEATURE_VIDEO_PROCESS_REFERENCE_INFO](ne-d3d12video-d3d12_feature_video).
+A [D3D12_VIDEO_PROCESS_REFERENCE_SET](ns-d3d12video-d3d12_video_process_reference_set.md) containing the set of references for video processing. Some video processing algorithms require forward or backward frame references. For more information, see [D3D12_FEATURE_VIDEO_PROCESS_REFERENCE_INFO](ne-d3d12video-d3d12_feature_video.md).
 
 ## -remarks
 

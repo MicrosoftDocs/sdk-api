@@ -35,17 +35,17 @@ api_name:
 ## -description
 
 
-Specifies a Direct3D 11 video feature or feature set to query about. When you want to query for the level to which an adapter supports a feature, pass one of these values to <a href = "nf-d3d11_4-id3d11videodevice2-checkfeaturesupport">ID3D11VideoDevice2::CheckFeatureSupport</a>.
+Specifies a Direct3D 11 video feature or feature set to query about. When you want to query for the level to which an adapter supports a feature, pass one of these values to <a href = "nf-d3d11_4-id3d11videodevice2-checkfeaturesupport.md">ID3D11VideoDevice2::CheckFeatureSupport</a>.
 
 ## -enum-fields
 
 ### -field D3D11_FEATURE_VIDEO_DECODER_HISTOGRAM
 
-Retrieves the supported components, bin count, and counter bit depth for the a decode histogram with the specified decode profile, resolution, and format. The associated data structure is <a href ="ns-d3d11_4-d3d11_feature_data_video_decoder_histogram">D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM</a>.
+Retrieves the supported components, bin count, and counter bit depth for the a decode histogram with the specified decode profile, resolution, and format. The associated data structure is <a href ="ns-d3d11_4-d3d11_feature_data_video_decoder_histogram.md">D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM</a>.
 
 ## -remarks
 
 ## -see-also
 
-<a href = "nf-d3d11_4-id3d11videodevice2-checkfeaturesupport">ID3D11VideoDevice2::CheckFeatureSupport</a>
+<a href = "nf-d3d11_4-id3d11videodevice2-checkfeaturesupport.md">ID3D11VideoDevice2::CheckFeatureSupport</a>
 

@@ -33,7 +33,7 @@ api_name:
 
 ## -inheritance
 
-ID3D12VideoDevice1 interits from [ID3D12VideoDevice](nn-d3d12video-id3d12videodevice).
+ID3D12VideoDevice1 interits from [ID3D12VideoDevice](nn-d3d12video-id3d12videodevice.md).
 
 ## -description
 
@@ -43,6 +43,6 @@ Provides video decoding and processing capabilities of a Microsoft Direct3D 12 d
 
 ## -see-also
 
-- [ID3D12VideoDevice](nn-d3d12video-id3d12videodevice)
-- [ID3D12VideoDevice2](nn-d3d12video-id3d12videodevice2)
+- [ID3D12VideoDevice](nn-d3d12video-id3d12videodevice.md)
+- [ID3D12VideoDevice2](nn-d3d12video-id3d12videodevice2.md)
 

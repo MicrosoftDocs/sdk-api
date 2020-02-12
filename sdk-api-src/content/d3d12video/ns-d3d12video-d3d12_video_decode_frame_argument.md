@@ -45,7 +45,7 @@ Represents the decode parameters for a frame. Parameter definitions are specifie
 
 ### -field Type
 
-A member of the [D3D12_VIDEO_DECODE_ARGUMENT_TYPE](ne-d3d12video-d3d12_video_decode_argument_type) enumeration specifying the type of argument.
+A member of the [D3D12_VIDEO_DECODE_ARGUMENT_TYPE](ne-d3d12video-d3d12_video_decode_argument_type.md) enumeration specifying the type of argument.
  
 ### -field Size
 

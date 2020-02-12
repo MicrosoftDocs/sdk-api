@@ -45,11 +45,11 @@ Describes the supported scaling range of output sizes for a video scaler.
 
 ### -field OutputSizeRange
 
-A [D3D12_VIDEO_SIZE_RANGE](ns-d3d12video-d3d12_video_size_range) structure describing the supported output size range for the scaler.
+A [D3D12_VIDEO_SIZE_RANGE](ns-d3d12video-d3d12_video_size_range.md) structure describing the supported output size range for the scaler.
  
 ### -field Flags
 
-A member of the [D3D12_VIDEO_SCALE_SUPPORT_FLAGS](ne-d3d12video-d3d12_video_scale_support_flags) enumeration specifying the supported scaling capabilities of the scaler. 
+A member of the [D3D12_VIDEO_SCALE_SUPPORT_FLAGS](ne-d3d12video-d3d12_video_scale_support_flags.md) enumeration specifying the supported scaling capabilities of the scaler. 
  
 
 ## -remarks

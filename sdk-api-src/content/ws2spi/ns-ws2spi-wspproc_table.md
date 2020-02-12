@@ -15,8 +15,7 @@ req.lib:
 req.max-support: 
 req.redist: 
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Minimum supported server
-Windows 2000 Server [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.target-type: 
 req.typenames: WSPPROC_TABLE, *LPWSPPROC_TABLE
 req.umdf-ver: 
