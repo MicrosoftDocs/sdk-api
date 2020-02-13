@@ -53,11 +53,11 @@ The <b>InitializeObjectAttributes</b> macro initializes the opaque <a href="http
 
 ```cpp
 VOID InitializeObjectAttributes(
-  [out]          POBJECT_ATTRIBUTES   InitializedAttributes,
-  [in]           PUNICODE_STRING      ObjectName,
-  [in]           ULONG                Attributes,
-  [in]           HANDLE               RootDirectory,
-  [in, optional] PSECURITY_DESCRIPTOR SecurityDescriptor
+  [out]          POBJECT_ATTRIBUTES   p,
+  [in]           PUNICODE_STRING      n,
+  [in]           ULONG                a,
+  [in]           HANDLE               r,
+  [in, optional] PSECURITY_DESCRIPTOR s
 );
 ```
 
@@ -67,17 +67,17 @@ VOID InitializeObjectAttributes(
 
 
 
-### -param InitializedAttributes
+### -param p
 
 A pointer to the [OBJECT_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdef/ns-ntdef-_object_attributes) structure to initialize.
 
 
-### -param ObjectName
+### -param n
 
 A pointer to a Unicode string that contains the name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the object directory specified by the RootDirectory parameter.
 
 
-### -param Attributes
+### -param a
 
 
 Specifies one or more of the following flags:
@@ -93,12 +93,12 @@ Specifies one or more of the following flags:
 |OBJ_FORCE_ACCESS_CHECK | The routine opening the handle should enforce all access checks for the object, even if the handle is being opened in kernel mode.|
 
 
-### -param RootDirectory
+### -param r
 
 A handle to the root object directory for the path name specified in the ObjectName parameter. If ObjectName is a fully qualified object name, RootDirectory is NULL. Use ZwCreateDirectoryObject [ZwCreateDirectoryObject](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwcreatedirectoryobject) to obtain a handle to an object directory.
 
 
-### -param SecurityDescriptor
+### -param s
 
 Specifies a security descriptor to apply to an object when it is created. This parameter is optional. Drivers can specify NULL to accept the default security for the object. For more information, see the following Remarks section.
 
