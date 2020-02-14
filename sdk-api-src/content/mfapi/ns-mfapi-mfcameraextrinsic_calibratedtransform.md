@@ -81,6 +81,7 @@ The <b>Position</b> value should be expressed in real-world coordinates in units
 <img alt="Right-handed Cartesian coordinate system" src="images/MFCameraExtrinsic_Diagram.png"/>
 <div class="alert"><b>Important</b>
   <p class="note">The <b>Position</b> and <b>Orientation</b> have different interpretations for stand-alone sensor groups, and for Windows Mixed Reality devices.
+</div>
   
 ### Stand-alone sensor groups
 <p class="note">For stand-alone sensor groups, the position and orientation express the location of the origin of the group in the sensor's coordinate system. For example, a <b>Position</b> value of {-5, 0, 0} means that the origin is 5 meters to the left of the sensor, and therefore the sensor is 5 meters to the right of the origin. A sensor that is positioned 2 meters above the origin should specify a <b>Position</b> of {0, -2, 0} because that is the position of the origin relative to the sensor.
@@ -104,7 +105,6 @@ typedef enum _MFCameraExtrinsicsCalibrationType
 DEFINE_GUID(MFSampleExtension_CameraExtrinsicsCalibrationType, 0x3524e3b0, 0xc355, 0x49f1, 0xb8, 0xb0, 0xd0, 0xdd, 0x62, 0xde, 0x37, 0xa7);
 ```
 
-</div>
 <div> </div>
 
 
