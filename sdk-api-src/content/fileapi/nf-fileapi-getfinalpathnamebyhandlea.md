@@ -253,7 +253,7 @@ The Server Message Block (SMB) Protocol does not support queries for normalized 
      named "C:\tmp\mydir" that points to "D:\yourdir", the final path would be 
      "D:\yourdir".
 
-The string that is returned by this function uses the \\?\ 
+The string that is returned by this function uses the "\\\\?\\" 
      syntax. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
