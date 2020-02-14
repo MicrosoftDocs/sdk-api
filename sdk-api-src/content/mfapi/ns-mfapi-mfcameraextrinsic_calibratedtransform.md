@@ -95,7 +95,7 @@ In addition, the <b>CalibrationId</b> can be passed to <a href="https://docs.mic
 To determine whether an <b>IMFSample</b> came frame a sensor attached to a Windows Mixed Reality device, look for the following property attached to the frame, set to `MFCameraExtrinsicsCalibrationType_SpatialGraphDynamicNode`:
 
 ```cpp
-enum _MFCameraExtrinsicsCalibrationType
+typedef enum _MFCameraExtrinsicsCalibrationType
 {
     MFCameraExtrinsicsCalibrationType_Unknown = 0,
     MFCameraExtrinsicsCalibrationType_SpatialGraphDynamicNode = 1
