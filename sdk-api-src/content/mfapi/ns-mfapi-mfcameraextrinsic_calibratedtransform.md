@@ -92,6 +92,18 @@ The <b>Position</b> value should be expressed in real-world coordinates in units
   
 In addition, the <b>CalibrationId</b> can be passed to <a href="https://docs.microsoft.com/en-us/uwp/api/windows.perception.spatial.preview.spatialgraphinteroppreview.createlocatorfornode">SpatialGraphInteropPreview.CreateLocatorForNode</a> to create a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.perception.spatial.spatiallocator">SpatialLocator</a> which represents the Windows Mixed Reality device. This can be used to compute the location of the sensor in space for a given frame, by querying the location of the <b>SpatialLocator</b> at the time the frame was captured, and combining this with the the <b>Position</b> and <b>Orientation</b> of the <b>MFCameraExtrinsic_CalibratedTransform</b>. To query the device's location for a frame, pass the timestamp of the frame given by <a href="https://docs.microsoft.com/en-us/windows/win32/api/mfobjects/nf-mfobjects-imfsample-getsampletime">IMFSample::GetSampleTime</a> to <a href="https://docs.microsoft.com/en-us/uwp/api/windows.perception.perceptiontimestamphelper.fromsystemrelativetargettime">PerceptionTimestampHelper.FromSystemRelativeTargetTime</a>, and pass the resulting <b>PerceptionTimestamp</b> to <a href="https://docs.microsoft.com/en-us/uwp/api/windows.perception.spatial.spatiallocator.trylocateattimestamp">SpatialLocator.TryLocateAtTimestamp</a>.
 
+To determine whether an <b>IMFSample</b> came frame a sensor attached to a Windows Mixed Reality device, look for the following property attached to the frame, set to `MFCameraExtrinsicsCalibrationType_SpatialGraphDynamicNode`:
+
+```cpp
+enum _MFCameraExtrinsicsCalibrationType
+{
+    MFCameraExtrinsicsCalibrationType_Unknown = 0,
+    MFCameraExtrinsicsCalibrationType_SpatialGraphDynamicNode = 1
+} MFCameraExtrinsicsCalibrationType;
+
+DEFINE_GUID(MFSampleExtension_CameraExtrinsicsCalibrationType, 0x3524e3b0, 0xc355, 0x49f1, 0xb8, 0xb0, 0xd0, 0xdd, 0x62, 0xde, 0x37, 0xa7);
+```
+
 </div>
 <div> </div>
 
