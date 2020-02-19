@@ -71,7 +71,7 @@ Retrieves a list of drive letters and mounted folder paths for the specified vol
 
 A volume <b>GUID</b> path for the volume. A volume <b>GUID</b> 
       path is of the form 
-      "\\?\Volume{<i>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</i>}\".
+      "\\\\?\\Volume{<i>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</i>}\\".
 
 
 ### -param lpszVolumePathNames [out]
