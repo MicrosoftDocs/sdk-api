@@ -150,6 +150,7 @@ The following restrictions and interactions apply:
 <li>Cannot be used with D3D12_RESOURCE_DIMENSION_BUFFER; but buffers always have the properties represented by this flag.
 </li>
 <li>Cannot be used with MSAA textures.</li>
+<li>Cannot be used with D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL.</li>
 </ul>
 
 ### -field D3D12_RESOURCE_FLAG_VIDEO_DECODE_REFERENCE_ONLY
