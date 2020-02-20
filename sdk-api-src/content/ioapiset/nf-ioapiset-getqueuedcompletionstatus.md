@@ -62,38 +62,27 @@ To dequeue multiple I/O completion packets at once, use the <a href="https://doc
 
 ## -parameters
 
-
-
-
 ### -param CompletionPort [in]
 
 A handle to the completion port. To create a completion port, use the 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a> function.
 
-
 ### -param lpNumberOfBytesTransferred
 
-A pointer to a variable that receives the number of bytes transferred during an I/O operation that has completed.
-
+A pointer to a variable that receives the number of bytes transferred in a completed I/O operation.
 
 ### -param lpCompletionKey [out]
 
 A pointer to a variable that receives the completion key value associated with the file handle whose I/O operation has completed. A completion key is a per-file key that is specified in a call to 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a>.
 
-
 ### -param lpOverlapped [out]
 
 A pointer to a variable that receives the address of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that was specified when the completed I/O operation was started. 
 
-
-
-						
-
 Even if you have passed the function a file handle associated with a completion port and a valid 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure, an application can prevent completion port notification. This is done by specifying a valid event handle for the <b>hEvent</b> member of the <b>OVERLAPPED</b> structure, and setting its low-order bit. A valid event handle whose low-order bit is set keeps I/O completion from being queued to the completion port.
-
 
 ### -param dwMilliseconds [in]
 
@@ -104,21 +93,14 @@ If <i>dwMilliseconds</i> is <b>INFINITE</b>, the function will never time out. I
 
 ## -returns
 
-
-
 Returns nonzero (<b>TRUE</b>) if successful or zero (<b>FALSE</b>) otherwise.
 
- To get extended error information, call 
+To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 For more information, see the Remarks section.
 
-
-
-
 ## -remarks
-
-
 
 This function associates a thread with the specified completion port. A thread can be associated with at most one completion port.  
 
@@ -195,15 +177,8 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a>
 
