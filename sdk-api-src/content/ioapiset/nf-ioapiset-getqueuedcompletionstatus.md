@@ -73,7 +73,7 @@ A handle to the completion port. To create a completion port, use the
 
 ### -param lpNumberOfBytesTransferred
 
-TBD
+A pointer to a variable that receives the number of bytes transferred during an I/O operation that has completed.
 
 
 ### -param lpCompletionKey [out]
@@ -100,11 +100,6 @@ Even if you have passed the function a file handle associated with a completion 
 The number of milliseconds that the caller is willing to wait for a completion packet to appear at the completion port. If a completion packet does not appear within the specified time, the function times out, returns <b>FALSE</b>, and sets *<i>lpOverlapped</i> to <b>NULL</b>.
 
 If <i>dwMilliseconds</i> is <b>INFINITE</b>, the function will never time out. If <i>dwMilliseconds</i> is zero and there is no I/O operation to dequeue, the function will time out immediately.
-
-
-#### - lpNumberOfBytes [out]
-
-A pointer to a variable that receives the number of bytes transferred during an I/O operation that has completed.
 
 
 ## -returns
