@@ -67,9 +67,9 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3
 
 ### -param pDesc1 [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_render_target_view_desc1">D3D11_RENDER_TARGET_VIEW_DESC1</a>*</b>
+Type: <b>const <a href="/windows/win32/api/d3d11_3/ns-d3d11_3-d3d11_render_target_view_desc1">D3D11_RENDER_TARGET_VIEW_DESC1</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_render_target_view_desc1">D3D11_RENDER_TARGET_VIEW_DESC1</a> that represents a render-target view description. Set this parameter to <b>NULL</b> to create a view that accesses all of the subresources in mipmap level 0.
+Pointer to a <a href="/windows/win32/api/d3d11_3/ns-d3d11_3-d3d11_render_target_view_desc1">D3D11_RENDER_TARGET_VIEW_DESC1</a> that represents a render-target view description. Set this parameter to <b>NULL</b> to create a view that accesses all of the subresources in mipmap level 0.
 
 
 ### -param ppRTView1 [out, optional]
