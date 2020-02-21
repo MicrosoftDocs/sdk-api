@@ -25,7 +25,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: SearchSDK.lib (for CLSID_FilterRegistration)
 req.dll: 
 req.irql: 
 topic_type:
