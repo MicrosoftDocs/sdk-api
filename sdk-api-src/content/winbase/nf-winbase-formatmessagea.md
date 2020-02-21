@@ -111,12 +111,6 @@ In previous versions of Windows, this value was not available for use when compi
            <b>FormatMessage</b> will not automatically fail with an 
            error of <b>ERROR_MORE_DATA</b>.
 
-
-
-<b>Windows 10:  </b><b> LocalAlloc()</b> has different options: <b>LMEM_FIXED</b>, and  <b>LMEM_MOVABLE</b>. <b>FormatMessage()</b> uses <b>LMEM_FIXED</b>, so <b>HeapFree</b> can be used. If <b>LMEM_MOVABLE</b> is used, <b>HeapFree</b> cannot be used.
-
-
-
 </td>
 </tr>
 <tr>
