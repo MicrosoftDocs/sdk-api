@@ -149,7 +149,7 @@ Only those pages that have this property set to <b>TRUE</b> will be included in 
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

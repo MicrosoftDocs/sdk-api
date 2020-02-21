@@ -98,7 +98,7 @@ Each <b>Block</b> element has an attribute for the hash value and compressed siz
 
 #### Examples
 
-For a example code, see <a href="https://go.microsoft.com/fwlink/p/?linkid=236966">Read app package manifest info sample (DescribeAppx)</a>.
+For a example code, see <a href="https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-3ff13a92">Read app package manifest info sample (DescribeAppx)</a>.
 
 <div class="code"></div>
 
@@ -125,7 +125,7 @@ For a example code, see <a href="https://go.microsoft.com/fwlink/p/?linkid=23696
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=236966">Read app package manifest info sample (DescribeAppx)</a>
+<a href="https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-3ff13a92">Read app package manifest info sample (DescribeAppx)</a>
 
 
 

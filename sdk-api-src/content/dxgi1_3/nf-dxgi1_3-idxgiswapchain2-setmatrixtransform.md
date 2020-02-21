@@ -86,7 +86,7 @@ The transform matrix to use for swap chain scaling and translation. This functio
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=311761">DirectX foreground swap chains sample</a>
+<a href="https://code.msdn.microsoft.com/windowsapps/DirectX-Foreground-Swap-6c20f2bb">DirectX foreground swap chains sample</a>
 
 
 

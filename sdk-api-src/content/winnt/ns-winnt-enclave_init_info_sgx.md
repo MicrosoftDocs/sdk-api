@@ -81,7 +81,7 @@ Not used.
 
 
 
-For more information about the <b>SIGSTRUCT</b> and <b>EINITTOKEN</b> structures, see the Intel SGX Programming Reference that is available from <a href="https://go.microsoft.com/fwlink/p/?linkid=691175">Intel Software Guard Extensions</a>.
+For more information about the <b>SIGSTRUCT</b> and <b>EINITTOKEN</b> structures, see the Intel SGX Programming Reference that is available from <a href="https://software.intel.com/sgx">Intel Software Guard Extensions</a>.
 
 
 

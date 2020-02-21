@@ -71,7 +71,7 @@ The number of items in the array.
 
 
 
-This type cannot be a key. This differs from the DMTF CIM specification. For more information on keys, see <a href="https://go.microsoft.com/fwlink/p/?linkid=259738">https://go.microsoft.com/fwlink/p/?linkid=259738</a>.
+This type cannot be a key. This differs from the DMTF CIM specification. For more information on keys, see <a href="https://msdn.microsoft.com/library/windows/desktop/aa392157(v=vs.85).aspx">https://go.microsoft.com/fwlink/p/?linkid=259738</a>.
 
 
 

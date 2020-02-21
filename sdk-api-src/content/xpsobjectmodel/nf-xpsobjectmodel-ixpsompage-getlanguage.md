@@ -123,11 +123,11 @@ This method allocates the memory used by the string that is returned in <i>langu
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=161490">The Internet Engineering Task Force (IETF) RFC 3066</a>
+<a href="http://tools.ietf.org/html/rfc3066">The Internet Engineering Task Force (IETF) RFC 3066</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

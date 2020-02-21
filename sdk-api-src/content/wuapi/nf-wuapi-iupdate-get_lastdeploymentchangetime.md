@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-On computers that are running Windows XP, the <b>LastDeploymentChangeTime</b> property retrieves the same date and time that are retrieved by the  <a href="https://go.microsoft.com/fwlink/p/?linkid=121339">CreationDate</a> property  of the <b>IUpdateApproval</b> interface. The <a href="https://go.microsoft.com/fwlink/p/?linkid=121339">CreationDate</a> property is used on computers that are running Windows Server 2003.
+On computers that are running Windows XP, the <b>LastDeploymentChangeTime</b> property retrieves the same date and time that are retrieved by the  <a href="https://msdn.microsoft.com/library/microsoft.updateservices.administration.iupdateapproval.creationdate(VS.85).aspx">CreationDate</a> property  of the <b>IUpdateApproval</b> interface. The <a href="https://msdn.microsoft.com/library/microsoft.updateservices.administration.iupdateapproval.creationdate(VS.85).aspx">CreationDate</a> property is used on computers that are running Windows Server 2003.
 
 
 

@@ -130,7 +130,7 @@ Specifies the maximum possible value for the keyboard typematic rate and delay i
 
 This structure is used with a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_attributes">IOCTL_KEYBOARD_QUERY_ATTRIBUTES</a> request to return information about the attributes that a keyboard supports.
 
-For information about keyboard types, subtypes, scan code modes, and related keyboard layouts, see the documentation in i8042prt.h, kbd.h, and the <a href="https://go.microsoft.com/fwlink/p/?linkid=256128">layout</a> files in the MSDN Code Gallery. See also the Microsoft specification <i>Keyboard Scan Code Specification</i> available at the <a href="https://go.microsoft.com/fwlink/p/?linkid=242210">key support and scan codes</a> website.
+For information about keyboard types, subtypes, scan code modes, and related keyboard layouts, see the documentation in i8042prt.h, kbd.h, and the <a href="https://code.msdn.microsoft.com/windowshardware/Keyboard-Layout-Sample-b142d9e3">layout</a> files in the MSDN Code Gallery. See also the Microsoft specification <i>Keyboard Scan Code Specification</i> available at the <a href="https://go.microsoft.com/fwlink/p/?linkid=242210">key support and scan codes</a> website.
 
 
 

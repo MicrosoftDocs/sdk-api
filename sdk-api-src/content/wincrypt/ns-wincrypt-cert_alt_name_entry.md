@@ -108,7 +108,7 @@ URL as a IA5 string.
 
 ### -field DUMMYUNIONNAME.IPAddress
 
-Octet string that is an Internet Protocol address defined in accordance with Internet <a href="https://go.microsoft.com/fwlink/p/?linkid=84067">RFC 791</a>.
+Octet string that is an Internet Protocol address defined in accordance with Internet <a href="https://www.ietf.org/rfc/rfc791.txt">RFC 791</a>.
 
 
 ### -field DUMMYUNIONNAME.pszRegisteredID

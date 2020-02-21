@@ -103,7 +103,7 @@ This method is called when the RTS object has caught an exception.
 
 #### Examples
 
-The following C++ example implements an <b>IStylusPlugin::Error Method</b> method that outputs a message and error code to the debug window using <a href="https://go.microsoft.com/fwlink/p/?linkid=73729">The TRACE Macro</a>.
+The following C++ example implements an <b>IStylusPlugin::Error Method</b> method that outputs a message and error code to the debug window using <a href="https://msdn2.microsoft.com/library/4wyz8787.aspx">The TRACE Macro</a>.
 
 
 ```cpp

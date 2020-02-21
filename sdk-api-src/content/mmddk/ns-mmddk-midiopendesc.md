@@ -59,7 +59,7 @@ The <code>MIDIOPENDESC</code> structure is a client-filled structure that provid
 
 ### -field hMidi
 
-Specifies the handle that the client uses to reference the device. This handle is assigned by WINMM. Use this handle when you notify the client with the <a href="https://go.microsoft.com/fwlink/p/?linkid=142261">DriverCallback</a> function.
+Specifies the handle that the client uses to reference the device. This handle is assigned by WINMM. Use this handle when you notify the client with the <a href="https://msdn.microsoft.com/library/ms708182(VS.85).aspx">DriverCallback</a> function.
 
 
 ### -field dwCallback
@@ -92,7 +92,7 @@ Specifies an array of device identifiers. The number of identifiers is given by 
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=142261">DriverCallback</a>
+<a href="https://msdn.microsoft.com/library/ms708182(VS.85).aspx">DriverCallback</a>
  
 
  

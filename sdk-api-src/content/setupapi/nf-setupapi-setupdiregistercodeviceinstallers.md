@@ -71,7 +71,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi
 
 
 
-<b>SetupDiRegisterCoDeviceInstallers</b> returns <b>TRUE</b> if the function succeeds. If the function returns <b>FALSE</b>, call <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> for extended error information.
+<b>SetupDiRegisterCoDeviceInstallers</b> returns <b>TRUE</b> if the function succeeds. If the function returns <b>FALSE</b>, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> for extended error information.
 
 
 

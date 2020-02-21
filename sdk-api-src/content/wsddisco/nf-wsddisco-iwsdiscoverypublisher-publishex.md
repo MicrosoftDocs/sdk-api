@@ -71,7 +71,7 @@ Current metadata version.
 
 ### -param ullInstanceId [in]
 
-Identifier for the current instance of the device being published. This identifier must be incremented whenever the service is restarted. For more information about instance identifiers, see Appendix I of the <a href="https://go.microsoft.com/fwlink/p/?linkid=87841">WS-Discovery specification</a>.
+Identifier for the current instance of the device being published. This identifier must be incremented whenever the service is restarted. For more information about instance identifiers, see Appendix I of the <a href="https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf">WS-Discovery specification</a>.
 
 <div class="alert"><b>Note</b>  For compatibility with the WS-Discovery specification, this value must be less than or equal to UINT_MAX (4294967295).</div>
 <div> </div>
@@ -85,7 +85,7 @@ Counter within the scope of the instance identifier for the current message. The
 
 ### -param pszSessionId [in, optional]
 
-Unique identifier within the scope of the instance identifier for the current session. This parameter corresponds to the sequence identifier in the AppSequence block in the Probe message. For more information about sequence identifiers, see Appendix I of the <a href="https://go.microsoft.com/fwlink/p/?linkid=87841">WS-Discovery specification</a>.
+Unique identifier within the scope of the instance identifier for the current session. This parameter corresponds to the sequence identifier in the AppSequence block in the Probe message. For more information about sequence identifiers, see Appendix I of the <a href="https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf">WS-Discovery specification</a>.
 
 This parameter may be <b>NULL</b>.
 

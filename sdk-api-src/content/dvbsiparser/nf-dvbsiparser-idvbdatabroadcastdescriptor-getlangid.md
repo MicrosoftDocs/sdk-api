@@ -61,7 +61,7 @@ identifies the language used for the text description field.
 
 ### -param pulVal [out]
 
-Receives the language code. For a list of language codes, refer to the <a href="https://go.microsoft.com/fwlink?linkID=161422">ISO 639 Code Tables</a>.
+Receives the language code. For a list of language codes, refer to the <a href="http://www-01.sil.org/iso639-3/codes.asp">ISO 639 Code Tables</a>.
 
 
 ## -returns

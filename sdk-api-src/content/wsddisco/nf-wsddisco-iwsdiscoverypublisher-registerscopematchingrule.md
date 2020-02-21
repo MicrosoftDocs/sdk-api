@@ -116,7 +116,7 @@ Insufficient memory to complete the operation.
 
 
 
-<b>RegisterScopeMatchingRule</b> allows custom scope matching rules to be defined and added to the existing set defined in the <a href="https://go.microsoft.com/fwlink/p/?linkid=87841">WS-Discovery specification</a>.
+<b>RegisterScopeMatchingRule</b> allows custom scope matching rules to be defined and added to the existing set defined in the <a href="https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf">WS-Discovery specification</a>.
 
 
 

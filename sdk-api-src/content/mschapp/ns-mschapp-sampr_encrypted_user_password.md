@@ -59,7 +59,7 @@ The <b>SAMPR_ENCRYPTED_USER_PASSWORD</b> stores a user's encrypted password.
 
 ### -field Buffer
 
-An array contains an encrypted password. The contents of the array are calculated using either the <b>NewPasswordEncryptedWithOldNtPasswordHash</b> or <b>NewPasswordEncryptedWithOldLmPasswordHash</b> functions as defined in <a href="https://go.microsoft.com/fwlink/p/?linkid=84041">RFC 2433</a>, sections A.11 and A.15 respectively.
+An array contains an encrypted password. The contents of the array are calculated using either the <b>NewPasswordEncryptedWithOldNtPasswordHash</b> or <b>NewPasswordEncryptedWithOldLmPasswordHash</b> functions as defined in <a href="https://www.ietf.org/rfc/rfc2433.txt">RFC 2433</a>, sections A.11 and A.15 respectively.
 
 
 ## -see-also

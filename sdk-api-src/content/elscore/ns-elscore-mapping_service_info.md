@@ -99,7 +99,7 @@ Number of content types that the service can receive.
 
 Optional. Pointer to an array of input content types, following the format of the MIME content types, that identify the format that the service interprets when the application passes data. Examples of content types are "text/plain", "text/html" and "text/css". 
 
-<div class="alert"><b>Note</b>  In Windows 7, the ELS services support only the content type "text/plain". A content types specification can be found at <a href="https://go.microsoft.com/fwlink/p/?linkid=161570">Text Media Types</a>.</div>
+<div class="alert"><b>Note</b>  In Windows 7, the ELS services support only the content type "text/plain". A content types specification can be found at <a href="https://www.iana.org/assignments/media-types/text">Text Media Types</a>.</div>
 <div> </div>
 
 ### -field dwOutputContentTypesCount

@@ -73,7 +73,7 @@ After the interface is removed, this function sets the SPINT_REMOVED flag in <i>
 
 
 
-<b>SetupDiRemoveDeviceInterface</b> returns <b>TRUE</b> if the function completed without error. If the function completed with an error, it returns <b>FALSE</b> and the error code for the failure can be retrieved by calling <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+<b>SetupDiRemoveDeviceInterface</b> returns <b>TRUE</b> if the function completed without error. If the function completed with an error, it returns <b>FALSE</b> and the error code for the failure can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 
@@ -88,7 +88,7 @@ The caller of this function must be a member of the Administrators group.
 
 Call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdideletedeviceinterfacedata">SetupDiDeleteDeviceInterfaceData</a> to delete the interface from a device information list.
 
-A device interface must be disabled to be removed. If the interface is enabled, this function fails and <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_DEVICE_INTERFACE_ACTIVE. Disable an interface by using whatever interface-specific mechanism is provided (for example, an IOCTL). If the caller has no way to disable an interface and the interface must be removed, the caller must stop the underlying device by using <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdichangestate">SetupDiChangeState</a>. Stopping the device disables all the interfaces exposed by the device. 
+A device interface must be disabled to be removed. If the interface is enabled, this function fails and <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_DEVICE_INTERFACE_ACTIVE. Disable an interface by using whatever interface-specific mechanism is provided (for example, an IOCTL). If the caller has no way to disable an interface and the interface must be removed, the caller must stop the underlying device by using <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdichangestate">SetupDiChangeState</a>. Stopping the device disables all the interfaces exposed by the device. 
 
 
 

@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 Returns a waitable handle that signals when the DXGI adapter has finished presenting a new frame.
 
-Windows 8.1 introduces new APIs that allow lower-latency rendering by waiting  until the previous frame is presented to the display before drawing the next frame. To use this method, first create the DXGI swap chain with the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_chain_flag">DXGI_SWAP_CHAIN_FLAG_FRAME_LATENCY_WAITABLE_OBJECT</a> flag set, then call <b>GetFrameLatencyWaitableObject</b> to retrieve the waitable handle. Use the waitable handle with <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex">WaitForSingleObjectEx</a> to synchronize rendering of each new frame with the end of the previous frame. For every frame it renders, the app should wait on this handle before starting any rendering operations. Note that this requirement includes the first frame the app renders with the swap chain. See the <a href="https://go.microsoft.com/fwlink/p/?linkid=320129">DirectXLatency sample</a>.
+Windows 8.1 introduces new APIs that allow lower-latency rendering by waiting  until the previous frame is presented to the display before drawing the next frame. To use this method, first create the DXGI swap chain with the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_chain_flag">DXGI_SWAP_CHAIN_FLAG_FRAME_LATENCY_WAITABLE_OBJECT</a> flag set, then call <b>GetFrameLatencyWaitableObject</b> to retrieve the waitable handle. Use the waitable handle with <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex">WaitForSingleObjectEx</a> to synchronize rendering of each new frame with the end of the previous frame. For every frame it renders, the app should wait on this handle before starting any rendering operations. Note that this requirement includes the first frame the app renders with the swap chain. See the <a href="https://code.msdn.microsoft.com/windowsapps/DirectXLatency-sample-a2e2c9c3">DirectXLatency sample</a>.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ A handle to the waitable object, or NULL if the swap chain was not created with 
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=320129">DirectX latency sample</a>
+<a href="https://code.msdn.microsoft.com/windowsapps/DirectXLatency-sample-a2e2c9c3">DirectX latency sample</a>
 
 
 

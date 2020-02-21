@@ -57,7 +57,7 @@ Copies the specified number of bytes from one string to another. The size of the
 
 <b>StringCbCopyNEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=192506">strncpy, wcsncpy, _tcsncpy</a></li>
+<li><a href="https://msdn.microsoft.com/library/xdsywd25.aspx">strncpy, wcsncpy, _tcsncpy</a></li>
 </ul>
 
 ## -parameters

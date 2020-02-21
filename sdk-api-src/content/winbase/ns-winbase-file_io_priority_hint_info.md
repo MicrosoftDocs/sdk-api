@@ -72,7 +72,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-s
     addition to the idle priority (very low), this function allows normal priority and low priority. Whether these 
     priorities are supported and honored by the underlying drivers depends on their implementation (which is why they 
     are called hints). For more information, see the 
-    <a href="https://go.microsoft.com/fwlink/p/?linkid=98562">I/O Prioritization in Windows Vista</a> 
+    <a href="https://www.microsoft.com/whdc/driver/priorityio.mspx">I/O Prioritization in Windows Vista</a> 
     white paper on the Windows Hardware Developer Central (WHDC) website.
 
 This structure must be aligned on a <b>LONGLONG</b> (8-byte) boundary.

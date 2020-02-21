@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BCryptDeriveKeyPBKDF2</b> function derives a key from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> value by using the PBKDF2 key derivation algorithm as defined by <a href="https://go.microsoft.com/fwlink/p/?linkid=133482">RFC 2898</a>.
+The <b>BCryptDeriveKeyPBKDF2</b> function derives a key from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> value by using the PBKDF2 key derivation algorithm as defined by <a href="https://www.ietf.org/rfc/rfc2898.txt">RFC 2898</a>.
 
 
 ## -parameters

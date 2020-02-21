@@ -129,7 +129,7 @@ A value that specifies the authentication protocol used to authenticate the remo
 </td>
 <td width="60%">
 X.509 Public Key Infrastructure
-                      Certificate (<a href="https://go.microsoft.com/fwlink/p/?linkid=70416">RFC 2459</a>)
+                      Certificate (<a href="https://www.ietf.org/rfc/rfc2459.txt">RFC 2459</a>)
 
 </td>
 </tr>

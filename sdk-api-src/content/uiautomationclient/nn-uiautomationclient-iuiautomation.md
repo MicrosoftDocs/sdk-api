@@ -389,7 +389,7 @@ Retrieves the UI Automation element that represents the desktop, prefetches the 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-intnativearraytosafearray">IntNativeArrayToSafeArray</a>
 </td>
 <td align="left" width="63%">
-Converts an array of integers to a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>.
+Converts an array of integers to a <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>.
 
 </td>
 </tr>
@@ -398,7 +398,7 @@ Converts an array of integers to a <a href="https://go.microsoft.com/fwlink/p/?l
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-intsafearraytonativearray">IntSafeArrayToNativeArray</a>
 </td>
 <td align="left" width="63%">
-Converts a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> of integers to an array.
+Converts a <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> of integers to an array.
 
 </td>
 </tr>
@@ -479,7 +479,7 @@ Removes a structure-changed event handler.
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-safearraytorectnativearray">SafeArrayToRectNativeArray</a>
 </td>
 <td align="left" width="63%">
-Converts a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> containing rectangle coordinates to an array of type <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>. 
+Converts a <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> containing rectangle coordinates to an array of type <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>. 
 
 </td>
 </tr>

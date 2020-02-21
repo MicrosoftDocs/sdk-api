@@ -84,7 +84,7 @@ Returns S_OK if successful; otherwise, returns one of the following members of t
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=320129">DirectX latency sample</a>
+<a href="https://code.msdn.microsoft.com/windowsapps/DirectXLatency-sample-a2e2c9c3">DirectX latency sample</a>
 
 
 

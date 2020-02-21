@@ -59,7 +59,7 @@ Gets the media  type of part content.
 
 ### -param contentType [out, retval]
 
-The media  type of part content, as specified by the package format designer and adhering to <a href="https://go.microsoft.com/fwlink/p/?linkid=143979">RFC 2616: HTTP/1.1</a>.
+The media  type of part content, as specified by the package format designer and adhering to <a href="https://www.w3.org/Protocols/rfc2616/rfc2616.html">RFC 2616: HTTP/1.1</a>.
 
 
 ## -returns
@@ -124,7 +124,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
 
 
@@ -164,7 +164,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=143979">RFC 2616: HTTP/1.1</a>
+<a href="https://www.w3.org/Protocols/rfc2616/rfc2616.html">RFC 2616: HTTP/1.1</a>
 
 
 

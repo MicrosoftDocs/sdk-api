@@ -151,7 +151,7 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/j
 </dl>
 </td>
 <td width="60%">
-Used to export and import a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">symmetric key</a> wrapped with another symmetric key. The actual wrapped key is in the format specified in the IETF <a href="https://go.microsoft.com/fwlink/p/?linkid=84565">RFC 3217</a> standard.
+Used to export and import a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">symmetric key</a> wrapped with another symmetric key. The actual wrapped key is in the format specified in the IETF <a href="https://www.ietf.org/rfc/rfc3217.txt">RFC 3217</a> standard.
 
 </td>
 </tr>

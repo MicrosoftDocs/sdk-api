@@ -99,7 +99,7 @@ The message is a fatal error. The connection is closed immediately.
 
 ### -field dwAlertNumber
 
-One of the alert messages defined by the TLS protocol specification. For descriptions of the defined messages, see  <a href="https://go.microsoft.com/fwlink/p/?linkid=185502">RFC 5246</a>,  <a href="https://go.microsoft.com/fwlink/p/?linkid=185503">RFC 4346</a>, or  <a href="https://go.microsoft.com/fwlink/p/?linkid=185504">RFC 2246</a>. This member must be one of the following values.
+One of the alert messages defined by the TLS protocol specification. For descriptions of the defined messages, see  <a href="http://tools.ietf.org/html/rfc5246#section-7.2">RFC 5246</a>,  <a href="http://tools.ietf.org/html/rfc4346#section-7.2">RFC 4346</a>, or  <a href="http://tools.ietf.org/html/rfc2246#section-7.2">RFC 2246</a>. This member must be one of the following values.
 
 
 

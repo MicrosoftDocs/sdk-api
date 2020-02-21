@@ -62,7 +62,7 @@ authentication and integrity protection.
 
 Specifies MD5 hash algorithm. 
 
-See <a href="https://go.microsoft.com/fwlink/p/?linkid=84027">RFC 1321</a> for further information.
+See <a href="https://www.ietf.org/rfc/rfc1321.txt">RFC 1321</a> for further information.
 
 
 ### -field IPSEC_AUTH_SHA_1

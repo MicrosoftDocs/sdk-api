@@ -160,7 +160,7 @@ A user-friendly name for the adapter. For example: "Local Area Connection 1." Th
       
 
 This member is the ifAlias field used by NDIS as described in 
-       <a href="https://go.microsoft.com/fwlink/p/?linkid=84054">RFC 2863</a>. The ifAlias field can be set by an 
+       <a href="https://www.ietf.org/rfc/rfc2863.txt">RFC 2863</a>. The ifAlias field can be set by an 
        NDIS interface provider when the NDIS driver is installed. For NDIS miniport drivers, this field is set by 
        NDIS.
 
@@ -521,7 +521,7 @@ An IEEE 1394 (Firewire) high performance serial bus network interface.
 Type: <b>IF_OPER_STATUS</b>
 
 The operational status for the interface as defined in RFC 2863.  For more information, see 
-      <a href="https://go.microsoft.com/fwlink/p/?linkid=84054">http://www.ietf.org/rfc/rfc2863.txt</a>. This 
+      <a href="https://www.ietf.org/rfc/rfc2863.txt">http://www.ietf.org/rfc/rfc2863.txt</a>. This 
       member can be one of the values from the <b>IF_OPER_STATUS</b> enumeration type defined in 
       the <i>Iftypes.h</i> header file. On Windows Vista and later, the header files 
       were reorganized and this enumeration is defined in the <i>Ifdef.h</i> header file.
@@ -858,7 +858,7 @@ The encapsulation method used by a tunnel if the adapter address is a tunnel.
 <div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
 <div> </div>
 The tunnel type is defined by the Internet Assigned Names Authority (IANA). For more information, see 
-      <a href="https://go.microsoft.com/fwlink/p/?linkid=84022">http://www.iana.org/assignments/ianaiftype-mib</a>. 
+      <a href="https://www.iana.org/assignments/ianaiftype-mib">http://www.iana.org/assignments/ianaiftype-mib</a>. 
       This member can be one of the values from the <b>TUNNEL_TYPE</b> enumeration type defined 
       in the <i>Ifdef.h</i> header file.
 

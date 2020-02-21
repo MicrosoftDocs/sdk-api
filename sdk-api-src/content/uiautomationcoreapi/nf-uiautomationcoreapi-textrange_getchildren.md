@@ -66,7 +66,7 @@ A text range object.
 
 ### -param pRetVal [out]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 When this function returns, contains 
 				an array of nodes that are children of the text range in the UI Automation tree.

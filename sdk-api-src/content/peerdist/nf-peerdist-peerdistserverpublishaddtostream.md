@@ -79,7 +79,7 @@ Pointer to the buffer that contains the data to be published. This buffer must r
 
 ### -param lpOverlapped [in]
 
-Pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure. The <b>Offset</b> and <b>OffsetHigh</b> members are reserved and must be zero.
+Pointer to an <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure. The <b>Offset</b> and <b>OffsetHigh</b> members are reserved and must be zero.
 
 
 ## -returns

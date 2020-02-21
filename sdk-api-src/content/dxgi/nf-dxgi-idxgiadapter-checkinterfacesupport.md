@@ -60,7 +60,7 @@ Checks whether the system supports a device interface for a graphics component.
 
 ### -param InterfaceName [in]
 
-Type: <b><a href="http://go.microsoft.com/?linkid=9742306">REFGUID</a></b>
+Type: <b><a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50?redirectedfrom=MSDN">REFGUID</a></b>
 
 The GUID of the interface of the device version for which support is being checked. For example, __uuidof(ID3D10Device).
 

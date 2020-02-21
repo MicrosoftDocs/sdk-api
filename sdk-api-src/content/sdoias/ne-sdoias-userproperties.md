@@ -112,36 +112,36 @@ Specifies whether callback is enabled for this user. See
 ### -field PROPERTY_USER_RADIUS_FRAMED_IPV6_ROUTE
 
 Specifies routing information to be configured for
-      the user on the NAS.  See the Framed-IPv6-Route section in <a href="https://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a> for more information.
+      the user on the NAS.  See the Framed-IPv6-Route section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a> for more information.
 
 
 ### -field PROPERTY_USER_SAVED_RADIUS_FRAMED_IPV6_ROUTE
 
 Specifies saved routing information for
-      the user on the NAS.  See the Framed-IPv6-Route section in <a href="https://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a> for more information.
+      the user on the NAS.  See the Framed-IPv6-Route section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a> for more information.
 
 
 ### -field PROPERTY_USER_RADIUS_FRAMED_INTERFACE_ID
 
 Used for IPv6. Specifies the interface identifier to be
-      configured for the user.  See the Framed-Interface-Id section in <a href="https://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a> for more information.
+      configured for the user.  See the Framed-Interface-Id section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a> for more information.
 
 
 ### -field PROPERTY_USER_SAVED_RADIUS_FRAMED_INTERFACE_ID
 
-Used for IPv6. Specifies the saved interface identifier for the user.  See the Framed-Interface-Id section in <a href="https://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a> for more information.
+Used for IPv6. Specifies the saved interface identifier for the user.  See the Framed-Interface-Id section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a> for more information.
 
 
 ### -field PROPERTY_USER_RADIUS_FRAMED_IPV6_PREFIX
 
 Specifies an IPv6 prefix (and corresponding route)
-      to be configured for the user.  See the Framed-IPv6-Prefix section in <a href="https://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a> for more information.
+      to be configured for the user.  See the Framed-IPv6-Prefix section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a> for more information.
 
 
 ### -field PROPERTY_USER_SAVED_RADIUS_FRAMED_IPV6_PREFIX
 
 Specifies an IPv6 prefix (and corresponding route)
-      saved for the user.  See the Framed-IPv6-Prefix section in <a href="https://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a> for more information.
+      saved for the user.  See the Framed-IPv6-Prefix section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a> for more information.
 
 
 ## -remarks

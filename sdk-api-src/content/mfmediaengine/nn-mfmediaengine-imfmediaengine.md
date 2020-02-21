@@ -470,7 +470,7 @@ This interface is extended with <a href="https://docs.microsoft.com/windows/desk
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=241429">Media Engine Sample</a>
+<a href="https://code.msdn.microsoft.com/windowsapps/media-engine-playback-ce1c82f0">Media Engine Sample</a>
 
 
 

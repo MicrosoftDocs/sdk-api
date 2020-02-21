@@ -74,7 +74,7 @@ Specifies how the object should execute the command. Possible values are taken f
 
 ### -param pvaIn [in]
 
-A pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=127015">VARIANTARG</a> structure containing input arguments. This parameter can be <b>NULL</b>.
+A pointer to a <a href="https://msdn.microsoft.com/library/ms221627.aspx">VARIANTARG</a> structure containing input arguments. This parameter can be <b>NULL</b>.
 
 
 ### -param pvaOut [in, out]

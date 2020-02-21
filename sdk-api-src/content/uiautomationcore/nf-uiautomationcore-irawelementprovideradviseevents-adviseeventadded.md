@@ -67,7 +67,7 @@ The identifier of the event being added. For a list of event IDs, see <a href="h
 
 ### -param propertyIDs [in]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 
 A pointer to the identifiers of properties being added, or <b>NULL</b> if the event listener 
 				being added is not listening for property events.

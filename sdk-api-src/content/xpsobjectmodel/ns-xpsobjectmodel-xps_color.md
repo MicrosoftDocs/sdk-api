@@ -155,7 +155,7 @@ The first element in the array, <i>channels</i>[0], contains the value for the a
 
 
 
-For information about how to interpret or apply the values in this structure's members, see the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>.
+For information about how to interpret or apply the values in this structure's members, see the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.
 
 
 
@@ -165,7 +165,7 @@ For information about how to interpret or apply the values in this structure's m
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

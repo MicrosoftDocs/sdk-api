@@ -68,7 +68,7 @@ The name of the payload file. The file name path must be relative to the root of
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
-The string specifying the <a href="https://go.microsoft.com/fwlink/p/?linkid=143979">content type</a> of  <i>fileName</i>.
+The string specifying the <a href="https://www.w3.org/Protocols/rfc2616/rfc2616.html">content type</a> of  <i>fileName</i>.
           
 
 

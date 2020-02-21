@@ -81,7 +81,7 @@ This function does not return a value.
 
 
 
-Windows Store apps developers may need to obtain synchronization.lib by installing the <a href="https://go.microsoft.com/fwlink/p/?LinkID=258383">Windows Software Development Kit (SDK) for Windows 8</a>.
+Windows Store apps developers may need to obtain synchronization.lib by installing the <a href="https://msdn.microsoft.com/en-US/windows/desktop/hh852363">Windows Software Development Kit (SDK) for Windows 8</a>.
 
 Only threads within the same process can be woken.
 

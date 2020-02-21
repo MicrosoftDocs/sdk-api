@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the <a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure that is associated with the specified user name.
+Retrieves the <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure that is associated with the specified user name.
 
 
 ## -parameters
@@ -96,7 +96,7 @@ The security descriptor data. For more information, see <a href="https://docs.mi
 
 ### -param ppContext [out]
 
-A pointer to a pointer to the <a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure that is associated with the user name.
+A pointer to a pointer to the <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure that is associated with the user name.
 
 If the function returns <b>TRUE</b>, this parameter can return a <b>NULL</b> pointer. This occurs when the user passes a <b>NULL</b> FIO_CONTEXT to <a href="https://docs.microsoft.com/windows/desktop/api/filehc/nf-filehc-associatecontextwithname">_AssociateContextWithName</a>.
 
@@ -127,7 +127,7 @@ Returns <b>TRUE</b> if the name is found in the cache; otherwise, it returns <b>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a>
  
 
  

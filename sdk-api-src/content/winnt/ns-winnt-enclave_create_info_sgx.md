@@ -66,7 +66,7 @@ The SGX enclave control structure (<b>SECS</b>) to use to create the enclave.
 
 
 
-For more information about the <b>SECS</b> structure, see the Intel SGX Programming Reference that is available from <a href="https://go.microsoft.com/fwlink/p/?linkid=691175">Intel Software Guard Extensions</a>.
+For more information about the <b>SECS</b> structure, see the Intel SGX Programming Reference that is available from <a href="https://software.intel.com/sgx">Intel Software Guard Extensions</a>.
 
 
 

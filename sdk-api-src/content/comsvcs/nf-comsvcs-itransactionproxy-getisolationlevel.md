@@ -59,7 +59,7 @@ Retrieves the isolation level of the non-DTC transaction.
 
 ### -param __MIDL__ITransactionProxy0000 [out, retval]
 
-A pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=148531">ISOLATIONLEVEL</a> value that specifies the isolation level of the non-DTC transaction.
+A pointer to an <a href="https://msdn.microsoft.com/library/ms679234.aspx">ISOLATIONLEVEL</a> value that specifies the isolation level of the non-DTC transaction.
 
 
 ## -returns

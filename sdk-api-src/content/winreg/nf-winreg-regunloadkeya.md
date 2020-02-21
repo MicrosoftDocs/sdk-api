@@ -60,7 +60,7 @@ ms.custom: 19H1
 
 Unloads the specified registry key and its subkeys from the registry.
 
- Applications that back up or restore system state including system files and registry hives should use the <a href="https://go.microsoft.com/fwlink/p/?linkid=177790">Volume Shadow Copy Service</a> instead of the registry functions.
+ Applications that back up or restore system state including system files and registry hives should use the <a href="https://msdn.microsoft.com/library/aa384649(VS.85).aspx">Volume Shadow Copy Service</a> instead of the registry functions.
 
 
 ## -parameters

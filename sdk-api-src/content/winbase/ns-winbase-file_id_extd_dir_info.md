@@ -229,7 +229,7 @@ The data of a file is not available immediately. This attribute indicates that t
 <td width="60%">
 A file that is read-only. Applications can read the file, but cannot write to it or delete it. This 
         attribute is not honored on directories. For more information, see 
-        <a href="https://go.microsoft.com/fwlink/p/?linkid=125896">You cannot view or change the Read-only or the System attributes of folders in Windows Server 2003, in Windows XP, in Windows Vista or in Windows 7</a>.
+        <a href="https://support.microsoft.com/kb/326549">You cannot view or change the Read-only or the System attributes of folders in Windows Server 2003, in Windows XP, in Windows Vista or in Windows 7</a>.
 
 </td>
 </tr>

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IAccessible::accNavigate</b> method traverses to another UI element within a container and retrieves the object. This method is optional.
-<div class="alert"><b>Note</b>  The <b>accNavigate</b>method is deprecated and should not be used. Clients should use other methods and properties such as <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-accessiblechildren">AccessibleChildren</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchild">get_accChild</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accparent">get_accParent</a>, and <a href="https://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>accNavigate</b>method is deprecated and should not be used. Clients should use other methods and properties such as <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-accessiblechildren">AccessibleChildren</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchild">get_accChild</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accparent">get_accParent</a>, and <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVARIANT</a>.</div><div> </div>
 
 ## -parameters
 

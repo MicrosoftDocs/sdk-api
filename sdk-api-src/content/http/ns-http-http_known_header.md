@@ -66,7 +66,7 @@ Size, in bytes,  of the 8-bit string pointed to by the <b>pRawValue</b> member, 
 ### -field pRawValue
 
 Pointer to the text of this HTTP header. Use <b>RawValueLength</b> to determine where this text ends rather than relying on the string to have a terminating null. The format of the header text is specified in 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a>.
+<a href="https://www.ietf.org/rfc/rfc2616.txt">RFC 2616</a>.
 
 
 ## -remarks
@@ -77,7 +77,7 @@ In the HTTP Server API, known headers are defined as those that are enumerated i
 <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_header_id">HTTP_HEADER_ID</a> enumeration type. Be aware that there are different lists of different sizes for request and response headers.
 
 For more information about the structure and usage of HTTP headers, see the 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a>.
+<a href="https://www.ietf.org/rfc/rfc2616.txt">RFC 2616</a>.
 
 
 

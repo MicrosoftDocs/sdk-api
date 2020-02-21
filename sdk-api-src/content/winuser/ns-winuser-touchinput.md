@@ -243,7 +243,7 @@ return DefWindowProc(hWnd, message, wParam, lParam);
 ```
 
 
-The following example shows how to get the device information from the <b>hSource</b> member.  This example uses <a href="https://go.microsoft.com/fwlink/p/?linkid=142508">GetRawInputDevice</a> to retrieve information about the device.
+The following example shows how to get the device information from the <b>hSource</b> member.  This example uses <a href="https://msdn.microsoft.com/library/ms645597.aspx">GetRawInputDevice</a> to retrieve information about the device.
 
 
 ```cpp

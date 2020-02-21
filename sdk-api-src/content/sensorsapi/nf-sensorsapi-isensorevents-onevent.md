@@ -69,7 +69,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsap
 
 ### -param pEventData [in]
 
-Pointer to the <a href="https://go.microsoft.com/fwlink/p/?linkid=134660">IPortableDeviceValues</a> interface that contains the event data.
+Pointer to the <a href="https://msdn.microsoft.com/library/ms740012(VS.85).aspx">IPortableDeviceValues</a> interface that contains the event data.
 
 
 ## -returns

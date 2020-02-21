@@ -381,7 +381,7 @@ The <b>ICMPV6_ECHO_REPLY</b> structure is used by the <a href="https://docs.micr
 
 
 For IPv6, some of the possible values for the <b>Status</b> member are specified in 
-RFC 2163. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=89153">www.ietf.org/rfc/rfc2463.txt</a>.
+RFC 2163. For more information, see <a href="http://tools.ietf.org/html/rfc2463">www.ietf.org/rfc/rfc2463.txt</a>.
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getiperrorstring">GetIpErrorString</a> function can be used to retrieve the IP helper error string for the <b>IP_STATUS</b> error code in the <b>Status</b> member.
 

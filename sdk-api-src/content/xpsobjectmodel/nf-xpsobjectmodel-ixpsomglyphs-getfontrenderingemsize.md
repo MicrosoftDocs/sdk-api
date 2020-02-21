@@ -123,7 +123,7 @@ If the value of <i>fontRenderingEmSize</i> is 0.0, no text is displayed.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

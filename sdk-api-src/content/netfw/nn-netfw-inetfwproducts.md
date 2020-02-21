@@ -106,7 +106,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Returns an object supporting <a href="https://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVariant</a> to enumerate the registered firewall products. 
+Returns an object supporting <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVariant</a> to enumerate the registered firewall products. 
 
 </td>
 </tr>

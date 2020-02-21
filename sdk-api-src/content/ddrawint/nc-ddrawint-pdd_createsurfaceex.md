@@ -98,7 +98,7 @@ To notify the display driver that a system memory surface is to be released, the
 
 The driver should also store any surface-related information that it  needs when using the surface. The driver must create a new surface table for each new <i>lpDDLcl</i> and implicitly enlarge the table when necessary to accommodate more surfaces. Typically, this is done with an exponential growth algorithm so that you do not have to enlarge the table too often. See the <i>Perm3</i> sample driver that was included with the Microsoft Windows Driver Development Kit (DDK) for implementation details. (The DDK preceded the Windows Driver Kit [WDK].)
 
-<div class="alert"><b>Note</b>    The Microsoft Windows Driver Kit (WDK) does not contain the 3Dlabs Permedia3 (<i>Perm3.htm</i>) sample display driver. You can get this sample driver from the Windows Server 2003 SP1 DDK, which you can download from the <a href="https://go.microsoft.com/fwlink/p/?linkid=21859">DDK - Windows Driver Development Kit</a> page of the WDHC website.</div>
+<div class="alert"><b>Note</b>    The Microsoft Windows Driver Kit (WDK) does not contain the 3Dlabs Permedia3 (<i>Perm3.htm</i>) sample display driver. You can get this sample driver from the Windows Server 2003 SP1 DDK, which you can download from the <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/">DDK - Windows Driver Development Kit</a> page of the WDHC website.</div>
 <div> </div>
 Direct3D calls <b>D3dCreateSurfaceEx</b> after the surface is created by DirectDraw by request of the Direct3D runtime or the application.
 

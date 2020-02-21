@@ -366,7 +366,7 @@ If an OEM partition is formatted as FAT or FAT32, the partition type does not ch
 
 If this method is called for a volume that is protected by BitLocker full-volume encryption, BitLocker encryption is disabled for the volume until the user re-enables it.
 
-For more information about file system limits such as minimum and maximum allocation unit size (also called cluster size), see <a href="https://go.microsoft.com/fwlink/p/?linkid=89389">NTFS Technical Reference</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=89461">FAT Technical Reference</a>.
+For more information about file system limits such as minimum and maximum allocation unit size (also called cluster size), see <a href="https://technet.microsoft.com/library/81cc8a8a-bd32-4786-a849-03245d68d8e4">NTFS Technical Reference</a> and <a href="https://technet.microsoft.com/library/810c3217-77bb-4553-b6ce-3ff10dbdbac9">FAT Technical Reference</a>.
 
 
 

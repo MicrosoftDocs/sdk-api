@@ -163,7 +163,7 @@ Chunk identifier from the AVI file.
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=16915">BITMAPINFOHEADER</a>
+<a href="https://msdn.microsoft.com/library/ms532290.aspx">BITMAPINFOHEADER</a>
 
 
 

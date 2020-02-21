@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>AutoProxyHelperVtbl</b> structure creates a v-table of pointers to Proxy AutoConfig (PAC) helper functions.
 
-See the   <a href="https://go.microsoft.com/fwlink/p/?linkid=84541">Navigator Proxy Auto-Config (PAC) File Format</a> documentation for a specification of the form and use of Proxy Auto-Config helper functions.
+See the   <a href="https://web.archive.org/web/20060424005037/wp.netscape.com/eng/mozilla/2.0/relnotes/demo/proxy-live.html">Navigator Proxy Auto-Config (PAC) File Format</a> documentation for a specification of the form and use of Proxy Auto-Config helper functions.
 
 
 ## -struct-fields
