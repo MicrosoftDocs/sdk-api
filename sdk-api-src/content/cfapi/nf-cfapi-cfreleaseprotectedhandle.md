@@ -63,10 +63,3 @@ The protected handle to be released.
 
 
 ## -returns
-
-
-
-None.
-
-
-
