@@ -66,7 +66,4 @@ The file or directory handle to be closed.
 
 
 
-None.
-
-
 
