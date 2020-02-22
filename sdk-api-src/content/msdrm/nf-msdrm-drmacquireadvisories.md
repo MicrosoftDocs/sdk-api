@@ -109,7 +109,7 @@ You should periodically delete duplicate or outdated revocation lists from the l
 
 An application will be informed that a new revocation list must be acquired if the call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateboundlicense">DRMCreateBoundLicense</a> function returns <b>E_DRM_BIND_REVOCATION_LIST_STALE</b> or <b>E_DRM_BIND_NO_APPLICABLE_REVOCATION_LIST</b>.
 
-For more information about revocation lists and how to create them, see the Active Directory Rights Management Services deployment guide, which comes with <a href="https://go.microsoft.com/fwlink/p/?linkid=17673">Rights Management Services</a>.
+For more information about revocation lists and how to create them, see the Active Directory Rights Management Services deployment guide, which comes with <a href="https://www.microsoft.com/downloads/details.aspx?FamilyId=8EF6D80A-6A9C-4FB9-AB51-790980816FFE&displaylang=en">Rights Management Services</a>.
 
 The application callback function specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateclientsession">DRMCreateClientSession</a> function will be called with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/drm-msg-acquire-advisory">DRM_MSG_ACQUIRE_ADVISORY</a> message to provide status feedback.
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a <a href="https://go.microsoft.com/fwlink/p/?linkid=139717">xsd:duration</a> data type.
+Represents a <a href="https://www.w3.org/TR/xmlschema-2/#duration">xsd:duration</a> data type.
       
 
 

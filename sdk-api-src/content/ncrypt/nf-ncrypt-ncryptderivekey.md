@@ -529,7 +529,7 @@ Value: {0x04, 0x05, 0x20, 0x21, 0x22, 0x23}, length 6
 Type: KDF_SECRET_APPEND
 Value: {0x01, 0x10, 0x11, 0x12}, length 4
 </code></pre>
-A service must not call this function from its <a href="https://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 
 

@@ -59,7 +59,7 @@ Retrieves the time at which the data report was created.
 
 ### -param pTimeStamp [out]
 
-Address of a <a href="https://go.microsoft.com/fwlink/p/?linkid=157229">SYSTEMTIME</a> variable that receives the time stamp. 
+Address of a <a href="https://msdn.microsoft.com/library/ms724950(VS.85).aspx">SYSTEMTIME</a> variable that receives the time stamp. 
 
 
 ## -returns

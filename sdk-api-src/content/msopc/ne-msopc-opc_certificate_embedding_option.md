@@ -87,7 +87,7 @@ The certificate is not stored in the package.
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML standard</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML standard</a>
 
 
 
@@ -131,7 +131,7 @@ The certificate is not stored in the package.
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=125240">W3C Recommendation, Canonical XML
+<a href="https://www.w3.org/TR/xml-c14n">W3C Recommendation, Canonical XML
 Version 1.0</a>
  
 

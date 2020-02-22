@@ -61,7 +61,7 @@ Identifies a property of a security context object.  This enumeration is used wi
 ### -field WS_SECURITY_CONTEXT_PROPERTY_IDENTIFIER
 
 On the wire, a security context is identified by an absolute URI, which is unique to both sender and 
-          recipient. See <a href="https://go.microsoft.com/fwlink/p/?linkid=131545">WS-SecureConversation</a>.
+          recipient. See <a href="https://docs.oasis-open.org/ws-sx/ws-secureconversation/200512/ws-secureconversation-1.3-os.html">WS-SecureConversation</a>.
           This property is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_unique_id">WS_UNIQUE_ID</a> structure that represents that URI.
         
 

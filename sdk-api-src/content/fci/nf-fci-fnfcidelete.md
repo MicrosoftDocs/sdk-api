@@ -76,7 +76,7 @@ Pointer to an application-defined value.
 
 
 
-The function accepts parameters similar to <a href="https://go.microsoft.com/fwlink/p/?linkid=196542">remove</a>, with the addition of <i>err</i> and <i>pv</i>.
+The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/2da4hk1d(VS.80).aspx">remove</a>, with the addition of <i>err</i> and <i>pv</i>.
 
 
 #### Examples

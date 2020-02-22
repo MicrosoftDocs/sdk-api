@@ -72,7 +72,7 @@ A pointer to a caller-initialized <a href="https://docs.microsoft.com/windows/de
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 
@@ -83,7 +83,7 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 If the parameters are valid, <b>SetupDiGetDeviceInfoListDetail</b> sets values in the <i>DeviceInfoSetDetailData</i> structure (except for the <b>cbSize</b> field) and returns status NO_ERROR. 
 
-A caller of <b>SetupDiGetDeviceInfoListDetail</b> must set <i>DeviceInfoSetDetailData.</i><b>cbSize</b> to <b>sizeof</b>(SP_DEVINFO_LIST_DETAIL_DATA) or the function will fail and the call to <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> will return ERROR_INVALID_USER_BUFFER.
+A caller of <b>SetupDiGetDeviceInfoListDetail</b> must set <i>DeviceInfoSetDetailData.</i><b>cbSize</b> to <b>sizeof</b>(SP_DEVINFO_LIST_DETAIL_DATA) or the function will fail and the call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> will return ERROR_INVALID_USER_BUFFER.
 
 If <b>SetupDiGetDeviceInfoListDetail</b> completes successfully, <i>DeviceInfoSetDetailData.</i><b>ClassGuid</b> contains the class GUID associated with the device information set or a GUID_NULL structure.
 

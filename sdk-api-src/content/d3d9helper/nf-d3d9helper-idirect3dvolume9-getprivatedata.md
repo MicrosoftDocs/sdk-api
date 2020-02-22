@@ -60,7 +60,7 @@ Copies the private data associated with the volume to a provided buffer.
 
 ### -param refguid [in]
 
-Type: <b><a href="http://go.microsoft.com/?linkid=9742306">REFGUID</a></b>
+Type: <b><a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50?redirectedfrom=MSDN">REFGUID</a></b>
 
 Reference to (C++) or address of (C) the globally unique identifier that identifies the private data to retrieve. 
 

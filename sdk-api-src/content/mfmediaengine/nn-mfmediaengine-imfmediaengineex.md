@@ -427,7 +427,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfm
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=241429">Media Engine Sample</a>
+<a href="https://code.msdn.microsoft.com/windowsapps/media-engine-playback-ce1c82f0">Media Engine Sample</a>
 
 
 

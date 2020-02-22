@@ -59,7 +59,7 @@ Computes the inverse of a matrix.
 
 ### -param pDeterminant [out, optional]
 
-Address of a vector, each of whose components is the determinant of <i>M</i>. This parameter can be a nullptr.
+Address of a vector, each of whose components receives the determinant of <i>M</i>. This parameter can be nullptr if the determinant is not desired.
 
 
 ### -param M [in]

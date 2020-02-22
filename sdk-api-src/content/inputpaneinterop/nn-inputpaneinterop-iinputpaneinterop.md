@@ -116,7 +116,7 @@ You can obtain an instance of the <b>IInputPaneInterop</b> interface by calling 
 
 
 
-For an example that uses the <b>IInputPaneInterop</b> interface, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=837837">touch keyboard notification WPF sample</a>.
+For an example that uses the <b>IInputPaneInterop</b> interface, see the <a href="https://github.com/Microsoft/WPF-Samples/tree/master/Input and Commands/TouchKeyboard/TouchKeyboardNotifier">touch keyboard notification WPF sample</a>.
 
 The following example shows the definition of the IInputPaneInterop interface.
 

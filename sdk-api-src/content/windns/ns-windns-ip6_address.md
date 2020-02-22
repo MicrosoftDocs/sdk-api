@@ -66,5 +66,5 @@ The <b>IP6_ADDRESS</b> structure stores an IPv6 address.
 
 #### - IP6Dword
 
-An IPv6 address of the form: "ABCD:EF01:2345:6789:ABCD:EF01:2345:6789"as defined in <a href="https://go.microsoft.com/fwlink/p/?linkid=90464">RFC 4291</a>
+An IPv6 address of the form: "ABCD:EF01:2345:6789:ABCD:EF01:2345:6789"as defined in <a href="https://www.ietf.org/rfc/rfc4291.txt">RFC 4291</a>
 

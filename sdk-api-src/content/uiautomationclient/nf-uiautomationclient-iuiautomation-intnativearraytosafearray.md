@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts an array of integers to a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>.
+Converts an array of integers to a <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ The number of elements in <i>array</i>.
 
 ### -param safeArray [out, retval]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives a pointer to the allocated SAFEARRAY.
 

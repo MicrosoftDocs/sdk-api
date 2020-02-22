@@ -127,7 +127,7 @@ The provided image is too large to be validated as the size exceeds MAXLONG.
 For this method to succeed, the disc image, which may be a file or a stream, must meet the following criteria:<ul>
 <li>The disc image size must be a multiple of the sector user data size, 2048 bytes.</li>
 <li>The disc image must contain user data only and no sector header or file header.</li>
-<li>The disc image must contain a valid Volume Recognition Sequence with at least one Volume Descriptor such as described in ECMA <a href="https://go.microsoft.com/fwlink/p/?linkid=149380">119</a>, <a href="https://go.microsoft.com/fwlink/p/?linkid=149381">167</a>, <a href="https://go.microsoft.com/fwlink/p/?linkid=149382">168</a> standards.</li>
+<li>The disc image must contain a valid Volume Recognition Sequence with at least one Volume Descriptor such as described in ECMA <a href="https://www.ecma-international.org/publications/standards/Ecma-119.htm">119</a>, <a href="https://www.ecma-international.org/publications/standards/Ecma-167.htm">167</a>, <a href="https://www.ecma-international.org/publications/standards/Ecma-168.htm">168</a> standards.</li>
 </ul> 
  
 If the disc image does not fit these criteria, this method will return the relevant failure code. More importantly, a failure to validate will affect the probability of operation success when the image is mounted by Windows after recording.

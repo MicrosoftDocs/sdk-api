@@ -263,7 +263,7 @@ DestroyIcon(hIcon);
 ```
 
 
-For more information about <a href="https://go.microsoft.com/fwlink/p/?linkid=181019">DrawIcon</a> or <a href="https://go.microsoft.com/fwlink/p/?linkid=181020">DrawIconEx</a>, refer to the Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 documentation.
+For more information about <a href="https://msdn.microsoft.com/library/ms648064(VS.85).aspx">DrawIcon</a> or <a href="https://msdn.microsoft.com/library/ms648065(VS.85).aspx">DrawIconEx</a>, refer to the Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 documentation.
 
 
 

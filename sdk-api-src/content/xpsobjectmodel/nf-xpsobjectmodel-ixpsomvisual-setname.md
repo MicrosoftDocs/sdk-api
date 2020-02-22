@@ -94,7 +94,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-According to the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>, the string that is passed in <i>name</i>  is not a valid name.
+According to the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>, the string that is passed in <i>name</i>  is not a valid name.
               
 
 </td>
@@ -126,7 +126,7 @@ Clearing the <b>Name</b> property by passing a <b>NULL</b> pointer in <i>name</i
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

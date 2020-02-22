@@ -126,7 +126,7 @@ Specifies the length of the packet.
 ### -field Data
 
 Specifies the data transmitted by this packet. If the packet is a request or a response packet, the first byte of this member signifies its type. For more information about packet types and requirements for type reservation, refer to 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=84038">RFC 2284</a>.
+<a href="https://www.ietf.org/rfc/rfc2284.txt">RFC 2284</a>.
 
 
 ## -see-also

@@ -92,7 +92,7 @@ In the illustration that follows, the  shaded area at the end of each line segme
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

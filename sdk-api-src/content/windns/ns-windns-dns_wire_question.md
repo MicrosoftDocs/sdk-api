@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DNS_WIRE_QUESTION</b> structure contains information about a DNS question transmitted across the network as specified in section 4.1.2 of <a href="https://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>..
+The <b>DNS_WIRE_QUESTION</b> structure contains information about a DNS question transmitted across the network as specified in section 4.1.2 of <a href="https://www.ietf.org/rfc/rfc1035.txt">RFC 1035</a>..
 
 
 ## -struct-fields

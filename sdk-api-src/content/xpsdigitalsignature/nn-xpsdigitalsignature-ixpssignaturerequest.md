@@ -185,7 +185,7 @@ Specifies the page and the  location on the page  where   the visible digital si
 
 The <b>IXpsSignatureRequest</b> interface corresponds to a single <b>SignatureDefinition</b> element in the markup of the SignatureDefinitons part.
 
-This <b>SignatureDefinition</b> element markup is described in section 10.2.2 of the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>. 
+This <b>SignatureDefinition</b> element markup is described in section 10.2.2 of the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>. 
 
 All signature requests are 
 stored in a request collection of a signature block. They cannot exist independently from the <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignatureblock">IXpsSignatureBlock</a> interface from which they were instantiated.
@@ -202,7 +202,7 @@ stored in a request collection of a signature block. They cannot exist independe
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

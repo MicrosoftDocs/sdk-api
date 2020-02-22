@@ -259,7 +259,7 @@ For TCP/IP, if the port is specified as zero, the service provider assigns a uni
 
 The <b>MaxUserPort</b> registry value sets the value to use for the maximum value of the dynamic client port range. You must restart the computer for this setting to take effect.
 
-On Windows Vista and later, the dynamic client port range can be viewed and changed using <b>netsh</b> commands. The dynamic client port range can be set differently for UDP and TCP and also for IPv4 and IPv6. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=158023">KB 929851</a>. 
+On Windows Vista and later, the dynamic client port range can be viewed and changed using <b>netsh</b> commands. The dynamic client port range can be set differently for UDP and TCP and also for IPv4 and IPv6. For more information, see <a href="https://support.microsoft.com/kb/929851">KB 929851</a>. 
 
 The application can use 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockname">getsockname</a> after calling 

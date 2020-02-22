@@ -312,7 +312,7 @@ An application can call
 
 The 
 <b>WSAStartup</b> function typically leads to protocol-specific helper DLLs being loaded. As a result, the 
-<b>WSAStartup</b> function should not be called from the DllMain function in a application DLL. This can potentially cause deadlocks. For more information, please see the <a href="https://go.microsoft.com/fwlink/p/?linkid=109533">DLL Main Function</a>.
+<b>WSAStartup</b> function should not be called from the DllMain function in a application DLL. This can potentially cause deadlocks. For more information, please see the <a href="https://msdn.microsoft.com/library/ms682583.aspx">DLL Main Function</a>.
 
 An application must call the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsacleanup">WSACleanup</a> function for every successful 
 time the <b>WSAStartup</b> function is called.  This means, for example, that if an application calls 

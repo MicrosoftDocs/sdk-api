@@ -197,7 +197,7 @@ Clients can call <b>SetWinEventHook</b> multiple times if they want to register 
 
 The client thread that calls <b>SetWinEventHook</b> must have a message loop in order to receive events.
 
-When you use <b>SetWinEventHook</b> to set a callback in managed code, you should use the <a href="https://go.microsoft.com/fwlink/p/?linkid=198399">GCHandle</a> structure to avoid exceptions. This tells the garbage collector not to move the callback.
+When you use <b>SetWinEventHook</b> to set a callback in managed code, you should use the <a href="https://msdn.microsoft.com/library/system.runtime.interopservices.gchandle.aspx">GCHandle</a> structure to avoid exceptions. This tells the garbage collector not to move the callback.
 
 For out-of-context events, the event is delivered on the same thread that called <b>SetWinEventHook</b>. In some situations, even if you request WINEVENT_INCONTEXT events, the events will still be delivered out-of-context. These scenarios include events from console windows and events from processes that have a different bit-depth (64 bit versus 32 bits) than the caller. 
 

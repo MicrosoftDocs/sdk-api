@@ -322,7 +322,7 @@ and countries.)
 
 ### -field Tag
 
-The PDB classification. These values are defined in Dbghelp.h in the <a href="https://go.microsoft.com/fwlink/p/?linkid=207077">SymTagEnum</a> enumeration type.
+The PDB classification. These values are defined in Dbghelp.h in the <a href="https://msdn.microsoft.com/library/bkedss5f(v=VS.100).aspx">SymTagEnum</a> enumeration type.
 
 
 ### -field NameLen

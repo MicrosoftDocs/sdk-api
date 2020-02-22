@@ -116,7 +116,7 @@ Applicable flags for the function. The following values are defined.
 </tr>
 <tr>
 <td>DDF_ANIMATE</td>
-<td>Allows palette animation. If this value is present, DrawDib reserves as many entries as possible by setting <b>PC_RESERVED</b> in the <b>palPalEntry</b> array entries of the <a href="https://go.microsoft.com/fwlink/p/?linkid=17000">LOGPALETTE</a> structure, and the palette can be animated by using the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibchangepalette">DrawDibChangePalette</a> function. If your application uses the <b>DrawDibBegin</b> function with the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibdraw">DrawDibDraw</a> function, set this value with <b>DrawDibBegin</b> rather than <b>DrawDibDraw</b>.</td>
+<td>Allows palette animation. If this value is present, DrawDib reserves as many entries as possible by setting <b>PC_RESERVED</b> in the <b>palPalEntry</b> array entries of the <a href="https://msdn.microsoft.com/library/ms532642.aspx">LOGPALETTE</a> structure, and the palette can be animated by using the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibchangepalette">DrawDibChangePalette</a> function. If your application uses the <b>DrawDibBegin</b> function with the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibdraw">DrawDibDraw</a> function, set this value with <b>DrawDibBegin</b> rather than <b>DrawDibDraw</b>.</td>
 </tr>
 <tr>
 <td>DDF_BACKGROUNDPAL</td>

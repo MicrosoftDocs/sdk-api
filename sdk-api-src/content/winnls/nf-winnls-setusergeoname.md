@@ -120,7 +120,7 @@ A parameter value was invalid.
 
 This function writes to the registry the geographical location for a particular user instead of a particular application. This action affects the behavior of other applications that the user runs. As a rule, call this function only when the user has explicitly requested changes, but not for purely application-specific reasons.
 
-For information about two-letter ISO 3166-1 codes, see <a href="https://go.microsoft.com/fwlink/p/?linkid=859039">Country Codes - ISO 3166</a>.  For information about numeric UN M.49 codes, see <a href="https://go.microsoft.com/fwlink/p/?linkid=859018">Standard country or area codes for statistical use (M49)</a>.
+For information about two-letter ISO 3166-1 codes, see <a href="https://www.iso.org/iso-3166-country-codes.html">Country Codes - ISO 3166</a>.  For information about numeric UN M.49 codes, see <a href="https://unstats.un.org/unsd/methodology/m49/">Standard country or area codes for statistical use (M49)</a>.
 
 <b>SetUserGeoName</b> is intended for use by applications that are designed to change user settings, such as the Windows Settings app. Other applications should not call this function.
 

@@ -116,7 +116,7 @@ An XPS package has not yet been opened in the signature manager.
 
 
 
-The signature collection that is returned in <i>signatures</i> might include digital signatures that do not comply with the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>.
+The signature collection that is returned in <i>signatures</i> might include digital signatures that do not comply with the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.
 
 
 
@@ -134,7 +134,7 @@ The signature collection that is returned in <i>signatures</i> might include dig
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

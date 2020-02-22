@@ -121,7 +121,7 @@ nFormat is out of range
 
 
 
-The sAPO uses <a href="https://go.microsoft.com/fwlink/p/?linkid=154375">CoTaskMemAlloc</a> to allocate the returned string. The caller must use <a href="https://go.microsoft.com/fwlink/p/?linkid=154376">CoTaskMemFree</a> to delete the buffer that is pointed to by the <i>ppwstrFormatRep</i> parameter. 
+The sAPO uses <a href="https://msdn.microsoft.com/library/ms886939.aspx">CoTaskMemAlloc</a> to allocate the returned string. The caller must use <a href="https://msdn.microsoft.com/library/ms680722(VS.85).aspx">CoTaskMemFree</a> to delete the buffer that is pointed to by the <i>ppwstrFormatRep</i> parameter. 
 
 
 
@@ -131,11 +131,11 @@ The sAPO uses <a href="https://go.microsoft.com/fwlink/p/?linkid=154375">CoTaskM
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=154375">CoTaskMemAlloc</a>
+<a href="https://msdn.microsoft.com/library/ms886939.aspx">CoTaskMemAlloc</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=154376">CoTaskMemFree</a>
+<a href="https://msdn.microsoft.com/library/ms680722(VS.85).aspx">CoTaskMemFree</a>
 
 
 

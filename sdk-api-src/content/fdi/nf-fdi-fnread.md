@@ -76,7 +76,7 @@ Pointer to the buffer that receives the data read from a file.
 
 
 
-The function accepts parameters similar to<a href="https://go.microsoft.com/fwlink/p/?linkid=196544"> _read</a>.
+The function accepts parameters similar to<a href="https://msdn.microsoft.com/library/wyssk1bs(VS.80).aspx"> _read</a>.
 
 
 #### Examples

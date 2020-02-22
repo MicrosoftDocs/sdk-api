@@ -158,7 +158,7 @@ deviceFactory = new ActiveXObject("PortableDeviceAutomation.Factory");
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=266421">Portable Device Service Sample</a>
+<a href="https://code.msdn.microsoft.com/windowsapps/Portable-Device-f97089b5">Portable Device Service Sample</a>
  
 
  

@@ -93,7 +93,7 @@ The <b>FormatV</b> method formats and stores a series of characters and values i
 
 If the string object is offered as a parameter to <b>FormatV</b>, the call fails.
 
-<div class="alert"><b>Note</b>  To reduce exposure to security attacks, always use a format string for <b>FormatV</b>. Never use a user-supplied string for the format string. If your format string is stored for a purpose such as localization, ensure that the string is protected from unauthorized write access. If your function writes to a string rather than standard output, you may need to avoid using a trailing "%s" in the format string. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84443">www.securityfocus.com/archive/1/81565</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=84442">www.securityfocus.com/archive/1/66842</a>.</div>
+<div class="alert"><b>Note</b>  To reduce exposure to security attacks, always use a format string for <b>FormatV</b>. Never use a user-supplied string for the format string. If your format string is stored for a purpose such as localization, ensure that the string is protected from unauthorized write access. If your function writes to a string rather than standard output, you may need to avoid using a trailing "%s" in the format string. For more information, see <a href="https://www.microsoft.com/?ref=go">www.securityfocus.com/archive/1/81565</a> and <a href="https://www.microsoft.com/?ref=go">www.securityfocus.com/archive/1/66842</a>.</div>
 <div> </div>
 
 

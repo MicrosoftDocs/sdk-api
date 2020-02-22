@@ -101,7 +101,7 @@ If no job ID has been assigned to the print job, or the print job is printed wit
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

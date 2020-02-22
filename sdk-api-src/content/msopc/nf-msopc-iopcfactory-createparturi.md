@@ -182,7 +182,7 @@ A part name cannot have any segments that end with a '.'.
 </dl>
 </td>
 <td width="60%">
-A part name cannot have fragment component. A fragment component is preceded by a '#' character, as described in <a href="https://go.microsoft.com/fwlink/p/?linkid=143950">RFC 3986: URI Generic Syntax</a>.
+A part name cannot have fragment component. A fragment component is preceded by a '#' character, as described in <a href="https://www.ietf.org/rfc/rfc3986.txt">RFC 3986: URI Generic Syntax</a>.
 
 </td>
 </tr>
@@ -206,7 +206,7 @@ A part name cannot be the name of a Relationships part that indicates another Re
 </dl>
 </td>
 <td width="60%">
-A part name cannot be an absolute URI. An absolute URI begins with a schema component followed by a ":", as described in <a href="https://go.microsoft.com/fwlink/p/?linkid=143950">RFC 3986: URI Generic Syntax</a>.
+A part name cannot be an absolute URI. An absolute URI begins with a schema component followed by a ":", as described in <a href="https://www.ietf.org/rfc/rfc3986.txt">RFC 3986: URI Generic Syntax</a>.
 
 </td>
 </tr>
@@ -264,7 +264,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
 
 
@@ -308,7 +308,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=143950">RFC 3986: URI Generic Syntax</a>
+<a href="https://www.ietf.org/rfc/rfc3986.txt">RFC 3986: URI Generic Syntax</a>
 
 
 

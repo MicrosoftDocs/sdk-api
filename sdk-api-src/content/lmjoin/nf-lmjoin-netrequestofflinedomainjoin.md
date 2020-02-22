@@ -200,7 +200,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-net
 
 The opaque blob returned in the  <i>pProvisionBinData</i> parameter by the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netprovisioncomputeraccount">NetProvisionComputerAccount</a> function is versioned to allow interoperability and serviceability scenarios between different versions of Windows (joining client, provisioning machine, and domain controller). The offline join scenario currently does not limit the lifetime of the blob returned by the <b>NetProvisionComputerAccount</b> function.   
 
-For more information on offline domain join operations, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=152786">Offline Domain Join Step-by-Step Guide</a>.
+For more information on offline domain join operations, see the <a href="https://technet.microsoft.com/library/dd392267.aspx">Offline Domain Join Step-by-Step Guide</a>.
 
 
 
@@ -244,7 +244,7 @@ For more information on offline domain join operations, see the <a href="https:/
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=152786">Offline Domain Join Step-by-Step Guide</a>
+<a href="https://technet.microsoft.com/library/dd392267.aspx">Offline Domain Join Step-by-Step Guide</a>
  
 
  

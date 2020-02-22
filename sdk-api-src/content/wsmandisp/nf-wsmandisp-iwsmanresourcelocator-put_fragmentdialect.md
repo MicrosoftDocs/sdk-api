@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-The dialect string defaults to the XPath 1.0 specification. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84163">http://www.w3.org/TR/xpath</a>.
+The dialect string defaults to the XPath 1.0 specification. For more information, see <a href="https://www.w3.org/TR/xpath">http://www.w3.org/TR/xpath</a>.
 
 
 

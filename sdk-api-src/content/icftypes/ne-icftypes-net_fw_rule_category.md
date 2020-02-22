@@ -86,7 +86,7 @@ Maximum value for testing purposes.
 
 
 
-For more information about using <b>NET_FW_RULE_CATEGORY</b>, download the <a href="https://go.microsoft.com/fwlink/p/?linkid=158229">Windows Firewall and User Facing Impact</a> document.
+For more information about using <b>NET_FW_RULE_CATEGORY</b>, download the <a href="https://www.microsoft.com/downloads/details.aspx?FamilyID=08d23da9-ff0e-4e6f-b742-878ca1977c55">Windows Firewall and User Facing Impact</a> document.
 
 
 

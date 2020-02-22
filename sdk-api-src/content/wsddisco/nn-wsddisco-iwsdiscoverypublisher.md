@@ -193,7 +193,7 @@ Removes support for a custom scope matching rule.
 
 
 
- This interface represents the "server" or "host" side of <a href="https://go.microsoft.com/fwlink/p/?linkid=87841">WS-Discovery</a>.
+ This interface represents the "server" or "host" side of <a href="https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf">WS-Discovery</a>.
 
 
 

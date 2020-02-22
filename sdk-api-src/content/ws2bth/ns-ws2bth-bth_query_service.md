@@ -96,7 +96,7 @@ Attribute values to retrieve for any matching records, in the form of an array o
 The <b>pRange</b> member is an open-ended array specifying a sparse set of attributes to return from the query. It is an application's responsibility to provide a nonoverlapping array that is sorted in ascending order of attribute ID, without duplicates.
 
 See 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=84017">www.bluetooth.com</a> for more information about the Bluetooth specification.
+<a href="https://www.bluetooth.com/">www.bluetooth.com</a> for more information about the Bluetooth specification.
 
 
 

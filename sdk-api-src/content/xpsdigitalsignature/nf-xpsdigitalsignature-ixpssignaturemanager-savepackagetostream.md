@@ -130,7 +130,7 @@ If this method returns an <b>HRESULT</b> value that is not in the list of return
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

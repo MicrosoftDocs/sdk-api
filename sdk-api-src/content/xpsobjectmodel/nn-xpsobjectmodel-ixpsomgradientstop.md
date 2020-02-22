@@ -144,7 +144,7 @@ For gradient stops used in linear-gradient brushes, the offset value of 0.0 corr
 For gradient stops used in radial-gradient brushes, the offset value of 0.0 corresponds to the gradient origin location, and the offset value of 1.0 corresponds to the circumference of the ellipse that bounds the gradient. Offsets between 0.0 and 1.0 define an ellipse that is interpolated between the gradient origin  and the bounding ellipse. The illustration  that follows has one intermediate gradient stop at an offset of 0.50 (Gradient stop 1). The gradient  is using the <b>XPS_SPREAD_METHOD_REFLECT</b> spread method to fill the space outside of the gradient region.
 
 <img alt="A figure that shows the terms used in a radial gradient" src="./images/RadialGradient2.png"/>
-The calculations that are used to render a gradient are  described  in the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>.
+The calculations that are used to render a gradient are  described  in the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.
 
 The code example that follows illustrates how to create an instance of  this interface.
 
@@ -213,7 +213,7 @@ else
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 Creates the specified registry key and associates it with a  transaction. If the key already exists, the function opens it. Note that key names are not case sensitive.
 
- Applications that back up or restore system state including system files and registry hives should use the <a href="https://go.microsoft.com/fwlink/p/?linkid=177790">Volume Shadow Copy Service</a> instead of the registry functions.
+ Applications that back up or restore system state including system files and registry hives should use the <a href="https://msdn.microsoft.com/library/aa384649(VS.85).aspx">Volume Shadow Copy Service</a> instead of the registry functions.
 
 
 ## -parameters

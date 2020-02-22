@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>DNS_WKS_DATA</b> structure represents a DNS well-known services (WKS) record as specified in section 3.4.2 of <a href="https://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
+<b>DNS_WKS_DATA</b> structure represents a DNS well-known services (WKS) record as specified in section 3.4.2 of <a href="https://www.ietf.org/rfc/rfc1035.txt">RFC 1035</a>.
 
 
 ## -struct-fields
@@ -65,7 +65,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-data-types">IP4_A
 
 ### -field chProtocol
 
-A value that represents the IP protocol for this RR as defined in <a href="https://go.microsoft.com/fwlink/p/?linkid=107049">RFC 1010</a>.
+A value that represents the IP protocol for this RR as defined in <a href="https://www.ietf.org/rfc/rfc1010.txt">RFC 1010</a>.
 
 
 

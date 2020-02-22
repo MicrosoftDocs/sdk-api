@@ -99,7 +99,7 @@ Returns the general information associated with the silo object.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstoragesilo-getportabledevice">GetPortableDevice</a>
 </td>
 <td align="left" width="63%">
-Obtains an <a href="https://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDevice</a> pointer used to issue  commands to the corresponding Enhanced Storage silo driver.
+Obtains an <a href="https://msdn.microsoft.com/library/dd319361.aspx">IPortableDevice</a> pointer used to issue  commands to the corresponding Enhanced Storage silo driver.
 
 </td>
 </tr>

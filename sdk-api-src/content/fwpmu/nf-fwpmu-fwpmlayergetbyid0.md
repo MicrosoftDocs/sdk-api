@@ -68,7 +68,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 Type: <b>UINT16</b>
 
- Identifier of the desired layer. For a list of possible values, see <a href="https://go.microsoft.com/fwlink/p/?linkid=229388">Run-time Filtering Layer Identifiers</a>  in the WDK documentation for Windows Filtering Platform.
+ Identifier of the desired layer. For a list of possible values, see <a href="https://msdn.microsoft.com/library/ff570731(VS.85).aspx">Run-time Filtering Layer Identifiers</a>  in the WDK documentation for Windows Filtering Platform.
 
 
 ### -param layer [out]
@@ -153,7 +153,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=229388">Run-time Filtering Layer Identifiers</a>
+<a href="https://msdn.microsoft.com/library/ff570731(VS.85).aspx">Run-time Filtering Layer Identifiers</a>
  
 
  

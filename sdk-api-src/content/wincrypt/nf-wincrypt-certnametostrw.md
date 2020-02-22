@@ -54,7 +54,7 @@ ms.custom: 19H1
 The <b>CertNameToStr</b> function converts an encoded name in a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structure to a null-terminated character string.
 
-The string representation follows the distinguished name specifications in <a href="https://go.microsoft.com/fwlink/p/?linkid=84030">RFC 1779</a>. The exceptions to this rule are listed in the Remarks section, below.
+The string representation follows the distinguished name specifications in <a href="https://www.ietf.org/rfc/rfc1779.txt">RFC 1779</a>. The exceptions to this rule are listed in the Remarks section, below.
 
 
 ## -parameters
@@ -289,7 +289,7 @@ If <i>psz</i> is not <b>NULL</b> and <i>csz</i> is not zero, the returned <i>psz
 
 We recommend against using multicomponent RDNs (e.g., CN=James+O=Microsoft) to avoid possible ordering problems when decoding occurs. Instead, consider using single valued RDNs (e.g., CN=James, O=Microsoft).  
 
-The string representation follows the distinguished name specifications in <a href="https://go.microsoft.com/fwlink/p/?linkid=84030">RFC 1779</a> except for the deviations described in the following list.
+The string representation follows the distinguished name specifications in <a href="https://www.ietf.org/rfc/rfc1779.txt">RFC 1779</a> except for the deviations described in the following list.
 
 <ul>
 <li>Names that contain quotes are enclosed within double quotation marks.</li>

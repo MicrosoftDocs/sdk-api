@@ -101,7 +101,7 @@ This function returns immediately. If the process has not terminated and the fun
 <li>The exit value specified in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess">ExitProcess</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminateprocess">TerminateProcess</a> function.</li>
-<li>The return value from the <a href="https://go.microsoft.com/fwlink/p/?linkid=125835">main</a> or <a href="https://go.microsoft.com/fwlink/p/?linkid=125836">WinMain</a> function of the process.</li>
+<li>The return value from the <a href="https://msdn.microsoft.com/library/6wd819wh.aspx">main</a> or <a href="https://msdn.microsoft.com/library/ms633559.aspx">WinMain</a> function of the process.</li>
 <li>The exception value for an unhandled exception that caused the process to terminate.</li>
 </ul>
 <div class="alert"><b>Important</b>  The <b>GetExitCodeProcess</b> function returns a valid error code defined by the application only after the thread terminates. Therefore, an application should not use <b>STILL_ACTIVE</b> (259) as an error code. If a thread returns <b>STILL_ACTIVE</b> (259) as an error code, applications that test for this value could interpret it to mean that the thread is still running and continue to test for the completion of the thread after the thread has terminated, which could put the application into an infinite loop.</div>
@@ -138,7 +138,7 @@ This function returns immediately. If the process has not terminated and the fun
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=125836">WinMain</a>
+<a href="https://msdn.microsoft.com/library/ms633559.aspx">WinMain</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Clients call <b>IAccClientDocMgr::GetDocuments</b> to get a list of all documents that have been registered with the Microsoft Active Accessibility run time.
 <div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
-<a href="https://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="https://msdn.microsoft.com/library/ms629032(VS.85).aspx">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		</div><div> </div>
 
 ## -parameters

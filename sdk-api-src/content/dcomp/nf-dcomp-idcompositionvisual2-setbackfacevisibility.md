@@ -94,7 +94,7 @@ If the <i>visibility</i> parameter is anything other than DCOMPOSITION_BACKFACE_
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=313910">DirectComposition Backface and D2D Batching</a>
+<a href="https://code.msdn.microsoft.com/windowsdesktop/DirectComposition-Backface-a2271f33">DirectComposition Backface and D2D Batching</a>
 
 
 

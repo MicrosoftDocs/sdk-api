@@ -91,7 +91,7 @@ Internet protocol scheme.  This member can be one of the following values.
 </td>
 <td width="60%">
 The Internet scheme is the HTTP protocol.  See 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a> for more information.
+<a href="https://www.ietf.org/rfc/rfc2616.txt">RFC 2616</a> for more information.
 
 </td>
 </tr>

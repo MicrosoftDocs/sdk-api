@@ -214,7 +214,7 @@ Specifies if the network has internet connectivity.
 
 
 
-The COM Object that implements <b>INetwork</b> also implements a property bag for additional properties. To get access to this property bag you can use the <b>INetwork</b> interface and <a href="https://go.microsoft.com/fwlink/p/?linkid=83937">QueryInterface</a> for <a href="https://go.microsoft.com/fwlink/p/?linkid=83936">IPropertyBag</a>. The property bag on this COM Object contains the following properties:
+The COM Object that implements <b>INetwork</b> also implements a property bag for additional properties. To get access to this property bag you can use the <b>INetwork</b> interface and <a href="https://msdn.microsoft.com/library/ms890661.aspx">QueryInterface</a> for <a href="https://msdn.microsoft.com/library/aa768196.aspx">IPropertyBag</a>. The property bag on this COM Object contains the following properties:
 
 <table>
 <tr>
@@ -337,7 +337,7 @@ The machine has been configured for Direct Access and access is detected to the 
 </table>
  
 
-The <a href="https://go.microsoft.com/fwlink/p/?linkid=83936">IPropertyBag</a> interface accepts <i>LPCOLESTR</i> as part of the <a href="https://go.microsoft.com/fwlink/p/?linkid=83934">IPropertyBag::Read</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=83936">IPropertyBag::Write</a> methods. For convenience, the string values for these properties are defined inside <b>netlistmgr.h</b> using the same names.
+The <a href="https://msdn.microsoft.com/library/aa768196.aspx">IPropertyBag</a> interface accepts <i>LPCOLESTR</i> as part of the <a href="https://msdn.microsoft.com/library/ms884257.aspx">IPropertyBag::Read</a> and <a href="https://msdn.microsoft.com/library/aa768196.aspx">IPropertyBag::Write</a> methods. For convenience, the string values for these properties are defined inside <b>netlistmgr.h</b> using the same names.
 
 
 

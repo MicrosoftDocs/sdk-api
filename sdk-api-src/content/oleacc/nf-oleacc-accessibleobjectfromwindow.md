@@ -134,7 +134,7 @@ The requested interface is not supported.
 
 
 
-Clients call this function to retrieve the address of an object's <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>, <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a>, <a href="https://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a>, <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, or other supported interface pointer.
+Clients call this function to retrieve the address of an object's <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>, <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a>, <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVARIANT</a>, <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, or other supported interface pointer.
 
 As with other <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> methods and functions, clients might receive errors for <b>IAccessible</b> interface pointers because of a user action. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/receiving-errors-for-iaccessible-interface-pointers">Receiving Errors for IAccessible Interface Pointers</a>.
 
@@ -171,7 +171,7 @@ To obtain an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispat
 </table>
  
 
-Note that the above window classes correspond to the innermost document window or pane window. For more information about the Office object model, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=186469">Microsoft Office 2000/Visual Basic Programmer's Guide</a>.
+Note that the above window classes correspond to the innermost document window or pane window. For more information about the Office object model, see the <a href="https://msdn.microsoft.com/library/aa141393%28office.10%29.aspx">Microsoft Office 2000/Visual Basic Programmer's Guide</a>.
 
 
 

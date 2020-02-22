@@ -131,7 +131,7 @@ The current user does not have write permission for the currently assigned targe
 </dl>
 </td>
 <td width="60%">
-The currently assigned target has been marked as dirty. Backup copies of file versions will not be created until after the <a href="https://go.microsoft.com/fwlink/p/?linkid=230711">Chkdsk</a> utility is run. This value can be ORed with <b>FH_STATE_RUNNING</b> (0x100) to indicate that a backup cycle is being performed for the current user right now.
+The currently assigned target has been marked as dirty. Backup copies of file versions will not be created until after the <a href="https://technet.microsoft.com/library/cc730714.aspx">Chkdsk</a> utility is run. This value can be ORed with <b>FH_STATE_RUNNING</b> (0x100) to indicate that a backup cycle is being performed for the current user right now.
 
 </td>
 </tr>

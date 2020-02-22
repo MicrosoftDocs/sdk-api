@@ -252,7 +252,7 @@ Indicates that the message is being requested on behalf of another sender.
 If the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) is not configured for "renew on behalf of", then the CA rejects the request.
  
 
-For more information about enabling "renew on behalf of" on the CA, see <a href="https://go.microsoft.com/fwlink/p/?linkid=169173">Configuring the Certificate Enrollment Web Service for Renewal Only Mode</a>.
+For more information about enabling "renew on behalf of" on the CA, see <a href="https://technet.microsoft.com/library/dd759245.aspx">Configuring the Certificate Enrollment Web Service for Renewal Only Mode</a>.
 
 The request must be a renewal request and the signing certificate must be using the same template as the request.
 

@@ -105,7 +105,7 @@ Device path string was retrieved successfully.
 
 
 
-The memory to contain the device path string is allocated by the Enhanced Storage API and must be freed  by passing the  returned pointer to <a href="https://go.microsoft.com/fwlink/p/?linkid=134839">CoTaskMemFree</a>.
+The memory to contain the device path string is allocated by the Enhanced Storage API and must be freed  by passing the  returned pointer to <a href="https://msdn.microsoft.com/library/ms680722.aspx">CoTaskMemFree</a>.
 
 
 

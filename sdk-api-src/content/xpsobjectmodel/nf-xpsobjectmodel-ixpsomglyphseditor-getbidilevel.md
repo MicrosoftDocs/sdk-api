@@ -123,7 +123,7 @@ The range of allowed values for this property is  between 0 and  61, inclusive, 
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

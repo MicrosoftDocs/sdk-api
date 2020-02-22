@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>DNS_SRV_DATA</b> structure represents a DNS service (SRV) record as specified in <a href="https://go.microsoft.com/fwlink/p/?linkid=90381">RFC 2782</a>.
+<b>DNS_SRV_DATA</b> structure represents a DNS service (SRV) record as specified in <a href="https://www.ietf.org/rfc/rfc2782.txt">RFC 2782</a>.
 
 
 ## -struct-fields

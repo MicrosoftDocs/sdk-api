@@ -173,7 +173,7 @@ The provider does not support the specified algorithm.
 
 If the provider supports the algorithm, this function returns <b>ERROR_SUCCESS</b>. If the provider does not support the algorithm, and no other errors occurred, this function returns <b>NTE_NOT_SUPPORTED</b>.
 
-A service must not call this function from its <a href="https://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 
 

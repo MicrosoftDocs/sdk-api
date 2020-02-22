@@ -126,7 +126,7 @@ An XPS package has not yet been opened in the signature manager.
 
 
 
-A signature block represents a SignatureDefinitions part in an XPS package. According to section 10.2.2 in the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>,  zero or more SignatureDefinitions parts can be attached to each FixedDocument.
+A signature block represents a SignatureDefinitions part in an XPS package. According to section 10.2.2 in the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>,  zero or more SignatureDefinitions parts can be attached to each FixedDocument.
      This method creates a new SignatureDefinitions part with the specified name,   links it from the specified FixedDocument part by a relationship, 
     creates a new  <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignatureblock">IXpsSignatureBlock</a> interface, and adds this new  interface to the internal signature block collection.
 
@@ -152,7 +152,7 @@ To retrieve a signature block, call   the <a href="https://docs.microsoft.com/wi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 
