@@ -69,9 +69,3 @@ An opaque handle to the placeholder.
 
 ## -returns
 
-
-
-None.
-
-
-
