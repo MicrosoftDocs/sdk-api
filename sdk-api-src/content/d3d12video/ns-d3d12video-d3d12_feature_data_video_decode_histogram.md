@@ -39,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-Provides data for calls to [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport) when the feature specified is [D3D12\_FEATURE\_VIDEO\_DECODE\_HISTOGRAM](ne-d3d12video-d3d12_feature_video). Retrieves the histogram capabilities for the specified decoder configuration.
+Provides data for calls to [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport.md) when the feature specified is [D3D12\_FEATURE\_VIDEO\_DECODE\_HISTOGRAM](ne-d3d12video-d3d12_feature_video.md). Retrieves the histogram capabilities for the specified decoder configuration.
 
 ## -struct-fields
 
@@ -49,7 +49,7 @@ In multi-adapter operation, identifies the physical adapter of the device this o
 
 ### -field DecodeProfile
 
-A GUID representing the decode profile for which histogram capabilities will be queried. Get a list of available profile GUIDs by calling [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport) when the feature specified is [D3D12\_FEATURE\_VIDEO\_DECODE\_PROFILES](ne-d3d12video-d3d12_feature_video).
+A GUID representing the decode profile for which histogram capabilities will be queried. Get a list of available profile GUIDs by calling [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport.md) when the feature specified is [D3D12\_FEATURE\_VIDEO\_DECODE\_PROFILES](ne-d3d12video-d3d12_feature_video.md).
  
 ### -field Width
 
@@ -65,7 +65,7 @@ The [DXGI\_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-
  
 ### -field Components
 
-A bitwise OR combination of values from the [D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS](ne-d3d12video-d3d12_video_decode_histogram_component_flags) enumeration specifying the components of a DXGI_FORMAT for which histogram support will be queried.
+A bitwise OR combination of values from the [D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS](ne-d3d12video-d3d12_video_decode_histogram_component_flags.md) enumeration specifying the components of a DXGI_FORMAT for which histogram support will be queried.
  
 ### -field BinCount
 

@@ -114,7 +114,7 @@ This parameter can be one of the following input buffer structures for the MSV1_
 <td width="60%">
 Authenticating an interactive user logon.
 
-The <b>LogonDomainName</b>,  <b>UserName</b>, and <b>Password </b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_s4u_logon">MSV1_0_INTERACTIVE_LOGON</a> structure must point to buffers in memory that are contiguous to the structure itself. The value of the <i>AuthenticationInformationLength</i> parameter must take into account the length of these buffers.
+The <b>LogonDomainName</b>,  <b>UserName</b>, and <b>Password </b> members of the <a href="https://docs.microsoft.com/windows/win32/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a> structure must point to buffers in memory that are contiguous to the structure itself. The value of the <i>AuthenticationInformationLength</i> parameter must take into account the length of these buffers.
 
 </td>
 </tr>

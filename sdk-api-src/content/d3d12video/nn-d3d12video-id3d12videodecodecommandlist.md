@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-Encapsulates a list of graphics commands for video decoding. This interface is inherited by [ID3D12VideoDecodeCommandList1](nn-d3d12video-id3d12videodecodecommandlist1).
+Encapsulates a list of graphics commands for video decoding. This interface is inherited by [ID3D12VideoDecodeCommandList1](nn-d3d12video-id3d12videodecodecommandlist1.md).
 
 
 ## -inheritance
@@ -114,5 +114,5 @@ ID3D12VideoDecodeCommandList interits from ID3D12CommandList.
 
 ## -see-also
 
-- [ID3D12VideoDecodeCommandList1](nn-d3d12video-id3d12videodecodecommandlist1)
-- [ID3D12VideoDecodeCommandList2](nn-d3d12video-id3d12videodecodecommandlist2)
+- [ID3D12VideoDecodeCommandList1](nn-d3d12video-id3d12videodecodecommandlist1.md)
+- [ID3D12VideoDecodeCommandList2](nn-d3d12video-id3d12videodecodecommandlist2.md)

@@ -50,7 +50,7 @@ The video processor can perform bob deinterlacing. In bob deinterlacing, missing
 
 ### -field D3D12_VIDEO_PROCESS_DEINTERLACE_FLAG_CUSTOM 
 
-The video processor can perform a custom high-quality deinterlacing, which requires the number of reference frames indicated in *PastFrames* and *FutureFrames* output fields of the <a href="ns-d3d12video-d3d12_feature_data_video_process_reference_info">D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO</a> populated by a call to <a href="nf-d3d12video-id3d12videodevice-checkfeaturesupport">ID3D12VideoDevice::CheckFeatureSupport</a> when the feature specified is <a href="ne-d3d12video-d3d12_feature_video">D3D12_FEATURE_VIDEO_PROCESS_REFERENCE_INFO</a>. If the video processor doesn’t have the necessary number of reference frames, it falls back to bob deinterlacing.
+The video processor can perform a custom high-quality deinterlacing, which requires the number of reference frames indicated in *PastFrames* and *FutureFrames* output fields of the <a href="ns-d3d12video-d3d12_feature_data_video_process_reference_info.md">D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO</a> populated by a call to <a href="nf-d3d12video-id3d12videodevice-checkfeaturesupport.md">ID3D12VideoDevice::CheckFeatureSupport</a> when the feature specified is <a href="ne-d3d12video-d3d12_feature_video.md">D3D12_FEATURE_VIDEO_PROCESS_REFERENCE_INFO</a>. If the video processor doesn’t have the necessary number of reference frames, it falls back to bob deinterlacing.
 
 ## -remarks
 

@@ -82,6 +82,6 @@ Additional processing features, not described by the other flags, are available.
 
 ## -remarks
 
-This enumeration is used by the [D3D12\_FEATURE\_DATA\_VIDEO\_PROCESS\_SUPPORT](ns-d3d12video-d3d12_feature_data_video_process_support) structure.
+This enumeration is used by the [D3D12\_FEATURE\_DATA\_VIDEO\_PROCESS\_SUPPORT](ns-d3d12video-d3d12_feature_data_video_process_support.md) structure.
 
 ## -see-also

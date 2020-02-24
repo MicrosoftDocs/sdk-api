@@ -96,7 +96,7 @@ This method does not return a value.
 
 
 
-Refer to the remarks for <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery">BeginQuery</a>, and to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/queries">Queries</a>.
+See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/queries">Queries</a> for more information about D3D12 queries.
         
 
 

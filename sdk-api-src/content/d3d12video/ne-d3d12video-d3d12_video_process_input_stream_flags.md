@@ -35,7 +35,7 @@ targetos: Windows
 # D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS enumeration
 
 ## -description
-Specifies flags for video processing input streams. Used by the [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS](ns-d3d12video-d3d12_video_process_input_stream_arguments) structure.
+Specifies flags for video processing input streams. Used by the [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS](ns-d3d12video-d3d12_video_process_input_stream_arguments.md) structure.
 
 
 ## -enum-fields

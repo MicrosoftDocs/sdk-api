@@ -51,7 +51,7 @@ The video decode conversion operation is supported.
 
 ## -remarks
 
-This enumeration is used by the [D3D12\_FEATURE\_DATA\_VIDEO\_DECODE\_CONVERSION\_SUPPORT](ns-d3d12video-d3d12_feature_data_video_decode_conversion_support) structure.
+This enumeration is used by the [D3D12\_FEATURE\_DATA\_VIDEO\_DECODE\_CONVERSION\_SUPPORT](ns-d3d12video-d3d12_feature_data_video_decode_conversion_support.md) structure.
 
 
 ## -see-also

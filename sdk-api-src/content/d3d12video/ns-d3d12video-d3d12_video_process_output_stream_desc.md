@@ -39,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-Specifies output stream arguments for the output passed to [ID3D12VideoProcessCommandList::ProcessFrames](nf-d3d12video-id3d12videoprocesscommandlist-processframes).
+Specifies output stream arguments for the output passed to [ID3D12VideoProcessCommandList::ProcessFrames](nf-d3d12video-id3d12videoprocesscommandlist-processframes.md).
 
 ## -struct-fields
 
@@ -52,11 +52,11 @@ A [DXGI_COLOR_SPACE_TYPE](https://docs.microsoft.com/windows/desktop/api/dxgicom
  
 ### -field AlphaFillMode
 
-A value from the [D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE](ne-d3d12video-d3d12_video_process_alpha_fill_mode) enumeration specifying the alpha fill mode for data that the video processor writes to the render target.
+A value from the [D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE](ne-d3d12video-d3d12_video_process_alpha_fill_mode.md) enumeration specifying the alpha fill mode for data that the video processor writes to the render target.
  
 ### -field AlphaFillModeSourceStreamIndex
 
-The zero-based index of an input stream. This parameter is used if *AlphaFillMode* is [D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE_SOURCE_STREAM](ne-d3d12video-d3d12_video_process_alpha_fill_mode). Otherwise, the parameter is ignored.
+The zero-based index of an input stream. This parameter is used if *AlphaFillMode* is [D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE_SOURCE_STREAM](ne-d3d12video-d3d12_video_process_alpha_fill_mode.md). Otherwise, the parameter is ignored.
 
 ### -field BackgroundColor
 

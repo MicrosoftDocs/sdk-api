@@ -50,7 +50,7 @@ Allocates a video decoder heap that contains the resolution-dependent driver res
 
 ### -param pVideoDecoderHeapDesc
 
-A pointer to a [D3D12\_VIDEO\_DECODER\_HEAP\_DESC](ns-d3d12video-d3d12_video_decoder_heap_desc) describing the decoding configuration.
+A pointer to a [D3D12\_VIDEO\_DECODER\_HEAP\_DESC](ns-d3d12video-d3d12_video_decoder_heap_desc.md) describing the decoding configuration.
 
 ### -param riid
 
@@ -58,7 +58,7 @@ The globally unique identifier (GUID) for the decode video state interface
 
 ### -param ppVideoDecoderHeap
 
-A pointer to a memory block that receives a pointer to the [ID3D12VideoDecoderHeap](nn-d3d12video-id3d12videodecoderheap) interface
+A pointer to a memory block that receives a pointer to the [ID3D12VideoDecoderHeap](nn-d3d12video-id3d12videodecoderheap.md) interface
 
 ## -returns
 

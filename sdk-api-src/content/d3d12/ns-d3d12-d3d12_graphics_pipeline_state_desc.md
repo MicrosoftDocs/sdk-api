@@ -225,9 +225,6 @@ If the <b>ForcedSampleCount</b> member of <a href="/windows/win32/api/d3d12/ns-d
 <li>Whether the sample count and quality are supported for the render target/depth stencil formats.
           </li>
 </ul>
-<div class="alert"><b>Note</b>  You can create pipeline objects that don't specify any shader objects.
-      </div>
-<div> </div>
 
 
 

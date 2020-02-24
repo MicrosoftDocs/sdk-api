@@ -49,7 +49,7 @@ A pointer to an [ID3D12Resource](https://docs.microsoft.com/windows/desktop/api/
  
 ### -field Offset
 
-The offset to the beginning of the first slice.  This offset has alignment requirements based on the tier value of the video decoder. For more information on decoding tiers, see [D3D12_VIDEO_DECODE_TIER](ne-d3d12video-d3d12_video_decode_tier). 
+The offset to the beginning of the first slice.  This offset has alignment requirements based on the tier value of the video decoder. For more information on decoding tiers, see [D3D12_VIDEO_DECODE_TIER](ne-d3d12video-d3d12_video_decode_tier.md). 
  
 ### -field Size
 

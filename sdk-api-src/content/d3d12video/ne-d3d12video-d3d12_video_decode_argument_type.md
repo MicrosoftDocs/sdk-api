@@ -36,7 +36,7 @@ targetos: Windows
 
 ## -description
 
-Specifies the argument type of a [D3D12_VIDEO_DECODE_FRAME_ARGUMENT](ns-d3d12video-d3d12_video_decode_frame_argument).
+Specifies the argument type of a [D3D12_VIDEO_DECODE_FRAME_ARGUMENT](ns-d3d12video-d3d12_video_decode_frame_argument.md).
 
 ## -enum-fields
 

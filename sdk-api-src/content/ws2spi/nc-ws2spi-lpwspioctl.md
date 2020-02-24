@@ -180,7 +180,7 @@ The following Windows Sockets 2 commands are supported:
 <span id="SIO_ACQUIRE_PORT_RESERVATION__opcode_setting__I__T__3_"></span><span id="sio_acquire_port_reservation__opcode_setting__i__t__3_"></span><span id="SIO_ACQUIRE_PORT_RESERVATION__OPCODE_SETTING__I__T__3_"></span>**SIO_ACQUIRE_PORT_RESERVATION** (opcode setting: I, T==3)
 </dt> <dd>
 
-Request a runtime reservation for a block of TCP or UDP ports. For runtime port reservations, the port pool requires that reservations be consumed from the process on whose socket the reservation was granted. Runtime port reservations last only as long as the lifetime of the socket on which the [**SIO_ACQUIRE_PORT_RESERVATION**](sio-acquire-port-reservation.md) IOCTL was called. In contrast, persistent port reservations created using the [**CreatePersistentTcpPortReservation**](iphlp.createpersistenttcpportreservation) or [**CreatePersistentUdpPortReservation**](iphlp.createpersistentudpportreservation) function may be consumed by any process with the ability to obtain persistent reservations.
+Request a runtime reservation for a block of TCP or UDP ports. For runtime port reservations, the port pool requires that reservations be consumed from the process on whose socket the reservation was granted. Runtime port reservations last only as long as the lifetime of the socket on which the [**SIO_ACQUIRE_PORT_RESERVATION**](sio-acquire-port-reservation.md) IOCTL was called. In contrast, persistent port reservations created using the [**CreatePersistentTcpPortReservation**](iphlp.createpersistenttcpportreservation.md) or [**CreatePersistentUdpPortReservation**](iphlp.createpersistentudpportreservation.md) function may be consumed by any process with the ability to obtain persistent reservations.
 
 For more detailed information, see the [**SIO_ACQUIRE_PORT_RESERVATION**](sio-acquire-port-reservation.md) reference.
 
@@ -295,7 +295,7 @@ If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer
 <span id="SIO_CHK_QOS__opcode_setting__I__O__T__3_"></span><span id="sio_chk_qos__opcode_setting__i__o__t__3_"></span><span id="SIO_CHK_QOS__OPCODE_SETTING__I__O__T__3_"></span>**SIO_CHK_QOS** (opcode setting: I, O, T==3)
 </dt> <dd>
 
-Retrieves information about QoS traffic characteristics. During the transitional phase on the sending system between flow setup and the receipt of a RESV message (see [How the RSVP Service Invokes TC](qos.how_the_rsvp_service_invokes_tc) for more information on the transitional phase), traffic associated with an RSVP flow is shaped based on service type ( [BEST EFFORT](qos.best_effort), [CONTROLLED LOAD](qos.controlled_load), or [GUARANTEED](qos.guaranteed)). For more information, see [Using SIO_CHK_QOS](qos.using_sio_chk_qos) in the [Quality of Service](qos.qos_start_page) section of the Platform Software Development Kit (SDK).
+Retrieves information about QoS traffic characteristics. During the transitional phase on the sending system between flow setup and the receipt of a RESV message (see [How the RSVP Service Invokes TC](qos.how_the_rsvp_service_invokes_tc.md) for more information on the transitional phase), traffic associated with an RSVP flow is shaped based on service type ( [BEST EFFORT](qos.best_effort.md), [CONTROLLED LOAD](qos.controlled_load.md), or [GUARANTEED](qos.guaranteed.md)). For more information, see [Using SIO_CHK_QOS](qos.using_sio_chk_qos.md) in the [Quality of Service](qos.qos_start_page.md) section of the Platform Software Development Kit (SDK).
 
 </dd> <dt>
 

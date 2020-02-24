@@ -59,8 +59,8 @@ ID3D12VideoDecoderHeap interits from ID3D12Pageable.
 
 ## -remarks
 
-Get an instance of this class by calling [ID3D12VideoDevice::CreateVideoDecoderHeap](nf-d3d12video-id3d12videodevice-createvideodecoderheap).
+Get an instance of this class by calling [ID3D12VideoDevice::CreateVideoDecoderHeap](nf-d3d12video-id3d12videodevice-createvideodecoderheap.md).
 
 ## -see-also
 
-[ID3D12VideoDecoderHeap1](nn-d3d12video-id3d12videodecoderheap1)
+[ID3D12VideoDecoderHeap1](nn-d3d12video-id3d12videodecoderheap1.md)

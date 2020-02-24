@@ -357,6 +357,51 @@ The processor implements the XSAVE and XRSTOR instructions.
 
 </td>
 </tr>
+
+<tr>
+<td width="40%"><a id="PF_ARM_V8_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_v8_instructions_available"></a><dl>
+<dt><b>PF_ARM_V8_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>29</dt>
+</dl>
+</td>
+<td width="60%">
+This ARM processor implements the the ARM v8 instructions set.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_ARM_V8_CRYPTO_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_v8_crypto_instructions_available"></a><dl>
+<dt><b>PF_ARM_V8_CRYPTO_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>30</dt>
+</dl>
+</td>
+<td width="60%">
+This ARM processor implements the ARM v8 extra cryptographic instructions (i.e. AES, SHA1 and SHA2).
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_ARM_V8_CRC32_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_v8_crc32_instructions_available"></a><dl>
+<dt><b>PF_ARM_V8_CRC32_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>31</dt>
+</dl>
+</td>
+<td width="60%">
+This ARM processor implements the ARM v8 extra CRC32 instructions.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_ARM_V81_ATOMIC_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_v81_atomic_instructions_available"></a><dl>
+<dt><b>PF_ARM_V81_ATOMIC_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>34</dt>
+</dl>
+</td>
+<td width="60%">
+This ARM processor implements the ARM v8.1 atomic instructions (e.g. CAS, SWP).
+</td>
+</tr>
+
 </table>
  
 
