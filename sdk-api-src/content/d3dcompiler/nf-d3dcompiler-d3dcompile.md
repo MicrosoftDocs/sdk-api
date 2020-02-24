@@ -25,7 +25,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: D3dcompiler_47.lib
+req.lib: d3dcompiler.lib
 req.dll: D3dcompiler_47.dll
 req.irql: 
 topic_type:
