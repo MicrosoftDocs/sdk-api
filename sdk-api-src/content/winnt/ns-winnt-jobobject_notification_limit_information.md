@@ -59,12 +59,12 @@ Contains information about notification limits for a job object. This structure 
 
 ### -field IoReadBytesLimit
 
-If the <i>LimitFlags</i> member specifies JOB_OBJECT_LIMIT_FLAGS_READ_BYTES, this member is the notification limit for total I/O bytes read by all processes in the job. Otherwise, this member is ignored.
+If the <i>LimitFlags</i> member specifies JOB_OBJECT_LIMIT_JOB_READ_BYTES, this member is the notification limit for total I/O bytes read by all processes in the job. Otherwise, this member is ignored.
 
 
 ### -field IoWriteBytesLimit
 
-If the <i>LimitFlags</i> parameter specifies JOB_OBJECT_LIMIT_FLAGS_WRITE_BYTES, this member is the notification limit for total I/O bytes written by all processes in the job. Otherwise, this member is ignored.
+If the <i>LimitFlags</i> parameter specifies JOB_OBJECT_LIMIT_JOB_WRITE_BYTES, this member is the notification limit for total I/O bytes written by all processes in the job. Otherwise, this member is ignored.
 
 
 ### -field PerJobUserTimeLimit
