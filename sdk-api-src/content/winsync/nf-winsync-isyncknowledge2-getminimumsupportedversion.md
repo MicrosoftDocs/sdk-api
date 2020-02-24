@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the minimum supported version of <a href="https://go.microsoft.com/fwlink/p/?linkid=134798">Microsoft Sync Framework</a> components that can be used with this object. 
+Gets the minimum supported version of <a href="https://www.microsoft.com/downloads/details.aspx?familyid=A3EE7BC5-A823-4FB4-B152-9E8CE9D5546F&displaylang=en">Microsoft Sync Framework</a> components that can be used with this object. 
 
 
 ## -parameters
@@ -105,11 +105,11 @@ Invalid pointer.
 
 
 
-<div class="alert"><b>Note</b>  This method is used only with synchronization sessions that use <a href="https://go.microsoft.com/fwlink/p/?linkid=134798">Microsoft Sync Framework</a> components.</div>
+<div class="alert"><b>Note</b>  This method is used only with synchronization sessions that use <a href="https://www.microsoft.com/downloads/details.aspx?familyid=A3EE7BC5-A823-4FB4-B152-9E8CE9D5546F&displaylang=en">Microsoft Sync Framework</a> components.</div>
 <div> </div>
 A knowledge object that has a version of <b>SYNC_SERIALIZATION_VERSION_V2</b> supports components that are compatible with Sync Framework 1.0 when the knowledge object contains only elements that are compatible with Sync Framework 1.0. In this situation, <b>GetMinSupportedVersion</b> returns a version of <b>SYNC_SERIALIZATION_VERSION_V1</b>.
 
-For an overview of what is involved in building synchronization providers using  <a href="https://go.microsoft.com/fwlink/p/?linkid=134798">Microsoft Sync Framework</a>, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/options-for-building-a-synchronization-provider">Options for Building a Synchronization Provider</a>.
+For an overview of what is involved in building synchronization providers using  <a href="https://www.microsoft.com/downloads/details.aspx?familyid=A3EE7BC5-A823-4FB4-B152-9E8CE9D5546F&displaylang=en">Microsoft Sync Framework</a>, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/options-for-building-a-synchronization-provider">Options for Building a Synchronization Provider</a>.
 
 
 

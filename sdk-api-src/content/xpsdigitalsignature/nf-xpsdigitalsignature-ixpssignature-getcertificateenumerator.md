@@ -105,7 +105,7 @@ The interface is not connected to the signature manager.
 
 
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopccertificateenumerator">IOpcCertificateEnumerator</a> interface returned in <i>certificateEnumerator</i> can be empty; however the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a> requires that at least the signing certificate be included in the XPS package. Package producers may include additional certificates as well. For example, the entire certificate trust chain could be included in the XPS package.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopccertificateenumerator">IOpcCertificateEnumerator</a> interface returned in <i>certificateEnumerator</i> can be empty; however the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a> requires that at least the signing certificate be included in the XPS package. Package producers may include additional certificates as well. For example, the entire certificate trust chain could be included in the XPS package.
 
 
 
@@ -131,7 +131,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ms
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

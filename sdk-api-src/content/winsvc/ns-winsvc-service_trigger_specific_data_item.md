@@ -181,7 +181,7 @@ The following table lists trigger-specific data by trigger event type.
 </tr>
 <tr>
 <td>SERVICE_TRIGGER_TYPE_CUSTOM</td>
-<td>Specified by the <a href="https://go.microsoft.com/fwlink/p/?linkid=133390">Event Tracing for Windows</a> (ETW) provider that defines the custom event.</td>
+<td>Specified by the <a href="https://msdn.microsoft.com/library/bb968803.aspx">Event Tracing for Windows</a> (ETW) provider that defines the custom event.</td>
 </tr>
 <tr>
 <td>SERVICE_TRIGGER_TYPE_DEVICE_INTERFACE_ARRIVAL</td>

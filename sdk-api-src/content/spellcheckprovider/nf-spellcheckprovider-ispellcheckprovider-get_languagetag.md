@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://go.microsoft.com/fwlink/p/?linkid=227302">BCP47</a> language tag this instance of the spell checker supports.
+Gets the <a href="http://tools.ietf.org/html/bcp47">BCP47</a> language tag this instance of the spell checker supports.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=227302">BCP47 Tags for Identifying Languages
+<a href="http://tools.ietf.org/html/bcp47">BCP47 Tags for Identifying Languages
 
 </a>
 

@@ -135,7 +135,7 @@ Advanced property sheets on a remote computer.
 
 
 
-The function returns <b>TRUE</b> if successful. Otherwise, the function returns <b>FALSE</b>. Call <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> to obtain the error code.
+The function returns <b>TRUE</b> if successful. Otherwise, the function returns <b>FALSE</b>. Call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> to obtain the error code.
 
 
 

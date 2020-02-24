@@ -99,7 +99,7 @@ If a signing time format has not been set,   <b>OPC_SIGNATURE_TIME_FORMAT_MILLIS
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 The <b>KERB_RETRIEVE_TKT_REQUEST</b> structure contains information used to retrieve a ticket.
 
 It is used by 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>.The Kerberos ticket is defined in Internet <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a>. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84023">http://www.ietf.org</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>.The Kerberos ticket is defined in Internet <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a>. For more information, see <a href="https://www.ietf.org/">http://www.ietf.org</a>.
 
 
 ## -struct-fields
@@ -156,7 +156,7 @@ If such a ticket is not found, the Kerberos authentication package returns STATU
 </dl>
 </td>
 <td width="60%">
-Return the ticket as a Kerberos credential. The Kerberos ticket is defined in Internet <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a> as KRB_CRED. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84023">http://www.ietf.org</a>. 
+Return the ticket as a Kerberos credential. The Kerberos ticket is defined in Internet <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a> as KRB_CRED. For more information, see <a href="https://www.ietf.org/">http://www.ietf.org</a>. 
 
 
 

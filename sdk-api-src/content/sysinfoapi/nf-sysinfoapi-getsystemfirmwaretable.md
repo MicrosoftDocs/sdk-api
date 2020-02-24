@@ -93,7 +93,7 @@ The identifier of the firmware table provider to which the query is to be direct
 
 The identifier of the firmware table. This identifier is little endian, you must reverse the characters in the string. 
 
-For example, FACP is an ACPI provider, as described in the Signature field of the DESCRIPTION_HEADER structure in the ACPI specification (see <a href="https://go.microsoft.com/fwlink/p/?linkid=84013">http://www.acpi.info</a>). Therefore, use 'PCAF' to specify the FACP table, as shown in the following example:
+For example, FACP is an ACPI provider, as described in the Signature field of the DESCRIPTION_HEADER structure in the ACPI specification (see <a href="http://www.acpi.info/">http://www.acpi.info</a>). Therefore, use 'PCAF' to specify the FACP table, as shown in the following example:
 
 <code>retVal = GetSystemFirmwareTable('ACPI', 'PCAF', pBuffer, BUFSIZE);</code>
 

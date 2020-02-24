@@ -104,7 +104,7 @@ One child object is selected, and the address of its <a href="https://docs.micro
 </dl>
 </td>
 <td width="60%">
-Multiple child objects are selected, and the <b>punkVal</b> member contains the address of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. The client queries this interface for the <a href="https://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a> interface, which it uses to enumerate the selected objects.
+Multiple child objects are selected, and the <b>punkVal</b> member contains the address of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. The client queries this interface for the <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVARIANT</a> interface, which it uses to enumerate the selected objects.
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ The object does not support this property.
 
 
 
-This method must support the <a href="https://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a> interface.
+This method must support the <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVARIANT</a> interface.
 
 This method returns either an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface pointer or a child ID for the <i>pvarChildren</i> parameter. For more information about how to use the <b>IDispatch</b> interface pointer or child ID, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 

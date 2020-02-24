@@ -128,12 +128,12 @@ Set to 1 to identify this machine to the server by including the MachineID. The 
 
 ### -field WSMAN_OPTION_LOCALE
 
-The language locale options. For more information about the language locales, see the    RFC 3066 specification from the Internet Engineering Task Force at <a href="https://go.microsoft.com/fwlink/p/?linkid=139708">http://www.ietf.org/rfc/rfc3066.txt</a>.
+The language locale options. For more information about the language locales, see the    RFC 3066 specification from the Internet Engineering Task Force at <a href="https://www.ietf.org/rfc/rfc3066.txt">http://www.ietf.org/rfc/rfc3066.txt</a>.
 
 
 ### -field WSMAN_OPTION_UI_LANGUAGE
 
-The UI language options. The UI language options  are defined in RFC 3066 format.   For more information about the UI language options, see the    RFC 3066 specification from the Internet Engineering Task Force at <a href="https://go.microsoft.com/fwlink/p/?linkid=139708">http://www.ietf.org/rfc/rfc3066.txt</a>.
+The UI language options. The UI language options  are defined in RFC 3066 format.   For more information about the UI language options, see the    RFC 3066 specification from the Internet Engineering Task Force at <a href="https://www.ietf.org/rfc/rfc3066.txt">http://www.ietf.org/rfc/rfc3066.txt</a>.
 
 
 ### -field WSMAN_OPTION_MAX_ENVELOPE_SIZE_KB

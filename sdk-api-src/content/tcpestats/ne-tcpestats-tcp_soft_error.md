@@ -91,7 +91,7 @@ An ACK was received for data that we have not sent.
 
 The Timestamp Echo Reply (TSecr) on the segment is older than the
            current TS.Recent (a timestamp to be echoed in TSecr whenever a
-           segment is sent).  This error is applicable to TCP connections that use the TCP Timestamps option (TSopt) defined by the IETF in RFC 1323. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84406">http://www.ietf.org/rfc/rfc1323.txt</a>. This soft error is normal for the rare case where the Protect Against Wrapped
+           segment is sent).  This error is applicable to TCP connections that use the TCP Timestamps option (TSopt) defined by the IETF in RFC 1323. For more information, see <a href="https://www.ietf.org/rfc/rfc1323.txt">http://www.ietf.org/rfc/rfc1323.txt</a>. This soft error is normal for the rare case where the Protect Against Wrapped
    Sequences numbers (PAWS)
            mechanism detects data reordered by the network.
 
@@ -128,7 +128,7 @@ The maximum possible value for the <a href="https://docs.microsoft.com/windows/d
 
 The <b>TCP_SOFT_ERROR</b> enumeration is defined on Windows Vista and later. 
 
-The values in this enumeration are defined in the IETF draft RFC on the TCP Extended Statistics MIB. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=121686">http://www.ietf.org/rfc/rfc4898.txt</a>.
+The values in this enumeration are defined in the IETF draft RFC on the TCP Extended Statistics MIB. For more information, see <a href="http://tools.ietf.org/html/rfc4898">http://www.ietf.org/rfc/rfc4898.txt</a>.
 
 
 

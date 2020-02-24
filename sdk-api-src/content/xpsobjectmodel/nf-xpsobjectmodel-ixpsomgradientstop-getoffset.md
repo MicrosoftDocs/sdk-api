@@ -119,7 +119,7 @@ The valid range of  values returned in <i>offset</i> is 0.0–1.0. 0.0 is the st
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

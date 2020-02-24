@@ -61,7 +61,7 @@ The <b>EAP_TYPE</b> structure contains type and vendor identification informatio
 
 The numeric type code for this EAP method.
 
-<div class="alert"><b>Note</b>  For more information on the allocation of EAP method types, see section 6.2 of <a href="https://go.microsoft.com/fwlink/p/?linkid=84016">RFC 3748</a>.</div>
+<div class="alert"><b>Note</b>  For more information on the allocation of EAP method types, see section 6.2 of <a href="http://tools.ietf.org/html/rfc3748">RFC 3748</a>.</div>
 <div> </div>
 
 ### -field dwVendorId

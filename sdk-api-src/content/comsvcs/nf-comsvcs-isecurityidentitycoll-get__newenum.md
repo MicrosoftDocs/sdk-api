@@ -59,7 +59,7 @@ Retrieves an enumerator for the security identity collection.
 
 ### -param ppEnum [out]
 
-A reference to the returned <a href="https://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a> interface.
+A reference to the returned <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVARIANT</a> interface.
 
 
 ## -returns

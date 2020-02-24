@@ -102,7 +102,7 @@ This parameter must be set to zero.
 
 
 
-<b>SetupDiGetDeviceInterfaceProperty</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+<b>SetupDiGetDeviceInterfaceProperty</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 The following table includes some of the more common error codes that this function might log. Other error codes can be set by the device installer functions that are called by this API.
 

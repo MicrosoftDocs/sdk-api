@@ -79,7 +79,7 @@ The application should either proceed with its own authentication or respond wit
 ### -field HttpAuthStatusFailure
 
 Authentication for the authentication type listed in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a>   structure failed, possibly due to one of the following reasons:<ul>
-<li>The Security Service Provider Interface (SSPI) based authentication scheme failed to successfully return from a call to <a href="https://go.microsoft.com/fwlink/p/?linkid=83940">AcceptSecurityContext</a>. The error returned <a href="https://go.microsoft.com/fwlink/p/?linkid=83940">AcceptSecurityContext</a> is indicated in the <b>SecStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure.</li>
+<li>The Security Service Provider Interface (SSPI) based authentication scheme failed to successfully return from a call to <a href="https://msdn.microsoft.com/library/ms937012.aspx">AcceptSecurityContext</a>. The error returned <a href="https://msdn.microsoft.com/library/ms937012.aspx">AcceptSecurityContext</a> is indicated in the <b>SecStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure.</li>
 <li>The finalized client context is for a Null NTLM session. Null sessions are treated as authentication failures.</li>
 <li>The call to  <b>LogonUser</b> failed for the Basic authentication.</li>
 </ul>

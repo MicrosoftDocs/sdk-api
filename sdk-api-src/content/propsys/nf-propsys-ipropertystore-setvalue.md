@@ -77,7 +77,7 @@ A reference to the PROPERTYKEY structure that is retrieved through <a href="http
 
 #### - pv
 
-A pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=106396">PROPVARIANT</a> structure that contains the new property data.
+A pointer to a <a href="https://msdn2.microsoft.com/library/aa912007.aspx">PROPVARIANT</a> structure that contains the new property data.
 
 
 ## -returns

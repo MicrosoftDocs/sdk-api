@@ -347,7 +347,7 @@ The opaque blob returned in the  <i>pProvisionBinData</i> parameter by the <b>Ne
 For offline domain joins, the access check performed depends on the configuration of the domain. Computer account creation is enabled using three methods:<ul>
 <li>Domain administrators have rights to create computer accounts.</li>
 <li>The SD on a container can delegate the rights to create computer accounts.</li>
-<li>By default, authenticated users may create computer accounts by privilege. Authenticated users are limited to creating  a limited number of accounts that is specified as a quota on the domain (the default value is 10). For more information, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=152785">ms-DS-MachineAccountQuota</a> attribute in the Active Directory schema.</li>
+<li>By default, authenticated users may create computer accounts by privilege. Authenticated users are limited to creating  a limited number of accounts that is specified as a quota on the domain (the default value is 10). For more information, see the <a href="https://msdn.microsoft.com/library/cc220640.aspx">ms-DS-MachineAccountQuota</a> attribute in the Active Directory schema.</li>
 </ul>
 
 
@@ -355,7 +355,7 @@ The <b>NetProvisionComputerAccount</b> function works only with a writable domai
 
 If the <b>NetProvisionComputerAccount</b> function is successful, the pointer in the <i>pProvisionBinData</i> or <i>pProvisionTextData</i> parameter (depending on which was parameter was not <b>NULL</b>) is returned with the serialized data for use in an offline join operation or as text in an unattended setup file.  
 
-For more information on offline domain join operations, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=152786">Offline Domain Join Step-by-Step Guide</a>.
+For more information on offline domain join operations, see the <a href="https://technet.microsoft.com/library/dd392267.aspx">Offline Domain Join Step-by-Step Guide</a>.
 
 Joining (and unjoining) a computer to a domain using <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a> and <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a> can be performed only by a member of the Administrators local group on the target computer. Note that the domain administrator can set additional requirements for joining the domain using delegation and assignment of privileges.
 
@@ -397,11 +397,11 @@ Joining (and unjoining) a computer to a domain using <a href="https://docs.micro
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=152786">Offline Domain Join Step-by-Step Guide</a>
+<a href="https://technet.microsoft.com/library/dd392267.aspx">Offline Domain Join Step-by-Step Guide</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=152785">ms-DS-MachineAccountQuota</a>
+<a href="https://msdn.microsoft.com/library/cc220640.aspx">ms-DS-MachineAccountQuota</a>
  
 
  

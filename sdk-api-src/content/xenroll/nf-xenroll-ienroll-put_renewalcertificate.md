@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-For more information about how to create a certificate renewal request, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84536">Creating a Renewal Request</a> in Creating Certificate Requests Using the Certificate Enrollment Control and CryptoAPI.
+For more information about how to create a certificate renewal request, see <a href="https://msdn.microsoft.com/library/ms867026.aspx#certenroll_topic8">Creating a Renewal Request</a> in Creating Certificate Requests Using the Certificate Enrollment Control and CryptoAPI.
 
 
 

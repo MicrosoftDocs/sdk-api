@@ -124,7 +124,7 @@ The interface is not connected to the signature manager.
 
 
 
-This method detects the signature status in the order that is specified in section 10.2.1.2 of the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>.
+This method detects the signature status in the order that is specified in section 10.2.1.2 of the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.
     The sequence of detection is as follows: incompliant, incomplete, broken, questionable, and, finally, valid.
     This means that  if, for example,  a signature is found to be incompliant, no digest will be calculated  if the signature is also broken.
 
@@ -154,7 +154,7 @@ For more information on the different types of signature statuses that can be de
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

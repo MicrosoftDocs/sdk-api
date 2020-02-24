@@ -183,7 +183,7 @@ USB disks and CD-ROMs have the following restrictions and capabilities:
 <ul>
 <li>Dynamic disks are not supported on USB disks (including USB removable hard disks and USB flash drives).</li>
 <li>A removable USB disk cannot be used as a boot disk.</li>
-<li>You can <a href="https://go.microsoft.com/fwlink/p/?linkid=143085">create a bootable WinPE RAM disk on a USB flash drive or CD-ROM</a>.<b>Windows Server 2003:  </b>Not supported.
+<li>You can <a href="https://technet.microsoft.com/library/cc766195.aspx">create a bootable WinPE RAM disk on a USB flash drive or CD-ROM</a>.<b>Windows Server 2003:  </b>Not supported.
 
 </li>
 <li>A USB flash drive can have only one partition. The partition type can be MBR or GPT.</li>

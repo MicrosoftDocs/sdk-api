@@ -75,7 +75,7 @@ Specifies whether the retrieved Help topic belongs to the object or one of the o
 
 Type: <b>long*</b>
 
-[out, retval] Address of a variable that identifies the Help file topic associated with the specified object. This value is used as the context identifier of the desired topic that passes to the <a href="https://go.microsoft.com/fwlink/p/?linkid=177910">WinHelp</a> function. When calling <a href="https://go.microsoft.com/fwlink/p/?linkid=177910">WinHelp</a> to display the topic, set the <i>uCommand</i> parameter to HELP_CONTEXT, cast the value pointed to by <i>pidTopic</i> to a <b>DWORD</b>, and pass it as the <i>dwData</i> parameter.
+[out, retval] Address of a variable that identifies the Help file topic associated with the specified object. This value is used as the context identifier of the desired topic that passes to the <a href="https://msdn.microsoft.com/library/bb762267(VS.85).aspx">WinHelp</a> function. When calling <a href="https://msdn.microsoft.com/library/bb762267(VS.85).aspx">WinHelp</a> to display the topic, set the <i>uCommand</i> parameter to HELP_CONTEXT, cast the value pointed to by <i>pidTopic</i> to a <b>DWORD</b>, and pass it as the <i>dwData</i> parameter.
 
 
 ## -returns

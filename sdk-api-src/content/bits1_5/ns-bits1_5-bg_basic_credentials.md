@@ -58,7 +58,7 @@ If <strong>NULL</strong>, default credentials for this session context are used.
 ### -field Password
 A null-terminated string that contains the password in plaintext. The password is limited to 65536 characters, not including the null terminator. The password can be blank. Set it to <strong>NULL</strong> if <strong>UserName</strong> is <strong>NULL</strong>. BITS encrypts the password before persisting the job if a network disconnect occurs or the user logs off.
 
-Live ID encoded passwords are supported through Negotiate 2. For more information about Live IDs, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=147129">Windows Live ID SDK</a>.   
+Live ID encoded passwords are supported through Negotiate 2. For more information about Live IDs, see the <a href="https://msdn.microsoft.com/library/bb404787.aspx">Windows Live ID SDK</a>.   
 
 ## -remarks
 The following list identifies when the <b>UserName</b> and <b>Password</b> members are required based on the authentication scheme requested:

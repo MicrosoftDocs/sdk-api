@@ -366,7 +366,7 @@ The connection is using multilink.
 </dl>
 </td>
 <td width="60%">
-The connection is using Protocol Field Compression (<a href="https://go.microsoft.com/fwlink/p/?linkid=84548">RFC 1172</a>).
+The connection is using Protocol Field Compression (<a href="https://www.ietf.org/rfc/rfc1172.txt">RFC 1172</a>).
 
 </td>
 </tr>
@@ -376,7 +376,7 @@ The connection is using Protocol Field Compression (<a href="https://go.microsof
 </dl>
 </td>
 <td width="60%">
-The connection is using Address and Control Field Compression (<a href="https://go.microsoft.com/fwlink/p/?linkid=84548">RFC 1172</a>).
+The connection is using Address and Control Field Compression (<a href="https://www.ietf.org/rfc/rfc1172.txt">RFC 1172</a>).
 
 </td>
 </tr>
@@ -459,7 +459,7 @@ The connection is using multilink.
 </dl>
 </td>
 <td width="60%">
-The connection is using Protocol Field Compression (<a href="https://go.microsoft.com/fwlink/p/?linkid=84548">RFC 1172</a>).
+The connection is using Protocol Field Compression (<a href="https://www.ietf.org/rfc/rfc1172.txt">RFC 1172</a>).
 
 </td>
 </tr>
@@ -469,7 +469,7 @@ The connection is using Protocol Field Compression (<a href="https://go.microsof
 </dl>
 </td>
 <td width="60%">
-The connection is using Address and Control Field Compression (<a href="https://go.microsoft.com/fwlink/p/?linkid=84548">RFC 1172</a>).
+The connection is using Address and Control Field Compression (<a href="https://www.ietf.org/rfc/rfc1172.txt">RFC 1172</a>).
 
 </td>
 </tr>
@@ -557,7 +557,7 @@ A value that specifies the compression algorithm used by the local client. The f
 </dl>
 </td>
 <td width="60%">
-Microsoft Point-to-Point Compression (MPPC) Protocol (<a href="https://go.microsoft.com/fwlink/p/?linkid=84560">RFC 2118</a>).
+Microsoft Point-to-Point Compression (MPPC) Protocol (<a href="https://www.ietf.org/rfc/rfc2118.txt">RFC 2118</a>).
 
 </td>
 </tr>
@@ -567,7 +567,7 @@ Microsoft Point-to-Point Compression (MPPC) Protocol (<a href="https://go.micros
 </dl>
 </td>
 <td width="60%">
-STAC option 4 (<a href="https://go.microsoft.com/fwlink/p/?linkid=84557">RFC 1974</a>).
+STAC option 4 (<a href="https://www.ietf.org/rfc/rfc1974.txt">RFC 1974</a>).
 
 </td>
 </tr>
@@ -666,7 +666,7 @@ A value that specifies the compression algorithm used by the remote server. The 
 </td>
 <td width="60%">
 Microsoft Point-to-Point Compression (MPPC) Protocol (
-<a href="https://go.microsoft.com/fwlink/p/?linkid=84560">RFC 2118</a>).
+<a href="https://www.ietf.org/rfc/rfc2118.txt">RFC 2118</a>).
 
 </td>
 </tr>
@@ -677,7 +677,7 @@ Microsoft Point-to-Point Compression (MPPC) Protocol (
 </td>
 <td width="60%">
 STAC option 4 (
-<a href="https://go.microsoft.com/fwlink/p/?linkid=84557">RFC 1974</a>).
+<a href="https://www.ietf.org/rfc/rfc1974.txt">RFC 1974</a>).
 
 </td>
 </tr>

@@ -164,7 +164,7 @@ A context value that is associated with the filter. A callout can set this membe
 
 ### -field providerContext
 
-A pointer to the provider context, which is formatted as a <a href="https://go.microsoft.com/fwlink/p/?linkid=211792">FWPM_PROVIDER_CONTEXT0</a> structure. If the filter uses a callout, and the callout has the FWPM_CALLOUT_FLAG_USES_PROVIDER_CONTEXT flag set, this member will contain the provider context from the corresponding <a href="https://go.microsoft.com/fwlink/p/?linkid=211773">FWPM_FILTER0</a> structure. Otherwise, this parameter is
+A pointer to the provider context, which is formatted as a <a href="https://msdn.microsoft.com/library/aa364289(VS.85).aspx">FWPM_PROVIDER_CONTEXT0</a> structure. If the filter uses a callout, and the callout has the FWPM_CALLOUT_FLAG_USES_PROVIDER_CONTEXT flag set, this member will contain the provider context from the corresponding <a href="https://msdn.microsoft.com/library/aa364265(VS.85).aspx">FWPM_FILTER0</a> structure. Otherwise, this parameter is
      <b>NULL</b>.
 
 

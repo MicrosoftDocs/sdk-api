@@ -101,7 +101,7 @@ Display hardware is capable of returning the current scan line.
 </dl>
 </td>
 <td width="60%">
-The display driver supports an overlay DDI that allows for verification of overlay capabilities. For more information about the overlay DDI, see <a href="https://go.microsoft.com/fwlink/p/?linkid=186764">Overlay DDI</a>.
+The display driver supports an overlay DDI that allows for verification of overlay capabilities. For more information about the overlay DDI, see <a href="https://www.microsoft.com/?ref=go">Overlay DDI</a>.
 
 
 <table>

@@ -56,7 +56,7 @@ A client of the <b>IAudioChannelConfig</b> interface programs a hardware channel
 
 <ul>
 <li>The discussion of the KSPROPERTY_AUDIO_CHANNEL_CONFIG property in the Windows DDK documentation.</li>
-<li>The white paper titled "Audio Driver Support for Home Theater Speaker Configurations" at the <a href="https://go.microsoft.com/fwlink/p/?linkid=62989">Audio Device Technologies for Windows</a> website.</li>
+<li>The white paper titled "Audio Driver Support for Home Theater Speaker Configurations" at the <a href="https://www.microsoft.com/whdc/device/audio/default.mspx">Audio Device Technologies for Windows</a> website.</li>
 </ul>
 Most Windows audio adapter drivers support the Windows Driver Model (WDM) and use kernel-streaming (KS) properties to represent the hardware control parameters in subunits (referred to as KS nodes). The <b>IAudioChannelConfig</b> interface provides convenient access to the KSPROPERTY_AUDIO_CHANNEL_CONFIG property of a subunit that has a subtype GUID value of KSNODETYPE_3D_EFFECTS, KSNODETYPE_DAC, KSNODETYPE_VOLUME, or KSNODETYPE_PROLOGIC_DECODER. To obtain the subtype GUID of a subunit, call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getsubtype">IPart::GetSubType</a> method. For more information about KS properties and KS node types, see the Windows DDK documentation.
 

@@ -72,7 +72,7 @@ The supported languages are specific, not neutral. For Hebrew, for example, the 
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=227302">BCP47 Tags for Identifying Languages</a>
+<a href="http://tools.ietf.org/html/bcp47">BCP47 Tags for Identifying Languages</a>
 
 
 

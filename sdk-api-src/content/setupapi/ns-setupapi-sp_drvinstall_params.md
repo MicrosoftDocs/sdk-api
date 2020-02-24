@@ -155,7 +155,7 @@ This <a href="https://docs.microsoft.com/windows-hardware/drivers/">driver node<
 
 This driver came from the Internet or from Windows Update. This flag is read-only to installers. 
 
-If you call <a href="https://go.microsoft.com/fwlink/p/?linkid=98735">SetupCopyOEMInf</a> you must specify the SPOST_URL flag so that when Windows copies this INF into the %<i>SystemRoot</i>%\<i>inf</i> directory Windows will mark it as an Internet INF. If you omit this step then Windows will attempt to use this device to install other devices. The resulting problem is that Windows does not have the source files any longer and will end up prompting the user with an invalid path.
+If you call <a href="https://msdn2.microsoft.com/library/aa376990.aspx">SetupCopyOEMInf</a> you must specify the SPOST_URL flag so that when Windows copies this INF into the %<i>SystemRoot</i>%\<i>inf</i> directory Windows will mark it as an Internet INF. If you omit this step then Windows will attempt to use this device to install other devices. The resulting problem is that Windows does not have the source files any longer and will end up prompting the user with an invalid path.
 
 
 

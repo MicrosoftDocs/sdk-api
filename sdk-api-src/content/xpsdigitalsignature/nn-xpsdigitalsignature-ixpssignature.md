@@ -189,7 +189,7 @@ Verifies the signature against a specified X.509 certificate.
 
 This interface is linked to the signature manager from which it was instantiated and it cannot exist independently.
 
-An <b>IXpsSignature</b> interface may represent a signature that is not XPS compliant. For example, it could represent a signature that includes only custom parts, which is not allowed by the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>.
+An <b>IXpsSignature</b> interface may represent a signature that is not XPS compliant. For example, it could represent a signature that includes only custom parts, which is not allowed by the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.
 
 
 
@@ -215,7 +215,7 @@ An <b>IXpsSignature</b> interface may represent a signature that is not XPS comp
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

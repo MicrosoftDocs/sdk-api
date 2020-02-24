@@ -84,7 +84,7 @@ When the properties of an IP interface are being set, the value for router disco
 
 
 For more information about RFC 2461, see the 
-    <a href="https://go.microsoft.com/fwlink/p/?linkid=84044">Neighbor Discovery for IP Version 6
+    <a href="https://www.ietf.org/rfc/rfc2461.txt">Neighbor Discovery for IP Version 6
     (IPv6)</a> memo by the Network Working Group.
 
 

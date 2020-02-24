@@ -117,7 +117,7 @@ Size, in wide characters, of the buffer that <i>lpDosName </i>points to.
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=139080">DefineDosDevice</a>
+<a href="https://msdn.microsoft.com/library/aa363904.aspx">DefineDosDevice</a>
 
 
 
@@ -129,7 +129,7 @@ Size, in wide characters, of the buffer that <i>lpDosName </i>points to.
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=139081">QueryDosDevice</a>
+<a href="https://msdn.microsoft.com/library/aa365461(VS.85).aspx">QueryDosDevice</a>
  
 
  

@@ -82,7 +82,7 @@ Starting position for paste.
 
 ### -field rc
 
-Rectangle containing positioning information. <a href="https://go.microsoft.com/fwlink/p/?linkid=16998">RECT</a> structures are handled differently in MCI than in other parts of Windows; in MCI, <b>rc.right</b> contains the width of the rectangle and <b>rc.bottom</b> contains its height.
+Rectangle containing positioning information. <a href="https://msdn.microsoft.com/library/ms536136.aspx">RECT</a> structures are handled differently in MCI than in other parts of Windows; in MCI, <b>rc.right</b> contains the width of the rectangle and <b>rc.bottom</b> contains its height.
 
 
 ### -field dwAudioStream
@@ -121,7 +121,7 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=16998">RECT</a>
+<a href="https://msdn.microsoft.com/library/ms536136.aspx">RECT</a>
 
 
 

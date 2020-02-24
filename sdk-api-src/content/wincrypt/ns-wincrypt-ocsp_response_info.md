@@ -203,7 +203,7 @@ OCSP applications can encode or decode this structure by using <b>X509_ASN_ENCOD
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=91156">RFC 2560  Online Certificate Status Protocol</a>
+<a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560  Online Certificate Status Protocol</a>
  
 
  

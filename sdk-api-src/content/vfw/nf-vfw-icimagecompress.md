@@ -116,7 +116,7 @@ Returns a handle to a compressed DIB. The image data follows the format header.
 
 
 
-To obtain the format information from the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure, use the <a href="https://go.microsoft.com/fwlink/p/?linkid=17081">GlobalLock</a> function to lock the data. Use the <a href="https://go.microsoft.com/fwlink/p/?linkid=17082">GlobalFree</a> function to free the DIB when you are finished.
+To obtain the format information from the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure, use the <a href="https://msdn.microsoft.com/library/aa366584.aspx">GlobalLock</a> function to lock the data. Use the <a href="https://msdn.microsoft.com/library/aa366579.aspx">GlobalFree</a> function to free the DIB when you are finished.
 
 
 

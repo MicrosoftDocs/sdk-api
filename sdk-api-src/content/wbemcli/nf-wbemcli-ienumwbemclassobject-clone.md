@@ -82,7 +82,7 @@ Receives a pointer to a new
 
 
 On error, you can call the COM function 
-       <a href="https://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a> to obtain more error 
+       <a href="https://msdn.microsoft.com/library/ms221032.aspx">GetErrorInfo</a> to obtain more error 
        information. COM-specific error codes may also be returned if network problems cause you to lose the remote 
        connection to Windows Management.
 

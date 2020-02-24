@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- The <b>OCSP_BASIC_RESPONSE_INFO</b> structure contains a basic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) response as specified by <a href="https://go.microsoft.com/fwlink/p/?linkid=91156">RFC 2560</a>. The RFC specifies that a single response can contain a sequence of certificates for which statuses are provided. The  <b>rgResponseEntry</b> member of this structure contains an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_entry">OCSP_BASIC_RESPONSE_ENTRY</a> structure for each certificate in a sequence.
+ The <b>OCSP_BASIC_RESPONSE_INFO</b> structure contains a basic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) response as specified by <a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560</a>. The RFC specifies that a single response can contain a sequence of certificates for which statuses are provided. The  <b>rgResponseEntry</b> member of this structure contains an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_entry">OCSP_BASIC_RESPONSE_ENTRY</a> structure for each certificate in a sequence.
 
 
 ## -struct-fields
@@ -135,7 +135,7 @@ OCSP applications can encode or decode this structure by using <b>X509_ASN_ENCOD
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=91156">RFC 2560 Online Certificate Status Protocol</a>
+<a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560 Online Certificate Status Protocol</a>
  
 
  

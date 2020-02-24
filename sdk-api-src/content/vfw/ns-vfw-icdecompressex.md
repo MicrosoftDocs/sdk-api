@@ -125,7 +125,7 @@ Screen is being updated or refreshed.
 
 ### -field lpbiSrc
 
-Pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=16915">BITMAPINFOHEADER</a> structure containing the input format.
+Pointer to a <a href="https://msdn.microsoft.com/library/ms532290.aspx">BITMAPINFOHEADER</a> structure containing the input format.
 
 
 ### -field lpSrc
@@ -135,7 +135,7 @@ Pointer to a buffer containing the input data.
 
 ### -field lpbiDst
 
-Pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=16915">BITMAPINFOHEADER</a> structure containing the output format.
+Pointer to a <a href="https://msdn.microsoft.com/library/ms532290.aspx">BITMAPINFOHEADER</a> structure containing the output format.
 
 
 ### -field lpDst
@@ -188,7 +188,7 @@ Height of the source rectangle.
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=16915">BITMAPINFOHEADER</a>
+<a href="https://msdn.microsoft.com/library/ms532290.aspx">BITMAPINFOHEADER</a>
 
 
 

@@ -104,7 +104,7 @@ The URI in  <i>signatureMethod</i>  must be the URI of a valid signing algorithm
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

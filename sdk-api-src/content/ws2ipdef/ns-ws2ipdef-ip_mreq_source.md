@@ -81,7 +81,7 @@ The local IPv4 address of the interface or the interface index on which the mult
 
 The <b>ip_mreq_source</b> structure is used with IPv4 addresses. The <b>ip_mreq_source</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ip-socket-options">IP_ADD_SOURCE_MEMBERSHIP</a>, <b>IP_BLOCK_SOURCE</b>,  <b>IP_DROP_SOURCE_MEMBERSHIP</b>, and <b>IP_UNBLOCK_SOURCE</b>  socket options.  
 
-The <b>ip_mreq_source</b> structure and related structures used for IPv4 multicast programming are based on IETF recommendations in sections 4 and 8.1 of RFC 3768. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=87353">http://www.ietf.org/rfc/rfc3678.txt</a>.
+The <b>ip_mreq_source</b> structure and related structures used for IPv4 multicast programming are based on IETF recommendations in sections 4 and 8.1 of RFC 3768. For more information, see <a href="http://tools.ietf.org/html/rfc3678">http://www.ietf.org/rfc/rfc3678.txt</a>.
 
 On Windows Vista and later, a set of socket options are available for multicast programming that support IPv6 and IPv4 addresses. These socket options are IP agnostic and can be used on both IPv6 and IPv4. These IP agnostic options use the <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_req">GROUP_REQ</a> and the <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_source_req">GROUP_SOURCE_REQ</a> structures and are the preferred socket options for multicast programming on Windows Vista and later. See <a href="https://docs.microsoft.com/windows/desktop/WinSock/multicast-programming">Multicast Programming</a> for more information. 
 

@@ -208,7 +208,7 @@ The <b>IXMLHTTPRequest2</b> interface supports the following features:
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=231482">Web authentication sample</a>
+<a href="https://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122">Web authentication sample</a>
  
 
  

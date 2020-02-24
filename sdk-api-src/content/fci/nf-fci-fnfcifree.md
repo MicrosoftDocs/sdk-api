@@ -66,7 +66,7 @@ Pointer to the allocated memory block to free.
 
 
 
-The function accepts parameters similar to <a href="https://go.microsoft.com/fwlink/p/?linkid=196543">free</a>.
+The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/we1whae7(VS.80).aspx">free</a>.
 
 
 #### Examples

@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-The LargeChange property can support a Not a Number (NaN) value. When retrieving this property, a client can use the <a href="https://go.microsoft.com/fwlink/p/?linkid=198403">_isnan</a> function to determine whether the property is a NaN value.
+The LargeChange property can support a Not a Number (NaN) value. When retrieving this property, a client can use the <a href="https://msdn.microsoft.com/library/aa298428(VS.60).aspx">_isnan</a> function to determine whether the property is a NaN value.
         
 
 

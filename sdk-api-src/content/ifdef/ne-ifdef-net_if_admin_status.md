@@ -84,7 +84,7 @@ Specifies that the interface is in a test mode, and no network data can be trans
 
 
 For more information on RFC 2863, see 
-    <a href="https://go.microsoft.com/fwlink/p/?linkid=84054">"The Interfaces Group MIB"</a>.
+    <a href="https://www.ietf.org/rfc/rfc2863.txt">"The Interfaces Group MIB"</a>.
 
 
 

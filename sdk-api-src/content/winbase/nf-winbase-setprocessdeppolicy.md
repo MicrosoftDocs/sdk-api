@@ -125,7 +125,7 @@ DEP policy specified at process creation with the <a href="https://docs.microsof
 
 <b>SetProcessDEPPolicy</b> is supported for 32-bit processes only. If this function is called on a 64-bit process, it fails with <b>ERROR_NOT_SUPPORTED</b>.
 
-Applications written to ATL 7.1 and earlier can attempt to execute code on pages marked as non-executable, which triggers an NX fault and terminates the application. DEP-ATL thunk emulation allows an application that would otherwise trigger an NX fault to run with DEP enabled. For information about ATL versions, see <a href="https://go.microsoft.com/fwlink/p/?linkid=95266">ATL and MFC Version Numbers</a>.
+Applications written to ATL 7.1 and earlier can attempt to execute code on pages marked as non-executable, which triggers an NX fault and terminates the application. DEP-ATL thunk emulation allows an application that would otherwise trigger an NX fault to run with DEP enabled. For information about ATL versions, see <a href="https://msdn.microsoft.com/library/3z02ch3k.aspx">ATL and MFC Version Numbers</a>.
 
 If DEP-ATL thunk emulation is enabled, the system intercepts NX faults, emulates the instructions, and handles the exceptions so the application can continue to run. If DEP-ATL thunk emulation is disabled by setting <b>PROCESS_DEP_DISABLE_ATL_THUNK_EMULATION</b> for the process, NX faults are not intercepted, which is useful when testing applications for compatibility with DEP.
 

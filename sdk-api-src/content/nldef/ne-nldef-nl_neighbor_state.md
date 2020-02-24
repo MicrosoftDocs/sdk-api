@@ -132,7 +132,7 @@ A maximum value for testing purposes.
 
 
 For more information about RFC 2461, section 7.3.2, see the 
-    <a href="https://go.microsoft.com/fwlink/p/?linkid=84044">Neighbor Discovery for IP Version 6
+    <a href="https://www.ietf.org/rfc/rfc2461.txt">Neighbor Discovery for IP Version 6
     (IPv6)</a> memo from Network Working Group.
 
 

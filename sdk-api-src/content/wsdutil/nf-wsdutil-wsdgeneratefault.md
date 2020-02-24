@@ -62,7 +62,7 @@ Generates a SOAP fault.
 A SOAP fault code.
 
 
-The list of possible fault codes follows. For a description of each fault code, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=69438">SOAP Version 1.2 specification</a>.
+The list of possible fault codes follows. For a description of each fault code, see the <a href="https://www.w3.org/TR/2003/REC-soap12-part1-20030624/#faultcodes">SOAP Version 1.2 specification</a>.
 
 
 

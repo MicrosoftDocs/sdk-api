@@ -209,7 +209,7 @@ The following table lists time element characters and what they represent. <tabl
 
 
 
-For more information about the log file formats, see <a href="https://go.microsoft.com/fwlink/p/?linkid=83889">IIS Log File Formats</a>.
+For more information about the log file formats, see <a href="https://msdn.microsoft.com/library/ms525807.aspx">IIS Log File Formats</a>.
 
 
 

@@ -167,7 +167,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 To add a filter that references a callout, invoke the functions in the following order.
 
 <ul>
-<li>Call <a href="https://go.microsoft.com/fwlink/p/?linkid=199850">FwpsCalloutRegister</a> (documented in the Windows Driver Kit (WDK)), to register the callout with the filter engine.</li>
+<li>Call <a href="https://msdn.microsoft.com/library/ff551140.aspx">FwpsCalloutRegister</a> (documented in the Windows Driver Kit (WDK)), to register the callout with the filter engine.</li>
 <li>Call <b>FwpmCalloutAdd0</b> to add the callout to the system.</li>
 <li>Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfilteradd0">FwpmFilterAdd0</a> to add the filter that references the callout to the system.</li>
 </ul>
@@ -188,7 +188,7 @@ By default filters that reference callouts that have been added but have not yet
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=98328">Kernel-Mode FwpmCalloutAdd0</a>
+<a href="https://msdn.microsoft.com/library/ff550067.aspx">Kernel-Mode FwpmCalloutAdd0</a>
  
 
  

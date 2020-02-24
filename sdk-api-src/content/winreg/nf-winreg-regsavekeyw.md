@@ -58,7 +58,7 @@ Saves the specified key and all of its subkeys and values to a new file, in the 
 
 To specify the format for the saved key or hive, use the   <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsavekeyexa">RegSaveKeyEx</a> function.
 
- Applications that back up or restore system state including system files and registry hives should use the <a href="https://go.microsoft.com/fwlink/p/?linkid=177790">Volume Shadow Copy Service</a> instead of the registry functions.
+ Applications that back up or restore system state including system files and registry hives should use the <a href="https://msdn.microsoft.com/library/aa384649(VS.85).aspx">Volume Shadow Copy Service</a> instead of the registry functions.
 
 
 ## -parameters

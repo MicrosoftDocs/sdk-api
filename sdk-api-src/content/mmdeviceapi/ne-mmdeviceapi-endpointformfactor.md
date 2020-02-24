@@ -132,7 +132,7 @@ In digital pass-through mode, a digital interface transports blocks of non-PCM d
 
 <ul>
 <li>The descriptions of the WAVE_FORMAT_WMA_SPDIF and WAVE_FORMAT_DOLBY_AC3_SPDIF wave-format tags in the Windows DDK documentation.</li>
-<li>The white paper titled "Audio Driver Support for the WMA Pro-over-S/PDIF Format" at the <a href="https://go.microsoft.com/fwlink/p/?linkid=62989">Audio Device Technologies for Windows</a> website.</li>
+<li>The white paper titled "Audio Driver Support for the WMA Pro-over-S/PDIF Format" at the <a href="https://www.microsoft.com/whdc/device/audio/default.mspx">Audio Device Technologies for Windows</a> website.</li>
 </ul>
 For information about obtaining a description of the audio jack or connector through which an audio endpoint device connects to an audio adapter, see <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackdescription">IKsJackDescription::GetJackDescription</a> and <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription2-getjackdescription2">IKsJackDescription2::GetJackDescription2</a>. 
 

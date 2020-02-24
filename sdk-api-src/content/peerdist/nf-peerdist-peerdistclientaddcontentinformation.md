@@ -79,7 +79,7 @@ Pointer to the buffer that contains the content information. This buffer must re
 
 ### -param lpOverlapped [in]
 
-Pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure. The Internal member of <a href="https://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure contains the completion status of the asynchronous operation. The Offset and OffsetHigh are reserved and must be 0.  
+Pointer to an <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure. The Internal member of <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure contains the completion status of the asynchronous operation. The Offset and OffsetHigh are reserved and must be 0.  
 
 
 ## -returns

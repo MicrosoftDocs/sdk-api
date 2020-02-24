@@ -121,7 +121,7 @@ If <i>opacity</i> is less than 0.0 or greater than 1.0, the method  returns an e
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 
