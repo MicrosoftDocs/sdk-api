@@ -157,7 +157,7 @@ The maximum luminance, in nits, that the display attached to this output is capa
 
 ### -field MaxFullFrameLuminance
 
-Type: <b>FLAOT</b>
+Type: <b>FLOAT</b>
 
 The maximum luminance, in nits, that the display attached to this output is capable of rendering; unlike MaxLuminance, this value is valid for a color that fills the entire area of the
 	  panel. Content should not exceed this value across the entire panel for optimal rendering. This value will usually come from the EDID of the corresponding display or sometimes from an
