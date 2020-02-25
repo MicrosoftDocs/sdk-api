@@ -59,12 +59,12 @@ Represents a pinhole camera intrinsic model for a specified resolution.
 
 ### -field Width
 
-The width for the pinhole camera intrinsic model.
+The width for the pinhole camera intrinsic model, in pixels.
 
 
 ### -field Height
 
-The height for the pinhole camera intrinsic model.
+The height for the pinhole camera intrinsic model, in pixels.
 
 
 ### -field CameraModel
