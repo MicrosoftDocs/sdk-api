@@ -25,8 +25,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: D3dcompiler_47.lib
-req.dll: D3dcompiler_47.dll
+req.lib: d3dcompiler.lib
+req.dll: d3dcompiler.dll
 req.irql: 
 topic_type:
 - APIRef
@@ -34,7 +34,7 @@ topic_type:
 api_type:
 - DllExport
 api_location:
-- d3dcompiler_47.dll
+- d3dcompiler.dll
 api_name:
 - D3DCompile
 targetos: Windows
