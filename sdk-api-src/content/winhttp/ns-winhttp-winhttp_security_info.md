@@ -14,8 +14,8 @@ dev_langs:
 req.header: winhttp.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10, version 1903 [desktop apps only]
-req.target-min-winversvr: Windows Server 2019 [desktop apps only]
+req.target-min-winverclnt: Windows 10, version 2004 [desktop apps only]
+req.target-min-winversvr: Windows Server Insider Preview [desktop apps only]
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -40,7 +40,7 @@ api_name:
 targetos: Windows
 req.typenames: WINHTTP_SECURITY_INFO, *LPWINHTTP_SECURITY_INFO
 req.redist:
-ms.custom: 19H1
+ms.custom: Vb
 ---
 
 # WINHTTP_SECURITY_INFO structure
