@@ -1,5 +1,5 @@
 ---
-UID: NS:winhttp.__unnamed_struct_0
+UID: NS:winhttp._WINHTTP_ASYNC_RESULT
 title: WINHTTP_ASYNC_RESULT (winhttp.h)
 description: The WINHTTP_ASYNC_RESULT structure contains the result of a call to an asynchronous function. This structure is used with the WINHTTP_STATUS_CALLBACK prototype.
 old-location: http\winhttp_async_result.htm

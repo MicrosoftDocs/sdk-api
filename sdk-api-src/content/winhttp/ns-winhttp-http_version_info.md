@@ -1,5 +1,5 @@
 ---
-UID: NS:winhttp.__unnamed_struct_1
+UID: NS:winhttp._HTTP_VERSION_INFO
 title: HTTP_VERSION_INFO (winhttp.h)
 description: The HTTP_VERSION_INFO structure contains the global HTTP version.
 old-location: http\http_version_info.htm
