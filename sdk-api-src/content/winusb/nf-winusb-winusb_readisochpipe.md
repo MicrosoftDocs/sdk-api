@@ -75,7 +75,7 @@ Length in bytes of the transfer buffer.
 
 ### -param FrameNumber [in, out]
 
-On input, indicates the starting frame number for the transfer.  On output, contains the frame number of the frame that follows the last frame used in the transfer.
+On input, indicates the starting frame number for the transfer. On output, contains the frame number of the frame that follows the last frame used in the transfer.
 
 
 ### -param NumberOfPackets [in]
@@ -97,7 +97,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/n
 
 
 
-<b>WinUsb_ReadIsochPipe</b> returns TRUE if the operation succeeds.  Otherwise this function returns FALSE, and the caller can retrieve the logged error by calling <b>GetLastError</b>.
+<b>WinUsb_ReadIsochPipe</b> returns TRUE if the operation succeeds. Otherwise this function returns FALSE, and the caller can retrieve the logged error by calling <b>GetLastError</b>.
 
 
 
@@ -106,11 +106,12 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/n
 
 
 
-<b>WinUsb_ReadIsochPipe</b> packetizes the transfer buffer so that in each 1ms interval,  the host can receive the maximum bytes allowed per interval. The maximum bytes is as specified by the endpoint descriptor for full and high-speed endpoints, and endpoint companion descriptor for SuperSpeed endpoints.
+<b>WinUsb_ReadIsochPipe</b> packetizes the transfer buffer so that in each 1ms interval, the host can receive the maximum bytes allowed per interval. The maximum bytes is as specified by the endpoint descriptor for full and high-speed endpoints, and endpoint companion descriptor for SuperSpeed endpoints.
 If the caller submits multiple read requests to stream data from the device, the transfer size should be a multiple of the maximum bytes per interval (as returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_querypipeex">WinUsb_QueryPipeEx</a>) * 8 / interval.
 
 
-Because of the transfer packaging, <b>only full 1ms USB frames are available</b> and low-latency applications requiring microframe transfers must use a kernel mode driver instead.
+Because of the transfer packaging used in the underlying kernel-mode interface, the lowest latency notification to an application or driver is 1ms intervals.
+
 
 
 
