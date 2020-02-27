@@ -6,7 +6,7 @@ old-location:
 tech.root: WinHttp
 ms.assetid: f4459d2c-de31-4313-ae26-b8f8c1c7b56b
 ms.date: 02/25/2020
-ms.keywords: '*LPWINHTTP_SECURITY_INFO, WINHTTP_SECURITY_INFO, WINHTTP_SECURITY_INFO structure [HTTP], http.winhttp_security_info, winhttp/WINHTTP_SECURITY_INFO, WINHTTP_OPTION_SECURITY_INFO'
+ms.keywords: '*PWINHTTP_SECURITY_INFO, WINHTTP_SECURITY_INFO, WINHTTP_SECURITY_INFO structure [HTTP], http.winhttp_security_info, winhttp/WINHTTP_SECURITY_INFO, WINHTTP_OPTION_SECURITY_INFO'
 f1_keywords:
 - winhttp/WINHTTP_SECURITY_INFO
 dev_langs:
@@ -38,7 +38,7 @@ api_location:
 api_name:
 - WINHTTP_SECURITY_INFO
 targetos: Windows
-req.typenames: WINHTTP_SECURITY_INFO, *LPWINHTTP_SECURITY_INFO
+req.typenames: WINHTTP_SECURITY_INFO, *PWINHTTP_SECURITY_INFO
 req.redist:
 ms.custom: Vb
 ---

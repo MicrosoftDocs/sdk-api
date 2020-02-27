@@ -6,7 +6,7 @@ old-location:
 tech.root: WinHttp
 ms.assetid: 4d30cd0a-88ea-4d03-951d-be50c017efd3
 ms.date: 02/25/2020
-ms.keywords: '*LPWINHTTP_REQUEST_TIMES, WINHTTP_REQUEST_TIMES, WINHTTP_REQUEST_TIMES structure [HTTP], http.winhttp_request_times, winhttp/WINHTTP_REQUEST_TIMES, WINHTTP_OPTION_REQUEST_TIMES'
+ms.keywords: '*PWINHTTP_REQUEST_TIMES, WINHTTP_REQUEST_TIMES, WINHTTP_REQUEST_TIMES structure [HTTP], http.winhttp_request_times, winhttp/WINHTTP_REQUEST_TIMES, WINHTTP_OPTION_REQUEST_TIMES'
 f1_keywords:
 - winhttp/WINHTTP_REQUEST_TIMES
 dev_langs:
@@ -38,7 +38,7 @@ api_location:
 api_name:
 - WINHTTP_REQUEST_TIMES
 targetos: Windows
-req.typenames: WINHTTP_REQUEST_TIMES, *LPWINHTTP_REQUEST_TIMES
+req.typenames: WINHTTP_REQUEST_TIMES, *PWINHTTP_REQUEST_TIMES
 req.redist:
 ms.custom: 19H1
 ---
@@ -61,7 +61,9 @@ Unsigned long integer value that contains the number of timings to retrieve. Thi
 
 ### -field rgullTimes
 
-Array of unsigned long long integer values that will contain the returned timings, indexed by [**WINHTTP\_REQUEST\_TIME\_ENTRY**](/windows/desktop/api/winhttp/ne-winhttp-winhttp_request_time_entry). Times are measured in performance counter ticks; for more information, see TODO.
+Array of unsigned long long integer values that will contain the returned timings, indexed by [**WINHTTP\_REQUEST\_TIME\_ENTRY**](/windows/desktop/api/winhttp/ne-winhttp-winhttp_request_time_entry).
+
+Times are measured as performance counter values; for more information, see [QueryPerformanceCounter](/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter).
 
 
 ## -remarks
@@ -72,3 +74,5 @@ This structure is used with [WinHttpQueryOption](/windows/desktop/api/winhttp/nf
 ## -see-also
 
 [WinHttpQueryOption](/windows/desktop/api/winhttp/nf-winhttp-winhttpqueryoption)
+
+[QueryPerformanceCounter](/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter)
