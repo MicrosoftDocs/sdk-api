@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 69f4138b-4831-41c9-b1ed-31143edcc402
 ms.date: 12/05/2018
 ms.keywords: WsGetPrefixFromNamespace, WsGetPrefixFromNamespace function [Web Services for Windows], webservices/WsGetPrefixFromNamespace, wsw.wsgetprefixfromnamespace
-ms.topic: function
 f1_keywords:
 - webservices/WsGetPrefixFromNamespace
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: bf643ece-fe79-4f6e-a216-108fce6757a4
 ms.date: 12/05/2018
 ms.keywords: SslFreeCertificate, SslFreeCertificate function [Security], schannel/SslFreeCertificate, security.sslfreecertificate
-ms.topic: function
 f1_keywords:
 - schannel/SslFreeCertificate
 dev_langs:

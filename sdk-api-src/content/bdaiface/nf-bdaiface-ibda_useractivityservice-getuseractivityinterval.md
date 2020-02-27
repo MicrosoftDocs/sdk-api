@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2ea3504a-a479-4d26-8a6b-0e5bdddf6a21
 ms.date: 12/05/2018
 ms.keywords: GetUserActivityInterval, GetUserActivityInterval method [Microsoft TV Technologies], GetUserActivityInterval method [Microsoft TV Technologies],IBDA_UserActivityService interface, IBDA_UserActivityService interface [Microsoft TV Technologies],GetUserActivityInterval method, IBDA_UserActivityService.GetUserActivityInterval, IBDA_UserActivityService::GetUserActivityInterval, bdaiface/IBDA_UserActivityService::GetUserActivityInterval, mstv.ibda_useractivityservice_getuseractivityinterval
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_UserActivityService.GetUserActivityInterval
 dev_langs:

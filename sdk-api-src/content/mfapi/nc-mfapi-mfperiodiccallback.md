@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 9449fa04-867c-4f27-a05c-ff0d6e912c53
 ms.date: 12/05/2018
 ms.keywords: 9449fa04-867c-4f27-a05c-ff0d6e912c53, MFPERIODICCALLBACK, MFPERIODICCALLBACK callback, MFPERIODICCALLBACK callback function [Media Foundation], mf.mfperiodiccallback_callback, mfapi/MFPERIODICCALLBACK
-ms.topic: callback
 f1_keywords:
 - mfapi/MFPERIODICCALLBACK
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: a52a665c-4c3a-4489-bd7b-e8ecb8dfe9cc
 ms.date: 12/05/2018
 ms.keywords: GetTimeSpanArray, GetTimeSpanArray method [Windows Runtime], GetTimeSpanArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetTimeSpanArray method, IPropertyValue.GetTimeSpanArray, IPropertyValue.IPropertyValue, IPropertyValue::GetTimeSpanArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetTimeSpanArray, winrt.ipropertyvalue_gettimespanarray
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValue.GetTimeSpanArray
 dev_langs:

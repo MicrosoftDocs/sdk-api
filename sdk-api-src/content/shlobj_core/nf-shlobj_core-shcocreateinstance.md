@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 334fc581-29b2-4576-94ec-7dd3d6e0020b
 ms.date: 12/05/2018
 ms.keywords: SHCoCreateInstance, SHCoCreateInstance function [Windows Shell], _win32_SHCoCreateInstance, shell.SHCoCreateInstance, shlobj_core/SHCoCreateInstance
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHCoCreateInstance
 dev_langs:

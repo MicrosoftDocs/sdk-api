@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: fb0cd00c-f410-486e-8910-41c0463f6a74
 ms.date: 12/05/2018
 ms.keywords: CryptXmlEncode, CryptXmlEncode function [Security], cryptxml/CryptXmlEncode, security.cryptxmlencode
-ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlEncode
 dev_langs:

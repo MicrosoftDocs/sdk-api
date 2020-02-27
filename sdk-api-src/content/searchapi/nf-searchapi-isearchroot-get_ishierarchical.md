@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_ishierarchical.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],get_IsHierarchical method, ISearchRoot.get_IsHierarchical, ISearchRoot::get_IsHierarchical, _search_ISearchRoot_get_IsHierarchical, get_IsHierarchical, get_IsHierarchical method [search], get_IsHierarchical method [search],ISearchRoot interface, search._search_ISearchRoot_get_IsHierarchical, searchapi/ISearchRoot::get_IsHierarchical
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchRoot.get_IsHierarchical
 dev_langs:
@@ -81,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The CrawlScopeCommandLine code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to define command line 
+The CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line 
 options for Crawl Scope Manager (CSM) indexing operations.
 
 

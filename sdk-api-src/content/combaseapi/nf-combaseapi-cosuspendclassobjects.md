@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: a9e526f8-b7c1-47ec-a6ab-91690d93119e
 ms.date: 12/05/2018
 ms.keywords: CoSuspendClassObjects, CoSuspendClassObjects function [COM], _com_CoSuspendClassObjects, com.cosuspendclassobjects, combaseapi/CoSuspendClassObjects
-ms.topic: function
 f1_keywords:
 - combaseapi/CoSuspendClassObjects
 dev_langs:

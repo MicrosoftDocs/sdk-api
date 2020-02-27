@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: d5e636b9-d02e-46ac-b224-7d1019da44eb
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetProperty method, ITextRange2.GetProperty, ITextRange2::GetProperty, controls.itextrange2_getproperty, tom/ITextRange2::GetProperty
-ms.topic: method
 f1_keywords:
 - tom/ITextRange2.GetProperty
 dev_langs:

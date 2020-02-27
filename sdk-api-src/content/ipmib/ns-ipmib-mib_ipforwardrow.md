@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: ff451481-3e9d-4add-94e2-846d67002a38
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IPFORWARDROW, MIB_IPFORWARDROW, MIB_IPFORWARDROW structure [MIB], MIB_IPPROTO_BBN, MIB_IPPROTO_BGP, MIB_IPPROTO_CISCO, MIB_IPPROTO_EGP, MIB_IPPROTO_ES_IS, MIB_IPPROTO_GGP, MIB_IPPROTO_HELLO, MIB_IPPROTO_ICMP, MIB_IPPROTO_IS_IS, MIB_IPPROTO_LOCAL, MIB_IPPROTO_NETMGMT, MIB_IPPROTO_NT_AUTOSTATIC, MIB_IPPROTO_NT_STATIC, MIB_IPPROTO_NT_STATIC_NON_DOD, MIB_IPPROTO_OSPF, MIB_IPPROTO_OTHER, MIB_IPPROTO_RIP, MIB_IPROUTE_TYPE_DIRECT, MIB_IPROUTE_TYPE_INDIRECT, MIB_IPROUTE_TYPE_INVALID, MIB_IPROUTE_TYPE_OTHER, PMIB_IPFORWARDROW, PMIB_IPFORWARDROW structure pointer [MIB], _mpr_mib_ipforwardrow, ipmib/MIB_IPFORWARDROW, ipmib/PMIB_IPFORWARDROW, iprtrmib/MIB_IPFORWARDROW, iprtrmib/PMIB_IPFORWARDROW, mib.mib_ipforwardrow, rras.mib_ipforwardrow'
-ms.topic: struct
 f1_keywords:
 - ipmib/MIB_IPFORWARDROW
 dev_langs:
@@ -88,7 +87,7 @@ Type: <b>DWORD</b>
 The set of conditions that would cause the selection of a multi-path route (the set of
                 next hops for a given destination). This member is typically in IP TOS format. This encoding of this member is described in 
 RFC 1354. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>.
+<a href="https://www.ietf.org/rfc/rfc1354.txt">http://www.ietf.org/rfc/rfc1354.txt</a>.
 
 
 ### -field dwForwardNextHop
@@ -111,7 +110,7 @@ The index of the local interface through  which  the next hop of this
 Type: <b>DWORD</b>
 
 The route type as described in 
-RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>.
+RFC 1354. For more information, see <a href="https://www.ietf.org/rfc/rfc1354.txt">http://www.ietf.org/rfc/rfc1354.txt</a>.
 
 This member can be one of the values defined in the <i>Iprtmib.h</i> header file. 
 
@@ -184,7 +183,7 @@ The remote route where the next hop is not the final destination (a remote desti
 Type: <b>DWORD</b>
 
 The protocol or routing mechanism that generated the route as described in 
-RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>. See 
+RFC 1354. For more information, see <a href="https://www.ietf.org/rfc/rfc1354.txt">http://www.ietf.org/rfc/rfc1354.txt</a>. See 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/protocol-identifiers">Protocol Identifiers</a> for a list of possible protocol identifiers used by routing protocols.  
 
 This member can be one of the values defined in the <i>Iprtmib.h</i> header file. The values for this member can be one of the  MIB_IPPROTO_xxx values defined in  the <i>Iprtmib.h</i> header file or one of the PROTO_IP_xxx values defined in the <i>routprot.h</i> header file since these values are the same. 
@@ -274,7 +273,7 @@ The Gateway-to-Gateway Protocol (GGP), a dynamic routing protocol.
 </td>
 <td width="60%">
 The Hellospeak protocol, a dynamic routing protocol. This is a historical entry no longer in use and was an early routing protocol used by the original ARPANET routers that ran special software called the Fuzzball routing protocol, sometimes called Hellospeak, as described in 
-RFC 891 and RFC 1305. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84070">http://www.ietf.org/rfc/rfc891.txt</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=96750">http://www.ietf.org/rfc/rfc1305.txt</a>. 
+RFC 891 and RFC 1305. For more information, see <a href="https://www.ietf.org/rfc/rfc891.txt">http://www.ietf.org/rfc/rfc891.txt</a> and <a href="http://tools.ietf.org/html/rfc1305">http://www.ietf.org/rfc/rfc1305.txt</a>. 
 
 </td>
 </tr>
@@ -411,7 +410,7 @@ Type: <b>DWORD</b>
 
 The autonomous system number of the next hop. When  this  member is  unknown  or not relevant to the
                 protocol or routing mechanism specified in <b>dwForwardProto</b>, this value  should be set to zero. This value is documented in 
-RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>
+RFC 1354. For more information, see <a href="https://www.ietf.org/rfc/rfc1354.txt">http://www.ietf.org/rfc/rfc1354.txt</a>
 
 
 ### -field dwForwardMetric1
@@ -422,7 +421,7 @@ The primary routing metric value for this route. The  semantics of this metric a
                 the routing protocol specified in  the  <b>dwForwardProto</b>  member. If  this metric is not
                 used, its value should be set to -1. This value is documented in 
 in 
-RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>
+RFC 1354. For more information, see <a href="https://www.ietf.org/rfc/rfc1354.txt">http://www.ietf.org/rfc/rfc1354.txt</a>
 
 
 ### -field dwForwardMetric2
@@ -432,7 +431,7 @@ Type: <b>DWORD</b>
 An alternate  routing metric value for this route. The  semantics of this metric are determined by
                 the routing protocol specified in  the  <b>dwForwardProto</b>  member. If  this metric is not
                 used, its value should be set to -1. This value is documented in 
-RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>
+RFC 1354. For more information, see <a href="https://www.ietf.org/rfc/rfc1354.txt">http://www.ietf.org/rfc/rfc1354.txt</a>
 
 
 ### -field dwForwardMetric3
@@ -442,7 +441,7 @@ Type: <b>DWORD</b>
 An alternate  routing metric value for this route. The  semantics of this metric are determined by
                 the routing protocol specified in  the  <b>dwForwardProto</b>  member. If  this metric is not
                 used, its value should be set to -1. This value is documented in 
-RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>
+RFC 1354. For more information, see <a href="https://www.ietf.org/rfc/rfc1354.txt">http://www.ietf.org/rfc/rfc1354.txt</a>
 
 
 ### -field dwForwardMetric4
@@ -452,7 +451,7 @@ Type: <b>DWORD</b>
 An alternate  routing metric value for this route. The  semantics of this metric are determined by
                 the routing protocol specified in  the  <b>dwForwardProto</b>  member. If  this metric is not
                 used, its value should be set to -1. This value is documented in 
-RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>
+RFC 1354. For more information, see <a href="https://www.ietf.org/rfc/rfc1354.txt">http://www.ietf.org/rfc/rfc1354.txt</a>
 
 
 ### -field dwForwardMetric5
@@ -462,7 +461,7 @@ Type: <b>DWORD</b>
 An alternate  routing metric value for this route. The  semantics of this metric are determined by
                 the routing protocol specified in  the  <b>dwForwardProto</b>  member. If  this metric is not
                 used, its value should be set to -1. This value is documented in 
-RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>
+RFC 1354. For more information, see <a href="https://www.ietf.org/rfc/rfc1354.txt">http://www.ietf.org/rfc/rfc1354.txt</a>
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getdroppedcontrolrect.htm
 ms.date: 12/05/2018
 ms.keywords: ComboBox_GetDroppedControlRect, ComboBox_GetDroppedControlRect macro [Windows Controls], _win32_ComboBox_GetDroppedControlRect, _win32_ComboBox_GetDroppedControlRect_cpp, controls.ComboBox_GetDroppedControlRect, controls._win32_ComboBox_GetDroppedControlRect, windowsx/ComboBox_GetDroppedControlRect
-ms.topic: macro
 f1_keywords:
 - windowsx/ComboBox_GetDroppedControlRect
 dev_langs:

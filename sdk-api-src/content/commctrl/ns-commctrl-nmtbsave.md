@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbsave.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMTBSAVE, LPNMTBSAVE, LPNMTBSAVE structure pointer [Windows Controls], NMTBSAVE, NMTBSAVE structure [Windows Controls], _win32_NMTBSAVE, _win32_NMTBSAVE_cpp, commctrl/LPNMTBSAVE, commctrl/NMTBSAVE, controls.NMTBSAVE, controls._win32_NMTBSAVE'
-ms.topic: struct
 f1_keywords:
 - commctrl/NMTBSAVE
 dev_langs:

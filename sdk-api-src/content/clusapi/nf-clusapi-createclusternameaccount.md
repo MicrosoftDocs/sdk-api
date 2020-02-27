@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 82BBEE9D-C787-4935-BB5F-09438676B37A
 ms.date: 12/05/2018
 ms.keywords: CreateClusterNameAccount, CreateClusterNameAccount function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT, PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT function [Failover Cluster], clusapi/CreateClusterNameAccount, clusapi/PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT, mscs.createclusternameaccount
-ms.topic: function
 f1_keywords:
 - clusapi/CreateClusterNameAccount
 dev_langs:

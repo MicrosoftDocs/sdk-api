@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: F532F0ED-36F4-47E3-B478-089CC083E5D1
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCRYPT_UNPROTECT_NO_DECRYPT, NCryptUnprotectSecret, NCryptUnprotectSecret function [Security], ncryptprotect/NCryptUnprotectSecret, security.ncryptunprotectsecret
-ms.topic: function
 f1_keywords:
 - ncryptprotect/NCryptUnprotectSecret
 dev_langs:

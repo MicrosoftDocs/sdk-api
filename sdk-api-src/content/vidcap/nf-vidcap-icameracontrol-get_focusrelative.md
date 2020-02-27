@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 21bc1cbe-747b-4846-814f-1aed0ac614d6
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_FocusRelative method, ICameraControl.get_FocusRelative, ICameraControl::get_FocusRelative, ICameraControlget_FocusRelative, dshow.icameracontrol_get_focusrelative, get_FocusRelative, get_FocusRelative method [DirectShow], get_FocusRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_FocusRelative
-ms.topic: method
 f1_keywords:
 - vidcap/ICameraControl.get_FocusRelative
 dev_langs:

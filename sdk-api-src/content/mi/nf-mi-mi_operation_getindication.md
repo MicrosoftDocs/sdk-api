@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 3e3e8472-ea33-485b-9e86-b5ba770af95b
 ms.date: 12/05/2018
 ms.keywords: MI_Operation_GetIndication, MI_Operation_GetIndication function [Windows Management Infrastructure (MI)], mi/MI_Operation_GetIndication, wmi_v2.mi_operation_getindication
-ms.topic: function
 f1_keywords:
 - mi/MI_Operation_GetIndication
 dev_langs:

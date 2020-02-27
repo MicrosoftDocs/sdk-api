@@ -5,7 +5,6 @@ description: Represents data for a video decode statistics query invoked by call
 tech.root: mf
 ms.assetid: c5e06029-cab8-4e16-9bdb-c239818a2a63
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS
 dev_langs:
@@ -39,14 +38,14 @@ targetos: Windows
 # D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS structure
 
 ## -description
-Represents data for a video decode statistics query invoked by calling [ID3D12VideoDecodeCommandList::EndQuery](nf-d3d12video-id3d12videodecodecommandlist-endquery).
+Represents data for a video decode statistics query invoked by calling [ID3D12VideoDecodeCommandList::EndQuery](nf-d3d12video-id3d12videodecodecommandlist-endquery.md).
 
 ## -struct-fields
 
 
 ### -field Status
 
-A member of the [D3D12_VIDEO_DECODE_STATUS](ne-d3d12video-d3d12_video_decode_status) enumeration indicating the video decoding status.
+A member of the [D3D12_VIDEO_DECODE_STATUS](ne-d3d12video-d3d12_video_decode_status.md) enumeration indicating the video decoding status.
  
 ### -field NumMacroblocksAffected
  
@@ -58,7 +57,7 @@ The decode frame rate.
 
 ### -field BitRate
 
-When the **Status** returned is [D3D12_VIDEO_DECODE_STATUS_RATE_EXCEEDED](ne-d3d12video-d3d12_video_decode_status), this field reports the bitrate that would succeed.  This value may be used to recreate the decoder and try again.  A value of zero here is valid to indicate that the worst case bit rate should be assumed.  
+When the **Status** returned is [D3D12_VIDEO_DECODE_STATUS_RATE_EXCEEDED](ne-d3d12video-d3d12_video_decode_status.md), this field reports the bitrate that would succeed.  This value may be used to recreate the decoder and try again.  A value of zero here is valid to indicate that the worst case bit rate should be assumed.  
 
 For all other **Status** values, **BitRate** is set to zero.
  

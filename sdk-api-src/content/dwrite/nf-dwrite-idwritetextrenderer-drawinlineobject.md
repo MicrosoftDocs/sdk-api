@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: ea1c4cd0-d9b5-46af-b53e-a2d8fc442acf
 ms.date: 12/05/2018
 ms.keywords: DrawInlineObject, DrawInlineObject method [Direct Write], DrawInlineObject method [Direct Write],IDWriteTextRenderer interface, IDWriteTextRenderer interface [Direct Write],DrawInlineObject method, IDWriteTextRenderer.DrawInlineObject, IDWriteTextRenderer::DrawInlineObject, directwrite.IDWriteTextRenderer_DrawInlineObject, dwrite/IDWriteTextRenderer::DrawInlineObject
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextRenderer.DrawInlineObject
 dev_langs:

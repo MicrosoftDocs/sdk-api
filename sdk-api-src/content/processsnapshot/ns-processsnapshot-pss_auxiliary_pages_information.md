@@ -7,7 +7,6 @@ tech.root: proc_snap
 ms.assetid: 122DD3DF-002A-4250-9E37-BA239638A684
 ms.date: 12/05/2018
 ms.keywords: PSS_AUXILIARY_PAGES_INFORMATION, PSS_AUXILIARY_PAGES_INFORMATION structure, proc_snap.pss_auxiliary_pages_information, processsnapshot/PSS_AUXILIARY_PAGES_INFORMATION
-ms.topic: struct
 f1_keywords:
 - processsnapshot/PSS_AUXILIARY_PAGES_INFORMATION
 dev_langs:

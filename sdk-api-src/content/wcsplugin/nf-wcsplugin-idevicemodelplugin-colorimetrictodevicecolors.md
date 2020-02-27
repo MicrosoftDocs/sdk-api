@@ -7,7 +7,6 @@ tech.root: WCS
 ms.assetid: f950b734-f44f-412e-9944-754f88c8620f
 ms.date: 12/05/2018
 ms.keywords: ColorimetricToDeviceColors, ColorimetricToDeviceColors method [Windows Color System], ColorimetricToDeviceColors method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],ColorimetricToDeviceColors method, IDeviceModelPlugIn.ColorimetricToDeviceColors, IDeviceModelPlugIn::ColorimetricToDeviceColors, _color_IDeviceModelPlugIn::ColorimetricToDeviceColors, wcs.IDeviceModelPlugIn_ColorimetricToDeviceColors, wcsplugin/IDeviceModelPlugIn::ColorimetricToDeviceColors
-ms.topic: method
 f1_keywords:
 - wcsplugin/IDeviceModelPlugIn.ColorimetricToDeviceColors
 dev_langs:

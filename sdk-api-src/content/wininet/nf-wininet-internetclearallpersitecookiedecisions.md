@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 980df63e-70b8-44d3-b98a-b7c8a3e395c6
 ms.date: 12/05/2018
 ms.keywords: InternetClearAllPerSiteCookieDecisions, InternetClearAllPerSiteCookieDecisions function [WinINet], wininet.internetclearallpersitecookiedecisions, wininet/InternetClearAllPerSiteCookieDecisions
-ms.topic: function
 f1_keywords:
 - wininet/InternetClearAllPerSiteCookieDecisions
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: c1a0460c-ca48-48ca-bd5b-1213e8279366
 ms.date: 12/05/2018
 ms.keywords: GetHashWindowSize, GetHashWindowSize method [Remote Differential Compression], GetHashWindowSize method [Remote Differential Compression],IRdcGeneratorFilterMaxParameters interface, IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression],GetHashWindowSize method, IRdcGeneratorFilterMaxParameters.GetHashWindowSize, IRdcGeneratorFilterMaxParameters::GetHashWindowSize, fs.irdcgeneratorfiltermaxparameters_gethashwindowsize, msrdc/IRdcGeneratorFilterMaxParameters::GetHashWindowSize, rdc.irdcgeneratorfiltermaxparameters_gethashwindowsize
-ms.topic: method
 f1_keywords:
 - msrdc/IRdcGeneratorFilterMaxParameters.GetHashWindowSize
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: a43b5b32-a496-4f59-89f2-4b8566332e03
 ms.date: 12/05/2018
 ms.keywords: IRepetitionPattern interface [Task Scheduler],StopAtDurationEnd property, IRepetitionPattern.StopAtDurationEnd, IRepetitionPattern.get_StopAtDurationEnd, IRepetitionPattern::StopAtDurationEnd, IRepetitionPattern::get_StopAtDurationEnd, IRepetitionPattern::put_StopAtDurationEnd, StopAtDurationEnd property [Task Scheduler], StopAtDurationEnd property [Task Scheduler],IRepetitionPattern interface, get_StopAtDurationEnd, taskschd.irepetitionpattern_stopatdurationend, taskschd/IRepetitionPattern::StopAtDurationEnd, taskschd/IRepetitionPattern::get_StopAtDurationEnd, taskschd/IRepetitionPattern::put_StopAtDurationEnd
-ms.topic: method
 f1_keywords:
 - taskschd/IRepetitionPattern.StopAtDurationEnd
 dev_langs:

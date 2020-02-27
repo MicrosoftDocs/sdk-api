@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: e65a2a27-ae35-4637-8d85-1cc2162c41b1
 ms.date: 12/05/2018
 ms.keywords: _win32_capGetMCIDeviceName, capGetMCIDeviceName, capGetMCIDeviceName macro [Windows Multimedia], multimedia.capgetmcidevicename, vfw/capGetMCIDeviceName
-ms.topic: macro
 f1_keywords:
 - vfw/capGetMCIDeviceName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: da450910-d592-49c0-8df7-bc2f4037c4d2
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerServices interface [Text Services Framework],OnStatusChange method, ITfContextOwnerServices.OnStatusChange, ITfContextOwnerServices::OnStatusChange, OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework],ITfContextOwnerServices interface, _tsf_itfcontextownerservices_onstatuschange_ref, msctf/ITfContextOwnerServices::OnStatusChange, tsf.itfcontextownerservices_onstatuschange
-ms.topic: method
 f1_keywords:
 - msctf/ITfContextOwnerServices.OnStatusChange
 dev_langs:

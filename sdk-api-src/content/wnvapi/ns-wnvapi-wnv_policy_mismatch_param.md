@@ -7,7 +7,6 @@ tech.root: wnv
 ms.assetid: 2781B0D6-950E-49AD-9B30-31DE4A27ED4A
 ms.date: 12/05/2018
 ms.keywords: '*PWNV_POLICY_MISMATCH_PARAM, PWNV_POLICY_MISMATCH_PARAM, PWNV_POLICY_MISMATCH_PARAM structure pointer [Windows Network Virtualization], WNV_POLICY_MISMATCH_PARAM, WNV_POLICY_MISMATCH_PARAM structure [Windows Network Virtualization], wnv.wnv_policy_mismatch_param, wnvapi/PWNV_POLICY_MISMATCH_PARAM, wnvapi/WNV_POLICY_MISMATCH_PARAM'
-ms.topic: struct
 f1_keywords:
 - wnvapi/WNV_POLICY_MISMATCH_PARAM
 dev_langs:
@@ -97,7 +96,7 @@ The IP address object for the provider address, which is the matching IP address
 
 
 
-For a detailed description of network virtualization concepts and terminology, see <a href="http://go.microsoft.com/fwlink/p/?linkid=263545">Hyper-V Network Virtualization Overview</a>.
+For a detailed description of network virtualization concepts and terminology, see <a href="https://technet.microsoft.com/library/jj134230(l=en-us,v=WS.11).aspx">Hyper-V Network Virtualization Overview</a>.
 
 
 

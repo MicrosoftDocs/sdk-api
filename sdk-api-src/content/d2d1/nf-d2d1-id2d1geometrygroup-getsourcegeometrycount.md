@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: d5338e38-98b7-4e17-933c-f806bd030f88
 ms.date: 12/05/2018
 ms.keywords: GetSourceGeometryCount, GetSourceGeometryCount method [Direct2D], GetSourceGeometryCount method [Direct2D],ID2D1GeometryGroup interface, ID2D1GeometryGroup interface [Direct2D],GetSourceGeometryCount method, ID2D1GeometryGroup.GetSourceGeometryCount, ID2D1GeometryGroup::GetSourceGeometryCount, d2d1/ID2D1GeometryGroup::GetSourceGeometryCount, direct2d.ID2D1GeometryGroup_GetSourceGeometryCount
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1GeometryGroup.GetSourceGeometryCount
 dev_langs:

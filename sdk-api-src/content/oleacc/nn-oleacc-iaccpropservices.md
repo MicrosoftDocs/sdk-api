@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 0474dacf-7aa1-4d12-bac2-1091676a1ced
 ms.date: 12/05/2018
 ms.keywords: IAccPropServices, IAccPropServices interface [Windows Accessibility], IAccPropServices interface [Windows Accessibility],described, msaa.iaccpropservices, oleacc/IAccPropServices, winauto.iaccpropservices
-ms.topic: interface
 f1_keywords:
 - oleacc/IAccPropServices
 dev_langs:

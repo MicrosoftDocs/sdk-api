@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9b05d6c6-522c-46b8-90b5-c4650cee5f6b
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],IsModeAvailable method, IFullScreenVideoEx.IsModeAvailable, IFullScreenVideoEx::IsModeAvailable, IFullScreenVideoIsModeAvailable, IsModeAvailable, IsModeAvailable method [DirectShow], IsModeAvailable method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsModeAvailable, dshow.ifullscreenvideoex_ismodeavailable
-ms.topic: method
 f1_keywords:
 - amvideo/IFullScreenVideoEx.IsModeAvailable
 dev_langs:

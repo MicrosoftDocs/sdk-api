@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 1b20ead1-cda0-4449-a454-1e695fe71de6
 ms.date: 12/05/2018
 ms.keywords: WSManDeinitialize, WSManDeinitialize function [Windows Remote Management], winrm.wsmandeinitialize, wsman/WSManDeinitialize
-ms.topic: function
 f1_keywords:
 - wsman/WSManDeinitialize
 dev_langs:

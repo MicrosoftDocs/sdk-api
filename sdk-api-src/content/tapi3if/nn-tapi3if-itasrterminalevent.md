@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 6bf8b1b7-698f-443f-9ddf-0d50551cebab
 ms.date: 12/05/2018
 ms.keywords: ITASRTerminalEvent, ITASRTerminalEvent interface [TAPI 2.2], ITASRTerminalEvent interface [TAPI 2.2],described, _tapi3_itasrterminalevent, tapi3.itasrterminalevent, tapi3if/ITASRTerminalEvent
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITASRTerminalEvent
 dev_langs:

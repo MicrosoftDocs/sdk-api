@@ -7,7 +7,6 @@ tech.root: TBS
 ms.assetid: b5f91253-ac25-4ae3-93b0-4a6492dca90c
 ms.date: 12/05/2018
 ms.keywords: Tbsi_Physical_Presence_Command, Tbsi_Physical_Presence_Command function [TBS], tbs._tbsi_physical_presence_command, tbs/Tbsi_Physical_Presence_Command
-ms.topic: function
 f1_keywords:
 - tbs/Tbsi_Physical_Presence_Command
 dev_langs:
@@ -68,7 +67,7 @@ The context of the ACPI command.
 A pointer to a buffer that contains the input to the ACPI command.
 
 
-The input to the ACPI command is defined in the <a href="https://go.microsoft.com/fwlink/p/?linkid=148313">TCG Physical Presence Interface Specification</a> at https://www.trustedcomputinggroup.org/specs/PCClient. The buffer should contain <i>Arg2</i> and <i>Arg3</i> values as defined in this document. The values for <i>Arg0</i> and <i>Arg1</i> are static and automatically added. For example, if this method is used for Get Physical Presence Interface Version, then <i>Arg2</i> is the integer value 1 and <i>Arg3</i> is empty, so the buffer should just contain an integer value of 1. If this method is used for "Submit TPM Operation Request to Pre-OS Environment", then <i>Arg2</i> is the integer value 2 and <i>Arg3</i> will be the integer for the specified operation, such as 1 for enable or 2 for disable.
+The input to the ACPI command is defined in the <a href="https://trustedcomputinggroup.org/specs/PCClient/Physical_Presence_Interface_1-0_1-0_Final.pdf">TCG Physical Presence Interface Specification</a> at https://www.trustedcomputinggroup.org/specs/PCClient. The buffer should contain <i>Arg2</i> and <i>Arg3</i> values as defined in this document. The values for <i>Arg0</i> and <i>Arg1</i> are static and automatically added. For example, if this method is used for Get Physical Presence Interface Version, then <i>Arg2</i> is the integer value 1 and <i>Arg3</i> is empty, so the buffer should just contain an integer value of 1. If this method is used for "Submit TPM Operation Request to Pre-OS Environment", then <i>Arg2</i> is the integer value 2 and <i>Arg3</i> will be the integer for the specified operation, such as 1 for enable or 2 for disable.
 
 
 ### -param cbInput [in]
@@ -81,7 +80,7 @@ The length, in bytes, of the input buffer.
 A pointer to a buffer to contain the output of the ACPI command.
 
 
-The buffer will contain the return value from the  command as defined in the <a href="https://go.microsoft.com/fwlink/p/?linkid=148313">TCG Physical Presence Interface Specification</a>.
+The buffer will contain the return value from the  command as defined in the <a href="https://trustedcomputinggroup.org/specs/PCClient/Physical_Presence_Interface_1-0_1-0_Final.pdf">TCG Physical Presence Interface Specification</a>.
 
 
 ### -param pcbOutput [in, out]
@@ -172,7 +171,7 @@ A specified output pointer is not valid.
 
 
 
-For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=148313">TCG Physical Presence Interface Specification</a>.
+For more information, see <a href="https://trustedcomputinggroup.org/specs/PCClient/Physical_Presence_Interface_1-0_1-0_Final.pdf">TCG Physical Presence Interface Specification</a>.
 
 
 

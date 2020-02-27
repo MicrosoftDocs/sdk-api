@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: d432ae9a-cf34-4149-978c-637443a3824f
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDeviceProxy, WSDCreateDeviceProxy function, ncd.wsdcreatedeviceproxy, wsdclient/WSDCreateDeviceProxy
-ms.topic: function
 f1_keywords:
 - wsdclient/WSDCreateDeviceProxy
 dev_langs:

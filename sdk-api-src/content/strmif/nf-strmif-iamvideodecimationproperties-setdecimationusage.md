@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c6456154-48f5-41d9-b6f5-863b30a53596
 ms.date: 12/05/2018
 ms.keywords: IAMVideoDecimationProperties interface [DirectShow],SetDecimationUsage method, IAMVideoDecimationProperties.SetDecimationUsage, IAMVideoDecimationProperties::SetDecimationUsage, IAMVideoDecimationPropertiesSetDecimationUsage, SetDecimationUsage, SetDecimationUsage method [DirectShow], SetDecimationUsage method [DirectShow],IAMVideoDecimationProperties interface, dshow.iamvideodecimationproperties_setdecimationusage, strmif/IAMVideoDecimationProperties::SetDecimationUsage
-ms.topic: method
 f1_keywords:
 - strmif/IAMVideoDecimationProperties.SetDecimationUsage
 dev_langs:
@@ -64,7 +63,7 @@ The <code>SetDecimationUsage</code> method sets the decimation strategy.
 
 ### -param Usage [in]
 
-Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-decimation_usage">DECIMATION_USAGE</a> enumeration that specifies the decimation strategy.
+Member of the [DECIMATION_USAGE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-decimation_usage) enumeration that specifies the decimation strategy.
 
 
 ## -returns

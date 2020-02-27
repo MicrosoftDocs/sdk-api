@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: eb1ff7d1-79db-478f-9f3e-48507d333c76
 ms.date: 12/05/2018
 ms.keywords: '*LPBLOB, BLOB, BLOB structure [Winsock], _win32_blob_2, tagBLOB, winsock.blob_2, wtypesbase/BLOB'
-ms.topic: struct
 f1_keywords:
 - winsock2/BLOB
 dev_langs:

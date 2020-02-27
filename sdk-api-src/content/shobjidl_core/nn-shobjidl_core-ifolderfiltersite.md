@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8b6fe1a3-9977-42a8-af95-da0fc6809b1b
 ms.date: 12/05/2018
 ms.keywords: IFolderFilterSite, IFolderFilterSite interface [Windows Shell], IFolderFilterSite interface [Windows Shell],described, _shell_IFolderFilterSite, shell.IFolderFilterSite, shobjidl_core/IFolderFilterSite
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IFolderFilterSite
 dev_langs:
@@ -89,7 +88,7 @@ The most common use of this interface is when your application calls <a href="ht
 
 
 <ol>
-<li>Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer to call the folder browser's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method, and request a pointer to the <b>IFolderFilterSite</b> interface.</li>
+<li>Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer to call the folder browser's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method, and request a pointer to the <b>IFolderFilterSite</b> interface.</li>
 <li>Call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderfiltersite-setfilter">IFolderFilterSite::SetFilter</a>, and pass the folder browser a pointer to your <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfilter">IFolderFilter</a> (IUnknown or IFilterFolder?) interface.</li>
 <li>The folder browser will then query the two methods of the <b>IFolderFilterSite</b> interface to determine how to filter the enumeration.</li>
 </ol>

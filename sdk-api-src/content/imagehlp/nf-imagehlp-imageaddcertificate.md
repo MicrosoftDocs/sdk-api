@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: c0cf3845-749b-4d20-ab67-6ace2ac30793
 ms.date: 12/05/2018
 ms.keywords: ImageAddCertificate, ImageAddCertificate function, _win32_imageaddcertificate, base.imageaddcertificate, imagehlp/ImageAddCertificate
-ms.topic: function
 f1_keywords:
 - imagehlp/ImageAddCertificate
 dev_langs:

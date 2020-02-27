@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d0a26f36-b25d-4ab6-9779-88d01d59e41c
 ms.date: 12/05/2018
 ms.keywords: CreateDictionary, CreateDictionary method [XPS Documents and Packaging], CreateDictionary method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateDictionary method, IXpsOMObjectFactory.CreateDictionary, IXpsOMObjectFactory::CreateDictionary, xps.ixpsomobjectfactory_createdictionary, xpsobjectmodel/IXpsOMObjectFactory::CreateDictionary
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreateDictionary
 dev_langs:
@@ -116,7 +115,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

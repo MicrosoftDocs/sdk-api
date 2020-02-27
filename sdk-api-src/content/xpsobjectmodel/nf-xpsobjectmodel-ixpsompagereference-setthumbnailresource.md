@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: b44c041d-dccd-4b64-b85b-454b203b865b
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetThumbnailResource method, IXpsOMPageReference.SetThumbnailResource, IXpsOMPageReference::SetThumbnailResource, SetThumbnailResource, SetThumbnailResource method [XPS Documents and Packaging], SetThumbnailResource method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setthumbnailresource, xpsobjectmodel/IXpsOMPageReference::SetThumbnailResource
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPageReference.SetThumbnailResource
 dev_langs:
@@ -141,7 +140,7 @@ The image type of the image resource must be either  <a href="https://docs.micro
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

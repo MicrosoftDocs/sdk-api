@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: CCD8C646-B259-4445-AEA0-AD7364FE8DEF
 ms.date: 12/05/2018
 ms.keywords: IPropertyUI interface [Windows Properties],ParsePropertyName method, IPropertyUI.ParsePropertyName, IPropertyUI::ParsePropertyName, ParsePropertyName, ParsePropertyName method [Windows Properties], ParsePropertyName method [Windows Properties],IPropertyUI interface, _shell_IPropertyUI_ParsePropertyName, properties.IPropertyUI_ParsePropertyName, shell.IPropertyUI_ParsePropertyName, shobjidl_core/IPropertyUI::ParsePropertyName
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IPropertyUI.ParsePropertyName
 dev_langs:

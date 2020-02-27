@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 5d095e0f-c8c9-4717-b23a-985737b78431
 ms.date: 12/05/2018
 ms.keywords: '*PWINTRUST_CATALOG_INFO, PWINTRUST_CATALOG_INFO, PWINTRUST_CATALOG_INFO structure pointer [Security], WINTRUST_CATALOG_INFO, WINTRUST_CATALOG_INFO structure [Security], _win32_wintrust_catalog_info, security.wintrust_catalog_info, wintrust/PWINTRUST_CATALOG_INFO, wintrust/WINTRUST_CATALOG_INFO'
-ms.topic: struct
 f1_keywords:
 - wintrust/WINTRUST_CATALOG_INFO
 dev_langs:

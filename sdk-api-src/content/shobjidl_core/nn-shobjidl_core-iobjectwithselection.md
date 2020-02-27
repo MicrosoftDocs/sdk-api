@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8fb248eb-73e7-4db0-8585-4accafe332d0
 ms.date: 12/05/2018
 ms.keywords: IObjectWithSelection, IObjectWithSelection interface [Windows Shell], IObjectWithSelection interface [Windows Shell],described, _shell_IObjectWithSelection, shell.IObjectWithSelection, shobjidl_core/IObjectWithSelection
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IObjectWithSelection
 dev_langs:

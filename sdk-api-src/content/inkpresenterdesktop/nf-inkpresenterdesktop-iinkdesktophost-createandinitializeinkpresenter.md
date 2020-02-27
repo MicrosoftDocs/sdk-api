@@ -7,7 +7,6 @@ tech.root: input_ink
 ms.assetid: 596e1180-04ca-474b-b519-f9ebe468fb6a
 ms.date: 12/05/2018
 ms.keywords: CreateAndInitializeInkPresenter, CreateAndInitializeInkPresenter method, CreateAndInitializeInkPresenter method,IInkDesktopHost interface, IInkDesktopHost interface,CreateAndInitializeInkPresenter method, IInkDesktopHost.CreateAndInitializeInkPresenter, IInkDesktopHost::CreateAndInitializeInkPresenter, InkPresenterDesktop.iinkdesktophost_createandinitializeinkpresenter, inkpresenterdesktop/IInkDesktopHost::CreateAndInitializeInkPresenter, input_ink.iinkdesktophost_createandinitializeinkpresenter
-ms.topic: method
 f1_keywords:
 - inkpresenterdesktop/IInkDesktopHost.CreateAndInitializeInkPresenter
 dev_langs:
@@ -100,7 +99,7 @@ If successful, returns the requested interface pointer. Otherwise, returns <b>NU
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620314">Complex ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex ink sample</a>
 
 
 
@@ -108,7 +107,7 @@ If successful, returns the requested interface pointer. Otherwise, returns <b>NU
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
 
 
 
@@ -120,7 +119,7 @@ If successful, returns the requested interface pointer. Otherwise, returns <b>NU
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620312">Simple ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
  
 
  

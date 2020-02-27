@@ -7,7 +7,6 @@ tech.root: iSCSIDisc
 ms.assetid: a723256f-adde-4bf2-aab7-152693fa9a21
 ms.date: 12/05/2018
 ms.keywords: SetIScsiInitiatorRADIUSSharedSecret, SetIscsiInitiatorRADIUSSharedSecret, SetIscsiInitiatorRADIUSSharedSecret function [iSCSI Discovery Library API], iscsidisc.setiscsiinitiatorradiussharedsecret, iscsidsc/SetIscsiInitiatorRADIUSSharedSecret
-ms.topic: function
 f1_keywords:
 - iscsidsc/SetIscsiInitiatorRADIUSSharedSecret
 dev_langs:

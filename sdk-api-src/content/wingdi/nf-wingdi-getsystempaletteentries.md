@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 67bb0adf-ae7f-48d5-bc62-82ece45aeee6
 ms.date: 12/05/2018
 ms.keywords: GetSystemPaletteEntries, GetSystemPaletteEntries function [Windows GDI], _win32_GetSystemPaletteEntries, gdi.getsystempaletteentries, wingdi/GetSystemPaletteEntries
-ms.topic: function
 f1_keywords:
 - wingdi/GetSystemPaletteEntries
 dev_langs:

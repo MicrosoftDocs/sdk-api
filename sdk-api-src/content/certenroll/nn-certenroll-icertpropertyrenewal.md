@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: c87a391a-aec9-4b42-8084-c593ecbb0bc6
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRenewal, ICertPropertyRenewal interface [Security], ICertPropertyRenewal interface [Security],described, certenroll/ICertPropertyRenewal, security.icertpropertyrenewal
-ms.topic: interface
 f1_keywords:
 - certenroll/ICertPropertyRenewal
 dev_langs:

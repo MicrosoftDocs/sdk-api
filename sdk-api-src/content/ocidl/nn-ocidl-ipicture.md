@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 42e3cd0e-2413-494a-8be8-2952089e02d2
 ms.date: 12/05/2018
 ms.keywords: IPicture, IPicture interface [COM], IPicture interface [COM],described, _ctrl_ipicture, com.ipicture, ocidl/IPicture
-ms.topic: interface
 f1_keywords:
 - ocidl/IPicture
 dev_langs:

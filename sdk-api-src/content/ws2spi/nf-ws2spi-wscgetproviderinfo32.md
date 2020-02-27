@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 91686b38-3cde-4979-8bf6-45e805dd37ff
 ms.date: 12/05/2018
 ms.keywords: WSCGetProviderInfo32, WSCGetProviderInfo32 function [Winsock], winsock.wscgetproviderinfo32, ws2spi/WSCGetProviderInfo32
-ms.topic: function
 f1_keywords:
 - ws2spi/WSCGetProviderInfo32
 dev_langs:
@@ -50,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert">**Note**  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The 
-**WSCGetProviderInfo32** function retrieves the data associated with an information class  for a 32-bit layered service provider (LSP).<div class="alert">**Note**  This call is a strictly 32-bit version of <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo">WSCGetProviderInfo</a> for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs.</div>
+<div class="alert">**Note**  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The 
+**WSCGetProviderInfo32** function retrieves the data associated with an information class  for a 32-bit layered service provider (LSP).<div class="alert">**Note**  This call is a strictly 32-bit version of <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo">WSCGetProviderInfo</a> for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs.</div>
 <div> </div>
 
 
@@ -116,7 +115,7 @@ The call is not implemented. This error is returned if **ProviderInfoAudit** is 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -127,7 +126,7 @@ One or more of the arguments is not in a valid part of the user address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -138,7 +137,7 @@ One or more of the arguments are invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVALIDPROVIDER</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVALIDPROVIDER</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -149,7 +148,7 @@ The protocol entry could not be found for the specified <i>lpProviderId</i>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -160,7 +159,7 @@ A nonrecoverable error occurred. This error is returned under several conditions
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -178,12 +177,12 @@ A nonrecoverable error occurred. This error is returned under several conditions
 
 
 
-**WSCGetProviderInfo32** is a strictly 32-bit version of <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo">WSCGetProviderInfo</a>. On a 64-bit computer, all calls not specifically 32-bit (for example, all functions that do not end in "32") operate on the native 64-bit catalog. Processes that execute on a 64-bit computer must use the specific 32-bit function calls to operate on a strictly 32-bit catalog and preserve compatibility. The definitions and semantics of the specific 32-bit calls are the same as their native counterparts.
+**WSCGetProviderInfo32** is a strictly 32-bit version of <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo">WSCGetProviderInfo</a>. On a 64-bit computer, all calls not specifically 32-bit (for example, all functions that do not end in "32") operate on the native 64-bit catalog. Processes that execute on a 64-bit computer must use the specific 32-bit function calls to operate on a strictly 32-bit catalog and preserve compatibility. The definitions and semantics of the specific 32-bit calls are the same as their native counterparts.
 
 **WSCGetProviderInfo32** is used to retrieve information class data for a protocol entry on a 32-bit layered service provider. When the <i>InfoType</i> parameter is set to **ProviderInfoLspCategories**, on success **WSCGetProviderInfo32** returns with the <i>Info</i> parameter set with appropriate LSP category flags implemented by 32-bit LSP. 
 
 Winsock 2 accommodates layered protocols. A layered protocol is one that implements only higher level communications functions, while relying on an underlying transport stack for the actual exchange of data with a remote endpoint. An example of a layered protocol or layered service provider would be a security layer that adds protocol to the connection establishment process in order to perform authentication and to establish a mutually agreed upon encryption scheme.  Such a security protocol would generally require the services of an underlying reliable transport protocol such as TCP or SPX.  The term base protocol refers to a protocol such as TCP or SPX which is capable of performing data communications with a remote endpoint. The term layered protocol is used to describe a protocol that cannot stand alone.  A protocol chain would then be defined as one or more layered protocols strung together and anchored by a base protocol.
-A base protocol has the **ChainLen** member of the [WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure set to  **BASE_PROTOCOL** which is defined to be 1. A layered protocol has the **ChainLen** member of the **WSAPROTOCOL_INFO** structure set to **LAYERED_PROTOCOL** which is defined to be zero. A protocol chain has the **ChainLen** member of the **WSAPROTOCOL_INFO** structure set to greater than 1.
+A base protocol has the **ChainLen** member of the <a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structure set to  **BASE_PROTOCOL** which is defined to be 1. A layered protocol has the **ChainLen** member of the **WSAPROTOCOL_INFO** structure set to **LAYERED_PROTOCOL** which is defined to be zero. A protocol chain has the **ChainLen** member of the **WSAPROTOCOL_INFO** structure set to greater than 1.
 
 During LSP initialization, the LSP must provide pointers to a number of Winsock SPI functions.  These functions will be called during normal processing by the layer directly above the LSP (either another LSP or Ws2_32.DLL).  
 
@@ -257,31 +256,31 @@ If an LSP does not have a category set, it is considered to be in the All Other 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/categorizing-layered-service-providers-and-applications">Categorizing Layered Service Providers and Applications</a>
+<a href="/windows/desktop/WinSock/categorizing-layered-service-providers-and-applications">Categorizing Layered Service Providers and Applications</a>
 
 
 
-[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa)
+<a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscgetapplicationcategory">WSCGetApplicationCategory</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscgetapplicationcategory">WSCGetApplicationCategory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo">WSCGetProviderInfo</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo">WSCGetProviderInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscsetapplicationcategory">WSCSetApplicationCategory</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscsetapplicationcategory">WSCSetApplicationCategory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscsetproviderinfo32">WSCSetProviderInfo32</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscsetproviderinfo32">WSCSetProviderInfo32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ne-ws2spi-wsc_provider_info_type">WSC_PROVIDER_INFO_TYPE</a>
+<a href="/windows/desktop/api/ws2spi/ne-ws2spi-wsc_provider_info_type">WSC_PROVIDER_INFO_TYPE</a>
  
 
  

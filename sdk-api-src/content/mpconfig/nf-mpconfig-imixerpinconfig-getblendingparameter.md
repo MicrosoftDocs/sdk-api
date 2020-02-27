@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: bcd54b8d-d742-4ac0-bcea-8de77b7f0074
 ms.date: 12/05/2018
 ms.keywords: GetBlendingParameter, GetBlendingParameter method [DirectShow], GetBlendingParameter method [DirectShow],IMixerPinConfig interface, IMixerPinConfig interface [DirectShow],GetBlendingParameter method, IMixerPinConfig.GetBlendingParameter, IMixerPinConfig::GetBlendingParameter, IMixerPinConfigGetBlendingParameter, dshow.imixerpinconfig_getblendingparameter, mpconfig/IMixerPinConfig::GetBlendingParameter
-ms.topic: method
 f1_keywords:
 - mpconfig/IMixerPinConfig.GetBlendingParameter
 dev_langs:

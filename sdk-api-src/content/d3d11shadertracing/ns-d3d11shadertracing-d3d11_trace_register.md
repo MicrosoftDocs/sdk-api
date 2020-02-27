@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 32A51FC7-375D-40BE-95F2-65C5057F002C
 ms.date: 12/05/2018
 ms.keywords: D3D11_TRACE_REGISTER, D3D11_TRACE_REGISTER structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_REGISTER, direct3d11.d3d11_trace_register
-ms.topic: struct
 f1_keywords:
 - d3d11shadertracing/D3D11_TRACE_REGISTER
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 6c199960-e0ee-4370-a302-a45a3dbe8b28
 ms.date: 12/05/2018
 ms.keywords: 6c199960-e0ee-4370-a302-a45a3dbe8b28, AlternatesWithConstantPropertyValues, AlternatesWithConstantPropertyValues method [Tablet PC], AlternatesWithConstantPropertyValues method [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],AlternatesWithConstantPropertyValues method, IInkRecognitionAlternate.AlternatesWithConstantPropertyValues, IInkRecognitionAlternate::AlternatesWithConstantPropertyValues, msinkaut/IInkRecognitionAlternate::AlternatesWithConstantPropertyValues, tablet.iinkrecognitionalternate_alternateswithconstantpropertyvalues
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRecognitionAlternate.AlternatesWithConstantPropertyValues
 dev_langs:

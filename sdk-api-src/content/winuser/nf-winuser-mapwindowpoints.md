@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 01c3b794-c1ca-467f-a4da-c6622453ee97
 ms.date: 12/05/2018
 ms.keywords: MapWindowPoints, MapWindowPoints function [Windows GDI], _win32_MapWindowPoints, gdi.mapwindowpoints, winuser/MapWindowPoints
-ms.topic: function
 f1_keywords:
 - winuser/MapWindowPoints
 dev_langs:

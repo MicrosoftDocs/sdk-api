@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: e33d221b-cd06-4f20-a4b5-407a04362ba0
 ms.date: 12/05/2018
 ms.keywords: SetTransactionInformation, SetTransactionInformation function [Files], fs.settransactioninformation, ktmw32/SetTransactionInformation
-ms.topic: function
 f1_keywords:
 - ktmw32/SetTransactionInformation
 dev_langs:

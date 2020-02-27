@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: f1649f70-8c8b-4eea-8ecb-7ea5a657eabe
 ms.date: 12/05/2018
 ms.keywords: CompareToKnowledgeCookie, CompareToKnowledgeCookie method [Windows Sync], CompareToKnowledgeCookie method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],CompareToKnowledgeCookie method, ISyncKnowledge2.CompareToKnowledgeCookie, ISyncKnowledge2::CompareToKnowledgeCookie, winsync.isyncknowledge2_comparetoknowledgecookie, winsync/ISyncKnowledge2::CompareToKnowledgeCookie
-ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge2.CompareToKnowledgeCookie
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 4fe14c49-3fd6-48b7-92de-a0c867b2e042
 ms.date: 12/05/2018
 ms.keywords: GetDiskFreeSpace, GetDiskFreeSpace function [Files], GetDiskFreeSpaceA, GetDiskFreeSpaceW, _win32_getdiskfreespace, base.getdiskfreespace, fileapi/GetDiskFreeSpace, fileapi/GetDiskFreeSpaceA, fileapi/GetDiskFreeSpaceW, fs.getdiskfreespace, winbase/GetDiskFreeSpace, winbase/GetDiskFreeSpaceA, winbase/GetDiskFreeSpaceW
-ms.topic: function
 f1_keywords:
 - fileapi/GetDiskFreeSpace
 dev_langs:
@@ -72,8 +71,8 @@ Retrieves information about the specified disk, including the amount of free spa
 
 The root directory of the disk for which information is to be returned. If this parameter is 
       <b>NULL</b>, the function uses the root of the current disk. If this parameter is a UNC name, 
-      it must include a trailing backslash (for example, "\\MyServer\MyShare\"). Furthermore, a drive 
-      specification must have a trailing backslash (for example, "C:\"). The calling application must 
+      it must include a trailing backslash (for example, "\\\\MyServer\\MyShare\\"). Furthermore, a drive 
+      specification must have a trailing backslash (for example, "C:\\"). The calling application must 
       have <b>FILE_LIST_DIRECTORY</b> access rights for this  directory.
 
 

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 56fc47d6-042e-48ad-a0b8-39646453a6af
 ms.date: 12/05/2018
 ms.keywords: GetLangID, GetLangID method [Microsoft TV Technologies], GetLangID method [Microsoft TV Technologies],IDvbDataBroadcastDescriptor interface, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],GetLangID method, IDvbDataBroadcastDescriptor.GetLangID, IDvbDataBroadcastDescriptor::GetLangID, dvbsiparser/IDvbDataBroadcastDescriptor::GetLangID, mstv.idvbdatabroadcastdescriptor_getlangid
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbDataBroadcastDescriptor.GetLangID
 dev_langs:
@@ -62,7 +61,7 @@ identifies the language used for the text description field.
 
 ### -param pulVal [out]
 
-Receives the language code. For a list of language codes, refer to the <a href="http://go.microsoft.com/fwlink?linkID=161422">ISO 639 Code Tables</a>.
+Receives the language code. For a list of language codes, refer to the <a href="http://www-01.sil.org/iso639-3/codes.asp">ISO 639 Code Tables</a>.
 
 
 ## -returns

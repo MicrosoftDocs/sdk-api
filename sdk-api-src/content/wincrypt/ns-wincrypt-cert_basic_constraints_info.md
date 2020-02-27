@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 6603b627-5e5d-48bc-b200-c8dcdd646994
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_BASIC_CONSTRAINTS_INFO, CERT_BASIC_CONSTRAINTS_INFO, CERT_BASIC_CONSTRAINTS_INFO structure [Security], PCERT_BASIC_CONSTRAINTS_INFO, PCERT_BASIC_CONSTRAINTS_INFO structure pointer [Security], _crypto2_cert_basic_constraints_info, security.cert_basic_constraints_info, wincrypt/CERT_BASIC_CONSTRAINTS_INFO, wincrypt/PCERT_BASIC_CONSTRAINTS_INFO'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_BASIC_CONSTRAINTS_INFO
 dev_langs:

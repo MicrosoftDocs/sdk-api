@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: 208da586-6bb3-4365-90ba-9fd615a371eb
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method, Delete method,IPNPXDeviceAssociation interface, IPNPXDeviceAssociation interface,Delete method, IPNPXDeviceAssociation.Delete, IPNPXDeviceAssociation::Delete, ncd.ipnpxdeviceassociation_delete, pnpxassoc/IPNPXDeviceAssociation::Delete
-ms.topic: method
 f1_keywords:
 - pnpxassoc/IPNPXDeviceAssociation.Delete
 dev_langs:

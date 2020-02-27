@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: a228ed61-1f16-45f4-85f2-85661ce06b72
 ms.date: 12/05/2018
 ms.keywords: IWbemShutdown, IWbemShutdown interface [Windows Management Instrumentation], IWbemShutdown interface [Windows Management Instrumentation],described, wbemcli/ IWbemShutdown, wmi.iwbemshutdown
-ms.topic: interface
 f1_keywords:
 - wbemcli/IWbemShutdown
 dev_langs:

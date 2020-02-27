@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 14336909-539c-41ac-a3a6-73be04fa72d1
 ms.date: 12/05/2018
 ms.keywords: IEnumOleUndoUnits interface [COM],Reset method, IEnumOleUndoUnits.Reset, IEnumOleUndoUnits::Reset, Reset, Reset method [COM], Reset method [COM],IEnumOleUndoUnits interface, _ole_ienumoleundounits_reset, com.ienumoleundounits_reset, ocidl/IEnumOleUndoUnits::Reset
-ms.topic: method
 f1_keywords:
 - ocidl/IEnumOleUndoUnits.Reset
 dev_langs:

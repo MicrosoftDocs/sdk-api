@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: dff6e626-d0c8-4b7c-85c7-c5cb2481d810
 ms.date: 12/05/2018
 ms.keywords: STGOPTIONS, STGOPTIONS structure [Structured Storage], _stg_stgoptions, coml2api/STGOPTIONS, stg.stgoptions
-ms.topic: struct
 f1_keywords:
 - coml2api/STGOPTIONS
 dev_langs:

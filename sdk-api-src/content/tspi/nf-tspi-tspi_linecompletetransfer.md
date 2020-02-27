@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 486a62df-dcdb-46f5-af02-1cf091215401
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineCompleteTransfer, TSPI_lineCompleteTransfer function [TAPI 2.2], _tspi_tspi_linecompletetransfer, tspi.tspi_linecompletetransfer, tspi/TSPI_lineCompleteTransfer
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineCompleteTransfer
 dev_langs:

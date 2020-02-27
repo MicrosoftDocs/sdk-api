@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0cc26423-5c14-49d0-984e-f2bb81f68010
 ms.date: 12/05/2018
 ms.keywords: ULongPtrToChar, ULongPtrToChar function [Windows Shell], intsafe/ULongPtrToChar, shell.ULongPtrToChar
-ms.topic: function
 f1_keywords:
 - intsafe/ULongPtrToChar
 dev_langs:

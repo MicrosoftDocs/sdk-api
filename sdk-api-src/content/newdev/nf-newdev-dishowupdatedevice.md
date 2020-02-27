@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 4b60f7cd-0375-4569-abb1-721fd8cdf5a1
 ms.date: 12/05/2018
 ms.keywords: DiShowUpdateDevice, DiShowUpdateDevice function [Device and Driver Installation], devinst.dishowupdatedevice, di-rtns_096f087c-2947-4424-861d-af7287eec8ad.xml, newdev/DiShowUpdateDevice
-ms.topic: function
 f1_keywords:
 - newdev/DiShowUpdateDevice
 dev_langs:
@@ -87,7 +86,7 @@ A pointer to a value of type BOOL that <b>DiShowUpdateDevice</b> sets to indicat
 
 
 
-<b>DiShowUpdateDevice</b> returns <b>TRUE</b> if the Hardware Update wizard successfully updated the driver for the specified device. Otherwise, <b>DiShowUpdateDevice</b> returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>. Some of the more common error values that <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> might return are as follows:
+<b>DiShowUpdateDevice</b> returns <b>TRUE</b> if the Hardware Update wizard successfully updated the driver for the specified device. Otherwise, <b>DiShowUpdateDevice</b> returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>. Some of the more common error values that <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> might return are as follows:
 
 <table>
 <tr>

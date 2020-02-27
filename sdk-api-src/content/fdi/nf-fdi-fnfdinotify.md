@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 7655ddb2-7cd4-4012-913c-9909fcea639a
 ms.date: 12/05/2018
 ms.keywords: FNFDINOTIFY, FNFDINOTIFY macro [Windows API], fdi/FNFDINOTIFY, fdintCABINET_INFO, fdintCLOSE_FILE_INFO, fdintCOPY_FILE, fdintENUMERATE, fdintNEXT_CABINET, fdintPARTIAL_FILE, winprog.fnfdinotify
-ms.topic: macro
 f1_keywords:
 - fdi/FNFDINOTIFY
 dev_langs:
@@ -124,7 +123,7 @@ When this value is set, the <a href="https://docs.microsoft.com/windows/desktop/
 <li><b>psz1</b>will point to the name of a file in the cabinet; cb will equal the uncompressed size of the file</li>
 <li><b>date</b> will equal the file's 16-bit MS-DOS date</li>
 <li><b>time</b> will equal the file's 16-bit MS-DOS time</li>
-<li><b>attrib</b> will equal the file's 16-bit MS-DOS attributes</li>
+<li><b>attribs</b> will equal the file's 16-bit MS-DOS attributes</li>
 </ul>
 The application should return one of three values; 0 to skip (i.e. not copy) the file; -1 (negative one) to abort <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicopy">FDICopy</a>; or a nonzero (and non-negative-one) file handle that indicates where to write the file. The file handle must be compatible with the <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fnclose">PFNCLOSE</a> function supplied to <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>. The <b>fdintCOPY_FILE</b> notification is called for each file that starts within the current cabinet, providing the opportunity for the application to request that the file be copied or skipped.
 
@@ -146,7 +145,7 @@ When this value is set, the <a href="https://docs.microsoft.com/windows/desktop/
 <li><b>hf</b> will be a file handle (which originated from <b>fdintCOPY_FILE</b>)</li>
 <li><b>date</b> date will equal the file's 16-bit MS-DOS date</li>
 <li><b>time</b> time will equal the file's 16-bit MS-DOS time</li>
-<li><b>attrib</b> attributes will equal the file's 16-bit MS-DOS attributes (minus the _A_EXEC bit)</li>
+<li><b>attribs</b> attributes will equal the file's 16-bit MS-DOS attributes (minus the _A_EXEC bit)</li>
 <li><b>cb</b> will equal either 0 or 1, indicating whether the file should be executed after extract (1), or not (0)</li>
 </ul>
 It is the responsibility of the application to execute the file if <b>cb</b> equals 1. The <b>fdintCLOSE_FILE_INFO</b> notification is called after all of the data has been written to a target file. The application must close the file (using the provided <b>hf</b> handle), and set the file date, time, and attributes. The application should return <b>TRUE</b> for success, and <b>FALSE</b> or -1 to abort <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicopy">FDICopy</a>. FDI assumes that the target file was closed, even if this callback returns failure; FDI will not attempt to use <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fnclose">PFNCLOSE</a> to close the file.

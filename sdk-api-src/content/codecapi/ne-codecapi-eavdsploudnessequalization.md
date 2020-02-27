@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: bb46653e-d17d-4899-8a0b-cee8c4d68993
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVDSPLoudnessEqualization, codecapi/eAVDSPLoudnessEqualization_AUTO, codecapi/eAVDSPLoudnessEqualization_OFF, codecapi/eAVDSPLoudnessEqualization_ON, dshow.eavdsploudnessequalization, eAVDSPLoudnessEqualization, eAVDSPLoudnessEqualization enumeration [DirectShow], eAVDSPLoudnessEqualization_AUTO, eAVDSPLoudnessEqualization_OFF, eAVDSPLoudnessEqualization_ON
-ms.topic: enum
 f1_keywords:
 - codecapi/eAVDSPLoudnessEqualization
 dev_langs:

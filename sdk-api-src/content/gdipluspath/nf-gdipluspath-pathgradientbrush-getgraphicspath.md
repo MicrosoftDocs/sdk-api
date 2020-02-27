@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getgraphicspath.htm
 ms.date: 12/05/2018
 ms.keywords: GetGraphicsPath, GetGraphicsPath method [GDI+], GetGraphicsPath method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetGraphicsPath method, PathGradientBrush.GetGraphicsPath, PathGradientBrush::GetGraphicsPath, _gdiplus_CLASS_PathGradientBrush_GetGraphicsPath_path_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetGraphicsPath_path_
-ms.topic: method
 f1_keywords:
 - gdipluspath/PathGradientBrush.GetGraphicsPath
 dev_langs:

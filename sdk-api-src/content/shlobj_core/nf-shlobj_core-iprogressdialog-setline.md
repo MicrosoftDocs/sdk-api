@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2c4441a8-3bb6-4cd8-8f96-423ee8d26113
 ms.date: 12/05/2018
 ms.keywords: IProgressDialog interface [Windows Shell],SetLine method, IProgressDialog.SetLine, IProgressDialog::SetLine, SetLine, SetLine method [Windows Shell], SetLine method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_SetLine, shell.IProgressDialog_SetLine, shlobj_core/IProgressDialog::SetLine
-ms.topic: method
 f1_keywords:
 - shlobj_core/IProgressDialog.SetLine
 dev_langs:

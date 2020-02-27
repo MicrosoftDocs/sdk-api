@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: 773bf345-5bdd-4b05-b291-1e844bdb9cf0
 ms.date: 12/05/2018
 ms.keywords: '*LPDIOBJECTATTRIBUTES, DIOBJECTATTRIBUTES, DIOBJECTATTRIBUTES structure [Human Input Devices], di_ref_c88696fe-68b4-4b0e-88dd-96be38e0bdd4.xml, dinputd/DIOBJECTATTRIBUTES, hid.diobjectattributes'
-ms.topic: struct
 f1_keywords:
 - dinputd/DIOBJECTATTRIBUTES
 dev_langs:

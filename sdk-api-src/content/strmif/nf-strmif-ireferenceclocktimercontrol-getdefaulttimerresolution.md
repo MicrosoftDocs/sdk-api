@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8382bc39-bc3d-43a1-aa06-16a4eecbdc7a
 ms.date: 12/05/2018
 ms.keywords: GetDefaultTimerResolution, GetDefaultTimerResolution method [DirectShow], GetDefaultTimerResolution method [DirectShow],IReferenceClockTimerControl interface, IReferenceClockTimerControl interface [DirectShow],GetDefaultTimerResolution method, IReferenceClockTimerControl.GetDefaultTimerResolution, IReferenceClockTimerControl::GetDefaultTimerResolution, IReferenceClockTimerControlGetDefaultTimerResoluti, dshow.ireferenceclocktimercontrol_getdefaulttimerresolution, strmif/IReferenceClockTimerControl::GetDefaultTimerResolution
-ms.topic: method
 f1_keywords:
 - strmif/IReferenceClockTimerControl.GetDefaultTimerResolution
 dev_langs:

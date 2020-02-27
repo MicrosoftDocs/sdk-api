@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: a80b299a-c3f9-411b-9936-33d32fc71853
 ms.date: 12/05/2018
 ms.keywords: FillPath, FillPath function [Windows GDI], _win32_FillPath, gdi.fillpath, wingdi/FillPath
-ms.topic: function
 f1_keywords:
 - wingdi/FillPath
 dev_langs:

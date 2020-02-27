@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: c72ed61f-abbe-4a6d-9f8d-95afbd5dfb04
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetrequest, lineGetRequest, lineGetRequest function [TAPI 2.2], lineGetRequestA, lineGetRequestW, tapi/lineGetRequest, tapi/lineGetRequestA, tapi/lineGetRequestW, tapi2.linegetrequest
-ms.topic: function
 f1_keywords:
 - tapi/lineGetRequest
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3e3f3ed0-ad36-40ef-b30c-8c85ff159f21
 ms.date: 12/05/2018
 ms.keywords: IUnknown_QueryService, IUnknown_QueryService function [Windows Shell], _shell_IUnknown_QueryService, shell.IUnknown_QueryService, shlwapi/IUnknown_QueryService
-ms.topic: function
 f1_keywords:
 - shlwapi/IUnknown_QueryService
 dev_langs:

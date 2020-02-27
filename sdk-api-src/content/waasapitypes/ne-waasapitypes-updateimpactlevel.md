@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: C7F30B63-66B0-4F37-A05B-7D366A12B640
 ms.date: 12/05/2018
 ms.keywords: UpdateImpactLevel, UpdateImpactLevel enumeration, UpdateImpactLevel_High, UpdateImpactLevel_Low, UpdateImpactLevel_Medium, UpdateImpactLevel_None, base.updateimpactlevel, waasapitypes/ UpdateImpactLevel_Medium, waasapitypes/ UpdateImpactLevel_None, waasapitypes/UpdateImpactLevel, waasapitypes/UpdateImpactLevel_High, waasapitypes/UpdateImpactLevel_Low
-ms.topic: enum
 f1_keywords:
 - waasapitypes/UpdateImpactLevel
 dev_langs:

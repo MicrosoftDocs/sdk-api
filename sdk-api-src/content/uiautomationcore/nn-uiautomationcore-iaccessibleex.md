@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 90211503-a73c-4380-be96-0be40ad29382
 ms.date: 12/05/2018
 ms.keywords: IAccessibleEx, IAccessibleEx interface [Windows Accessibility], IAccessibleEx interface [Windows Accessibility],described, uiauto.uiauto_IAccessibleEx, uiauto_IAccessibleEx, uiautomationcore/IAccessibleEx, winauto.uiauto_IAccessibleEx
-ms.topic: interface
 f1_keywords:
 - uiautomationcore/IAccessibleEx
 dev_langs:
@@ -46,16 +45,13 @@ ms.custom: 19H1
 
 # IAccessibleEx interface
 
-
 ## -description
-
 
 Exposes methods that are called by Microsoft UI Automation to retrieve extra information about a control that supports Microsoft Active Accessibility.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessibleEx</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccessibleEx</b> also has these types of members:
+The **IAccessibleEx** interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. **IAccessibleEx** also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

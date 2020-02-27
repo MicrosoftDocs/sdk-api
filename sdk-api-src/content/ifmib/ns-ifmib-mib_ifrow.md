@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: b08631e9-6036-4377-b2f2-4ea899acb787
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IFROW, IF_OPER_STATUS_CONNECTED, IF_OPER_STATUS_CONNECTING, IF_OPER_STATUS_DISCONNECTED, IF_OPER_STATUS_NON_OPERATIONAL, IF_OPER_STATUS_OPERATIONAL, IF_OPER_STATUS_UNREACHABLE, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_FDDI, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_IEEE80216_WMAN, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, IF_TYPE_WWANPP, IF_TYPE_WWANPP2, MIB_IFROW, MIB_IFROW structure [MIB], PMIB_IFROW, PMIB_IFROW structure pointer [MIB], _mpr_mib_ifrow, ifmib/MIB_IFROW, ifmib/PMIB_IFROW, iprtrmib/MIB_IFROW, iprtrmib/PMIB_IFROW, mib.mib_ifrow, rras.mib_ifrow'
-ms.topic: struct
 f1_keywords:
 - ifmib/MIB_IFROW
 dev_langs:
@@ -79,7 +78,7 @@ The index that identifies the interface. This index value may change when a netw
 
 Type: <b>DWORD</b>
 
-The interface type as defined by the Internet Assigned Names Authority (IANA). For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84022">http://www.iana.org/assignments/ianaiftype-mib</a>. Possible values for the interface type are listed in the <i>Ipifcons.h</i> header file. 
+The interface type as defined by the Internet Assigned Names Authority (IANA). For more information, see <a href="https://www.iana.org/assignments/ianaiftype-mib">http://www.iana.org/assignments/ianaiftype-mib</a>. Possible values for the interface type are listed in the <i>Ipifcons.h</i> header file. 
 
 The table below lists common values for the interface type although many other values are possible. 
 

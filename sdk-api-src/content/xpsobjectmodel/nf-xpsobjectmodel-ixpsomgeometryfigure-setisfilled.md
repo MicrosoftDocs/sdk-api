@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 18054987-35a9-4049-ba0f-1425e2e54ed3
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetIsFilled method, IXpsOMGeometryFigure.SetIsFilled, IXpsOMGeometryFigure::SetIsFilled, SetIsFilled, SetIsFilled method [XPS Documents and Packaging], SetIsFilled method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, TRUE, xps.ixpsomgeometryfigure_setisfilled, xpsobjectmodel/IXpsOMGeometryFigure::SetIsFilled
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGeometryFigure.SetIsFilled
 dev_langs:
@@ -118,7 +117,7 @@ In the document markup, the value returned in <i>isFilled</i>  corresponds to th
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

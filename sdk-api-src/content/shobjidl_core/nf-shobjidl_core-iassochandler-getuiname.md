@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: bf714cf9-a16a-40a4-8dd8-c53c289967f5
 ms.date: 12/05/2018
 ms.keywords: GetUIName, GetUIName method [Windows Shell], GetUIName method [Windows Shell],IAssocHandler interface, IAssocHandler interface [Windows Shell],GetUIName method, IAssocHandler.GetUIName, IAssocHandler::GetUIName, _shell_IAssocHandler_GetUIName, shell.IAssocHandler_GetUIName, shobjidl_core/IAssocHandler::GetUIName
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IAssocHandler.GetUIName
 dev_langs:

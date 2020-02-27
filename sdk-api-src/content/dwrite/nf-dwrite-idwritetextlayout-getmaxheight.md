@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 841b48aa-690a-4563-a303-2990f4233d07
 ms.date: 12/05/2018
 ms.keywords: GetMaxHeight, GetMaxHeight method [Direct Write], GetMaxHeight method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetMaxHeight method, IDWriteTextLayout.GetMaxHeight, IDWriteTextLayout::GetMaxHeight, directwrite.IDWriteTextLayout_GetMaxHeight, dwrite/IDWriteTextLayout::GetMaxHeight
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextLayout.GetMaxHeight
 dev_langs:

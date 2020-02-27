@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: d35d155c-fb81-4d7e-b5c9-82ac5af4b79e
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionCertificatePolicies, IX509ExtensionCertificatePolicies interface [Security], IX509ExtensionCertificatePolicies interface [Security],described, certenroll/IX509ExtensionCertificatePolicies, security.ix509extensioncertificatepolicies
-ms.topic: interface
 f1_keywords:
 - certenroll/IX509ExtensionCertificatePolicies
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\iuiframework.htm
 ms.date: 12/05/2018
 ms.keywords: IUIFramework, IUIFramework interface [Windows Ribbon], IUIFramework interface [Windows Ribbon],described, scenicintent_IUIFramework, uiribbon/IUIFramework, windowsribbon.windowsribbon_iuiframework
-ms.topic: interface
 f1_keywords:
 - uiribbon/IUIFramework
 dev_langs:
@@ -171,7 +170,7 @@ This interface is used to initialize and dismantle the Ribbon framework.
 Ribbon framework UI functionality is differentiated by Views, which are essentially 
 				built-in core controls, such as the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a> and <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
 
-To get an interface pointer to the implementation of IUIFramework, use <a href="http://go.microsoft.com/fwlink/p/?linkid=199586">CoCreateInstance</a>to 
+To get an interface pointer to the implementation of IUIFramework, use <a href="https://msdn.microsoft.com/library/ms686615(VS.85).aspx">CoCreateInstance</a>to 
 			create a COM object with the class identifier (CLSID) of CLSID_UIRibbonFramework.
 			
 

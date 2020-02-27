@@ -7,7 +7,6 @@ tech.root: wnv
 ms.assetid: 9FC20DFE-663C-47ED-8183-76C10D4E7615
 ms.date: 12/05/2018
 ms.keywords: '*PWNV_PROVIDER_ADDRESS_CHANGE_PARAM, IpDadStateDeprecated, IpDadStateDuplicate, IpDadStateInvalid, IpDadStatePreferred, IpDadStateTentative, PWNV_PROVIDER_ADDRESS_CHANGE_PARAM, PWNV_PROVIDER_ADDRESS_CHANGE_PARAM structure pointer [Windows Network Virtualization], WNV_PROVIDER_ADDRESS_CHANGE_PARAM, WNV_PROVIDER_ADDRESS_CHANGE_PARAM structure [Windows Network Virtualization], wnv.wnv_provider_address_change_param, wnvapi/PWNV_PROVIDER_ADDRESS_CHANGE_PARAM, wnvapi/WNV_PROVIDER_ADDRESS_CHANGE_PARAM'
-ms.topic: struct
 f1_keywords:
 - wnvapi/WNV_PROVIDER_ADDRESS_CHANGE_PARAM
 dev_langs:
@@ -146,7 +145,7 @@ The IP address is the preferred address.
 
 
 
-For a detailed description of network virtualization concepts and terminology, refer to <a href="http://go.microsoft.com/fwlink/p/?linkid=263545">Hyper-V Network Virtualization Overview</a>.
+For a detailed description of network virtualization concepts and terminology, refer to <a href="https://technet.microsoft.com/library/jj134230(l=en-us,v=WS.11).aspx">Hyper-V Network Virtualization Overview</a>.
 
 
 

@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 889db097-3a16-4c35-9a79-e4a9d8060832
 ms.date: 12/05/2018
 ms.keywords: IStreamInterleave interface [IMAPI],Initialize method, IStreamInterleave.Initialize, IStreamInterleave::Initialize, Initialize, Initialize method [IMAPI], Initialize method [IMAPI],IStreamInterleave interface, imapi.istreaminterleave_initialize, imapi2/IStreamInterleave::Initialize
-ms.topic: method
 f1_keywords:
 - imapi2/IStreamInterleave.Initialize
 dev_langs:

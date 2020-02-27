@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 6F45FEC4-AFB9-4612-A840-B806034F33E2
 ms.date: 12/05/2018
 ms.keywords: SymGetSourceFileChecksum, SymGetSourceFileChecksum function, SymGetSourceFileChecksumW, base.symgetsourcefilechecksum, dbghelp/SymGetSourceFileChecksum, dbghelp/SymGetSourceFileChecksumW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymGetSourceFileChecksum
 dev_langs:

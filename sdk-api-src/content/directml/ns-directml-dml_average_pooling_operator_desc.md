@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 343A104A-208F-4AB9-A1E7-7EC83FB84AC5
 ms.date: 12/5/2018
 ms.keywords: DML_AVERAGE_POOLING_OPERATOR_DESC, DML_AVERAGE_POOLING_OPERATOR_DESC structure, direct3d12.dml_average_pooling_operator_desc, directml/DML_AVERAGE_POOLING_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_AVERAGE_POOLING_OPERATOR_DESC
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: f22b21f8-5191-480d-8471-3d5fc82ba060
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectSinkEx, IWbemObjectSinkEx interface [Windows Management Instrumentation], IWbemObjectSinkEx interface [Windows Management Instrumentation],described, wbemcli/IWbemObjectSinkEx, wmi.iwbemobjectsinkex
-ms.topic: interface
 f1_keywords:
 - wbemcli/IWbemObjectSinkEx
 dev_langs:

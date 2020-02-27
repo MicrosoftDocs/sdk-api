@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 2162de70-edcc-4f01-807d-79ff200d0016
 ms.date: 12/05/2018
 ms.keywords: ICertificatePolicy, ICertificatePolicy interface [Security], ICertificatePolicy interface [Security],described, certenroll/ICertificatePolicy, security.icertificatepolicy
-ms.topic: interface
 f1_keywords:
 - certenroll/ICertificatePolicy
 dev_langs:

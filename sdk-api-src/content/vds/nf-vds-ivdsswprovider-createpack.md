@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 2d711ed8-9101-4e68-b085-b5df01515b5d
 ms.date: 12/05/2018
 ms.keywords: CreatePack, CreatePack method [VDS], CreatePack method [VDS],IVdsSwProvider interface, IVdsSwProvider interface [VDS],CreatePack method, IVdsSwProvider.CreatePack, IVdsSwProvider::CreatePack, base.ivdsswprovider_createpack, vds/IVdsSwProvider::CreatePack
-ms.topic: method
 f1_keywords:
 - vds/IVdsSwProvider.CreatePack
 dev_langs:

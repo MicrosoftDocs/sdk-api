@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 55906e89-4064-4355-ad44-7d7d973ddb2c
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetAudioStreamCategory method, IMFMediaEngineEx.SetAudioStreamCategory, IMFMediaEngineEx::SetAudioStreamCategory, SetAudioStreamCategory, SetAudioStreamCategory method [Media Foundation], SetAudioStreamCategory method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setaudiostreamcategory, mfmediaengine/IMFMediaEngineEx::SetAudioStreamCategory
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineEx.SetAudioStreamCategory
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: ca57950c-3079-42bd-a832-9b7753c61a39
 ms.date: 12/05/2018
 ms.keywords: GetOriginalCallerName, GetOriginalCallerName method [COM+], GetOriginalCallerName method [COM+],SecurityProperty interface, SecurityProperty interface [COM+],GetOriginalCallerName method, SecurityProperty.GetOriginalCallerName, SecurityProperty::GetOriginalCallerName, _cos_SecurityProperty_GetOriginalCallerName, comsvcs/SecurityProperty::GetOriginalCallerName, cos.securityproperty_getoriginalcallername
-ms.topic: method
 f1_keywords:
 - comsvcs/SecurityProperty.GetOriginalCallerName
 dev_langs:

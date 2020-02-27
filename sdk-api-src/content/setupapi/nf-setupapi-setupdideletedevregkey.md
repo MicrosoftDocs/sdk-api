@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 3b332291-0593-4750-9965-f6bf90ec8838
 ms.date: 12/05/2018
 ms.keywords: SetupDiDeleteDevRegKey, SetupDiDeleteDevRegKey function [Device and Driver Installation], devinst.setupdideletedevregkey, di-rtns_9e60aff0-2d01-4b1b-90e5-7f050a0e075a.xml, setupapi/SetupDiDeleteDevRegKey
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiDeleteDevRegKey
 dev_langs:
@@ -121,7 +120,7 @@ Delete both the hardware and software keys for the device.
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 

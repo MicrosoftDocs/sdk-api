@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 95EBABDA-45D5-436C-B627-51C14D9091EA
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [App packaging and management], GetStream method [App packaging and management],IAppxBlockMapReader interface, IAppxBlockMapReader interface [App packaging and management],GetStream method, IAppxBlockMapReader.GetStream, IAppxBlockMapReader::GetStream, appxpackaging/IAppxBlockMapReader::GetStream, appxpkg.iappxblockmapreader_getstream
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxBlockMapReader.GetStream
 dev_langs:

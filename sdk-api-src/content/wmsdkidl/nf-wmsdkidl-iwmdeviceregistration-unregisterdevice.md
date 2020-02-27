@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 5cb1282a-5744-4264-8f73-ecad2854a125
 ms.date: 12/05/2018
 ms.keywords: IWMDeviceRegistration interface [windows Media Format],UnregisterDevice method, IWMDeviceRegistration.UnregisterDevice, IWMDeviceRegistration::UnregisterDevice, IWMDeviceRegistrationUnregisterDevice, UnregisterDevice, UnregisterDevice method [windows Media Format], UnregisterDevice method [windows Media Format],IWMDeviceRegistration interface, wmformat.iwmdeviceregistration_unregisterdevice, wmsdkidl/IWMDeviceRegistration::UnregisterDevice
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDeviceRegistration.UnregisterDevice
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>UnregisterDevice</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>UnregisterDevice</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 

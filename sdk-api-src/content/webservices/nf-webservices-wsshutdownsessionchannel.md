@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: db12b0b7-698e-4c74-b547-6c95d0c5fdb7
 ms.date: 12/05/2018
 ms.keywords: WsShutdownSessionChannel, WsShutdownSessionChannel function [Web Services for Windows], webservices/WsShutdownSessionChannel, wsw.wsshutdownsessionchannel
-ms.topic: function
 f1_keywords:
 - webservices/WsShutdownSessionChannel
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\isclipempty.htm
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],IsClipEmpty method, Graphics.IsClipEmpty, Graphics::IsClipEmpty, IsClipEmpty, IsClipEmpty method [GDI+], IsClipEmpty method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_IsClipEmpty_, gdiplus._gdiplus_CLASS_Graphics_IsClipEmpty_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.IsClipEmpty
 dev_langs:

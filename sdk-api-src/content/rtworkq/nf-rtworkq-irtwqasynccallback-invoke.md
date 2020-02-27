@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 1798C338-4C82-42A7-AE15-ADFD356604BD
 ms.date: 12/05/2018
 ms.keywords: IRtwqAsyncCallback interface,Invoke method, IRtwqAsyncCallback.Invoke, IRtwqAsyncCallback::Invoke, Invoke, Invoke method, Invoke method,IRtwqAsyncCallback interface, base.irtwqasynccallback_invoke, rtworkq/IRtwqAsyncCallback::Invoke
-ms.topic: method
 f1_keywords:
 - rtworkq/IRtwqAsyncCallback.Invoke
 dev_langs:

@@ -1,9 +1,10 @@
 ---
 UID: NA:winusbio
+title: Winusbio.h header
 ms.assetid: 3d9a47a1-97e8-3b52-96b2-d61fa36c61af
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: buses
 ---
 

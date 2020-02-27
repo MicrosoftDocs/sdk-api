@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: c477c1f9-0264-4d3f-8670-f0c52df9e6a6
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Decrypt method, IWMSecureChannel.WMSC_Decrypt, IWMSecureChannel::WMSC_Decrypt, WMSC_Decrypt, WMSC_Decrypt method [windows Media Format], WMSC_Decrypt method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_decrypt, wmsecure/IWMSecureChannel::WMSC_Decrypt
-ms.topic: method
 f1_keywords:
 - wmsecure/IWMSecureChannel.WMSC_Decrypt
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>WMSC_Decrypt</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>WMSC_Decrypt</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 The <b>WMSC_Decrypt</b> method decrypts data across DLL boundaries

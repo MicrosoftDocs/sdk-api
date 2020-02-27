@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: d19594bc-8238-4a8f-882d-5b9019ef4880
 ms.date: 12/05/2018
 ms.keywords: SystemTimeToFileTime, SystemTimeToFileTime function, _win32_systemtimetofiletime, base.systemtimetofiletime, timezoneapi/SystemTimeToFileTime
-ms.topic: function
 f1_keywords:
 - timezoneapi/SystemTimeToFileTime
 dev_langs:
@@ -90,8 +89,8 @@ If the function succeeds, the return value is nonzero.
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
+> [!NOTE]
+> A False return value can indicate that the passed SYSTEMTIME structure represents an invalid date. Certain situations, such as the additional day added in a leap year, can result in application logic unexpectedly creating an invalid date. For more information on avoiding these issues, see [leap year readiness](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/it-s-2020-is-your-code-ready-for-leap-day/ba-p/1157279).
 
 ## -see-also
 

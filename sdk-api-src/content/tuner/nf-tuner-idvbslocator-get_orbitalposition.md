@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 3069cf27-32db-4d3f-9e61-9eddc266b540
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_OrbitalPosition method, IDVBSLocator.get_OrbitalPosition, IDVBSLocator::get_OrbitalPosition, IDVBSLocatorget_OrbitalPosition, get_OrbitalPosition, get_OrbitalPosition method [Microsoft TV Technologies], get_OrbitalPosition method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_orbitalposition, tuner/IDVBSLocator::get_OrbitalPosition
-ms.topic: method
 f1_keywords:
 - tuner/IDVBSLocator.get_OrbitalPosition
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: c48453e8-05f1-49d8-bae6-fad0681bdf7e
 ms.date: 12/05/2018
 ms.keywords: IPAddrEntry, IPAddrEntry structure [Windows API], tcpioctl/IPAddrEntry, winprog.ipaddrentry
-ms.topic: struct
 f1_keywords:
 - tcpioctl/IPAddrEntry
 dev_langs:
@@ -54,7 +53,7 @@ ms.custom: 19H1
 
 Implements part of the Management Information Base (MIB-II) 
 			information group for the Internet Protocol (IP) as specified in the 
-			Internet Engineering Task Force (IETF) Request for Comments <a href="Http://go.microsoft.com/fwlink/p/?linkid=85308">(RFC) 2011</a>.
+			Internet Engineering Task Force (IETF) Request for Comments <a href="https://www.ietf.org/rfc/rfc2011.txt">(RFC) 2011</a>.
 
 
 ## -struct-fields

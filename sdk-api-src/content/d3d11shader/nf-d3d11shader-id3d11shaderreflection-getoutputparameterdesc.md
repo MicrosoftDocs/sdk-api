@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 7fc27fae-d17a-4247-bd79-e02956890efd
 ms.date: 12/05/2018
 ms.keywords: GetOutputParameterDesc, GetOutputParameterDesc method [Direct3D 11], GetOutputParameterDesc method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetOutputParameterDesc method, ID3D11ShaderReflection.GetOutputParameterDesc, ID3D11ShaderReflection::GetOutputParameterDesc, c79e62b5-e5fb-6a0f-07c6-439fa953073b, d3d11shader/ID3D11ShaderReflection::GetOutputParameterDesc, direct3d11.id3d11shaderreflection_getoutputparameterdesc
-ms.topic: method
 f1_keywords:
 - d3d11shader/ID3D11ShaderReflection.GetOutputParameterDesc
 dev_langs:

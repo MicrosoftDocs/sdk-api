@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: c0e3d216-ea3f-4db4-80fd-aaf4d520ba1a
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_TabStop method, IMSVidCtl.put_TabStop, IMSVidCtl::put_TabStop, IMSVidCtlput_TabStop, mstv.imsvidctl_put_tabstop, msvidctl/IMSVidCtl::put_TabStop, put_TabStop, put_TabStop method [Microsoft TV Technologies], put_TabStop method [Microsoft TV Technologies],IMSVidCtl interface
-ms.topic: method
 f1_keywords:
 - msvidctl/IMSVidCtl.put_TabStop
 dev_langs:

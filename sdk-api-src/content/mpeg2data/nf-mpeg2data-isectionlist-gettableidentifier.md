@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: e0fd82ec-283e-4d6f-aa74-c65f15df651f
 ms.date: 12/05/2018
 ms.keywords: GetTableIdentifier, GetTableIdentifier method [Microsoft TV Technologies], GetTableIdentifier method [Microsoft TV Technologies],ISectionList interface, ISectionList interface [Microsoft TV Technologies],GetTableIdentifier method, ISectionList.GetTableIdentifier, ISectionList::GetTableIdentifier, ISectionListGetTableIdentifier, mpeg2data/ISectionList::GetTableIdentifier, mstv.isectionlist_gettableidentifier
-ms.topic: method
 f1_keywords:
 - mpeg2data/ISectionList.GetTableIdentifier
 dev_langs:

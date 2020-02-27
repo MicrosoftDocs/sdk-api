@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 6CA416AB-5EA1-4A85-A421-1CDD3D111296
 ms.date: 12/05/2018
 ms.keywords: MFGetAttributeString, MFGetAttributeString function [Media Foundation], mf.mfgetattributestring, mfapi/MFGetAttributeString
-ms.topic: function
 f1_keywords:
 - mfapi/MFGetAttributeString
 dev_langs:

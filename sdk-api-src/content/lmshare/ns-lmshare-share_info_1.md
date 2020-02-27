@@ -7,7 +7,6 @@ tech.root: NetShare
 ms.assetid: 9bc69340-4ea5-4180-ae5c-667c0a245b66
 ms.date: 12/05/2018
 ms.keywords: '*LPSHARE_INFO_1, *PSHARE_INFO_1, LPSHARE_INFO_1, LPSHARE_INFO_1 structure pointer [Files], PSHARE_INFO_1, PSHARE_INFO_1 structure pointer [Files], SHARE_INFO_1, SHARE_INFO_1 structure [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _win32_share_info_1_str, fs.share_info_1_str, lmshare/LPSHARE_INFO_1, lmshare/PSHARE_INFO_1, lmshare/SHARE_INFO_1, netmgmt.share_info_1_str'
-ms.topic: struct
 f1_keywords:
 - lmshare/SHARE_INFO_1
 dev_langs:

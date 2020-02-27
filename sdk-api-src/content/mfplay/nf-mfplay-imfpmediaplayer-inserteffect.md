@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 2689ee46-5cfe-4616-850c-eb5aef340daa
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFPMediaPlayer interface [Media Foundation],InsertEffect method, IMFPMediaPlayer.InsertEffect, IMFPMediaPlayer::InsertEffect, InsertEffect, InsertEffect method [Media Foundation], InsertEffect method [Media Foundation],IMFPMediaPlayer interface, TRUE, mf.imfpmediaplayer_inserteffect, mfplay/IMFPMediaPlayer::InsertEffect
-ms.topic: method
 f1_keywords:
 - mfplay/IMFPMediaPlayer.InsertEffect
 dev_langs:

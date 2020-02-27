@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 41d5d8c5-4938-4274-bcfa-b122bbc70530
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolCallbackLibrary, SetThreadpoolCallbackLibrary function, base.setthreadpoolcallbacklibrary, winbase/SetThreadpoolCallbackLibrary
-ms.topic: function
 f1_keywords:
 - winbase/SetThreadpoolCallbackLibrary
 dev_langs:

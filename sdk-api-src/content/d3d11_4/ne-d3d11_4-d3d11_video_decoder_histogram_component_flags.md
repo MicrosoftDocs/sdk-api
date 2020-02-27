@@ -4,7 +4,6 @@ title: D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS
 description: Flags for indicating a subset of components used with video decode histogram.
 ms.date: 4/26/2019
 ms.keywords: D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS
-ms.topic: language-reference
 f1_keywords:
 - D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS
 dev_langs:
@@ -33,7 +32,7 @@ api_name:
 
 ## -description
 
-Flags for indicating a subset of components used with video decode histogram. This enumeration is used by the [D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM](ns-d3d12video-d3d12_feature_data_video_decode_histogram) structure.
+Flags for indicating a subset of components used with video decode histogram. This enumeration is used by the [D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM](ns-d3d12video-d3d12_feature_data_video_decode_histogram.md) structure.
 
 ## -enum-fields
 

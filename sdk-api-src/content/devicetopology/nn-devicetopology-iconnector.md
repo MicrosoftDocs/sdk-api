@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 6eb5b439-3ac7-4c0b-84e2-b246c1b946a5
 ms.date: 12/05/2018
 ms.keywords: IConnector, IConnector interface [Core Audio], IConnector interface [Core Audio],described, coreaudio.iconnector, devicetopology/IConnector
-ms.topic: interface
 f1_keywords:
 - devicetopology/IConnector
 dev_langs:

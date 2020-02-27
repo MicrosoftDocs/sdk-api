@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 81abebbf-97f2-422f-b0ab-f6f920e09fef
 ms.date: 12/05/2018
 ms.keywords: '*PDEVHTINFO, DEVHTINFO, DEVHTINFO structure [Display Devices], PDEVHTINFO, PDEVHTINFO structure pointer [Display Devices], display.devhtinfo, grstrcts_9ec57bb2-b77e-419b-8d26-03db8485cf35.xml, winddi/DEVHTINFO, winddi/PDEVHTINFO'
-ms.topic: struct
 f1_keywords:
 - winddi/DEVHTINFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 50dbb062-100a-40af-8e52-7bd4574334f4
 ms.date: 12/05/2018
 ms.keywords: IWCContextMenuCallback, IWCContextMenuCallback interface [Failover Cluster], IWCContextMenuCallback interface [Failover Cluster],described, _wolf_iwccontextmenucallback, cluadmex/IWCContextMenuCallback, mscs.iwccontextmenucallback
-ms.topic: interface
 f1_keywords:
 - cluadmex/IWCContextMenuCallback
 dev_langs:

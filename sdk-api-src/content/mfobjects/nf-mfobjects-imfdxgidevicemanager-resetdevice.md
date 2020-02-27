@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: D8A2291A-792B-4D24-997A-9C152FFE5426
 ms.date: 12/05/2018
 ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],ResetDevice method, IMFDXGIDeviceManager.ResetDevice, IMFDXGIDeviceManager::ResetDevice, ResetDevice, ResetDevice method [Media Foundation], ResetDevice method [Media Foundation],IMFDXGIDeviceManager interface, mf.imfdxgidevicemanager_resetdevice, mfobjects/IMFDXGIDeviceManager::ResetDevice
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFDXGIDeviceManager.ResetDevice
 dev_langs:
@@ -93,7 +92,7 @@ To create a Microsoft Direct3D 11 device, call <a href="https://docs.microsoft.
 
 The device should be created with the <b>D3D11_CREATE_DEVICE_VIDEO_SUPPORT</b> device creation flag which is defined in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_create_device_flag">D3D11_CREATE_DEVICE_FLAG</a> enumeration.
 
-It is recommended that you use multi-thread protection on the device context to prevent deadlock issues that can sometimes happen when you call<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-getdecoderbuffer"> ID3D11VideoContext::GetDecoderBuffer</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-releasedecoderbuffer">ID3D11VideoContext::ReleaseDecoderBuffer</a>. To set multi-thread protection, first call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a> to get an <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10multithread">ID3D10Multithread</a> pointer. Then call <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10multithread-setmultithreadprotected">ID3D10Multithread::SetMultithreadProtected</a>, passing in <b>true</b> for <i>bMTProtect</i>.
+It is recommended that you use multi-thread protection on the device context to prevent deadlock issues that can sometimes happen when you call<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-getdecoderbuffer"> ID3D11VideoContext::GetDecoderBuffer</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-releasedecoderbuffer">ID3D11VideoContext::ReleaseDecoderBuffer</a>. To set multi-thread protection, first call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a> to get an <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10multithread">ID3D10Multithread</a> pointer. Then call <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10multithread-setmultithreadprotected">ID3D10Multithread::SetMultithreadProtected</a>, passing in <b>true</b> for <i>bMTProtect</i>.
 
 
 

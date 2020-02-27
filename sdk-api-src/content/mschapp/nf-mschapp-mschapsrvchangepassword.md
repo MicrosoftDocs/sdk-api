@@ -7,7 +7,6 @@ tech.root: MsChap
 ms.assetid: 6c154675-4c82-4305-8231-577f990eaeb1
 ms.date: 12/05/2018
 ms.keywords: MSChapSrvChangePassword, MSChapSrvChangePassword function [MS-CHAP], _mschap_mschapsrvchangepassword, mschap.mschapsrvchangepassword, mschapp/MSChapSrvChangePassword
-ms.topic: function
 f1_keywords:
 - mschapp/MSChapSrvChangePassword
 dev_langs:
@@ -215,7 +214,7 @@ The value of the <i>LmOldPresent</i> parameter is not correct for the contents o
 
 The value specified by <i>LmNewOwfPassword</i> must always contain a valid OWF. If the new password is greater than 128-bits long, and therefore cannot be represented by a LAN Manager (LM) password, then <i>LmNewOwfPassword</i> should be the LM OWF of a <b>NULL</b> password.
 
-This function allows users to change their own passwords only if they have the access: <a href="http://go.microsoft.com/fwlink/p/?linkid=114813">USER_CHANGE_PASSWORD</a>.
+This function allows users to change their own passwords only if they have the access: <a href="https://msdn.microsoft.com/library/ms684413.aspx">USER_CHANGE_PASSWORD</a>.
 
 This function fails with <b>STATUS_PASSWORD_RESTRICTION</b> if the attempt to change the password conflicts with an administrative password restriction.
 

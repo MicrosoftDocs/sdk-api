@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 755d3038-934f-42b7-a807-7037fa0ea21e
 ms.date: 12/05/2018
 ms.keywords: GetComment, GetComment method [Windows Shell], GetComment method [Windows Shell],ISyncMgrHandlerInfo interface, ISyncMgrHandlerInfo interface [Windows Shell],GetComment method, ISyncMgrHandlerInfo.GetComment, ISyncMgrHandlerInfo::GetComment, _shell_ISyncMgrHandlerInfo_GetComment, shell.ISyncMgrHandlerInfo_GetComment, syncmgr/ISyncMgrHandlerInfo::GetComment
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrHandlerInfo.GetComment
 dev_langs:

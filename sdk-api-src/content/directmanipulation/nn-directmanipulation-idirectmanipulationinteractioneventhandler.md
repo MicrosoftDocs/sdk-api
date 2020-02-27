@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 9B832530-54B8-4D18-A5E4-4F4CAE65073A
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationInteractionEventHandler, IDirectManipulationInteractionEventHandler interface [Direct Manipulation], IDirectManipulationInteractionEventHandler interface [Direct Manipulation],described, directmanipulation.idirectmanipulationinteractioneventhandler, directmanipulation/IDirectManipulationInteractionEventHandler
-ms.topic: interface
 f1_keywords:
 - directmanipulation/IDirectManipulationInteractionEventHandler
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 Defines methods to handle interactions when they are detected.
-<div class="alert"><b>Note</b>  When implementing this interface, ensure that the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> implementation supports multithreading through thread-safe reference counting. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedincrement">InterlockedIncrement</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockeddecrement">InterlockedDecrement</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  When implementing this interface, ensure that the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> implementation supports multithreading through thread-safe reference counting. For more information, see <a href="/windows/win32/api/winnt/nf-winnt-interlockedincrement">InterlockedIncrement</a> and <a href="/windows/win32/api/winnt/nf-winnt-interlockeddecrement">InterlockedDecrement</a>.</div><div> </div>
 
 ## -inheritance
 

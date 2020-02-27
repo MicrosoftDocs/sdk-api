@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 2fd1af73-c2ea-4077-9cf5-77ab9f237f0a
 ms.date: 12/05/2018
 ms.keywords: DWRITE_SHAPING_TEXT_PROPERTIES, DWRITE_SHAPING_TEXT_PROPERTIES structure [Direct Write], directwrite.dwrite_shaping_text_properties, dwrite/DWRITE_SHAPING_TEXT_PROPERTIES
-ms.topic: struct
 f1_keywords:
 - dwrite/DWRITE_SHAPING_TEXT_PROPERTIES
 dev_langs:

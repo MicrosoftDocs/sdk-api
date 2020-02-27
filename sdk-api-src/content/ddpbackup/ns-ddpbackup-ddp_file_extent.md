@@ -7,7 +7,6 @@ tech.root: dedup
 ms.assetid: B4AB7297-6FFE-4B93-ABDE-C15D7C90FA5B
 ms.date: 12/05/2018
 ms.keywords: DDP_FILE_EXTENT, DDP_FILE_EXTENT structure [Data Deduplication API], PDDP_FILE_EXTENT, PDDP_FILE_EXTENT structure pointer [Data Deduplication API], ddpbackup/DDP_FILE_EXTENT, ddpbackup/PDDP_FILE_EXTENT, dedup.ddp_file_extent
-ms.topic: struct
 f1_keywords:
 - ddpbackup/DDP_FILE_EXTENT
 dev_langs:

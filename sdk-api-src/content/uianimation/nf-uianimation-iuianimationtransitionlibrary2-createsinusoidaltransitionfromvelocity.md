@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 833D3482-68BC-45DD-9073-B048E11CB801
 ms.date: 12/05/2018
 ms.keywords: CreateSinusoidalTransitionFromVelocity, CreateSinusoidalTransitionFromVelocity method [Windows Animation], CreateSinusoidalTransitionFromVelocity method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateSinusoidalTransitionFromVelocity method, IUIAnimationTransitionLibrary2.CreateSinusoidalTransitionFromVelocity, IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromVelocity, uianimation.iuianimationtransitionlibrary2_createsinusoidaltransitionfromvelocity, uianimation/IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromVelocity
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationTransitionLibrary2.CreateSinusoidalTransitionFromVelocity
 dev_langs:

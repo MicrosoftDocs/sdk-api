@@ -1,9 +1,10 @@
 ---
 UID: NA:avrt
+title: Avrt.h header
 ms.assetid: 3c98ff73-eaa3-3796-8a0a-21bfbd4db2de
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: base
 ---
 

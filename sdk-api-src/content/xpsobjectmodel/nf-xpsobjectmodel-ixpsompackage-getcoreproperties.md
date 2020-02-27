@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: ebe5c8a2-2d6a-4a86-8bf3-1fec1dec68d0
 ms.date: 12/05/2018
 ms.keywords: GetCoreProperties, GetCoreProperties method [XPS Documents and Packaging], GetCoreProperties method [XPS Documents and Packaging],IXpsOMPackage interface, IXpsOMPackage interface [XPS Documents and Packaging],GetCoreProperties method, IXpsOMPackage.GetCoreProperties, IXpsOMPackage::GetCoreProperties, xps.ixpsompackage_getcoreproperties, xpsobjectmodel/IXpsOMPackage::GetCoreProperties
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPackage.GetCoreProperties
 dev_langs:
@@ -115,7 +114,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

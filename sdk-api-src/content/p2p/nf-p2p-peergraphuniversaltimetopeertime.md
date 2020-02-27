@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 4d2c8943-cef5-4df3-96fe-447bd5bf37e8
 ms.date: 12/05/2018
 ms.keywords: PeerGraphUniversalTimeToPeerTime, PeerGraphUniversalTimeToPeerTime function [Peer Networking], p2p.peergraphuniversaltimetopeertime, p2p/PeerGraphUniversalTimeToPeerTime
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphUniversalTimeToPeerTime
 dev_langs:

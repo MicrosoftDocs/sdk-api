@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 90a62cc8-a7e0-4451-8490-f6384bf3e7b6
 ms.date: 12/05/2018
 ms.keywords: WsResetMessage, WsResetMessage function [Web Services for Windows], webservices/WsResetMessage, wsw.wsresetmessage
-ms.topic: function
 f1_keywords:
 - webservices/WsResetMessage
 dev_langs:

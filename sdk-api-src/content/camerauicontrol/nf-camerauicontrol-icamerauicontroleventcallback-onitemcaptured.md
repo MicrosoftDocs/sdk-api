@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 4f202b68-48e2-4ae7-ade6-2180c05eec4a
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnItemCaptured method, ICameraUIControlEventCallback.OnItemCaptured, ICameraUIControlEventCallback::OnItemCaptured, OnItemCaptured, OnItemCaptured method [Windows API], OnItemCaptured method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnItemCaptured, winprog.icamerauicontroleventcallback_onitemcaptured
-ms.topic: method
 f1_keywords:
 - camerauicontrol/ICameraUIControlEventCallback.OnItemCaptured
 dev_langs:

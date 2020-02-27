@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: 10b76b20-cee7-44f3-b9bd-2b690fdd040c
 ms.date: 12/05/2018
 ms.keywords: DRMAddRightWithUser, DRMAddRightWithUser function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMAddRightWithUser, rm.drmaddrightwithuser
-ms.topic: function
 f1_keywords:
 - msdrm/DRMAddRightWithUser
 dev_langs:

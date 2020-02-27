@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: C50F7801-4C33-46EA-989C-259BA407C96B
 ms.date: 12/05/2018
 ms.keywords: IAppxBlockMapFilesEnumerator interface [App packaging and management],MoveNext method, IAppxBlockMapFilesEnumerator.MoveNext, IAppxBlockMapFilesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxBlockMapFilesEnumerator interface, appxpackaging/IAppxBlockMapFilesEnumerator::MoveNext, appxpkg.iappxblockmapfilesenumerator_movenext
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxBlockMapFilesEnumerator.MoveNext
 dev_langs:

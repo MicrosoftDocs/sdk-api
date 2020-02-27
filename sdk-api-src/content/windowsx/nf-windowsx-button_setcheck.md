@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setcheck.htm
 ms.date: 12/05/2018
 ms.keywords: BST_CHECKED, BST_INDETERMINATE, BST_UNCHECKED, Button_SetCheck, Button_SetCheck macro [Windows Controls], _win32_Button_SetCheck, _win32_Button_SetCheck_cpp, controls.Button_SetCheck, controls._win32_Button_SetCheck, windowsx/Button_SetCheck
-ms.topic: macro
 f1_keywords:
 - windowsx/Button_SetCheck
 dev_langs:

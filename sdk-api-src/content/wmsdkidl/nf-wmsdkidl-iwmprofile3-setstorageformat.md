@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 43cbb36f-ec00-48e5-9182-b69e8c196ab0
 ms.date: 12/05/2018
 ms.keywords: IWMProfile3 interface [windows Media Format],SetStorageFormat method, IWMProfile3.SetStorageFormat, IWMProfile3::SetStorageFormat, IWMProfile3SetStorageFormat, SetStorageFormat, SetStorageFormat method [windows Media Format], SetStorageFormat method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile3_setstorageformat, wmsdkidl/IWMProfile3::SetStorageFormat
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMProfile3.SetStorageFormat
 dev_langs:

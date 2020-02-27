@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: F174DF16-6E2F-4AE1-80D9-7565F96DE03A
 ms.date: 12/05/2018
 ms.keywords: D3D11_TEX2D_VPIV, D3D11_TEX2D_VPIV structure [Media Foundation], d3d11/D3D11_TEX2D_VPIV, mf.d3d11_tex2d_vpiv
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_TEX2D_VPIV
 dev_langs:

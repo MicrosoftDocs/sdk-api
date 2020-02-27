@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 39F9EF96-9761-410A-B5DD-A088F6863923
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method, GetType method,ID3D12CommandList interface, ID3D12CommandList interface,GetType method, ID3D12CommandList.GetType, ID3D12CommandList::GetType, d3d12/ID3D12CommandList::GetType, direct3d12.id3d12commandlist_gettype
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12CommandList.GetType
 dev_langs:

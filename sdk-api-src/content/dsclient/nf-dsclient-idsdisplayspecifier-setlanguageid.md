@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 306538a4-dccc-4f4f-89fa-491d08718d14
 ms.date: 12/05/2018
 ms.keywords: IDsDisplaySpecifier interface [Active Directory],SetLanguageID method, IDsDisplaySpecifier.SetLanguageID, IDsDisplaySpecifier::SetLanguageID, SetLanguageID, SetLanguageID method [Active Directory], SetLanguageID method [Active Directory],IDsDisplaySpecifier interface, _glines_idsdisplayspecifier_setlanguageid, ad.idsdisplayspecifier__setlanguageid, ad.idsdisplayspecifier_setlanguageid, dsclient/IDsDisplaySpecifier::SetLanguageID
-ms.topic: method
 f1_keywords:
 - dsclient/IDsDisplaySpecifier.SetLanguageID
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 4e901e14-9e98-4ca5-ae37-7a4564b187ab
 ms.date: 12/05/2018
 ms.keywords: GetTitleAttributes, GetTitleAttributes method [DirectShow], GetTitleAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetTitleAttributes method, IDvdInfo2.GetTitleAttributes, IDvdInfo2::GetTitleAttributes, IDvdInfo2GetTitleAttributes, dshow.idvdinfo2_gettitleattributes, strmif/IDvdInfo2::GetTitleAttributes
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo2.GetTitleAttributes
 dev_langs:
@@ -69,12 +68,12 @@ Variable of type ULONG, from 1 through 99, specifying the requested title number
 
 ### -param pMenu [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_menuattributes">DVD_MenuAttributes</a> structure that receives the attributes of the menu associated with the specified title.
+Pointer to a [DVD_MenuAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_menuattributes) structure that receives the attributes of the menu associated with the specified title.
 
 
 ### -param pTitle [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_titleattributes">DVD_TitleAttributes</a> structure that receives the attributes of the specified title.
+Pointer to a [DVD_TitleAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_titleattributes) structure that receives the attributes of the specified title.
 
 
 ## -returns

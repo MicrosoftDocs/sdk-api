@@ -7,7 +7,6 @@ tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconhowcallingthehtmlhelpapi.htm
 ms.date: 12/05/2018
 ms.keywords: HtmlHelp, HtmlHelp function [HTML Help Workshop], HtmlHelpA, HtmlHelpW, htmlhelp.htmlhelp, htmlhelp/HtmlHelp, htmlhelp/HtmlHelpA, htmlhelp/HtmlHelpW
-ms.topic: function
 f1_keywords:
 - htmlhelp/HtmlHelp
 dev_langs:

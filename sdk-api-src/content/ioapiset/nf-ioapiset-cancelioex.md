@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: a2ce13b8-7da6-4848-848d-901d9667c2e3
 ms.date: 12/05/2018
 ms.keywords: CancelIoEx, CancelIoEx function [Files], fs.cancelioex_func, ioapiset/CancelIoEx, winbase/CancelIoEx
-ms.topic: function
 f1_keywords:
 - ioapiset/CancelIoEx
 dev_langs:

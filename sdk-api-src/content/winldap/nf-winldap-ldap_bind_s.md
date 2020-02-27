@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 67d30a7b-2f42-4e1a-8c59-5ba22ed3fad4
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_bind_s, ldap.ldap__bind__s, ldap.ldap_bind_s, ldap_bind_s, ldap_bind_s function [LDAP], ldap_bind_sA, ldap_bind_sW, winldap/ldap_bind_s, winldap/ldap_bind_sA, winldap/ldap_bind_sW
-ms.topic: function
 f1_keywords:
 - winldap/ldap_bind_s
 dev_langs:
@@ -166,7 +165,7 @@ Generic security services (GSS) (Snego). Does not provide authentication, but in
 </td>
 <td>
 To log in as the current user, set the <i>dn</i> and <i>cred</i> parameters to <b>NULL</b>. To log in as another user, set the <i>dn</i> parameter to <b>NULL</b> and the <i>cred</i> parameter to  a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> or <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_exa">SEC_WINNT_AUTH_IDENTITY_EX</a> structure with the appropriate user name, domain name, and password.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> or <a href="https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX</a> structure with the appropriate user name, domain name, and password.
 
 </td>
 </tr>
@@ -178,7 +177,7 @@ NT LAN Manager
 </td>
 <td>
 To log in as the current user, set the <i>dn</i> and <i>cred</i> parameters to <b>NULL</b>. To log in as another user, set the <i>dn</i> parameter to <b>NULL</b> and the <i>cred</i> parameter to  a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> or <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_exa">SEC_WINNT_AUTH_IDENTITY_EX</a> structure with the appropriate user name, domain name, and password.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> or <a href="https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX</a> structure with the appropriate user name, domain name, and password.
 
 </td>
 </tr>

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 346b6099-ca8f-4237-9eda-1ae2ee2263a3
 ms.date: 12/05/2018
 ms.keywords: MultipleViewPattern_SetCurrentView, MultipleViewPattern_SetCurrentView function [Windows Accessibility], uiauto.uiauto_MultipleViewPattern_SetCurrentViewConPat, uiauto_MultipleViewPattern_SetCurrentViewConPat, uiautomationcoreapi/MultipleViewPattern_SetCurrentView, winauto.uiauto_MultipleViewPattern_SetCurrentViewConPat
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/MultipleViewPattern_SetCurrentView
 dev_langs:

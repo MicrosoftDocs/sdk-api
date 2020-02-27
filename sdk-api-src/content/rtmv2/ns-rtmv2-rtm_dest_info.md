@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 6712ed2f-c5b4-416b-b345-a3d0c5d26820
 ms.date: 12/05/2018
 ms.keywords: '*PRTM_DEST_INFO, PRTM_DEST_INFO, PRTM_DEST_INFO structure pointer [RAS], RTM_DEST_INFO, RTM_DEST_INFO structure [RAS], _rtmv2ref_rtm_dest_info, rras.rtm_dest_info, rtmv2/PRTM_DEST_INFO, rtmv2/RTM_DEST_INFO'
-ms.topic: struct
 f1_keywords:
 - rtmv2/RTM_DEST_INFO
 dev_langs:

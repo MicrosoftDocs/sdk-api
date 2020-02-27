@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: c48fc24f-8cf6-45c0-8ce1-841896648ba7
 ms.date: 12/05/2018
 ms.keywords: MprInfoCreate, MprInfoCreate function [RAS], _mpr_mprinfocreate, mprapi/MprInfoCreate, rras.mprinfocreate
-ms.topic: function
 f1_keywords:
 - mprapi/MprInfoCreate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 833A24EA-11E0-47CF-A710-06E38A1FD50A
 ms.date: 12/05/2018
 ms.keywords: IMFSensorProcessActivity, IMFSensorProcessActivity interface [Media Foundation], IMFSensorProcessActivity interface [Media Foundation],described, mf.imfsensorprocessactivity, mfidl/IMFSensorProcessActivity
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFSensorProcessActivity
 dev_langs:

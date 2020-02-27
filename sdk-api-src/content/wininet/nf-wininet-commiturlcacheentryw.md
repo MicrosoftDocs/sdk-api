@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 0124e664-85a3-4637-9d91-7ec23025a87b
 ms.date: 12/05/2018
 ms.keywords: CommitUrlCacheEntryW, CommitUrlCacheEntryW function [WinINet], _inet_commiturlcacheentry_function, wininet.commiturlcacheentry, wininet.commiturlcacheentryw, wininet/CommitUrlCacheEntryW
-ms.topic: function
 f1_keywords:
 - wininet/CommitUrlCacheEntryW
 dev_langs:

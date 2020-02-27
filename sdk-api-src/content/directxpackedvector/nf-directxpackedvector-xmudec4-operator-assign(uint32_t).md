@@ -5,7 +5,6 @@ description: Assigns the vector component data packed in an instance of uint32_t
 ms.assetid: fa7526a5-4fff-46f9-a79a-af2a6c5caacb
 ms.date: 05/20/2019
 ms.keywords: XMUDEC4::operator=
-ms.topic: language-reference
 f1_keywords:
 - directxpackedvector/XMUDEC4::operator=
 dev_langs:

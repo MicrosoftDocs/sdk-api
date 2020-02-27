@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: df1b21b7-b539-4546-96be-243a8e7ea75a
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetSelection method, ITextStoreAnchor.GetSelection, ITextStoreAnchor::GetSelection, textstor/ITextStoreAnchor::GetSelection, tsf.itextstoreanchor_getselection
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreAnchor.GetSelection
 dev_langs:

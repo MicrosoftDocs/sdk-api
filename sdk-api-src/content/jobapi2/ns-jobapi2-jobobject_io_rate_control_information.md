@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: E4AA03B5-4D83-4826-B85D-FA4B412AFEBF
 ms.date: 12/05/2018
 ms.keywords: JOBOBJECT_IO_RATE_CONTROL_INFORMATION, JOBOBJECT_IO_RATE_CONTROL_INFORMATION structure, JOB_OBJECT_IO_RATE_CONTROL_ENABLE, base.jobobject_io_rate_control_information, jobapi2/JOBOBJECT_IO_RATE_CONTROL_INFORMATION
-ms.topic: struct
 f1_keywords:
 - jobapi2/JOBOBJECT_IO_RATE_CONTROL_INFORMATION
 dev_langs:

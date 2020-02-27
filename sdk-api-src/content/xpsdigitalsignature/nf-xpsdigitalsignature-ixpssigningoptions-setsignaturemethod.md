@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 318f0e08-2384-4fab-a181-6ff3070ea21f
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetSignatureMethod method, IXpsSigningOptions.SetSignatureMethod, IXpsSigningOptions::SetSignatureMethod, SetSignatureMethod, SetSignatureMethod method [XPS Documents and Packaging], SetSignatureMethod method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setsignaturemethod, xpsdigitalsignature/IXpsSigningOptions::SetSignatureMethod
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSigningOptions.SetSignatureMethod
 dev_langs:
@@ -105,7 +104,7 @@ The URI in  <i>signatureMethod</i>  must be the URI of a valid signing algorithm
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

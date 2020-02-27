@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 71cdb26b-e9d0-414c-aff9-0eed187d08ba
 ms.date: 12/05/2018
 ms.keywords: MprConfigServerDisconnect, MprConfigServerDisconnect function [RAS], _mpr_mprconfigserverdisconnect, mprapi/MprConfigServerDisconnect, rras.mprconfigserverdisconnect
-ms.topic: function
 f1_keywords:
 - mprapi/MprConfigServerDisconnect
 dev_langs:

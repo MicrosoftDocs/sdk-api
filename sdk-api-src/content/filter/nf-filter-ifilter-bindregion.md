@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_8bam.htm
 ms.date: 12/05/2018
 ms.keywords: BindRegion, BindRegion method [Indexing Service], BindRegion method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],BindRegion method, IFilter.BindRegion, IFilter::BindRegion, _idxs_IFilter_BindRegion, filter/IFilter::BindRegion, indexsrv.ifilter_bindregion
-ms.topic: method
 f1_keywords:
 - filter/IFilter.BindRegion
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 Retrieves an interface representing the specified portion of object. Currently reserved for future use.
 

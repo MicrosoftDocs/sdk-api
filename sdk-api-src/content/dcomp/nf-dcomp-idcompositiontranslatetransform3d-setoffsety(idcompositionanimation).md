@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: D08FF13B-612A-4A60-B6C8-4EC1246F94E9
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTranslateTransform3D interface [DirectComposition],SetOffsetY method, IDCompositionTranslateTransform3D.SetOffsetY, IDCompositionTranslateTransform3D.SetOffsetY(IDCompositionAnimation), IDCompositionTranslateTransform3D::SetOffsetY, IDCompositionTranslateTransform3D::SetOffsetY(IDCompositionAnimation), IDCompositionTranslateTransform3D::SetOffsetY(IDCompositionAnimation*), SetOffsetY, SetOffsetY method [DirectComposition], SetOffsetY method [DirectComposition],IDCompositionTranslateTransform3D interface, dcomp/IDCompositionTranslateTransform3D::SetOffsetY, directcomp.idcompositiontranslatetransform3d_setoffsety_idcompositionanimation
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionTranslateTransform3D.SetOffsetY
 dev_langs:

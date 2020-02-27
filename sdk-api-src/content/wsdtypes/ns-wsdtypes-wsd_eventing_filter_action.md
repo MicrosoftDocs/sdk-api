@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: d6fc39ec-f57a-4b20-8c8a-7e370ee3f377
 ms.date: 12/05/2018
 ms.keywords: WSD_EVENTING_FILTER_ACTION, WSD_EVENTING_FILTER_ACTION structure, ncd.wsd_eventing_filter_action, wsdtypes/WSD_EVENTING_FILTER_ACTION
-ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_EVENTING_FILTER_ACTION
 dev_langs:
@@ -67,7 +66,7 @@ Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/
 
 
 
-For more information about the evaluation of action filters, see Section 6.1.1, Filtering, in the <a href="http://go.microsoft.com/fwlink/p/?linkid=69499">Device Profile for Web Services</a> specification.
+For more information about the evaluation of action filters, see Section 6.1.1, Filtering, in the <a href="https://specs.xmlsoap.org/ws/2006/02/devprof/devicesprofile.pdf">Device Profile for Web Services</a> specification.
 
 
 

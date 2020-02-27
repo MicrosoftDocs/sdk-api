@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 9ee4f2c0-90bf-4a28-9aeb-0c04f3a197aa
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],NetworkSettings property, ITaskSettings.NetworkSettings, ITaskSettings.put_NetworkSettings, ITaskSettings::NetworkSettings, ITaskSettings::get_NetworkSettings, ITaskSettings::put_NetworkSettings, NetworkSettings property [Task Scheduler], NetworkSettings property [Task Scheduler],ITaskSettings interface, put_NetworkSettings, taskschd.itasksettings_networksettings, taskschd/ITaskSettings::NetworkSettings, taskschd/ITaskSettings::get_NetworkSettings, taskschd/ITaskSettings::put_NetworkSettings
-ms.topic: method
 f1_keywords:
 - taskschd/ITaskSettings.NetworkSettings
 dev_langs:

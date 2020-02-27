@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 20616c05-21c6-4895-a1b5-4bae1aa417c7
 ms.date: 12/05/2018
 ms.keywords: CoFreeAllLibraries, CoFreeAllLibraries function [COM], _com_CoFreeAllLibraries, com.cofreealllibraries, objbase/CoFreeAllLibraries
-ms.topic: function
 f1_keywords:
 - objbase/CoFreeAllLibraries
 dev_langs:

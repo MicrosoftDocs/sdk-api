@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 27bfa0c1-4443-47a4-a374-326f553fa3bb
 ms.date: 12/05/2018
 ms.keywords: WlanOpenHandle, WlanOpenHandle function [NativeWIFI], nwifi.wlanopenhandle, wlanapi/WlanOpenHandle
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanOpenHandle
 dev_langs:

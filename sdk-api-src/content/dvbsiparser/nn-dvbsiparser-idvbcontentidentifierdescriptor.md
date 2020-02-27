@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: bdd15b6f-2f1e-438a-a2fd-f3fa4df2a9fd
 ms.date: 12/05/2018
 ms.keywords: IDvbContentIdentifierDescriptor, IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies], IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbContentIdentifierDescriptor, mstv.idvbcontentidentifierdescriptor
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IDvbContentIdentifierDescriptor
 dev_langs:

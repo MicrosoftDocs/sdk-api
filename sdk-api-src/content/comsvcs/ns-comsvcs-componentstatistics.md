@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 26bc5fc4-3e34-41cc-ba11-5c13cf54521f
 ms.date: 12/05/2018
 ms.keywords: ComponentStatistics, ComponentStatistics structure [COM+], comsvcs/ComponentStatistics, cos.componentstatistics
-ms.topic: struct
 f1_keywords:
 - comsvcs/ComponentStatistics
 dev_langs:

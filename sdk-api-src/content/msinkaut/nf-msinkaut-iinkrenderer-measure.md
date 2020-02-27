@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 1ef9ef91-ae96-454f-9ef8-570e64852395
 ms.date: 12/05/2018
 ms.keywords: 1ef9ef91-ae96-454f-9ef8-570e64852395, IInkRenderer interface [Tablet PC],Measure method, IInkRenderer.Measure, IInkRenderer::Measure, Measure, Measure method [Tablet PC], Measure method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::Measure, tablet.inkrenderer_measure
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRenderer.Measure
 dev_langs:

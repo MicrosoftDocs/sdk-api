@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: b41614d6-61e4-4548-9c15-63ef100d2ab8
 ms.date: 12/05/2018
 ms.keywords: GetIDSelectorBytes, GetIDSelectorBytes method [Microsoft TV Technologies], GetIDSelectorBytes method [Microsoft TV Technologies],IDvbDataBroadcastIDDescriptor interface, IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies],GetIDSelectorBytes method, IDvbDataBroadcastIDDescriptor.GetIDSelectorBytes, IDvbDataBroadcastIDDescriptor::GetIDSelectorBytes, dvbsiparser/IDvbDataBroadcastIDDescriptor::GetIDSelectorBytes, mstv.idvbdatabroadcastiddescriptor_getidselectorbytes
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbDataBroadcastIDDescriptor.GetIDSelectorBytes
 dev_langs:

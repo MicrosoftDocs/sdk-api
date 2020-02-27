@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 0d0a20dc-5e5a-49a7-adc9-20aacb88368a
 ms.date: 12/05/2018
 ms.keywords: IChannelAudioVolume, IChannelAudioVolume interface [Core Audio], IChannelAudioVolume interface [Core Audio],described, audioclient/IChannelAudioVolume, coreaudio.ichannelaudiovolume
-ms.topic: interface
 f1_keywords:
 - audioclient/IChannelAudioVolume
 dev_langs:

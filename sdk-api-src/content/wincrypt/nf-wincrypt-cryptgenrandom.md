@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 3e5a437f-7439-43c9-a191-2908d2df0eb6
 ms.date: 12/05/2018
 ms.keywords: CryptGenRandom, CryptGenRandom function [Security], _crypto2_cryptgenrandom, security.cryptgenrandom, wincrypt/CryptGenRandom
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptGenRandom
 dev_langs:

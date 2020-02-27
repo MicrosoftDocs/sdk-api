@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 6c29bbe0-840f-4eaf-97ad-40b0f89cadfd
 ms.date: 12/05/2018
 ms.keywords: IManagedPoolAction, IManagedPoolAction interface [COM+], IManagedPoolAction interface [COM+],described, _cos_IManagedPoolAction, comsvcs/IManagedPoolAction, cos.imanagedpoolaction
-ms.topic: interface
 f1_keywords:
 - comsvcs/IManagedPoolAction
 dev_langs:

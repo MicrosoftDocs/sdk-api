@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: f7abe7cb-8827-46f6-85fe-99282582a3d4
 ms.date: 12/05/2018
 ms.keywords: IAzScope, IAzScope interface [Security], IAzScope interface [Security],described, azroles/IAzScope, security.iazscope
-ms.topic: interface
 f1_keywords:
 - azroles/IAzScope
 dev_langs:

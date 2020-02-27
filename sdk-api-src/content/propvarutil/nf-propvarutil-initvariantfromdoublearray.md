@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 781b6999-4551-499d-ba37-0a7e05fc6eab
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromDoubleArray, InitVariantFromDoubleArray function [Windows Properties], _shell_InitVariantFromDoubleArray, properties.InitVariantFromDoubleArray, propvarutil/InitVariantFromDoubleArray, shell.InitVariantFromDoubleArray
-ms.topic: function
 f1_keywords:
 - propvarutil/InitVariantFromDoubleArray
 dev_langs:

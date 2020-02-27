@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: e86cc279-826d-4767-8d96-fc8280060ea1
 ms.date: 12/05/2018
 ms.keywords: '*LPPROPVARIANT, PROPVARIANT, PROPVARIANT structure [Structured Storage], _stg_propvariant, propidlbase/PROPVARIANT, stg.propvariant, tagPROPVARIANT'
-ms.topic: struct
 f1_keywords:
 - propidl/PROPVARIANT
 dev_langs:
@@ -56,7 +55,7 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writemultiple">WriteMultiple</a> methods of 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> to define the type tag and the value of a property in a property set.
 
-The <b>PROPVARIANT</b> structure is also used by the <a href="http://go.microsoft.com/fwlink/p/?linkid=101713">GetValue</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=101711">SetValue</a> methods of <a href="http://go.microsoft.com/fwlink/p/?linkid=101712">IPropertyStore</a>, which replaces <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> as the primary way to program item properties in Windows Vista. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=101710">Property Handlers</a>.
+The <b>PROPVARIANT</b> structure is also used by the <a href="https://msdn2.microsoft.com/library/ms633761.aspx">GetValue</a> and <a href="https://msdn2.microsoft.com/library/ms633763.aspx">SetValue</a> methods of <a href="https://msdn2.microsoft.com/library/ms633762.aspx">IPropertyStore</a>, which replaces <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> as the primary way to program item properties in Windows Vista. For more information, see <a href="https://msdn2.microsoft.com/library/aa969363.aspx">Property Handlers</a>.
 
 There are five members. The first member, the value-type tag, and the last member, the value of the property, are significant. The middle three members are reserved for future use.
 <div class="alert"><b>Note</b>  The <b>bool</b> member in previous definitions of this structure has been renamed to <b>boolVal</b>, because some compilers now recognize <b>bool</b> as a keyword.</div><div> </div><div class="alert"><b>Note</b>  The 

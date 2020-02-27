@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 285a0e64-d796-4b0d-84b1-9ebd0728ddc0
 ms.date: 12/05/2018
 ms.keywords: DisplayName property [Task Scheduler], DisplayName property [Task Scheduler],IPrincipal interface, IPrincipal interface [Task Scheduler],DisplayName property, IPrincipal.DisplayName, IPrincipal.put_DisplayName, IPrincipal::DisplayName, IPrincipal::get_DisplayName, IPrincipal::put_DisplayName, put_DisplayName, taskschd.iprincipal_displayname, taskschd/IPrincipal::DisplayName, taskschd/IPrincipal::get_DisplayName, taskschd/IPrincipal::put_DisplayName
-ms.topic: method
 f1_keywords:
 - taskschd/IPrincipal.DisplayName
 dev_langs:

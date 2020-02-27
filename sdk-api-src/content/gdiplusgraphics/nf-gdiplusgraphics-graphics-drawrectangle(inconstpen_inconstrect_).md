@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawrectanglemethods\drawrectangle.htm
 ms.date: 12/05/2018
 ms.keywords: DrawRectangle, DrawRectangle method [GDI+], DrawRectangle method [GDI+],Graphics class, Graphics class [GDI+],DrawRectangle method, Graphics.DrawRectangle, Graphics.DrawRectangle(IN const Pen,IN const Rect &), Graphics.DrawRectangle(const Pen*,const Rect&), Graphics::DrawRectangle, Graphics::DrawRectangle(IN const Pen,IN const Rect &), _gdiplus_CLASS_Graphics_DrawRectangle_Pen_pen_Rect_rect_, gdiplus._gdiplus_CLASS_Graphics_DrawRectangle_Pen_pen_Rect_rect_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.DrawRectangle
 dev_langs:

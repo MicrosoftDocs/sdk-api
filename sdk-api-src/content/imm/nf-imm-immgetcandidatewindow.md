@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 39800693-0eb5-4807-94b2-d11e6f98ba2c
 ms.date: 12/05/2018
 ms.keywords: ImmGetCandidateWindow, ImmGetCandidateWindow function [Internationalization for Windows Applications], _win32_ImmGetCandidateWindow, imm/ImmGetCandidateWindow, intl.immgetcandidatewindow
-ms.topic: function
 f1_keywords:
 - imm/ImmGetCandidateWindow
 dev_langs:

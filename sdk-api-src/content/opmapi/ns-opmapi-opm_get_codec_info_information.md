@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 20865210-7f0f-4310-879e-9d1fe97f5df2
 ms.date: 12/05/2018
 ms.keywords: OPM_GET_CODEC_INFO_INFORMATION, OPM_GET_CODEC_INFO_INFORMATION structure [Media Foundation], _OPM_GET_CODEC_INFO_INFORMATION, ksopmapi/OPM_GET_CODEC_INFO_INFORMATION, mf.opm_get_codec_info_information
-ms.topic: struct
 f1_keywords:
 - opmapi/OPM_GET_CODEC_INFO_INFORMATION
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 06f0874d-ca25-4fa8-8cbc-96c1eee1b36c
 ms.date: 12/05/2018
 ms.keywords: UiaGetUpdatedCache, UiaGetUpdatedCache function [Windows Accessibility], uiauto.uiauto_UiaGetUpdatedCacheAutoMeth, uiauto_UiaGetUpdatedCacheAutoMeth, uiautomationcoreapi/UiaGetUpdatedCache, winauto.uiauto_UiaGetUpdatedCacheAutoMeth
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaGetUpdatedCache
 dev_langs:
@@ -88,9 +87,9 @@ The address of a <a href="https://docs.microsoft.com/windows/desktop/api/uiautom
 
 ### -param ppRequestedData [out]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
-The address of a variable that receives a pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> that contains the requested data. This parameter is passed uninitialized. See Remarks.
+The address of a variable that receives a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains the requested data. This parameter is passed uninitialized. See Remarks.
 
 
 ### -param ppTreeStructure [out]

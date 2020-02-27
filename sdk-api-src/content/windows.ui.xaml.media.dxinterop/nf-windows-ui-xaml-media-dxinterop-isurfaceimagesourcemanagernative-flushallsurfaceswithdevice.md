@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 2921FF9E-25C5-4DF6-B23F-7B60F0577983
 ms.date: 12/05/2018
 ms.keywords: FlushAllSurfacesWithDevice, FlushAllSurfacesWithDevice method [Windows Runtime], FlushAllSurfacesWithDevice method [Windows Runtime],ISurfaceImageSourceManagerNative interface, ISurfaceImageSourceManagerNative interface [Windows Runtime],FlushAllSurfacesWithDevice method, ISurfaceImageSourceManagerNative.FlushAllSurfacesWithDevice, ISurfaceImageSourceManagerNative.xaml, ISurfaceImageSourceManagerNative::FlushAllSurfacesWithDevice, ISurfaceImageSourceManagerNative::xaml, windows/ISurfaceImageSourceManagerNative::FlushAllSurfacesWithDevice, winrt.isurfaceimagesourcemanagernative_flushallsurfaceswithdevice
-ms.topic: method
 f1_keywords:
 - windows.ui.xaml.media.dxinterop/ISurfaceImageSourceManagerNative.FlushAllSurfacesWithDevice
 dev_langs:

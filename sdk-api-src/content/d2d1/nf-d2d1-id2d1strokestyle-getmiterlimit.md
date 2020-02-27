@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 29748b05-830b-48ae-9303-a5f7852792e7
 ms.date: 12/05/2018
 ms.keywords: GetMiterLimit, GetMiterLimit method [Direct2D], GetMiterLimit method [Direct2D],ID2D1StrokeStyle interface, ID2D1StrokeStyle interface [Direct2D],GetMiterLimit method, ID2D1StrokeStyle.GetMiterLimit, ID2D1StrokeStyle::GetMiterLimit, d2d1/ID2D1StrokeStyle::GetMiterLimit, direct2d.ID2D1StrokeStyle_GetMiterLimit
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1StrokeStyle.GetMiterLimit
 dev_langs:

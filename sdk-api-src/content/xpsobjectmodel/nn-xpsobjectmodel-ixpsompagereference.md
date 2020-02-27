@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: cdebab24-f918-4235-b4d5-5ee1007ade87
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents and Packaging], IXpsOMPageReference interface [XPS Documents and Packaging],described, xps.ixpsompagereference, xpsobjectmodel/IXpsOMPageReference
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMPageReference
 dev_langs:
@@ -333,7 +332,7 @@ For information about using this interface in a program, see <a href="https://do
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

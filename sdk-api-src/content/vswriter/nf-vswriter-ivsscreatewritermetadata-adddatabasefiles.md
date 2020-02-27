@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 37ef5e50-127d-4bd0-9d26-04dc7781b3ff
 ms.date: 12/05/2018
 ms.keywords: AddDatabaseFiles, AddDatabaseFiles method [VSS], AddDatabaseFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddDatabaseFiles method, IVssCreateWriterMetadata.AddDatabaseFiles, IVssCreateWriterMetadata::AddDatabaseFiles, _win32_ivsscreatewritermetadata_adddatabasefiles, base.ivsscreatewritermetadata_adddatabasefiles, vswriter/IVssCreateWriterMetadata::AddDatabaseFiles
-ms.topic: method
 f1_keywords:
 - vswriter/IVssCreateWriterMetadata.AddDatabaseFiles
 dev_langs:

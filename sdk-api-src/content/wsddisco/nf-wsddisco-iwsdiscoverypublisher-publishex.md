@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: f4a1f93d-071b-4244-b4e4-ed7e7bb7432b
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,PublishEx method, IWSDiscoveryPublisher.PublishEx, IWSDiscoveryPublisher::PublishEx, PublishEx, PublishEx method, PublishEx method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_publishex_method, wsddisco/IWSDiscoveryPublisher::PublishEx
-ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveryPublisher.PublishEx
 dev_langs:
@@ -72,7 +71,7 @@ Current metadata version.
 
 ### -param ullInstanceId [in]
 
-Identifier for the current instance of the device being published. This identifier must be incremented whenever the service is restarted. For more information about instance identifiers, see Appendix I of the <a href="http://go.microsoft.com/fwlink/p/?linkid=87841">WS-Discovery specification</a>.
+Identifier for the current instance of the device being published. This identifier must be incremented whenever the service is restarted. For more information about instance identifiers, see Appendix I of the <a href="https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf">WS-Discovery specification</a>.
 
 <div class="alert"><b>Note</b>  For compatibility with the WS-Discovery specification, this value must be less than or equal to UINT_MAX (4294967295).</div>
 <div> </div>
@@ -86,7 +85,7 @@ Counter within the scope of the instance identifier for the current message. The
 
 ### -param pszSessionId [in, optional]
 
-Unique identifier within the scope of the instance identifier for the current session. This parameter corresponds to the sequence identifier in the AppSequence block in the Probe message. For more information about sequence identifiers, see Appendix I of the <a href="http://go.microsoft.com/fwlink/p/?linkid=87841">WS-Discovery specification</a>.
+Unique identifier within the scope of the instance identifier for the current session. This parameter corresponds to the sequence identifier in the AppSequence block in the Probe message. For more information about sequence identifiers, see Appendix I of the <a href="https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf">WS-Discovery specification</a>.
 
 This parameter may be <b>NULL</b>.
 

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: baa3cc02-0a61-4463-b2f1-0d7aaefa126b
 ms.date: 12/05/2018
 ms.keywords: MoveFile, MoveFile function [Files], MoveFileA, MoveFileW, _win32_movefile, base.movefile, fs.movefile, rename file [Files], winbase/MoveFile, winbase/MoveFileA, winbase/MoveFileW
-ms.topic: function
 f1_keywords:
 - winbase/MoveFile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextdocument.htm
 ms.date: 12/05/2018
 ms.keywords: ITextDocument, ITextDocument interface [Windows Controls], ITextDocument interface [Windows Controls],described, _win32_ITextDocument, _win32_ITextDocument_cpp, controls.ITextDocument, controls._win32_ITextDocument, tom/ITextDocument
-ms.topic: interface
 f1_keywords:
 - tom/ITextDocument
 dev_langs:
@@ -63,7 +62,7 @@ Applications typically do not implement the <b>ITextDocument</b> interface. Micr
 
 <b>When to Use</b>
 
-Applications can retrieve an <b>ITextDocument</b> pointer from a rich edit control. To do this, send an <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getoleinterface">EM_GETOLEINTERFACE</a> message to retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a> object from a rich edit control. Then, call the object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method to retrieve an <b>ITextDocument</b> pointer.
+Applications can retrieve an <b>ITextDocument</b> pointer from a rich edit control. To do this, send an <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getoleinterface">EM_GETOLEINTERFACE</a> message to retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a> object from a rich edit control. Then, call the object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method to retrieve an <b>ITextDocument</b> pointer.
 
 
 ## -inheritance

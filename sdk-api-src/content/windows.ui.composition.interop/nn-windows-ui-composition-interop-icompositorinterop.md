@@ -7,7 +7,6 @@ tech.root: w_ui_comp
 ms.assetid: 0BE505EA-1C31-411E-AAF7-06D52D9F4682
 ms.date: 12/05/2018
 ms.keywords: ICompositorInterop, ICompositorInterop interface, ICompositorInterop interface,described, w_ui_comp.icompositorinterop, windows/ICompositorInterop
-ms.topic: interface
 f1_keywords:
 - windows.ui.composition.interop/ICompositorInterop
 dev_langs:
@@ -112,7 +111,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.compositi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=692061">Composition Native Interoperation Overview</a>
+<a href="https://docs.microsoft.com/windows/uwp/composition/composition-native-interop">Composition Native Interoperation Overview</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolume9__freeprivatedata.htm
 ms.date: 12/05/2018
 ms.keywords: FreePrivateData, FreePrivateData method [Direct3D 9], FreePrivateData method [Direct3D 9],IDirect3DVolume9 interface, IDirect3DVolume9 interface [Direct3D 9],FreePrivateData method, IDirect3DVolume9.FreePrivateData, IDirect3DVolume9::FreePrivateData, b68ae9e8-a0dd-1a8d-6653-dbbf3a1477d4, d3d9helper/IDirect3DVolume9::FreePrivateData, direct3d9.idirect3dvolume9__freeprivatedata
-ms.topic: method
 f1_keywords:
 - d3d9helper/IDirect3DVolume9.FreePrivateData
 dev_langs:
@@ -61,7 +60,7 @@ Frees the specified private data associated with this volume.
 
 ### -param refguid [in]
 
-Type: <b><a href="http://go.microsoft.com/?linkid=9742306">REFGUID</a></b>
+Type: <b><a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50?redirectedfrom=MSDN">REFGUID</a></b>
 
 Reference to the globally unique identifier that identifies the private data to free.
 

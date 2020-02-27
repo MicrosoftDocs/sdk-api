@@ -1,9 +1,10 @@
 ---
 UID: NA:gdipluslinecaps
+title: Gdipluslinecaps.h header
 ms.assetid: a6576ae2-4880-3293-920e-419821fb5fe2
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: gdiplus
 ---
 

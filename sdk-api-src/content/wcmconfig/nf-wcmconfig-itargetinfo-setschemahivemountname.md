@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: 128cf457-c66e-49b7-88a7-3f5d87800a20
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo interface [SMI],SetSchemaHiveMountName method, ITargetInfo.SetSchemaHiveMountName, ITargetInfo::SetSchemaHiveMountName, SetSchemaHiveMountName, SetSchemaHiveMountName method [SMI], SetSchemaHiveMountName method [SMI],ITargetInfo interface, smi.itargetinfo_setschemahivemountname, wcmconfig/ITargetInfo::SetSchemaHiveMountName
-ms.topic: method
 f1_keywords:
 - wcmconfig/ITargetInfo.SetSchemaHiveMountName
 dev_langs:

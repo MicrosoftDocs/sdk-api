@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 78e0a165-5a19-4dca-8d6c-445345772824
 ms.date: 12/05/2018
 ms.keywords: IAMVideoAccelerator, IAMVideoAccelerator interface [DirectShow], IAMVideoAccelerator interface [DirectShow],described, IAMVideoAcceleratorInterface, dshow.iamvideoaccelerator, videoacc/IAMVideoAccelerator
-ms.topic: interface
 f1_keywords:
 - videoacc/IAMVideoAccelerator
 dev_langs:
@@ -193,7 +192,7 @@ Releases a buffer that was locked by a previous call to <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=93647">DXVA 1.0 specification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg463516">DXVA 1.0 specification</a>
 
 
 

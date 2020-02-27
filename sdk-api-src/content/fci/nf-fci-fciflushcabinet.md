@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: dc586260-180e-4a6b-accf-2ddd62ac1335
 ms.date: 12/05/2018
 ms.keywords: FCIFlushCabinet, FCIFlushCabinet function [Windows API], fci/FCIFlushCabinet, winprog.fciflushcabinet
-ms.topic: function
 f1_keywords:
 - fci/FCIFlushCabinet
 dev_langs:

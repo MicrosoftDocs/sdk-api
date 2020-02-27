@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 344a9a9d-8557-4ae8-9604-4040c7d7095a
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapEncoder interface [Windows Imaging Component],Initialize method, IWICBitmapEncoder.Initialize, IWICBitmapEncoder::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapEncoder interface, _wic_codec_iwicbitmapencoder_initialize, wic._wic_codec_iwicbitmapencoder_initialize, wincodec/IWICBitmapEncoder::Initialize
-ms.topic: method
 f1_keywords:
 - wincodec/IWICBitmapEncoder.Initialize
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 15f600eb-8a73-4bb4-9405-8c6ea9b6ea8a
 ms.date: 12/05/2018
 ms.keywords: ATM_BLLI, ATM_BLLI structure [Winsock], _win32_atm_blli_2, winsock.atm_blli_2, ws2atm/ATM_BLLI
-ms.topic: struct
 f1_keywords:
 - ws2atm/ATM_BLLI
 dev_langs:

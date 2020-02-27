@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 157a2bc7-351f-4170-b85b-ed789b4997ab
 ms.date: 12/05/2018
 ms.keywords: PFNRASSENDBUFFER, PFNRASSENDBUFFER callback, RasSendBuffer, RasSendBuffer callback function [RAS], _ras_rassendbuffer, ras/RasSendBuffer, rras.rassendbuffer
-ms.topic: callback
 f1_keywords:
 - ras/RasSendBuffer
 dev_langs:

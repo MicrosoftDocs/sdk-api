@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 3cd093fe-04ee-4b09-b5e7-28dad984951e
 ms.date: 12/05/2018
 ms.keywords: GetCachedPropertyValue, GetCachedPropertyValue method [Windows Accessibility], GetCachedPropertyValue method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCachedPropertyValue method, IUIAutomationElement.GetCachedPropertyValue, IUIAutomationElement::GetCachedPropertyValue, uiauto.uiauto_IUIAutomationElement_GetCachedPropertyValue, uiauto_IUIAutomationElement_GetCachedPropertyValue, uiautomationclient/IUIAutomationElement::GetCachedPropertyValue, winauto.uiauto_IUIAutomationElement_GetCachedPropertyValue
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationElement.GetCachedPropertyValue
 dev_langs:
@@ -87,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Microsoft UI Automation properties of the <b>double</b> type support Not a Number (NaN) values. When retrieving a property of the <b>double</b> type, a client can use the <a href="https://go.microsoft.com/fwlink/p/?linkid=198403">_isnan</a> function to determine whether the property is a NaN value.
+Microsoft UI Automation properties of the <b>double</b> type support Not a Number (NaN) values. When retrieving a property of the <b>double</b> type, a client can use the <a href="https://msdn.microsoft.com/library/aa298428(VS.60).aspx">_isnan</a> function to determine whether the property is a NaN value.
         
 
 

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 343f86ca-0036-4324-b3ca-4dba8fbc26a8
 ms.date: 12/05/2018
 ms.keywords: GetCertificatePolicy, GetCertificatePolicy method [Media Foundation], GetCertificatePolicy method [Media Foundation],IMFSSLCertificateManager interface, IMFSSLCertificateManager interface [Media Foundation],GetCertificatePolicy method, IMFSSLCertificateManager.GetCertificatePolicy, IMFSSLCertificateManager::GetCertificatePolicy, mf.imfsslcertificatemanager_getcertificatepolicy, mfidl/IMFSSLCertificateManager::GetCertificatePolicy
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSSLCertificateManager.GetCertificatePolicy
 dev_langs:

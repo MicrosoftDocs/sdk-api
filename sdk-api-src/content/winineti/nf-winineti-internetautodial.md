@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 843875a8-6c83-4259-8e46-a04f786eb230
 ms.date: 12/05/2018
 ms.keywords: INTERNET_AUTODIAL_FAILIFSECURITYCHECK, INTERNET_AUTODIAL_FORCE_ONLINE, INTERNET_AUTODIAL_FORCE_UNATTENDED, INTERNET_AUTODIAL_OVERRIDE_NET_PRESENT, InternetAutodial, InternetAutodial function [WinINet], _inet_internetautodial_function, wininet.internetautodial, winineti/InternetAutodial
-ms.topic: function
 f1_keywords:
 - winineti/InternetAutodial
 dev_langs:

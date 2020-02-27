@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 65d962bd-f4d7-4cf4-9b24-a7678e669e24
 ms.date: 12/05/2018
 ms.keywords: SnmpSetVb, SnmpSetVb function [SNMP], _snmp_snmpsetvb, snmp.snmpsetvb, winsnmp/SnmpSetVb
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpSetVb
 dev_langs:

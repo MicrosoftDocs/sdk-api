@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 48a51e32-95d7-4eeb-8106-f5043ffa2fd1
 ms.date: 12/05/2018
 ms.keywords: VARIANT_ALPHABOOL, VARIANT_LOCALBOOL, VARIANT_NOUSEROVERRIDE, VARIANT_NOVALUEPROP, VariantChangeType, VariantChangeType function [Automation], _oa96_VariantChangeType, automat.variantchangetype, oleauto/VariantChangeType
-ms.topic: function
 f1_keywords:
 - oleauto/VariantChangeType
 dev_langs:

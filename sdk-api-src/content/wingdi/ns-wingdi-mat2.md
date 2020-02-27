@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 841883d6-bc4d-46ef-abf4-f179771d255b
 ms.date: 12/05/2018
 ms.keywords: '*LPMAT2, LPMAT2, LPMAT2 structure pointer [Windows GDI], MAT2, MAT2 structure [Windows GDI], _win32_MAT2_str, gdi.mat2, wingdi/LPMAT2, wingdi/MAT2'
-ms.topic: struct
 f1_keywords:
 - wingdi/MAT2
 dev_langs:

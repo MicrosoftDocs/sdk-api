@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 2f1027fd-7d95-412f-a9e8-73236252e49f
 ms.date: 12/05/2018
 ms.keywords: CachedIsDataValidForForm property [Windows Accessibility], CachedIsDataValidForForm property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsDataValidForForm property, IUIAutomationElement.CachedIsDataValidForForm, IUIAutomationElement.get_CachedIsDataValidForForm, IUIAutomationElement::CachedIsDataValidForForm, IUIAutomationElement::get_CachedIsDataValidForForm, get_CachedIsDataValidForForm, uiauto.uiauto_IUIAutomationElement_CachedIsDataValidForForm, uiauto_IUIAutomationElement_CachedIsDataValidForForm, uiautomationclient/IUIAutomationElement::CachedIsDataValidForForm, uiautomationclient/IUIAutomationElement::get_CachedIsDataValidForForm, winauto.uiauto_IUIAutomationElement_CachedIsDataValidForForm
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationElement.CachedIsDataValidForForm
 dev_langs:

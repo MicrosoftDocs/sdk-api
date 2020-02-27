@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 721dffd7-a15f-4028-be9e-854a4445d76d
 ms.date: 12/05/2018
 ms.keywords: FALSE, HasRestrictedFonts, HasRestrictedFonts method [XPS Documents and Packaging], HasRestrictedFonts method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],HasRestrictedFonts method, IXpsOMPageReference.HasRestrictedFonts, IXpsOMPageReference::HasRestrictedFonts, TRUE, xps.ixpsompagereference_hasrestrictedfonts, xpsobjectmodel/IXpsOMPageReference::HasRestrictedFonts
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPageReference.HasRestrictedFonts
 dev_langs:
@@ -152,7 +151,7 @@ This value is not updated automatically. If fonts or glyphs are added or removed
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

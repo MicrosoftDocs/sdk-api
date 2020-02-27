@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.CreateFromPoints(BoundingSphere@,size_t,XMFLOAT3,size_t)
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere interface [DirectX Math Support APIs],CreateFromPoints method, BoundingSphere.CreateFromPoints, BoundingSphere::CreateFromPoints, CreateFromPoints, CreateFromPoints method [DirectX Math Support APIs], CreateFromPoints method [DirectX Math Support APIs],BoundingSphere interface, Use DirectX..BoundingSphere.CreateFromPoints, Use DirectX::::BoundingSphere::CreateFromPoints, dxmath.boundingsphere_createfrompoints
-ms.topic: method
 f1_keywords:
 - directxcollision/BoundingSphere.CreateFromPoints
 dev_langs:

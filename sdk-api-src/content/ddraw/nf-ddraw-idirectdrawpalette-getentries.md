@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: ae3c639f-beb4-40b6-a237-60d6e560a1c3
 ms.date: 12/05/2018
 ms.keywords: GetEntries, GetEntries method [DirectDraw], GetEntries method [DirectDraw],IDirectDrawPalette interface, IDirectDrawPalette interface [DirectDraw],GetEntries method, IDirectDrawPalette.GetEntries, IDirectDrawPalette::GetEntries, ddraw/IDirectDrawPalette::GetEntries, directdraw.idirectdrawpalette_getentries
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawPalette.GetEntries
 dev_langs:

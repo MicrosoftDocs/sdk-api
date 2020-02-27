@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 8f423495-7a34-4901-968e-1fe204680d8a
 ms.date: 12/05/2018
 ms.keywords: GetObjectParam, GetObjectParam method [COM], GetObjectParam method [COM],IBindCtx interface, IBindCtx interface [COM],GetObjectParam method, IBindCtx.GetObjectParam, IBindCtx::GetObjectParam, _com_ibindctx_getobjectparam, com.ibindctx_getobjectparam, objidl/IBindCtx::GetObjectParam
-ms.topic: method
 f1_keywords:
 - objidl/IBindCtx.GetObjectParam
 dev_langs:

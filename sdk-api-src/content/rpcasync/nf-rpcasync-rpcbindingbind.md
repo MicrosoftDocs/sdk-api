@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: dbc73a66-b1ca-4a53-b662-430b611f8c20
 ms.date: 12/05/2018
 ms.keywords: RpcBindingBind, RpcBindingBind function [RPC], rpc.rpcbindingbind, rpcasync/RpcBindingBind
-ms.topic: function
 f1_keywords:
 - rpcasync/RpcBindingBind
 dev_langs:

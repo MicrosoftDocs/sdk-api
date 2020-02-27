@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d23df6b1-eddc-4c8c-a3c9-400f915e35c4
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner interface [DirectShow],put_InputType method, IAMTVTuner.put_InputType, IAMTVTuner::put_InputType, IAMTVTunerput_InputType, dshow.iamtvtuner_put_inputtype, put_InputType, put_InputType method [DirectShow], put_InputType method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::put_InputType
-ms.topic: method
 f1_keywords:
 - strmif/IAMTVTuner.put_InputType
 dev_langs:
@@ -69,7 +68,7 @@ Index value that specifies the input pin to be set.
 
 ### -param InputType [in]
 
-Value indicating the connection type, as specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-tunerinputtype">TunerInputType</a> enumeration.
+Value indicating the connection type, as specified in the [TunerInputType](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tunerinputtype) enumeration.
 
 
 ## -returns

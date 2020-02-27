@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 52f606c2-a746-488f-bbf7-0d0e54b89bf9
 ms.date: 12/05/2018
 ms.keywords: IWMDRMReader interface [windows Media Format],SetDRMProperty method, IWMDRMReader.SetDRMProperty, IWMDRMReader::SetDRMProperty, IWMDRMReaderSetDRMProperty, SetDRMProperty, SetDRMProperty method [windows Media Format], SetDRMProperty method [windows Media Format],IWMDRMReader interface, wmformat.iwmdrmreader_setdrmproperty, wmsdkidl/IWMDRMReader::SetDRMProperty
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDRMReader.SetDRMProperty
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>SetDRMProperty</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>SetDRMProperty</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 

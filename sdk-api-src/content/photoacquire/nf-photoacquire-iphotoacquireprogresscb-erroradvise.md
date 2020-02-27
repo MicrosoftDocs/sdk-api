@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: 60454ae7-9be9-4414-9865-2b874bbe54c1
 ms.date: 12/05/2018
 ms.keywords: ErrorAdvise, ErrorAdvise method [Picture Acquisition], ErrorAdvise method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],ErrorAdvise method, IPhotoAcquireProgressCB.ErrorAdvise, IPhotoAcquireProgressCB::ErrorAdvise, IPhotoAcquireProgressCBErrorAdvise, photoacquire/IPhotoAcquireProgressCB::ErrorAdvise, picacq.iphotoacquireprogresscb_erroradvise
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoAcquireProgressCB.ErrorAdvise
 dev_langs:

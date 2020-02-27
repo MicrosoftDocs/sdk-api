@@ -7,7 +7,6 @@ tech.root: input_ink
 ms.assetid: 7a577536-405b-400d-89bc-c3b3894b448d
 ms.date: 12/05/2018
 ms.keywords: IInkDesktopHost, IInkDesktopHost interface, IInkDesktopHost interface,described, InkPresenterDesktop.iinkdesktophost, inkpresenterdesktop/IInkDesktopHost, input_ink.iinkdesktophost
-ms.topic: interface
 f1_keywords:
 - inkpresenterdesktop/IInkDesktopHost
 dev_langs:
@@ -58,7 +57,7 @@ An <b>IInkDesktopHost</b> object enables ink input, processing, and rendering th
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620314">Complex ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex ink sample</a>
 
 
 
@@ -66,7 +65,7 @@ An <b>IInkDesktopHost</b> object enables ink input, processing, and rendering th
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
 
 
 
@@ -78,7 +77,7 @@ An <b>IInkDesktopHost</b> object enables ink input, processing, and rendering th
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620312">Simple ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
  
 
  

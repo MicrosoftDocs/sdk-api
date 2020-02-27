@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: DC500008-619C-425F-A2C4-DE17B984E4F7
 ms.date: 12/5/2018
 ms.keywords: DML_MAX_POOLING_OPERATOR_DESC, DML_MAX_POOLING_OPERATOR_DESC structure, direct3d12.dml_max_pooling_operator_desc, directml/DML_MAX_POOLING_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_MAX_POOLING_OPERATOR_DESC
 dev_langs:

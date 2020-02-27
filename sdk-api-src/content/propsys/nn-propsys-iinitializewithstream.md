@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9050845d-1e70-4e85-8d2f-c8bbb382abe5
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithStream, IInitializeWithStream interface [Windows Shell], IInitializeWithStream interface [Windows Shell],described, propsys/IInitializeWithStream, shell.IInitializeWithStream, shell_IInitializeWithStream
-ms.topic: interface
 f1_keywords:
 - propsys/IInitializeWithStream
 dev_langs:

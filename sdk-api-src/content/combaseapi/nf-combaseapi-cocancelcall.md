@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 1707261c-2d8d-4f35-865d-61c8870c0624
 ms.date: 12/05/2018
 ms.keywords: CoCancelCall, CoCancelCall function [COM], _com_CoCancelCall, com.cocancelcall, combaseapi/CoCancelCall
-ms.topic: function
 f1_keywords:
 - combaseapi/CoCancelCall
 dev_langs:

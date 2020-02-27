@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: e17901e8-9adb-488e-9c8d-6fa1351520ac
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetLanguage method, IXpsOMCoreProperties.SetLanguage, IXpsOMCoreProperties::SetLanguage, SetLanguage, SetLanguage method [XPS Documents and Packaging], SetLanguage method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setlanguage, xpsobjectmodel/IXpsOMCoreProperties::SetLanguage
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.SetLanguage
 dev_langs:
@@ -92,11 +91,11 @@ Internet Engineering Task Force (IETF) RFC 3066 describes the recommended encodi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

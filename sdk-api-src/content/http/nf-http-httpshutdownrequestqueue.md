@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: f6640565-a5a1-4a71-938c-1adf54beb40a
 ms.date: 12/05/2018
 ms.keywords: HttpShutdownRequestQueue, HttpShutdownRequestQueue function [HTTP], http.httpshutdownrequestqueue, http/HttpShutdownRequestQueue
-ms.topic: function
 f1_keywords:
 - http/HttpShutdownRequestQueue
 dev_langs:

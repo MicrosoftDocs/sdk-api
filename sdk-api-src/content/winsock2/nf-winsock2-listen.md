@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 1233feeb-a8c1-49ac-ab34-82af224ecf00
 ms.date: 12/05/2018
 ms.keywords: _win32_listen_2, listen, listen function [Winsock], winsock.listen_2, winsock2/listen
-ms.topic: function
 f1_keywords:
 - winsock2/listen
 dev_langs:

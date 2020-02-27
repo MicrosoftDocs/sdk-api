@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 5f60b88b-4e3d-4e0a-803d-ab407425d92a
 ms.date: 12/05/2018
 ms.keywords: IS_LOW_SURROGATE, IS_LOW_SURROGATE macro [Internationalization for Windows Applications], _win32_IS_LOW_SURROGATE, intl.is_low_surrogate, winnls/IS_LOW_SURROGATE
-ms.topic: macro
 f1_keywords:
 - winnls/IS_LOW_SURROGATE
 dev_langs:

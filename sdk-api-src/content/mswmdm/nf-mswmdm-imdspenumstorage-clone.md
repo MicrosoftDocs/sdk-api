@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 8621c5fa-7739-4f90-b856-76880f8dd07b
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [windows Media Device Manager], Clone method [windows Media Device Manager],IMDSPEnumStorage interface, IMDSPEnumStorage interface [windows Media Device Manager],Clone method, IMDSPEnumStorage.Clone, IMDSPEnumStorage::Clone, IMDSPEnumStorageClone, mswmdm/IMDSPEnumStorage::Clone, wmdm.imdspenumstorage_clone
-ms.topic: method
 f1_keywords:
 - mswmdm/IMDSPEnumStorage.Clone
 dev_langs:

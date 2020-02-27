@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 49d24beb-795a-4399-b230-c65cc16337dc
 ms.date: 12/05/2018
 ms.keywords: _win32_waveInGetErrorText, mmeapi/waveInGetErrorText, multimedia.waveingeterrortext, waveInGetErrorText, waveInGetErrorText function [Windows Multimedia]
-ms.topic: function
 f1_keywords:
 - mmeapi/waveInGetErrorText
 dev_langs:

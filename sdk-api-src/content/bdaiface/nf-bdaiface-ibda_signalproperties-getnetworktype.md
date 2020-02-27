@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6c799cad-2371-4845-a783-e7227fb81c4c
 ms.date: 12/05/2018
 ms.keywords: GetNetworkType, GetNetworkType method [Microsoft TV Technologies], GetNetworkType method [Microsoft TV Technologies],IBDA_SignalProperties interface, IBDA_SignalProperties interface [Microsoft TV Technologies],GetNetworkType method, IBDA_SignalProperties.GetNetworkType, IBDA_SignalProperties::GetNetworkType, IBDA_SignalPropertiesGetNetworkType, bdaiface/IBDA_SignalProperties::GetNetworkType, mstv.ibda_signalproperties_getnetworktype
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_SignalProperties.GetNetworkType
 dev_langs:

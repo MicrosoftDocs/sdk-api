@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getpos.htm
 ms.date: 12/05/2018
 ms.keywords: Pager_GetPos, Pager_GetPos macro [Windows Controls], _win32_Pager_GetPos, _win32_Pager_GetPos_cpp, commctrl/Pager_GetPos, controls.Pager_GetPos, controls._win32_Pager_GetPos
-ms.topic: macro
 f1_keywords:
 - commctrl/Pager_GetPos
 dev_langs:

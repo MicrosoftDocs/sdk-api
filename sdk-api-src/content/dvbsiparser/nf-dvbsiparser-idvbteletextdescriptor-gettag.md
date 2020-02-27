@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 1f359c37-8d8f-48de-a4a2-89617c5761ed
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbTeletextDescriptor interface, IDvbTeletextDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbTeletextDescriptor.GetTag, IDvbTeletextDescriptor::GetTag, dvbsiparser/IDvbTeletextDescriptor::GetTag, mstv.idvbteletextdescriptor_gettag
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbTeletextDescriptor.GetTag
 dev_langs:

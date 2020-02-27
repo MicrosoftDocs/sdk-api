@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: bdc91cac-c0ec-4484-a415-8cd1aa1e18e8
 ms.date: 12/05/2018
 ms.keywords: ITCallHub, ITCallHub interface [TAPI 2.2], ITCallHub interface [TAPI 2.2],described, _tapi3_itcallhub, tapi3.itcallhub, tapi3if/ITCallHub
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITCallHub
 dev_langs:

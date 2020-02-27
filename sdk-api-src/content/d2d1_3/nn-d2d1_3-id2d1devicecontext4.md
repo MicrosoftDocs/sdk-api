@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 59E1F73B-BAD9-4826-BF5B-435E760CC546
 ms.date: 12/05/2018
 ms.keywords: ID2D1DeviceContext4, ID2D1DeviceContext4 interface [Direct2D], ID2D1DeviceContext4 interface [Direct2D],described, d2d1_3/ID2D1DeviceContext4, direct2d.id2d1devicecontext4
-ms.topic: interface
 f1_keywords:
 - d2d1_3/ID2D1DeviceContext4
 dev_langs:

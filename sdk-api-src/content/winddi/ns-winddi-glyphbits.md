@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: d7e0b5dd-dd94-4fc2-8c90-0d656a84c46b
 ms.date: 12/05/2018
 ms.keywords: GLYPHBITS, GLYPHBITS structure [Display Devices], display.glyphbits, grstrcts_597a08d2-215a-4bef-8f5b-a90ded3165fc.xml, winddi/GLYPHBITS
-ms.topic: struct
 f1_keywords:
 - winddi/GLYPHBITS
 dev_langs:

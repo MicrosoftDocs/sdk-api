@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: 834C7CBA-179E-4C1E-9664-A70EB38D74BE
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_PIN_GET_POLARITY, IOCTL_PWM_PIN_GET_POLARITY control, IOCTL_PWM_PIN_GET_POLARITY control code, base.ioctl_pwm_pin_get_polarity, pwm/IOCTL_PWM_PIN_GET_POLARITY
-ms.topic: ioctl
 f1_keywords:
 - pwm/IOCTL_PWM_PIN_GET_POLARITY
 dev_langs:

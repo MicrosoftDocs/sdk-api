@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: a7aeeb66-afd0-4871-81a3-e4619ac84293
 ms.date: 12/05/2018
 ms.keywords: PrefetchVirtualMemory, PrefetchVirtualMemory function, base.prefetchvirtualmemory, winbase/PrefetchVirtualMemory
-ms.topic: function
 f1_keywords:
 - memoryapi/PrefetchVirtualMemory
 dev_langs:

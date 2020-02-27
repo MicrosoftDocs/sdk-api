@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 3ab1121f-5122-424b-a1df-ceeb57751dac
 ms.date: 12/05/2018
 ms.keywords: MCIWndSaveDialog, MCIWndSaveDialog macro [Windows Multimedia], _win32_MCIWndSaveDialog, multimedia.mciwndsavedialog, vfw/MCIWndSaveDialog
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndSaveDialog
 dev_langs:

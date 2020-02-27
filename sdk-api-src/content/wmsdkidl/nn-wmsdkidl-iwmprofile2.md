@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 34e30edb-3247-4eaa-9a63-6d94c9e37c0b
 ms.date: 12/05/2018
 ms.keywords: IWMProfile2, IWMProfile2 interface [windows Media Format], IWMProfile2 interface [windows Media Format],described, IWMProfile2Interface, wmformat.iwmprofile2, wmsdkidl/IWMProfile2
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMProfile2
 dev_langs:

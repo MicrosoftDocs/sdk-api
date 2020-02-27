@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: 5e793f09-1d12-4b69-8ba6-6c45421df533
 ms.date: 12/05/2018
 ms.keywords: SL_NONGENUINE_UI_OPTIONS, SL_NONGENUINE_UI_OPTIONS structure [Security], security.sl_nongenuine_ui_options, slpublic/SL_NONGENUINE_UI_OPTIONS
-ms.topic: struct
 f1_keywords:
 - slpublic/SL_NONGENUINE_UI_OPTIONS
 dev_langs:

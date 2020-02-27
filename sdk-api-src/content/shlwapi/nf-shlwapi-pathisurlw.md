@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8791bcd8-0d8f-4f7b-9c8e-59bcb95b5d19
 ms.date: 12/05/2018
 ms.keywords: PathIsURL, PathIsURL function [Windows Shell], PathIsURLA, PathIsURLW, _win32_PathIsURL, shell.PathIsURL, shlwapi/PathIsURL, shlwapi/PathIsURLA, shlwapi/PathIsURLW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathIsURL
 dev_langs:

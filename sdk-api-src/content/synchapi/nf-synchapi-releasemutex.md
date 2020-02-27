@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: c3e4daa8-92de-455c-847c-ea59225b3aa2
 ms.date: 12/05/2018
 ms.keywords: ReleaseMutex, ReleaseMutex function, _win32_releasemutex, base.releasemutex, synchapi/ReleaseMutex, winbase/ReleaseMutex
-ms.topic: function
 f1_keywords:
 - synchapi/ReleaseMutex
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 02b81f48-c6a0-44db-86b9-936331b15cc4
 ms.date: 12/05/2018
 ms.keywords: CreateClassEnumAsync, CreateClassEnumAsync method [Windows Management Instrumentation], CreateClassEnumAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],CreateClassEnumAsync method, IWbemServices.CreateClassEnumAsync, IWbemServices::CreateClassEnumAsync, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DEEP, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_SHALLOW, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_createclassenumasync, wbemcli/IWbemServices::CreateClassEnumAsync, wmi.iwbemservices_createclassenumasync
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemServices.CreateClassEnumAsync
 dev_langs:
@@ -142,7 +141,7 @@ Pointer to the caller implementation of
 
 
 
-This method returns an <b>HRESULT</b> that indicates the status of the method call. On failure, you can obtain available information from the COM function <a href="http://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a>. COM-specific error codes  can be returned if network problems cause you to lose the remote connection to WMI. Note that if 
+This method returns an <b>HRESULT</b> that indicates the status of the method call. On failure, you can obtain available information from the COM function <a href="https://msdn.microsoft.com/library/ms221032.aspx">GetErrorInfo</a>. COM-specific error codes  can be returned if network problems cause you to lose the remote connection to WMI. Note that if 
 <b>CreateClassEnumAsync</b> returns WBEM_S_NO_ERROR, WMI waits for a result from the 
 <b>SetStatus</b> method of the response handler. WMI waits indefinitely on a local connection or until a remote connection time-out occurs. The following list lists the value contained within an <b>HRESULT</b>.
 

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 0b56ea0d-95ae-4306-9866-b4b5e985ed43
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_IS_WRITABLE, IOCTL_DISK_IS_WRITABLE control, IOCTL_DISK_IS_WRITABLE control code [Files], base.ioctl_disk_is_writable, fs.ioctl_disk_is_writable, winioctl/IOCTL_DISK_IS_WRITABLE
-ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_DISK_IS_WRITABLE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneTransformStream(XMFLOAT4@,size_t,const XMFLOAT4,size_t,size_t,XMMATRIX)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneTransformStream, XMPlaneTransformStream, XMPlaneTransformStream method [DirectX Math Support APIs], dxmath.xmplanetransformstream
-ms.topic: function
 f1_keywords:
 - directxmath/XMPlaneTransformStream
 dev_langs:

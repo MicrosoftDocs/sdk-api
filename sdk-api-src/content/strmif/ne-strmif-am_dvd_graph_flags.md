@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2a0ec036-d34c-407e-9b6d-c3bd3881a0af
 ms.date: 12/05/2018
 ms.keywords: AM_DVD_DO_NOT_CLEAR, AM_DVD_EVR_ONLY, AM_DVD_GRAPH_FLAGS, AM_DVD_GRAPH_FLAGS , AM_DVD_GRAPH_FLAGS enumeration [DirectShow], AM_DVD_GRAPH_FLAGSEnumeration, AM_DVD_HWDEC_ONLY, AM_DVD_HWDEC_PREFER, AM_DVD_NOVPE, AM_DVD_SWDEC_ONLY, AM_DVD_SWDEC_PREFER, AM_DVD_VMR9_ONLY, dshow.am_dvd_graph_flags, strmif/AM_DVD_DO_NOT_CLEAR, strmif/AM_DVD_EVR_ONLY, strmif/AM_DVD_GRAPH_FLAGS, strmif/AM_DVD_HWDEC_ONLY, strmif/AM_DVD_HWDEC_PREFER, strmif/AM_DVD_NOVPE, strmif/AM_DVD_SWDEC_ONLY, strmif/AM_DVD_SWDEC_PREFER, strmif/AM_DVD_VMR9_ONLY
-ms.topic: enum
 f1_keywords:
 - strmif/AM_DVD_GRAPH_FLAGS
 dev_langs:

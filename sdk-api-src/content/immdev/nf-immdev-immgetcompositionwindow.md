@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: d2c93eac-f221-4d65-af8c-45c687df6024
 ms.date: 12/05/2018
 ms.keywords: ImmGetCompositionWindow, ImmGetCompositionWindow function [Internationalization for Windows Applications], _win32_ImmGetCompositionWindow, imm/ImmGetCompositionWindow, intl.immgetcompositionwindow
-ms.topic: function
 f1_keywords:
 - immdev/ImmGetCompositionWindow
 dev_langs:

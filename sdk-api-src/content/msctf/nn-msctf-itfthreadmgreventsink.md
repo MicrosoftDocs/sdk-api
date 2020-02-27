@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: be2a3eb1-cb17-4d8b-a44d-ccb33749c8f6
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgrEventSink, ITfThreadMgrEventSink interface [Text Services Framework], ITfThreadMgrEventSink interface [Text Services Framework],described, _tsf_itfthreadmgreventsink_ref, msctf/ITfThreadMgrEventSink, tsf.itfthreadmgreventsink
-ms.topic: interface
 f1_keywords:
 - msctf/ITfThreadMgrEventSink
 dev_langs:

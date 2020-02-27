@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6c619f62-5041-410b-8ce0-d811992a32d6
 ms.date: 12/05/2018
 ms.keywords: IMSVidFeatures interface [Microsoft TV Technologies],get__NewEnum method, IMSVidFeatures.get__NewEnum, IMSVidFeatures::get__NewEnum, IMSVidFeaturesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IMSVidFeatures interface, mstv.imsvidfeatures_get__newenum, segment/IMSVidFeatures::get__NewEnum
-ms.topic: method
 f1_keywords:
 - segment/IMSVidFeatures.get__NewEnum
 dev_langs:

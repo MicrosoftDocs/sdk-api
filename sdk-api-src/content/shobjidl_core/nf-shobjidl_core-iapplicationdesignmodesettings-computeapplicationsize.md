@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1ac42bb8-1c24-4369-8d0d-db3ad4062501
 ms.date: 12/05/2018
 ms.keywords: ComputeApplicationSize, ComputeApplicationSize method [Windows Shell], ComputeApplicationSize method [Windows Shell],IApplicationDesignModeSettings interface, IApplicationDesignModeSettings interface [Windows Shell],ComputeApplicationSize method, IApplicationDesignModeSettings.ComputeApplicationSize, IApplicationDesignModeSettings::ComputeApplicationSize, shell.IApplicationDesignModeSettings_ComputeApplicationSize, shobjidl_core/IApplicationDesignModeSettings::ComputeApplicationSize
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IApplicationDesignModeSettings.ComputeApplicationSize
 dev_langs:

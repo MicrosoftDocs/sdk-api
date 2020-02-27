@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 8ADF4751-3BC5-4353-9927-C7E0079D0B83
 ms.date: 12/05/2018
 ms.keywords: MFGetWorkQueueMMCSSPriority, MFGetWorkQueueMMCSSPriority function [Media Foundation], mf.mfgetworkqueuemmcsspriority, mfapi/MFGetWorkQueueMMCSSPriority, mfplat/MFGetWorkQueueMMCSSPriority
-ms.topic: function
 f1_keywords:
 - mfapi/MFGetWorkQueueMMCSSPriority
 dev_langs:

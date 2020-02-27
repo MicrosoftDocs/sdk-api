@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f3144ff6-1228-4e17-b118-fe70136edeea
 ms.date: 12/05/2018
 ms.keywords: EDefaultDevmodeType, EDefaultDevmodeType enumeration [Windows GDI], _win32_EDefaultDevmodeType, gdi.edefaultdevmodetype, kPrinterDefaultDevmode, kUserDefaultDevmode, prntvpt/EDefaultDevmodeType, prntvpt/kPrinterDefaultDevmode, prntvpt/kUserDefaultDevmode
-ms.topic: enum
 f1_keywords:
 - prntvpt/EDefaultDevmodeType
 dev_langs:

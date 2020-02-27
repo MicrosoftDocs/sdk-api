@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: CF146EB3-AF26-40C0-A19C-78692EE76E92
 ms.date: 12/05/2018
 ms.keywords: GetCachedAnnotationTypes, GetCachedAnnotationTypes method [Windows Accessibility], GetCachedAnnotationTypes method [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],GetCachedAnnotationTypes method, IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationTypes, IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationTypes, uiautomationclient/IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationTypes, winauto.uiauto_IUIAutomationSpreadsheetItemPattern_GetCachedAnnotationTypes
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationTypes
 dev_langs:
@@ -60,7 +59,7 @@ Retrieves a cached array of annotation type identifiers indicating the types of 
 
 ### -param retVal [out, retval]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives the cached array of annotation type identifiers. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-annotation-type-identifiers">Annotation Type Identifiers</a>.
 

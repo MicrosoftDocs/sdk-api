@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: a5ba8b28-4c15-4646-91d0-b6ef9e0f1e89
 ms.date: 12/05/2018
 ms.keywords: NhpAllocateAndGetInterfaceInfoFromStack, NhpAllocateAndGetInterfaceInfoFromStack function [IP Helper], iphlp.nhpallocateandgetinterfaceinfofromstack, iphlpapi/NhpAllocateAndGetInterfaceInfoFromStack
-ms.topic: function
 f1_keywords:
 - iphlpapi/NhpAllocateAndGetInterfaceInfoFromStack
 dev_langs:

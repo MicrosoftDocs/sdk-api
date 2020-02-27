@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d16378cc-dd1c-49f9-9c1b-1eb0d78067f7
 ms.date: 12/05/2018
 ms.keywords: GetLanguage, GetLanguage method [XPS Documents and Packaging], GetLanguage method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetLanguage method, IXpsOMPage.GetLanguage, IXpsOMPage::GetLanguage, xps.ixpsompage_getlanguage, xpsobjectmodel/IXpsOMPage::GetLanguage
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPage.GetLanguage
 dev_langs:
@@ -124,11 +123,11 @@ This method allocates the memory used by the string that is returned in <i>langu
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=161490">The Internet Engineering Task Force (IETF) RFC 3066</a>
+<a href="http://tools.ietf.org/html/rfc3066">The Internet Engineering Task Force (IETF) RFC 3066</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 13857fc3-374d-4ba5-b4ca-e523b323974c
 ms.date: 12/05/2018
 ms.keywords: SCardGetTransmitCount, SCardGetTransmitCount function [Security], security.scardgettransmitcount, winscard/SCardGetTransmitCount
-ms.topic: function
 f1_keywords:
 - winscard/SCardGetTransmitCount
 dev_langs:

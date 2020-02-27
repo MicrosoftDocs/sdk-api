@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 8f576efb-4ef3-4fc0-8cf5-d373460a3b3c
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_NAPTR_DATA, *PDNS_NAPTR_DATAA, DNS_NAPTR_DATA, DNS_NAPTR_DATA structure [DNS], DNS_NAPTR_DATAA, PDNS_NAPTR_DATA, PDNS_NAPTR_DATA structure pointer [DNS], dns.dns_naptr_data, windns/DNS_NAPTR_DATA, windns/PDNS_NAPTR_DATA'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_NAPTR_DATA
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>DNS_NAPTR_DATA</b> structure represents a Naming Authority Pointer (NAPTR) DNS Resource Record (RR) as specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
+<b>DNS_NAPTR_DATA</b> structure represents a Naming Authority Pointer (NAPTR) DNS Resource Record (RR) as specified in <a href="https://www.ietf.org/rfc/rfc2915.txt">RFC 2915</a>.
 
 
 ## -struct-fields
@@ -61,32 +60,32 @@ The
 
 ### -field wOrder
 
- A value that determines the NAPTR RR processing order as defined in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
+ A value that determines the NAPTR RR processing order as defined in section 2 of <a href="https://www.ietf.org/rfc/rfc2915.txt">RFC 2915</a>.
 
 
 ### -field wPreference
 
-A value that determines the NAPTR RR processing  order  for records with the same <b>wOrder</b> value as defined in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
+A value that determines the NAPTR RR processing  order  for records with the same <b>wOrder</b> value as defined in section 2 of <a href="https://www.ietf.org/rfc/rfc2915.txt">RFC 2915</a>.
 
 
 ### -field pFlags
 
-A pointer to a string  that represents a set of NAPTR RR flags which determine the interpretation and processing of NAPTR record fields as defined in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
+A pointer to a string  that represents a set of NAPTR RR flags which determine the interpretation and processing of NAPTR record fields as defined in section 2 of <a href="https://www.ietf.org/rfc/rfc2915.txt">RFC 2915</a>.
 
 
 ### -field pService
 
-A pointer to a string that represents the available services in this rewrite path as defined in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
+A pointer to a string that represents the available services in this rewrite path as defined in section 2 of <a href="https://www.ietf.org/rfc/rfc2915.txt">RFC 2915</a>.
 
 
 ### -field pRegularExpression
 
-A pointer to a string that represents a substitution expression as defined in sections 2 and 3 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
+A pointer to a string that represents a substitution expression as defined in sections 2 and 3 of <a href="https://www.ietf.org/rfc/rfc2915.txt">RFC 2915</a>.
 
 
 ### -field pReplacement
 
-A pointer to a string that represents the next NAPTR query name as defined in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
+A pointer to a string that represents the next NAPTR query name as defined in section 2 of <a href="https://www.ietf.org/rfc/rfc2915.txt">RFC 2915</a>.
 
 
 ## -see-also

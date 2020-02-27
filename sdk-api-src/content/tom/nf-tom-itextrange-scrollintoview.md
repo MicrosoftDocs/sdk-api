@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\scrollintoview.htm
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],ScrollIntoView method, ITextRange.ScrollIntoView, ITextRange::ScrollIntoView, ScrollIntoView, ScrollIntoView method [Windows Controls], ScrollIntoView method [Windows Controls],ITextRange interface, _win32_ITextRange_ScrollIntoView, _win32_ITextRange_ScrollIntoView_cpp, controls.ITextRange_ScrollIntoView, controls._win32_ITextRange_ScrollIntoView, tom/ITextRange::ScrollIntoView, tomEnd, tomNoUpScroll, tomNoVpScroll, tomStart
-ms.topic: method
 f1_keywords:
 - tom/ITextRange.ScrollIntoView
 dev_langs:

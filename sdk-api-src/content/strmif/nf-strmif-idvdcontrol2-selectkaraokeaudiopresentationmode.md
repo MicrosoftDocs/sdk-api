@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9101fd83-1349-4cdd-b5e9-6daeb7d1e3d8
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectKaraokeAudioPresentationMode method, IDvdControl2.SelectKaraokeAudioPresentationMode, IDvdControl2::SelectKaraokeAudioPresentationMode, IDvdControl2SelectKaraokeAudioPresentationMode, SelectKaraokeAudioPresentationMode, SelectKaraokeAudioPresentationMode method [DirectShow], SelectKaraokeAudioPresentationMode method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectkaraokeaudiopresentationmode, strmif/IDvdControl2::SelectKaraokeAudioPresentationMode
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.SelectKaraokeAudioPresentationMode
 dev_langs:
@@ -64,7 +63,7 @@ The <code>SelectKaraokeAudioPresentationMode</code> method sends karaoke auxilia
 
 ### -param ulMode [in]
 
-Bitwise OR of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_karaoke_downmix">DVD_KARAOKE_DOWNMIX</a> enumeration indicating how to downmix the five karaoke channels to channels 0 and 1, which are usually output to the left and right speakers.
+Bitwise OR of [DVD_KARAOKE_DOWNMIX](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_karaoke_downmix) enumeration indicating how to downmix the five karaoke channels to channels 0 and 1, which are usually output to the left and right speakers.
 
 
 ## -returns

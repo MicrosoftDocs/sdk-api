@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 78ae714a-1ee3-46eb-b3d6-ff46bf8974ab
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProvider interface,SearchById method, IWSDiscoveryProvider.SearchById, IWSDiscoveryProvider::SearchById, SearchById, SearchById method, SearchById method,IWSDiscoveryProvider interface, ncd.iwsdiscoveryprovider_searchbyid, wsddisco/IWSDiscoveryProvider::SearchById
-ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveryProvider.SearchById
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes a search for <a href="http://go.microsoft.com/fwlink/p/?linkid=87841">WS-Discovery</a> hosts by device identifier.
+Initializes a search for <a href="https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf">WS-Discovery</a> hosts by device identifier.
 
 
 ## -parameters

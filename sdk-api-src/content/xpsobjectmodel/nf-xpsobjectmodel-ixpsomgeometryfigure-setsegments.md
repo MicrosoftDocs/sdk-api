@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 4e2a1a80-1eda-458f-b711-de56df7a98ac
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetSegments method, IXpsOMGeometryFigure.SetSegments, IXpsOMGeometryFigure::SetSegments, SetSegments, SetSegments method [XPS Documents and Packaging], SetSegments method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, xps.ixpsomgeometryfigure_setsegments, xpsobjectmodel/IXpsOMGeometryFigure::SetSegments
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGeometryFigure.SetSegments
 dev_langs:
@@ -615,7 +614,7 @@ UpdateSegmentData (
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

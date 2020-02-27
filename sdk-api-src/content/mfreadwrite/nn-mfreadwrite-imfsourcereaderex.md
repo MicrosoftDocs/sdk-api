@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 59888F9B-C464-4045-AA77-03EE16E2B598
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReaderEx, IMFSourceReaderEx interface [Media Foundation], IMFSourceReaderEx interface [Media Foundation],described, mf.imfsourcereaderex, mfreadwrite/IMFSourceReaderEx
-ms.topic: interface
 f1_keywords:
 - mfreadwrite/IMFSourceReaderEx
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Extends the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a> interface.
 
-The <a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a> implements this interface in Windows 8. To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the Source Reader.
+The <a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a> implements this interface in Windows 8. To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the Source Reader.
 
 
 ## -inheritance

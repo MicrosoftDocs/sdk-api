@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: af70b6a3-203a-4189-b44d-763539e0302a
 ms.date: 12/05/2018
 ms.keywords: GetStrokeBrushLookup, GetStrokeBrushLookup method [XPS Documents and Packaging], GetStrokeBrushLookup method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeBrushLookup method, IXpsOMPath.GetStrokeBrushLookup, IXpsOMPath::GetStrokeBrushLookup, xps.ixpsompath_getstrokebrushlookup, xpsobjectmodel/IXpsOMPath::GetStrokeBrushLookup
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.GetStrokeBrushLookup
 dev_langs:
@@ -162,7 +161,7 @@ This method allocates the memory used by the string that is returned in <i>looku
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

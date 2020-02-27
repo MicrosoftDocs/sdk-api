@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: a0b8e79b-e9bd-40e5-ab58-11469406110a
 ms.date: 12/05/2018
 ms.keywords: IWMPPluginEnable interface [Windows Media Player],SetEnable method, IWMPPluginEnable.SetEnable, IWMPPluginEnable::SetEnable, IWMPPluginEnableSetEnableDSP, SetEnable, SetEnable method [Windows Media Player], SetEnable method [Windows Media Player],IWMPPluginEnable interface, wmp.iwmppluginenable_setenable, wmpservices/IWMPPluginEnable::SetEnable
-ms.topic: method
 f1_keywords:
 - wmpservices/IWMPPluginEnable.SetEnable
 dev_langs:

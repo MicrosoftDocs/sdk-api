@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 5531e57a-49e0-42e9-abf0-e8a4849ccac6
 ms.date: 12/05/2018
 ms.keywords: CreateVssBackupComponents, CreateVssBackupComponents function [VSS], CreateVssBackupComponentsInternal, _win32_createvssbackupcomponents, base.createvssbackupcomponents, vsbackup/CreateVssBackupComponents, vsbackup/CreateVssBackupComponentsInternal
-ms.topic: function
 f1_keywords:
 - vsbackup/CreateVssBackupComponents
 dev_langs:

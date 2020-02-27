@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 8100008a-50da-4496-9d5a-77bcca94e903
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_network method, IWMPCore.get_network, IWMPCore::get_network, IWMPCoreget_network, get_network, get_network method [Windows Media Player], get_network method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_network, wmp/IWMPCore::get_network
-ms.topic: method
 f1_keywords:
 - wmp/IWMPCore.get_network
 dev_langs:

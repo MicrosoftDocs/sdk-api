@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getwrapmode_45.htm
 ms.date: 12/05/2018
 ms.keywords: GetWrapMode, GetWrapMode method [GDI+], GetWrapMode method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetWrapMode method, PathGradientBrush.GetWrapMode, PathGradientBrush::GetWrapMode, _gdiplus_CLASS_PathGradientBrush_GetWrapMode_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetWrapMode_
-ms.topic: method
 f1_keywords:
 - gdipluspath/PathGradientBrush.GetWrapMode
 dev_langs:

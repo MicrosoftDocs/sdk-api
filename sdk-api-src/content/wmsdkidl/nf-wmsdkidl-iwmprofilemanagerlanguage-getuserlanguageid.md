@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 92d18ac9-8f68-47c6-91d7-de7653df69a6
 ms.date: 12/05/2018
 ms.keywords: GetUserLanguageID, GetUserLanguageID method [windows Media Format], GetUserLanguageID method [windows Media Format],IWMProfileManagerLanguage interface, IWMProfileManagerLanguage interface [windows Media Format],GetUserLanguageID method, IWMProfileManagerLanguage.GetUserLanguageID, IWMProfileManagerLanguage::GetUserLanguageID, IWMProfileManagerLanguageGetUserLanguageID, wmformat.iwmprofilemanagerlanguage_getuserlanguageid, wmsdkidl/IWMProfileManagerLanguage::GetUserLanguageID
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMProfileManagerLanguage.GetUserLanguageID
 dev_langs:

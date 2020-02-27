@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 99aa43fe-534b-4696-8bfc-7049b16be1cf
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeAltName object [Security],Reset method, ICertEncodeAltName interface [Security],Reset method, ICertEncodeAltName.Reset, ICertEncodeAltName::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeAltName object, Reset method [Security],ICertEncodeAltName interface, certenc/ICertEncodeAltName::Reset, security.icertencodealtname_reset
-ms.topic: method
 f1_keywords:
 - certenc/ICertEncodeAltName.Reset
 dev_langs:

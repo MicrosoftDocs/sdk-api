@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f223503c-4934-4b3d-b489-c8f6488b05d0
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeEndLineCap method, IXpsOMPath.SetStrokeEndLineCap, IXpsOMPath::SetStrokeEndLineCap, SetStrokeEndLineCap, SetStrokeEndLineCap method [XPS Documents and Packaging], SetStrokeEndLineCap method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokeendlinecap, xpsobjectmodel/IXpsOMPath::SetStrokeEndLineCap
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.SetStrokeEndLineCap
 dev_langs:
@@ -120,7 +119,7 @@ For more information about dash cap styles, see <a href="https://docs.microsoft.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

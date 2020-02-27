@@ -7,7 +7,6 @@ tech.root: NetVista
 ms.assetid: 7751011b-c473-4697-b311-62e3a6d9b1ae
 ms.date: 12/05/2018
 ms.keywords: '*PNL_NEIGHBOR_STATE, NL_NEIGHBOR_STATE, NL_NEIGHBOR_STATE enumeration [Network Drivers Starting with Windows Vista], NlnsDelay, NlnsIncomplete, NlnsMaximum, NlnsPermanent, NlnsProbe, NlnsReachable, NlnsStale, NlnsUnreachable, PNL_NEIGHBOR_STATE, PNL_NEIGHBOR_STATE enumeration pointer [Network Drivers Starting with Windows Vista], iphelper_dfada3d6-bdd8-4ce0-a7db-25882d0dac4a.xml, netvista.nl_neighbor_state, nldef/NL_NEIGHBOR_STATE, nldef/NlnsDelay, nldef/NlnsIncomplete, nldef/NlnsMaximum, nldef/NlnsPermanent, nldef/NlnsProbe, nldef/NlnsReachable, nldef/NlnsStale, nldef/NlnsUnreachable, nldef/PNL_NEIGHBOR_STATE'
-ms.topic: enum
 f1_keywords:
 - nldef/NL_NEIGHBOR_STATE
 dev_langs:
@@ -133,7 +132,7 @@ A maximum value for testing purposes.
 
 
 For more information about RFC 2461, section 7.3.2, see the 
-    <a href="http://go.microsoft.com/fwlink/p/?linkid=84044">Neighbor Discovery for IP Version 6
+    <a href="https://www.ietf.org/rfc/rfc2461.txt">Neighbor Discovery for IP Version 6
     (IPv6)</a> memo from Network Working Group.
 
 

@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: FFCA10AF-1081-4D4B-900D-C3692D0B5A91
 ms.date: 12/05/2018
 ms.keywords: D3D12_BLEND_DESC, D3D12_BLEND_DESC structure, d3d12/D3D12_BLEND_DESC, direct3d12.d3d12_blend_desc
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_BLEND_DESC
 dev_langs:

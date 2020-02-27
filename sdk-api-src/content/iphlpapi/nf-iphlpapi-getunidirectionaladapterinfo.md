@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 32aa3a8e-ae74-4da9-bc8d-b28e270d9702
 ms.date: 12/05/2018
 ms.keywords: GetUniDirectionalAdapterInfo, GetUniDirectionalAdapterInfo function [IP Helper], _iphlp_getunidirectionaladapterinfo, iphlp.getunidirectionaladapterinfo, iphlpapi/GetUniDirectionalAdapterInfo
-ms.topic: function
 f1_keywords:
 - iphlpapi/GetUniDirectionalAdapterInfo
 dev_langs:

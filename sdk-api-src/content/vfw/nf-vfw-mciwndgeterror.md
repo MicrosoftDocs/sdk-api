@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 67cbd522-2409-4eeb-b62b-d78f8caea349
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetError, MCIWndGetError macro [Windows Multimedia], _win32_MCIWndGetError, multimedia.mciwndgeterror, vfw/MCIWndGetError
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndGetError
 dev_langs:

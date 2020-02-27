@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: A2771C8A-13AB-4AFA-87A1-1390B582342A
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamSourceRect method, ID3D11VideoContext.VideoProcessorSetStreamSourceRect, ID3D11VideoContext::VideoProcessorSetStreamSourceRect, VideoProcessorSetStreamSourceRect, VideoProcessorSetStreamSourceRect method [Media Foundation], VideoProcessorSetStreamSourceRect method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamSourceRect, mf.id3d11videocontext_videoprocessorsetstreamsourcerect
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11VideoContext.VideoProcessorSetStreamSourceRect
 dev_langs:

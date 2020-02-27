@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 4efc0fd5-5f07-4664-8143-46a5695c04df
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl interface [Tablet PC],IsVisible method, IMathInputControl.IsVisible, IMathInputControl::IsVisible, IsVisible, IsVisible method [Tablet PC], IsVisible method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::IsVisible, tablet.imathinputcontrol_isvisible
-ms.topic: method
 f1_keywords:
 - micaut/IMathInputControl.IsVisible
 dev_langs:

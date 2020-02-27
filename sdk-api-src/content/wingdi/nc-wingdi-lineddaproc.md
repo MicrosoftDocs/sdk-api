@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 4a8b1120-4b0b-4029-8b49-4371c0627bba
 ms.date: 12/05/2018
 ms.keywords: LineDDAProc, LineDDAProc callback, LineDDAProc callback function [Windows GDI], _win32_LineDDAProc, gdi.lineddaproc, wingdi/LineDDAProc
-ms.topic: callback
 f1_keywords:
 - wingdi/LineDDAProc
 dev_langs:

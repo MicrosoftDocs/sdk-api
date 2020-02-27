@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: f76f85df-112f-4bc3-b922-a0d7940d2954
 ms.date: 12/05/2018
 ms.keywords: CreateTextLayout, CreateTextLayout method [Direct Write], CreateTextLayout method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateTextLayout method, IDWriteFactory.CreateTextLayout, IDWriteFactory::CreateTextLayout, directwrite.IDWriteFactory_CreateTextLayout, dwrite/IDWriteFactory::CreateTextLayout
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteFactory.CreateTextLayout
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: e9ffad7f-c0b6-44ce-bf22-fbe45ca98bf4
 ms.date: 12/05/2018
 ms.keywords: REG_CREATED_NEW_KEY, REG_OPENED_EXISTING_KEY, REG_OPTION_BACKUP_RESTORE, REG_OPTION_CREATE_LINK, REG_OPTION_NON_VOLATILE, REG_OPTION_VOLATILE, RegCreateKeyEx, RegCreateKeyEx function, RegCreateKeyExA, RegCreateKeyExW, _win32_regcreatekeyex, base.regcreatekeyex, winreg/RegCreateKeyEx, winreg/RegCreateKeyExA, winreg/RegCreateKeyExW
-ms.topic: function
 f1_keywords:
 - winreg/RegCreateKeyEx
 dev_langs:
@@ -63,7 +62,7 @@ Creates the specified registry key. If the key already exists, the function open
 
 To perform transacted registry operations on a key, call the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a> function.
 
- Applications that back up or restore system state including system files and registry hives should use the <a href="http://go.microsoft.com/fwlink/p/?linkid=177790">Volume Shadow Copy Service</a> instead of the registry functions.
+ Applications that back up or restore system state including system files and registry hives should use the <a href="https://msdn.microsoft.com/library/aa384649(VS.85).aspx">Volume Shadow Copy Service</a> instead of the registry functions.
 
 
 ## -parameters

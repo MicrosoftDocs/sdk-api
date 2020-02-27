@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: C34FBA67-5267-471C-B1AA-87BFC5725831
 ms.date: 12/05/2018
 ms.keywords: WerStoreClose, WerStoreClose function [Windows Error Reporting], wer.werstoreclose, werapi/WerStoreClose
-ms.topic: function
 f1_keywords:
 - werapi/WerStoreClose
 dev_langs:

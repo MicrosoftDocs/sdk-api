@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: c42e9c64-d028-4489-82dc-85ce9a6d6c09
 ms.date: 12/05/2018
 ms.keywords: DhcpV4CreatePolicy, DhcpV4CreatePolicy function [DHCP], dhcp.dhcpv4createpolicy, dhcpsapi/DhcpV4CreatePolicy
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4CreatePolicy
 dev_langs:

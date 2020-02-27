@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: d42133cf-3b81-4d22-b83d-d8a5756d9d9c
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_encodedFrameRate method, IWMPNetwork.get_encodedFrameRate, IWMPNetwork::get_encodedFrameRate, IWMPNetworkget_encodedFrameRate, get_encodedFrameRate, get_encodedFrameRate method [Windows Media Player], get_encodedFrameRate method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_encodedframerate, wmp/IWMPNetwork::get_encodedFrameRate
-ms.topic: method
 f1_keywords:
 - wmp/IWMPNetwork.get_encodedFrameRate
 dev_langs:

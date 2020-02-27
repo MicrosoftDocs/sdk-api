@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: c00d28dc-5338-438f-9046-5ad54e845e9d
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetLocaleName method, IDWriteTextLayout.SetLocaleName, IDWriteTextLayout::SetLocaleName, SetLocaleName, SetLocaleName method [Direct Write], SetLocaleName method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetLocaleName, dwrite/IDWriteTextLayout::SetLocaleName
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextLayout.SetLocaleName
 dev_langs:

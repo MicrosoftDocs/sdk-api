@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 5a3b4267-43b4-44dc-abad-cb3f3d07f30e
 ms.date: 12/05/2018
 ms.keywords: '*PDD_CREATESURFACEDATA, DD_CREATESURFACEDATA, DD_CREATESURFACEDATA structure [Display Devices], ddrawint/DD_CREATESURFACEDATA, ddstrcts_bd51b416-f5b7-4a68-833b-7102de67488c.xml, display.dd_createsurfacedata'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_CREATESURFACEDATA
 dev_langs:

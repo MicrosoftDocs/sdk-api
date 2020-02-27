@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 25993059-a1a9-486f-97b3-fd240c8931dc
 ms.date: 12/05/2018
 ms.keywords: GetBIT, GetBIT method [Microsoft TV Technologies], GetBIT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetBIT method, IIsdbSiParser2.GetBIT, IIsdbSiParser2::GetBIT, dvbsiparser/IIsdbSiParser2::GetBIT, mstv.iisdbsiparser2_getbit
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbSiParser2.GetBIT
 dev_langs:

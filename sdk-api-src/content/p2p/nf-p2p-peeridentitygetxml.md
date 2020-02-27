@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 94172351-291e-461e-8c7f-0925c80df0c3
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityGetXML, PeerIdentityGetXML function [Peer Networking], p2p.peeridentitygetxml, p2p/PeerIdentityGetXML
-ms.topic: function
 f1_keywords:
 - p2p/PeerIdentityGetXML
 dev_langs:

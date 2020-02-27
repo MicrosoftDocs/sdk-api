@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU565.#ctor(float,float,float)
 ms.date: 12/05/2018
 ms.keywords: XMU565, XMU565 constructor [DirectX Math Support APIs], XMU565 constructor [DirectX Math Support APIs],XMU565 structure, XMU565 structure [DirectX Math Support APIs],XMU565 constructor, XMU565.XMU565, XMU565.XMU565(float,float,float), XMU565::XMU565, XMU565::XMU565(float,float,float), dxmath.xmu565_ctor_5
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMU565.XMU565
 dev_langs:

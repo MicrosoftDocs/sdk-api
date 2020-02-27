@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 8acbb1ac-100f-47b9-b8db-580d1a845946
 ms.date: 12/05/2018
 ms.keywords: IDVB_DIT, IDVB_DIT interface [Microsoft TV Technologies], IDVB_DIT interface [Microsoft TV Technologies],described, IDVB_DITInterface, dvbsiparser/IDVB_DIT, mstv.idvb_dit
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IDVB_DIT
 dev_langs:

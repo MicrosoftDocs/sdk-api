@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 95e8c151-9aae-4930-824c-8809dfc07705
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced6, IWMReaderAdvanced6 interface [windows Media Format], IWMReaderAdvanced6 interface [windows Media Format],described, IWMReaderAdvanced6Interface, wmformat.iwmreaderadvanced6, wmsdkidl/IWMReaderAdvanced6
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced6
 dev_langs:

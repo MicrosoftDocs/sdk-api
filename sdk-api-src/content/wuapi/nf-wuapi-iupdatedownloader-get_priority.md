@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: d9dbaabe-7769-4a1b-8540-401b1caba372
 ms.date: 12/05/2018
 ms.keywords: IUpdateDownloader interface [Windows Update Agent],Priority property, IUpdateDownloader.Priority, IUpdateDownloader.get_Priority, IUpdateDownloader::Priority, IUpdateDownloader::get_Priority, IUpdateDownloader::put_Priority, Priority property [Windows Update Agent], Priority property [Windows Update Agent],IUpdateDownloader interface, get_Priority, wua.iupdatedownloader_priority, wuapi/IUpdateDownloader::Priority, wuapi/IUpdateDownloader::get_Priority, wuapi/IUpdateDownloader::put_Priority
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateDownloader.Priority
 dev_langs:

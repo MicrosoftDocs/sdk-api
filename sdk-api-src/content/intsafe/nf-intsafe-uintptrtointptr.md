@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c922b108-47af-46fe-9753-66cad96ec352
 ms.date: 12/05/2018
 ms.keywords: SizeTToIntPtr, SizeTToPtrdiffT, UIntPtrToIntPtr, UIntPtrToIntPtr function [Windows Shell], _shell_UIntPtrToIntPtr, intsafe/UIntPtrToIntPtr, shell.UIntPtrToIntPtr
-ms.topic: function
 f1_keywords:
 - intsafe/UIntPtrToIntPtr
 dev_langs:

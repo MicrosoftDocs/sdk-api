@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: b131b276-4254-4a08-8121-3a86e28d08cb
 ms.date: 12/05/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],_NewEnum property, IStringCollection._NewEnum, IStringCollection.get__NewEnum, IStringCollection::_NewEnum, IStringCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IStringCollection interface, get__NewEnum, wua.istringcollection__newenum, wuapi/IStringCollection::_NewEnum, wuapi/IStringCollection::get__NewEnum
-ms.topic: method
 f1_keywords:
 - wuapi/IStringCollection._NewEnum
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="http://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a> interface that can be used to enumerate the collection.
+Gets an <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVARIANT</a> interface that can be used to enumerate the collection.
 
 This property is read-only.
 

@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_136u.htm
 ms.date: 12/05/2018
 ms.keywords: CopyTiff, CopyTiff method [Fax Service], CopyTiff method [Fax Service],IFaxIncomingJob interface, IFaxIncomingJob interface [Fax Service],CopyTiff method, IFaxIncomingJob.CopyTiff, IFaxIncomingJob::CopyTiff, _mfax_faxincomingjob.copytiff, fax._mfax_faxincomingjob_copytiff, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_copytiff_cpp, faxcomex/IFaxIncomingJob::CopyTiff
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxIncomingJob.CopyTiff
 dev_langs:

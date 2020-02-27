@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 830A5D30-68FF-4226-AC7C-7B1C5F7BA367
 ms.date: 12/05/2018
 ms.keywords: FinishAllStoryboards, FinishAllStoryboards method [Windows Animation], FinishAllStoryboards method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],FinishAllStoryboards method, IUIAnimationManager2.FinishAllStoryboards, IUIAnimationManager2::FinishAllStoryboards, uianimation.iuianimationmanager2_finishallstoryboards, uianimation/IUIAnimationManager2::FinishAllStoryboards
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationManager2.FinishAllStoryboards
 dev_langs:

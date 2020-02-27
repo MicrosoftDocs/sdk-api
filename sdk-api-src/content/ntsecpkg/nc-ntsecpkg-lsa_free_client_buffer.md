@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: c3a92039-7fb1-49e9-8e7a-0c902770543e
 ms.date: 12/05/2018
 ms.keywords: FreeClientBuffer, FreeClientBuffer callback function [Security], LSA_FREE_CLIENT_BUFFER, LSA_FREE_CLIENT_BUFFER callback, _lsa_freeclientbuffer, ntsecpkg/FreeClientBuffer, security.freeclientbuffer
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/FreeClientBuffer
 dev_langs:

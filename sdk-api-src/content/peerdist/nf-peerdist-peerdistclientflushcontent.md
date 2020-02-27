@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: bb77499b-520b-4def-97d8-504983953d4b
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientFlushContent, PeerDistClientFlushContent function [Peer Networking], p2p.peerdistclientflushcontent, peerdist/PeerDistClientFlushContent
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistClientFlushContent
 dev_langs:
@@ -80,7 +79,7 @@ Value to be returned through the <i>lpCompletionKey</i> parameter of the <a href
 
 ### -param lpOverlapped [in]
 
-Pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure. <b>Offset</b> and <b>OffsetHigh</b> are reserved and must be zero.
+Pointer to an <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure. <b>Offset</b> and <b>OffsetHigh</b> are reserved and must be zero.
 
 
 ## -returns

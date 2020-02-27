@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charnext.htm
 ms.date: 12/05/2018
 ms.keywords: CharNext, CharNext function [Menus and Other Resources], CharNextA, CharNextW, _win32_CharNext, _win32_charnext_cpp, menurc.charnext, winui._win32_charnext, winuser/CharNext, winuser/CharNextA, winuser/CharNextW
-ms.topic: function
 f1_keywords:
 - winuser/CharNext
 dev_langs:

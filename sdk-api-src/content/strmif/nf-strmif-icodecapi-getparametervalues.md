@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7f6c7db8-f71f-4ea7-8584-0df6e28c0fc9
 ms.date: 12/05/2018
 ms.keywords: GetParameterValues, GetParameterValues method [DirectShow], GetParameterValues method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetParameterValues method, ICodecAPI.GetParameterValues, ICodecAPI::GetParameterValues, ICodecAPIGetParameterValues, dshow.icodecapi_getparametervalues, strmif/ICodecAPI::GetParameterValues
-ms.topic: method
 f1_keywords:
 - strmif/ICodecAPI.GetParameterValues
 dev_langs:

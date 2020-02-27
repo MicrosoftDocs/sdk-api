@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 48275ca5-f9d1-42cb-b218-f51488a91bf8
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATPROPSETSTG interface [Structured Storage],Skip method, IEnumSTATPROPSETSTG.Skip, IEnumSTATPROPSETSTG::Skip, Skip, Skip method [Structured Storage], Skip method [Structured Storage],IEnumSTATPROPSETSTG interface, propidlbase/IEnumSTATPROPSETSTG::Skip, stg.ienumstatpropsetstg_skip
-ms.topic: method
 f1_keywords:
 - propidl/IEnumSTATPROPSETSTG.Skip
 dev_langs:

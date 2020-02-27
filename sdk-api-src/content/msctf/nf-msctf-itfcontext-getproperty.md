@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: e5d76443-f767-47fb-be3a-8cbac224d299
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Text Services Framework], GetProperty method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetProperty method, ITfContext.GetProperty, ITfContext::GetProperty, _tsf_itfcontext_getproperty_ref, msctf/ITfContext::GetProperty, tsf.itfcontext_getproperty
-ms.topic: method
 f1_keywords:
 - msctf/ITfContext.GetProperty
 dev_langs:

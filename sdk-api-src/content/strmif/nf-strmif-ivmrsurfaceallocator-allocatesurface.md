@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6783df91-c92f-45d0-b299-16cdbc4bb630
 ms.date: 12/05/2018
 ms.keywords: AllocateSurface, AllocateSurface method [DirectShow], AllocateSurface method [DirectShow],IVMRSurfaceAllocator interface, IVMRSurfaceAllocator interface [DirectShow],AllocateSurface method, IVMRSurfaceAllocator.AllocateSurface, IVMRSurfaceAllocator::AllocateSurface, IVMRSurfaceAllocatorAllocateSurface, dshow.ivmrsurfaceallocator_allocatesurface, strmif/IVMRSurfaceAllocator::AllocateSurface
-ms.topic: method
 f1_keywords:
 - strmif/IVMRSurfaceAllocator.AllocateSurface
 dev_langs:
@@ -69,7 +68,7 @@ An application-defined DWORD_PTR cookie that uniquely identifies this instance o
 
 ### -param lpAllocInfo [in]
 
-Specifies the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrallocationinfo">VMRALLOCATIONINFO</a> structure. See Remarks.
+Specifies the [VMRALLOCATIONINFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrallocationinfo) structure. See Remarks.
 
 
 ### -param lpdwActualBuffers [in]

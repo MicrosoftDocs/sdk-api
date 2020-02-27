@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 8d52ad73-0172-4d1d-b625-39629e7f5823
 ms.date: 12/05/2018
 ms.keywords: APCProc, APCProc callback, APCProc callback function, PAPCFUNC, _win32_apcproc, base.apcproc, winnt/APCProc
-ms.topic: callback
 f1_keywords:
 - winnt/APCProc
 dev_langs:
@@ -69,7 +68,7 @@ An application-defined completion routine. Specify this address when calling the
 
 
 
-#### - dwParam [in]
+#### - Parameter [in]
 
 The data passed to the function using the <i>dwData</i> parameter of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queueuserapc">QueueUserAPC</a> function.

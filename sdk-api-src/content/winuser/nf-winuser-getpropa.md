@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\getprop.htm
 ms.date: 12/05/2018
 ms.keywords: GetProp, GetProp function [Windows and Messages], GetPropA, GetPropW, _win32_GetProp, _win32_getprop_cpp, winmsg.getprop, winui._win32_getprop, winuser/GetProp, winuser/GetPropA, winuser/GetPropW
-ms.topic: function
 f1_keywords:
 - winuser/GetProp
 dev_langs:
@@ -118,6 +117,10 @@ If the property list contains the string, the return value is the associated dat
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-properties">Window Properties</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/shobjidl_core/nf-shobjidl_core-itaskbarlist2-markfullscreenwindow">ITaskbarList2::MarkFullscreenWindow</a>
  
 
  

@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: e6bc4d24-5495-44cc-81ee-e5213095f3e4
 ms.date: 12/05/2018
 ms.keywords: HttpWaitForDemandStart, HttpWaitForDemandStart function [HTTP], http.httpwaitfordemandstart, http/HttpWaitForDemandStart
-ms.topic: function
 f1_keywords:
 - http/HttpWaitForDemandStart
 dev_langs:

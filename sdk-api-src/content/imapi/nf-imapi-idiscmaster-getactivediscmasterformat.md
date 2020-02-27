@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 37677090-fa1d-4515-9b01-13bfa55d8ebb
 ms.date: 12/05/2018
 ms.keywords: GetActiveDiscMasterFormat, GetActiveDiscMasterFormat method [IMAPI], GetActiveDiscMasterFormat method [IMAPI],IDiscMaster interface, IDiscMaster interface [IMAPI],GetActiveDiscMasterFormat method, IDiscMaster.GetActiveDiscMasterFormat, IDiscMaster::GetActiveDiscMasterFormat, _win32_idiscmaster_getactivediscmasterformat, base.idiscmaster_getactivediscmasterformat, imapi.idiscmaster_getactivediscmasterformat, imapi/IDiscMaster::GetActiveDiscMasterFormat
-ms.topic: method
 f1_keywords:
 - imapi/IDiscMaster.GetActiveDiscMasterFormat
 dev_langs:

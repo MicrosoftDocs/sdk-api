@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 67ec8355-f902-4b71-972f-94e403701f96
 ms.date: 12/05/2018
 ms.keywords: SHEnumerateUnreadMailAccounts, SHEnumerateUnreadMailAccounts function [Windows Shell], SHEnumerateUnreadMailAccountsA, SHEnumerateUnreadMailAccountsW, _shell_SHEnumerateUnreadMailAccounts, shell.SHEnumerateUnreadMailAccounts, shellapi/SHEnumerateUnreadMailAccounts, shellapi/SHEnumerateUnreadMailAccountsA, shellapi/SHEnumerateUnreadMailAccountsW
-ms.topic: function
 f1_keywords:
 - shellapi/SHEnumerateUnreadMailAccounts
 dev_langs:

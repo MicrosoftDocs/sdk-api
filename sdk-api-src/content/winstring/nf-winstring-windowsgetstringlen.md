@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 80B659DF-C760-4D9E-B779-144A5B8FEA59
 ms.date: 12/05/2018
 ms.keywords: WindowsGetStringLen, WindowsGetStringLen function [Windows Runtime], winrt.windowsgetstringlen, winstring/WindowsGetStringLen
-ms.topic: function
 f1_keywords:
 - winstring/WindowsGetStringLen
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 0e098b5a-e249-43ad-a6d8-2509b6562453
 ms.date: 12/05/2018
 ms.keywords: '*LPLOGPEN, *NPLOGPEN, *PLOGPEN, LOGPEN, LOGPEN structure [Windows GDI], PLOGPEN, PLOGPEN structure pointer [Windows GDI], _win32_LOGPEN_str, gdi.logpen, wingdi/LOGPEN, wingdi/PLOGPEN'
-ms.topic: struct
 f1_keywords:
 - wingdi/LOGPEN
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 3292484b-8eff-438d-b989-b58ae323872b
 ms.date: 12/05/2018
 ms.keywords: StgCreateDocfile, StgCreateDocfile function [Structured Storage], _stg_stgcreatedocfile, coml2api/StgCreateDocfile, stg.stgcreatedocfile
-ms.topic: function
 f1_keywords:
 - coml2api/StgCreateDocfile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 9d4a70cf-7436-4f4a-9a7c-9127e3829ba8
 ms.date: 12/05/2018
 ms.keywords: GetActiveSourceBuffers, GetActiveSourceBuffers method [Media Foundation], GetActiveSourceBuffers method [Media Foundation],IMFMediaSourceExtension interface, IMFMediaSourceExtension interface [Media Foundation],GetActiveSourceBuffers method, IMFMediaSourceExtension.GetActiveSourceBuffers, IMFMediaSourceExtension::GetActiveSourceBuffers, mf.imfmediasourceextension_getactivesourcebuffers, mfmediaengine/IMFMediaSourceExtension::GetActiveSourceBuffers
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaSourceExtension.GetActiveSourceBuffers
 dev_langs:

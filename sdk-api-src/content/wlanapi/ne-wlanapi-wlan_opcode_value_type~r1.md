@@ -3,7 +3,6 @@ UID: NE:wlanapi._WLAN_OPCODE_VALUE_TYPE~r1
 title: WLAN_OPCODE_VALUE_TYPE
 ms.date: 01/30/19
 ms.keywords: _WLAN_OPCODE_VALUE_TYPE, WLAN_OPCODE_VALUE_TYPE
-ms.topic: language-reference
 f1_keywords:
 - wlanapi/_WLAN_OPCODE_VALUE_TYPE
 dev_langs:

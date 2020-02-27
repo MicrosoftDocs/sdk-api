@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 161cd457-9fab-4ebb-b8b8-f87326d67c66
 ms.date: 12/05/2018
 ms.keywords: 161cd457-9fab-4ebb-b8b8-f87326d67c66, GetStyleCount, GetStyleCount method [Media Foundation], GetStyleCount method [Media Foundation],IMFSAMIStyle interface, IMFSAMIStyle interface [Media Foundation],GetStyleCount method, IMFSAMIStyle.GetStyleCount, IMFSAMIStyle::GetStyleCount, mf.imfsamistyle_getstylecount, mfidl/IMFSAMIStyle::GetStyleCount
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSAMIStyle.GetStyleCount
 dev_langs:

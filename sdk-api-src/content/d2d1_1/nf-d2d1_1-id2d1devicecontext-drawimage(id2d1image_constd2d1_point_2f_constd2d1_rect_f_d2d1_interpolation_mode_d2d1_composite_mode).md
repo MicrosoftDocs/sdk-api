@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: c41d8a79-280a-451e-b07b-f904d07da5c7
 ms.date: 12/05/2018
 ms.keywords: DrawImage, DrawImage method [Direct2D], DrawImage method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],DrawImage method, ID2D1DeviceContext.DrawImage, ID2D1DeviceContext::DrawImage, ID2D1DeviceContext::DrawImage(ID2D1Image,const D2D1_POINT_2F,const D2D1_RECT_F,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE), d2d1_1/ID2D1DeviceContext::DrawImage, direct2d.id2d1devicecontext_drawimage
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1DeviceContext.DrawImage
 dev_langs:

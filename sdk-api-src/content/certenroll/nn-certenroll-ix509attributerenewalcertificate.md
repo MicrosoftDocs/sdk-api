@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: fc432a7a-6ef7-4359-bb53-1ed5df6bc0ab
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeRenewalCertificate, IX509AttributeRenewalCertificate interface [Security], IX509AttributeRenewalCertificate interface [Security],described, certenroll/IX509AttributeRenewalCertificate, security.ix509attributerenewalcertificate
-ms.topic: interface
 f1_keywords:
 - certenroll/IX509AttributeRenewalCertificate
 dev_langs:

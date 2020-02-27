@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: d505fc34-9b6d-417a-a53e-e74773dcc8a4
 ms.date: 12/05/2018
 ms.keywords: IPortableDevice interface [Windows Portable Devices SDK],Open method, IPortableDevice.Open, IPortableDevice::Open, IPortableDeviceOpen, Open, Open method [Windows Portable Devices SDK], Open method [Windows Portable Devices SDK],IPortableDevice interface, portabledeviceapi/IPortableDevice::Open, wpdsdk.iportabledevice_open
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDevice.Open
 dev_langs:

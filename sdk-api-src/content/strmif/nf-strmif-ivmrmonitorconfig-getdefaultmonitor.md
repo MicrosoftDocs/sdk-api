@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 354b7f6e-35f8-4824-b5b5-24a37166462b
 ms.date: 12/05/2018
 ms.keywords: GetDefaultMonitor, GetDefaultMonitor method [DirectShow], GetDefaultMonitor method [DirectShow],IVMRMonitorConfig interface, IVMRMonitorConfig interface [DirectShow],GetDefaultMonitor method, IVMRMonitorConfig.GetDefaultMonitor, IVMRMonitorConfig::GetDefaultMonitor, IVMRMonitorConfigGetDefaultMonitor, dshow.ivmrmonitorconfig_getdefaultmonitor, strmif/IVMRMonitorConfig::GetDefaultMonitor
-ms.topic: method
 f1_keywords:
 - strmif/IVMRMonitorConfig.GetDefaultMonitor
 dev_langs:
@@ -64,7 +63,7 @@ The <code>GetDefaultMonitor</code> method retrieves the default monitor that all
 
 ### -param pGUID [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrguid">VMRGUID</a> structure that identifies the default monitor on the system.
+Pointer to a [VMRGUID](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrguid) structure that identifies the default monitor on the system.
 
 
 ## -returns

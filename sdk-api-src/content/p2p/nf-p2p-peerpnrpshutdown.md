@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: e617fb5b-ace2-46b4-b165-4cd9cf891ac7
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpShutdown, PeerPnrpShutdown function [Peer Networking], p2p.peerpnrpshutdown, p2p/PeerPnrpShutdown
-ms.topic: function
 f1_keywords:
 - p2p/PeerPnrpShutdown
 dev_langs:

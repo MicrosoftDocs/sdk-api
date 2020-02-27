@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2b9e9c0b-ddf4-4a95-a743-004a7575bbfa
 ms.date: 12/05/2018
 ms.keywords: Int8Add, Int8Add function [Windows Shell], intsafe/Int8Add, shell.Int8Add
-ms.topic: function
 f1_keywords:
 - intsafe/Int8Add
 dev_langs:

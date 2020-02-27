@@ -7,7 +7,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangestructures\ddeack.htm
 ms.date: 12/05/2018
 ms.keywords: DDEACK, DDEACK structure [Data Exchange], _win32_DDEACK_str, _win32_ddeack_str_cpp, dataxchg.ddeack, dde/DDEACK, winui._win32_ddeack_str
-ms.topic: struct
 f1_keywords:
 - dde/DDEACK
 dev_langs:

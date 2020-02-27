@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\dlgdirselectex.htm
 ms.date: 12/05/2018
 ms.keywords: DlgDirSelectEx, DlgDirSelectEx function [Windows Controls], DlgDirSelectExA, DlgDirSelectExW, _win32_DlgDirSelectEx, _win32_DlgDirSelectEx_cpp, controls.DlgDirSelectEx, controls._win32_DlgDirSelectEx, winuser/DlgDirSelectEx, winuser/DlgDirSelectExA, winuser/DlgDirSelectExW
-ms.topic: function
 f1_keywords:
 - winuser/DlgDirSelectEx
 dev_langs:
@@ -116,7 +115,7 @@ If the string is as long or longer than the buffer, the buffer will contain the 
 <b>DlgDirSelectEx</b> sends <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-getcursel">LB_GETCURSEL</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-gettext">LB_GETTEXT</a> messages to the list box. The function does not allow more than one filename to be returned from a list box. The list box must not be a multiple-selection list box. If it is, this function does not return a zero value and 
 				<i>lpString</i> remains unchanged. 
 
-<b>Windows 95 or later</b>: <b>DlgDirSelectExW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="http://go.microsoft.com/fwlink/p/?linkid=198351">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
+<b>Windows 95 or later</b>: <b>DlgDirSelectExW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="https://msdn.microsoft.com/goglobal/bb688166.aspx">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
 
 
 #### Examples

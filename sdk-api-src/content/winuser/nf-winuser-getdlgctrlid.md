@@ -7,7 +7,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getdlgctrlid.htm
 ms.date: 12/05/2018
 ms.keywords: GetDlgCtrlID, GetDlgCtrlID function [Dialog Boxes], _win32_GetDlgCtrlID, _win32_getdlgctrlid_cpp, dlgbox.getdlgctrlid, winui._win32_getdlgctrlid, winuser/GetDlgCtrlID
-ms.topic: function
 f1_keywords:
 - winuser/GetDlgCtrlID
 dev_langs:

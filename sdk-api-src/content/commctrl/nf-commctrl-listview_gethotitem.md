@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gethotitem.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_GetHotItem, ListView_GetHotItem macro [Windows Controls], _win32_ListView_GetHotItem, _win32_ListView_GetHotItem_cpp, commctrl/ListView_GetHotItem, controls.ListView_GetHotItem, controls._win32_ListView_GetHotItem
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_GetHotItem
 dev_langs:

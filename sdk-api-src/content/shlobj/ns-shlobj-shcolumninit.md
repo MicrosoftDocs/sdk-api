@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: eebe47c8-b3ee-4316-b578-5404ed8f7920
 ms.date: 12/05/2018
 ms.keywords: '*LPSHCOLUMNINIT, LPSHCOLUMNINFO, LPSHCOLUMNINFO structure pointer [Windows Shell], SHCOLUMNINIT, SHCOLUMNINIT structure [Windows Shell], _win32_SHCOLUMNINIT_str, shell.SHCOLUMNINIT_str, shlobj/LPSHCOLUMNINFO, shlobj/SHCOLUMNINIT'
-ms.topic: struct
 f1_keywords:
 - shlobj/SHCOLUMNINIT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: e3cb8428-98d8-4bc3-926c-baa7cbf5d679
 ms.date: 12/05/2018
 ms.keywords: WSCRemoveQOSTemplate, WSCRemoveQOSTemplate function [Winsock], winsock.wscremoveqostemplate, ws2spi/WSCRemoveQOSTemplate
-ms.topic: function
 f1_keywords:
 - ws2spi/WSCRemoveQOSTemplate
 dev_langs:
@@ -68,7 +67,7 @@ The globally unique identifier (GUID) for the quality of service (QoS) provider.
 
 ### -param QosName [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structure that contains the  QoS name of the template to remove.
+A pointer to a <a href="/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structure that contains the  QoS name of the template to remove.
 
 
 ## -returns
@@ -86,7 +85,7 @@ If
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -97,7 +96,7 @@ One or more of the arguments is not in a valid part of the user address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -108,7 +107,7 @@ One or more of the arguments are invalid. This error is returned if the if QoS p
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -119,7 +118,7 @@ One or more of the arguments are invalid. This error is returned if the if QoS p
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -130,7 +129,7 @@ A nonrecoverable error occurred. This error is returned under several conditions
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASYSCALLFAILURE</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASYSCALLFAILURE</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -141,7 +140,7 @@ A nonrecoverable error occurred. This error is returned under several conditions
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -160,7 +159,7 @@ A nonrecoverable error occurred. This error is returned under several conditions
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallqostemplate">WSCInstallQOSTemplate</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallqostemplate">WSCInstallQOSTemplate</a>
  
 
  

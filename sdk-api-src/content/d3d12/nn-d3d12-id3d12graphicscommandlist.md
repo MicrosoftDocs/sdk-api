@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 1BF282A7-F6D4-43A9-BDAD-D877564A1C6B
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,described, d3d12/ID3D12GraphicsCommandList, direct3d12.id3d12graphicscommandlist
-ms.topic: interface
 f1_keywords:
 - d3d12/ID3D12GraphicsCommandList
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 2ecbf165-0918-489c-8e70-b48c31263aed
 ms.date: 12/05/2018
 ms.keywords: MI_Instance_Destruct, MI_Instance_Destruct function [Windows Management Infrastructure (MI)], mi/MI_Instance_Destruct, wmi_v2.mi_instance_destruct
-ms.topic: function
 f1_keywords:
 - mi/MI_Instance_Destruct
 dev_langs:

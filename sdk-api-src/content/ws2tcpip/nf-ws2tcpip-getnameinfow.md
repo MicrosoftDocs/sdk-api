@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 5630a49a-c182-440c-ad54-6ff3ba4274c6
 ms.date: 12/05/2018
 ms.keywords: GetNameInfoW, GetNameInfoW function [Winsock], winsock.getnameinfow, ws2tcpip/GetNameInfoW
-ms.topic: function
 f1_keywords:
 - ws2tcpip/GetNameInfoW
 dev_langs:
@@ -221,7 +220,7 @@ Setting the <b>NI_NUMERICHOST</b> flag returns the numeric form of the host name
 Setting the <b>NI_NUMERICSERV</b> flag returns the port number of the service instead of its name. Also, if  a host name is not found for an IP address (127.0.0.2, for example), the hostname is returned as the  IP address.
 
 On Windows Vista and later, if <b>NI_NUMERICSERV</b> is not specified in the <i>flags</i> parameter, and the port number contained in <b>sockaddr</b> structure pointed to by the <i>sa</i>  parameter does not resolve to a well known service, the <b>GetNameInfoW</b> function returns the numeric form of the
-   service address (the port number) as a numeric string. When <b>NI_NUMERICSERV</b> is specified, the port number is returned as a numeric string. This behavior is specified in section 6.2 of RFC 3493. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84415">www.ietf.org/rfc/rfc3493.txt</a>
+   service address (the port number) as a numeric string. When <b>NI_NUMERICSERV</b> is specified, the port number is returned as a numeric string. This behavior is specified in section 6.2 of RFC 3493. For more information, see <a href="https://www.ietf.org/rfc/rfc3493.txt">www.ietf.org/rfc/rfc3493.txt</a>
 
 On Windows Server 2003 and earlier, if <b>NI_NUMERICSERV</b> is not specified in the <i>flags</i> parameter and the port number contained in sockaddr structure pointed to by the <i>sa</i>  parameter does not resolve to a well known service, the <b>GetNameInfoW</b> function fails. When <b>NI_NUMERICSERV</b> is specified, the port number is returned as a numeric string.
 

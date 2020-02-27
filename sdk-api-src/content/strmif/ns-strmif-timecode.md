@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 652be387-aa5e-4077-8b2d-b08bc40b31bb
 ms.date: 12/05/2018
 ms.keywords: '*PTIMECODE, ED_FORMAT_SMPTE_24, ED_FORMAT_SMPTE_25, ED_FORMAT_SMPTE_30, ED_FORMAT_SMPTE_30DROP, TIMECODE, TIMECODE structure [DirectShow], TIMECODEStructure, dshow.timecode, strmif/TIMECODE, tagTIMECODE'
-ms.topic: struct
 f1_keywords:
 - strmif/TIMECODE
 dev_langs:

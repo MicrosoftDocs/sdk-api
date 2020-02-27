@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: aaa13ec1-d79c-4458-9340-3cc42bbcd948
 ms.date: 12/05/2018
 ms.keywords: CreateLoadBalanceResultObject, CreateLoadBalanceResultObject method [Remote Desktop Services], CreateLoadBalanceResultObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateLoadBalanceResultObject method, ITsSbProvider.CreateLoadBalanceResultObject, ITsSbProvider::CreateLoadBalanceResultObject, sbtsv/ITsSbProvider::CreateLoadBalanceResultObject, termserv.itssbprovider_createloadbalanceresultobject
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbProvider.CreateLoadBalanceResultObject
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 0d21d9a0-1a7c-4f4e-9c9d-36a0d30ea63f
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],UpdateDeviceComplete method, IWMPContentPartnerCallback.UpdateDeviceComplete, IWMPContentPartnerCallback::UpdateDeviceComplete, IWMPContentPartnerCallbackUpdateDeviceComplete, UpdateDeviceComplete, UpdateDeviceComplete method [Windows Media Player], UpdateDeviceComplete method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::UpdateDeviceComplete, wmp.iwmpcontentpartnercallback_updatedevicecomplete
-ms.topic: method
 f1_keywords:
 - contentpartner/IWMPContentPartnerCallback.UpdateDeviceComplete
 dev_langs:

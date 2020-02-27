@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2f2203bb-9367-4713-8369-06002a5842e9
 ms.date: 12/05/2018
 ms.keywords: IMSVidOutputDevices interface [Microsoft TV Technologies],get__NewEnum method, IMSVidOutputDevices.get__NewEnum, IMSVidOutputDevices::get__NewEnum, IMSVidOutputDevicesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IMSVidOutputDevices interface, mstv.imsvidoutputdevices_get__newenum, segment/IMSVidOutputDevices::get__NewEnum
-ms.topic: method
 f1_keywords:
 - segment/IMSVidOutputDevices.get__NewEnum
 dev_langs:

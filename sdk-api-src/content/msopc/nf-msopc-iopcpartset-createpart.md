@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 8c5de7ac-f51c-42f2-9068-8e9ede86ad97
 ms.date: 12/05/2018
 ms.keywords: CreatePart, CreatePart method [Open Packaging Conventions], CreatePart method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],CreatePart method, IOpcPartSet.CreatePart, IOpcPartSet::CreatePart, msopc/IOpcPartSet::CreatePart, opc.iopcpartset_createpart
-ms.topic: method
 f1_keywords:
 - msopc/IOpcPartSet.CreatePart
 dev_langs:
@@ -146,7 +145,7 @@ A part with the specified part name already exists in the current package.
 </dl>
 </td>
 <td width="60%">
-A content type does not conform to the rules for a valid media type, specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=143979">RFC 2616: HTTP/1.1</a> (http://go.microsoft.com/fwlink/p/?linkid=143979) and the <i>OPC</i>.
+A content type does not conform to the rules for a valid media type, specified in <a href="https://www.w3.org/Protocols/rfc2616/rfc2616.html">RFC 2616: HTTP/1.1</a> (https://go.microsoft.com/fwlink/p/?linkid=143979) and the <i>OPC</i>.
 
 </td>
 </tr>
@@ -158,7 +157,7 @@ A content type does not conform to the rules for a valid media type, specified i
 </dl>
 </td>
 <td width="60%">
-Either the content type of a part differed from the expected content type (specified in the OPC, <a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 Part 2</a>), or the part content did not match the part's  content type.
+Either the content type of a part differed from the expected content type (specified in the OPC, <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 Part 2</a>), or the part content did not match the part's  content type.
 
 </td>
 </tr>
@@ -221,7 +220,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
 
 
@@ -265,7 +264,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=143979">RFC 2616: HTTP/1.1</a>
+<a href="https://www.w3.org/Protocols/rfc2616/rfc2616.html">RFC 2616: HTTP/1.1</a>
 
 
 

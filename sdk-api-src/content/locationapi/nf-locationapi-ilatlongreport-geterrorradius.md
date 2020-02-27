@@ -7,7 +7,6 @@ tech.root: locationapi
 ms.assetid: cb0941da-607d-4082-ac8c-91d2edafa8ab
 ms.date: 12/05/2018
 ms.keywords: GetErrorRadius, GetErrorRadius method [WinLocation], GetErrorRadius method [WinLocation],ILatLongReport interface, ILatLongReport interface [WinLocation],GetErrorRadius method, ILatLongReport.GetErrorRadius, ILatLongReport::GetErrorRadius, WinLocation_COM_Ref.ilatlongreport_geterrorradius, locationapi/ILatLongReport::GetErrorRadius
-ms.topic: method
 f1_keywords:
 - locationapi/ILatLongReport.GetErrorRadius
 dev_langs:

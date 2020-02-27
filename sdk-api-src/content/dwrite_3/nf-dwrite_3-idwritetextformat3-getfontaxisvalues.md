@@ -5,7 +5,6 @@ description: Retrieves the list of font axis values on the format.
 tech.root: DirectWrite
 ms.date: 09/17/2019
 ms.keywords: IDWriteTextFormat3 interface [Direct Write],GetFontAxisValues method, IDWriteTextFormat3.GetFontAxisValues, IDWriteTextFormat3::GetFontAxisValues, GetFontAxisValues, GetFontAxisValues method [Direct Write], GetFontAxisValues method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_getfontaxisvalues, dwrite_3/IDWriteTextFormat3::GetFontAxisValues
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteTextFormat3.GetFontAxisValues
 dev_langs:

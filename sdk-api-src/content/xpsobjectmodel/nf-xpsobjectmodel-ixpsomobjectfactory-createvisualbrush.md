@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: ad19841a-629f-4127-a6ea-890168e0c53c
 ms.date: 12/05/2018
 ms.keywords: CreateVisualBrush, CreateVisualBrush method [XPS Documents and Packaging], CreateVisualBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateVisualBrush method, IXpsOMObjectFactory.CreateVisualBrush, IXpsOMObjectFactory::CreateVisualBrush, xps.ixpsomobjectfactory_createvisualbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateVisualBrush
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreateVisualBrush
 dev_langs:
@@ -194,7 +193,7 @@ xpsFactory->Release();
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

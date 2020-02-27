@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 372aa8fd-efbb-4196-9137-4a9581c69f6c
 ms.date: 12/05/2018
 ms.keywords: GetDocumentStructureResource, GetDocumentStructureResource method [XPS Documents and Packaging], GetDocumentStructureResource method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],GetDocumentStructureResource method, IXpsOMDocument.GetDocumentStructureResource, IXpsOMDocument::GetDocumentStructureResource, xps.ixpsomdocument_getdocumentstructureresource, xpsobjectmodel/IXpsOMDocument::GetDocumentStructureResource
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDocument.GetDocumentStructureResource
 dev_langs:
@@ -120,7 +119,7 @@ After loading and parsing the resource into the XPS OM, this method might return
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

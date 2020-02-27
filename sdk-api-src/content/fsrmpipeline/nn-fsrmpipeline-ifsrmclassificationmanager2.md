@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 6ff821e3-f0bd-4c66-8ced-edbbfbc8503b
 ms.date: 12/05/2018
 ms.keywords: IFsrmClassificationManager2, IFsrmClassificationManager2 interface [File Server Resource Manager], IFsrmClassificationManager2 interface [File Server Resource Manager],described, fs.ifsrmclassificationmanager2, fsrm.ifsrmclassificationmanager2, fsrmpipeline/IFsrmClassificationManager2
-ms.topic: interface
 f1_keywords:
 - fsrmpipeline/IFsrmClassificationManager2
 dev_langs:

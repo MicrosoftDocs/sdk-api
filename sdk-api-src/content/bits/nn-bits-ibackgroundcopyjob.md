@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 91dd1ae1-1740-4d95-a476-fc18aead1dc2
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], IBackgroundCopyJob interface [BITS],described, _drz_ibackgroundcopyjob, bits.ibackgroundcopyjob, bits/IBackgroundCopyJob
-ms.topic: interface
 f1_keywords:
 - bits/IBackgroundCopyJob
 dev_langs:

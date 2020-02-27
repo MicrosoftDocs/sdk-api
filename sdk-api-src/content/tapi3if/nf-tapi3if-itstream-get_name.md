@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: b3b81bd7-f99a-4cb1-8d60-6be8c1e68722
 ms.date: 12/05/2018
 ms.keywords: ITStream interface [TAPI 2.2],get_Name method, ITStream.get_Name, ITStream::get_Name, _tapi3_itstream_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITStream interface, tapi3.itstream_get_name, tapi3if/ITStream::get_Name
-ms.topic: method
 f1_keywords:
 - tapi3if/ITStream.get_Name
 dev_langs:

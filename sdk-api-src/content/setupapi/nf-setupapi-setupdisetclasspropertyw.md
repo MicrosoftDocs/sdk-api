@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 12402336-9894-4d0d-b176-c6907e0cdcd4
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetClassProperty, SetupDiSetClassProperty function [Device and Driver Installation], SetupDiSetClassPropertyA, SetupDiSetClassPropertyW, devinst.setupdisetclassproperty, di-rtns_c0346a11-5f87-4578-af46-5cb82e5b6101.xml, setupapi/SetupDiSetClassProperty, setupapi/SetupDiSetClassPropertyA, setupapi/SetupDiSetClassPropertyW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiSetClassProperty
 dev_langs:
@@ -109,7 +108,7 @@ One of the following values, which specifies whether the class is a device setup
 
 
 
-<b>SetupDiSetClassProperty</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+<b>SetupDiSetClassProperty</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 The following table includes some of the more common error codes that this function might log. 
 

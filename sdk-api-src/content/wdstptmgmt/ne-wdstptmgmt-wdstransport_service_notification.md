@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: d239241d-efe9-409b-8425-c71382b27c05
 ms.date: 12/05/2018
 ms.keywords: '*PWDSTRANSPORT_SERVICE_NOTIFICATION, WDSTRANSPORT_SERVICE_NOTIFICATION, WDSTRANSPORT_SERVICE_NOTIFICATION enumeration [Windows Deployment Services], WdsTptServiceNotifyReadSettings, WdsTptServiceNotifyUnknown, wds.wdstransport_service_notification, wdstptmgmt/WDSTRANSPORT_SERVICE_NOTIFICATION, wdstptmgmt/WdsTptServiceNotifyReadSettings, wdstptmgmt/WdsTptServiceNotifyUnknown'
-ms.topic: enum
 f1_keywords:
 - wdstptmgmt/WDSTRANSPORT_SERVICE_NOTIFICATION
 dev_langs:

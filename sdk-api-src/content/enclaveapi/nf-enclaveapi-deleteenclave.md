@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 04FCD129-3A3B-40EA-AD62-01C674CF2E61
 ms.date: 12/05/2018
 ms.keywords: DeleteEnclave, DeleteEnclave function, base.deleteenclave, enclaveapi/DeleteEnclave
-ms.topic: function
 f1_keywords:
 - enclaveapi/DeleteEnclave
 dev_langs:
@@ -26,8 +25,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Vertdll.lib
-req.dll: Vertdll.dll; Api-ms-win-core-enclave-l1-1-0.dll
+req.lib: onecore.lib
+req.dll: kernel32.dll; Api-ms-win-core-enclave-l1-1-0.dll
 req.irql: 
 topic_type:
 - APIRef
@@ -35,7 +34,7 @@ topic_type:
 api_type:
 - DllExport
 api_location:
-- Vertdll.dll
+- kernel32.dll
 - api-ms-win-core-enclave-l1-1-0.dll
 api_name:
 - DeleteEnclave

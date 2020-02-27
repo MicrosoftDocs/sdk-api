@@ -5,7 +5,6 @@ description: Retrieves the set of system fonts.
 tech.root: DirectWrite
 ms.date: 09/12/2019
 ms.keywords: IDWriteFactory6 interface [Direct Write],GetSystemFontSet method, IDWriteFactory6.GetSystemFontSet, IDWriteFactory6::GetSystemFontSet, GetSystemFontSet, GetSystemFontSet method [Direct Write], GetSystemFontSet method [Direct Write],IDWriteFactory6 interface, directwrite.idwritefactory6_getsystemfontset, dwrite_3/IDWriteFactory6::GetSystemFontSet
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFactory6.GetSystemFontSet
 dev_langs:

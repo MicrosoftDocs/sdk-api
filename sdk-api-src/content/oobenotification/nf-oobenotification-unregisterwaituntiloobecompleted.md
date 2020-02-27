@@ -7,7 +7,6 @@ tech.root: WNF
 ms.assetid: 966803DF-744A-430F-86C0-F6ACA754C603
 ms.date: 12/05/2018
 ms.keywords: UnregisterWaitUntilOOBECompleted, UnregisterWaitUntilOOBECompleted function, oobenotification/UnregisterWaitUntilOOBECompleted, windowssetupandmigration.unregisterwaituntiloobecompleted
-ms.topic: function
 f1_keywords:
 - oobenotification/UnregisterWaitUntilOOBECompleted
 dev_langs:
@@ -69,7 +68,7 @@ Handle to be unregistered.
 
 
 
-<b>TRUE</b> if the callback was successfully unregistered. Otherwise, <b>FALSE</b> is returned. If <b>FALSE</b>, <a href="http://go.microsoft.com/fwlink/p/?LinkID=329935">GetLastError</a> will retrieve extended error information.
+<b>TRUE</b> if the callback was successfully unregistered. Otherwise, <b>FALSE</b> is returned. If <b>FALSE</b>, <a href="https://msdn.microsoft.com/library/windows/desktop/ms679360(v=vs.85).aspx">GetLastError</a> will retrieve extended error information.
 
 
 

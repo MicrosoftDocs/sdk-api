@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 0a61751e-10e5-4f91-a0b2-8c1baf477653
 ms.date: 12/05/2018
 ms.keywords: WSAGetServiceClassNameByClassId, WSAGetServiceClassNameByClassId function [Winsock], WSAGetServiceClassNameByClassIdA, WSAGetServiceClassNameByClassIdW, _win32_wsagetserviceclassnamebyclassid_2, winsock.wsagetserviceclassnamebyclassid_2, winsock2/WSAGetServiceClassNameByClassId, winsock2/WSAGetServiceClassNameByClassIdA, winsock2/WSAGetServiceClassNameByClassIdW
-ms.topic: function
 f1_keywords:
 - winsock2/WSAGetServiceClassNameByClassId
 dev_langs:

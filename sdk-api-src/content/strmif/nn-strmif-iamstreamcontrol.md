@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 126c7ed7-acc0-4248-a3ab-c91c9f1c5cee
 ms.date: 12/05/2018
 ms.keywords: IAMStreamControl, IAMStreamControl interface [DirectShow], IAMStreamControl interface [DirectShow],described, IAMStreamControlInterface, dshow.iamstreamcontrol, strmif/IAMStreamControl
-ms.topic: interface
 f1_keywords:
 - strmif/IAMStreamControl
 dev_langs:

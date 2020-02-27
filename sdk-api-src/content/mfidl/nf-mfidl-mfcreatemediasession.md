@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 86b2b5ec-231c-4943-9add-1a5a60e72268
 ms.date: 12/05/2018
 ms.keywords: 86b2b5ec-231c-4943-9add-1a5a60e72268, MFCreateMediaSession, MFCreateMediaSession function [Media Foundation], mf.mfcreatemediasession, mfidl/MFCreateMediaSession
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreateMediaSession
 dev_langs:

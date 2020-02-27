@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 669ea684-5b00-4b60-8259-fad02cca572b
 ms.date: 12/05/2018
 ms.keywords: INetFwRule interface [ICS/ICF],Name property, INetFwRule.Name, INetFwRule.put_Name, INetFwRule::Name, INetFwRule::get_Name, INetFwRule::put_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwRule interface, ics.inetfwrule_name, netfw/INetFwRule::Name, netfw/INetFwRule::get_Name, netfw/INetFwRule::put_Name, put_Name
-ms.topic: method
 f1_keywords:
 - netfw/INetFwRule.Name
 dev_langs:

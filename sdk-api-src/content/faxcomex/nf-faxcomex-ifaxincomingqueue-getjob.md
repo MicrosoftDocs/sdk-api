@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6crm.htm
 ms.date: 12/05/2018
 ms.keywords: GetJob, GetJob method [Fax Service], GetJob method [Fax Service],IFaxIncomingQueue interface, IFaxIncomingQueue interface [Fax Service],GetJob method, IFaxIncomingQueue.GetJob, IFaxIncomingQueue::GetJob, _mfax_faxincomingqueue.getjob, fax._mfax_faxincomingqueue_cpp_mfax_faxincomingqueue_getjob_cpp, fax._mfax_faxincomingqueue_getjob, faxcomex/IFaxIncomingQueue::GetJob
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxIncomingQueue.GetJob
 dev_langs:

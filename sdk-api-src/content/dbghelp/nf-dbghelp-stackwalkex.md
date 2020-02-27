@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 87765e30-b444-4f68-b11f-1be73e0775fc
 ms.date: 12/05/2018
 ms.keywords: IMAGE_FILE_MACHINE_AMD64, IMAGE_FILE_MACHINE_I386, IMAGE_FILE_MACHINE_IA64, SYM_STKWALK_DEFAULT, SYM_STKWALK_FORCE_FRAMEPTR, StackWalkEx, StackWalkEx function, base.stackwalkex, dbghelp/StackWalkEx
-ms.topic: function
 f1_keywords:
 - dbghelp/StackWalkEx
 dev_langs:

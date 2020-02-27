@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 535f728d-6964-47b6-9913-7cd38356053d
 ms.date: 12/05/2018
 ms.keywords: SnmpFreeDescriptor, SnmpFreeDescriptor function [SNMP], _snmp_snmpfreedescriptor, snmp.snmpfreedescriptor, winsnmp/SnmpFreeDescriptor
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpFreeDescriptor
 dev_langs:

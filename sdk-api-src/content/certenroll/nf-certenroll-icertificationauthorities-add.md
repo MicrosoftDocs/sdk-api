@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 8a618b8b-9089-4f35-afd4-b11255a26ac9
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],Add method, ICertificationAuthorities.Add, ICertificationAuthorities::Add, certenroll/ICertificationAuthorities::Add, security.icertificationauthorities_add
-ms.topic: method
 f1_keywords:
 - certenroll/ICertificationAuthorities.Add
 dev_langs:

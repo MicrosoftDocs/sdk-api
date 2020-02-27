@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: EC9DA05A-D0C0-4642-8E49-9ED98B4F19B4
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESOURCE_FLAGS, D3D12_RESOURCE_FLAGS enumeration, D3D12_RESOURCE_FLAG_ALLOW_CROSS_ADAPTER, D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL, D3D12_RESOURCE_FLAG_ALLOW_RENDER_TARGET, D3D12_RESOURCE_FLAG_ALLOW_SIMULTANEOUS_ACCESS, D3D12_RESOURCE_FLAG_ALLOW_UNORDERED_ACCESS, D3D12_RESOURCE_FLAG_DENY_SHADER_RESOURCE, D3D12_RESOURCE_FLAG_NONE, D3D12_RESOURCE_FLAG_VIDEO_DECODE_REFERENCE_ONLY, d3d12/D3D12_RESOURCE_FLAGS, d3d12/D3D12_RESOURCE_FLAG_ALLOW_CROSS_ADAPTER, d3d12/D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL, d3d12/D3D12_RESOURCE_FLAG_ALLOW_RENDER_TARGET, d3d12/D3D12_RESOURCE_FLAG_ALLOW_SIMULTANEOUS_ACCESS, d3d12/D3D12_RESOURCE_FLAG_ALLOW_UNORDERED_ACCESS, d3d12/D3D12_RESOURCE_FLAG_DENY_SHADER_RESOURCE, d3d12/D3D12_RESOURCE_FLAG_NONE, d3d12/D3D12_RESOURCE_FLAG_VIDEO_DECODE_REFERENCE_ONLY, direct3d12.d3d12_resource_flags
-ms.topic: enum
 f1_keywords:
 - d3d12/D3D12_RESOURCE_FLAGS
 dev_langs:
@@ -144,14 +143,11 @@ Simultaneous access allows multiple readers and one writer, as long as the write
 
 However, applications should avoid setting this flag when multiple readers are not required during frequent, non-overlapping writes to textures. Use of this flag can compromise resource fences to perform waits, and prevents any compression being used with a resource.
 
-The following restrictions and interactions apply:
+These restrictions and interactions apply.
 
-
-<ul>
-<li>Cannot be used with D3D12_RESOURCE_DIMENSION_BUFFER; but buffers always have the properties represented by this flag.
-</li>
-<li>Cannot be used with MSAA textures.</li>
-</ul>
+- Can't be used with [D3D12_RESOURCE_DIMENSION_BUFFER](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_dimension); but buffers always have the properties represented by this flag.
+- Can't be used with MSAA textures.
+- Can't be used with [D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_flags).
 
 ### -field D3D12_RESOURCE_FLAG_VIDEO_DECODE_REFERENCE_ONLY
 

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 822ca3fe-8deb-4fe3-8b83-060eae69840c
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],Initialize method, ITTAPI.Initialize, ITTAPI::Initialize, Initialize, Initialize method [TAPI 2.2], Initialize method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_initialize, tapi3.ittapi_initialize, tapi3if/ITTAPI::Initialize
-ms.topic: method
 f1_keywords:
 - tapi3if/ITTAPI.Initialize
 dev_langs:

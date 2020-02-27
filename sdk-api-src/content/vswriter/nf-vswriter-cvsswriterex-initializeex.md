@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 08516a5e-b1ad-4256-9eee-261393b031e2
 ms.date: 12/05/2018
 ms.keywords: CVssWriterEx interface,InitializeEx method, CVssWriterEx.InitializeEx, CVssWriterEx::InitializeEx, InitializeEx, InitializeEx method, InitializeEx method,CVssWriterEx interface, base.cvsswriterex_initializeex, vswriter/CVssWriterEx::InitializeEx
-ms.topic: method
 f1_keywords:
 - vswriter/CVssWriterEx.InitializeEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0721298f-99c2-463b-8ffa-7527844dcab4
 ms.date: 12/05/2018
 ms.keywords: EvaluateNewWindow, EvaluateNewWindow method [Windows Shell], EvaluateNewWindow method [Windows Shell],INewWindowManager interface, INewWindowManager interface [Windows Shell],EvaluateNewWindow method, INewWindowManager.EvaluateNewWindow, INewWindowManager::EvaluateNewWindow, _shell_INewWindowManager_EvaluateNewWindow, shell.INewWindowManager_EvaluateNewWindow, shobjidl_core/INewWindowManager::EvaluateNewWindow
-ms.topic: method
 f1_keywords:
 - shobjidl_core/INewWindowManager.EvaluateNewWindow
 dev_langs:

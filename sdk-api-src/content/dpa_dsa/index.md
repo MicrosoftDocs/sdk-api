@@ -1,9 +1,10 @@
 ---
 UID: NA:dpa_dsa
+title: Dpa_Dsa.h header
 ms.assetid: 7e3c9fef-2a50-3900-9159-5f808500813e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: controls
 ---
 

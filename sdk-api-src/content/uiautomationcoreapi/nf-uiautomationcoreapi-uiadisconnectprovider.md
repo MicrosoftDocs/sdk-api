@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: D4CE0071-47C4-421D-A0F1-D6E2D9983838
 ms.date: 12/05/2018
 ms.keywords: UiaDisconnectProvider, UiaDisconnectProvider function [Windows Accessibility], uiautomationcoreapi/UiaDisconnectProvider, winauto.uiauto_UiaDisconnectProvider
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaDisconnectProvider
 dev_langs:
@@ -91,7 +90,7 @@ error code.
 
 This function cannot be called in response to a call to the <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-sendmessage">SendMessage</a> function. An application cannot make outbound Component Object Model (COM) calls in response to a call to <b>SendMessage</b>, and releasing a provider is typically an outbound COM call.  The <b>UiaDisconnectProvider</b> function returns RPC_E_CANTCALLOUT_ININPUTSYNCCALL if the function is called in response to a <b>SendMessage</b> call.  You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insendmessageex">InSendMessageEx</a> function to determine whether a particular message is being handled in response to a <b>SendMessage</b> call.
 
-For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=231683">BUG: RPC_E_CANTCALLOUT_ININPUTSYNCCALL Error When System Menu Is Shown in Taskbar</a> on the MSDN Support website.
+For more information, see <a href="https://support.microsoft.com/kb/198996">BUG: RPC_E_CANTCALLOUT_ININPUTSYNCCALL Error When System Menu Is Shown in Taskbar</a> on the MSDN Support website.
 
 An application that calls <b>UiaDisconnectProvider</b> should not respond to a re-entrant <a href="https://docs.microsoft.com/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message by returning a pointer to the provider that it is trying to disconnect.  If the application tries to disconnect a provider, but then calls the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiareturnrawelementprovider">UiaReturnRawElementProvider</a> function with that same provider during the disconnect attempt, the provider might not be fully disconnected.
 

@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 9c8da574-5bda-49f1-a6b6-c026639d6504
 ms.date: 12/05/2018
 ms.keywords: DUPLICATE_CLOSE_SOURCE, DUPLICATE_SAME_ACCESS, DuplicateHandle, DuplicateHandle function, _win32_duplicatehandle, base.duplicatehandle, handleapi/DuplicateHandle
-ms.topic: function
 f1_keywords:
 - handleapi/DuplicateHandle
 dev_langs:
@@ -290,8 +289,7 @@ If the process that calls
 <tr>
 <td>Timer</td>
 <td>The handle is returned by the 
-[CreateWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)a> or 
-[OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)a> function.</td>
+<a href="https://docs.microsoft.com/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw">CreateWaitableTimerW</a> or <a href="https://docs.microsoft.com/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw">OpenWaitableTimerW</a> function.</td>
 </tr>
 <tr>
 <td>Transaction</td>
@@ -311,6 +309,7 @@ You should not use
 <ul>
 <li>I/O completion ports. No error is returned, but the duplicate handle cannot be used.</li>
 <li>Sockets. No error is returned, but the duplicate handle may not be recognized by Winsock at the target process. Also, using <b>DuplicateHandle</b> interferes with internal reference counting on the underlying object. To duplicate a socket handle, use the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaduplicatesocketa">WSADuplicateSocket</a> function.</li>
+<li>Pseudo-handles other than the ones returned by the <a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> or <a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentthread">GetCurrentThread</a> functions.</li>
 </ul>
 The <i>dwDesiredAccess</i> parameter specifies the new handle's access rights. All objects support the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">standard access rights</a>. Objects may also support additional access rights depending on the object type. For more information, see the following topics:
 

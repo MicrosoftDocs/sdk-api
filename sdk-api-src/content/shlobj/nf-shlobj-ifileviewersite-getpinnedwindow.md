@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ef5b4668-1e74-42c2-903e-8d4cf5e2f74e
 ms.date: 12/05/2018
 ms.keywords: GetPinnedWindow, GetPinnedWindow method [Windows Shell], GetPinnedWindow method [Windows Shell],IFileViewerSite interface, IFileViewerSite interface [Windows Shell],GetPinnedWindow method, IFileViewerSite.GetPinnedWindow, IFileViewerSite::GetPinnedWindow, _win32_IFileViewerSite_GetPinnedWindow, shell.IFileViewerSite_GetPinnedWindow, shlobj/IFileViewerSite::GetPinnedWindow
-ms.topic: method
 f1_keywords:
 - shlobj/IFileViewerSite.GetPinnedWindow
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 796b93ab-742b-4e18-a522-6938fbf78786
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_SERVICE_CONFIG_CACHE_KEY, CacheRangeChunkSize, HTTP_SERVICE_CONFIG_CACHE_KEY, HTTP_SERVICE_CONFIG_CACHE_KEY enumeration [HTTP], MaxCacheResponseSize, http.http_service_config_cache_key, http/CacheRangeChunkSize, http/HTTP_SERVICE_CONFIG_CACHE_KEY, http/MaxCacheResponseSize'
-ms.topic: enum
 f1_keywords:
 - http/HTTP_SERVICE_CONFIG_CACHE_KEY
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: ca186853-0792-4a34-b718-46927a73e670
 ms.date: 12/05/2018
 ms.keywords: EnumViews, EnumViews method [COM], EnumViews method [COM],IOleDocument interface, IOleDocument interface [COM],EnumViews method, IOleDocument.EnumViews, IOleDocument::EnumViews, _ole_ioledocument_enumviews, com.ioledocument_enumviews, docobj/IOleDocument::EnumViews
-ms.topic: method
 f1_keywords:
 - docobj/IOleDocument.EnumViews
 dev_langs:

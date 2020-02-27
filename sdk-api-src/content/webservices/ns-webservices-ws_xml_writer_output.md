@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 367e6f98-9351-4a08-b8ce-036e7f2788e4
 ms.date: 12/05/2018
 ms.keywords: WS_XML_WRITER_OUTPUT, WS_XML_WRITER_OUTPUT structure [Web Services for Windows], webservices/WS_XML_WRITER_OUTPUT, wsw.ws_xml_writer_output
-ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_WRITER_OUTPUT
 dev_langs:

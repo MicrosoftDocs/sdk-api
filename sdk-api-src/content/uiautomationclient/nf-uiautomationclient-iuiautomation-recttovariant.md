@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: abfb2bb1-7594-4f32-9188-05745006ae18
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RectToVariant method, IUIAutomation.RectToVariant, IUIAutomation::RectToVariant, RectToVariant, RectToVariant method [Windows Accessibility], RectToVariant method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_RectToVariant, uiauto_IUIAutomation_RectToVariant, uiautomationclient/IUIAutomation::RectToVariant, winauto.uiauto_IUIAutomation_RectToVariant
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation.RectToVariant
 dev_langs:

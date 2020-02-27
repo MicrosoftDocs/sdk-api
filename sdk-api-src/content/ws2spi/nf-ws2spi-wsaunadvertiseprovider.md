@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 5975b496-53a7-4f8a-8efc-27ef447596c2
 ms.date: 12/05/2018
 ms.keywords: WSAUnadvertiseProvider, WSAUnadvertiseProvider function [Winsock], winsock.wsaunadvertiseprovider, ws2spi/WSAUnadvertiseProvider
-ms.topic: function
 f1_keywords:
 - ws2spi/WSAUnadvertiseProvider
 dev_langs:
@@ -69,7 +68,7 @@ A pointer to the provider ID of the namespace provider.
 
 
 If no error occurs, 
-**WSAUnadvertiseProvider** returns zero. Otherwise, it returns **SOCKET_ERROR**, and a specific error code is available by calling <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
+**WSAUnadvertiseProvider** returns zero. Otherwise, it returns **SOCKET_ERROR**, and a specific error code is available by calling <a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
 <tr>
@@ -79,7 +78,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -102,7 +101,7 @@ The
 
 On Windows Vista and Windows Server 2008, the **WSAUnadvertiseProvider** function can only be used for operations on NS_EMAIL namespace providers.
 
-In general, NSPv2 providers are implemented in processes other than the calling applications. NSPv2 providers are not activated as result of client activity. Each provider hosting application decides when to make a specific provider available or unavailable by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsaadvertiseprovider">WSAAdvertiseProvider</a> and **WSAUnadvertiseProvider** functions. The client activity only results in attempts to contact the provider, when available (when the namespace provider is advertised).
+In general, NSPv2 providers are implemented in processes other than the calling applications. NSPv2 providers are not activated as result of client activity. Each provider hosting application decides when to make a specific provider available or unavailable by calling the <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wsaadvertiseprovider">WSAAdvertiseProvider</a> and **WSAUnadvertiseProvider** functions. The client activity only results in attempts to contact the provider, when available (when the namespace provider is advertised).
 
 
 
@@ -112,23 +111,23 @@ In general, NSPv2 providers are implemented in processes other than the calling 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-nspv2_routine">NSPV2_ROUTINE</a>
+<a href="/windows/desktop/api/ws2spi/ns-ws2spi-nspv2_routine">NSPV2_ROUTINE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsaadvertiseprovider">WSAAdvertiseProvider</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wsaadvertiseprovider">WSAAdvertiseProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersexa">WSAEnumNameSpaceProvidersEx</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersexa">WSAEnumNameSpaceProvidersEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea">WSASetService</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea">WSASetService</a>
  
 
  

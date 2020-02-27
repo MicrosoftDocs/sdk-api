@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: DE5E6F0E-F4FD-43ce-A1EB-F45C04C85239
 ms.date: 12/05/2018
 ms.keywords: GetFieldOptions, GetFieldOptions method [Windows Shell], GetFieldOptions method [Windows Shell],ICredentialProviderCredentialWithFieldOptions interface, ICredentialProviderCredentialWithFieldOptions interface [Windows Shell],GetFieldOptions method, ICredentialProviderCredentialWithFieldOptions.GetFieldOptions, ICredentialProviderCredentialWithFieldOptions::GetFieldOptions, credentialprovider/ICredentialProviderCredentialWithFieldOptions::GetFieldOptions, shell.ICredentialProviderCredentialWithFieldOptions_GetFieldOptions
-ms.topic: method
 f1_keywords:
 - credentialprovider/ICredentialProviderCredentialWithFieldOptions.GetFieldOptions
 dev_langs:

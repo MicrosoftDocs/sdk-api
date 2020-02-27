@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: 0895544c-7381-419d-9928-3ac3baa80920
 ms.date: 05/06/2019
 ms.keywords: XMU555, XMU555 constructor [DirectX Math Support APIs], XMU555 constructor [DirectX Math Support APIs],XMU555 structure, XMU555 structure [DirectX Math Support APIs],XMU555 constructor, XMU555.XMU555, XMU555.XMU555(), XMU555.XMU555(uint8_t,uint8_t,uint8_t,bool), XMU555::XMU555, XMU555::XMU555(uint8_t,uint8_t,uint8_t,bool), dxmath.xmu555_ctor_1
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMU555.XMU555
 dev_langs:

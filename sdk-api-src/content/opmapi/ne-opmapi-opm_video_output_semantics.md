@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: d52fbc40-072b-4b7a-87c2-b928563100bb
 ms.date: 12/05/2018
 ms.keywords: OPM_VIDEO_OUTPUT_SEMANTICS, OPM_VIDEO_OUTPUT_SEMANTICS enumeration [Media Foundation], OPM_VOS_COPP_SEMANTICS, OPM_VOS_OPM_SEMANTICS, mf.opm_video_output_semantics, opmapi/OPM_VIDEO_OUTPUT_SEMANTICS, opmapi/OPM_VOS_COPP_SEMANTICS, opmapi/OPM_VOS_OPM_SEMANTICS
-ms.topic: enum
 f1_keywords:
 - opmapi/OPM_VIDEO_OUTPUT_SEMANTICS
 dev_langs:

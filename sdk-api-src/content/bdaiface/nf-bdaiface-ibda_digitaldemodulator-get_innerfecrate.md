@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 56fb0c34-8c28-4eff-a1dd-d82c31b0e430
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_InnerFECRate method, IBDA_DigitalDemodulator.get_InnerFECRate, IBDA_DigitalDemodulator::get_InnerFECRate, IBDA_DigitalDemodulatorget_InnerFECRate, bdaiface/IBDA_DigitalDemodulator::get_InnerFECRate, get_InnerFECRate, get_InnerFECRate method [Microsoft TV Technologies], get_InnerFECRate method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_innerfecrate
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_DigitalDemodulator.get_InnerFECRate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: f7c14e1f-c57f-4780-9936-3a47a4c0ca12
 ms.date: 12/05/2018
 ms.keywords: FilterGetDosName, FilterGetDosName function [Installable File System Drivers], FltWin32ApiRef_46945955-c739-4b9c-bbf8-54c451c26716.xml, fltuser/FilterGetDosName, ifsk.filtergetdosname
-ms.topic: function
 f1_keywords:
 - fltuser/FilterGetDosName
 dev_langs:
@@ -118,7 +117,7 @@ Size, in wide characters, of the buffer that <i>lpDosName </i>points to.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=139080">DefineDosDevice</a>
+<a href="https://msdn.microsoft.com/library/aa363904.aspx">DefineDosDevice</a>
 
 
 
@@ -130,7 +129,7 @@ Size, in wide characters, of the buffer that <i>lpDosName </i>points to.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=139081">QueryDosDevice</a>
+<a href="https://msdn.microsoft.com/library/aa365461(VS.85).aspx">QueryDosDevice</a>
  
 
  

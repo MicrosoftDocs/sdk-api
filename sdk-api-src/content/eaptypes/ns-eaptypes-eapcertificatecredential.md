@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 575967F4-E5CC-433D-919D-258B5849A5B1
 ms.date: 12/05/2018
 ms.keywords: EapCertificateCredential, EapCertificateCredential structure [EAPHost], eaphost.eapcertificatecredential, eaptypes/EapCertificateCredential
-ms.topic: struct
 f1_keywords:
 - eaptypes/EapCertificateCredential
 dev_langs:

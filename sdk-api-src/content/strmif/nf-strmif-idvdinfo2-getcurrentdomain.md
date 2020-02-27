@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ad850402-7b48-4517-a55f-42cfa75d3ee6
 ms.date: 12/05/2018
 ms.keywords: GetCurrentDomain, GetCurrentDomain method [DirectShow], GetCurrentDomain method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentDomain method, IDvdInfo2.GetCurrentDomain, IDvdInfo2::GetCurrentDomain, IDvdInfo2GetCurrentDomain, dshow.idvdinfo2_getcurrentdomain, strmif/IDvdInfo2::GetCurrentDomain
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo2.GetCurrentDomain
 dev_langs:
@@ -64,7 +63,7 @@ The <code>GetCurrentDomain</code> method retrieves the domain in which the <a hr
 
 ### -param pDomain [out]
 
-Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a> that receives the current domain.
+Pointer to a variable of type <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a> that receives the current domain.
 
 
 ## -returns

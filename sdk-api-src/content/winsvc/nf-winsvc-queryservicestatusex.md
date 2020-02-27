@@ -7,7 +7,6 @@ tech.root: Services
 ms.assetid: 3fe02245-97b1-49f3-8f35-2dcd6f221547
 ms.date: 12/05/2018
 ms.keywords: QueryServiceStatusEx, QueryServiceStatusEx function, _win32_queryservicestatusex, base.queryservicestatusex, winsvc/QueryServiceStatusEx
-ms.topic: function
 f1_keywords:
 - winsvc/QueryServiceStatusEx
 dev_langs:

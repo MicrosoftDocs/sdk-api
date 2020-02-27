@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 15afd438-c662-4cc1-b6b5-87e5bf82ccaa
 ms.date: 12/05/2018
 ms.keywords: TextRange_MoveEndpointByUnit, TextRange_MoveEndpointByUnit function [Windows Accessibility], uiauto.uiauto_TextRange_MoveEndpointByUnitConPat, uiauto_TextRange_MoveEndpointByUnitConPat, uiautomationcoreapi/TextRange_MoveEndpointByUnit, winauto.uiauto_TextRange_MoveEndpointByUnitConPat
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/TextRange_MoveEndpointByUnit
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 7da5f111-206d-40e1-9c40-4782118c3d49
 ms.date: 12/05/2018
 ms.keywords: GetCASetupProperty, GetCASetupProperty method [Security], GetCASetupProperty method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetCASetupProperty method, ICertSrvSetup.GetCASetupProperty, ICertSrvSetup::GetCASetupProperty, casetup/ICertSrvSetup::GetCASetupProperty, security.icertsrvsetup_getcasetupproperty
-ms.topic: method
 f1_keywords:
 - casetup/ICertSrvSetup.GetCASetupProperty
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\hdlayout.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPHDLAYOUT, HDLAYOUT, HDLAYOUT structure [Windows Controls], LPHDLAYOUT, LPHDLAYOUT structure pointer [Windows Controls], _win32_HDLAYOUT, _win32_HDLAYOUT_cpp, commctrl/HDLAYOUT, commctrl/LPHDLAYOUT, controls.HDLAYOUT, controls._win32_HDLAYOUT'
-ms.topic: struct
 f1_keywords:
 - commctrl/HDLAYOUT
 dev_langs:

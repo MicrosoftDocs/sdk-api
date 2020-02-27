@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 3d2b57fd-1714-4fdf-859c-9fdfb341dd5d
 ms.date: 12/05/2018
 ms.keywords: BindToCurrentThread, BindToCurrentThread method [COM+], BindToCurrentThread method [COM+],IServiceActivity interface, IServiceActivity interface [COM+],BindToCurrentThread method, IServiceActivity.BindToCurrentThread, IServiceActivity::BindToCurrentThread, _cos_IServiceActivity_BindToCurrentThread, comsvcs/IServiceActivity::BindToCurrentThread, cos.iserviceactivity_bindtocurrentthread
-ms.topic: method
 f1_keywords:
 - comsvcs/IServiceActivity.BindToCurrentThread
 dev_langs:

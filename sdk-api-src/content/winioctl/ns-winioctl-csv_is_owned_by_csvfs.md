@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: F189E0F9-F711-4AB6-8237-775855FCD290
 ms.date: 12/05/2018
 ms.keywords: '*PCSV_IS_OWNED_BY_CSVFS, CSV_IS_OWNED_BY_CSVFS, CSV_IS_OWNED_BY_CSVFS structure [Files], PCSV_IS_OWNED_BY_CSVFS, PCSV_IS_OWNED_BY_CSVFS structure pointer [Files], fs.csv_is_owned_by_csvfs, winioctl/CSV_IS_OWNED_BY_CSVFS, winioctl/PCSV_IS_OWNED_BY_CSVFS'
-ms.topic: struct
 f1_keywords:
 - winioctl/CSV_IS_OWNED_BY_CSVFS
 dev_langs:

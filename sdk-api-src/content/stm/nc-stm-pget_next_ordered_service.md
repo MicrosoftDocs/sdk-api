@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: e25d7086-cfb7-41ea-8f4e-7e4f065830d9
 ms.date: 12/05/2018
 ms.keywords: GetNextOrderedService, GetNextOrderedService callback function [RAS], PGET_NEXT_ORDERED_SERVICE, PGET_NEXT_ORDERED_SERVICE callback, _mpr_getnextorderedservice, rras.getnextorderedservice, stm/GetNextOrderedService
-ms.topic: callback
 f1_keywords:
 - stm/GetNextOrderedService
 dev_langs:

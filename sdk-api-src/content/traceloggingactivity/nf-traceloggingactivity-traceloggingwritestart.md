@@ -7,7 +7,6 @@ tech.root: tracelogging
 ms.assetid: E5B9347E-50A7-49BE-BDD5-DCED39371234
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingWriteStart, TraceLoggingWriteStart macro, tracelogging.traceloggingwritestart, traceloggingactivity/TraceLoggingWriteStart
-ms.topic: macro
 f1_keywords:
 - traceloggingactivity/TraceLoggingWriteStart
 dev_langs:

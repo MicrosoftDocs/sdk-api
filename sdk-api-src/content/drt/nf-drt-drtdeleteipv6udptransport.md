@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 9b078f63-36b1-448b-b0c2-d452699157d8
 ms.date: 12/05/2018
 ms.keywords: DrtDeleteIpv6UdpTransport, DrtDeleteIpv6UdpTransport function [Peer Networking], drt/DrtDeleteIpv6UdpTransport, p2p.drtdeleteipv6udptransport
-ms.topic: function
 f1_keywords:
 - drt/DrtDeleteIpv6UdpTransport
 dev_langs:

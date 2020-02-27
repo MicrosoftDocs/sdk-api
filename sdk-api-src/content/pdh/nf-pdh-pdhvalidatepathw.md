@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 9248e63c-2672-466f-85f5-46f26e31dc75
 ms.date: 12/05/2018
 ms.keywords: PdhValidatePath, PdhValidatePath function [Perf], PdhValidatePathA, PdhValidatePathW, _win32_pdhvalidatepath, base.pdhvalidatepath, pdh/PdhValidatePath, pdh/PdhValidatePathA, pdh/PdhValidatePathW, perf.pdhvalidatepath
-ms.topic: function
 f1_keywords:
 - pdh/PdhValidatePath
 dev_langs:

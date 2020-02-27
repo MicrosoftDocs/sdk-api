@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: abf7617e-1194-4303-a214-23fbaf20eccf
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],InitializeFromInnerRequestTemplateName method, IX509CertificateRequestCmc.InitializeFromInnerRequestTemplateName, IX509CertificateRequestCmc::InitializeFromInnerRequestTemplateName, InitializeFromInnerRequestTemplateName, InitializeFromInnerRequestTemplateName method [Security], InitializeFromInnerRequestTemplateName method [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::InitializeFromInnerRequestTemplateName, security.ix509certificaterequestcmc_initializefrominnerrequesttemplatename
-ms.topic: method
 f1_keywords:
 - certenroll/IX509CertificateRequestCmc.InitializeFromInnerRequestTemplateName
 dev_langs:

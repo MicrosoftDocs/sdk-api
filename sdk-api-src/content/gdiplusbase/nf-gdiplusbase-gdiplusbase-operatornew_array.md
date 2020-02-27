@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\gdiplusbaseclass\gdiplusbasemethods\operatornew[].htm
 ms.date: 12/5/2018
 ms.keywords: GdiplusBase class [GDI+],operator new[] method, GdiplusBase.operator new[], GdiplusBase::operator new[], _gdiplus_CLASS_GdiplusBase_operator_new_bracket_in_size_, gdiplus._gdiplus_CLASS_GdiplusBase_operator_new_bracket_in_size_, operator new[], operator new[] method [GDI+], operator new[] method [GDI+],GdiplusBase class
-ms.topic: method
 f1_keywords:
 - GdiplusBase.operator new[]
 dev_langs:

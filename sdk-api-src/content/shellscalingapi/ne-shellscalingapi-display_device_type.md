@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: C8964494-339B-4198-A544-3BBCCFEB9596
 ms.date: 12/05/2018
 ms.keywords: DEVICE_IMMERSIVE, DEVICE_PRIMARY, DISPLAY_DEVICE_TYPE, DISPLAY_DEVICE_TYPE enumeration [Windows Shell], shell.display_device_type, shellscalingapi/DEVICE_IMMERSIVE, shellscalingapi/DEVICE_PRIMARY, shellscalingapi/DISPLAY_DEVICE_TYPE
-ms.topic: enum
 f1_keywords:
 - shellscalingapi/DISPLAY_DEVICE_TYPE
 dev_langs:

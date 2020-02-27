@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: fc22fa79-469a-47f0-96ce-9a041fc8a617
 ms.date: 12/05/2018
 ms.keywords: AddStylusAsyncPlugin, AddStylusAsyncPlugin method [Tablet PC], AddStylusAsyncPlugin method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],AddStylusAsyncPlugin method, IRealTimeStylus.AddStylusAsyncPlugin, IRealTimeStylus::AddStylusAsyncPlugin, fc22fa79-469a-47f0-96ce-9a041fc8a617, rtscom/IRealTimeStylus::AddStylusAsyncPlugin, tablet.irealtimestylus_addstylusasyncplugin
-ms.topic: method
 f1_keywords:
 - rtscom/IRealTimeStylus.AddStylusAsyncPlugin
 dev_langs:
@@ -87,7 +86,7 @@ You cannot add asynchronous plug-ins if <a href="https://docs.microsoft.com/wind
 
 #### Examples
 
-The following C++ code example adds an instance of an <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> to a <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> object. The example code uses the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method on a <a href="https://docs.microsoft.com/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer</a> plug-in, <code>g_pGestureHandler</code>, to get the <b>IStylusAsyncPlugin</b> interface, then calls <b>IRealTimeStylus::AddStylusAsyncPlugin Method</b>.
+The following C++ code example adds an instance of an <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> to a <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> object. The example code uses the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method on a <a href="https://docs.microsoft.com/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer</a> plug-in, <code>g_pGestureHandler</code>, to get the <b>IStylusAsyncPlugin</b> interface, then calls <b>IRealTimeStylus::AddStylusAsyncPlugin Method</b>.
 
 
 ```cpp

@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbgets.htm
 ms.date: 12/05/2018
 ms.keywords: StringCbGets, StringCbGets function [Menus and Other Resources], StringCbGetsA, StringCbGetsW, _shell_StringCbGets, _shell_stringcbgets_cpp, menurc.stringcbgets, strsafe/StringCbGets, strsafe/StringCbGetsA, strsafe/StringCbGetsW, winui._shell_stringcbgets
-ms.topic: function
 f1_keywords:
 - strsafe/StringCbGets
 dev_langs:
@@ -55,7 +54,7 @@ ms.custom: 19H1
 Gets one line of text from stdin, up to and including the newline character ('\n'). The line of text is copied to the destination buffer, and the newline character is replaced with a null character. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 <div class="alert"><b>Note</b>  This function can only be used inline.</div><div> </div><b>StringCbGets</b>  is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192504">gets, _getws, _getts</a></li>
+<li><a href="https://msdn.microsoft.com/library/2029ea5f.aspx">gets, _getws, _getts</a></li>
 </ul><b>StringCbGets</b> is not a replacement for <b>fgets</b>, which does not replace newline characters with a terminating null character.
 
 

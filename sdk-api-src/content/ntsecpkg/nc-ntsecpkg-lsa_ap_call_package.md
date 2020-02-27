@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: be0f9886-c0f6-4361-96c7-d16da8713fc7
 ms.date: 12/05/2018
 ms.keywords: LSA_AP_CALL_PACKAGE, LSA_AP_CALL_PACKAGE callback, LsaApCallPackage, LsaApCallPackage callback function [Security], _lsa_lsaapcallpackage, ntsecpkg/LsaApCallPackage, security.lsaapcallpackage
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/LsaApCallPackage
 dev_langs:

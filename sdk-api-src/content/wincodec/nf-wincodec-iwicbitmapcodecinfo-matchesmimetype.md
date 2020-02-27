@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 43704d5c-d2c2-4817-b61b-a752d32105aa
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapCodecInfo interface [Windows Imaging Component],MatchesMimeType method, IWICBitmapCodecInfo.MatchesMimeType, IWICBitmapCodecInfo::MatchesMimeType, MatchesMimeType, MatchesMimeType method [Windows Imaging Component], MatchesMimeType method [Windows Imaging Component],IWICBitmapCodecInfo interface, _wic_codec_iwicbitmapcodecinfo_matchesmimetype, wic._wic_codec_iwicbitmapcodecinfo_matchesmimetype, wincodec/IWICBitmapCodecInfo::MatchesMimeType
-ms.topic: method
 f1_keywords:
 - wincodec/IWICBitmapCodecInfo.MatchesMimeType
 dev_langs:

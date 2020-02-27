@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 83db8d24-d872-4a90-a896-1cc51273b551
 ms.date: 12/05/2018
 ms.keywords: GetEventHandle, GetEventHandle method [DirectShow], GetEventHandle method [DirectShow],IMediaEvent interface, IMediaEvent interface [DirectShow],GetEventHandle method, IMediaEvent.GetEventHandle, IMediaEvent::GetEventHandle, IMediaEventGetEventHandle, control/IMediaEvent::GetEventHandle, dshow.imediaevent_geteventhandle
-ms.topic: method
 f1_keywords:
 - control/IMediaEvent.GetEventHandle
 dev_langs:

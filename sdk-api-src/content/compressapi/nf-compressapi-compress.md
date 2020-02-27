@@ -7,7 +7,6 @@ tech.root: cmpapi
 ms.assetid: 0e32501c-5213-43e6-88ca-1e424181d7a2
 ms.date: 12/05/2018
 ms.keywords: Compress, Compress function [Compression API], cmpapi.compress, compressapi/Compress
-ms.topic: function
 f1_keywords:
 - compressapi/Compress
 dev_langs:

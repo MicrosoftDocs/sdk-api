@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 4fbf1fdf-3d15-4d43-b319-5c83712e7f2f
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MouseDown method, IWMPEvents.MouseDown, IWMPEvents::MouseDown, IWMPEventsMouseDown, MouseDown, MouseDown method [Windows Media Player], MouseDown method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mousedown, wmp/IWMPEvents::MouseDown
-ms.topic: method
 f1_keywords:
 - wmp/IWMPEvents.MouseDown
 dev_langs:

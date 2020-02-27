@@ -1,9 +1,10 @@
 ---
 UID: NA:naptypes
+title: Naptypes.h header
 ms.assetid: e50324ba-586f-3cfc-a612-55cd4b98b0d0
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: nap
 ---
 

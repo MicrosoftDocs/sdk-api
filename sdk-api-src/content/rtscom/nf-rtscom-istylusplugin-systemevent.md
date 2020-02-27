@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 7cdba29e-0599-45f7-8853-3e8fa29897e8
 ms.date: 12/05/2018
 ms.keywords: 7cdba29e-0599-45f7-8853-3e8fa29897e8, IStylusPlugin interface [Tablet PC],SystemEvent method, IStylusPlugin.SystemEvent, IStylusPlugin::SystemEvent, SystemEvent, SystemEvent method [Tablet PC], SystemEvent method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::SystemEvent, tablet.istylusplugin_systemevent
-ms.topic: method
 f1_keywords:
 - rtscom/IStylusPlugin.SystemEvent
 dev_langs:

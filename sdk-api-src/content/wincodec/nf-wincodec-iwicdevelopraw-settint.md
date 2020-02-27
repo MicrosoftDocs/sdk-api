@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: a5c6a15b-19d3-4b6f-a00e-842ec8614ce5
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetTint method, IWICDevelopRaw.SetTint, IWICDevelopRaw::SetTint, SetTint, SetTint method [Windows Imaging Component], SetTint method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_settint, wic._wic_codec_iwicdevelopraw_settint, wincodec/IWICDevelopRaw::SetTint
-ms.topic: method
 f1_keywords:
 - wincodec/IWICDevelopRaw.SetTint
 dev_langs:

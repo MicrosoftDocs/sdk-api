@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 544aa6d4-a8fe-4ce5-b329-01b031aa3e6f
 ms.date: 12/05/2018
 ms.keywords: WMCreateWriterPushSink, WMCreateWriterPushSink function [windows Media Format], wmformat.wmcreatewriterpushsink, wmsdkidl/WMCreateWriterPushSink
-ms.topic: function
 f1_keywords:
 - wmsdkidl/WMCreateWriterPushSink
 dev_langs:

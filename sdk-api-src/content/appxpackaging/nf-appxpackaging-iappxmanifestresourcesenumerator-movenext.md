@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: CD5A7FF9-A28E-4857-AE7B-92F8EEBA0235
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestResourcesEnumerator interface [App packaging and management],MoveNext method, IAppxManifestResourcesEnumerator.MoveNext, IAppxManifestResourcesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxManifestResourcesEnumerator interface, appxpackaging/IAppxManifestResourcesEnumerator::MoveNext, appxpkg.iappxmanifestresourcesenumerator_movenext
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxManifestResourcesEnumerator.MoveNext
 dev_langs:

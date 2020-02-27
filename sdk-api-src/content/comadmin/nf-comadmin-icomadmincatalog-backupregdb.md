@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: dd350abd-3b59-4a5d-b2e4-1ddeec2b1953
 ms.date: 12/05/2018
 ms.keywords: BackupREGDB, BackupREGDB method [COM+], BackupREGDB method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],BackupREGDB method, ICOMAdminCatalog.BackupREGDB, ICOMAdminCatalog::BackupREGDB, _cos_ICOMAdminCatalog_BackupREGDB, comadmin/ICOMAdminCatalog::BackupREGDB, cos.icomadmincatalog_backupregdb
-ms.topic: method
 f1_keywords:
 - comadmin/ICOMAdminCatalog.BackupREGDB
 dev_langs:

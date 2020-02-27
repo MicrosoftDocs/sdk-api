@@ -7,7 +7,6 @@ tech.root: wnv
 ms.assetid: 12FF591A-B696-49DF-9E75-B966569A2AAE
 ms.date: 12/05/2018
 ms.keywords: '*PWNV_OBJECT_CHANGE_PARAM, PWNV_OBJECT_CHANGE_PARAM, PWNV_OBJECT_CHANGE_PARAM structure pointer [Windows Network Virtualization], WNV_OBJECT_CHANGE_PARAM, WNV_OBJECT_CHANGE_PARAM structure [Windows Network Virtualization], wnv.wnv_object_change_param, wnvapi/PWNV_OBJECT_CHANGE_PARAM, wnvapi/WNV_OBJECT_CHANGE_PARAM'
-ms.topic: struct
 f1_keywords:
 - wnvapi/WNV_OBJECT_CHANGE_PARAM
 dev_langs:

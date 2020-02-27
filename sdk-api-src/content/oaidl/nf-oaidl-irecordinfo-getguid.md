@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: e28ed38a-5cd6-4edb-871e-e69283e4d47e
 ms.date: 12/05/2018
 ms.keywords: GetGuid, GetGuid method [Automation], GetGuid method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetGuid method, IRecordInfo.GetGuid, IRecordInfo::GetGuid, _oa96_IRecordInfo_GetGuid, automat.irecordinfo_getguid, oaidl/IRecordInfo::GetGuid
-ms.topic: method
 f1_keywords:
 - oaidl/IRecordInfo.GetGuid
 dev_langs:

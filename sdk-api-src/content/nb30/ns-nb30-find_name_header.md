@@ -7,7 +7,6 @@ tech.root: NetBIOS
 ms.assetid: 66b0cf77-3c25-4b00-9e9b-abc0442e3831
 ms.date: 12/05/2018
 ms.keywords: '*PFIND_NAME_HEADER, FIND_NAME_HEADER, FIND_NAME_HEADER structure [NetBIOS], PFIND_NAME_HEADER, PFIND_NAME_HEADER structure pointer [NetBIOS], nb30/FIND_NAME_HEADER, nb30/PFIND_NAME_HEADER, netbios.find_name_header'
-ms.topic: struct
 f1_keywords:
 - nb30/FIND_NAME_HEADER
 dev_langs:

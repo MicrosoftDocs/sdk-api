@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: B5132FF2-9DE3-40F3-82F0-90FE0640F646
 ms.date: 12/05/2018
 ms.keywords: TdhCreatePayloadFilter, TdhCreatePayloadFilter function [ETW], etw.tdhcreatepayloadfilter, tdh/TdhCreatePayloadFilter
-ms.topic: function
 f1_keywords:
 - tdh/TdhCreatePayloadFilter
 dev_langs:

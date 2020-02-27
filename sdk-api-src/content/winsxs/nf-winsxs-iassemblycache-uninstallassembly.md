@@ -7,7 +7,6 @@ tech.root: SbsCs
 ms.assetid: b492e93c-73f2-4d68-ae1a-c82e9ec36a72
 ms.date: 12/05/2018
 ms.keywords: IASSEMBLYCACHE_UNINSTALL_DISPOSITION_ALREADY_UNINSTALLED, IASSEMBLYCACHE_UNINSTALL_DISPOSITION_DELETE_PENDING, IASSEMBLYCACHE_UNINSTALL_DISPOSITION_HAS_INSTALL_REFERENCES, IASSEMBLYCACHE_UNINSTALL_DISPOSITION_REFERENCE_NOT_FOUND, IASSEMBLYCACHE_UNINSTALL_DISPOSITION_STILL_IN_USE, IASSEMBLYCACHE_UNINSTALL_DISPOSITION_UNINSTALLED, IAssemblyCache interface [Side-by-side Assemblies],UninstallAssembly method, IAssemblyCache.UninstallAssembly, IAssemblyCache::UninstallAssembly, UninstallAssembly, UninstallAssembly method [Side-by-side Assemblies], UninstallAssembly method [Side-by-side Assemblies],IAssemblyCache interface, setup.iassemblycache_uninstallassembly, winsxs/IAssemblyCache::UninstallAssembly
-ms.topic: method
 f1_keywords:
 - winsxs/IAssemblyCache.UninstallAssembly
 dev_langs:

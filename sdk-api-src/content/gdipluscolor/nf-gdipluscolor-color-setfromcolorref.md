@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\setfromcolorref.htm
 ms.date: 12/05/2018
 ms.keywords: Color class [GDI+],SetFromCOLORREF method, Color.SetFromCOLORREF, Color::SetFromCOLORREF, SetFromCOLORREF, SetFromCOLORREF method [GDI+], SetFromCOLORREF method [GDI+],Color class, _gdiplus_CLASS_Color_SetFromCOLORREF_rgb_, gdiplus._gdiplus_CLASS_Color_SetFromCOLORREF_rgb_
-ms.topic: method
 f1_keywords:
 - gdipluscolor/Color.SetFromCOLORREF
 dev_langs:
@@ -45,7 +44,6 @@ req.product: GDI+ 1.0
 ms.custom: 19H1
 ---
 
-# Color::SetFromCOLORREF
 
 
 ## -description
@@ -66,11 +64,7 @@ Type: <b>COLORREF</b>
 GDI<b>COLORREF</b> value that specifies the red, green, and blue components of this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object's <b>ARGB</b> value. The default value of the alpha component for this <b>Color</b> object is 255. 
 
 
-## -returns
 
-
-
-This method does not return a value.
 
 
 

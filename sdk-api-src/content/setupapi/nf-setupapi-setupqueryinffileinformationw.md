@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 36f1824d-f71e-462a-a233-0240e76de3d2
 ms.date: 12/05/2018
 ms.keywords: SetupQueryInfFileInformation, SetupQueryInfFileInformation function [Setup API], SetupQueryInfFileInformationA, SetupQueryInfFileInformationW, _setupapi_setupqueryinffileinformation, setup.setupqueryinffileinformation, setupapi/SetupQueryInfFileInformation, setupapi/SetupQueryInfFileInformationA, setupapi/SetupQueryInfFileInformationW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupQueryInfFileInformation
 dev_langs:

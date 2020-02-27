@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 1aa20d1a-4259-4ae0-9717-957f7b8b984e
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuota interface [File Server Resource Manager],RefreshUsageProperties method, IFsrmQuota.RefreshUsageProperties, IFsrmQuota::RefreshUsageProperties, RefreshUsageProperties, RefreshUsageProperties method [File Server Resource Manager], RefreshUsageProperties method [File Server Resource Manager],IFsrmQuota interface, fs.ifsrmquota_refreshusageproperties, fsrm.ifsrmquota_refreshusageproperties, fsrmquota/IFsrmQuota::RefreshUsageProperties
-ms.topic: method
 f1_keywords:
 - fsrmquota/IFsrmQuota.RefreshUsageProperties
 dev_langs:

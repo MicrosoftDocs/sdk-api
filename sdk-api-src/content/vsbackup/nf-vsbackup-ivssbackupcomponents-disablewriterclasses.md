@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 7567bf23-4f4c-4210-87f7-4f90262fda7a
 ms.date: 12/05/2018
 ms.keywords: DisableWriterClasses, DisableWriterClasses method [VSS], DisableWriterClasses method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DisableWriterClasses method, IVssBackupComponents.DisableWriterClasses, IVssBackupComponents::DisableWriterClasses, _win32_ivssbackupcomponents_disablewriterclasses, base.ivssbackupcomponents_disablewriterclasses, vsbackup/IVssBackupComponents::DisableWriterClasses
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.DisableWriterClasses
 dev_langs:

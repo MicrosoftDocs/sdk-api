@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 7aa77615-1f12-4641-877e-87b26343db4d
 ms.date: 12/05/2018
 ms.keywords: AddPolicyAdministrator, AddPolicyAdministrator method [Security], AddPolicyAdministrator method [Security],AzScope object, AddPolicyAdministrator method [Security],IAzScope interface, AzScope object [Security],AddPolicyAdministrator method, IAzScope interface [Security],AddPolicyAdministrator method, IAzScope.AddPolicyAdministrator, IAzScope::AddPolicyAdministrator, azroles/IAzScope::AddPolicyAdministrator, security.iazscope_addpolicyadministrator
-ms.topic: method
 f1_keywords:
 - azroles/IAzScope.AddPolicyAdministrator
 dev_langs:

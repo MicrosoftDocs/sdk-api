@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 0a8c6c9f-051c-43a0-b43b-1fd8b4fef10c
 ms.date: 12/05/2018
 ms.keywords: FNREAD, FNREAD macro [Windows API], fdi/FNREAD, winprog.fnread
-ms.topic: macro
 f1_keywords:
 - fdi/FNREAD
 dev_langs:
@@ -77,7 +76,7 @@ Pointer to the buffer that receives the data read from a file.
 
 
 
-The function accepts parameters similar to<a href="http://go.microsoft.com/fwlink/p/?linkid=196544"> _read</a>.
+The function accepts parameters similar to<a href="https://msdn.microsoft.com/library/wyssk1bs(VS.80).aspx"> _read</a>.
 
 
 #### Examples

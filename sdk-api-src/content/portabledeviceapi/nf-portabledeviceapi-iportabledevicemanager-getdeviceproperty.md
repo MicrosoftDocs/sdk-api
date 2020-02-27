@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: 805a2407-f476-4223-97d9-6d8753380b17
 ms.date: 12/05/2018
 ms.keywords: GetDeviceProperty, GetDeviceProperty method [Windows Portable Devices SDK], GetDeviceProperty method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetDeviceProperty method, IPortableDeviceManager.GetDeviceProperty, IPortableDeviceManager::GetDeviceProperty, IPortableDeviceManagerGetDeviceProperty, portabledeviceapi/IPortableDeviceManager::GetDeviceProperty, wpdsdk.iportabledevicemanager_getdeviceproperty
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDeviceManager.GetDeviceProperty
 dev_langs:

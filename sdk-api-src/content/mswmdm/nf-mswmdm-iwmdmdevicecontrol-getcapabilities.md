@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 61d0e44c-f1be-4837-a773-48c6c5278fe0
 ms.date: 12/05/2018
 ms.keywords: GetCapabilities, GetCapabilities method [windows Media Device Manager], GetCapabilities method [windows Media Device Manager],IWMDMDeviceControl interface, IWMDMDeviceControl interface [windows Media Device Manager],GetCapabilities method, IWMDMDeviceControl.GetCapabilities, IWMDMDeviceControl::GetCapabilities, IWMDMDeviceControlGetCapabilities, mswmdm/IWMDMDeviceControl::GetCapabilities, wmdm.iwmdmdevicecontrol_getcapabilities
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMDeviceControl.GetCapabilities
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 3ff643e2-d736-45d5-8cf8-ab5e63caf44b
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_TXT_DATA, *PDNS_TXT_DATAW, DNS_TXT_DATA, DNS_TXT_DATA structure [DNS], DNS_TXT_DATAW, PDNS_TXT_DATA, PDNS_TXT_DATA structure pointer [DNS], _dns_dns_txt_data, dns.dns_txt_data, windns/DNS_TXT_DATA, windns/PDNS_TXT_DATA'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_TXT_DATA
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>DNS_TXT_DATA</b> structure represents a DNS text (TXT) record as specified in section 3.3.14 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
+<b>DNS_TXT_DATA</b> structure represents a DNS text (TXT) record as specified in section 3.3.14 of <a href="https://www.ietf.org/rfc/rfc1035.txt">RFC 1035</a>.
 
 
 ## -struct-fields

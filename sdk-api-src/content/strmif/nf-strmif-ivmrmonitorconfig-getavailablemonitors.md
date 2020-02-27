@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8a44ca7d-a195-4fcf-b09c-01f8176e0aa2
 ms.date: 12/05/2018
 ms.keywords: GetAvailableMonitors, GetAvailableMonitors method [DirectShow], GetAvailableMonitors method [DirectShow],IVMRMonitorConfig interface, IVMRMonitorConfig interface [DirectShow],GetAvailableMonitors method, IVMRMonitorConfig.GetAvailableMonitors, IVMRMonitorConfig::GetAvailableMonitors, IVMRMonitorConfigGetAvailableMonitors, dshow.ivmrmonitorconfig_getavailablemonitors, strmif/IVMRMonitorConfig::GetAvailableMonitors
-ms.topic: method
 f1_keywords:
 - strmif/IVMRMonitorConfig.GetAvailableMonitors
 dev_langs:
@@ -64,7 +63,7 @@ The <code>GetAvailableMonitors</code> method retrieves information about the mon
 
 ### -param pInfo [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrmonitorinfo">VMRMONITORINFO</a> structures that contain information about each monitor on the system.
+Pointer to an array of [VMRMONITORINFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrmonitorinfo) structures that contain information about each monitor on the system.
 
 
 ### -param dwMaxInfoArraySize [in]

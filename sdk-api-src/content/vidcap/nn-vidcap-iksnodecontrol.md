@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c38ce847-726a-4c1a-9276-810385af6c9f
 ms.date: 12/05/2018
 ms.keywords: IKsNodeControl, IKsNodeControl interface [DirectShow], IKsNodeControl interface [DirectShow],described, IKsNodeControlInterface, dshow.iksnodecontrol, vidcap/IKsNodeControl
-ms.topic: interface
 f1_keywords:
 - vidcap/IKsNodeControl
 dev_langs:

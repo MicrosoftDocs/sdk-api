@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_45id.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDevice interface [Fax Service],Save method, IFaxDevice.Save, IFaxDevice::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxDevice interface, _mfax_faxdevice.save, fax._mfax_faxdevice_cpp_mfax_faxdevice_save_cpp, fax._mfax_faxdevice_save, faxcomex/IFaxDevice::Save
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxDevice.Save
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e6cbdb94-1804-4d6d-890e-d3fd596fec89
 ms.date: 12/05/2018
 ms.keywords: INotifyReplica interface [Windows Shell],YouAreAReplica method, INotifyReplica.YouAreAReplica, INotifyReplica::YouAreAReplica, YouAreAReplica, YouAreAReplica method [Windows Shell], YouAreAReplica method [Windows Shell],INotifyReplica interface, _win32_INotifyReplica_YouAreAReplica, reconcil/INotifyReplica::YouAreAReplica, shell.INotifyReplica_YouAreAReplica
-ms.topic: method
 f1_keywords:
 - reconcil/INotifyReplica.YouAreAReplica
 dev_langs:

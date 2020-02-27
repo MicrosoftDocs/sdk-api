@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: eceb5f0a-ad9a-4b7a-9656-c10e0420a96a
 ms.date: 12/05/2018
 ms.keywords: IFileOperation interface [Windows Shell],PerformOperations method, IFileOperation.PerformOperations, IFileOperation::PerformOperations, PerformOperations, PerformOperations method [Windows Shell], PerformOperations method [Windows Shell],IFileOperation interface, _shell_IFileOperation_PerformOperations, shell.IFileOperation_PerformOperations, shobjidl_core/IFileOperation::PerformOperations
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileOperation.PerformOperations
 dev_langs:

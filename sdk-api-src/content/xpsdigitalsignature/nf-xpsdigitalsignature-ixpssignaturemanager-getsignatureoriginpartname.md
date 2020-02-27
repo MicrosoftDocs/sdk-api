@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 0d70e6bc-1101-40fa-b91c-69facc3ca195
 ms.date: 12/05/2018
 ms.keywords: GetSignatureOriginPartName, GetSignatureOriginPartName method [XPS Documents and Packaging], GetSignatureOriginPartName method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],GetSignatureOriginPartName method, IXpsSignatureManager.GetSignatureOriginPartName, IXpsSignatureManager::GetSignatureOriginPartName, xps.ixpssignaturemanager_getsignatureoriginpartname, xpsdigitalsignature/IXpsSignatureManager::GetSignatureOriginPartName
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureManager.GetSignatureOriginPartName
 dev_langs:
@@ -115,7 +114,7 @@ An XPS package has not yet been opened in the signature manager.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

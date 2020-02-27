@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e1698caa-db70-436d-af6a-64c6e7247590
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEventQueue, IMFMediaEventQueue interface [Media Foundation], IMFMediaEventQueue interface [Media Foundation],described, e1698caa-db70-436d-af6a-64c6e7247590, mf.imfmediaeventqueue, mfobjects/IMFMediaEventQueue
-ms.topic: interface
 f1_keywords:
 - mfobjects/IMFMediaEventQueue
 dev_langs:

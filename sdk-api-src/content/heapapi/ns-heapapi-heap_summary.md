@@ -3,7 +3,6 @@ UID: NS:heapapi._HEAP_SUMMARY
 title: HEAP_SUMMARY
 ms.date: 4/26/2019
 ms.keywords: _HEAP_SUMMARY, HEAP_SUMMARY
-ms.topic: language-reference
 f1_keywords:
 - _HEAP_SUMMARY
 dev_langs:
@@ -37,7 +36,7 @@ api_name:
 
 ## -description
 
-Represents a heap summary retrieved with a call to [HeapSummary](nf-heapapi-heapsummary)
+Represents a heap summary retrieved with a call to [HeapSummary](nf-heapapi-heapsummary.md)
 
 ## -struct-fields
 

@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: e5bf19a1-4c71-482d-a075-1e149f94505b
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_HEADER, *PDNS_HEADER structure [DNS], DNS_HEADER, DNS_HEADER structure [DNS], dns.dns_header, windns/*PDNS_HEADER, windns/DNS_HEADER'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_HEADER
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DNS_HEADER</b> structure contains DNS header information used when sending DNS messages as specified in section 4.1.1 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
+The <b>DNS_HEADER</b> structure contains DNS header information used when sending DNS messages as specified in section 4.1.1 of <a href="https://www.ietf.org/rfc/rfc1035.txt">RFC 1035</a>.
 
 
 ## -struct-fields
@@ -170,7 +169,7 @@ The DNS server is authoritative in the zone.
 
 ### -field Opcode
 
-A value that specifies the operation code to be taken on the DNS message as defined in section 4.1.1 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a> as the <b>OPCODE</b> field.
+A value that specifies the operation code to be taken on the DNS message as defined in section 4.1.1 of <a href="https://www.ietf.org/rfc/rfc1035.txt">RFC 1035</a> as the <b>OPCODE</b> field.
 
 
 ### -field IsResponse

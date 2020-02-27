@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 9c9b14c8-511b-4e40-b3d3-014d75dc7fe4
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllCreateDigest, CryptXmlDllCreateDigest callback, CryptXmlDllCreateDigest callback function [Security], cryptxml/CryptXmlDllCreateDigest, security.cryptxmldllcreatedigest
-ms.topic: callback
 f1_keywords:
 - cryptxml/CryptXmlDllCreateDigest
 dev_langs:

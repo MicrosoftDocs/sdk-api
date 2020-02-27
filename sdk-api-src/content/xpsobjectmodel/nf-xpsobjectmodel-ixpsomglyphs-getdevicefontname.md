@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: cb288d73-da4d-4b46-95e5-c451c9ee2dc7
 ms.date: 12/05/2018
 ms.keywords: GetDeviceFontName, GetDeviceFontName method [XPS Documents and Packaging], GetDeviceFontName method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetDeviceFontName method, IXpsOMGlyphs.GetDeviceFontName, IXpsOMGlyphs::GetDeviceFontName, xps.ixpsomglyphs_getdevicefontname, xpsobjectmodel/IXpsOMGlyphs::GetDeviceFontName
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphs.GetDeviceFontName
 dev_langs:
@@ -124,7 +123,7 @@ This method allocates the memory used by the string that is returned in <i>devic
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

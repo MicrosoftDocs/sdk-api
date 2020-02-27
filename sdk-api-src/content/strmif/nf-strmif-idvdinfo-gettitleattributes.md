@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 012e3860-dfa2-45e8-ab37-2a3a4b2f7f9d
 ms.date: 12/05/2018
 ms.keywords: GetTitleAttributes, GetTitleAttributes method [DirectShow], GetTitleAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetTitleAttributes method, IDvdInfo.GetTitleAttributes, IDvdInfo::GetTitleAttributes, IDvdInfoGetTitleAttributes, dshow.idvdinfo_gettitleattributes, strmif/IDvdInfo::GetTitleAttributes
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo.GetTitleAttributes
 dev_langs:
@@ -113,7 +112,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-Requested action is not supported on this domain (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
+Requested action is not supported on this domain (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
 
 </td>
 </tr>
@@ -138,7 +137,7 @@ Requested action cannot occur at this point in the movie due to the authoring of
 
 
 
-This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

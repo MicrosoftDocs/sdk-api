@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: fd2b92d4-9834-4d4b-85c3-8ea8d2c8bd8c
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_CONTEXT_PROPERTY_ID, WS_SECURITY_CONTEXT_PROPERTY_ID enumeration [Web Services for Windows], WS_SECURITY_CONTEXT_PROPERTY_IDENTIFIER, WS_SECURITY_CONTEXT_PROPERTY_MESSAGE_SECURITY_WINDOWS_TOKEN, WS_SECURITY_CONTEXT_PROPERTY_SAML_ASSERTION, WS_SECURITY_CONTEXT_PROPERTY_USERNAME, webservices/WS_SECURITY_CONTEXT_PROPERTY_ID, webservices/WS_SECURITY_CONTEXT_PROPERTY_IDENTIFIER, webservices/WS_SECURITY_CONTEXT_PROPERTY_MESSAGE_SECURITY_WINDOWS_TOKEN, webservices/WS_SECURITY_CONTEXT_PROPERTY_SAML_ASSERTION, webservices/WS_SECURITY_CONTEXT_PROPERTY_USERNAME, wsw.ws_security_context_property_id
-ms.topic: enum
 f1_keywords:
 - webservices/WS_SECURITY_CONTEXT_PROPERTY_ID
 dev_langs:
@@ -62,7 +61,7 @@ Identifies a property of a security context object.  This enumeration is used wi
 ### -field WS_SECURITY_CONTEXT_PROPERTY_IDENTIFIER
 
 On the wire, a security context is identified by an absolute URI, which is unique to both sender and 
-          recipient. See <a href="http://go.microsoft.com/fwlink/p/?linkid=131545">WS-SecureConversation</a>.
+          recipient. See <a href="https://docs.oasis-open.org/ws-sx/ws-secureconversation/200512/ws-secureconversation-1.3-os.html">WS-SecureConversation</a>.
           This property is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_unique_id">WS_UNIQUE_ID</a> structure that represents that URI.
         
 

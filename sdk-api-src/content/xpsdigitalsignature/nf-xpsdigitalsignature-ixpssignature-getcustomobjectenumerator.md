@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 98a656c7-714b-4b59-9289-e78dee795eaa
 ms.date: 12/05/2018
 ms.keywords: GetCustomObjectEnumerator, GetCustomObjectEnumerator method [XPS Documents and Packaging], GetCustomObjectEnumerator method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetCustomObjectEnumerator method, IXpsSignature.GetCustomObjectEnumerator, IXpsSignature::GetCustomObjectEnumerator, xps.ixpssignature_getcustomobjectenumerator, xpsdigitalsignature/IXpsSignature::GetCustomObjectEnumerator
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignature.GetCustomObjectEnumerator
 dev_langs:
@@ -134,7 +133,7 @@ The interface is not associated with the signature manager.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

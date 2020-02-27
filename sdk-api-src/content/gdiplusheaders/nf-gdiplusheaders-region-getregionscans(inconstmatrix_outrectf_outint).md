@@ -5,7 +5,6 @@ description: The Region::GetRegionScans method gets an array of rectangles that 
 ms.assetid: 0bfb4eed-80f8-4a98-a264-1f47c60f58b8
 ms.date: 05/20/2019
 ms.keywords: Region::GetRegionScans
-ms.topic: language-reference
 f1_keywords:
 - gdiplusheaders/Region::GetRegionScans
 dev_langs:

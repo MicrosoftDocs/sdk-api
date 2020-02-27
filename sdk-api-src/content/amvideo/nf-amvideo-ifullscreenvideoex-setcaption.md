@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6f520ab4-867f-4001-8f2f-25f0d8efe454
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetCaption method, IFullScreenVideoEx.SetCaption, IFullScreenVideoEx::SetCaption, IFullScreenVideoSetCaption, SetCaption, SetCaption method [DirectShow], SetCaption method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetCaption, dshow.ifullscreenvideoex_setcaption
-ms.topic: method
 f1_keywords:
 - amvideo/IFullScreenVideoEx.SetCaption
 dev_langs:

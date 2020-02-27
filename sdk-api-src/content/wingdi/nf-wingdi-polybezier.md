@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: d1622574-c65e-4265-9a17-22bb4d2cae0e
 ms.date: 12/05/2018
 ms.keywords: PolyBezier, PolyBezier function [Windows GDI], _win32_PolyBezier, gdi.polybezier, wingdi/PolyBezier
-ms.topic: function
 f1_keywords:
 - wingdi/PolyBezier
 dev_langs:

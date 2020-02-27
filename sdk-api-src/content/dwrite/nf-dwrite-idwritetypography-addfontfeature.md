@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 6d86a66d-a72f-4288-864f-90f877bd166d
 ms.date: 12/05/2018
 ms.keywords: AddFontFeature, AddFontFeature method [Direct Write], AddFontFeature method [Direct Write],IDWriteTypography interface, IDWriteTypography interface [Direct Write],AddFontFeature method, IDWriteTypography.AddFontFeature, IDWriteTypography::AddFontFeature, directwrite.IDWriteTypography_AddFontFeature, dwrite/IDWriteTypography::AddFontFeature
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTypography.AddFontFeature
 dev_langs:

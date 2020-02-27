@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: facfcc85-c1ca-47a1-90a6-10522b15cc65
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionAlternativeNames, IX509ExtensionAlternativeNames interface [Security], IX509ExtensionAlternativeNames interface [Security],described, certenroll/IX509ExtensionAlternativeNames, security.ix509extensionalternativenames
-ms.topic: interface
 f1_keywords:
 - certenroll/IX509ExtensionAlternativeNames
 dev_langs:

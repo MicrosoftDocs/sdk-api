@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: CE55BC2A-B27C-490A-9D5A-C18FEC09638C
 ms.date: 12/05/2018
 ms.keywords: JOBOBJECT_NET_RATE_CONTROL_INFORMATION, JOBOBJECT_NET_RATE_CONTROL_INFORMATION structure, base.jobobject_net_rate_control_information, winnt/JOBOBJECT_NET_RATE_CONTROL_INFORMATION
-ms.topic: struct
 f1_keywords:
 - winnt/JOBOBJECT_NET_RATE_CONTROL_INFORMATION
 dev_langs:

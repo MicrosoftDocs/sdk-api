@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: f83ff62c-63e3-4b15-9c5f-0ef39eaa3e0c
 ms.date: 12/05/2018
 ms.keywords: GetLongestPlayPosition, GetLongestPlayPosition method [windows Media Device Manager], GetLongestPlayPosition method [windows Media Device Manager],IMDSPObjectInfo interface, IMDSPObjectInfo interface [windows Media Device Manager],GetLongestPlayPosition method, IMDSPObjectInfo.GetLongestPlayPosition, IMDSPObjectInfo::GetLongestPlayPosition, IMDSPObjectInfoGetLongestPlayPosition, mswmdm/IMDSPObjectInfo::GetLongestPlayPosition, wmdm.imdspobjectinfo_getlongestplayposition
-ms.topic: method
 f1_keywords:
 - mswmdm/IMDSPObjectInfo.GetLongestPlayPosition
 dev_langs:

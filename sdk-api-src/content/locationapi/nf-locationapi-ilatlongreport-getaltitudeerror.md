@@ -7,7 +7,6 @@ tech.root: locationapi
 ms.assetid: 313aefda-785c-43ce-a71c-cacfd929e27e
 ms.date: 12/05/2018
 ms.keywords: GetAltitudeError, GetAltitudeError method [WinLocation], GetAltitudeError method [WinLocation],ILatLongReport interface, ILatLongReport interface [WinLocation],GetAltitudeError method, ILatLongReport.GetAltitudeError, ILatLongReport::GetAltitudeError, WinLocation_COM_Ref.ilatlongreport_getaltitudeerror, locationapi/ILatLongReport::GetAltitudeError
-ms.topic: method
 f1_keywords:
 - locationapi/ILatLongReport.GetAltitudeError
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: E6B7C4F9-2377-4968-A16F-15F174EC5439
 ms.date: 12/05/2018
 ms.keywords: HoldVariable, HoldVariable method [Windows Animation], HoldVariable method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],HoldVariable method, IUIAnimationStoryboard2.HoldVariable, IUIAnimationStoryboard2::HoldVariable, uianimation.iuianimationstoryboard2_holdvariable, uianimation/IUIAnimationStoryboard2::HoldVariable
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationStoryboard2.HoldVariable
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_item_indexing_status.htm
 ms.date: 12/05/2018
 ms.keywords: SEARCH_ITEM_INDEXING_STATUS, SEARCH_ITEM_INDEXING_STATUS structure [search], _search_SEARCH_ITEM_INDEXING_STATUS, search._search_SEARCH_ITEM_INDEXING_STATUS, searchapi/SEARCH_ITEM_INDEXING_STATUS
-ms.topic: struct
 f1_keywords:
 - searchapi/SEARCH_ITEM_INDEXING_STATUS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 2bbc0bef-55e5-4f11-a195-d379e95e44bf
 ms.date: 12/05/2018
 ms.keywords: GetLayout, GetLayout function [Windows GDI], _win32_GetLayout, gdi.getlayout, wingdi/GetLayout
-ms.topic: function
 f1_keywords:
 - wingdi/GetLayout
 dev_langs:

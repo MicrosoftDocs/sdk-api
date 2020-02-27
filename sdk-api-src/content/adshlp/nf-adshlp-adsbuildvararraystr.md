@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 7258a840-691a-4d9b-ab33-bcdf30fd1331
 ms.date: 12/05/2018
 ms.keywords: ADsBuildVarArrayStr, ADsBuildVarArrayStr function [ADSI], _ds_adsbuildvararraystr, adshlp/ADsBuildVarArrayStr, adsi.adsbuildvararraystr
-ms.topic: function
 f1_keywords:
 - adshlp/ADsBuildVarArrayStr
 dev_langs:

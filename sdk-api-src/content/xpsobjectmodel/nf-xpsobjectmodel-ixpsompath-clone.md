@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 4602f9fe-6001-4a5a-8870-f2a6e97ccc55
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],Clone method, IXpsOMPath.Clone, IXpsOMPath::Clone, xps.ixpsompath_clone, xpsobjectmodel/IXpsOMPath::Clone
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.Clone
 dev_langs:
@@ -122,7 +121,7 @@ Not enough memory to perform this operation.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

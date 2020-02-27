@@ -7,7 +7,6 @@ tech.root: input_ink
 ms.assetid: 032ba18b-dee4-4c94-a9b2-0e95f1013ae2
 ms.date: 12/05/2018
 ms.keywords: IInkHostWorkItem interface,Invoke method, IInkHostWorkItem.Invoke, IInkHostWorkItem::Invoke, InkPresenterDesktop.iinkhostworkitem_invoke, Invoke, Invoke method, Invoke method,IInkHostWorkItem interface, inkpresenterdesktop/IInkHostWorkItem::Invoke, input_ink.iinkhostworkitem_invoke
-ms.topic: method
 f1_keywords:
 - inkpresenterdesktop/IInkHostWorkItem.Invoke
 dev_langs:
@@ -74,7 +73,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620314">Complex ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex ink sample</a>
 
 
 
@@ -82,7 +81,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
 
 
 
@@ -94,7 +93,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620312">Simple ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
  
 
  

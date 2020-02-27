@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: df23e5af-c37e-4e60-b160-6ffa8f6a26e3
 ms.date: 12/05/2018
 ms.keywords: RollbackTransactionAsync, RollbackTransactionAsync function [Files], fs.rollbacktransactionasync, ktmw32/RollbackTransactionAsync
-ms.topic: function
 f1_keywords:
 - ktmw32/RollbackTransactionAsync
 dev_langs:

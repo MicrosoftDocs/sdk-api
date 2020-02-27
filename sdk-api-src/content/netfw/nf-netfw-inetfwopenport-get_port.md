@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 6e179f11-76c3-4403-9b42-2faad56629ed
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPort interface [ICS/ICF],Port property, INetFwOpenPort.Port, INetFwOpenPort.get_Port, INetFwOpenPort::Port, INetFwOpenPort::get_Port, INetFwOpenPort::put_Port, Port property [ICS/ICF], Port property [ICS/ICF],INetFwOpenPort interface, get_Port, ics.inetfwopenport_port, netfw/INetFwOpenPort::Port, netfw/INetFwOpenPort::get_Port, netfw/INetFwOpenPort::put_Port
-ms.topic: method
 f1_keywords:
 - netfw/INetFwOpenPort.Port
 dev_langs:

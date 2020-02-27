@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: d1922375-3d59-45a7-9d1d-08dbce1111ff
 ms.date: 12/05/2018
 ms.keywords: HTTP_INITIALIZE_CONFIG, HTTP_INITIALIZE_SERVER, HttpTerminate, HttpTerminate function [HTTP], _http_httpterminate, http.httpterminate, http/HttpTerminate
-ms.topic: function
 f1_keywords:
 - http/HttpTerminate
 dev_langs:

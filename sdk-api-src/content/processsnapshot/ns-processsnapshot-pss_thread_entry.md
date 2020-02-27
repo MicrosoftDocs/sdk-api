@@ -7,7 +7,6 @@ tech.root: proc_snap
 ms.assetid: 99C89DBB-8C12-482E-B33D-AE59C37662CF
 ms.date: 12/05/2018
 ms.keywords: PSS_THREAD_ENTRY, PSS_THREAD_ENTRY structure, proc_snap.pss_thread_entry, processsnapshot/PSS_THREAD_ENTRY
-ms.topic: struct
 f1_keywords:
 - processsnapshot/PSS_THREAD_ENTRY
 dev_langs:

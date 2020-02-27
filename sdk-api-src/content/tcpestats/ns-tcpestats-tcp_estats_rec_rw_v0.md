@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: e780ae7b-30c6-4890-8a8b-9e0b2739c176
 ms.date: 12/05/2018
 ms.keywords: '*PTCP_ESTATS_REC_RW_v0, PTCP_ESTATS_REC_RW_v0, PTCP_ESTATS_REC_RW_v0 structure pointer [IP Helper], TCP_ESTATS_REC_RW_v0, TCP_ESTATS_REC_RW_v0 structure [IP Helper], iphlp.tcp_estats_rec_rw_v0, tcpestats/PTCP_ESTATS_REC_RW_v0, tcpestats/TCP_ESTATS_REC_RW_v0'
-ms.topic: struct
 f1_keywords:
 - tcpestats/TCP_ESTATS_REC_RW_v0
 dev_langs:

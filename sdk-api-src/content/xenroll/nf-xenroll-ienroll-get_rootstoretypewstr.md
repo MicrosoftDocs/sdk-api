@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 42e50e99-a5ef-40b7-b6ef-c86272d1cd0d
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],RootStoreTypeWStr property, IEnroll.RootStoreTypeWStr, IEnroll.get_RootStoreTypeWStr, IEnroll::RootStoreTypeWStr, IEnroll::get_RootStoreTypeWStr, IEnroll::put_RootStoreTypeWStr, RootStoreTypeWStr property [Security], RootStoreTypeWStr property [Security],IEnroll interface, get_RootStoreTypeWStr, security.ienroll4_rootstoretypewstr, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/IEnroll::RootStoreTypeWStr, xenroll/IEnroll::get_RootStoreTypeWStr, xenroll/IEnroll::put_RootStoreTypeWStr
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll.RootStoreTypeWStr
 dev_langs:

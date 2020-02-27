@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 818fe18b-04ed-4f54-aeb7-b19aafc8a51a
 ms.date: 12/05/2018
 ms.keywords: ITransactionContext, ITransactionContext interface [COM+], ITransactionContext interface [COM+],described, _cos_ITransactionContext_Interface, comsvcs/ITransactionContext, cos.itransactioncontext
-ms.topic: interface
 f1_keywords:
 - comsvcs/ITransactionContext
 dev_langs:

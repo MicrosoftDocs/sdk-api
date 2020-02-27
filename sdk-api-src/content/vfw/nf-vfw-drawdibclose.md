@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 61f9784e-4992-43d2-9770-17c3a8e5078b
 ms.date: 12/05/2018
 ms.keywords: DrawDibClose, DrawDibClose function [Windows Multimedia], _win32_DrawDibClose, multimedia.drawdibclose, vfw/DrawDibClose
-ms.topic: function
 f1_keywords:
 - vfw/DrawDibClose
 dev_langs:

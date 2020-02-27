@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 1b1f3437-41db-403e-abdb-febbfe90858c
 ms.date: 12/05/2018
 ms.keywords: GetSupportedLbPolicies, GetSupportedLbPolicies method [VDS], GetSupportedLbPolicies method [VDS],IVdsLunMpio interface, IVdsLunMpio interface [VDS],GetSupportedLbPolicies method, IVdsLunMpio.GetSupportedLbPolicies, IVdsLunMpio::GetSupportedLbPolicies, base.ivdslunmpio_getsupportedlbpolicies, vds/IVdsLunMpio::GetSupportedLbPolicies, vdshwprv/IVdsLunMpio::GetSupportedLbPolicies
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsLunMpio.GetSupportedLbPolicies
 dev_langs:

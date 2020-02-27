@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: a7855015-32db-48ff-8f8d-3d84d2843fde
 ms.date: 12/05/2018
 ms.keywords: IXpsPrintJobStream, IXpsPrintJobStream interface [Windows GDI], IXpsPrintJobStream interface [Windows GDI],described, gdi.ixpsprintjobstream, xpsprint/IXpsPrintJobStream
-ms.topic: interface
 f1_keywords:
 - xpsprint/IXpsPrintJobStream
 dev_langs:
@@ -112,7 +111,7 @@ Closes the stream and indicates that the entire document has been written.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

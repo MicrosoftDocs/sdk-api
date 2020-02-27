@@ -7,7 +7,6 @@ tech.root: tcui
 ms.assetid: 301AB1B0-BABA-4971-A301-5AEDD2F32B31
 ms.date: 12/05/2018
 ms.keywords: PlayerPickerUICompletionRoutine, PlayerPickerUICompletionRoutine callback, PlayerPickerUICompletionRoutine callback function, gamingtcui/PlayerPickerUICompletionRoutine, tcui.playerpickeruicompletionroutine
-ms.topic: callback
 f1_keywords:
 - gamingtcui/PlayerPickerUICompletionRoutine
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Do not use. This API is only supported for Xbox developers.
 
-To learn more about becoming a Xbox developer, see <a href="http://go.microsoft.com/fwlink/p/?linkid=623248">Developing Games for Xbox One and Windows 10</a>.
+To learn more about becoming a Xbox developer, see <a href="https://www.xbox.com/Developers">Developing Games for Xbox One and Windows 10</a>.
 
 
 ## -parameters

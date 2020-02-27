@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 74d92e84-9819-49ed-bd56-26d6768f3ed0
 ms.date: 12/05/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],RemoveParent method, IESEventServiceConfiguration.RemoveParent, IESEventServiceConfiguration::RemoveParent, RemoveParent, RemoveParent method [Microsoft TV Technologies], RemoveParent method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_removeparent, tuner/IESEventServiceConfiguration::RemoveParent
-ms.topic: method
 f1_keywords:
 - tuner/IESEventServiceConfiguration.RemoveParent
 dev_langs:

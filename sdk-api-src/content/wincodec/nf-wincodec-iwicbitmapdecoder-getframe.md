@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 5e8c1cfd-50f3-431c-aedb-6e57d1368695
 ms.date: 12/05/2018
 ms.keywords: GetFrame, GetFrame method [Windows Imaging Component], GetFrame method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetFrame method, IWICBitmapDecoder.GetFrame, IWICBitmapDecoder::GetFrame, _wic_codec_iwicbitmapdecoder_getframe, wic._wic_codec_iwicbitmapdecoder_getframe, wincodec/IWICBitmapDecoder::GetFrame
-ms.topic: method
 f1_keywords:
 - wincodec/IWICBitmapDecoder.GetFrame
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f74e55d4-2d51-47a9-aca8-dd4e616a6253
 ms.date: 12/05/2018
 ms.keywords: FindPin, FindPin method [DirectShow], FindPin method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],FindPin method, ICaptureGraphBuilder2.FindPin, ICaptureGraphBuilder2::FindPin, ICaptureGraphBuilder2FindPin, dshow.icapturegraphbuilder2_findpin, strmif/ICaptureGraphBuilder2::FindPin
-ms.topic: method
 f1_keywords:
 - strmif/ICaptureGraphBuilder2.FindPin
 dev_langs:
@@ -69,7 +68,7 @@ Pointer to an interface on a filter, or to an interface on a pin.
 
 ### -param pindir [in]
 
-Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-pin_direction">PIN_DIRECTION</a> enumeration that specifies the pin direction (input or output).
+Member of the [PIN_DIRECTION](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-pin_direction) enumeration that specifies the pin direction (input or output).
 
 
 ### -param pCategory [in]

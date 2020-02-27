@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 83285a6a-903f-4c23-8f62-b04bbeaa52f9
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolShadowConnection, IWTSProtocolShadowConnection interface [Remote Desktop Services], IWTSProtocolShadowConnection interface [Remote Desktop Services],described, termserv.iwtsprotocolshadowconnection, wtsprotocol/IWTSProtocolShadowConnection
-ms.topic: interface
 f1_keywords:
 - wtsprotocol/IWTSProtocolShadowConnection
 dev_langs:

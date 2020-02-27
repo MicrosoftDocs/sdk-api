@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: b0c44a37-e7fb-4079-a299-cb09635f61ca
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],Clone method, IXpsOMLinearGradientBrush.Clone, IXpsOMLinearGradientBrush::Clone, xps.ixpsomlineargradientbrush_clone, xpsobjectmodel/IXpsOMLinearGradientBrush::Clone
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMLinearGradientBrush.Clone
 dev_langs:
@@ -131,7 +130,7 @@ This method does not update any of the resource pointers in the copy.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

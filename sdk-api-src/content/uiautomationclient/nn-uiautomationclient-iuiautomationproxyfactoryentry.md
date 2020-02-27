@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 0507deef-35dc-45bb-a7c1-82b84344ee17
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationProxyFactoryEntry, IUIAutomationProxyFactoryEntry interface [Windows Accessibility], IUIAutomationProxyFactoryEntry interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationProxyFactoryEntry, uiauto_IUIAutomationProxyFactoryEntry, uiautomationclient/IUIAutomationProxyFactoryEntry, winauto.uiauto_IUIAutomationProxyFactoryEntry
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationProxyFactoryEntry
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 62ef4fe6-3871-41ef-9542-6fe9f3bed21c
 ms.date: 12/05/2018
 ms.keywords: IDropSourceNotify, IDropSourceNotify interface [COM], IDropSourceNotify interface [COM],described, _ole_idropsourcenotify, com.idropsourcenotify, oleidl/IDropSourceNotify
-ms.topic: interface
 f1_keywords:
 - oleidl/IDropSourceNotify
 dev_langs:

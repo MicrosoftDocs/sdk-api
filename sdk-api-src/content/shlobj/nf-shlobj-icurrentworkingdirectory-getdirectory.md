@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 763c042b-2780-4202-9c3e-073cc8adc93a
 ms.date: 12/05/2018
 ms.keywords: GetDirectory, GetDirectory method [Windows Shell], GetDirectory method [Windows Shell],ICurrentWorkingDirectory interface, ICurrentWorkingDirectory interface [Windows Shell],GetDirectory method, ICurrentWorkingDirectory.GetDirectory, ICurrentWorkingDirectory::GetDirectory, _win32_ICurrentWorkingDirectory_GetDirectory, shell.ICurrentWorkingDirectory_GetDirectory, shlobj/ICurrentWorkingDirectory::GetDirectory
-ms.topic: method
 f1_keywords:
 - shlobj/ICurrentWorkingDirectory.GetDirectory
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: AC295919-747B-445D-8C74-E648A612C0BF
 ms.date: 12/05/2018
 ms.keywords: CancelTimelineMarkerTimer, CancelTimelineMarkerTimer method [Media Foundation], CancelTimelineMarkerTimer method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],CancelTimelineMarkerTimer method, IMFMediaEngineEx.CancelTimelineMarkerTimer, IMFMediaEngineEx::CancelTimelineMarkerTimer, mf.imfmediaengineex_canceltimelinemarkertimer, mfmediaengine/IMFMediaEngineEx::CancelTimelineMarkerTimer
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineEx.CancelTimelineMarkerTimer
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 49969e6d-c893-4f6f-8c1d-87d32405a65d
 ms.date: 12/05/2018
 ms.keywords: 49969e6d-c893-4f6f-8c1d-87d32405a65d, GetInput, GetInput method [Media Foundation], GetInput method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetInput method, IMFTopologyNode.GetInput, IMFTopologyNode::GetInput, mf.imftopologynode_getinput, mfidl/IMFTopologyNode::GetInput
-ms.topic: method
 f1_keywords:
 - mfidl/IMFTopologyNode.GetInput
 dev_langs:

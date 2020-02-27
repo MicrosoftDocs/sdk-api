@@ -7,7 +7,6 @@ tech.root: SbsCs
 ms.assetid: 7d45f63f-0baf-4236-b245-d36f9eb32e8c
 ms.date: 12/05/2018
 ms.keywords: ActivationContextBasicInformation, ActivationContextDetailedInformation, AssemblyDetailedInformationInActivationContext, CompatibilityInformationInActivationContext, FileInformationInAssemblyOfAssemblyInActivationContext, QUERY_ACTCTX_FLAG_ACTCTX_IS_ADDRESS, QUERY_ACTCTX_FLAG_ACTCTX_IS_HMODULE, QUERY_ACTCTX_FLAG_USE_ACTIVE_ACTCTX, QueryActCtxW, QueryActCtxW function [Side-by-side Assemblies], RunlevelInformationInActivationContext, _win32_queryactctxw, setup.queryactctxw, winbase/QueryActCtxW
-ms.topic: function
 f1_keywords:
 - winbase/QueryActCtxW
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 1193eba3-a01b-4ee3-a83d-25dcdbc15de0
 ms.date: 12/05/2018
 ms.keywords: WscGetSecurityProviderHealth, WscGetSecurityProviderHealth function [Windows API], winprog.wscgetsecurityproviderhealth, wscapi/WscGetSecurityProviderHealth
-ms.topic: function
 f1_keywords:
 - wscapi/WscGetSecurityProviderHealth
 dev_langs:

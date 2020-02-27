@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 05BF6434-A80F-4BF5-9A43-C4D65E72F43B
 ms.date: 12/05/2018
 ms.keywords: GetGeoInfoEx, GetGeoInfoEx function [Internationalization for Windows Applications], intl.getgeoinfoex, winnls/GetGeoInfoEx
-ms.topic: function
 f1_keywords:
 - winnls/GetGeoInfoEx
 dev_langs:
@@ -160,7 +159,7 @@ The values supplied for flags were not valid.
 
 
 
-For information about two-letter ISO 3166-1 codes, see <a href="https://go.microsoft.com/fwlink/p/?linkid=859039">Country Codes - ISO 3166</a>.  For information about numeric UN M.49 codes, see <a href="https://go.microsoft.com/fwlink/p/?linkid=859018">Standard country or area codes for statistical use (M49)</a>.
+For information about two-letter ISO 3166-1 codes, see <a href="https://www.iso.org/iso-3166-country-codes.html">Country Codes - ISO 3166</a>.  For information about numeric UN M.49 codes, see <a href="https://unstats.un.org/unsd/methodology/m49/">Standard country or area codes for statistical use (M49)</a>.
 
 
 

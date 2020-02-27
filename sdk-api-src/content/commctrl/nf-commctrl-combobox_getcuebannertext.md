@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getcuebannertext.htm
 ms.date: 12/05/2018
 ms.keywords: ComboBox_GetCueBannerText, ComboBox_GetCueBannerText macro [Windows Controls], _shell_ComboBox_GetCueBannerText, _shell_ComboBox_GetCueBannerText_cpp, commctrl/ComboBox_GetCueBannerText, controls.ComboBox_GetCueBannerText, controls._shell_ComboBox_GetCueBannerText
-ms.topic: macro
 f1_keywords:
 - commctrl/ComboBox_GetCueBannerText
 dev_langs:

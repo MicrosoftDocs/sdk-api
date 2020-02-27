@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: b700a195-57c4-481a-93d2-82d543f5c6c6
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpEndResolve, PeerPnrpEndResolve function [Peer Networking], p2p.peerpnrpendresolve, p2p/PeerPnrpEndResolve
-ms.topic: function
 f1_keywords:
 - p2p/PeerPnrpEndResolve
 dev_langs:

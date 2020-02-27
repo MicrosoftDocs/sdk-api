@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 6ba9a080-f74a-4c3d-b264-8fbd768f3e6e
 ms.date: 12/05/2018
 ms.keywords: MCIWndCanPlay, MCIWndCanPlay macro [Windows Multimedia], _win32_MCIWndCanPlay, multimedia.mciwndcanplay, vfw/MCIWndCanPlay
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndCanPlay
 dev_langs:

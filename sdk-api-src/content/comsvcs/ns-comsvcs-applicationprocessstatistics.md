@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 7ce16cef-baa4-491c-89e7-f6283e1a646f
 ms.date: 12/05/2018
 ms.keywords: ApplicationProcessStatistics, ApplicationProcessStatistics structure [COM+], comsvcs/ApplicationProcessStatistics, cos.applicationprocessstatistics
-ms.topic: struct
 f1_keywords:
 - comsvcs/ApplicationProcessStatistics
 dev_langs:

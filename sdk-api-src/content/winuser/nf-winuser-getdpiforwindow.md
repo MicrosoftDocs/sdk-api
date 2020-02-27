@@ -7,7 +7,6 @@ tech.root: hidpi
 ms.assetid: E9F7BCFA-4215-44C0-95FB-57C28325720C
 ms.date: 12/05/2018
 ms.keywords: GetDpiForWindow, GetDpiForWindow function [High DPI], hidpi.getdpiforwindow, winuser/GetDpiForWindow
-ms.topic: function
 f1_keywords:
 - winuser/GetDpiForWindow
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 5ea2569f-a15b-47f4-8d86-0bc005019984
 ms.date: 12/05/2018
 ms.keywords: '*LPMMCKINFO, *NPMMCKINFO, *PMMCKINFO, MMCKINFO, MMCKINFO structure [Windows Multimedia], MMIO_DIRTY, _MMCKINFO, _win32_MMCKINFO_str, mmiscapi/MMCKINFO, multimedia.mmckinfo'
-ms.topic: struct
 f1_keywords:
 - mmiscapi/MMCKINFO
 dev_langs:

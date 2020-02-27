@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 7bc4bcb7-3f85-4349-a1da-c4ebee2d3e3f
 ms.date: 12/05/2018
 ms.keywords: IsDebuggerPresent, IsDebuggerPresent function, _win32_isdebuggerpresent, base.isdebuggerpresent, debugapi/IsDebuggerPresent
-ms.topic: function
 f1_keywords:
 - debugapi/IsDebuggerPresent
 dev_langs:

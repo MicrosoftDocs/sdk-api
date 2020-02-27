@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 20c9fe5b-ed88-4e2c-bca5-eba62f919fe6
 ms.date: 12/05/2018
 ms.keywords: SetupDiDeleteDeviceInterfaceData, SetupDiDeleteDeviceInterfaceData function [Device and Driver Installation], devinst.setupdideletedeviceinterfacedata, di-rtns_6694af3a-5716-4ee6-b10e-2603dc341781.xml, setupapi/SetupDiDeleteDeviceInterfaceData
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiDeleteDeviceInterfaceData
 dev_langs:
@@ -72,7 +71,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi
 
 
 
-<b>SetupDiDeleteDeviceInterfaceData</b> returns <b>TRUE</b> if the function completed without error. If the function completed with an error, it returns <b>FALSE</b> and the error code for the failure can be retrieved by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+<b>SetupDiDeleteDeviceInterfaceData</b> returns <b>TRUE</b> if the function completed without error. If the function completed with an error, it returns <b>FALSE</b> and the error code for the failure can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 

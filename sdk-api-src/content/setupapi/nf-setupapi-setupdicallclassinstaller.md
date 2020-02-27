@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 2aa631c3-8d00-4309-a37c-efaa7eda3efa
 ms.date: 12/05/2018
 ms.keywords: SetupDiCallClassInstaller, SetupDiCallClassInstaller function [Device and Driver Installation], devinst.setupdicallclassinstaller, di-rtns_eff914b0-a2db-4eb5-a9b8-f2990efcf252.xml, setupapi/SetupDiCallClassInstaller
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiCallClassInstaller
 dev_langs:
@@ -82,8 +81,10 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
+
+When GetLastError returns <b>ERROR_IN_WOW64</b>, this means that the calling application is a 32-bit application attempting to execute in a 64-bit environment, which is not allowed.
 
 
 

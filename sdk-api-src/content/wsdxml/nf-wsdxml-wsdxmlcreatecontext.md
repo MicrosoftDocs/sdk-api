@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: fb0d8c28-1dc3-43be-a1cf-c00de6c1f43e
 ms.date: 12/05/2018
 ms.keywords: WSDXMLCreateContext, WSDXMLCreateContext function, ncd.wsdxmlcreatecontext, wsdxml/WSDXMLCreateContext
-ms.topic: function
 f1_keywords:
 - wsdxml/WSDXMLCreateContext
 dev_langs:

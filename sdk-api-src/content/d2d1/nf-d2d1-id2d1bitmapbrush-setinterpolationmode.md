@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: ad2a4211-c8ae-4242-9d6a-6548375f52a7
 ms.date: 12/05/2018
 ms.keywords: ID2D1BitmapBrush interface [Direct2D],SetInterpolationMode method, ID2D1BitmapBrush.SetInterpolationMode, ID2D1BitmapBrush::SetInterpolationMode, SetInterpolationMode, SetInterpolationMode method [Direct2D], SetInterpolationMode method [Direct2D],ID2D1BitmapBrush interface, d2d1/ID2D1BitmapBrush::SetInterpolationMode, direct2d.ID2D1BitmapBrush_SetInterpolationMode
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1BitmapBrush.SetInterpolationMode
 dev_langs:

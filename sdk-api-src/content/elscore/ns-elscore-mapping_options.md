@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 228625b3-928c-451f-9a3f-7eb3130ac622
 ms.date: 12/05/2018
 ms.keywords: '*PMAPPING_OPTIONS, MAPPING_OPTIONS, MAPPING_OPTIONS structure [Internationalization for Windows Applications], PMAPPING_OPTIONS, PMAPPING_OPTIONS structure pointer [Internationalization for Windows Applications], elscore/MAPPING_OPTIONS, elscore/PMAPPING_OPTIONS, intl.mappingoptions'
-ms.topic: struct
 f1_keywords:
 - elscore/MAPPING_OPTIONS
 dev_langs:
@@ -91,7 +90,7 @@ Optional. Pointer to a standard Unicode script name that the service should use 
 
 Optional. Pointer to a string, following the format of the MIME content types, that identifies the format that the service should be able to interpret when the application passes data. Examples of content types are "text/plain", "text/html", and "text/css". The application can set this member to <b>NULL</b> to indicate the "text/plain" content type. 
 
-<div class="alert"><b>Note</b>  In Windows 7, the ELS services support only the content type "text/plain". A content type specification can be found at <a href="http://go.microsoft.com/fwlink/p/?linkid=161570">Text Media Types</a>.</div>
+<div class="alert"><b>Note</b>  In Windows 7, the ELS services support only the content type "text/plain". A content type specification can be found at <a href="https://www.iana.org/assignments/media-types/text">Text Media Types</a>.</div>
 <div> </div>
 
 ### -field pszOutputContentType

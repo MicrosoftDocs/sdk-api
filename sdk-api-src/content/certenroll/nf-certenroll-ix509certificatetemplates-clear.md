@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: e0f39478-f68b-4227-8e5f-812796feffc7
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509CertificateTemplates interface, IX509CertificateTemplates interface [Security],Clear method, IX509CertificateTemplates.Clear, IX509CertificateTemplates::Clear, certenroll/IX509CertificateTemplates::Clear, security.ix509certificatetemplates_clear
-ms.topic: method
 f1_keywords:
 - certenroll/IX509CertificateTemplates.Clear
 dev_langs:

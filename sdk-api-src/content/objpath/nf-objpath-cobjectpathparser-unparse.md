@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 6135b808-b9eb-4ba0-9eb8-e7a59993ae34
 ms.date: 12/05/2018
 ms.keywords: CObjectPathParser interface [Windows Management Instrumentation],UnParse method, CObjectPathParser.Unparse, CObjectPathParser::UnParse, CObjectPathParser::Unparse, UnParse method [Windows Management Instrumentation], UnParse method [Windows Management Instrumentation],CObjectPathParser interface, Unparse, objpath/CObjectPathParser::UnParse, wmi.cobjectpathparser_unparse
-ms.topic: method
 f1_keywords:
 - objpath/CObjectPathParser.UnParse
 dev_langs:

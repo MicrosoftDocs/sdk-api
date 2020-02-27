@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e92681d4-2c77-4c72-b3ad-f0a6be7920e2
 ms.date: 12/05/2018
 ms.keywords: IMediaParams interface [DirectShow],SetParam method, IMediaParams.SetParam, IMediaParams::SetParam, IMediaParamsSetParam, SetParam, SetParam method [DirectShow], SetParam method [DirectShow],IMediaParams interface, dshow.imediaparams_setparam, medparam/IMediaParams::SetParam
-ms.topic: method
 f1_keywords:
 - medparam/IMediaParams.SetParam
 dev_langs:

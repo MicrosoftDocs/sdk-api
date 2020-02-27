@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 5b3c28ed-ed2c-4d65-a641-a653eddd021e
 ms.date: 12/05/2018
 ms.keywords: WS_XML_STRING_DESCRIPTION, WS_XML_STRING_DESCRIPTION structure [Web Services for Windows], webservices/WS_XML_STRING_DESCRIPTION, wsw.ws_xml_string_description
-ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_STRING_DESCRIPTION
 dev_langs:

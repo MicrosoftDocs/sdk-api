@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: e0eecf0e-e6b2-4df9-8a8e-766ee5c8189f
 ms.date: 12/05/2018
 ms.keywords: FwpmSystemPortsSubscribe0, FwpmSystemPortsSubscribe0 function [Filtering], fwp.fwpmsystemportssubscribe0, fwpmu/FwpmSystemPortsSubscribe0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmSystemPortsSubscribe0
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: 58f413c4-7b4c-47bd-8991-ffe681e96f48
 ms.date: 12/05/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetConfig method, IDirectInputJoyConfig8.SetConfig, IDirectInputJoyConfig8::SetConfig, SetConfig, SetConfig method [Human Input Devices], SetConfig method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_e9168f2d-cee8-4cac-8299-65360fd784f1.xml, dinputd/IDirectInputJoyConfig8::SetConfig, hid.idirectinputjoyconfig8_setconfig
-ms.topic: method
 f1_keywords:
 - dinputd/IDirectInputJoyConfig8.SetConfig
 dev_langs:

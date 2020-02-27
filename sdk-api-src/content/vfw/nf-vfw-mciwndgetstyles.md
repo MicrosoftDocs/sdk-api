@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 06d022a7-7772-4442-b21c-4f18e9eedbc3
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetStyles, MCIWndGetStyles macro [Windows Multimedia], _win32_MCIWndGetStyles, multimedia.mciwndgetstyles, vfw/MCIWndGetStyles
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndGetStyles
 dev_langs:

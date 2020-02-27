@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: f40705bf-46a9-464d-a545-1d68d89876c2
 ms.date: 12/05/2018
 ms.keywords: IVssComponentEx2, IVssComponentEx2 interface, IVssComponentEx2 interface,described, base.ivsscomponentex2, vswriter/IVssComponentEx2
-ms.topic: class
 f1_keywords:
 - vswriter/IVssComponentEx2
 dev_langs:
@@ -56,7 +55,7 @@ Defines additional methods for reporting and retrieving component-level writer e
 The <b>IVssComponentEx2</b> interface is a C++ (not COM) interface.
 
 To obtain an instance of the <b>IVssComponentEx2</b> 
-   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of the 
+   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> interface and pass 
    the <b>IID_IVssComponentEx2</b> constant as the interface identifier (IID) parameter.
 

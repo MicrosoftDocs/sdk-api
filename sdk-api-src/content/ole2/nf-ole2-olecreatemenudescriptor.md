@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: b4a6b3f1-aee9-4b68-8ffe-24bd497db0a0
 ms.date: 12/05/2018
 ms.keywords: OleCreateMenuDescriptor, OleCreateMenuDescriptor function [COM], _ole_OleCreateMenuDescriptor, com.olecreatemenudescriptor, ole2/OleCreateMenuDescriptor
-ms.topic: function
 f1_keywords:
 - ole2/OleCreateMenuDescriptor
 dev_langs:

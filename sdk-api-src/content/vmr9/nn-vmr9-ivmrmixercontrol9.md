@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f311303a-8270-40b6-8153-e0bd8b232c69
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl9, IVMRMixerControl9 interface [DirectShow], IVMRMixerControl9 interface [DirectShow],described, IVMRMixerControl9Interface, dshow.ivmrmixercontrol9, vmr9/IVMRMixerControl9
-ms.topic: interface
 f1_keywords:
 - vmr9/IVMRMixerControl9
 dev_langs:
@@ -196,7 +195,7 @@ Sets this video stream's position in the Z-order.
 
 
 
-The VMR-9 supports this interface in mixing mode only. To enable mixing mode, call <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setnumberofstreams">IVMRFilterConfig9::SetNumberOfStreams</a>. Otherwise, <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> returns <b>E_NOINTERFACE</b>. 
+The VMR-9 supports this interface in mixing mode only. To enable mixing mode, call <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setnumberofstreams">IVMRFilterConfig9::SetNumberOfStreams</a>. Otherwise, <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> returns <b>E_NOINTERFACE</b>. 
 
 Include DShow.h and D3d9.h before Vmr9.h.
       

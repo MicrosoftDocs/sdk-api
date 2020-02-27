@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 16071086-66fe-428e-9bd5-dd0b31cf7b15
 ms.date: 12/05/2018
 ms.keywords: GetClusterResourceDependencyExpression, GetClusterResourceDependencyExpression function [Failover Cluster], PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION, PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION function [Failover Cluster], clusapi/GetClusterResourceDependencyExpression, clusapi/PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION, mscs.getclusterresourcedependencyexpression
-ms.topic: function
 f1_keywords:
 - clusapi/GetClusterResourceDependencyExpression
 dev_langs:

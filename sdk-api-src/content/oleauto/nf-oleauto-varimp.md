@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: c8d846dd-97c3-4e7d-af4f-632f04be75cf
 ms.date: 12/05/2018
 ms.keywords: VarImp, VarImp function [Automation], _oa96_VarImp, automat.varimp, oleauto/VarImp
-ms.topic: function
 f1_keywords:
 - oleauto/VarImp
 dev_langs:

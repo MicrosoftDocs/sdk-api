@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4AngleBetweenNormals(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4AngleBetweenNormals, XMVector4AngleBetweenNormals, XMVector4AngleBetweenNormals method [DirectX Math Support APIs], dxmath.xmvector4anglebetweennormals
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector4AngleBetweenNormals
 dev_langs:

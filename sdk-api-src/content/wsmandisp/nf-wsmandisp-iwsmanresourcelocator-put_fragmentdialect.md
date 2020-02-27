@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: eb458fc4-ddcc-42a2-8dd3-05498e035de2
 ms.date: 12/05/2018
 ms.keywords: FragmentDialect property [Windows Remote Management], FragmentDialect property [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],FragmentDialect property, IWSManResourceLocator.FragmentDialect, IWSManResourceLocator.put_FragmentDialect, IWSManResourceLocator::FragmentDialect, IWSManResourceLocator::get_FragmentDialect, IWSManResourceLocator::put_FragmentDialect, put_FragmentDialect, winrm.iwsmanresourcelocator_fragmentdialect, wsmandisp/IWSManResourceLocator::FragmentDialect, wsmandisp/IWSManResourceLocator::get_FragmentDialect, wsmandisp/IWSManResourceLocator::put_FragmentDialect
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManResourceLocator.FragmentDialect
 dev_langs:
@@ -64,7 +63,7 @@ This property is read/write.
 
 
 
-The dialect string defaults to the XPath 1.0 specification. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84163">http://www.w3.org/TR/xpath</a>.
+The dialect string defaults to the XPath 1.0 specification. For more information, see <a href="https://www.w3.org/TR/xpath">http://www.w3.org/TR/xpath</a>.
 
 
 

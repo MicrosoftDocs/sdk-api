@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: b414bdbc-0f49-4a00-9b25-fa738f5f880b
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_ExpectedTableOfContents method, IDiscFormat2TrackAtOnce.get_ExpectedTableOfContents, IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents, get_ExpectedTableOfContents, get_ExpectedTableOfContents method [IMAPI], get_ExpectedTableOfContents method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_expectedtableofcontents, imapi2/IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2TrackAtOnce.get_ExpectedTableOfContents
 dev_langs:

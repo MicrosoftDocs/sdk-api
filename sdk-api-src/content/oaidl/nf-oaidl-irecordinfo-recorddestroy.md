@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 36faf2f6-ecb5-4d6f-a05d-a37ae21a8f07
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo interface [Automation],RecordDestroy method, IRecordInfo.RecordDestroy, IRecordInfo::RecordDestroy, RecordDestroy, RecordDestroy method [Automation], RecordDestroy method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordDestroy, automat.irecordinfo_recorddestroy, oaidl/IRecordInfo::RecordDestroy
-ms.topic: method
 f1_keywords:
 - oaidl/IRecordInfo.RecordDestroy
 dev_langs:

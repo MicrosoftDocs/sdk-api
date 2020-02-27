@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 7abc17b1-5ce7-4741-9a6a-d5a444046418
 ms.date: 12/05/2018
 ms.keywords: WMPTaskType, WMPTaskType enumeration [Windows Media Player], contentpartner/WMPTaskType, contentpartner/wmpttBrowse, contentpartner/wmpttBurn, contentpartner/wmpttCurrent, contentpartner/wmpttSync, enumeration [Windows Media Player], wmp.wmptasktype, wmpttBrowse, wmpttBurn, wmpttCurrent, wmpttSync
-ms.topic: enum
 f1_keywords:
 - contentpartner/WMPTaskType
 dev_langs:

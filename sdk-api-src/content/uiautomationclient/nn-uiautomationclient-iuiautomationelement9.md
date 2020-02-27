@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 
 ms.date: 04/29/2019
 ms.keywords: IUIAutomationElement9, IUIAutomationElement9 interface [Windows Accessibility], IUIAutomationElement9 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationElement9, winauto.uiauto_IUIAutomationElement9
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationElement9
 dev_langs:

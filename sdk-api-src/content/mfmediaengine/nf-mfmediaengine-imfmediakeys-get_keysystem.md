@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: d60ee85b-b5fc-4d06-a3a2-f61ff3635d99
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeys interface [Media Foundation],get_KeySystem method, IMFMediaKeys.get_KeySystem, IMFMediaKeys::get_KeySystem, get_KeySystem, get_KeySystem method [Media Foundation], get_KeySystem method [Media Foundation],IMFMediaKeys interface, mf.imfmediakeys_get_keysystem, mfmediaengine/IMFMediaKeys::get_KeySystem
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaKeys.get_KeySystem
 dev_langs:

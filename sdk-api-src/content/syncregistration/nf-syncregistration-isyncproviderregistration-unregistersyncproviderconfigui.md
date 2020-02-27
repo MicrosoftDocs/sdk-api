@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 14d0ab85-afd7-4615-8606-ec403a3dd453
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderRegistration interface [Windows Sync],UnregisterSyncProviderConfigUI method, ISyncProviderRegistration.UnregisterSyncProviderConfigUI, ISyncProviderRegistration::UnregisterSyncProviderConfigUI, UnregisterSyncProviderConfigUI, UnregisterSyncProviderConfigUI method [Windows Sync], UnregisterSyncProviderConfigUI method [Windows Sync],ISyncProviderRegistration interface, syncregistration/ISyncProviderRegistration::UnregisterSyncProviderConfigUI, winsync.isyncproviderregistration_unregistersyncproviderconfigui
-ms.topic: method
 f1_keywords:
 - syncregistration/ISyncProviderRegistration.UnregisterSyncProviderConfigUI
 dev_langs:

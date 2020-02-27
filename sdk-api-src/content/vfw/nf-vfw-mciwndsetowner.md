@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 909f5cba-9078-47e8-bc14-a42f1689a2c5
 ms.date: 12/05/2018
 ms.keywords: MCIWndSetOwner, MCIWndSetOwner macro [Windows Multimedia], _win32_MCIWndSetOwner, multimedia.mciwndsetowner, vfw/MCIWndSetOwner
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndSetOwner
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 727945e7-b876-460e-9b06-8d03734f53b2
 ms.date: 12/05/2018
 ms.keywords: CreateRange, CreateRange method [Text Services Framework], CreateRange method [Text Services Framework],ITextStoreACPServices interface, ITextStoreACPServices interface [Text Services Framework],CreateRange method, ITextStoreACPServices.CreateRange, ITextStoreACPServices::CreateRange, _tsf_itextstoreacpservices_createrange_ref, msctf/ITextStoreACPServices::CreateRange, tsf.itextstoreacpservices_createrange
-ms.topic: method
 f1_keywords:
 - msctf/ITextStoreACPServices.CreateRange
 dev_langs:

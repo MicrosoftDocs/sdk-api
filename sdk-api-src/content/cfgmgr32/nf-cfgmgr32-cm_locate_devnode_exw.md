@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 255d828c-5a71-4d53-80ee-b0a0b3e97414
 ms.date: 12/05/2018
 ms.keywords: CM_Locate_DevNode_Ex, CM_Locate_DevNode_Ex function [Device and Driver Installation], CM_Locate_DevNode_ExW, cfgmgr32/CM_Locate_DevNode_Ex, cfgmgr32/CM_Locate_DevNode_ExW, cfgmgrfn_33bc675e-9f3a-4485-ac79-1ce406cc43bf.xml, devinst.cm_locate_devnode_ex
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Locate_DevNode_Ex
 dev_langs:

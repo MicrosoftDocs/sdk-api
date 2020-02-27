@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitemextras\getextendederrorinfo.htm
 ms.date: 12/05/2018
 ms.keywords: GetExtendedErrorInfo, GetExtendedErrorInfo method [WIA], GetExtendedErrorInfo method [WIA],IWiaItemExtras interface, IWiaItemExtras interface [WIA],GetExtendedErrorInfo method, IWiaItemExtras.GetExtendedErrorInfo, IWiaItemExtras::GetExtendedErrorInfo, _wia_IWiaItemExtras_GetExtendedErrorInfo, wia._wia_IWiaItemExtras_GetExtendedErrorInfo, wia_xp/IWiaItemExtras::GetExtendedErrorInfo
-ms.topic: method
 f1_keywords:
 - wia_xp/IWiaItemExtras.GetExtendedErrorInfo
 dev_langs:

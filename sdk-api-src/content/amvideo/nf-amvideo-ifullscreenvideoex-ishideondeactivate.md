@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0196215f-4efe-418a-acf3-445b8224a2ab
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],IsHideOnDeactivate method, IFullScreenVideoEx.IsHideOnDeactivate, IFullScreenVideoEx::IsHideOnDeactivate, IFullScreenVideoIsHideOnDeactivate, IsHideOnDeactivate, IsHideOnDeactivate method [DirectShow], IsHideOnDeactivate method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsHideOnDeactivate, dshow.ifullscreenvideoex_ishideondeactivate
-ms.topic: method
 f1_keywords:
 - amvideo/IFullScreenVideoEx.IsHideOnDeactivate
 dev_langs:

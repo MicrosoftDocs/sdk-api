@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 0150a749-c8f3-4cc1-b212-c2a280f55afd
 ms.date: 12/05/2018
 ms.keywords: '*LPMCI_DGV_DELETE_PARMS, MCI_DGV_DELETE_PARMS, MCI_DGV_DELETE_PARMS structure [Windows Multimedia], _win32_MCI_DGV_DELETE_PARMS_str, digitalv/MCI_DGV_DELETE_PARMS, multimedia.mci_dgv_delete_parms'
-ms.topic: struct
 f1_keywords:
 - digitalv/MCI_DGV_DELETE_PARMS
 dev_langs:
@@ -88,7 +87,7 @@ Ending position for delete.
 
 ### -field rc
 
-Rectangle describing area to delete. <a href="http://go.microsoft.com/fwlink/p/?linkid=16998">RECT</a> structures are handled differently in MCI than in other parts of Windows; in MCI, <b>rc.right</b> contains the width of the rectangle and <b>rc.bottom</b> contains its height.
+Rectangle describing area to delete. <a href="https://msdn.microsoft.com/library/ms536136.aspx">RECT</a> structures are handled differently in MCI than in other parts of Windows; in MCI, <b>rc.right</b> contains the width of the rectangle and <b>rc.bottom</b> contains its height.
 
 
 ### -field dwAudioStream
@@ -129,7 +128,7 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=16998">RECT</a>
+<a href="https://msdn.microsoft.com/library/ms536136.aspx">RECT</a>
 
 
 

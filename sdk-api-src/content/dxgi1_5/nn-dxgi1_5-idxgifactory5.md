@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: DB77E4DE-62FF-4AA3-BDA9-847ABB38973B
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory5, IDXGIFactory5 interface [DXGI], IDXGIFactory5 interface [DXGI],described, direct3ddxgi.idxgifactory5, dxgi1_5/IDXGIFactory5
-ms.topic: interface
 f1_keywords:
 - dxgi1_5/IDXGIFactory5
 dev_langs:

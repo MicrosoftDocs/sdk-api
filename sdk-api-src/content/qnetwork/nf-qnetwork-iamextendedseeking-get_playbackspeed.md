@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a92309fb-185a-4d6c-81c2-9613634c7170
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],get_PlaybackSpeed method, IAMExtendedSeeking.get_PlaybackSpeed, IAMExtendedSeeking::get_PlaybackSpeed, IAMExtendedSeekingget_PlaybackSpeed, dshow.iamextendedseeking_get_playbackspeed, get_PlaybackSpeed, get_PlaybackSpeed method [DirectShow], get_PlaybackSpeed method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_PlaybackSpeed
-ms.topic: method
 f1_keywords:
 - qnetwork/IAMExtendedSeeking.get_PlaybackSpeed
 dev_langs:

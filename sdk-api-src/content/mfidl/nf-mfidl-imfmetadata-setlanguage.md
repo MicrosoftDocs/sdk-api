@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: da615053-ddd5-448e-905c-b060cdaefa95
 ms.date: 12/05/2018
 ms.keywords: IMFMetadata interface [Media Foundation],SetLanguage method, IMFMetadata.SetLanguage, IMFMetadata::SetLanguage, SetLanguage, SetLanguage method [Media Foundation], SetLanguage method [Media Foundation],IMFMetadata interface, da615053-ddd5-448e-905c-b060cdaefa95, mf.imfmetadata_setlanguage, mfidl/IMFMetadata::SetLanguage
-ms.topic: method
 f1_keywords:
 - mfidl/IMFMetadata.SetLanguage
 dev_langs:

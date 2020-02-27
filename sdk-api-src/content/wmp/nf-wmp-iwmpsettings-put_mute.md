@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 644f9a4d-54e4-4e8a-8c02-29feb57c9256
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_mute method, IWMPSettings.put_mute, IWMPSettings::put_mute, IWMPSettingsput_mute, put_mute, put_mute method [Windows Media Player], put_mute method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_mute, wmp/IWMPSettings::put_mute
-ms.topic: method
 f1_keywords:
 - wmp/IWMPSettings.put_mute
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 91af0790-865f-44f5-b6c8-fd048bf99125
 ms.date: 12/05/2018
 ms.keywords: IPSEC_VIRTUAL_IF_TUNNEL_INFO0, IPSEC_VIRTUAL_IF_TUNNEL_INFO0 structure [Filtering], IPSEC_VIRTUAL_IF_TUNNEL_INFO0_, fwp.ipsec_virtual_if_tunnel_info0, fwptypes/IPSEC_VIRTUAL_IF_TUNNEL_INFO0
-ms.topic: struct
 f1_keywords:
 - fwptypes/IPSEC_VIRTUAL_IF_TUNNEL_INFO0
 dev_langs:

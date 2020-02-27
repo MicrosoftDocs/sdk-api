@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 55a5ec1d-9c81-479e-a630-81756bf620d1
 ms.date: 12/05/2018
 ms.keywords: InterlockedCompareExchange128, InterlockedCompareExchange128 function, base.interlockedcompareexchange128, winnt/InterlockedCompareExchange128
-ms.topic: function
 f1_keywords:
 - winnt/InterlockedCompareExchange128
 dev_langs:
@@ -54,7 +53,7 @@ Performs an atomic compare-and-exchange operation on the specified values. The f
 
 To operate on 16-bit values, use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedcompareexchange16">InterlockedCompareExchange16</a> function.
 
-To operate on 32-bit values, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedcompareexchange">InterlockedCompareExchange</a> function.
+To operate on 32-bit values, use the <a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange">InterlockedCompareExchange</a> function.
 
 To operate on 64-bit values, use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedcompareexchange64">InterlockedCompareExchange64</a> function.
 
@@ -130,7 +129,7 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedcompareexchange">InterlockedCompareExchange</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange">InterlockedCompareExchange</a>
 
 
 

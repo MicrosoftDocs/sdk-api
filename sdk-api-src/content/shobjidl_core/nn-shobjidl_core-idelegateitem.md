@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: aca76587-5f1d-4154-a68b-df162c38624e
 ms.date: 12/05/2018
 ms.keywords: IDelegateItem, IDelegateItem interface [Windows Shell], IDelegateItem interface [Windows Shell],described, _shell_IDelegateItem, shell.IDelegateItem, shobjidl_core/IDelegateItem
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IDelegateItem
 dev_langs:

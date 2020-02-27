@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 618717d2-879d-4284-a4c2-0a5102698ed9
 ms.date: 12/05/2018
 ms.keywords: TI_FINDCHILDREN_PARAMS, TI_FINDCHILDREN_PARAMS structure, _TI_FINDCHILDREN_PARAMS, _win32_ti_findchildren_params_str, base.ti_findchildren_params_str, dbghelp/TI_FINDCHILDREN_PARAMS
-ms.topic: struct
 f1_keywords:
 - dbghelp/TI_FINDCHILDREN_PARAMS
 dev_langs:

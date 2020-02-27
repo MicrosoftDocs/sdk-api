@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 935de94a-6791-4ea2-ac39-cf71ef7cb726
 ms.date: 12/05/2018
 ms.keywords: GetNetScheduleAccountInformation, GetNetScheduleAccountInformation function [Network Management], atacct/GetNetScheduleAccountInformation, netmgmt.getnetscheduleaccountinformation
-ms.topic: function
 f1_keywords:
 - atacct/GetNetScheduleAccountInformation
 dev_langs:

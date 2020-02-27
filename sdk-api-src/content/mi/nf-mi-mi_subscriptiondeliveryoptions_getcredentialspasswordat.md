@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 338fba5a-160e-4744-84c5-28aa1f115f53
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetCredentialsPasswordAt, MI_SubscriptionDeliveryOptions_GetCredentialsPasswordAt function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetCredentialsPasswordAt, wmi_v2.mi_subscriptiondeliveryoptions_getcredentialspasswordat
-ms.topic: function
 f1_keywords:
 - mi/MI_SubscriptionDeliveryOptions_GetCredentialsPasswordAt
 dev_langs:

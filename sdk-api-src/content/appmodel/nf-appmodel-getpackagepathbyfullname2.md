@@ -5,7 +5,6 @@ description: Gets the path of the specified package.
 tech.root: appxpkg
 ms.date: 01/31/19
 ms.keywords: GetPackagePathByFullName2
-ms.topic: function
 f1_keywords:
 - appmodel/GetPackagePathByFullName2
 dev_langs:

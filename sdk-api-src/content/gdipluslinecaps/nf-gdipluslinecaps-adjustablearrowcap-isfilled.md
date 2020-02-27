@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\isfilled.htm
 ms.date: 12/05/2018
 ms.keywords: AdjustableArrowCap class [GDI+],IsFilled method, AdjustableArrowCap.IsFilled, AdjustableArrowCap::IsFilled, IsFilled, IsFilled method [GDI+], IsFilled method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_IsFilled_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_IsFilled_
-ms.topic: method
 f1_keywords:
 - gdipluslinecaps/AdjustableArrowCap.IsFilled
 dev_langs:

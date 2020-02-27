@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: dda357cc-aa4b-4cc0-b4ad-36edc8e4a6ec
 ms.date: 12/05/2018
 ms.keywords: CurrentCanMinimize property [Windows Accessibility], CurrentCanMinimize property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CurrentCanMinimize property, IUIAutomationWindowPattern.CurrentCanMinimize, IUIAutomationWindowPattern.get_CurrentCanMinimize, IUIAutomationWindowPattern::CurrentCanMinimize, IUIAutomationWindowPattern::get_CurrentCanMinimize, get_CurrentCanMinimize, uiauto.uiauto_IUIAutomationWindowPattern_CurrentCanMinimize, uiauto_IUIAutomationWindowPattern_CurrentCanMinimize, uiautomationclient/IUIAutomationWindowPattern::CurrentCanMinimize, uiautomationclient/IUIAutomationWindowPattern::get_CurrentCanMinimize, winauto.uiauto_IUIAutomationWindowPattern_CurrentCanMinimize
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationWindowPattern.CurrentCanMinimize
 dev_langs:

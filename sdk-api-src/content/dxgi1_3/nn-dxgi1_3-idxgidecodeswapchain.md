@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 814EDDA6-EFEA-4281-BE06-9FF8822B4927
 ms.date: 12/05/2018
 ms.keywords: IDXGIDecodeSwapChain, IDXGIDecodeSwapChain interface [DXGI], IDXGIDecodeSwapChain interface [DXGI],described, direct3ddxgi.idxgidecodeswapchain, dxgi1_3/IDXGIDecodeSwapChain
-ms.topic: interface
 f1_keywords:
 - dxgi1_3/IDXGIDecodeSwapChain
 dev_langs:

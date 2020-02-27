@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbgetsex.htm
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbGetsEx, StringCbGetsEx function [Menus and Other Resources], StringCbGetsExA, StringCbGetsExW, _shell_StringCbGetsEx, _shell_stringcbgetsex_cpp, menurc.stringcbgetsex, strsafe/StringCbGetsEx, strsafe/StringCbGetsExA, strsafe/StringCbGetsExW, winui._shell_stringcbgetsex
-ms.topic: function
 f1_keywords:
 - strsafe/StringCbGetsEx
 dev_langs:
@@ -57,7 +56,7 @@ Gets one line of text from stdin, up to and including the newline character ('\n
 
 <b>StringCbGetsEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192504">gets, _getws, _getts</a></li>
+<li><a href="https://msdn.microsoft.com/library/2029ea5f.aspx">gets, _getws, _getts</a></li>
 </ul><b>StringCbGetsEx</b> is not a replacement for <b>fgets</b>, which does not replace newline characters with a terminating null character.
 
 

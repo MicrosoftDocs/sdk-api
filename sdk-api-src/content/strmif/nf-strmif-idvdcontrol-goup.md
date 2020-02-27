@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2a553a5f-f221-4161-95f1-cb1629abb87a
 ms.date: 12/05/2018
 ms.keywords: GoUp, GoUp method [DirectShow], GoUp method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],GoUp method, IDvdControl.GoUp, IDvdControl::GoUp, IDvdControlGoUp, dshow.idvdcontrol_goup, strmif/IDvdControl::GoUp
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.GoUp
 dev_langs:
@@ -80,7 +79,7 @@ Returns an <b>HRESULT</b> value.
 
 Each PGC is associated with a previous PGC at authoring time, which this method sets as the new playback file.
 
-This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, or DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, or DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

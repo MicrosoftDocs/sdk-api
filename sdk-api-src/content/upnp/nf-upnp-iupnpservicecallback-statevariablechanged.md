@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 68dac38e-535b-491e-a9a5-0f6bccb7fcc1
 ms.date: 12/05/2018
 ms.keywords: IUPnPServiceCallback interface [UPnP APIs],StateVariableChanged method, IUPnPServiceCallback.StateVariableChanged, IUPnPServiceCallback::StateVariableChanged, StateVariableChanged, StateVariableChanged method [UPnP APIs], StateVariableChanged method [UPnP APIs],IUPnPServiceCallback interface, _upnp_iupnpservicecallback_statevariablechanged, upnp.iupnpservicecallback_statevariablechanged, upnp/IUPnPServiceCallback::StateVariableChanged
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPServiceCallback.StateVariableChanged
 dev_langs:

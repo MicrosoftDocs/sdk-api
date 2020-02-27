@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 26cefb86-a21e-432d-b3db-1669d5b9cd05
 ms.date: 12/05/2018
 ms.keywords: 26cefb86-a21e-432d-b3db-1669d5b9cd05, IStylusPlugin interface [Tablet PC],UpdateMapping method, IStylusPlugin.UpdateMapping, IStylusPlugin::UpdateMapping, UpdateMapping, UpdateMapping method [Tablet PC], UpdateMapping method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::UpdateMapping, tablet.istylusplugin_updatemapping
-ms.topic: method
 f1_keywords:
 - rtscom/IStylusPlugin.UpdateMapping
 dev_langs:

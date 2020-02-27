@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 89c4df40-6faa-4b7c-a255-289d1f8a6254
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],SetManagerEventHandler method, IUIAnimationManager.SetManagerEventHandler, IUIAnimationManager::SetManagerEventHandler, SetManagerEventHandler, SetManagerEventHandler method [Windows Animation], SetManagerEventHandler method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_setmanagereventhandler, uianimation/IUIAnimationManager::SetManagerEventHandler
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationManager.SetManagerEventHandler
 dev_langs:

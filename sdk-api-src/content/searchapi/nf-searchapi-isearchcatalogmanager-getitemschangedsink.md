@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\getitemschangedsink.htm
 ms.date: 12/05/2018
 ms.keywords: GetItemsChangedSink, GetItemsChangedSink method [search], GetItemsChangedSink method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetItemsChangedSink method, ISearchCatalogManager.GetItemsChangedSink, ISearchCatalogManager::GetItemsChangedSink, _search_ISearchCatalogManager_GetItemsChangedSink, search._search_ISearchCatalogManager_GetItemsChangedSink, searchapi/ISearchCatalogManager::GetItemsChangedSink
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchCatalogManager.GetItemsChangedSink
 dev_langs:

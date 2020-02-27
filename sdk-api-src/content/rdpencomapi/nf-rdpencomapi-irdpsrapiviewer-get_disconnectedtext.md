@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 010974ee-d5b0-436d-9553-18ae62d09bf2
 ms.date: 12/05/2018
 ms.keywords: DisconnectedText property [RDP], DisconnectedText property [RDP],IRDPSRAPIViewer interface, DisconnectedText property [RDP],RDPViewer object, IRDPSRAPIViewer interface [RDP],DisconnectedText property, IRDPSRAPIViewer.DisconnectedText, IRDPSRAPIViewer.get_DisconnectedText, IRDPSRAPIViewer::DisconnectedText, IRDPSRAPIViewer::get_DisconnectedText, IRDPSRAPIViewer::put_DisconnectedText, RDPViewer object [RDP],DisconnectedText property, get_DisconnectedText, rdp.irdpsrapiviewer_disconnectedtext, rdpencomapi/IRDPSRAPIViewer::DisconnectedText, rdpencomapi/IRDPSRAPIViewer::get_DisconnectedText, rdpencomapi/IRDPSRAPIViewer::put_DisconnectedText
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPIViewer.DisconnectedText
 dev_langs:

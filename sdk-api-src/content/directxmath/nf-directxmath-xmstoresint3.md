@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreSInt3(XMINT3@,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMStoreSInt3, XMStoreSInt3, XMStoreSInt3 method [DirectX Math Support APIs], dxmath.xmstoresint3
-ms.topic: function
 f1_keywords:
 - directxmath/XMStoreSInt3
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: A623D097-FEF8-4864-A80A-C6EF824EC245
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WriteLONG, PSPropertyBag_WriteLONG function [Windows Properties], properties.PSPropertyBag_WriteLONG, propsys/PSPropertyBag_WriteLONG, shell.PSPropertyBag_WriteLONG, shell_PSPropertyBag_WriteLONG
-ms.topic: function
 f1_keywords:
 - propsys/PSPropertyBag_WriteLONG
 dev_langs:

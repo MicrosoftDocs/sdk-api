@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 78446b44-7b83-4266-a591-5f70a0542c20
 ms.date: 12/05/2018
 ms.keywords: AM_MPEG2Level, AM_MPEG2Level enumeration [DirectShow], AM_MPEG2Level_High, AM_MPEG2Level_High1440, AM_MPEG2Level_Low, AM_MPEG2Level_Main, MPEG2LevelEnumeration, dshow.am_mpeg2level, dvdmedia/AM_MPEG2Level, dvdmedia/AM_MPEG2Level_High, dvdmedia/AM_MPEG2Level_High1440, dvdmedia/AM_MPEG2Level_Low, dvdmedia/AM_MPEG2Level_Main
-ms.topic: enum
 f1_keywords:
 - dvdmedia/AM_MPEG2Level
 dev_langs:

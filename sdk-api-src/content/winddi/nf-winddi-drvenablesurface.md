@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: a838a44a-243c-4d0d-bda3-eec9a626cb53
 ms.date: 12/05/2018
 ms.keywords: DrvEnableSurface, DrvEnableSurface function [Display Devices], ddifncs_c0044970-ac75-4dae-af55-f6fd87079dbb.xml, display.drvenablesurface, winddi/DrvEnableSurface
-ms.topic: function
 f1_keywords:
 - winddi/DrvEnableSurface
 dev_langs:
@@ -94,7 +93,7 @@ Any existing GDI bitmap handle is a valid surface handle.
 
 For <a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-graphics-dll">printer graphics DLLs</a> that use GDI-managed surfaces, the <b>DrvEnableSurface</b> function should call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatebitmap">EngCreateBitmap</a>, specifying a surface size large enough to contain an entire physical page. If that fails, repeated calls to <b>EngCreateBitmap</b> should be attempted, with decreasing surface sizes, until a call succeeds. The valid size should be specified as input to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmarkbandingsurface">EngMarkBandingSurface</a>, which informs GDI that surface banding will be necessary.
 
-After <b>DrvEnableSurface</b> returns a handle to a primary surface, do not call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmodifysurface">EngModifySurface</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a> on that handle. Doing so can cause a bug check in certain circumstances. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;ID=330248">Microsoft Knowledge Base article 330248</a>.
+After <b>DrvEnableSurface</b> returns a handle to a primary surface, do not call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmodifysurface">EngModifySurface</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a> on that handle. Doing so can cause a bug check in certain circumstances. For more information, see <a href="https://support.microsoft.com/?kbid&amp;ID=330248">Microsoft Knowledge Base article 330248</a>.
 
 <b>DrvEnableSurface</b> is required for graphics drivers.
 

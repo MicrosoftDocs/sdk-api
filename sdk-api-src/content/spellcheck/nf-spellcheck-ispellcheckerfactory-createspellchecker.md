@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 9167b675-01ec-4173-a790-5452907b5598
 ms.date: 12/05/2018
 ms.keywords: CreateSpellChecker, CreateSpellChecker method [Internationalization for Windows Applications], CreateSpellChecker method [Internationalization for Windows Applications],ISpellCheckerFactory interface, ISpellCheckerFactory interface [Internationalization for Windows Applications],CreateSpellChecker method, ISpellCheckerFactory.CreateSpellChecker, ISpellCheckerFactory::CreateSpellChecker, intl.ispellcheckerfactory_createspellchecker, spellcheck/ISpellCheckerFactory::CreateSpellChecker
-ms.topic: method
 f1_keywords:
 - spellcheck/ISpellCheckerFactory.CreateSpellChecker
 dev_langs:
@@ -60,7 +59,7 @@ Creates a spell checker that supports the specified language.
 
 ### -param languageTag [in]
 
-A <a href="http://go.microsoft.com/fwlink/p/?linkid=227302">BCP47</a> language tag that identifies the language for the requested spell checker.
+A <a href="http://tools.ietf.org/html/bcp47">BCP47</a> language tag that identifies the language for the requested spell checker.
 
 
 ### -param value [out, retval]
@@ -134,7 +133,7 @@ This will create the preferred spell checker (according to user ranking) for the
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=227302">BCP47 Tags for Identifying Languages</a>
+<a href="http://tools.ietf.org/html/bcp47">BCP47 Tags for Identifying Languages</a>
 
 
 

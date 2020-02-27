@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 19b518cc-2f02-49c3-bedc-f5d633cc635d
 ms.date: 12/05/2018
 ms.keywords: CreateUrlCacheContainer, CreateUrlCacheContainer function [WinINet], CreateUrlCacheContainerA, CreateUrlCacheContainerW, wininet.createurlcachecontainer, winineti/CreateUrlCacheContainer
-ms.topic: function
 f1_keywords:
 - winineti/CreateUrlCacheContainer
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 81d5c1b8-086c-422d-b2d7-85728507888d
 ms.date: 12/05/2018
 ms.keywords: GetInputCurrentType, GetInputCurrentType method [DirectShow], GetInputCurrentType method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputCurrentType method, IMediaObject.GetInputCurrentType, IMediaObject::GetInputCurrentType, IMediaObjectGetInputCurrentType, dshow.imediaobject_getinputcurrenttype, mediaobj/IMediaObject::GetInputCurrentType
-ms.topic: method
 f1_keywords:
 - mediaobj/IMediaObject.GetInputCurrentType
 dev_langs:

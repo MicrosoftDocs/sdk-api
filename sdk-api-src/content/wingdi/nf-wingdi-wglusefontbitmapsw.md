@@ -7,7 +7,6 @@ tech.root: OpenGL
 ms.assetid: c671965c-9b9d-4206-b467-4884ffd351eb
 ms.date: 12/05/2018
 ms.keywords: _ogl_wglUseFontBitmaps, opengl.wglusefontbitmaps, wglUseFontBitmaps, wglUseFontBitmaps function [OpenGL], wglUseFontBitmapsA, wglUseFontBitmapsW, wingdi/wglUseFontBitmaps, wingdi/wglUseFontBitmapsA, wingdi/wglUseFontBitmapsW
-ms.topic: function
 f1_keywords:
 - wingdi/wglUseFontBitmaps
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 933ca20c-8a28-4b6a-9ec8-85608fd02990
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientAddContentInformation, PeerDistClientAddContentInformation function [Peer Networking], p2p.peerdistclientaddcontentinformation, peerdist/PeerDistClientAddContentInformation
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistClientAddContentInformation
 dev_langs:
@@ -80,7 +79,7 @@ Pointer to the buffer that contains the content information. This buffer must re
 
 ### -param lpOverlapped [in]
 
-Pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure. The Internal member of <a href="http://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure contains the completion status of the asynchronous operation. The Offset and OffsetHigh are reserved and must be 0.  
+Pointer to an <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure. The Internal member of <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure contains the completion status of the asynchronous operation. The Offset and OffsetHigh are reserved and must be 0.  
 
 
 ## -returns

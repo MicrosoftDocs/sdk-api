@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: f5237236-50f3-49dd-aec0-578e0a8430c2
 ms.date: 12/05/2018
 ms.keywords: GetCurrentLocator, GetCurrentLocator method [Microsoft TV Technologies], GetCurrentLocator method [Microsoft TV Technologies],IScanningTunerEx interface, IScanningTunerEx interface [Microsoft TV Technologies],GetCurrentLocator method, IScanningTunerEx.GetCurrentLocator, IScanningTunerEx::GetCurrentLocator, IScanningTunerExGetCurrentLocator, mstv.iscanningtunerex_getcurrentlocator, tuner/IScanningTunerEx::GetCurrentLocator
-ms.topic: method
 f1_keywords:
 - tuner/IScanningTunerEx.GetCurrentLocator
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: f01fa2d8-989d-499f-b79d-495108640aa2
 ms.date: 12/05/2018
 ms.keywords: DDiscMaster2Events, DDiscMaster2Events interface [IMAPI], DDiscMaster2Events interface [IMAPI],described, imapi.ddiscmaster2events, imapi2/DDiscMaster2Events
-ms.topic: interface
 f1_keywords:
 - imapi2/DDiscMaster2Events
 dev_langs:

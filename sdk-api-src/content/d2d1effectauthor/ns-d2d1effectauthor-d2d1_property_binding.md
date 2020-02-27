@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 0eb6d428-cb65-4738-9cf3-64038b728004
 ms.date: 12/05/2018
 ms.keywords: D2D1_PROPERTY_BINDING, D2D1_PROPERTY_BINDING structure [Direct2D], d2d1effectauthor/D2D1_PROPERTY_BINDING, direct2d.d2d1_property_binding
-ms.topic: struct
 f1_keywords:
 - d2d1effectauthor/D2D1_PROPERTY_BINDING
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 03728d28-a3e5-4ac5-b637-1daa173e5e88
 ms.date: 12/05/2018
 ms.keywords: GetMiscFlags, GetMiscFlags method [DirectShow], GetMiscFlags method [DirectShow],IAMFilterMiscFlags interface, IAMFilterMiscFlags interface [DirectShow],GetMiscFlags method, IAMFilterMiscFlags.GetMiscFlags, IAMFilterMiscFlags::GetMiscFlags, IAMFilterMiscFlagsGetMiscFlags, dshow.iamfiltermiscflags_getmiscflags, strmif/IAMFilterMiscFlags::GetMiscFlags
-ms.topic: method
 f1_keywords:
 - strmif/IAMFilterMiscFlags.GetMiscFlags
 dev_langs:

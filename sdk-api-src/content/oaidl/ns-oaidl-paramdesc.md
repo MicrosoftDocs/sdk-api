@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 3b3b2c54-1997-4d1f-9934-81621500b2b9
 ms.date: 12/05/2018
 ms.keywords: '*LPPARAMDESC, LPPARAMDESC, LPPARAMDESC structure pointer [Automation], PARAMDESC, PARAMDESC structure [Automation], _oa96_PARAMDESC, automat.paramdesc, oaidl/LPPARAMDESC, oaidl/PARAMDESC'
-ms.topic: struct
 f1_keywords:
 - oaidl/PARAMDESC
 dev_langs:

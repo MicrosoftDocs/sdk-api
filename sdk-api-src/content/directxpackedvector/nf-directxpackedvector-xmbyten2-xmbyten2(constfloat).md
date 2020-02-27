@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: 5d6b2f0e-fa41-46ff-9418-c11246bdb266
 ms.date: 05/06/2019
 ms.keywords: XMBYTEN2, XMBYTEN2 constructor [DirectX Math Support APIs], XMBYTEN2 constructor [DirectX Math Support APIs],XMBYTEN2 structure, XMBYTEN2 structure [DirectX Math Support APIs],XMBYTEN2 constructor, XMBYTEN2.XMBYTEN2, XMBYTEN2.XMBYTEN2(), XMBYTEN2.XMBYTEN2(const float), XMBYTEN2::XMBYTEN2, XMBYTEN2::XMBYTEN2(const float), dxmath.xmbyten2_ctor_1
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMBYTEN2.XMBYTEN2
 dev_langs:

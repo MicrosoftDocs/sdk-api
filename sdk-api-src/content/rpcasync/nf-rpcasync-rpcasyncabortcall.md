@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 651c53f3-8bb5-4162-a8a8-2da5a0d05d21
 ms.date: 12/05/2018
 ms.keywords: RpcAsyncAbortCall, RpcAsyncAbortCall function [RPC], _rpc_rpcasyncabortcall, rpc.rpcasyncabortcall, rpcasync/RpcAsyncAbortCall
-ms.topic: function
 f1_keywords:
 - rpcasync/RpcAsyncAbortCall
 dev_langs:

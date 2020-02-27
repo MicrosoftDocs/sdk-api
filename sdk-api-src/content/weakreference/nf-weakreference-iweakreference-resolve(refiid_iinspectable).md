@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 642e44f1-7090-4391-b56c-9ba203c30e37
 ms.date: 12/05/2018
 ms.keywords: IWeakReference interface [Windows Runtime],Resolve method, IWeakReference.Resolve, IWeakReference.Resolve(REFIID,IInspectable), IWeakReference::Resolve, IWeakReference::Resolve(REFIID,IInspectable), Resolve, Resolve method [Windows Runtime], Resolve method [Windows Runtime],IWeakReference interface, weakreference/IWeakReference::Resolve, winrt.iweakreference_resolve
-ms.topic: method
 f1_keywords:
 - weakreference/IWeakReference.Resolve
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: cf23be24-f7a8-41b9-81f1-c267a265f85b
 ms.date: 12/05/2018
 ms.keywords: IMbnServiceActivation, IMbnServiceActivation interface [Microsoft Broadband Networks], IMbnServiceActivation interface [Microsoft Broadband Networks],described, mbn.imbnserviceactivation, mbnapi/IMbnServiceActivation
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnServiceActivation
 dev_langs:

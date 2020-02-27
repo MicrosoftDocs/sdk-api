@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 65dd45e2-39a4-4a94-bd14-b0c8e4a609a3
 ms.date: 12/05/2018
 ms.keywords: AnimatePalette, AnimatePalette function [Windows GDI], _win32_AnimatePalette, gdi.animatepalette, wingdi/AnimatePalette
-ms.topic: function
 f1_keywords:
 - wingdi/AnimatePalette
 dev_langs:

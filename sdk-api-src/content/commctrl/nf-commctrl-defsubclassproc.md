@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 43b1efa5-11da-4a95-8d81-b0d8ae64733a
 ms.date: 12/05/2018
 ms.keywords: DefSubclassProc, DefSubclassProc function [Windows Shell], commctrl/DefSubclassProc, inet_DefSubclassProc, shell.DefSubclassProc
-ms.topic: function
 f1_keywords:
 - commctrl/DefSubclassProc
 dev_langs:

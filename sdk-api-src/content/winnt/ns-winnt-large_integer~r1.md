@@ -3,7 +3,6 @@ UID: NS:winnt._LARGE_INTEGER~r1
 title: LARGE_INTEGER
 ms.date: 01/30/19
 ms.keywords: _LARGE_INTEGER, LARGE_INTEGER
-ms.topic: language-reference
 f1_keywords:
 - winnt/_LARGE_INTEGER
 dev_langs:

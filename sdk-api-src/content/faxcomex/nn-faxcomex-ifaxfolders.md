@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1gfn_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxFolders, IFaxFolders interface [Fax Service], IFaxFolders interface [Fax Service],described, _mfax_faxfolders_cpp, fax._mfax_faxfolders_cpp, faxcomex/IFaxFolders
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxFolders
 dev_langs:

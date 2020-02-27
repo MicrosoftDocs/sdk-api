@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\trackpopupmenuex.htm
 ms.date: 12/05/2018
 ms.keywords: TPM_BOTTOMALIGN, TPM_CENTERALIGN, TPM_HORIZONTAL, TPM_HORNEGANIMATION, TPM_HORPOSANIMATION, TPM_LEFTALIGN, TPM_LEFTBUTTON, TPM_NOANIMATION, TPM_NONOTIFY, TPM_RETURNCMD, TPM_RIGHTALIGN, TPM_RIGHTBUTTON, TPM_TOPALIGN, TPM_VCENTERALIGN, TPM_VERNEGANIMATION, TPM_VERPOSANIMATION, TPM_VERTICAL, TrackPopupMenuEx, TrackPopupMenuEx function [Menus and Other Resources], _win32_TrackPopupMenuEx, _win32_trackpopupmenuex_cpp, menurc.trackpopupmenuex, winui._win32_trackpopupmenuex, winuser/TrackPopupMenuEx
-ms.topic: function
 f1_keywords:
 - winuser/TrackPopupMenuEx
 dev_langs:

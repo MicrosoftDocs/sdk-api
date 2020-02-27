@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: D96D3F6D-2158-4E6A-84A8-DC3BAE9624FA
 ms.date: 12/05/2018
 ms.keywords: FILE_FLAG_OVERLAPPED, OpenCommPort, OpenCommPort function, base.opencommport, winbase/OpenCommPort
-ms.topic: function
 f1_keywords:
 - winbase/OpenCommPort
 dev_langs:

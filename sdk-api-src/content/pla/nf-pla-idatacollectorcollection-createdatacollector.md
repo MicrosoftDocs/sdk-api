@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: b6d98361-3af3-4fb2-ad0b-4449b81d6e9e
 ms.date: 12/05/2018
 ms.keywords: CreateDataCollector, CreateDataCollector method [PLA], CreateDataCollector method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],CreateDataCollector method, IDataCollectorCollection.CreateDataCollector, IDataCollectorCollection::CreateDataCollector, pla.idatacollectorcollection_createdatacollector, pla/IDataCollectorCollection::CreateDataCollector
-ms.topic: method
 f1_keywords:
 - pla/IDataCollectorCollection.CreateDataCollector
 dev_langs:

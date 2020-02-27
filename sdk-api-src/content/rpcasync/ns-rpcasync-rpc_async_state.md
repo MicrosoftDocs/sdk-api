@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: ad004f49-89a6-486c-80ec-5b85ab4b8db9
 ms.date: 12/05/2018
 ms.keywords: '*PRPC_ASYNC_STATE, PRPC_ASYNC_STATE, PRPC_ASYNC_STATE structure pointer [RPC], RPC_ASYNC_STATE, RPC_ASYNC_STATE structure [RPC], RPC_C_NOTIFY_ON_SEND_COMPLETE, RpcNotificationTypeApc, RpcNotificationTypeCallback, RpcNotificationTypeEvent, RpcNotificationTypeHwnd, RpcNotificationTypeIoc, RpcNotificationTypeNone, _rpc_rpc_async_state, rpc.rpc_async_state, rpcasync/PRPC_ASYNC_STATE, rpcasync/RPC_ASYNC_STATE'
-ms.topic: struct
 f1_keywords:
 - rpcasync/RPC_ASYNC_STATE
 dev_langs:

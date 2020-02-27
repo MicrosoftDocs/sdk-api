@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: 0298bf84-374e-438f-8141-3298e1004c1b
 ms.date: 12/05/2018
 ms.keywords: GetCacheTime, GetCacheTime method [NDF], GetCacheTime method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetCacheTime method, INetDiagHelper.GetCacheTime, INetDiagHelper::GetCacheTime, ndf.inetdiaghelpe_getcachetime, ndhelper/INetDiagHelper::GetCacheTime
-ms.topic: method
 f1_keywords:
 - ndhelper/INetDiagHelper.GetCacheTime
 dev_langs:

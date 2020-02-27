@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 0822c894-b96c-4b69-94d2-b052dff81f6e
 ms.date: 12/05/2018
 ms.keywords: IOleUndoUnit, IOleUndoUnit interface [COM], IOleUndoUnit interface [COM],described, _ole_ioleundounit, com.ioleundounit, ocidl/IOleUndoUnit
-ms.topic: interface
 f1_keywords:
 - ocidl/IOleUndoUnit
 dev_langs:

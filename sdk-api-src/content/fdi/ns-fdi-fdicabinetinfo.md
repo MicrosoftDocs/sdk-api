@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: fde1a2ca-60cd-4a4d-9872-681e2f8f4fb1
 ms.date: 12/05/2018
 ms.keywords: '*PFDICABINETINFO, FDICABINETINFO, FDICABINETINFO FAR *PFDICABINETINFO, FDICABINETINFO FAR *PFDICABINETINFO structure [Windows API], FDICABINETINFO structure [Windows API], fdi/FDICABINETINFO, winprog.fdicabinetinfo'
-ms.topic: struct
 f1_keywords:
 - fdi/FDICABINETINFO FAR *PFDICABINETINFO
 dev_langs:

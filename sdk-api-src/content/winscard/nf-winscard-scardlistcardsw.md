@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: b8ecbb8c-e1fb-485b-9a2c-20e6edf25cf1
 ms.date: 12/05/2018
 ms.keywords: SCardListCards, SCardListCards function [Security], SCardListCardsA, SCardListCardsW, _smart_scardlistcards, security.scardlistcards, winscard/SCardListCards, winscard/SCardListCardsA, winscard/SCardListCardsW
-ms.topic: function
 f1_keywords:
 - winscard/SCardListCards
 dev_langs:

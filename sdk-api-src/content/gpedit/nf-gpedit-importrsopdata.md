@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: d3b4ef2e-a828-445a-83de-d5c9e4a4d98b
 ms.date: 12/05/2018
 ms.keywords: ImportRSoPData, ImportRSoPData function [Group Policy], _win32_importrsopdata, gpedit/ImportRSoPData, policy.importrsopdata
-ms.topic: function
 f1_keywords:
 - gpedit/ImportRSoPData
 dev_langs:

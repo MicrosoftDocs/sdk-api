@@ -7,7 +7,6 @@ tech.root: Recovery
 ms.assetid: 7491812d-6469-4ac3-8d51-68b9c4b13b29
 ms.date: 12/05/2018
 ms.keywords: UnregisterApplicationRestart, UnregisterApplicationRestart function [Recovery], recovery.unregisterapplicationrestart, winbase/UnregisterApplicationRestart
-ms.topic: function
 f1_keywords:
 - winbase/UnregisterApplicationRestart
 dev_langs:

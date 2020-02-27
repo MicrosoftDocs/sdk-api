@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: d3ce8a05-d26b-452f-8418-e104ae486a1a
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetSelectedDevice, SetupDiSetSelectedDevice function [Device and Driver Installation], devinst.setupdisetselecteddevice, di-rtns_db49eaf1-c6cb-48ef-ae17-f5c578672eca.xml, setupapi/SetupDiSetSelectedDevice
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiSetSelectedDevice
 dev_langs:
@@ -72,7 +71,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 

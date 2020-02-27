@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: dfbc2d32-c1f6-41b1-8f4f-9e5e9f6dd9e1
 ms.date: 12/05/2018
 ms.keywords: HttpCloseRequestQueue, HttpCloseRequestQueue function [HTTP], http.httpcloserequestqueue, http/HttpCloseRequestQueue
-ms.topic: function
 f1_keywords:
 - http/HttpCloseRequestQueue
 dev_langs:

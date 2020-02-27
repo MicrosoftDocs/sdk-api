@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 9579ed10-6d4c-4724-af8b-22cab5b6ff5e
 ms.date: 12/05/2018
 ms.keywords: GetWindowOrgEx, GetWindowOrgEx function [Windows GDI], _win32_GetWindowOrgEx, gdi.getwindoworgex, wingdi/GetWindowOrgEx
-ms.topic: function
 f1_keywords:
 - wingdi/GetWindowOrgEx
 dev_langs:

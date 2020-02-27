@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 3C2FDE86-2EBD-4A5C-BD02-90613DBFDE65
 ms.date: 12/05/2018
 ms.keywords: GetStatistics, GetStatistics method [Media Foundation], GetStatistics method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStatistics method, IMFMediaEngineEx.GetStatistics, IMFMediaEngineEx::GetStatistics, mf.imfmediaengineex_getstatistics, mfmediaengine/IMFMediaEngineEx::GetStatistics
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineEx.GetStatistics
 dev_langs:

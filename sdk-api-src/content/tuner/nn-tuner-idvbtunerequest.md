@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 4d519bbc-38e1-47ce-bd73-a3eb1ea399d6
 ms.date: 12/05/2018
 ms.keywords: IDVBTuneRequest, IDVBTuneRequest interface [Microsoft TV Technologies], IDVBTuneRequest interface [Microsoft TV Technologies],described, IDVBTuneRequestInterface, mstv.idvbtunerequest, tuner/IDVBTuneRequest
-ms.topic: interface
 f1_keywords:
 - tuner/IDVBTuneRequest
 dev_langs:

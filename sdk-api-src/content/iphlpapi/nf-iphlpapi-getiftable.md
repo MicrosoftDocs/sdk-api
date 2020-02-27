@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 6a46c1df-b274-415e-b842-fc1adf6fa206
 ms.date: 12/05/2018
 ms.keywords: GetIfTable, GetIfTable function [IP Helper], _iphlp_getiftable, iphlp.getiftable, iphlpapi/GetIfTable
-ms.topic: function
 f1_keywords:
 - iphlpapi/GetIfTable
 dev_langs:

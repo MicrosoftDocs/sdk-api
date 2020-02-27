@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 7f757dc8-948c-476e-aca3-a9051e962ed4
 ms.date: 12/05/2018
 ms.keywords: CryptSIPRetrieveSubjectGuidForCatalogFile, CryptSIPRetrieveSubjectGuidForCatalogFile function [Security], mssip/CryptSIPRetrieveSubjectGuidForCatalogFile, security.cryptsipretrievesubjectguidforcatalogfile
-ms.topic: function
 f1_keywords:
 - mssip/CryptSIPRetrieveSubjectGuidForCatalogFile
 dev_langs:

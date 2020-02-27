@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d17083f3-38b2-43bd-8e87-1092cf397f29
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPart interface [XPS Documents and Packaging],SetPartName method, IXpsOMPart.SetPartName, IXpsOMPart::SetPartName, SetPartName, SetPartName method [XPS Documents and Packaging], SetPartName method [XPS Documents and Packaging],IXpsOMPart interface, xps.ixpsompart_setpartname, xpsobjectmodel/IXpsOMPart::SetPartName
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPart.SetPartName
 dev_langs:
@@ -129,7 +128,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

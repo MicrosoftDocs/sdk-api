@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: feb9fbcd-58e6-48c7-ab21-9ba0fd766b25
 ms.date: 12/05/2018
 ms.keywords: ITCallInfoChangeEvent interface [TAPI 2.2],get_CallbackInstance method, ITCallInfoChangeEvent.get_CallbackInstance, ITCallInfoChangeEvent::get_CallbackInstance, _tapi3_itcallinfochangeevent_get_callbackinstance, get_CallbackInstance, get_CallbackInstance method [TAPI 2.2], get_CallbackInstance method [TAPI 2.2],ITCallInfoChangeEvent interface, tapi3.itcallinfochangeevent_get_callbackinstance, tapi3if/ITCallInfoChangeEvent::get_CallbackInstance
-ms.topic: method
 f1_keywords:
 - tapi3if/ITCallInfoChangeEvent.get_CallbackInstance
 dev_langs:

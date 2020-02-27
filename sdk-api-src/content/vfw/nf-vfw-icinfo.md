@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 755ff010-3edc-4e13-9c8f-104a6d1f590a
 ms.date: 12/05/2018
 ms.keywords: ICInfo, ICInfo function [Windows Multimedia], _win32_ICInfo, multimedia.icinfo, vfw/ICInfo
-ms.topic: function
 f1_keywords:
 - vfw/ICInfo
 dev_langs:

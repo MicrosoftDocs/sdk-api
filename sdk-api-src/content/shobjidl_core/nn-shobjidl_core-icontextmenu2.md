@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4e3331ad-4adc-4ea9-8a22-6aad15f618c8
 ms.date: 12/05/2018
 ms.keywords: IContextMenu2, IContextMenu2 interface [Windows Shell], IContextMenu2 interface [Windows Shell],described, _win32_IContextMenu2, shell.IContextMenu2, shobjidl_core/IContextMenu2
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IContextMenu2
 dev_langs:
@@ -104,7 +103,7 @@ Implement <b>IContextMenu2</b> if your <a href="https://docs.microsoft.com/windo
 <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-measureitem">WM_MEASUREITEM</a>
 </li>
 </ul>
-These messages are forwarded to <b>IContextMenu2</b>—through the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu2-handlemenumsg">HandleMenuMsg</a> method—only if a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> call for an <b>IContextMenu2</b> interface pointer is successful, indicating that the object supports this interface.
+These messages are forwarded to <b>IContextMenu2</b>—through the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu2-handlemenumsg">HandleMenuMsg</a> method—only if a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> call for an <b>IContextMenu2</b> interface pointer is successful, indicating that the object supports this interface.
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 Applications do not normally call this interface directly.

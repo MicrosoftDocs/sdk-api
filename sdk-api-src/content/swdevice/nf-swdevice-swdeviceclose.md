@@ -7,7 +7,6 @@ tech.root: swdevice
 ms.assetid: C5E659CD-203A-4021-AB3F-3AFEE2B31E7C
 ms.date: 12/05/2018
 ms.keywords: SwDeviceClose, SwDeviceClose function, swdevice.swdeviceclose, swdevice/SwDeviceClose
-ms.topic: function
 f1_keywords:
 - swdevice/SwDeviceClose
 dev_langs:

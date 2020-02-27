@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 2bdc07b9-bb83-48c2-a668-fda5c69d54ee
 ms.date: 12/05/2018
 ms.keywords: NeedCurrentDirectoryForExePath, NeedCurrentDirectoryForExePath function, NeedCurrentDirectoryForExePathA, NeedCurrentDirectoryForExePathW, base.needcurrentdirectoryforexepath, processenv/NeedCurrentDirectoryForExePath, processenv/NeedCurrentDirectoryForExePathA, processenv/NeedCurrentDirectoryForExePathW, winbase/NeedCurrentDirectoryForExePath, winbase/NeedCurrentDirectoryForExePathA, winbase/NeedCurrentDirectoryForExePathW
-ms.topic: function
 f1_keywords:
 - processenv/NeedCurrentDirectoryForExePath
 dev_langs:

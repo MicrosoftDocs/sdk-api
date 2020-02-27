@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 053cf2c3-4f31-4f1e-be5c-d857e74d9465
 ms.date: 12/05/2018
 ms.keywords: '*PGROUP_REQ, GROUP_REQ, GROUP_REQ structure [Winsock], PGROUP_REQ, PGROUP_REQ structure pointer [Winsock], winsock.group_req, ws2ipdef/GROUP_REQ, ws2ipdef/PGROUP_REQ'
-ms.topic: struct
 f1_keywords:
 - ws2ipdef/GROUP_REQ
 dev_langs:
@@ -74,7 +73,7 @@ The address of the multicast group. This may be either an IPv6 or IPv4 multicast
 
 The <b>GROUP_REQ</b> structure is used with either IPv6 or IPv4 multicast addresses. The <b>GROUP_REQ</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/WinSock/socket-options">MCAST_JOIN_GROUP</a> and MCAST_LEAVE_GROUP socket options. 
 
-The <b>GROUP_REQ</b> structure and related structures used for multicast programming are based on IETF recommendations in sections 5 and 8.2  of RFC 3768. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=87353">http://www.ietf.org/rfc/rfc3678.txt</a>.
+The <b>GROUP_REQ</b> structure and related structures used for multicast programming are based on IETF recommendations in sections 5 and 8.2  of RFC 3768. For more information, see <a href="http://tools.ietf.org/html/rfc3678">http://www.ietf.org/rfc/rfc3678.txt</a>.
 
 On Windows Vista and later, a set of socket options are available for multicast programming that support IPv6 and IPv4 addresses. These socket options are IP agnostic and can be used on both IPv6 and IPv4. These IP agnostic options use the <b>GROUP_REQ</b> and the <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_source_req">GROUP_SOURCE_REQ</a> structures and are the preferred socket options for multicast programming on Windows Vista and later.
 

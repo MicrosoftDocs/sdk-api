@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 5dad9485-db3c-4ae0-b053-e1e4f32ad64d
 ms.date: 12/05/2018
 ms.keywords: WsStartReaderCanonicalization, WsStartReaderCanonicalization function [Web Services for Windows], webservices/WsStartReaderCanonicalization, wsw.wsstartreadercanonicalization
-ms.topic: function
 f1_keywords:
 - webservices/WsStartReaderCanonicalization
 dev_langs:

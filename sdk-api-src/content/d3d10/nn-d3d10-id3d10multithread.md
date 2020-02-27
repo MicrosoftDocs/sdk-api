@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10multithread.htm
 ms.date: 12/05/2018
 ms.keywords: 03af3cb4-f8ff-e677-80ea-33ee09667866, ID3D10Multithread, ID3D10Multithread interface [Direct3D 10], ID3D10Multithread interface [Direct3D 10],described, d3d10/ID3D10Multithread, direct3d10.id3d10multithread
-ms.topic: interface
 f1_keywords:
 - d3d10/ID3D10Multithread
 dev_langs:
@@ -112,7 +111,7 @@ Turn multithreading on or off.
 
 
 
-This interface is obtained by querying it from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a> using <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a>.
+This interface is obtained by querying it from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a> using <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>.
 
 
 

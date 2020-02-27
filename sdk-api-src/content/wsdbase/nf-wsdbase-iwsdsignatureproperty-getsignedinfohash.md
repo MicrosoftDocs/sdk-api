@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 95e34e7a-18d1-4402-bfd2-5f73d663c181
 ms.date: 12/05/2018
 ms.keywords: GetSignedInfoHash, GetSignedInfoHash method, GetSignedInfoHash method,IWSDSignatureProperty interface, IWSDSignatureProperty interface,GetSignedInfoHash method, IWSDSignatureProperty.GetSignedInfoHash, IWSDSignatureProperty::GetSignedInfoHash, ncd.iwsdsignatureproperty_getsignedinfohash, wsdbase/IWSDSignatureProperty::GetSignedInfoHash
-ms.topic: method
 f1_keywords:
 - wsdbase/IWSDSignatureProperty.GetSignedInfoHash
 dev_langs:

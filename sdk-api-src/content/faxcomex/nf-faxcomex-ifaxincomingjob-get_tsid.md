@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9rqc.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingJob interface [Fax Service],TSID property, IFaxIncomingJob.TSID, IFaxIncomingJob.get_TSID, IFaxIncomingJob::TSID, IFaxIncomingJob::get_TSID, TSID property [Fax Service], TSID property [Fax Service],IFaxIncomingJob interface, _mfax_faxincomingjob.tsid, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_tsid_cpp, fax._mfax_faxincomingjob_tsid, faxcomex/IFaxIncomingJob::TSID, faxcomex/IFaxIncomingJob::get_TSID, get_TSID
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxIncomingJob.TSID
 dev_langs:

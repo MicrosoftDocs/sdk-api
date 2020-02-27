@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: cabe06c8-ead5-4e1d-83c3-e7b96b05fc4a
 ms.date: 12/05/2018
 ms.keywords: CreateDialogRequestNumber, CreateDialogRequestNumber method [Microsoft TV Technologies], CreateDialogRequestNumber method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],CreateDialogRequestNumber method, IBDA_ConditionalAccessEx.CreateDialogRequestNumber, IBDA_ConditionalAccessEx::CreateDialogRequestNumber, bdaiface/IBDA_ConditionalAccessEx::CreateDialogRequestNumber, mstv.ibda_conditionalaccessex_createdialogrequestnumber
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_ConditionalAccessEx.CreateDialogRequestNumber
 dev_langs:

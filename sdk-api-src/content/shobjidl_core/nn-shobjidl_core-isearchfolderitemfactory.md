@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a684b373-6de4-4b4a-bbae-85e1c5a7e04a
 ms.date: 12/05/2018
 ms.keywords: ISearchFolderItemFactory, ISearchFolderItemFactory interface [Windows Shell], ISearchFolderItemFactory interface [Windows Shell],described, _shell_ISearchFolderItemFactory, shell.ISearchFolderItemFactory, shobjidl_core/ISearchFolderItemFactory
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/ISearchFolderItemFactory
 dev_langs:

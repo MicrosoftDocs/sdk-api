@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 73fd0e47-7503-470d-b649-e4b2ba492bf1
 ms.date: 12/05/2018
 ms.keywords: IOpcDigitalSignatureEnumerator, IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions], IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions],described, msopc/IOpcDigitalSignatureEnumerator, opc.iopcdigitalsignatureenumerator
-ms.topic: interface
 f1_keywords:
 - msopc/IOpcDigitalSignatureEnumerator
 dev_langs:

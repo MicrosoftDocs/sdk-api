@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5b2b8f04-c746-48d0-9fca-eda2c6b9ff2a
 ms.date: 12/05/2018
 ms.keywords: DAD_DragLeave, DAD_DragLeave function [Windows Shell], shell.DAD_DragLeave, shell_DAD_DragLeave, shlobj_core/DAD_DragLeave
-ms.topic: function
 f1_keywords:
 - shlobj_core/DAD_DragLeave
 dev_langs:

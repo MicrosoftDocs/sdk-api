@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 999c7ead-7ca6-42a5-a530-706fb3283b21
 ms.date: 12/05/2018
 ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnSetFocus method, ITfKeyEventSink.OnSetFocus, ITfKeyEventSink::OnSetFocus, OnSetFocus, OnSetFocus method [Text Services Framework], OnSetFocus method [Text Services Framework],ITfKeyEventSink interface, _tsf_itfkeyeventsink_onsetfocus_ref, msctf/ITfKeyEventSink::OnSetFocus, tsf.itfkeyeventsink_onsetfocus
-ms.topic: method
 f1_keywords:
 - msctf/ITfKeyEventSink.OnSetFocus
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 0d8d2e70-8200-4153-bd52-f7d839fd0909
 ms.date: 12/05/2018
 ms.keywords: SHGetPropertyStoreFromParsingName, SHGetPropertyStoreFromParsingName function [Windows Properties], _shell_SHGetPropertyStoreFromParsingName, properties.SHGetPropertyStoreFromParsingName, shell.SHGetPropertyStoreFromParsingName, shobjidl_core/SHGetPropertyStoreFromParsingName
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHGetPropertyStoreFromParsingName
 dev_langs:

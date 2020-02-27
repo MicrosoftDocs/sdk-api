@@ -1,9 +1,10 @@
 ---
 UID: NA:mi
+title: Mi.h header
 ms.assetid: aac31f17-22ba-3534-a0bf-99947d893f79
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: wmi_v2
 ---
 

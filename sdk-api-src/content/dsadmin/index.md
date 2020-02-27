@@ -1,9 +1,10 @@
 ---
 UID: NA:dsadmin
+title: Dsadmin.h header
 ms.assetid: 671782ad-42cf-371d-a017-fbd9fa3dbccd
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: ad
 ---
 

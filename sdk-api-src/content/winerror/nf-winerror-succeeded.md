@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 7a258b0b-d214-46c5-be0a-6493cd14a0e5
 ms.date: 12/05/2018
 ms.keywords: SUCCEEDED, SUCCEEDED macro [COM], _com_SUCCEEDED, com.succeeded, com.succeeded_macro, winerror/SUCCEEDED
-ms.topic: macro
 f1_keywords:
 - winerror/SUCCEEDED
 dev_langs:

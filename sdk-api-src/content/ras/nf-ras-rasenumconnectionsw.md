@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: b581cfbf-a55e-4f56-89cd-168aa23af550
 ms.date: 12/05/2018
 ms.keywords: RasEnumConnections, RasEnumConnections function [RAS], RasEnumConnectionsA, RasEnumConnectionsW, _ras_rasenumconnections, ras/RasEnumConnections, ras/RasEnumConnectionsA, ras/RasEnumConnectionsW, rras.rasenumconnections
-ms.topic: function
 f1_keywords:
 - ras/RasEnumConnections
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 4315562e-674b-40a4-a2d9-133e6ab27c25
 ms.date: 12/05/2018
 ms.keywords: RpcCancelThread, RpcCancelThread function [RPC], _rpc_rpccancelthread, rpc.rpccancelthread, rpcdce/RpcCancelThread
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcCancelThread
 dev_langs:
@@ -149,15 +148,15 @@ You can use
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=109284">ncacn_http</a>
+<a href="https://msdn.microsoft.com/library/aa367103(VS.85).aspx">ncacn_http</a>
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=109287">ncadg_mq</a>
+<a href="https://msdn.microsoft.com/library/aa367114(VS.85).aspx">ncadg_mq</a>
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=109288">ncalrpc</a>
+<a href="https://msdn.microsoft.com/library/aa367115(VS.85).aspx">ncalrpc</a>
  
 
  

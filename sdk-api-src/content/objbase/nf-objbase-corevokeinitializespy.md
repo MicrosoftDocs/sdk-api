@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 24b0bedd-421a-4215-8edc-9fdce53e3b44
 ms.date: 12/05/2018
 ms.keywords: CoRevokeInitializeSpy, CoRevokeInitializeSpy function [COM], _com_CoRevokeInitializeSpy, com.corevokeinitializespy, objbase/CoRevokeInitializeSpy
-ms.topic: function
 f1_keywords:
 - objbase/CoRevokeInitializeSpy
 dev_langs:

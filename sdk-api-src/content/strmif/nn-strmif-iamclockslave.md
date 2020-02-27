@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7b3d0f93-09dd-4a36-a031-70f61402c314
 ms.date: 12/05/2018
 ms.keywords: IAMClockSlave, IAMClockSlave interface [DirectShow], IAMClockSlave interface [DirectShow],described, IAMClockSlaveInterface, dshow.iamclockslave, strmif/IAMClockSlave
-ms.topic: interface
 f1_keywords:
 - strmif/IAMClockSlave
 dev_langs:

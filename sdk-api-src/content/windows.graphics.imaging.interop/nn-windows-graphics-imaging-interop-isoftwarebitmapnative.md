@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 9EB9C74E-A056-4A40-AFAD-0056E139BA28
 ms.date: 12/05/2018
 ms.keywords: ISoftwareBitmapNative, ISoftwareBitmapNative interface [Windows Runtime], ISoftwareBitmapNative interface [Windows Runtime],described, windows/ISoftwareBitmapNative, winrt.isoftwarebitmapnative
-ms.topic: interface
 f1_keywords:
 - windows.graphics.imaging.interop/ISoftwareBitmapNative
 dev_langs:

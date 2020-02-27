@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 8aeb004e-4507-4bf4-bd79-2747feaf5e4d
 ms.date: 12/05/2018
 ms.keywords: GetPrivateData, GetPrivateData method [Direct3D 11], GetPrivateData method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],GetPrivateData method, ID3D11Device.GetPrivateData, ID3D11Device::GetPrivateData, cd04b276-e229-c087-80d8-decc870a424f, d3d11/ID3D11Device::GetPrivateData, direct3d11.id3d11device_getprivatedata
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11Device.GetPrivateData
 dev_langs:

@@ -5,7 +5,6 @@ description: Contains methods for building a font set.
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSetBuilder2, IDWriteFontSetBuilder2 interface [Direct Write], IDWriteFontSetBuilder2 interface [Direct Write],described, directwrite.idwritefontsetbuilder2, dwrite_3/IDWriteFontSetBuilder2
-ms.topic: interface
 f1_keywords:
 - IDWriteFontSetBuilder2
 dev_langs:

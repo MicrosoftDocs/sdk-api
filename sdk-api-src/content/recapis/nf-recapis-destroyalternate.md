@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: d355d377-2021-4e74-b3bb-2058271c9be9
 ms.date: 12/05/2018
 ms.keywords: DestroyAlternate, DestroyAlternate function [Tablet PC], d355d377-2021-4e74-b3bb-2058271c9be9, recapis/DestroyAlternate, tablet.destroyalternate
-ms.topic: function
 f1_keywords:
 - recapis/DestroyAlternate
 dev_langs:

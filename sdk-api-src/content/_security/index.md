@@ -1,9 +1,10 @@
 ---
 UID: TP:security
+title: Security and Identity
 ms.assetid: b363e999-e030-3061-ae49-cc5ffd5ea84d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Security and Identity
@@ -83,5 +84,5 @@ For programming guidance for this technology, see:
 * [Security Glossary](/windows/desktop/secgloss)
 * [Security Management](/windows/desktop/secmgmt)
 * [Security WMI Providers](/windows/desktop/secprov)
-* [Software Licensing API](/windows/desktop/secslapi)
+* [Software Licensing API](https://docs.microsoft.com/previous-versions/windows/desktop/secslapi)
 

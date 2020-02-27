@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 6de40049-3c61-458c-b7e0-c4b416780581
 ms.date: 12/05/2018
 ms.keywords: IAccClientDocMgr interface [Windows Accessibility],LookupByPoint method, IAccClientDocMgr.LookupByPoint, IAccClientDocMgr::LookupByPoint, LookupByPoint, LookupByPoint method [Windows Accessibility], LookupByPoint method [Windows Accessibility],IAccClientDocMgr interface, _msaa_IAccClientDocMgr_LookupByPoint, msaa.iaccclientdocmgr_iaccclientdocmgr__lookupbypoint, msaatext/IAccClientDocMgr::LookupByPoint, winauto.iaccclientdocmgr_iaccclientdocmgr__lookupbypoint
-ms.topic: method
 f1_keywords:
 - msaatext/IAccClientDocMgr.LookupByPoint
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Clients call <b>IAccClientDocMgr::LookupByPoint</b> to get a document object from a point within the document.
 <div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
-<a href="https://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="https://msdn.microsoft.com/library/ms629032(VS.85).aspx">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		</div><div> </div>
 
 ## -parameters

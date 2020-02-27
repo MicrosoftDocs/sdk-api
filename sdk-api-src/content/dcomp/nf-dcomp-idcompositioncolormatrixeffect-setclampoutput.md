@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 2C4EF887-18CF-49A2-96F5-02B81939BBA9
 ms.date: 12/05/2018
 ms.keywords: IDCompositionColorMatrixEffect interface [DirectComposition],SetClampOutput method, IDCompositionColorMatrixEffect.SetClampOutput, IDCompositionColorMatrixEffect::SetClampOutput, SetClampOutput, SetClampOutput method [DirectComposition], SetClampOutput method [DirectComposition],IDCompositionColorMatrixEffect interface, dcomp/IDCompositionColorMatrixEffect::SetClampOutput, directcomp.idcompositioncolormatrixeffect_setclampoutput
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionColorMatrixEffect.SetClampOutput
 dev_langs:

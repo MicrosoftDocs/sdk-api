@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 7af8fe94-15db-49dc-ba4a-b79601205f59
 ms.date: 12/05/2018
 ms.keywords: IADsTSUserEx, IADsTSUserEx interface [Remote Desktop Services], IADsTSUserEx interface [Remote Desktop Services],described, termserv.iadstsuserex, tsuserex/IADsTSUserEx
-ms.topic: interface
 f1_keywords:
 - tsuserex/IADsTSUserEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 51787A45-BCDE-4028-A338-1C16F2DE79AD
 ms.date: 12/05/2018
 ms.keywords: IAgileReference, IAgileReference interface [Windows Runtime], IAgileReference interface [Windows Runtime],described, objidl/IAgileReference, winrt.iagilereference
-ms.topic: interface
 f1_keywords:
 - objidl/IAgileReference
 dev_langs:

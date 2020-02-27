@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 0477a219-0300-41de-bd2a-83052bd7b90f
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSetupManager interface [Windows Deployment Services],Version property, IWdsTransportSetupManager.Version, IWdsTransportSetupManager.get_Version, IWdsTransportSetupManager::Version, IWdsTransportSetupManager::get_Version, Version property [Windows Deployment Services], Version property [Windows Deployment Services],IWdsTransportSetupManager interface, get_Version, wds.iwdstransportsetupmanager_version, wdstptmgmt/IWdsTransportSetupManager::Version, wdstptmgmt/IWdsTransportSetupManager::get_Version
-ms.topic: method
 f1_keywords:
 - wdstptmgmt/IWdsTransportSetupManager.Version
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WEC
 ms.assetid: ece884d6-df3c-44d0-a10c-affcf3107148
 ms.date: 12/05/2018
 ms.keywords: EC_SUBSCRIPTION_DELIVERY_MODE, EC_SUBSCRIPTION_DELIVERY_MODE enumeration, EcDeliveryModePull, EcDeliveryModePush, evcoll/EC_SUBSCRIPTION_DELIVERY_MODE, evcoll/EcDeliveryModePull, evcoll/EcDeliveryModePush, wec.ec_subscription_delivery_mode, wes.ec_subscription_delivery_mode
-ms.topic: enum
 f1_keywords:
 - evcoll/EC_SUBSCRIPTION_DELIVERY_MODE
 dev_langs:

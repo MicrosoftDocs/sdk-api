@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9fef2dd9-0a56-4e51-a64b-7f12c8f9a966
 ms.date: 12/05/2018
 ms.keywords: AM_DvdKaraokeData, AM_DvdKaraokeData structure [DirectShow], dshow.am_dvdkaraokedata, dvdmedia/AM_DvdKaraokeData
-ms.topic: struct
 f1_keywords:
 - dvdmedia/AM_DvdKaraokeData
 dev_langs:

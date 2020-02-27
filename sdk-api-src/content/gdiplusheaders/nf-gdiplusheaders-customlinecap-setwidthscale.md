@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\setwidthscale.htm
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],SetWidthScale method, CustomLineCap.SetWidthScale, CustomLineCap::SetWidthScale, SetWidthScale, SetWidthScale method [GDI+], SetWidthScale method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_SetWidthScale_widthScale_, gdiplus._gdiplus_CLASS_CustomLineCap_SetWidthScale_widthScale_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/CustomLineCap.SetWidthScale
 dev_langs:

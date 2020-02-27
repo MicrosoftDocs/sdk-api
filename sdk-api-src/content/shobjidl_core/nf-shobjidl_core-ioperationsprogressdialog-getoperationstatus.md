@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: bd796369-9789-4c69-b699-eb0ec0e571b2
 ms.date: 12/05/2018
 ms.keywords: GetOperationStatus, GetOperationStatus method [Windows Shell], GetOperationStatus method [Windows Shell],IOperationsProgressDialog interface, IOperationsProgressDialog interface [Windows Shell],GetOperationStatus method, IOperationsProgressDialog.GetOperationStatus, IOperationsProgressDialog::GetOperationStatus, _shell_IOperationsProgressDialog_GetOperationStatus, shell.IOperationsProgressDialog_GetOperationStatus, shobjidl_core/IOperationsProgressDialog::GetOperationStatus
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IOperationsProgressDialog.GetOperationStatus
 dev_langs:

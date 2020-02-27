@@ -7,7 +7,6 @@ tech.root: WinProg
 ms.assetid: EB398E5B-1EE8-4BFA-889A-A46094F82B9F
 ms.date: 12/05/2018
 ms.keywords: Multiply128, Multiply128 function [Windows API], winnt/Multiply128, winprog.multiply128
-ms.topic: function
 f1_keywords:
 - winnt/Multiply128
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: e3a19d49-740a-436c-be6b-c98b5a14dc93
 ms.date: 12/05/2018
 ms.keywords: GetTransaction, GetTransaction method [COM+], GetTransaction method [COM+],IObjectContextInfo interface, IObjectContextInfo interface [COM+],GetTransaction method, IObjectContextInfo.GetTransaction, IObjectContextInfo::GetTransaction, _cos_IObjectContextInfo_GetTransaction, comsvcs/IObjectContextInfo::GetTransaction, cos.iobjectcontextinfo_gettransaction
-ms.topic: method
 f1_keywords:
 - comsvcs/IObjectContextInfo.GetTransaction
 dev_langs:
@@ -60,7 +59,7 @@ Retrieves a reference to the current transaction. You can use this reference to 
 
 ### -param pptrans [out]
 
-A reference to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the transaction that is currently executing. You can then <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> to get the <b>ITransaction</b> interface for the current transaction.
+A reference to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the transaction that is currently executing. You can then <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to get the <b>ITransaction</b> interface for the current transaction.
 
 
 ## -returns

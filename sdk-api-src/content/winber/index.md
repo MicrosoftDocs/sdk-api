@@ -1,9 +1,10 @@
 ---
 UID: NA:winber
+title: Winber.h header
 ms.assetid: 7c6aa3f9-11ea-3c75-87c8-8c3cf028f197
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: ldap
 ---
 

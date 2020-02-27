@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushconstructors\lineargradientbrush_57rectfamprect_colorampcolor1_colorampco.htm
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush, LinearGradientBrush class [GDI+],LinearGradientBrush constructor, LinearGradientBrush constructor [GDI+], LinearGradientBrush constructor [GDI+],LinearGradientBrush class, LinearGradientBrush.LinearGradientBrush, LinearGradientBrush.LinearGradientBrush(IN const RectF &,IN const Color &,IN const Color &,IN LinearGradientMode), LinearGradientBrush.LinearGradientBrush(const RectF&,const Color&,const Color&,LinearGradientMode), LinearGradientBrush::LinearGradientBrush, LinearGradientBrush::LinearGradientBrush(IN const RectF &,IN const Color &,IN const Color &,IN LinearGradientMode), _gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_RectF_rect_Color_color1_Color_color2_LinearGr, gdiplus._gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_RectF_rect_Color_color1_Color_color2_LinearGr
-ms.topic: method
 f1_keywords:
 - gdiplusbrush/LinearGradientBrush.LinearGradientBrush
 dev_langs:

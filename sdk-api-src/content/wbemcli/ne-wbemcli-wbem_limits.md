@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: CCEA9642-EAAF-47D2-9D1A-555227E23C41
 ms.date: 12/05/2018
 ms.keywords: WBEM_LIMITS, WBEM_LIMITS enumeration [Windows Management Instrumentation], WBEM_MAX_IDENTIFIER, WBEM_MAX_OBJECT_NESTING, WBEM_MAX_PATH, WBEM_MAX_QUERY, WBEM_MAX_USER_PROPERTIES, wbemcli/WBEM_LIMITS, wbemcli/WBEM_MAX_IDENTIFIER, wbemcli/WBEM_MAX_OBJECT_NESTING, wbemcli/WBEM_MAX_PATH, wbemcli/WBEM_MAX_QUERY, wbemcli/WBEM_MAX_USER_PROPERTIES, wmi.wbem_limits
-ms.topic: enum
 f1_keywords:
 - wbemcli/WBEM_LIMITS
 dev_langs:

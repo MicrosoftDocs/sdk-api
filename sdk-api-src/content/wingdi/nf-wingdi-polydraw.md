@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 5fd3f285-dcf3-4cd0-915a-236ba7902353
 ms.date: 12/05/2018
 ms.keywords: PT_BEZIERTO, PT_CLOSEFIGURE, PT_LINETO, PT_MOVETO, PolyDraw, PolyDraw function [Windows GDI], _win32_PolyDraw, gdi.polydraw, wingdi/PolyDraw
-ms.topic: function
 f1_keywords:
 - wingdi/PolyDraw
 dev_langs:

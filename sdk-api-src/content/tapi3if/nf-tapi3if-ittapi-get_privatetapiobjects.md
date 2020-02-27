@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: a196e6cc-d8a3-49a2-8bda-e99675806dd7
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],get_PrivateTAPIObjects method, ITTAPI.get_PrivateTAPIObjects, ITTAPI::get_PrivateTAPIObjects, _tapi3_ittapi_get_privatetapiobjects, get_PrivateTAPIObjects, get_PrivateTAPIObjects method [TAPI 2.2], get_PrivateTAPIObjects method [TAPI 2.2],ITTAPI interface, tapi3.ittapi_get_privatetapiobjects, tapi3if/ITTAPI::get_PrivateTAPIObjects
-ms.topic: method
 f1_keywords:
 - tapi3if/ITTAPI.get_PrivateTAPIObjects
 dev_langs:

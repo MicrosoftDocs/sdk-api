@@ -7,7 +7,6 @@ tech.root: wcm
 ms.assetid: c6a483cf-d392-495f-854d-ccc782b30aa5
 ms.date: 12/05/2018
 ms.keywords: '*PWCM_USAGE_DATA, PWCM_USAGE_DATA, PWCM_USAGE_DATA structure pointer [Windows Connection Manager], WCM_USAGE_DATA, WCM_USAGE_DATA structure [Windows Connection Manager], wcm.wcm_usage_data, wcmapi/PWCM_USAGE_DATA, wcmapi/WCM_USAGE_DATA'
-ms.topic: struct
 f1_keywords:
 - wcmapi/WCM_USAGE_DATA
 dev_langs:

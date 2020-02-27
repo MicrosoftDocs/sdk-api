@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 81dbb486-0b35-44ff-9aa2-2e449995591e
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsEditable method, IShellImageData.IsEditable, IShellImageData::IsEditable, IsEditable, IsEditable method [Windows Shell], IsEditable method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsEditable, shell.IShellImageData_IsEditable, shimgdata/IShellImageData::IsEditable
-ms.topic: method
 f1_keywords:
 - shimgdata/IShellImageData.IsEditable
 dev_langs:

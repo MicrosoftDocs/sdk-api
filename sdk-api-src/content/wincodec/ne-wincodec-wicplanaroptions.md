@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 8B7F34AA-77A0-428D-800E-31AB43067102
 ms.date: 12/05/2018
 ms.keywords: WICPlanarOptions, WICPlanarOptions enumeration [Windows Imaging Component], WICPlanarOptionsDefault, WICPlanarOptionsPreserveSubsampling, wic.wicplanaroptions, wincodec/WICPlanarOptions, wincodec/WICPlanarOptionsDefault, wincodec/WICPlanarOptionsPreserveSubsampling
-ms.topic: enum
 f1_keywords:
 - wincodec/WICPlanarOptions
 dev_langs:

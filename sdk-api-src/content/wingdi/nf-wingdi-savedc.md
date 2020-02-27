@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: f438cd7f-436f-436c-b32e-67f5558740cb
 ms.date: 12/05/2018
 ms.keywords: SaveDC, SaveDC function [Windows GDI], _win32_SaveDC, gdi.savedc, wingdi/SaveDC
-ms.topic: function
 f1_keywords:
 - wingdi/SaveDC
 dev_langs:

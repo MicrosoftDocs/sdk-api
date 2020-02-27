@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3d7533c8-3b52-42dd-bfaa-2305bf3b0b18
 ms.date: 12/05/2018
 ms.keywords: IUserNotification interface [Windows Shell],PlaySound method, IUserNotification.PlaySound, IUserNotification::PlaySound, PlaySound, PlaySound method [Windows Shell], PlaySound method [Windows Shell],IUserNotification interface, inet_IUserNotification_PlaySound, shell.IUserNotification_PlaySound, shobjidl_core/IUserNotification::PlaySound
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IUserNotification.PlaySound
 dev_langs:

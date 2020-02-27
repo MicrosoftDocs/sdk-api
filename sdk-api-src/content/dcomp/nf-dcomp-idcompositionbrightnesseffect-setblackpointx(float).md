@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 983AF3B1-628D-4E4C-99C2-C590457F7B8A
 ms.date: 12/05/2018
 ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetBlackPointX method, IDCompositionBrightnessEffect.SetBlackPointX, IDCompositionBrightnessEffect::SetBlackPointX, IDCompositionBrightnessEffect::SetBlackPointX(float), SetBlackPointX, SetBlackPointX method [DirectComposition], SetBlackPointX method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetBlackPointX, directcomp.idcompositionbrightnesseffect_setblackpointx
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionBrightnessEffect.SetBlackPointX
 dev_langs:

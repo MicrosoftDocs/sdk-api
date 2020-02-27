@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 7c2cd523-04e4-4f19-b7f3-cc2af7604283
 ms.date: 12/05/2018
 ms.keywords: HasAlpha, HasAlpha method [Windows Imaging Component], HasAlpha method [Windows Imaging Component],IWICPalette interface, IWICPalette interface [Windows Imaging Component],HasAlpha method, IWICPalette.HasAlpha, IWICPalette::HasAlpha, _wic_codec_iwicpalette_hasalpha, wic._wic_codec_iwicpalette_hasalpha, wincodec/IWICPalette::HasAlpha
-ms.topic: method
 f1_keywords:
 - wincodec/IWICPalette.HasAlpha
 dev_langs:

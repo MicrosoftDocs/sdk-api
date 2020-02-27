@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 839c1e4c-cfa6-4f59-979c-24623a040d5c
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetHwProfileFriendlyNameEx, SetupDiGetHwProfileFriendlyNameEx function [Device and Driver Installation], SetupDiGetHwProfileFriendlyNameExA, SetupDiGetHwProfileFriendlyNameExW, devinst.setupdigethwprofilefriendlynameex, di-rtns_43d54c1e-047c-491c-93a1-cd5eff918a58.xml, setupapi/SetupDiGetHwProfileFriendlyNameEx
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetHwProfileFriendlyNameEx
 dev_langs:
@@ -94,7 +93,7 @@ Must be <b>NULL</b>.
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 

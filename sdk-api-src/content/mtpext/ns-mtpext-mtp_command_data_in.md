@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: a7a6871b-3d53-4134-9877-398c532b489f
 ms.date: 12/05/2018
 ms.keywords: '*PMTP_COMMAND_DATA_IN, MTP_COMMAND_DATA_IN, MTP_COMMAND_DATA_IN structure [windows Media Device Manager], PMTP_COMMAND_DATA_IN, PMTP_COMMAND_DATA_IN structure pointer [windows Media Device Manager], mtpext/MTP_COMMAND_DATA_IN, mtpext/PMTP_COMMAND_DATA_IN, wmdm.mtp_command_data_in'
-ms.topic: struct
 f1_keywords:
 - mtpext/MTP_COMMAND_DATA_IN
 dev_langs:

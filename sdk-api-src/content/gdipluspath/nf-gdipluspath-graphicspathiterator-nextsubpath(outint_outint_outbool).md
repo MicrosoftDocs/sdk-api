@@ -5,7 +5,6 @@ description: The GraphicsPathIterator::NextSubpath method gets the starting inde
 ms.assetid: 175a664d-76d3-40d7-8978-90120e26baf6
 ms.date: 05/13/2019
 ms.keywords: GraphicsPathIterator::NextSubpath
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/GraphicsPathIterator::NextSubpath
 dev_langs:

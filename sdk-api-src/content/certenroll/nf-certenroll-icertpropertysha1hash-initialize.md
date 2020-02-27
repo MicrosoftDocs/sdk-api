@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 898da01b-94e6-4a07-9c53-f93378fbda8c
 ms.date: 12/05/2018
 ms.keywords: ICertPropertySHA1Hash interface [Security],Initialize method, ICertPropertySHA1Hash.Initialize, ICertPropertySHA1Hash::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertySHA1Hash interface, certenroll/ICertPropertySHA1Hash::Initialize, security.icertpropertysha1hash_initialize_method
-ms.topic: method
 f1_keywords:
 - certenroll/ICertPropertySHA1Hash.Initialize
 dev_langs:

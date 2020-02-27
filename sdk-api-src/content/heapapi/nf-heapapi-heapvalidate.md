@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 036e95ff-f71f-49c3-8321-ed4c4bee5455
 ms.date: 12/05/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapValidate, HeapValidate function, _win32_heapvalidate, base.heapvalidate, heapapi/HeapValidate, winbase/HeapValidate
-ms.topic: function
 f1_keywords:
 - heapapi/HeapValidate
 dev_langs:

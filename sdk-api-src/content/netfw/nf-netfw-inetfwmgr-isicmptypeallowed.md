@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 9ff5ef3b-581e-4ce5-9424-dafb08cfe067
 ms.date: 12/05/2018
 ms.keywords: INetFwMgr interface [ICS/ICF],IsIcmpTypeAllowed method, INetFwMgr.IsIcmpTypeAllowed, INetFwMgr::IsIcmpTypeAllowed, IsIcmpTypeAllowed, IsIcmpTypeAllowed method [ICS/ICF], IsIcmpTypeAllowed method [ICS/ICF],INetFwMgr interface, ics.inetfwmgr_isicmptypeallowed, netfw/INetFwMgr::IsIcmpTypeAllowed
-ms.topic: method
 f1_keywords:
 - netfw/INetFwMgr.IsIcmpTypeAllowed
 dev_langs:
@@ -84,7 +83,7 @@ Either a dotted-decimal IPv4 address or an IPv6 hex
 
 ### -param type [in]
 
-ICMP type. For a list of possible ICMP types, see <a href="http://go.microsoft.com/fwlink/p/?linkid=109532">ICMP Type Numbers</a>.
+ICMP type. For a list of possible ICMP types, see <a href="https://www.iana.org/assignments/icmp-parameters">ICMP Type Numbers</a>.
 
 ICMP type.
 

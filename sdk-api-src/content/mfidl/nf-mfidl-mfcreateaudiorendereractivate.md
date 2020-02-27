@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: bce55c34-d64a-4f3b-8d09-6c9363e4eb11
 ms.date: 12/05/2018
 ms.keywords: MFCreateAudioRendererActivate, MFCreateAudioRendererActivate function [Media Foundation], bce55c34-d64a-4f3b-8d09-6c9363e4eb11, mf.mfcreateaudiorendereractivate, mfidl/MFCreateAudioRendererActivate
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreateAudioRendererActivate
 dev_langs:

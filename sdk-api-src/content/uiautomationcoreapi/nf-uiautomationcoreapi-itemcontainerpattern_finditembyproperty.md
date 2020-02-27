@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: ffad2cd6-fcf8-436d-888e-1092ba6c3e76
 ms.date: 12/05/2018
 ms.keywords: ItemContainerPattern_FindItemByProperty, ItemContainerPattern_FindItemByProperty function [Windows Accessibility], uiauto.uiauto_ItemContainerPattern_FindItemByProperty, uiauto_ItemContainerPattern_FindItemByProperty, uiautomationcoreapi/ItemContainerPattern_FindItemByProperty, winauto.uiauto_ItemContainerPattern_FindItemByProperty
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/ItemContainerPattern_FindItemByProperty
 dev_langs:

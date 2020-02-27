@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 7709da21-26a4-4ba7-a81f-fbe993fc0c08
 ms.date: 12/05/2018
 ms.keywords: NdrCStdStubBuffer2_Release, NdrCStdStubBuffer2_Release function [RPC], rpc.ndrcstdstubbuffer2_release, rpcproxy/NdrCStdStubBuffer2_Release
-ms.topic: function
 f1_keywords:
 - rpcproxy/NdrCStdStubBuffer2_Release
 dev_langs:

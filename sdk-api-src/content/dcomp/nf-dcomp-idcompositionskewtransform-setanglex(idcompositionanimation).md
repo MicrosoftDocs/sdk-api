@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 27da99b3-038d-4c18-bb43-09f04dd58ff5
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetAngleX method, IDCompositionSkewTransform.SetAngleX, IDCompositionSkewTransform.SetAngleX(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleX, IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation*), SetAngleX, SetAngleX method [DirectComposition], SetAngleX method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetAngleX, directcomp.idcompositionskewtransform_setanglex_idcompositionanimation
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionSkewTransform.SetAngleX
 dev_langs:

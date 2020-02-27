@@ -7,7 +7,6 @@ tech.root: ixhr2
 ms.assetid: 068C3288-A872-43FA-BF1F-D7A3CD2E2203
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnDataAvailable method, IXMLHTTPRequest2Callback.OnDataAvailable, IXMLHTTPRequest2Callback::OnDataAvailable, OnDataAvailable, OnDataAvailable method [XMLHttpRequest2], OnDataAvailable method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_ondataavailable, msxml6/IXMLHTTPRequest2Callback::OnDataAvailable
-ms.topic: method
 f1_keywords:
 - msxml6/IXMLHTTPRequest2Callback.OnDataAvailable
 dev_langs:

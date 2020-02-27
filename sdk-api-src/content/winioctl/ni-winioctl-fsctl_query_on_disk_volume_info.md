@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 6d34007e-4e6f-433e-9d85-9b2743e1c1d2
 ms.date: 12/05/2018
 ms.keywords: FSCTL_QUERY_ON_DISK_VOLUME_INFO, FSCTL_QUERY_ON_DISK_VOLUME_INFO control, FSCTL_QUERY_ON_DISK_VOLUME_INFO control code [Files], fs.fsctl_query_on_disk_volume_info, winioctl/FSCTL_QUERY_ON_DISK_VOLUME_INFO
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_QUERY_ON_DISK_VOLUME_INFO
 dev_langs:

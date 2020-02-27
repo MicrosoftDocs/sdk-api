@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 536395aa-03ba-430d-a66d-fcabdc9dfe22
 ms.date: 12/05/2018
 ms.keywords: RegLoadKey, RegLoadKey function, RegLoadKeyA, RegLoadKeyW, _win32_regloadkey, base.regloadkey, winreg/RegLoadKey, winreg/RegLoadKeyA, winreg/RegLoadKeyW
-ms.topic: function
 f1_keywords:
 - winreg/RegLoadKey
 dev_langs:
@@ -61,7 +60,7 @@ ms.custom: 19H1
 
 Creates a subkey under <b>HKEY_USERS</b> or <b>HKEY_LOCAL_MACHINE</b> and loads the data from the specified registry hive into that subkey.
 
- Applications that back up or restore system state including system files and registry hives should use the <a href="http://go.microsoft.com/fwlink/p/?linkid=177790">Volume Shadow Copy Service</a> instead of the registry functions.
+ Applications that back up or restore system state including system files and registry hives should use the <a href="https://msdn.microsoft.com/library/aa384649(VS.85).aspx">Volume Shadow Copy Service</a> instead of the registry functions.
 
 
 ## -parameters

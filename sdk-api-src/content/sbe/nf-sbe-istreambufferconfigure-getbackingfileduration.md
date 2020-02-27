@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 3d02d87f-b617-4d46-82b2-41eb4b160d0f
 ms.date: 12/05/2018
 ms.keywords: GetBackingFileDuration, GetBackingFileDuration method [Microsoft TV Technologies], GetBackingFileDuration method [Microsoft TV Technologies],IStreamBufferConfigure interface, IStreamBufferConfigure interface [Microsoft TV Technologies],GetBackingFileDuration method, IStreamBufferConfigure.GetBackingFileDuration, IStreamBufferConfigure::GetBackingFileDuration, IStreamBufferConfigureGetBackingFileDuration, mstv.istreambufferconfigure_getbackingfileduration, sbe/IStreamBufferConfigure::GetBackingFileDuration
-ms.topic: method
 f1_keywords:
 - sbe/IStreamBufferConfigure.GetBackingFileDuration
 dev_langs:

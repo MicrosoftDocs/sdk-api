@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 8198cfad-9188-4f49-92ab-1750ec16aec4
 ms.date: 12/05/2018
 ms.keywords: '*PRTM_ENTITY_EXPORT_METHODS, PRTM_ENTITY_EXPORT_METHODS, PRTM_ENTITY_EXPORT_METHODS structure pointer [RAS], RTM_ENTITY_EXPORT_METHODS, RTM_ENTITY_EXPORT_METHODS structure [RAS], _rtmv2ref_rtm_entity_export_methods, rras.rtm_entity_export_methods, rtmv2/PRTM_ENTITY_EXPORT_METHODS, rtmv2/RTM_ENTITY_EXPORT_METHODS'
-ms.topic: struct
 f1_keywords:
 - rtmv2/RTM_ENTITY_EXPORT_METHODS
 dev_langs:

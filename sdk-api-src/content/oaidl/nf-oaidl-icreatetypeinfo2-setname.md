@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: b490dcb5-97e4-427a-bc87-22f38a4719f3
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetName method, ICreateTypeInfo2.SetName, ICreateTypeInfo2::SetName, SetName, SetName method [Automation], SetName method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetName, automat.icreatetypeinfo2_setname, oaidl/ICreateTypeInfo2::SetName
-ms.topic: method
 f1_keywords:
 - oaidl/ICreateTypeInfo2.SetName
 dev_langs:

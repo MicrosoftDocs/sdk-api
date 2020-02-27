@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 5037f6b9-e316-483b-a8e2-b58d2587ebd9
 ms.date: 12/05/2018
 ms.keywords: '*LPOVERLAPPED, LPOVERLAPPED, LPOVERLAPPED structure pointer, OVERLAPPED, OVERLAPPED structure, _win32_overlapped_str, base.overlapped_str, minwinbase/LPOVERLAPPED, minwinbase/OVERLAPPED, winbase/LPOVERLAPPED, winbase/OVERLAPPED'
-ms.topic: struct
 f1_keywords:
 - minwinbase/OVERLAPPED
 dev_langs:

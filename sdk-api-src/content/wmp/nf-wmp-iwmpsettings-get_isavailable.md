@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 0773792f-4046-4d58-9673-cbfef0ec5bf5
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_isAvailable method, IWMPSettings.get_isAvailable, IWMPSettings::get_isAvailable, IWMPSettingsget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_isavailable, wmp/IWMPSettings::get_isAvailable
-ms.topic: method
 f1_keywords:
 - wmp/IWMPSettings.get_isAvailable
 dev_langs:

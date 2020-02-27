@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 71bc0da9-af41-42d6-a7dc-91be54eb6f5c
 ms.date: 12/05/2018
 ms.keywords: Enter, Enter method [Microsoft Broadband Networks], Enter method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],Enter method, IMbnPin.Enter, IMbnPin::Enter, mbn.imbnpin_enter, mbnapi/IMbnPin::Enter
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnPin.Enter
 dev_langs:

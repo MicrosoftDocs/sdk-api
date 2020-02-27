@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 7b0a36d6-1af1-4c2c-af14-d6139e9115c3
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackage, IXpsOMPackage interface [XPS Documents and Packaging], IXpsOMPackage interface [XPS Documents and Packaging],described, xps.ixpsompackage, xpsobjectmodel/IXpsOMPackage
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMPackage
 dev_langs:
@@ -240,7 +239,7 @@ For information about using this interface in a program, see <a href="https://do
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

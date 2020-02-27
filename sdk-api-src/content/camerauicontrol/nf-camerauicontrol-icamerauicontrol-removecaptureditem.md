@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 384b08e4-7683-43e1-b088-38455a0b956f
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControl interface [Windows API],RemoveCapturedItem method, ICameraUIControl.RemoveCapturedItem, ICameraUIControl::RemoveCapturedItem, RemoveCapturedItem, RemoveCapturedItem method [Windows API], RemoveCapturedItem method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::RemoveCapturedItem, winprog.icamerauicontrol_removecaptureditem
-ms.topic: method
 f1_keywords:
 - camerauicontrol/ICameraUIControl.RemoveCapturedItem
 dev_langs:

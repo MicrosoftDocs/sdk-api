@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 99670376-a338-4001-bede-a4fea57b73a7
 ms.date: 12/05/2018
 ms.keywords: SetupDiDrawMiniIcon, SetupDiDrawMiniIcon function [Device and Driver Installation], devinst.setupdidrawminiicon, di-rtns_b85627e0-4b6a-4198-b4b9-8a1afaa09a9a.xml, setupapi/SetupDiDrawMiniIcon
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiDrawMiniIcon
 dev_langs:
@@ -264,7 +263,7 @@ DestroyIcon(hIcon);
 ```
 
 
-For more information about <a href="http://go.microsoft.com/fwlink/p/?linkid=181019">DrawIcon</a> or <a href="http://go.microsoft.com/fwlink/p/?linkid=181020">DrawIconEx</a>, refer to the Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 documentation.
+For more information about <a href="https://msdn.microsoft.com/library/ms648064(VS.85).aspx">DrawIcon</a> or <a href="https://msdn.microsoft.com/library/ms648065(VS.85).aspx">DrawIconEx</a>, refer to the Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 documentation.
 
 
 

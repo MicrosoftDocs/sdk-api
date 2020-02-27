@@ -7,7 +7,6 @@ tech.root: WCS
 ms.assetid: 037c864f-f8ec-4467-9236-74ea4493d743
 ms.date: 12/05/2018
 ms.keywords: SetColorSpace, SetColorSpace function [Windows Color System], _color_SetColorSpace, wcs.setcolorspace, wingdi/SetColorSpace
-ms.topic: function
 f1_keywords:
 - wingdi/SetColorSpace
 dev_langs:

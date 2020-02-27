@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0f4fc609-597b-4c72-b875-4b3f051dd056
 ms.date: 12/05/2018
 ms.keywords: IKnownFolderManager interface [Windows Shell],Redirect method, IKnownFolderManager.Redirect, IKnownFolderManager::Redirect, Redirect, Redirect method [Windows Shell], Redirect method [Windows Shell],IKnownFolderManager interface, _shell_IKnownFolderManager_Redirect, shell.IKnownFolderManager_Redirect, shobjidl_core/IKnownFolderManager::Redirect
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IKnownFolderManager.Redirect
 dev_langs:

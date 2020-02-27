@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: ad7e548a-9f7a-4e35-9811-edb68458a1df
 ms.date: 12/05/2018
 ms.keywords: GetSessionId, GetSessionId method, GetSessionId method,IVssBackupComponentsEx3 interface, IVssBackupComponentsEx3 interface,GetSessionId method, IVssBackupComponentsEx3.GetSessionId, IVssBackupComponentsEx3::GetSessionId, base.ivssbackupcomponentsex3_getsessionid, vsbackup/IVssBackupComponentsEx3::GetSessionId
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponentsEx3.GetSessionId
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 3e456814-f70f-47ab-b866-f0b73d5cd35e
 ms.date: 12/05/2018
 ms.keywords: WsRegisterOperationForCancel, WsRegisterOperationForCancel function [Web Services for Windows], webservices/WsRegisterOperationForCancel, wsw.wsregisteroperationforcancel
-ms.topic: function
 f1_keywords:
 - webservices/WsRegisterOperationForCancel
 dev_langs:

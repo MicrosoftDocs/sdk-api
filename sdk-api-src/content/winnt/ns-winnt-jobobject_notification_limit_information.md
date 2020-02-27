@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 39cf5f26-dfc1-4f1d-aae4-5f29e277834f
 ms.date: 12/05/2018
 ms.keywords: '*PJOBOBJECT_NOTIFICATION_LIMIT_INFORMATION, JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION, JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION structure, JOB_OBJECT_LIMIT_JOB_MEMORY, JOB_OBJECT_LIMIT_JOB_READ_BYTES, JOB_OBJECT_LIMIT_JOB_TIME, JOB_OBJECT_LIMIT_JOB_WRITE_BYTES, JOB_OBJECT_LIMIT_RATE_CONTROL, PJOBOBJECT_NOTIFICATION_LIMIT_INFORMATION, PJOBOBJECT_NOTIFICATION_LIMIT_INFORMATION structure pointer, ToleranceHigh, ToleranceIntervalLong, ToleranceIntervalMedium, ToleranceIntervalShort, ToleranceLow, ToleranceMedium, _JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION, base.jobobject_notification_limit_information, winnt/JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION, winnt/PJOBOBJECT_NOTIFICATION_LIMIT_INFORMATION'
-ms.topic: struct
 f1_keywords:
 - winnt/JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION
 dev_langs:
@@ -60,12 +59,12 @@ Contains information about notification limits for a job object. This structure 
 
 ### -field IoReadBytesLimit
 
-If the <i>LimitFlags</i> member specifies JOB_OBJECT_LIMIT_FLAGS_READ_BYTES, this member is the notification limit for total I/O bytes read by all processes in the job. Otherwise, this member is ignored.
+If the <i>LimitFlags</i> member specifies JOB_OBJECT_LIMIT_JOB_READ_BYTES, this member is the notification limit for total I/O bytes read by all processes in the job. Otherwise, this member is ignored.
 
 
 ### -field IoWriteBytesLimit
 
-If the <i>LimitFlags</i> parameter specifies JOB_OBJECT_LIMIT_FLAGS_WRITE_BYTES, this member is the notification limit for total I/O bytes written by all processes in the job. Otherwise, this member is ignored.
+If the <i>LimitFlags</i> parameter specifies JOB_OBJECT_LIMIT_JOB_WRITE_BYTES, this member is the notification limit for total I/O bytes written by all processes in the job. Otherwise, this member is ignored.
 
 
 ### -field PerJobUserTimeLimit

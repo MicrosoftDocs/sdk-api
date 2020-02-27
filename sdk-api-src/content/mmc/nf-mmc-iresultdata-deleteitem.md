@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: e0e6192a-2cc0-4a90-9793-e425879fcff2
 ms.date: 12/05/2018
 ms.keywords: DeleteItem, DeleteItem method [MMC], DeleteItem method [MMC],IResultData interface, DeleteItem method [MMC],IResultData2 interface, IResultData interface [MMC],DeleteItem method, IResultData.DeleteItem, IResultData2 interface [MMC],DeleteItem method, IResultData2::DeleteItem, IResultData::DeleteItem, _slate_iresultdata_deleteitem, mmc.iresultdata_deleteitem, mmc/IResultData2::DeleteItem, mmc/IResultData::DeleteItem
-ms.topic: method
 f1_keywords:
 - mmc/IResultData.DeleteItem
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: A67FEAC7-1EBA-42D2-A917-4D5DEA71F557
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetCenterY method, IDCompositionSkewTransform.SetCenterY, IDCompositionSkewTransform::SetCenterY, IDCompositionSkewTransform::SetCenterY(float), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetCenterY, directcomp.idcompositionskewtransform_setcentery_float
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionSkewTransform.SetCenterY
 dev_langs:

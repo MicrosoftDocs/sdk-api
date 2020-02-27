@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 29d8d12c-db4c-4c2c-8747-30c8a5577f43
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced4 interface [windows Media Format],IsUsingFastCache method, IWMReaderAdvanced4.IsUsingFastCache, IWMReaderAdvanced4::IsUsingFastCache, IWMReaderAdvanced4IsUsingFastCache, IsUsingFastCache, IsUsingFastCache method [windows Media Format], IsUsingFastCache method [windows Media Format],IWMReaderAdvanced4 interface, wmformat.iwmreaderadvanced4_isusingfastcache, wmsdkidl/IWMReaderAdvanced4::IsUsingFastCache
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced4.IsUsingFastCache
 dev_langs:

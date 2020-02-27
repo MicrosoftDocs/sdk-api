@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 49312b03-9ee9-44ef-b3eb-a35631a6e693
 ms.date: 12/05/2018
 ms.keywords: GetGdiCompatibleGlyphPlacements, GetGdiCompatibleGlyphPlacements method [Direct Write], GetGdiCompatibleGlyphPlacements method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],GetGdiCompatibleGlyphPlacements method, IDWriteTextAnalyzer.GetGdiCompatibleGlyphPlacements, IDWriteTextAnalyzer::GetGdiCompatibleGlyphPlacements, directwrite.idwritetextanalyzer_getgdicompatibleglyphplacements, dwrite/IDWriteTextAnalyzer::GetGdiCompatibleGlyphPlacements
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextAnalyzer.GetGdiCompatibleGlyphPlacements
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e0dd76b2-fd5c-41e8-b540-db90a2f0dcec
 ms.date: 12/05/2018
 ms.keywords: '*LPSHDRAGIMAGE, LPSHDRAGIMAGE, LPSHDRAGIMAGE structure pointer [Windows Shell], SHDRAGIMAGE, SHDRAGIMAGE structure [Windows Shell], _win32_SHDRAGIMAGE_str, shell.SHDRAGIMAGE_str, shobjidl_core/LPSHDRAGIMAGE, shobjidl_core/SHDRAGIMAGE'
-ms.topic: struct
 f1_keywords:
 - shobjidl_core/SHDRAGIMAGE
 dev_langs:

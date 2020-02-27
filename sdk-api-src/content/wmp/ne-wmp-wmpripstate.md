@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: bd62cae1-3f63-4355-afc7-e429a444189d
 ms.date: 12/05/2018
 ms.keywords: WMPRipState, WMPRipState enumeration [Windows Media Player], wmp.wmpripstate, wmp/WMPRipState, wmp/wmprsRipping, wmp/wmprsStopped, wmp/wmprsUnknown, wmprsRipping, wmprsStopped, wmprsUnknown
-ms.topic: enum
 f1_keywords:
 - wmp/WMPRipState
 dev_langs:

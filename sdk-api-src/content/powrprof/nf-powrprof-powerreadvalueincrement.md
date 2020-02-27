@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: f5aa19c5-67ea-4a87-be87-b3bf3d9dd5a4
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadValueIncrement, PowerReadValueIncrement function, base.powerreadvalueincrement, powrprof/PowerReadValueIncrement
-ms.topic: function
 f1_keywords:
 - powrprof/PowerReadValueIncrement
 dev_langs:

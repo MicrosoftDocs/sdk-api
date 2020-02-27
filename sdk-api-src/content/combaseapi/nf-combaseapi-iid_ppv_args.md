@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 268B59FA-44EB-4777-8162-C50981CBDD09
 ms.date: 12/05/2018
 ms.keywords: IID_PPV_ARGS, IID_PPV_ARGS macro [Windows Shell], IID_PPV_ARGS_Helper, _shell_IID_PPV_ARGS, combaseapi/IID_PPV_ARGS, shell.IID_PPV_ARGS
-ms.topic: macro
 f1_keywords:
 - combaseapi/IID_PPV_ARGS
 dev_langs:
@@ -76,7 +75,7 @@ An address of an interface pointer whose type <b>T</b> is used to determine the 
 
 
 
-A common syntax in methods that retrieve an interface pointer (most notably <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> and <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>) includes two parameters:
+A common syntax in methods that retrieve an interface pointer (most notably <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> and <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>) includes two parameters:
 
                 
 

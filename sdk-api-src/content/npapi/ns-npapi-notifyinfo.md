@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 43b31128-da9c-470b-b030-0010b250a291
 ms.date: 12/05/2018
 ms.keywords: '*LPNOTIFYINFO, LPNOTIFYINFO, LPNOTIFYINFO structure pointer [Security], NOTIFYINFO, NOTIFYINFO structure [Security], _mnp_notifyinfo, npapi/LPNOTIFYINFO, npapi/NOTIFYINFO, security.notifyinfo'
-ms.topic: struct
 f1_keywords:
 - npapi/NOTIFYINFO
 dev_langs:

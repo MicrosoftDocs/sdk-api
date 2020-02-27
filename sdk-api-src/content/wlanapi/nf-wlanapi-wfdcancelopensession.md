@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 0BE3DAED-C9B1-492B-BDFC-CB32BE23E700
 ms.date: 12/05/2018
 ms.keywords: WFDCancelOpenSession, WFDCancelOpenSession function [NativeWIFI], nwifi.wfdcancelopensession, wlanapi/WFDCancelOpenSession
-ms.topic: function
 f1_keywords:
 - wlanapi/WFDCancelOpenSession
 dev_langs:

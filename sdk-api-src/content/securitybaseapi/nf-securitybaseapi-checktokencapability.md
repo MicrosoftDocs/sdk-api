@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 436A5110-B79E-4E64-92E8-1C9E713D0948
 ms.date: 12/05/2018
 ms.keywords: CheckTokenCapability, CheckTokenCapability function [Security], security.checktokencapability, securitybaseapi/CheckTokenCapability
-ms.topic: function
 f1_keywords:
 - securitybaseapi/CheckTokenCapability
 dev_langs:

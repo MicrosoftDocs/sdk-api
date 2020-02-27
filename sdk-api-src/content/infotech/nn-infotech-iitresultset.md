@@ -7,7 +7,6 @@ tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetinterface.htm
 ms.date: 12/05/2018
 ms.keywords: IITResultSet, IITResultSet interface [HTML Help Workshop], IITResultSet interface [HTML Help Workshop],described, htmlhelp.iitresultset, infotech/IITResultSet, refIITResultSetInterface
-ms.topic: interface
 f1_keywords:
 - infotech/IITResultSet
 dev_langs:

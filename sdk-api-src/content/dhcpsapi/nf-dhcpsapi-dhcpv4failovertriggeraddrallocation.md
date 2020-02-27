@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: ff258179-1091-4338-9317-68fd8fe5a556
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverTriggerAddrAllocation, DhcpV4FailoverTriggerAddrAllocation function [DHCP], dhcp.dhcpv4failovertriggeraddrallocation, dhcpsapi/DhcpV4FailoverTriggerAddrAllocation
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4FailoverTriggerAddrAllocation
 dev_langs:

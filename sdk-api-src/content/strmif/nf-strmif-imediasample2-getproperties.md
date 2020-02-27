@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ef20deed-f906-459a-8c2a-f1c929ade9ac
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [DirectShow], GetProperties method [DirectShow],IMediaSample2 interface, IMediaSample2 interface [DirectShow],GetProperties method, IMediaSample2.GetProperties, IMediaSample2::GetProperties, IMediaSample2GetProperties, dshow.imediasample2_getproperties, strmif/IMediaSample2::GetProperties
-ms.topic: method
 f1_keywords:
 - strmif/IMediaSample2.GetProperties
 dev_langs:
@@ -115,7 +114,7 @@ Success.
 
 
 
-The retrieved data conforms to the format of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure. You can retrieve a subset of the sample properties by setting <i>cbProperties</i> to a value less than the size of the <b>AM_SAMPLE2_PROPERTIES</b> structure.
+The retrieved data conforms to the format of the [AM_SAMPLE2_PROPERTIES](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure. You can retrieve a subset of the sample properties by setting <i>cbProperties</i> to a value less than the size of the <b>AM_SAMPLE2_PROPERTIES</b> structure.
 
 For efficiency, the <b>pMediaType</b> member returned in <b>AM_SAMPLE2_PROPERTIES</b> is a pointer to the data stored in the media sample, not a copy of that data. The pointer may become invalid after the sample is passed to another filter, or after the input pin's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imeminputpin-receive">IMemInputPin::Receive</a> method has completed. Also, do not free the pointer or delete the media type.
 

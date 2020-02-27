@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 382d75be-2c56-44f5-8069-740ad9b9d1c4
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_PROPERTY_CONSTRAINT, WS_SECURITY_PROPERTY_CONSTRAINT structure [Web Services for Windows], webservices/WS_SECURITY_PROPERTY_CONSTRAINT, wsw.ws_security_property_constraint
-ms.topic: struct
 f1_keywords:
 - webservices/WS_SECURITY_PROPERTY_CONSTRAINT
 dev_langs:

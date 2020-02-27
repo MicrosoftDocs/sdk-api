@@ -5,7 +5,6 @@ description: Provides methods for getting information about the parameters to th
 tech.root: mf
 ms.assetid: 73442724-7999-4044-8afa-9992bf5313b9
 ms.date: 05/28/2019
-ms.topic: interface
 f1_keywords:
 - ID3D12VideoProcessor
 dev_langs:
@@ -39,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-Provides methods for getting information about the parameters to the call to [ID3D12VideoDevice::CreateVideoProcessor](nf-d3d12video-id3d12videodevice-createvideoprocessor) that created the video processor.
+Provides methods for getting information about the parameters to the call to [ID3D12VideoDevice::CreateVideoProcessor](nf-d3d12video-id3d12videodevice-createvideoprocessor.md) that created the video processor.
 
 
 ## -inheritance
@@ -78,4 +77,4 @@ Provides methods for getting information about the parameters to the call to [ID
 
 ## -see-also
 
-[ID3D12VideoProcessor1](nn-d3d12video-id3d12videoprocessor1)
+[ID3D12VideoProcessor1](nn-d3d12video-id3d12videoprocessor1.md)

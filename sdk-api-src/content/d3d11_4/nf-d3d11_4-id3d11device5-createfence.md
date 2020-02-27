@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: B4AA9E0D-AAF4-4632-A98F-A3212764D5E1
 ms.date: 12/05/2018
 ms.keywords: CreateFence, CreateFence method [Direct3D 11], CreateFence method [Direct3D 11],ID3D11Device5 interface, ID3D11Device5 interface [Direct3D 11],CreateFence method, ID3D11Device5.CreateFence, ID3D11Device5::CreateFence, d3d11_4/ID3D11Device5::CreateFence, direct3d11.id3d11device5_createfence
-ms.topic: method
 f1_keywords:
 - d3d11_4/ID3D11Device5.CreateFence
 dev_langs:

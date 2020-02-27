@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 8d44451a-9150-4b2c-b126-d4fa90c2e192
 ms.date: 12/05/2018
 ms.keywords: BeginUnorderedGroup, BeginUnorderedGroup method [Windows Sync], BeginUnorderedGroup method [Windows Sync],ISyncChangeBatch interface, ISyncChangeBatch interface [Windows Sync],BeginUnorderedGroup method, ISyncChangeBatch.BeginUnorderedGroup, ISyncChangeBatch::BeginUnorderedGroup, winsync.isyncchangebatch_beginunorderedgroup, winsync/ISyncChangeBatch::BeginUnorderedGroup
-ms.topic: method
 f1_keywords:
 - winsync/ISyncChangeBatch.BeginUnorderedGroup
 dev_langs:

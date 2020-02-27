@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e437b46a-8b25-42c4-b307-b6962b60b452
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeySessionNotify interface [Media Foundation],KeyError method, IMFMediaKeySessionNotify.KeyError, IMFMediaKeySessionNotify::KeyError, KeyError, KeyError method [Media Foundation], KeyError method [Media Foundation],IMFMediaKeySessionNotify interface, mf.imfmediakeysessionnotify_keyerror, mfmediaengine/IMFMediaKeySessionNotify::KeyError
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaKeySessionNotify.KeyError
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 5073c909-d3bc-480e-97fb-d096e60787e5
 ms.date: 12/05/2018
 ms.keywords: Hash, Hash method [COM], Hash method [COM],IMoniker interface, IMoniker interface [COM],Hash method, IMoniker.Hash, IMoniker::Hash, _com_imoniker_hash, com.imoniker_hash, objidl/IMoniker::Hash
-ms.topic: method
 f1_keywords:
 - objidl/IMoniker.Hash
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 76109fa1-2f7a-4538-9755-6e2de5852d4b
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],put_TVFormat method, IAMAnalogVideoEncoder.put_TVFormat, IAMAnalogVideoEncoder::put_TVFormat, IAMAnalogVideoEncoderput_TVFormat, dshow.iamanalogvideoencoder_put_tvformat, put_TVFormat, put_TVFormat method [DirectShow], put_TVFormat method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::put_TVFormat
-ms.topic: method
 f1_keywords:
 - strmif/IAMAnalogVideoEncoder.put_TVFormat
 dev_langs:
@@ -65,7 +64,7 @@ The <code>put_TVFormat</code> method sets the encoder to a particular analog vid
 
 ### -param lAnalogVideoStandard [in]
 
-Specifies the video standard to set in the encoder as a <b>long</b> integer containing a value as defined in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a> enumeration.
+Specifies the video standard to set in the encoder as a [AnalogVideoStandard](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-analogvideostandard) enumeration.
 
 
 ## -returns

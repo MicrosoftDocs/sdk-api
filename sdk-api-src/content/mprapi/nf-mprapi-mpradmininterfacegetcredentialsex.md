@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 0ef9f437-a15b-4f6c-ac76-4c31a23e8792
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceGetCredentialsEx, MprAdminInterfaceGetCredentialsEx function [RAS], _mpr_mpradmininterfacegetcredentialsex, mprapi/MprAdminInterfaceGetCredentialsEx, rras.mpradmininterfacegetcredentialsex
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminInterfaceGetCredentialsEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 74b2bb04-6118-4fd1-83c0-3549db3f35f3
 ms.date: 12/05/2018
 ms.keywords: GPMAsyncCancel, IGPMAsyncCancel, IGPMAsyncCancel interface [GPMC], IGPMAsyncCancel interface [GPMC],described, _win32_igpmasynccancel, gpmc.igpmasynccancel, gpmgmt/IGPMAsyncCancel
-ms.topic: interface
 f1_keywords:
 - gpmgmt/IGPMAsyncCancel
 dev_langs:

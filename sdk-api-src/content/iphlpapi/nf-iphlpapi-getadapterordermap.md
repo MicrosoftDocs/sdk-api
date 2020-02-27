@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 43d7429b-6874-4ea6-bbf0-67456af520bc
 ms.date: 12/05/2018
 ms.keywords: GetAdapterOrderMap, GetAdapterOrderMap function [IP Helper], iphlp.getadapterordermap, iphlpapi/GetAdapterOrderMap
-ms.topic: function
 f1_keywords:
 - iphlpapi/GetAdapterOrderMap
 dev_langs:

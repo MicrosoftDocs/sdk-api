@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: da6315af-264e-4dcb-b5eb-ac308128a511
 ms.date: 12/05/2018
 ms.keywords: FWP_V4_ADDR_AND_MASK, FWP_V4_ADDR_AND_MASK structure [Filtering], fwp.fwp_v4_addr_and_mask_struct, fwptypes/FWP_V4_ADDR_AND_MASK
-ms.topic: struct
 f1_keywords:
 - fwptypes/FWP_V4_ADDR_AND_MASK
 dev_langs:

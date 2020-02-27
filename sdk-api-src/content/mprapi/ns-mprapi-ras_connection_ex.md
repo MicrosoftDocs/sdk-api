@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 48526073-caeb-463e-b85b-1ef46ca1e2b4
 ms.date: 12/05/2018
 ms.keywords: '*PRAS_CONNECTION_EX, PRAS_CONNECTION_EX, PRAS_CONNECTION_EX structure pointer [RAS], RAS_CONNECTION_EX, RAS_CONNECTION_EX structure [RAS], RAS_FLAGS_ARAP_CONNECTION, RAS_FLAGS_DORMANT, RAS_FLAGS_IKEV2_CONNECTION, RAS_FLAGS_MESSENGER_PRESENT, RAS_FLAGS_PPP_CONNECTION, RAS_FLAGS_QUARANTINE_PRESENT, mprapi/PRAS_CONNECTION_EX, mprapi/RAS_CONNECTION_EX, rras.ras_connection_ex'
-ms.topic: struct
 f1_keywords:
 - mprapi/RAS_CONNECTION_EX
 dev_langs:
@@ -257,7 +256,7 @@ A value that specifies the percentage by which data transmitted on this connecti
 
 ### -field dwNumSwitchOvers
 
-A value that specifies the number of IKEv2 Mobility and Multihoming Protocol (MOBIKE) switches that have occurred on the connection as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=121752">RFC4555</a>. <b>dwNumSwitchOvers</b>is only valid if <b>dwConnectionFlags</b> is <b>RAS_FLAGS_IKEV2_CONNECTION</b>.
+A value that specifies the number of IKEv2 Mobility and Multihoming Protocol (MOBIKE) switches that have occurred on the connection as defined in <a href="https://www.ietf.org/rfc/rfc4555.txt">RFC4555</a>. <b>dwNumSwitchOvers</b>is only valid if <b>dwConnectionFlags</b> is <b>RAS_FLAGS_IKEV2_CONNECTION</b>.
 
 
 ### -field wszRemoteEndpointAddress

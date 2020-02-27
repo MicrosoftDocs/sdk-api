@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 80fbe47d-702c-4cda-8e28-c72f8d7db3d2
 ms.date: 12/05/2018
 ms.keywords: '*!*, SYMENUM_OPTIONS_DEFAULT, SYMENUM_OPTIONS_INLINE, SymEnumSymbolsEx, SymEnumSymbolsEx function, SymEnumSymbolsExW, base.symenumsymbolsex, dbghelp/SymEnumSymbolsEx, dbghelp/SymEnumSymbolsExW, foo, foo*!bar, foo?'
-ms.topic: function
 f1_keywords:
 - dbghelp/SymEnumSymbolsEx
 dev_langs:

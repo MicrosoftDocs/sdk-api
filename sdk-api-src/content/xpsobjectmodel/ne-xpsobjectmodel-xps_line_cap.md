@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 63ee8c2d-e7c5-4453-9555-25896dc13870
 ms.date: 12/05/2018
 ms.keywords: XPS_LINE_CAP, XPS_LINE_CAP enumeration [XPS Documents and Packaging], XPS_LINE_CAP_FLAT, XPS_LINE_CAP_ROUND, XPS_LINE_CAP_SQUARE, XPS_LINE_CAP_TRIANGLE, xps.xps_line_cap, xpsobjectmodel/XPS_LINE_CAP, xpsobjectmodel/XPS_LINE_CAP_FLAT, xpsobjectmodel/XPS_LINE_CAP_ROUND, xpsobjectmodel/XPS_LINE_CAP_SQUARE, xpsobjectmodel/XPS_LINE_CAP_TRIANGLE
-ms.topic: enum
 f1_keywords:
 - xpsobjectmodel/XPS_LINE_CAP
 dev_langs:
@@ -93,7 +92,7 @@ In the illustration that follows, the  shaded area at the end of each line segme
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

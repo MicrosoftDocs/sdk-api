@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 21740d08-c280-44c1-8efb-1d21b4006039
 ms.date: 12/05/2018
 ms.keywords: HttpRemoveUrl, HttpRemoveUrl function [HTTP], _http_httpremoveurl, http.httpremoveurl, http/HttpRemoveUrl
-ms.topic: function
 f1_keywords:
 - http/HttpRemoveUrl
 dev_langs:

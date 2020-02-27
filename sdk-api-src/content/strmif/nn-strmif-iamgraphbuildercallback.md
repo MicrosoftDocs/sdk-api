@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 4d8e45e3-7144-44ad-b79e-5acc0cec6ed4
 ms.date: 12/05/2018
 ms.keywords: IAMGraphBuilderCallback, IAMGraphBuilderCallback interface [DirectShow], IAMGraphBuilderCallback interface [DirectShow],described, IAMGraphBuilderCallbackInterface, dshow.iamgraphbuildercallback, strmif/IAMGraphBuilderCallback
-ms.topic: interface
 f1_keywords:
 - strmif/IAMGraphBuilderCallback
 dev_langs:

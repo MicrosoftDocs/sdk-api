@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 9675A3EA-12F9-4EE9-93D1-1138FEEB7CA4
 ms.date: 12/05/2018
 ms.keywords: WindowsReplaceString, WindowsReplaceString function [Windows Runtime], winrt.windowsreplacestring, winstring/WindowsReplaceString
-ms.topic: function
 f1_keywords:
 - winstring/WindowsReplaceString
 dev_langs:

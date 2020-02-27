@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: bb36254c-0696-4f3f-89d7-332837ec3a75
 ms.date: 12/05/2018
 ms.keywords: PWLX_WIN31_MIGRATE, PWLX_WIN31_MIGRATE callback, WlxWin31Migrate, WlxWin31Migrate callback function [Security], _gina_wlxwin31migrate, security.wlxwin31migrate, winwlx/WlxWin31Migrate
-ms.topic: callback
 f1_keywords:
 - winwlx/WlxWin31Migrate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: fd29eaa7-8f9c-4468-ad3b-a159bf5f516c
 ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetOwner method, IXpsOMPage.GetOwner, IXpsOMPage::GetOwner, xps.ixpsompage_getowner, xpsobjectmodel/IXpsOMPage::GetOwner
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPage.GetOwner
 dev_langs:
@@ -120,7 +119,7 @@ When the page does not have an owner, a <b>NULL</b> pointer is returned in <i>pa
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

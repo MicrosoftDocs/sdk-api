@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\outline.htm
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath class [GDI+],Outline method, GraphicsPath.Outline, GraphicsPath::Outline, Outline, Outline method [GDI+], Outline method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_Outline_matrix_flatness_, gdiplus._gdiplus_CLASS_GraphicsPath_Outline_matrix_flatness_
-ms.topic: method
 f1_keywords:
 - gdipluspath/GraphicsPath.Outline
 dev_langs:

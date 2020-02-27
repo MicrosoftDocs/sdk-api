@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 3A5FE3A2-8D0D-4073-94FE-B0AC5DBF2D25
 ms.date: 12/05/2018
 ms.keywords: GetAutomaticGroups, GetAutomaticGroups method [App packaging and management], GetAutomaticGroups method [App packaging and management],IAppxContentGroupMapReader interface, IAppxContentGroupMapReader interface [App packaging and management],GetAutomaticGroups method, IAppxContentGroupMapReader.GetAutomaticGroups, IAppxContentGroupMapReader::GetAutomaticGroups, appxpackaging/IAppxContentGroupMapReader::GetAutomaticGroups, appxpkg.iappxcontentgroupmapreader_getautomaticgroups
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxContentGroupMapReader.GetAutomaticGroups
 dev_langs:

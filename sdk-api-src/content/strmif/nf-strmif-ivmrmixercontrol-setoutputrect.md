@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e7e1689c-03b4-457e-8d4c-6d59a70c42af
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetOutputRect method, IVMRMixerControl.SetOutputRect, IVMRMixerControl::SetOutputRect, IVMRMixerControlSetMixingPrefs, SetOutputRect, SetOutputRect method [DirectShow], SetOutputRect method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setoutputrect, strmif/IVMRMixerControl::SetOutputRect
-ms.topic: method
 f1_keywords:
 - strmif/IVMRMixerControl.SetOutputRect
 dev_langs:
@@ -69,7 +68,7 @@ Specifies the input stream.
 
 ### -param pRect [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-normalizedrect">NORMALIZEDRECT</a> structure that specifies the position of the rectangle with composition space.
+Pointer to a [NORMALIZEDRECT](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-normalizedrect) structure that specifies the position of the rectangle with composition space.
 
 
 ## -returns

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 103de5b5-e78c-49a2-81a7-e85eae2d79c1
 ms.date: 12/05/2018
 ms.keywords: GetRecordMajorChannelNumber, GetRecordMajorChannelNumber method [Microsoft TV Technologies], GetRecordMajorChannelNumber method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordMajorChannelNumber method, IATSC_VCT.GetRecordMajorChannelNumber, IATSC_VCT::GetRecordMajorChannelNumber, IATSC_VCTGetRecordMajorChannelNumber, atscpsipparser/IATSC_VCT::GetRecordMajorChannelNumber, mstv.iatsc_vct_getrecordmajorchannelnumber
-ms.topic: method
 f1_keywords:
 - atscpsipparser/IATSC_VCT.GetRecordMajorChannelNumber
 dev_langs:

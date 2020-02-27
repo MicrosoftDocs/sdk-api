@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5486c4d3-c6c5-459d-aa7f-426971184876
 ms.date: 12/05/2018
 ms.keywords: '*POPENASINFO, OAIF_ALLOW_REGISTRATION, OAIF_EXEC, OAIF_FILE_IS_URI, OAIF_FORCE_REGISTRATION, OAIF_HIDE_REGISTRATION, OAIF_REGISTER_EXT, OAIF_URL_PROTOCOL, OPENASINFO, OPENASINFO structure [Windows Shell], _openasinfo, _shell_OPENASINFO, shell.OPENASINFO, shlobj_core/OPENASINFO'
-ms.topic: struct
 f1_keywords:
 - shlobj_core/OPENASINFO
 dev_langs:

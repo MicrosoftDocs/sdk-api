@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: ea18ee1e-a53e-4032-ae9a-86f61365faaf
 ms.date: 12/05/2018
 ms.keywords: _win32_capFileGetCaptureFile, capFileGetCaptureFile, capFileGetCaptureFile macro [Windows Multimedia], multimedia.capfilegetcapturefile, vfw/capFileGetCaptureFile
-ms.topic: macro
 f1_keywords:
 - vfw/capFileGetCaptureFile
 dev_langs:

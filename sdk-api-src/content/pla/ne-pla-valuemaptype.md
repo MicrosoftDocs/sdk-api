@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: cc217b3b-389a-4d15-b47d-456778f3eaec
 ms.date: 12/05/2018
 ms.keywords: ValueMapType, ValueMapType enumeration [PLA], base.valuemaptype, pla.valuemaptype, pla/ValueMapType, pla/plaFlag, pla/plaFlagArray, pla/plaIndex, pla/plaValidation, plaFlag, plaFlagArray, plaIndex, plaValidation
-ms.topic: enum
 f1_keywords:
 - pla/ValueMapType
 dev_langs:

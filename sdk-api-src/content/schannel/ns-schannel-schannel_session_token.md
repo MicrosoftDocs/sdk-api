@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 3c8f5380-eead-4495-8dff-a9561a787930
 ms.date: 12/05/2018
 ms.keywords: PSCHANNEL_SESSION_TOKEN, PSCHANNEL_SESSION_TOKEN structure pointer [Security], SCHANNEL_SESSION_TOKEN, SCHANNEL_SESSION_TOKEN structure [Security], SSL_SESSION_DISABLE_RECONNECTS, SSL_SESSION_ENABLE_RECONNECTS, schannel/PSCHANNEL_SESSION_TOKEN, schannel/SCHANNEL_SESSION_TOKEN, security.schannel_session_token
-ms.topic: struct
 f1_keywords:
 - schannel/SCHANNEL_SESSION_TOKEN
 dev_langs:

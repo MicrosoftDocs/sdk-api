@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: df5b770e-cc66-45ee-b865-2959255920bf
 ms.date: 12/05/2018
 ms.keywords: GetOpacityMaskBrush, GetOpacityMaskBrush method [XPS Documents and Packaging], GetOpacityMaskBrush method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetOpacityMaskBrush method, IXpsOMVisual.GetOpacityMaskBrush, IXpsOMVisual::GetOpacityMaskBrush, xps.ixpsomvisual_getopacitymaskbrush, xpsobjectmodel/IXpsOMVisual::GetOpacityMaskBrush
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.GetOpacityMaskBrush
 dev_langs:
@@ -181,7 +180,7 @@ No object could be found with a key name that matched the lookup value.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

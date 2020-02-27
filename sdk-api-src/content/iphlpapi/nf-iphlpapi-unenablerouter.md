@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 95f0387f-24e8-4382-b78e-e59bcec0f2ed
 ms.date: 12/05/2018
 ms.keywords: UnenableRouter, UnenableRouter function [IP Helper], _iphlp_unenablerouter, iphlp.unenablerouter, iphlpapi/UnenableRouter
-ms.topic: function
 f1_keywords:
 - iphlpapi/UnenableRouter
 dev_langs:

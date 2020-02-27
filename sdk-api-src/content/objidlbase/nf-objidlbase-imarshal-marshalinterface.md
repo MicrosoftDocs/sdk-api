@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c48a7123-bd00-4ff3-8880-7fc4b99e4299
 ms.date: 12/05/2018
 ms.keywords: IMarshal interface [COM],MarshalInterface method, IMarshal.MarshalInterface, IMarshal::MarshalInterface, MarshalInterface, MarshalInterface method [COM], MarshalInterface method [COM],IMarshal interface, _com_imarshal_marshalinterface, com.imarshal_marshalinterface, objidlbase/IMarshal::MarshalInterface
-ms.topic: method
 f1_keywords:
 - objidlbase/IMarshal.MarshalInterface
 dev_langs:
@@ -155,7 +154,7 @@ You do not explicitly call this method if you are implementing existing COM inte
 
 If you are not using MIDL to define your own interface, your marshaling stub must call this method, either directly or indirectly. Your stub implementation should call <b>MarshalInterface</b> immediately after its previous call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-getmarshalsizemax">IMarshal::GetMarshalSizeMax</a> returns. Because the value returned by <b>GetMarshalSizeMax</b> is guaranteed to be valid only as long as the internal state of the object being marshaled does not change, a delay in calling <b>MarshalInterface</b> runs the risk that the object will require a larger stream buffer than originally indicated.
 
-If the caller has a pointer to the interface to be marshaled, it should, as a matter of efficiency, use the <i>pv</i> parameter to pass that pointer. In this way, an implementation that may use such a pointer to determine the appropriate CLSID for the proxy does not have to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on itself. If a caller does not have a pointer to the interface to be marshaled, it can pass <b>NULL</b>.
+If the caller has a pointer to the interface to be marshaled, it should, as a matter of efficiency, use the <i>pv</i> parameter to pass that pointer. In this way, an implementation that may use such a pointer to determine the appropriate CLSID for the proxy does not have to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on itself. If a caller does not have a pointer to the interface to be marshaled, it can pass <b>NULL</b>.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 Your implementation of <b>MarshalInterface</b> must write to the stream whatever data is needed to initialize the proxy on the receiving side. Such data would include a reference to the interface to be marshaled, a <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a> value specifying whether the data should be returned to the client process or written to a global table, and whatever is needed to connect to the object, such as a named pipe, handle to a window, or pointer to an RPC channel.
@@ -164,7 +163,7 @@ Your implementation should not assume that the stream is large enough to hold al
 
 
 
-If the pv parameter is <b>NULL</b> and your implementation needs an interface pointer, it can call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the current object to get it. The <i>pv</i> parameter exists merely to improve efficiency.
+If the pv parameter is <b>NULL</b> and your implementation needs an interface pointer, it can call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the current object to get it. The <i>pv</i> parameter exists merely to improve efficiency.
 
 
 

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: bbedfbe8-9389-4b4f-8d52-111c787a6268
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineNeedKeyNotify, IMFMediaEngineNeedKeyNotify interface [Media Foundation], IMFMediaEngineNeedKeyNotify interface [Media Foundation],described, mf.imfmediaengineneedkeynotify, mfmediaengine/IMFMediaEngineNeedKeyNotify
-ms.topic: interface
 f1_keywords:
 - mfmediaengine/IMFMediaEngineNeedKeyNotify
 dev_langs:

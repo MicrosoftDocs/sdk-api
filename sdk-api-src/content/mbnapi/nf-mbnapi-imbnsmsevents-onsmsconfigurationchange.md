@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: d6990732-60ef-43e5-b35c-9a3f0324d580
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsConfigurationChange method, IMbnSmsEvents.OnSmsConfigurationChange, IMbnSmsEvents::OnSmsConfigurationChange, OnSmsConfigurationChange, OnSmsConfigurationChange method [Microsoft Broadband Networks], OnSmsConfigurationChange method [Microsoft Broadband Networks],IMbnSmsEvents interface, mbn.imbnsmsevents_onsmsconfigurationchange, mbnapi/IMbnSmsEvents::OnSmsConfigurationChange
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnSmsEvents.OnSmsConfigurationChange
 dev_langs:

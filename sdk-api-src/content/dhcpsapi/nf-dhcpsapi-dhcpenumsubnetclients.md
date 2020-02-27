@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 04ef441e-0638-4ee7-a6a6-a35ab5cf7a44
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumSubnetClients, DhcpEnumSubnetClients function [DHCP], dhcp.dhcpenumsubnetclients, dhcpsapi/DhcpEnumSubnetClients
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpEnumSubnetClients
 dev_langs:
@@ -66,7 +65,7 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 ### -param SubnetAddress [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains the subnet ID. See <a href="Http://go.microsoft.com/fwlink/p/?linkid=84025">RFC 950</a> for more information about subnet ID.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains the subnet ID. See <a href="https://www.ietf.org/rfc/rfc0950.txt">RFC 950</a> for more information about subnet ID.
 
 
 ### -param ResumeHandle [in, out]

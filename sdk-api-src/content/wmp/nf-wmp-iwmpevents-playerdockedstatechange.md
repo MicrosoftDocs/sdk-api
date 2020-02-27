@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 6fbe545a-2130-4cda-a663-6103d938aef4
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlayerDockedStateChange method, IWMPEvents.PlayerDockedStateChange, IWMPEvents::PlayerDockedStateChange, IWMPEventsPlayerDockedStateChange, PlayerDockedStateChange, PlayerDockedStateChange method [Windows Media Player], PlayerDockedStateChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playerdockedstatechange, wmp/IWMPEvents::PlayerDockedStateChange
-ms.topic: method
 f1_keywords:
 - wmp/IWMPEvents.PlayerDockedStateChange
 dev_langs:

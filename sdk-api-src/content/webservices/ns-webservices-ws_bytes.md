@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 0106e372-80bf-4a62-b941-1a4501c92a9c
 ms.date: 12/05/2018
 ms.keywords: WS_BYTES, WS_BYTES structure [Web Services for Windows], webservices/WS_BYTES, wsw.ws_bytes
-ms.topic: struct
 f1_keywords:
 - webservices/WS_BYTES
 dev_langs:

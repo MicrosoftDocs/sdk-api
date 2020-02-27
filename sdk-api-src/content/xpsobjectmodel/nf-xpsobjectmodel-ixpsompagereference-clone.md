@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 30511ddc-19c3-4122-864d-c368df9619a3
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],Clone method, IXpsOMPageReference.Clone, IXpsOMPageReference::Clone, xps.ixpsompagereference_clone, xpsobjectmodel/IXpsOMPageReference::Clone
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPageReference.Clone
 dev_langs:
@@ -131,7 +130,7 @@ This method does not update the resource pointers in the new <a href="https://do
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

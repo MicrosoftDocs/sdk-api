@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 7c837b4f-d319-4d98-934a-b585fe521bf8
 ms.date: 12/05/2018
 ms.keywords: SafeArrayPutElement, SafeArrayPutElement function [Automation], _oa96_SafeArrayPutElement, automat.safearrayputelement, oleauto/SafeArrayPutElement
-ms.topic: function
 f1_keywords:
 - oleauto/SafeArrayPutElement
 dev_langs:

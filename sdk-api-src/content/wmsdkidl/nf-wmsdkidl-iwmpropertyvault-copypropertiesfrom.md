@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 34708ff4-a416-4f2a-abeb-18b9c24c4e7c
 ms.date: 12/05/2018
 ms.keywords: CopyPropertiesFrom, CopyPropertiesFrom method [windows Media Format], CopyPropertiesFrom method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],CopyPropertiesFrom method, IWMPropertyVault.CopyPropertiesFrom, IWMPropertyVault::CopyPropertiesFrom, IWMPropertyVaultCopyPropertiesFrom, wmformat.iwmpropertyvault_copypropertiesfrom, wmsdkidl/IWMPropertyVault::CopyPropertiesFrom
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMPropertyVault.CopyPropertiesFrom
 dev_langs:

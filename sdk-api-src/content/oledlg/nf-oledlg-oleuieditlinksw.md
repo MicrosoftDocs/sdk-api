@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 17c7daf8-83bf-4cfd-a67c-a638630ca263
 ms.date: 12/05/2018
 ms.keywords: OleUIEditLinks, OleUIEditLinks function [COM], OleUIEditLinksA, OleUIEditLinksW, _ole_OleUIEditLinks, com.oleuieditlinks, oledlg/OleUIEditLinks, oledlg/OleUIEditLinksA, oledlg/OleUIEditLinksW
-ms.topic: function
 f1_keywords:
 - oledlg/OleUIEditLinks
 dev_langs:

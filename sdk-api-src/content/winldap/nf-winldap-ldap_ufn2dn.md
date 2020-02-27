@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: aca3942b-4371-48d2-8975-8d184abd1a49
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_ufn2dn, ldap.ldap__ufn2dn, ldap.ldap_ufn2dn, ldap_ufn2dn, ldap_ufn2dn function [LDAP], ldap_ufn2dnA, ldap_ufn2dnW, winldap/ldap_ufn2dn, winldap/ldap_ufn2dnA, winldap/ldap_ufn2dnW
-ms.topic: function
 f1_keywords:
 - winldap/ldap_ufn2dn
 dev_langs:

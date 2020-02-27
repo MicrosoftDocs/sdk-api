@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: b4ce2c10-627d-4cbe-a884-7bb8731c3bcf
 ms.date: 12/05/2018
 ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],InEmergencyMode method, IMbnInterface.InEmergencyMode, IMbnInterface::InEmergencyMode, InEmergencyMode, InEmergencyMode method [Microsoft Broadband Networks], InEmergencyMode method [Microsoft Broadband Networks],IMbnInterface interface, mbn.imbninterface_inemergencymode, mbnapi/IMbnInterface::InEmergencyMode
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnInterface.InEmergencyMode
 dev_langs:

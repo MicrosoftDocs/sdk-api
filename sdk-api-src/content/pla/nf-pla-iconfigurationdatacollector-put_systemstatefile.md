@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: e8e4ec1f-4b43-4252-8a31-55b2ed2dca36
 ms.date: 12/05/2018
 ms.keywords: IConfigurationDataCollector interface [PLA],SystemStateFile property, IConfigurationDataCollector.SystemStateFile, IConfigurationDataCollector.put_SystemStateFile, IConfigurationDataCollector::SystemStateFile, IConfigurationDataCollector::get_SystemStateFile, IConfigurationDataCollector::put_SystemStateFile, SystemStateFile property [PLA], SystemStateFile property [PLA],IConfigurationDataCollector interface, pla.iconfigurationdatacollector_systemstatefile, pla/IConfigurationDataCollector::SystemStateFile, pla/IConfigurationDataCollector::get_SystemStateFile, pla/IConfigurationDataCollector::put_SystemStateFile, put_SystemStateFile
-ms.topic: method
 f1_keywords:
 - pla/IConfigurationDataCollector.SystemStateFile
 dev_langs:

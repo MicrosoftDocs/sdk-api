@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 11e56a77-1a9f-418a-94cf-df686d3d7868
 ms.date: 12/05/2018
 ms.keywords: WinUsb_SetPowerPolicy, WinUsb_SetPowerPolicy function [Buses], buses.winusb_setpowerpolicy, winusb/WinUsb_SetPowerPolicy, winusbfunc_f957d4a1-0ba3-4e43-bf77-74314a5fae59.xml
-ms.topic: function
 f1_keywords:
 - winusb/WinUsb_SetPowerPolicy
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: locationapi
 ms.assetid: eef60203-8705-4f68-be30-c9e7938e5596
 ms.date: 12/05/2018
 ms.keywords: ILocation interface [WinLocation],RequestPermissions method, ILocation.RequestPermissions, ILocation::RequestPermissions, RequestPermissions, RequestPermissions method [WinLocation], RequestPermissions method [WinLocation],ILocation interface, WinLocation_COM_Ref.ilocation_requestpermissions, locationapi/ILocation::RequestPermissions
-ms.topic: method
 f1_keywords:
 - locationapi/ILocation.RequestPermissions
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 0ceebd85-0d57-fd38-a847-0048c2d82b22
 ms.date: 12/05/2018
 ms.keywords: GetVerticalGlyphOrientation, GetVerticalGlyphOrientation method [Direct Write], GetVerticalGlyphOrientation method [Direct Write],IDWriteTextFormat1 interface, IDWriteTextFormat1 interface [Direct Write],GetVerticalGlyphOrientation method, IDWriteTextFormat1.GetVerticalGlyphOrientation, IDWriteTextFormat1::GetVerticalGlyphOrientation, directwrite.idwritetextformat1_getverticalglyphorientation, dwrite_2/IDWriteTextFormat1::GetVerticalGlyphOrientation
-ms.topic: method
 f1_keywords:
 - dwrite_2/IDWriteTextFormat1.GetVerticalGlyphOrientation
 dev_langs:

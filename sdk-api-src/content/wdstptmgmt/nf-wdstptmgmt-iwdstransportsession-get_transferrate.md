@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: cc346743-b2be-43c1-8b68-495bd0aa99d9
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],TransferRate property, IWdsTransportSession.TransferRate, IWdsTransportSession.get_TransferRate, IWdsTransportSession::TransferRate, IWdsTransportSession::get_TransferRate, TransferRate property [Windows Deployment Services], TransferRate property [Windows Deployment Services],IWdsTransportSession interface, get_TransferRate, wds.iwdstransportsession_transferrate, wdstptmgmt/IWdsTransportSession::TransferRate, wdstptmgmt/IWdsTransportSession::get_TransferRate
-ms.topic: method
 f1_keywords:
 - wdstptmgmt/IWdsTransportSession.TransferRate
 dev_langs:

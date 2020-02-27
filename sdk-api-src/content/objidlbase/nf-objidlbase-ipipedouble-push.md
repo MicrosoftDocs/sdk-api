@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 49c9121f-eb92-42e4-bd30-fe2213d44de9
 ms.date: 12/05/2018
 ms.keywords: IPipeDouble interface [COM],Push method, IPipeDouble.Push, IPipeDouble::Push, Push, Push method [COM], Push method [COM],IPipeDouble interface, _com_ipipedouble_push, com.ipipedouble_push, objidlbase/IPipeDouble::Push
-ms.topic: method
 f1_keywords:
 - objidlbase/IPipeDouble.Push
 dev_langs:

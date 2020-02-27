@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 45120acf-48e1-4b4a-af50-f6052acdb533
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtensionNotify interface [Media Foundation],OnSourceOpen method, IMFMediaSourceExtensionNotify.OnSourceOpen, IMFMediaSourceExtensionNotify::OnSourceOpen, OnSourceOpen, OnSourceOpen method [Media Foundation], OnSourceOpen method [Media Foundation],IMFMediaSourceExtensionNotify interface, mf.imfmediasourceextensionnotify_onsourceopen, mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceOpen
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaSourceExtensionNotify.OnSourceOpen
 dev_langs:

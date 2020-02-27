@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 21ABCED3-388E-41AD-B557-DA8707128B01
 ms.date: 12/05/2018
 ms.keywords: GetBufferPointer, GetBufferPointer method [Direct3D 11], GetBufferPointer method [Direct3D 11],ID3D10Blob interface, ID3D10Blob interface [Direct3D 11],GetBufferPointer method, ID3D10Blob.GetBufferPointer, ID3D10Blob::GetBufferPointer, d3dcommon/ID3D10Blob::GetBufferPointer, direct3d11.id3d10blob_getbufferpointer
-ms.topic: method
 f1_keywords:
 - d3dcommon/ID3D10Blob.GetBufferPointer
 dev_langs:

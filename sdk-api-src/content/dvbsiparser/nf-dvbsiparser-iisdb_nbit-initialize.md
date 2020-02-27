@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 8c4e3f53-1b32-4374-915f-15651259dd55
 ms.date: 12/05/2018
 ms.keywords: IISDB_NBIT interface [Microsoft TV Technologies],Initialize method, IISDB_NBIT.Initialize, IISDB_NBIT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_NBIT interface, dvbsiparser/IISDB_NBIT::Initialize, mstv.iisdb_nbit_initialize
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IISDB_NBIT.Initialize
 dev_langs:

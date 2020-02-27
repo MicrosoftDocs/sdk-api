@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectrasterizervariable_getrasterizerstate.htm
 ms.date: 12/05/2018
 ms.keywords: 34eeb6ad-48c0-8ea5-4ad6-2fc879f8d7a1, GetRasterizerState, GetRasterizerState method [Direct3D 10], GetRasterizerState method [Direct3D 10],ID3D10EffectRasterizerVariable interface, ID3D10EffectRasterizerVariable interface [Direct3D 10],GetRasterizerState method, ID3D10EffectRasterizerVariable.GetRasterizerState, ID3D10EffectRasterizerVariable::GetRasterizerState, d3d10effect/ID3D10EffectRasterizerVariable::GetRasterizerState, direct3d10.id3d10effectrasterizervariable_getrasterizerstate
-ms.topic: method
 f1_keywords:
 - d3d10effect/ID3D10EffectRasterizerVariable.GetRasterizerState
 dev_langs:

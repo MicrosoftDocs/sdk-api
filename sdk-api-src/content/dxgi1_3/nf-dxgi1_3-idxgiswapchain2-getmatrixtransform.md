@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 90302283-BB0A-44A9-8CD2-591571EF74ED
 ms.date: 12/05/2018
 ms.keywords: GetMatrixTransform, GetMatrixTransform method [DXGI], GetMatrixTransform method [DXGI],IDXGISwapChain2 interface, IDXGISwapChain2 interface [DXGI],GetMatrixTransform method, IDXGISwapChain2.GetMatrixTransform, IDXGISwapChain2::GetMatrixTransform, direct3ddxgi.idxgiswapchain2_getmatrixtransform, dxgi1_3/IDXGISwapChain2::GetMatrixTransform
-ms.topic: method
 f1_keywords:
 - dxgi1_3/IDXGISwapChain2.GetMatrixTransform
 dev_langs:
@@ -86,7 +85,7 @@ The transform matrix currently used for swap chain scaling and translation.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=311761">DirectX foreground swap chains sample</a>
+<a href="https://code.msdn.microsoft.com/windowsapps/DirectX-Foreground-Swap-6c20f2bb">DirectX foreground swap chains sample</a>
 
 
 

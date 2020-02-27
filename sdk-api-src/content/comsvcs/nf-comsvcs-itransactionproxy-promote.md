@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 861103b4-b5fa-4543-b26b-ad0c89d4473d
 ms.date: 12/05/2018
 ms.keywords: ITransactionProxy interface [COM+],Promote method, ITransactionProxy.Promote, ITransactionProxy::Promote, Promote, Promote method [COM+], Promote method [COM+],ITransactionProxy interface, comsvcs/ITransactionProxy::Promote, cos.itransactionproxy_promote
-ms.topic: method
 f1_keywords:
 - comsvcs/ITransactionProxy.Promote
 dev_langs:

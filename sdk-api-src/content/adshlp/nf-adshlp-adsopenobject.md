@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: c4b85d8e-b33b-47a4-b7d7-5f901f80dce9
 ms.date: 12/05/2018
 ms.keywords: ADsOpenObject, ADsOpenObject function [ADSI], _ds_adsopenobject, adshlp/ADsOpenObject, adsi.adsopenobject
-ms.topic: function
 f1_keywords:
 - adshlp/ADsOpenObject
 dev_langs:
@@ -117,7 +116,7 @@ For more information, see  <a href="https://docs.microsoft.com/windows/desktop/A
 
 
 
-This function should not be used just to validate user credentials. For more information about validating user credentials, see Microsoft Knowledge Base article 180548 <a href="http://go.microsoft.com/fwlink/p/?linkid=83979">HOWTO: Validate User Credentials on Microsoft Operating Systems</a>.
+This function should not be used just to validate user credentials. For more information about validating user credentials, see Microsoft Knowledge Base article 180548 <a href="https://support.microsoft.com/kb/180548">HOWTO: Validate User Credentials on Microsoft Operating Systems</a>.
 
 A C/C++ client calls the <b>ADsOpenObject</b> helper function to bind to an ADSI object, using the user name and password supplied as credentials for the appropriate directory service. If <i>lpszUsername</i> and <i>lpszPassword</i> are <b>NULL</b> and <b>ADS_SECURE_AUTHENTICATION</b> is set, ADSI binds to the object using the security context of the calling thread, which is either the security context of the user account under which the application is running or of the client user account that the calling thread impersonates.
 

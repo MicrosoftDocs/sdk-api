@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 736F6C76-D208-49E8-9D96-F54ECE332FCA
 ms.date: 12/05/2018
 ms.keywords: OPMGetVideoOutputForTarget, OPMGetVideoOutputForTarget function [Media Foundation], OPM_VOS_COPP_SEMANTICS, OPM_VOS_OPM_SEMANTICS, mf.opmgetvideooutputfortarget, opmapi/OPMGetVideoOutputForTarget
-ms.topic: function
 f1_keywords:
 - opmapi/OPMGetVideoOutputForTarget
 dev_langs:

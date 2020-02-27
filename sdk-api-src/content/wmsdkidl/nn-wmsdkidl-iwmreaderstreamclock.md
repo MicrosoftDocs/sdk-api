@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 0f170b6d-fd93-4bf8-8a98-f2a80f03b380
 ms.date: 12/05/2018
 ms.keywords: IWMReaderStreamClock, IWMReaderStreamClock interface [windows Media Format], IWMReaderStreamClock interface [windows Media Format],described, IWMReaderStreamClockInterface, wmformat.iwmreaderstreamclock, wmsdkidl/IWMReaderStreamClock
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMReaderStreamClock
 dev_langs:

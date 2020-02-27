@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 6c428c99-755f-40ab-bc9e-e1a7a3d70c1d
 ms.date: 12/05/2018
 ms.keywords: WS_ANY_ATTRIBUTES, WS_ANY_ATTRIBUTES structure [Web Services for Windows], webservices/WS_ANY_ATTRIBUTES, wsw.ws_any_attributes
-ms.topic: struct
 f1_keywords:
 - webservices/WS_ANY_ATTRIBUTES
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 891af40a-819b-4fce-a1bb-28db145b87f1
 ms.date: 12/05/2018
 ms.keywords: IAccPropServices interface [Windows Accessibility],SetHmenuPropStr method, IAccPropServices.SetHmenuPropStr, IAccPropServices::SetHmenuPropStr, SetHmenuPropStr, SetHmenuPropStr method [Windows Accessibility], SetHmenuPropStr method [Windows Accessibility],IAccPropServices interface, oleacc/IAccPropServices::SetHmenuPropStr, winauto.iaccpropservices_iaccpropservices__sethmenupropstr
-ms.topic: method
 f1_keywords:
 - oleacc/IAccPropServices.SetHmenuPropStr
 dev_langs:

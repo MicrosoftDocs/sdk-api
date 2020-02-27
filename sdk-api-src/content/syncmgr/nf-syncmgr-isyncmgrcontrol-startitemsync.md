@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7e4798ce-04ee-4c75-8be2-0ad8fdc400a5
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],StartItemSync method, ISyncMgrControl.StartItemSync, ISyncMgrControl::StartItemSync, StartItemSync, StartItemSync method [Windows Shell], StartItemSync method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StartItemSync, shell.ISyncMgrControl_StartItemSync, syncmgr/ISyncMgrControl::StartItemSync
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrControl.StartItemSync
 dev_langs:

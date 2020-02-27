@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setmonthcalstyle.htm
 ms.date: 12/05/2018
 ms.keywords: DateTime_SetMonthCalStyle, DateTime_SetMonthCalStyle macro [Windows Controls], _shell_DateTime_SetMonthCalStyle, _shell_DateTime_SetMonthCalStyle_cpp, commctrl/DateTime_SetMonthCalStyle, controls.DateTime_SetMonthCalStyle, controls._shell_DateTime_SetMonthCalStyle
-ms.topic: macro
 f1_keywords:
 - commctrl/DateTime_SetMonthCalStyle
 dev_langs:

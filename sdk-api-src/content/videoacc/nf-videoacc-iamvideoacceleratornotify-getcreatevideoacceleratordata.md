@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 72e3331d-1e54-4ec7-9972-7e39eaf2707d
 ms.date: 12/05/2018
 ms.keywords: GetCreateVideoAcceleratorData, GetCreateVideoAcceleratorData method [DirectShow], GetCreateVideoAcceleratorData method [DirectShow],IAMVideoAcceleratorNotify interface, IAMVideoAcceleratorNotify interface [DirectShow],GetCreateVideoAcceleratorData method, IAMVideoAcceleratorNotify.GetCreateVideoAcceleratorData, IAMVideoAcceleratorNotify::GetCreateVideoAcceleratorData, IAMVideoAcceleratorNotifyGetCreateVideoAcceleratorData, dshow.iamvideoacceleratornotify_getcreatevideoacceleratordata, videoacc/IAMVideoAcceleratorNotify::GetCreateVideoAcceleratorData
-ms.topic: method
 f1_keywords:
 - videoacc/IAMVideoAcceleratorNotify.GetCreateVideoAcceleratorData
 dev_langs:

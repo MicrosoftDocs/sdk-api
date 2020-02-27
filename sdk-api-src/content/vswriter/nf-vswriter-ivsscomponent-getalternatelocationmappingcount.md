@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 218dc021-0a9e-4ba7-95b7-e1f31e57e71c
 ms.date: 12/05/2018
 ms.keywords: GetAlternateLocationMappingCount, GetAlternateLocationMappingCount method [VSS], GetAlternateLocationMappingCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetAlternateLocationMappingCount method, IVssComponent.GetAlternateLocationMappingCount, IVssComponent::GetAlternateLocationMappingCount, _win32_ivsscomponent_getalternatelocationmappingcount, base.ivsscomponent_getalternatelocationmappingcount, vswriter/IVssComponent::GetAlternateLocationMappingCount
-ms.topic: method
 f1_keywords:
 - vswriter/IVssComponent.GetAlternateLocationMappingCount
 dev_langs:

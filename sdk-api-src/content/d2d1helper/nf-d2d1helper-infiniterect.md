@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: c2f75645-3197-4afa-81ac-8a362ce99620
 ms.date: 12/05/2018
 ms.keywords: InfiniteRect, InfiniteRect function [Direct2D], d2d1helper/InfiniteRect, direct2d.infiniterect
-ms.topic: function
 f1_keywords:
 - d2d1helper/InfiniteRect
 dev_langs:

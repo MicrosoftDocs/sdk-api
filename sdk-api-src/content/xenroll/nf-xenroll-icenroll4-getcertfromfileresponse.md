@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 0e89465b-4525-4b36-b0c7-7f34dc4a34aa
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],getCertFromFileResponse method, ICEnroll4 interface [Security],getCertFromFileResponse method, ICEnroll4.getCertFromFileResponse, ICEnroll4::getCertFromFileResponse, _xen_icenroll4_getcertfromfileresponse, getCertFromFileResponse, getCertFromFileResponse method [Security], getCertFromFileResponse method [Security],CEnroll object, getCertFromFileResponse method [Security],ICEnroll4 interface, security.icenroll4_getcertfromfileresponse, xenroll/ICEnroll4::getCertFromFileResponse
-ms.topic: method
 f1_keywords:
 - xenroll/ICEnroll4.getCertFromFileResponse
 dev_langs:

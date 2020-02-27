@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: d0de17d9-be3a-4f68-a77d-880047775952
 ms.date: 12/05/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],RegisterGUID method, ITfCategoryMgr.RegisterGUID, ITfCategoryMgr::RegisterGUID, RegisterGUID, RegisterGUID method [Text Services Framework], RegisterGUID method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_registerguid_ref, msctf/ITfCategoryMgr::RegisterGUID, tsf.itfcategorymgr_registerguid
-ms.topic: method
 f1_keywords:
 - msctf/ITfCategoryMgr.RegisterGUID
 dev_langs:

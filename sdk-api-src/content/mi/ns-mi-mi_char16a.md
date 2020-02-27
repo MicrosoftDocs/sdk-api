@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 03a57fd3-9e85-4ca6-aa08-ebaaa780a7da
 ms.date: 12/05/2018
 ms.keywords: MI_Char16A, MI_Char16A structure [Windows Management Infrastructure (MI)], mi/MI_Char16A, wmi._mi_char16a, wmi_v2.mi_char16a
-ms.topic: struct
 f1_keywords:
 - mi/MI_Char16A
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: e4acd7ad-c8f2-4ece-8d27-ced879baa9e7
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_HOSTED_NETWORK_OPCODE, PWLAN_HOSTED_NETWORK_OPCODE, PWLAN_HOSTED_NETWORK_OPCODE enumeration pointer [NativeWIFI], WLAN_HOSTED_NETWORK_OPCODE, WLAN_HOSTED_NETWORK_OPCODE enumeration [NativeWIFI], nwifi.wlan_hosted_network_opcode, wlan_hosted_network_opcode_connection_settings, wlan_hosted_network_opcode_enable, wlan_hosted_network_opcode_security_settings, wlan_hosted_network_opcode_station_profile, wlanapi/PWLAN_HOSTED_NETWORK_OPCODE, wlanapi/WLAN_HOSTED_NETWORK_OPCODE, wlanapi/wlan_hosted_network_opcode_connection_settings, wlanapi/wlan_hosted_network_opcode_enable, wlanapi/wlan_hosted_network_opcode_security_settings, wlanapi/wlan_hosted_network_opcode_station_profile'
-ms.topic: enum
 f1_keywords:
 - wlanapi/WLAN_HOSTED_NETWORK_OPCODE
 dev_langs:

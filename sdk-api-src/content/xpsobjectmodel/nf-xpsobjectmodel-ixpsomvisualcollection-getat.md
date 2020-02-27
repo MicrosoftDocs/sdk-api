@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8bd54fab-64e8-42a5-ac9d-fa19328b1acb
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMVisualCollection interface, IXpsOMVisualCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMVisualCollection.GetAt, IXpsOMVisualCollection::GetAt, xps.ixpsomvisualcollection_getat, xpsobjectmodel/IXpsOMVisualCollection::GetAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisualCollection.GetAt
 dev_langs:
@@ -103,7 +102,7 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

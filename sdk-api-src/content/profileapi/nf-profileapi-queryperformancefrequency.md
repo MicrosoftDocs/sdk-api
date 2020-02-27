@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreference\timerfunctions\queryperformancefrequency.htm
 ms.date: 12/05/2018
 ms.keywords: QueryPerformanceFrequency, QueryPerformanceFrequency function [Windows and Messages], _win32_QueryPerformanceFrequency, _win32_queryperformancefrequency_cpp, base.queryperformancefrequency, profileapi/QueryPerformanceFrequency, winmsg.queryperformancefrequency, winui._win32_queryperformancefrequency
-ms.topic: function
 f1_keywords:
 - profileapi/QueryPerformanceFrequency
 dev_langs:

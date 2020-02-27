@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 8ad43a1d-428a-41cc-bba8-5eec7f87c11f
 ms.date: 12/05/2018
 ms.keywords: GetIpPathEntry, GetIpPathEntry function [IP Helper], iphlp.getippathentry, netioapi/GetIpPathEntry
-ms.topic: function
 f1_keywords:
 - netioapi/GetIpPathEntry
 dev_langs:

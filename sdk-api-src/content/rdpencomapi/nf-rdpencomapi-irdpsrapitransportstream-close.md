@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 1c9ddc69-bc40-4c75-b4ff-3ff622dcf76c
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [RDP], Close method [RDP],IRDPSRAPITransportStream interface, IRDPSRAPITransportStream interface [RDP],Close method, IRDPSRAPITransportStream.Close, IRDPSRAPITransportStream::Close, rdp.irdpsrapitransportstream_close, rdpencomapi/IRDPSRAPITransportStream::Close
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPITransportStream.Close
 dev_langs:

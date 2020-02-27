@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 486a604f-cea7-48de-aca2-2e9355699845
 ms.date: 12/05/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],Select method, ITextRangeProvider.Select, ITextRangeProvider::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_Select, uiauto_ITextRangeProvider_Select, uiautomationcore/ITextRangeProvider::Select, winauto.uiauto_ITextRangeProvider_Select
-ms.topic: method
 f1_keywords:
 - uiautomationcore/ITextRangeProvider.Select
 dev_langs:

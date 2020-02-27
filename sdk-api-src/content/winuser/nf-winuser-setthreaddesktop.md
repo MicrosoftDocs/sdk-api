@@ -7,7 +7,6 @@ tech.root: winstation
 ms.assetid: 619c591f-54b7-4b61-aa07-fc57e05ee37a
 ms.date: 12/05/2018
 ms.keywords: SetThreadDesktop, SetThreadDesktop function [Windows Stations and Desktops], _win32_setthreaddesktop, base.setthreaddesktop, winstation.setthreaddesktop, winuser/SetThreadDesktop
-ms.topic: function
 f1_keywords:
 - winuser/SetThreadDesktop
 dev_langs:

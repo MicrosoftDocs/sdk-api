@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 4864f59c-5f06-419e-a0ca-d8bfb72a666c
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableTuneRequest interface [Microsoft TV Technologies],put_SourceID method, IDigitalCableTuneRequest.put_SourceID, IDigitalCableTuneRequest::put_SourceID, IDigitalCableTuneRequestput_SourceID, mstv.idigitalcabletunerequest_put_sourceid, put_SourceID, put_SourceID method [Microsoft TV Technologies], put_SourceID method [Microsoft TV Technologies],IDigitalCableTuneRequest interface, tuner/IDigitalCableTuneRequest::put_SourceID
-ms.topic: method
 f1_keywords:
 - tuner/IDigitalCableTuneRequest.put_SourceID
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: ec9cc698-892f-4216-b491-cabdfa60deaa
 ms.date: 12/05/2018
 ms.keywords: GetThumbnailResource, GetThumbnailResource method [XPS Documents and Packaging], GetThumbnailResource method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],GetThumbnailResource method, IXpsOMPageReference.GetThumbnailResource, IXpsOMPageReference::GetThumbnailResource, xps.ixpsompagereference_getthumbnailresource, xpsobjectmodel/IXpsOMPageReference::GetThumbnailResource
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPageReference.GetThumbnailResource
 dev_langs:
@@ -132,7 +131,7 @@ After loading and parsing the resource into the XPS OM, this method might return
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

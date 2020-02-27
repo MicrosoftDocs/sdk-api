@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 8646d592-d568-4b82-80f3-2673cd0d2721
 ms.date: 12/05/2018
 ms.keywords: GetId, GetId method [Open Packaging Conventions], GetId method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetId method, IOpcRelationship.GetId, IOpcRelationship::GetId, msopc/IOpcRelationship::GetId, opc.iopcrelationship_getid
-ms.topic: method
 f1_keywords:
 - msopc/IOpcRelationship.GetId
 dev_langs:
@@ -64,7 +63,7 @@ The identifier of the relationship.
 
 The identifier of a relationship is arbitrary and local to the package, and, therefore, .
 
-Valid identifiers conform to the restrictions for <b>xsd:ID</b>, which are  documented in section 3.3.8 ID of the <a href="http://go.microsoft.com/fwlink/p/?linkid=126664">W3C Recommendation, XML Schema Part 2: Datatypes Second Edition</a> (http://go.microsoft.com/fwlink/p/?linkid=126664).
+Valid identifiers conform to the restrictions for <b>xsd:ID</b>, which are  documented in section 3.3.8 ID of the <a href="https://www.w3.org/TR/xmlschema-2/#ID">W3C Recommendation, XML Schema Part 2: Datatypes Second Edition</a> (https://go.microsoft.com/fwlink/p/?linkid=126664).
 
 
 ## -returns
@@ -135,7 +134,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
 
 
@@ -183,7 +182,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=126664">W3C Recommendation, XML Schema Part 2: Datatypes Second Edition</a>
+<a href="https://www.w3.org/TR/xmlschema-2/#ID">W3C Recommendation, XML Schema Part 2: Datatypes Second Edition</a>
  
 
  

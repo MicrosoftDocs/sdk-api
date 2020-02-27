@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: f08de332-2b05-4fee-be45-d4928f5f4ef2
 ms.date: 12/05/2018
 ms.keywords: MFCreateNetSchemePlugin, MFCreateNetSchemePlugin function [Media Foundation], f08de332-2b05-4fee-be45-d4928f5f4ef2, mf.mfcreatenetschemeplugin, mfidl/MFCreateNetSchemePlugin
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreateNetSchemePlugin
 dev_langs:

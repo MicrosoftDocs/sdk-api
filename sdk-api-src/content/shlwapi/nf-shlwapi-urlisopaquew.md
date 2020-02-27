@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 460f4d41-2796-496d-9199-f2d1cd6e4a24
 ms.date: 12/05/2018
 ms.keywords: UrlIsOpaque, UrlIsOpaque function [Windows Shell], UrlIsOpaqueA, UrlIsOpaqueW, _win32_UrlIsOpaque, shell.UrlIsOpaque, shlwapi/UrlIsOpaque, shlwapi/UrlIsOpaqueA, shlwapi/UrlIsOpaqueW
-ms.topic: function
 f1_keywords:
 - shlwapi/UrlIsOpaque
 dev_langs:

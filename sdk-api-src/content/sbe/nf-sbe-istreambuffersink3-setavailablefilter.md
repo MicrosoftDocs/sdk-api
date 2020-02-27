@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 81822768-f627-4324-815f-51d06b4bd7b3
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferSink3 interface [Microsoft TV Technologies],SetAvailableFilter method, IStreamBufferSink3.SetAvailableFilter, IStreamBufferSink3::SetAvailableFilter, IStreamBufferSink3SetAvailableFilter, SetAvailableFilter, SetAvailableFilter method [Microsoft TV Technologies], SetAvailableFilter method [Microsoft TV Technologies],IStreamBufferSink3 interface, mstv.istreambuffersink3_setavailablefilter, sbe/IStreamBufferSink3::SetAvailableFilter
-ms.topic: method
 f1_keywords:
 - sbe/IStreamBufferSink3.SetAvailableFilter
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 2d976c27-b7a4-5546-488a-ceb341c4fb1a
 ms.date: 12/05/2018
 ms.keywords: DCompositionAttachMouseDragToHwnd, DCompositionAttachMouseDragToHwnd function [DirectComposition], dcomp/DCompositionAttachMouseDragToHwnd, directcomp.dcompositionattachmousedragtohwnd
-ms.topic: function
 f1_keywords:
 - dcomp/DCompositionAttachMouseDragToHwnd
 dev_langs:

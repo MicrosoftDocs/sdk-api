@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: eff1c1cd-792b-489a-8381-4b783c57f005
 ms.date: 12/05/2018
 ms.keywords: IAudioMeterInformation, IAudioMeterInformation interface [Core Audio], IAudioMeterInformation interface [Core Audio],described, coreaudio.iaudiometerinformation, endpointvolume/IAudioMeterInformation
-ms.topic: interface
 f1_keywords:
 - endpointvolume/IAudioMeterInformation
 dev_langs:

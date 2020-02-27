@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 2658abd7-61ca-452f-92ad-93ee5050603d
 ms.date: 12/05/2018
 ms.keywords: IWMDRMReader2 interface [windows Media Format],TryNextLicense method, IWMDRMReader2.TryNextLicense, IWMDRMReader2::TryNextLicense, IWMDRMReader2TryNextLicense, TryNextLicense, TryNextLicense method [windows Media Format], TryNextLicense method [windows Media Format],IWMDRMReader2 interface, wmformat.iwmdrmreader2_trynextlicense, wmsdkidl/IWMDRMReader2::TryNextLicense
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDRMReader2.TryNextLicense
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>TryNextLicense</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>TryNextLicense</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 

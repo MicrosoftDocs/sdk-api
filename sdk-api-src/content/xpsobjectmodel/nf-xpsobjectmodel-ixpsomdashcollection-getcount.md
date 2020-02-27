@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 51393b2f-6658-4268-bcfc-5647ef2c8406
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMDashCollection interface, IXpsOMDashCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMDashCollection.GetCount, IXpsOMDashCollection::GetCount, xps.ixpsomdashcollection_getcount, xpsobjectmodel/IXpsOMDashCollection::GetCount
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDashCollection.GetCount
 dev_langs:
@@ -94,7 +93,7 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

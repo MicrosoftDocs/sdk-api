@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: b1d1e967-514d-43da-b470-23228fa03dd9
 ms.date: 12/05/2018
 ms.keywords: PSYM_ENUMSOURCEFILES_CALLBACK, PSYM_ENUMSOURCEFILES_CALLBACKW, SymEnumSourceFilesProc, SymEnumSourceFilesProc callback, SymEnumSourceFilesProc callback function, base.symenumsourcefilesproc, dbghelp/SymEnumSourceFilesProc
-ms.topic: callback
 f1_keywords:
 - dbghelp/SymEnumSourceFilesProc
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\ioplockstatus\getoplockeventhandle.htm
 ms.date: 12/05/2018
 ms.keywords: GetOplockEventHandle, GetOplockEventHandle method [search], GetOplockEventHandle method [search],IOpLockStatus interface, IOpLockStatus interface [search],GetOplockEventHandle method, IOpLockStatus.GetOplockEventHandle, IOpLockStatus::GetOplockEventHandle, _search_IOpLockStatus_GetOplockEventHandle, search._search_IOpLockStatus_GetOplockEventHandle, searchapi/IOpLockStatus::GetOplockEventHandle
-ms.topic: method
 f1_keywords:
 - searchapi/IOpLockStatus.GetOplockEventHandle
 dev_langs:

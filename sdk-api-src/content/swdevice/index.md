@@ -1,9 +1,10 @@
 ---
 UID: NA:swdevice
+title: Swdevice.h header
 ms.assetid: e61a7bb5-57af-3f03-af4a-54daf7469276
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: swdevice
 ---
 

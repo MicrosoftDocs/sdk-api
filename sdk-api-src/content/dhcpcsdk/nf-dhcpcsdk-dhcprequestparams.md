@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 5fcbd1d9-8170-4c2b-ac98-6c04107c46e7
 ms.date: 12/05/2018
 ms.keywords: DHCPCAPI_REQUEST_PERSISTENT, DHCPCAPI_REQUEST_SYNCHRONOUS, DhcpRequestParams, DhcpRequestParams function [DHCP], _dhcp_dhcprequestparams, dhcp.dhcprequestparams, dhcpcsdk/DhcpRequestParams
-ms.topic: function
 f1_keywords:
 - dhcpcsdk/DhcpRequestParams
 dev_langs:

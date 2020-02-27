@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 292189a5-06ec-4870-b279-5190c57c77c9
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getByGenre method, IWMPMediaCollection.getByGenre, IWMPMediaCollection::getByGenre, IWMPMediaCollectiongetByGenre, getByGenre, getByGenre method [Windows Media Player], getByGenre method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getbygenre, wmp/IWMPMediaCollection::getByGenre
-ms.topic: method
 f1_keywords:
 - wmp/IWMPMediaCollection.getByGenre
 dev_langs:

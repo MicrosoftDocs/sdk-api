@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 065DBAD3-F4B6-4C94-BA0E-821A46E0B2EE
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList1 interface,OMSetDepthBounds method, ID3D12GraphicsCommandList1.OMSetDepthBounds, ID3D12GraphicsCommandList1::OMSetDepthBounds, OMSetDepthBounds, OMSetDepthBounds method, OMSetDepthBounds method,ID3D12GraphicsCommandList1 interface, d3d12/ID3D12GraphicsCommandList1::OMSetDepthBounds, direct3d12.id3d12graphicscommandlist1_omsetdepthbounds
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12GraphicsCommandList1.OMSetDepthBounds
 dev_langs:

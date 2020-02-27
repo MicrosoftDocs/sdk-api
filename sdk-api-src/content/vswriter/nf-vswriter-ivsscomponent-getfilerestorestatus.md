@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: b79c4443-c850-4edf-bdd2-917e22e67d77
 ms.date: 12/05/2018
 ms.keywords: GetFileRestoreStatus, GetFileRestoreStatus method [VSS], GetFileRestoreStatus method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetFileRestoreStatus method, IVssComponent.GetFileRestoreStatus, IVssComponent::GetFileRestoreStatus, _win32_ivsscomponent_getfilerestorestatus, base.ivsscomponent_getfilerestorestatus, vswriter/IVssComponent::GetFileRestoreStatus
-ms.topic: method
 f1_keywords:
 - vswriter/IVssComponent.GetFileRestoreStatus
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 255DE24B-3D6D-49D9-B6A8-D296AB99B4C9
 ms.date: 12/05/2018
 ms.keywords: ID3DUserDefinedAnnotation, ID3DUserDefinedAnnotation interface [Direct3D 11], ID3DUserDefinedAnnotation interface [Direct3D 11],described, d3d11_1/ID3DUserDefinedAnnotation, direct3d11.id3duserdefinedannotation
-ms.topic: interface
 f1_keywords:
 - d3d11_1/ID3DUserDefinedAnnotation
 dev_langs:
@@ -116,7 +115,7 @@ The methods of <b>ID3DUserDefinedAnnotation</b> have no effect when the calling 
 
 
 The <b>ID3DUserDefinedAnnotation</b> interface is published by Microsoft Direct3D 11 device contexts. Therefore, <b>ID3DUserDefinedAnnotation</b> has the same threading rules as the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a> interface, or any other context interface. For more information about Direct3D threading, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-render-multi-thread">MultiThreading</a>.
-To retrieve the <b>ID3DUserDefinedAnnotation</b> interface for the context, call the <b>QueryInterface</b> method for the context (for example, <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">ID3D11DeviceContext::QueryInterface</a>). In this call, you must pass the identifier of <b>ID3DUserDefinedAnnotation</b>. 
+To retrieve the <b>ID3DUserDefinedAnnotation</b> interface for the context, call the <b>QueryInterface</b> method for the context (for example, <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">ID3D11DeviceContext::QueryInterface</a>). In this call, you must pass the identifier of <b>ID3DUserDefinedAnnotation</b>. 
 
 The <b>ID3DUserDefinedAnnotation</b> interface is the Microsoft Direct3D 10 and later equivalent of the Direct3D 9 <a href="https://msdn.microsoft.com/library/ee417071(v=VS.85).aspx">PIX functions</a> (D3DPERF_* functions).
 

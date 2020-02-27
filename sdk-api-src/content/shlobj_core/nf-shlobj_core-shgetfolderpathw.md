@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a240abc0-e0a6-4f95-8e74-7dc410970212
 ms.date: 12/05/2018
 ms.keywords: SHGFP_TYPE_CURRENT, SHGFP_TYPE_DEFAULT, SHGetFolderPath, SHGetFolderPath function [Windows Shell], SHGetFolderPathA, SHGetFolderPathW, _win32_SHGetFolderPath, _win32_SHGetFolderPath_cpp, shell.SHGetFolderPath, shlobj_core/SHGetFolderPath, shlobj_core/SHGetFolderPathA, shlobj_core/SHGetFolderPathW
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHGetFolderPath
 dev_langs:
@@ -131,7 +130,7 @@ Retrieve the folder's default path.
 
 Type: <b>LPTSTR</b>
 
-A pointer to a <b>null</b>-terminated string of length MAX_PATH which will receive the path. If an error occurs or S_FALSE is returned, this string will be empty. The returned path does not include a trailing backslash. For example, "C:\Users" is returned rather than "C:\Users\".
+A pointer to a <b>null</b>-terminated string of length MAX_PATH which will receive the path. If an error occurs or S_FALSE is returned, this string will be empty. The returned path does not include a trailing backslash. For example, "C:\Users" is returned rather than "C:\Users\\".
 
 
 ##### - dwFlags.SHGFP_TYPE_CURRENT

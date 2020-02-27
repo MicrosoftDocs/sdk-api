@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 7891692e-a4e1-401a-99e0-ed8135dc6f1d
 ms.date: 12/05/2018
 ms.keywords: EngTextOut, EngTextOut function [Display Devices], display.engtextout, gdifncs_e383ce94-952d-48e3-a814-afd38822aad2.xml, winddi/EngTextOut
-ms.topic: function
 f1_keywords:
 - winddi/EngTextOut
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b3b28da8-b0cb-4d76-8184-93572e4b6d06
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetOption method, IDvdControl2.SetOption, IDvdControl2::SetOption, IDvdControl2SetOption, SetOption, SetOption method [DirectShow], SetOption method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setoption, strmif/IDvdControl2::SetOption
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.SetOption
 dev_langs:
@@ -64,14 +63,14 @@ The <b>SetOption</b> method enables or disables an internal behavior flag on the
 
 ### -param flag [in]
 
-Specifies which behavior to modify, as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_option_flag">DVD_OPTION_FLAG</a> enumeration type. 
+Specifies which behavior to modify, as a member of the [DVD_OPTION_FLAG](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_option_flag) enumeration type. 
 
 
 ### -param fState [in]
 
 Specifies the new value of the option given in the <i>flag</i> parameter.
 
-<div class="alert"><b>Note</b>  This parameter is a <b>BOOL</b> type, but some options treat this parameter as a numeric value, not a Boolean value. For details, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_option_flag">DVD_OPTION_FLAG</a> reference page.
+[DVD_OPTION_FLAG](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_option_flag) reference page.
           </div>
 <div> </div>
 

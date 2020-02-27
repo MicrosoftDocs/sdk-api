@@ -5,7 +5,6 @@ description: Specifies that subsequent commands should not be performed if the p
 tech.root: mf
 ms.assetid: 0ac39382-e939-4f20-b99d-0b3d9eac1ddc
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoProcessCommandList::SetPredication
 dev_langs:

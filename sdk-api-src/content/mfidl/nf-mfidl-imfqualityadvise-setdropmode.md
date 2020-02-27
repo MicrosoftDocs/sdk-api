@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 190de66a-6c47-49d5-a8f6-c2fb57a7aee2
 ms.date: 12/05/2018
 ms.keywords: 190de66a-6c47-49d5-a8f6-c2fb57a7aee2, IMFQualityAdvise interface [Media Foundation],SetDropMode method, IMFQualityAdvise.SetDropMode, IMFQualityAdvise::SetDropMode, SetDropMode, SetDropMode method [Media Foundation], SetDropMode method [Media Foundation],IMFQualityAdvise interface, mf.imfqualityadvise_setdropmode, mfidl/IMFQualityAdvise::SetDropMode
-ms.topic: method
 f1_keywords:
 - mfidl/IMFQualityAdvise.SetDropMode
 dev_langs:

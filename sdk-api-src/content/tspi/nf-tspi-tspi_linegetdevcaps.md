@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 6c5a668e-9a9a-4a7a-98e9-bd8ec4b819b2
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetDevCaps, TSPI_lineGetDevCaps function [TAPI 2.2], _tspi_tspi_linegetdevcaps, tspi.tspi_linegetdevcaps, tspi/TSPI_lineGetDevCaps
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineGetDevCaps
 dev_langs:

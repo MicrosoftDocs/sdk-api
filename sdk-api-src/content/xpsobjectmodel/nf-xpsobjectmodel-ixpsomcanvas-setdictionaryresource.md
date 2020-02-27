@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8f6a80e9-fa66-45fa-bee9-c80a64a4593f
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCanvas interface [XPS Documents and Packaging],SetDictionaryResource method, IXpsOMCanvas.SetDictionaryResource, IXpsOMCanvas::SetDictionaryResource, SetDictionaryResource, SetDictionaryResource method [XPS Documents and Packaging], SetDictionaryResource method [XPS Documents and Packaging],IXpsOMCanvas interface, xps.ixpsomcanvas_setdictionaryresource, xpsobjectmodel/IXpsOMCanvas::SetDictionaryResource
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCanvas.SetDictionaryResource
 dev_langs:
@@ -193,7 +192,7 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

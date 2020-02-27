@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 9070b517-8ca5-455f-baee-0647b1895c08
 ms.date: 12/05/2018
 ms.keywords: STATFLAG, STATFLAG enumeration [Structured Storage], STATFLAG_DEFAULT, STATFLAG_NONAME, STATFLAG_NOOPEN, _stg_statflag, stg.statflag, wtypes/STATFLAG, wtypes/STATFLAG_DEFAULT, wtypes/STATFLAG_NONAME, wtypes/STATFLAG_NOOPEN
-ms.topic: enum
 f1_keywords:
 - wtypes/STATFLAG
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: ca8c5b70-ea5e-4fb9-82d3-1de839f0d244
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_MACHINE_KEY_FLAG, NCRYPT_SILENT_FLAG, NCryptEnumKeys, NCryptEnumKeys function [Security], ncrypt/NCryptEnumKeys, security.ncryptenumkeys_func
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptEnumKeys
 dev_langs:
@@ -218,7 +217,7 @@ The <i>dwFlags</i> parameter contains the <b>NCRYPT_SILENT_FLAG</b> flag, but th
 
 This function retrieves only one item each time it is called. The state of the enumeration is stored in the variable pointed to by the <i>ppEnumState</i> parameter, so this must be preserved between calls to this function. When the last key stored by the provider has been retrieved, this function will return <b>NTE_NO_MORE_ITEMS</b> the next time it is called. To start the enumeration over, set the variable pointed to by the <i>ppEnumState</i> parameter to <b>NULL</b>, free the memory pointed to by the <i>ppKeyName</i> parameter, if it is not <b>NULL</b>, and call this function again.
 
-A service must not call this function from its <a href="http://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 
 

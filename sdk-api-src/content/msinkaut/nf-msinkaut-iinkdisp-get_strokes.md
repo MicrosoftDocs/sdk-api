@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: f58cb875-a2f1-44f4-b8be-f3dfe9643c46
 ms.date: 12/05/2018
 ms.keywords: IInkDisp interface [Tablet PC],Strokes property, IInkDisp.Strokes, IInkDisp.get_Strokes, IInkDisp::Strokes, IInkDisp::get_Strokes, InkDisp.get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkDisp interface, get_Strokes, msinkaut/IInkDisp::Strokes, msinkaut/IInkDisp::get_Strokes, tablet.inkdisp_strokes
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkDisp.Strokes
 dev_langs:

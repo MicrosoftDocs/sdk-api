@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 0178f248-8dc0-c0ee-63c1-8db3f6ef94c3
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontSet, IDWriteFontSet interface [Direct Write], IDWriteFontSet interface [Direct Write],described, directwrite.idwritefontset, dwrite_3/IDWriteFontSet
-ms.topic: interface
 f1_keywords:
 - dwrite_3/IDWriteFontSet
 dev_langs:

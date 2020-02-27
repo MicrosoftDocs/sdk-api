@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 9146d230-c96c-4d70-9bc5-e91896e19d35
 ms.date: 12/05/2018
 ms.keywords: MBN_SMS_STATUS_INFO, MBN_SMS_STATUS_INFO structure [Microsoft Broadband Networks], mbn.mbn_sms_status_info, mbnapi/MBN_SMS_STATUS_INFO
-ms.topic: struct
 f1_keywords:
 - mbnapi/MBN_SMS_STATUS_INFO
 dev_langs:

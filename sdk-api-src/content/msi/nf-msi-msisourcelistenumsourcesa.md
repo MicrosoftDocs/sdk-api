@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 30a5efae-ebb5-4ff3-880a-4eed1bc8eed4
 ms.date: 12/05/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListEnumSources, MsiSourceListEnumSources function, MsiSourceListEnumSourcesA, MsiSourceListEnumSourcesW, NULL, User SID, msi/MsiSourceListEnumSources, msi/MsiSourceListEnumSourcesA, msi/MsiSourceListEnumSourcesW, s-1-1-0, setup.msisourcelistenumsources
-ms.topic: function
 f1_keywords:
 - msi/MsiSourceListEnumSources
 dev_langs:

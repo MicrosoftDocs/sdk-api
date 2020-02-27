@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 89798b37-808a-4174-8362-a2dc4ee1b460
 ms.date: 12/05/2018
 ms.keywords: SspiUnmarshalAuthIdentity, SspiUnmarshalAuthIdentity function [Security], security.sspiunmarshalauthidentity, sspi/SspiUnmarshalAuthIdentity
-ms.topic: function
 f1_keywords:
 - sspi/SspiUnmarshalAuthIdentity
 dev_langs:

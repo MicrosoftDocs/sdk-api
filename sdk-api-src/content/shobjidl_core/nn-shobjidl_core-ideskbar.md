@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 78b9666b-f913-4745-975e-f8dd6e9f89b4
 ms.date: 12/05/2018
 ms.keywords: IDeskBar, IDeskBar interface [Windows Shell], IDeskBar interface [Windows Shell],described, _win32_IDeskBar, shell.IDeskBar, shobjidl_core/IDeskBar
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IDeskBar
 dev_langs:

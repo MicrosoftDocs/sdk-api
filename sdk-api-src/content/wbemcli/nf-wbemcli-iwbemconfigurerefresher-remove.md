@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: f6e68b95-e9d1-473e-add4-823b6db51709
 ms.date: 12/05/2018
 ms.keywords: IWbemConfigureRefresher interface [Windows Management Instrumentation],Remove method, IWbemConfigureRefresher.Remove, IWbemConfigureRefresher::Remove, Remove, Remove method [Windows Management Instrumentation], Remove method [Windows Management Instrumentation],IWbemConfigureRefresher interface, _hmm_iwbemconfigurerefresher_remove, wbemcli/IWbemConfigureRefresher::Remove, wmi.iwbemconfigurerefresher_remove
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemConfigureRefresher.Remove
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 65b04931-dc4e-4eb5-b542-a7b46c3164de
 ms.date: 12/05/2018
 ms.keywords: GetTargetUri, GetTargetUri method [Open Packaging Conventions], GetTargetUri method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetTargetUri method, IOpcRelationship.GetTargetUri, IOpcRelationship::GetTargetUri, msopc/IOpcRelationship::GetTargetUri, opc.iopcrelationship_gettargeturi
-ms.topic: method
 f1_keywords:
 - msopc/IOpcRelationship.GetTargetUri
 dev_langs:
@@ -60,7 +59,7 @@ Gets the URI of the relationship target.
 
 ### -param targetUri [out, retval]
 
-A pointer to the <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface of the URI that represents the URI of the relationship's target.
+A pointer to the <a href="https://msdn2.microsoft.com/library/ms775038.aspx">IUri</a> interface of the URI that represents the URI of the relationship's target.
 
 If the relationship target is internal, the  target is a part and the URI of the target is relative to the URI of the source part.
 
@@ -137,7 +136,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: E0AD1507-3018-42B5-B4DD-E19CC49FD25F
 ms.date: 12/05/2018
 ms.keywords: PXE_GSI_SERVER_DUID, PXE_GSI_TRACE_ENABLED, PxeGetServerInfoEx, PxeGetServerInfoEx function [Windows Deployment Services], wds.pxegetserverinfoex, wdspxe/PxeGetServerInfoEx
-ms.topic: function
 f1_keywords:
 - wdspxe/PxeGetServerInfoEx
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Returns information about the PXE server.
 
-For more information about the OPTION_SERVERID option, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="Http://go.microsoft.com/fwlink/p/?linkid=132626">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
+For more information about the OPTION_SERVERID option, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="https://www.ietf.org/rfc/rfc3315.txt">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
 
 
 ## -parameters

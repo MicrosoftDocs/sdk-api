@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 361cfaea-d961-423c-98b0-f04bd7e621e9
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],MultiLine property, IInkEdit.MultiLine, IInkEdit.get_MultiLine, IInkEdit::MultiLine, IInkEdit::get_MultiLine, IInkEdit::put_MultiLine, InkEdit.get_MultiLine, InkEdit.put_MultiLine, MultiLine property [Tablet PC], MultiLine property [Tablet PC],IInkEdit interface, get_MultiLine, inked/IInkEdit::MultiLine, inked/IInkEdit::get_MultiLine, inked/IInkEdit::put_MultiLine, put_MultiLine, tablet.inkedit_multiline
-ms.topic: method
 f1_keywords:
 - inked/IInkEdit.MultiLine
 dev_langs:

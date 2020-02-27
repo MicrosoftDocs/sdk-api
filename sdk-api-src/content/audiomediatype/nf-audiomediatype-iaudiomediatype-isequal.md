@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: a8ab9ad3-251d-43ab-b099-793ffc22b45f
 ms.date: 12/05/2018
 ms.keywords: IAudioMediaType interface [Audio Devices],IsEqual method, IAudioMediaType.IsEqual, IAudioMediaType::IsEqual, IsEqual, IsEqual method [Audio Devices], IsEqual method [Audio Devices],IAudioMediaType interface, audio.iaudiomediatype_isequal, audio_syseffects_r_0b3614f0-18af-462e-9ab4-3e625bec54ab.xml, audiomediatype/IAudioMediaType::IsEqual
-ms.topic: method
 f1_keywords:
 - audiomediatype/IAudioMediaType.IsEqual
 dev_langs:
@@ -88,7 +87,7 @@ AUDIOMEDIATYPE_EQUAL_FORMAT_DATA
 
 </td>
 <td>
-The format information matches, not including extra data beyond the base <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a> structure.
+The format information matches, not including extra data beyond the base <a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a> structure.
 
 </td>
 </tr>
@@ -149,7 +148,7 @@ The media types are not equal. Examine the <i>pdwFlags</i> parameter to determin
 
 
 
-Both media types must have a major type, otherwise the method returns E_INVALIDARG. For more information about media types, see <a href="http://go.microsoft.com/fwlink/p/?linkid=154684">Media Types</a>.
+Both media types must have a major type, otherwise the method returns E_INVALIDARG. For more information about media types, see <a href="https://msdn.microsoft.com/library/aa390528(VS.85).aspx">Media Types</a>.
 
 The MF_MEDIATYPE_EQUAL_FORMAT_DATA flag indicates that both media types have compatible attributes, although one might be a superset of the other. This method of comparison means that you can compare a partially-specified media type against a complete media type. For example, you might have two video types that describe the same format, but one type includes attributes for extended color information (chroma siting, nominal range, and so forth).
 
@@ -167,11 +166,11 @@ If the method succeeds and all the comparison flags are set in <i>pdwFlags</i>, 
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=154684">Media Types</a>
+<a href="https://msdn.microsoft.com/library/aa390528(VS.85).aspx">Media Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a>
+<a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a>
  
 
  

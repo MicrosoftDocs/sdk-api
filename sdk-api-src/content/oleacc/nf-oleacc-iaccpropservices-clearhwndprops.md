@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 7fd3f595-4897-481f-972e-04cf1a4c6046
 ms.date: 12/05/2018
 ms.keywords: ClearHwndProps, ClearHwndProps method [Windows Accessibility], ClearHwndProps method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ClearHwndProps method, IAccPropServices.ClearHwndProps, IAccPropServices::ClearHwndProps, _msaa_IAccPropServices_ClearHwndProps, msaa.iaccpropservices_iaccpropservices__clearhwndprops, oleacc/IAccPropServices::ClearHwndProps, winauto.iaccpropservices_iaccpropservices__clearhwndprops
-ms.topic: method
 f1_keywords:
 - oleacc/IAccPropServices.ClearHwndProps
 dev_langs:

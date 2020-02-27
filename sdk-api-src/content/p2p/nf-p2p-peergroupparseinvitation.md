@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: ddc1c419-7be3-4115-af21-1108921c7b1d
 ms.date: 12/05/2018
 ms.keywords: PeerGroupParseInvitation, PeerGroupParseInvitation function [Peer Networking], p2p.peergroupparseinvitation, p2p/PeerGroupParseInvitation
-ms.topic: function
 f1_keywords:
 - p2p/PeerGroupParseInvitation
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: ead5f782-8512-4387-b8f3-7be960f35bbe
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitor, ICrmMonitor interface [COM+], ICrmMonitor interface [COM+],described, _dtc_ICrmMonitor_Interface, comsvcs/ICrmMonitor, cos.icrmmonitor
-ms.topic: interface
 f1_keywords:
 - comsvcs/ICrmMonitor
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 22d3c0a1-3ad5-4f48-9e1e-eaf3bd95b39f
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocument, IXpsOMDocument interface [XPS Documents and Packaging], IXpsOMDocument interface [XPS Documents and Packaging],described, xps.ixpsomdocument, xpsobjectmodel/IXpsOMDocument
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMDocument
 dev_langs:
@@ -219,7 +218,7 @@ else
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

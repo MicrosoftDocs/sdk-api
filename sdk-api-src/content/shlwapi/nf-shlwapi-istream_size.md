@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 93c7c24d-6431-4859-b0b8-b36392bc5108
 ms.date: 12/05/2018
 ms.keywords: IStream_Size, IStream_Size function [Windows Shell], _win32_IStream_Size, shell.IStream_Size, shlwapi/IStream_Size
-ms.topic: function
 f1_keywords:
 - shlwapi/IStream_Size
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 89bf8836-8d6d-41a1-a47c-ec92d2fd4a36
 ms.date: 12/05/2018
 ms.keywords: IFsrmClassifierModuleDefinition interface [File Server Resource Manager],PropertiesUsed property, IFsrmClassifierModuleDefinition.PropertiesUsed, IFsrmClassifierModuleDefinition.put_PropertiesUsed, IFsrmClassifierModuleDefinition::PropertiesUsed, IFsrmClassifierModuleDefinition::get_PropertiesUsed, IFsrmClassifierModuleDefinition::put_PropertiesUsed, PropertiesUsed property [File Server Resource Manager], PropertiesUsed property [File Server Resource Manager],IFsrmClassifierModuleDefinition interface, fs.ifsrmclassifiermoduledefinition_propertiesused, fsrm.ifsrmclassifiermoduledefinition_propertiesused, fsrmpipeline/IFsrmClassifierModuleDefinition::PropertiesUsed, fsrmpipeline/IFsrmClassifierModuleDefinition::get_PropertiesUsed, fsrmpipeline/IFsrmClassifierModuleDefinition::put_PropertiesUsed, put_PropertiesUsed
-ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmClassifierModuleDefinition.PropertiesUsed
 dev_langs:

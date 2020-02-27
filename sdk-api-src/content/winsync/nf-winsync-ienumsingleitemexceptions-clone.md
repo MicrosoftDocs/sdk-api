@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 89a02939-e761-450e-9479-29e19a872da6
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSingleItemExceptions interface, IEnumSingleItemExceptions interface [Windows Sync],Clone method, IEnumSingleItemExceptions.Clone, IEnumSingleItemExceptions::Clone, winsync.ienumsingleitemexceptions_clone, winsync/IEnumSingleItemExceptions::Clone
-ms.topic: method
 f1_keywords:
 - winsync/IEnumSingleItemExceptions.Clone
 dev_langs:

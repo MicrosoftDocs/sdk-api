@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c746d473-bfa4-403c-8775-3f7270836a73
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetAlpha method, IVMRMixerControl9.SetAlpha, IVMRMixerControl9::SetAlpha, IVMRMixerControl9SetAlpha, SetAlpha, SetAlpha method [DirectShow], SetAlpha method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setalpha, vmr9/IVMRMixerControl9::SetAlpha
-ms.topic: method
 f1_keywords:
 - vmr9/IVMRMixerControl9.SetAlpha
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 34c8326f-bd34-4bf6-9171-a1ed3191b85e
 ms.date: 12/05/2018
 ms.keywords: 34c8326f-bd34-4bf6-9171-a1ed3191b85e, GetNodeByID, GetNodeByID method [Media Foundation], GetNodeByID method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetNodeByID method, IMFTopology.GetNodeByID, IMFTopology::GetNodeByID, mf.imftopology_getnodebyid, mfidl/IMFTopology::GetNodeByID
-ms.topic: method
 f1_keywords:
 - mfidl/IMFTopology.GetNodeByID
 dev_langs:

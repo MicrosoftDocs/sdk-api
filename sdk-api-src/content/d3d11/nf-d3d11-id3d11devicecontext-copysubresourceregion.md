@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: aed89483-9870-445d-96e3-a9cee764f0ad
 ms.date: 12/05/2018
 ms.keywords: 4fcc18c3-ca99-b51e-9162-bb8b4121db03, CopySubresourceRegion, CopySubresourceRegion method [Direct3D 11], CopySubresourceRegion method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CopySubresourceRegion method, ID3D11DeviceContext.CopySubresourceRegion, ID3D11DeviceContext::CopySubresourceRegion, d3d11/ID3D11DeviceContext::CopySubresourceRegion, direct3d11.id3d11devicecontext_copysubresourceregion
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11DeviceContext.CopySubresourceRegion
 dev_langs:
@@ -142,7 +141,7 @@ If the resources are buffers, all coordinates are in bytes; if the resources are
 <li>Must have compatible DXGI formats (identical or from the same type group). For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to an DXGI_FORMAT_R32G32B32_UINT texture since both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. <b>CopySubresourceRegion</b> can copy between a few format types. For more info, see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">Format Conversion using Direct3D 10.1</a>.</li>
 <li>May not be currently mapped.</li>
 </ul>
-<b>CopySubresourceRegion</b> only supports copy; it does not support any stretch, color key, or blend. <b>CopySubresourceRegion</b> can reinterpret the resource data between a few format types. For more info, see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">Format Conversion using Direct3D 10.1</a>.
+**CopySubresourceRegion** only supports copy; it doesn't support any stretch, color key, or blend. **CopySubresourceRegion** can reinterpret the resource data between a few format types. For more info, see [Format conversion using Direct3D 10.1](/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-block-compression#format-conversion-using-direct3d-101).
 
 If your app needs to copy an entire resource, we recommend to use <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-copyresource">ID3D11DeviceContext::CopyResource</a> instead.
         

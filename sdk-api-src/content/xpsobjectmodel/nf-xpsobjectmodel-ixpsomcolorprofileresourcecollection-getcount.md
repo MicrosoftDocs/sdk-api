@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 798ac7ed-1221-4985-b325-d588133ad59c
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMColorProfileResourceCollection.GetCount, IXpsOMColorProfileResourceCollection::GetCount, xps.ixpsomcolorprofileresourcecollection_getcount, xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetCount
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMColorProfileResourceCollection.GetCount
 dev_langs:
@@ -98,7 +97,7 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

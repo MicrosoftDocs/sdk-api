@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: b16874cc-1eb3-43dd-bd4c-3ea77be10bd2
 ms.date: 12/05/2018
 ms.keywords: MFConvertColorInfoFromDXVA, MFConvertColorInfoFromDXVA function [Media Foundation], b16874cc-1eb3-43dd-bd4c-3ea77be10bd2, mf.mfconvertcolorinfofromdxva, mfapi/MFConvertColorInfoFromDXVA
-ms.topic: function
 f1_keywords:
 - mfapi/MFConvertColorInfoFromDXVA
 dev_langs:

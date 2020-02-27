@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: d5caa926-1223-4917-85ba-4f79731e955a
 ms.date: 12/05/2018
 ms.keywords: WPUSetEvent, WPUSetEvent function [Winsock], _win32_wpusetevent_2, winsock.wpusetevent_2, ws2spi/WPUSetEvent
-ms.topic: function
 f1_keywords:
 - ws2spi/WPUSetEvent
 dev_langs:
@@ -109,15 +108,15 @@ The <i>hEvent</i> parameter is not a valid event object handle.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucloseevent">WPUCloseEvent</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpucloseevent">WPUCloseEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucreateevent">WPUCreateEvent</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpucreateevent">WPUCreateEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuresetevent">WPUResetEvent</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpuresetevent">WPUResetEvent</a>
  
 
  

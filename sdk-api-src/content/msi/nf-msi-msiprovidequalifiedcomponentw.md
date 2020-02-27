@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 1d37e2c4-3ee0-42d2-95de-6e058319a4d4
 ms.date: 12/05/2018
 ms.keywords: INSTALLMODE_DEFAULT, INSTALLMODE_EXISTING, INSTALLMODE_NODETECTION, INSTALLMODE_NOSOURCERESOLUTION, MsiProvideQualifiedComponent, MsiProvideQualifiedComponent function, MsiProvideQualifiedComponentA, MsiProvideQualifiedComponentW, _msi_msiprovidequalifiedcomponent, combination of the REINSTALLMODE flags, msi/MsiProvideQualifiedComponent, msi/MsiProvideQualifiedComponentA, msi/MsiProvideQualifiedComponentW, setup.msiprovidequalifiedcomponent
-ms.topic: function
 f1_keywords:
 - msi/MsiProvideQualifiedComponent
 dev_langs:

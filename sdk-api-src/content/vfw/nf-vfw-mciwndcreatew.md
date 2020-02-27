@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 7a4a22e1-6b04-4d46-8427-738181769f5b
 ms.date: 12/05/2018
 ms.keywords: MCIWndCreate, MCIWndCreate function [Windows Multimedia], MCIWndCreateA, MCIWndCreateW, _win32_MCIWndCreate, multimedia.mciwndcreate, vfw/MCIWndCreate, vfw/MCIWndCreateA, vfw/MCIWndCreateW
-ms.topic: function
 f1_keywords:
 - vfw/MCIWndCreate
 dev_langs:
@@ -75,7 +74,7 @@ Handle to the module instance to associate with the MCIWnd window.
 
 ### -param dwStyle
 
-Flags defining the window style. In addition to specifying the window styles used with the <a href="http://go.microsoft.com/fwlink/p/?linkid=16991">CreateWindowEx</a> function, you can specify the following styles to use with MCIWnd windows.
+Flags defining the window style. In addition to specifying the window styles used with the <a href="https://msdn.microsoft.com/library/ms632680.aspx">CreateWindowEx</a> function, you can specify the following styles to use with MCIWnd windows.
 
 <table>
 <tr>

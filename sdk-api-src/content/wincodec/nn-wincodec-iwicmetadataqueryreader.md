@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 588e00d2-e166-4ce5-bd8a-50ad0d5a3db9
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataQueryReader, IWICMetadataQueryReader interface [Windows Imaging Component], IWICMetadataQueryReader interface [Windows Imaging Component],described, _wic_codec_iwicmetadataqueryreader, wic._wic_codec_iwicmetadataqueryreader, wincodec/IWICMetadataQueryReader
-ms.topic: interface
 f1_keywords:
 - wincodec/IWICMetadataQueryReader
 dev_langs:

@@ -5,7 +5,6 @@ description: The GraphicsPath::AddBeziers method adds a sequence of connected Be
 ms.assetid: 62a632ff-1282-46e4-a130-809e4bb51c97
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddBeziers
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/GraphicsPath::AddBeziers
 dev_langs:

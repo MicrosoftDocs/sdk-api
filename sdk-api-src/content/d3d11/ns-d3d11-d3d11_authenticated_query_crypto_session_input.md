@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 012E594C-4E0B-48A3-828A-A8F8B901F8E7
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT, D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT, mf.d3d11_authenticated_query_crypto_session_input
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: C3B6C75B-13A5-49CC-BB01-DA1EEC292C20
 ms.date: 12/05/2018
 ms.keywords: AuthzInitializeRemoteResourceManager, AuthzInitializeRemoteResourceManager function [Security], authz/AuthzInitializeRemoteResourceManager, security.authzinitializeremoteresourcemanager
-ms.topic: function
 f1_keywords:
 - authz/AuthzInitializeRemoteResourceManager
 dev_langs:

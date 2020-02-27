@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: a9432e28-9fbd-4a7e-8dce-fad3da04804a
 ms.date: 12/05/2018
 ms.keywords: LocalLock, LocalLock function, _win32_locallock, base.locallock, winbase/LocalLock
-ms.topic: function
 f1_keywords:
 - winbase/LocalLock
 dev_langs:

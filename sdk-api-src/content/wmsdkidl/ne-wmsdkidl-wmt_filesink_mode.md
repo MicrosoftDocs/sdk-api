@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 27846996-1957-4b19-91da-feeef477b06a
 ms.date: 12/05/2018
 ms.keywords: WMT_FILESINK_MODE, WMT_FILESINK_MODE enumeration [windows Media Format], WMT_FM_FILESINK_DATA_UNITS, WMT_FM_FILESINK_UNBUFFERED, WMT_FM_SINGLE_BUFFERS, wmformat.wmt_filesink_mode, wmsdkidl/WMT_FILESINK_MODE, wmsdkidl/WMT_FM_FILESINK_DATA_UNITS, wmsdkidl/WMT_FM_FILESINK_UNBUFFERED, wmsdkidl/WMT_FM_SINGLE_BUFFERS
-ms.topic: enum
 f1_keywords:
 - wmsdkidl/WMT_FILESINK_MODE
 dev_langs:

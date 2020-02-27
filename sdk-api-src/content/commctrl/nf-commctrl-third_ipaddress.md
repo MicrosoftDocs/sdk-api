@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\third_ipaddress.htm
 ms.date: 12/05/2018
 ms.keywords: THIRD_IPADDRESS, THIRD_IPADDRESS macro [Windows Controls], _win32_THIRD_IPADDRESS, _win32_THIRD_IPADDRESS_cpp, commctrl/THIRD_IPADDRESS, controls.THIRD_IPADDRESS, controls._win32_THIRD_IPADDRESS
-ms.topic: macro
 f1_keywords:
 - commctrl/THIRD_IPADDRESS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 31372688-be81-4883-9fc7-ed3f7b2f7934
 ms.date: 12/05/2018
 ms.keywords: GetRange, GetRange method [Text Services Framework], GetRange method [Text Services Framework],ITfCompositionView interface, ITfCompositionView interface [Text Services Framework],GetRange method, ITfCompositionView.GetRange, ITfCompositionView::GetRange, _tsf_itfcompositionview_getrange_ref, msctf/ITfCompositionView::GetRange, tsf.itfcompositionview_getrange
-ms.topic: method
 f1_keywords:
 - msctf/ITfCompositionView.GetRange
 dev_langs:

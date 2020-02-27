@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: A2DB8313-2855-4B0E-908E-CAE71E88FEF0
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportTftpManager, IWdsTransportTftpManager interface [Windows Deployment Services], IWdsTransportTftpManager interface [Windows Deployment Services],described, wds.iwdstransporttftpmanager, wdstptmgmt/IWdsTransportTftpManager
-ms.topic: interface
 f1_keywords:
 - wdstptmgmt/IWdsTransportTftpManager
 dev_langs:

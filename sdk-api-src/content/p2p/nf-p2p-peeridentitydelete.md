@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 9738f6b1-cd88-4950-bab1-f97613a49e03
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityDelete, PeerIdentityDelete function [Peer Networking], p2p.peeridentitydelete, p2p/PeerIdentityDelete
-ms.topic: function
 f1_keywords:
 - p2p/PeerIdentityDelete
 dev_langs:

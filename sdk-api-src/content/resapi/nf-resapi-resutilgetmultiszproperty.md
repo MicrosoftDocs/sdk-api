@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 7f345cce-fa67-467c-bd4f-286609c3f757
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_MULTI_SZ_PROPERTY, PRESUTIL_GET_MULTI_SZ_PROPERTY function [Failover Cluster], ResUtilGetMultiSzProperty, ResUtilGetMultiSzProperty function [Failover Cluster], _wolf_resutilgetmultiszproperty, mscs.resutilgetmultiszproperty, resapi/PRESUTIL_GET_MULTI_SZ_PROPERTY, resapi/ResUtilGetMultiSzProperty
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilGetMultiSzProperty
 dev_langs:

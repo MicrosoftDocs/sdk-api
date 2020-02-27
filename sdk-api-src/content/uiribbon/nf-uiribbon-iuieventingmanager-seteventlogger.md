@@ -7,7 +7,6 @@ tech.root: windowsribbon
 ms.assetid: C0228AB3-790A-469E-B185-06A26D02A96F
 ms.date: 12/05/2018
 ms.keywords: IUIEventingManager interface [Windows Ribbon],SetEventLogger method, IUIEventingManager.SetEventLogger, IUIEventingManager::SetEventLogger, SetEventLogger, SetEventLogger method [Windows Ribbon], SetEventLogger method [Windows Ribbon],IUIEventingManager interface, uiribbon/IUIEventingManager::SetEventLogger, windowsribbon.iuieventingmanager_seteventlogger
-ms.topic: method
 f1_keywords:
 - uiribbon/IUIEventingManager.SetEventLogger
 dev_langs:

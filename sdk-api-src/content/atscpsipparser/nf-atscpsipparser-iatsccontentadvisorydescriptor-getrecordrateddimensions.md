@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6f0a8073-0361-4320-a5d9-7c536a07e9c3
 ms.date: 12/05/2018
 ms.keywords: GetRecordRatedDimensions, GetRecordRatedDimensions method [Microsoft TV Technologies], GetRecordRatedDimensions method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetRecordRatedDimensions method, IAtscContentAdvisoryDescriptor.GetRecordRatedDimensions, IAtscContentAdvisoryDescriptor::GetRecordRatedDimensions, IAtscContentAdvisoryDescriptorGetRecordRatedDimensions, atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatedDimensions, mstv.iatsccontentadvisorydescriptor_getrecordrateddimensions
-ms.topic: method
 f1_keywords:
 - atscpsipparser/IAtscContentAdvisoryDescriptor.GetRecordRatedDimensions
 dev_langs:

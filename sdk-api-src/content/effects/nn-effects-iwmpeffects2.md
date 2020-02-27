@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 44e044c1-97fd-43cb-9530-4556e485f5ae
 ms.date: 12/05/2018
 ms.keywords: IWMPEffects2, IWMPEffects2 interface [Windows Media Player], IWMPEffects2 interface [Windows Media Player],described, IWMPEffects2Interface, effects/IWMPEffects2, wmp.iwmpeffects2
-ms.topic: interface
 f1_keywords:
 - effects/IWMPEffects2
 dev_langs:

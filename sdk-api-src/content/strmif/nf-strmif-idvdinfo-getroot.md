@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e3869da3-15c9-449e-bb0e-29dd4625a857
 ms.date: 12/05/2018
 ms.keywords: GetRoot, GetRoot method [DirectShow], GetRoot method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetRoot method, IDvdInfo.GetRoot, IDvdInfo::GetRoot, IDvdInfoGetRoot, dshow.idvdinfo_getroot, strmif/IDvdInfo::GetRoot
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo.GetRoot
 dev_langs:
@@ -118,7 +117,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-Requested action is not supported on this domain (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
+Requested action is not supported on this domain (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
 
 </td>
 </tr>

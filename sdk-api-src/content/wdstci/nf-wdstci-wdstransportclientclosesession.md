@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 4c135502-a6be-4d5d-b6ce-34b55f6e08b0
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientCloseSession, WdsTransportClientCloseSession function [Windows Deployment Services], wds.wdstransportclientclosesession, wdstci/WdsTransportClientCloseSession
-ms.topic: function
 f1_keywords:
 - wdstci/WdsTransportClientCloseSession
 dev_langs:

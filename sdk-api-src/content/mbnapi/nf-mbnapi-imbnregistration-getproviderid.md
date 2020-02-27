@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 0b21a103-2b49-4d99-8041-c9da9cbc5750
 ms.date: 12/05/2018
 ms.keywords: GetProviderID, GetProviderID method [Microsoft Broadband Networks], GetProviderID method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetProviderID method, IMbnRegistration.GetProviderID, IMbnRegistration::GetProviderID, mbn.imbnregistration_getproviderid, mbnapi/IMbnRegistration::GetProviderID
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnRegistration.GetProviderID
 dev_langs:
@@ -62,7 +61,7 @@ Gets the provider ID for the currently registered network.
 
 ### -param providerID [out]
 
-Pointer to a string that contains the ID of the currently registered provider.  The maximum length is <b>MBN_PROVIDERID_LEN</b> characters.  The string is filled only when the method returns <b>S_OK</b> for success.  Upon success, the calling application must free the allocated memory by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
+Pointer to a string that contains the ID of the currently registered provider.  The maximum length is <b>MBN_PROVIDERID_LEN</b> characters.  The string is filled only when the method returns <b>S_OK</b> for success.  Upon success, the calling application must free the allocated memory by calling <a href="https://msdn.microsoft.com/library/ms221481.aspx">SysFreeString</a>.
 
 
 ## -returns

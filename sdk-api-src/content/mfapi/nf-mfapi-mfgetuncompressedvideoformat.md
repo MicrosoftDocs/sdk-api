@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 7869025a-dacf-47e6-b129-db5b2daefa3b
 ms.date: 12/05/2018
 ms.keywords: 7869025a-dacf-47e6-b129-db5b2daefa3b, MFGetUncompressedVideoFormat, MFGetUncompressedVideoFormat function [Media Foundation], mf.mfgetuncompressedvideoformat, mfapi/MFGetUncompressedVideoFormat
-ms.topic: function
 f1_keywords:
 - mfapi/MFGetUncompressedVideoFormat
 dev_langs:

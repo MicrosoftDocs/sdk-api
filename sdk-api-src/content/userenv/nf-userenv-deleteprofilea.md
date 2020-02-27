@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 48a08d9a-4fdc-43ab-8323-c49bc2d0a58d
 ms.date: 12/05/2018
 ms.keywords: DeleteProfile, DeleteProfile function [Windows Shell], DeleteProfileA, DeleteProfileW, _shell_DeleteProfile, shell.DeleteProfile, userenv/DeleteProfile, userenv/DeleteProfileA, userenv/DeleteProfileW
-ms.topic: function
 f1_keywords:
 - userenv/DeleteProfile
 dev_langs:
@@ -101,7 +100,7 @@ Type: <b>BOOL</b>
 
 
 
-<b>DeleteProfile</b> might fail when passed the security identifier (SID) of the local system account (S-1-5-18). For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=200321">KB890212</a>.
+<b>DeleteProfile</b> might fail when passed the security identifier (SID) of the local system account (S-1-5-18). For more information, see <a href="https://support.microsoft.com/kb/890212">KB890212</a>.
 
 
 

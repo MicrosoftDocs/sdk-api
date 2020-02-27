@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 5C5D8BF8-1B3E-4FEF-ACD7-FCEAEE335DFE
 ms.date: 12/05/2018
 ms.keywords: D3D11_TEX2D_SRV1, D3D11_TEX2D_SRV1 structure [Direct3D 11], d3d11_3/D3D11_TEX2D_SRV1, direct3d11.d3d11_tex2d_srv1
-ms.topic: struct
 f1_keywords:
 - d3d11_3/D3D11_TEX2D_SRV1
 dev_langs:

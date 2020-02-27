@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 60428e66-9c08-418b-99e1-6824c638f2be
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_CHANNEL_BIND_INFO, HTTP_CHANNEL_BIND_INFO, HTTP_CHANNEL_BIND_INFO structure [HTTP], PHTTP_CHANNEL_BIND_INFO, PHTTP_CHANNEL_BIND_INFO structure pointer [HTTP], http.http_channel_bind_info, http/HTTP_CHANNEL_BIND_INFO, http/PHTTP_CHANNEL_BIND_INFO'
-ms.topic: struct
 f1_keywords:
 - http/HTTP_CHANNEL_BIND_INFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: fa8ad4af-eeb8-445e-ac6c-671badb651ec
 ms.date: 12/05/2018
 ms.keywords: AddNtmsMediaType, AddNtmsMediaType function [Files], _zaw_addntmsmediatype, base.addntmsmediatype, fs.addntmsmediatype, ntmsapi/AddNtmsMediaType
-ms.topic: function
 f1_keywords:
 - ntmsapi/AddNtmsMediaType
 dev_langs:

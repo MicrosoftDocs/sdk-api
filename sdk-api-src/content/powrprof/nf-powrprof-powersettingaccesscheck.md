@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: 0b89c189-b162-44d4-aa50-d78385e40c27
 ms.date: 12/05/2018
 ms.keywords: ACCESS_ACTIVE_SCHEME, ACCESS_AC_POWER_SETTING_INDEX, ACCESS_CREATE_SCHEME, ACCESS_DC_POWER_SETTING_INDEX, ACCESS_SCHEME, PowerSettingAccessCheck, PowerSettingAccessCheck function, base.powersettingaccesscheck, powrprof/PowerSettingAccessCheck
-ms.topic: function
 f1_keywords:
 - powrprof/PowerSettingAccessCheck
 dev_langs:

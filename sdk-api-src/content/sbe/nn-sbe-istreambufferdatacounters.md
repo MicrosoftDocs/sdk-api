@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: d9394d04-ba6b-4946-b33a-9c53070238f7
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferDataCounters, IStreamBufferDataCounters interface [Microsoft TV Technologies], IStreamBufferDataCounters interface [Microsoft TV Technologies],described, IStreamBufferDataCountersInterface, mstv.istreambufferdatacounters, sbe/IStreamBufferDataCounters
-ms.topic: interface
 f1_keywords:
 - sbe/IStreamBufferDataCounters
 dev_langs:

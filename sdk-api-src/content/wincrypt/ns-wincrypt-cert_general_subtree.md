@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 991e277c-46f5-4987-ab48-0d1c1442273f
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_GENERAL_SUBTREE, CERT_GENERAL_SUBTREE, CERT_GENERAL_SUBTREE structure [Security], PCERT_GENERAL_SUBTREE, PCERT_GENERAL_SUBTREE structure pointer [Security], _crypto2_cert_general_subtree, security.cert_general_subtree, wincrypt/CERT_GENERAL_SUBTREE, wincrypt/PCERT_GENERAL_SUBTREE'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_GENERAL_SUBTREE
 dev_langs:

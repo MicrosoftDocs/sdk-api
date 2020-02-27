@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d16a7c14-c9b9-474b-82ce-0c8e890271b7
 ms.date: 12/05/2018
 ms.keywords: IDefaultExtractIconInit interface [Windows Shell],SetFlags method, IDefaultExtractIconInit.SetFlags, IDefaultExtractIconInit::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IDefaultExtractIconInit interface, _shell_IDefaultExtractIconInit_SetFlags, shell.IDefaultExtractIconInit_SetFlags, shobjidl_core/IDefaultExtractIconInit::SetFlags
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IDefaultExtractIconInit.SetFlags
 dev_langs:

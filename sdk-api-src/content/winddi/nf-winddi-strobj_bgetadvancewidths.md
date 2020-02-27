@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 298d75a7-2e9b-47df-98ba-d159429a6301
 ms.date: 12/05/2018
 ms.keywords: STROBJ_bGetAdvanceWidths, STROBJ_bGetAdvanceWidths function [Display Devices], display.strobj_bgetadvancewidths, gdifncs_d101c29f-374a-4e66-801c-beba0805f070.xml, winddi/STROBJ_bGetAdvanceWidths
-ms.topic: function
 f1_keywords:
 - winddi/STROBJ_bGetAdvanceWidths
 dev_langs:

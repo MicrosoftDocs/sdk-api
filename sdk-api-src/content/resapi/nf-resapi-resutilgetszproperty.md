@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 0f485910-e691-48fa-a96b-79573ce60616
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_SZ_PROPERTY, PRESUTIL_GET_SZ_PROPERTY function [Failover Cluster], ResUtilGetSzProperty, ResUtilGetSzProperty function [Failover Cluster], _wolf_resutilgetszproperty, mscs.resutilgetszproperty, resapi/PRESUTIL_GET_SZ_PROPERTY, resapi/ResUtilGetSzProperty
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilGetSzProperty
 dev_langs:

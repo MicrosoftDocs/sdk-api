@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 90d4fbc7-d552-460b-96b2-77e2347af716
 ms.date: 12/05/2018
 ms.keywords: IBroadcastEvent, IBroadcastEvent interface [Microsoft TV Technologies], IBroadcastEvent interface [Microsoft TV Technologies],described, IBroadcastEventInterface, mstv.ibroadcastevent, tuner/IBroadcastEvent
-ms.topic: interface
 f1_keywords:
 - tuner/IBroadcastEvent
 dev_langs:

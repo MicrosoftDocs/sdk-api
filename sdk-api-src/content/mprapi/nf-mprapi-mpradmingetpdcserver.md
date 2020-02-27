@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 96bd5e88-5b13-41b2-ab3a-f9995cae36f8
 ms.date: 12/05/2018
 ms.keywords: MprAdminGetPDCServer, MprAdminGetPDCServer function [RAS], _mpr_mpradmingetpdcserver, mprapi/MprAdminGetPDCServer, rras.mpradmingetpdcserver
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminGetPDCServer
 dev_langs:

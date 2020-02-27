@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 129CEEBF-0D02-4746-8F9B-4F5F5A95E6A2
 ms.date: 12/05/2018
 ms.keywords: GetForWindow, GetForWindow method [Windows Shell], GetForWindow method [Windows Shell],IDataTransferManagerInterop interface, IDataTransferManagerInterop interface [Windows Shell],GetForWindow method, IDataTransferManagerInterop.GetForWindow, IDataTransferManagerInterop::GetForWindow, shell.idatatransfermanagerinterop_getforwindow, shobjidl_core/IDataTransferManagerInterop::GetForWindow
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IDataTransferManagerInterop.GetForWindow
 dev_langs:

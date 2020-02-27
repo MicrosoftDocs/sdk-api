@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0898160d-46e5-4b38-9fc9-f74bd6a0385b
 ms.date: 12/05/2018
 ms.keywords: AddObject, AddObject method [Windows Shell], AddObject method [Windows Shell],IObjectCollection interface, IObjectCollection interface [Windows Shell],AddObject method, IObjectCollection.AddObject, IObjectCollection::AddObject, _shell_IObjectCollection_AddObject, objectarray/IObjectCollection::AddObject, shell.IObjectCollection_AddObject
-ms.topic: method
 f1_keywords:
 - objectarray/IObjectCollection.AddObject
 dev_langs:

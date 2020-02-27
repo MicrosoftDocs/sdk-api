@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 8006c8bb-4976-463f-b074-a59c3bbab36b
 ms.date: 12/05/2018
 ms.keywords: GetSecurityDescriptorDacl, GetSecurityDescriptorDacl function [Security], _win32_getsecuritydescriptordacl, security.getsecuritydescriptordacl, securitybaseapi/GetSecurityDescriptorDacl
-ms.topic: function
 f1_keywords:
 - securitybaseapi/GetSecurityDescriptorDacl
 dev_langs:

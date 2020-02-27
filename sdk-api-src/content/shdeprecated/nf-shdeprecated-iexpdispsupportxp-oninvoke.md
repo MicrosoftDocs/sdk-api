@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 92ae2e5c-466e-4f73-a2e3-7d040e756a50
 ms.date: 12/05/2018
 ms.keywords: IExpDispSupportXP interface [Windows Shell],OnInvoke method, IExpDispSupportXP.OnInvoke, IExpDispSupportXP::OnInvoke, OnInvoke, OnInvoke method [Windows Shell], OnInvoke method [Windows Shell],IExpDispSupportXP interface, _shell_IExpDispSupportXP_OnInvoke, shdeprecated/IExpDispSupportXP::OnInvoke, shell.IExpDispSupportXP_OnInvoke
-ms.topic: method
 f1_keywords:
 - shdeprecated/IExpDispSupportXP.OnInvoke
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: B74FA337-014E-4A5C-83CD-26C563E9BBD4
 ms.date: 12/05/2018
 ms.keywords: GetCrossOriginPolicy, GetCrossOriginPolicy method [Media Foundation], GetCrossOriginPolicy method [Media Foundation],IMFNetCrossOriginSupport interface, IMFNetCrossOriginSupport interface [Media Foundation],GetCrossOriginPolicy method, IMFNetCrossOriginSupport.GetCrossOriginPolicy, IMFNetCrossOriginSupport::GetCrossOriginPolicy, mf.imfnetcrossoriginsupport_getcrossoriginpolicy, mfidl/IMFNetCrossOriginSupport::GetCrossOriginPolicy
-ms.topic: method
 f1_keywords:
 - mfidl/IMFNetCrossOriginSupport.GetCrossOriginPolicy
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 0d6f4506-367b-43d7-ba1c-2a93c1d0cc51
 ms.date: 12/05/2018
 ms.keywords: MsiGetLastErrorRecord, MsiGetLastErrorRecord function, _msi_msigetlasterrorrecord, msiquery/MsiGetLastErrorRecord, setup.msigetlasterrorrecord
-ms.topic: function
 f1_keywords:
 - msiquery/MsiGetLastErrorRecord
 dev_langs:

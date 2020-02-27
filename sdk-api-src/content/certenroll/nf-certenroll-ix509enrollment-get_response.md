@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 4580d376-0dbb-4418-a542-b0a9710862c4
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment interface [Security],Response property, IX509Enrollment.Response, IX509Enrollment.get_Response, IX509Enrollment::Response, IX509Enrollment::get_Response, Response property [Security], Response property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Response, certenroll/IX509Enrollment::get_Response, get_Response, security.ix509enrollment_response_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509Enrollment.Response
 dev_langs:

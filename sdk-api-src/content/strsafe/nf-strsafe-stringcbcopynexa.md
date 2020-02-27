@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopynex.htm
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbCopyNEx, StringCbCopyNEx function [Menus and Other Resources], StringCbCopyNExA, StringCbCopyNExW, _shell_StringCbCopyNEx, _shell_stringcbcopynex_cpp, menurc.stringcbcopynex, strsafe/StringCbCopyNEx, strsafe/StringCbCopyNExA, strsafe/StringCbCopyNExW, winui._shell_stringcbcopynex
-ms.topic: function
 f1_keywords:
 - strsafe/StringCbCopyNEx
 dev_langs:
@@ -58,7 +57,7 @@ Copies the specified number of bytes from one string to another. The size of the
 
 <b>StringCbCopyNEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192506">strncpy, wcsncpy, _tcsncpy</a></li>
+<li><a href="https://msdn.microsoft.com/library/xdsywd25.aspx">strncpy, wcsncpy, _tcsncpy</a></li>
 </ul>
 
 ## -parameters

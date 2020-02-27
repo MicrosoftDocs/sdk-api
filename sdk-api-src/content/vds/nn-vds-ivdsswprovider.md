@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 0602d4d6-a31d-4425-ad21-a267c6e1dd7b
 ms.date: 12/05/2018
 ms.keywords: IVdsSwProvider, IVdsSwProvider interface [VDS], IVdsSwProvider interface [VDS],described, base.ivdsswprovider, vds/IVdsSwProvider
-ms.topic: interface
 f1_keywords:
 - vds/IVdsSwProvider
 dev_langs:

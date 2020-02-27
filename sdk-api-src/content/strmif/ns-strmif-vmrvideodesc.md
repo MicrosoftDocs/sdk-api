@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b02683ec-9bf9-4a69-87fb-d37a98f02e61
 ms.date: 12/05/2018
 ms.keywords: FALSE, TRUE, VMRVideoDesc, VMRVideoDesc structure [DirectShow], VMRVideoDescStructure, dshow.vmrvideodesc, strmif/VMRVideoDesc
-ms.topic: struct
 f1_keywords:
 - strmif/VMRVideoDesc
 dev_langs:
@@ -119,13 +118,13 @@ Specifies a FOURCC code. Valid values include NV12, YV12, YUY2, UYVY, IMC1, IMC2
 
 ### -field InputSampleFreq
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrfrequency">VMRFrequency</a> structure that specifies the input frequency. For NTSC TV, the frequency would be expressed as 30,000:1001.
+A [VMRFrequency](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrfrequency) structure that specifies the input frequency. For NTSC TV, the frequency would be expressed as 30,000:1001.
 
 
 ### -field OutputFrameFreq
 
 A 
-              <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrfrequency">VMRFrequency</a> structure that specifies the output frequency. For NTSC TV, the frequency would be expressed as 60,000:1001.
+              [VMRFrequency](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrfrequency) structure that specifies the output frequency. For NTSC TV, the frequency would be expressed as 60,000:1001.
 
 
 ## -see-also

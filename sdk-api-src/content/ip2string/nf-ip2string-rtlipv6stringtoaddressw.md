@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 3cd3bfcf-e9b2-4ee6-8e93-a31a70fc3ad3
 ms.date: 12/05/2018
 ms.keywords: RtlIpv6StringToAddress, RtlIpv6StringToAddress function [IP Helper], RtlIpv6StringToAddressA, RtlIpv6StringToAddressW, ip2string/RtlIpv6StringToAddress, ip2string/RtlIpv6StringToAddressA, ip2string/RtlIpv6StringToAddressW, iphlp.rtlipv6stringtoaddress
-ms.topic: function
 f1_keywords:
 - ip2string/RtlIpv6StringToAddress
 dev_langs:
@@ -135,7 +134,7 @@ The string pointed to by the <i>S</i> parameter must be represented in the form 
     separated by colons. A string of consecutive zero numbers may be replaced
     with a double-colon.
     There can only be one double-colon in the string representation of the IPv6 address. The last 32 bits may be represented in IPv4-style dotted-octet notation
-    if the address is an IPv4-compatible address, an IPv4-mapped IPv6 address, or an ISATAP address. For more information, see section 5 of <a href="http://go.microsoft.com/fwlink/p/?linkid=222408">RFC 5942</a> published by the IETF. 
+    if the address is an IPv4-compatible address, an IPv4-mapped IPv6 address, or an ISATAP address. For more information, see section 5 of <a href="http://tools.ietf.org/html/rfc5952">RFC 5942</a> published by the IETF. 
 
 On success, the <i>Terminator</i> parameter points to the character that terminated the string that was converted. This allows an application to pass a string that contains and IP address plus additional information to the <b>RtlIpv6StringToAddress</b> function and then parse the remaining information. 
 

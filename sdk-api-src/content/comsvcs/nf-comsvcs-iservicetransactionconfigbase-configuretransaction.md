@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 8277b133-2c0c-4a21-b441-457efb285178
 ms.date: 12/05/2018
 ms.keywords: ConfigureTransaction, ConfigureTransaction method [COM+], ConfigureTransaction method [COM+],IServiceTransactionConfigBase interface, IServiceTransactionConfigBase interface [COM+],ConfigureTransaction method, IServiceTransactionConfigBase.ConfigureTransaction, IServiceTransactionConfigBase::ConfigureTransaction, _cos_IServiceTransactionConfigBase_ConfigureTransaction, comsvcs/IServiceTransactionConfigBase::ConfigureTransaction, cos.iservicetransactionconfigbase_configuretransaction
-ms.topic: method
 f1_keywords:
 - comsvcs/IServiceTransactionConfigBase.ConfigureTransaction
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 67BA2464-D8F0-4A5C-9C12-DBD9AD0238A7
 ms.date: 12/05/2018
 ms.keywords: ContainsTime, ContainsTime method [Media Foundation], ContainsTime method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],ContainsTime method, IMFMediaTimeRange.ContainsTime, IMFMediaTimeRange::ContainsTime, mf.imfmediatimerange_containstime, mfmediaengine/IMFMediaTimeRange::ContainsTime
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaTimeRange.ContainsTime
 dev_langs:

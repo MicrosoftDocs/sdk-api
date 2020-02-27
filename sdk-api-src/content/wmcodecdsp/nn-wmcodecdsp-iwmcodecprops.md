@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: b49e506b-8c87-44b9-be6c-b9a33f6c9ecb
 ms.date: 12/05/2018
 ms.keywords: IWMCodecProps, IWMCodecProps interface [Media Foundation], IWMCodecProps interface [Media Foundation],described, codecapi.iwmcodecpropsinterface, mf.iwmcodecprops, mf.iwmcodecpropsinterface, wmcodecdsp/IWMCodecProps
-ms.topic: interface
 f1_keywords:
 - wmcodecdsp/IWMCodecProps
 dev_langs:

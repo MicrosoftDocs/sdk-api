@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 274411cd-5922-4db8-8775-feb93cae32dd
 ms.date: 12/05/2018
 ms.keywords: PathCreateFromUrlAlloc, PathCreateFromUrlAlloc function [Windows Shell], _shell_PathCreateFromUrlAlloc, shell.PathCreateFromUrlAlloc, shlwapi/PathCreateFromUrlAlloc
-ms.topic: function
 f1_keywords:
 - shlwapi/PathCreateFromUrlAlloc
 dev_langs:

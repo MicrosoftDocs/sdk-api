@@ -5,7 +5,6 @@ description:
 ms.assetid: 2187385b-8e30-4620-be1a-8c95c4d870b1
 ms.date: 05/13/2019
 ms.keywords: CHString::Format
-ms.topic: language-reference
 f1_keywords:
 - chstring/CHString::Format
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: psapi
 ms.assetid: b4088506-2f69-4cf0-9bab-3e6a7185f5b2
 ms.date: 12/05/2018
 ms.keywords: EnumProcessModules, EnumProcessModules function [PSAPI], K32EnumProcessModules, _win32_enumprocessmodules, base.enumprocessmodules, psapi.enumprocessmodules, psapi/EnumProcessModules, psapi/K32EnumProcessModules
-ms.topic: function
 f1_keywords:
 - psapi/EnumProcessModules
 dev_langs:

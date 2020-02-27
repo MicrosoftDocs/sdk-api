@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 564c391c-8c73-4dd8-b713-3a5309708fd6
 ms.date: 12/05/2018
 ms.keywords: IOpcCertificateEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcCertificateEnumerator.MovePrevious, IOpcCertificateEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcCertificateEnumerator interface, msopc/IOpcCertificateEnumerator::MovePrevious, opc.iopccertificateenumerator_moveprevious
-ms.topic: method
 f1_keywords:
 - msopc/IOpcCertificateEnumerator.MovePrevious
 dev_langs:

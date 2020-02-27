@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 3a651daa-7404-4ef7-8cff-0d3dff41a8e8
 ms.date: 12/05/2018
 ms.keywords: _win32_bind_2, bind, bind function [Winsock], winsock.bind_2, winsock/bind
-ms.topic: function
 f1_keywords:
 - winsock/bind
 dev_langs:
@@ -260,7 +259,7 @@ For TCP/IP, if the port is specified as zero, the service provider assigns a uni
 
 The <b>MaxUserPort</b> registry value sets the value to use for the maximum value of the dynamic client port range. You must restart the computer for this setting to take effect.
 
-On Windows Vista and later, the dynamic client port range can be viewed and changed using <b>netsh</b> commands. The dynamic client port range can be set differently for UDP and TCP and also for IPv4 and IPv6. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=158023">KB 929851</a>. 
+On Windows Vista and later, the dynamic client port range can be viewed and changed using <b>netsh</b> commands. The dynamic client port range can be set differently for UDP and TCP and also for IPv4 and IPv6. For more information, see <a href="https://support.microsoft.com/kb/929851">KB 929851</a>. 
 
 The application can use 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockname">getsockname</a> after calling 

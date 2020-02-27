@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_8jqd.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxInboundRoutingExtension interface [Fax Service],InitErrorCode property, IFaxInboundRoutingExtension.InitErrorCode, IFaxInboundRoutingExtension.get_InitErrorCode, IFaxInboundRoutingExtension::InitErrorCode, IFaxInboundRoutingExtension::get_InitErrorCode, InitErrorCode property [Fax Service], InitErrorCode property [Fax Service],IFaxInboundRoutingExtension interface, _mfax_faxinboundroutingextension.initerrorcode, fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_initerrorcode_cpp, fax._mfax_faxinboundroutingextension_initerrorcode, faxcomex/IFaxInboundRoutingExtension::InitErrorCode, faxcomex/IFaxInboundRoutingExtension::get_InitErrorCode, get_InitErrorCode
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxInboundRoutingExtension.InitErrorCode
 dev_langs:

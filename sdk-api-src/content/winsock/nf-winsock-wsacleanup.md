@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 72b7cc3e-be34-41e7-acbf-61742149ec8b
 ms.date: 12/05/2018
 ms.keywords: WSACleanup, WSACleanup function [Winsock], _win32_wsacleanup_2, winsock.wsacleanup_2, winsock/WSACleanup
-ms.topic: function
 f1_keywords:
 - winsock/WSACleanup
 dev_langs:
@@ -151,7 +150,7 @@ In  Windows Sockets 1.1, attempting to call
 
 The 
 <b>WSACleanup</b> function typically leads to protocol-specific helper DLLs being unloaded. As a result, the 
-<b>WSACleanup</b> function should not be called from the DllMain function in a application DLL. This can potentially cause deadlocks. For more information, please see the <a href="http://go.microsoft.com/fwlink/p/?linkid=109533">DLL Main Function</a>.
+<b>WSACleanup</b> function should not be called from the DllMain function in a application DLL. This can potentially cause deadlocks. For more information, please see the <a href="https://msdn.microsoft.com/library/ms682583.aspx">DLL Main Function</a>.
 
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 

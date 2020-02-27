@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 8719ab1f-8004-4d5c-b64c-ae17c8d1ab30
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],OpenTask method, IAzScope interface [Security],OpenTask method, IAzScope.OpenTask, IAzScope::OpenTask, OpenTask, OpenTask method [Security], OpenTask method [Security],AzScope object, OpenTask method [Security],IAzScope interface, azroles/IAzScope::OpenTask, security.iazscope_opentask
-ms.topic: method
 f1_keywords:
 - azroles/IAzScope.OpenTask
 dev_langs:

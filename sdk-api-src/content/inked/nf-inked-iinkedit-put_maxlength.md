@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 603074d4-3222-4593-a5e8-b5f8a8dced6a
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],MaxLength property, IInkEdit.MaxLength, IInkEdit.put_MaxLength, IInkEdit::MaxLength, IInkEdit::get_MaxLength, IInkEdit::put_MaxLength, InkEdit.get_MaxLength, InkEdit.put_MaxLength, MaxLength property [Tablet PC], MaxLength property [Tablet PC],IInkEdit interface, get_MaxLength, inked/IInkEdit::MaxLength, inked/IInkEdit::get_MaxLength, inked/IInkEdit::put_MaxLength, put_MaxLength, tablet.inkedit_maxlength
-ms.topic: method
 f1_keywords:
 - inked/IInkEdit.MaxLength
 dev_langs:

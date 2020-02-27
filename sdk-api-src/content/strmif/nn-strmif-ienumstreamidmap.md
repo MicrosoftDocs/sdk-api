@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8bca9255-2bc8-408b-9127-e3fe050fcf01
 ms.date: 12/05/2018
 ms.keywords: IEnumStreamIdMap, IEnumStreamIdMap interface [DirectShow], IEnumStreamIdMap interface [DirectShow],described, IEnumStreamIdMapInterface, dshow.ienumstreamidmap, strmif/IEnumStreamIdMap
-ms.topic: interface
 f1_keywords:
 - strmif/IEnumStreamIdMap
 dev_langs:

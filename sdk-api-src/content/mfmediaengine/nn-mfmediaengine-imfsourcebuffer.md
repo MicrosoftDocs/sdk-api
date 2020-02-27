@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: f241e232-9013-46d0-be97-2d6b5246cff3
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBuffer, IMFSourceBuffer interface [Media Foundation], IMFSourceBuffer interface [Media Foundation],described, mf.imfsourcebuffer, mfmediaengine/IMFSourceBuffer
-ms.topic: interface
 f1_keywords:
 - mfmediaengine/IMFSourceBuffer
 dev_langs:

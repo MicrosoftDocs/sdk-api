@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: d7450caf-9b82-41ee-9ea2-d8f4502473ce
 ms.date: 12/05/2018
 ms.keywords: GetSensorValues, GetSensorValues method, GetSensorValues method,ISensorDataReport interface, ISensorDataReport interface,GetSensorValues method, ISensorDataReport.GetSensorValues, ISensorDataReport::GetSensorValues, sensorsapi/ISensorDataReport::GetSensorValues, winsensors_com_ref.isensordatareport_getsensorvalues
-ms.topic: method
 f1_keywords:
 - sensorsapi/ISensorDataReport.GetSensorValues
 dev_langs:
@@ -60,12 +59,12 @@ Retrieves a collection of data field values.
 
 ### -param pKeys [in]
 
-Pointer to the <a href="http://go.microsoft.com/fwlink/p/?linkid=134661">IPortableDeviceKeyCollection</a> interface that contains the data fields for which to retrieve values. Set to <b>NULL</b> to retrieve values for all supported data fields.
+Pointer to the <a href="https://msdn.microsoft.com/library/ms739549(VS.85).aspx">IPortableDeviceKeyCollection</a> interface that contains the data fields for which to retrieve values. Set to <b>NULL</b> to retrieve values for all supported data fields.
 
 
 ### -param ppValues [out]
 
-Address of an <a href="http://go.microsoft.com/fwlink/p/?linkid=134660">IPortableDeviceValues</a> interface pointer that receives the pointer to the retrieved values.
+Address of an <a href="https://msdn.microsoft.com/library/ms740012(VS.85).aspx">IPortableDeviceValues</a> interface pointer that receives the pointer to the retrieved values.
 
 
 ## -returns
@@ -125,7 +124,7 @@ NULL was passed in for ppValues.
 
 The <b>IPortableDeviceKeyCollection</b> and <b>IPortableDeviceValues</b> interfaces are defined by the Windows Portable Devices API.
 
-When this method returns <b>HRESULT_FROM_WIN32(ERROR_NOT_FOUND)</b>, one or more of the results contained by the <a href="http://go.microsoft.com/fwlink/p/?linkid=134660">IPortableDeviceValues</a> interface will be set to an <b>HRESULT</b> error value.
+When this method returns <b>HRESULT_FROM_WIN32(ERROR_NOT_FOUND)</b>, one or more of the results contained by the <a href="https://msdn.microsoft.com/library/ms740012(VS.85).aspx">IPortableDeviceValues</a> interface will be set to an <b>HRESULT</b> error value.
 
 
 

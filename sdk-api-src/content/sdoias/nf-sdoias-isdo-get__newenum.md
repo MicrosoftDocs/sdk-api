@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: 23033dc3-824c-429c-836d-65782ca3df92
 ms.date: 12/05/2018
 ms.keywords: ISdo interface [Network Policy Server],get__NewEnum method, ISdo.get__NewEnum, ISdo::get__NewEnum, _sdo_isdo_get__newenum, get__NewEnum, get__NewEnum method [Network Policy Server], get__NewEnum method [Network Policy Server],ISdo interface, nps.SDO_isdo_get__newenum, sdo.isdo_get__newenum, sdoias/ISdo::get__NewEnum
-ms.topic: method
 f1_keywords:
 - sdoias/ISdo.get__NewEnum
 dev_langs:
@@ -64,7 +63,7 @@ The
 
 Pointer to a pointer that, on successful return, points to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer. Use this <b>IUnknown</b> interface pointer with 
-its <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method to obtain an 
+its <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method to obtain an 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface.
 
 

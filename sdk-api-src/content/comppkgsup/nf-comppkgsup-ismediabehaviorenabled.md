@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 6D1F52E3-3AC0-4270-8931-53D8687A10C7
 ms.date: 12/05/2018
 ms.keywords: IsMediaBehaviorEnabled, IsMediaBehaviorEnabled function [Windows API], comppkgsup/IsMediaBehaviorEnabled, winprog.ismediabehaviorenabled
-ms.topic: function
 f1_keywords:
 - comppkgsup/IsMediaBehaviorEnabled
 dev_langs:

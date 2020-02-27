@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: cf5e8511-37be-4fb8-bded-b9b1e6bd247b
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassDevPropertySheets, SetupDiGetClassDevPropertySheets function [Device and Driver Installation], SetupDiGetClassDevPropertySheetsA, SetupDiGetClassDevPropertySheetsW, devinst.setupdigetclassdevpropertysheets, di-rtns_cdfb15cd-b7a4-42bf-ad4c-a3084a7a6d98.xml, setupapi/SetupDiGetClassDevPropertySheets
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetClassDevPropertySheets
 dev_langs:
@@ -136,7 +135,7 @@ Advanced property sheets on a remote computer.
 
 
 
-The function returns <b>TRUE</b> if successful. Otherwise, the function returns <b>FALSE</b>. Call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> to obtain the error code.
+The function returns <b>TRUE</b> if successful. Otherwise, the function returns <b>FALSE</b>. Call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> to obtain the error code.
 
 
 

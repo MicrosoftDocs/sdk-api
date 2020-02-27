@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 43db28af-86cb-4530-a87b-d11061533d84
 ms.date: 12/05/2018
 ms.keywords: IAzOperations, IAzOperations interface [Security], IAzOperations interface [Security],described, azroles/IAzOperations, security.iazoperations
-ms.topic: interface
 f1_keywords:
 - azroles/IAzOperations
 dev_langs:

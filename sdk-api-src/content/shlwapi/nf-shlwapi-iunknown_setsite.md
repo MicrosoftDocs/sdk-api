@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 66175435-f85b-4e26-b148-f4edb74cb41d
 ms.date: 12/05/2018
 ms.keywords: IUnknown_SetSite, IUnknown_SetSite function [Windows Shell], _win32_IUnknown_SetSite, shell.IUnknown_SetSite, shlwapi/IUnknown_SetSite
-ms.topic: function
 f1_keywords:
 - shlwapi/IUnknown_SetSite
 dev_langs:

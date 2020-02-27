@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchvprintfex.htm
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchVPrintfEx, StringCchVPrintfEx function [Menus and Other Resources], StringCchVPrintfExA, StringCchVPrintfExW, _shell_StringCchVPrintfEx, _shell_stringcchvprintfex_cpp, menurc.stringcchvprintfex, strsafe/StringCchVPrintfEx, strsafe/StringCchVPrintfExA, strsafe/StringCchVPrintfExW, winui._shell_stringcchvprintfex
-ms.topic: function
 f1_keywords:
 - strsafe/StringCchVPrintfEx
 dev_langs:
@@ -58,8 +57,8 @@ Writes formatted data to the specified string using a pointer to a list of argum
 
 <b>StringCchVPrintfEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192500">vsprintf, vswprintf, _vstprintf</a></li>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192508">vsnprintf, _vsnwprintf, _vsntprintf</a></li>
+<li><a href="https://msdn.microsoft.com/library/28d5ce15.aspx">vsprintf, vswprintf, _vstprintf</a></li>
+<li><a href="https://msdn.microsoft.com/library/1kt27hek.aspx">vsnprintf, _vsnwprintf, _vsntprintf</a></li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-wvsprintfa">wvsprintf</a>
 </li>

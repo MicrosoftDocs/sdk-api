@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: b4d63ffd-37ad-4901-b017-205fb15381e7
 ms.date: 12/05/2018
 ms.keywords: Icmp6ParseReplies, Icmp6ParseReplies function [IP Helper], icmpapi/Icmp6ParseReplies, iphlp.icmp6parsereplies
-ms.topic: function
 f1_keywords:
 - icmpapi/Icmp6ParseReplies
 dev_langs:

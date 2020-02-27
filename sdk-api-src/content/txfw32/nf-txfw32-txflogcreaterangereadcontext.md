@@ -4,7 +4,6 @@ title: TxfLogCreateRangeReadContext
 description: Creates a context that is required to read any replication records.
 ms.date: 4/26/2019
 ms.keywords: TxfLogCreateRangeReadContext
-ms.topic: language-reference
 f1_keywords:
 - TxfLogCreateRangeReadContext
 dev_langs:

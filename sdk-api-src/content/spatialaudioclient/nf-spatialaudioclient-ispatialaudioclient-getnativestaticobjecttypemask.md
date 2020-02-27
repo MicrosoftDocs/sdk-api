@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 29963682-AD45-4CEC-81A0-4B834505F9D5
 ms.date: 12/05/2018
 ms.keywords: GetNativeStaticObjectTypeMask, GetNativeStaticObjectTypeMask method [Core Audio], GetNativeStaticObjectTypeMask method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetNativeStaticObjectTypeMask method, ISpatialAudioClient.GetNativeStaticObjectTypeMask, ISpatialAudioClient::GetNativeStaticObjectTypeMask, coreaudio.ispatialaudioclient_getnativestaticobjecttypemask, spatialaudioclient/ISpatialAudioClient::GetNativeStaticObjectTypeMask
-ms.topic: method
 f1_keywords:
 - spatialaudioclient/ISpatialAudioClient.GetNativeStaticObjectTypeMask
 dev_langs:

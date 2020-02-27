@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: b7733df5-f764-4996-b324-fa050b1db0af
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [windows Media Format], GetProperty method [windows Media Format],INSSBuffer3 interface, INSSBuffer3 interface [windows Media Format],GetProperty method, INSSBuffer3.GetProperty, INSSBuffer3::GetProperty, INSSBuffer3GetProperty, wmformat.inssbuffer3_getproperty, wmsbuffer/INSSBuffer3::GetProperty
-ms.topic: method
 f1_keywords:
 - wmsbuffer/INSSBuffer3.GetProperty
 dev_langs:

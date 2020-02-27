@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getredirectedurl.htm
 ms.date: 12/05/2018
 ms.keywords: GetRedirectedURL, GetRedirectedURL method [search], GetRedirectedURL method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetRedirectedURL method, IUrlAccessor.GetRedirectedURL, IUrlAccessor::GetRedirectedURL, _search_IUrlAccessor_GetRedirectedURL, search._search_IUrlAccessor_GetRedirectedURL, searchapi/IUrlAccessor::GetRedirectedURL
-ms.topic: method
 f1_keywords:
 - searchapi/IUrlAccessor.GetRedirectedURL
 dev_langs:

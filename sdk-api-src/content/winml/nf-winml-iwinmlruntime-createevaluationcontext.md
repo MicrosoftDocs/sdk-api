@@ -7,7 +7,6 @@ tech.root: MachineLearning
 ms.assetid: 629D49AF-0AD9-4741-9A59-4B83F521723A
 ms.date: 12/05/2018
 ms.keywords: CreateEvaluationContext, CreateEvaluationContext method, CreateEvaluationContext method,IWinMLRuntime interface, IWinMLRuntime interface,CreateEvaluationContext method, IWinMLRuntime.CreateEvaluationContext, IWinMLRuntime::CreateEvaluationContext, MachineLearning.iwinmlruntime_createevaluationcontext, winml/IWinMLRuntime::CreateEvaluationContext
-ms.topic: method
 f1_keywords:
 - winml/IWinMLRuntime.CreateEvaluationContext
 dev_langs:

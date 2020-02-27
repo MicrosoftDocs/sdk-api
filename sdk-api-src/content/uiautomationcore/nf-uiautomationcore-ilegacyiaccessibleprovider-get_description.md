@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 9a6ce358-66ad-40df-8642-759b7cb6208a
 ms.date: 12/05/2018
 ms.keywords: Description property [Windows Accessibility], Description property [Windows Accessibility],ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider interface [Windows Accessibility],Description property, ILegacyIAccessibleProvider.Description, ILegacyIAccessibleProvider.get_Description, ILegacyIAccessibleProvider::Description, ILegacyIAccessibleProvider::get_Description, get_Description, uiauto.uiauto_ILegacyIAccessibleProvider_Description, uiauto_ILegacyIAccessibleProvider_Description, uiautomationcore/ILegacyIAccessibleProvider::Description, uiautomationcore/ILegacyIAccessibleProvider::get_Description, winauto.uiauto_ILegacyIAccessibleProvider_Description
-ms.topic: method
 f1_keywords:
 - uiautomationcore/ILegacyIAccessibleProvider.Description
 dev_langs:

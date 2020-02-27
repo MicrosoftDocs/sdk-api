@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c130ef36-1255-4c57-be31-7fc2029d9f66
 ms.date: 12/05/2018
 ms.keywords: IFolderView interface [Windows Shell],Item method, IFolderView.Item, IFolderView::Item, Item, Item method [Windows Shell], Item method [Windows Shell],IFolderView interface, _shell_IFolderView_Item, shell.IFolderView_Item, shobjidl_core/IFolderView::Item
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFolderView.Item
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 3e7dd781-7f99-4c49-bbe1-8d2e63cff553
 ms.date: 12/05/2018
 ms.keywords: CM_Get_DevNode_Status_Ex, CM_Get_DevNode_Status_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_DevNode_Status_Ex, cfgmgrfn_924d6e07-f3bf-4e7d-8342-1b34f4aff24b.xml, devinst.cm_get_devnode_status_ex
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Get_DevNode_Status_Ex
 dev_langs:

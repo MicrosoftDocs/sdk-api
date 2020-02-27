@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 994fef62-77cf-4c99-be54-b4aff35a10f2
 ms.date: 12/05/2018
 ms.keywords: FlushViewOfFile, FlushViewOfFile function, _win32_flushviewoffile, base.flushviewoffile, fs.flushviewoffile, winbase/FlushViewOfFile
-ms.topic: function
 f1_keywords:
 - memoryapi/FlushViewOfFile
 dev_langs:

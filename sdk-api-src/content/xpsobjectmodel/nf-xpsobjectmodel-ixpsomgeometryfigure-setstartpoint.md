@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d9885c3d-06a0-4d25-81fc-cf0ef466a797
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetStartPoint method, IXpsOMGeometryFigure.SetStartPoint, IXpsOMGeometryFigure::SetStartPoint, SetStartPoint, SetStartPoint method [XPS Documents and Packaging], SetStartPoint method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, xps.ixpsomgeometryfigure_setstartpoint, xpsobjectmodel/IXpsOMGeometryFigure::SetStartPoint
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGeometryFigure.SetStartPoint
 dev_langs:
@@ -122,7 +121,7 @@ One of the fields in  the <a href="https://docs.microsoft.com/windows/win32/api/
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

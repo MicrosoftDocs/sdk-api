@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: e9d1db59-e9fb-4704-81f6-86523397c114
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Parent, CM_Get_Parent function [Device and Driver Installation], cfgmgr32/CM_Get_Parent, cfgmgrfn_fdd00a0a-e79d-469d-9a1a-852096d89a48.xml, devinst.cm_get_parent
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Get_Parent
 dev_langs:

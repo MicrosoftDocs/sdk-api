@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: fc300bb8-aea4-4848-af43-a70a7fb8c07c
 ms.date: 12/05/2018
 ms.keywords: ICreateDevEnum, ICreateDevEnum interface [DirectShow], ICreateDevEnum interface [DirectShow],described, ICreateDevEnumInterface, dshow.icreatedevenum, strmif/ICreateDevEnum
-ms.topic: interface
 f1_keywords:
 - strmif/ICreateDevEnum
 dev_langs:

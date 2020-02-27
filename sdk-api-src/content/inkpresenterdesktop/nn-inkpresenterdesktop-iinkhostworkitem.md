@@ -7,7 +7,6 @@ tech.root: input_ink
 ms.assetid: 812026bf-74d0-49c2-851c-de64a6417bff
 ms.date: 12/05/2018
 ms.keywords: IInkHostWorkItem, IInkHostWorkItem interface, IInkHostWorkItem interface,described, InkPresenterDesktop.iinkhostworkitem, inkpresenterdesktop/IInkHostWorkItem, input_ink.iinkhostworkitem
-ms.topic: interface
 f1_keywords:
 - inkpresenterdesktop/IInkHostWorkItem
 dev_langs:
@@ -58,7 +57,7 @@ An <b>IInkHostWorkItem</b> object represents an ink operation to be executed on 
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620314">Complex ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex ink sample</a>
 
 
 
@@ -66,7 +65,7 @@ An <b>IInkHostWorkItem</b> object represents an ink operation to be executed on 
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
 
 
 
@@ -78,7 +77,7 @@ An <b>IInkHostWorkItem</b> object represents an ink operation to be executed on 
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620312">Simple ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
  
 
  

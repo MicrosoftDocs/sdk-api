@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixDecompose(XMVECTOR@,XMVECTOR@,XMVECTOR@,XMMATRIX )
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixDecompose, XMMatrixDecompose, XMMatrixDecompose method [DirectX Math Support APIs], dxmath.xmmatrixdecompose
-ms.topic: function
 f1_keywords:
 - directxmath/XMMatrixDecompose
 dev_langs:

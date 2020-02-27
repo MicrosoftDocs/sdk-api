@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dbasetexture9__getautogenfiltertype.htm
 ms.date: 12/05/2018
 ms.keywords: 7a155e44-4ee7-ac87-0ef7-42daed0b87ba, GetAutoGenFilterType, GetAutoGenFilterType method [Direct3D 9], GetAutoGenFilterType method [Direct3D 9],IDirect3DBaseTexture9 interface, IDirect3DBaseTexture9 interface [Direct3D 9],GetAutoGenFilterType method, IDirect3DBaseTexture9.GetAutoGenFilterType, IDirect3DBaseTexture9::GetAutoGenFilterType, d3d9helper/IDirect3DBaseTexture9::GetAutoGenFilterType, direct3d9.idirect3dbasetexture9__getautogenfiltertype
-ms.topic: method
 f1_keywords:
 - d3d9/IDirect3DBaseTexture9.GetAutoGenFilterType
 dev_langs:

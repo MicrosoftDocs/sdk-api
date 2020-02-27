@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: adc0052d-e2dd-4c55-996c-6af8f5987d79
 ms.date: 12/05/2018
 ms.keywords: AdministratorPowerPolicy, CallNtPowerInformation, CallNtPowerInformation function, LastSleepTime, LastWakeTime, ProcessorInformation, ProcessorPowerPolicyAc, ProcessorPowerPolicyCurrent, ProcessorPowerPolicyDc, SystemBatteryState, SystemExecutionState, SystemPowerCapabilities, SystemPowerInformation, SystemPowerPolicyAc, SystemPowerPolicyCurrent, SystemPowerPolicyDc, SystemReserveHiberFile, VerifyProcessorPowerPolicyAc, VerifyProcessorPowerPolicyDc, VerifySystemPolicyAc, VerifySystemPolicyDc, _win32_callntpowerinformation, base.callntpowerinformation, powerbase/CallNtPowerInformation, powrprof/CallNtPowerInformation
-ms.topic: function
 f1_keywords:
 - powerbase/CallNtPowerInformation
 dev_langs:

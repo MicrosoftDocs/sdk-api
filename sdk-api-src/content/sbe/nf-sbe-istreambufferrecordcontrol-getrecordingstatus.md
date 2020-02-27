@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 313f2ad0-7401-4a36-a229-abfc67737324
 ms.date: 12/05/2018
 ms.keywords: GetRecordingStatus, GetRecordingStatus method [Microsoft TV Technologies], GetRecordingStatus method [Microsoft TV Technologies],IStreamBufferRecordControl interface, IStreamBufferRecordControl interface [Microsoft TV Technologies],GetRecordingStatus method, IStreamBufferRecordControl.GetRecordingStatus, IStreamBufferRecordControl::GetRecordingStatus, IStreamBufferRecordControlGetRecordingStatus, mstv.istreambufferrecordcontrol_getrecordingstatus, sbe/IStreamBufferRecordControl::GetRecordingStatus
-ms.topic: method
 f1_keywords:
 - sbe/IStreamBufferRecordControl.GetRecordingStatus
 dev_langs:

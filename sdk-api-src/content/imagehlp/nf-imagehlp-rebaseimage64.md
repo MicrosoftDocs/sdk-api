@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 3d60358c-8aa6-4b30-a46e-ce0e15964b5a
 ms.date: 12/05/2018
 ms.keywords: ReBaseImage64, ReBaseImage64 function, base.rebaseimage64, imagehlp/ReBaseImage64
-ms.topic: function
 f1_keywords:
 - imagehlp/ReBaseImage64
 dev_langs:
@@ -53,7 +52,7 @@ ms.custom: 19H1
 Changes the load address for the specified image, which reduces the required load time for a DLL.
 
 Alternatively, you can use the 
-Rebase tool. This tool is available in Visual Studio and the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84091">Windows SDK</a>.
+Rebase tool. This tool is available in Visual Studio and the <a href="https://msdn.microsoft.com/windowsserver/bb980924.aspx">Windows SDK</a>.
 
 
 ## -parameters
@@ -142,7 +141,7 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 You cannot rebase DLLs that link with /DYNAMICBASE or that reside in protected directories, such as the System32 folder.
 
-As an alternative to using this function, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=152358">/BASE</a> linker option.
+As an alternative to using this function, see the <a href="https://msdn.microsoft.com/library/f7f5138s.aspx">/BASE</a> linker option.
 
 
 

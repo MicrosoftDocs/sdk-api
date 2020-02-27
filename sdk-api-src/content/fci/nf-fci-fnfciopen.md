@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 72cf50cb-c895-4953-9c4d-f8ddaa294f2a
 ms.date: 12/05/2018
 ms.keywords: FNFCIOPEN, FNFCIOPEN macro [Windows API], fci/FNFCIOPEN, winprog.fnfciopen
-ms.topic: macro
 f1_keywords:
 - fci/FNFCIOPEN
 dev_langs:
@@ -89,7 +88,7 @@ Pointer to an application-defined value.
 
 
 
-The function accepts parameters similar to <a href="http://go.microsoft.com/fwlink/p/?linkid=196548">_open</a>.
+The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/z0kc8e3z(VS.71).aspx">_open</a>.
 
 
 #### Examples

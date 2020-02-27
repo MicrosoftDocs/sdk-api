@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8ee96d96-bd66-4738-bfae-fbbc98ba8621
 ms.date: 12/05/2018
 ms.keywords: GetCreated, GetCreated method [XPS Documents and Packaging], GetCreated method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCreated method, IXpsOMCoreProperties.GetCreated, IXpsOMCoreProperties::GetCreated, xps.ixpsomcoreproperties_getcreated, xpsobjectmodel/IXpsOMCoreProperties::GetCreated
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.GetCreated
 dev_langs:
@@ -124,11 +123,11 @@ The <b>created</b> property contains the date and time the package was created.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

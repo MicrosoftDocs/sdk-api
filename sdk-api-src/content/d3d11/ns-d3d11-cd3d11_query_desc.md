@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: F77E6197-550F-47ED-9619-42C8D2F16AF5
 ms.date: 12/05/2018
 ms.keywords: CD3D11_QUERY_DESC, CD3D11_QUERY_DESC structure [Direct3D 11], d3d11/CD3D11_QUERY_DESC, direct3d11.cd3d11_query_desc
-ms.topic: struct
 f1_keywords:
 - d3d11/CD3D11_QUERY_DESC
 dev_langs:

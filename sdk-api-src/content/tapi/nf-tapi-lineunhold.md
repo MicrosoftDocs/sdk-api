@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: c32d8d3a-f54c-411a-ae86-4aecd6dce456
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineunhold, lineUnhold, lineUnhold function [TAPI 2.2], tapi/lineUnhold, tapi2.lineunhold
-ms.topic: function
 f1_keywords:
 - tapi/lineUnhold
 dev_langs:

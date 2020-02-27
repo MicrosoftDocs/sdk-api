@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 535224ff-0b91-4814-8100-b6a52afee370
 ms.date: 12/05/2018
 ms.keywords: 0, IInkEdit interface [Tablet PC],SelCharOffset property, IInkEdit.SelCharOffset, IInkEdit.put_SelCharOffset, IInkEdit::SelCharOffset, IInkEdit::get_SelCharOffset, IInkEdit::put_SelCharOffset, InkEdit.get_SelCharOffset, InkEdit.put_SelCharOffset, NULL, Negative integer, Positive integer, SelCharOffset property [Tablet PC], SelCharOffset property [Tablet PC],IInkEdit interface, get_SelCharOffset, inked/IInkEdit::SelCharOffset, inked/IInkEdit::get_SelCharOffset, inked/IInkEdit::put_SelCharOffset, put_SelCharOffset, tablet.inkedit_selcharoffset
-ms.topic: method
 f1_keywords:
 - inked/IInkEdit.SelCharOffset
 dev_langs:

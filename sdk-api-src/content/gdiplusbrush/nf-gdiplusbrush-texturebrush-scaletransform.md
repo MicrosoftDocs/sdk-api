@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\scaletransform_32sx_sy_order.htm
 ms.date: 12/05/2018
 ms.keywords: ScaleTransform, ScaleTransform method [GDI+], ScaleTransform method [GDI+],TextureBrush class, TextureBrush class [GDI+],ScaleTransform method, TextureBrush.ScaleTransform, TextureBrush::ScaleTransform, _gdiplus_CLASS_TextureBrush_ScaleTransform_sx_sy_order_, gdiplus._gdiplus_CLASS_TextureBrush_ScaleTransform_sx_sy_order_
-ms.topic: method
 f1_keywords:
 - gdiplusbrush/TextureBrush.ScaleTransform
 dev_langs:

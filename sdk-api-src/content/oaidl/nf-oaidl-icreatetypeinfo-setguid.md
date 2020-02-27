@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 031bc83d-8e0c-49da-aa15-cd44af469592
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetGuid method, ICreateTypeInfo.SetGuid, ICreateTypeInfo::SetGuid, SetGuid, SetGuid method [Automation], SetGuid method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetGuid, automat.icreatetypeinfo_setguid, oaidl/ICreateTypeInfo::SetGuid
-ms.topic: method
 f1_keywords:
 - oaidl/ICreateTypeInfo.SetGuid
 dev_langs:

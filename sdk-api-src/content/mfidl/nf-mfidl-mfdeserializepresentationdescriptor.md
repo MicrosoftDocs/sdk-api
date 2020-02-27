@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 4f567b86-bce2-49fe-9d43-d1dfa57a86cb
 ms.date: 12/05/2018
 ms.keywords: 4f567b86-bce2-49fe-9d43-d1dfa57a86cb, MFDeserializePresentationDescriptor, MFDeserializePresentationDescriptor function [Media Foundation], mf.mfdeserializepresentationdescriptor, mfidl/MFDeserializePresentationDescriptor
-ms.topic: function
 f1_keywords:
 - mfidl/MFDeserializePresentationDescriptor
 dev_langs:

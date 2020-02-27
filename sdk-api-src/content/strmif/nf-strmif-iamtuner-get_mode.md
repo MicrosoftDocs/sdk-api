@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9a5f4cd8-8fde-4777-b9b6-caa7860b005c
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],get_Mode method, IAMTuner.get_Mode, IAMTuner::get_Mode, IAMTunerget_Mode, dshow.iamtuner_get_mode, get_Mode, get_Mode method [DirectShow], get_Mode method [DirectShow],IAMTuner interface, strmif/IAMTuner::get_Mode
-ms.topic: method
 f1_keywords:
 - strmif/IAMTuner.get_Mode
 dev_langs:
@@ -64,7 +63,7 @@ The <code>get_Mode</code> method retrieves the current mode on a multifunction t
 
 ### -param plMode [out]
 
-Pointer to a variable that receives a flag indicating the current mode setting. The possible values are defined in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-amtunermodetype">AMTunerModeType</a> enumeration.
+Pointer to a variable that receives a flag indicating the current mode setting. The possible values are defined in the [AMTunerModeType](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-amtunermodetype) enumeration.
 
 
 ## -returns

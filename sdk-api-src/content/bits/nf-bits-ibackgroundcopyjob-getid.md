@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: bc214b2e-fbf3-446e-abce-56e515dcfadf
 ms.date: 12/05/2018
 ms.keywords: GetId, GetId method [BITS], GetId method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetId method, IBackgroundCopyJob.GetId, IBackgroundCopyJob::GetId, _drz_ibackgroundcopyjob_getid, bits.ibackgroundcopyjob_getid, bits/IBackgroundCopyJob::GetId
-ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyJob.GetId
 dev_langs:

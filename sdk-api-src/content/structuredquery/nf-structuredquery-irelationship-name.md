@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\name.htm
 ms.date: 12/05/2018
 ms.keywords: IRelationship interface [search],Name method, IRelationship.Name, IRelationship::Name, Name, Name method [search], Name method [search],IRelationship interface, _search_IRelationship_Name, search._search_IRelationship_Name, structuredquery/IRelationship::Name
-ms.topic: method
 f1_keywords:
 - structuredquery/IRelationship.Name
 dev_langs:

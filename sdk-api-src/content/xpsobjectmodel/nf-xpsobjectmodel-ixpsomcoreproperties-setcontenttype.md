@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 97ddb1a2-67b2-4891-86b6-bdd38e609229
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetContentType method, IXpsOMCoreProperties.SetContentType, IXpsOMCoreProperties::SetContentType, SetContentType, SetContentType method [XPS Documents and Packaging], SetContentType method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcontenttype, xpsobjectmodel/IXpsOMCoreProperties::SetContentType
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.SetContentType
 dev_langs:
@@ -91,11 +90,11 @@ specific use and intended audience. Examples of <b>contentType</b>  values inclu
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

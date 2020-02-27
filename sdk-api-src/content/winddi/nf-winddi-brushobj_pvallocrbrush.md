@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 10900536-6c48-4a96-92d2-025660ccff7e
 ms.date: 12/05/2018
 ms.keywords: BRUSHOBJ_pvAllocRbrush, BRUSHOBJ_pvAllocRbrush function [Display Devices], display.brushobj_pvallocrbrush, gdifncs_1858340b-edd3-4fbb-b214-6863301a93fa.xml, winddi/BRUSHOBJ_pvAllocRbrush
-ms.topic: function
 f1_keywords:
 - winddi/BRUSHOBJ_pvAllocRbrush
 dev_langs:

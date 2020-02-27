@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 6772b669-b311-4b7d-8873-44fadbecdec7
 ms.date: 12/05/2018
 ms.keywords: StgOpenAsyncDocfileOnIFillLockBytes, StgOpenAsyncDocfileOnIFillLockBytes function [Structured Storage], _stg_stgopenasyncdocfileonifilllockbytes, objbase/StgOpenAsyncDocfileOnIFillLockBytes, stg.stgopenasyncdocfileonifilllockbytes
-ms.topic: function
 f1_keywords:
 - objbase/StgOpenAsyncDocfileOnIFillLockBytes
 dev_langs:

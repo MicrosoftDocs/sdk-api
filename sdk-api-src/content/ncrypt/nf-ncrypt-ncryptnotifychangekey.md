@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 2d2ddb55-ef32-4227-b901-ee11e961d0e6
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_MACHINE_KEY_FLAG, NCRYPT_REGISTER_NOTIFY_FLAG, NCRYPT_UNREGISTER_NOTIFY_FLAG, NCryptNotifyChangeKey, NCryptNotifyChangeKey function [Security], ncrypt/NCryptNotifyChangeKey, security.ncryptnotifychangekey
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptNotifyChangeKey
 dev_langs:
@@ -186,7 +185,7 @@ One or more parameters are not valid.
 
 
 
-A service must not call this function from its <a href="http://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 
 

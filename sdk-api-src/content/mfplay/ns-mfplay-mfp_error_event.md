@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 0ccfdefa-4913-4a02-bb91-14df1c185ddf
 ms.date: 12/05/2018
 ms.keywords: MFP_ERROR_EVENT, MFP_ERROR_EVENT structure [Media Foundation], mf.mfp_error_event, mfplay/MFP_ERROR_EVENT
-ms.topic: struct
 f1_keywords:
 - mfplay/MFP_ERROR_EVENT
 dev_langs:

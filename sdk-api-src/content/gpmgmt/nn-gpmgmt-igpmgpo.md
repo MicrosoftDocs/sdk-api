@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 2857c8b7-019d-4ec2-9a00-574fc8541cae
 ms.date: 12/05/2018
 ms.keywords: GPMGPO, IGPMGPO, IGPMGPO interface [GPMC], IGPMGPO interface [GPMC],described, _win32_igpmgpo, gpmc.igpmgpo, gpmgmt/ IGPMGPO
-ms.topic: interface
 f1_keywords:
 - gpmgmt/IGPMGPO
 dev_langs:

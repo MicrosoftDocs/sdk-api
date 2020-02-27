@@ -3,7 +3,6 @@ UID: NF:processenv.SetStdHandleEx
 title: SetStdHandleEx
 ms.date: 4/26/2019
 ms.keywords: SetStdHandleEx
-ms.topic: language-reference
 f1_keywords:
 - SetStdHandleEx
 dev_langs:

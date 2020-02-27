@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: e15d4293-2955-48cd-b8c9-77669a1e6436
 ms.date: 12/05/2018
 ms.keywords: FNWRITE, FNWRITE macro [Windows API], fdi/FNWRITE, winprog.fnwrite
-ms.topic: macro
 f1_keywords:
 - fdi/FNWRITE
 dev_langs:
@@ -77,7 +76,7 @@ Pointer to the buffer containing the data to be written.
 
 
 
-The function accepts parameters similar to <a href="http://go.microsoft.com/fwlink/p/?linkid=196547">_write</a>.
+The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/1570wh78(VS.80).aspx">_write</a>.
 
 
 #### Examples

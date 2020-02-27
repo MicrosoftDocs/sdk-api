@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 4f7bc268-6fcf-42f2-8457-e5094bee6e68
 ms.date: 12/05/2018
 ms.keywords: WSDAttachLinkedMemory, WSDAttachLinkedMemory function, ncd.wsdattachlinkedmemory_func, wsdutil/WSDAttachLinkedMemory
-ms.topic: function
 f1_keywords:
 - wsdutil/WSDAttachLinkedMemory
 dev_langs:

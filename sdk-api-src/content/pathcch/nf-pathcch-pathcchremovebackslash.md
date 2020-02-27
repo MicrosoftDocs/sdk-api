@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 61afc20e-ee6c-46ad-a058-64c57de41ba4
 ms.date: 12/05/2018
 ms.keywords: PathCchRemoveBackslash, PathCchRemoveBackslash function [Windows Shell], pathcch/PathCchRemoveBackslash, shell.PathCchRemoveBackslash
-ms.topic: function
 f1_keywords:
 - pathcch/PathCchRemoveBackslash
 dev_langs:

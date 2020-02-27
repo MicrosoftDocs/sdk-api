@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: C8624CBF-FC39-4269-9405-8E7B5EE88F8D
 ms.date: 12/05/2018
 ms.keywords: DestroyVirtualSmartCard, DestroyVirtualSmartCard method [Security], DestroyVirtualSmartCard method [Security],ITpmVirtualSmartCardManager interface, ITpmVirtualSmartCardManager interface [Security],DestroyVirtualSmartCard method, ITpmVirtualSmartCardManager.DestroyVirtualSmartCard, ITpmVirtualSmartCardManager::DestroyVirtualSmartCard, security.itpmvirtualsmartcardmanager_destroyvirtualsmartcard, tpmvscmgr/ITpmVirtualSmartCardManager::DestroyVirtualSmartCard
-ms.topic: method
 f1_keywords:
 - tpmvscmgr/ITpmVirtualSmartCardManager.DestroyVirtualSmartCard
 dev_langs:

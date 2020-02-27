@@ -7,7 +7,6 @@ tech.root: Kernel
 ms.assetid: 80bd569a-ed6f-4227-9d14-c011623678a0
 ms.date: 12/05/2018
 ms.keywords: '*PSTRING, ANSI_STRING, ANSI_STRING structure [Kernel-Mode Driver Architecture], CANSI_STRING, OEM_STRING, PANSI_STRING, PANSI_STRING structure pointer [Kernel-Mode Driver Architecture], STRING, kernel.ansi_string, kstruct_a_0b84d0be-6b91-48b6-87cf-2fd99f043bc4.xml, ntdef/ANSI_STRING, ntdef/PANSI_STRING'
-ms.topic: struct
 f1_keywords:
 - ntdef/ANSI_STRING
 dev_langs:

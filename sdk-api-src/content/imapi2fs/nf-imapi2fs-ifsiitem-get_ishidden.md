@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 1aec5bbc-d602-40c1-80e4-cad9dd8a2ab5
 ms.date: 12/05/2018
 ms.keywords: IFsiItem interface [IMAPI],get_IsHidden method, IFsiItem.get_IsHidden, IFsiItem::get_IsHidden, get_IsHidden, get_IsHidden method [IMAPI], get_IsHidden method [IMAPI],IFsiItem interface, imapi.ifsiitem_get_ishidden, imapi2fs/IFsiItem::get_IsHidden
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFsiItem.get_IsHidden
 dev_langs:

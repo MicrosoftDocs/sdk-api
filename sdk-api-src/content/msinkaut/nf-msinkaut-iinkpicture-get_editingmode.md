@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 5767f768-d59c-404e-9098-ab5e0c427c7d
 ms.date: 12/05/2018
 ms.keywords: 5767f768-d59c-404e-9098-ab5e0c427c7d, EditingMode property [Tablet PC], EditingMode property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],EditingMode property, IInkPicture.EditingMode, IInkPicture.get_EditingMode, IInkPicture::EditingMode, IInkPicture::get_EditingMode, IInkPicture::put_EditingMode, InkPicture.get_EditingMode, InkPicture.put_EditingMode, get_EditingMode, msinkaut/IInkPicture::EditingMode, msinkaut/IInkPicture::get_EditingMode, msinkaut/IInkPicture::put_EditingMode, put_EditingMode, tablet.inkpicture_editingmode
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkPicture.EditingMode
 dev_langs:

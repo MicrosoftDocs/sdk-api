@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: a238b050-101d-4b8a-9479-984b889823f4
 ms.date: 12/05/2018
 ms.keywords: IMFVideoMixerControl2, IMFVideoMixerControl2 interface [Media Foundation], IMFVideoMixerControl2 interface [Media Foundation],described, evr/IMFVideoMixerControl2, mf.imfvideomixercontrol2
-ms.topic: interface
 f1_keywords:
 - evr/IMFVideoMixerControl2
 dev_langs:

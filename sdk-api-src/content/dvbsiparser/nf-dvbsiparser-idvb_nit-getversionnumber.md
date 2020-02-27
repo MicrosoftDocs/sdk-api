@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 75f7dc3b-8631-4a33-90f2-ace95e4112a7
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetVersionNumber method, IDVB_NIT.GetVersionNumber, IDVB_NIT::GetVersionNumber, IDVB_NITGetVersionNumber, dvbsiparser/IDVB_NIT::GetVersionNumber, mstv.idvb_nit_getversionnumber
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_NIT.GetVersionNumber
 dev_langs:

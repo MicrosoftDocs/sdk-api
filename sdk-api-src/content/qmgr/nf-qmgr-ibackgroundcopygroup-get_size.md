@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 69190b6a-6920-4f84-9109-12079f00a6ae
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],get_Size method, IBackgroundCopyGroup.get_Size, IBackgroundCopyGroup::get_Size, bits.ibackgroundcopygroup_get_size, get_Size, get_Size method [BITS], get_Size method [BITS],IBackgroundCopyGroup interface, qmgr/IBackgroundCopyGroup::get_Size
-ms.topic: method
 f1_keywords:
 - qmgr/IBackgroundCopyGroup.get_Size
 dev_langs:

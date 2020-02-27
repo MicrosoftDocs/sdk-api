@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\select.htm
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],Select method, ITextRange.Select, ITextRange::Select, Select, Select method [Windows Controls], Select method [Windows Controls],ITextRange interface, _win32_ITextRange_Select, _win32_ITextRange_Select_cpp, controls.ITextRange_Select, controls._win32_ITextRange_Select, tom/ITextRange::Select
-ms.topic: method
 f1_keywords:
 - tom/ITextRange.Select
 dev_langs:

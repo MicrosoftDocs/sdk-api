@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: be2d9b1f-c53f-4a75-89ab-ec07c655cbea
 ms.date: 12/05/2018
 ms.keywords: HasDialog, HasDialog method [DirectShow], HasDialog method [DirectShow],IAMVfwCaptureDialogs interface, IAMVfwCaptureDialogs interface [DirectShow],HasDialog method, IAMVfwCaptureDialogs.HasDialog, IAMVfwCaptureDialogs::HasDialog, IAMVfwCaptureDialogsHasDialog, dshow.iamvfwcapturedialogs_hasdialog, strmif/IAMVfwCaptureDialogs::HasDialog
-ms.topic: method
 f1_keywords:
 - strmif/IAMVfwCaptureDialogs.HasDialog
 dev_langs:

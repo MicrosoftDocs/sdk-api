@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: ed204998-9e9a-4bac-b178-b4137be87ff4
 ms.date: 12/05/2018
 ms.keywords: GetSyncProviderFromInstanceId, GetSyncProviderFromInstanceId method [Windows Sync], GetSyncProviderFromInstanceId method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetSyncProviderFromInstanceId method, ISyncProviderRegistration.GetSyncProviderFromInstanceId, ISyncProviderRegistration::GetSyncProviderFromInstanceId, syncregistration/ISyncProviderRegistration::GetSyncProviderFromInstanceId, winsync.isyncproviderregistration_getsyncproviderfrominstanceid
-ms.topic: method
 f1_keywords:
 - syncregistration/ISyncProviderRegistration.GetSyncProviderFromInstanceId
 dev_langs:

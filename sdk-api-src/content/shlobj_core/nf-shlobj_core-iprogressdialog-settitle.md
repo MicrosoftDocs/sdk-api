@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c5474ab2-bd13-45ba-9df5-977b909b0726
 ms.date: 12/05/2018
 ms.keywords: IProgressDialog interface [Windows Shell],SetTitle method, IProgressDialog.SetTitle, IProgressDialog::SetTitle, SetTitle, SetTitle method [Windows Shell], SetTitle method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_SetTitle, shell.IProgressDialog_SetTitle, shlobj_core/IProgressDialog::SetTitle
-ms.topic: method
 f1_keywords:
 - shlobj_core/IProgressDialog.SetTitle
 dev_langs:

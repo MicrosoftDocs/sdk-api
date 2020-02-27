@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\emftowmfbits.htm
 ms.date: 12/05/2018
 ms.keywords: EmfToWmfBits, EmfToWmfBits method [GDI+], EmfToWmfBits method [GDI+],Metafile class, Metafile class [GDI+],EmfToWmfBits method, Metafile.EmfToWmfBits, Metafile::EmfToWmfBits, _gdiplus_CLASS_Metafile_EmfToWmfBits_, gdiplus._gdiplus_CLASS_Metafile_EmfToWmfBits_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Metafile.EmfToWmfBits
 dev_langs:

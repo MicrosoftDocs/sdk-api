@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 4c893144-a2c5-4dc8-83c1-cae0d3024505
 ms.date: 12/05/2018
 ms.keywords: RtmReleaseRoutes, RtmReleaseRoutes function [RAS], _rtmv2ref_rtmreleaseroutes, rras.rtmreleaseroutes, rtmv2/RtmReleaseRoutes
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmReleaseRoutes
 dev_langs:

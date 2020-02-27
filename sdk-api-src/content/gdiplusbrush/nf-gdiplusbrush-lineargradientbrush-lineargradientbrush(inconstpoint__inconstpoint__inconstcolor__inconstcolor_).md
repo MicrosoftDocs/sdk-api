@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush, LinearGradientBrush constructors [GDI+], LinearGradientBrush.LinearGradientBrush, LinearGradientBrush.LinearGradientBrush(IN const Point &,IN const Point &,IN const Color &,IN const Color &), LinearGradientBrush::LinearGradientBrush, LinearGradientBrush::LinearGradientBrush(IN const Point &,IN const Point &,IN const Color &,IN const Color &), _gdiplus_CLASS_LinearGradientBrush_Constructors, gdiplus._gdiplus_CLASS_LinearGradientBrush_Constructors, gdiplusbrush/LinearGradientBrush
-ms.topic: method
 f1_keywords:
 - gdiplusbrush/LinearGradientBrush.LinearGradientBrush
 dev_langs:
@@ -44,65 +43,46 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# LinearGradientBrush::LinearGradientBrush(IN const Point &,IN const Point &,IN const Color &,IN const Color &)
-
-
 ## -description
 
-
-<span>This topic lists the constructors of the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a> class. For a complete class listing, see <b>LinearGradientBrush Class</b>. 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Constructor</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstpoint__inconstpoint__inconstcolor__inconstcolor_)">LinearGradientBrush(Point&,Point&,Color&,Color&)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstpoint__inconstpoint__inconstcolor__inconstcolor_)">LinearGradientBrush::LinearGradientBrush</a> object from a set of boundary points and boundary colors.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstpointf__inconstpointf__inconstcolor__inconstcolor_)">LinearGradientBrush(PointF&,PointF&,Color&,Color&)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstpointf__inconstpointf__inconstcolor__inconstcolor_)">LinearGradientBrush::LinearGradientBrush</a> object from a set of boundary points and boundary colors.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstrect__inconstcolor__inconstcolor__inreal_inbool)">LinearGradientBrush(Rect&,Color&,Color&,REAL,BOOL)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstrect__inconstcolor__inconstcolor__inreal_inbool)">LinearGradientBrush::LinearGradientBrush</a> object from a rectangle and angle of direction.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstrect__inconstcolor__inconstcolor__inlineargradientmode)">LinearGradientBrush(Rect&,Color&,Color&,LinearGradientMode)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstrect__inconstcolor__inconstcolor__inlineargradientmode)">LinearGradientBrush::LinearGradientBrush</a> object based on a rectangle and mode of direction.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstrectf__inconstcolor__inconstcolor__inlineargradientmode)">LinearGradientBrush(RectF&,Color&,Color&,LinearGradientMode)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstrectf__inconstcolor__inconstcolor__inlineargradientmode)">LinearGradientBrush::LinearGradientBrush</a> object based on a rectangle and mode of direction.
-
-</td>
-</tr>
-</table>
+Creates a <b>LinearGradientBrush::LinearGradientBrush</b> object from a set of boundary points and boundary colors.
 
 ## -parameters
 
+### -param point1 [in, ref]
+
+Type: <b>const <a href="/windows/win32/api/gdiplustypes/nl-gdiplustypes-point">Point</a></b>
+
+Reference to a **Point** object that specifies the starting point of the gradient. The starting boundary line passes through the starting point. 
+
+### -param point2 [in, ref]
+
+Type: <b>const <a href="/windows/win32/api/gdiplustypes/nl-gdiplustypes-point">Point</a></b>
+
+Reference to a **Point** object that specifies the ending point of the gradient. The ending boundary line passes through the ending point. 
+
+### -param color1 [in, ref]
+
+Type: <b>const <a href="/windows/win32/api/gdipluscolor/nl-gdipluscolor-color">Color</a></b>
+
+Reference to a <a href="/windows/win32/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object that specifies the color at the starting boundary line of this linear gradient brush. 
+
+### -param color2 [in, ref]
+
+Type: <b>const <a href="/windows/win32/api/gdipluscolor/nl-gdipluscolor-color">Color</a></b>
+
+Reference to a <a href="/windows/win32/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object that specifies the color at the ending boundary line of this linear gradient brush. 
+
+## -remarks
+
+The "directional line," an imaginary straight line, is defined by the starting point, <i>point1</i>, and the ending point, <i>point2</i>. The starting boundary of the gradient is a straight line that is perpendicular to the directional line and that passes through the starting point. The ending boundary of the gradient is a straight line that is parallel to the starting boundary line and that passes through the ending point. The gradient color is constant along lines that are parallel to the boundary lines. The gradient gradually changes from the starting color to the ending color along the directional line.
+
+## -see-also
+
+<a href="/windows/win32/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
+
+
+<a href="/windows/win32/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
+
+
+<a href="/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a>

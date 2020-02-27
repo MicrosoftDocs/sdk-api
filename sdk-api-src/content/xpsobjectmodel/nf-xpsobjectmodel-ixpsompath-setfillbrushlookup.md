@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 5a02af98-8bfc-4fb2-92b3-15b16b4b69c1
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetFillBrushLookup method, IXpsOMPath.SetFillBrushLookup, IXpsOMPath::SetFillBrushLookup, SetFillBrushLookup, SetFillBrushLookup method [XPS Documents and Packaging], SetFillBrushLookup method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setfillbrushlookup, xpsobjectmodel/IXpsOMPath::SetFillBrushLookup
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.SetFillBrushLookup
 dev_langs:
@@ -92,7 +91,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-According to the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
+According to the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
 
 </td>
 </tr>
@@ -211,7 +210,7 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

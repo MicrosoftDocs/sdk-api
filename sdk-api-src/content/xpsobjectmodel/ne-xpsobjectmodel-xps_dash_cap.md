@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8c4d7314-71ad-4700-bc3e-f611e72c05df
 ms.date: 12/05/2018
 ms.keywords: XPS_DASH_CAP, XPS_DASH_CAP enumeration [XPS Documents and Packaging], XPS_DASH_CAP_FLAT, XPS_DASH_CAP_ROUND, XPS_DASH_CAP_SQUARE, XPS_DASH_CAP_TRIANGLE, xps.xps_dash_cap, xpsobjectmodel/XPS_DASH_CAP, xpsobjectmodel/XPS_DASH_CAP_FLAT, xpsobjectmodel/XPS_DASH_CAP_ROUND, xpsobjectmodel/XPS_DASH_CAP_SQUARE, xpsobjectmodel/XPS_DASH_CAP_TRIANGLE
-ms.topic: enum
 f1_keywords:
 - xpsobjectmodel/XPS_DASH_CAP
 dev_langs:
@@ -116,7 +115,7 @@ In the following illustrations, each shaded area represents the dash cap that co
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

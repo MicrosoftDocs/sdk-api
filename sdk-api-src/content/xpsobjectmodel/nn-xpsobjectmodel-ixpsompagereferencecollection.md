@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 4b51bc29-c653-41fa-bbd3-9ff529f84e4e
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReferenceCollection, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging], IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],described, xps.ixpsompagereferencecollection, xpsobjectmodel/IXpsOMPageReferenceCollection
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMPageReferenceCollection
 dev_langs:
@@ -157,7 +156,7 @@ For more information about the collection methods, see <a href="https://docs.mic
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

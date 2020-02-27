@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: AFC48080-3B4A-4F6B-9122-25C2A025EA95
 ms.date: 12/05/2018
 ms.keywords: CfOpenFileWithOplock, CfOpenFileWithOplock function, cfapi/CfOpenFileWithOplock, cloudApi.cfopenfilewithoplock
-ms.topic: function
 f1_keywords:
 - cfapi/CfOpenFileWithOplock
 dev_langs:

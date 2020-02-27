@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: bdd84d75-5a7a-448a-a52c-0f5997ab07b9
 ms.date: 12/05/2018
 ms.keywords: GetFilePathLengthFromKey, GetFilePathLengthFromKey method [Direct Write], GetFilePathLengthFromKey method [Direct Write],IDWriteLocalFontFileLoader interface, IDWriteLocalFontFileLoader interface [Direct Write],GetFilePathLengthFromKey method, IDWriteLocalFontFileLoader.GetFilePathLengthFromKey, IDWriteLocalFontFileLoader::GetFilePathLengthFromKey, directwrite.idwritelocalfontfileloader_getfilepathlengthfromkey, dwrite/IDWriteLocalFontFileLoader::GetFilePathLengthFromKey
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteLocalFontFileLoader.GetFilePathLengthFromKey
 dev_langs:

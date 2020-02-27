@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUNIBBLE4.operator uint16_t
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMUNIBBLE4.operator uint16_t, DirectX::PackedVector::XMUNIBBLE4::operator uint16_t, XMUNIBBLE4 structure [DirectX Math Support APIs],operator uint16_t method, XMUNIBBLE4.operator uint16_t, XMUNIBBLE4::operator uint16_t, dxmath.xmunibble4_operator_uint16_t, operator uint16_t, operator uint16_t method [DirectX Math Support APIs], operator uint16_t method [DirectX Math Support APIs],XMUNIBBLE4 structure
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMUNIBBLE4.operator uint16_t
 dev_langs:

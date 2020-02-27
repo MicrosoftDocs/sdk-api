@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: bd1ee91a-b58b-4f08-9181-42fbe9d763f9
 ms.date: 12/05/2018
 ms.keywords: SetupInstallFromInfSection, SetupInstallFromInfSection function [Setup API], SetupInstallFromInfSectionA, SetupInstallFromInfSectionW, _setupapi_setupinstallfrominfsection, setup.setupinstallfrominfsection, setupapi/SetupInstallFromInfSection, setupapi/SetupInstallFromInfSectionA, setupapi/SetupInstallFromInfSectionW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupInstallFromInfSection
 dev_langs:

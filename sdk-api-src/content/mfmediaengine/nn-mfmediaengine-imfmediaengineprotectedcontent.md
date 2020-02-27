@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 85B37711-DB46-4BC7-A051-79E9507791FA
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineProtectedContent, IMFMediaEngineProtectedContent interface [Media Foundation], IMFMediaEngineProtectedContent interface [Media Foundation],described, mf.imfmediaengineprotectedcontent, mfmediaengine/IMFMediaEngineProtectedContent
-ms.topic: interface
 f1_keywords:
 - mfmediaengine/IMFMediaEngineProtectedContent
 dev_langs:
@@ -129,7 +128,7 @@ Copies a protected video frame to a DXGI surface.
 
 
 
-To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the Media Engine.
+To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the Media Engine.
 
 
 

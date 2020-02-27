@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 8123DE14-31C1-4304-A295-C7D0C3633C36
 ms.date: 12/05/2018
 ms.keywords: GetMuteDebugOutput, GetMuteDebugOutput method [DXGI], GetMuteDebugOutput method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetMuteDebugOutput method, IDXGIInfoQueue.GetMuteDebugOutput, IDXGIInfoQueue::GetMuteDebugOutput, direct3ddxgi.idxgiinfoqueue_getmutedebugoutput, dxgidebug/IDXGIInfoQueue::GetMuteDebugOutput
-ms.topic: method
 f1_keywords:
 - dxgidebug/IDXGIInfoQueue.GetMuteDebugOutput
 dev_langs:

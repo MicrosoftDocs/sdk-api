@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 981648e4-0cb1-4d7a-bd3b-50e1b9a7282c
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice, IWMPSyncDevice interface [Windows Media Player], IWMPSyncDevice interface [Windows Media Player],described, IWMPSyncDeviceInterface, wmp.iwmpsyncdevice, wmp/IWMPSyncDevice
-ms.topic: interface
 f1_keywords:
 - wmp/IWMPSyncDevice
 dev_langs:

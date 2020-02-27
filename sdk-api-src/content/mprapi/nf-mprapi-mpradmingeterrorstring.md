@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: d086f12e-7352-4a0d-bfbe-ddab3b44d757
 ms.date: 12/05/2018
 ms.keywords: MprAdminGetErrorString, MprAdminGetErrorString function [RAS], _mpr_mpradmingeterrorstring, mprapi/MprAdminGetErrorString, rras.mpradmingeterrorstring
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminGetErrorString
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: c4b3f81c-0632-407c-834e-8eec6fefde68
 ms.date: 12/05/2018
 ms.keywords: '*LPDOMAINTREE, *PDOMAIN_TREE, DOMAINTREE, DOMAINTREE structure [Active Directory], DOMAIN_TREE, DOMAIN_TREE structure [Active Directory], LPDOMAINTREE, LPDOMAINTREE structure pointer [Active Directory], PDOMAIN_TREE, PDOMAIN_TREE structure pointer [Active Directory], _glines_domaintree, ad.domaintree, dsclient/DOMAINTREE, dsclient/DOMAIN_TREE, dsclient/LPDOMAINTREE, dsclient/PDOMAIN_TREE'
-ms.topic: struct
 f1_keywords:
 - dsclient/DOMAINTREE
 dev_langs:

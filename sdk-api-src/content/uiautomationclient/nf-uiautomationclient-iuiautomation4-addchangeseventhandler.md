@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: E479ACCA-9372-463F-A992-8030E33A2341
 ms.date: 12/05/2018
 ms.keywords: AddChangesEventHandler, AddChangesEventHandler method [Windows Accessibility], AddChangesEventHandler method [Windows Accessibility],IUIAutomation4 interface, IUIAutomation4 interface [Windows Accessibility],AddChangesEventHandler method, IUIAutomation4.AddChangesEventHandler, IUIAutomation4::AddChangesEventHandler, uiautomationclient/IUIAutomation4::AddChangesEventHandler, winauto.uiauto_IUIAutomation4_AddChangesEventHandler
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation4.AddChangesEventHandler
 dev_langs:

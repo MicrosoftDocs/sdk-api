@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 7a610d10-8e43-49b7-b85b-bb0ec122fda8
 ms.date: 12/05/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],LastError property, IFsrmReportJob.LastError, IFsrmReportJob.get_LastError, IFsrmReportJob::LastError, IFsrmReportJob::get_LastError, LastError property [File Server Resource Manager], LastError property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_lasterror, fsrm.ifsrmreportjob_lasterror, fsrmreports/IFsrmReportJob::LastError, fsrmreports/IFsrmReportJob::get_LastError, get_LastError
-ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmReportJob.LastError
 dev_langs:

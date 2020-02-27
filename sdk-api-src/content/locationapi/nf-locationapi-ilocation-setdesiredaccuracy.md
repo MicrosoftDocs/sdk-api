@@ -7,7 +7,6 @@ tech.root: locationapi
 ms.assetid: 85623570-3b48-42ea-babd-fe4282629d92
 ms.date: 12/05/2018
 ms.keywords: ILocation interface [WinLocation],SetDesiredAccuracy method, ILocation.SetDesiredAccuracy, ILocation::SetDesiredAccuracy, SetDesiredAccuracy, SetDesiredAccuracy method [WinLocation], SetDesiredAccuracy method [WinLocation],ILocation interface, locationapi/ILocation::SetDesiredAccuracy, winlocation.ilocation_setdesiredaccuracy
-ms.topic: method
 f1_keywords:
 - locationapi/ILocation.SetDesiredAccuracy
 dev_langs:

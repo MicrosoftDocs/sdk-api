@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 22017258-a71c-4167-b134-0cfd57f1ea08
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_QWORD_VALUE, PRESUTIL_GET_QWORD_VALUE function [Failover Cluster], ResUtilGetQwordValue, ResUtilGetQwordValue function [Failover Cluster], mscs.resutilgetqwordvalue, resapi/PRESUTIL_GET_QWORD_VALUE, resapi/ResUtilGetQwordValue
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilGetQwordValue
 dev_langs:

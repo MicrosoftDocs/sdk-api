@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: b2845799-acc9-4410-9059-45f7a8313e9f
 ms.date: 12/05/2018
 ms.keywords: '*PMINIDUMP_FUNCTION_TABLE_STREAM, MINIDUMP_FUNCTION_TABLE_STREAM, MINIDUMP_FUNCTION_TABLE_STREAM structure, PMINIDUMP_FUNCTION_TABLE_STREAM, PMINIDUMP_FUNCTION_TABLE_STREAM structure pointer, _MINIDUMP_FUNCTION_TABLE_STREAM, _win32_minidump_function_table_stream_str, base.minidump_function_table_stream_str, minidumpapiset/MINIDUMP_FUNCTION_TABLE_STREAM, minidumpapiset/PMINIDUMP_FUNCTION_TABLE_STREAM'
-ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_FUNCTION_TABLE_STREAM
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: 3e80137d-a3e5-4f9e-a114-ac8d5dd69187
 ms.date: 12/05/2018
 ms.keywords: SLInstallProofOfPurchaseEx, SLInstallProofOfPurchaseEx function [Security], security.slinstallproofofpurchaseex, slpublic/SLInstallProofOfPurchaseEx
-ms.topic: function
 f1_keywords:
 - slpublic/SLInstallProofOfPurchaseEx
 dev_langs:

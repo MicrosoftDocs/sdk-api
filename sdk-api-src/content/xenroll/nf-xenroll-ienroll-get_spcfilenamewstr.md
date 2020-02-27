@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 75e9327e-72d6-4247-a339-1ca494bc8408
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],SPCFileNameWStr property, IEnroll.SPCFileNameWStr, IEnroll.get_SPCFileNameWStr, IEnroll::SPCFileNameWStr, IEnroll::get_SPCFileNameWStr, IEnroll::put_SPCFileNameWStr, SPCFileNameWStr property [Security], SPCFileNameWStr property [Security],IEnroll interface, get_SPCFileNameWStr, security.ienroll4_spcfilenamewstr, xenroll/IEnroll::SPCFileNameWStr, xenroll/IEnroll::get_SPCFileNameWStr, xenroll/IEnroll::put_SPCFileNameWStr
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll.SPCFileNameWStr
 dev_langs:

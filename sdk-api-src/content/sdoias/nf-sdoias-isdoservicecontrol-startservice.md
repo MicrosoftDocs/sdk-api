@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: f024a3b8-c527-4a43-99df-c5b146dae1b8
 ms.date: 12/05/2018
 ms.keywords: ISdoServiceControl interface [Network Policy Server],StartService method, ISdoServiceControl.StartService, ISdoServiceControl::StartService, StartService, StartService method [Network Policy Server], StartService method [Network Policy Server],ISdoServiceControl interface, _sdo_isdoservicecontrol_startservice, nps.SDO_isdoservicecontrol_startservice, sdo.isdoservicecontrol_startservice, sdoias/ISdoServiceControl::StartService
-ms.topic: method
 f1_keywords:
 - sdoias/ISdoServiceControl.StartService
 dev_langs:

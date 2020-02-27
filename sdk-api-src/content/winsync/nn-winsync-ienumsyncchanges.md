@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: c3f27c6d-4fc1-420c-afc1-0bd2bdbd6ab2
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncChanges, IEnumSyncChanges interface [Windows Sync], IEnumSyncChanges interface [Windows Sync],described, winsync.ienumsyncchanges, winsync/IEnumSyncChanges
-ms.topic: interface
 f1_keywords:
 - winsync/IEnumSyncChanges
 dev_langs:

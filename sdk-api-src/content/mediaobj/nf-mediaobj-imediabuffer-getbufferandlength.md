@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 255ef101-f004-41c8-afb8-437d21decee5
 ms.date: 12/05/2018
 ms.keywords: GetBufferAndLength, GetBufferAndLength method [DirectShow], GetBufferAndLength method [DirectShow],IMediaBuffer interface, IMediaBuffer interface [DirectShow],GetBufferAndLength method, IMediaBuffer.GetBufferAndLength, IMediaBuffer::GetBufferAndLength, IMediaBufferGetBufferAndLength, dshow.imediabuffer_getbufferandlength, mediaobj/IMediaBuffer::GetBufferAndLength
-ms.topic: method
 f1_keywords:
 - mediaobj/IMediaBuffer.GetBufferAndLength
 dev_langs:

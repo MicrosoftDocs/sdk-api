@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 80b5e1d5-72e2-4523-86dd-88aff71a54db
 ms.date: 12/05/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],put__MediaSubType method, IComponentType.put__MediaSubType, IComponentType::put__MediaSubType, IComponentTypeput__MediaSubType, mstv.icomponenttype_put__mediasubtype, put__MediaSubType, put__MediaSubType method [Microsoft TV Technologies], put__MediaSubType method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put__MediaSubType
-ms.topic: method
 f1_keywords:
 - tuner/IComponentType.put__MediaSubType
 dev_langs:
@@ -89,7 +88,7 @@ This method is available through C++ only. Note the two underscores in the metho
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: ed6448d6-17b3-448b-a376-bd882e229ae1
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION, WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION, wsw.ws_http_ssl_kerberos_apreq_policy_description
-ms.topic: struct
 f1_keywords:
 - webservices/WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION
 dev_langs:

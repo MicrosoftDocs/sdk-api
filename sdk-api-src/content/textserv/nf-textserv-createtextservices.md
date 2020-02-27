@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolfunctions\createtextservices.htm
 ms.date: 12/05/2018
 ms.keywords: CreateTextServices, CreateTextServices function [Windows Controls], _win32_CreateTextServices, _win32_CreateTextServices_cpp, controls.CreateTextServices, controls._win32_CreateTextServices, textserv/CreateTextServices
-ms.topic: function
 f1_keywords:
 - textserv/CreateTextServices
 dev_langs:
@@ -77,7 +76,7 @@ Pointer to your implementation of the <a href="https://docs.microsoft.com/window
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
 
-Pointer to a variable that receives a pointer to the private <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the text services object. You can call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on this pointer to retrieve <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a> or <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a> interface pointers. 
+Pointer to a variable that receives a pointer to the private <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the text services object. You can call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on this pointer to retrieve <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a> or <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a> interface pointers. 
 
 
 ## -returns
@@ -138,7 +137,7 @@ The text services object could not be initialized.
 
 
 
-A text services object can be created as part of a standard COM-aggregated object. If it is, then callers should follow standard OLE32 rules for dealing with aggregated objects and caching interface pointers obtained through <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> from the private <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>.
+A text services object can be created as part of a standard COM-aggregated object. If it is, then callers should follow standard OLE32 rules for dealing with aggregated objects and caching interface pointers obtained through <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> from the private <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>.
 
 
 

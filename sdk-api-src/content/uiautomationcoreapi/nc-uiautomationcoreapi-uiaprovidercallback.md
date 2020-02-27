@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 45a32e14-9b8b-452e-a2eb-0f6773980f2f
 ms.date: 12/05/2018
 ms.keywords: UiaProviderCallback, UiaProviderCallback callback, UiaProviderCallback callback function [Windows Accessibility], uiauto.uiauto_UiaProviderCallbackAutoMeth, uiauto_UiaProviderCallbackAutoMeth, uiautomationcoreapi/UiaProviderCallback, winauto.uiauto_UiaProviderCallbackAutoMeth
-ms.topic: callback
 f1_keywords:
 - uiautomationcoreapi/UiaProviderCallback
 dev_langs:
@@ -77,9 +76,9 @@ A value from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautom
 
 
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a></b>
 
-A <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> containing the requested provider.
+A <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> containing the requested provider.
 
 
 

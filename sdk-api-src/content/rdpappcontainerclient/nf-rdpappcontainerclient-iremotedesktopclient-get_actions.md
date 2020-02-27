@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 54ff5568-046e-42de-9b7c-b8c8c9be815c
 ms.date: 12/05/2018
 ms.keywords: Actions property [Remote Desktop Services], Actions property [Remote Desktop Services],IRemoteDesktopClient interface, IRemoteDesktopClient interface [Remote Desktop Services],Actions property, IRemoteDesktopClient.Actions, IRemoteDesktopClient.get_Actions, IRemoteDesktopClient::Actions, IRemoteDesktopClient::get_Actions, get_Actions, rdpappcontainerclient/IRemoteDesktopClient::Actions, rdpappcontainerclient/IRemoteDesktopClient::get_Actions, termserv.iremotedesktopclient_actions
-ms.topic: method
 f1_keywords:
 - rdpappcontainerclient/IRemoteDesktopClient.Actions
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 49f48cb6-e1d0-4dd4-bfb4-c5917144c3cf
 ms.date: 12/05/2018
 ms.keywords: AM_WMT_EVENT_DATA, AM_WMT_EVENT_DATA structure [windows Media Format], evcode/AM_WMT_EVENT_DATA, wmformat.am_wmt_event_data
-ms.topic: struct
 f1_keywords:
 - evcode/AM_WMT_EVENT_DATA
 dev_langs:

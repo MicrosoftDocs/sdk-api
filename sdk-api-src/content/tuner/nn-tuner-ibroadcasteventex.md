@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: c16ad538-afc6-4530-a2fd-18965b63983b
 ms.date: 12/05/2018
 ms.keywords: IBroadcastEventEx, IBroadcastEventEx interface [Microsoft TV Technologies], IBroadcastEventEx interface [Microsoft TV Technologies],described, IBroadcastEventExInterface, mstv.ibroadcasteventex, tuner/IBroadcastEventEx
-ms.topic: interface
 f1_keywords:
 - tuner/IBroadcastEventEx
 dev_langs:

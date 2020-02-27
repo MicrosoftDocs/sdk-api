@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: f4efa947-d357-432c-9585-b00b19551ad6
 ms.date: 12/05/2018
 ms.keywords: IOleAdviseHolder interface [COM],SendOnClose method, IOleAdviseHolder.SendOnClose, IOleAdviseHolder::SendOnClose, SendOnClose, SendOnClose method [COM], SendOnClose method [COM],IOleAdviseHolder interface, _ole_ioleadviseholder_sendonclose, com.ioleadviseholder_sendonclose, oleidl/IOleAdviseHolder::SendOnClose
-ms.topic: method
 f1_keywords:
 - oleidl/IOleAdviseHolder.SendOnClose
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setwindowtheme.htm
 ms.date: 12/05/2018
 ms.keywords: SetWindowTheme, SetWindowTheme function [Windows Controls], controls.SetWindowTheme, controls.inet_SetWindowTheme, inet_SetWindowTheme, inet_SetWindowTheme_cpp, uxtheme/SetWindowTheme
-ms.topic: function
 f1_keywords:
 - uxtheme/SetWindowTheme
 dev_langs:

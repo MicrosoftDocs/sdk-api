@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: A2523D52-6641-4876-A263-E0D02A815522
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Core Audio], GetCount method [Core Audio],IAudioFormatEnumerator interface, IAudioFormatEnumerator interface [Core Audio],GetCount method, IAudioFormatEnumerator.GetCount, IAudioFormatEnumerator::GetCount, coreaudio.iaudioformatenumerator_getcount, spatialaudioclient/IAudioFormatEnumerator::GetCount
-ms.topic: method
 f1_keywords:
 - spatialaudioclient/IAudioFormatEnumerator.GetCount
 dev_langs:

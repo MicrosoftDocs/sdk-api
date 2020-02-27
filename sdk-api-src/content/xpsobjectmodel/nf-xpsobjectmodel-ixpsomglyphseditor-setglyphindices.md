@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: a95aaf48-9a55-4a62-b8e1-7b8d077f1b2e
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetGlyphIndices method, IXpsOMGlyphsEditor.SetGlyphIndices, IXpsOMGlyphsEditor::SetGlyphIndices, SetGlyphIndices, SetGlyphIndices method [XPS Documents and Packaging], SetGlyphIndices method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setglyphindices, xpsobjectmodel/IXpsOMGlyphsEditor::SetGlyphIndices
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphsEditor.SetGlyphIndices
 dev_langs:
@@ -158,7 +157,7 @@ The <b>advanceWidth</b> field of one or more <a href="https://docs.microsoft.com
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: ecffbdf0-4b1c-46de-bc4c-c44812dae27a
 ms.date: 12/05/2018
 ms.keywords: IInkStrokes interface [Tablet PC],Item method, IInkStrokes.Item, IInkStrokes::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkStrokes interface, ecffbdf0-4b1c-46de-bc4c-c44812dae27a, msinkaut/IInkStrokes::Item, tablet.inkstrokes_item
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkStrokes.Item
 dev_langs:

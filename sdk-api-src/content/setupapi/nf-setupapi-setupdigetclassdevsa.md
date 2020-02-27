@@ -4,7 +4,6 @@ title: SetupDiGetClassDevsA
 description: The SetupDiGetClassDevs function returns a handle to a device information set that contains requested device information elements for a local computer.
 ms.date: 4/26/2019
 ms.keywords: SetupDiGetClassDevsA
-ms.topic: language-reference
 targetos: Windows
 f1_keywords:
 - setupapi/SetupDiGetClassDevs
@@ -115,7 +114,7 @@ Return only devices that are a part of the current hardware profile.
 ## -returns
 
 
-If the operation succeeds, <b>SetupDiGetClassDevs</b> returns a handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains all installed devices that matched the supplied parameters. If the operation fails, the function returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+If the operation succeeds, <b>SetupDiGetClassDevs</b> returns a handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains all installed devices that matched the supplied parameters. If the operation fails, the function returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 ## -remarks
 

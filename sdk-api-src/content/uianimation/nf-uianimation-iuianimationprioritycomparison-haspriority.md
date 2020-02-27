@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 82a90bd1-7bcf-4849-bad1-bae425169a2f
 ms.date: 12/05/2018
 ms.keywords: HasPriority, HasPriority method [Windows Animation], HasPriority method [Windows Animation],IUIAnimationPriorityComparison interface, IUIAnimationPriorityComparison interface [Windows Animation],HasPriority method, IUIAnimationPriorityComparison.HasPriority, IUIAnimationPriorityComparison::HasPriority, uianimation.iuianimationprioritycomparison_haspriority, uianimation/IUIAnimationPriorityComparison::HasPriority
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationPriorityComparison.HasPriority
 dev_langs:

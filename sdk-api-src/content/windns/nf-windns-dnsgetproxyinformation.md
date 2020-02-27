@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: fdc8eb09-e071-4f03-974a-2b11a657ab18
 ms.date: 12/05/2018
 ms.keywords: DnsGetProxyInformation, DnsGetProxyInformation function [DNS], dns.dnsgetproxyinformation, windns/DnsGetProxyInformation
-ms.topic: function
 f1_keywords:
 - windns/DnsGetProxyInformation
 dev_langs:

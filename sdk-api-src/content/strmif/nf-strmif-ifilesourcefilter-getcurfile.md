@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 67373df9-06a3-4678-b661-29580df4f359
 ms.date: 12/05/2018
 ms.keywords: GetCurFile, GetCurFile method [DirectShow], GetCurFile method [DirectShow],IFileSourceFilter interface, IFileSourceFilter interface [DirectShow],GetCurFile method, IFileSourceFilter.GetCurFile, IFileSourceFilter::GetCurFile, IFileSourceFilterGetCurfile, dshow.ifilesourcefilter_getcurfile, strmif/IFileSourceFilter::GetCurFile
-ms.topic: method
 f1_keywords:
 - strmif/IFileSourceFilter.GetCurFile
 dev_langs:
@@ -69,7 +68,7 @@ Address of a pointer that receives the name of the file, as an <b>OLESTR</b> typ
 
 ### -param pmt [out]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that receives the media type. This parameter can by <b>NULL</b>, in which case the method does not return the media type.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that receives the media type. This parameter can by <b>NULL</b>, in which case the method does not return the media type.
 
 
 ## -returns

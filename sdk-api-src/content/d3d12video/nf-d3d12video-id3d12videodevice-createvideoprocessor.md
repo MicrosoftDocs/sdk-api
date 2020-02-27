@@ -5,7 +5,6 @@ description: Creates a video processor instance.
 tech.root: mf
 ms.assetid: f19f0bfe-4b60-4f96-af85-fe7fec824875
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoDevice::CreateVideoProcessor
 dev_langs:
@@ -71,7 +70,7 @@ The globally unique identifier (GUID) for the video processor interface.
 
 ### -param ppVideoProcessor
 
-A pointer to a memory block that receives a pointer to the [ID3D12VideoProcessor](nn-d3d12video-id3d12videoprocessor) interface
+A pointer to a memory block that receives a pointer to the [ID3D12VideoProcessor](nn-d3d12video-id3d12videoprocessor.md) interface
 
 ## -returns
 This method returns HRESULT.

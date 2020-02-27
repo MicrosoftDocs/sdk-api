@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1feed230-5a50-4ff5-a8a9-e0ce15ba8f1c
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrRegister, ISyncMgrRegister interface [Windows Shell], ISyncMgrRegister interface [Windows Shell],described, mobsync/ISyncMgrRegister, shell.syncmgr_isyncmgrregister, syncmgr.isyncmgrregister
-ms.topic: interface
 f1_keywords:
 - mobsync/ISyncMgrRegister
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9beb31e3-b3ff-4c7a-922f-9f1e9725ddde
 ms.date: 12/05/2018
 ms.keywords: GetCurrentSubpictureAttributes, GetCurrentSubpictureAttributes method [DirectShow], GetCurrentSubpictureAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentSubpictureAttributes method, IDvdInfo.GetCurrentSubpictureAttributes, IDvdInfo::GetCurrentSubpictureAttributes, IDvdInfoGetCurrentSubpictureAttributes, dshow.idvdinfo_getcurrentsubpictureattributes, strmif/IDvdInfo::GetCurrentSubpictureAttributes
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo.GetCurrentSubpictureAttributes
 dev_langs:
@@ -122,7 +121,7 @@ Requested action cannot occur at this point in the movie due to the authoring of
 
 
 
-This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, or DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, or DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 For information about DVD_SubpictureATR, see the DVD-Video specification.
 

@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 4ddd02ff-9e7f-4962-8954-0032f23959cd
 ms.date: 12/05/2018
 ms.keywords: AddOverlayDirtyRect, AddOverlayDirtyRect method [DirectDraw], AddOverlayDirtyRect method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],AddOverlayDirtyRect method, IDirectDrawSurface7.AddOverlayDirtyRect, IDirectDrawSurface7::AddOverlayDirtyRect, ddraw/IDirectDrawSurface7::AddOverlayDirtyRect, directdraw.idirectdrawsurface7_addoverlaydirtyrect
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawSurface7.AddOverlayDirtyRect
 dev_langs:

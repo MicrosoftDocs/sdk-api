@@ -7,7 +7,6 @@ tech.root: iSCSIDisc
 ms.assetid: 4fa773ac-0d3e-4860-8603-cb36e9278e93
 ms.date: 12/05/2018
 ms.keywords: ReportISNSServerListA, ReportIsnsServerList, ReportIsnsServerList function [iSCSI Discovery Library API], ReportIsnsServerListA, ReportIsnsServerListW, iscsidisc.reportisnsserverlist, iscsidsc/ReportIsnsServerList, iscsidsc/ReportIsnsServerListA, iscsidsc/ReportIsnsServerListW
-ms.topic: function
 f1_keywords:
 - iscsidsc/ReportIsnsServerList
 dev_langs:

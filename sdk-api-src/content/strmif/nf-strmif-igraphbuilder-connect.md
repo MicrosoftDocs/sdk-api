@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8ddcbb73-8220-4d70-9ab3-58d99fa8a958
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [DirectShow], Connect method [DirectShow],IGraphBuilder interface, IGraphBuilder interface [DirectShow],Connect method, IGraphBuilder.Connect, IGraphBuilder::Connect, IGraphBuilderConnect, dshow.igraphbuilder_connect, strmif/IGraphBuilder::Connect
-ms.topic: method
 f1_keywords:
 - strmif/IGraphBuilder.Connect
 dev_langs:
@@ -161,7 +160,7 @@ At least one of the filters is not in the filter graph.
 
 This method connects two pins directly or indirectly, adding intermediate filters if necessary. The method starts by attempting a direct connection. If that fails, it tries to use any filters that are already in the filter graph and have unconnected input pins. (It enumerates these in an arbitrary order.) If that fails, it searches for filters in the registry, and tries them in order of merit. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>.
 
-During the connection process, the Filter Graph Manager ignores pins on intermediate filters if the pin name begins with a tilde (~). For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-pin_info">PIN_INFO</a>.
+During the connection process, the Filter Graph Manager ignores pins on intermediate filters if the pin name begins with a tilde (~). For more information, see [PIN_INFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-pin_info).
 
 
 

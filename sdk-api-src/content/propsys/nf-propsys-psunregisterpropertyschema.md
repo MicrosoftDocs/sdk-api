@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 57df82a9-8954-4c2b-b794-82ac542149e2
 ms.date: 12/05/2018
 ms.keywords: PSUnregisterPropertySchema, PSUnregisterPropertySchema function [Windows Properties], properties.PSUnregisterPropertySchema, propsys/PSUnregisterPropertySchema, shell.PSUnregisterPropertySchema, shell_PSUnregisterPropertySchema
-ms.topic: function
 f1_keywords:
 - propsys/PSUnregisterPropertySchema
 dev_langs:

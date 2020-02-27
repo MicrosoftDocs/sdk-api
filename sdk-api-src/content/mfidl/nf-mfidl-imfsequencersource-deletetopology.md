@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 6ef3512d-f953-46a3-8604-bec3904a962f
 ms.date: 12/05/2018
 ms.keywords: 6ef3512d-f953-46a3-8604-bec3904a962f, DeleteTopology, DeleteTopology method [Media Foundation], DeleteTopology method [Media Foundation],IMFSequencerSource interface, IMFSequencerSource interface [Media Foundation],DeleteTopology method, IMFSequencerSource.DeleteTopology, IMFSequencerSource::DeleteTopology, mf.imfsequencersource_deletetopology, mfidl/IMFSequencerSource::DeleteTopology
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSequencerSource.DeleteTopology
 dev_langs:

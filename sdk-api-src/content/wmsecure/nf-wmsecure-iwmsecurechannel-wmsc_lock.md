@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: fbb9f71c-49ee-45d8-bb9a-945290e11ea9
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Lock method, IWMSecureChannel.WMSC_Lock, IWMSecureChannel::WMSC_Lock, WMSC_Lock, WMSC_Lock method [windows Media Format], WMSC_Lock method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_lock, wmsecure/IWMSecureChannel::WMSC_Lock
-ms.topic: method
 f1_keywords:
 - wmsecure/IWMSecureChannel.WMSC_Lock
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>WMSC_Lock</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>WMSC_Lock</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 The <b>WMSC_Lock</b> method locks access to the secure connection.

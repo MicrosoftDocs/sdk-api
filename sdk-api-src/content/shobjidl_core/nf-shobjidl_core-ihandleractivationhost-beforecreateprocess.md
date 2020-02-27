@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: aa0ea3cb-7fe3-498c-a105-b78492166f65
 ms.date: 12/05/2018
 ms.keywords: BeforeCreateProcess, BeforeCreateProcess method [Windows Shell], BeforeCreateProcess method [Windows Shell],IHandlerActivationHost interface, IHandlerActivationHost interface [Windows Shell],BeforeCreateProcess method, IHandlerActivationHost.BeforeCreateProcess, IHandlerActivationHost::BeforeCreateProcess, shell.IHandlerActivationHost_BeforeCreateProcess, shobjidl_core/IHandlerActivationHost::BeforeCreateProcess
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IHandlerActivationHost.BeforeCreateProcess
 dev_langs:
@@ -45,44 +44,22 @@ ms.custom: 19H1
 ---
 
 # IHandlerActivationHost::BeforeCreateProcess
-
-
 ## -description
-
-
-
-
+This notifies a client of ShellExecuteEx that a process is about to created, giving that client the opportunity to display UI confirming that or reject it by returning a specific error code.
 
 ## -parameters
-
-
-
-
 ### -param applicationPath [in]
-
+The fully qulafied path to the process executable, or in some cases a dll path.
 
 ### -param commandLine [in]
-
+The full command line that will be passed to CreateProcess including the arguments that the handler requested via its registration.
 
 ### -param handlerInfo [in]
-
+Provides access to information about the hanlder that will be invoked. This object also supports IHandlerInfo2 on versions of windows that implement that. This object also implements IObjectWithSelection. This can be used to get the shell item, or items in some cases, that are being launched.
 
 ## -returns
-
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. 
+Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code, <b>HRESULT_FROM_WIN32(ERROR_CANCELLED)</b> inciates that the ShellExecute call should be canceled.
 
 ## -see-also
-
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihandleractivationhost">IHandlerActivationHost</a>
- 
-
- 
-

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 1CABA8F5-2380-45B9-804C-B1DC9FF34B62
 ms.date: 12/05/2018
 ms.keywords: IVirtualSurfaceImageSourceNative, IVirtualSurfaceImageSourceNative interface [Windows Runtime], IVirtualSurfaceImageSourceNative interface [Windows Runtime],described, windows/IVirtualSurfaceImageSourceNative, winrt.ivirtualsurfaceimagesourcenative
-ms.topic: interface
 f1_keywords:
 - windows.ui.xaml.media.dxinterop/IVirtualSurfaceImageSourceNative
 dev_langs:

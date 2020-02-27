@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 1e26b88c-808f-4807-8641-e5c6b10853ad
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, InetNtop, InetNtop function [Winsock], InetNtopA, InetNtopA or inet_ntop, InetNtopW, inet_ntop, winsock.inet_ntop, ws2tcpip/InetNtop, ws2tcpip/InetNtopA or inet_ntop, ws2tcpip/InetNtopW
-ms.topic: function
 f1_keywords:
 - ws2tcpip/InetNtop
 dev_langs:
@@ -179,7 +178,7 @@ The
 <b>InetNtop</b> function provides a protocol-independent address-to-string translation. The 
 <b>InetNtop</b> function takes an Internet address structure specified by the <i>pAddr</i> parameter and returns a <b>NULL</b>-terminated string that represents the IP address. While the <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a> function works only with IPv4 addresses, the <b>InetNtop</b> function works with either IPv4 or IPv6 addresses.
 
-The ANSI version of this function is <b>inet_ntop</b> as defined in RFC 2553. For more information, see RFC 2553 available at the <a href="http://go.microsoft.com/fwlink/p/?linkid=86448">IETF website</a>. 
+The ANSI version of this function is <b>inet_ntop</b> as defined in RFC 2553. For more information, see RFC 2553 available at the <a href="http://tools.ietf.org/html/rfc2553">IETF website</a>. 
 
 The 
 <b>InetNtop</b> function does not require that the Windows Sockets DLL be loaded to perform IP address to string conversion.

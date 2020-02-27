@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 358b358a-65cc-4f37-8beb-be492b83c222
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemDeletedFromCache method, IOfflineFilesEvents.ItemDeletedFromCache, IOfflineFilesEvents::ItemDeletedFromCache, ItemDeletedFromCache, ItemDeletedFromCache method [Offline Files], ItemDeletedFromCache method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemDeletedFromCache, of.iofflinefilesevents_itemdeletedfromcache
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesEvents.ItemDeletedFromCache
 dev_langs:

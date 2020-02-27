@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: d0a12c21-e196-4228-9994-51047271cf57
 ms.date: 12/05/2018
 ms.keywords: IBDA_IPV4Filter interface [Microsoft TV Technologies],PutMulticastMode method, IBDA_IPV4Filter.PutMulticastMode, IBDA_IPV4Filter::PutMulticastMode, IBDA_IPV4FilterPutMulticastMode, PutMulticastMode, PutMulticastMode method [Microsoft TV Technologies], PutMulticastMode method [Microsoft TV Technologies],IBDA_IPV4Filter interface, bdaiface/IBDA_IPV4Filter::PutMulticastMode, mstv.ibda_ipv4filter_putmulticastmode
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_IPV4Filter.PutMulticastMode
 dev_langs:

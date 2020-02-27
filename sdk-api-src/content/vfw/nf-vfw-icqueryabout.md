@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 073f217f-961b-4de2-9430-5ee81379e807
 ms.date: 12/05/2018
 ms.keywords: ICQueryAbout, ICQueryAbout macro [Windows Multimedia], _win32_ICQueryAbout, multimedia.icqueryabout, vfw/ICQueryAbout
-ms.topic: macro
 f1_keywords:
 - vfw/ICQueryAbout
 dev_langs:

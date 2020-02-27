@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 93f2be99-0799-4047-ae4e-62f0e74d15c3
 ms.date: 12/05/2018
 ms.keywords: ILog, ILog interface [COM], ILog interface [COM],described, _com_ilog, com.ilog, txlogpub/ILog
-ms.topic: interface
 f1_keywords:
 - txlogpub/ILog
 dev_langs:

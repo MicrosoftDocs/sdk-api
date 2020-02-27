@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 08e6215c-536f-4ab2-9d34-096b919ef0be
 ms.date: 12/05/2018
 ms.keywords: WPUQueryBlockingCallback, WPUQueryBlockingCallback function [Winsock], _win32_wpuqueryblockingcallback_2, winsock.wpuqueryblockingcallback_2, ws2spi/WPUQueryBlockingCallback
-ms.topic: function
 f1_keywords:
 - ws2spi/WPUQueryBlockingCallback
 dev_langs:
@@ -96,7 +95,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -107,7 +106,7 @@ The <i>lpfnCallback</i> or the <i>lpdwContext</i> parameter is not a valid part 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -144,7 +143,7 @@ typedef BOOL ( CALLBACK FAR * LPBLOCKINGCALLBACK )( DWORD dwContext );
 
 
 The blocking callback will return **TRUE** if the service provider is to continue waiting for the blocking operation to complete. It will return **FALSE** if the blocking operation has been canceled with the 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspcancelblockingcall">WSPCancelBlockingCall</a>.
+<a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspcancelblockingcall">WSPCancelBlockingCall</a>.
 
 Any missing components of the address will default to a reasonable value if possible. For example, a missing port number will default to zero.
 
@@ -156,7 +155,7 @@ Any missing components of the address will default to a reasonable value if poss
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspcancelblockingcall">WSPCancelBlockingCall</a>
+<a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspcancelblockingcall">WSPCancelBlockingCall</a>
  
 
  

@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: 0d028ed9-3505-4f08-b064-14cbc8172ce0
 ms.date: 12/05/2018
 ms.keywords: PowerReplaceDefaultPowerSchemes, PowerReplaceDefaultPowerSchemes function, base.powerreplacedefaultpowerschemes, powrprof/PowerReplaceDefaultPowerSchemes
-ms.topic: function
 f1_keywords:
 - powrprof/PowerReplaceDefaultPowerSchemes
 dev_langs:

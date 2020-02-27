@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: e4d51920-1925-48e9-96c2-fa1ead8ec942
 ms.date: 12/05/2018
 ms.keywords: VarBoolFromI1, VarBoolFromI1 function [Automation], _oa96_VarBoolFromI1, automat.varboolfromi1, oleauto/VarBoolFromI1
-ms.topic: function
 f1_keywords:
 - oleauto/VarBoolFromI1
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 0b947a85-816b-4374-a8f8-c369e366a17d
 ms.date: 12/05/2018
 ms.keywords: DeleteFile, DeleteFile function [Files], DeleteFileA, DeleteFileW, _win32_deletefile, base.deletefile, fileapi/DeleteFile, fileapi/DeleteFileA, fileapi/DeleteFileW, fs.deletefile, winbase/DeleteFile, winbase/DeleteFileA, winbase/DeleteFileW
-ms.topic: function
 f1_keywords:
 - fileapi/DeleteFile
 dev_langs:
@@ -76,7 +75,7 @@ The name of the file to be deleted.
 
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
+       "\\\\?\\" to the path. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
 <div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>DeleteFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>

@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 3aa44847-932e-49c6-a7fd-966a2bb3539d
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseDigest method, IWSManEx.SessionFlagUseDigest, IWSManEx::SessionFlagUseDigest, SessionFlagUseDigest, SessionFlagUseDigest method [Windows Remote Management], SessionFlagUseDigest method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusedigest, wsmandisp/IWSManEx::SessionFlagUseDigest
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManEx.SessionFlagUseDigest
 dev_langs:

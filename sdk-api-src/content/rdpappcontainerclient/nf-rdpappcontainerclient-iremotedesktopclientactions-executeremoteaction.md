@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 944fbfe4-b033-471b-9a28-87349382d37a
 ms.date: 12/05/2018
 ms.keywords: ExecuteRemoteAction, ExecuteRemoteAction method [Remote Desktop Services], ExecuteRemoteAction method [Remote Desktop Services],IRemoteDesktopClientActions interface, IRemoteDesktopClientActions interface [Remote Desktop Services],ExecuteRemoteAction method, IRemoteDesktopClientActions.ExecuteRemoteAction, IRemoteDesktopClientActions::ExecuteRemoteAction, rdpappcontainerclient/IRemoteDesktopClientActions::ExecuteRemoteAction, termserv.iremotedesktopclientactions_executeremoteaction
-ms.topic: method
 f1_keywords:
 - rdpappcontainerclient/IRemoteDesktopClientActions.ExecuteRemoteAction
 dev_langs:

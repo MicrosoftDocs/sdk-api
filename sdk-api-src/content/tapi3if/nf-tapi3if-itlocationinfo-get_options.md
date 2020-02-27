@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: a53d7029-25a0-460c-97dd-c49355cc2ddc
 ms.date: 12/05/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_Options method, ITLocationInfo.get_Options, ITLocationInfo::get_Options, _tapi3_itlocationinfo_get_options, get_Options, get_Options method [TAPI 2.2], get_Options method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_options, tapi3if/ITLocationInfo::get_Options
-ms.topic: method
 f1_keywords:
 - tapi3if/ITLocationInfo.get_Options
 dev_langs:

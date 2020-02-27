@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: fb1c366d-10df-4e4f-a381-3f085bd136e2
 ms.date: 12/05/2018
 ms.keywords: IDsObjectPickerCredentials interface [Active Directory],SetCredentials method, IDsObjectPickerCredentials.SetCredentials, IDsObjectPickerCredentials::SetCredentials, SetCredentials, SetCredentials method [Active Directory], SetCredentials method [Active Directory],IDsObjectPickerCredentials interface, ad.idsobjectpickercredentials_setcredentials, objsel/IDsObjectPickerCredentials::SetCredentials
-ms.topic: method
 f1_keywords:
 - objsel/IDsObjectPickerCredentials.SetCredentials
 dev_langs:

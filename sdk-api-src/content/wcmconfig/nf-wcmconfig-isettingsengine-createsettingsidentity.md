@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: b48e6784-5565-4809-873e-cadedce57743
 ms.date: 12/05/2018
 ms.keywords: CreateSettingsIdentity, CreateSettingsIdentity method [SMI], CreateSettingsIdentity method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],CreateSettingsIdentity method, ISettingsEngine.CreateSettingsIdentity, ISettingsEngine::CreateSettingsIdentity, smi.isettingsengine_createsettingsidentity, wcmconfig/ISettingsEngine::CreateSettingsIdentity
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsEngine.CreateSettingsIdentity
 dev_langs:

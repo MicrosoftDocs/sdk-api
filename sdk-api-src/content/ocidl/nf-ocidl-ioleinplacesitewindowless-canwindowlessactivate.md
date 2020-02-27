@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 8e2f2820-e8d7-4f0e-921d-4fc88feca15f
 ms.date: 12/05/2018
 ms.keywords: CanWindowlessActivate, CanWindowlessActivate method [COM], CanWindowlessActivate method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],CanWindowlessActivate method, IOleInPlaceSiteWindowless.CanWindowlessActivate, IOleInPlaceSiteWindowless::CanWindowlessActivate, _ole_ioleinplacesitewindowless_canwindowlessactivate, com.ioleinplacesitewindowless_canwindowlessactivate, ocidl/IOleInPlaceSiteWindowless::CanWindowlessActivate
-ms.topic: method
 f1_keywords:
 - ocidl/IOleInPlaceSiteWindowless.CanWindowlessActivate
 dev_langs:

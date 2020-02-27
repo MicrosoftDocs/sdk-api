@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: BA84FB47-F241-4120-9441-7E1149F68738
 ms.date: 12/05/2018
 ms.keywords: ClosePackageInfo, ClosePackageInfo function [App packaging and management], appmodel/ClosePackageInfo, appxpkg.closepackageinfo
-ms.topic: function
 f1_keywords:
 - appmodel/ClosePackageInfo
 dev_langs:

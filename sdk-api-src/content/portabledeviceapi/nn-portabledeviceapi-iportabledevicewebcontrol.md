@@ -7,7 +7,6 @@ tech.root: wpdauto
 ms.assetid: 0ec81d6a-3671-4c4e-b650-f251fa99f7ea
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceWebControl, IPortableDeviceWebControl interface [WPD Automation], IPortableDeviceWebControl interface [WPD Automation],described, portabledeviceapi/IPortableDeviceWebControl, wpdauto.iportabledevicewebcontrol
-ms.topic: interface
 f1_keywords:
 - portabledeviceapi/IPortableDeviceWebControl
 dev_langs:
@@ -121,7 +120,7 @@ var deviceService = device.services[0];
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=266421">Portable Device Service Sample</a>
+<a href="https://code.msdn.microsoft.com/windowsapps/Portable-Device-f97089b5">Portable Device Service Sample</a>
  
 
  

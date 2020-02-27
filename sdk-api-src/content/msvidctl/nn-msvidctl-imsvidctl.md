@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], IMSVidCtl interface [Microsoft TV Technologies],described, IMSVidCtlInterface, mstv.imsvidctl, msvidctl/IMSVidCtl
-ms.topic: interface
 f1_keywords:
 - msvidctl/IMSVidCtl
 dev_langs:

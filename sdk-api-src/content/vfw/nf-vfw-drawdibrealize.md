@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 4723c8a4-36af-4543-b6df-d51f68a3e94d
 ms.date: 12/05/2018
 ms.keywords: DrawDibRealize, DrawDibRealize function [Windows Multimedia], _win32_DrawDibRealize, multimedia.drawdibrealize, vfw/DrawDibRealize
-ms.topic: function
 f1_keywords:
 - vfw/DrawDibRealize
 dev_langs:
@@ -73,7 +72,7 @@ Handle to the DC containing the palette.
 
 ### -param fBackground
 
-Background palette flag. If this value is nonzero, the palette is a background palette. If this value is zero and the DC is attached to a window, the logical palette becomes the foreground palette when the window has the input focus. (A DC is attached to a window when the window class style is CS_OWNDC or when the DC is obtained by using the <a href="http://go.microsoft.com/fwlink/p/?linkid=17001">GetDC</a> function.)
+Background palette flag. If this value is nonzero, the palette is a background palette. If this value is zero and the DC is attached to a window, the logical palette becomes the foreground palette when the window has the input focus. (A DC is attached to a window when the window class style is CS_OWNDC or when the DC is obtained by using the <a href="https://msdn.microsoft.com/library/ms533241.aspx">GetDC</a> function.)
 
 
 ## -returns

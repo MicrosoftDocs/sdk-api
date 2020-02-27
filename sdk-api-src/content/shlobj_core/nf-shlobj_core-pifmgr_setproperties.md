@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 720ed580-1867-4651-aef6-24ac4397ad39
 ms.date: 12/05/2018
 ms.keywords: PifMgr_SetProperties, PifMgr_SetProperties function [Windows Properties], _win32_PifMgr_SetProperties, properties.PifMgr_SetProperties, shell.PifMgr_SetProperties, shlobj_core/PifMgr_SetProperties
-ms.topic: function
 f1_keywords:
 - shlobj_core/PifMgr_SetProperties
 dev_langs:

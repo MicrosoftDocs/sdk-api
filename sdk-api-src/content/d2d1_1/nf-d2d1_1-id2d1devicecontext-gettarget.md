@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: a70307db-863a-4c59-a327-fb71a5d58f84
 ms.date: 12/05/2018
 ms.keywords: GetTarget, GetTarget method [Direct2D], GetTarget method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetTarget method, ID2D1DeviceContext.GetTarget, ID2D1DeviceContext::GetTarget, d2d1_1/ID2D1DeviceContext::GetTarget, direct2d.id2d1devicecontext_gettarget
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1DeviceContext.GetTarget
 dev_langs:
@@ -127,7 +126,7 @@ IWICBitmap objects will be unlocked in the following circumstances:
 </ul>
 Direct2D will only lock bitmaps that are not currently locked.
 
-Calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> for <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1gdiinteroprendertarget">ID2D1GdiInteropRenderTarget</a> will always succeed.  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-getdc">ID2D1GdiInteropRenderTarget::GetDC</a> will return a device context corresponding to the currently bound target bitmap.  GetDC will fail if the target bitmap was not created with the GDI_COMPATIBLE flag set.
+Calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1gdiinteroprendertarget">ID2D1GdiInteropRenderTarget</a> will always succeed.  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-getdc">ID2D1GdiInteropRenderTarget::GetDC</a> will return a device context corresponding to the currently bound target bitmap.  GetDC will fail if the target bitmap was not created with the GDI_COMPATIBLE flag set.
 
 
 <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1hwndrendertarget-resize(constd2d1_size_u)">ID2D1HwndRenderTarget::Resize</a> will return <b>DXGI_ERROR_INVALID_CALL</b> if there are any outstanding references to the original target bitmap associated with the render target.

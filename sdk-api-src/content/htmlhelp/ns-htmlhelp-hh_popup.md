@@ -7,7 +7,6 @@ tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhpopup.htm
 ms.date: 12/05/2018
 ms.keywords: HH_POPUP, HH_POPUP structure [HTML Help Workshop], htmlhelp.hh_popup_structure, htmlhelp/HH_POPUP, vsconStrhhpopup
-ms.topic: struct
 f1_keywords:
 - htmlhelp/HH_POPUP
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 0beb0470-ecdc-4a24-b28c-0738e1df9d49
 ms.date: 12/05/2018
 ms.keywords: IsNLSDefinedString, IsNLSDefinedString function [Internationalization for Windows Applications], _win32_IsNLSDefinedString, intl.isnlsdefinedstring, winnls/IsNLSDefinedString
-ms.topic: function
 f1_keywords:
 - winnls/IsNLSDefinedString
 dev_langs:

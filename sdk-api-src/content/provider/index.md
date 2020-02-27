@@ -1,9 +1,10 @@
 ---
 UID: NA:provider
+title: Provider.h header
 ms.assetid: 09eb144e-543b-3fbc-978b-78648fe423f5
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: lwef
 ---
 

@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: b3f4ac2a-c722-4609-b893-c4b9667ae559
 ms.date: 12/05/2018
 ms.keywords: PeerCollabStartup, PeerCollabStartup function [Peer Networking], p2p.peercollabstartup, p2p/PeerCollabStartup
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabStartup
 dev_langs:

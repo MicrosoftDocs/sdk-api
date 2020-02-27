@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0dd311ac-28c7-4cb2-bc65-fe2301c53cf2
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Microsoft TV Technologies], Close method [Microsoft TV Technologies],IStreamBufferRecComp interface, IStreamBufferRecComp interface [Microsoft TV Technologies],Close method, IStreamBufferRecComp.Close, IStreamBufferRecComp::Close, IStreamBufferRecCompClose, mstv.istreambufferreccomp_close, sbe/IStreamBufferRecComp::Close
-ms.topic: method
 f1_keywords:
 - sbe/IStreamBufferRecComp.Close
 dev_langs:

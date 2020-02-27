@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 5fb103c9-cb73-46b3-9102-6811d6673faf
 ms.date: 12/05/2018
 ms.keywords: GetTargetMode, GetTargetMode method [Open Packaging Conventions], GetTargetMode method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetTargetMode method, IOpcRelationship.GetTargetMode, IOpcRelationship::GetTargetMode, msopc/IOpcRelationship::GetTargetMode, opc.iopcrelationship_gettargetmode
-ms.topic: method
 f1_keywords:
 - msopc/IOpcRelationship.GetTargetMode
 dev_langs:
@@ -135,7 +134,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
 
 

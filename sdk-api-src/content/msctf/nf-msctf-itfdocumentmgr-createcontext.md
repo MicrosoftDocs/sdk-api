@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 1415f338-731c-44c5-b798-edf823174272
 ms.date: 12/05/2018
 ms.keywords: CreateContext, CreateContext method [Text Services Framework], CreateContext method [Text Services Framework],ITfDocumentMgr interface, ITfDocumentMgr interface [Text Services Framework],CreateContext method, ITfDocumentMgr.CreateContext, ITfDocumentMgr::CreateContext, _tsf_itfdocumentmgr_createcontext_ref, msctf/ITfDocumentMgr::CreateContext, tsf.itfdocumentmgr_createcontext
-ms.topic: method
 f1_keywords:
 - msctf/ITfDocumentMgr.CreateContext
 dev_langs:

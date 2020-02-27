@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: AFED694C-8D7B-4539-9A1A-B2DA546F3A07
 ms.date: 12/05/2018
 ms.keywords: IWebBrowser2, IWebBrowser2 interface [Windows API], IWebBrowser2 interface [Windows API],described, exdisp/IWebBrowser2, winprog.iwebbrowser2
-ms.topic: interface
 f1_keywords:
 - exdisp/IWebBrowser2
 dev_langs:

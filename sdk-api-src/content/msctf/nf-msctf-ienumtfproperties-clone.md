@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: ee90f452-7e50-4b9a-b81d-b5d4244f55b4
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfProperties interface, IEnumTfProperties interface [Text Services Framework],Clone method, IEnumTfProperties.Clone, IEnumTfProperties::Clone, _tsf_ienumtfproperties_clone_ref, msctf/IEnumTfProperties::Clone, tsf.ienumtfproperties_clone
-ms.topic: method
 f1_keywords:
 - msctf/IEnumTfProperties.Clone
 dev_langs:

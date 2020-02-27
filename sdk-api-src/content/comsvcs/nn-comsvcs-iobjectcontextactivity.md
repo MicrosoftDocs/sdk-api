@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: b3cdd835-60fd-414c-9b60-b15c07b11f34
 ms.date: 12/05/2018
 ms.keywords: IObjectContextActivity, IObjectContextActivity interface [COM+], IObjectContextActivity interface [COM+],described, _cos_IObjectContextActivity, comsvcs/IObjectContextActivity, cos.iobjectcontextactivity
-ms.topic: interface
 f1_keywords:
 - comsvcs/IObjectContextActivity
 dev_langs:
@@ -84,7 +83,7 @@ Retrieves the GUID associated with the current activity.
 
 
 
-You obtain a reference to an object's <b>IObjectContextActivity</b> interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the object's context, as in the following example:
+You obtain a reference to an object's <b>IObjectContextActivity</b> interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the object's context, as in the following example:
 
 <pre class="syntax" xml:space="preserve"><code>hr = m_pIObjectContext-&gt;QueryInterface(
             IID_IObjectContextActivity, 

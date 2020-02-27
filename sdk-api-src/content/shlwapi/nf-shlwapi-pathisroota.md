@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8586df98-91c4-49a6-9b07-7dceb8a63431
 ms.date: 12/05/2018
 ms.keywords: PathIsRoot, PathIsRoot function [Windows Shell], PathIsRootA, PathIsRootW, _win32_PathIsRoot, shell.PathIsRoot, shlwapi/PathIsRoot, shlwapi/PathIsRootA, shlwapi/PathIsRootW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathIsRoot
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: D76D0587-E31E-48D2-9DF6-33444E4CA325
 ms.date: 12/05/2018
 ms.keywords: OSUpdateAssessment, OSUpdateAssessment structure, base.osupdateassessment, waasapitypes/OSUpdateAssessment
-ms.topic: struct
 f1_keywords:
 - waasapitypes/OSUpdateAssessment
 dev_langs:

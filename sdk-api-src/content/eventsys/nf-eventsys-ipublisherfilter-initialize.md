@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 803201c7-7fa8-4db5-858f-3d5af302ee88
 ms.date: 12/05/2018
 ms.keywords: IPublisherFilter interface [COM+],Initialize method, IPublisherFilter.Initialize, IPublisherFilter::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IPublisherFilter interface, _cos_IPublisherFilter_Initialize, cos.ipublisherfilter_initialize, eventsys/IPublisherFilter::Initialize
-ms.topic: method
 f1_keywords:
 - eventsys/IPublisherFilter.Initialize
 dev_langs:

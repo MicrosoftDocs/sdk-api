@@ -1,9 +1,10 @@
 ---
 UID: NA:editionupgradehelper
+title: Editionupgradehelper.h header
 ms.assetid: e220ce67-0c29-3729-b009-d04e1c740663
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: winprog
 ---
 

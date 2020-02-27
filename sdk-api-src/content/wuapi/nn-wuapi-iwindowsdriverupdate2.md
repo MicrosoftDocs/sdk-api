@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 9a2d6318-c5f0-41bc-a4df-bb9a53c9dee4
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdate2, IWindowsDriverUpdate2 interface [Windows Update Agent], IWindowsDriverUpdate2 interface [Windows Update Agent],described, wua.iwindowsdriverupdate2, wuapi/IWindowsDriverUpdate2
-ms.topic: interface
 f1_keywords:
 - wuapi/IWindowsDriverUpdate2
 dev_langs:
@@ -141,7 +140,7 @@ Gets a Boolean value that indicates whether the computer must be restarted after
 
 
 
-This interface can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method on an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a> interface only if the interface represents a Windows Driver update.
+This interface can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method on an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a> interface only if the interface represents a Windows Driver update.
 
 
 

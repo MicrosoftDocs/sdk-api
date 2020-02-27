@@ -7,7 +7,6 @@ tech.root: ToolHelp
 ms.assetid: bb41cab9-13a1-469d-bf76-68c172e982f6
 ms.date: 12/05/2018
 ms.keywords: Module32First, Module32First function [ToolHelp], Module32FirstW, _win32_module32first, base.module32first, tlhelp32/Module32First, tlhelp32/Module32FirstW, toolhelp.module32first
-ms.topic: function
 f1_keywords:
 - tlhelp32/Module32First
 dev_langs:

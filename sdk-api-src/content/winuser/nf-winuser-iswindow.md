@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\iswindow.htm
 ms.date: 12/05/2018
 ms.keywords: IsWindow, IsWindow function [Windows and Messages], _win32_IsWindow, _win32_iswindow_cpp, winmsg.iswindow, winui._win32_iswindow, winuser/IsWindow
-ms.topic: function
 f1_keywords:
 - winuser/IsWindow
 dev_langs:

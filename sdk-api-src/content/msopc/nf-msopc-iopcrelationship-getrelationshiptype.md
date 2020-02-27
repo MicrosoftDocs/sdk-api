@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: da832c8e-99e1-452a-90eb-97580f00f003
 ms.date: 12/05/2018
 ms.keywords: GetRelationshipType, GetRelationshipType method [Open Packaging Conventions], GetRelationshipType method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetRelationshipType method, IOpcRelationship.GetRelationshipType, IOpcRelationship::GetRelationshipType, msopc/IOpcRelationship::GetRelationshipType, opc.iopcrelationship_getrelationshiptype
-ms.topic: method
 f1_keywords:
 - msopc/IOpcRelationship.GetRelationshipType
 dev_langs:
@@ -131,7 +130,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
 
 

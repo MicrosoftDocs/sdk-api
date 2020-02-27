@@ -1,9 +1,10 @@
 ---
 UID: NA:camerauicontrol
+title: Camerauicontrol.h header
 ms.assetid: 09675054-7282-316d-9f3c-f0acf1007928
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: winprog
 ---
 

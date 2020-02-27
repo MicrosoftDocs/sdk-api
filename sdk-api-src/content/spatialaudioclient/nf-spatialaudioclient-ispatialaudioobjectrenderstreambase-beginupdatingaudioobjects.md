@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 9D858556-2EBE-4DF6-878B-BE0E12079248
 ms.date: 12/05/2018
 ms.keywords: BeginUpdatingAudioObjects, BeginUpdatingAudioObjects method [Core Audio], BeginUpdatingAudioObjects method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, ISpatialAudioObjectRenderStreamBase interface [Core Audio],BeginUpdatingAudioObjects method, ISpatialAudioObjectRenderStreamBase.BeginUpdatingAudioObjects, ISpatialAudioObjectRenderStreamBase::BeginUpdatingAudioObjects, coreaudio.ispatialaudioobjectrenderstream_beginupdatingaudioobjects, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::BeginUpdatingAudioObjects
-ms.topic: method
 f1_keywords:
 - spatialaudioclient/ISpatialAudioObjectRenderStreamBase.BeginUpdatingAudioObjects
 dev_langs:

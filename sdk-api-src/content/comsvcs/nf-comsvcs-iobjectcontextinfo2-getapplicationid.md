@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 45cf882a-7a46-4106-a03d-c87c0b52477e
 ms.date: 12/05/2018
 ms.keywords: GetApplicationId, GetApplicationId method [COM+], GetApplicationId method [COM+],IObjectContextInfo2 interface, IObjectContextInfo2 interface [COM+],GetApplicationId method, IObjectContextInfo2.GetApplicationId, IObjectContextInfo2::GetApplicationId, _cos_IObjectContextInfo2_GetApplicationId, comsvcs/IObjectContextInfo2::GetApplicationId, cos.iobjectcontextinfo2_getapplicationid
-ms.topic: method
 f1_keywords:
 - comsvcs/IObjectContextInfo2.GetApplicationId
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 25c11cfc-75af-20a1-8f54-6b370942b841
 ms.date: 12/05/2018
 ms.keywords: ID2D1DeviceContext2, ID2D1DeviceContext2 interface [Direct2D], ID2D1DeviceContext2 interface [Direct2D],described, d2d1_3/ID2D1DeviceContext2, direct2d.id2d1devicecontext2
-ms.topic: interface
 f1_keywords:
 - d2d1_3/ID2D1DeviceContext2
 dev_langs:

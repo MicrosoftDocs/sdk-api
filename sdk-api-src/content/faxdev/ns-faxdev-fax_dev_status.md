@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_0wz6.htm
 ms.date: 12/05/2018
 ms.keywords: '*PFAX_DEV_STATUS, FAX_DEV_STATUS, FAX_DEV_STATUS structure [Fax Service], PFAX_DEV_STATUS, PFAX_DEV_STATUS structure pointer [Fax Service], _mfax_fax_dev_status_str, fax._mfax_fax_dev_status_str, faxdev/FAX_DEV_STATUS, faxdev/PFAX_DEV_STATUS'
-ms.topic: struct
 f1_keywords:
 - faxdev/FAX_DEV_STATUS
 dev_langs:

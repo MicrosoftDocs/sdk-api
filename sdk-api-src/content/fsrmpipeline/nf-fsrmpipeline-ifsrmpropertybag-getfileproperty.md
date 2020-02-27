@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 09fc3287-f2a2-4ba7-9626-65c6634b7f2d
 ms.date: 12/05/2018
 ms.keywords: GetFileProperty, GetFileProperty method [File Server Resource Manager], GetFileProperty method [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],GetFileProperty method, IFsrmPropertyBag.GetFileProperty, IFsrmPropertyBag::GetFileProperty, fs.ifsrmpropertybag_getfileproperty, fsrm.ifsrmpropertybag_getfileproperty, fsrmpipeline/IFsrmPropertyBag::GetFileProperty
-ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmPropertyBag.GetFileProperty
 dev_langs:

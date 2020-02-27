@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 2020ce65-3a6e-4a9f-9e97-b94e3c75f4f5
 ms.date: 12/05/2018
 ms.keywords: ID3DInclude, ID3DInclude interface [Direct3D 11], ID3DInclude interface [Direct3D 11],described, d3dcommon/ID3DInclude, direct3d11.id3dinclude
-ms.topic: interface
 f1_keywords:
 - d3dcommon/ID3DInclude
 dev_langs:

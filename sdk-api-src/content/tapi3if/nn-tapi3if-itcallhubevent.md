@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 4008fc7e-f095-442d-9214-61bfead8cf04
 ms.date: 12/05/2018
 ms.keywords: ITCallHubEvent, ITCallHubEvent interface [TAPI 2.2], ITCallHubEvent interface [TAPI 2.2],described, _tapi3_itcallhubevent, tapi3.itcallhubevent, tapi3if/ITCallHubEvent
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITCallHubEvent
 dev_langs:

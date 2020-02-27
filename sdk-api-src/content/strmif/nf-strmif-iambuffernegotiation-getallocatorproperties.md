@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 85bbb900-772c-4091-83e3-f2a5dd198d39
 ms.date: 12/05/2018
 ms.keywords: GetAllocatorProperties, GetAllocatorProperties method [DirectShow], GetAllocatorProperties method [DirectShow],IAMBufferNegotiation interface, IAMBufferNegotiation interface [DirectShow],GetAllocatorProperties method, IAMBufferNegotiation.GetAllocatorProperties, IAMBufferNegotiation::GetAllocatorProperties, IAMBufferNegotiationGetAllocatorProperties, dshow.iambuffernegotiation_getallocatorproperties, strmif/IAMBufferNegotiation::GetAllocatorProperties
-ms.topic: method
 f1_keywords:
 - strmif/IAMBufferNegotiation.GetAllocatorProperties
 dev_langs:
@@ -64,7 +63,7 @@ The <code>GetAllocatorProperties</code> method retrieves the allocator propertie
 
 ### -param pprop [out]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties">ALLOCATOR_PROPERTIES</a> structure, allocated by the caller, that receives the allocator properties.
+Pointer to an [ALLOCATOR_PROPERTIES](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure, allocated by the caller, that receives the allocator properties.
 
 
 ## -returns

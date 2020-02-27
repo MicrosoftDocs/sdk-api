@@ -7,7 +7,6 @@ tech.root: psapi
 ms.assetid: ace5106c-9c7b-4d5f-a69a-c3a8bff0bb2d
 ms.date: 12/05/2018
 ms.keywords: GetWsChanges, GetWsChanges function [PSAPI], K32GetWsChanges, _win32_getwschanges, base.getwschanges, psapi.getwschanges, psapi.h/K32GetWsChanges, psapi/GetWsChanges, psapi/K32GetWsChanges
-ms.topic: function
 f1_keywords:
 - psapi/GetWsChanges
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 383f1e11-2e40-45e6-8c55-a23d1b8eb71f
 ms.date: 12/05/2018
 ms.keywords: EAP_TYPE, EAP_TYPE structure [EAPHost], eaphost.eap_type, eaptypes/EAP_TYPE
-ms.topic: struct
 f1_keywords:
 - eaptypes/EAP_TYPE
 dev_langs:
@@ -62,7 +61,7 @@ The <b>EAP_TYPE</b> structure contains type and vendor identification informatio
 
 The numeric type code for this EAP method.
 
-<div class="alert"><b>Note</b>  For more information on the allocation of EAP method types, see section 6.2 of <a href="Http://go.microsoft.com/fwlink/p/?linkid=84016">RFC 3748</a>.</div>
+<div class="alert"><b>Note</b>  For more information on the allocation of EAP method types, see section 6.2 of <a href="http://tools.ietf.org/html/rfc3748">RFC 3748</a>.</div>
 <div> </div>
 
 ### -field dwVendorId

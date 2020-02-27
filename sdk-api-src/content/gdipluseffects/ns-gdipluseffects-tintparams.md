@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\tintparams.htm
 ms.date: 12/05/2018
 ms.keywords: TintParams, TintParams structure [GDI+], _gdiplus_STRUC_TintParams, gdiplus._gdiplus_STRUC_TintParams, gdipluseffects/TintParams
-ms.topic: struct
 f1_keywords:
 - gdipluseffects/TintParams
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9b0b6b46-bf61-44c2-981a-44df4d7c6dfb
 ms.date: 12/05/2018
 ms.keywords: IAMResourceControl, IAMResourceControl interface [DirectShow], IAMResourceControl interface [DirectShow],described, IAMResourceControlInterface, dshow.iamresourcecontrol, strmif/IAMResourceControl
-ms.topic: interface
 f1_keywords:
 - strmif/IAMResourceControl
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 156728ea-b4a3-47d7-b0d8-cd34881e9703
 ms.date: 12/05/2018
 ms.keywords: GetHeader, GetHeader method [Windows Imaging Component], GetHeader method [Windows Imaging Component],IWICMetadataWriterInfo interface, IWICMetadataWriterInfo interface [Windows Imaging Component],GetHeader method, IWICMetadataWriterInfo.GetHeader, IWICMetadataWriterInfo::GetHeader, _wic_codec_iwicmetadatawriterinfo_getheader, wic._wic_codec_iwicmetadatawriterinfo_getheader, wincodecsdk/IWICMetadataWriterInfo::GetHeader
-ms.topic: method
 f1_keywords:
 - wincodecsdk/IWICMetadataWriterInfo.GetHeader
 dev_langs:

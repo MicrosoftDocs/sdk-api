@@ -7,7 +7,6 @@ tech.root: psapi
 ms.assetid: 31a9eb69-95f0-4dd7-8fd5-296f2cff0b8a
 ms.date: 12/05/2018
 ms.keywords: GetModuleBaseName, GetModuleBaseName function [PSAPI], GetModuleBaseNameA, GetModuleBaseNameW, K32GetModuleBaseName, K32GetModuleBaseNameA, K32GetModuleBaseNameW, _win32_getmodulebasename, base.getmodulebasename, psapi.getmodulebasename, psapi/GetModuleBaseName, psapi/GetModuleBaseNameA, psapi/GetModuleBaseNameW, psapi/K32GetModuleBaseName, psapi/K32GetModuleBaseNameA, psapi/K32GetModuleBaseNameW
-ms.topic: function
 f1_keywords:
 - psapi/GetModuleBaseName
 dev_langs:
@@ -168,7 +167,7 @@ For an example, see
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=120208">strrchr, wcsrchr, _mbsrchr, _mbsrchr_l</a>
+<a href="https://msdn.microsoft.com/library/ftw0heb9.aspx">strrchr, wcsrchr, _mbsrchr, _mbsrchr_l</a>
  
 
  

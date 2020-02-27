@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 619f0684-28bb-4412-acbf-27434672083a
 ms.date: 12/05/2018
 ms.keywords: IWMWriterNetworkSink interface [windows Media Format],SetMaximumClients method, IWMWriterNetworkSink.SetMaximumClients, IWMWriterNetworkSink::SetMaximumClients, IWMWriterNetworkSinkSetMaximumClients, SetMaximumClients, SetMaximumClients method [windows Media Format], SetMaximumClients method [windows Media Format],IWMWriterNetworkSink interface, wmformat.iwmwriternetworksink_setmaximumclients, wmsdkidl/IWMWriterNetworkSink::SetMaximumClients
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriterNetworkSink.SetMaximumClients
 dev_langs:

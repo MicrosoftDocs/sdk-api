@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 4a84f29c-31bd-453c-b215-300cc782595f
 ms.date: 12/05/2018
 ms.keywords: '*PICMP_ECHO_REPLY32, ICMP_ECHO_REPLY32, ICMP_ECHO_REPLY32 structure [IP Helper], IP_BAD_DESTINATION, IP_BAD_OPTION, IP_BAD_REQ, IP_BAD_ROUTE, IP_BUF_TOO_SMALL, IP_DEST_HOST_UNREACHABLE, IP_DEST_NET_UNREACHABLE, IP_DEST_PORT_UNREACHABLE, IP_DEST_PROT_UNREACHABLE, IP_GENERAL_FAILURE, IP_HW_ERROR, IP_NO_RESOURCES, IP_OPTION_TOO_BIG, IP_PACKET_TOO_BIG, IP_PARAM_PROBLEM, IP_REQ_TIMED_OUT, IP_SOURCE_QUENCH, IP_SUCCESS, IP_TTL_EXPIRED_REASSEM, IP_TTL_EXPIRED_TRANSIT, PICMP_ECHO_REPLY32, PICMP_ECHO_REPLY32 structure pointer [IP Helper], ipexport/ICMP_ECHO_REPLY32, ipexport/PICMP_ECHO_REPLY32, iphlp.icmp_echo_reply32'
-ms.topic: struct
 f1_keywords:
 - ipexport/ICMP_ECHO_REPLY32
 dev_langs:
@@ -343,7 +342,7 @@ The IP options in the IP header of the reply, in the form of an <a href="https:/
 The <b>ICMP_ECHO_REPLY32</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpparsereplies">IcmpParseReplies</a> function to return the response to an IPv4 echo request on a 64-bit platform. This structure is only defined if _WIN64 is defined.
 
 For IPv4, some of the possible values for the <b>Status</b> member are specified in 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84068">RFC 792</a>.
+<a href="https://www.ietf.org/rfc/rfc792.txt">RFC 792</a>.
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getiperrorstring">GetIpErrorString</a> function can be used to retrieve the IP helper error string for the <b>IP_STATUS</b> error code in the <b>Status</b> member.
 

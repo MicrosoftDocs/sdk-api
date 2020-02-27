@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: fb66ee55-e491-40e9-a795-58beb4acee25
 ms.date: 12/05/2018
 ms.keywords: GetIDsOfNames, GetIDsOfNames method [Automation], GetIDsOfNames method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetIDsOfNames method, ITypeInfo.GetIDsOfNames, ITypeInfo2.GetIDsOfNames, ITypeInfo::GetIDsOfNames, _oa96_ITypeInfo_GetIDsOfNames, automat.itypeinfo_getidsofnames, oaidl/ITypeInfo::GetIDsOfNames
-ms.topic: method
 f1_keywords:
 - oaidl/ITypeInfo.GetIDsOfNames
 dev_langs:

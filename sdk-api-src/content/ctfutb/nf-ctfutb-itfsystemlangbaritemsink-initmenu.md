@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 6e8ba0ef-2f0a-4d67-95c1-06fee763bc14
 ms.date: 12/05/2018
 ms.keywords: ITfSystemLangBarItemSink interface [Text Services Framework],InitMenu method, ITfSystemLangBarItemSink.InitMenu, ITfSystemLangBarItemSink::InitMenu, InitMenu, InitMenu method [Text Services Framework], InitMenu method [Text Services Framework],ITfSystemLangBarItemSink interface, _tsf_itfsystemlangbaritemsink_initmenu_ref, ctfutb/ITfSystemLangBarItemSink::InitMenu, tsf.itfsystemlangbaritemsink_initmenu
-ms.topic: method
 f1_keywords:
 - ctfutb/ITfSystemLangBarItemSink.InitMenu
 dev_langs:

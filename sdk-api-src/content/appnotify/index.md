@@ -1,9 +1,10 @@
 ---
 UID: NA:appnotify
+title: Appnotify.h header
 ms.assetid: 45609313-b9e2-311f-b1df-245a58f7dc1b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: shell
 ---
 

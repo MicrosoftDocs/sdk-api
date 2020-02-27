@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 54005c07-1689-411c-88a9-bcd19cc065dd
 ms.date: 12/05/2018
 ms.keywords: GetCurrentLocation, GetCurrentLocation method [DirectShow], GetCurrentLocation method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentLocation method, IDvdInfo2.GetCurrentLocation, IDvdInfo2::GetCurrentLocation, IDvdInfo2GetCurrentLocation, dshow.idvdinfo2_getcurrentlocation, strmif/IDvdInfo2::GetCurrentLocation
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo2.GetCurrentLocation
 dev_langs:
@@ -64,7 +63,7 @@ The <code>GetCurrentLocation</code> method retrieves the current playback locati
 
 ### -param pLocation [out]
 
-Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_playback_location2">DVD_PLAYBACK_LOCATION2</a> that receives the playback location information.
+Pointer to a variable of type [DVD_PLAYBACK_LOCATION2](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_playback_location2) that receives the playback location information.
 
 
 ## -returns

@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 687d5a32-3a2e-4b9b-b06c-ca06a6cd1595
 ms.date: 12/05/2018
 ms.keywords: PSEnumeratePropertyDescriptions, PSEnumeratePropertyDescriptions function [Windows Properties], properties.PSEnumeratePropertyDescriptions, propsys/PSEnumeratePropertyDescriptions, shell.PSEnumeratePropertyDescriptions, shell_PSEnumeratePropertyDescriptions
-ms.topic: function
 f1_keywords:
 - propsys/PSEnumeratePropertyDescriptions
 dev_langs:

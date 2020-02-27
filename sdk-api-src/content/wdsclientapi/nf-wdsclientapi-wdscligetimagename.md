@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 09bcd4c1-ce80-4338-a457-80c46b17015a
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageName, WdsCliGetImageName function [Windows Deployment Services], wds.wdscligetimagename, wdsclientapi/WdsCliGetImageName
-ms.topic: function
 f1_keywords:
 - wdsclientapi/WdsCliGetImageName
 dev_langs:

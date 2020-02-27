@@ -7,7 +7,6 @@ tech.root: WMLSS
 ms.assetid: 771c102e-fa23-44bb-aa93-95f7ae9f5e36
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services],get_Properties method, IWindowsMediaLibrarySharingDevice.get_Properties, IWindowsMediaLibrarySharingDevice::get_Properties, get_Properties, get_Properties method [Windows Media Library Sharing Services], get_Properties method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDevice interface, wmlss.IWMLSDeviceget_Properties, wmlss/IWindowsMediaLibrarySharingDevice::get_Properties
-ms.topic: method
 f1_keywords:
 - wmlss/IWindowsMediaLibrarySharingDevice.get_Properties
 dev_langs:

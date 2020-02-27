@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddrectanglesmethods\addrectangles.htm
 ms.date: 12/05/2018
 ms.keywords: AddRectangles, AddRectangles method [GDI+], AddRectangles method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddRectangles method, GraphicsPath.AddRectangles, GraphicsPath.AddRectangles(IN const Rect,INT), GraphicsPath.AddRectangles(const Rect*,INT), GraphicsPath::AddRectangles, GraphicsPath::AddRectangles(IN const Rect,INT), _gdiplus_CLASS_GraphicsPath_AddRectangles_Rect_rects_INT_count_, gdiplus._gdiplus_CLASS_GraphicsPath_AddRectangles_Rect_rects_INT_count_
-ms.topic: method
 f1_keywords:
 - gdipluspath/GraphicsPath.AddRectangles
 dev_langs:

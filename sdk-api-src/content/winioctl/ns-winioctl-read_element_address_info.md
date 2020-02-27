@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: 2b7e611b-7db6-4ba6-ae1f-4269a96dbb16
 ms.date: 12/05/2018
 ms.keywords: '*PREAD_ELEMENT_ADDRESS_INFO, PREAD_ELEMENT_ADDRESS_INFO, PREAD_ELEMENT_ADDRESS_INFO structure pointer, READ_ELEMENT_ADDRESS_INFO, READ_ELEMENT_ADDRESS_INFO structure, _win32_read_element_address_info_str, base.read_element_address_info_str, winioctl/PREAD_ELEMENT_ADDRESS_INFO, winioctl/READ_ELEMENT_ADDRESS_INFO'
-ms.topic: struct
 f1_keywords:
 - winioctl/READ_ELEMENT_ADDRESS_INFO
 dev_langs:

@@ -1,9 +1,10 @@
 ---
 UID: NA:tsgauthenticationengine
+title: Tsgauthenticationengine.h header
 ms.assetid: fc55d3c8-843c-3168-b01a-4ba9d145b87c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: termserv
 ---
 

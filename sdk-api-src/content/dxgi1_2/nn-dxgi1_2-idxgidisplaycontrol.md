@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 8E9A059E-D7E2-4179-9ECA-D66BC9CD3757
 ms.date: 12/05/2018
 ms.keywords: IDXGIDisplayControl, IDXGIDisplayControl interface [DXGI], IDXGIDisplayControl interface [DXGI],described, direct3ddxgi.idxgidisplaycontrol, dxgi1_2/IDXGIDisplayControl
-ms.topic: interface
 f1_keywords:
 - dxgi1_2/IDXGIDisplayControl
 dev_langs:
@@ -107,7 +106,7 @@ Set a Boolean value to either enable or disable the operating system's stereosco
 <div class="alert"><b>Note</b>  The <b>IDXGIDisplayControl</b> interface does not exist for Windows Store apps.
         </div>
 <div> </div>
-Call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> from a factory object (<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>, <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1">IDXGIFactory1</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a>) to retrieve the <b>IDXGIDisplayControl</b> interface. The following code shows how.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> from a factory object (<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>, <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1">IDXGIFactory1</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a>) to retrieve the <b>IDXGIDisplayControl</b> interface. The following code shows how.
         
 
 

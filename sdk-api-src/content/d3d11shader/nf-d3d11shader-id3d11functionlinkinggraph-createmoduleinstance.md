@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 7E854D31-3E34-43A7-ABEB-7FBAC94217F3
 ms.date: 12/05/2018
 ms.keywords: CreateModuleInstance, CreateModuleInstance method [Direct3D 11], CreateModuleInstance method [Direct3D 11],ID3D11FunctionLinkingGraph interface, ID3D11FunctionLinkingGraph interface [Direct3D 11],CreateModuleInstance method, ID3D11FunctionLinkingGraph.CreateModuleInstance, ID3D11FunctionLinkingGraph::CreateModuleInstance, d3d11shader/ID3D11FunctionLinkingGraph::CreateModuleInstance, direct3d11.id3d11functionlinkinggraph_createmoduleinstance
-ms.topic: method
 f1_keywords:
 - d3d11shader/ID3D11FunctionLinkingGraph.CreateModuleInstance
 dev_langs:

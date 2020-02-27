@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 581f8d9f-5421-44ab-a3e2-dfb536a35c2c
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NULL, MI_Instance_SetElement, MI_Instance_SetElement function [Windows Management Infrastructure (MI)], mi/MI_Instance_SetElement, wmi_v2.mi_instance_setelement
-ms.topic: function
 f1_keywords:
 - mi/MI_Instance_SetElement
 dev_langs:

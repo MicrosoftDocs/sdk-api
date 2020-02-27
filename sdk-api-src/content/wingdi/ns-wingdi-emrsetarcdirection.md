@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: d33d329f-7f66-4995-b80f-656c96ea105b
 ms.date: 12/05/2018
 ms.keywords: '*PEMRSETARCDIRECTION, EMRSETARCDIRECTION, EMRSETARCDIRECTION structure [Windows GDI], PEMRSETARCDIRECTION, PEMRSETARCDIRECTION structure pointer [Windows GDI], _win32_EMRSETARCDIRECTION_str, gdi.emrsetarcdirection, wingdi/EMRSETARCDIRECTION, wingdi/PEMRSETARCDIRECTION'
-ms.topic: struct
 f1_keywords:
 - wingdi/EMRSETARCDIRECTION
 dev_langs:

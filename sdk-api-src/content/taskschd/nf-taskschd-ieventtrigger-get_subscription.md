@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 884b98cd-f782-44af-9534-067198a7f48d
 ms.date: 12/05/2018
 ms.keywords: IEventTrigger interface [Task Scheduler],Subscription property, IEventTrigger.Subscription, IEventTrigger.get_Subscription, IEventTrigger::Subscription, IEventTrigger::get_Subscription, IEventTrigger::put_Subscription, Subscription property [Task Scheduler], Subscription property [Task Scheduler],IEventTrigger interface, get_Subscription, taskschd.ieventtrigger_subscription, taskschd/IEventTrigger::Subscription, taskschd/IEventTrigger::get_Subscription, taskschd/IEventTrigger::put_Subscription
-ms.topic: method
 f1_keywords:
 - taskschd/IEventTrigger.Subscription
 dev_langs:
@@ -66,7 +65,7 @@ This property is read/write.
 
 When reading or writing your own XML for a task, the event subscription is specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-subscription-eventtriggertype-element">Subscription</a> element of the Task Scheduler schema.
 
-For more information about writing a query string for certain events, see <a href="http://go.microsoft.com/fwlink/p/?linkid=168218">Event Selection</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=168415">Subscribing to Events</a>.
+For more information about writing a query string for certain events, see <a href="https://msdn.microsoft.com/library/aa385231(VS.85).aspx">Event Selection</a> and <a href="https://msdn.microsoft.com/library/aa385771(VS.85).aspx">Subscribing to Events</a>.
 
 
 #### Examples

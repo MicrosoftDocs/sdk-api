@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: ba53ea12-7f05-4f68-8a59-915a5906b7be
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectUser interface [TAPI 2.2],put_IPPhonePrimary method, ITDirectoryObjectUser.put_IPPhonePrimary, ITDirectoryObjectUser::put_IPPhonePrimary, _tapi3_itdirectoryobjectuser_put_ipphoneprimary, put_IPPhonePrimary, put_IPPhonePrimary method [TAPI 2.2], put_IPPhonePrimary method [TAPI 2.2],ITDirectoryObjectUser interface, rend/ITDirectoryObjectUser::put_IPPhonePrimary, tapi3.itdirectoryobjectuser_put_ipphoneprimary
-ms.topic: method
 f1_keywords:
 - rend/ITDirectoryObjectUser.put_IPPhonePrimary
 dev_langs:

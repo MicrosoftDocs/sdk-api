@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: da15d6b3-6725-43b8-9a2c-c19269a79d1e
 ms.date: 12/05/2018
 ms.keywords: ScriptItemizeOpenType, ScriptItemizeOpenType function [Internationalization for Windows Applications], _win32_ScriptItemizeOpenType, intl.scriptitemizeopentype, usp10/ScriptItemizeOpenType
-ms.topic: function
 f1_keywords:
 - usp10/ScriptItemizeOpenType
 dev_langs:
@@ -183,7 +182,7 @@ For example, if <b>uDefaultLanguage</b> indicates LANG_ARABIC, initial digits ar
 
 For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/digit-shapes">Digit Shapes</a>.
 
-The Unicode control characters and definitions, and their effects on <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a> members, are provided in the following table. For more information on Unicode control characters, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=161649">The Unicode Standard</a>.
+The Unicode control characters and definitions, and their effects on <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a> members, are provided in the following table. For more information on Unicode control characters, see the <a href="https://www.unicode.org/standard/standard.html">The Unicode Standard</a>.
 
 <table>
 <tr>

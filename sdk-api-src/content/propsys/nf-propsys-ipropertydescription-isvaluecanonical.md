@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: e0eedb58-82ed-4481-8319-633ddf20949c
 ms.date: 12/05/2018
 ms.keywords: IPropertyDescription interface [Windows Properties],IsValueCanonical method, IPropertyDescription.IsValueCanonical, IPropertyDescription::IsValueCanonical, IsValueCanonical, IsValueCanonical method [Windows Properties], IsValueCanonical method [Windows Properties],IPropertyDescription interface, properties.IPropertyDescription_IsValueCanonical, propsys/IPropertyDescription::IsValueCanonical, shell.IPropertyDescription_IsValueCanonical, shell_IPropertyDescription_IsValueCanonical
-ms.topic: method
 f1_keywords:
 - propsys/IPropertyDescription.IsValueCanonical
 dev_langs:

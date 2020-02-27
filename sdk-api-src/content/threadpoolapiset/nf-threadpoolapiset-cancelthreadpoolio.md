@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: e3af8313-2e09-4c88-8cef-671efd4228c7
 ms.date: 12/05/2018
 ms.keywords: CancelThreadpoolIo, CancelThreadpoolIo function, base.cancelthreadpoolio, threadpoolapiset/CancelThreadpoolIo, winbase/CancelThreadpoolIo
-ms.topic: function
 f1_keywords:
 - threadpoolapiset/CancelThreadpoolIo
 dev_langs:

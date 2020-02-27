@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 3d7601a5-6d22-4b1a-a222-9db46d21a3c7
 ms.date: 12/05/2018
 ms.keywords: GetTimeZoneInformation, GetTimeZoneInformation function, _win32_gettimezoneinformation, base.gettimezoneinformation, timezoneapi/GetTimeZoneInformation
-ms.topic: function
 f1_keywords:
 - timezoneapi/GetTimeZoneInformation
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 44bedfa3-5a92-4e78-9e38-8278a7efe9b7
 ms.date: 12/05/2018
 ms.keywords: Wow64DisableWow64FsRedirection, Wow64DisableWow64FsRedirection function [Files], base.wow64disablewow64fsredirection, fs.wow64disablewow64fsredirection, wow64apiset/Wow64DisableWow64FsRedirection
-ms.topic: function
 f1_keywords:
 - wow64apiset/Wow64DisableWow64FsRedirection
 dev_langs:

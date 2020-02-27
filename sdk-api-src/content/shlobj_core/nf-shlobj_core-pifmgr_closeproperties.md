@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: fd50d4f8-87c8-4162-9e88-3c8592b929fa
 ms.date: 12/05/2018
 ms.keywords: CLOSEPROPS_DISCARD, CLOSEPROPS_NONE, PifMgr_CloseProperties, PifMgr_CloseProperties function [Windows Properties], _win32_PifMgr_CloseProperties, properties.PifMgr_CloseProperties, shell.PifMgr_CloseProperties, shlobj_core/PifMgr_CloseProperties
-ms.topic: function
 f1_keywords:
 - shlobj_core/PifMgr_CloseProperties
 dev_langs:

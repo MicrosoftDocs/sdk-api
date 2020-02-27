@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 6a5d03e9-e6d1-452a-a189-ca693a72c610
 ms.date: 12/05/2018
 ms.keywords: ITToneTerminalEvent, ITToneTerminalEvent interface [TAPI 2.2], ITToneTerminalEvent interface [TAPI 2.2],described, _tapi3_ittoneterminalevent, tapi3.ittoneterminalevent, tapi3if/ITToneTerminalEvent
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITToneTerminalEvent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 5004EA84-216C-4758-8AA1-7E823583871E
 ms.date: 12/05/2018
 ms.keywords: RenderingControls, RenderingControls function [Direct2D], d2d1_1helper/RenderingControls, direct2d.renderingcontrols
-ms.topic: function
 f1_keywords:
 - d2d1_1helper/RenderingControls
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8lo3.htm
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Fax Service], GetStatus method [Fax Service],IFaxPort interface, IFaxPort interface [Fax Service],GetStatus method, IFaxPort.GetStatus, IFaxPort::GetStatus, _mfax_ifaxport_getstatus, fax._mfax_ifaxport_getstatus, fax._mfax_ifaxport_mfax_ifaxport_getstatus_cpp, faxcom/IFaxPort::GetStatus
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxPort.GetStatus
 dev_langs:
@@ -80,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <b>IFaxPort::GetStatus</b> method retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxstatus">FaxStatus</a> object. A fax client application can also access the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxstatus">IFaxStatus</a> interface directly by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method to retrieve an <b>IFaxStatus</b> interface pointer.
+The <b>IFaxPort::GetStatus</b> method retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxstatus">FaxStatus</a> object. A fax client application can also access the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxstatus">IFaxStatus</a> interface directly by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method to retrieve an <b>IFaxStatus</b> interface pointer.
 
 
 

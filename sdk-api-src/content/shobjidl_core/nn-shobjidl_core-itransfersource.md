@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 341966d4-f9cf-457d-97ef-8e6107544283
 ms.date: 12/05/2018
 ms.keywords: ITransferSource, ITransferSource interface [Windows Shell], ITransferSource interface [Windows Shell],described, _shell_ITransferSource, shell.ITransferSource, shobjidl_core/ITransferSource
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/ITransferSource
 dev_langs:

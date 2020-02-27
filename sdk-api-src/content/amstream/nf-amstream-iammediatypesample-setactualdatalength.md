@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 158a1761-7d42-4611-9667-9e717b23a2da
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],SetActualDataLength method, IAMMediaTypeSample.SetActualDataLength, IAMMediaTypeSample::SetActualDataLength, IAMMediaTypeSampleSetActualDataLength, SetActualDataLength, SetActualDataLength method [DirectShow], SetActualDataLength method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetActualDataLength, dshow.iammediatypesample_setactualdatalength
-ms.topic: method
 f1_keywords:
 - amstream/IAMMediaTypeSample.SetActualDataLength
 dev_langs:

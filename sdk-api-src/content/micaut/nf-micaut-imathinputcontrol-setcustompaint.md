@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: f734b73c-88a9-45d0-a657-ff048d1f5ffe
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetCustomPaint method, IMathInputControl.SetCustomPaint, IMathInputControl::SetCustomPaint, SetCustomPaint, SetCustomPaint method [Tablet PC], SetCustomPaint method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetCustomPaint, tablet.imathinputcontrol_setcustompaint
-ms.topic: method
 f1_keywords:
 - micaut/IMathInputControl.SetCustomPaint
 dev_langs:

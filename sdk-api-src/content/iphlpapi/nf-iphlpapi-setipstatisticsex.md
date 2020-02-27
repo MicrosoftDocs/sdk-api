@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 13b52016-5bdb-4546-af53-d3ae2708653b
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, SetIpStatisticsEx, SetIpStatisticsEx function [IP Helper], iphlp.setipstatisticsex, iphlpapi/SetIpStatisticsEx
-ms.topic: function
 f1_keywords:
 - iphlpapi/SetIpStatisticsEx
 dev_langs:

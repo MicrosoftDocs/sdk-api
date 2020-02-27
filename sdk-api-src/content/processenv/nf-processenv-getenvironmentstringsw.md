@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: fb431d83-f3e7-4f2a-bad9-81259681c1f4
 ms.date: 12/05/2018
 ms.keywords: GetEnvironmentStrings, GetEnvironmentStrings function, GetEnvironmentStringsA, GetEnvironmentStringsW, _win32_getenvironmentstrings, base.getenvironmentstrings, processenv/GetEnvironmentStrings, processenv/GetEnvironmentStringsA, processenv/GetEnvironmentStringsW, winbase/GetEnvironmentStrings, winbase/GetEnvironmentStringsA, winbase/GetEnvironmentStringsW
-ms.topic: function
 f1_keywords:
 - processenv/GetEnvironmentStrings
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 1c78bb35-dfa9-40f0-b3a4-db4a1c212cf7
 ms.date: 12/05/2018
 ms.keywords: IADsFaxNumber, IADsFaxNumber interface [ADSI], IADsFaxNumber interface [ADSI],described, _ds_iadsfaxnumber, adsi.iadsfaxnumber, iads/IADsFaxNumber
-ms.topic: interface
 f1_keywords:
 - iads/IADsFaxNumber
 dev_langs:

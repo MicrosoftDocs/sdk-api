@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 76FC9938-914C-4328-BE71-DC898241D9EA
 ms.date: 12/05/2018
 ms.keywords: AddModelTexture, AddModelTexture method [XPS Documents and Packaging], AddModelTexture method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],AddModelTexture method, IXpsOMPackageWriter3D.AddModelTexture, IXpsOMPackageWriter3D::AddModelTexture, xps.ixpsompackagewriter3d_addmodeltexture, xpsobjectmodel_2/IXpsOMPackageWriter3D::AddModelTexture
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel_2/IXpsOMPackageWriter3D.AddModelTexture
 dev_langs:

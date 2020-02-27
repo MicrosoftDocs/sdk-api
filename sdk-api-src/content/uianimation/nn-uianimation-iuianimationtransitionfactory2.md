@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: EB829B6A-770C-486A-9BA2-4D7C8F073C8F
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTransitionFactory2, IUIAnimationTransitionFactory2 interface [Windows Animation], IUIAnimationTransitionFactory2 interface [Windows Animation],described, uianimation.iuianimationtransitionfactory2, uianimation/IUIAnimationTransitionFactory2
-ms.topic: interface
 f1_keywords:
 - uianimation/IUIAnimationTransitionFactory2
 dev_langs:

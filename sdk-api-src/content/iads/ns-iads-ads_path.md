@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: b8393a81-3e2a-4e59-a6be-def779efbe82
 ms.date: 12/05/2018
 ms.keywords: '*PADS_PATH, ADS_PATH, ADS_PATH structure [ADSI], PADS_PATH, PADS_PATH structure pointer [ADSI], _ds_ads_path, adsi.ads__path, adsi.ads_path, iads/ADS_PATH, iads/PADS_PATH'
-ms.topic: struct
 f1_keywords:
 - iads/ADS_PATH
 dev_langs:

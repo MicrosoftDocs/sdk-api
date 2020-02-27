@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 4fff1328-d315-4a26-b7d8-43a273133e08
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher, IWSDiscoveryPublisher interface, IWSDiscoveryPublisher interface,described, ncd.iwsdiscoverypublisher, wsddisco/IWSDiscoveryPublisher
-ms.topic: interface
 f1_keywords:
 - wsddisco/IWSDiscoveryPublisher
 dev_langs:
@@ -194,7 +193,7 @@ Removes support for a custom scope matching rule.
 
 
 
- This interface represents the "server" or "host" side of <a href="http://go.microsoft.com/fwlink/p/?linkid=87841">WS-Discovery</a>.
+ This interface represents the "server" or "host" side of <a href="https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf">WS-Discovery</a>.
 
 
 

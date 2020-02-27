@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 09c9ecf6-43e0-480c-b607-537632b56576
 ms.date: 12/05/2018
 ms.keywords: PDH_CVERSION_WIN50, PDH_VERSION, PdhGetDllVersion, PdhGetDllVersion function [Perf], _win32_pdhgetdllversion, base.pdhgetdllversion, pdh/PdhGetDllVersion, perf.pdhgetdllversion
-ms.topic: function
 f1_keywords:
 - pdh/PdhGetDllVersion
 dev_langs:

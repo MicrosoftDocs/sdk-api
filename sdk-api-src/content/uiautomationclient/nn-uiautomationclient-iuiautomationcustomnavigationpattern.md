@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 0FF8604E-DD0E-4243-9B7E-219A26ACAC9C
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationCustomNavigationPattern, IUIAutomationCustomNavigationPattern interface [Windows Accessibility], IUIAutomationCustomNavigationPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationCustomNavigationPattern, winauto.uiauto_IUIAutomationCustomNavigationPattern
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationCustomNavigationPattern
 dev_langs:

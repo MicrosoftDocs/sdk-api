@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 7124ef73-148f-41df-afd6-ebfa29d5cf1c
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetCallStatus, TSPI_lineGetCallStatus function [TAPI 2.2], _tspi_tspi_linegetcallstatus, tspi.tspi_linegetcallstatus, tspi/TSPI_lineGetCallStatus
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineGetCallStatus
 dev_langs:

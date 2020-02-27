@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 9debed66-6588-40b5-ab52-a3dba0ddef92
 ms.date: 12/05/2018
 ms.keywords: GetSignatureId, GetSignatureId method [XPS Documents and Packaging], GetSignatureId method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSignatureId method, IXpsSignature.GetSignatureId, IXpsSignature::GetSignatureId, xps.ixpssignature_getsignatureid, xpsdigitalsignature/IXpsSignature::GetSignatureId
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignature.GetSignatureId
 dev_langs:
@@ -139,7 +138,7 @@ This method allocates the memory used by the string that is returned in <i>sigId
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

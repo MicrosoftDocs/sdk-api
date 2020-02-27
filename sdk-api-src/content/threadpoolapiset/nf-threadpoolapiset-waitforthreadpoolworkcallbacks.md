@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 97c16892-d6ef-4216-ac79-344e83ab35bc
 ms.date: 12/05/2018
 ms.keywords: WaitForThreadpoolWorkCallbacks, WaitForThreadpoolWorkCallbacks function, base.waitforthreadpoolworkcallbacks, threadpoolapiset/WaitForThreadpoolWorkCallbacks, winbase/WaitForThreadpoolWorkCallbacks
-ms.topic: function
 f1_keywords:
 - threadpoolapiset/WaitForThreadpoolWorkCallbacks
 dev_langs:

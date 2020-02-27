@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 969b8a91-6685-4fd8-95a1-bb9f0bfc88b5
 ms.date: 12/05/2018
 ms.keywords: ITrayDeskBand interface [Windows Shell],IsDeskBandShown method, ITrayDeskBand.IsDeskBandShown, ITrayDeskBand::IsDeskBandShown, IsDeskBandShown, IsDeskBandShown method [Windows Shell], IsDeskBandShown method [Windows Shell],ITrayDeskBand interface, _shell_ITrayDeskBand_IsDeskBandShown, shell.ITrayDeskBand_IsDeskBandShown, shobjidl/ITrayDeskBand::IsDeskBandShown
-ms.topic: method
 f1_keywords:
 - shobjidl/ITrayDeskBand.IsDeskBandShown
 dev_langs:

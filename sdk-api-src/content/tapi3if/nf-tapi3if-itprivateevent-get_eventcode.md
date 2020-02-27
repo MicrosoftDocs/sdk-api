@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: a66423ca-c0ed-4d1d-bf28-afc59ac5a5d4
 ms.date: 12/05/2018
 ms.keywords: ITPrivateEvent interface [TAPI 2.2],get_EventCode method, ITPrivateEvent.get_EventCode, ITPrivateEvent::get_EventCode, _tapi3_itprivateevent_get_eventcode, get_EventCode, get_EventCode method [TAPI 2.2], get_EventCode method [TAPI 2.2],ITPrivateEvent interface, tapi3.itprivateevent_get_eventcode, tapi3if/ITPrivateEvent::get_EventCode
-ms.topic: method
 f1_keywords:
 - tapi3if/ITPrivateEvent.get_EventCode
 dev_langs:

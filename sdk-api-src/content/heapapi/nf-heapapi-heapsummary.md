@@ -3,7 +3,6 @@ UID: NF:heapapi.HeapSummary
 title: HeapSummary
 ms.date: 4/26/2019
 ms.keywords: HeapSummary
-ms.topic: language-reference
 f1_keywords:
 - HeapSummary
 dev_langs:
@@ -57,7 +56,7 @@ The heap summary options.
 
 ### -param lpSummary
 
-Receives a pointer to a [Heap_Summary](ns-heapapi-heap_summary) structure representing the heap summary.
+Receives a pointer to a [Heap_Summary](ns-heapapi-heap_summary.md) structure representing the heap summary.
 
 ## -returns
 

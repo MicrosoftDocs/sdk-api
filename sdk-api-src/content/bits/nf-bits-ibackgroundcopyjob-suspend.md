@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 88429730-b8e5-4969-934c-f0945fdd46a6
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],Suspend method, IBackgroundCopyJob.Suspend, IBackgroundCopyJob::Suspend, Suspend, Suspend method [BITS], Suspend method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_suspend, bits.ibackgroundcopyjob_suspend, bits/IBackgroundCopyJob::Suspend
-ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyJob.Suspend
 dev_langs:

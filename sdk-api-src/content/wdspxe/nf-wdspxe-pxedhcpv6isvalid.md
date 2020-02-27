@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: E20A9E7A-8CFA-4A2B-8A40-7937937332A5
 ms.date: 12/05/2018
 ms.keywords: FALSE, PxeDhcpv6IsValid, PxeDhcpv6IsValid function [Windows Deployment Services], TRUE, wds.pxedhcpv6isvalid, wdspxe/PxeDhcpv6IsValid
-ms.topic: function
 f1_keywords:
 - wdspxe/PxeDhcpv6IsValid
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Validates that a packet is a valid DHCPv6 packet.
 
-For more information about valid DHCPv6 packets, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="Http://go.microsoft.com/fwlink/p/?linkid=132626">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
+For more information about valid DHCPv6 packets, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="https://www.ietf.org/rfc/rfc3315.txt">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
 
 
 ## -parameters

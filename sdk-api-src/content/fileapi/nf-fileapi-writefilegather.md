@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 9590eabb-6e85-406e-8101-e67f87e6850b
 ms.date: 12/05/2018
 ms.keywords: WriteFileGather, WriteFileGather function [Files], _win32_writefilegather, base.writefilegather, fileapi/WriteFileGather, fs.writefilegather, winbase/WriteFileGather
-ms.topic: function
 f1_keywords:
 - fileapi/WriteFileGather
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: 52b7e852-b389-47ec-a9d0-e4ce2e95f1f8
 ms.date: 12/05/2018
 ms.keywords: ISettingsItem interface [SMI],SetValue method, ISettingsItem.SetValue, ISettingsItem::SetValue, SetValue, SetValue method [SMI], SetValue method [SMI],ISettingsItem interface, smi.isettingsitem_setvalue, wcmconfig/ISettingsItem::SetValue
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsItem.SetValue
 dev_langs:

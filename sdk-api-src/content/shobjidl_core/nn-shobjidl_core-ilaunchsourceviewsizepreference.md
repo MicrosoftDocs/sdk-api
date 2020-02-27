@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 94436BC1-658E-4D33-866D-9C05282291A8
 ms.date: 12/05/2018
 ms.keywords: ILaunchSourceViewSizePreference, ILaunchSourceViewSizePreference interface [Windows Shell], ILaunchSourceViewSizePreference interface [Windows Shell],described, shell.ILaunchSourceViewSizePreference, shobjidl_core/ILaunchSourceViewSizePreference
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/ILaunchSourceViewSizePreference
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: d976675a-5400-41ac-a11d-c39a1b2dd50d
 ms.date: 12/05/2018
 ms.keywords: Wow64SuspendThread, Wow64SuspendThread function, base.wow64suspendthread, winbase/Wow64SuspendThread
-ms.topic: function
 f1_keywords:
 - winbase/Wow64SuspendThread
 dev_langs:

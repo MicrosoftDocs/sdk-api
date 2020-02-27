@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter_checkinterfacesupport.htm
 ms.date: 12/05/2018
 ms.keywords: 5922d4df-f6ec-4fce-1a94-3779ba7e2830, CheckInterfaceSupport, CheckInterfaceSupport method [DXGI], CheckInterfaceSupport method [DXGI],IDXGIAdapter interface, IDXGIAdapter interface [DXGI],CheckInterfaceSupport method, IDXGIAdapter.CheckInterfaceSupport, IDXGIAdapter::CheckInterfaceSupport, direct3ddxgi.idxgiadapter_checkinterfacesupport, dxgi/IDXGIAdapter::CheckInterfaceSupport
-ms.topic: method
 f1_keywords:
 - dxgi/IDXGIAdapter.CheckInterfaceSupport
 dev_langs:
@@ -61,7 +60,7 @@ Checks whether the system supports a device interface for a graphics component.
 
 ### -param InterfaceName [in]
 
-Type: <b><a href="http://go.microsoft.com/?linkid=9742306">REFGUID</a></b>
+Type: <b><a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50?redirectedfrom=MSDN">REFGUID</a></b>
 
 The GUID of the interface of the device version for which support is being checked. For example, __uuidof(ID3D10Device).
 

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 416faebe-021b-4c00-9aba-d103a26348f6
 ms.date: 12/05/2018
 ms.keywords: EngAllocPrivateUserMem, EngAllocPrivateUserMem function [Display Devices], display.engallocprivateusermem, gdifncs_e31cecee-3490-46b1-ad57-4cf8c2a4f378.xml, winddi/EngAllocPrivateUserMem
-ms.topic: macro
 f1_keywords:
 - winddi/EngAllocPrivateUserMem
 dev_langs:

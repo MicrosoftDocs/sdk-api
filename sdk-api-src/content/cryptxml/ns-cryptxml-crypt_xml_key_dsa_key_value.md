@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 634c47c2-28ba-40ea-975d-95f5663eb0b0
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_KEY_DSA_KEY_VALUE, CRYPT_XML_KEY_DSA_KEY_VALUE structure [Security], cryptxml/CRYPT_XML_KEY_DSA_KEY_VALUE, security.crypt_xml_key_dsa_key_value
-ms.topic: struct
 f1_keywords:
 - cryptxml/CRYPT_XML_KEY_DSA_KEY_VALUE
 dev_langs:

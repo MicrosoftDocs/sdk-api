@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: b102f7d7-1a0b-40b5-bcc6-fa82dbcb4156
 ms.date: 12/05/2018
 ms.keywords: CreateAnimationVectorVariable, CreateAnimationVectorVariable method [Windows Animation], CreateAnimationVectorVariable method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],CreateAnimationVectorVariable method, IUIAnimationManager2.CreateAnimationVectorVariable, IUIAnimationManager2::CreateAnimationVectorVariable, uianimation.iuianimationmanager2_createanimationvectorvariable, uianimation/IUIAnimationManager2::CreateAnimationVectorVariable
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationManager2.CreateAnimationVectorVariable
 dev_langs:

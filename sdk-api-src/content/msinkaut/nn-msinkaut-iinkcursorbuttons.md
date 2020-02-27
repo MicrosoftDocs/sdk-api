@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 3f695ab4-8174-402f-b7d6-810f149f5153
 ms.date: 12/05/2018
 ms.keywords: 3f695ab4-8174-402f-b7d6-810f149f5153, IInkCursorButtons, IInkCursorButtons interface [Tablet PC], IInkCursorButtons interface [Tablet PC],described, msinkaut/IInkCursorButtons, tablet.iinkcursorbuttons
-ms.topic: interface
 f1_keywords:
 - msinkaut/IInkCursorButtons
 dev_langs:

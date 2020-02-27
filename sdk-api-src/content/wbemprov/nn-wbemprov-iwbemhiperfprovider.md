@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: eb0d12c0-d746-4bae-b47d-50350d33447a
 ms.date: 12/05/2018
 ms.keywords: IWbemHiPerfProvider, IWbemHiPerfProvider interface [Windows Management Instrumentation], IWbemHiPerfProvider interface [Windows Management Instrumentation],described, _hmm_iwbemhiperfprovider, wbemprov/IWbemHiPerfProvider, wmi.iwbemhiperfprovider
-ms.topic: interface
 f1_keywords:
 - wbemprov/IWbemHiPerfProvider
 dev_langs:

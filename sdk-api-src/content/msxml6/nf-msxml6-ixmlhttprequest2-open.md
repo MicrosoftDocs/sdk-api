@@ -7,7 +7,6 @@ tech.root: ixhr2
 ms.assetid: 8723F24B-0739-44D6-8443-1A378B585F42
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],Open method, IXMLHTTPRequest2.Open, IXMLHTTPRequest2::Open, Open, Open method [XMLHttpRequest2], Open method [XMLHttpRequest2],IXMLHTTPRequest2 interface, ixhr2.ixmlhttprequest2_open, msxml6/IXMLHTTPRequest2::Open
-ms.topic: method
 f1_keywords:
 - msxml6/IXMLHTTPRequest2.Open
 dev_langs:
@@ -140,7 +139,7 @@ hr = spXHR-&gt;Open(L"GET",              // Method.
 hr = spXHR-&gt;Send(NULL, 0);
 
 hr = spXhrCallback-&gt;WaitForComplete(&amp;dwStatus);</code></pre>
-For the complete examples download the <a href="http://go.microsoft.com/fwlink/p/?linkid=245065">XML HTTP Request 2 GET  sample</a> and  <a href="http://go.microsoft.com/fwlink/p/?linkid=245066">XML HTTP Request 2 POST  sample</a> from the Windows Sample Gallery.
+For the complete examples download the <a href="https://code.msdn.microsoft.com/windowsapps/site/search">XML HTTP Request 2 GET  sample</a> and  <a href="https://code.msdn.microsoft.com/windowsapps/site/search">XML HTTP Request 2 POST  sample</a> from the Windows Sample Gallery.
 
 
 

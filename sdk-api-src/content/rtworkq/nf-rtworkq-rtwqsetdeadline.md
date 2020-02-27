@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 1A5D6352-283C-43FC-B011-48DFA69BC75A
 ms.date: 12/05/2018
 ms.keywords: RtwqSetDeadline, RtwqSetDeadline function, base.rtwqsetdeadline, rtworkq/RtwqSetDeadline
-ms.topic: function
 f1_keywords:
 - rtworkq/RtwqSetDeadline
 dev_langs:

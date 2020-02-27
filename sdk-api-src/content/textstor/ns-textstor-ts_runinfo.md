@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 601cd6b0-0064-4cd3-99cd-850104a861a5
 ms.date: 12/05/2018
 ms.keywords: TS_RUNINFO, TS_RUNINFO structure [Text Services Framework], _tsf_ts_runinfo_ref, textstor/TS_RUNINFO, tsf.ts_runinfo
-ms.topic: struct
 f1_keywords:
 - textstor/TS_RUNINFO
 dev_langs:

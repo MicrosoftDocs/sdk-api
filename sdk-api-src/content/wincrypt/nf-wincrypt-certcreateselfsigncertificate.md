@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 89028c4e-f896-4c50-9fa2-bcb4e1784244
 ms.date: 12/05/2018
 ms.keywords: CERT_CREATE_SELFSIGN_NO_KEY_INFO, CERT_CREATE_SELFSIGN_NO_SIGN, CertCreateSelfSignCertificate, CertCreateSelfSignCertificate function [Security], _crypto2_certcreateselfsigncertificate, security.certcreateselfsigncertificate, wincrypt/CertCreateSelfSignCertificate
-ms.topic: function
 f1_keywords:
 - wincrypt/CertCreateSelfSignCertificate
 dev_langs:
@@ -144,6 +143,9 @@ If the function succeeds, a <a href="https://docs.microsoft.com/windows/desktop/
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
+## -remarks
+
+As the pEndTime must be a valid date, and is automatically generated if it is not supplied by the user, unexpected failures may easily be caused when this API is called on a leap day without accompanying app logic to compensate. For more information, please see [leap year readiness](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/it-s-2020-is-your-code-ready-for-leap-day/ba-p/1157279).
 
 
 ## -see-also

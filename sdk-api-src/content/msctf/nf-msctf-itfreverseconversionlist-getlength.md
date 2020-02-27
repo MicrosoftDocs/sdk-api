@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 0cf59b02-486b-412b-a8c2-b8a6e8e50248
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Text Services Framework], GetLength method [Text Services Framework],ITfReverseConversionList interface, ITfReverseConversionList interface [Text Services Framework],GetLength method, ITfReverseConversionList.GetLength, ITfReverseConversionList::GetLength, msctf/ITfReverseConversionList::GetLength, tsf.itfreverseconversionlist_getlength
-ms.topic: method
 f1_keywords:
 - msctf/ITfReverseConversionList.GetLength
 dev_langs:

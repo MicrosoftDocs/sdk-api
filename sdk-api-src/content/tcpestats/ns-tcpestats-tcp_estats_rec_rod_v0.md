@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 1481f108-1ea3-4952-9131-8b15e373d83e
 ms.date: 12/05/2018
 ms.keywords: '*PTCP_ESTATS_REC_ROD_v0, PTCP_ESTATS_REC_ROD_v0, PTCP_ESTATS_REC_ROD_v0 structure pointer [IP Helper], TCP_ESTATS_REC_ROD_v0, TCP_ESTATS_REC_ROD_v0 structure [IP Helper], iphlp.tcp_estats_rec_rod_v0, tcpestats/PTCP_ESTATS_REC_ROD_v0, tcpestats/TCP_ESTATS_REC_ROD_v0'
-ms.topic: struct
 f1_keywords:
 - tcpestats/TCP_ESTATS_REC_ROD_v0
 dev_langs:
@@ -200,12 +199,12 @@ The <b>TCP_ESTATS_REC_ROD_v0</b> is defined as version 0 of the structure for  r
 
 The <b>TCP_ESTATS_REC_ROD_v0</b> structure is retrieved by calls to  the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a> or <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a> functions when <b>TcpConnectionEstatsRec</b> is passed in the <i>EstatsType</i> parameter. Extended TCP statistics need to be enabled to retrieve this structure.
 
-TCP congestion control and congestion control algorithms are discussed in detail in the IETF RFC 2581 on TCP Congestion Control. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=166789">http://www.ietf.org/rfc/rfc2581.txt</a>.
+TCP congestion control and congestion control algorithms are discussed in detail in the IETF RFC 2581 on TCP Congestion Control. For more information, see <a href="http://tools.ietf.org/html/rfc2581">http://www.ietf.org/rfc/rfc2581.txt</a>.
 
 Explicit Congestion Notification in IP is discussed in detail in the IETF RFC 2581 on The Addition of Explicit Congestion Notification
-           (ECN) to IP. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=167116">http://www.ietf.org/rfc/rfc3168.txt</a>.
+           (ECN) to IP. For more information, see <a href="http://tools.ietf.org/html/rfc3168">http://www.ietf.org/rfc/rfc3168.txt</a>.
 
-The members of this structure are defined in the IETF RFC on the TCP Extended Statistics MIB. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=121686">http://www.ietf.org/rfc/rfc4898.txt</a>.
+The members of this structure are defined in the IETF RFC on the TCP Extended Statistics MIB. For more information, see <a href="http://tools.ietf.org/html/rfc4898">http://www.ietf.org/rfc/rfc4898.txt</a>.
 
 
 

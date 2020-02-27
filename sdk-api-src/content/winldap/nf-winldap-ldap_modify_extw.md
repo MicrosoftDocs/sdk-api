@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: a11f4944-d574-4215-a25e-536adf21c469
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_modify_ext, ldap.ldap__modify__ext, ldap.ldap_modify_ext, ldap_modify_ext, ldap_modify_ext function [LDAP], ldap_modify_extA, ldap_modify_extW, winldap/ldap_modify_ext, winldap/ldap_modify_extA, winldap/ldap_modify_extW
-ms.topic: function
 f1_keywords:
 - winldap/ldap_modify_ext
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: f01d0700-2399-4e33-8a0c-59bb1f0f2495
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Windows Media Player], GetProperty method [Windows Media Player],IWMPPluginUI interface, IWMPPluginUI interface [Windows Media Player],GetProperty method, IWMPPluginUI.GetProperty, IWMPPluginUI::GetProperty, IWMPPluginUIGetProperty, wmp.iwmppluginui_getproperty, wmpplug/IWMPPluginUI::GetProperty
-ms.topic: method
 f1_keywords:
 - wmpplug/IWMPPluginUI.GetProperty
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: a61702bd-26a8-4bd9-96c1-82a59dad7ead
 ms.date: 12/05/2018
 ms.keywords: GetEscapedElement, GetEscapedElement method [ADSI], GetEscapedElement method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],GetEscapedElement method, IADsPathname.GetEscapedElement, IADsPathname::GetEscapedElement, _ds_iadspathname_getescapedelement, adsi.iadspathname__getescapedelement, adsi.iadspathname_getescapedelement, iads/IADsPathname::GetEscapedElement
-ms.topic: method
 f1_keywords:
 - iads/IADsPathname.GetEscapedElement
 dev_langs:

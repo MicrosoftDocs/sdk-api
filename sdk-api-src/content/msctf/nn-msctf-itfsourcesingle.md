@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 01e60ede-b871-4b38-b2ee-24f79c5b3e80
 ms.date: 12/05/2018
 ms.keywords: ITfSourceSingle, ITfSourceSingle interface [Text Services Framework], ITfSourceSingle interface [Text Services Framework],described, _tsf_itfsourcesingle_ref, msctf/ITfSourceSingle, tsf.itfsourcesingle
-ms.topic: interface
 f1_keywords:
 - msctf/ITfSourceSingle
 dev_langs:

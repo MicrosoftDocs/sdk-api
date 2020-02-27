@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 7BD6F43D-4E3B-4D50-BB9C-FAF27E9B50C1
 ms.date: 12/05/2018
 ms.keywords: IDCompositionAffineTransform2DEffect interface [DirectComposition],SetTransformMatrixElement method, IDCompositionAffineTransform2DEffect.SetTransformMatrixElement, IDCompositionAffineTransform2DEffect.SetTransformMatrixElement(int,int,IDCompositionAnimation), IDCompositionAffineTransform2DEffect::SetTransformMatrixElement, IDCompositionAffineTransform2DEffect::SetTransformMatrixElement(int,int,IDCompositionAnimation), SetTransformMatrixElement, SetTransformMatrixElement method [DirectComposition], SetTransformMatrixElement method [DirectComposition],IDCompositionAffineTransform2DEffect interface, dcomp/IDCompositionAffineTransform2DEffect::SetTransformMatrixElement, directcomp.idcompositionaffinetransform2deffect_settransformmatrixelement_2
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionAffineTransform2DEffect.SetTransformMatrixElement
 dev_langs:

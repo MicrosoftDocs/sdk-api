@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 6f6cf233-3481-436e-8d6a-51f93bf91619
 ms.date: 12/05/2018
 ms.keywords: GetIDsOfNames, GetIDsOfNames method [Automation], GetIDsOfNames method [Automation],IDispatch interface, IDispatch interface [Automation],GetIDsOfNames method, IDispatch.GetIDsOfNames, IDispatch::GetIDsOfNames, _oa96_IDispatch::GetIDsOfNames, automat.idispatch_getidsofnames, oaidl/IDispatch::GetIDsOfNames
-ms.topic: method
 f1_keywords:
 - oaidl/IDispatch.GetIDsOfNames
 dev_langs:
@@ -163,7 +162,7 @@ The same name may map to different DISPIDs, depending on context. For example, a
 
 The implementation of <b>GetIDsOfNames</b> is case insensitive. Users that need case-sensitive name mapping should use type information interfaces to map names to DISPIDs, rather than call <b>GetIDsOfNames</b>.
 
-<div class="alert"><b>Caution</b>  You cannot use this method to access values that have been added dynamically, such as values added through JavaScript. Instead, use the GetDispID of the IDispatchEx interface. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=210782">IDispatchEx interface</a>.</div>
+<div class="alert"><b>Caution</b>  You cannot use this method to access values that have been added dynamically, such as values added through JavaScript. Instead, use the GetDispID of the IDispatchEx interface. For more information, see the <a href="https://msdn.microsoft.com/library/sky96ah7(VS.94).aspx">IDispatchEx interface</a>.</div>
 <div> </div>
 
 #### Examples

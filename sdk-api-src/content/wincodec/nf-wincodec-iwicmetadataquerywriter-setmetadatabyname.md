@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: fd3a9752-f13f-4f19-b2bd-04b5df1e0dd2
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataQueryWriter interface [Windows Imaging Component],SetMetadataByName method, IWICMetadataQueryWriter.SetMetadataByName, IWICMetadataQueryWriter::SetMetadataByName, SetMetadataByName, SetMetadataByName method [Windows Imaging Component], SetMetadataByName method [Windows Imaging Component],IWICMetadataQueryWriter interface, _wic_codec_iwicmetadataquerywriter_setmetadatabyname, wic._wic_codec_iwicmetadataquerywriter_setmetadatabyname, wincodec/IWICMetadataQueryWriter::SetMetadataByName
-ms.topic: method
 f1_keywords:
 - wincodec/IWICMetadataQueryWriter.SetMetadataByName
 dev_langs:

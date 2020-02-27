@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: c8b141b1-d5fa-4ec9-8899-a1b0f6a4ce1d
 ms.date: 12/05/2018
 ms.keywords: DSROLE_PRIMARY_DOMAIN_INFO_LEVEL, DSROLE_PRIMARY_DOMAIN_INFO_LEVEL enumeration [Active Directory], DsRoleOperationState, DsRolePrimaryDomainInfoBasic, DsRoleUpgradeStatus, ad.dsrole_primary_domain_info_level, dsrole/DSROLE_PRIMARY_DOMAIN_INFO_LEVEL, dsrole/DsRoleOperationState, dsrole/DsRolePrimaryDomainInfoBasic, dsrole/DsRoleUpgradeStatus
-ms.topic: enum
 f1_keywords:
 - dsrole/DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
 dev_langs:

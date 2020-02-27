@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 6502d863-ab3e-46d2-8da4-c2f1b01fe344
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_Add, FLOATOBJ_Add function [Display Devices], display.floatobj_add, gdifncs_484fa853-6c4e-4bc1-95a3-7f7b40828fcc.xml, winddi/FLOATOBJ_Add
-ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_Add
 dev_langs:

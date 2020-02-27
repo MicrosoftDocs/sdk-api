@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 30a0cecf-0ed1-4c03-bd5e-da07b1828c75
 ms.date: 12/05/2018
 ms.keywords: SetThreadUILanguage, SetThreadUILanguage function [Internationalization for Windows Applications], _win32_SetThreadUILanguage, intl.setthreaduilanguage, winnls/SetThreadUILanguage
-ms.topic: function
 f1_keywords:
 - winnls/SetThreadUILanguage
 dev_langs:

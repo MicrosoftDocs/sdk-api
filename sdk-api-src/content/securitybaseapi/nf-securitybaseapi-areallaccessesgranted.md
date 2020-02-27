@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 91349693-8667-49dd-a813-657497b7d467
 ms.date: 12/05/2018
 ms.keywords: AreAllAccessesGranted, AreAllAccessesGranted function [Security], _win32_areallaccessesgranted, security.areallaccessesgranted, securitybaseapi/AreAllAccessesGranted
-ms.topic: function
 f1_keywords:
 - securitybaseapi/AreAllAccessesGranted
 dev_langs:

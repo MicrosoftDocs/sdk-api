@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: 94f41290-bbc4-4a2f-9787-831004bde3c7
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquire, IPhotoAcquire interface [Picture Acquisition], IPhotoAcquire interface [Picture Acquisition],described, IPhotoAcquireInterface, photoacquire/IPhotoAcquire, picacq.iphotoacquire
-ms.topic: interface
 f1_keywords:
 - photoacquire/IPhotoAcquire
 dev_langs:

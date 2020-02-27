@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 99563293-662f-4478-b8da-8526b832012d
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptIsAlgSupported, NCryptIsAlgSupported function [Security], ncrypt/NCryptIsAlgSupported, security.ncryptisalgsupported_func
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptIsAlgSupported
 dev_langs:
@@ -174,7 +173,7 @@ The provider does not support the specified algorithm.
 
 If the provider supports the algorithm, this function returns <b>ERROR_SUCCESS</b>. If the provider does not support the algorithm, and no other errors occurred, this function returns <b>NTE_NOT_SUPPORTED</b>.
 
-A service must not call this function from its <a href="http://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 
 

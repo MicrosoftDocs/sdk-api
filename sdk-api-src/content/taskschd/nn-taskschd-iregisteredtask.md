@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 3743d012-ad7c-402f-8859-939bb01ee447
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask, IRegisteredTask interface [Task Scheduler], IRegisteredTask interface [Task Scheduler],described, taskschd.iregisteredtask, taskschd/IRegisteredTask
-ms.topic: interface
 f1_keywords:
 - taskschd/IRegisteredTask
 dev_langs:

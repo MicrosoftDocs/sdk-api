@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 47fbe483-8a1b-4747-9555-931dd63e2db8
 ms.date: 12/05/2018
 ms.keywords: MprAdminTransportGetInfo, MprAdminTransportGetInfo function [RAS], _mpr_mpradmintransportgetinfo, mprapi/MprAdminTransportGetInfo, rras.mpradmintransportgetinfo
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminTransportGetInfo
 dev_langs:

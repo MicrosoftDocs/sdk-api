@@ -7,7 +7,6 @@ tech.root: EventLog
 ms.assetid: 2f64f82b-a5f5-4701-844b-5979a0124414
 ms.date: 12/05/2018
 ms.keywords: GetOldestEventLogRecord, GetOldestEventLogRecord function, _win32_getoldesteventlogrecord, base.getoldesteventlogrecord, winbase/GetOldestEventLogRecord
-ms.topic: function
 f1_keywords:
 - winbase/GetOldestEventLogRecord
 dev_langs:

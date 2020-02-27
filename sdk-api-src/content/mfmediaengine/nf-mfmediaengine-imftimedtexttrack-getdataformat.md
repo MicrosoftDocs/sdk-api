@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: B00FA013-1C96-48FB-8046-D9A24BB78412
 ms.date: 12/05/2018
 ms.keywords: GetDataFormat, GetDataFormat method [Media Foundation], GetDataFormat method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetDataFormat method, IMFTimedTextTrack.GetDataFormat, IMFTimedTextTrack::GetDataFormat, mf.imftimedtexttrack_getdataformat, mfmediaengine/IMFTimedTextTrack::GetDataFormat
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextTrack.GetDataFormat
 dev_langs:

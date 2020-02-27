@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 6b6e6878-1d9d-4f45-94a9-316e86da85df
 ms.date: 12/05/2018
 ms.keywords: IWMPPluginUI interface [Windows Media Player],SetCore method, IWMPPluginUI.SetCore, IWMPPluginUI::SetCore, IWMPPluginUISetCore, SetCore, SetCore method [Windows Media Player], SetCore method [Windows Media Player],IWMPPluginUI interface, wmp.iwmppluginui_setcore, wmpplug/IWMPPluginUI::SetCore
-ms.topic: method
 f1_keywords:
 - wmpplug/IWMPPluginUI.SetCore
 dev_langs:

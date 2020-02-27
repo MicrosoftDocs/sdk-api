@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 0b9e39a8-6610-468a-a0e6-3950b8c17d58
 ms.date: 12/05/2018
 ms.keywords: ExcludeChangeUnit, ExcludeChangeUnit method [Windows Sync], ExcludeChangeUnit method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ExcludeChangeUnit method, ISyncKnowledge.ExcludeChangeUnit, ISyncKnowledge::ExcludeChangeUnit, winsync.isyncknowledge_excludechangeunit, winsync/ISyncKnowledge::ExcludeChangeUnit
-ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge.ExcludeChangeUnit
 dev_langs:

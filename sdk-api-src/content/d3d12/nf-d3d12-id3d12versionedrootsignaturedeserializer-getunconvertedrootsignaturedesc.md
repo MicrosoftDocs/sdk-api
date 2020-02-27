@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 7E21B598-C13B-4418-B5B1-4ADDAA18F9B9
 ms.date: 12/05/2018
 ms.keywords: GetUnconvertedRootSignatureDesc, GetUnconvertedRootSignatureDesc method, GetUnconvertedRootSignatureDesc method,ID3D12VersionedRootSignatureDeserializer interface, ID3D12VersionedRootSignatureDeserializer interface,GetUnconvertedRootSignatureDesc method, ID3D12VersionedRootSignatureDeserializer.GetUnconvertedRootSignatureDesc, ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc, d3d12/ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc, direct3d12.id3d12versionedrootsignaturedeserializer_getunconvertedrootsignaturedesc
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12VersionedRootSignatureDeserializer.GetUnconvertedRootSignatureDesc
 dev_langs:

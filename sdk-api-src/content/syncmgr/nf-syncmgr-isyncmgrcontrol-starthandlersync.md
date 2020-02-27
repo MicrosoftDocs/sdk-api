@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ab0e6634-d30a-4f56-94ff-3b032c789cec
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],StartHandlerSync method, ISyncMgrControl.StartHandlerSync, ISyncMgrControl::StartHandlerSync, StartHandlerSync, StartHandlerSync method [Windows Shell], StartHandlerSync method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StartHandlerSync, shell.ISyncMgrControl_StartHandlerSync, syncmgr/ISyncMgrControl::StartHandlerSync
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrControl.StartHandlerSync
 dev_langs:

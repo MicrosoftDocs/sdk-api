@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 4e1deaab-53fe-4c8f-9018-d7b148131231
 ms.date: 12/05/2018
 ms.keywords: EapPeerGetResponsePacket, EapPeerGetResponsePacket function [EAPHost], eaphost.eappeergetresponsepacket, eapmethodpeerapis/EapPeerGetResponsePacket
-ms.topic: function
 f1_keywords:
 - eapmethodpeerapis/EapPeerGetResponsePacket
 dev_langs:

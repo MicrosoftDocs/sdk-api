@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: A3485D5F-EBF0-480B-9AD2-534361E82B40
 ms.date: 12/05/2018
 ms.keywords: pluginResource2FileAssociation, pluginResource2FileAssociation structure [Remote Desktop Services], termserv.pluginresource2fileassociation, tspubplugin2com/pluginResource2FileAssociation
-ms.topic: struct
 f1_keywords:
 - tspubplugin2com/pluginResource2FileAssociation
 dev_langs:

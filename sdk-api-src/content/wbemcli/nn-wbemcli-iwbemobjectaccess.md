@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 1025ae50-870f-4d38-8e83-3c6b628315c6
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectAccess, IWbemObjectAccess interface [Windows Management Instrumentation], IWbemObjectAccess interface [Windows Management Instrumentation],described, _hmm_iwbemobjectaccess, wbemcli/IWbemObjectAccess, wmi.iwbemobjectaccess
-ms.topic: interface
 f1_keywords:
 - wbemcli/IWbemObjectAccess
 dev_langs:
@@ -56,7 +55,7 @@ The
 <b>IWbemObjectAccess</b> interface provides access to the methods and properties of an object.  An 
 <b>IWbemObjectAccess</b> object is a container for an instance updated by a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/gloss-r">refresher</a>. With the 
 <b>IWbemObjectAccess</b> interface, you can get and set properties by using property handles instead of object property names.
-<div class="alert"><b>Note</b>  This interface is not implemented by client applications or providers under any circumstances. The implementation provided by WMI is the only one that is supported. A pointer to the interface can be retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IWbemClassObject::QueryInterface</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This interface is not implemented by client applications or providers under any circumstances. The implementation provided by WMI is the only one that is supported. A pointer to the interface can be retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IWbemClassObject::QueryInterface</a>.</div><div> </div>
 
 ## -inheritance
 

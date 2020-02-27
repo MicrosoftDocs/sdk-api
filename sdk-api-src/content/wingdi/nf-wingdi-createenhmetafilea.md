@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 647f83ca-dca3-44af-a594-5f9ba2bd7607
 ms.date: 12/05/2018
 ms.keywords: CreateEnhMetaFile, CreateEnhMetaFile function [Windows GDI], CreateEnhMetaFileA, CreateEnhMetaFileW, _win32_CreateEnhMetaFile, gdi.createenhmetafile, wingdi/CreateEnhMetaFile, wingdi/CreateEnhMetaFileA, wingdi/CreateEnhMetaFileW
-ms.topic: function
 f1_keywords:
 - wingdi/CreateEnhMetaFile
 dev_langs:

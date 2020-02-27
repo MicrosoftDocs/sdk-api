@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: f27c576a-3ff8-42bd-bad9-f7df18351a7f
 ms.date: 12/05/2018
 ms.keywords: GetContainerFormat, GetContainerFormat method [Windows Imaging Component], GetContainerFormat method [Windows Imaging Component],IWICMetadataQueryReader interface, IWICMetadataQueryReader interface [Windows Imaging Component],GetContainerFormat method, IWICMetadataQueryReader.GetContainerFormat, IWICMetadataQueryReader::GetContainerFormat, _wic_codec_iwicmetadataqueryreader_getcontainerformat, wic._wic_codec_iwicmetadataqueryreader_getcontainerformat, wincodec/IWICMetadataQueryReader::GetContainerFormat
-ms.topic: method
 f1_keywords:
 - wincodec/IWICMetadataQueryReader.GetContainerFormat
 dev_langs:

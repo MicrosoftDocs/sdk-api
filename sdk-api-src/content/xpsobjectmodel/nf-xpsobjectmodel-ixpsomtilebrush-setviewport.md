@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: e4a60f8d-3389-4420-851c-48483acecf0a
 ms.date: 12/05/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetViewport method, IXpsOMTileBrush.SetViewport, IXpsOMTileBrush::SetViewport, SetViewport, SetViewport method [XPS Documents and Packaging], SetViewport method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_setviewport, xpsobjectmodel/IXpsOMTileBrush::SetViewport
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMTileBrush.SetViewport
 dev_langs:
@@ -132,7 +131,7 @@ The viewport is the portion of the output area where the tile is drawn. In the f
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

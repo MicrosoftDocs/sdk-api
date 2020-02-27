@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 5a8546f8-61de-4e98-bee3-26ca4d0ea2e4
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],get_SuppressEffects method, IMSVidVideoRenderer2.get_SuppressEffects, IMSVidVideoRenderer2::get_SuppressEffects, IMSVidVideoRenderer2get_SuppressEffects, get_SuppressEffects, get_SuppressEffects method [Microsoft TV Technologies], get_SuppressEffects method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2_get_suppresseffects, segment/IMSVidVideoRenderer2::get_SuppressEffects
-ms.topic: method
 f1_keywords:
 - segment/IMSVidVideoRenderer2.get_SuppressEffects
 dev_langs:

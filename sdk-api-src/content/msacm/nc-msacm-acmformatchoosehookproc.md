@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 75b11c0f-ae85-424d-b936-492d67440659
 ms.date: 12/05/2018
 ms.keywords: _win32_acmFormatChooseHookProc, acmFormatChooseHookProc, acmFormatChooseHookProc callback, acmFormatChooseHookProc callback function [Windows Multimedia], msacm/acmFormatChooseHookProc, multimedia.acmformatchoosehookproc
-ms.topic: callback
 f1_keywords:
 - msacm/acmFormatChooseHookProc
 dev_langs:

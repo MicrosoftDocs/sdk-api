@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 5209d4a1-e05b-453e-8896-2dc71f0b9af0
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo, ITCallInfo interface [TAPI 2.2], ITCallInfo interface [TAPI 2.2],described, _tapi3_itcallinfo, tapi3.itcallinfo, tapi3if/ITCallInfo
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITCallInfo
 dev_langs:

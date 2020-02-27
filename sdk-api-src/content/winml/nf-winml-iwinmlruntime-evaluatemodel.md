@@ -7,7 +7,6 @@ tech.root: MachineLearning
 ms.assetid: F96A1CCD-02BD-4E93-830D-9975A03658E2
 ms.date: 12/05/2018
 ms.keywords: EvaluateModel, EvaluateModel method, EvaluateModel method,IWinMLRuntime interface, IWinMLRuntime interface,EvaluateModel method, IWinMLRuntime.EvaluateModel, IWinMLRuntime::EvaluateModel, MachineLearning.iwinmlruntime_evaluatemodel, winml/IWinMLRuntime::EvaluateModel
-ms.topic: method
 f1_keywords:
 - winml/IWinMLRuntime.EvaluateModel
 dev_langs:

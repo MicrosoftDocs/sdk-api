@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 7cae291e-dcf3-43b1-8306-9e5c7a5d3be0
 ms.date: 12/05/2018
 ms.keywords: EnumContextProps, EnumContextProps method [COM], EnumContextProps method [COM],IContext interface, IContext interface [COM],EnumContextProps method, IContext.EnumContextProps, IContext::EnumContextProps, _com_icontext_enumcontextprops, com.icontext_enumcontextprops, objidlbase/IContext::EnumContextProps
-ms.topic: method
 f1_keywords:
 - objidl/IContext.EnumContextProps
 dev_langs:

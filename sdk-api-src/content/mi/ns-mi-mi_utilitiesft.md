@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 4f82b7b3-833c-42e8-a80c-2d057fc34fe4
 ms.date: 12/05/2018
 ms.keywords: MI_UtilitiesFT, MI_UtilitiesFT structure [Windows Management Infrastructure (MI)], mi/MI_UtilitiesFT, wmi_v2.mi_utilitiesft
-ms.topic: struct
 f1_keywords:
 - mi/MI_UtilitiesFT
 dev_langs:

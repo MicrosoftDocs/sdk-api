@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: e809a1bf-1c7e-4006-9d27-e9921f2f14b2
 ms.date: 12/05/2018
 ms.keywords: IWMPErrorItem interface [Windows Media Player],get_errorCode method, IWMPErrorItem.get_errorCode, IWMPErrorItem::get_errorCode, IWMPErrorItemget_errorCode, get_errorCode, get_errorCode method [Windows Media Player], get_errorCode method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_errorcode, wmp/IWMPErrorItem::get_errorCode
-ms.topic: method
 f1_keywords:
 - wmp/IWMPErrorItem.get_errorCode
 dev_langs:

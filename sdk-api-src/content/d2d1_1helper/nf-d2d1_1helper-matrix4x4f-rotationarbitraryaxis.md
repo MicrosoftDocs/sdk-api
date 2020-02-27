@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 396C3F62-0662-4518-AD1E-8B53B96D1CDD
 ms.date: 12/05/2018
 ms.keywords: Matrix4x4F interface [Direct2D],RotationArbitraryAxis method, Matrix4x4F.RotationArbitraryAxis, Matrix4x4F::RotationArbitraryAxis, RotationArbitraryAxis, RotationArbitraryAxis method [Direct2D], RotationArbitraryAxis method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::RotationArbitraryAxis, direct2d.matrix4x4f_rotationarbitraryaxis
-ms.topic: method
 f1_keywords:
 - d2d1_1helper/Matrix4x4F.RotationArbitraryAxis
 dev_langs:

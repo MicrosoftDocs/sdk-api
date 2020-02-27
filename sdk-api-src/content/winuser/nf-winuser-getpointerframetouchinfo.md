@@ -7,7 +7,6 @@ tech.root: InputMsg
 ms.assetid: a100cc7a-62fc-4ace-8d35-e77aff98d944
 ms.date: 12/05/2018
 ms.keywords: GetPointerFrameTouchInfo, GetPointerFrameTouchInfo function [Input Messages and Notifications], inputmsg.getpointerframetouchinfo, winuser/GetPointerFrameTouchInfo
-ms.topic: function
 f1_keywords:
 - winuser/GetPointerFrameTouchInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: c1f88493-0f81-4aac-b6d6-049d10934254
 ms.date: 12/05/2018
 ms.keywords: IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMSignatureBlockResourceCollection.SetAt, IXpsOMSignatureBlockResourceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, xps.ixpsomsignatureblockresourcecollection_setat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::SetAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMSignatureBlockResourceCollection.SetAt
 dev_langs:
@@ -105,7 +104,7 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

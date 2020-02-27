@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 36847680-bcf2-4db5-a587-90518f60cf5b
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],RetrieveRequestedAttrs method, ITextStoreAnchor.RetrieveRequestedAttrs, ITextStoreAnchor::RetrieveRequestedAttrs, RetrieveRequestedAttrs, RetrieveRequestedAttrs method [Text Services Framework], RetrieveRequestedAttrs method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::RetrieveRequestedAttrs, tsf.itextstoreanchor_retrieverequestedattrs
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreAnchor.RetrieveRequestedAttrs
 dev_langs:

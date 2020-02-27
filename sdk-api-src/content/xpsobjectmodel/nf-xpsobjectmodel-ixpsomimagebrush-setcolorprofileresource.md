@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d18511b7-13ed-4528-9f3d-aef3bcadc403
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageBrush interface [XPS Documents and Packaging],SetColorProfileResource method, IXpsOMImageBrush.SetColorProfileResource, IXpsOMImageBrush::SetColorProfileResource, SetColorProfileResource, SetColorProfileResource method [XPS Documents and Packaging], SetColorProfileResource method [XPS Documents and Packaging],IXpsOMImageBrush interface, xps.ixpsomimagebrush_setcolorprofileresource, xpsobjectmodel/IXpsOMImageBrush::SetColorProfileResource
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMImageBrush.SetColorProfileResource
 dev_langs:
@@ -115,7 +114,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

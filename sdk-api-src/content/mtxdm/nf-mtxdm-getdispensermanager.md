@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: db344236-a8be-49ec-91fd-dfcc0bd4412c
 ms.date: 12/05/2018
 ms.keywords: GetDispenserManager, GetDispenserManager function [COM+], _dtc_GetDispenserManager_Function, cos.getdispensermanager, mtxdm/GetDispenserManager
-ms.topic: function
 f1_keywords:
 - mtxdm/GetDispenserManager
 dev_langs:

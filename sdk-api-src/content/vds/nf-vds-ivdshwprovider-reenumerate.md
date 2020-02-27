@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: aeb06a98-8896-446f-abd5-ea40be0bea40
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProvider interface [VDS],Reenumerate method, IVdsHwProvider.Reenumerate, IVdsHwProvider::Reenumerate, Reenumerate, Reenumerate method [VDS], Reenumerate method [VDS],IVdsHwProvider interface, base.ivdshwprovider_reenumerate, vds/IVdsHwProvider::Reenumerate, vdshwprv/IVdsHwProvider::Reenumerate
-ms.topic: method
 f1_keywords:
 - vds/IVdsHwProvider.Reenumerate
 dev_langs:

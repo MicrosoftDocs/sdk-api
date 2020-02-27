@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 6b3f4dd9-500b-420e-804a-401a9e188be8
 ms.date: 12/05/2018
 ms.keywords: CreateProcessAsUser, CreateProcessAsUser function, CreateProcessAsUserA, CreateProcessAsUserW, _win32_createprocessasuser, base.createprocessasuser, processthreadsapi/CreateProcessAsUser, processthreadsapi/CreateProcessAsUserA, processthreadsapi/CreateProcessAsUserW
-ms.topic: function
 f1_keywords:
 - processthreadsapi/CreateProcessAsUser
 dev_langs:
@@ -152,7 +151,7 @@ A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/des
 ### -param bInheritHandles [in]
 
 If this parameter is <b>TRUE</b>, each inheritable handle in the calling process is inherited by the new process. If the parameter is <b>FALSE</b>, the handles are not inherited. Note that inherited handles have the same value and access rights as the original handles.
-
+For additional discussion of inheritable handles, see Remarks.
 
 <b>Terminal Services:  </b>You cannot inherit handles across sessions. Additionally, if this parameter is <b>TRUE</b>, you must create the process in the same session as the caller.
 
@@ -219,7 +218,7 @@ Handles in
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-startupinfoexa">STARTUPINFOEX</a> must be closed with 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> when they are no longer needed.
 
-<div class="alert"><b>Important</b>  The caller is responsible for ensuring that the standard handle fields in <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> contain valid handle values. These fields are copied unchanged to the child process without validation, even when the <b>dwFlags</b> member specifies <b>STARTF_USESTDHANDLES</b>. Incorrect values can cause the child process to misbehave or crash. Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=234779">Application Verifier</a> runtime verification tool to detect invalid handles. </div>
+<div class="alert"><b>Important</b>  The caller is responsible for ensuring that the standard handle fields in <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> contain valid handle values. These fields are copied unchanged to the child process without validation, even when the <b>dwFlags</b> member specifies <b>STARTF_USESTDHANDLES</b>. Incorrect values can cause the child process to misbehave or crash. Use the <a href="https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=20028">Application Verifier</a> runtime verification tool to detect invalid handles. </div>
 <div> </div>
 
 ### -param lpProcessInformation [out]
@@ -291,6 +290,14 @@ The preferred way to shut down a process is by using the
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess">ExitProcess</a> function, because this function sends notification of approaching termination to all DLLs attached to the process. Other means of shutting down a process do not notify the attached DLLs. Note that when a thread calls 
 <b>ExitProcess</b>, other threads of the process are terminated without an opportunity to execute any additional code (including the thread termination code of attached DLLs). For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/terminating-a-process">Terminating a Process</a>.
+
+By default, passing <b>TRUE</b> as the value of the <i>bInheritHandles</i> parameter causes all inheritable handles to be inherited by the new process.
+This can be problematic for applications which create processes from multiple threads simultaneously
+yet desire each process to inherit different handles.
+Applications can use the
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute">UpdateProcThreadAttributeList</a> function
+with the <b>PROC_THREAD_ATTRIBUTE_HANDLE_LIST</b> parameter
+to provide a list of handles to be inherited by a particular process.
 
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
 The <i>lpApplicationName</i> parameter can be NULL, in which case the executable name must be the first white space–delimited string in <i>lpCommandLine</i>. If the executable or path name has a space in it, there is a risk that a different executable could be run because of the way the function parses spaces. The following example is dangerous because the function will attempt to run "Program.exe", if it exists, instead of "MyApp.exe".

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: c6af870e-2ef8-4dea-b76b-7a78ceaaa3d3
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],GetType method, IMFASFMutualExclusion.GetType, IMFASFMutualExclusion::GetType, c6af870e-2ef8-4dea-b76b-7a78ceaaa3d3, mf.imfasfmutualexclusion_gettype, wmcontainer/IMFASFMutualExclusion::GetType
-ms.topic: method
 f1_keywords:
 - wmcontainer/IMFASFMutualExclusion.GetType
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: dcb1c006-c709-4879-a9bf-8d441d26db8d
 ms.date: 12/05/2018
 ms.keywords: INDESPolicy interface [Security],Notify method, INDESPolicy.Notify, INDESPolicy::Notify, Notify, Notify method [Security], Notify method [Security],INDESPolicy interface, certpol/INDESPolicy::Notify, security.indespolicy_notify
-ms.topic: method
 f1_keywords:
 - certpol/INDESPolicy.Notify
 dev_langs:

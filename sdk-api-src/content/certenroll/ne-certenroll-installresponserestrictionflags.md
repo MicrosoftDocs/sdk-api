@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 070cadd8-08cf-44ce-a8b7-39a4fb11e724
 ms.date: 12/05/2018
 ms.keywords: AllowNoOutstandingRequest, AllowNone, AllowUntrustedCertificate, AllowUntrustedRoot, InstallResponseRestrictionFlags, InstallResponseRestrictionFlags enumeration [Security], certenroll/AllowNoOutstandingRequest, certenroll/AllowNone, certenroll/AllowUntrustedCertificate, certenroll/AllowUntrustedRoot, certenroll/InstallResponseRestrictionFlags, security.installresponserestrictionflags_enum
-ms.topic: enum
 f1_keywords:
 - certenroll/InstallResponseRestrictionFlags
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: FA16A260-3CC9-4F32-A97B-8A561A01C138
 ms.date: 12/05/2018
 ms.keywords: D3D12_FEATURE_DATA_ARCHITECTURE, D3D12_FEATURE_DATA_ARCHITECTURE structure, d3d12/D3D12_FEATURE_DATA_ARCHITECTURE, direct3d12.d3d12_feature_data_architecture
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_FEATURE_DATA_ARCHITECTURE
 dev_langs:

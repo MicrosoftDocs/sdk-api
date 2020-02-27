@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 496c9659-0c03-42c9-93c4-eb4d97e950e2
 ms.date: 12/05/2018
 ms.keywords: AuditQuerySecurity, AuditQuerySecurity function [Security], ntsecapi/AuditQuerySecurity, security.auditquerysecurity
-ms.topic: function
 f1_keywords:
 - ntsecapi/AuditQuerySecurity
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 586e7fee-6340-46b6-941f-1316b2925e1c
 ms.date: 12/05/2018
 ms.keywords: 586e7fee-6340-46b6-941f-1316b2925e1c, IStylusPlugin interface [Tablet PC],StylusInRange method, IStylusPlugin.StylusInRange, IStylusPlugin::StylusInRange, StylusInRange, StylusInRange method [Tablet PC], StylusInRange method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::StylusInRange, tablet.istylusplugin_stylusinrange
-ms.topic: method
 f1_keywords:
 - rtscom/IStylusPlugin.StylusInRange
 dev_langs:
@@ -94,7 +93,7 @@ The stylus is in range of the digitizer. This is a good place to check if the st
 
 #### Examples
 
-The following C++ example implements a <b>IStylusPlugin::StylusInRange Method</b> method that gets the status of all the buttons on a stylus and reports them to the debug window using the <a href="http://go.microsoft.com/fwlink/p/?linkid=73729">TRACE</a> macro.
+The following C++ example implements a <b>IStylusPlugin::StylusInRange Method</b> method that gets the status of all the buttons on a stylus and reports them to the debug window using the <a href="https://msdn2.microsoft.com/library/4wyz8787.aspx">TRACE</a> macro.
 
 
 ```cpp

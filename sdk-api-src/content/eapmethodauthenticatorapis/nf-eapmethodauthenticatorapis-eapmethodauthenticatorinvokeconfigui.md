@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 6d3083a6-1bd2-4dbf-9f8d-1a6e465188af
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorInvokeConfigUI, EapMethodAuthenticatorInvokeConfigUI function [EAPHost], eaphost.eapmethodauthenticatorinvokeconfigui, eapmethodauthenticatorapis/EapMethodAuthenticatorInvokeConfigUI
-ms.topic: function
 f1_keywords:
 - eapmethodauthenticatorapis/EapMethodAuthenticatorInvokeConfigUI
 dev_langs:
@@ -54,7 +53,7 @@ Defines a function that raises the EAP method's connection configuration user in
 
 <b>EapMethodAuthenticatorInvokeConfigUI</b> is a function prototype.
 
-<b>EapHostAuthenticatorInvokeConfigUI</b> must be called on threads that have COM initialized for <a href="Http://go.microsoft.com/fwlink/p/?linkid=83881">Single Threaded Apartment</a>. This can be achieved by calling COM API <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>; when the supplicant has finished  with the STA thread <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> must be called before exiting.
+<b>EapHostAuthenticatorInvokeConfigUI</b> must be called on threads that have COM initialized for <a href="https://msdn.microsoft.com/library/ms810413.aspx">Single Threaded Apartment</a>. This can be achieved by calling COM API <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>; when the supplicant has finished  with the STA thread <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> must be called before exiting.
 
 
 ## -parameters

@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 88B210CB-ED37-48F1-92F4-40BA591E7952
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout1 interface [Direct Write],SetCharacterSpacing method, IDWriteTextLayout1.SetCharacterSpacing, IDWriteTextLayout1::SetCharacterSpacing, SetCharacterSpacing, SetCharacterSpacing method [Direct Write], SetCharacterSpacing method [Direct Write],IDWriteTextLayout1 interface, directwrite.idwritetextlayout1_setcharacterspacing, dwrite_1/IDWriteTextLayout1::SetCharacterSpacing
-ms.topic: method
 f1_keywords:
 - dwrite_1/IDWriteTextLayout1.SetCharacterSpacing
 dev_langs:

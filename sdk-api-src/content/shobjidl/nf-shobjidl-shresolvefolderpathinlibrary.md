@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e9c8aacd-9abb-4640-b9ed-1fa417d4d4cc
 ms.date: 12/05/2018
 ms.keywords: SHResolveFolderPathInLibrary, SHResolveFolderPathInLibrary function [Windows Shell], _shell_SHResolveFolderPathInLibrary, shell.SHResolveFolderPathInLibrary, shobjidl/SHResolveFolderPathInLibrary
-ms.topic: function
 f1_keywords:
 - shobjidl/SHResolveFolderPathInLibrary
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: ce41c5fb-033d-4140-b7aa-4f28676f0ae6
 ms.date: 12/05/2018
 ms.keywords: CreateDocumentStructureResource, CreateDocumentStructureResource method [XPS Documents and Packaging], CreateDocumentStructureResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateDocumentStructureResource method, IXpsOMObjectFactory.CreateDocumentStructureResource, IXpsOMObjectFactory::CreateDocumentStructureResource, xps.ixpsomobjectfactory_createdocumentstructureresource, xpsobjectmodel/IXpsOMObjectFactory::CreateDocumentStructureResource
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreateDocumentStructureResource
 dev_langs:
@@ -124,7 +123,7 @@ The DocumentStructure part contains the document framework and the outline that 
 
 The  StoryFragments parts contain content structure markup that defines the story's semantic blocks, such as the  paragraphs and tables that make up the story's content.
 
-The content of the DocumentStructure and StoryFragments parts is described in the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>.
+The content of the DocumentStructure and StoryFragments parts is described in the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.
 
 
 
@@ -150,7 +149,7 @@ The content of the DocumentStructure and StoryFragments parts is described in th
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

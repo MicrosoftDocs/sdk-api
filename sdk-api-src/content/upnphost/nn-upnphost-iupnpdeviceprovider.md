@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: daaa8b55-bcef-4142-8f7b-e6f64e0ac258
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceProvider, IUPnPDeviceProvider interface [UPnP APIs], IUPnPDeviceProvider interface [UPnP APIs],described, _upnp_iupnpdeviceprovider, upnp.iupnpdeviceprovider, upnphost/IUPnPDeviceProvider
-ms.topic: interface
 f1_keywords:
 - upnphost/IUPnPDeviceProvider
 dev_langs:

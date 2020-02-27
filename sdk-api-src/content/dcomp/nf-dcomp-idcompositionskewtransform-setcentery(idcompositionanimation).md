@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: AD307EAF-E5D3-493F-877C-3CB161245CD2
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetCenterY method, IDCompositionSkewTransform.SetCenterY, IDCompositionSkewTransform.SetCenterY(IDCompositionAnimation), IDCompositionSkewTransform::SetCenterY, IDCompositionSkewTransform::SetCenterY(IDCompositionAnimation), IDCompositionSkewTransform::SetCenterY(IDCompositionAnimation*), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetCenterY, directcomp.idcompositionskewtransform_setcentery_idcompositionanimation
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionSkewTransform.SetCenterY
 dev_langs:

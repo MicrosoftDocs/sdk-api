@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9adfb054-6d62-41bb-9036-0bf670ea24b2
 ms.date: 12/05/2018
 ms.keywords: PathCchRemoveExtension, PathCchRemoveExtension function [Windows Shell], pathcch/PathCchRemoveExtension, shell.PathCchRemoveExtension
-ms.topic: function
 f1_keywords:
 - pathcch/PathCchRemoveExtension
 dev_langs:

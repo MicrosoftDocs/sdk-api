@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 6727d9d5-9c8c-41f9-90f2-e82ecf309d98
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION, WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION, wsw.ws_security_context_message_security_binding_policy_description
-ms.topic: struct
 f1_keywords:
 - webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION
 dev_langs:

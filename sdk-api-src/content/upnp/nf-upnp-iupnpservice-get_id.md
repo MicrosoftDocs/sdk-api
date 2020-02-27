@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: daa2ed07-8ee5-4e1f-84f4-77f58d4958e2
 ms.date: 12/05/2018
 ms.keywords: IUPnPService interface [UPnP APIs],get_Id method, IUPnPService.get_Id, IUPnPService::get_Id, _upnp_iupnpservice_id, get_Id, get_Id method [UPnP APIs], get_Id method [UPnP APIs],IUPnPService interface, upnp.iupnpservice_id, upnp/IUPnPService::get_Id
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPService.get_Id
 dev_langs:

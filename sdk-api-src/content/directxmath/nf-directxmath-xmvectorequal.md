@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorEqual(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorEqual, XMVectorEqual, XMVectorEqual method [DirectX Math Support APIs], dxmath.xmvectorequal
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorEqual
 dev_langs:

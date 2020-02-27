@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 7344851a-51ba-41c0-b368-e5eecfb5fb08
 ms.date: 12/05/2018
 ms.keywords: IComponentTypes interface [Microsoft TV Technologies],Remove method, IComponentTypes.Remove, IComponentTypes::Remove, IComponentTypesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IComponentTypes interface, mstv.icomponenttypes_remove, tuner/IComponentTypes::Remove
-ms.topic: method
 f1_keywords:
 - tuner/IComponentTypes.Remove
 dev_langs:

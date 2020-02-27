@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 654714ef-cc86-41e8-8759-bbb66bd61cd2
 ms.date: 12/05/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],PutContext method, ITsSbClientConnection.PutContext, ITsSbClientConnection::PutContext, PutContext, PutContext method [Remote Desktop Services], PutContext method [Remote Desktop Services],ITsSbClientConnection interface, sbtsv/ITsSbClientConnection::PutContext, termserv.itssbclientconnection_putcontext
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbClientConnection.PutContext
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d8ff0c8f-9678-455b-b7ec-9b651df769bc
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Windows Shell], GetSelection method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetSelection method, IFolderView2.GetSelection, IFolderView2::GetSelection, _shell_IFolderView2_GetSelection, shell.IFolderView2_GetSelection, shobjidl_core/IFolderView2::GetSelection
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFolderView2.GetSelection
 dev_langs:

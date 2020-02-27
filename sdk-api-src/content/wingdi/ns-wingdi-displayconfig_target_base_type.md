@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 7916E714-9A3C-4682-AC08-9B6EE222D8B7
 ms.date: 12/05/2018
 ms.keywords: DISPLAYCONFIG_TARGET_BASE_TYPE, DISPLAYCONFIG_TARGET_BASE_TYPE structure [Display Devices], display.displayconfig_target_base_type, wingdi/DISPLAYCONFIG_TARGET_BASE_TYPE
-ms.topic: struct
 f1_keywords:
 - wingdi/DISPLAYCONFIG_TARGET_BASE_TYPE
 dev_langs:

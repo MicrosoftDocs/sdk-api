@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: ffa435c8-4a73-454e-be36-cd90ba6e6d11
 ms.date: 12/05/2018
 ms.keywords: SetupDiOpenDevRegKey, SetupDiOpenDevRegKey function [Device and Driver Installation], devinst.setupdiopendevregkey, di-rtns_074a28c6-e847-439c-a694-36a196e418b6.xml, setupapi/SetupDiOpenDevRegKey
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiOpenDevRegKey
 dev_langs:
@@ -139,7 +138,7 @@ The registry security access that is required for the requested key. For informa
 
 If the function is successful, it returns a handle to an opened registry key where private configuration data about this device instance can be stored/retrieved.
 
-If the function fails, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+If the function fails, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 
@@ -150,7 +149,7 @@ If the function fails, it returns INVALID_HANDLE_VALUE. To get extended error in
 
 Depending on the value that is passed in the <i>samDesired</i> parameter, it might be necessary for the caller of this function to be a member of the Administrators group.
 
-Close the handle returned from this function by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=194543">RegCloseKey</a>.
+Close the handle returned from this function by calling <a href="https://msdn.microsoft.com/library/ms724837(VS.85).aspx">RegCloseKey</a>.
 
 The specified device instance must be registered before this function is called. However, be aware that the operating system automatically registers PnP device instances. For information about how to register non-PnP device instances, see <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiregisterdeviceinfo">SetupDiRegisterDeviceInfo</a>.
 

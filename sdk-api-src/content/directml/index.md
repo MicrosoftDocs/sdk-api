@@ -1,9 +1,10 @@
 ---
 UID: NA:directml
+title: DirectML.h header
 ms.assetid: 8c5ed75b-a9da-420e-937f-b472f6622a6a
 ms.date: 04/03/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: direct3d12
 ms.custom: 19H1
 ---

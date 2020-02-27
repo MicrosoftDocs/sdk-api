@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 58436001-92d7-4afa-af07-169c8bbda9ba
 ms.date: 12/05/2018
 ms.keywords: GetRoleText, GetRoleText function [Windows Accessibility], GetRoleTextA, GetRoleTextW, _msaa_GetRoleText, msaa.getroletext, oleacc/GetRoleText, oleacc/GetRoleTextA, oleacc/GetRoleTextW, winauto.getroletext
-ms.topic: function
 f1_keywords:
 - oleacc/GetRoleText
 dev_langs:

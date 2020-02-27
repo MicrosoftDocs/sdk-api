@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b181f556-3d3d-4622-8cc9-57fda50bf9c0
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_Iris method, ICameraControl.put_Iris, ICameraControl::put_Iris, ICameraControlput_Iris, dshow.icameracontrol_put_iris, put_Iris, put_Iris method [DirectShow], put_Iris method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Iris
-ms.topic: method
 f1_keywords:
 - vidcap/ICameraControl.put_Iris
 dev_langs:

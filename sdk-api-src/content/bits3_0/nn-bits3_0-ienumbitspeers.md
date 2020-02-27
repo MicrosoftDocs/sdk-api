@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 2715a58c-ba76-4223-ad9e-453d029e0eda
 ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeers, IEnumBitsPeers interface [BITS], IEnumBitsPeers interface [BITS],described, bits.ienumbitspeers, bits3_0/IEnumBitsPeers
-ms.topic: interface
 f1_keywords:
 - bits3_0/IEnumBitsPeers
 dev_langs:

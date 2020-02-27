@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: c625d3e2-8a12-4049-8997-6e57c3423acc
 ms.date: 12/05/2018
 ms.keywords: EnableCommit, EnableCommit method [COM+], EnableCommit method [COM+],ObjectContext interface, ObjectContext interface [COM+],EnableCommit method, ObjectContext.EnableCommit, ObjectContext::EnableCommit, _cos_ObjectContext_EnableCommit, comsvcs/ObjectContext::EnableCommit, cos.objectcontext_enablecommit
-ms.topic: method
 f1_keywords:
 - comsvcs/ObjectContext.EnableCommit
 dev_langs:

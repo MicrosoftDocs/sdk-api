@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b6e49306-59bc-45a2-826b-cea2cf77214b
 ms.date: 12/05/2018
 ms.keywords: IMixerOCXNotify interface [DirectShow],OnStatusChange method, IMixerOCXNotify.OnStatusChange, IMixerOCXNotify::OnStatusChange, IMixerOCXNotifyOnStatusChange, OnStatusChange, OnStatusChange method [DirectShow], OnStatusChange method [DirectShow],IMixerOCXNotify interface, dshow.imixerocxnotify_onstatuschange, mixerocx/IMixerOCXNotify::OnStatusChange
-ms.topic: method
 f1_keywords:
 - mixerocx/IMixerOCXNotify.OnStatusChange
 dev_langs:

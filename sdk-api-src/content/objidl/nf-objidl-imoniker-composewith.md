@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 6e41d79c-1a57-4270-aa84-160e0639852b
 ms.date: 12/05/2018
 ms.keywords: ComposeWith, ComposeWith method [COM], ComposeWith method [COM],IMoniker interface, IMoniker interface [COM],ComposeWith method, IMoniker.ComposeWith, IMoniker::ComposeWith, _com_imoniker_composewith, com.imoniker_composewith, objidl/IMoniker::ComposeWith
-ms.topic: method
 f1_keywords:
 - objidl/IMoniker.ComposeWith
 dev_langs:
@@ -137,7 +136,7 @@ An object that provides item monikers to identify its objects would call <b>Comp
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 You can use either nongeneric or generic composition to compose the current moniker with the moniker that pmkRight points to. If the class of the moniker indicated by <i>pmkRight</i> is the same as that of the current moniker, it is possible to use the contents of <i>pmkRight</i> to perform a more intelligent nongeneric composition.
 
-In writing a new moniker class, you must decide if there are any kinds of monikers, whether of your own class or another class, to which you want to give special treatment. If so, implement <b>ComposeWith</b> to check whether <i>pmkRight</i> is a moniker of the type that should have this treatment. To do this, you can call the moniker's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersist-getclassid">IPersist::GetClassID</a> method, or if you have defined a moniker object that supports a custom interface, you can call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the moniker for that interface. An example of special treatment would be the nongeneric composition of an absolute file moniker with a relative file moniker. The most common case of a special moniker is the inverse for your moniker class (whatever you return from your implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-inverse">IMoniker::Inverse</a>).
+In writing a new moniker class, you must decide if there are any kinds of monikers, whether of your own class or another class, to which you want to give special treatment. If so, implement <b>ComposeWith</b> to check whether <i>pmkRight</i> is a moniker of the type that should have this treatment. To do this, you can call the moniker's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersist-getclassid">IPersist::GetClassID</a> method, or if you have defined a moniker object that supports a custom interface, you can call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the moniker for that interface. An example of special treatment would be the nongeneric composition of an absolute file moniker with a relative file moniker. The most common case of a special moniker is the inverse for your moniker class (whatever you return from your implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-inverse">IMoniker::Inverse</a>).
 
 If <i>pmkRight</i> completely negates the receiver so that the resulting composite is empty, you should pass back <b>NULL</b> in <i>ppmkComposite</i> and return the status code S_OK.
 

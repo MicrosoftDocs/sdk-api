@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 91CD924E-A664-45C6-B787-61129C31501B
 ms.date: 12/05/2018
 ms.keywords: GetVerticalGlyphVariants, GetVerticalGlyphVariants method [Direct Write], GetVerticalGlyphVariants method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetVerticalGlyphVariants method, IDWriteFontFace1.GetVerticalGlyphVariants, IDWriteFontFace1::GetVerticalGlyphVariants, directwrite.idwritefontface1_getverticalglyphvariants, dwrite_1/IDWriteFontFace1::GetVerticalGlyphVariants
-ms.topic: method
 f1_keywords:
 - dwrite_1/IDWriteFontFace1.GetVerticalGlyphVariants
 dev_langs:

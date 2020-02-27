@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 72528ef3-3e38-4f1f-a686-45c3caa1d9d3
 ms.date: 12/05/2018
 ms.keywords: EnumerationFlagHierarchyDeepBasePropsOnly, EnumerationFlagHierarchyDeepBasePropsOnly method [Windows Remote Management], EnumerationFlagHierarchyDeepBasePropsOnly method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagHierarchyDeepBasePropsOnly method, IWSManEx.EnumerationFlagHierarchyDeepBasePropsOnly, IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly, winrm.iwsmanex_enumerationflaghierarchydeepbasepropsonly, wsmandisp/IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManEx.EnumerationFlagHierarchyDeepBasePropsOnly
 dev_langs:

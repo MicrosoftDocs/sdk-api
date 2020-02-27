@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onoutboundroutingrulesconfigchange.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnOutboundRoutingRulesConfigChange method, IFaxServerNotify2.OnOutboundRoutingRulesConfigChange, IFaxServerNotify2::OnOutboundRoutingRulesConfigChange, OnOutboundRoutingRulesConfigChange, OnOutboundRoutingRulesConfigChange method [Fax Service], OnOutboundRoutingRulesConfigChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnOutboundRoutingRulesConfigChange, _IFaxServerNotify2::OnOutboundRoutingRulesConfigChange, _mfax_ifaxservernotify2_onoutboundroutingrulesconfigchange, fax._mfax_ifaxservernotify2_onoutboundroutingrulesconfigchange, faxcomex/IFaxServerNotify2::OnOutboundRoutingRulesConfigChange
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxServerNotify2.OnOutboundRoutingRulesConfigChange
 dev_langs:

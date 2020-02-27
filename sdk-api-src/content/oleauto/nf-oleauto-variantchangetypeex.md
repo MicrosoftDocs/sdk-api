@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: f2ef2e5f-e247-4abd-890f-f096d956cf4f
 ms.date: 12/05/2018
 ms.keywords: VARIANT_ALPHABOOL, VARIANT_LOCALBOOL, VARIANT_NOUSEROVERRIDE, VARIANT_NOVALUEPROP, VariantChangeTypeEx, VariantChangeTypeEx function [Automation], _oa96_VariantChangeTypeEx, automat.variantchangetypeex, oleauto/VariantChangeTypeEx
-ms.topic: function
 f1_keywords:
 - oleauto/VariantChangeTypeEx
 dev_langs:

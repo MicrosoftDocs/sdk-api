@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: d9669c1c-36e2-4575-bf88-41c344d9c593
 ms.date: 12/05/2018
 ms.keywords: _win32_waveOutGetNumDevs, mmeapi/waveOutGetNumDevs, multimedia.waveoutgetnumdevs, waveOutGetNumDevs, waveOutGetNumDevs function [Windows Multimedia]
-ms.topic: function
 f1_keywords:
 - mmeapi/waveOutGetNumDevs
 dev_langs:

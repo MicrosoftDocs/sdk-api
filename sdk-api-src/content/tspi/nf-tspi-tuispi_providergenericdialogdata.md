@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 212ae478-49e1-44ce-b589-f2fb3994a2a2
 ms.date: 12/05/2018
 ms.keywords: TUISPI_providerGenericDialogData, TUISPI_providerGenericDialogData function [TAPI 2.2], _tspi_tuispi_providergenericdialogdata, tspi.tuispi_providergenericdialogdata, tspi/TUISPI_providerGenericDialogData
-ms.topic: function
 f1_keywords:
 - tspi/TUISPI_providerGenericDialogData
 dev_langs:

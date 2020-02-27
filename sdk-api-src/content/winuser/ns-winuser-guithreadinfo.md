@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\guithreadinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPGUITHREADINFO, *PGUITHREADINFO, GUITHREADINFO, GUITHREADINFO structure [Windows and Messages], GUI_CARETBLINKING, GUI_INMENUMODE, GUI_INMOVESIZE, GUI_POPUPMENUMODE, GUI_SYSTEMMENUMODE, PGUITHREADINFO, PGUITHREADINFO structure pointer [Windows and Messages], _win32_GUITHREADINFO_str, _win32_guithreadinfo_str_cpp, winmsg.guithreadinfo, winui._win32_guithreadinfo_str, winuser/GUITHREADINFO, winuser/PGUITHREADINFO'
-ms.topic: struct
 f1_keywords:
 - winuser/GUITHREADINFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: d9076a32-983e-48d4-b025-5fc770156df6
 ms.date: 12/05/2018
 ms.keywords: IEnumSubStream, IEnumSubStream interface [TAPI 2.2], IEnumSubStream interface [TAPI 2.2],described, _tapi3_ienumsubstream, tapi3.ienumsubstream, tapi3if/IEnumSubStream
-ms.topic: interface
 f1_keywords:
 - tapi3if/IEnumSubStream
 dev_langs:

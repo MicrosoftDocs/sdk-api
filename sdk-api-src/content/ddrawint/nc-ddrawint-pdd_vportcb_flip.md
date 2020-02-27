@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 1e31f33d-84da-40fa-a43c-30ad7d3055e8
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortFlip, DdVideoPortFlip callback function [Display Devices], PDD_VPORTCB_FLIP, PDD_VPORTCB_FLIP callback, ddfncs_a165d7b3-a1c6-4cb6-9087-42d39f6ac96f.xml, ddrawint/DdVideoPortFlip, display.ddvideoportflip
-ms.topic: callback
 f1_keywords:
 - ddrawint/DdVideoPortFlip
 dev_langs:

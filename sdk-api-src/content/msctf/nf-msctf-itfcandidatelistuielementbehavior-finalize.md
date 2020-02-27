@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 3602c094-4e8c-456b-9b6d-b0fc10110cff
 ms.date: 12/05/2018
 ms.keywords: Finalize, Finalize method [Text Services Framework], Finalize method [Text Services Framework],ITfCandidateListUIElementBehavior interface, ITfCandidateListUIElementBehavior interface [Text Services Framework],Finalize method, ITfCandidateListUIElementBehavior.Finalize, ITfCandidateListUIElementBehavior::Finalize, msctf/ITfCandidateListUIElementBehavior::Finalize, tsf.itfcandidatelistuielementbehavior_finalize
-ms.topic: method
 f1_keywords:
 - msctf/ITfCandidateListUIElementBehavior.Finalize
 dev_langs:

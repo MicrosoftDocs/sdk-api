@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: eb7b758d-3466-49fe-8729-a8a059fadcde
 ms.date: 12/05/2018
 ms.keywords: BCryptGetFipsAlgorithmMode, BCryptGetFipsAlgorithmMode function [Security], bcrypt/BCryptGetFipsAlgorithmMode, security.bcryptgetfipsalgorithmmode
-ms.topic: function
 f1_keywords:
 - bcrypt/BCryptGetFipsAlgorithmMode
 dev_langs:

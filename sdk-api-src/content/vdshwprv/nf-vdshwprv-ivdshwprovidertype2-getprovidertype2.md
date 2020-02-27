@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 9a75e6af-fd3d-4770-bc6d-31ad4d995eee
 ms.date: 12/05/2018
 ms.keywords: GetProviderType2, GetProviderType2 method, GetProviderType2 method,IVdsHwProviderType2 interface, IVdsHwProviderType2 interface,GetProviderType2 method, IVdsHwProviderType2.GetProviderType2, IVdsHwProviderType2::GetProviderType2, base.ivdshwprovidertype2_getprovidertype2, vds/IVdsHwProviderType2::GetProviderType2, vdshwprv/IVdsHwProviderType2::GetProviderType2
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsHwProviderType2.GetProviderType2
 dev_langs:

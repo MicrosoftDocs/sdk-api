@@ -7,7 +7,6 @@ tech.root: NAP
 ms.assetid: adcc7238-d1c1-4d8c-b496-d2925bed0123
 ms.date: 12/05/2018
 ms.keywords: NapComponentRegistrationInfo, NapComponentRegistrationInfo structure [NAP], nap.napcomponentregistrationinfo_struct, naptypes/NapComponentRegistrationInfo
-ms.topic: struct
 f1_keywords:
 - naptypes/NapComponentRegistrationInfo
 dev_langs:
@@ -85,7 +84,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-c
 
 ### -field infoClsid
 
-The <a href="http://go.microsoft.com/fwlink/p/?linkid=113751">CLSID</a>of the COM object that implements
+The <a href="https://msdn.microsoft.com/library/ms691424.aspx">CLSID</a>of the COM object that implements
    the <a href="https://docs.microsoft.com/windows/desktop/NAP/inapcomponentinfo">INapComponentInfo</a> interface. This interface
    is used to retrieve more detailed and localized
    information about the NAP component.
@@ -96,7 +95,7 @@ Currently, enforcement clients do not need to
 
 ### -field configClsid
 
-The <a href="http://go.microsoft.com/fwlink/p/?linkid=113751">CLSID</a> of the COM object that implements
+The <a href="https://msdn.microsoft.com/library/ms691424.aspx">CLSID</a> of the COM object that implements
    the <a href="https://docs.microsoft.com/windows/desktop/NAP/inapcomponentconfig">INapComponentConfig</a> interface. This interface is used to launch a customized user interface and to get and set SHV configuration settings.
 
 Currently, SHAs and enforcement clients do not need to
@@ -105,7 +104,7 @@ Currently, SHAs and enforcement clients do not need to
 
 ### -field registrationDate
 
-A <a href="http://go.microsoft.com/fwlink/p/?linkid=90006">FILETIME</a> structure that contains the registration information date.
+A <a href="https://msdn.microsoft.com/library/ms724284.aspx">FILETIME</a> structure that contains the registration information date.
 
 
 ### -field componentType

@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: a1a9b0cf-b1bf-49df-a976-62f44fcf70ae
 ms.date: 12/05/2018
 ms.keywords: KSJACK_SINK_CONNECTIONTYPE, KSJACK_SINK_CONNECTIONTYPE enumeration [Core Audio], KSJACK_SINK_CONNECTIONTYPE_DISPLAYPORT, KSJACK_SINK_CONNECTIONTYPE_HDMI, coreaudio.ksjack_sink_connectiontype, devicetopology/KSJACK_SINK_CONNECTIONTYPE, devicetopology/KSJACK_SINK_CONNECTIONTYPE_DISPLAYPORT, devicetopology/KSJACK_SINK_CONNECTIONTYPE_HDMI
-ms.topic: enum
 f1_keywords:
 - devicetopology/KSJACK_SINK_CONNECTIONTYPE
 dev_langs:

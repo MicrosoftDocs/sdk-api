@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 8b2b4762-f28d-40e0-b162-5e35e8835c8e
 ms.date: 12/05/2018
 ms.keywords: CAND_CANCELED, CAND_FINALIZED, CAND_SELECTED, TfCandidateResult, TfCandidateResult enumeration [Text Services Framework], _tsf_tfcandidateresult_ref, ctffunc/CAND_CANCELED, ctffunc/CAND_FINALIZED, ctffunc/CAND_SELECTED, ctffunc/TfCandidateResult, tsf.tfcandidateresult
-ms.topic: enum
 f1_keywords:
 - ctffunc/TfCandidateResult
 dev_langs:

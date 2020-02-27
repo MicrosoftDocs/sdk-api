@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 4defca24-d9f0-4131-86c6-795d6b2e45de
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIWindow interface [RDP],Id property, IRDPSRAPIWindow.Id, IRDPSRAPIWindow.get_Id, IRDPSRAPIWindow::Id, IRDPSRAPIWindow::get_Id, Id property [RDP], Id property [RDP],IRDPSRAPIWindow interface, Id property [RDP],RDPSRAPIWindow object, RDPSRAPIWindow object [RDP],Id property, get_Id, rdp.irdpsrapiwindow_id, rdpencomapi/IRDPSRAPIWindow::Id, rdpencomapi/IRDPSRAPIWindow::get_Id
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPIWindow.Id
 dev_langs:

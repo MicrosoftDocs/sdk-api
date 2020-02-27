@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: b9066cf8-37b5-4c30-ae41-f92a61aa552c
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetTransformLookup method, IXpsOMVisual.SetTransformLookup, IXpsOMVisual::SetTransformLookup, SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_settransformlookup, xpsobjectmodel/IXpsOMVisual::SetTransformLookup
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.SetTransformLookup
 dev_langs:
@@ -92,7 +91,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-According to the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
+According to the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
 
 </td>
 </tr>
@@ -212,7 +211,7 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

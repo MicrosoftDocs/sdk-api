@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1d871480-4424-4a5b-8650-0211bad8b09a
 ms.date: 12/05/2018
 ms.keywords: DeleteFieldComboBoxItem, DeleteFieldComboBoxItem method [Windows Shell], DeleteFieldComboBoxItem method [Windows Shell],ICredentialProviderCredentialEvents interface, ICredentialProviderCredentialEvents interface [Windows Shell],DeleteFieldComboBoxItem method, ICredentialProviderCredentialEvents.DeleteFieldComboBoxItem, ICredentialProviderCredentialEvents::DeleteFieldComboBoxItem, _shell_ICredentialProviderCredentialEvents_DeleteFieldComboBoxItem, credentialprovider/ICredentialProviderCredentialEvents::DeleteFieldComboBoxItem, shell.ICredentialProviderCredentialEvents_DeleteFieldComboBoxItem
-ms.topic: method
 f1_keywords:
 - credentialprovider/ICredentialProviderCredentialEvents.DeleteFieldComboBoxItem
 dev_langs:

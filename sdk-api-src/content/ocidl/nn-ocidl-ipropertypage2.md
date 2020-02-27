@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 65cd8f97-f88c-433c-b4e7-9dace7193ec1
 ms.date: 12/05/2018
 ms.keywords: IPropertyPage2, IPropertyPage2 interface [COM], IPropertyPage2 interface [COM],described, _ctrl_ipropertypage2, com.ipropertypage2, ocidl/IPropertyPage2
-ms.topic: interface
 f1_keywords:
 - ocidl/IPropertyPage2
 dev_langs:

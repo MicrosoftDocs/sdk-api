@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 6cb47762-edfc-48d7-88ec-d62056ea1751
 ms.date: 12/05/2018
 ms.keywords: WSManPluginOperationComplete, WSManPluginOperationComplete function [Windows Remote Management], winrm.wsmanpluginoperationcomplete, wsman/WSManPluginOperationComplete
-ms.topic: function
 f1_keywords:
 - wsman/WSManPluginOperationComplete
 dev_langs:

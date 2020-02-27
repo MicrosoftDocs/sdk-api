@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2552677b-7907-4a2b-8a2f-6769bca64029
 ms.date: 12/05/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetDisplayName method, ISearchFolderItemFactory.SetDisplayName, ISearchFolderItemFactory::SetDisplayName, SetDisplayName, SetDisplayName method [Windows Shell], SetDisplayName method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetDisplayName, shell.ISearchFolderItemFactory_SetDisplayName, shobjidl_core/ISearchFolderItemFactory::SetDisplayName
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ISearchFolderItemFactory.SetDisplayName
 dev_langs:

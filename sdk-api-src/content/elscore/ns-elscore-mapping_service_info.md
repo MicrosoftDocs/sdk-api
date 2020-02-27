@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 444102a7-0da9-44be-989e-7a5139320034
 ms.date: 12/05/2018
 ms.keywords: '*PMAPPING_SERVICE_INFO, 0, 1, MAPPING_SERVICE_INFO, MAPPING_SERVICE_INFO structure [Internationalization for Windows Applications], PMAPPING_SERVICE_INFO, PMAPPING_SERVICE_INFO structure pointer [Internationalization for Windows Applications], elscore/MAPPING_SERVICE_INFO, elscore/PMAPPING_SERVICE_INFO, intl.mappingserviceinfo'
-ms.topic: struct
 f1_keywords:
 - elscore/MAPPING_SERVICE_INFO
 dev_langs:
@@ -100,7 +99,7 @@ Number of content types that the service can receive.
 
 Optional. Pointer to an array of input content types, following the format of the MIME content types, that identify the format that the service interprets when the application passes data. Examples of content types are "text/plain", "text/html" and "text/css". 
 
-<div class="alert"><b>Note</b>  In Windows 7, the ELS services support only the content type "text/plain". A content types specification can be found at <a href="http://go.microsoft.com/fwlink/p/?linkid=161570">Text Media Types</a>.</div>
+<div class="alert"><b>Note</b>  In Windows 7, the ELS services support only the content type "text/plain". A content types specification can be found at <a href="https://www.iana.org/assignments/media-types/text">Text Media Types</a>.</div>
 <div> </div>
 
 ### -field dwOutputContentTypesCount

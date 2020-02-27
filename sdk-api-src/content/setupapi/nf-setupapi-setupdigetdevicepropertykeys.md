@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: d4decdab-e412-4719-ad65-74f34cf8df27
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDevicePropertyKeys, SetupDiGetDevicePropertyKeys function [Device and Driver Installation], devinst.setupdigetdevicepropertykeys, di-rtns_49d5f09f-3d86-4292-a389-e6a0ee0946b6.xml, setupapi/SetupDiGetDevicePropertyKeys
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetDevicePropertyKeys
 dev_langs:
@@ -92,7 +91,7 @@ This parameter must be set to zero.
 
 
 
-<b>SetupDiGetDevicePropertyKeys</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+<b>SetupDiGetDevicePropertyKeys</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 The following table includes some of the more common error codes that this function might log. 
 

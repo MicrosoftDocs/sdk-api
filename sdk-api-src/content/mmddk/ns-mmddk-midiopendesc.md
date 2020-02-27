@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 7aacfd83-0188-4858-91e4-a6ce12a7e46d
 ms.date: 12/05/2018
 ms.keywords: '*LPMIDIOPENDESC, MIDIOPENDESC, MIDIOPENDESC structure [Audio Devices], aud-prop_47abc723-0254-493a-9bc0-ac9faa73a2e8.xml, audio.midiopendesc, mmddk/MIDIOPENDESC'
-ms.topic: struct
 f1_keywords:
 - mmddk/MIDIOPENDESC
 dev_langs:
@@ -60,7 +59,7 @@ The <code>MIDIOPENDESC</code> structure is a client-filled structure that provid
 
 ### -field hMidi
 
-Specifies the handle that the client uses to reference the device. This handle is assigned by WINMM. Use this handle when you notify the client with the <a href="http://go.microsoft.com/fwlink/p/?linkid=142261">DriverCallback</a> function.
+Specifies the handle that the client uses to reference the device. This handle is assigned by WINMM. Use this handle when you notify the client with the <a href="https://msdn.microsoft.com/library/ms708182(VS.85).aspx">DriverCallback</a> function.
 
 
 ### -field dwCallback
@@ -93,7 +92,7 @@ Specifies an array of device identifiers. The number of identifiers is given by 
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=142261">DriverCallback</a>
+<a href="https://msdn.microsoft.com/library/ms708182(VS.85).aspx">DriverCallback</a>
  
 
  

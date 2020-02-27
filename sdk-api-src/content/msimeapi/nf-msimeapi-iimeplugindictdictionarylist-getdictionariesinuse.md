@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 145F403E-7A7D-4336-96CD-620FA61DFCBF
 ms.date: 12/05/2018
 ms.keywords: GetDictionariesInUse, GetDictionariesInUse method [Internationalization for Windows Applications], GetDictionariesInUse method [Internationalization for Windows Applications],IImePlugInDictDictionaryList interface, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications],GetDictionariesInUse method, IImePlugInDictDictionaryList.GetDictionariesInUse, IImePlugInDictDictionaryList::GetDictionariesInUse, intl.iimeplugindictdictionarylist_getdictionariesinuse, msimeapi/IImePlugInDictDictionaryList::GetDictionariesInUse
-ms.topic: method
 f1_keywords:
 - msimeapi/IImePlugInDictDictionaryList.GetDictionariesInUse
 dev_langs:

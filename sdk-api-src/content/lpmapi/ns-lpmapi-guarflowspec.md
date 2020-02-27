@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 549380cc-b4ac-414a-9058-f506741f1e76
 ms.date: 12/05/2018
 ms.keywords: GuarFlowSpec, GuarFlowSpec structure [QOS], lpmapi/GuarFlowSpec, qos.guarflowspec
-ms.topic: struct
 f1_keywords:
 - lpmapi/GuarFlowSpec
 dev_langs:

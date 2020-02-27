@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: d27d81f2-8599-4b65-866b-4e8fd2f589f5
 ms.date: 12/05/2018
 ms.keywords: TS_STATUS, TS_STATUS structure [Text Services Framework], _tsf_ts_status_ref, textstor/TS_STATUS, tsf.ts_status
-ms.topic: struct
 f1_keywords:
 - textstor/TS_STATUS
 dev_langs:

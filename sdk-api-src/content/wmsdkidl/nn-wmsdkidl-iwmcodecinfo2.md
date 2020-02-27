@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 0cfb355e-af68-400d-aa64-57f17e7d936b
 ms.date: 12/05/2018
 ms.keywords: IWMCodecInfo2, IWMCodecInfo2 interface [windows Media Format], IWMCodecInfo2 interface [windows Media Format],described, IWMCodecInfo2Interface, wmformat.iwmcodecinfo2, wmsdkidl/IWMCodecInfo2
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMCodecInfo2
 dev_langs:

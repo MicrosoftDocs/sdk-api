@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 5b8b4f93-dff1-40ef-9f99-c108a0b1bf70
 ms.date: 12/05/2018
 ms.keywords: VariantToInt64, VariantToInt64 function [Windows Properties], _shell_VariantToInt64, properties.VariantToInt64, propvarutil/VariantToInt64, shell.VariantToInt64
-ms.topic: function
 f1_keywords:
 - propvarutil/VariantToInt64
 dev_langs:

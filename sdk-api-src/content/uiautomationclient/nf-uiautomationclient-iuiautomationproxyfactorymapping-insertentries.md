@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: f398a1b5-d558-4187-9ee5-147b139d99e0
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationProxyFactoryMapping interface [Windows Accessibility],InsertEntries method, IUIAutomationProxyFactoryMapping.InsertEntries, IUIAutomationProxyFactoryMapping::InsertEntries, InsertEntries, InsertEntries method [Windows Accessibility], InsertEntries method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, uiauto.uiauto_IUIAutomationProxyFactoryMapping_InsertEntries, uiauto_IUIAutomationProxyFactoryMapping_InsertEntries, uiautomationclient/IUIAutomationProxyFactoryMapping::InsertEntries, winauto.uiauto_IUIAutomationProxyFactoryMapping_InsertEntries
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationProxyFactoryMapping.InsertEntries
 dev_langs:
@@ -67,7 +66,7 @@ The zero-based index at which to insert the entries.
 
 ### -param factoryList [in]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 
 A pointer to the entries to insert into the table.
 

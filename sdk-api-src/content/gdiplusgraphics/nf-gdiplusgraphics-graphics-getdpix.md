@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getdpix.htm
 ms.date: 12/05/2018
 ms.keywords: GetDpiX, GetDpiX method [GDI+], GetDpiX method [GDI+],Graphics class, Graphics class [GDI+],GetDpiX method, Graphics.GetDpiX, Graphics::GetDpiX, _gdiplus_CLASS_Graphics_GetDpiX_, gdiplus._gdiplus_CLASS_Graphics_GetDpiX_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.GetDpiX
 dev_langs:

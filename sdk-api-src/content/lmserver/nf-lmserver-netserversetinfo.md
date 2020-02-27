@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 1a04a43d-34f9-4a08-ac66-750120792af0
 ms.date: 12/05/2018
 ms.keywords: 101, 102, 402, 403, NetServerSetInfo, NetServerSetInfo function [Network Management], _win32_netserversetinfo, lmserver/NetServerSetInfo, netmgmt.netserversetinfo
-ms.topic: function
 f1_keywords:
 - lmserver/NetServerSetInfo
 dev_langs:

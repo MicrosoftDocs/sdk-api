@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: a28cdf06-8c4f-41ff-b9dc-eddf9bc9d674
 ms.date: 12/05/2018
 ms.keywords: WMIsContentProtected, WMIsContentProtected function [windows Media Format], wmformat.wmiscontentprotected, wmsdkidl/WMIsContentProtected
-ms.topic: function
 f1_keywords:
 - wmsdkidl/WMIsContentProtected
 dev_langs:

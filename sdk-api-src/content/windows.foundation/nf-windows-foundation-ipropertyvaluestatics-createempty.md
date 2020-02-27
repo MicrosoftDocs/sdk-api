@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: B1189E10-BB04-4648-87F9-447026E441D8
 ms.date: 12/05/2018
 ms.keywords: CreateEmpty, CreateEmpty method [Windows Runtime], CreateEmpty method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateEmpty method, IPropertyValueStatics.CreateEmpty, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateEmpty, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateEmpty, winrt.ipropertyvaluefactory_createempty, winrt.ipropertyvaluestatics_createempty
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValueStatics.CreateEmpty
 dev_langs:
@@ -62,7 +61,7 @@ Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/windows.fo
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
 
-A pointer to a new object that has its <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-get_type">Type</a> property set to <b>PropertyType_Empty</b>. No value is stored in the new object. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
+A pointer to a new object that has its <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-get_type">Type</a> property set to <b>PropertyType_Empty</b>. No value is stored in the new object. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
 
 
 ## -returns

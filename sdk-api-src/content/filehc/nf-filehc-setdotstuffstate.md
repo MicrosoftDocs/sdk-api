@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 3acfaf74-ec36-4afb-b358-425bd5062153
 ms.date: 12/05/2018
 ms.keywords: SetDotStuffState, SetDotStuffState function [Windows API], filehc/SetDotStuffState, winprog._setdotstuffstate
-ms.topic: function
 f1_keywords:
 - filehc/SetDotStuffState
 dev_langs:

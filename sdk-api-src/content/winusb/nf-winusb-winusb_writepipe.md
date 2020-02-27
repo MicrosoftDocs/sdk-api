@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 995b1d1b-8c08-4e67-8ba5-155231fe37f4
 ms.date: 12/05/2018
 ms.keywords: WinUsb_WritePipe, WinUsb_WritePipe function [Buses], buses.winusb_writepipe, winusb/WinUsb_WritePipe, winusbfunc_6fbed2b9-a65e-4802-8ba4-369a3200bffd.xml
-ms.topic: function
 f1_keywords:
 - winusb/WinUsb_WritePipe
 dev_langs:
@@ -67,7 +66,7 @@ To write to  a pipe that is associated with an endpoint in the first interface, 
 
 ### -param PipeID [in]
 
-<i>PipeID</i> corresponds to the <b>bEndpointAddress</b> field in the endpoint descriptor. For information about the layout of this field, see <b>Table 9-13</b> in "Universal Serial Bus Specification Revision 2.0" at <a href="http://go.microsoft.com/fwlink/p/?linkid=8769">USB Technology</a>. In the <b>bEndpointAddress</b> field, Bit 7 indicates the direction of the endpoint: 0 for OUT; 1 for IN.
+<i>PipeID</i> corresponds to the <b>bEndpointAddress</b> field in the endpoint descriptor. For information about the layout of this field, see <b>Table 9-13</b> in "Universal Serial Bus Specification Revision 2.0" at <a href="https://www.microsoft.com/whdc/connect/usb/default.mspx">USB Technology</a>. In the <b>bEndpointAddress</b> field, Bit 7 indicates the direction of the endpoint: 0 for OUT; 1 for IN.
 
 
 ### -param Buffer [in]

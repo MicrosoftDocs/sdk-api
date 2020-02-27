@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: eb311b8d-560d-4742-af4c-b5afe660c8e5
 ms.date: 12/05/2018
 ms.keywords: RetrieveUrlCacheEntryFile, RetrieveUrlCacheEntryFile function [WinINet], RetrieveUrlCacheEntryFileA, RetrieveUrlCacheEntryFileW, _inet_retrieveurlcacheentryfile_function, wininet.retrieveurlcacheentryfile, wininet/RetrieveUrlCacheEntryFile, wininet/RetrieveUrlCacheEntryFileA, wininet/RetrieveUrlCacheEntryFileW
-ms.topic: function
 f1_keywords:
 - wininet/RetrieveUrlCacheEntryFile
 dev_langs:

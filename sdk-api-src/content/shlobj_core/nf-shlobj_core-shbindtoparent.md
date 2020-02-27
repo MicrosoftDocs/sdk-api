@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1cb283a6-3ebf-4986-9f32-5f6ab8d977ad
 ms.date: 12/05/2018
 ms.keywords: SHBindToParent, SHBindToParent function [Windows Shell], _win32_SHBindToParent, shell.SHBindToParent, shlobj_core/SHBindToParent
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHBindToParent
 dev_langs:

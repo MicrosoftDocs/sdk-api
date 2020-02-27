@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: fc3cdfc2-fcdc-4682-b391-83ea4bb1571f
 ms.date: 12/05/2018
 ms.keywords: ImmGetDefaultIMEWnd, ImmGetDefaultIMEWnd function [Internationalization for Windows Applications], _win32_ImmGetDefaultIMEWnd, imm/ImmGetDefaultIMEWnd, intl.immgetdefaultimewnd
-ms.topic: function
 f1_keywords:
 - immdev/ImmGetDefaultIMEWnd
 dev_langs:

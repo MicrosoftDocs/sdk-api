@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_8nhh.htm
 ms.date: 12/05/2018
 ms.keywords: FaxDevInitialize, FaxDevInitialize function [Fax Service], _mfax_faxdevinitialize, fax._mfax_faxdevinitialize, faxdev/FaxDevInitialize
-ms.topic: function
 f1_keywords:
 - faxdev/FaxDevInitialize
 dev_langs:

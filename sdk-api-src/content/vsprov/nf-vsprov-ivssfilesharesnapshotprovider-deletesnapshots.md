@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 3fd48346-8a85-4ddf-9a6d-ac0cb82d4133
 ms.date: 12/05/2018
 ms.keywords: DeleteSnapshots, DeleteSnapshots method [VSS], DeleteSnapshots method [VSS],IVssFileShareSnapshotProvider interface, IVssFileShareSnapshotProvider interface [VSS],DeleteSnapshots method, IVssFileShareSnapshotProvider.DeleteSnapshots, IVssFileShareSnapshotProvider::DeleteSnapshots, base.ivssfilesharesnapshotprovider_deletesnapshots, vsprov/IVssFileShareSnapshotProvider::DeleteSnapshots
-ms.topic: method
 f1_keywords:
 - vsprov/IVssFileShareSnapshotProvider.DeleteSnapshots
 dev_langs:

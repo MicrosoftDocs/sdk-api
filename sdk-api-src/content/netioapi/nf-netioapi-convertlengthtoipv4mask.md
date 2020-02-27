@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 5d986301-368e-4984-9f90-e2af1f87cbea
 ms.date: 12/05/2018
 ms.keywords: ConvertLengthToIpv4Mask, ConvertLengthToIpv4Mask function [IP Helper], iphlp.convertlengthtoipv4mask, netioapi/ConvertLengthToIpv4Mask
-ms.topic: function
 f1_keywords:
 - netioapi/ConvertLengthToIpv4Mask
 dev_langs:

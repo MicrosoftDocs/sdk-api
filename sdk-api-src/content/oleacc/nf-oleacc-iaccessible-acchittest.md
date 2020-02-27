@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 87327086-a8f3-4d1c-ab4d-8f5aba00c61a
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accHitTest method, IAccessible.accHitTest, IAccessible::accHitTest, _msaa_IAccessible_accHitTest, accHitTest, accHitTest method [Windows Accessibility], accHitTest method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__acchittest, oleacc/IAccessible::accHitTest, winauto.iaccessible_iaccessible__acchittest
-ms.topic: method
 f1_keywords:
 - oleacc/IAccessible.accHitTest
 dev_langs:
@@ -102,7 +101,7 @@ Type: <b>VARIANT*</b>
 <tr>
 <td>Within a child object.</td>
 <td>VT_DISPATCH</td>
-<td><i>pdispVal</i> is set to the child object's <a href="https://go.microsoft.com/fwlink/p/?linkid=143840">IDispatch</a> interface pointer</td>
+<td><i>pdispVal</i> is set to the child object's <a href="https://msdn.microsoft.com/library/ms221608.aspx">IDispatch</a> interface pointer</td>
 </tr>
 </table>
  

@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omsetrendertargets.htm
 ms.date: 12/05/2018
 ms.keywords: 1a066759-273f-afca-4fed-6d836735ff9f, ID3D10Device interface [Direct3D 10],OMSetRenderTargets method, ID3D10Device.OMSetRenderTargets, ID3D10Device::OMSetRenderTargets, OMSetRenderTargets, OMSetRenderTargets method [Direct3D 10], OMSetRenderTargets method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OMSetRenderTargets, direct3d10.id3d10device_omsetrendertargets
-ms.topic: method
 f1_keywords:
 - d3d10/ID3D10Device.OMSetRenderTargets
 dev_langs:

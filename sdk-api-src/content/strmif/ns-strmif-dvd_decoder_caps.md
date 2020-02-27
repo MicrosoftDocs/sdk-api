@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7bfe5922-5d84-4ec8-87a0-e9bad102508b
 ms.date: 12/05/2018
 ms.keywords: DVD_AUDIO_CAPS_AC3, DVD_AUDIO_CAPS_DTS, DVD_AUDIO_CAPS_LPCM, DVD_AUDIO_CAPS_MPEG2, DVD_AUDIO_CAPS_SDDS, DVD_DECODER_CAPS, DVD_DECODER_CAPS structure [DirectShow], DVD_DECODER_CAPSStructure, dshow.dvd_decoder_caps, strmif/DVD_DECODER_CAPS
-ms.topic: struct
 f1_keywords:
 - strmif/DVD_DECODER_CAPS
 dev_langs:

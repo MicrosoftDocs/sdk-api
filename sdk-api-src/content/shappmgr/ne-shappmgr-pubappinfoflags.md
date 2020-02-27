@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9fcb93a5-24b5-4bc3-9f20-0088affb183b
 ms.date: 12/05/2018
 ms.keywords: PAI_ASSIGNEDTIME, PAI_EXPIRETIME, PAI_PUBLISHEDTIME, PAI_SCHEDULEDTIME, PAI_SOURCE, PUBAPPINFOFLAGS, PUBAPPINFOFLAGS enumeration [Windows Shell], inet_PUBAPPINFOFLAGS, shappmgr/PAI_ASSIGNEDTIME, shappmgr/PAI_EXPIRETIME, shappmgr/PAI_PUBLISHEDTIME, shappmgr/PAI_SCHEDULEDTIME, shappmgr/PAI_SOURCE, shappmgr/PUBAPPINFOFLAGS, shell.PUBAPPINFOFLAGS
-ms.topic: enum
 f1_keywords:
 - shappmgr/PUBAPPINFOFLAGS
 dev_langs:

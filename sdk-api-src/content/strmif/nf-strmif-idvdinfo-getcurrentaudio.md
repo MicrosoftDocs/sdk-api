@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d542e995-3b98-402a-b1d9-253bede7dcff
 ms.date: 12/05/2018
 ms.keywords: GetCurrentAudio, GetCurrentAudio method [DirectShow], GetCurrentAudio method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentAudio method, IDvdInfo.GetCurrentAudio, IDvdInfo::GetCurrentAudio, IDvdInfoGetCurrentAudio, dshow.idvdinfo_getcurrentaudio, strmif/IDvdInfo::GetCurrentAudio
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo.GetCurrentAudio
 dev_langs:
@@ -113,7 +112,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-Requested action is not supported on this domain (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
+Requested action is not supported on this domain (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
 
 </td>
 </tr>
@@ -138,7 +137,7 @@ Requested action cannot occur at this point in the movie due to the authoring of
 
 
 
-This method returns an error unless the domain is DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

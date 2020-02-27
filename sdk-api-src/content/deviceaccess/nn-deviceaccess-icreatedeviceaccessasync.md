@@ -7,7 +7,6 @@ tech.root: deviceaccess
 ms.assetid: ebc8d694-c933-4d98-95f5-67b0dd733d4d
 ms.date: 12/05/2018
 ms.keywords: ICreateDeviceAccessAsync, ICreateDeviceAccessAsync interface [Device Access Broker API], ICreateDeviceAccessAsync interface [Device Access Broker API],described, deviceaccess.icreatedeviceaccessasync, deviceaccess/ICreateDeviceAccessAsync
-ms.topic: interface
 f1_keywords:
 - deviceaccess/ICreateDeviceAccessAsync
 dev_langs:

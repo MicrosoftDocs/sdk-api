@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 68dc99c5-1158-4e18-8e32-08216ff3567b
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineforward, lineForward, lineForward function [TAPI 2.2], lineForwardA, lineForwardW, tapi/lineForward, tapi/lineForwardA, tapi/lineForwardW, tapi2.lineforward
-ms.topic: function
 f1_keywords:
 - tapi/lineForward
 dev_langs:

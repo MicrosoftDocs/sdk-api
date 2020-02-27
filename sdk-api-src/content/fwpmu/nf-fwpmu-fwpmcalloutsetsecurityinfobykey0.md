@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: c85b3eb1-29c8-47f1-9d68-8e65e06b5492
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutSetSecurityInfoByKey0, FwpmCalloutSetSecurityInfoByKey0 function [Filtering], fwp.fwpmcalloutsetsecurityinfobykey0_func, fwpmu/FwpmCalloutSetSecurityInfoByKey0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmCalloutSetSecurityInfoByKey0
 dev_langs:

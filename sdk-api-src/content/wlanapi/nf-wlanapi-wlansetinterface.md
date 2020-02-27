@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 114a2a71-babd-4cd7-860a-fea523bcc865
 ms.date: 12/05/2018
 ms.keywords: WlanSetInterface, WlanSetInterface function [NativeWIFI], nwifi.wlansetinterface, wlanapi/WlanSetInterface
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanSetInterface
 dev_langs:
@@ -186,9 +185,9 @@ If the function fails, the return value may be one of the following return codes
 
 
 
-When   <i>OpCode</i> is set to  <b>wlan_intf_opcode_current_operation_mode</b>,  the <b>WlanSetInterface</b>  function sets the current operation mode of the wireless interface. For more information about operation modes, see <a href="http://go.microsoft.com/fwlink/p/?linkid=71672">Native 802.11 Operation Modes</a>. Two operation modes are supported: <b>DOT11_OPERATION_MODE_EXTENSIBLE_STATION</b> and  <b>DOT11_OPERATION_MODE_NETWORK_MONITOR</b>. The operation mode constants are defined in the header file Windot11.h. If <i>pData</i> does not point to one of these values when <i>OpCode</i> is set to  <b>wlan_intf_opcode_current_operation_mode</b>, the  <b>WlanSetInterface</b>   function will fail with an error.
+When   <i>OpCode</i> is set to  <b>wlan_intf_opcode_current_operation_mode</b>,  the <b>WlanSetInterface</b>  function sets the current operation mode of the wireless interface. For more information about operation modes, see <a href="https://www.microsoft.com/?ref=go">Native 802.11 Operation Modes</a>. Two operation modes are supported: <b>DOT11_OPERATION_MODE_EXTENSIBLE_STATION</b> and  <b>DOT11_OPERATION_MODE_NETWORK_MONITOR</b>. The operation mode constants are defined in the header file Windot11.h. If <i>pData</i> does not point to one of these values when <i>OpCode</i> is set to  <b>wlan_intf_opcode_current_operation_mode</b>, the  <b>WlanSetInterface</b>   function will fail with an error.
 
-To enable or disable the automatic configuration service   at the command line, which is functionally equivalent to calling <b>WlanSetInterface</b> with  <i>OpCode</i> set to  <b>wlan_intf_opcode_autoconf_enabled</b>, use the <b>netsh wlan setautoconfig</b> command. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=120964">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
+To enable or disable the automatic configuration service   at the command line, which is functionally equivalent to calling <b>WlanSetInterface</b> with  <i>OpCode</i> set to  <b>wlan_intf_opcode_autoconf_enabled</b>, use the <b>netsh wlan setautoconfig</b> command. For more information, see <a href="https://technet.microsoft.com/library/f435edbe-1d50-4774-bae2-0dda33eaeb2f">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
 
 The software radio state can be changed by calling the <b>WlanSetInterface</b> function.   The hardware radio state cannot be changed by calling the <b>WlanSetInterface</b> function.  When the <i>OpCode</i> parameter is set to <b>wlan_intf_opcode_radio_state</b>,  the <b>WlanSetInterface</b> function sets the software radio state of a specific PHY. The <i>pData</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_phy_radio_state">WLAN_PHY_RADIO_STATE</a> structure with the new radio state values to use. The <b>dot11HardwareRadioState</b> member of the <b>WLAN_PHY_RADIO_STATE</b> structure is ignored when  the <b>WlanSetInterface</b> function is called with the <i>OpCode</i> parameter set to <b>wlan_intf_opcode_radio_state</b> and the <i>pData</i> parameter points to a <b>WLAN_PHY_RADIO_STATE</b> structure. The radio state of a PHY is off if either the software radio state (<b>dot11SoftwareRadioState</b> member of the <b>WLAN_PHY_RADIO_STATE</b> structure) or the hardware radio state (<b>dot11HardwareRadioState</b> member of the <b>WLAN_PHY_RADIO_STATE</b> structure) is off.  
 

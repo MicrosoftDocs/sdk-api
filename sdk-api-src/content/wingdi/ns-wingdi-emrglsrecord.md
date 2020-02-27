@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 58e31199-80e2-4077-a6f6-1787c5228f77
 ms.date: 12/05/2018
 ms.keywords: '*PEMRGLSRECORD, EMRGLSRECORD, EMRGLSRECORD structure [Windows GDI], PEMRGLSRECORD, PEMRGLSRECORD structure pointer [Windows GDI], _win32_EMRGLSRECORD_str, gdi.emrglsrecord, wingdi/EMRGLSRECORD, wingdi/PEMRGLSRECORD'
-ms.topic: struct
 f1_keywords:
 - wingdi/EMRGLSRECORD
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 2f36654c-25bf-47c3-a4d6-990d427bd1fc
 ms.date: 12/05/2018
 ms.keywords: Download, Download method [Audio Devices], Download method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],Download method, IDirectMusicSynth.Download, IDirectMusicSynth::Download, audio.idirectmusicsynth_download, audmp-routines_5b59a66c-53b7-429c-81d1-8924f712b884.xml, dmusics/IDirectMusicSynth::Download
-ms.topic: method
 f1_keywords:
 - dmusics/IDirectMusicSynth.Download
 dev_langs:

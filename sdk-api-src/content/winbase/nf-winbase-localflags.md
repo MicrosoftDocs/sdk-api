@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 4804c8c3-6c0b-4f62-87ab-f64b23fff8b9
 ms.date: 12/05/2018
 ms.keywords: LocalFlags, LocalFlags function, _win32_localflags, base.localflags, winbase/LocalFlags
-ms.topic: function
 f1_keywords:
 - winbase/LocalFlags
 dev_langs:

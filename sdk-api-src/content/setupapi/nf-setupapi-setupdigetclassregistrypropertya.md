@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 79a600af-15c1-4afc-a2cd-568b97d979dc
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassRegistryProperty, SetupDiGetClassRegistryProperty function [Device and Driver Installation], SetupDiGetClassRegistryPropertyA, SetupDiGetClassRegistryPropertyW, devinst.setupdigetclassregistryproperty, di-rtns_98a6c47a-6fb5-4752-9f0e-23ad00f4e5f2.xml, setupapi/SetupDiGetClassRegistryProperty
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetClassRegistryProperty
 dev_langs:
@@ -147,7 +146,7 @@ Reserved, must be <b>NULL</b>.
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 

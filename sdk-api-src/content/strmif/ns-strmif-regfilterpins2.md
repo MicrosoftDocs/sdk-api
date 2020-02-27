@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a78327f1-a0aa-4e25-b6f8-cf45b92191fa
 ms.date: 12/05/2018
 ms.keywords: REGFILTERPINS2, REGFILTERPINS2 structure [DirectShow], REGFILTERPINS2Structure, dshow.regfilterpins2, strmif/REGFILTERPINS2
-ms.topic: struct
 f1_keywords:
 - strmif/REGFILTERPINS2
 dev_langs:

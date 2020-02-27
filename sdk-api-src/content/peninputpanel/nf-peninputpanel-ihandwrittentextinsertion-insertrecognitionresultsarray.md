@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: c3566d1c-e4fb-4f0d-9beb-0b5e5db66985
 ms.date: 12/05/2018
 ms.keywords: IHandWrittenTextInsertion interface [Tablet PC],InsertRecognitionResultsArray method, IHandWrittenTextInsertion::InsertRecognitionResultsArray, IHandwrittenTextInsertion.InsertRecognitionResultsArray, IHandwrittenTextInsertion::InsertRecognitionResultsArray, InsertRecognitionResultsArray, InsertRecognitionResultsArray method [Tablet PC], InsertRecognitionResultsArray method [Tablet PC],IHandWrittenTextInsertion interface, c3566d1c-e4fb-4f0d-9beb-0b5e5db66985, peninputpanel/IHandWrittenTextInsertion::InsertRecognitionResultsArray, tablet.ihandwrittentextinsertion_insertrecognitionresultsarray
-ms.topic: method
 f1_keywords:
 - peninputpanel/IHandWrittenTextInsertion.InsertRecognitionResultsArray
 dev_langs:

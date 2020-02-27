@@ -7,7 +7,6 @@ tech.root: ToolHelp
 ms.assetid: bb4d573c-a82f-48ac-be22-440d6a1d0c9c
 ms.date: 12/05/2018
 ms.keywords: Heap32ListNext, Heap32ListNext function [ToolHelp], _win32_heap32listnext, base.heap32listnext, tlhelp32/Heap32ListNext, toolhelp.heap32listnext
-ms.topic: function
 f1_keywords:
 - tlhelp32/Heap32ListNext
 dev_langs:

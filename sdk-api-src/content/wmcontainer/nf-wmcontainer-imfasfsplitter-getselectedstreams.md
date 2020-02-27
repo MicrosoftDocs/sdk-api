@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: f2c12e45-f320-43e0-abf1-36993dfed32d
 ms.date: 12/05/2018
 ms.keywords: GetSelectedStreams, GetSelectedStreams method [Media Foundation], GetSelectedStreams method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],GetSelectedStreams method, IMFASFSplitter.GetSelectedStreams, IMFASFSplitter::GetSelectedStreams, f2c12e45-f320-43e0-abf1-36993dfed32d, mf.imfasfsplitter_getselectedstreams, wmcontainer/IMFASFSplitter::GetSelectedStreams
-ms.topic: method
 f1_keywords:
 - wmcontainer/IMFASFSplitter.GetSelectedStreams
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: b5500c94-7d7a-473d-80ef-c0d713dcb52e
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],X509Extensions property, IX509CertificateRequestPkcs10.X509Extensions, IX509CertificateRequestPkcs10.get_X509Extensions, IX509CertificateRequestPkcs10::X509Extensions, IX509CertificateRequestPkcs10::get_X509Extensions, X509Extensions property [Security], X509Extensions property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::X509Extensions, certenroll/IX509CertificateRequestPkcs10::get_X509Extensions, get_X509Extensions, security.ix509certificaterequestpkcs10_x509extensions_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509CertificateRequestPkcs10.X509Extensions
 dev_langs:

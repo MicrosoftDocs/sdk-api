@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: D52E98BD-726F-4AC0-A034-02896B1D1687
 ms.date: 12/05/2018
 ms.keywords: FindPackagesByPackageFamily, FindPackagesByPackageFamily function [App packaging and management], appmodel/FindPackagesByPackageFamily, appxpkg.findpackagesbypackagefamily
-ms.topic: function
 f1_keywords:
 - appmodel/FindPackagesByPackageFamily
 dev_langs:

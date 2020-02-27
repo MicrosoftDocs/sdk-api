@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: e20eb9a3-5824-48ee-b13e-b0252bbf495e
 ms.date: 12/05/2018
 ms.keywords: WlanQueryInterface, WlanQueryInterface function [NativeWIFI], nwifi.wlanqueryinterface, wlanapi/WlanQueryInterface
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanQueryInterface
 dev_langs:
@@ -205,7 +204,7 @@ If the function fails, the return value may be one of the following return codes
 
 The caller is responsible for using <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> to free the memory allocated for <i>ppData</i>.
 
-When   <i>OpCode</i> is set to  <b>wlan_intf_opcode_current_operation_mode</b>,  <b>WlanQueryInterface</b>  queries the current operation mode of the wireless interface. For more information about operation modes, see <a href="http://go.microsoft.com/fwlink/p/?linkid=71672">Native 802.11 Operation Modes</a>. Two operation modes are supported: <b>DOT11_OPERATION_MODE_EXTENSIBLE_STATION</b> and  <b>DOT11_OPERATION_MODE_NETWORK_MONITOR</b>. The operation mode constants are defined in the header file Windot11.h. <i>ppData</i> will point to one of these two values.
+When   <i>OpCode</i> is set to  <b>wlan_intf_opcode_current_operation_mode</b>,  <b>WlanQueryInterface</b>  queries the current operation mode of the wireless interface. For more information about operation modes, see <a href="https://www.microsoft.com/?ref=go">Native 802.11 Operation Modes</a>. Two operation modes are supported: <b>DOT11_OPERATION_MODE_EXTENSIBLE_STATION</b> and  <b>DOT11_OPERATION_MODE_NETWORK_MONITOR</b>. The operation mode constants are defined in the header file Windot11.h. <i>ppData</i> will point to one of these two values.
 
 
 #### Examples
@@ -586,7 +585,7 @@ int wmain()
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=71672">Native 802.11 Operation Modes</a>
+<a href="https://www.microsoft.com/?ref=go">Native 802.11 Operation Modes</a>
 
 
 

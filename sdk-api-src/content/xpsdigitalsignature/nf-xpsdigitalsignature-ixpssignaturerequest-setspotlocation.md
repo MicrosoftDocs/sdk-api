@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 44ee13dd-ceea-4cd3-8c9e-4300c0c304ab
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetSpotLocation method, IXpsSignatureRequest.SetSpotLocation, IXpsSignatureRequest::SetSpotLocation, SetSpotLocation, SetSpotLocation method [XPS Documents and Packaging], SetSpotLocation method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setspotlocation, xpsdigitalsignature/IXpsSignatureRequest::SetSpotLocation
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureRequest.SetSpotLocation
 dev_langs:
@@ -142,7 +141,7 @@ The location  of the signing spot is specified in XPS units from the upper-left 
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

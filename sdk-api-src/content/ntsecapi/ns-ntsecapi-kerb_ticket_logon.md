@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 2c082c79-ce7f-45a1-8552-3b4e9034b7e3
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_TICKET_LOGON, KERB_TICKET_LOGON, KERB_TICKET_LOGON structure [Security], PKERB_TICKET_LOGON, PKERB_TICKET_LOGON structure pointer [Security], _lsa_kerb_ticket_logon, ntsecapi/KERB_TICKET_LOGON, ntsecapi/PKERB_TICKET_LOGON, security.kerb_ticket_logon'
-ms.topic: struct
 f1_keywords:
 - ntsecapi/KERB_TICKET_LOGON
 dev_langs:
@@ -89,7 +88,7 @@ Required ticket for service "host" or the computer account <a href="https://docs
 
 ### -field TicketGrantingTicket
 
-Optional buffer containing an ASN.1-encoded KRB_CRED message containing the user's Kerberos ticket-granting ticket (KRBTGT) to be used to initialize the credential cache. The ticket must have the "forwarded" flag set in the ticket options. The KRB_CRED message is defined in Section 5.8 of  Internet <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a>. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84023">http://www.ietf.org</a>.
+Optional buffer containing an ASN.1-encoded KRB_CRED message containing the user's Kerberos ticket-granting ticket (KRBTGT) to be used to initialize the credential cache. The ticket must have the "forwarded" flag set in the ticket options. The KRB_CRED message is defined in Section 5.8 of  Internet <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a>. For more information, see <a href="https://www.ietf.org/">http://www.ietf.org</a>.
 
 
 ## -remarks

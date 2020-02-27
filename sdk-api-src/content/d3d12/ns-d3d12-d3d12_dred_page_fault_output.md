@@ -5,7 +5,6 @@ description: Describes allocation data related to a GPU page fault on a given vi
 tech.root: direct3d12
 ms.date: 02/06/2019
 ms.keywords: D3D12_DRED_PAGE_FAULT_OUTPUT, D3D12_DRED_PAGE_FAULT_OUTPUT structure, d3d12/D3D12_DRED_PAGE_FAULT_OUTPUT, direct3d12.d3d12_dred_page_fault_output
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_DRED_PAGE_FAULT_OUTPUT
 dev_langs:

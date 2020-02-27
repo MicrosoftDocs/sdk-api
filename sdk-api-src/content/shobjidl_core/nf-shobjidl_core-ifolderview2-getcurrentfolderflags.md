@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 334d93c7-79a5-46c0-9042-400504aa2706
 ms.date: 12/05/2018
 ms.keywords: GetCurrentFolderFlags, GetCurrentFolderFlags method [Windows Shell], GetCurrentFolderFlags method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetCurrentFolderFlags method, IFolderView2.GetCurrentFolderFlags, IFolderView2::GetCurrentFolderFlags, _shell_IFolderView2_GetCurrentFolderFlags, shell.IFolderView2_GetCurrentFolderFlags, shobjidl_core/IFolderView2::GetCurrentFolderFlags
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFolderView2.GetCurrentFolderFlags
 dev_langs:

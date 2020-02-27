@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: eeb1842f-fd9e-4edf-9db8-7b4e91760e9b
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCRYPT_MACHINE_KEY_FLAG, NCRYPT_OVERWRITE_KEY_FLAG, NCryptCreatePersistedKey, NCryptCreatePersistedKey function [Security], ncrypt/NCryptCreatePersistedKey, security.ncryptcreatepersistedkey_func
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptCreatePersistedKey
 dev_langs:
@@ -249,7 +248,7 @@ A memory allocation failure occurred.
 
 If you are creating an RSA key pair, you can also have the key stored in legacy storage so that it can be used with the CryptoAPI by passing the <b>NCRYPT_WRITE_KEY_TO_LEGACY_STORE_FLAG</b> flag to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfinalizekey">NCryptFinalizeKey</a> function when the key is finalized.
 
-A service must not call this function from its <a href="http://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 
 

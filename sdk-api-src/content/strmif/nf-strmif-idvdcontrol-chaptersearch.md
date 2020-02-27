@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1389df65-e269-4c2b-b276-a29da33fe515
 ms.date: 12/05/2018
 ms.keywords: ChapterSearch, ChapterSearch method [DirectShow], ChapterSearch method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ChapterSearch method, IDvdControl.ChapterSearch, IDvdControl::ChapterSearch, IDvdControlChapterSearch, dshow.idvdcontrol_chaptersearch, strmif/IDvdControl::ChapterSearch
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.ChapterSearch
 dev_langs:
@@ -81,7 +80,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method returns an error unless the domain is DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

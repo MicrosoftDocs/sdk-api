@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: f93b37bc-d3d1-40f0-aef6-839bb43c88e2
 ms.date: 12/05/2018
 ms.keywords: MprAdminServerConnect, MprAdminServerConnect function [RAS], _mpr_mpradminserverconnect, mprapi/MprAdminServerConnect, rras.mpradminserverconnect
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminServerConnect
 dev_langs:

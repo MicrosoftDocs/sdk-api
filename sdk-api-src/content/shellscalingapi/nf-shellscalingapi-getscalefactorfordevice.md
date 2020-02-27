@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5F312914-03F6-42E0-80F9-761D854A81A3
 ms.date: 12/05/2018
 ms.keywords: GetScaleFactorForDevice, GetScaleFactorForDevice function [Windows Shell], shell.getscalefactorfordevice, shellscalingapi/GetScaleFactorForDevice
-ms.topic: function
 f1_keywords:
 - shellscalingapi/GetScaleFactorForDevice
 dev_langs:

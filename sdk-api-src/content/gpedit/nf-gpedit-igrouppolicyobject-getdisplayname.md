@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: a16592c3-8fa1-4859-b379-ef31999a3fdd
 ms.date: 12/05/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Group Policy], GetDisplayName method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetDisplayName method, IGroupPolicyObject.GetDisplayName, IGroupPolicyObject::GetDisplayName, _win32_igrouppolicyobject_getdisplayname, gpedit/IGroupPolicyObject::GetDisplayName, policy.igrouppolicyobject_getdisplayname
-ms.topic: method
 f1_keywords:
 - gpedit/IGroupPolicyObject.GetDisplayName
 dev_langs:

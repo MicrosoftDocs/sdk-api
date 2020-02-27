@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: f376e177-7714-4771-8aa4-13f91a26395a
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Tablet PC], Clone method [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],Clone method, IInkRecognizerContext.Clone, IInkRecognizerContext::Clone, f3ec6b42-2b5d-459e-ba09-88c27b125c40, get_Clone, msinkaut/IInkRecognizerContext::Clone, putref_Clone, tablet.inkrecognizercontext_clone
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRecognizerContext.Clone
 dev_langs:

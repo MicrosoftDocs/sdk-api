@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5cc3.htm
 ms.date: 12/05/2018
 ms.keywords: AllowPersonalCoverPages property [Fax Service], AllowPersonalCoverPages property [Fax Service],IFaxOutgoingQueue interface, IFaxOutgoingQueue interface [Fax Service],AllowPersonalCoverPages property, IFaxOutgoingQueue.AllowPersonalCoverPages, IFaxOutgoingQueue.get_AllowPersonalCoverPages, IFaxOutgoingQueue::AllowPersonalCoverPages, IFaxOutgoingQueue::get_AllowPersonalCoverPages, IFaxOutgoingQueue::put_AllowPersonalCoverPages, _mfax_faxoutgoingqueue.allowpersonalcoverpages, fax._mfax_faxoutgoingqueue_allowpersonalcoverpages, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_allowpersonalcoverpages_cpp, faxcomex/IFaxOutgoingQueue::AllowPersonalCoverPages, faxcomex/IFaxOutgoingQueue::get_AllowPersonalCoverPages, faxcomex/IFaxOutgoingQueue::put_AllowPersonalCoverPages, get_AllowPersonalCoverPages
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutgoingQueue.AllowPersonalCoverPages
 dev_langs:

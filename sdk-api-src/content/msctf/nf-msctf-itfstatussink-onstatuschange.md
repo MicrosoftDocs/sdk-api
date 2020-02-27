@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 6eabf08f-006b-43b4-aea7-1d803b3d09b2
 ms.date: 12/05/2018
 ms.keywords: ITfStatusSink interface [Text Services Framework],OnStatusChange method, ITfStatusSink.OnStatusChange, ITfStatusSink::OnStatusChange, OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework],ITfStatusSink interface, _tsf_itfstatussink_onstatuschange_ref, msctf/ITfStatusSink::OnStatusChange, tsf.itfstatussink_onstatuschange
-ms.topic: method
 f1_keywords:
 - msctf/ITfStatusSink.OnStatusChange
 dev_langs:

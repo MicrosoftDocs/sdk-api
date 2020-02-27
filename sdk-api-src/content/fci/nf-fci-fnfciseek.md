@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: e5a14c98-4de6-452e-8993-afb7964aeee7
 ms.date: 12/05/2018
 ms.keywords: FNFCISEEK, FNFCISEEK macro [Windows API], fci/FNFCISEEK, winprog.fnfciseek
-ms.topic: macro
 f1_keywords:
 - fci/FNFCISEEK
 dev_langs:
@@ -87,7 +86,7 @@ The starting point for the file pointer to move.
 
 
 
-The function accepts parameters similar to <a href="http://go.microsoft.com/fwlink/p/?linkid=196546">_lseek</a> with the addition to <i>err</i> and <i>pv</i>.
+The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/ms235323(VS.80).aspx">_lseek</a> with the addition to <i>err</i> and <i>pv</i>.
 
 
 #### Examples

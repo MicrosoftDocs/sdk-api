@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 38467491-c432-456a-9128-723fc7dde189
 ms.date: 12/05/2018
 ms.keywords: GetIdentityString, GetIdentityString method [Windows Accessibility], GetIdentityString method [Windows Accessibility],IAccIdentity interface, IAccIdentity interface [Windows Accessibility],GetIdentityString method, IAccIdentity.GetIdentityString, IAccIdentity::GetIdentityString, _msaa_IAccIdentity_GetIdentityString, msaa.iaccidentity_iaccidentity__getidentitystring, oleacc/IAccIdentity::GetIdentityString, winauto.iaccidentity_iaccidentity__getidentitystring
-ms.topic: method
 f1_keywords:
 - oleacc/IAccIdentity.GetIdentityString
 dev_langs:
@@ -98,7 +97,7 @@ Address of a variable that receives the length, in bytes, of the callee-allocate
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-Return S_OK, except under exceptional error conditions, such as low memory. If not supported, calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccidentity">IAccIdentity</a> should fail.
+Return S_OK, except under exceptional error conditions, such as low memory. If not supported, calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccidentity">IAccIdentity</a> should fail.
 
 
 

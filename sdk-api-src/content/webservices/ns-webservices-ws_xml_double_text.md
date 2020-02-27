@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: dff0aceb-7588-47e2-9ca0-dfa58eb25001
 ms.date: 12/05/2018
 ms.keywords: WS_XML_DOUBLE_TEXT, WS_XML_DOUBLE_TEXT structure [Web Services for Windows], webservices/WS_XML_DOUBLE_TEXT, wsw.ws_xml_double_text
-ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_DOUBLE_TEXT
 dev_langs:

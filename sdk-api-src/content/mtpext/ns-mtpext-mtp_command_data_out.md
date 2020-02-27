@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: ddaf49c8-99df-4e21-a633-82e08691f088
 ms.date: 12/05/2018
 ms.keywords: '*PMTP_COMMAND_DATA_OUT, MTP_COMMAND_DATA_OUT, MTP_COMMAND_DATA_OUT structure [windows Media Device Manager], PMTP_COMMAND_DATA_OUT, PMTP_COMMAND_DATA_OUT structure pointer [windows Media Device Manager], mtpext/MTP_COMMAND_DATA_OUT, mtpext/PMTP_COMMAND_DATA_OUT, wmdm.mtp_command_data_out'
-ms.topic: struct
 f1_keywords:
 - mtpext/MTP_COMMAND_DATA_OUT
 dev_langs:

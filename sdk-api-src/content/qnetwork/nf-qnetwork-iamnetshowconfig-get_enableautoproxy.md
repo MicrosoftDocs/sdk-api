@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7037f326-3320-4e4a-8f6f-feda1a306c2d
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableAutoProxy method, IAMNetShowConfig.get_EnableAutoProxy, IAMNetShowConfig::get_EnableAutoProxy, IAMNetShowConfigget_EnableAutoProxy, dshow.iamnetshowconfig_get_enableautoproxy, get_EnableAutoProxy, get_EnableAutoProxy method [DirectShow], get_EnableAutoProxy method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableAutoProxy
-ms.topic: method
 f1_keywords:
 - qnetwork/IAMNetShowConfig.get_EnableAutoProxy
 dev_langs:

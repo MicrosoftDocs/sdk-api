@@ -7,7 +7,6 @@ tech.root: dwm
 ms.assetid: 9F7EFFD4-A69A-435B-8B73-A789F7BDE7BB
 ms.date: 12/05/2018
 ms.keywords: DwmTetherContact, DwmTetherContact function [Desktop Window Manager], dwm.dwmtethercontact, dwmapi/DwmTetherContact
-ms.topic: function
 f1_keywords:
 - dwmapi/DwmTetherContact
 dev_langs:

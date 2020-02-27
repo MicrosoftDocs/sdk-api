@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: d82c352d-8685-4276-b58c-ce89557f074a
 ms.date: 12/05/2018
 ms.keywords: SnmpContextToStr, SnmpContextToStr function [SNMP], _snmp_snmpcontexttostr, snmp.snmpcontexttostr, winsnmp/SnmpContextToStr
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpContextToStr
 dev_langs:

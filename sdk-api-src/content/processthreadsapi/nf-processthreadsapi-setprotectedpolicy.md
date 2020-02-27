@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 36975287-20F0-477B-870F-EA0AC40B39E3
 ms.date: 12/05/2018
 ms.keywords: SetProtectedPolicy, SetProtectedPolicy function, base.setprotectedpolicy, processthreadsapi/SetProtectedPolicy
-ms.topic: function
 f1_keywords:
 - processthreadsapi/SetProtectedPolicy
 dev_langs:

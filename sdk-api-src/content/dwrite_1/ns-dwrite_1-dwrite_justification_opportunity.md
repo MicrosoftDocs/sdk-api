@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: D7D18462-A0A4-4064-B04D-CA8ACED7E34D
 ms.date: 12/05/2018
 ms.keywords: DWRITE_JUSTIFICATION_OPPORTUNITY, DWRITE_JUSTIFICATION_OPPORTUNITY structure [Direct Write], directwrite.dwrite_justification_opportunity, dwrite_1/DWRITE_JUSTIFICATION_OPPORTUNITY
-ms.topic: struct
 f1_keywords:
 - dwrite_1/DWRITE_JUSTIFICATION_OPPORTUNITY
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 56230397-bdb2-4996-90a1-49c2f9a7e651
 ms.date: 12/05/2018
 ms.keywords: MCIWndRealize, MCIWndRealize macro [Windows Multimedia], _win32_MCIWndRealize, multimedia.mciwndrealize, vfw/MCIWndRealize
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndRealize
 dev_langs:

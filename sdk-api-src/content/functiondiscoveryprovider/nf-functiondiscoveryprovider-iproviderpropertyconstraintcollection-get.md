@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: 0388d895-07bb-490c-9fce-0821a51d765a
 ms.date: 12/05/2018
 ms.keywords: Get, Get method, Get method,IProviderPropertyConstraintCollection interface, IProviderPropertyConstraintCollection interface,Get method, IProviderPropertyConstraintCollection.Get, IProviderPropertyConstraintCollection::Get, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Get, ncd.iproviderpropertyconstraintcollection_get
-ms.topic: method
 f1_keywords:
 - functiondiscoveryprovider/IProviderPropertyConstraintCollection.Get
 dev_langs:

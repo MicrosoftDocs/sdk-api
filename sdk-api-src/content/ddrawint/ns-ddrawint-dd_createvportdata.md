@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: c4dea564-399a-46ee-ad71-7a374d6fbc0a
 ms.date: 12/05/2018
 ms.keywords: '*PDD_CREATEVPORTDATA, DD_CREATEVPORTDATA, DD_CREATEVPORTDATA structure [Display Devices], ddrawint/DD_CREATEVPORTDATA, ddstrcts_397bd4aa-7d61-4efa-b47e-1ec97556a429.xml, display.dd_createvportdata'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_CREATEVPORTDATA
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 1e5ef26f-d8e7-4fa6-bfc4-19dace35314d
 ms.date: 12/05/2018
 ms.keywords: HandsOffStorage, HandsOffStorage method [COM], HandsOffStorage method [COM],IPersistStorage interface, IPersistStorage interface [COM],HandsOffStorage method, IPersistStorage.HandsOffStorage, IPersistStorage::HandsOffStorage, _com_ipersiststorage_handsoffstorage, com.ipersiststorage_handsoffstorage, objidl/IPersistStorage::HandsOffStorage
-ms.topic: method
 f1_keywords:
 - objidl/IPersistStorage.HandsOffStorage
 dev_langs:

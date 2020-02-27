@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 125d352e-b181-4baa-8763-21315534beea
 ms.date: 12/05/2018
 ms.keywords: GetMaxKeyFrameSpacing, GetMaxKeyFrameSpacing method [windows Media Format], GetMaxKeyFrameSpacing method [windows Media Format],IWMVideoMediaProps interface, IWMVideoMediaProps interface [windows Media Format],GetMaxKeyFrameSpacing method, IWMVideoMediaProps.GetMaxKeyFrameSpacing, IWMVideoMediaProps::GetMaxKeyFrameSpacing, IWMVideoMediaPropsGetMaxKeyFrameSpacing, wmformat.iwmvideomediaprops_getmaxkeyframespacing, wmsdkidl/IWMVideoMediaProps::GetMaxKeyFrameSpacing
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMVideoMediaProps.GetMaxKeyFrameSpacing
 dev_langs:

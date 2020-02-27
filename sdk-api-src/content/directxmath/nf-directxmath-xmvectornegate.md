@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorNegate(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorNegate, XMVectorNegate, XMVectorNegate method [DirectX Math Support APIs], dxmath.xmvectornegate
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorNegate
 dev_langs:

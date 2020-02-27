@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 45bd2d23-1f6d-42a6-8afb-86227da6118f
 ms.date: 12/05/2018
 ms.keywords: FNOPEN, FNOPEN macro [Windows API], fdi/FNOPEN, winprog.fnopen
-ms.topic: macro
 f1_keywords:
 - fdi/FNOPEN
 dev_langs:
@@ -77,7 +76,7 @@ Specifies the permission mode.
 
 
 
-The function accepts parameters similar to <a href="http://go.microsoft.com/fwlink/p/?linkid=196548">_open</a>.
+The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/z0kc8e3z(VS.71).aspx">_open</a>.
 
 
 #### Examples

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 423b0232-846e-4e40-bc42-d30c48c548da
 ms.date: 12/05/2018
 ms.keywords: CertSetEnhancedKeyUsage, CertSetEnhancedKeyUsage function [Security], _crypto2_certsetenhancedkeyusage, security.certsetenhancedkeyusage, wincrypt/CertSetEnhancedKeyUsage
-ms.topic: function
 f1_keywords:
 - wincrypt/CertSetEnhancedKeyUsage
 dev_langs:

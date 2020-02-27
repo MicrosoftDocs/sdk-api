@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: ABD529CF-41D8-4F21-8F47-D0D053AF2322
 ms.date: 12/05/2018
 ms.keywords: GetCoreWindow, GetCoreWindow method [DXGI], GetCoreWindow method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetCoreWindow method, IDXGISwapChain1.GetCoreWindow, IDXGISwapChain1::GetCoreWindow, direct3ddxgi.idxgiswapchain1_getimmersivewindow, dxgi1_2/IDXGISwapChain1::GetCoreWindow
-ms.topic: method
 f1_keywords:
 - dxgi1_2/IDXGISwapChain1.GetCoreWindow
 dev_langs:
@@ -79,7 +78,7 @@ A pointer to a variable that receives a pointer to the <a href="https://msdn.mic
 <li>S_OK if it successfully retrieved the underlying <a href="https://msdn.microsoft.com/sk-sk/windows/desktop/windows.ui.core.corewindow">CoreWindow</a> object.</li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_INVALID_CALL</a>  if <i>ppUnk</i> is <b>NULL</b>; that is, the swap chain is not associated with a <a href="https://msdn.microsoft.com/sk-sk/windows/desktop/windows.ui.core.corewindow">CoreWindow</a> object.</li>
-<li>Any <a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a> that a call to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> to query for an <a href="https://msdn.microsoft.com/sk-sk/windows/desktop/windows.ui.core.corewindow">CoreWindow</a> object might typically return.</li>
+<li>Any <a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a> that a call to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to query for an <a href="https://msdn.microsoft.com/sk-sk/windows/desktop/windows.ui.core.corewindow">CoreWindow</a> object might typically return.</li>
 <li>Possibly other error codes that are described in the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic. </li>
 </ul>
 

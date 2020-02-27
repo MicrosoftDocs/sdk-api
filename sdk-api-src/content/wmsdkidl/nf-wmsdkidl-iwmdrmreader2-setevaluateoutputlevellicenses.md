@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 5a146ec4-a733-483c-8b08-2bee0081bd96
 ms.date: 12/05/2018
 ms.keywords: IWMDRMReader2 interface [windows Media Format],SetEvaluateOutputLevelLicenses method, IWMDRMReader2.SetEvaluateOutputLevelLicenses, IWMDRMReader2::SetEvaluateOutputLevelLicenses, IWMDRMReader2SetEvaluateOutputLevelLicenses, SetEvaluateOutputLevelLicenses, SetEvaluateOutputLevelLicenses method [windows Media Format], SetEvaluateOutputLevelLicenses method [windows Media Format],IWMDRMReader2 interface, wmformat.iwmdrmreader2_setevaluateoutputlevellicenses, wmsdkidl/IWMDRMReader2::SetEvaluateOutputLevelLicenses
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDRMReader2.SetEvaluateOutputLevelLicenses
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>SetEvaluateOutputLevelLicenses</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>SetEvaluateOutputLevelLicenses</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 

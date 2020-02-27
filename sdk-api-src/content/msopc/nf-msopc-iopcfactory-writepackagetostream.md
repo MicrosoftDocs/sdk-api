@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: b155700d-3037-4c6e-b2f2-bba39513d7d3
 ms.date: 12/05/2018
 ms.keywords: IOpcFactory interface [Open Packaging Conventions],WritePackageToStream method, IOpcFactory.WritePackageToStream, IOpcFactory::WritePackageToStream, WritePackageToStream, WritePackageToStream method [Open Packaging Conventions], WritePackageToStream method [Open Packaging Conventions],IOpcFactory interface, msopc/IOpcFactory::WritePackageToStream, opc.iopcfactory_writepackagetostream
-ms.topic: method
 f1_keywords:
 - msopc/IOpcFactory.WritePackageToStream
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 3afee7ca-c58c-4152-b696-19d31410de5a
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IX509Extensions interface, IX509Extensions interface [Security],Count property, IX509Extensions.Count, IX509Extensions.get_Count, IX509Extensions::Count, IX509Extensions::get_Count, certenroll/IX509Extensions::Count, certenroll/IX509Extensions::get_Count, get_Count, security.ix509extensions_count_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509Extensions.Count
 dev_langs:

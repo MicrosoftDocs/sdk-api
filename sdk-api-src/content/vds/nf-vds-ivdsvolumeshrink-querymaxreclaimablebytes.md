@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 416ceb78-50fb-4976-8814-3981b594ebec
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeShrink interface,QueryMaxReclaimableBytes method, IVdsVolumeShrink.QueryMaxReclaimableBytes, IVdsVolumeShrink::QueryMaxReclaimableBytes, QueryMaxReclaimableBytes, QueryMaxReclaimableBytes method, QueryMaxReclaimableBytes method,IVdsVolumeShrink interface, base.ivdsvolumeshrink_querymaxreclaimablebytes, vds/IVdsVolumeShrink::QueryMaxReclaimableBytes
-ms.topic: method
 f1_keywords:
 - vds/IVdsVolumeShrink.QueryMaxReclaimableBytes
 dev_langs:
@@ -134,7 +133,7 @@ The <i>pullMaxNumberOfReclaimableBytes</i> parameter was null on input.
 
 
 
-This method can return more reclaimable bytes than are actually available. For more information, see "IVdsVolumeShrink::Shrink fails when provided value returned from QueryMaxReclaimableBytes" in the Help and Support Knowledge Base at <a href="http://go.microsoft.com/fwlink/p/?linkid=167966">http://go.microsoft.com/fwlink/p/?linkid=167966</a>.
+This method can return more reclaimable bytes than are actually available. For more information, see "IVdsVolumeShrink::Shrink fails when provided value returned from QueryMaxReclaimableBytes" in the Help and Support Knowledge Base at <a href="https://support.microsoft.com/kb/976436">https://go.microsoft.com/fwlink/p/?linkid=167966</a>.
 
 
 

@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 3c8cf80e-66b9-4c6f-a63d-90626937582b
 ms.date: 12/05/2018
 ms.keywords: GetDirectedTargetCount, GetDirectedTargetCount method [VSS], GetDirectedTargetCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetDirectedTargetCount method, IVssComponent.GetDirectedTargetCount, IVssComponent::GetDirectedTargetCount, _win32_ivsscomponent_getdirectedtargetcount, base.ivsscomponent_getdirectedtargetcount, vswriter/IVssComponent::GetDirectedTargetCount
-ms.topic: method
 f1_keywords:
 - vswriter/IVssComponent.GetDirectedTargetCount
 dev_langs:

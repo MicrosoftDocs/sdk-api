@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 38fb5226-7916-49b5-9e8e-bfd2f0cfd22a
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromUInt32, InitPropVariantFromUInt32 function [Windows Properties], properties.InitPropVariantFromUInt32, propvarutil/InitPropVariantFromUInt32, shell.InitPropVariantFromUInt32, shell_InitPropVariantFromUInt32
-ms.topic: function
 f1_keywords:
 - propvarutil/InitPropVariantFromUInt32
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: 9853c347-4528-43bb-8326-13bcd819b8a6
 ms.date: 12/05/2018
 ms.keywords: PowerSettingUnregisterNotification, PowerSettingUnregisterNotification function, base.powersettingunregisternotification, powersetting/PowerSettingUnregisterNotification, powrprof/PowerSettingUnregisterNotification
-ms.topic: function
 f1_keywords:
 - powersetting/PowerSettingUnregisterNotification
 dev_langs:

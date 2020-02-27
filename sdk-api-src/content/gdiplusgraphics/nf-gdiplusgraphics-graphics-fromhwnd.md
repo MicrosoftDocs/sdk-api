@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\fromhwnd.htm
 ms.date: 12/05/2018
 ms.keywords: FromHWND, FromHWND method [GDI+], FromHWND method [GDI+],Graphics class, Graphics class [GDI+],FromHWND method, Graphics.FromHWND, Graphics::FromHWND, _gdiplus_CLASS_Graphics_FromHWND_hwnd_icm_, gdiplus._gdiplus_CLASS_Graphics_FromHWND_hwnd_icm_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.FromHWND
 dev_langs:

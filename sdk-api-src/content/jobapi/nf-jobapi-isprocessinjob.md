@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 0253071d-a3fa-4ab0-86a7-71350d9fc24e
 ms.date: 12/05/2018
 ms.keywords: IsProcessInJob, IsProcessInJob function, _win32_isprocessinjob, base.isprocessinjob, jobapi/IsProcessInJob, winbase/IsProcessInJob
-ms.topic: function
 f1_keywords:
 - jobapi/IsProcessInJob
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 0ed4a595-c3e8-4bfa-805f-4c5dfd5e3a56
 ms.date: 12/05/2018
 ms.keywords: GetInlineObject, GetInlineObject method [Windows Controls], GetInlineObject method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetInlineObject method, ITextRange2.GetInlineObject, ITextRange2::GetInlineObject, controls.itextrange2_getinlineobject, tom/ITextRange2::GetInlineObject, tomAccent, tomBox, tomBoxedFormula, tomBrackets, tomBracketsWithSeps, tomEquationArray, tomFraction, tomFunctionApply, tomHorzVert, tomLeftSubSup, tomLowerLimit, tomMatrix, tomNary, tomOpChar, tomOverbar, tomPhantom, tomRadical, tomRuby, tomSimpleText, tomSlashedFraction, tomStack, tomStretchStack, tomStyleDefault, tomStyleDisplay, tomStyleDisplayCramped, tomStyleScript, tomStyleScriptCramped, tomStyleScriptScript, tomStyleScriptScriptCramped, tomStyleText, tomStyleTextCramped, tomSubSup, tomSubscript, tomSuperscript, tomUnderbar, tomUpperLimit, tomWarichu
-ms.topic: method
 f1_keywords:
 - tom/ITextRange2.GetInlineObject
 dev_langs:
@@ -536,7 +535,7 @@ The value for each object type is shown in the following table..  <table>
 </tr>
 <tr>
 <td><a href="/windows/win32/api/tom/ne-tom-objecttype">tomStretchStack</a></td>
-<td>Horizontal stretch character (see <a href="http://go.microsoft.com/fwlink/p/?linkid=124972">Unicode Technical Note 28</a> Appendix B for a list)</td>
+<td>Horizontal stretch character (see <a href="https://www.unicode.org/notes/tn28/">Unicode Technical Note 28</a> Appendix B for a list)</td>
 </tr>
 <tr>
 <td><a href="/windows/win32/api/tom/ne-tom-objecttype">tomSubscript</a></td>
@@ -573,7 +572,7 @@ The value for each object type is shown in the following table..  <table>
 
 Type: <b>long*</b>
 
-The closing <b>tomBrackets</b> character.  See <a href="http://go.microsoft.com/fwlink/p/?linkid=124972">Unicode Technical Note 28</a> Appendix B. Character Keywords and Properties for a list.
+The closing <b>tomBrackets</b> character.  See <a href="https://www.unicode.org/notes/tn28/">Unicode Technical Note 28</a> Appendix B. Character Keywords and Properties for a list.
 
 
 ### -param pChar2 [out]
@@ -703,7 +702,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=124972">Unicode Technical Note 28</a> describes the alignment and character values in detail when the active end character is an inline object start delimiter. 
+<a href="https://www.unicode.org/notes/tn28/">Unicode Technical Note 28</a> describes the alignment and character values in detail when the active end character is an inline object start delimiter. 
 
 When that character is not a start delimiter, the character and column parameters are set to 0, the count is set to the 0-based argument index, and the other parameters are set according to the active-end character properties of the innermost inline object argument.
 

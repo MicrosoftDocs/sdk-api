@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8973281f-2037-487f-9e86-8c7ceca75b23
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_TVFormat method, IAMAnalogVideoDecoder.get_TVFormat, IAMAnalogVideoDecoder::get_TVFormat, IAMAnalogVideoDecoderget_TVFormat, dshow.iamanalogvideodecoder_get_tvformat, get_TVFormat, get_TVFormat method [DirectShow], get_TVFormat method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::get_TVFormat
-ms.topic: method
 f1_keywords:
 - strmif/IAMAnalogVideoDecoder.get_TVFormat
 dev_langs:
@@ -64,7 +63,7 @@ The <code>get_TVFormat</code> method retrieves the current analog video format.
 
 ### -param plAnalogVideoStandard [out]
 
-Pointer to a variable that receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a> enumeration, indicating the analog video format.
+Pointer to a variable that receives a member of the [AnalogVideoStandard](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-analogvideostandard) enumeration, indicating the analog video format.
 
 
 ## -returns

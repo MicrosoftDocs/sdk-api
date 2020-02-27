@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: dd3d9736-755c-497c-a523-18ca66557ae7
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetSelectedDriver, SetupDiGetSelectedDriver function [Device and Driver Installation], SetupDiGetSelectedDriverA, SetupDiGetSelectedDriverW, devinst.setupdigetselecteddriver, di-rtns_6ea54b58-1b3f-4437-afa0-501a23af3529.xml, setupapi/SetupDiGetSelectedDriver
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetSelectedDriver
 dev_langs:
@@ -78,7 +77,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>. If a driver has not been selected for the specified device instance, the logged error is ERROR_NO_DRIVER_SELECTED.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>. If a driver has not been selected for the specified device instance, the logged error is ERROR_NO_DRIVER_SELECTED.
 
 
 

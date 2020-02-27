@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 21ff88da-9fae-478f-bcba-488ed7a89608
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyJobs, IEnumBackgroundCopyJobs interface [BITS], IEnumBackgroundCopyJobs interface [BITS],described, _drz_ienumbackgroundcopyjobs, bits.ienumbackgroundcopyjobs, bits/IEnumBackgroundCopyJobs
-ms.topic: interface
 f1_keywords:
 - bits/IEnumBackgroundCopyJobs
 dev_langs:

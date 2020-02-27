@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 9163a9a3-6f8c-4318-a5a1-4b00a9037f6a
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellShading method, ITextRow.SetCellShading, ITextRow::SetCellShading, SetCellShading, SetCellShading method [Windows Controls], SetCellShading method [Windows Controls],ITextRow interface, controls.itextrow_setcellshading, tom/ITextRow::SetCellShading
-ms.topic: method
 f1_keywords:
 - tom/ITextRow.SetCellShading
 dev_langs:

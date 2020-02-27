@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 88437C86-DC0F-42F4-B58E-E732E1DAB9FD
 ms.date: 12/05/2018
 ms.keywords: GetMonitor, GetMonitor method [Windows Shell], GetMonitor method [Windows Shell],ILaunchTargetMonitor interface, ILaunchTargetMonitor interface [Windows Shell],GetMonitor method, ILaunchTargetMonitor.GetMonitor, ILaunchTargetMonitor::GetMonitor, shell.ILaunchTargetMonitor_GetMonitor, shobjidl_core/ILaunchTargetMonitor::GetMonitor
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ILaunchTargetMonitor.GetMonitor
 dev_langs:

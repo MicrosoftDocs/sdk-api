@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: CE6AEA77-A6A0-46A5-BDBC-AE4907AAC820
 ms.date: 12/05/2018
 ms.keywords: ID3D12LibraryReflection, ID3D12LibraryReflection interface, ID3D12LibraryReflection interface,described, d3d12shader/ID3D12LibraryReflection, direct3d12.id3d12libraryreflection
-ms.topic: interface
 f1_keywords:
 - d3d12shader/ID3D12LibraryReflection
 dev_langs:

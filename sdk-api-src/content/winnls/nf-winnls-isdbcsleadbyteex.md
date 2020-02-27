@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 1ca67e7e-a2a7-433f-b2b6-8fa5ecc50354
 ms.date: 12/05/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_THREAD_ACP, IsDBCSLeadByteEx, IsDBCSLeadByteEx function [Internationalization for Windows Applications], _win32_IsDBCSLeadByteEx, intl.isdbcsleadbyteex, winnls/IsDBCSLeadByteEx
-ms.topic: function
 f1_keywords:
 - winnls/IsDBCSLeadByteEx
 dev_langs:

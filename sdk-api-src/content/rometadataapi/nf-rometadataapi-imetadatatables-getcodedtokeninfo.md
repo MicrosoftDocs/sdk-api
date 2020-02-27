@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 6467affc-0f86-4926-b72f-629c6580e1bf
 ms.date: 12/05/2018
 ms.keywords: GetCodedTokenInfo, GetCodedTokenInfo method [Windows Runtime], GetCodedTokenInfo method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetCodedTokenInfo method, IMetaDataTables.GetCodedTokenInfo, IMetaDataTables::GetCodedTokenInfo, rometadataapi/IMetaDataTables::GetCodedTokenInfo, winrt.imetadatatables_getcodedtokeninfo
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataTables.GetCodedTokenInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ad444495-560b-40fe-9619-e84c6786714b
 ms.date: 12/05/2018
 ms.keywords: IContextMenuSite, IContextMenuSite interface [Windows Shell], IContextMenuSite interface [Windows Shell],described, _shell_IContextMenuSite, shell.IContextMenuSite, shobjidl_core/IContextMenuSite
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IContextMenuSite
 dev_langs:

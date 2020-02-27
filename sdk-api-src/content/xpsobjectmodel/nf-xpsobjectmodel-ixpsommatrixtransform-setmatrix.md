@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: cbe6a992-1c94-40b0-a0b6-3b214b928805
 ms.date: 12/05/2018
 ms.keywords: IXpsOMMatrixTransform interface [XPS Documents and Packaging],SetMatrix method, IXpsOMMatrixTransform.SetMatrix, IXpsOMMatrixTransform::SetMatrix, SetMatrix, SetMatrix method [XPS Documents and Packaging], SetMatrix method [XPS Documents and Packaging],IXpsOMMatrixTransform interface, xps.ixpsommatrixtransform_setmatrix, xpsobjectmodel/IXpsOMMatrixTransform::SetMatrix
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMMatrixTransform.SetMatrix
 dev_langs:
@@ -122,7 +121,7 @@ The matrix referenced by <i>matrix</i> is not valid.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

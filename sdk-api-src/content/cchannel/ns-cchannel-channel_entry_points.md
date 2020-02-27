@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: f64471b0-1f2e-48cb-9f9c-1bb536afc248
 ms.date: 12/05/2018
 ms.keywords: '*PCHANNEL_ENTRY_POINTS, CHANNEL_ENTRY_POINTS, CHANNEL_ENTRY_POINTS structure [Remote Desktop Services], PCHANNEL_ENTRY_POINTS, PCHANNEL_ENTRY_POINTS structure pointer [Remote Desktop Services], _win32_channel_entry_points_str, cchannel/CHANNEL_ENTRY_POINTS, cchannel/PCHANNEL_ENTRY_POINTS, termserv.channel_entry_points_str'
-ms.topic: struct
 f1_keywords:
 - cchannel/CHANNEL_ENTRY_POINTS
 dev_langs:

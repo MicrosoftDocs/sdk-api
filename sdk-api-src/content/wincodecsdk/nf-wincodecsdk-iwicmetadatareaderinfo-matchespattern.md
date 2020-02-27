@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 58ac58f4-25e0-4fc4-8d2a-854bb89e4af6
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataReaderInfo interface [Windows Imaging Component],MatchesPattern method, IWICMetadataReaderInfo.MatchesPattern, IWICMetadataReaderInfo::MatchesPattern, MatchesPattern, MatchesPattern method [Windows Imaging Component], MatchesPattern method [Windows Imaging Component],IWICMetadataReaderInfo interface, _wic_codec_iwicmetadatareaderinfo_matchespattern, wic._wic_codec_iwicmetadatareaderinfo_matchespattern, wincodecsdk/IWICMetadataReaderInfo::MatchesPattern
-ms.topic: method
 f1_keywords:
 - wincodecsdk/IWICMetadataReaderInfo.MatchesPattern
 dev_langs:

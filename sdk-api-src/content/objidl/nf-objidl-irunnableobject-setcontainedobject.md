@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: dbd3f632-2b81-44d1-8376-4b507316895f
 ms.date: 12/05/2018
 ms.keywords: IRunnableObject interface [COM],SetContainedObject method, IRunnableObject.SetContainedObject, IRunnableObject::SetContainedObject, SetContainedObject, SetContainedObject method [COM], SetContainedObject method [COM],IRunnableObject interface, _com_irunnableobject_setcontainedobject, com.irunnableobject_setcontainedobject, objidl/IRunnableObject::SetContainedObject
-ms.topic: method
 f1_keywords:
 - objidl/IRunnableObject.SetContainedObject
 dev_langs:
@@ -85,7 +84,7 @@ A container application must call <b>SetContainedObject</b> if it supports linki
 Calling <b>SetContainedObject</b> is optional only when you know that the embedded object will not be referenced by any client other than the container. If your container application does not support linking to embedded objects; it is preferable, but not necessary, to call <b>SetContainedObject</b>.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetcontainedobject">OleSetContainedObject</a> is a helper function that conveniently repackages the functionality offered by <b>SetContainedObject</b>. With the release of OLE 2.01, the implementation of <b>OleSetContainedObject</b> was changed to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a>, ask for <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a>, and then call <b>IRunnableObject::SetContainedObject</b>. In other words, you can use the interface and the helper function interchangeably.
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetcontainedobject">OleSetContainedObject</a> is a helper function that conveniently repackages the functionality offered by <b>SetContainedObject</b>. With the release of OLE 2.01, the implementation of <b>OleSetContainedObject</b> was changed to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>, ask for <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a>, and then call <b>IRunnableObject::SetContainedObject</b>. In other words, you can use the interface and the helper function interchangeably.
 
 
 

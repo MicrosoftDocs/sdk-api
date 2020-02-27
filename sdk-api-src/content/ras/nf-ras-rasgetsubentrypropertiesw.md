@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 6efe7824-54a1-491c-a568-21e23e98ed46
 ms.date: 12/05/2018
 ms.keywords: RasGetSubEntryProperties, RasGetSubEntryProperties function [RAS], RasGetSubEntryPropertiesA, RasGetSubEntryPropertiesW, _ras_rasgetsubentryproperties, ras/RasGetSubEntryProperties, ras/RasGetSubEntryPropertiesA, ras/RasGetSubEntryPropertiesW, rras.rasgetsubentryproperties
-ms.topic: function
 f1_keywords:
 - ras/RasGetSubEntryProperties
 dev_langs:

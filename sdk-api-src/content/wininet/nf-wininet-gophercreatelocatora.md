@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 972a4ff9-efda-4784-9ac8-c76e679e8032
 ms.date: 12/05/2018
 ms.keywords: GopherCreateLocator, GopherCreateLocator function [WinINet], GopherCreateLocatorA, GopherCreateLocatorW, _inet_gophercreatelocator_function, wininet.gophercreatelocator, wininet/GopherCreateLocator, wininet/GopherCreateLocatorA, wininet/GopherCreateLocatorW
-ms.topic: function
 f1_keywords:
 - wininet/GopherCreateLocator
 dev_langs:

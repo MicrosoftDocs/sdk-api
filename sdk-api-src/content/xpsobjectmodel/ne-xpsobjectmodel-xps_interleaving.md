@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: cfb2d1f3-2edb-4342-9fcc-c058afa3ef83
 ms.date: 12/05/2018
 ms.keywords: XPS_INTERLEAVING, XPS_INTERLEAVING enumeration [XPS Documents and Packaging], XPS_INTERLEAVING_OFF, XPS_INTERLEAVING_ON, xps.xps_interleaving, xpsobjectmodel/XPS_INTERLEAVING, xpsobjectmodel/XPS_INTERLEAVING_OFF, xpsobjectmodel/XPS_INTERLEAVING_ON
-ms.topic: enum
 f1_keywords:
 - xpsobjectmodel/XPS_INTERLEAVING
 dev_langs:
@@ -76,11 +75,11 @@ The content of the XPS OM is interleaved. The document parts are divided into sm
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8b703866-9dc0-4327-9988-908f17bd4b21
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetClipGeometryLocal method, IXpsOMVisual.SetClipGeometryLocal, IXpsOMVisual::SetClipGeometryLocal, SetClipGeometryLocal, SetClipGeometryLocal method [XPS Documents and Packaging], SetClipGeometryLocal method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setclipgeometrylocal, xpsobjectmodel/IXpsOMVisual::SetClipGeometryLocal
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.SetClipGeometryLocal
 dev_langs:
@@ -189,7 +188,7 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

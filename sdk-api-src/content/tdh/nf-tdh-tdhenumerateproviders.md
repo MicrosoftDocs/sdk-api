@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: ef326ef8-227d-46b5-88b9-b519748fb778
 ms.date: 12/05/2018
 ms.keywords: TdhEnumerateProviders, TdhEnumerateProviders function [ETW], etw.tdhenumerateproviders_func, tdh.tdhenumerateproviders_func, tdh/TdhEnumerateProviders
-ms.topic: function
 f1_keywords:
 - tdh/TdhEnumerateProviders
 dev_langs:

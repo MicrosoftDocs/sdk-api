@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 46bb3a49-f875-4b52-98f4-cec475f46019
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMImageResourceCollection.InsertAt, IXpsOMImageResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, xps.ixpsomimageresourcecollection_insertat, xpsobjectmodel/IXpsOMImageResourceCollection::InsertAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMImageResourceCollection.InsertAt
 dev_langs:
@@ -105,7 +104,7 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

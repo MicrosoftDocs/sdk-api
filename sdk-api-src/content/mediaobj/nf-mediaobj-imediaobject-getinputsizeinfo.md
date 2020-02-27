@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: cce6359a-cd6e-46c9-a1cb-553ae5f83b9c
 ms.date: 12/05/2018
 ms.keywords: GetInputSizeInfo, GetInputSizeInfo method [DirectShow], GetInputSizeInfo method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputSizeInfo method, IMediaObject.GetInputSizeInfo, IMediaObject::GetInputSizeInfo, IMediaObjectGetInputSizeInfo, dshow.imediaobject_getinputsizeinfo, mediaobj/IMediaObject::GetInputSizeInfo
-ms.topic: method
 f1_keywords:
 - mediaobj/IMediaObject.GetInputSizeInfo
 dev_langs:

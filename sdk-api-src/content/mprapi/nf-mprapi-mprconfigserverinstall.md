@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: a261aaf8-abb0-4580-850b-f447017e07b9
 ms.date: 12/05/2018
 ms.keywords: MprConfigServerInstall, MprConfigServerInstall function [RAS], _mpr_mprconfigserverinstall, mprapi/MprConfigServerInstall, rras.mprconfigserverinstall
-ms.topic: function
 f1_keywords:
 - mprapi/MprConfigServerInstall
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: D53A4336-53D8-4264-9A9B-B775AA026939
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext2 interface [Direct3D 11],TiledResourceBarrier method, ID3D11DeviceContext2.TiledResourceBarrier, ID3D11DeviceContext2::TiledResourceBarrier, TiledResourceBarrier, TiledResourceBarrier method [Direct3D 11], TiledResourceBarrier method [Direct3D 11],ID3D11DeviceContext2 interface, d3d11_2/ID3D11DeviceContext2::TiledResourceBarrier, direct3d11.id3d11devicecontext2_tiledresourcebarrier
-ms.topic: method
 f1_keywords:
 - d3d11_2/ID3D11DeviceContext2.TiledResourceBarrier
 dev_langs:

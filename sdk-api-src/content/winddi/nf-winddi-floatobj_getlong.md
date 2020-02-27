@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: e3f4355f-c716-4757-9f82-d4f109e05845
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_GetLong, FLOATOBJ_GetLong function [Display Devices], display.floatobj_getlong, gdifncs_bed59b75-53b6-4f6c-975f-a927c5855f2a.xml, winddi/FLOATOBJ_GetLong
-ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_GetLong
 dev_langs:

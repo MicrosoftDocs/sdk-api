@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: be92c734-2bcb-4a7c-bd62-fb545c3c7762
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],Flush method, IMFASFSplitter.Flush, IMFASFSplitter::Flush, be92c734-2bcb-4a7c-bd62-fb545c3c7762, mf.imfasfsplitter_flush, wmcontainer/IMFASFSplitter::Flush
-ms.topic: method
 f1_keywords:
 - wmcontainer/IMFASFSplitter.Flush
 dev_langs:

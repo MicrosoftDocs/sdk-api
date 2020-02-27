@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 00b38cd8-1cfb-408e-88da-6e61563d9d8e
 ms.date: 12/05/2018
 ms.keywords: PW_CLIENTONLY, PrintWindow, PrintWindow function [Windows GDI], _win32_PrintWindow, gdi.printwindow, winuser/PrintWindow
-ms.topic: function
 f1_keywords:
 - winuser/PrintWindow
 dev_langs:

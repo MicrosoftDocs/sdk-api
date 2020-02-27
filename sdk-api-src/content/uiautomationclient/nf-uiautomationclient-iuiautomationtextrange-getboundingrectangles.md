@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: a155d143-c5ec-4669-9635-fb8f8012a684
 ms.date: 12/05/2018
 ms.keywords: GetBoundingRectangles, GetBoundingRectangles method [Windows Accessibility], GetBoundingRectangles method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],GetBoundingRectangles method, IUIAutomationTextRange.GetBoundingRectangles, IUIAutomationTextRange::GetBoundingRectangles, uiauto.uiauto_IUIAutomationTextRange_GetBoundingRectangles, uiauto_IUIAutomationTextRange_GetBoundingRectangles, uiautomationclient/IUIAutomationTextRange::GetBoundingRectangles, winauto.uiauto_IUIAutomationTextRange_GetBoundingRectangles
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationTextRange.GetBoundingRectangles
 dev_langs:
@@ -60,7 +59,7 @@ Retrieves a collection of bounding rectangles for each fully or partially visibl
 
 ### -param boundingRects [out, retval]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives a pointer to an array of bounding rectangles for each fully or partially visible line of text in a text range. An empty array is returned for a degenerate (empty) text range or for a text range that is  completely off-screen, scrolled out of view, or obscured by an overlapping window.
 

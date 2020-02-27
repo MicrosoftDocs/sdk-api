@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\status.htm
 ms.date: 12/05/2018
 ms.keywords: Aborted, AccessDenied, FileNotFound, FontFamilyNotFound, FontStyleNotFound, GdiplusNotInitialized, GenericError, InsufficientBuffer, InvalidParameter, NotImplemented, NotTrueTypeFont, ObjectBusy, Ok, OutOfMemory, ProfileNotFound, PropertyNotFound, PropertyNotSupported, Status, Status enumeration [GDI+], UnknownImageFormat, UnsupportedGdiplusVersion, ValueOverflow, Win32Error, WrongState, _gdiplus_ENUM_Status, gdiplus._gdiplus_ENUM_Status, gdiplustypes/Aborted, gdiplustypes/AccessDenied, gdiplustypes/FileNotFound, gdiplustypes/FontFamilyNotFound, gdiplustypes/FontStyleNotFound, gdiplustypes/GdiplusNotInitialized, gdiplustypes/GenericError, gdiplustypes/InsufficientBuffer, gdiplustypes/InvalidParameter, gdiplustypes/NotImplemented, gdiplustypes/NotTrueTypeFont, gdiplustypes/ObjectBusy, gdiplustypes/Ok, gdiplustypes/OutOfMemory, gdiplustypes/ProfileNotFound, gdiplustypes/PropertyNotFound, gdiplustypes/PropertyNotSupported, gdiplustypes/Status, gdiplustypes/UnknownImageFormat, gdiplustypes/UnsupportedGdiplusVersion, gdiplustypes/ValueOverflow, gdiplustypes/Win32Error, gdiplustypes/WrongState
-ms.topic: enum
 f1_keywords:
 - gdiplustypes/Status
 dev_langs:

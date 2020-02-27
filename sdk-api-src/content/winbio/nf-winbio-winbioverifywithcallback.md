@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 4ea03163-062a-4abf-837a-b12b03ada375
 ms.date: 12/05/2018
 ms.keywords: WinBioVerifyWithCallback, WinBioVerifyWithCallback function [Windows Biometric Framework API], secbiomet.winbioverifywithcallback, winbio/WinBioVerifyWithCallback
-ms.topic: function
 f1_keywords:
 - winbio/WinBioVerifyWithCallback
 dev_langs:

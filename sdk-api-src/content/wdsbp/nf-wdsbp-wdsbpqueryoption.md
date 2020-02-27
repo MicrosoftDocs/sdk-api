@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 98c0d220-db20-4aba-9df0-e50f3b947da2
 ms.date: 12/05/2018
 ms.keywords: WdsBpQueryOption, WdsBpQueryOption function [Windows Deployment Services], wds.wdsbpqueryoption, wdsbp/WdsBpQueryOption
-ms.topic: function
 f1_keywords:
 - wdsbp/WdsBpQueryOption
 dev_langs:

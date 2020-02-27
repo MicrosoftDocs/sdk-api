@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: b718b0bf-bb11-4485-a4d8-0a90aab62165
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],InitializeClientContextFromStringSid method, IAzApplication interface [Security],InitializeClientContextFromStringSid method, IAzApplication.InitializeClientContextFromStringSid, IAzApplication::InitializeClientContextFromStringSid, InitializeClientContextFromStringSid, InitializeClientContextFromStringSid method [Security], InitializeClientContextFromStringSid method [Security],AzApplication object, InitializeClientContextFromStringSid method [Security],IAzApplication interface, azroles/IAzApplication::InitializeClientContextFromStringSid, security.iazapplication_initializeclientcontextfromstringsid
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplication.InitializeClientContextFromStringSid
 dev_langs:

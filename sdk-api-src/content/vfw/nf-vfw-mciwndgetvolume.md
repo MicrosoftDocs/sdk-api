@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: e5fba475-d7d8-40de-aac7-0188954da180
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetVolume, MCIWndGetVolume macro [Windows Multimedia], _win32_MCIWndGetVolume, multimedia.mciwndgetvolume, vfw/MCIWndGetVolume
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndGetVolume
 dev_langs:

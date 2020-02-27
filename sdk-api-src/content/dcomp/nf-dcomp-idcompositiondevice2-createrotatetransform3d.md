@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: F665A6EB-2EF2-4B65-BD89-84F78B5AD468
 ms.date: 12/05/2018
 ms.keywords: CreateRotateTransform3D, CreateRotateTransform3D method [DirectComposition], CreateRotateTransform3D method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateRotateTransform3D method, IDCompositionDevice2.CreateRotateTransform3D, IDCompositionDevice2::CreateRotateTransform3D, dcomp/IDCompositionDevice2::CreateRotateTransform3D, directcomp.idcompositiondevice2_createrotatetransform3d
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionDevice2.CreateRotateTransform3D
 dev_langs:

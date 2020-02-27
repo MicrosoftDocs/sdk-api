@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 4ee78b19-4171-4da8-ad26-199067bb6db8
 ms.date: 12/05/2018
 ms.keywords: _win32_capGetVideoFormatSize, capGetVideoFormatSize, capGetVideoFormatSize macro [Windows Multimedia], multimedia.capgetvideoformatsize, vfw/capGetVideoFormatSize
-ms.topic: macro
 f1_keywords:
 - vfw/capGetVideoFormatSize
 dev_langs:

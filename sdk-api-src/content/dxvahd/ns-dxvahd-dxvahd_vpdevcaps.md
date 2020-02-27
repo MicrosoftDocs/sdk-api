@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 340669d4-2a84-4030-83c3-a61469fdfd61
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_VPDEVCAPS, DXVAHD_VPDEVCAPS structure [Media Foundation], dxvahd/DXVAHD_VPDEVCAPS, mf.dxvahd_vpdevcaps
-ms.topic: struct
 f1_keywords:
 - dxvahd/DXVAHD_VPDEVCAPS
 dev_langs:

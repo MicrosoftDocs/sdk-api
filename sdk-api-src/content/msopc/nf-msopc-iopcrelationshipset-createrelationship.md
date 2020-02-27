@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 0cbf7446-d94e-447f-a82b-3d56a8036c19
 ms.date: 12/05/2018
 ms.keywords: CreateRelationship, CreateRelationship method [Open Packaging Conventions], CreateRelationship method [Open Packaging Conventions],IOpcRelationshipSet interface, IOpcRelationshipSet interface [Open Packaging Conventions],CreateRelationship method, IOpcRelationshipSet.CreateRelationship, IOpcRelationshipSet::CreateRelationship, msopc/IOpcRelationshipSet::CreateRelationship, opc.iopcrelationshipset_createrelationship
-ms.topic: method
 f1_keywords:
 - msopc/IOpcRelationshipSet.CreateRelationship
 dev_langs:
@@ -62,7 +61,7 @@ Creates a relationship object that represents a specified relationship, then add
 
 A unique identifier of the relationship to be represented as the relationship object. To use a randomly generated identifier, pass <b>NULL</b> to this parameter.
 
-Valid identifiers conform to the restrictions for <b>xsd:ID</b>, which are  documented in section 3.3.8 ID of the <a href="http://go.microsoft.com/fwlink/p/?linkid=126664">W3C Recommendation, XML Schema Part 2: Datatypes Second Edition</a> (http://go.microsoft.com/fwlink/p/?linkid=126664).
+Valid identifiers conform to the restrictions for <b>xsd:ID</b>, which are  documented in section 3.3.8 ID of the <a href="https://www.w3.org/TR/xmlschema-2/#ID">W3C Recommendation, XML Schema Part 2: Datatypes Second Edition</a> (https://go.microsoft.com/fwlink/p/?linkid=126664).
 
 
 ### -param relationshipType [in]
@@ -248,7 +247,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
 
 
@@ -296,7 +295,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=126664">W3C Recommendation, XML Schema Part 2: Datatypes Second Edition</a>
+<a href="https://www.w3.org/TR/xmlschema-2/#ID">W3C Recommendation, XML Schema Part 2: Datatypes Second Edition</a>
  
 
  

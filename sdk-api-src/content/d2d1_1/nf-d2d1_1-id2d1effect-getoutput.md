@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: e14066f7-b195-44f1-a952-1b6c9f3832cf
 ms.date: 12/05/2018
 ms.keywords: GetOutput, GetOutput method [Direct2D], GetOutput method [Direct2D],ID2D1Effect interface, ID2D1Effect interface [Direct2D],GetOutput method, ID2D1Effect.GetOutput, ID2D1Effect::GetOutput, d2d1_1/ID2D1Effect::GetOutput, direct2d.id2d1effect_getoutput
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1Effect.GetOutput
 dev_langs:
@@ -80,7 +79,7 @@ This method does not return a value.
 
 The output image  can be set as an input to another effect, or can be directly passed into the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a> in order to render the effect. 
 
-It is  also possible to use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> to retrieve the same output image.
+It is  also possible to use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to retrieve the same output image.
 
 
 

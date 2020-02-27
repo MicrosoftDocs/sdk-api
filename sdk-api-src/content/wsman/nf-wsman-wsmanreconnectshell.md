@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 92D9D3FE-73A1-45FA-AD8A-344AB909C6F7
 ms.date: 12/05/2018
 ms.keywords: WSManReconnectShell, WSManReconnectShell function [Windows Remote Management], winrm.wsmanreconnectshell, wsman/WSManReconnectShell
-ms.topic: function
 f1_keywords:
 - wsman/WSManReconnectShell
 dev_langs:

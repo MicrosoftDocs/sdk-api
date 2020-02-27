@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: F8A65783-7FD8-46C2-87B0-BC540E1F187F
 ms.date: 12/05/2018
 ms.keywords: GetMediaType, GetMediaType method [Media Foundation], GetMediaType method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetMediaType method, IMFMuxStreamMediaTypeManager.GetMediaType, IMFMuxStreamMediaTypeManager::GetMediaType, mf.imfmuxstreammediatypemanager_getmediatype, mfobjects/IMFMuxStreamMediaTypeManager::GetMediaType
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFMuxStreamMediaTypeManager.GetMediaType
 dev_langs:

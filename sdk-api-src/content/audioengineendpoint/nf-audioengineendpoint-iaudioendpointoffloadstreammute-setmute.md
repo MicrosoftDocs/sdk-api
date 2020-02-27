@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 43AF8146-BDF6-47F5-BD8F-DA46C4624D95
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointOffloadStreamMute interface [Core Audio],SetMute method, IAudioEndpointOffloadStreamMute.SetMute, IAudioEndpointOffloadStreamMute::SetMute, SetMute, SetMute method [Core Audio], SetMute method [Core Audio],IAudioEndpointOffloadStreamMute interface, audioengineendpoint/IAudioEndpointOffloadStreamMute::SetMute, coreaudio.iaudioendpointoffloadstreammute_setmute
-ms.topic: method
 f1_keywords:
 - audioengineendpoint/IAudioEndpointOffloadStreamMute.SetMute
 dev_langs:

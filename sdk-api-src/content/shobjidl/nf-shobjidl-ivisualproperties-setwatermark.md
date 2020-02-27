@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 14ce62f7-b464-4e52-8441-35f613b6c844
 ms.date: 12/05/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetWatermark method, IVisualProperties.SetWatermark, IVisualProperties::SetWatermark, SetWatermark, SetWatermark method [Windows Shell], SetWatermark method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetWatermark, shell.IVisualProperties_SetWatermark, shobjidl/IVisualProperties::SetWatermark
-ms.topic: method
 f1_keywords:
 - shobjidl/IVisualProperties.SetWatermark
 dev_langs:

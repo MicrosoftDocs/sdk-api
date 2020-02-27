@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d417855e-7df6-4978-b971-a91b79c5fa2c
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedErrorInfo interface [DirectShow],get_ErrorDescription method, IAMExtendedErrorInfo.get_ErrorDescription, IAMExtendedErrorInfo::get_ErrorDescription, IAMExtendedErrorInfoget_ErrorDescription, dshow.iamextendederrorinfo_get_errordescription, get_ErrorDescription, get_ErrorDescription method [DirectShow], get_ErrorDescription method [DirectShow],IAMExtendedErrorInfo interface, qnetwork/IAMExtendedErrorInfo::get_ErrorDescription
-ms.topic: method
 f1_keywords:
 - qnetwork/IAMExtendedErrorInfo.get_ErrorDescription
 dev_langs:

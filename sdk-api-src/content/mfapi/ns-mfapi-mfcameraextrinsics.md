@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: F29615EE-0B2C-4066-8A6B-67457D46028C
 ms.date: 12/05/2018
 ms.keywords: MFCameraExtrinsics, MFCameraExtrinsics structure [Media Foundation], PMFCameraExtrinsics, PMFCameraExtrinsics structure pointer [Media Foundation], mf.mfcameraextrinsics, mfapi/MFCameraExtrinsics, mfapi/PMFCameraExtrinsics
-ms.topic: struct
 f1_keywords:
 - mfapi/MFCameraExtrinsics
 dev_langs:

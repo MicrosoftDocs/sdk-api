@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 6DB59A95-D571-452b-8974-76B4CC3FA36F
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadULONGLONG, PSPropertyBag_ReadULONGLONG function [Windows Properties], properties.PSPropertyBag_ReadULONGLONG, propsys/PSPropertyBag_ReadULONGLONG, shell.PSPropertyBag_ReadULONGLONG, shell_PSPropertyBag_ReadULONGLONG
-ms.topic: function
 f1_keywords:
 - propsys/PSPropertyBag_ReadULONGLONG
 dev_langs:

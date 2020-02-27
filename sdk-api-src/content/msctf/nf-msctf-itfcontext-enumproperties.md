@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: b57c9fdc-320b-4d97-8af4-c75756326437
 ms.date: 12/05/2018
 ms.keywords: EnumProperties, EnumProperties method [Text Services Framework], EnumProperties method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],EnumProperties method, ITfContext.EnumProperties, ITfContext::EnumProperties, _tsf_itfcontext_enumproperties_ref, msctf/ITfContext::EnumProperties, tsf.itfcontext_enumproperties
-ms.topic: method
 f1_keywords:
 - msctf/ITfContext.EnumProperties
 dev_langs:

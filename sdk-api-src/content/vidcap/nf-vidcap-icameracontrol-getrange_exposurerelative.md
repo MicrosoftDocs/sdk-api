@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ab46e893-037a-42bb-a3ae-bef943cd6a5e
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_ExposureRelative method, ICameraControl.getRange_ExposureRelative, ICameraControl::getRange_ExposureRelative, ICameraControlgetRange_ExposureRelative, dshow.icameracontrol_getrange_exposurerelative, getRange_ExposureRelative, getRange_ExposureRelative method [DirectShow], getRange_ExposureRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_ExposureRelative
-ms.topic: method
 f1_keywords:
 - vidcap/ICameraControl.getRange_ExposureRelative
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: e5d84000-17c1-4517-97a7-6bd240d73814
 ms.date: 12/05/2018
 ms.keywords: GetFileAttributesEx, GetFileAttributesEx function [Files], GetFileAttributesExA, GetFileAttributesExW, GetFileExInfoStandard, _win32_getfileattributesex, base.getfileattributesex, fileapi/GetFileAttributesEx, fileapi/GetFileAttributesExA, fileapi/GetFileAttributesExW, fs.getfileattributesex, winbase/GetFileAttributesEx, winbase/GetFileAttributesExA, winbase/GetFileAttributesExW
-ms.topic: function
 f1_keywords:
 - fileapi/GetFileAttributesEx
 dev_langs:
@@ -76,7 +75,7 @@ The name of the file or directory.
 
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function (<b>GetFileAttributesExW</b>), and prepend 
-       "\\?\" to the path. For more information, see 
+       "\\\\?\\" to the path. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
 <div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>GetFileAttributesExW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>

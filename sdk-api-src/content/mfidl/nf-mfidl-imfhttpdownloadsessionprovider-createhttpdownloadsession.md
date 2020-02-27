@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: D9DAE789-1C0E-42B4-87B6-593D3B67FE1F
 ms.date: 12/05/2018
 ms.keywords: CreateHttpDownloadSession, CreateHttpDownloadSession method [Media Foundation], CreateHttpDownloadSession method [Media Foundation],IMFHttpDownloadSessionProvider interface, IMFHttpDownloadSessionProvider interface [Media Foundation],CreateHttpDownloadSession method, IMFHttpDownloadSessionProvider.CreateHttpDownloadSession, IMFHttpDownloadSessionProvider::CreateHttpDownloadSession, mf.imfhttpdownloadsessionprovider_createhttpdownloadsession, mfidl/IMFHttpDownloadSessionProvider::CreateHttpDownloadSession
-ms.topic: method
 f1_keywords:
 - mfidl/IMFHttpDownloadSessionProvider.CreateHttpDownloadSession
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: f84e578a-d2ed-4b7b-9b7c-5d63f12d5781
 ms.date: 12/05/2018
 ms.keywords: OleGetAutoConvert, OleGetAutoConvert function [COM], _com_OleGetAutoConvert, com.olegetautoconvert, ole2/OleGetAutoConvert
-ms.topic: function
 f1_keywords:
 - ole2/OleGetAutoConvert
 dev_langs:

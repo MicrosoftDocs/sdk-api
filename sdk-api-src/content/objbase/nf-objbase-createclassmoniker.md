@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 9361b2c1-ef26-4225-92ff-e0bef0285bc4
 ms.date: 12/05/2018
 ms.keywords: CreateClassMoniker, CreateClassMoniker function [COM], _com_CreateClassMoniker, com.createclassmoniker, objbase/CreateClassMoniker
-ms.topic: function
 f1_keywords:
 - objbase/CreateClassMoniker
 dev_langs:

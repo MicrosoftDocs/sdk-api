@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 944c3802-364e-4934-b7ec-6c70d06739ad
 ms.date: 12/05/2018
 ms.keywords: WSAUnhookBlockingHook, WSAUnhookBlockingHook function [Winsock], _win32_wsaunhookblockinghook_2, winsock.wsaunhookblockinghook_2, winsock2/WSAUnhookBlockingHook
-ms.topic: function
 f1_keywords:
 - winsock2/WSAUnhookBlockingHook
 dev_langs:

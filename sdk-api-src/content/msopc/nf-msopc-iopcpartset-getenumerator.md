@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 7b2a5ae6-b3ac-49b5-a798-9fca450da6d1
 ms.date: 12/05/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],GetEnumerator method, IOpcPartSet.GetEnumerator, IOpcPartSet::GetEnumerator, msopc/IOpcPartSet::GetEnumerator, opc.iopcpartset_getenumerator
-ms.topic: method
 f1_keywords:
 - msopc/IOpcPartSet.GetEnumerator
 dev_langs:

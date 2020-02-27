@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: ca9c37ca-6aa0-437d-b933-ca7d943e4ef2
 ms.date: 12/05/2018
 ms.keywords: EndUnorderedGroup, EndUnorderedGroup method [Windows Sync], EndUnorderedGroup method [Windows Sync],ISyncChangeBatch interface, ISyncChangeBatch interface [Windows Sync],EndUnorderedGroup method, ISyncChangeBatch.EndUnorderedGroup, ISyncChangeBatch::EndUnorderedGroup, winsync.isyncchangebatch_endunorderedgroup, winsync/ISyncChangeBatch::EndUnorderedGroup
-ms.topic: method
 f1_keywords:
 - winsync/ISyncChangeBatch.EndUnorderedGroup
 dev_langs:

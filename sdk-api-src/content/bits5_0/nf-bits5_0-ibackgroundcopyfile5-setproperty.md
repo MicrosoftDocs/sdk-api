@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 7a5809ef-e84f-4566-a5fa-fd63b1dfd15c
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile5 interface [BITS],SetProperty method, IBackgroundCopyFile5.SetProperty, IBackgroundCopyFile5::SetProperty, SetProperty, SetProperty method [BITS], SetProperty method [BITS],IBackgroundCopyFile5 interface, bits.ibackgroundcopyfile5_setproperty, bits5_0/IBackgroundCopyFile5::SetProperty
-ms.topic: method
 f1_keywords:
 - bits5_0/IBackgroundCopyFile5.SetProperty
 dev_langs:

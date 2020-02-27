@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorMultiplyAdd(XMVECTOR,XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorMultiplyAdd, XMVectorMultiplyAdd, XMVectorMultiplyAdd method [DirectX Math Support APIs], dxmath.xmvectormultiplyadd
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorMultiplyAdd
 dev_langs:

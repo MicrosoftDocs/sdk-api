@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 3c1a9e70-3e77-4f21-b3a1-8e4c3c5cf148
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientSettings interface [Remote Desktop Services],SetRdpProperty method, IRemoteDesktopClientSettings.SetRdpProperty, IRemoteDesktopClientSettings::SetRdpProperty, SetRdpProperty, SetRdpProperty method [Remote Desktop Services], SetRdpProperty method [Remote Desktop Services],IRemoteDesktopClientSettings interface, WinRTEncryptedPassword, WinRTPasswordEncoding, Workspace Id, administrative session, allow font smoothing, alternate full address, audiocapturemode, audiomode, authentication level, connection type, cookie based authentication server address, desktopheight, desktopwidth, disable full window drag, disable menu anims, disable themes, disable wallpaper, domain, enablecredsspsupport, full address, gatewaycredentialssource, gatewayhostname, gatewayprofileusagemethod, gatewayusagemethod, high resolution mouse, loadbalanceinfo, login web page address, pre-authentication server address, prompt for credentials, promptcredentialonce, rdpappcontainerclient/IRemoteDesktopClientSettings::SetRdpProperty, redirectclipboard, redirectprinters, require pre-authentication, support url, termserv.iremotedesktopclientsettings_setrdpproperty, use redirection server name, username
-ms.topic: method
 f1_keywords:
 - rdpappcontainerclient/IRemoteDesktopClientSettings.SetRdpProperty
 dev_langs:

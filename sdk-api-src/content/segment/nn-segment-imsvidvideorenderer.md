@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 27eb53f8-ece8-43eb-8f94-b3d2d91548ad
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], IMSVidVideoRenderer interface [Microsoft TV Technologies],described, IMSVidVideoRendererInterface, mstv.imsvidvideorenderer, segment/IMSVidVideoRenderer
-ms.topic: interface
 f1_keywords:
 - segment/IMSVidVideoRenderer
 dev_langs:

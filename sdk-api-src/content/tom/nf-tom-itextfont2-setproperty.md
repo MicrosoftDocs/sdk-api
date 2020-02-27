@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: c4d35fed-9bf5-431e-96c9-b1d51d51703a
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetProperty method, ITextFont2.SetProperty, ITextFont2::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextFont2 interface, controls.itextfont2_setproperty, tom/ITextFont2::SetProperty
-ms.topic: method
 f1_keywords:
 - tom/ITextFont2.SetProperty
 dev_langs:

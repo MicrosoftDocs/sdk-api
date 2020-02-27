@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: c91c860f-502e-4bd6-9a0b-653e5ef14735
 ms.date: 12/05/2018
 ms.keywords: DrvSaveScreenBits, DrvSaveScreenBits function [Display Devices], ddifncs_36f63073-3525-4300-941f-709aba9204c7.xml, display.drvsavescreenbits, winddi/DrvSaveScreenBits
-ms.topic: function
 f1_keywords:
 - winddi/DrvSaveScreenBits
 dev_langs:

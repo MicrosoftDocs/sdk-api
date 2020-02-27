@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: bd38be52-d76c-4f1b-bc29-12f93aac2aa9
 ms.date: 12/05/2018
 ms.keywords: MsiViewClose, MsiViewClose function, _msi_msiviewclose, msiquery/MsiViewClose, setup.msiviewclose
-ms.topic: function
 f1_keywords:
 - msiquery/MsiViewClose
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 8ce69033-b69b-438b-a27f-938dd327c8ec
 ms.date: 12/05/2018
 ms.keywords: GetLongPathName, GetLongPathName function [Files], GetLongPathNameA, GetLongPathNameW, _win32_getlongpathname, base.getlongpathname, fileapi/GetLongPathName, fileapi/GetLongPathNameA, fileapi/GetLongPathNameW, fs.getlongpathname, winbase/GetLongPathName, winbase/GetLongPathNameA, winbase/GetLongPathNameW
-ms.topic: function
 f1_keywords:
 - fileapi/GetLongPathName
 dev_langs:
@@ -81,7 +80,7 @@ In the ANSI version of this function,
        <b>GetLongPathNameA</b>, the name is limited to 
        <b>MAX_PATH</b> (260) characters. To extend this limit to 32,767 wide characters, call the 
        Unicode version of the function, <b>GetLongPathNameW</b>, 
-       and prepend "\\?\" to the path. For more information, see 
+       and prepend "\\\\?\\" to the path. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
 <div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>GetLongPathNameW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>

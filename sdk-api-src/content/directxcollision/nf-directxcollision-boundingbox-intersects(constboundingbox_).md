@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.Intersects(BoundingBox)
 ms.date: 12/05/2018
 ms.keywords: BoundingBox interface [DirectX Math Support APIs],Intersects method, BoundingBox.Intersects, BoundingBox.Intersects(const BoundingBox &), BoundingBox.Intersects(const BoundingBox&), BoundingBox::Intersects, BoundingBox::Intersects(const BoundingBox &), Intersects, Intersects method [DirectX Math Support APIs], Intersects method [DirectX Math Support APIs],BoundingBox interface, dxmath.boundingbox_intersects_4
-ms.topic: method
 f1_keywords:
 - directxcollision/BoundingBox.Intersects
 dev_langs:

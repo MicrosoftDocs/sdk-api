@@ -7,7 +7,6 @@ tech.root: enstor
 ms.assetid: 98ef04a1-d14d-4de3-b24a-0f044335d75b
 ms.date: 12/05/2018
 ms.keywords: GetDevicePath, GetDevicePath method [Enhanced Storage], GetDevicePath method [Enhanced Storage],IEnhancedStorageSilo interface, IEnhancedStorageSilo interface [Enhanced Storage],GetDevicePath method, IEnhancedStorageSilo.GetDevicePath, IEnhancedStorageSilo::GetDevicePath, ehstorapi/IEnhancedStorageSilo::GetDevicePath, enstor.ienhancedstoragesilo_getdevicepath
-ms.topic: method
 f1_keywords:
 - ehstorapi/IEnhancedStorageSilo.GetDevicePath
 dev_langs:
@@ -106,7 +105,7 @@ Device path string was retrieved successfully.
 
 
 
-The memory to contain the device path string is allocated by the Enhanced Storage API and must be freed  by passing the  returned pointer to <a href="http://go.microsoft.com/fwlink/p/?linkid=134839">CoTaskMemFree</a>.
+The memory to contain the device path string is allocated by the Enhanced Storage API and must be freed  by passing the  returned pointer to <a href="https://msdn.microsoft.com/library/ms680722.aspx">CoTaskMemFree</a>.
 
 
 

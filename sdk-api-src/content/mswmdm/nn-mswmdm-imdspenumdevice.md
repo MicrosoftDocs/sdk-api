@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 9a296937-6f8b-4f04-989f-3a5d4c6f7b85
 ms.date: 12/05/2018
 ms.keywords: IMDSPEnumDevice, IMDSPEnumDevice interface [windows Media Device Manager], IMDSPEnumDevice interface [windows Media Device Manager],described, IMDSPEnumDeviceInterface, mswmdm/IMDSPEnumDevice, wmdm.imdspenumdevice
-ms.topic: interface
 f1_keywords:
 - mswmdm/IMDSPEnumDevice
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>IMDSPEnumDevice</b> interface is used to enumerate the media devices. For more information on enumeration, see the Microsoft COM documentation on the COM page at the <a href="http://go.microsoft.com/fwlink/p/?linkid=3282">Microsoft Web site</a>. The <b>IMDSPEnumDevice</b> interface is implemented on the device enumerator object. The only valid way to create a device enumerator object is to call <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdserviceprovider-enumdevices">IMDServiceProvider::EnumDevices</a>. If the device implements <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdserviceprovider2-createdevice">IMDServiceProvider2::CreateDevice</a>, this enumerator should enumerate only non-Plug and Play devices. The device enumerator should enumerate only the devices that are attached to the computer and are supported by the service provider.
+The <b>IMDSPEnumDevice</b> interface is used to enumerate the media devices. For more information on enumeration, see the Microsoft COM documentation on the COM page at the <a href="https://www.microsoft.com/com/default.asp">Microsoft Web site</a>. The <b>IMDSPEnumDevice</b> interface is implemented on the device enumerator object. The only valid way to create a device enumerator object is to call <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdserviceprovider-enumdevices">IMDServiceProvider::EnumDevices</a>. If the device implements <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdserviceprovider2-createdevice">IMDServiceProvider2::CreateDevice</a>, this enumerator should enumerate only non-Plug and Play devices. The device enumerator should enumerate only the devices that are attached to the computer and are supported by the service provider.
 
 
 

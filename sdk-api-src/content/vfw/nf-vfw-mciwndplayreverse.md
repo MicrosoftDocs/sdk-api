@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 1f3c9c98-a8f5-4ad9-bef9-5d685076df9d
 ms.date: 12/05/2018
 ms.keywords: MCIWndPlayReverse, MCIWndPlayReverse macro [Windows Multimedia], _win32_MCIWndPlayReverse, multimedia.mciwndplayreverse, vfw/MCIWndPlayReverse
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndPlayReverse
 dev_langs:

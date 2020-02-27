@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 02481b3d-1064-448f-955b-0dd02d90db46
 ms.date: 12/05/2018
 ms.keywords: Enabled property [COM+], Enabled property [COM+],IEventSubscription interface, IEventSubscription interface [COM+],Enabled property, IEventSubscription.Enabled, IEventSubscription.put_Enabled, IEventSubscription::Enabled, IEventSubscription::get_Enabled, IEventSubscription::put_Enabled, cos.ieventsubscription_enabled, eventsys/IEventSubscription::Enabled, eventsys/IEventSubscription::get_Enabled, eventsys/IEventSubscription::put_Enabled, put_Enabled
-ms.topic: method
 f1_keywords:
 - eventsys/IEventSubscription.Enabled
 dev_langs:

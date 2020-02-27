@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9dbc39e7-f73b-450f-bb87-17a38e7ab66d
 ms.date: 12/05/2018
 ms.keywords: PPCF_ADDARGUMENTS, PPCF_ADDQUOTES, PPCF_FORCEQUALIFY, PPCF_LONGESTPOSSIBLE, PPCF_NODIRECTORIES, PathProcessCommand, PathProcessCommand function [Windows Shell], _win32_PathProcessCommand, shell.PathProcessCommand, shlobj/PathProcessCommand
-ms.topic: function
 f1_keywords:
 - shlobj/PathProcessCommand
 dev_langs:

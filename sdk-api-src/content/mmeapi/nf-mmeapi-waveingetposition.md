@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 91764c6e-e9d4-4d8e-819a-6e27ca2478d8
 ms.date: 12/05/2018
 ms.keywords: _win32_waveInGetPosition, mmeapi/waveInGetPosition, multimedia.waveingetposition, waveInGetPosition, waveInGetPosition function [Windows Multimedia]
-ms.topic: function
 f1_keywords:
 - mmeapi/waveInGetPosition
 dev_langs:

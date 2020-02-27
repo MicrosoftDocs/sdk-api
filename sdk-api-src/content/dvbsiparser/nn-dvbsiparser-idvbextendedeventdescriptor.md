@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: db100f17-f7b8-4252-8090-44567ab9dcbe
 ms.date: 12/05/2018
 ms.keywords: IDvbExtendedEventDescriptor, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies], IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbExtendedEventDescriptor, mstv.idvbextendedeventdescriptor
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IDvbExtendedEventDescriptor
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WNet
 ms.assetid: df190133-b73b-4f3e-aaee-4095cd619065
 ms.date: 12/05/2018
 ms.keywords: WNetGetNetworkInformation, WNetGetNetworkInformation function [Windows Networking (WNet)], WNetGetNetworkInformationA, WNetGetNetworkInformationW, _win32_wnetgetnetworkinformation, winnetwk/WNetGetNetworkInformation, winnetwk/WNetGetNetworkInformationA, winnetwk/WNetGetNetworkInformationW, wnet.wnetgetnetworkinformation
-ms.topic: function
 f1_keywords:
 - winnetwk/WNetGetNetworkInformation
 dev_langs:

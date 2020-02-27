@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: be49322a-99b2-4626-8e9d-29965bbe182d
 ms.date: 12/05/2018
 ms.keywords: IHWEventHandler, IHWEventHandler interface [Windows Shell], IHWEventHandler interface [Windows Shell],described, inet_IHWEventHandler, shell.IHWEventHandler, shobjidl/IHWEventHandler
-ms.topic: interface
 f1_keywords:
 - shobjidl/IHWEventHandler
 dev_langs:

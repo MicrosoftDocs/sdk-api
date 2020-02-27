@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 910d3f37-15f4-4a0e-8aa0-ab58be865c62
 ms.date: 12/05/2018
 ms.keywords: VarMod, VarMod function [Automation], _oa96_VarMod, automat.varmod, oleauto/VarMod
-ms.topic: function
 f1_keywords:
 - oleauto/VarMod
 dev_langs:

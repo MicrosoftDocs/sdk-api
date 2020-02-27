@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 8ab62c4b-6db2-4a52-b015-a1d635e1edd4
 ms.date: 12/05/2018
 ms.keywords: '*LPMCI_DGV_CAPTURE_PARMSW, MCI_DGV_CAPTURE_PARMS, MCI_DGV_CAPTURE_PARMS structure [Windows Multimedia], MCI_DGV_CAPTURE_PARMSW, _win32_MCI_DGV_CAPTURE_PARMS_str, digitalv/MCI_DGV_CAPTURE_PARMS, multimedia.mci_dgv_capture_parms'
-ms.topic: struct
 f1_keywords:
 - digitalv/MCI_DGV_CAPTURE_PARMS
 dev_langs:
@@ -84,7 +83,7 @@ Pointer to a null-terminated string specifying the destination path and filename
 
 ### -field rc
 
-Rectangle containing positioning information. <a href="http://go.microsoft.com/fwlink/p/?linkid=16998">RECT</a> structures are handled differently in MCI than in other parts of Windows; in MCI, <b>rc.right</b> contains the width of the rectangle and <b>rc.bottom</b> contains its height.
+Rectangle containing positioning information. <a href="https://msdn.microsoft.com/library/ms536136.aspx">RECT</a> structures are handled differently in MCI than in other parts of Windows; in MCI, <b>rc.right</b> contains the width of the rectangle and <b>rc.bottom</b> contains its height.
 
 
 ## -remarks
@@ -109,7 +108,7 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=16998">RECT</a>
+<a href="https://msdn.microsoft.com/library/ms536136.aspx">RECT</a>
 
 
 

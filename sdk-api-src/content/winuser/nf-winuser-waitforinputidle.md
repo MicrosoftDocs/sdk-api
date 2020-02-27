@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 2a684921-36f1-438c-895c-5bebc242635a
 ms.date: 12/05/2018
 ms.keywords: WaitForInputIdle, WaitForInputIdle function, _win32_waitforinputidle, base.waitforinputidle, winuser/WaitForInputIdle
-ms.topic: function
 f1_keywords:
 - winuser/WaitForInputIdle
 dev_langs:

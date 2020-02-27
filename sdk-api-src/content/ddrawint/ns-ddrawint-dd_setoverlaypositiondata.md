@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: edfcbe23-81af-41fb-b29e-cd6e2da4d603
 ms.date: 12/05/2018
 ms.keywords: '*PDD_SETOVERLAYPOSITIONDATA, DD_SETOVERLAYPOSITIONDATA, DD_SETOVERLAYPOSITIONDATA structure [Display Devices], ddrawint/DD_SETOVERLAYPOSITIONDATA, ddstrcts_963680b2-05c1-4f15-959c-c38a8141541b.xml, display.dd_setoverlaypositiondata'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_SETOVERLAYPOSITIONDATA
 dev_langs:

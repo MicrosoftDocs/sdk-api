@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: b7b7d650-2db6-4e7c-92e0-5d0055a0a5a9
 ms.date: 12/05/2018
 ms.keywords: GetAssemblyFromScope, GetAssemblyFromScope method [Windows Runtime], GetAssemblyFromScope method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetAssemblyFromScope method, IMetaDataAssemblyImport.GetAssemblyFromScope, IMetaDataAssemblyImport::GetAssemblyFromScope, rometadataapi/IMetaDataAssemblyImport::GetAssemblyFromScope, winrt.imetadataassemblyimport_getassemblyfromscope
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataAssemblyImport.GetAssemblyFromScope
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 14048707-1a73-40a1-9094-da4885d9934d
 ms.date: 12/05/2018
 ms.keywords: GetOffset, GetOffset method [XPS Documents and Packaging], GetOffset method [XPS Documents and Packaging],IXpsOMGradientStop interface, IXpsOMGradientStop interface [XPS Documents and Packaging],GetOffset method, IXpsOMGradientStop.GetOffset, IXpsOMGradientStop::GetOffset, xps.ixpsomgradientstop_getoffset, xpsobjectmodel/IXpsOMGradientStop::GetOffset
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGradientStop.GetOffset
 dev_langs:
@@ -120,7 +119,7 @@ The valid range of  values returned in <i>offset</i> is 0.0–1.0. 0.0 is the st
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

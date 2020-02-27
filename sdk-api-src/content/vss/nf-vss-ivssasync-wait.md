@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 27be3bb2-de37-47d1-a2da-7b253ace1199
 ms.date: 12/05/2018
 ms.keywords: IVssAsync interface [VSS],Wait method, IVssAsync.Wait, IVssAsync::Wait, Wait, Wait method [VSS], Wait method [VSS],IVssAsync interface, _win32_ivssasync_wait, base.ivssasync_wait, vss/IVssAsync::Wait
-ms.topic: method
 f1_keywords:
 - vss/IVssAsync.Wait
 dev_langs:

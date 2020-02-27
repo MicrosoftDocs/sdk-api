@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 5C587408-DF03-4123-BA5A-C2CCC378F60A
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceService, IMbnDeviceService interface [Microsoft Broadband Networks], IMbnDeviceService interface [Microsoft Broadband Networks],described, mbn.imbndeviceservice, mbnapi/IMbnDeviceService
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnDeviceService
 dev_langs:

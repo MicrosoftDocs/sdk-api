@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 00b907cb-45cd-48c7-bea4-4d8a39b4fa24
 ms.date: 12/05/2018
 ms.keywords: EventWriteEx, EventWriteEx function [ETW], etw.eventwriteex, evntprov/EventWriteEx
-ms.topic: function
 f1_keywords:
 - evntprov/EventWriteEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: eceba2a8-baff-436f-b561-d9e130df5702
 ms.date: 12/05/2018
 ms.keywords: GetProvisionedContexts, GetProvisionedContexts method [Microsoft Broadband Networks], GetProvisionedContexts method [Microsoft Broadband Networks],IMbnConnectionContext interface, IMbnConnectionContext interface [Microsoft Broadband Networks],GetProvisionedContexts method, IMbnConnectionContext.GetProvisionedContexts, IMbnConnectionContext::GetProvisionedContexts, mbn.imbnconnectioncontext_getprovisionedcontexts, mbnapi/IMbnConnectionContext::GetProvisionedContexts
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnConnectionContext.GetProvisionedContexts
 dev_langs:
@@ -62,7 +61,7 @@ Gets a list of connection contexts.
 
 ### -param provisionedContexts [out, retval]
 
-A list of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_context">MBN_CONTEXT</a> values that represent connection contexts stored in the device. On error, this array is <b>NULL</b>. When successful, the calling application must free the allocated memory by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=121490">SafeArrayDestroy</a>.
+A list of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_context">MBN_CONTEXT</a> values that represent connection contexts stored in the device. On error, this array is <b>NULL</b>. When successful, the calling application must free the allocated memory by calling <a href="https://msdn.microsoft.com/library/ms221702.aspx">SafeArrayDestroy</a>.
 
 
 ## -returns

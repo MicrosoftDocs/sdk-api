@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 46bf7ab6-cc3c-4846-a8f8-97c62ede4aaf
 ms.date: 12/05/2018
 ms.keywords: IAMDevMemoryControl interface [DirectShow],WriteSync method, IAMDevMemoryControl.WriteSync, IAMDevMemoryControl::WriteSync, IAMDevMemoryControlWriteSync, WriteSync, WriteSync method [DirectShow], WriteSync method [DirectShow],IAMDevMemoryControl interface, dshow.iamdevmemorycontrol_writesync, strmif/IAMDevMemoryControl::WriteSync
-ms.topic: method
 f1_keywords:
 - strmif/IAMDevMemoryControl.WriteSync
 dev_langs:

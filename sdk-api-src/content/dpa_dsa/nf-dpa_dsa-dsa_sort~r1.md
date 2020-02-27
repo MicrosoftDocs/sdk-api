@@ -3,7 +3,6 @@ UID: NF:dpa_dsa.DSA_Sort~r1
 title: DSA_Sort
 ms.date: 01/30/19
 ms.keywords: DSA_Sort
-ms.topic: language-reference
 f1_keywords:
 - dpa_dsa/DSA_Sort
 dev_langs:

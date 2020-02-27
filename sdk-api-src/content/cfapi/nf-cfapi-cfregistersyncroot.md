@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: FAD56873-8812-42DC-9975-9507F73BD9E3
 ms.date: 12/05/2018
 ms.keywords: CfRegisterSyncRoot, CfRegisterSyncRoot function, cfapi/CfRegisterSyncRoot, cloudApi.cfregistersyncroot
-ms.topic: function
 f1_keywords:
 - cfapi/CfRegisterSyncRoot
 dev_langs:

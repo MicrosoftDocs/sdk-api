@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: 3c6925d9-8220-4706-991b-cd0cb5697f29
 ms.date: 12/05/2018
 ms.keywords: ElasticMarginLeft property [Windows Touch], ElasticMarginLeft property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],ElasticMarginLeft property, IInertiaProcessor.ElasticMarginLeft, IInertiaProcessor.get_ElasticMarginLeft, IInertiaProcessor::ElasticMarginLeft, IInertiaProcessor::get_ElasticMarginLeft, IInertiaProcessor::put_ElasticMarginLeft, get_ElasticMarginLeft, manipulations/IInertiaProcessor::ElasticMarginLeft, manipulations/IInertiaProcessor::get_ElasticMarginLeft, manipulations/IInertiaProcessor::put_ElasticMarginLeft, wintouch.iinertiaprocessor_elasticmarginleft
-ms.topic: method
 f1_keywords:
 - manipulations/IInertiaProcessor.ElasticMarginLeft
 dev_langs:

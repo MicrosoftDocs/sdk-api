@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ef3865b2-b651-4072-86f2-2996fce061a4
 ms.date: 12/05/2018
 ms.keywords: IShellService interface [Windows Shell],SetOwner method, IShellService.SetOwner, IShellService::SetOwner, SetOwner, SetOwner method [Windows Shell], SetOwner method [Windows Shell],IShellService interface, shdeprecated/IShellService::SetOwner, shell.IShellService_SetOwner, zone_IShellService_SetOwner
-ms.topic: method
 f1_keywords:
 - shdeprecated/IShellService.SetOwner
 dev_langs:

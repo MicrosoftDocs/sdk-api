@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: d117e4dd-5e7f-4f60-b657-25eae0f655cc
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],GetVersionNumber method, ICAT.GetVersionNumber, ICAT::GetVersionNumber, ICATGetVersionNumber, mpeg2psiparser/ICAT::GetVersionNumber, mstv.icat_getversionnumber
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/ICAT.GetVersionNumber
 dev_langs:

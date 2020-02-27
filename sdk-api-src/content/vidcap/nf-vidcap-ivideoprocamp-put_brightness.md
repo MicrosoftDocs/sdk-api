@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 69c8086c-a638-4ec6-a4fd-5a400095145d
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Brightness method, IVideoProcAmp.put_Brightness, IVideoProcAmp::put_Brightness, IVideoProcAmpput_Brightness, dshow.ivideoprocamp_put_brightness, put_Brightness, put_Brightness method [DirectShow], put_Brightness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Brightness
-ms.topic: method
 f1_keywords:
 - vidcap/IVideoProcAmp.put_Brightness
 dev_langs:

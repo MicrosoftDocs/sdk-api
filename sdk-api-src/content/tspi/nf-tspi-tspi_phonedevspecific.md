@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 8c2161c2-ab7c-44b0-a7a0-249412359838
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneDevSpecific, TSPI_phoneDevSpecific function [TAPI 2.2], _tspi_tspi_phonedevspecific, tspi.tspi_phonedevspecific, tspi/TSPI_phoneDevSpecific
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_phoneDevSpecific
 dev_langs:

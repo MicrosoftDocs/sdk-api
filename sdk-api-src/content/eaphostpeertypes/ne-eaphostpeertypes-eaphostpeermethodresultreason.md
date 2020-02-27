@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: f43d2883-d23f-455b-bde0-244a88630d25
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerMethodResultAltSuccessReceived, EapHostPeerMethodResultFromMethod, EapHostPeerMethodResultReason, EapHostPeerMethodResultReason enumeration [EAPHost], EapHostPeerMethodResultTimeout, eaphost.eaphostpeermethodresultreason, eaphostpeertypes/EapHostPeerMethodResultAltSuccessReceived, eaphostpeertypes/EapHostPeerMethodResultFromMethod, eaphostpeertypes/EapHostPeerMethodResultReason, eaphostpeertypes/EapHostPeerMethodResultTimeout
-ms.topic: enum
 f1_keywords:
 - eaphostpeertypes/EapHostPeerMethodResultReason
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: f73adc24-2e61-4b62-9d38-12a23b62ed01
 ms.date: 12/05/2018
 ms.keywords: DrvStartDoc, DrvStartDoc function [Display Devices], ddifncs_18494fde-3744-4ade-a245-f312b1fc4b48.xml, display.drvstartdoc, winddi/DrvStartDoc
-ms.topic: function
 f1_keywords:
 - winddi/DrvStartDoc
 dev_langs:

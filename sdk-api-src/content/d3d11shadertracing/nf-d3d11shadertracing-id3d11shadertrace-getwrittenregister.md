@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 360BB797-D5A9-486A-94ED-AF1CD3A4E118
 ms.date: 12/05/2018
 ms.keywords: GetWrittenRegister, GetWrittenRegister method [Direct3D 11], GetWrittenRegister method [Direct3D 11],ID3D11ShaderTrace interface, ID3D11ShaderTrace interface [Direct3D 11],GetWrittenRegister method, ID3D11ShaderTrace.GetWrittenRegister, ID3D11ShaderTrace::GetWrittenRegister, d3d11shadertracing/ID3D11ShaderTrace::GetWrittenRegister, direct3d11.id3d11shadertrace_getwrittenregister
-ms.topic: method
 f1_keywords:
 - d3d11shadertracing/ID3D11ShaderTrace.GetWrittenRegister
 dev_langs:

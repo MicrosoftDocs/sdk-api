@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionunionmethods\union_27rectfamprect.htm
 ms.date: 12/05/2018
 ms.keywords: Region class [GDI+],Union method, Region.Union, Region.Union(IN const RectF &), Region.Union(const RectF&), Region::Union, Region::Union(IN const RectF &), Union, Union method [GDI+], Union method [GDI+],Region class, _gdiplus_CLASS_Region_Union_RectF_rect_, gdiplus._gdiplus_CLASS_Region_Union_RectF_rect_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Region.Union
 dev_langs:

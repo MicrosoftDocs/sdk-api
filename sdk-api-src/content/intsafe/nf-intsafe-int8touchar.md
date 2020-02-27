@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f8e87f71-f1a2-433a-8b57-6a7bd59b1e06
 ms.date: 12/05/2018
 ms.keywords: Int8ToUChar, Int8ToUChar function [Windows Shell], intsafe/Int8ToUChar, shell.Int8ToUChar
-ms.topic: function
 f1_keywords:
 - intsafe/Int8ToUChar
 dev_langs:

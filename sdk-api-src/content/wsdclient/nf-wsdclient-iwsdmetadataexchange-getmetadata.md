@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: ab84ed56-37a5-48ff-a616-cb92dc07a8ee
 ms.date: 12/05/2018
 ms.keywords: GetMetadata, GetMetadata method, GetMetadata method,IWSDMetadataExchange interface, IWSDMetadataExchange interface,GetMetadata method, IWSDMetadataExchange.GetMetadata, IWSDMetadataExchange::GetMetadata, ncd.iwsdmetadataexchange_getmetadata_method, wsdclient/IWSDMetadataExchange::GetMetadata
-ms.topic: method
 f1_keywords:
 - wsdclient/IWSDMetadataExchange.GetMetadata
 dev_langs:

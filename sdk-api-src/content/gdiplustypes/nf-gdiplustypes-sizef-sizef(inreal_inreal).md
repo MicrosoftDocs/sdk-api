@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizefclass\sizefconstructors\sizef_61width_height.htm
 ms.date: 12/05/2018
 ms.keywords: SizeF, SizeF class [GDI+],SizeF constructor, SizeF constructor [GDI+], SizeF constructor [GDI+],SizeF class, SizeF.SizeF, SizeF.SizeF(IN REAL,IN REAL), SizeF.SizeF(REAL,REAL), SizeF::SizeF, SizeF::SizeF(IN REAL,IN REAL), _gdiplus_CLASS_SizeF_SizeF_width_height_, gdiplus._gdiplus_CLASS_SizeF_SizeF_width_height_
-ms.topic: method
 f1_keywords:
 - gdiplustypes/SizeF.SizeF
 dev_langs:

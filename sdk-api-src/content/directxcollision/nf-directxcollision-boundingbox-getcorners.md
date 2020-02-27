@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.GetCorners(XMFLOAT3)
 ms.date: 12/05/2018
 ms.keywords: BoundingBox interface [DirectX Math Support APIs],GetCorners method, BoundingBox.GetCorners, BoundingBox::GetCorners, GetCorners, GetCorners method [DirectX Math Support APIs], GetCorners method [DirectX Math Support APIs],BoundingBox interface, Use DirectX..BoundingBox.GetCorners, Use DirectX::::BoundingBox::GetCorners, dxmath.boundingbox_getcorners
-ms.topic: method
 f1_keywords:
 - directxcollision/BoundingBox.GetCorners
 dev_langs:

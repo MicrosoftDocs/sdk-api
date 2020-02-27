@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 1cde7b16-f825-4591-9947-6ad03cbd14c6
 ms.date: 12/05/2018
 ms.keywords: ITASRTerminalEvent interface [TAPI 2.2],get_Terminal method, ITASRTerminalEvent.get_Terminal, ITASRTerminalEvent::get_Terminal, _tapi3_itasrterminalevent_get_terminal, get_Terminal, get_Terminal method [TAPI 2.2], get_Terminal method [TAPI 2.2],ITASRTerminalEvent interface, tapi3.itasrterminalevent_get_terminal, tapi3if/ITASRTerminalEvent::get_Terminal
-ms.topic: method
 f1_keywords:
 - tapi3if/ITASRTerminalEvent.get_Terminal
 dev_langs:

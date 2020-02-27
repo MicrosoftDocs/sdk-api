@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ae456ce2-4df8-4a36-88f5-526acb722bda
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoBannerImage method, IAMMediaContent.get_MoreInfoBannerImage, IAMMediaContent::get_MoreInfoBannerImage, IAMMediaContentget_MoreInfoBannerImage, dshow.iammediacontent_get_moreinfobannerimage, get_MoreInfoBannerImage, get_MoreInfoBannerImage method [DirectShow], get_MoreInfoBannerImage method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_MoreInfoBannerImage
-ms.topic: method
 f1_keywords:
 - qnetwork/IAMMediaContent.get_MoreInfoBannerImage
 dev_langs:

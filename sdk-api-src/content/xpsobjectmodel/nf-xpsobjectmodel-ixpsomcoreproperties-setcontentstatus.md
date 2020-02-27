@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f500407d-3eb4-4bf1-88ef-8f6bd2bcf472
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetContentStatus method, IXpsOMCoreProperties.SetContentStatus, IXpsOMCoreProperties::SetContentStatus, SetContentStatus, SetContentStatus method [XPS Documents and Packaging], SetContentStatus method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcontentstatus, xpsobjectmodel/IXpsOMCoreProperties::SetContentStatus
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.SetContentStatus
 dev_langs:
@@ -90,11 +89,11 @@ The <b>contentStatus</b> property contains the status of the content. Examples o
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 4289E3F0-17AC-485B-A326-2C8BECD5CABB
 ms.date: 12/05/2018
 ms.keywords: TokenBindingGenerateBinding, TokenBindingGenerateBinding function [Security], security.tokenbindinggeneratebinding, tokenbinding/TokenBindingGenerateBinding
-ms.topic: function
 f1_keywords:
 - tokenbinding/TokenBindingGenerateBinding
 dev_langs:

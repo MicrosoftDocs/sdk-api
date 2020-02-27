@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 2f85e8dd-1693-4a54-a38f-9b70b2a46361
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_RESPONSE_INFO_TYPE, *PHTTP_RESPONSE_INFO_TYPE enumeration [HTTP], HTTP_RESPONSE_INFO_TYPE, HTTP_RESPONSE_INFO_TYPE enumeration [HTTP], HttpResponseInfoTypeAuthenticationProperty, HttpResponseInfoTypeChannelBind, HttpResponseInfoTypeMultipleKnownHeaders, HttpResponseInfoTypeQosProperty, PHTTP_RESPONSE_INFO_TYPE, http.http_response_info_type, http/*PHTTP_RESPONSE_INFO_TYPE, http/HTTP_RESPONSE_INFO_TYPE, http/HttpResponseInfoTypeAuthenticationProperty, http/HttpResponseInfoTypeChannelBind, http/HttpResponseInfoTypeMultipleKnownHeaders, http/HttpResponseInfoTypeQosProperty'
-ms.topic: enum
 f1_keywords:
 - http/HTTP_RESPONSE_INFO_TYPE
 dev_langs:

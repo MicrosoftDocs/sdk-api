@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 464966c1-e4e9-4b58-9e41-48de408f572f
 ms.date: 12/05/2018
 ms.keywords: IEnumConnections, IEnumConnections interface [COM], IEnumConnections interface [COM],described, _com_ienumconnections, com.ienumconnections, ocidl/IEnumConnections
-ms.topic: interface
 f1_keywords:
 - ocidl/IEnumConnections
 dev_langs:

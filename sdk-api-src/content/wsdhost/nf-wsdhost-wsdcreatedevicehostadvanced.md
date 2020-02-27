@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 8136fc01-9476-4ee4-aa44-784bef482ff5
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDeviceHostAdvanced, WSDCreateDeviceHostAdvanced function, ncd.wsdcreatedevicehostadvanced, wsdhost/WSDCreateDeviceHostAdvanced
-ms.topic: function
 f1_keywords:
 - wsdhost/WSDCreateDeviceHostAdvanced
 dev_langs:

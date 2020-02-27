@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: f790e107-0db3-4691-98fc-378518b04a8a
 ms.date: 12/05/2018
 ms.keywords: '*PTCP_ESTATS_OBS_REC_ROD_v0, PTCP_ESTATS_OBS_REC_ROD_v0, PTCP_ESTATS_OBS_REC_ROD_v0 structure pointer [IP Helper], TCP_ESTATS_OBS_REC_ROD_v0, TCP_ESTATS_OBS_REC_ROD_v0 structure [IP Helper], iphlp.tcp_estats_obs_rec_rod_v0, tcpestats/PTCP_ESTATS_OBS_REC_ROD_v0, tcpestats/TCP_ESTATS_OBS_REC_ROD_v0'
-ms.topic: struct
 f1_keywords:
 - tcpestats/TCP_ESTATS_OBS_REC_ROD_v0
 dev_langs:
@@ -103,7 +102,7 @@ The <b>TCP_ESTATS_OBS_REC_ROD_v0</b> is defined as version 0 of the structure fo
 
 The <b>TCP_ESTATS_OBS_REC_ROD_v0</b> structure is retrieved by calls to  the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a> or <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a> functions when <b>TcpConnectionEstatsObsRec</b> is passed in the <i>EstatsType</i> parameter. Extended TCP statistics need to be enabled to retrieve this structure.
 
-The members of this structure are defined in the IETF RFC on the TCP Extended Statistics MIB. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=121686">http://www.ietf.org/rfc/rfc4898.txt</a>.
+The members of this structure are defined in the IETF RFC on the TCP Extended Statistics MIB. For more information, see <a href="http://tools.ietf.org/html/rfc4898">http://www.ietf.org/rfc/rfc4898.txt</a>.
 
 
 

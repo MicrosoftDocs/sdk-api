@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 42aaefc0-dc05-460d-931a-b702fa855bed
 ms.date: 12/05/2018
 ms.keywords: EnumSystemFirmwareTables, EnumSystemFirmwareTables function, base.enumsystemfirmwaretables, sysinfoapi/EnumSystemFirmwareTables
-ms.topic: function
 f1_keywords:
 - sysinfoapi/EnumSystemFirmwareTables
 dev_langs:

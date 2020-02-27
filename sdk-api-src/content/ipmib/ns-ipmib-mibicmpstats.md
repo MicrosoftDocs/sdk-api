@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: 080cdd28-3e2d-4cd0-8e5a-9ec9dcb9df48
 ms.date: 12/05/2018
 ms.keywords: '*PMIBICMPSTATS, MIBICMPSTATS, MIBICMPSTATS structure [MIB], _mpr_mibicmpstats, ipmib/MIBICMPSTATS, iprtrmib/MIBICMPSTATS, mib.mibicmpstats, rras.mibicmpstats'
-ms.topic: struct
 f1_keywords:
 - ipmib/MIBICMPSTATS
 dev_langs:

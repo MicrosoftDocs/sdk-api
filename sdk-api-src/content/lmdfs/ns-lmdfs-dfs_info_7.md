@@ -7,7 +7,6 @@ tech.root: Dfs
 ms.assetid: 03bcd93d-e3ec-49aa-be6c-399922f67c28
 ms.date: 12/05/2018
 ms.keywords: '*LPDFS_INFO_7, *PDFS_INFO_7, DFS_INFO_7, DFS_INFO_7 structure [Distributed File System], LPDFS_INFO_7, LPDFS_INFO_7 structure pointer [Distributed File System], PDFS_INFO_7, PDFS_INFO_7 structure pointer [Distributed File System], dfs.dfs_info_7, fs.dfs_info_7, lmdfs/DFS_INFO_7, lmdfs/LPDFS_INFO_7, lmdfs/PDFS_INFO_7, netmgmt.dfs_info_7'
-ms.topic: struct
 f1_keywords:
 - lmdfs/DFS_INFO_7
 dev_langs:

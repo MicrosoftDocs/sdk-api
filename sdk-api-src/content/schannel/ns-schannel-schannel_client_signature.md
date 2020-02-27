@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 2549a287-bee3-457b-86e3-3330bf23169a
 ms.date: 12/05/2018
 ms.keywords: '*PSCHANNEL_CLIENT_SIGNATURE, PSCHANNEL_CLIENT_SIGNATURE, PSCHANNEL_CLIENT_SIGNATURE structure pointer [Security], SCHANNEL_CLIENT_SIGNATURE, SCHANNEL_CLIENT_SIGNATURE structure [Security], schannel/PSCHANNEL_CLIENT_SIGNATURE, schannel/SCHANNEL_CLIENT_SIGNATURE, security.schannel_client_signature'
-ms.topic: struct
 f1_keywords:
 - schannel/SCHANNEL_CLIENT_SIGNATURE
 dev_langs:

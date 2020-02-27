@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 9c4338c1-eb5e-47f3-8b5b-0623690bd5f6
 ms.date: 12/05/2018
 ms.keywords: IConsoleVerb, IConsoleVerb interface [MMC], IConsoleVerb interface [MMC],described, _slate_iconsoleverb, mmc.iconsoleverb, mmc/IConsoleVerb
-ms.topic: interface
 f1_keywords:
 - mmc/IConsoleVerb
 dev_langs:

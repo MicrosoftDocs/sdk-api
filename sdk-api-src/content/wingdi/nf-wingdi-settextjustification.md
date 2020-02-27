@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 55fb5a28-b7da-40d8-8e64-4b42c23fa8b1
 ms.date: 12/05/2018
 ms.keywords: SetTextJustification, SetTextJustification function [Windows GDI], _win32_SetTextJustification, gdi.settextjustification, wingdi/SetTextJustification
-ms.topic: function
 f1_keywords:
 - wingdi/SetTextJustification
 dev_langs:

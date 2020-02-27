@@ -7,7 +7,6 @@ tech.root: WebSock
 ms.assetid: b326d32d-7226-46cd-b15b-b5547d3ec8cb
 ms.date: 12/05/2018
 ms.keywords: WebSocketBeginClientHandshake, WebSocketBeginClientHandshake function [Websocket Protocol Component API], websock.websocketbeginclienthandshake, websocket/WebSocketBeginClientHandshake
-ms.topic: function
 f1_keywords:
 - websocket/WebSocketBeginClientHandshake
 dev_langs:
@@ -97,7 +96,7 @@ Number of extensions in <i>pszExtensions</i>.
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">PWEB_SOCKET_HTTP_HEADER</a></b>
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a> structures that contain the request headers to be sent by the application. The array must include the <i>Host HTTP</i> header as defined in <a href="http://go.microsoft.com/fwlink/p/?LinkID=241642">RFC 2616</a>.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a> structures that contain the request headers to be sent by the application. The array must include the <i>Host HTTP</i> header as defined in <a href="http://tools.ietf.org/html/rfc2616">RFC 2616</a>.
 
 
 ### -param ulInitialHeaderCount [in]

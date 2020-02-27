@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: 265f034a-78be-4792-958e-80ad7a71d1a7
 ms.date: 12/05/2018
 ms.keywords: IAS, RemoteAccess, GetServiceSDO, GetServiceSDO method [Network Policy Server], GetServiceSDO method [Network Policy Server],ISdoMachine interface, GetServiceSDO method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetServiceSDO method, ISdoMachine.GetServiceSDO, ISdoMachine::GetServiceSDO, SdoMachine object [Network Policy Server],GetServiceSDO method, _sdo_isdomachine_getservicesdo, nps.SDO_isdomachine_getservicesdo, sdo.isdomachine_getservicesdo, sdoias/ISdoMachine::GetServiceSDO
-ms.topic: method
 f1_keywords:
 - sdoias/ISdoMachine.GetServiceSDO
 dev_langs:
@@ -91,7 +90,7 @@ Remote Access Server
 ### -param ppServiceSDO [out]
 
 Pointer to a pointer that points to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface 
-      pointer. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of this 
+      pointer. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of this 
       <b>IUnknown</b> interface to obtain an 
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface for the 
       <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdoservicecontrol">ISdoServiceControl</a> object.

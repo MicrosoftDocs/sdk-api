@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 4e9b83ee-69f6-42b8-bd6b-546c4ffe2002
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2Ex interface [IMAPI],SendDvdStructure method, IDiscRecorder2Ex.SendDvdStructure, IDiscRecorder2Ex::SendDvdStructure, SendDvdStructure, SendDvdStructure method [IMAPI], SendDvdStructure method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_senddvdstructure, imapi2/IDiscRecorder2Ex::SendDvdStructure
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscRecorder2Ex.SendDvdStructure
 dev_langs:

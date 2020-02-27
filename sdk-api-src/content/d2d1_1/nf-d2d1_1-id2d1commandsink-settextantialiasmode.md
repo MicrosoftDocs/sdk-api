@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: c6bd9c50-b0a5-4d5e-b554-1c4caa6d8e00
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],SetTextAntialiasMode method, ID2D1CommandSink.SetTextAntialiasMode, ID2D1CommandSink::SetTextAntialiasMode, SetTextAntialiasMode, SetTextAntialiasMode method [Direct2D], SetTextAntialiasMode method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::SetTextAntialiasMode, direct2d.id2d1commandsink_settextantialiasmode
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1CommandSink.SetTextAntialiasMode
 dev_langs:

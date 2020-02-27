@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_shared_resource.htm
 ms.date: 12/05/2018
 ms.keywords: DXGI_SHARED_RESOURCE, DXGI_SHARED_RESOURCE structure [DXGI], aa3179a5-6a16-4e5d-df66-783c4edeb8f4, direct3ddxgi.dxgi_shared_resource, dxgi/DXGI_SHARED_RESOURCE
-ms.topic: struct
 f1_keywords:
 - dxgi/DXGI_SHARED_RESOURCE
 dev_langs:

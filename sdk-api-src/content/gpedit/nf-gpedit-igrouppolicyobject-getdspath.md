@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: 0d6d0b3d-5ad4-4363-a123-f074193b75e2
 ms.date: 12/05/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetDSPath, GetDSPath method [Group Policy], GetDSPath method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetDSPath method, IGroupPolicyObject.GetDSPath, IGroupPolicyObject::GetDSPath, _win32_igrouppolicyobject_getdspath, gpedit/IGroupPolicyObject::GetDSPath, policy.igrouppolicyobject_getdspath
-ms.topic: method
 f1_keywords:
 - gpedit/IGroupPolicyObject.GetDSPath
 dev_langs:

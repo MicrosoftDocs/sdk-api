@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 819f069f-15e7-41b6-9153-4d602be4245d
 ms.date: 12/05/2018
 ms.keywords: RasEnumDevices, RasEnumDevices function [RAS], RasEnumDevicesA, RasEnumDevicesW, _ras_rasenumdevices, ras/RasEnumDevices, ras/RasEnumDevicesA, ras/RasEnumDevicesW, rras.rasenumdevices
-ms.topic: function
 f1_keywords:
 - ras/RasEnumDevices
 dev_langs:

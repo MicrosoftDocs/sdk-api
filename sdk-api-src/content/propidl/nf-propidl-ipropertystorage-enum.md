@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 73f834cf-b6e4-4a48-bbdc-0c4ba87aacaf
 ms.date: 12/05/2018
 ms.keywords: Enum, Enum method [Structured Storage], Enum method [Structured Storage],IPropertyStorage interface, IPropertyStorage [Strctd Stg],Enum, IPropertyStorage interface [Structured Storage],Enum method, IPropertyStorage.Enum, IPropertyStorage::Enum, _stg_ipropertystorage_enum, propidl/IPropertyStorage::Enum, stg.ipropertystorage_enum
-ms.topic: method
 f1_keywords:
 - propidl/IPropertyStorage.Enum
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 165ABA55-7CDB-48cf-AE14-DA314197BA42
 ms.date: 12/05/2018
 ms.keywords: GetHelpInfo, GetHelpInfo method [Windows Properties], GetHelpInfo method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],GetHelpInfo method, IPropertyUI.GetHelpInfo, IPropertyUI::GetHelpInfo, _shell_IPropertyUI_GetHelpInfo, properties.IPropertyUI_GetHelpInfo, shell.IPropertyUI_GetHelpInfo, shobjidl_core/IPropertyUI::GetHelpInfo
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IPropertyUI.GetHelpInfo
 dev_langs:

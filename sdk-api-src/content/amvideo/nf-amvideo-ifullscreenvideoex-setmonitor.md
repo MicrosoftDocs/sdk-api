@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f2db1009-ce5b-4ebe-becb-bed3d1187335
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetMonitor method, IFullScreenVideoEx.SetMonitor, IFullScreenVideoEx::SetMonitor, IFullScreenVideoSetMonitor, SetMonitor, SetMonitor method [DirectShow], SetMonitor method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetMonitor, dshow.ifullscreenvideoex_setmonitor
-ms.topic: method
 f1_keywords:
 - amvideo/IFullScreenVideoEx.SetMonitor
 dev_langs:

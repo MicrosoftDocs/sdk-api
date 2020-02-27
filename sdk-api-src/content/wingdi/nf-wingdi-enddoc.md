@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: bf63ea0f-cc73-4943-9c84-52b3b77e141c
 ms.date: 12/05/2018
 ms.keywords: EndDoc, EndDoc function [Windows GDI], _win32_EndDoc, gdi.enddoc, wingdi/EndDoc
-ms.topic: function
 f1_keywords:
 - wingdi/EndDoc
 dev_langs:

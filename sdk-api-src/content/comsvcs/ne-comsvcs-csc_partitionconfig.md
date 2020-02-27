@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 584c4744-193d-43d4-a305-8f4ea9802d58
 ms.date: 12/05/2018
 ms.keywords: CSC_InheritPartition, CSC_NewPartition, CSC_NoPartition, CSC_PartitionConfig, CSC_PartitionConfig enumeration [COM+], _cos_CSC_PartitionConfig, comsvcs/CSC_InheritPartition, comsvcs/CSC_NewPartition, comsvcs/CSC_NoPartition, comsvcs/CSC_PartitionConfig, cos.csc_partitionconfig
-ms.topic: enum
 f1_keywords:
 - comsvcs/CSC_PartitionConfig
 dev_langs:

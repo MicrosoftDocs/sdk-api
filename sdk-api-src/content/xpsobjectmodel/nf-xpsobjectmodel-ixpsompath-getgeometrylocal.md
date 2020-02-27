@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: a8902191-7646-4c97-843f-9467ed12f621
 ms.date: 12/05/2018
 ms.keywords: GetGeometryLocal, GetGeometryLocal method [XPS Documents and Packaging], GetGeometryLocal method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetGeometryLocal method, IXpsOMPath.GetGeometryLocal, IXpsOMPath::GetGeometryLocal, xps.ixpsompath_getgeometrylocal, xpsobjectmodel/IXpsOMPath::GetGeometryLocal
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.GetGeometryLocal
 dev_langs:
@@ -157,7 +156,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

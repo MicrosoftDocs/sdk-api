@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: dbbfbfe0-843b-4baf-b4f5-51a3037c5fd9
 ms.date: 12/05/2018
 ms.keywords: ITStaticAudioTerminal interface [TAPI 2.2],get_WaveId method, ITStaticAudioTerminal.get_WaveId, ITStaticAudioTerminal::get_WaveId, _tapi3_itstaticaudioterminal_get_waveid, get_WaveId, get_WaveId method [TAPI 2.2], get_WaveId method [TAPI 2.2],ITStaticAudioTerminal interface, tapi3.itstaticaudioterminal_get_waveid, tapi3if/ITStaticAudioTerminal::get_WaveId
-ms.topic: method
 f1_keywords:
 - tapi3if/ITStaticAudioTerminal.get_WaveId
 dev_langs:

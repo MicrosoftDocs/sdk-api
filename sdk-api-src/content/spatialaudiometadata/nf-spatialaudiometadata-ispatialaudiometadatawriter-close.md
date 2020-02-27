@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 2417E624-6535-49E2-9CF4-F927F731BE41
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Core Audio], Close method [Core Audio],ISpatialAudioMetadataWriter interface, ISpatialAudioMetadataWriter interface [Core Audio],Close method, ISpatialAudioMetadataWriter.Close, ISpatialAudioMetadataWriter::Close, coreaudio.ispatialaudiometadatawriter_close, spatialaudiometadata/ISpatialAudioMetadataWriter::Close
-ms.topic: method
 f1_keywords:
 - spatialaudiometadata/ISpatialAudioMetadataWriter.Close
 dev_langs:

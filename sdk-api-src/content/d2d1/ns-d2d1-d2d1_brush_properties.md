@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 37b2fc18-a320-41c0-8717-dcd561a2f2df
 ms.date: 12/05/2018
 ms.keywords: D2D1_BRUSH_PROPERTIES, D2D1_BRUSH_PROPERTIES structure [Direct2D], d2d1/D2D1_BRUSH_PROPERTIES, direct2d.D2D1_BRUSH_PROPERTIES
-ms.topic: struct
 f1_keywords:
 - d2d1/D2D1_BRUSH_PROPERTIES
 dev_langs:

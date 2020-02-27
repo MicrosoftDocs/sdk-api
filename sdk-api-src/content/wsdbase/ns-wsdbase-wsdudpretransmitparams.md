@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 41bf73d8-0b20-4c38-b8b4-85c39eff0d91
 ms.date: 12/05/2018
 ms.keywords: PWSDUdpRetransmitParams, PWSDUdpRetransmitParams structure pointer, WSDUdpRetransmitParams, WSDUdpRetransmitParams structure, _WSDUdpRetransmitParams, ncd.wsdupdretransmitparams, wsdbase/PWSDUdpRetransmitParams, wsdbase/WSDUdpRetransmitParams
-ms.topic: struct
 f1_keywords:
 - wsdbase/WSDUdpRetransmitParams
 dev_langs:
@@ -93,7 +92,7 @@ WSD sends the first transmission after waiting <b>ulSendDelay</b>. WSD uses the 
 
 WSD generates a random delay value in the range <b>ulRepeatMinDelay</b> to <b>ulRepeatMaxDelay</b> and waits this amount of time before repeating the transmission. All subsequent repeat attempts then double the current delay value until <b>ulRepeatUpperDelay</b> is reached. For example, if the initial random delay value is 50 and the upper delay value is 250, the second attempt will wait 50 milliseconds, the third attempt will wait 100 milliseconds, the fourth attempt will wait 200 milliseconds, and the remaining attempts will wait 250 milliseconds.
 
-For details on how WSD uses these values to send messages, see Appendix I of the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84390">SOAP-over-UDP</a> specification.
+For details on how WSD uses these values to send messages, see Appendix I of the <a href="https://schemas.xmlsoap.org/ws/2004/09/soap-over-udp/">SOAP-over-UDP</a> specification.
 
 
 

@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: fab3212c-c1af-4119-85ff-108594cc64fa
 ms.date: 12/05/2018
 ms.keywords: DDENUMOVERLAYZ_BACKTOFRONT, DDENUMOVERLAYZ_FRONTTOBACK, EnumOverlayZOrders, EnumOverlayZOrders method [DirectDraw], EnumOverlayZOrders method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],EnumOverlayZOrders method, IDirectDrawSurface7.EnumOverlayZOrders, IDirectDrawSurface7::EnumOverlayZOrders, ddraw/IDirectDrawSurface7::EnumOverlayZOrders, directdraw.idirectdrawsurface7_enumoverlayzorders
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawSurface7.EnumOverlayZOrders
 dev_langs:

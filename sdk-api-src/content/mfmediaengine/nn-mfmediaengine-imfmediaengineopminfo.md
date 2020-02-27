@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 399f81ac-38f8-4aaa-8b34-f5fd13b71402
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineOPMInfo, IMFMediaEngineOPMInfo interface [Media Foundation], IMFMediaEngineOPMInfo interface [Media Foundation],described, mf.imfmediaengineopminfo, mfmediaengine/IMFMediaEngineOPMInfo
-ms.topic: interface
 f1_keywords:
 - mfmediaengine/IMFMediaEngineOPMInfo
 dev_langs:
@@ -84,7 +83,7 @@ Gets status information about the   <a href="https://docs.microsoft.com/windows/
 
 
 
-To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the Media Engine.
+To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the Media Engine.
 
 The <b>MF_MEDIA_ENGINE_EVENT_OPMINFO</b> <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> event is raised when there is a change in the OPM status.
 

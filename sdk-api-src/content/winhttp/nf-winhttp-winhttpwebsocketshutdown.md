@@ -7,7 +7,6 @@ tech.root: WinHttp
 ms.assetid: C98FDBE1-DDBC-45c7-81FA-CB7C5940E3B5
 ms.date: 12/05/2018
 ms.keywords: WinHttpWebSocketShutdown, WinHttpWebSocketShutdown function [WinHTTP], http.winhttpwebsocketshutdown, winhttp/WinHttpWebSocketShutdown
-ms.topic: function
 f1_keywords:
 - winhttp/WinHttpWebSocketShutdown
 dev_langs:

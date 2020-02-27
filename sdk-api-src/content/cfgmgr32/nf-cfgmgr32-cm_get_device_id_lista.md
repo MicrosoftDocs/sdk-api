@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: aa0ab004-3813-4339-90bb-afd9acf200c8
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Device_ID_List, CM_Get_Device_ID_List function [Device and Driver Installation], CM_Get_Device_ID_ListA, CM_Get_Device_ID_ListW, cfgmgr32/CM_Get_Device_ID_List, cfgmgr32/CM_Get_Device_ID_ListA, cfgmgr32/CM_Get_Device_ID_ListW, cfgmgrfn_e9f614d2-9bac-4b30-b9a0-f0764e37950b.xml, devinst.cm_get_device_id_list
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Get_Device_ID_List
 dev_langs:

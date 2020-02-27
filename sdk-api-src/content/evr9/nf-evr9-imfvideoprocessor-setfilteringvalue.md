@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: cb3c9516-2083-4c9d-b583-fc561f977ed5
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessor interface [Media Foundation],SetFilteringValue method, IMFVideoProcessor.SetFilteringValue, IMFVideoProcessor::SetFilteringValue, SetFilteringValue, SetFilteringValue method [Media Foundation], SetFilteringValue method [Media Foundation],IMFVideoProcessor interface, cb3c9516-2083-4c9d-b583-fc561f977ed5, evr9/IMFVideoProcessor::SetFilteringValue, mf.imfvideoprocessor_setfilteringvalue
-ms.topic: method
 f1_keywords:
 - evr9/IMFVideoProcessor.SetFilteringValue
 dev_langs:

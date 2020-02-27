@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: dbed0a95-30d8-4e63-b141-743401103c53
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolStackInformation, SetThreadpoolStackInformation function, base.setthreadpoolstackinformation, threadpoolapiset/SetThreadpoolStackInformation, winbase/SetThreadpoolStackInformation
-ms.topic: function
 f1_keywords:
 - threadpoolapiset/SetThreadpoolStackInformation
 dev_langs:

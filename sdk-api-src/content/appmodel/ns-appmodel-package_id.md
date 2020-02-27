@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 4B15281A-2227-47B7-A750-0A01DB8543FC
 ms.date: 12/05/2018
 ms.keywords: PACKAGE_ID, PACKAGE_ID structure [App packaging and management], appmodel/PACKAGE_IDW, appxpkg.package_id
-ms.topic: struct
 f1_keywords:
 - appmodel/PACKAGE_ID
 dev_langs:

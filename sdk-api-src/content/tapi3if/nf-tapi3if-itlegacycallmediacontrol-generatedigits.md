@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: d4dcdce0-4df5-43bb-a5ea-ea72782d5f04
 ms.date: 12/05/2018
 ms.keywords: GenerateDigits, GenerateDigits method [TAPI 2.2], GenerateDigits method [TAPI 2.2],ITLegacyCallMediaControl interface, ITLegacyCallMediaControl interface [TAPI 2.2],GenerateDigits method, ITLegacyCallMediaControl.GenerateDigits, ITLegacyCallMediaControl::GenerateDigits, _tapi3_itlegacycallmediacontrol_generatedigits, tapi3.itlegacycallmediacontrol_generatedigits, tapi3if/ITLegacyCallMediaControl::GenerateDigits
-ms.topic: method
 f1_keywords:
 - tapi3if/ITLegacyCallMediaControl.GenerateDigits
 dev_langs:

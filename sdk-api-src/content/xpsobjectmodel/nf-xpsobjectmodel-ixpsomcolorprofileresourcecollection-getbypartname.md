@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 9c9dc7d0-af93-4bf3-b8ba-799c1e4bb273
 ms.date: 12/05/2018
 ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMColorProfileResourceCollection.GetByPartName, IXpsOMColorProfileResourceCollection::GetByPartName, xps.ixpsomcolorprofileresourcecollection_getbypartname, xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetByPartName
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMColorProfileResourceCollection.GetByPartName
 dev_langs:
@@ -94,7 +93,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

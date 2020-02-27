@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: cc6cb3a0-ba39-4088-8d72-082f6a4e39d3
 ms.date: 12/05/2018
 ms.keywords: VariantGetDoubleElem, VariantGetDoubleElem function [Windows Properties], _shell_VariantGetDoubleElem, properties.VariantGetDoubleElem, propvarutil/VariantGetDoubleElem, shell.VariantGetDoubleElem
-ms.topic: function
 f1_keywords:
 - propvarutil/VariantGetDoubleElem
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d195956b-a4e5-493f-a804-9095e3bba4e2
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayBackwards method, IDvdControl2.PlayBackwards, IDvdControl2::PlayBackwards, IDvdControl2PlayBackwards, PlayBackwards, PlayBackwards method [DirectShow], PlayBackwards method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playbackwards, strmif/IDvdControl2::PlayBackwards
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.PlayBackwards
 dev_langs:
@@ -69,7 +68,7 @@ Value that specifies the speed of backward play. This value is a multiplier, whe
 
 ### -param dwFlags [in]
 
-Bitwise <b>OR</b> of one or more flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
+Bitwise <b>OR</b> of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
 
 
 ### -param ppCmd [out]

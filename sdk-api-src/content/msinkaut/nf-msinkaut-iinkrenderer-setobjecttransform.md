@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 8d0cbc97-d9a2-4b6c-8e92-55237cef6523
 ms.date: 12/05/2018
 ms.keywords: 8d0cbc97-d9a2-4b6c-8e92-55237cef6523, IInkRenderer interface [Tablet PC],SetObjectTransform method, IInkRenderer.SetObjectTransform, IInkRenderer::SetObjectTransform, SetObjectTransform, SetObjectTransform method [Tablet PC], SetObjectTransform method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::SetObjectTransform, tablet.inkrenderer_setobjecttransform
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRenderer.SetObjectTransform
 dev_langs:

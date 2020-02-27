@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 2090603e-33c8-4b2a-86d4-efc1c5665af8
 ms.date: 12/05/2018
 ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF],INetFwProducts interface, INetFwProducts interface [ICS/ICF],Count property, INetFwProducts.Count, INetFwProducts.get_Count, INetFwProducts::Count, INetFwProducts::get_Count, get_Count, ics.inetfwproducts_count, netfw/INetFwProducts::Count, netfw/INetFwProducts::get_Count
-ms.topic: method
 f1_keywords:
 - netfw/INetFwProducts.Count
 dev_langs:

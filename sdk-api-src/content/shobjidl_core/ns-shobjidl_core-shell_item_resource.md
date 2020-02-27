@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 92ca56a2-e2c3-4651-aa29-115eb07119e9
 ms.date: 12/05/2018
 ms.keywords: SHELL_ITEM_RESOURCE, SHELL_ITEM_RESOURCE structure [Windows Shell], _shell_SHELL_ITEM_RESOURCE, shell.SHELL_ITEM_RESOURCE, shobjidl_core/SHELL_ITEM_RESOURCE
-ms.topic: struct
 f1_keywords:
 - shobjidl_core/SHELL_ITEM_RESOURCE
 dev_langs:

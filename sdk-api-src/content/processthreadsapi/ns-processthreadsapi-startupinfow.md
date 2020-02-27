@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: cf4b795c-52c1-4573-8328-99ee13f68bb3
 ms.date: 12/05/2018
 ms.keywords: '*LPSTARTUPINFOW, LPSTARTUPINFO, LPSTARTUPINFO structure pointer, STARTF_FORCEOFFFEEDBACK, STARTF_FORCEONFEEDBACK, STARTF_PREVENTPINNING, STARTF_RUNFULLSCREEN, STARTF_TITLEISAPPID, STARTF_TITLEISLINKNAME, STARTF_UNTRUSTEDSOURCE, STARTF_USECOUNTCHARS, STARTF_USEFILLATTRIBUTE, STARTF_USEHOTKEY, STARTF_USEPOSITION, STARTF_USESHOWWINDOW, STARTF_USESIZE, STARTF_USESTDHANDLES, STARTUPINFO, STARTUPINFO structure, STARTUPINFOA, STARTUPINFOW, _win32_startupinfo_str, base.startupinfo_str, processthreadsapi/LPSTARTUPINFO, processthreadsapi/STARTUPINFO, processthreadsapi/STARTUPINFOA, processthreadsapi/STARTUPINFOW, winbase/LPSTARTUPINFO, winbase/STARTUPINFO, winbase/STARTUPINFOA, winbase/STARTUPINFOW'
-ms.topic: struct
 f1_keywords:
 - processthreadsapi/STARTUPINFO
 dev_langs:
@@ -73,11 +72,9 @@ Reserved; must be NULL.
 
 ### -field lpDesktop
 
- The name of the desktop, or the name of both the desktop and window station for this process. A backslash in the string indicates that the string includes both the desktop and window station names. 
+The name of the desktop, or the name of both the desktop and window station for this process. A backslash in the string indicates that the string includes both the desktop and window station names. 
 
-
-
-						For more information, see <a href="https://docs.microsoft.com/windows/desktop/winstation/thread-connection-to-a-desktop">Thread Connection to a Desktop</a>.
+For more information, see [Thread Connection to a Desktop](/windows/desktop/winstation/thread-connection-to-a-desktop).
 					
 
 
@@ -388,7 +385,7 @@ Reserved for use by the C Run-time; must be NULL.
 
 If <b>dwFlags</b> specifies STARTF_USESTDHANDLES, this member is the standard input handle for the process. If STARTF_USESTDHANDLES is not specified, the default for standard input is the keyboard buffer.
 
-If <b>dwFlags</b> specifies STARTF_USEHOTKEY, this member specifies a hotkey value that is sent as the <i>wParam</i> parameter of a <a href="http://go.microsoft.com/fwlink/p/?linkid=181898">WM_SETHOTKEY</a> message to the first  eligible top-level window created by the application that owns the process. If the window is created with the WS_POPUP window style, it is not eligible unless the WS_EX_APPWINDOW extended window style is also set. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=181910">CreateWindowEx</a>.  
+If <b>dwFlags</b> specifies STARTF_USEHOTKEY, this member specifies a hotkey value that is sent as the <i>wParam</i> parameter of a <a href="https://msdn.microsoft.com/library/ms646284(VS.85).aspx">WM_SETHOTKEY</a> message to the first  eligible top-level window created by the application that owns the process. If the window is created with the WS_POPUP window style, it is not eligible unless the WS_EX_APPWINDOW extended window style is also set. For more information, see <a href="https://msdn.microsoft.com/library/ms632680(VS.85).aspx">CreateWindowEx</a>.  
 
 Otherwise, this member is ignored.
 

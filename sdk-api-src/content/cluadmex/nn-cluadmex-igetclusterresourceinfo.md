@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 8a3a9e9d-4666-4d9a-83e3-10d667b42d66
 ms.date: 12/05/2018
 ms.keywords: IGetClusterResourceInfo, IGetClusterResourceInfo interface [Failover Cluster], IGetClusterResourceInfo interface [Failover Cluster],described, _wolf_igetclusterresourceinfo, cluadmex/IGetClusterResourceInfo, mscs.igetclusterresourceinfo
-ms.topic: interface
 f1_keywords:
 - cluadmex/IGetClusterResourceInfo
 dev_langs:
@@ -133,14 +132,14 @@ If the object being extended is not a resource, queries for
 </ul>
 Failover Cluster Administrator passes in an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer, 
      <i>piData</i>. Use <i>piData</i> to call 
-     <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> for one of the 
+     <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for one of the 
      <b>IGetClusterResourceInfo</b> methods.
 
 Use the <b>IGetClusterResourceInfo</b> interface only 
      in the context of a resource extension. Do not obtain other information interfaces, such as 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclustergroupinfo">IGetClusterGroupInfo</a>, from the 
      <b>IGetClusterResourceInfo</b> interface. While 
-     <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> will return a valid interface, 
+     <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> will return a valid interface, 
      the operation is not valid in the context of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>, 
      and the result is an interface that represents no real cluster object.
 

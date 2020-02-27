@@ -5,7 +5,6 @@ description: Represents a compressed bitstream from which video is decoded.
 tech.root: mf
 ms.assetid: befe1140-c0d9-4313-a067-40c04ce0d703
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_VIDEO_DECODE_COMPRESSED_BITSTREAM
 dev_langs:
@@ -50,7 +49,7 @@ A pointer to an [ID3D12Resource](https://docs.microsoft.com/windows/desktop/api/
  
 ### -field Offset
 
-The offset to the beginning of the first slice.  This offset has alignment requirements based on the tier value of the video decoder. For more information on decoding tiers, see [D3D12_VIDEO_DECODE_TIER](ne-d3d12video-d3d12_video_decode_tier). 
+The offset to the beginning of the first slice.  This offset has alignment requirements based on the tier value of the video decoder. For more information on decoding tiers, see [D3D12_VIDEO_DECODE_TIER](ne-d3d12video-d3d12_video_decode_tier.md). 
  
 ### -field Size
 

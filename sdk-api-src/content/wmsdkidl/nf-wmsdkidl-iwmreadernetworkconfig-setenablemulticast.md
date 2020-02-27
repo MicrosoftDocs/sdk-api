@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 02e3a7cc-1dcf-4aba-a18f-2056742f0777
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetEnableMulticast method, IWMReaderNetworkConfig.SetEnableMulticast, IWMReaderNetworkConfig::SetEnableMulticast, IWMReaderNetworkConfigSetEnableMulticast, SetEnableMulticast, SetEnableMulticast method [windows Media Format], SetEnableMulticast method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setenablemulticast, wmsdkidl/IWMReaderNetworkConfig::SetEnableMulticast
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderNetworkConfig.SetEnableMulticast
 dev_langs:

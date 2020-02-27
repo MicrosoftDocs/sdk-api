@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: f5838d26-1065-498c-8361-8929c07fc725
 ms.date: 12/05/2018
 ms.keywords: GetLanguageProfileDescription, GetLanguageProfileDescription method [Text Services Framework], GetLanguageProfileDescription method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],GetLanguageProfileDescription method, ITfInputProcessorProfiles.GetLanguageProfileDescription, ITfInputProcessorProfiles::GetLanguageProfileDescription, _tsf_itfinputprocessorprofiles_getlanguageprofiledescription_ref, msctf/ITfInputProcessorProfiles::GetLanguageProfileDescription, tsf.itfinputprocessorprofiles_getlanguageprofiledescription
-ms.topic: method
 f1_keywords:
 - msctf/ITfInputProcessorProfiles.GetLanguageProfileDescription
 dev_langs:

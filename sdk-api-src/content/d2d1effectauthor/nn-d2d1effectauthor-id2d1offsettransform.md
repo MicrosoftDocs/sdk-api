@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 0809C0FC-2F7B-49D8-A695-AD451C9BD17F
 ms.date: 12/05/2018
 ms.keywords: ID2D1OffsetTransform, ID2D1OffsetTransform interface [Direct2D], ID2D1OffsetTransform interface [Direct2D],described, d2d1effectauthor/ID2D1OffsetTransform, direct2d.id2d1offsettransform
-ms.topic: interface
 f1_keywords:
 - d2d1effectauthor/ID2D1OffsetTransform
 dev_langs:

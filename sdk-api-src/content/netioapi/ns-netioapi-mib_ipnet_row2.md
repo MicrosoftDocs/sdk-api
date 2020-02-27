@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: 164dbd93-4464-40f9-989a-17597102b1d8
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IPNET_ROW2, MIB_IPNET_ROW2, MIB_IPNET_ROW2 structure [MIB], NlnsDelay, NlnsIncomplete, NlnsMaximum, NlnsPermanent, NlnsProbe, NlnsReachable, NlnsStale, NlnsUnreachable, PMIB_IPNET_ROW2, PMIB_IPNET_ROW2 structure pointer [MIB], _MIB_IPNET_ROW2, mib.mib_ipnet_row2, netioapi/MIB_IPNET_ROW2, netioapi/PMIB_IPNET_ROW2'
-ms.topic: struct
 f1_keywords:
 - netioapi/MIB_IPNET_ROW2
 dev_langs:
@@ -98,7 +97,7 @@ The length, in bytes, of the physical hardware address specified by the <b>Physi
 
 Type: <b>NL_NEIGHBOR_STATE</b>
 
-The state of a network neighbor IP address as defined in RFC 2461, section 7.3.2. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84044">http://www.ietf.org/rfc/rfc2461.txt</a>. This member can be one of the values from the <b>NL_NEIGHBOR_STATE</b> enumeration type defined in the <i>Nldef.h</i> header file. 
+The state of a network neighbor IP address as defined in RFC 2461, section 7.3.2. For more information, see <a href="https://www.ietf.org/rfc/rfc2461.txt">http://www.ietf.org/rfc/rfc2461.txt</a>. This member can be one of the values from the <b>NL_NEIGHBOR_STATE</b> enumeration type defined in the <i>Nldef.h</i> header file. 
 
 <table>
 <tr>
@@ -260,7 +259,7 @@ The <b>MIB_IPNET_ROW2</b> structure is defined on Windows Vista and later.
 
 The <b>GetIpNetTable2</b> function enumerates the neighbor IP addresses on a local system and returns this information in an <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipnet_table2">MIB_IPNET_TABLE2</a> structure. 
 
-For IPv4, this includes addresses determined used the Address Resolution Protocol (ARP). For IPv6, this includes addresses determined using the Neighbor Discovery (ND) protocol for IPv6 as specified in RFC 2461. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84044">http://www.ietf.org/rfc/rfc2461.txt</a>. 
+For IPv4, this includes addresses determined used the Address Resolution Protocol (ARP). For IPv6, this includes addresses determined using the Neighbor Discovery (ND) protocol for IPv6 as specified in RFC 2461. For more information, see <a href="https://www.ietf.org/rfc/rfc2461.txt">http://www.ietf.org/rfc/rfc2461.txt</a>. 
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipnetentry2">GetIpNetEntry2</a> function retrieves a single neighbor IP address and returns this information in a <b>MIB_IPNET_ROW2</b> structure.
 

@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 4195C266-4F1D-4DD6-935E-78D07ACAA765
 ms.date: 12/05/2018
 ms.keywords: EnumSurfacesCallback, EnumSurfacesCallback callback function [DirectDraw], LPDDENUMSURFACESCALLBACK, LPDDENUMSURFACESCALLBACK callback, ddraw/EnumSurfacesCallback, directdraw.enumsurfacescallback
-ms.topic: callback
 f1_keywords:
 - ddraw/EnumSurfacesCallback
 dev_langs:

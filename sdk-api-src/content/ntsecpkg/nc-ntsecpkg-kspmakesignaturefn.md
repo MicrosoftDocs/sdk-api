@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 9db828f3-b15c-4e22-bbd8-5daa223b2be0
 ms.date: 12/05/2018
 ms.keywords: KspMakeSignatureFn, KspMakeSignatureFn callback, SpMakeSignature, SpMakeSignature callback function [Security], _ssp_spmakesignature, ntsecpkg/SpMakeSignature, security.spmakesignature
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpMakeSignature
 dev_langs:

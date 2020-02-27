@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 670bea6a-0370-4dc4-a2af-fcdbe2a6656a
 ms.date: 12/05/2018
 ms.keywords: AddAccessEntry, AddAccessEntry method [windows Media Format], AddAccessEntry method [windows Media Format],IWMAddressAccess interface, IWMAddressAccess interface [windows Media Format],AddAccessEntry method, IWMAddressAccess.AddAccessEntry, IWMAddressAccess::AddAccessEntry, IWMAddressAccessAddAccessEntry, wmformat.iwmaddressaccess_addaccessentry, wmsdkidl/IWMAddressAccess::AddAccessEntry
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMAddressAccess.AddAccessEntry
 dev_langs:

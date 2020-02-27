@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: dc288418-01e4-4737-9c63-e6e6b73b5d13
 ms.date: 12/05/2018
 ms.keywords: CloseThreadWaitChainSession, CloseThreadWaitChainSession function, base.closethreadwaitchainsession, wct/CloseThreadWaitChainSession
-ms.topic: function
 f1_keywords:
 - wct/CloseThreadWaitChainSession
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: d27844b7-a5c6-4f4c-a1db-80e031898634
 ms.date: 12/05/2018
 ms.keywords: GetLocalName, GetLocalName method [BITS], GetLocalName method [BITS],IBackgroundCopyFile interface, IBackgroundCopyFile interface [BITS],GetLocalName method, IBackgroundCopyFile.GetLocalName, IBackgroundCopyFile::GetLocalName, _drz_ibackgroundcopyfile_getlocalname, bits.ibackgroundcopyfile_getlocalname, bits/IBackgroundCopyFile::GetLocalName
-ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyFile.GetLocalName
 dev_langs:

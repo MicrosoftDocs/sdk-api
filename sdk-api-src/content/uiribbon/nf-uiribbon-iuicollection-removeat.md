@@ -7,7 +7,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\removeat.htm
 ms.date: 12/05/2018
 ms.keywords: IUICollection interface [Windows Ribbon],RemoveAt method, IUICollection.RemoveAt, IUICollection::RemoveAt, RemoveAt, RemoveAt method [Windows Ribbon], RemoveAt method [Windows Ribbon],IUICollection interface, scenicintent_IUICollection_RemoveAt, uiribbon/IUICollection::RemoveAt, windowsribbon.windowsribbon_iuicollection_removeat
-ms.topic: method
 f1_keywords:
 - uiribbon/IUICollection.RemoveAt
 dev_langs:

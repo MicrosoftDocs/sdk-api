@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 596155ee-3dcc-4ae3-97ab-0653e019cbee
 ms.date: 12/05/2018
 ms.keywords: WSASetLastError, WSASetLastError function [Winsock], _win32_wsasetlasterror_2, winsock.wsasetlasterror_2, winsock/WSASetLastError
-ms.topic: function
 f1_keywords:
 - winsock/WSASetLastError
 dev_langs:

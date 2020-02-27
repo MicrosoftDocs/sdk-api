@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: d4da0189-efe4-4ee6-4cc9-179fbda54b98
 ms.date: 12/05/2018
 ms.keywords: DownloadCompleted, DownloadCompleted method [Direct Write], DownloadCompleted method [Direct Write],IDWriteFontDownloadListener interface, IDWriteFontDownloadListener interface [Direct Write],DownloadCompleted method, IDWriteFontDownloadListener.DownloadCompleted, IDWriteFontDownloadListener::DownloadCompleted, directwrite.idwritefontdownloadlistener_downloadcompleted, dwrite_3/IDWriteFontDownloadListener::DownloadCompleted
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontDownloadListener.DownloadCompleted
 dev_langs:

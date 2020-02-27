@@ -7,7 +7,6 @@ tech.root: Recovery
 ms.assetid: 9c765f72-10ad-4d16-a9e5-d73ea5c4f59b
 ms.date: 12/05/2018
 ms.keywords: ApplicationRecoveryInProgress, ApplicationRecoveryInProgress function [Recovery], recovery.applicationrecoveryinprogress, winbase/ApplicationRecoveryInProgress
-ms.topic: function
 f1_keywords:
 - winbase/ApplicationRecoveryInProgress
 dev_langs:

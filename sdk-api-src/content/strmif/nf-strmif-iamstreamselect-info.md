@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9396d4fb-e06e-4b54-9601-fd443c81ff35
 ms.date: 12/05/2018
 ms.keywords: IAMStreamSelect interface [DirectShow],Info method, IAMStreamSelect.Info, IAMStreamSelect::Info, IAMStreamSelectInfo, Info, Info method [DirectShow], Info method [DirectShow],IAMStreamSelect interface, dshow.iamstreamselect_info, strmif/IAMStreamSelect::Info
-ms.topic: method
 f1_keywords:
 - strmif/IAMStreamSelect.Info
 dev_langs:
@@ -69,7 +68,7 @@ Zero-based index of the stream.
 
 ### -param ppmt [out]
 
-Address of a variable that receives a pointer to the stream's media type. This parameter is optional and can be <b>NULL</b>. If the value is non-<b>NULL</b>, the method returns a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure. The caller must delete the structure, including the format block. (You can use the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/deletemediatype">DeleteMediaType</a> function from the DirectShow base-class library.)
+Address of a variable that receives a pointer to the stream's media type. This parameter is optional and can be <b>NULL</b>. If the value is non-<b>NULL</b>, the method returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure. The caller must delete the structure, including the format block. (You can use the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/deletemediatype">DeleteMediaType</a> function from the DirectShow base-class library.)
 
 
 ### -param pdwFlags [out]

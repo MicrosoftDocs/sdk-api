@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 9e5ce4e8-bdd1-48c3-aa1d-b24b2b7bfb00
 ms.date: 12/05/2018
 ms.keywords: GetThreadPriority, GetThreadPriority function, _win32_getthreadpriority, base.getthreadpriority, processthreadsapi/GetThreadPriority, winbase/GetThreadPriority
-ms.topic: function
 f1_keywords:
 - processthreadsapi/GetThreadPriority
 dev_langs:

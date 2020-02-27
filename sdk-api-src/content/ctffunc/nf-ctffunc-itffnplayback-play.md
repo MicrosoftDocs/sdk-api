@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 9945bc65-fe9f-42d1-ade1-db016dc7489c
 ms.date: 12/05/2018
 ms.keywords: ITfFnPlayBack interface [Text Services Framework],Play method, ITfFnPlayBack.Play, ITfFnPlayBack::Play, Play, Play method [Text Services Framework], Play method [Text Services Framework],ITfFnPlayBack interface, _tsf_itffnplayback_play_ref, ctffunc/ITfFnPlayBack::Play, tsf.itffnplayback_play
-ms.topic: method
 f1_keywords:
 - ctffunc/ITfFnPlayBack.Play
 dev_langs:

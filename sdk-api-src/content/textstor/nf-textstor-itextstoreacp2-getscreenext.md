@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: fdc258ab-b692-495c-be76-0b41d75625e2
 ms.date: 12/05/2018
 ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetScreenExt method, ITextStoreACP2.GetScreenExt, ITextStoreACP2::GetScreenExt, textstor/ITextStoreACP2::GetScreenExt, tsf.itextstoreacp2_getscreenext
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreACP2.GetScreenExt
 dev_langs:

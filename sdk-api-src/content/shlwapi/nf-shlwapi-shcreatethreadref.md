@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6abca2df-832c-410b-93c7-5131e481e595
 ms.date: 12/05/2018
 ms.keywords: SHCreateThreadRef, SHCreateThreadRef function [Windows Shell], _shell_SHCreateThreadRef, shell.SHCreateThreadRef, shlwapi/SHCreateThreadRef
-ms.topic: function
 f1_keywords:
 - shlwapi/SHCreateThreadRef
 dev_langs:

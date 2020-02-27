@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: f4f6c935-5207-46f6-b015-c4db724113f3
 ms.date: 12/05/2018
 ms.keywords: MI_Context_GetCustomOptionAt, MI_Context_GetCustomOptionAt function [Windows Management Infrastructure (MI)], mi/MI_Context_GetCustomOptionAt, wmi.mi_getcustomoptionat, wmi_v2.mi_context_getcustomoptionat
-ms.topic: function
 f1_keywords:
 - mi/MI_Context_GetCustomOptionAt
 dev_langs:

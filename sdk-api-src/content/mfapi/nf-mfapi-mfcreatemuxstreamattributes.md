@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 946D56BC-13A2-4464-8399-22A74E26693E
 ms.date: 12/05/2018
 ms.keywords: MFCreateMuxStreamAttributes, MFCreateMuxStreamAttributes function [Media Foundation], mf.mfcreatemuxstreamattributes, mfapi/MFCreateMuxStreamAttributes
-ms.topic: function
 f1_keywords:
 - mfapi/MFCreateMuxStreamAttributes
 dev_langs:

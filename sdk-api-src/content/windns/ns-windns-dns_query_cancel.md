@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 543C6F9B-3200-44F6-A2B7-A5C7F5A927DB
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_QUERY_CANCEL, DNS_QUERY_CANCEL, DNS_QUERY_CANCEL structure [DNS], PDNS_QUERY_CANCEL, PDNS_QUERY_CANCEL structure pointer [DNS], dns.dns_query_cancel, windns/DNS_QUERY_CANCEL, windns/PDNS_QUERY_CANCEL'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_QUERY_CANCEL
 dev_langs:

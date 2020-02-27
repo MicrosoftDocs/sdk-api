@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 90ed4c81-7113-4329-ae1e-9114740b7e09
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem interface [IMAPI],get_Data method, IFsiFileItem.get_Data, IFsiFileItem::get_Data, get_Data, get_Data method [IMAPI], get_Data method [IMAPI],IFsiFileItem interface, imapi.ifsifileitem_get_data, imapi2fs/IFsiFileItem::get_Data
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFsiFileItem.get_Data
 dev_langs:

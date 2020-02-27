@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: bf4d9df2-8436-4d21-9016-7db231212155
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPISessionProperties, IRDPSRAPISessionProperties interface [RDP], IRDPSRAPISessionProperties interface [RDP],described, rdp.irdpsrapisessionproperties, rdpencomapi/IRDPSRAPISessionProperties
-ms.topic: interface
 f1_keywords:
 - rdpencomapi/IRDPSRAPISessionProperties
 dev_langs:

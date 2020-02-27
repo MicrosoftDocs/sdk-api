@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: c0b7c1c8-aa42-4d40-a7f7-99c0821c8977
 ms.date: 12/05/2018
 ms.keywords: CRYPT_FASTSGC, CRYPT_FIRST, CRYPT_NEXT, CRYPT_SGC, CRYPT_SGC_ENUM, CryptGetProvParam, CryptGetProvParam function [Security], DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, OWNER_SECURITY_INFORMATION, PP_ADMIN_PIN, PP_APPLI_CERT, PP_CERTCHAIN, PP_CHANGE_PASSWORD, PP_CONTAINER, PP_CRYPT_COUNT_KEY_USE, PP_ENUMALGS, PP_ENUMALGS_EX, PP_ENUMCONTAINERS, PP_ENUMELECTROOTS, PP_ENUMEX_SIGNING_PROT, PP_ENUMMANDROOTS, PP_IMPTYPE, PP_KEYEXCHANGE_PIN, PP_KEYSET_SEC_DESCR, PP_KEYSET_TYPE, PP_KEYSPEC, PP_KEYSTORAGE, PP_KEYX_KEYSIZE_INC, PP_KEY_TYPE_SUBTYPE, PP_NAME, PP_PROVTYPE, PP_ROOT_CERTSTORE, PP_SESSION_KEYSIZE, PP_SGC_INFO, PP_SIGNATURE_PIN, PP_SIG_KEYSIZE_INC, PP_SMARTCARD_GUID, PP_SMARTCARD_READER, PP_SYM_KEYSIZE, PP_UI_PROMPT, PP_UNIQUE_CONTAINER, PP_USER_CERTSTORE, PP_USE_HARDWARE_RNG, PP_VERSION, SACL_SECURITY_INFORMATION, _crypto2_cryptgetprovparam, security.cryptgetprovparam, wincrypt/CryptGetProvParam
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptGetProvParam
 dev_langs:
@@ -626,7 +625,7 @@ Retrieve the next element in the enumeration. When there are no more elements to
 </dl>
 </td>
 <td width="60%">
-Retrieve <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">server-gated cryptography</a> (SGC) enabled certificates. SGC enabled certificates are no longer supported. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=95434">Microsoft Support Article 875450</a>.
+Retrieve <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">server-gated cryptography</a> (SGC) enabled certificates. SGC enabled certificates are no longer supported. For more information, see <a href="https://support.microsoft.com/kb/875450">Microsoft Support Article 875450</a>.
 
 </td>
 </tr>

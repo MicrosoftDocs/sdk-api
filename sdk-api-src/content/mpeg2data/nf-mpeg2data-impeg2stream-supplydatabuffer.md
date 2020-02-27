@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 68950eba-6c23-49f7-9651-d4db9e554de3
 ms.date: 12/05/2018
 ms.keywords: IMpeg2Stream interface [Microsoft TV Technologies],SupplyDataBuffer method, IMpeg2Stream.SupplyDataBuffer, IMpeg2Stream::SupplyDataBuffer, IMpeg2StreamSupplyDataBuffer, SupplyDataBuffer, SupplyDataBuffer method [Microsoft TV Technologies], SupplyDataBuffer method [Microsoft TV Technologies],IMpeg2Stream interface, mpeg2data/IMpeg2Stream::SupplyDataBuffer, mstv.impeg2stream_supplydatabuffer
-ms.topic: method
 f1_keywords:
 - mpeg2data/IMpeg2Stream.SupplyDataBuffer
 dev_langs:

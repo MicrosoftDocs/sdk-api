@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\getfillmode.htm
 ms.date: 12/05/2018
 ms.keywords: GetFillMode, GetFillMode method [GDI+], GetFillMode method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetFillMode method, GraphicsPath.GetFillMode, GraphicsPath::GetFillMode, _gdiplus_CLASS_GraphicsPath_GetFillMode_, gdiplus._gdiplus_CLASS_GraphicsPath_GetFillMode_
-ms.topic: method
 f1_keywords:
 - gdipluspath/GraphicsPath.GetFillMode
 dev_langs:

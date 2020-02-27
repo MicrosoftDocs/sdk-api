@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: d8a8b9e3-c455-4813-b812-263efe7f5e3e
 ms.date: 12/05/2018
 ms.keywords: '*PPEER_DATA, PEER_DATA, PEER_DATA structure [Peer Networking], PPEER_DATA, PPEER_DATA structure pointer [Peer Networking], p2p.peer_data, p2p/PPEER_DATA, p2p/peer_data_tag'
-ms.topic: struct
 f1_keywords:
 - p2p/PEER_DATA
 dev_langs:

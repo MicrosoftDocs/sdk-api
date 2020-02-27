@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 176958F9-94C8-4F80-B9A4-96BC9634292E
 ms.date: 12/05/2018
 ms.keywords: IDXGIAdapter4, IDXGIAdapter4 interface [DXGI], IDXGIAdapter4 interface [DXGI],described, direct3ddxgi.idxgiadapter4, dxgi1_6/IDXGIAdapter4
-ms.topic: interface
 f1_keywords:
 - dxgi1_6/IDXGIAdapter4
 dev_langs:

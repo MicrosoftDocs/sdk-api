@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 9BB81F38-8451-4D3B-B0B6-31AF3001AB17
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleWriter4, IAppxBundleWriter4 interface [App packaging and management], IAppxBundleWriter4 interface [App packaging and management],described, appxpackaging/IAppxBundleWriter4, appxpkg.iappxbundlewriter4
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxBundleWriter4
 dev_langs:

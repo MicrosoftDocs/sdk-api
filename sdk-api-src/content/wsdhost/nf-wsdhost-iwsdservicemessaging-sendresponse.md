@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: ec136c44-b8f5-42db-a965-2dd5b3cd18ad
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceMessaging interface,SendResponse method, IWSDServiceMessaging.SendResponse, IWSDServiceMessaging::SendResponse, SendResponse, SendResponse method, SendResponse method,IWSDServiceMessaging interface, ncd.iwsdservicemessaging_sendresponse, wsdhost/IWSDServiceMessaging::SendResponse
-ms.topic: method
 f1_keywords:
 - wsdhost/IWSDServiceMessaging.SendResponse
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 00047426-11b6-4b68-8a44-45608611eafe
 ms.date: 12/05/2018
 ms.keywords: MibGetNext, MibGetNext callback function [RAS], PMIB_GET_NEXT, PMIB_GET_NEXT callback, _mpr_mibgetnext, routprot/MibGetNext, rras.mibgetnext
-ms.topic: callback
 f1_keywords:
 - routprot/MibGetNext
 dev_langs:

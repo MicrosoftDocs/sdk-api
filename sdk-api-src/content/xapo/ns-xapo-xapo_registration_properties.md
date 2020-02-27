@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapo.XAPO_REGISTRATION_PROPERTIES
 ms.date: 12/05/2018
 ms.keywords: XAPO_REGISTRATION_PROPERTIES, XAPO_REGISTRATION_PROPERTIES structure [XAudio2 Audio Mixing APIs], xapo/XAPO_REGISTRATION_PROPERTIES, xaudio2.xapo_registration_properties
-ms.topic: struct
 f1_keywords:
 - xapo/XAPO_REGISTRATION_PROPERTIES
 dev_langs:
@@ -132,7 +131,7 @@ For example, consider an effect which may be ran in stereo to 5.1 mode or
 <tr>
 <td>XAPO_FLAG_BUFFERCOUNT_MUST_MATCH</td>
 <td>Number of input and output buffers must match, applies to 
-     			<a href="https://docs.microsoft.com/windows/desktop/api/xapo/ns-xapo-xapo_lockforprocess_buffer_parameters">XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS</a>. When the XAPO_FLAG_BUFFERCOUNT_MUST_MATCH flag is set
+     			<a href="/windows/win32/api/xapo/ns-xapo-xapo_lockforprocess_parameters">XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS</a>. When the XAPO_FLAG_BUFFERCOUNT_MUST_MATCH flag is set
             <b>XAPO_REGISTRATION_PROPERTIES</b>.<b>MinInputBufferCount</b> must equal
             <b>XAPO_REGISTRATION_PROPERTIES</b>.<b>MinOutputBufferCount</b> and
             <b>XAPO_REGISTRATION_PROPERTIES</b>.<b>MaxInputBufferCount</b> must equal

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: fb75930d-8e1b-4e97-87f2-bb9d171658a8
 ms.date: 12/05/2018
 ms.keywords: GetParamInfo, GetParamInfo method [COM], GetParamInfo method [COM],ICallFrame interface, ICallFrame interface [COM],GetParamInfo method, ICallFrame.GetParamInfo, ICallFrame::GetParamInfo, _com_icallframe_getparaminfo, callobj/ICallFrame::GetParamInfo, com.icallframe_getparaminfo
-ms.topic: method
 f1_keywords:
 - callobj/ICallFrame.GetParamInfo
 dev_langs:

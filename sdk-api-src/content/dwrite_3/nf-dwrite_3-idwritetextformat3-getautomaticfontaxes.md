@@ -5,7 +5,6 @@ description: Retrieves the automatic axis options.
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteTextFormat3 interface [Direct Write],GetAutomaticFontAxes method, IDWriteTextFormat3.GetAutomaticFontAxes, IDWriteTextFormat3::GetAutomaticFontAxes, GetAutomaticFontAxes, GetAutomaticFontAxes method [Direct Write], GetAutomaticFontAxes method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_getautomaticfontaxes, dwrite_3/IDWriteTextFormat3::GetAutomaticFontAxes
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteTextFormat3.GetAutomaticFontAxes
 dev_langs:

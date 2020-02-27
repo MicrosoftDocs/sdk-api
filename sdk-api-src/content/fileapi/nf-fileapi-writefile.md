@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 9d6fa723-fe3e-4052-b0b3-2686eee076a7
 ms.date: 12/05/2018
 ms.keywords: WriteFile, WriteFile function [Files], _win32_writefile, base.writefile, fileapi/WriteFile, fs.writefile, winbase/WriteFile
-ms.topic: function
 f1_keywords:
 - fileapi/WriteFile
 dev_langs:
@@ -359,7 +358,7 @@ If <i>hFile</i> is opened with <b>FILE_FLAG_OVERLAPPED</b>, it is an
 <div class="alert"><b>Note</b>  If a  file or device is opened for asynchronous I/O, subsequent calls to functions such as 
       <b>WriteFile</b> using that handle generally return immediately, 
       but can also behave synchronously with respect to blocked execution. For more information, see 
-      <a href="Http://go.microsoft.com/fwlink/p/?linkid=116863">http://support.microsoft.com/kb/156932</a>.</div>
+      <a href="https://support.microsoft.com/kb/156932">http://support.microsoft.com/kb/156932</a>.</div>
 <div> </div>
 Considerations for working with asynchronous file handles:
 

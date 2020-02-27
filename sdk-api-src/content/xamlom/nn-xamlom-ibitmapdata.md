@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: 5B833E2A-D150-4ECA-88C8-CEEDBF2E23C6
 ms.date: 12/05/2018
 ms.keywords: IBitmapData, IBitmapData interface, IBitmapData interface,described, xaml_diagnostics.ibitmapdata, xamlom/IBitmapData
-ms.topic: interface
 f1_keywords:
 - xamlom/IBitmapData
 dev_langs:

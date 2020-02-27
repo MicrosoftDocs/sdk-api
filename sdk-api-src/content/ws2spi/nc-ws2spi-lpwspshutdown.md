@@ -4,7 +4,6 @@ title: LPWSPSHUTDOWN
 description: The LPWSPShutdown function disables sends and/or receives on a socket.
 ms.date: 9/12/2019
 ms.keywords: LPWSPSHUTDOWN
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -61,7 +60,7 @@ If no error occurs, **LPWSPShutdown** returns zero. Otherwise, a value of SOCKET
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETDOWN">WSAENETDOWN</a></dt>
+<dt><a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETDOWN">WSAENETDOWN</a></dt>
 </dl>
 </td>
 <td width="60%">
@@ -72,7 +71,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINVAL">WSAEINVAL</a></dt>
+<dt><a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINVAL">WSAEINVAL</a></dt>
 </dl>
 </td>
 <td width="60%">
@@ -83,7 +82,7 @@ The <i>how</i> is not valid, or is not consistent with the socket type. For exam
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINPROGRESS">WSAEINPROGRESS</a></dt>
+<dt><a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINPROGRESS">WSAEINPROGRESS</a></dt>
 </dl>
 </td>
 <td width="60%">
@@ -94,7 +93,7 @@ Function is invoked when a callback is in progress.
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTCONN">WSAENOTCONN</a></dt>
+<dt><a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTCONN">WSAENOTCONN</a></dt>
 </dl>
 </td>
 <td width="60%">
@@ -105,7 +104,7 @@ Socket is not connected (connection-oriented sockets only).
 <tr>
 <td width="40%">
 <dl>                                              
-<dt><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></dt>
+<dt><a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></dt>
 </dl>
 </td>
 <td width="60%">
@@ -121,13 +120,13 @@ If <i>how</i> is SD_RECEIVE, subsequent receives on the socket will be disallowe
 
 If <i>how</i> is SD_SEND, subsequent sends on the socket are disallowed. For TCP sockets, a FIN will be sent. Setting <i>how</i> to SD_BOTH disables both sends and receives as described above.
 
-Note that **LPWSPShutdown** does not close the socket, and resources attached to the socket will not be freed until <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b> is invoked.
+Note that **LPWSPShutdown** does not close the socket, and resources attached to the socket will not be freed until <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b> is invoked.
 
 > [!Note]  
-> The **LPWSPShutdown** function does not block regardless of the SO_LINGER setting on the socket. A Windows Sockets SPI client should not rely on being able to reuse a socket after it has been shut down. In particular, a Windows Sockets service provider is not required to support the use of <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> on such a socket.
+> The **LPWSPShutdown** function does not block regardless of the SO_LINGER setting on the socket. A Windows Sockets SPI client should not rely on being able to reuse a socket after it has been shut down. In particular, a Windows Sockets service provider is not required to support the use of <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> on such a socket.
 ## -see-also
 
-<b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b>
+<b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b>
    
 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
+<a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>

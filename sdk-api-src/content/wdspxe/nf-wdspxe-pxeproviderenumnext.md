@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: a76f2d7a-daf4-4258-9c6d-fd0d562f7efe
 ms.date: 12/05/2018
 ms.keywords: PxeProviderEnumNext, PxeProviderEnumNext function [Windows Deployment Services], wds.pxeproviderenumnext, wdspxe/PxeProviderEnumNext
-ms.topic: function
 f1_keywords:
 - wdspxe/PxeProviderEnumNext
 dev_langs:

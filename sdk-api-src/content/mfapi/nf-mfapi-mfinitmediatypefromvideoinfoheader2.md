@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 4077ae40-75b2-4c45-b62e-740e216ebf89
 ms.date: 12/05/2018
 ms.keywords: 4077ae40-75b2-4c45-b62e-740e216ebf89, MFInitMediaTypeFromVideoInfoHeader2, MFInitMediaTypeFromVideoInfoHeader2 function [Media Foundation], mf.mfinitmediatypefromvideoinfoheader2, mfapi/MFInitMediaTypeFromVideoInfoHeader2
-ms.topic: function
 f1_keywords:
 - mfapi/MFInitMediaTypeFromVideoInfoHeader2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: c9319997-6c8f-4e2c-9401-ad269e3db8c8
 ms.date: 12/05/2018
 ms.keywords: CreatePackage, CreatePackage method [XPS Documents and Packaging], CreatePackage method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackage method, IXpsOMObjectFactory.CreatePackage, IXpsOMObjectFactory::CreatePackage, xps.ixpsomobjectfactory_createpackage, xpsobjectmodel/IXpsOMObjectFactory::CreatePackage
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreatePackage
 dev_langs:
@@ -167,7 +166,7 @@ For information about using <a href="https://docs.microsoft.com/windows/desktop/
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

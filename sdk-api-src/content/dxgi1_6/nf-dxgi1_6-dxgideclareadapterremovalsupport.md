@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 602EA66C-6D3D-4604-822C-DBD66EB70C3C
 ms.date: 12/05/2018
 ms.keywords: DXGIDeclareAdapterRemovalSupport, DXGIDeclareAdapterRemovalSupport function [DXGI], direct3ddxgi.dxgideclareadapterremovalsupport, dxgi1_6/DXGIDeclareAdapterRemovalSupport
-ms.topic: function
 f1_keywords:
 - dxgi1_6/DXGIDeclareAdapterRemovalSupport
 dev_langs:

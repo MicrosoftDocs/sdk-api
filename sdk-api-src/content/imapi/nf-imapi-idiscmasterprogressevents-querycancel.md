@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: ca7ad8cb-0792-41ec-be5b-147be6750442
 ms.date: 12/05/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],QueryCancel method, IDiscMasterProgressEvents.QueryCancel, IDiscMasterProgressEvents::QueryCancel, QueryCancel, QueryCancel method [IMAPI], QueryCancel method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_querycancel, base.idiscmasterprogressevents_querycancel, imapi.idiscmasterprogressevents_querycancel, imapi/IDiscMasterProgressEvents::QueryCancel
-ms.topic: method
 f1_keywords:
 - imapi/IDiscMasterProgressEvents.QueryCancel
 dev_langs:

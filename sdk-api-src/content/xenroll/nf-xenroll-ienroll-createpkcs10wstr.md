@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: ebbcc9ad-9f87-4abe-963b-38c57a60e45e
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],createPKCS10WStr method, IEnroll.createPKCS10WStr, IEnroll::createPKCS10WStr, createPKCS10WStr, createPKCS10WStr method [Security], createPKCS10WStr method [Security],IEnroll interface, security.ienroll4_createpkcs10wstr, xenroll/IEnroll::createPKCS10WStr
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll.createPKCS10WStr
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: 1f0e8ee6-cd9e-468a-ba9a-f11e17852f89
 ms.date: 12/05/2018
 ms.keywords: DevicePowerOpen, DevicePowerOpen function, base.devicepoweropen, powrprof/DevicePowerOpen
-ms.topic: function
 f1_keywords:
 - powrprof/DevicePowerOpen
 dev_langs:

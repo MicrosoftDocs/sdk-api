@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 23F37D9C-3D33-4A07-AC54-5273A09BF540
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetOutputAlphaFillMode method, ID3D11VideoContext.VideoProcessorGetOutputAlphaFillMode, ID3D11VideoContext::VideoProcessorGetOutputAlphaFillMode, VideoProcessorGetOutputAlphaFillMode, VideoProcessorGetOutputAlphaFillMode method [Media Foundation], VideoProcessorGetOutputAlphaFillMode method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetOutputAlphaFillMode, mf.id3d11videocontext_videoprocessorgetoutputalphafillmode
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11VideoContext.VideoProcessorGetOutputAlphaFillMode
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 9acee83e-a16c-4511-a1e3-ce653ed09535
 ms.date: 12/05/2018
 ms.keywords: IFeedClockVector, IFeedClockVector interface [Windows Sync], IFeedClockVector interface [Windows Sync],described, winsync.ifeedclockvector, winsync/IFeedClockVector
-ms.topic: interface
 f1_keywords:
 - winsync/IFeedClockVector
 dev_langs:

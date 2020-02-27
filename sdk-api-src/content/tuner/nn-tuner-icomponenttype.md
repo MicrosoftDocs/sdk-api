@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: e83bbbbe-64a9-4ed3-9c32-925ca80c2c38
 ms.date: 12/05/2018
 ms.keywords: IComponentType, IComponentType interface [Microsoft TV Technologies], IComponentType interface [Microsoft TV Technologies],described, IComponentTypeInterface, mstv.icomponenttype, tuner/IComponentType
-ms.topic: interface
 f1_keywords:
 - tuner/IComponentType
 dev_langs:
@@ -148,7 +147,7 @@ Retrieves the DirectShow media subtype as a <b>BSTR</b>.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponenttype-get_mediatype">get_MediaType</a>
 </td>
 <td align="left" width="63%">
-Retrieves the DirectShow <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> media type structure for the component.
+Retrieves the DirectShow <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> media type structure for the component.
 
 </td>
 </tr>
@@ -220,7 +219,7 @@ Sets the subtype member for the component.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponenttype-put_mediatype">put_MediaType</a>
 </td>
 <td align="left" width="63%">
-Sets the DirectShow <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> media type structure for the component.
+Sets the DirectShow <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> media type structure for the component.
 
 </td>
 </tr>

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 23b83339-f712-4b49-91f9-d0a1b02d64af
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],ViewNext method, IMSVidCtl.ViewNext, IMSVidCtl::ViewNext, IMSVidCtlViewNext, ViewNext, ViewNext method [Microsoft TV Technologies], ViewNext method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_viewnext, msvidctl/IMSVidCtl::ViewNext
-ms.topic: method
 f1_keywords:
 - msvidctl/IMSVidCtl.ViewNext
 dev_langs:

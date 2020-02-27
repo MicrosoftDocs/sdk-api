@@ -7,7 +7,6 @@ tech.root: WebSock
 ms.assetid: 0ee21ee8-1375-4b42-8d04-64368e299b3e
 ms.date: 12/05/2018
 ms.keywords: WebSocketDeleteHandle, WebSocketDeleteHandle function [Websocket Protocol Component API], websock.websocketdeletehandle, websocket/WebSocketDeleteHandle
-ms.topic: function
 f1_keywords:
 - websocket/WebSocketDeleteHandle
 dev_langs:

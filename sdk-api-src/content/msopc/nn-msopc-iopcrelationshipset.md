@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 6259906d-820d-4b6e-bbeb-d9d044f2b35a
 ms.date: 12/05/2018
 ms.keywords: IOpcRelationshipSet, IOpcRelationshipSet interface [Open Packaging Conventions], IOpcRelationshipSet interface [Open Packaging Conventions],described, msopc/IOpcRelationshipSet, opc.iopcrelationshipset
-ms.topic: interface
 f1_keywords:
 - msopc/IOpcRelationshipSet
 dev_langs:
@@ -170,7 +169,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
 
 

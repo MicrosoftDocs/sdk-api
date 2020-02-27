@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 18825029-2035-46b3-a6a5-9edd8e0437c6
 ms.date: 12/05/2018
 ms.keywords: GetMonitor, GetMonitor method [DirectShow], GetMonitor method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetMonitor method, IFullScreenVideoEx.GetMonitor, IFullScreenVideoEx::GetMonitor, IFullScreenVideoGetMonitor, amvideo/IFullScreenVideoEx::GetMonitor, dshow.ifullscreenvideoex_getmonitor
-ms.topic: method
 f1_keywords:
 - amvideo/IFullScreenVideoEx.GetMonitor
 dev_langs:

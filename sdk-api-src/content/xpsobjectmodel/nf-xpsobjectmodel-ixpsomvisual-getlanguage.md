@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 22cddce5-f881-4585-9ab8-d8cdce06511f
 ms.date: 12/05/2018
 ms.keywords: GetLanguage, GetLanguage method [XPS Documents and Packaging], GetLanguage method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetLanguage method, IXpsOMVisual.GetLanguage, IXpsOMVisual::GetLanguage, xps.ixpsomvisual_getlanguage, xpsobjectmodel/IXpsOMVisual::GetLanguage
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.GetLanguage
 dev_langs:
@@ -124,11 +123,11 @@ Internet Engineering Task Force (IETF) RFC 3066 specifies the recommended encodi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

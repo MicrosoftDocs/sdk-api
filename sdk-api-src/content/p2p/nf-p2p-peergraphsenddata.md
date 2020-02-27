@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 8ccb6f37-cb1b-41fd-a852-5a84cb5506f5
 ms.date: 12/05/2018
 ms.keywords: PeerGraphSendData, PeerGraphSendData function [Peer Networking], p2p.peergraphsenddata, p2p/PeerGraphSendData
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphSendData
 dev_langs:

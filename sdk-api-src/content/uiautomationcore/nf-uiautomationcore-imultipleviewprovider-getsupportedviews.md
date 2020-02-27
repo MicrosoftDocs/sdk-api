@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: fd4d5616-c126-455e-84e7-e62e24daf8f9
 ms.date: 12/05/2018
 ms.keywords: GetSupportedViews, GetSupportedViews method [Windows Accessibility], GetSupportedViews method [Windows Accessibility],IMultipleViewProvider interface, IMultipleViewProvider interface [Windows Accessibility],GetSupportedViews method, IMultipleViewProvider.GetSupportedViews, IMultipleViewProvider::GetSupportedViews, uiauto.uiauto_IMultipleViewProvider_GetSupportedViews, uiauto_IMultipleViewProvider_GetSupportedViews, uiautomationcore/IMultipleViewProvider::GetSupportedViews, winauto.uiauto_IMultipleViewProvider_GetSupportedViews
-ms.topic: method
 f1_keywords:
 - uiautomationcore/IMultipleViewProvider.GetSupportedViews
 dev_langs:
@@ -60,7 +59,7 @@ Retrieves a collection of control-specific view identifiers.
 
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives a collection of control-specific integer values that identify the views available for a UI Automation element.
 				This parameter is passed uninitialized.

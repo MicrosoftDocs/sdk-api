@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: c10a501c-cc25-4586-a62a-7c7be207cbd9
 ms.date: 12/05/2018
 ms.keywords: FindOrCreateNameCache, FindOrCreateNameCache function [Windows API], filehc/FindOrCreateNameCache, winprog._findorcreatenamecache
-ms.topic: function
 f1_keywords:
 - filehc/FindOrCreateNameCache
 dev_langs:

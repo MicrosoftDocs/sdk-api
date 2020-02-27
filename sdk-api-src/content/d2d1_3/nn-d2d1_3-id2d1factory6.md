@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 79656026-7197-4EF4-A8DD-7E65D43D1F18
 ms.date: 12/05/2018
 ms.keywords: ID2D1Factory6, ID2D1Factory6 interface [Direct2D], ID2D1Factory6 interface [Direct2D],described, d2d1_3/ID2D1Factory6, direct2d.id2d1factory6
-ms.topic: interface
 f1_keywords:
 - d2d1_3/ID2D1Factory6
 dev_langs:

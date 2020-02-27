@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 8761bb58-9f28-4fe6-bf24-2687608ec5e8
 ms.date: 12/05/2018
 ms.keywords: IClientSecurity interface [COM],QueryBlanket method, IClientSecurity.QueryBlanket, IClientSecurity::QueryBlanket, QueryBlanket, QueryBlanket method [COM], QueryBlanket method [COM],IClientSecurity interface, _com_iclientsecurity_queryblanket, com.iclientsecurity_queryblanket, objidlbase/IClientSecurity::QueryBlanket
-ms.topic: method
 f1_keywords:
 - objidl/IClientSecurity.QueryBlanket
 dev_langs:
@@ -154,7 +153,7 @@ There is insufficient memory to create the <i>pServerPrincName</i> buffer.
 
 
 
-<b>QueryBlanket</b> is called by the client to retrieve the authentication information COM will use on calls made from the specified interface proxy. With a pointer to an interface on the proxy, the client would first call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> for a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a>; then, with this pointer, the client would call <b>QueryBlanket</b>, followed by releasing the pointer. This sequence of calls is encapsulated in the helper function <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coqueryproxyblanket">CoQueryProxyBlanket</a>.
+<b>QueryBlanket</b> is called by the client to retrieve the authentication information COM will use on calls made from the specified interface proxy. With a pointer to an interface on the proxy, the client would first call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a>; then, with this pointer, the client would call <b>QueryBlanket</b>, followed by releasing the pointer. This sequence of calls is encapsulated in the helper function <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coqueryproxyblanket">CoQueryProxyBlanket</a>.
 
 In <i>pProxy</i>, you pass an interface pointer. However, you cannot pass a pointer to an interface that does not use a proxy. Thus you cannot pass a pointer to an interface that has the local keyword in its interface definition since no proxy is created for such an interface. <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> is the exception to this rule.
 

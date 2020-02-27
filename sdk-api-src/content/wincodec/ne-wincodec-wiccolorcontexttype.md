@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 30fab53b-8edf-488c-a6f2-5224b94e0500
 ms.date: 12/05/2018
 ms.keywords: WICColorContextExifColorSpace, WICColorContextProfile, WICColorContextType, WICColorContextType enumeration [Windows Imaging Component], WICColorContextUninitialized, _wic_codec_wiccolorcontexttype, wic._wic_codec_wiccolorcontexttype, wincodec/WICColorContextExifColorSpace, wincodec/WICColorContextProfile, wincodec/WICColorContextType, wincodec/WICColorContextUninitialized
-ms.topic: enum
 f1_keywords:
 - wincodec/WICColorContextType
 dev_langs:

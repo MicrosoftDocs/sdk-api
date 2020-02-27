@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 4445809f-1aad-4d76-9199-4d5246c7c83d
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendeeDisconnectInfo interface [RDP],Reason property, IRDPSRAPIAttendeeDisconnectInfo.Reason, IRDPSRAPIAttendeeDisconnectInfo.get_Reason, IRDPSRAPIAttendeeDisconnectInfo::Reason, IRDPSRAPIAttendeeDisconnectInfo::get_Reason, RDPSRAPIAttendeeDisconnectInfo object [RDP],Reason property, Reason property [RDP], Reason property [RDP],IRDPSRAPIAttendeeDisconnectInfo interface, Reason property [RDP],RDPSRAPIAttendeeDisconnectInfo object, get_Reason, rdp.irdpsrapiattendeedisconnectinfo_reason, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::Reason, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::get_Reason
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo.Reason
 dev_langs:

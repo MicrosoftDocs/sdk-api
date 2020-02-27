@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a280d183-9215-43c2-bba3-63c34ba33285
 ms.date: 12/05/2018
 ms.keywords: AppendRoot, AppendRoot method [Windows Shell], AppendRoot method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],AppendRoot method, INameSpaceTreeControl.AppendRoot, INameSpaceTreeControl::AppendRoot, NSTCRS_EXPANDED, NSTCRS_HIDDEN, NSTCRS_VISIBLE, _shell_INameSpaceTreeControl_AppendRoot, shell.INameSpaceTreeControl_AppendRoot, shobjidl_core/INameSpaceTreeControl::AppendRoot
-ms.topic: method
 f1_keywords:
 - shobjidl_core/INameSpaceTreeControl.AppendRoot
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 79168baf-26ea-4d24-b75c-d0658a56892c
 ms.date: 12/05/2018
 ms.keywords: CreateDiscardableBitmap, CreateDiscardableBitmap function [Windows GDI], _win32_CreateDiscardableBitmap, gdi.creatediscardablebitmap, wingdi/CreateDiscardableBitmap
-ms.topic: function
 f1_keywords:
 - wingdi/CreateDiscardableBitmap
 dev_langs:

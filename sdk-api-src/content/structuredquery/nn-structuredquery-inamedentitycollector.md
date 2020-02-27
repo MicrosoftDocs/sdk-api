@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentitycollector\inamedentitycollector.htm
 ms.date: 12/05/2018
 ms.keywords: INamedEntityCollector, INamedEntityCollector interface [search], INamedEntityCollector interface [search],described, _search_INamedEntityCollector, search._search_INamedEntityCollector, structuredquery/INamedEntityCollector
-ms.topic: interface
 f1_keywords:
 - structuredquery/INamedEntityCollector
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 3a615e25-51d0-49eb-ae0f-185fd3a0ea23
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],ProtocolComplete method, IWTSProtocolLicenseConnection.ProtocolComplete, IWTSProtocolLicenseConnection::ProtocolComplete, ProtocolComplete, ProtocolComplete method [Remote Desktop Services], ProtocolComplete method [Remote Desktop Services],IWTSProtocolLicenseConnection interface, termserv.iwtsprotocollicenseconnection_protocolcomplete, wtsprotocol/IWTSProtocolLicenseConnection::ProtocolComplete
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolLicenseConnection.ProtocolComplete
 dev_langs:

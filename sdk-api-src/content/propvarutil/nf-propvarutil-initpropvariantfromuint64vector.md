@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 17c52a7d-c3d3-4132-8f44-7d0b250aa7ad
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromUInt64Vector, InitPropVariantFromUInt64Vector function [Windows Properties], properties.InitPropVariantFromUInt64Vector, propvarutil/InitPropVariantFromUInt64Vector, shell.InitPropVariantFromUInt64Vector, shell_InitPropVariantFromUInt64Vector
-ms.topic: function
 f1_keywords:
 - propvarutil/InitPropVariantFromUInt64Vector
 dev_langs:

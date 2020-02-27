@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 9ed31493-832a-4f66-bb95-02ef1ad7ca15
 ms.date: 12/05/2018
 ms.keywords: INDESPolicy, INDESPolicy interface [Security], INDESPolicy interface [Security],described, certpol/INDESPolicy, security.indespolicy
-ms.topic: interface
 f1_keywords:
 - certpol/INDESPolicy
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: d23ebe6c-36a3-434a-a0fa-fcdf50dd19a0
 ms.date: 12/05/2018
 ms.keywords: '*PTOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP structure pointer [Security], TOKEN_PRIMARY_GROUP, TOKEN_PRIMARY_GROUP structure [Security], _TOKEN_PRIMARY_GROUP, _win32_token_primary_group_str, security.token_primary_group, winnt/PTOKEN_PRIMARY_GROUP, winnt/TOKEN_PRIMARY_GROUP'
-ms.topic: struct
 f1_keywords:
 - winnt/TOKEN_PRIMARY_GROUP
 dev_langs:

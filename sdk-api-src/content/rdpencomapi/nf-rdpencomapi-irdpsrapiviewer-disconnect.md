@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 526b91aa-a5b9-4ee9-873f-ca23c4633d21
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [RDP], Disconnect method [RDP],IRDPSRAPIViewer interface, IRDPSRAPIViewer interface [RDP],Disconnect method, IRDPSRAPIViewer.Disconnect, IRDPSRAPIViewer::Disconnect, rdp.irdpsrapiviewer_disconnect, rdpencomapi/IRDPSRAPIViewer::Disconnect
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPIViewer.Disconnect
 dev_langs:

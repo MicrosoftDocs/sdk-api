@@ -7,7 +7,6 @@ tech.root: iSCSIDisc
 ms.assetid: d13975f9-58d0-425c-a2de-a0d1d70850d3
 ms.date: 12/05/2018
 ms.keywords: '*PISCSI_UNIQUE_CONNECTION_ID, *PISCSI_UNIQUE_SESSION_ID, ISCSI_UNIQUE_CONNECTION_ID, ISCSI_UNIQUE_SESSION_ID, ISCSI_UNIQUE_SESSION_ID structure [iSCSI Discovery Library API], _ISCSI_UNIQUE_SESSION_ID, iscsidisc.iscsi_unique_session_id, iscsidsc/ISCSI_UNIQUE_SESSION_ID'
-ms.topic: struct
 f1_keywords:
 - iscsidsc/ISCSI_UNIQUE_SESSION_ID
 dev_langs:

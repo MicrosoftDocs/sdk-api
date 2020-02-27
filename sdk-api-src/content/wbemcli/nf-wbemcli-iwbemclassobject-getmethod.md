@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: d4775fe0-62bf-40a6-8e2c-7bc8c3d92e1f
 ms.date: 12/05/2018
 ms.keywords: GetMethod, GetMethod method [Windows Management Instrumentation], GetMethod method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetMethod method, IWbemClassObject.GetMethod, IWbemClassObject::GetMethod, _hmm_iwbemclassobject_getmethod, wbemcli/IWbemClassObject::GetMethod, wmi.iwbemclassobject_getmethod
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemClassObject.GetMethod
 dev_langs:

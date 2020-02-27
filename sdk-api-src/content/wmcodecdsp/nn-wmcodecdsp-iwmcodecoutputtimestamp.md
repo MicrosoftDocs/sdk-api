@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 0dbac3fa-7521-434d-aa0a-2e8422c3da59
 ms.date: 12/05/2018
 ms.keywords: IWMCodecOutputTimestamp, IWMCodecOutputTimestamp interface [Media Foundation], IWMCodecOutputTimestamp interface [Media Foundation],described, codecapi.iwmcodecoutputtimestampinterface, mf.iwmcodecoutputtimestampinterface, wmcodecdsp/IWMCodecOutputTimestamp
-ms.topic: interface
 f1_keywords:
 - wmcodecdsp/IWMCodecOutputTimestamp
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Gets the time stamp of the  next video frame to be decoded.
 
-This interface is implemented by the video decoders. You can obtain a pointer to <b>IWMCodecOutputTimestamp</b> by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of any other interface of the decoder object, such as <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>.
+This interface is implemented by the video decoders. You can obtain a pointer to <b>IWMCodecOutputTimestamp</b> by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of any other interface of the decoder object, such as <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>.
 
 
 ## -inheritance

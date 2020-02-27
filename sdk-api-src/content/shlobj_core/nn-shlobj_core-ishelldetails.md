@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c31409fd-9350-46bb-a8a0-85d5958c6e49
 ms.date: 12/05/2018
 ms.keywords: IShellDetails, IShellDetails interface [Windows Shell], IShellDetails interface [Windows Shell],described, _win32_IShellDetails, shell.IShellDetails, shlobj_core/IShellDetails
-ms.topic: interface
 f1_keywords:
 - shlobj_core/IShellDetails
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1563488a-e4e5-472d-b665-5bbcb13fad1a
 ms.date: 12/05/2018
 ms.keywords: COLORKEY, COLORKEY structure [DirectShow], COLORKEYStructure, dshow.colorkey, strmif/COLORKEY
-ms.topic: struct
 f1_keywords:
 - strmif/COLORKEY
 dev_langs:

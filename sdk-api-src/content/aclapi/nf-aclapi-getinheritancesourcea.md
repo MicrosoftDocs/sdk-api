@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: ccc1702b-e414-4831-ae8b-fd92499bec94
 ms.date: 12/05/2018
 ms.keywords: GetInheritanceSource, GetInheritanceSource function [Security], GetInheritanceSourceA, GetInheritanceSourceW, _win32_getinheritancesource, aclapi/GetInheritanceSource, aclapi/GetInheritanceSourceA, aclapi/GetInheritanceSourceW, security.getinheritancesource
-ms.topic: function
 f1_keywords:
 - aclapi/GetInheritanceSource
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 60cd2b46-14f7-4a06-a1e7-5b2aa9a1f05c
 ms.date: 12/05/2018
 ms.keywords: 60cd2b46-14f7-4a06-a1e7-5b2aa9a1f05c, IStylusPlugin interface [Tablet PC],StylusButtonDown method, IStylusPlugin.StylusButtonDown, IStylusPlugin::StylusButtonDown, StylusButtonDown, StylusButtonDown method [Tablet PC], StylusButtonDown method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::StylusButtonDown, tablet.istylusplugin_stylusbuttondown
-ms.topic: method
 f1_keywords:
 - rtscom/IStylusPlugin.StylusButtonDown
 dev_langs:

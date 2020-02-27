@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 479aede8-e9e3-42c2-9081-94c150c7f274
 ms.date: 12/05/2018
 ms.keywords: InterlockedExchangePointer, InterlockedExchangePointer function, _win32_interlockedexchangepointer, base.interlockedexchangepointer, winnt/InterlockedExchangePointer
-ms.topic: function
 f1_keywords:
 - winnt/InterlockedExchangePointer
 dev_langs:
@@ -107,7 +106,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedcompareexchange">InterlockedCompareExchange</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange">InterlockedCompareExchange</a>
 
 
 

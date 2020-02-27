@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 9f52d1e9-61d9-4f67-b180-c1844b4eb7f1
 ms.date: 12/05/2018
 ms.keywords: IMcastAddressAllocation interface [TAPI 2.2],RenewAddress method, IMcastAddressAllocation.RenewAddress, IMcastAddressAllocation::RenewAddress, RenewAddress, RenewAddress method [TAPI 2.2], RenewAddress method [TAPI 2.2],IMcastAddressAllocation interface, _tapi3_imcastaddressallocation_renewaddress, mdhcp/IMcastAddressAllocation::RenewAddress, tapi3.imcastaddressallocation_renewaddress
-ms.topic: method
 f1_keywords:
 - mdhcp/IMcastAddressAllocation.RenewAddress
 dev_langs:

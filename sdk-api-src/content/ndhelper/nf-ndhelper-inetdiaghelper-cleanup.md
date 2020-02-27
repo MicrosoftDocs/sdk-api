@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: d50d3415-8fa7-404c-8030-8ea7a59820e4
 ms.date: 12/05/2018
 ms.keywords: Cleanup, Cleanup method [NDF], Cleanup method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],Cleanup method, INetDiagHelper.Cleanup, INetDiagHelper::Cleanup, ndf.inetdiaghelpe_cleanup, ndhelper/INetDiagHelper::Cleanup
-ms.topic: method
 f1_keywords:
 - ndhelper/INetDiagHelper.Cleanup
 dev_langs:

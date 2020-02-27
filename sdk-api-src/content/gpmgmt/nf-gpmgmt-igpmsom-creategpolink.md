@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 2f3d8234-617f-4ce4-846a-476c28251989
 ms.date: 12/05/2018
 ms.keywords: CreateGPOLink, CreateGPOLink method [GPMC], CreateGPOLink method [GPMC],GPMSOM class, CreateGPOLink method [GPMC],IGPMSOM interface, GPMSOM class [GPMC],CreateGPOLink method, IGPMSOM interface [GPMC],CreateGPOLink method, IGPMSOM.CreateGPOLink, IGPMSOM::CreateGPOLink, _win32_igpmsom_creategpolink, gpmc.igpmsom_creategpolink, gpmgmt/IGPMSOM::CreateGPOLink
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPMSOM.CreateGPOLink
 dev_langs:

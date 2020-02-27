@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: a4b86196-04c8-4ec1-bf26-2a33e44020d2
 ms.date: 12/05/2018
 ms.keywords: GPO_OPTION_DISABLE_MACHINE, GPO_OPTION_DISABLE_USER, GetOptions, GetOptions method [Group Policy], GetOptions method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetOptions method, IGroupPolicyObject.GetOptions, IGroupPolicyObject::GetOptions, _win32_igrouppolicyobject_getoptions, gpedit/IGroupPolicyObject::GetOptions, policy.igrouppolicyobject_getoptions
-ms.topic: method
 f1_keywords:
 - gpedit/IGroupPolicyObject.GetOptions
 dev_langs:

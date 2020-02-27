@@ -8,7 +8,6 @@ tech.root: Multimedia
 ms.assetid: d32dc386-05cf-4f7b-9785-a38586a09402
 ms.date: 12/05/2018
 ms.keywords: IAVIEditStream, IAVIEditStream interface [Windows Multimedia], IAVIEditStream interface [Windows Multimedia],described, _win32_IAVIEditStream, multimedia.iavieditstream, vfw/IAVIEditStream
-ms.topic: interface
 f1_keywords:
 - vfw/IAVIEditStream
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c4cb588d-9482-4f90-a92e-75b604540d5c
 ms.date: 12/05/2018
 ms.keywords: CoTaskMemAlloc, CoTaskMemAlloc function [COM], _com_CoTaskMemAlloc, com.cotaskmemalloc, combaseapi/CoTaskMemAlloc
-ms.topic: function
 f1_keywords:
 - combaseapi/CoTaskMemAlloc
 dev_langs:

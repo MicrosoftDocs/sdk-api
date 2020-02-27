@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: A5AC5EB3-2091-4547-8B6A-C60C4E90DFBC
 ms.date: 12/05/2018
 ms.keywords: GetWallpaper, GetWallpaper method [Windows Shell], GetWallpaper method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetWallpaper method, IDesktopWallpaper.GetWallpaper, IDesktopWallpaper::GetWallpaper, shell.IDesktopWallpaper_GetWallpaper, shobjidl_core/IDesktopWallpaper::GetWallpaper
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IDesktopWallpaper.GetWallpaper
 dev_langs:

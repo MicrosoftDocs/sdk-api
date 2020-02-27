@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 8989ebde-0d33-4f9a-a4dc-82562eab5976
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup interface [Security],PostUnInstall method, IMSCEPSetup.PostUnInstall, IMSCEPSetup::PostUnInstall, PostUnInstall, PostUnInstall method [Security], PostUnInstall method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::PostUnInstall, security.imscepsetup_postuninstall
-ms.topic: method
 f1_keywords:
 - casetup/IMSCEPSetup.PostUnInstall
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: 5c36732f-bf4f-4071-959e-3359be0b2363
 ms.date: 12/05/2018
 ms.keywords: RecoverEnlistment, RecoverEnlistment function [Files], fs.recoverenlistment, ktmw32/RecoverEnlistment
-ms.topic: function
 f1_keywords:
 - ktmw32/RecoverEnlistment
 dev_langs:

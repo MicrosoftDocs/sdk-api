@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 098a8cdc-ff34-4729-9b34-279c499d40a8
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemButton, ITfLangBarItemButton interface [Text Services Framework], ITfLangBarItemButton interface [Text Services Framework],described, _tsf_itflangbaritembutton_ref, ctfutb/ITfLangBarItemButton, tsf.itflangbaritembutton
-ms.topic: interface
 f1_keywords:
 - ctfutb/ITfLangBarItemButton
 dev_langs:

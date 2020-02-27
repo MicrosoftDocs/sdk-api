@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 91e15135-49b8-497e-8f09-984e9af64dbe
 ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT0, FWPM_NET_EVENT0 structure [Filtering], fwp.fwpm_net_event0, fwpmtypes/FWPM_NET_EVENT0
-ms.topic: struct
 f1_keywords:
 - fwpmtypes/FWPM_NET_EVENT0
 dev_langs:

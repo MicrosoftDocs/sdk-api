@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 53e2c8c7-dc6b-4c0b-9555-9aac07bd9186
 ms.date: 12/05/2018
 ms.keywords: '*PDD_QUERYMOCOMPSTATUSDATA, DD_QUERYMOCOMPSTATUSDATA, DD_QUERYMOCOMPSTATUSDATA structure [Display Devices], ddrawint/DD_QUERYMOCOMPSTATUSDATA, ddstrcts_d8a10a3c-886c-4cef-b4a0-2db5f4c45927.xml, display.dd_querymocompstatusdata'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_QUERYMOCOMPSTATUSDATA
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMCOLOR.#ctor(float,float,float,float)
 ms.date: 12/05/2018
 ms.keywords: XMCOLOR, XMCOLOR constructor [DirectX Math Support APIs], XMCOLOR constructor [DirectX Math Support APIs],XMCOLOR structure, XMCOLOR structure [DirectX Math Support APIs],XMCOLOR constructor, XMCOLOR.XMCOLOR, XMCOLOR.XMCOLOR(float,float,float,float), XMCOLOR::XMCOLOR, XMCOLOR::XMCOLOR(float,float,float,float), dxmath.xmcolor_ctor_3
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMCOLOR.XMCOLOR
 dev_langs:

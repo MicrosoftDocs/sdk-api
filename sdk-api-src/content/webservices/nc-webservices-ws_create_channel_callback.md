@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 440114f9-2258-4c33-93cd-7185ccf36f76
 ms.date: 12/05/2018
 ms.keywords: WS_CREATE_CHANNEL_CALLBACK, WS_CREATE_CHANNEL_CALLBACK callback, WS_CREATE_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_CREATE_CHANNEL_CALLBACK, wsw.ws_create_channel_callback
-ms.topic: callback
 f1_keywords:
 - webservices/WS_CREATE_CHANNEL_CALLBACK
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 7c08fb54-6a78-4b6d-aae7-4b3a823eb880
 ms.date: 12/05/2018
 ms.keywords: 7c08fb54-6a78-4b6d-aae7-4b3a823eb880, IMFMediaSourceTopologyProvider, IMFMediaSourceTopologyProvider interface [Media Foundation], IMFMediaSourceTopologyProvider interface [Media Foundation],described, mf.imfmediasourcetopologyprovider, mfidl/IMFMediaSourceTopologyProvider
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFMediaSourceTopologyProvider
 dev_langs:

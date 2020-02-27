@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: d5ca4908-1822-485c-a04a-0eeee1e384a8
 ms.date: 12/05/2018
 ms.keywords: GetLocalId, GetLocalId method [Core Audio], GetLocalId method [Core Audio],IPart interface, IPart interface [Core Audio],GetLocalId method, IPart.GetLocalId, IPart::GetLocalId, IPartGetLocalId, coreaudio.ipart_getlocalid, devicetopology/IPart::GetLocalId
-ms.topic: method
 f1_keywords:
 - devicetopology/IPart.GetLocalId
 dev_langs:

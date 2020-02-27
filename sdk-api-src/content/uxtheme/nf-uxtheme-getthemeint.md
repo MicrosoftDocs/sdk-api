@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeint.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeInt, GetThemeInt function [Windows Controls], controls.GetThemeInt, controls.inet_GetThemeInt, inet_GetThemeInt, inet_GetThemeInt_cpp, uxtheme/GetThemeInt
-ms.topic: function
 f1_keywords:
 - uxtheme/GetThemeInt
 dev_langs:

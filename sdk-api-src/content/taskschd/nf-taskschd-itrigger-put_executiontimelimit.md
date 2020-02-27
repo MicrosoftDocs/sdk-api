@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: cfd0b02b-2040-49c1-88a1-c9663c834450
 ms.date: 12/05/2018
 ms.keywords: ExecutionTimeLimit property [Task Scheduler], ExecutionTimeLimit property [Task Scheduler],ITrigger interface, ITrigger interface [Task Scheduler],ExecutionTimeLimit property, ITrigger.ExecutionTimeLimit, ITrigger.put_ExecutionTimeLimit, ITrigger::ExecutionTimeLimit, ITrigger::get_ExecutionTimeLimit, ITrigger::put_ExecutionTimeLimit, put_ExecutionTimeLimit, taskschd.itrigger_executiontimelimit, taskschd/ITrigger::ExecutionTimeLimit, taskschd/ITrigger::get_ExecutionTimeLimit, taskschd/ITrigger::put_ExecutionTimeLimit
-ms.topic: method
 f1_keywords:
 - taskschd/ITrigger.ExecutionTimeLimit
 dev_langs:

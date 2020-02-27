@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: B36147C7-1304-4175-8AD3-CD5FCA17B4AE
 ms.date: 12/05/2018
 ms.keywords: ISwapChainPanelNative, ISwapChainPanelNative interface [Windows Runtime], ISwapChainPanelNative interface [Windows Runtime],described, windows/ISwapChainPanelNative, winrt.iswapchainpanelnative
-ms.topic: interface
 f1_keywords:
 - windows.ui.xaml.media.dxinterop/ISwapChainPanelNative
 dev_langs:

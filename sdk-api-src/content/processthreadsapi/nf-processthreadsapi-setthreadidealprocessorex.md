@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 6b599a99-41c5-45c7-8aeb-87d8f34e9e82
 ms.date: 12/05/2018
 ms.keywords: SetThreadIdealProcessorEx, SetThreadIdealProcessorEx function, base.setthreadidealprocessorex, processthreadsapi/SetThreadIdealProcessorEx, winbase/SetThreadIdealProcessorEx
-ms.topic: function
 f1_keywords:
 - processthreadsapi/SetThreadIdealProcessorEx
 dev_langs:

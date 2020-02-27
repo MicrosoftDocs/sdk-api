@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: cd029d7e-e103-4bbb-aaf9-36f3043b941c
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterGetEnrollmentStatus, EngineAdapterGetEnrollmentStatus callback function [Windows Biometric Framework API], PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN, PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN callback, secbiomet.engineadaptergetenrollmentstatus, winbio_adapter/EngineAdapterGetEnrollmentStatus
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterGetEnrollmentStatus
 dev_langs:

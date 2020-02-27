@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 27add7cc-1d77-4ac5-b63f-757f63f4c9b8
 ms.date: 12/05/2018
 ms.keywords: AddPIDs, AddPIDs method [Microsoft TV Technologies], AddPIDs method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],AddPIDs method, IMPEG2_TIF_CONTROL.AddPIDs, IMPEG2_TIF_CONTROL::AddPIDs, IMPEG2_TIF_CONTROLAddPIDs, bdatif/IMPEG2_TIF_CONTROL::AddPIDs, mstv.impeg2_tif_control_addpids
-ms.topic: method
 f1_keywords:
 - bdatif/IMPEG2_TIF_CONTROL.AddPIDs
 dev_langs:

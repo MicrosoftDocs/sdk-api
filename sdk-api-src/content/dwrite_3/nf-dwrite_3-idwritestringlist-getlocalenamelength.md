@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: AB3CDFB6-8B3E-47B1-BB19-C22E0D8D2D5C
 ms.date: 12/05/2018
 ms.keywords: GetLocaleNameLength, GetLocaleNameLength method [Direct Write], GetLocaleNameLength method [Direct Write],IDWriteStringList interface, IDWriteStringList interface [Direct Write],GetLocaleNameLength method, IDWriteStringList.GetLocaleNameLength, IDWriteStringList::GetLocaleNameLength, directwrite.idwritestringlist_getlocalenamelength, dwrite_3/IDWriteStringList::GetLocaleNameLength
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteStringList.GetLocaleNameLength
 dev_langs:

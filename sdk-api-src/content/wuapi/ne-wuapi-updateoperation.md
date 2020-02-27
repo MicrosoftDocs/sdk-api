@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 93f38d77-fb8c-4d2e-acc2-f4c06cbc04f8
 ms.date: 12/05/2018
 ms.keywords: UpdateOperation, UpdateOperation enumeration [Windows Update Agent], uoInstallation, uoUninstallation, wua.updateoperation, wuapi/UpdateOperation, wuapi/uoInstallation, wuapi/uoUninstallation
-ms.topic: enum
 f1_keywords:
 - wuapi/UpdateOperation
 dev_langs:

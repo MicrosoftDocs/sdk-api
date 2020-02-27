@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: b937fbf0-b920-413a-a184-ebe08ee893e5
 ms.date: 12/05/2018
 ms.keywords: CreateRectangleClip, CreateRectangleClip method [DirectComposition], CreateRectangleClip method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateRectangleClip method, IDCompositionDevice.CreateRectangleClip, IDCompositionDevice::CreateRectangleClip, dcomp/IDCompositionDevice::CreateRectangleClip, directcomp.idcompositiondevice_createrectangleclip
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionDevice.CreateRectangleClip
 dev_langs:
@@ -80,7 +79,7 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-A newly created clip object has a static value of <a href="http://go.microsoft.com/fwlink/p/?linkid=200486">–FLT_MAX</a> for the left and top properties, and a static value of –FLT_MAX for the right and bottom properties, effectively making it a no-op clip object.
+A newly created clip object has a static value of <a href="https://msdn.microsoft.com/library/6bs3y5ya(VS.71).aspx">–FLT_MAX</a> for the left and top properties, and a static value of –FLT_MAX for the right and bottom properties, effectively making it a no-op clip object.
 
 
 

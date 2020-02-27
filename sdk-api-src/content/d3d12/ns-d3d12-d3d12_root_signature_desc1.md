@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: F085D077-1DA8-41A1-9FA3-4423EA003345
 ms.date: 12/05/2018
 ms.keywords: D3D12_ROOT_SIGNATURE_DESC1, D3D12_ROOT_SIGNATURE_DESC1 structure, d3d12/D3D12_ROOT_SIGNATURE_DESC1, direct3d12.d3d12_root_signature_desc1
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_ROOT_SIGNATURE_DESC1
 dev_langs:

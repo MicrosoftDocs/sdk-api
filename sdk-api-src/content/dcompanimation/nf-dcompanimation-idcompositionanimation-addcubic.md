@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: d80ab2db-0d88-46ed-a40d-4408bf315a85
 ms.date: 12/05/2018
 ms.keywords: AddCubic, AddCubic method [DirectComposition], AddCubic method [DirectComposition],IDCompositionAnimation interface, IDCompositionAnimation interface [DirectComposition],AddCubic method, IDCompositionAnimation.AddCubic, IDCompositionAnimation::AddCubic, dcompanimation/IDCompositionAnimation::AddCubic, directcomp.idcompositionanimation_addcubic
-ms.topic: method
 f1_keywords:
 - dcompanimation/IDCompositionAnimation.AddCubic
 dev_langs:

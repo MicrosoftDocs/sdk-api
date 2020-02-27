@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: e857bdbe-5510-4e35-ba73-d52b239e5b77
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceFrame interface [COM],SetStatusText method, IOleInPlaceFrame.SetStatusText, IOleInPlaceFrame::SetStatusText, SetStatusText, SetStatusText method [COM], SetStatusText method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_setstatustext, com.ioleinplaceframe_setstatustext, oleidl/IOleInPlaceFrame::SetStatusText
-ms.topic: method
 f1_keywords:
 - oleidl/IOleInPlaceFrame.SetStatusText
 dev_langs:

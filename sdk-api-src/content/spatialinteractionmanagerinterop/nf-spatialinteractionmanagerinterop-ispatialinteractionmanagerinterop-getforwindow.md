@@ -7,7 +7,6 @@ tech.root: MixedReality
 ms.assetid: 5D11BF4D-2EE3-40A3-A1EE-202DD5B904FE
 ms.date: 01/25/2019
 ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,ISpatialInteractionManagerInterop interface, ISpatialInteractionManagerInterop interface,GetForWindow method, ISpatialInteractionManagerInterop.GetForWindow, ISpatialInteractionManagerInterop::GetForWindow, MixedReality.ispatialinteractionmanager_getforwindow, spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop::GetForWindow
-ms.topic: method
 f1_keywords:
 - spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop.GetForWindow
 dev_langs:

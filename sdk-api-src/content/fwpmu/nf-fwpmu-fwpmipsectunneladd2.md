@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 32c7d472-4904-46d3-b50e-08eaa0e06df0
 ms.date: 12/05/2018
 ms.keywords: FWPM_TUNNEL_FLAG_ENABLE_VIRTUAL_IF_TUNNELING, FWPM_TUNNEL_FLAG_POINT_TO_POINT, FwpmIPsecTunnelAdd2, FwpmIPsecTunnelAdd2 function [Filtering], fwp.fwpmipsectunneladd2, fwpmu/FwpmIPsecTunnelAdd2
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmIPsecTunnelAdd2
 dev_langs:

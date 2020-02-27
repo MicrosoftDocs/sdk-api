@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: F0777E69-C9E2-4E40-9CE0-56084D1C8A41
 ms.date: 12/05/2018
 ms.keywords: GetActiveFlags, GetActiveFlags method [Text Services Framework], GetActiveFlags method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],GetActiveFlags method, ITfThreadMgr2.GetActiveFlags, ITfThreadMgr2::GetActiveFlags, TF_TMF_ACTIVATED, TF_TMF_COMLESS, TF_TMF_CONSOLE, TF_TMF_IMMERSIVEMODE, TF_TMF_NOACTIVATETIP, TF_TMF_SECUREMODE, TF_TMF_UIELEMENTENABLEDONLY, TF_TMF_WOW16, msctf/ITfThreadMgr2::GetActiveFlags, tsf.itfthreadmgr2_getactiveflags
-ms.topic: method
 f1_keywords:
 - msctf/ITfThreadMgr2.GetActiveFlags
 dev_langs:

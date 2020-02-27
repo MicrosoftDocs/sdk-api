@@ -1,9 +1,10 @@
 ---
 UID: NA:d3d12video
+title: D3D12Video.h header
 ms.assetid: 
-ms.date: 05/28/2019 03/19/2019
+ms.date: 03/19/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: mf
 ---
 

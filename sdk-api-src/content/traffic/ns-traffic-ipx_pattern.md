@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: bbb5466c-3ec4-48a7-a50e-4859d074d001
 ms.date: 12/05/2018
 ms.keywords: '*PIPX_PATTERN, *PIPX_PATTERN structure [QOS], IPX_PATTERN, IPX_PATTERN structure [QOS], qos.ipx_pattern, traffic/*PIPX_PATTERN, traffic/IPX_PATTERN'
-ms.topic: struct
 f1_keywords:
 - traffic/IPX_PATTERN
 dev_langs:

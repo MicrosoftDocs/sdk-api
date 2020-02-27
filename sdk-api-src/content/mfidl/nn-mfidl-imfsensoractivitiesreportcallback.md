@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 477B008D-7F0A-4084-BDFD-DF19E2A82817
 ms.date: 12/05/2018
 ms.keywords: IMFSensorActivitiesReportCallback, IMFSensorActivitiesReportCallback interface [Media Foundation], IMFSensorActivitiesReportCallback interface [Media Foundation],described, mf.imfsensoractivitiesreportcallback, mfidl/IMFSensorActivitiesReportCallback
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFSensorActivitiesReportCallback
 dev_langs:

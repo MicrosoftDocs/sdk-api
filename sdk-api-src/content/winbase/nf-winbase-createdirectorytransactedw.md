@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 75663b30-5bd9-4de7-8e4f-dc58016c2c40
 ms.date: 12/05/2018
 ms.keywords: CreateDirectoryTransacted, CreateDirectoryTransacted function [Files], CreateDirectoryTransactedA, CreateDirectoryTransactedW, fs.createdirectorytransacted, winbase/CreateDirectoryTransacted, winbase/CreateDirectoryTransactedA, winbase/CreateDirectoryTransactedW
-ms.topic: function
 f1_keywords:
 - winbase/CreateDirectoryTransacted
 dev_langs:

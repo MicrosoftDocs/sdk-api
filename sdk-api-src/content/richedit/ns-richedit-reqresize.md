@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\reqresize.htm
 ms.date: 12/05/2018
 ms.keywords: REQRESIZE, REQRESIZE structure [Windows Controls], _win32_REQRESIZE_str, _win32_REQRESIZE_str_cpp, controls.REQRESIZE, controls._win32_REQRESIZE_str, richedit/REQRESIZE
-ms.topic: struct
 f1_keywords:
 - richedit/REQRESIZE
 dev_langs:

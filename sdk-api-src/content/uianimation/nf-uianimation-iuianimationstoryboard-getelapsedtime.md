@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 901afd34-03cc-4421-a467-9d096e1458fe
 ms.date: 12/05/2018
 ms.keywords: GetElapsedTime, GetElapsedTime method [Windows Animation], GetElapsedTime method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],GetElapsedTime method, IUIAnimationStoryboard.GetElapsedTime, IUIAnimationStoryboard::GetElapsedTime, uianimation.iuianimationstoryboard_getelapsedtime, uianimation/IUIAnimationStoryboard::GetElapsedTime
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationStoryboard.GetElapsedTime
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 0fae0ecf-efa9-46d0-8324-4065f351291e
 ms.date: 12/05/2018
 ms.keywords: IWMPropertyVault interface [windows Media Format],SetProperty method, IWMPropertyVault.SetProperty, IWMPropertyVault::SetProperty, IWMPropertyVaultSetProperty, SetProperty, SetProperty method [windows Media Format], SetProperty method [windows Media Format],IWMPropertyVault interface, wmformat.iwmpropertyvault_setproperty, wmsdkidl/IWMPropertyVault::SetProperty
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMPropertyVault.SetProperty
 dev_langs:

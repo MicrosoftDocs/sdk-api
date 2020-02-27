@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 24840acd-c2d1-43d8-99aa-8614e55d6604
 ms.date: 12/05/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetClientTitle method, IAttachmentExecute.SetClientTitle, IAttachmentExecute::SetClientTitle, SetClientTitle, SetClientTitle method [Windows Shell], SetClientTitle method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetClientTitle, shell.IAttachmentExecute_SetClientTitle, shobjidl_core/IAttachmentExecute::SetClientTitle
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IAttachmentExecute.SetClientTitle
 dev_langs:

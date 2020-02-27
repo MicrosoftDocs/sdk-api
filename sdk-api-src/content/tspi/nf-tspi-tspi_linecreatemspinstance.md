@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 1d3421d8-2ef8-4f62-b6b0-5671a18ffc0b
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineCreateMSPInstance, TSPI_lineCreateMSPInstance function [TAPI 2.2], _tspi_tspi_linecreatemspinstance, tspi.tspi_linecreatemspinstance, tspi/TSPI_lineCreateMSPInstance
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineCreateMSPInstance
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 075D43D7-0299-45E9-8C43-3EA37F0477CB
 ms.date: 12/05/2018
 ms.keywords: ID2D1TransformGraph interface [Direct2D],RemoveNode method, ID2D1TransformGraph.RemoveNode, ID2D1TransformGraph::RemoveNode, RemoveNode, RemoveNode method [Direct2D], RemoveNode method [Direct2D],ID2D1TransformGraph interface, d2d1effectauthor/ID2D1TransformGraph::RemoveNode, direct2d.id2d1transformgraph_removenode
-ms.topic: method
 f1_keywords:
 - d2d1effectauthor/ID2D1TransformGraph.RemoveNode
 dev_langs:

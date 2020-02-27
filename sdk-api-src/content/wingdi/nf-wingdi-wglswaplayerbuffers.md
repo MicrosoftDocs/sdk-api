@@ -7,7 +7,6 @@ tech.root: OpenGL
 ms.assetid: e23a9ce3-8bb4-42e0-9460-170fa3949939
 ms.date: 12/05/2018
 ms.keywords: WGL_SWAP_MAIN_PLANE, WGL_SWAP_OVERLAYi, WGL_SWAP_UNDERLAYi, _ogl_wglSwapLayerBuffers, opengl.wglswaplayerbuffers, wglSwapLayerBuffers, wglSwapLayerBuffers function [OpenGL], wingdi/wglSwapLayerBuffers
-ms.topic: function
 f1_keywords:
 - wingdi/wglSwapLayerBuffers
 dev_langs:

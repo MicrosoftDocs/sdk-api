@@ -7,7 +7,6 @@ tech.root: iSCSIDisc
 ms.assetid: 1997b1d0-6723-434c-bca7-513e4dc30ee6
 ms.date: 12/05/2018
 ms.keywords: '*PTARGETPROTOCOLTYPE, ISCSI_TCP_PROTOCOL_TYPE, TARGETPROTOCOLTYPE, TARGETPROTOCOLTYPE enumeration [iSCSI Discovery Library API], iscsidisc.targetprotocoltype, iscsidsc/ISCSI_TCP_PROTOCOL_TYPE, iscsidsc/TARGETPROTOCOLTYPE'
-ms.topic: enum
 f1_keywords:
 - iscsidsc/TARGETPROTOCOLTYPE
 dev_langs:

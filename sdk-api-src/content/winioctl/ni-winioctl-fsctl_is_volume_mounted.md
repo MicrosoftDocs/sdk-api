@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 1effd05a-2c9f-4c8b-97dd-ed93b04cc2ee
 ms.date: 12/05/2018
 ms.keywords: FSCTL_IS_VOLUME_MOUNTED, FSCTL_IS_VOLUME_MOUNTED control, FSCTL_IS_VOLUME_MOUNTED control code [Files], base.fsctl_is_volume_mounted, fs.fsctl_is_volume_mounted, winioctl/FSCTL_IS_VOLUME_MOUNTED
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_IS_VOLUME_MOUNTED
 dev_langs:

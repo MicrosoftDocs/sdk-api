@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 057424eb-c491-4295-b2a7-cf983902c667
 ms.date: 12/05/2018
 ms.keywords: IVdsMaintenance interface [VDS],PulseMaintenance method, IVdsMaintenance.PulseMaintenance, IVdsMaintenance::PulseMaintenance, PulseMaintenance, PulseMaintenance method [VDS], PulseMaintenance method [VDS],IVdsMaintenance interface, base.ivdsmaintenance_pulsemaintenance, vds/IVdsMaintenance::PulseMaintenance, vdshwprv/IVdsMaintenance::PulseMaintenance
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsMaintenance.PulseMaintenance
 dev_langs:

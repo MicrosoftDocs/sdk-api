@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: ec8683a5-f2b3-48ce-8732-16429ee16a7f
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method, GetState method,ISensor interface, ISensor interface,GetState method, ISensor.GetState, ISensor::GetState, sensorsapi/ISensor::GetState, winsensors_com_ref.isensor_getstate
-ms.topic: method
 f1_keywords:
 - sensorsapi/ISensor.GetState
 dev_langs:

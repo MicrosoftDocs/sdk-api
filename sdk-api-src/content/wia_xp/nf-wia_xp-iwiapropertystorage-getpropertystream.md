@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\getpropertystream.htm
 ms.date: 12/05/2018
 ms.keywords: GetPropertyStream, GetPropertyStream method [WIA], GetPropertyStream method [WIA],IWiaPropertyStorage interface, IWiaPropertyStorage interface [WIA],GetPropertyStream method, IWiaPropertyStorage.GetPropertyStream, IWiaPropertyStorage::GetPropertyStream, _wia_IWiaPropertyStorage_GetPropertyStream, wia._wia_IWiaPropertyStorage_GetPropertyStream, wia_xp/IWiaPropertyStorage::GetPropertyStream
-ms.topic: method
 f1_keywords:
 - wia_xp/IWiaPropertyStorage.GetPropertyStream
 dev_langs:

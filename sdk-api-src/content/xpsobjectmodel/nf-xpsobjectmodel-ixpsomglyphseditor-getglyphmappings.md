@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 59a09a1f-547c-48e1-8aad-f408dd416656
 ms.date: 12/05/2018
 ms.keywords: GetGlyphMappings, GetGlyphMappings method [XPS Documents and Packaging], GetGlyphMappings method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetGlyphMappings method, IXpsOMGlyphsEditor.GetGlyphMappings, IXpsOMGlyphsEditor::GetGlyphMappings, xps.ixpsomglyphseditor_getglyphmappings, xpsobjectmodel/IXpsOMGlyphsEditor::GetGlyphMappings
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphsEditor.GetGlyphMappings
 dev_langs:
@@ -141,7 +140,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_hittest.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_HitTest, ListView_HitTest macro [Windows Controls], _win32_ListView_HitTest, _win32_ListView_HitTest_cpp, commctrl/ListView_HitTest, controls.ListView_HitTest, controls._win32_ListView_HitTest
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_HitTest
 dev_langs:

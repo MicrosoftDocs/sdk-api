@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 3729D985-9040-43AD-A8B0-045509FE2F20
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectRenderStreamNotify, ISpatialAudioObjectRenderStreamNotify interface [Core Audio], ISpatialAudioObjectRenderStreamNotify interface [Core Audio],described, coreaudio.ispatialaudioobjectrenderstreamnotify, spatialaudioclient/ISpatialAudioObjectRenderStreamNotify
-ms.topic: interface
 f1_keywords:
 - spatialaudioclient/ISpatialAudioObjectRenderStreamNotify
 dev_langs:

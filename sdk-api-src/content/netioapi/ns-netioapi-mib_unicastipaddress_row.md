@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: f329bafd-9e83-4754-a9a9-e7e111229c90
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_UNICASTIPADDRESS_ROW, IpDadStateDeprecated, IpDadStateDuplicate, IpDadStateInvalid, IpDadStatePreferred, IpDadStateTentative, IpPrefixOriginDhcp, IpPrefixOriginManual, IpPrefixOriginOther, IpPrefixOriginRouterAdvertisement, IpPrefixOriginUnchanged, IpPrefixOriginWellKnown, IpSuffixOriginDhcp, IpSuffixOriginLinkLayerAddress, IpSuffixOriginManual, IpSuffixOriginOther, IpSuffixOriginRandom, IpSuffixOriginUnchanged, IpSuffixOriginWellKnown, MIB_UNICASTIPADDRESS_ROW, MIB_UNICASTIPADDRESS_ROW structure [MIB], PMIB_UNICASTIPADDRESS_ROW, PMIB_UNICASTIPADDRESS_ROW structure pointer [MIB], _MIB_UNICASTIPADDRESS_ROW, mib.mib_unicastipaddress_row, netioapi/MIB_UNICASTIPADDRESS_ROW, netioapi/PMIB_UNICASTIPADDRESS_ROW'
-ms.topic: struct
 f1_keywords:
 - netioapi/MIB_UNICASTIPADDRESS_ROW
 dev_langs:
@@ -378,9 +377,9 @@ If the <i>pNodeName</i> or <i>pName</i> parameter refers to a cluster virtual se
 
 Windows 7 with Service Pack 1 (SP1) and Windows Server 2008 R2 with Service Pack 1 (SP1) add support to Netsh.exe for setting the SkipAsSource attribute on an IP address. This hotfix also changes the behavior such that if the <b>SkipAsSource</b> member in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  
 
-A hotfix is available for Windows 7 and Windows Server 2008 R2 that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address.  This hotfix also changes the behavior such that if the <b>SkipAsSource</b> member in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  For more information, see Knowledge Base (KB) <a href="http://go.microsoft.com/fwlink/p/?linkid=208218">2386184</a>.   
+A hotfix is available for Windows 7 and Windows Server 2008 R2 that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address.  This hotfix also changes the behavior such that if the <b>SkipAsSource</b> member in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  For more information, see Knowledge Base (KB) <a href="https://support.microsoft.com/kb/2386184">2386184</a>.   
 
-A similar hotfix is also available for Windows Vista with Service Pack 2 (SP2) and Windows Server 2008 with Service Pack 2 (SP2) that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address. This hotfix also changes behavior such that if the <b>SkipAsSource</b> member in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  For more information, see Knowledge Base (KB) <a href="http://go.microsoft.com/fwlink/p/?linkid=208219">975808</a>. 
+A similar hotfix is also available for Windows Vista with Service Pack 2 (SP2) and Windows Server 2008 with Service Pack 2 (SP2) that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address. This hotfix also changes behavior such that if the <b>SkipAsSource</b> member in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  For more information, see Knowledge Base (KB) <a href="https://support.microsoft.com/kb/975808">975808</a>. 
 
 
 #### Examples

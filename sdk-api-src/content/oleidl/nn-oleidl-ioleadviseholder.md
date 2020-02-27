@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 680afee7-2bee-4d54-ae0b-3e4e0deb622f
 ms.date: 12/05/2018
 ms.keywords: IOleAdviseHolder, IOleAdviseHolder interface [COM], IOleAdviseHolder interface [COM],described, _ole_ioleadviseholder, com.ioleadviseholder, oleidl/IOleAdviseHolder
-ms.topic: interface
 f1_keywords:
 - oleidl/IOleAdviseHolder
 dev_langs:

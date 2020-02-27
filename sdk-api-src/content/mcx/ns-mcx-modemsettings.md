@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: 4648992b-eeeb-4a8d-8e08-7e80f0dc56ef
 ms.date: 12/05/2018
 ms.keywords: '*LPMODEMSETTINGS, *PMODEMSETTINGS, LPMODEMSETTINGS, LPMODEMSETTINGS structure pointer, MDMSPKR_CALLSETUP, MDMSPKR_DIAL, MDMSPKR_OFF, MDMSPKR_ON, MDMVOL_HIGH, MDMVOL_LOW, MDMVOL_MEDIUM, MODEMSETTINGS, MODEMSETTINGS structure, PMODEMSETTINGS, PMODEMSETTINGS structure pointer, _win32_modemsettings_str, base.modemsettings_str, mcx/LPMODEMSETTINGS, mcx/MODEMSETTINGS, mcx/PMODEMSETTINGS'
-ms.topic: struct
 f1_keywords:
 - mcx/MODEMSETTINGS
 dev_langs:

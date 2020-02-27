@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: b6817676-affb-4bb3-adba-e24e0b75ad10
 ms.date: 12/05/2018
 ms.keywords: IWICColorContext, IWICColorContext interface [Windows Imaging Component], IWICColorContext interface [Windows Imaging Component],described, _wic_codec_iwiccolorcontext, wic._wic_codec_iwiccolorcontext, wincodec/IWICColorContext
-ms.topic: interface
 f1_keywords:
 - wincodec/IWICColorContext
 dev_langs:

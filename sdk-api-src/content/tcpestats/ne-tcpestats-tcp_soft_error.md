@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: dd179e9b-86e6-48e8-bb4b-05d69b9794b2
 ms.date: 12/05/2018
 ms.keywords: '*PTCP_SOFT_ERROR, TCP_SOFT_ERROR, TCP_SOFT_ERROR enumeration [IP Helper], TcpErrorAboveAckWindow, TcpErrorAboveDataWindow, TcpErrorAboveTsWindow, TcpErrorBelowAckWindow, TcpErrorBelowDataWindow, TcpErrorBelowTsWindow, TcpErrorDataChecksumError, TcpErrorDataLengthError, TcpErrorMaxSoftError, TcpErrorNone, iphlp.tcp_soft_error, tcpestats/TCP_SOFT_ERROR, tcpestats/TcpErrorAboveAckWindow, tcpestats/TcpErrorAboveDataWindow, tcpestats/TcpErrorAboveTsWindow, tcpestats/TcpErrorBelowAckWindow, tcpestats/TcpErrorBelowDataWindow, tcpestats/TcpErrorBelowTsWindow, tcpestats/TcpErrorDataChecksumError, tcpestats/TcpErrorDataLengthError, tcpestats/TcpErrorMaxSoftError, tcpestats/TcpErrorNone'
-ms.topic: enum
 f1_keywords:
 - tcpestats/TCP_SOFT_ERROR
 dev_langs:
@@ -92,7 +91,7 @@ An ACK was received for data that we have not sent.
 
 The Timestamp Echo Reply (TSecr) on the segment is older than the
            current TS.Recent (a timestamp to be echoed in TSecr whenever a
-           segment is sent).  This error is applicable to TCP connections that use the TCP Timestamps option (TSopt) defined by the IETF in RFC 1323. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84406">http://www.ietf.org/rfc/rfc1323.txt</a>. This soft error is normal for the rare case where the Protect Against Wrapped
+           segment is sent).  This error is applicable to TCP connections that use the TCP Timestamps option (TSopt) defined by the IETF in RFC 1323. For more information, see <a href="https://www.ietf.org/rfc/rfc1323.txt">http://www.ietf.org/rfc/rfc1323.txt</a>. This soft error is normal for the rare case where the Protect Against Wrapped
    Sequences numbers (PAWS)
            mechanism detects data reordered by the network.
 
@@ -129,7 +128,7 @@ The maximum possible value for the <a href="https://docs.microsoft.com/windows/d
 
 The <b>TCP_SOFT_ERROR</b> enumeration is defined on Windows Vista and later. 
 
-The values in this enumeration are defined in the IETF draft RFC on the TCP Extended Statistics MIB. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=121686">http://www.ietf.org/rfc/rfc4898.txt</a>.
+The values in this enumeration are defined in the IETF draft RFC on the TCP Extended Statistics MIB. For more information, see <a href="http://tools.ietf.org/html/rfc4898">http://www.ietf.org/rfc/rfc4898.txt</a>.
 
 
 

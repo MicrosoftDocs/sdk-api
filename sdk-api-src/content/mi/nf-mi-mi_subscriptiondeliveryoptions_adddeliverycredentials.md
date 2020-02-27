@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: ce531ffb-adaa-49df-a051-da51e04196b3
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_AddDeliveryCredentials, MI_SubscriptionDeliveryOptions_AddDeliveryCredentials function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_AddDeliveryCredentials, wmi_v2.mi_subscriptiondeliveryoptions_adddeliverycredentials
-ms.topic: function
 f1_keywords:
 - mi/MI_SubscriptionDeliveryOptions_AddDeliveryCredentials
 dev_langs:

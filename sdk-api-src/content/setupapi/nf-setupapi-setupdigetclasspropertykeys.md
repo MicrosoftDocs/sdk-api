@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 9b595fc5-f517-41f9-b7a8-a7811f658d57
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassPropertyKeys, SetupDiGetClassPropertyKeys function [Device and Driver Installation], devinst.setupdigetclasspropertykeys, di-rtns_7f87ef8b-8752-4cd4-9aca-811a83c99ccf.xml, setupapi/SetupDiGetClassPropertyKeys
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetClassPropertyKeys
 dev_langs:
@@ -101,7 +100,7 @@ One of the following values, which specifies whether to retrieve property keys f
 
 
 
-<b>SetupDiGetClassPropertyKeys</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+<b>SetupDiGetClassPropertyKeys</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 The following table includes some of the more common error codes that this function might log.
 

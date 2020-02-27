@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 31A8790B-4C71-4D0D-B686-27B345745872
 ms.date: 12/05/2018
 ms.keywords: MFCreateMuxSink, MFCreateMuxSink function [Media Foundation], mf.mfcreatemuxsink, mfidl/MFCreateMuxSink
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreateMuxSink
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 93cf5585-fcb4-480a-b482-241376e8ec73
 ms.date: 12/05/2018
 ms.keywords: MF_QUALITY_ADVISE_FLAGS, MF_QUALITY_ADVISE_FLAGS enumeration [Media Foundation], MF_QUALITY_CANNOT_KEEP_UP, mf.mf_quality_advise_flags, mfidl/MF_QUALITY_ADVISE_FLAGS, mfidl/MF_QUALITY_CANNOT_KEEP_UP
-ms.topic: enum
 f1_keywords:
 - mfidl/MF_QUALITY_ADVISE_FLAGS
 dev_langs:

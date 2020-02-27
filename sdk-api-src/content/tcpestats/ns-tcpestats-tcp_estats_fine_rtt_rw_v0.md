@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 35834c9a-2896-4c11-aef7-c55af7f6fef3
 ms.date: 12/05/2018
 ms.keywords: '*PTCP_ESTATS_FINE_RTT_RW_v0, PTCP_ESTATS_FINE_RTT_RW_v0, PTCP_ESTATS_FINE_RTT_RW_v0 structure pointer [IP Helper], TCP_ESTATS_FINE_RTT_RW_v0, TCP_ESTATS_FINE_RTT_RW_v0 structure [IP Helper], iphlp.tcp_estats_fine_rtt_rw_v0, tcpestats/PTCP_ESTATS_FINE_RTT_RW_v0, tcpestats/TCP_ESTATS_FINE_RTT_RW_v0'
-ms.topic: struct
 f1_keywords:
 - tcpestats/TCP_ESTATS_FINE_RTT_RW_v0
 dev_langs:

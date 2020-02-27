@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: f362c8b2-2193-443e-bb69-78f8b4147117
 ms.date: 12/05/2018
 ms.keywords: CancelSynchronousIo, CancelSynchronousIo function [Files], fs.cancelsynchronousio_func, ioapiset/CancelSynchronousIo, winbase/CancelSynchronousIo
-ms.topic: function
 f1_keywords:
 - ioapiset/CancelSynchronousIo
 dev_langs:
@@ -97,7 +96,7 @@ If there are any pending I/O operations in progress for the specified thread, th
     completion before they are actually canceled and the caller is notified. The 
     <b>CancelSynchronousIo</b> function does not wait for 
     all canceled operations to complete. For more information, see 
-    <a href="Http://go.microsoft.com/fwlink/p/?linkid=85346">I/O Completion/Cancellation Guidelines</a>.
+    <a href="https://www.microsoft.com/whdc/driver/kernel/iocancel.mspx">I/O Completion/Cancellation Guidelines</a>.
 
 The operation being canceled is completed with one of three statuses; you must check the completion status to 
     determine the completion state. The three statuses are:

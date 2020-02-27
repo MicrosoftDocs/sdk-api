@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: 229fd8f2-ec8c-4f34-a492-caf18e036b70
 ms.date: 12/05/2018
 ms.keywords: SLGetGenuineInformationEx, SLGetGenuineInformationEx function [Security], security.slgetgenuineinformationex, slpublic/SLGetGenuineInformationEx
-ms.topic: function
 f1_keywords:
 - slpublic/SLGetGenuineInformationEx
 dev_langs:

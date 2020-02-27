@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: a6076091-ab38-4722-bb95-fac253e26c8a
 ms.date: 12/05/2018
 ms.keywords: IMFASFProfile interface [Media Foundation],RemoveStreamPrioritization method, IMFASFProfile.RemoveStreamPrioritization, IMFASFProfile::RemoveStreamPrioritization, RemoveStreamPrioritization, RemoveStreamPrioritization method [Media Foundation], RemoveStreamPrioritization method [Media Foundation],IMFASFProfile interface, a6076091-ab38-4722-bb95-fac253e26c8a, mf.imfasfprofile_removestreamprioritization, wmcontainer/IMFASFProfile::RemoveStreamPrioritization
-ms.topic: method
 f1_keywords:
 - wmcontainer/IMFASFProfile.RemoveStreamPrioritization
 dev_langs:

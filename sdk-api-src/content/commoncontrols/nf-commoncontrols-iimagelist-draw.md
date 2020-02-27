@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\draw.htm
 ms.date: 12/05/2018
 ms.keywords: Draw, Draw method [Windows Controls], Draw method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],Draw method, IImageList.Draw, IImageList::Draw, comctl_IImageList_Draw, comctl_IImageList_Draw_cpp, commoncontrols/IImageList::Draw, controls.IImageList_Draw, controls.comctl_IImageList_Draw
-ms.topic: method
 f1_keywords:
 - commoncontrols/IImageList.Draw
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: 313742c9-58a7-4ddd-9582-a6ee276e97d0
 ms.date: 12/05/2018
 ms.keywords: ISensorManager, ISensorManager interface [WinSensors], ISensorManager interface [WinSensors],described, sensorsapi/ISensorManager, winsensors.isensormanager
-ms.topic: interface
 f1_keywords:
 - sensorsapi/ISensorManager
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setunicodeformat.htm
 ms.date: 12/05/2018
 ms.keywords: Header_SetUnicodeFormat, Header_SetUnicodeFormat macro [Windows Controls], _win32_Header_SetUnicodeFormat, _win32_Header_SetUnicodeFormat_cpp, commctrl/Header_SetUnicodeFormat, controls.Header_SetUnicodeFormat, controls._win32_Header_SetUnicodeFormat
-ms.topic: macro
 f1_keywords:
 - commctrl/Header_SetUnicodeFormat
 dev_langs:

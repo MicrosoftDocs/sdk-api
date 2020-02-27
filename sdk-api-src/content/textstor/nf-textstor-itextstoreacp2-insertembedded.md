@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 1f5003e0-0d6d-4212-beea-3b2685991749
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],InsertEmbedded method, ITextStoreACP2.InsertEmbedded, ITextStoreACP2::InsertEmbedded, InsertEmbedded, InsertEmbedded method [Text Services Framework], InsertEmbedded method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::InsertEmbedded, tsf.itextstoreacp2_insertembedded
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreACP2.InsertEmbedded
 dev_langs:

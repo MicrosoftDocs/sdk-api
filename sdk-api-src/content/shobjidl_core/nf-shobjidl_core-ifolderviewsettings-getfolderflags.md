@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a3b21d20-179c-4d6c-ac2e-9001d6358e52
 ms.date: 12/05/2018
 ms.keywords: GetFolderFlags, GetFolderFlags method [Windows Shell], GetFolderFlags method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetFolderFlags method, IFolderViewSettings.GetFolderFlags, IFolderViewSettings::GetFolderFlags, _shell_IFolderViewSettings_GetFolderFlags, shell.IFolderViewSettings_GetFolderFlags, shobjidl_core/IFolderViewSettings::GetFolderFlags
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFolderViewSettings.GetFolderFlags
 dev_langs:

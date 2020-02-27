@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 14440e02-ff2e-4fae-aac9-1b2fd936510e
 ms.date: 12/05/2018
 ms.keywords: '*PBLUETOOTH_RADIO_INFO, BLUETOOTH_RADIO_INFO, BLUETOOTH_RADIO_INFO structure [Bluetooth], bluetooth.bluetooth_radio_info, bluetoothapis/BLUETOOTH_RADIO_INFO'
-ms.topic: struct
 f1_keywords:
 - bluetoothapis/BLUETOOTH_RADIO_INFO
 dev_langs:
@@ -85,7 +84,7 @@ This member contains data specific to individual Bluetooth device manufacturers.
 
 ### -field manufacturer
 
-Manufacturer of the Bluetooth radio, expressed as a <b>BTH_MFG_Xxx</b> value. For more information about the Bluetooth assigned numbers document and a current list of values, see the Bluetooth specification at <a href="Http://go.microsoft.com/fwlink/p/?linkid=84017">www.bluetooth.com</a>.
+Manufacturer of the Bluetooth radio, expressed as a <b>BTH_MFG_Xxx</b> value. For more information about the Bluetooth assigned numbers document and a current list of values, see the Bluetooth specification at <a href="https://www.bluetooth.com/">www.bluetooth.com</a>.
 
 
 ## -see-also

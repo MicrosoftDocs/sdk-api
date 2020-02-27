@@ -7,7 +7,6 @@ tech.root: VStor
 ms.assetid: 9ed3ec7c-5e50-4e81-bba7-798f2fbcf29d
 ms.date: 12/05/2018
 ms.keywords: GetStorageDependencyInformation, GetStorageDependencyInformation function [VHD], vdssys/GetStorageDependencyInformation, vhd.getstoragedependencyinformation, virtdisk/GetStorageDependencyInformation
-ms.topic: function
 f1_keywords:
 - virtdisk/GetStorageDependencyInformation
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 45545d24-1513-4efd-9344-20673c5b98d5
 ms.date: 12/05/2018
 ms.keywords: D3D11_INPUT_ELEMENT_DESC, D3D11_INPUT_ELEMENT_DESC structure [Direct3D 11], d3d11/D3D11_INPUT_ELEMENT_DESC, ddd8b2ab-b2d6-b462-f2ed-127b85cb7e53, direct3d11.d3d11_input_element_desc
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_INPUT_ELEMENT_DESC
 dev_langs:
@@ -100,7 +99,7 @@ An integer value that identifies the input-assembler (see input slot). Valid val
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Optional. Offset (in bytes) between each element. Use D3D11_APPEND_ALIGNED_ELEMENT for convenience to define the current element directly 
+Optional. Offset (in bytes) from the start of the vertex. Use D3D11_APPEND_ALIGNED_ELEMENT for convenience to define the current element directly 
         after the previous one, including any packing if necessary.
 
 

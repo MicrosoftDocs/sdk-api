@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 0b4c24d4-2588-412e-b3ec-dd73cbdac921
 ms.date: 12/05/2018
 ms.keywords: DeleteInterface, DeleteInterface callback function [RAS], PDELETE_INTERFACE, PDELETE_INTERFACE callback, _mpr_deleteinterface, routprot/DeleteInterface, rras.deleteinterface
-ms.topic: callback
 f1_keywords:
 - routprot/DeleteInterface
 dev_langs:

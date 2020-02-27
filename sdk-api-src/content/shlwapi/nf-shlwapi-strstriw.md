@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b0281641-1375-4815-a707-03e1ce7e5a29
 ms.date: 12/05/2018
 ms.keywords: StrStrI, StrStrI function [Windows Shell], StrStrIA, StrStrIW, _win32_StrStrI, shell.StrStrI, shlwapi/StrStrI, shlwapi/StrStrIA, shlwapi/StrStrIW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrStrI
 dev_langs:

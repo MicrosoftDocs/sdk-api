@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0c599647-c894-47b9-a62d-3ffd22843f7c
 ms.date: 12/05/2018
 ms.keywords: ChapterPlayAutoStop, ChapterPlayAutoStop method [DirectShow], ChapterPlayAutoStop method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ChapterPlayAutoStop method, IDvdControl.ChapterPlayAutoStop, IDvdControl::ChapterPlayAutoStop, IDvdControlChapterPlayAutoStop, dshow.idvdcontrol_chapterplayautostop, strmif/IDvdControl::ChapterPlayAutoStop
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.ChapterPlayAutoStop
 dev_langs:
@@ -91,7 +90,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 Chapters range from 1 through 999. See EC_DVD_CHAPTER_AUTOSTOP in <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-notification-codes">DVD Event Notification Codes</a> for more information.
 

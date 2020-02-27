@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7a77ecf6-49e4-4d91-a06e-80313b4b8957
 ms.date: 12/05/2018
 ms.keywords: GetTransportVideoParameters, GetTransportVideoParameters method [DirectShow], GetTransportVideoParameters method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetTransportVideoParameters method, IAMExtTransport.GetTransportVideoParameters, IAMExtTransport::GetTransportVideoParameters, IAMExtTransportGetTransportVideoParameters, dshow.iamexttransport_gettransportvideoparameters, strmif/IAMExtTransport::GetTransportVideoParameters
-ms.topic: method
 f1_keywords:
 - strmif/IAMExtTransport.GetTransportVideoParameters
 dev_langs:

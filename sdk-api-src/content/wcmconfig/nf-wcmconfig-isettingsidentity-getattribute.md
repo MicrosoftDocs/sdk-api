@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: d79bf4be-f3ed-426b-a880-b9ab8aee0092
 ms.date: 12/05/2018
 ms.keywords: GetAttribute, GetAttribute method [SMI], GetAttribute method [SMI],ISettingsIdentity interface, ISettingsIdentity interface [SMI],GetAttribute method, ISettingsIdentity.GetAttribute, ISettingsIdentity::GetAttribute, smi.isettingsidentity_getattribute, wcmconfig/ISettingsIdentity::GetAttribute
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsIdentity.GetAttribute
 dev_langs:

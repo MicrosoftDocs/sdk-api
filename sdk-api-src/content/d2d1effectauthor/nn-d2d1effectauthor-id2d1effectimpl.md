@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 3D87A908-FC57-4AA9-A508-C402D8413363
 ms.date: 12/05/2018
 ms.keywords: ID2D1EffectImpl, ID2D1EffectImpl interface [Direct2D], ID2D1EffectImpl interface [Direct2D],described, d2d1effectauthor/ID2D1EffectImpl, direct2d.id2d1effectimpl
-ms.topic: interface
 f1_keywords:
 - d2d1effectauthor/ID2D1EffectImpl
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 58fffdb4-71c4-4f84-ad0e-7efe5bdb78a7
 ms.date: 12/05/2018
 ms.keywords: VDS_ISCSI_INITIATOR_PORTAL_PROP, VDS_ISCSI_INITIATOR_PORTAL_PROP structure [VDS], _VDS_ISCSI_INITIATOR_PORTAL_PROP, base.vds_iscsi_initiator_portal_prop, vds/VDS_ISCSI_INITIATOR_PORTAL_PROP, vdshwprv/VDS_ISCSI_INITIATOR_PORTAL_PROP
-ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_ISCSI_INITIATOR_PORTAL_PROP
 dev_langs:

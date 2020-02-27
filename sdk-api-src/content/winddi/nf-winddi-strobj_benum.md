@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 82cb12ff-2baa-4291-849c-dab9d01fa39b
 ms.date: 12/05/2018
 ms.keywords: STROBJ_bEnum, STROBJ_bEnum function [Display Devices], display.strobj_benum, gdifncs_2925a0a5-f797-41a5-b5b1-d87d60d44905.xml, winddi/STROBJ_bEnum
-ms.topic: function
 f1_keywords:
 - winddi/STROBJ_bEnum
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3c312db3-a656-436c-a012-669553355fa5
 ms.date: 12/05/2018
 ms.keywords: IAssocHandler interface [Windows Shell],IsRecommended method, IAssocHandler.IsRecommended, IAssocHandler::IsRecommended, IsRecommended, IsRecommended method [Windows Shell], IsRecommended method [Windows Shell],IAssocHandler interface, _shell_IAssocHandler_IsRecommended, shell.IAssocHandler_IsRecommended, shobjidl_core/IAssocHandler::IsRecommended
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IAssocHandler.IsRecommended
 dev_langs:

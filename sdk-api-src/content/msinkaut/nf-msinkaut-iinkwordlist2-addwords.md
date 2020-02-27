@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 65afd260-f2ef-4744-a623-bcec4c742d61
 ms.date: 12/05/2018
 ms.keywords: 65afd260-f2ef-4744-a623-bcec4c742d61, AddWords, AddWords method [Tablet PC], AddWords method [Tablet PC],IInkWordList2 interface, IInkWordList2 interface [Tablet PC],AddWords method, IInkWordList2.AddWords, IInkWordList2::AddWords, msinkaut/IInkWordList2::AddWords, tablet.iinkwordlist2_addwords
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkWordList2.AddWords
 dev_langs:
@@ -156,7 +155,7 @@ An exception occurred inside the method.
 
 
 
-To access this method, first create and instance of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>, then call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> to get a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>. Use this pointer to call the <b>AddWords Method</b>.
+To access this method, first create and instance of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>, then call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to get a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>. Use this pointer to call the <b>AddWords Method</b>.
 
 
 

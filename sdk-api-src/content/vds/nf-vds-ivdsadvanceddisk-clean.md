@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 4052f294-d911-44c6-a57f-0a0a6f24df70
 ms.date: 12/05/2018
 ms.keywords: Clean, Clean method [VDS], Clean method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],Clean method, IVdsAdvancedDisk.Clean, IVdsAdvancedDisk::Clean, base.ivdsadvanceddisk_clean, vds/IVdsAdvancedDisk::Clean
-ms.topic: method
 f1_keywords:
 - vds/IVdsAdvancedDisk.Clean
 dev_langs:

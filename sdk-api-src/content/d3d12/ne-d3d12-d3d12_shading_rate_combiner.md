@@ -4,7 +4,6 @@ title: D3D12_SHADING_RATE_COMBINER
 description: Defines constants that specify a shading rate combiner (for variable-rate shading, or VRS).
 ms.date: 05/20/2019
 ms.keywords: D3D12_SHADING_RATE_COMBINER
-ms.topic: language-reference
 f1_keywords:
 - d3d12/D3D12_SHADING_RATE_COMBINER
 dev_langs:

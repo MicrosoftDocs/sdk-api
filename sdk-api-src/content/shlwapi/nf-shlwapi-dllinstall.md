@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d161f2ec-31e6-405e-b76c-9976b0880816
 ms.date: 12/05/2018
 ms.keywords: DllInstall, DllInstall function [Windows Shell], _win32_DllInstall, shell.DllInstall, shlwapi/DllInstall
-ms.topic: function
 f1_keywords:
 - shlwapi/DllInstall
 dev_langs:

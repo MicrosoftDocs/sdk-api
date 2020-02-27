@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: a47b7130-a3c3-44d2-a987-e78b7feb52d6
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDictionary interface [XPS Documents and Packaging],InsertAt method, IXpsOMDictionary.InsertAt, IXpsOMDictionary::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMDictionary interface, xps.ixpsomdictionary_insertat, xpsobjectmodel/IXpsOMDictionary::InsertAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDictionary.InsertAt
 dev_langs:
@@ -143,7 +142,7 @@ The figure that follows illustrates how the dictionary is changed by the <b>Inse
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

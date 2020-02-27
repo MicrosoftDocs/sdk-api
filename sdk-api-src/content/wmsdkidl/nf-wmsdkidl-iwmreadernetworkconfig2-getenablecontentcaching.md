@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: c8fdbb18-ba50-47e7-b7c9-858e6c452071
 ms.date: 12/05/2018
 ms.keywords: GetEnableContentCaching, GetEnableContentCaching method [windows Media Format], GetEnableContentCaching method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetEnableContentCaching method, IWMReaderNetworkConfig2.GetEnableContentCaching, IWMReaderNetworkConfig2::GetEnableContentCaching, IWMReaderNetworkConfig2GetEnableContentCaching, wmformat.iwmreadernetworkconfig2_getenablecontentcaching, wmsdkidl/IWMReaderNetworkConfig2::GetEnableContentCaching
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderNetworkConfig2.GetEnableContentCaching
 dev_langs:

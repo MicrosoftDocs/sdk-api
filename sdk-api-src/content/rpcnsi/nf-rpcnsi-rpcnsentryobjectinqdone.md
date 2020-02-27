@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: de1ed214-1018-498a-81a9-7932d4eead0b
 ms.date: 12/05/2018
 ms.keywords: RpcNsEntryObjectInqDone, RpcNsEntryObjectInqDone function [RPC], _rpc_rpcnsentryobjectinqdone, rpc.rpcnsentryobjectinqdone, rpcnsi/RpcNsEntryObjectInqDone
-ms.topic: function
 f1_keywords:
 - rpcnsi/RpcNsEntryObjectInqDone
 dev_langs:

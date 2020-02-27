@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 95c6f641-e0b1-4391-b4bd-b43c03a330b4
 ms.date: 12/05/2018
 ms.keywords: IWMSInternalAdminNetSource interface [windows Media Format],ShutdownProxyContext method, IWMSInternalAdminNetSource.ShutdownProxyContext, IWMSInternalAdminNetSource::ShutdownProxyContext, IWMSInternalAdminNetSourceShutdownProxyContext, ShutdownProxyContext, ShutdownProxyContext method [windows Media Format], ShutdownProxyContext method [windows Media Format],IWMSInternalAdminNetSource interface, wmformat.iwmsinternaladminnetsource_shutdownproxycontext, wmsinternaladminnetsource/IWMSInternalAdminNetSource::ShutdownProxyContext
-ms.topic: method
 f1_keywords:
 - wmsinternaladminnetsource/IWMSInternalAdminNetSource.ShutdownProxyContext
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: a75c2bca-eaac-4382-9211-fbc1b05f1414
 ms.date: 12/05/2018
 ms.keywords: GetVisualLocal, GetVisualLocal method [XPS Documents and Packaging], GetVisualLocal method [XPS Documents and Packaging],IXpsOMVisualBrush interface, IXpsOMVisualBrush interface [XPS Documents and Packaging],GetVisualLocal method, IXpsOMVisualBrush.GetVisualLocal, IXpsOMVisualBrush::GetVisualLocal, xps.ixpsomvisualbrush_getvisuallocal, xpsobjectmodel/IXpsOMVisualBrush::GetVisualLocal
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisualBrush.GetVisualLocal
 dev_langs:
@@ -179,7 +178,7 @@ This method returns an  <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

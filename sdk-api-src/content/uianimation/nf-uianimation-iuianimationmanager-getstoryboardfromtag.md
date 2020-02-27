@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 74a9265a-3602-4707-949e-6073cbde9ac4
 ms.date: 12/05/2018
 ms.keywords: GetStoryboardFromTag, GetStoryboardFromTag method [Windows Animation], GetStoryboardFromTag method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],GetStoryboardFromTag method, IUIAnimationManager.GetStoryboardFromTag, IUIAnimationManager::GetStoryboardFromTag, uianimation.iuianimationmanager_getstoryboardfromtag, uianimation/IUIAnimationManager::GetStoryboardFromTag
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationManager.GetStoryboardFromTag
 dev_langs:

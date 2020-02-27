@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 51d13adf-170e-4172-b752-c9dac5a96fa5
 ms.date: 12/05/2018
 ms.keywords: '*PCHARACTER_RANGE, 51d13adf-170e-4172-b752-c9dac5a96fa5, CHARACTER_RANGE, CHARACTER_RANGE structure [Tablet PC], rectypes/CHARACTER_RANGE, tablet.character_range'
-ms.topic: struct
 f1_keywords:
 - rectypes/CHARACTER_RANGE
 dev_langs:

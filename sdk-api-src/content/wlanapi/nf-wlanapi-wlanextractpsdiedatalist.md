@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 7fb6707f-c229-4386-9058-e290693a20ce
 ms.date: 12/05/2018
 ms.keywords: WlanExtractPsdIEDataList, WlanExtractPsdIEDataList function [NativeWIFI], nwifi.wlanextractpsdiedatalist, wlanapi/WlanExtractPsdIEDataList
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanExtractPsdIEDataList
 dev_langs:

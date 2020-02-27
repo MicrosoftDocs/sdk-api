@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 4d6b1fc8-91b4-4a49-b3aa-ce719ca23d32
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITcpConnectionInfo, IRDPSRAPITcpConnectionInfo interface [RDP], IRDPSRAPITcpConnectionInfo interface [RDP],described, rdp.irdpsrapitcpconnectioninfo, rdpencomapi/IRDPSRAPITcpConnectionInfo
-ms.topic: interface
 f1_keywords:
 - rdpencomapi/IRDPSRAPITcpConnectionInfo
 dev_langs:

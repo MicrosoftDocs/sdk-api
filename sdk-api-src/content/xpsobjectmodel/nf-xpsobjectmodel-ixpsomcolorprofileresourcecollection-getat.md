@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: ecb8b3e7-182f-446a-bc12-28762da1f930
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMColorProfileResourceCollection.GetAt, IXpsOMColorProfileResourceCollection::GetAt, xps.ixpsomcolorprofileresourcecollection_getat, xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMColorProfileResourceCollection.GetAt
 dev_langs:
@@ -103,7 +102,7 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

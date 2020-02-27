@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 4190337f-f9f6-4584-b667-6b96c1ce48c8
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromStringVector, InitPropVariantFromStringVector function [Windows Properties], properties.InitPropVariantFromStringVector, propvarutil/InitPropVariantFromStringVector, shell.InitPropVariantFromStringVector, shell_InitPropVariantFromStringVector
-ms.topic: function
 f1_keywords:
 - propvarutil/InitPropVariantFromStringVector
 dev_langs:

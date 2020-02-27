@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 535ffce0-54e2-483c-8b74-006b6f5e05f0
 ms.date: 12/05/2018
 ms.keywords: RPC_PROTSEQ_VECTOR, RPC_PROTSEQ_VECTOR structure [RPC], _rpc_rpc_protseq_vector, rpc.rpc_protseq_vector, rpcdce/RPC_PROTSEQ_VECTOR
-ms.topic: struct
 f1_keywords:
 - rpcdce/RPC_PROTSEQ_VECTOR
 dev_langs:

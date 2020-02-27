@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_deleteitem.htm
 ms.date: 12/05/2018
 ms.keywords: Header_DeleteItem, Header_DeleteItem macro [Windows Controls], _win32_Header_DeleteItem, _win32_Header_DeleteItem_cpp, commctrl/Header_DeleteItem, controls.Header_DeleteItem, controls._win32_Header_DeleteItem
-ms.topic: macro
 f1_keywords:
 - commctrl/Header_DeleteItem
 dev_langs:

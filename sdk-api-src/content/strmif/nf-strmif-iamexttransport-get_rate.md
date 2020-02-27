@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 35a2fb2b-0963-4bdb-86a4-b5950b48a834
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],get_Rate method, IAMExtTransport.get_Rate, IAMExtTransport::get_Rate, IAMExtTransportget_Rate, dshow.iamexttransport_get_rate, get_Rate, get_Rate method [DirectShow], get_Rate method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_Rate
-ms.topic: method
 f1_keywords:
 - strmif/IAMExtTransport.get_Rate
 dev_langs:

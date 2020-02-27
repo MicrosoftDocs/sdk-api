@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: 521322b6-3424-4321-bcba-fa8dcdc05a76
 ms.date: 12/05/2018
 ms.keywords: EvtRender, EvtRender function [EventLog], wes.evtrender, winevt/EvtRender
-ms.topic: function
 f1_keywords:
 - winevt/EvtRender
 dev_langs:

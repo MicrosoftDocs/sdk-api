@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: a0a0f0e9-d8b5-4b42-804b-66780f56b09a
 ms.date: 12/05/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetTransformLocal method, IXpsOMTileBrush.SetTransformLocal, IXpsOMTileBrush::SetTransformLocal, SetTransformLocal, SetTransformLocal method [XPS Documents and Packaging], SetTransformLocal method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_settransformlocal, xpsobjectmodel/IXpsOMTileBrush::SetTransformLocal
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMTileBrush.SetTransformLocal
 dev_langs:
@@ -195,7 +194,7 @@ Neither <b>SetTransformLocal</b> nor <a href="https://docs.microsoft.com/windows
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

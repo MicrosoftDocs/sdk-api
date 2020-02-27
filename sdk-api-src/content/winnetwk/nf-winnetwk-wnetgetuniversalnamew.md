@@ -7,7 +7,6 @@ tech.root: WNet
 ms.assetid: 12c02092-f2d5-4477-92a7-ae075b8a243a
 ms.date: 12/05/2018
 ms.keywords: REMOTE_NAME_INFO_LEVEL, UNIVERSAL_NAME_INFO_LEVEL, WNetGetUniversalName, WNetGetUniversalName function [Windows Networking (WNet)], WNetGetUniversalNameA, WNetGetUniversalNameW, _win32_wnetgetuniversalname, winnetwk/WNetGetUniversalName, winnetwk/WNetGetUniversalNameA, winnetwk/WNetGetUniversalNameW, wnet.wnetgetuniversalname
-ms.topic: function
 f1_keywords:
 - winnetwk/WNetGetUniversalName
 dev_langs:

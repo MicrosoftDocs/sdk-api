@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: BE77F5AD-82B1-4DB4-8BE0-8C066EA09424
 ms.date: 12/05/2018
 ms.keywords: CreateDevice, CreateDevice method [Direct2D], CreateDevice method [Direct2D],ID2D1Factory5 interface, ID2D1Factory5 interface [Direct2D],CreateDevice method, ID2D1Factory5.CreateDevice, ID2D1Factory5::CreateDevice, d2d1_3/ID2D1Factory5::CreateDevice, direct2d.id2d1factory5_createdevice
-ms.topic: method
 f1_keywords:
 - d2d1_3/ID2D1Factory5.CreateDevice
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: d40d39d9-41a4-42e1-b0d0-4a6299fd1cff
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_ClippedSourceRect method, IMSVidVideoRenderer.get_ClippedSourceRect, IMSVidVideoRenderer::get_ClippedSourceRect, IMSVidVideoRendererget_ClippedSourceRect, get_ClippedSourceRect, get_ClippedSourceRect method [Microsoft TV Technologies], get_ClippedSourceRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_clippedsourcerect, segment/IMSVidVideoRenderer::get_ClippedSourceRect
-ms.topic: method
 f1_keywords:
 - segment/IMSVidVideoRenderer.get_ClippedSourceRect
 dev_langs:

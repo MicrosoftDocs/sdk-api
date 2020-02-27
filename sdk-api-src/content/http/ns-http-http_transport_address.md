@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 2dac2817-c911-4ca1-afb1-32147a16ad4c
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_TRANSPORT_ADDRESS, HTTP_TRANSPORT_ADDRESS, HTTP_TRANSPORT_ADDRESS structure [HTTP], PHTTP_TRANSPORT_ADDRESS, PHTTP_TRANSPORT_ADDRESS structure pointer [HTTP], _http_http_transport_address, http.http_transport_address, http/HTTP_TRANSPORT_ADDRESS, http/PHTTP_TRANSPORT_ADDRESS'
-ms.topic: struct
 f1_keywords:
 - http/HTTP_TRANSPORT_ADDRESS
 dev_langs:

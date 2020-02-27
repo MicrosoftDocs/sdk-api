@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2cf03260-7abe-4602-8364-447d076a4f76
 ms.date: 12/05/2018
 ms.keywords: IMSVidAudioRendererDevices, IMSVidAudioRendererDevices interface [Microsoft TV Technologies], IMSVidAudioRendererDevices interface [Microsoft TV Technologies],described, IMSVidAudioRendererDevicesInterface, mstv.imsvidaudiorendererdevices, segment/IMSVidAudioRendererDevices
-ms.topic: interface
 f1_keywords:
 - segment/IMSVidAudioRendererDevices
 dev_langs:

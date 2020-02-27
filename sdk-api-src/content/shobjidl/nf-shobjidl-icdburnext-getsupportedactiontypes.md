@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 46d0fe58-b8aa-42a8-811e-9762185bb8cc
 ms.date: 12/05/2018
 ms.keywords: CDBE_TYPE_ALL, CDBE_TYPE_DATA, CDBE_TYPE_MUSIC, GetSupportedActionTypes, GetSupportedActionTypes method [Windows Shell], GetSupportedActionTypes method [Windows Shell],ICDBurnExt interface, ICDBurnExt interface [Windows Shell],GetSupportedActionTypes method, ICDBurnExt.GetSupportedActionTypes, ICDBurnExt::GetSupportedActionTypes, _shell_ICDBurnExt_GetSupportedActionTypes, shell.ICDBurnExt_GetSupportedActionTypes, shobjidl/ICDBurnExt::GetSupportedActionTypes
-ms.topic: method
 f1_keywords:
 - shobjidl/ICDBurnExt.GetSupportedActionTypes
 dev_langs:

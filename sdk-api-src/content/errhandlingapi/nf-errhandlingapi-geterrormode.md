@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 7673e4ab-bfc8-4c47-b40a-0ae1b4ec5506
 ms.date: 12/05/2018
 ms.keywords: GetErrorMode, GetErrorMode function, base.geterrormode, errhandlingapi/GetErrorMode
-ms.topic: function
 f1_keywords:
 - errhandlingapi/GetErrorMode
 dev_langs:

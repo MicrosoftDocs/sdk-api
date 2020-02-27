@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 3703A7C4-CFDC-4453-AA8F-6A5D6B7D3E66
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WriteBOOL, PSPropertyBag_WriteBOOL function [Windows Properties], properties.PSPropertyBag_WriteBOOL, propsys/PSPropertyBag_WriteBOOL, shell.PSPropertyBag_WriteBOOL, shell_PSPropertyBag_WriteBOOL
-ms.topic: function
 f1_keywords:
 - propsys/PSPropertyBag_WriteBOOL
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: 5E1762A8-8CC9-4EAE-BC79-91672994C1E3
 ms.date: 12/05/2018
 ms.keywords: IPhraseSink interface [search],PutPhrase method, IPhraseSink.PutPhrase, IPhraseSink::PutPhrase, PutPhrase, PutPhrase method [search], PutPhrase method [search],IPhraseSink interface, indexsrv/IPhraseSink::PutPhrase, search.iphrasesink_putphrase
-ms.topic: method
 f1_keywords:
 - indexsrv/IPhraseSink.PutPhrase
 dev_langs:

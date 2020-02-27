@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 38edfaaf-2c19-4836-b662-343312220032
 ms.date: 12/05/2018
 ms.keywords: DDENUM_ATTACHEDSECONDARYDEVICES, DDENUM_DETACHEDSECONDARYDEVICES, DDENUM_NONDISPLAYDEVICES, DirectDrawEnumerateEx, DirectDrawEnumerateEx function [DirectDraw], DirectDrawEnumerateExA, DirectDrawEnumerateExW, ddraw/DirectDrawEnumerateEx, ddraw/DirectDrawEnumerateExA, ddraw/DirectDrawEnumerateExW, directdraw.directdrawenumerateex
-ms.topic: function
 f1_keywords:
 - ddraw/DirectDrawEnumerateEx
 dev_langs:

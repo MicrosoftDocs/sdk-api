@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 8f3975eb-7cd2-449f-92cc-2b8773d9f37e
 ms.date: 12/05/2018
 ms.keywords: QACONTAINER, QACONTAINER structure [COM], _ctrl_QACONTAINER, com.qacontainer, ocidl/QACONTAINER
-ms.topic: struct
 f1_keywords:
 - ocidl/QACONTAINER
 dev_langs:
@@ -142,7 +141,7 @@ A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/i
 
 
 
-If an interface pointer in the <b>QACONTAINER</b> structure is <b>NULL</b> it does not indicate that the interface is not supported. In this situation, the control should use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> to obtain the interface pointer in the standard manner.
+If an interface pointer in the <b>QACONTAINER</b> structure is <b>NULL</b> it does not indicate that the interface is not supported. In this situation, the control should use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to obtain the interface pointer in the standard manner.
 
 
 

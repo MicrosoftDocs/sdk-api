@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: ddc77bfe-06de-43e6-9d74-f1b3531c9416
 ms.date: 12/05/2018
 ms.keywords: ITextStory interface [Windows Controls],SetFormattedText method, ITextStory.SetFormattedText, ITextStory::SetFormattedText, SetFormattedText, SetFormattedText method [Windows Controls], SetFormattedText method [Windows Controls],ITextStory interface, controls.itextstory_setformattedtext, tom/ITextStory::SetFormattedText
-ms.topic: method
 f1_keywords:
 - tom/ITextStory.SetFormattedText
 dev_langs:
@@ -121,7 +120,7 @@ Insufficient memory.
 
 
 
-This method calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> for an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a> interface.
+This method calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> for an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a> interface.
 
 
 

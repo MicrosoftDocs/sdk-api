@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 9decce55-599b-42c2-a715-84a6f4eefc33
 ms.date: 12/05/2018
 ms.keywords: GetRecordBroadcasterId, GetRecordBroadcasterId method [Microsoft TV Technologies], GetRecordBroadcasterId method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetRecordBroadcasterId method, IISDB_BIT.GetRecordBroadcasterId, IISDB_BIT::GetRecordBroadcasterId, dvbsiparser/IISDB_BIT::GetRecordBroadcasterId, mstv.iisdb_bit_getrecordbroadcasterid
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IISDB_BIT.GetRecordBroadcasterId
 dev_langs:

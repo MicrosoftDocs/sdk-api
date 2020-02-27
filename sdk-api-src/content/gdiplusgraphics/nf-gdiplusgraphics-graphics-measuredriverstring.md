@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\measuredriverstring.htm
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],MeasureDriverString method, Graphics.MeasureDriverString, Graphics::MeasureDriverString, MeasureDriverString, MeasureDriverString method [GDI+], MeasureDriverString method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_MeasureDriverString_text_length_font_positions_flags_matrix_boundingBox_, gdiplus._gdiplus_CLASS_Graphics_MeasureDriverString_text_length_font_positions_flags_matrix_boundingBox_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.MeasureDriverString
 dev_langs:

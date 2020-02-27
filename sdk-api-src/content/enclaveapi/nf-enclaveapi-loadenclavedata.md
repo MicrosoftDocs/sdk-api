@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: CC696026-FB74-4D91-BB40-17610DF41F8F
 ms.date: 12/05/2018
 ms.keywords: LoadEnclaveData, LoadEnclaveData function, base.loadenclavedata, enclaveapi/LoadEnclaveData
-ms.topic: function
 f1_keywords:
 - enclaveapi/LoadEnclaveData
 dev_langs:
@@ -26,8 +25,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
-req.dll: Api-ms-win-core-enclave-l1-1-0.dll; Kernel32.dll; KernelBase.dll
+req.lib: onecore.lib
+req.dll: Api-ms-win-core-enclave-l1-1-0.dll; kernel32.dll; KernelBase.dll
 req.irql: 
 topic_type:
 - APIRef

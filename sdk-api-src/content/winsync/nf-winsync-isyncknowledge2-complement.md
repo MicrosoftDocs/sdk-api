@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 12ad8a10-1edb-4ba0-9a16-64fe9fda0125
 ms.date: 12/05/2018
 ms.keywords: Complement, Complement method [Windows Sync], Complement method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],Complement method, ISyncKnowledge2.Complement, ISyncKnowledge2::Complement, winsync.isyncknowledge2_complement, winsync/ISyncKnowledge2::Complement
-ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge2.Complement
 dev_langs:

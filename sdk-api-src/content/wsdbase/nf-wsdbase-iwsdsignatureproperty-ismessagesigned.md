@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: ca91bb1e-b8a6-4cfe-850c-887b39ae239e
 ms.date: 12/05/2018
 ms.keywords: IWSDSignatureProperty interface,IsMessageSigned method, IWSDSignatureProperty.IsMessageSigned, IWSDSignatureProperty::IsMessageSigned, IsMessageSigned, IsMessageSigned method, IsMessageSigned method,IWSDSignatureProperty interface, ncd.iwsdsignatureproperty_ismessagesigned, wsdbase/IWSDSignatureProperty::IsMessageSigned
-ms.topic: method
 f1_keywords:
 - wsdbase/IWSDSignatureProperty.IsMessageSigned
 dev_langs:

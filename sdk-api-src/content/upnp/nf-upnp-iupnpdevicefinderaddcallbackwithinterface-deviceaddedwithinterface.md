@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: c7cd47e8-264b-4d1a-aed3-daf5801c240c
 ms.date: 12/05/2018
 ms.keywords: DeviceAddedWithInterface, DeviceAddedWithInterface method [UPnP APIs], DeviceAddedWithInterface method [UPnP APIs],IUPnPDeviceFinderAddCallbackWithInterface interface, IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs],DeviceAddedWithInterface method, IUPnPDeviceFinderAddCallbackWithInterface.DeviceAddedWithInterface, IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface, upnp.iupnpdevicefinderaddcallbackwithinterface_deviceaddedwithinterface, upnp/IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPDeviceFinderAddCallbackWithInterface.DeviceAddedWithInterface
 dev_langs:

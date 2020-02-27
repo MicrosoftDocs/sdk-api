@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 1e865f55-d703-4d91-8690-b816b5fe1a89
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariableChangeHandler interface [Windows Animation],OnValueChanged method, IUIAnimationVariableChangeHandler.OnValueChanged, IUIAnimationVariableChangeHandler::OnValueChanged, OnValueChanged, OnValueChanged method [Windows Animation], OnValueChanged method [Windows Animation],IUIAnimationVariableChangeHandler interface, uianimation.iuianimationvariablechangehandler_onvaluechanged, uianimation/IUIAnimationVariableChangeHandler::OnValueChanged
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationVariableChangeHandler.OnValueChanged
 dev_langs:

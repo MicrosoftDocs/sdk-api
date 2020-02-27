@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: e1715f2a-5928-44e6-afbf-f2f0ab0ba3dd
 ms.date: 12/05/2018
 ms.keywords: AVRF_ENUM_RESOURCES_FLAGS_DONT_RESOLVE_TRACES, AVRF_ENUM_RESOURCES_FLAGS_SUSPEND, AvrfResourceHandleTrace, AvrfResourceHeapAllocation, VerifierEnumerateResource, VerifierEnumerateResource function [Windows API], avrfsdk/VerifierEnumerateResource, base.verifierenumerateresource, winprog.verifierenumerateresource
-ms.topic: function
 f1_keywords:
 - avrfsdk/VerifierEnumerateResource
 dev_langs:

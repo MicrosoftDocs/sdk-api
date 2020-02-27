@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\matrixtransformpointsmethods.htm
 ms.date: 12/05/2018
 ms.keywords: Matrix.TransformPoints, Matrix::TransformPoints, TransformPoints, TransformPoints methods [GDI+], _gdiplus_CLASS_Matrix_TransformPoints_Methods, gdiplus._gdiplus_CLASS_Matrix_TransformPoints_Methods, gdiplusmatrix/TransformPoints
-ms.topic: method
 f1_keywords:
 - gdiplusmatrix/Matrix.TransformPoints
 dev_langs:

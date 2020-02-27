@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 036CD1E1-F4D7-46B9-A287-2728BA45348A
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleManifestPackageInfo2, IAppxBundleManifestPackageInfo2 interface [App packaging and management], IAppxBundleManifestPackageInfo2 interface [App packaging and management],described, appxpackaging/IAppxBundleManifestPackageInfo2, appxpkg.iappxbundlemanifestpackageinfo2
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxBundleManifestPackageInfo2
 dev_langs:

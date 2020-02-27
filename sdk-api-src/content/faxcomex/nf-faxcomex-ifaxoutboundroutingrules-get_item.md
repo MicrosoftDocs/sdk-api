@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_73xp_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingRules interface [Fax Service],get_Item method, IFaxOutboundRoutingRules.get_Item, IFaxOutboundRoutingRules::get_Item, _mfax_faxoutboundroutingrules.item_cpp, fax._mfax_faxoutboundroutingrules_item_cpp, faxcomex/IFaxOutboundRoutingRules::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxOutboundRoutingRules interface
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutboundRoutingRules.get_Item
 dev_langs:

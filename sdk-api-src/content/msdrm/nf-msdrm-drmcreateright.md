@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: 05074fbd-9268-41b4-a916-a932dc7a7858
 ms.date: 12/05/2018
 ms.keywords: DRMCreateRight, DRMCreateRight function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateRight, rm.drmcreateright
-ms.topic: function
 f1_keywords:
 - msdrm/DRMCreateRight
 dev_langs:

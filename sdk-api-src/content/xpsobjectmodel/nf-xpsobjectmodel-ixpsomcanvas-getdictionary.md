@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f32b534e-92bf-4e80-9ac1-b2577e076bed
 ms.date: 12/05/2018
 ms.keywords: GetDictionary, GetDictionary method [XPS Documents and Packaging], GetDictionary method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetDictionary method, IXpsOMCanvas.GetDictionary, IXpsOMCanvas::GetDictionary, xps.ixpsomcanvas_getdictionary, xpsobjectmodel/IXpsOMCanvas::GetDictionary
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCanvas.GetDictionary
 dev_langs:
@@ -170,7 +169,7 @@ After loading and parsing the resource into the XPS OM, this method might return
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

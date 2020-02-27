@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: FF868102-26FC-4541-9C21-0B8D6D4CF47B
 ms.date: 12/05/2018
 ms.keywords: D3D12_RLDO_DETAIL, D3D12_RLDO_FLAGS, D3D12_RLDO_FLAGS enumeration, D3D12_RLDO_IGNORE_INTERNAL, D3D12_RLDO_NONE, D3D12_RLDO_SUMMARY, d3d12sdklayers/D3D12_RLDO_DETAIL, d3d12sdklayers/D3D12_RLDO_FLAGS, d3d12sdklayers/D3D12_RLDO_IGNORE_INTERNAL, d3d12sdklayers/D3D12_RLDO_NONE, d3d12sdklayers/D3D12_RLDO_SUMMARY, direct3d12.d3d12_rldo_flags
-ms.topic: enum
 f1_keywords:
 - d3d12sdklayers/D3D12_RLDO_FLAGS
 dev_langs:

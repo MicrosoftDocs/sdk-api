@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 1D67D073-57E8-4562-8586-CAF2619995D7
 ms.date: 12/05/2018
 ms.keywords: IStringable, IStringable interface [Windows Runtime], IStringable interface [Windows Runtime],described, windows/IStringable, winrt.istringable
-ms.topic: interface
 f1_keywords:
 - windows.foundation/IStringable
 dev_langs:
@@ -84,7 +83,7 @@ Gets a string that represents the current object.
 
 
 
-<div class="alert"><b>Important</b>  Managed types should not implement the <b>IStringable</b> interface. For more info, see <a href="http://go.microsoft.com/fwlink/p/?LinkID=85776">Object.ToString Method</a>.</div>
+<div class="alert"><b>Important</b>  Managed types should not implement the <b>IStringable</b> interface. For more info, see <a href="https://msdn.microsoft.com/library/system.object.tostring.aspx">Object.ToString Method</a>.</div>
 <div> </div>
 
 

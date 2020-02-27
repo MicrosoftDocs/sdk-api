@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 1F9E948E-BE0B-4B7C-8693-5B01D1B4098F
 ms.date: 12/05/2018
 ms.keywords: FileSize property [Windows Deployment Services], FileSize property [Windows Deployment Services],IWdsTransportTftpClient interface, IWdsTransportTftpClient interface [Windows Deployment Services],FileSize property, IWdsTransportTftpClient.FileSize, IWdsTransportTftpClient.get_FileSize, IWdsTransportTftpClient::FileSize, IWdsTransportTftpClient::get_FileSize, get_FileSize, wds.iwdstransporttftpclient_filesize, wdstptmgmt/IWdsTransportTftpClient::FileSize, wdstptmgmt/IWdsTransportTftpClient::get_FileSize
-ms.topic: method
 f1_keywords:
 - wdstptmgmt/IWdsTransportTftpClient.FileSize
 dev_langs:

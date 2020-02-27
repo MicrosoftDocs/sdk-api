@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: e2e6be6f-3a9d-4d39-875f-cd23bc82e74b
 ms.date: 12/05/2018
 ms.keywords: GetSegmentData, GetSegmentData method [XPS Documents and Packaging], GetSegmentData method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentData method, IXpsOMGeometryFigure.GetSegmentData, IXpsOMGeometryFigure::GetSegmentData, xps.ixpsomgeometryfigure_getsegmentdata, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentData
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentData
 dev_langs:
@@ -450,7 +449,7 @@ The following code example accesses the different data points of each segment ty
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

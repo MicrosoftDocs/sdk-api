@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 4cc3cdeb-ebc5-46e1-8cc4-84b40e91323b
 ms.date: 12/05/2018
 ms.keywords: IConfigAviMux, IConfigAviMux interface [DirectShow], IConfigAviMux interface [DirectShow],described, IConfigAviMuxInterface, dshow.iconfigavimux, strmif/IConfigAviMux
-ms.topic: interface
 f1_keywords:
 - strmif/IConfigAviMux
 dev_langs:
@@ -54,7 +53,7 @@ ms.custom: 19H1
 
 The <code>IConfigAviMux</code> interface configures the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-mux-filter">AVI Mux</a> filter. Applications can use this interface to set the master stream and to create an AVI 1.0 index.
 
-<code>IConfigAviMux</code> provides backward compatibility with older Video for Windows (VFW) Audio-Video Interleaved (AVI) index formats (idx1) as well as extended AVI 2.0 index formats (indx) to allow for file sizes greater than 1 gigabyte (GB). Set and retrieve the compatibility indexes by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/nf-strmif-iconfigavimux-setoutputcompatibilityindex">IConfigAviMux::SetOutputCompatibilityIndex</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/nf-strmif-iconfigavimux-getoutputcompatibilityindex">IConfigAviMux::GetOutputCompatibilityIndex</a> methods.
+[IConfigAviMux::GetOutputCompatibilityIndex](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfigavimux-getoutputcompatibilityindex) methods.
 
 
 

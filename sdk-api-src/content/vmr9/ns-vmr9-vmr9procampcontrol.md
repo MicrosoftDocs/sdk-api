@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c4395344-e659-4e5a-aba0-ee27e65fe2cc
 ms.date: 12/05/2018
 ms.keywords: VMR9ProcAmpControl, VMR9ProcAmpControl structure [DirectShow], VMR9ProcAmpControlStructure, dshow.vmr9procampcontrol, vmr9/VMR9ProcAmpControl
-ms.topic: struct
 f1_keywords:
 - vmr9/VMR9ProcAmpControl
 dev_langs:

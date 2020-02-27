@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\hatchbrushclass\hatchbrush_47hatchstyle_forecolor_backcolor.htm
 ms.date: 12/05/2018
 ms.keywords: HatchBrush, HatchBrush class [GDI+],HatchBrush constructor, HatchBrush constructor [GDI+], HatchBrush constructor [GDI+],HatchBrush class, HatchBrush.HatchBrush, HatchBrush.HatchBrush(IN HatchStyle,IN const Color &,IN const Color &), HatchBrush::HatchBrush, HatchBrush::HatchBrush(IN HatchStyle,IN const Color &,IN const Color &), _gdiplus_CLASS_HatchBrush_HatchBrush_hatchStyle_foreColor_backColor_, gdiplus._gdiplus_CLASS_HatchBrush_HatchBrush_hatchStyle_foreColor_backColor_
-ms.topic: method
 f1_keywords:
 - gdiplusbrush/HatchBrush.HatchBrush
 dev_langs:
@@ -45,35 +44,27 @@ req.product: GDI+ 1.0
 ms.custom: 19H1
 ---
 
-# HatchBrush::HatchBrush(IN HatchStyle,IN const Color &,IN const Color &)
-
-
 ## -description
-
 
 Creates a <b>HatchBrush::HatchBrush</b> object based on a hatch style, a foreground color, and a background color.
 
-
 ## -parameters
 
-
-
-
-#### - hatchStyle [in]
+### -param hatchStyle [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hatchstyle">HatchStyle</a></b>
 
 Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hatchstyle">HatchStyle</a> enumeration that specifies the pattern of hatch lines that will be used. 
 
 
-#### - foreColor [in, ref]
+### -param foreColor [in, ref]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a></b>
 
 Reference to a color to use for the hatch lines. 
 
 
-#### - backColor [in, ref]
+### -param backColor [in, ref]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a></b>
 

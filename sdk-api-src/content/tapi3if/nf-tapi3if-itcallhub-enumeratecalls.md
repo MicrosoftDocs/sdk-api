@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: becacf70-0ae7-419c-a53f-c6172278d29f
 ms.date: 12/05/2018
 ms.keywords: EnumerateCalls, EnumerateCalls method [TAPI 2.2], EnumerateCalls method [TAPI 2.2],ITCallHub interface, ITCallHub interface [TAPI 2.2],EnumerateCalls method, ITCallHub.EnumerateCalls, ITCallHub::EnumerateCalls, _tapi3_itcallhub_enumeratecalls, tapi3.itcallhub_enumeratecalls, tapi3if/ITCallHub::EnumerateCalls
-ms.topic: method
 f1_keywords:
 - tapi3if/ITCallHub.EnumerateCalls
 dev_langs:

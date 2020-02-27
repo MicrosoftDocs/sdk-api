@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 59fc7202-0e03-4eaa-b3ca-7d55be767b1a
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetHwProfileList, SetupDiGetHwProfileList function [Device and Driver Installation], devinst.setupdigethwprofilelist, di-rtns_fb906b00-dab3-4cb0-88a9-b54f719211c9.xml, setupapi/SetupDiGetHwProfileList
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetHwProfileList
 dev_langs:
@@ -70,7 +69,7 @@ The number of DWORDs in the <i>HwProfileList</i> buffer.
 
 ### -param RequiredSize [out]
 
-A pointer to a variable of type DWORD that receives the number of hardware profiles currently defined. If the number is larger than <i>HwProfileListSize</i>, the list is truncated to fit the array size. The value returned in <i>RequiredSize</i> indicates the array size required to store the entire list of hardware profiles. In this case, the function fails and a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER.
+A pointer to a variable of type DWORD that receives the number of hardware profiles currently defined. If the number is larger than <i>HwProfileListSize</i>, the list is truncated to fit the array size. The value returned in <i>RequiredSize</i> indicates the array size required to store the entire list of hardware profiles. In this case, the function fails and a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER.
 
 
 ### -param CurrentlyActiveIndex [out, optional]
@@ -82,7 +81,7 @@ A pointer to a variable of type DWORD that receives the index of the currently a
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 

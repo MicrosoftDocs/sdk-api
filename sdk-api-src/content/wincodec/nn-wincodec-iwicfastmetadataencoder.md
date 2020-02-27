@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: c7b57a71-f1fe-4e30-a52e-72ab6ce021f7
 ms.date: 12/05/2018
 ms.keywords: IWICFastMetadataEncoder, IWICFastMetadataEncoder interface [Windows Imaging Component], IWICFastMetadataEncoder interface [Windows Imaging Component],described, _wic_codec_iwicfastmetadataencoder, wic._wic_codec_iwicfastmetadataencoder, wincodec/IWICFastMetadataEncoder
-ms.topic: interface
 f1_keywords:
 - wincodec/IWICFastMetadataEncoder
 dev_langs:

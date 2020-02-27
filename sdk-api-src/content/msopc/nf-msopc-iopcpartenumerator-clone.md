@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: b2719b6b-dcbd-4f8b-bb53-42114b95d6b3
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcPartEnumerator interface, IOpcPartEnumerator interface [Open Packaging Conventions],Clone method, IOpcPartEnumerator.Clone, IOpcPartEnumerator::Clone, msopc/IOpcPartEnumerator::Clone, opc.iopcpartenumerator_clone
-ms.topic: method
 f1_keywords:
 - msopc/IOpcPartEnumerator.Clone
 dev_langs:

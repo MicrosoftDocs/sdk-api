@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: B142D5CC-7321-4F3C-804D-50E728C37D10
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectForMetadataCommands, ISpatialAudioObjectForMetadataCommands interface [Core Audio], ISpatialAudioObjectForMetadataCommands interface [Core Audio],described, coreaudio.ispatialaudioobjectformetadatacommands, spatialaudiometadata/ISpatialAudioObjectForMetadataCommands
-ms.topic: interface
 f1_keywords:
 - spatialaudiometadata/ISpatialAudioObjectForMetadataCommands
 dev_langs:

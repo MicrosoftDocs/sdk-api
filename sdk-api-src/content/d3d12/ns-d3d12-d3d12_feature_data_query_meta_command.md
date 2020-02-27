@@ -4,7 +4,6 @@ title: D3D12_FEATURE_DATA_QUERY_META_COMMAND
 description: Indicates the level of support that the adapter provides for metacommands.
 ms.date: 09/19/2019
 ms.keywords: D3D12_FEATURE_DATA_QUERY_META_COMMAND
-ms.topic: language-reference
 f1_keywords:
 - d3d12/D3D12_FEATURE_DATA_QUERY_META_COMMAND
 dev_langs:

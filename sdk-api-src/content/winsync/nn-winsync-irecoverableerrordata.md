@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: e99779ef-87c9-45ac-93dc-53ee1a201402
 ms.date: 12/05/2018
 ms.keywords: IRecoverableErrorData, IRecoverableErrorData interface [Windows Sync], IRecoverableErrorData interface [Windows Sync],described, winsync.irecoverableerrordata, winsync/IRecoverableErrorData
-ms.topic: interface
 f1_keywords:
 - winsync/IRecoverableErrorData
 dev_langs:

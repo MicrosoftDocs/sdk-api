@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 16D52CA2-1495-407C-9B88-CF4D4C90BAFA
 ms.date: 12/05/2018
 ms.keywords: IDXGIDebug1, IDXGIDebug1 interface [DXGI], IDXGIDebug1 interface [DXGI],described, direct3ddxgi.idxgidebug1, dxgidebug/IDXGIDebug1
-ms.topic: interface
 f1_keywords:
 - dxgidebug/IDXGIDebug1
 dev_langs:

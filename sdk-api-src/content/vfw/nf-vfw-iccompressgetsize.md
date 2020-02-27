@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 6cb85b0b-4a05-44f7-af61-303a94b49847
 ms.date: 12/05/2018
 ms.keywords: ICCompressGetSize, ICCompressGetSize macro [Windows Multimedia], _win32_ICCompressGetSize, multimedia.iccompressgetsize, vfw/ICCompressGetSize
-ms.topic: macro
 f1_keywords:
 - vfw/ICCompressGetSize
 dev_langs:

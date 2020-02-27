@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7bde850e-662f-4610-bac3-914c93584b30
 ms.date: 12/05/2018
 ms.keywords: IAsyncReader interface [DirectShow],RequestAllocator method, IAsyncReader.RequestAllocator, IAsyncReader::RequestAllocator, IAsyncReaderRequestAllocator, RequestAllocator, RequestAllocator method [DirectShow], RequestAllocator method [DirectShow],IAsyncReader interface, dshow.iasyncreader_requestallocator, strmif/IAsyncReader::RequestAllocator
-ms.topic: method
 f1_keywords:
 - strmif/IAsyncReader.RequestAllocator
 dev_langs:
@@ -69,7 +68,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn
 
 ### -param pProps [in]
 
-Specifies the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties">ALLOCATOR_PROPERTIES</a> structure, allocated by the caller. The caller should fill in any allocator properties that the input pin requires, and set the remaining members to zero.
+Specifies the address of an [ALLOCATOR_PROPERTIES](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure, allocated by the caller. The caller should fill in any allocator properties that the input pin requires, and set the remaining members to zero.
 
 
 ### -param ppActual [out]

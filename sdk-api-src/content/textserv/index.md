@@ -1,9 +1,10 @@
 ---
 UID: NA:textserv
+title: Textserv.h header
 ms.assetid: f2785495-36a5-348b-9714-670f80cb85b0
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: controls
 ---
 

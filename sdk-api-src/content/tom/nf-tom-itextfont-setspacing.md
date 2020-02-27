@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setspacing.htm
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetSpacing method, ITextFont.SetSpacing, ITextFont::SetSpacing, SetSpacing, SetSpacing method [Windows Controls], SetSpacing method [Windows Controls],ITextFont interface, _win32_ITextFont_SetSpacing, _win32_ITextFont_SetSpacing_cpp, controls.ITextFont_SetSpacing, controls._win32_ITextFont_SetSpacing, tom/ITextFont::SetSpacing
-ms.topic: method
 f1_keywords:
 - tom/ITextFont.SetSpacing
 dev_langs:

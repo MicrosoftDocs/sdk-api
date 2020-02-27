@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__checkdeviceformat.htm
 ms.date: 12/05/2018
 ms.keywords: CheckDeviceFormat, CheckDeviceFormat method [Direct3D 9], CheckDeviceFormat method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],CheckDeviceFormat method, IDirect3D9.CheckDeviceFormat, IDirect3D9::CheckDeviceFormat, d3d9helper/IDirect3D9::CheckDeviceFormat, daa5cafd-0b8b-a747-98fe-eb9db7acde6d, direct3d9.idirect3d9__checkdeviceformat
-ms.topic: method
 f1_keywords:
 - d3d9/IDirect3D9.CheckDeviceFormat
 dev_langs:

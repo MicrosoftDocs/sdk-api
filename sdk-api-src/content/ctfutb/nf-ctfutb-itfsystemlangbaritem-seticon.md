@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 6b83e2ec-ac2f-4fd6-8c7c-70b00baafdc1
 ms.date: 12/05/2018
 ms.keywords: ITfSystemLangBarItem interface [Text Services Framework],SetIcon method, ITfSystemLangBarItem.SetIcon, ITfSystemLangBarItem::SetIcon, SetIcon, SetIcon method [Text Services Framework], SetIcon method [Text Services Framework],ITfSystemLangBarItem interface, _tsf_itfsystemlangbaritem_seticon_ref, ctfutb/ITfSystemLangBarItem::SetIcon, tsf.itfsystemlangbaritem_seticon
-ms.topic: method
 f1_keywords:
 - ctfutb/ITfSystemLangBarItem.SetIcon
 dev_langs:

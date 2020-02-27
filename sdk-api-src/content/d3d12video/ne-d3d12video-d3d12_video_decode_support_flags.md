@@ -5,7 +5,6 @@ description: Specifies whether a video decoding operation is supported.
 tech.root: mf
 ms.assetid: af73b6a9-3d14-4242-b0b3-b1783ebf2c7b
 ms.date: 05/28/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_VIDEO_DECODE_SUPPORT_FLAGS
 dev_langs:
@@ -51,8 +50,8 @@ The video decoding operation is supported.
 
 ## -remarks
 
-This enumeration is used by the [D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT](ns-d3d12video-d3d12_feature_data_video_decode_support) structure.
+This enumeration is used by the [D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT](ns-d3d12video-d3d12_feature_data_video_decode_support.md) structure.
 
 ## -see-also
 
-[D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT](ns-d3d12video-d3d12_feature_data_video_decode_support)
+[D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT](ns-d3d12video-d3d12_feature_data_video_decode_support.md)

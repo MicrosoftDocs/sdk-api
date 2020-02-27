@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\rowsetevent_type.htm
 ms.date: 12/05/2018
 ms.keywords: ROWSETEVENT_TYPE, ROWSETEVENT_TYPE enumeration [search], ROWSETEVENT_TYPE_DATAEXPIRED, ROWSETEVENT_TYPE_FOREGROUNDLOST, ROWSETEVENT_TYPE_SCOPESTATISTICS, _search_ROWSETEVENT_TYPE, search._search_ROWSETEVENT_TYPE, searchapi/ROWSETEVENT_TYPE, searchapi/ROWSETEVENT_TYPE_DATAEXPIRED, searchapi/ROWSETEVENT_TYPE_FOREGROUNDLOST, searchapi/ROWSETEVENT_TYPE_SCOPESTATISTICS
-ms.topic: enum
 f1_keywords:
 - searchapi/ROWSETEVENT_TYPE
 dev_langs:
@@ -90,7 +89,7 @@ The <b>ROWSETEVENT_TYPE_SCOPESTATISTICS</b> event gives you the same information
 <li>This event is guaranteed to raise a "bounce zero" state (zero items remaining to be added, zero modifies remaining), provided that a non-zero event has been raised.</li>
 <li>The indexer may process items without sending this event, if the queue empties before the statistics event frequency.</li>
 </ul>
-The SearchEvents code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to prioritize indexing events.
+The SearchEvents code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to prioritize indexing events.
 
 
 

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 30b5d8f7-e3ab-48e4-aefe-3b3e04aba638
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [DirectShow], Flush method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],Flush method, IMediaStreamFilter.Flush, IMediaStreamFilter::Flush, IMediaStreamFilterFlush, amstream/IMediaStreamFilter::Flush, dshow.imediastreamfilter_flush
-ms.topic: method
 f1_keywords:
 - amstream/IMediaStreamFilter.Flush
 dev_langs:

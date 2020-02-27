@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: ac7600dd-3943-46cf-ad2d-f33d0099f2af
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],SuspendGroup method, IBackgroundCopyGroup.SuspendGroup, IBackgroundCopyGroup::SuspendGroup, SuspendGroup, SuspendGroup method [BITS], SuspendGroup method [BITS],IBackgroundCopyGroup interface, bits.ibackgroundcopygroup_suspendgroup, qmgr/IBackgroundCopyGroup::SuspendGroup
-ms.topic: method
 f1_keywords:
 - qmgr/IBackgroundCopyGroup.SuspendGroup
 dev_langs:

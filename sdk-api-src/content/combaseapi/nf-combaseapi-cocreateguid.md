@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 8d5cedea-8c2b-4918-99db-1a000989f178
 ms.date: 12/05/2018
 ms.keywords: CoCreateGuid, CoCreateGuid function [COM], _com_CoCreateGuid, com.cocreateguid, combaseapi/CoCreateGuid
-ms.topic: function
 f1_keywords:
 - combaseapi/CoCreateGuid
 dev_langs:

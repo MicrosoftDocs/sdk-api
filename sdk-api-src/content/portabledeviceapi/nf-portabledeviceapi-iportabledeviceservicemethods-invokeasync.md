@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: 0acf416c-4d59-4eb5-b1ce-aef848b54949
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceServiceMethods interface [Windows Portable Devices SDK],InvokeAsync method, IPortableDeviceServiceMethods.InvokeAsync, IPortableDeviceServiceMethods::InvokeAsync, InvokeAsync, InvokeAsync method [Windows Portable Devices SDK], InvokeAsync method [Windows Portable Devices SDK],IPortableDeviceServiceMethods interface, portabledeviceapi/IPortableDeviceServiceMethods::InvokeAsync, wpdsdk.iportabledeviceservicemethods_invokeasync
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDeviceServiceMethods.InvokeAsync
 dev_langs:

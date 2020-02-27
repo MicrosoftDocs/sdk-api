@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 7c304d9c-69b6-48fc-bb1b-f49d1ac8ede4
 ms.date: 12/05/2018
 ms.keywords: IGetClusterNetworkInfo, IGetClusterNetworkInfo interface [Failover Cluster], IGetClusterNetworkInfo interface [Failover Cluster],described, _wolf_igetclusternetworkinfo, cluadmex/IGetClusterNetworkInfo, mscs.igetclusternetworkinfo
-ms.topic: interface
 f1_keywords:
 - cluadmex/IGetClusterNetworkInfo
 dev_langs:
@@ -114,7 +113,7 @@ If the object being extended is not a network, queries for
 </ul>
 Failover Cluster Administrator passes in an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer, 
      <i>piData</i>. Use <i>piData</i> to call 
-     <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> for one of the 
+     <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for one of the 
      <b>IGetClusterNetworkInfo</b> methods.
 
 

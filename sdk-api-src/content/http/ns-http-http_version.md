@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 8f97410c-27b5-4225-849e-ee55e4c5f762
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_VERSION, HTTP_VERSION, HTTP_VERSION structure [HTTP], PHTTP_VERSION, PHTTP_VERSION structure pointer [HTTP], _http_http_version, http.http_version, http/HTTP_VERSION, http/PHTTP_VERSION'
-ms.topic: struct
 f1_keywords:
 - http/HTTP_VERSION
 dev_langs:
@@ -75,7 +74,7 @@ Minor version of the HTTP protocol.
 
 
 For more information about the HTTP protocol, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a>.
+<a href="https://www.ietf.org/rfc/rfc2616.txt">RFC 2616</a>.
 
 The following macros define various versions of the HTTP protocol:"#define HTTP_VERSION_UNKNOWN    { 0, 0 }""#define HTTP_VERSION_0_9        { 0, 9 }""#define HTTP_VERSION_1_0        { 1, 0 }""#define HTTP_VERSION_1_1        { 1, 1 }"
 

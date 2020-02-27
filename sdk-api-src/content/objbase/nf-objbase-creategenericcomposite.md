@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 7fe5b3ff-6e9b-4a28-93d3-52c76d3e8b77
 ms.date: 12/05/2018
 ms.keywords: CreateGenericComposite, CreateGenericComposite function [COM], _com_CreateGenericComposite, com.creategenericcomposite, objbase/CreateGenericComposite
-ms.topic: function
 f1_keywords:
 - objbase/CreateGenericComposite
 dev_langs:

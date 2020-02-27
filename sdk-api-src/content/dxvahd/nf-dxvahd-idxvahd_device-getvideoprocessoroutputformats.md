@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e701014d-c112-42fa-9bf5-88cb31424006
 ms.date: 12/05/2018
 ms.keywords: GetVideoProcessorOutputFormats, GetVideoProcessorOutputFormats method [Media Foundation], GetVideoProcessorOutputFormats method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorOutputFormats method, IDXVAHD_Device.GetVideoProcessorOutputFormats, IDXVAHD_Device::GetVideoProcessorOutputFormats, dxvahd/IDXVAHD_Device::GetVideoProcessorOutputFormats, mf.idxvahd_device_getvideoprocessoroutputformats
-ms.topic: method
 f1_keywords:
 - dxvahd/IDXVAHD_Device.GetVideoProcessorOutputFormats
 dev_langs:

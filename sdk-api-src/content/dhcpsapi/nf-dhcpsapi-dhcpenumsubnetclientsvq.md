@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 4e5cd074-1e1f-43cb-9c8b-e1cca0b8f2a8
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumSubnetClientsVQ, DhcpEnumSubnetClientsVQ function [DHCP], dhcp.dhcpenumsubnetclientsvq, dhcpsapi/DhcpEnumSubnetClientsVQ
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpEnumSubnetClientsVQ
 dev_langs:

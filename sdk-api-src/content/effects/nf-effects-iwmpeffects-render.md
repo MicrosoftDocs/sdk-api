@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 9040c309-5e45-41d2-9a02-b17c6d764f59
 ms.date: 12/05/2018
 ms.keywords: EffectsRender, IWMPEffects interface [Windows Media Player],Render method, IWMPEffects.Render, IWMPEffects::Render, Render, Render method [Windows Media Player], Render method [Windows Media Player],IWMPEffects interface, effects/IWMPEffects::Render, wmp.iwmpeffects_render
-ms.topic: method
 f1_keywords:
 - effects/IWMPEffects.Render
 dev_langs:

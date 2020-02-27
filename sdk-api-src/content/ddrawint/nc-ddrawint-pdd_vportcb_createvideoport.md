@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: eeaf3cda-6220-4e8e-8f9e-9f52d1b05ab7
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortCreate, DdVideoPortCreate callback function [Display Devices], PDD_VPORTCB_CREATEVIDEOPORT, PDD_VPORTCB_CREATEVIDEOPORT callback, ddfncs_abbd3ac5-70a9-40ff-a22d-42c49eda1c96.xml, ddrawint/DdVideoPortCreate, display.ddvideoportcreate
-ms.topic: callback
 f1_keywords:
 - ddrawint/DdVideoPortCreate
 dev_langs:

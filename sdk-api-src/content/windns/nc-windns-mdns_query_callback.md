@@ -4,7 +4,6 @@ title: MDNS_QUERY_CALLBACK callback function
 description: Used to asynchronously return the results of an mDNS query.
 ms.date: 02/19/2019
 ms.keywords: MDNS_QUERY_CALLBACK
-ms.topic: language-reference
 f1_keywords:
 - windns/MDNS_QUERY_CALLBACK
 dev_langs:

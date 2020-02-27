@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: d7ed986d-d62e-4723-ab74-85c3edfdf4ff
 ms.date: 12/05/2018
 ms.keywords: DeleteIPAddress, DeleteIPAddress function [IP Helper], _iphlp_deleteipaddress, iphlp.deleteipaddress, iphlpapi/DeleteIPAddress
-ms.topic: function
 f1_keywords:
 - iphlpapi/DeleteIPAddress
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 09aa1f67-c858-4bef-9a98-ce25ebcc1d4e
 ms.date: 12/05/2018
 ms.keywords: '*PGROUP_FILTER, GROUP_FILTER, GROUP_FILTER structure [Winsock], MCAST_EXCLUDE, MCAST_INCLUDE, PGROUP_FILTER, PGROUP_FILTER structure pointer [Winsock], winsock.group_filter, ws2ipdef/GROUP_FILTER, ws2ipdef/PGROUP_FILTER'
-ms.topic: struct
 f1_keywords:
 - ws2ipdef/GROUP_FILTER
 dev_langs:
@@ -121,7 +120,7 @@ An array of <a href="https://docs.microsoft.com/previous-versions/windows/deskto
 
 The <b>GROUP_FILTER</b> structure is used with either IPv6 or IPv4 multicast addresses. The <b>GROUP_FILTER</b> structure is passed as an argument  for the <b>SIOCGMSFILTER</b> and <b>SIOCSMSFILTER</b> IOCTLs.  
 
-The <b>GROUP_FILTER</b> structure and related structures used for multicast programming are based on IETF recommendations in sections 5 and 8.2  of RFC 3768. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=87353">http://www.ietf.org/rfc/rfc3678.txt</a>.
+The <b>GROUP_FILTER</b> structure and related structures used for multicast programming are based on IETF recommendations in sections 5 and 8.2  of RFC 3768. For more information, see <a href="http://tools.ietf.org/html/rfc3678">http://www.ietf.org/rfc/rfc3678.txt</a>.
 
 On Windows Vista and later, a set of socket options are available for multicast programming that support IPv6 and IPv4 addresses. These socket options are IP agnostic and can be used on both IPv6 and IPv4. These IP agnostic options use the <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_req">GROUP_REQ</a> and the <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_source_req">GROUP_SOURCE_REQ</a> structures and are the preferred socket options for multicast programming on Windows Vista and later.
 

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 3d8b7892-a120-452a-b83c-474df9be5f52
 ms.date: 12/05/2018
 ms.keywords: 3d8b7892-a120-452a-b83c-474df9be5f52, DrawStroke, DrawStroke method [Tablet PC], DrawStroke method [Tablet PC],IInkRenderer interface, IInkRenderer interface [Tablet PC],DrawStroke method, IInkRenderer.DrawStroke, IInkRenderer::DrawStroke, msinkaut/IInkRenderer::DrawStroke, tablet.inkrenderer_drawstroke
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRenderer.DrawStroke
 dev_langs:

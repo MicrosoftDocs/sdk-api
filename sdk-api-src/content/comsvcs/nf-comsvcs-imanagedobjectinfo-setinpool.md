@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: fef3842f-acf7-4aff-801d-17343633be8c
 ms.date: 12/05/2018
 ms.keywords: IManagedObjectInfo interface [COM+],SetInPool method, IManagedObjectInfo.SetInPool, IManagedObjectInfo::SetInPool, SetInPool, SetInPool method [COM+], SetInPool method [COM+],IManagedObjectInfo interface, _cos_IManagedObjectInfo_SetInPool, comsvcs/IManagedObjectInfo::SetInPool, cos.imanagedobjectinfo_setinpool
-ms.topic: method
 f1_keywords:
 - comsvcs/IManagedObjectInfo.SetInPool
 dev_langs:

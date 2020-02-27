@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 9dfc0efc-d274-45a6-b1ab-30f6215fbed8
 ms.date: 12/05/2018
 ms.keywords: 9dfc0efc-d274-45a6-b1ab-30f6215fbed8, GetProperties, GetProperties method [Media Foundation], GetProperties method [Media Foundation],IMFClock interface, IMFClock interface [Media Foundation],GetProperties method, IMFClock.GetProperties, IMFClock::GetProperties, mf.imfclock_getproperties, mfidl/IMFClock::GetProperties
-ms.topic: method
 f1_keywords:
 - mfidl/IMFClock.GetProperties
 dev_langs:

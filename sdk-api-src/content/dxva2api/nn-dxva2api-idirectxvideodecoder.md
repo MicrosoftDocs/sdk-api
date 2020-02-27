@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 116c19a3-39be-4f96-969f-f3d62ed33a70
 ms.date: 12/05/2018
 ms.keywords: 116c19a3-39be-4f96-969f-f3d62ed33a70, IDirectXVideoDecoder, IDirectXVideoDecoder interface [Media Foundation], IDirectXVideoDecoder interface [Media Foundation],described, dxva2api/IDirectXVideoDecoder, mf.idirectxvideodecoder
-ms.topic: interface
 f1_keywords:
 - dxva2api/IDirectXVideoDecoder
 dev_langs:

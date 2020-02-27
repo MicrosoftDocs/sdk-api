@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: dcbfcc13-5a8f-4062-baef-899f81413768
 ms.date: 12/05/2018
 ms.keywords: ISyncSessionState2 interface [Windows Sync],SetProviderWithError method, ISyncSessionState2.SetProviderWithError, ISyncSessionState2::SetProviderWithError, SetProviderWithError, SetProviderWithError method [Windows Sync], SetProviderWithError method [Windows Sync],ISyncSessionState2 interface, winsync.isyncsessionstate2_setproviderwitherror, winsync/ISyncSessionState2::SetProviderWithError
-ms.topic: method
 f1_keywords:
 - winsync/ISyncSessionState2.SetProviderWithError
 dev_langs:

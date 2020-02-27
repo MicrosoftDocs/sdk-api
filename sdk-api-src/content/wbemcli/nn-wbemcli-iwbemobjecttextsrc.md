@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: b86fd54e-15a8-4a08-ba29-5bc086ababf8
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectTextSrc, IWbemObjectTextSrc interface [Windows Management Instrumentation], IWbemObjectTextSrc interface [Windows Management Instrumentation],described, WbemObjectTextSrc, _hmm_iwbemobjecttextsrc, wbemcli/IWbemObjectTextSrc, wmi.iwbemobjecttextsrc
-ms.topic: interface
 f1_keywords:
 - wbemcli/IWbemObjectTextSrc
 dev_langs:

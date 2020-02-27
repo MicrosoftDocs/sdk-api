@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 17c5f2ba-d526-4b00-9649-8fd73d70bc79
 ms.date: 12/05/2018
 ms.keywords: ITSubStreamControl, ITSubStreamControl interface [TAPI 2.2], ITSubStreamControl interface [TAPI 2.2],described, _tapi3_itsubstreamcontrol, tapi3.itsubstreamcontrol, tapi3if/ITSubStreamControl
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITSubStreamControl
 dev_langs:
@@ -53,7 +52,7 @@ ms.custom: 19H1
 The 
 <b>ITSubStreamControl</b> interface exposes methods that allow an application to enumerate, create, or remove substreams. Many MSPs do not support this interface.
 
-A pointer to this interface can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the stream object.
+A pointer to this interface can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the stream object.
 
 
 ## -inheritance

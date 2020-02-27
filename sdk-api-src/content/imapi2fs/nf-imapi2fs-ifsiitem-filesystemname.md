@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: a10d9ee1-c05f-4e76-a921-af562dc68121
 ms.date: 12/05/2018
 ms.keywords: FileSystemName, FileSystemName method [IMAPI], FileSystemName method [IMAPI],IFsiItem interface, IFsiItem interface [IMAPI],FileSystemName method, IFsiItem.FileSystemName, IFsiItem::FileSystemName, imapi.ifsiitem_filesystemname, imapi2fs/IFsiItem::FileSystemName
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFsiItem.FileSystemName
 dev_langs:

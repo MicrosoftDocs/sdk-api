@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: f434fd44-47a2-40be-ab3f-3d99b5e0e56a
 ms.date: 12/05/2018
 ms.keywords: DoesRequireFullStream, DoesRequireFullStream method [Windows Imaging Component], DoesRequireFullStream method [Windows Imaging Component],IWICMetadataHandlerInfo interface, IWICMetadataHandlerInfo interface [Windows Imaging Component],DoesRequireFullStream method, IWICMetadataHandlerInfo.DoesRequireFullStream, IWICMetadataHandlerInfo::DoesRequireFullStream, _wic_codec_iwicmetadatahandlerinfo_doesrequirefullstream, wic._wic_codec_iwicmetadatahandlerinfo_doesrequirefullstream, wincodecsdk/IWICMetadataHandlerInfo::DoesRequireFullStream
-ms.topic: method
 f1_keywords:
 - wincodecsdk/IWICMetadataHandlerInfo.DoesRequireFullStream
 dev_langs:

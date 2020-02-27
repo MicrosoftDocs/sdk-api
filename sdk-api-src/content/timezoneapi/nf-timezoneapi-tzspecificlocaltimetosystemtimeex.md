@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: C202F91E-FFFF-412D-A968-3B7AE60A5846
 ms.date: 12/05/2018
 ms.keywords: TzSpecificLocalTimeToSystemTimeEx, TzSpecificLocalTimeToSystemTimeEx function, base.tzspecificlocaltimetosystemtimeex, timezoneapi/TzSpecificLocalTimeToSystemTimeEx
-ms.topic: function
 f1_keywords:
 - timezoneapi/TzSpecificLocalTimeToSystemTimeEx
 dev_langs:

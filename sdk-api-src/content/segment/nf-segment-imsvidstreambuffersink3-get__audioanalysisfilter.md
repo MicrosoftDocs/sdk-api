@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: a66ec9d3-f27b-45b5-b8f4-6779a5069cde
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get__AudioAnalysisFilter method, IMSVidStreamBufferSink3.get__AudioAnalysisFilter, IMSVidStreamBufferSink3::get__AudioAnalysisFilter, IMSVidStreamBufferSink3get__AudioAnalysisFilter, get__AudioAnalysisFilter, get__AudioAnalysisFilter method [Microsoft TV Technologies], get__AudioAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get__audioanalysisfilter, segment/IMSVidStreamBufferSink3::get__AudioAnalysisFilter
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferSink3.get__AudioAnalysisFilter
 dev_langs:

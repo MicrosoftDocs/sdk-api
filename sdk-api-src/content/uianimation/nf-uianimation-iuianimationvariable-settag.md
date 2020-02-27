@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 176b0047-cac8-474b-9126-fdab4bc41537
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetTag method, IUIAnimationVariable.SetTag, IUIAnimationVariable::SetTag, SetTag, SetTag method [Windows Animation], SetTag method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_settag, uianimation/IUIAnimationVariable::SetTag
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationVariable.SetTag
 dev_langs:

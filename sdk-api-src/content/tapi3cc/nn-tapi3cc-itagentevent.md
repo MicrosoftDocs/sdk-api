@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: adfb58f7-b02c-4a64-92c1-a1b29c9f7143
 ms.date: 12/05/2018
 ms.keywords: ITAgentEvent, ITAgentEvent interface [TAPI 2.2], ITAgentEvent interface [TAPI 2.2],described, _tapi3_itagentevent, tapi3.itagentevent, tapi3cc/ITAgentEvent
-ms.topic: interface
 f1_keywords:
 - tapi3cc/ITAgentEvent
 dev_langs:

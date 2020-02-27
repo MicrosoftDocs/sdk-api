@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: cb4c4f63-2a6e-4df7-8886-19d45e28d81a
 ms.date: 12/05/2018
 ms.keywords: IMTSActivity interface [COM+],UnbindFromThread method, IMTSActivity.UnbindFromThread, IMTSActivity::UnbindFromThread, UnbindFromThread, UnbindFromThread method [COM+], UnbindFromThread method [COM+],IMTSActivity interface, _cos_IMTSActivity_UnbindFromThread, comsvcs/IMTSActivity::UnbindFromThread, cos.imtsactivity_unbindfromthread
-ms.topic: method
 f1_keywords:
 - comsvcs/IMTSActivity.UnbindFromThread
 dev_langs:

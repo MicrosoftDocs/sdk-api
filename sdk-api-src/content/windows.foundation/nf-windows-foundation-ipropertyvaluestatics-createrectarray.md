@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 945f9c0a-22fe-42f6-b29b-3260607345f7
 ms.date: 12/05/2018
 ms.keywords: CreateRectArray, CreateRectArray method [Windows Runtime], CreateRectArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateRectArray method, IPropertyValueStatics.CreateRectArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateRectArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateRectArray, winrt.ipropertyvaluefactory_createrectarray, winrt.ipropertyvaluestatics_createrectarray
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValueStatics.CreateRectArray
 dev_langs:
@@ -76,7 +75,7 @@ The array of <a href="https://docs.microsoft.com/windows/desktop/api/windows.fou
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
 
-A pointer to a new object that contains <i>value</i>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
+A pointer to a new object that contains <i>value</i>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
 
 
 ## -returns

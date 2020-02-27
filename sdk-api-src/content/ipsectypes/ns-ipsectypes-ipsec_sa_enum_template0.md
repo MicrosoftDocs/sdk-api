@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 6a00af2b-0b39-4d9f-9335-4817df693b52
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_ENUM_TEMPLATE0, IPSEC_SA_ENUM_TEMPLATE0 structure [Filtering], fwp.ipsec_sa_enum_template0_struct, ipsectypes/IPSEC_SA_ENUM_TEMPLATE0
-ms.topic: struct
 f1_keywords:
 - ipsectypes/IPSEC_SA_ENUM_TEMPLATE0
 dev_langs:

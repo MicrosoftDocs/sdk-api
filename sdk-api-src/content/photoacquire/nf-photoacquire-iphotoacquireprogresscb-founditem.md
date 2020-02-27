@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: b80fb2f2-57b7-4333-891e-32eba0347a17
 ms.date: 12/05/2018
 ms.keywords: FoundItem, FoundItem method [Picture Acquisition], FoundItem method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition],FoundItem method, IPhotoAcquireProgressCB.FoundItem, IPhotoAcquireProgressCB::FoundItem, photoacquire/IPhotoAcquireProgressCB::FoundItem, picacq.iphotoacquireprogresscb_founditem
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoAcquireProgressCB.FoundItem
 dev_langs:

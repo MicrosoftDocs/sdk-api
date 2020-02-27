@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: ea52b8a6-a54e-46ee-9275-734f328759ba
 ms.date: 12/05/2018
 ms.keywords: TcDeregisterClient, TcDeregisterClient function [QOS], _gqos_tcderegisterclient, qos.tcderegisterclient, traffic/TcDeregisterClient
-ms.topic: function
 f1_keywords:
 - traffic/TcDeregisterClient
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 2dd52131-defb-4613-a889-a115d60a969a
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilPrintAsnAny, SnmpUtilPrintAsnAny function [SNMP], _snmp_snmputilprintasnany, snmp.snmputilprintasnany, snmp/SnmpUtilPrintAsnAny
-ms.topic: function
 f1_keywords:
 - snmp/SnmpUtilPrintAsnAny
 dev_langs:

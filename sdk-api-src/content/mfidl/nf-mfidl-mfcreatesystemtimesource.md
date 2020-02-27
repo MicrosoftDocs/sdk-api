@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: f3e7b8d5-fd6c-4d87-86f6-1117ca58bc6f
 ms.date: 12/05/2018
 ms.keywords: MFCreateSystemTimeSource, MFCreateSystemTimeSource function [Media Foundation], f3e7b8d5-fd6c-4d87-86f6-1117ca58bc6f, mf.mfcreatesystemtimesource, mfidl/MFCreateSystemTimeSource
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreateSystemTimeSource
 dev_langs:

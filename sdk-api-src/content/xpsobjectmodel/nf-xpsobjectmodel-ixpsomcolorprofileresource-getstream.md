@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 1bc8bae0-eae7-47bd-a6ac-50ff9bdc2703
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMColorProfileResource interface, IXpsOMColorProfileResource interface [XPS Documents and Packaging],GetStream method, IXpsOMColorProfileResource.GetStream, IXpsOMColorProfileResource::GetStream, xps.ixpsomcolorprofileresource_getstream, xpsobjectmodel/IXpsOMColorProfileResource::GetStream
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMColorProfileResource.GetStream
 dev_langs:
@@ -98,7 +97,7 @@ This method calls the stream's <b>Clone</b> method to create the stream returned
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

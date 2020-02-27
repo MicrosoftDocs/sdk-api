@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4302.htm
 ms.date: 12/05/2018
 ms.keywords: ArchiveFolder property [Fax Service], ArchiveFolder property [Fax Service],IFaxOutgoingArchive interface, IFaxOutgoingArchive interface [Fax Service],ArchiveFolder property, IFaxOutgoingArchive.ArchiveFolder, IFaxOutgoingArchive.put_ArchiveFolder, IFaxOutgoingArchive::ArchiveFolder, IFaxOutgoingArchive::get_ArchiveFolder, IFaxOutgoingArchive::put_ArchiveFolder, _mfax_faxoutgoingarchive.archivefolder, fax._mfax_faxoutgoingarchive_archivefolder, fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_archivefolder_cpp, faxcomex/IFaxOutgoingArchive::ArchiveFolder, faxcomex/IFaxOutgoingArchive::get_ArchiveFolder, faxcomex/IFaxOutgoingArchive::put_ArchiveFolder, put_ArchiveFolder
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutgoingArchive.ArchiveFolder
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 3ccfb776-6a4e-48da-857d-6693cf916c40
 ms.date: 12/05/2018
 ms.keywords: AddMediaStream, AddMediaStream method [DirectShow], AddMediaStream method [DirectShow],IAMMultiMediaStream interface, IAMMultiMediaStream interface [DirectShow],AddMediaStream method, IAMMultiMediaStream.AddMediaStream, IAMMultiMediaStream::AddMediaStream, IAMMultiMediaStreamAddMediaStream, amstream/IAMMultiMediaStream::AddMediaStream, dshow.iammultimediastream_addmediastream
-ms.topic: method
 f1_keywords:
 - amstream/IAMMultiMediaStream.AddMediaStream
 dev_langs:

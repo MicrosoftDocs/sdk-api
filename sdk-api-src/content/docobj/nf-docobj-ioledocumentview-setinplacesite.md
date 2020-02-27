@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 88de47c2-979b-4595-8a2f-d4ed1a3a7b6c
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],SetInPlaceSite method, IOleDocumentView.SetInPlaceSite, IOleDocumentView::SetInPlaceSite, SetInPlaceSite, SetInPlaceSite method [COM], SetInPlaceSite method [COM],IOleDocumentView interface, _ole_ioledocumentview_setinplacesite, com.ioledocumentview_setinplacesite, docobj/IOleDocumentView::SetInPlaceSite
-ms.topic: method
 f1_keywords:
 - docobj/IOleDocumentView.SetInPlaceSite
 dev_langs:

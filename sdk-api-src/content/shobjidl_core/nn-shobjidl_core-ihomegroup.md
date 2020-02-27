@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 97d693c0-1126-4cd3-8aee-b5499b538403
 ms.date: 12/05/2018
 ms.keywords: IHomeGroup, IHomeGroup interface [Windows Shell], IHomeGroup interface [Windows Shell],described, _shell_IHomeGroup, shell.IHomeGroup, shobjidl_core/IHomeGroup
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IHomeGroup
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 088d864f-bb74-4fd8-b8cb-352cb2731edb
 ms.date: 12/05/2018
 ms.keywords: GetInspector, GetInspector method [Windows Sync], GetInspector method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetInspector method, ISyncKnowledge2.GetInspector, ISyncKnowledge2::GetInspector, winsync.isyncknowledge2_getinspector, winsync/ISyncKnowledge2::GetInspector
-ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge2.GetInspector
 dev_langs:

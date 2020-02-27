@@ -9,7 +9,6 @@ ms.assetid: b12d38c7-b80e-4ca8-9ac5-a116100911d0
 
 ms.date: 12/05/2018
 ms.keywords: IToc, IToc interface [Media Foundation], IToc interface [Media Foundation],described, codecapi.itoc, mf.itoc, wmcodecdsp/IToc
-ms.topic: interface
 f1_keywords: 
  - "wmcodecdsp/IToc"
 dev_langs:

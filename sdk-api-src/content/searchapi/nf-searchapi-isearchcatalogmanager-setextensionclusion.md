@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\setextensionclusion.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],SetExtensionClusion method, ISearchCatalogManager.SetExtensionClusion, ISearchCatalogManager::SetExtensionClusion, SetExtensionClusion, SetExtensionClusion method [search], SetExtensionClusion method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_SetExtensionClusion, search._search_ISearchCatalogManager_SetExtensionClusion, searchapi/ISearchCatalogManager::SetExtensionClusion
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchCatalogManager.SetExtensionClusion
 dev_langs:

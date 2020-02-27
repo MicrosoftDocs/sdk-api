@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 1B2F12FB-E053-4B79-B71D-E66D7A6E5054
 ms.date: 12/05/2018
 ms.keywords: PDF_RENDER_PARAMS, PDF_RENDER_PARAMS structure [Windows Runtime], windows/PDF_RENDER_PARAMS, winrt.pdf_render_params
-ms.topic: struct
 f1_keywords:
 - windows.data.pdf.interop/PDF_RENDER_PARAMS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: CBC97CF4-0C88-4C68-A873-5A5962C5817D
 ms.date: 12/05/2018
 ms.keywords: IVirtualDesktopManager interface [Windows Shell],IsWindowOnCurrentVirtualDesktop method, IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop, IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop, IsWindowOnCurrentVirtualDesktop, IsWindowOnCurrentVirtualDesktop method [Windows Shell], IsWindowOnCurrentVirtualDesktop method [Windows Shell],IVirtualDesktopManager interface, shell.ivirtualdesktopmanager_iswindowoncurrentvirtualdesktop, shobjidl_core/IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop
 dev_langs:

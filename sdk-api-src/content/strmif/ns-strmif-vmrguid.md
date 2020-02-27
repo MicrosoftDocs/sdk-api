@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e05d986a-c044-47c9-8430-7190ad29c7ec
 ms.date: 12/05/2018
 ms.keywords: VMRGUID, VMRGUID structure [DirectShow], VMRGUIDStructure, dshow.vmrguid, strmif/VMRGUID
-ms.topic: struct
 f1_keywords:
 - strmif/VMRGUID
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <code>VMRGUID</code> structure is a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrmonitorinfo">VMRMONITORINFO</a> structure and is used to identify a monitor on the system (VMR-7 only).
+The [VMRMONITORINFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrmonitorinfo) structure and is used to identify a monitor on the system (VMR-7 only).
 
 
 

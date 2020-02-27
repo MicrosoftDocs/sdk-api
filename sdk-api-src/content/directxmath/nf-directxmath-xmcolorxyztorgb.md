@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorXYZToRGB(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorXYZToRGB, XMColorXYZToRGB, XMColorXYZToRGB method [DirectX Math Support APIs], dxmath.xmcolorxyztorgb
-ms.topic: function
 f1_keywords:
 - directxmath/XMColorXYZToRGB
 dev_langs:

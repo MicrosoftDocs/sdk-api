@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 756430a9-a495-412e-95c3-a93222bc467a
 ms.date: 12/05/2018
 ms.keywords: SHRegOpenUSKey, SHRegOpenUSKey function [Windows Shell], SHRegOpenUSKeyA, SHRegOpenUSKeyW, _win32_SHRegOpenUSKey, shell.SHRegOpenUSKey, shlwapi/SHRegOpenUSKey, shlwapi/SHRegOpenUSKeyA, shlwapi/SHRegOpenUSKeyW
-ms.topic: function
 f1_keywords:
 - shlwapi/SHRegOpenUSKey
 dev_langs:

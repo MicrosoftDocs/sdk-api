@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 55abcdd1-a33e-4100-a3dd-4d3a31158004
 ms.date: 12/05/2018
 ms.keywords: SetupDiInstallDriverFiles, SetupDiInstallDriverFiles function [Device and Driver Installation], devinst.setupdiinstalldriverfiles, di-rtns_0790674a-71fa-469e-b716-d420fbf40e7b.xml, setupapi/SetupDiInstallDriverFiles
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiInstallDriverFiles
 dev_langs:
@@ -72,7 +71,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 5C229DEF-DAF7-414B-B733-4807E4122C16
 ms.date: 12/05/2018
 ms.keywords: PdfRenderParams, PdfRenderParams function [Windows Runtime], windows/PdfRenderParams, winrt.pdfrenderparams
-ms.topic: function
 f1_keywords:
 - windows.data.pdf.interop/PdfRenderParams
 dev_langs:

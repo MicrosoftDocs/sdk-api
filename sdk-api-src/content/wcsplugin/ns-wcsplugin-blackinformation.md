@@ -7,7 +7,6 @@ tech.root: WCS
 ms.assetid: b90699f6-b42e-4848-947b-76633dc35802
 ms.date: 12/05/2018
 ms.keywords: BlackInformation, BlackInformation structure [Windows Color System], _color_BlackInformation_str, wcs.blackinformation, wcsplugin/BlackInformation
-ms.topic: struct
 f1_keywords:
 - wcsplugin/BlackInformation
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: a8130a0b-ac58-479d-b72c-2136c7d29c7f
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMRemoteDictionaryResourceCollection.GetAt, IXpsOMRemoteDictionaryResourceCollection::GetAt, xps.ixpsomremotedictionaryresourcecollection_getat, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::GetAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection.GetAt
 dev_langs:
@@ -103,7 +102,7 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

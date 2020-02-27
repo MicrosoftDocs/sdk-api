@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 00e75bae-fbce-41a3-a0bc-c345c36f2c84
 ms.date: 12/05/2018
 ms.keywords: CreateWellKnownSid, CreateWellKnownSid function [Security], _win32_createwellknownsid, security.createwellknownsid, securitybaseapi/CreateWellKnownSid
-ms.topic: function
 f1_keywords:
 - securitybaseapi/CreateWellKnownSid
 dev_langs:

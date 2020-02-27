@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 5c3756b1-ad1a-47c8-98ff-e8e602302662
 ms.date: 12/05/2018
 ms.keywords: IDownloadResult interface [Windows Update Agent],ResultCode property, IDownloadResult.ResultCode, IDownloadResult.get_ResultCode, IDownloadResult::ResultCode, IDownloadResult::get_ResultCode, ResultCode property [Windows Update Agent], ResultCode property [Windows Update Agent],IDownloadResult interface, get_ResultCode, wua.idownloadresult_resultcode, wuapi/IDownloadResult::ResultCode, wuapi/IDownloadResult::get_ResultCode
-ms.topic: method
 f1_keywords:
 - wuapi/IDownloadResult.ResultCode
 dev_langs:

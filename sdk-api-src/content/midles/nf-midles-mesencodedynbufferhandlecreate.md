@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 4d8cb8e3-aa5a-4354-87e7-57543baa57e8
 ms.date: 12/05/2018
 ms.keywords: MesEncodeDynBufferHandleCreate, MesEncodeDynBufferHandleCreate function [RPC], _rpc_mesencodedynbufferhandlecreate, midles/MesEncodeDynBufferHandleCreate, rpc.mesencodedynbufferhandlecreate
-ms.topic: function
 f1_keywords:
 - midles/MesEncodeDynBufferHandleCreate
 dev_langs:

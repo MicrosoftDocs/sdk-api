@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 32077169-d319-45c0-982f-8d470cd70111
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_TSIG_DATA, *PDNS_TSIG_DATAW, DNS_RCODE_BADKEY, DNS_RCODE_BADSIG, DNS_RCODE_BADTIME, DNS_TSIG_DATA, DNS_TSIG_DATA structure [DNS], DNS_TSIG_DATAW, PDNS_TSIG_DATA, PDNS_TSIG_DATA structure pointer [DNS], _dns_dns_tsig_data, dns.dns_tsig_data, gss-tsig, gss.microsoft.com, windns/DNS_TSIG_DATA, windns/PDNS_TSIG_DATA'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_TSIG_DATA
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>DNS_TSIG_DATA</b> structure represents a secret key transaction authentication (TSIG) resource record (RR) as specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=90388">RFC 2845</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=90440">RFC 3645</a>.
+<b>DNS_TSIG_DATA</b> structure represents a secret key transaction authentication (TSIG) resource record (RR) as specified in <a href="https://www.ietf.org/rfc/rfc2845.txt">RFC 2845</a> and <a href="https://www.ietf.org/rfc/rfc3645.txt">RFC 3645</a>.
 
 
 ## -struct-fields
@@ -61,12 +60,12 @@ The
 
 ### -field pNameAlgorithm
 
-A pointer to a string that represents the name of the key used to generate <b>pSignature</b> as defined in section 2.3 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90388">RFC 2845</a>.
+A pointer to a string that represents the name of the key used to generate <b>pSignature</b> as defined in section 2.3 of <a href="https://www.ietf.org/rfc/rfc2845.txt">RFC 2845</a>.
 
 
 ### -field pAlgorithmPacket
 
-A pointer to a string that represents the name of the   algorithm used to generate <b>pSignature</b> as defined in section 2.3 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90388">RFC 2845</a>.
+A pointer to a string that represents the name of the   algorithm used to generate <b>pSignature</b> as defined in section 2.3 of <a href="https://www.ietf.org/rfc/rfc2845.txt">RFC 2845</a>.
 
 <table>
 <tr>
@@ -80,7 +79,7 @@ A pointer to a string that represents the name of the   algorithm used to genera
 </td>
 <td width="60%">
 Windows 2000 Server only: Generic Security Service Algorithm for
-        Secret Key Transaction Authentication for DNS (GSS-API) as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=90440">RFC 3645</a>.
+        Secret Key Transaction Authentication for DNS (GSS-API) as defined in <a href="https://www.ietf.org/rfc/rfc3645.txt">RFC 3645</a>.
 
 </td>
 </tr>
@@ -91,7 +90,7 @@ Windows 2000 Server only: Generic Security Service Algorithm for
 </td>
 <td width="60%">
 Generic Security Service Algorithm for
-        Secret Key Transaction Authentication for DNS (GSS-API) as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=90440">RFC 3645</a>.
+        Secret Key Transaction Authentication for DNS (GSS-API) as defined in <a href="https://www.ietf.org/rfc/rfc3645.txt">RFC 3645</a>.
 
 </td>
 </tr>

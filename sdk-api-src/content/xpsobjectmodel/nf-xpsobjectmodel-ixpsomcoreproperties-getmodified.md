@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 364beb9d-01e7-477c-92b2-f2fdb19a87f9
 ms.date: 12/05/2018
 ms.keywords: GetModified, GetModified method [XPS Documents and Packaging], GetModified method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetModified method, IXpsOMCoreProperties.GetModified, IXpsOMCoreProperties::GetModified, xps.ixpsomcoreproperties_getmodified, xpsobjectmodel/IXpsOMCoreProperties::GetModified
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.GetModified
 dev_langs:
@@ -124,11 +123,11 @@ The <b>modified</b> property contains the date and time the package was last mod
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

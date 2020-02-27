@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 27b3ae83-be3c-4d40-88b8-9253f1c793f6
 ms.date: 12/05/2018
 ms.keywords: IMessageView interface [MMC],SetBodyText method, IMessageView.SetBodyText, IMessageView::SetBodyText, SetBodyText, SetBodyText method [MMC], SetBodyText method [MMC],IMessageView interface, _slate_imessageview_setbodytext, mmc.imessageview_setbodytext, mmc/IMessageView::SetBodyText
-ms.topic: method
 f1_keywords:
 - mmc/IMessageView.SetBodyText
 dev_langs:

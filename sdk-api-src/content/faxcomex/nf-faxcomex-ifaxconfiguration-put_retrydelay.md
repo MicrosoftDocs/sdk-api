@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\retrydelay.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],RetryDelay property, IFaxConfiguration.RetryDelay, IFaxConfiguration.put_RetryDelay, IFaxConfiguration::RetryDelay, IFaxConfiguration::get_RetryDelay, IFaxConfiguration::put_RetryDelay, RetryDelay property [Fax Service], RetryDelay property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_RetryDelay, fax._mfax_IFaxConfiguration_RetryDelay, faxcomex/IFaxConfiguration::RetryDelay, faxcomex/IFaxConfiguration::get_RetryDelay, faxcomex/IFaxConfiguration::put_RetryDelay, put_RetryDelay
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxConfiguration.RetryDelay
 dev_langs:

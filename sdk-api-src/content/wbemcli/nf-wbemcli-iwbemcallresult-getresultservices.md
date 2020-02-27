@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 64a4fc4c-f479-4b03-847c-041508e55532
 ms.date: 12/05/2018
 ms.keywords: GetResultServices, GetResultServices method [Windows Management Instrumentation], GetResultServices method [Windows Management Instrumentation],IWbemCallResult interface, IWbemCallResult interface [Windows Management Instrumentation],GetResultServices method, IWbemCallResult.GetResultServices, IWbemCallResult::GetResultServices, _hmm_iwbemcallresult_getresultservices, wbemcli/IWbemCallResult::GetResultServices, wmi.iwbemcallresult_getresultservices
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemCallResult.GetResultServices
 dev_langs:
@@ -81,7 +80,7 @@ On error, a new object is not returned.
 
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-On error, the COM function <a href="http://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a> can be called to obtain more error information.
+On error, the COM function <a href="https://msdn.microsoft.com/library/ms221032.aspx">GetErrorInfo</a> can be called to obtain more error information.
 
 COM-specific error codes may also be returned if network problems cause you to lose the remote connection to Windows Management.
 

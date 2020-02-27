@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 7323d814-e96e-44b9-8ade-a9317e4fbf17
 ms.date: 12/05/2018
 ms.keywords: WSAConnectByList, WSAConnectByList function [Winsock], winsock.wsaconnectbylist, winsock2/WSAConnectByList
-ms.topic: function
 f1_keywords:
 - winsock2/WSAConnectByList
 dev_langs:
@@ -271,7 +270,7 @@ To enable both IPv6 and IPv4 addresses to be passed in the single address list a
 <li>Any IPv4 addresses must be represented in the IPv4-mapped IPv6 address format which enables an IPv6 only application to communicate with an IPv4 node.  The IPv4-mapped IPv6 address format allows the IPv4 address of an IPv4 node to be represented as an IPv6
    address.  The IPv4 address is encoded into the low-order 32 bits of
    the IPv6 address, and the high-order 96 bits hold the fixed prefix
-   0:0:0:0:0:FFFF. The IPv4-mapped IPv6 address format is specified in RFC 4291. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=92231">www.ietf.org/rfc/rfc4291.txt</a>. The IN6ADDR_SETV4MAPPED macro in <i>Mstcpip.h</i> can be used to convert an IPv4 address to the required IPv4-mapped IPv6 address format.</li>
+   0:0:0:0:0:FFFF. The IPv4-mapped IPv6 address format is specified in RFC 4291. For more information, see <a href="http://tools.ietf.org/html/rfc4291">www.ietf.org/rfc/rfc4291.txt</a>. The IN6ADDR_SETV4MAPPED macro in <i>Mstcpip.h</i> can be used to convert an IPv4 address to the required IPv4-mapped IPv6 address format.</li>
 </ul>
 
 

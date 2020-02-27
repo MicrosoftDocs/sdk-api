@@ -7,7 +7,6 @@ tech.root: VStor
 ms.assetid: 7817863a-38ca-4686-9d66-71700dba852f
 ms.date: 12/05/2018
 ms.keywords: EnumerateVirtualDiskMetadata, EnumerateVirtualDiskMetadata function [Virtual Storage], virtdisk/EnumerateVirtualDiskMetadata, vstor.enumeratevirtualdiskmetadata
-ms.topic: function
 f1_keywords:
 - virtdisk/EnumerateVirtualDiskMetadata
 dev_langs:

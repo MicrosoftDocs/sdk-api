@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1F630AFF-3C73-461C-AE41-D597F6FF42D8
 ms.date: 12/05/2018
 ms.keywords: IApplicationDesignModeSettings2, IApplicationDesignModeSettings2 interface [Windows Shell], IApplicationDesignModeSettings2 interface [Windows Shell],described, shell.IApplicationDesignModeSettings2, shobjidl_core/IApplicationDesignModeSettings2
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IApplicationDesignModeSettings2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 56876a42-a972-4a19-a8f7-a5e37c0d77f0
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetInlineObject method, ITextRange2.SetInlineObject, ITextRange2::SetInlineObject, SetInlineObject, SetInlineObject method [Windows Controls], SetInlineObject method [Windows Controls],ITextRange2 interface, controls.itextrange2_setinlineobject, tom/ITextRange2::SetInlineObject
-ms.topic: method
 f1_keywords:
 - tom/ITextRange2.SetInlineObject
 dev_langs:
@@ -83,7 +82,7 @@ The object character as defined in <a href="https://docs.microsoft.com/windows/d
 
 Type: <b>long</b>
 
-The closing bracket (<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomBrackets</a>) character. See <a href="http://go.microsoft.com/fwlink/p/?linkid=124972">Unicode Technical Note 28</a> for a list of characters.
+The closing bracket (<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomBrackets</a>) character. See <a href="https://www.unicode.org/notes/tn28/">Unicode Technical Note 28</a> for a list of characters.
 
 
 ### -param Char2 [in]

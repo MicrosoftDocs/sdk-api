@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 5ACE8143-DC14-495C-A644-A2076FB1980F
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],Load method, IMFMediaEngine.Load, IMFMediaEngine::Load, Load, Load method [Media Foundation], Load method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_load, mfmediaengine/IMFMediaEngine::Load
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngine.Load
 dev_langs:

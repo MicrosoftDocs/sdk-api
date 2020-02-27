@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 97f982b6-f330-4053-91a9-2a4edc13b4b0
 ms.date: 12/05/2018
 ms.keywords: 97f982b6-f330-4053-91a9-2a4edc13b4b0, IInkRecognizer, IInkRecognizer interface [Tablet PC], IInkRecognizer interface [Tablet PC],described, msinkaut/IInkRecognizer, tablet.iinkrecognizer
-ms.topic: interface
 f1_keywords:
 - msinkaut/IInkRecognizer
 dev_langs:

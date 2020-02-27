@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 428dfb97-0dfa-442c-819e-291e6a58f712
 ms.date: 12/05/2018
 ms.keywords: IQualProp, IQualProp interface [DirectShow], IQualProp interface [DirectShow],described, IQualPropInterface, amvideo/IQualProp, dshow.iqualprop
-ms.topic: interface
 f1_keywords:
 - amvideo/IQualProp
 dev_langs:

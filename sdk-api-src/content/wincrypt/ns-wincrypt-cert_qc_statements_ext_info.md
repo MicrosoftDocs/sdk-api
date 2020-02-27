@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 788b3848-8d38-4e8f-9fdb-452767fbac61
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_QC_STATEMENTS_EXT_INFO, CERT_QC_STATEMENTS_EXT_INFO, CERT_QC_STATEMENTS_EXT_INFO structure [Security], PCERT_QC_STATEMENTS_EXT_INFO, PCERT_QC_STATEMENTS_EXT_INFO structure pointer [Security], security.cert_qc_statements_ext_info, wincrypt/CERT_QC_STATEMENTS_EXT_INFO, wincrypt/PCERT_QC_STATEMENTS_EXT_INFO'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_QC_STATEMENTS_EXT_INFO
 dev_langs:
@@ -73,11 +72,11 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=104367">RFC 3280</a>
+<a href="https://www.ietf.org/rfc/rfc3280.txt">RFC 3280</a>
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=104368">RFC 3739</a>
+<a href="https://www.ietf.org/rfc/rfc3739.txt">RFC 3739</a>
  
 
  

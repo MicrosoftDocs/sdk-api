@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: ee00a8be-52f5-4399-9a1f-18e06121a3da
 ms.date: 12/05/2018
 ms.keywords: GetFolders, GetFolders method [Task Scheduler], GetFolders method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],GetFolders method, ITaskFolder.GetFolders, ITaskFolder::GetFolders, taskschd.itaskfolder_getfolders, taskschd/ITaskFolder::GetFolders
-ms.topic: method
 f1_keywords:
 - taskschd/ITaskFolder.GetFolders
 dev_langs:

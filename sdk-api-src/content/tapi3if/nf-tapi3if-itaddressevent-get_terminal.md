@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: a57a4eea-2a94-4c32-b98f-c1747c80fec3
 ms.date: 12/05/2018
 ms.keywords: ITAddressEvent interface [TAPI 2.2],get_Terminal method, ITAddressEvent.get_Terminal, ITAddressEvent::get_Terminal, _tapi3_itaddressevent_get_terminal, get_Terminal, get_Terminal method [TAPI 2.2], get_Terminal method [TAPI 2.2],ITAddressEvent interface, tapi3.itaddressevent_get_terminal, tapi3if/ITAddressEvent::get_Terminal
-ms.topic: method
 f1_keywords:
 - tapi3if/ITAddressEvent.get_Terminal
 dev_langs:

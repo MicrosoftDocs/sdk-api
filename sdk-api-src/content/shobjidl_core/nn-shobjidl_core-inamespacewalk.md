@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 164732ae-1c72-465c-a16b-a8eeaa9cc185
 ms.date: 12/05/2018
 ms.keywords: INamespaceWalk, INamespaceWalk interface [Windows Shell], INamespaceWalk interface [Windows Shell],described, _win32_INamespaceWalk, shell.INamespaceWalk, shobjidl_core/INamespaceWalk
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/INamespaceWalk
 dev_langs:

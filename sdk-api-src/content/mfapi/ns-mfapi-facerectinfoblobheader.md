@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: BDDC33C2-CD2D-4F97-AAD1-DF69250F60B3
 ms.date: 12/05/2018
 ms.keywords: FaceRectInfoBlobHeader, FaceRectInfoBlobHeader structure [Streaming Media Devices], mfapi/FaceRectInfoBlobHeader, stream.facerectinfoblobheader
-ms.topic: struct
 f1_keywords:
 - mfapi/FaceRectInfoBlobHeader
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\setregionofinterest.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],SetRegionOfInterest method, IMILBitmapEffectRenderContext.SetRegionOfInterest, IMILBitmapEffectRenderContext::SetRegionOfInterest, SetRegionOfInterest, SetRegionOfInterest method [WPF Bitmap Effects], SetRegionOfInterest method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, _wibe_imilbitmapeffectrendercontext_setregionofinterest, mileffects/IMILBitmapEffectRenderContext::SetRegionOfInterest, wibe._wibe_imilbitmapeffectrendercontext_setregionofinterest
-ms.topic: method
 f1_keywords:
 - mileffects/IMILBitmapEffectRenderContext.SetRegionOfInterest
 dev_langs:

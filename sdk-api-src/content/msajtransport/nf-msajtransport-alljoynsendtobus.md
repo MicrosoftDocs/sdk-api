@@ -7,7 +7,6 @@ tech.root: AllJoyn
 ms.assetid: 8D941DB8-AA73-472B-92E2-85EA72BD9A40
 ms.date: 12/05/2018
 ms.keywords: AllJoynSendToBus, AllJoynSendToBus function [AllJoyn API], alljoyn.alljoynsendtobus, msajtransport/AllJoynSendToBus
-ms.topic: function
 f1_keywords:
 - msajtransport/AllJoynSendToBus
 dev_langs:

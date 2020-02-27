@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 53bf0dfe-e93c-401d-ac5d-6717bad2625e
 ms.date: 12/05/2018
 ms.keywords: GdiSetBatchLimit, GdiSetBatchLimit function [Windows GDI], _win32_GdiSetBatchLimit, gdi.gdisetbatchlimit, wingdi/GdiSetBatchLimit
-ms.topic: function
 f1_keywords:
 - wingdi/GdiSetBatchLimit
 dev_langs:

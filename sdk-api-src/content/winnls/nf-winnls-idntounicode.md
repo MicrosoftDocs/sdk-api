@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 90707414-aef7-4265-bc2b-d48ac79db099
 ms.date: 12/05/2018
 ms.keywords: IdnToUnicode, IdnToUnicode function [Internationalization for Windows Applications], _win32_IdnToUnicode, intl.idntounicode, winnls/IdnToUnicode
-ms.topic: function
 f1_keywords:
 - winnls/IdnToUnicode
 dev_langs:
@@ -56,7 +55,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts the Punycode form of an internationalized domain name (IDN) or another internationalized label to the normal <a href="https://docs.microsoft.com/windows/desktop/Intl/unicode">Unicode</a> UTF-16 encoding syntax.         <div class="alert"><b>Caution</b>  This function implements the <a href="http://go.microsoft.com/fwlink/p/?linkid=161551">RFC 3490: Internationalizing Domain Names in Applications (IDNA)</a> standard algorithms for the Punycode encoding of Unicode. The standard introduces some security issues. One issue is that glyphs representing certain characters from different scripts might appear similar or even identical. For example, in many fonts, Cyrillic lowercase A ("а") is indistinguishable from Latin lowercase A ("a"). There is no way to tell visually that "example.com" and "exаmple.com" are two different domain names, one with a Latin lowercase A in the name, the other with a Cyrillic lowercase A. For more information about IDN-related security concerns, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>.</div>
+Converts the Punycode form of an internationalized domain name (IDN) or another internationalized label to the normal <a href="https://docs.microsoft.com/windows/desktop/Intl/unicode">Unicode</a> UTF-16 encoding syntax.         <div class="alert"><b>Caution</b>  This function implements the <a href="http://www.faqs.org/rfcs/rfc3490.html">RFC 3490: Internationalizing Domain Names in Applications (IDNA)</a> standard algorithms for the Punycode encoding of Unicode. The standard introduces some security issues. One issue is that glyphs representing certain characters from different scripts might appear similar or even identical. For example, in many fonts, Cyrillic lowercase A ("а") is indistinguishable from Latin lowercase A ("a"). There is no way to tell visually that "example.com" and "exаmple.com" are two different domain names, one with a Latin lowercase A in the name, the other with a Cyrillic lowercase A. For more information about IDN-related security concerns, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>.</div>
 <div> </div>
 
 

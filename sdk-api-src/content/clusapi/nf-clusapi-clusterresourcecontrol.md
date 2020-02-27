@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: a98ca55a-6535-48cf-a925-5005baa01b94
 ms.date: 12/05/2018
 ms.keywords: ClusterResourceControl, ClusterResourceControl function [Failover Cluster], _wolf_clusterresourcecontrol, clusapi/ClusterResourceControl, mscs.clusterresourcecontrol
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterResourceControl
 dev_langs:

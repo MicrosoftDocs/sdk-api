@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: c4856738-66bf-4982-9440-83b72148c85c
 ms.date: 12/05/2018
 ms.keywords: IServiceSynchronizationConfig, IServiceSynchronizationConfig interface [COM+], IServiceSynchronizationConfig interface [COM+],described, _cos_IServiceSynchronizationConfig, comsvcs/IServiceSynchronizationConfig, cos.iservicesynchronizationconfig
-ms.topic: interface
 f1_keywords:
 - comsvcs/IServiceSynchronizationConfig
 dev_langs:

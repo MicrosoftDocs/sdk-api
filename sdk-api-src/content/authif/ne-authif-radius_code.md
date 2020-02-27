@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: cb971643-82ca-4302-a961-9d567da04c27
 ms.date: 12/05/2018
 ms.keywords: RADIUS_CODE, RADIUS_CODE enumeration [Network Policy Server], _ias_radius_code, authif/RADIUS_CODE, authif/rcAccessAccept, authif/rcAccessChallenge, authif/rcAccessReject, authif/rcAccessRequest, authif/rcAccountingRequest, authif/rcAccountingResponse, authif/rcDiscard, authif/rcUnknown, ias.radius_code, nps.IAS_radius_code, rcAccessAccept, rcAccessChallenge, rcAccessReject, rcAccessRequest, rcAccountingRequest, rcAccountingResponse, rcDiscard, rcUnknown
-ms.topic: enum
 f1_keywords:
 - authif/RADIUS_CODE
 dev_langs:
@@ -67,37 +66,37 @@ The packet type is unrecognized. This is used to indicate that the disposition o
 ### -field rcAccessRequest
 
 RADIUS Access-Request packet. See 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a> for more information.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 
 ### -field rcAccessAccept
 
 RADIUS Access-Accept packet. See 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a> for more information.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 
 ### -field rcAccessReject
 
 RADIUS Access-Reject packet. See 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a> for more information.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 
 ### -field rcAccountingRequest
 
 RADIUS Accounting-Request packet. See 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a> for more information.
+<a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a> for more information.
 
 
 ### -field rcAccountingResponse
 
 RADIUS Accounting-Response packet. See 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a> for more information.
+<a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a> for more information.
 
 
 ### -field rcAccessChallenge
 
 RADIUS Access-Challenge packet. See 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a> for more information.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 
 ### -field rcDiscard

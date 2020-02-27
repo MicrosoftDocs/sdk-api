@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 4998546e-ec2c-4147-8c6f-5e232e4ec1a6
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceRegistration interface [Windows Update Agent],RegistrationState property, IUpdateServiceRegistration.RegistrationState, IUpdateServiceRegistration.get_RegistrationState, IUpdateServiceRegistration::RegistrationState, IUpdateServiceRegistration::get_RegistrationState, RegistrationState property [Windows Update Agent], RegistrationState property [Windows Update Agent],IUpdateServiceRegistration interface, get_RegistrationState, wua.iupdateserviceregistration_registrationstate, wuapi/IUpdateServiceRegistration::RegistrationState, wuapi/IUpdateServiceRegistration::get_RegistrationState
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateServiceRegistration.RegistrationState
 dev_langs:

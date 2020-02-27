@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 08104810-248d-49b6-9caa-6cda1d6a404e
 ms.date: 12/05/2018
 ms.keywords: MI_Value, MI_Value structure [Windows Management Infrastructure (MI)], mi/MI_Value, wmi_v2.mi_value
-ms.topic: struct
 f1_keywords:
 - mi/MI_Value
 dev_langs:

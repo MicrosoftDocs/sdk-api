@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\compositingmode.htm
 ms.date: 12/05/2018
 ms.keywords: CompositingMode, CompositingMode enumeration [GDI+], CompositingModeSourceCopy, CompositingModeSourceOver, _gdiplus_ENUM_CompositingMode, gdiplus._gdiplus_ENUM_CompositingMode, gdiplusenums/CompositingMode, gdiplusenums/CompositingModeSourceCopy, gdiplusenums/CompositingModeSourceOver
-ms.topic: enum
 f1_keywords:
 - gdiplusenums/CompositingMode
 dev_langs:

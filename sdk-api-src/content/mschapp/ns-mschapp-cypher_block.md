@@ -7,7 +7,6 @@ tech.root: MsChap
 ms.assetid: eb0e38ed-8d12-4df2-be58-7ac18447121f
 ms.date: 12/05/2018
 ms.keywords: CYPHER_BLOCK, CYPHER_BLOCK structure [MS-CHAP], _CYPHER_BLOCK, mschap.cypher_block, mschapp/CYPHER_BLOCK
-ms.topic: struct
 f1_keywords:
 - mschapp/CYPHER_BLOCK
 dev_langs:

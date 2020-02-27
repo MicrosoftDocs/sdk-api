@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 08872f4f-eb3e-434c-bd7d-d4de621948ad
 ms.date: 12/05/2018
 ms.keywords: FreezeEvents, FreezeEvents method [COM], FreezeEvents method [COM],IOleControl interface, IOleControl interface [COM],FreezeEvents method, IOleControl.FreezeEvents, IOleControl::FreezeEvents, _ctrl_iolecontrol_freezeevents, com.iolecontrol_freezeevents, ocidl/IOleControl::FreezeEvents
-ms.topic: method
 f1_keywords:
 - ocidl/IOleControl.FreezeEvents
 dev_langs:

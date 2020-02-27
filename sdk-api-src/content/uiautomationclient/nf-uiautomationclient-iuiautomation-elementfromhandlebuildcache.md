@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: b6c1e03b-7c0e-4dee-b276-bfc7d6247d4e
 ms.date: 12/05/2018
 ms.keywords: ElementFromHandleBuildCache, ElementFromHandleBuildCache method [Windows Accessibility], ElementFromHandleBuildCache method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ElementFromHandleBuildCache method, IUIAutomation.ElementFromHandleBuildCache, IUIAutomation::ElementFromHandleBuildCache, uiauto.uiauto_IUIAutomation_ElementFromHandleBuildCache, uiauto_IUIAutomation_ElementFromHandleBuildCache, uiautomationclient/IUIAutomation::ElementFromHandleBuildCache, winauto.uiauto_IUIAutomation_ElementFromHandleBuildCache
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation.ElementFromHandleBuildCache
 dev_langs:

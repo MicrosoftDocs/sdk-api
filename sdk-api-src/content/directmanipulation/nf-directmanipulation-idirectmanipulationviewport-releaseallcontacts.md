@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 6ef43920-92bf-49c5-8e10-954d1b2b4440
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],ReleaseAllContacts method, IDirectManipulationViewport.ReleaseAllContacts, IDirectManipulationViewport::ReleaseAllContacts, ReleaseAllContacts, ReleaseAllContacts method [Direct Manipulation], ReleaseAllContacts method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_releaseallcontacts, directmanipulation/IDirectManipulationViewport::ReleaseAllContacts
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationViewport.ReleaseAllContacts
 dev_langs:

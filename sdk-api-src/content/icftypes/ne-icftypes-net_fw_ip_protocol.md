@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 867a038c-ae8e-4da8-a3e9-3ca7cb6ba518
 ms.date: 12/05/2018
 ms.keywords: NET_FW_IP_PROTOCOL, NET_FW_IP_PROTOCOL enumeration [ICS/ICF], NET_FW_IP_PROTOCOL_TCP, NET_FW_IP_PROTOCOL_UDP, icftypes/NET_FW_IP_PROTOCOL, icftypes/NET_FW_IP_PROTOCOL_TCP, icftypes/NET_FW_IP_PROTOCOL_UDP, ics.net_fw_ip_protocol
-ms.topic: enum
 f1_keywords:
 - icftypes/NET_FW_IP_PROTOCOL
 dev_langs:

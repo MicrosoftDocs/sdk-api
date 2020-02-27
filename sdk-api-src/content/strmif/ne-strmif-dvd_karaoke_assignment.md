@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: cdfd05b9-7a4a-49cc-ab50-bbe83ed9e0f0
 ms.date: 12/05/2018
 ms.keywords: DVD_Assignment_LR, DVD_Assignment_LR1, DVD_Assignment_LR12, DVD_Assignment_LRM, DVD_Assignment_LRM1, DVD_Assignment_LRM12, DVD_Assignment_reserved0, DVD_Assignment_reserved1, DVD_KARAOKE_ASSIGNMENT, DVD_KARAOKE_ASSIGNMENT , DVD_KARAOKE_ASSIGNMENT enumeration [DirectShow], DVD_KARAOKE_ASSIGNMENTEnumeration, dshow.dvd_karaoke_assignment, strmif/DVD_Assignment_LR, strmif/DVD_Assignment_LR1, strmif/DVD_Assignment_LR12, strmif/DVD_Assignment_LRM, strmif/DVD_Assignment_LRM1, strmif/DVD_Assignment_LRM12, strmif/DVD_Assignment_reserved0, strmif/DVD_Assignment_reserved1, strmif/DVD_KARAOKE_ASSIGNMENT
-ms.topic: enum
 f1_keywords:
 - strmif/DVD_KARAOKE_ASSIGNMENT
 dev_langs:
@@ -123,7 +122,7 @@ All channels within a stream will use the same speaker configuration, although t
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_karaokeattributes">DVD_KaraokeAttributes Structure</a>
+[DVD_KaraokeAttributes Structure](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_karaokeattributes)
 
 
 

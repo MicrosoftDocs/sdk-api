@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 123933b4-5496-460d-aaaa-a494786cd638
 ms.date: 12/05/2018
 ms.keywords: CertSrvBackupClose, CertSrvBackupClose function [Security], _certsrv_certsrvbackupclose, certbcli/CertSrvBackupClose, security.certsrvbackupclose
-ms.topic: function
 f1_keywords:
 - certbcli/CertSrvBackupClose
 dev_langs:

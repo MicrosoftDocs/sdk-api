@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 6DD79037-0BF2-4C1B-A2E3-85EB77682FB6
 ms.date: 12/05/2018
 ms.keywords: D2D1_SVG_LENGTH, D2D1_SVG_LENGTH structure [Direct2D], d2d1svg/D2D1_SVG_LENGTH, direct2d.d2d1_svg_length
-ms.topic: struct
 f1_keywords:
 - d2d1svg/D2D1_SVG_LENGTH
 dev_langs:

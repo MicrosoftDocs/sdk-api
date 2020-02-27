@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 4b280b51-a45f-47e5-b54c-47dc4a6ca81c
 ms.date: 12/05/2018
 ms.keywords: ICDrawChangePalette, ICDrawChangePalette macro [Windows Multimedia], _win32_ICDrawChangePalette, multimedia.icdrawchangepalette, vfw/ICDrawChangePalette
-ms.topic: macro
 f1_keywords:
 - vfw/ICDrawChangePalette
 dev_langs:

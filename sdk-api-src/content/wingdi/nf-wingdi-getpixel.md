@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 46d17e95-93ce-4a43-b86c-489d6e3afe12
 ms.date: 12/05/2018
 ms.keywords: GetPixel, GetPixel function [Windows GDI], _win32_GetPixel, gdi.getpixel, wingdi/GetPixel
-ms.topic: function
 f1_keywords:
 - wingdi/GetPixel
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 79dec067-ba54-435b-8744-9a6f43dd416d
 ms.date: 12/05/2018
 ms.keywords: 79dec067-ba54-435b-8744-9a6f43dd416d, IMFAsyncResult interface [Media Foundation],SetStatus method, IMFAsyncResult.SetStatus, IMFAsyncResult::SetStatus, SetStatus, SetStatus method [Media Foundation], SetStatus method [Media Foundation],IMFAsyncResult interface, mf.imfasyncresult_setstatus, mfobjects/IMFAsyncResult::SetStatus
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFAsyncResult.SetStatus
 dev_langs:

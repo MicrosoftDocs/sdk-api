@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: fe698d32-32f6-4b2b-ad0c-5d9ec815177f
 ms.date: 12/05/2018
 ms.keywords: IsUserAnAdmin, IsUserAnAdmin function [Windows Shell], _win32_IsUserAnAdmin, shell.IsUserAnAdmin, shlobj_core/IsUserAnAdmin
-ms.topic: function
 f1_keywords:
 - shlobj_core/IsUserAnAdmin
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b7856181-1616-4984-bf5e-402140ab7b4e
 ms.date: 12/05/2018
 ms.keywords: IGraphConfigCallback, IGraphConfigCallback interface [DirectShow], IGraphConfigCallback interface [DirectShow],described, IGraphConfigCallbackInterface, dshow.igraphconfigcallback, strmif/IGraphConfigCallback
-ms.topic: interface
 f1_keywords:
 - strmif/IGraphConfigCallback
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 98ece2f3-36c4-4bb2-9a06-c3ce57cbcbe7
 ms.date: 12/05/2018
 ms.keywords: IWMPError interface [Windows Media Player],webHelp method, IWMPError.webHelp, IWMPError::webHelp, IWMPErrorwebHelp, webHelp, webHelp method [Windows Media Player], webHelp method [Windows Media Player],IWMPError interface, wmp.iwmperror_webhelp, wmp/IWMPError::webHelp
-ms.topic: method
 f1_keywords:
 - wmp/IWMPError.webHelp
 dev_langs:
@@ -101,7 +100,7 @@ To access the Web Help pages directly, use the following error code and support 
 
 <ul>
 <li><a href="https://support.microsoft.com/help/886273">Windows Media Player Error Code Information</a></li>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=10187">Windows Media Player Solution Center</a></li>
+<li><a href="https://support.microsoft.com/ph/7763#tab0">Windows Media Player Solution Center</a></li>
 </ul>
 <b>Windows Media Player 10 Mobile: </b>This method always returns S_OK, but does not launch the Windows Media Player Web Help page.
 

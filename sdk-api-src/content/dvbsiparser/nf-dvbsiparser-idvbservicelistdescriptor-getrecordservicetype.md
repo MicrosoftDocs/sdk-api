@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: c9771d79-7f39-463a-aa20-d5377bbba610
 ms.date: 12/05/2018
 ms.keywords: GetRecordServiceType, GetRecordServiceType method [Microsoft TV Technologies], GetRecordServiceType method [Microsoft TV Technologies],IDvbServiceListDescriptor interface, IDvbServiceListDescriptor interface [Microsoft TV Technologies],GetRecordServiceType method, IDvbServiceListDescriptor.GetRecordServiceType, IDvbServiceListDescriptor::GetRecordServiceType, dvbsiparser/IDvbServiceListDescriptor::GetRecordServiceType, mstv.idvbservicelistdescriptor_getrecordservicetype
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbServiceListDescriptor.GetRecordServiceType
 dev_langs:

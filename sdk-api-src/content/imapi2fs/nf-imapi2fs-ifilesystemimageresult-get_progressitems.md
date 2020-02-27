@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: c4ef572d-7e18-4537-847c-419441befe00
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_ProgressItems method, IFileSystemImageResult.get_ProgressItems, IFileSystemImageResult::get_ProgressItems, get_ProgressItems, get_ProgressItems method [IMAPI], get_ProgressItems method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_progressitems, imapi2fs/IFileSystemImageResult::get_ProgressItems
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFileSystemImageResult.get_ProgressItems
 dev_langs:

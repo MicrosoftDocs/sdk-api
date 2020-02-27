@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f0a12b00-89a5-4b70-9a78-519ae36d1bac
 ms.date: 12/05/2018
 ms.keywords: DVD_AppMode_Karaoke, DVD_AppMode_Not_Specified, DVD_AppMode_Other, DVD_TITLE_APPMODE, DVD_TITLE_APPMODE , DVD_TITLE_APPMODE enumeration [DirectShow], DVD_TITLE_APPMODEEnumeration, dshow.dvd_title_appmode, strmif/DVD_AppMode_Karaoke, strmif/DVD_AppMode_Not_Specified, strmif/DVD_AppMode_Other, strmif/DVD_TITLE_APPMODE
-ms.topic: enum
 f1_keywords:
 - strmif/DVD_TITLE_APPMODE
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Indicates whether a DVD title is a karaoke title. This enumeration is a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_titleattributes">DVD_TitleAttributes</a> structure, which is filled when an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleattributes">IDvdInfo2::GetTitleAttributes</a> method.
+Indicates whether a DVD title is a karaoke title. This enumeration is a member of the [DVD_TitleAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_titleattributes) structure, which is filled when an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleattributes">IDvdInfo2::GetTitleAttributes</a> method.
 
 
 

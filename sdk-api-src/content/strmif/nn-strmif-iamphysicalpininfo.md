@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d1d05d2c-018e-421f-bfb9-810d708f726c
 ms.date: 12/05/2018
 ms.keywords: IAMPhysicalPinInfo, IAMPhysicalPinInfo interface [DirectShow], IAMPhysicalPinInfo interface [DirectShow],described, IAMPhysicalPinInfoInterface, dshow.iamphysicalpininfo, strmif/IAMPhysicalPinInfo
-ms.topic: interface
 f1_keywords:
 - strmif/IAMPhysicalPinInfo
 dev_langs:

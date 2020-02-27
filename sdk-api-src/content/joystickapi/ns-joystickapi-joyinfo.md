@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 9f21fdcc-6940-44de-8adf-28190c0cc7c0
 ms.date: 12/05/2018
 ms.keywords: '*LPJOYINFO, *NPJOYINFO, *PJOYINFO, JOYINFO, JOYINFO structure [Windows Multimedia], _win32_JOYINFO_str, joyinfo_tag, joystickapi/JOYINFO, multimedia.joyinfo'
-ms.topic: struct
 f1_keywords:
 - joystickapi/JOYINFO
 dev_langs:

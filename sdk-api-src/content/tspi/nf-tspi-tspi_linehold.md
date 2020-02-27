@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 395aa8cc-fdbf-4772-940b-ea5944b26812
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineHold, TSPI_lineHold function [TAPI 2.2], _tspi_tspi_linehold, tspi.tspi_linehold, tspi/TSPI_lineHold
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineHold
 dev_langs:

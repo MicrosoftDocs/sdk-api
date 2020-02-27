@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3535E9EF-265E-4278-8E0D-60AA8A34C316
 ms.date: 12/05/2018
 ms.keywords: ILaunchTargetViewSizePreference, ILaunchTargetViewSizePreference interface [Windows Shell], ILaunchTargetViewSizePreference interface [Windows Shell],described, shell.ILaunchTargetViewSizePreference, shobjidl_core/ILaunchTargetViewSizePreference
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/ILaunchTargetViewSizePreference
 dev_langs:

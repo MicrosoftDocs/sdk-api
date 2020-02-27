@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 56334B73-DCBC-4999-9685-2489D6C15E2E
 ms.date: 12/05/2018
 ms.keywords: GetInputStreamPreferredState, GetInputStreamPreferredState method [Streaming Media Devices], GetInputStreamPreferredState method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetInputStreamPreferredState method, IMFDeviceTransform.GetInputStreamPreferredState, IMFDeviceTransform::GetInputStreamPreferredState, mftransform/IMFDeviceTransform::GetInputStreamPreferredState, stream.imfdevicetransform_getinputstreampreferredstate
-ms.topic: method
 f1_keywords:
 - mftransform/IMFDeviceTransform.GetInputStreamPreferredState
 dev_langs:

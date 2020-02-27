@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 3d36e4ec-f4d4-407b-b671-4134886b7a2c
 ms.date: 12/05/2018
 ms.keywords: IThreadPoolKnobs, IThreadPoolKnobs interface [COM+], IThreadPoolKnobs interface [COM+],described, _cos_IThreadPoolKnobs, comsvcs/IThreadPoolKnobs, cos.ithreadpoolknobs
-ms.topic: interface
 f1_keywords:
 - comsvcs/IThreadPoolKnobs
 dev_langs:

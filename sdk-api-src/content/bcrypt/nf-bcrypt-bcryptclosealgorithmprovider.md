@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: def90d52-87e0-40e6-9c50-fd77177991d0
 ms.date: 12/05/2018
 ms.keywords: BCryptCloseAlgorithmProvider, BCryptCloseAlgorithmProvider function [Security], bcrypt/BCryptCloseAlgorithmProvider, security.bcryptclosealgorithmprovider_func
-ms.topic: function
 f1_keywords:
 - bcrypt/BCryptCloseAlgorithmProvider
 dev_langs:
@@ -119,7 +118,7 @@ The algorithm handle in the <i>hAlgorithm</i> parameter is not valid.
 
 <b>BCryptCloseAlgorithmProvider</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a>.
 
-To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84080">WDK and Developer Tools</a>.<b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
+To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). For more information, see <a href="https://www.microsoft.com/?ref=go">WDK and Developer Tools</a>.<b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
 
 

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: A9729DEB-AA59-476B-A309-A960C3B1E40E
 ms.date: 12/05/2018
 ms.keywords: CloneSensorStream, CloneSensorStream method [Media Foundation], CloneSensorStream method [Media Foundation],IMFSensorStream interface, IMFSensorStream interface [Media Foundation],CloneSensorStream method, IMFSensorStream.CloneSensorStream, IMFSensorStream::CloneSensorStream, mf.imfsensorstream_clonesensorstream, mfidl/IMFSensorStream::CloneSensorStream
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSensorStream.CloneSensorStream
 dev_langs:

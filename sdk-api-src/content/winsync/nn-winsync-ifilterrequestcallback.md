@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 11ba822e-63d6-4947-8e21-7134bdbcbdc0
 ms.date: 12/05/2018
 ms.keywords: IFilterRequestCallback, IFilterRequestCallback interface [Windows Sync], IFilterRequestCallback interface [Windows Sync],described, winsync.ifilterrequestcallback, winsync/IFilterRequestCallback
-ms.topic: interface
 f1_keywords:
 - winsync/IFilterRequestCallback
 dev_langs:

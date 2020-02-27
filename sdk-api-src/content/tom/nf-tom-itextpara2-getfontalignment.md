@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 1064c033-2ae0-46ec-a670-603edd673e87
 ms.date: 12/05/2018
 ms.keywords: GetFontAlignment, GetFontAlignment method [Windows Controls], GetFontAlignment method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetFontAlignment method, ITextPara2.GetFontAlignment, ITextPara2::GetFontAlignment, controls.itextpara2_getfontalignment, tom/ITextPara2::GetFontAlignment
-ms.topic: method
 f1_keywords:
 - tom/ITextPara2.GetFontAlignment
 dev_langs:

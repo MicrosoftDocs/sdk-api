@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 359e67bb-9a5b-4caa-8d3b-eb0739b0828f
 ms.date: 12/05/2018
 ms.keywords: IMcastAddressAllocation, IMcastAddressAllocation interface [TAPI 2.2], IMcastAddressAllocation interface [TAPI 2.2],described, _tapi3_imcastaddressallocation, mdhcp/IMcastAddressAllocation, tapi3.imcastaddressallocation
-ms.topic: interface
 f1_keywords:
 - mdhcp/IMcastAddressAllocation
 dev_langs:

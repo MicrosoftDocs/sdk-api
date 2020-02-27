@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 95fbded5-859d-4111-914c-871a05530726
 ms.date: 12/05/2018
 ms.keywords: WSManGetErrorMessage, WSManGetErrorMessage function [Windows Remote Management], winrm.wsmangeterrormessage, wsman/WSManGetErrorMessage
-ms.topic: function
 f1_keywords:
 - wsman/WSManGetErrorMessage
 dev_langs:
@@ -70,7 +69,7 @@ Reserved for future use. Must be zero.
 
 ### -param languageCode [in, optional]
 
-Specifies the language code name that should be used to localize the error. For more information about the language code names, see the    RFC 3066 specification from the Internet Engineering Task Force at <a href="http://go.microsoft.com/fwlink/p/?linkid=139708">http://www.ietf.org/rfc/rfc3066.txt</a>.  If a language code is not specified, the user interface language of the thread is  used.
+Specifies the language code name that should be used to localize the error. For more information about the language code names, see the    RFC 3066 specification from the Internet Engineering Task Force at <a href="https://www.ietf.org/rfc/rfc3066.txt">http://www.ietf.org/rfc/rfc3066.txt</a>.  If a language code is not specified, the user interface language of the thread is  used.
 
 
 ### -param errorCode

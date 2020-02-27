@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 6bb6500e-7a30-400b-a88b-7ee3596501b1
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_cdromCollection method, IWMPCore.get_cdromCollection, IWMPCore::get_cdromCollection, IWMPCoreget_cdromCollection, get_cdromCollection, get_cdromCollection method [Windows Media Player], get_cdromCollection method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_cdromcollection, wmp/IWMPCore::get_cdromCollection
-ms.topic: method
 f1_keywords:
 - wmp/IWMPCore.get_cdromCollection
 dev_langs:

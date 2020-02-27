@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: f4021a3d-6b86-469f-8943-770e7ef0cf99
 ms.date: 12/05/2018
 ms.keywords: ITfReadOnlyProperty, ITfReadOnlyProperty interface [Text Services Framework], ITfReadOnlyProperty interface [Text Services Framework],described, _tsf_itfreadonlyproperty_ref, msctf/ITfReadOnlyProperty, tsf.itfreadonlyproperty
-ms.topic: interface
 f1_keywords:
 - msctf/ITfReadOnlyProperty
 dev_langs:

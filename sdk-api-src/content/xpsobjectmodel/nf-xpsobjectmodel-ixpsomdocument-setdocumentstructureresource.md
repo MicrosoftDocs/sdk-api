@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 86d62b73-b7a7-4470-9e55-f4eab50531d0
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocument interface [XPS Documents and Packaging],SetDocumentStructureResource method, IXpsOMDocument.SetDocumentStructureResource, IXpsOMDocument::SetDocumentStructureResource, SetDocumentStructureResource, SetDocumentStructureResource method [XPS Documents and Packaging], SetDocumentStructureResource method [XPS Documents and Packaging],IXpsOMDocument interface, xps.ixpsomdocument_setdocumentstructureresource, xpsobjectmodel/IXpsOMDocument::SetDocumentStructureResource
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDocument.SetDocumentStructureResource
 dev_langs:
@@ -126,7 +125,7 @@ If the document contains an <a href="https://docs.microsoft.com/windows/desktop/
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

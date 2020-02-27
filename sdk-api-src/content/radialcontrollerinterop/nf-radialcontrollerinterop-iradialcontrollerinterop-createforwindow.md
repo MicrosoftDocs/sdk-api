@@ -7,7 +7,6 @@ tech.root: Input_Radial
 ms.assetid: fe419ce2-9767-42c4-aaa6-a9b9ea93ec3e
 ms.date: 12/05/2018
 ms.keywords: CreateForWindow, CreateForWindow method, CreateForWindow method,IRadialControllerInterop interface, IRadialControllerInterop interface,CreateForWindow method, IRadialControllerInterop.CreateForWindow, IRadialControllerInterop::CreateForWindow, Input_Radial.iradialcontrollerinterop_createforwindow, radialcontrollerinterop/IRadialControllerInterop::CreateForWindow
-ms.topic: method
 f1_keywords:
 - radialcontrollerinterop/IRadialControllerInterop.CreateForWindow
 dev_langs:
@@ -101,15 +100,15 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://go.microsoft.com/fwlink/?linkid=832322">Surface Dial interactions</a>
+<a href="https://docs.microsoft.com/windows/uwp/design/input/windows-wheel-interactions?redirectedfrom=MSDN">Surface Dial interactions</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/?linkid=832713">Universal Windows Platform samples (C# and C++)</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/b78d95134ce2d57c848e0a8dc339fc362748fb9c/Samples/RadialController">Universal Windows Platform samples (C# and C++)</a>
 
 
 
-<a href="https://aka.ms/radialcontrollerclassicsample">Windows classic desktop sample</a>
+<a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/RadialController">Windows classic desktop sample</a>
  
 
  

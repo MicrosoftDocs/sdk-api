@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: e5929fb9-5011-42b9-887e-db0ccdd79e2b
 ms.date: 12/05/2018
 ms.keywords: SnmpGetVendorInfo, SnmpGetVendorInfo function [SNMP], _snmp_snmpgetvendorinfo, snmp.snmpgetvendorinfo, winsnmp/SnmpGetVendorInfo
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpGetVendorInfo
 dev_langs:

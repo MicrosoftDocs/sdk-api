@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 4bf0488d-cc2e-4a95-8d95-f0bd8e5029d6
 ms.date: 12/05/2018
 ms.keywords: GetPixelsPerDip, GetPixelsPerDip method [Direct Write], GetPixelsPerDip method [Direct Write],IDWriteBitmapRenderTarget interface, IDWriteBitmapRenderTarget interface [Direct Write],GetPixelsPerDip method, IDWriteBitmapRenderTarget.GetPixelsPerDip, IDWriteBitmapRenderTarget::GetPixelsPerDip, directwrite.IDWriteBitmapRenderTarget_GetPixelsPerDip, dwrite/IDWriteBitmapRenderTarget::GetPixelsPerDip
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteBitmapRenderTarget.GetPixelsPerDip
 dev_langs:

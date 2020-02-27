@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: f8b38453-47a3-4330-88f8-8d8993089f75
 ms.date: 12/05/2018
 ms.keywords: GetCaps, GetCaps method [Windows Media Player], GetCaps method [Windows Media Player],IWMPPlugin interface, IWMPPlugin interface [Windows Media Player],GetCaps method, IWMPPlugin.GetCaps, IWMPPlugin::GetCaps, IWMPPluginGetCapsDSP, wmp.iwmpplugin_getcaps, wmpservices/IWMPPlugin::GetCaps
-ms.topic: method
 f1_keywords:
 - wmpservices/IWMPPlugin.GetCaps
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager2\isearchcrawlscopemanager2.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchCrawlScopeManager2, ISearchCrawlScopeManager2 interface [search], ISearchCrawlScopeManager2 interface [search],described, _search_ISearchCrawlScopeManager2, search._search_ISearchCrawlScopeManager2, searchapi/ISearchCrawlScopeManager2
-ms.topic: interface
 f1_keywords:
 - searchapi/ISearchCrawlScopeManager2
 dev_langs:
@@ -84,7 +83,7 @@ Causes file mapping to be mapped into the address space of the calling process, 
 
 
 
-<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
+<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
 
 
 

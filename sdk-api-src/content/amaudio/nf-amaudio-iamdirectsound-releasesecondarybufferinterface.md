@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ba563876-074e-49eb-bc53-889ead49ceb8
 ms.date: 12/05/2018
 ms.keywords: IAMDirectSound interface [DirectShow],ReleaseSecondaryBufferInterface method, IAMDirectSound.ReleaseSecondaryBufferInterface, IAMDirectSound::ReleaseSecondaryBufferInterface, IAMDirectSoundReleaseSecondaryBufferInterface, ReleaseSecondaryBufferInterface, ReleaseSecondaryBufferInterface method [DirectShow], ReleaseSecondaryBufferInterface method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::ReleaseSecondaryBufferInterface, dshow.iamdirectsound_releasesecondarybufferinterface
-ms.topic: method
 f1_keywords:
 - amaudio/IAMDirectSound.ReleaseSecondaryBufferInterface
 dev_langs:

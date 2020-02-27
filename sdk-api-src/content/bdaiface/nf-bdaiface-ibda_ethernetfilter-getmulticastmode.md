@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 8a0a5dbb-642a-458b-a5b2-80e993ab61ca
 ms.date: 12/05/2018
 ms.keywords: GetMulticastMode, GetMulticastMode method [Microsoft TV Technologies], GetMulticastMode method [Microsoft TV Technologies],IBDA_EthernetFilter interface, IBDA_EthernetFilter interface [Microsoft TV Technologies],GetMulticastMode method, IBDA_EthernetFilter.GetMulticastMode, IBDA_EthernetFilter::GetMulticastMode, IBDA_EthernetFilterGetMulticastMode, bdaiface/IBDA_EthernetFilter::GetMulticastMode, mstv.ibda_ethernetfilter_getmulticastmode
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_EthernetFilter.GetMulticastMode
 dev_langs:

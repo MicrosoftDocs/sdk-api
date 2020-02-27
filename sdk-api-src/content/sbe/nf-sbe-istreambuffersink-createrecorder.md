@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: a9f3b7e1-4f54-4802-af24-4b791ee646fc
 ms.date: 12/05/2018
 ms.keywords: CreateRecorder, CreateRecorder method [Microsoft TV Technologies], CreateRecorder method [Microsoft TV Technologies],IStreamBufferSink interface, IStreamBufferSink interface [Microsoft TV Technologies],CreateRecorder method, IStreamBufferSink.CreateRecorder, IStreamBufferSink::CreateRecorder, IStreamBufferSinkCreateRecorder, mstv.istreambuffersink_createrecorder, sbe/IStreamBufferSink::CreateRecorder
-ms.topic: method
 f1_keywords:
 - sbe/IStreamBufferSink.CreateRecorder
 dev_langs:

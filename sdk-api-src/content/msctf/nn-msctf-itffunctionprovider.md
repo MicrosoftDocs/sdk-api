@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: e63fd561-1157-49b1-a981-e578d9538876
 ms.date: 12/05/2018
 ms.keywords: ITfFunctionProvider, ITfFunctionProvider interface [Text Services Framework], ITfFunctionProvider interface [Text Services Framework],described, _tsf_itffunctionprovider_ref, msctf/ITfFunctionProvider, tsf.itffunctionprovider
-ms.topic: interface
 f1_keywords:
 - msctf/ITfFunctionProvider
 dev_langs:

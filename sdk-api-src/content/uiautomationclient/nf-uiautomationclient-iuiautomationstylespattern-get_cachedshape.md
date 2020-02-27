@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: DB6D21C8-ADF3-4640-9B46-59033F015A22
 ms.date: 12/05/2018
 ms.keywords: CachedShape property [Windows Accessibility], CachedShape property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CachedShape property, IUIAutomationStylesPattern.CachedShape, IUIAutomationStylesPattern.get_CachedShape, IUIAutomationStylesPattern::CachedShape, IUIAutomationStylesPattern::get_CachedShape, get_CachedShape, uiautomationclient/IUIAutomationStylesPattern::CachedShape, uiautomationclient/IUIAutomationStylesPattern::get_CachedShape, winauto.uiauto_IUIAutomationStylesPattern_CachedShape
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationStylesPattern.CachedShape
 dev_langs:

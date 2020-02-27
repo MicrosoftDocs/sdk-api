@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: eb34b8b4-1130-4148-aea5-eb6ad00c64d2
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],TargetId property, ITsSbTaskInfo.TargetId, ITsSbTaskInfo.get_TargetId, ITsSbTaskInfo::TargetId, ITsSbTaskInfo::get_TargetId, TargetId property [Remote Desktop Services], TargetId property [Remote Desktop Services],ITsSbTaskInfo interface, get_TargetId, sbtsv/ITsSbTaskInfo::TargetId, sbtsv/ITsSbTaskInfo::get_TargetId, termserv.itssbtaskinfo_targetid
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbTaskInfo.TargetId
 dev_langs:

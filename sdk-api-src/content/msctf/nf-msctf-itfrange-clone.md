@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 2b85012f-b090-4c91-b29c-b2470ff63ab6
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],Clone method, ITfRange.Clone, ITfRange::Clone, _tsf_itfrange_clone_ref, msctf/ITfRange::Clone, tsf.itfrange_clone
-ms.topic: method
 f1_keywords:
 - msctf/ITfRange.Clone
 dev_langs:

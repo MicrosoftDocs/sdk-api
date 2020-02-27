@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3a34001b-6286-4103-ae9f-700ea101dc17
 ms.date: 12/05/2018
 ms.keywords: CoGetCallerTID, CoGetCallerTID function [COM], _com_CoGetCallerTID, com.cogetcallertid, combaseapi/CoGetCallerTID
-ms.topic: function
 f1_keywords:
 - combaseapi/CoGetCallerTID
 dev_langs:

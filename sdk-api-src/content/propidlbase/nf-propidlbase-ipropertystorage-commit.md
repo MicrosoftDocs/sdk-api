@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 00efae8b-023e-425d-b7cd-c40c17d7948e
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Structured Storage], Commit method [Structured Storage],IPropertyStorage interface, IPropertyStorage [Strctd Stg],Commit, IPropertyStorage interface [Structured Storage],Commit method, IPropertyStorage.Commit, IPropertyStorage::Commit, _stg_ipropertystorage_commit, propidl/IPropertyStorage::Commit, stg.ipropertystorage_commit
-ms.topic: method
 f1_keywords:
 - propidlbase/IPropertyStorage.Commit
 dev_langs:

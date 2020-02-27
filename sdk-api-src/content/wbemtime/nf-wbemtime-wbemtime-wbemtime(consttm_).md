@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: fe128577-0059-4728-9848-d947697bb386
 ms.date: 12/05/2018
 ms.keywords: ??0WBEMTime@@QAE@ABUtm@@@Z, WBEMTime, WBEMTime constructor [Windows Management Instrumentation], WBEMTime constructor [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],WBEMTime constructor, WBEMTime.WBEMTime, WBEMTime.WBEMTime(const tm &), WBEMTime::WBEMTime, WBEMTime::WBEMTime(const struct tm&), WBEMTime::WBEMTime(const tm &), wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime_const_struct_tm__
-ms.topic: method
 f1_keywords:
 - wbemtime/WBEMTime.WBEMTime
 dev_langs:
@@ -68,5 +67,5 @@ The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTim
 
 ### -param tmin [ref]
 
-ANSI C <b>tm</b> structure. A <b>tm</b> structure holds a time value using individual members and expressed as the number of years, months, day of month, hours, minutes, and seconds elapsed since 1900. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=83469">MSDN</a>.
+ANSI C <b>tm</b> structure. A <b>tm</b> structure holds a time value using individual members and expressed as the number of years, months, day of month, hours, minutes, and seconds elapsed since 1900. For more information, see <a href="https://msdn.microsoft.com/library/default.aspx">MSDN</a>.
 

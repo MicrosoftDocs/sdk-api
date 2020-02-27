@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: b11f65b0-2de2-478b-88b6-4696a8da2419
 ms.date: 12/05/2018
 ms.keywords: IVssComponentEx, IVssComponentEx interface, IVssComponentEx interface,described, base.ivsscomponentex, vswriter/IVssComponentEx
-ms.topic: class
 f1_keywords:
 - vswriter/IVssComponentEx
 dev_langs:
@@ -57,7 +56,7 @@ Defines additional methods for examining  and modifying information about compon
 The <b>IVssComponentEx</b> interface is a C++ (not COM) interface.
 
 To obtain an instance of the <b>IVssComponentEx</b> 
-   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of the 
+   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> interface, and pass 
    the <b>IID_IVssComponentEx</b> constant as the interface identifier (IID) parameter.
 

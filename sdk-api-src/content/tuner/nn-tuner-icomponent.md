@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 516b30ba-4f55-49b7-8085-d436bf4a94e1
 ms.date: 12/05/2018
 ms.keywords: IComponent, IComponent interface [Microsoft TV Technologies], IComponent interface [Microsoft TV Technologies],described, IComponentInterface, mstv.icomponent, tuner/IComponent
-ms.topic: interface
 f1_keywords:
 - tuner/IComponent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 1859bc0f-8065-4104-b421-1b4c020ad5ea
 ms.date: 12/05/2018
 ms.keywords: QueryProcessCycleTime, QueryProcessCycleTime function, base.queryprocesscycletime, realtimeapiset/QueryProcessCycleTime, winbase/QueryProcessCycleTime
-ms.topic: function
 f1_keywords:
 - realtimeapiset/QueryProcessCycleTime
 dev_langs:

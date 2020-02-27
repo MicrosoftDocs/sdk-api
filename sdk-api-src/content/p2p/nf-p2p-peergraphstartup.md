@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 00ffdec7-f084-4170-a4a1-e6112bab4d61
 ms.date: 12/05/2018
 ms.keywords: PeerGraphStartup, PeerGraphStartup function [Peer Networking], p2p.peergraphstartup, p2p/PeerGraphStartup
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphStartup
 dev_langs:

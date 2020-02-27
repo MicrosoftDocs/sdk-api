@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 1535fe64-221a-4756-a9ba-81bbe7596598
 ms.date: 12/05/2018
 ms.keywords: SetVolumeMountPoint, SetVolumeMountPoint function [Files], SetVolumeMountPointA, SetVolumeMountPointW, _win32_setvolumemountpoint, base.setvolumemountpoint, fs.setvolumemountpoint, winbase/SetVolumeMountPoint, winbase/SetVolumeMountPointA, winbase/SetVolumeMountPointW
-ms.topic: function
 f1_keywords:
 - winbase/SetVolumeMountPoint
 dev_langs:
@@ -76,8 +75,8 @@ The user-mode path to be associated with the volume. This may be a drive letter 
 ### -param lpszVolumeName [in]
 
 A volume <b>GUID</b> path for the volume. This string must be of the form 
-      "\\?\Volume{<i>GUID</i>}\" where <i>GUID</i> is a <b>GUID</b> that identifies 
-      the volume. The "\\?\" turns off path parsing and is ignored as part of the path, as discussed in 
+      "\\\\?\Volume{<i>GUID</i>}\" where <i>GUID</i> is a <b>GUID</b> that identifies 
+      the volume. The "\\\\?\" turns off path parsing and is ignored as part of the path, as discussed in 
       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-volume">Naming a Volume</a>.
 
 
@@ -107,7 +106,7 @@ It is an error to associate a volume with a directory that has any files or subd
 
 When mounted folders are created on a volume on a clustered disk, they may be deleted unexpectedly under certain 
     circumstances. For information on how to create and configure mounted folders to ensure that this does not happen, 
-    see <a href="Http://go.microsoft.com/fwlink/p/?linkid=169338">Cluster Disk and Drive Connection Problems</a>.
+    see <a href="https://technet.microsoft.com/library/cc757627.aspx">Cluster Disk and Drive Connection Problems</a>.
 
 IIn Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 

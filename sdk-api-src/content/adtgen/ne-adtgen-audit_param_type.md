@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 1ECC866A-2DD3-4EE4-B2CC-7F5ADF7FFC99
 ms.date: 12/05/2018
 ms.keywords: APT_Guid, APT_Int64, APT_IpAddress, APT_LogonId, APT_LogonIdWithSid, APT_Luid, APT_None, APT_ObjectTypeList, APT_Pointer, APT_Sid, APT_String, APT_Time, APT_Ulong, AUDIT_PARAM_TYPE, AUDIT_PARAM_TYPE enumeration [Security], adtgen/APT_Guid, adtgen/APT_Int64, adtgen/APT_IpAddress, adtgen/APT_LogonId, adtgen/APT_LogonIdWithSid, adtgen/APT_Luid, adtgen/APT_None, adtgen/APT_ObjectTypeList, adtgen/APT_Pointer, adtgen/APT_Sid, adtgen/APT_String, adtgen/APT_Time, adtgen/APT_Ulong, adtgen/AUDIT_PARAM_TYPE, security.audit_param_type
-ms.topic: enum
 f1_keywords:
 - adtgen/AUDIT_PARAM_TYPE
 dev_langs:

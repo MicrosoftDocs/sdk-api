@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 1308F513-5458-900C-A494-9AC9131C2D1E
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextEditTextChangedEventHandler, IUIAutomationTextEditTextChangedEventHandler interface [Windows Accessibility], IUIAutomationTextEditTextChangedEventHandler interface [Windows Accessibility],described, uiautomationclient/IUIAutomationTextEditTextChangedEventHandler, winauto.uiauto_IUIAutomationTextEditTextChangedEventHandler
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationTextEditTextChangedEventHandler
 dev_langs:

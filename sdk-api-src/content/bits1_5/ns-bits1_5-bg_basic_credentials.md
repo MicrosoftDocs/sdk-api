@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: e078e464-37b7-45ce-add8-6472a4607ff3
 ms.date: 02/22/2019
 ms.keywords: '*PBG_BASIC_CREDENTIALS, BG_BASIC_CREDENTIALS, BG_BASIC_CREDENTIALS structure [BITS], _drz_bg_basic_credentials, bits.bg_basic_credentials, bits1_5/BG_BASIC_CREDENTIALS'
-ms.topic: struct
 f1_keywords:
 - bits1_5/BG_BASIC_CREDENTIALS
 dev_langs:
@@ -59,7 +58,7 @@ If <strong>NULL</strong>, default credentials for this session context are used.
 ### -field Password
 A null-terminated string that contains the password in plaintext. The password is limited to 65536 characters, not including the null terminator. The password can be blank. Set it to <strong>NULL</strong> if <strong>UserName</strong> is <strong>NULL</strong>. BITS encrypts the password before persisting the job if a network disconnect occurs or the user logs off.
 
-Live ID encoded passwords are supported through Negotiate 2. For more information about Live IDs, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=147129">Windows Live ID SDK</a>.   
+Live ID encoded passwords are supported through Negotiate 2. For more information about Live IDs, see the <a href="https://msdn.microsoft.com/library/bb404787.aspx">Windows Live ID SDK</a>.   
 
 ## -remarks
 The following list identifies when the <b>UserName</b> and <b>Password</b> members are required based on the authentication scheme requested:

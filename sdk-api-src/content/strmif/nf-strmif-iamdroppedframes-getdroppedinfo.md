@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d4dc9e68-f814-4bb4-88ea-88eea32b2577
 ms.date: 12/05/2018
 ms.keywords: GetDroppedInfo, GetDroppedInfo method [DirectShow], GetDroppedInfo method [DirectShow],IAMDroppedFrames interface, IAMDroppedFrames interface [DirectShow],GetDroppedInfo method, IAMDroppedFrames.GetDroppedInfo, IAMDroppedFrames::GetDroppedInfo, IAMDroppedFramesGetDroppedInfo, dshow.iamdroppedframes_getdroppedinfo, strmif/IAMDroppedFrames::GetDroppedInfo
-ms.topic: method
 f1_keywords:
 - strmif/IAMDroppedFrames.GetDroppedInfo
 dev_langs:

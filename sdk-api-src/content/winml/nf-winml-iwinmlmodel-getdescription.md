@@ -7,7 +7,6 @@ tech.root: MachineLearning
 ms.assetid: 57B05316-8E6B-4490-B181-EB1717B15E31
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method, GetDescription method,IWinMLModel interface, IWinMLModel interface,GetDescription method, IWinMLModel.GetDescription, IWinMLModel::GetDescription, MachineLearning.iwinmlmodel_getdescription, winml/IWinMLModel::GetDescription
-ms.topic: method
 f1_keywords:
 - winml/IWinMLModel.GetDescription
 dev_langs:

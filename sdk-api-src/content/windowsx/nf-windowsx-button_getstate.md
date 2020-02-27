@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getstate.htm
 ms.date: 12/05/2018
 ms.keywords: Button_GetState, Button_GetState macro [Windows Controls], _win32_Button_GetState, _win32_Button_GetState_cpp, controls.Button_GetState, controls._win32_Button_GetState, windowsx/Button_GetState
-ms.topic: macro
 f1_keywords:
 - windowsx/Button_GetState
 dev_langs:

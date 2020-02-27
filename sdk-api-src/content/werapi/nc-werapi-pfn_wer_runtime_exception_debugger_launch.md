@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: ecf36951-cdb5-425d-a9b1-83b7ce8aebc4
 ms.date: 12/05/2018
 ms.keywords: OutOfProcessExceptionEventDebuggerLaunchCallback, OutOfProcessExceptionEventDebuggerLaunchCallback callback function [Windows Error Reporting], PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH, PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH callback, wer.outofprocessexceptioneventdebuggerlaunchcallback, werapi/OutOfProcessExceptionEventDebuggerLaunchCallback
-ms.topic: callback
 f1_keywords:
 - werapi/OutOfProcessExceptionEventDebuggerLaunchCallback
 dev_langs:
@@ -77,7 +76,7 @@ Set to <b>TRUE</b> if the custom debugger specified in the <i>pwszDebuggerLaunch
 
 ### -param pwszDebuggerLaunch [out]
 
-A caller-allocated buffer that you use to specify the debugger launch string used to launch the debugger. The launch string must include the full path to the debugger and any arguments. If an argument includes multiple words, use quotes to delimit the argument. The debugger string should adhere to the same protocol as the default AeDebug debugger string (see <a href="https://docs.microsoft.com/windows/desktop/Debug/configuring-automatic-debugging">Configuring Automatic Debugging</a>). The string must contain two formatting specifiers: %ld for the crashing process ID, and %ld for the handle to an event object to be signaled after the custom debugger has attached to the target (for a description of these specifiers, see <a href="http://go.microsoft.com/fwlink/p/?linkid=154547">Enabling Postmortem Debugging</a>). However, custom debuggers can choose to ignore these parameters.
+A caller-allocated buffer that you use to specify the debugger launch string used to launch the debugger. The launch string must include the full path to the debugger and any arguments. If an argument includes multiple words, use quotes to delimit the argument. The debugger string should adhere to the same protocol as the default AeDebug debugger string (see <a href="https://docs.microsoft.com/windows/desktop/Debug/configuring-automatic-debugging">Configuring Automatic Debugging</a>). The string must contain two formatting specifiers: %ld for the crashing process ID, and %ld for the handle to an event object to be signaled after the custom debugger has attached to the target (for a description of these specifiers, see <a href="https://msdn.microsoft.com/library/cc266343.aspx">Enabling Postmortem Debugging</a>). However, custom debuggers can choose to ignore these parameters.
 
 
 ### -param pchDebuggerLaunch [in, out]

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 6bf7e374-5991-4a7b-984a-628d3e77b2d7
 ms.date: 12/05/2018
 ms.keywords: '*LPCAPTUREPARMS, *PCAPTUREPARMS, CAPTUREPARMS, CAPTUREPARMS structure [Windows Multimedia], _win32_CAPTUREPARMS_str, multimedia.captureparms, vfw/CAPTUREPARMS'
-ms.topic: struct
 f1_keywords:
 - vfw/CAPTUREPARMS
 dev_langs:
@@ -119,7 +118,7 @@ Maximum number of audio buffers to allocate. The maximum number of buffers is 10
 
 ### -field vKeyAbort
 
-Virtual keycode used to terminate streaming capture. The default value is VK_ESCAPE. You must call the <a href="http://go.microsoft.com/fwlink/p/?linkid=16996">RegisterHotKey</a> function before specifying a keystroke that can abort a capture session.
+Virtual keycode used to terminate streaming capture. The default value is VK_ESCAPE. You must call the <a href="https://msdn.microsoft.com/library/ms646309.aspx">RegisterHotKey</a> function before specifying a keystroke that can abort a capture session.
 
 You can combine keycodes that include CTRL and SHIFT keystrokes by using the logical OR operator with the keycodes for CTRL (0x8000) and SHIFT (0x4000).
 
@@ -209,7 +208,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-get-se
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=16996">RegisterHotKey</a>
+<a href="https://msdn.microsoft.com/library/ms646309.aspx">RegisterHotKey</a>
 
 
 

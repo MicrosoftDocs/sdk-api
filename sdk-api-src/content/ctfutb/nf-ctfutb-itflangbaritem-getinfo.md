@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: b32e433a-c0d6-418e-bf11-2291c85373c2
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [Text Services Framework], GetInfo method [Text Services Framework],ITfLangBarItem interface, ITfLangBarItem interface [Text Services Framework],GetInfo method, ITfLangBarItem.GetInfo, ITfLangBarItem::GetInfo, _tsf_itflangbaritem_getinfo_ref, ctfutb/ITfLangBarItem::GetInfo, tsf.itflangbaritem_getinfo
-ms.topic: method
 f1_keywords:
 - ctfutb/ITfLangBarItem.GetInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: BD334EB8-4E14-478D-AB2A-E7F863C4BE0F
 ms.date: 12/05/2018
 ms.keywords: ComprehensiveCheck, ComprehensiveCheck method [Internationalization for Windows Applications], ComprehensiveCheck method [Internationalization for Windows Applications],IComprehensiveSpellCheckProvider interface, IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications],ComprehensiveCheck method, IComprehensiveSpellCheckProvider.ComprehensiveCheck, IComprehensiveSpellCheckProvider::ComprehensiveCheck, intl.icomprehensivespellcheckprovider_comprehensivecheck, spellcheckprovider/IComprehensiveSpellCheckProvider::ComprehensiveCheck
-ms.topic: method
 f1_keywords:
 - spellcheckprovider/IComprehensiveSpellCheckProvider.ComprehensiveCheck
 dev_langs:
@@ -123,7 +122,7 @@ Successful.
 
 
 This interface isn't required to be implemented by a spell check provider. But if the provider supports two "modes" of spell checking (a faster one and a slower but more thorough one), it should implement this interface in the same object that implements <a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a> to support the more thorough checking mode. 
-When a client calls <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-comprehensivecheck">ISpellChecker::ComprehensiveCheck</a>, the spell checking functionality will <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> the provider for <a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-icomprehensivespellcheckprovider">IComprehensiveSpellCheckProvider</a>, and call <b>IComprehensiveSpellCheckProvider.ComprehensiveCheck</b> if the interface is supported. If the interface isn't supported, it will silently fall back to <a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-check">ISpellCheckProvider::Check</a>.
+When a client calls <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-comprehensivecheck">ISpellChecker::ComprehensiveCheck</a>, the spell checking functionality will <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> the provider for <a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-icomprehensivespellcheckprovider">IComprehensiveSpellCheckProvider</a>, and call <b>IComprehensiveSpellCheckProvider.ComprehensiveCheck</b> if the interface is supported. If the interface isn't supported, it will silently fall back to <a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-check">ISpellCheckProvider::Check</a>.
 
 
 

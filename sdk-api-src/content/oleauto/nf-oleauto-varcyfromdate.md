@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 636f7c14-0363-4323-aae3-1ceede260ad5
 ms.date: 12/05/2018
 ms.keywords: VarCyFromDate, VarCyFromDate function [Automation], _oa96_VarCyFromDate, automat.varcyfromdate, oleauto/VarCyFromDate
-ms.topic: function
 f1_keywords:
 - oleauto/VarCyFromDate
 dev_langs:

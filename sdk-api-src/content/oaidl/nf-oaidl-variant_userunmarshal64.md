@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: c4539285-20c2-4eda-acbc-1f1a80cad07b
 ms.date: 12/05/2018
 ms.keywords: VARIANT_UserUnmarshal64, VARIANT_UserUnmarshal64 function [Automation], automat.variant_userunmarshal64, oaidl/VARIANT_UserUnmarshal64
-ms.topic: function
 f1_keywords:
 - oaidl/VARIANT_UserUnmarshal64
 dev_langs:

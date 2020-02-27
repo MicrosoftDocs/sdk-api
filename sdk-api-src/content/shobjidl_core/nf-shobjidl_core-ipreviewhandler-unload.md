@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: cefa9888-66cf-48a1-a6cd-49e273076d39
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],Unload method, IPreviewHandler.Unload, IPreviewHandler::Unload, Unload, Unload method [Windows Shell], Unload method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_Unload, shell.IPreviewHandler_Unload, shobjidl_core/IPreviewHandler::Unload
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IPreviewHandler.Unload
 dev_langs:

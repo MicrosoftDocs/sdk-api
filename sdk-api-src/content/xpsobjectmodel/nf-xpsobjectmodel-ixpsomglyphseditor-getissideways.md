@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d115dbce-a81c-458f-8929-9e49e84a575d
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetIsSideways, GetIsSideways method [XPS Documents and Packaging], GetIsSideways method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetIsSideways method, IXpsOMGlyphsEditor.GetIsSideways, IXpsOMGlyphsEditor::GetIsSideways, TRUE, xps.ixpsomglyphseditor_getissideways, xpsobjectmodel/IXpsOMGlyphsEditor::GetIsSideways
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphsEditor.GetIsSideways
 dev_langs:
@@ -148,7 +147,7 @@ The default value for this property is <b>false</b>.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

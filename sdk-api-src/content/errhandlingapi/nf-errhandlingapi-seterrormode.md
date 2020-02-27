@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: b88f5577-9124-433c-a7e8-a7f713b7b27d
 ms.date: 12/05/2018
 ms.keywords: SEM_FAILCRITICALERRORS, SEM_NOALIGNMENTFAULTEXCEPT, SEM_NOGPFAULTERRORBOX, SEM_NOOPENFILEERRORBOX, SetErrorMode, SetErrorMode function, _win32_seterrormode, base.seterrormode, errhandlingapi/SetErrorMode
-ms.topic: function
 f1_keywords:
 - errhandlingapi/SetErrorMode
 dev_langs:
@@ -172,7 +171,7 @@ ASSERT(fuOldErrorMode == SEM_NOALIGNMENTFAULTEXCEPT);</pre>
 <b>Itanium:  </b>An application must explicitly call 
 <b>SetErrorMode</b> with SEM_NOALIGNMENTFAULTEXCEPT to have the system automatically fix alignment faults. The default setting is for the system to make alignment faults visible to an application.
 
-<b>Visual Studio 2005:  </b>When declaring a pointer to a structure that may not have aligned data, you can use the <b>__unaligned</b> keyword to indicate that the type must be read one byte at a time. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=83885">Windows Data Alignment</a>.
+<b>Visual Studio 2005:  </b>When declaring a pointer to a structure that may not have aligned data, you can use the <b>__unaligned</b> keyword to indicate that the type must be read one byte at a time. For more information, see <a href="https://msdn.microsoft.com/library/Aa290049.aspx">Windows Data Alignment</a>.
 
 <b>Windows 7:  </b>Callers should favor <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode">SetThreadErrorMode</a> over <b>SetErrorMode</b> since it is less disruptive to the normal behavior of the system.  
 

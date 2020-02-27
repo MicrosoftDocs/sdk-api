@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 80591675-0049-46ED-9F43-8ED192ED47C4
 ms.date: 12/5/2018
 ms.keywords: DML_ELEMENT_WISE_LOG_OPERATOR_DESC, DML_ELEMENT_WISE_LOG_OPERATOR_DESC structure, direct3d12.dml_element_wise_log_operator_desc, directml/DML_ELEMENT_WISE_LOG_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_ELEMENT_WISE_LOG_OPERATOR_DESC
 dev_langs:

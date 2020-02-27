@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e18be591-64c7-4da0-aa28-c51dca7901b7
 ms.date: 12/05/2018
 ms.keywords: GetPhysicalType, GetPhysicalType method [DirectShow], GetPhysicalType method [DirectShow],IAMPhysicalPinInfo interface, IAMPhysicalPinInfo interface [DirectShow],GetPhysicalType method, IAMPhysicalPinInfo.GetPhysicalType, IAMPhysicalPinInfo::GetPhysicalType, IAMPhysicalPinInfoGetPhysicalType, dshow.iamphysicalpininfo_getphysicaltype, strmif/IAMPhysicalPinInfo::GetPhysicalType
-ms.topic: method
 f1_keywords:
 - strmif/IAMPhysicalPinInfo.GetPhysicalType
 dev_langs:
@@ -65,7 +64,7 @@ Retrieves the type and name of the physical pin.
 
 ### -param pType [out]
 
-Pointer to a variable that receives a value indicating the pin's type. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-physicalconnectortype">PhysicalConnectorType</a> enumeration defines the pin type values.
+Pointer to a variable that receives a value indicating the pin's type. The [PhysicalConnectorType](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-physicalconnectortype) enumeration defines the pin type values.
 
 
 ### -param ppszType [out]

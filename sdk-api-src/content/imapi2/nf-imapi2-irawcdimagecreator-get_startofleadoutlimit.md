@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 07397f94-fd32-4507-89dd-53de7f25b231
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_StartOfLeadoutLimit method, IRawCDImageCreator.get_StartOfLeadoutLimit, IRawCDImageCreator::get_StartOfLeadoutLimit, get_StartOfLeadoutLimit, get_StartOfLeadoutLimit method [IMAPI], get_StartOfLeadoutLimit method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_startofleadoutlimit, imapi2/IRawCDImageCreator::get_StartOfLeadoutLimit
-ms.topic: method
 f1_keywords:
 - imapi2/IRawCDImageCreator.get_StartOfLeadoutLimit
 dev_langs:

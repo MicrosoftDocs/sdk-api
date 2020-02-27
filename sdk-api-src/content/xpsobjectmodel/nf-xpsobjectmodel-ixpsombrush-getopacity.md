@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 53819ce0-4b81-4720-8c1d-6e9031b228c9
 ms.date: 12/05/2018
 ms.keywords: GetOpacity, GetOpacity method [XPS Documents and Packaging], GetOpacity method [XPS Documents and Packaging],IXpsOMBrush interface, IXpsOMBrush interface [XPS Documents and Packaging],GetOpacity method, IXpsOMBrush.GetOpacity, IXpsOMBrush::GetOpacity, xps.ixpsombrush_getopacity, xpsobjectmodel/IXpsOMBrush::GetOpacity
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMBrush.GetOpacity
 dev_langs:
@@ -120,7 +119,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

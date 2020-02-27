@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 504a63e0-39e9-4228-ab3d-c34b272f8fd3
 ms.date: 12/05/2018
 ms.keywords: FreeConfirmConflictItem, FreeConfirmConflictItem function [Windows Shell], _shell_FreeConfirmConflictItem, shell.FreeConfirmConflictItem, syncmgr/FreeConfirmConflictItem
-ms.topic: function
 f1_keywords:
 - syncmgr/FreeConfirmConflictItem
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WNet
 ms.assetid: 19273874-adf1-4ffb-8b83-0eaa64e4622e
 ms.date: 12/05/2018
 ms.keywords: WNetGetResourceInformation, WNetGetResourceInformation function [Windows Networking (WNet)], WNetGetResourceInformationA, WNetGetResourceInformationW, _win32_wnetgetresourceinformation, winnetwk/WNetGetResourceInformation, winnetwk/WNetGetResourceInformationA, winnetwk/WNetGetResourceInformationW, wnet.wnetgetresourceinformation
-ms.topic: function
 f1_keywords:
 - winnetwk/WNetGetResourceInformation
 dev_langs:

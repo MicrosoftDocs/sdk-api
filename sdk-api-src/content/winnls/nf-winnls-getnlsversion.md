@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 09bc53e1-69f4-4a71-82b3-1b1b84a1b84f
 ms.date: 12/05/2018
 ms.keywords: GetNLSVersion, GetNLSVersion function [Internationalization for Windows Applications], _win32_GetNLSVersion, intl.getnlsversion, winnls/GetNLSVersion
-ms.topic: function
 f1_keywords:
 - winnls/GetNLSVersion
 dev_langs:

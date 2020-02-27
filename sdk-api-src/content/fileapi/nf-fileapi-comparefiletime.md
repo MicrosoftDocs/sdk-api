@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 38161826-3a43-42a3-a49d-415b5f7451c5
 ms.date: 12/05/2018
 ms.keywords: CompareFileTime, CompareFileTime function, _win32_comparefiletime, base.comparefiletime, fileapi/CompareFileTime, winbase/CompareFileTime
-ms.topic: function
 f1_keywords:
 - fileapi/CompareFileTime
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 954eb6f3-f9f0-4586-9dd7-1632ebc6ef58
 ms.date: 12/05/2018
 ms.keywords: VariantTimeToSystemTime, VariantTimeToSystemTime function [Automation], _oa96_VariantTimeToSystemTime, automat.varianttimetosystemtime, oleauto/VariantTimeToSystemTime
-ms.topic: function
 f1_keywords:
 - oleauto/VariantTimeToSystemTime
 dev_langs:

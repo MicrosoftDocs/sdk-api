@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 9ed2a3fe-c31d-42fc-9ee9-27dd9aef7e06
 ms.date: 12/05/2018
 ms.keywords: GetStatistics, GetStatistics method [windows Media Format], GetStatistics method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetStatistics method, IWMReaderAdvanced.GetStatistics, IWMReaderAdvanced::GetStatistics, IWMReaderAdvancedGetStatistics, wmformat.iwmreaderadvanced_getstatistics, wmsdkidl/IWMReaderAdvanced::GetStatistics
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced.GetStatistics
 dev_langs:

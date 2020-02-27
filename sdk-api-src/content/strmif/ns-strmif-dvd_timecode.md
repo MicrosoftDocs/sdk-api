@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7ad0b11e-5bb7-426f-9a2c-fbc34b2f45b4
 ms.date: 12/05/2018
 ms.keywords: DVD_TIMECODE, DVD_TIMECODE structure [DirectShow], DVD_TIMECODEStructure, dshow.dvd_timecode, strmif/DVD_TIMECODE
-ms.topic: struct
 f1_keywords:
 - strmif/DVD_TIMECODE
 dev_langs:
@@ -103,7 +102,7 @@ Tens of frames.
 
 ### -field FrameRateCode
 
-Frames per second dropped and not dropped as indicated by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_framerate">DVD_FRAMERATE</a>.
+Frames per second dropped and not dropped as indicated by [DVD_FRAMERATE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_framerate).
 
 
 ## -remarks

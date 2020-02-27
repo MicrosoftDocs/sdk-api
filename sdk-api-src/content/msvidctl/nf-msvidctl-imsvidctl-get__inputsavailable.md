@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2d77eca3-aec9-423d-8d02-92e6f9ab5167
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get__InputsAvailable method, IMSVidCtl.get__InputsAvailable, IMSVidCtl::get__InputsAvailable, IMSVidCtlget__InputsAvailable, get__InputsAvailable, get__InputsAvailable method [Microsoft TV Technologies], get__InputsAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get__inputsavailable, msvidctl/IMSVidCtl::get__InputsAvailable
-ms.topic: method
 f1_keywords:
 - msvidctl/IMSVidCtl.get__InputsAvailable
 dev_langs:

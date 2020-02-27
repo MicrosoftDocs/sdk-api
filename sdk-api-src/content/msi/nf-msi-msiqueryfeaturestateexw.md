@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 60165f0d-01d9-4ce8-a369-092d0c670b87
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_ADVERTISED, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiQueryFeatureStateEx, MsiQueryFeatureStateEx function, MsiQueryFeatureStateExA, MsiQueryFeatureStateExW, NULL, User SID, msi/MsiQueryFeatureStateEx, msi/MsiQueryFeatureStateExA, msi/MsiQueryFeatureStateExW, setup.msiqueryfeaturestateex
-ms.topic: function
 f1_keywords:
 - msi/MsiQueryFeatureStateEx
 dev_langs:

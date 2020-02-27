@@ -7,7 +7,6 @@ tech.root: ipc
 ms.assetid: 7af2d4fa-5e19-4256-a713-ac5bdaee6023
 ms.date: 12/05/2018
 ms.keywords: DisconnectNamedPipe, DisconnectNamedPipe function, _win32_disconnectnamedpipe, base.disconnectnamedpipe, namedpipeapi/DisconnectNamedPipe
-ms.topic: function
 f1_keywords:
 - namedpipeapi/DisconnectNamedPipe
 dev_langs:

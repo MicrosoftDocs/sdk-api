@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: fa1234b4-8976-404c-b27d-320d2bba5794
 ms.date: 12/05/2018
 ms.keywords: GetProtocolVersion, GetProtocolVersion method [Microsoft TV Technologies], GetProtocolVersion method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetProtocolVersion method, IATSC_EIT.GetProtocolVersion, IATSC_EIT::GetProtocolVersion, IATSC_EITGetProtocolVersion, atscpsipparser/IATSC_EIT::GetProtocolVersion, mstv.iatsc_eit_getprotocolversion
-ms.topic: method
 f1_keywords:
 - atscpsipparser/IATSC_EIT.GetProtocolVersion
 dev_langs:

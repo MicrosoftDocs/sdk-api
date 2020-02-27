@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: 8E57FB62-D7A0-4B47-942B-E33E0B7A37B1
 ms.date: 12/05/2018
 ms.keywords: GetCommPorts, GetCommPorts function, base.getcommports, winbase/GetCommPorts
-ms.topic: function
 f1_keywords:
 - winbase/GetCommPorts
 dev_langs:

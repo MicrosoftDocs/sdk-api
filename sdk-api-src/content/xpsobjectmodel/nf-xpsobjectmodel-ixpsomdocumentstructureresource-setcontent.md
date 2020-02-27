@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 0b58e0ca-03e7-43ea-aab2-5ac6cdb15807
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocumentStructureResource interface [XPS Documents and Packaging],SetContent method, IXpsOMDocumentStructureResource.SetContent, IXpsOMDocumentStructureResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMDocumentStructureResource interface, xps.ixpsomdocumentstructureresource_setcontent, xpsobjectmodel/IXpsOMDocumentStructureResource::SetContent
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDocumentStructureResource.SetContent
 dev_langs:
@@ -83,7 +82,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 The calling method  should treat this stream as a single-threaded apartment (STA) model object and not re-enter any of the stream interface's methods.
 
-For more information about the content of DocumentStructure part, see the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>.
+For more information about the content of DocumentStructure part, see the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.
 
 Because <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdocumentstructureresource-getstream">GetStream</a> gets a clone of  the stream that is set by this method, the provided stream should have an efficient cloning method. A stream with an inefficient cloning method will reduce the performance of <b>GetStream</b>.
 
@@ -107,7 +106,7 @@ Because <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

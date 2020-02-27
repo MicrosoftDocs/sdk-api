@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 798ff904-5f08-4d3b-8a56-ca1c2df52aaf
 ms.date: 12/05/2018
 ms.keywords: ITuneRequest interface [Microsoft TV Technologies],put_Locator method, ITuneRequest.put_Locator, ITuneRequest::put_Locator, ITuneRequestput_Locator, mstv.itunerequest_put_locator, put_Locator, put_Locator method [Microsoft TV Technologies], put_Locator method [Microsoft TV Technologies],ITuneRequest interface, tuner/ITuneRequest::put_Locator
-ms.topic: method
 f1_keywords:
 - tuner/ITuneRequest.put_Locator
 dev_langs:

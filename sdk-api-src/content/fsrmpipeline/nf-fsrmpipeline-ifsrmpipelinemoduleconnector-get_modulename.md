@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: ef64a255-94da-4d42-af90-1ac9b2c0fbbc
 ms.date: 12/05/2018
 ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager],ModuleName property, IFsrmPipelineModuleConnector interface [File Server Resource Manager],ModuleName property, IFsrmPipelineModuleConnector.ModuleName, IFsrmPipelineModuleConnector.get_ModuleName, IFsrmPipelineModuleConnector::ModuleName, IFsrmPipelineModuleConnector::get_ModuleName, ModuleName property [File Server Resource Manager], ModuleName property [File Server Resource Manager],FsrmPipelineModuleConnector class, ModuleName property [File Server Resource Manager],IFsrmPipelineModuleConnector interface, fs.ifsrmpipelinemoduleconnector_modulename, fsrm.ifsrmpipelinemoduleconnector_modulename, fsrmpipeline/IFsrmPipelineModuleConnector::ModuleName, fsrmpipeline/IFsrmPipelineModuleConnector::get_ModuleName, get_ModuleName
-ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmPipelineModuleConnector.ModuleName
 dev_langs:

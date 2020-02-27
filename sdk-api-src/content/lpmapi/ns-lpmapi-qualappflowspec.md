@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 4e15b094-4250-4699-b66e-6734cf37cbb6
 ms.date: 12/05/2018
 ms.keywords: QualAppFlowSpec, QualAppFlowSpec structure [QOS], lpmapi/QualAppFlowSpec, qos.qualappflowspec
-ms.topic: struct
 f1_keywords:
 - lpmapi/QualAppFlowSpec
 dev_langs:

@@ -1,9 +1,10 @@
 ---
 UID: TP:nfswmi
+title: WMI Provider for NFS
 ms.assetid: a304921d-9cf5-3787-a577-bfa8387ff6da
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # WMI Provider for NFS

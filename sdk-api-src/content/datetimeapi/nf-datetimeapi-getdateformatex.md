@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 791fb386-3cc5-410e-bfce-52598fdb10c9
 ms.date: 12/05/2018
 ms.keywords: DATE_AUTOLAYOUT, DATE_LONGDATE, DATE_LTRREADING, DATE_MONTHDAY, DATE_RTLREADING, DATE_SHORTDATE, DATE_USE_ALT_CALENDAR, DATE_YEARMONTH, GetDateFormatEx, GetDateFormatEx function [Internationalization for Windows Applications], _win32_GetDateFormatEx, datetimeapi/GetDateFormatEx, intl.getdateformatex
-ms.topic: function
 f1_keywords:
 - datetimeapi/GetDateFormatEx
 dev_langs:
@@ -229,7 +228,7 @@ This function returns 0 if it does not succeed. To get extended error informatio
 
 
 
-<div class="alert"><b>Note</b>  This API is being updated to support the May 2019 Japanese era change. If your application supports the Japanese calendar, you should validate that it properly handles the new era. See <a href="https://aka.ms/AA3dzcz">Prepare your application for the Japanese era change</a> for more information.</div>
+<div class="alert"><b>Note</b>  This API is being updated to support the May 2019 Japanese era change. If your application supports the Japanese calendar, you should validate that it properly handles the new era. See <a href="https://docs.microsoft.com/windows/uwp/design/globalizing/japanese-era-change">Prepare your application for the Japanese era change</a> for more information.</div>
 <div> </div>
 The earliest date supported by this function is January 1, 1601.
 

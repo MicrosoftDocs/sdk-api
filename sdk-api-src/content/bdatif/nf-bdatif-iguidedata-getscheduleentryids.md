@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: d44abd0d-bcfc-418f-b541-c085032fb933
 ms.date: 12/05/2018
 ms.keywords: GetScheduleEntryIDs, GetScheduleEntryIDs method [Microsoft TV Technologies], GetScheduleEntryIDs method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetScheduleEntryIDs method, IGuideData.GetScheduleEntryIDs, IGuideData::GetScheduleEntryIDs, IGuideDataGetScheduleEntryIDs, bdatif/IGuideData::GetScheduleEntryIDs, mstv.iguidedata_getscheduleentryids
-ms.topic: method
 f1_keywords:
 - bdatif/IGuideData.GetScheduleEntryIDs
 dev_langs:

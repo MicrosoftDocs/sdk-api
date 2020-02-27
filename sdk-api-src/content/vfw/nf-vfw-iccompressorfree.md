@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 6d0c9a7d-6458-4330-af74-3f471555cbfc
 ms.date: 12/05/2018
 ms.keywords: ICCompressorFree, ICCompressorFree function [Windows Multimedia], _win32_ICCompressorFree, multimedia.iccompressorfree, vfw/ICCompressorFree
-ms.topic: function
 f1_keywords:
 - vfw/ICCompressorFree
 dev_langs:

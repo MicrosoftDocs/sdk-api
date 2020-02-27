@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: e4fe499a-4f81-4b92-bf50-b4124ae6e4a3
 ms.date: 12/05/2018
 ms.keywords: '*PADS_SORTKEY, ADS_SORTKEY, ADS_SORTKEY structure [ADSI], PADS_SORTKEY, PADS_SORTKEY structure pointer [ADSI], _ds_ads_sortkey, adsi.ads__sortkey, adsi.ads_sortkey, iads/ADS_SORTKEY, iads/PADS_SORTKEY'
-ms.topic: struct
 f1_keywords:
 - iads/ADS_SORTKEY
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: cbc6e38c-c4e9-45ea-8c9a-9bb8116c1e2f
 ms.date: 12/05/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_CurrentCallsQueued method, ITQueue.get_CurrentCallsQueued, ITQueue::get_CurrentCallsQueued, _tapi3_itqueue_get_currentcallsqueued, get_CurrentCallsQueued, get_CurrentCallsQueued method [TAPI 2.2], get_CurrentCallsQueued method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_currentcallsqueued, tapi3cc/ITQueue::get_CurrentCallsQueued
-ms.topic: method
 f1_keywords:
 - tapi3cc/ITQueue.get_CurrentCallsQueued
 dev_langs:

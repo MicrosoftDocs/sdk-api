@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 0d2d8f3b-9567-418f-a789-a34b85c114fd
 ms.date: 12/05/2018
 ms.keywords: MI_Deserializer, MI_Deserializer structure [Windows Management Infrastructure (MI)], mi/MI_Deserializer, wmi_v2.mi_deserializer
-ms.topic: struct
 f1_keywords:
 - mi/MI_Deserializer
 dev_langs:

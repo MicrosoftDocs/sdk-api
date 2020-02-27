@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: fe547660-4095-4a75-829d-f06599c0d9d7
 ms.date: 12/05/2018
 ms.keywords: ExecNotificationQuery, ExecNotificationQuery method [Windows Management Instrumentation], ExecNotificationQuery method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecNotificationQuery method, IWbemServices.ExecNotificationQuery, IWbemServices::ExecNotificationQuery, WBEM_FLAG_FORWARD_ONLY, WBEM_FLAG_RETURN_IMMEDIATELY, _hmm_iwbemservices_execnotificationquery, wbemcli/IWbemServices::ExecNotificationQuery, wmi.iwbemservices_execnotificationquery
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemServices.ExecNotificationQuery
 dev_langs:

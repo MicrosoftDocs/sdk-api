@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: f180f597-680b-47ce-b437-3395069a8c77
 ms.date: 12/05/2018
 ms.keywords: INATExternalIPAddressCallback, INATExternalIPAddressCallback interface [ICS/ICF], INATExternalIPAddressCallback interface [ICS/ICF],described, _ics_inatexternalipaddresscallback, ics.inatexternalipaddresscallback, natupnp/INATExternalIPAddressCallback
-ms.topic: interface
 f1_keywords:
 - natupnp/INATExternalIPAddressCallback
 dev_langs:

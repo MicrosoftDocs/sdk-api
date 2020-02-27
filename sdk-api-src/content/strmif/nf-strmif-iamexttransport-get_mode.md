@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ee08cca0-a2ea-4a7c-8714-f22d5cd62fe8
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],get_Mode method, IAMExtTransport.get_Mode, IAMExtTransport::get_Mode, IAMExtTransportget_Mode, dshow.iamexttransport_get_mode, get_Mode, get_Mode method [DirectShow], get_Mode method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_Mode
-ms.topic: method
 f1_keywords:
 - strmif/IAMExtTransport.get_Mode
 dev_langs:

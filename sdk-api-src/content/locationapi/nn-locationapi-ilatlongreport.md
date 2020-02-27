@@ -7,7 +7,6 @@ tech.root: locationapi
 ms.assetid: b489959e-74c7-46df-b63f-7d37e3a244d5
 ms.date: 12/05/2018
 ms.keywords: ILatLongReport, ILatLongReport interface [WinLocation], ILatLongReport interface [WinLocation],described, locationapi/ILatLongReport, winlocation.ilatlongreport
-ms.topic: interface
 f1_keywords:
 - locationapi/ILatLongReport
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: b4bfddbb-9156-42bf-b8d5-424fff9f4b64
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink2 interface [windows Media Format],Start method, IWMWriterFileSink2.Start, IWMWriterFileSink2::Start, IWMWriterFileSink2Start, Start, Start method [windows Media Format], Start method [windows Media Format],IWMWriterFileSink2 interface, wmformat.iwmwriterfilesink2_start, wmsdkidl/IWMWriterFileSink2::Start
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriterFileSink2.Start
 dev_langs:

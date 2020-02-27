@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphics.htm
 ms.date: 12/05/2018
 ms.keywords: Graphics, Graphics class [GDI+], Graphics class [GDI+],described, _gdiplus_CLASS_Graphics_Class, gdiplus._gdiplus_CLASS_Graphics_Class, gdiplusgraphics/Graphics
-ms.topic: class
 f1_keywords:
 - gdiplusgraphics/Graphics
 dev_langs:

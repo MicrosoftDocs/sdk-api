@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ff6a0aa8-4d14-4074-b084-be117b01c77a
 ms.date: 12/05/2018
 ms.keywords: CheckPolicy, CheckPolicy method [Windows Shell], CheckPolicy method [Windows Shell],IAttachmentExecute interface, IAttachmentExecute interface [Windows Shell],CheckPolicy method, IAttachmentExecute.CheckPolicy, IAttachmentExecute::CheckPolicy, _win32_IAttachmentExecute_CheckPolicy, shell.IAttachmentExecute_CheckPolicy, shobjidl_core/IAttachmentExecute::CheckPolicy
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IAttachmentExecute.CheckPolicy
 dev_langs:

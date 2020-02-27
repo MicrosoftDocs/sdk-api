@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: c7618d7e-e41e-4513-9511-2133ef5a1582
 ms.date: 12/05/2018
 ms.keywords: _win32_acmFormatSuggest, acmFormatSuggest, acmFormatSuggest function [Windows Multimedia], msacm/acmFormatSuggest, multimedia.acmformatsuggest
-ms.topic: function
 f1_keywords:
 - msacm/acmFormatSuggest
 dev_langs:

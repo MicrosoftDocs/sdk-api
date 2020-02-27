@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: e53bebb5-4e46-4ea4-8d41-c12f4c6645ef
 ms.date: 12/05/2018
 ms.keywords: FloodFill, FloodFill function [Windows GDI], _win32_FloodFill, gdi.floodfill, wingdi/FloodFill
-ms.topic: function
 f1_keywords:
 - wingdi/FloodFill
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 9ce7b211-5447-4624-b197-85730c4a7a10
 ms.date: 12/05/2018
 ms.keywords: GetTimestampForLoadedLibrary, GetTimestampForLoadedLibrary function, _win32_gettimestampforloadedlibrary, base.gettimestampforloadedlibrary, dbghelp/GetTimestampForLoadedLibrary
-ms.topic: function
 f1_keywords:
 - dbghelp/GetTimestampForLoadedLibrary
 dev_langs:

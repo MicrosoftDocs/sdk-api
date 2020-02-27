@@ -7,7 +7,6 @@ tech.root: Input_Feedback
 ms.assetid: a40806b3-9085-42b6-9a87-95be0d1669c6
 ms.date: 12/05/2018
 ms.keywords: GetWindowFeedbackSetting, GetWindowFeedbackSetting function, input_feedback.getwindowfeedbacksetting, inputfeedbackui.getwindowfeedbacksetting, winuser/GetWindowFeedbackSetting
-ms.topic: function
 f1_keywords:
 - winuser/GetWindowFeedbackSetting
 dev_langs:

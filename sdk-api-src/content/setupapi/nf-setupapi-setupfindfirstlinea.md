@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: ff4b13b6-62ca-48ae-9ddd-e721bde7bd8b
 ms.date: 12/05/2018
 ms.keywords: SetupFindFirstLine, SetupFindFirstLine function [Setup API], SetupFindFirstLineA, SetupFindFirstLineW, _setupapi_setupfindfirstline, setup.setupfindfirstline, setupapi/SetupFindFirstLine, setupapi/SetupFindFirstLineA, setupapi/SetupFindFirstLineW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupFindFirstLine
 dev_langs:

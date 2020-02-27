@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: b11c51e6-8ae7-482d-87eb-8175ca98eb63
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Automation], CreateInstance method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],CreateInstance method, ITypeInfo.CreateInstance, ITypeInfo::CreateInstance, _oa96_ITypeInfo_CreateInstance, automat.itypeinfo_createinstance, oaidl/ITypeInfo::CreateInstance
-ms.topic: method
 f1_keywords:
 - oaidl/ITypeInfo.CreateInstance
 dev_langs:

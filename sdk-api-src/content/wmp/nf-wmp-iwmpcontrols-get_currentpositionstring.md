@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 8843852b-f98a-469f-8541-44b3c51ebd6c
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_currentPositionString method, IWMPControls.get_currentPositionString, IWMPControls::get_currentPositionString, IWMPControlsget_currentPositionString, get_currentPositionString, get_currentPositionString method [Windows Media Player], get_currentPositionString method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_currentpositionstring, wmp/IWMPControls::get_currentPositionString
-ms.topic: method
 f1_keywords:
 - wmp/IWMPControls.get_currentPositionString
 dev_langs:

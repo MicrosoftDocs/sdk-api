@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 44077C5C-E3AA-4AE6-B772-BF2669B205B3
 ms.date: 12/05/2018
 ms.keywords: ID2D1RenderInfo interface [Direct2D],SetInstructionCountHint method, ID2D1RenderInfo.SetInstructionCountHint, ID2D1RenderInfo::SetInstructionCountHint, SetInstructionCountHint, SetInstructionCountHint method [Direct2D], SetInstructionCountHint method [Direct2D],ID2D1RenderInfo interface, d2d1effectauthor/ID2D1RenderInfo::SetInstructionCountHint, direct2d.id2d1renderinfo_setinstructioncounthint
-ms.topic: method
 f1_keywords:
 - d2d1effectauthor/ID2D1RenderInfo.SetInstructionCountHint
 dev_langs:

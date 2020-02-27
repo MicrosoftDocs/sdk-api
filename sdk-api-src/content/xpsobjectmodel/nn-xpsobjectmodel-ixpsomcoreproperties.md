@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 705ec9c7-5aa9-4fc5-ad2c-441cb545d056
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], IXpsOMCoreProperties interface [XPS Documents and Packaging],described, xps.ixpsomcoreproperties, xpsobjectmodel/IXpsOMCoreProperties
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 This interface provides access to the metadata that is stored in the Core Properties part of the XPS document.
 
-The contents of the Core Properties part are described in  the 1st edition, Part 2, "Open Packaging Conventions," of <a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>.
+The contents of the Core Properties part are described in  the 1st edition, Part 2, "Open Packaging Conventions," of <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>.
 
 
 ## -inheritance
@@ -438,11 +437,11 @@ The meaning and use of these properties is determined by the user or context.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

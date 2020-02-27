@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\rootentity.htm
 ms.date: 12/05/2018
 ms.keywords: ISchemaProvider interface [search],RootEntity method, ISchemaProvider.RootEntity, ISchemaProvider::RootEntity, RootEntity, RootEntity method [search], RootEntity method [search],ISchemaProvider interface, _search_ISchemaProvider_RootEntity, search._search_ISchemaProvider_RootEntity, structuredquery/ISchemaProvider::RootEntity
-ms.topic: method
 f1_keywords:
 - structuredquery/ISchemaProvider.RootEntity
 dev_langs:

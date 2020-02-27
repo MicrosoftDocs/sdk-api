@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 818b7a0e-bbf4-42b2-a5a4-75078834c9f6
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],SetLogClientID method, IWMReaderAdvanced2.SetLogClientID, IWMReaderAdvanced2::SetLogClientID, IWMReaderAdvanced2SetLogClientID, SetLogClientID, SetLogClientID method [windows Media Format], SetLogClientID method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_setlogclientid, wmsdkidl/IWMReaderAdvanced2::SetLogClientID
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced2.SetLogClientID
 dev_langs:

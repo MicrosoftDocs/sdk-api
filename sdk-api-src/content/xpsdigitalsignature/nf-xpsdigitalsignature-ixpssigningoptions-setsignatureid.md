@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 314199f2-15bc-4ede-b18c-96c1dbfe5367
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetSignatureId method, IXpsSigningOptions.SetSignatureId, IXpsSigningOptions::SetSignatureId, SetSignatureId, SetSignatureId method [XPS Documents and Packaging], SetSignatureId method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setsignatureid, xpsdigitalsignature/IXpsSigningOptions::SetSignatureId
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSigningOptions.SetSignatureId
 dev_langs:
@@ -85,7 +84,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

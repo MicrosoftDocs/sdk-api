@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ee0618a6-6162-4178-be44-978558add914
 ms.date: 12/05/2018
 ms.keywords: GetResponseData, GetResponseData method [DirectShow], GetResponseData method [DirectShow],IESIsdbCasResponseEvent interface, IESIsdbCasResponseEvent interface [DirectShow],GetResponseData method, IESIsdbCasResponseEvent.GetResponseData, IESIsdbCasResponseEvent::GetResponseData, mstv.iesisdbcasresponseevent_getresponsedata, tuner/IESIsdbCasResponseEvent::GetResponseData
-ms.topic: method
 f1_keywords:
 - tuner/IESIsdbCasResponseEvent.GetResponseData
 dev_langs:

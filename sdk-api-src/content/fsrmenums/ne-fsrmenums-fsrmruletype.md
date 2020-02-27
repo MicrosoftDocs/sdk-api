@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 9fd9daf2-5e3e-4d9c-8f19-92e31756a1c7
 ms.date: 12/05/2018
 ms.keywords: FsrmRuleType, FsrmRuleType enumeration [File Server Resource Manager], FsrmRuleType_Classification, FsrmRuleType_Generic, FsrmRuleType_Unknown, fs.fsrmruletype, fsrm.fsrmruletype, fsrmenums/FsrmRuleType, fsrmenums/FsrmRuleType_Classification, fsrmenums/FsrmRuleType_Generic, fsrmenums/FsrmRuleType_Unknown
-ms.topic: enum
 f1_keywords:
 - fsrmenums/FsrmRuleType
 dev_langs:

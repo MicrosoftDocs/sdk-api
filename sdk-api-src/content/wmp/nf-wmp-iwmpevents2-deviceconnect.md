@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: ed726579-e0cb-4007-98eb-b6df4b636b12
 ms.date: 12/05/2018
 ms.keywords: DeviceConnect, DeviceConnect method [Windows Media Player], DeviceConnect method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],DeviceConnect method, IWMPEvents2.DeviceConnect, IWMPEvents2::DeviceConnect, IWMPEvents2DeviceConnect, wmp.iwmpevents2_iwmpevents2__deviceconnect, wmp/IWMPEvents2::DeviceConnect
-ms.topic: method
 f1_keywords:
 - wmp/IWMPEvents2.DeviceConnect
 dev_langs:

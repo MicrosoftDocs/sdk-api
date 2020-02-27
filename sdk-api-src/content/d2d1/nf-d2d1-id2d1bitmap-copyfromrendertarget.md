@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 42e25099-016e-4656-a412-72dd0fbac1fd
 ms.date: 12/05/2018
 ms.keywords: CopyFromRenderTarget, CopyFromRenderTarget method [Direct2D], CopyFromRenderTarget method [Direct2D],ID2D1Bitmap interface, ID2D1Bitmap interface [Direct2D],CopyFromRenderTarget method, ID2D1Bitmap.CopyFromRenderTarget, ID2D1Bitmap::CopyFromRenderTarget, d2d1/ID2D1Bitmap::CopyFromRenderTarget, direct2d.ID2D1Bitmap_CopyFromRenderTarget
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1Bitmap.CopyFromRenderTarget
 dev_langs:

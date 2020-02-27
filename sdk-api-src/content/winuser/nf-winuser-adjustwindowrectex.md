@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\adjustwindowrectex.htm
 ms.date: 12/05/2018
 ms.keywords: AdjustWindowRectEx, AdjustWindowRectEx function [Windows and Messages], _win32_AdjustWindowRectEx, _win32_adjustwindowrectex_cpp, winmsg.adjustwindowrectex, winui._win32_adjustwindowrectex, winuser/AdjustWindowRectEx
-ms.topic: function
 f1_keywords:
 - winuser/AdjustWindowRectEx
 dev_langs:

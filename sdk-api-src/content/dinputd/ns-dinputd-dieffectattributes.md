@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: accec45c-de3c-43db-adc9-f878c40c47b0
 ms.date: 12/05/2018
 ms.keywords: '*LPDIEFFECTATTRIBUTES, DIEFFECTATTRIBUTES, DIEFFECTATTRIBUTES structure [Human Input Devices], di_ref_49296796-41c7-4b8f-8bc5-59bdeb4df29e.xml, dinputd/DIEFFECTATTRIBUTES, hid.dieffectattributes'
-ms.topic: struct
 f1_keywords:
 - dinputd/DIEFFECTATTRIBUTES
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 5AB172CA-66BF-47B8-952A-9CBA13A20668
 ms.date: 12/05/2018
 ms.keywords: IMaintenanceSettings, IMaintenanceSettings interface [Task Scheduler], IMaintenanceSettings interface [Task Scheduler],described, taskschd.imaintenancesettings, taskschd/IMaintenanceSettings
-ms.topic: interface
 f1_keywords:
 - taskschd/IMaintenanceSettings
 dev_langs:

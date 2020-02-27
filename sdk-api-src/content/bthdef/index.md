@@ -1,9 +1,10 @@
 ---
 UID: NA:bthdef
+title: Bthdef.h header
 ms.assetid: 74cdc63c-7f61-3f7d-814b-f814f7ef23fb
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: bluetooth
 ---
 

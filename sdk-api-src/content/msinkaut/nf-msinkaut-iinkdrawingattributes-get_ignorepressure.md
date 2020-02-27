@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: adf5beec-75df-46a3-91e4-33595340aca2
 ms.date: 12/05/2018
 ms.keywords: IInkDrawingAttributes interface [Tablet PC],IgnorePressure property, IInkDrawingAttributes.IgnorePressure, IInkDrawingAttributes.get_IgnorePressure, IInkDrawingAttributes::IgnorePressure, IInkDrawingAttributes::get_IgnorePressure, IInkDrawingAttributes::put_IgnorePressure, IgnorePressure property [Tablet PC], IgnorePressure property [Tablet PC],IInkDrawingAttributes interface, InkDrawingAttributes.get_IgnorePressure, InkDrawingAttributes.put_IgnorePressure, adf5beec-75df-46a3-91e4-33595340aca2, get_IgnorePressure, get_Width, msinkaut/IInkDrawingAttributes::IgnorePressure, msinkaut/IInkDrawingAttributes::get_IgnorePressure, msinkaut/IInkDrawingAttributes::put_IgnorePressure, put_Width, tablet.inkdrawingattributes_ignorepressure
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkDrawingAttributes.IgnorePressure
 dev_langs:

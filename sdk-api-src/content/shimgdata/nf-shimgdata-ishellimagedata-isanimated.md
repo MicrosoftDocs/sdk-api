@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b5b36862-5beb-4702-a5b3-feb70dc5e1ef
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsAnimated method, IShellImageData.IsAnimated, IShellImageData::IsAnimated, IsAnimated, IsAnimated method [Windows Shell], IsAnimated method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsAnimated, shell.IShellImageData_IsAnimated, shimgdata/IShellImageData::IsAnimated
-ms.topic: method
 f1_keywords:
 - shimgdata/IShellImageData.IsAnimated
 dev_langs:

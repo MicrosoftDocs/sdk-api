@@ -7,7 +7,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\wabextdisplay.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPWABEXTDISPLAY, LPWABEXTDISPLAY, LPWABEXTDISPLAY structure pointer [Windows Address Book], WABEXTDISPLAY, WABEXTDISPLAY structure [Windows Address Book], WAB_CONTEXT_ADRLIST, WAB_DISPLAY_LDAPURL, _wab_WABEXTDISPLAY, wab._wab_WABEXTDISPLAY, wabapi/LPWABEXTDISPLAY, wabapi/WABEXTDISPLAY'
-ms.topic: struct
 f1_keywords:
 - wabapi/WABEXTDISPLAY
 dev_langs:

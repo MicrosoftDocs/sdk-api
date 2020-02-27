@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f2948a6d-84a5-456b-b328-ba76dba46e9d
 ms.date: 12/05/2018
 ms.keywords: SHCreateShellFolderView, SHCreateShellFolderView function [Windows Shell], _win32_SHCreateShellFolderView, shell.SHCreateShellFolderView, shlobj_core/SHCreateShellFolderView
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHCreateShellFolderView
 dev_langs:
@@ -89,7 +88,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 <b>SHCreateShellFolderView</b> is recommended over <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex">SHCreateShellFolderViewEx</a> because of the greater flexibility of its elements to participate in various scenarios, provide new functionality to the view, and interact with other objects.
 
-When dealing with several instances of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>, you might want to verify which is the default Shell folder view object. To do so, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the object using the IID_CDefView IID. This call succeeds only when made on the default Shell folder view object.
+When dealing with several instances of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>, you might want to verify which is the default Shell folder view object. To do so, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the object using the IID_CDefView IID. This call succeeds only when made on the default Shell folder view object.
 
 Data sources that use the default Shell folder view object must implement these interfaces:
                 

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 5C004E4F-12C6-4C2E-AE9A-D841411FF689
 ms.date: 12/05/2018
 ms.keywords: ISurfaceImageSourceNativeWithD2D, ISurfaceImageSourceNativeWithD2D interface [Windows Runtime], ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],described, windows/ISurfaceImageSourceNativeWithD2D, winrt.isurfaceimagesourcenativewithd2d
-ms.topic: interface
 f1_keywords:
 - windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNativeWithD2D
 dev_langs:
@@ -120,7 +119,7 @@ Suspends the drawing operation.
 
 
 
-The <b>ISurfaceImageSourceNativeWithD2D</b> interface provides the native implementation of the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> class. To get a pointer to the  <b>ISurfaceImageSourceNativeWithD2D</b> interface, you must cast a <b>SurfaceImageSource</b> instance to <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> or <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, and call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method.
+The <b>ISurfaceImageSourceNativeWithD2D</b> interface provides the native implementation of the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> class. To get a pointer to the  <b>ISurfaceImageSourceNativeWithD2D</b> interface, you must cast a <b>SurfaceImageSource</b> instance to <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> or <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, and call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method.
 
 
 ```cpp

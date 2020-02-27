@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: a0a8461c-8919-4620-83a2-bb8e5d03b0c4
 ms.date: 12/05/2018
 ms.keywords: DeleteClusterGroup, DeleteClusterGroup function [Failover Cluster], PCLUSAPI_DELETE_CLUSTER_GROUP, PCLUSAPI_DELETE_CLUSTER_GROUP function [Failover Cluster], _wolf_deleteclustergroup, clusapi/DeleteClusterGroup, clusapi/PCLUSAPI_DELETE_CLUSTER_GROUP, mscs.deleteclustergroup
-ms.topic: function
 f1_keywords:
 - clusapi/DeleteClusterGroup
 dev_langs:

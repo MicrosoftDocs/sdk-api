@@ -7,7 +7,6 @@ tech.root: enstor
 ms.assetid: 1eb94182-520e-40a6-87e6-6ead2ab2e188
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Enhanced Storage], GetDescription method [Enhanced Storage],IEnhancedStorageSiloAction interface, IEnhancedStorageSiloAction interface [Enhanced Storage],GetDescription method, IEnhancedStorageSiloAction.GetDescription, IEnhancedStorageSiloAction::GetDescription, ehstorapi/IEnhancedStorageSiloAction::GetDescription, enstor.ienhancedstoragesiloaction_getdescription
-ms.topic: method
 f1_keywords:
 - ehstorapi/IEnhancedStorageSiloAction.GetDescription
 dev_langs:
@@ -108,7 +107,7 @@ The <i>ppwszDescription</i> parameter is <b>NULL</b>.
 
 The description string is brief, consisting of one or two short sentences, and is suitable for display in a UI element such as tooltip or small static text box.
 
-When the caller no longer requires access to the string, this buffer must be freed by passing this pointer to <a href="http://go.microsoft.com/fwlink/p/?linkid=134839">CoTaskMemFree</a>.
+When the caller no longer requires access to the string, this buffer must be freed by passing this pointer to <a href="https://msdn.microsoft.com/library/ms680722.aspx">CoTaskMemFree</a>.
 
 
 

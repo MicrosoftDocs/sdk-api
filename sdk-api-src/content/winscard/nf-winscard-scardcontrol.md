@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: e8c69e61-4e5e-4385-a0f1-9b594c479984
 ms.date: 12/05/2018
 ms.keywords: SCardControl, SCardControl function [Security], _smart_scardcontrol, security.scardcontrol, winscard/SCardControl
-ms.topic: function
 f1_keywords:
 - winscard/SCardControl
 dev_langs:

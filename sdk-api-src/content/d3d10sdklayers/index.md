@@ -1,9 +1,10 @@
 ---
 UID: NA:d3d10sdklayers
+title: D3D10Sdklayers.h header
 ms.assetid: 2da45479-107f-3773-bc5f-b7c8cfb3189f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: direct3d10
 ---
 

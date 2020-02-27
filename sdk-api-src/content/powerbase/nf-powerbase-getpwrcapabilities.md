@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: bb5cec5f-8d45-4158-824a-023f92af9b69
 ms.date: 12/05/2018
 ms.keywords: GetPwrCapabilities, GetPwrCapabilities function, _win32_getpwrcapabilities, base.getpwrcapabilities, powerbase/GetPwrCapabilities, powrprof/GetPwrCapabilities
-ms.topic: function
 f1_keywords:
 - powerbase/GetPwrCapabilities
 dev_langs:

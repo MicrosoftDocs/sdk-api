@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4ffcc30a-cf07-45e7-b9a5-342fe2b553c8
 ms.date: 12/05/2018
 ms.keywords: GetPublishedAppInfo, GetPublishedAppInfo method [Windows Shell], GetPublishedAppInfo method [Windows Shell],IPublishedApp interface, IPublishedApp interface [Windows Shell],GetPublishedAppInfo method, IPublishedApp.GetPublishedAppInfo, IPublishedApp::GetPublishedAppInfo, inet_IPublishedApp_GetPublishedAppInfo, shappmgr/IPublishedApp::GetPublishedAppInfo, shell.IPublishedApp_GetPublishedAppInfo
-ms.topic: method
 f1_keywords:
 - shappmgr/IPublishedApp.GetPublishedAppInfo
 dev_langs:

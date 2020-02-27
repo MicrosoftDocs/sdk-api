@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: aad1d1f6-5415-443a-94d2-f4a4d9b68750
 ms.date: 12/05/2018
 ms.keywords: INIT_ONCE_ASYNC, INIT_ONCE_INIT_FAILED, InitOnceComplete, InitOnceComplete function, base.initoncecomplete, synchapi/InitOnceComplete, winbase/InitOnceComplete
-ms.topic: function
 f1_keywords:
 - synchapi/InitOnceComplete
 dev_langs:

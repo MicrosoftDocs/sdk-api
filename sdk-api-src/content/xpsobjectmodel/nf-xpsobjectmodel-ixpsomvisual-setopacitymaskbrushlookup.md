@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 93c76649-dc48-4ccf-b1c5-2fb223c93513
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetOpacityMaskBrushLookup method, IXpsOMVisual.SetOpacityMaskBrushLookup, IXpsOMVisual::SetOpacityMaskBrushLookup, SetOpacityMaskBrushLookup, SetOpacityMaskBrushLookup method [XPS Documents and Packaging], SetOpacityMaskBrushLookup method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setopacitymaskbrushlookup, xpsobjectmodel/IXpsOMVisual::SetOpacityMaskBrushLookup
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.SetOpacityMaskBrushLookup
 dev_langs:
@@ -92,7 +91,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-According to the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
+According to the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
 
 </td>
 </tr>
@@ -212,7 +211,7 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

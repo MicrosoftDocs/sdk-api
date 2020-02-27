@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\multiplytransform_12matrix_order.htm
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush class [GDI+],MultiplyTransform method, LinearGradientBrush.MultiplyTransform, LinearGradientBrush::MultiplyTransform, MultiplyTransform, MultiplyTransform method [GDI+], MultiplyTransform method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_MultiplyTransform_matrix_order_, gdiplus._gdiplus_CLASS_LinearGradientBrush_MultiplyTransform_matrix_order_
-ms.topic: method
 f1_keywords:
 - gdiplusbrush/LinearGradientBrush.MultiplyTransform
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 02b44bd4-b7ce-4be5-bd59-340c006a1e43
 ms.date: 12/05/2018
 ms.keywords: WsCopyError, WsCopyError function [Web Services for Windows], webservices/WsCopyError, wsw.wscopyerror
-ms.topic: function
 f1_keywords:
 - webservices/WsCopyError
 dev_langs:

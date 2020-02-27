@@ -7,7 +7,6 @@ tech.root: WCS
 ms.assetid: 6d092755-2c7a-46a7-9127-df72c26c3ae9
 ms.date: 12/05/2018
 ms.keywords: GetColorSpace, GetColorSpace function [Windows Color System], _color_GetColorSpace, wcs.getcolorspace, wingdi/GetColorSpace
-ms.topic: function
 f1_keywords:
 - wingdi/GetColorSpace
 dev_langs:

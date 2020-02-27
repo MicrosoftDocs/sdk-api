@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 9e058e8d-ace6-4892-87c1-07e28ff24462
 ms.date: 12/05/2018
 ms.keywords: GetContentStatus, GetContentStatus method [XPS Documents and Packaging], GetContentStatus method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetContentStatus method, IXpsOMCoreProperties.GetContentStatus, IXpsOMCoreProperties::GetContentStatus, xps.ixpsomcoreproperties_getcontentstatus, xpsobjectmodel/IXpsOMCoreProperties::GetContentStatus
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.GetContentStatus
 dev_langs:
@@ -122,11 +121,11 @@ This method allocates the memory used by the string that is returned in <i>conte
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

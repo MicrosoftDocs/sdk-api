@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: B77025D6-26C7-46C9-84FE-69685C61735D
 ms.date: 12/05/2018
 ms.keywords: IUPnPServiceAsync, IUPnPServiceAsync interface [UPnP APIs], IUPnPServiceAsync interface [UPnP APIs],described, upnp.iupnpserviceasync, upnp/IUPnPServiceAsync
-ms.topic: interface
 f1_keywords:
 - upnp/IUPnPServiceAsync
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Use this interface to asynchronously query state variables and invoke actions on an instance of a service .
 
-This interface can be obtained through a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> off the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a> object.
+This interface can be obtained through a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> off the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a> object.
 
 
 ## -inheritance

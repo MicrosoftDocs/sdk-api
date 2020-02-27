@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 9535AF14-A6DF-49E9-B264-734B96A3DC29
 ms.date: 12/05/2018
 ms.keywords: IMFSensorProfile interface [Media Foundation],IsMediaTypeSupported method, IMFSensorProfile.IsMediaTypeSupported, IMFSensorProfile::IsMediaTypeSupported, IsMediaTypeSupported, IsMediaTypeSupported method [Media Foundation], IsMediaTypeSupported method [Media Foundation],IMFSensorProfile interface, mf.imfsensorprofile_ismediatypesupported, mfidl/IMFSensorProfile::IsMediaTypeSupported
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSensorProfile.IsMediaTypeSupported
 dev_langs:

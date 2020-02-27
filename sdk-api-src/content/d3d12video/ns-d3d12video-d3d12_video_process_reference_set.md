@@ -5,7 +5,6 @@ description: Contains the reference frames needed to perform video processing.
 tech.root: mf
 ms.assetid: 7dc125bb-252e-4530-b8c8-63d3b0f2dcce
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_VIDEO_PROCESS_REFERENCE_SET
 dev_langs:
@@ -72,4 +71,4 @@ An array of subresource indices for the list of *ppFutureFrames* textures.  NULL
 
 ## -see-also
 
-[D3D12_FEATURE_VIDEO_PROCESS_REFERENCE_INFO](ne-d3d12video-d3d12_feature_video)
+[D3D12_FEATURE_VIDEO_PROCESS_REFERENCE_INFO](ne-d3d12video-d3d12_feature_video.md)

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\geta.htm
 ms.date: 12/05/2018
 ms.keywords: Color class [GDI+],GetA method, Color.GetA, Color::GetA, GetA, GetA method [GDI+], GetA method [GDI+],Color class, _gdiplus_CLASS_Color_GetA_, gdiplus._gdiplus_CLASS_Color_GetA_
-ms.topic: method
 f1_keywords:
 - gdipluscolor/Color.GetA
 dev_langs:

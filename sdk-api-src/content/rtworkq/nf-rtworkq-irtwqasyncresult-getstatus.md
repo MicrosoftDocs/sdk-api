@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 90E965E5-29E6-4FC9-A923-FBBCC12195E2
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method, GetStatus method,IRtwqAsyncResult interface, IRtwqAsyncResult interface,GetStatus method, IRtwqAsyncResult.GetStatus, IRtwqAsyncResult::GetStatus, base.irtwqasyncresult_getstatus, rtworkq/IRtwqAsyncResult::GetStatus
-ms.topic: method
 f1_keywords:
 - rtworkq/IRtwqAsyncResult.GetStatus
 dev_langs:

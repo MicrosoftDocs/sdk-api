@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 15c7450b-6887-4a54-8f4f-ac2cf5944f17
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge interface,Log method, IMsmMerge.Log, IMsmMerge::Log, Log, Log method, Log method,IMsmMerge interface, _msi_log_function, mergemod/IMsmMerge::Log, setup.imsmmerge_log
-ms.topic: method
 f1_keywords:
 - mergemod/IMsmMerge.Log
 dev_langs:

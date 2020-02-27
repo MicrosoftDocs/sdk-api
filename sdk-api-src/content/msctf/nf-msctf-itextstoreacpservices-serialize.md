@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 14be52d1-4f8c-4deb-aa92-470c3608c841
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPServices interface [Text Services Framework],Serialize method, ITextStoreACPServices.Serialize, ITextStoreACPServices::Serialize, Serialize, Serialize method [Text Services Framework], Serialize method [Text Services Framework],ITextStoreACPServices interface, _tsf_itextstoreacpservices_serialize_ref, msctf/ITextStoreACPServices::Serialize, tsf.itextstoreacpservices_serialize
-ms.topic: method
 f1_keywords:
 - msctf/ITextStoreACPServices.Serialize
 dev_langs:

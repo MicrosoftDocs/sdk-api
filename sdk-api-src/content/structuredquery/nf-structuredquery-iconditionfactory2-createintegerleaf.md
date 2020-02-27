@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createintegerleaf.htm
 ms.date: 12/05/2018
 ms.keywords: CreateIntegerLeaf, CreateIntegerLeaf method [search], CreateIntegerLeaf method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateIntegerLeaf method, IConditionFactory2.CreateIntegerLeaf, IConditionFactory2::CreateIntegerLeaf, _search_IConditionFactory2_CreateIntegerLeaf, search._search_IConditionFactory2_CreateIntegerLeaf, structuredquery/IConditionFactory2::CreateIntegerLeaf
-ms.topic: method
 f1_keywords:
 - structuredquery/IConditionFactory2.CreateIntegerLeaf
 dev_langs:

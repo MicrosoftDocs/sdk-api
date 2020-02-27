@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: e80ab664-77eb-4352-ac35-64325238d4ac
 ms.date: 12/05/2018
 ms.keywords: BLUETOOTH_COD_PAIRS, BLUETOOTH_COD_PAIRS structure [Bluetooth], _bth_bluetooth_cod_pairs, bluetooth.bluetooth_cod_pairs, bluetoothapis/BLUETOOTH_COD_PAIRS
-ms.topic: struct
 f1_keywords:
 - bluetoothapis/BLUETOOTH_COD_PAIRS
 dev_langs:
@@ -76,7 +75,7 @@ Descriptive string of the mask.
 If a minor code is provided in <b>ulCODMask</b> it must also match the minor code returned by the remote device.  A major code must be set if a minor code is specified; zero is not a valid major code.
 
 See the Bluetooth specification at 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84017">www.bluetooth.com</a> for Class Of Device information.
+<a href="https://www.bluetooth.com/">www.bluetooth.com</a> for Class Of Device information.
 
 
 

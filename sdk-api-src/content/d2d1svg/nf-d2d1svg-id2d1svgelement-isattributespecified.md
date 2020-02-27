@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 94B91C4E-B2E5-4E23-B381-5920EA0F8F31
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],IsAttributeSpecified method, ID2D1SvgElement.IsAttributeSpecified, ID2D1SvgElement::IsAttributeSpecified, IsAttributeSpecified, IsAttributeSpecified method [Direct2D], IsAttributeSpecified method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::IsAttributeSpecified, direct2d.id2d1svgelement_isattributespecified
-ms.topic: method
 f1_keywords:
 - d2d1svg/ID2D1SvgElement.IsAttributeSpecified
 dev_langs:

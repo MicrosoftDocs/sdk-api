@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 0e737661-2cc3-47be-ab32-0efbc18fefbd
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO structure [Security], PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO structure pointer [Security], cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO, security.cryptui_wiz_digital_sign_pvk_file_info'
-ms.topic: struct
 f1_keywords:
 - cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO
 dev_langs:

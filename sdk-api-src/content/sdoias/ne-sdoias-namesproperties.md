@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: c7bf7a92-9945-4f54-bf01-31abcd97dd83
 ms.date: 12/05/2018
 ms.keywords: NAMESPROPERTIES, NAMESPROPERTIES enumeration [Network Policy Server], PROPERTY_NAMES_REALMS, _sdo_namesproperties, nps.SDO_namesproperties, sdo.namesproperties, sdoias/NAMESPROPERTIES, sdoias/PROPERTY_NAMES_REALMS
-ms.topic: enum
 f1_keywords:
 - sdoias/NAMESPROPERTIES
 dev_langs:

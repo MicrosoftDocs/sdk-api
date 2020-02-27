@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: e3470f17-9630-de53-d1ae-ab2a2508a069
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontDownloadQueue interface [Direct Write],RemoveListener method, IDWriteFontDownloadQueue.RemoveListener, IDWriteFontDownloadQueue::RemoveListener, RemoveListener, RemoveListener method [Direct Write], RemoveListener method [Direct Write],IDWriteFontDownloadQueue interface, directwrite.idwritefontdownloadqueue_removelistener, dwrite_3/IDWriteFontDownloadQueue::RemoveListener
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontDownloadQueue.RemoveListener
 dev_langs:

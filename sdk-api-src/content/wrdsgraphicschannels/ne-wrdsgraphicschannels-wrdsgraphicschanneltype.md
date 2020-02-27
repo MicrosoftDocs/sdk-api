@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 79B63FCD-6BCD-44E6-A5C3-6F5E1336DAA5
 ms.date: 12/05/2018
 ms.keywords: WRdsGraphicsChannelType, WRdsGraphicsChannelType enumeration [Remote Desktop Services], WRdsGraphicsChannelType_BestEffortDelivery, WRdsGraphicsChannelType_GuaranteedDelivery, termserv.wrdsgraphicschanneltype, wrdsgraphicschannels/WRdsGraphicsChannelType, wrdsgraphicschannels/WRdsGraphicsChannelType_BestEffortDelivery, wrdsgraphicschannels/WRdsGraphicsChannelType_GuaranteedDelivery
-ms.topic: enum
 f1_keywords:
 - wrdsgraphicschannels/WRdsGraphicsChannelType
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: b116ae11-f02f-47aa-8c54-4810e2d50046
 ms.date: 12/05/2018
 ms.keywords: GetSupportedCommands, GetSupportedCommands method [Windows Portable Devices SDK], GetSupportedCommands method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetSupportedCommands method, IPortableDeviceServiceCapabilities.GetSupportedCommands, IPortableDeviceServiceCapabilities::GetSupportedCommands, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedCommands, wpdsdk.iportabledeviceservicecapabilities_getsupportedcommands
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDeviceServiceCapabilities.GetSupportedCommands
 dev_langs:

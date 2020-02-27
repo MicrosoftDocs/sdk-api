@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapdata.htm
 ms.date: 12/05/2018
 ms.keywords: BitmapData, BitmapData class [GDI+], BitmapData class [GDI+],described, _gdiplus_CLASS_BitmapData_Class, gdiplus._gdiplus_CLASS_BitmapData_Class, gdiplusimaging/BitmapData
-ms.topic: class
 f1_keywords:
 - gdiplusimaging/BitmapData
 dev_langs:

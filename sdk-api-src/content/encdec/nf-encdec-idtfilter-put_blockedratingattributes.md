@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ae81e427-305e-43b8-ad4d-e23f0bbbdc4a
 ms.date: 12/05/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],put_BlockedRatingAttributes method, IDTFilter.put_BlockedRatingAttributes, IDTFilter::put_BlockedRatingAttributes, IDTFilterput_BlockedRatingAttributes, encdec/IDTFilter::put_BlockedRatingAttributes, mstv.idtfilter_put_blockedratingattributes, put_BlockedRatingAttributes, put_BlockedRatingAttributes method [Microsoft TV Technologies], put_BlockedRatingAttributes method [Microsoft TV Technologies],IDTFilter interface
-ms.topic: method
 f1_keywords:
 - encdec/IDTFilter.put_BlockedRatingAttributes
 dev_langs:

@@ -5,7 +5,6 @@ description: Specifies a bitstream encryption type.
 tech.root: mf
 ms.assetid: 54de4ba4-fa73-4d1b-9d57-86387bbb90b0
 ms.date: 05/28/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_BITSTREAM_ENCRYPTION_TYPE
 dev_langs:
@@ -37,7 +36,7 @@ targetos: Windows
 
 ## -description
 
-Specifies a bitstream encryption type. This enumeration is used by the [D3D12\_VIDEO\_DECODE\_CONFIGURATION](ns-d3d12video-d3d12_video_decode_configuration) which describes the configuration for a video decoder.
+Specifies a bitstream encryption type. This enumeration is used by the [D3D12\_VIDEO\_DECODE\_CONFIGURATION](ns-d3d12video-d3d12_video_decode_configuration.md) which describes the configuration for a video decoder.
 
 ## -enum-fields
 

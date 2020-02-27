@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: af2bea36-d576-4144-8e21-3f89772465ed
 ms.date: 12/05/2018
 ms.keywords: NdrSimpleTypeMarshall, NdrSimpleTypeMarshall function [RPC], rpc.ndrsimpletypemarshall, rpcndr/NdrSimpleTypeMarshall
-ms.topic: function
 f1_keywords:
 - rpcndr/NdrSimpleTypeMarshall
 dev_langs:

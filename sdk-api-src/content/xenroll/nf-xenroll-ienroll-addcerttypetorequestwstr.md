@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: d9bf51db-375e-4230-953c-d9893228d7e1
 ms.date: 12/05/2018
 ms.keywords: AddCertTypeToRequestWStr, AddCertTypeToRequestWStr method [Security], AddCertTypeToRequestWStr method [Security],IEnroll interface, IEnroll interface [Security],AddCertTypeToRequestWStr method, IEnroll.AddCertTypeToRequestWStr, IEnroll::AddCertTypeToRequestWStr, security.ienroll4_addcerttypetorequestwstr, xenroll/IEnroll::AddCertTypeToRequestWStr
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll.AddCertTypeToRequestWStr
 dev_langs:

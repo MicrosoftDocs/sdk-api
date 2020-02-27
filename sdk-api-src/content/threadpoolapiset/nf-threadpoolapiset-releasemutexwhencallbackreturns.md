@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 0e82c041-8191-477d-8a2e-819b8920bbc8
 ms.date: 12/05/2018
 ms.keywords: ReleaseMutexWhenCallbackReturns, ReleaseMutexWhenCallbackReturns function, base.releasemutexwhencallbackreturns, threadpoolapiset/ReleaseMutexWhenCallbackReturns, winbase/ReleaseMutexWhenCallbackReturns
-ms.topic: function
 f1_keywords:
 - threadpoolapiset/ReleaseMutexWhenCallbackReturns
 dev_langs:

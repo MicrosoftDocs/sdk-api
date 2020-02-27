@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 3b32cc6e-3df7-4104-a0d4-317fd445c7b2
 ms.date: 12/05/2018
 ms.keywords: WSAConnect, WSAConnect function [Winsock], _win32_wsaconnect_2, winsock.wsaconnect_2, winsock2/WSAConnect
-ms.topic: function
 f1_keywords:
 - winsock2/WSAConnect
 dev_langs:

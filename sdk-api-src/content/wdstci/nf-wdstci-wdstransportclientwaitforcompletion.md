@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: b592ae66-5090-468e-a747-346f87e807e8
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientWaitForCompletion, WdsTransportClientWaitForCompletion function [Windows Deployment Services], wds.wdstransportclientwaitforcompletion, wdstci/WdsTransportClientWaitForCompletion
-ms.topic: function
 f1_keywords:
 - wdstci/WdsTransportClientWaitForCompletion
 dev_langs:

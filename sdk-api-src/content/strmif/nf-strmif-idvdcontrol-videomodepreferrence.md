@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9e68b09c-534c-46d2-bda0-72f3d1d86b66
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],VideoModePreferrence method, IDvdControl.VideoModePreferrence, IDvdControl::VideoModePreferrence, IDvdControlVideoModePreferrence, VideoModePreferrence, VideoModePreferrence method [DirectShow], VideoModePreferrence method [DirectShow],IDvdControl interface, dshow.idvdcontrol_videomodepreferrence, strmif/IDvdControl::VideoModePreferrence
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.VideoModePreferrence
 dev_langs:
@@ -65,7 +64,7 @@ Sets the video display mode the user prefers.
 
 ### -param ulPreferredDisplayMode [in]
 
-Value that specifies the new display mode for DVD content. Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_preferred_display_mode">DVD_PREFERRED_DISPLAY_MODE</a> enumerated data type.
+Value that specifies the new display mode for DVD content. Member of the [DVD_PREFERRED_DISPLAY_MODE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_preferred_display_mode) enumerated data type.
 
 
 ## -returns
@@ -83,7 +82,7 @@ Returns an <b>HRESULT</b> value .
 
 This method changes the default video window's aspect ratio, and can also specify a default aspect ratio conversion mechanism.
 
-This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, DVD_DOMAIN_Title, or DVD_DOMAIN_Stop. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, DVD_DOMAIN_Title, or DVD_DOMAIN_Stop. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9486252b-9aaf-4daf-b307-5a5adddfaa99
 ms.date: 12/05/2018
 ms.keywords: SHLoadLibraryFromKnownFolder, SHLoadLibraryFromKnownFolder function [Windows Shell], _shell_SHLoadLibraryFromKnownFolder, shell.SHLoadLibraryFromKnownFolder, shobjidl_core/SHLoadLibraryFromKnownFolder
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHLoadLibraryFromKnownFolder
 dev_langs:

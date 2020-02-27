@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_7jg8.htm
 ms.date: 12/05/2018
 ms.keywords: CITextToSelectTreeEx, CITextToSelectTreeEx function [Indexing Service], _idxs_CITextToSelectTreeEx, indexsrv.citexttoselecttreeex, ntquery/CITextToSelectTreeEx
-ms.topic: function
 f1_keywords:
 - ntquery/CITextToSelectTreeEx
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href=" https://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Creates a <b>SELECT</b> node for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure using the Query Language Dialect that you specify.
 

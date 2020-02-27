@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 4451ae03-cdff-4b43-84cd-a80d639ba79f
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderSetSecurityInfoByKey0, FwpmProviderSetSecurityInfoByKey0 function [Filtering], fwp.fwpmprovidersetsecurityinfobykey0_func, fwpmu/FwpmProviderSetSecurityInfoByKey0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmProviderSetSecurityInfoByKey0
 dev_langs:

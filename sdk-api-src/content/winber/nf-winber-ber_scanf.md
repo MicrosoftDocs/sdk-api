@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: bca69428-27e1-4028-bfcd-ad67bee672cc
 ms.date: 12/05/2018
 ms.keywords: _ldap_ber_scanf, ber_scanf, ber_scanf function [LDAP], ldap.ber__scanf, ldap.ber_scanf, winber/ber_scanf
-ms.topic: function
 f1_keywords:
 - winber/ber_scanf
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ber_scanf</b> function decodes a BER element in a similar manner as <a href="http://go.microsoft.com/fwlink/p/?linkid=83973">sscanf_s</a>. One important difference is that some state status data is kept with the <b>BerElement</b> argument so that multiple calls can be made to <b>ber_scanf</b> to sequentially read from the BER element. The <b>BerElement</b> argument should be a pointer to a <b>BerElement</b> returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_init">ber_init</a>.
+The <b>ber_scanf</b> function decodes a BER element in a similar manner as <a href="https://msdn.microsoft.com/library/t6z7bya3.aspx">sscanf_s</a>. One important difference is that some state status data is kept with the <b>BerElement</b> argument so that multiple calls can be made to <b>ber_scanf</b> to sequentially read from the BER element. The <b>BerElement</b> argument should be a pointer to a <b>BerElement</b> returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_init">ber_init</a>.
 
 
 ## -parameters
@@ -181,7 +180,7 @@ The function interprets the bytes according to the format string <i>fmt</i>, and
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
  
 
  

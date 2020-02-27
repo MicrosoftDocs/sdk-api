@@ -7,7 +7,6 @@ tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maggetcoloreffect.htm
 ms.date: 12/05/2018
 ms.keywords: MagGetColorEffect, MagGetColorEffect function [Magnification API], magapi.magapi_MagGetColorEffect, magapi_MagGetColorEffect, magnification/MagGetColorEffect
-ms.topic: function
 f1_keywords:
 - magnification/MagGetColorEffect
 dev_langs:

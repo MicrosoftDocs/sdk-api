@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 08954c87-f63b-4e1a-91b4-3773e392999b
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeCspProvider, IX509AttributeCspProvider interface [Security], IX509AttributeCspProvider interface [Security],described, certenroll/IX509AttributeCspProvider, security.ix509attributecspprovider
-ms.topic: interface
 f1_keywords:
 - certenroll/IX509AttributeCspProvider
 dev_langs:

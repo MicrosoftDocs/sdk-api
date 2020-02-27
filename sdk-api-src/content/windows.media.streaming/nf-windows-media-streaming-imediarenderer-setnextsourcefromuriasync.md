@@ -7,7 +7,6 @@ tech.root: mediastreaming
 ms.assetid: 6894F1DF-63E2-4091-B61B-736D801E06EF
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],SetNextSourceFromUriAsync method, IMediaRenderer.SetNextSourceFromUriAsync, IMediaRenderer.streaming, IMediaRenderer::SetNextSourceFromUriAsync, IMediaRenderer::streaming, SetNextSourceFromUriAsync, SetNextSourceFromUriAsync method [Media Streaming API], SetNextSourceFromUriAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_setnextsourcefromuriasync, windows/IMediaRenderer::SetNextSourceFromUriAsync
-ms.topic: method
 f1_keywords:
 - windows.media.streaming/IMediaRenderer.SetNextSourceFromUriAsync
 dev_langs:

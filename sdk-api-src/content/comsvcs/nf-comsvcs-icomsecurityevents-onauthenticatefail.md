@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 3ead4865-924c-40fb-9ed8-5b98c603c5cf
 ms.date: 12/05/2018
 ms.keywords: IComSecurityEvents interface [COM+],OnAuthenticateFail method, IComSecurityEvents.OnAuthenticateFail, IComSecurityEvents::OnAuthenticateFail, OnAuthenticateFail, OnAuthenticateFail method [COM+], OnAuthenticateFail method [COM+],IComSecurityEvents interface, _dtc_IComSecurityEvents_OnAuthenticateFail, comsvcs/IComSecurityEvents::OnAuthenticateFail, cos.icomsecurityevents_onauthenticatefail
-ms.topic: method
 f1_keywords:
 - comsvcs/IComSecurityEvents.OnAuthenticateFail
 dev_langs:

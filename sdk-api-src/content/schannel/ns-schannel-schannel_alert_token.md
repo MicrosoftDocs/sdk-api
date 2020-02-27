@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 1c3a896d-4252-44ef-9e4b-6ad00e3d6f05
 ms.date: 12/05/2018
 ms.keywords: SCHANNEL_ALERT_TOKEN, SCHANNEL_ALERT_TOKEN structure [Security], TLS1_ALERT_ACCESS_DENIED, TLS1_ALERT_BAD_CERTIFICATE, TLS1_ALERT_BAD_RECORD_MAC, TLS1_ALERT_CERTIFICATE_EXPIRED, TLS1_ALERT_CERTIFICATE_REVOKED, TLS1_ALERT_CERTIFICATE_UNKNOWN, TLS1_ALERT_CLOSE_NOTIFY, TLS1_ALERT_DECODE_ERROR, TLS1_ALERT_DECOMPRESSION_FAIL, TLS1_ALERT_DECRYPTION_FAILED, TLS1_ALERT_DECRYPT_ERROR, TLS1_ALERT_EXPORT_RESTRICTION, TLS1_ALERT_FATAL, TLS1_ALERT_HANDSHAKE_FAILURE, TLS1_ALERT_ILLEGAL_PARAMETER, TLS1_ALERT_INSUFFIENT_SECURITY, TLS1_ALERT_INTERNAL_ERROR, TLS1_ALERT_NO_RENEGOTIATION, TLS1_ALERT_PROTOCOL_VERSION, TLS1_ALERT_RECORD_OVERFLOW, TLS1_ALERT_UNEXPECTED_MESSAGE, TLS1_ALERT_UNKNOWN_CA, TLS1_ALERT_UNSUPPORTED_CERT, TLS1_ALERT_UNSUPPORTED_EXT, TLS1_ALERT_USER_CANCELED, TLS1_ALERT_WARNING, schannel/SCHANNEL_ALERT_TOKEN, security.schannel_alert_token
-ms.topic: struct
 f1_keywords:
 - schannel/SCHANNEL_ALERT_TOKEN
 dev_langs:
@@ -100,7 +99,7 @@ The message is a fatal error. The connection is closed immediately.
 
 ### -field dwAlertNumber
 
-One of the alert messages defined by the TLS protocol specification. For descriptions of the defined messages, see  <a href="http://go.microsoft.com/fwlink/p/?linkid=185502">RFC 5246</a>,  <a href="http://go.microsoft.com/fwlink/p/?linkid=185503">RFC 4346</a>, or  <a href="http://go.microsoft.com/fwlink/p/?linkid=185504">RFC 2246</a>. This member must be one of the following values.
+One of the alert messages defined by the TLS protocol specification. For descriptions of the defined messages, see  <a href="http://tools.ietf.org/html/rfc5246#section-7.2">RFC 5246</a>,  <a href="http://tools.ietf.org/html/rfc4346#section-7.2">RFC 4346</a>, or  <a href="http://tools.ietf.org/html/rfc2246#section-7.2">RFC 2246</a>. This member must be one of the following values.
 
 
 

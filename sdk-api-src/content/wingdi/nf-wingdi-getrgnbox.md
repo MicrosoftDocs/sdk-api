@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 42d06f7f-1bf3-418f-a3b9-c009cf2de10b
 ms.date: 12/05/2018
 ms.keywords: GetRgnBox, GetRgnBox function [Windows GDI], _win32_GetRgnBox, gdi.getrgnbox, wingdi/GetRgnBox
-ms.topic: function
 f1_keywords:
 - wingdi/GetRgnBox
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: c0ea0ae0-2c28-4478-82fc-3e80bc70eef8
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDashCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMDashCollection.SetAt, IXpsOMDashCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, xps.ixpsomdashcollection_setat, xpsobjectmodel/IXpsOMDashCollection::SetAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDashCollection.SetAt
 dev_langs:
@@ -98,7 +97,7 @@ The figure that follows illustrates how the collection is changed by the <b>SetA
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

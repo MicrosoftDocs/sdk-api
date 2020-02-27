@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorExp(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorExp, XMVectorExp, XMVectorExp method [DirectX Math Support APIs], dxmath.xmvectorexp
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorExp
 dev_langs:

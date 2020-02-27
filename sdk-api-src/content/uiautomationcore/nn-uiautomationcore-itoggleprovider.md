@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 85da8225-31b8-4b4d-81f4-ad98871b8e31
 ms.date: 12/05/2018
 ms.keywords: IToggleProvider, IToggleProvider interface [Windows Accessibility], IToggleProvider interface [Windows Accessibility],described, uiauto.uiauto_IToggleProvider, uiauto_IToggleProvider, uiautomationcore/IToggleProvider, winauto.uiauto_IToggleProvider
-ms.topic: interface
 f1_keywords:
 - uiautomationcore/IToggleProvider
 dev_langs:

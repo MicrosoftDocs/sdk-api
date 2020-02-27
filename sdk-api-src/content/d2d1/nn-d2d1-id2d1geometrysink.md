@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 6d2c1959-1309-45d8-8204-19ffea03375b
 ms.date: 12/05/2018
 ms.keywords: ID2D1GeometrySink, ID2D1GeometrySink interface [Direct2D], ID2D1GeometrySink interface [Direct2D],described, d2d1/ID2D1GeometrySink, direct2d.ID2D1GeometrySink
-ms.topic: interface
 f1_keywords:
 - d2d1/ID2D1GeometrySink
 dev_langs:

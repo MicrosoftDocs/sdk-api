@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionRotationNormal(XMVECTOR,float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionRotationNormal, XMQuaternionRotationNormal, XMQuaternionRotationNormal method [DirectX Math Support APIs], dxmath.xmquaternionrotationnormal
-ms.topic: function
 f1_keywords:
 - directxmath/XMQuaternionRotationNormal
 dev_langs:

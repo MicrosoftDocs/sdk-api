@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 57A5003A-11DF-42c2-9C00-7DE35898B64D
 ms.date: 12/05/2018
 ms.keywords: IDataObjectProvider, IDataObjectProvider interface [Windows Shell], IDataObjectProvider interface [Windows Shell],described, shell.IDataObjectProvider, shobjidl_core/IDataObjectProvider
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IDataObjectProvider
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides methods that enable you to set or retrieve a <a href="http://go.microsoft.com/fwlink/p/?linkid=267543">DataPackage</a> object's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject interface</a>, which the DataPackage uses to support interoperability. The DataPackage object is used by an app to provide data to another app.
+Provides methods that enable you to set or retrieve a <a href="https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.datatransfer.datapackage.aspx">DataPackage</a> object's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject interface</a>, which the DataPackage uses to support interoperability. The DataPackage object is used by an app to provide data to another app.
 
 
 ## -inheritance
@@ -73,7 +72,7 @@ The <b>IDataObjectProvider</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idataobjectprovider-getdataobject">GetDataObject</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> representation of the current <a href="http://go.microsoft.com/fwlink/p/?linkid=267543">DataPackage</a> object.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> representation of the current <a href="https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.datatransfer.datapackage.aspx">DataPackage</a> object.
 
 </td>
 </tr>
@@ -83,7 +82,7 @@ Gets an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl
 </td>
 <td align="left" width="63%">
 Wraps an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> instance as a Windows Runtime
-<a href="http://go.microsoft.com/fwlink/p/?linkid=267543">DataPackage</a>.
+<a href="https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.datatransfer.datapackage.aspx">DataPackage</a>.
 
 </td>
 </tr>

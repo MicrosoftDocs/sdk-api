@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 313F631F-7584-4F95-9208-B087CC12010E
 ms.date: 12/05/2018
 ms.keywords: CanPlayType, CanPlayType method [Media Foundation], CanPlayType method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],CanPlayType method, IMFMediaEngine.CanPlayType, IMFMediaEngine::CanPlayType, mf.imfmediaengine_canplaytype, mfmediaengine/IMFMediaEngine::CanPlayType
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngine.CanPlayType
 dev_langs:

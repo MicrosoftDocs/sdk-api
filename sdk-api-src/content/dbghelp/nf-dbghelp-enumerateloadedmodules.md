@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 9bfa683f-2a0f-418f-8ac4-5c4224265f2e
 ms.date: 12/05/2018
 ms.keywords: EnumerateLoadedModules, EnumerateLoadedModules function, EnumerateLoadedModules64, EnumerateLoadedModules64 function, EnumerateLoadedModulesW64, _win32_enumerateloadedmodules64, base.enumerateloadedmodules64, dbghelp/EnumerateLoadedModules, dbghelp/EnumerateLoadedModules64, dbghelp/EnumerateLoadedModulesW64
-ms.topic: function
 f1_keywords:
 - dbghelp/EnumerateLoadedModules64
 dev_langs:

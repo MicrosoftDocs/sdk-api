@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 17e78379-a9f8-4aab-aff3-aa9b21eb629c
 ms.date: 12/05/2018
 ms.keywords: AUTH_VALIDATION_EX, AUTH_VALIDATION_EX structure [RAS], PAUTH_VALIDATION_EX, PAUTH_VALIDATION_EX structure pointer [RAS], mprapi/AUTH_VALIDATION_EX, mprapi/PAUTH_VALIDATION_EX, rras.auth_validation_ex
-ms.topic: struct
 f1_keywords:
 - mprapi/AUTH_VALIDATION_EX
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 7f3996b6-7c99-42c5-a39f-8c67ff19a580
 ms.date: 12/05/2018
 ms.keywords: WLX_LOGON_OPT_NO_PROFILE, WLX_SAS_TYPE_CTRL_ALT_DEL, WLX_SAS_TYPE_SC_INSERT, WLX_SAS_TYPE_SC_REMOVE, WLX_SAS_TYPE_TIMEOUT, WlxLoggedOutSAS, WlxLoggedOutSAS function [Security], _gina_wlxloggedoutsas, security.wlxloggedoutsas, winwlx/WlxLoggedOutSAS
-ms.topic: function
 f1_keywords:
 - winwlx/WlxLoggedOutSAS
 dev_langs:

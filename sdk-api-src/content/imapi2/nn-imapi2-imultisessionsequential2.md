@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: da226f8f-7ae9-4013-a0d4-c76a7b5dae64
 ms.date: 12/05/2018
 ms.keywords: IMultisessionSequential2, IMultisessionSequential2 interface [IMAPI], IMultisessionSequential2 interface [IMAPI],described, imapi.imultisessionsequential2, imapi2/IMultisessionSequential2
-ms.topic: interface
 f1_keywords:
 - imapi2/IMultisessionSequential2
 dev_langs:

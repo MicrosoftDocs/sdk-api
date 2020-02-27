@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 7c6d4d82-8b60-4422-8108-8ac10f254278
 ms.date: 12/05/2018
 ms.keywords: PdhGetDefaultPerfObject, PdhGetDefaultPerfObject function [Perf], PdhGetDefaultPerfObjectA, PdhGetDefaultPerfObjectW, _win32_pdhgetdefaultperfobject, base.pdhgetdefaultperfobject, pdh/PdhGetDefaultPerfObject, pdh/PdhGetDefaultPerfObjectA, pdh/PdhGetDefaultPerfObjectW, perf.pdhgetdefaultperfobject
-ms.topic: function
 f1_keywords:
 - pdh/PdhGetDefaultPerfObject
 dev_langs:

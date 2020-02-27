@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 48e0fcbe-a8a0-4193-b55f-ed4bb7d98614
 ms.date: 12/05/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator+ method, WBEMTimeSpan.operator+, WBEMTimeSpan.operator-add, WBEMTimeSpan::operator+, WBEMTimeSpan::operator-add, _hmm_wbemtimespan_operator_plus, operator+, operator+ method [Windows Management Instrumentation], operator+ method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator+, wmi.wbemtimespan_operator_plus
-ms.topic: method
 f1_keywords:
 - wbemtime/WBEMTimeSpan.operator+
 dev_langs:

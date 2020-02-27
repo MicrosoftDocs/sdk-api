@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 50498f20-0896-4471-8355-edd997aa4bcd
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_WIRE_QUESTION, *PDNS_WIRE_QUESTION structure [DNS], DNS_WIRE_QUESTION, DNS_WIRE_QUESTION structure [DNS], dns.dns_wire_question, windns/*PDNS_WIRE_QUESTION, windns/DNS_WIRE_QUESTION'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_WIRE_QUESTION
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DNS_WIRE_QUESTION</b> structure contains information about a DNS question transmitted across the network as specified in section 4.1.2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>..
+The <b>DNS_WIRE_QUESTION</b> structure contains information about a DNS question transmitted across the network as specified in section 4.1.2 of <a href="https://www.ietf.org/rfc/rfc1035.txt">RFC 1035</a>..
 
 
 ## -struct-fields

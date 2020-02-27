@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 9efee804-9763-4456-97a3-6eb9a8e30f49
 ms.date: 12/05/2018
 ms.keywords: WSASetSocketSecurity, WSASetSocketSecurity function [Winsock], winsock.wsasetsocketsecurity, ws2tcpip/WSASetSocketSecurity
-ms.topic: function
 f1_keywords:
 - ws2tcpip/WSASetSocketSecurity
 dev_langs:
@@ -273,7 +272,7 @@ Authip QM policy =
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=86174">AuthIP in Windows Vista</a>
+<a href="https://www.microsoft.com/technet/community/columns/cableguy/cg0806.mspx">AuthIP in Windows Vista</a>
 
 
 

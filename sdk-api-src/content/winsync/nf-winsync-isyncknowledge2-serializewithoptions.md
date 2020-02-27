@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: b8b9084f-f4aa-42b8-8c45-ed075db8ffe4
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge2 interface [Windows Sync],SerializeWithOptions method, ISyncKnowledge2.SerializeWithOptions, ISyncKnowledge2::SerializeWithOptions, SerializeWithOptions, SerializeWithOptions method [Windows Sync], SerializeWithOptions method [Windows Sync],ISyncKnowledge2 interface, winsync.isyncknowledge2_serializewithoptions, winsync/ISyncKnowledge2::SerializeWithOptions
-ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge2.SerializeWithOptions
 dev_langs:
@@ -151,7 +150,7 @@ The value <b>SYNC_SERIALIZE_REPLICA_KEY_MAP</b> indicates that the replica key m
 
  When <b>SYNC_SERIALIZE_REPLICA_KEY_MAP</b> is specified for flags, the <b>IReplicaKeyMap</b> object is serialized along with the knowledge data. When this flag is not specified, the <b>IReplicaKeyMap</b> data must be stored in some other way so that the knowledge object can be deserialized.
 
-The value of <i>targetFormatVersion</i> determines the format of the serialized knowledge data and refers to the version of <a href="http://go.microsoft.com/fwlink/p/?linkid=134798">Microsoft Sync Framework</a>. For an overview of what is involved in building synchronization providers using  <a href="http://go.microsoft.com/fwlink/p/?linkid=134798">Microsoft Sync Framework</a>, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/options-for-building-a-synchronization-provider">Options for Building a Synchronization Provider</a>.
+The value of <i>targetFormatVersion</i> determines the format of the serialized knowledge data and refers to the version of <a href="https://www.microsoft.com/downloads/details.aspx?familyid=A3EE7BC5-A823-4FB4-B152-9E8CE9D5546F&displaylang=en">Microsoft Sync Framework</a>. For an overview of what is involved in building synchronization providers using  <a href="https://www.microsoft.com/downloads/details.aspx?familyid=A3EE7BC5-A823-4FB4-B152-9E8CE9D5546F&displaylang=en">Microsoft Sync Framework</a>, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/options-for-building-a-synchronization-provider">Options for Building a Synchronization Provider</a>.
 
 
 

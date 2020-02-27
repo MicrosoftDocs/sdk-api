@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 4fa55ff5-4f72-4f8b-bf11-64f07b054ff5
 ms.date: 12/05/2018
 ms.keywords: GetFormat, GetFormat method [Audio Devices], GetFormat method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetFormat method, IDirectMusicSynth.GetFormat, IDirectMusicSynth::GetFormat, audio.idirectmusicsynth_getformat, audmp-routines_4448775d-9737-4679-89ca-abfee56fa337.xml, dmusics/IDirectMusicSynth::GetFormat
-ms.topic: method
 f1_keywords:
 - dmusics/IDirectMusicSynth.GetFormat
 dev_langs:
@@ -60,7 +59,7 @@ The <code>GetFormat</code> method retrieves information about the wave format.
 
 ### -param pWaveFormatEx
 
-Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a> structure into which the method writes information about the format. This value can be <b>NULL</b>. For more information, see the following Remarks section.
+Pointer to a caller-allocated <a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a> structure into which the method writes information about the format. This value can be <b>NULL</b>. For more information, see the following Remarks section.
 
 
 ### -param pdwWaveFormatExSize
@@ -125,7 +124,7 @@ For more information, see the description of the <b>IDirectMusicPort</b> interfa
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a>
+<a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a>
  
 
  

@@ -7,7 +7,6 @@ tech.root: input_ink
 ms.assetid: 27b08f20-d43b-452c-809d-837664eb42d0
 ms.date: 12/05/2018
 ms.keywords: IInkPresenterDesktop interface,SetRootVisual method, IInkPresenterDesktop.SetRootVisual, IInkPresenterDesktop::SetRootVisual, InkPresenterDesktop.iinkpresenterdesktop_setrootvisual, SetRootVisual, SetRootVisual method, SetRootVisual method,IInkPresenterDesktop interface, inkpresenterdesktop/IInkPresenterDesktop::SetRootVisual, input_ink.iinkpresenterdesktop_setrootvisual
-ms.topic: method
 f1_keywords:
 - inkpresenterdesktop/IInkPresenterDesktop.SetRootVisual
 dev_langs:
@@ -82,7 +81,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620314">Complex ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex ink sample</a>
 
 
 
@@ -90,7 +89,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
 
 
 
@@ -102,7 +101,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620312">Simple ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
  
 
  

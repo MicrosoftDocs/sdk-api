@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorScale(XMVECTOR,float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorScale, XMVectorScale, XMVectorScale method [DirectX Math Support APIs], dxmath.xmvectorscale
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorScale
 dev_langs:

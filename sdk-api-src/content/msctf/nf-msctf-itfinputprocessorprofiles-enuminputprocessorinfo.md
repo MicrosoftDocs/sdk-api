@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 55b85ff3-35da-4126-861a-2aa4e2e8422f
 ms.date: 12/05/2018
 ms.keywords: EnumInputProcessorInfo, EnumInputProcessorInfo method [Text Services Framework], EnumInputProcessorInfo method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],EnumInputProcessorInfo method, ITfInputProcessorProfiles.EnumInputProcessorInfo, ITfInputProcessorProfiles::EnumInputProcessorInfo, _tsf_itfinputprocessorprofiles_enuminputprocessorinfo_ref, msctf/ITfInputProcessorProfiles::EnumInputProcessorInfo, tsf.itfinputprocessorprofiles_enuminputprocessorinfo
-ms.topic: method
 f1_keywords:
 - msctf/ITfInputProcessorProfiles.EnumInputProcessorInfo
 dev_langs:

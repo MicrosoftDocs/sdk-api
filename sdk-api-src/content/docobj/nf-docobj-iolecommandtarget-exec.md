@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: a2071ca9-8675-4f53-b30e-8c7198c2acca
 ms.date: 12/05/2018
 ms.keywords: Exec, Exec method [COM], Exec method [COM],IOleCommandTarget interface, IOleCommandTarget interface [COM],Exec method, IOleCommandTarget.Exec, IOleCommandTarget::Exec, _ole_iolecommandtarget_exec, com.iolecommandtarget_exec, docobj/IOleCommandTarget::Exec
-ms.topic: method
 f1_keywords:
 - docobj/IOleCommandTarget.Exec
 dev_langs:
@@ -75,7 +74,7 @@ Specifies how the object should execute the command. Possible values are taken f
 
 ### -param pvaIn [in]
 
-A pointer to a <a href="http://go.microsoft.com/fwlink/p/?linkid=127015">VARIANTARG</a> structure containing input arguments. This parameter can be <b>NULL</b>.
+A pointer to a <a href="https://msdn.microsoft.com/library/ms221627.aspx">VARIANTARG</a> structure containing input arguments. This parameter can be <b>NULL</b>.
 
 
 ### -param pvaOut [in, out]

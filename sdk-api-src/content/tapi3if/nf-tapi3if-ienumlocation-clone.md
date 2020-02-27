@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 3c190f38-26f4-49a6-8dcb-49e61c09db43
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumLocation interface, IEnumLocation interface [TAPI 2.2],Clone method, IEnumLocation.Clone, IEnumLocation::Clone, _tapi3_ienumlocation_clone, tapi3.ienumlocation_clone, tapi3if/IEnumLocation::Clone
-ms.topic: method
 f1_keywords:
 - tapi3if/IEnumLocation.Clone
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 6e9f6ac5-d6d7-4360-b722-0b22e2391d20
 ms.date: 12/05/2018
 ms.keywords: GPM object [GPMC],InitializeReporting method, IGPM interface [GPMC],InitializeReporting method, IGPM.InitializeReporting, IGPM::InitializeReporting, InitializeReporting, InitializeReporting method [GPMC], InitializeReporting method [GPMC],GPM object, InitializeReporting method [GPMC],IGPM interface, gpmc.igpm_initializereporting, gpmgmt/IGPM::InitializeReporting
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPM.InitializeReporting
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 86eb8008-6d1c-4de7-8a88-b42f33ca24d3
 ms.date: 12/05/2018
 ms.keywords: GetDefaultValue, GetDefaultValue method [Microsoft TV Technologies], GetDefaultValue method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetDefaultValue method, IEncoderAPI.GetDefaultValue, IEncoderAPI::GetDefaultValue, IEncoderAPIGetDefaultValue, mstv.iencoderapi_getdefaultvalue, strmif/IEncoderAPI::GetDefaultValue
-ms.topic: method
 f1_keywords:
 - strmif/IEncoderAPI.GetDefaultValue
 dev_langs:

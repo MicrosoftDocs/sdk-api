@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 76dcabb0-2407-4877-9f52-100883746695
 ms.date: 12/05/2018
 ms.keywords: XPS_COLOR, XPS_COLOR structure [XPS Documents and Packaging], XPS_COLOR_TYPE_CONTEXT, XPS_COLOR_TYPE_CONTEXT structure [XPS Documents and Packaging], xps.xps_color_type_context, xpsobjectmodel/XPS_COLOR_TYPE_CONTEXT
-ms.topic: struct
 f1_keywords:
 - xpsobjectmodel/XPS_COLOR
 dev_langs:
@@ -156,7 +155,7 @@ The first element in the array, <i>channels</i>[0], contains the value for the a
 
 
 
-For information about how to interpret or apply the values in this structure's members, see the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>.
+For information about how to interpret or apply the values in this structure's members, see the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.
 
 
 
@@ -166,7 +165,7 @@ For information about how to interpret or apply the values in this structure's m
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 3d24da29-0fdb-4084-9810-1a0c9b04768b
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessorInputFormats, PDXVAHDSW_GetVideoProcessorInputFormats callback, PDXVAHDSW_GetVideoProcessorInputFormats callback function [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessorInputFormats, mf.pdxvahdsw_getvideoprocessorinputformats
-ms.topic: callback
 f1_keywords:
 - dxvahd/PDXVAHDSW_GetVideoProcessorInputFormats
 dev_langs:

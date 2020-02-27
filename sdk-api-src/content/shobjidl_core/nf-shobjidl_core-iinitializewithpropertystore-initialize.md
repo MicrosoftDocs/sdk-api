@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6890873f-d929-42a1-ab75-6f408581d74f
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithPropertyStore interface [Windows Shell],Initialize method, IInitializeWithPropertyStore.Initialize, IInitializeWithPropertyStore::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithPropertyStore interface, _shell_IInitializeWithPropertyStore_Initialize, shell.IInitializeWithPropertyStore_Initialize, shobjidl_core/IInitializeWithPropertyStore::Initialize
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IInitializeWithPropertyStore.Initialize
 dev_langs:

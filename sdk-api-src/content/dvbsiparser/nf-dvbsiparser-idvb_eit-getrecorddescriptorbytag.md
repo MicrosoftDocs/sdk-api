@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 42a0d194-8c85-41ac-8792-bb8a452d9fab
 ms.date: 12/05/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IDVB_EIT.GetRecordDescriptorByTag, IDVB_EIT::GetRecordDescriptorByTag, IDVB_EITGetRecordDescriptorByTag, dvbsiparser/IDVB_EIT::GetRecordDescriptorByTag, mstv.idvb_eit_getrecorddescriptorbytag
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_EIT.GetRecordDescriptorByTag
 dev_langs:

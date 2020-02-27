@@ -7,7 +7,6 @@ tech.root: WindowsMAPI
 ms.assetid: 3FBE0950-6D73-4130-9F17-F1449247AB0F
 ms.date: 12/05/2018
 ms.keywords: MAPISendMailHelper, MAPISendMailHelper function, MAPI_DIALOG, MAPI_DIALOG_MODELESS, MAPI_FORCE_UNICODE, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapisendmailhelper, mapiunicodehelp/MAPISendMailHelper
-ms.topic: function
 f1_keywords:
 - mapiunicodehelp/MAPISendMailHelper
 dev_langs:
@@ -445,7 +444,7 @@ For more information about MAPI send mail functions, see <a href="https://docs.m
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=258388">Windows SDK for Windows 8</a>
+<a href="https://msdn.microsoft.com/windows/desktop/hh852363.aspx">Windows SDK for Windows 8</a>
  
 
  

@@ -7,7 +7,6 @@ tech.root: wcm
 ms.assetid: 6ed0f05c-a9f8-49bb-9fb0-b91af8594d76
 ms.date: 12/05/2018
 ms.keywords: '*PWCM_DATAPLAN_STATUS, PWCM_DATAPLAN_STATUS, PWCM_DATAPLAN_STATUS structure pointer [Windows Connection Manager], WCM_DATAPLAN_STATUS, WCM_DATAPLAN_STATUS structure [Windows Connection Manager], wcm.wcm_dataplan_status, wcmapi/PWCM_DATAPLAN_STATUS, wcmapi/WCM_DATAPLAN_STATUS'
-ms.topic: struct
 f1_keywords:
 - wcmapi/WCM_DATAPLAN_STATUS
 dev_langs:

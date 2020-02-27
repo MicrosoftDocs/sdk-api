@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: fefe37aa-48c8-4ff4-b302-c6e95c1ffa5e
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],RememberTargetSharedSecret method, IVdsServiceIscsi.RememberTargetSharedSecret, IVdsServiceIscsi::RememberTargetSharedSecret, RememberTargetSharedSecret, RememberTargetSharedSecret method [VDS], RememberTargetSharedSecret method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_remembertargetsharedsecret, vds/IVdsServiceIscsi::RememberTargetSharedSecret
-ms.topic: method
 f1_keywords:
 - vds/IVdsServiceIscsi.RememberTargetSharedSecret
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 324741c9-33f2-4420-8c3f-4984e2ca0962
 ms.date: 12/05/2018
 ms.keywords: 33872a53-bb15-32f2-c1f4-cfc8bdbac157, IDXGIKeyedMutex interface [DXGI],ReleaseSync method, IDXGIKeyedMutex.ReleaseSync, IDXGIKeyedMutex::ReleaseSync, ReleaseSync, ReleaseSync method [DXGI], ReleaseSync method [DXGI],IDXGIKeyedMutex interface, direct3ddxgi.idxgikeyedmutex_releasesync, dxgi/IDXGIKeyedMutex::ReleaseSync
-ms.topic: method
 f1_keywords:
 - dxgi/IDXGIKeyedMutex.ReleaseSync
 dev_langs:
@@ -91,7 +90,7 @@ When a surface is created using the <b>D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX</b>
 
 After you call the <b>ReleaseSync</b> method, the shared resource is unset from the rendering pipeline. 
 
-To acquire a reference to the keyed mutex object of a shared resource, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of the resource and pass in 
+To acquire a reference to the keyed mutex object of a shared resource, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the resource and pass in 
       the <b>UUID</b> of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex">IDXGIKeyedMutex</a> interface.  For more information about acquiring this reference, see the following code example.
 
 

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: d70b432c-6ebd-405c-993f-12c4540736d7
 ms.date: 12/05/2018
 ms.keywords: MFCLOCK_RELATIONAL_FLAGS, MFCLOCK_RELATIONAL_FLAGS enumeration [Media Foundation], MFCLOCK_RELATIONAL_FLAG_JITTER_NEVER_AHEAD, d70b432c-6ebd-405c-993f-12c4540736d7, mf.mfclock_relational_flags, mfidl/MFCLOCK_RELATIONAL_FLAGS, mfidl/MFCLOCK_RELATIONAL_FLAG_JITTER_NEVER_AHEAD
-ms.topic: enum
 f1_keywords:
 - mfidl/MFCLOCK_RELATIONAL_FLAGS
 dev_langs:

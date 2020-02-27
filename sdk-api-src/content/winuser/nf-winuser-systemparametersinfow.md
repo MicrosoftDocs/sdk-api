@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: 9b99465c-e12d-413c-8e69-b46b52f2f11f
 ms.date: 12/05/2018
 ms.keywords: SPIF_SENDCHANGE, SPIF_SENDWININICHANGE, SPIF_UPDATEINIFILE, SPI_GETACCESSTIMEOUT, SPI_GETACTIVEWINDOWTRACKING, SPI_GETACTIVEWNDTRKTIMEOUT, SPI_GETACTIVEWNDTRKZORDER, SPI_GETANIMATION, SPI_GETAUDIODESCRIPTION, SPI_GETBEEP, SPI_GETBLOCKSENDINPUTRESETS, SPI_GETBORDER, SPI_GETCARETWIDTH, SPI_GETCLEARTYPE, SPI_GETCLIENTAREAANIMATION, SPI_GETCOMBOBOXANIMATION, SPI_GETCONTACTVISUALIZATION, SPI_GETCURSORSHADOW, SPI_GETDEFAULTINPUTLANG, SPI_GETDESKWALLPAPER, SPI_GETDISABLEOVERLAPPEDCONTENT, SPI_GETDOCKMOVING, SPI_GETDRAGFROMMAXIMIZE, SPI_GETDRAGFULLWINDOWS, SPI_GETDROPSHADOW, SPI_GETFILTERKEYS, SPI_GETFLATMENU, SPI_GETFOCUSBORDERHEIGHT, SPI_GETFOCUSBORDERWIDTH, SPI_GETFONTSMOOTHING, SPI_GETFONTSMOOTHINGCONTRAST, SPI_GETFONTSMOOTHINGORIENTATION, SPI_GETFONTSMOOTHINGTYPE, SPI_GETFOREGROUNDFLASHCOUNT, SPI_GETFOREGROUNDLOCKTIMEOUT, SPI_GETGESTUREVISUALIZATION, SPI_GETGRADIENTCAPTIONS, SPI_GETHIGHCONTRAST, SPI_GETHOTTRACKING, SPI_GETHUNGAPPTIMEOUT, SPI_GETICONMETRICS, SPI_GETICONTITLELOGFONT, SPI_GETICONTITLEWRAP, SPI_GETKEYBOARDCUES, SPI_GETKEYBOARDDELAY, SPI_GETKEYBOARDPREF, SPI_GETKEYBOARDSPEED, SPI_GETLISTBOXSMOOTHSCROLLING, SPI_GETLOGICALDPIOVERRIDE, SPI_GETLOWPOWERACTIVE, SPI_GETLOWPOWERTIMEOUT, SPI_GETMENUANIMATION, SPI_GETMENUDROPALIGNMENT, SPI_GETMENUFADE, SPI_GETMENUSHOWDELAY, SPI_GETMENUUNDERLINES, SPI_GETMESSAGEDURATION, SPI_GETMINIMIZEDMETRICS, SPI_GETMOUSE, SPI_GETMOUSECLICKLOCK, SPI_GETMOUSECLICKLOCKTIME, SPI_GETMOUSEDOCKTHRESHOLD, SPI_GETMOUSEDRAGOUTTHRESHOLD, SPI_GETMOUSEHOVERHEIGHT, SPI_GETMOUSEHOVERTIME, SPI_GETMOUSEHOVERWIDTH, SPI_GETMOUSEKEYS, SPI_GETMOUSESIDEMOVETHRESHOLD, SPI_GETMOUSESONAR, SPI_GETMOUSESPEED, SPI_GETMOUSETRAILS, SPI_GETMOUSEVANISH, SPI_GETMOUSEWHEELROUTING, SPI_GETNONCLIENTMETRICS, SPI_GETPENDOCKTHRESHOLD, SPI_GETPENDRAGOUTTHRESHOLD, SPI_GETPENSIDEMOVETHRESHOLD, SPI_GETPENVISUALIZATION, SPI_GETPOWEROFFACTIVE, SPI_GETPOWEROFFTIMEOUT, SPI_GETSCREENREADER, SPI_GETSCREENSAVEACTIVE, SPI_GETSCREENSAVERRUNNING, SPI_GETSCREENSAVESECURE, SPI_GETSCREENSAVETIMEOUT, SPI_GETSELECTIONFADE, SPI_GETSERIALKEYS, SPI_GETSHOWIMEUI, SPI_GETSHOWSOUNDS, SPI_GETSNAPSIZING, SPI_GETSNAPTODEFBUTTON, SPI_GETSOUNDSENTRY, SPI_GETSTICKYKEYS, SPI_GETSYSTEMLANGUAGEBAR, SPI_GETTHREADLOCALINPUTSETTINGS, SPI_GETTOGGLEKEYS, SPI_GETTOOLTIPANIMATION, SPI_GETTOOLTIPFADE, SPI_GETUIEFFECTS, SPI_GETWAITTOKILLSERVICETIMEOUT, SPI_GETWAITTOKILLTIMEOUT, SPI_GETWHEELSCROLLCHARS, SPI_GETWHEELSCROLLLINES, SPI_GETWINARRANGING, SPI_GETWORKAREA, SPI_ICONHORIZONTALSPACING, SPI_ICONVERTICALSPACING, SPI_SETACCESSTIMEOUT, SPI_SETACTIVEWINDOWTRACKING, SPI_SETACTIVEWNDTRKTIMEOUT, SPI_SETACTIVEWNDTRKZORDER, SPI_SETANIMATION, SPI_SETAUDIODESCRIPTION, SPI_SETBEEP, SPI_SETBLOCKSENDINPUTRESETS, SPI_SETBORDER, SPI_SETCARETWIDTH, SPI_SETCLEARTYPE, SPI_SETCLIENTAREAANIMATION, SPI_SETCOMBOBOXANIMATION, SPI_SETCONTACTVISUALIZATION, SPI_SETCURSORS, SPI_SETCURSORSHADOW, SPI_SETDEFAULTINPUTLANG, SPI_SETDESKPATTERN, SPI_SETDESKWALLPAPER, SPI_SETDISABLEOVERLAPPEDCONTENT, SPI_SETDOCKMOVING, SPI_SETDOUBLECLICKTIME, SPI_SETDOUBLECLKHEIGHT, SPI_SETDOUBLECLKWIDTH, SPI_SETDRAGFROMMAXIMIZE, SPI_SETDRAGFULLWINDOWS, SPI_SETDRAGHEIGHT, SPI_SETDRAGWIDTH, SPI_SETDROPSHADOW, SPI_SETFILTERKEYS, SPI_SETFLATMENU, SPI_SETFOCUSBORDERHEIGHT, SPI_SETFOCUSBORDERWIDTH, SPI_SETFONTSMOOTHING, SPI_SETFONTSMOOTHINGCONTRAST, SPI_SETFONTSMOOTHINGORIENTATION, SPI_SETFONTSMOOTHINGTYPE, SPI_SETFOREGROUNDFLASHCOUNT, SPI_SETFOREGROUNDLOCKTIMEOUT, SPI_SETGESTUREVISUALIZATION, SPI_SETGRADIENTCAPTIONS, SPI_SETHIGHCONTRAST, SPI_SETHOTTRACKING, SPI_SETHUNGAPPTIMEOUT, SPI_SETICONMETRICS, SPI_SETICONS, SPI_SETICONTITLELOGFONT, SPI_SETICONTITLEWRAP, SPI_SETKEYBOARDCUES, SPI_SETKEYBOARDDELAY, SPI_SETKEYBOARDPREF, SPI_SETKEYBOARDSPEED, SPI_SETLANGTOGGLE, SPI_SETLISTBOXSMOOTHSCROLLING, SPI_SETLOGICALDPIOVERRIDE, SPI_SETLOWPOWERACTIVE, SPI_SETLOWPOWERTIMEOUT, SPI_SETMENUANIMATION, SPI_SETMENUDROPALIGNMENT, SPI_SETMENUFADE, SPI_SETMENUSHOWDELAY, SPI_SETMENUUNDERLINES, SPI_SETMESSAGEDURATION, SPI_SETMINIMIZEDMETRICS, SPI_SETMOUSE, SPI_SETMOUSEBUTTONSWAP, SPI_SETMOUSECLICKLOCK, SPI_SETMOUSECLICKLOCKTIME, SPI_SETMOUSEDOCKTHRESHOLD, SPI_SETMOUSEDRAGOUTTHRESHOLD, SPI_SETMOUSEHOVERHEIGHT, SPI_SETMOUSEHOVERTIME, SPI_SETMOUSEHOVERWIDTH, SPI_SETMOUSEKEYS, SPI_SETMOUSESIDEMOVETHRESHOLD, SPI_SETMOUSESONAR, SPI_SETMOUSESPEED, SPI_SETMOUSETRAILS, SPI_SETMOUSEVANISH, SPI_SETMOUSEWHEELROUTING, SPI_SETNONCLIENTMETRICS, SPI_SETPENDOCKTHRESHOLD, SPI_SETPENDRAGOUTTHRESHOLD, SPI_SETPENSIDEMOVETHRESHOLD, SPI_SETPENVISUALIZATION, SPI_SETPOWEROFFACTIVE, SPI_SETPOWEROFFTIMEOUT, SPI_SETSCREENREADER, SPI_SETSCREENSAVEACTIVE, SPI_SETSCREENSAVESECURE, SPI_SETSCREENSAVETIMEOUT, SPI_SETSELECTIONFADE, SPI_SETSERIALKEYS, SPI_SETSHOWIMEUI, SPI_SETSHOWSOUNDS, SPI_SETSNAPSIZING, SPI_SETSNAPTODEFBUTTON, SPI_SETSOUNDSENTRY, SPI_SETSTICKYKEYS, SPI_SETSYSTEMLANGUAGEBAR, SPI_SETTHREADLOCALINPUTSETTINGS, SPI_SETTOGGLEKEYS, SPI_SETTOOLTIPANIMATION, SPI_SETTOOLTIPFADE, SPI_SETUIEFFECTS, SPI_SETWAITTOKILLSERVICETIMEOUT, SPI_SETWAITTOKILLTIMEOUT, SPI_SETWHEELSCROLLCHARS, SPI_SETWHEELSCROLLLINES, SPI_SETWINARRANGING, SPI_SETWORKAREA, SystemParametersInfo, SystemParametersInfo function [Windows and Messages], SystemParametersInfoA, SystemParametersInfoW, _win32_systemparametersinfo, base.systemparametersinfo, systemparametersinfo_cpp, winmsg.systemparametersinfo, winui.systemparametersinfo, winuser/SystemParametersInfo, winuser/SystemParametersInfoA, winuser/SystemParametersInfoW
-ms.topic: function
 f1_keywords:
 - winuser/SystemParametersInfo
 dev_langs:
@@ -70,7 +69,7 @@ Type: <b>UINT</b>
 
 The system-wide parameter to be retrieved or set. The possible values are organized in the following tables of related parameters:                            
 
-                            <ul>
+<ul>
 <li>Accessibility parameters</li>
 <li>Desktop parameters</li>
 <li>Icon parameters</li>
@@ -208,7 +207,7 @@ Retrieves a value that determines whether Windows 8 is displaying apps using th
 
 Apps can provide text and image resources for each of several scaling plateaus: 100%, 140%, and 180%. Providing separate resources optimized for a particular scale avoids distortion due to resizing. Windows 8 determines the appropriate scaling plateau based on a number of factors, including screen size and pixel density. When "Make everything on your screen bigger" is selected (SPI_GETLOGICALDPIOVERRIDE returns a value of 1), Windows uses resources from the next higher plateau. For example, in the case of hardware that Windows determines should use a scale of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-device_scale_factor">SCALE_100_PERCENT</a>, this override causes Windows to use the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-device_scale_factor">SCALE_140_PERCENT</a> scale value, assuming that it does not violate other constraints.
 
-<div class="alert"><b>Note</b>  You should not use this value. It might be altered or unavailable in subsequent versions of Windows. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getscalefactorfordevice">GetScaleFactorForDevice</a> function or the <a href="http://go.microsoft.com/fwlink/p/?linkid=282416">DisplayProperties</a> class to retrieve the preferred scaling factor. Desktop applications should use desktop logical DPI rather than scale factor. Desktop logical DPI can be retrieved through the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function.</div>
+<div class="alert"><b>Note</b>  You should not use this value. It might be altered or unavailable in subsequent versions of Windows. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getscalefactorfordevice">GetScaleFactorForDevice</a> function or the <a href="https://msdn.microsoft.com/library/windows/apps/windows.graphics.display.displayproperties.aspx">DisplayProperties</a> class to retrieve the preferred scaling factor. Desktop applications should use desktop logical DPI rather than scale factor. Desktop logical DPI can be retrieved through the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function.</div>
 <div> </div>
 </td>
 </tr>
@@ -709,7 +708,7 @@ The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives 
 </dl>
 </td>
 <td width="60%">
-Retrieves a contrast value that is used in <a href="Http://go.microsoft.com/fwlink/p/?linkid=84132">ClearType</a> smoothing. The <i>pvParam</i> parameter must point to a <b>UINT</b> that receives the information. Valid contrast values are from 1000 to 2200. The default value is 1400.
+Retrieves a contrast value that is used in <a href="https://www.microsoft.com/typography/WhatIsClearType.mspx">ClearType</a> smoothing. The <i>pvParam</i> parameter must point to a <b>UINT</b> that receives the information. Valid contrast values are from 1000 to 2200. The default value is 1400.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -853,7 +852,7 @@ To enable the feature, set the <i>uiParam</i> parameter to <b>TRUE</b>. To disab
 </dl>
 </td>
 <td width="60%">
-Sets the contrast value used in <a href="Http://go.microsoft.com/fwlink/p/?linkid=84132">ClearType</a> smoothing. The <i>pvParam</i> parameter is the contrast value. Valid contrast values are from 1000 to 2200. The default value is 1400.
+Sets the contrast value used in <a href="https://www.microsoft.com/typography/WhatIsClearType.mspx">ClearType</a> smoothing. The <i>pvParam</i> parameter is the contrast value. Valid contrast values are from 1000 to 2200. The default value is 1400.
 
 <b>SPI_SETFONTSMOOTHINGTYPE</b> must also be set to <b>FE_FONTSMOOTHINGCLEARTYPE</b>.
 
@@ -881,7 +880,7 @@ Sets the font smoothing orientation. The <i>pvParam</i> parameter is either <b>F
 </dl>
 </td>
 <td width="60%">
-Sets the font smoothing type. The <i>pvParam</i> parameter is either <b>FE_FONTSMOOTHINGSTANDARD</b>, if standard anti-aliasing is used, or <b>FE_FONTSMOOTHINGCLEARTYPE</b>, if <a href="Http://go.microsoft.com/fwlink/p/?linkid=84132">ClearType</a> is used. The default is <b>FE_FONTSMOOTHINGSTANDARD</b>.
+Sets the font smoothing type. The <i>pvParam</i> parameter is either <b>FE_FONTSMOOTHINGSTANDARD</b>, if standard anti-aliasing is used, or <b>FE_FONTSMOOTHINGCLEARTYPE</b>, if <a href="https://www.microsoft.com/typography/WhatIsClearType.mspx">ClearType</a> is used. The default is <b>FE_FONTSMOOTHINGSTANDARD</b>.
 
 <b>SPI_SETFONTSMOOTHING</b> must also be set.
 
@@ -1822,7 +1821,7 @@ The following are the screen saver parameters.
 <td width="60%">
 Determines whether screen saving is enabled. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if screen saving is enabled, or <b>FALSE</b> otherwise.
 
-<b>Windows 7, Windows Server 2008 R2 and Windows 2000:  </b>The function returns <b>TRUE</b> even when screen saving is not enabled. For more information and a workaround, see <a href="http://go.microsoft.com/fwlink/p/?linkid=182995">KB318781</a>.
+<b>Windows 7, Windows Server 2008 R2 and Windows 2000:  </b>The function returns <b>TRUE</b> even when screen saving is not enabled. For more information and a workaround, see <a href="https://support.microsoft.com/kb/318781">KB318781</a>.
 
 </td>
 </tr>

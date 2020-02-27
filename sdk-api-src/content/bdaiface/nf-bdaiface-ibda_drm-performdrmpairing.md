@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: a3cd9e0c-cfb1-445f-bafc-c1a4f24550f8
 ms.date: 12/05/2018
 ms.keywords: IBDA_DRM interface [Microsoft TV Technologies],PerformDRMPairing method, IBDA_DRM.PerformDRMPairing, IBDA_DRM::PerformDRMPairing, IBDA_DRMPerformDRMPairing, PerformDRMPairing, PerformDRMPairing method [Microsoft TV Technologies], PerformDRMPairing method [Microsoft TV Technologies],IBDA_DRM interface, bdaiface/IBDA_DRM::PerformDRMPairing, mstv.ibda_drm_performdrmpairing
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_DRM.PerformDRMPairing
 dev_langs:

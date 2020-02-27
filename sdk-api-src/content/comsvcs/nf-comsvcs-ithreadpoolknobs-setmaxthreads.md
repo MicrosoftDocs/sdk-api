@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: abca2ec3-4dcd-4770-a500-1d46b87b4cda
 ms.date: 12/05/2018
 ms.keywords: IThreadPoolKnobs interface [COM+],SetMaxThreads method, IThreadPoolKnobs.SetMaxThreads, IThreadPoolKnobs::SetMaxThreads, SetMaxThreads, SetMaxThreads method [COM+], SetMaxThreads method [COM+],IThreadPoolKnobs interface, _cos_IThreadPoolKnobs_SetMaxThreads, comsvcs/IThreadPoolKnobs::SetMaxThreads, cos.ithreadpoolknobs_setmaxthreads
-ms.topic: method
 f1_keywords:
 - comsvcs/IThreadPoolKnobs.SetMaxThreads
 dev_langs:

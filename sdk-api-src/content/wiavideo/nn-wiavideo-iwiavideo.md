@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\iwiavideo.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaVideo, IWiaVideo interface [WIA], IWiaVideo interface [WIA],described, _wia_IWiaVideo, wia._wia_IWiaVideo, wiavideo/IWiaVideo
-ms.topic: interface
 f1_keywords:
 - wiavideo/IWiaVideo
 dev_langs:
@@ -208,7 +207,7 @@ The <b>IWiaVideo</b> interface, like all Component Object Model (COM) interfaces
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>
 </td>
 <td>Returns pointers to supported interfaces.</td>
 </tr>

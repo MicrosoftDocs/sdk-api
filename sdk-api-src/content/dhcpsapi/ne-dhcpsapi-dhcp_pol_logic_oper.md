@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: e8faffdc-2fd4-4d7a-ae9f-fd93932b8c10
 ms.date: 12/05/2018
 ms.keywords: DHCP_POL_LOGIC_OPER, DHCP_POL_LOGIC_OPER enumeration [DHCP], DhcpLogicalAnd, DhcpLogicalOr, dhcp.dhcp_pol_logic_oper, dhcpsapi/DHCP_POL_LOGIC_OPER, dhcpsapi/DhcpLogicalAnd, dhcpsapi/DhcpLogicalOr
-ms.topic: enum
 f1_keywords:
 - dhcpsapi/DHCP_POL_LOGIC_OPER
 dev_langs:

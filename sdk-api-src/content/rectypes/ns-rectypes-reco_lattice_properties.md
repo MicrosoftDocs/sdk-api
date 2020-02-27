@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 1c3501a9-398d-4db1-82b2-82908e132a4a
 ms.date: 12/05/2018
 ms.keywords: 1c3501a9-398d-4db1-82b2-82908e132a4a, RECO_LATTICE_PROPERTIES, RECO_LATTICE_PROPERTIES structure [Tablet PC], rectypes/RECO_LATTICE_PROPERTIES, tablet.reco_lattice_properties
-ms.topic: struct
 f1_keywords:
 - rectypes/RECO_LATTICE_PROPERTIES
 dev_langs:

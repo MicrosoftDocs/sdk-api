@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 5ec2cfdd-f05d-4e05-b290-fad175fe1cae
 ms.date: 12/05/2018
 ms.keywords: GetFillRule, GetFillRule method [XPS Documents and Packaging], GetFillRule method [XPS Documents and Packaging],IXpsOMGeometry interface, IXpsOMGeometry interface [XPS Documents and Packaging],GetFillRule method, IXpsOMGeometry.GetFillRule, IXpsOMGeometry::GetFillRule, xps.ixpsomgeometry_getfillrule, xpsobjectmodel/IXpsOMGeometry::GetFillRule
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGeometry.GetFillRule
 dev_langs:
@@ -122,7 +121,7 @@ The value that is returned in <i>fillRule</i>  corresponds to the <b>FillRule</b
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

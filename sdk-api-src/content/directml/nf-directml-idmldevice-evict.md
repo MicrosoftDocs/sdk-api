@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 45FF300A-A645-4A1D-B2E1-924CD0E32F2B
 ms.date: 12/5/2018
 ms.keywords: Evict, Evict method, Evict method,IDMLDevice interface, IDMLDevice interface,Evict method, IDMLDevice.Evict, IDMLDevice::Evict, direct3d12.idmldevice_evict, directml/IDMLDevice::Evict
-ms.topic: method
 f1_keywords:
 - directml/IDMLDevice.Evict
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 07a3a500-babb-458b-ba98-9344c63ea014
 ms.date: 12/05/2018
 ms.keywords: IStream_Read, IStream_Read function [Windows Shell], _win32_IStream_Read, shell.IStream_Read, shlwapi/IStream_Read
-ms.topic: function
 f1_keywords:
 - shlwapi/IStream_Read
 dev_langs:

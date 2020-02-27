@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorSum(FXMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSum, XMVectorSum, XMVectorSum method [DirectX Math Support APIs], dxmath.xmvectorsum
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorSum
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: a9bc52dc-47f9-4b20-b98d-0287464a89e5
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionContext, IMbnConnectionContext interface [Microsoft Broadband Networks], IMbnConnectionContext interface [Microsoft Broadband Networks],described, mbn.imbnconnectioncontext, mbnapi/IMbnConnectionContext
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnConnectionContext
 dev_langs:
@@ -97,7 +96,7 @@ Adds or updates a provisioned context.
 
 
 
-An application can acquire this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>.
+An application can acquire this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>.
 
 
 

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 18236818-492f-4906-9e7d-6ca03ef28d36
 ms.date: 12/05/2018
 ms.keywords: WS_XML_WRITER_MTOM_ENCODING, WS_XML_WRITER_MTOM_ENCODING structure [Web Services for Windows], webservices/WS_XML_WRITER_MTOM_ENCODING, wsw.ws_xml_writer_mtom_encoding
-ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_WRITER_MTOM_ENCODING
 dev_langs:

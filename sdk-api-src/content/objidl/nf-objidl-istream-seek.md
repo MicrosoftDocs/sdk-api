@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: ea087c6d-8854-4a81-b37b-15ab76630973
 ms.date: 12/05/2018
 ms.keywords: IStream interface [Structured Storage],Seek method, IStream.Seek, IStream::Seek, Seek, Seek method [Structured Storage], Seek method [Structured Storage],IStream interface, _stg_istream_seek, objidl/IStream::Seek, stg.istream_seek
-ms.topic: method
 f1_keywords:
 - objidl/IStream.Seek
 dev_langs:

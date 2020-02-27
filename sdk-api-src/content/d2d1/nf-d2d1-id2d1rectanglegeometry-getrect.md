@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 9c9858d0-abb0-4ab5-8e7f-e613b256bbd7
 ms.date: 12/05/2018
 ms.keywords: GetRect, GetRect method [Direct2D], GetRect method [Direct2D],ID2D1RectangleGeometry interface, ID2D1RectangleGeometry interface [Direct2D],GetRect method, ID2D1RectangleGeometry.GetRect, ID2D1RectangleGeometry::GetRect, d2d1/ID2D1RectangleGeometry::GetRect, direct2d.ID2D1RectangleGeometry_GetRect
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1RectangleGeometry.GetRect
 dev_langs:

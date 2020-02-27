@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 55b1c73a-5c00-4e16-b0fe-2352ce09bffc
 ms.date: 12/05/2018
 ms.keywords: IWMDRMTranscryptor interface [windows Media Format],Read method, IWMDRMTranscryptor.Read, IWMDRMTranscryptor::Read, IWMDRMTranscryptorRead, Read, Read method [windows Media Format], Read method [windows Media Format],IWMDRMTranscryptor interface, wmformat.iwmdrmtranscryptor_read, wmsdkidl/IWMDRMTranscryptor::Read
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDRMTranscryptor.Read
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>Read</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>Read</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: fb79de10-7a98-4a21-b394-63e5279b6681
 ms.date: 12/05/2018
 ms.keywords: MINIDUMP_HANDLE_OBJECT_INFORMATION, MINIDUMP_HANDLE_OBJECT_INFORMATION structure, _MINIDUMP_HANDLE_OBJECT_INFORMATION, base.minidump_handle_object_information, minidumpapiset/MINIDUMP_HANDLE_OBJECT_INFORMATION
-ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_HANDLE_OBJECT_INFORMATION
 dev_langs:

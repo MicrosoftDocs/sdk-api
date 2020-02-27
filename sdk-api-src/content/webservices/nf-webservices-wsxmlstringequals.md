@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 4fcff6d7-b17c-4cd6-9671-1aff7b84fa98
 ms.date: 12/05/2018
 ms.keywords: WsXmlStringEquals, WsXmlStringEquals function [Web Services for Windows], webservices/WsXmlStringEquals, wsw.wsxmlstringequals
-ms.topic: function
 f1_keywords:
 - webservices/WsXmlStringEquals
 dev_langs:

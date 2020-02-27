@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 1d562eee-b30b-4dce-88d3-9387c0ce2dd1
 ms.date: 12/05/2018
 ms.keywords: WS_RSA_ENDPOINT_IDENTITY, WS_RSA_ENDPOINT_IDENTITY structure [Web Services for Windows], webservices/WS_RSA_ENDPOINT_IDENTITY, wsw.ws_rsa_endpoint_identity
-ms.topic: struct
 f1_keywords:
 - webservices/WS_RSA_ENDPOINT_IDENTITY
 dev_langs:

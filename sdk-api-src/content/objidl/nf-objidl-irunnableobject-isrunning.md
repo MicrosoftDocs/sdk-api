@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 0a4cdd21-8256-4533-9cad-d9e8450a17e9
 ms.date: 12/05/2018
 ms.keywords: IRunnableObject interface [COM],IsRunning method, IRunnableObject.IsRunning, IRunnableObject::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IRunnableObject interface, _com_irunnableobject_isrunning, com.irunnableobject_isrunning, objidl/IRunnableObject::IsRunning
-ms.topic: method
 f1_keywords:
 - objidl/IRunnableObject.IsRunning
 dev_langs:
@@ -78,7 +77,7 @@ A container application could call <b>IRunnableObject::IsRunning</b> when it nee
 An object handler could call <b>IRunnableObject::IsRunning</b> when it wants to avoid conflicts with a running server or when the running server might have more up-to-date information. For example, a handler's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getextent">IOleObject::GetExtent</a> would delegate to the object server if it is running, because the server's information might be more current than that in the handler's cache.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleisrunning">OleIsRunning</a> is a helper function that conveniently repackages the functionality offered by <b>IRunnableObject::IsRunning</b>. With the release of OLE 2.01, the implementation of <b>OleIsRunning</b> was changed so that it calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a>, asks for <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a>, and then calls <b>IRunnableObject::IsRunning</b>. In other words, you can use the interface and the helper function interchangeably.
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleisrunning">OleIsRunning</a> is a helper function that conveniently repackages the functionality offered by <b>IRunnableObject::IsRunning</b>. With the release of OLE 2.01, the implementation of <b>OleIsRunning</b> was changed so that it calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>, asks for <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a>, and then calls <b>IRunnableObject::IsRunning</b>. In other words, you can use the interface and the helper function interchangeably.
 
 
 

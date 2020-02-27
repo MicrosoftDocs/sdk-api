@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 2cdc35e7-ab0b-4b12-920c-9eac0d9b5a0c
 ms.date: 12/05/2018
 ms.keywords: IGetOleObject, IGetOleObject interface [COM], IGetOleObject interface [COM],described, _com_IGetOleObject, com.igetoleobject, vbinterf/IGetOleObject
-ms.topic: interface
 f1_keywords:
 - vbinterf/IGetOleObject
 dev_langs:

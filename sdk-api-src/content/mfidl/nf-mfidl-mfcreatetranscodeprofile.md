@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 2a482c6f-6e20-419a-a7eb-085c41cc8186
 ms.date: 12/05/2018
 ms.keywords: MFCreateTranscodeProfile, MFCreateTranscodeProfile function [Media Foundation], mf.mfcreatetranscodeprofile, mfidl/MFCreateTranscodeProfile
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreateTranscodeProfile
 dev_langs:

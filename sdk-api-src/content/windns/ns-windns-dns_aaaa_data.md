@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 0bc48e86-368c-431c-b67a-b7689dca8d3c
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_AAAA_DATA, DNS_AAAA_DATA, DNS_AAAA_DATA structure [DNS], PDNS_AAAA_DATA, PDNS_AAAA_DATA structure pointer [DNS], _dns_dns_aaaa_data, dns.dns_aaaa_data, windns/DNS_AAAA_DATA, windns/PDNS_AAAA_DATA'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_AAAA_DATA
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>DNS_AAAA_DATA</b> structure represents a DNS IPv6 (AAAA) record as specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=107027">RFC 3596</a>.
+<b>DNS_AAAA_DATA</b> structure represents a DNS IPv6 (AAAA) record as specified in <a href="https://www.ietf.org/rfc/rfc3596.txt">RFC 3596</a>.
 
 
 ## -struct-fields

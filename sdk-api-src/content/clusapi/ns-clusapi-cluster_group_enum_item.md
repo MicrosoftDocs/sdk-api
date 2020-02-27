@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: B6436F83-2A10-4E93-8141-9BCFF744E41B
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSTER_GROUP_ENUM_ITEM, CLUSTER_GROUP_ENUM_ITEM, CLUSTER_GROUP_ENUM_ITEM structure [Failover Cluster], PCLUSTER_GROUP_ENUM_ITEM, PCLUSTER_GROUP_ENUM_ITEM structure pointer [Failover Cluster], _CLUSTER_GROUP_ENUM_ITEM, _CLUSTER_GROUP_ENUM_ITEM structure [Failover Cluster], clusapi/CLUSTER_GROUP_ENUM_ITEM, clusapi/PCLUSTER_GROUP_ENUM_ITEM, clusapi/_CLUSTER_GROUP_ENUM_ITEM, msclus/CLUSTER_GROUP_ENUM_ITEM, msclus/PCLUSTER_GROUP_ENUM_ITEM, msclus/_CLUSTER_GROUP_ENUM_ITEM, mscs.cluster_group_enum_item'
-ms.topic: struct
 f1_keywords:
 - clusapi/CLUSTER_GROUP_ENUM_ITEM
 dev_langs:

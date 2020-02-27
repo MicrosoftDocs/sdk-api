@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 624a13f4-4be7-441b-abc0-e1fad8f01bdf
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineproxymessage, lineProxyMessage, lineProxyMessage function [TAPI 2.2], tapi/lineProxyMessage, tapi2.lineproxymessage
-ms.topic: function
 f1_keywords:
 - tapi/lineProxyMessage
 dev_langs:

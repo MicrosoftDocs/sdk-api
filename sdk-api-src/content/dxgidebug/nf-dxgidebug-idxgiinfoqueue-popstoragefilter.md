@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: B621336B-9334-4408-988F-6F5DBB2C4B53
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PopStorageFilter method, IDXGIInfoQueue.PopStorageFilter, IDXGIInfoQueue::PopStorageFilter, PopStorageFilter, PopStorageFilter method [DXGI], PopStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_popstoragefilter, dxgidebug/IDXGIInfoQueue::PopStorageFilter
-ms.topic: method
 f1_keywords:
 - dxgidebug/IDXGIInfoQueue.PopStorageFilter
 dev_langs:

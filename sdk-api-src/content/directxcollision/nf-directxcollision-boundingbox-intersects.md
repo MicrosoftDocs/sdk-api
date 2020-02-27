@@ -4,7 +4,6 @@ title: BoundingBox::Intersects
 description: 
 ms.date: 04/22/19
 ms.keywords: BoundingBox::Intersects
-ms.topic: language-reference
 f1_keywords:
 - directxcollision/BoundingBox::Intersects
 dev_langs:

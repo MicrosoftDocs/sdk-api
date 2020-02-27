@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: bd2c4dfe-580d-406b-b03b-628583aeef61
 ms.date: 12/05/2018
 ms.keywords: DisplayIOCtl, DisplayIOCtl method [Remote Desktop Services], DisplayIOCtl method [Remote Desktop Services],IWTSProtocolConnectionCallback interface, IWTSProtocolConnectionCallback interface [Remote Desktop Services],DisplayIOCtl method, IWTSProtocolConnectionCallback.DisplayIOCtl, IWTSProtocolConnectionCallback::DisplayIOCtl, termserv.iwtsprotocolconnectioncallback_displayioctl, wtsprotocol/IWTSProtocolConnectionCallback::DisplayIOCtl
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolConnectionCallback.DisplayIOCtl
 dev_langs:

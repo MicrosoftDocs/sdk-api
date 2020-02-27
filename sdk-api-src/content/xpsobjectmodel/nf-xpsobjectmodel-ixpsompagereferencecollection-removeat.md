@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 905ed1ea-b694-4620-8a71-2f0bfb831af4
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMPageReferenceCollection.RemoveAt, IXpsOMPageReferenceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, xps.ixpsompagereferencecollection_removeat, xpsobjectmodel/IXpsOMPageReferenceCollection::RemoveAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPageReferenceCollection.RemoveAt
 dev_langs:
@@ -100,7 +99,7 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

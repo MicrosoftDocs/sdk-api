@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: e0066cc2-a67d-4cf4-9d22-506cc152ec14
 ms.date: 12/05/2018
 ms.keywords: ICGetState, ICGetState macro [Windows Multimedia], _win32_ICGetState, multimedia.icgetstate, vfw/ICGetState
-ms.topic: macro
 f1_keywords:
 - vfw/ICGetState
 dev_langs:

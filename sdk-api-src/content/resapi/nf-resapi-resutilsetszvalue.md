@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: b9227df3-0693-4b0f-99de-d10fa3d7acf5
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_SZ_VALUE, PRESUTIL_SET_SZ_VALUE function [Failover Cluster], ResUtilSetSzValue, ResUtilSetSzValue function [Failover Cluster], _wolf_resutilsetszvalue, mscs.resutilsetszvalue, resapi/PRESUTIL_SET_SZ_VALUE, resapi/ResUtilSetSzValue
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilSetSzValue
 dev_langs:

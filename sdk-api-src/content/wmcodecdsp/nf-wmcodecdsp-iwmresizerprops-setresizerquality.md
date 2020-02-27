@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 64a85094-4247-41d8-9bb6-bdaedba62c19
 ms.date: 12/05/2018
 ms.keywords: IWMResizerProps interface [Media Foundation],SetResizerQuality method, IWMResizerProps.SetResizerQuality, IWMResizerProps::SetResizerQuality, SetResizerQuality, SetResizerQuality method [Media Foundation], SetResizerQuality method [Media Foundation],IWMResizerProps interface, codecapi.iwmresizerpropssetresizerquality, mf.iwmresizerpropssetresizerquality, wmcodecdsp/IWMResizerProps::SetResizerQuality
-ms.topic: method
 f1_keywords:
 - wmcodecdsp/IWMResizerProps.SetResizerQuality
 dev_langs:

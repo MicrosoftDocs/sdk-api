@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d86bf039-81d9-4d43-9671-b107d7e925ab
 ms.date: 12/05/2018
 ms.keywords: ADLT_FREQUENT, ADLT_RECENT, GetList, GetList method [Windows Shell], GetList method [Windows Shell],IApplicationDocumentLists interface, IApplicationDocumentLists interface [Windows Shell],GetList method, IApplicationDocumentLists.GetList, IApplicationDocumentLists::GetList, _shell_IApplicationDocumentLists_GetList, shell.IApplicationDocumentLists_GetList, shobjidl_core/IApplicationDocumentLists::GetList
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IApplicationDocumentLists.GetList
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e147a860-4c69-4da0-96d1-dfc4957880d9
 ms.date: 12/05/2018
 ms.keywords: DVD_VIDEO_COMPRESSION, DVD_VIDEO_COMPRESSION , DVD_VIDEO_COMPRESSION enumeration [DirectShow], DVD_VIDEO_COMPRESSIONEnumeration, DVD_VideoCompression_MPEG1, DVD_VideoCompression_MPEG2, DVD_VideoCompression_Other, dshow.dvd_video_compression, strmif/DVD_VIDEO_COMPRESSION, strmif/DVD_VideoCompression_MPEG1, strmif/DVD_VideoCompression_MPEG2, strmif/DVD_VideoCompression_Other
-ms.topic: enum
 f1_keywords:
 - strmif/DVD_VIDEO_COMPRESSION
 dev_langs:
@@ -83,7 +82,7 @@ MPEG-2 compression type.
 
 
 
-This enumeration is a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_videoattributes">DVD_VideoAttributes</a> structure, which is filled by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentvideoattributes">IDvdInfo2::GetCurrentVideoAttributes</a> method.
+This enumeration is a member of the [DVD_VideoAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_videoattributes) structure, which is filled by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentvideoattributes">IDvdInfo2::GetCurrentVideoAttributes</a> method.
 
 
 

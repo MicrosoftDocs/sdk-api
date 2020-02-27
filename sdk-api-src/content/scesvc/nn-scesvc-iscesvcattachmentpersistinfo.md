@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: 3cd4bde2-55f6-4ab1-b175-7689b0cc529b
 ms.date: 12/05/2018
 ms.keywords: ISceSvcAttachmentPersistInfo, ISceSvcAttachmentPersistInfo interface [Security], ISceSvcAttachmentPersistInfo interface [Security],described, _config_iscesvcattachmentpersistinfo, scesvc/ISceSvcAttachmentPersistInfo, security.iscesvcattachmentpersistinfo
-ms.topic: interface
 f1_keywords:
 - scesvc/ISceSvcAttachmentPersistInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 0DDC7864-654E-416B-9EF5-4CD47244E8BE
 ms.date: 12/05/2018
 ms.keywords: GetId, GetId method [Media Foundation], GetId method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetId method, IMFTimedTextTrack.GetId, IMFTimedTextTrack::GetId, mf.imftimedtexttrack_getid, mfmediaengine/IMFTimedTextTrack::GetId
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextTrack.GetId
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 0d19fccf-ebb7-469e-bb91-06c4a8803922
 ms.date: 12/05/2018
 ms.keywords: UiaHasServerSideProvider, UiaHasServerSideProvider function [Windows Accessibility], uiauto.uiauto_UiaHasServerSideProviderAutoMeth, uiauto_UiaHasServerSideProviderAutoMeth, uiautomationcoreapi/UiaHasServerSideProvider, winauto.uiauto_UiaHasServerSideProviderAutoMeth
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaHasServerSideProvider
 dev_langs:

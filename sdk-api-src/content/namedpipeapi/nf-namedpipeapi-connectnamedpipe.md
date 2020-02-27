@@ -7,7 +7,6 @@ tech.root: ipc
 ms.assetid: 50f6680f-900e-4411-a849-ec9a911c9e32
 ms.date: 12/05/2018
 ms.keywords: ConnectNamedPipe, ConnectNamedPipe function, _win32_connectnamedpipe, base.connectnamedpipe, namedpipeapi/ConnectNamedPipe
-ms.topic: function
 f1_keywords:
 - namedpipeapi/ConnectNamedPipe
 dev_langs:

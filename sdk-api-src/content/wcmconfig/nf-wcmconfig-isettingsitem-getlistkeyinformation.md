@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: 34ee8457-34d1-4eff-813b-f59c35c4aa95
 ms.date: 12/05/2018
 ms.keywords: GetListKeyInformation, GetListKeyInformation method [SMI], GetListKeyInformation method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetListKeyInformation method, ISettingsItem.GetListKeyInformation, ISettingsItem::GetListKeyInformation, smi.isettingsitem_getlistkeyinformation, wcmconfig/ISettingsItem::GetListKeyInformation
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsItem.GetListKeyInformation
 dev_langs:

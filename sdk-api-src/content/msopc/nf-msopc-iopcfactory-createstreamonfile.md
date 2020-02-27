@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: d41bb51d-127c-4b24-8c93-4224404e0b2d
 ms.date: 12/05/2018
 ms.keywords: CreateStreamOnFile, CreateStreamOnFile method [Open Packaging Conventions], CreateStreamOnFile method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreateStreamOnFile method, IOpcFactory.CreateStreamOnFile, IOpcFactory::CreateStreamOnFile, msopc/IOpcFactory::CreateStreamOnFile, opc.iopcfactory_createstreamonfile
-ms.topic: method
 f1_keywords:
 - msopc/IOpcFactory.CreateStreamOnFile
 dev_langs:
@@ -176,7 +175,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
 
 
@@ -228,7 +227,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=143950">RFC 3986: URI Generic Syntax</a>
+<a href="https://www.ietf.org/rfc/rfc3986.txt">RFC 3986: URI Generic Syntax</a>
 
 
 

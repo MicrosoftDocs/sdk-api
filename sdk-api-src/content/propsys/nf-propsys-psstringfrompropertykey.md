@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 081f8e6d-9189-44f9-9b27-e85f4793da48
 ms.date: 12/05/2018
 ms.keywords: PSStringFromPropertyKey, PSStringFromPropertyKey function [Windows Properties], _shell_PSStringFromPropertyKey, properties.PSStringFromPropertyKey, propsys/PSStringFromPropertyKey, shell.PSStringFromPropertyKey
-ms.topic: function
 f1_keywords:
 - propsys/PSStringFromPropertyKey
 dev_langs:

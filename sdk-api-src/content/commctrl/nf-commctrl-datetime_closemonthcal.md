@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_closemonthcal.htm
 ms.date: 12/05/2018
 ms.keywords: DateTime_CloseMonthCal, DateTime_CloseMonthCal macro [Windows Controls], _shell_DateTime_CloseMonthCal, _shell_DateTime_CloseMonthCal_cpp, commctrl/DateTime_CloseMonthCal, controls.DateTime_CloseMonthCal, controls._shell_DateTime_CloseMonthCal
-ms.topic: macro
 f1_keywords:
 - commctrl/DateTime_CloseMonthCal
 dev_langs:

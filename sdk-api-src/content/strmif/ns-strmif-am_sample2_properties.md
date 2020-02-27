@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 4fda7f64-130c-42c8-a671-2e24bdd0b09b
 ms.date: 12/05/2018
 ms.keywords: AM_ReverseBlockEnd, AM_ReverseBlockStart, AM_SAMPLE2_PROPERTIES, AM_SAMPLE2_PROPERTIES structure [DirectShow], AM_SAMPLE2_PROPERTIESStructure, AM_UseNewCSSKey, AM_VIDEO_FLAG_FIELD1, AM_VIDEO_FLAG_FIELD1FIRST, AM_VIDEO_FLAG_FIELD2, AM_VIDEO_FLAG_FIELD_MASK, AM_VIDEO_FLAG_INTERLEAVED_FRAME, AM_VIDEO_FLAG_REPEAT_FIELD, AM_VIDEO_FLAG_WEAVE, dshow.am_sample2_properties, strmif/AM_SAMPLE2_PROPERTIES
-ms.topic: struct
 f1_keywords:
 - strmif/AM_SAMPLE2_PROPERTIES
 dev_langs:
@@ -222,7 +221,7 @@ Stream identifier. If the value is AM_STREAM_MEDIA, the stream contains media da
 
 ### -field pMediaType
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type if the format has changed. If this format has not changed, this member is <b>NULL</b>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type if the format has changed. If this format has not changed, this member is <b>NULL</b>.
 
 
 ### -field pbBuffer

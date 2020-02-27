@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: A467DDEC-BEB1-4050-B540-4A1E819E7373
 ms.date: 12/05/2018
 ms.keywords: RpcServerInterfaceGroupActivate, RpcServerInterfaceGroupActivate function [RPC], rpc.rpcserverinterfacegroupactivate, rpcdce/RpcServerInterfaceGroupActivate
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcServerInterfaceGroupActivate
 dev_langs:

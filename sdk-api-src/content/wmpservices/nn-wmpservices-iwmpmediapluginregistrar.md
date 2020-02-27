@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 4b99d227-39e8-4986-93ed-6df73a3a3e08
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaPluginRegistrar, IWMPMediaPluginRegistrar interface [Windows Media Player], IWMPMediaPluginRegistrar interface [Windows Media Player],described, wmp.iwmpmediapluginregistrar, wmpservices/IWMPMediaPluginRegistrar
-ms.topic: interface
 f1_keywords:
 - wmpservices/IWMPMediaPluginRegistrar
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: C4715789-0DF7-436B-881F-4360A7528246
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackActivationContext, TpSetCallbackActivationContext function, base.tpsetcallbackactivationcontext, winnt/TpSetCallbackActivationContext
-ms.topic: function
 f1_keywords:
 - winnt/TpSetCallbackActivationContext
 dev_langs:

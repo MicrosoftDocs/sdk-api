@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: c57c125b-7a21-4b94-b4c3-1aa34d615a12
 ms.date: 12/05/2018
 ms.keywords: GetRadiiSizes, GetRadiiSizes method [XPS Documents and Packaging], GetRadiiSizes method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],GetRadiiSizes method, IXpsOMRadialGradientBrush.GetRadiiSizes, IXpsOMRadialGradientBrush::GetRadiiSizes, xps.ixpsomradialgradientbrush_getradiisizes, xpsobjectmodel/IXpsOMRadialGradientBrush::GetRadiiSizes
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMRadialGradientBrush.GetRadiiSizes
 dev_langs:
@@ -151,7 +150,7 @@ The following illustration shows the parts of a radial gradient. <i>radiiSizes.w
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

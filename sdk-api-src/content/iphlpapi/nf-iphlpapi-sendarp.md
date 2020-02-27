@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 5cbaf45a-a64e-49fd-a920-01759b5c4f81
 ms.date: 12/05/2018
 ms.keywords: SendARP, SendARP function [IP Helper], _iphlp_sendarp, iphlp.sendarp, iphlpapi/SendARP
-ms.topic: function
 f1_keywords:
 - iphlpapi/SendARP
 dev_langs:

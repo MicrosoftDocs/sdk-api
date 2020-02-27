@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: bbf8cff4-b1b2-480e-8c30-eb34166db143
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithms, ICspAlgorithms interface [Security], ICspAlgorithms interface [Security],described, certenroll/ICspAlgorithms, security.icspalgorithms
-ms.topic: interface
 f1_keywords:
 - certenroll/ICspAlgorithms
 dev_langs:

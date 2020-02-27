@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: AAE5557B-4851-4B72-8C42-083457CD75CC
 ms.date: 12/05/2018
 ms.keywords: CachedTarget property [Windows Accessibility], CachedTarget property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CachedTarget property, IUIAutomationAnnotationPattern.CachedTarget, IUIAutomationAnnotationPattern.get_CachedTarget, IUIAutomationAnnotationPattern::CachedTarget, IUIAutomationAnnotationPattern::get_CachedTarget, get_CachedTarget, uiautomationclient/IUIAutomationAnnotationPattern::CachedTarget, uiautomationclient/IUIAutomationAnnotationPattern::get_CachedTarget, winauto.uiauto_IUIAutomationAnnotationPattern_CachedTarget
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationAnnotationPattern.CachedTarget
 dev_langs:

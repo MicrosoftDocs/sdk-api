@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 4e54c129-f321-4215-b084-21ab17f93a6f
 ms.date: 12/05/2018
 ms.keywords: ApplicationLaunch, ApplicationLaunch method [COM], ApplicationLaunch method [COM],ISurrogateService interface, ISurrogateService interface [COM],ApplicationLaunch method, ISurrogateService.ApplicationLaunch, ISurrogateService::ApplicationLaunch, _com_isurrogateservice_applicationlaunch, com.isurrogateservice_applicationlaunch, objidl/ISurrogateService::ApplicationLaunch
-ms.topic: method
 f1_keywords:
 - objidl/ISurrogateService.ApplicationLaunch
 dev_langs:

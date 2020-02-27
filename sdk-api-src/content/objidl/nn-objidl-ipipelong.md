@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c1b4d3b3-e1bf-4441-8cea-b667b82c4c27
 ms.date: 12/05/2018
 ms.keywords: IPipeLong, IPipeLong interface [COM], IPipeLong interface [COM],described, _com_ipipelong, com.ipipelong, objidlbase/IPipeLong
-ms.topic: interface
 f1_keywords:
 - objidl/IPipeLong
 dev_langs:

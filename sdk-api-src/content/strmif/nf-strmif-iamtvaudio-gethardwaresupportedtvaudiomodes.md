@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2c67abc9-2419-473b-a2e6-4fc7df50752c
 ms.date: 12/05/2018
 ms.keywords: GetHardwareSupportedTVAudioModes, GetHardwareSupportedTVAudioModes method [DirectShow], GetHardwareSupportedTVAudioModes method [DirectShow],IAMTVAudio interface, IAMTVAudio interface [DirectShow],GetHardwareSupportedTVAudioModes method, IAMTVAudio.GetHardwareSupportedTVAudioModes, IAMTVAudio::GetHardwareSupportedTVAudioModes, IAMTVAudioGetHardwareSupportedTVAudioModes, dshow.iamtvaudio_gethardwaresupportedtvaudiomodes, strmif/IAMTVAudio::GetHardwareSupportedTVAudioModes
-ms.topic: method
 f1_keywords:
 - strmif/IAMTVAudio.GetHardwareSupportedTVAudioModes
 dev_langs:
@@ -64,7 +63,7 @@ The <code>GetHardwareSupportedTVAudioModes</code> method retrieves a bitmask of 
 
 ### -param plModes [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-tvaudiomode">TVAudioMode</a> enumeration value that identifies the audio mode.
+Pointer to a [TVAudioMode](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tvaudiomode) enumeration value that identifies the audio mode.
 
 
 ## -returns

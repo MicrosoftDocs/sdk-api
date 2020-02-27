@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 61c2a1dc-b9fe-4296-bf33-d54006cad32b
 ms.date: 12/05/2018
 ms.keywords: 61c2a1dc-b9fe-4296-bf33-d54006cad32b, AddBuffer, AddBuffer method [Media Foundation], AddBuffer method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],AddBuffer method, IMFSample.AddBuffer, IMFSample::AddBuffer, mf.imfsample_addbuffer, mfobjects/IMFSample::AddBuffer
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFSample.AddBuffer
 dev_langs:

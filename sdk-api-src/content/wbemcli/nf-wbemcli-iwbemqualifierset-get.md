@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: f4663cd1-0dc9-4021-918e-d5eda1648429
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [Windows Management Instrumentation], Get method [Windows Management Instrumentation],IWbemQualifierSet interface, IWbemQualifierSet interface [Windows Management Instrumentation],Get method, IWbemQualifierSet.Get, IWbemQualifierSet::Get, _hmm_iwbemqualifierset_get, wbemcli/IWbemQualifierSet::Get, wmi.iwbemqualifierset_get
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemQualifierSet.Get
 dev_langs:

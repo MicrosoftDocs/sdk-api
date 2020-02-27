@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: c5658008-7c92-4877-871a-a764884efd79
 ms.date: 12/05/2018
 ms.keywords: CryptDuplicateKey, CryptDuplicateKey function [Security], _crypto2_cryptduplicatekey, security.cryptduplicatekey, wincrypt/CryptDuplicateKey
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptDuplicateKey
 dev_langs:

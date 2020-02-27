@@ -7,7 +7,6 @@ tech.root: magapi
 ms.assetid: 3825B5DB-BD25-4073-8EB3-65A57709A804
 ms.date: 12/05/2018
 ms.keywords: MagGetInputTransform, MagGetInputTransform function [Magnification API], magapi.magapi_maggetinputtransform, magnification/MagGetInputTransform
-ms.topic: function
 f1_keywords:
 - magnification/MagGetInputTransform
 dev_langs:

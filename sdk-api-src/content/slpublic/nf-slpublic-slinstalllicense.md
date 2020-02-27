@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: 39b14ce1-116b-4469-9e95-8cc4db70171a
 ms.date: 12/05/2018
 ms.keywords: SLInstallLicense, SLInstallLicense function [Security], security.slinstalllicense, slpublic/SLInstallLicense
-ms.topic: function
 f1_keywords:
 - slpublic/SLInstallLicense
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 5f4abb15-3057-4d20-a319-550cec45d1f1
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_AUTHORITY_INFO_ACCESS, *PCERT_SUBJECT_INFO_ACCESS, CERT_AUTHORITY_INFO_ACCESS, CERT_AUTHORITY_INFO_ACCESS structure [Security], CERT_SUBJECT_INFO_ACCESS, CERT_SUBJECT_INFO_ACCESS structure [Security], PCERT_AUTHORITY_INFO_ACCESS, PCERT_AUTHORITY_INFO_ACCESS structure pointer [Security], PCERT_SUBJECT_INFO_ACCESS, PCERT_SUBJECT_INFO_ACCESS structure pointer [Security], _crypto2_cert_authority_info_access, security.cert_authority_info_access, wincrypt/CERT_AUTHORITY_INFO_ACCESS, wincrypt/CERT_SUBJECT_INFO_ACCESS, wincrypt/PCERT_AUTHORITY_INFO_ACCESS, wincrypt/PCERT_SUBJECT_INFO_ACCESS'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_AUTHORITY_INFO_ACCESS
 dev_langs:
@@ -74,7 +73,7 @@ An array of pointers to
 
 
 
-The type of information represented by this structure depends on the access methods specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_access_description">CERT_ACCESS_DESCRIPTION</a> structures in the <i>rgAccDescr</i> array. For more information about access methods, the authority information access extension, and the subject information access extension, see <a href="http://go.microsoft.com/fwlink/p/?linkid=104367">RFC 3280</a>.
+The type of information represented by this structure depends on the access methods specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_access_description">CERT_ACCESS_DESCRIPTION</a> structures in the <i>rgAccDescr</i> array. For more information about access methods, the authority information access extension, and the subject information access extension, see <a href="https://www.ietf.org/rfc/rfc3280.txt">RFC 3280</a>.
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> function creates an instance of this structure when decoding a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structure's <b>Value</b> member and the <b>pszObjId</b> member of the <b>CERT_EXTENSION</b> structure is set to szOID_AUTHORITY_INFO_ACCESS or szOID_SUBJECT_INFO_ACCESS.
@@ -97,7 +96,7 @@ An instance of this structure can be used as input to the <a href="https://docs.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=104367">RFC 3280</a>
+<a href="https://www.ietf.org/rfc/rfc3280.txt">RFC 3280</a>
  
 
  

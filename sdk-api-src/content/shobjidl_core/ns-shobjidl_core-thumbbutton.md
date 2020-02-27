@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c13657b2-5b96-45ae-b339-b06b13aca65d
 ms.date: 12/05/2018
 ms.keywords: '*LPTHUMBBUTTON, LPTHUMBBUTTON, LPTHUMBBUTTON structure pointer [Windows Shell], THUMBBUTTON, THUMBBUTTON structure [Windows Shell], _shell_THUMBBUTTON, shell.THUMBBUTTON, shobjidl_core/LPTHUMBBUTTON, shobjidl_core/THUMBBUTTON'
-ms.topic: struct
 f1_keywords:
 - shobjidl_core/THUMBBUTTON
 dev_langs:

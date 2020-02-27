@@ -5,7 +5,6 @@ description: The Graphics::FillPie method uses a brush to fill the interior of a
 ms.assetid: b849f776-ca4b-47dc-8442-5f8cc7864677
 ms.date: 05/13/2019
 ms.keywords: Graphics::FillPie
-ms.topic: language-reference
 f1_keywords:
 - gdiplusgraphics/Graphics::FillPie
 dev_langs:

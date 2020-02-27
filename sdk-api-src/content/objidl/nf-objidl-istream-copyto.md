@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 5bcd7da6-8bd5-4ab7-952f-f0a12e87f2d4
 ms.date: 12/05/2018
 ms.keywords: CopyTo, CopyTo method [Structured Storage], CopyTo method [Structured Storage],IStream interface, IStream interface [Structured Storage],CopyTo method, IStream.CopyTo, IStream::CopyTo, _stg_istream_copyto, objidl/IStream::CopyTo, stg.istream_copyto
-ms.topic: method
 f1_keywords:
 - objidl/IStream.CopyTo
 dev_langs:

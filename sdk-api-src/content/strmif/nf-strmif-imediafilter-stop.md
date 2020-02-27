@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8c415b5c-1aee-4ea4-b182-fd95da4898aa
 ms.date: 12/05/2018
 ms.keywords: IMediaFilter interface [DirectShow],Stop method, IMediaFilter.Stop, IMediaFilter::Stop, IMediaFilterStop, Stop, Stop method [DirectShow], Stop method [DirectShow],IMediaFilter interface, dshow.imediafilter_stop, strmif/IMediaFilter::Stop
-ms.topic: method
 f1_keywords:
 - strmif/IMediaFilter.Stop
 dev_langs:
@@ -125,7 +124,7 @@ This method always sets the filter's state to State_Stopped, even if the method 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-filter_state">FILTER_STATE Enumeration</a>
+[FILTER_STATE Enumeration](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-filter_state)
 
 
 

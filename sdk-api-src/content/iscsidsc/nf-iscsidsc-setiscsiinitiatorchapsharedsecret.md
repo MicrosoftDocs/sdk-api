@@ -7,7 +7,6 @@ tech.root: iSCSIDisc
 ms.assetid: 9b7172a5-3a6e-49ae-8f22-77b088eb1048
 ms.date: 12/05/2018
 ms.keywords: SetIScsiInitiatorCHAPSharedSecret, SetIscsiInitiatorCHAPSharedSecret, SetIscsiInitiatorCHAPSharedSecret function [iSCSI Discovery Library API], iscsidisc.setiscsiinitiatorchapsharedsecret, iscsidsc/SetIscsiInitiatorCHAPSharedSecret
-ms.topic: function
 f1_keywords:
 - iscsidsc/SetIscsiInitiatorCHAPSharedSecret
 dev_langs:

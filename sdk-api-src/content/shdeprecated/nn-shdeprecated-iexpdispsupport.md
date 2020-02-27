@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ddc71eaf-2c3a-4d70-80f1-6d499bf31b6d
 ms.date: 12/05/2018
 ms.keywords: IExpDispSupport, IExpDispSupport interface [Windows Shell], IExpDispSupport interface [Windows Shell],described, shdeprecated/IExpDispSupport, shell.IExpDispSupport, zone_IExpDispSupport
-ms.topic: interface
 f1_keywords:
 - shdeprecated/IExpDispSupport
 dev_langs:

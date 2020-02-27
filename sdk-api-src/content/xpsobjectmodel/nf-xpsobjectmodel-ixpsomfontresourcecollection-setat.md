@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 3eead538-544f-4c74-aba8-1ad496e44156
 ms.date: 12/05/2018
 ms.keywords: IXpsOMFontResourceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMFontResourceCollection.SetAt, IXpsOMFontResourceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, xps.ixpsomfontresourcecollection_setat, xpsobjectmodel/IXpsOMFontResourceCollection::SetAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMFontResourceCollection.SetAt
 dev_langs:
@@ -105,7 +104,7 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

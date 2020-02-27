@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: d116c1d1-df48-434b-ad49-eabd0efaa810
 ms.date: 12/05/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],get_InputRange method, IDVBSTuningSpace.get_InputRange, IDVBSTuningSpace::get_InputRange, IDVBSTuningSpaceget_InputRange, get_InputRange, get_InputRange method [Microsoft TV Technologies], get_InputRange method [Microsoft TV Technologies],IDVBSTuningSpace interface, mstv.idvbstuningspace_get_inputrange, tuner/IDVBSTuningSpace::get_InputRange
-ms.topic: method
 f1_keywords:
 - tuner/IDVBSTuningSpace.get_InputRange
 dev_langs:

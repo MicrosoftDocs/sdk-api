@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f6a7f2c4-be8b-4721-87f4-274ba365784f
 ms.date: 12/05/2018
 ms.keywords: IAMBufferNegotiation interface [DirectShow],SuggestAllocatorProperties method, IAMBufferNegotiation.SuggestAllocatorProperties, IAMBufferNegotiation::SuggestAllocatorProperties, IAMBufferNegotiationSuggestAllocatorProperties, SuggestAllocatorProperties, SuggestAllocatorProperties method [DirectShow], SuggestAllocatorProperties method [DirectShow],IAMBufferNegotiation interface, dshow.iambuffernegotiation_suggestallocatorproperties, strmif/IAMBufferNegotiation::SuggestAllocatorProperties
-ms.topic: method
 f1_keywords:
 - strmif/IAMBufferNegotiation.SuggestAllocatorProperties
 dev_langs:
@@ -64,7 +63,7 @@ The <code>SuggestAllocatorProperties</code> method informs the pin of the applic
 
 ### -param pprop [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties">ALLOCATOR_PROPERTIES</a> structure that contains the requested properties. A negative value for any member indicates that the pin should use its default setting for that property.
+Pointer to an [ALLOCATOR_PROPERTIES](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure that contains the requested properties. A negative value for any member indicates that the pin should use its default setting for that property.
 
 
 ## -returns

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: EDD711F1-9D1B-4B6B-8052-E9258759F46E
 ms.date: 12/05/2018
 ms.keywords: IAnnotationProvider, IAnnotationProvider interface [Windows Accessibility], IAnnotationProvider interface [Windows Accessibility],described, uiautomationcore/IAnnotationProvider, winauto.uiauto_IAnnotationProvider
-ms.topic: interface
 f1_keywords:
 - uiautomationcore/IAnnotationProvider
 dev_langs:

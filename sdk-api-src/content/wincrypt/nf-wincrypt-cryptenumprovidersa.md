@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 2d93ef0f-b48f-481b-ba62-c535476fde08
 ms.date: 12/05/2018
 ms.keywords: CryptEnumProviders, CryptEnumProviders function [Security], CryptEnumProvidersA, CryptEnumProvidersW, _crypto2_cryptenumproviders, security.cryptenumproviders, wincrypt/CryptEnumProviders, wincrypt/CryptEnumProvidersA, wincrypt/CryptEnumProvidersW
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptEnumProviders
 dev_langs:

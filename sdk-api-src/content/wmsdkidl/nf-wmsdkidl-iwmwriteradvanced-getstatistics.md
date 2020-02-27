@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 005c2039-e821-42ab-bead-1bf40f2ab171
 ms.date: 12/05/2018
 ms.keywords: GetStatistics, GetStatistics method [windows Media Format], GetStatistics method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetStatistics method, IWMWriterAdvanced.GetStatistics, IWMWriterAdvanced::GetStatistics, IWMWriterAdvancedGetStatistics, wmformat.iwmwriteradvanced_getstatistics, wmsdkidl/IWMWriterAdvanced::GetStatistics
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriterAdvanced.GetStatistics
 dev_langs:

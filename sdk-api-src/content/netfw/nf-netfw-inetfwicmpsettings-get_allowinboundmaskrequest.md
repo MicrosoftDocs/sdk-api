@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 5d34c60a-115b-4882-bc41-ea8b3528f9df
 ms.date: 12/05/2018
 ms.keywords: AllowInboundMaskRequest property [ICS/ICF], AllowInboundMaskRequest property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowInboundMaskRequest property, INetFwIcmpSettings.AllowInboundMaskRequest, INetFwIcmpSettings.get_AllowInboundMaskRequest, INetFwIcmpSettings::AllowInboundMaskRequest, INetFwIcmpSettings::get_AllowInboundMaskRequest, INetFwIcmpSettings::put_AllowInboundMaskRequest, get_AllowInboundMaskRequest, ics.inetfwicmpsettings_allowinboundmaskrequest, netfw/INetFwIcmpSettings::AllowInboundMaskRequest, netfw/INetFwIcmpSettings::get_AllowInboundMaskRequest, netfw/INetFwIcmpSettings::put_AllowInboundMaskRequest
-ms.topic: method
 f1_keywords:
 - netfw/INetFwIcmpSettings.AllowInboundMaskRequest
 dev_langs:

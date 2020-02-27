@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: aa662c92-4fb4-47af-b260-a3dedf4c6c9a
 ms.date: 12/05/2018
 ms.keywords: WsRemoveMappedHeader, WsRemoveMappedHeader function [Web Services for Windows], webservices/WsRemoveMappedHeader, wsw.wsremovemappedheader
-ms.topic: function
 f1_keywords:
 - webservices/WsRemoveMappedHeader
 dev_langs:

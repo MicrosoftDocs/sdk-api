@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 70987969-7ad5-4eb6-bcd0-ce8709864ee7
 ms.date: 12/05/2018
 ms.keywords: GetProfileString, GetProfileString function, GetProfileStringA, GetProfileStringW, _win32_getprofilestring, base.getprofilestring, winbase/GetProfileString, winbase/GetProfileStringA, winbase/GetProfileStringW
-ms.topic: function
 f1_keywords:
 - winbase/GetProfileString
 dev_langs:

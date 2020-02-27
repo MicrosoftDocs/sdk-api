@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: f72dce85-3584-40bc-ae7a-69c9914c13b9
 ms.date: 12/05/2018
 ms.keywords: IDVBTuneRequest interface [Microsoft TV Technologies],put_TSID method, IDVBTuneRequest.put_TSID, IDVBTuneRequest::put_TSID, IDVBTuneRequestput_TSID, mstv.idvbtunerequest_put_tsid, put_TSID, put_TSID method [Microsoft TV Technologies], put_TSID method [Microsoft TV Technologies],IDVBTuneRequest interface, tuner/IDVBTuneRequest::put_TSID
-ms.topic: method
 f1_keywords:
 - tuner/IDVBTuneRequest.put_TSID
 dev_langs:

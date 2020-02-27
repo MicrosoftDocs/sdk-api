@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 2a6cfda8-b3cb-4a0f-bb65-b182c16207be
 ms.date: 12/05/2018
 ms.keywords: IAlternativeName, IAlternativeName interface [Security], IAlternativeName interface [Security],described, certenroll/IAlternativeName, security.ialternativename
-ms.topic: interface
 f1_keywords:
 - certenroll/IAlternativeName
 dev_langs:

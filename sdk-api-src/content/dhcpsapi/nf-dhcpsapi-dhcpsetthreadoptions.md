@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: aadca143-6fdd-4b25-9bd5-1ba177be148e
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_DONT_ACCESS_DS, DhcpSetThreadOptions, DhcpSetThreadOptions function [DHCP], dhcp.dhcpsetthreadoptions, dhcpsapi/DhcpSetThreadOptions
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpSetThreadOptions
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: ee24c95e-54b1-45a7-a077-4e418d83b1d5
 ms.date: 12/05/2018
 ms.keywords: IInkRecognizerContext2, IInkRecognizerContext2 interface [Tablet PC], IInkRecognizerContext2 interface [Tablet PC],described, ee24c95e-54b1-45a7-a077-4e418d83b1d5, msinkaut/IInkRecognizerContext2, tablet.iinkrecognizercontext2
-ms.topic: interface
 f1_keywords:
 - msinkaut/IInkRecognizerContext2
 dev_langs:

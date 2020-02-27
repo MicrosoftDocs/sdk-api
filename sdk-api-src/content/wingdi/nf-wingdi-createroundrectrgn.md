@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 16f387e1-b00c-4755-8b21-1ee0f25bc46b
 ms.date: 12/05/2018
 ms.keywords: CreateRoundRectRgn, CreateRoundRectRgn function [Windows GDI], _win32_CreateRoundRectRgn, gdi.createroundrectrgn, wingdi/CreateRoundRectRgn
-ms.topic: function
 f1_keywords:
 - wingdi/CreateRoundRectRgn
 dev_langs:

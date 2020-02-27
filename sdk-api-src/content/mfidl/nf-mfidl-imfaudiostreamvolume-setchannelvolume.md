@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 7786a6aa-c777-4b65-b38c-a75cd654a080
 ms.date: 12/05/2018
 ms.keywords: 7786a6aa-c777-4b65-b38c-a75cd654a080, IMFAudioStreamVolume interface [Media Foundation],SetChannelVolume method, IMFAudioStreamVolume.SetChannelVolume, IMFAudioStreamVolume::SetChannelVolume, SetChannelVolume, SetChannelVolume method [Media Foundation], SetChannelVolume method [Media Foundation],IMFAudioStreamVolume interface, mf.imfaudiostreamvolume_setchannelvolume, mfidl/IMFAudioStreamVolume::SetChannelVolume
-ms.topic: method
 f1_keywords:
 - mfidl/IMFAudioStreamVolume.SetChannelVolume
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 0D2410DC-E67E-4B5E-B55F-6B47A0B72290
 ms.date: 12/05/2018
 ms.keywords: MFCameraIntrinsic_DistortionModel, MFCameraIntrinsic_DistortionModel structure [Media Foundation], PMFCameraIntrinsic_DistortionModel, PMFCameraIntrinsic_DistortionModel structure pointer [Media Foundation], mf.mfcameraintrinsic_distortionmodel, mfapi/MFCameraIntrinsic_DistortionModel, mfapi/PMFCameraIntrinsic_DistortionModel
-ms.topic: struct
 f1_keywords:
 - mfapi/MFCameraIntrinsic_DistortionModel
 dev_langs:

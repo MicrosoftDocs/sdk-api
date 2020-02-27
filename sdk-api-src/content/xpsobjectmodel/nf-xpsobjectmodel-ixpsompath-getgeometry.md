@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: c4a99bf6-09d8-426a-8878-1126578c4518
 ms.date: 12/05/2018
 ms.keywords: GetGeometry, GetGeometry method [XPS Documents and Packaging], GetGeometry method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetGeometry method, IXpsOMPath.GetGeometry, IXpsOMPath::GetGeometry, xps.ixpsompath_getgeometry, xpsobjectmodel/IXpsOMPath::GetGeometry
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.GetGeometry
 dev_langs:
@@ -181,7 +180,7 @@ No object could be found with a key name that matched the lookup value.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

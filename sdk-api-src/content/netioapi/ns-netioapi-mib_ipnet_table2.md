@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: 39b87d81-69ce-4f9b-8af6-5e0c5051657c
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IPNET_TABLE2, MIB_IPNET_TABLE2, MIB_IPNET_TABLE2 structure [MIB], PMIB_IPNET_TABLE2, PMIB_IPNET_TABLE2 structure pointer [MIB], _MIB_IPNET_TABLE2, mib.mib_ipnet_table2, netioapi/MIB_IPNET_TABLE2, netioapi/PMIB_IPNET_TABLE2'
-ms.topic: struct
 f1_keywords:
 - netioapi/MIB_IPNET_TABLE2
 dev_langs:
@@ -78,7 +77,7 @@ The <b>MIB_IPNET_TABLE2</b> structure is defined on Windows Vista and later.
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipnettable2">GetIpNetTable2</a> function enumerates the neighbor IP addresses on a local system and returns this information in an <b>MIB_IPNET_TABLE2</b> structure. 
 
-For IPv4, this includes addresses determined used the Address Resolution Protocol (ARP). For IPv6, this includes addresses determined using the Neighbor Discovery (ND) protocol for IPv6 as specified in RFC 2461. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84044">http://www.ietf.org/rfc/rfc2461.txt</a>. 
+For IPv4, this includes addresses determined used the Address Resolution Protocol (ARP). For IPv6, this includes addresses determined using the Neighbor Discovery (ND) protocol for IPv6 as specified in RFC 2461. For more information, see <a href="https://www.ietf.org/rfc/rfc2461.txt">http://www.ietf.org/rfc/rfc2461.txt</a>. 
 
 The <b>MIB_IPNET_TABLE2</b> structure may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipnet_row2">MIB_IPNET_ROW2</a> array entry in the <b>Table</b> member. Padding for alignment may also be present between the <b>MIB_IPNET_ROW2</b> array entries in the <b>Table</b> member. Any access to a <b>MIB_IPNET_ROW2</b> array entry should assume  padding may exist. 
 

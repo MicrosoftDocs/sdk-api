@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ef6607c6-3ea0-4b45-b443-dbd1359ab873
 ms.date: 12/05/2018
 ms.keywords: ILIsAligned, ILIsAligned function [Windows Shell], _shell_ILIsAligned, shell.ILIsAligned, shlobj_core/ILIsAligned
-ms.topic: function
 f1_keywords:
 - shlobj_core/ILIsAligned
 dev_langs:

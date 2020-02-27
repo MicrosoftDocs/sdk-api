@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 1290fbbe-6c8e-40dc-b47c-32976d85afca
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_AUTH_STATUS, *PHTTP_AUTH_STATUS enumeration [HTTP], HTTP_AUTH_STATUS, HTTP_AUTH_STATUS enumeration [HTTP], HttpAuthStatusFailure, HttpAuthStatusNotAuthenticated, HttpAuthStatusSuccess, http.http_auth_status, http/*PHTTP_AUTH_STATUS, http/HTTP_AUTH_STATUS, http/HttpAuthStatusFailure, http/HttpAuthStatusNotAuthenticated, http/HttpAuthStatusSuccess'
-ms.topic: enum
 f1_keywords:
 - http/HTTP_AUTH_STATUS
 dev_langs:
@@ -80,7 +79,7 @@ The application should either proceed with its own authentication or respond wit
 ### -field HttpAuthStatusFailure
 
 Authentication for the authentication type listed in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a>   structure failed, possibly due to one of the following reasons:<ul>
-<li>The Security Service Provider Interface (SSPI) based authentication scheme failed to successfully return from a call to <a href="Http://go.microsoft.com/fwlink/p/?linkid=83940">AcceptSecurityContext</a>. The error returned <a href="Http://go.microsoft.com/fwlink/p/?linkid=83940">AcceptSecurityContext</a> is indicated in the <b>SecStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure.</li>
+<li>The Security Service Provider Interface (SSPI) based authentication scheme failed to successfully return from a call to <a href="https://msdn.microsoft.com/library/ms937012.aspx">AcceptSecurityContext</a>. The error returned <a href="https://msdn.microsoft.com/library/ms937012.aspx">AcceptSecurityContext</a> is indicated in the <b>SecStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure.</li>
 <li>The finalized client context is for a Null NTLM session. Null sessions are treated as authentication failures.</li>
 <li>The call to  <b>LogonUser</b> failed for the Basic authentication.</li>
 </ul>

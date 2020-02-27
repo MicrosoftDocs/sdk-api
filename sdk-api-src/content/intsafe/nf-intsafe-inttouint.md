@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 54fe3370-648a-40ab-856b-d34c0c033141
 ms.date: 12/05/2018
 ms.keywords: IntToUInt, IntToUInt function [Windows Shell], _shell_IntToUInt, intsafe/IntToUInt, shell.IntToUInt
-ms.topic: function
 f1_keywords:
 - intsafe/IntToUInt
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 546ae2f8-c208-4846-a3ba-e124aefe619d
 ms.date: 12/05/2018
 ms.keywords: CreateSinkStub, CreateSinkStub method [Windows Management Instrumentation], CreateSinkStub method [Windows Management Instrumentation],IWbemUnsecuredApartment interface, IWbemUnsecuredApartment interface [Windows Management Instrumentation],CreateSinkStub method, IWbemUnsecuredApartment.CreateSinkStub, IWbemUnsecuredApartment::CreateSinkStub, WBEM_FLAG_UNSECAPP_CHECK_ACCESS, WBEM_FLAG_UNSECAPP_DEFAULT_CHECK_ACCESS, WBEM_FLAG_UNSECAPP_DONT_CHECK_ACCESS, wbemcli/IWbemUnsecuredApartment::CreateSinkStub, wmi.iwbemunsecuredapartment_createsinkstub
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemUnsecuredApartment.CreateSinkStub
 dev_langs:
@@ -131,7 +130,7 @@ Reserved.
 Receives a pointer to a substitute object to be used in asynchronous 
       <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> calls. The user receives an 
       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer and must call 
-      <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> for 
+      <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for 
       <b>IID_WbemObjectSink</b> before using this object in asynchronous 
       <b>IWbemServices</b> calls.
 
@@ -141,7 +140,7 @@ Receives a pointer to a substitute object to be used in asynchronous
 
 
 This method returns standard COM error codes for 
-       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a>. It returns 
+       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>. It returns 
        <b>S_OK</b> if the call succeeds. If the call fails because the requested interface was not 
        supported, the method returns <b>E_NOINTERFACE</b>.
 

@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: c3b0fa86-dff4-4c35-9b08-633448db18be
 ms.date: 12/05/2018
 ms.keywords: MMCPropertyHelp, MMCPropertyHelp callback, MMCPropertyHelp callback function [MMC], _slate_mmcpropertyhelp, mmc.mmcpropertyhelp, mmc/MMCPropertyHelp
-ms.topic: function
 f1_keywords:
 - mmc/MMCPropertyHelp
 dev_langs:

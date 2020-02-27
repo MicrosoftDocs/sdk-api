@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: fe24b090-7dfd-4cbe-bb5d-ff3fd01723df
 ms.date: 12/05/2018
 ms.keywords: GetFileModificationTime, GetFileModificationTime method [BITS], GetFileModificationTime method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetFileModificationTime method, IBitsPeerCacheRecord.GetFileModificationTime, IBitsPeerCacheRecord::GetFileModificationTime, bits.ibitspeercacherecord_getfilemodificationtime, bits3_0/IBitsPeerCacheRecord::GetFileModificationTime
-ms.topic: method
 f1_keywords:
 - bits3_0/IBitsPeerCacheRecord.GetFileModificationTime
 dev_langs:

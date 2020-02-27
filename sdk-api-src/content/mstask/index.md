@@ -1,9 +1,10 @@
 ---
 UID: NA:mstask
+title: Mstask.h header
 ms.assetid: ee24e518-a7b3-3029-9e89-3a815727ab3e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: taskschd
 ---
 

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: b18ebaa1-aca4-4d21-adb7-d233e18cd320
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IPBDAAttributesDescriptor interface, IPBDAAttributesDescriptor interface [Microsoft TV Technologies],GetLength method, IPBDAAttributesDescriptor.GetLength, IPBDAAttributesDescriptor::GetLength, dvbsiparser/IPBDAAttributesDescriptor::GetLength, mstv.ipbdaattributesdescriptor_getlength
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IPBDAAttributesDescriptor.GetLength
 dev_langs:

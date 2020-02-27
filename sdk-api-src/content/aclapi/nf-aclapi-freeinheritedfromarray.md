@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: c9c58b9a-1b65-40e2-b518-30e247f9718e
 ms.date: 12/05/2018
 ms.keywords: FreeInheritedFromArray, FreeInheritedFromArray function [Security], _win32_freeinheritedfromarray, aclapi/FreeInheritedFromArray, security.freeinheritedfromarray
-ms.topic: function
 f1_keywords:
 - aclapi/FreeInheritedFromArray
 dev_langs:

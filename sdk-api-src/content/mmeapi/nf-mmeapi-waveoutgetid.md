@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: ed9db33a-9a04-4c1f-9996-6821f853a212
 ms.date: 12/05/2018
 ms.keywords: _win32_waveOutGetID, mmeapi/waveOutGetID, multimedia.waveoutgetid, waveOutGetID, waveOutGetID function [Windows Multimedia]
-ms.topic: function
 f1_keywords:
 - mmeapi/waveOutGetID
 dev_langs:

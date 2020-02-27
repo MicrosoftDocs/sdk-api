@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_caps\ienumwia_dev_caps.htm
 ms.date: 12/05/2018
 ms.keywords: IEnumWIA_DEV_CAPS, IEnumWIA_DEV_CAPS interface [WIA], IEnumWIA_DEV_CAPS interface [WIA],described, _wia_IEnumWIA_DEV_CAPS, wia._wia_IEnumWIA_DEV_CAPS, wia_xp/IEnumWIA_DEV_CAPS
-ms.topic: interface
 f1_keywords:
 - wia_xp/IEnumWIA_DEV_CAPS
 dev_langs:
@@ -136,7 +135,7 @@ The <b>IEnumWIA_DEV_CAPS</b> interface, like all Component Object Model (COM) in
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>
 </td>
 <td>Returns pointers to supported interfaces.</td>
 </tr>

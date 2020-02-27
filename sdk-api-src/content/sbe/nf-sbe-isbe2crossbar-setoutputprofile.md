@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 34067ca5-ead0-44ac-b274-dc9e3f2fb2fd
 ms.date: 12/05/2018
 ms.keywords: ISBE2Crossbar interface [Microsoft TV Technologies],SetOutputProfile method, ISBE2Crossbar.SetOutputProfile, ISBE2Crossbar::SetOutputProfile, SetOutputProfile, SetOutputProfile method [Microsoft TV Technologies], SetOutputProfile method [Microsoft TV Technologies],ISBE2Crossbar interface, mstv.isbe2crossbar_setoutputprofile, sbe/ISBE2Crossbar::SetOutputProfile
-ms.topic: method
 f1_keywords:
 - sbe/ISBE2Crossbar.SetOutputProfile
 dev_langs:

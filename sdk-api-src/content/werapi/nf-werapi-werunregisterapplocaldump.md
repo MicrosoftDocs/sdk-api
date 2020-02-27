@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: A3AD976A-9C44-494C-ABF0-90D151001E30
 ms.date: 12/05/2018
 ms.keywords: WerUnregisterAppLocalDump, WerUnregisterAppLocalDump function [Windows Error Reporting], wer.werunregisterapplocaldump, werapi/WerUnregisterAppLocalDump
-ms.topic: function
 f1_keywords:
 - werapi/WerUnregisterAppLocalDump
 dev_langs:

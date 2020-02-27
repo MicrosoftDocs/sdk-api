@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: d9f5e6b0-4317-40cd-9664-e2cc6d1a8833
 ms.date: 12/05/2018
 ms.keywords: IPMT interface [Microsoft TV Technologies],Initialize method, IPMT.Initialize, IPMT::Initialize, IPMTInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::Initialize, mstv.ipmt_initialize
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/IPMT.Initialize
 dev_langs:

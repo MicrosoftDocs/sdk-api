@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3506a086-2dda-4455-b03c-f3c85e4ac283
 ms.date: 12/05/2018
 ms.keywords: IShellRunDll interface [Windows Shell],Run method, IShellRunDll.Run, IShellRunDll::Run, Run, Run method [Windows Shell], Run method [Windows Shell],IShellRunDll interface, _shell_IShellRunDll_Run, shell.IShellRunDll_Run, shobjidl/IShellRunDll::Run
-ms.topic: method
 f1_keywords:
 - shobjidl/IShellRunDll.Run
 dev_langs:

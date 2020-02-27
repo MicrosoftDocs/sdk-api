@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 1bffe874-d4ba-4efa-ab71-098a3c96092f
 ms.date: 12/05/2018
 ms.keywords: SetupDiUnremoveDevice, SetupDiUnremoveDevice function [Device and Driver Installation], devinst.setupdiunremovedevice, di-rtns_8c97341a-c852-47be-ad6e-c551f82deb6d.xml, setupapi/SetupDiUnremoveDevice
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiUnremoveDevice
 dev_langs:
@@ -72,7 +71,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 
@@ -85,7 +84,7 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 <div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiUnremoveDevice</b> and only in those situations where the class installer must perform device unremove operations after <b>SetupDiUnremoveDevice</b> completes the default device unremove operation. In such situations, the class installer must directly call <b>SetupDiUnremoveDevice</b> when the installer processes a DIF_UNREMOVE request. For more information about calling the default handler, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/calling-the-default-dif-code-handlers">Calling Default DIF Code Handlers</a>.</div>
 <div> </div>
-The device being restored must have class install parameters for <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-unremove">DIF_UNREMOVE</a> or the function fails and <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_NO_CLASSINSTALL_PARAMS.
+The device being restored must have class install parameters for <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-unremove">DIF_UNREMOVE</a> or the function fails and <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_NO_CLASSINSTALL_PARAMS.
 
 The <i>DeviceInfoSet</i> must only contain elements on the local computer.
 

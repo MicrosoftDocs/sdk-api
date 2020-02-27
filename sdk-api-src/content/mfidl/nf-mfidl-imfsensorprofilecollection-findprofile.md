@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 3EC77F69-717F-404F-9C8C-F420F360CB83
 ms.date: 12/05/2018
 ms.keywords: FindProfile, FindProfile method [Media Foundation], FindProfile method [Media Foundation],IMFSensorProfileCollection interface, IMFSensorProfileCollection interface [Media Foundation],FindProfile method, IMFSensorProfileCollection.FindProfile, IMFSensorProfileCollection::FindProfile, mf.imfsensorprofilecollection_findprofile, mfidl/IMFSensorProfileCollection::FindProfile
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSensorProfileCollection.FindProfile
 dev_langs:

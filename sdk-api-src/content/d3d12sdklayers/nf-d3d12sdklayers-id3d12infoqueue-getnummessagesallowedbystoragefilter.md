@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 15B4F5B7-0590-45CC-9499-8ACF1B41E7C2
 ms.date: 12/05/2018
 ms.keywords: GetNumMessagesAllowedByStorageFilter, GetNumMessagesAllowedByStorageFilter method, GetNumMessagesAllowedByStorageFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumMessagesAllowedByStorageFilter method, ID3D12InfoQueue.GetNumMessagesAllowedByStorageFilter, ID3D12InfoQueue::GetNumMessagesAllowedByStorageFilter, d3d12sdklayers/ID3D12InfoQueue::GetNumMessagesAllowedByStorageFilter, direct3d12.id3d12infoqueue_getnummessagesallowedbystoragefilter
-ms.topic: method
 f1_keywords:
 - d3d12sdklayers/ID3D12InfoQueue.GetNumMessagesAllowedByStorageFilter
 dev_langs:

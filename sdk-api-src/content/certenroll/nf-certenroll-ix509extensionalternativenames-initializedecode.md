@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: a314dfac-fe17-4e33-b528-491a2622e80c
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionAlternativeNames interface [Security],InitializeDecode method, IX509ExtensionAlternativeNames.InitializeDecode, IX509ExtensionAlternativeNames::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionAlternativeNames interface, certenroll/IX509ExtensionAlternativeNames::InitializeDecode, security.ix509extensionalternativenames_initializedecode_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509ExtensionAlternativeNames.InitializeDecode
 dev_langs:

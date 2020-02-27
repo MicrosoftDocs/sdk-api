@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b1c77198-da52-4f74-9e20-56b6d1d450f5
 ms.date: 12/05/2018
 ms.keywords: GetIDList, GetIDList method [Windows Shell], GetIDList method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetIDList method, IKnownFolder.GetIDList, IKnownFolder::GetIDList, _shell_IKnownFolder_GetIDList, shell.IKnownFolder_GetIDList, shobjidl_core/IKnownFolder::GetIDList
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IKnownFolder.GetIDList
 dev_langs:

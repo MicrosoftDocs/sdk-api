@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: cf545417-f933-4054-bed4-e6adbf822f9c
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SHRINK_VOLUME, FSCTL_SHRINK_VOLUME control, FSCTL_SHRINK_VOLUME control code [Files], fs.fsctl_shrink_volume, winioctl/FSCTL_SHRINK_VOLUME
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_SHRINK_VOLUME
 dev_langs:

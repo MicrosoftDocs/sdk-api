@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: d72e55e6-79a9-4386-9e1a-24a322f13426
 ms.date: 12/05/2018
 ms.keywords: WSAAddressToString, WSAAddressToString function [Winsock], WSAAddressToStringA, WSAAddressToStringW, _win32_wsaaddresstostring_2, winsock.wsaaddresstostring_2, winsock2/WSAAddressToString, winsock2/WSAAddressToStringA, winsock2/WSAAddressToStringW
-ms.topic: function
 f1_keywords:
 - winsock2/WSAAddressToString
 dev_langs:

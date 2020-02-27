@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c5038a59-bdc4-4034-afd1-256003687187
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_FocusRelative method, ICameraControl.getRange_FocusRelative, ICameraControl::getRange_FocusRelative, ICameraControlgetRange_FocusRelative, dshow.icameracontrol_getrange_focusrelative, getRange_FocusRelative, getRange_FocusRelative method [DirectShow], getRange_FocusRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_FocusRelative
-ms.topic: method
 f1_keywords:
 - vidcap/ICameraControl.getRange_FocusRelative
 dev_langs:

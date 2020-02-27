@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: fb67c208-b79b-4219-ba5b-2235ae4a1dcf
 ms.date: 12/05/2018
 ms.keywords: IAccClientDocMgr interface [Windows Accessibility],LookupByHWND method, IAccClientDocMgr.LookupByHWND, IAccClientDocMgr::LookupByHWND, LookupByHWND, LookupByHWND method [Windows Accessibility], LookupByHWND method [Windows Accessibility],IAccClientDocMgr interface, _msaa_IAccClientDocMgr_LookupByHWND, msaa.iaccclientdocmgr_iaccclientdocmgr__lookupbyhwnd, msaatext/IAccClientDocMgr::LookupByHWND, winauto.iaccclientdocmgr_iaccclientdocmgr__lookupbyhwnd
-ms.topic: method
 f1_keywords:
 - msaatext/IAccClientDocMgr.LookupByHWND
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Clients call <b>IAccClientDocMgr::LookupByHWND</b> to get a document by providing the <b>HWND</b> for the document.
 <div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
-<a href="https://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="https://msdn.microsoft.com/library/ms629032(VS.85).aspx">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		</div><div> </div>
 
 ## -parameters

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 556DF8D8-F171-4055-86F1-F3258CC7D090
 ms.date: 12/05/2018
 ms.keywords: MFCameraIntrinsic_PinholeCameraModel, MFCameraIntrinsic_PinholeCameraModel structure [Media Foundation], PMFCameraIntrinsic_PinholeCameraModel, PMFCameraIntrinsic_PinholeCameraModel structure pointer [Media Foundation], mf.mfcameraintrinsic_pinholecameramodel, mfapi/MFCameraIntrinsic_PinholeCameraModel, mfapi/PMFCameraIntrinsic_PinholeCameraModel
-ms.topic: struct
 f1_keywords:
 - mfapi/MFCameraIntrinsic_PinholeCameraModel
 dev_langs:
@@ -72,7 +71,7 @@ The principal point of the camera.
 
 
 
-For square pixels, the X and Y fields of the <b>FocalLength</b> should be the same.
+For square pixels, the X and Y fields of the <b>FocalLength</b> should be the same. The units of the focal length fields are pixels per meter, so dividing the width and height of the image by the X and Y fields of the focal length, respectively, yields the physical size in meters of the image at a distance of one meter from the sensor.
 
 The <b>PrincipalPoint</b> field is expressed in pixels, not in normalized coordinates. The  origin [0,0] is the bottom, left corner of the image.
 

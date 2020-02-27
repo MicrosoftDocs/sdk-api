@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 42406E51-546F-4714-9179-E5D676805DDE
 ms.date: 12/05/2018
 ms.keywords: IMFTimedText interface [Media Foundation],SetCueTimeOffset method, IMFTimedText.SetCueTimeOffset, IMFTimedText::SetCueTimeOffset, SetCueTimeOffset, SetCueTimeOffset method [Media Foundation], SetCueTimeOffset method [Media Foundation],IMFTimedText interface, mf.imftimedtext_setcuetimeoffset, mfmediaengine/IMFTimedText::SetCueTimeOffset
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedText.SetCueTimeOffset
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: e4cc8326-e2bc-459f-97dd-a00cfd1ed35e
 ms.date: 12/05/2018
 ms.keywords: DrtCreateDerivedKeySecurityProvider, DrtCreateDerivedKeySecurityProvider function [Peer Networking], drt/DrtCreateDerivedKeySecurityProvider, p2p.drtcreatederivedkeysecurityprovider
-ms.topic: function
 f1_keywords:
 - drt/DrtCreateDerivedKeySecurityProvider
 dev_langs:

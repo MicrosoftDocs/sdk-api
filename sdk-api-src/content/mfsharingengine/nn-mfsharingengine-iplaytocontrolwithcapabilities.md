@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: d670f320-30b5-4712-9192-d0976b65dd65
 ms.date: 12/05/2018
 ms.keywords: IPlayToControlWithCapabilities, IPlayToControlWithCapabilities interface [Media Foundation], IPlayToControlWithCapabilities interface [Media Foundation],described, mf.iplaytocontrolwithcapabilities, mfsharingengine/IPlayToControlWithCapabilities
-ms.topic: interface
 f1_keywords:
 - mfsharingengine/IPlayToControlWithCapabilities
 dev_langs:

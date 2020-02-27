@@ -3,7 +3,6 @@ UID: NF:traceloggingprovider.TraceLoggingSetInformation
 title: TraceLoggingSetInformation
 ms.date: 5/7/2019
 ms.keywords: TraceLoggingSetInformation
-ms.topic: language-reference
 f1_keywords:
 - TraceLoggingSetInformation
 dev_langs:

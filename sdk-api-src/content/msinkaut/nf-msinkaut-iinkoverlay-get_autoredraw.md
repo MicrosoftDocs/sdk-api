@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: b6e7c212-5d1d-41c2-85ee-24365c2246cf
 ms.date: 12/05/2018
 ms.keywords: AutoRedraw property [Tablet PC], AutoRedraw property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],AutoRedraw property, IInkOverlay.AutoRedraw, IInkOverlay.get_AutoRedraw, IInkOverlay::AutoRedraw, IInkOverlay::get_AutoRedraw, IInkOverlay::put_AutoRedraw, InkOverlay.get_AutoRedraw, InkOverlay.put_AutoRedraw, get_AutoRedraw, msinkaut/IInkOverlay::AutoRedraw, msinkaut/IInkOverlay::get_AutoRedraw, msinkaut/IInkOverlay::put_AutoRedraw, tablet.inkoverlay_autoredraw
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkOverlay.AutoRedraw
 dev_langs:

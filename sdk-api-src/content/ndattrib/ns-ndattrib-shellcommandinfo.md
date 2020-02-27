@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: 54e23cfc-52bf-482a-a3e8-49fd6aa505e3
 ms.date: 12/05/2018
 ms.keywords: '*PShellCommandInfo, ShellCommandInfo, ShellCommandInfo structure [NDF], ShellCommandInfo,*PShellCommandInfo, ShellCommandInfo,*PShellCommandInfo structure [NDF], ndattrib/ShellCommandInfo, ndf.shellcommandinfo'
-ms.topic: struct
 f1_keywords:
 - ndattrib/ShellCommandInfo, *PShellCommandInfo
 dev_langs:

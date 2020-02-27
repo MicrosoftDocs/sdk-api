@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 7240e9c9-a362-4de8-b0bd-aeadf53eb111
 ms.date: 12/05/2018
 ms.keywords: ClusAddClusterHealthFault, ClusAddClusterHealthFault function [Failover Cluster], mscs.clusaddclusterhealthfault, resapi/ClusAddClusterHealthFault
-ms.topic: function
 f1_keywords:
 - resapi/ClusAddClusterHealthFault
 dev_langs:

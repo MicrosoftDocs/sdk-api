@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 4acc06bc-efc3-46eb-bb71-4eb981048b36
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectAngle method, IDvdControl2.SelectAngle, IDvdControl2::SelectAngle, IDvdControl2SelectAngle, SelectAngle, SelectAngle method [DirectShow], SelectAngle method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectangle, strmif/IDvdControl2::SelectAngle
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.SelectAngle
 dev_langs:
@@ -69,7 +68,7 @@ Value of the new angle, which must be from 1 through 9.
 
 ### -param dwFlags [in]
 
-Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
+Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
 
 
 ### -param ppCmd [out]

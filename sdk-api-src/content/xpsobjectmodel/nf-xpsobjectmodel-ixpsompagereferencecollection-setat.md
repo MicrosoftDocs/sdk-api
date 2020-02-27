@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: b06b7ae2-e684-46a3-ab46-9f33cc6c10fc
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMPageReferenceCollection.SetAt, IXpsOMPageReferenceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, xps.ixpsompagereferencecollection_setat, xpsobjectmodel/IXpsOMPageReferenceCollection::SetAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPageReferenceCollection.SetAt
 dev_langs:
@@ -105,7 +104,7 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

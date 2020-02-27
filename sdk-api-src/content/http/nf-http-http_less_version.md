@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 3a6486ad-04cb-416f-be5e-bd8f401b0836
 ms.date: 12/05/2018
 ms.keywords: HTTP_LESS_VERSION, HTTP_LESS_VERSION macro [HTTP], _http_http_less_version, http.http_less_version, http/HTTP_LESS_VERSION
-ms.topic: macro
 f1_keywords:
 - http/HTTP_LESS_VERSION
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: E9AD5DD2-AAC1-46C9-BF57-1C97CF619936
 ms.date: 12/05/2018
 ms.keywords: WinUsb_ReadIsochPipeAsap, WinUsb_ReadIsochPipeAsap function [Buses], buses.winusb_readisochpipeasap, winusb/WinUsb_ReadIsochPipeAsap
-ms.topic: function
 f1_keywords:
 - winusb/WinUsb_ReadIsochPipeAsap
 dev_langs:
@@ -97,7 +96,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/n
 
 
 
-<b>WinUsb_ReadIsochPipeAsap</b> returns TRUE if the operation succeeds.  Otherwise this function returns FALSE, and the caller can retrieve the logged error by calling <b>GetLastError</b>.
+<b>WinUsb_ReadIsochPipeAsap</b> returns TRUE if the operation succeeds. Otherwise this function returns FALSE, and the caller can retrieve the logged error by calling <b>GetLastError</b>.
 
 If the caller sets <i>ContinueStream</i> to TRUE, The transfer fails if Winusb.sys is unable to schedule the transfer to continue the stream without dropping one or more frames.
 
@@ -108,12 +107,15 @@ If the caller sets <i>ContinueStream</i> to TRUE, The transfer fails if Winusb.s
 
 
 
-<b>WinUsb_ReadIsochPipeAsap</b> allows the USB driver stack to choose the starting frame number for the transfer.  If one or more transfers are already pending on the endpoint, the transfer will be scheduled for the frame number immediately following the last frame number of the last currently pending transfer.
+<b>WinUsb_ReadIsochPipeAsap</b> allows the USB driver stack to choose the starting frame number for the transfer. If one or more transfers are already pending on the endpoint, the transfer will be scheduled for the frame number immediately following the last frame number of the last currently pending transfer.
 
 
 <b>WinUsb_ReadIsochPipeAsap</b> packetizes the transfer buffer so that in each interval,  the host can receive the maximum bytes allowed per interval. The maximum bytes is as specified by the endpoint descriptor for full and high-speed endpoints, and endpoint companion descriptor for SuperSpeed endpoints.
 If the caller submits multiple read requests to stream data from the device, the transfer size should be a multiple of the maximum bytes per interval (as returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_querypipeex">WinUsb_QueryPipeEx</a>) * 8 / interval.
 
+
+
+Because of the transfer packaging used in the underlying kernel-mode interface, the lowest latency notification to an application or driver is 1ms intervals.
 
 
 

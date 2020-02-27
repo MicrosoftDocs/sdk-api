@@ -5,7 +5,6 @@ description: Retrieves the maximum number of enabled input streams supported by 
 tech.root: mf
 ms.assetid: 7c4f3ea1-e62d-41d2-b277-7e1f08d30dc0
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS
 dev_langs:
@@ -40,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-Provides data for calls to [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport) when the feature specified is [D3D12\_FEATURE\_VIDEO\_PROCESS\_MAX\_INPUT\_STREAMS](ne-d3d12video-d3d12_feature_video). Retrieves the maximum number of enabled input streams supported by the video processor.
+Provides data for calls to [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport.md) when the feature specified is [D3D12\_FEATURE\_VIDEO\_PROCESS\_MAX\_INPUT\_STREAMS](ne-d3d12video-d3d12_feature_video.md). Retrieves the maximum number of enabled input streams supported by the video processor.
 
 ## -struct-fields
 

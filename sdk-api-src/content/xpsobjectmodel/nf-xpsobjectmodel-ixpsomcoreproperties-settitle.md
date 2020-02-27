@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 55562670-576f-483d-abcf-f69ce279245d
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetTitle method, IXpsOMCoreProperties.SetTitle, IXpsOMCoreProperties::SetTitle, SetTitle, SetTitle method [XPS Documents and Packaging], SetTitle method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_settitle, xpsobjectmodel/IXpsOMCoreProperties::SetTitle
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.SetTitle
 dev_langs:
@@ -90,11 +89,11 @@ The <b>title</b> property contains the name given to the resource.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

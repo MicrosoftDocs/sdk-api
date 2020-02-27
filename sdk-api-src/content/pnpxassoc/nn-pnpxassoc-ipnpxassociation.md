@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: 03c1c4cb-fffb-4b4a-963a-200670062f4a
 ms.date: 12/05/2018
 ms.keywords: IPNPXAssociation, IPNPXAssociation interface, IPNPXAssociation interface,described, ncd.ipnpxassociation, pnpxassoc/IPNPXAssociation
-ms.topic: interface
 f1_keywords:
 - pnpxassoc/IPNPXAssociation
 dev_langs:

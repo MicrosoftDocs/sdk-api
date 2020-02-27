@@ -7,7 +7,6 @@ tech.root: hcp
 ms.assetid: cf746694-cc3a-4791-8877-fd879e968811
 ms.date: 12/05/2018
 ms.keywords: QueryThreadProfiling, QueryThreadProfiling function [Hardware Counter Profiling], hcp.querythreadprofiling, winbase/QueryThreadProfiling
-ms.topic: function
 f1_keywords:
 - winbase/QueryThreadProfiling
 dev_langs:

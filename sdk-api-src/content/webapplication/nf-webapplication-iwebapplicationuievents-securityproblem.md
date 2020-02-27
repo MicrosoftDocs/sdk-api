@@ -7,7 +7,6 @@ tech.root: debug_wwahost
 ms.assetid: 3579ffe7-914c-4baf-b1bf-4ed1a1db645f
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationUIEvents interface [Debugging Windows Store apps],SecurityProblem method, IWebApplicationUIEvents.SecurityProblem, IWebApplicationUIEvents::SecurityProblem, SecurityProblem, SecurityProblem method [Debugging Windows Store apps], SecurityProblem method [Debugging Windows Store apps],IWebApplicationUIEvents interface, debug.iwebapplicationuievents_securityproblem, webapplication/IWebApplicationUIEvents::SecurityProblem
-ms.topic: method
 f1_keywords:
 - webapplication/IWebApplicationUIEvents.SecurityProblem
 dev_langs:

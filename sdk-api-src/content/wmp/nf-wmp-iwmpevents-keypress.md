@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 72d97c04-6978-4275-9adf-2deeebb34224
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],KeyPress method, IWMPEvents.KeyPress, IWMPEvents::KeyPress, IWMPEventsKeyPress, KeyPress, KeyPress method [Windows Media Player], KeyPress method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__keypress, wmp/IWMPEvents::KeyPress
-ms.topic: method
 f1_keywords:
 - wmp/IWMPEvents.KeyPress
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: babaf55e-6c43-48d8-ad13-1333e29a3e1d
 ms.date: 12/05/2018
 ms.keywords: GetExtent, GetExtent method [COM], GetExtent method [COM],IOleObject interface, IOleObject interface [COM],GetExtent method, IOleObject.GetExtent, IOleObject::GetExtent, _ole_ioleobject_getextent, com.ioleobject_getextent, oleidl/IOleObject::GetExtent
-ms.topic: method
 f1_keywords:
 - oleidl/IOleObject.GetExtent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 6c822d4c-9d42-48a2-b378-06670acc39cf
 ms.date: 12/05/2018
 ms.keywords: TASKPAGE, TASKPAGE enumeration [Task Scheduler], TASKPAGE_SCHEDULE, TASKPAGE_SETTINGS, TASKPAGE_TASK, _msb_taskpage, mstask/TASKPAGE, mstask/TASKPAGE_SCHEDULE, mstask/TASKPAGE_SETTINGS, mstask/TASKPAGE_TASK, task page [Task Scheduler],enumerations,TASKPAGE, taskschd.taskpage
-ms.topic: enum
 f1_keywords:
 - mstask/TASKPAGE
 dev_langs:

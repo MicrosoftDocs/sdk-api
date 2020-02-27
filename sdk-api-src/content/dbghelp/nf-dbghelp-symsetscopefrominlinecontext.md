@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 053163b0-2504-48fc-92c1-3839311ec657
 ms.date: 12/05/2018
 ms.keywords: SymSetScopeFromInlineContext, SymSetScopeFromInlineContext function, base.symsetscopefrominlinecontext, dbghelp/SymSetScopeFromInlineContext
-ms.topic: function
 f1_keywords:
 - dbghelp/SymSetScopeFromInlineContext
 dev_langs:

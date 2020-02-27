@@ -1,9 +1,10 @@
 ---
 UID: NA:muiload
+title: Muiload.h header
 ms.assetid: 881ea66f-10cf-358e-9fdc-63c0e29b33ee
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: intl
 ---
 

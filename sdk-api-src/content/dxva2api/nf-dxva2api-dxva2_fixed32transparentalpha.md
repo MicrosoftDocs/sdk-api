@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: beb80542-f608-43e2-ab71-8ecee7884c62
 ms.date: 12/05/2018
 ms.keywords: DXVA2_Fixed32TransparentAlpha, DXVA2_Fixed32TransparentAlpha function [Media Foundation], beb80542-f608-43e2-ab71-8ecee7884c62, dxva2api/DXVA2_Fixed32TransparentAlpha, mf.dxva2_fixed32transparentalpha
-ms.topic: function
 f1_keywords:
 - dxva2api/DXVA2_Fixed32TransparentAlpha
 dev_langs:

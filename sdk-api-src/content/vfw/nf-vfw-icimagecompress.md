@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 111d3b97-527b-4cca-ba4e-3d8310a5c72b
 ms.date: 12/05/2018
 ms.keywords: ICImageCompress, ICImageCompress function [Windows Multimedia], _win32_ICImageCompress, multimedia.icimagecompress, vfw/ICImageCompress
-ms.topic: function
 f1_keywords:
 - vfw/ICImageCompress
 dev_langs:
@@ -117,7 +116,7 @@ Returns a handle to a compressed DIB. The image data follows the format header.
 
 
 
-To obtain the format information from the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure, use the <a href="http://go.microsoft.com/fwlink/p/?linkid=17081">GlobalLock</a> function to lock the data. Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=17082">GlobalFree</a> function to free the DIB when you are finished.
+To obtain the format information from the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure, use the <a href="https://msdn.microsoft.com/library/aa366584.aspx">GlobalLock</a> function to lock the data. Use the <a href="https://msdn.microsoft.com/library/aa366579.aspx">GlobalFree</a> function to free the DIB when you are finished.
 
 
 

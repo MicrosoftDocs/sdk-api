@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: 0fe3e466-c4df-4c11-9689-1002045df791
 ms.date: 12/05/2018
 ms.keywords: SLDepositMigrationBlob, SLDepositMigrationBlob function [Security], security.sldepositmigrationblob, slpublic/SLDepositMigrationBlob
-ms.topic: function
 f1_keywords:
 - slpublic/SLDepositMigrationBlob
 dev_langs:

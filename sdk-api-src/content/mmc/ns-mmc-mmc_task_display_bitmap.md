@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 9895eef1-7870-4092-8bf9-c13f38b74173
 ms.date: 12/05/2018
 ms.keywords: MMC_TASK_DISPLAY_BITMAP, MMC_TASK_DISPLAY_BITMAP structure [MMC], _slate_mmc_task_display_bitmap, mmc.mmc_task_display_bitmap, mmc/MMC_TASK_DISPLAY_BITMAP
-ms.topic: struct
 f1_keywords:
 - mmc/MMC_TASK_DISPLAY_BITMAP
 dev_langs:

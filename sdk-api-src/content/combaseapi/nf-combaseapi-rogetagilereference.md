@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: D16224C7-1BB7-46F5-B66C-54D0B9679006
 ms.date: 12/05/2018
 ms.keywords: RoGetAgileReference, RoGetAgileReference function [Windows Runtime], combaseapi/RoGetAgileReference, winrt.rogetagilereference
-ms.topic: function
 f1_keywords:
 - combaseapi/RoGetAgileReference
 dev_langs:
@@ -160,7 +159,7 @@ Call the <b>RoGetAgileReference</b> function on an existing object to request an
 
 This is conceptually similar to the existing Global Interface Table (GIT). Rather than interacting with the GIT, an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iagilereference">IAgileReference</a> is obtained and used to retrieve the object directly. Just as the GIT is per-process only, agile references are per-process and can't be marshaled.
 
-The agile reference feature provides a performance improvement over the GIT. The agile reference performs eager marshaling by default, which saves a cross-apartment call in cases where the object is retrieved from the agile reference in an apartment that's different from where the agile reference was created. For additional performance improvement, users of the <b>RoGetAgileReference</b> function can use the same interface to create an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iagilereference">IAgileReference</a> and resolve the original object. This saves an additional <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> call to obtain the desired interface from the resolved object.
+The agile reference feature provides a performance improvement over the GIT. The agile reference performs eager marshaling by default, which saves a cross-apartment call in cases where the object is retrieved from the agile reference in an apartment that's different from where the agile reference was created. For additional performance improvement, users of the <b>RoGetAgileReference</b> function can use the same interface to create an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iagilereference">IAgileReference</a> and resolve the original object. This saves an additional <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> call to obtain the desired interface from the resolved object.
 
 For example, you have a non-agile object named CDemoExample, which implements the IDemo and IExample interfaces. Call the <b>RoGetAgileReference</b> function and pass the object, with IID_IDemo. You get back an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iagilereference">IAgileReference</a> interface pointer, which is agile, so you can pass it to a different apartment. In the other apartment, call the <a href="https://docs.microsoft.com/windows/desktop/WinRT/iagilereference-resolve">Resolve</a> method, with IID_IExample. You get back an IExample pointer that you can use within this apartment. This IExample pointer is an IExample proxy that's connected to the original CDemoExample object. The agile reference handles the complexity of operations like manually marshaling to a stream and unmarshaling on the other side of the apartment boundary.
 

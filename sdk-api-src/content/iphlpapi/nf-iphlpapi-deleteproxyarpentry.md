@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 26e08e4d-ac69-49f8-8a1a-1ba1a04d085c
 ms.date: 12/05/2018
 ms.keywords: DeleteProxyArpEntry, DeleteProxyArpEntry function [IP Helper], _iphlp_deleteproxyarpentry, iphlp.deleteproxyarpentry, iphlpapi/DeleteProxyArpEntry
-ms.topic: function
 f1_keywords:
 - iphlpapi/DeleteProxyArpEntry
 dev_langs:

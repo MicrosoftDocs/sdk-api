@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 2a29aee3-f11b-41e7-a871-3be3d5994409
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetOpacity method, IXpsOMVisual.SetOpacity, IXpsOMVisual::SetOpacity, SetOpacity, SetOpacity method [XPS Documents and Packaging], SetOpacity method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setopacity, xpsobjectmodel/IXpsOMVisual::SetOpacity
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.SetOpacity
 dev_langs:
@@ -115,7 +114,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

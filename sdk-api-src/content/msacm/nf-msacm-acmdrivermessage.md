@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: c4e1685e-54b5-4c33-b23c-c3ccc31afe48
 ms.date: 12/05/2018
 ms.keywords: _win32_acmDriverMessage, acmDriverMessage, acmDriverMessage function [Windows Multimedia], msacm/acmDriverMessage, multimedia.acmdrivermessage
-ms.topic: function
 f1_keywords:
 - msacm/acmDriverMessage
 dev_langs:

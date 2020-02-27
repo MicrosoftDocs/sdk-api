@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c04c736c-8efe-438b-9d21-8b6ad53d36e7
 ms.date: 12/05/2018
 ms.keywords: CoGetMarshalSizeMax, CoGetMarshalSizeMax function [COM], _com_CoGetMarshalSizeMax, com.cogetmarshalsizemax, combaseapi/CoGetMarshalSizeMax
-ms.topic: function
 f1_keywords:
 - combaseapi/CoGetMarshalSizeMax
 dev_langs:

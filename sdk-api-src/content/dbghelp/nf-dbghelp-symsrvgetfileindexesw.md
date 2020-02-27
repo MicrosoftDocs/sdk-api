@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 9a6c6949-1ba2-4ed9-a038-68c57560454a
 ms.date: 12/05/2018
 ms.keywords: SymSrvGetFileIndexes, SymSrvGetFileIndexes function, SymSrvGetFileIndexesW, base.symsrvgetfileindexes, dbghelp/SymSrvGetFileIndexes, dbghelp/SymSrvGetFileIndexesW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymSrvGetFileIndexes
 dev_langs:

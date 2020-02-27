@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 00726271-4436-41f5-b7cc-666cd77216bc
 ms.date: 12/05/2018
 ms.keywords: RegisterDragDrop, RegisterDragDrop function [COM], _ole_RegisterDragDrop, com.registerdragdrop, ole2/RegisterDragDrop
-ms.topic: function
 f1_keywords:
 - ole2/RegisterDragDrop
 dev_langs:

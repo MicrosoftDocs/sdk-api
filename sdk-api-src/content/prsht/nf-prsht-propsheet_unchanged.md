@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_unchanged.htm
 ms.date: 12/05/2018
 ms.keywords: PropSheet_UnChanged, PropSheet_UnChanged macro [Windows Controls], _win32_PropSheet_UnChanged, _win32_PropSheet_UnChanged_cpp, controls.PropSheet_UnChanged, controls._win32_PropSheet_UnChanged, prsht/PropSheet_UnChanged
-ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_UnChanged
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: bfc5889d-ab1d-4dbe-af11-625ee5e8c95f
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocumentSequence interface [XPS Documents and Packaging],SetPrintTicketResource method, IXpsOMDocumentSequence.SetPrintTicketResource, IXpsOMDocumentSequence::SetPrintTicketResource, SetPrintTicketResource, SetPrintTicketResource method [XPS Documents and Packaging], SetPrintTicketResource method [XPS Documents and Packaging],IXpsOMDocumentSequence interface, xps.ixpsomdocumentsequence_setprintticketresource, xpsobjectmodel/IXpsOMDocumentSequence::SetPrintTicketResource
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDocumentSequence.SetPrintTicketResource
 dev_langs:
@@ -91,7 +90,7 @@ If the document contains an <a href="https://docs.microsoft.com/windows/desktop/
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

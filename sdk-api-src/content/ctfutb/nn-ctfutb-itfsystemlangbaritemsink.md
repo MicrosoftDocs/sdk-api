@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: a88b20ec-fc54-4814-9ca1-131664b4f377
 ms.date: 12/05/2018
 ms.keywords: ITfSystemLangBarItemSink, ITfSystemLangBarItemSink interface [Text Services Framework], ITfSystemLangBarItemSink interface [Text Services Framework],described, _tsf_itfsystemlangbaritemsink_ref, ctfutb/ITfSystemLangBarItemSink, tsf.itfsystemlangbaritemsink
-ms.topic: interface
 f1_keywords:
 - ctfutb/ITfSystemLangBarItemSink
 dev_langs:

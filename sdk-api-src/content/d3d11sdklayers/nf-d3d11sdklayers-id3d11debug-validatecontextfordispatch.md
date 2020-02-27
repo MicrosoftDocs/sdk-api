@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 0ddabb4f-eeed-46d4-a1d2-501180edffe0
 ms.date: 12/05/2018
 ms.keywords: ID3D11Debug interface [Direct3D 11],ValidateContextForDispatch method, ID3D11Debug.ValidateContextForDispatch, ID3D11Debug::ValidateContextForDispatch, ValidateContextForDispatch, ValidateContextForDispatch method [Direct3D 11], ValidateContextForDispatch method [Direct3D 11],ID3D11Debug interface, d3d11sdklayers/ID3D11Debug::ValidateContextForDispatch, direct3d11.id3d11debug_validatecontextfordispatch
-ms.topic: method
 f1_keywords:
 - d3d11sdklayers/ID3D11Debug.ValidateContextForDispatch
 dev_langs:

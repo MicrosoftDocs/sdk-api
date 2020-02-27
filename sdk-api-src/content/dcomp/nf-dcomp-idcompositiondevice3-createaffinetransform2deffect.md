@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: E7421DD7-0E7D-4DDC-A6CD-807BF8638E5B
 ms.date: 12/05/2018
 ms.keywords: CreateAffineTransform2DEffect, CreateAffineTransform2DEffect method [DirectComposition], CreateAffineTransform2DEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateAffineTransform2DEffect method, IDCompositionDevice3.CreateAffineTransform2DEffect, IDCompositionDevice3::CreateAffineTransform2DEffect, dcomp/IDCompositionDevice3::CreateAffineTransform2DEffect, directcomp.idcompositiondevice3_createaffinetransform2deffect
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionDevice3.CreateAffineTransform2DEffect
 dev_langs:

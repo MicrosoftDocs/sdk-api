@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 78E8B986-ABA2-47A3-AED2-97A84C10C80A
 ms.date: 12/05/2018
 ms.keywords: IWebBrowser2 interface [Windows API],TheaterMode property, IWebBrowser2.TheaterMode, IWebBrowser2.get_TheaterMode, IWebBrowser2.put_TheaterMode, IWebBrowser2::TheaterMode, IWebBrowser2::get_TheaterMode, IWebBrowser2::put_TheaterMode, TheaterMode property [Windows API], TheaterMode property [Windows API],IWebBrowser2 interface, VARIANT_FALSE, VARIANT_TRUE, exdisp/IWebBrowser2::TheaterMode, exdisp/IWebBrowser2::get_TheaterMode, exdisp/IWebBrowser2::put_TheaterMode, get_TheaterMode, winprog.iwebbrowser2_theatermode
-ms.topic: method
 f1_keywords:
 - exdisp/IWebBrowser2.TheaterMode
 dev_langs:

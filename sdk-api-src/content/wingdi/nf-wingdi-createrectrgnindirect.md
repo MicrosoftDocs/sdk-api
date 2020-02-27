@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: f32e0b94-ce9c-4098-81fe-b239a9544621
 ms.date: 12/05/2018
 ms.keywords: CreateRectRgnIndirect, CreateRectRgnIndirect function [Windows GDI], _win32_CreateRectRgnIndirect, gdi.createrectrgnindirect, wingdi/CreateRectRgnIndirect
-ms.topic: function
 f1_keywords:
 - wingdi/CreateRectRgnIndirect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d0ee35f7-c23e-450b-8b90-0fb5744263fd
 ms.date: 12/05/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetClientGuid method, IAttachmentExecute.SetClientGuid, IAttachmentExecute::SetClientGuid, SetClientGuid, SetClientGuid method [Windows Shell], SetClientGuid method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetClientGuid, shell.IAttachmentExecute_SetClientGuid, shobjidl_core/IAttachmentExecute::SetClientGuid
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IAttachmentExecute.SetClientGuid
 dev_langs:

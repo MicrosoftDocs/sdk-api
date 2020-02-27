@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: BD687853-6242-4A72-BACE-13B681FD4674
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceContextTableForHostName, GetInterfaceContextTableForHostName function [Network Awareness], nla.getinterfacecontexttableforhostname, ondemandconnroutehelper/GetInterfaceContextTableForHostName
-ms.topic: function
 f1_keywords:
 - ondemandconnroutehelper/GetInterfaceContextTableForHostName
 dev_langs:

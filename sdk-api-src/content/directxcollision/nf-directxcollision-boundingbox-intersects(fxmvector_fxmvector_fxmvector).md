@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.Intersects(XMVECTOR,XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: BoundingBox interface [DirectX Math Support APIs],Intersects method, BoundingBox.Intersects, BoundingBox.Intersects(FXMVECTOR,FXMVECTOR,FXMVECTOR), BoundingBox.Intersects(XMVECTOR,XMVECTOR,XMVECTOR), BoundingBox::Intersects, BoundingBox::Intersects(FXMVECTOR,FXMVECTOR,FXMVECTOR), Intersects, Intersects method [DirectX Math Support APIs], Intersects method [DirectX Math Support APIs],BoundingBox interface, dxmath.boundingbox_intersects_3
-ms.topic: method
 f1_keywords:
 - directxcollision/BoundingBox.Intersects
 dev_langs:

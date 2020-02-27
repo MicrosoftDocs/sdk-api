@@ -7,7 +7,6 @@ tech.root: Input_IntContext
 ms.assetid: 52bbeae9-70ab-403c-a035-de2acc2e0599
 ms.date: 12/05/2018
 ms.keywords: ProcessBufferedPacketsInteractionContext, ProcessBufferedPacketsInteractionContext function, input_intcontext.processbufferedpacketsinteractioncontext, interactioncontext.processbufferedpacketsinteractioncontext, interactioncontext/ProcessBufferedPacketsInteractionContext
-ms.topic: function
 f1_keywords:
 - interactioncontext/ProcessBufferedPacketsInteractionContext
 dev_langs:

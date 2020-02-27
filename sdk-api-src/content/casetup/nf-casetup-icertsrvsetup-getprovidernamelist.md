@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: a0915981-8023-4ce8-a870-7acc75c574ac
 ms.date: 12/05/2018
 ms.keywords: GetProviderNameList, GetProviderNameList method [Security], GetProviderNameList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetProviderNameList method, ICertSrvSetup.GetProviderNameList, ICertSrvSetup::GetProviderNameList, casetup/ICertSrvSetup::GetProviderNameList, security.icertsrvsetup_getprovidernamelist
-ms.topic: method
 f1_keywords:
 - casetup/ICertSrvSetup.GetProviderNameList
 dev_langs:

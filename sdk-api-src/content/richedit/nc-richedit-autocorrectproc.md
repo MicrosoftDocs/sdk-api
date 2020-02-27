@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 36EF880D-F6A9-434A-820B-17E663357573
 ms.date: 12/05/2018
 ms.keywords: AutoCorrectProc, AutoCorrectProc callback, AutoCorrectProc callback function [Windows Controls], controls.autocorrectproc, richedit/AutoCorrectProc
-ms.topic: callback
 f1_keywords:
 - richedit/AutoCorrectProc
 dev_langs:

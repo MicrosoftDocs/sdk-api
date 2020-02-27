@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1a4c183b-97cf-4c9a-af5a-bcea7c2755a5
 ms.date: 12/05/2018
 ms.keywords: IContextMenuCB, IContextMenuCB interface [Windows Shell], IContextMenuCB interface [Windows Shell],described, _shell_IContextMenuCB, shell.IContextMenuCB, shobjidl_core/IContextMenuCB
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IContextMenuCB
 dev_langs:

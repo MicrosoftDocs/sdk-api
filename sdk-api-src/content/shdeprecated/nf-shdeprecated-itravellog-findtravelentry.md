@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 128627f3-c010-4b8e-b067-fdc1eed346e4
 ms.date: 12/05/2018
 ms.keywords: FindTravelEntry, FindTravelEntry method [Windows Shell], FindTravelEntry method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],FindTravelEntry method, ITravelLog.FindTravelEntry, ITravelLog::FindTravelEntry, shdeprecated/ITravelLog::FindTravelEntry, shell.ITravelLog_FindTravelEntry, zone_ITravelLog_FindTravelEntry
-ms.topic: method
 f1_keywords:
 - shdeprecated/ITravelLog.FindTravelEntry
 dev_langs:

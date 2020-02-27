@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 34CA6EA3-DF74-4DB5-8DD0-2B0BB0162F9D
 ms.date: 12/05/2018
 ms.keywords: '*PPERF_COUNTER_REG_INFO, PERF_100NSEC_MULTI_TIMER, PERF_100NSEC_MULTI_TIMER_II, PERF_100NSEC_TIMER, PERF_100NSEC_TIMER_INV, PERF_AGGREGATE_AVG, PERF_AGGREGATE_MAX, PERF_AGGREGATE_MIN, PERF_AGGREGATE_TOTAL, PERF_AGGREGATE_UNDEFINED, PERF_ATTRIB_BY_REFERENCE, PERF_ATTRIB_DISPLAY_AS_HEX, PERF_ATTRIB_DISPLAY_AS_REAL, PERF_ATTRIB_NO_DISPLAYABLE, PERF_ATTRIB_NO_GROUP_SEPARATOR, PERF_AVERAGE_BASE, PERF_AVERAGE_BULK, PERF_AVERAGE_TIMER, PERF_COUNTER_100NS_QUEUELEN_TYPE, PERF_COUNTER_BULK_COUNT, PERF_COUNTER_COUNTER, PERF_COUNTER_DELTA, PERF_COUNTER_LARGE_DELTA, PERF_COUNTER_LARGE_QUEUELEN_TYPE, PERF_COUNTER_LARGE_RAWCOUNT, PERF_COUNTER_LARGE_RAWCOUNT_HEX, PERF_COUNTER_MULTI_TIMER, PERF_COUNTER_MULTI_TIMER_INV, PERF_COUNTER_OBJ_QUEUELEN_TYPE, PERF_COUNTER_RAWCOUNT, PERF_COUNTER_RAWCOUNT_HEX, PERF_COUNTER_REG_INFO, PERF_COUNTER_REG_INFO structure [Perf], PERF_COUNTER_TEXT, PERF_COUNTER_TIMER, PERF_COUNTER_TIMER_INV, PERF_DETAIL_ADVANCED, PERF_DETAIL_NOVICE, PERF_ELAPSED_TIME, PERF_LARGE_RAW_BASE, PERF_OBJ_TIME_TIMER, PERF_PRECISION_100NS_TIMER, PERF_PRECISION_OBJECT_TIMER, PERF_PRECISION_TIMER, PERF_RAW_BASE, PERF_RAW_FRACTION, PERF_SAMPLE_COUNTER, PERF_SAMPLE_FRACTION, PPERF_COUNTER_REG_INFO, PPERF_COUNTER_REG_INFO structure pointer [Perf], perf.perf_counter_reg_info, perflib/PERF_COUNTER_REG_INFO, perflib/PPERF_COUNTER_REG_INFO'
-ms.topic: struct
 f1_keywords:
 - perflib/PERF_COUNTER_REG_INFO
 dev_langs:
@@ -66,7 +65,7 @@ A unique identifier for the performance counter within the counter set. A counte
 
 ### -field Type
 
-The type of the performance counter. For information about the predefined counter types, see the Counter Types section of the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84422">Windows Server 2003 Deployment Kit</a>. Consumers use the counter type to determine how to calculate and display the counter value. Providers should limit their choice of counter types to the predefined list. 
+The type of the performance counter. For information about the predefined counter types, see the Counter Types section of the <a href="https://technet.microsoft.com/library/3fb01419-b1ab-4f52-a9f8-09d5ebeb9ef2">Windows Server 2003 Deployment Kit</a>. Consumers use the counter type to determine how to calculate and display the counter value. Providers should limit their choice of counter types to the predefined list. 
 					
 
 

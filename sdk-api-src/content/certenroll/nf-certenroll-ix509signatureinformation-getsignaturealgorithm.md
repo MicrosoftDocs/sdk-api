@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: e5b43e74-d802-43ff-bdf2-96ab475c31e7
 ms.date: 12/05/2018
 ms.keywords: GetSignatureAlgorithm, GetSignatureAlgorithm method [Security], GetSignatureAlgorithm method [Security],IX509SignatureInformation interface, IX509SignatureInformation interface [Security],GetSignatureAlgorithm method, IX509SignatureInformation.GetSignatureAlgorithm, IX509SignatureInformation::GetSignatureAlgorithm, certenroll/IX509SignatureInformation::GetSignatureAlgorithm, security.ix509signatureinformation_getsignaturealgorithm_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509SignatureInformation.GetSignatureAlgorithm
 dev_langs:

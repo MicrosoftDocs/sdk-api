@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: eee267b4-4272-4938-b061-02990ec528f2
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY, PRESUTIL_GET_RESOURCE_DEPENDENCY function [Failover Cluster], ResUtilGetResourceDependency, ResUtilGetResourceDependency function [Failover Cluster], _wolf_resutilgetresourcedependency, mscs.resutilgetresourcedependency, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY, resapi/ResUtilGetResourceDependency
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilGetResourceDependency
 dev_langs:

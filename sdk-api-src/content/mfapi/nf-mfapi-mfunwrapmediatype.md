@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 2cb6a5ae-315f-4de2-8817-da9d41db14b8
 ms.date: 12/05/2018
 ms.keywords: 2cb6a5ae-315f-4de2-8817-da9d41db14b8, MFUnwrapMediaType, MFUnwrapMediaType function [Media Foundation], mf.mfunwrapmediatype, mfapi/MFUnwrapMediaType
-ms.topic: function
 f1_keywords:
 - mfapi/MFUnwrapMediaType
 dev_langs:

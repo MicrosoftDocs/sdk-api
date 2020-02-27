@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6ea5c9a0-b04c-41a6-83ed-48ea9d187da7
 ms.date: 12/05/2018
 ms.keywords: GetCurrRating, GetCurrRating method [Microsoft TV Technologies], GetCurrRating method [Microsoft TV Technologies],IDTFilter interface, IDTFilter interface [Microsoft TV Technologies],GetCurrRating method, IDTFilter.GetCurrRating, IDTFilter::GetCurrRating, IDTFilterGetCurrRating, encdec/IDTFilter::GetCurrRating, mstv.idtfilter_getcurrrating
-ms.topic: method
 f1_keywords:
 - encdec/IDTFilter.GetCurrRating
 dev_langs:

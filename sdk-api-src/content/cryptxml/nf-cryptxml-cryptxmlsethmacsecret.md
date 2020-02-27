@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 3e7d0280-c10e-4328-b7f7-208ea5a4285c
 ms.date: 12/05/2018
 ms.keywords: CryptXmlSetHMACSecret, CryptXmlSetHMACSecret function [Security], cryptxml/CryptXmlSetHMACSecret, security.cryptxmlsethmacsecret
-ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlSetHMACSecret
 dev_langs:

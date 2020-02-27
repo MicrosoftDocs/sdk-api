@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 785a9702-8b77-4ce1-99df-143ce78490ab
 ms.date: 12/05/2018
 ms.keywords: '*PSYMBOL_INFOW, PSYMBOL_INFO, PSYMBOL_INFO structure pointer, SYMBOL_INFO, SYMBOL_INFO structure, SYMBOL_INFOW, SYMFLAG_CLR_TOKEN, SYMFLAG_CONSTANT, SYMFLAG_EXPORT, SYMFLAG_FORWARDER, SYMFLAG_FRAMEREL, SYMFLAG_FUNCTION, SYMFLAG_ILREL, SYMFLAG_LOCAL, SYMFLAG_METADATA, SYMFLAG_PARAMETER, SYMFLAG_REGISTER, SYMFLAG_REGREL, SYMFLAG_SLOT, SYMFLAG_THUNK, SYMFLAG_TLSREL, SYMFLAG_VALUEPRESENT, SYMFLAG_VIRTUAL, _SYMBOL_INFO, _SYMBOL_INFOW, _win32_symbol_info_str, base.symbol_info_str, dbghelp/PSYMBOL_INFO, dbghelp/SYMBOL_INFO, dbghelp/SYMBOL_INFOW'
-ms.topic: struct
 f1_keywords:
 - dbghelp/SYMBOL_INFO
 dev_langs:
@@ -323,7 +322,7 @@ and countries.)
 
 ### -field Tag
 
-The PDB classification. These values are defined in Dbghelp.h in the <a href="http://go.microsoft.com/fwlink/p/?linkid=207077">SymTagEnum</a> enumeration type.
+The PDB classification. These values are defined in Dbghelp.h in the <a href="https://msdn.microsoft.com/library/bkedss5f(v=VS.100).aspx">SymTagEnum</a> enumeration type.
 
 
 ### -field NameLen

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 18003d9f-4202-4bea-9580-bbf8fcdbca8f
 ms.date: 12/05/2018
 ms.keywords: TypeTraits, TypeTraits structure [Direct2D], TypeTraits<Type>, d2d1helper/TypeTraits, direct2d.typetraits_t_
-ms.topic: struct
 f1_keywords:
 - d2d1helper/TypeTraits
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 84253cbe-a30e-4def-b268-0f5f1b7d54dc
 ms.date: 12/05/2018
 ms.keywords: ITfUIElement interface [Text Services Framework],IsShown method, ITfUIElement.IsShown, ITfUIElement::IsShown, IsShown, IsShown method [Text Services Framework], IsShown method [Text Services Framework],ITfUIElement interface, msctf/ITfUIElement::IsShown, tsf.itfuielement_isshown
-ms.topic: method
 f1_keywords:
 - msctf/ITfUIElement.IsShown
 dev_langs:

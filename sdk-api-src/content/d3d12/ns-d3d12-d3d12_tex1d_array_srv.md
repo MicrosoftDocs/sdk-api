@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 12931858-3E3C-4D4E-9459-7C15A73A485B
 ms.date: 12/05/2018
 ms.keywords: D3D12_TEX1D_ARRAY_SRV, D3D12_TEX1D_ARRAY_SRV structure, d3d12/D3D12_TEX1D_ARRAY_SRV, direct3d12.d3d12_tex1d_array_srv
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_TEX1D_ARRAY_SRV
 dev_langs:

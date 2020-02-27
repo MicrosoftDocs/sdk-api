@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 71d6bae2-3ee4-417c-8c1b-d277cad03f36
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_parse_sort_control, ldap.ldap__parse__sort__control, ldap.ldap_parse_sort_control, ldap_parse_sort_control, ldap_parse_sort_control function [LDAP], ldap_parse_sort_controlA, ldap_parse_sort_controlW, winldap/ldap_parse_sort_control, winldap/ldap_parse_sort_controlA, winldap/ldap_parse_sort_controlW
-ms.topic: function
 f1_keywords:
 - winldap/ldap_parse_sort_control
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 8c40ce33-2077-4e7b-8a1c-c080e82df078
 ms.date: 12/05/2018
 ms.keywords: GetStreamAttribute, GetStreamAttribute method [Media Foundation], GetStreamAttribute method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetStreamAttribute method, IMFPMediaItem.GetStreamAttribute, IMFPMediaItem::GetStreamAttribute, mf.imfpmediaitem_getstreamattribute, mfplay/IMFPMediaItem::GetStreamAttribute
-ms.topic: method
 f1_keywords:
 - mfplay/IMFPMediaItem.GetStreamAttribute
 dev_langs:

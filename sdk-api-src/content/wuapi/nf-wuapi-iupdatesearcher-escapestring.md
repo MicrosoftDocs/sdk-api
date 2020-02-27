@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 27d510da-3d0c-4a8a-89c9-4abc009489b4
 ms.date: 12/05/2018
 ms.keywords: EscapeString, EscapeString method [Windows Update Agent], EscapeString method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],EscapeString method, IUpdateSearcher.EscapeString, IUpdateSearcher::EscapeString, wua.iupdatesearcherescapestring, wuapi/IUpdateSearcher::EscapeString
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateSearcher.EscapeString
 dev_langs:

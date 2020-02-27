@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: 48c566e1-981f-4173-ad5b-a7b1b7c35d06
 ms.date: 12/05/2018
 ms.keywords: GetMethodParameterAttributes, GetMethodParameterAttributes method [Windows Portable Devices SDK], GetMethodParameterAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetMethodParameterAttributes method, IPortableDeviceServiceCapabilities.GetMethodParameterAttributes, IPortableDeviceServiceCapabilities::GetMethodParameterAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetMethodParameterAttributes, wpdsdk.iportabledeviceservicecapabilities_getmethodparameterattributes
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDeviceServiceCapabilities.GetMethodParameterAttributes
 dev_langs:

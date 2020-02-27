@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: e4bcd797-5a1a-45b9-a4f2-387ea1df7c2f
 ms.date: 12/05/2018
 ms.keywords: FilterVolumeInstanceFindNext, FilterVolumeInstanceFindNext function [Installable File System Drivers], FltWin32ApiRef_646e3187-31a8-42fb-b8a6-bca598605660.xml, fltuser/FilterVolumeInstanceFindNext, ifsk.filtervolumeinstancefindnext
-ms.topic: function
 f1_keywords:
 - fltuser/FilterVolumeInstanceFindNext
 dev_langs:

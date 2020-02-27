@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a3779a8d-fe78-4f9b-af6c-7a25e0f07a86
 ms.date: 12/05/2018
 ms.keywords: IResourceManager interface [DirectShow],NotifyRelease method, IResourceManager.NotifyRelease, IResourceManager::NotifyRelease, IResourceManagerNotifyRelease, NotifyRelease, NotifyRelease method [DirectShow], NotifyRelease method [DirectShow],IResourceManager interface, dshow.iresourcemanager_notifyrelease, strmif/IResourceManager::NotifyRelease
-ms.topic: method
 f1_keywords:
 - strmif/IResourceManager.NotifyRelease
 dev_langs:

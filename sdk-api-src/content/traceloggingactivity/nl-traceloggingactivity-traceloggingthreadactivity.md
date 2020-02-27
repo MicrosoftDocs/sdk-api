@@ -7,7 +7,6 @@ tech.root: tracelogging
 ms.assetid: 7666A28B-42B2-473F-852F-BD3F6CAA6AC7
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingThreadActivity, TraceLoggingThreadActivity class, TraceLoggingThreadActivity class,described, tracelogging.traceloggingthreadactivity, traceloggingactivity/TraceLoggingThreadActivity
-ms.topic: class
 f1_keywords:
 - traceloggingactivity/TraceLoggingThreadActivity
 dev_langs:

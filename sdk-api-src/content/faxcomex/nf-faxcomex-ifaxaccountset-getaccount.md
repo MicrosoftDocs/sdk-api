@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountset\getaccount.htm
 ms.date: 12/05/2018
 ms.keywords: GetAccount, GetAccount method [Fax Service], GetAccount method [Fax Service],IFaxAccountSet interface, IFaxAccountSet interface [Fax Service],GetAccount method, IFaxAccountSet.GetAccount, IFaxAccountSet::GetAccount, _mfax_faxaccountset.getaccount, fax._mfax_faxaccountset_cpp_mfax_faxaccountset_getaccount_cpp, fax._mfax_faxaccountset_getaccount, faxcomex/IFaxAccountSet::GetAccount
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxAccountSet.GetAccount
 dev_langs:

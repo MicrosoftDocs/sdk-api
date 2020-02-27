@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 339ac9d2-60bc-4a90-8a46-6fbb073be9d1
 ms.date: 12/05/2018
 ms.keywords: FNFCIALLOC, FNFCIALLOC macro [Windows API], fci/FNFCIALLOC, winprog.fnfcialloc
-ms.topic: macro
 f1_keywords:
 - fci/FNFCIALLOC
 dev_langs:
@@ -67,7 +66,7 @@ The number of bytes to allocate.
 
 
 
-The function accepts parameters similar to <a href="http://go.microsoft.com/fwlink/p/?linkid=196540">malloc</a>.
+The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/6ewkz86d(VS.80).aspx">malloc</a>.
 
 
 #### Examples

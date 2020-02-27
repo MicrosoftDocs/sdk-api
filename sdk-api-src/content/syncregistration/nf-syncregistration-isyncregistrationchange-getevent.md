@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 7c96c6ad-13ca-4e00-8e6e-61898206001f
 ms.date: 12/05/2018
 ms.keywords: GetEvent, GetEvent method [Windows Sync], GetEvent method [Windows Sync],ISyncRegistrationChange interface, ISyncRegistrationChange interface [Windows Sync],GetEvent method, ISyncRegistrationChange.GetEvent, ISyncRegistrationChange::GetEvent, syncregistration/ISyncRegistrationChange::GetEvent, winsync.isyncregistrationchange_getevent
-ms.topic: method
 f1_keywords:
 - syncregistration/ISyncRegistrationChange.GetEvent
 dev_langs:

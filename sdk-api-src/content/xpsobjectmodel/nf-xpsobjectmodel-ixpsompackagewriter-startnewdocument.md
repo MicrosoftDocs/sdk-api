@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: da5fdbcd-ff3c-403a-a565-1590908cf333
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackageWriter interface [XPS Documents and Packaging],StartNewDocument method, IXpsOMPackageWriter.StartNewDocument, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],StartNewDocument method, IXpsOMPackageWriter3D::StartNewDocument, IXpsOMPackageWriter::StartNewDocument, StartNewDocument, StartNewDocument method [XPS Documents and Packaging], StartNewDocument method [XPS Documents and Packaging],IXpsOMPackageWriter interface, StartNewDocument method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, xps.ixpsompackagewriter_startnewdocument, xpsobjectmodel/IXpsOMPackageWriter3D::StartNewDocument, xpsobjectmodel/IXpsOMPackageWriter::StartNewDocument
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPackageWriter.StartNewDocument
 dev_langs:
@@ -194,7 +193,7 @@ If <i>documentPrintTicket</i> contains a <b>NULL</b> pointer and the package wri
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

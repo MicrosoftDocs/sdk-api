@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 20b9243d-1f20-4092-951a-fbacb2d55481
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionManager, IMbnConnectionManager interface [Microsoft Broadband Networks], IMbnConnectionManager interface [Microsoft Broadband Networks],described, mbn.imbnconnectionmanager, mbnapi/IMbnConnectionManager
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnConnectionManager
 dev_langs:
@@ -122,16 +121,16 @@ An application can obtain this interface by calling <a href="https://docs.micros
 The following procedure describes how to register for notifications.
 
 <ol>
-<li>Get an <a href="http://go.microsoft.com/fwlink/p/?linkid=109916">IConnectionPointContainer</a>  interface by calling <b>QueryInterface</b> on an <b>IMbnConnectionManager</b> object.</li>
+<li>Get an <a href="https://msdn.microsoft.com/library/ms683857(VS.85).aspx">IConnectionPointContainer</a>  interface by calling <b>QueryInterface</b> on an <b>IMbnConnectionManager</b> object.</li>
 <li>
-For each notification sink to register, call <a href="http://go.microsoft.com/fwlink/p/?linkid=109922">FindConnectionPoint</a> on the returned interface and pass IID corresponding to the notification sink to <i>riid</i>.
+For each notification sink to register, call <a href="https://msdn.microsoft.com/library/ms692476(VS.85).aspx">FindConnectionPoint</a> on the returned interface and pass IID corresponding to the notification sink to <i>riid</i>.
 
 </li>
-<li>For each connection point returned by step 2, call <a href="http://go.microsoft.com/fwlink/p/?linkid=109923">Advise</a> on the returned connection point and pass a pointer to an <b>IUnknown</b> interface on an object that implements the matching notification interface to <i>pUnk</i>.</li>
+<li>For each connection point returned by step 2, call <a href="https://msdn.microsoft.com/library/ms678815(VS.85).aspx">Advise</a> on the returned connection point and pass a pointer to an <b>IUnknown</b> interface on an object that implements the matching notification interface to <i>pUnk</i>.</li>
 </ol>
-Notifications can be terminated by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=109924">Unadvise</a> on the connection point returned in step 2.
+Notifications can be terminated by calling <a href="https://msdn.microsoft.com/library/ms686608(VS.85).aspx">Unadvise</a> on the connection point returned in step 2.
 
-To view some code that registers for COM notifications, see the "Client" section of the <a href="http://go.microsoft.com/fwlink/p/?linkid=109917">COM Connection Points</a> article.
+To view some code that registers for COM notifications, see the "Client" section of the <a href="https://docs.microsoft.com/en-us/archive/msdn-magazine/2007/september/clr-inside-out-com-connection-points">COM Connection Points</a> article.
 
 
 

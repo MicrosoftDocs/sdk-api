@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 4d58921c-a3ec-44f3-b077-528db6b1211c
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_OBJECTID_BUFFER, FILE_OBJECTID_BUFFER, FILE_OBJECTID_BUFFER structure [Files], PFILE_OBJECTID_BUFFER, PFILE_OBJECTID_BUFFER structure pointer [Files], _win32_file_objectid_buffer_str, base.file_objectid_buffer_str, fs.file_objectid_buffer_str, winioctl/FILE_OBJECTID_BUFFER, winioctl/PFILE_OBJECTID_BUFFER'
-ms.topic: struct
 f1_keywords:
 - winioctl/FILE_OBJECTID_BUFFER
 dev_langs:

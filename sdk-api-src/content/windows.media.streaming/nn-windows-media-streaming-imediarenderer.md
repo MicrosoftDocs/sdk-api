@@ -7,7 +7,6 @@ tech.root: mediastreaming
 ms.assetid: FBA5BF5A-FA5A-4E25-8F2B-9D1C0A9BCACB
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], IMediaRenderer interface [Media Streaming API],described, mediastreaming.imediarenderer, windows/IMediaRenderer
-ms.topic: interface
 f1_keywords:
 - windows.media.streaming/IMediaRenderer
 dev_langs:

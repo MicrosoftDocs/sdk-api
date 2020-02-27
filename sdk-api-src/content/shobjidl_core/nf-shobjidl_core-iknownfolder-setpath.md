@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 235f69de-3571-4184-aa52-b409fbc1d643
 ms.date: 12/05/2018
 ms.keywords: IKnownFolder interface [Windows Shell],SetPath method, IKnownFolder.SetPath, IKnownFolder::SetPath, KF_FLAG_DONT_UNEXPAND, SetPath, SetPath method [Windows Shell], SetPath method [Windows Shell],IKnownFolder interface, _shell_IKnownFolder_SetPath, shell.IKnownFolder_SetPath, shobjidl_core/IKnownFolder::SetPath
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IKnownFolder.SetPath
 dev_langs:

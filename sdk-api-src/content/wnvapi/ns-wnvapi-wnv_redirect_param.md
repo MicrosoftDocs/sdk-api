@@ -7,7 +7,6 @@ tech.root: wnv
 ms.assetid: 53305594-4539-490E-B034-99355265F175
 ms.date: 12/05/2018
 ms.keywords: '*PWNV_REDIRECT_PARAM, PWNV_REDIRECT_PARAM, PWNV_REDIRECT_PARAM structure pointer [Windows Network Virtualization], WNV_REDIRECT_PARAM, WNV_REDIRECT_PARAM structure [Windows Network Virtualization], wnv.wnv_redirect_param, wnvapi/PWNV_REDIRECT_PARAM, wnvapi/WNV_REDIRECT_PARAM'
-ms.topic: struct
 f1_keywords:
 - wnvapi/WNV_REDIRECT_PARAM
 dev_langs:
@@ -115,7 +114,7 @@ The updated provider address when a virtual machine is migrated from one host to
 Hyper-V Network Virtualization uses an Internet Control Message Protocol
 (ICMP) redirect message to indicate a change in the virtual machine's provider address in the case of a live migration of a virtual machine.
 
-For a detailed description of network virtualization concepts and terminology, refer to <a href="http://go.microsoft.com/fwlink/p/?linkid=263545">Hyper-V Network Virtualization Overview</a>.
+For a detailed description of network virtualization concepts and terminology, refer to <a href="https://technet.microsoft.com/library/jj134230(l=en-us,v=WS.11).aspx">Hyper-V Network Virtualization Overview</a>.
 
 
 

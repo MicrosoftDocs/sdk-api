@@ -7,7 +7,6 @@ tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\structures\magcoloreffectstruct.htm
 ms.date: 12/05/2018
 ms.keywords: '*PMAGCOLOREFFECT, MAGCOLOREFFECT, MAGCOLOREFFECT structure [Magnification API], PMAGCOLOREFFECT, PMAGCOLOREFFECT structure pointer [Magnification API], magapi.magapi_magcoloreffect, magapi_magcoloreffect, magnification/MAGCOLOREFFECT, magnification/PMAGCOLOREFFECT'
-ms.topic: struct
 f1_keywords:
 - magnification/MAGCOLOREFFECT
 dev_langs:

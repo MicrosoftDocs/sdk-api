@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: fd6d2066-5445-4e29-812f-7d52dc67d57a
 ms.date: 12/05/2018
 ms.keywords: IWMDMEnumDevice interface [windows Media Device Manager],Skip method, IWMDMEnumDevice.Skip, IWMDMEnumDevice::Skip, IWMDMEnumDeviceSkip, Skip, Skip method [windows Media Device Manager], Skip method [windows Media Device Manager],IWMDMEnumDevice interface, mswmdm/IWMDMEnumDevice::Skip, wmdm.iwmdmenumdevice_skip
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMEnumDevice.Skip
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c96e0e7c-eee3-47ca-9350-94db895f1c6c
 ms.date: 12/05/2018
 ms.keywords: GetAllSPRMs, GetAllSPRMs method [DirectShow], GetAllSPRMs method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetAllSPRMs method, IDvdInfo.GetAllSPRMs, IDvdInfo::GetAllSPRMs, IDvdInfoGetAllSPRMs, dshow.idvdinfo_getallsprms, strmif/IDvdInfo::GetAllSPRMs
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo.GetAllSPRMs
 dev_langs:
@@ -108,7 +107,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-Requested action is not supported on this domain (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
+Requested action is not supported on this domain (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
 
 </td>
 </tr>
@@ -133,7 +132,7 @@ Requested action cannot occur at this point in the movie due to the authoring of
 
 
 
-This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 For use of individual registers, see the DVD-Video specification.
 

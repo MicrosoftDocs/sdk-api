@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 576e3349-1da7-4f1e-9410-a72c30e22063
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestCmc2 interface [Security],InitializeFromTemplate method, IX509CertificateRequestCmc2.InitializeFromTemplate, IX509CertificateRequestCmc2::InitializeFromTemplate, InitializeFromTemplate, InitializeFromTemplate method [Security], InitializeFromTemplate method [Security],IX509CertificateRequestCmc2 interface, certenroll/IX509CertificateRequestCmc2::InitializeFromTemplate, security.ix509certificaterequestcmc2_initializefromtemplate
-ms.topic: method
 f1_keywords:
 - certenroll/IX509CertificateRequestCmc2.InitializeFromTemplate
 dev_langs:

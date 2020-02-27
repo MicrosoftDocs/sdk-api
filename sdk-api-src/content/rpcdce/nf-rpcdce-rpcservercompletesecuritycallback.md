@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 4DF613C7-CF82-47DB-9D6A-F820373534E6
 ms.date: 12/05/2018
 ms.keywords: RpcServerCompleteSecurityCallback, RpcServerCompleteSecurityCallback function [RPC], rpc.rpcservercompletesecuritycallback, rpcdce/RpcServerCompleteSecurityCallback
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcServerCompleteSecurityCallback
 dev_langs:

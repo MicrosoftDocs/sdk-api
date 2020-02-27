@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: c4672df5-9e47-45f5-9504-1ebb0bf3c6a6
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings, IAutomaticUpdatesSettings interface [Windows Update Agent], IAutomaticUpdatesSettings interface [Windows Update Agent],described, wua.iautomaticupdatessettings, wuapi/IAutomaticUpdatesSettings
-ms.topic: interface
 f1_keywords:
 - wuapi/IAutomaticUpdatesSettings
 dev_langs:

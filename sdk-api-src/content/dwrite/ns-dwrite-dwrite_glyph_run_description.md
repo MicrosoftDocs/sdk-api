@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 0fb25253-274a-42b7-8491-525d0550ce39
 ms.date: 12/05/2018
 ms.keywords: DWRITE_GLYPH_RUN_DESCRIPTION, DWRITE_GLYPH_RUN_DESCRIPTION structure [Direct Write], directwrite.dwrite_glyph_run_description, dwrite/DWRITE_GLYPH_RUN_DESCRIPTION
-ms.topic: struct
 f1_keywords:
 - dwrite/DWRITE_GLYPH_RUN_DESCRIPTION
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: ab347f39-e1f6-4cb2-85ff-bad872b5256f
 ms.date: 12/05/2018
 ms.keywords: MsiGetFeatureUsage, MsiGetFeatureUsage function, MsiGetFeatureUsageA, MsiGetFeatureUsageW, _msi_msigetfeatureusage, msi/MsiGetFeatureUsage, msi/MsiGetFeatureUsageA, msi/MsiGetFeatureUsageW, setup.msigetfeatureusage
-ms.topic: function
 f1_keywords:
 - msi/MsiGetFeatureUsage
 dev_langs:

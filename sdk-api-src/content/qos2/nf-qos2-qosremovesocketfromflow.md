@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: c67dc959-2511-4a95-87e4-1689f49c167a
 ms.date: 12/05/2018
 ms.keywords: QOSRemoveSocketFromFlow, QOSRemoveSocketFromFlow function [QOS], qos.qosremovesocketfromflow, qos2/QOSRemoveSocketFromFlow
-ms.topic: function
 f1_keywords:
 - qos2/QOSRemoveSocketFromFlow
 dev_langs:

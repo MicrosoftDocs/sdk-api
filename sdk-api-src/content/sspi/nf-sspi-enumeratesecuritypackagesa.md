@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 900790a6-111d-43f5-9316-e85aab03a3bc
 ms.date: 12/05/2018
 ms.keywords: EnumerateSecurityPackages, EnumerateSecurityPackages function [Security], EnumerateSecurityPackagesA, EnumerateSecurityPackagesW, _ssp_enumeratesecuritypackages, security.enumeratesecuritypackages, sspi/EnumerateSecurityPackages, sspi/EnumerateSecurityPackagesA, sspi/EnumerateSecurityPackagesW
-ms.topic: function
 f1_keywords:
 - sspi/EnumerateSecurityPackages
 dev_langs:

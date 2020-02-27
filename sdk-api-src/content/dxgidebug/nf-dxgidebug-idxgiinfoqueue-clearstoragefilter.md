@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 4CD81C2B-53F2-4046-A001-72CBFD5C04CA
 ms.date: 12/05/2018
 ms.keywords: ClearStorageFilter, ClearStorageFilter method [DXGI], ClearStorageFilter method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],ClearStorageFilter method, IDXGIInfoQueue.ClearStorageFilter, IDXGIInfoQueue::ClearStorageFilter, direct3ddxgi.idxgiinfoqueue_clearstoragefilter, dxgidebug/IDXGIInfoQueue::ClearStorageFilter
-ms.topic: method
 f1_keywords:
 - dxgidebug/IDXGIInfoQueue.ClearStorageFilter
 dev_langs:

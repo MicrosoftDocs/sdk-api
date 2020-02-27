@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 5653ED8A-36B1-488C-9D76-50D64BA78BA8
 ms.date: 12/05/2018
 ms.keywords: GetTrackById, GetTrackById method [Media Foundation], GetTrackById method [Media Foundation],IMFTimedTextTrackList interface, IMFTimedTextTrackList interface [Media Foundation],GetTrackById method, IMFTimedTextTrackList.GetTrackById, IMFTimedTextTrackList::GetTrackById, mf.imftimedtexttracklist_gettrackbyid, mfmediaengine/IMFTimedTextTrackList::GetTrackById
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextTrackList.GetTrackById
 dev_langs:

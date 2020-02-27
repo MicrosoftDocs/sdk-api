@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 7c1ec2a6-9880-4420-8d28-4374f1658bd9
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_Enabled method, IMSVidCtl.get_Enabled, IMSVidCtl::get_Enabled, IMSVidCtlget_Enabled, get_Enabled, get_Enabled method [Microsoft TV Technologies], get_Enabled method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_enabled, msvidctl/IMSVidCtl::get_Enabled
-ms.topic: method
 f1_keywords:
 - msvidctl/IMSVidCtl.get_Enabled
 dev_langs:

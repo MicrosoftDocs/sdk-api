@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 97a6e562-0423-438d-ab21-48c0f0830610
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextEnum1, FwpmProviderContextEnum1 function [Filtering], fwp.fwpmprovidercontextenum1_func, fwpmu/FwpmProviderContextEnum1
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmProviderContextEnum1
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 9F969C0C-93CA-4355-8556-2F43542570F1
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpv6GetVendorOptionValue, PxeDhcpv6GetVendorOptionValue function [Windows Deployment Services], wds.pxedhcpv6getvendoroptionvalue, wdspxe/PxeDhcpv6GetVendorOptionValue
-ms.topic: function
 f1_keywords:
 - wdspxe/PxeDhcpv6GetVendorOptionValue
 dev_langs:
@@ -74,7 +73,7 @@ Length of the packet pointed to by the <i>pReplyPacket</i> parameter.
 
 An Enterprise Number assigned to the vendor of the option by the Internet Assigned Numbers Authority (IANA).
 
-For more information about assigned Enterprise Numbers, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="Http://go.microsoft.com/fwlink/p/?linkid=132626">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
+For more information about assigned Enterprise Numbers, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="https://www.ietf.org/rfc/rfc3315.txt">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
 
 
 ### -param wOption [in]

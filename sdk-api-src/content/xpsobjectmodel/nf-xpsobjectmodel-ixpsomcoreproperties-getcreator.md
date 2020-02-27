@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 35d7a3ad-e1f7-49bf-ad30-d577cc9d4731
 ms.date: 12/05/2018
 ms.keywords: GetCreator, GetCreator method [XPS Documents and Packaging], GetCreator method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCreator method, IXpsOMCoreProperties.GetCreator, IXpsOMCoreProperties::GetCreator, xps.ixpsomcoreproperties_getcreator, xpsobjectmodel/IXpsOMCoreProperties::GetCreator
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.GetCreator
 dev_langs:
@@ -123,11 +122,11 @@ This method allocates the memory used by the string that is returned in <i>creat
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

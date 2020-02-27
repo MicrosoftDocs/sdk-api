@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: DF1DDB37-F16F-47FF-B6C1-8C545A827CCB
 ms.date: 12/05/2018
 ms.keywords: BITS_JOB_PROPERTY_VALUE, BITS_JOB_PROPERTY_VALUE union [BITS], bits.bits_job_property_value, bits.bits_job_property_value_union, bits5_0/BITS_JOB_PROPERTY_VALUE
-ms.topic: struct
 f1_keywords:
 - bits5_0/BITS_JOB_PROPERTY_VALUE
 dev_langs:

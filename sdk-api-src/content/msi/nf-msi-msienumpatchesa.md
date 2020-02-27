@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 8f15accf-1ff5-4aa3-8a8e-be0e339360d2
 ms.date: 12/05/2018
 ms.keywords: MsiEnumPatches, MsiEnumPatches function, MsiEnumPatchesA, MsiEnumPatchesW, _msi_msienumpatches, msi/MsiEnumPatches, msi/MsiEnumPatchesA, msi/MsiEnumPatchesW, setup.msienumpatches
-ms.topic: function
 f1_keywords:
 - msi/MsiEnumPatches
 dev_langs:

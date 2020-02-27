@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: b04eeeca-de53-4b29-a5e8-15018ac11dc5
 ms.date: 12/05/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],UserSidString property, ITsSbClientConnection.UserSidString, ITsSbClientConnection.get_UserSidString, ITsSbClientConnection::UserSidString, ITsSbClientConnection::get_UserSidString, UserSidString property [Remote Desktop Services], UserSidString property [Remote Desktop Services],ITsSbClientConnection interface, get_UserSidString, sbtsv/ITsSbClientConnection::UserSidString, sbtsv/ITsSbClientConnection::get_UserSidString, termserv.itssbclientconnection_usersidstring
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbClientConnection.UserSidString
 dev_langs:

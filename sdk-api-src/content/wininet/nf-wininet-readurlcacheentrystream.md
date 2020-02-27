@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 8cfd0c64-25ca-4f08-b9b3-2743ded18030
 ms.date: 12/05/2018
 ms.keywords: ReadUrlCacheEntryStream, ReadUrlCacheEntryStream function [WinINet], _inet_readurlcacheentrystream_function, wininet.readurlcacheentrystream, wininet/ReadUrlCacheEntryStream
-ms.topic: function
 f1_keywords:
 - wininet/ReadUrlCacheEntryStream
 dev_langs:

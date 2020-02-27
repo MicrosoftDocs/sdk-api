@@ -1,9 +1,10 @@
 ---
 UID: NA:vfw
+title: Vfw.h header
 ms.assetid: 84b00537-6030-36ab-8d3a-4a3fd59cba5c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: multimedia
 ---
 

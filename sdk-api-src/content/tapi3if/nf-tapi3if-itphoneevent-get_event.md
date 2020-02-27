@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 01ac0b3f-ba45-4bf3-a0e7-b2c3a5d44727
 ms.date: 12/05/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_Event method, ITPhoneEvent.get_Event, ITPhoneEvent::get_Event, _tapi3_itphoneevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_event, tapi3if/ITPhoneEvent::get_Event
-ms.topic: method
 f1_keywords:
 - tapi3if/ITPhoneEvent.get_Event
 dev_langs:

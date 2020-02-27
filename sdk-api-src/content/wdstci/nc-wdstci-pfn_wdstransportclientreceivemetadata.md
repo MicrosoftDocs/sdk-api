@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 9acde77b-5360-4c55-b11d-bf85e5c8d00e
 ms.date: 12/05/2018
 ms.keywords: PFN_WdsTransportClientReceiveMetadata, PFN_WdsTransportClientReceiveMetadata callback, PFN_WdsTransportClientReceiveMetadata callback function [Windows Deployment Services], wds.pfn_wdstransportclientreceivemetadata, wdstci/PFN_WdsTransportClientReceiveMetadata
-ms.topic: callback
 f1_keywords:
 - wdstci/PFN_WdsTransportClientReceiveMetadata
 dev_langs:

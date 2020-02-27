@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2d0310a8-89ca-41b5-8afc-faec29bd23ba
 ms.date: 12/05/2018
 ms.keywords: NetAddr_GetAddress, NetAddr_GetAddress macro [Windows Shell], _shell_NetAddr_GetAddress, shell.NetAddr_GetAddress, shellapi/NetAddr_GetAddress
-ms.topic: macro
 f1_keywords:
 - shellapi/NetAddr_GetAddress
 dev_langs:

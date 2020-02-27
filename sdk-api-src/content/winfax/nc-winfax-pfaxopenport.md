@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_15ro.htm
 ms.date: 12/05/2018
 ms.keywords: FaxOpenPortA, FaxOpenPortW, PFAXOPENPORT, PFAXOPENPORT callback, PFAXOPENPORT callback function [Fax Service], PORT_OPEN_MODIFY, PORT_OPEN_QUERY, _mfax_faxopenport, fax._mfax_faxopenport, winfax/FaxOpenPortA, winfax/FaxOpenPortW, winfax/PFAXOPENPORT
-ms.topic: callback
 f1_keywords:
 - winfax/PFAXOPENPORT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 6b3e1d3a-2227-4a27-91aa-8767a3d76bc4
 ms.date: 12/05/2018
 ms.keywords: DrawDibGetBuffer, DrawDibGetBuffer function [Windows Multimedia], _win32_DrawDibGetBuffer, multimedia.drawdibgetbuffer, vfw/DrawDibGetBuffer
-ms.topic: function
 f1_keywords:
 - vfw/DrawDibGetBuffer
 dev_langs:
@@ -69,7 +68,7 @@ Handle to a DrawDib DC.
 
 ### -param lpbi
 
-Pointer to a <a href="http://go.microsoft.com/fwlink/p/?linkid=16913">BITMAPINFO</a> structure. This structure is made up of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure and a 256-entry table defining the colors used by the bitmap.
+Pointer to a <a href="https://msdn.microsoft.com/library/ms532284.aspx">BITMAPINFO</a> structure. This structure is made up of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure and a 256-entry table defining the colors used by the bitmap.
           
 
 

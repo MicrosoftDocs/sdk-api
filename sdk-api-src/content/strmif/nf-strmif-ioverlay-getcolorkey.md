@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: fc9e414e-be53-46e7-b329-23f17fc23725
 ms.date: 12/05/2018
 ms.keywords: GetColorKey, GetColorKey method [DirectShow], GetColorKey method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetColorKey method, IOverlay.GetColorKey, IOverlay::GetColorKey, IOverlayGetColorKey, dshow.ioverlay_getcolorkey, strmif/IOverlay::GetColorKey
-ms.topic: method
 f1_keywords:
 - strmif/IOverlay.GetColorKey
 dev_langs:

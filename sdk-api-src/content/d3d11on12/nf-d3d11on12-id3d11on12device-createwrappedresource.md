@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 83B37B0A-9965-40F6-A5B1-8B4DC21BC455
 ms.date: 12/05/2018
 ms.keywords: CreateWrappedResource, CreateWrappedResource method, CreateWrappedResource method,ID3D11On12Device interface, ID3D11On12Device interface,CreateWrappedResource method, ID3D11On12Device.CreateWrappedResource, ID3D11On12Device::CreateWrappedResource, d3d11on12/ID3D11On12Device::CreateWrappedResource, direct3d12.id3d11on12device_createwrappedresource
-ms.topic: method
 f1_keywords:
 - d3d11on12/ID3D11On12Device.CreateWrappedResource
 dev_langs:

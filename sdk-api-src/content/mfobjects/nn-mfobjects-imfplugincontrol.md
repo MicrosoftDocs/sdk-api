@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: cdc6fd4f-c544-43bb-ba99-5468ef49949d
 ms.date: 12/05/2018
 ms.keywords: IMFPluginControl, IMFPluginControl interface [Media Foundation], IMFPluginControl interface [Media Foundation],described, mf.imfplugincontrol, mfobjects/IMFPluginControl
-ms.topic: interface
 f1_keywords:
 - mfobjects/IMFPluginControl
 dev_langs:

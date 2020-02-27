@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 66ec49d6-43c5-4fc8-a90d-5847fd2ffe50
 ms.date: 12/05/2018
 ms.keywords: IADsOctetList, IADsOctetList interface [ADSI], IADsOctetList interface [ADSI],described, _ds_iadsoctetlist, adsi.iadsoctetlist, iads/IADsOctetList
-ms.topic: interface
 f1_keywords:
 - iads/IADsOctetList
 dev_langs:

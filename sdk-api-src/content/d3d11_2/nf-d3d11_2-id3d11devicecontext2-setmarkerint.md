@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: bb814f16-ca58-46ad-88eb-1c67b17d0c86
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext2 interface [Direct3D 11],SetMarkerInt method, ID3D11DeviceContext2.SetMarkerInt, ID3D11DeviceContext2::SetMarkerInt, SetMarkerInt, SetMarkerInt method [Direct3D 11], SetMarkerInt method [Direct3D 11],ID3D11DeviceContext2 interface, d3d11_2/ID3D11DeviceContext2::SetMarkerInt, direct3d11.id3d11devicecontext2_setmarkerint
-ms.topic: method
 f1_keywords:
 - d3d11_2/ID3D11DeviceContext2.SetMarkerInt
 dev_langs:

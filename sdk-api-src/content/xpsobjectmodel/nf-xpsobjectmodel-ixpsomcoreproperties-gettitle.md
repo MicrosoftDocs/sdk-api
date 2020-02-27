@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 32551dd2-2d6e-4aaa-864b-4c922a90fc27
 ms.date: 12/05/2018
 ms.keywords: GetTitle, GetTitle method [XPS Documents and Packaging], GetTitle method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetTitle method, IXpsOMCoreProperties.GetTitle, IXpsOMCoreProperties::GetTitle, xps.ixpsomcoreproperties_gettitle, xpsobjectmodel/IXpsOMCoreProperties::GetTitle
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.GetTitle
 dev_langs:
@@ -122,11 +121,11 @@ This method allocates the memory used by the string that is returned in <i>title
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

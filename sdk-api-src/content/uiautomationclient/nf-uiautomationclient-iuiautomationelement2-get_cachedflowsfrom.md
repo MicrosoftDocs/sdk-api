@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: CC53C7CE-79D9-4158-8BE2-01B8268CB6C3
 ms.date: 12/05/2018
 ms.keywords: CachedFlowsFrom property [Windows Accessibility], CachedFlowsFrom property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CachedFlowsFrom property, IUIAutomationElement2.CachedFlowsFrom, IUIAutomationElement2.get_CachedFlowsFrom, IUIAutomationElement2::CachedFlowsFrom, IUIAutomationElement2::get_CachedFlowsFrom, IUIAutomationElement2::put_CachedFlowsFrom, get_CachedFlowsFrom, uiautomationclient/IUIAutomationElement2::CachedFlowsFrom, uiautomationclient/IUIAutomationElement2::get_CachedFlowsFrom, uiautomationclient/IUIAutomationElement2::put_CachedFlowsFrom, winauto.uiauto_iuiautomationelement2_cachedflowsfrom
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationElement2.CachedFlowsFrom
 dev_langs:

@@ -1,9 +1,10 @@
 ---
 UID: NA:ual
+title: Ual.h header
 ms.assetid: fa81b147-e0d7-36ae-8648-c11cf8644f80
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: ual
 ---
 

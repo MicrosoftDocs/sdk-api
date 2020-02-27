@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 7ef44527-bde4-41f0-a470-d3f404c77ea9
 ms.date: 12/05/2018
 ms.keywords: DebugSetProcessKillOnExit, DebugSetProcessKillOnExit function, _win32_debugsetprocesskillonexit, base.debugsetprocesskillonexit, winbase/DebugSetProcessKillOnExit
-ms.topic: function
 f1_keywords:
 - winbase/DebugSetProcessKillOnExit
 dev_langs:

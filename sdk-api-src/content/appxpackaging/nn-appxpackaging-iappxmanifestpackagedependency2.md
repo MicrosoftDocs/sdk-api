@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 9363C5BB-BDEF-4671-9545-5B8C0EF14FBE
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestPackageDependency2, IAppxManifestPackageDependency2 interface [App packaging and management], IAppxManifestPackageDependency2 interface [App packaging and management],described, appxpackaging/IAppxManifestPackageDependency2, appxpkg.iappxmanifestpackagedependency2
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxManifestPackageDependency2
 dev_langs:

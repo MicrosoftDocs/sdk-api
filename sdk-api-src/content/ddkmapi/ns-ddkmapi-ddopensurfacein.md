@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 98a5d436-096d-4698-8f2c-31a0455300ff
 ms.date: 12/05/2018
 ms.keywords: '*LPDDOPENSURFACEIN, DDOPENSURFACEIN, DDOPENSURFACEIN structure [Display Devices], LPDDOPENSURFACEIN, LPDDOPENSURFACEIN structure pointer [Display Devices], ddkmapi/DDOPENSURFACEIN, ddkmapi/LPDDOPENSURFACEIN, ddstrcts_406539e4-c43f-4871-b00b-30c71433d1fd.xml, display.ddopensurfacein'
-ms.topic: struct
 f1_keywords:
 - ddkmapi/DDOPENSURFACEIN
 dev_langs:

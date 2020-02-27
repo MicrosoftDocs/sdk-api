@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 4b4fdd3f-c07c-407c-87eb-5bd8a1620d75
 ms.date: 12/05/2018
 ms.keywords: TTRunValidationTestsEx, TTRunValidationTestsEx function [Windows GDI], _win32_TTRunValidationTestsEx, gdi.ttrunvalidationtestsex, t2embapi/TTRunValidationTestsEx
-ms.topic: function
 f1_keywords:
 - t2embapi/TTRunValidationTestsEx
 dev_langs:

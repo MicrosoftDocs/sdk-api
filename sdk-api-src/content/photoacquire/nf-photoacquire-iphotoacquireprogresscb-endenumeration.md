@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: dac16ca2-bd80-4771-9e81-09d07958a4bb
 ms.date: 12/05/2018
 ms.keywords: EndEnumeration, EndEnumeration method [Picture Acquisition], EndEnumeration method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndEnumeration method, IPhotoAcquireProgressCB.EndEnumeration, IPhotoAcquireProgressCB::EndEnumeration, IPhotoAcquireProgressCBEndEnumeration, photoacquire/IPhotoAcquireProgressCB::EndEnumeration, picacq.iphotoacquireprogresscb_endenumeration
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoAcquireProgressCB.EndEnumeration
 dev_langs:

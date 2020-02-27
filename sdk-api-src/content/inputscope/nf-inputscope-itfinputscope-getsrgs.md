@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 6514d925-b60e-4071-abb2-4c26a122089a
 ms.date: 12/05/2018
 ms.keywords: GetSRGS, GetSRGS method [Text Services Framework], GetSRGS method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetSRGS method, ITfInputScope.GetSRGS, ITfInputScope::GetSRGS, inputscope/ITfInputScope::GetSRGS, tsf.itfinputscope_getSRGS
-ms.topic: method
 f1_keywords:
 - inputscope/ITfInputScope.GetSRGS
 dev_langs:
@@ -94,7 +93,7 @@ The method was successful.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=161740">http://www.w3.org/TR/speech-grammar</a>
+<a href="https://www.w3.org/tr/speech-grammar">http://www.w3.org/TR/speech-grammar</a>
 
 
 

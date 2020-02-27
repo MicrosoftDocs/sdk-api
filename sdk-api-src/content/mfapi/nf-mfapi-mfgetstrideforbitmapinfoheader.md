@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 09612b83-8b14-4286-9562-9e3d00fe2c2b
 ms.date: 12/05/2018
 ms.keywords: 09612b83-8b14-4286-9562-9e3d00fe2c2b, MFGetStrideForBitmapInfoHeader, MFGetStrideForBitmapInfoHeader function [Media Foundation], mf.mfgetstrideforbitmapinfoheader, mfapi/MFGetStrideForBitmapInfoHeader
-ms.topic: function
 f1_keywords:
 - mfapi/MFGetStrideForBitmapInfoHeader
 dev_langs:

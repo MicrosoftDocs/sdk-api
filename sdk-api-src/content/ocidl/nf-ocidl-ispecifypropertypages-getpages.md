@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 82b652da-b49a-47a7-a959-522b051bfd59
 ms.date: 12/05/2018
 ms.keywords: GetPages, GetPages method [COM], GetPages method [COM],ISpecifyPropertyPages interface, ISpecifyPropertyPages interface [COM],GetPages method, ISpecifyPropertyPages.GetPages, ISpecifyPropertyPages::GetPages, _ctrl_ispecifypropertypages_getpages, com.ispecifypropertypages_getpages, ocidl/ISpecifyPropertyPages::GetPages
-ms.topic: method
 f1_keywords:
 - ocidl/ISpecifyPropertyPages.GetPages
 dev_langs:

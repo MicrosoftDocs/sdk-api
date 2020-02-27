@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d443592e-23d8-425c-9f88-f4f786fb19c6
 ms.date: 12/05/2018
 ms.keywords: IVMRMonitorConfig interface [DirectShow],SetMonitor method, IVMRMonitorConfig.SetMonitor, IVMRMonitorConfig::SetMonitor, IVMRMonitorConfigSetMonitor, SetMonitor, SetMonitor method [DirectShow], SetMonitor method [DirectShow],IVMRMonitorConfig interface, dshow.ivmrmonitorconfig_setmonitor, strmif/IVMRMonitorConfig::SetMonitor
-ms.topic: method
 f1_keywords:
 - strmif/IVMRMonitorConfig.SetMonitor
 dev_langs:
@@ -64,7 +63,7 @@ On a multi-monitor system, the <code>SetMonitor</code> method specifies the moni
 
 ### -param pGUID [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrguid">VMRGUID</a> structure that identifies the monitor.
+Pointer to a [VMRGUID](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrguid) structure that identifies the monitor.
 
 
 ## -returns

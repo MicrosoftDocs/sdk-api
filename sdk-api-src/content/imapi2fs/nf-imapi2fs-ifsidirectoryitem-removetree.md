@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: d0aad985-306c-41a2-9711-9265a4f492c5
 ms.date: 12/05/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],RemoveTree method, IFsiDirectoryItem.RemoveTree, IFsiDirectoryItem::RemoveTree, RemoveTree, RemoveTree method [IMAPI], RemoveTree method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_removetree, imapi2fs/IFsiDirectoryItem::RemoveTree
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFsiDirectoryItem.RemoveTree
 dev_langs:

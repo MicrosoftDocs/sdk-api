@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: c4238fbe-762a-492f-9eb5-d927e64436e1
 ms.date: 12/05/2018
 ms.keywords: IEnumProgressItems, IEnumProgressItems interface [IMAPI], IEnumProgressItems interface [IMAPI],described, imapi.ienumprogressitems, imapi2fs/IEnumProgressItems
-ms.topic: interface
 f1_keywords:
 - imapi2fs/IEnumProgressItems
 dev_langs:

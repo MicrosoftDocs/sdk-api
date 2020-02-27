@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0aaa4d8e-e760-4e22-90fe-e5667fafa113
 ms.date: 12/05/2018
 ms.keywords: IDigitalLocatorput_OuterFEC, ILocator interface [Microsoft TV Technologies],put_OuterFEC method, ILocator.put_OuterFEC, ILocator::put_OuterFEC, mstv.ilocator_put_outerfec, put_OuterFEC, put_OuterFEC method [Microsoft TV Technologies], put_OuterFEC method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_OuterFEC
-ms.topic: method
 f1_keywords:
 - tuner/ILocator.put_OuterFEC
 dev_langs:

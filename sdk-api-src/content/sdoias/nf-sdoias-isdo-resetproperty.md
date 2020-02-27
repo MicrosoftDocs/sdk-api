@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: 650df0aa-6331-4a3f-b965-d48fd68fd31d
 ms.date: 12/05/2018
 ms.keywords: ISdo interface [Network Policy Server],ResetProperty method, ISdo.ResetProperty, ISdo::ResetProperty, ResetProperty, ResetProperty method [Network Policy Server], ResetProperty method [Network Policy Server],ISdo interface, _sdo_isdo_resetproperty, nps.SDO_isdo_resetproperty, sdo.isdo_resetproperty, sdoias/ISdo::ResetProperty
-ms.topic: method
 f1_keywords:
 - sdoias/ISdo.ResetProperty
 dev_langs:

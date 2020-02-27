@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 320455F3-FDFB-46C6-9F26-3C60064A2CB0
 ms.date: 12/05/2018
 ms.keywords: setsourcefilter, setsourcefilter function [Winsock], winsock.setsourcefilter, ws2tcpip/setsourcefilter
-ms.topic: function
 f1_keywords:
 - ws2tcpip/setsourcefilter
 dev_langs:

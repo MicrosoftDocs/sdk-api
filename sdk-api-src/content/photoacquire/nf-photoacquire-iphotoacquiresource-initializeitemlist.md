@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: 1e0ebbc7-888d-4044-8257-47c1719cf7fc
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSource interface [Picture Acquisition],InitializeItemList method, IPhotoAcquireSource.InitializeItemList, IPhotoAcquireSource::InitializeItemList, IPhotoAcquireSourceInitializeItemList, InitializeItemList, InitializeItemList method [Picture Acquisition], InitializeItemList method [Picture Acquisition],IPhotoAcquireSource interface, photoacquire/IPhotoAcquireSource::InitializeItemList, picacq.iphotoacquiresource_initializeitemlist
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoAcquireSource.InitializeItemList
 dev_langs:

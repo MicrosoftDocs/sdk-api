@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: 22c90ec4-b4cc-4a95-becd-29c2ce6e3c29
 ms.date: 12/05/2018
 ms.keywords: GetOptions, GetOptions method [Group Policy], GetOptions method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetOptions method, IGPEInformation.GetOptions, IGPEInformation::GetOptions, _win32_igpeinformation_getoptions, gpedit/IGPEInformation::GetOptions, policy.igpeinformation_getoptions
-ms.topic: method
 f1_keywords:
 - gpedit/IGPEInformation.GetOptions
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 1FFB01F3-9C12-41CE-9CF6-F130CC65A7DC
 ms.date: 12/05/2018
 ms.keywords: CheckHardwareCompositionSupport, CheckHardwareCompositionSupport method [DXGI], CheckHardwareCompositionSupport method [DXGI],IDXGIOutput6 interface, IDXGIOutput6 interface [DXGI],CheckHardwareCompositionSupport method, IDXGIOutput6.CheckHardwareCompositionSupport, IDXGIOutput6::CheckHardwareCompositionSupport, direct3ddxgi.idxgioutput6_checkhardwarecompositionsupport, dxgi1_6/IDXGIOutput6::CheckHardwareCompositionSupport
-ms.topic: method
 f1_keywords:
 - dxgi1_6/IDXGIOutput6.CheckHardwareCompositionSupport
 dev_langs:

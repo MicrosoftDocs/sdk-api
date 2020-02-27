@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 12b1c676-912f-4876-998c-6b0ff162b95d
 ms.date: 12/05/2018
 ms.keywords: SetupOpenAppendInfFile, SetupOpenAppendInfFile function [Setup API], SetupOpenAppendInfFileA, SetupOpenAppendInfFileW, _setupapi_setupopenappendinffile, setup.setupopenappendinffile, setupapi/SetupOpenAppendInfFile, setupapi/SetupOpenAppendInfFileA, setupapi/SetupOpenAppendInfFileW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupOpenAppendInfFile
 dev_langs:

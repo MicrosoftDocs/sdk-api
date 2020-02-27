@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 4740d7a4-aa82-4c9d-b93c-20a974f170ae
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],RequestClientLicense method, IWTSProtocolLicenseConnection.RequestClientLicense, IWTSProtocolLicenseConnection::RequestClientLicense, RequestClientLicense, RequestClientLicense method [Remote Desktop Services], RequestClientLicense method [Remote Desktop Services],IWTSProtocolLicenseConnection interface, termserv.iwtsprotocollicenseconnection_requestclientlicense, wtsprotocol/IWTSProtocolLicenseConnection::RequestClientLicense
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolLicenseConnection.RequestClientLicense
 dev_langs:
@@ -93,7 +92,7 @@ When you are implementing this method, return <b>S_OK</b> if the function succee
 
 
 
-For more information about the byte arrays exchanged in this call, see <a href="http://go.microsoft.com/fwlink/p/?linkid=157338">[MS-RDPELE]: Remote Desktop Protocol: Licensing Extension</a>.
+For more information about the byte arrays exchanged in this call, see <a href="https://msdn.microsoft.com/library/cc241880(PROT.10).aspx">[MS-RDPELE]: Remote Desktop Protocol: Licensing Extension</a>.
 
 
 

@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 7eea143b-d2f8-44d2-a3ec-8328a0bc69ef
 ms.date: 12/05/2018
 ms.keywords: IRepetitionPattern, IRepetitionPattern interface [Task Scheduler], IRepetitionPattern interface [Task Scheduler],described, repetition pattern [Task Scheduler],interface, taskschd.irepetitionpattern, taskschd/IRepetitionPattern, triggers [Task Scheduler],repetition pattern interface
-ms.topic: interface
 f1_keywords:
 - taskschd/IRepetitionPattern
 dev_langs:

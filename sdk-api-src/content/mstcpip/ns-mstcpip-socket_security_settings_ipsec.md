@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 99af6ebd-6a7d-4753-8bc6-cfd42919843e
 ms.date: 12/05/2018
 ms.keywords: SOCKET_SECURITY_SETTINGS_IPSEC, SOCKET_SECURITY_SETTINGS_IPSEC structure [Winsock], SOCKET_SETTINGS_ALLOW_INSECURE, SOCKET_SETTINGS_GUARANTEE_ENCRYPTION, SOCKET_SETTINGS_IPSEC_SKIP_FILTER_INSTANTIATION, mstcpip/SOCKET_SECURITY_SETTINGS_IPSEC, winsock.socket_security_settings_ipsec
-ms.topic: struct
 f1_keywords:
 - mstcpip/SOCKET_SECURITY_SETTINGS_IPSEC
 dev_langs:
@@ -213,7 +212,7 @@ There is a possibility that some of the IPsec settings specified in the <b>SOCKE
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=86174">AuthIP in Windows Vista</a>
+<a href="https://www.microsoft.com/technet/community/columns/cableguy/cg0806.mspx">AuthIP in Windows Vista</a>
 
 
 

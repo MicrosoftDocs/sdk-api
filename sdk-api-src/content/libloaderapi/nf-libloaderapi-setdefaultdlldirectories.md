@@ -7,7 +7,6 @@ tech.root: Dlls
 ms.assetid: 66884797-b1c8-4e50-aef1-e88944766d50
 ms.date: 12/05/2018
 ms.keywords: LOAD_LIBRARY_SEARCH_APPLICATION_DIR, LOAD_LIBRARY_SEARCH_DEFAULT_DIRS, LOAD_LIBRARY_SEARCH_SYSTEM32, LOAD_LIBRARY_SEARCH_USER_DIRS, SetDefaultDllDirectories, SetDefaultDllDirectories function, base.setdefaultdlldirectories, libloaderapi/SetDefaultDllDirectories
-ms.topic: function
 f1_keywords:
 - libloaderapi/SetDefaultDllDirectories
 dev_langs:
@@ -193,7 +192,7 @@ It is not possible to revert to the standard DLL search path or remove any direc
 <b>Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:  </b>To call this function in an application, use the 
       <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function to retrieve its address from 
       Kernel32.dll. 
-      <a href="http://go.microsoft.com/fwlink/p/?linkid=217865">KB2533623</a> must be 
+      <a href="https://support.microsoft.com/kb/2533623">KB2533623</a> must be 
       installed on the target platform.
 
 

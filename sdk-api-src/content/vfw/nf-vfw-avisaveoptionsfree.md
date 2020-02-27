@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: c88a786f-d008-4eb6-af3d-59a0f62ac09d
 ms.date: 12/05/2018
 ms.keywords: AVISaveOptionsFree, AVISaveOptionsFree function [Windows Multimedia], _win32_AVISaveOptionsFree, multimedia.avisaveoptionsfree, vfw/AVISaveOptionsFree
-ms.topic: function
 f1_keywords:
 - vfw/AVISaveOptionsFree
 dev_langs:

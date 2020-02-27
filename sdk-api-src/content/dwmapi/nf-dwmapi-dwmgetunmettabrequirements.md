@@ -7,7 +7,6 @@ tech.root: dwm
 ms.assetid: 8E67E1BE-D6FC-4A8A-8E71-45B6F337E3BD
 ms.date: 12/05/2018
 ms.keywords: DwmGetUnmetTabRequirements, DwmGetUnmetTabRequirements function [Desktop Window Manager], dwm.dwmgetunmettabrequirements, dwmapi/DwmGetUnmetTabRequirements
-ms.topic: function
 f1_keywords:
 - dwmapi/DwmGetUnmetTabRequirements
 dev_langs:

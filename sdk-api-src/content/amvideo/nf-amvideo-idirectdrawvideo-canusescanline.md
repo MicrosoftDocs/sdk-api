@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2fa11ebb-0408-4ea7-9d18-c85860d6e2fc
 ms.date: 12/05/2018
 ms.keywords: CanUseScanLine, CanUseScanLine method [DirectShow], CanUseScanLine method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],CanUseScanLine method, IDirectDrawVideo.CanUseScanLine, IDirectDrawVideo::CanUseScanLine, IDirectDrawVideoCanUseScanLine, amvideo/IDirectDrawVideo::CanUseScanLine, dshow.idirectdrawvideo_canusescanline
-ms.topic: method
 f1_keywords:
 - amvideo/IDirectDrawVideo.CanUseScanLine
 dev_langs:

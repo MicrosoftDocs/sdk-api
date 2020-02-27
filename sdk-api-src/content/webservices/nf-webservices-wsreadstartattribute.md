@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 6fd0c8c2-2eac-4d98-898d-1c5849220c36
 ms.date: 12/05/2018
 ms.keywords: WsReadStartAttribute, WsReadStartAttribute function [Web Services for Windows], webservices/WsReadStartAttribute, wsw.wsreadstartattribute
-ms.topic: function
 f1_keywords:
 - webservices/WsReadStartAttribute
 dev_langs:

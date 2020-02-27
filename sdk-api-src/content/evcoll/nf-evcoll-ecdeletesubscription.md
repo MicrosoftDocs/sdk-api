@@ -7,7 +7,6 @@ tech.root: WEC
 ms.assetid: 301b982e-a7ab-47ef-99a7-bd63dded792b
 ms.date: 12/05/2018
 ms.keywords: EcDeleteSubscription, EcDeleteSubscription function, evcoll/EcDeleteSubscription, wec.ecdeletesubscription, wes.ecdeletesubscription
-ms.topic: function
 f1_keywords:
 - evcoll/EcDeleteSubscription
 dev_langs:

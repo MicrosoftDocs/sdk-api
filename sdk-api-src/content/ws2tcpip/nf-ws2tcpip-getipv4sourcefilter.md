@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 17D35D24-C419-4787-AB93-E6B1B6B13807
 ms.date: 12/05/2018
 ms.keywords: getipv4sourcefilter, getipv4sourcefilter function [Winsock], winsock.getipv4sourcefilter, ws2tcpip/getipv4sourcefilter
-ms.topic: function
 f1_keywords:
 - ws2tcpip/getipv4sourcefilter
 dev_langs:

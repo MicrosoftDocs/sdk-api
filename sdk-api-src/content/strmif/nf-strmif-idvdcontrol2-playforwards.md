@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: bf57e2fd-c85f-430d-a1fa-5b59f7bfb8af
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayForwards method, IDvdControl2.PlayForwards, IDvdControl2::PlayForwards, IDvdControl2PlayForwards, PlayForwards, PlayForwards method [DirectShow], PlayForwards method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playforwards, strmif/IDvdControl2::PlayForwards
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.PlayForwards
 dev_langs:
@@ -69,7 +68,7 @@ Value that specifies the playback speed. This value is a multiplier, where 1.0 i
 
 ### -param dwFlags [in]
 
-Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
+Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
 
 
 ### -param ppCmd [out]

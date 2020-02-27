@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 18f4c26a-7d71-4af0-a8df-a7722028ff62
 ms.date: 12/05/2018
 ms.keywords: '*PBLUETOOTH_PASSKEY_INFO, BLUETOOTH_PASSKEY_INFO, BLUETOOTH_PASSKEY_INFO structure [Bluetooth], PBLUETOOTH_PASSKEY_INFO, PBLUETOOTH_PASSKEY_INFO structure pointer [Bluetooth], bluetooth.bluetooth_passkey_info, bluetoothapis/BLUETOOTH_PASSKEY_INFO, bluetoothapis/PBLUETOOTH_PASSKEY_INFO'
-ms.topic: struct
 f1_keywords:
 - bluetoothapis/BLUETOOTH_PASSKEY_INFO
 dev_langs:

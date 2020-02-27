@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6ba46145-6b77-4577-9611-0e0a155aa308
 ms.date: 12/05/2018
 ms.keywords: IBDA_TIF_REGISTRATION interface [Microsoft TV Technologies],UnregisterTIF method, IBDA_TIF_REGISTRATION.UnregisterTIF, IBDA_TIF_REGISTRATION::UnregisterTIF, IBDA_TIF_REGISTRATIONUnregisterTIF, UnregisterTIF, UnregisterTIF method [Microsoft TV Technologies], UnregisterTIF method [Microsoft TV Technologies],IBDA_TIF_REGISTRATION interface, bdatif/IBDA_TIF_REGISTRATION::UnregisterTIF, mstv.ibda_tif_registration_unregistertif
-ms.topic: method
 f1_keywords:
 - bdatif/IBDA_TIF_REGISTRATION.UnregisterTIF
 dev_langs:

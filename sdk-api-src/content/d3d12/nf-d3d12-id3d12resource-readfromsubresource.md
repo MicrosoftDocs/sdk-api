@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: A1F61217-A383-49BF-B675-FBC7F6D015DB
 ms.date: 12/05/2018
 ms.keywords: ID3D12Resource interface,ReadFromSubresource method, ID3D12Resource.ReadFromSubresource, ID3D12Resource::ReadFromSubresource, ReadFromSubresource, ReadFromSubresource method, ReadFromSubresource method,ID3D12Resource interface, d3d12/ID3D12Resource::ReadFromSubresource, direct3d12.id3d12resource_readfromsubresource
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Resource.ReadFromSubresource
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 0ff08c6a-5f30-43ca-9db8-cda3e0704b0a
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_KDF_HASH, BCRYPT_KDF_HMAC, BCRYPT_KDF_SP80056A_CONCAT, BCRYPT_KDF_TLS_PRF, KDF_USE_SECRET_AS_HMAC_KEY_FLAG, NCryptDeriveKey, NCryptDeriveKey function [Security], ncrypt/NCryptDeriveKey, security.ncryptderivekey
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptDeriveKey
 dev_langs:
@@ -530,7 +529,7 @@ Value: {0x04, 0x05, 0x20, 0x21, 0x22, 0x23}, length 6
 Type: KDF_SECRET_APPEND
 Value: {0x01, 0x10, 0x11, 0x12}, length 4
 </code></pre>
-A service must not call this function from its <a href="http://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 
 

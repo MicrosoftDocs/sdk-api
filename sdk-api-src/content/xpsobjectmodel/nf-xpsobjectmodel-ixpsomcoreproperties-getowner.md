@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: e3b2b9a7-7498-48a1-9d1f-eb954dc5576c
 ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetOwner method, IXpsOMCoreProperties.GetOwner, IXpsOMCoreProperties::GetOwner, xps.ixpsomcoreproperties_getowner, xpsobjectmodel/IXpsOMCoreProperties::GetOwner
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.GetOwner
 dev_langs:
@@ -111,11 +110,11 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

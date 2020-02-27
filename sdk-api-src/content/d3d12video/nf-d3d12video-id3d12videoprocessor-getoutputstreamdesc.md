@@ -5,7 +5,6 @@ description: Gets the output stream description provided when the video processo
 tech.root: mf
 ms.assetid: 5047b341-d045-4210-b10f-026ee3a7a3ca
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoProcessor::GetOutputStreamDesc
 dev_langs:
@@ -45,13 +44,13 @@ targetos: Windows
 
 ## -description
 
-Gets the output stream description provided when the video processor was created with a call to [ID3D12VideoDevice::CreateVideoProcessor](nf-d3d12video-id3d12videodevice-createvideoprocessor).
+Gets the output stream description provided when the video processor was created with a call to [ID3D12VideoDevice::CreateVideoProcessor](nf-d3d12video-id3d12videodevice-createvideoprocessor.md).
 
 ## -parameters
 
 
 ## -returns
-This method returns [D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC](ns-d3d12video-d3d12_video_process_output_stream_desc).
+This method returns [D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC](ns-d3d12video-d3d12_video_process_output_stream_desc.md).
 ## -remarks
 
 ## -see-also

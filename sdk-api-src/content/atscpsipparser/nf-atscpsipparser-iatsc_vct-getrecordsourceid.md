@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: c5edc529-ca54-4f18-8859-b7eb168bff0a
 ms.date: 12/05/2018
 ms.keywords: GetRecordSourceId, GetRecordSourceId method [Microsoft TV Technologies], GetRecordSourceId method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordSourceId method, IATSC_VCT.GetRecordSourceId, IATSC_VCT::GetRecordSourceId, IATSC_VCTGetRecordSourceId, atscpsipparser/IATSC_VCT::GetRecordSourceId, mstv.iatsc_vct_getrecordsourceid
-ms.topic: method
 f1_keywords:
 - atscpsipparser/IATSC_VCT.GetRecordSourceId
 dev_langs:

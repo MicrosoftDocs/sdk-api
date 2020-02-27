@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: F1BC6752-F334-4E8C-BE42-B731635A799D
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], IDXGIInfoQueue interface [DXGI],described, direct3ddxgi.idxgiinfoqueue, dxgidebug/IDXGIInfoQueue
-ms.topic: interface
 f1_keywords:
 - dxgidebug/IDXGIInfoQueue
 dev_langs:

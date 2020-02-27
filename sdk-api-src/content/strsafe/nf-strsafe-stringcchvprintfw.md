@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchvprintf.htm
 ms.date: 12/05/2018
 ms.keywords: StringCchVPrintf, StringCchVPrintf function [Menus and Other Resources], StringCchVPrintfA, StringCchVPrintfW, _shell_StringCchVPrintf, _shell_stringcchvprintf_cpp, menurc.stringcchvprintf, strsafe/StringCchVPrintf, strsafe/StringCchVPrintfA, strsafe/StringCchVPrintfW, winui._shell_stringcchvprintf
-ms.topic: function
 f1_keywords:
 - strsafe/StringCchVPrintf
 dev_langs:
@@ -56,8 +55,8 @@ Writes formatted data to the specified string using a pointer to a list of argum
 
 <b>StringCchVPrintf</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192500">vsprintf, vswprintf, _vstprintf</a></li>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192508">vsnprintf, _vsnwprintf, _vsntprintf</a></li>
+<li><a href="https://msdn.microsoft.com/library/28d5ce15.aspx">vsprintf, vswprintf, _vstprintf</a></li>
+<li><a href="https://msdn.microsoft.com/library/1kt27hek.aspx">vsnprintf, _vsnwprintf, _vsntprintf</a></li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-wvsprintfa">wvsprintf</a>
 </li>

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: ab56c3fc-daeb-4c7a-ac7f-a2c6d70c1006
 ms.date: 12/05/2018
 ms.keywords: IComTransactionEvents interface [COM+],OnTransactionPrepare method, IComTransactionEvents.OnTransactionPrepare, IComTransactionEvents::OnTransactionPrepare, OnTransactionPrepare, OnTransactionPrepare method [COM+], OnTransactionPrepare method [COM+],IComTransactionEvents interface, _dtc_IComTransactionEvents_OnTransactionPrepare, comsvcs/IComTransactionEvents::OnTransactionPrepare, cos.icomtransactionevents_ontransactionprepare
-ms.topic: method
 f1_keywords:
 - comsvcs/IComTransactionEvents.OnTransactionPrepare
 dev_langs:

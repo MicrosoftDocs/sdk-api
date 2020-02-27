@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: bdd6f88f-ea06-4075-b563-d0c7707107f8
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],MembersName property, IAzApplicationGroup interface [Security],MembersName property, IAzApplicationGroup.MembersName, IAzApplicationGroup.get_MembersName, IAzApplicationGroup::MembersName, IAzApplicationGroup::get_MembersName, MembersName property [Security], MembersName property [Security],AzApplicationGroup object, MembersName property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::MembersName, azroles/IAzApplicationGroup::get_MembersName, get_MembersName, security.iazapplicationgroup_membersname
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplicationGroup.MembersName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 86094e1c-be59-4a15-a05b-21769f80e653
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_CHAIN_PARA, CERT_CHAIN_PARA, CERT_CHAIN_PARA structure [Security], CERT_CHAIN_STRONG_SIGN_DISABLE_END_CHECK_FLAG, PCERT_CHAIN_PARA, PCERT_CHAIN_PARA structure pointer [Security], _crypto2_cert_chain_para, security.cert_chain_para, wincrypt/CERT_CHAIN_PARA, wincrypt/PCERT_CHAIN_PARA'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_CHAIN_PARA
 dev_langs:

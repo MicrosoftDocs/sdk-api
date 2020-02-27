@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: b2ef8988-b4de-423f-b727-f69a789b98cf
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],Description property, Description property [Security], Description property [Security],AzApplicationGroup object, Description property [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],Description property, IAzApplicationGroup.Description, IAzApplicationGroup.put_Description, IAzApplicationGroup::Description, IAzApplicationGroup::get_Description, IAzApplicationGroup::put_Description, azroles/IAzApplicationGroup::Description, azroles/IAzApplicationGroup::get_Description, azroles/IAzApplicationGroup::put_Description, put_Description, security.iazapplicationgroup_description
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplicationGroup.Description
 dev_langs:

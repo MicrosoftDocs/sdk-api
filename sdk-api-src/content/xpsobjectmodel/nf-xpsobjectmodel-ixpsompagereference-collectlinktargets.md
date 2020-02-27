@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 82c64e8a-d8fb-41e3-95f8-b8ca490eae78
 ms.date: 12/05/2018
 ms.keywords: CollectLinkTargets, CollectLinkTargets method [XPS Documents and Packaging], CollectLinkTargets method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],CollectLinkTargets method, IXpsOMPageReference.CollectLinkTargets, IXpsOMPageReference::CollectLinkTargets, xps.ixpsompagereference_collectlinktargets, xpsobjectmodel/IXpsOMPageReference::CollectLinkTargets
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPageReference.CollectLinkTargets
 dev_langs:
@@ -190,7 +189,7 @@ This method returns the pointer to a new collection every time it is called. To 
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

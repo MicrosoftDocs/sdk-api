@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: a6f82b69-50a2-4dfb-a0cd-c37907f5fc1c
 ms.date: 12/05/2018
 ms.keywords: '*PPROPERTY_METRICS, PPROPERTY_METRICS, PPROPERTY_METRICS structure pointer [Tablet PC], PROPERTY_METRICS, PROPERTY_METRICS structure [Tablet PC], a6f82b69-50a2-4dfb-a0cd-c37907f5fc1c, tablet.property_metrics, tpcshrd/PPROPERTY_METRICS, tpcshrd/PROPERTY_METRICS'
-ms.topic: struct
 f1_keywords:
 - tpcshrd/PROPERTY_METRICS
 dev_langs:

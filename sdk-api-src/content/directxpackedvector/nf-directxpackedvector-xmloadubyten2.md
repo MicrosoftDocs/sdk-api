@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUByteN2(const XMUBYTEN2)
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadUByteN2, XMLoadUByteN2, XMLoadUByteN2 method [DirectX Math Support APIs], dxmath.xmloadubyten2
-ms.topic: function
 f1_keywords:
 - directxpackedvector/XMLoadUByteN2
 dev_langs:

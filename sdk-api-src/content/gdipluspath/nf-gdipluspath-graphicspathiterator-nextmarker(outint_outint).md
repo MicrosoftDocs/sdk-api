@@ -5,7 +5,6 @@ description: The GraphicsPathIterator::NextMarker method gets the starting index
 ms.assetid: 42272823-7990-4c6e-bb47-4065f568d4bd
 ms.date: 05/13/2019
 ms.keywords: GraphicsPathIterator::NextMarker
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/GraphicsPathIterator::NextMarker
 dev_langs:

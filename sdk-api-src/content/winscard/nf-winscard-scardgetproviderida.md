@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 6e0f42af-9ac1-469b-b241-939d64676d99
 ms.date: 12/05/2018
 ms.keywords: SCardGetProviderId, SCardGetProviderId function [Security], SCardGetProviderIdA, SCardGetProviderIdW, _smart_scardgetproviderid, security.scardgetproviderid, winscard/SCardGetProviderId, winscard/SCardGetProviderIdA, winscard/SCardGetProviderIdW
-ms.topic: function
 f1_keywords:
 - winscard/SCardGetProviderId
 dev_langs:

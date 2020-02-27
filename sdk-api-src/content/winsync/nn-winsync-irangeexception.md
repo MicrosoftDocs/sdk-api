@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 7eea9fe0-80e7-43a9-a797-df12d4d809dc
 ms.date: 12/05/2018
 ms.keywords: IRangeException, IRangeException interface [Windows Sync], IRangeException interface [Windows Sync],described, winsync.irangeexception, winsync/IRangeException
-ms.topic: interface
 f1_keywords:
 - winsync/IRangeException
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 7d3ddce4-40a2-483d-8cff-48d89313b383
 ms.date: 12/05/2018
 ms.keywords: AccessCheckByTypeResultListAndAuditAlarmByHandle, AccessCheckByTypeResultListAndAuditAlarmByHandle function [Security], AccessCheckByTypeResultListAndAuditAlarmByHandleA, AccessCheckByTypeResultListAndAuditAlarmByHandleW, _win32_accesscheckbytyperesultlistandauditalarmbyhandle, security.accesscheckbytyperesultlistandauditalarmbyhandle, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandle, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandleA, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandleW
-ms.topic: function
 f1_keywords:
 - winbase/AccessCheckByTypeResultListAndAuditAlarmByHandle
 dev_langs:

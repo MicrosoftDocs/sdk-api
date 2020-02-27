@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 1161b79e-f9c8-4073-97c4-1ccc1a78279b
 ms.date: 12/05/2018
 ms.keywords: CreateFontIndirectEx, CreateFontIndirectEx function [Windows GDI], CreateFontIndirectExA, CreateFontIndirectExW, _win32_CreateFontIndirectEx, gdi.createfontindirectex, wingdi/CreateFontIndirectEx, wingdi/CreateFontIndirectExA, wingdi/CreateFontIndirectExW
-ms.topic: function
 f1_keywords:
 - wingdi/CreateFontIndirectEx
 dev_langs:

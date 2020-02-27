@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 491bdf54-0b45-4324-93fc-35fe15155a3d
 ms.date: 12/05/2018
 ms.keywords: BerElement, BerElement structure [LDAP], _ldap_berelement, ldap.berelement, winldap/BerElement
-ms.topic: struct
 f1_keywords:
 - winldap/BerElement
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 93EC7793-DAEF-4E1D-A9B8-2D79A3CBBBDC
 ms.date: 12/05/2018
 ms.keywords: GetDouble, GetDouble method [Windows Runtime], GetDouble method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetDouble method, IPropertyValue.GetDouble, IPropertyValue.IPropertyValue, IPropertyValue::GetDouble, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetDouble, winrt.ipropertyvalue_getdouble
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValue.GetDouble
 dev_langs:

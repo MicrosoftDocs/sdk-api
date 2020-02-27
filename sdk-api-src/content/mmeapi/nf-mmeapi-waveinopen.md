@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 41b5b581-d35c-48ad-adcf-659126c4af50
 ms.date: 12/05/2018
 ms.keywords: _win32_waveInOpen, mmeapi/waveInOpen, multimedia.waveinopen, waveInOpen, waveInOpen function [Windows Multimedia]
-ms.topic: function
 f1_keywords:
 - mmeapi/waveInOpen
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: 270f0943-dc6a-47df-b1bd-ecfbfcafc4c8
 ms.date: 12/05/2018
 ms.keywords: ISensorManager interface,SetEventSink method, ISensorManager.SetEventSink, ISensorManager::SetEventSink, SetEventSink, SetEventSink method, SetEventSink method,ISensorManager interface, sensorsapi/ISensorManager::SetEventSink, winsensors_com_ref.isensormanager_seteventsink
-ms.topic: method
 f1_keywords:
 - sensorsapi/ISensorManager.SetEventSink
 dev_langs:

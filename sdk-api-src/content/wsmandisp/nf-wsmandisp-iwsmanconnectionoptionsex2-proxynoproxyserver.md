@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 00613052-7428-4719-9a19-fc27541af07a
 ms.date: 12/05/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyNoProxyServer method, IWSManConnectionOptionsEx2.ProxyNoProxyServer, IWSManConnectionOptionsEx2::ProxyNoProxyServer, ProxyNoProxyServer, ProxyNoProxyServer method [Windows Remote Management], ProxyNoProxyServer method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxynoproxyserver, wsmandisp/IWSManConnectionOptionsEx2::ProxyNoProxyServer
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManConnectionOptionsEx2.ProxyNoProxyServer
 dev_langs:

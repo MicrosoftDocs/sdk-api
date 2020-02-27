@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 8d2d62cd-9f62-45d3-8b98-74bb8863c6d6
 ms.date: 12/05/2018
 ms.keywords: IPBDA_Services, IPBDA_Services interface [Microsoft TV Technologies], IPBDA_Services interface [Microsoft TV Technologies],described, dvbsiparser/IPBDA_Services, mstv.ipbda_services
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IPBDA_Services
 dev_langs:

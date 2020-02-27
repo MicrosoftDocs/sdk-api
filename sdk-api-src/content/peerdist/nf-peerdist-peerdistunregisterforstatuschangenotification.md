@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: cb18c8bb-92b3-4d4e-9ce8-77c5628a9a1a
 ms.date: 12/05/2018
 ms.keywords: PeerDistUnregisterForStatusChangeNotification, PeerDistUnregisterForStatusChangeNotification function [Peer Networking], p2p.peerdistunregisterforstatuschangenotification, peerdist/PeerDistUnregisterForStatusChangeNotification
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistUnregisterForStatusChangeNotification
 dev_langs:
@@ -108,9 +107,9 @@ The <i>hPeerDist</i> handle is invalid.
 
 This function cancels any registered notification  previously set by a <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistregisterforstatuschangenotification">PeerDistRegisterForStatusChangeNotification</a> function call.
 
-To confirm successfully canceled operations, a call should be made to <a href="http://go.microsoft.com/fwlink/p/?linkid=131012">GetOverlappedResult</a> using the <b>OVERLAPPED</b> structure returned by <a href="http://go.microsoft.com/fwlink/p/?linkid=131008">GetQueuedCompletionStatus</a> with an expected return of <b>FALSE</b>.
+To confirm successfully canceled operations, a call should be made to <a href="https://msdn.microsoft.com/library/ms683209.aspx">GetOverlappedResult</a> using the <b>OVERLAPPED</b> structure returned by <a href="https://msdn.microsoft.com/library/aa364986.aspx">GetQueuedCompletionStatus</a> with an expected return of <b>FALSE</b>.
 
-Additionally, calling <a href="http://go.microsoft.com/fwlink/p/?linkid=131013">GetLastError</a> immediately after a successful <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistregisterforstatuschangenotification">PeerDistRegisterForStatusChangeNotification</a> will return the <b>ERROR_OPERATION_ABORTED</b> error code.
+Additionally, calling <a href="https://msdn.microsoft.com/library/ms679360.aspx">GetLastError</a> immediately after a successful <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistregisterforstatuschangenotification">PeerDistRegisterForStatusChangeNotification</a> will return the <b>ERROR_OPERATION_ABORTED</b> error code.
 
 
 

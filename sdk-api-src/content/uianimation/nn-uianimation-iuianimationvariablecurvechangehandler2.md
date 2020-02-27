@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: C3F992CE-6C12-40AF-BA22-10C82E597314
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariableCurveChangeHandler2, IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation], IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation],described, uianimation.iuianimationvariablecurvechangehandler2, uianimation/IUIAnimationVariableCurveChangeHandler2
-ms.topic: interface
 f1_keywords:
 - uianimation/IUIAnimationVariableCurveChangeHandler2
 dev_langs:

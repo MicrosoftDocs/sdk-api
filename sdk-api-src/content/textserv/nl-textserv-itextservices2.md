@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: B5DC90BA-F9A5-45DC-8C8A-784380C38769
 ms.date: 12/05/2018
 ms.keywords: ITextServices2, ITextServices2 interface [Windows Controls], ITextServices2 interface [Windows Controls],described, controls.itextservices2, textserv/ITextServices2
-ms.topic: class
 f1_keywords:
 - textserv/ITextServices2
 dev_langs:

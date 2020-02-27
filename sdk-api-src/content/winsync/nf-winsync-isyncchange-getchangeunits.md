@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: d3d0d805-ed29-4c88-925a-a16e130a3fe5
 ms.date: 12/05/2018
 ms.keywords: GetChangeUnits, GetChangeUnits method [Windows Sync], GetChangeUnits method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetChangeUnits method, ISyncChange.GetChangeUnits, ISyncChange::GetChangeUnits, winsync.isyncchange_getchangeunits, winsync/ISyncChange::GetChangeUnits
-ms.topic: method
 f1_keywords:
 - winsync/ISyncChange.GetChangeUnits
 dev_langs:

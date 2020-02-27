@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 105bbcd4-b1b2-444d-bd55-7f6e564fec42
 ms.date: 12/05/2018
 ms.keywords: PENDINGMSG, PENDINGMSG enumeration [COM], PENDINGMSG_CANCELCALL, PENDINGMSG_WAITDEFPROCESS, PENDINGMSG_WAITNOPROCESS, _com_PENDINGMSG, com.pendingmsg, objidl/PENDINGMSG, objidl/PENDINGMSG_CANCELCALL, objidl/PENDINGMSG_WAITDEFPROCESS, objidl/PENDINGMSG_WAITNOPROCESS
-ms.topic: enum
 f1_keywords:
 - objidl/PENDINGMSG
 dev_langs:

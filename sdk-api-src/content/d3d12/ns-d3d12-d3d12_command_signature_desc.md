@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 3ACB1582-7A93-4D8D-A463-A828EF0C7F92
 ms.date: 12/05/2018
 ms.keywords: D3D12_COMMAND_SIGNATURE_DESC, D3D12_COMMAND_SIGNATURE_DESC structure, d3d12/D3D12_COMMAND_SIGNATURE_DESC, direct3d12.d3d12_command_signature_desc
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_COMMAND_SIGNATURE_DESC
 dev_langs:

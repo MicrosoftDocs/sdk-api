@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\gettextlengthex.htm
 ms.date: 12/05/2018
 ms.keywords: GETTEXTLENGTHEX, GETTEXTLENGTHEX structure [Windows Controls], GTL_CLOSE, GTL_DEFAULT, GTL_NUMBYTES, GTL_NUMCHARS, GTL_PRECISE, GTL_USECRLF, _win32_GETTEXTLENGTHEX_str, _win32_GETTEXTLENGTHEX_str_cpp, controls.GETTEXTLENGTHEX, controls._win32_GETTEXTLENGTHEX_str, richedit/GETTEXTLENGTHEX
-ms.topic: struct
 f1_keywords:
 - richedit/GETTEXTLENGTHEX
 dev_langs:

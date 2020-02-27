@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 0b3cd58c-9396-4c79-842b-76bf03aa7d7a
 ms.date: 12/05/2018
 ms.keywords: EAP_INTERACTIVE_UI_DATA_TYPE, EAP_INTERACTIVE_UI_DATA_TYPE enumeration [EAPHost], EapCredExpiryReq, EapCredExpiryResp, EapCredLogonReq, EapCredLogonResp, EapCredReq, EapCredResp, eaphost.eap_interactive_ui_data_type, eaptypes/EAP_INTERACTIVE_UI_DATA_TYPE, eaptypes/EapCredExpiryReq, eaptypes/EapCredExpiryResp, eaptypes/EapCredLogonReq, eaptypes/EapCredLogonResp, eaptypes/EapCredReq, eaptypes/EapCredResp
-ms.topic: enum
 f1_keywords:
 - eaptypes/EAP_INTERACTIVE_UI_DATA_TYPE
 dev_langs:

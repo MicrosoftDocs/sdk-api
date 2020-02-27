@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorYUVToRGB(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorYUVToRGB, XMColorYUVToRGB, XMColorYUVToRGB method [DirectX Math Support APIs], dxmath.xmcoloryuvtorgb
-ms.topic: function
 f1_keywords:
 - directxmath/XMColorYUVToRGB
 dev_langs:

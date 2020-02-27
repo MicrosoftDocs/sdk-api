@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 94c12ad7-dcb0-4099-8eba-da38367f0d79
 ms.date: 12/05/2018
 ms.keywords: PFN_CDF_PARSE_ERROR_CALLBACK, PFN_CDF_PARSE_ERROR_CALLBACK callback, PFN_CDF_PARSE_ERROR_CALLBACK callback function [Security], mscat/PFN_CDF_PARSE_ERROR_CALLBACK, security.pfn_cdf_parse_error_callback
-ms.topic: callback
 f1_keywords:
 - mscat/PFN_CDF_PARSE_ERROR_CALLBACK
 dev_langs:

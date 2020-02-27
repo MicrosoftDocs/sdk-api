@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 95a05239-f1d5-4bd8-8aec-1e641397caa0
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetID method, IWSDHttpMessageParameters.SetID, IWSDHttpMessageParameters::SetID, SetID, SetID method, SetID method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setid, ncd.iwsdhttpmessasgeparameters_setid, wsdbase/IWSDHttpMessageParameters::SetID
-ms.topic: method
 f1_keywords:
 - wsdbase/IWSDHttpMessageParameters.SetID
 dev_langs:

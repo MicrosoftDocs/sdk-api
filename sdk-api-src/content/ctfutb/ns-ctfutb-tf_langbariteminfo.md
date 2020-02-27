@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 4a826a2c-4cae-4cbf-8a25-38337dcd498d
 ms.date: 12/05/2018
 ms.keywords: TF_LANGBARITEMINFO, TF_LANGBARITEMINFO structure [Text Services Framework], _tsf_tf_langbariteminfo_ref, ctfutb/TF_LANGBARITEMINFO, tsf.tf_langbariteminfo
-ms.topic: struct
 f1_keywords:
 - ctfutb/TF_LANGBARITEMINFO
 dev_langs:

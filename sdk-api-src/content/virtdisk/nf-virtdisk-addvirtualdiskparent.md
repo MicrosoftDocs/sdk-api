@@ -7,7 +7,6 @@ tech.root: VStor
 ms.assetid: 1af2a21b-246e-42d0-a493-4c513e716dab
 ms.date: 12/05/2018
 ms.keywords: AddVirtualDiskParent, AddVirtualDiskParent function [Virtual Storage], virtdisk/AddVirtualDiskParent, vstor.addvirtualdiskparent
-ms.topic: function
 f1_keywords:
 - virtdisk/AddVirtualDiskParent
 dev_langs:

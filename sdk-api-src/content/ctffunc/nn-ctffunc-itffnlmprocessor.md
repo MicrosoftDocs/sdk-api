@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 89581a75-9263-45d7-99de-b3bd78a5169c
 ms.date: 12/05/2018
 ms.keywords: ITfFnLMProcessor, ITfFnLMProcessor interface [Text Services Framework], ITfFnLMProcessor interface [Text Services Framework],described, _tsf_itffnlmprocessor_ref, ctffunc/ITfFnLMProcessor, tsf.itffnlmprocessor
-ms.topic: interface
 f1_keywords:
 - ctffunc/ITfFnLMProcessor
 dev_langs:

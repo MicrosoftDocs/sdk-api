@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: dbe922b3-b843-4eaa-807d-5608cfbb9686
 ms.date: 12/05/2018
 ms.keywords: IAtscPsipParser, IAtscPsipParser interface [Microsoft TV Technologies], IAtscPsipParser interface [Microsoft TV Technologies],described, IAtscPsipParserInterface, atscpsipparser/IAtscPsipParser, mstv.iatscpsipparser
-ms.topic: interface
 f1_keywords:
 - atscpsipparser/IAtscPsipParser
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback
 ms.date: 12/05/2018
 ms.keywords: IXAudio2VoiceCallback, IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs], IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],described, xaudio2.ixaudio2voicecallback, xaudio2/IXAudio2VoiceCallback
-ms.topic: interface
 f1_keywords:
 - xaudio2/IXAudio2VoiceCallback
 dev_langs:

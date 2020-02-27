@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 68c3f56b-6c48-4f4b-bd38-9f4e346c663b
 ms.date: 12/05/2018
 ms.keywords: LookupSecurityDescriptorParts, LookupSecurityDescriptorParts function [Security], LookupSecurityDescriptorPartsA, LookupSecurityDescriptorPartsW, _win32_lookupsecuritydescriptorparts, aclapi/LookupSecurityDescriptorParts, aclapi/LookupSecurityDescriptorPartsA, aclapi/LookupSecurityDescriptorPartsW, security.lookupsecuritydescriptorparts
-ms.topic: function
 f1_keywords:
 - aclapi/LookupSecurityDescriptorParts
 dev_langs:

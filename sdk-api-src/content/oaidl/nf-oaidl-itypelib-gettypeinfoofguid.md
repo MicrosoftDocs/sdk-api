@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 58f96322-f1cd-448c-906d-b7faa65ab9a0
 ms.date: 12/05/2018
 ms.keywords: GetTypeInfoOfGuid, GetTypeInfoOfGuid method [Automation], GetTypeInfoOfGuid method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeInfoOfGuid method, ITypeLib.GetTypeInfoOfGuid, ITypeLib::GetTypeInfoOfGuid, _oa96_ITypeLib_GetTypeInfoOfGuid, automat.itypelib_gettypeinfoofguid, oaidl/ITypeLib::GetTypeInfoOfGuid
-ms.topic: method
 f1_keywords:
 - oaidl/ITypeLib.GetTypeInfoOfGuid
 dev_langs:

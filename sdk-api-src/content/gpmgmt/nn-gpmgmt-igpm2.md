@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: f9cd432a-3974-4fc4-9e32-1d8e2df1601c
 ms.date: 12/05/2018
 ms.keywords: IGPM2, IGPM2 interface [GPMC], IGPM2 interface [GPMC],described, gpmc.igpm2, gpmgmt/IGPM2
-ms.topic: interface
 f1_keywords:
 - gpmgmt/IGPM2
 dev_langs:

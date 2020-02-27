@@ -7,7 +7,6 @@ tech.root: WNF
 ms.assetid: D1581B09-06A7-483F-929D-1AF93832942D
 ms.date: 12/05/2018
 ms.keywords: RegisterWaitUntilOOBECompleted, RegisterWaitUntilOOBECompleted function, oobenotification/RegisterWaitUntilOOBECompleted, windowssetupandmigration.registerwaituntiloobecompleted
-ms.topic: function
 f1_keywords:
 - oobenotification/RegisterWaitUntilOOBECompleted
 dev_langs:
@@ -79,7 +78,7 @@ Pointer to a variable that will receive the handle to the wait callback registra
 
 
 
-<b>TRUE</b> if the routine successfully registered the callback. Otherwise, <b>FALSE</b> is returned. If <b>FALSE</b>, <a href="http://go.microsoft.com/fwlink/p/?LinkID=329935">GetLastError</a> will retrieve extended error information.
+<b>TRUE</b> if the routine successfully registered the callback. Otherwise, <b>FALSE</b> is returned. If <b>FALSE</b>, <a href="https://msdn.microsoft.com/library/windows/desktop/ms679360(v=vs.85).aspx">GetLastError</a> will retrieve extended error information.
 
 
 
@@ -88,7 +87,7 @@ Pointer to a variable that will receive the handle to the wait callback registra
 
 
 
-If <b>RegisterWaitUntilOOBECompleted</b> returns <b>FALSE</b>, and a subsequent call to <a href="http://go.microsoft.com/fwlink/p/?LinkID=329935">GetLastError</a> returns a value of <b>ERROR_INVALID_STATE</b>, this indicates that OOBE is already complete and there is no need to register for OOBE completion.
+If <b>RegisterWaitUntilOOBECompleted</b> returns <b>FALSE</b>, and a subsequent call to <a href="https://msdn.microsoft.com/library/windows/desktop/ms679360(v=vs.85).aspx">GetLastError</a> returns a value of <b>ERROR_INVALID_STATE</b>, this indicates that OOBE is already complete and there is no need to register for OOBE completion.
 
 
 

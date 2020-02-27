@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: 3b39ec3a-417c-4ce4-a581-ed967f1baec9
 ms.date: 12/05/2018
 ms.keywords: PowerRegisterSuspendResumeNotification, PowerRegisterSuspendResumeNotification function, base.powerregistersuspendresumenotification, powerbase/PowerRegisterSuspendResumeNotification
-ms.topic: function
 f1_keywords:
 - powerbase/PowerRegisterSuspendResumeNotification
 dev_langs:

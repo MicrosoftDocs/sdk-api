@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: B122C2DE-9544-47C7-8F4F-DBD4C1DE54C0
 ms.date: 12/05/2018
 ms.keywords: GetAvailableDeviceMediaType, GetAvailableDeviceMediaType method [Media Foundation], GetAvailableDeviceMediaType method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetAvailableDeviceMediaType method, IMFCaptureSource.GetAvailableDeviceMediaType, IMFCaptureSource::GetAvailableDeviceMediaType, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, mf.imfcapturesource_getavailabledevicemediatype, mfcaptureengine/IMFCaptureSource::GetAvailableDeviceMediaType
-ms.topic: method
 f1_keywords:
 - mfcaptureengine/IMFCaptureSource.GetAvailableDeviceMediaType
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8d5d376f-b59d-4420-a6be-d64459cb6aa3
 ms.date: 12/05/2018
 ms.keywords: IOpenSearchSource, IOpenSearchSource interface [Windows Shell], IOpenSearchSource interface [Windows Shell],described, _shell_IOpenSearchSource, shell.IOpenSearchSource, shobjidl_core/IOpenSearchSource
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IOpenSearchSource
 dev_langs:

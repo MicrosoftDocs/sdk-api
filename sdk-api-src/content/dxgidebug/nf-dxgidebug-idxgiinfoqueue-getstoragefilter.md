@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: C0709ECD-94CC-4745-A811-4180EC763CFC
 ms.date: 12/05/2018
 ms.keywords: GetStorageFilter, GetStorageFilter method [DXGI], GetStorageFilter method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetStorageFilter method, IDXGIInfoQueue.GetStorageFilter, IDXGIInfoQueue::GetStorageFilter, direct3ddxgi.idxgiinfoqueue_getstoragefilter, dxgidebug/IDXGIInfoQueue::GetStorageFilter
-ms.topic: method
 f1_keywords:
 - dxgidebug/IDXGIInfoQueue.GetStorageFilter
 dev_langs:

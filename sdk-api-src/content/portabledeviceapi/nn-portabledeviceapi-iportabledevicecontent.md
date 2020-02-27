@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: 7a03c673-8e7f-41a4-81ba-88406af2762d
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceContent, IPortableDeviceContent interface [Windows Portable Devices SDK], IPortableDeviceContent interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceContent, wpdsdk.iportabledevicecontent
-ms.topic: interface
 f1_keywords:
 - portabledeviceapi/IPortableDeviceContent
 dev_langs:

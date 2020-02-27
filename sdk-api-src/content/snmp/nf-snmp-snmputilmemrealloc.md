@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 269b6f57-cdef-476a-bf38-f35535d15999
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilMemReAlloc, SnmpUtilMemReAlloc function [SNMP], _snmp_snmputilmemrealloc, snmp.snmputilmemrealloc, snmp/SnmpUtilMemReAlloc
-ms.topic: function
 f1_keywords:
 - snmp/SnmpUtilMemReAlloc
 dev_langs:

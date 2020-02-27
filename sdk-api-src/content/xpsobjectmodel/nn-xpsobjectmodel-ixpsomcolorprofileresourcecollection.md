@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: cb9253f3-461e-47a3-820b-bb6bf5e30210
 ms.date: 12/05/2018
 ms.keywords: IXpsOMColorProfileResourceCollection, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging], IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomcolorprofileresourcecollection, xpsobjectmodel/IXpsOMColorProfileResourceCollection
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMColorProfileResourceCollection
 dev_langs:
@@ -167,7 +166,7 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

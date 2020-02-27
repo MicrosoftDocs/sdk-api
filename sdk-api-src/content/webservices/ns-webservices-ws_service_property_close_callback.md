@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 3806c87d-6abe-4dee-90cf-0a6d26826189
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_PROPERTY_CLOSE_CALLBACK, WS_SERVICE_PROPERTY_CLOSE_CALLBACK structure [Web Services for Windows], webservices/WS_SERVICE_PROPERTY_CLOSE_CALLBACK, wsw.ws_service_property_close_callback
-ms.topic: struct
 f1_keywords:
 - webservices/WS_SERVICE_PROPERTY_CLOSE_CALLBACK
 dev_langs:

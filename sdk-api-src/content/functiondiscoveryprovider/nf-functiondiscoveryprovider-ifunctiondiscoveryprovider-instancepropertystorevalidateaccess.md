@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: 0ee8d65d-0be3-4171-946a-10a15b8f8eb7
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstancePropertyStoreValidateAccess method, IFunctionDiscoveryProvider.InstancePropertyStoreValidateAccess, IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess, InstancePropertyStoreValidateAccess, InstancePropertyStoreValidateAccess method, InstancePropertyStoreValidateAccess method,IFunctionDiscoveryProvider interface, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess, ncd.ifunctiondiscoveryprovider_instancepropertystorevalidateaccess
-ms.topic: method
 f1_keywords:
 - functiondiscoveryprovider/IFunctionDiscoveryProvider.InstancePropertyStoreValidateAccess
 dev_langs:

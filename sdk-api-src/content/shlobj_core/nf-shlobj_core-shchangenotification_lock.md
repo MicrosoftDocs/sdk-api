@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8e22d5d0-64be-403c-982d-c23705d85223
 ms.date: 12/05/2018
 ms.keywords: SHChangeNotification_Lock, SHChangeNotification_Lock function [Windows Shell], _win32_SHChangeNotification_Lock, shell.SHChangeNotification_Lock, shlobj_core/SHChangeNotification_Lock
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHChangeNotification_Lock
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 219f58af-66e8-4a89-8908-89308fc182d8
 ms.date: 12/05/2018
 ms.keywords: ExportCAs, ExportOIDs, ExportTemplates, X509EnrollmentPolicyExportFlags, X509EnrollmentPolicyExportFlags enumeration [Security], certenroll/ExportCAs, certenroll/ExportOIDs, certenroll/ExportTemplates, certenroll/X509EnrollmentPolicyExportFlags, security.x509enrollmentpolicyexportflags
-ms.topic: enum
 f1_keywords:
 - certenroll/X509EnrollmentPolicyExportFlags
 dev_langs:

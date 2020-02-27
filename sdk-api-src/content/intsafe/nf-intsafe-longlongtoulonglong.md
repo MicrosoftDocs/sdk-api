@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 994f0b9f-77a6-41ef-9022-a26ef5660204
 ms.date: 12/05/2018
 ms.keywords: Int64ToULongLong, IntPtrToUIntPtr, IntPtrToULongPtr, LongLongToULongLong, LongLongToULongLong function [Windows Shell], intsafe/LongLongToULongLong, shell.LongLongToULongLong
-ms.topic: function
 f1_keywords:
 - intsafe/LongLongToULongLong
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: cf925189-1f68-499c-9c98-063a0367dd3c
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection2 interface [Windows Media Player],getByAttributeAndMediaType method, IWMPMediaCollection2.getByAttributeAndMediaType, IWMPMediaCollection2::getByAttributeAndMediaType, IWMPMediaCollection2getByAttributeAndMediaType, getByAttributeAndMediaType, getByAttributeAndMediaType method [Windows Media Player], getByAttributeAndMediaType method [Windows Media Player],IWMPMediaCollection2 interface, wmp.iwmpmediacollection2_getbyattributeandmediatype, wmp/IWMPMediaCollection2::getByAttributeAndMediaType
-ms.topic: method
 f1_keywords:
 - wmp/IWMPMediaCollection2.getByAttributeAndMediaType
 dev_langs:

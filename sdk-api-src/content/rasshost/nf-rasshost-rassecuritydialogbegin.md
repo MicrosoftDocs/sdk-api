@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 19f4591b-ecae-478b-b110-c0d88c72f7eb
 ms.date: 12/05/2018
 ms.keywords: RasSecurityDialogBegin, RasSecurityDialogBegin callback, RasSecurityDialogBegin callback function [RAS], _ras_rassecuritydialogbegin, rasshost/RasSecurityDialogBegin, rras.rassecuritydialogbegin
-ms.topic: function
 f1_keywords:
 - rasshost/RasSecurityDialogBegin
 dev_langs:

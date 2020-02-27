@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 84379D86-DB03-4631-9A35-EFE9811B0D33
 ms.date: 12/05/2018
 ms.keywords: GetSourceOrigin, GetSourceOrigin method [Media Foundation], GetSourceOrigin method [Media Foundation],IMFNetCrossOriginSupport interface, IMFNetCrossOriginSupport interface [Media Foundation],GetSourceOrigin method, IMFNetCrossOriginSupport.GetSourceOrigin, IMFNetCrossOriginSupport::GetSourceOrigin, mf.imfnetcrossoriginsupport_getsourceorigin, mfidl/IMFNetCrossOriginSupport::GetSourceOrigin
-ms.topic: method
 f1_keywords:
 - mfidl/IMFNetCrossOriginSupport.GetSourceOrigin
 dev_langs:

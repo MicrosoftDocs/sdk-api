@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 4ebd5470-0801-42ff-a0c2-4d1e7f7ee365
 ms.date: 12/05/2018
 ms.keywords: ITimeTrigger, ITimeTrigger interface [Task Scheduler], ITimeTrigger interface [Task Scheduler],described, taskschd.itimetrigger, taskschd/ITimeTrigger, time trigger [Task Scheduler],interface
-ms.topic: interface
 f1_keywords:
 - taskschd/ITimeTrigger
 dev_langs:

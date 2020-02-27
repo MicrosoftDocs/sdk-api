@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 1be942a1-428d-4cc4-bc9f-9f21243c3d21
 ms.date: 12/05/2018
 ms.keywords: SetupDiCreateDeviceInterfaceRegKey, SetupDiCreateDeviceInterfaceRegKey function [Device and Driver Installation], SetupDiCreateDeviceInterfaceRegKeyA, SetupDiCreateDeviceInterfaceRegKeyW, devinst.setupdicreatedeviceinterfaceregkey, di-rtns_4b18b81a-e8ae-4d04-ae67-26cb21472e23.xml, setupapi/SetupDiCreateDeviceInterfaceRegKey
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiCreateDeviceInterfaceRegKey
 dev_langs:
@@ -93,7 +92,7 @@ A pointer to the name of an INF <i>DDInstall</i> section in the INF file that is
 
 
 
-If <b>SetupDiCreateDeviceInterfaceRegKey</b> succeeds, the function returns a handle to the requested registry key in which interface information can be stored and retrieved. If <b>SetupDiCreateDeviceInterfaceRegKey</b> fails, the function returns INVALID_HANDLE_VALUE. Call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> to get extended error information.
+If <b>SetupDiCreateDeviceInterfaceRegKey</b> succeeds, the function returns a handle to the requested registry key in which interface information can be stored and retrieved. If <b>SetupDiCreateDeviceInterfaceRegKey</b> fails, the function returns INVALID_HANDLE_VALUE. Call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> to get extended error information.
 
 
 
@@ -106,7 +105,7 @@ The caller of this function must be a member of the Administrators group.
 
 If the requested key for the device interface already exists, <b>SetupDiCreateDeviceInterfaceRegKey</b> returns a handle to that key; otherwise, <b>SetupDiCreateDeviceInterfaceRegKey</b> creates a new nonvolatile registry key for the specified device interface. Callers of this function can store private configuration data for the device interface in this key. The driver for the device can access this key using <b>Io</b><i>Xxx</i> routines.
 
-Close the handle returned from this function by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=194543">RegCloseKey</a>.
+Close the handle returned from this function by calling <a href="https://msdn.microsoft.com/library/ms724837(VS.85).aspx">RegCloseKey</a>.
 
 For installations that use layout files (specified by the <b>LayoutFile</b> entry in an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-version-section">INF Version section</a>), the layout file must be opened by a call to <b>SetupOpenAppendInfFile</b> (described in Windows SDK documentation) before <b>SetupDiCreateDeviceInterfaceRegKey</b> is called.
 

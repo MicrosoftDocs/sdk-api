@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 313ba824-b54a-4b3a-a669-49067c71798d
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_Recorder method, IDiscFormat2Data.get_Recorder, IDiscFormat2Data::get_Recorder, get_Recorder, get_Recorder method [IMAPI], get_Recorder method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_recorder, imapi2/IDiscFormat2Data::get_Recorder
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2Data.get_Recorder
 dev_langs:

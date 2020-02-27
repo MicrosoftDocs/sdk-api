@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 523b4c3e-f48e-4486-981b-8996a4d36ae3
 ms.date: 12/05/2018
 ms.keywords: CurrentHorizontalViewSize property [Windows Accessibility], CurrentHorizontalViewSize property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CurrentHorizontalViewSize property, IUIAutomationScrollPattern.CurrentHorizontalViewSize, IUIAutomationScrollPattern.get_CurrentHorizontalViewSize, IUIAutomationScrollPattern::CurrentHorizontalViewSize, IUIAutomationScrollPattern::get_CurrentHorizontalViewSize, get_CurrentHorizontalViewSize, uiauto.uiauto_IUIAutomationScrollPattern_CurrentHorizontalViewSize, uiauto_IUIAutomationScrollPattern_CurrentHorizontalViewSize, uiautomationclient/IUIAutomationScrollPattern::CurrentHorizontalViewSize, uiautomationclient/IUIAutomationScrollPattern::get_CurrentHorizontalViewSize, winauto.uiauto_IUIAutomationScrollPattern_CurrentHorizontalViewSize
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationScrollPattern.CurrentHorizontalViewSize
 dev_langs:

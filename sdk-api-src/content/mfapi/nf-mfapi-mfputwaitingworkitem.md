@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: BBD80C60-E42F-4B3B-96E3-E01058A27DB8
 ms.date: 12/05/2018
 ms.keywords: MFPutWaitingWorkItem, MFPutWaitingWorkItem function [Media Foundation], mf.mfputwaitingworkitem, mfapi/MFPutWaitingWorkItem, mfplat/MFPutWaitingWorkItem
-ms.topic: function
 f1_keywords:
 - mfapi/MFPutWaitingWorkItem
 dev_langs:

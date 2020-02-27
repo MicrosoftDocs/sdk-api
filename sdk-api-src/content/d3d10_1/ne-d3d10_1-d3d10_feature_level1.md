@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_feature_level1.htm
 ms.date: 12/05/2018
 ms.keywords: 31af56cc-826c-6632-ae68-1b2e713c38ad, D3D10_FEATURE_LEVEL1, D3D10_FEATURE_LEVEL1 enumeration [Direct3D 10], D3D10_FEATURE_LEVEL_10_0, D3D10_FEATURE_LEVEL_10_1, D3D10_FEATURE_LEVEL_9_1, D3D10_FEATURE_LEVEL_9_2, D3D10_FEATURE_LEVEL_9_3, d3d10_1/D3D10_FEATURE_LEVEL1, d3d10_1/D3D10_FEATURE_LEVEL_10_0, d3d10_1/D3D10_FEATURE_LEVEL_10_1, d3d10_1/D3D10_FEATURE_LEVEL_9_1, d3d10_1/D3D10_FEATURE_LEVEL_9_2, d3d10_1/D3D10_FEATURE_LEVEL_9_3, direct3d10.d3d10_feature_level1
-ms.topic: enum
 f1_keywords:
 - d3d10_1/D3D10_FEATURE_LEVEL1
 dev_langs:
@@ -90,7 +89,7 @@ The hardware supports 9.3 <a href="https://docs.microsoft.com/windows/desktop/di
 Use this enumeration when creating a device with <a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1/nf-d3d10_1-d3d10createdevice1">D3D10CreateDevice1</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1/nf-d3d10_1-d3d10createdeviceandswapchain1">D3D10CreateDeviceAndSwapChain1</a>.
 
 Note that 10level9 feature levels 9_1, 9_2, and 9_3 are only available with the Direct3D 11 runtime (Windows 7, Windows Server 2008 R2, updated 
-      Windows Vista with Service Pack 2 (SP2) [<a href="http://go.microsoft.com/fwlink/p/?linkid=160189">KB 971644</a>], and updated Windows Server 2008 [<a href="http://go.microsoft.com/fwlink/p/?linkid=183689">KB 971512</a>]).
+      Windows Vista with Service Pack 2 (SP2) [<a href="https://support.microsoft.com/kb/971644">KB 971644</a>], and updated Windows Server 2008 [<a href="https://support.microsoft.com/kb/971512/">KB 971512</a>]).
 
 For information about limitations creating nonhardware-type devices on certain feature levels, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-limitations">Limitations Creating WARP and Reference Devices</a>.
 

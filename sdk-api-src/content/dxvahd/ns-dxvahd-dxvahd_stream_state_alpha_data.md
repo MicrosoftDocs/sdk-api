@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 51135d6e-4f97-44d9-b1d5-f7d2095ee6f1
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_ALPHA_DATA, DXVAHD_STREAM_STATE_ALPHA_DATA structure [Media Foundation], dxvahd/DXVAHD_STREAM_STATE_ALPHA_DATA, mf.dxvahd_stream_state_alpha_data
-ms.topic: struct
 f1_keywords:
 - dxvahd/DXVAHD_STREAM_STATE_ALPHA_DATA
 dev_langs:

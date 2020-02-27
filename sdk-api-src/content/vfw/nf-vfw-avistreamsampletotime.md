@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 376819cb-f803-4610-a9e8-29dc7059f203
 ms.date: 12/05/2018
 ms.keywords: AVIStreamSampleToTime, AVIStreamSampleToTime function [Windows Multimedia], _win32_AVIStreamSampleToTime, multimedia.avistreamsampletotime, vfw/AVIStreamSampleToTime
-ms.topic: function
 f1_keywords:
 - vfw/AVIStreamSampleToTime
 dev_langs:

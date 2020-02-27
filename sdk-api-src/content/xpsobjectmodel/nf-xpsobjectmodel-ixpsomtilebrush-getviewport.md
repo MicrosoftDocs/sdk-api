@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 98da8f16-2bfa-45f6-9de1-417e7fb5d1dc
 ms.date: 12/05/2018
 ms.keywords: GetViewport, GetViewport method [XPS Documents and Packaging], GetViewport method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetViewport method, IXpsOMTileBrush.GetViewport, IXpsOMTileBrush::GetViewport, xps.ixpsomtilebrush_getviewport, xpsobjectmodel/IXpsOMTileBrush::GetViewport
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMTileBrush.GetViewport
 dev_langs:
@@ -121,7 +120,7 @@ The viewport is the portion of the output area where the first tile is drawn. In
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

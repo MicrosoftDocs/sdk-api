@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 534ba680-e5d7-47e7-83ad-2b621feab99f
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderCreateInstance, WdsTransportProviderCreateInstance callback, WdsTransportProviderCreateInstance callback function [Windows Deployment Services], wds.wdstransportprovidercreateinstance, wdstpdi/WdsTransportProviderCreateInstance
-ms.topic: function
 f1_keywords:
 - wdstpdi/WdsTransportProviderCreateInstance
 dev_langs:

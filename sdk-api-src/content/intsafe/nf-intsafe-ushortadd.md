@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3aea6f4b-280f-43a1-8104-222d8f9d92cc
 ms.date: 12/05/2018
 ms.keywords: UShortAdd, UShortAdd function [Windows Shell], WordAdd, _shell_UShortAdd, intsafe/UShortAdd, shell.UShortAdd
-ms.topic: function
 f1_keywords:
 - intsafe/UShortAdd
 dev_langs:

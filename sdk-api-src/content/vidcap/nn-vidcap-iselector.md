@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: bd6e028c-ed6d-4dad-a276-c59ba9d88e87
 ms.date: 12/05/2018
 ms.keywords: ISelector, ISelector interface [DirectShow], ISelector interface [DirectShow],described, ISelectorInterface, dshow.iselector, vidcap/ISelector
-ms.topic: interface
 f1_keywords:
 - vidcap/ISelector
 dev_langs:

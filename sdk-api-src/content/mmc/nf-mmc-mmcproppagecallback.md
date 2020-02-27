@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: c1f952c5-df0f-4cc5-8d20-66a3a6701060
 ms.date: 12/05/2018
 ms.keywords: MMCPropPageCallback, MMCPropPageCallback callback, MMCPropPageCallback callback function [MMC], _slate_mmcproppagecallback, mmc.mmcproppagecallback, mmc/MMCPropPageCallback
-ms.topic: function
 f1_keywords:
 - mmc/MMCPropPageCallback
 dev_langs:

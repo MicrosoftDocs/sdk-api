@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: a642a20f-3a3c-46bc-b833-e424dab3a16d
 ms.date: 12/05/2018
 ms.keywords: CoReleaseMarshalData, CoReleaseMarshalData function [COM], _com_CoReleaseMarshalData, com.coreleasemarshaldata, combaseapi/CoReleaseMarshalData
-ms.topic: function
 f1_keywords:
 - combaseapi/CoReleaseMarshalData
 dev_langs:
@@ -123,7 +122,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-c
 
 
 
-<div class="alert"><b>Important</b>  <p class="note">Security Note: Calling this method with untrusted data is a security risk. Call this method only with trusted data. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=798821">Untrusted Data Security Risks</a>.
+<div class="alert"><b>Important</b>  <p class="note">Security Note: Calling this method with untrusted data is a security risk. Call this method only with trusted data. For more information, see <a href="https://docs.microsoft.com/">Untrusted Data Security Risks</a>.
 
 </div>
 <div> </div>

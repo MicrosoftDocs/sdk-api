@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: d1bac1c7-3f9b-46b7-bdf7-c32983c648ee
 ms.date: 12/05/2018
 ms.keywords: MFTGetInfo, MFTGetInfo function [Media Foundation], d1bac1c7-3f9b-46b7-bdf7-c32983c648ee, mf.mftgetinfo, mfapi/MFTGetInfo
-ms.topic: function
 f1_keywords:
 - mfapi/MFTGetInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: F1FCB4E3-E29D-43AB-A438-CB21D0364F67
 ms.date: 12/05/2018
 ms.keywords: DCOMPOSITION_BACKFACE_VISIBILITY, DCOMPOSITION_BACKFACE_VISIBILITY enumeration [DirectComposition], DCOMPOSITION_BACKFACE_VISIBILITY_HIDDEN, DCOMPOSITION_BACKFACE_VISIBILITY_INHERIT, DCOMPOSITION_BACKFACE_VISIBILITY_VISIBLE, dcomptypes/DCOMPOSITION_BACKFACE_VISIBILITY, dcomptypes/DCOMPOSITION_BACKFACE_VISIBILITY_HIDDEN, dcomptypes/DCOMPOSITION_BACKFACE_VISIBILITY_INHERIT, dcomptypes/DCOMPOSITION_BACKFACE_VISIBILITY_VISIBLE, directcomp.dcomposition_backface_visibility
-ms.topic: enum
 f1_keywords:
 - dcomptypes/DCOMPOSITION_BACKFACE_VISIBILITY
 dev_langs:
@@ -78,7 +77,7 @@ The back face visibility is the same as that of the target visual's parent visua
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=313910">DirectComposition Backface and D2D Batching</a>
+<a href="https://code.msdn.microsoft.com/windowsdesktop/DirectComposition-Backface-a2271f33">DirectComposition Backface and D2D Batching</a>
 
 
 

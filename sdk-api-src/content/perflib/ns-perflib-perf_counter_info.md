@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: f1fb6ad5-ad38-46d0-b76d-803887ba3d97
 ms.date: 12/05/2018
 ms.keywords: '*PPERF_COUNTER_INFO, PERF_ATTRIB_BY_REFERENCE, PERF_ATTRIB_DISPLAY_AS_HEX, PERF_ATTRIB_DISPLAY_AS_REAL, PERF_ATTRIB_NO_DISPLAYABLE, PERF_ATTRIB_NO_GROUP_SEPARATOR, PERF_COUNTER_INFO, PERF_COUNTER_INFO structure [Perf], PERF_COUNTER_INFO,*PPERF_COUNTER_INFO, PERF_COUNTER_INFO,*PPERF_COUNTER_INFO structure [Perf], PERF_DETAIL_ADVANCED, PERF_DETAIL_NOVICE, base.perf_counter_info, perf.perf_counter_info, perflib/PERF_COUNTER_INFO'
-ms.topic: struct
 f1_keywords:
 - perflib/PERF_COUNTER_INFO, *PPERF_COUNTER_INFO
 dev_langs:
@@ -65,7 +64,7 @@ Identifier that uniquely identifies the counter within the counter set.
 
 ### -field Type
 
-Specifies the type of counter. For possible counter types, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84422">Counter Types</a> in the Windows 2003 Deployment Guide.
+Specifies the type of counter. For possible counter types, see <a href="https://technet.microsoft.com/library/3fb01419-b1ab-4f52-a9f8-09d5ebeb9ef2">Counter Types</a> in the Windows 2003 Deployment Guide.
 
 
 ### -field Attrib

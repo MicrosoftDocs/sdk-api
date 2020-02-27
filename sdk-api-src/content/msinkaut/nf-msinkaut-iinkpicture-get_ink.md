@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 8a6001bb-cfb9-4c24-8f99-3c8f0acd443c
 ms.date: 12/05/2018
 ms.keywords: 8a6001bb-cfb9-4c24-8f99-3c8f0acd443c, IInkPicture interface [Tablet PC],Ink property, IInkPicture.Ink, IInkPicture.get_Ink, IInkPicture::Ink, IInkPicture::get_Ink, IInkPicture::put_Ink, Ink property [Tablet PC], Ink property [Tablet PC],IInkPicture interface, InkPicture.get_Ink, InkPicture.put_Ink, get_Ink, get_ink, msinkaut/IInkPicture::Ink, msinkaut/IInkPicture::get_Ink, msinkaut/IInkPicture::put_Ink, putref_ink, tablet.inkpicture_ink
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkPicture.Ink
 dev_langs:

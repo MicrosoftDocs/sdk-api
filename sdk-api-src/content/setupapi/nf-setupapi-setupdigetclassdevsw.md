@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassDevs, SetupDiGetClassDevs function [Device and Driver Installation], SetupDiGetClassDevsW, devinst.setupdigetclassdevs, di-rtns_8f48a4a7-e4b9-4843-aacc-88f678b4145c.xml, setupapi/SetupDiGetClassDevs, setupapi/SetupDiGetClassDevsW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetClassDevs
 dev_langs:
@@ -132,7 +131,7 @@ Return only devices that are a part of the current hardware profile.
 
 
 
-If the operation succeeds, <b>SetupDiGetClassDevs</b> returns a handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains all installed devices that matched the supplied parameters. If the operation fails, the function returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+If the operation succeeds, <b>SetupDiGetClassDevs</b> returns a handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains all installed devices that matched the supplied parameters. If the operation fails, the function returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 

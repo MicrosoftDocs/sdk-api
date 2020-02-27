@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: cf24bf5f-8ffc-4b86-80f7-dcb7621f49d2
 ms.date: 12/05/2018
 ms.keywords: PeerGroupGetRecord, PeerGroupGetRecord function [Peer Networking], p2p.peergroupgetrecord, p2p/PeerGroupGetRecord
-ms.topic: function
 f1_keywords:
 - p2p/PeerGroupGetRecord
 dev_langs:

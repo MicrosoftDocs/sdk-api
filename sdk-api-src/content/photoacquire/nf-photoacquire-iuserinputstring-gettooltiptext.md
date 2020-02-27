@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: f57b247c-bd6d-46ea-be95-a239c1b087ce
 ms.date: 12/05/2018
 ms.keywords: GetTooltipText, GetTooltipText method [Picture Acquisition], GetTooltipText method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetTooltipText method, IUserInputString.GetTooltipText, IUserInputString::GetTooltipText, IUserInputStringGetTooltipText, photoacquire/IUserInputString::GetTooltipText, picacq.iuserinputstring_gettooltiptext
-ms.topic: method
 f1_keywords:
 - photoacquire/IUserInputString.GetTooltipText
 dev_langs:

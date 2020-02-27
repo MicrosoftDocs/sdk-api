@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: fab632c7-3ec6-4968-a48d-5865e7f43d0b
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_count_values_len, ldap.ldap__count__values__len, ldap.ldap_count_values_len, ldap_count_values_len, ldap_count_values_len function [LDAP], winldap/ldap_count_values_len
-ms.topic: function
 f1_keywords:
 - winldap/ldap_count_values_len
 dev_langs:
@@ -80,7 +79,7 @@ If a <b>NULL</b> pointer is passed as the argument, 0 is returned. If an invalid
 
 
 The <b>ldap_count_values_len</b> function returns the number of binary values in an array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structures. To count the values in an array of null-terminated character strings, call 
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures. To count the values in an array of null-terminated character strings, call 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_count_values">ldap_count_values</a>.
 
 
@@ -99,7 +98,7 @@ The <b>ldap_count_values_len</b> function returns the number of binary values in
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
 
 
 

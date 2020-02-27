@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 4a0532ec-3613-4aa1-96d7-7291b9ca7a94
 ms.date: 12/05/2018
 ms.keywords: EndSearch, EndSearch method [Windows Update Agent], EndSearch method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],EndSearch method, IUpdateSearcher.EndSearch, IUpdateSearcher::EndSearch, wua.iupdatesearcherendsearch, wuapi/IUpdateSearcher::EndSearch
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateSearcher.EndSearch
 dev_langs:

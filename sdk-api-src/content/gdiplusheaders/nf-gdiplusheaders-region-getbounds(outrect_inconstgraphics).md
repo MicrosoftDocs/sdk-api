@@ -5,7 +5,6 @@ description: The Region::GetBounds method gets a rectangle that encloses this re
 ms.assetid: fdbecca4-be04-4162-a930-19e94c69c7e2
 ms.date: 05/20/2019
 ms.keywords: Region::GetBounds
-ms.topic: language-reference
 f1_keywords:
 - gdiplusheaders/Region::GetBounds
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: A314FF96-A212-4F47-B836-224DE2C3AC0F
 ms.date: 12/05/2018
 ms.keywords: '*PENCLAVE_INIT_INFO_SGX, ENCLAVE_INIT_INFO_SGX, ENCLAVE_INIT_INFO_SGX structure, PENCLAVE_INIT_INFO_SGX, PENCLAVE_INIT_INFO_SGX structure pointer, base.enclave_init_info_sgx, winnt/ENCLAVE_INIT_INFO_SGX, winnt/PENCLAVE_INIT_INFO_SGX'
-ms.topic: struct
 f1_keywords:
 - winnt/ENCLAVE_INIT_INFO_SGX
 dev_langs:
@@ -82,7 +81,7 @@ Not used.
 
 
 
-For more information about the <b>SIGSTRUCT</b> and <b>EINITTOKEN</b> structures, see the Intel SGX Programming Reference that is available from <a href="https://go.microsoft.com/fwlink/p/?linkid=691175">Intel Software Guard Extensions</a>.
+For more information about the <b>SIGSTRUCT</b> and <b>EINITTOKEN</b> structures, see the Intel SGX Programming Reference that is available from <a href="https://software.intel.com/sgx">Intel Software Guard Extensions</a>.
 
 
 

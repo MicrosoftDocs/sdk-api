@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: a6367fea-ceba-4ce4-9a1b-88a40afc3055
 ms.date: 12/05/2018
 ms.keywords: MF_SOURCE_READER_CONTROLF_DRAIN, MF_SOURCE_READER_CONTROL_FLAG, MF_SOURCE_READER_CONTROL_FLAG enumeration [Media Foundation], mf.mf_source_reader_control_flag, mfreadwrite/MF_SOURCE_READER_CONTROLF_DRAIN, mfreadwrite/MF_SOURCE_READER_CONTROL_FLAG
-ms.topic: enum
 f1_keywords:
 - mfreadwrite/MF_SOURCE_READER_CONTROL_FLAG
 dev_langs:

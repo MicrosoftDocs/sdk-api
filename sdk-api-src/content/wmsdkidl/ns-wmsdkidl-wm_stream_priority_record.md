@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 43c9370c-cd43-4dd0-8258-d6dbdb98f1de
 ms.date: 12/05/2018
 ms.keywords: WM_STREAM_PRIORITY_RECORD, WM_STREAM_PRIORITY_RECORD structure [windows Media Format], wmformat.wm_stream_priority_record, wmsdkidl/WM_STREAM_PRIORITY_RECORD
-ms.topic: struct
 f1_keywords:
 - wmsdkidl/WM_STREAM_PRIORITY_RECORD
 dev_langs:

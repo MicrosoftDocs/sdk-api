@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: caef2e93-39cd-4282-97d9-870f8236d8c4
 ms.date: 12/05/2018
 ms.keywords: HttpAddFragmentToCache, HttpAddFragmentToCache function [HTTP], _http_httpaddfragmenttocache, http.httpaddfragmenttocache, http/HttpAddFragmentToCache
-ms.topic: function
 f1_keywords:
 - http/HttpAddFragmentToCache
 dev_langs:

@@ -1,9 +1,10 @@
 ---
 UID: NA:tapi3cc
+title: Tapi3Cc.h header
 ms.assetid: ce1ddf95-89e7-3381-92ee-5cbe9120d743
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: tapi3
 ---
 

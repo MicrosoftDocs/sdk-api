@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 342029c8-0b2b-45d2-852d-062a8d297d28
 ms.date: 12/05/2018
 ms.keywords: AM_FRAMESTEP_STEP, AM_FRAMESTEP_STEP structure [DirectShow], AM_PROPERTY_FRAMESTEPStructure, _AM_FRAMESTEP_STEP, amvideo/AM_FRAMESTEP_STEP, dshow.am_property_framestep
-ms.topic: struct
 f1_keywords:
 - amvideo/AM_FRAMESTEP_STEP
 dev_langs:

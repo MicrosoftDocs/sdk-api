@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 5b2b351b-d6d8-406c-aa9f-ac720def3681
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerGetMethods, EapHostPeerGetMethods function [EAPHost], eaphost.eaphostpeergetmethods, eaphostpeerconfigapis/EapHostPeerGetMethods
-ms.topic: function
 f1_keywords:
 - eaphostpeerconfigapis/EapHostPeerGetMethods
 dev_langs:

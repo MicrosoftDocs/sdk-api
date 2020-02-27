@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: a6ae00a6-f126-4550-ae46-96c5ba1aee35
 ms.date: 12/05/2018
 ms.keywords: VARIANT_UserSize64, VARIANT_UserSize64 function [Automation], automat.variant_usersize64, oaidl/VARIANT_UserSize64
-ms.topic: function
 f1_keywords:
 - oaidl/VARIANT_UserSize64
 dev_langs:

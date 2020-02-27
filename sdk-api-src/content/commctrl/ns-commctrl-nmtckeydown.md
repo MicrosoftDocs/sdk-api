@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\structures\nmtckeydown.htm
 ms.date: 12/05/2018
 ms.keywords: NMTCKEYDOWN, NMTCKEYDOWN structure [Windows Controls], _win32_NMTCKEYDOWN, _win32_NMTCKEYDOWN_cpp, commctrl/NMTCKEYDOWN, controls.NMTCKEYDOWN, controls._win32_NMTCKEYDOWN
-ms.topic: struct
 f1_keywords:
 - commctrl/NMTCKEYDOWN
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 43590cee-20d5-47da-8e35-fa4fda1da175
 ms.date: 12/05/2018
 ms.keywords: WDS_CLI_TRANSFER_ASYNCHRONOUS, WdsCliTransferImage, WdsCliTransferImage function [Windows Deployment Services], wds.wdsclitransferimage, wdsclientapi/WdsCliTransferImage
-ms.topic: function
 f1_keywords:
 - wdsclientapi/WdsCliTransferImage
 dev_langs:

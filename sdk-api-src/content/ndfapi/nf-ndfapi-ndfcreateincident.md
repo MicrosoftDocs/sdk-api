@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: 8570a0e2-f02f-4812-a5c8-13b6e5feee6f
 ms.date: 12/05/2018
 ms.keywords: NdfCreateIncident, NdfCreateIncident function [NDF], ndf.ndfcreateincident, ndfapi/NdfCreateIncident
-ms.topic: function
 f1_keywords:
 - ndfapi/NdfCreateIncident
 dev_langs:

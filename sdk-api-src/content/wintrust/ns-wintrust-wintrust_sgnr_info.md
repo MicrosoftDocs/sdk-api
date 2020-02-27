@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 04e62bfa-efe4-428a-ae6b-58c2377fd5ba
 ms.date: 12/05/2018
 ms.keywords: '*PWINTRUST_SGNR_INFO, PWINTRUST_SGNR_INFO, PWINTRUST_SGNR_INFO structure pointer [Security], WINTRUST_SGNR_INFO, WINTRUST_SGNR_INFO structure [Security], _win32_wintrust_sgnr_info, security.wintrust_sgnr_info, wintrust/PWINTRUST_SGNR_INFO, wintrust/WINTRUST_SGNR_INFO'
-ms.topic: struct
 f1_keywords:
 - wintrust/WINTRUST_SGNR_INFO
 dev_langs:

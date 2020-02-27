@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 855a3993-b308-4dc0-a2f6-8ac6bdc495ce
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMVisual interface [XPS Documents and Packaging],SetIsHyperlinkTarget method, IXpsOMVisual.SetIsHyperlinkTarget, IXpsOMVisual::SetIsHyperlinkTarget, SetIsHyperlinkTarget, SetIsHyperlinkTarget method [XPS Documents and Packaging], SetIsHyperlinkTarget method [XPS Documents and Packaging],IXpsOMVisual interface, TRUE, xps.ixpsomvisual_setishyperlinktarget, xpsobjectmodel/IXpsOMVisual::SetIsHyperlinkTarget
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.SetIsHyperlinkTarget
 dev_langs:
@@ -152,7 +151,7 @@ The visual must be named before it can  be set as the target of a  hyperlink.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

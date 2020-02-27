@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 25DCB7FC-6971-4EFD-A686-E994F4345D2B
 ms.date: 12/05/2018
 ms.keywords: WinBioGetEnrolledFactors, WinBioGetEnrolledFactors function [Windows Biometric Framework API], secbiomet.winbiogetenrolledfactors, winbio/WinBioGetEnrolledFactors
-ms.topic: function
 f1_keywords:
 - winbio/WinBioGetEnrolledFactors
 dev_langs:

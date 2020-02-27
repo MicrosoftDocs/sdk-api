@@ -5,7 +5,6 @@ description: Represents a Direct3D 12 video decoder.
 tech.root: mf
 ms.assetid: 21a497e0-2bc6-4373-b240-bdd7da41fc18
 ms.date: 05/28/2019
-ms.topic: interface
 f1_keywords:
 - ID3D12VideoDecoder
 dev_langs:
@@ -60,7 +59,7 @@ ID3D12VideoDecoder interits from ID3D12Pageable.
 
 ## -remarks
 
-Get an instance of this class by calling [ID3D12VideoDevice::CreateVideoDecoder](nf-d3d12video-id3d12videodevice-createvideodecoder).
+Get an instance of this class by calling [ID3D12VideoDevice::CreateVideoDecoder](nf-d3d12video-id3d12videodevice-createvideodecoder.md).
 
 It is not necessary to recreate this object during a resolution change.
 

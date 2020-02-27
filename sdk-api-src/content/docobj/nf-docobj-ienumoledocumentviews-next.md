@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: a58131bf-88ff-4661-9047-2d70b5e7931b
 ms.date: 12/05/2018
 ms.keywords: IEnumOleDocumentViews interface [COM],Next method, IEnumOleDocumentViews.Next, IEnumOleDocumentViews::Next, Next, Next method [COM], Next method [COM],IEnumOleDocumentViews interface, com.ienumoledocumentviews_next, docobj/IEnumOleDocumentViews::Next
-ms.topic: method
 f1_keywords:
 - docobj/IEnumOleDocumentViews.Next
 dev_langs:

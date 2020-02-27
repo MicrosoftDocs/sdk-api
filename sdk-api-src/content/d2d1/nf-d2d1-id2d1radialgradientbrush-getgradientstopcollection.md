@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: e09a7b3d-4c37-4d39-985f-a24a3bfe2d04
 ms.date: 12/05/2018
 ms.keywords: GetGradientStopCollection, GetGradientStopCollection method [Direct2D], GetGradientStopCollection method [Direct2D],ID2D1RadialGradientBrush interface, ID2D1RadialGradientBrush interface [Direct2D],GetGradientStopCollection method, ID2D1RadialGradientBrush.GetGradientStopCollection, ID2D1RadialGradientBrush::GetGradientStopCollection, d2d1/ID2D1RadialGradientBrush::GetGradientStopCollection, direct2d.ID2D1RadialGradientBrush_GetGradientStopCollection
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1RadialGradientBrush.GetGradientStopCollection
 dev_langs:

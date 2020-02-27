@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: dba59936-2b2d-4a9b-aba4-acb6ff84c037
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrushProperties, LinearGradientBrushProperties function [Direct2D], d2d1helper/LinearGradientBrushProperties, direct2d.lineargradientbrushproperties
-ms.topic: function
 f1_keywords:
 - d2d1helper/LinearGradientBrushProperties
 dev_langs:

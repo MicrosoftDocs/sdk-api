@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: b6a416d1-0bad-49e0-91ad-19e9ff544a8a
 ms.date: 12/05/2018
 ms.keywords: CancelLicenseAcquisition, CancelLicenseAcquisition method [windows Media Format], CancelLicenseAcquisition method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],CancelLicenseAcquisition method, IWMDRMReader.CancelLicenseAcquisition, IWMDRMReader::CancelLicenseAcquisition, IWMDRMReaderCancelLicenseAcquisition, wmformat.iwmdrmreader_cancellicenseacquisition, wmsdkidl/IWMDRMReader::CancelLicenseAcquisition
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDRMReader.CancelLicenseAcquisition
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>CancelLicenseAcquisition</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>CancelLicenseAcquisition</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 

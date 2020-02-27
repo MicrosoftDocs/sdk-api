@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: E704FF35-3859-4313-B42D-77A114AA6E78
 ms.date: 12/05/2018
 ms.keywords: IHeaderCtrl interface [MMC],SetColumnWidth method, IHeaderCtrl.SetColumnWidth, IHeaderCtrl::SetColumnWidth, MMCLV_AUTO, SetColumnWidth, SetColumnWidth method [MMC], SetColumnWidth method [MMC],IHeaderCtrl interface, mmc.iheaderctrl_setcolumnwidth, mmc/IHeaderCtrl::SetColumnWidth
-ms.topic: method
 f1_keywords:
 - mmc/IHeaderCtrl.SetColumnWidth
 dev_langs:

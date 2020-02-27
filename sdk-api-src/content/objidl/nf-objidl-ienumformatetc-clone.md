@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 637c3299-816f-4f3c-9758-b3200b5cf153
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumFORMATETC interface, IEnumFORMATETC interface [COM],Clone method, IEnumFORMATETC.Clone, IEnumFORMATETC::Clone, _ole_ienumformatetc_clone, com.ienumformatetc_clone, objidl/IEnumFORMATETC::Clone
-ms.topic: method
 f1_keywords:
 - objidl/IEnumFORMATETC.Clone
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 1ef0195a-af46-4eb3-8cc0-0408b644a7e9
 ms.date: 12/05/2018
 ms.keywords: '*PDL_ADDRESS_TYPE, DL_ADDRESS_TYPE, DL_ADDRESS_TYPE enumeration [Filtering], DlBroadcast, DlMulticast, DlUnicast, PDL_ADDRESS_TYPE, PDL_ADDRESS_TYPE enumeration pointer [Filtering], fwp.dl_address_type, netiodef/DL_ADDRESS_TYPE, netiodef/DlBroadcast, netiodef/DlMulticast, netiodef/DlUnicast, netiodef/PDL_ADDRESS_TYPE'
-ms.topic: enum
 f1_keywords:
 - netiodef/DL_ADDRESS_TYPE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: d89efffd-ccda-4d55-8419-de142b0f9652
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFileEnumerator, IDWriteFontFileEnumerator interface [Direct Write], IDWriteFontFileEnumerator interface [Direct Write],described, directwrite.IDWriteFontFileEnumerator, dwrite/IDWriteFontFileEnumerator
-ms.topic: interface
 f1_keywords:
 - dwrite/IDWriteFontFileEnumerator
 dev_langs:

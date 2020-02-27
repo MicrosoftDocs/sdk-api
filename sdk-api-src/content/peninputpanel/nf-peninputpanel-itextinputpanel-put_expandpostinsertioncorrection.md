@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: fda9ac46-7aa0-4991-94df-d71772b90726
 ms.date: 12/05/2018
 ms.keywords: ExpandPostInsertionCorrection property [Tablet PC], ExpandPostInsertionCorrection property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],ExpandPostInsertionCorrection property, ITextInputPanel.ExpandPostInsertionCorrection, ITextInputPanel.get_ExpandPostInsertionCorrection, ITextInputPanel.put_ExpandPostInsertionCorrection, ITextInputPanel::ExpandPostInsertionCorrection, ITextInputPanel::get_ExpandPostInsertionCorrection, ITextInputPanel::put_ExpandPostInsertionCorrection, fda9ac46-7aa0-4991-94df-d71772b90726, peninputpanel/ITextInputPanel::ExpandPostInsertionCorrection, peninputpanel/ITextInputPanel::get_ExpandPostInsertionCorrection, peninputpanel/ITextInputPanel::put_ExpandPostInsertionCorrection, put_ExpandPostInsertionCorrection, tablet.itextinputpanel_expandpostinsertioncorrection
-ms.topic: method
 f1_keywords:
 - peninputpanel/ITextInputPanel.ExpandPostInsertionCorrection
 dev_langs:

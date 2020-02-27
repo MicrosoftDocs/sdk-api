@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 09545c1e-8090-4526-9faf-6cb2cb369208
 ms.date: 12/05/2018
 ms.keywords: GetStreamPrioritization, GetStreamPrioritization method [windows Media Format], GetStreamPrioritization method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetStreamPrioritization method, IWMProfile3.GetStreamPrioritization, IWMProfile3::GetStreamPrioritization, IWMProfile3GetStreamPrioritization, wmformat.iwmprofile3_getstreamprioritization, wmsdkidl/IWMProfile3::GetStreamPrioritization
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMProfile3.GetStreamPrioritization
 dev_langs:

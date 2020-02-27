@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1f5cf846-6f14-4c17-bd01-6a8ecb46fdab
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectDefaultAudioLanguage method, IDvdControl2.SelectDefaultAudioLanguage, IDvdControl2::SelectDefaultAudioLanguage, IDvdControl2SelectDefaultAudioLanguage, SelectDefaultAudioLanguage, SelectDefaultAudioLanguage method [DirectShow], SelectDefaultAudioLanguage method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectdefaultaudiolanguage, strmif/IDvdControl2::SelectDefaultAudioLanguage
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.SelectDefaultAudioLanguage
 dev_langs:
@@ -70,7 +69,7 @@ Locale identifier that specifies the default language.
 ### -param audioExtension [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_audio_lang_ext">DVD_AUDIO_LANG_EXT</a> enumeration that specifies the default audio language extension.
+[DVD_AUDIO_LANG_EXT](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_audio_lang_ext) enumeration that specifies the default audio language extension.
 
 
 ## -returns

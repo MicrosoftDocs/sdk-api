@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: d586bf3a-c911-44a3-bf92-7de35009f742
 ms.date: 12/05/2018
 ms.keywords: BindImage, BindImage function, _win32_bindimage, base.bindimage, imagehlp/BindImage
-ms.topic: function
 f1_keywords:
 - imagehlp/BindImage
 dev_langs:

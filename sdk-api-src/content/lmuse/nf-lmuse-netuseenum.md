@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: fb527f85-baea-48e8-b837-967870834ec5
 ms.date: 12/05/2018
 ms.keywords: NetUseEnum, NetUseEnum function [Network Management], _win32_netuseenum, lmuse/NetUseEnum, netmgmt.netuseenum
-ms.topic: function
 f1_keywords:
 - lmuse/NetUseEnum
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: fa348d46-bcd2-4009-89d6-11e738d4a82b
 ms.date: 12/05/2018
 ms.keywords: IIdentityAdvise, IIdentityAdvise interface [Security], IIdentityAdvise interface [Security],described, identityprovider/IIdentityAdvise, identitystore/IIdentityAdvise, security.iidentityadvise
-ms.topic: interface
 f1_keywords:
 - identityprovider/IIdentityAdvise
 dev_langs:

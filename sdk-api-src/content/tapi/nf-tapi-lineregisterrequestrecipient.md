@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: ff2f9ab0-389f-4b35-abd1-29486750283b
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineregisterrequestrecipient, lineRegisterRequestRecipient, lineRegisterRequestRecipient function [TAPI 2.2], tapi/lineRegisterRequestRecipient, tapi2.lineregisterrequestrecipient
-ms.topic: function
 f1_keywords:
 - tapi/lineRegisterRequestRecipient
 dev_langs:

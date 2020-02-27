@@ -6,7 +6,6 @@ tech.root: shell
 ms.assetid: 4a8fd0ed-4a9a-47c7-a0ab-87cf82f507cb
 ms.date: 01/30/19
 ms.keywords: IFileViewerA::PrintTo
-ms.topic: language-reference
 f1_keywords:
 - shlobj/IFileViewerA::PrintTo
 dev_langs:

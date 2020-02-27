@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 24ae093f-5ddf-4b09-934f-d0e945335cde
 ms.date: 12/05/2018
 ms.keywords: EapPeerGetIdentity, EapPeerGetIdentity function [EAPHost], eaphost.eappeergetidentity, eapmethodpeerapis/EapPeerGetIdentity
-ms.topic: function
 f1_keywords:
 - eapmethodpeerapis/EapPeerGetIdentity
 dev_langs:

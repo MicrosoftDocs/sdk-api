@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 5d48c9b7-a718-46bd-b8ba-5c92847c9a12
 ms.date: 12/05/2018
 ms.keywords: ARRAYDESC, ARRAYDESC structure [Automation], _oa96_ARRAYDESC, automat.arraydesc, oaidl/ARRAYDESC
-ms.topic: struct
 f1_keywords:
 - oaidl/ARRAYDESC
 dev_langs:

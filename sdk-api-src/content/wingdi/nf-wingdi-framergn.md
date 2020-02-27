@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: d2c95392-7950-4963-8f10-2387daf23e93
 ms.date: 12/05/2018
 ms.keywords: FrameRgn, FrameRgn function [Windows GDI], _win32_FrameRgn, gdi.framergn, wingdi/FrameRgn
-ms.topic: function
 f1_keywords:
 - wingdi/FrameRgn
 dev_langs:

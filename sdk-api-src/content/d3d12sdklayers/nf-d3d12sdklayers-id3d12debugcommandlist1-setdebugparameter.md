@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 8D93895A-BED7-4A86-893B-ACB5FA1B160F
 ms.date: 12/05/2018
 ms.keywords: ID3D12DebugCommandList1 interface,SetDebugParameter method, ID3D12DebugCommandList1.SetDebugParameter, ID3D12DebugCommandList1::SetDebugParameter, SetDebugParameter, SetDebugParameter method, SetDebugParameter method,ID3D12DebugCommandList1 interface, d3d12sdklayers/ID3D12DebugCommandList1::SetDebugParameter, direct3d12.id3d12debugcommandlist1_setdebugparameter
-ms.topic: method
 f1_keywords:
 - d3d12sdklayers/ID3D12DebugCommandList1.SetDebugParameter
 dev_langs:

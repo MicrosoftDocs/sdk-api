@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: e302ef9f-da38-4190-af78-d26f9fc86543
 ms.date: 12/05/2018
 ms.keywords: ID property [Tablet PC], ID property [Tablet PC],IInkCursor interface, IInkCursor interface [Tablet PC],ID property, IInkCursor.ID, IInkCursor.get_ID, IInkCursor.get_Id, IInkCursor::ID, IInkCursor::get_ID, IInkCursor::get_Id, get_Id, msinkaut/IInkCursor::ID, msinkaut/IInkCursor::get_ID, tablet.iinkcursor_id
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkCursor.ID
 dev_langs:

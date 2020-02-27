@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: a5e570ad-63d3-4c8f-8569-63aa3645f866
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorage interface [windows Media Device Manager],SendOpaqueCommand method, IWMDMStorage.SendOpaqueCommand, IWMDMStorage::SendOpaqueCommand, IWMDMStorageSendOpaqueCommand, SendOpaqueCommand, SendOpaqueCommand method [windows Media Device Manager], SendOpaqueCommand method [windows Media Device Manager],IWMDMStorage interface, mswmdm/IWMDMStorage::SendOpaqueCommand, wmdm.iwmdmstorage_sendopaquecommand
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMStorage.SendOpaqueCommand
 dev_langs:

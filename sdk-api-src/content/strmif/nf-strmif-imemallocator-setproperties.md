@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c68f2e2f-c70f-447d-804b-dfdfe8ae8a52
 ms.date: 12/05/2018
 ms.keywords: IMemAllocator interface [DirectShow],SetProperties method, IMemAllocator.SetProperties, IMemAllocator::SetProperties, IMemAllocatorSetProperties, SetProperties, SetProperties method [DirectShow], SetProperties method [DirectShow],IMemAllocator interface, dshow.imemallocator_setproperties, strmif/IMemAllocator::SetProperties
-ms.topic: method
 f1_keywords:
 - strmif/IMemAllocator.SetProperties
 dev_langs:
@@ -64,7 +63,7 @@ The <code>SetProperties</code> method specifies the number of buffers to allocat
 
 ### -param pRequest
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties">ALLOCATOR_PROPERTIES</a> structure that contains the buffer requirements.
+Pointer to an [ALLOCATOR_PROPERTIES](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure that contains the buffer requirements.
 
 
 ### -param pActual

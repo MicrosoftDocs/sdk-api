@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: eb5af337-a412-4bda-862f-7e12705d0446
 ms.date: 12/05/2018
 ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnDataSent method, IWRdsGraphicsChannelEvents.OnDataSent, IWRdsGraphicsChannelEvents::OnDataSent, OnDataSent, OnDataSent method [Remote Desktop Services], OnDataSent method [Remote Desktop Services],IWRdsGraphicsChannelEvents interface, termserv.iwrdsgraphicschannelevents_ondatasent, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnDataSent
-ms.topic: method
 f1_keywords:
 - wrdsgraphicschannels/IWRdsGraphicsChannelEvents.OnDataSent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 6f3f7726-3e12-4b0b-8454-25f06a29b245
 ms.date: 12/05/2018
 ms.keywords: RpcServerUseAllProtseqsIf, RpcServerUseAllProtseqsIf function [RPC], _rpc_rpcserveruseallprotseqsif, rpc.rpcserveruseallprotseqsif, rpcdce/RpcServerUseAllProtseqsIf
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcServerUseAllProtseqsIf
 dev_langs:

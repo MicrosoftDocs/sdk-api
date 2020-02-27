@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9xki.htm
 ms.date: 12/05/2018
 ms.keywords: FaxFreeBufferA, FaxFreeBufferW, PFAXFREEBUFFER, PFAXFREEBUFFER callback, PFAXFREEBUFFER callback function [Fax Service], _mfax_faxfreebuffer, fax._mfax_faxfreebuffer, winfax/FaxFreeBufferA, winfax/FaxFreeBufferW, winfax/PFAXFREEBUFFER
-ms.topic: callback
 f1_keywords:
 - winfax/PFAXFREEBUFFER
 dev_langs:

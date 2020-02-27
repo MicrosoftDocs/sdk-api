@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 1E0359CC-0F53-4C82-9F1A-092F6F72EE20
 ms.date: 12/05/2018
 ms.keywords: ID3D12CommandList, ID3D12CommandList interface, ID3D12CommandList interface,described, d3d12/ID3D12CommandList, direct3d12.id3d12commandlist
-ms.topic: interface
 f1_keywords:
 - d3d12/ID3D12CommandList
 dev_langs:

@@ -1,9 +1,10 @@
 ---
 UID: NA:iaccess
+title: Iaccess.h header
 ms.assetid: 9edb838d-ffe5-3979-a76a-0956654d1f2b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: com
 ---
 

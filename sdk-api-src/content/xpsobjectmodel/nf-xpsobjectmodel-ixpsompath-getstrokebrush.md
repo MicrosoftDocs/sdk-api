@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: dbf786b0-5603-4735-8770-4c5e17a67253
 ms.date: 12/05/2018
 ms.keywords: GetStrokeBrush, GetStrokeBrush method [XPS Documents and Packaging], GetStrokeBrush method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeBrush method, IXpsOMPath.GetStrokeBrush, IXpsOMPath::GetStrokeBrush, xps.ixpsompath_getstrokebrush, xpsobjectmodel/IXpsOMPath::GetStrokeBrush
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.GetStrokeBrush
 dev_langs:
@@ -181,7 +180,7 @@ No object could be found with a key name that matched the lookup value.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

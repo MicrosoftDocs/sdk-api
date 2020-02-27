@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: af824c16-5bbf-4c75-88d0-b76519152360
 ms.date: 12/05/2018
 ms.keywords: IEnumerableView interface [Windows Shell],SetEnumReadyCallback method, IEnumerableView.SetEnumReadyCallback, IEnumerableView::SetEnumReadyCallback, SetEnumReadyCallback, SetEnumReadyCallback method [Windows Shell], SetEnumReadyCallback method [Windows Shell],IEnumerableView interface, _shell_IEnumerableView_SetEnumReadyCallback, shell.IEnumerableView_SetEnumReadyCallback, shobjidl/IEnumerableView::SetEnumReadyCallback
-ms.topic: method
 f1_keywords:
 - shobjidl/IEnumerableView.SetEnumReadyCallback
 dev_langs:

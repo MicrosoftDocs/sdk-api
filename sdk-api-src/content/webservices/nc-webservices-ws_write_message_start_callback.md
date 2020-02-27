@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 55a9a297-1a6e-41cf-a605-02c4cfef8ed0
 ms.date: 12/05/2018
 ms.keywords: WS_WRITE_MESSAGE_START_CALLBACK, WS_WRITE_MESSAGE_START_CALLBACK callback, WS_WRITE_MESSAGE_START_CALLBACK callback function [Web Services for Windows], webservices/WS_WRITE_MESSAGE_START_CALLBACK, wsw.ws_write_message_start_callback
-ms.topic: callback
 f1_keywords:
 - webservices/WS_WRITE_MESSAGE_START_CALLBACK
 dev_langs:

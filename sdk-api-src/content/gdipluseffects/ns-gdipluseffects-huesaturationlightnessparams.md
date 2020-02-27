@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\huesaturationlightnessparams.htm
 ms.date: 12/05/2018
 ms.keywords: HueSaturationLightnessParams, HueSaturationLightnessParams structure [GDI+], _gdiplus_STRUC_HueSaturationLightnessParams, gdiplus._gdiplus_STRUC_HueSaturationLightnessParams, gdipluseffects/HueSaturationLightnessParams
-ms.topic: struct
 f1_keywords:
 - gdipluseffects/HueSaturationLightnessParams
 dev_langs:

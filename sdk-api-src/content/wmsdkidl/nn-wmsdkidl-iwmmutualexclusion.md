@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 040635fb-de00-4c8c-9c39-c28c409311c3
 ms.date: 12/05/2018
 ms.keywords: IWMMutualExclusion, IWMMutualExclusion interface [windows Media Format], IWMMutualExclusion interface [windows Media Format],described, IWMMutualExclusionInterface, wmformat.iwmmutualexclusion, wmsdkidl/IWMMutualExclusion
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMMutualExclusion
 dev_langs:

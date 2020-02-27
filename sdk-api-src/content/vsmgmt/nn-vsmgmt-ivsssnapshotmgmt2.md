@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 92c8c960-d548-4a44-8b10-b6180c974473
 ms.date: 12/05/2018
 ms.keywords: IVssSnapshotMgmt2, IVssSnapshotMgmt2 interface [Files], IVssSnapshotMgmt2 interface [Files],described, base.ivsssnapshotmgmt2, vsmgmt/IVssSnapshotMgmt2
-ms.topic: interface
 f1_keywords:
 - vsmgmt/IVssSnapshotMgmt2
 dev_langs:
@@ -84,7 +83,7 @@ Returns the current minimum size of the shadow copy storage area.</p> (Inherited
 
 
 To obtain an instance of the <b>IVssSnapshotMgmt2</b> 
-   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of the 
+   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
    <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivsssnapshotmgmt">IVssSnapshotMgmt</a> interface, passing 
    <b>IID_IVssSnapshotMgmt2</b> as the <i>riid</i> parameter.
 

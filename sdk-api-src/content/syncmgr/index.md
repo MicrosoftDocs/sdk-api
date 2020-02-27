@@ -1,9 +1,10 @@
 ---
 UID: NA:syncmgr
+title: Syncmgr.h header
 ms.assetid: 00d830a4-f7de-3553-ba48-0c001fccf645
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: shell
 ---
 

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: d59b46bc-cfc4-400b-8b91-6d0f68f8d9b3
 ms.date: 12/05/2018
 ms.keywords: GetPublisherPropertyCollection, GetPublisherPropertyCollection method [COM+], GetPublisherPropertyCollection method [COM+],IEventSubscription interface, IEventSubscription interface [COM+],GetPublisherPropertyCollection method, IEventSubscription.GetPublisherPropertyCollection, IEventSubscription::GetPublisherPropertyCollection, _cos_IEventSubscription_GetPublisherPropertyCollection, cos.ieventsubscription_getpublisherpropertycollection, eventsys/IEventSubscription::GetPublisherPropertyCollection
-ms.topic: method
 f1_keywords:
 - eventsys/IEventSubscription.GetPublisherPropertyCollection
 dev_langs:

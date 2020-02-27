@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: E6C32B28-A6DE-47FB-8399-CA0B782D8B25
 ms.date: 12/05/2018
 ms.keywords: GetPreviousVectorValue, GetPreviousVectorValue method [Windows Animation], GetPreviousVectorValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetPreviousVectorValue method, IUIAnimationVariable2.GetPreviousVectorValue, IUIAnimationVariable2::GetPreviousVectorValue, uianimation.iuianimationvariable2_getpreviousvectorvalue, uianimation/IUIAnimationVariable2::GetPreviousVectorValue
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationVariable2.GetPreviousVectorValue
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ea1567fc-708f-4dcd-abc2-b5bdc9f6a62c
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],ReplayChapter method, IDvdControl2.ReplayChapter, IDvdControl2::ReplayChapter, IDvdControl2ReplayChapter, ReplayChapter, ReplayChapter method [DirectShow], ReplayChapter method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_replaychapter, strmif/IDvdControl2::ReplayChapter
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.ReplayChapter
 dev_langs:
@@ -64,7 +63,7 @@ The <code>ReplayChapter</code> method starts playback from the beginning of the 
 
 ### -param dwFlags [in]
 
-Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
+Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
 
 
 ### -param ppCmd [out]

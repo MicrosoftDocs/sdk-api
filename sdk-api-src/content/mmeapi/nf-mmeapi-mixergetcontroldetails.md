@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: b1fdd9e7-42cf-41fb-99f7-b7da990e5881
 ms.date: 12/05/2018
 ms.keywords: _win32_mixerGetControlDetails, mixerGetControlDetails, mixerGetControlDetails function [Windows Multimedia], mixerGetControlDetailsA, mixerGetControlDetailsW, mmsystem/mixerGetControlDetails, mmsystem/mixerGetControlDetailsA, mmsystem/mixerGetControlDetailsW, multimedia.mixergetcontroldetails
-ms.topic: function
 f1_keywords:
 - mmeapi/mixerGetControlDetails
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 4292a53b-33a2-431c-806a-7e8c96ecce40
 ms.date: 12/05/2018
 ms.keywords: OPC_CERTIFICATE_EMBEDDING_OPTION, OPC_CERTIFICATE_EMBEDDING_OPTION enumeration [Open Packaging Conventions], OPC_CERTIFICATE_IN_CERTIFICATE_PART, OPC_CERTIFICATE_IN_SIGNATURE_PART, OPC_CERTIFICATE_NOT_EMBEDDED, msopc/OPC_CERTIFICATE_EMBEDDING_OPTION, msopc/OPC_CERTIFICATE_IN_CERTIFICATE_PART, msopc/OPC_CERTIFICATE_IN_SIGNATURE_PART, msopc/OPC_CERTIFICATE_NOT_EMBEDDED, opc.opc_certificate_embedding_option
-ms.topic: enum
 f1_keywords:
 - msopc/OPC_CERTIFICATE_EMBEDDING_OPTION
 dev_langs:
@@ -88,7 +87,7 @@ The certificate is not stored in the package.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML standard</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML standard</a>
 
 
 
@@ -132,7 +131,7 @@ The certificate is not stored in the package.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=125240">W3C Recommendation, Canonical XML
+<a href="https://www.w3.org/TR/xml-c14n">W3C Recommendation, Canonical XML
 Version 1.0</a>
  
 

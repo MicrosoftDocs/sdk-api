@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: EE3591FD-4FE8-4F20-A4E2-52C896229571
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], IMFMediaEngineEx interface [Media Foundation],described, mf.imfmediaengineex, mfmediaengine/IMFMediaEngineEx
-ms.topic: interface
 f1_keywords:
 - mfmediaengine/IMFMediaEngineEx
 dev_langs:
@@ -428,7 +427,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfm
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=241429">Media Engine Sample</a>
+<a href="https://code.msdn.microsoft.com/windowsapps/media-engine-playback-ce1c82f0">Media Engine Sample</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 1733680a-6b14-4541-b30d-407f5185ac14
 ms.date: 12/05/2018
 ms.keywords: IFindReferenceTargetsCallback, IFindReferenceTargetsCallback interface [Windows Runtime], IFindReferenceTargetsCallback interface [Windows Runtime],described, windows/IFindReferenceTargetsCallback, winrt.ifindreferencetargetscallback
-ms.topic: interface
 f1_keywords:
 - windows.ui.xaml.hosting.referencetracker/IFindReferenceTargetsCallback
 dev_langs:

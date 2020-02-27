@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 6a28ccc6-1d06-41d7-8d76-14e594102832
 ms.date: 12/05/2018
 ms.keywords: SnmpSetRetry, SnmpSetRetry function [SNMP], _snmp_snmpsetretry, snmp.snmpsetretry, winsnmp/SnmpSetRetry
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpSetRetry
 dev_langs:

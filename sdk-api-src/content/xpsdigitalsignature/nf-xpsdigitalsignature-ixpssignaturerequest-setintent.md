@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8a77a168-58c7-4bb4-83ee-ed4dfd2839fe
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetIntent method, IXpsSignatureRequest.SetIntent, IXpsSignatureRequest::SetIntent, SetIntent, SetIntent method [XPS Documents and Packaging], SetIntent method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setintent, xpsdigitalsignature/IXpsSignatureRequest::SetIntent
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureRequest.SetIntent
 dev_langs:
@@ -135,7 +134,7 @@ The signature intent string describes what the signature means to the signer. Fo
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 27504cb3-5c78-4fcb-8d37-ce7e6ac2a006
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_CurrentFeaturePages method, IDiscRecorder2.get_CurrentFeaturePages, IDiscRecorder2::get_CurrentFeaturePages, get_CurrentFeaturePages, get_CurrentFeaturePages method [IMAPI], get_CurrentFeaturePages method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_currentfeaturepages, imapi2/IDiscRecorder2::get_CurrentFeaturePages
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscRecorder2.get_CurrentFeaturePages
 dev_langs:

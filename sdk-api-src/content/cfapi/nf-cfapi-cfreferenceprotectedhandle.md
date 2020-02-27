@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: C6281FD6-3A37-4D90-9B19-03DD23949C39
 ms.date: 12/05/2018
 ms.keywords: CfReferenceProtectedHandle, CfReferenceProtectedHandle function, cfapi/CfReferenceProtectedHandle, cloudApi.cfreferenceprotectedhandle
-ms.topic: function
 f1_keywords:
 - cfapi/CfReferenceProtectedHandle
 dev_langs:

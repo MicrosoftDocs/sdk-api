@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: af052aa3-db7a-47de-938c-32895b8735e9
 ms.date: 12/05/2018
 ms.keywords: OPC_URI_TARGET_MODE, OPC_URI_TARGET_MODE enumeration [Open Packaging Conventions], OPC_URI_TARGET_MODE_EXTERNAL, OPC_URI_TARGET_MODE_INTERNAL, msopc/OPC_URI_TARGET_MODE, msopc/OPC_URI_TARGET_MODE_EXTERNAL, msopc/OPC_URI_TARGET_MODE_INTERNAL, opc.opc_uri_target_mode
-ms.topic: enum
 f1_keywords:
 - msopc/OPC_URI_TARGET_MODE
 dev_langs:
@@ -86,7 +85,7 @@ For more information about relationships, see the <a href="https://docs.microsof
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML standard</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML standard</a>
 
 
 

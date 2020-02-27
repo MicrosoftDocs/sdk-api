@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 3befd77c-6962-4320-9456-760e8f41cb24
 ms.date: 12/05/2018
 ms.keywords: IWMBackupRestoreProps interface [windows Media Format],RemoveProp method, IWMBackupRestoreProps.RemoveProp, IWMBackupRestoreProps::RemoveProp, IWMBackupRestorePropsRemoveProp, RemoveProp, RemoveProp method [windows Media Format], RemoveProp method [windows Media Format],IWMBackupRestoreProps interface, wmformat.iwmbackuprestoreprops_removeprop, wmsdkidl/IWMBackupRestoreProps::RemoveProp
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMBackupRestoreProps.RemoveProp
 dev_langs:
@@ -53,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>RemoveProp</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>RemoveProp</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 

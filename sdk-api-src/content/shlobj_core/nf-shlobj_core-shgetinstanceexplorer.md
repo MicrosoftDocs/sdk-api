@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ac6d8f7d-2eae-4b22-b493-b4ef740e3c95
 ms.date: 12/05/2018
 ms.keywords: SHGetInstanceExplorer, SHGetInstanceExplorer function [Windows Shell], _win32_SHGetInstanceExplorer, shell.SHGetInstanceExplorer, shlobj_core/SHGetInstanceExplorer
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHGetInstanceExplorer
 dev_langs:
@@ -89,7 +88,7 @@ There are a number of components, such as Shell extension handlers, that are imp
 
 <b>SHGetInstanceExplorer</b> allows components that run in a host process to hold a reference on the host process. <b>SHGetInstanceExplorer</b> increments the host's reference count and returns a pointer to the host's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. By holding that reference, a component can prevent the host process from closing prematurely. After the component has completed its necessary processing, it should call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">(*ppunk)->Release</a> to release the host's reference and allow the process to terminate.
 
-<div class="alert"><b>Note</b>  If <b>SHGetInstanceExplorer</b> is successful, the component must release the host's reference when it is no longer needed. Otherwise, all resources associated with the process will remain in memory. The <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointed to by *<i>ppunk</i> can only be used to release this reference. Components cannot use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">(*ppunk)->QueryInterface</a> to request other interface pointers.</div>
+<div class="alert"><b>Note</b>  If <b>SHGetInstanceExplorer</b> is successful, the component must release the host's reference when it is no longer needed. Otherwise, all resources associated with the process will remain in memory. The <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointed to by *<i>ppunk</i> can only be used to release this reference. Components cannot use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">(*ppunk)->QueryInterface</a> to request other interface pointers.</div>
 <div> </div>
 <b>SHGetInstanceExplorer</b> succeeds only if it is called from from an application which had previously called <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetinstanceexplorer">SHSetInstanceExplorer</a> to set a process reference.
 

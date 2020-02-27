@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 13222b09-c58b-461d-85b7-9312a03a888a
 ms.date: 12/05/2018
 ms.keywords: _win32_waveInUnprepareHeader, mmeapi/waveInUnprepareHeader, multimedia.waveinunprepareheader, waveInUnprepareHeader, waveInUnprepareHeader function [Windows Multimedia]
-ms.topic: function
 f1_keywords:
 - mmeapi/waveInUnprepareHeader
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: d15bd0f9-4f2e-4098-bf5b-db03fde1362f
 ms.date: 12/05/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Polarity method, IBDA_FrequencyFilter.put_Polarity, IBDA_FrequencyFilter::put_Polarity, IBDA_FrequencyFilterput_Polarity, bdaiface/IBDA_FrequencyFilter::put_Polarity, mstv.ibda_frequencyfilter_put_polarity, put_Polarity, put_Polarity method [Microsoft TV Technologies], put_Polarity method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_FrequencyFilter.put_Polarity
 dev_langs:

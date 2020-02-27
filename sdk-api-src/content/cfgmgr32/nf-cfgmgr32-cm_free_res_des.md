@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: baef66ed-11a9-4a54-ba07-82159a9101e7
 ms.date: 12/05/2018
 ms.keywords: CM_Free_Res_Des, CM_Free_Res_Des function [Device and Driver Installation], cfgmgr32/CM_Free_Res_Des, cfgmgrfn_57d3d070-5730-4c20-a558-a52855e4d1e1.xml, devinst.cm_free_res_des
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Free_Res_Des
 dev_langs:

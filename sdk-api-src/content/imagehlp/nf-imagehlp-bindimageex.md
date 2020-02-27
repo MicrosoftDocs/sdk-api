@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 97edbe29-94e5-4d3c-b640-c92b7f01a159
 ms.date: 12/05/2018
 ms.keywords: BIND_ALL_IMAGES, BIND_CACHE_IMPORT_DLLS, BIND_NO_BOUND_IMPORTS, BIND_NO_UPDATE, BindImageEx, BindImageEx function, _win32_bindimageex, base.bindimageex, imagehlp/BindImageEx
-ms.topic: function
 f1_keywords:
 - imagehlp/BindImageEx
 dev_langs:

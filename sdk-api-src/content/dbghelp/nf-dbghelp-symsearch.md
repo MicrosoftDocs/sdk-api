@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: d6b3c06b-fcfd-436c-b267-99ec1380e744
 ms.date: 12/05/2018
 ms.keywords: SYMSEARCH_ALLITEMS, SYMSEARCH_GLOBALSONLY, SYMSEARCH_MASKOBJS, SYMSEARCH_RECURSE, SymSearch, SymSearch function, SymSearchW, base.symsearch, dbghelp/SymSearch, dbghelp/SymSearchW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymSearch
 dev_langs:

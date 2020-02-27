@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: B9287BDA-3C7A-457C-8D70-E27A0B9BAE99
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpv6Initialize, PxeDhcpv6Initialize function [Windows Deployment Services], wds.pxedhcpv6initialize, wdspxe/PxeDhcpv6Initialize
-ms.topic: function
 f1_keywords:
 - wdspxe/PxeDhcpv6Initialize
 dev_langs:
@@ -54,7 +53,7 @@ Initializes a response packet as a DHCPv6 reply packet.
 
 For RELAY-FORW messages, this function initializes the message type, hop count, link address and peer address.  For other DHCPv6 request types, this function initializes the message type and transaction ID.  In all cases, the option payload of the produced packet will be empty.
 
-For more information about RELAY-FORW messages, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="Http://go.microsoft.com/fwlink/p/?linkid=132626">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
+For more information about RELAY-FORW messages, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="https://www.ietf.org/rfc/rfc3315.txt">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
 
 
 ## -parameters

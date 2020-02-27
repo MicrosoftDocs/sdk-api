@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 501fae9f-84b3-4025-83bc-ad0bbe47384d
 ms.date: 12/05/2018
 ms.keywords: AddStreamForRecord, AddStreamForRecord method [windows Media Format], AddStreamForRecord method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],AddStreamForRecord method, IWMMutualExclusion2.AddStreamForRecord, IWMMutualExclusion2::AddStreamForRecord, IWMMutualExclusion2AddStreamForRecord, wmformat.iwmmutualexclusion2_addstreamforrecord, wmsdkidl/IWMMutualExclusion2::AddStreamForRecord
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMMutualExclusion2.AddStreamForRecord
 dev_langs:

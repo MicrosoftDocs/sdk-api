@@ -5,7 +5,6 @@ description: Creates an object that represents a session for content protection.
 tech.root: direct3d12
 ms.date: 10/15/2019
 ms.keywords: ID3D12Device4 interface,CreateProtectedResourceSession method, ID3D12Device4.CreateProtectedResourceSession, ID3D12Device4::CreateProtectedResourceSession, CreateProtectedResourceSession, CreateProtectedResourceSession method, CreateProtectedResourceSession method,ID3D12Device4 interface, direct3d12.id3d12device4_createprotectedresourcesession, d3d12/ID3D12Device4::CreateProtectedResourceSession
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device4.CreateProtectedResourceSession
 dev_langs:

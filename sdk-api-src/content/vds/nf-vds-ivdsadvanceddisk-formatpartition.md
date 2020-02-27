@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 9b7015c2-a85d-4a56-8aec-208933640185
 ms.date: 12/05/2018
 ms.keywords: FormatPartition, FormatPartition method [VDS], FormatPartition method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],FormatPartition method, IVdsAdvancedDisk.FormatPartition, IVdsAdvancedDisk::FormatPartition, base.ivdsadvanceddisk_formatpartition, vds/IVdsAdvancedDisk::FormatPartition
-ms.topic: method
 f1_keywords:
 - vds/IVdsAdvancedDisk.FormatPartition
 dev_langs:
@@ -171,7 +170,7 @@ This method formats only OEM, ESP, and unknown partitions. For other partitions,
 
 This method cannot be used to format removable media.
 
-For information about file system limits such as minimum and maximum allocation unit size (also called cluster size), see <a href="Http://go.microsoft.com/fwlink/p/?linkid=89389">NTFS Technical Reference</a> and <a href="Http://go.microsoft.com/fwlink/p/?linkid=89461">FAT Technical Reference</a>.
+For information about file system limits such as minimum and maximum allocation unit size (also called cluster size), see <a href="https://technet.microsoft.com/library/81cc8a8a-bd32-4786-a849-03245d68d8e4">NTFS Technical Reference</a> and <a href="https://technet.microsoft.com/library/810c3217-77bb-4553-b6ce-3ff10dbdbac9">FAT Technical Reference</a>.
 
 If an OEM partition is formatted as FAT or FAT32, the partition type does not change. If it is formatted with NTFS, the partition type changes to PARTITION_IFS (0x07). For information about partition types, see <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-create_partition_parameters">CREATE_PARTITION_PARAMETERS</a>.
 

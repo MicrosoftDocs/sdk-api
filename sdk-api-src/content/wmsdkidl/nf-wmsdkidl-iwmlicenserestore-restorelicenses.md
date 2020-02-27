@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 2d645b3a-e856-4745-b80a-89a3bc2b38bd
 ms.date: 12/05/2018
 ms.keywords: IWMLicenseRestore interface [windows Media Format],RestoreLicenses method, IWMLicenseRestore.RestoreLicenses, IWMLicenseRestore::RestoreLicenses, IWMLicenseRestoreRestoreLicenses, RestoreLicenses, RestoreLicenses method [windows Media Format], RestoreLicenses method [windows Media Format],IWMLicenseRestore interface, wmformat.iwmlicenserestore_restorelicenses, wmsdkidl/IWMLicenseRestore::RestoreLicenses
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMLicenseRestore.RestoreLicenses
 dev_langs:
@@ -53,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>RestoreLicenses</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>RestoreLicenses</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 

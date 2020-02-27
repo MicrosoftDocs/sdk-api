@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 08109828-44d9-4b8f-a57c-bbedfc82fbbb
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509Extensions interface, IX509Extensions interface [Security],Add method, IX509Extensions.Add, IX509Extensions::Add, certenroll/IX509Extensions::Add, security.ix509extensions_add_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509Extensions.Add
 dev_langs:

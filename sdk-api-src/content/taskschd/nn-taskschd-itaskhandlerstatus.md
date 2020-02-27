@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 8b846be3-f05f-4d90-9865-da245c2bfdbf
 ms.date: 12/05/2018
 ms.keywords: ITaskHandlerStatus, ITaskHandlerStatus interface [Task Scheduler], ITaskHandlerStatus interface [Task Scheduler],described, taskschd.itaskhandlerstatus, taskschd/ITaskHandlerStatus
-ms.topic: interface
 f1_keywords:
 - taskschd/ITaskHandlerStatus
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c5f3e153-c92f-4cdf-9aae-336b1f3dd8d6
 ms.date: 12/05/2018
 ms.keywords: IAMParse, IAMParse interface [DirectShow], IAMParse interface [DirectShow],described, IAMParseInterface, amparse/IAMParse, dshow.iamparse
-ms.topic: interface
 f1_keywords:
 - amparse/IAMParse
 dev_langs:

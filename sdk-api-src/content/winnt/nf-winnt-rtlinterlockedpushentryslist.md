@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 0d52bc3a-9f43-4bc2-99c2-1a0efa7b29cd
 ms.date: 12/05/2018
 ms.keywords: RtlInterlockedPushEntrySList, RtlInterlockedPushEntrySList function, base.rtlinterlockedpushentryslist, winnt/RtlInterlockedPushEntrySList
-ms.topic: function
 f1_keywords:
 - winnt/RtlInterlockedPushEntrySList
 dev_langs:

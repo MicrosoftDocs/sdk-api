@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: ca428138-34d2-499d-9560-8dfd51403ba1
 ms.date: 12/05/2018
 ms.keywords: IMcastAddressAllocation interface [TAPI 2.2],RequestAddress method, IMcastAddressAllocation.RequestAddress, IMcastAddressAllocation::RequestAddress, RequestAddress, RequestAddress method [TAPI 2.2], RequestAddress method [TAPI 2.2],IMcastAddressAllocation interface, _tapi3_imcastaddressallocation_requestaddress, mdhcp/IMcastAddressAllocation::RequestAddress, tapi3.imcastaddressallocation_requestaddress
-ms.topic: method
 f1_keywords:
 - mdhcp/IMcastAddressAllocation.RequestAddress
 dev_langs:

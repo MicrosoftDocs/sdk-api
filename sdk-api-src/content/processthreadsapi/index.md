@@ -1,9 +1,10 @@
 ---
 UID: NA:processthreadsapi
+title: Processthreadsapi.h header
 ms.assetid: 6e439d03-d612-3aad-a0fa-8a77449a3900
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: base
 ---
 

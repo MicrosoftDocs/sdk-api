@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 45B4D41E-9C5C-47C7-86EB-D7B9BA14211B
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation2, IUIAutomation2 interface [Windows Accessibility], IUIAutomation2 interface [Windows Accessibility],described, uiautomationclient/IUIAutomation2, winauto.uiauto_IUIAutomation2
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomation2
 dev_langs:

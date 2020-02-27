@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d924e610-1142-4623-b64b-219558fb07d6
 ms.date: 12/05/2018
 ms.keywords: GetDocuments, GetDocuments method [XPS Documents and Packaging], GetDocuments method [XPS Documents and Packaging],IXpsOMDocumentSequence interface, IXpsOMDocumentSequence interface [XPS Documents and Packaging],GetDocuments method, IXpsOMDocumentSequence.GetDocuments, IXpsOMDocumentSequence::GetDocuments, xps.ixpsomdocumentsequence_getdocuments, xpsobjectmodel/IXpsOMDocumentSequence::GetDocuments
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDocumentSequence.GetDocuments
 dev_langs:
@@ -120,7 +119,7 @@ If the document sequence does not have any documents, the document collection th
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\put_useragent.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchManager interface [search],put_UserAgent method, ISearchManager.put_UserAgent, ISearchManager::put_UserAgent, _search_ISearchManager_put_UserAgent, put_UserAgent, put_UserAgent method [search], put_UserAgent method [search],ISearchManager interface, search._search_ISearchManager_put_UserAgent, searchapi/ISearchManager::put_UserAgent
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchManager.put_UserAgent
 dev_langs:
@@ -86,7 +85,7 @@ A user agent is a client application that accesses the Internet. User agents inc
 
 Each user agent typially has a user agent string, such as "Mozilla/4.0", that it can pass to websites and services to identify itself.
 
-The ReindexMatchingUrls code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates ways to specify which files to re-index and how.
+The ReindexMatchingUrls code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates ways to specify which files to re-index and how.
 
 
 

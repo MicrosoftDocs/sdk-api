@@ -7,7 +7,6 @@ tech.root: WinHttp
 ms.assetid: 041ec571-10ed-48d0-9a99-e0b5d9e08f70
 ms.date: 12/05/2018
 ms.keywords: WinHttpQueryDataAvailable, WinHttpQueryDataAvailable function [WinHTTP], http.winhttpquerydataavailable, winhttp.winhttpquerydataavailable_function, winhttp/WinHttpQueryDataAvailable
-ms.topic: function
 f1_keywords:
 - winhttp/WinHttpQueryDataAvailable
 dev_langs:

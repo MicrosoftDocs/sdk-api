@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: A40BD926-66BB-498C-B26B-BBDE0A122456
 ms.date: 12/05/2018
 ms.keywords: IMFSensorActivityMonitor interface [Media Foundation],Stop method, IMFSensorActivityMonitor.Stop, IMFSensorActivityMonitor::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFSensorActivityMonitor interface, mf.imfsensoractivitymonitor_stop, mfidl/IMFSensorActivityMonitor::Stop
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSensorActivityMonitor.Stop
 dev_langs:

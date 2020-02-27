@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 6e62b55e-9919-44be-a9ae-f1319cc82d76
 ms.date: 12/05/2018
 ms.keywords: TcDeleteFlow, TcDeleteFlow function [QOS], _gqos_tcdeleteflow, qos.tcdeleteflow, traffic/TcDeleteFlow
-ms.topic: function
 f1_keywords:
 - traffic/TcDeleteFlow
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: e852b3e5-c5b8-45e2-af72-f7e89fb2c310
 ms.date: 12/05/2018
 ms.keywords: NdfCreateDNSIncident, NdfCreateDNSIncident function [NDF], ndf.ndfcreatednsincident, ndfapi/NdfCreateDNSIncident
-ms.topic: function
 f1_keywords:
 - ndfapi/NdfCreateDNSIncident
 dev_langs:

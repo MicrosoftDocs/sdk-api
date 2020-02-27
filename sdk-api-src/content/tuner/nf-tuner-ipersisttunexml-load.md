@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: afbfb4da-ac61-496b-9383-05c312bbfc2c
 ms.date: 12/05/2018
 ms.keywords: IPersistTuneXml interface [Microsoft TV Technologies],Load method, IPersistTuneXml.Load, IPersistTuneXml::Load, Load, Load method [Microsoft TV Technologies], Load method [Microsoft TV Technologies],IPersistTuneXml interface, mstv.ipersisttunexml_load, tuner/IPersistTuneXml::Load
-ms.topic: method
 f1_keywords:
 - tuner/IPersistTuneXml.Load
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: ab98d93c-76fe-477b-9032-c54c0e22a176
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisualBrush interface [XPS Documents and Packaging],SetVisualLookup method, IXpsOMVisualBrush.SetVisualLookup, IXpsOMVisualBrush::SetVisualLookup, SetVisualLookup, SetVisualLookup method [XPS Documents and Packaging], SetVisualLookup method [XPS Documents and Packaging],IXpsOMVisualBrush interface, xps.ixpsomvisualbrush_setvisuallookup, xpsobjectmodel/IXpsOMVisualBrush::SetVisualLookup
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisualBrush.SetVisualLookup
 dev_langs:
@@ -92,7 +91,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-According to the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
+According to the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
 
 </td>
 </tr>
@@ -212,7 +211,7 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 307b4ab5-733d-4340-a400-3a13039099b0
 ms.date: 12/05/2018
 ms.keywords: GetGenericParamConstraintProps, GetGenericParamConstraintProps method [Windows Runtime], GetGenericParamConstraintProps method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],GetGenericParamConstraintProps method, IMetaDataImport2.GetGenericParamConstraintProps, IMetaDataImport2::GetGenericParamConstraintProps, rometadataapi/IMetaDataImport2::GetGenericParamConstraintProps, winrt.imetadataimport2_getgenericparamconstraintprops
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataImport2.GetGenericParamConstraintProps
 dev_langs:

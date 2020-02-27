@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7uk9.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxJob interface [Fax Service],SenderCompany property, IFaxJob.SenderCompany, IFaxJob.get_SenderCompany, IFaxJob::SenderCompany, IFaxJob::get_SenderCompany, SenderCompany property [Fax Service], SenderCompany property [Fax Service],IFaxJob interface, _mfax_ifaxjob_get_sendercompany, fax._mfax_ifaxjob_get_sendercompany, fax._mfax_ifaxjob_mfax_ifaxjob_get_sendercompany_cpp, faxcom/IFaxJob::SenderCompany, faxcom/IFaxJob::get_SenderCompany, get_SenderCompany
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxJob.SenderCompany
 dev_langs:

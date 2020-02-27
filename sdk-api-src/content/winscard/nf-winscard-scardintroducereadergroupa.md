@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: aaf7d2f9-71d5-42bb-a96f-71124be40aa3
 ms.date: 12/05/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardIntroduceReaderGroup, SCardIntroduceReaderGroup function [Security], SCardIntroduceReaderGroupA, SCardIntroduceReaderGroupW, _smart_scardintroducereadergroup, security.scardintroducereadergroup, winscard/SCardIntroduceReaderGroup, winscard/SCardIntroduceReaderGroupA, winscard/SCardIntroduceReaderGroupW
-ms.topic: function
 f1_keywords:
 - winscard/SCardIntroduceReaderGroup
 dev_langs:

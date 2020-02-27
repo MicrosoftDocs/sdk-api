@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 827af758-63df-42bb-9ecf-087bc974710a
 ms.date: 12/05/2018
 ms.keywords: ICommDlgBrowser interface [Windows Shell],OnDefaultCommand method, ICommDlgBrowser.OnDefaultCommand, ICommDlgBrowser::OnDefaultCommand, OnDefaultCommand, OnDefaultCommand method [Windows Shell], OnDefaultCommand method [Windows Shell],ICommDlgBrowser interface, _win32_ICommDlgBrowser_OnDefaultCommand, shell.ICommDlgBrowser_OnDefaultCommand, shobjidl_core/ICommDlgBrowser::OnDefaultCommand
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ICommDlgBrowser.OnDefaultCommand
 dev_langs:

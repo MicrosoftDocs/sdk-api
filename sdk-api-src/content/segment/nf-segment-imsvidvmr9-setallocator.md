@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: f654adac-12b6-47c7-99d4-0612b1532df4
 ms.date: 12/05/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],SetAllocator method, IMSVidVMR9.SetAllocator, IMSVidVMR9::SetAllocator, IMSVidVMR9SetAllocator, SetAllocator, SetAllocator method [Microsoft TV Technologies], SetAllocator method [Microsoft TV Technologies],IMSVidVMR9 interface, mstv.imsvidvmr9_setallocator, segment/IMSVidVMR9::SetAllocator
-ms.topic: method
 f1_keywords:
 - segment/IMSVidVMR9.SetAllocator
 dev_langs:

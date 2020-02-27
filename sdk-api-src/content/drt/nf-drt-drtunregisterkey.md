@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: cf8f877b-44a8-4153-bf02-0b0061bc53d2
 ms.date: 12/05/2018
 ms.keywords: DrtUnregisterKey, DrtUnregisterKey function [Peer Networking], drt/DrtUnregisterKey, p2p.drtunregisterkey
-ms.topic: function
 f1_keywords:
 - drt/DrtUnregisterKey
 dev_langs:
@@ -44,48 +43,24 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# DrtUnregisterKey function
-
-
 ## -description
-
 
 The <b>DrtUnregisterKey</b> function deregisters a key from the DRT.
 
-
 ## -parameters
-
-
-
 
 ### -param hKeyRegistration [in]
 
 The DRT handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> function specifying a registered key within the DRT.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
-
-
 
 A node can deregister a key anytime after registration.  Additionally, if an application calls <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtclose">DrtClose</a>, all keys are deregistered by the DRT infrastructure.
 
 Only the application that registered they key may deregister it. An application can deregister a key from the local node. Upon completion the function triggers a <b>DRT_EVENT_LEAFSET_KEY_CHANGE</b> event;  informing the application and other nodes participating in the DRT mesh of the deregistration. 
 
-
-
-
 ## -see-also
-
-
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtclose">DrtClose</a>
@@ -97,7 +72,3 @@ Only the application that registered they key may deregister it. An application 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>
- 
-
- 
-

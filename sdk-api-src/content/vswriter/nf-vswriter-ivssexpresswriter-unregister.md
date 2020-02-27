@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 24398ace-4e76-471b-ae04-d2005e09cb6a
 ms.date: 12/05/2018
 ms.keywords: IVssExpressWriter interface,Unregister method, IVssExpressWriter.Unregister, IVssExpressWriter::Unregister, Unregister, Unregister method, Unregister method,IVssExpressWriter interface, base.ivssexpresswriter_unregister, vswriter/IVssExpressWriter::Unregister
-ms.topic: method
 f1_keywords:
 - vswriter/IVssExpressWriter.Unregister
 dev_langs:

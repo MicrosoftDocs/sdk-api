@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ec37e7a5-d2e8-468a-8b5b-d1a1fa538bfe
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_SymbolRate method, IBDA_DigitalDemodulator.put_SymbolRate, IBDA_DigitalDemodulator::put_SymbolRate, IBDA_DigitalDemodulatorput_SymbolRate, bdaiface/IBDA_DigitalDemodulator::put_SymbolRate, mstv.ibda_digitaldemodulator_put_symbolrate, put_SymbolRate, put_SymbolRate method [Microsoft TV Technologies], put_SymbolRate method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_DigitalDemodulator.put_SymbolRate
 dev_langs:

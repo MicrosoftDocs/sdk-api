@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 60808015-317e-469f-aa28-a2c2bfdb16a8
 ms.date: 12/05/2018
 ms.keywords: FilterView, FilterView method [Windows Shell], FilterView method [Windows Shell],IShellFolderViewDual3 interface, IShellFolderViewDual3 interface [Windows Shell],FilterView method, IShellFolderViewDual3.FilterView, IShellFolderViewDual3::FilterView, _shell_IShellFolderViewDual3_FilterView, shell.IShellFolderViewDual3_FilterView, shldisp/IShellFolderViewDual3::FilterView
-ms.topic: method
 f1_keywords:
 - shldisp/IShellFolderViewDual3.FilterView
 dev_langs:

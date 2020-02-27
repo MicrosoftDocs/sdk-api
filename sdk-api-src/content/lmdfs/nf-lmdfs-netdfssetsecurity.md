@@ -7,7 +7,6 @@ tech.root: Dfs
 ms.assetid: 7ee81f67-face-498f-b5bd-ca2636408012
 ms.date: 12/05/2018
 ms.keywords: NetDfsSetSecurity, NetDfsSetSecurity function [Distributed File System], dfs.netdfssetsecurity, fs.netdfssetsecurity, lmdfs/NetDfsSetSecurity, netmgmt.netdfssetsecurity
-ms.topic: function
 f1_keywords:
 - lmdfs/NetDfsSetSecurity
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 35dcc31f-8acd-4b7d-901d-3b2e9cde1690
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CREDENTIAL_PAIR0, IKEEXT_CREDENTIAL_PAIR0 structure [Filtering], fwp.ikeext_credential_pair0, iketypes/IKEEXT_CREDENTIAL_PAIR0
-ms.topic: struct
 f1_keywords:
 - iketypes/IKEEXT_CREDENTIAL_PAIR0
 dev_langs:

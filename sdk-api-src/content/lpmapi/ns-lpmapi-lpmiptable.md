@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: cbd67aa2-8b87-4e24-8a8e-a6c60cebf31f
 ms.date: 12/05/2018
 ms.keywords: LPMIPTABLE, LPMIPTABLE structure [QOS], _gqos_lpmiptable, lpmapi/LPMIPTABLE, qos.lpmiptable
-ms.topic: struct
 f1_keywords:
 - lpmapi/LPMIPTABLE
 dev_langs:

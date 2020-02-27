@@ -7,7 +7,6 @@ tech.root: NAP
 ms.assetid: 99e5bad8-47dd-447b-bd8d-e35ae765808b
 ms.date: 12/05/2018
 ms.keywords: CorrelationId, CorrelationId structure [NAP], nap.correlationid_struct, naptypes/CorrelationId
-ms.topic: struct
 f1_keywords:
 - naptypes/CorrelationId
 dev_langs:
@@ -65,7 +64,7 @@ A globally unique identifier (GUID) that identifies a SoH  exchange.
 
 ### -field timeStamp
 
-A  unique <a href="http://go.microsoft.com/fwlink/p/?linkid=90006">FILETIME</a> value that contains the system time at which the <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-soh">SoHRequest</a> was generated. 
+A  unique <a href="https://msdn.microsoft.com/library/ms724284.aspx">FILETIME</a> value that contains the system time at which the <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-soh">SoHRequest</a> was generated. 
 
 
 ## -remarks

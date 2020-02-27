@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 9364d317-b32a-4b8d-b67a-32a34b64a5ac
 ms.date: 12/05/2018
 ms.keywords: INetFwRule3 interface [ICS/ICF],RemoteUserAuthorizedList property, INetFwRule3.RemoteUserAuthorizedList, INetFwRule3.get_RemoteUserAuthorizedList, INetFwRule3::RemoteUserAuthorizedList, INetFwRule3::get_RemoteUserAuthorizedList, INetFwRule3::put_RemoteUserAuthorizedList, RemoteUserAuthorizedList property [ICS/ICF], RemoteUserAuthorizedList property [ICS/ICF],INetFwRule3 interface, get_RemoteUserAuthorizedList, ics.inetfwrule3_remoteuserauthorizedlist, netfw/INetFwRule3::RemoteUserAuthorizedList, netfw/INetFwRule3::get_RemoteUserAuthorizedList, netfw/INetFwRule3::put_RemoteUserAuthorizedList
-ms.topic: method
 f1_keywords:
 - netfw/INetFwRule3.RemoteUserAuthorizedList
 dev_langs:

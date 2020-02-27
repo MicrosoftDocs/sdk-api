@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 102299e9-3276-4802-bd65-c3dd593f07b8
 ms.date: 12/05/2018
 ms.keywords: WINBIO_COMPONENT_ENGINE, WINBIO_COMPONENT_SENSOR, WINBIO_COMPONENT_STORAGE, WinBioControlUnitPrivileged, WinBioControlUnitPrivileged function [Windows Biometric Framework API], secbiomet.winbiocontrolunitprivileged, winbio/WinBioControlUnitPrivileged
-ms.topic: function
 f1_keywords:
 - winbio/WinBioControlUnitPrivileged
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: a95b867c-7567-4ea4-a02c-049002de2109
 ms.date: 12/05/2018
 ms.keywords: MI_Class_Clone, MI_Class_Clone function [Windows Management Infrastructure (MI)], mi/MI_Class_Clone, wmi_v2.mi_class_clone
-ms.topic: function
 f1_keywords:
 - mi/MI_Class_Clone
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CreateSourceVoice(IXAudio2SourceVoice@,const WAVEFORMATEX,UINT32,float,IXAudio2VoiceCallback,const XAUDIO2_VOICE_SENDS,const XAUDIO2_EFFECT_CHAIN)
 ms.date: 12/05/2018
 ms.keywords: CreateSourceVoice, CreateSourceVoice method [XAudio2 Audio Mixing APIs], CreateSourceVoice method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],CreateSourceVoice method, IXAudio2.CreateSourceVoice, IXAudio2::CreateSourceVoice, xaudio2.ixaudio2_interface_createsourcevoice, xaudio2/IXAudio2::CreateSourceVoice
-ms.topic: method
 f1_keywords:
 - xaudio2/IXAudio2.CreateSourceVoice
 dev_langs:
@@ -84,7 +83,7 @@ XAudio2 supports PCM and ADPCM voice types.
 <tr>
 <td>-or-</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a>
+<a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a>
 </td>
 <td>18</td>
 </tr>

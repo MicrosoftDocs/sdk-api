@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: f630f806-cc5a-408e-bd84-49555ebb41c1
 ms.date: 12/05/2018
 ms.keywords: GetFilterInfo, GetFilterInfo method [Windows Sync], GetFilterInfo method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],GetFilterInfo method, ISyncChangeBatchAdvanced.GetFilterInfo, ISyncChangeBatchAdvanced::GetFilterInfo, winsync.isyncchangebatchadvanced_getfilterinfo, winsync/ISyncChangeBatchAdvanced::GetFilterInfo
-ms.topic: method
 f1_keywords:
 - winsync/ISyncChangeBatchAdvanced.GetFilterInfo
 dev_langs:

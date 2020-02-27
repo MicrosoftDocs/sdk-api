@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 474CB378-3EFC-414F-B75F-D41577D0787D
 ms.date: 12/5/2018
 ms.keywords: DML_ELEMENT_WISE_DEQUANTIZE_LINEAR_OPERATOR_DESC, DML_ELEMENT_WISE_DEQUANTIZE_LINEAR_OPERATOR_DESC structure, direct3d12.dml_element_wise_dequantize_linear_operator_desc, directml/DML_ELEMENT_WISE_DEQUANTIZE_LINEAR_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_ELEMENT_WISE_DEQUANTIZE_LINEAR_OPERATOR_DESC
 dev_langs:

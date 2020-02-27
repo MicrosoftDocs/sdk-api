@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 8c0a856e-831e-489d-9e2a-bf2829bf59b6
 ms.date: 12/05/2018
 ms.keywords: IEnumVdsObject interface [VDS],Skip method, IEnumVdsObject.Skip, IEnumVdsObject::Skip, Skip, Skip method [VDS], Skip method [VDS],IEnumVdsObject interface, base.ienumvdsobject_skip, vds/IEnumVdsObject::Skip, vdshwprv/IEnumVdsObject::Skip
-ms.topic: method
 f1_keywords:
 - vds/IEnumVdsObject.Skip
 dev_langs:

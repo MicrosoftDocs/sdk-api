@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: b7ff7e8a-17bd-46aa-bf9b-74f3e33a7ce2
 ms.date: 12/05/2018
 ms.keywords: GetDataModule, GetDataModule method [Microsoft TV Technologies], GetDataModule method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetDataModule method, IISDB_CDT.GetDataModule, IISDB_CDT::GetDataModule, dvbsiparser/IISDB_CDT::GetDataModule, mstv.iisdb_cdt_getdatamodule
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IISDB_CDT.GetDataModule
 dev_langs:

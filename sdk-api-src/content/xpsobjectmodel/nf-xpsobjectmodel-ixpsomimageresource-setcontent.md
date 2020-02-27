@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 91dc565f-4ccb-497c-b5d2-f9b60884b094
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageResource interface [XPS Documents and Packaging],SetContent method, IXpsOMImageResource.SetContent, IXpsOMImageResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMImageResource interface, xps.ixpsomimageresource_setcontent, xpsobjectmodel/IXpsOMImageResource::SetContent
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMImageResource.SetContent
 dev_langs:
@@ -106,7 +105,7 @@ Because <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

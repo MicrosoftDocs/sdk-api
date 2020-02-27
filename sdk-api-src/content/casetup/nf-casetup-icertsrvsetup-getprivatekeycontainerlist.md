@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: a57590d3-0882-4407-b920-964c0e489f80
 ms.date: 12/05/2018
 ms.keywords: GetPrivateKeyContainerList, GetPrivateKeyContainerList method [Security], GetPrivateKeyContainerList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetPrivateKeyContainerList method, ICertSrvSetup.GetPrivateKeyContainerList, ICertSrvSetup::GetPrivateKeyContainerList, casetup/ICertSrvSetup::GetPrivateKeyContainerList, security.icertsrvsetup_getprivatekeycontainerlist
-ms.topic: method
 f1_keywords:
 - casetup/ICertSrvSetup.GetPrivateKeyContainerList
 dev_langs:

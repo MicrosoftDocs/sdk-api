@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: dc5f92e8-29fe-474c-bf1d-c6d7716abce1
 ms.date: 12/05/2018
 ms.keywords: ICspStatus interface [Security],Initialize method, ICspStatus.Initialize, ICspStatus::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICspStatus interface, certenroll/ICspStatus::Initialize, security.icspstatus_initialize
-ms.topic: method
 f1_keywords:
 - certenroll/ICspStatus.Initialize
 dev_langs:

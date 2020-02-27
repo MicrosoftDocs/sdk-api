@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: DB9D63B1-2703-47F7-8F31-30FA0110E1E9
 ms.date: 12/05/2018
 ms.keywords: PTGetPrintDeviceCapabilities, PTGetPrintDeviceCapabilities function [XPS Documents and Packaging], prntvpt/PTGetPrintDeviceCapabilities, xps.ptgetprintdevicecapabilities
-ms.topic: function
 f1_keywords:
 - prntvpt/PTGetPrintDeviceCapabilities
 dev_langs:

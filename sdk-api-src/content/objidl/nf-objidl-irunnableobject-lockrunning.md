@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: ce501785-16ad-4120-abea-41e2d6ca67df
 ms.date: 12/05/2018
 ms.keywords: IRunnableObject interface [COM],LockRunning method, IRunnableObject.LockRunning, IRunnableObject::LockRunning, LockRunning, LockRunning method [COM], LockRunning method [COM],IRunnableObject interface, _com_irunnableobject_lockrunning, com.irunnableobject_lockrunning, objidl/IRunnableObject::LockRunning
-ms.topic: method
 f1_keywords:
 - objidl/IRunnableObject.LockRunning
 dev_langs:
@@ -84,7 +83,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 Most implementations of <b>IRunnableObject::LockRunning</b> call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-colockobjectexternal">CoLockObjectExternal</a>.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olelockrunning">OleLockRunning</a> is a helper function that conveniently repackages the functionality offered by <b>IRunnableObject::LockRunning</b>. With the release of OLE 2.01, the implementation of <b>OleLockRunning</b> was changed to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a>, ask for <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a>, and then call <b>IRunnableObject::LockRunning</b>. In other words, you can use the interface and the helper function interchangeably.
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olelockrunning">OleLockRunning</a> is a helper function that conveniently repackages the functionality offered by <b>IRunnableObject::LockRunning</b>. With the release of OLE 2.01, the implementation of <b>OleLockRunning</b> was changed to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>, ask for <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a>, and then call <b>IRunnableObject::LockRunning</b>. In other words, you can use the interface and the helper function interchangeably.
 
 
 

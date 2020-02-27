@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 38ed99a7-f704-467b-a23f-a19c990d0b10
 ms.date: 12/05/2018
 ms.keywords: DrawDibGetPalette, DrawDibGetPalette function [Windows Multimedia], _win32_DrawDibGetPalette, multimedia.drawdibgetpalette, vfw/DrawDibGetPalette
-ms.topic: function
 f1_keywords:
 - vfw/DrawDibGetPalette
 dev_langs:

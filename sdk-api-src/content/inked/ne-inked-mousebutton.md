@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: cfcbee55-3489-44da-a726-71dc615fa7f5
 ms.date: 12/05/2018
 ms.keywords: LEFT_BUTTON, MIDDLE_BUTTON, MouseButton, MouseButton enumeration [Tablet PC], NO_BUTTON, RIGHT_BUTTON, cfcbee55-3489-44da-a726-71dc615fa7f5, inked/LEFT_BUTTON, inked/MIDDLE_BUTTON, inked/MouseButton, inked/NO_BUTTON, inked/RIGHT_BUTTON, tablet.mousebutton
-ms.topic: enum
 f1_keywords:
 - inked/MouseButton
 dev_langs:

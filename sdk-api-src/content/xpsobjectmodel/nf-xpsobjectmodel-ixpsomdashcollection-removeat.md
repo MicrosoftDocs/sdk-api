@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 5ccce0d4-c764-4da4-9d7c-463921a92a6a
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDashCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMDashCollection.RemoveAt, IXpsOMDashCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, xps.ixpsomdashcollection_removeat, xpsobjectmodel/IXpsOMDashCollection::RemoveAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDashCollection.RemoveAt
 dev_langs:
@@ -93,7 +92,7 @@ The figure that follows illustrates how the collection is changed by the <b>Remo
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

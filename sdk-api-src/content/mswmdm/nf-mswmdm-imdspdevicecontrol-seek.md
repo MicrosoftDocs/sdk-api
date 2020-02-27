@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 05fbaab8-e1fa-4960-9591-d22347bc04f2
 ms.date: 12/05/2018
 ms.keywords: IMDSPDeviceControl interface [windows Media Device Manager],Seek method, IMDSPDeviceControl.Seek, IMDSPDeviceControl::Seek, IMDSPDeviceControlSeek, Seek, Seek method [windows Media Device Manager], Seek method [windows Media Device Manager],IMDSPDeviceControl interface, mswmdm/IMDSPDeviceControl::Seek, wmdm.imdspdevicecontrol_seek
-ms.topic: method
 f1_keywords:
 - mswmdm/IMDSPDeviceControl.Seek
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: ec805089-aff4-4885-b650-a784ce25a7d3
 ms.date: 12/05/2018
 ms.keywords: IWbemDecoupledRegistrar, IWbemDecoupledRegistrar interface [Windows Management Instrumentation], IWbemDecoupledRegistrar interface [Windows Management Instrumentation],described, _hmm_iwbemdecoupledregistrar, wbemprov/IWbemDecoupledRegistrar, wmi.iwbemdecoupledregistrar
-ms.topic: interface
 f1_keywords:
 - wbemprov/IWbemDecoupledRegistrar
 dev_langs:

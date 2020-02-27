@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 3112be44-f610-421f-a4ea-0f87fc383540
 ms.date: 12/05/2018
 ms.keywords: WsReadMessageEnd, WsReadMessageEnd function [Web Services for Windows], webservices/WsReadMessageEnd, wsw.wsreadmessageend
-ms.topic: function
 f1_keywords:
 - webservices/WsReadMessageEnd
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 6DCAD69B-3C00-4B3A-97AA-69DF26EF5CD4
 ms.date: 12/05/2018
 ms.keywords: GetVideoDecoderProfileCount, GetVideoDecoderProfileCount method [Media Foundation], GetVideoDecoderProfileCount method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],GetVideoDecoderProfileCount method, ID3D11VideoDevice.GetVideoDecoderProfileCount, ID3D11VideoDevice::GetVideoDecoderProfileCount, d3d11/ID3D11VideoDevice::GetVideoDecoderProfileCount, mf.id3d11videodevice_getvideodecoderprofilecount
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11VideoDevice.GetVideoDecoderProfileCount
 dev_langs:

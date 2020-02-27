@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getshadow.htm
 ms.date: 12/05/2018
 ms.keywords: GetShadow, GetShadow method [Windows Controls], GetShadow method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetShadow method, ITextFont.GetShadow, ITextFont::GetShadow, _win32_ITextFont_GetShadow, _win32_ITextFont_GetShadow_cpp, controls.ITextFont_GetShadow, controls._win32_ITextFont_GetShadow, tom/ITextFont::GetShadow
-ms.topic: method
 f1_keywords:
 - tom/ITextFont.GetShadow
 dev_langs:

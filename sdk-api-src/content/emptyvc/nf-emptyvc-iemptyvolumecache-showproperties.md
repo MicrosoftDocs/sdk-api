@@ -7,7 +7,6 @@ tech.root: lwef
 ms.assetid: 3bce6251-b209-405a-8ac2-fd385f1c69ee
 ms.date: 12/05/2018
 ms.keywords: IEmptyVolumeCache interface [Legacy Windows Environment Features],ShowProperties method, IEmptyVolumeCache.ShowProperties, IEmptyVolumeCache::ShowProperties, ShowProperties, ShowProperties method [Legacy Windows Environment Features], ShowProperties method [Legacy Windows Environment Features],IEmptyVolumeCache interface, _win32_IEmptyVolumeCache_ShowProperties, emptyvc/IEmptyVolumeCache::ShowProperties, lwef.iemptyvolumecache_showproperties, shell.iemptyvolumecache_showproperties
-ms.topic: method
 f1_keywords:
 - emptyvc/IEmptyVolumeCache.ShowProperties
 dev_langs:

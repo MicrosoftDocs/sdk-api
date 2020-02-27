@@ -7,7 +7,6 @@ tech.root: parcon
 ms.assetid: 5073f335-fe55-43db-9186-aaa675384ea3
 ms.date: 12/05/2018
 ms.keywords: GetWebFilterInfo, GetWebFilterInfo method, GetWebFilterInfo method,IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,GetWebFilterInfo method, IWindowsParentalControlsCore.GetWebFilterInfo, IWindowsParentalControlsCore::GetWebFilterInfo, parcon.iwindowsparentalcontrols_getwebfilterinfo, wpcapi/IWindowsParentalControlsCore::GetWebFilterInfo
-ms.topic: method
 f1_keywords:
 - wpcapi/IWindowsParentalControlsCore.GetWebFilterInfo
 dev_langs:

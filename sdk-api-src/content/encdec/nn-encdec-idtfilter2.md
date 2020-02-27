@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 351c77ec-fb0c-4780-ad43-8ca6716b208f
 ms.date: 12/05/2018
 ms.keywords: IDTFilter2, IDTFilter2 interface [Microsoft TV Technologies], IDTFilter2 interface [Microsoft TV Technologies],described, IDTFilter2Interface, encdec/IDTFilter2, mstv.idtfilter2
-ms.topic: interface
 f1_keywords:
 - encdec/IDTFilter2
 dev_langs:

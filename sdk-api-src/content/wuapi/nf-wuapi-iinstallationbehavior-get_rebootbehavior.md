@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 7a26709e-8ce1-405a-902c-a71e892cd590
 ms.date: 12/05/2018
 ms.keywords: IInstallationBehavior interface [Windows Update Agent],RebootBehavior property, IInstallationBehavior.RebootBehavior, IInstallationBehavior.get_RebootBehavior, IInstallationBehavior::RebootBehavior, IInstallationBehavior::get_RebootBehavior, RebootBehavior property [Windows Update Agent], RebootBehavior property [Windows Update Agent],IInstallationBehavior interface, get_RebootBehavior, wua.iinstallationbehavior_rebootbehavior, wuapi/IInstallationBehavior::RebootBehavior, wuapi/IInstallationBehavior::get_RebootBehavior
-ms.topic: method
 f1_keywords:
 - wuapi/IInstallationBehavior.RebootBehavior
 dev_langs:

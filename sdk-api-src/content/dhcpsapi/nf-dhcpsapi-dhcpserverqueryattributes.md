@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 24c3e7b2-80eb-4fee-aea6-38243d25c50b
 ms.date: 12/05/2018
 ms.keywords: DhcpServerQueryAttributes, DhcpServerQueryAttributes function [DHCP], dhcp.dhcpserverqueryattributes, dhcpsapi/DhcpServerQueryAttributes
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpServerQueryAttributes
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 5df840ab-fff6-4c7e-b799-51e4de4c644a
 ms.date: 12/05/2018
 ms.keywords: CertViewProperties, CertViewProperties function [Security], CertViewPropertiesA, CertViewPropertiesW, cryptdlg/CertViewProperties, cryptdlg/CertViewPropertiesA, cryptdlg/CertViewPropertiesW, security.certviewproperties
-ms.topic: function
 f1_keywords:
 - cryptdlg/CertViewProperties
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: fc486e8d-a927-4e38-9fcd-ab4410270cad
 ms.date: 12/05/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_TargetName method, INetSharingPortMappingProps.get_TargetName, INetSharingPortMappingProps::get_TargetName, _ics_inetsharingportmappingprops_get_targetname, get_TargetName, get_TargetName method [ICS/ICF], get_TargetName method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_targetname, netcon/INetSharingPortMappingProps::get_TargetName
-ms.topic: method
 f1_keywords:
 - netcon/INetSharingPortMappingProps.get_TargetName
 dev_langs:

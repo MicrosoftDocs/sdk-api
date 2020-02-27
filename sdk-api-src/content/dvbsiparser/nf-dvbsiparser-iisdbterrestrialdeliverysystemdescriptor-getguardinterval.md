@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: f1016fd4-bcd9-4678-b59c-c6c8207f242d
 ms.date: 12/05/2018
 ms.keywords: GetGuardInterval, GetGuardInterval method [Microsoft TV Technologies], GetGuardInterval method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetGuardInterval method, IIsdbTerrestrialDeliverySystemDescriptor.GetGuardInterval, IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval, mstv.iisdbterrestrialdeliverysystemdescriptor_getguardinterval
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetGuardInterval
 dev_langs:

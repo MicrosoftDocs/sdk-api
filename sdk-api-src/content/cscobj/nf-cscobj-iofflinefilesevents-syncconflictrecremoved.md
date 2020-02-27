@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: ccdd7b74-3e00-4a3d-9632-eac48d790f23
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncConflictRecRemoved method, IOfflineFilesEvents.SyncConflictRecRemoved, IOfflineFilesEvents::SyncConflictRecRemoved, SyncConflictRecRemoved, SyncConflictRecRemoved method [Offline Files], SyncConflictRecRemoved method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncConflictRecRemoved, of.iofflinefilesevents_syncconflictrecremoved
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesEvents.SyncConflictRecRemoved
 dev_langs:

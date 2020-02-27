@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: c0920425-fb42-4112-b0c1-f4b607b9e794
 ms.date: 12/05/2018
 ms.keywords: _win32_auxGetDevCaps, auxGetDevCaps, auxGetDevCaps function [Windows Multimedia], auxGetDevCapsA, auxGetDevCapsW, mmeapi/auxGetDevCaps, mmeapi/auxGetDevCapsA, mmeapi/auxGetDevCapsW, multimedia.auxgetdevcaps
-ms.topic: function
 f1_keywords:
 - mmeapi/auxGetDevCaps
 dev_langs:

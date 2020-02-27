@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0321e315-b53c-487f-a015-80f7ed581737
 ms.date: 12/05/2018
 ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],SessionSequenceStart method, IAMCertifiedOutputProtection.SessionSequenceStart, IAMCertifiedOutputProtection::SessionSequenceStart, IAMCertifiedOutputProtectionSessionSequenceStart, SessionSequenceStart, SessionSequenceStart method [DirectShow], SessionSequenceStart method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_sessionsequencestart, strmif/IAMCertifiedOutputProtection::SessionSequenceStart
-ms.topic: method
 f1_keywords:
 - strmif/IAMCertifiedOutputProtection.SessionSequenceStart
 dev_langs:
@@ -61,7 +60,7 @@ The <code>SessionSequenceStart</code> method initiates the COPP session with the
 
 ### -param pSig [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-amcoppsignature">AMCOPPSignature</a> structure. Fill this structure as described in the Remarks session.
+Pointer to an [AMCOPPSignature](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-amcoppsignature) structure. Fill this structure as described in the Remarks session.
 
 
 ## -returns

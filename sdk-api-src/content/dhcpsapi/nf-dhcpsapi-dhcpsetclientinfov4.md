@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: f7e1aa86-634e-48a7-ae2a-9c23277ed946
 ms.date: 12/05/2018
 ms.keywords: DhcpSetClientInfoV4, DhcpSetClientInfoV4 function [DHCP], dhcp.dhcpsetclientinfov4, dhcpsapi/DhcpSetClientInfoV4
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpSetClientInfoV4
 dev_langs:

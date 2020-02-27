@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 1d014cad-a9a5-4a58-855e-21c6d3ba6dcd
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt32WithDefault, PropVariantToInt32WithDefault function [Windows Properties], properties.PropVariantToInt32WithDefault, propvarutil/PropVariantToInt32WithDefault, shell.PropVariantToInt32WithDefault, shell_PropVariantToInt32WithDefault
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantToInt32WithDefault
 dev_langs:

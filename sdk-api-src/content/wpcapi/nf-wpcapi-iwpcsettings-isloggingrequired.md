@@ -7,7 +7,6 @@ tech.root: parcon
 ms.assetid: bfe04843-af23-4146-bc45-f91d6ad36c1a
 ms.date: 12/05/2018
 ms.keywords: IWPCSettings interface,IsLoggingRequired method, IWPCSettings.IsLoggingRequired, IWPCSettings::IsLoggingRequired, IsLoggingRequired, IsLoggingRequired method, IsLoggingRequired method,IWPCSettings interface, parcon.iwpcsettings_isloggingrequired, wpcapi/IWPCSettings::IsLoggingRequired
-ms.topic: method
 f1_keywords:
 - wpcapi/IWPCSettings.IsLoggingRequired
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2951a015-b365-468b-a143-1b807885a99a
 ms.date: 12/05/2018
 ms.keywords: GetEventID, GetEventID method [Windows Shell], GetEventID method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetEventID method, ISyncMgrEvent.GetEventID, ISyncMgrEvent::GetEventID, _shell_ISyncMgrEvent_GetEventID, shell.ISyncMgrEvent_GetEventID, syncmgr/ISyncMgrEvent::GetEventID
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrEvent.GetEventID
 dev_langs:

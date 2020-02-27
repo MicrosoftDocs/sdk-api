@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: c984a340-d31b-43a5-baac-323629002aab
 ms.date: 12/05/2018
 ms.keywords: GetCDT, GetCDT method [Microsoft TV Technologies], GetCDT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetCDT method, IIsdbSiParser2.GetCDT, IIsdbSiParser2::GetCDT, dvbsiparser/IIsdbSiParser2::GetCDT, mstv.iisdbsiparser2_getcdt
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbSiParser2.GetCDT
 dev_langs:

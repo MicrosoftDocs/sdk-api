@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 867FE1D2-39AE-4A44-99DD-98A8ABD234A2
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetAutoPlay method, IMFMediaEngine.SetAutoPlay, IMFMediaEngine::SetAutoPlay, SetAutoPlay, SetAutoPlay method [Media Foundation], SetAutoPlay method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setautoplay, mfmediaengine/IMFMediaEngine::SetAutoPlay
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngine.SetAutoPlay
 dev_langs:

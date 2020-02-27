@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 87d85f7e-abf2-4f6f-91b6-36a014cc0f33
 ms.date: 12/05/2018
 ms.keywords: GetTransformMethod, GetTransformMethod method [Open Packaging Conventions], GetTransformMethod method [Open Packaging Conventions],IOpcSignatureRelationshipReference interface, IOpcSignatureRelationshipReference interface [Open Packaging Conventions],GetTransformMethod method, IOpcSignatureRelationshipReference.GetTransformMethod, IOpcSignatureRelationshipReference::GetTransformMethod, msopc/IOpcSignatureRelationshipReference::GetTransformMethod, opc.iopcsignaturerelationshipreference_gettransformmethod
-ms.topic: method
 f1_keywords:
 - msopc/IOpcSignatureRelationshipReference.GetTransformMethod
 dev_langs:

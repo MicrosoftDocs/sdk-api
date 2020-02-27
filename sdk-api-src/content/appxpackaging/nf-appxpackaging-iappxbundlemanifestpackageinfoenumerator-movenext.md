@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 8818FC6B-28CB-420F-A5BB-BCB62DFD4A78
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management],MoveNext method, IAppxBundleManifestPackageInfoEnumerator.MoveNext, IAppxBundleManifestPackageInfoEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxBundleManifestPackageInfoEnumerator interface, appxpackaging/IAppxBundleManifestPackageInfoEnumerator::MoveNext, appxpkg.iappxbundlemanifestpackageinfoenumerator_movenext
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxBundleManifestPackageInfoEnumerator.MoveNext
 dev_langs:

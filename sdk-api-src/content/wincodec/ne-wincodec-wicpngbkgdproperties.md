@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 979f6a91-79a2-4eba-8957-e2908636cdc5
 ms.date: 12/05/2018
 ms.keywords: WICPngBkgdBackgroundColor, WICPngBkgdProperties, WICPngBkgdProperties enumeration [Windows Imaging Component], _wic_codec_wicpngbkgdproperties, wic._wic_codec_wicpngbkgdproperties, wincodec/WICPngBkgdBackgroundColor, wincodec/WICPngBkgdProperties
-ms.topic: enum
 f1_keywords:
 - wincodec/WICPngBkgdProperties
 dev_langs:

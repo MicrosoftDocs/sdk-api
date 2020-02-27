@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 3b2d3e4a-742e-4e67-8b28-3cd6d7e6a857
 ms.date: 12/05/2018
 ms.keywords: 0, 3, NetLocalGroupAddMembers, NetLocalGroupAddMembers function [Network Management], _win32_netlocalgroupaddmembers, lmaccess/NetLocalGroupAddMembers, netmgmt.netlocalgroupaddmembers
-ms.topic: function
 f1_keywords:
 - lmaccess/NetLocalGroupAddMembers
 dev_langs:

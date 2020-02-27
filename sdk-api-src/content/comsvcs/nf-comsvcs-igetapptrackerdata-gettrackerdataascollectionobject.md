@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 215523ad-5f18-4529-8b23-afbd1b738fb5
 ms.date: 12/05/2018
 ms.keywords: GetTrackerDataAsCollectionObject, GetTrackerDataAsCollectionObject method [COM+], GetTrackerDataAsCollectionObject method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetTrackerDataAsCollectionObject method, IGetAppTrackerData.GetTrackerDataAsCollectionObject, IGetAppTrackerData::GetTrackerDataAsCollectionObject, comsvcs/IGetAppTrackerData::GetTrackerDataAsCollectionObject, cos.igetapptrackerdata_gettrackerdataascollectionobject
-ms.topic: method
 f1_keywords:
 - comsvcs/IGetAppTrackerData.GetTrackerDataAsCollectionObject
 dev_langs:

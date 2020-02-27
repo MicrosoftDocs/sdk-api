@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: d3bb080c-cde7-4623-95fd-3cffb3bd93aa
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientGetInformationByHandle, PeerDistClientGetInformationByHandle function [Peer Networking], p2p.peerdistclientgetinformationbyhandle, peerdist/PeerDistClientGetInformationByHandle
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistClientGetInformationByHandle
 dev_langs:

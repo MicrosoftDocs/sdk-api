@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: fb36930c-dd43-427a-8034-078c99497a3e
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_WIRE_RECORD, *PDNS_WIRE_RECORD structure [DNS], DNS_WIRE_RECORD, DNS_WIRE_RECORD structure [DNS], dns.dns_wire_record, windns/*PDNS_WIRE_RECORD, windns/DNS_WIRE_RECORD'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_WIRE_RECORD
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DNS_WIRE_RECORD</b> structure contains information about a DNS wire record transmitted across the network as specified in section 4.1.3 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
+The <b>DNS_WIRE_RECORD</b> structure contains information about a DNS wire record transmitted across the network as specified in section 4.1.3 of <a href="https://www.ietf.org/rfc/rfc1035.txt">RFC 1035</a>.
 
 
 ## -struct-fields

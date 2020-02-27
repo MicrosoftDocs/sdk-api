@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: B3013879-99B2-4099-AD56-E2FDE3CC817A
 ms.date: 12/05/2018
 ms.keywords: STYLE_ACTIVE_SELECTION, STYLE_IMPLIED_SELECTION, TfIntegratableCandidateListSelectionStyle, TfIntegratableCandidateListSelectionStyle enumeration [Text Services Framework], ctffunc/STYLE_ACTIVE_SELECTION, ctffunc/STYLE_IMPLIED_SELECTION, ctffunc/TfIntegratableCandidateListSelectionStyle, tsf.tfintegratablecandidatelistselectionstyle
-ms.topic: enum
 f1_keywords:
 - ctffunc/TfIntegratableCandidateListSelectionStyle
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\getlinespacing.htm
 ms.date: 12/05/2018
 ms.keywords: FontFamily class [GDI+],GetLineSpacing method, FontFamily.GetLineSpacing, FontFamily::GetLineSpacing, GetLineSpacing, GetLineSpacing method [GDI+], GetLineSpacing method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GetLineSpacing_style_, gdiplus._gdiplus_CLASS_FontFamily_GetLineSpacing_style_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/FontFamily.GetLineSpacing
 dev_langs:

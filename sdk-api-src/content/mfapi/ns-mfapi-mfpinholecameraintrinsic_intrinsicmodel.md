@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 9A8ED71E-A138-4ADE-AB17-543C77590676
 ms.date: 12/05/2018
 ms.keywords: MFPinholeCameraIntrinsic_IntrinsicModel, MFPinholeCameraIntrinsic_IntrinsicModel structure [Media Foundation], PMFPinholeCameraIntrinsic_IntrinsicModel, PMFPinholeCameraIntrinsic_IntrinsicModel structure pointer [Media Foundation], mf.mfpinholecameraintrinsic_intrinsicmodel, mfapi/MFPinholeCameraIntrinsic_IntrinsicModel, mfapi/PMFPinholeCameraIntrinsic_IntrinsicModel
-ms.topic: struct
 f1_keywords:
 - mfapi/MFPinholeCameraIntrinsic_IntrinsicModel
 dev_langs:
@@ -60,12 +59,12 @@ Represents a pinhole camera intrinsic model for a specified resolution.
 
 ### -field Width
 
-The width for the pinhole camera intrinsic model.
+The width for the pinhole camera intrinsic model, in pixels.
 
 
 ### -field Height
 
-The height for the pinhole camera intrinsic model.
+The height for the pinhole camera intrinsic model, in pixels.
 
 
 ### -field CameraModel

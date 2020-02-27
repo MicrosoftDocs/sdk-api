@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 192bbf1d-a5de-4acf-b8d6-8a5f733da3a6
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetGPRM method, IDvdControl2.SetGPRM, IDvdControl2::SetGPRM, IDvdControl2SetGPRM, SetGPRM, SetGPRM method [DirectShow], SetGPRM method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setgprm, strmif/IDvdControl2::SetGPRM
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.SetGPRM
 dev_langs:
@@ -74,7 +73,7 @@ A 16-bit value contained in the specified register.
 
 ### -param dwFlags [in]
 
-Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
+Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
 
 
 ### -param ppCmd [out]

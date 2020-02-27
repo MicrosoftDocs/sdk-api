@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 549c170e-2e4d-4edb-b84e-178bfbb13fed
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Media Foundation], Commit method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],Commit method, ITocParser.Commit, ITocParser::Commit, codecapi.itocparser_commit, mf.itocparser_commit, wmcodecdsp/ITocParser::Commit
-ms.topic: method
 f1_keywords:
 - wmcodecdsp/ITocParser.Commit
 dev_langs:

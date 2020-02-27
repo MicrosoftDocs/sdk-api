@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 3f3f10f0-803a-49e2-bb62-ac4124cb375a
 ms.date: 12/05/2018
 ms.keywords: CreateRemoteDictionaryResource, CreateRemoteDictionaryResource method [XPS Documents and Packaging], CreateRemoteDictionaryResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateRemoteDictionaryResource method, IXpsOMObjectFactory.CreateRemoteDictionaryResource, IXpsOMObjectFactory::CreateRemoteDictionaryResource, xps.ixpsomobjectfactory_createremotedictionaryresource, xpsobjectmodel/IXpsOMObjectFactory::CreateRemoteDictionaryResource
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreateRemoteDictionaryResource
 dev_langs:
@@ -147,7 +146,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

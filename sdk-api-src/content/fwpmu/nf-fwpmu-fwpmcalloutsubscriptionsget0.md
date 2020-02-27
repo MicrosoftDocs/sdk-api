@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 72e51167-c69e-4412-b83e-c66f91c9b96e
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutSubscriptionsGet0, FwpmCalloutSubscriptionsGet0 function [Filtering], fwp.fwpmcalloutsubscriptionsget0_func, fwpmu/FwpmCalloutSubscriptionsGet0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmCalloutSubscriptionsGet0
 dev_langs:

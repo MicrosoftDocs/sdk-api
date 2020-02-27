@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: a52f2dbd-bda6-4217-9e72-f100f8bbe334
 ms.date: 12/05/2018
 ms.keywords: GetDiskFreeSpaceEx, GetDiskFreeSpaceEx function [Files], GetDiskFreeSpaceExA, GetDiskFreeSpaceExW, _win32_getdiskfreespaceex, base.getdiskfreespaceex, fileapi/GetDiskFreeSpaceEx, fileapi/GetDiskFreeSpaceExA, fileapi/GetDiskFreeSpaceExW, fs.getdiskfreespaceex, winbase/GetDiskFreeSpaceEx, winbase/GetDiskFreeSpaceExA, winbase/GetDiskFreeSpaceExW
-ms.topic: function
 f1_keywords:
 - fileapi/GetDiskFreeSpaceEx
 dev_langs:
@@ -76,7 +75,7 @@ A directory on the disk.
 If this parameter is <b>NULL</b>, the function uses the root of the current disk.
 
 If this parameter is a UNC name, it must include a trailing backslash, for example, 
-       "\\MyServer\MyShare\".
+       "\\\\MyServer\\MyShare\\".
 
 This parameter does not have to specify the root directory on a disk. The function accepts any directory on a 
        disk.

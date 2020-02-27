@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: ac7530cd-eac8-4b2b-89e1-e05c14a81c7d
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetSelection method, ITfCandidateListUIElement.GetSelection, ITfCandidateListUIElement::GetSelection, msctf/ITfCandidateListUIElement::GetSelection, tsf.itfcandidatelistuielement_getselection
-ms.topic: method
 f1_keywords:
 - msctf/ITfCandidateListUIElement.GetSelection
 dev_langs:

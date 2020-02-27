@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 8C91C204-49C0-41CF-A9E1-F9C53388604A
 ms.date: 12/05/2018
 ms.keywords: MFIsContentProtectionDeviceSupported, MFIsContentProtectionDeviceSupported function [Media Foundation], mf.mfiscontentprotectiondevicesupported, mfidl/MFIsContentProtectionDeviceSupported
-ms.topic: function
 f1_keywords:
 - mfidl/MFIsContentProtectionDeviceSupported
 dev_langs:

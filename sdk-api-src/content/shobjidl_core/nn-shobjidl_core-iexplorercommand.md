@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 61e94e50-9e12-4a2c-a6c7-64a9181f80b8
 ms.date: 12/05/2018
 ms.keywords: IExplorerCommand, IExplorerCommand interface [Windows Shell], IExplorerCommand interface [Windows Shell],described, _shell_IExplorerCommand, shell.IExplorerCommand, shobjidl_core/IExplorerCommand
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IExplorerCommand
 dev_langs:

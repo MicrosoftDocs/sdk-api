@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 02783ba9-a8d7-482f-a8b1-7cac934cf476
 ms.date: 12/05/2018
 ms.keywords: FILE_NAME_NORMALIZED, FILE_NAME_OPENED, GetFinalPathNameByHandle, GetFinalPathNameByHandle function [Files], GetFinalPathNameByHandleA, GetFinalPathNameByHandleW, VOLUME_NAME_DOS, VOLUME_NAME_GUID, VOLUME_NAME_NONE, VOLUME_NAME_NT, fileapi/GetFinalPathNameByHandle, fileapi/GetFinalPathNameByHandleA, fileapi/GetFinalPathNameByHandleW, fs.getfinalpathnamebyhandle, fs.getfinalpathnamebyhandlew, winbase/GetFinalPathNameByHandle, winbase/GetFinalPathNameByHandleA, winbase/GetFinalPathNameByHandleW
-ms.topic: function
 f1_keywords:
 - fileapi/GetFinalPathNameByHandle
 dev_langs:
@@ -82,8 +81,7 @@ A pointer to a buffer that receives the path of <i>hFile</i>.
 
 ### -param cchFilePath [in]
 
-The size of <i>lpszFilePath</i>, in <b>TCHAR</b>s. This value does 
-      not include a <b>NULL</b> termination character.
+The size of <i>lpszFilePath</i>, in <b>TCHAR</b>s. This value must include a <b>NULL</b> termination character.
 
 
 ### -param dwFlags [in]
@@ -255,7 +253,7 @@ The Server Message Block (SMB) Protocol does not support queries for normalized 
      named "C:\tmp\mydir" that points to "D:\yourdir", the final path would be 
      "D:\yourdir".
 
-The string that is returned by this function uses the \\?\ 
+The string that is returned by this function uses the "\\\\?\\" 
      syntax. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.

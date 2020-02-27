@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: af7c9d39-b76f-494d-af5d-7e0baf0ace2d
 ms.date: 12/05/2018
 ms.keywords: ALIGN_CLUSPROP, ALIGN_CLUSPROP macro [Failover Cluster], _wolf_align_clusprop, clusapi/ALIGN_CLUSPROP, mscs.align_clusprop
-ms.topic: macro
 f1_keywords:
 - clusapi/ALIGN_CLUSPROP
 dev_langs:

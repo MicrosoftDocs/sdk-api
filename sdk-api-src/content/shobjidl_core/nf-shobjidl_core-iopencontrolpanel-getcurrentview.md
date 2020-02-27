@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ed539638-7953-471f-ac90-ebd4c3929e8e
 ms.date: 12/05/2018
 ms.keywords: CPVIEW_ALLITEMS, CPVIEW_CATEGORY, CPVIEW_CLASSIC, CPVIEW_HOME, GetCurrentView, GetCurrentView method [Windows Shell], GetCurrentView method [Windows Shell],IOpenControlPanel interface, IOpenControlPanel interface [Windows Shell],GetCurrentView method, IOpenControlPanel.GetCurrentView, IOpenControlPanel::GetCurrentView, _shell_IOpenControlPanel_GetCurrentView, shell.IOpenControlPanel_GetCurrentView, shobjidl_core/IOpenControlPanel::GetCurrentView
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IOpenControlPanel.GetCurrentView
 dev_langs:

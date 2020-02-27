@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 163164a2-e2a2-447d-b443-f92972197aff
 ms.date: 12/05/2018
 ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],KeyExchange method, IAMCertifiedOutputProtection.KeyExchange, IAMCertifiedOutputProtection::KeyExchange, IAMCertifiedOutputProtectionKeyExchange, KeyExchange, KeyExchange method [DirectShow], KeyExchange method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_keyexchange, strmif/IAMCertifiedOutputProtection::KeyExchange
-ms.topic: method
 f1_keywords:
 - strmif/IAMCertifiedOutputProtection.KeyExchange
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: a31414b7-159e-4ce7-8d2d-02b62aa9759d
 ms.date: 12/05/2018
 ms.keywords: IBitsTokenOptions interface [BITS],SetHelperToken method, IBitsTokenOptions.SetHelperToken, IBitsTokenOptions::SetHelperToken, SetHelperToken, SetHelperToken method [BITS], SetHelperToken method [BITS],IBitsTokenOptions interface, bits.ibitstokenoptions_sethelpertoken, bits4_0/IBitsTokenOptions::SetHelperToken
-ms.topic: method
 f1_keywords:
 - bits4_0/IBitsTokenOptions.SetHelperToken
 dev_langs:
@@ -110,9 +109,9 @@ COM settings on the client do not allow impersonate-level access to the client t
 
 The helper token does not need to represent an administrator.
 
-The impersonation level for the proxy blanket must be set to either <b>RPC_C_IMP_LEVEL_IMPERSONATE</b> or <b>RPC_C_IMP_LEVEL_DELEGATE</b>. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=146948">Security Blanket Negotiation</a>.
+The impersonation level for the proxy blanket must be set to either <b>RPC_C_IMP_LEVEL_IMPERSONATE</b> or <b>RPC_C_IMP_LEVEL_DELEGATE</b>. For more information, see <a href="https://msdn.microsoft.com/library/ms683755.aspx">Security Blanket Negotiation</a>.
 
-The cloaking flag should be set to <b>EOAC_DYNAMIC_CLOAKING</b>, which enables the COM server to use the thread token as the client's identity. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=158904">Cloaking</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=158905">EOLE_AUTHENTICATION_CAPABILITIES Enumeration</a>.
+The cloaking flag should be set to <b>EOAC_DYNAMIC_CLOAKING</b>, which enables the COM server to use the thread token as the client's identity. For more information, see <a href="https://msdn.microsoft.com/library/ms683778.aspx">Cloaking</a> and <a href="https://msdn.microsoft.com/library/ms693368.aspx">EOLE_AUTHENTICATION_CAPABILITIES Enumeration</a>.
 
 Older implementations effectively required that BITS users have  administrator privileges in order to set helper tokens. Starting with Windows 10, version 1607, non-administrator BITS users can use <b>IBitsTokenOptions::SetHelperToken</b> to set non-administrator helper tokens on BITS jobs they own. This change enables non-administrator BITS users (such as background downloader services running under the <a href="https://docs.microsoft.com/windows/desktop/Services/networkservice-account">NetworkService account</a>) to set helper tokens. 
 

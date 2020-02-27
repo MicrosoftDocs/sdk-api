@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 53a93aea-4435-4e04-9bd1-6356446aaefc
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],LegacyCsp property, IX509PrivateKey.LegacyCsp, IX509PrivateKey.put_LegacyCsp, IX509PrivateKey::LegacyCsp, IX509PrivateKey::get_LegacyCsp, IX509PrivateKey::put_LegacyCsp, LegacyCsp property [Security], LegacyCsp property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::LegacyCsp, certenroll/IX509PrivateKey::get_LegacyCsp, certenroll/IX509PrivateKey::put_LegacyCsp, put_LegacyCsp, security.ix509privatekey_legacycsp
-ms.topic: method
 f1_keywords:
 - certenroll/IX509PrivateKey.LegacyCsp
 dev_langs:

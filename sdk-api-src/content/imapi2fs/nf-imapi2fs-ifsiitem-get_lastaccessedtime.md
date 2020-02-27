@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: e12f4c62-2dc8-4155-9cd7-0dea982d7b5a
 ms.date: 12/05/2018
 ms.keywords: IFsiItem interface [IMAPI],get_LastAccessedTime method, IFsiItem.get_LastAccessedTime, IFsiItem::get_LastAccessedTime, get_LastAccessedTime, get_LastAccessedTime method [IMAPI], get_LastAccessedTime method [IMAPI],IFsiItem interface, imapi.ifsiitem_get_lastaccessedtime, imapi2fs/IFsiItem::get_LastAccessedTime
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFsiItem.get_LastAccessedTime
 dev_langs:

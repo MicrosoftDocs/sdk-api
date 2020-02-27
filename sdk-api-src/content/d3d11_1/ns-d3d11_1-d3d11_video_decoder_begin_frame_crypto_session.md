@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 7A4E0B99-90EE-4669-813E-5A3CD58D24A7
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION structure [Media Foundation], d3d11_1/D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, mf.d3d11_video_decoder_begin_frame_crypto_session
-ms.topic: struct
 f1_keywords:
 - d3d11_1/D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
 dev_langs:

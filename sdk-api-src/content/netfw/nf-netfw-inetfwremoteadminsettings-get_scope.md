@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 0ba9e6d1-82a4-4a58-9da0-0e07e79b0030
 ms.date: 12/05/2018
 ms.keywords: INetFwRemoteAdminSettings interface [ICS/ICF],Scope property, INetFwRemoteAdminSettings.Scope, INetFwRemoteAdminSettings.get_Scope, INetFwRemoteAdminSettings::Scope, INetFwRemoteAdminSettings::get_Scope, INetFwRemoteAdminSettings::put_Scope, Scope property [ICS/ICF], Scope property [ICS/ICF],INetFwRemoteAdminSettings interface, get_Scope, ics.inetfwremoteadminsettings_scope, netfw/INetFwRemoteAdminSettings::Scope, netfw/INetFwRemoteAdminSettings::get_Scope, netfw/INetFwRemoteAdminSettings::put_Scope
-ms.topic: method
 f1_keywords:
 - netfw/INetFwRemoteAdminSettings.Scope
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 2c8c33d5-5cd6-4734-bf44-af7d4b578672
 ms.date: 12/05/2018
 ms.keywords: ScriptRecordDigitSubstitution, ScriptRecordDigitSubstitution function [Internationalization for Windows Applications], _win32_ScriptRecordDigitSubstitution, intl.scriptrecorddigitsubstitution, usp10/ScriptRecordDigitSubstitution
-ms.topic: function
 f1_keywords:
 - usp10/ScriptRecordDigitSubstitution
 dev_langs:

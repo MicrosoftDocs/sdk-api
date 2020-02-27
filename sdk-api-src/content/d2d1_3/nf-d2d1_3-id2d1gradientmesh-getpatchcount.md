@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 389bc25d-832c-56de-3568-d136f60b935f
 ms.date: 12/05/2018
 ms.keywords: GetPatchCount, GetPatchCount method [Direct2D], GetPatchCount method [Direct2D],ID2D1GradientMesh interface, ID2D1GradientMesh interface [Direct2D],GetPatchCount method, ID2D1GradientMesh.GetPatchCount, ID2D1GradientMesh::GetPatchCount, d2d1_3/ID2D1GradientMesh::GetPatchCount, direct2d.id2d1gradientmesh_getpatchcount
-ms.topic: method
 f1_keywords:
 - d2d1_3/ID2D1GradientMesh.GetPatchCount
 dev_langs:

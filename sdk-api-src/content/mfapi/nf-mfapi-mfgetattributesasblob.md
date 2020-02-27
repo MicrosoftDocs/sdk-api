@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 1a3bd860-1022-481f-8615-5a73c16dd77b
 ms.date: 12/05/2018
 ms.keywords: 1a3bd860-1022-481f-8615-5a73c16dd77b, MFGetAttributesAsBlob, MFGetAttributesAsBlob function [Media Foundation], mf.mfgetattributesasblob, mfapi/MFGetAttributesAsBlob
-ms.topic: function
 f1_keywords:
 - mfapi/MFGetAttributesAsBlob
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: D6DF8432-7D37-4D39-9E08-2F5B874A0BCB
 ms.date: 12/05/2018
 ms.keywords: GetApplicationViewOrientation, GetApplicationViewOrientation method [Windows Shell], GetApplicationViewOrientation method [Windows Shell],IApplicationDesignModeSettings2 interface, IApplicationDesignModeSettings2 interface [Windows Shell],GetApplicationViewOrientation method, IApplicationDesignModeSettings2.GetApplicationViewOrientation, IApplicationDesignModeSettings2::GetApplicationViewOrientation, shell.IApplicationDesignModeSettings2_GetApplicationViewOrientation, shobjidl_core/IApplicationDesignModeSettings2::GetApplicationViewOrientation
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IApplicationDesignModeSettings2.GetApplicationViewOrientation
 dev_langs:

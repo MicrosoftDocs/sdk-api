@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsenumeratemetafilemethods\enumeratemetafile_81metafilemetafile_rectampdestrect_recta.htm
 ms.date: 12/05/2018
 ms.keywords: EnumerateMetafile, EnumerateMetafile method [GDI+], EnumerateMetafile method [GDI+],Graphics class, Graphics class [GDI+],EnumerateMetafile method, Graphics.EnumerateMetafile, Graphics.EnumerateMetafile(IN const Metafile,IN const Rect &,IN const Rect &,IN Unit,IN EnumerateMetafileProc,IN VOID,IN const ImageAttributes), Graphics.EnumerateMetafile(const Metafile*,const Rect&,const Rect&,Unit,EnumerateMetafileProc,VOID*,ImageAttributes*), Graphics::EnumerateMetafile, Graphics::EnumerateMetafile(IN const Metafile,IN const Rect &,IN const Rect &,IN Unit,IN EnumerateMetafileProc,IN VOID,IN const ImageAttributes), _gdiplus_CLASS_Graphics_EnumerateMetafile_Metafile_metafile_Rect_destRect_Rect_srcRect_Unit_srcUnit_, gdiplus._gdiplus_CLASS_Graphics_EnumerateMetafile_Metafile_metafile_Rect_destRect_Rect_srcRect_Unit_srcUnit_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.EnumerateMetafile
 dev_langs:

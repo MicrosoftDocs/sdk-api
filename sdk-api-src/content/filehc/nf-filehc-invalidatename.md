@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 86c6eccf-5c4a-421b-b8e2-762ea5b77bf3
 ms.date: 12/05/2018
 ms.keywords: InvalidateName, InvalidateName function [Windows API], filehc/InvalidateName, winprog._invalidatename
-ms.topic: function
 f1_keywords:
 - filehc/InvalidateName
 dev_langs:

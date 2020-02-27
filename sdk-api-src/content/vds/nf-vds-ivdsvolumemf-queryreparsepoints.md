@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: ae79355d-2012-42bf-930d-2915c4ca502c
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeMF interface [VDS],QueryReparsePoints method, IVdsVolumeMF.QueryReparsePoints, IVdsVolumeMF::QueryReparsePoints, QueryReparsePoints, QueryReparsePoints method [VDS], QueryReparsePoints method [VDS],IVdsVolumeMF interface, base.ivdsvolumemf_queryreparsepoints, vds/IVdsVolumeMF::QueryReparsePoints
-ms.topic: method
 f1_keywords:
 - vds/IVdsVolumeMF.QueryReparsePoints
 dev_langs:

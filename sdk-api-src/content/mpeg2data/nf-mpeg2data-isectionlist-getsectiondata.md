@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: b03d1727-9ebd-4e78-b7d0-c6d0959aab8a
 ms.date: 12/05/2018
 ms.keywords: GetSectionData, GetSectionData method [Microsoft TV Technologies], GetSectionData method [Microsoft TV Technologies],ISectionList interface, ISectionList interface [Microsoft TV Technologies],GetSectionData method, ISectionList.GetSectionData, ISectionList::GetSectionData, ISectionListGetSectionData, mpeg2data/ISectionList::GetSectionData, mstv.isectionlist_getsectiondata
-ms.topic: method
 f1_keywords:
 - mpeg2data/ISectionList.GetSectionData
 dev_langs:

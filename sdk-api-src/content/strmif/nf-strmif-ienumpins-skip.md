@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 501d08ee-ebd1-48dc-8cc9-bf017034b4cd
 ms.date: 12/05/2018
 ms.keywords: IEnumPins interface [DirectShow],Skip method, IEnumPins.Skip, IEnumPins::Skip, IEnumPinsSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumPins interface, dshow.ienumpins_skip, strmif/IEnumPins::Skip
-ms.topic: method
 f1_keywords:
 - strmif/IEnumPins.Skip
 dev_langs:

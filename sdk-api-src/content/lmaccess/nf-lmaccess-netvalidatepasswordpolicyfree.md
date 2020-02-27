@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 263834cd-a0e2-4ec0-9cb1-c03eb198de3a
 ms.date: 12/05/2018
 ms.keywords: NetValidatePasswordPolicyFree, NetValidatePasswordPolicyFree function [Network Management], lmaccess/NetValidatePasswordPolicyFree, netmgmt.netvalidatepasswordpolicyfree
-ms.topic: function
 f1_keywords:
 - lmaccess/NetValidatePasswordPolicyFree
 dev_langs:

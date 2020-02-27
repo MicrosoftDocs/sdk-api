@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 469982a5-42da-40e7-a053-4820fee58828
 ms.date: 12/05/2018
 ms.keywords: WsSetFaultErrorDetail, WsSetFaultErrorDetail function [Web Services for Windows], webservices/WsSetFaultErrorDetail, wsw.wssetfaulterrordetail
-ms.topic: function
 f1_keywords:
 - webservices/WsSetFaultErrorDetail
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 81E54703-095E-4810-A8A0-2ACBE7F3D634
 ms.date: 12/05/2018
 ms.keywords: IInputPanelConfiguration, IInputPanelConfiguration interface [Windows Shell], IInputPanelConfiguration interface [Windows Shell],described, inputpanelconfiguration/IInputPanelConfiguration, shell.iinputpanelconfiguration
-ms.topic: interface
 f1_keywords:
 - inputpanelconfiguration/IInputPanelConfiguration
 dev_langs:

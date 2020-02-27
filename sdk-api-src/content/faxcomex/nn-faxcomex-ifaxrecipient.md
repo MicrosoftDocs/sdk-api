@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9c6s_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxRecipient, IFaxRecipient interface [Fax Service], IFaxRecipient interface [Fax Service],described, _mfax_faxrecipient_cpp, fax._mfax_faxrecipient_cpp, faxcomex/IFaxRecipient
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxRecipient
 dev_langs:

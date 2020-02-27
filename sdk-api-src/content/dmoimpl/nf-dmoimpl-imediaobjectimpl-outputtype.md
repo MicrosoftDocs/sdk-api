@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 46831756-ed3b-40de-80ad-21874db283c4
 ms.date: 12/05/2018
 ms.keywords: IMediaObjectImpl interface [DirectShow],OutputType method, IMediaObjectImpl.OutputType, IMediaObjectImpl::OutputType, IMediaObjectImplOutputType, OutputType, OutputType method [DirectShow], OutputType method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::OutputType, dshow.imediaobjectimpl_outputtype
-ms.topic: method
 f1_keywords:
 - dmoimpl/IMediaObjectImpl.OutputType
 dev_langs:

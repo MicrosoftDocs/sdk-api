@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setwindowlongptr.htm
 ms.date: 12/05/2018
 ms.keywords: DWLP_DLGPROC, DWLP_MSGRESULT, DWLP_USER, GWLP_HINSTANCE, GWLP_ID, GWLP_USERDATA, GWLP_WNDPROC, GWL_EXSTYLE, GWL_STYLE, SetWindowLongPtr, SetWindowLongPtr function [Windows and Messages], SetWindowLongPtrA, SetWindowLongPtrW, _win32_SetWindowLongPtr, _win32_setwindowlongptr_cpp, winmsg.setwindowlongptr, winui._win32_setwindowlongptr, winuser/SetWindowLongPtr, winuser/SetWindowLongPtrA, winuser/SetWindowLongPtrW
-ms.topic: function
 f1_keywords:
 - winuser/SetWindowLongPtr
 dev_langs:

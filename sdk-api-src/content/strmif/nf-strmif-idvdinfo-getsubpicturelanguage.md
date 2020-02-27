@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f75ef36d-8556-4ca0-9f7f-6c09b86da24e
 ms.date: 12/05/2018
 ms.keywords: GetSubpictureLanguage, GetSubpictureLanguage method [DirectShow], GetSubpictureLanguage method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetSubpictureLanguage method, IDvdInfo.GetSubpictureLanguage, IDvdInfo::GetSubpictureLanguage, IDvdInfoGetSubpictureLanguage, dshow.idvdinfo_getsubpicturelanguage, strmif/IDvdInfo::GetSubpictureLanguage
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo.GetSubpictureLanguage
 dev_langs:
@@ -113,7 +112,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-Requested action is not supported on this domain (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
+Requested action is not supported on this domain (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
 
 </td>
 </tr>
@@ -138,7 +137,7 @@ Requested action cannot occur at this point in the movie due to the authoring of
 
 
 
-This method returns an error unless the domain is DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 This method does not return languages for menus. This method sets the value pointed to by <i>pLanguage</i> to zero if the stream does not include language. Call the Win32 <b>GetLocaleInfo</b> function as follows to create a human-readable string name from <i>pLanguage</i>. LOCALE_SENGLANGUAGE is the locale information type, pszString is a pointer to a buffer to receive the requested data, and cbSize specifies the size of pszString.
 

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 921da8a5-cd8a-4851-b470-9b7bd10afaad
 ms.date: 12/05/2018
 ms.keywords: POINTSTOPOINT, POINTSTOPOINT macro [Windows GDI], _win32_POINTSTOPOINT, gdi.pointstopoint, winuser/POINTSTOPOINT
-ms.topic: macro
 f1_keywords:
 - winuser/POINTSTOPOINT
 dev_langs:

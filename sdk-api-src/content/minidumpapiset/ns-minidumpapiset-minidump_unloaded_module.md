@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: d2ae58fa-561c-4135-a757-88598ebda57a
 ms.date: 12/05/2018
 ms.keywords: '*PMINIDUMP_UNLOADED_MODULE, MINIDUMP_UNLOADED_MODULE, MINIDUMP_UNLOADED_MODULE structure, PMINIDUMP_UNLOADED_MODULE, PMINIDUMP_UNLOADED_MODULE structure pointer, _MINIDUMP_UNLOADED_MODULE, _win32_minidump_unloaded_module_str, base.minidump_unloaded_module_str, minidumpapiset/MINIDUMP_UNLOADED_MODULE, minidumpapiset/PMINIDUMP_UNLOADED_MODULE'
-ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_UNLOADED_MODULE
 dev_langs:

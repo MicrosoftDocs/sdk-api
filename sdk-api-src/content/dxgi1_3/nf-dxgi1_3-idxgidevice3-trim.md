@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 7A697B4B-4D0E-46F9-BC82-860FB91B365B
 ms.date: 12/05/2018
 ms.keywords: IDXGIDevice3 interface [DXGI],Trim method, IDXGIDevice3.Trim, IDXGIDevice3::Trim, Trim, Trim method [DXGI], Trim method [DXGI],IDXGIDevice3 interface, direct3ddxgi.idxgidevice3_trim, dxgi1_3/IDXGIDevice3::Trim
-ms.topic: method
 f1_keywords:
 - dxgi1_3/IDXGIDevice3.Trim
 dev_langs:
@@ -45,14 +44,9 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDXGIDevice3::Trim
-
-
 ## -description
 
-
-Trims the graphics memory allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgidevice3">IDXGIDevice3</a> 
-    DXGI device on the app's behalf.
+Trims the graphics memory allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgidevice3">IDXGIDevice3</a> DXGI device on the app's behalf.
 
 For apps that render with DirectX, graphics drivers periodically allocate internal memory buffers in order to speed up subsequent rendering requests. These memory allocations count against the app's memory usage for PLM  and in general lead to increased memory usage by the overall system.
 
@@ -67,30 +61,6 @@ Similar to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d1
 It is also prudent to release references on middleware before calling <b>Trim</b>, as that middleware may also need to release references
 to Direct3D objects.
 
-
-## -parameters
-
-
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgidevice3">IDXGIDevice3</a>
- 
-
- 
-

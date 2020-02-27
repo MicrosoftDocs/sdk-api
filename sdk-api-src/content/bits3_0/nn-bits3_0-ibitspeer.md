@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 617b88d4-6c3e-4c33-9bfa-6d9f6f629866
 ms.date: 12/05/2018
 ms.keywords: IBitsPeer, IBitsPeer interface [BITS], IBitsPeer interface [BITS],described, bits.ibitspeer, bits3_0/IBitsPeer
-ms.topic: interface
 f1_keywords:
 - bits3_0/IBitsPeer
 dev_langs:

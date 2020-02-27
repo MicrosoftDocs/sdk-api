@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 0eeeed70-bfda-45c0-8709-29e97ab0c5a9
 ms.date: 12/05/2018
 ms.keywords: DdWaitForVerticalBlank, DdWaitForVerticalBlank callback function [Display Devices], PDD_WAITFORVERTICALBLANK, PDD_WAITFORVERTICALBLANK callback, ddfncs_ed0f04a7-78e9-4ecc-80a6-95127dc28aed.xml, ddrawint/DdWaitForVerticalBlank, display.ddwaitforverticalblank
-ms.topic: callback
 f1_keywords:
 - ddrawint/DdWaitForVerticalBlank
 dev_langs:

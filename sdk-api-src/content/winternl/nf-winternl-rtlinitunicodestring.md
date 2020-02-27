@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlinitunicodestring.htm
 ms.date: 12/05/2018
 ms.keywords: RtlInitUnicodeString, RtlInitUnicodeString function [Windows API], winprog.rtlinitunicodestring, winternl/RtlInitUnicodeString, winui.rtlinitunicodestring
-ms.topic: function
 f1_keywords:
 - winternl/RtlInitUnicodeString
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 9db3b162-b37d-4a86-a3c0-cb594370238b
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],DeleteMember method, DeleteMember, DeleteMember method [Security], DeleteMember method [Security],AzApplicationGroup object, DeleteMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteMember method, IAzApplicationGroup.DeleteMember, IAzApplicationGroup::DeleteMember, azroles/IAzApplicationGroup::DeleteMember, security.iazapplicationgroup_deletemember
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplicationGroup.DeleteMember
 dev_langs:

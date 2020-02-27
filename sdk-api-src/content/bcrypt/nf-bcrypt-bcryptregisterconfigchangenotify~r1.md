@@ -3,7 +3,6 @@ UID: NF:bcrypt.BCryptRegisterConfigChangeNotify~r1
 title: BCryptRegisterConfigChangeNotify
 ms.date: 01/30/19
 ms.keywords: BCryptRegisterConfigChangeNotify
-ms.topic: language-reference
 f1_keywords:
 - bcrypt/BCryptRegisterConfigChangeNotify
 dev_langs:

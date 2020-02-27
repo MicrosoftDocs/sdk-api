@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: 8f137633-8501-404c-9540-d558be9beeca
 ms.date: 12/05/2018
 ms.keywords: '*PHYPOTHESIS, HYPOTHESIS, HYPOTHESIS structure [NDF], HYPOTHESIS,*PHYPOTHESIS, HYPOTHESIS,*PHYPOTHESIS structure [NDF], ndf.hypothesis, ndhelper/HYPOTHESIS'
-ms.topic: struct
 f1_keywords:
 - ndhelper/HYPOTHESIS, *PHYPOTHESIS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 994eddef-65e6-4ccd-92e7-1e76a7c11681
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],SetRect method, IOleDocumentView.SetRect, IOleDocumentView::SetRect, SetRect, SetRect method [COM], SetRect method [COM],IOleDocumentView interface, _ole_ioledocumentview_setrect, com.ioledocumentview_setrect, docobj/IOleDocumentView::SetRect
-ms.topic: method
 f1_keywords:
 - docobj/IOleDocumentView.SetRect
 dev_langs:

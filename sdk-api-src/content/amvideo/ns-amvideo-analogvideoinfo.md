@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c0c568ce-6834-4bfe-aaae-addfbc0218bd
 ms.date: 12/05/2018
 ms.keywords: ANALOGVIDEOINFO, ANALOGVIDEOINFO structure [DirectShow], ANALOGVIDEOINFOStructure, amvideo/ANALOGVIDEOINFO, dshow.analogvideoinfo
-ms.topic: struct
 f1_keywords:
 - amvideo/ANALOGVIDEOINFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\getmessagetime.htm
 ms.date: 12/05/2018
 ms.keywords: GetMessageTime, GetMessageTime function [Windows and Messages], _win32_GetMessageTime, _win32_getmessagetime_cpp, winmsg.getmessagetime, winui._win32_getmessagetime, winuser/GetMessageTime
-ms.topic: function
 f1_keywords:
 - winuser/GetMessageTime
 dev_langs:

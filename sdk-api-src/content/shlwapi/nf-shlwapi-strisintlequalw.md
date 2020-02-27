@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 02c66644-8aab-4ddd-a3ab-d52aeaa900a3
 ms.date: 12/05/2018
 ms.keywords: StrIsIntlEqual, StrIsIntlEqual function [Windows Shell], StrIsIntlEqualA, StrIsIntlEqualW, _win32_StrIsIntlEqual, shell.StrIsIntlEqual, shlwapi/StrIsIntlEqual, shlwapi/StrIsIntlEqualA, shlwapi/StrIsIntlEqualW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrIsIntlEqual
 dev_langs:

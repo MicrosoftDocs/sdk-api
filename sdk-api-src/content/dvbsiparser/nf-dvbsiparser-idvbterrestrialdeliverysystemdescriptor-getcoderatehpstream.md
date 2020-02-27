@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 84cc3e77-aa46-40b0-ad04-27541216bb6f
 ms.date: 12/05/2018
 ms.keywords: GetCodeRateHPStream, GetCodeRateHPStream method [Microsoft TV Technologies], GetCodeRateHPStream method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetCodeRateHPStream method, IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream, IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream, IDvbTerrestrialDeliverySystemDescriptorGetCodeRateHPStream, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream, mstv.idvbterrestrialdeliverysystemdescriptor_getcoderatehpstream
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: fc98dfb3-7e10-421d-b722-223bd8a65330
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyManager, IBackgroundCopyManager interface [BITS], IBackgroundCopyManager interface [BITS],described, _drz_ibackgroundcopymanager, bits.ibackgroundcopymanager, bits/IBackgroundCopyManager
-ms.topic: interface
 f1_keywords:
 - bits/IBackgroundCopyManager
 dev_langs:
@@ -114,7 +113,7 @@ Retrieves a specified job from the queue.
 
 
 
-<b>Windows Vista and later:  </b>When an ActiveX control tries to instantiate this interface from an Internet Explorer process, the call will fail with access denied. This is because COM does not allow lower-integrity clients to bind to class instances at higher integrity levels. For details, see <a href="http://go.microsoft.com/fwlink/p/?linkid=103101">Understanding and Working in Protected Mode Internet Explorer</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=103102">How the Integrity Mechanism Is Implemented in Windows Vista</a>. A user can workaround the issue by adding the website to the Trusted site zone.
+<b>Windows Vista and later:  </b>When an ActiveX control tries to instantiate this interface from an Internet Explorer process, the call will fail with access denied. This is because COM does not allow lower-integrity clients to bind to class instances at higher integrity levels. For details, see <a href="https://msdn.microsoft.com/library/Bb250462.aspx">Understanding and Working in Protected Mode Internet Explorer</a> and <a href="https://msdn.microsoft.com/library/bb625962.aspx">How the Integrity Mechanism Is Implemented in Windows Vista</a>. A user can workaround the issue by adding the website to the Trusted site zone.
 
 
 

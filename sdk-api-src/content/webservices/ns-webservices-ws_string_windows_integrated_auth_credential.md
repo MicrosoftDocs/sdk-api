@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 31a9c242-b56c-47d5-8b5a-a7a245575124
 ms.date: 12/05/2018
 ms.keywords: WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL structure [Web Services for Windows], webservices/WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, wsw.ws_string_windows_integrated_auth_credential
-ms.topic: struct
 f1_keywords:
 - webservices/WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 dev_langs:

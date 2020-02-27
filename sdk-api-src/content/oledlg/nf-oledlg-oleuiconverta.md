@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3af4b321-cea2-4f88-ae22-2dcefbb2c2ad
 ms.date: 12/05/2018
 ms.keywords: OleUIConvert, OleUIConvert function [COM], OleUIConvertA, OleUIConvertW, _ole_OleUIConvert, com.oleuiconvert, oledlg/OleUIConvert, oledlg/OleUIConvertA, oledlg/OleUIConvertW
-ms.topic: function
 f1_keywords:
 - oledlg/OleUIConvert
 dev_langs:

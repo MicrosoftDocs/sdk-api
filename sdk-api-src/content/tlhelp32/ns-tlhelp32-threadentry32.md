@@ -7,7 +7,6 @@ tech.root: ToolHelp
 ms.assetid: 923feca1-8807-4752-8a5a-79075688aabd
 ms.date: 12/05/2018
 ms.keywords: '*LPTHREADENTRY32, *PTHREADENTRY32, PTHREADENTRY32, PTHREADENTRY32 structure pointer [ToolHelp], THREADENTRY32, THREADENTRY32 structure [ToolHelp], _win32_threadentry32_str, base.threadentry32_str, tlhelp32/PTHREADENTRY32, tlhelp32/THREADENTRY32, toolhelp.threadentry32_str'
-ms.topic: struct
 f1_keywords:
 - tlhelp32/THREADENTRY32
 dev_langs:

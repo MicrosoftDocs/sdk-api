@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 7728930a-408d-445f-9b0d-9043912d4e72
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMPageReferenceCollection.GetCount, IXpsOMPageReferenceCollection::GetCount, xps.ixpsompagereferencecollection_getcount, xpsobjectmodel/IXpsOMPageReferenceCollection::GetCount
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPageReferenceCollection.GetCount
 dev_langs:
@@ -98,7 +97,7 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

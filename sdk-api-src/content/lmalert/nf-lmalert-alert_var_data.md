@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: ff71fb3d-8c01-47ac-93f2-108b1f49e2da
 ms.date: 12/05/2018
 ms.keywords: ALERT_VAR_DATA, ALERT_VAR_DATA macro [Network Management], _win32_alert_var_data, lmalert/ALERT_VAR_DATA, netmgmt.alert_var_data
-ms.topic: macro
 f1_keywords:
 - lmalert/ALERT_VAR_DATA
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1d7f1a8b-bbc4-43ae-b8e6-410561087204
 ms.date: 12/05/2018
 ms.keywords: GetVideoPosition, GetVideoPosition method [DirectShow], GetVideoPosition method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetVideoPosition method, IVMRWindowlessControl.GetVideoPosition, IVMRWindowlessControl::GetVideoPosition, IVMRWindowlessControlGetVideoPosition, dshow.ivmrwindowlesscontrol_getvideoposition, strmif/IVMRWindowlessControl::GetVideoPosition
-ms.topic: method
 f1_keywords:
 - strmif/IVMRWindowlessControl.GetVideoPosition
 dev_langs:

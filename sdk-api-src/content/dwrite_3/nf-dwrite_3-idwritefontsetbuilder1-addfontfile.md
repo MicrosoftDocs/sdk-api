@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 3858EF37-F545-4C2E-BC3D-E4732B49911C
 ms.date: 12/05/2018
 ms.keywords: AddFontFile, AddFontFile method [Direct Write], AddFontFile method [Direct Write],IDWriteFontSetBuilder1 interface, IDWriteFontSetBuilder1 interface [Direct Write],AddFontFile method, IDWriteFontSetBuilder1.AddFontFile, IDWriteFontSetBuilder1::AddFontFile, directwrite.idwritefontsetbuilder1_addfontfile, dwrite_3/IDWriteFontSetBuilder1::AddFontFile
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontSetBuilder1.AddFontFile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 20f2e95a-8362-457d-b562-f7263e698551
 ms.date: 12/05/2018
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetRedrawAlways method, IAMLine21Decoder.SetRedrawAlways, IAMLine21Decoder::SetRedrawAlways, IAMLine21DecoderSetRedrawAlways, SetRedrawAlways, SetRedrawAlways method [DirectShow], SetRedrawAlways method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setredrawalways, il21dec/IAMLine21Decoder::SetRedrawAlways
-ms.topic: method
 f1_keywords:
 - il21dec/IAMLine21Decoder.SetRedrawAlways
 dev_langs:

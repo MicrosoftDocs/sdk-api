@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 9917323D-38C4-446E-B59A-52493A6020ED
 ms.date: 12/05/2018
 ms.keywords: InterlockedExchangeSubtract, InterlockedExchangeSubtract function, base.interlockedexchangesubtract, winbase/InterlockedExchangeSubtract
-ms.topic: function
 f1_keywords:
 - winbase/InterlockedExchangeSubtract
 dev_langs:
@@ -95,7 +94,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedcompareexchange">InterlockedCompareExchange</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange">InterlockedCompareExchange</a>
 
 
 

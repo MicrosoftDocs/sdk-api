@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: b455aa57-9785-4741-bc3b-1f99cbf4e3d9
 ms.date: 12/05/2018
 ms.keywords: CloneFrom, CloneFrom method [Media Foundation], CloneFrom method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],CloneFrom method, IMFTopology.CloneFrom, IMFTopology::CloneFrom, b455aa57-9785-4741-bc3b-1f99cbf4e3d9, mf.imftopology_clonefrom, mfidl/IMFTopology::CloneFrom
-ms.topic: method
 f1_keywords:
 - mfidl/IMFTopology.CloneFrom
 dev_langs:

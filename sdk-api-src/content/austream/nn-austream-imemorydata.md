@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0e809ae7-381c-4ada-8940-5d42bf5c03da
 ms.date: 12/05/2018
 ms.keywords: IMemoryData, IMemoryData interface [DirectShow], IMemoryData interface [DirectShow],described, IMemoryDataInterface, austream/IMemoryData, dshow.imemorydata
-ms.topic: interface
 f1_keywords:
 - austream/IMemoryData
 dev_langs:

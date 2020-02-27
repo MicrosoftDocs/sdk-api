@@ -7,7 +7,6 @@ tech.root: iSCSIDisc
 ms.assetid: 592d9cd8-5944-479c-ba21-7cf911e0a5b9
 ms.date: 12/05/2018
 ms.keywords: GetIScsiInitiatorNodeNameW, GetIscsiInitiatorNodeName, GetIscsiInitiatorNodeName function [iSCSI Discovery Library API], GetIscsiInitiatorNodeNameA, GetIscsiInitiatorNodeNameW, iscsidisc.getiscsiinitiatornodename, iscsidsc/GetIscsiInitiatorNodeName, iscsidsc/GetIscsiInitiatorNodeNameA, iscsidsc/GetIscsiInitiatorNodeNameW
-ms.topic: function
 f1_keywords:
 - iscsidsc/GetIscsiInitiatorNodeName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: 9357f463-946c-47ad-bb8d-ff9de210e7e1
 ms.date: 12/05/2018
 ms.keywords: '*PRepairInfoEx, PRepairInfoEx, PRepairInfoEx structure pointer [NDF], RepairInfoEx, RepairInfoEx structure [NDF], ndattrib/PRepairInfoEx, ndattrib/RepairInfoEx, ndf.repairinfoex'
-ms.topic: struct
 f1_keywords:
 - ndattrib/RepairInfoEx
 dev_langs:

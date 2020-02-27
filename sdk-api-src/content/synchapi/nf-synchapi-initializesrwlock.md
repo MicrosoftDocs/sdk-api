@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: a94443e1-009c-49ba-a51c-6daa63b07cda
 ms.date: 12/05/2018
 ms.keywords: InitializeSRWLock, InitializeSRWLock function, base.initializesrwlock, synchapi/InitializeSRWLock, winbase/InitializeSRWLock
-ms.topic: function
 f1_keywords:
 - synchapi/InitializeSRWLock
 dev_langs:

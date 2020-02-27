@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 356f7277-66ef-450f-ab5a-0303d0b1d807
 ms.date: 12/05/2018
 ms.keywords: InternetUnlockRequestFile, InternetUnlockRequestFile function [WinINet], _inet_internetunlockrequestfile_function, wininet.internetunlockrequestfile, wininet/InternetUnlockRequestFile
-ms.topic: function
 f1_keywords:
 - wininet/InternetUnlockRequestFile
 dev_langs:

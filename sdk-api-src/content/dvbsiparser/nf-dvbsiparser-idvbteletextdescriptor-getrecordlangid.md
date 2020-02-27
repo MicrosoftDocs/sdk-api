@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: cce0fd15-5098-4871-baab-e40b6cae39b1
 ms.date: 12/05/2018
 ms.keywords: GetRecordLangId, GetRecordLangId method [Microsoft TV Technologies], GetRecordLangId method [Microsoft TV Technologies],IDvbTeletextDescriptor interface, IDvbTeletextDescriptor interface [Microsoft TV Technologies],GetRecordLangId method, IDvbTeletextDescriptor.GetRecordLangId, IDvbTeletextDescriptor::GetRecordLangId, dvbsiparser/IDvbTeletextDescriptor::GetRecordLangId, mstv.idvbteletextdescriptor_getrecordlangid
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbTeletextDescriptor.GetRecordLangId
 dev_langs:

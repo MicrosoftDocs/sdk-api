@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6b5c660c-3d3f-4f78-8eca-3a42982eb0ae
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],MenuLanguageSelect method, IDvdControl.MenuLanguageSelect, IDvdControl::MenuLanguageSelect, IDvdControlMenuLanguageSelect, MenuLanguageSelect, MenuLanguageSelect method [DirectShow], MenuLanguageSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_menulanguageselect, strmif/IDvdControl::MenuLanguageSelect
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.MenuLanguageSelect
 dev_langs:
@@ -83,7 +82,7 @@ Returns an <b>HRESULT</b> value.
 
 This method selects the default language for menus.
 
-This method returns an error unless the domain is DVD_DOMAIN_Stop. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_Stop. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 Applications specify languages with standard Windows LCIDs.
 

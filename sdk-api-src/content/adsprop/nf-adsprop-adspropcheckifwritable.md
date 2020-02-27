@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: ec0c3a70-58ad-4d92-85dc-63090b1fce94
 ms.date: 12/05/2018
 ms.keywords: ADsPropCheckIfWritable, ADsPropCheckIfWritable function [Active Directory], _glines_adspropcheckifwritable, ad.adspropcheckifwritable, adsprop/ADsPropCheckIfWritable
-ms.topic: function
 f1_keywords:
 - adsprop/ADsPropCheckIfWritable
 dev_langs:

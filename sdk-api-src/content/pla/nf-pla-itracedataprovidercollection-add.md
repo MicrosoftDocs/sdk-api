@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 3214f25d-1991-439a-b237-61249a531a2b
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],Add method, ITraceDataProviderCollection.Add, ITraceDataProviderCollection::Add, base.itracedataprovidercollection_add, pla.itracedataprovidercollection_add, pla/ITraceDataProviderCollection::Add
-ms.topic: method
 f1_keywords:
 - pla/ITraceDataProviderCollection.Add
 dev_langs:

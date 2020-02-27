@@ -7,7 +7,6 @@ tech.root: wsl
 ms.assetid: 7D680D81-921E-461F-8845-AADAF53EAEEE
 ms.date: 12/05/2018
 ms.keywords: WslGetDistributionConfiguration, WslGetDistributionConfiguration function, wsl.wslgetdistributionconfiguration, wslapi/WslGetDistributionConfiguration
-ms.topic: function
 f1_keywords:
 - wslapi/WslGetDistributionConfiguration
 dev_langs:

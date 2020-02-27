@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6ec3f90a-4b65-4cbc-a777-a338c97f1acf
 ms.date: 12/05/2018
 ms.keywords: BeforeCoCreateInstance, BeforeCoCreateInstance method [Windows Shell], BeforeCoCreateInstance method [Windows Shell],IHandlerActivationHost interface, IHandlerActivationHost interface [Windows Shell],BeforeCoCreateInstance method, IHandlerActivationHost.BeforeCoCreateInstance, IHandlerActivationHost::BeforeCoCreateInstance, shell.IHandlerActivationHost_BeforeCoCreateInstance, shobjidl_core/IHandlerActivationHost::BeforeCoCreateInstance
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IHandlerActivationHost.BeforeCoCreateInstance
 dev_langs:
@@ -45,44 +44,22 @@ ms.custom: 19H1
 ---
 
 # IHandlerActivationHost::BeforeCoCreateInstance
-
-
 ## -description
-
-
-
-
+This notifies a client of ShellExecuteEx that a handler is about to be created, giving that client the opportunity to display UI confirming the use of that handler or reject it by returning a specific error code.
 
 ## -parameters
-
-
-
-
 ### -param clsidHandler [in]
-
+Identifies the handler.
 
 ### -param itemsBeingActivated [in]
-
+The shell item objects that will be passed to the handler. Typically there is only one but in some cases there can be more than one.
 
 ### -param handlerInfo [in]
-
+Provides access to information about the hanlder that will be invoked. This object also supports IHandlerInfo2 on versions of windows that implement that.
 
 ## -returns
-
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. 
+Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code, <b>HRESULT_FROM_WIN32(ERROR_CANCELLED)</b> inciates that the ShellExecute call should be canceled, <b>EXECUTE_E_LAUNCH_APPLICATION</b> indicates that this handler should not be used, but if there is another it should be used.
 
 ## -see-also
-
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihandleractivationhost">IHandlerActivationHost</a>
- 
-
- 
-

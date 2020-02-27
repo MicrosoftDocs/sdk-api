@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchgetsex.htm
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchGetsEx, StringCchGetsEx function [Menus and Other Resources], StringCchGetsExA, StringCchGetsExW, _shell_StringCchGetsEx, _shell_stringcchgetsex_cpp, menurc.stringcchgetsex, strsafe/StringCchGetsEx, strsafe/StringCchGetsExA, strsafe/StringCchGetsExW, winui._shell_stringcchgetsex
-ms.topic: function
 f1_keywords:
 - strsafe/StringCchGetsEx
 dev_langs:
@@ -57,7 +56,7 @@ Gets one line of text from stdin, up to and including the newline character ('\n
 
 <b>StringCchGetsEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192504">gets, _getws, _getts</a></li>
+<li><a href="https://msdn.microsoft.com/library/2029ea5f.aspx">gets, _getws, _getts</a></li>
 </ul><b>StringCchGetsEx</b> is not a replacement for <b>fgets</b>, which does not replace newline characters with a terminating null character.
 
 

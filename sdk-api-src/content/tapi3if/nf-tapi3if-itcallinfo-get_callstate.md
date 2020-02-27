@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: f7beb48f-d7d2-4a99-8e6a-6122059c9170
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_CallState method, ITCallInfo.get_CallState, ITCallInfo::get_CallState, _tapi3_itcallinfo_get_callstate, get_CallState, get_CallState method [TAPI 2.2], get_CallState method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_callstate, tapi3if/ITCallInfo::get_CallState
-ms.topic: method
 f1_keywords:
 - tapi3if/ITCallInfo.get_CallState
 dev_langs:

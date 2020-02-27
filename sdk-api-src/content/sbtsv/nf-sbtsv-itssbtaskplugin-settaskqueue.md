@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: a17e4767-5311-4f9b-9d05-cd9e35f7c5e2
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskPlugin interface [Remote Desktop Services],SetTaskQueue method, ITsSbTaskPlugin.SetTaskQueue, ITsSbTaskPlugin::SetTaskQueue, SetTaskQueue, SetTaskQueue method [Remote Desktop Services], SetTaskQueue method [Remote Desktop Services],ITsSbTaskPlugin interface, sbtsv/ITsSbTaskPlugin::SetTaskQueue, termserv.itssbtaskplugin_settaskqueue
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbTaskPlugin.SetTaskQueue
 dev_langs:

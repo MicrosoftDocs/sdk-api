@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: c56f679d-512a-4bf9-89dc-8905bba8c6ce
 ms.date: 12/05/2018
 ms.keywords: GetPwrDiskSpindownRange, GetPwrDiskSpindownRange function, _win32_getpwrdiskspindownrange, base.getpwrdiskspindownrange, powrprof/GetPwrDiskSpindownRange
-ms.topic: function
 f1_keywords:
 - powrprof/GetPwrDiskSpindownRange
 dev_langs:

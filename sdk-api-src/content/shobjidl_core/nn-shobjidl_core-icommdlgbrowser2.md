@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 07a416a2-340d-4308-a6f3-cf6f19f3c906
 ms.date: 12/05/2018
 ms.keywords: ICommDlgBrowser2, ICommDlgBrowser2 interface [Windows Shell], ICommDlgBrowser2 interface [Windows Shell],described, _win32_ICommDlgBrowser2, shell.ICommDlgBrowser2, shobjidl_core/ICommDlgBrowser2
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/ICommDlgBrowser2
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the capabilities of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser">ICommDlgBrowser</a>. This interface is exposed by the common file dialog boxes when they host a Shell browser. A pointer to <b>ICommDlgBrowser2</b> can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a> object.
+Extends the capabilities of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser">ICommDlgBrowser</a>. This interface is exposed by the common file dialog boxes when they host a Shell browser. A pointer to <b>ICommDlgBrowser2</b> can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a> object.
 
 
 ## -inheritance

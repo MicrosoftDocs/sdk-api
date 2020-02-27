@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 01cf3931-59ef-4572-9f2e-aa210da0ac2d
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],PostRestore method, IVssBackupComponents.PostRestore, IVssBackupComponents::PostRestore, PostRestore, PostRestore method [VSS], PostRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_postrestore, base.ivssbackupcomponents_postrestore, vsbackup/IVssBackupComponents::PostRestore
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.PostRestore
 dev_langs:

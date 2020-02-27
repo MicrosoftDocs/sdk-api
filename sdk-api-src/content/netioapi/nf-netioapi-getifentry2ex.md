@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 98C25986-1B38-4878-B578-3D30394F49E4
 ms.date: 12/05/2018
 ms.keywords: GetIfEntry2Ex, GetIfEntry2Ex function [IP Helper], MibIfEntryNormal, MibIfEntryNormalWithoutStatistics, iphlp.getifentry2ex, netioapi/GetIfEntry2Ex
-ms.topic: function
 f1_keywords:
 - netioapi/GetIfEntry2Ex
 dev_langs:

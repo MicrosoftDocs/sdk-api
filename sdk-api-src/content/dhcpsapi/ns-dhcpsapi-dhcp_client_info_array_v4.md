@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: cda4bf44-0a4c-4825-ae3f-379ceae5aadb
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_CLIENT_INFO_ARRAY_V4, DHCP_CLIENT_INFO_ARRAY_V4, DHCP_CLIENT_INFO_ARRAY_V4 structure [DHCP], LPDHCP_CLIENT_INFO_ARRAY_V4, LPDHCP_CLIENT_INFO_ARRAY_V4 structure pointer [DHCP], dhcp.dhcp_client_info_array_v4, dhcpsapi/LPDHCP_CLIENT_INFO_ARRAY_V4, dhcpsapi/_DHCP_CLIENT_INFO_ARRAY_V4'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_CLIENT_INFO_ARRAY_V4
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: d083123a-1b45-4c18-9490-6ce038bb6b22
 ms.date: 12/05/2018
 ms.keywords: CreateFontFromLOGFONT, CreateFontFromLOGFONT method [Direct Write], CreateFontFromLOGFONT method [Direct Write],IDWriteGdiInterop interface, IDWriteGdiInterop interface [Direct Write],CreateFontFromLOGFONT method, IDWriteGdiInterop.CreateFontFromLOGFONT, IDWriteGdiInterop::CreateFontFromLOGFONT, directwrite.IDWriteGdiInterop_CreateFontFromLOGFONT, dwrite/IDWriteGdiInterop::CreateFontFromLOGFONT
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteGdiInterop.CreateFontFromLOGFONT
 dev_langs:

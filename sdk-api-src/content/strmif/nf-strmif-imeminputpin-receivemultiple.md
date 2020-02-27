@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: cf90a6e8-0758-4cee-887d-3ac9f7aa764d
 ms.date: 12/05/2018
 ms.keywords: IMemInputPin interface [DirectShow],ReceiveMultiple method, IMemInputPin.ReceiveMultiple, IMemInputPin::ReceiveMultiple, IMemInputPinReceiveMultiple, ReceiveMultiple, ReceiveMultiple method [DirectShow], ReceiveMultiple method [DirectShow],IMemInputPin interface, dshow.imeminputpin_receivemultiple, strmif/IMemInputPin::ReceiveMultiple
-ms.topic: method
 f1_keywords:
 - strmif/IMemInputPin.ReceiveMultiple
 dev_langs:

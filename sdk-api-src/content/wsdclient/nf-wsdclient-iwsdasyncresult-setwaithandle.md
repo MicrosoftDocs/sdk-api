@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: d7196785-0e9c-4320-a14e-60457f72c66b
 ms.date: 12/05/2018
 ms.keywords: IWSDAsyncResult interface,SetWaitHandle method, IWSDAsyncResult.SetWaitHandle, IWSDAsyncResult::SetWaitHandle, SetWaitHandle, SetWaitHandle method, SetWaitHandle method,IWSDAsyncResult interface, ncd.iwsdasyncresult_setwaithandle_method, wsdclient/IWSDAsyncResult::SetWaitHandle
-ms.topic: method
 f1_keywords:
 - wsdclient/IWSDAsyncResult.SetWaitHandle
 dev_langs:

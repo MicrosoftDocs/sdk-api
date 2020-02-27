@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: d6f4c66a-79c3-4bc1-889d-ec5715e359ce
 ms.date: 12/05/2018
 ms.keywords: ITsSbSession, ITsSbSession interface [Remote Desktop Services], ITsSbSession interface [Remote Desktop Services],described, sbtsv/ITsSbSession, termserv.itssbsession
-ms.topic: interface
 f1_keywords:
 - sbtsv/ITsSbSession
 dev_langs:

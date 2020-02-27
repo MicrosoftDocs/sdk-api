@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 9be8311a-f6ad-4007-a254-841ee99ff3b6
 ms.date: 12/05/2018
 ms.keywords: _win32_acmFormatChoose, acmFormatChoose, acmFormatChoose function [Windows Multimedia], acmFormatChooseA, acmFormatChooseW, msacm/acmFormatChoose, msacm/acmFormatChooseA, msacm/acmFormatChooseW, multimedia.acmformatchoose
-ms.topic: function
 f1_keywords:
 - msacm/acmFormatChoose
 dev_langs:

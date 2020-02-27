@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 9ec630bc-bba1-4a44-b66d-404a5221abbf
 ms.date: 12/05/2018
 ms.keywords: ISubunit, ISubunit interface [Core Audio], ISubunit interface [Core Audio],described, coreaudio.isubunit, devicetopology/ISubunit
-ms.topic: interface
 f1_keywords:
 - devicetopology/ISubunit
 dev_langs:

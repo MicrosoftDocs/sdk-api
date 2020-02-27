@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: a3003b9c-405e-4b3d-89a4-6c0884c28805
 ms.date: 12/05/2018
 ms.keywords: WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT, WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT, wsw.ws_username_message_security_binding_constraint
-ms.topic: struct
 f1_keywords:
 - webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT
 dev_langs:

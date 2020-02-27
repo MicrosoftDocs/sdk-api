@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: D3DC08E9-19CC-4281-9C71-CB9B8CBDDB7F
 ms.date: 12/05/2018
 ms.keywords: IInkRecognizerContext, IInkRecognizerContext interface [Tablet PC], IInkRecognizerContext interface [Tablet PC],described, msinkaut/IInkRecognizerContext, tablet.iinkrecognizercontext
-ms.topic: interface
 f1_keywords:
 - msinkaut/IInkRecognizerContext
 dev_langs:

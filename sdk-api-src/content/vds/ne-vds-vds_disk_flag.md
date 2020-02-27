@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: a421a1c1-a82c-4e07-846c-10aa2082ab86
 ms.date: 12/05/2018
 ms.keywords: VDS_DF_AUDIO_CD, VDS_DF_BOOT_DISK, VDS_DF_BOOT_FROM_DISK, VDS_DF_CLUSTERED, VDS_DF_CRASHDUMP_DISK, VDS_DF_CURRENT_READ_ONLY, VDS_DF_DYNAMIC, VDS_DF_HAS_ARC_PATH, VDS_DF_HIBERNATIONFILE_DISK, VDS_DF_HOTSPARE, VDS_DF_MASKED, VDS_DF_PAGEFILE_DISK, VDS_DF_READ_ONLY, VDS_DF_RESERVE_CAPABLE, VDS_DF_STYLE_CONVERTIBLE, VDS_DF_SYSTEM_DISK, VDS_DISK_FLAG, VDS_DISK_FLAG enumeration [VDS], base.vds_disk_flag, vds/VDS_DF_AUDIO_CD, vds/VDS_DF_BOOT_DISK, vds/VDS_DF_BOOT_FROM_DISK, vds/VDS_DF_CLUSTERED, vds/VDS_DF_CRASHDUMP_DISK, vds/VDS_DF_CURRENT_READ_ONLY, vds/VDS_DF_DYNAMIC, vds/VDS_DF_HAS_ARC_PATH, vds/VDS_DF_HIBERNATIONFILE_DISK, vds/VDS_DF_HOTSPARE, vds/VDS_DF_MASKED, vds/VDS_DF_PAGEFILE_DISK, vds/VDS_DF_READ_ONLY, vds/VDS_DF_RESERVE_CAPABLE, vds/VDS_DF_STYLE_CONVERTIBLE, vds/VDS_DF_SYSTEM_DISK, vds/VDS_DISK_FLAG
-ms.topic: enum
 f1_keywords:
 - vds/VDS_DISK_FLAG
 dev_langs:
@@ -184,7 +183,7 @@ USB disks and CD-ROMs have the following restrictions and capabilities:
 <ul>
 <li>Dynamic disks are not supported on USB disks (including USB removable hard disks and USB flash drives).</li>
 <li>A removable USB disk cannot be used as a boot disk.</li>
-<li>You can <a href="http://go.microsoft.com/fwlink/p/?linkid=143085">create a bootable WinPE RAM disk on a USB flash drive or CD-ROM</a>.<b>Windows Server 2003:  </b>Not supported.
+<li>You can <a href="https://technet.microsoft.com/library/cc766195.aspx">create a bootable WinPE RAM disk on a USB flash drive or CD-ROM</a>.<b>Windows Server 2003:  </b>Not supported.
 
 </li>
 <li>A USB flash drive can have only one partition. The partition type can be MBR or GPT.</li>

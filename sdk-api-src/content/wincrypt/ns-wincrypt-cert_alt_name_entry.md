@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 1353ef56-cae7-43f2-a31f-2bb3b502450e
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_ALT_NAME_ENTRY, CERT_ALT_NAME_ENTRY, CERT_ALT_NAME_ENTRY structure [Security], PCERT_ALT_NAME_ENTRY, PCERT_ALT_NAME_ENTRY structure pointer [Security], _crypto2_cert_alt_name_entry, security.cert_alt_name_entry, wincrypt/CERT_ALT_NAME_ENTRY, wincrypt/PCERT_ALT_NAME_ENTRY'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_ALT_NAME_ENTRY
 dev_langs:
@@ -109,7 +108,7 @@ URL as a IA5 string.
 
 ### -field DUMMYUNIONNAME.IPAddress
 
-Octet string that is an Internet Protocol address defined in accordance with Internet <a href="http://go.microsoft.com/fwlink/p/?linkid=84067">RFC 791</a>.
+Octet string that is an Internet Protocol address defined in accordance with Internet <a href="https://www.ietf.org/rfc/rfc791.txt">RFC 791</a>.
 
 
 ### -field DUMMYUNIONNAME.pszRegisteredID

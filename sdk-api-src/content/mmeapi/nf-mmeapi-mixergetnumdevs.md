@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: ae3c3a28-1dc1-4e35-99d6-68e629124a89
 ms.date: 12/05/2018
 ms.keywords: _win32_mixerGetNumDevs, mixerGetNumDevs, mixerGetNumDevs function [Windows Multimedia], mmeapi/mixerGetNumDevs, multimedia.mixergetnumdevs
-ms.topic: function
 f1_keywords:
 - mmeapi/mixerGetNumDevs
 dev_langs:

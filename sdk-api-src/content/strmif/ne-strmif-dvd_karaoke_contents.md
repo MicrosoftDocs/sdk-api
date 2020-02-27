@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9d02b0bf-237a-42bf-b946-588b899cd3d9
 ms.date: 12/05/2018
 ms.keywords: DVD_KARAOKE_CONTENTS, DVD_KARAOKE_CONTENTS , DVD_KARAOKE_CONTENTS enumeration [DirectShow], DVD_KARAOKE_CONTENTSEnumeration, DVD_Karaoke_GuideMelody1, DVD_Karaoke_GuideMelody2, DVD_Karaoke_GuideMelodyA, DVD_Karaoke_GuideMelodyB, DVD_Karaoke_GuideVocal1, DVD_Karaoke_GuideVocal2, DVD_Karaoke_SoundEffectA, DVD_Karaoke_SoundEffectB, dshow.dvd_karaoke_contents, strmif/DVD_KARAOKE_CONTENTS, strmif/DVD_Karaoke_GuideMelody1, strmif/DVD_Karaoke_GuideMelody2, strmif/DVD_Karaoke_GuideMelodyA, strmif/DVD_Karaoke_GuideMelodyB, strmif/DVD_Karaoke_GuideVocal1, strmif/DVD_Karaoke_GuideVocal2, strmif/DVD_Karaoke_SoundEffectA, strmif/DVD_Karaoke_SoundEffectB
-ms.topic: enum
 f1_keywords:
 - strmif/DVD_KARAOKE_CONTENTS
 dev_langs:
@@ -113,7 +112,7 @@ The channel contains sound effect B.
 
 
 
-This enumeration is used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_karaokeattributes">DVD_KaraokeAttributes</a> structure.
+This enumeration is used in the [DVD_KaraokeAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_karaokeattributes) structure.
 
 
 

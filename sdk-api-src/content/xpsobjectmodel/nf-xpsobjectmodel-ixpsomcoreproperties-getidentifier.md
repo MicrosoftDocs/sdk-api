@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: a397fba0-4e73-4f5b-b292-529a222c2501
 ms.date: 12/05/2018
 ms.keywords: GetIdentifier, GetIdentifier method [XPS Documents and Packaging], GetIdentifier method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetIdentifier method, IXpsOMCoreProperties.GetIdentifier, IXpsOMCoreProperties::GetIdentifier, xps.ixpsomcoreproperties_getidentifier, xpsobjectmodel/IXpsOMCoreProperties::GetIdentifier
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.GetIdentifier
 dev_langs:
@@ -123,11 +122,11 @@ This method allocates the memory used by the string that is returned in <i>ident
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

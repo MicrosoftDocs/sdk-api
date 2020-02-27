@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 39615efe-e0fe-4e7b-b6f0-ba4a79d841a8
 ms.date: 12/05/2018
 ms.keywords: DeleteClusterResourceType, DeleteClusterResourceType function [Failover Cluster], PCLUSAPI_DELETE_CLUSTER_RESOURCE_TYPE, PCLUSAPI_DELETE_CLUSTER_RESOURCE_TYPE function [Failover Cluster], _wolf_deleteclusterresourcetype, clusapi/DeleteClusterResourceType, clusapi/PCLUSAPI_DELETE_CLUSTER_RESOURCE_TYPE, mscs.deleteclusterresourcetype
-ms.topic: function
 f1_keywords:
 - clusapi/DeleteClusterResourceType
 dev_langs:

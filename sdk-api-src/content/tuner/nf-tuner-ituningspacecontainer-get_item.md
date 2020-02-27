@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 02e17867-dc72-481a-8693-68e9b0288bba
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_Item method, ITuningSpaceContainer.get_Item, ITuningSpaceContainer::get_Item, ITuningSpaceContainerget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_item, tuner/ITuningSpaceContainer::get_Item
-ms.topic: method
 f1_keywords:
 - tuner/ITuningSpaceContainer.get_Item
 dev_langs:

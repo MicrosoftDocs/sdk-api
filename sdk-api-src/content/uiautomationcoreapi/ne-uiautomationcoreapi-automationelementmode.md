@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: b0fadf47-2916-4555-b563-d0b5cd9056e6
 ms.date: 12/05/2018
 ms.keywords: AutomationElementMode, AutomationElementMode enumeration [Windows Accessibility], AutomationElementMode_Full, AutomationElementMode_None, uiauto.uiauto_AutomationElementModeEnum, uiauto_AutomationElementModeEnum, uiautomationclient/AutomationElementMode, uiautomationclient/AutomationElementMode_Full, uiautomationclient/AutomationElementMode_None, winauto.uiauto_AutomationElementModeEnum
-ms.topic: enum
 f1_keywords:
 - uiautomationcoreapi/AutomationElementMode
 dev_langs:

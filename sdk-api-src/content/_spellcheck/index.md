@@ -1,9 +1,10 @@
 ---
 UID: TP:spellcheck
+title: Spell Checker API
 ms.assetid: 76fca260-1821-33b9-82d4-94994e7a2c11
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Spell Checker API
@@ -15,5 +16,5 @@ Overview of the Spell Checker API technology.
 The Spell Checker API technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Spell Checker API](/windows/desktop/spellcheck)
+* [Spell Checker API](https://docs.microsoft.com/previous-versions/windows/desktop/spellcheck)
 

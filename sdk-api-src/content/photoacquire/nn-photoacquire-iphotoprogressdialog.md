@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: a3928874-5a15-43d9-9d9c-8b66478b0597
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog, IPhotoProgressDialog interface [Picture Acquisition], IPhotoProgressDialog interface [Picture Acquisition],described, IPhotoProgressDialogInterface, photoacquire/IPhotoProgressDialog, picacq.iphotoprogressdialog
-ms.topic: interface
 f1_keywords:
 - photoacquire/IPhotoProgressDialog
 dev_langs:

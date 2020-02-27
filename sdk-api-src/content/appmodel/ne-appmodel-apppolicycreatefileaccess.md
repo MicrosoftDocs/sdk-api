@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: B21CF29E-D3B8-46A3-8443-161646E23ECA
 ms.date: 12/05/2018
 ms.keywords: AppPolicyCreateFileAccess, AppPolicyCreateFileAccess enumeration [App packaging and management], AppPolicyCreateFileAccess_Full, AppPolicyCreateFileAccess_Limited, appmodel/AppPolicyCreateFileAccess, appmodel/AppPolicyCreateFileAccess_Full, appmodel/AppPolicyCreateFileAccess_Limited, appxpkg.apppolicycreatefileaccess_enumeration
-ms.topic: enum
 f1_keywords:
 - appmodel/AppPolicyCreateFileAccess
 dev_langs:

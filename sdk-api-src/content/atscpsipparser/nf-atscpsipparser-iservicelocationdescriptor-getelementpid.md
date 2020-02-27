@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 97b6091b-cacb-4e69-8ca4-c9f4b70f6304
 ms.date: 12/05/2018
 ms.keywords: GetElementPID, GetElementPID method [Microsoft TV Technologies], GetElementPID method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetElementPID method, IServiceLocationDescriptor.GetElementPID, IServiceLocationDescriptor::GetElementPID, atscpsipparser/IServiceLocationDescriptor::GetElementPID, mstv.iservicelocationdescriptor_getelementpid
-ms.topic: method
 f1_keywords:
 - atscpsipparser/IServiceLocationDescriptor.GetElementPID
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5d331255-2295-4f7b-b2d6-1238edcc15bb
 ms.date: 12/05/2018
 ms.keywords: GetMode, GetMode method [Windows Shell], GetMode method [Windows Shell],IObjectWithFolderEnumMode interface, IObjectWithFolderEnumMode interface [Windows Shell],GetMode method, IObjectWithFolderEnumMode.GetMode, IObjectWithFolderEnumMode::GetMode, _shell_IObjectWithFolderEnumMode_GetMode, shell.IObjectWithFolderEnumMode_GetMode, shobjidl_core/IObjectWithFolderEnumMode::GetMode
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IObjectWithFolderEnumMode.GetMode
 dev_langs:

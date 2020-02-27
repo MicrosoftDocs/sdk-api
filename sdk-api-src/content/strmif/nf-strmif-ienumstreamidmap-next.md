@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 49e7ab23-e57e-4437-a195-88bccb6002de
 ms.date: 12/05/2018
 ms.keywords: IEnumStreamIdMap interface [DirectShow],Next method, IEnumStreamIdMap.Next, IEnumStreamIdMap::Next, IEnumStreamIdMapNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumStreamIdMap interface, dshow.ienumstreamidmap_next, strmif/IEnumStreamIdMap::Next
-ms.topic: method
 f1_keywords:
 - strmif/IEnumStreamIdMap.Next
 dev_langs:

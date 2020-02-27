@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneNormalize(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneNormalize, XMPlaneNormalize, XMPlaneNormalize method [DirectX Math Support APIs], dxmath.xmplanenormalize
-ms.topic: function
 f1_keywords:
 - directxmath/XMPlaneNormalize
 dev_langs:

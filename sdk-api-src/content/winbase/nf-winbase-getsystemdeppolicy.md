@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 82cb1d4e-c0e5-4601-aa55-9171a106c286
 ms.date: 12/05/2018
 ms.keywords: GetSystemDEPPolicy, GetSystemDEPPolicy function, base.getsystemdeppolicy, winbase/GetSystemDEPPolicy
-ms.topic: function
 f1_keywords:
 - winbase/GetSystemDEPPolicy
 dev_langs:
@@ -129,7 +128,7 @@ DEP is automatically enabled for operating system components and all processes. 
 
 
 
-The system-wide DEP policy is configured at boot time according to the policy setting in the boot configuration data.  To change the system-wide DEP policy setting, use the <a href="http://go.microsoft.com/fwlink/p/?linkid=93291">BCDEdit /set</a> command to set the <b>nx</b> boot entry option.
+The system-wide DEP policy is configured at boot time according to the policy setting in the boot configuration data.  To change the system-wide DEP policy setting, use the <a href="https://msdn.microsoft.com/library/ff542202.aspx">BCDEdit /set</a> command to set the <b>nx</b> boot entry option.
 
 If the system DEP policy is OptIn or OptOut, DEP can be selectively enabled or disabled for the current process by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setprocessdeppolicy">SetProcessDEPPolicy</a> function. This function works only for 32-bit processes.
 

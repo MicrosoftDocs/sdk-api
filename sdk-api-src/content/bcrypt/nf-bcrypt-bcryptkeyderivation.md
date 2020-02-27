@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: D0B91FFE-2E72-4AE3-A84F-DC598C02CF53
 ms.date: 12/05/2018
 ms.keywords: BCryptKeyDerivation, BCryptKeyDerivation function [Security], bcrypt/BCryptKeyDerivation, security.bcryptkeyderivation
-ms.topic: function
 f1_keywords:
 - bcrypt/BCryptKeyDerivation
 dev_langs:

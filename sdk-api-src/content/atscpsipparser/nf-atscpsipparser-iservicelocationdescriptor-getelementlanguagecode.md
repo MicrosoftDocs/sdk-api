@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 8ffc0c58-1305-49bf-bdbd-efb18805516f
 ms.date: 12/05/2018
 ms.keywords: GetElementLanguageCode, GetElementLanguageCode method [Microsoft TV Technologies], GetElementLanguageCode method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetElementLanguageCode method, IServiceLocationDescriptor.GetElementLanguageCode, IServiceLocationDescriptor::GetElementLanguageCode, atscpsipparser/IServiceLocationDescriptor::GetElementLanguageCode, mstv.iservicelocationdescriptor_getelementlanguagecode
-ms.topic: method
 f1_keywords:
 - atscpsipparser/IServiceLocationDescriptor.GetElementLanguageCode
 dev_langs:
@@ -66,7 +65,7 @@ Specifies the elementary stream,
 
 ### -param LangCode [out]
 
-Pointer to a buffer that receives the language code. For a list of language codes, refer to <a href="http://go.microsoft.com/fwlink?linkID=161422">ISO 639 Code Tables</a>.
+Pointer to a buffer that receives the language code. For a list of language codes, refer to <a href="http://www-01.sil.org/iso639-3/codes.asp">ISO 639 Code Tables</a>.
 
 
 ## -returns

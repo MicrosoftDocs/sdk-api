@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ab0670e9-400c-4a3f-8afa-e323a3915dc3
 ms.date: 12/05/2018
 ms.keywords: GetRecordServiceId, GetRecordServiceId method [DirectShow], GetRecordServiceId method [DirectShow],IDvbLogicalChannelDescriptor interface, IDvbLogicalChannelDescriptor interface [DirectShow],GetRecordServiceId method, IDvbLogicalChannelDescriptor.GetRecordServiceId, IDvbLogicalChannelDescriptor::GetRecordServiceId, IDvbLogicalChannelDescriptorGetRecordServiceId, dvbsiparser/IDvbLogicalChannelDescriptor::GetRecordServiceId, mstv.idvblogicalchanneldescriptor_getrecordserviceid
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbLogicalChannelDescriptor.GetRecordServiceId
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 0863d013-6f55-40ce-92d2-68bb0455a911
 ms.date: 12/05/2018
 ms.keywords: EnumAdvise, EnumAdvise method [COM], EnumAdvise method [COM],IDataAdviseHolder interface, IDataAdviseHolder interface [COM],EnumAdvise method, IDataAdviseHolder.EnumAdvise, IDataAdviseHolder::EnumAdvise, _ole_idataadviseholder_enumadvise, com.idataadviseholder_enumadvise, objidl/IDataAdviseHolder::EnumAdvise
-ms.topic: method
 f1_keywords:
 - objidl/IDataAdviseHolder.EnumAdvise
 dev_langs:

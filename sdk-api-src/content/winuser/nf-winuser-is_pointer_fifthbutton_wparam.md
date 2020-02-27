@@ -7,7 +7,6 @@ tech.root: InputMsg
 ms.assetid: 181E6E85-9387-4543-B0A1-B1BB66942054
 ms.date: 12/05/2018
 ms.keywords: IS_POINTER_FIFTHBUTTON_WPARAM, IS_POINTER_FIFTHBUTTON_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_fifthbutton_wparam, winuser/IS_POINTER_FIFTHBUTTON_WPARAM
-ms.topic: macro
 f1_keywords:
 - winuser/IS_POINTER_SECONDBUTTON_WPARAM
 dev_langs:

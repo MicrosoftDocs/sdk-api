@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 343270e6-8f92-4429-9350-4031ae8bb0e0
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellBorderWidths method, ITextRow.SetCellBorderWidths, ITextRow::SetCellBorderWidths, SetCellBorderWidths, SetCellBorderWidths method [Windows Controls], SetCellBorderWidths method [Windows Controls],ITextRow interface, controls.itextrow_setcellborderwidths, tom/ITextRow::SetCellBorderWidths
-ms.topic: method
 f1_keywords:
 - tom/ITextRow.SetCellBorderWidths
 dev_langs:

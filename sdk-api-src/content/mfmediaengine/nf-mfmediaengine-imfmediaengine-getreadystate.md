@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: B8C9B600-87FD-4DE6-8794-5C1E41449554
 ms.date: 12/05/2018
 ms.keywords: GetReadyState, GetReadyState method [Media Foundation], GetReadyState method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetReadyState method, IMFMediaEngine.GetReadyState, IMFMediaEngine::GetReadyState, mf.imfmediaengine_getreadystate, mfmediaengine/IMFMediaEngine::GetReadyState
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngine.GetReadyState
 dev_langs:

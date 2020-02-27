@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopyn.htm
 ms.date: 12/05/2018
 ms.keywords: StringCchCopyN, StringCchCopyN function [Menus and Other Resources], StringCchCopyNA, StringCchCopyNW, _shell_StringCchCopyN, _shell_stringcchcopyn_cpp, menurc.stringcchcopyn, strsafe/StringCchCopyN, strsafe/StringCchCopyNA, strsafe/StringCchCopyNW, winui._shell_stringcchcopyn
-ms.topic: function
 f1_keywords:
 - strsafe/StringCchCopyN
 dev_langs:
@@ -56,7 +55,7 @@ Copies the specified number of characters from one string to another. The size o
 
 <b>StringCchCopyN</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192506">strncpy, wcsncpy, _tcsncpy</a></li>
+<li><a href="https://msdn.microsoft.com/library/xdsywd25.aspx">strncpy, wcsncpy, _tcsncpy</a></li>
 </ul>
 
 ## -parameters

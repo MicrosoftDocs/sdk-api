@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 62214c24-0a4b-43c3-91dc-3eb6e5df3d94
 ms.date: 12/05/2018
 ms.keywords: MixerPref9_AnisotropicFiltering, MixerPref9_BiLinearFiltering, MixerPref9_GaussianQuadFiltering, MixerPref9_PointFiltering, MixerPref9_PyramidalQuadFiltering, VMR9AlphaBitmap, VMR9AlphaBitmap structure [DirectShow], VMR9AlphaBitmapStructure, dshow.vmr9alphabitmap, vmr9/VMR9AlphaBitmap
-ms.topic: struct
 f1_keywords:
 - vmr9/VMR9AlphaBitmap
 dev_langs:

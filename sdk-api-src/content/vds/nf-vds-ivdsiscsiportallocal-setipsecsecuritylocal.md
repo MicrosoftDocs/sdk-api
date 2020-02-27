@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 3da426d0-9fa7-4dec-a0bb-416ec14b69a0
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortalLocal interface [VDS],SetIpsecSecurityLocal method, IVdsIscsiPortalLocal.SetIpsecSecurityLocal, IVdsIscsiPortalLocal::SetIpsecSecurityLocal, SetIpsecSecurityLocal, SetIpsecSecurityLocal method [VDS], SetIpsecSecurityLocal method [VDS],IVdsIscsiPortalLocal interface, base.ivdsiscsiportallocal_setipsecsecuritylocal, vds/IVdsIscsiPortalLocal::SetIpsecSecurityLocal
-ms.topic: method
 f1_keywords:
 - vds/IVdsIscsiPortalLocal.SetIpsecSecurityLocal
 dev_langs:

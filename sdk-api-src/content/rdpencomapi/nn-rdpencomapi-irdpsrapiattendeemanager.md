@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 202b539c-b7a0-4cf3-ba64-f60cc062575a
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendeeManager, IRDPSRAPIAttendeeManager interface [RDP], IRDPSRAPIAttendeeManager interface [RDP],described, rdp.irdpsrapiattendeemanager, rdpencomapi/IRDPSRAPIAttendeeManager
-ms.topic: interface
 f1_keywords:
 - rdpencomapi/IRDPSRAPIAttendeeManager
 dev_langs:

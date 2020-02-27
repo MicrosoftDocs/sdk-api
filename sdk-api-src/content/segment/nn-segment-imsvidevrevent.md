@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 70874420-64f2-43c9-b46b-492318ae0852
 ms.date: 12/05/2018
 ms.keywords: IMSVidEVREvent, IMSVidEVREvent interface [Microsoft TV Technologies], IMSVidEVREvent interface [Microsoft TV Technologies],described, IMSVidEVREventInterface, mstv.imsvidevrevent, segment/IMSVidEVREvent
-ms.topic: interface
 f1_keywords:
 - segment/IMSVidEVREvent
 dev_langs:

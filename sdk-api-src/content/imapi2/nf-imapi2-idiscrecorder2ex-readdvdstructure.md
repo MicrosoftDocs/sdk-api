@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 6842573a-68e5-47ea-8441-953ab85b9482
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2Ex interface [IMAPI],ReadDvdStructure method, IDiscRecorder2Ex.ReadDvdStructure, IDiscRecorder2Ex::ReadDvdStructure, ReadDvdStructure, ReadDvdStructure method [IMAPI], ReadDvdStructure method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_readdvdstructure, imapi2/IDiscRecorder2Ex::ReadDvdStructure
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscRecorder2Ex.ReadDvdStructure
 dev_langs:
@@ -82,7 +81,7 @@ Authentication grant ID (AGID) field of the command packet.
 
 ### -param data [out]
 
-Data buffer that contains the DVD structure. For details of the contents of the data buffer, see the READ DISC STRUCTURE command in the latest revision of the MMC specification at <a href="Http://go.microsoft.com/fwlink/p/?linkid=83843">ftp://ftp.t10.org/t10/drafts/mmc5</a>.
+Data buffer that contains the DVD structure. For details of the contents of the data buffer, see the READ DISC STRUCTURE command in the latest revision of the MMC specification at <a href="https://www.microsoft.com/?ref=go">ftp://ftp.t10.org/t10/drafts/mmc5</a>.
 
 This method removes headers from the buffer.
 

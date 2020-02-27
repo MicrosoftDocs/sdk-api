@@ -7,7 +7,6 @@ tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmdefwindowproc.htm
 ms.date: 12/05/2018
 ms.keywords: DwmDefWindowProc, DwmDefWindowProc function [Desktop Window Manager], _udwm_dwmdefwindowproc, _udwm_dwmdefwindowproc_cpp, dwm.dwmdefwindowproc, dwmapi/DwmDefWindowProc, winui._udwm_dwmdefwindowproc
-ms.topic: function
 f1_keywords:
 - dwmapi/DwmDefWindowProc
 dev_langs:

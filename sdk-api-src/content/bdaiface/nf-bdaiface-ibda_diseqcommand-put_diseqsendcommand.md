@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 5ee77311-0b1d-43b1-af8e-bb886170701d
 ms.date: 12/05/2018
 ms.keywords: IBDA_DiseqCommand interface [Microsoft TV Technologies],put_DiseqSendCommand method, IBDA_DiseqCommand.put_DiseqSendCommand, IBDA_DiseqCommand::put_DiseqSendCommand, bdaiface/IBDA_DiseqCommand::put_DiseqSendCommand, mstv.ibda_diseqcommand_put_diseqsendcommand, put_DiseqSendCommand, put_DiseqSendCommand method [Microsoft TV Technologies], put_DiseqSendCommand method [Microsoft TV Technologies],IBDA_DiseqCommand interface
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_DiseqCommand.put_DiseqSendCommand
 dev_langs:

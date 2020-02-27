@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 4d512525-ed18-43af-9773-ed56c49c3641
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],get_Allocator_ID method, IMSVidVideoRenderer2.get_Allocator_ID, IMSVidVideoRenderer2::get_Allocator_ID, IMSVidVideoRenderer2get_Allocator_ID, get_Allocator_ID, get_Allocator_ID method [Microsoft TV Technologies], get_Allocator_ID method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2_get_allocator_id, segment/IMSVidVideoRenderer2::get_Allocator_ID
-ms.topic: method
 f1_keywords:
 - segment/IMSVidVideoRenderer2.get_Allocator_ID
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d4035bd0-9a86-4deb-b4eb-4aa5b4b4ff35
 ms.date: 12/05/2018
 ms.keywords: GetRedrawAlways, GetRedrawAlways method [DirectShow], GetRedrawAlways method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetRedrawAlways method, IAMWstDecoder.GetRedrawAlways, IAMWstDecoder::GetRedrawAlways, IAMWstDecoderGetRedrawAlways, dshow.iamwstdecoder_getredrawalways, iwstdec/IAMWstDecoder::GetRedrawAlways
-ms.topic: method
 f1_keywords:
 - iwstdec/IAMWstDecoder.GetRedrawAlways
 dev_langs:

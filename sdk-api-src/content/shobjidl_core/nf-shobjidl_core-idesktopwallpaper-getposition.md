@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 28D057DD-63CF-4078-9E0C-7DB61E1683EF
 ms.date: 12/05/2018
 ms.keywords: GetPosition, GetPosition method [Windows Shell], GetPosition method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetPosition method, IDesktopWallpaper.GetPosition, IDesktopWallpaper::GetPosition, shell.IDesktopWallpaper_GetPosition, shobjidl_core/IDesktopWallpaper::GetPosition
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IDesktopWallpaper.GetPosition
 dev_langs:

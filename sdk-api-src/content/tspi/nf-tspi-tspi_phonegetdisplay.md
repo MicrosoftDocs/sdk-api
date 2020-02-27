@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: dff5fdc5-a627-4282-85d3-2a7ceaf063ed
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetDisplay, TSPI_phoneGetDisplay function [TAPI 2.2], _tspi_tspi_phonegetdisplay, tspi.tspi_phonegetdisplay, tspi/TSPI_phoneGetDisplay
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_phoneGetDisplay
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: B61DA8FC-1CF7-4D97-86F5-E3C2131D41EC
 ms.date: 12/05/2018
 ms.keywords: QueryIoRateControlInformationJobObject, QueryIoRateControlInformationJobObject function, base.queryioratecontrolinformationjobobject, jobapi2/QueryIoRateControlInformationJobObject
-ms.topic: function
 f1_keywords:
 - jobapi2/QueryIoRateControlInformationJobObject
 dev_langs:

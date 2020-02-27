@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 2bef0f2f-165d-446a-afa8-735658048152
 ms.date: 12/05/2018
 ms.keywords: WLAN_SET_EAPHOST_DATA_ALL_USERS, WlanSetProfileEapUserData, WlanSetProfileEapUserData function [NativeWIFI], nwifi.wlansetprofileeapuserdata, wlanapi/WlanSetProfileEapUserData
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanSetProfileEapUserData
 dev_langs:
@@ -248,7 +247,7 @@ The  <b>WlanSetProfileEapUserData</b> function sets the EAP user credentials to 
 The <i>eapType</i> parameter is an  <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a> structure that contains type, identification, and author information about an EAP method. The <b>eapType</b> member of the <b>EAP_METHOD_TYPE</b> structure is an  <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_type">EAP_TYPE</a> structure that contains the type and vendor identification information for an EAP method.
 
 
-For more information on the allocation of EAP method types, see section 6.2 of <a href="Http://go.microsoft.com/fwlink/p/?linkid=84016">RFC 3748</a> published by the IETF.
+For more information on the allocation of EAP method types, see section 6.2 of <a href="http://tools.ietf.org/html/rfc3748">RFC 3748</a> published by the IETF.
 
 On Windows 7, Windows Server 2008 R2,  and later, the  <b>WlanSetProfileEapUserData</b> function is enhanced. EAP user credentials can be set for all users of  a profile if the <i>dwFlags</i> parameter contains <b>WLAN_SET_EAPHOST_DATA_ALL_USERS</b>. The EAP user credentials on a profile can also be  deleted. To delete the EAP user credentials on a profile, the <i>pbEapUserData</i> parameter must be <b>NULL</b>, the <i>dwFlags</i> parameter must equal <b>WLAN_SET_EAPHOST_DATA_ALL_USERS</b>,  and the <i>dwEapUserDataSize</i> parameter must be 0.
 

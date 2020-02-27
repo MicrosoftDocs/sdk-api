@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: db065f1a-8354-4207-b7f7-d67adf094c70
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbExtendedEventDescriptor.GetCountOfRecords, IDvbExtendedEventDescriptor::GetCountOfRecords, dvbsiparser/IDvbExtendedEventDescriptor::GetCountOfRecords, mstv.idvbextendedeventdescriptor_getcountofrecords
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbExtendedEventDescriptor.GetCountOfRecords
 dev_langs:

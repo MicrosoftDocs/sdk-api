@@ -7,7 +7,6 @@ tech.root: psapi
 ms.assetid: 6ddbcf7e-e41c-4ea7-b60a-01ed5c98c530
 ms.date: 12/05/2018
 ms.keywords: GetDeviceDriverFileName, GetDeviceDriverFileName function [PSAPI], GetDeviceDriverFileNameA, GetDeviceDriverFileNameW, K32GetDeviceDriverFileName, K32GetDeviceDriverFileNameA, K32GetDeviceDriverFileNameW, _win32_getdevicedriverfilename, base.getdevicedriverfilename, psapi.getdevicedriverfilename, psapi/GetDeviceDriverFileName, psapi/GetDeviceDriverFileNameA, psapi/GetDeviceDriverFileNameW, psapi/K32GetDeviceDriverFileName, psapi/K32GetDeviceDriverFileNameA, psapi/K32GetDeviceDriverFileNameW
-ms.topic: function
 f1_keywords:
 - psapi/GetDeviceDriverFileName
 dev_langs:

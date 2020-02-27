@@ -5,7 +5,6 @@ description: Multiplies one instance of XMVECTOR by a second instance, returning
 ms.assetid: 27e77bf4-0520-47bf-b2a9-884cff1b8944
 ms.date: 05/13/2019
 ms.keywords: operator*
-ms.topic: language-reference
 f1_keywords:
 - directxmath/operator*
 dev_langs:

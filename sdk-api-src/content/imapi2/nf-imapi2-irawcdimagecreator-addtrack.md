@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 913393e8-6d60-4b1a-b482-32225860f714
 ms.date: 12/05/2018
 ms.keywords: AddTrack, AddTrack method [IMAPI], AddTrack method [IMAPI],IRawCDImageCreator interface, IRawCDImageCreator interface [IMAPI],AddTrack method, IRawCDImageCreator.AddTrack, IRawCDImageCreator::AddTrack, imapi.irawcdimagecreator_addtrack, imapi2/IRawCDImageCreator::AddTrack
-ms.topic: method
 f1_keywords:
 - imapi2/IRawCDImageCreator.AddTrack
 dev_langs:

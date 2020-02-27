@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3ko1.htm
 ms.date: 12/05/2018
 ms.keywords: FaxGetPageDataA, FaxGetPageDataW, PFAXGETPAGEDATA, PFAXGETPAGEDATA callback, PFAXGETPAGEDATA callback function [Fax Service], _mfax_faxgetpagedata, fax._mfax_faxgetpagedata, winfax/FaxGetPageDataA, winfax/FaxGetPageDataW, winfax/PFAXGETPAGEDATA
-ms.topic: callback
 f1_keywords:
 - winfax/PFAXGETPAGEDATA
 dev_langs:

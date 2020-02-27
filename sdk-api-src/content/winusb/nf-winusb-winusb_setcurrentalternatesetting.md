@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 8826f440-c031-4af2-968d-bf13f515f020
 ms.date: 12/05/2018
 ms.keywords: WinUsb_SetCurrentAlternateSetting, WinUsb_SetCurrentAlternateSetting function [Buses], buses.winusb_setcurrentalternatesetting, winusb/WinUsb_SetCurrentAlternateSetting, winusbfunc_54d8b9ed-9a45-4fed-a61e-2ad2bb573028.xml
-ms.topic: function
 f1_keywords:
 - winusb/WinUsb_SetCurrentAlternateSetting
 dev_langs:

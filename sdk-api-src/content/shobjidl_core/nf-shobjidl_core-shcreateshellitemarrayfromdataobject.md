@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 91e65c9a-0600-42e3-97f5-2a5960e1ec89
 ms.date: 12/05/2018
 ms.keywords: SHCreateShellItemArrayFromDataObject, SHCreateShellItemArrayFromDataObject function [Windows Shell], _shell_SHCreateShellItemArrayFromDataObject, shell.SHCreateShellItemArrayFromDataObject, shobjidl_core/SHCreateShellItemArrayFromDataObject
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHCreateShellItemArrayFromDataObject
 dev_langs:

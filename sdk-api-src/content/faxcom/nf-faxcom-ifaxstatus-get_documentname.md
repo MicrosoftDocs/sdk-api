@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6jvp.htm
 ms.date: 12/05/2018
 ms.keywords: DocumentName property [Fax Service], DocumentName property [Fax Service],IFaxStatus interface, IFaxStatus interface [Fax Service],DocumentName property, IFaxStatus.DocumentName, IFaxStatus.get_DocumentName, IFaxStatus::DocumentName, IFaxStatus::get_DocumentName, _mfax_ifaxstatus_get_documentname, fax._mfax_ifaxstatus_get_documentname, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_documentname_cpp, faxcom/IFaxStatus::DocumentName, faxcom/IFaxStatus::get_DocumentName, get_DocumentName
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxStatus.DocumentName
 dev_langs:

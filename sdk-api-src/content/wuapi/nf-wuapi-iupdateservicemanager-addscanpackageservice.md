@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 5b0677bb-9f19-4bb4-9942-8ca3da18b29a
 ms.date: 12/05/2018
 ms.keywords: AddScanPackageService, AddScanPackageService method [Windows Update Agent], AddScanPackageService method [Windows Update Agent],IUpdateServiceManager interface, IUpdateServiceManager interface [Windows Update Agent],AddScanPackageService method, IUpdateServiceManager.AddScanPackageService, IUpdateServiceManager::AddScanPackageService, wua.iupdateservicemanager_addscanpackageservice, wuapi/IUpdateServiceManager::AddScanPackageService
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateServiceManager.AddScanPackageService
 dev_langs:

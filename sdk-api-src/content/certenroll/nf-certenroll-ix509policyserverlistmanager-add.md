@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: f1f22d27-96bf-47f7-8572-5f3842797c18
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509PolicyServerListManager interface, IX509PolicyServerListManager interface [Security],Add method, IX509PolicyServerListManager.Add, IX509PolicyServerListManager::Add, certenroll/IX509PolicyServerListManager::Add, security.ix509policyserverlistmanager_add
-ms.topic: method
 f1_keywords:
 - certenroll/IX509PolicyServerListManager.Add
 dev_langs:

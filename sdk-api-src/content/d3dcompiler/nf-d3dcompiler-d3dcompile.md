@@ -7,7 +7,6 @@ tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dcompile.htm
 ms.date: 12/05/2018
 ms.keywords: D3DCompile, D3DCompile function [HLSL], a18240ba-8d29-6dcc-da59-7c146428c2b8, d3dcompiler/D3DCompile, direct3dhlsl.d3dcompile
-ms.topic: function
 f1_keywords:
 - d3dcompiler/D3DCompile
 dev_langs:
@@ -26,8 +25,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: D3dcompiler_47.lib
-req.dll: D3dcompiler_47.dll
+req.lib: d3dcompiler.lib
+req.dll: d3dcompiler.dll
 req.irql: 
 topic_type:
 - APIRef
@@ -35,7 +34,7 @@ topic_type:
 api_type:
 - DllExport
 api_location:
-- d3dcompiler_47.dll
+- d3dcompiler.dll
 api_name:
 - D3DCompile
 targetos: Windows

@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 7137164c-2b82-48dc-8488-6c8872896a39
 ms.date: 12/05/2018
 ms.keywords: EndInstall, EndInstall method [Windows Update Agent], EndInstall method [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],EndInstall method, IUpdateInstaller.EndInstall, IUpdateInstaller::EndInstall, wua.iupdateinstaller_endinstall, wuapi/IUpdateInstaller::EndInstall
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateInstaller.EndInstall
 dev_langs:

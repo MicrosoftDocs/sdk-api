@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 118c931e-29ca-4ffb-aa32-24c6f4289cc8
 ms.date: 12/05/2018
 ms.keywords: RpcServerUseAllProtseqsIfEx, RpcServerUseAllProtseqsIfEx function [RPC], _rpc_rpcserveruseallprotseqsifex, rpc.rpcserveruseallprotseqsifex, rpcdce/RpcServerUseAllProtseqsIfEx
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcServerUseAllProtseqsIfEx
 dev_langs:

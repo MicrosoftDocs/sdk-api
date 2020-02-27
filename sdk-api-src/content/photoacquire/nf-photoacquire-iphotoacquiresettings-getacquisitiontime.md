@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: 0acafc4d-e4f5-4dce-a192-18d27024ad83
 ms.date: 12/05/2018
 ms.keywords: GetAcquisitionTime, GetAcquisitionTime method [Picture Acquisition], GetAcquisitionTime method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetAcquisitionTime method, IPhotoAcquireSettings.GetAcquisitionTime, IPhotoAcquireSettings::GetAcquisitionTime, IPhotoAcquireSettingsGetAcquisitionTime, photoacquire/IPhotoAcquireSettings::GetAcquisitionTime, picacq.iphotoacquiresettings_getacquisitiontime
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoAcquireSettings.GetAcquisitionTime
 dev_langs:

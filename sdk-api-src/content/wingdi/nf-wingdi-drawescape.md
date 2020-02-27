@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 306eec06-6d29-43bc-aff0-a267efa52ccd
 ms.date: 12/05/2018
 ms.keywords: DrawEscape, DrawEscape function [Windows GDI], _win32_DrawEscape, gdi.drawescape, wingdi/DrawEscape
-ms.topic: function
 f1_keywords:
 - wingdi/DrawEscape
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: a4fda665-ba26-4799-820d-c4d82a58d6fd
 ms.date: 12/05/2018
 ms.keywords: DrvIcmCreateColorTransform, DrvIcmCreateColorTransform function [Display Devices], ddifncs_eec39816-8aa5-44a8-8fed-b800db94d315.xml, display.drvicmcreatecolortransform, winddi/DrvIcmCreateColorTransform
-ms.topic: function
 f1_keywords:
 - winddi/DrvIcmCreateColorTransform
 dev_langs:

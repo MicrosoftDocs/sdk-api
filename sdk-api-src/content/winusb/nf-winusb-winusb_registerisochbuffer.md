@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 7781BD59-3576-4C43-9459-E2455F97E9DE
 ms.date: 12/05/2018
 ms.keywords: WinUsb_RegisterIsochBuffer, WinUsb_RegisterIsochBuffer function [Buses], buses.winusb_registerisochbuffer, winusb/WinUsb_RegisterIsochBuffer
-ms.topic: function
 f1_keywords:
 - winusb/WinUsb_RegisterIsochBuffer
 dev_langs:

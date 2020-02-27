@@ -7,7 +7,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getnextdlggroupitem.htm
 ms.date: 12/05/2018
 ms.keywords: GetNextDlgGroupItem, GetNextDlgGroupItem function [Dialog Boxes], _win32_GetNextDlgGroupItem, _win32_getnextdlggroupitem_cpp, dlgbox.getnextdlggroupitem, winui._win32_getnextdlggroupitem, winuser/GetNextDlgGroupItem
-ms.topic: function
 f1_keywords:
 - winuser/GetNextDlgGroupItem
 dev_langs:

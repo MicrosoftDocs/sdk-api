@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: e461cc68-5a67-424b-9fc6-0768b9e13346
 ms.date: 12/05/2018
 ms.keywords: CurrentLabeledBy property [Windows Accessibility], CurrentLabeledBy property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentLabeledBy property, IUIAutomationElement.CurrentLabeledBy, IUIAutomationElement.get_CurrentLabeledBy, IUIAutomationElement::CurrentLabeledBy, IUIAutomationElement::get_CurrentLabeledBy, get_CurrentLabeledBy, uiauto.uiauto_IUIAutomationElement_CurrentLabeledBy, uiauto_IUIAutomationElement_CurrentLabeledBy, uiautomationclient/IUIAutomationElement::CurrentLabeledBy, uiautomationclient/IUIAutomationElement::get_CurrentLabeledBy, winauto.uiauto_IUIAutomationElement_CurrentLabeledBy
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationElement.CurrentLabeledBy
 dev_langs:

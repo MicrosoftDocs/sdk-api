@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 0DC46758-6005-4A33-9539-9C95CF8CFB6A
 ms.date: 12/05/2018
 ms.keywords: ID2D1BlendTransform, ID2D1BlendTransform interface [Direct2D], ID2D1BlendTransform interface [Direct2D],described, d2d1effectauthor/ID2D1BlendTransform, direct2d.id2d1blendtransform
-ms.topic: interface
 f1_keywords:
 - d2d1effectauthor/ID2D1BlendTransform
 dev_langs:

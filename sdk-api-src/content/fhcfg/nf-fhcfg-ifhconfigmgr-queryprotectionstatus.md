@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 662B1F54-D50D-4434-BD81-DF600D28B573
 ms.date: 12/05/2018
 ms.keywords: FH_STATE_DISABLED_BY_GP, FH_STATE_FATAL_CONFIG_ERROR, FH_STATE_NOT_TRACKED, FH_STATE_NO_ERROR, FH_STATE_OFF, FH_STATE_STAGING_FULL, FH_STATE_TARGET_ABSENT, FH_STATE_TARGET_ACCESS_DENIED, FH_STATE_TARGET_FULL, FH_STATE_TARGET_FULL_RETENTION_MAX, FH_STATE_TARGET_LOW_SPACE, FH_STATE_TARGET_LOW_SPACE_RETENTION_MAX, FH_STATE_TARGET_VOLUME_DIRTY, FH_STATE_TOO_MUCH_BEHIND, FhConfigMgr class [Windows API],QueryProtectionStatus method, IFhConfigMgr interface [Windows API],QueryProtectionStatus method, IFhConfigMgr.QueryProtectionStatus, IFhConfigMgr::QueryProtectionStatus, QueryProtectionStatus, QueryProtectionStatus method [Windows API], QueryProtectionStatus method [Windows API],FhConfigMgr class, QueryProtectionStatus method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::QueryProtectionStatus, winprog.ifhconfigmgr_queryprotectionstatus
-ms.topic: method
 f1_keywords:
 - fhcfg/IFhConfigMgr.QueryProtectionStatus
 dev_langs:
@@ -132,7 +131,7 @@ The current user does not have write permission for the currently assigned targe
 </dl>
 </td>
 <td width="60%">
-The currently assigned target has been marked as dirty. Backup copies of file versions will not be created until after the <a href="http://go.microsoft.com/fwlink/p/?linkid=230711">Chkdsk</a> utility is run. This value can be ORed with <b>FH_STATE_RUNNING</b> (0x100) to indicate that a backup cycle is being performed for the current user right now.
+The currently assigned target has been marked as dirty. Backup copies of file versions will not be created until after the <a href="https://technet.microsoft.com/library/cc730714.aspx">Chkdsk</a> utility is run. This value can be ORed with <b>FH_STATE_RUNNING</b> (0x100) to indicate that a backup cycle is being performed for the current user right now.
 
 </td>
 </tr>

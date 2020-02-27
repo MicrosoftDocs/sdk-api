@@ -5,7 +5,6 @@ description: Creates a command list in the closed state.
 tech.root: direct3d12
 ms.date: 10/14/2019
 ms.keywords: ID3D12Device4 interface,CreateCommandList1 method, ID3D12Device4.CreateCommandList1, ID3D12Device4::CreateCommandList1, CreateCommandList1, CreateCommandList1 method, CreateCommandList1 method,ID3D12Device4 interface, direct3d12.id3d12device4_createcommandList1, d3d12/ID3D12Device4::CreateCommandList1
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device4.CreateCommandList1
 dev_langs:

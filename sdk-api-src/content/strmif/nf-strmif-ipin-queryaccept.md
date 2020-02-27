@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ed11eeef-464b-4a75-958b-2bc6dbc7af04
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],QueryAccept method, IPin.QueryAccept, IPin::QueryAccept, IPinQueryAccept, QueryAccept, QueryAccept method [DirectShow], QueryAccept method [DirectShow],IPin interface, dshow.ipin_queryaccept, strmif/IPin::QueryAccept
-ms.topic: method
 f1_keywords:
 - strmif/IPin.QueryAccept
 dev_langs:
@@ -64,7 +63,7 @@ The <code>QueryAccept</code> method determines whether the pin accepts a specifi
 
 ### -param pmt [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type.
 
 
 ## -returns

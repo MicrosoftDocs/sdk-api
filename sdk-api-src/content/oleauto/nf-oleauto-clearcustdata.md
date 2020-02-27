@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 14556107-3b22-48c8-b480-280b9dee9b17
 ms.date: 12/05/2018
 ms.keywords: ClearCustData, ClearCustData function [Automation], _oa96_ClearCustData, automat.clearcustdata, oleauto/ClearCustData
-ms.topic: function
 f1_keywords:
 - oleauto/ClearCustData
 dev_langs:

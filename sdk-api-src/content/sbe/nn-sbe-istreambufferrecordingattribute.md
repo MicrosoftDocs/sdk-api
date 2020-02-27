@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 7c46413f-3e51-4d72-b7f7-a8239c61b161
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferRecordingAttribute, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies], IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],described, IStreamBufferRecordingAttributeInterface, mstv.istreambufferrecordingattribute, sbe/IStreamBufferRecordingAttribute
-ms.topic: interface
 f1_keywords:
 - sbe/IStreamBufferRecordingAttribute
 dev_langs:

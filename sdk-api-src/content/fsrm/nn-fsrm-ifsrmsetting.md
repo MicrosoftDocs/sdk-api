@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 432fbaaa-7ddb-4d8c-bfbe-40cd26b08f9b
 ms.date: 12/05/2018
 ms.keywords: IFsrmSetting, IFsrmSetting interface [File Server Resource Manager], IFsrmSetting interface [File Server Resource Manager],described, fs.ifsrmsetting, fsrm.ifsrmsetting, fsrm/IFsrmSetting
-ms.topic: interface
 f1_keywords:
 - fsrm/IFsrmSetting
 dev_langs:

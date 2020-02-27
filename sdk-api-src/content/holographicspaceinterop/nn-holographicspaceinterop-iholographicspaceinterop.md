@@ -7,7 +7,6 @@ tech.root: MixedReality
 ms.assetid: 119299C1-ECD9-46BA-B499-66890225E4E0
 ms.date: 01/25/2019
 ms.keywords: IHolographicSpaceInterop, IHolographicSpaceInterop interface, IHolographicSpaceInterop interface,described, MixedReality.iholographicspaceinterop, holographicspaceinterop/IHolographicSpaceInterop
-ms.topic: interface
 f1_keywords:
 - holographicspaceinterop/IHolographicSpaceInterop
 dev_langs:

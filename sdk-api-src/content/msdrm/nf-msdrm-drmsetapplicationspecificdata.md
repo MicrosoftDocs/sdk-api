@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: 659b2d73-1160-4e5a-8779-4bb272653c54
 ms.date: 12/05/2018
 ms.keywords: DRMSetApplicationSpecificData, DRMSetApplicationSpecificData function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetApplicationSpecificData, rm.drmsetapplicationspecificdata
-ms.topic: function
 f1_keywords:
 - msdrm/DRMSetApplicationSpecificData
 dev_langs:

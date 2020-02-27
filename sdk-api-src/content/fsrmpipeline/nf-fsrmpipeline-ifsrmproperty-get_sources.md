@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: fc29b42c-f2d7-4a13-a2f9-94416f8ef803
 ms.date: 12/05/2018
 ms.keywords: IFsrmProperty interface [File Server Resource Manager],Sources property, IFsrmProperty.Sources, IFsrmProperty.get_Sources, IFsrmProperty::Sources, IFsrmProperty::get_Sources, Sources property [File Server Resource Manager], Sources property [File Server Resource Manager],IFsrmProperty interface, fs.ifsrmproperty_sources, fsrm.ifsrmproperty_sources, fsrmpipeline/IFsrmProperty::Sources, fsrmpipeline/IFsrmProperty::get_Sources, get_Sources
-ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmProperty.Sources
 dev_langs:

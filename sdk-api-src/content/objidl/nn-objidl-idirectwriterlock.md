@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: cff56e4f-b8c5-4d87-9289-f8f2212d7c42
 ms.date: 12/05/2018
 ms.keywords: IDirectWriterLock, IDirectWriterLock interface [Structured Storage], IDirectWriterLock interface [Structured Storage],described, _stg_idirectwriterlock, objidl/IDirectWriterLock, stg.idirectwriterlock
-ms.topic: interface
 f1_keywords:
 - objidl/IDirectWriterLock
 dev_langs:

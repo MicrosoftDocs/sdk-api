@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querysorting.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QuerySorting method, ISearchQueryHelper.put_QuerySorting, ISearchQueryHelper::put_QuerySorting, _search_ISearchQueryHelper_put_QuerySorting, put_QuerySorting, put_QuerySorting method [search], put_QuerySorting method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QuerySorting, searchapi/ISearchQueryHelper::put_QuerySorting
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchQueryHelper.put_QuerySorting
 dev_langs:
@@ -84,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 <code>System.ItemAuthors ASC, System.ItemDate DESC</code>
 
-The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>.
+The DSearch code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>.
 
 
 

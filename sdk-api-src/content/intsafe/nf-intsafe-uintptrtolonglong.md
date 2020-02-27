@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 95d9153c-e9bd-4098-ad5f-2128ebed8140
 ms.date: 12/05/2018
 ms.keywords: SizeTToInt64, UIntPtrToLongLong, UIntPtrToLongLong function [Windows Shell], intsafe/UIntPtrToLongLong, shell.UIntPtrToLongLong
-ms.topic: function
 f1_keywords:
 - intsafe/UIntPtrToLongLong
 dev_langs:

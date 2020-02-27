@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8c1932b0-386b-4779-a4e4-e239e42e1d16
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientStop interface [XPS Documents and Packaging],SetOffset method, IXpsOMGradientStop.SetOffset, IXpsOMGradientStop::SetOffset, SetOffset, SetOffset method [XPS Documents and Packaging], SetOffset method [XPS Documents and Packaging],IXpsOMGradientStop interface, xps.ixpsomgradientstop_setoffset, xpsobjectmodel/IXpsOMGradientStop::SetOffset
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGradientStop.SetOffset
 dev_langs:
@@ -113,7 +112,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

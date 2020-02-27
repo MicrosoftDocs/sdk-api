@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: fcd591c3-0d3d-48af-933f-ebf02a447b41
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutDeleteById0, FwpmCalloutDeleteById0 function [Filtering], fwp.fwpmcalloutdeletebyid0_func, fwpmu/FwpmCalloutDeleteById0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmCalloutDeleteById0
 dev_langs:
@@ -152,7 +151,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/st
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=98330">Kernel-Mode FwpmCalloutDeleteById0</a>
+<a href="https://msdn.microsoft.com/library/ff550069.aspx">Kernel-Mode FwpmCalloutDeleteById0</a>
  
 
  

@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 0e09569c-b090-4006-81e5-6d34d43ce7b6
 ms.date: 12/05/2018
 ms.keywords: Company property [File Server Resource Manager], Company property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Company property, IFsrmPipelineModuleDefinition.Company, IFsrmPipelineModuleDefinition.get_Company, IFsrmPipelineModuleDefinition::Company, IFsrmPipelineModuleDefinition::get_Company, IFsrmPipelineModuleDefinition::put_Company, fs.ifsrmpipelinemoduledefinition_company, fsrm.ifsrmpipelinemoduledefinition_company, fsrmpipeline/IFsrmPipelineModuleDefinition::Company, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Company, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Company, get_Company
-ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmPipelineModuleDefinition.Company
 dev_langs:

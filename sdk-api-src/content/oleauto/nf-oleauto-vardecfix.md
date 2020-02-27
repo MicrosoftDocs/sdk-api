@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 714567f9-7159-4081-a5d2-afd4da789961
 ms.date: 12/05/2018
 ms.keywords: VarDecFix, VarDecFix function [Automation], _oa96_VarDecFix, automat.vardecfix, oleauto/VarDecFix
-ms.topic: function
 f1_keywords:
 - oleauto/VarDecFix
 dev_langs:

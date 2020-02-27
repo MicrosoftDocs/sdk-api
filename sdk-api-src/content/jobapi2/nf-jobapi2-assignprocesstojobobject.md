@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: f5d7a39f-6afe-4e4a-a802-e7f875ea6e5b
 ms.date: 12/05/2018
 ms.keywords: AssignProcessToJobObject, AssignProcessToJobObject function, _win32_assignprocesstojobobject, base.assignprocesstojobobject, jobapi2/AssignProcessToJobObject
-ms.topic: function
 f1_keywords:
 - jobapi2/AssignProcessToJobObject
 dev_langs:
@@ -118,7 +117,7 @@ A process can be associated with more than one job in a hierarchy of nested jobs
 <b>Windows 7, Windows Server 2008 R2, Windows XP with SP3, Windows Server 2008, Windows Vista and Windows Server 2003:  </b>A process can be associated only with a single job. A process inherits limits from the job it is associated with and adds its accounting information to the job. If a process is associated with a job, all child processes it creates are associated with that job by default. To create a child process that is not part of the same job, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function with the CREATE_BREAKAWAY_FROM_JOB flag. A process can be associated with more than one job starting in Windows 8 and Windows Server 2012.
 
-<b>Windows 7, Windows Server 2008 R2, Windows Server 2008 and Windows Vista:  </b>If the process is being monitored by the Program Compatibility Assistant (PCA), it is placed into a compatibility job. Therefore, the process must be created using CREATE_BREAKAWAY_FROM_JOB before it can be placed in another job. Alternatively, you can embed an application manifest that specifies a User Account Control (UAC) level in your application and PCA will not add the process to the compatibility job. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=102463">Application Development Requirements for User Account Control Compatibility</a>.
+<b>Windows 7, Windows Server 2008 R2, Windows Server 2008 and Windows Vista:  </b>If the process is being monitored by the Program Compatibility Assistant (PCA), it is placed into a compatibility job. Therefore, the process must be created using CREATE_BREAKAWAY_FROM_JOB before it can be placed in another job. Alternatively, you can embed an application manifest that specifies a User Account Control (UAC) level in your application and PCA will not add the process to the compatibility job. For more information, see <a href="https://msdn.microsoft.com/library/bb530410.aspx">Application Development Requirements for User Account Control Compatibility</a>.
 
 If the job or any of its parent jobs in the job chain is terminating when <b>AssignProcessToJob</b> is called, the function fails.
 

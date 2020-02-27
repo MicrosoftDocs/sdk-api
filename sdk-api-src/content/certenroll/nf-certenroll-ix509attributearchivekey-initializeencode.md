@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 44865c22-0eca-4781-962c-a10698a435f4
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeArchiveKey interface [Security],InitializeEncode method, IX509AttributeArchiveKey.InitializeEncode, IX509AttributeArchiveKey::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeArchiveKey interface, certenroll/IX509AttributeArchiveKey::InitializeEncode, security.ix509attributearchivekey_initializeencode_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509AttributeArchiveKey.InitializeEncode
 dev_langs:

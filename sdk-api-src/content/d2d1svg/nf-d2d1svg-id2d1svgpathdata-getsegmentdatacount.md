@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 93D41E54-8D09-46E9-A83F-87C84F26B9C4
 ms.date: 12/05/2018
 ms.keywords: GetSegmentDataCount, GetSegmentDataCount method [Direct2D], GetSegmentDataCount method [Direct2D],ID2D1SvgPathData interface, ID2D1SvgPathData interface [Direct2D],GetSegmentDataCount method, ID2D1SvgPathData.GetSegmentDataCount, ID2D1SvgPathData::GetSegmentDataCount, d2d1svg/ID2D1SvgPathData::GetSegmentDataCount, direct2d.id2d1svgpathdata_getsegmentdatacount
-ms.topic: method
 f1_keywords:
 - d2d1svg/ID2D1SvgPathData.GetSegmentDataCount
 dev_langs:

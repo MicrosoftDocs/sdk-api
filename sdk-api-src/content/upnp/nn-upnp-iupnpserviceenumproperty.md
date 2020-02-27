@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: B63CCE08-548F-44D3-BAE3-84E4358F25AD
 ms.date: 12/05/2018
 ms.keywords: IUPnPServiceEnumProperty, IUPnPServiceEnumProperty interface [UPnP APIs], IUPnPServiceEnumProperty interface [UPnP APIs],described, upnp.iupnpserviceenumproperty, upnp/IUPnPServiceEnumProperty
-ms.topic: interface
 f1_keywords:
 - upnp/IUPnPServiceEnumProperty
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Use this interface to delay Service Control Protocol Description (SCPD) download and event subscription on the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a> objects enumerated from the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a> object.
 
-This interface can be obtained through a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> off the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a> object.
+This interface can be obtained through a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> off the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a> object.
 
 
 ## -inheritance

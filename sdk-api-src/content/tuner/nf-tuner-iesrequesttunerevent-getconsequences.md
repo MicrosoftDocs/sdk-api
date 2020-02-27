@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 39588da7-90e7-4544-b53c-0f0ddb6cd951
 ms.date: 12/05/2018
 ms.keywords: GetConsequences, GetConsequences method [Microsoft TV Technologies], GetConsequences method [Microsoft TV Technologies],IESRequestTunerEvent interface, IESRequestTunerEvent interface [Microsoft TV Technologies],GetConsequences method, IESRequestTunerEvent.GetConsequences, IESRequestTunerEvent::GetConsequences, mstv.iesrequesttunerevent_getconsequences, tuner/IESRequestTunerEvent::GetConsequences
-ms.topic: method
 f1_keywords:
 - tuner/IESRequestTunerEvent.GetConsequences
 dev_langs:

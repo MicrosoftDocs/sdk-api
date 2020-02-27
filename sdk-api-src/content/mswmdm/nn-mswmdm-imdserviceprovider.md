@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 803b6cc5-2cb2-42ad-a92c-05f098cbe8ae
 ms.date: 12/05/2018
 ms.keywords: IMDServiceProvider, IMDServiceProvider interface [windows Media Device Manager], IMDServiceProvider interface [windows Media Device Manager],described, IMDServiceProviderInterface, mswmdm/IMDServiceProvider, wmdm.imdserviceprovider
-ms.topic: interface
 f1_keywords:
 - mswmdm/IMDServiceProvider
 dev_langs:

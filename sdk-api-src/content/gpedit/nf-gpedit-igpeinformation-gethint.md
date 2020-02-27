@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: 4e63c6b7-ae4f-4789-bfcc-8a066fb6ad02
 ms.date: 12/05/2018
 ms.keywords: GPHintDomain, GPHintMachine, GPHintOrganizationalUnit, GPHintSite, GPHintUnknown, GetHint, GetHint method [Group Policy], GetHint method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetHint method, IGPEInformation.GetHint, IGPEInformation::GetHint, _win32_igpeinformation_gethint, gpedit/IGPEInformation::GetHint, policy.igpeinformation_gethint
-ms.topic: method
 f1_keywords:
 - gpedit/IGPEInformation.GetHint
 dev_langs:

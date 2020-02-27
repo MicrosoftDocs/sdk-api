@@ -4,7 +4,6 @@ title: DnsServiceFreeInstance function
 description: Used to free the resources associated with a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure.
 ms.date: 02/19/2019
 ms.keywords: DnsServiceFreeInstance
-ms.topic: language-reference
 f1_keywords:
 - windns/DnsServiceFreeInstance
 dev_langs:

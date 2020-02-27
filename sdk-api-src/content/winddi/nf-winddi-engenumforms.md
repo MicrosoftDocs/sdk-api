@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: c249bb86-52cf-4c9d-9ea2-7e3a7d14a31a
 ms.date: 12/05/2018
 ms.keywords: EngEnumForms, EngEnumForms function [Display Devices], display.engenumforms, gdifncs_62f2ba18-75e2-4636-94cf-c4a0b2b63ab1.xml, winddi/EngEnumForms
-ms.topic: function
 f1_keywords:
 - winddi/EngEnumForms
 dev_langs:

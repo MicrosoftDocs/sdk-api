@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 474ec2d9-3ee9-4622-843e-d6ae36fedd7f
 ms.date: 12/05/2018
 ms.keywords: FlashWindowEx, FlashWindowEx function, _win32_flashwindowex, base.flashwindowex, winuser/FlashWindowEx
-ms.topic: function
 f1_keywords:
 - winuser/FlashWindowEx
 dev_langs:

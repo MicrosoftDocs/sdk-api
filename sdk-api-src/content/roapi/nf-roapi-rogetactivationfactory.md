@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 291ed35d-a459-4509-a265-89c49f8aa13a
 ms.date: 12/05/2018
 ms.keywords: RoGetActivationFactory, RoGetActivationFactory function [Windows Runtime], WinRTGetActivationFactory, roapi/RoGetActivationFactory, roapi/WinRTGetActivationFactory, winrt.rogetactivationfactory, winrt.winrtgetactivationfactory
-ms.topic: function
 f1_keywords:
 - roapi/RoGetActivationFactory
 dev_langs:

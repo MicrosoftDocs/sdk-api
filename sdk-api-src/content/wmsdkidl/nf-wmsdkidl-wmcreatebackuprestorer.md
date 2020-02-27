@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 529a5066-df03-4747-bca5-10e3f223d4d2
 ms.date: 12/05/2018
 ms.keywords: WMCreateBackupRestorer, WMCreateBackupRestorer function [windows Media Format], wmformat.wmcreatebackuprestorer, wmsdkidl/WMCreateBackupRestorer
-ms.topic: function
 f1_keywords:
 - wmsdkidl/WMCreateBackupRestorer
 dev_langs:

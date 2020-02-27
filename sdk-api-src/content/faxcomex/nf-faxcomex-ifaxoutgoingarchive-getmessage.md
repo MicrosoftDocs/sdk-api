@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7did_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: GetMessage, GetMessage method [Fax Service], GetMessage method [Fax Service],IFaxOutgoingArchive interface, IFaxOutgoingArchive interface [Fax Service],GetMessage method, IFaxOutgoingArchive.GetMessage, IFaxOutgoingArchive::GetMessage, _mfax_faxoutgoingarchive.getmessage_cpp, fax._mfax_faxoutgoingarchive_getmessage_cpp, faxcomex/IFaxOutgoingArchive::GetMessage
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutgoingArchive.GetMessage
 dev_langs:

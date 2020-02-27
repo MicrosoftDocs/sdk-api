@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 88f97650-1896-43f9-acfa-f8411ded5cb8
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationSetAppContainerConfig, NetworkIsolationSetAppContainerConfig function [ICS/ICF], ics.networkisolationsetappcontainerconfig, networkisolation/NetworkIsolationSetAppContainerConfig
-ms.topic: function
 f1_keywords:
 - netfw/NetworkIsolationSetAppContainerConfig
 dev_langs:

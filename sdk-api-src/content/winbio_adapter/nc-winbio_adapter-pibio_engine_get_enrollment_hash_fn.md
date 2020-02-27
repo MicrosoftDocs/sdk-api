@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 3a6984a1-0391-4e26-ad92-c07dc066acdb
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterGetEnrollmentHash, EngineAdapterGetEnrollmentHash callback function [Windows Biometric Framework API], PIBIO_ENGINE_GET_ENROLLMENT_HASH_FN, PIBIO_ENGINE_GET_ENROLLMENT_HASH_FN callback, secbiomet.engineadaptergetenrollmenthash, winbio_adapter/EngineAdapterGetEnrollmentHash
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterGetEnrollmentHash
 dev_langs:

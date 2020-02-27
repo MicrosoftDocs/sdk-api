@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 559461b4-49c1-4dd9-a370-05bfc71b4f36
 ms.date: 12/05/2018
 ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, IXpsOMImageResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMImageResourceCollection.GetByPartName, IXpsOMImageResourceCollection::GetByPartName, xps.ixpsomimageresourcecollection_getbypartname, xpsobjectmodel/IXpsOMImageResourceCollection::GetByPartName
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMImageResourceCollection.GetByPartName
 dev_langs:
@@ -94,7 +93,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

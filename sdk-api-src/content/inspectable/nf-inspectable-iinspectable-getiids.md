@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 560094E6-3ED2-4BF3-85C7-07736ECBACC8
 ms.date: 12/05/2018
 ms.keywords: GetIids, GetIids method [Windows Runtime], GetIids method [Windows Runtime],IInputPaneInterop interface, GetIids method [Windows Runtime],IInspectable interface, IInputPaneInterop interface [Windows Runtime],GetIids method, IInputPaneInterop::GetIids, IInspectable interface [Windows Runtime],GetIids method, IInspectable.GetIids, IInspectable::GetIids, inspectable/IInputPaneInterop::GetIids, inspectable/IInspectable::GetIids, winrt.iinspectable_getiids
-ms.topic: method
 f1_keywords:
 - inspectable/IInspectable.GetIids
 dev_langs:
@@ -120,7 +119,7 @@ Failed to allocate <i>iids</i>.
 
 Use the <b>GetIids</b> method to discover the interfaces that are implemented by a Windows Runtime object.
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> call on any IID in the <i>iids</i> array must succeed.
+A <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> call on any IID in the <i>iids</i> array must succeed.
 
 The caller is responsible for freeing the IID array by using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 

@@ -7,7 +7,6 @@ tech.root: Monitor
 ms.assetid: 0c3acb13-c5db-44ce-937d-b0b001a08062
 ms.date: 12/05/2018
 ms.keywords: SetMonitorDisplayAreaSize, SetMonitorDisplayAreaSize function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorDisplayAreaSize, monitor.setmonitordisplayareasize
-ms.topic: function
 f1_keywords:
 - highlevelmonitorconfigurationapi/SetMonitorDisplayAreaSize
 dev_langs:

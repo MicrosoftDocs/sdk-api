@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: be727c7b-b252-44db-825b-5c683e551fd2
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAllocatorEx, IWMReaderAllocatorEx interface [windows Media Format], IWMReaderAllocatorEx interface [windows Media Format],described, IWMReaderAllocatorExInterface, wmformat.iwmreaderallocatorex, wmsdkidl/IWMReaderAllocatorEx
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMReaderAllocatorEx
 dev_langs:

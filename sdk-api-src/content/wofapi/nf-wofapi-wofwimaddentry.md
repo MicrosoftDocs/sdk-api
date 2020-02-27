@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 53CE16AE-E14D-4E51-87E2-DDF88D5CE806
 ms.date: 12/05/2018
 ms.keywords: WofWimAddEntry, WofWimAddEntry function [Files], fs.wofwimaddentry, wofapi/WofWimAddEntry
-ms.topic: function
 f1_keywords:
 - wofapi/WofWimAddEntry
 dev_langs:

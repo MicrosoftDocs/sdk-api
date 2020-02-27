@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 2b84818d-0d9d-4f55-8031-b4336baa6c09
 ms.date: 12/05/2018
 ms.keywords: IPersistStreamInit interface [COM],IsDirty method, IPersistStreamInit.IsDirty, IPersistStreamInit::IsDirty, IsDirty, IsDirty method [COM], IsDirty method [COM],IPersistStreamInit interface, _com_ipersiststreaminit_isdirty, com.ipersiststreaminit_isdirty, ocidl/IPersistStreamInit::IsDirty
-ms.topic: method
 f1_keywords:
 - ocidl/IPersistStreamInit.IsDirty
 dev_langs:

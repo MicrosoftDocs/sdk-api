@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 02828d30-5023-4bd6-9c7a-8a3458462655
 ms.date: 12/05/2018
 ms.keywords: IReferenceTrackerManager interface [Windows Runtime],SetReferenceTrackerHost method, IReferenceTrackerManager.SetReferenceTrackerHost, IReferenceTrackerManager.xaml, IReferenceTrackerManager::SetReferenceTrackerHost, IReferenceTrackerManager::xaml, SetReferenceTrackerHost, SetReferenceTrackerHost method [Windows Runtime], SetReferenceTrackerHost method [Windows Runtime],IReferenceTrackerManager interface, windows/IReferenceTrackerManager::SetReferenceTrackerHost, winrt.ireferencetrackermanager_setreferencetrackerhost
-ms.topic: method
 f1_keywords:
 - windows.ui.xaml.hosting.referencetracker/IReferenceTrackerManager.SetReferenceTrackerHost
 dev_langs:

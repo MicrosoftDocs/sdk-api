@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: e4221299-93de-4747-b464-0d152d6e767b
 ms.date: 12/05/2018
 ms.keywords: CQAddFormsProc, CQAddFormsProc callback, CQAddFormsProc callback function [Active Directory], LPCQADDFORMSPROC, LPCQADDFORMSPROC callback function pointer [Active Directory], ad.cqaddformsproc, cmnquery/CQAddFormsProc
-ms.topic: callback
 f1_keywords:
 - cmnquery/LPCQADDFORMSPROC
 dev_langs:

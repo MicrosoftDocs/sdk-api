@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: 616ff873-c0d0-464e-9b1b-74a426b99abd
 ms.date: 12/05/2018
 ms.keywords: RecoverResourceManager, RecoverResourceManager function [Files], fs.recoverresourcemanager, ktmw32/RecoverResourceManager
-ms.topic: function
 f1_keywords:
 - ktmw32/RecoverResourceManager
 dev_langs:

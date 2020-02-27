@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 750097BB-C4D1-4579-9353-582124D5CE3B
 ms.date: 12/05/2018
 ms.keywords: CreateDispatcherQueueController, CreateDispatcherQueueController function, base.createdispatcherqueuecontroller, dispatcherqueue/CreateDispatcherQueueController
-ms.topic: function
 f1_keywords:
 - dispatcherqueue/CreateDispatcherQueueController
 dev_langs:

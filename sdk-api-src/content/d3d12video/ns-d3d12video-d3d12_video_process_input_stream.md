@@ -5,7 +5,6 @@ description: Contains input information for the video processor blend functional
 tech.root: mf
 ms.assetid: fcc82c3d-61d9-481b-951f-998ca55b6a60
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_VIDEO_PROCESS_INPUT_STREAM
 dev_langs:
@@ -54,7 +53,7 @@ The subresource index to use of the *pInputTexture* argument.
  
 ### -field ReferenceSet
 
-A [D3D12_VIDEO_PROCESS_REFERENCE_SET](ns-d3d12video-d3d12_video_process_reference_set) containing the set of references for video processing. Some video processing algorithms require forward or backward frame references. For more information, see [D3D12_FEATURE_VIDEO_PROCESS_REFERENCE_INFO](ne-d3d12video-d3d12_feature_video).
+A [D3D12_VIDEO_PROCESS_REFERENCE_SET](ns-d3d12video-d3d12_video_process_reference_set.md) containing the set of references for video processing. Some video processing algorithms require forward or backward frame references. For more information, see [D3D12_FEATURE_VIDEO_PROCESS_REFERENCE_INFO](ne-d3d12video-d3d12_feature_video.md).
 
 ## -remarks
 

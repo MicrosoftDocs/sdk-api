@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 31021c83-ee83-49c3-a089-31184756fb0d
 ms.date: 12/05/2018
 ms.keywords: IAMOpenProgress, IAMOpenProgress interface [DirectShow], IAMOpenProgress interface [DirectShow],described, IAMOpenProgressInterface, dshow.iamopenprogress, strmif/IAMOpenProgress
-ms.topic: interface
 f1_keywords:
 - strmif/IAMOpenProgress
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.conversion.XMConvertToRadians(float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMConvertToRadians, XMConvertToRadians, XMConvertToRadians method [DirectX Math Support APIs], dxmath.xmconverttoradians
-ms.topic: function
 f1_keywords:
 - directxmath/XMConvertToRadians
 dev_langs:

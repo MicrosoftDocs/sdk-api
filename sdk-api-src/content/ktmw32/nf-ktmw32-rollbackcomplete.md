@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: c9d53777-eef9-4c60-921d-50b0fbf8d005
 ms.date: 12/05/2018
 ms.keywords: RollbackComplete, RollbackComplete function [Files], fs.rollbackcomplete, ktmw32/RollbackComplete
-ms.topic: function
 f1_keywords:
 - ktmw32/RollbackComplete
 dev_langs:

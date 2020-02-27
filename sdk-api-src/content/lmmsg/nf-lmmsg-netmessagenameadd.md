@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 5330e883-5439-46af-b4ae-b0926feadb70
 ms.date: 12/05/2018
 ms.keywords: NetMessageNameAdd, NetMessageNameAdd function [Network Management], _win32_netmessagenameadd, lmmsg/NetMessageNameAdd, netmgmt.netmessagenameadd
-ms.topic: function
 f1_keywords:
 - lmmsg/NetMessageNameAdd
 dev_langs:

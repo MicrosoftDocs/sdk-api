@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 1dcb3dfe-0ab0-4bf5-ac2f-7a9c11712eef
 ms.date: 12/05/2018
 ms.keywords: CancelDC, CancelDC function [Windows GDI], _win32_CancelDC, gdi.canceldc, wingdi/CancelDC
-ms.topic: function
 f1_keywords:
 - wingdi/CancelDC
 dev_langs:

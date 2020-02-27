@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 13468139-dc03-45bd-850c-7ac2dbcb6e60
 ms.date: 12/05/2018
 ms.keywords: _win32_connect_2, connect, connect function [Winsock], winsock.connect_2, winsock2/connect
-ms.topic: function
 f1_keywords:
 - winsock2/connect
 dev_langs:
@@ -385,6 +384,7 @@ When the success or failure outcome becomes known, it may be reported in one of 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>, the notification is announced with FD_CONNECT and the error code associated with the FD_CONNECT indicates either success or a specific reason for failure.</li>
 </ul>
 
+If the connection is not completed immediately, the client should wait for connection completion before attempting to set socket options using <a href="https://docs.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-setsockopt">setsockopt</a>. Calling setsockopt while a connection is in progress is not supported.
 
 For a connectionless socket (for example, type SOCK_DGRAM), the operation performed by 
 <b>connect</b> is merely to establish a default destination address that can be used on subsequent 

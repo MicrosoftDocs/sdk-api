@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: af89ecee-2636-4c61-b863-21fe56666ea8
 ms.date: 12/05/2018
 ms.keywords: '*PHTTPAPI_VERSION, HTTPAPI_VERSION, HTTPAPI_VERSION structure [HTTP], PHTTPAPI_VERSION, PHTTPAPI_VERSION structure pointer [HTTP], _http_httpapi_version, http.httpapi_version, http/HTTPAPI_VERSION, http/PHTTPAPI_VERSION'
-ms.topic: struct
 f1_keywords:
 - http/HTTPAPI_VERSION
 dev_langs:

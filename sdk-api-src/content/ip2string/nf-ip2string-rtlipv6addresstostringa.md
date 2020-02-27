@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: a891adb0-6c2d-4b69-a0de-4a615be938e3
 ms.date: 12/05/2018
 ms.keywords: RtlIpv6AddressToString, RtlIpv6AddressToString function [IP Helper], RtlIpv6AddressToStringA, RtlIpv6AddressToStringW, ip2string/RtlIpv6AddressToString, ip2string/RtlIpv6AddressToStringA, ip2string/RtlIpv6AddressToStringW, iphlp.rtlipv6addresstostring
-ms.topic: function
 f1_keywords:
 - ip2string/RtlIpv6AddressToString
 dev_langs:
@@ -92,7 +91,7 @@ The basic string representation consists of 8 hexadecimal numbers
     separated by colons. A string of consecutive zero numbers is replaced
     with a double-colon.
     There can only be one double-colon in the string representation of the IPv6 address. The last 32 bits are represented in IPv4-style dotted-octet notation
-    if the address is an IPv4-compatible address, an IPv4-mapped IPv6 address, or an ISATAP address. For more information, see section 5 of <a href="http://go.microsoft.com/fwlink/p/?linkid=222408">RFC 5942</a> published by the IETF. 
+    if the address is an IPv4-compatible address, an IPv4-mapped IPv6 address, or an ISATAP address. For more information, see section 5 of <a href="http://tools.ietf.org/html/rfc5952">RFC 5942</a> published by the IETF. 
 
 <b>RtlIpv6AddressToString</b> is a convenience function that does not require that the Windows Sockets DLL be loaded to access a function provided in Windows Sockets to perform IP address to string conversion. 
 

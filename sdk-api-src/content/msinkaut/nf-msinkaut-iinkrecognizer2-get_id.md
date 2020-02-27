@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: c298634b-bf51-4c69-a183-ce6b2f8da41a
 ms.date: 12/05/2018
 ms.keywords: IInkRecognizer2 interface [Tablet PC],get_Id method, IInkRecognizer2.get_Id, IInkRecognizer2::get_Id, c298634b-bf51-4c69-a183-ce6b2f8da41a, get_Id, get_Id method [Tablet PC], get_Id method [Tablet PC],IInkRecognizer2 interface, msinkaut/IInkRecognizer2::get_Id, tablet.iinkrecognizer2_get_id
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRecognizer2.get_Id
 dev_langs:
@@ -80,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To access this method, first create and instance of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>, then call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> to get a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer2">IInkRecognizer2 Interface</a>. Use this pointer to call the <b>get_Id</b> method.
+To access this method, first create and instance of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>, then call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to get a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer2">IInkRecognizer2 Interface</a>. Use this pointer to call the <b>get_Id</b> method.
 
 
 

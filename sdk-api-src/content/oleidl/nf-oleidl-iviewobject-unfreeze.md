@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 76f3c5f6-3f29-4a89-94e2-f77489e6a744
 ms.date: 12/05/2018
 ms.keywords: IViewObject interface [COM],Unfreeze method, IViewObject.Unfreeze, IViewObject::Unfreeze, Unfreeze, Unfreeze method [COM], Unfreeze method [COM],IViewObject interface, _ole_iviewobject_unfreeze, com.iviewobject_unfreeze, oleidl/IViewObject::Unfreeze
-ms.topic: method
 f1_keywords:
 - oleidl/IViewObject.Unfreeze
 dev_langs:

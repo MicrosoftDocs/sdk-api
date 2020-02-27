@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a5ba0e9f-d164-4fe6-97ab-34d61289ce1c
 ms.date: 12/05/2018
 ms.keywords: '*LPSHELLSTATEA, LPSHELLSTATE, LPSHELLSTATE structure pointer [Windows Shell], SHELLSTATE, SHELLSTATE structure [Windows Shell], SHELLSTATEA, SHELLSTATEW, _win32_SHELLSTATE, shell.SHELLSTATE, shlobj_core/LPSHELLSTATE, shlobj_core/SHELLSTATE'
-ms.topic: struct
 f1_keywords:
 - shlobj_core/SHELLSTATE
 dev_langs:

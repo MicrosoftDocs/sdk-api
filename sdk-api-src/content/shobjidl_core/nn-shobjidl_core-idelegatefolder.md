@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 16db01f3-4167-43f0-9ef7-34eec906e199
 ms.date: 12/05/2018
 ms.keywords: IDelegateFolder, IDelegateFolder interface [Windows Shell], IDelegateFolder interface [Windows Shell],described, shell.IDelegateFolder, shell_IDelegateFolder, shobjidl_core/IDelegateFolder
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IDelegateFolder
 dev_langs:

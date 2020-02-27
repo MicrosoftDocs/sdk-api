@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 54288829-c991-42d6-a7c4-874ed28dd106
 ms.date: 12/05/2018
 ms.keywords: PeerFreeData, PeerFreeData function [Peer Networking], p2p.peerfreedata, p2p/PeerFreeData
-ms.topic: function
 f1_keywords:
 - p2p/PeerFreeData
 dev_langs:

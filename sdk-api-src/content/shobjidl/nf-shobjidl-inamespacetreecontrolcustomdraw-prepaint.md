@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3d9c0616-90f2-435c-a663-9ffe4adab8a0
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlCustomDraw interface [Windows Shell],PrePaint method, INameSpaceTreeControlCustomDraw.PrePaint, INameSpaceTreeControlCustomDraw::PrePaint, PrePaint, PrePaint method [Windows Shell], PrePaint method [Windows Shell],INameSpaceTreeControlCustomDraw interface, _shell_INameSpaceTreeControlCustomDraw_PrePaint, shell.INameSpaceTreeControlCustomDraw_PrePaint, shobjidl/INameSpaceTreeControlCustomDraw::PrePaint
-ms.topic: method
 f1_keywords:
 - shobjidl/INameSpaceTreeControlCustomDraw.PrePaint
 dev_langs:

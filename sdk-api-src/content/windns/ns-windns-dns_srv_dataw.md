@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 212db7ac-a5e3-4e58-b1c2-0eb551403dfc
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_SRV_DATA, *PDNS_SRV_DATAW, DNS_SRV_DATA, DNS_SRV_DATA structure [DNS], DNS_SRV_DATAW, PDNS_SRV_DATA, PDNS_SRV_DATA structure pointer [DNS], _dns_dns_srv_data, dns.dns_srv_data, windns/DNS_SRV_DATA, windns/PDNS_SRV_DATA'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_SRV_DATA
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>DNS_SRV_DATA</b> structure represents a DNS service (SRV) record as specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=90381">RFC 2782</a>.
+<b>DNS_SRV_DATA</b> structure represents a DNS service (SRV) record as specified in <a href="https://www.ietf.org/rfc/rfc2782.txt">RFC 2782</a>.
 
 
 ## -struct-fields

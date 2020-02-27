@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 0FE31279-64CA-4B5E-87E4-6BD035A59A02
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpv6CreateRelayRepl, PxeDhcpv6CreateRelayRepl function [Windows Deployment Services], wds.pxedhcpv6createrelayrepl, wdspxe/PxeDhcpv6CreateRelayRepl
-ms.topic: function
 f1_keywords:
 - wdspxe/PxeDhcpv6CreateRelayRepl
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Generates a RELAY-REPL message.
 
-For more information about RELAY-REPL and RELAY-FORW messages, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="Http://go.microsoft.com/fwlink/p/?linkid=132626">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
+For more information about RELAY-REPL and RELAY-FORW messages, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="https://www.ietf.org/rfc/rfc3315.txt">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
 
 
 ## -parameters

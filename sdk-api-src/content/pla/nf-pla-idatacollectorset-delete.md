@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 35e95d41-0d6c-428a-a167-6667275d4fb7
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [PLA], Delete method [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],Delete method, IDataCollectorSet.Delete, IDataCollectorSet::Delete, base.idatacollectorset_delete, pla.idatacollectorset_delete, pla/IDataCollectorSet::Delete
-ms.topic: method
 f1_keywords:
 - pla/IDataCollectorSet.Delete
 dev_langs:

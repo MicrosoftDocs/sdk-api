@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: a6d91cb0-b9a4-4a5f-94bc-824b1691bcd7
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeShrink interface,Shrink method, IVdsVolumeShrink.Shrink, IVdsVolumeShrink::Shrink, Shrink, Shrink method, Shrink method,IVdsVolumeShrink interface, base.ivdsvolumeshrink_shrink, vds/IVdsVolumeShrink::Shrink
-ms.topic: method
 f1_keywords:
 - vds/IVdsVolumeShrink.Shrink
 dev_langs:
@@ -230,7 +229,7 @@ Implementers must return a pointer to the <a href="https://docs.microsoft.com/wi
 
 This method is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-shrink">IVdsVolume::Shrink</a> method.
 
-You can use the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumeshrink-querymaxreclaimablebytes">IVdsVolumeShrink::QueryMaxReclaimableBytes</a> method to estimate the number of bytes to be reclaimed by the shrink operation. However, <b>QueryMaxReclaimableBytes</b> can return more bytes than are actually available. For more information, see "IVdsVolumeShrink::Shrink fails when provided value returned from QueryMaxReclaimableBytes" in the Help and Support Knowledge Base at <a href="http://go.microsoft.com/fwlink/p/?linkid=167966">http://go.microsoft.com/fwlink/p/?linkid=167966</a>.
+You can use the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumeshrink-querymaxreclaimablebytes">IVdsVolumeShrink::QueryMaxReclaimableBytes</a> method to estimate the number of bytes to be reclaimed by the shrink operation. However, <b>QueryMaxReclaimableBytes</b> can return more bytes than are actually available. For more information, see "IVdsVolumeShrink::Shrink fails when provided value returned from QueryMaxReclaimableBytes" in the Help and Support Knowledge Base at <a href="https://support.microsoft.com/kb/976436">https://go.microsoft.com/fwlink/p/?linkid=167966</a>.
 
 
 

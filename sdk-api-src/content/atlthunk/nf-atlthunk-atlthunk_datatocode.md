@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 138714A8-5BBE-47A8-9E57-9CD6D35DE644
 ms.date: 12/05/2018
 ms.keywords: AtlThunk_DataToCode, AtlThunk_DataToCode function, atlthunk/AtlThunk_DataToCode, base.atlthunk_datatocode
-ms.topic: function
 f1_keywords:
 - atlthunk/AtlThunk_DataToCode
 dev_langs:

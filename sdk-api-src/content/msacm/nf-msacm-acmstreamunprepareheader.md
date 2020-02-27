@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 6d693a74-13b6-4923-8267-2e2ecebf78e5
 ms.date: 12/05/2018
 ms.keywords: _win32_acmStreamUnprepareHeader, acmStreamUnprepareHeader, acmStreamUnprepareHeader function [Windows Multimedia], msacm/acmStreamUnprepareHeader, multimedia.acmstreamunprepareheader
-ms.topic: function
 f1_keywords:
 - msacm/acmStreamUnprepareHeader
 dev_langs:

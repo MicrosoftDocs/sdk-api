@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 26de7bac-8745-40c0-be0a-dcec88a3ecaf
 ms.date: 12/05/2018
 ms.keywords: CoCopyProxy, CoCopyProxy function [COM], _com_CoCopyProxy, com.cocopyproxy, combaseapi/CoCopyProxy
-ms.topic: function
 f1_keywords:
 - combaseapi/CoCopyProxy
 dev_langs:
@@ -128,7 +127,7 @@ This helper function encapsulates the following sequence of common calls (error 
 </code></pre>
 Local interfaces may not be copied. <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a> are examples of existing local interfaces.
 
-Copies of the same proxy have a special relationship with respect to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a>. Given a proxy, a, of the IA interface of a remote object, suppose a copy of a is created, called b. In this case, calling <b>QueryInterface</b> from the b proxy for IID_IA will not retrieve the IA interface on b, but the one on a, the original proxy with the "default" security settings for the IA interface.
+Copies of the same proxy have a special relationship with respect to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>. Given a proxy, a, of the IA interface of a remote object, suppose a copy of a is created, called b. In this case, calling <b>QueryInterface</b> from the b proxy for IID_IA will not retrieve the IA interface on b, but the one on a, the original proxy with the "default" security settings for the IA interface.
 
 
 

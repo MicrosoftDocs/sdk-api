@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_ensurevisible.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_EnsureVisible, ListView_EnsureVisible macro [Windows Controls], _win32_ListView_EnsureVisible, _win32_ListView_EnsureVisible_cpp, commctrl/ListView_EnsureVisible, controls.ListView_EnsureVisible, controls._win32_ListView_EnsureVisible
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_EnsureVisible
 dev_langs:

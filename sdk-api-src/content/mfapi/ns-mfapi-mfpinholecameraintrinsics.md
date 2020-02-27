@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 477F4DF6-CAE5-4BCD-A7D9-B1656DEA11E6
 ms.date: 12/05/2018
 ms.keywords: MFPinholeCameraIntrinsics, MFPinholeCameraIntrinsics structure [Media Foundation], PMFPinholeCameraIntrinsics, PMFPinholeCameraIntrinsics structure pointer [Media Foundation], mf.mfpinholecameraintrinsics, mfapi/MFPinholeCameraIntrinsics, mfapi/PMFPinholeCameraIntrinsics
-ms.topic: struct
 f1_keywords:
 - mfapi/MFPinholeCameraIntrinsics
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains zero or 1 pinhole camera intrinsic models that describe how to project a 3D point in physical world onto the 2D image frame of a camera.
+Contains zero or 1 pinhole camera intrinsic models that describe how to project a 3D point in physical world onto the 2D image frame of a camera. The conventions assumed by this structure imply a left-handed 3D coordinate system, with +X pointing to the right of the sensor, +Y pointing upwards from the sensor, and +Z pointing forward out of the sensor through the center (principal point) of the image.
 
 
 ## -struct-fields

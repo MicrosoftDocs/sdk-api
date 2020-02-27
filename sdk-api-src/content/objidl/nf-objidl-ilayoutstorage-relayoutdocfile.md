@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 5db3a26c-595a-4c9b-bb6d-b170eb9864df
 ms.date: 12/05/2018
 ms.keywords: ILayoutStorage interface [Structured Storage],ReLayoutDocfile method, ILayoutStorage.ReLayoutDocfile, ILayoutStorage::ReLayoutDocfile, ReLayoutDocfile, ReLayoutDocfile method [Structured Storage], ReLayoutDocfile method [Structured Storage],ILayoutStorage interface, _stg_ilayoutstorage_relayoutdocfile, objidl/ILayoutStorage::ReLayoutDocfile, stg.ilayoutstorage_relayoutdocfile
-ms.topic: method
 f1_keywords:
 - objidl/ILayoutStorage.ReLayoutDocfile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 527f94b6-af8e-4ff0-8e99-cd4c5d692628
 ms.date: 12/05/2018
 ms.keywords: EnumConnectionPoints, EnumConnectionPoints method [COM], EnumConnectionPoints method [COM],IConnectionPointContainer interface, IConnectionPointContainer interface [COM],EnumConnectionPoints method, IConnectionPointContainer.EnumConnectionPoints, IConnectionPointContainer::EnumConnectionPoints, _com_iconnectionpointcontainer_enumconnectionpoints, com.iconnectionpointcontainer_enumconnectionpoints, ocidl/IConnectionPointContainer::EnumConnectionPoints
-ms.topic: method
 f1_keywords:
 - ocidl/IConnectionPointContainer.EnumConnectionPoints
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: cca91080-2270-4996-8693-933c585ff168
 ms.date: 12/05/2018
 ms.keywords: GetCompressedFileSize, GetCompressedFileSize function [Files], GetCompressedFileSizeA, GetCompressedFileSizeW, _win32_getcompressedfilesize, base.getcompressedfilesize, fileapi/GetCompressedFileSize, fileapi/GetCompressedFileSizeA, fileapi/GetCompressedFileSizeW, fs.getcompressedfilesize
-ms.topic: function
 f1_keywords:
 - fileapi/GetCompressedFileSize
 dev_langs:
@@ -78,7 +77,7 @@ Do not specify the name of a file on a nonseeking device, such as a pipe or a co
 
 This parameter may include the path. In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
+       "\\\\?\\" to the path. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
 <div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>GetCompressedFileSizeW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>

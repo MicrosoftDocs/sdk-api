@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6d42f147-b82d-4236-9e58-c42019d6b413
 ms.date: 12/05/2018
 ms.keywords: GetDataLength, GetDataLength method [Microsoft TV Technologies], GetDataLength method [Microsoft TV Technologies],IDVB_ST interface, IDVB_ST interface [Microsoft TV Technologies],GetDataLength method, IDVB_ST.GetDataLength, IDVB_ST::GetDataLength, IDVB_STGetDataLength, dvbsiparser/IDVB_ST::GetDataLength, mstv.idvb_st_getdatalength
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_ST.GetDataLength
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 99b27e11-5a5f-4fa7-9cd0-422d24425fa1
 ms.date: 12/05/2018
 ms.keywords: EngCreatePalette, EngCreatePalette function [Display Devices], display.engcreatepalette, gdifncs_53382d1c-5765-48ee-904b-52dc46338d38.xml, winddi/EngCreatePalette
-ms.topic: function
 f1_keywords:
 - winddi/EngCreatePalette
 dev_langs:

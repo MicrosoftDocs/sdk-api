@@ -1,9 +1,10 @@
 ---
 UID: TP:winsync
+title: Windows Sync
 ms.assetid: ee92abfb-a568-3036-bd81-7498365db57b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Windows Sync

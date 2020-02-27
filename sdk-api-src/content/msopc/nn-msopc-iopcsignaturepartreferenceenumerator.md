@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 8a54debe-3ac6-471d-b5a5-c3512da4d079
 ms.date: 12/05/2018
 ms.keywords: IOpcSignaturePartReferenceEnumerator, IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions], IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions],described, msopc/IOpcSignaturePartReferenceEnumerator, opc.iopcsignaturepartreferenceenumerator
-ms.topic: interface
 f1_keywords:
 - msopc/IOpcSignaturePartReferenceEnumerator
 dev_langs:

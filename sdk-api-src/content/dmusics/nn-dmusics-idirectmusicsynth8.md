@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: C5D773BB-3939-494D-9F61-3DC8231295AF
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth8, IDirectMusicSynth8 interface [Audio Devices], IDirectMusicSynth8 interface [Audio Devices],described, audio.idirectmusicsynth8, dmusics/IDirectMusicSynth8
-ms.topic: interface
 f1_keywords:
 - dmusics/IDirectMusicSynth8
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 9b50773b-241c-4a32-8ab6-85adb3f885e1
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [Core Audio], GetState method [Core Audio],IMMDevice interface, IMMDevice interface [Core Audio],GetState method, IMMDevice.GetState, IMMDevice::GetState, IMMDeviceGetState, coreaudio.immdevice_getstate, mmdeviceapi/IMMDevice::GetState
-ms.topic: method
 f1_keywords:
 - mmdeviceapi/IMMDevice.GetState
 dev_langs:

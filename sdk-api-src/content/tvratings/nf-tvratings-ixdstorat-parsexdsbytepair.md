@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 79c83962-13ac-4604-a6f0-677ea6f4af84
 ms.date: 12/05/2018
 ms.keywords: IXDSToRat interface [Microsoft TV Technologies],ParseXDSBytePair method, IXDSToRat.ParseXDSBytePair, IXDSToRat::ParseXDSBytePair, IXDSToRatParseXDSBytePair, ParseXDSBytePair, ParseXDSBytePair method [Microsoft TV Technologies], ParseXDSBytePair method [Microsoft TV Technologies],IXDSToRat interface, mstv.ixdstorat_parsexdsbytepair, tvratings/IXDSToRat::ParseXDSBytePair
-ms.topic: method
 f1_keywords:
 - tvratings/IXDSToRat.ParseXDSBytePair
 dev_langs:

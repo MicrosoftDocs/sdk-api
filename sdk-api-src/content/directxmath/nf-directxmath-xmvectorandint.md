@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.bit-wise.XMVectorAndInt(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorAndInt, XMVectorAndInt, XMVectorAndInt method [DirectX Math Support APIs], dxmath.xmvectorandint
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorAndInt
 dev_langs:

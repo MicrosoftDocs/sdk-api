@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: d146d12f-4a1a-44b4-9e08-9f660554fcbb
 ms.date: 12/05/2018
 ms.keywords: WS_SUBJECT_NAME_CERT_CREDENTIAL, WS_SUBJECT_NAME_CERT_CREDENTIAL structure [Web Services for Windows], webservices/WS_SUBJECT_NAME_CERT_CREDENTIAL, wsw.ws_subject_name_cert_credential
-ms.topic: struct
 f1_keywords:
 - webservices/WS_SUBJECT_NAME_CERT_CREDENTIAL
 dev_langs:
@@ -89,5 +88,5 @@ The subject name (such as "CN=service.com") of the specified
 certificate.  The supplied subject name string must be in a format acceptable to
 CERT_FIND_SUBJECT_NAME-based
 search.
-                (See <a href="http://go.microsoft.com/fwlink/p/?linkid=139700">CertFindCertificateInStore</a>.)
+                (See <a href="https://msdn.microsoft.com/library/aa376064.aspx">CertFindCertificateInStore</a>.)
 

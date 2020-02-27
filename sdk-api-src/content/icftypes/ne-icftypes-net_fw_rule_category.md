@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 87dcdd8a-a7c5-4a0c-8b05-716262b82f96
 ms.date: 12/05/2018
 ms.keywords: NET_FW_RULE_CATEGORY, NET_FW_RULE_CATEGORY enumeration [ICS/ICF], NET_FW_RULE_CATEGORY_BOOT, NET_FW_RULE_CATEGORY_CONSEC, NET_FW_RULE_CATEGORY_FIREWALL, NET_FW_RULE_CATEGORY_MAX, NET_FW_RULE_CATEGORY_STEALTH, icftypes/NET_FW_RULE_CATEGORY, icftypes/NET_FW_RULE_CATEGORY_BOOT, icftypes/NET_FW_RULE_CATEGORY_CONSEC, icftypes/NET_FW_RULE_CATEGORY_FIREWALL, icftypes/NET_FW_RULE_CATEGORY_MAX, icftypes/NET_FW_RULE_CATEGORY_STEALTH, ics.net_fw_rule_category
-ms.topic: enum
 f1_keywords:
 - icftypes/NET_FW_RULE_CATEGORY
 dev_langs:
@@ -87,7 +86,7 @@ Maximum value for testing purposes.
 
 
 
-For more information about using <b>NET_FW_RULE_CATEGORY</b>, download the <a href="http://go.microsoft.com/fwlink/p/?linkid=158229">Windows Firewall and User Facing Impact</a> document.
+For more information about using <b>NET_FW_RULE_CATEGORY</b>, download the <a href="https://www.microsoft.com/downloads/details.aspx?FamilyID=08d23da9-ff0e-4e6f-b742-878ca1977c55">Windows Firewall and User Facing Impact</a> document.
 
 
 

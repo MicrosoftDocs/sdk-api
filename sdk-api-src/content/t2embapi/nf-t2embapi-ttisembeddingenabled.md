@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: f1e3112b-d840-45eb-bb99-416319ed9e15
 ms.date: 12/05/2018
 ms.keywords: TTIsEmbeddingEnabled, TTIsEmbeddingEnabled function [Windows GDI], _win32_TTIsEmbeddingEnabled, gdi.ttisembeddingenabled, t2embapi/TTIsEmbeddingEnabled
-ms.topic: function
 f1_keywords:
 - t2embapi/TTIsEmbeddingEnabled
 dev_langs:

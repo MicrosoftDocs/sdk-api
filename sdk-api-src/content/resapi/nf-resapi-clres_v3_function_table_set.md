@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 4915EAD2-771E-4BD5-B2A7-4149007F4E47
 ms.date: 12/05/2018
 ms.keywords: CLRES_V3_FUNCTION_TABLE_SET, CLRES_V3_FUNCTION_TABLE_SET macro [Failover Cluster], mscs.clres_v3_function_table_set, resapi/CLRES_V3_FUNCTION_TABLE_SET
-ms.topic: macro
 f1_keywords:
 - resapi/CLRES_V3_FUNCTION_TABLE_SET
 dev_langs:

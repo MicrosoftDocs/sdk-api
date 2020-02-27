@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 5aede025-65ae-4615-9511-af22b8c0dc00
 ms.date: 12/05/2018
 ms.keywords: INSSBuffer3 interface [windows Media Format],SetProperty method, INSSBuffer3.SetProperty, INSSBuffer3::SetProperty, INSSBuffer3SetProperty, SetProperty, SetProperty method [windows Media Format], SetProperty method [windows Media Format],INSSBuffer3 interface, wmformat.inssbuffer3_setproperty, wmsbuffer/INSSBuffer3::SetProperty
-ms.topic: method
 f1_keywords:
 - wmsbuffer/INSSBuffer3.SetProperty
 dev_langs:

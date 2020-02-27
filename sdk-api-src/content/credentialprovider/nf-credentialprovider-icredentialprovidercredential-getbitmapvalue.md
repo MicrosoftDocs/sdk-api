@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5171b8f4-877b-43ab-be1d-4ccffdfc74ce
 ms.date: 12/05/2018
 ms.keywords: GetBitmapValue, GetBitmapValue method [Windows Shell], GetBitmapValue method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetBitmapValue method, ICredentialProviderCredential.GetBitmapValue, ICredentialProviderCredential::GetBitmapValue, credentialprovider/ICredentialProviderCredential::GetBitmapValue, shell.ICredentialProviderCredential_GetBitmapValue, shell_ICredentialProviderCredential_GetBitmapValue
-ms.topic: method
 f1_keywords:
 - credentialprovider/ICredentialProviderCredential.GetBitmapValue
 dev_langs:

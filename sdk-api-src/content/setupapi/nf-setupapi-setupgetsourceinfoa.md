@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 15bedd7f-7079-4623-a797-db308a51093f
 ms.date: 12/05/2018
 ms.keywords: SetupGetSourceInfo, SetupGetSourceInfo function [Setup API], SetupGetSourceInfoA, SetupGetSourceInfoW, _setupapi_setupgetsourceinfo, setup.setupgetsourceinfo, setupapi/SetupGetSourceInfo, setupapi/SetupGetSourceInfoA, setupapi/SetupGetSourceInfoW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupGetSourceInfo
 dev_langs:

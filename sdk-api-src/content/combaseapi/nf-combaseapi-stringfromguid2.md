@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 5f437658-b749-416b-805a-2afdac682660
 ms.date: 12/05/2018
 ms.keywords: StringFromGUID2, StringFromGUID2 function [COM], _com_StringFromGUID2, com.stringfromguid2, combaseapi/StringFromGUID2
-ms.topic: function
 f1_keywords:
 - combaseapi/StringFromGUID2
 dev_langs:

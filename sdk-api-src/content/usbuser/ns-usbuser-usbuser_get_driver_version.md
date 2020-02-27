@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 415eefbb-e39a-43fa-9fff-49799f74fbd6
 ms.date: 12/05/2018
 ms.keywords: '*PUSBUSER_GET_DRIVER_VERSION, PUSBUSER_GET_DRIVER_VERSION, PUSBUSER_GET_DRIVER_VERSION structure pointer [Buses], USBUSER_GET_DRIVER_VERSION, USBUSER_GET_DRIVER_VERSION structure [Buses], buses.usbuser_get_driver_version, usbstrct_adb61812-7474-4eae-bf31-9b2c9a03962f.xml, usbuser/PUSBUSER_GET_DRIVER_VERSION, usbuser/USBUSER_GET_DRIVER_VERSION'
-ms.topic: struct
 f1_keywords:
 - usbuser/USBUSER_GET_DRIVER_VERSION
 dev_langs:

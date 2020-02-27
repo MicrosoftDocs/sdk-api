@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 8b0876d2-55ba-4eaa-b317-8ea1d2f5ff4f
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Files], Add method [Files],IDiskQuotaUserBatch interface, IDiskQuotaUserBatch interface [Files],Add method, IDiskQuotaUserBatch.Add, IDiskQuotaUserBatch::Add, _win32_idiskquotauserbatch_add, base.idiskquotauserbatch_add, dskquota/IDiskQuotaUserBatch::Add, fs.idiskquotauserbatch_add
-ms.topic: method
 f1_keywords:
 - dskquota/IDiskQuotaUserBatch.Add
 dev_langs:

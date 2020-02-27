@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e9186beb-5496-49c3-a76c-febb38b5b344
 ms.date: 12/05/2018
 ms.keywords: '*PAM_WST_LEVEL, AM_WST_LEVEL, AM_WST_LEVEL , AM_WST_LEVEL enumeration [DirectShow], AM_WST_LEVELEnumeration, AM_WST_LEVEL_1_5, PAM_WST_LEVEL, PAM_WST_LEVEL enumeration pointer [DirectShow], dshow.am_wst_level, iwstdec/AM_WST_LEVEL, iwstdec/AM_WST_LEVEL_1_5, iwstdec/PAM_WST_LEVEL'
-ms.topic: enum
 f1_keywords:
 - iwstdec/AM_WST_LEVEL
 dev_langs:

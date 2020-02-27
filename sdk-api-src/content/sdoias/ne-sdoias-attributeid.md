@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: 42a74deb-6d6e-493a-b9e0-d9549a5530d3
 ms.date: 12/05/2018
 ms.keywords: ATTRIBUTEID, ATTRIBUTEID enumeration [Network Policy Server], ATTRIBUTE_MIN_VALUE, ATTRIBUTE_UNDEFINED, IAS_ATTRIBUTE_ABSOLUTE_TIME, IAS_ATTRIBUTE_ACCEPT_REASON_CODE, IAS_ATTRIBUTE_ACCT_PROVIDER_NAME, IAS_ATTRIBUTE_ACCT_PROVIDER_TYPE, IAS_ATTRIBUTE_ALLOWED_CERTIFICATE_EKU, IAS_ATTRIBUTE_ALLOW_DIALIN, IAS_ATTRIBUTE_AUTHENTICATION_TYPE, IAS_ATTRIBUTE_AUTH_PROVIDER_NAME, IAS_ATTRIBUTE_AUTH_PROVIDER_TYPE, IAS_ATTRIBUTE_CERTIFICATE_EKU, IAS_ATTRIBUTE_CLEAR_TEXT_PASSWORD, IAS_ATTRIBUTE_CLIENT_IP_ADDRESS, IAS_ATTRIBUTE_CLIENT_IPv6_ADDRESS, IAS_ATTRIBUTE_CLIENT_NAME, IAS_ATTRIBUTE_CLIENT_PACKET_HEADER, IAS_ATTRIBUTE_CLIENT_QUARANTINE_COMPATIBLE, IAS_ATTRIBUTE_CLIENT_UDP_PORT, IAS_ATTRIBUTE_CLIENT_VENDOR_TYPE, IAS_ATTRIBUTE_EAP_CONFIG, IAS_ATTRIBUTE_EAP_FRIENDLY_NAME, IAS_ATTRIBUTE_EAP_SESSION, IAS_ATTRIBUTE_EAP_TYPEID, IAS_ATTRIBUTE_EAP_TYPES_CONFIGURED_IN_PROXYPOLICY, IAS_ATTRIBUTE_EXTENSION_STATE, IAS_ATTRIBUTE_FULLY_QUALIFIED_MACHINE_NAME, IAS_ATTRIBUTE_FULLY_QUALIFIED_USER_NAME, IAS_ATTRIBUTE_GENERATE_CLASS_ATTRIBUTE, IAS_ATTRIBUTE_GENERATE_SESSION_TIMEOUT, IAS_ATTRIBUTE_IGNORE_USER_DIALIN_PROPERTIES, IAS_ATTRIBUTE_IS_REPLAY, IAS_ATTRIBUTE_LOGGING_RESULT, IAS_ATTRIBUTE_MACHINE_INVENTORY, IAS_ATTRIBUTE_MACHINE_NAME, IAS_ATTRIBUTE_MACHINE_NTGROUPS, IAS_ATTRIBUTE_MACHINE_TOKEN_GROUPS, IAS_ATTRIBUTE_MACHINE_TOKEN_SID, IAS_ATTRIBUTE_MACHINE_VALIDATED, IAS_ATTRIBUTE_MANIPULATION_RULE, IAS_ATTRIBUTE_MANIPULATION_TARGET, IAS_ATTRIBUTE_NAME_MAPPED, IAS_ATTRIBUTE_NP_ALLOWED_EAP_TYPE, IAS_ATTRIBUTE_NP_ALLOWED_PORT_TYPES, IAS_ATTRIBUTE_NP_AUTHENTICATION_TYPE, IAS_ATTRIBUTE_NP_CALLED_STATION_ID, IAS_ATTRIBUTE_NP_CALLING_STATION_ID, IAS_ATTRIBUTE_NP_CONSTRAINT, IAS_ATTRIBUTE_NP_NAME, IAS_ATTRIBUTE_NP_PEAPUPFRONT_ENABLED, IAS_ATTRIBUTE_NP_TIME_OF_DAY, IAS_ATTRIBUTE_NT4_ACCOUNT_NAME, IAS_ATTRIBUTE_NT4_HCAP_ACCOUNT_NAME, IAS_ATTRIBUTE_NT4_MACHINE_NAME, IAS_ATTRIBUTE_NTGROUPS, IAS_ATTRIBUTE_ORIGINAL_USER_NAME, IAS_ATTRIBUTE_OVERRIDE_RAP_AUTH, IAS_ATTRIBUTE_PACKET_TYPE, IAS_ATTRIBUTE_PASSPORT_USER_MAPPING_UPN_SUFFIX, IAS_ATTRIBUTE_PEAP_CHANNEL_UP, IAS_ATTRIBUTE_PEAP_EMBEDDED_EAP_TYPEID, IAS_ATTRIBUTE_PEAP_FAST_ROAMED_SESSION, IAS_ATTRIBUTE_POLICY_ENFORCED, IAS_ATTRIBUTE_POLICY_EVALUATED_SHV, IAS_ATTRIBUTE_PROVIDER_NAME, IAS_ATTRIBUTE_PROVIDER_TYPE, IAS_ATTRIBUTE_PROXY_EAP_CONFIG, IAS_ATTRIBUTE_PROXY_POLICY_NAME, IAS_ATTRIBUTE_PROXY_RETRY_COUNT, IAS_ATTRIBUTE_QUARANTINE_FIXUP_SERVERS, IAS_ATTRIBUTE_QUARANTINE_FIXUP_SERVERS_CONFIGURATION, IAS_ATTRIBUTE_QUARANTINE_SESSION_HANDLE, IAS_ATTRIBUTE_QUARANTINE_SESSION_ID, IAS_ATTRIBUTE_QUARANTINE_SYSTEM_HEALTH_RESULT, IAS_ATTRIBUTE_QUARANTINE_SYSTEM_HEALTH_VALIDATORS, IAS_ATTRIBUTE_QUARANTINE_UPDATE_NON_COMPLIANT, IAS_ATTRIBUTE_QUARANTINE_URL, IAS_ATTRIBUTE_RADIUS_USERNAME_ENCODING_ASCII, IAS_ATTRIBUTE_REASON_CODE, IAS_ATTRIBUTE_REJECT_REASON_CODE, IAS_ATTRIBUTE_REMOTE_RADIUS_TO_WINDOWS_USER_MAPPING, IAS_ATTRIBUTE_REMOTE_SERVER_ADDRESS, IAS_ATTRIBUTE_REQUEST_ID, IAS_ATTRIBUTE_REQUEST_START_TIME, IAS_ATTRIBUTE_SAVED_MACHINE_HEALTHCHECK_ONLY, IAS_ATTRIBUTE_SAVED_NP_CALLING_STATION_ID, IAS_ATTRIBUTE_SAVED_RADIUS_CALLBACK_NUMBER, IAS_ATTRIBUTE_SAVED_RADIUS_FRAMED_INTERFACE_ID, IAS_ATTRIBUTE_SAVED_RADIUS_FRAMED_IPV6_PREFIX, IAS_ATTRIBUTE_SAVED_RADIUS_FRAMED_IPV6_ROUTE, IAS_ATTRIBUTE_SAVED_RADIUS_FRAMED_IP_ADDRESS, IAS_ATTRIBUTE_SAVED_RADIUS_FRAMED_ROUTE, IAS_ATTRIBUTE_SERVER_IP_ADDRESS, IAS_ATTRIBUTE_SERVER_IPv6_ADDRESS, IAS_ATTRIBUTE_SESSION_TIMEOUT, IAS_ATTRIBUTE_SHARED_SECRET, IAS_ATTRIBUTE_SOH_CARRIER_EAPTLV, IAS_ATTRIBUTE_TOKEN_GROUPS, IAS_ATTRIBUTE_TUNNEL_TAG, IAS_ATTRIBUTE_USER_NTGROUPS, IAS_ATTRIBUTE_USER_TOKEN_GROUPS, IAS_ATTRIBUTE_USER_TOKEN_SID, MS_ATTRIBUTE_ACCT_AUTH_TYPE, MS_ATTRIBUTE_ACCT_EAP_TYPE, MS_ATTRIBUTE_AFW_PROTECTION_LEVEL, MS_ATTRIBUTE_AFW_QUARANTINE_ZONE, MS_ATTRIBUTE_CHAP2_CPW, MS_ATTRIBUTE_CHAP2_RESPONSE, MS_ATTRIBUTE_CHAP2_SUCCESS, MS_ATTRIBUTE_CHAP_CHALLENGE, MS_ATTRIBUTE_CHAP_CPW1, MS_ATTRIBUTE_CHAP_CPW2, MS_ATTRIBUTE_CHAP_DOMAIN, MS_ATTRIBUTE_CHAP_ERROR, MS_ATTRIBUTE_CHAP_LM_ENC_PW, MS_ATTRIBUTE_CHAP_MPPE_KEYS, MS_ATTRIBUTE_CHAP_NT_ENC_PW, MS_ATTRIBUTE_CHAP_RESPONSE, MS_ATTRIBUTE_EAP_TLV, MS_ATTRIBUTE_EXTENDED_QUARANTINE_STATE, MS_ATTRIBUTE_FILTER, MS_ATTRIBUTE_HCAP_LOCATION_GROUP_NAME, MS_ATTRIBUTE_HCAP_USER_GROUPS, MS_ATTRIBUTE_HCAP_USER_NAME, MS_ATTRIBUTE_IDENTITY_TYPE, MS_ATTRIBUTE_IPV4_REMEDIATION_SERVERS, MS_ATTRIBUTE_IPV6_REMEDIATION_SERVERS, MS_ATTRIBUTE_IPv6_FILTER, MS_ATTRIBUTE_MACHINE_NAME, MS_ATTRIBUTE_MPPE_RECV_KEY, MS_ATTRIBUTE_MPPE_SEND_KEY, MS_ATTRIBUTE_NETWORK_ACCESS_SERVER_TYPE, MS_ATTRIBUTE_NOT_QUARANTINE_CAPABLE, MS_ATTRIBUTE_PRIMARY_DNS_SERVER, MS_ATTRIBUTE_PRIMARY_NBNS_SERVER, MS_ATTRIBUTE_QUARANTINE_GRACE_TIME, MS_ATTRIBUTE_QUARANTINE_GRACE_TIME_CONFIGURATION, MS_ATTRIBUTE_QUARANTINE_IPFILTER, MS_ATTRIBUTE_QUARANTINE_SESSION_TIMEOUT, MS_ATTRIBUTE_QUARANTINE_SOH, MS_ATTRIBUTE_QUARANTINE_STATE, MS_ATTRIBUTE_QUARANTINE_USER_CLASS, MS_ATTRIBUTE_RAS_CLIENT_NAME, MS_ATTRIBUTE_RAS_CLIENT_VERSION, MS_ATTRIBUTE_RAS_CORRELATION_ID, MS_ATTRIBUTE_RAS_VENDOR, MS_ATTRIBUTE_RAS_VERSION, MS_ATTRIBUTE_SECONDARY_DNS_SERVER, MS_ATTRIBUTE_SECONDARY_NBNS_SERVER, MS_ATTRIBUTE_SERVICE_CLASS, MS_ATTRIBUTE_TSG_DEVICE_REDIRECTION, MS_ATTRIBUTE_USER_IPv4_ADDRESS, MS_ATTRIBUTE_USER_IPv6_ADDRESS, MS_ATTRIBUTE_USER_SECURITY_IDENTITY, RADIUS_ATTRIBUTE_ACCT_AUTHENTIC, RADIUS_ATTRIBUTE_ACCT_DELAY_TIME, RADIUS_ATTRIBUTE_ACCT_INPUT_OCTETS, RADIUS_ATTRIBUTE_ACCT_INPUT_PACKETS, RADIUS_ATTRIBUTE_ACCT_INTERIM_INTERVAL, RADIUS_ATTRIBUTE_ACCT_LINK_COUNT, RADIUS_ATTRIBUTE_ACCT_MULTI_SSN_ID, RADIUS_ATTRIBUTE_ACCT_OUTPUT_OCTETS, RADIUS_ATTRIBUTE_ACCT_OUTPUT_PACKETS, RADIUS_ATTRIBUTE_ACCT_SESSION_ID, RADIUS_ATTRIBUTE_ACCT_SESSION_TIME, RADIUS_ATTRIBUTE_ACCT_STATUS_TYPE, RADIUS_ATTRIBUTE_ACCT_TERMINATE_CAUSE, RADIUS_ATTRIBUTE_ACCT_TUNNEL_CONN, RADIUS_ATTRIBUTE_ARAP_CHALLENGE_RESPONSE, RADIUS_ATTRIBUTE_ARAP_FEATURES, RADIUS_ATTRIBUTE_ARAP_PASSWORD, RADIUS_ATTRIBUTE_ARAP_SECURITY, RADIUS_ATTRIBUTE_ARAP_SECURITY_DATA, RADIUS_ATTRIBUTE_ARAP_ZONE_ACCESS, RADIUS_ATTRIBUTE_CALLBACK_ID, RADIUS_ATTRIBUTE_CALLBACK_NUMBER, RADIUS_ATTRIBUTE_CALLED_STATION_ID, RADIUS_ATTRIBUTE_CALLING_STATION_ID, RADIUS_ATTRIBUTE_CHAP_CHALLENGE, RADIUS_ATTRIBUTE_CHAP_PASSWORD, RADIUS_ATTRIBUTE_CLASS, RADIUS_ATTRIBUTE_CONFIGURATION_TOKEN, RADIUS_ATTRIBUTE_CONNECT_INFO, RADIUS_ATTRIBUTE_EAP_MESSAGE, RADIUS_ATTRIBUTE_FILTER_ID, RADIUS_ATTRIBUTE_FRAMED_APPLETALK_LINK, RADIUS_ATTRIBUTE_FRAMED_APPLETALK_NET, RADIUS_ATTRIBUTE_FRAMED_APPLETALK_ZONE, RADIUS_ATTRIBUTE_FRAMED_COMPRESSION, RADIUS_ATTRIBUTE_FRAMED_INTERFACE_ID, RADIUS_ATTRIBUTE_FRAMED_IPX_NETWORK, RADIUS_ATTRIBUTE_FRAMED_IP_ADDRESS, RADIUS_ATTRIBUTE_FRAMED_IP_NETMASK, RADIUS_ATTRIBUTE_FRAMED_IPv6_POOL, RADIUS_ATTRIBUTE_FRAMED_IPv6_PREFIX, RADIUS_ATTRIBUTE_FRAMED_IPv6_ROUTE, RADIUS_ATTRIBUTE_FRAMED_MTU, RADIUS_ATTRIBUTE_FRAMED_PROTOCOL, RADIUS_ATTRIBUTE_FRAMED_ROUTE, RADIUS_ATTRIBUTE_FRAMED_ROUTING, RADIUS_ATTRIBUTE_IDLE_TIMEOUT, RADIUS_ATTRIBUTE_LOGIN_IP_HOST, RADIUS_ATTRIBUTE_LOGIN_IPv6_HOST, RADIUS_ATTRIBUTE_LOGIN_LAT_GROUP, RADIUS_ATTRIBUTE_LOGIN_LAT_NODE, RADIUS_ATTRIBUTE_LOGIN_LAT_PORT, RADIUS_ATTRIBUTE_LOGIN_LAT_SERVICE, RADIUS_ATTRIBUTE_LOGIN_SERVICE, RADIUS_ATTRIBUTE_LOGIN_TCP_PORT, RADIUS_ATTRIBUTE_NAS_IDENTIFIER, RADIUS_ATTRIBUTE_NAS_IP_ADDRESS, RADIUS_ATTRIBUTE_NAS_IPv6_ADDRESS, RADIUS_ATTRIBUTE_NAS_PORT, RADIUS_ATTRIBUTE_NAS_PORT_TYPE, RADIUS_ATTRIBUTE_PASSWORD_RETRY, RADIUS_ATTRIBUTE_PORT_LIMIT, RADIUS_ATTRIBUTE_PROMPT, RADIUS_ATTRIBUTE_PROXY_STATE, RADIUS_ATTRIBUTE_REPLY_MESSAGE, RADIUS_ATTRIBUTE_SERVICE_TYPE, RADIUS_ATTRIBUTE_SESSION_TIMEOUT, RADIUS_ATTRIBUTE_SIGNATURE, RADIUS_ATTRIBUTE_STATE, RADIUS_ATTRIBUTE_TERMINATION_ACTION, RADIUS_ATTRIBUTE_TUNNEL_ASSIGNMENT_ID, RADIUS_ATTRIBUTE_TUNNEL_CLIENT_ENDPT, RADIUS_ATTRIBUTE_TUNNEL_MEDIUM_TYPE, RADIUS_ATTRIBUTE_TUNNEL_PASSWORD, RADIUS_ATTRIBUTE_TUNNEL_PREFERENCE, RADIUS_ATTRIBUTE_TUNNEL_PVT_GROUP_ID, RADIUS_ATTRIBUTE_TUNNEL_SERVER_ENDPT, RADIUS_ATTRIBUTE_TUNNEL_TYPE, RADIUS_ATTRIBUTE_UNASSIGNED1, RADIUS_ATTRIBUTE_UNASSIGNED2, RADIUS_ATTRIBUTE_USER_NAME, RADIUS_ATTRIBUTE_USER_PASSWORD, RADIUS_ATTRIBUTE_VENDOR_SPECIFIC, RAS_ATTRIBUTE_BAP_LINE_DOWN_LIMIT, RAS_ATTRIBUTE_BAP_LINE_DOWN_TIME, RAS_ATTRIBUTE_BAP_REQUIRED, RAS_ATTRIBUTE_ENCRYPTION_POLICY, RAS_ATTRIBUTE_ENCRYPTION_TYPE, _sdo_attributeid, nps.SDO_attributeid, sdo.attributeid, sdoias/ATTRIBUTEID, sdoias/ATTRIBUTE_MIN_VALUE, sdoias/ATTRIBUTE_UNDEFINED, sdoias/IAS_ATTRIBUTE_ABSOLUTE_TIME, sdoias/IAS_ATTRIBUTE_ACCEPT_REASON_CODE, sdoias/IAS_ATTRIBUTE_ACCT_PROVIDER_NAME, sdoias/IAS_ATTRIBUTE_ACCT_PROVIDER_TYPE, sdoias/IAS_ATTRIBUTE_ALLOWED_CERTIFICATE_EKU, sdoias/IAS_ATTRIBUTE_ALLOW_DIALIN, sdoias/IAS_ATTRIBUTE_AUTHENTICATION_TYPE, sdoias/IAS_ATTRIBUTE_AUTH_PROVIDER_NAME, sdoias/IAS_ATTRIBUTE_AUTH_PROVIDER_TYPE, sdoias/IAS_ATTRIBUTE_CERTIFICATE_EKU, sdoias/IAS_ATTRIBUTE_CLEAR_TEXT_PASSWORD, sdoias/IAS_ATTRIBUTE_CLIENT_IP_ADDRESS, sdoias/IAS_ATTRIBUTE_CLIENT_IPv6_ADDRESS, sdoias/IAS_ATTRIBUTE_CLIENT_NAME, sdoias/IAS_ATTRIBUTE_CLIENT_PACKET_HEADER, sdoias/IAS_ATTRIBUTE_CLIENT_QUARANTINE_COMPATIBLE, sdoias/IAS_ATTRIBUTE_CLIENT_UDP_PORT, sdoias/IAS_ATTRIBUTE_CLIENT_VENDOR_TYPE, sdoias/IAS_ATTRIBUTE_EAP_CONFIG, sdoias/IAS_ATTRIBUTE_EAP_FRIENDLY_NAME, sdoias/IAS_ATTRIBUTE_EAP_SESSION, sdoias/IAS_ATTRIBUTE_EAP_TYPEID, sdoias/IAS_ATTRIBUTE_EAP_TYPES_CONFIGURED_IN_PROXYPOLICY, sdoias/IAS_ATTRIBUTE_EXTENSION_STATE, sdoias/IAS_ATTRIBUTE_FULLY_QUALIFIED_MACHINE_NAME, sdoias/IAS_ATTRIBUTE_FULLY_QUALIFIED_USER_NAME, sdoias/IAS_ATTRIBUTE_GENERATE_CLASS_ATTRIBUTE, sdoias/IAS_ATTRIBUTE_GENERATE_SESSION_TIMEOUT, sdoias/IAS_ATTRIBUTE_IGNORE_USER_DIALIN_PROPERTIES, sdoias/IAS_ATTRIBUTE_IS_REPLAY, sdoias/IAS_ATTRIBUTE_LOGGING_RESULT, sdoias/IAS_ATTRIBUTE_MACHINE_INVENTORY, sdoias/IAS_ATTRIBUTE_MACHINE_NAME, sdoias/IAS_ATTRIBUTE_MACHINE_NTGROUPS, sdoias/IAS_ATTRIBUTE_MACHINE_TOKEN_GROUPS, sdoias/IAS_ATTRIBUTE_MACHINE_TOKEN_SID, sdoias/IAS_ATTRIBUTE_MACHINE_VALIDATED, sdoias/IAS_ATTRIBUTE_MANIPULATION_RULE, sdoias/IAS_ATTRIBUTE_MANIPULATION_TARGET, sdoias/IAS_ATTRIBUTE_NAME_MAPPED, sdoias/IAS_ATTRIBUTE_NP_ALLOWED_EAP_TYPE, sdoias/IAS_ATTRIBUTE_NP_ALLOWED_PORT_TYPES, sdoias/IAS_ATTRIBUTE_NP_AUTHENTICATION_TYPE, sdoias/IAS_ATTRIBUTE_NP_CALLED_STATION_ID, sdoias/IAS_ATTRIBUTE_NP_CALLING_STATION_ID, sdoias/IAS_ATTRIBUTE_NP_CONSTRAINT, sdoias/IAS_ATTRIBUTE_NP_NAME, sdoias/IAS_ATTRIBUTE_NP_PEAPUPFRONT_ENABLED, sdoias/IAS_ATTRIBUTE_NP_TIME_OF_DAY, sdoias/IAS_ATTRIBUTE_NT4_ACCOUNT_NAME, sdoias/IAS_ATTRIBUTE_NT4_HCAP_ACCOUNT_NAME, sdoias/IAS_ATTRIBUTE_NT4_MACHINE_NAME, sdoias/IAS_ATTRIBUTE_NTGROUPS, sdoias/IAS_ATTRIBUTE_ORIGINAL_USER_NAME, sdoias/IAS_ATTRIBUTE_OVERRIDE_RAP_AUTH, sdoias/IAS_ATTRIBUTE_PACKET_TYPE, sdoias/IAS_ATTRIBUTE_PASSPORT_USER_MAPPING_UPN_SUFFIX, sdoias/IAS_ATTRIBUTE_PEAP_CHANNEL_UP, sdoias/IAS_ATTRIBUTE_PEAP_EMBEDDED_EAP_TYPEID, sdoias/IAS_ATTRIBUTE_PEAP_FAST_ROAMED_SESSION, sdoias/IAS_ATTRIBUTE_POLICY_ENFORCED, sdoias/IAS_ATTRIBUTE_POLICY_EVALUATED_SHV, sdoias/IAS_ATTRIBUTE_PROVIDER_NAME, sdoias/IAS_ATTRIBUTE_PROVIDER_TYPE, sdoias/IAS_ATTRIBUTE_PROXY_EAP_CONFIG, sdoias/IAS_ATTRIBUTE_PROXY_POLICY_NAME, sdoias/IAS_ATTRIBUTE_PROXY_RETRY_COUNT, sdoias/IAS_ATTRIBUTE_QUARANTINE_FIXUP_SERVERS, sdoias/IAS_ATTRIBUTE_QUARANTINE_FIXUP_SERVERS_CONFIGURATION, sdoias/IAS_ATTRIBUTE_QUARANTINE_SESSION_HANDLE, sdoias/IAS_ATTRIBUTE_QUARANTINE_SESSION_ID, sdoias/IAS_ATTRIBUTE_QUARANTINE_SYSTEM_HEALTH_RESULT, sdoias/IAS_ATTRIBUTE_QUARANTINE_SYSTEM_HEALTH_VALIDATORS, sdoias/IAS_ATTRIBUTE_QUARANTINE_UPDATE_NON_COMPLIANT, sdoias/IAS_ATTRIBUTE_QUARANTINE_URL, sdoias/IAS_ATTRIBUTE_RADIUS_USERNAME_ENCODING_ASCII, sdoias/IAS_ATTRIBUTE_REASON_CODE, sdoias/IAS_ATTRIBUTE_REJECT_REASON_CODE, sdoias/IAS_ATTRIBUTE_REMOTE_RADIUS_TO_WINDOWS_USER_MAPPING, sdoias/IAS_ATTRIBUTE_REMOTE_SERVER_ADDRESS, sdoias/IAS_ATTRIBUTE_REQUEST_ID, sdoias/IAS_ATTRIBUTE_REQUEST_START_TIME, sdoias/IAS_ATTRIBUTE_SAVED_MACHINE_HEALTHCHECK_ONLY, sdoias/IAS_ATTRIBUTE_SAVED_NP_CALLING_STATION_ID, sdoias/IAS_ATTRIBUTE_SAVED_RADIUS_CALLBACK_NUMBER, sdoias/IAS_ATTRIBUTE_SAVED_RADIUS_FRAMED_INTERFACE_ID, sdoias/IAS_ATTRIBUTE_SAVED_RADIUS_FRAMED_IPV6_PREFIX, sdoias/IAS_ATTRIBUTE_SAVED_RADIUS_FRAMED_IPV6_ROUTE, sdoias/IAS_ATTRIBUTE_SAVED_RADIUS_FRAMED_IP_ADDRESS, sdoias/IAS_ATTRIBUTE_SAVED_RADIUS_FRAMED_ROUTE, sdoias/IAS_ATTRIBUTE_SERVER_IP_ADDRESS, sdoias/IAS_ATTRIBUTE_SERVER_IPv6_ADDRESS, sdoias/IAS_ATTRIBUTE_SESSION_TIMEOUT, sdoias/IAS_ATTRIBUTE_SHARED_SECRET, sdoias/IAS_ATTRIBUTE_SOH_CARRIER_EAPTLV, sdoias/IAS_ATTRIBUTE_TOKEN_GROUPS, sdoias/IAS_ATTRIBUTE_TUNNEL_TAG, sdoias/IAS_ATTRIBUTE_USER_NTGROUPS, sdoias/IAS_ATTRIBUTE_USER_TOKEN_GROUPS, sdoias/IAS_ATTRIBUTE_USER_TOKEN_SID, sdoias/MS_ATTRIBUTE_ACCT_AUTH_TYPE, sdoias/MS_ATTRIBUTE_ACCT_EAP_TYPE, sdoias/MS_ATTRIBUTE_AFW_PROTECTION_LEVEL, sdoias/MS_ATTRIBUTE_AFW_QUARANTINE_ZONE, sdoias/MS_ATTRIBUTE_CHAP2_CPW, sdoias/MS_ATTRIBUTE_CHAP2_RESPONSE, sdoias/MS_ATTRIBUTE_CHAP2_SUCCESS, sdoias/MS_ATTRIBUTE_CHAP_CHALLENGE, sdoias/MS_ATTRIBUTE_CHAP_CPW1, sdoias/MS_ATTRIBUTE_CHAP_CPW2, sdoias/MS_ATTRIBUTE_CHAP_DOMAIN, sdoias/MS_ATTRIBUTE_CHAP_ERROR, sdoias/MS_ATTRIBUTE_CHAP_LM_ENC_PW, sdoias/MS_ATTRIBUTE_CHAP_MPPE_KEYS, sdoias/MS_ATTRIBUTE_CHAP_NT_ENC_PW, sdoias/MS_ATTRIBUTE_CHAP_RESPONSE, sdoias/MS_ATTRIBUTE_EAP_TLV, sdoias/MS_ATTRIBUTE_EXTENDED_QUARANTINE_STATE, sdoias/MS_ATTRIBUTE_FILTER, sdoias/MS_ATTRIBUTE_HCAP_LOCATION_GROUP_NAME, sdoias/MS_ATTRIBUTE_HCAP_USER_GROUPS, sdoias/MS_ATTRIBUTE_HCAP_USER_NAME, sdoias/MS_ATTRIBUTE_IDENTITY_TYPE, sdoias/MS_ATTRIBUTE_IPV4_REMEDIATION_SERVERS, sdoias/MS_ATTRIBUTE_IPV6_REMEDIATION_SERVERS, sdoias/MS_ATTRIBUTE_IPv6_FILTER, sdoias/MS_ATTRIBUTE_MACHINE_NAME, sdoias/MS_ATTRIBUTE_MPPE_RECV_KEY, sdoias/MS_ATTRIBUTE_MPPE_SEND_KEY, sdoias/MS_ATTRIBUTE_NETWORK_ACCESS_SERVER_TYPE, sdoias/MS_ATTRIBUTE_NOT_QUARANTINE_CAPABLE, sdoias/MS_ATTRIBUTE_PRIMARY_DNS_SERVER, sdoias/MS_ATTRIBUTE_PRIMARY_NBNS_SERVER, sdoias/MS_ATTRIBUTE_QUARANTINE_GRACE_TIME, sdoias/MS_ATTRIBUTE_QUARANTINE_GRACE_TIME_CONFIGURATION, sdoias/MS_ATTRIBUTE_QUARANTINE_IPFILTER, sdoias/MS_ATTRIBUTE_QUARANTINE_SESSION_TIMEOUT, sdoias/MS_ATTRIBUTE_QUARANTINE_SOH, sdoias/MS_ATTRIBUTE_QUARANTINE_STATE, sdoias/MS_ATTRIBUTE_QUARANTINE_USER_CLASS, sdoias/MS_ATTRIBUTE_RAS_CLIENT_NAME, sdoias/MS_ATTRIBUTE_RAS_CLIENT_VERSION, sdoias/MS_ATTRIBUTE_RAS_CORRELATION_ID, sdoias/MS_ATTRIBUTE_RAS_VENDOR, sdoias/MS_ATTRIBUTE_RAS_VERSION, sdoias/MS_ATTRIBUTE_SECONDARY_DNS_SERVER, sdoias/MS_ATTRIBUTE_SECONDARY_NBNS_SERVER, sdoias/MS_ATTRIBUTE_SERVICE_CLASS, sdoias/MS_ATTRIBUTE_TSG_DEVICE_REDIRECTION, sdoias/MS_ATTRIBUTE_USER_IPv4_ADDRESS, sdoias/MS_ATTRIBUTE_USER_IPv6_ADDRESS, sdoias/MS_ATTRIBUTE_USER_SECURITY_IDENTITY, sdoias/RADIUS_ATTRIBUTE_ACCT_AUTHENTIC, sdoias/RADIUS_ATTRIBUTE_ACCT_DELAY_TIME, sdoias/RADIUS_ATTRIBUTE_ACCT_INPUT_OCTETS, sdoias/RADIUS_ATTRIBUTE_ACCT_INPUT_PACKETS, sdoias/RADIUS_ATTRIBUTE_ACCT_INTERIM_INTERVAL, sdoias/RADIUS_ATTRIBUTE_ACCT_LINK_COUNT, sdoias/RADIUS_ATTRIBUTE_ACCT_MULTI_SSN_ID, sdoias/RADIUS_ATTRIBUTE_ACCT_OUTPUT_OCTETS, sdoias/RADIUS_ATTRIBUTE_ACCT_OUTPUT_PACKETS, sdoias/RADIUS_ATTRIBUTE_ACCT_SESSION_ID, sdoias/RADIUS_ATTRIBUTE_ACCT_SESSION_TIME, sdoias/RADIUS_ATTRIBUTE_ACCT_STATUS_TYPE, sdoias/RADIUS_ATTRIBUTE_ACCT_TERMINATE_CAUSE, sdoias/RADIUS_ATTRIBUTE_ACCT_TUNNEL_CONN, sdoias/RADIUS_ATTRIBUTE_ARAP_CHALLENGE_RESPONSE, sdoias/RADIUS_ATTRIBUTE_ARAP_FEATURES, sdoias/RADIUS_ATTRIBUTE_ARAP_PASSWORD, sdoias/RADIUS_ATTRIBUTE_ARAP_SECURITY, sdoias/RADIUS_ATTRIBUTE_ARAP_SECURITY_DATA, sdoias/RADIUS_ATTRIBUTE_ARAP_ZONE_ACCESS, sdoias/RADIUS_ATTRIBUTE_CALLBACK_ID, sdoias/RADIUS_ATTRIBUTE_CALLBACK_NUMBER, sdoias/RADIUS_ATTRIBUTE_CALLED_STATION_ID, sdoias/RADIUS_ATTRIBUTE_CALLING_STATION_ID, sdoias/RADIUS_ATTRIBUTE_CHAP_CHALLENGE, sdoias/RADIUS_ATTRIBUTE_CHAP_PASSWORD, sdoias/RADIUS_ATTRIBUTE_CLASS, sdoias/RADIUS_ATTRIBUTE_CONFIGURATION_TOKEN, sdoias/RADIUS_ATTRIBUTE_CONNECT_INFO, sdoias/RADIUS_ATTRIBUTE_EAP_MESSAGE, sdoias/RADIUS_ATTRIBUTE_FILTER_ID, sdoias/RADIUS_ATTRIBUTE_FRAMED_APPLETALK_LINK, sdoias/RADIUS_ATTRIBUTE_FRAMED_APPLETALK_NET, sdoias/RADIUS_ATTRIBUTE_FRAMED_APPLETALK_ZONE, sdoias/RADIUS_ATTRIBUTE_FRAMED_COMPRESSION, sdoias/RADIUS_ATTRIBUTE_FRAMED_INTERFACE_ID, sdoias/RADIUS_ATTRIBUTE_FRAMED_IPX_NETWORK, sdoias/RADIUS_ATTRIBUTE_FRAMED_IP_ADDRESS, sdoias/RADIUS_ATTRIBUTE_FRAMED_IP_NETMASK, sdoias/RADIUS_ATTRIBUTE_FRAMED_IPv6_POOL, sdoias/RADIUS_ATTRIBUTE_FRAMED_IPv6_PREFIX, sdoias/RADIUS_ATTRIBUTE_FRAMED_IPv6_ROUTE, sdoias/RADIUS_ATTRIBUTE_FRAMED_MTU, sdoias/RADIUS_ATTRIBUTE_FRAMED_PROTOCOL, sdoias/RADIUS_ATTRIBUTE_FRAMED_ROUTE, sdoias/RADIUS_ATTRIBUTE_FRAMED_ROUTING, sdoias/RADIUS_ATTRIBUTE_IDLE_TIMEOUT, sdoias/RADIUS_ATTRIBUTE_LOGIN_IP_HOST, sdoias/RADIUS_ATTRIBUTE_LOGIN_IPv6_HOST, sdoias/RADIUS_ATTRIBUTE_LOGIN_LAT_GROUP, sdoias/RADIUS_ATTRIBUTE_LOGIN_LAT_NODE, sdoias/RADIUS_ATTRIBUTE_LOGIN_LAT_PORT, sdoias/RADIUS_ATTRIBUTE_LOGIN_LAT_SERVICE, sdoias/RADIUS_ATTRIBUTE_LOGIN_SERVICE, sdoias/RADIUS_ATTRIBUTE_LOGIN_TCP_PORT, sdoias/RADIUS_ATTRIBUTE_NAS_IDENTIFIER, sdoias/RADIUS_ATTRIBUTE_NAS_IP_ADDRESS, sdoias/RADIUS_ATTRIBUTE_NAS_IPv6_ADDRESS, sdoias/RADIUS_ATTRIBUTE_NAS_PORT, sdoias/RADIUS_ATTRIBUTE_NAS_PORT_TYPE, sdoias/RADIUS_ATTRIBUTE_PASSWORD_RETRY, sdoias/RADIUS_ATTRIBUTE_PORT_LIMIT, sdoias/RADIUS_ATTRIBUTE_PROMPT, sdoias/RADIUS_ATTRIBUTE_PROXY_STATE, sdoias/RADIUS_ATTRIBUTE_REPLY_MESSAGE, sdoias/RADIUS_ATTRIBUTE_SERVICE_TYPE, sdoias/RADIUS_ATTRIBUTE_SESSION_TIMEOUT, sdoias/RADIUS_ATTRIBUTE_SIGNATURE, sdoias/RADIUS_ATTRIBUTE_STATE, sdoias/RADIUS_ATTRIBUTE_TERMINATION_ACTION, sdoias/RADIUS_ATTRIBUTE_TUNNEL_ASSIGNMENT_ID, sdoias/RADIUS_ATTRIBUTE_TUNNEL_CLIENT_ENDPT, sdoias/RADIUS_ATTRIBUTE_TUNNEL_MEDIUM_TYPE, sdoias/RADIUS_ATTRIBUTE_TUNNEL_PASSWORD, sdoias/RADIUS_ATTRIBUTE_TUNNEL_PREFERENCE, sdoias/RADIUS_ATTRIBUTE_TUNNEL_PVT_GROUP_ID, sdoias/RADIUS_ATTRIBUTE_TUNNEL_SERVER_ENDPT, sdoias/RADIUS_ATTRIBUTE_TUNNEL_TYPE, sdoias/RADIUS_ATTRIBUTE_UNASSIGNED1, sdoias/RADIUS_ATTRIBUTE_UNASSIGNED2, sdoias/RADIUS_ATTRIBUTE_USER_NAME, sdoias/RADIUS_ATTRIBUTE_USER_PASSWORD, sdoias/RADIUS_ATTRIBUTE_VENDOR_SPECIFIC, sdoias/RAS_ATTRIBUTE_BAP_LINE_DOWN_LIMIT, sdoias/RAS_ATTRIBUTE_BAP_LINE_DOWN_TIME, sdoias/RAS_ATTRIBUTE_BAP_REQUIRED, sdoias/RAS_ATTRIBUTE_ENCRYPTION_POLICY, sdoias/RAS_ATTRIBUTE_ENCRYPTION_TYPE
-ms.topic: enum
 f1_keywords:
 - sdoias/ATTRIBUTEID
 dev_langs:
@@ -71,97 +70,97 @@ Specifies the minimum value for values of this enumeration type.
 ### -field RADIUS_ATTRIBUTE_USER_NAME
 
 Specifies the name of the user to be authenticated. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_USER_PASSWORD
 
 Specifies the password of the user to be authenticated. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_CHAP_PASSWORD
 
 Specifies the password provided by the user in response to an MD5 Challenge Handshake Authentication Protocol (CHAP) challenge. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_NAS_IP_ADDRESS
 
 Specifies the Network Access Server (NAS) IP address. An Access-Request should specify either an NAS IP address or an NAS identifier. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_NAS_PORT
 
 Specifies the physical or virtual private network (VPN) through which the user is connecting to the NAS. Note that this value is not a port number in the sense of TCP or UDP. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_SERVICE_TYPE
 
 Specifies the type of service the user has requested or the type of service to be provided. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_PROTOCOL
 
 Specifies the type of framed protocol to use for framed access, for example SLIP, PPP, or ARAP (AppleTalk Remote Access Protocol). For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_IP_ADDRESS
 
 Specifies the IP address that is configured for the user requesting authentication. This attribute is typically returned by the authentication provider. However, the NAS may use it in an authentication request to specify a preferred IP address. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_IP_NETMASK
 
 Specifies the IP network mask for a user that is a router to a network. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_ROUTING
 
 Specifies the routing method for a user that is a router to a network. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FILTER_ID
 
 Specifies the filter list for the user requesting authentication. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_MTU
 
 Specifies the Maximum Transmission Unit (MTU) for the user. This attribute is used in cases where the MTU is not negotiated through some other means, such as PPP. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_COMPRESSION
 
 Specifies a compression protocol to use for the connection. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_LOGIN_IP_HOST
 
 Specifies the system with which to connect the user. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_LOGIN_SERVICE
 
 Specifies the service to use to connect the user to the host specified by <b>raatLoginIPHost</b>. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_LOGIN_TCP_PORT
 
 Specifies the port to which to connect the user. This attribute is present only if the <b>raatLoginService</b> attribute is present. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_UNASSIGNED1
@@ -172,19 +171,19 @@ This value is currently unassigned.
 ### -field RADIUS_ATTRIBUTE_REPLY_MESSAGE
 
 Specifies a message to display to the user. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_CALLBACK_NUMBER
 
 Specifies a callback number. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_CALLBACK_ID
 
 Specifies a location to call back. The value of this attribute is interpreted by the NAS. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_UNASSIGNED2
@@ -195,205 +194,205 @@ This value is currently unassigned. The value field in for this type is also und
 ### -field RADIUS_ATTRIBUTE_FRAMED_ROUTE
 
 Specifies routing information to configure on the NAS for the user. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_IPX_NETWORK
 
 Specifies the IPX network number to configure for the user. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_STATE
 
 Specifies state information provided to the client by the server. Refer to 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a> for detailed information about this value. The value field in for this type is a pointer.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for detailed information about this value. The value field in for this type is a pointer.
 
 
 ### -field RADIUS_ATTRIBUTE_CLASS
 
 Specifies a value that is provided to the NAS by the authentication provider. The NAS should use this value when communicating with the accounting provider. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_VENDOR_SPECIFIC
 
 Specifies a field for vendor-supplied extended attributes. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_SESSION_TIMEOUT
 
 Specifies the maximum number of seconds for which to provide service to the user. After this time, the session is terminated. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_IDLE_TIMEOUT
 
 Specifies the maximum number of consecutive seconds the session can be idle. If the idle time exceeds this value, the session is terminated. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_TERMINATION_ACTION
 
 Specifies an action the server performs when time the connection terminates. Refer to the above-referenced files for detailed information about this value. The value field in for this type is 32-bit integral value. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_CALLED_STATION_ID
 
 Specifies the number that the user dialed to connect to the NAS. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_CALLING_STATION_ID
 
 Specifies the number from which the user is calling. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_NAS_IDENTIFIER
 
 Specifies the NAS identifier. An Access-Request should specify either an NAS identifier or an NAS IP address. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_PROXY_STATE
 
 Specifies a value that a proxy server includes when forwarding an authentication request. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_LOGIN_LAT_SERVICE
 
 Specifies an attribute that is not currently used for authentication on Windows. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_LOGIN_LAT_NODE
 
 Specifies an attribute that is not currently used for authentication on Windows. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_LOGIN_LAT_GROUP
 
 Specifies an attribute that is not currently used for authentication on Windows. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_APPLETALK_LINK
 
 Specifies the AppleTalk network number for the user when the user is another router. The value field in for this type is 32-bit integral value. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_APPLETALK_NET
 
 Specifies the AppleTalk network number that the NAS should use to allocate an AppleTalk node for the user. This attribute is used only when the user is not another router. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_APPLETALK_ZONE
 
 Specifies the AppleTalk default zone for the user. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_STATUS_TYPE
 
 Specifies whether the accounting provider should start or stop accounting for the user. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_DELAY_TIME
 
 Specifies the length of time that the client has been attempting to send the current request. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_INPUT_OCTETS
 
 Specifies the number of octets that have been received during the current accounting session. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_OUTPUT_OCTETS
 
 Specifies the number of octets that were sent during the current accounting session. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_SESSION_ID
 
 Specifies a value to enable the identification of matching start and stop records within a log file. The start and stop records are sent in the <b>raatAcctStatusType</b> attribute. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_AUTHENTIC
 
 Specifies, to the accounting provider, how the user was authenticated; for example by Windows Directory Services, RADIUS, or some other authentication provider. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_SESSION_TIME
 
 Specifies the number of seconds that have elapsed in the current accounting session. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_INPUT_PACKETS
 
 Specifies the number of packets that are received during the current accounting session. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_OUTPUT_PACKETS
 
 Specifies the number of packets that are sent during the current accounting session. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_TERMINATE_CAUSE
 
 Specifies how the current accounting session was terminated. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_MULTI_SSN_ID
 
 Specifies a value to enable the identification of related accounting sessions within a log file. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_LINK_COUNT
 
 Specifies the number of links if the current accounting session is using a multilink connection. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_CHAP_CHALLENGE
 
 Specifies the CHAP challenge sent by the NAS to a CHAP user. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_NAS_PORT_TYPE
 
 Specifies the type of the port through which the user is connecting, for example, asynchronous, ISDN, virtual. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_PORT_LIMIT
 
 Specifies the number of ports the NAS should make available to the user for multilink sessions. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_LOGIN_LAT_PORT
 
 Specifies an attribute that is not currently used for authentication on Windows. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_TUNNEL_TYPE
@@ -544,7 +543,7 @@ Specifies the address of the server end of the tunnel.
 
 Specifies an identifier assigned to the tunnel
          session. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84057">RFC 2867</a>.
+<a href="https://www.ietf.org/rfc/rfc2867.txt">RFC 2867</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_TUNNEL_PASSWORD
@@ -555,31 +554,31 @@ The password for authenticating to the remote server.
 ### -field RADIUS_ATTRIBUTE_ARAP_PASSWORD
 
 Specifies a password to use for AppleTalk Remote Access Protocol (ARAP) authentication. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ARAP_FEATURES
 
 Specifies information that an NAS should send back to the user in an ARAP "feature flags" packet. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ARAP_ZONE_ACCESS
 
 Specifies how to use the ARAP zone list for the user. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ARAP_SECURITY
 
 Specifies an ARAP security module to use during a secondary authentication phase between the NAS and the user. The value field for this type is a 32-bit integral. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ARAP_SECURITY_DATA
 
 Specifies the data to use with an ARAP security module. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_PASSWORD_RETRY
@@ -590,31 +589,31 @@ Specifies the number of password retry attempts to permit the user access. The v
 ### -field RADIUS_ATTRIBUTE_PROMPT
 
 Specifies whether the NAS should echo the user response to a challenge. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_CONNECT_INFO
 
 Specifies information about the type of connection the user is using. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_CONFIGURATION_TOKEN
 
 Specifies user-profile information in communications between RADIUS Proxy Servers and RADIUS Proxy Clients. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_EAP_MESSAGE
 
 Specifies that EAP information be sent directly between the user and the authentication provider. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_SIGNATURE
 
 Specifies a signature to include with CHAP, EAP, or ARAP packets. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_TUNNEL_PVT_GROUP_ID
@@ -635,32 +634,32 @@ Relative preference assigned to each tunnel when more than one set of tunneling 
 ### -field RADIUS_ATTRIBUTE_ARAP_CHALLENGE_RESPONSE
 
 Specifies the response to a Apple Remote Access Protocol (ARAP) challenge. In ARAP, either the server or the client responds to challenges. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84059">RFC 2869</a>.
+<a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_ACCT_INTERIM_INTERVAL
 
 Indicates the number of seconds between each interim update for this specific session. This value can only appear in the Access-Accept message. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84056">RFC 2866</a>.
+<a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_NAS_IPv6_ADDRESS
 
-Specifies the IPv6 Address of the NAS that requests authentication of the user. It should be unique to the NAS within the scope of the RADIUS server. It is only used in an Access-Request packet. For more information, see the NAS-IPv6-Address section in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
+Specifies the IPv6 Address of the NAS that requests authentication of the user. It should be unique to the NAS within the scope of the RADIUS server. It is only used in an Access-Request packet. For more information, see the NAS-IPv6-Address section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_INTERFACE_ID
 
 Specifies the IPv6 interface identifier to be
       configured for the user.  It may be used in an Access-Accept packet.
-      For more information, see the Framed-Interface-Id section in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
+      For more information, see the Framed-Interface-Id section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_IPv6_PREFIX
 
 Specifies an IPv6 prefix (and corresponding route)
       to be configured for the user.  It may be used in an Access-Accept
-      packet and can appear multiple times.  For more information, see the Framed-IPv6-Prefix section in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
+      packet and can appear multiple times.  For more information, see the Framed-IPv6-Prefix section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_LOGIN_IPv6_HOST
@@ -668,7 +667,7 @@ Specifies an IPv6 prefix (and corresponding route)
 Specifies the system with which to connect the
       user, when the ratLoginService attribute is included.  It may be
       used in an Access-Accept packet.
-For more information, see the Login-IPv6-Host section in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
+For more information, see the Login-IPv6-Host section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_IPv6_ROUTE
@@ -676,7 +675,7 @@ For more information, see the Login-IPv6-Host section in <a href="http://go.micr
 Specifies routing information to be configured for
       the user on the NAS.  It is used in an Access-Accept packet and
       can appear multiple times.
-For more information, see the Framed-IPv6-Route section in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
+For more information, see the Framed-IPv6-Route section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a>.
 
 
 ### -field RADIUS_ATTRIBUTE_FRAMED_IPv6_POOL
@@ -685,7 +684,7 @@ Specifies the name of an assigned pool that should
       be used to assign an IPv6 prefix for the user.  If a NAS does not
       support multiple prefix pools, the NAS must ignore this attribute.
 
-For more information, see the Framed-IPv6-Pool section in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a>.
+For more information, see the Framed-IPv6-Pool section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a>.
 
 
 ### -field IAS_ATTRIBUTE_SAVED_RADIUS_FRAMED_IP_ADDRESS
@@ -921,13 +920,13 @@ This attribute is reserved for system use.
 ### -field IAS_ATTRIBUTE_REASON_CODE
 
 Specifies an MS-CHAP reason-for-failure code. This attribute is returned in the Failure packet Message field. For more information, see Request for Comments (RFC) 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84041">2433</a>.
+<a href="https://www.ietf.org/rfc/rfc2433.txt">2433</a>.
 
 
 ### -field MS_ATTRIBUTE_FILTER
 
 See Request for Comments (RFC) 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
+<a href="https://www.ietf.org/rfc/rfc2548.txt">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
 
 
 ### -field MS_ATTRIBUTE_CHAP2_RESPONSE
@@ -948,13 +947,13 @@ This attribute is reserved for system use.
 ### -field MS_ATTRIBUTE_RAS_VENDOR
 
 See Request for Comments (RFC) 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
+<a href="https://www.ietf.org/rfc/rfc2548.txt">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
 
 
 ### -field MS_ATTRIBUTE_RAS_VERSION
 
 See Request for Comments (RFC) 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
+<a href="https://www.ietf.org/rfc/rfc2548.txt">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
 
 
 ### -field IAS_ATTRIBUTE_NP_NAME
@@ -965,25 +964,25 @@ This attribute is reserved for system use.
 ### -field MS_ATTRIBUTE_PRIMARY_DNS_SERVER
 
 See Request for Comments (RFC) 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
+<a href="https://www.ietf.org/rfc/rfc2548.txt">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
 
 
 ### -field MS_ATTRIBUTE_SECONDARY_DNS_SERVER
 
 See Request for Comments (RFC) 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
+<a href="https://www.ietf.org/rfc/rfc2548.txt">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
 
 
 ### -field MS_ATTRIBUTE_PRIMARY_NBNS_SERVER
 
 See Request for Comments (RFC) 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
+<a href="https://www.ietf.org/rfc/rfc2548.txt">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
 
 
 ### -field MS_ATTRIBUTE_SECONDARY_NBNS_SERVER
 
 See Request for Comments (RFC) 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84047">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
+<a href="https://www.ietf.org/rfc/rfc2548.txt">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
 
 
 ### -field IAS_ATTRIBUTE_PROXY_POLICY_NAME
@@ -1143,7 +1142,7 @@ Specifies which group of DHCP scopes correspond to the client requesting access.
 
 ### -field MS_ATTRIBUTE_QUARANTINE_USER_CLASS
 
-Vendor-specific attribute used to carry the name of a special DHCP user class, as specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3004</a>, called Network Access Protection (NAP) user class.
+Vendor-specific attribute used to carry the name of a special DHCP user class, as specified in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3004</a>, called Network Access Protection (NAP) user class.
 
 
 ### -field MS_ATTRIBUTE_QUARANTINE_STATE
@@ -1478,7 +1477,7 @@ Specifies the encryption type of the user's connection.
 ### -field RAS_ATTRIBUTE_ENCRYPTION_POLICY
 
 Specifies the whether encryption is Allowed, Required, or None (disallowed). For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84047">RFC 2548</a>.
+<a href="https://www.ietf.org/rfc/rfc2548.txt">RFC 2548</a>.
 
 
 ### -field RAS_ATTRIBUTE_BAP_REQUIRED

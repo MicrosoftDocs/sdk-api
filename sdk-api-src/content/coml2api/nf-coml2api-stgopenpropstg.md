@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: ecc78e49-f1c2-4c2d-8390-b2b6f1dc776e
 ms.date: 12/05/2018
 ms.keywords: StgOpenPropStg, StgOpenPropStg function [Structured Storage], _stg_stgopenpropstg, coml2api/StgOpenPropStg, stg.stgopenpropstg
-ms.topic: function
 f1_keywords:
 - coml2api/StgOpenPropStg
 dev_langs:

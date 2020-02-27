@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 3e460f22-7997-419a-86b7-a0beace1bc27
 ms.date: 12/05/2018
 ms.keywords: GetStrokeLineJoin, GetStrokeLineJoin method [XPS Documents and Packaging], GetStrokeLineJoin method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeLineJoin method, IXpsOMPath.GetStrokeLineJoin, IXpsOMPath::GetStrokeLineJoin, xps.ixpsompath_getstrokelinejoin, xpsobjectmodel/IXpsOMPath::GetStrokeLineJoin
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.GetStrokeLineJoin
 dev_langs:
@@ -120,7 +119,7 @@ For more information about the line join styles, see <a href="https://docs.micro
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

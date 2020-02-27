@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 60a7d83c-cfea-41fa-8d97-321127d33c43
 ms.date: 12/05/2018
 ms.keywords: CFrameworkQuery, CFrameworkQuery class [Windows Management Instrumentation], CFrameworkQuery class [Windows Management Instrumentation],described, _hmm_cframeworkquery, frquery/CFrameworkQuery, wmi.cframeworkquery
-ms.topic: class
 f1_keywords:
 - frquery/CFrameworkQuery
 dev_langs:

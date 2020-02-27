@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: c56b07b5-f595-4933-9af6-868fc8938849
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],Shutdown method, IMFPMediaPlayer.Shutdown, IMFPMediaPlayer::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_shutdown, mfplay/IMFPMediaPlayer::Shutdown
-ms.topic: method
 f1_keywords:
 - mfplay/IMFPMediaPlayer.Shutdown
 dev_langs:

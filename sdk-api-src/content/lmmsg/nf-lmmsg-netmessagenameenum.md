@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: fc1b11e6-294d-47d3-8c63-bee80b5a8581
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetMessageNameEnum, NetMessageNameEnum function [Network Management], _win32_netmessagenameenum, lmmsg/NetMessageNameEnum, netmgmt.netmessagenameenum
-ms.topic: function
 f1_keywords:
 - lmmsg/NetMessageNameEnum
 dev_langs:

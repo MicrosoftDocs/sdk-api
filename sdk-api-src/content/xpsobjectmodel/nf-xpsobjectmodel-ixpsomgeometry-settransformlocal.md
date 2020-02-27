@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: ca4a458d-e2e5-4f8c-aac1-35f5ff91a0d9
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometry interface [XPS Documents and Packaging],SetTransformLocal method, IXpsOMGeometry.SetTransformLocal, IXpsOMGeometry::SetTransformLocal, SetTransformLocal, SetTransformLocal method [XPS Documents and Packaging], SetTransformLocal method [XPS Documents and Packaging],IXpsOMGeometry interface, xps.ixpsomgeometry_settransformlocal, xpsobjectmodel/IXpsOMGeometry::SetTransformLocal
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGeometry.SetTransformLocal
 dev_langs:
@@ -189,7 +188,7 @@ Neither <b>SetTransformLocal</b> nor <a href="https://docs.microsoft.com/windows
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

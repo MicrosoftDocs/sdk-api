@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: fc341828-6491-435e-a20f-c7a4a3c2123d
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_EVENT_PACKAGE_CHANGE, PSECPKG_EVENT_PACKAGE_CHANGE, PSECPKG_EVENT_PACKAGE_CHANGE structure pointer [Security], SECPKG_EVENT_PACKAGE_CHANGE, SECPKG_EVENT_PACKAGE_CHANGE structure [Security], SECPKG_PACKAGE_CHANGE_LOAD, SECPKG_PACKAGE_CHANGE_SELECT, SECPKG_PACKAGE_CHANGE_UNLOAD, _ssp_secpkg_event_package_change, ntsecpkg/PSECPKG_EVENT_PACKAGE_CHANGE, ntsecpkg/SECPKG_EVENT_PACKAGE_CHANGE, security.secpkg_event_package_change'
-ms.topic: struct
 f1_keywords:
 - ntsecpkg/SECPKG_EVENT_PACKAGE_CHANGE
 dev_langs:

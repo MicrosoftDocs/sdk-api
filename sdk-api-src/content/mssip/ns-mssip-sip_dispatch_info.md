@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: d34b5081-0af8-4dcc-8133-a91d0603d419
 ms.date: 12/05/2018
 ms.keywords: '*LPSIP_DISPATCH_INFO, PSIP_DISPATCH_INFO, PSIP_DISPATCH_INFO structure pointer [Security], SIP_DISPATCH_INFO, SIP_DISPATCH_INFO structure [Security], mssip/PSIP_DISPATCH_INFO, mssip/SIP_DISPATCH_INFO, security.sip_dispatch_info'
-ms.topic: struct
 f1_keywords:
 - mssip/SIP_DISPATCH_INFO
 dev_langs:
@@ -97,7 +96,7 @@ A pointer to the function that removes the signed data for the subject. The sign
 
 
 
-Your application must initialize this structure to binary zeros and set <b>cbSize</b> to <code>sizeof(SIP_DISPATCH_INFO)</code> by calling the <a href="http://go.microsoft.com/fwlink/p/?linkid=106519">memset</a> function before calling the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipload">CryptSIPLoad</a> function. Your application can use the function pointers in the returned <b>SIP_DISPATCH_INFO</b> structure to perform the necessary SIP operations.   The function pointers can point to functions exported by third party SIPs.
+Your application must initialize this structure to binary zeros and set <b>cbSize</b> to <code>sizeof(SIP_DISPATCH_INFO)</code> by calling the <a href="https://msdn.microsoft.com/library/1fdeehz6.aspx">memset</a> function before calling the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipload">CryptSIPLoad</a> function. Your application can use the function pointers in the returned <b>SIP_DISPATCH_INFO</b> structure to perform the necessary SIP operations.   The function pointers can point to functions exported by third party SIPs.
 
 
 

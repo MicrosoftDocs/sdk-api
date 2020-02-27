@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 1cd10189-8f36-4bcb-95e9-35064e70fdf8
 ms.date: 12/05/2018
 ms.keywords: GetInterfaces, GetInterfaces method [Microsoft Broadband Networks], GetInterfaces method [Microsoft Broadband Networks],IMbnInterfaceManager interface, IMbnInterfaceManager interface [Microsoft Broadband Networks],GetInterfaces method, IMbnInterfaceManager.GetInterfaces, IMbnInterfaceManager::GetInterfaces, mbn.imbninterfacemanager_getinterfaces, mbnapi/IMbnInterfaceManager::GetInterfaces
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnInterfaceManager.GetInterfaces
 dev_langs:
@@ -62,7 +61,7 @@ Gets a list of all available <a href="https://docs.microsoft.com/windows/desktop
 
 ### -param mbnInterfaces [out, retval]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a> interfaces that are associated with the device.  If this method returns anything other than <b>S_OK</b>, then this is <b>NULL</b>.  Otherwise the calling application must free the allocated memory by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=121490">SafeArrayDestroy</a>.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a> interfaces that are associated with the device.  If this method returns anything other than <b>S_OK</b>, then this is <b>NULL</b>.  Otherwise the calling application must free the allocated memory by calling <a href="https://msdn.microsoft.com/library/ms221702.aspx">SafeArrayDestroy</a>.
 
 
 ## -returns

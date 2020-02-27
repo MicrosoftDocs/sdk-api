@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 12860254-4658-4e0d-ad00-7e25875037bf
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],InstallMultipleEventClasses method, ICOMAdminCatalog.InstallMultipleEventClasses, ICOMAdminCatalog::InstallMultipleEventClasses, InstallMultipleEventClasses, InstallMultipleEventClasses method [COM+], InstallMultipleEventClasses method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallMultipleEventClasses, comadmin/ICOMAdminCatalog::InstallMultipleEventClasses, cos.icomadmincatalog_installmultipleeventclasses
-ms.topic: method
 f1_keywords:
 - comadmin/ICOMAdminCatalog.InstallMultipleEventClasses
 dev_langs:

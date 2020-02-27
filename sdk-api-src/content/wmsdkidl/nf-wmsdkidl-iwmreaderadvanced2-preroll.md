@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: c216adf1-390c-45cc-acae-645fe29f55de
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],Preroll method, IWMReaderAdvanced2.Preroll, IWMReaderAdvanced2::Preroll, IWMReaderAdvanced2Preroll, Preroll, Preroll method [windows Media Format], Preroll method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_preroll, wmsdkidl/IWMReaderAdvanced2::Preroll
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced2.Preroll
 dev_langs:

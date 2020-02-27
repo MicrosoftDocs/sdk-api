@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 8AE55B74-8AC3-4F13-8FEE-7C3C52DEE96F
 ms.date: 12/05/2018
 ms.keywords: IActivatableClassRegistration interface [Windows Runtime],get_ActivatableClassId method, IActivatableClassRegistration.get_ActivatableClassId, IActivatableClassRegistration::get_ActivatableClassId, activationregistration/IActivatableClassRegistration::get_ActivatableClassId, get_ActivatableClassId, get_ActivatableClassId method [Windows Runtime], get_ActivatableClassId method [Windows Runtime],IActivatableClassRegistration interface, winrt.iactivatableclassregistration_activatableclassid
-ms.topic: method
 f1_keywords:
 - activationregistration/IActivatableClassRegistration.get_ActivatableClassId
 dev_langs:

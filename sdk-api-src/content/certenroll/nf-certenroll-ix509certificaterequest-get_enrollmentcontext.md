@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: ea0fa54d-0de6-4578-b93a-1e399101006b
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, EnrollmentContext property [Security], EnrollmentContext property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],EnrollmentContext property, IX509CertificateRequest.EnrollmentContext, IX509CertificateRequest.get_EnrollmentContext, IX509CertificateRequest::EnrollmentContext, IX509CertificateRequest::get_EnrollmentContext, certenroll/IX509CertificateRequest::EnrollmentContext, certenroll/IX509CertificateRequest::get_EnrollmentContext, get_EnrollmentContext, security.ix509certificaterequest_enrollmentcontext_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509CertificateRequest.EnrollmentContext
 dev_langs:

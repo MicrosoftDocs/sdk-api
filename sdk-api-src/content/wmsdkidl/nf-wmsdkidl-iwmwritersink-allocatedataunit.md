@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 56a16163-84e7-4235-8bf3-03e81696bb63
 ms.date: 12/05/2018
 ms.keywords: AllocateDataUnit, AllocateDataUnit method [windows Media Format], AllocateDataUnit method [windows Media Format],IWMWriterSink interface, IWMWriterSink interface [windows Media Format],AllocateDataUnit method, IWMWriterSink.AllocateDataUnit, IWMWriterSink::AllocateDataUnit, IWMWriterSinkAllocateDataUnit, wmformat.iwmwritersink_allocatedataunit, wmsdkidl/IWMWriterSink::AllocateDataUnit
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriterSink.AllocateDataUnit
 dev_langs:

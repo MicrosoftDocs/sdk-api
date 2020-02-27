@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 8e78e0ef-e68c-4270-8c63-9513f3069ed0
 ms.date: 12/05/2018
 ms.keywords: SymGetSymbolFile, SymGetSymbolFile function, SymGetSymbolFileW, base.symgetsymbolfile, dbghelp/SymGetSymbolFile, dbghelp/SymGetSymbolFileW, sfDbg, sfImage, sfMpd, sfPdb
-ms.topic: function
 f1_keywords:
 - dbghelp/SymGetSymbolFile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: eed7fffa-a48c-4ebc-ba3a-a118d2b0e20b
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_FILTER_ADD_INFO, DHCP_FILTER_ADD_INFO, DHCP_FILTER_ADD_INFO structure [DHCP], PDHCP_FILTER_ADD_INFO, PDHCP_FILTER_ADD_INFO structure pointer [DHCP], dhcp.dhcp_filter_add_info, dhcpsapi/DHCP_FILTER_ADD_INFO, dhcpsapi/PDHCP_FILTER_ADD_INFO'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_FILTER_ADD_INFO
 dev_langs:

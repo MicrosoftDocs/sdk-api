@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 08efcbec-ce17-44e8-a3c1-4b5b95dcaaa4
 ms.date: 12/05/2018
 ms.keywords: IQueueCommand, IQueueCommand interface [DirectShow], IQueueCommand interface [DirectShow],described, IQueueCommandInterface, control/IQueueCommand, dshow.iqueuecommand
-ms.topic: interface
 f1_keywords:
 - control/IQueueCommand
 dev_langs:

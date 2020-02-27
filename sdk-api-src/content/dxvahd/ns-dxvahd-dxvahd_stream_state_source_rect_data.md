@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 51f2cfe6-722b-4273-abf6-e1b8fdec9808
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_SOURCE_RECT_DATA, DXVAHD_STREAM_STATE_SOURCE_RECT_DATA structure [Media Foundation], FALSE, TRUE, dxvahd/DXVAHD_STREAM_STATE_SOURCE_RECT_DATA, mf.dxvahd_stream_state_source_rect_data
-ms.topic: struct
 f1_keywords:
 - dxvahd/DXVAHD_STREAM_STATE_SOURCE_RECT_DATA
 dev_langs:

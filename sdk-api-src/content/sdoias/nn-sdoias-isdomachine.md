@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: 11372116-56eb-4d8e-8f28-4402835ee903
 ms.date: 12/05/2018
 ms.keywords: ISdoMachine, ISdoMachine interface [Network Policy Server], ISdoMachine interface [Network Policy Server],described, _sdo_isdomachine, nps.SDO_isdomachine, sdo.isdomachine, sdoias/ISdoMachine
-ms.topic: interface
 f1_keywords:
 - sdoias/ISdoMachine
 dev_langs:

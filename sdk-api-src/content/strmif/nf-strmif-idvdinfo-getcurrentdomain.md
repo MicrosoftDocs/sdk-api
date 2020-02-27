@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 35f173d5-fb8f-47e2-ab32-87fdb197710a
 ms.date: 12/05/2018
 ms.keywords: GetCurrentDomain, GetCurrentDomain method [DirectShow], GetCurrentDomain method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentDomain method, IDvdInfo.GetCurrentDomain, IDvdInfo::GetCurrentDomain, IDvdInfoGetCurrentDomain, dshow.idvdinfo_getcurrentdomain, strmif/IDvdInfo::GetCurrentDomain
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo.GetCurrentDomain
 dev_langs:
@@ -65,7 +64,7 @@ Retrieves the current DVD domain of the DVD player.
 
 ### -param pDomain [out]
 
-Pointer to the current domain that is a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a> enumerated type.
+Pointer to the current domain that is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a> enumerated type.
 
 
 ## -returns
@@ -111,7 +110,7 @@ Requested action cannot occur at this point in the movie due to the authoring of
 
 
 
-This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

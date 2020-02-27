@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 81dd4925-7f0a-468f-b706-244ce99e91df
 ms.date: 12/05/2018
 ms.keywords: BluetoothAuthenticateMultipleDevices, BluetoothAuthenticateMultipleDevices function [Bluetooth], bluetooth.bluetoothauthenticatemultipledevices, bluetoothapis/BluetoothAuthenticateMultipleDevices
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothAuthenticateMultipleDevices
 dev_langs:

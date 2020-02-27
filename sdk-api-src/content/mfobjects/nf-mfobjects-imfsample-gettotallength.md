@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e0dfc1d2-ec78-4d1c-992d-3a876b600ca6
 ms.date: 12/05/2018
 ms.keywords: GetTotalLength, GetTotalLength method [Media Foundation], GetTotalLength method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetTotalLength method, IMFSample.GetTotalLength, IMFSample::GetTotalLength, e0dfc1d2-ec78-4d1c-992d-3a876b600ca6, mf.imfsample_gettotallength, mfobjects/IMFSample::GetTotalLength
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFSample.GetTotalLength
 dev_langs:

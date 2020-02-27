@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6fb735b6-a8c3-439e-9f20-4fda8f008b28
 ms.date: 12/05/2018
 ms.keywords: ILLoadFromStreamEx, ILLoadFromStreamEx function [Windows Shell], ILLoadFromStreamEx(IStream*,PIDLIST_ABSOLUTE*), _shell_ILLoadFromStreamEx_IStream_PIDLIST_ABSOLUTE, shell.ILLoadFromStreamEx_IStream_PIDLIST_ABSOLUTE, shlobj_core/ILLoadFromStreamEx
-ms.topic: function
 f1_keywords:
 - shlobj_core/ILLoadFromStreamEx
 dev_langs:

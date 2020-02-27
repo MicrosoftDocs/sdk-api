@@ -7,7 +7,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropproblem.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPSPropProblem, SPropProblem, SPropProblem structure [Windows Address Book], _wab_SPropProblem, wab._wab_SPropProblem, wabdefs/SPropProblem'
-ms.topic: struct
 f1_keywords:
 - wabdefs/SPropProblem
 dev_langs:

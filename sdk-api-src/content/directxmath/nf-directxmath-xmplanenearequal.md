@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneNearEqual(XMVECTOR,XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneNearEqual, XMPlaneNearEqual, XMPlaneNearEqual method [DirectX Math Support APIs], dxmath.xmplanenearequal
-ms.topic: function
 f1_keywords:
 - directxmath/XMPlaneNearEqual
 dev_langs:

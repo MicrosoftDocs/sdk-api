@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5ss3_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: Folders property [Fax Service], Folders property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Folders property, IFaxServer.Folders, IFaxServer.get_Folders, IFaxServer::Folders, IFaxServer::get_Folders, _mfax_faxserver.folders_cpp, fax._mfax_faxserver_folders_cpp, faxcomex/IFaxServer::Folders, faxcomex/IFaxServer::get_Folders, get_Folders
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxServer.Folders
 dev_langs:

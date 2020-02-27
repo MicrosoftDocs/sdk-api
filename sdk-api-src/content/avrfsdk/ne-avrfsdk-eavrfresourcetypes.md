@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 6887e584-0d0f-45ca-b926-47a55f19c9a2
 ms.date: 12/05/2018
 ms.keywords: AvrfResourceHandleTrace, AvrfResourceHeapAllocation, AvrfResourceMax, avrfsdk/AvrfResourceHandleTrace, avrfsdk/AvrfResourceHeapAllocation, avrfsdk/AvrfResourceMax, avrfsdk/eAvrfResourceTypes, base.eavrfresourcetypes, eAvrfResourceTypes, eAvrfResourceTypes enumeration [Windows API], winprog.eavrfresourcetypes
-ms.topic: enum
 f1_keywords:
 - avrfsdk/eAvrfResourceTypes
 dev_langs:

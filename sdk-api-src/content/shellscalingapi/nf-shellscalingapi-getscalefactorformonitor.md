@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2F214512-704D-41A2-86A6-1EF880CD3DB4
 ms.date: 12/05/2018
 ms.keywords: GetScaleFactorForMonitor, GetScaleFactorForMonitor function [Windows Shell], shell.GetScaleFactorForMonitor, shellscalingapi/GetScaleFactorForMonitor
-ms.topic: function
 f1_keywords:
 - shellscalingapi/GetScaleFactorForMonitor
 dev_langs:

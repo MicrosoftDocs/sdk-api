@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: C198FCCA-E1C5-4B03-8F42-7EE1952DC055
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_GET_INFO, IOCTL_PWM_CONTROLLER_GET_INFO control, IOCTL_PWM_CONTROLLER_GET_INFO control code, base.ioctl_pwm_controller_get_info, pwm/IOCTL_PWM_CONTROLLER_GET_INFO
-ms.topic: ioctl
 f1_keywords:
 - pwm/IOCTL_PWM_CONTROLLER_GET_INFO
 dev_langs:

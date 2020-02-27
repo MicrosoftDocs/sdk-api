@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3ee6ec69-5d16-4bdd-a591-651af05bf944
 ms.date: 12/05/2018
 ms.keywords: SHRegSetPath, SHRegSetPath function [Windows Shell], SHRegSetPathA, SHRegSetPathW, _win32_SHRegSetPath, shell.SHRegSetPath, shlwapi/SHRegSetPath, shlwapi/SHRegSetPathA, shlwapi/SHRegSetPathW
-ms.topic: function
 f1_keywords:
 - shlwapi/SHRegSetPath
 dev_langs:

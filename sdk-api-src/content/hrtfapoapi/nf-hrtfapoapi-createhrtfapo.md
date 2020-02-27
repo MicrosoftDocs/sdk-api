@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: 24E3CD0D-FC0D-4B1B-961F-BE48935F7B71
 ms.date: 12/05/2018
 ms.keywords: CreateHrtfApo, CreateHrtfApo function [XAudio2 Audio Mixing APIs], hrtfapoapi/CreateHrtfApo, xaudio2.createhrtfapo
-ms.topic: function
 f1_keywords:
 - hrtfapoapi/CreateHrtfApo
 dev_langs:

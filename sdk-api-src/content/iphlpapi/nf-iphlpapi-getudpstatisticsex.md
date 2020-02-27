@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 9de7fa95-6bda-4fcc-b563-aed2e61fc1c7
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, GetUdpStatisticsEx, GetUdpStatisticsEx function [IP Helper], _iphlp_getudpstatisticsex, iphlp.getudpstatisticsex, iphlpapi/GetUdpStatisticsEx
-ms.topic: function
 f1_keywords:
 - iphlpapi/GetUdpStatisticsEx
 dev_langs:

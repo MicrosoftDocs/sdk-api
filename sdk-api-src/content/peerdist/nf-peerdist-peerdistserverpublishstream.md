@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 2133e578-f89d-4cfd-a522-12c2531babaa
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerPublishStream, PeerDistServerPublishStream function [Peer Networking], p2p.peerdistserverpublishstream, peerdist/PeerDistServerPublishStream
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistServerPublishStream
 dev_langs:
@@ -90,7 +89,7 @@ A handle to the completion port that can be used for retrieving the completion n
 
 ### -param ulCompletionKey [in, optional]
 
-Value  returned through the <i>lpCompletionKey</i> parameter of the <a href="http://go.microsoft.com/fwlink/p/?linkid=131008">GetQueuedCompletionStatus</a> function. This parameter is ignored when <i>hCompletionPort</i> is <b>NULL</b>.
+Value  returned through the <i>lpCompletionKey</i> parameter of the <a href="https://msdn.microsoft.com/library/aa364986.aspx">GetQueuedCompletionStatus</a> function. This parameter is ignored when <i>hCompletionPort</i> is <b>NULL</b>.
 
 
 ### -param phStream [out]

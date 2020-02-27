@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 67360904-a632-43cf-9f67-50bbdbb62f48
 ms.date: 12/05/2018
 ms.keywords: GetAllocatorProperties, GetAllocatorProperties method [TAPI 2.2], GetAllocatorProperties method [TAPI 2.2],ITAllocatorProperties interface, ITAllocatorProperties interface [TAPI 2.2],GetAllocatorProperties method, ITAllocatorProperties.GetAllocatorProperties, ITAllocatorProperties::GetAllocatorProperties, _tapi3_itallocatorproperties_getallocatorproperties, tapi3.itallocatorproperties_getallocatorproperties, tapi3ds/ITAllocatorProperties::GetAllocatorProperties
-ms.topic: method
 f1_keywords:
 - tapi3/ITAllocatorProperties.GetAllocatorProperties
 dev_langs:

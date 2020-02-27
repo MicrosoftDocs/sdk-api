@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: d82cb1cd-a9bd-45e8-8a86-2c7dd860b987
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelClose, WTSVirtualChannelClose function [Remote Desktop Services], _win32_wtsvirtualchannelclose, termserv.wtsvirtualchannelclose, wtsapi32/WTSVirtualChannelClose
-ms.topic: function
 f1_keywords:
 - wtsapi32/WTSVirtualChannelClose
 dev_langs:

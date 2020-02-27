@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: 1fb2d5d8-82b8-4c51-a086-bdcad33da190
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceEventCallback, IPortableDeviceEventCallback interface [Windows Portable Devices SDK], IPortableDeviceEventCallback interface [Windows Portable Devices SDK],described, IPortableDeviceEventCallbackInterface, portabledeviceapi/IPortableDeviceEventCallback, wpdsdk.iportabledeviceeventcallback
-ms.topic: interface
 f1_keywords:
 - portabledeviceapi/IPortableDeviceEventCallback
 dev_langs:

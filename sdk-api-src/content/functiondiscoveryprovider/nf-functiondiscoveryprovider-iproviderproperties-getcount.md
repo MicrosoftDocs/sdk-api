@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: 25ed5782-c19e-4c3d-81f1-74e0ea3e195e
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IProviderProperties interface, IProviderProperties interface,GetCount method, IProviderProperties.GetCount, IProviderProperties::GetCount, functiondiscoveryprovider/IProviderProperties::GetCount, ncd.iproviderproperties_getcount_method
-ms.topic: method
 f1_keywords:
 - functiondiscoveryprovider/IProviderProperties.GetCount
 dev_langs:

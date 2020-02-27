@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\genericserif.htm
 ms.date: 12/05/2018
 ms.keywords: FontFamily class [GDI+],GenericSerif method, FontFamily.GenericSerif, FontFamily::GenericSerif, GenericSerif, GenericSerif method [GDI+], GenericSerif method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GenericSerif_, gdiplus._gdiplus_CLASS_FontFamily_GenericSerif_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/FontFamily.GenericSerif
 dev_langs:

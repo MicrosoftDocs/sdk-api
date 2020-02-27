@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: ba21b680-78a8-45a2-94e1-01b377b74787
 ms.date: 12/05/2018
 ms.keywords: Escape, Escape function [Windows GDI], _win32_Escape_v3, gdi.escape, wingdi/Escape
-ms.topic: function
 f1_keywords:
 - wingdi/Escape
 dev_langs:

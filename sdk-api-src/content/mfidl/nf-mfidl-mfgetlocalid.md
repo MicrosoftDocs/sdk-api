@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 24EA8907-9EBF-42FF-8823-05D48E27F9EA
 ms.date: 12/05/2018
 ms.keywords: MFGetLocalId, MFGetLocalId function [Media Foundation], mf.mfgetlocalid, mfidl/MFGetLocalId
-ms.topic: function
 f1_keywords:
 - mfidl/MFGetLocalId
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: e064edee-7b13-4fbe-8be9-a8bdfc1cae79
 ms.date: 12/05/2018
 ms.keywords: _win32_waveInClose, mmeapi/waveInClose, multimedia.waveinclose, waveInClose, waveInClose function [Windows Multimedia]
-ms.topic: function
 f1_keywords:
 - mmeapi/waveInClose
 dev_langs:

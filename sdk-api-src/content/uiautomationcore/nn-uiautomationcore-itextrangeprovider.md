@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: dd14e608-1d21-4527-8b82-dba64ed04fda
 ms.date: 12/05/2018
 ms.keywords: ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], ITextRangeProvider interface [Windows Accessibility],described, uiauto.uiauto_ITextRangeProvider, uiauto_ITextRangeProvider, uiautomationcore/ITextRangeProvider, winauto.uiauto_ITextRangeProvider
-ms.topic: interface
 f1_keywords:
 - uiautomationcore/ITextRangeProvider
 dev_langs:

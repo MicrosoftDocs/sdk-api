@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: bac49a2d-4357-4607-a89d-d2ed4abf89bb
 ms.date: 12/05/2018
 ms.keywords: IAccessibleObject, IAccessibleObject interface [Windows Shell], IAccessibleObject interface [Windows Shell],described, _shell_IAccessibleObject, shell.IAccessibleObject, shobjidl/IAccessibleObject
-ms.topic: interface
 f1_keywords:
 - shobjidl/IAccessibleObject
 dev_langs:

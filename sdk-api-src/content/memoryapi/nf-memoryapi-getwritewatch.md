@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: fa1426fe-4a1d-4300-b6f3-3e9e2272b8d3
 ms.date: 12/05/2018
 ms.keywords: GetWriteWatch, GetWriteWatch function, _win32_getwritewatch, base.getwritewatch, winbase/GetWriteWatch
-ms.topic: function
 f1_keywords:
 - memoryapi/GetWriteWatch
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 791fbb3c-6b73-490c-a69b-ba58fd386de4
 ms.date: 12/05/2018
 ms.keywords: BindIfRunning, BindIfRunning method [COM], BindIfRunning method [COM],IOleLink interface, IOleLink interface [COM],BindIfRunning method, IOleLink.BindIfRunning, IOleLink::BindIfRunning, _ole_iolelink_bindifrunning, com.iolelink_bindifrunning, oleidl/IOleLink::BindIfRunning
-ms.topic: method
 f1_keywords:
 - oleidl/IOleLink.BindIfRunning
 dev_langs:

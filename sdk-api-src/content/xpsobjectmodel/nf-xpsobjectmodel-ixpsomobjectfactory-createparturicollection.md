@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 1127a314-43c8-43a2-a06e-88858a43c519
 ms.date: 12/05/2018
 ms.keywords: CreatePartUriCollection, CreatePartUriCollection method [XPS Documents and Packaging], CreatePartUriCollection method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePartUriCollection method, IXpsOMObjectFactory.CreatePartUriCollection, IXpsOMObjectFactory::CreatePartUriCollection, xps.ixpsomobjectfactory_createparturicollection, xpsobjectmodel/IXpsOMObjectFactory::CreatePartUriCollection
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreatePartUriCollection
 dev_langs:
@@ -119,7 +118,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

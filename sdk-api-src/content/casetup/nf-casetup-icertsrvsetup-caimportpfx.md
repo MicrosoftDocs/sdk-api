@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: a661b74b-04ba-49b9-bde2-3e368ae6228e
 ms.date: 12/05/2018
 ms.keywords: CAImportPFX, CAImportPFX method [Security], CAImportPFX method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],CAImportPFX method, ICertSrvSetup.CAImportPFX, ICertSrvSetup::CAImportPFX, casetup/ICertSrvSetup::CAImportPFX, security.icertsrvsetup_caimportpfx
-ms.topic: method
 f1_keywords:
 - casetup/ICertSrvSetup.CAImportPFX
 dev_langs:
@@ -91,7 +90,7 @@ The <b>CAImportPFX</b> method uses the input parameters to decrypt and decode a 
 <li>Passes chain validation but might have an offline revocation error.
 </li>
 </ul>
-If the PFX file contains multiple certificates and keys, <b>CAImportPFX</b> installs all of the certificates and keys; however, the returned <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object only contains properties of the last CA certificate in the file. When the caller finishes using the <b>ICertSrvSetupKeyInformation</b> object, the caller must release it by using the <a href="http://go.microsoft.com/fwlink/p/?linkid=96732">Release</a> method.
+If the PFX file contains multiple certificates and keys, <b>CAImportPFX</b> installs all of the certificates and keys; however, the returned <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object only contains properties of the last CA certificate in the file. When the caller finishes using the <b>ICertSrvSetupKeyInformation</b> object, the caller must release it by using the <a href="https://msdn.microsoft.com/library/ms682317.aspx">Release</a> method.
 
 
 

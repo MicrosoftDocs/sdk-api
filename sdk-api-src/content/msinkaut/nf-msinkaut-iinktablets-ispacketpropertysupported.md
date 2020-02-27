@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: f83caf4a-b8ca-4cee-9060-679128a1bd77
 ms.date: 12/05/2018
 ms.keywords: 4bf2e2b0-d45a-4392-990e-5e9320333c0b, IInkTablets interface [Tablet PC],IsPacketPropertySupported method, IInkTablets.IsPacketPropertySupported, IInkTablets::IsPacketPropertySupported, IsPacketPropertySupported, IsPacketPropertySupported method [Tablet PC], IsPacketPropertySupported method [Tablet PC],IInkTablets interface, msinkaut/IInkTablets::IsPacketPropertySupported, tablet.inktablets_ispacketpropertysupported
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkTablets.IsPacketPropertySupported
 dev_langs:

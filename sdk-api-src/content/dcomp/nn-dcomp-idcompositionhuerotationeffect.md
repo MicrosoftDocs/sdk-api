@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: BD11C779-78C6-4961-9DF1-2521B8F91FF5
 ms.date: 12/05/2018
 ms.keywords: IDCompositionHueRotationEffect, IDCompositionHueRotationEffect interface [DirectComposition], IDCompositionHueRotationEffect interface [DirectComposition],described, dcomp/IDCompositionHueRotationEffect, directcomp.idcompositionhuerotationeffect
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionHueRotationEffect
 dev_langs:

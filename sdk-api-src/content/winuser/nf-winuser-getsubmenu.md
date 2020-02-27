@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getsubmenu.htm
 ms.date: 12/05/2018
 ms.keywords: GetSubMenu, GetSubMenu function [Menus and Other Resources], _win32_GetSubMenu, _win32_getsubmenu_cpp, menurc.getsubmenu, winui._win32_getsubmenu, winuser/GetSubMenu
-ms.topic: function
 f1_keywords:
 - winuser/GetSubMenu
 dev_langs:

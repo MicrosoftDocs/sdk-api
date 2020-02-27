@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: c1e18e97-e8d3-441c-b7ea-6743e478033b
 ms.date: 12/05/2018
 ms.keywords: IComponents interface [Microsoft TV Technologies],put_Item method, IComponents.put_Item, IComponents::put_Item, IComponentsput_Item, mstv.icomponents_put_item, put_Item, put_Item method [Microsoft TV Technologies], put_Item method [Microsoft TV Technologies],IComponents interface, tuner/IComponents::put_Item
-ms.topic: method
 f1_keywords:
 - tuner/IComponents.put_Item
 dev_langs:

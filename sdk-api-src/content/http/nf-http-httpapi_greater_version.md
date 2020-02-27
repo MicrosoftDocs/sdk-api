@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: e70500dd-e750-437c-8652-280f9cc9de1d
 ms.date: 12/05/2018
 ms.keywords: HTTPAPI_GREATER_VERSION, HTTPAPI_GREATER_VERSION macro [HTTP], http.httpapi_greater_version, http/HTTPAPI_GREATER_VERSION
-ms.topic: macro
 f1_keywords:
 - http/HTTP_GREATER_VERSION
 dev_langs:

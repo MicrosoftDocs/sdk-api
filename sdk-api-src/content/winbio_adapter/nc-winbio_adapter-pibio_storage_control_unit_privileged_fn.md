@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 42e33817-df5f-4598-bc6a-94e49ce5fca4
 ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_CONTROL_UNIT_PRIVILEGED_FN, PIBIO_STORAGE_CONTROL_UNIT_PRIVILEGED_FN callback, StorageAdapterControlUnitPrivileged, StorageAdapterControlUnitPrivileged callback function [Windows Biometric Framework API], secbiomet.storageadaptercontrolunitprivileged, winbio_adapter/StorageAdapterControlUnitPrivileged
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterControlUnitPrivileged
 dev_langs:

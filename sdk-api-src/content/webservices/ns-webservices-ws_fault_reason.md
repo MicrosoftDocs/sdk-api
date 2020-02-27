@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 70ec3d18-00ab-4dde-8a8a-b200eda44acd
 ms.date: 12/05/2018
 ms.keywords: WS_FAULT_REASON, WS_FAULT_REASON structure [Web Services for Windows], webservices/WS_FAULT_REASON, wsw.ws_fault_reason
-ms.topic: struct
 f1_keywords:
 - webservices/WS_FAULT_REASON
 dev_langs:
@@ -70,6 +69,6 @@ The language identifier that identifies the language of the text.
                 
 
 The identifier is serialized using the xml:lang attribute, and has
-                    values that follow <a href="http://go.microsoft.com/fwlink/p/?linkid=139708">RFC3066.txt</a>. 
+                    values that follow <a href="https://www.ietf.org/rfc/rfc3066.txt">RFC3066.txt</a>. 
                 
 

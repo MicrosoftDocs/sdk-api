@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorHermite(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorHermite, XMVectorHermite, XMVectorHermite method [DirectX Math Support APIs], dxmath.xmvectorhermite
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorHermite
 dev_langs:

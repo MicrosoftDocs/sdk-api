@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 1ad28066-dcec-4dd4-896d-e009e6827ea3
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImagePath, WdsCliGetImagePath function [Windows Deployment Services], wds.wdscligetimagepath, wdsclientapi/WdsCliGetImagePath
-ms.topic: function
 f1_keywords:
 - wdsclientapi/WdsCliGetImagePath
 dev_langs:

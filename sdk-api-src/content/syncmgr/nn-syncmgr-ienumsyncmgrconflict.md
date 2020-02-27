@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 627f39be-5c9d-49a1-af73-210cdbb7940a
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrConflict, IEnumSyncMgrConflict interface [Windows Shell], IEnumSyncMgrConflict interface [Windows Shell],described, _shell_IEnumSyncMgrConflict, shell.IEnumSyncMgrConflict, syncmgr/IEnumSyncMgrConflict
-ms.topic: interface
 f1_keywords:
 - syncmgr/IEnumSyncMgrConflict
 dev_langs:

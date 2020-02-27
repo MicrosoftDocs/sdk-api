@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 1a959da7-5fdb-4749-a4be-5d44e80ca2ea
 ms.date: 12/05/2018
 ms.keywords: RestoreMediaSense, RestoreMediaSense function [IP Helper], iphlp.restoremediasense, iphlpapi/RestoreMediaSense
-ms.topic: function
 f1_keywords:
 - iphlpapi/RestoreMediaSense
 dev_langs:

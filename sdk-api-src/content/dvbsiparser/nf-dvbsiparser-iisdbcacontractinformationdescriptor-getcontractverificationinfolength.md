@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: a7000edd-72a1-4979-b603-a42eecc691d7
 ms.date: 12/05/2018
 ms.keywords: GetContractVerificationInfoLength, GetContractVerificationInfoLength method [Microsoft TV Technologies], GetContractVerificationInfoLength method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetContractVerificationInfoLength method, IIsdbCAContractInformationDescriptor.GetContractVerificationInfoLength, IIsdbCAContractInformationDescriptor::GetContractVerificationInfoLength, dvbsiparser/IIsdbCAContractInformationDescriptor::GetContractVerificationInfoLength, mstv.iisdbcacontractinformationdescriptor_getcontractverificationinfolength
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbCAContractInformationDescriptor.GetContractVerificationInfoLength
 dev_langs:

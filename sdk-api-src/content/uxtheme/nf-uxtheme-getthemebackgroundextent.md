@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebackgroundextent.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeBackgroundExtent, GetThemeBackgroundExtent function [Windows Controls], controls.GetThemeBackgroundExtent, controls.inet_GetThemeBackgroundExtent, inet_GetThemeBackgroundExtent, inet_GetThemeBackgroundExtent_cpp, uxtheme/GetThemeBackgroundExtent
-ms.topic: function
 f1_keywords:
 - uxtheme/GetThemeBackgroundExtent
 dev_langs:

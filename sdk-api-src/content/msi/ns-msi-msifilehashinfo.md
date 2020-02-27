@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: b4176b5b-149d-4542-9a6c-27281877a3ff
 ms.date: 12/05/2018
 ms.keywords: '*PMSIFILEHASHINFO, MSIFILEHASHINFO, MSIFILEHASHINFO structure, PMSIFILEHASHINFO, PMSIFILEHASHINFO structure pointer, _msi_msifilehashinfo, msi/MSIFILEHASHINFO, msi/PMSIFILEHASHINFO, setup.msifilehashinfo'
-ms.topic: struct
 f1_keywords:
 - msi/MSIFILEHASHINFO
 dev_langs:

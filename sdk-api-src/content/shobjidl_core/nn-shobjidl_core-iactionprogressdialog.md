@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f3c0e4ae-f93f-4ee2-873a-d9370044e922
 ms.date: 12/05/2018
 ms.keywords: IActionProgressDialog, IActionProgressDialog interface [Windows Shell], IActionProgressDialog interface [Windows Shell],described, _shell_IActionProgressDialog, shell.IActionProgressDialog, shobjidl_core/IActionProgressDialog
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IActionProgressDialog
 dev_langs:

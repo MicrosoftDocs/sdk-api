@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 37f9dc58-362d-413e-a593-4dda52fb7d8b
 ms.date: 12/05/2018
 ms.keywords: ResolveIpNetEntry2, ResolveIpNetEntry2 function [IP Helper], iphlp.resolveipnetentry2, netioapi/ResolveIpNetEntry2
-ms.topic: function
 f1_keywords:
 - netioapi/ResolveIpNetEntry2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d7ea638d-f95c-4d72-8f55-cbb6a7d1ae8d
 ms.date: 12/05/2018
 ms.keywords: AddPage, AddPage method [XPS Documents and Packaging], AddPage method [XPS Documents and Packaging],IXpsOMPackageWriter interface, AddPage method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, IXpsOMPackageWriter interface [XPS Documents and Packaging],AddPage method, IXpsOMPackageWriter.AddPage, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],AddPage method, IXpsOMPackageWriter3D::AddPage, IXpsOMPackageWriter::AddPage, xps.ixpsompackagewriter_addpage, xpsobjectmodel/IXpsOMPackageWriter3D::AddPage, xpsobjectmodel/IXpsOMPackageWriter::AddPage
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPackageWriter.AddPage
 dev_langs:
@@ -214,7 +213,7 @@ If <i>pagePrintTicket</i> contains a <b>NULL</b> pointer and the package writer 
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

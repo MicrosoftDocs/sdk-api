@@ -7,7 +7,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\toasciiex.htm
 ms.date: 12/05/2018
 ms.keywords: ToAsciiEx, ToAsciiEx function [Keyboard and Mouse Input], _win32_ToAsciiEx, _win32_toasciiex_cpp, inputdev.toasciiex, winui._win32_toasciiex, winuser/ToAsciiEx
-ms.topic: function
 f1_keywords:
 - winuser/ToAsciiEx
 dev_langs:

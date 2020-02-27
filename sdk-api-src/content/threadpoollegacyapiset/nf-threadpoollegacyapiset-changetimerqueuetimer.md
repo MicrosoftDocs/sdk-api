@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 251a9a18-f98c-4334-a333-3c73638d7d93
 ms.date: 12/05/2018
 ms.keywords: ChangeTimerQueueTimer, ChangeTimerQueueTimer function, _win32_changetimerqueuetimer, base.changetimerqueuetimer, threadpoollegacyapiset/ChangeTimerQueueTimer, winbase/ChangeTimerQueueTimer
-ms.topic: function
 f1_keywords:
 - threadpoollegacyapiset/ChangeTimerQueueTimer
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 03363579-66c2-4bb5-b110-01084c20bf09
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineremovefromconference, lineRemoveFromConference, lineRemoveFromConference function [TAPI 2.2], tapi/lineRemoveFromConference, tapi2.lineremovefromconference
-ms.topic: function
 f1_keywords:
 - tapi/lineRemoveFromConference
 dev_langs:

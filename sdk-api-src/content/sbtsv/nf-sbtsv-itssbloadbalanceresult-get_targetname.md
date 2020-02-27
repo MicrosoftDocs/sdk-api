@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: a3503aef-e177-4ebb-ac9a-8e24ab8610b6
 ms.date: 12/05/2018
 ms.keywords: ITsSbLoadBalanceResult interface [Remote Desktop Services],TargetName property, ITsSbLoadBalanceResult.TargetName, ITsSbLoadBalanceResult.get_TargetName, ITsSbLoadBalanceResult::TargetName, ITsSbLoadBalanceResult::get_TargetName, TargetName property [Remote Desktop Services], TargetName property [Remote Desktop Services],ITsSbLoadBalanceResult interface, get_TargetName, sbtsv/ITsSbLoadBalanceResult::TargetName, sbtsv/ITsSbLoadBalanceResult::get_TargetName, termserv.itssbloadbalanceresult_targetname
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbLoadBalanceResult.TargetName
 dev_langs:

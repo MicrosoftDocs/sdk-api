@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0did.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage interface [Fax Service],Size property, IFaxIncomingMessage.Size, IFaxIncomingMessage.get_Size, IFaxIncomingMessage::Size, IFaxIncomingMessage::get_Size, Size property [Fax Service], Size property [Fax Service],IFaxIncomingMessage interface, _mfax_faxincomingmessage.size, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_size_cpp, fax._mfax_faxincomingmessage_size, faxcomex/IFaxIncomingMessage::Size, faxcomex/IFaxIncomingMessage::get_Size, get_Size
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxIncomingMessage.Size
 dev_langs:

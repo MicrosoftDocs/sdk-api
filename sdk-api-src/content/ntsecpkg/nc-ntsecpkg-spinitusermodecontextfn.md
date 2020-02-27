@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: e67a7ad3-b3d2-4c1a-a514-f51ccfaf990e
 ms.date: 12/05/2018
 ms.keywords: SpInitUserModeContext, SpInitUserModeContext callback function [Security], SpInitUserModeContextFn, SpInitUserModeContextFn callback, _ssp_spinitusermodecontext, ntsecpkg/SpInitUserModeContext, security.spinitusermodecontext
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpInitUserModeContext
 dev_langs:

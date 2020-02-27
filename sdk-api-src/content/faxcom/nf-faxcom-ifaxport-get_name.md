@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1ep1.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxPort interface [Fax Service],Name property, IFaxPort.Name, IFaxPort.get_Name, IFaxPort::Name, IFaxPort::get_Name, Name property [Fax Service], Name property [Fax Service],IFaxPort interface, _mfax_ifaxport_get_name, fax._mfax_ifaxport_get_name, fax._mfax_ifaxport_mfax_ifaxport_get_name_cpp, faxcom/IFaxPort::Name, faxcom/IFaxPort::get_Name, get_Name
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxPort.Name
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 5da66dc2-825d-4332-b1cb-2b9d0fabb445
 ms.date: 12/05/2018
 ms.keywords: IComponentAuthenticate, IComponentAuthenticate interface [windows Media Device Manager], IComponentAuthenticate interface [windows Media Device Manager],described, IComponentAuthenticateInterface, mswmdm/IComponentAuthenticate, wmdm.icomponentauthenticate
-ms.topic: interface
 f1_keywords:
 - mswmdm/IComponentAuthenticate
 dev_langs:

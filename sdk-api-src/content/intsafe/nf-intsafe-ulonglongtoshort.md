@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 499af7eb-0429-4197-af05-40e9aaa877a8
 ms.date: 12/05/2018
 ms.keywords: ULongLongToShort, ULongLongToShort function [Windows Shell], intsafe/ULongLongToShort, shell.ULongLongToShort
-ms.topic: function
 f1_keywords:
 - intsafe/ULongLongToShort
 dev_langs:

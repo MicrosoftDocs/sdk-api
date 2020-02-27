@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 64fbfe37-fce5-4d96-aecb-3850d1edd34e
 ms.date: 12/05/2018
 ms.keywords: InterlockedDecrement16, InterlockedDecrement16 function, base.interlockeddecrement16, winnt/InterlockedDecrement16
-ms.topic: function
 f1_keywords:
 - winnt/InterlockedDecrement16
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Decrements (decreases by one) the value of the specified 16-bit variable as an atomic operation.
 
-To operate on 32-bit values, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockeddecrement">InterlockedDecrement</a> function.
+To operate on 32-bit values, use the <a href="/windows/win32/api/winnt/nf-winnt-interlockeddecrement">InterlockedDecrement</a> function.
 
 To operate on 64-bit values, use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockeddecrement64">InterlockedDecrement64</a> function.
 
@@ -104,7 +103,7 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockeddecrement">InterlockedDecrement</a>
+<a href="/windows/win32/api/winnt/nf-winnt-interlockeddecrement">InterlockedDecrement</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneEqual(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneEqual, XMPlaneEqual, XMPlaneEqual method [DirectX Math Support APIs], dxmath.xmplaneequal
-ms.topic: function
 f1_keywords:
 - directxmath/XMPlaneEqual
 dev_langs:

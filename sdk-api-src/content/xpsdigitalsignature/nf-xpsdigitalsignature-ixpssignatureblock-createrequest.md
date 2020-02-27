@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 73b9e0b4-a650-4886-bafb-828a659b8446
 ms.date: 12/05/2018
 ms.keywords: CreateRequest, CreateRequest method [XPS Documents and Packaging], CreateRequest method [XPS Documents and Packaging],IXpsSignatureBlock interface, IXpsSignatureBlock interface [XPS Documents and Packaging],CreateRequest method, IXpsSignatureBlock.CreateRequest, IXpsSignatureBlock::CreateRequest, xps.ixpssignatureblock_createrequest, xpsdigitalsignature/IXpsSignatureBlock::CreateRequest
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureBlock.CreateRequest
 dev_langs:
@@ -135,7 +134,7 @@ Creating a new request marks the signature block as <i>dirty</i> and  generates 
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

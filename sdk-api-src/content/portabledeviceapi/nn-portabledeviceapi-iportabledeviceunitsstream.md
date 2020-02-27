@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: 4E9B2ECC-91D0-4D4F-980D-54AC88F3175D
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceUnitsStream, IPortableDeviceUnitsStream interface [Windows Portable Devices SDK], IPortableDeviceUnitsStream interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceUnitsStream, wpdsdk.iportabledeviceunitsstream
-ms.topic: interface
 f1_keywords:
 - portabledeviceapi/IPortableDeviceUnitsStream
 dev_langs:

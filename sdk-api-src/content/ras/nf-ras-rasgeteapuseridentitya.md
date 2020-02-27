@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: b1b44672-86f3-4d8b-b816-31167a84b05a
 ms.date: 12/05/2018
 ms.keywords: RASEAPF_Logon, RASEAPF_NonInteractive, RASEAPF_Preview, RasGetEapUserIdentity, RasGetEapUserIdentity function [RAS], RasGetEapUserIdentityA, RasGetEapUserIdentityW, _ras_rasgeteapuseridentity, ras/RasGetEapUserIdentity, ras/RasGetEapUserIdentityA, ras/RasGetEapUserIdentityW, rras.rasgeteapuseridentity
-ms.topic: function
 f1_keywords:
 - ras/RasGetEapUserIdentity
 dev_langs:

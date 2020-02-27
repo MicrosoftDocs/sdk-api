@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 7014ff96-c655-486f-af32-180b87281b06
 ms.date: 12/05/2018
 ms.keywords: RegEnumValue, RegEnumValue function, RegEnumValueA, RegEnumValueW, _win32_regenumvalue, base.regenumvalue, winreg/RegEnumValue, winreg/RegEnumValueA, winreg/RegEnumValueW
-ms.topic: function
 f1_keywords:
 - winreg/RegEnumValue
 dev_langs:

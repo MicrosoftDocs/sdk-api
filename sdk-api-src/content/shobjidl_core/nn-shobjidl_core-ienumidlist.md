@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b6f139d3-c54c-4350-9d8b-cd534909a488
 ms.date: 12/05/2018
 ms.keywords: IEnumIDList, IEnumIDList interface [Windows Shell], IEnumIDList interface [Windows Shell],described, _win32_IEnumIDList, shell.IEnumIDList, shobjidl_core/IEnumIDList
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IEnumIDList
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: d58bd64f-fa76-4ab3-9660-e31e9029171c
 ms.date: 12/05/2018
 ms.keywords: DeleteLogMarshallingArea, DeleteLogMarshallingArea function [Files], clfsw32/DeleteLogMarshallingArea, fs.deletelogmarshalingarea, fs.deletelogmarshallingarea
-ms.topic: function
 f1_keywords:
 - clfsw32/DeleteLogMarshallingArea
 dev_langs:

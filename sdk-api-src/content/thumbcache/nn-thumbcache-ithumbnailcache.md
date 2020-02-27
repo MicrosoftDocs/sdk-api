@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b0ddfca0-49b8-4f53-8d22-9a561d09367a
 ms.date: 12/05/2018
 ms.keywords: IThumbnailCache, IThumbnailCache interface [Windows Shell], IThumbnailCache interface [Windows Shell],described, _shell_IThumbnailCache, shell.IThumbnailCache, thumbcache/IThumbnailCache
-ms.topic: interface
 f1_keywords:
 - thumbcache/IThumbnailCache
 dev_langs:

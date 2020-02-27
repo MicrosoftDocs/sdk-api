@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 4676d35c-62c2-478c-9ccd-68ed53cba71c
 ms.date: 12/05/2018
 ms.keywords: GetFontSize, GetFontSize method [Direct Write], GetFontSize method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetFontSize method, IDWriteTextFormat.GetFontSize, IDWriteTextFormat::GetFontSize, directwrite.IDWriteTextFormat_GetFontSize, dwrite/IDWriteTextFormat::GetFontSize
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextFormat.GetFontSize
 dev_langs:

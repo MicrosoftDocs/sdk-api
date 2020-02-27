@@ -1,9 +1,10 @@
 ---
 UID: NA:imepad
+title: Imepad.h header
 ms.assetid: e693bacb-64d8-316d-8dee-5eda5da5144c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: intl
 ---
 

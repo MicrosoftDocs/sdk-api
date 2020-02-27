@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: ac1bfca7-e681-4e88-85d6-c77ffcbe7872
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_ForceOverwrite method, IDiscFormat2Data.get_ForceOverwrite, IDiscFormat2Data::get_ForceOverwrite, get_ForceOverwrite, get_ForceOverwrite method [IMAPI], get_ForceOverwrite method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_forceoverwrite, imapi2/IDiscFormat2Data::get_ForceOverwrite
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2Data.get_ForceOverwrite
 dev_langs:

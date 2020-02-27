@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: d513d4fd-abc7-44e6-822e-955de8613d55
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],SetCADistinguishedName method, ICertSrvSetup.SetCADistinguishedName, ICertSrvSetup::SetCADistinguishedName, SetCADistinguishedName, SetCADistinguishedName method [Security], SetCADistinguishedName method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetCADistinguishedName, security.icertsrvsetup_setcadistinguishedname
-ms.topic: method
 f1_keywords:
 - casetup/ICertSrvSetup.SetCADistinguishedName
 dev_langs:

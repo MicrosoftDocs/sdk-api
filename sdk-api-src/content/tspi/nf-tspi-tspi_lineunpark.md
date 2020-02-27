@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 941a9715-533e-489c-87b0-27a04be1d80e
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineUnpark, TSPI_lineUnpark function [TAPI 2.2], _tspi_tspi_lineunpark, tspi.tspi_lineunpark, tspi/TSPI_lineUnpark
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineUnpark
 dev_langs:

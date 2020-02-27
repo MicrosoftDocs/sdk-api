@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: cbbcc8bf-6172-41c8-9d74-27e5635ec167
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackageWriter, IXpsOMPackageWriter interface [XPS Documents and Packaging], IXpsOMPackageWriter interface [XPS Documents and Packaging],described, xps.ixpsompackagewriter, xpsobjectmodel/IXpsOMPackageWriter
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMPackageWriter
 dev_langs:
@@ -154,7 +153,7 @@ This interface writes the pages to the package sequentially, in the order that  
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

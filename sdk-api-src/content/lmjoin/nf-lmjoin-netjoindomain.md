@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 4efcb399-03af-4312-9f1d-6bc38f356cac
 ms.date: 12/05/2018
 ms.keywords: NETSETUP_ACCT_CREATE, NETSETUP_AMBIGUOUS_DC, NETSETUP_DEFER_SPN_SET, NETSETUP_DOMAIN_JOIN_IF_JOINED, NETSETUP_DONT_CONTROL_SERVICES, NETSETUP_FORCE_SPN_SET, NETSETUP_IGNORE_UNSUPPORTED_FLAGS, NETSETUP_JOIN_DC_ACCOUNT, NETSETUP_JOIN_DOMAIN, NETSETUP_JOIN_READONLY, NETSETUP_JOIN_UNSECURE, NETSETUP_JOIN_WITH_NEW_NAME, NETSETUP_MACHINE_PWD_PASSED, NETSETUP_NO_ACCT_REUSE, NETSETUP_NO_NETLOGON_CACHE, NETSETUP_SET_MACHINE_NAME, NETSETUP_WIN9X_UPGRADE, NetJoinDomain, NetJoinDomain function [Network Management], _win32_netjoindomain, lmjoin/NetJoinDomain, netmgmt.netjoindomain
-ms.topic: function
 f1_keywords:
 - lmjoin/NetJoinDomain
 dev_langs:
@@ -228,7 +227,7 @@ This option is used if <a href="https://docs.microsoft.com/windows/desktop/api/s
 <td width="60%">
 Join the target machine specified in <i>lpServer</i> parameter using a pre-created account without requiring a writable domain controller. 
 
-This option provides the ability to join a machine to domain if an account has already been provisioned and replicated to  a read-only domain controller. The target read-only domain controller is specified as part of the <i>lpDomain</i> parameter, after the domain name delimited by a ‘\’ character. This provisioning must include the machine secret. The machine account must be added via group membership into the allowed list for password replication policy, and the account password must be replicated to the read-only domain controller prior to the join operation. For more information, see the information on <a href="http://go.microsoft.com/fwlink/p/?linkid=153119">Password Replication Policy Administration</a>.
+This option provides the ability to join a machine to domain if an account has already been provisioned and replicated to  a read-only domain controller. The target read-only domain controller is specified as part of the <i>lpDomain</i> parameter, after the domain name delimited by a ‘\’ character. This provisioning must include the machine secret. The machine account must be added via group membership into the allowed list for password replication policy, and the account password must be replicated to the read-only domain controller prior to the join operation. For more information, see the information on <a href="https://technet.microsoft.com/library/cc753470(WS.10).aspx">Password Replication Policy Administration</a>.
 
 Starting with Windows 7, an alternate mechanism is to use the offline domain join mechanism. For more information, see the <b>NetProvisionComputerAccount</b> and <b>NetRequestOfflineDomainJoin</b> functions.
 
@@ -531,11 +530,11 @@ A system reboot is required after calling the <b>NetJoinDomain</b> function for 
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=152786">Offline Domain Join Step-by-Step Guide</a>
+<a href="https://technet.microsoft.com/library/dd392267.aspx">Offline Domain Join Step-by-Step Guide</a>
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=153119">Password Replication Policy Administration</a>
+<a href="https://technet.microsoft.com/library/cc753470(WS.10).aspx">Password Replication Policy Administration</a>
  
 
  

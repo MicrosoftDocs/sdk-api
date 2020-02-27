@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 82733abd-d984-4902-b6e4-c3809171ad51
 ms.date: 12/05/2018
 ms.keywords: SspiValidateAuthIdentity, SspiValidateAuthIdentity function [Security], security.sspivalidateauthidentity, sspi/SspiValidateAuthIdentity
-ms.topic: function
 f1_keywords:
 - sspi/SspiValidateAuthIdentity
 dev_langs:

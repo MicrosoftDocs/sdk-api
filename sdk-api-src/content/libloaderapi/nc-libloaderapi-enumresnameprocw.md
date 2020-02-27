@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresnameproc.htm
 ms.date: 12/05/2018
 ms.keywords: EnumResNameProc, EnumResNameProc callback, EnumResNameProc callback function [Menus and Other Resources], EnumResNameProcA, EnumResNameProcW, _win32_EnumResNameProc, _win32_enumresnameproc_cpp, libloaderapi/EnumResNameProc, libloaderapi/EnumResNameProcA, libloaderapi/EnumResNameProcW, menurc.enumresnameproc, winui._win32_enumresnameproc
-ms.topic: callback
 f1_keywords:
 - libloaderapi/EnumResNameProc
 dev_langs:

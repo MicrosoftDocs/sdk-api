@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 1B3E8202-7CB3-4D9F-A1AE-70E66652773C
 ms.date: 12/05/2018
 ms.keywords: ID3D12Object interface,SetPrivateData method, ID3D12Object.SetPrivateData, ID3D12Object::SetPrivateData, SetPrivateData, SetPrivateData method, SetPrivateData method,ID3D12Object interface, d3d12/ID3D12Object::SetPrivateData, direct3d12.id3d12object_setprivatedata
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Object.SetPrivateData
 dev_langs:

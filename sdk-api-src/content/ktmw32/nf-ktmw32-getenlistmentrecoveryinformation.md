@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: 05bfbe81-5f3d-4e32-b4fa-4532227f522e
 ms.date: 12/05/2018
 ms.keywords: GetEnlistmentRecoveryInformation, GetEnlistmentRecoveryInformation function [Files], fs.getenlistmentrecoveryinformation_func, ktmw32/GetEnlistmentRecoveryInformation
-ms.topic: function
 f1_keywords:
 - ktmw32/GetEnlistmentRecoveryInformation
 dev_langs:

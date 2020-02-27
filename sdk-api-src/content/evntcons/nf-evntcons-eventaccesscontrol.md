@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 699bb165-680f-4d3b-8859-959f319ca4be
 ms.date: 12/05/2018
 ms.keywords: EventAccessControl, EventAccessControl function [ETW], TRACELOG_ACCESS_KERNEL_LOGGER, TRACELOG_ACCESS_REALTIME, TRACELOG_CREATE_ONDISK, TRACELOG_CREATE_REALTIME, TRACELOG_GUID_ENABLE, TRACELOG_LOG_EVENT, TRACELOG_REGISTER_GUIDS, WMIGUID_QUERY, base.eventaccesscontrol_func, etw.eventaccesscontrol_func, evntcons/EventAccessControl
-ms.topic: function
 f1_keywords:
 - evntcons/EventAccessControl
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 8C4BD86D-F15A-4F5C-9411-2C89A74E8370
 ms.date: 12/05/2018
 ms.keywords: IDCompositionGaussianBlurEffect interface [DirectComposition],SetStandardDeviation method, IDCompositionGaussianBlurEffect.SetStandardDeviation, IDCompositionGaussianBlurEffect.SetStandardDeviation(float), IDCompositionGaussianBlurEffect::SetStandardDeviation, IDCompositionGaussianBlurEffect::SetStandardDeviation(float), SetStandardDeviation, SetStandardDeviation method [DirectComposition], SetStandardDeviation method [DirectComposition],IDCompositionGaussianBlurEffect interface, dcomp/IDCompositionGaussianBlurEffect::SetStandardDeviation, directcomp.idcompositiongaussianblureffect_setstandarddeviation
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionGaussianBlurEffect.SetStandardDeviation
 dev_langs:

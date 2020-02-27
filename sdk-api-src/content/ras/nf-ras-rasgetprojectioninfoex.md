@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: e34216ed-fa78-4cb3-8db9-274c8ba196dd
 ms.date: 12/05/2018
 ms.keywords: RasGetProjectionInfoEx, RasGetProjectionInfoEx function [RAS], ras/RasGetProjectionInfoEx, rras.rasgetprojectioninfoex
-ms.topic: function
 f1_keywords:
 - ras/RasGetProjectionInfoEx
 dev_langs:

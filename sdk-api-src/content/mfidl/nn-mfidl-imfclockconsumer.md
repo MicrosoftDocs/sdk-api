@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: B21D3797-695F-4794-80A2-05D381F288C2
 ms.date: 12/05/2018
 ms.keywords: IMFClockConsumer, IMFClockConsumer interface [Media Foundation], IMFClockConsumer interface [Media Foundation],described, mf.imfclockconsumer, mfidl/IMFClockConsumer
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFClockConsumer
 dev_langs:
@@ -96,7 +95,7 @@ Called by the media pipeline to provide the app with an instance of <a href="htt
 
 
 
-The media pipeline checks for the presence of this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a>. Components can use the presentation clock supplied through this interface to determine how much buffering there is in the pipeline after the component. You can do  this in the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput">IMFTransform::ProcessInput</a> method by calculating the difference between the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-gettime">IMFPresentationClock::GetTime</a> and the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getsampletime">IMFSample::GetSampleTime</a>. This difference represents the amount of buffered data after the MFT in the pipeline. 
+The media pipeline checks for the presence of this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>. Components can use the presentation clock supplied through this interface to determine how much buffering there is in the pipeline after the component. You can do  this in the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput">IMFTransform::ProcessInput</a> method by calculating the difference between the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-gettime">IMFPresentationClock::GetTime</a> and the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getsampletime">IMFSample::GetSampleTime</a>. This difference represents the amount of buffered data after the MFT in the pipeline. 
 
 
 

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a8b73bdb-95dd-4ca7-8dc9-3318faf37338
 ms.date: 12/05/2018
 ms.keywords: ITrackShellMenu interface [Windows Shell],SetObscured method, ITrackShellMenu.SetObscured, ITrackShellMenu::SetObscured, SMSET_BOTTOM, SMSET_DONTOWN, SMSET_TOP, SetObscured, SetObscured method [Windows Shell], SetObscured method [Windows Shell],ITrackShellMenu interface, _shell_ITrackShellMenu_SetObscured, shdeprecated/ITrackShellMenu::SetObscured, shell.ITrackShellMenu_SetObscured
-ms.topic: method
 f1_keywords:
 - shdeprecated/ITrackShellMenu.SetObscured
 dev_langs:

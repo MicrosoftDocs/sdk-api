@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 6f4ac19a-0972-4152-a64c-6c719efb396c
 ms.date: 12/05/2018
 ms.keywords: IMFDRMNetHelper, IMFDRMNetHelper interface [Media Foundation], IMFDRMNetHelper interface [Media Foundation],described, mf.imfdrmnethelper, wmcontainer/IMFDRMNetHelper
-ms.topic: interface
 f1_keywords:
 - wmcontainer/IMFDRMNetHelper
 dev_langs:
@@ -56,7 +55,7 @@ Configures Windows Media Digital Rights Management (DRM) for Network Devices on 
 <ol>
 <li>Get the activation object for the ASF streaming media sink by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfstreamingmediasinkactivate">MFCreateASFStreamingMediaSinkActivate</a>.</li>
 <li>Create the media sink by calling  the activation object <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">ActivateObject</a> method.</li>
-<li>Get an <b>IMFDRMNetHelper</b> pointer by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the media sink.</li>
+<li>Get an <b>IMFDRMNetHelper</b> pointer by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the media sink.</li>
 </ol>For more information, see Remarks.
 
 

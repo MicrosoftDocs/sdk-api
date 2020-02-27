@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 2480adec-68b6-4ffe-8b20-2ca7cb1a4d79
 ms.date: 12/05/2018
 ms.keywords: EngDebugPrint, EngDebugPrint function [Display Devices], display.engdebugprint, gdifncs_e3529861-721f-41f3-aedc-12ef88353b24.xml, winddi/EngDebugPrint
-ms.topic: function
 f1_keywords:
 - winddi/EngDebugPrint
 dev_langs:
@@ -113,7 +112,7 @@ MyDebugPrint("Bank: %lx; Width: %ld", bank, width);
 ```
 
 
-<div class="alert"><b>Note</b>    The Microsoft Windows Driver Kit (WDK) does not contain the Permedia (<i>3dlabs.htm</i> and <i>Perm3.htm</i>) and FrameBuffer (<i>Framebuf.htm) </i>sample display drivers. You can get these sample drivers from the Windows Server 2003 SP1 Driver Development Kit (DDK), which you can download from the <a href="http://go.microsoft.com/fwlink/p/?linkid=21859">DDK - Windows Driver Development Kit</a> page of the WDHC website.</div>
+<div class="alert"><b>Note</b>    The Microsoft Windows Driver Kit (WDK) does not contain the Permedia (<i>3dlabs.htm</i> and <i>Perm3.htm</i>) and FrameBuffer (<i>Framebuf.htm) </i>sample display drivers. You can get these sample drivers from the Windows Server 2003 SP1 Driver Development Kit (DDK), which you can download from the <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/">DDK - Windows Driver Development Kit</a> page of the WDHC website.</div>
 <div> </div>
 
 

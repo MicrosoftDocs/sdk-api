@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 2034cd9f-d666-43ff-b7d1-719b42a60cd5
 ms.date: 12/05/2018
 ms.keywords: CurrentUpdatePercentComplete property [Windows Update Agent], CurrentUpdatePercentComplete property [Windows Update Agent],IInstallationProgress interface, IInstallationProgress interface [Windows Update Agent],CurrentUpdatePercentComplete property, IInstallationProgress.CurrentUpdatePercentComplete, IInstallationProgress.get_CurrentUpdatePercentComplete, IInstallationProgress::CurrentUpdatePercentComplete, IInstallationProgress::get_CurrentUpdatePercentComplete, get_CurrentUpdatePercentComplete, wua.iinstallationprogress_currentupdatepercentcomplete, wuapi/IInstallationProgress::CurrentUpdatePercentComplete, wuapi/IInstallationProgress::get_CurrentUpdatePercentComplete
-ms.topic: method
 f1_keywords:
 - wuapi/IInstallationProgress.CurrentUpdatePercentComplete
 dev_langs:

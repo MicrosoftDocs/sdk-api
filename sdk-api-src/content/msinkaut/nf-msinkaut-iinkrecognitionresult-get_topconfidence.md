@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 286283ca-a8ad-4fc5-ae46-09a3e6382e2a
 ms.date: 12/05/2018
 ms.keywords: 286283ca-a8ad-4fc5-ae46-09a3e6382e2a, IInkRecognitionResult interface [Tablet PC],TopConfidence property, IInkRecognitionResult.TopConfidence, IInkRecognitionResult.get_TopConfidence, IInkRecognitionResult::TopConfidence, IInkRecognitionResult::get_TopConfidence, TopConfidence property [Tablet PC], TopConfidence property [Tablet PC],IInkRecognitionResult interface, get_TopConfidence, msinkaut/IInkRecognitionResult::TopConfidence, msinkaut/IInkRecognitionResult::get_TopConfidence, tablet.iinkrecognitionresult_topconfidence
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRecognitionResult.TopConfidence
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: b9d61342-4bcf-42e9-96f1-a5993dfb6c0c
 ms.date: 12/05/2018
 ms.keywords: FORMAT_MESSAGE_ALLOCATE_BUFFER, FORMAT_MESSAGE_ARGUMENT_ARRAY, FORMAT_MESSAGE_FROM_HMODULE, FORMAT_MESSAGE_FROM_STRING, FORMAT_MESSAGE_FROM_SYSTEM, FORMAT_MESSAGE_IGNORE_INSERTS, FORMAT_MESSAGE_MAX_WIDTH_MASK, FormatMessage, FormatMessage function, FormatMessageA, FormatMessageW, _win32_formatmessage, base.formatmessage, winbase/FormatMessage, winbase/FormatMessageA, winbase/FormatMessageW
-ms.topic: function
 f1_keywords:
 - winbase/FormatMessage
 dev_langs:
@@ -111,12 +110,6 @@ In previous versions of Windows, this value was not available for use when compi
 <b>Windows Server 2003 and Windows XP:  </b><p class="note">If the length of the formatted message exceeds 128K bytes, then 
            <b>FormatMessage</b> will not automatically fail with an 
            error of <b>ERROR_MORE_DATA</b>.
-
-
-
-<b>Windows 10:  </b><b> LocalAlloc()</b> has different options: <b>LMEM_FIXED</b>, and  <b>LMEM_MOVABLE</b>. <b>FormatMessage()</b> uses <b>LMEM_FIXED</b>, so <b>HeapFree</b> can be used. If <b>LMEM_MOVABLE</b> is used, <b>HeapFree</b> cannot be used.
-
-
 
 </td>
 </tr>
@@ -397,7 +390,7 @@ Within the message text, several escape sequences are supported for dynamically 
 Identifies an insert. The value of <i>n</i> can be in the range from 1 through 99. The 
         format string (which must be surrounded by exclamation marks) is optional and defaults to !s! if not 
         specified. For more information, see 
-        <a href="Http://go.microsoft.com/fwlink/p/?linkid=83949">Format Specification Fields</a>.
+        <a href="https://msdn.microsoft.com/library/56e442dc.aspx">Format Specification Fields</a>.
 
 The format string can include a width and precision specifier for strings and a width specifier for 
         integers. Use an asterisk (*) to specify the width and precision. For example, %1!*.*s! or %1!*u!.

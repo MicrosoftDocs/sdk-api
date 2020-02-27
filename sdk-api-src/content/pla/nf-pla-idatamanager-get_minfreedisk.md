@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: e5f4f752-ae96-4a1b-99a4-ff3b73fe3743
 ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],MinFreeDisk property, IDataManager.MinFreeDisk, IDataManager.get_MinFreeDisk, IDataManager::MinFreeDisk, IDataManager::get_MinFreeDisk, IDataManager::put_MinFreeDisk, MinFreeDisk property [PLA], MinFreeDisk property [PLA],IDataManager interface, base.idatamanager_minfreedisk, get_MinFreeDisk, pla.idatamanager_minfreedisk, pla/IDataManager::MinFreeDisk, pla/IDataManager::get_MinFreeDisk, pla/IDataManager::put_MinFreeDisk
-ms.topic: method
 f1_keywords:
 - pla/IDataManager.MinFreeDisk
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_getcontainingoutput.htm
 ms.date: 12/05/2018
 ms.keywords: 714841de-04d3-ab0c-d428-3902324a14e2, GetContainingOutput, GetContainingOutput method [DXGI], GetContainingOutput method [DXGI],IDXGISwapChain interface, IDXGISwapChain interface [DXGI],GetContainingOutput method, IDXGISwapChain.GetContainingOutput, IDXGISwapChain::GetContainingOutput, direct3ddxgi.idxgiswapchain_getcontainingoutput, dxgi/IDXGISwapChain::GetContainingOutput
-ms.topic: method
 f1_keywords:
 - dxgi/IDXGISwapChain.GetContainingOutput
 dev_langs:

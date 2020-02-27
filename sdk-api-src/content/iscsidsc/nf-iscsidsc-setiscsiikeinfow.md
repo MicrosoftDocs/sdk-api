@@ -7,7 +7,6 @@ tech.root: iSCSIDisc
 ms.assetid: db020346-45cf-4944-9776-81bb38c7ee6a
 ms.date: 12/05/2018
 ms.keywords: SetIScsiIKEInfoW, SetIscsiIKEInfo, SetIscsiIKEInfo function [iSCSI Discovery Library API], SetIscsiIKEInfoA, SetIscsiIKEInfoW, iscsidisc.setiscsiikeinfo, iscsidsc/SetIscsiIKEInfo, iscsidsc/SetIscsiIKEInfoA, iscsidsc/SetIscsiIKEInfoW
-ms.topic: function
 f1_keywords:
 - iscsidsc/SetIscsiIKEInfo
 dev_langs:

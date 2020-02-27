@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 00111dee-038e-4612-babb-a09ee8dc5209
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIApplicationList interface [RDP],Item property, IRDPSRAPIApplicationList.Item, IRDPSRAPIApplicationList.get_Item, IRDPSRAPIApplicationList::Item, IRDPSRAPIApplicationList::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIApplicationList interface, Item property [RDP],RDPSRAPIApplicationList object, RDPSRAPIApplicationList object [RDP],Item property, get_Item, rdp.irdpsrapiapplicationlist_item, rdpencomapi/IRDPSRAPIApplicationList::Item, rdpencomapi/IRDPSRAPIApplicationList::get_Item
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPIApplicationList.Item
 dev_langs:

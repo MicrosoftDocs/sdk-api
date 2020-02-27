@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: da871b31-2787-44cc-8678-43d529472f61
 ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMShareable interface, IXpsOMShareable interface [XPS Documents and Packaging],GetOwner method, IXpsOMShareable.GetOwner, IXpsOMShareable::GetOwner, xps.ixpsomshareable_getowner, xpsobjectmodel/IXpsOMShareable::GetOwner
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMShareable.GetOwner
 dev_langs:
@@ -111,7 +110,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

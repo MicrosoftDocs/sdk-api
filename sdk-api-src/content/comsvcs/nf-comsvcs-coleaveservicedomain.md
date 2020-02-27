@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: b67b3cf6-4462-4578-b61b-c5c61d809822
 ms.date: 12/05/2018
 ms.keywords: CoLeaveServiceDomain, CoLeaveServiceDomain function [COM+], _cos_CoLeaveServiceDomain, comsvcs/CoLeaveServiceDomain, cos.coleaveservicedomain
-ms.topic: function
 f1_keywords:
 - comsvcs/CoLeaveServiceDomain
 dev_langs:

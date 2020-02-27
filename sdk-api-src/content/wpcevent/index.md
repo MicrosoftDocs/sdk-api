@@ -1,9 +1,10 @@
 ---
 UID: NA:wpcevent
+title: Wpcevent.h header
 ms.assetid: 9a522c75-7a22-3cfb-a82e-bb1e411d03d5
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: parcon
 ---
 

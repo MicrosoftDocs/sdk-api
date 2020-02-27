@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 0cc16a26-0559-4e2a-a7ec-99a2a6ca2bcb
 ms.date: 12/05/2018
 ms.keywords: ScriptStringCPtoX, ScriptStringCPtoX function [Internationalization for Windows Applications], _win32_ScriptStringCPtoX, intl.scriptstringcptox, usp10/ScriptStringCPtoX
-ms.topic: function
 f1_keywords:
 - usp10/ScriptStringCPtoX
 dev_langs:

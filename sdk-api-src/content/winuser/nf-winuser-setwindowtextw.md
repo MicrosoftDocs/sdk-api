@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setwindowtext.htm
 ms.date: 12/05/2018
 ms.keywords: SetWindowText, SetWindowText function [Windows and Messages], SetWindowTextA, SetWindowTextW, _win32_SetWindowText, _win32_setwindowtext_cpp, winmsg.setwindowtext, winui._win32_setwindowtext, winuser/SetWindowText, winuser/SetWindowTextA, winuser/SetWindowTextW
-ms.topic: function
 f1_keywords:
 - winuser/SetWindowText
 dev_langs:

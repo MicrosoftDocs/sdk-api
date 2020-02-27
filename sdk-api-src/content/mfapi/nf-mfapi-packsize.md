@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: F3DCEEA5-2D88-49FC-87DB-DEB0AE48E984
 ms.date: 12/05/2018
 ms.keywords: PackSize, PackSize function [Media Foundation], mf.packsize, mfapi/PackSize
-ms.topic: function
 f1_keywords:
 - mfapi/PackSize
 dev_langs:

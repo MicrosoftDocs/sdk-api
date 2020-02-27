@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: cfa38ef6-9d96-4577-a3bf-518784d19ad8
 ms.date: 12/05/2018
 ms.keywords: IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], IOpcDigitalSignature interface [Open Packaging Conventions],described, msopc/IOpcDigitalSignature, opc.iopcdigitalsignature
-ms.topic: interface
 f1_keywords:
 - msopc/IOpcDigitalSignature
 dev_langs:

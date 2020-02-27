@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 54182058-5dbb-4eda-959a-fa1921a27302
 ms.date: 12/05/2018
 ms.keywords: GetBackupOptions, GetBackupOptions method [VSS], GetBackupOptions method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupOptions method, IVssComponent.GetBackupOptions, IVssComponent::GetBackupOptions, _win32_ivsscomponent_getbackupoptions, base.ivsscomponent_getbackupoptions, vswriter/IVssComponent::GetBackupOptions
-ms.topic: method
 f1_keywords:
 - vswriter/IVssComponent.GetBackupOptions
 dev_langs:

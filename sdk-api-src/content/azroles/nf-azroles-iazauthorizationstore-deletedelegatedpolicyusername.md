@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: a2e7523a-41d3-4fb5-b455-588e0618f51f
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],DeleteDelegatedPolicyUserName method, DeleteDelegatedPolicyUserName, DeleteDelegatedPolicyUserName method [Security], DeleteDelegatedPolicyUserName method [Security],AzAuthorizationStore object, DeleteDelegatedPolicyUserName method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeleteDelegatedPolicyUserName method, IAzAuthorizationStore.DeleteDelegatedPolicyUserName, IAzAuthorizationStore::DeleteDelegatedPolicyUserName, azroles/IAzAuthorizationStore::DeleteDelegatedPolicyUserName, security.azauthorizationstore_deletedelegatedpolicyusername
-ms.topic: method
 f1_keywords:
 - azroles/AzAuthorizationStore.DeleteDelegatedPolicyUserName
 dev_langs:

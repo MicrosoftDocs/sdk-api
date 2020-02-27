@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 6a77770c-b7e1-4d29-9c4b-331b5950a635
 ms.date: 12/05/2018
 ms.keywords: CoGetInstanceFromIStorage, CoGetInstanceFromIStorage function [COM], _com_CoGetInstanceFromIStorage, com.cogetinstancefromistorage, objbase/CoGetInstanceFromIStorage
-ms.topic: function
 f1_keywords:
 - objbase/CoGetInstanceFromIStorage
 dev_langs:
@@ -93,7 +92,7 @@ The number of structures in <i>pResults</i>. This parameter must be greater than
 
 ### -param pResults [in, out]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-multi_qi">MULTI_QI</a> structures. Each structure has three members: the identifier for a requested interface (<b>pIID</b>), the location to return the interface pointer (<b>pItf</b>) and the return value of the call to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> (<b>hr</b>).
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-multi_qi">MULTI_QI</a> structures. Each structure has three members: the identifier for a requested interface (<b>pIID</b>), the location to return the interface pointer (<b>pItf</b>) and the return value of the call to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> (<b>hr</b>).
 
 
 ## -returns

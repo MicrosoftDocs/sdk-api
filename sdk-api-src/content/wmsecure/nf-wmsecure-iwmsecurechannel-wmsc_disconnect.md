@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 13956668-2fd3-45ac-a96c-7dfc5c8fcb26
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Disconnect method, IWMSecureChannel.WMSC_Disconnect, IWMSecureChannel::WMSC_Disconnect, WMSC_Disconnect, WMSC_Disconnect method [windows Media Format], WMSC_Disconnect method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_disconnect, wmsecure/IWMSecureChannel::WMSC_Disconnect
-ms.topic: method
 f1_keywords:
 - wmsecure/IWMSecureChannel.WMSC_Disconnect
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>WMSC_Disconnect</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>WMSC_Disconnect</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 The <b>WMSC_Disconnect</b> method destroys the secure connection.

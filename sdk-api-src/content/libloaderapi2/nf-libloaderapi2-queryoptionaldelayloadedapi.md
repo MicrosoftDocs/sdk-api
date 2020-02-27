@@ -7,7 +7,6 @@ tech.root: Dlls
 ms.assetid: 43690689-4372-48ae-ac6d-230250f05f7c
 ms.date: 12/05/2018
 ms.keywords: QueryOptionalDelayLoadedAPI, QueryOptionalDelayLoadedAPI function, base.queryoptionaldelayloadedapi, libloaderapi2/QueryOptionalDelayLoadedAPI
-ms.topic: function
 f1_keywords:
 - libloaderapi2/QueryOptionalDelayLoadedAPI
 dev_langs:
@@ -97,7 +96,7 @@ TRUE if the specified function is available on the system. If the specified func
 
 
 
-A delay-loaded DLL is statically linked but not actually loaded into memory until the running application references a symbol exported by that DLL. Applications often delay load DLLs that contain functions the application might call only rarely or not at all, because the DLL is only loaded when it is needed instead of being loaded at application startup like other statically linked DLLs. This helps improve application performance, especially during initialization. A delay-load DLL is specified at link time with the <a href="https://go.microsoft.com/fwlink/p/?linkid=231328">/DELAYLOAD (Delay Load Import)</a> linker option. 
+A delay-loaded DLL is statically linked but not actually loaded into memory until the running application references a symbol exported by that DLL. Applications often delay load DLLs that contain functions the application might call only rarely or not at all, because the DLL is only loaded when it is needed instead of being loaded at application startup like other statically linked DLLs. This helps improve application performance, especially during initialization. A delay-load DLL is specified at link time with the <a href="https://msdn.microsoft.com/library/yx9zd12s.aspx">/DELAYLOAD (Delay Load Import)</a> linker option. 
 
 Applications that target multiple versions of Windows or multiple Windows device families also rely on delay-loaded DLLs to make visible extra features when they are available.
 

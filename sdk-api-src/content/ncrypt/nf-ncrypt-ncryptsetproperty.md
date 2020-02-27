@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: ad1148aa-5f64-4867-9e17-6b41cc0c20b7
 ms.date: 12/05/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, LABEL_SECURITY_INFORMATION, NCRYPT_PERSIST_FLAG, NCRYPT_PERSIST_ONLY_FLAG, NCRYPT_SILENT_FLAG, NCryptSetProperty, NCryptSetProperty function [Security], OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, ncrypt/NCryptSetProperty, security.ncryptsetproperty_func
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptSetProperty
 dev_langs:
@@ -176,7 +175,7 @@ Set the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">syst
 </dl>
 </td>
 <td width="60%">
-Set the mandatory label access control entry in the SACL of the object. Use the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a> function to set the SACL in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure. For more information about the mandatory label access control entry, see <a href="http://go.microsoft.com/fwlink/p/?linkid=168187">Windows Integrity Mechanism Design</a>.
+Set the mandatory label access control entry in the SACL of the object. Use the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a> function to set the SACL in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure. For more information about the mandatory label access control entry, see <a href="https://msdn.microsoft.com/library/bb625963.aspx">Windows Integrity Mechanism Design</a>.
 
 </td>
 </tr>
@@ -276,7 +275,7 @@ The specified property is not supported for the object.
 
 
 
-A service must not call this function from its <a href="http://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 
 

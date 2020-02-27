@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 405c5ff3-8702-48b3-9be9-df4a9461696e
 ms.date: 12/05/2018
 ms.keywords: CoGetStdMarshalEx, CoGetStdMarshalEx function [COM], SMEXF_HANDLER, SMEXF_SERVER, _com_CoGetStdMarshalEx, com.cogetstdmarshalex, combaseapi/CoGetStdMarshalEx
-ms.topic: function
 f1_keywords:
 - combaseapi/CoGetStdMarshalEx
 dev_langs:
@@ -123,7 +122,7 @@ This function returns S_OK.
 
 
 
-The server calls <b>CoGetStdMarshalEx</b> passing in the flag SMEXF_SERVER. This creates a server side standard marshaler (known as a stub manager). The handler calls <b>CoGetStdMarshalEx</b> passing in the flag SMEXF_HANDLER. This creates a client side standard marshaler (known as a proxy manager). Note that when calling this function, the handler must pass the original controlling unknown that was passed to the handler when the handler was created. This will be the system implemented controlling unknown. Failure to pass the correct <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> results in an error returned. On success, the ppUnkInner returned is the controlling unknown of the inner object. The server and handler must keep this pointer, and may use it to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> for the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a> interface.
+The server calls <b>CoGetStdMarshalEx</b> passing in the flag SMEXF_SERVER. This creates a server side standard marshaler (known as a stub manager). The handler calls <b>CoGetStdMarshalEx</b> passing in the flag SMEXF_HANDLER. This creates a client side standard marshaler (known as a proxy manager). Note that when calling this function, the handler must pass the original controlling unknown that was passed to the handler when the handler was created. This will be the system implemented controlling unknown. Failure to pass the correct <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> results in an error returned. On success, the ppUnkInner returned is the controlling unknown of the inner object. The server and handler must keep this pointer, and may use it to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> for the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a> interface.
 
 
 

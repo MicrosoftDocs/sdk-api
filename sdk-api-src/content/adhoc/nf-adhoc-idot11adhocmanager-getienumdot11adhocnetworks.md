@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 3d37fad8-18e8-4280-9fa8-e40c742ec8ba
 ms.date: 12/05/2018
 ms.keywords: GetIEnumDot11AdHocNetworks, GetIEnumDot11AdHocNetworks method [NativeWIFI], GetIEnumDot11AdHocNetworks method [NativeWIFI],IDot11AdHocManager interface, IDot11AdHocManager interface [NativeWIFI],GetIEnumDot11AdHocNetworks method, IDot11AdHocManager.GetIEnumDot11AdHocNetworks, IDot11AdHocManager::GetIEnumDot11AdHocNetworks, adhoc/IDot11AdHocManager::GetIEnumDot11AdHocNetworks, nwifi.idot11adhocmanager_getienumdot11adhocnetworks
-ms.topic: method
 f1_keywords:
 - adhoc/IDot11AdHocManager.GetIEnumDot11AdHocNetworks
 dev_langs:

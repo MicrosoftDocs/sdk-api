@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2f0582d2-b079-4b97-8da0-211b6ef1b8f3
 ms.date: 12/05/2018
 ms.keywords: IShellFolderBand interface [Windows Shell],InitializeSFB method, IShellFolderBand.InitializeSFB, IShellFolderBand::InitializeSFB, InitializeSFB, InitializeSFB method [Windows Shell], InitializeSFB method [Windows Shell],IShellFolderBand interface, _win32_IShellFolderBand_InitializeSFB, shell.IShellFolderBand_InitializeSFB, shlobj/IShellFolderBand::InitializeSFB
-ms.topic: method
 f1_keywords:
 - shlobj/IShellFolderBand.InitializeSFB
 dev_langs:

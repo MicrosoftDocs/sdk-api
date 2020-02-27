@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: de340594-4410-4896-b206-0f47d4035bc1
 ms.date: 12/05/2018
 ms.keywords: IAMTVAudio, IAMTVAudio interface [DirectShow], IAMTVAudio interface [DirectShow],described, IAMTVAudioInterface, dshow.iamtvaudio, strmif/IAMTVAudio
-ms.topic: interface
 f1_keywords:
 - strmif/IAMTVAudio
 dev_langs:

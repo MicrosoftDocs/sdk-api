@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetWPtr(XMVECTOR,const float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetWPtr, XMVectorSetWPtr, XMVectorSetWPtr method [DirectX Math Support APIs], dxmath.xmvectorsetwptr
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorSetWPtr
 dev_langs:

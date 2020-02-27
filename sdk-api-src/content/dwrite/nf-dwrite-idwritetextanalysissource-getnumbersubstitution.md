@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 23e1539c-a58e-4123-82da-2f9d94309b05
 ms.date: 12/05/2018
 ms.keywords: GetNumberSubstitution, GetNumberSubstitution method [Direct Write], GetNumberSubstitution method [Direct Write],IDWriteTextAnalysisSource interface, IDWriteTextAnalysisSource interface [Direct Write],GetNumberSubstitution method, IDWriteTextAnalysisSource.GetNumberSubstitution, IDWriteTextAnalysisSource::GetNumberSubstitution, directwrite.idwritetextanalysissource_getnumbersubstitution, dwrite/IDWriteTextAnalysisSource::GetNumberSubstitution
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextAnalysisSource.GetNumberSubstitution
 dev_langs:

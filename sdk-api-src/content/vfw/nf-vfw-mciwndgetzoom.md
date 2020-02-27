@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 397a41dd-e4ee-4afb-b7a0-3909e79726a5
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetZoom, MCIWndGetZoom macro [Windows Multimedia], _win32_MCIWndGetZoom, multimedia.mciwndgetzoom, vfw/MCIWndGetZoom
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndGetZoom
 dev_langs:

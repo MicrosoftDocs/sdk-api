@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\makeiprange.htm
 ms.date: 12/05/2018
 ms.keywords: MAKEIPRANGE, MAKEIPRANGE macro [Windows Controls], _win32_MAKEIPRANGE, _win32_MAKEIPRANGE_cpp, commctrl/MAKEIPRANGE, controls.MAKEIPRANGE, controls._win32_MAKEIPRANGE
-ms.topic: macro
 f1_keywords:
 - commctrl/MAKEIPRANGE
 dev_langs:

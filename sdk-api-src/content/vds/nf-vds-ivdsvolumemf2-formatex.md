@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: c1d08018-4e9b-466a-b8dd-074b2ce0c8fe
 ms.date: 12/05/2018
 ms.keywords: FormatEx, FormatEx method, FormatEx method,IVdsVolumeMF2 interface, IVdsVolumeMF2 interface,FormatEx method, IVdsVolumeMF2.FormatEx, IVdsVolumeMF2::FormatEx, base.ivdsvolumemf2_formatex, vds/IVdsVolumeMF2::FormatEx
-ms.topic: method
 f1_keywords:
 - vds/IVdsVolumeMF2.FormatEx
 dev_langs:
@@ -367,7 +366,7 @@ If an OEM partition is formatted as FAT or FAT32, the partition type does not ch
 
 If this method is called for a volume that is protected by BitLocker full-volume encryption, BitLocker encryption is disabled for the volume until the user re-enables it.
 
-For more information about file system limits such as minimum and maximum allocation unit size (also called cluster size), see <a href="Http://go.microsoft.com/fwlink/p/?linkid=89389">NTFS Technical Reference</a> and <a href="Http://go.microsoft.com/fwlink/p/?linkid=89461">FAT Technical Reference</a>.
+For more information about file system limits such as minimum and maximum allocation unit size (also called cluster size), see <a href="https://technet.microsoft.com/library/81cc8a8a-bd32-4786-a849-03245d68d8e4">NTFS Technical Reference</a> and <a href="https://technet.microsoft.com/library/810c3217-77bb-4553-b6ce-3ff10dbdbac9">FAT Technical Reference</a>.
 
 
 

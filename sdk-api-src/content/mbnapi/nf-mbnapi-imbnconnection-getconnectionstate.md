@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 85f3e0bb-c694-4870-b423-cb4ac7a0477d
 ms.date: 12/05/2018
 ms.keywords: GetConnectionState, GetConnectionState method [Microsoft Broadband Networks], GetConnectionState method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],GetConnectionState method, IMbnConnection.GetConnectionState, IMbnConnection::GetConnectionState, mbn.imbnconnection_getconnectionstate, mbnapi/IMbnConnection::GetConnectionState
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnConnection.GetConnectionState
 dev_langs:
@@ -67,7 +66,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/n
 
 ### -param ProfileName [out, retval]
 
-A pointer to a string that contains the name of the connection profile.  This parameter is valid only when <i>ConnectionState</i> is <b>MBN_ACTIVATION_STATE_ACTIVATED</b>.  When this string is not <b>NULL</b>, the calling application must free this string by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
+A pointer to a string that contains the name of the connection profile.  This parameter is valid only when <i>ConnectionState</i> is <b>MBN_ACTIVATION_STATE_ACTIVATED</b>.  When this string is not <b>NULL</b>, the calling application must free this string by calling <a href="https://msdn.microsoft.com/library/ms221481.aspx">SysFreeString</a>.
 
 
 ## -returns

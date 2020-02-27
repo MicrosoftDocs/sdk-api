@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: c5be3864-0f21-4fa5-99f8-dee9ad2b7286
 ms.date: 12/05/2018
 ms.keywords: ADSPEC, ADSPEC structure [QOS], lpmapi/ADSPEC, qos.adspec
-ms.topic: struct
 f1_keywords:
 - lpmapi/ADSPEC
 dev_langs:

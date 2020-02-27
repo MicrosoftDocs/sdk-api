@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 7a63d554-56e0-4c39-94ea-613fecc97331
 ms.date: 12/05/2018
 ms.keywords: GetDestinationProviderConflictingData, GetDestinationProviderConflictingData method [Windows Sync], GetDestinationProviderConflictingData method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetDestinationProviderConflictingData method, IChangeConflict.GetDestinationProviderConflictingData, IChangeConflict::GetDestinationProviderConflictingData, winsync.ichangeconflict_getdestinationproviderconflictingdata, winsync/IChangeConflict::GetDestinationProviderConflictingData
-ms.topic: method
 f1_keywords:
 - winsync/IChangeConflict.GetDestinationProviderConflictingData
 dev_langs:

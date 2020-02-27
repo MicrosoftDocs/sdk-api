@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 9238ACAD-C6A6-4804-BF12-B28A498C03A9
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetScaleZ method, IDCompositionScaleTransform3D.SetScaleZ, IDCompositionScaleTransform3D::SetScaleZ, IDCompositionScaleTransform3D::SetScaleZ(float), SetScaleZ, SetScaleZ method [DirectComposition], SetScaleZ method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetScaleZ, directcomp.idcompositionscaletransform3d_setscalez_float
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionScaleTransform3D.SetScaleZ
 dev_langs:

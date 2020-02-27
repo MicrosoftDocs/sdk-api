@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: d7bd4fde-8b08-4450-b291-1249393b5388
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlayStateChange method, IWMPEvents.PlayStateChange, IWMPEvents::PlayStateChange, IWMPEventsPlayStateChange, PlayStateChange, PlayStateChange method [Windows Media Player], PlayStateChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playstatechange, wmp/IWMPEvents::PlayStateChange
-ms.topic: method
 f1_keywords:
 - wmp/IWMPEvents.PlayStateChange
 dev_langs:

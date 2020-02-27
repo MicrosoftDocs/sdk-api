@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0b3f38d2-80fe-4242-a99d-5d82f9dd50e9
 ms.date: 12/05/2018
 ms.keywords: IEnumResources interface [Windows Shell],Reset method, IEnumResources.Reset, IEnumResources::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumResources interface, _shell_IEnumResources_Reset, shell.IEnumResources_Reset, shobjidl_core/IEnumResources::Reset
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IEnumResources.Reset
 dev_langs:

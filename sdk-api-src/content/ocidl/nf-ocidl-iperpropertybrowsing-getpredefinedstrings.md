@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 1b20585f-2bcd-475e-abee-80158692ae0f
 ms.date: 12/05/2018
 ms.keywords: GetPredefinedStrings, GetPredefinedStrings method [COM], GetPredefinedStrings method [COM],IPerPropertyBrowsing interface, IPerPropertyBrowsing interface [COM],GetPredefinedStrings method, IPerPropertyBrowsing.GetPredefinedStrings, IPerPropertyBrowsing::GetPredefinedStrings, _ctrl_iperpropertybrowsing_getpredefinedstrings, com.iperpropertybrowsing_getpredefinedstrings, ocidl/IPerPropertyBrowsing::GetPredefinedStrings
-ms.topic: method
 f1_keywords:
 - ocidl/IPerPropertyBrowsing.GetPredefinedStrings
 dev_langs:

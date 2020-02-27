@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 470155C2-095B-44EF-8ED3-18E1B2DADE4B
 ms.date: 12/05/2018
 ms.keywords: ID3D12InfoQueue interface,SetMuteDebugOutput method, ID3D12InfoQueue.SetMuteDebugOutput, ID3D12InfoQueue::SetMuteDebugOutput, SetMuteDebugOutput, SetMuteDebugOutput method, SetMuteDebugOutput method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::SetMuteDebugOutput, direct3d12.id3d12infoqueue_setmutedebugoutput
-ms.topic: method
 f1_keywords:
 - d3d12sdklayers/ID3D12InfoQueue.SetMuteDebugOutput
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\editstream.htm
 ms.date: 12/05/2018
 ms.keywords: EDITSTREAM, EDITSTREAM structure [Windows Controls], _win32_EDITSTREAM_str, _win32_EDITSTREAM_str_cpp, controls.EDITSTREAM, controls._win32_EDITSTREAM_str, richedit/EDITSTREAM
-ms.topic: struct
 f1_keywords:
 - richedit/EDITSTREAM
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 8b860632-3d10-4791-b4b3-d37aad319a0a
 ms.date: 12/05/2018
 ms.keywords: Download, Download method [Windows Update Agent], Download method [Windows Update Agent],IUpdateDownloader interface, IUpdateDownloader interface [Windows Update Agent],Download method, IUpdateDownloader.Download, IUpdateDownloader::Download, wua.iupdatedownloader_download, wuapi/IUpdateDownloader::Download
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateDownloader.Download
 dev_langs:

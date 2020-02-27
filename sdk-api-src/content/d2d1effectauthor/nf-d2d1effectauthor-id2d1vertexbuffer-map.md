@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 3EFC0584-2F03-4B35-8C6C-E46CDD9D9057
 ms.date: 12/05/2018
 ms.keywords: ID2D1VertexBuffer interface [Direct2D],Map method, ID2D1VertexBuffer.Map, ID2D1VertexBuffer::Map, Map, Map method [Direct2D], Map method [Direct2D],ID2D1VertexBuffer interface, d2d1effectauthor/ID2D1VertexBuffer::Map, direct2d.id2d1vertexbuffer_map
-ms.topic: method
 f1_keywords:
 - d2d1effectauthor/ID2D1VertexBuffer.Map
 dev_langs:

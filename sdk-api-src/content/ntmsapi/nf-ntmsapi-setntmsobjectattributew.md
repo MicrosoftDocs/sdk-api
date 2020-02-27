@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: ce572b2a-f4c3-4cf3-8bb3-074ba3d1ec30
 ms.date: 12/05/2018
 ms.keywords: SetNtmsObjectAttribute, SetNtmsObjectAttribute function [Files], SetNtmsObjectAttributeA, SetNtmsObjectAttributeW, _zaw_setntmsobjectattribute, base.setntmsobjectattribute, fs.setntmsobjectattribute, ntmsapi/SetNtmsObjectAttribute, ntmsapi/SetNtmsObjectAttributeA, ntmsapi/SetNtmsObjectAttributeW
-ms.topic: function
 f1_keywords:
 - ntmsapi/SetNtmsObjectAttribute
 dev_langs:

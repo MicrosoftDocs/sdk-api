@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 23122b38-5671-4454-be79-85c6bc34daa0
 ms.date: 12/05/2018
 ms.keywords: CreateClassEnum, CreateClassEnum method [Windows Management Instrumentation], CreateClassEnum method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],CreateClassEnum method, IWbemServices.CreateClassEnum, IWbemServices::CreateClassEnum, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DEEP, WBEM_FLAG_FORWARD_ONLY, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_SHALLOW, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_createclassenum, wbemcli/IWbemServices::CreateClassEnum, wmi.iwbemservices_createclassenum
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemServices.CreateClassEnum
 dev_langs:
@@ -141,7 +140,7 @@ Receives the pointer to the enumerator. The returned object has a positive refer
 
 This method returns an <b>HRESULT</b> that indicates the status of a method call. The following list lists the value contained withinan <b>HRESULT</b>.
 
-On failure, you can obtain available information from the COM function <a href="http://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a>.
+On failure, you can obtain available information from the COM function <a href="https://msdn.microsoft.com/library/ms221032.aspx">GetErrorInfo</a>.
 
 COM-specific error codes also can be returned if network problems cause you to lose the remote connection to Windows Management.
 

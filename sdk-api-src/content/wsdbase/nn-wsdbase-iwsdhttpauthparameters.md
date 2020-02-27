@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 77AB4D22-55F2-4DF6-8E83-718BFB88841A
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpAuthParameters, IWSDHttpAuthParameters interface, IWSDHttpAuthParameters interface,described, ncd.iwsdhttpauthparameters, wsdbase/IWSDHttpAuthParameters
-ms.topic: interface
 f1_keywords:
 - wsdbase/IWSDHttpAuthParameters
 dev_langs:

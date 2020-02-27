@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 5a2efb70-a943-46c5-a362-18579ad8c965
 ms.date: 12/05/2018
 ms.keywords: ACDQE_NEW_QUEUE, ACDQE_QUEUE_REMOVED, ACDQUEUE_EVENT, ACDQUEUE_EVENT enumeration [TAPI 2.2], _tapi3_acdqueue_event, tapi3.acdqueue_event, tapi3cc/ACDQE_NEW_QUEUE, tapi3cc/ACDQE_QUEUE_REMOVED, tapi3cc/ACDQUEUE_EVENT
-ms.topic: enum
 f1_keywords:
 - tapi3cc/ACDQUEUE_EVENT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: a8e23127-a625-4206-abe8-0787b4ac0f30
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_OPT_DATA, DNS_OPT_DATA, DNS_OPT_DATA structure [DNS], PDNS_OPT_DATA, PDNS_OPT_DATA structure pointer [DNS], dns.dns_opt_data, windns/DNS_OPT_DATA, windns/PDNS_OPT_DATA'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_OPT_DATA
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DNS_OPT_DATA</b> structure represents a DNS Option  (OPT) resource record (RR) as specified in section 4 of <a href="http://go.microsoft.com/fwlink/p/?linkid=134711">RFC 2671</a>.
+The <b>DNS_OPT_DATA</b> structure represents a DNS Option  (OPT) resource record (RR) as specified in section 4 of <a href="https://www.ietf.org/rfc/rfc2671.txt">RFC 2671</a>.
 
 
 ## -struct-fields
@@ -80,7 +79,7 @@ Reserved. Do not use.
 
 ### -field Data
 
-A <b>BYTE</b> array that contains variable transport level information as specified in section 4 of <a href="http://go.microsoft.com/fwlink/p/?linkid=134711">RFC 2671</a>.
+A <b>BYTE</b> array that contains variable transport level information as specified in section 4 of <a href="https://www.ietf.org/rfc/rfc2671.txt">RFC 2671</a>.
 
 
 ## -remarks

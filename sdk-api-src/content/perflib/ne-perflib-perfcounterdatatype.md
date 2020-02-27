@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: E64C73F0-034E-408B-8537-CE6855C01347
 ms.date: 12/05/2018
 ms.keywords: PERF_COUNTERSET, PERF_ERROR_RETURN, PERF_MULTIPLE_COUNTERS, PERF_MULTIPLE_INSTANCES, PERF_SINGLE_COUNTER, PerfCounterDataType, PerfCounterDataType enumeration [Perf], perf.perfcounterdatatype, perflib/PERF_COUNTERSET, perflib/PERF_ERROR_RETURN, perflib/PERF_MULTIPLE_COUNTERS, perflib/PERF_MULTIPLE_INSTANCES, perflib/PERF_SINGLE_COUNTER, perflib/PerfCounterDataType
-ms.topic: enum
 f1_keywords:
 - perflib/PerfCounterDataType
 dev_langs:

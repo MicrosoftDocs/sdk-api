@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: d8067609-1046-4641-9f57-b0ee2be5a3b2
 ms.date: 12/05/2018
 ms.keywords: SetupDiDestroyDriverInfoList, SetupDiDestroyDriverInfoList function [Device and Driver Installation], devinst.setupdidestroydriverinfolist, di-rtns_6eade614-a4f8-40cc-beb7-0d6728b1ad53.xml, setupapi/SetupDiDestroyDriverInfoList
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiDestroyDriverInfoList
 dev_langs:
@@ -92,7 +91,7 @@ Delete a list of compatible drivers for the specified device. <i>DeviceInfoData<
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 

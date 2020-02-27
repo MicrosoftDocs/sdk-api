@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 28c0be9b-f42c-4ab1-a3af-9c591a5192dd
 ms.date: 12/05/2018
 ms.keywords: SetInputScopes, SetInputScopes function [Text Services Framework], inputscope/SetInputScopes, tsf.SetInputScopes
-ms.topic: function
 f1_keywords:
 - inputscope/SetInputScopes
 dev_langs:
@@ -90,7 +89,7 @@ Pointer to a <b>NULL</b>-terminated string containing the regular expression to 
 
 ### -param pszSRGS [in]
 
-Pointer to a <b>NULL</b>-terminated XML string that provides speech-specific hints and rules to aid in speech recognition. The XML format conforms to the Speech Recognition Grammar Specification (SRGS) standard, outlined at <a href="http://go.microsoft.com/fwlink/p/?linkid=161740">http://www.w3.org/TR/speech-grammar</a>. Can be <b>NULL</b>. $
+Pointer to a <b>NULL</b>-terminated XML string that provides speech-specific hints and rules to aid in speech recognition. The XML format conforms to the Speech Recognition Grammar Specification (SRGS) standard, outlined at <a href="https://www.w3.org/tr/speech-grammar">http://www.w3.org/TR/speech-grammar</a>. Can be <b>NULL</b>. $
 
 
 ## -returns

@@ -7,7 +7,6 @@ tech.root: Input_IntContext
 ms.assetid: 87000250-f225-4864-96d2-1e189f5be1a3
 ms.date: 12/05/2018
 ms.keywords: RegisterOutputCallbackInteractionContext, RegisterOutputCallbackInteractionContext function, input_intcontext.registeroutputcallbackinteractioncontext, interactioncontext.registeroutputcallbackinteractioncontext, interactioncontext/RegisterOutputCallbackInteractionContext
-ms.topic: function
 f1_keywords:
 - interactioncontext/RegisterOutputCallbackInteractionContext
 dev_langs:

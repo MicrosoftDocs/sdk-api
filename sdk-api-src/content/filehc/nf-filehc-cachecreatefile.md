@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 089160c7-eb30-4b39-b982-75356e7cdb24
 ms.date: 12/05/2018
 ms.keywords: CacheCreateFile, CacheCreateFile function [Windows API], filehc/CacheCreateFile, winprog._cachecreatefile
-ms.topic: function
 f1_keywords:
 - filehc/CacheCreateFile
 dev_langs:
@@ -75,14 +74,14 @@ A pointer to the <a href="https://docs.microsoft.com/previous-versions/bb432261(
 
 ### -param fAsyncContext [in]
 
-Specifies whether the context can be used for asynchronous I/O. If <b>TRUE</b>, the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> returned is asynchronous. 
+Specifies whether the context can be used for asynchronous I/O. If <b>TRUE</b>, the <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> returned is asynchronous. 
 
 
 ## -returns
 
 
 
-Returns a pointer to the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure that is associated with the file that was created or found.
+Returns a pointer to the <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure that is associated with the file that was created or found.
 
 
 
@@ -100,7 +99,7 @@ Returns a pointer to the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304
 
 
 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a>
  
 
  

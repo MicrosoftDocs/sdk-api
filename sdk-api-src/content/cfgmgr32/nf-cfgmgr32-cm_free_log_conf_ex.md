@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: dd19400b-e83e-4feb-a968-b57656c9996c
 ms.date: 12/05/2018
 ms.keywords: CM_Free_Log_Conf_Ex, CM_Free_Log_Conf_Ex function [Device and Driver Installation], cfgmgr32/CM_Free_Log_Conf_Ex, cfgmgrfn_fc80be77-fd05-4cca-9614-c8b5e524766a.xml, devinst.cm_free_log_conf_ex
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Free_Log_Conf_Ex
 dev_langs:

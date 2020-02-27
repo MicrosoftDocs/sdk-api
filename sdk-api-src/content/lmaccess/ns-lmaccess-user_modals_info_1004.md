@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: c11a3c94-940e-474f-9251-a32ea098788d
 ms.date: 12/05/2018
 ms.keywords: '*LPUSER_MODALS_INFO_1004, *PUSER_MODALS_INFO_1004, LPUSER_MODALS_INFO_1004, LPUSER_MODALS_INFO_1004 structure pointer [Network Management], PUSER_MODALS_INFO_1004, PUSER_MODALS_INFO_1004 structure pointer [Network Management], USER_MODALS_INFO_1004, USER_MODALS_INFO_1004 structure [Network Management], _win32_user_modals_info_1004_str, lmaccess/LPUSER_MODALS_INFO_1004, lmaccess/PUSER_MODALS_INFO_1004, lmaccess/USER_MODALS_INFO_1004, netmgmt.user_modals_info_1004_str'
-ms.topic: struct
 f1_keywords:
 - lmaccess/USER_MODALS_INFO_1004
 dev_langs:

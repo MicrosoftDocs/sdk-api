@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 2ae84d47-2bda-4954-9165-902634d09da9
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeOSVersion, IX509AttributeOSVersion interface [Security], IX509AttributeOSVersion interface [Security],described, certenroll/IX509AttributeOSVersion, security.ix509attributeosversion
-ms.topic: interface
 f1_keywords:
 - certenroll/IX509AttributeOSVersion
 dev_langs:

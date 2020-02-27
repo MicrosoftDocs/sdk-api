@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 5262ce99-8112-4f4f-a173-5927341b4a2e
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetContentBox method, IXpsOMPage.SetContentBox, IXpsOMPage::SetContentBox, SetContentBox, SetContentBox method [XPS Documents and Packaging], SetContentBox method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setcontentbox, xpsobjectmodel/IXpsOMPage::SetContentBox
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPage.SetContentBox
 dev_langs:
@@ -157,7 +156,7 @@ The content box dimensions are not checked against the page dimensions until the
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

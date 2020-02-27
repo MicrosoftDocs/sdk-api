@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 6befda1a-1a47-4668-b0cf-4fd66e7b633d
 ms.date: 12/05/2018
 ms.keywords: GetHeight, GetHeight method [Windows Controls], GetHeight method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetHeight method, ITextRow.GetHeight, ITextRow::GetHeight, controls.itextrow_getheight, tom/ITextRow::GetHeight
-ms.topic: method
 f1_keywords:
 - tom/ITextRow.GetHeight
 dev_langs:

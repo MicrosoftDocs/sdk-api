@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 40e96263-03dd-4fbe-8383-0c0bf1abd8c4
 ms.date: 12/05/2018
 ms.keywords: GetCertificateSet, GetCertificateSet method [XPS Documents and Packaging], GetCertificateSet method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetCertificateSet method, IXpsSigningOptions.GetCertificateSet, IXpsSigningOptions::GetCertificateSet, xps.ixpssigningoptions_getcertificateset, xpsdigitalsignature/IXpsSigningOptions::GetCertificateSet
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSigningOptions.GetCertificateSet
 dev_langs:
@@ -98,7 +97,7 @@ Calling this  method is optional and provides a way for an application to add  a
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

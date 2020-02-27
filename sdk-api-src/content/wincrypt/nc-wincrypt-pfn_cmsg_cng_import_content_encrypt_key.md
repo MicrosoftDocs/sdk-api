@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: cb410582-68bd-43ed-b65f-17a7c1e0800f
 ms.date: 12/05/2018
 ms.keywords: PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY, PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY callback, PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY callback function [Security], security.pfn_cmsg_cng_import_content_encrypt_key, wincrypt/PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY
-ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY
 dev_langs:

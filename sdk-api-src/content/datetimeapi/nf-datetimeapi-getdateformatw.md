@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 546cede1-1702-403a-bba3-b5cd3b35a1bf
 ms.date: 12/05/2018
 ms.keywords: GetDateFormat, GetDateFormat function [Internationalization for Windows Applications], GetDateFormatA, GetDateFormatW, _win32_GetDateFormat, datetimeapi/GetDateFormat, datetimeapi/GetDateFormatA, datetimeapi/GetDateFormatW, intl.getdateformat
-ms.topic: function
 f1_keywords:
 - datetimeapi/GetDateFormat
 dev_langs:
@@ -142,7 +141,7 @@ The function returns 0 if it does not succeed. To get extended error information
 
 
 
-<div class="alert"><b>Note</b>  This API is being updated to support the May 2019 Japanese era change. If your application supports the Japanese calendar, you should validate that it properly handles the new era. See <a href="https://aka.ms/AA3dzcz">Prepare your application for the Japanese era change</a> for more information.</div>
+<div class="alert"><b>Note</b>  This API is being updated to support the May 2019 Japanese era change. If your application supports the Japanese calendar, you should validate that it properly handles the new era. See <a href="https://docs.microsoft.com/windows/uwp/design/globalizing/japanese-era-change">Prepare your application for the Japanese era change</a> for more information.</div>
 <div> </div>
 See Remarks for <a href="https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformatex">GetDateFormatEx</a>.
 

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 400efb81-6e16-4065-a9d8-3f0a801f306e
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],StaleFileDeleted method, IMSVidStreamBufferSourceEvent.StaleFileDeleted, IMSVidStreamBufferSourceEvent::StaleFileDeleted, IMSVidStreamBufferSourceEventStateFileDeleted, StaleFileDeleted, StaleFileDeleted method [Microsoft TV Technologies], StaleFileDeleted method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_stalefiledeleted, segment/IMSVidStreamBufferSourceEvent::StaleFileDeleted
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferSourceEvent.StaleFileDeleted
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 966916c9-8b63-468b-80fb-0c4863ff893a
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [XPS Documents and Packaging], GetTransform method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetTransform method, IXpsOMVisual.GetTransform, IXpsOMVisual::GetTransform, xps.ixpsomvisual_gettransform, xpsobjectmodel/IXpsOMVisual::GetTransform
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.GetTransform
 dev_langs:
@@ -181,7 +180,7 @@ No object could be found with a key name that matched the lookup value.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

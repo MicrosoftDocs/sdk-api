@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 728f7e2f-7198-49e1-b6d9-0ac24a0b56e6
 ms.date: 12/05/2018
 ms.keywords: IWMDeviceManager3, IWMDeviceManager3 interface [windows Media Device Manager], IWMDeviceManager3 interface [windows Media Device Manager],described, IWMDeviceManager3Interface, mswmdm/IWMDeviceManager3, wmdm.iwmdevicemanager3
-ms.topic: interface
 f1_keywords:
 - mswmdm/IWMDeviceManager3
 dev_langs:

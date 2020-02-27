@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: fb08ddae-2abf-4a86-a5d8-ea745ae35aa8
 ms.date: 12/05/2018
 ms.keywords: IWMDeviceRegistration, IWMDeviceRegistration interface [windows Media Format], IWMDeviceRegistration interface [windows Media Format],described, IWMDeviceRegistrationInterface, wmformat.iwmdeviceregistration, wmsdkidl/IWMDeviceRegistration
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMDeviceRegistration
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWMDeviceRegistration</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>IWMDeviceRegistration</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 

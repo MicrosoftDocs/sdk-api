@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 29e75f58-58f3-4b3f-a3ba-e3451d3a0cae
 ms.date: 12/05/2018
 ms.keywords: DVD_AudioDuringFFwdRew, DVD_CacheSizeInMB, DVD_DisableStillThrottle, DVD_EnableESOutput, DVD_EnableExtendedCopyProtectErrors, DVD_EnableLoggingEvents, DVD_EnableNonblockingAPIs, DVD_EnablePortableBookmarks, DVD_EnableStreaming, DVD_EnableTitleLength, DVD_HMSF_TimeCodeEvents, DVD_IncreaseOutputControl, DVD_MaxReadBurstInKB, DVD_NotifyParentalLevelChange, DVD_NotifyPositionChange, DVD_OPTION_FLAG, DVD_OPTION_FLAG , DVD_OPTION_FLAG enumeration [DirectShow], DVD_OPTION_FLAGEnumeration, DVD_ReadBurstPeriodInMS, DVD_ResetOnStop, dshow.dvd_option_flag, strmif/DVD_AudioDuringFFwdRew, strmif/DVD_CacheSizeInMB, strmif/DVD_DisableStillThrottle, strmif/DVD_EnableESOutput, strmif/DVD_EnableExtendedCopyProtectErrors, strmif/DVD_EnableLoggingEvents, strmif/DVD_EnableNonblockingAPIs, strmif/DVD_EnablePortableBookmarks, strmif/DVD_EnableStreaming, strmif/DVD_EnableTitleLength, strmif/DVD_HMSF_TimeCodeEvents, strmif/DVD_IncreaseOutputControl, strmif/DVD_MaxReadBurstInKB, strmif/DVD_NotifyParentalLevelChange, strmif/DVD_NotifyPositionChange, strmif/DVD_OPTION_FLAG, strmif/DVD_ReadBurstPeriodInMS, strmif/DVD_ResetOnStop
-ms.topic: enum
 f1_keywords:
 - strmif/DVD_OPTION_FLAG
 dev_langs:
@@ -127,18 +126,18 @@ Specifies the format for timecode information.
 </tr>
 <tr>
 <td><b>TRUE</b></td>
-<td>The DVD Navigator sends all timecode information using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> structure.</td>
+[DVD_HMSF_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode) structure.</td>
 </tr>
 <tr>
 <td><b>FALSE</b></td>
-<td>The DVD Navigator sends timecode information using binary coded decimal (BCD) format, which is defined in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_timecode">DVD_TIMECODE</a> structure. </td>
+[DVD_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_timecode) structure. </td>
 </tr>
 </table>
  
 
 
 
-For backward compatibility, the default value is <b>FALSE</b>, but the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> format is easier to use.
+For backward compatibility, the default value is [DVD_HMSF_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode) format is easier to use.
 
 
 ### -field DVD_AudioDuringFFwdRew
@@ -353,7 +352,7 @@ The default value is <b>FALSE</b>.
 </tr>
 <tr>
 <td><b>TRUE</b></td>
-<td>The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleattributes">IDvdInfo2::GetTitleAttributes</a> method returns the length of the title in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_titleattributes">DVD_TitleAttributes</a> structure.</td>
+[DVD_TitleAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_titleattributes) structure.</td>
 </tr>
 <tr>
 <td><b>FALSE</b></td>

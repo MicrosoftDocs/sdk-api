@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 6E847EE2-231C-4B09-955A-F546CC790E3C
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationAutoScrollBehavior, IDirectManipulationAutoScrollBehavior interface [Direct Manipulation], IDirectManipulationAutoScrollBehavior interface [Direct Manipulation],described, directmanipulation.idirectmanipulationautoscrollbehavior, directmanipulation/IDirectManipulationAutoScrollBehavior
-ms.topic: interface
 f1_keywords:
 - directmanipulation/IDirectManipulationAutoScrollBehavior
 dev_langs:

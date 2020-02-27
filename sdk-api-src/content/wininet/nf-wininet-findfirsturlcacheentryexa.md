@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: af17c809-2a9e-443a-b64a-93c028e3b71b
 ms.date: 12/05/2018
 ms.keywords: FindFirstUrlCacheEntryEx, FindFirstUrlCacheEntryEx function [WinINet], FindFirstUrlCacheEntryExA, FindFirstUrlCacheEntryExW, _inet_findfirsturlcacheentryex_function, wininet.findfirsturlcacheentryex, wininet/FindFirstUrlCacheEntryEx, wininet/FindFirstUrlCacheEntryExA, wininet/FindFirstUrlCacheEntryExW
-ms.topic: function
 f1_keywords:
 - wininet/FindFirstUrlCacheEntryEx
 dev_langs:

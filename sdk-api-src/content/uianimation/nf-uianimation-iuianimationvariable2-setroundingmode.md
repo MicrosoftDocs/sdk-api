@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: D2FCC17B-0584-4317-8BD7-25454E4A553C
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariable2 interface [Windows Animation],SetRoundingMode method, IUIAnimationVariable2.SetRoundingMode, IUIAnimationVariable2::SetRoundingMode, SetRoundingMode, SetRoundingMode method [Windows Animation], SetRoundingMode method [Windows Animation],IUIAnimationVariable2 interface, uianimation.iuianimationvariable2_setroundingmode, uianimation/IUIAnimationVariable2::SetRoundingMode
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationVariable2.SetRoundingMode
 dev_langs:

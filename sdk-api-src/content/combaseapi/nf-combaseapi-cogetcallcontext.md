@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: b82e32c0-840d-402e-90d5-ff678c51faf1
 ms.date: 12/05/2018
 ms.keywords: CoGetCallContext, CoGetCallContext function [COM], _com_CoGetCallContext, com.cogetcallcontext, combaseapi/CoGetCallContext
-ms.topic: function
 f1_keywords:
 - combaseapi/CoGetCallContext
 dev_langs:

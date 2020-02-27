@@ -5,7 +5,6 @@ description: Specifies the argument type of a D3D12_VIDEO_DECODE_FRAME_ARGUMENT
 tech.root: mf
 ms.assetid: e9b5e3dd-d04e-4df5-9427-53255fcff245
 ms.date: 05/28/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_VIDEO_DECODE_ARGUMENT_TYPE
 dev_langs:
@@ -37,7 +36,7 @@ targetos: Windows
 
 ## -description
 
-Specifies the argument type of a [D3D12_VIDEO_DECODE_FRAME_ARGUMENT](ns-d3d12video-d3d12_video_decode_frame_argument).
+Specifies the argument type of a [D3D12_VIDEO_DECODE_FRAME_ARGUMENT](ns-d3d12video-d3d12_video_decode_frame_argument.md).
 
 ## -enum-fields
 

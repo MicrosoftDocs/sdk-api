@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_81stream.htm
 ms.date: 12/05/2018
 ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(IN IStream), Metafile.Metafile(IStream*), Metafile::Metafile, Metafile::Metafile(IN IStream), _gdiplus_CLASS_Metafile_Metafile_stream_, gdiplus._gdiplus_CLASS_Metafile_Metafile_stream_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Metafile.Metafile
 dev_langs:

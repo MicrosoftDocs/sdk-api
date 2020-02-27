@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 9dcce48e-567e-42b4-8df2-2bc861cb5fcb
 ms.date: 12/05/2018
 ms.keywords: IBindCtx interface [COM],SetBindOptions method, IBindCtx.SetBindOptions, IBindCtx::SetBindOptions, SetBindOptions, SetBindOptions method [COM], SetBindOptions method [COM],IBindCtx interface, _com_ibindctx_setbindoptions, com.ibindctx_setbindoptions, objidl/IBindCtx::SetBindOptions
-ms.topic: method
 f1_keywords:
 - objidl/IBindCtx.SetBindOptions
 dev_langs:
@@ -60,7 +59,7 @@ Sets new values for the binding parameters stored in the bind context.
 
 ### -param pbindopts [in]
 
-A pointer to a [BIND_OPTS3](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1)a> structure containing the binding parameters.
+A pointer to a [BIND_OPTS3](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1) structure containing the binding parameters.
 
 
 ## -returns

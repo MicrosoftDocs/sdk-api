@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8ad5a359-77f6-4b11-9c1c-2e4094be65d0
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetIdentifier method, IXpsOMCoreProperties.SetIdentifier, IXpsOMCoreProperties::SetIdentifier, SetIdentifier, SetIdentifier method [XPS Documents and Packaging], SetIdentifier method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setidentifier, xpsobjectmodel/IXpsOMCoreProperties::SetIdentifier
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.SetIdentifier
 dev_langs:
@@ -91,11 +90,11 @@ context.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 651dcfbc-577b-45a2-bf73-148a6f1c7030
 ms.date: 12/05/2018
 ms.keywords: GetLastUpdate, GetLastUpdate method [COM], GetLastUpdate method [COM],IOleUILinkInfo interface, GetLastUpdate method [COM],IOleUILinkInfoA interface, GetLastUpdate method [COM],IOleUILinkInfow interface, IOleUILinkInfo interface [COM],GetLastUpdate method, IOleUILinkInfo::GetLastUpdate, IOleUILinkInfoA, IOleUILinkInfoA interface [COM],GetLastUpdate method, IOleUILinkInfoA.GetLastUpdate, IOleUILinkInfoA::GetLastUpdate, IOleUILinkInfoW, IOleUILinkInfow interface [COM],GetLastUpdate method, IOleUILinkInfow::GetLastUpdate, _ole_IOleUILinkInfo_GetLastUpdate, com.ioleuilinkinfo_getlastupdate, oledlg/IOleUILinkInfo::GetLastUpdate, oledlg/IOleUILinkInfoA::GetLastUpdate, oledlg/IOleUILinkInfow::GetLastUpdate
-ms.topic: method
 f1_keywords:
 - oledlg/IOleUILinkInfo.GetLastUpdate
 dev_langs:

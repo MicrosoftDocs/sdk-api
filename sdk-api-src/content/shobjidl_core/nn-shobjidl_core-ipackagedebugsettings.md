@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e407c4ca-0de1-4b17-bb83-5c4128952d48
 ms.date: 12/05/2018
 ms.keywords: IPackageDebugSettings, IPackageDebugSettings interface [Windows Shell], IPackageDebugSettings interface [Windows Shell],described, shell.IPackageDebugSettings, shobjidl_core/IPackageDebugSettings
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IPackageDebugSettings
 dev_langs:

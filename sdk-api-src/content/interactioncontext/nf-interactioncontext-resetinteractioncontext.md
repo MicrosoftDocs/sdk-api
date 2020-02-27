@@ -7,7 +7,6 @@ tech.root: Input_IntContext
 ms.assetid: 5c9b7756-fad1-4656-952c-78845685aa21
 ms.date: 12/05/2018
 ms.keywords: ResetInteractionContext, ResetInteractionContext function, input_intcontext.resetinteractioncontext, interactioncontext.resetinteractioncontext, interactioncontext/ResetInteractionContext
-ms.topic: function
 f1_keywords:
 - interactioncontext/ResetInteractionContext
 dev_langs:

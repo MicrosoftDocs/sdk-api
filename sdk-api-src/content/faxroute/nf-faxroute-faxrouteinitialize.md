@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_54o5.htm
 ms.date: 12/05/2018
 ms.keywords: FaxRouteInitialize, FaxRouteInitialize function [Fax Service], _mfax_faxrouteinitialize, fax._mfax_faxrouteinitialize, faxroute/FaxRouteInitialize
-ms.topic: function
 f1_keywords:
 - faxroute/FaxRouteInitialize
 dev_langs:

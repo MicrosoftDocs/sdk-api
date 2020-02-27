@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: d80c4b44-3f50-46f9-bf5a-fff7868d91ba
 ms.date: 12/05/2018
 ms.keywords: GetUpdateRgn, GetUpdateRgn function [Windows GDI], _win32_GetUpdateRgn, gdi.getupdatergn, winuser/GetUpdateRgn
-ms.topic: function
 f1_keywords:
 - winuser/GetUpdateRgn
 dev_langs:

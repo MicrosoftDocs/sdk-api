@@ -1,9 +1,10 @@
 ---
 UID: NA:gdipluscolor
+title: Gdipluscolor.h header
 ms.assetid: b9bf4454-b16d-35ba-b437-3f291166884c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: gdiplus
 ---
 

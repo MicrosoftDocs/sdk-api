@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: a1b5a225-6089-48f6-903c-0eb0539ca157
 ms.date: 12/05/2018
 ms.keywords: BrowseOnly property [Windows Update Agent], BrowseOnly property [Windows Update Agent],IUpdate3 interface, IUpdate3 interface [Windows Update Agent],BrowseOnly property, IUpdate3.BrowseOnly, IUpdate3.get_BrowseOnly, IUpdate3::BrowseOnly, IUpdate3::get_BrowseOnly, get_BrowseOnly, wua.iupdate3_browseonly, wuapi/IUpdate3::BrowseOnly, wuapi/IUpdate3::get_BrowseOnly
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdate3.BrowseOnly
 dev_langs:

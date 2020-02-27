@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: b54917c8-51cd-4891-9613-f37a4a46448b
 ms.date: 12/05/2018
 ms.keywords: LsaConnectUntrusted, LsaConnectUntrusted function [Security], _lsa_lsaconnectuntrusted, ntsecapi/LsaConnectUntrusted, security.lsaconnectuntrusted
-ms.topic: function
 f1_keywords:
 - ntsecapi/LsaConnectUntrusted
 dev_langs:

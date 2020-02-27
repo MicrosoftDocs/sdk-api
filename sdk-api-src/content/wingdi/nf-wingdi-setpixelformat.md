@@ -7,7 +7,6 @@ tech.root: OpenGL
 ms.assetid: f8d74078-a7e7-4d95-857a-f51d5d70598e
 ms.date: 12/05/2018
 ms.keywords: SetPixelFormat, SetPixelFormat function [OpenGL], _ogl_SetPixelFormat, opengl.setpixelformat, wingdi/SetPixelFormat
-ms.topic: function
 f1_keywords:
 - wingdi/SetPixelFormat
 dev_langs:

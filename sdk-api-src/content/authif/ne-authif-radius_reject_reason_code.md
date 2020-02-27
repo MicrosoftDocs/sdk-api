@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: b8db4404-40ab-4f28-96ce-43359c959546
 ms.date: 12/05/2018
 ms.keywords: RADIUS_REJECT_REASON_CODE, RADIUS_REJECT_REASON_CODE enumeration [Network Policy Server], authif/RADIUS_REJECT_REASON_CODE, authif/rrrcAccountDisabled, authif/rrrcAccountExpired, authif/rrrcAccountUnknown, authif/rrrcAuthenticationFailure, authif/rrrcUndefined, ias.radius_reject_reason_code, nps.IAS_radius_reject_reason_code, rrrcAccountDisabled, rrrcAccountExpired, rrrcAccountUnknown, rrrcAuthenticationFailure, rrrcUndefined
-ms.topic: enum
 f1_keywords:
 - authif/RADIUS_REJECT_REASON_CODE
 dev_langs:

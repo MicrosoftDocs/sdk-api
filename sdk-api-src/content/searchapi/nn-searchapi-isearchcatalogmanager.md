@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\isearchcatalogmanager.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager, ISearchCatalogManager interface [search], ISearchCatalogManager interface [search],described, _search_ISearchCatalogManager, search._search_ISearchCatalogManager, searchapi/ISearchCatalogManager
-ms.topic: interface
 f1_keywords:
 - searchapi/ISearchCatalogManager
 dev_langs:

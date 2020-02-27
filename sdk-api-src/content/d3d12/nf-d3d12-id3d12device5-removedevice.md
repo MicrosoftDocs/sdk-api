@@ -5,7 +5,6 @@ description: You can call **RemoveDevice** to indicate to the Direct3D 12 runtim
 tech.root: direct3d12
 ms.date: 10/30/2019
 ms.keywords: ID3D12Device5::RemoveDevice
-ms.topic: language-reference
 f1_keywords:
 - d3d12/ID3D12Device5.RemoveDevice
 dev_langs:

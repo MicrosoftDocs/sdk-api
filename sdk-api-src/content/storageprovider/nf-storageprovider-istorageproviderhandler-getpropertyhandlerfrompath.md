@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: E02B43AC-73A8-4FD0-BC54-47922CA5EEDB
 ms.date: 12/05/2018
 ms.keywords: GetPropertyHandlerFromPath, GetPropertyHandlerFromPath method [Windows Shell], GetPropertyHandlerFromPath method [Windows Shell],IStorageProviderHandler interface, IStorageProviderHandler interface [Windows Shell],GetPropertyHandlerFromPath method, IStorageProviderHandler.GetPropertyHandlerFromPath, IStorageProviderHandler::GetPropertyHandlerFromPath, shell.istorageproviderhandler_getpropertyhandlerfrompath, storageprovider/IStorageProviderHandler::GetPropertyHandlerFromPath
-ms.topic: method
 f1_keywords:
 - storageprovider/IStorageProviderHandler.GetPropertyHandlerFromPath
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 66ca2569-b763-445b-b5b5-98ef32c64578
 ms.date: 12/05/2018
 ms.keywords: IShellWindows interface [Windows Shell],Revoke method, IShellWindows.Revoke, IShellWindows::Revoke, Revoke, Revoke method [Windows Shell], Revoke method [Windows Shell],IShellWindows interface, _win32_IShellWindows_Revoke, exdisp/IShellWindows::Revoke, shell.IShellWindows_Revoke
-ms.topic: method
 f1_keywords:
 - exdisp/IShellWindows.Revoke
 dev_langs:

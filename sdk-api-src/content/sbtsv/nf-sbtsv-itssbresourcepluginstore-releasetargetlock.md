@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 37c22f94-c00d-471b-bd6c-067b3229f99b
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],ReleaseTargetLock method, ITsSbResourcePluginStore.ReleaseTargetLock, ITsSbResourcePluginStore::ReleaseTargetLock, ReleaseTargetLock, ReleaseTargetLock method [Remote Desktop Services], ReleaseTargetLock method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::ReleaseTargetLock, termserv.itssbresourcepluginstore_releasetargetlock
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbResourcePluginStore.ReleaseTargetLock
 dev_langs:

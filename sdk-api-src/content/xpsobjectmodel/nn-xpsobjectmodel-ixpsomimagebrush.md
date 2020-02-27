@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f5478582-466b-496e-b7f3-42fb8caa6814
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageBrush, IXpsOMImageBrush interface [XPS Documents and Packaging], IXpsOMImageBrush interface [XPS Documents and Packaging],described, xps.ixpsomimagebrush, xpsobjectmodel/IXpsOMImageBrush
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMImageBrush
 dev_langs:
@@ -193,7 +192,7 @@ else
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

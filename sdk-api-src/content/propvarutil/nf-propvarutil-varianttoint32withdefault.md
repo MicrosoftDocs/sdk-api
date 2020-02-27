@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: fd2d5330-2b31-4dbb-b57b-4ca5579fa03f
 ms.date: 12/05/2018
 ms.keywords: VariantToInt32WithDefault, VariantToInt32WithDefault function [Windows Properties], _shell_VariantToInt32WithDefault, properties.VariantToInt32WithDefault, propvarutil/VariantToInt32WithDefault, shell.VariantToInt32WithDefault
-ms.topic: function
 f1_keywords:
 - propvarutil/VariantToInt32WithDefault
 dev_langs:

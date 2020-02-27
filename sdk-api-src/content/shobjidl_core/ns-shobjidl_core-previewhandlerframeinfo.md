@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: dd93675e-fd69-4fa3-a8e7-5238c27783d8
 ms.date: 12/05/2018
 ms.keywords: PREVIEWHANDLERFRAMEINFO, PREVIEWHANDLERFRAMEINFO structure [Windows Shell], _shell_PREVIEWHANDLERFRAMEINFO, shell.PREVIEWHANDLERFRAMEINFO, shobjidl_core/PREVIEWHANDLERFRAMEINFO
-ms.topic: struct
 f1_keywords:
 - shobjidl_core/PREVIEWHANDLERFRAMEINFO
 dev_langs:

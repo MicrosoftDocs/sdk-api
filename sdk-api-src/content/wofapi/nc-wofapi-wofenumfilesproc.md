@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: E710869D-68A9-4E30-96DE-6313A5A182D8
 ms.date: 12/05/2018
 ms.keywords: WofEnumFilesProc, WofEnumFilesProc callback, WofEnumFilesProc callback function [Files], fs.wofenumfilesproc, wofapi/WofEnumFilesProc
-ms.topic: callback
 f1_keywords:
 - wofapi/WofEnumFilesProc
 dev_langs:

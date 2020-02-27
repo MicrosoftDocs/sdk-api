@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 20262521-bb9c-4e37-b89c-8c439df50ed4
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],Stop method, IMSVidPlayback.Stop, IMSVidPlayback::Stop, IMSVidPlaybackStop, Stop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_stop, segment/IMSVidPlayback::Stop
-ms.topic: method
 f1_keywords:
 - segment/IMSVidPlayback.Stop
 dev_langs:

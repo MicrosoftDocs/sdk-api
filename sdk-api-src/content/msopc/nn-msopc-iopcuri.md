@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 35ce7946-f7e7-4ac3-852f-e3fcca23d6d4
 ms.date: 12/05/2018
 ms.keywords: IOpcUri, IOpcUri interface [Open Packaging Conventions], IOpcUri interface [Open Packaging Conventions],described, msopc/IOpcUri, opc.iopcuri
-ms.topic: interface
 f1_keywords:
 - msopc/IOpcUri
 dev_langs:
@@ -55,7 +54,7 @@ Represents the  URI of the package root or of a part that is relative to  the pa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcUri</b> interface inherits from <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a>. <b>IOpcUri</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcUri</b> interface inherits from <a href="https://msdn2.microsoft.com/library/ms775038.aspx">IUri</a>. <b>IOpcUri</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -128,7 +127,7 @@ The behavior and performance of this interface is the same on all supported Wind
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a>
+<a href="https://msdn2.microsoft.com/library/ms775038.aspx">IUri</a>
 
 
 

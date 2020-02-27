@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 1489e2a4-36f3-4e8c-9b99-7c2e396b3814
 ms.date: 12/05/2018
 ms.keywords: '*POCSP_SIGNATURE_INFO, OCSP_SIGNATURE_INFO, OCSP_SIGNATURE_INFO structure [Security], POCSP_SIGNATURE_INFO, POCSP_SIGNATURE_INFO structure pointer [Security], security.ocsp_signature_info, wincrypt/OCSP_SIGNATURE_INFO, wincrypt/POCSP_SIGNATURE_INFO'
-ms.topic: struct
 f1_keywords:
 - wincrypt/OCSP_SIGNATURE_INFO
 dev_langs:
@@ -103,7 +102,7 @@ An array of pointers to <a href="https://docs.microsoft.com/previous-versions/wi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=91156">RFC 2560  Online Certificate Status Protocol</a>
+<a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560  Online Certificate Status Protocol</a>
  
 
  

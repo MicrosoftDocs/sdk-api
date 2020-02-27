@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 799ebbdb-b285-40a6-9fd8-39341d39bbf9
 ms.date: 12/05/2018
 ms.keywords: IEnumMcastScope interface [TAPI 2.2],Reset method, IEnumMcastScope.Reset, IEnumMcastScope::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumMcastScope interface, _tapi3_ienummcastscope_reset, mdhcp/IEnumMcastScope::Reset, tapi3.ienummcastscope_reset
-ms.topic: method
 f1_keywords:
 - mdhcp/IEnumMcastScope.Reset
 dev_langs:

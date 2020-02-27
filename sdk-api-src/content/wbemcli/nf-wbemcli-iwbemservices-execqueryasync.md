@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: d8b55500-d84c-431b-93c6-99d1f1b845c3
 ms.date: 12/05/2018
 ms.keywords: ExecQueryAsync, ExecQueryAsync method [Windows Management Instrumentation], ExecQueryAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecQueryAsync method, IWbemServices.ExecQueryAsync, IWbemServices::ExecQueryAsync, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_ENSURE_LOCATABLE, WBEM_FLAG_PROTOTYPE, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_execqueryasync, wbemcli/IWbemServices::ExecQueryAsync, wmi.iwbemservices_execqueryasync
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemServices.ExecQueryAsync
 dev_langs:
@@ -156,7 +155,7 @@ WMI only calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf
 
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-When there is a  failure, you can obtain   information from the COM function <a href="http://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a>.
+When there is a  failure, you can obtain   information from the COM function <a href="https://msdn.microsoft.com/library/ms221032.aspx">GetErrorInfo</a>.
 
 Other error codes are returned to the object sink specified by the <i>pResponseHandler</i> parameter.
 

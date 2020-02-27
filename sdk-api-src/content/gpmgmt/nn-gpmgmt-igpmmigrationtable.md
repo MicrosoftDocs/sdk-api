@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: c80c76b0-8589-4ecb-b9bf-6b8377fa98dd
 ms.date: 12/05/2018
 ms.keywords: GPMMigrationTable, IGPMMigrationTable, IGPMMigrationTable interface [GPMC], IGPMMigrationTable interface [GPMC],described, gpmc.igpmmigrationtable, gpmgmt/IGPMMigrationTable
-ms.topic: interface
 f1_keywords:
 - gpmgmt/IGPMMigrationTable
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: d95fff0c-2f80-4ae4-9d75-9c7b0220a902
 ms.date: 12/05/2018
 ms.keywords: FWPM_SESSION_ENUM_TEMPLATE0, FWPM_SESSION_ENUM_TEMPLATE0 structure [Filtering], fwp.fwpm_session_enum_template0_struct, fwpmtypes/FWPM_SESSION_ENUM_TEMPLATE0
-ms.topic: struct
 f1_keywords:
 - fwpmtypes/FWPM_SESSION_ENUM_TEMPLATE0
 dev_langs:

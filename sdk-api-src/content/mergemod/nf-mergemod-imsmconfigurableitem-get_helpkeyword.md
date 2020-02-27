@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 75dc8672-f910-448a-906b-aba921463e78
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigurableItem interface,get_HelpKeyword method, IMsmConfigurableItem.get_HelpKeyword, IMsmConfigurableItem::get_HelpKeyword, _msi_get_helpkeyword_function, get_HelpKeyword, get_HelpKeyword method, get_HelpKeyword method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_HelpKeyword, setup.imsmconfigurableitem_get_helpkeyword
-ms.topic: method
 f1_keywords:
 - mergemod/IMsmConfigurableItem.get_HelpKeyword
 dev_langs:

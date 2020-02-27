@@ -7,7 +7,6 @@ tech.root: tracelogging
 ms.assetid: 4515652D-86B0-4274-8523-27292F5F6815
 ms.date: 12/05/2018
 ms.keywords: TRACELOGGING_DEFINE_PROVIDER, TRACELOGGING_DEFINE_PROVIDER macro, tracelogging.TRACELOGGING_DEFINE_PROVIDER, tracelogging.traceloggingprovider, traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER
-ms.topic: macro
 f1_keywords:
 - traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER
 dev_langs:

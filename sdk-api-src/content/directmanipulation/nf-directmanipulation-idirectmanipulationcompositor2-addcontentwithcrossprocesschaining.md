@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: dd6052df-30b5-4872-89a7-b98126fcd44d
 ms.date: 12/05/2018
 ms.keywords: AddContentWithCrossProcessChaining, AddContentWithCrossProcessChaining method [Direct Manipulation], AddContentWithCrossProcessChaining method [Direct Manipulation],IDirectManipulationCompositor2 interface, IDirectManipulationCompositor2 interface [Direct Manipulation],AddContentWithCrossProcessChaining method, IDirectManipulationCompositor2.AddContentWithCrossProcessChaining, IDirectManipulationCompositor2::AddContentWithCrossProcessChaining, directmanipulation.idirectmanipulationcompositor2_addcontentwithcrossprocesschaining, directmanipulation/IDirectManipulationCompositor2::AddContentWithCrossProcessChaining
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationCompositor2.AddContentWithCrossProcessChaining
 dev_langs:

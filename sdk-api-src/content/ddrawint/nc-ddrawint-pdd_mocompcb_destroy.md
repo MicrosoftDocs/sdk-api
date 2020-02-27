@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 7a8900d0-4c9f-4600-8408-197f4e7c78ba
 ms.date: 12/05/2018
 ms.keywords: DdMoCompDestroy, DdMoCompDestroy callback function [Display Devices], PDD_MOCOMPCB_DESTROY, PDD_MOCOMPCB_DESTROY callback, ddfncs_7fbf03ee-a58a-40f0-88b6-f9bf68cb3f8f.xml, ddrawint/DdMoCompDestroy, display.ddmocompdestroy
-ms.topic: callback
 f1_keywords:
 - ddrawint/DdMoCompDestroy
 dev_langs:

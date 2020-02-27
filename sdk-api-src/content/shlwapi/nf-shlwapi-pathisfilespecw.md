@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c69d6cca-44e7-4792-8fb2-3c4ecd2e57f2
 ms.date: 12/05/2018
 ms.keywords: PathIsFileSpec, PathIsFileSpec function [Windows Shell], PathIsFileSpecA, PathIsFileSpecW, _win32_PathIsFileSpec, shell.PathIsFileSpec, shlwapi/PathIsFileSpec, shlwapi/PathIsFileSpecA, shlwapi/PathIsFileSpecW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathIsFileSpec
 dev_langs:

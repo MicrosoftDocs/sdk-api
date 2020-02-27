@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 4c1fc49d-acca-40fe-85cf-909092ceb5ef
 ms.date: 12/05/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get_MediaMajorType method, IComponentType.get_MediaMajorType, IComponentType::get_MediaMajorType, IComponentTypeget_MediaMajorType, get_MediaMajorType, get_MediaMajorType method [Microsoft TV Technologies], get_MediaMajorType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get_mediamajortype, tuner/IComponentType::get_MediaMajorType
-ms.topic: method
 f1_keywords:
 - tuner/IComponentType.get_MediaMajorType
 dev_langs:
@@ -80,7 +79,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a>
 
 
 

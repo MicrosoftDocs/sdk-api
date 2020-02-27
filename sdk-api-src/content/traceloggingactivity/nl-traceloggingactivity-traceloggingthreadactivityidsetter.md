@@ -7,7 +7,6 @@ tech.root: tracelogging
 ms.assetid: 16E6E61C-0A3D-4B15-901B-E1302EBF1D1C
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSetter class, TraceLoggingThreadActivityIdSetter class,described, tracelogging.traceloggingthreadactivityidsetter, traceloggingactivity/TraceLoggingThreadActivityIdSetter
-ms.topic: class
 f1_keywords:
 - traceloggingactivity/TraceLoggingThreadActivityIdSetter
 dev_langs:

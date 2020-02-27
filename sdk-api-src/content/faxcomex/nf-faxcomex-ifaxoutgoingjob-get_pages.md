@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_69mb.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Pages property, IFaxOutgoingJob.Pages, IFaxOutgoingJob.get_Pages, IFaxOutgoingJob::Pages, IFaxOutgoingJob::get_Pages, Pages property [Fax Service], Pages property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.pages, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_pages_cpp, fax._mfax_faxoutgoingjob_pages, faxcomex/IFaxOutgoingJob::Pages, faxcomex/IFaxOutgoingJob::get_Pages, get_Pages
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutgoingJob.Pages
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug.htm
 ms.date: 12/05/2018
 ms.keywords: 9243084e-1ae3-39f6-3e6b-d8150af7e0cc, ID3D10Debug, ID3D10Debug interface [Direct3D 10], ID3D10Debug interface [Direct3D 10],described, d3d10sdklayers/ID3D10Debug, direct3d10.id3d10debug
-ms.topic: interface
 f1_keywords:
 - d3d10sdklayers/ID3D10Debug
 dev_langs:
@@ -139,7 +138,7 @@ Check the validity of pipeline state.
 
 
 
-This interface is obtained by querying it from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a> using <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a>.
+This interface is obtained by querying it from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a> using <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>.
 
 
 

@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\metadata.htm
 ms.date: 12/05/2018
 ms.keywords: IRelationship interface [search],MetaData method, IRelationship.MetaData, IRelationship::MetaData, MetaData, MetaData method [search], MetaData method [search],IRelationship interface, _search_IRelationship_MetaData, search._search_IRelationship_MetaData, structuredquery/IRelationship::MetaData
-ms.topic: method
 f1_keywords:
 - structuredquery/IRelationship.MetaData
 dev_langs:

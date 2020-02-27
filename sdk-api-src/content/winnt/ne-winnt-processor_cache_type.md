@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 23044f67-e944-43c2-8c75-3d2fba87cb3c
 ms.date: 12/05/2018
 ms.keywords: CacheData, CacheInstruction, CacheTrace, CacheUnified, PROCESSOR_CACHE_TYPE, PROCESSOR_CACHE_TYPE enumeration, base.processor_cache_type, winnt/CacheData, winnt/CacheInstruction, winnt/CacheTrace, winnt/CacheUnified, winnt/PROCESSOR_CACHE_TYPE
-ms.topic: enum
 f1_keywords:
 - winnt/PROCESSOR_CACHE_TYPE
 dev_langs:

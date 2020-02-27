@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 50945048-5E79-4423-8983-543085E3D953
 ms.date: 12/05/2018
 ms.keywords: TS_SB_SORT_BY, TS_SB_SORT_BY enumeration [Remote Desktop Services], TS_SB_SORT_BY_NAME, TS_SB_SORT_BY_NONE, TS_SB_SORT_BY_PROP, sbtsv/TS_SB_SORT_BY, sbtsv/TS_SB_SORT_BY_NAME, sbtsv/TS_SB_SORT_BY_NONE, sbtsv/TS_SB_SORT_BY_PROP, termserv.ts_sb_sort_by
-ms.topic: enum
 f1_keywords:
 - sbtsv/TS_SB_SORT_BY
 dev_langs:

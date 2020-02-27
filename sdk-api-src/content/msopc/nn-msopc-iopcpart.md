@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: e6a40f30-03d1-4c93-a5e0-563b4c6588b4
 ms.date: 12/05/2018
 ms.keywords: IOpcPart, IOpcPart interface [Open Packaging Conventions], IOpcPart interface [Open Packaging Conventions],described, msopc/IOpcPart, opc.iopcpart
-ms.topic: interface
 f1_keywords:
 - msopc/IOpcPart
 dev_langs:
@@ -196,7 +195,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 09a366a6-fcb4-4a0b-8df1-795360d147b9
 ms.date: 12/05/2018
 ms.keywords: ITocEntry interface [Media Foundation],SetDescriptor method, ITocEntry.SetDescriptor, ITocEntry::SetDescriptor, SetDescriptor, SetDescriptor method [Media Foundation], SetDescriptor method [Media Foundation],ITocEntry interface, codecapi.itocentry_setdescriptor, mf.itocentry_setdescriptor, wmcodecdsp/ITocEntry::SetDescriptor
-ms.topic: method
 f1_keywords:
 - wmcodecdsp/ITocEntry.SetDescriptor
 dev_langs:

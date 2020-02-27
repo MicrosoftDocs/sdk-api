@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: d9d69521-9b33-4fc5-8a1c-929f216db450
 ms.date: 12/05/2018
 ms.keywords: SystemTimeToVariantTime, SystemTimeToVariantTime function [Automation], _oa96_SystemTimeToVariantTime, automat.systemtimetovarianttime, oleauto/SystemTimeToVariantTime
-ms.topic: function
 f1_keywords:
 - oleauto/SystemTimeToVariantTime
 dev_langs:
@@ -84,6 +83,9 @@ The function returns TRUE on success and FALSE otherwise.
 A variant time is stored as an 8-byte real value (<b>double</b>), representing a date between January 1, 100 and December 31, 9999, inclusive. The value 2.0 represents January 1, 1900; 3.0 represents January 2, 1900, and so on. Adding 1 to the value increments the date by a day. The fractional part of the value represents the time of day. Therefore, 2.5 represents noon on January 1, 1900; 3.25 represents 6:00 A.M. on January 2, 1900, and so on. Negative numbers represent dates prior to December 30, 1899.
 
 The variant time resolves to one second. Any milliseconds in the input date are ignored. 
+
+> [!NOTE]
+> When working with variant time, be mindful of the additional day added in leap years, which might produce unexpected results if unhandled. For more information, see [leap year readiness](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/it-s-2020-is-your-code-ready-for-leap-day/ba-p/1157279).
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure is useful for the following reasons:  
 

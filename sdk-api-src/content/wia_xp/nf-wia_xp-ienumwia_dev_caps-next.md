@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_caps\next.htm
 ms.date: 12/05/2018
 ms.keywords: IEnumWIA_DEV_CAPS interface [WIA],Next method, IEnumWIA_DEV_CAPS.Next, IEnumWIA_DEV_CAPS::Next, Next, Next method [WIA], Next method [WIA],IEnumWIA_DEV_CAPS interface, _wia_IEnumWIA_DEV_CAPS_Next, wia._wia_IEnumWIA_DEV_CAPS_Next, wia_xp/IEnumWIA_DEV_CAPS::Next
-ms.topic: method
 f1_keywords:
 - wia_xp/IEnumWIA_DEV_CAPS.Next
 dev_langs:

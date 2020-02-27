@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 6442977d-e980-419e-abe9-9d15dbb045c1
 ms.date: 12/05/2018
 ms.keywords: All other values of stgfmt, STGFMT_DOCFILE, StgCreateStorageEx, StgCreateStorageEx function [Structured Storage], _stg_stgcreatestorageex, coml2api/StgCreateStorageEx, stg.stgcreatestorageex
-ms.topic: function
 f1_keywords:
 - coml2api/StgCreateStorageEx
 dev_langs:
@@ -199,7 +198,7 @@ Specifying STGM_SIMPLE provides a much faster implementation of a compound file 
 The simple mode does not support all the methods on 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>. Specifically, in simple mode, supported 
 <b>IStorage</b> methods are <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-createstream">CreateStream</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-commit">Commit</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-setclass">SetClass</a> as well as the COM <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> methods of <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a>, <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> and <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. In addition, 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-setclass">SetClass</a> as well as the COM <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> methods of <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>, <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> and <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. In addition, 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-setelementtimes">SetElementTimes</a> is supported with a <b>NULL</b> name, allowing applications to set times on a root storage. All the other methods of 
 <b>IStorage</b> return STG_E_INVALIDFUNCTION.
 

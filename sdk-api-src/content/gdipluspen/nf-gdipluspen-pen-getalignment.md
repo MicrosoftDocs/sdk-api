@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getalignment.htm
 ms.date: 12/05/2018
 ms.keywords: GetAlignment, GetAlignment method [GDI+], GetAlignment method [GDI+],Pen class, Pen class [GDI+],GetAlignment method, Pen.GetAlignment, Pen::GetAlignment, _gdiplus_CLASS_Pen_GetAlignment_, gdiplus._gdiplus_CLASS_Pen_GetAlignment_
-ms.topic: method
 f1_keywords:
 - gdipluspen/Pen.GetAlignment
 dev_langs:

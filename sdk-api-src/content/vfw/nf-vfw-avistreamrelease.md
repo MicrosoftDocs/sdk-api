@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: bd71ddf6-9d02-463d-9d1c-50605441ad59
 ms.date: 12/05/2018
 ms.keywords: AVIStreamRelease, AVIStreamRelease function [Windows Multimedia], _win32_AVIStreamRelease, multimedia.avistreamrelease, vfw/AVIStreamRelease
-ms.topic: function
 f1_keywords:
 - vfw/AVIStreamRelease
 dev_langs:

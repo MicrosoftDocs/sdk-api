@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: c33255cb-040f-4eb4-9af2-fdbea17c1682
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableLocator, IDigitalCableLocator interface [Microsoft TV Technologies], IDigitalCableLocator interface [Microsoft TV Technologies],described, IDigitalCableLocatorInterface, mstv.idigitalcablelocator, tuner/IDigitalCableLocator
-ms.topic: interface
 f1_keywords:
 - tuner/IDigitalCableLocator
 dev_langs:

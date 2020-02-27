@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 14342d8b-3c76-4c13-8cbe-a60bb66084c8
 ms.date: 12/05/2018
 ms.keywords: 14342d8b-3c76-4c13-8cbe-a60bb66084c8, IMFTrustedOutput, IMFTrustedOutput interface [Media Foundation], IMFTrustedOutput interface [Media Foundation],described, mf.imftrustedoutput, mfidl/IMFTrustedOutput
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFTrustedOutput
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: ca8bc833-4d6f-4ed0-9c9b-15bbca5e0090
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextAddOutbound1, IPsecSaContextAddOutbound1 function [Filtering], fwp.ipsecsacontextaddoutbound1, fwpmu/IPsecSaContextAddOutbound1
-ms.topic: function
 f1_keywords:
 - fwpmu/IPsecSaContextAddOutbound1
 dev_langs:

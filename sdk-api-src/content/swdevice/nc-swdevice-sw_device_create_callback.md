@@ -7,7 +7,6 @@ tech.root: swdevice
 ms.assetid: 3955FA66-EBE2-4710-A873-C5FC8B7DBE2E
 ms.date: 12/05/2018
 ms.keywords: SW_DEVICE_CREATE_CALLBACK, SW_DEVICE_CREATE_CALLBACK function, SW_DEVICE_CREATE_CALLBACK function pointer, swdevice.sw_device_create_callback, swdevice/SW_DEVICE_CREATE_CALLBACK
-ms.topic: callback
 f1_keywords:
 - swdevice/SW_DEVICE_CREATE_CALLBACK
 dev_langs:

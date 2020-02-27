@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5008ce75-7a90-4f30-84e0-13d00cc1e58e
 ms.date: 12/05/2018
 ms.keywords: EnumCategories, EnumCategories method [Windows Shell], EnumCategories method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],EnumCategories method, ICategoryProvider.EnumCategories, ICategoryProvider::EnumCategories, inet_ICategoryProvider_EnumCategories, shell.ICategoryProvider_EnumCategories, shobjidl_core/ICategoryProvider::EnumCategories
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ICategoryProvider.EnumCategories
 dev_langs:

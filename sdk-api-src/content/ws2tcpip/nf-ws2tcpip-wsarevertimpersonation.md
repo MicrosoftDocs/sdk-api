@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 7de25015-97ec-4338-846f-57df54142d65
 ms.date: 12/05/2018
 ms.keywords: WSARevertImpersonation, WSARevertImpersonation function [Winsock], winsock.wsarevertimpersonation, ws2tcpip/WSARevertImpersonation
-ms.topic: function
 f1_keywords:
 - ws2tcpip/WSARevertImpersonation
 dev_langs:

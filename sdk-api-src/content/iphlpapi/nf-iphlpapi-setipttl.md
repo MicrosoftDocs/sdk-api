@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: dfde8712-f68f-4fa4-b939-ea36e23b5b1e
 ms.date: 12/05/2018
 ms.keywords: SetIpTTL, SetIpTTL function [IP Helper], _iphlp_setipttl, iphlp.setipttl, iphlpapi/SetIpTTL
-ms.topic: function
 f1_keywords:
 - iphlpapi/SetIpTTL
 dev_langs:

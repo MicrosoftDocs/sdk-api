@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: c22f25fd-bbee-45de-9ca0-064b159abb7c
 ms.date: 12/05/2018
 ms.keywords: '*POCSP_BASIC_RESPONSE_ENTRY, OCSP_BASIC_GOOD_CERT_STATUS, OCSP_BASIC_RESPONSE_ENTRY, OCSP_BASIC_RESPONSE_ENTRY structure [Security], OCSP_BASIC_REVOKED_CERT_STATUS, OCSP_BASIC_UNKNOWN_CERT_STATUS, POCSP_BASIC_RESPONSE_ENTRY, POCSP_BASIC_RESPONSE_ENTRY structure pointer [Security], security.ocsp_basic_response_entry, wincrypt/OCSP_BASIC_RESPONSE_ENTRY, wincrypt/POCSP_BASIC_RESPONSE_ENTRY'
-ms.topic: struct
 f1_keywords:
 - wincrypt/OCSP_BASIC_RESPONSE_ENTRY
 dev_langs:
@@ -68,7 +67,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-
 A value that indicates the target certificate revocation status.
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=91156">RFC 2560</a> defines the following possible values for certificate status.
+<a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560</a> defines the following possible values for certificate status.
 
 
 
@@ -165,7 +164,7 @@ An array of pointers to  <a href="https://docs.microsoft.com/windows/desktop/api
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=91156">RFC 2560 Online Certificate Status Protocol</a>
+<a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560 Online Certificate Status Protocol</a>
  
 
  

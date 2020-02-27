@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 38872c60-7d2b-4bfc-b771-98950ab8f40c
 ms.date: 12/05/2018
 ms.keywords: GetMostRecentRunTime, GetMostRecentRunTime method [Task Scheduler], GetMostRecentRunTime method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetMostRecentRunTime method, IScheduledWorkItem.GetMostRecentRunTime, IScheduledWorkItem::GetMostRecentRunTime, _msb_ischeduledworkitem_getmostrecentruntime, mstask/IScheduledWorkItem::GetMostRecentRunTime, taskschd.ischeduledworkitem_getmostrecentruntime
-ms.topic: method
 f1_keywords:
 - mstask/IScheduledWorkItem.GetMostRecentRunTime
 dev_langs:

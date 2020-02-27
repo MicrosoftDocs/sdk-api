@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 10795401-003f-45ce-80f1-ccc31659298a
 ms.date: 12/05/2018
 ms.keywords: CancelIPChangeNotify, CancelIPChangeNotify function [IP Helper], iphlp.cancelipchangenotify, iphlpapi/CancelIPChangeNotify
-ms.topic: function
 f1_keywords:
 - iphlpapi/CancelIPChangeNotify
 dev_langs:

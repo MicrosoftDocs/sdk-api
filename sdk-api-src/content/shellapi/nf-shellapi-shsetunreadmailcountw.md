@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4a0e1ade-8df1-41b5-b6ea-dad427b50f5a
 ms.date: 12/05/2018
 ms.keywords: SHSetUnreadMailCount, SHSetUnreadMailCount function [Windows Shell], SHSetUnreadMailCountW, _shell_SHSetUnreadMailCount, shell.SHSetUnreadMailCount, shellapi/SHSetUnreadMailCount, shellapi/SHSetUnreadMailCountW
-ms.topic: function
 f1_keywords:
 - shellapi/SHSetUnreadMailCount
 dev_langs:

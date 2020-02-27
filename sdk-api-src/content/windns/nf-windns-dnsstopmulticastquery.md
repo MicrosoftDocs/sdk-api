@@ -4,7 +4,6 @@ title: DnsStopMulticastQuery function
 description: Used to stop a running [DnsStartMulticastQuery](nf-windns-dnsstartmulticastquery.md) operation.
 ms.date: 02/14/2019
 ms.keywords: DnsStopMulticastQuery
-ms.topic: language-reference
 f1_keywords:
 - windns/DnsStopMulticastQuery
 dev_langs:

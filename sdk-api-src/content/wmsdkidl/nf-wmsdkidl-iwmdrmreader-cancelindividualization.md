@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 837d6fee-d5ba-49d8-ac69-e8ff010a787d
 ms.date: 12/05/2018
 ms.keywords: CancelIndividualization, CancelIndividualization method [windows Media Format], CancelIndividualization method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],CancelIndividualization method, IWMDRMReader.CancelIndividualization, IWMDRMReader::CancelIndividualization, IWMDRMReaderCancelIndividualization, wmformat.iwmdrmreader_cancelindividualization, wmsdkidl/IWMDRMReader::CancelIndividualization
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDRMReader.CancelIndividualization
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>CancelIndividualization</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>CancelIndividualization</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 

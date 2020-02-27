@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 3C3B937D-5A70-480C-98F1-783D05D1810C
 ms.date: 12/05/2018
 ms.keywords: GetPublisher, GetPublisher method [App packaging and management], GetPublisher method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetPublisher method, IAppxManifestPackageId.GetPublisher, IAppxManifestPackageId::GetPublisher, appxpackaging/IAppxManifestPackageId::GetPublisher, appxpkg.iappxmanifestpackageid_getpublisher
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxManifestPackageId.GetPublisher
 dev_langs:

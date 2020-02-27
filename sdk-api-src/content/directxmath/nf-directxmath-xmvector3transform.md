@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3Transform(XMVECTOR,XMMATRIX)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3Transform, XMVector3Transform, XMVector3Transform method [DirectX Math Support APIs], dxmath.xmvector3transform
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector3Transform
 dev_langs:

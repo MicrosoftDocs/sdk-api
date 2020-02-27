@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: c9217444-fc9d-4b1e-abb2-7e1badd32052
 ms.date: 12/05/2018
 ms.keywords: CreateGradientStop, CreateGradientStop method [XPS Documents and Packaging], CreateGradientStop method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateGradientStop method, IXpsOMObjectFactory.CreateGradientStop, IXpsOMObjectFactory::CreateGradientStop, xps.ixpsomobjectfactory_creategradientstop, xpsobjectmodel/IXpsOMObjectFactory::CreateGradientStop
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreateGradientStop
 dev_langs:
@@ -177,7 +176,7 @@ The following illustration shows the gradient stops of a radial gradient. In thi
 <img alt="A figure that shows the terms used in a radial gradient" src="./images/RadialGradient2.png"/>
 The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstop">IXpsOMGradientStop</a> interface specifies one and only one stop in a gradient.
 
-The calculations used to render a gradient are described in the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>.
+The calculations used to render a gradient are described in the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
@@ -246,7 +245,7 @@ else
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

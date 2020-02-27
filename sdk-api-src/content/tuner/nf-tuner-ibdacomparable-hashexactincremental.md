@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 4ddf2545-83a6-4b5d-94ba-7034aed61f08
 ms.date: 12/05/2018
 ms.keywords: HashExactIncremental, HashExactIncremental method [Microsoft TV Technologies], HashExactIncremental method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],HashExactIncremental method, IBDAComparable.HashExactIncremental, IBDAComparable::HashExactIncremental, IBDAComparableHashExactIncremental, mstv.ibdacomparable_hashexactincremental, tuner/IBDAComparable::HashExactIncremental
-ms.topic: method
 f1_keywords:
 - tuner/IBDAComparable.HashExactIncremental
 dev_langs:

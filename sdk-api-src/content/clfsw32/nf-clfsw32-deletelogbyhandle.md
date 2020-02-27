@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: 2426058f-312c-4946-ac12-52e55a3307b5
 ms.date: 12/05/2018
 ms.keywords: DeleteLogByHandle, DeleteLogByHandle function [Files], clfsw32/DeleteLogByHandle, fs.deletelogbyhandle
-ms.topic: function
 f1_keywords:
 - clfsw32/DeleteLogByHandle
 dev_langs:

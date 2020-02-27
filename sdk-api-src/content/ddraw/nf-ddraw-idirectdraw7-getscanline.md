@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 0bccb384-2de3-49a5-962a-31ad2a751e28
 ms.date: 12/05/2018
 ms.keywords: GetScanLine, GetScanLine method [DirectDraw], GetScanLine method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetScanLine method, IDirectDraw7.GetScanLine, IDirectDraw7::GetScanLine, ddraw/IDirectDraw7::GetScanLine, directdraw.idirectdraw7_getscanline
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDraw7.GetScanLine
 dev_langs:

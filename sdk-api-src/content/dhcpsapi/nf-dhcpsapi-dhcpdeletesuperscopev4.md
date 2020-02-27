@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 5d61f39d-8423-43c4-89ab-4c28214ee84d
 ms.date: 12/05/2018
 ms.keywords: DhcpDeleteSuperScopeV4, DhcpDeleteSuperScopeV4 function [DHCP], dhcp.dhcpdeletesuperscopev4, dhcpsapi/DhcpDeleteSuperScopeV4
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpDeleteSuperScopeV4
 dev_langs:

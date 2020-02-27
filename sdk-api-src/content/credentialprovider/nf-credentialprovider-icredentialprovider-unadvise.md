@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d971c7be-f440-41ce-945d-4dbe51554e59
 ms.date: 12/05/2018
 ms.keywords: ICredentialProvider interface [Windows Shell],UnAdvise method, ICredentialProvider.UnAdvise, ICredentialProvider::UnAdvise, UnAdvise, UnAdvise method [Windows Shell], UnAdvise method [Windows Shell],ICredentialProvider interface, credentialprovider/ICredentialProvider::UnAdvise, shell.ICredentialProvider_UnAdvise, shell_ICredentialProvider_UnAdvise
-ms.topic: method
 f1_keywords:
 - credentialprovider/ICredentialProvider.UnAdvise
 dev_langs:

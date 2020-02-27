@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 14415de3-f397-4866-b7d1-167c0931a80c
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],KeyUp method, ITfKeystrokeMgr.KeyUp, ITfKeystrokeMgr::KeyUp, KeyUp, KeyUp method [Text Services Framework], KeyUp method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_keyup_ref, msctf/ITfKeystrokeMgr::KeyUp, tsf.itfkeystrokemgr_keyup
-ms.topic: method
 f1_keywords:
 - msctf/ITfKeystrokeMgr.KeyUp
 dev_langs:

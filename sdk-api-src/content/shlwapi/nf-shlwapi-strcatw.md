@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: fd357462-83be-42a8-9f39-1e023bd5f86e
 ms.date: 12/05/2018
 ms.keywords: StrCat, StrCat function [Windows Shell], StrCatW, _win32_StrCat, shell.StrCat, shlwapi/StrCat, shlwapi/StrCatW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrCat
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 89ea7243-54ee-487b-a58a-0721af9db8c3
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureRelationshipReferenceSet, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions], IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],described, msopc/IOpcSignatureRelationshipReferenceSet, opc.iopcsignaturerelationshipreferenceset
-ms.topic: interface
 f1_keywords:
 - msopc/IOpcSignatureRelationshipReferenceSet
 dev_langs:

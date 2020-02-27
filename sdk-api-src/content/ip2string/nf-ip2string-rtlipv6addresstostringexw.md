@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: a7de2da3-21ea-42fa-9474-f33252838632
 ms.date: 12/05/2018
 ms.keywords: RtlIpv6AddressToStringEx, RtlIpv6AddressToStringEx function [IP Helper], RtlIpv6AddressToStringExW, ip2string/RtlIpv6AddressToStringEx, ip2string/RtlIpv6AddressToStringExW, iphlp.rtlipv6addresstostringex
-ms.topic: function
 f1_keywords:
 - ip2string/RtlIpv6AddressToStringEx
 dev_langs:
@@ -142,7 +141,7 @@ The basic string representation of the IPv6 address returned consists of 8 hexad
     separated by colons. A string of consecutive zero hexadecimal numbers is replaced
     with a double colon.
     There can only be one double colon in the string representation of the IPv6 address. The last 32 bits are represented in IPv4-style dotted-octet notation
-    if the address is an IPv4-compatible address, an IPv4-mapped IPv6 address, or an ISATAP address. For more information, see section 5 of <a href="http://go.microsoft.com/fwlink/p/?linkid=222408">RFC 5942</a> published by the IETF. 
+    if the address is an IPv4-compatible address, an IPv4-mapped IPv6 address, or an ISATAP address. For more information, see section 5 of <a href="http://tools.ietf.org/html/rfc5952">RFC 5942</a> published by the IETF. 
 
 If a scope ID is provided, the string representation of the scope ID is separated from the string representation of the IPv6 address by a percent character ('%'). If a port number is provided, the string representation of the IPv6 address and the scope ID are surrounded by square braces (a leading '[' character followed by the IPv6 address followed by a '% character followed by the scope ID with a trailing ']' character). The port number is represented as a colon following the right square brace character followed by the string representation of the port number in decimal.
 

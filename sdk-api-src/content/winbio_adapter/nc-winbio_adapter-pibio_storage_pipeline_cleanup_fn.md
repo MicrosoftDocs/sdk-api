@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 4F75BCE0-173F-48F3-B4DD-A6AE1AFD4EA5
 ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_PIPELINE_CLEANUP_FN, PIBIO_STORAGE_PIPELINE_CLEANUP_FN callback, StorageAdapterPipelineCleanup, StorageAdapterPipelineCleanup callback function [Windows Biometric Framework API], secbiomet.storageadapterpipelinecleanup, winbio_adapter/StorageAdapterPipelineCleanup
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterPipelineCleanup
 dev_langs:

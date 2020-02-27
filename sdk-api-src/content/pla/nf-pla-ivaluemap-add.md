@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 4a6f074d-8d18-44ea-bbbc-8d3a7f6c033a
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],IValueMap interface, IValueMap interface [PLA],Add method, IValueMap.Add, IValueMap::Add, base.ivaluemap_add, pla.ivaluemap_add, pla/IValueMap::Add
-ms.topic: method
 f1_keywords:
 - pla/IValueMap.Add
 dev_langs:

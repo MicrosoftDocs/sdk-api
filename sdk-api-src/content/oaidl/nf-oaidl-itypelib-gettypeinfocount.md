@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 63436bee-c71b-4d32-bfca-426c8953a75b
 ms.date: 12/05/2018
 ms.keywords: GetTypeInfoCount, GetTypeInfoCount method [Automation], GetTypeInfoCount method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeInfoCount method, ITypeLib.GetTypeInfoCount, ITypeLib::GetTypeInfoCount, _oa96_ITypeLib_GetTypeInfoCount, automat.itypelib_gettypeinfocount, oaidl/ITypeLib::GetTypeInfoCount
-ms.topic: method
 f1_keywords:
 - oaidl/ITypeLib.GetTypeInfoCount
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 4f4bbfda-3be0-41d3-9087-d46edd2e21a3
 ms.date: 12/05/2018
 ms.keywords: AssociateContextWithName, AssociateContextWithName function [Windows API], filehc/AssociateContextWithName, winprog._associatecontextwithname
-ms.topic: function
 f1_keywords:
 - filehc/AssociateContextWithName
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Inserts a name into the name cache to find a specified <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure.
+Inserts a name into the name cache to find a specified <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure.
 
 
 ## -parameters
@@ -95,12 +94,12 @@ The self-relative security descriptor to be associated with the name. This descr
 
 ### -param pContext [in]
 
-A pointer to an <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure.
+A pointer to an <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure.
 
 
 ### -param fKeepReference [in]
 
-Specifies whether the reference on the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure should be kept. If set to <b>TRUE</b>, the reference is kept.
+Specifies whether the reference on the <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure should be kept. If set to <b>TRUE</b>, the reference is kept.
 
 
 ## -returns
@@ -126,7 +125,7 @@ If the name is already present in the cache, this call fails and <a href="https:
 
 
 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a>
 
 
 

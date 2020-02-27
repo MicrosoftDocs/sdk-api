@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneIntersectLine(XMVECTOR,XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneIntersectLine, XMPlaneIntersectLine, XMPlaneIntersectLine method [DirectX Math Support APIs], dxmath.xmplaneintersectline
-ms.topic: function
 f1_keywords:
 - directxmath/XMPlaneIntersectLine
 dev_langs:

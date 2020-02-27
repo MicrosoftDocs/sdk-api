@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: ce16b0e4-3be1-42fc-a489-d3ddce2ebf3f
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_USER_ALLOW_DIALIN, PROPERTY_USER_CALLING_STATION_ID, PROPERTY_USER_RADIUS_CALLBACK_NUMBER, PROPERTY_USER_RADIUS_FRAMED_INTERFACE_ID, PROPERTY_USER_RADIUS_FRAMED_IPV6_PREFIX, PROPERTY_USER_RADIUS_FRAMED_IPV6_ROUTE, PROPERTY_USER_RADIUS_FRAMED_IP_ADDRESS, PROPERTY_USER_RADIUS_FRAMED_ROUTE, PROPERTY_USER_SAVED_CALLING_STATION_ID, PROPERTY_USER_SAVED_RADIUS_CALLBACK_NUMBER, PROPERTY_USER_SAVED_RADIUS_FRAMED_INTERFACE_ID, PROPERTY_USER_SAVED_RADIUS_FRAMED_IPV6_PREFIX, PROPERTY_USER_SAVED_RADIUS_FRAMED_IPV6_ROUTE, PROPERTY_USER_SAVED_RADIUS_FRAMED_IP_ADDRESS, PROPERTY_USER_SAVED_RADIUS_FRAMED_ROUTE, PROPERTY_USER_SERVICE_TYPE, USERPROPERTIES, USERPROPERTIES enumeration [Network Policy Server], _sdo_userproperties, nps.SDO_userproperties, sdo.userproperties, sdoias/PROPERTY_USER_ALLOW_DIALIN, sdoias/PROPERTY_USER_CALLING_STATION_ID, sdoias/PROPERTY_USER_RADIUS_CALLBACK_NUMBER, sdoias/PROPERTY_USER_RADIUS_FRAMED_INTERFACE_ID, sdoias/PROPERTY_USER_RADIUS_FRAMED_IPV6_PREFIX, sdoias/PROPERTY_USER_RADIUS_FRAMED_IPV6_ROUTE, sdoias/PROPERTY_USER_RADIUS_FRAMED_IP_ADDRESS, sdoias/PROPERTY_USER_RADIUS_FRAMED_ROUTE, sdoias/PROPERTY_USER_SAVED_CALLING_STATION_ID, sdoias/PROPERTY_USER_SAVED_RADIUS_CALLBACK_NUMBER, sdoias/PROPERTY_USER_SAVED_RADIUS_FRAMED_INTERFACE_ID, sdoias/PROPERTY_USER_SAVED_RADIUS_FRAMED_IPV6_PREFIX, sdoias/PROPERTY_USER_SAVED_RADIUS_FRAMED_IPV6_ROUTE, sdoias/PROPERTY_USER_SAVED_RADIUS_FRAMED_IP_ADDRESS, sdoias/PROPERTY_USER_SAVED_RADIUS_FRAMED_ROUTE, sdoias/PROPERTY_USER_SERVICE_TYPE, sdoias/USERPROPERTIES
-ms.topic: enum
 f1_keywords:
 - sdoias/USERPROPERTIES
 dev_langs:
@@ -113,36 +112,36 @@ Specifies whether callback is enabled for this user. See
 ### -field PROPERTY_USER_RADIUS_FRAMED_IPV6_ROUTE
 
 Specifies routing information to be configured for
-      the user on the NAS.  See the Framed-IPv6-Route section in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a> for more information.
+      the user on the NAS.  See the Framed-IPv6-Route section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a> for more information.
 
 
 ### -field PROPERTY_USER_SAVED_RADIUS_FRAMED_IPV6_ROUTE
 
 Specifies saved routing information for
-      the user on the NAS.  See the Framed-IPv6-Route section in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a> for more information.
+      the user on the NAS.  See the Framed-IPv6-Route section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a> for more information.
 
 
 ### -field PROPERTY_USER_RADIUS_FRAMED_INTERFACE_ID
 
 Used for IPv6. Specifies the interface identifier to be
-      configured for the user.  See the Framed-Interface-Id section in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a> for more information.
+      configured for the user.  See the Framed-Interface-Id section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a> for more information.
 
 
 ### -field PROPERTY_USER_SAVED_RADIUS_FRAMED_INTERFACE_ID
 
-Used for IPv6. Specifies the saved interface identifier for the user.  See the Framed-Interface-Id section in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a> for more information.
+Used for IPv6. Specifies the saved interface identifier for the user.  See the Framed-Interface-Id section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a> for more information.
 
 
 ### -field PROPERTY_USER_RADIUS_FRAMED_IPV6_PREFIX
 
 Specifies an IPv6 prefix (and corresponding route)
-      to be configured for the user.  See the Framed-IPv6-Prefix section in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a> for more information.
+      to be configured for the user.  See the Framed-IPv6-Prefix section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a> for more information.
 
 
 ### -field PROPERTY_USER_SAVED_RADIUS_FRAMED_IPV6_PREFIX
 
 Specifies an IPv6 prefix (and corresponding route)
-      saved for the user.  See the Framed-IPv6-Prefix section in <a href="http://go.microsoft.com/fwlink/p/?linkid=84060">RFC 3162</a> for more information.
+      saved for the user.  See the Framed-IPv6-Prefix section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a> for more information.
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: e96e27d7-b453-49a7-b684-b3dd5f94c378
 ms.date: 12/05/2018
 ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],Enabled property, IRealTimeStylus.Enabled, IRealTimeStylus.get_Enabled, IRealTimeStylus.put_Enabled, IRealTimeStylus::Enabled, IRealTimeStylus::get_Enabled, IRealTimeStylus::put_Enabled, e96e27d7-b453-49a7-b684-b3dd5f94c378, get_Enabled, rtscom/IRealTimeStylus::Enabled, rtscom/IRealTimeStylus::get_Enabled, rtscom/IRealTimeStylus::put_Enabled, tablet.irealtimestylus_enabled
-ms.topic: method
 f1_keywords:
 - rtscom/IRealTimeStylus.Enabled
 dev_langs:

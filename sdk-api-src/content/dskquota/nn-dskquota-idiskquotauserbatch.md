@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 6cb3da5d-8e4c-45de-b9cf-0f6abf3f1932
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaUserBatch, IDiskQuotaUserBatch interface [Files], IDiskQuotaUserBatch interface [Files],described, _win32_idiskquotauserbatch, base.idiskquotauserbatch, dskquota/IDiskQuotaUserBatch, fs.idiskquotauserbatch
-ms.topic: interface
 f1_keywords:
 - dskquota/IDiskQuotaUserBatch
 dev_langs:

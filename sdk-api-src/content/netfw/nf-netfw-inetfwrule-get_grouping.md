@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 325b0c1d-3988-44ed-931c-6eed835f8c50
 ms.date: 12/05/2018
 ms.keywords: Grouping property [ICS/ICF], Grouping property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Grouping property, INetFwRule.Grouping, INetFwRule.get_Grouping, INetFwRule::Grouping, INetFwRule::get_Grouping, INetFwRule::put_Grouping, get_Grouping, ics.inetfwrule_grouping, netfw/INetFwRule::Grouping, netfw/INetFwRule::get_Grouping, netfw/INetFwRule::put_Grouping
-ms.topic: method
 f1_keywords:
 - netfw/INetFwRule.Grouping
 dev_langs:

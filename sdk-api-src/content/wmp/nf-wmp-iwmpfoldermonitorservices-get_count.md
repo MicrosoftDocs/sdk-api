@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: cf80820a-d126-4af6-ba5e-c1188c5c00a4
 ms.date: 12/05/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],get_count method, IWMPFolderMonitorServices.get_count, IWMPFolderMonitorServices::get_count, IWMPFolderMonitorServicesget_count, get_count, get_count method [Windows Media Player], get_count method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_get_count, wmp/IWMPFolderMonitorServices::get_count
-ms.topic: method
 f1_keywords:
 - wmp/IWMPFolderMonitorServices.get_count
 dev_langs:

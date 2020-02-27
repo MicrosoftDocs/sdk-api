@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 2f4ec748-26ff-49c5-bd88-6c6e64e5bc89
 ms.date: 12/05/2018
 ms.keywords: DllCallbackProc, DllCallbackProc callback function [TAPI 2.2], TUISPIDLLCALLBACK, TUISPIDLLCALLBACK callback, _tspi_tuispidllcallback, tspi.dllcallbackproc, tspi.tuispidllcallback, tspi/DllCallbackProc
-ms.topic: callback
 f1_keywords:
 - tspi/DllCallbackProc
 dev_langs:

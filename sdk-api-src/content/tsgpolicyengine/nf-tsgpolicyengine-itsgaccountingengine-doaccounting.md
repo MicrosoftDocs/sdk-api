@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: ebc57caa-804b-46a4-96bb-8b50c13029ab
 ms.date: 12/05/2018
 ms.keywords: DoAccounting, DoAccounting method [Remote Desktop Services], DoAccounting method [Remote Desktop Services],ITSGAccountingEngine interface, ITSGAccountingEngine interface [Remote Desktop Services],DoAccounting method, ITSGAccountingEngine.DoAccounting, ITSGAccountingEngine::DoAccounting, termserv.itsgaccountingengine_doaccounting, tsgpolicyengine/ITSGAccountingEngine::DoAccounting
-ms.topic: method
 f1_keywords:
 - tsgpolicyengine/ITSGAccountingEngine.DoAccounting
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d9041f2a-cf38-419b-be8f-a55599b9a1d9
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_ColorEnable method, IVideoProcAmp.getRange_ColorEnable, IVideoProcAmp::getRange_ColorEnable, IVideoProcAmpgetRange_ColorEnable, dshow.ivideoprocamp_getrange_colorenable, getRange_ColorEnable, getRange_ColorEnable method [DirectShow], getRange_ColorEnable method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_ColorEnable
-ms.topic: method
 f1_keywords:
 - vidcap/IVideoProcAmp.getRange_ColorEnable
 dev_langs:

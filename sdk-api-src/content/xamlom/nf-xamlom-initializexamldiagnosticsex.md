@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: CFBCF6EC-5E42-4992-B046-B4F436A9BF04
 ms.date: 12/05/2018
 ms.keywords: InitializeXamlDiagnosticsEx, InitializeXamlDiagnosticsEx function, xaml_diagnostics.initializexamldiagnosticsex, xamlom/InitializeXamlDiagnosticsEx
-ms.topic: function
 f1_keywords:
 - xamlom/InitializeXamlDiagnosticsEx
 dev_langs:

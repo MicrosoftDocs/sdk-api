@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 403e45fa-bcd6-4422-9111-e9ca9859550a
 ms.date: 12/05/2018
 ms.keywords: ADS_SCOPEENUM, ADS_SCOPEENUM enumeration [ADSI], ADS_SCOPE_BASE, ADS_SCOPE_ONELEVEL, ADS_SCOPE_SUBTREE, _ds_ads_scopeenum, adsi.ads__scopeenum, adsi.ads_scopeenum, iads/ADS_SCOPEENUM, iads/ADS_SCOPE_BASE, iads/ADS_SCOPE_ONELEVEL, iads/ADS_SCOPE_SUBTREE
-ms.topic: enum
 f1_keywords:
 - iads/ADS_SCOPEENUM
 dev_langs:

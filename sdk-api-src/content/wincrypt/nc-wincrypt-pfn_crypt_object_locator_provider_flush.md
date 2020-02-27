@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: F6EE5424-A3ED-4E90-897B-56C605EB985C
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH callback, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH callback function [Security], security.pfn_crypt_object_locator_provider_flush, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH
-ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH
 dev_langs:

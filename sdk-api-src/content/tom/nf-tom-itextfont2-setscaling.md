@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: b5f26c0a-a1bd-4be8-84b8-92a6d0cfafdb
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetScaling method, ITextFont2.SetScaling, ITextFont2::SetScaling, SetScaling, SetScaling method [Windows Controls], SetScaling method [Windows Controls],ITextFont2 interface, controls.itextfont2_setscaling, tom/ITextFont2::SetScaling
-ms.topic: method
 f1_keywords:
 - tom/ITextFont2.SetScaling
 dev_langs:

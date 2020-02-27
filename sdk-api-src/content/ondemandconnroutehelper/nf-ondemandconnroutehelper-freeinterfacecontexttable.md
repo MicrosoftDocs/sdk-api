@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: 79623E67-C255-498D-ACDA-8BC2AE925224
 ms.date: 12/05/2018
 ms.keywords: FreeInterfaceContextTable, FreeInterfaceContextTable function [Network Awareness], nla.freeinterfacecontexttable, ondemandconnroutehelper/FreeInterfaceContextTable
-ms.topic: function
 f1_keywords:
 - ondemandconnroutehelper/FreeInterfaceContextTable
 dev_langs:

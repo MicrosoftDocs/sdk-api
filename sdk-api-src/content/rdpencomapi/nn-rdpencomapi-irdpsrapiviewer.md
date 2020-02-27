@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 6bafe380-2ef4-4e93-a6cd-143798437615
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIViewer, IRDPSRAPIViewer interface [RDP], IRDPSRAPIViewer interface [RDP],described, rdp.irdpsrapiviewer, rdpencomapi/IRDPSRAPIViewer
-ms.topic: interface
 f1_keywords:
 - rdpencomapi/IRDPSRAPIViewer
 dev_langs:

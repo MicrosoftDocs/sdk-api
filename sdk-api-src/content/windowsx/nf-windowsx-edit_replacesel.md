@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_replacesel.htm
 ms.date: 12/05/2018
 ms.keywords: Edit_ReplaceSel, Edit_ReplaceSel macro [Windows Controls], _win32_Edit_ReplaceSel, _win32_Edit_ReplaceSel_cpp, controls.Edit_ReplaceSel, controls._win32_Edit_ReplaceSel, windowsx/Edit_ReplaceSel
-ms.topic: macro
 f1_keywords:
 - windowsx/Edit_ReplaceSel
 dev_langs:

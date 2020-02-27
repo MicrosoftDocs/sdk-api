@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 86c65cfe-d482-461b-a187-ce1ce9a30609
 ms.date: 12/05/2018
 ms.keywords: GetStreamName, GetStreamName method [windows Media Format], GetStreamName method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetStreamName method, IWMStreamConfig.GetStreamName, IWMStreamConfig::GetStreamName, IWMStreamConfigGetStreamName, wmformat.iwmstreamconfig_getstreamname, wmsdkidl/IWMStreamConfig::GetStreamName
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMStreamConfig.GetStreamName
 dev_langs:

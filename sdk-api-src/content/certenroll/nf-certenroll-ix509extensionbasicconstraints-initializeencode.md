@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: e9a08445-8fc5-45cc-a2c6-ec62470e5c55
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionBasicConstraints interface [Security],InitializeEncode method, IX509ExtensionBasicConstraints.InitializeEncode, IX509ExtensionBasicConstraints::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionBasicConstraints interface, certenroll/IX509ExtensionBasicConstraints::InitializeEncode, security.ix509extensionbasicconstraints_initializeencode_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509ExtensionBasicConstraints.InitializeEncode
 dev_langs:

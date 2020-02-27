@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 94d8ddf6-221f-47f0-8772-4364ad2ac1a2
 ms.date: 12/05/2018
 ms.keywords: FONTOBJ_pxoGetXform, FONTOBJ_pxoGetXform function [Display Devices], display.fontobj_pxogetxform, gdifncs_22900939-4aa1-4f8b-9345-1d74af8a7f71.xml, winddi/FONTOBJ_pxoGetXform
-ms.topic: function
 f1_keywords:
 - winddi/FONTOBJ_pxoGetXform
 dev_langs:

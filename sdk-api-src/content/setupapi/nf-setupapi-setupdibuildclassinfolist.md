@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: a01b1f8f-55af-4053-8c31-9329ef36f2ce
 ms.date: 12/05/2018
 ms.keywords: SetupDiBuildClassInfoList, SetupDiBuildClassInfoList function [Device and Driver Installation], devinst.setupdibuildclassinfolist, di-rtns_25e014d5-5a99-42c3-8032-a24acd1856df.xml, setupapi/SetupDiBuildClassInfoList
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiBuildClassInfoList
 dev_langs:
@@ -98,7 +97,7 @@ If this number is greater than the size of the <i>ClassGuidList</i> array, it in
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 

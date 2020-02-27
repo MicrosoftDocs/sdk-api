@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 2b3a77cd-e874-42fb-8bfa-6d6b26866153
 ms.date: 12/05/2018
 ms.keywords: OfflineFilesQueryStatus, OfflineFilesQueryStatus function [Offline Files], cscapi/OfflineFilesQueryStatus, of.offlinefilesquerystatus
-ms.topic: function
 f1_keywords:
 - cscapi/OfflineFilesQueryStatus
 dev_langs:

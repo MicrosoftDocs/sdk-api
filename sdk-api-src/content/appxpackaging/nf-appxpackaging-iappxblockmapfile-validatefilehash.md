@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 286EF8FD-925E-4B36-AFAB-D0EC949F8705
 ms.date: 12/05/2018
 ms.keywords: IAppxBlockMapFile interface [App packaging and management],ValidateFileHash method, IAppxBlockMapFile.ValidateFileHash, IAppxBlockMapFile::ValidateFileHash, ValidateFileHash, ValidateFileHash method [App packaging and management], ValidateFileHash method [App packaging and management],IAppxBlockMapFile interface, appxpackaging/IAppxBlockMapFile::ValidateFileHash, appxpkg.iappxblockmapfile_validatefilehash
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxBlockMapFile.ValidateFileHash
 dev_langs:

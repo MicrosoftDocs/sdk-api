@@ -5,7 +5,6 @@ description: Specifies how a video frame is interlaced.
 tech.root: mf
 ms.assetid: 5b7cba7d-c231-42ed-8ae2-69deb3fe5d36
 ms.date: 05/28/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_VIDEO_FIELD_TYPE
 dev_langs:

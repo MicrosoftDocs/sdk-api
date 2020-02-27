@@ -4,7 +4,6 @@ title: BoundingOrientedBox::Intersects
 description: Tests the BoundingOrientedBox for intersection with a BoundingSphere.
 ms.date: 04/22/19
 ms.keywords: BoundingOrientedBox::Intersects
-ms.topic: language-reference
 f1_keywords:
 - directxcollision/BoundingOrientedBox::Intersects
 dev_langs:

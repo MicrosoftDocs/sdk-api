@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 0301706b-6d3e-4fe4-af87-764b1c959707
 ms.date: 12/05/2018
 ms.keywords: 0301706b-6d3e-4fe4-af87-764b1c959707, IInkLineInfo interface [Tablet PC],SetCandidate method, IInkLineInfo.SetCandidate, IInkLineInfo::SetCandidate, SetCandidate, SetCandidate method [Tablet PC], SetCandidate method [Tablet PC],IInkLineInfo interface, msinkaut/IInkLineInfo::SetCandidate, tablet.iinklineinfo_setcandidate
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkLineInfo.SetCandidate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: d6b3444f-ee74-40b3-a729-304c8e50195b
 ms.date: 12/05/2018
 ms.keywords: '*PWLX_DISPATCH_VERSION_1_2, PWLX_DISPATCH_VERSION_1_2, PWLX_DISPATCH_VERSION_1_2 structure pointer [Security], WLX_DISPATCH_VERSION_1_2, WLX_DISPATCH_VERSION_1_2 structure [Security], _gina_wlx_dispatch_version_1_2, security.wlx_dispatch_version_1_2, winwlx/PWLX_DISPATCH_VERSION_1_2, winwlx/WLX_DISPATCH_VERSION_1_2'
-ms.topic: struct
 f1_keywords:
 - winwlx/WLX_DISPATCH_VERSION_1_2
 dev_langs:

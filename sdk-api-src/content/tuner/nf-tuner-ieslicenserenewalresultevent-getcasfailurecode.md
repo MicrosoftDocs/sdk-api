@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: d3569a5e-6bde-4daf-bf52-094f56b0891c
 ms.date: 12/05/2018
 ms.keywords: GetCASFailureCode, GetCASFailureCode method [DirectShow], GetCASFailureCode method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetCASFailureCode method, IESLicenseRenewalResultEvent.GetCASFailureCode, IESLicenseRenewalResultEvent::GetCASFailureCode, mstv.ieslicenserenewalresultevent_getcasfailurecode, tuner/IESLicenseRenewalResultEvent::GetCASFailureCode
-ms.topic: method
 f1_keywords:
 - tuner/IESLicenseRenewalResultEvent.GetCASFailureCode
 dev_langs:

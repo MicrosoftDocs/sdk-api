@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 620bc43f-dfc7-48b7-a574-ca7287ffa42f
 ms.date: 12/05/2018
 ms.keywords: IOleAdviseHolder interface [COM],Unadvise method, IOleAdviseHolder.Unadvise, IOleAdviseHolder::Unadvise, Unadvise, Unadvise method [COM], Unadvise method [COM],IOleAdviseHolder interface, _ole_ioleadviseholder_unadvise, com.ioleadviseholder_unadvise, oleidl/IOleAdviseHolder::Unadvise
-ms.topic: method
 f1_keywords:
 - oleidl/IOleAdviseHolder.Unadvise
 dev_langs:

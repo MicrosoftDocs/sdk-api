@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: d884037c-a8d0-47a8-8b3f-70408866be05
 ms.date: 12/05/2018
 ms.keywords: SetupGetMultiSzField, SetupGetMultiSzField function [Setup API], SetupGetMultiSzFieldA, SetupGetMultiSzFieldW, _setupapi_setupgetmultiszfield, setup.setupgetmultiszfield, setupapi/SetupGetMultiSzField, setupapi/SetupGetMultiSzFieldA, setupapi/SetupGetMultiSzFieldW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupGetMultiSzField
 dev_langs:

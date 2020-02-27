@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 33fc271e-4cc5-466c-8688-7b19f4399f8e
 ms.date: 12/05/2018
 ms.keywords: WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE, WSDGetConfigurationOption, WSDGetConfigurationOption function, ncd.wsdgetconfigurationoption, wsdutil/WSDGetConfigurationOption
-ms.topic: function
 f1_keywords:
 - wsdutil/WSDGetConfigurationOption
 dev_langs:

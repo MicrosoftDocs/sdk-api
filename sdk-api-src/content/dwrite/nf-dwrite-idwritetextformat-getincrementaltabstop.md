@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 080c9fe3-3323-4e30-8dbc-fe44e874cf6d
 ms.date: 12/05/2018
 ms.keywords: GetIncrementalTabStop, GetIncrementalTabStop method [Direct Write], GetIncrementalTabStop method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetIncrementalTabStop method, IDWriteTextFormat.GetIncrementalTabStop, IDWriteTextFormat::GetIncrementalTabStop, directwrite.IDWriteTextFormat_GetIncrementalTabStop, dwrite/IDWriteTextFormat::GetIncrementalTabStop
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextFormat.GetIncrementalTabStop
 dev_langs:

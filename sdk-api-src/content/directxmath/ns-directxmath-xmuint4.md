@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUINT4
 ms.date: 12/05/2018
 ms.keywords: XMUINT4, XMUINT4 structure [DirectX Math Support APIs], directxmath/XMUINT4, dxmath.xmuint4
-ms.topic: struct
 f1_keywords:
 - directxmath/XMUINT4
 dev_langs:

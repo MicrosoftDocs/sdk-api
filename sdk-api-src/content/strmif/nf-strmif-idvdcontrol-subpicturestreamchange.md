@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 527031fa-bab9-49f5-89b1-f0c5c5812a76
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],SubpictureStreamChange method, IDvdControl.SubpictureStreamChange, IDvdControl::SubpictureStreamChange, IDvdControlSubpictureStreamChange, SubpictureStreamChange, SubpictureStreamChange method [DirectShow], SubpictureStreamChange method [DirectShow],IDvdControl interface, dshow.idvdcontrol_subpicturestreamchange, strmif/IDvdControl::SubpictureStreamChange
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.SubpictureStreamChange
 dev_langs:
@@ -108,7 +107,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, DVD_DOMAIN_Title, or DVD_DOMAIN_Stop. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, DVD_DOMAIN_Title, or DVD_DOMAIN_Stop. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

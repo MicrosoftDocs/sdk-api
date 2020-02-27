@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 30789376-1ac8-41ae-9c4d-e3d2d0715016
 ms.date: 12/05/2018
 ms.keywords: GetDocumentSequence, GetDocumentSequence method [XPS Documents and Packaging], GetDocumentSequence method [XPS Documents and Packaging],IXpsOMPackage interface, IXpsOMPackage interface [XPS Documents and Packaging],GetDocumentSequence method, IXpsOMPackage.GetDocumentSequence, IXpsOMPackage::GetDocumentSequence, xps.ixpsompackage_getdocumentsequence, xpsobjectmodel/IXpsOMPackage::GetDocumentSequence
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPackage.GetDocumentSequence
 dev_langs:
@@ -115,7 +114,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

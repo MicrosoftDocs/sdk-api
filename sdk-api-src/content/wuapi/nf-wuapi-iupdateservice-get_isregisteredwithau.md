@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 17b51a04-69f6-4a96-880b-ef57f75253ae
 ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],IsRegisteredWithAU property, IUpdateService.IsRegisteredWithAU, IUpdateService.get_IsRegisteredWithAU, IUpdateService::IsRegisteredWithAU, IUpdateService::get_IsRegisteredWithAU, IsRegisteredWithAU property [Windows Update Agent], IsRegisteredWithAU property [Windows Update Agent],IUpdateService interface, get_IsRegisteredWithAU, wua.iupdateservice_isregisteredwithau, wuapi/IUpdateService::IsRegisteredWithAU, wuapi/IUpdateService::get_IsRegisteredWithAU
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateService.IsRegisteredWithAU
 dev_langs:

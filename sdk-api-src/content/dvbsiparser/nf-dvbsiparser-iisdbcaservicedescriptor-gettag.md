@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 55f7b955-03f6-4c40-bd73-175bf3453ed0
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbCAServiceDescriptor.GetTag, IIsdbCAServiceDescriptor::GetTag, dvbsiparser/IIsdbCAServiceDescriptor::GetTag, mstv.iisdbcaservicedescriptor_gettag
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbCAServiceDescriptor.GetTag
 dev_langs:

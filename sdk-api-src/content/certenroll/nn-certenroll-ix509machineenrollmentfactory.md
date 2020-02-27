@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 2f97fdd7-13ca-4427-8ec5-24302d245fdb
 ms.date: 12/05/2018
 ms.keywords: IX509MachineEnrollmentFactory, IX509MachineEnrollmentFactory interface [Security], IX509MachineEnrollmentFactory interface [Security],described, certenroll/IX509MachineEnrollmentFactory, security.ix509machineenrollmentfactory
-ms.topic: interface
 f1_keywords:
 - certenroll/IX509MachineEnrollmentFactory
 dev_langs:

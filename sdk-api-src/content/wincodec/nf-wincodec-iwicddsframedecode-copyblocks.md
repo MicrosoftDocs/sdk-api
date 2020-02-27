@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: D090AA8E-46F2-40C9-A156-12038053E040
 ms.date: 12/05/2018
 ms.keywords: CopyBlocks, CopyBlocks method [Windows Imaging Component], CopyBlocks method [Windows Imaging Component],IWICDdsFrameDecode interface, IWICDdsFrameDecode interface [Windows Imaging Component],CopyBlocks method, IWICDdsFrameDecode.CopyBlocks, IWICDdsFrameDecode::CopyBlocks, wic.iwicddsframedecode_copyblocks, wincodec/IWICDdsFrameDecode::CopyBlocks
-ms.topic: method
 f1_keywords:
 - wincodec/IWICDdsFrameDecode.CopyBlocks
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: c230cd82-99f9-4922-9626-cb67fa2942c1
 ms.date: 12/05/2018
 ms.keywords: CurrentProcessId property [Windows Accessibility], CurrentProcessId property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentProcessId property, IUIAutomationElement.CurrentProcessId, IUIAutomationElement.get_CurrentProcessId, IUIAutomationElement::CurrentProcessId, IUIAutomationElement::get_CurrentProcessId, get_CurrentProcessId, uiauto.uiauto_IUIAutomationElement_CurrentProcessId, uiauto_IUIAutomationElement_CurrentProcessId, uiautomationclient/IUIAutomationElement::CurrentProcessId, uiautomationclient/IUIAutomationElement::get_CurrentProcessId, winauto.uiauto_IUIAutomationElement_CurrentProcessId
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationElement.CurrentProcessId
 dev_langs:

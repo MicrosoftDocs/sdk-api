@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6f582ae2-d8c6-4d85-a01f-e98c6ee16021
 ms.date: 12/05/2018
 ms.keywords: IBDAComparable, IBDAComparable interface [Microsoft TV Technologies], IBDAComparable interface [Microsoft TV Technologies],described, IBDAComparableInterface, mstv.ibdacomparable, tuner/IBDAComparable
-ms.topic: interface
 f1_keywords:
 - tuner/IBDAComparable
 dev_langs:

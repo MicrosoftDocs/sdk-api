@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 6dcf33c6-33dc-4583-9b04-5231948d3d9a
 ms.date: 12/05/2018
 ms.keywords: '*PFIXED_INFO, *PFIXED_INFO_W2KSP1, BROADCAST_NODETYPE, FIXED_INFO, FIXED_INFO structure [IP Helper], FIXED_INFO_W2KSP1, HYBRID_NODETYPE, MIXED_NODETYPE, PEER_TO_PEER_NODETYPE, PFIXED_INFO, PFIXED_INFO structure pointer [IP Helper], _iphlp_fixed_info, iphlp.fixed_info, iptypes/FIXED_INFO, iptypes/PFIXED_INFO'
-ms.topic: struct
 f1_keywords:
 - iptypes/FIXED_INFO
 dev_langs:

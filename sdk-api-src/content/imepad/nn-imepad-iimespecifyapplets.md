@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 788C7272-3BFF-4531-B66E-211585BF85E3
 ms.date: 12/05/2018
 ms.keywords: IImeSpecifyApplets, IImeSpecifyApplets interface [Internationalization for Windows Applications], IImeSpecifyApplets interface [Internationalization for Windows Applications],described, imepad/IImeSpecifyApplets, intl.iimespecifyapplets
-ms.topic: interface
 f1_keywords:
 - imepad/IImeSpecifyApplets
 dev_langs:

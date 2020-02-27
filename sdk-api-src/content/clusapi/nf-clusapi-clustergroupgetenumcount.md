@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 068cd55e-4220-447c-bf2f-a515503b7cc9
 ms.date: 12/05/2018
 ms.keywords: ClusterGroupGetEnumCount, ClusterGroupGetEnumCount function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT, PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT function [Failover Cluster], _wolf_clustergroupgetenumcount, clusapi/ClusterGroupGetEnumCount, clusapi/PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT, mscs.clustergroupgetenumcount
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterGroupGetEnumCount
 dev_langs:
@@ -62,7 +61,7 @@ Returns the number of <a href="https://docs.microsoft.com/previous-versions/wind
 ### -param hGroupEnum [in]
 
 Handle to a group enumeration. This handle is obtained from 
-      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pclusapi_cluster_group_open_enum">ClusterGroupOpenEnum</a>. A valid handle is 
+      <a href="/windows/win32/api/clusapi/nf-clusapi-clustergroupopenenum">ClusterGroupOpenEnum</a>. A valid handle is 
       required. This parameter cannot be <b>NULL</b>.
 
 

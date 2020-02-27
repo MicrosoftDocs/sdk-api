@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: a5e65bde-aa2d-47e0-8cfc-062b14da3e87
 ms.date: 12/05/2018
 ms.keywords: DSGIF_DEFAULTISCONTAINER, DSGIF_GETDEFAULTICON, DSGIF_ISDISABLED, DSGIF_ISNORMAL, DSGIF_ISOPEN, GetIconLocation, GetIconLocation method [Active Directory], GetIconLocation method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],GetIconLocation method, IDsDisplaySpecifier.GetIconLocation, IDsDisplaySpecifier::GetIconLocation, _glines_idsdisplayspecifier_geticonlocation, ad.idsdisplayspecifier__geticonlocation, ad.idsdisplayspecifier_geticonlocation, dsclient/IDsDisplaySpecifier::GetIconLocation
-ms.topic: method
 f1_keywords:
 - dsclient/IDsDisplaySpecifier.GetIconLocation
 dev_langs:

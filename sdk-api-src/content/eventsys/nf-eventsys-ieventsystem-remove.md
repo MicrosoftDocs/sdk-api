@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 2774806b-ad50-4219-a196-da82c93b80ac
 ms.date: 12/05/2018
 ms.keywords: IEventSystem interface [COM+],Remove method, IEventSystem.Remove, IEventSystem::Remove, Remove, Remove method [COM+], Remove method [COM+],IEventSystem interface, _cos_IEventSystem_Remove, cos.ieventsystem_remove, eventsys/IEventSystem::Remove
-ms.topic: method
 f1_keywords:
 - eventsys/IEventSystem.Remove
 dev_langs:

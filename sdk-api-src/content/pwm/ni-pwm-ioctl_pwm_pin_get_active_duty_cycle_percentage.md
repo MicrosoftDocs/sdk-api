@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: F327D8E9-7441-41A4-B70B-E148083605C2
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE, IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE control, IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE control code, base.ioctl_pwm_pin_get_active_duty_cycle_percentage, pwm/IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE
-ms.topic: ioctl
 f1_keywords:
 - pwm/IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE
 dev_langs:

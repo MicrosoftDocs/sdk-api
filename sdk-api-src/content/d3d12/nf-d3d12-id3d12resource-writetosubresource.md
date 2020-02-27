@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 8781E2FE-8D82-41F5-B541-A96DA11CA290
 ms.date: 12/05/2018
 ms.keywords: ID3D12Resource interface,WriteToSubresource method, ID3D12Resource.WriteToSubresource, ID3D12Resource::WriteToSubresource, WriteToSubresource, WriteToSubresource method, WriteToSubresource method,ID3D12Resource interface, d3d12/ID3D12Resource::WriteToSubresource, direct3d12.id3d12resource_writetosubresource
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Resource.WriteToSubresource
 dev_langs:

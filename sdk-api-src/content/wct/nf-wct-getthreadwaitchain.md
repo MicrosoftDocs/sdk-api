@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 5b418fa6-1d07-465e-85ea-b7127264eebf
 ms.date: 12/05/2018
 ms.keywords: GetThreadWaitChain, GetThreadWaitChain function, WCT_OUT_OF_PROC_COM_FLAG, WCT_OUT_OF_PROC_CS_FLAG, WCT_OUT_OF_PROC_FLAG, base.getthreadwaitchain, wct/GetThreadWaitChain
-ms.topic: function
 f1_keywords:
 - wct/GetThreadWaitChain
 dev_langs:

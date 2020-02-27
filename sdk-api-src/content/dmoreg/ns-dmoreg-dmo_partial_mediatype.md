@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 53bf4c34-d180-4edd-b59a-55d7d90708b5
 ms.date: 12/05/2018
 ms.keywords: '*PDMO_PARTIAL_MEDIATYPE, DMO_PARTIAL_MEDIATYPE, DMO_PARTIAL_MEDIATYPE structure [DirectShow], DMO_PARTIAL_MEDIATYPEStructure, PDMO_PARTIAL_MEDIATYPE, PDMO_PARTIAL_MEDIATYPE structure pointer [DirectShow], dmoreg/DMO_PARTIAL_MEDIATYPE, dmoreg/PDMO_PARTIAL_MEDIATYPE, dshow.dmo_partial_mediatype'
-ms.topic: struct
 f1_keywords:
 - dmoreg/DMO_PARTIAL_MEDIATYPE
 dev_langs:

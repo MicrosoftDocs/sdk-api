@@ -7,7 +7,6 @@ tech.root: hidpi
 ms.assetid: C7126165-1D64-4C04-9B8D-4F90AC2F2C67
 ms.date: 12/05/2018
 ms.keywords: AdjustWindowRectExForDpi, AdjustWindowRectExForDpi function [High DPI], hidpi.adjustwindowrectexfordpi, winuser/AdjustWindowRectExForDpi
-ms.topic: function
 f1_keywords:
 - winuser/AdjustWindowRectExForDpi
 dev_langs:

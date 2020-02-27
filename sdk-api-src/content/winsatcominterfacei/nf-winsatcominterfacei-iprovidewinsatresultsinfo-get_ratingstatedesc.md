@@ -7,7 +7,6 @@ tech.root: WinSAT
 ms.assetid: 6995a4a2-a8c6-4c8f-bac0-478af4d8f911
 ms.date: 12/05/2018
 ms.keywords: IProvideWinSATResultsInfo interface [WinSAT],RatingStateDesc property, IProvideWinSATResultsInfo.RatingStateDesc, IProvideWinSATResultsInfo.get_RatingStateDesc, IProvideWinSATResultsInfo::RatingStateDesc, IProvideWinSATResultsInfo::get_RatingStateDesc, RatingStateDesc property [WinSAT], RatingStateDesc property [WinSAT],IProvideWinSATResultsInfo interface, get_RatingStateDesc, winsat.iprovidewinsatresultsinfo_ratingstatedesc, winsatcominterfacei/IProvideWinSATResultsInfo::RatingStateDesc, winsatcominterfacei/IProvideWinSATResultsInfo::get_RatingStateDesc
-ms.topic: method
 f1_keywords:
 - winsatcominterfacei/IProvideWinSATResultsInfo.RatingStateDesc
 dev_langs:

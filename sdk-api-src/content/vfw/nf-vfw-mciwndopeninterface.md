@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: ad31d945-27f8-48d5-a49b-e36f4beb5de6
 ms.date: 12/05/2018
 ms.keywords: MCIWndOpenInterface, MCIWndOpenInterface macro [Windows Multimedia], _win32_MCIWndOpenInterface, multimedia.mciwndopeninterface, vfw/MCIWndOpenInterface
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndOpenInterface
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: fecd46f6-bcef-4cb4-8d53-3fb7ebe4cc53
 ms.date: 12/05/2018
 ms.keywords: NtRenameKey, NtRenameKey function [Windows API], base.ntrenamekey, winprog.ntrenamekey, winternl/NtRenameKey
-ms.topic: function
 f1_keywords:
 - winternl/NtRenameKey
 dev_langs:

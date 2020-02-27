@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\lookupiconidfromdirectory.htm
 ms.date: 12/05/2018
 ms.keywords: LookupIconIdFromDirectory, LookupIconIdFromDirectory function [Menus and Other Resources], _win32_LookupIconIdFromDirectory, _win32_lookupiconidfromdirectory_cpp, menurc.lookupiconidfromdirectory, winui._win32_lookupiconidfromdirectory, winuser/LookupIconIdFromDirectory
-ms.topic: function
 f1_keywords:
 - winuser/LookupIconIdFromDirectory
 dev_langs:

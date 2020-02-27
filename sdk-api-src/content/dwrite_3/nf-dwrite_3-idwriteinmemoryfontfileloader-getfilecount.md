@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 02385843-FDE6-408A-BD48-BBDC7DE4CA67
 ms.date: 12/05/2018
 ms.keywords: GetFileCount, GetFileCount method [Direct Write], GetFileCount method [Direct Write],IDWriteInMemoryFontFileLoader interface, IDWriteInMemoryFontFileLoader interface [Direct Write],GetFileCount method, IDWriteInMemoryFontFileLoader.GetFileCount, IDWriteInMemoryFontFileLoader::GetFileCount, directwrite.idwriteinmemoryfontfileloader_getfilecount, dwrite_3/IDWriteInMemoryFontFileLoader::GetFileCount
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteInMemoryFontFileLoader.GetFileCount
 dev_langs:

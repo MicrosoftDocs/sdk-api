@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 25a6eed2-6851-4a24-afd2-91982dc2bb8e
 ms.date: 12/05/2018
 ms.keywords: GetChangeUnitId, GetChangeUnitId method [Windows Sync], GetChangeUnitId method [Windows Sync],IChangeUnitException interface, IChangeUnitException interface [Windows Sync],GetChangeUnitId method, IChangeUnitException.GetChangeUnitId, IChangeUnitException::GetChangeUnitId, winsync.ichangeunitexception_getchangeunitid, winsync/IChangeUnitException::GetChangeUnitId
-ms.topic: method
 f1_keywords:
 - winsync/IChangeUnitException.GetChangeUnitId
 dev_langs:

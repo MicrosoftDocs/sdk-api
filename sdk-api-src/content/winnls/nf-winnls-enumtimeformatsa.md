@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: ad0fe26f-b915-4903-9335-4b268a889c80
 ms.date: 12/05/2018
 ms.keywords: 0, EnumTimeFormats, EnumTimeFormats function [Internationalization for Windows Applications], EnumTimeFormatsA, EnumTimeFormatsW, LOCAL_USE_CP_ACP, TIME_NOSECONDS, _win32_EnumTimeFormats, intl.enumtimeformats, winnls/EnumTimeFormats, winnls/EnumTimeFormatsA, winnls/EnumTimeFormatsW
-ms.topic: function
 f1_keywords:
 - winnls/EnumTimeFormats
 dev_langs:

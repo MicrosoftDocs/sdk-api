@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e8cfac8e-df89-444d-bcc7-0cbc7ab5a592
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig interface [DirectShow],Reconnect method, IGraphConfig.Reconnect, IGraphConfig::Reconnect, IGraphConfigReconnect, Reconnect, Reconnect method [DirectShow], Reconnect method [DirectShow],IGraphConfig interface, dshow.igraphconfig_reconnect, strmif/IGraphConfig::Reconnect
-ms.topic: method
 f1_keywords:
 - strmif/IGraphConfig.Reconnect
 dev_langs:
@@ -74,7 +73,7 @@ Pointer the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-st
 
 ### -param pmtFirstConnection [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type for the first pin connection made during the reconnection. If this parameter is <b>NULL</b>, the first connection can have any media type.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type for the first pin connection made during the reconnection. If this parameter is <b>NULL</b>, the first connection can have any media type.
 
 
 ### -param pUsingFilter [in]
@@ -89,7 +88,7 @@ Handle to an event. If the caller is a filter calling on one of its data process
 
 ### -param dwFlags [in]
 
-Combination of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-am_graph_config_reconnect_flags">AM_GRAPH_CONFIG_RECONNECT_FLAGS</a> enumeration, specifying how to perform the reconnection.
+Combination of flags from the [AM_GRAPH_CONFIG_RECONNECT_FLAGS](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-am_graph_config_reconnect_flags) enumeration, specifying how to perform the reconnection.
 
 
 ## -returns

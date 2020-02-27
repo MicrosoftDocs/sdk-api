@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: a1a7abc5-f306-4664-bb53-e54c6ee1051e
 ms.date: 12/05/2018
 ms.keywords: ClusterRegBatchReadCommand, ClusterRegBatchReadCommand function [Failover Cluster], clusapi/ClusterRegBatchReadCommand, mscs.clusterregbatchreadcommand
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterRegBatchReadCommand
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\getoutput.htm
 ms.date: 12/05/2018
 ms.keywords: GetOutput, GetOutput method [WPF Bitmap Effects], GetOutput method [WPF Bitmap Effects],IMILBitmapEffectPrimitive interface, IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],GetOutput method, IMILBitmapEffectPrimitive.GetOutput, IMILBitmapEffectPrimitive::GetOutput, _wibe_imilbitmapeffectprimitive_getoutput, mileffects/IMILBitmapEffectPrimitive::GetOutput, wibe._wibe_imilbitmapeffectprimitive_getoutput
-ms.topic: method
 f1_keywords:
 - mileffects/IMILBitmapEffectPrimitive.GetOutput
 dev_langs:

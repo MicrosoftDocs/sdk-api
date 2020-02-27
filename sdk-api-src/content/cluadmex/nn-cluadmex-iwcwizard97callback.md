@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: cbde3bcf-8242-49dc-9ac0-a4b078ea526e
 ms.date: 12/05/2018
 ms.keywords: IWCWizard97Callback, IWCWizard97Callback interface [Failover Cluster], IWCWizard97Callback interface [Failover Cluster],described, _wolf_iwcwizard97callback, cluadmex/IWCWizard97Callback, mscs.iwcwizard97callback
-ms.topic: interface
 f1_keywords:
 - cluadmex/IWCWizard97Callback
 dev_langs:

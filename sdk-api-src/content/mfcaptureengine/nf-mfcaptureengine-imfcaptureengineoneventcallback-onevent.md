@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 26C5B2E5-0543-49FC-915A-DCE097FF66BA
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngineOnEventCallback interface [Media Foundation],OnEvent method, IMFCaptureEngineOnEventCallback.OnEvent, IMFCaptureEngineOnEventCallback::OnEvent, OnEvent, OnEvent method [Media Foundation], OnEvent method [Media Foundation],IMFCaptureEngineOnEventCallback interface, mf.imfcaptureengineoneventcallback_onevent, mfcaptureengine/IMFCaptureEngineOnEventCallback::OnEvent
-ms.topic: method
 f1_keywords:
 - mfcaptureengine/IMFCaptureEngineOnEventCallback.OnEvent
 dev_langs:

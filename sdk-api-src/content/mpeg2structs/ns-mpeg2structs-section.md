@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6ee07b84-ae97-413f-a3b4-0078ad740194
 ms.date: 12/05/2018
 ms.keywords: '*PSECTION, PSECTION, PSECTION structure pointer [Microsoft TV Technologies], SECTION, SECTION structure [Microsoft TV Technologies], mpeg2structs/PSECTION, mpeg2structs/SECTION, mstv.section'
-ms.topic: struct
 f1_keywords:
 - mpeg2structs/SECTION
 dev_langs:

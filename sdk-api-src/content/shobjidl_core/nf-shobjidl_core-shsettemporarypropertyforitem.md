@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 779b1b2e-cd4b-404f-9d50-ac87b81640d2
 ms.date: 12/05/2018
 ms.keywords: SHSetTemporaryPropertyForItem, SHSetTemporaryPropertyForItem function [Windows Shell], _shell_SHSetTemporaryPropertyForItem, shell.SHSetTemporaryPropertyForItem, shobjidl_core/SHSetTemporaryPropertyForItem
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHSetTemporaryPropertyForItem
 dev_langs:

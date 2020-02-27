@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: c21ff404-af42-488a-90f0-d3f02277c557
 ms.date: 12/05/2018
 ms.keywords: ITfDisplayAttributeNotifySink, ITfDisplayAttributeNotifySink interface [Text Services Framework], ITfDisplayAttributeNotifySink interface [Text Services Framework],described, _tsf_itfdisplayattributenotifysink_ref, msctf/ITfDisplayAttributeNotifySink, tsf.itfdisplayattributenotifysink
-ms.topic: interface
 f1_keywords:
 - msctf/ITfDisplayAttributeNotifySink
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Dfs
 ms.assetid: 777b9688-9e34-48dd-bc8c-df17bef396d0
 ms.date: 12/05/2018
 ms.keywords: '*LPDFS_STORAGE_INFO_1, *PDFS_STORAGE_INFO_1, DFS_STORAGE_INFO_1, DFS_STORAGE_INFO_1 structure [Distributed File System], DFS_STORAGE_STATES, DFS_STORAGE_STATE_OFFLINE, DFS_STORAGE_STATE_ONLINE, LPDFS_STORAGE_INFO_1, LPDFS_STORAGE_INFO_1 structure pointer [Distributed File System], PDFS_STORAGE_INFO_1, PDFS_STORAGE_INFO_1 structure pointer [Distributed File System], dfs.dfs_storage_info_1, fs.dfs_storage_info_1, lmdfs/DFS_STORAGE_INFO_1, lmdfs/LPDFS_STORAGE_INFO_1, lmdfs/PDFS_STORAGE_INFO_1, netmgmt.dfs_storage_info_1'
-ms.topic: struct
 f1_keywords:
 - lmdfs/DFS_STORAGE_INFO_1
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: 623de90f-c2dc-4879-9baf-4051d2d3691c
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelper interface [NDF],LowHealth method, INetDiagHelper.LowHealth, INetDiagHelper::LowHealth, LowHealth, LowHealth method [NDF], LowHealth method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_lowhealth, ndhelper/INetDiagHelper::LowHealth
-ms.topic: method
 f1_keywords:
 - ndhelper/INetDiagHelper.LowHealth
 dev_langs:

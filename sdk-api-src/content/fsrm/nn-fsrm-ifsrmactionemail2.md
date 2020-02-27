@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 278ef98d-fb1d-42a4-a740-07c5e713a230
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionEmail2, IFsrmActionEmail2 interface [File Server Resource Manager], IFsrmActionEmail2 interface [File Server Resource Manager],described, fs.ifsrmactionemail2, fsrm.ifsrmactionemail2, fsrm/IFsrmActionEmail2
-ms.topic: interface
 f1_keywords:
 - fsrm/IFsrmActionEmail2
 dev_langs:
@@ -67,7 +66,7 @@ Use this version of the interface for file management  notifications. To create 
 The 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-createnotificationaction">CreateNotificationAction</a> 
     method returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmaction">IFsrmAction</a> interface. To get this interface, 
-    call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method and specify 
+    call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method and specify 
     <b>IID_IFsrmActionEmail2</b> as the interface identifier.
 
 

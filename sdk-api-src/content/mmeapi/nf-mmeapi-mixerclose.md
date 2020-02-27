@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: d92a9bb0-9761-471b-85d2-af0bcdbbda34
 ms.date: 12/05/2018
 ms.keywords: _win32_mixerClose, mixerClose, mixerClose function [Windows Multimedia], mmeapi/mixerClose, multimedia.mixerclose
-ms.topic: function
 f1_keywords:
 - mmeapi/mixerClose
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 8413eeda-3867-4352-aefb-82579a4861f2
 ms.date: 12/05/2018
 ms.keywords: GetSizeMax, GetSizeMax method [COM], GetSizeMax method [COM],IPersistStreamInit interface, IPersistStreamInit interface [COM],GetSizeMax method, IPersistStreamInit.GetSizeMax, IPersistStreamInit::GetSizeMax, _com_ipersiststreaminit_getsizemax, com.ipersiststreaminit_getsizemax, ocidl/IPersistStreamInit::GetSizeMax
-ms.topic: method
 f1_keywords:
 - ocidl/IPersistStreamInit.GetSizeMax
 dev_langs:

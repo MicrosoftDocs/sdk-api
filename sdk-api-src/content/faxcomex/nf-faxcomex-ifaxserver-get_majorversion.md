@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7u0e.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],MajorVersion property, IFaxServer.MajorVersion, IFaxServer.get_MajorVersion, IFaxServer::MajorVersion, IFaxServer::get_MajorVersion, MajorVersion property [Fax Service], MajorVersion property [Fax Service],IFaxServer interface, _mfax_faxserver.majorversion, fax._mfax_faxserver_cpp_mfax_faxserver_majorversion_cpp, fax._mfax_faxserver_majorversion, faxcomex/IFaxServer::MajorVersion, faxcomex/IFaxServer::get_MajorVersion, get_MajorVersion
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxServer.MajorVersion
 dev_langs:

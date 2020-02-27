@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: a8c4dbf1-94ec-46e9-b365-7dfc89e4f176
 ms.date: 12/05/2018
 ms.keywords: InvertRect, InvertRect function [Windows GDI], _win32_InvertRect, gdi.invertrect, winuser/InvertRect
-ms.topic: function
 f1_keywords:
 - winuser/InvertRect
 dev_langs:

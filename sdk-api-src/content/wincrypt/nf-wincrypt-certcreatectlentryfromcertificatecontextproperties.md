@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 90ac512f-3cbe-4543-9b34-8e384f730cfe
 ms.date: 12/05/2018
 ms.keywords: CertCreateCTLEntryFromCertificateContextProperties, CertCreateCTLEntryFromCertificateContextProperties function [Security], _crypto2_certcreatectlentryfromcertificatecontextproperties, security.certcreatectlentryfromcertificatecontextproperties, wincrypt/CertCreateCTLEntryFromCertificateContextProperties
-ms.topic: function
 f1_keywords:
 - wincrypt/CertCreateCTLEntryFromCertificateContextProperties
 dev_langs:

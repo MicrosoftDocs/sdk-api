@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 02f27bcd-8d00-4ae7-a498-98052254b56d
 ms.date: 12/05/2018
 ms.keywords: GetWidenedBounds, GetWidenedBounds method [Direct2D], GetWidenedBounds method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],GetWidenedBounds method, ID2D1Geometry.GetWidenedBounds, ID2D1Geometry.GetWidenedBounds(FLOAT,ID2D1StrokeStyle,const D2D1_MATRIX_3X2_F &,D2D1_RECT_F), ID2D1Geometry::GetWidenedBounds, ID2D1Geometry::GetWidenedBounds(FLOAT,ID2D1StrokeStyle,const D2D1_MATRIX_3X2_F &,D2D1_RECT_F), d2d1/ID2D1Geometry::GetWidenedBounds, direct2d.ID2D1Geometry_GetWidenedBounds_FLOAT_ptr_ID2D1StrokeStyle_ref_D2D_MATRIX_3X2_F_ptr_D2D_RECT_F
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1Geometry.GetWidenedBounds
 dev_langs:

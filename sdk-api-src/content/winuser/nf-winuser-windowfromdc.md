@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 57ecec82-03be-4d1a-84cf-6b64131af19d
 ms.date: 12/05/2018
 ms.keywords: WindowFromDC, WindowFromDC function [Windows GDI], _win32_WindowFromDC, gdi.windowfromdc, winuser/WindowFromDC
-ms.topic: function
 f1_keywords:
 - winuser/WindowFromDC
 dev_langs:

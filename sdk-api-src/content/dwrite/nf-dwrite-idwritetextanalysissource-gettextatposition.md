@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: d9deabfb-fd0b-4760-a148-b440587654d2
 ms.date: 12/05/2018
 ms.keywords: GetTextAtPosition, GetTextAtPosition method [Direct Write], GetTextAtPosition method [Direct Write],IDWriteTextAnalysisSource interface, IDWriteTextAnalysisSource interface [Direct Write],GetTextAtPosition method, IDWriteTextAnalysisSource.GetTextAtPosition, IDWriteTextAnalysisSource::GetTextAtPosition, directwrite.idwritetextanalysissource_gettextatposition, dwrite/IDWriteTextAnalysisSource::GetTextAtPosition
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextAnalysisSource.GetTextAtPosition
 dev_langs:

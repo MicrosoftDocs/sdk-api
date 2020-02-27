@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 54b4f6e7-3a76-48d3-a180-2bb3a532fc67
 ms.date: 12/05/2018
 ms.keywords: GetStrokeEndLineCap, GetStrokeEndLineCap method [XPS Documents and Packaging], GetStrokeEndLineCap method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeEndLineCap method, IXpsOMPath.GetStrokeEndLineCap, IXpsOMPath::GetStrokeEndLineCap, xps.ixpsompath_getstrokeendlinecap, xpsobjectmodel/IXpsOMPath::GetStrokeEndLineCap
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.GetStrokeEndLineCap
 dev_langs:
@@ -120,7 +119,7 @@ For more information about line   end cap styles, see <a href="https://docs.micr
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

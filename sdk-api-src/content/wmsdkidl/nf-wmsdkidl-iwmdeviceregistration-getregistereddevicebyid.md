@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 26ded37b-1169-4c47-8880-bd19c977171e
 ms.date: 12/05/2018
 ms.keywords: GetRegisteredDeviceByID, GetRegisteredDeviceByID method [windows Media Format], GetRegisteredDeviceByID method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetRegisteredDeviceByID method, IWMDeviceRegistration.GetRegisteredDeviceByID, IWMDeviceRegistration::GetRegisteredDeviceByID, IWMDeviceRegistrationGetRegisteredDeviceByID, wmformat.iwmdeviceregistration_getregistereddevicebyid, wmsdkidl/IWMDeviceRegistration::GetRegisteredDeviceByID
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDeviceRegistration.GetRegisteredDeviceByID
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>GetRegisteredDeviceByID</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>GetRegisteredDeviceByID</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 

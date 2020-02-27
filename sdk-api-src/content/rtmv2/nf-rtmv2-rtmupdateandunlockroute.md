@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 917e3e90-b06b-410d-8456-d76e2baa76f8
 ms.date: 12/05/2018
 ms.keywords: RtmUpdateAndUnlockRoute, RtmUpdateAndUnlockRoute function [RAS], _rtmv2ref_rtmupdateandunlockroute, rras.rtmupdateandunlockroute, rtmv2/RtmUpdateAndUnlockRoute
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmUpdateAndUnlockRoute
 dev_langs:

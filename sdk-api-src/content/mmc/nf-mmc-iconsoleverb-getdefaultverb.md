@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: e30f3690-361b-4aee-97e7-014e2e8ee6a4
 ms.date: 12/05/2018
 ms.keywords: GetDefaultVerb, GetDefaultVerb method [MMC], GetDefaultVerb method [MMC],IConsoleVerb interface, IConsoleVerb interface [MMC],GetDefaultVerb method, IConsoleVerb.GetDefaultVerb, IConsoleVerb::GetDefaultVerb, _slate_iconsoleverb_getdefaultverb, mmc.iconsoleverb_getdefaultverb, mmc/IConsoleVerb::GetDefaultVerb
-ms.topic: method
 f1_keywords:
 - mmc/IConsoleVerb.GetDefaultVerb
 dev_langs:

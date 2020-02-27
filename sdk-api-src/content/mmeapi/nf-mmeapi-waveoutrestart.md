@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: ca2a1e7c-2399-47d4-8804-41a39f69ec12
 ms.date: 12/05/2018
 ms.keywords: _win32_waveOutRestart, mmeapi/waveOutRestart, multimedia.waveoutrestart, waveOutRestart, waveOutRestart function [Windows Multimedia]
-ms.topic: function
 f1_keywords:
 - mmeapi/waveOutRestart
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 86a4f18c-4bd0-45d2-bb5a-b0f41cd0ab43
 ms.date: 12/05/2018
 ms.keywords: DynamicQueryAccept, DynamicQueryAccept method [DirectShow], DynamicQueryAccept method [DirectShow],IPinConnection interface, IPinConnection interface [DirectShow],DynamicQueryAccept method, IPinConnection.DynamicQueryAccept, IPinConnection::DynamicQueryAccept, IPinConnectionDynamicQueryAccept, dshow.ipinconnection_dynamicqueryaccept, strmif/IPinConnection::DynamicQueryAccept
-ms.topic: method
 f1_keywords:
 - strmif/IPinConnection.DynamicQueryAccept
 dev_langs:
@@ -64,7 +63,7 @@ The <code>DynamicQueryAccept</code> method queries whether the pin can accept th
 
 ### -param pmt [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type.
 
 
 ## -returns

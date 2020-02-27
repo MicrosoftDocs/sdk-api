@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: dcb08ce7-9ded-497c-936c-48d3026a0004
 ms.date: 12/05/2018
 ms.keywords: CreateIC, CreateIC function [Windows GDI], CreateICA, CreateICW, _win32_CreateIC, gdi.createic, wingdi/CreateIC, wingdi/CreateICA, wingdi/CreateICW
-ms.topic: function
 f1_keywords:
 - wingdi/CreateIC
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 0cd95e53-62d5-4318-961a-1136646fd222
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetupTransfer, TSPI_lineSetupTransfer function [TAPI 2.2], _tspi_tspi_linesetuptransfer, tspi.tspi_linesetuptransfer, tspi/TSPI_lineSetupTransfer
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineSetupTransfer
 dev_langs:

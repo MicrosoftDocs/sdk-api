@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditenumerationtypes\khyph.htm
 ms.date: 12/05/2018
 ms.keywords: KHYPH, KHYPH enumeration [Windows Controls], _win32_KHYPH, _win32_KHYPH_cpp, controls.KHYPH, controls._win32_KHYPH, khyphAddBefore, khyphChangeAfter, khyphChangeBefore, khyphDelAndChange, khyphDeleteBefore, khyphNil, khyphNormal, richedit/KHYPH, richedit/khyphAddBefore, richedit/khyphChangeAfter, richedit/khyphChangeBefore, richedit/khyphDelAndChange, richedit/khyphDeleteBefore, richedit/khyphNil, richedit/khyphNormal
-ms.topic: enum
 f1_keywords:
 - richedit/KHYPH
 dev_langs:

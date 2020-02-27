@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcheckstate.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_SetCheckState, ListView_SetCheckState macro [Windows Controls], _win32_ListView_SetCheckState, _win32_ListView_SetCheckState_cpp, commctrl/ListView_SetCheckState, controls.ListView_SetCheckState, controls._win32_ListView_SetCheckState
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_SetCheckState
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 40D706B0-E396-436C-BD0B-66B8F6EFA5B1
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Direct Manipulation], GetStatus method [Direct Manipulation],IDirectManipulationDragDropBehavior interface, IDirectManipulationDragDropBehavior interface [Direct Manipulation],GetStatus method, IDirectManipulationDragDropBehavior.GetStatus, IDirectManipulationDragDropBehavior::GetStatus, directmanipulation.idirectmanipulationdragdropbehavior_getstatus, directmanipulation/IDirectManipulationDragDropBehavior::GetStatus
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationDragDropBehavior.GetStatus
 dev_langs:

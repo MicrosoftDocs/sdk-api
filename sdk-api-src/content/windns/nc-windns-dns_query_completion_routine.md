@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 35D78208-FFC1-48B0-8267-EE583DE2D783
 ms.date: 12/05/2018
 ms.keywords: DNS_QUERY_COMPLETION_ROUTINE, DNS_QUERY_COMPLETION_ROUTINE callback, DNS_QUERY_COMPLETION_ROUTINE callback function [DNS], dns.dns_query_completion_routine, windns/DNS_QUERY_COMPLETION_ROUTINE
-ms.topic: callback
 f1_keywords:
 - windns/DNS_QUERY_COMPLETION_ROUTINE
 dev_langs:

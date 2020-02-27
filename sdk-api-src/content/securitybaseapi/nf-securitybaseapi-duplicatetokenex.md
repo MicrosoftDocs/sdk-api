@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 96b13826-0ac7-4d70-9c21-eeb343f6b823
 ms.date: 12/05/2018
 ms.keywords: DuplicateTokenEx, DuplicateTokenEx function [Security], TokenImpersonation, TokenPrimary, _win32_duplicatetokenex, security.duplicatetokenex, securitybaseapi/DuplicateTokenEx
-ms.topic: function
 f1_keywords:
 - securitybaseapi/DuplicateTokenEx
 dev_langs:

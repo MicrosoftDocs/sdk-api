@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 7c9a98e2-c976-42cb-ada3-ee33c11adae8
 ms.date: 12/05/2018
 ms.keywords: IEnumChangeUnitExceptions interface [Windows Sync],Reset method, IEnumChangeUnitExceptions.Reset, IEnumChangeUnitExceptions::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumChangeUnitExceptions interface, winsync.ienumchangeunitexceptions_reset, winsync/IEnumChangeUnitExceptions::Reset
-ms.topic: method
 f1_keywords:
 - winsync/IEnumChangeUnitExceptions.Reset
 dev_langs:

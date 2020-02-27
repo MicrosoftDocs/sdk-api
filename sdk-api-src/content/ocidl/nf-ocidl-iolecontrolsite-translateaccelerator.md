@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: e4f9a6f7-bb0f-41d2-b1b8-7fda2dbee278
 ms.date: 12/05/2018
 ms.keywords: IOleControlSite interface [COM],TranslateAccelerator method, IOleControlSite.TranslateAccelerator, IOleControlSite::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_translateaccelerator, com.iolecontrolsite_translateaccelerator, ocidl/IOleControlSite::TranslateAccelerator
-ms.topic: method
 f1_keywords:
 - ocidl/IOleControlSite.TranslateAccelerator
 dev_langs:

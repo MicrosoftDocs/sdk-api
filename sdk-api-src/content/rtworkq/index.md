@@ -1,9 +1,10 @@
 ---
 UID: NA:rtworkq
+title: Rtworkq.h header
 ms.assetid: 06c7fdc2-9333-3940-a5bd-7045b727547c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: base
 ---
 

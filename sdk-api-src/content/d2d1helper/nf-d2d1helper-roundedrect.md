@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 200119a2-941c-493f-9e56-c9f306dc5322
 ms.date: 12/05/2018
 ms.keywords: RoundedRect, RoundedRect function [Direct2D], d2d1helper/RoundedRect, direct2d.roundedrect
-ms.topic: function
 f1_keywords:
 - d2d1helper/RoundedRect
 dev_langs:

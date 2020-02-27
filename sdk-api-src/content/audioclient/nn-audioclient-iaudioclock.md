@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: dbec9468-b555-42a0-a988-dec3a66c9f96
 ms.date: 12/05/2018
 ms.keywords: IAudioClock, IAudioClock interface [Core Audio], IAudioClock interface [Core Audio],described, audioclient/IAudioClock, coreaudio.iaudioclock
-ms.topic: interface
 f1_keywords:
 - audioclient/IAudioClock
 dev_langs:

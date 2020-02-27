@@ -7,7 +7,6 @@ tech.root: Services
 ms.assetid: a0237989-e5a7-4a3a-ab23-e2474a995341
 ms.date: 12/05/2018
 ms.keywords: OpenSCManager, OpenSCManager function, OpenSCManagerA, OpenSCManagerW, _win32_openscmanager, base.openscmanager, winsvc/OpenSCManager, winsvc/OpenSCManagerA, winsvc/OpenSCManagerW
-ms.topic: function
 f1_keywords:
 - winsvc/OpenSCManager
 dev_langs:

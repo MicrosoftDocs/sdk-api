@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: 03dc14d4-03e8-4281-ae70-c9f2c5646694
 ms.date: 12/05/2018
 ms.keywords: CreatePhotoSource, CreatePhotoSource method [Picture Acquisition], CreatePhotoSource method [Picture Acquisition],IPhotoAcquire interface, IPhotoAcquire interface [Picture Acquisition],CreatePhotoSource method, IPhotoAcquire.CreatePhotoSource, IPhotoAcquire::CreatePhotoSource, IPhotoAcquireCreatePhotoSource, photoacquire/IPhotoAcquire::CreatePhotoSource, picacq.iphotoacquire_createphotosource
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoAcquire.CreatePhotoSource
 dev_langs:

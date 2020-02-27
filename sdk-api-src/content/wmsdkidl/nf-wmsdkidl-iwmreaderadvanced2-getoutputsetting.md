@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: a46da973-8f2f-48b8-9a74-d54e67f68a83
 ms.date: 12/05/2018
 ms.keywords: GetOutputSetting, GetOutputSetting method [windows Media Format], GetOutputSetting method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetOutputSetting method, IWMReaderAdvanced2.GetOutputSetting, IWMReaderAdvanced2::GetOutputSetting, IWMReaderAdvanced2GetOutputSetting, wmformat.iwmreaderadvanced2_getoutputsetting, wmsdkidl/IWMReaderAdvanced2::GetOutputSetting
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced2.GetOutputSetting
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 10c75c91-9642-4877-845e-8c6343721b4f
 ms.date: 12/05/2018
 ms.keywords: MAKEDLLVERULL, MAKEDLLVERULL macro [Windows Shell], _win32_MAKEDLLVERULL, shell.MAKEDLLVERULL, shlwapi/MAKEDLLVERULL
-ms.topic: macro
 f1_keywords:
 - shlwapi/MAKEDLLVERULL
 dev_langs:

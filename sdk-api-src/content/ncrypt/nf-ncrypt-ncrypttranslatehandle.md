@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 0c339864-b598-430c-a597-09d3571fdbb2
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCryptTranslateHandle, NCryptTranslateHandle function [Security], ncrypt/NCryptTranslateHandle, security.ncrypttranslatehandle
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptTranslateHandle
 dev_langs:
@@ -215,7 +214,7 @@ This function will perform the following steps to translate the CSP handle into 
 <li>Obtain the name of the current key container in the CSP.</li>
 <li>Obtain the CryptoAPI key, translate it into a CNG key, and return it in the <i>phKey</i> parameter.</li>
 </ol>
-A service must not call this function from its <a href="http://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 
 

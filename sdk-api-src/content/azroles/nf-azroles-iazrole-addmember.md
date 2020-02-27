@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: b2be62cb-7256-4031-8af9-24f3043a8430
 ms.date: 12/05/2018
 ms.keywords: AddMember, AddMember method [Security], AddMember method [Security],AzRole object, AddMember method [Security],IAzRole interface, AzRole object [Security],AddMember method, IAzRole interface [Security],AddMember method, IAzRole.AddMember, IAzRole::AddMember, azroles/IAzRole::AddMember, security.iazrole_addmember
-ms.topic: method
 f1_keywords:
 - azroles/IAzRole.AddMember
 dev_langs:

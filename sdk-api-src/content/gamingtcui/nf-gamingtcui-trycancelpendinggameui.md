@@ -7,7 +7,6 @@ tech.root: tcui
 ms.assetid: 620159FC-AC62-4568-8354-D15BCAEEEEB2
 ms.date: 12/05/2018
 ms.keywords: TryCancelPendingGameUI, TryCancelPendingGameUI function, gamingtcui/TryCancelPendingGameUI, tcui.trycancelpendinggameui
-ms.topic: function
 f1_keywords:
 - gamingtcui/TryCancelPendingGameUI
 dev_langs:
@@ -57,7 +56,7 @@ ms.custom: 19H1
 
 Do not use. This API is only supported for Xbox developers.
 
-To learn more about becoming a Xbox developer, see <a href="http://go.microsoft.com/fwlink/p/?linkid=623248">Developing Games for Xbox One and Windows 10</a>.
+To learn more about becoming a Xbox developer, see <a href="https://www.xbox.com/Developers">Developing Games for Xbox One and Windows 10</a>.
 
 
 ## -parameters

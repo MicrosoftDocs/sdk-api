@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: a544bcc1-6a42-4cda-824c-2b027b8a4a6f
 ms.date: 12/05/2018
 ms.keywords: GetRestoreName, GetRestoreName method, GetRestoreName method,IVssComponentEx interface, IVssComponentEx interface,GetRestoreName method, IVssComponentEx.GetRestoreName, IVssComponentEx::GetRestoreName, base.ivsscomponentex_getrestorename, vswriter/IVssComponentEx::GetRestoreName
-ms.topic: method
 f1_keywords:
 - vswriter/IVssComponentEx.GetRestoreName
 dev_langs:

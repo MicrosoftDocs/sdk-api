@@ -1,9 +1,10 @@
 ---
 UID: NA:amsi
+title: Amsi.h header
 ms.assetid: 5c64e8da-d685-3a4a-bc23-c19f1b6f1148
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: amsi
 ---
 

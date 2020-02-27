@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 4b3b908d-a111-4e36-98c2-37b15a7e2dac
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailCc property, IFsrmActionEmail.MailCc, IFsrmActionEmail.put_MailCc, IFsrmActionEmail2 interface [File Server Resource Manager],MailCc property, IFsrmActionEmail2.MailCc, IFsrmActionEmail2::MailCc, IFsrmActionEmail2::get_MailCc, IFsrmActionEmail2::put_MailCc, IFsrmActionEmail::get_MailCc, IFsrmActionEmail::put_MailCc, MailCc property [File Server Resource Manager], MailCc property [File Server Resource Manager],IFsrmActionEmail interface, MailCc property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailcc, fsrm.ifsrmactionemail_mailcc, fsrm/IFsrmActionEmail2::MailCc, fsrm/IFsrmActionEmail2::get_MailCc, fsrm/IFsrmActionEmail2::put_MailCc, fsrm/IFsrmActionEmail::MailCc, fsrm/IFsrmActionEmail::get_MailCc, fsrm/IFsrmActionEmail::put_MailCc, put_MailCc
-ms.topic: method
 f1_keywords:
 - fsrm/IFsrmActionEmail2.MailCc
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: e613e06a-0900-413e-bde2-39ce1612fed1
 ms.date: 12/05/2018
 ms.keywords: CoQueryProxyBlanket, CoQueryProxyBlanket function [COM], _com_CoQueryProxyBlanket, com.coqueryproxyblanket, combaseapi/CoQueryProxyBlanket
-ms.topic: function
 f1_keywords:
 - combaseapi/CoQueryProxyBlanket
 dev_langs:
@@ -126,7 +125,7 @@ pcs-&gt;QueryBlanket(
   );
 pcs-&gt;Release();
 </code></pre>
-This sequence calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the proxy to get a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a>, and with the resulting pointer, calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iclientsecurity-queryblanket">IClientSecurity::QueryBlanket</a> and then releases the pointer.
+This sequence calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the proxy to get a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a>, and with the resulting pointer, calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iclientsecurity-queryblanket">IClientSecurity::QueryBlanket</a> and then releases the pointer.
 
 In <i>pProxy</i>, you can pass any proxy, such as a proxy you get through a call to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> or <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalinterface">CoUnmarshalInterface</a>, or you can pass an interface pointer. It can be any interface. You cannot pass a pointer to something that is not a proxy. Therefore, you can't pass a pointer to an interface that has the local keyword in its interface definition because no proxy is created for such an interface. <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> is the exception to this rule.
 

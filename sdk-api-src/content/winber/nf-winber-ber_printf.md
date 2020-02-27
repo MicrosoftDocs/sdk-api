@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 6bae449b-eb75-4598-aacc-65567de67997
 ms.date: 12/05/2018
 ms.keywords: _ldap_ber_printf, ber_printf, ber_printf function [LDAP], ldap.ber__printf, ldap.ber_printf, winber/ber_printf
-ms.topic: function
 f1_keywords:
 - winber/ber_printf
 dev_langs:
@@ -128,7 +127,7 @@ The format string can contain format characters listed in the following table.
 </tr>
 <tr>
 <td><b>V</b></td>
-<td><b>Several octet strings</b>. A NULL-terminated array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval*</a> is supplied. Be aware that a construct like <b>{</b><b>v</b><b>}</b> is used to get an actual SEQUENCE OF octet strings. The <b>t</b> format modifier cannot be used with this format character.</td>
+<td><b>Several octet strings</b>. A NULL-terminated array of <a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval*</a> is supplied. Be aware that a construct like <b>{</b><b>v</b><b>}</b> is used to get an actual SEQUENCE OF octet strings. The <b>t</b> format modifier cannot be used with this format character.</td>
 </tr>
 <tr>
 <td><b>X</b></td>
@@ -175,7 +174,7 @@ Each left brace (<b>{</b>) character must be paired with a right brace (<b>}</b>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
  
 
  

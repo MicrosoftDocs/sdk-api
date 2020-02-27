@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 29d9c39c-0067-4ec4-b49c-13a174ff8722
 ms.date: 12/05/2018
 ms.keywords: IAccClientDocMgr, IAccClientDocMgr interface [Windows Accessibility], IAccClientDocMgr interface [Windows Accessibility],described, msaa.iaccclientdocmgr, msaatext/IAccClientDocMgr, winauto.iaccclientdocmgr
-ms.topic: interface
 f1_keywords:
 - msaatext/IAccClientDocMgr
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[Active Accessibility Text Services is deprecated. Please see     
-<a href="https://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="https://msdn.microsoft.com/library/ms629032(VS.85).aspx">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		]
 
 Exposes methods for client applications to retrieve documents.

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 73cba491-1aa6-4bd7-bcd6-95b5d85c9457
 ms.date: 12/05/2018
 ms.keywords: ITableItemProvider, ITableItemProvider interface [Windows Accessibility], ITableItemProvider interface [Windows Accessibility],described, uiauto.uiauto_ITableItemProvider, uiauto_ITableItemProvider, uiautomationcore/ITableItemProvider, winauto.uiauto_ITableItemProvider
-ms.topic: interface
 f1_keywords:
 - uiautomationcore/ITableItemProvider
 dev_langs:

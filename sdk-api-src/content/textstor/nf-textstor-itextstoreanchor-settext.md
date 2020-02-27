@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 03beac03-cd09-4e03-b700-d96741e4932b
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],SetText method, ITextStoreAnchor.SetText, ITextStoreAnchor::SetText, SetText, SetText method [Text Services Framework], SetText method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::SetText, tsf.itextstoreanchor_settext
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreAnchor.SetText
 dev_langs:

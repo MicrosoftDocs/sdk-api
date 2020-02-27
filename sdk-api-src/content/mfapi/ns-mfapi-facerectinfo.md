@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 63F31CDC-CB44-4ED8-BDA0-89F7DCF77965
 ms.date: 12/05/2018
 ms.keywords: FaceRectInfo, FaceRectInfo structure [Streaming Media Devices], mfapi/FaceRectInfo, stream.facerectinfo
-ms.topic: struct
 f1_keywords:
 - mfapi/FaceRectInfo
 dev_langs:

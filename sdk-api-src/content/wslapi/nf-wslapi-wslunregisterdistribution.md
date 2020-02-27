@@ -7,7 +7,6 @@ tech.root: wsl
 ms.assetid: B655E05D-4F4E-401D-8A24-6E8E8B0CE00C
 ms.date: 12/05/2018
 ms.keywords: WslUnregisterDistribution, WslUnregisterDistribution function, wsl.wslunregisterdistribution, wslapi/WslUnregisterDistribution
-ms.topic: function
 f1_keywords:
 - wslapi/WslUnregisterDistribution
 dev_langs:

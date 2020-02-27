@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: c2fa77a6-e159-4b10-b1ba-fbf96c7e09d4
 ms.date: 12/05/2018
 ms.keywords: EndSession, EndSession method [windows Media Format], EndSession method [windows Media Format],IWMWriterPushSink interface, IWMWriterPushSink interface [windows Media Format],EndSession method, IWMWriterPushSink.EndSession, IWMWriterPushSink::EndSession, IWMWriterPushSinkEndSession, wmformat.iwmwriterpushsink_endsession, wmsdkidl/IWMWriterPushSink::EndSession
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriterPushSink.EndSession
 dev_langs:

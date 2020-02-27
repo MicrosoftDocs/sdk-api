@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getbkcolor.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_GetBkColor, ListView_GetBkColor macro [Windows Controls], _win32_ListView_GetBkColor, _win32_ListView_GetBkColor_cpp, commctrl/ListView_GetBkColor, controls.ListView_GetBkColor, controls._win32_ListView_GetBkColor
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_GetBkColor
 dev_langs:

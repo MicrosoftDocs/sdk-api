@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: ec8a4e04-9e38-4db3-bb2b-838c63284f3a
 ms.date: 12/05/2018
 ms.keywords: '*LPDRAWDIBTIME, DRAWDIBTIME, DRAWDIBTIME structure [Windows Multimedia], LPDRAWDIBTIME, LPDRAWDIBTIME structure pointer [Windows Multimedia], multimedia.drawdibtime_COLLISION618, multimedia.drawdibtime_struct, vfw/DRAWDIBTIME, vfw/LPDRAWDIBTIME'
-ms.topic: struct
 f1_keywords:
 - vfw/DRAWDIBTIME
 dev_langs:
@@ -106,7 +105,7 @@ Time to transfer bitmaps by using the <a href="https://docs.microsoft.com/window
 
 ### -field timeSetDIBits
 
-Time to transfer bitmaps by using the <a href="http://go.microsoft.com/fwlink/p/?linkid=17003">SetDIBits</a> function.
+Time to transfer bitmaps by using the <a href="https://msdn.microsoft.com/library/ms532281.aspx">SetDIBits</a> function.
           
 
 
@@ -127,7 +126,7 @@ Time to transfer bitmaps by using the <a href="http://go.microsoft.com/fwlink/p/
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=17003">SetDIBits</a>
+<a href="https://msdn.microsoft.com/library/ms532281.aspx">SetDIBits</a>
  
 
  

@@ -72,7 +72,7 @@ A pointer to a variable of type INT that receives the index of the mini-icon for
 
 
 
-If there is a min-icon for the specified device setup class, <b>SetupDiGetClassBitmapIndex</b> returns <b>TRUE</b>. Otherwise, this function returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>. If the <i>ClassGuid</i> parameter is <b>NULL</b>, or if there is no mini-icon for the specified class, the function returns <b>FALSE</b> and <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_NO_DEVICE_ICON.
+If there is a min-icon for the specified device setup class, <b>SetupDiGetClassBitmapIndex</b> returns <b>TRUE</b>. Otherwise, this function returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>. If the <i>ClassGuid</i> parameter is <b>NULL</b>, or if there is no mini-icon for the specified class, the function returns <b>FALSE</b> and <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_NO_DEVICE_ICON.
 
 
 

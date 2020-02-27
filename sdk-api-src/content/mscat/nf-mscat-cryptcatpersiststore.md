@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 2a564b0e-fcc6-4702-8173-d18df7064e53
 ms.date: 12/05/2018
 ms.keywords: CryptCATPersistStore, CryptCATPersistStore function [Security], mscat/CryptCATPersistStore, security.cryptcatpersiststore
-ms.topic: function
 f1_keywords:
 - mscat/CryptCATPersistStore
 dev_langs:

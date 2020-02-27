@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6c89a3ee-7d69-4cde-b1e5-b566fa1c2ca3
 ms.date: 12/05/2018
 ms.keywords: IESFileExpiryDateEvent, IESFileExpiryDateEvent interface [Microsoft TV Technologies], IESFileExpiryDateEvent interface [Microsoft TV Technologies],described, mstv.iesfileexpirydateevent, tuner/IESFileExpiryDateEvent
-ms.topic: interface
 f1_keywords:
 - tuner/IESFileExpiryDateEvent
 dev_langs:

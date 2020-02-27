@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 1acdd266-9ca2-43d4-b677-7c30b4dca4ee
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingSelect, RpcNsBindingSelect function [RPC], _rpc_rpcnsbindingselect, rpc.rpcnsbindingselect, rpcnsi/RpcNsBindingSelect
-ms.topic: function
 f1_keywords:
 - rpcnsi/RpcNsBindingSelect
 dev_langs:

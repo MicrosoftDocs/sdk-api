@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: fd69c11c-f4c3-4681-ae85-385460e96be9
 ms.date: 12/05/2018
 ms.keywords: IFolderFilter, IFolderFilter interface [Windows Shell], IFolderFilter interface [Windows Shell],described, _shell_IFolderFilter, shell.IFolderFilter, shobjidl_core/IFolderFilter
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IFolderFilter
 dev_langs:
@@ -100,7 +99,7 @@ When your application calls <a href="https://docs.microsoft.com/windows/desktop/
                 
 
 <ol>
-<li>Use the folder browser's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method to request a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfiltersite">IFolderFilterSite</a> interface.</li>
+<li>Use the folder browser's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method to request a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfiltersite">IFolderFilterSite</a> interface.</li>
 <li>Call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderfiltersite-setfilter">IFolderFilterSite::SetFilter</a>, passing it a pointer to your <b>IFolderFilter</b> interface.</li>
 <li>The folder browser then queries <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderfilter-getenumflags">IFolderFilter::GetEnumFlags</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderfilter-shouldshow">IFolderFilter::ShouldShow</a>to determine how to filter the enumeration.</li>
 </ol>

@@ -1,9 +1,10 @@
 ---
 UID: NA:tom
+title: Tom.h header
 ms.assetid: 84a9101d-928d-31d6-bdda-1eeb41a87e0a
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: controls
 ---
 

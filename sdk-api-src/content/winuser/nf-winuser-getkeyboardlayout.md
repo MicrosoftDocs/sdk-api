@@ -7,7 +7,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getkeyboardlayout.htm
 ms.date: 12/05/2018
 ms.keywords: GetKeyboardLayout, GetKeyboardLayout function [Keyboard and Mouse Input], _win32_GetKeyboardLayout, _win32_getkeyboardlayout_cpp, inputdev.getkeyboardlayout, winui._win32_getkeyboardlayout, winuser/GetKeyboardLayout
-ms.topic: function
 f1_keywords:
 - winuser/GetKeyboardLayout
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 9CE79CEB-115E-4802-A687-B2CB23E6A0E0
 ms.date: 12/05/2018
 ms.keywords: IAudioClient2, IAudioClient2 interface [Core Audio], IAudioClient2 interface [Core Audio],described, audioclient/IAudioClient2, coreaudio.iaudioclient2
-ms.topic: interface
 f1_keywords:
 - audioclient/IAudioClient2
 dev_langs:
@@ -91,7 +90,7 @@ Retrieves information about whether or not the endpoint on which a stream is cre
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-setclientproperties">SetClientProperties</a>
 </td>
 <td align="left" width="63%">
-Sets the properties of the audio stream by populating an <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/ns-audioclient-audioclientproperties">AudioClientProperties</a> structure.
+Sets the properties of the audio stream by populating an <a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties~r1">AudioClientProperties</a> structure.
 
 </td>
 </tr>
@@ -103,7 +102,7 @@ Sets the properties of the audio stream by populating an <a href="https://docs.m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/ns-audioclient-audioclientproperties">AudioClientProperties</a>
+<a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties~r1">AudioClientProperties</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 76c64aa9-0501-457d-b774-c209fbac4ccc
 ms.date: 12/05/2018
 ms.keywords: FindFirstStreamTransactedW, FindFirstStreamTransactedW function [Files], FindStreamInfoStandard, fs.findfirststreamtransactedw, winbase/FindFirstStreamTransactedW
-ms.topic: function
 f1_keywords:
 - winbase/FindFirstStreamTransactedW
 dev_langs:

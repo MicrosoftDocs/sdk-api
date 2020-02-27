@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 7dec1d91-6781-42fa-9476-bb64e2554017
 ms.date: 12/05/2018
 ms.keywords: VDS_PATH_POLICY, VDS_PATH_POLICY structure [VDS], base.vds_path_policy, vds/VDS_PATH_POLICY, vdshwprv/VDS_PATH_POLICY
-ms.topic: struct
 f1_keywords:
 - vds/VDS_PATH_POLICY
 dev_langs:

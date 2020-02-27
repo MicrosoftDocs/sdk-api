@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 21fcef3f-252c-4f67-a789-4527b8ee1b94
 ms.date: 12/05/2018
 ms.keywords: GetReconversion, GetReconversion method [Text Services Framework], GetReconversion method [Text Services Framework],ITfFnLMProcessor interface, ITfFnLMProcessor interface [Text Services Framework],GetReconversion method, ITfFnLMProcessor.GetReconversion, ITfFnLMProcessor::GetReconversion, _tsf_itffnlmprocessor_getreconversion_ref, ctffunc/ITfFnLMProcessor::GetReconversion, tsf.itffnlmprocessor_getreconversion
-ms.topic: method
 f1_keywords:
 - ctffunc/ITfFnLMProcessor.GetReconversion
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NetVista
 ms.assetid: 9f6978a9-a779-49c6-b642-c411fa764972
 ms.date: 12/05/2018
 ms.keywords: '*PNET_IF_ADMIN_STATUS, NET_IF_ADMIN_STATUS, NET_IF_ADMIN_STATUS enumeration [Network Drivers Starting with Windows Vista], NET_IF_ADMIN_STATUS_DOWN, NET_IF_ADMIN_STATUS_TESTING, NET_IF_ADMIN_STATUS_UP, PNET_IF_ADMIN_STATUS, PNET_IF_ADMIN_STATUS enumeration pointer [Network Drivers Starting with Windows Vista], ifdef/NET_IF_ADMIN_STATUS, ifdef/NET_IF_ADMIN_STATUS_DOWN, ifdef/NET_IF_ADMIN_STATUS_TESTING, ifdef/NET_IF_ADMIN_STATUS_UP, ifdef/PNET_IF_ADMIN_STATUS, net_if_enums_ref_d52428da-7651-4581-8ec4-9409fbfc663f.xml, netvista.net_if_admin_status'
-ms.topic: enum
 f1_keywords:
 - ifdef/NET_IF_ADMIN_STATUS
 dev_langs:
@@ -85,7 +84,7 @@ Specifies that the interface is in a test mode, and no network data can be trans
 
 
 For more information on RFC 2863, see 
-    <a href="http://go.microsoft.com/fwlink/p/?linkid=84054">"The Interfaces Group MIB"</a>.
+    <a href="https://www.ietf.org/rfc/rfc2863.txt">"The Interfaces Group MIB"</a>.
 
 
 

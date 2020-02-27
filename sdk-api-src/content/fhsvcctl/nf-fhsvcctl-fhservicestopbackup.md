@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 17FCD464-2543-454A-B60E-E37EDF61C595
 ms.date: 12/05/2018
 ms.keywords: FhServiceStopBackup, FhServiceStopBackup function [Windows API], fhsvcctl/FhServiceStopBackup, winprog.fhservicestopbackup
-ms.topic: function
 f1_keywords:
 - fhsvcctl/FhServiceStopBackup
 dev_langs:

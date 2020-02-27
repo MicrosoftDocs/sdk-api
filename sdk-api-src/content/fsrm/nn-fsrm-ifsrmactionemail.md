@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 6eb6d82e-018d-4977-ad60-fce296c16e83
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionEmail, IFsrmActionEmail interface [File Server Resource Manager], IFsrmActionEmail interface [File Server Resource Manager],described, fs.ifsrmactionemail, fsrm.ifsrmactionemail, fsrm/IFsrmActionEmail
-ms.topic: interface
 f1_keywords:
 - fsrm/IFsrmActionEmail
 dev_langs:
@@ -69,7 +68,7 @@ To create an email action, call one of the following methods and specify
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-createthresholdaction">IFsrmQuotaBase::CreateThresholdAction</a>
 </li>
 </ul>The create methods return an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmaction">IFsrmAction</a> interface. To get 
-    this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method 
+    this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method 
     and specify <b>IID_IFsrmActionEmail</b> as the interface identifier.
 
 For file management jobs, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmactionemail2">IFsrmActionEmail2</a> 

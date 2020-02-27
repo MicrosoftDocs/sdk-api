@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: b476023d-0e93-4d76-9ba8-ce5766c9ac51
 ms.date: 12/05/2018
 ms.keywords: MiniDumpWriteDump, MiniDumpWriteDump function, _win32_minidumpwritedump, base.minidumpwritedump, minidumpapiset/MiniDumpWriteDump
-ms.topic: function
 f1_keywords:
 - minidumpapiset/MiniDumpWriteDump
 dev_langs:

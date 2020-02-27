@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: E5F422AA-D4E6-4F9F-A57C-608CE9317658
 ms.date: 12/05/2018
 ms.keywords: DnsCancelQuery, DnsCancelQuery function [DNS], dns.dnscancelquery, windns/DnsCancelQuery
-ms.topic: function
 f1_keywords:
 - windns/DnsCancelQuery
 dev_langs:

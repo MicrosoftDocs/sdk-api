@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 68ccd722-94d2-4610-ba64-f51318f5436e
 ms.date: 12/05/2018
 ms.keywords: '*PPDH_FMT_COUNTERVALUE, PDH_FMT_COUNTERVALUE, PDH_FMT_COUNTERVALUE structure [Perf], PPDH_FMT_COUNTERVALUE, PPDH_FMT_COUNTERVALUE structure pointer [Perf], _win32_pdh_fmt_countervalue_str, base.pdh_fmt_countervalue_str, pdh/PDH_FMT_COUNTERVALUE, pdh/PPDH_FMT_COUNTERVALUE, perf.pdh_fmt_countervalue_str'
-ms.topic: struct
 f1_keywords:
 - pdh/PDH_FMT_COUNTERVALUE
 dev_langs:

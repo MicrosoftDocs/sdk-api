@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 33c262ca-5093-4f44-a8c6-09045bc90f60
 ms.date: 12/05/2018
 ms.keywords: HeapCompatibilityInformation, HeapEnableTerminationOnCorruption, HeapOptimizeResources, HeapSetInformation, HeapSetInformation function, _win32_heapsetinformation, base.heapsetinformation, heapapi/HeapSetInformation, winbase/HeapSetInformation
-ms.topic: function
 f1_keywords:
 - heapapi/HeapSetInformation
 dev_langs:
@@ -99,9 +98,9 @@ Enables heap features. Only the
 
 The LFH cannot be enabled for heaps created with <b>HEAP_NO_SERIALIZE</b> or for heaps 
            created with a fixed size. The LFH also cannot be enabled if you are using the heap debugging tools in 
-           <a href="http://go.microsoft.com/fwlink/p/?linkid=153784">Debugging Tools for Windows</a> 
+           <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/">Debugging Tools for Windows</a> 
            or 
-           <a href="http://go.microsoft.com/fwlink/p/?linkid=153785">Microsoft Application Verifier</a>.
+           <a href="https://www.microsoft.com/downloads/details.aspx?FamilyID=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18&displaylang=en">Microsoft Application Verifier</a>.
 
 When a process is run under any debugger, certain heap debug options are automatically enabled for all 
            heaps in the process. These heap debug options prevent the use of the LFH. To enable the low-fragmentation 

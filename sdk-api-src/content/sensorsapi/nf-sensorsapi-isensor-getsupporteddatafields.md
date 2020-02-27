@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: b808e472-8428-4176-a3a1-2ab6e454ef44
 ms.date: 12/05/2018
 ms.keywords: GetSupportedDataFields, GetSupportedDataFields method, GetSupportedDataFields method,ISensor interface, ISensor interface,GetSupportedDataFields method, ISensor.GetSupportedDataFields, ISensor::GetSupportedDataFields, sensorsapi/ISensor::GetSupportedDataFields, winsensors_com_ref.isensor_getsupporteddatafields
-ms.topic: method
 f1_keywords:
 - sensorsapi/ISensor.GetSupportedDataFields
 dev_langs:
@@ -60,7 +59,7 @@ Retrieves a set of <b>PROPERTYKEY</b>s that represent the data fields the sensor
 
 ### -param ppDataFields [out]
 
-Address of the <a href="http://go.microsoft.com/fwlink/p/?linkid=134661">IPortableDeviceKeyCollection</a>  pointer that receives the list of supported data fields.
+Address of the <a href="https://msdn.microsoft.com/library/ms739549(VS.85).aspx">IPortableDeviceKeyCollection</a>  pointer that receives the list of supported data fields.
 
 
 ## -returns

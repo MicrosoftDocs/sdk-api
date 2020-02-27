@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0fbeab7d-0c54-45e3-a73c-755df28a16d5
 ms.date: 12/05/2018
 ms.keywords: IMPEG2TuneRequestFactory, IMPEG2TuneRequestFactory interface [Microsoft TV Technologies], IMPEG2TuneRequestFactory interface [Microsoft TV Technologies],described, IMPEG2TuneRequestFactoryInterface, mstv.impeg2tunerequestfactory, tuner/IMPEG2TuneRequestFactory
-ms.topic: interface
 f1_keywords:
 - tuner/IMPEG2TuneRequestFactory
 dev_langs:

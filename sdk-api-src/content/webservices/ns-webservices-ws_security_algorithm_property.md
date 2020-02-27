@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 6a0dbe45-65f6-41eb-aa94-5ed0cdd751cf
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_ALGORITHM_PROPERTY, WS_SECURITY_ALGORITHM_PROPERTY structure [Web Services for Windows], webservices/WS_SECURITY_ALGORITHM_PROPERTY, wsw.ws_security_algorithm_property
-ms.topic: struct
 f1_keywords:
 - webservices/WS_SECURITY_ALGORITHM_PROPERTY
 dev_langs:

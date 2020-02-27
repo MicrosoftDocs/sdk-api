@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: f92c1d78-a2a7-469e-926a-7ba5ad8221e1
 ms.date: 12/05/2018
 ms.keywords: DXVA2FixedToFloat, DXVA2FixedToFloat function [Media Foundation], dxva2api/DXVA2FixedToFloat, f92c1d78-a2a7-469e-926a-7ba5ad8221e1, mf.dxva2fixedtofloat
-ms.topic: function
 f1_keywords:
 - dxva2api/DXVA2FixedToFloat
 dev_langs:

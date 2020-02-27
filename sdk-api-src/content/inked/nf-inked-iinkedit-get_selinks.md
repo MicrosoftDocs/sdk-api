@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: dbdd590d-a8d8-44e9-aecc-fbbe0d24ea20
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelInks property, IInkEdit.SelInks, IInkEdit.get_SelInks, IInkEdit::SelInks, IInkEdit::get_SelInks, IInkEdit::put_SelInks, InkEdit.get_SelInks, InkEdit.put_SelInks, SelInks property [Tablet PC], SelInks property [Tablet PC],IInkEdit interface, dbdd590d-a8d8-44e9-aecc-fbbe0d24ea20, get_SelInks, inked/IInkEdit::SelInks, inked/IInkEdit::get_SelInks, inked/IInkEdit::put_SelInks, put_SelInks, tablet.inkedit_selinks
-ms.topic: method
 f1_keywords:
 - inked/IInkEdit.SelInks
 dev_langs:

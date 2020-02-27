@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 176f51c0-0075-4afb-8b5c-5d0b6b64a3ad
 ms.date: 12/05/2018
 ms.keywords: EngModifySurface, EngModifySurface function [Display Devices], display.engmodifysurface, gdifncs_422719a8-bffd-4c92-bbb8-fbd53ee1ce09.xml, winddi/EngModifySurface
-ms.topic: function
 f1_keywords:
 - winddi/EngModifySurface
 dev_langs:
@@ -115,7 +114,7 @@ Is reserved and must always be set to <b>NULL</b>.
 
 The DIB engine uses <i>pvScan0</i> and <i>lDelta</i> to draw directly to the surface. When these parameters are <b>NULL</b>, the surface is opaque to GDI, and GDI will revert to calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcopybits">DrvCopyBits</a> for drawing operations not hooked by the driver.
 
-After <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a> returns a handle to a primary surface, do not call <b>EngModifySurface</b> on that handle. Doing so can cause a bug check in certain circumstances. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;ID=330248">Microsoft Knowledge Base article 330248</a>.
+After <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a> returns a handle to a primary surface, do not call <b>EngModifySurface</b> on that handle. Doing so can cause a bug check in certain circumstances. For more information, see <a href="https://support.microsoft.com/?kbid&amp;ID=330248">Microsoft Knowledge Base article 330248</a>.
 
 
 

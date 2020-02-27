@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 3d5be77f-282f-479d-aa34-a8cb1c771951
 ms.date: 12/05/2018
 ms.keywords: IFsrmAction interface [File Server Resource Manager],RunLimitInterval property, IFsrmAction.RunLimitInterval, IFsrmAction.put_RunLimitInterval, IFsrmAction::RunLimitInterval, IFsrmAction::get_RunLimitInterval, IFsrmAction::put_RunLimitInterval, RunLimitInterval property [File Server Resource Manager], RunLimitInterval property [File Server Resource Manager],IFsrmAction interface, fs.ifsrmaction_runlimitinterval, fsrm.ifsrmaction_runlimitinterval, fsrm/IFsrmAction::RunLimitInterval, fsrm/IFsrmAction::get_RunLimitInterval, fsrm/IFsrmAction::put_RunLimitInterval, put_RunLimitInterval
-ms.topic: method
 f1_keywords:
 - fsrm/IFsrmAction.RunLimitInterval
 dev_langs:

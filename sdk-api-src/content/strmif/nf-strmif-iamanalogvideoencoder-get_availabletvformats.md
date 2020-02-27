@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 739a5f6f-2498-49f4-9c9d-008bd71d4855
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],get_AvailableTVFormats method, IAMAnalogVideoEncoder.get_AvailableTVFormats, IAMAnalogVideoEncoder::get_AvailableTVFormats, IAMAnalogVideoEncoderget_AvailableTVFormats, dshow.iamanalogvideoencoder_get_availabletvformats, get_AvailableTVFormats, get_AvailableTVFormats method [DirectShow], get_AvailableTVFormats method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::get_AvailableTVFormats
-ms.topic: method
 f1_keywords:
 - strmif/IAMAnalogVideoEncoder.get_AvailableTVFormats
 dev_langs:
@@ -65,7 +64,7 @@ The <code>get_AvailableTVFormats</code> method retrieves the analog video standa
 
 ### -param lAnalogVideoStandard [out]
 
-Specifies a pointer to a <b>long</b> integer to receive the available TV formats. The formats are defined in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a> enumeration and the available formats have been combined in this integer with a bitwise OR.
+Specifies a pointer to a [AnalogVideoStandard](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-analogvideostandard) enumeration and the available formats have been combined in this integer with a bitwise OR.
 
 
 ## -returns

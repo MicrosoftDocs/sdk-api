@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: ef60493c-164e-4633-a248-05c4afade937
 ms.date: 12/05/2018
 ms.keywords: WriteFmtUserTypeStg, WriteFmtUserTypeStg function [Structured Storage], _stg_writefmtusertypestg, ole2/WriteFmtUserTypeStg, stg.writefmtusertypestg
-ms.topic: function
 f1_keywords:
 - ole2/WriteFmtUserTypeStg
 dev_langs:

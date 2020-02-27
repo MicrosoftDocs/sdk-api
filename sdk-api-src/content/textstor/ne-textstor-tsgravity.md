@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 12ec85b9-e65f-485d-8e42-164d2a988356
 ms.date: 12/05/2018
 ms.keywords: TS_GR_BACKWARD, TS_GR_FORWARD, TsGravity, TsGravity enumeration [Text Services Framework], _tsf_tsgravity_ref, textstor/TS_GR_BACKWARD, textstor/TS_GR_FORWARD, textstor/TsGravity, tsf.tsgravity
-ms.topic: enum
 f1_keywords:
 - textstor/TsGravity
 dev_langs:

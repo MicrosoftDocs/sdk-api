@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: abdfb558-aab9-4929-822a-08b35235c22f
 ms.date: 12/05/2018
 ms.keywords: GetMGT, GetMGT method [Microsoft TV Technologies], GetMGT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetMGT method, IAtscPsipParser.GetMGT, IAtscPsipParser::GetMGT, IAtscPsipParserGetMGT, atscpsipparser/IAtscPsipParser::GetMGT, mstv.iatscpsipparser_getmgt
-ms.topic: method
 f1_keywords:
 - atscpsipparser/IAtscPsipParser.GetMGT
 dev_langs:

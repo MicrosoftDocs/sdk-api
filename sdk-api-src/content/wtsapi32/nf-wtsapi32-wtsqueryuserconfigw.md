@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: aabbcc03-3241-49ab-ab11-ccd3e6893e78
 ms.date: 12/05/2018
 ms.keywords: WTSQueryUserConfig, WTSQueryUserConfig function [Remote Desktop Services], WTSQueryUserConfigA, WTSQueryUserConfigW, _win32_wtsqueryuserconfig, termserv.wtsqueryuserconfig, wtsapi32/WTSQueryUserConfig, wtsapi32/WTSQueryUserConfigA, wtsapi32/WTSQueryUserConfigW
-ms.topic: function
 f1_keywords:
 - wtsapi32/WTSQueryUserConfig
 dev_langs:

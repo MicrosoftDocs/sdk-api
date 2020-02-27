@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_create.htm
 ms.date: 12/05/2018
 ms.keywords: Animate_Create, Animate_Create macro [Windows Controls], _win32_Animate_Create, _win32_Animate_Create_cpp, commctrl/Animate_Create, controls.Animate_Create, controls._win32_Animate_Create
-ms.topic: macro
 f1_keywords:
 - commctrl/Animate_Create
 dev_langs:

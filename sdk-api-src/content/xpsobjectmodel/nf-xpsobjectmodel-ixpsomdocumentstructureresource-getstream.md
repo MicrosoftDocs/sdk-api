@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 77c08ced-bc0d-4ebf-a257-d4298c7a352d
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMDocumentStructureResource interface, IXpsOMDocumentStructureResource interface [XPS Documents and Packaging],GetStream method, IXpsOMDocumentStructureResource.GetStream, IXpsOMDocumentStructureResource::GetStream, xps.ixpsomdocumentstructureresource_getstream, xpsobjectmodel/IXpsOMDocumentStructureResource::GetStream
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDocumentStructureResource.GetStream
 dev_langs:
@@ -80,7 +79,7 @@ This method calls the <a href="https://docs.microsoft.com/previous-versions/wind
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object returned by this method might return an error of E_PENDING, which indicates that the stream length has not been determined yet.  This behavior is different from that of a standard <b>IStream</b> object.
 
-For more information about the content of DocumentStructure part, see the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>.
+For more information about the content of DocumentStructure part, see the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.
 
 This method calls the stream's <b>Clone</b> method to create the stream returned in <i>stream</i>. As a result, the performance of this method will depend on that of the stream's <b>Clone</b> method.
 
@@ -100,7 +99,7 @@ This method calls the stream's <b>Clone</b> method to create the stream returned
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

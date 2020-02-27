@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 60543438-9547-44fe-8468-baee03d6ebc9
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Title method, IAMMediaContent.get_Title, IAMMediaContent::get_Title, IAMMediaContentget_Title, dshow.iammediacontent_get_title, get_Title, get_Title method [DirectShow], get_Title method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Title
-ms.topic: method
 f1_keywords:
 - qnetwork/IAMMediaContent.get_Title
 dev_langs:

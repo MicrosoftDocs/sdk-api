@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 4a5fae5a-91d5-4a94-ac54-cb641147e8dc
 ms.date: 12/05/2018
 ms.keywords: IMbnSms, IMbnSms interface [Microsoft Broadband Networks], IMbnSms interface [Microsoft Broadband Networks],described, mbn.imbnsms, mbnapi/IMbnSms
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnSms
 dev_langs:
@@ -149,7 +148,7 @@ Sends a message in PDU format.
 
 
 
-The calling application can acquire this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
+The calling application can acquire this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
 
 
 

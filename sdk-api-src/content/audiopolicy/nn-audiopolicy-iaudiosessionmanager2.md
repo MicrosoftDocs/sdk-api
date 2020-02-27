@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 476dac90-d0c4-499c-973e-33ea55546659
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionManager2, IAudioSessionManager2 interface [Core Audio], IAudioSessionManager2 interface [Core Audio],described, audiopolicy/IAudioSessionManager2, coreaudio.iaudiosessionmanager2
-ms.topic: interface
 f1_keywords:
 - audiopolicy/IAudioSessionManager2
 dev_langs:

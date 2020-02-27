@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 62f69677-05cd-46ab-8b77-96e10f8fbb1d
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Microsoft TV Technologies], GetValue method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetValue method, IEncoderAPI.GetValue, IEncoderAPI::GetValue, IEncoderAPIGetValue, mstv.iencoderapi_getvalue, strmif/IEncoderAPI::GetValue
-ms.topic: method
 f1_keywords:
 - strmif/IEncoderAPI.GetValue
 dev_langs:

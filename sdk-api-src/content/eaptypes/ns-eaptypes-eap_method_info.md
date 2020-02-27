@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 89b5dcbd-afa9-40a8-ab04-2caee01ce0a3
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_INFO, EAP_METHOD_INFO structure [EAPHost], eaphost.eap_method_info, eaptypes/EAP_METHOD_INFO
-ms.topic: struct
 f1_keywords:
 - eaptypes/EAP_METHOD_INFO
 dev_langs:

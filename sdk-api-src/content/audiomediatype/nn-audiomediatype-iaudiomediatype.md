@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: bf3ee44b-79f3-441a-91f9-a340dc146d67
 ms.date: 12/05/2018
 ms.keywords: IAudioMediaType, IAudioMediaType interface [Audio Devices], IAudioMediaType interface [Audio Devices],described, audio.iaudiomediatype, audio_syseffects_r_8b31a96c-76bb-4090-a0e3-e7e16fb98ddc.xml, audiomediatype/IAudioMediaType
-ms.topic: interface
 f1_keywords:
 - audiomediatype/IAudioMediaType
 dev_langs:

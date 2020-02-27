@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 0694ff8c-4c36-4bf7-a2b3-c032bf7a2f65
 ms.date: 12/05/2018
 ms.keywords: PerfSetCounterRefValue, PerfSetCounterRefValue function [Perf], base.perfsetcounterrefvalue, perf.perfsetcounterrefvalue, perflib/PerfSetCounterRefValue
-ms.topic: function
 f1_keywords:
 - perflib/PerfSetCounterRefValue
 dev_langs:

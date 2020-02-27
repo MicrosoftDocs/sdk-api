@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 1B10F8E9-D3C9-432B-B773-77B4BB82224C
 ms.date: 12/05/2018
 ms.keywords: EndInvokeAction, EndInvokeAction method [UPnP APIs], EndInvokeAction method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],EndInvokeAction method, IUPnPServiceAsync.EndInvokeAction, IUPnPServiceAsync::EndInvokeAction, upnp.iupnpserviceasync_endinvokeaction, upnp/IUPnPServiceAsync::EndInvokeAction
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPServiceAsync.EndInvokeAction
 dev_langs:

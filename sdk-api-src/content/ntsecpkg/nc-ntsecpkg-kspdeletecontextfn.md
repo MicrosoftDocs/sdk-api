@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 70e64bd3-7fdf-464b-bc0a-a0384a3e1a59
 ms.date: 12/05/2018
 ms.keywords: KspDeleteContextFn, KspDeleteContextFn callback, SpDeleteContext, SpDeleteContext callback function [Security], _ssp_spdeletecontext, ntsecpkg/SpDeleteContext, security.spdeletecontext
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpDeleteContext
 dev_langs:

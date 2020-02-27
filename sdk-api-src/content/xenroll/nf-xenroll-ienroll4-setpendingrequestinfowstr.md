@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 02b49033-3354-4e30-a816-a9c078c6164a
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],setPendingRequestInfoWStr method, IEnroll4.setPendingRequestInfoWStr, IEnroll4::setPendingRequestInfoWStr, security.ienroll4_setpendingrequestinfowstr, setPendingRequestInfoWStr, setPendingRequestInfoWStr method [Security], setPendingRequestInfoWStr method [Security],IEnroll4 interface, xenroll/IEnroll4::setPendingRequestInfoWStr
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll4.setPendingRequestInfoWStr
 dev_langs:

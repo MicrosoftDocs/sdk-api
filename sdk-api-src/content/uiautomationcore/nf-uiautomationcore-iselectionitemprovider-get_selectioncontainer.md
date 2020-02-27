@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: c1bfdb40-f30c-4f33-a947-875077000029
 ms.date: 12/05/2018
 ms.keywords: ISelectionItemProvider interface [Windows Accessibility],SelectionContainer property, ISelectionItemProvider.SelectionContainer, ISelectionItemProvider.get_SelectionContainer, ISelectionItemProvider::SelectionContainer, ISelectionItemProvider::get_SelectionContainer, SelectionContainer property [Windows Accessibility], SelectionContainer property [Windows Accessibility],ISelectionItemProvider interface, get_SelectionContainer, uiauto.uiauto_ISelectionItemProvider_SelectionContainer, uiauto_ISelectionItemProvider_SelectionContainer, uiautomationcore/ISelectionItemProvider::SelectionContainer, uiautomationcore/ISelectionItemProvider::get_SelectionContainer, winauto.uiauto_ISelectionItemProvider_SelectionContainer
-ms.topic: method
 f1_keywords:
 - uiautomationcore/ISelectionItemProvider.SelectionContainer
 dev_langs:

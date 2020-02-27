@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 0d4449aa-ffcc-41d9-99b1-7352edaf3700
 ms.date: 12/05/2018
 ms.keywords: WsCreateReader, WsCreateReader function [Web Services for Windows], webservices/WsCreateReader, wsw.wscreatereader
-ms.topic: function
 f1_keywords:
 - webservices/WsCreateReader
 dev_langs:

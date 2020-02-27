@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4ClampLengthV(XMVECTOR,XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4ClampLengthV, XMVector4ClampLengthV, XMVector4ClampLengthV method [DirectX Math Support APIs], dxmath.xmvector4clamplengthv
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector4ClampLengthV
 dev_langs:

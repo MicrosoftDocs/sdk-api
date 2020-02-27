@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: fc7b6be3-3929-4b88-9899-3949706e8985
 ms.date: 12/05/2018
 ms.keywords: APP_FLAG_PRIVILEGED, RDPSRAPI_APP_FLAGS, RDPSRAPI_APP_FLAGS enumeration [RDP], rdp.rdpsrapi_app_flags, rdpencomapi/APP_FLAG_PRIVILEGED, rdpencomapi/RDPSRAPI_APP_FLAGS
-ms.topic: enum
 f1_keywords:
 - rdpencomapi/RDPSRAPI_APP_FLAGS
 dev_langs:

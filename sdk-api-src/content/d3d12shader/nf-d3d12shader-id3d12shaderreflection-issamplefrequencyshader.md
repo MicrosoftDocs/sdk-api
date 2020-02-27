@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 8779992E-D20A-4D8A-82F2-B83A3D481BD9
 ms.date: 12/05/2018
 ms.keywords: ID3D12ShaderReflection interface,IsSampleFrequencyShader method, ID3D12ShaderReflection.IsSampleFrequencyShader, ID3D12ShaderReflection::IsSampleFrequencyShader, IsSampleFrequencyShader, IsSampleFrequencyShader method, IsSampleFrequencyShader method,ID3D12ShaderReflection interface, d3d12shader/ID3D12ShaderReflection::IsSampleFrequencyShader, direct3d12.id3d12shaderreflection_issamplefrequencyshader
-ms.topic: method
 f1_keywords:
 - d3d12shader/ID3D12ShaderReflection.IsSampleFrequencyShader
 dev_langs:

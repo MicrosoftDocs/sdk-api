@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 2ea525b9-f33d-4b72-85e1-6d2cfdc64f5f
 ms.date: 12/05/2018
 ms.keywords: OpenSemaphore, OpenSemaphore function, OpenSemaphoreA, OpenSemaphoreW, _win32_opensemaphore, base.opensemaphore, synchapi/OpenSemaphore, synchapi/OpenSemaphoreA, synchapi/OpenSemaphoreW
-ms.topic: function
 f1_keywords:
 - synchapi/OpenSemaphore
 dev_langs:

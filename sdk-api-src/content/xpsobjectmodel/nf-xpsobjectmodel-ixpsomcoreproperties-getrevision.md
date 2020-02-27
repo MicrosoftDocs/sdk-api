@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 7143e4e7-c5e3-41f8-84d8-64fa3008ccc8
 ms.date: 12/05/2018
 ms.keywords: GetRevision, GetRevision method [XPS Documents and Packaging], GetRevision method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetRevision method, IXpsOMCoreProperties.GetRevision, IXpsOMCoreProperties::GetRevision, xps.ixpsomcoreproperties_getrevision, xpsobjectmodel/IXpsOMCoreProperties::GetRevision
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.GetRevision
 dev_langs:
@@ -122,11 +121,11 @@ This method allocates the memory used by the string that is returned in <i>revis
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

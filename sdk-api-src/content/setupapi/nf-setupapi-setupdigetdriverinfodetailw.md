@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 42f3668c-8112-4cc0-bce8-b0b3886c45fb
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDriverInfoDetail, SetupDiGetDriverInfoDetail function [Device and Driver Installation], SetupDiGetDriverInfoDetailA, SetupDiGetDriverInfoDetailW, devinst.setupdigetdriverinfodetail, di-rtns_5a2fb98d-54ee-4290-9969-f5e12d77cbcf.xml, setupapi/SetupDiGetDriverInfoDetail
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetDriverInfoDetail
 dev_langs:
@@ -95,7 +94,7 @@ A pointer to a variable that receives the number of bytes required to store the 
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 
@@ -104,7 +103,7 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 
 
-If the specified driver information member and the caller-supplied buffer are both valid, this function is guaranteed to fill in all static fields in the SP_DRVINFO_DETAIL_DATA structure and as many IDs as possible in the variable-length buffer at the end while still maintaining REG_MULTI_SZ format. In this case, the function returns <b>FALSE</b> and a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER. If specified, <i>RequiredSize</i> contains the total number of bytes required for the structure with all IDs.
+If the specified driver information member and the caller-supplied buffer are both valid, this function is guaranteed to fill in all static fields in the SP_DRVINFO_DETAIL_DATA structure and as many IDs as possible in the variable-length buffer at the end while still maintaining REG_MULTI_SZ format. In this case, the function returns <b>FALSE</b> and a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER. If specified, <i>RequiredSize</i> contains the total number of bytes required for the structure with all IDs.
 
 
 

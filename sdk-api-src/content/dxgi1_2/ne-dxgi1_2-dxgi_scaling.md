@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 7EEA4B02-3C81-4A07-BE3B-80A5E35A16BE
 ms.date: 12/05/2018
 ms.keywords: DXGI_SCALING, DXGI_SCALING enumeration [DXGI], DXGI_SCALING_ASPECT_RATIO_STRETCH, DXGI_SCALING_NONE, DXGI_SCALING_STRETCH, direct3ddxgi.dxgi_scaling, dxgi1_2/DXGI_SCALING, dxgi1_2/DXGI_SCALING_ASPECT_RATIO_STRETCH, dxgi1_2/DXGI_SCALING_NONE, dxgi1_2/DXGI_SCALING_STRETCH
-ms.topic: enum
 f1_keywords:
 - dxgi1_2/DXGI_SCALING
 dev_langs:

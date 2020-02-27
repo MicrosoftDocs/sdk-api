@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: d90501dd-ca15-463c-b204-b1f56103ebe7
 ms.date: 12/05/2018
 ms.keywords: ITsSbPlacement, ITsSbPlacement interface [Remote Desktop Services], ITsSbPlacement interface [Remote Desktop Services],described, sbtsv/ITsSbPlacement, termserv.itssbplacement
-ms.topic: interface
 f1_keywords:
 - sbtsv/ITsSbPlacement
 dev_langs:

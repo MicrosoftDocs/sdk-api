@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 84ffa808-1bdb-47c8-a18c-6dfa6fcf90de
 ms.date: 12/05/2018
 ms.keywords: OPM_REQUESTED_INFORMATION, OPM_REQUESTED_INFORMATION structure [Media Foundation], _OPM_REQUESTED_INFORMATION, ksopmapi/OPM_REQUESTED_INFORMATION, mf.opm_requested_information
-ms.topic: struct
 f1_keywords:
 - opmapi/OPM_REQUESTED_INFORMATION
 dev_langs:

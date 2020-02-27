@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 409d4353-fc85-49ff-99a4-d8393a3c0ec4
 ms.date: 12/05/2018
 ms.keywords: 409d4353-fc85-49ff-99a4-d8393a3c0ec4, IDynamicRenderer interface [Tablet PC],Refresh method, IDynamicRenderer.Refresh, IDynamicRenderer::Refresh, Refresh, Refresh method [Tablet PC], Refresh method [Tablet PC],IDynamicRenderer interface, rtscom/IDynamicRenderer::Refresh, tablet.idynamicrenderer_refresh
-ms.topic: method
 f1_keywords:
 - rtscom/IDynamicRenderer.Refresh
 dev_langs:

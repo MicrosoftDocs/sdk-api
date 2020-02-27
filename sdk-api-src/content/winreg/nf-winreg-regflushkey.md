@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: ae1160be-1da7-4621-a0fc-727aa229ec06
 ms.date: 12/05/2018
 ms.keywords: RegFlushKey, RegFlushKey function, _win32_regflushkey, base.regflushkey, winreg/RegFlushKey
-ms.topic: function
 f1_keywords:
 - winreg/RegFlushKey
 dev_langs:

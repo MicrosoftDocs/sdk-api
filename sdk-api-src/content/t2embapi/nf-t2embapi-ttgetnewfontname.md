@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 08636992-8dd8-461c-b360-f52a19d845bf
 ms.date: 12/05/2018
 ms.keywords: TTGetNewFontName, TTGetNewFontName function [Windows GDI], _win32_TTGetNewFontName, gdi.ttgetnewfontname, t2embapi/TTGetNewFontName
-ms.topic: function
 f1_keywords:
 - t2embapi/TTGetNewFontName
 dev_langs:

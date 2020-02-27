@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: d7fbc6e4-f166-4341-8ce9-37c8baab1b00
 ms.date: 12/05/2018
 ms.keywords: BuildCommDCBAndTimeouts, BuildCommDCBAndTimeouts function, BuildCommDCBAndTimeoutsA, BuildCommDCBAndTimeoutsW, _win32_buildcommdcbandtimeouts, base.buildcommdcbandtimeouts, winbase/BuildCommDCBAndTimeouts, winbase/BuildCommDCBAndTimeoutsA, winbase/BuildCommDCBAndTimeoutsW
-ms.topic: function
 f1_keywords:
 - winbase/BuildCommDCBAndTimeouts
 dev_langs:
@@ -81,7 +80,7 @@ The "parity" substring indicates how the parity bit is used to detect transmissi
        The values represent "none", "even", "odd",        
        "mark", and "space".
 
-For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=192055">Mode</a> command 
+For more information, see the <a href="https://technet.microsoft.com/library/cc732236.aspx">Mode</a> command 
        reference in TechNet.
 
 For example, the following string specifies a baud rate of 1200, no parity, 8 data bits, and 1 stop bit:

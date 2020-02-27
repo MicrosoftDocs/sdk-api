@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: bb12f0e1-dc9c-447e-a28d-30c45eb95d09
 ms.date: 12/05/2018
 ms.keywords: AllocateForStreamEx, AllocateForStreamEx method [windows Media Format], AllocateForStreamEx method [windows Media Format],IWMReaderAllocatorEx interface, IWMReaderAllocatorEx interface [windows Media Format],AllocateForStreamEx method, IWMReaderAllocatorEx.AllocateForStreamEx, IWMReaderAllocatorEx::AllocateForStreamEx, IWMReaderAllocatorExAllocateForStreamEx, wmformat.iwmreaderallocatorex_allocateforstreamex, wmsdkidl/IWMReaderAllocatorEx::AllocateForStreamEx
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderAllocatorEx.AllocateForStreamEx
 dev_langs:

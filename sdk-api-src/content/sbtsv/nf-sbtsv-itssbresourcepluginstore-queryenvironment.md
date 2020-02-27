@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 1497c638-ba9d-467e-8fbb-8467a43666cc
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],QueryEnvironment method, ITsSbResourcePluginStore.QueryEnvironment, ITsSbResourcePluginStore::QueryEnvironment, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],QueryEnvironment method, ITsSbResourcePluginStoreEx::QueryEnvironment, QueryEnvironment, QueryEnvironment method [Remote Desktop Services], QueryEnvironment method [Remote Desktop Services],ITsSbResourcePluginStore interface, QueryEnvironment method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::QueryEnvironment, sbtsv/ITsSbResourcePluginStoreEx::QueryEnvironment, termserv.itssbresourcepluginstore_queryenvironment
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbResourcePluginStore.QueryEnvironment
 dev_langs:

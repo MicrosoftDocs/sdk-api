@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 088be29e-cd1f-4e00-9759-c6e40dca8449
 ms.date: 12/05/2018
 ms.keywords: INetFwProfile interface [ICS/ICF],IcmpSettings property, INetFwProfile.IcmpSettings, INetFwProfile.get_IcmpSettings, INetFwProfile::IcmpSettings, INetFwProfile::get_IcmpSettings, IcmpSettings property [ICS/ICF], IcmpSettings property [ICS/ICF],INetFwProfile interface, get_IcmpSettings, ics.inetfwprofile_icmpsettings, netfw/INetFwProfile::IcmpSettings, netfw/INetFwProfile::get_IcmpSettings
-ms.topic: method
 f1_keywords:
 - netfw/INetFwProfile.IcmpSettings
 dev_langs:

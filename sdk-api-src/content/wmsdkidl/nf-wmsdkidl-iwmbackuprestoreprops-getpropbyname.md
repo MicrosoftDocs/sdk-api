@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 771a7a49-7d42-4537-9945-97b907404097
 ms.date: 12/05/2018
 ms.keywords: GetPropByName, GetPropByName method [windows Media Format], GetPropByName method [windows Media Format],IWMBackupRestoreProps interface, IWMBackupRestoreProps interface [windows Media Format],GetPropByName method, IWMBackupRestoreProps.GetPropByName, IWMBackupRestoreProps::GetPropByName, IWMBackupRestorePropsGetPropByName, wmformat.iwmbackuprestoreprops_getpropbyname, wmsdkidl/IWMBackupRestoreProps::GetPropByName
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMBackupRestoreProps.GetPropByName
 dev_langs:
@@ -53,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>GetPropByName</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>GetPropByName</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 

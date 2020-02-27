@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: ae54ad59-665c-494c-8054-3f19aec9968f
 ms.date: 12/05/2018
 ms.keywords: GetBuildVersion, GetBuildVersion method [Windows Accessibility], GetBuildVersion method [Windows Accessibility],IVersionInfo interface, IVersionInfo interface [Windows Accessibility],GetBuildVersion method, IVersionInfo.GetBuildVersion, IVersionInfo::GetBuildVersion, _msaa_IVersionInfo_GetBuildVersion, msaa.iversioninfo_iversioninfo__getbuildversion, msaatext/IVersionInfo::GetBuildVersion, winauto.iversioninfo_iversioninfo__getbuildversion
-ms.topic: method
 f1_keywords:
 - msaatext/IVersionInfo.GetBuildVersion
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Clients call <b>IVersionInfo::GetBuildVersion</b> to retrieve build information for a specified component.
 <div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
-<a href="https://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="https://msdn.microsoft.com/library/ms629032(VS.85).aspx">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		</div><div> </div>
 
 ## -parameters

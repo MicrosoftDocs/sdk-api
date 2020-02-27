@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 6D580AC6-5E3C-4F0B-A922-E81E6B8D8658
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_STORAGE_TIER_MEDIA_TYPE, FILE_STORAGE_TIER_MEDIA_TYPE, FILE_STORAGE_TIER_MEDIA_TYPE enumeration [Files], FileStorageTierMediaTypeDisk, FileStorageTierMediaTypeSsd, FileStorageTierMediaTypeUnspecified, fs.file_storage_tier_media_type, winioctl/FILE_STORAGE_TIER_MEDIA_TYPE, winioctl/FileStorageTierMediaTypeDisk, winioctl/FileStorageTierMediaTypeSsd, winioctl/FileStorageTierMediaTypeUnspecified'
-ms.topic: enum
 f1_keywords:
 - winioctl/FILE_STORAGE_TIER_MEDIA_TYPE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 37D9494A-A5C0-4ABA-99BC-7F9B10E8D06C
 ms.date: 12/05/2018
 ms.keywords: IAppxPackageEditor, IAppxPackageEditor interface [App packaging and management], IAppxPackageEditor interface [App packaging and management],described, appxpackaging/IAppxPackageEditor, appxpkg.iappxpackageeditor
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxPackageEditor
 dev_langs:

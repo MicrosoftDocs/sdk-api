@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 724614af-cae8-47d7-888d-ed1504a9bc12
 ms.date: 12/05/2018
 ms.keywords: GetHelperTokenSid, GetHelperTokenSid method [BITS], GetHelperTokenSid method [BITS],IBitsTokenOptions interface, IBitsTokenOptions interface [BITS],GetHelperTokenSid method, IBitsTokenOptions.GetHelperTokenSid, IBitsTokenOptions::GetHelperTokenSid, bits.ibitstokenoptions_gethelpertokensid, bits4_0/IBitsTokenOptions::GetHelperTokenSid
-ms.topic: method
 f1_keywords:
 - bits4_0/IBitsTokenOptions.GetHelperTokenSid
 dev_langs:
@@ -62,7 +61,7 @@ Returns the SID of the helper token if one is set.<div class="alert"><b>Note</b>
 
 ### -param pSid [out]
 
-Returns the SID that is retrieved from the <i>TokenInformation</i> parameter of the <a href="http://go.microsoft.com/fwlink/p/?linkid=146947">GetTokenInformation</a> function.  If no SID is retrieved, this parameter is set to <b>NULL</b>.
+Returns the SID that is retrieved from the <i>TokenInformation</i> parameter of the <a href="https://msdn.microsoft.com/library/aa446671.aspx">GetTokenInformation</a> function.  If no SID is retrieved, this parameter is set to <b>NULL</b>.
 
 
 ## -returns

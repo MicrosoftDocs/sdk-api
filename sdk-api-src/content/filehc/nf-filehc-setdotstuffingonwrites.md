@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 6191e097-3e8a-4149-85bb-88d804caa3ae
 ms.date: 12/05/2018
 ms.keywords: SetDotStuffingOnWrites, SetDotStuffingOnWrites function [Windows API], filehc/SetDotStuffingOnWrites, winprog._setdotstuffingonwrites
-ms.topic: function
 f1_keywords:
 - filehc/SetDotStuffingOnWrites
 dev_langs:
@@ -60,7 +59,7 @@ Enables dot-stuffing properties on the write path of the file handle cache of th
 
 ### -param pContext [in]
 
-A pointer to an <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure that contains context information.
+A pointer to an <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure that contains context information.
 
 
 ### -param fEnable [in]
@@ -87,7 +86,7 @@ Returns <b>TRUE</b> if the function succeeds; otherwise, it is <b>FALSE</b>.
 
 
 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a>
  
 
  

@@ -5,7 +5,6 @@ description: Indicate that the current contents of a resource can be discarded.
 tech.root: mf
 ms.assetid: f00a49e1-d189-462f-acb7-f233239b2cf4
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoDecodeCommandList::DiscardResource
 dev_langs:
@@ -45,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-Indicate that the current contents of a resource can be discarded.  The current contents of the resource are no longer valid allowing optimizations for subsequent operations such as [ResourceBarrier](nf-d3d12video-id3d12videodecodecommandlist-discardresource).
+Indicate that the current contents of a resource can be discarded.  The current contents of the resource are no longer valid allowing optimizations for subsequent operations such as [ResourceBarrier](nf-d3d12video-id3d12videodecodecommandlist-discardresource.md).
 
 ## -parameters
 

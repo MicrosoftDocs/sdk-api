@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 187ae17c-82c0-4439-8b98-52ba0571d222
 ms.date: 12/05/2018
 ms.keywords: GPMSecurityInfo class [GPMC],Remove method, IGPMSecurityInfo interface [GPMC],Remove method, IGPMSecurityInfo.Remove, IGPMSecurityInfo::Remove, Remove, Remove method [GPMC], Remove method [GPMC],GPMSecurityInfo class, Remove method [GPMC],IGPMSecurityInfo interface, _win32_igpmsecurityinfo_remove, gpmc.igpmsecurityinfo_remove, gpmgmt/IGPMSecurityInfo::Remove
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPMSecurityInfo.Remove
 dev_langs:

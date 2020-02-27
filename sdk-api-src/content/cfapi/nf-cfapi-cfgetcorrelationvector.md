@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: 3DB0AAFE-82DC-4707-8DB6-C52D4A9B2771
 ms.date: 12/05/2018
 ms.keywords: CfGetCorrelationVector, CfGetCorrelationVector function, cfapi/CfGetCorrelationVector, cloudApi.cfgetcorrelationvector
-ms.topic: function
 f1_keywords:
 - cfapi/CfGetCorrelationVector
 dev_langs:

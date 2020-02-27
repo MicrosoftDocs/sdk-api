@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 2548875c-3c23-4076-9d3d-82bebf5e7718
 ms.date: 12/05/2018
 ms.keywords: INetFwRule interface [ICS/ICF],InterfaceTypes property, INetFwRule.InterfaceTypes, INetFwRule.get_InterfaceTypes, INetFwRule::InterfaceTypes, INetFwRule::get_InterfaceTypes, INetFwRule::put_InterfaceTypes, InterfaceTypes property [ICS/ICF], InterfaceTypes property [ICS/ICF],INetFwRule interface, get_InterfaceTypes, ics.inetfwrule_interfacetypes, netfw/INetFwRule::InterfaceTypes, netfw/INetFwRule::get_InterfaceTypes, netfw/INetFwRule::put_InterfaceTypes
-ms.topic: method
 f1_keywords:
 - netfw/INetFwRule.InterfaceTypes
 dev_langs:

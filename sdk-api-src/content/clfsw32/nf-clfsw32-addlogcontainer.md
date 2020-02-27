@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: 5e886b96-9431-43f6-b888-e0f47c432371
 ms.date: 12/05/2018
 ms.keywords: AddLogContainer, AddLogContainer function [Files], clfsw32/AddLogContainer, fs.addlogcontainer
-ms.topic: function
 f1_keywords:
 - clfsw32/AddLogContainer
 dev_langs:

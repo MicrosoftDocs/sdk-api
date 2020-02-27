@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 9474e06a-9519-456c-b304-efc875a4accc
 ms.date: 12/05/2018
 ms.keywords: IWMDRMReader3, IWMDRMReader3 interface [windows Media Format], IWMDRMReader3 interface [windows Media Format],described, IWMDRMReader3Interface, wmformat.iwmdrmreader3, wmsdkidl/IWMDRMReader3
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMDRMReader3
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWMDRMReader3</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>IWMDRMReader3</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 

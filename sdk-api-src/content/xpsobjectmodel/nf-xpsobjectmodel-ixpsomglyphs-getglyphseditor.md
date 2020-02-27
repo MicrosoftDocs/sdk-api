@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 1c641d99-9303-484d-82e0-2d71e2c43561
 ms.date: 12/05/2018
 ms.keywords: GetGlyphsEditor, GetGlyphsEditor method [XPS Documents and Packaging], GetGlyphsEditor method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphsEditor method, IXpsOMGlyphs.GetGlyphsEditor, IXpsOMGlyphs::GetGlyphsEditor, xps.ixpsomglyphs_getglyphseditor, xpsobjectmodel/IXpsOMGlyphs::GetGlyphsEditor
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphs.GetGlyphsEditor
 dev_langs:
@@ -124,7 +123,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xps
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

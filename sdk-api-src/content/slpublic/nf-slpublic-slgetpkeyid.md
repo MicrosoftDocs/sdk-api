@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: 6255b66f-d121-47a9-a5a6-eca5483b14dd
 ms.date: 12/05/2018
 ms.keywords: SLGetPKeyId, SLGetPKeyId function [Security], security.slgetpkeyid, slpublic/SLGetPKeyId
-ms.topic: function
 f1_keywords:
 - slpublic/SLGetPKeyId
 dev_langs:

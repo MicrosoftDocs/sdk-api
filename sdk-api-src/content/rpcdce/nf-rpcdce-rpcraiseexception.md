@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 0bffc62e-a80e-4af1-a17a-ef4f00b9c4da
 ms.date: 12/05/2018
 ms.keywords: RpcRaiseException, RpcRaiseException function [RPC], _rpc_rpcraiseexception, rpc.rpcraiseexception, rpcdce/RpcRaiseException
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcRaiseException
 dev_langs:

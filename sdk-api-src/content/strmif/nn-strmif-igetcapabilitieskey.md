@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 97a9112f-7b7b-4a7e-8f40-bdb148d413c8
 ms.date: 12/05/2018
 ms.keywords: IGetCapabilitiesKey, IGetCapabilitiesKey interface [DirectShow], IGetCapabilitiesKey interface [DirectShow],described, IGetCapabilitiesKeyInterface, dshow.igetcapabilitieskey, strmif/IGetCapabilitiesKey
-ms.topic: interface
 f1_keywords:
 - strmif/IGetCapabilitiesKey
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 87be3040-6113-4876-a847-93620207647f
 ms.date: 12/05/2018
 ms.keywords: GetSignatureBlockResources, GetSignatureBlockResources method [XPS Documents and Packaging], GetSignatureBlockResources method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],GetSignatureBlockResources method, IXpsOMDocument.GetSignatureBlockResources, IXpsOMDocument::GetSignatureBlockResources, xps.ixpsomdocument_getsignatureblockresources, xpsobjectmodel/IXpsOMDocument::GetSignatureBlockResources
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDocument.GetSignatureBlockResources
 dev_langs:

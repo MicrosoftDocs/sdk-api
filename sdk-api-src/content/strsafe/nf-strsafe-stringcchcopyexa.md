@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopyex.htm
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchCopyEx, StringCchCopyEx function [Menus and Other Resources], StringCchCopyExA, StringCchCopyExW, _shell_StringCchCopyEx, _shell_stringcchcopyex_cpp, menurc.stringcchcopyex, strsafe/StringCchCopyEx, strsafe/StringCchCopyExA, strsafe/StringCchCopyExW, winui._shell_stringcchcopyex
-ms.topic: function
 f1_keywords:
 - strsafe/StringCchCopyEx
 dev_langs:
@@ -58,7 +57,7 @@ Copies one string to another. The size of the destination buffer is provided to 
 
 <b>StringCchCopyEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192494">strcpy, wcscpy, _tcscpy</a></li>
+<li><a href="https://msdn.microsoft.com/library/kk6xf663.aspx">strcpy, wcscpy, _tcscpy</a></li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcpya">lstrcpy</a>
 </li>

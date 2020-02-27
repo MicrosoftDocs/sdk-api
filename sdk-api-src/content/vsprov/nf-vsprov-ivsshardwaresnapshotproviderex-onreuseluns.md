@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 0a92c992-a351-4d39-a370-f720e50dfbf3
 ms.date: 12/05/2018
 ms.keywords: IVssHardwareSnapshotProviderEx interface,OnReuseLuns method, IVssHardwareSnapshotProviderEx.OnReuseLuns, IVssHardwareSnapshotProviderEx::OnReuseLuns, OnReuseLuns, OnReuseLuns method, OnReuseLuns method,IVssHardwareSnapshotProviderEx interface, base.ivsshardwaresnapshotproviderex_onreuseluns, vsprov/IVssHardwareSnapshotProviderEx::OnReuseLuns
-ms.topic: method
 f1_keywords:
 - vsprov/IVssHardwareSnapshotProviderEx.OnReuseLuns
 dev_langs:

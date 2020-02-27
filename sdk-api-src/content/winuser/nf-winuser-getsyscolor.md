@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: 165c1781-161e-4ab2-98c9-eec4e9098d09
 ms.date: 12/05/2018
 ms.keywords: COLOR_3DDKSHADOW, COLOR_3DFACE, COLOR_3DHIGHLIGHT, COLOR_3DHILIGHT, COLOR_3DLIGHT, COLOR_3DSHADOW, COLOR_ACTIVEBORDER, COLOR_ACTIVECAPTION, COLOR_APPWORKSPACE, COLOR_BACKGROUND, COLOR_BTNFACE, COLOR_BTNHIGHLIGHT, COLOR_BTNHILIGHT, COLOR_BTNSHADOW, COLOR_BTNTEXT, COLOR_CAPTIONTEXT, COLOR_DESKTOP, COLOR_GRADIENTACTIVECAPTION, COLOR_GRADIENTINACTIVECAPTION, COLOR_GRAYTEXT, COLOR_HIGHLIGHT, COLOR_HIGHLIGHTTEXT, COLOR_HOTLIGHT, COLOR_INACTIVEBORDER, COLOR_INACTIVECAPTION, COLOR_INACTIVECAPTIONTEXT, COLOR_INFOBK, COLOR_INFOTEXT, COLOR_MENU, COLOR_MENUBAR, COLOR_MENUHILIGHT, COLOR_MENUTEXT, COLOR_SCROLLBAR, COLOR_WINDOW, COLOR_WINDOWFRAME, COLOR_WINDOWTEXT, GetSysColor, GetSysColor function [Windows and Messages], _win32_getsyscolor, base.getsyscolor, winmsg.getsyscolor, winui.getsyscolor, winuser/GetSysColor
-ms.topic: function
 f1_keywords:
 - winuser/GetSysColor
 dev_langs:
@@ -523,7 +522,7 @@ System colors for monochrome displays are usually interpreted as shades of gray.
 To paint with a system color brush, an application should use <code>GetSysColorBrush(nIndex)</code>, instead of 
 <code>CreateSolidBrush(GetSysColor(nIndex))</code>, because <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolorbrush">GetSysColorBrush</a> returns a cached brush, instead of allocating a new one.
 
-Color is an important visual element of most user interfaces. For guidelines about using color in your applications, see <a href="http://go.microsoft.com/fwlink/p/?linkid=112188">Color</a>.
+Color is an important visual element of most user interfaces. For guidelines about using color in your applications, see <a href="https://msdn.microsoft.com/library/aa511283.aspx">Color</a>.
 
 
 #### Examples

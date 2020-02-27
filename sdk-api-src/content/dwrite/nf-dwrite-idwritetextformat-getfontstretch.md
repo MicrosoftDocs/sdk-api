@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 57ff471d-5daa-4657-8bfa-1fd6e173411f
 ms.date: 12/05/2018
 ms.keywords: GetFontStretch, GetFontStretch method [Direct Write], GetFontStretch method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetFontStretch method, IDWriteTextFormat.GetFontStretch, IDWriteTextFormat::GetFontStretch, directwrite.IDWriteTextFormat_GetFontStretch, dwrite/IDWriteTextFormat::GetFontStretch
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextFormat.GetFontStretch
 dev_langs:

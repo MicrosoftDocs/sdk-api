@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 831324BC-854B-4070-9DAE-55E68304D608
 ms.date: 12/05/2018
 ms.keywords: InstantiateComponentFromPackage, InstantiateComponentFromPackage function [Windows API], comppkgsup/InstantiateComponentFromPackage, winprog.instantiatecomponentfrompackage
-ms.topic: function
 f1_keywords:
 - comppkgsup/InstantiateComponentFromPackage
 dev_langs:

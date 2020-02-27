@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 154efb07-7c4e-47f0-8a14-e2fe404efcb7
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phonesetdisplay, phoneSetDisplay, phoneSetDisplay function [TAPI 2.2], tapi/phoneSetDisplay, tapi2.phonesetdisplay
-ms.topic: function
 f1_keywords:
 - tapi/phoneSetDisplay
 dev_langs:

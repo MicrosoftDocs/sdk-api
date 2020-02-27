@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 42821075-8123-4bfa-a6ba-8d3a77a9f50b
 ms.date: 12/05/2018
 ms.keywords: SHGetIDListFromObject, SHGetIDListFromObject function [Windows Shell], _shell_SHGetIDListFromObject, shell.SHGetIDListFromObject, shobjidl_core/SHGetIDListFromObject
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHGetIDListFromObject
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 43371fa0-d7b4-42e0-a94d-d307a7210618
 ms.date: 12/05/2018
 ms.keywords: SetupRenameError, SetupRenameError function [Setup API], SetupRenameErrorA, SetupRenameErrorW, _setupapi_setuprenameerror, setup.setuprenameerror, setupapi/SetupRenameError, setupapi/SetupRenameErrorA, setupapi/SetupRenameErrorW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupRenameError
 dev_langs:

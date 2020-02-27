@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 320cc215-e4e5-4196-8e1b-ca0a30d01d37
 ms.date: 12/05/2018
 ms.keywords: 320cc215-e4e5-4196-8e1b-ca0a30d01d37, DesiredPacketDescription property [Tablet PC], DesiredPacketDescription property [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],DesiredPacketDescription property, IInkCollector.DesiredPacketDescription, IInkCollector.get_DesiredPacketDescription, IInkCollector::DesiredPacketDescription, IInkCollector::get_DesiredPacketDescription, IInkCollector::put_DesiredPacketDescription, InkCollector.get_DesiredPacketDescription, InkCollector.put_DesiredPacketDescription, get_DesiredPacketDescription, msinkaut/IInkCollector::DesiredPacketDescription, msinkaut/IInkCollector::get_DesiredPacketDescription, msinkaut/IInkCollector::put_DesiredPacketDescription, put_DesiredPacketDescription, tablet.inkcollector_desiredpacketdescription
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkCollector.DesiredPacketDescription
 dev_langs:

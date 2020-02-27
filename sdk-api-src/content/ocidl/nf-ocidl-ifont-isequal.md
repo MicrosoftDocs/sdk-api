@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: becef75d-8342-4b4f-82e2-f1cca4eb619e
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],IsEqual method, IFont.IsEqual, IFont::IsEqual, IsEqual, IsEqual method [COM], IsEqual method [COM],IFont interface, _ctrl_ifont_isequal, com.ifont_isequal, ocidl/IFont::IsEqual
-ms.topic: method
 f1_keywords:
 - ocidl/IFont.IsEqual
 dev_langs:

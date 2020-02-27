@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\base.htm
 ms.date: 12/05/2018
 ms.keywords: Base, Base method [search], Base method [search],IEntity interface, IEntity interface [search],Base method, IEntity.Base, IEntity::Base, _search_IEntity_Base, search._search_IEntity_Base, structuredquery/IEntity::Base
-ms.topic: method
 f1_keywords:
 - structuredquery/IEntity.Base
 dev_langs:

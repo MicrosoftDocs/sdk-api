@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 4e36157f-444d-4e59-bc30-c6def9c51cea
 ms.date: 12/05/2018
 ms.keywords: Add, Add method, Add method,IWSDiscoveryProviderNotify interface, IWSDiscoveryProviderNotify interface,Add method, IWSDiscoveryProviderNotify.Add, IWSDiscoveryProviderNotify::Add, ncd.iwsdiscoveryprovidernotify_add, wsddisco/IWSDiscoveryProviderNotify::Add
-ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveryProviderNotify.Add
 dev_langs:

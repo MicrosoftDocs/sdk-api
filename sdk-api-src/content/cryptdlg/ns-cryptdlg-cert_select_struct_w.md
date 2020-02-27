@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 49184872-d636-4e55-8e32-0f38b49b5c21
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_SELECT_STRUCT_W, CERT_SELECT_STRUCT, CERT_SELECT_STRUCT structure [Security], CERT_SELECT_STRUCT_A, CERT_SELECT_STRUCT_W, CSS_ALLOWMULTISELECT, CSS_ENABLEHOOK, CSS_ENABLETEMPLATE, CSS_ENABLETEMPLATEHANDLE, CSS_HIDE_PROPERTIES, CSS_SHOW_HELP, PCERT_SELECT_STRUCT, PCERT_SELECT_STRUCT structure pointer [Security], cryptdlg/CERT_SELECT_STRUCT, cryptdlg/CERT_SELECT_STRUCT_A, cryptdlg/CERT_SELECT_STRUCT_W, cryptdlg/PCERT_SELECT_STRUCT, security.cert_select_struct, security.cert_select_struct_w'
-ms.topic: struct
 f1_keywords:
 - cryptdlg/CERT_SELECT_STRUCT
 dev_langs:
@@ -257,7 +256,7 @@ A pointer to a null-terminated string that contains the full path to the Help fi
 ### -field dwHelpId
 
 The context identifier for the topic. For more information, see  
-      <a href="http://go.microsoft.com/fwlink/p/?linkid=84527">WinHelp</a>.
+      <a href="https://msdn.microsoft.com/library/ms644702.aspx">WinHelp</a>.
 
 
 ### -field hprov

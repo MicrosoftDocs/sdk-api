@@ -7,7 +7,6 @@ tech.root: deviceaccess
 ms.assetid: 476a84c8-4065-4a4f-ad74-68cbbbabd5dd
 ms.date: 12/05/2018
 ms.keywords: CancelOperation, CancelOperation method [Device Access Broker API], CancelOperation method [Device Access Broker API],IDeviceIoControl interface, IDeviceIoControl interface [Device Access Broker API],CancelOperation method, IDeviceIoControl.CancelOperation, IDeviceIoControl::CancelOperation, deviceaccess.ideviceiocontrol_canceloperation, deviceaccess/IDeviceIoControl::CancelOperation
-ms.topic: method
 f1_keywords:
 - deviceaccess/IDeviceIoControl.CancelOperation
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 24f063a7-02e3-47cf-89ca-ebc63bf3e2dc
 ms.date: 12/05/2018
 ms.keywords: IX509EndorsementKey, IX509EndorsementKey interface [Security], IX509EndorsementKey interface [Security],described, certenroll/IX509EndorsementKey, security.ix509endorsementkey
-ms.topic: interface
 f1_keywords:
 - certenroll/IX509EndorsementKey
 dev_langs:

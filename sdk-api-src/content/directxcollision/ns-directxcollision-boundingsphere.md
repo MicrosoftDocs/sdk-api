@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxcollision.BoundingSphere
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere, BoundingSphere structure [DirectX Math Support APIs], directxcollision/BoundingSphere, dxmath.boundingsphere
-ms.topic: struct
 f1_keywords:
 - directxcollision/BoundingSphere
 dev_langs:

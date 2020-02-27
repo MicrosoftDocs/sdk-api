@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 8bcaa20e-90f8-4e18-88b0-85a6b6632ef7
 ms.date: 12/05/2018
 ms.keywords: FilterVolumeInstanceFindFirst, FilterVolumeInstanceFindFirst function [Installable File System Drivers], FltWin32ApiRef_3a784a96-c717-4118-bf97-bba9ac4b7736.xml, fltuser/FilterVolumeInstanceFindFirst, ifsk.filtervolumeinstancefindfirst
-ms.topic: function
 f1_keywords:
 - fltuser/FilterVolumeInstanceFindFirst
 dev_langs:

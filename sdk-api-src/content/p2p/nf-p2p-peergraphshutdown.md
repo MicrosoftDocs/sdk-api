@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 036f1bd6-f8aa-47ba-841e-f731ff486860
 ms.date: 12/05/2018
 ms.keywords: PeerGraphShutdown, PeerGraphShutdown function [Peer Networking], p2p.peergraphshutdown, p2p/PeerGraphShutdown
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphShutdown
 dev_langs:

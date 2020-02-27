@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 351b7b2d-abb7-449e-bee2-eea96fef3b9d
 ms.date: 12/05/2018
 ms.keywords: 0a909fb2-9d08-a479-d85f-14de8ba21f69, EnumAdapters1, EnumAdapters1 method [DXGI], EnumAdapters1 method [DXGI],IDXGIFactory1 interface, IDXGIFactory1 interface [DXGI],EnumAdapters1 method, IDXGIFactory1.EnumAdapters1, IDXGIFactory1::EnumAdapters1, direct3ddxgi.idxgifactory1_enumadapters1, dxgi/IDXGIFactory1::EnumAdapters1
-ms.topic: method
 f1_keywords:
 - dxgi/IDXGIFactory1.EnumAdapters1
 dev_langs:
@@ -91,7 +90,7 @@ Returns S_OK if successful; otherwise, returns <a href="https://docs.microsoft.c
 
 
 This method is not supported by DXGI 1.0, which shipped in Windows Vista and Windows Server 2008. DXGI 1.1 support is required, which is available on 
-      Windows 7, Windows Server 2008 R2, and as an update to Windows Vista with Service Pack 2 (SP2) (<a href="http://go.microsoft.com/fwlink/p/?linkid=160189">KB 971644</a>) and Windows Server 2008 (<a href="http://go.microsoft.com/fwlink/p/?linkid=183689">KB 971512</a>).
+      Windows 7, Windows Server 2008 R2, and as an update to Windows Vista with Service Pack 2 (SP2) (<a href="https://support.microsoft.com/kb/971644">KB 971644</a>) and Windows Server 2008 (<a href="https://support.microsoft.com/kb/971512/">KB 971512</a>).
 
 When you create a factory, the factory enumerates the set of adapters that are available in the system. Therefore, if you change the adapters in a system, you must destroy 
       and recreate the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1">IDXGIFactory1</a> object. The number of adapters in a system changes when you add or remove a display card, or dock or undock a laptop. 

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 8b2fba30-3ede-466f-ad3b-2de2175a088b
 ms.date: 12/05/2018
 ms.keywords: IEventControl, IEventControl interface [COM+], IEventControl interface [COM+],described, _cos_IEventControl, cos.ieventcontrol, eventsys/IEventControl
-ms.topic: interface
 f1_keywords:
 - eventsys/IEventControl
 dev_langs:

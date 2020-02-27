@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: d79a5469-2248-466b-a5ca-32a568b135d2
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linemonitormedia, lineMonitorMedia, lineMonitorMedia function [TAPI 2.2], tapi/lineMonitorMedia, tapi2.linemonitormedia
-ms.topic: function
 f1_keywords:
 - tapi/lineMonitorMedia
 dev_langs:

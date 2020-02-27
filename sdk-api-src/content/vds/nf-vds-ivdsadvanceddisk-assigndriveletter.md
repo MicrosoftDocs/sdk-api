@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 92a79b87-7385-40d9-aa20-e4724b241e59
 ms.date: 12/05/2018
 ms.keywords: AssignDriveLetter, AssignDriveLetter method [VDS], AssignDriveLetter method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],AssignDriveLetter method, IVdsAdvancedDisk.AssignDriveLetter, IVdsAdvancedDisk::AssignDriveLetter, base.ivdsadvanceddisk_assigndriveletter, vds/IVdsAdvancedDisk::AssignDriveLetter
-ms.topic: method
 f1_keywords:
 - vds/IVdsAdvancedDisk.AssignDriveLetter
 dev_langs:

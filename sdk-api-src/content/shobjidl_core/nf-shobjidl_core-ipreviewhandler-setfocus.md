@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 93667383-da56-4fe9-a79e-933ab9703365
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],SetFocus method, IPreviewHandler.SetFocus, IPreviewHandler::SetFocus, SetFocus, SetFocus method [Windows Shell], SetFocus method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_SetFocus, shell.IPreviewHandler_SetFocus, shobjidl_core/IPreviewHandler::SetFocus
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IPreviewHandler.SetFocus
 dev_langs:

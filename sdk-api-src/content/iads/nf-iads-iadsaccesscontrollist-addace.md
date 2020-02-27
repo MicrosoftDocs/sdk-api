@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 663be55a-29d6-4a8a-adf2-024762413fc3
 ms.date: 12/05/2018
 ms.keywords: AddAce, AddAce method [ADSI], AddAce method [ADSI],IADsAccessControlList interface, IADsAccessControlList interface [ADSI],AddAce method, IADsAccessControlList.AddAce, IADsAccessControlList::AddAce, _ds_iadsaccesscontrollist_addace, adsi.iadsaccesscontrollist__addace, adsi.iadsaccesscontrollist_addace, iads/IADsAccessControlList::AddAce
-ms.topic: method
 f1_keywords:
 - iads/IADsAccessControlList.AddAce
 dev_langs:

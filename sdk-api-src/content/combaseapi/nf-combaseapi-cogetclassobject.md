@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 65e758ce-50a4-49e8-b3b2-0cd148d2781a
 ms.date: 12/05/2018
 ms.keywords: CoGetClassObject, CoGetClassObject function [COM], _com_CoGetClassObject, com.cogetclassobject, combaseapi/CoGetClassObject
-ms.topic: function
 f1_keywords:
 - combaseapi/CoGetClassObject
 dev_langs:
@@ -83,7 +82,7 @@ A pointer to computer on which to instantiate the class object. If this paramete
 
 ### -param riid [in]
 
-Reference to the identifier of the interface, which will be supplied in ppv on successful return. This interface will be used to communicate with the class object. Typically this value is IID_IClassFactory, although other values â€“ such as IID_IClassFactory2 which supports a form of licensing â€“ are allowed. All OLE-defined interface IIDs are defined in the OLE header files as IID_interfacename, where interfacename is the name of the interface.
+Reference to the identifier of the interface, which will be supplied in _ppv_ on successful return. This interface will be used to communicate with the class object. Typically this value is IID_IClassFactory, although other values such as IID_IClassFactory2 which supports a form of licensing are allowed. All OLE-defined interface IIDs are defined in the OLE header files as IID_interfacename, where interfacename is the name of the interface.
 
 
 
@@ -133,7 +132,7 @@ The CLSID is not properly registered. This error can also indicate that the valu
 </dl>
 </td>
 <td width="60%">
-Either the object pointed to by <i>ppv</i> does not support the interface identified by <i>riid</i>, or the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> operation on the class object returned E_NOINTERFACE.
+Either the object pointed to by <i>ppv</i> does not support the interface identified by <i>riid</i>, or the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> operation on the class object returned E_NOINTERFACE.
 
 </td>
 </tr>

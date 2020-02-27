@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 195581e5-e962-4756-a33c-b1e898b5b0e7
 ms.date: 12/05/2018
 ms.keywords: '*LPOFSTRUCT, *POFSTRUCT, OFSTRUCT, OFSTRUCT structure [Files], POFSTRUCT, POFSTRUCT structure pointer [Files], _OFSTRUCT, _win32_ofstruct_str, base.ofstruct_str, fs.ofstruct_str, winbase/OFSTRUCT, winbase/POFSTRUCT'
-ms.topic: struct
 f1_keywords:
 - winbase/OFSTRUCT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: 951A4C1F-B176-4D18-821A-CEAD1116B8BE
 ms.date: 12/05/2018
 ms.keywords: IsPropertyReadOnly, IsValueBindingExpression, IsValueCollection, IsValueCollectionReadOnly, IsValueHandle, IsValueHandleAndEvaluatedValue, IsValueNull, MatadataBit, MatadataBit enumeration, MetadataBit, None, xaml_diagnostics.metadatabit, xamlom/IsPropertyReadOnly, xamlom/IsValueBindingExpression, xamlom/IsValueCollection, xamlom/IsValueCollectionReadOnly, xamlom/IsValueHandle, xamlom/IsValueHandleAndEvaluatedValue, xamlom/IsValueNull, xamlom/MatadataBit, xamlom/None
-ms.topic: enum
 f1_keywords:
 - xamlom/MetadataBit
 dev_langs:

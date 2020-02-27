@@ -7,7 +7,6 @@ tech.root: debug_wwahost
 ms.assetid: 8C959152-3576-4131-BD32-5777F1F570A1
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationUpdateEvents interface [Debugging Windows Store apps],OnCssChanged method, IWebApplicationUpdateEvents.OnCssChanged, IWebApplicationUpdateEvents::OnCssChanged, OnCssChanged, OnCssChanged method [Debugging Windows Store apps], OnCssChanged method [Debugging Windows Store apps],IWebApplicationUpdateEvents interface, debug.iwebapplicationupdateevents_oncsschanged, webapplication/IWebApplicationUpdateEvents::OnCssChanged
-ms.topic: method
 f1_keywords:
 - webapplication/IWebApplicationUpdateEvents.OnCssChanged
 dev_langs:

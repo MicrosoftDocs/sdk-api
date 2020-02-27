@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: f3134cc9-759b-4908-ada0-d025a525e795
 ms.date: 12/05/2018
 ms.keywords: SafeArrayGetLBound, SafeArrayGetLBound function [Automation], _oa96_SafeArrayGetLBound, automat.safearraygetlbound, oleauto/SafeArrayGetLBound
-ms.topic: function
 f1_keywords:
 - oleauto/SafeArrayGetLBound
 dev_langs:

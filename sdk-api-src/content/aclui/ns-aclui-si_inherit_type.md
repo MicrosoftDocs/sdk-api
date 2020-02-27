@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: e8382c14-d3b4-4a7e-aeaa-06ef44d6ace2
 ms.date: 12/05/2018
 ms.keywords: '*PSI_INHERIT_TYPE, CONTAINER_INHERIT_ACE, INHERIT_ONLY_ACE, OBJECT_INHERIT_ACE, PSI_INHERIT_TYPE, PSI_INHERIT_TYPE structure pointer [Security], SI_INHERIT_TYPE, SI_INHERIT_TYPE structure [Security], _win32_si_inherit_type_str, aclui/PSI_INHERIT_TYPE, aclui/SI_INHERIT_TYPE, security.si_inherit_type'
-ms.topic: struct
 f1_keywords:
 - aclui/SI_INHERIT_TYPE
 dev_langs:

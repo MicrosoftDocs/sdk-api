@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: b071ba1c-5860-4492-ad86-71eaeeb74df4
 ms.date: 12/05/2018
 ms.keywords: PFN_WdsCliCallback, PFN_WdsCliCallback callback, PFN_WdsCliCallback callback function [Windows Deployment Services], WDS_CLI_MSG_COMPLETE, WDS_CLI_MSG_PROGRESS, WDS_CLI_MSG_START, WDS_CLI_MSG_TEXT, wds.pfn_wdsclicallback, wdsclientapi/PFN_WdsCliCallback
-ms.topic: callback
 f1_keywords:
 - wdsclientapi/PFN_WdsCliCallback
 dev_langs:
@@ -44,29 +43,17 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# PFN_WdsCliCallback callback function
-
-
 ## -description
 
-
-Defines a callback function that WDS can call for progress notification and error messages during a 
-    file or image transfer.
-
+Defines a callback function that WDS can call for progress notification and error messages during a file or image transfer.
 
 ## -parameters
-
-
-
 
 ### -param dwMessageId [in]
 
 The type of message and the meaning of the <i>lParam</i> parameter.
 
-
 This parameter can have only one of the following values.
-
-
 
 <table>
 <tr>
@@ -143,16 +130,6 @@ The meaning of the value contained by this parameter depends upon the
 A pointer to optional user information attached to this session by the 
       <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferimage">WdsCliTransferImage</a> or 
       <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferfile">WdsCliTransferFile</a> function.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
 
 ## -remarks
 

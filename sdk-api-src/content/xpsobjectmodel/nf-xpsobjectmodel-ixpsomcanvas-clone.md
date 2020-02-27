@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 2411fca6-2d36-4704-83a6-0086c6be0e2a
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],Clone method, IXpsOMCanvas.Clone, IXpsOMCanvas::Clone, xps.ixpsomcanvas_clone, xpsobjectmodel/IXpsOMCanvas::Clone
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCanvas.Clone
 dev_langs:
@@ -131,7 +130,7 @@ The owner of the new interface is <b>NULL</b>.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

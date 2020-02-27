@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\closethemedata.htm
 ms.date: 12/05/2018
 ms.keywords: CloseThemeData, CloseThemeData function [Windows Controls], controls.CloseThemeData, controls.inet_CloseThemeData, inet_CloseThemeData, inet_CloseThemeData_cpp, uxtheme/CloseThemeData
-ms.topic: function
 f1_keywords:
 - uxtheme/CloseThemeData
 dev_langs:

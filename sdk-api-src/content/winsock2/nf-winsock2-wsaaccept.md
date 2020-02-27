@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: f385f63f-49b2-4eb7-8717-ad4cca1a2252
 ms.date: 12/05/2018
 ms.keywords: WSAAccept, WSAAccept function [Winsock], _win32_wsaaccept_2, winsock.wsaaccept_2, winsock2/WSAAccept
-ms.topic: function
 f1_keywords:
 - winsock2/WSAAccept
 dev_langs:
@@ -44,50 +43,34 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WSAAccept function
-
-
 ## -description
 
-
-The 
-<b>WSAAccept</b> function conditionally accepts a connection based on the return value of a condition function, provides quality of service flow specifications, and allows the transfer of connection data.
-
+The <b>WSAAccept</b> function conditionally accepts a connection based on the return value of a condition function, provides quality of service flow specifications, and allows the transfer of connection data.
 
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor that identifies a socket that is listening for connections after a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-listen">listen</a> function.
 
-
 ### -param addr [out]
 
 An optional pointer to an <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that receives the address of the connecting entity, as known to the communications layer. The exact format of the <i>addr</i> parameter is determined by the address family established when the socket was created.
-
 
 ### -param addrlen [in, out]
 
 An optional pointer to an integer that contains the length of the <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure pointed to by the <i>addr</i> parameter, in bytes.
 
-
 ### -param lpfnCondition [in]
 
 The  address of an optional, application-specified condition function that will make an accept/reject decision based on the caller information passed in as parameters, and optionally create or join a socket group by assigning an appropriate value to the result parameter <i>g</i> of this function. If this parameter is <b>NULL</b>, then no condition function is called.
-
 
 ### -param dwCallbackData [in]
 
 Callback data passed back to the application-specified condition function as the value of the <i>dwCallbackData</i> parameter passed to the condition function. This parameter is only applicable if the <i>lpfnCondition</i> parameter is not <b>NULL</b>. This parameter is not interpreted by Windows Sockets.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>WSAAccept</b> returns a value of type SOCKET that is a descriptor for the accepted socket. Otherwise, a value of INVALID_SOCKET is returned, and a specific error code can be retrieved by calling 
@@ -271,17 +254,10 @@ This is usually a temporary error during hostname resolution and means that the 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The 
-<b>WSAAccept</b> function extracts the first connection on the queue of pending connections on socket <i>s</i>, and checks it against the condition function, provided the condition function is specified (that is, not <b>NULL</b>). If the condition function returns CF_ACCEPT, 
+The <b>WSAAccept</b> function extracts the first connection on the queue of pending connections on socket <i>s</i>, and checks it against the condition function, provided the condition function is specified (that is, not <b>NULL</b>). If the condition function returns CF_ACCEPT, 
 <b>WSAAccept</b> creates a new socket. The newly created socket has the same properties as socket <i>s</i> including asynchronous events registered with 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a> or with 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>. If the condition function returns CF_REJECT, 
@@ -298,24 +274,21 @@ A socket in nonblocking mode (blocking) fails with the error
 
 The <i>addr</i> parameter is a result parameter that is filled in with the address of the connecting entity, as known to the communications layer. The exact format of the <i>addr</i> parameter is determined by the address family in which the communication is occurring. The <i>addrlen</i> is a value-result parameter; it should initially contain the amount of space pointed to by <i>addr</i>. On return, it will contain the actual length (in bytes) of the address returned. This call is used with connection-oriented socket types such as SOCK_STREAM. If <i>addr</i> and/or <i>addrlen</i> are equal to <b>NULL</b>, then no information about the remote address of the accepted socket is returned. Otherwise, these two parameters will be filled in if the connection is successfully accepted.
 
-A prototype of the condition function is defined in the Winsock2.h header file as the <b>LPCONDITIONPROC</b> as follows:
-
+A prototype of the condition function is defined in the `Winsock2.h` header file as the <b>LPCONDITIONPROC</b>, as follows.
 
 ```cpp
-
-int CALLBACK ConditionFunc(
-  IN LPWSABUF lpCallerId,
-  IN LPWSABUF lpCallerData,
-  IN OUT LPQOS lpSQOS,
-  IN OUT LPQOS lpGQOS,
-  IN LPWSABUF lpCalleeId,
-  OUT LPWSABUF lpCalleeData,
-  OUT GROUP FAR *g,
-  IN DWORD_PTR dwCallbackData
+int CALLBACK 
+ConditionFunc( 
+  IN     LPWSABUF    lpCallerId, 
+  IN     LPWSABUF    lpCallerData, 
+  IN OUT LPQOS       lpSQOS, 
+  IN OUT LPQOS       lpGQOS,
+  IN     LPWSABUF    lpCalleeId, 
+  IN     LPWSABUF    lpCalleeData, 
+  OUT    GROUP FAR * g, 	
+  IN     DWORD_PTR   dwCallbackData
 );
-
 ```
-
 
 The <b>ConditionFunc</b> is a placeholder for the application-specified callback function. The actual condition function must reside in a DLL or application module. It is exported in the module definition file.
 
@@ -343,10 +316,7 @@ The <i>g</i> parameter is assigned within the condition function to indicate any
 <li>If <i>g</i> = zero, no group operation is performed.</li>
 </ul>
 For unconstrained groups, any set of sockets can be grouped together as long as they are supported by a single service provider. A constrained socket group can consist only of connection-oriented sockets, and requires that connections on all grouped sockets be to the same address on the same host. For newly created socket groups, the new group identifier can be retrieved by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function with <i>level</i> parameter set to <a href="https://docs.microsoft.com/windows/desktop/WinSock/sol-socket-socket-options">SOL_SOCKET</a> and the <i>optname</i> parameter set to <b>SO_GROUP_ID</b>.  A socket group
-    and its associated socket group ID remain valid until the last socket belonging to this
-    socket group is closed. Socket group IDs are unique across all processes
-    for a given service provider. A socket group and its associated identifier remain valid until the last socket belonging to this socket group is closed. Socket group identifiers are unique across all processes for a given service provider. For more information on socket groups, see the Remarks for the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function with <i>level</i> parameter set to <a href="https://docs.microsoft.com/windows/desktop/WinSock/sol-socket-socket-options">SOL_SOCKET</a> and the <i>optname</i> parameter set to <b>SO_GROUP_ID</b>.  A socket group and its associated socket group ID remain valid until the last socket belonging to this socket group is closed. Socket group IDs are unique across all processes for a given service provider. A socket group and its associated identifier remain valid until the last socket belonging to this socket group is closed. Socket group identifiers are unique across all processes for a given service provider. For more information on socket groups, see the Remarks for the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> functions.
 
 The <i>dwCallbackData</i> parameter value passed to the condition function is the value passed as the <i>dwCallbackData</i> parameter in the original 
 <b>WSAAccept</b> call. This value is interpreted only by the Windows Socket version 2 client. This allows a client to pass some context information from the 
@@ -358,7 +328,6 @@ The <i>dwCallbackData</i> parameter value passed to the condition function is th
 <div> </div>
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>WSAAccept</b> function.
-
 
 ```cpp
 #include <winsock2.h>
@@ -384,7 +353,6 @@ int CALLBACK ConditionAcceptFunc(
     } else
         return CF_REJECT;
 }
-
 
 int main() {
 
@@ -434,7 +402,6 @@ int main() {
         WSACleanup();
         return 1;
     }
-
   
     /* Make the socket listen for incoming connection requests */
     error = listen(ListenSocket, 1);
@@ -445,7 +412,6 @@ int main() {
         return 1;
     }
     printf("Listening...\n");
-
   
     /*-----------------------------------------
      *  Accept an incoming connnection request on the
@@ -467,72 +433,36 @@ int main() {
 
     return 0;
 }
-
 ```
-
 
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-listen">listen</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-select">select</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
-

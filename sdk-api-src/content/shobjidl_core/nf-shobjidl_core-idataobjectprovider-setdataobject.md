@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4A7787E5-8C16-4cd2-B46F-67F6F636989B
 ms.date: 12/05/2018
 ms.keywords: IDataObjectProvider interface [Windows Shell],SetDataObject method, IDataObjectProvider.SetDataObject, IDataObjectProvider::SetDataObject, SetDataObject, SetDataObject method [Windows Shell], SetDataObject method [Windows Shell],IDataObjectProvider interface, shell.IDataObjectProvider_SetDataObject, shobjidl_core/IDataObjectProvider::SetDataObject
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IDataObjectProvider.SetDataObject
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Wraps an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> instance as a Windows Runtime <a href="http://go.microsoft.com/fwlink/p/?linkid=267543">DataPackage</a>.
+Wraps an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> instance as a Windows Runtime <a href="https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.datatransfer.datapackage.aspx">DataPackage</a>.
 
 
 ## -parameters

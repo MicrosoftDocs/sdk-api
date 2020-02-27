@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopy.htm
 ms.date: 12/05/2018
 ms.keywords: StringCbCopy, StringCbCopy function [Menus and Other Resources], StringCbCopyA, StringCbCopyW, _shell_StringCbCopy, _shell_stringcbcopy_cpp, menurc.stringcbcopy, strsafe/StringCbCopy, strsafe/StringCbCopyA, strsafe/StringCbCopyW, winui._shell_stringcbcopy
-ms.topic: function
 f1_keywords:
 - strsafe/StringCbCopy
 dev_langs:
@@ -56,7 +55,7 @@ Copies one string to another. The size of the destination buffer is provided to 
 
 <b>StringCbCopy</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192494">strcpy, wcscpy, _tcscpy</a></li>
+<li><a href="https://msdn.microsoft.com/library/kk6xf663.aspx">strcpy, wcscpy, _tcscpy</a></li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcpya">lstrcpy</a>
 </li>

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 7719e3fd-5b06-468c-9034-f1f0bb41a5be
 ms.date: 12/05/2018
 ms.keywords: IAzAuthorizationStore3 interface [Security],UpgradeStoresFunctionalLevel method, IAzAuthorizationStore3.UpgradeStoresFunctionalLevel, IAzAuthorizationStore3::UpgradeStoresFunctionalLevel, UpgradeStoresFunctionalLevel, UpgradeStoresFunctionalLevel method [Security], UpgradeStoresFunctionalLevel method [Security],IAzAuthorizationStore3 interface, azroles/IAzAuthorizationStore3::UpgradeStoresFunctionalLevel, security.iazauthorizationstore3_upgradestoresfunctionallevel_method
-ms.topic: method
 f1_keywords:
 - azroles/IAzAuthorizationStore3.UpgradeStoresFunctionalLevel
 dev_langs:

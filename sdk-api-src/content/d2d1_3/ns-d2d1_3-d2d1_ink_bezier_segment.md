@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 27F1F78B-2478-4F5D-BF56-9931E767C358
 ms.date: 12/05/2018
 ms.keywords: D2D1_INK_BEZIER_SEGMENT, D2D1_INK_BEZIER_SEGMENT structure [Direct2D], d2d1_3/D2D1_INK_BEZIER_SEGMENT, direct2d.d2d1_ink_bezier_segment
-ms.topic: struct
 f1_keywords:
 - d2d1_3/D2D1_INK_BEZIER_SEGMENT
 dev_langs:

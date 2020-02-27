@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 6765371c-209a-4794-bff8-83560171affb
 ms.date: 12/05/2018
 ms.keywords: GetField, GetField method [Automation], GetField method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetField method, IRecordInfo.GetField, IRecordInfo::GetField, _oa96_IRecordInfo_GetField, automat.irecordinfo_getfield, oaidl/IRecordInfo::GetField
-ms.topic: method
 f1_keywords:
 - oaidl/IRecordInfo.GetField
 dev_langs:

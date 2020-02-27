@@ -5,7 +5,6 @@ description: Specifies the settings used for luma keying.
 tech.root: mf
 ms.assetid: c5183fec-5f5d-4a26-a35c-5ea60e7e1fe0
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_VIDEO_PROCESS_LUMA_KEY
 dev_langs:
@@ -40,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-Specifies the settings used for luma keying. This value is used with the [D3D12_VIDEO_PROCESS_INPUT_STREAM_DESC](ns-d3d12video-d3d12_video_process_input_stream_desc) structure.
+Specifies the settings used for luma keying. This value is used with the [D3D12_VIDEO_PROCESS_INPUT_STREAM_DESC](ns-d3d12video-d3d12_video_process_input_stream_desc.md) structure.
 
 ## -struct-fields
 

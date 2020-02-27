@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 29a7e815-9d86-49e3-81b0-bf9398f27cad
 ms.date: 12/05/2018
 ms.keywords: CachedItemStatus property [Windows Accessibility], CachedItemStatus property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedItemStatus property, IUIAutomationElement.CachedItemStatus, IUIAutomationElement.get_CachedItemStatus, IUIAutomationElement::CachedItemStatus, IUIAutomationElement::get_CachedItemStatus, get_CachedItemStatus, uiauto.uiauto_IUIAutomationElement_CachedItemStatus, uiauto_IUIAutomationElement_CachedItemStatus, uiautomationclient/IUIAutomationElement::CachedItemStatus, uiautomationclient/IUIAutomationElement::get_CachedItemStatus, winauto.uiauto_IUIAutomationElement_CachedItemStatus
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationElement.CachedItemStatus
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 53096399-3e79-4534-8b67-ccb70c32ccf0
 ms.date: 12/05/2018
 ms.keywords: _win32_midiStreamClose, midiStreamClose, midiStreamClose function [Windows Multimedia], mmeapi/midiStreamClose, multimedia.midistreamclose
-ms.topic: function
 f1_keywords:
 - mmeapi/midiStreamClose
 dev_langs:

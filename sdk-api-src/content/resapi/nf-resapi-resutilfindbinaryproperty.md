@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 3be864ae-dc02-47e7-aa86-a6c14be13091
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FIND_BINARY_PROPERTY, PRESUTIL_FIND_BINARY_PROPERTY function [Failover Cluster], ResUtilFindBinaryProperty, ResUtilFindBinaryProperty function [Failover Cluster], _wolf_resutilfindbinaryproperty, mscs.resutilfindbinaryproperty, resapi/PRESUTIL_FIND_BINARY_PROPERTY, resapi/ResUtilFindBinaryProperty
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilFindBinaryProperty
 dev_langs:

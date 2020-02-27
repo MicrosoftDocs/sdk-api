@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: dd757856-f16e-46ad-b865-8203c3428372
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRemoteDictionaryResource, IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging], IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging],described, xps.ixpsomremotedictionaryresource, xpsobjectmodel/IXpsOMRemoteDictionaryResource
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMRemoteDictionaryResource
 dev_langs:
@@ -112,7 +111,7 @@ Sets a   pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

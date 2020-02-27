@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 2060f012-169c-4077-a6ed-cef362f926d4
 ms.date: 12/05/2018
 ms.keywords: GetConnectedInitiators, GetConnectedInitiators method [VDS], GetConnectedInitiators method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],GetConnectedInitiators method, IVdsIscsiTarget.GetConnectedInitiators, IVdsIscsiTarget::GetConnectedInitiators, base.ivdsiscsitarget_getconnectedinitiators, vds/IVdsIscsiTarget::GetConnectedInitiators, vdshwprv/IVdsIscsiTarget::GetConnectedInitiators
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsIscsiTarget.GetConnectedInitiators
 dev_langs:

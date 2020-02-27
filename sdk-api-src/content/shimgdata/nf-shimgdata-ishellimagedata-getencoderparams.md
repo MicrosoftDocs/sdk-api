@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9b664d0f-7bb7-4cdd-8c0c-2ca80faaa764
 ms.date: 12/05/2018
 ms.keywords: GetEncoderParams, GetEncoderParams method [Windows Shell], GetEncoderParams method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetEncoderParams method, IShellImageData.GetEncoderParams, IShellImageData::GetEncoderParams, _shell_IShellImageData_GetEncoderParams, shell.IShellImageData_GetEncoderParams, shimgdata/IShellImageData::GetEncoderParams
-ms.topic: method
 f1_keywords:
 - shimgdata/IShellImageData.GetEncoderParams
 dev_langs:

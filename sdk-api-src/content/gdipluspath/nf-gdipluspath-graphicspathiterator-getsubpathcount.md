@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\getsubpathcount.htm
 ms.date: 12/05/2018
 ms.keywords: GetSubpathCount, GetSubpathCount method [GDI+], GetSubpathCount method [GDI+],GraphicsPathIterator class, GraphicsPathIterator class [GDI+],GetSubpathCount method, GraphicsPathIterator.GetSubpathCount, GraphicsPathIterator::GetSubpathCount, _gdiplus_CLASS_GraphicsPathIterator_GetSubpathCount_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_GetSubpathCount_
-ms.topic: method
 f1_keywords:
 - gdipluspath/GraphicsPathIterator.GetSubpathCount
 dev_langs:

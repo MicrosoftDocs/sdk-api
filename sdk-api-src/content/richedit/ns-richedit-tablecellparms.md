@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 75bf07bd-103b-4f35-b421-5a7559c7b90e
 ms.date: 12/05/2018
 ms.keywords: TABLECELLPARMS, TABLECELLPARMS structure [Windows Controls], controls.tablecellparms, richedit/TABLECELLPARMS
-ms.topic: struct
 f1_keywords:
 - richedit/TABLECELLPARMS
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the attributes of cells in a table row. The definitions include the corresponding Rich Text Format (RTF) control words, which are defined in the <a href="http://go.microsoft.com/fwlink/p/?linkid=239794">Rich Text Format (RTF) Specification</a>. 
+Defines the attributes of cells in a table row. The definitions include the corresponding Rich Text Format (RTF) control words, which are defined in the <a href="https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=10725">Rich Text Format (RTF) Specification</a>. 
 
 
 

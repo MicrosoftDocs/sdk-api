@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 01CBFC67-02D0-439D-BE4E-EA0A2448FDEE
 ms.date: 12/05/2018
 ms.keywords: ResUtilLeftPaxosIsLessThanRight, ResUtilLeftPaxosIsLessThanRight function [Failover Cluster], mscs.resutilleftpaxosislessthanright, resapi/ResUtilLeftPaxosIsLessThanRight
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilLeftPaxosIsLessThanRight
 dev_langs:

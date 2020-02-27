@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 7ce09172-8a01-4718-b0ef-0ae118a9be16
 ms.date: 12/05/2018
 ms.keywords: 13e27562-b43d-82ba-4ced-1227c27884e5, D3D11_SHADER_RESOURCE_VIEW_DESC, D3D11_SHADER_RESOURCE_VIEW_DESC structure [Direct3D 11], d3d11/D3D11_SHADER_RESOURCE_VIEW_DESC, direct3d11.d3d11_shader_resource_view_desc
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_SHADER_RESOURCE_VIEW_DESC
 dev_langs:
@@ -69,7 +68,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiform
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff476217(v=vs.85)">D3D11_SRV_DIMENSION</a></b>
 
-The resource type of the view. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff476217(v=vs.85)">D3D11_SRV_DIMENSION</a>. This should be the same as the resource type of the underlying resource. This parameter also determines which _SRV to use in the union below.
+The resource type of the view. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff476217(v=vs.85)">D3D11_SRV_DIMENSION</a>. You must set *ViewDimension* to the same resource type as that of the underlying resource. This parameter also determines which _SRV to use in the union below.
 
 
 ### -field Buffer

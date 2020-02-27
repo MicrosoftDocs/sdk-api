@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 2BBABACF-089B-4711-B384-627E921B044A
 ms.date: 12/05/2018
 ms.keywords: GetLocalFileHeaderSize, GetLocalFileHeaderSize method [App packaging and management], GetLocalFileHeaderSize method [App packaging and management],IAppxBlockMapFile interface, IAppxBlockMapFile interface [App packaging and management],GetLocalFileHeaderSize method, IAppxBlockMapFile.GetLocalFileHeaderSize, IAppxBlockMapFile::GetLocalFileHeaderSize, appxpackaging/IAppxBlockMapFile::GetLocalFileHeaderSize, appxpkg.iappxblockmapfile_getlocalfileheadersize
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxBlockMapFile.GetLocalFileHeaderSize
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: C2163203-D654-4491-9090-0CC43F42EC35
 ms.date: 12/05/2018
 ms.keywords: GetPackagesByPackageFamily, GetPackagesByPackageFamily function [App packaging and management], appmodel/GetPackagesByPackageFamily, appxpkg.getpackagesbypackagefamily
-ms.topic: function
 f1_keywords:
 - appmodel/GetPackagesByPackageFamily
 dev_langs:

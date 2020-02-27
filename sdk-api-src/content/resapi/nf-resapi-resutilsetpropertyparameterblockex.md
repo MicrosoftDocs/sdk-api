@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: aeb53528-56bf-4330-ad43-22f1381df109
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX, PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX function [Failover Cluster], ResUtilSetPropertyParameterBlockEx, ResUtilSetPropertyParameterBlockEx function [Failover Cluster], _wolf_resutilsetpropertyparameterblockex, mscs.resutilsetpropertyparameterblockex, resapi/PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX, resapi/ResUtilSetPropertyParameterBlockEx
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilSetPropertyParameterBlockEx
 dev_langs:

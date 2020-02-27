@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 8b472714-dcd2-4da9-83cf-64e846417456
 ms.date: 12/05/2018
 ms.keywords: CHANNEL_PRIORITY, CHANNEL_PRIORITY enumeration [RDP], CHANNEL_PRIORITY_HI, CHANNEL_PRIORITY_LO, CHANNEL_PRIORITY_MED, rdp.channel_priority, rdpencomapi/CHANNEL_PRIORITY, rdpencomapi/CHANNEL_PRIORITY_HI, rdpencomapi/CHANNEL_PRIORITY_LO, rdpencomapi/CHANNEL_PRIORITY_MED
-ms.topic: enum
 f1_keywords:
 - rdpencomapi/CHANNEL_PRIORITY
 dev_langs:

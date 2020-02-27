@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 23fdd9d9-4a78-4c01-8e5d-c8007f39d5d6
 ms.date: 12/05/2018
 ms.keywords: IWSManEx, IWSManEx interface [Windows Remote Management], IWSManEx interface [Windows Remote Management],described, winrm.iwsmanex, wsmandisp/ IWSManEx
-ms.topic: interface
 f1_keywords:
 - wsmandisp/IWSManEx
 dev_langs:

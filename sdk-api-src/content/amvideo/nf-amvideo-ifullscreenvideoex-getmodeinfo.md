@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c1a4aea8-8c48-4073-80ed-060db5adb514
 ms.date: 12/05/2018
 ms.keywords: GetModeInfo, GetModeInfo method [DirectShow], GetModeInfo method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetModeInfo method, IFullScreenVideoEx.GetModeInfo, IFullScreenVideoEx::GetModeInfo, IFullScreenVideoGetModeInfo, amvideo/IFullScreenVideoEx::GetModeInfo, dshow.ifullscreenvideoex_getmodeinfo
-ms.topic: method
 f1_keywords:
 - amvideo/IFullScreenVideoEx.GetModeInfo
 dev_langs:

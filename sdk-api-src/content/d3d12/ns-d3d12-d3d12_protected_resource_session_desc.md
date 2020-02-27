@@ -5,7 +5,6 @@ description: Describes flags for a protected resource session, per adapter.
 tech.root: direct3d12
 ms.date: 10/15/2019
 ms.keywords: D3D12_PROTECTED_RESOURCE_SESSION_DESC, D3D12_PROTECTED_RESOURCE_SESSION_DESC structure, d3d12/D3D12_PROTECTED_RESOURCE_SESSION_DESC, direct3d12.d3d12_protected_resource_session_desc
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_PROTECTED_RESOURCE_SESSION_DESC
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: ea14fd55-e0e4-4bf2-b20e-5874783c16c3
 ms.date: 12/05/2018
 ms.keywords: AccessCheckByTypeAndAuditAlarm, AccessCheckByTypeAndAuditAlarm function [Security], AccessCheckByTypeAndAuditAlarmA, AccessCheckByTypeAndAuditAlarmW, _win32_accesscheckbytypeandauditalarm, security.accesscheckbytypeandauditalarm, winbase/AccessCheckByTypeAndAuditAlarm, winbase/AccessCheckByTypeAndAuditAlarmA, winbase/AccessCheckByTypeAndAuditAlarmW
-ms.topic: function
 f1_keywords:
 - winbase/AccessCheckByTypeAndAuditAlarm
 dev_langs:

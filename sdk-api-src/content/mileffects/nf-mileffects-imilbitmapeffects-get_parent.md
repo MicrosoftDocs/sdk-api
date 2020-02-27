@@ -7,7 +7,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffects\parent.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffects interface [WPF Bitmap Effects],get_Parent method, IMILBitmapEffects.get_Parent, IMILBitmapEffects::get_Parent, _wibe_imilbitmapeffects_parent, get_Parent, get_Parent method [WPF Bitmap Effects], get_Parent method [WPF Bitmap Effects],IMILBitmapEffects interface, mileffects/IMILBitmapEffects::get_Parent, wibe._wibe_imilbitmapeffects_parent
-ms.topic: method
 f1_keywords:
 - mileffects/IMILBitmapEffects.get_Parent
 dev_langs:

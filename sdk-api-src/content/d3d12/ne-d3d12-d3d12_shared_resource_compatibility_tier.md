@@ -4,7 +4,6 @@ title: D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER
 description: Defines constants that specify a cross-API sharing support tier.
 ms.date: 05/20/2019
 ms.keywords: D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER
-ms.topic: language-reference
 f1_keywords:
 - d3d12/D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER
 dev_langs:

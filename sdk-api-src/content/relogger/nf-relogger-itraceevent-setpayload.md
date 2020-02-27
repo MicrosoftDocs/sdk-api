@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 180e0487-5262-45ae-a701-3fcb575637ae
 ms.date: 12/05/2018
 ms.keywords: ITraceEvent interface [ETW],SetPayload method, ITraceEvent.SetPayload, ITraceEvent::SetPayload, SetPayload, SetPayload method [ETW], SetPayload method [ETW],ITraceEvent interface, etw.ievent_setpayload, relogger/ITraceEvent::SetPayload
-ms.topic: method
 f1_keywords:
 - relogger/ITraceEvent.SetPayload
 dev_langs:

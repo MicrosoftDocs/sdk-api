@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcat.htm
 ms.date: 12/05/2018
 ms.keywords: StringCbCat, StringCbCat function [Menus and Other Resources], StringCbCatA, StringCbCatW, _shell_StringCbCat, _shell_stringcbcat_cpp, menurc.stringcbcat, strsafe/StringCbCat, strsafe/StringCbCatA, strsafe/StringCbCatW, winui._shell_stringcbcat
-ms.topic: function
 f1_keywords:
 - strsafe/StringCbCat
 dev_langs:
@@ -56,7 +55,7 @@ Concatenates one  string to another string. The size of the destination buffer i
 
 <b>StringCbCat</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192489">strcat, wcscat, _tcsat</a></li>
+<li><a href="https://msdn.microsoft.com/library/h1x0y282.aspx">strcat, wcscat, _tcsat</a></li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcata">lstrcat</a>
 </li>

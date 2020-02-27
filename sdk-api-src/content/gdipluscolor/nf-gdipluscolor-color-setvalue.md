@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\setvalue.htm
 ms.date: 12/05/2018
 ms.keywords: Color class [GDI+],SetValue method, Color.SetValue, Color::SetValue, SetValue, SetValue method [GDI+], SetValue method [GDI+],Color class, _gdiplus_CLASS_Color_SetValue_argb_, gdiplus._gdiplus_CLASS_Color_SetValue_argb_
-ms.topic: method
 f1_keywords:
 - gdipluscolor/Color.SetValue
 dev_langs:
@@ -66,11 +65,7 @@ Type: <b>ARGB</b>
 Thirty-two bit <b>ARGB</b> value that specifies the color. An <b>ARGB</b> value consolidates the alpha, red, green, and blue components of a color. <b>ARGB</b> is defined in Gdipluspixelformats.h. 
 
 
-## -returns
 
-
-
-This method does not return a value.
 
 
 

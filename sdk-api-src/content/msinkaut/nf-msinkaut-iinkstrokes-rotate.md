@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: d198215d-9504-4c87-addb-63d863a6ede3
 ms.date: 12/05/2018
 ms.keywords: 3b3d5a58-31e8-4d0e-a1c9-25bb36bb8d9c, IInkStrokes interface [Tablet PC],Rotate method, IInkStrokes.Rotate, IInkStrokes::Rotate, Rotate, Rotate method [Tablet PC], Rotate method [Tablet PC],IInkStrokes interface, msinkaut/IInkStrokes::Rotate, tablet.inkstrokes_rotate
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkStrokes.Rotate
 dev_langs:

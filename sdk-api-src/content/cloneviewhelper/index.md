@@ -1,9 +1,10 @@
 ---
 UID: NA:cloneviewhelper
+title: Cloneviewhelper.h header
 ms.assetid: 71a392b8-59d8-30e1-93ba-dd6624f6c816
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: display
 ---
 

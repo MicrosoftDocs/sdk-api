@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 42b71b32-337e-4352-b4b3-6af2caad86e5
 ms.date: 12/05/2018
 ms.keywords: VDS_LUN_NOTIFICATION, VDS_LUN_NOTIFICATION structure [VDS], VDS_NF_LUN_ARRIVE, VDS_NF_LUN_DEPART, VDS_NF_LUN_MODIFY, base.vds_lun_notification, vds/_VDS_LUN_NOTIFICATION, vdshwprv/_VDS_LUN_NOTIFICATION
-ms.topic: struct
 f1_keywords:
 - vds/VDS_LUN_NOTIFICATION
 dev_langs:

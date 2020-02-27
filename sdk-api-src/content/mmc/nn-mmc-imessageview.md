@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: e1ea6bb2-f35e-4379-b4e4-70d4e5d77b93
 ms.date: 12/05/2018
 ms.keywords: IMessageView, IMessageView interface [MMC], IMessageView interface [MMC],described, _slate_imessageview, mmc.imessageview, mmc/IMessageView
-ms.topic: interface
 f1_keywords:
 - mmc/IMessageView
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: fb5fe743-4833-400a-a8aa-8de886203190
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsService interface, IVdsService interface [VDS],GetProperties method, IVdsService.GetProperties, IVdsService::GetProperties, base.ivdsservice_getproperties, vds/IVdsService::GetProperties
-ms.topic: method
 f1_keywords:
 - vds/IVdsService.GetProperties
 dev_langs:

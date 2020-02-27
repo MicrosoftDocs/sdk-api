@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: f099d531-ab40-4661-b33f-a805a84fba7e
 ms.date: 12/05/2018
 ms.keywords: FWPM_VSWITCH_EVENT_SUBSCRIPTION0, FWPM_VSWITCH_EVENT_SUBSCRIPTION0 structure [Filtering], fwp.fwpm_vswitch_event_subscription0, fwpmtypes/FWPM_VSWITCH_EVENT_SUBSCRIPTION0
-ms.topic: struct
 f1_keywords:
 - fwpmtypes/FWPM_VSWITCH_EVENT_SUBSCRIPTION0
 dev_langs:

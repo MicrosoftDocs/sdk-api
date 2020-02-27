@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 7f88432f-052f-4781-8346-31c8a0771e51
 ms.date: 12/05/2018
 ms.keywords: ScriptPlace, ScriptPlace function [Internationalization for Windows Applications], _win32_ScriptPlace, intl.scriptplace, usp10/ScriptPlace
-ms.topic: function
 f1_keywords:
 - usp10/ScriptPlace
 dev_langs:

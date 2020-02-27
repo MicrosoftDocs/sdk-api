@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 240238fb-54fc-4465-b4dd-4878f43c50a9
 ms.date: 12/05/2018
 ms.keywords: IDVB_SDT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IDVB_SDT.RegisterForWhenCurrent, IDVB_SDT::RegisterForWhenCurrent, IDVB_SDTRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IDVB_SDT interface, dvbsiparser/IDVB_SDT::RegisterForWhenCurrent, mstv.idvb_sdt_registerforwhencurrent
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_SDT.RegisterForWhenCurrent
 dev_langs:

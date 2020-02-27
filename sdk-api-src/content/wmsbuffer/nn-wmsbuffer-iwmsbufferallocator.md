@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 021ced93-4b79-4821-a380-7fed43fd5391
 ms.date: 12/05/2018
 ms.keywords: IWMSBufferAllocator, IWMSBufferAllocator interface [windows Media Format], IWMSBufferAllocator interface [windows Media Format],described, IWMSBufferAllocatorInterface, wmformat.iwmsbufferallocator, wmsbuffer/IWMSBufferAllocator
-ms.topic: interface
 f1_keywords:
 - wmsbuffer/IWMSBufferAllocator
 dev_langs:

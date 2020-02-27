@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ed84c7c8-0ae4-47f5-8a73-c975923722ab
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],MouseActivate method, IDvdControl.MouseActivate, IDvdControl::MouseActivate, IDvdControlMouseActivate, MouseActivate, MouseActivate method [DirectShow], MouseActivate method [DirectShow],IDvdControl interface, dshow.idvdcontrol_mouseactivate, strmif/IDvdControl::MouseActivate
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.MouseActivate
 dev_langs:
@@ -85,7 +84,7 @@ This method checks the specified point within the display window to see if it is
 
 DVD buttons do not all necessarily have highlight rectangles. Button rectangles can overlap, and the rectangles do not always correspond to the visual representation of DVD buttons.
 
-This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, or DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, or DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

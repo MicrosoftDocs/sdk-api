@@ -1,7 +1,7 @@
 ---
 UID: NA:webauthenticationcoremanagerinterop
-title: webauthenticationcoremanagerinterop
-ms.date: 5/28/2019
+title: webauthenticationcoremanagerinterop.h header
+ms.date: 05/28/2019
 ms.keywords: webauthenticationcoremanagerinterop
 ms.topic: language-reference
 targetos: Windows
@@ -35,6 +35,8 @@ api_name:
 - webauthenticationcoremanagerinterop
 tech.root: winrt
 ---
+
+# webauthenticationcoremanagerinterop.h header
 
 ## -description
 

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 276c254f-5740-4241-a5ee-82f25885f8c6
 ms.date: 12/05/2018
 ms.keywords: IDVB_EIT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IDVB_EIT.RegisterForWhenCurrent, IDVB_EIT::RegisterForWhenCurrent, IDVB_EITRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IDVB_EIT interface, dvbsiparser/IDVB_EIT::RegisterForWhenCurrent, mstv.idvb_eit_registerforwhencurrent
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_EIT.RegisterForWhenCurrent
 dev_langs:

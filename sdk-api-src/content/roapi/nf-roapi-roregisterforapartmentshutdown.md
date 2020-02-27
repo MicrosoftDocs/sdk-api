@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: DE0C79AD-D80F-44EE-A628-147FC8474905
 ms.date: 12/05/2018
 ms.keywords: RoRegisterForApartmentShutdown, RoRegisterForApartmentShutdown function [Windows Runtime], roapi/RoRegisterForApartmentShutdown, winrt.roregisterforapartmentshutdown
-ms.topic: function
 f1_keywords:
 - roapi/RoRegisterForApartmentShutdown
 dev_langs:

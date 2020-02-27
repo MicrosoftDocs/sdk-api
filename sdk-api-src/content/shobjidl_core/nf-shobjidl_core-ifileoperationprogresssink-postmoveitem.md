@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: cd353e15-4b1c-4d02-aa3f-c8d744a1722f
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PostMoveItem method, IFileOperationProgressSink.PostMoveItem, IFileOperationProgressSink::PostMoveItem, PostMoveItem, PostMoveItem method [Windows Shell], PostMoveItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PostMoveItem, shell.IFileOperationProgressSink_PostMoveItem, shobjidl_core/IFileOperationProgressSink::PostMoveItem
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileOperationProgressSink.PostMoveItem
 dev_langs:

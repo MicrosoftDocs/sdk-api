@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 7f3cc061-839e-49c2-a225-452719f155a9
 ms.date: 12/05/2018
 ms.keywords: CompileBuffer, CompileBuffer method [Windows Management Instrumentation], CompileBuffer method [Windows Management Instrumentation],IMofCompiler interface, IMofCompiler interface [Windows Management Instrumentation],CompileBuffer method, IMofCompiler.CompileBuffer, IMofCompiler::CompileBuffer, WBEM_FLAG_AUTORECOVER, WBEM_FLAG_CHECK_ONLY, WBEM_FLAG_CONSOLE_PRINT, WBEM_FLAG_DONT_ADD_TO_LIST, _hmm_imofcompiler_compilebuffer, wbemcli/IMofCompiler::CompileBuffer, wmi.imofcompiler_compilebuffer
-ms.topic: method
 f1_keywords:
 - wbemcli/IMofCompiler.CompileBuffer
 dev_langs:

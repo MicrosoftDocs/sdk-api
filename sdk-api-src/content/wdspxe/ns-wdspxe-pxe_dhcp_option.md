@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 3acc7641-07aa-4a95-a31c-74b48a749f5a
 ms.date: 12/05/2018
 ms.keywords: '*PPXE_DHCP_OPTION, PPXE_DHCP_OPTION, PPXE_DHCP_OPTION structure pointer [Windows Deployment Services], PXE_DHCP_OPTION, PXE_DHCP_OPTION structure [Windows Deployment Services], wds.pxe_dhcp_option, wdspxe/PPXE_DHCP_OPTION, wdspxe/PXE_DHCP_OPTION'
-ms.topic: struct
 f1_keywords:
 - wdspxe/PXE_DHCP_OPTION
 dev_langs:

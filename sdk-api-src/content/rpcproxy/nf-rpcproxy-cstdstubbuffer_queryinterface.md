@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 7afb828d-7de9-4fa7-a869-fad694328206
 ms.date: 12/05/2018
 ms.keywords: CStdStubBuffer_QueryInterface, CStdStubBuffer_QueryInterface, CStdStubBuffer_QueryInterface function [RPC], rpc.cstdstubbuffer_queryinterface, rpcproxy/CStdStubBuffer_QueryInterface
-ms.topic: function
 f1_keywords:
 - rpcproxy/CStdStubBuffer_QueryInterface
 dev_langs:

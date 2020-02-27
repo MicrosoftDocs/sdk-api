@@ -5,7 +5,6 @@ description: Specifies support for the image filters defined by the D3D12_VIDEO_
 tech.root: mf
 ms.assetid: 5ed6a952-6333-41d5-ab6e-73332cf2f590
 ms.date: 05/28/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_VIDEO_PROCESS_FILTER_FLAGS
 dev_langs:
@@ -37,7 +36,7 @@ targetos: Windows
 
 ## -description
 
-Specifies support for the image filters defined by the [D3D12\_VIDEO\_PROCESS\_FILTER](ne-d3d12video-d3d12_video_process_filter) enumeration. 
+Specifies support for the image filters defined by the [D3D12\_VIDEO\_PROCESS\_FILTER](ne-d3d12video-d3d12_video_process_filter.md) enumeration. 
 
 ## -enum-fields
 
@@ -80,6 +79,6 @@ For stereo 3D video, the video processor can adjust the offset between the left 
 
 ## -remarks
 
-See [D3D12\_VIDEO\_PROCESS\_INPUT\_STREAM\_DESC](ns-d3d12video-d3d12_video_process_input_stream_desc) for information on applying a particular filter.
+See [D3D12\_VIDEO\_PROCESS\_INPUT\_STREAM\_DESC](ns-d3d12video-d3d12_video_process_input_stream_desc.md) for information on applying a particular filter.
 
 ## -see-also

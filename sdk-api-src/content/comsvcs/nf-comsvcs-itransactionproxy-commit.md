@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 00b8fe43-22d3-44fd-a1c4-cf3cd36873c6
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [COM+], Commit method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],Commit method, ITransactionProxy.Commit, ITransactionProxy::Commit, comsvcs/ITransactionProxy::Commit, cos.itransactionproxy_commit
-ms.topic: method
 f1_keywords:
 - comsvcs/ITransactionProxy.Commit
 dev_langs:

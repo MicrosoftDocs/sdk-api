@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 51fe636f-febe-4306-9c9a-7031a85440c6
 ms.date: 12/05/2018
 ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],get_FrequencyMapping method, IFrequencyMap.get_FrequencyMapping, IFrequencyMap::get_FrequencyMapping, IFrequencyMapget_FrequencyMapping, bdaiface/IFrequencyMap::get_FrequencyMapping, get_FrequencyMapping, get_FrequencyMapping method [Microsoft TV Technologies], get_FrequencyMapping method [Microsoft TV Technologies],IFrequencyMap interface, mstv.ifrequencymap_get_frequencymapping
-ms.topic: method
 f1_keywords:
 - bdaiface/IFrequencyMap.get_FrequencyMapping
 dev_langs:

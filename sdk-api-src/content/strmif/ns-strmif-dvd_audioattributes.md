@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a4365c05-718e-4d48-bb2c-a13a609df82f
 ms.date: 12/05/2018
 ms.keywords: DVD_AudioAttributes, DVD_AudioAttributes structure [DirectShow], DVD_AudioAttributesStructure, dshow.dvd_audioattributes, strmif/DVD_AudioAttributes
-ms.topic: struct
 f1_keywords:
 - strmif/DVD_AudioAttributes
 dev_langs:
@@ -83,7 +82,7 @@ An <b>LCID</b> value indicating the language of the audio stream. Is zero if no 
 
 ### -field LanguageExtension
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_audio_lang_ext">DVD_AUDIO_LANG_EXT</a> enumeration that will be filled in if any information is available on the disc.
+A [DVD_AUDIO_LANG_EXT](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_audio_lang_ext) enumeration that will be filled in if any information is available on the disc.
 
 
 ### -field fHasMultichannelInfo

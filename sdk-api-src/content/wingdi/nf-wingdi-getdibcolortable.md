@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 3e3319be-8a3d-4ac2-ba36-9dbf18243472
 ms.date: 12/05/2018
 ms.keywords: GetDIBColorTable, GetDIBColorTable function [Windows GDI], _win32_GetDIBColorTable, gdi.getdibcolortable, wingdi/GetDIBColorTable
-ms.topic: function
 f1_keywords:
 - wingdi/GetDIBColorTable
 dev_langs:

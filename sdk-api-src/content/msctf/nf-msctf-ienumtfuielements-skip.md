@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 44ba8fb1-e702-4f53-b95a-719b4fdfcaa0
 ms.date: 12/05/2018
 ms.keywords: IEnumTfUIElements interface [Text Services Framework],Skip method, IEnumTfUIElements.Skip, IEnumTfUIElements::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfUIElements interface, msctf/IEnumTfUIElements::Skip, tsf.ienumtfuielements_skip
-ms.topic: method
 f1_keywords:
 - msctf/IEnumTfUIElements.Skip
 dev_langs:

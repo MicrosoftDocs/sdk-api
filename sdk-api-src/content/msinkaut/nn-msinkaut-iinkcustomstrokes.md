@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 0b4eb5d6-ccf0-46c1-ae02-a393e67b817e
 ms.date: 12/05/2018
 ms.keywords: 0b4eb5d6-ccf0-46c1-ae02-a393e67b817e, IInkCustomStrokes, IInkCustomStrokes interface [Tablet PC], IInkCustomStrokes interface [Tablet PC],described, msinkaut/IInkCustomStrokes, tablet.iinkcustomstrokes
-ms.topic: interface
 f1_keywords:
 - msinkaut/IInkCustomStrokes
 dev_langs:

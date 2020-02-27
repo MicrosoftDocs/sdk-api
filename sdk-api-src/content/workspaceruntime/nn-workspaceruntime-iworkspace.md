@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 7a94ef42-8a63-4709-816d-1f51a948d486
 ms.date: 12/05/2018
 ms.keywords: IWorkspace, IWorkspace interface [Remote Desktop Services], IWorkspace interface [Remote Desktop Services],described, termserv.iworkspace, workspaceruntime/IWorkspace
-ms.topic: interface
 f1_keywords:
 - workspaceruntime/IWorkspace
 dev_langs:

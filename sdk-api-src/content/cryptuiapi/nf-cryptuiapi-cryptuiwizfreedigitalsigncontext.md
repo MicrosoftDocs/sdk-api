@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 039615ee-0485-4698-944f-23359253767a
 ms.date: 12/05/2018
 ms.keywords: CryptUIWizFreeDigitalSignContext, CryptUIWizFreeDigitalSignContext function [Security], cryptuiapi/CryptUIWizFreeDigitalSignContext, security.cryptuiwizfreedigitalsigncontext
-ms.topic: function
 f1_keywords:
 - cryptuiapi/CryptUIWizFreeDigitalSignContext
 dev_langs:

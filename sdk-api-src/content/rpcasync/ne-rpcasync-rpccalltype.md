@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: b7b95f51-ced4-423f-88b7-b1ec705af66f
 ms.date: 12/05/2018
 ms.keywords: RpcCallType, RpcCallType enumeration [RPC], rctGuaranteed, rctInvalid, rctNormal, rctTraining, rpc.rpccalltype, rpcasync/RpcCallType, rpcasync/rctGuaranteed, rpcasync/rctInvalid, rpcasync/rctNormal, rpcasync/rctTraining
-ms.topic: enum
 f1_keywords:
 - rpcasync/RpcCallType
 dev_langs:

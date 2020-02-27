@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: a0ceaf1d-b839-4cf7-b64e-9100f3cf23ef
 ms.date: 12/05/2018
 ms.keywords: IVdsControllerPort, IVdsControllerPort interface [VDS], IVdsControllerPort interface [VDS],described, base.ivdscontrollerport, vds/IVdsControllerPort, vdshwprv/IVdsControllerPort
-ms.topic: interface
 f1_keywords:
 - vdshwprv/IVdsControllerPort
 dev_langs:

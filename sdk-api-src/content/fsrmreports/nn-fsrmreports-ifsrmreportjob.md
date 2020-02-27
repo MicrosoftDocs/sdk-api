@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: ea8a3f6b-326b-4c8f-a6fc-7b7525c5543f
 ms.date: 12/05/2018
 ms.keywords: IFsrmReportJob, IFsrmReportJob interface [File Server Resource Manager], IFsrmReportJob interface [File Server Resource Manager],described, fs.ifsrmreportjob, fsrm.ifsrmreportjob, fsrm/IFsrmReportJob
-ms.topic: interface
 f1_keywords:
 - fsrmreports/IFsrmReportJob
 dev_langs:

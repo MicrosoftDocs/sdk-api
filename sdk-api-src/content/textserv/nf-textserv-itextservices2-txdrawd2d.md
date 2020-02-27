@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: B45B015A-0A2C-49DD-9AA9-FC2A530BD057
 ms.date: 12/05/2018
 ms.keywords: ITextServices2 interface [Windows Controls],TxDrawD2D method, ITextServices2.TxDrawD2D, ITextServices2::TxDrawD2D, TXTVIEW_ACTIVE, TXTVIEW_INACTIVE, TxDrawD2D, TxDrawD2D method [Windows Controls], TxDrawD2D method [Windows Controls],ITextServices2 interface, controls.itextservices2_txdrawd2d, textserv/ITextServices2::TxDrawD2D
-ms.topic: method
 f1_keywords:
 - textserv/ITextServices2.TxDrawD2D
 dev_langs:

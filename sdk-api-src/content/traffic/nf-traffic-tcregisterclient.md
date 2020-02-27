@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 10bbc08d-4bfa-4a64-b5b8-b720d7bc3185
 ms.date: 12/05/2018
 ms.keywords: TcRegisterClient, TcRegisterClient function [QOS], _gqos_tcregisterclient, qos.tcregisterclient, traffic/TcRegisterClient
-ms.topic: function
 f1_keywords:
 - traffic/TcRegisterClient
 dev_langs:

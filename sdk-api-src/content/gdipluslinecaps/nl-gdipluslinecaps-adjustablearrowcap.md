@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcap.htm
 ms.date: 12/05/2018
 ms.keywords: AdjustableArrowCap, AdjustableArrowCap class [GDI+], AdjustableArrowCap class [GDI+],described, _gdiplus_CLASS_AdjustableArrowCap_Class, gdiplus._gdiplus_CLASS_AdjustableArrowCap_Class, gdipluslinecaps/AdjustableArrowCap
-ms.topic: class
 f1_keywords:
 - gdipluslinecaps/AdjustableArrowCap
 dev_langs:

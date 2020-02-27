@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 40afc3d4-24e3-40ad-869a-0f8e90b70b97
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher2, IUpdateSearcher2 interface [Windows Update Agent], IUpdateSearcher2 interface [Windows Update Agent],described, wua.iupdatesearcher2, wuapi/IUpdateSearcher2
-ms.topic: interface
 f1_keywords:
 - wuapi/IUpdateSearcher2
 dev_langs:

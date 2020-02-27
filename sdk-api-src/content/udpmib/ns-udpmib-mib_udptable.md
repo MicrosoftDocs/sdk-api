@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: 83608d38-e352-483a-b284-2f9cb444e64f
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_UDPTABLE, MIB_UDPTABLE, MIB_UDPTABLE structure [MIB], PMIB_UDPTABLE, PMIB_UDPTABLE structure pointer [MIB], _mpr_mib_udptable, iprtrmib/MIB_UDPTABLE, iprtrmib/PMIB_UDPTABLE, mib.mib_udptable, rras.mib_udptable, udpmib/MIB_UDPTABLE, udpmib/PMIB_UDPTABLE'
-ms.topic: struct
 f1_keywords:
 - udpmib/MIB_UDPTABLE
 dev_langs:
@@ -84,7 +83,7 @@ The <b>MIB_UDPTABLE</b> structure may contain padding for alignment between the 
 
 
 The <b>MIB_UDPTABLE</b> structure contains the UDP listener table for IPv4 on the local computer. The name is based on the definition of this table in RFC 1213 published by the IETF. For more information, see 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=85984">http://www.ietf.org/rfc/rfc1213.txt</a>. This table contains UDP  endpoints for IPv4 that have been bound to an address. It should be noted that an application can create a UDP socket and bind it to an address for the sole purpose of sending a UDP datagram, with no intention of receiving packets using this socket (functioning as a listener). 
+<a href="http://tools.ietf.org/html/rfc1213">http://www.ietf.org/rfc/rfc1213.txt</a>. This table contains UDP  endpoints for IPv4 that have been bound to an address. It should be noted that an application can create a UDP socket and bind it to an address for the sole purpose of sending a UDP datagram, with no intention of receiving packets using this socket (functioning as a listener). 
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udptable_owner_module">MIB_UDPTABLE_OWNER_MODULE</a> structure is an enhanced version of the  <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udptable_owner_pid">MIB_UDPTABLE_OWNER_PID</a> structure that includes any available ownership data for each UDP endpoint in the table.  The <b>MIB_UDPTABLE_OWNER_PID</b> is an enhanced version of the <b>MIB_UDPTABLE</b> that includes the process ID (PID) that issued the call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function for each UDP endpoint in the table.
 

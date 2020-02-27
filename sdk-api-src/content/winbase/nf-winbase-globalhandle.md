@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 18ed3446-060a-4874-8187-5c54fb936da9
 ms.date: 12/05/2018
 ms.keywords: GlobalHandle, GlobalHandle function, _win32_globalhandle, base.globalhandle, winbase/GlobalHandle
-ms.topic: function
 f1_keywords:
 - winbase/GlobalHandle
 dev_langs:

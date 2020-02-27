@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: c0a98ae4-d348-462d-8907-87116a64f79e
 ms.date: 12/05/2018
 ms.keywords: MsiGetPatchFileList, MsiGetPatchFileList function, MsiGetPatchFileListA, MsiGetPatchFileListW, msi/MsiGetPatchFileList, msi/MsiGetPatchFileListA, msi/MsiGetPatchFileListW, setup.msigetpatchfilelist
-ms.topic: function
 f1_keywords:
 - msi/MsiGetPatchFileList
 dev_langs:

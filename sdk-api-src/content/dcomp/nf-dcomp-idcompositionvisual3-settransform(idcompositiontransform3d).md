@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 04b20481-5d00-d8f9-290d-a8ab19ae6eba
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetTransform method, IDCompositionVisual3.SetTransform, IDCompositionVisual3.SetTransform(IDCompositionTransform3D), IDCompositionVisual3::SetTransform, IDCompositionVisual3::SetTransform(IDCompositionTransform3D), IDCompositionVisual3::SetTransform(IDCompositionTransform3D*), SetTransform, SetTransform method [DirectComposition], SetTransform method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetTransform, directcomp.idcompositionvisual3_settransform_2
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionVisual3.SetTransform
 dev_langs:

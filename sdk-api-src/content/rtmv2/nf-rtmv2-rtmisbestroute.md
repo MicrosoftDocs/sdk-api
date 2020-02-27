@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 4c4b72a8-7a6c-4216-af2d-8dee55b910af
 ms.date: 12/05/2018
 ms.keywords: RtmIsBestRoute, RtmIsBestRoute function [RAS], _rtmv2ref_rtmisbestroute, rras.rtmisbestroute, rtmv2/RtmIsBestRoute
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmIsBestRoute
 dev_langs:

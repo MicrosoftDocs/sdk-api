@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: f8d4edc7-99b6-488d-974b-6fb8f0080f77
 ms.date: 12/05/2018
 ms.keywords: _win32_waveInGetDevCaps, mmeapi/waveInGetDevCaps, multimedia.waveingetdevcaps, waveInGetDevCaps, waveInGetDevCaps function [Windows Multimedia]
-ms.topic: function
 f1_keywords:
 - mmeapi/waveInGetDevCaps
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\getview.htm
 ms.date: 12/05/2018
 ms.keywords: GetView, GetView method [Windows Ribbon], GetView method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],GetView method, IUIFramework.GetView, IUIFramework::GetView, scenicintent_IUIFramework_GetView, uiribbon/IUIFramework::GetView, windowsribbon.windowsribbon_iuiframework_getview
-ms.topic: method
 f1_keywords:
 - uiribbon/IUIFramework.GetView
 dev_langs:
@@ -129,7 +128,7 @@ Rather than maintaining a pointer to an interface throughout the life of an appl
 				and call methods as necessary. 
 				
 
-<div class="alert"><b>Note</b>  The host application must call <a href="http://go.microsoft.com/fwlink/p/?linkid=142946">IUnknown::Release</a> on the temporary interface pointer to avoid a memory leak.</div>
+<div class="alert"><b>Note</b>  The host application must call <a href="https://msdn.microsoft.com/library/ms682317.aspx">IUnknown::Release</a> on the temporary interface pointer to avoid a memory leak.</div>
 <div> </div>
 For example, each time there is a change to the size of the ribbon, a host application calls 
 				<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-getheight">GetHeight</a> to adjust the size of the host client area 

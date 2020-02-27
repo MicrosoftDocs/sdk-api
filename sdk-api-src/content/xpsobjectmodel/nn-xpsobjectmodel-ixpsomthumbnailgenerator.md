@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: cac794c0-bea2-417e-880f-15838f718ba7
 ms.date: 12/05/2018
 ms.keywords: IXpsOMThumbnailGenerator, IXpsOMThumbnailGenerator interface [XPS Documents and Packaging], IXpsOMThumbnailGenerator interface [XPS Documents and Packaging],described, xps.ixpsomthumbnailgenerator, xpsobjectmodel/IXpsOMThumbnailGenerator
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMThumbnailGenerator
 dev_langs:
@@ -127,7 +126,7 @@ If XpsRasterService.dll is not present when <a href="https://docs.microsoft.com/
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

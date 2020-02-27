@@ -5,7 +5,6 @@ description: Specifies the parameters for decode output conversion.
 tech.root: mf
 ms.assetid: c5e03c98-6c64-43fa-b71a-8c4038f221dd
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS1
 dev_langs:
@@ -40,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-Specifies the parameters for decode output conversion.  [D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS](ns-d3d12video-d3d12_video_decode_conversion_arguments) is used for the same purpose, but does not contain fields for output width and output height.
+Specifies the parameters for decode output conversion.  [D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS](ns-d3d12video-d3d12_video_decode_conversion_arguments.md) is used for the same purpose, but does not contain fields for output width and output height.
 
 ## -struct-fields
 

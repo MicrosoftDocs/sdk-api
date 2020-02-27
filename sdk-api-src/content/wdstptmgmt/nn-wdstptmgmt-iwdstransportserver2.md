@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 27BB5319-74F0-480A-9600-8940491FB7E0
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServer2, IWdsTransportServer2 interface [Windows Deployment Services], IWdsTransportServer2 interface [Windows Deployment Services],described, wds.iwdstransportserver2, wdstptmgmt/IWdsTransportServer2
-ms.topic: interface
 f1_keywords:
 - wdstptmgmt/IWdsTransportServer2
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 This interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportserver">IWdsTransportServer</a> interface and extends it. It is available  beginning with Windows Server 2012. 
 
-A client application can obtain an interface pointer to an instance of the <b>IWdsTransportServer2</b> interface by first getting an interface pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportserver">IWdsTransportServer</a> interface  and then using the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface Method</a>. 
+A client application can obtain an interface pointer to an instance of the <b>IWdsTransportServer2</b> interface by first getting an interface pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportserver">IWdsTransportServer</a> interface  and then using the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface Method</a>. 
 
 
 ## -see-also

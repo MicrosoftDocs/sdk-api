@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 3068edc0-c052-4f44-9f62-453320af20a3
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],SetRoot method, IDvdControl.SetRoot, IDvdControl::SetRoot, IDvdControlSetRoot, SetRoot, SetRoot method [DirectShow], SetRoot method [DirectShow],IDvdControl interface, dshow.idvdcontrol_setroot, strmif/IDvdControl::SetRoot
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.SetRoot
 dev_langs:
@@ -81,7 +80,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method returns an error unless the domain is DVD_DOMAIN_Stop. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_Stop. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 If you haven't set the root directory before calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-titleplay">IDvdControl::TitlePlay</a>, the first drive starting from C: that contains a VIDEO_TS directory in the top level directory will be used as the root.
 

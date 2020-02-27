@@ -7,7 +7,6 @@ tech.root: input_ink
 ms.assetid: b53eba5d-c53d-45a4-ae51-5a8a27043554
 ms.date: 12/05/2018
 ms.keywords: IInkPresenterDesktop interface,SetCommitRequestHandler method, IInkPresenterDesktop.SetCommitRequestHandler, IInkPresenterDesktop::SetCommitRequestHandler, InkPresenterDesktop.iinkpresenterdesktop_setcommitrequesthandler, SetCommitRequestHandler, SetCommitRequestHandler method, SetCommitRequestHandler method,IInkPresenterDesktop interface, inkpresenterdesktop/IInkPresenterDesktop::SetCommitRequestHandler, input_ink.iinkpresenterdesktop_setcommitrequesthandler
-ms.topic: method
 f1_keywords:
 - inkpresenterdesktop/IInkPresenterDesktop.SetCommitRequestHandler
 dev_langs:
@@ -79,7 +78,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620314">Complex ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex ink sample</a>
 
 
 
@@ -87,7 +86,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
 
 
 
@@ -99,7 +98,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620312">Simple ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
  
 
  

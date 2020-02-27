@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 2ab778b2-c6d0-41ea-aa3a-a6c16c87a9e9
 ms.date: 12/05/2018
 ms.keywords: WS_CALL_PROPERTY, WS_CALL_PROPERTY structure [Web Services for Windows], webservices/WS_CALL_PROPERTY, wsw.ws_call_property
-ms.topic: struct
 f1_keywords:
 - webservices/WS_CALL_PROPERTY
 dev_langs:

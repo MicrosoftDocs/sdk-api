@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7BD6C532-0266-4579-96FA-91D0AF7E6C4C
 ms.date: 12/05/2018
 ms.keywords: GetProviderID, GetProviderID method [Windows Shell], GetProviderID method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetProviderID method, ICredentialProviderUser.GetProviderID, ICredentialProviderUser::GetProviderID, credentialprovider/ICredentialProviderUser::GetProviderID, shell.ICredentialProviderUser_GetProviderID
-ms.topic: method
 f1_keywords:
 - credentialprovider/ICredentialProviderUser.GetProviderID
 dev_langs:

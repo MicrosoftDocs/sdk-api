@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 753278f0-d8a1-4dc5-b976-a00f8aab357e
 ms.date: 12/05/2018
 ms.keywords: D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES, D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES structure [Direct2D], d2d1/D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES, direct2d.D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES
-ms.topic: struct
 f1_keywords:
 - d2d1/D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES
 dev_langs:
@@ -76,7 +75,7 @@ In the brush's coordinate space, the endpoint  of the gradient axis.
 
 
 
-Use this method when creating new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a> objects with the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createlineargradientbrush">CreateLinearGradientBrush</a> method. For convenience, Direct2D provides the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-lineargradientbrushproperties">D2D1::LinearGradientBrushProperties</a> helper function for creating new <b>D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES</b> structures.
+Use this method when creating new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a> objects with the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createlineargradientbrush(constd2d1_linear_gradient_brush_properties__constd2d1_brush_properties__id2d1gradientstopcollection_id2d1lineargradientbrush)">CreateLinearGradientBrush</a> method. For convenience, Direct2D provides the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-lineargradientbrushproperties">D2D1::LinearGradientBrushProperties</a> helper function for creating new <b>D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES</b> structures.
 
 The following illustration shows how a linear gradient changes as you change its start and end points.  For the first gradient, the start point is set to (0,0) and the end point to (150, 50); this creates a diagonal gradient that starts at the upper-left corner and extends to the lower-right corner of the area being painted. When you set the start point to (0, 25) and the end point to (150, 25), a horizontal gradient is created. Similarly, setting the start point  to (75, 0) and the end point to (75, 50) creates a vertical gradient. Setting the start point to  (0, 50) and the end point to (150, 0)  creates a diagonal gradient that starts at the lower-left corner and extends to the upper-right corner of the area being painted.
 
@@ -85,7 +84,7 @@ The following illustration shows how a linear gradient changes as you change its
 
 #### Examples
 
-The following example uses the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createlineargradientbrush">CreateLinearGradientBrush</a> method to create an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a> (<i>m_pLinearGradientBrush</i>). It uses the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-lineargradientbrushproperties">D2D1::LinearGradientBrushProperties</a> helper method to create a <b>D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES</b> structure that contains a start point of (0, 0) and and end point of (150, 150) and passes it to the  <b>CreateLinearGradientBrush</b> method.
+The following example uses the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createlineargradientbrush(constd2d1_linear_gradient_brush_properties__constd2d1_brush_properties__id2d1gradientstopcollection_id2d1lineargradientbrush)">CreateLinearGradientBrush</a> method to create an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a> (<i>m_pLinearGradientBrush</i>). It uses the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-lineargradientbrushproperties">D2D1::LinearGradientBrushProperties</a> helper method to create a <b>D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES</b> structure that contains a start point of (0, 0) and and end point of (150, 150) and passes it to the  <b>CreateLinearGradientBrush</b> method.
 
 
 ```cpp

@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 16f61a1d-770a-4be9-a43d-10ff9fe276fb
 ms.date: 12/05/2018
 ms.keywords: INetFwRule interface [ICS/ICF],Protocol property, INetFwRule.Protocol, INetFwRule.put_Protocol, INetFwRule::Protocol, INetFwRule::get_Protocol, INetFwRule::put_Protocol, Protocol property [ICS/ICF], Protocol property [ICS/ICF],INetFwRule interface, ics.inetfwrule_protocol, netfw/INetFwRule::Protocol, netfw/INetFwRule::get_Protocol, netfw/INetFwRule::put_Protocol, put_Protocol
-ms.topic: method
 f1_keywords:
 - netfw/INetFwRule.Protocol
 dev_langs:
@@ -70,7 +69,7 @@ Also see the restrictions on changing properties described in the Remarks sectio
 
 The <b>Protocol</b> property must be set before the <a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_localports">LocalPorts</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_remoteports">RemotePorts</a> properties or an error will be returned.
 
-A list of protocol numbers is available at the  <a href="http://go.microsoft.com/fwlink/p/?linkid=89889">IANA website</a>.
+A list of protocol numbers is available at the  <a href="https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml">IANA website</a>.
 
 
 

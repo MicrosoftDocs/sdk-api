@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_layout.htm
 ms.date: 12/05/2018
 ms.keywords: Header_Layout, Header_Layout macro [Windows Controls], _win32_Header_Layout, _win32_Header_Layout_cpp, commctrl/Header_Layout, controls.Header_Layout, controls._win32_Header_Layout
-ms.topic: macro
 f1_keywords:
 - commctrl/Header_Layout
 dev_langs:

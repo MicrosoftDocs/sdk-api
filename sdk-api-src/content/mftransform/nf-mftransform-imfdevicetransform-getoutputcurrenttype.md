@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: ABDDED13-5C35-4030-838B-92BECA23F6A2
 ms.date: 12/05/2018
 ms.keywords: GetOutputCurrentType, GetOutputCurrentType method [Streaming Media Devices], GetOutputCurrentType method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetOutputCurrentType method, IMFDeviceTransform.GetOutputCurrentType, IMFDeviceTransform::GetOutputCurrentType, mftransform/IMFDeviceTransform::GetOutputCurrentType, stream.imfdevicetransform_getoutputcurrenttype
-ms.topic: method
 f1_keywords:
 - mftransform/IMFDeviceTransform.GetOutputCurrentType
 dev_langs:

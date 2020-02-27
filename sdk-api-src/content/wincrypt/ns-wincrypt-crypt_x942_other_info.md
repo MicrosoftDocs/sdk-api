@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 7761af36-ad16-4628-86cb-16cbded6fb69
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_X942_OTHER_INFO, CRYPT_X942_OTHER_INFO, CRYPT_X942_OTHER_INFO structure [Security], PCRYPT_X942_OTHER_INFO, PCRYPT_X942_OTHER_INFO structure pointer [Security], _crypto2_crypt_x942_other_info, security.crypt_x942_other_info, wincrypt/CRYPT_X942_OTHER_INFO, wincrypt/PCRYPT_X942_OTHER_INFO'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_X942_OTHER_INFO
 dev_langs:

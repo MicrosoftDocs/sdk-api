@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 94477345-74e7-40bf-a75b-e4bf67f1c17b
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_WKS_DATA, DNS_WKS_DATA, DNS_WKS_DATA structure [DNS], PDNS_WKS_DATA, PDNS_WKS_DATA structure pointer [DNS], Transmission Control Protocol (TCP), User Datagram Protocol (UDP), _dns_dns_wks_data, dns.dns_wks_data, windns/DNS_WKS_DATA, windns/PDNS_WKS_DATA'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_WKS_DATA
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>DNS_WKS_DATA</b> structure represents a DNS well-known services (WKS) record as specified in section 3.4.2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
+<b>DNS_WKS_DATA</b> structure represents a DNS well-known services (WKS) record as specified in section 3.4.2 of <a href="https://www.ietf.org/rfc/rfc1035.txt">RFC 1035</a>.
 
 
 ## -struct-fields
@@ -66,7 +65,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-data-types">IP4_A
 
 ### -field chProtocol
 
-A value that represents the IP protocol for this RR as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=107049">RFC 1010</a>.
+A value that represents the IP protocol for this RR as defined in <a href="https://www.ietf.org/rfc/rfc1010.txt">RFC 1010</a>.
 
 
 

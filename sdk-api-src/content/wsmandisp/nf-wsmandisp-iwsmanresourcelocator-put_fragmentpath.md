@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: c20c0c03-4fe4-417f-95e0-0a9b34b3c1ee
 ms.date: 12/05/2018
 ms.keywords: FragmentPath property [Windows Remote Management], FragmentPath property [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],FragmentPath property, IWSManResourceLocator.FragmentPath, IWSManResourceLocator.put_FragmentPath, IWSManResourceLocator::FragmentPath, IWSManResourceLocator::get_FragmentPath, IWSManResourceLocator::put_FragmentPath, put_FragmentPath, winrm.iwsmanresourcelocator_fragmentpath, wsmandisp/IWSManResourceLocator::FragmentPath, wsmandisp/IWSManResourceLocator::get_FragmentPath, wsmandisp/IWSManResourceLocator::put_FragmentPath
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManResourceLocator.FragmentPath
 dev_langs:

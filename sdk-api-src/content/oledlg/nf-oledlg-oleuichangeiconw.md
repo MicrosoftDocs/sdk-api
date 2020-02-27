@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 899aadbe-d3d7-42e2-b9c0-09efeb378bda
 ms.date: 12/05/2018
 ms.keywords: OleUIChangeIcon, OleUIChangeIcon function [COM], OleUIChangeIconA, OleUIChangeIconW, _ole_OleUIChangeIcon, com.oleuichangeicon, oledlg/OleUIChangeIcon, oledlg/OleUIChangeIconA, oledlg/OleUIChangeIconW
-ms.topic: function
 f1_keywords:
 - oledlg/OleUIChangeIcon
 dev_langs:

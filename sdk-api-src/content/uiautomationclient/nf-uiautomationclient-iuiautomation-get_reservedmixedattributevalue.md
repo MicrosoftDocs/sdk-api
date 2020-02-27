@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 5b225507-deee-4f2c-a17b-f0e96963a1d0
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],ReservedMixedAttributeValue property, IUIAutomation.ReservedMixedAttributeValue, IUIAutomation.get_ReservedMixedAttributeValue, IUIAutomation::ReservedMixedAttributeValue, IUIAutomation::get_ReservedMixedAttributeValue, ReservedMixedAttributeValue property [Windows Accessibility], ReservedMixedAttributeValue property [Windows Accessibility],IUIAutomation interface, get_ReservedMixedAttributeValue, uiauto.uiauto_IUIAutomation_ReservedMixedAttributeValue, uiauto_IUIAutomation_ReservedMixedAttributeValue, uiautomationclient/IUIAutomation::ReservedMixedAttributeValue, uiautomationclient/IUIAutomation::get_ReservedMixedAttributeValue, winauto.uiauto_IUIAutomation_ReservedMixedAttributeValue
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation.ReservedMixedAttributeValue
 dev_langs:

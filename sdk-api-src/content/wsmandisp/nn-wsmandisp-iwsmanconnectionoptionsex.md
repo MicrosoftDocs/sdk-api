@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: aa47c9bf-6c7d-41c2-a29b-929600ee371a
 ms.date: 12/05/2018
 ms.keywords: IWSManConnectionOptionsEx, IWSManConnectionOptionsEx interface [Windows Remote Management], IWSManConnectionOptionsEx interface [Windows Remote Management],described, winrm.iwsmanconnectionoptionsex, wsmandisp/IWSManConnectionOptionsEx
-ms.topic: interface
 f1_keywords:
 - wsmandisp/IWSManConnectionOptionsEx
 dev_langs:

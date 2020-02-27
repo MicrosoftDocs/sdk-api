@@ -7,7 +7,6 @@ tech.root: NAP
 ms.assetid: 1466247a-eecf-4912-810a-07cabb9c83da
 ms.date: 12/05/2018
 ms.keywords: ExtendedIsolationState, ExtendedIsolationState enumeration [NAP], extendedIsolationStateInfected, extendedIsolationStateNoData, extendedIsolationStateTransition, extendedIsolationStateUnknown, nap.extendedisolationstate, naptypes/ExtendedIsolationState, naptypes/extendedIsolationStateInfected, naptypes/extendedIsolationStateNoData, naptypes/extendedIsolationStateTransition, naptypes/extendedIsolationStateUnknown
-ms.topic: enum
 f1_keywords:
 - naptypes/ExtendedIsolationState
 dev_langs:

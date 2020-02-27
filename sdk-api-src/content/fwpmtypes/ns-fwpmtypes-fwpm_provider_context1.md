@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 34727579-9baf-4d50-b973-e864ddf651b0
 ms.date: 12/05/2018
 ms.keywords: FWPM_PROVIDER_CONTEXT1, FWPM_PROVIDER_CONTEXT1 structure [Filtering], FWPM_PROVIDER_CONTEXT1_, FWPM_PROVIDER_CONTEXT_FLAG_PERSISTENT, fwp.fwpm_provider_context1_struct, fwpmtypes/FWPM_PROVIDER_CONTEXT1
-ms.topic: struct
 f1_keywords:
 - fwpmtypes/FWPM_PROVIDER_CONTEXT1
 dev_langs:

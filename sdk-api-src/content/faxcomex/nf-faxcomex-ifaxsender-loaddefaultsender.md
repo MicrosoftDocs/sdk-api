@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9ak2.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxSender interface [Fax Service],LoadDefaultSender method, IFaxSender.LoadDefaultSender, IFaxSender::LoadDefaultSender, LoadDefaultSender, LoadDefaultSender method [Fax Service], LoadDefaultSender method [Fax Service],IFaxSender interface, _mfax_faxsender.loaddefaultsender, fax._mfax_faxsender_cpp_mfax_faxsender_loaddefaultsender_cpp, fax._mfax_faxsender_loaddefaultsender, faxcomex/IFaxSender::LoadDefaultSender
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxSender.LoadDefaultSender
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 5d741e49-9fdf-4f8d-9ea1-faaecf879be4
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced2, IWMReaderAdvanced2 interface [windows Media Format], IWMReaderAdvanced2 interface [windows Media Format],described, IWMReaderAdvanced2Interface, wmformat.iwmreaderadvanced2, wmsdkidl/IWMReaderAdvanced2
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced2
 dev_langs:

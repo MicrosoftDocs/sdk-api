@@ -5,7 +5,6 @@ description: Gets the D3D12_VIDEO_DECODER_DESC structure that was passed into ID
 tech.root: mf
 ms.assetid: 235bcf2c-52b6-4390-821e-10d1e2d78bb6
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoDecoder::GetDesc
 dev_langs:
@@ -45,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-Gets the [D3D12_VIDEO_DECODER_DESC](ns-d3d12video-d3d12_video_decoder_desc) structure that was passed into [ID3D12VideoDevice::CreateVideoDecoder](nf-d3d12video-id3d12videodevice-createvideodecoder) when the [ID3D12VideoDecoder](nn-d3d12video-id3d12videodecoder) was created.
+Gets the [D3D12_VIDEO_DECODER_DESC](ns-d3d12video-d3d12_video_decoder_desc.md) structure that was passed into [ID3D12VideoDevice::CreateVideoDecoder](nf-d3d12video-id3d12videodevice-createvideodecoder.md) when the [ID3D12VideoDecoder](nn-d3d12video-id3d12videodecoder.md) was created.
 
 ## -parameters
 

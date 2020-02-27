@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 336e7e68-0903-42f7-9810-53ccceed32de
 ms.date: 12/05/2018
 ms.keywords: IDsObjectPickerCredentials, IDsObjectPickerCredentials object [Active Directory], IDsObjectPickerCredentials object [Active Directory],described, ad.idsobjectpickercredentials, objsel/IDsObjectPickerCredentials
-ms.topic: interface
 f1_keywords:
 - objsel/IDsObjectPickerCredentials
 dev_langs:
@@ -55,7 +54,7 @@ The <b>IDsObjectPickerCredentials</b> interface
     object implementing this interface.
 
 To obtain an instance of this interface, call 
-    <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> with the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> with the 
     <b>IID_IDsObjectPickerCredentials</b> interface identifier as shown below.
 
 

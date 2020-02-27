@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 649ab92f-9195-47a9-8a02-546825245e2b
 ms.date: 12/05/2018
 ms.keywords: GetSignature, GetSignature method [XPS Documents and Packaging], GetSignature method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetSignature method, IXpsSignatureRequest.GetSignature, IXpsSignatureRequest::GetSignature, xps.ixpssignaturerequest_getsignature, xpsdigitalsignature/IXpsSignatureRequest::GetSignature
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureRequest.GetSignature
 dev_langs:
@@ -130,7 +129,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

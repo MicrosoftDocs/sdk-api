@@ -5,7 +5,6 @@ description: Describes the configuration for a video decoder.
 tech.root: mf
 ms.assetid: 5caab68c-7bdb-4344-beab-ca09341459a1
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_VIDEO_DECODE_CONFIGURATION
 dev_langs:
@@ -50,11 +49,11 @@ A GUID identifying the profile for the decoder, such as D3D12\_VIDEO\_DECODE\_PR
  
 ### -field BitstreamEncryption
 
-A member of the [D3D12\_BITSTREAM\_ENCRYPTION\_TYPE](ne-d3d12video-d3d12_bitstream_encryption_type) enumeration specifying the type of bitstream encryption.  For no encryption, use D3D12\_BITSTREAM\_ENCRYPTION\_TYPE\_NONE.
+A member of the [D3D12\_BITSTREAM\_ENCRYPTION\_TYPE](ne-d3d12video-d3d12_bitstream_encryption_type.md) enumeration specifying the type of bitstream encryption.  For no encryption, use D3D12\_BITSTREAM\_ENCRYPTION\_TYPE\_NONE.
  
 ### -field InterlaceType
  
-A member of the [D3D12\_VIDEO\_FRAME\_CODED\_INTERLACE\_TYPE](ne-d3d12video-d3d12_video_frame_coded_interlace_type) enumeration the desired interlace type used by the coded frames.
+A member of the [D3D12\_VIDEO\_FRAME\_CODED\_INTERLACE\_TYPE](ne-d3d12video-d3d12_video_frame_coded_interlace_type.md) enumeration the desired interlace type used by the coded frames.
 
 ## -remarks
 

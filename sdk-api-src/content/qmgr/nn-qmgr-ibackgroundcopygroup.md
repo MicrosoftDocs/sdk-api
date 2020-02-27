@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 51ddd89a-489a-4b83-ad45-838809a6d2e8
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], IBackgroundCopyGroup interface [BITS],described, bits.ibackgroundcopygroup, qmgr/IBackgroundCopyGroup
-ms.topic: interface
 f1_keywords:
 - qmgr/IBackgroundCopyGroup
 dev_langs:

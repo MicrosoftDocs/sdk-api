@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: StringFormat, StringFormat constructors [GDI+], StringFormat.StringFormat, StringFormat.StringFormat(IN const StringFormat), StringFormat::StringFormat, StringFormat::StringFormat(IN const StringFormat), _gdiplus_CLASS_StringFormat_Constructors, gdiplus._gdiplus_CLASS_StringFormat_Constructors, gdiplusstringformat/StringFormat
-ms.topic: method
 f1_keywords:
 - gdiplusstringformat/StringFormat.StringFormat
 dev_langs:

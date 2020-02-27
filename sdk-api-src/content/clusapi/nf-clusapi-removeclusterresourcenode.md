@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 1a5b59b9-5c19-4920-b150-b0b404629fb3
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE, PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE function [Failover Cluster], RemoveClusterResourceNode, RemoveClusterResourceNode function [Failover Cluster], _wolf_removeclusterresourcenode, clusapi/PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE, clusapi/RemoveClusterResourceNode, mscs.removeclusterresourcenode
-ms.topic: function
 f1_keywords:
 - clusapi/RemoveClusterResourceNode
 dev_langs:

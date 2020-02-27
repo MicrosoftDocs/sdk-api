@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 120638ce-b35f-450e-9675-708495ddd082
 ms.date: 12/05/2018
 ms.keywords: IBDA_VoidTransform, IBDA_VoidTransform interface [Microsoft TV Technologies], IBDA_VoidTransform interface [Microsoft TV Technologies],described, IBDA_VoidTransformInterface, bdaiface/IBDA_VoidTransform, mstv.ibda_voidtransform
-ms.topic: interface
 f1_keywords:
 - bdaiface/IBDA_VoidTransform
 dev_langs:

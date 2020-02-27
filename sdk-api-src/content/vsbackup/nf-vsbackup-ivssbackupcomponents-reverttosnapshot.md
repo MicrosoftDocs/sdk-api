@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 9976195e-3448-4b0e-82b2-1ae061c75b17
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],RevertToSnapshot method, IVssBackupComponents.RevertToSnapshot, IVssBackupComponents::RevertToSnapshot, RevertToSnapshot, RevertToSnapshot method [VSS], RevertToSnapshot method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_reverttosnapshot, base.ivssbackupcomponents_reverttosnapshot, vsbackup/IVssBackupComponents::RevertToSnapshot
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.RevertToSnapshot
 dev_langs:

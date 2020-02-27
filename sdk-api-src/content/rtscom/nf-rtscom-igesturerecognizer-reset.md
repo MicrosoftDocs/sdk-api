@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 05676701-2977-453f-b2b9-7a256899e2b1
 ms.date: 12/05/2018
 ms.keywords: 05676701-2977-453f-b2b9-7a256899e2b1, IGestureRecognizer interface [Tablet PC],Reset method, IGestureRecognizer.Reset, IGestureRecognizer::Reset, Reset, Reset method [Tablet PC], Reset method [Tablet PC],IGestureRecognizer interface, rtscom/IGestureRecognizer::Reset, tablet.igesturerecognizer_reset
-ms.topic: method
 f1_keywords:
 - rtscom/IGestureRecognizer.Reset
 dev_langs:

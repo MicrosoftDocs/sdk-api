@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ed1c5a30-19fb-46a8-b521-017da56d85c8
 ms.date: 12/05/2018
 ms.keywords: GetNextProgram, GetNextProgram method [Microsoft TV Technologies], GetNextProgram method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetNextProgram method, ITuneRequestInfo.GetNextProgram, ITuneRequestInfo::GetNextProgram, ITuneRequestInfoGetNextProgram, bdatif/ITuneRequestInfo::GetNextProgram, mstv.itunerequestinfo_getnextprogram
-ms.topic: method
 f1_keywords:
 - bdatif/ITuneRequestInfo.GetNextProgram
 dev_langs:

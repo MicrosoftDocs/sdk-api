@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 5433C3F7-3499-4AC1-9E26-0BB943B69C4D
 ms.date: 12/05/2018
 ms.keywords: WBEM_GENUS_CLASS, WBEM_GENUS_INSTANCE, WBEM_GENUS_TYPE, WBEM_GENUS_TYPE enumeration [Windows Management Instrumentation], wbemcli/WBEM_GENUS_CLASS, wbemcli/WBEM_GENUS_INSTANCE, wbemcli/WBEM_GENUS_TYPE, wmi.wbem_genus_type
-ms.topic: enum
 f1_keywords:
 - wbemcli/WBEM_GENUS_TYPE
 dev_langs:

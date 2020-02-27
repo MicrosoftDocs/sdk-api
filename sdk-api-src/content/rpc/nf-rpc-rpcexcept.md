@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 5bd57250-1fd7-4aeb-aa53-4fd2c8d84836
 ms.date: 12/05/2018
 ms.keywords: RpcExcept, RpcExcept macro [RPC], _rpc_rpcexcept, rpc.rpcexcept, rpc/RpcExcept
-ms.topic: macro
 f1_keywords:
 - rpc/RpcExcept
 dev_langs:

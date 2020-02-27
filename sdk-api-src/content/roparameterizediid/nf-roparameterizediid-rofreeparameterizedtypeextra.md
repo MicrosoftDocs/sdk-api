@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: A9A063F3-D6E0-4383-B9AD-EA115FC3A8FD
 ms.date: 12/05/2018
 ms.keywords: RoFreeParameterizedTypeExtra, RoFreeParameterizedTypeExtra function [Windows Runtime], roparameterizediid/RoFreeParameterizedTypeExtra, winrt.rofreeparameterizedtypeextra
-ms.topic: function
 f1_keywords:
 - roparameterizediid/RoFreeParameterizedTypeExtra
 dev_langs:

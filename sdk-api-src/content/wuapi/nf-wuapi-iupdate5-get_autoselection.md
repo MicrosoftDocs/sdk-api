@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 5b5fdec6-04b3-40ad-b1a6-e5a69f215e39
 ms.date: 12/05/2018
 ms.keywords: AutoSelection property [Windows Update Agent], AutoSelection property [Windows Update Agent],IUpdate5 interface, IUpdate5 interface [Windows Update Agent],AutoSelection property, IUpdate5.AutoSelection, IUpdate5.get_AutoSelection, IUpdate5::AutoSelection, IUpdate5::get_AutoSelection, get_AutoSelection, wua.iupdate5_autoselection, wuapi/IUpdate5::AutoSelection, wuapi/IUpdate5::get_AutoSelection
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdate5.AutoSelection
 dev_langs:

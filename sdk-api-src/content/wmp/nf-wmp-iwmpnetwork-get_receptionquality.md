@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 835f56a4-26d3-480c-bf3e-49c269e9cc5a
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_receptionQuality method, IWMPNetwork.get_receptionQuality, IWMPNetwork::get_receptionQuality, IWMPNetworkget_receptionQuality, get_receptionQuality, get_receptionQuality method [Windows Media Player], get_receptionQuality method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_receptionquality, wmp/IWMPNetwork::get_receptionQuality
-ms.topic: method
 f1_keywords:
 - wmp/IWMPNetwork.get_receptionQuality
 dev_langs:

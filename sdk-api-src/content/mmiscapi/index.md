@@ -1,9 +1,10 @@
 ---
 UID: NA:mmiscapi
+title: Mmiscapi.h header
 ms.assetid: eb97769d-c3e1-35d3-9bb8-e7b6bcb3bbed
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: multimedia
 ---
 

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 0AEDDE0D-D8E2-4C9E-AB2B-2FF0ACC3695D
 ms.date: 12/05/2018
 ms.keywords: ANRUS_ON_SCREEN_KEYBOARD_ACTIVE, ANRUS_PRIORITY_AUDIO_ACTIVE, ANRUS_PRIORITY_AUDIO_ACTIVE_NODUCK, ANRUS_TOUCH_MODIFICATION_ACTIVE, AccSetRunningUtilityState, AccSetRunningUtilityState function [Windows Accessibility], oleacc/AccSetRunningUtilityState, winauto.accsetrunningutilitystate
-ms.topic: function
 f1_keywords:
 - oleacc/AccSetRunningUtilityState
 dev_langs:
@@ -181,7 +180,7 @@ If not successful, returns a standard <a href="https://docs.microsoft.com/window
 
 Before it exits, an AT application should reset any system values that it previously set. 
 
-This function requires the calling process to have UIAccess or higher privileges.  If the caller does not have the required privileges, the call to <b>AccSetRunningUtilityState</b> fails and returns <b>E_ACCESSDENIED</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-securityoverview">Security Considerations for Assistive Technologies</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=207612">/MANIFESTUAC (Embeds UAC information in manifest)</a>.
+This function requires the calling process to have UIAccess or higher privileges.  If the caller does not have the required privileges, the call to <b>AccSetRunningUtilityState</b> fails and returns <b>E_ACCESSDENIED</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-securityoverview">Security Considerations for Assistive Technologies</a> and <a href="https://msdn.microsoft.com/library/bb384691.aspx">/MANIFESTUAC (Embeds UAC information in manifest)</a>.
 
 
 #### Examples

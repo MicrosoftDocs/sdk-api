@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 237743ff-ecb1-4c01-b4f9-192f27716f2c
 ms.date: 12/05/2018
 ms.keywords: BCryptDestroySecret, BCryptDestroySecret function [Security], bcrypt/BCryptDestroySecret, security.bcryptdestroysecret
-ms.topic: function
 f1_keywords:
 - bcrypt/BCryptDestroySecret
 dev_langs:

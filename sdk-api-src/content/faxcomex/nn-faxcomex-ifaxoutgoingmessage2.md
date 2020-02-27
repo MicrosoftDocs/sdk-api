@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingmessage2\faxinta_n_ifaxoutgoingmessage2_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage2, IFaxOutgoingMessage2 interface [Fax Service], IFaxOutgoingMessage2 interface [Fax Service],described, _mfax_faxoutgoingmessage2_cpp, fax._mfax_faxoutgoingmessage2_cpp, faxcomex/IFaxOutgoingMessage2
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxOutgoingMessage2
 dev_langs:

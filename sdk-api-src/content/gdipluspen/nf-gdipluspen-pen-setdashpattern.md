@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setdashpattern.htm
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetDashPattern method, Pen.SetDashPattern, Pen::SetDashPattern, SetDashPattern, SetDashPattern method [GDI+], SetDashPattern method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetDashPattern_dashArray_count_, gdiplus._gdiplus_CLASS_Pen_SetDashPattern_dashArray_count_
-ms.topic: method
 f1_keywords:
 - gdipluspen/Pen.SetDashPattern
 dev_langs:

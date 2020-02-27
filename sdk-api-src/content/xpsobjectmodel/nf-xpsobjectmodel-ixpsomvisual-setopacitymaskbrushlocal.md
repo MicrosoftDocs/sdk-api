@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d1b84156-b7ad-4dac-97d9-60aaedcee210
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetOpacityMaskBrushLocal method, IXpsOMVisual.SetOpacityMaskBrushLocal, IXpsOMVisual::SetOpacityMaskBrushLocal, SetOpacityMaskBrushLocal, SetOpacityMaskBrushLocal method [XPS Documents and Packaging], SetOpacityMaskBrushLocal method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setopacitymaskbrushlocal, xpsobjectmodel/IXpsOMVisual::SetOpacityMaskBrushLocal
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.SetOpacityMaskBrushLocal
 dev_langs:
@@ -194,7 +193,7 @@ Neither <b>SetOpacityMaskBrushLocal</b> nor <a href="https://docs.microsoft.com/
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

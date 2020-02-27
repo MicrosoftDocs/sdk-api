@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: ebc6ad10-02c1-4cc9-8a09-d1fe7aef146a
 ms.date: 12/05/2018
 ms.keywords: IWMDMObjectInfo, IWMDMObjectInfo interface [windows Media Device Manager], IWMDMObjectInfo interface [windows Media Device Manager],described, IWMDMObjectInfoInterface, mswmdm/IWMDMObjectInfo, wmdm.iwmdmobjectinfo
-ms.topic: interface
 f1_keywords:
 - mswmdm/IWMDMObjectInfo
 dev_langs:

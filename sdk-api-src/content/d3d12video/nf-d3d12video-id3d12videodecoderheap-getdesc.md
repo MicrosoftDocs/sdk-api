@@ -5,7 +5,6 @@ description: Gets the D3D12_VIDEO_DECODER_HEAP_DESC structure that was passed in
 tech.root: mf
 ms.assetid: 784d436a-f69d-4b62-b2f4-1954c92e774f
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoDecoderHeap::GetDesc
 dev_langs:
@@ -45,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-Gets the [D3D12_VIDEO_DECODER_HEAP_DESC](ns-d3d12video-d3d12_video_decoder_heap_desc) structure that was passed into [ID3D12VideoDevice::CreateVideoDecoderHeap](nf-d3d12video-id3d12videodevice-createvideodecoder) when the [ID3D12VideoDecoderHeap](nn-d3d12video-id3d12videodecoderheap) was created.
+Gets the [D3D12_VIDEO_DECODER_HEAP_DESC](ns-d3d12video-d3d12_video_decoder_heap_desc.md) structure that was passed into [ID3D12VideoDevice::CreateVideoDecoderHeap](nf-d3d12video-id3d12videodevice-createvideodecoder.md) when the [ID3D12VideoDecoderHeap](nn-d3d12video-id3d12videodecoderheap.md) was created.
 
 ## -parameters
 

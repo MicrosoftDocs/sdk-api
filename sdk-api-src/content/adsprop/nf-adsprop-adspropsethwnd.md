@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 9fc6b86b-e075-4969-842c-3ebddd43db8f
 ms.date: 12/05/2018
 ms.keywords: ADsPropSetHwnd, ADsPropSetHwnd function [Active Directory], _glines_adspropsethwnd, ad.adspropsethwnd, adsprop/ADsPropSetHwnd
-ms.topic: function
 f1_keywords:
 - adsprop/ADsPropSetHwnd
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7850d19c-dadb-44a1-85d9-d5b897edb39f
 ms.date: 12/05/2018
 ms.keywords: ShellExecuteEx, ShellExecuteEx function [Windows Shell], ShellExecuteExA, ShellExecuteExW, _win32_ShellExecuteEx, _win32_ShellExecuteEx_cpp, shell.ShellExecuteEx, shellapi/ShellExecuteEx, shellapi/ShellExecuteExA, shellapi/ShellExecuteExW
-ms.topic: function
 f1_keywords:
 - shellapi/ShellExecuteEx
 dev_langs:
@@ -93,7 +92,7 @@ Because <b>ShellExecuteEx</b> can delegate execution to Shell extensions (data s
 <pre class="syntax" xml:space="preserve"><code>CoInitializeEx(NULL, COINIT_APARTMENTTHREADED | COINIT_DISABLE_OLE1DDE)</code></pre>
 There are instances where <b>ShellExecuteEx</b> does not use one of these types of Shell extension and those instances would not require COM to be initialized at all. Nonetheless, it is good practice to always initalize COM before using this function.
 
-When DLLs are loaded into your process, you acquire a lock known as a <a href="http://go.microsoft.com/fwlink/p/?linkid=201929">loader lock</a>. The <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> function always executes under the loader lock. It is important that you do not call <b>ShellExecuteEx</b> while you hold a loader lock. Because <b>ShellExecuteEx</b> is extensible, you could load code that does not function properly in the presence of a loader lock, risking a deadlock and therefore an unresponsive thread.
+When DLLs are loaded into your process, you acquire a lock known as a <a href="https://msdn.microsoft.com/library/dd744765(VS.85).aspx">loader lock</a>. The <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> function always executes under the loader lock. It is important that you do not call <b>ShellExecuteEx</b> while you hold a loader lock. Because <b>ShellExecuteEx</b> is extensible, you could load code that does not function properly in the presence of a loader lock, risking a deadlock and therefore an unresponsive thread.
 
 With multiple monitors, if you specify an <b>HWND</b> and set the <b>lpVerb</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfoa">SHELLEXECUTEINFO</a> structure pointed to by <i>lpExecInfo</i> to "Properties", any windows created by <b>ShellExecuteEx</b> might not appear in the correct position.
 

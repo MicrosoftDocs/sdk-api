@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 23ad21a1-a298-45ac-9867-463f0852f292
 ms.date: 12/05/2018
 ms.keywords: AddVectoredContinueHandler, AddVectoredContinueHandler function, base.addvectoredcontinuehandler, errhandlingapi/AddVectoredContinueHandler
-ms.topic: function
 f1_keywords:
 - errhandlingapi/AddVectoredContinueHandler
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 96bfdc52-bd4a-4345-8dd1-7e716a3d9811
 ms.date: 12/05/2018
 ms.keywords: IShellMenuCallback, IShellMenuCallback interface [Windows Shell], IShellMenuCallback interface [Windows Shell],described, _win32_IShellMenuCallback, shell.IShellMenuCallback, shobjidl_core/IShellMenuCallback
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IShellMenuCallback
 dev_langs:

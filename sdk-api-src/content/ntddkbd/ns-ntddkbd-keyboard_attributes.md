@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: 060e93de-b84e-4755-a5f8-cbc52d900310
 ms.date: 12/05/2018
 ms.keywords: '*PKEYBOARD_ATTRIBUTES, KEYBOARD_ATTRIBUTES, KEYBOARD_ATTRIBUTES structure [Human Input Devices], PKEYBOARD_ATTRIBUTES, PKEYBOARD_ATTRIBUTES structure pointer [Human Input Devices], hid.keyboard_attributes, kref_430bedf0-40bc-4d93-b382-3fe4c69fcbb5.xml, ntddkbd/KEYBOARD_ATTRIBUTES, ntddkbd/PKEYBOARD_ATTRIBUTES'
-ms.topic: struct
 f1_keywords:
 - ntddkbd/KEYBOARD_ATTRIBUTES
 dev_langs:
@@ -131,7 +130,7 @@ Specifies the maximum possible value for the keyboard typematic rate and delay i
 
 This structure is used with a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_attributes">IOCTL_KEYBOARD_QUERY_ATTRIBUTES</a> request to return information about the attributes that a keyboard supports.
 
-For information about keyboard types, subtypes, scan code modes, and related keyboard layouts, see the documentation in i8042prt.h, kbd.h, and the <a href="http://go.microsoft.com/fwlink/p/?linkid=256128">layout</a> files in the MSDN Code Gallery. See also the Microsoft specification <i>Keyboard Scan Code Specification</i> available at the <a href="http://go.microsoft.com/fwlink/p/?linkid=242210">key support and scan codes</a> website.
+For information about keyboard types, subtypes, scan code modes, and related keyboard layouts, see the documentation in i8042prt.h, kbd.h, and the <a href="https://code.msdn.microsoft.com/windowshardware/Keyboard-Layout-Sample-b142d9e3">layout</a> files in the MSDN Code Gallery. See also the Microsoft specification <i>Keyboard Scan Code Specification</i> available at the <a href="https://go.microsoft.com/fwlink/p/?linkid=242210">key support and scan codes</a> website.
 
 
 

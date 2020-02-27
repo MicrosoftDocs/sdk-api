@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f3a04341-6cca-4fb4-bf47-30659d039a0d
 ms.date: 12/05/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],SetDirectDrawKernelHandle method, IVPBaseConfig.SetDirectDrawKernelHandle, IVPBaseConfig::SetDirectDrawKernelHandle, IVPBaseConfigSetDirectDrawKernelHandle, SetDirectDrawKernelHandle, SetDirectDrawKernelHandle method [DirectShow], SetDirectDrawKernelHandle method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setdirectdrawkernelhandle, vpconfig/IVPBaseConfig::SetDirectDrawKernelHandle
-ms.topic: method
 f1_keywords:
 - vpconfig/IVPBaseConfig.SetDirectDrawKernelHandle
 dev_langs:

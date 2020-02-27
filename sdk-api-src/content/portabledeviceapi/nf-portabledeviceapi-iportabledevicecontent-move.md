@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: 938a6a06-31c5-44d1-b87b-a108995ae9a1
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceContent interface [Windows Portable Devices SDK],Move method, IPortableDeviceContent.Move, IPortableDeviceContent::Move, IPortableDeviceContentMove, Move, Move method [Windows Portable Devices SDK], Move method [Windows Portable Devices SDK],IPortableDeviceContent interface, portabledeviceapi/IPortableDeviceContent::Move, wpdsdk.iportabledevicecontent_move
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDeviceContent.Move
 dev_langs:

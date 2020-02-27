@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 82e012e0-84d8-4791-8b6f-bda58b498a90
 ms.date: 12/05/2018
 ms.keywords: IMFTranscodeProfile, IMFTranscodeProfile interface [Media Foundation], IMFTranscodeProfile interface [Media Foundation],described, mf.imftranscodeprofile, mfidl/IMFTranscodeProfile
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFTranscodeProfile
 dev_langs:

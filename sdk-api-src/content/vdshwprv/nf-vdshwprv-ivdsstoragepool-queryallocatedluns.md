@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 348472ac-1b8b-4943-9b80-813616861e01
 ms.date: 12/05/2018
 ms.keywords: IVdsStoragePool interface,QueryAllocatedLuns method, IVdsStoragePool.QueryAllocatedLuns, IVdsStoragePool::QueryAllocatedLuns, QueryAllocatedLuns, QueryAllocatedLuns method, QueryAllocatedLuns method,IVdsStoragePool interface, base.ivdsstoragepool_queryallocatedluns, vds/IVdsStoragePool::QueryAllocatedLuns, vdshwprv/IVdsStoragePool::QueryAllocatedLuns
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsStoragePool.QueryAllocatedLuns
 dev_langs:

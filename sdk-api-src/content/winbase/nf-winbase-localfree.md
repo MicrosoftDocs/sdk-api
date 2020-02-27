@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: a0393983-cb43-4dfa-91a6-d82a5fb8de12
 ms.date: 12/05/2018
 ms.keywords: LocalFree, LocalFree function, _win32_localfree, base.localfree, winbase/LocalFree
-ms.topic: function
 f1_keywords:
 - winbase/LocalFree
 dev_langs:

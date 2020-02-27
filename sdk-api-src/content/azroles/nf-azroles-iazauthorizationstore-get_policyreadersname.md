@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: d550448e-a1ea-45f3-9151-affd4b8c0b14
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],PolicyReadersName property, IAzAuthorizationStore interface [Security],PolicyReadersName property, IAzAuthorizationStore.PolicyReadersName, IAzAuthorizationStore.get_PolicyReadersName, IAzAuthorizationStore::PolicyReadersName, IAzAuthorizationStore::get_PolicyReadersName, PolicyReadersName property [Security], PolicyReadersName property [Security],AzAuthorizationStore object, PolicyReadersName property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::PolicyReadersName, azroles/IAzAuthorizationStore::get_PolicyReadersName, get_PolicyReadersName, security.azauthorizationstore_policyreadersname
-ms.topic: method
 f1_keywords:
 - azroles/IAzAuthorizationStore.PolicyReadersName
 dev_langs:

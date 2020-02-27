@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 27353a1b-2a3c-4c3b-b512-917d010ee8dd
 ms.date: 12/05/2018
 ms.keywords: WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_ADHOC_PROFILES, WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_MANUAL_HIDDEN_PROFILES, WlanGetAvailableNetworkList, WlanGetAvailableNetworkList function [NativeWIFI], nwifi.wlangetavailablenetworklist, nwifi.wlangetvisiblenetworklist, wlanapi/WlanGetAvailableNetworkList
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanGetAvailableNetworkList
 dev_langs:
@@ -203,7 +202,7 @@ Not enough memory is available to process this request and allocate memory for t
 The <b>WlanGetAvailableNetworkList</b> function allocates memory for the list of available networks returned in the buffer pointed to by the <i>ppAvailableNetworkList</i> parameter when the function succeeds. The memory used for the buffer pointed to by <i>ppAvailableNetworkList</i> parameter should be released by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> function after the buffer is no longer needed.
 
 
-There is a hotfix available for  Wireless LAN API for Windows XP with SP2 that can help improve the performance of applications that call <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> and <b>WlanGetAvailableNetworkList</b> many times. For more information, see Help and Knowledge Base article 940541, entitled "FIX: The private bytes of the application continuously increase when an application calls the WlanGetAvailableNetworkList function and the WlanFreeMemory function on a Windows XP Service Pack 2-based computer", in the Help and Support Knowledge Base at <a href="http://go.microsoft.com/fwlink/p/?linkid=102216">http://go.microsoft.com/fwlink/p/?linkid=102216</a>.
+There is a hotfix available for  Wireless LAN API for Windows XP with SP2 that can help improve the performance of applications that call <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> and <b>WlanGetAvailableNetworkList</b> many times. For more information, see Help and Knowledge Base article 940541, entitled "FIX: The private bytes of the application continuously increase when an application calls the WlanGetAvailableNetworkList function and the WlanFreeMemory function on a Windows XP Service Pack 2-based computer", in the Help and Support Knowledge Base at <a href="https://support.microsoft.com/kb/940541">https://go.microsoft.com/fwlink/p/?linkid=102216</a>.
 
 
 
@@ -453,7 +452,7 @@ int wmain()
                     if (pBssEntry->dwFlags) {
                         if (pBssEntry->dwFlags & WLAN_AVAILABLE_NETWORK_CONNECTED)
                             wprintf(L" - Currently connected");
-                        if (pBssEntry->dwFlags & WLAN_AVAILABLE_NETWORK_CONNECTED)
+                        if (pBssEntry->dwFlags & WLAN_AVAILABLE_NETWORK_HAS_PROFILE)
                             wprintf(L" - Has profile");
                     }   
                     wprintf(L"\n");

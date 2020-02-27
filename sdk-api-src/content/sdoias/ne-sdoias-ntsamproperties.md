@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: 84d3bc60-4756-49b3-a614-94640bc647be
 ms.date: 12/05/2018
 ms.keywords: NTSAMPROPERTIES, NTSAMPROPERTIES enumeration [Network Policy Server], PROPERTY_NTSAM_ALLOW_LM_AUTHENTICATION, _sdo_ntsamproperties, nps.SDO_ntsamproperties, sdo.ntsamproperties, sdoias/NTSAMPROPERTIES, sdoias/PROPERTY_NTSAM_ALLOW_LM_AUTHENTICATION
-ms.topic: enum
 f1_keywords:
 - sdoias/NTSAMPROPERTIES
 dev_langs:

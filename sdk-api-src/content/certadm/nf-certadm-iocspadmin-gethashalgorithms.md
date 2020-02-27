@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: aa131478-0456-4ae8-82a6-5dc8eaa293e0
 ms.date: 12/05/2018
 ms.keywords: GetHashAlgorithms, GetHashAlgorithms method [Security], GetHashAlgorithms method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetHashAlgorithms method, IOCSPAdmin.GetHashAlgorithms, IOCSPAdmin::GetHashAlgorithms, certadm/IOCSPAdmin::GetHashAlgorithms, security.iocspadmin_gethashalgorithms
-ms.topic: method
 f1_keywords:
 - certadm/IOCSPAdmin.GetHashAlgorithms
 dev_langs:

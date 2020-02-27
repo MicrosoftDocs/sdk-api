@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 0e956746-e6da-49d8-a534-753cb6755673
 ms.date: 12/05/2018
 ms.keywords: AddVectoredExceptionHandler, AddVectoredExceptionHandler function, _win32_addvectoredexceptionhandler, base.addvectoredexceptionhandler, errhandlingapi/AddVectoredExceptionHandler
-ms.topic: function
 f1_keywords:
 - errhandlingapi/AddVectoredExceptionHandler
 dev_langs:

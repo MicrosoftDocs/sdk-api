@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 282386af-506b-4be6-bb75-aa3c62f9778a
 ms.date: 12/05/2018
 ms.keywords: _win32_capSetCallbackOnWaveStream, capSetCallbackOnWaveStream, capSetCallbackOnWaveStream macro [Windows Multimedia], multimedia.capsetcallbackonwavestream, vfw/capSetCallbackOnWaveStream
-ms.topic: macro
 f1_keywords:
 - vfw/capSetCallbackOnWaveStream
 dev_langs:

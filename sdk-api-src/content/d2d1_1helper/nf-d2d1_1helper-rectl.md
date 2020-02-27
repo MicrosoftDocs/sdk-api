@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: CE2B4034-24BC-49AE-88C6-C60BDCEA38B5
 ms.date: 12/05/2018
 ms.keywords: RectL, RectL function [Direct2D], dciddi/RectL, direct2d.rectl
-ms.topic: function
 f1_keywords:
 - d2d1_1helper/RectL
 dev_langs:

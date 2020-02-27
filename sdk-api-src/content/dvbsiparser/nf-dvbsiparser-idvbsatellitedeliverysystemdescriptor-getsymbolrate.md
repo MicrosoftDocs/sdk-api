@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 184b1cb6-432a-4227-b711-e05201f80bf1
 ms.date: 12/05/2018
 ms.keywords: GetSymbolRate, GetSymbolRate method [Microsoft TV Technologies], GetSymbolRate method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetSymbolRate method, IDvbSatelliteDeliverySystemDescriptor.GetSymbolRate, IDvbSatelliteDeliverySystemDescriptor::GetSymbolRate, IDvbSatelliteDeliverySystemDescriptorGetSymbolRate, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetSymbolRate, mstv.idvbsatellitedeliverysystemdescriptor_getsymbolrate
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbSatelliteDeliverySystemDescriptor.GetSymbolRate
 dev_langs:

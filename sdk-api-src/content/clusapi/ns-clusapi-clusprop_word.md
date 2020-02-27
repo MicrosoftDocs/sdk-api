@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: ba09290b-171b-45cf-a367-485f7322ebef
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSPROP_WORD, CLUSPROP_WORD, CLUSPROP_WORD structure [Failover Cluster], PCLUSPROP_WORD, PCLUSPROP_WORD structure pointer [Failover Cluster], _wolf_clusprop_word, clusapi/CLUSPROP_WORD, clusapi/PCLUSPROP_WORD, mscs.clusprop_word'
-ms.topic: struct
 f1_keywords:
 - clusapi/CLUSPROP_WORD
 dev_langs:

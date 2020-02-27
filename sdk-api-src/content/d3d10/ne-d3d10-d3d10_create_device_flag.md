@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_create_device_flag.htm
 ms.date: 12/05/2018
 ms.keywords: 3a55fe0a-90a0-6ccb-7720-5039c4fbf12b, D3D10_CREATE_DEVICE_ALLOW_NULL_FROM_MAP, D3D10_CREATE_DEVICE_BGRA_SUPPORT, D3D10_CREATE_DEVICE_DEBUG, D3D10_CREATE_DEVICE_DEBUGGABLE, D3D10_CREATE_DEVICE_FLAG, D3D10_CREATE_DEVICE_FLAG enumeration [Direct3D 10], D3D10_CREATE_DEVICE_PREVENT_ALTERING_LAYER_SETTINGS_FROM_REGISTRY, D3D10_CREATE_DEVICE_PREVENT_INTERNAL_THREADING_OPTIMIZATIONS, D3D10_CREATE_DEVICE_SINGLETHREADED, D3D10_CREATE_DEVICE_STRICT_VALIDATION, D3D10_CREATE_DEVICE_SWITCH_TO_REF, d3d10/D3D10_CREATE_DEVICE_ALLOW_NULL_FROM_MAP, d3d10/D3D10_CREATE_DEVICE_BGRA_SUPPORT, d3d10/D3D10_CREATE_DEVICE_DEBUG, d3d10/D3D10_CREATE_DEVICE_DEBUGGABLE, d3d10/D3D10_CREATE_DEVICE_FLAG, d3d10/D3D10_CREATE_DEVICE_PREVENT_ALTERING_LAYER_SETTINGS_FROM_REGISTRY, d3d10/D3D10_CREATE_DEVICE_PREVENT_INTERNAL_THREADING_OPTIMIZATIONS, d3d10/D3D10_CREATE_DEVICE_SINGLETHREADED, d3d10/D3D10_CREATE_DEVICE_STRICT_VALIDATION, d3d10/D3D10_CREATE_DEVICE_SWITCH_TO_REF, direct3d10.d3d10_create_device_flag
-ms.topic: enum
 f1_keywords:
 - d3d10/D3D10_CREATE_DEVICE_FLAG
 dev_langs:
@@ -114,7 +113,7 @@ D3D10_CREATE_DEVICE_BGRA_SUPPORT is only valid on Windows 7, Windows Server 2008
 
 ### -field D3D10_CREATE_DEVICE_PREVENT_ALTERING_LAYER_SETTINGS_FROM_REGISTRY
 
-Causes the Direct3D runtime to ignore registry settings that turn on the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-api-features-layers">debug layer</a>. You can turn on the debug layer by using the <a href="https://docs.microsoft.com/previous-versions/bb219725(v=vs.85)">DirectX Control Panel</a> that was included as part of the DirectX SDK. We shipped the last version of the DirectX SDK in June 2010; you can download it from the <a href="http://go.microsoft.com/fwlink/p/?linkid=226640">Microsoft Download Center</a>. You can set this flag in your app, typically in release builds only, to prevent end users from using the <a href="https://docs.microsoft.com/previous-versions/bb219725(v=vs.85)">DirectX Control Panel</a> to monitor how the app uses Direct3D.
+Causes the Direct3D runtime to ignore registry settings that turn on the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-api-features-layers">debug layer</a>. You can turn on the debug layer by using the <a href="https://docs.microsoft.com/previous-versions/bb219725(v=vs.85)">DirectX Control Panel</a> that was included as part of the DirectX SDK. We shipped the last version of the DirectX SDK in June 2010; you can download it from the <a href="https://www.microsoft.com/download/en/details.aspx?id=6812">Microsoft Download Center</a>. You can set this flag in your app, typically in release builds only, to prevent end users from using the <a href="https://docs.microsoft.com/previous-versions/bb219725(v=vs.85)">DirectX Control Panel</a> to monitor how the app uses Direct3D.
 
 <div class="alert"><b>Note</b>  You can also set this flag in your app to prevent Direct3D debugging tools, such as Visual Studio Ultimate 2012, from hooking your app.</div>
 <div> </div>

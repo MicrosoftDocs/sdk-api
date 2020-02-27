@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 533D2DA8-107A-48B1-928F-5788DC9CF706
 ms.date: 12/05/2018
 ms.keywords: ID3D11LinkingNode, ID3D11LinkingNode interface [Direct3D 11], ID3D11LinkingNode interface [Direct3D 11],described, d3d11shader/ID3D11LinkingNode, direct3d11.id3d11linkingnode
-ms.topic: interface
 f1_keywords:
 - d3d11shader/ID3D11LinkingNode
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 8c7e658c-862f-4715-9ba5-ac079db924a1
 ms.date: 12/05/2018
 ms.keywords: TcOpenInterface, TcOpenInterface function [QOS], TcOpenInterfaceA, TcOpenInterfaceW, _gqos_tcopeninterface, qos.tcopeninterface, traffic/TcOpenInterface, traffic/TcOpenInterfaceA, traffic/TcOpenInterfaceW
-ms.topic: function
 f1_keywords:
 - traffic/TcOpenInterface
 dev_langs:

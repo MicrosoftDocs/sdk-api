@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: a3385c77-899c-4772-88b9-fb3e0fab54e0
 ms.date: 12/05/2018
 ms.keywords: WPUResetEvent, WPUResetEvent function [Winsock], _win32_wpuresetevent_2, winsock.wpuresetevent_2, ws2spi/WPUResetEvent
-ms.topic: function
 f1_keywords:
 - ws2spi/WPUResetEvent
 dev_langs:
@@ -86,7 +85,7 @@ If no error occurs, the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_INVALID_HANDLE</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_INVALID_HANDLE</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -109,15 +108,15 @@ The <i>hEvent</i> parameter is not a valid event object handle.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucloseevent">WPUCloseEvent</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpucloseevent">WPUCloseEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucreateevent">WPUCreateEvent</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpucreateevent">WPUCreateEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpusetevent">WPUSetEvent</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpusetevent">WPUSetEvent</a>
  
 
  

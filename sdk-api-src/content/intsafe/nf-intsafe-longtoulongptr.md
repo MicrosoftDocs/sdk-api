@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: fe2669b2-6121-4348-ac7b-f89a0121b994
 ms.date: 12/05/2018
 ms.keywords: LongToDWordPtr, LongToSIZET, LongToULongPtr, LongToULongPtr function [Windows Shell], PtrdiffTToDWordPtr, _shell_LongToULongPtr, intsafe/LongToULongPtr, shell.LongToULongPtr
-ms.topic: function
 f1_keywords:
 - intsafe/LongToULongPtr
 dev_langs:

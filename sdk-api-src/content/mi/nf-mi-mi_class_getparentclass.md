@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: e90e3072-7d01-4959-bfee-c85ea89775a2
 ms.date: 12/05/2018
 ms.keywords: MI_Class_GetParentClass, MI_Class_GetParentClass function [Windows Management Infrastructure (MI)], mi/MI_Class_GetParentClass, wmi_v2.mi_class_getparentclass
-ms.topic: function
 f1_keywords:
 - mi/MI_Class_GetParentClass
 dev_langs:

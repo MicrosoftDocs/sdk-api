@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 9d911a9c-6538-4919-9110-0425c53f91c4
 ms.date: 12/05/2018
 ms.keywords: ITILSConfig interface [TAPI 2.2],put_Port method, ITILSConfig.put_Port, ITILSConfig::put_Port, _tapi3_itilsconfig_put_port, put_Port, put_Port method [TAPI 2.2], put_Port method [TAPI 2.2],ITILSConfig interface, rend/ITILSConfig::put_Port, tapi3.itilsconfig_put_port
-ms.topic: method
 f1_keywords:
 - rend/ITILSConfig.put_Port
 dev_langs:

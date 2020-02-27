@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c2ee251e-2419-4436-96e4-caaf6acc2550
 ms.date: 12/05/2018
 ms.keywords: IFontDisp, IFontDisp interface [COM], IFontDisp interface [COM],described, _ctrl_ifontdisp, com.ifontdisp, ocidl/IFontDisp
-ms.topic: interface
 f1_keywords:
 - ocidl/IFontDisp
 dev_langs:

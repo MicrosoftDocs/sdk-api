@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 0e6a7db0-c339-4a36-aea8-e3f9f2d5cd09
 ms.date: 12/05/2018
 ms.keywords: IEnumAgentHandler interface [TAPI 2.2],Next method, IEnumAgentHandler.Next, IEnumAgentHandler::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumAgentHandler interface, _tapi3_ienumagenthandler_next, tapi3.ienumagenthandler_next, tapi3cc/IEnumAgentHandler::Next
-ms.topic: method
 f1_keywords:
 - tapi3cc/IEnumAgentHandler.Next
 dev_langs:

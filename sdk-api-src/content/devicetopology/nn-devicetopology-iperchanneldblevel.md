@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: e70b4518-c9de-4426-b8e5-db80656699a9
 ms.date: 12/05/2018
 ms.keywords: IPerChannelDbLevel, IPerChannelDbLevel interface [Core Audio], IPerChannelDbLevel interface [Core Audio],described, coreaudio.iperchanneldblevel, devicetopology/IPerChannelDbLevel
-ms.topic: interface
 f1_keywords:
 - devicetopology/IPerChannelDbLevel
 dev_langs:

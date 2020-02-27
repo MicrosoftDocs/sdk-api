@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d7b7153c-24c4-4508-925b-b5cfbc26badc
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [DirectShow], GetProperties method [DirectShow],IMemAllocator interface, IMemAllocator interface [DirectShow],GetProperties method, IMemAllocator.GetProperties, IMemAllocator::GetProperties, IMemAllocatorGetProperties, dshow.imemallocator_getproperties, strmif/IMemAllocator::GetProperties
-ms.topic: method
 f1_keywords:
 - strmif/IMemAllocator.GetProperties
 dev_langs:
@@ -64,7 +63,7 @@ The <code>GetProperties</code> method retrieves the number of buffers that the a
 
 ### -param pProps [out]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties">ALLOCATOR_PROPERTIES</a> structure that receives the allocator properties.
+Pointer to an [ALLOCATOR_PROPERTIES](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure that receives the allocator properties.
 
 
 ## -returns

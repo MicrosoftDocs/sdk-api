@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 9380797a-b546-4e36-9403-d34cea672ace
 ms.date: 12/05/2018
 ms.keywords: GetCurrentSupportedViews, GetCurrentSupportedViews method [Windows Accessibility], GetCurrentSupportedViews method [Windows Accessibility],IUIAutomationMultipleViewPattern interface, IUIAutomationMultipleViewPattern interface [Windows Accessibility],GetCurrentSupportedViews method, IUIAutomationMultipleViewPattern.GetCurrentSupportedViews, IUIAutomationMultipleViewPattern::GetCurrentSupportedViews, uiauto.uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews, uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews, uiautomationclient/IUIAutomationMultipleViewPattern::GetCurrentSupportedViews, winauto.uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationMultipleViewPattern.GetCurrentSupportedViews
 dev_langs:
@@ -60,7 +59,7 @@ Retrieves a collection of control-specific view identifiers.
 
 ### -param retVal [out, retval]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives a pointer to an array of view identifiers.
 

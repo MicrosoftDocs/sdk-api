@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: a77dd410-1074-4196-8323-ccf52ed0375a
 ms.date: 12/05/2018
 ms.keywords: '*PTOKEN_LINKED_TOKEN, PTOKEN_LINKED_TOKEN, PTOKEN_LINKED_TOKEN structure pointer [Security], TOKEN_LINKED_TOKEN, TOKEN_LINKED_TOKEN structure [Security], _TOKEN_LINKED_TOKEN, security.token_linked_token, winnt/PTOKEN_LINKED_TOKEN, winnt/TOKEN_LINKED_TOKEN'
-ms.topic: struct
 f1_keywords:
 - winnt/TOKEN_LINKED_TOKEN
 dev_langs:

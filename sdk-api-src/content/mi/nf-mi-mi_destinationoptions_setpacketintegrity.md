@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 62980401-84ba-40af-a0c0-36d24c4d68f4
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_SetPacketIntegrity, MI_DestinationOptions_SetPacketIntegrity function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetPacketIntegrity, wmi_v2.mi_destinationoptions_setpacketintegrity
-ms.topic: function
 f1_keywords:
 - mi/MI_DestinationOptions_SetPacketIntegrity
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: de61badd-0794-484c-921f-4e72e881579c
 ms.date: 12/05/2018
 ms.keywords: IDockingWindow interface [Windows Shell],ResizeBorderDW method, IDockingWindow.ResizeBorderDW, IDockingWindow::ResizeBorderDW, ResizeBorderDW, ResizeBorderDW method [Windows Shell], ResizeBorderDW method [Windows Shell],IDockingWindow interface, _win32_IDockingWindow_ResizeBorderDW, shell.IDockingWindow_ResizeBorderDW, shobjidl_core/IDockingWindow::ResizeBorderDW
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IDockingWindow.ResizeBorderDW
 dev_langs:
@@ -69,7 +68,7 @@ Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> struc
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-Pointer to the site's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. The docking window object should call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method for this interface, requesting IID_IDockingWindowSite. The docking window object then uses that interface to negotiate its border space. It is the docking window object's responsibility to release this interface when it is no longer needed.
+Pointer to the site's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. The docking window object should call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method for this interface, requesting IID_IDockingWindowSite. The docking window object then uses that interface to negotiate its border space. It is the docking window object's responsibility to release this interface when it is no longer needed.
 
 
 ### -param fReserved

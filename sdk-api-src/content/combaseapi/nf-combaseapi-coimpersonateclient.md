@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: a3cbfbbc-fc6f-4d1b-8460-1e3351cd32d7
 ms.date: 12/05/2018
 ms.keywords: CoImpersonateClient, CoImpersonateClient function [COM], _com_CoImpersonateClient, com.coimpersonateclient, combaseapi/CoImpersonateClient
-ms.topic: function
 f1_keywords:
 - combaseapi/CoImpersonateClient
 dev_langs:

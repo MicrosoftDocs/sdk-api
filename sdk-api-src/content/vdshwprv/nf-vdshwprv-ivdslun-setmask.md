@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: b7e841cc-95b4-452f-ac14-d7063fe6a694
 ms.date: 12/05/2018
 ms.keywords: IVdsLun interface [VDS],SetMask method, IVdsLun.SetMask, IVdsLun::SetMask, SetMask, SetMask method [VDS], SetMask method [VDS],IVdsLun interface, base.ivdslun_setmask, vds/IVdsLun::SetMask, vdshwprv/IVdsLun::SetMask
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsLun.SetMask
 dev_langs:
@@ -79,7 +78,7 @@ If "*" or "" is specified, no other value can be specified.
 
 For Fibre Channel networks and serial attached SCSI (SAS) networks, each entry is a 64-bit World-Wide Name (WWN) of each port to which the LUN is 
        unmasked, formatted as a hexadecimal string (16 characters long), most significant byte first. For example, a 
-       WWN address of 01:23:45:67:89:AB:CD:EF is represented as "0123456789ABCDEF". For more information, see the T10 specifications for <a href="http://go.microsoft.com/fwlink/p/?linkid=179932">Fibre Channel</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=179931">SAS</a>.
+       WWN address of 01:23:45:67:89:AB:CD:EF is represented as "0123456789ABCDEF". For more information, see the T10 specifications for <a href="https://t10.org/drafts.htm#FibreChannel">Fibre Channel</a> and <a href="https://t10.org/drafts.htm#SCSI3_SAS">SAS</a>.
 
 For iSCSI networks, each entry is an iSCSI qualified name (IQN) of each initiator to which the LUN is 
        unmasked. A LUN unmasked to a particular initiator is considered to be associated with that initiator.

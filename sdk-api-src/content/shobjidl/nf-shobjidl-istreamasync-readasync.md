@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c0046a89-1427-465e-a5f3-2398ebff04f3
 ms.date: 12/05/2018
 ms.keywords: IStreamAsync interface [Windows Shell],ReadAsync method, IStreamAsync.ReadAsync, IStreamAsync::ReadAsync, ReadAsync, ReadAsync method [Windows Shell], ReadAsync method [Windows Shell],IStreamAsync interface, _shell_IStreamAsync_ReadAsync, shell.IStreamAsync_ReadAsync, shobjidl/IStreamAsync::ReadAsync
-ms.topic: method
 f1_keywords:
 - shobjidl/IStreamAsync.ReadAsync
 dev_langs:

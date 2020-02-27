@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: BCC6E830-CF05-42c1-874F-CCC97E58A4BC
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadGUID, PSPropertyBag_ReadGUID function [Windows Properties], properties.PSPropertyBag_ReadGUID, propsys/PSPropertyBag_ReadGUID, shell.PSPropertyBag_ReadGUID, shell_PSPropertyBag_ReadGUID
-ms.topic: function
 f1_keywords:
 - propsys/PSPropertyBag_ReadGUID
 dev_langs:

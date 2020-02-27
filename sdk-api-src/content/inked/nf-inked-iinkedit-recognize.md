@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: e22043da-6c38-49e2-9651-43211ce7f377
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],Recognize method, IInkEdit.Recognize, IInkEdit::Recognize, Recognize, Recognize method [Tablet PC], Recognize method [Tablet PC],IInkEdit interface, e22043da-6c38-49e2-9651-43211ce7f377, inked/IInkEdit::Recognize, tablet.inkedit_recognize
-ms.topic: method
 f1_keywords:
 - inked/IInkEdit.Recognize
 dev_langs:

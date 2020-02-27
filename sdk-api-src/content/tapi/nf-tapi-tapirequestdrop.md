@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 57fe47c8-5a03-4c31-8008-0ebca88a840c
 ms.date: 12/05/2018
 ms.keywords: tapi/tapiRequestDrop, tapi2.tapirequestdrop, tapiRequestDrop, tapiRequestDrop function [TAPI 2.2]
-ms.topic: function
 f1_keywords:
 - tapi/tapiRequestDrop
 dev_langs:

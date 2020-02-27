@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 4f2e0f96-a471-4883-be41-d93806461020
 ms.date: 12/05/2018
 ms.keywords: IEnumGUID, IEnumGUID interface [COM], IEnumGUID interface [COM],described, _com_ienumguid, com.ienumguid, comcat/IEnumGUID
-ms.topic: interface
 f1_keywords:
 - comcat/IEnumGUID
 dev_langs:

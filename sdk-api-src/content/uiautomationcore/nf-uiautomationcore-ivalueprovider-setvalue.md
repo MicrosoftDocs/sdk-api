@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: af555ac6-5abd-4019-804b-68f9ed3be801
 ms.date: 12/05/2018
 ms.keywords: IValueProvider interface [Windows Accessibility],SetValue method, IValueProvider.SetValue, IValueProvider::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],IValueProvider interface, uiauto.uiauto_IValueProvider_SetValue, uiauto_IValueProvider_SetValue, uiautomationcore/IValueProvider::SetValue, winauto.uiauto_IValueProvider_SetValue
-ms.topic: method
 f1_keywords:
 - uiautomationcore/IValueProvider.SetValue
 dev_langs:

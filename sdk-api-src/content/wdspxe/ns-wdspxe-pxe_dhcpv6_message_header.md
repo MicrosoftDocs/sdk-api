@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: D6D387EB-85CC-413E-926D-A222274ABD52
 ms.date: 12/05/2018
 ms.keywords: '*PPXE_DHCPV6_MESSAGE_HEADER, PPXE_DHCPV6_MESSAGE_HEADER, PPXE_DHCPV6_MESSAGE_HEADER structure pointer [Windows Deployment Services], PXE_DHCPV6_MESSAGE_HEADER, PXE_DHCPV6_MESSAGE_HEADER structure [Windows Deployment Services], wds.pxe_dhcpv6_message_header, wdspxe/PPXE_DHCPV6_MESSAGE_HEADER, wdspxe/PXE_DHCPV6_MESSAGE_HEADER'
-ms.topic: struct
 f1_keywords:
 - wdspxe/PXE_DHCPV6_MESSAGE_HEADER
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Describes the fields in common between the  <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-pxe_dhcpv6_message">PXE_DHCPV6_MESSAGE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-pxe_dhcpv6_relay_message">PXE_DHCPV6_RELAY_MESSAGE</a> structures.
 
-For more information about the DHCPv6 messages, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="Http://go.microsoft.com/fwlink/p/?linkid=132626">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
+For more information about the DHCPv6 messages, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="https://www.ietf.org/rfc/rfc3315.txt">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
 
 
 ## -struct-fields

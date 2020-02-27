@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 5f77f674-643a-450a-9589-16866d6cf680
 ms.date: 12/05/2018
 ms.keywords: IDistributorNotify interface [DirectShow],NotifyGraphChange method, IDistributorNotify.NotifyGraphChange, IDistributorNotify::NotifyGraphChange, IDistributorNotifyNotifyGraphChange, NotifyGraphChange, NotifyGraphChange method [DirectShow], NotifyGraphChange method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_notifygraphchange, strmif/IDistributorNotify::NotifyGraphChange
-ms.topic: method
 f1_keywords:
 - strmif/IDistributorNotify.NotifyGraphChange
 dev_langs:

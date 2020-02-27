@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: F6C576C1-5D34-41EB-95A4-BC8F78F02414
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX, PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX function [Failover Cluster], ResUtilGetCoreClusterResourcesEx, ResUtilGetCoreClusterResourcesEx function [Failover Cluster], mscs.resutilgetcoreclusterresourcesex, resapi/PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX, resapi/ResUtilGetCoreClusterResourcesEx
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilGetCoreClusterResourcesEx
 dev_langs:

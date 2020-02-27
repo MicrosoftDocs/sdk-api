@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 30800744-8605-4F8B-9B7A-50F57CC73483
 ms.date: 12/05/2018
 ms.keywords: FhServiceStartBackup, FhServiceStartBackup function [Windows API], fhsvcctl/FhServiceStartBackup, winprog.fhservicestartbackup
-ms.topic: function
 f1_keywords:
 - fhsvcctl/FhServiceStartBackup
 dev_langs:

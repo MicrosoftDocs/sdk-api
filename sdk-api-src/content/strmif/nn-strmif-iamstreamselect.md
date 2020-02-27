@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a305e91e-f506-4bd1-b4d4-7361df89e158
 ms.date: 12/05/2018
 ms.keywords: IAMStreamSelect, IAMStreamSelect interface [DirectShow], IAMStreamSelect interface [DirectShow],described, IAMStreamSelectInterface, dshow.iamstreamselect, strmif/IAMStreamSelect
-ms.topic: interface
 f1_keywords:
 - strmif/IAMStreamSelect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8d7d3a4d-3071-4829-99df-f0bcc9197b38
 ms.date: 12/05/2018
 ms.keywords: ControlStream, ControlStream method [DirectShow], ControlStream method [DirectShow],ICaptureGraphBuilder interface, ICaptureGraphBuilder interface [DirectShow],ControlStream method, ICaptureGraphBuilder.ControlStream, ICaptureGraphBuilder::ControlStream, ICaptureGraphBuilderControlStream, dshow.icapturegraphbuilder_controlstream, strmif/ICaptureGraphBuilder::ControlStream
-ms.topic: method
 f1_keywords:
 - strmif/ICaptureGraphBuilder.ControlStream
 dev_langs:

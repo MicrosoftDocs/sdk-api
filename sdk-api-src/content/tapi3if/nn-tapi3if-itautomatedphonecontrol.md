@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 60d4f079-75ee-4aeb-9e7c-0b16d90da754
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl, ITAutomatedPhoneControl interface [TAPI 2.2], ITAutomatedPhoneControl interface [TAPI 2.2],described, _tapi3_itautomatedphonecontrol, tapi3.itautomatedphonecontrol, tapi3if/ITAutomatedPhoneControl
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITAutomatedPhoneControl
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>ITAutomatedPhoneControl</b> is a fully OLE automatable and scriptable interface exposed by the TAPI phone object. When a phone device is opened with owner privilege, you can call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method on the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface to obtain an 
 <b>ITAutomatedPhoneControl</b> interface pointer.
 

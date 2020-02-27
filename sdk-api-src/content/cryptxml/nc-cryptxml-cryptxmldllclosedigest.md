@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 97f720b9-f937-4469-abe9-62bf35ebdd7a
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllCloseDigest, CryptXmlDllCloseDigest callback, CryptXmlDllCloseDigest callback function [Security], cryptxml/CryptXmlDllCloseDigest, security.cryptxmldllclosedigest
-ms.topic: callback
 f1_keywords:
 - cryptxml/CryptXmlDllCloseDigest
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: FCCE3CA1-ECD2-4964-952F-D4A077959519
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesContext interface [Microsoft Broadband Networks],MaxCommandSize property, IMbnDeviceServicesContext.MaxCommandSize, IMbnDeviceServicesContext.get_MaxCommandSize, IMbnDeviceServicesContext::MaxCommandSize, IMbnDeviceServicesContext::get_MaxCommandSize, MaxCommandSize property [Microsoft Broadband Networks], MaxCommandSize property [Microsoft Broadband Networks],IMbnDeviceServicesContext interface, get_MaxCommandSize, mbn.imbndeviceservicescontext_maxcommandsize, mbnapi/IMbnDeviceServicesContext::MaxCommandSize, mbnapi/IMbnDeviceServicesContext::get_MaxCommandSize
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnDeviceServicesContext.MaxCommandSize
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VStor
 ms.assetid: 16fbb793-84a9-4dac-a85e-0f4f50ae8e35
 ms.date: 12/05/2018
 ms.keywords: DeleteVirtualDiskMetadata, DeleteVirtualDiskMetadata function [Virtual Storage], virtdisk/DeleteVirtualDiskMetadata, vstor.deletevirtualdiskmetadata
-ms.topic: function
 f1_keywords:
 - virtdisk/DeleteVirtualDiskMetadata
 dev_langs:

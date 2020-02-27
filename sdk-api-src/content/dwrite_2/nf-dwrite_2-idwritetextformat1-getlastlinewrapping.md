@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 1a176dca-7fe5-baa5-3052-3fa71bc77d24
 ms.date: 12/05/2018
 ms.keywords: GetLastLineWrapping, GetLastLineWrapping method [Direct Write], GetLastLineWrapping method [Direct Write],IDWriteTextFormat1 interface, IDWriteTextFormat1 interface [Direct Write],GetLastLineWrapping method, IDWriteTextFormat1.GetLastLineWrapping, IDWriteTextFormat1::GetLastLineWrapping, directwrite.idwritetextformat1_getlastlinewrapping, dwrite_2/IDWriteTextFormat1::GetLastLineWrapping
-ms.topic: method
 f1_keywords:
 - dwrite_2/IDWriteTextFormat1.GetLastLineWrapping
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\sizeofresource.htm
 ms.date: 12/05/2018
 ms.keywords: SizeofResource, SizeofResource function [Menus and Other Resources], _win32_SizeofResource, _win32_sizeofresource_cpp, libloaderapi/SizeofResource, menurc.sizeofresource, winui._win32_sizeofresource
-ms.topic: function
 f1_keywords:
 - libloaderapi/SizeofResource
 dev_langs:

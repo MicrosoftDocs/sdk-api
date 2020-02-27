@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 47025361-4420-4c5d-aed7-d40ea0ba3e3b
 ms.date: 12/05/2018
 ms.keywords: IEventSystem interface [COM+],Query method, IEventSystem.Query, IEventSystem::Query, Query, Query method [COM+], Query method [COM+],IEventSystem interface, _cos_IEventSystem_Query, cos.ieventsystem_query, eventsys/IEventSystem::Query
-ms.topic: method
 f1_keywords:
 - eventsys/IEventSystem.Query
 dev_langs:

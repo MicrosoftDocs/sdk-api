@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 463ddd94-5eb1-4553-a31d-0a06326eceec
 ms.date: 12/05/2018
 ms.keywords: IPersistTuneXmlUtility2 interface [Microsoft TV Technologies],Serialize method, IPersistTuneXmlUtility2.Serialize, IPersistTuneXmlUtility2::Serialize, Serialize, Serialize method [Microsoft TV Technologies], Serialize method [Microsoft TV Technologies],IPersistTuneXmlUtility2 interface, mstv.ipersisttunexmlutility2_serialize, tuner/IPersistTuneXmlUtility2::Serialize
-ms.topic: method
 f1_keywords:
 - tuner/IPersistTuneXmlUtility2.Serialize
 dev_langs:

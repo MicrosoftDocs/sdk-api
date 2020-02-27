@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 7c10d0ea-8a19-4374-94f2-e12d7c1ba553
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMMetadataEditor interface, IWMMetadataEditor interface [windows Media Format],Close method, IWMMetadataEditor.Close, IWMMetadataEditor::Close, IWMMetadataEditorClose, wmformat.iwmmetadataeditor_close, wmsdkidl/IWMMetadataEditor::Close
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMMetadataEditor.Close
 dev_langs:

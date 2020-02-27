@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 2478dd60-233a-4ef3-86e9-62d2a59ab28a
 ms.date: 12/05/2018
 ms.keywords: CryptMsgClose, CryptMsgClose function [Security], _crypto2_cryptmsgclose, security.cryptmsgclose, wincrypt/CryptMsgClose
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptMsgClose
 dev_langs:

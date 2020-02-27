@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: 7a6751f2-0934-4329-9ab2-9ae9802bc33e
 ms.date: 12/05/2018
 ms.keywords: Attributes, Attributes method [SMI], Attributes method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],Attributes method, ISettingsItem.Attributes, ISettingsItem::Attributes, smi.isettingsitem_attributes, wcmconfig/ISettingsItem::Attributes
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsItem.Attributes
 dev_langs:

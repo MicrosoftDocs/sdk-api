@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: ae92436c-0774-4664-86ac-c7df65ef40b5
 ms.date: 12/05/2018
 ms.keywords: DhcpDeleteClientHook, DhcpDeleteClientHook callback function [DHCP], LPDHCP_DELETE_CLIENT, LPDHCP_DELETE_CLIENT callback, _dhcp_dhcpdeleteclienthook, dhcp.dhcpdeleteclienthook, dhcpssdk/DhcpDeleteClientHook
-ms.topic: callback
 f1_keywords:
 - dhcpssdk/DhcpDeleteClientHook
 dev_langs:

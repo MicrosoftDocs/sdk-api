@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: B97EBDA2-83FE-4982-987E-E5C9E615065C
 ms.date: 12/5/2018
 ms.keywords: DMLCreateDevice, DMLCreateDevice function, direct3d12.dmlcreatedevice, directml/DMLCreateDevice
-ms.topic: function
 f1_keywords:
 - directml/DMLCreateDevice
 dev_langs:

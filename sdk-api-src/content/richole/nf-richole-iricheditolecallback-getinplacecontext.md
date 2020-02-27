@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetinplacecontext.htm
 ms.date: 12/05/2018
 ms.keywords: GetInPlaceContext, GetInPlaceContext method [Windows Controls], GetInPlaceContext method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],GetInPlaceContext method, IRichEditOleCallback.GetInPlaceContext, IRichEditOleCallback::GetInPlaceContext, _win32_IRichEditOleCallback_GetInPlaceContext, _win32_IRichEditOleCallback_GetInPlaceContext_cpp, controls.IRichEditOleCallback_GetInPlaceContext, controls._win32_IRichEditOleCallback_GetInPlaceContext, richole/IRichEditOleCallback::GetInPlaceContext
-ms.topic: method
 f1_keywords:
 - richole/IRichEditOleCallback.GetInPlaceContext
 dev_langs:

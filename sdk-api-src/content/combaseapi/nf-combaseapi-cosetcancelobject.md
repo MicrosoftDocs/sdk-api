@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 0978e252-2206-4597-abf2-fe0dac32efc4
 ms.date: 12/05/2018
 ms.keywords: CoSetCancelObject, CoSetCancelObject function [COM], _com_CoSetCancelObject, com.cosetcancelobject, combaseapi/CoSetCancelObject
-ms.topic: function
 f1_keywords:
 - combaseapi/CoSetCancelObject
 dev_langs:
@@ -113,7 +112,7 @@ The cancel object cannot be set or reset at this time because of a block on canc
 
 For objects that support standard marshaling, the proxy object begins marshaling a method call by calling <b>CoSetCancelObject</b> to register a cancel object for the current thread.
 
-<b>CoSetCancelObject</b> calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> for <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a> on the cancel object. If the cancel object does not implement <b>ICancelMethodCalls</b>, <b>CoSetCancelObject</b> fails with E_NOINTERFACE. To disable cancel operations on a custom-marshaled interface, the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icancelmethodcalls-cancel">ICancelMethodCalls::Cancel</a> should do nothing but return E_NOTIMPL, E_FAIL, or some other appropriate value.
+<b>CoSetCancelObject</b> calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a> on the cancel object. If the cancel object does not implement <b>ICancelMethodCalls</b>, <b>CoSetCancelObject</b> fails with E_NOINTERFACE. To disable cancel operations on a custom-marshaled interface, the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icancelmethodcalls-cancel">ICancelMethodCalls::Cancel</a> should do nothing but return E_NOTIMPL, E_FAIL, or some other appropriate value.
 
 <b>CoSetCancelObject</b> calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on objects that it registers and <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on objects that it unregisters.
 

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f5cca658-73ce-4f4d-8992-afb7824f4117
 ms.date: 12/05/2018
 ms.keywords: IAMAudioRendererStats, IAMAudioRendererStats interface [DirectShow], IAMAudioRendererStats interface [DirectShow],described, IAMAudioRendererStatsInterface, dshow.iamaudiorendererstats, strmif/IAMAudioRendererStats
-ms.topic: interface
 f1_keywords:
 - strmif/IAMAudioRendererStats
 dev_langs:

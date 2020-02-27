@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e7dc3113-616a-49d5-bcab-7ed5aa520b18
 ms.date: 12/05/2018
 ms.keywords: IDvdCmd interface [DirectShow],WaitForEnd method, IDvdCmd.WaitForEnd, IDvdCmd::WaitForEnd, IDvdCmdWaitForEnd, WaitForEnd, WaitForEnd method [DirectShow], WaitForEnd method [DirectShow],IDvdCmd interface, dshow.idvdcmd_waitforend, strmif/IDvdCmd::WaitForEnd
-ms.topic: method
 f1_keywords:
 - strmif/IDvdCmd.WaitForEnd
 dev_langs:

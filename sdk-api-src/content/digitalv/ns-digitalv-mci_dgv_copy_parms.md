@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 314f1843-0457-4160-a9f0-71cffe676c8c
 ms.date: 12/05/2018
 ms.keywords: '*LPMCI_DGV_COPY_PARMS, MCI_DGV_COPY_PARMS, MCI_DGV_COPY_PARMS structure [Windows Multimedia], _win32_MCI_DGV_COPY_PARMS_str, digitalv/MCI_DGV_COPY_PARMS, multimedia.mci_dgv_copy_parms'
-ms.topic: struct
 f1_keywords:
 - digitalv/MCI_DGV_COPY_PARMS
 dev_langs:

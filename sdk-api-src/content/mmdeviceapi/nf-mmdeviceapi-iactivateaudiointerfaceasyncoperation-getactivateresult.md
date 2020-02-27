@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 4dd0e555-ee62-40f6-9b4a-57c6063981bf
 ms.date: 12/05/2018
 ms.keywords: GetActivateResult, GetActivateResult method [Core Audio], GetActivateResult method [Core Audio],IActivateAudioInterfaceAsyncOperation interface, IActivateAudioInterfaceAsyncOperation interface [Core Audio],GetActivateResult method, IActivateAudioInterfaceAsyncOperation.GetActivateResult, IActivateAudioInterfaceAsyncOperation::GetActivateResult, coreaudio.iactivateaudiointerfaceasyncoperation_getactivateresult, mmdeviceapi/IActivateAudioInterfaceAsyncOperation::GetActivateResult
-ms.topic: method
 f1_keywords:
 - mmdeviceapi/IActivateAudioInterfaceAsyncOperation.GetActivateResult
 dev_langs:

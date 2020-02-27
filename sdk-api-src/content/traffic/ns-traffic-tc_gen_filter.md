@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 979bfa2d-50da-43a6-8ead-d338159e31cf
 ms.date: 12/05/2018
 ms.keywords: '*PTC_GEN_FILTER, TC_GEN_FILTER, TC_GEN_FILTER structure [QOS], TC_GEN_FILTER), TC_GEN_FILTER) structure [QOS], _gqos_tc_gen_filter, qos.tc_gen_filter, traffic/TC_GEN_FILTER'
-ms.topic: struct
 f1_keywords:
 - traffic/TC_GEN_FILTER)
 dev_langs:

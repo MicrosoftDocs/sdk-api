@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 74218ab7-75a7-49e6-bfaa-5f57b1788a19
 ms.date: 12/05/2018
 ms.keywords: MFP_MEDIAITEM_CLEARED_EVENT, MFP_MEDIAITEM_CLEARED_EVENT structure [Media Foundation], mf.mfp_mediaitem_cleared_event, mfplay/MFP_MEDIAITEM_CLEARED_EVENT
-ms.topic: struct
 f1_keywords:
 - mfplay/MFP_MEDIAITEM_CLEARED_EVENT
 dev_langs:

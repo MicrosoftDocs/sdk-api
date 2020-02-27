@@ -7,7 +7,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\imilbitmapeffectrendercontextimpl.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectRenderContextImpl, IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects], IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectrendercontextimpl, mileffects/IMILBitmapEffectRenderContextImpl, wibe._wibe_imilbitmapeffectrendercontextimpl
-ms.topic: interface
 f1_keywords:
 - mileffects/IMILBitmapEffectRenderContextImpl
 dev_langs:

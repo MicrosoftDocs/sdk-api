@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 197f2169-2d32-429e-a338-717e7bf43d1e
 ms.date: 12/05/2018
 ms.keywords: VarCyFromDisp, VarCyFromDisp function [Automation], _oa96_VarCyFromDisp, automat.varcyfromdisp, oleauto/VarCyFromDisp
-ms.topic: function
 f1_keywords:
 - oleauto/VarCyFromDisp
 dev_langs:

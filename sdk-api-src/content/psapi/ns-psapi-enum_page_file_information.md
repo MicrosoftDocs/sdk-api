@@ -7,7 +7,6 @@ tech.root: psapi
 ms.assetid: 020f3be8-f624-4788-8079-0f7679c9bef0
 ms.date: 12/05/2018
 ms.keywords: '*PENUM_PAGE_FILE_INFORMATION, ENUM_PAGE_FILE_INFORMATION, ENUM_PAGE_FILE_INFORMATION structure [PSAPI], PENUM_PAGE_FILE_INFORMATION, PENUM_PAGE_FILE_INFORMATION structure pointer [PSAPI], _win32_enum_page_file_information_str, base.enum_page_file_information_str, psapi.enum_page_file_information_str, psapi/ENUM_PAGE_FILE_INFORMATION, psapi/PENUM_PAGE_FILE_INFORMATION'
-ms.topic: struct
 f1_keywords:
 - psapi/ENUM_PAGE_FILE_INFORMATION
 dev_langs:

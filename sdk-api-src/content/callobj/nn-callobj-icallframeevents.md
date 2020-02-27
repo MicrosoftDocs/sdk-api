@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 2f1e1b8d-6150-45e9-89e2-524d80df558d
 ms.date: 12/05/2018
 ms.keywords: ICallFrameEvents, ICallFrameEvents interface [COM], ICallFrameEvents interface [COM],described, _com_icallframeevents_interface, callobj/ICallFrameEvents, com.icallframeevents
-ms.topic: interface
 f1_keywords:
 - callobj/ICallFrameEvents
 dev_langs:

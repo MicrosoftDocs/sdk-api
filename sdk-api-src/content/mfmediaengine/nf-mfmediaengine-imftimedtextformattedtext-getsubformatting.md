@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: EC6F41A4-BB07-419B-BE03-8D82709D9A24
 ms.date: 12/05/2018
 ms.keywords: GetSubformatting, GetSubformatting method [Media Foundation], GetSubformatting method [Media Foundation],IMFTimedTextFormattedText interface, IMFTimedTextFormattedText interface [Media Foundation],GetSubformatting method, IMFTimedTextFormattedText.GetSubformatting, IMFTimedTextFormattedText::GetSubformatting, mf.imftimedtextformattedtext_getsubformatting, mfmediaengine/IMFTimedTextFormattedText::GetSubformatting
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextFormattedText.GetSubformatting
 dev_langs:

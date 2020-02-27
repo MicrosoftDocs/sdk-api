@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 6909d287-67c8-4f01-8523-6011932d1d34
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetHyperlinkNavigateUri method, IXpsOMVisual.SetHyperlinkNavigateUri, IXpsOMVisual::SetHyperlinkNavigateUri, SetHyperlinkNavigateUri, SetHyperlinkNavigateUri method [XPS Documents and Packaging], SetHyperlinkNavigateUri method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_sethyperlinknavigateuri, xpsobjectmodel/IXpsOMVisual::SetHyperlinkNavigateUri
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.SetHyperlinkNavigateUri
 dev_langs:
@@ -60,7 +59,7 @@ Sets the destination URI of the visual's hyperlink.
 
 ### -param hyperlinkUri [in]
 
-The <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface that contains the destination URI of the visual's hyperlink.
+The <a href="https://msdn2.microsoft.com/library/ms775038.aspx">IUri</a> interface that contains the destination URI of the visual's hyperlink.
 
 
 ## -returns
@@ -86,7 +85,7 @@ Setting an object's URI makes the object a hyperlink. When activated or clicked,
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a>
+<a href="https://msdn2.microsoft.com/library/ms775038.aspx">IUri</a>
 
 
 
@@ -94,7 +93,7 @@ Setting an object's URI makes the object a hyperlink. When activated or clicked,
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

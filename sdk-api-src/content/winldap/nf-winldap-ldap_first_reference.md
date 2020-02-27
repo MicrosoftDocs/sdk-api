@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: b9ee4da3-9309-4e2b-95a9-6e0f1625fc79
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_first_reference, ldap.ldap__first__reference, ldap.ldap_first_reference, ldap_first_reference, ldap_first_reference function [LDAP], winldap/ldap_first_reference
-ms.topic: function
 f1_keywords:
 - winldap/ldap_first_reference
 dev_langs:

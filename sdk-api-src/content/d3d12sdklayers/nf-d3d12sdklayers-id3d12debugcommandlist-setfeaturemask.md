@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: D2273A6C-7401-44D6-A0E3-F3F2C5DBCB8B
 ms.date: 12/05/2018
 ms.keywords: ID3D12DebugCommandList interface,SetFeatureMask method, ID3D12DebugCommandList.SetFeatureMask, ID3D12DebugCommandList::SetFeatureMask, SetFeatureMask, SetFeatureMask method, SetFeatureMask method,ID3D12DebugCommandList interface, d3d12sdklayers/ID3D12DebugCommandList::SetFeatureMask, direct3d12.id3d12debugcommandlist_setfeaturemask
-ms.topic: method
 f1_keywords:
 - d3d12sdklayers/ID3D12DebugCommandList.SetFeatureMask
 dev_langs:

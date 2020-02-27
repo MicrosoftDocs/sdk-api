@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 88f67970-2946-49f9-9c90-e562f37edd83
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_PanTilt method, ICameraControl.get_PanTilt, ICameraControl::get_PanTilt, ICameraControlget_PanTilt, dshow.icameracontrol_get_pantilt, get_PanTilt, get_PanTilt method [DirectShow], get_PanTilt method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_PanTilt
-ms.topic: method
 f1_keywords:
 - vidcap/ICameraControl.get_PanTilt
 dev_langs:

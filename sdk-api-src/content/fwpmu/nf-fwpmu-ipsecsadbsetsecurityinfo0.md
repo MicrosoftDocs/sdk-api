@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 6e51c04f-c829-4452-9e40-2c97551ad0f0
 ms.date: 12/05/2018
 ms.keywords: IPsecSaDbSetSecurityInfo0, IPsecSaDbSetSecurityInfo0 function [Filtering], fwp.ipsecsadbsetsecurityinfo0, fwpmu/IPsecSaDbSetSecurityInfo0
-ms.topic: function
 f1_keywords:
 - fwpmu/IPsecSaDbSetSecurityInfo0
 dev_langs:

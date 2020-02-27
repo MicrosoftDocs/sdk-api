@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 2a032cd7-90b3-427c-bbdf-2265f15c6f23
 ms.date: 12/05/2018
 ms.keywords: GetContentType, GetContentType method [XPS Documents and Packaging], GetContentType method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetContentType method, IXpsOMCoreProperties.GetContentType, IXpsOMCoreProperties::GetContentType, xps.ixpsomcoreproperties_getcontenttype, xpsobjectmodel/IXpsOMCoreProperties::GetContentType
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.GetContentType
 dev_langs:
@@ -123,11 +122,11 @@ This method allocates the memory used by the string that is returned in <i>conte
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

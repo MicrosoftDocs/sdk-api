@@ -7,7 +7,6 @@ tech.root: Dlls
 ms.assetid: 89ab63be-f0db-4f0f-9792-6976d867524e
 ms.date: 12/05/2018
 ms.keywords: RemoveDllDirectory, RemoveDllDirectory function, base.removedlldirectory, libloaderapi/RemoveDllDirectory
-ms.topic: function
 f1_keywords:
 - libloaderapi/RemoveDllDirectory
 dev_langs:
@@ -95,7 +94,7 @@ After <b>RemoveDllDirectory</b> returns, the cookie is
 <b>Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:  </b>To call this function in an application, use the 
       <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function to retrieve its address from 
       Kernel32.dll. 
-      <a href="http://go.microsoft.com/fwlink/p/?linkid=217865">KB2533623</a> must be 
+      <a href="https://support.microsoft.com/kb/2533623">KB2533623</a> must be 
       installed on the target platform.
 
 

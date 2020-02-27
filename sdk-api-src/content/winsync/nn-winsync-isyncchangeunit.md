@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 6c889a78-1a50-47b5-8e49-4aba741c0be0
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeUnit, ISyncChangeUnit interface [Windows Sync], ISyncChangeUnit interface [Windows Sync],described, winsync.isyncchangeunit, winsync/ISyncChangeUnit
-ms.topic: interface
 f1_keywords:
 - winsync/ISyncChangeUnit
 dev_langs:

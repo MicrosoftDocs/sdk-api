@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 0ABE2EBD-E568-4485-9B38-BA0E1E8FDA6F
 ms.date: 12/05/2018
 ms.keywords: IDWriteRenderingParams2, IDWriteRenderingParams2 interface [Direct Write], IDWriteRenderingParams2 interface [Direct Write],described, directwrite.idwriterenderingparams2, dwrite_2/IDWriteRenderingParams2
-ms.topic: interface
 f1_keywords:
 - dwrite_2/IDWriteRenderingParams2
 dev_langs:

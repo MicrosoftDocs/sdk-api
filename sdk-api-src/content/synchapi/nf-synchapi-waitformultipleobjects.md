@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 51afb13c-ea7a-407a-9f21-345d84f3b96b
 ms.date: 12/05/2018
 ms.keywords: WaitForMultipleObjects, WaitForMultipleObjects function, _win32_waitformultipleobjects, base.waitformultipleobjects, synchapi/WaitForMultipleObjects
-ms.topic: function
 f1_keywords:
 - synchapi/WaitForMultipleObjects
 dev_langs:

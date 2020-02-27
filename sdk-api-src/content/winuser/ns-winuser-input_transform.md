@@ -7,7 +7,6 @@ tech.root: InputMsg
 ms.assetid: DE6854F0-17D8-4E4B-97CB-A135910A300C
 ms.date: 12/05/2018
 ms.keywords: INPUT_TRANSFORM, INPUT_TRANSFORM structure [Windows and Messages], _INPUT_TRANSFORM, inputmsg.input_transform, winuser/INPUT_TRANSFORM
-ms.topic: struct
 f1_keywords:
 - winuser/INPUT_TRANSFORM
 dev_langs:

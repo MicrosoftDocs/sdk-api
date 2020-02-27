@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopyn.htm
 ms.date: 12/05/2018
 ms.keywords: StringCbCopyN, StringCbCopyN function [Menus and Other Resources], StringCbCopyNA, StringCbCopyNW, _shell_StringCbCopyN, _shell_stringcbcopyn_cpp, menurc.stringcbcopyn, strsafe/StringCbCopyN, strsafe/StringCbCopyNA, strsafe/StringCbCopyNW, winui._shell_stringcbcopyn
-ms.topic: function
 f1_keywords:
 - strsafe/StringCbCopyN
 dev_langs:
@@ -56,7 +55,7 @@ Copies the specified number of bytes from one string to another. The size of the
 
 <b>StringCbCopyN</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192506">strncpy, wcsncpy, _tcsncpy</a></li>
+<li><a href="https://msdn.microsoft.com/library/xdsywd25.aspx">strncpy, wcsncpy, _tcsncpy</a></li>
 </ul>
 
 ## -parameters

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 1d560139-c6bb-4f45-a593-8af4249114f8
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationElementArray interface [Windows Accessibility],Length property, IUIAutomationElementArray.Length, IUIAutomationElementArray.get_Length, IUIAutomationElementArray::Length, IUIAutomationElementArray::get_Length, Length property [Windows Accessibility], Length property [Windows Accessibility],IUIAutomationElementArray interface, get_Length, uiauto.uiauto_IUIAutomationElementArray_Length, uiauto_IUIAutomationElementArray_Length, uiautomationclient/IUIAutomationElementArray::Length, uiautomationclient/IUIAutomationElementArray::get_Length, winauto.uiauto_IUIAutomationElementArray_Length
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationElementArray.Length
 dev_langs:

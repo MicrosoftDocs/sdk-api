@@ -7,7 +7,6 @@ tech.root: tracelogging
 ms.assetid: 280EEFC4-EC84-4FAA-B14B-CBC5F0E0EA5D
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingLevel, TraceLoggingLevel macro, tracelogging.tracelogginglevel, traceloggingprovider/TraceLoggingLevel
-ms.topic: macro
 f1_keywords:
 - traceloggingprovider/TraceLoggingLevel
 dev_langs:

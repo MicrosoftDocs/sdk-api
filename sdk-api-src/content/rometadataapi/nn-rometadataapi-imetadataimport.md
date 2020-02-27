@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 5457d9d3-9a43-4e89-a52f-1254662ed92a
 ms.date: 12/05/2018
 ms.keywords: IMetaDataImport, IMetaDataImport interface [Windows Runtime], IMetaDataImport interface [Windows Runtime],described, rometadataapi/IMetaDataImport, winrt.imetadataimport
-ms.topic: interface
 f1_keywords:
 - rometadataapi/IMetaDataImport
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: e3ace124-cb02-4d4f-9d6c-18d0d99d64bf
 ms.date: 12/05/2018
 ms.keywords: GetErrorRetryInterval, GetErrorRetryInterval method [Task Scheduler], GetErrorRetryInterval method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetErrorRetryInterval method, IScheduledWorkItem.GetErrorRetryInterval, IScheduledWorkItem::GetErrorRetryInterval, _msb_ischeduledworkitem_geterrorretryinterval, mstask/IScheduledWorkItem::GetErrorRetryInterval, taskschd.ischeduledworkitem_geterrorretryinterval
-ms.topic: method
 f1_keywords:
 - mstask/IScheduledWorkItem.GetErrorRetryInterval
 dev_langs:

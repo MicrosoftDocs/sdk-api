@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: f967cf3f-582c-457a-ba75-980feb2d9bf3
 ms.date: 12/05/2018
 ms.keywords: MF_Plugin_Type, MF_Plugin_Type enumeration [Media Foundation], MF_Plugin_Type_MFT, MF_Plugin_Type_MFT_MatchOutputType, MF_Plugin_Type_MediaSource, MF_Plugin_Type_Other, mf.mf_plugin_type, mfobjects/, mfobjects/MF_Plugin_Type, mfobjects/MF_Plugin_Type_MFT, mfobjects/MF_Plugin_Type_MFT_MatchOutputType, mfobjects/MF_Plugin_Type_MediaSource, mfobjects/MF_Plugin_Type_Other
-ms.topic: enum
 f1_keywords:
 - mfobjects/MF_Plugin_Type
 dev_langs:

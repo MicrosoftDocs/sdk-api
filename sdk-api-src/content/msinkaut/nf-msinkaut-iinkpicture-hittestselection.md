@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 8dc745d8-7e2a-4255-86c6-226bf82d3d64
 ms.date: 12/05/2018
 ms.keywords: 8dc745d8-7e2a-4255-86c6-226bf82d3d64, HitTestSelection, HitTestSelection method [Tablet PC], HitTestSelection method [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],HitTestSelection method, IInkPicture.HitTestSelection, IInkPicture::HitTestSelection, msinkaut/IInkPicture::HitTestSelection, tablet.inkpicture_hittestselection
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkPicture.HitTestSelection
 dev_langs:

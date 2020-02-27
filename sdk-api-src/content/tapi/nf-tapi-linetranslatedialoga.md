@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: c9fd7abb-3b4b-442b-badc-371a12724f67
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linetranslatedialog, lineTranslateDialog, lineTranslateDialog function [TAPI 2.2], lineTranslateDialogA, lineTranslateDialogW, tapi/lineTranslateDialog, tapi/lineTranslateDialogA, tapi/lineTranslateDialogW, tapi2.linetranslatedialog
-ms.topic: function
 f1_keywords:
 - tapi/lineTranslateDialog
 dev_langs:

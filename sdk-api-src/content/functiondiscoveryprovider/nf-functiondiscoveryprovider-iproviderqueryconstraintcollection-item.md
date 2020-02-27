@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: db8840db-365a-485d-9097-ef98a9d875bc
 ms.date: 12/05/2018
 ms.keywords: IProviderQueryConstraintCollection interface,Item method, IProviderQueryConstraintCollection.Item, IProviderQueryConstraintCollection::Item, Item, Item method, Item method,IProviderQueryConstraintCollection interface, functiondiscoveryprovider/IProviderQueryConstraintCollection::Item, ncd.iproviderqueryconstraintcollection_item
-ms.topic: method
 f1_keywords:
 - functiondiscoveryprovider/IProviderQueryConstraintCollection.Item
 dev_langs:

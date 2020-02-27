@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 791bc6bf-f486-4110-b6ea-30a0935040b2
 ms.date: 12/05/2018
 ms.keywords: VER_BUILDNUMBER, VER_MAJORVERSION, VER_MINORVERSION, VER_PLATFORMID, VER_PRODUCT_TYPE, VER_SERVICEPACKMAJOR, VER_SERVICEPACKMINOR, VER_SUITENAME, VerifyVersionInfo, VerifyVersionInfo function, VerifyVersionInfoA, VerifyVersionInfoW, _win32_verifyversioninfo, base.verifyversioninfo, winbase/VerifyVersionInfo, winbase/VerifyVersionInfoA, winbase/VerifyVersionInfoW
-ms.topic: function
 f1_keywords:
 - winbase/VerifyVersionInfo
 dev_langs:

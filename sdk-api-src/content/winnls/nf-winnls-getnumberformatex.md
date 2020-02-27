@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 7874bc6e-1db2-44be-aa7a-7c716d23f7a4
 ms.date: 12/05/2018
 ms.keywords: GetNumberFormatEx, GetNumberFormatEx function [Internationalization for Windows Applications], _win32_GetNumberFormatEx, intl.getnumberformatex, winnls/GetNumberFormatEx
-ms.topic: function
 f1_keywords:
 - winnls/GetNumberFormatEx
 dev_langs:

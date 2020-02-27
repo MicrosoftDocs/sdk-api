@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 3ea6fe6a-2064-4f53-852a-041281b62bbd
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtSetComTimeout, RpcMgmtSetComTimeout function [RPC], _rpc_rpcmgmtsetcomtimeout, rpc.rpcmgmtsetcomtimeout, rpcdce/RpcMgmtSetComTimeout
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcMgmtSetComTimeout
 dev_langs:

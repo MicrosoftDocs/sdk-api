@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 6acae10b-9fda-4c73-b781-62a480271fd1
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents interface [COM+],OnObjPoolRecycleToTx method, IComObjectPoolEvents.OnObjPoolRecycleToTx, IComObjectPoolEvents::OnObjPoolRecycleToTx, OnObjPoolRecycleToTx, OnObjPoolRecycleToTx method [COM+], OnObjPoolRecycleToTx method [COM+],IComObjectPoolEvents interface, _dtc_icomobjectpoolevents_onobjpoolrecycletotx, comsvcs/IComObjectPoolEvents::OnObjPoolRecycleToTx, cos.icomobjectpoolevents_onobjpoolrecycletotx
-ms.topic: method
 f1_keywords:
 - comsvcs/IComObjectPoolEvents.OnObjPoolRecycleToTx
 dev_langs:

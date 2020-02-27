@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: 6f217ebb-3423-41d3-acff-eb21838c9751
 ms.date: 12/05/2018
 ms.keywords: RecoverTransactionManager, RecoverTransactionManager function [Files], fs.recovertransactionmanager, ktmw32/RecoverTransactionManager
-ms.topic: function
 f1_keywords:
 - ktmw32/RecoverTransactionManager
 dev_langs:

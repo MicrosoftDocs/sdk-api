@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 1dfe8412-0b6a-40be-94b7-c993851a9205
 ms.date: 12/05/2018
 ms.keywords: WbemTimeout, WbemTimeout enumeration [Windows Management Instrumentation], _hmm_wbemtimeout, wbemTimeoutInfinite, wbemdisp/WbemTimeout, wbemdisp/wbemTimeoutInfinite, wmi.wbemtimeout
-ms.topic: enum
 f1_keywords:
 - wbemdisp/WbemTimeout
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 2b60d078-ccbd-4cc5-addf-e6e95832b3a1
 ms.date: 12/05/2018
 ms.keywords: IMbnSignal, IMbnSignal interface [Microsoft Broadband Networks], IMbnSignal interface [Microsoft Broadband Networks],described, mbn.imbnsignal, mbnapi/IMbnSignal
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnSignal
 dev_langs:
@@ -95,7 +94,7 @@ Gets the signal strength received by the device.
 
 
 
-The calling application can acquire this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
+The calling application can acquire this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 957b09d2-a706-4045-affb-fd530cd4fa3a
 ms.date: 12/05/2018
 ms.keywords: '*PEMRSTRETCHBLT, EMRSTRETCHBLT, EMRSTRETCHBLT structure [Windows GDI], PEMRSTRETCHBLT, PEMRSTRETCHBLT structure pointer [Windows GDI], _win32_EMRSTRETCHBLT_str, gdi.emrstretchblt, wingdi/EMRSTRETCHBLT, wingdi/PEMRSTRETCHBLT'
-ms.topic: struct
 f1_keywords:
 - wingdi/EMRSTRETCHBLT
 dev_langs:

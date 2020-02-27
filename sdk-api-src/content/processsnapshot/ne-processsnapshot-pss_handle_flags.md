@@ -7,7 +7,6 @@ tech.root: proc_snap
 ms.assetid: A4A604A9-0210-413C-BCAC-F8458B371D42
 ms.date: 12/05/2018
 ms.keywords: PSS_HANDLE_FLAGS, PSS_HANDLE_FLAGS enumeration, PSS_HANDLE_HAVE_BASIC_INFORMATION, PSS_HANDLE_HAVE_NAME, PSS_HANDLE_HAVE_TYPE, PSS_HANDLE_HAVE_TYPE_SPECIFIC_INFORMATION, PSS_HANDLE_NONE, proc_snap.pss_handle_flags, processsnapshot/PSS_HANDLE_FLAGS, processsnapshot/PSS_HANDLE_HAVE_BASIC_INFORMATION, processsnapshot/PSS_HANDLE_HAVE_NAME, processsnapshot/PSS_HANDLE_HAVE_TYPE, processsnapshot/PSS_HANDLE_HAVE_TYPE_SPECIFIC_INFORMATION, processsnapshot/PSS_HANDLE_NONE
-ms.topic: enum
 f1_keywords:
 - processsnapshot/PSS_HANDLE_FLAGS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 2479b726-20f1-4370-9fcf-f29cec44c3ec
 ms.date: 12/05/2018
 ms.keywords: PeerCollabUnregisterApplication, PeerCollabUnregisterApplication function [Peer Networking], p2p.peercollabunregisterapplication, p2p/PeerCollabUnregisterApplication
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabUnregisterApplication
 dev_langs:

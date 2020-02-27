@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: 325e04c2-a477-43c7-9513-36a2a92eef8e
 ms.date: 12/05/2018
 ms.keywords: CompleteTime, CompleteTime method [Windows Touch], CompleteTime method [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],CompleteTime method, IInertiaProcessor.CompleteTime, IInertiaProcessor::CompleteTime, manipulations/IInertiaProcessor::CompleteTime, wintouch.iinertiaprocessor_completetime
-ms.topic: method
 f1_keywords:
 - manipulations/IInertiaProcessor.CompleteTime
 dev_langs:

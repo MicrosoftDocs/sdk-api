@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: f2d8bb2e-5bd1-4991-a80c-ed06bfd5c9f9
 ms.date: 12/05/2018
 ms.keywords: OleLoad, OleLoad function [COM], _ole_OleLoad, com.oleload, ole2/OleLoad
-ms.topic: function
 f1_keywords:
 - ole2/OleLoad
 dev_langs:
@@ -123,7 +122,7 @@ The <b>OleLoad</b> function performs the following steps:
 <li>Gets the CLSID from the open storage object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-stat">IStorage::Stat</a> method.</li>
 <li> Calls the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function to create an instance of the handler. If the handler code is not available, the default handler is used (see the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatedefaulthandler">OleCreateDefaultHandler</a> function).</li>
 <li>Calls the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setclientsite">IOleObject::SetClientSite</a> method with the <i>pClientSite</i> parameter to inform the object of its client site.</li>
-<li>Calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method for the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a> interface. If successful, the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-load">IPersistStorage::Load</a> method is invoked for the object.</li>
+<li>Calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method for the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a> interface. If successful, the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-load">IPersistStorage::Load</a> method is invoked for the object.</li>
 <li>Queries and returns the interface identified by the <i>riid</i> parameter.</li>
 </ul>
 

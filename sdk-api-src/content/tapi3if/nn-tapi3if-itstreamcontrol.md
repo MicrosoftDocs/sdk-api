@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 12b9457a-7afb-4348-93a2-28728c673929
 ms.date: 12/05/2018
 ms.keywords: ITStreamControl, ITStreamControl interface [TAPI 2.2], ITStreamControl interface [TAPI 2.2],described, _tapi3_itstreamcontrol, tapi3.itstreamcontrol, tapi3if/ITStreamControl
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITStreamControl
 dev_langs:
@@ -53,7 +52,7 @@ ms.custom: 19H1
 The 
 <b>ITStreamControl</b> interface represents the media streaming features of a call and exposes methods that allow an application to enumerate, create, or remove streams.
 
-If this interface exists, a TAPI application acquires a pointer to this interface by performing a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on any call interface, such as 
+If this interface exists, a TAPI application acquires a pointer to this interface by performing a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on any call interface, such as 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>. This interface is not available if an MSP is not involved in the current call session.
 
 Internal to the TAPI DLL, this interface is implemented by the MSP's call object, which is created in the 

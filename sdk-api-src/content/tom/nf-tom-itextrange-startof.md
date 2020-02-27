@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\startof.htm
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],StartOf method, ITextRange.StartOf, ITextRange::StartOf, StartOf, StartOf method [Windows Controls], StartOf method [Windows Controls],ITextRange interface, _win32_ITextRange_StartOf, _win32_ITextRange_StartOf_cpp, controls.ITextRange_StartOf, controls._win32_ITextRange_StartOf, tom/ITextRange::StartOf
-ms.topic: method
 f1_keywords:
 - tom/ITextRange.StartOf
 dev_langs:

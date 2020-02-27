@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddlinesmethods\addlines.htm
 ms.date: 12/05/2018
 ms.keywords: AddLines, AddLines method [GDI+], AddLines method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddLines method, GraphicsPath.AddLines, GraphicsPath.AddLines(IN const Point,IN INT), GraphicsPath.AddLines(const Point*,INT), GraphicsPath::AddLines, GraphicsPath::AddLines(IN const Point,IN INT), _gdiplus_CLASS_GraphicsPath_AddLines_Point_points_INT_count_, gdiplus._gdiplus_CLASS_GraphicsPath_AddLines_Point_points_INT_count_
-ms.topic: method
 f1_keywords:
 - gdipluspath/GraphicsPath.AddLines
 dev_langs:

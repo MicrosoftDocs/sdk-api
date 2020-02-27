@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 369d6daf-26fb-47f8-b503-6b0e73613bbe
 ms.date: 12/05/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],MSPAddressRelease method, CMSPAddress.MSPAddressRelease, CMSPAddress::MSPAddressRelease, MSPAddressRelease, MSPAddressRelease method [TAPI 2.2], MSPAddressRelease method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_mspaddressrelease, mspaddr/CMSPAddress::MSPAddressRelease, tapi3.cmspaddress_mspaddressrelease
-ms.topic: method
 f1_keywords:
 - mspaddr/CMSPAddress.MSPAddressRelease
 dev_langs:

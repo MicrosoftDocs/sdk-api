@@ -1,9 +1,10 @@
 ---
 UID: NA:workspaceruntime
+title: Workspaceruntime.h header
 ms.assetid: b31d3243-1e6d-3edc-9ef4-497efd12a2fd
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: termserv
 ---
 

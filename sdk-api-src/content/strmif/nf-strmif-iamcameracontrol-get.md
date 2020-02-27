@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 5a21f207-5fbb-44b2-82d2-89be29dbdf2c
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [DirectShow], Get method [DirectShow],IAMCameraControl interface, IAMCameraControl interface [DirectShow],Get method, IAMCameraControl.Get, IAMCameraControl::Get, IAMCameraControlGet, dshow.iamcameracontrol_get, strmif/IAMCameraControl::Get
-ms.topic: method
 f1_keywords:
 - strmif/IAMCameraControl.Get
 dev_langs:
@@ -64,7 +63,7 @@ The <b>Get</b> method gets the current setting of a camera property.
 
 ### -param Property [in]
 
-Specifies the property to retrieve, as a value from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolproperty">CameraControlProperty</a> enumeration.
+Specifies the property to retrieve, as a value from the [CameraControlProperty](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-cameracontrolproperty) enumeration.
           
 
 
@@ -76,7 +75,7 @@ Receives the value of the property.
 
 ### -param Flags [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a> enumeration. The returned value indicates whether the setting is controlled manually or automatically.
+Receives a member of the [CameraControlFlags](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-cameracontrolflags) enumeration. The returned value indicates whether the setting is controlled manually or automatically.
           
 
 

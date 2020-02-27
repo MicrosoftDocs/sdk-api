@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: e1e5dd93-444d-4176-9f7f-8aa220cddf78
 ms.date: 12/05/2018
 ms.keywords: DrvLineTo, DrvLineTo function [Display Devices], ddifncs_85694fcd-95b7-4b3e-8f00-bec09b3d9a32.xml, display.drvlineto, winddi/DrvLineTo
-ms.topic: function
 f1_keywords:
 - winddi/DrvLineTo
 dev_langs:

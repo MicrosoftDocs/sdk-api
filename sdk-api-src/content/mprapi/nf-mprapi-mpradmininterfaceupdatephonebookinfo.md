@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: fa337886-6fae-4e38-a59a-e26036c80d39
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceUpdatePhonebookInfo, MprAdminInterfaceUpdatePhonebookInfo function [RAS], _mpr_mpradmininterfaceupdatephonebookinfo, mprapi/MprAdminInterfaceUpdatePhonebookInfo, rras.mpradmininterfaceupdatephonebookinfo
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminInterfaceUpdatePhonebookInfo
 dev_langs:

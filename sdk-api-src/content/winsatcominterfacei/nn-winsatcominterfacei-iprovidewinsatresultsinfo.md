@@ -7,7 +7,6 @@ tech.root: WinSAT
 ms.assetid: bd15bc63-a918-43a7-9864-4206a0b6af84
 ms.date: 12/05/2018
 ms.keywords: IProvideWinSATResultsInfo, IProvideWinSATResultsInfo interface [WinSAT], IProvideWinSATResultsInfo interface [WinSAT],described, winsat.iprovidewinsatresultsinfo, winsatcominterfacei/IProvideWinSATResultsInfo
-ms.topic: interface
 f1_keywords:
 - winsatcominterfacei/IProvideWinSATResultsInfo
 dev_langs:

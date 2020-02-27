@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 795c6a69-7146-4d1a-abf9-ce1d740ca946
 ms.date: 12/05/2018
 ms.keywords: GetDCOrgEx, GetDCOrgEx function [Windows GDI], _win32_GetDCOrgEx, gdi.getdcorgex, wingdi/GetDCOrgEx
-ms.topic: function
 f1_keywords:
 - wingdi/GetDCOrgEx
 dev_langs:

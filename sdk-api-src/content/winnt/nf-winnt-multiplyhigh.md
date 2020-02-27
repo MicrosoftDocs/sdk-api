@@ -7,7 +7,6 @@ tech.root: WinProg
 ms.assetid: 9072FCB1-89AE-4441-A425-AC3071A47E76
 ms.date: 12/05/2018
 ms.keywords: MultiplyHigh, MultiplyHigh function [Windows API], winnt/MultiplyHigh, winprog.multiplyhigh
-ms.topic: function
 f1_keywords:
 - winnt/MultiplyHigh
 dev_langs:

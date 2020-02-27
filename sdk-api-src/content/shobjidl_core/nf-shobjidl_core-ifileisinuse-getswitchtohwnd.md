@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b4223cb0-2027-4073-9558-99ae27f4e52a
 ms.date: 12/05/2018
 ms.keywords: GetSwitchToHWND, GetSwitchToHWND method [Windows Shell], GetSwitchToHWND method [Windows Shell],IFileIsInUse interface, IFileIsInUse interface [Windows Shell],GetSwitchToHWND method, IFileIsInUse.GetSwitchToHWND, IFileIsInUse::GetSwitchToHWND, _shell_IFileIsInUse_GetSwitchToHWND, shell.IFileIsInUse_GetSwitchToHWND, shobjidl_core/IFileIsInUse::GetSwitchToHWND
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileIsInUse.GetSwitchToHWND
 dev_langs:

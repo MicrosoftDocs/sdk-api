@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: c3e3fd40-f6e6-4e43-927f-5dff4169a52c
 ms.date: 12/05/2018
 ms.keywords: '*PSTREAM_MEDIUM, PSTREAM_MEDIUM, PSTREAM_MEDIUM structure pointer [Media Foundation], STREAM_MEDIUM, STREAM_MEDIUM structure [Media Foundation], mf.stream_medium, mftransform/PSTREAM_MEDIUM, mftransform/STREAM_MEDIUM'
-ms.topic: struct
 f1_keywords:
 - mftransform/STREAM_MEDIUM
 dev_langs:

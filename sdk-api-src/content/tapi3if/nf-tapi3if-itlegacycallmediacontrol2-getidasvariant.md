@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 6c28889f-3768-4136-ac73-80c6c5ffeac3
 ms.date: 12/05/2018
 ms.keywords: GetIDAsVariant, GetIDAsVariant method [TAPI 2.2], GetIDAsVariant method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GetIDAsVariant method, ITLegacyCallMediaControl2.GetIDAsVariant, ITLegacyCallMediaControl2::GetIDAsVariant, _tapi3_itlegacycallmediacontrol2_getidasvariant, tapi3.itlegacycallmediacontrol2_getidasvariant, tapi3if/ITLegacyCallMediaControl2::GetIDAsVariant
-ms.topic: method
 f1_keywords:
 - tapi3if/ITLegacyCallMediaControl2.GetIDAsVariant
 dev_langs:

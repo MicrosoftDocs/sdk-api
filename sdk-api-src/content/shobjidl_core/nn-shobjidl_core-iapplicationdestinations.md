@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d425eb2c-75c7-431e-9607-11ea2e092178
 ms.date: 12/05/2018
 ms.keywords: IApplicationDestinations, IApplicationDestinations interface [Windows Shell], IApplicationDestinations interface [Windows Shell],described, _shell_IApplicationDestinations, shell.IApplicationDestinations, shobjidl_core/IApplicationDestinations
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IApplicationDestinations
 dev_langs:

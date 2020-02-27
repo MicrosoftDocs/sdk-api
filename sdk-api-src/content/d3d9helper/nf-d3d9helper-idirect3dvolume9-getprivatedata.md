@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolume9__getprivatedata.htm
 ms.date: 12/05/2018
 ms.keywords: 1b475aea-86d8-9a27-8391-6760763a593e, GetPrivateData, GetPrivateData method [Direct3D 9], GetPrivateData method [Direct3D 9],IDirect3DVolume9 interface, IDirect3DVolume9 interface [Direct3D 9],GetPrivateData method, IDirect3DVolume9.GetPrivateData, IDirect3DVolume9::GetPrivateData, d3d9helper/IDirect3DVolume9::GetPrivateData, direct3d9.idirect3dvolume9__getprivatedata
-ms.topic: method
 f1_keywords:
 - d3d9helper/IDirect3DVolume9.GetPrivateData
 dev_langs:
@@ -61,7 +60,7 @@ Copies the private data associated with the volume to a provided buffer.
 
 ### -param refguid [in]
 
-Type: <b><a href="http://go.microsoft.com/?linkid=9742306">REFGUID</a></b>
+Type: <b><a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50?redirectedfrom=MSDN">REFGUID</a></b>
 
 Reference to (C++) or address of (C) the globally unique identifier that identifies the private data to retrieve. 
 

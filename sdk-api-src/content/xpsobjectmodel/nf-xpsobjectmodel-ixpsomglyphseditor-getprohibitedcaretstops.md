@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 274d2137-c26f-438c-8c1b-591fbcb72c72
 ms.date: 12/05/2018
 ms.keywords: GetProhibitedCaretStops, GetProhibitedCaretStops method [XPS Documents and Packaging], GetProhibitedCaretStops method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetProhibitedCaretStops method, IXpsOMGlyphsEditor.GetProhibitedCaretStops, IXpsOMGlyphsEditor::GetProhibitedCaretStops, xps.ixpsomglyphseditor_getprohibitedcaretstops, xpsobjectmodel/IXpsOMGlyphsEditor::GetProhibitedCaretStops
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphsEditor.GetProhibitedCaretStops
 dev_langs:
@@ -141,7 +140,7 @@ A caret stop is the index of the UTF-16 code point in the <b>UnicodeString</b> p
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

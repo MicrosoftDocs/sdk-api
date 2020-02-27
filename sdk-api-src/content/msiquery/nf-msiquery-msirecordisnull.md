@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: e37a458c-8868-4f8c-96fd-a713d2a9c5ad
 ms.date: 12/05/2018
 ms.keywords: MsiRecordIsNull, MsiRecordIsNull function, _msi_msirecordisnull, msiquery/MsiRecordIsNull, setup.msirecordisnull
-ms.topic: function
 f1_keywords:
 - msiquery/MsiRecordIsNull
 dev_langs:

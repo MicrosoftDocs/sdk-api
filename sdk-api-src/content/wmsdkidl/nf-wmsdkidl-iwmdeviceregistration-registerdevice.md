@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: cdce6941-dac9-4de5-8230-904c26e82642
 ms.date: 12/05/2018
 ms.keywords: IWMDeviceRegistration interface [windows Media Format],RegisterDevice method, IWMDeviceRegistration.RegisterDevice, IWMDeviceRegistration::RegisterDevice, IWMDeviceRegistrationRegisterDevice, RegisterDevice, RegisterDevice method [windows Media Format], RegisterDevice method [windows Media Format],IWMDeviceRegistration interface, wmformat.iwmdeviceregistration_registerdevice, wmsdkidl/IWMDeviceRegistration::RegisterDevice
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDeviceRegistration.RegisterDevice
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>RegisterDevice</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>RegisterDevice</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 

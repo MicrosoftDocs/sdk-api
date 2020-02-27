@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: d8a45d1b-fb1e-4288-a42a-b967cc9b4533
 ms.date: 12/05/2018
 ms.keywords: GetPropertyConstraints, GetPropertyConstraints method, GetPropertyConstraints method,IFunctionDiscoveryProviderQuery interface, IFunctionDiscoveryProviderQuery interface,GetPropertyConstraints method, IFunctionDiscoveryProviderQuery.GetPropertyConstraints, IFunctionDiscoveryProviderQuery::GetPropertyConstraints, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::GetPropertyConstraints, ncd.ifunctiondiscoveryproviderquery_getpropertyconstraints
-ms.topic: method
 f1_keywords:
 - functiondiscoveryprovider/IFunctionDiscoveryProviderQuery.GetPropertyConstraints
 dev_langs:

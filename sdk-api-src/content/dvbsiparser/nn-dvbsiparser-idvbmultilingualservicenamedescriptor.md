@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 1b384ecf-aa56-476d-b347-b5438ab069fe
 ms.date: 12/05/2018
 ms.keywords: IDvbMultilingualServiceNameDescriptor, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies], IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbMultilingualServiceNameDescriptor, mstv.idvbmultilingualservicenamedescriptor
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IDvbMultilingualServiceNameDescriptor
 dev_langs:

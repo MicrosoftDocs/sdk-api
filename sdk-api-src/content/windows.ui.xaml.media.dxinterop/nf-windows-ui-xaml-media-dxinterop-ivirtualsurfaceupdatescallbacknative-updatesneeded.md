@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: D689C977-3182-41FE-A789-8A349AC2FB10
 ms.date: 12/05/2018
 ms.keywords: IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime],UpdatesNeeded method, IVirtualSurfaceUpdatesCallbackNative.UpdatesNeeded, IVirtualSurfaceUpdatesCallbackNative.xaml, IVirtualSurfaceUpdatesCallbackNative::UpdatesNeeded, IVirtualSurfaceUpdatesCallbackNative::xaml, UpdatesNeeded, UpdatesNeeded method [Windows Runtime], UpdatesNeeded method [Windows Runtime],IVirtualSurfaceUpdatesCallbackNative interface, windows/IVirtualSurfaceUpdatesCallbackNative::UpdatesNeeded, winrt.ivirtualsurfaceupdatescallbacknative_updatesneeded
-ms.topic: method
 f1_keywords:
 - windows.ui.xaml.media.dxinterop/IVirtualSurfaceUpdatesCallbackNative.UpdatesNeeded
 dev_langs:

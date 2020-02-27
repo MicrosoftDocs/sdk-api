@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 191b844e-5760-44d7-9b27-9fa87fead90f
 ms.date: 12/05/2018
 ms.keywords: WMDRM_IMPORT_INIT_STRUCT, WMDRM_IMPORT_INIT_STRUCT structure [windows Media Format], structure [windows Media Format], wmformat.wmdrm_import_init_struct, wmsdkidl/WMDRM_IMPORT_INIT_STRUCT
-ms.topic: struct
 f1_keywords:
 - wmsdkidl/WMDRM_IMPORT_INIT_STRUCT
 dev_langs:

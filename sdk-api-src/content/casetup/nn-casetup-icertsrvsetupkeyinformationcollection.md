@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: d029dd5f-9c19-46fd-aac3-275c624a157b
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetupKeyInformationCollection, ICertSrvSetupKeyInformationCollection interface [Security], ICertSrvSetupKeyInformationCollection interface [Security],described, casetup/ICertSrvSetupKeyInformationCollection, security.icertsrvsetupkeyinformationcollection
-ms.topic: interface
 f1_keywords:
 - casetup/ICertSrvSetupKeyInformationCollection
 dev_langs:

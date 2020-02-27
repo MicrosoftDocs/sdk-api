@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 756d8fba-d372-46f9-8035-f657d7ff133f
 ms.date: 12/05/2018
 ms.keywords: 756d8fba-d372-46f9-8035-f657d7ff133f, GetString, GetString method [Media Foundation], GetString method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetString method, IMFAttributes.GetString, IMFAttributes::GetString, mf.imfattributes_getstring, mfobjects/IMFAttributes::GetString
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFAttributes.GetString
 dev_langs:

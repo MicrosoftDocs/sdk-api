@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: efb65462-abe5-46db-9299-97871e0d011e
 ms.date: 12/05/2018
 ms.keywords: '*LPLINEDIALPARAMS, LINEDIALPARAMS, LINEDIALPARAMS structure [TAPI 2.2], LPLINEDIALPARAMS, LPLINEDIALPARAMS structure pointer [TAPI 2.2], _tapi2_linedialparams_str, tapi/LINEDIALPARAMS, tapi/LPLINEDIALPARAMS, tapi2.linedialparams_str'
-ms.topic: struct
 f1_keywords:
 - tapi/LINEDIALPARAMS
 dev_langs:

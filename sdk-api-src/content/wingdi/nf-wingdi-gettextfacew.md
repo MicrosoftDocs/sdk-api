@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: c4c8c8f5-3651-481b-a55f-da7f49d92f3a
 ms.date: 12/05/2018
 ms.keywords: GetTextFace, GetTextFace function [Windows GDI], GetTextFaceA, GetTextFaceW, _win32_GetTextFace, gdi.gettextface, wingdi/GetTextFace, wingdi/GetTextFaceA, wingdi/GetTextFaceW
-ms.topic: function
 f1_keywords:
 - wingdi/GetTextFace
 dev_langs:

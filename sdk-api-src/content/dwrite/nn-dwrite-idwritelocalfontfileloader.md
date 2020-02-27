@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: acb777c8-24c6-452e-8f58-8fb2ad8c0b6c
 ms.date: 12/05/2018
 ms.keywords: IDWriteLocalFontFileLoader, IDWriteLocalFontFileLoader interface [Direct Write], IDWriteLocalFontFileLoader interface [Direct Write],described, directwrite.idwritelocalfontfileloader, dwrite/IDWriteLocalFontFileLoader
-ms.topic: interface
 f1_keywords:
 - dwrite/IDWriteLocalFontFileLoader
 dev_langs:

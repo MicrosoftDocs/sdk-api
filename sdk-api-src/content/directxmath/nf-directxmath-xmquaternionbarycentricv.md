@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionBaryCentricV(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionBaryCentricV, XMQuaternionBaryCentricV, XMQuaternionBaryCentricV method [DirectX Math Support APIs], dxmath.xmquaternionbarycentricv
-ms.topic: function
 f1_keywords:
 - directxmath/XMQuaternionBaryCentricV
 dev_langs:

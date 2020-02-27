@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b6887c66-56ba-4ee6-a740-73213ac088d5
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenter interface [DirectShow],StopPresenting method, IVMRImagePresenter.StopPresenting, IVMRImagePresenter::StopPresenting, IVMRImagePresenterStopPresenting, StopPresenting, StopPresenting method [DirectShow], StopPresenting method [DirectShow],IVMRImagePresenter interface, dshow.ivmrimagepresenter_stoppresenting, strmif/IVMRImagePresenter::StopPresenting
-ms.topic: method
 f1_keywords:
 - strmif/IVMRImagePresenter.StopPresenting
 dev_langs:

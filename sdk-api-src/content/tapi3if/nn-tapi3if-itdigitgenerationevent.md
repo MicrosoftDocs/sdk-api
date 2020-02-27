@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 788eee9c-b885-4b94-b259-694353c0f63a
 ms.date: 12/05/2018
 ms.keywords: ITDigitGenerationEvent, ITDigitGenerationEvent interface [TAPI 2.2], ITDigitGenerationEvent interface [TAPI 2.2],described, _tapi3_itdigitgenerationevent, tapi3.itdigitgenerationevent, tapi3if/ITDigitGenerationEvent
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITDigitGenerationEvent
 dev_langs:

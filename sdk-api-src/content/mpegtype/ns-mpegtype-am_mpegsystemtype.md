@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 218bf0c3-e618-4dcc-8618-34cd1fb5c0a8
 ms.date: 12/05/2018
 ms.keywords: AM_MPEGSYSTEMTYPE, AM_MPEGSYSTEMTYPE structure [DirectShow], dshow.am_mpegsystemtype, mpegtype/AM_MPEGSYSTEMTYPE
-ms.topic: struct
 f1_keywords:
 - mpegtype/AM_MPEGSYSTEMTYPE
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AM_MPEGSYSTEMTYPE</b> structure defines the format block for an MPEG-1 system stream. This structure is used when the <b>formattype</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure is FORMAT_MPEG1System.
+The <b>AM_MPEGSYSTEMTYPE</b> structure defines the format block for an MPEG-1 system stream. This structure is used when the <b>formattype</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure is FORMAT_MPEG1System.
         
 
 

@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 0da31819-3ee7-4474-9e68-f5a18d4a135a
 ms.date: 12/05/2018
 ms.keywords: if_indextoname, if_indextoname function [IP Helper], iphlp.if_indextoname, netioapi/if_indextoname
-ms.topic: function
 f1_keywords:
 - netioapi/if_indextoname
 dev_langs:
@@ -87,7 +86,7 @@ On success,
 The <b>if_indextoname</b> function is available on Windows Vistaand later.
 
 The <b>if_indextoname</b> function maps an interface index into its corresponding
-   name. This function is designed as part of basic socket extensions for IPv6 as described by the IETF in RFC 2553. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=86448">http://www.ietf.org/rfc/rfc2553.txt</a>. 
+   name. This function is designed as part of basic socket extensions for IPv6 as described by the IETF in RFC 2553. For more information, see <a href="http://tools.ietf.org/html/rfc2553">http://www.ietf.org/rfc/rfc2553.txt</a>. 
 
 The <b>if_indextoname</b> function is implemented for portability of applications with Unix environments, but the ConvertInterface functions are preferred. The <b>if_indextoname</b> function can be replaced by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceindextoluid">ConvertInterfaceIndexToLuid</a> function to convert an interface index to a  <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> followed by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceluidtonamea">ConvertInterfaceLuidToNameA</a> to convert the NET_LUID to the ANSI interface name.
 

@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 9e0b4311-deba-45d6-b1c2-a1b661f25d0f
 ms.date: 12/05/2018
 ms.keywords: RtmIgnoreChangedDests, RtmIgnoreChangedDests function [RAS], _rtmv2ref_rtmignorechangeddests, rras.rtmignorechangeddests, rtmv2/RtmIgnoreChangedDests
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmIgnoreChangedDests
 dev_langs:

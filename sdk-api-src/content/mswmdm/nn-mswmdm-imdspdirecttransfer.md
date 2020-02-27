@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: b053158c-9a1e-4da4-a428-7edceeaaee1e
 ms.date: 12/05/2018
 ms.keywords: IMDSPDirectTransfer, IMDSPDirectTransfer interface [windows Media Device Manager], IMDSPDirectTransfer interface [windows Media Device Manager],described, IMDSPDirectTransferInterface, mswmdm/IMDSPDirectTransfer, wmdm.imdspdirecttransfer
-ms.topic: interface
 f1_keywords:
 - mswmdm/IMDSPDirectTransfer
 dev_langs:

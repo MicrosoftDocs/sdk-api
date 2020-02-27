@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 938ae036-fcc7-41d1-bbac-8f22b8b6333e
 ms.date: 12/05/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],NamespaceRoots property, IFsrmRule.NamespaceRoots, IFsrmRule.get_NamespaceRoots, IFsrmRule::NamespaceRoots, IFsrmRule::get_NamespaceRoots, IFsrmRule::put_NamespaceRoots, NamespaceRoots property [File Server Resource Manager], NamespaceRoots property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_namespaceroots, fsrm.ifsrmrule_namespaceroots, fsrmpipeline/IFsrmRule::NamespaceRoots, fsrmpipeline/IFsrmRule::get_NamespaceRoots, fsrmpipeline/IFsrmRule::put_NamespaceRoots, get_NamespaceRoots
-ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmRule.NamespaceRoots
 dev_langs:

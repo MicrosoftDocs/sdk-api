@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 5cc76cba-66e4-4853-969b-a99ec7bb22f3
 ms.date: 12/05/2018
 ms.keywords: XPS_GLYPH_MAPPING, XPS_GLYPH_MAPPING structure [XPS Documents and Packaging], xps.xps_glyph_mapping, xpsobjectmodel/XPS_GLYPH_MAPPING
-ms.topic: struct
 f1_keywords:
 - xpsobjectmodel/XPS_GLYPH_MAPPING
 dev_langs:
@@ -83,7 +82,7 @@ Length of index mapping.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: D7CC93F8-D871-4DFC-84A3-CA60EB52FF0A
 ms.date: 12/05/2018
 ms.keywords: D2D1_LAYER_PARAMETERS1, D2D1_LAYER_PARAMETERS1 structure [Direct2D], d2d1_1/D2D1_LAYER_PARAMETERS1, direct2d.d2d1_layer_parameters1
-ms.topic: struct
 f1_keywords:
 - d2d1_1/D2D1_LAYER_PARAMETERS1
 dev_langs:

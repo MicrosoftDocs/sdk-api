@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 69EDF918-355A-4277-9F7E-C08CF65E5418
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC, D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC, mf.d3d11_video_processor_input_view_desc
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC
 dev_langs:

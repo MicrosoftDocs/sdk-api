@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 6b93a3ec-c8ea-2e64-45b5-51565d6de173
 ms.date: 12/05/2018
 ms.keywords: GetLineSpacing, GetLineSpacing method [Direct Write], GetLineSpacing method [Direct Write],IDWriteTextLayout3 interface, IDWriteTextLayout3 interface [Direct Write],GetLineSpacing method, IDWriteTextLayout3.GetLineSpacing, IDWriteTextLayout3::GetLineSpacing, directwrite.idwritetextlayout3_getlinespacing, dwrite_3/IDWriteTextLayout3::GetLineSpacing
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteTextLayout3.GetLineSpacing
 dev_langs:

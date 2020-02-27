@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 22f4255c-331a-4327-84d8-e905c7e419b6
 ms.date: 12/05/2018
 ms.keywords: '*PPOLICY_AUDIT_SID_ARRAY, POLICY_AUDIT_SID_ARRAY, POLICY_AUDIT_SID_ARRAY structure [Security], PPOLICY_AUDIT_SID_ARRAY, PPOLICY_AUDIT_SID_ARRAY structure pointer [Security], ntsecapi/POLICY_AUDIT_SID_ARRAY, ntsecapi/PPOLICY_AUDIT_SID_ARRAY, security.policy_audit_sid_array'
-ms.topic: struct
 f1_keywords:
 - ntsecapi/POLICY_AUDIT_SID_ARRAY
 dev_langs:

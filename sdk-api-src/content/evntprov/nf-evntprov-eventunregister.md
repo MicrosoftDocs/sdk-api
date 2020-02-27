@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: fdcccf6f-2f31-4356-a4ee-3b6229c01b75
 ms.date: 12/05/2018
 ms.keywords: EventUnregister, EventUnregister function [ETW], base.eventunregister_func, etw.eventunregister_func, evntprov/EventUnregister
-ms.topic: function
 f1_keywords:
 - evntprov/EventUnregister
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: bb589a7a-374f-52fc-2fa4-4cc72c6ce6dc
 ms.date: 12/05/2018
 ms.keywords: DWRITE_LINE_SPACING, DWRITE_LINE_SPACING structure [Direct Write], directwrite.dwrite_line_spacing, dwrite_3/DWRITE_LINE_SPACING
-ms.topic: struct
 f1_keywords:
 - dwrite_3/DWRITE_LINE_SPACING
 dev_langs:

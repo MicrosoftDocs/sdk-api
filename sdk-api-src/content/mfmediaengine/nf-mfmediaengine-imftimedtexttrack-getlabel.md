@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: BB3B1089-6489-4C70-BAFD-22D72DE3CB38
 ms.date: 12/05/2018
 ms.keywords: GetLabel, GetLabel method [Media Foundation], GetLabel method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetLabel method, IMFTimedTextTrack.GetLabel, IMFTimedTextTrack::GetLabel, mf.imftimedtexttrack_getlabel, mfmediaengine/IMFTimedTextTrack::GetLabel
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextTrack.GetLabel
 dev_langs:

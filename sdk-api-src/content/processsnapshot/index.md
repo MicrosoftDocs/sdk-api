@@ -1,9 +1,10 @@
 ---
 UID: NA:processsnapshot
+title: Processsnapshot.h header
 ms.assetid: 31905fd4-0130-3348-9e7b-254234a6d749
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: proc_snap
 ---
 

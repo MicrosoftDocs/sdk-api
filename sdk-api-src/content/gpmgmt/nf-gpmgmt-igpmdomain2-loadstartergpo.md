@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 3375ecaf-6128-4bc0-9cfc-e9b00bf4b70a
 ms.date: 12/05/2018
 ms.keywords: IGPMDomain2 interface [GPMC],LoadStarterGPO method, IGPMDomain2.LoadStarterGPO, IGPMDomain2::LoadStarterGPO, LoadStarterGPO, LoadStarterGPO method [GPMC], LoadStarterGPO method [GPMC],IGPMDomain2 interface, gpmc.igpmdomain2_loadstartergpo, gpmgmt/IGPMDomain2::LoadStarterGPO
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPMDomain2.LoadStarterGPO
 dev_langs:

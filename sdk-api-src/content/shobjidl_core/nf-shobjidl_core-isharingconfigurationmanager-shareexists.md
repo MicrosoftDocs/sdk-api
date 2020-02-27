@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d15d40a1-fdde-430a-bb8c-537ce58536dd
 ms.date: 12/05/2018
 ms.keywords: ISharingConfigurationManager interface [Windows Shell],ShareExists method, ISharingConfigurationManager.ShareExists, ISharingConfigurationManager::ShareExists, ShareExists, ShareExists method [Windows Shell], ShareExists method [Windows Shell],ISharingConfigurationManager interface, _shell_ISharingConfigurationManager_ShareExists, shell.ISharingConfigurationManager_ShareExists, shobjidl_core/ISharingConfigurationManager::ShareExists
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ISharingConfigurationManager.ShareExists
 dev_langs:

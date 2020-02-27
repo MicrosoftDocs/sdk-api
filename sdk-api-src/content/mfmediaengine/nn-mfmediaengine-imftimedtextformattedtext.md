@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 98327CA2-21C4-481F-B979-12C31AA1E7B2
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextFormattedText, IMFTimedTextFormattedText interface [Media Foundation], IMFTimedTextFormattedText interface [Media Foundation],described, mf.imftimedtextformattedtext, mfmediaengine/IMFTimedTextFormattedText
-ms.topic: interface
 f1_keywords:
 - mfmediaengine/IMFTimedTextFormattedText
 dev_langs:

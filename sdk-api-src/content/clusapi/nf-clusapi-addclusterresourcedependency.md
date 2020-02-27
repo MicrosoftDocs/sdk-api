@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 37f173f3-514e-434b-8531-d308c6233a24
 ms.date: 12/05/2018
 ms.keywords: AddClusterResourceDependency, AddClusterResourceDependency function [Failover Cluster], PCLUSAPI_ADD_CLUSTER_RESOURCE_DEPENDENCY, PCLUSAPI_ADD_CLUSTER_RESOURCE_DEPENDENCY function [Failover Cluster], _wolf_addclusterresourcedependency, clusapi/AddClusterResourceDependency, clusapi/PCLUSAPI_ADD_CLUSTER_RESOURCE_DEPENDENCY, mscs.addclusterresourcedependency
-ms.topic: function
 f1_keywords:
 - clusapi/AddClusterResourceDependency
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 1DAD2A9A-EDA2-49D2-90F7-2A9022988177
 ms.date: 12/05/2018
 ms.keywords: OleGetClipboardWithEnterpriseInfo, OleGetClipboardWithEnterpriseInfo function [COM], com.olegetclipboardwithenterpriseinfo, ole2/OleGetClipboardWithEnterpriseInfo
-ms.topic: function
 f1_keywords:
 - ole2/OleGetClipboardWithEnterpriseInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 96d42e1a-03d5-4007-95d8-0e4b8d2018d5
 ms.date: 12/05/2018
 ms.keywords: MCIWndSeek, MCIWndSeek macro [Windows Multimedia], _win32_MCIWndSeek, multimedia.mciwndseek, vfw/MCIWndSeek
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndSeek
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magsetwindowtransform.htm
 ms.date: 12/05/2018
 ms.keywords: MagSetWindowTransform, MagSetWindowTransform function [Magnification API], magapi.magapi_MagSetWindowTransform, magapi_MagSetWindowTransform, magnification/MagSetWindowTransform
-ms.topic: function
 f1_keywords:
 - magnification/MagSetWindowTransform
 dev_langs:

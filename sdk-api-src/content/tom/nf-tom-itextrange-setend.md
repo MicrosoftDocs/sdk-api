@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setend.htm
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],SetEnd method, ITextRange.SetEnd, ITextRange::SetEnd, SetEnd, SetEnd method [Windows Controls], SetEnd method [Windows Controls],ITextRange interface, _win32_ITextRange_SetEnd, _win32_ITextRange_SetEnd_cpp, controls.ITextRange_SetEnd, controls._win32_ITextRange_SetEnd, tom/ITextRange::SetEnd
-ms.topic: method
 f1_keywords:
 - tom/ITextRange.SetEnd
 dev_langs:

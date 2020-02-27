@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: d351f2ca-d9de-4055-8356-9a100a77f397
 ms.date: 12/05/2018
 ms.keywords: GetRuntimeId, GetRuntimeId method [Windows Accessibility], GetRuntimeId method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetRuntimeId method, IUIAutomationElement.GetRuntimeId, IUIAutomationElement::GetRuntimeId, uiauto.uiauto_IUIAutomationElement_GetRuntimeId, uiauto_IUIAutomationElement_GetRuntimeId, uiautomationclient/IUIAutomationElement::GetRuntimeId, winauto.uiauto_IUIAutomationElement_GetRuntimeId
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationElement.GetRuntimeId
 dev_langs:
@@ -60,7 +59,7 @@ Retrieves the unique identifier assigned to the UI element.
 
 ### -param runtimeId [out, retval]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives a pointer to the runtime ID as an array of integers.
 

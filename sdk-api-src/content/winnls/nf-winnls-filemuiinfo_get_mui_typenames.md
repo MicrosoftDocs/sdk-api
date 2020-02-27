@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: e2fae2ab-dfde-4efd-af83-9818322619ad
 ms.date: 12/05/2018
 ms.keywords: FILEMUIINFO_GET_MUI_TYPENAMES, FILEMUIINFO_GET_MUI_TYPENAMES macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_MUI_TYPENAMES, intl.filemuiinfo_get_mui_typenames, winnls/FILEMUIINFO_GET_MUI_TYPENAMES
-ms.topic: macro
 f1_keywords:
 - winnls/FILEMUIINFO_GET_MUI_TYPENAMES
 dev_langs:

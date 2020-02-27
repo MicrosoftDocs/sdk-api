@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d0a693e5-fd98-47c0-aaf7-f8461169a01c
 ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion method [XPS Documents and Packaging], GetVersion method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetVersion method, IXpsOMCoreProperties.GetVersion, IXpsOMCoreProperties::GetVersion, xps.ixpsomcoreproperties_getversion, xpsobjectmodel/IXpsOMCoreProperties::GetVersion
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.GetVersion
 dev_langs:
@@ -122,11 +121,11 @@ This method allocates the memory used by the string that is returned in <i>versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

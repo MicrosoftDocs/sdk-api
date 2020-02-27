@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: a57ab2c2-1871-413a-bccd-47f5c1dd4570
 ms.date: 12/05/2018
 ms.keywords: GetGravity, GetGravity method [Windows Controls], GetGravity method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetGravity method, ITextRange2.GetGravity, ITextRange2::GetGravity, controls.itextrange2_getgravity, tom/ITextRange2::GetGravity, tomGravityBack, tomGravityFore, tomGravityIn, tomGravityOut, tomGravityUI
-ms.topic: method
 f1_keywords:
 - tom/ITextRange2.GetGravity
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: 409d1ab6-c611-4118-aa10-095d585c099a
 ms.date: 12/05/2018
 ms.keywords: DisableNtmsObject, DisableNtmsObject function [Files], NTMS_DRIVE, NTMS_LIBRARY, NTMS_PHYSICAL_MEDIA, _zaw_disablentmsobject, base.disablentmsobject, fs.disablentmsobject, ntmsapi/DisableNtmsObject
-ms.topic: function
 f1_keywords:
 - ntmsapi/DisableNtmsObject
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 35D3EADC-F8EF-4D8F-8016-2E30976965EC
 ms.date: 12/05/2018
 ms.keywords: GetUncompressedSize, GetUncompressedSize method [App packaging and management], GetUncompressedSize method [App packaging and management],IAppxBlockMapFile interface, IAppxBlockMapFile interface [App packaging and management],GetUncompressedSize method, IAppxBlockMapFile.GetUncompressedSize, IAppxBlockMapFile::GetUncompressedSize, appxpackaging/IAppxBlockMapFile::GetUncompressedSize, appxpkg.iappxblockmapfile_getuncompressedsize
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxBlockMapFile.GetUncompressedSize
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 936e535b-9084-4e3d-908e-0e965f658827
 ms.date: 12/05/2018
 ms.keywords: WinUsb_ReadPipe, WinUsb_ReadPipe function [Buses], buses.winusb_readpipe, winusb/WinUsb_ReadPipe, winusbfunc_a18a80b3-9f2b-45a5-bd34-dac4bddb1053.xml
-ms.topic: function
 f1_keywords:
 - winusb/WinUsb_ReadPipe
 dev_langs:
@@ -67,7 +66,7 @@ To read data from the pipe associated with an endpoint in the first interface, u
 
 ### -param PipeID [in]
 
-<i>PipeID</i> corresponds to the <b>bEndpointAddress</b> field in the endpoint descriptor. For information about the layout of this field, see <b>Table 9-13</b> in "Universal Serial Bus Specification Revision 2.0" at <a href="http://go.microsoft.com/fwlink/p/?linkid=8769">USB Technology</a>. In the <b>bEndpointAddress</b> field, Bit 7 indicates the direction of the endpoint: 0 for OUT; 1 for IN.
+<i>PipeID</i> corresponds to the <b>bEndpointAddress</b> field in the endpoint descriptor. For information about the layout of this field, see <b>Table 9-13</b> in "Universal Serial Bus Specification Revision 2.0" at <a href="https://www.microsoft.com/whdc/connect/usb/default.mspx">USB Technology</a>. In the <b>bEndpointAddress</b> field, Bit 7 indicates the direction of the endpoint: 0 for OUT; 1 for IN.
 
 
 ### -param Buffer [out]

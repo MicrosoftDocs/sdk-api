@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 0168ca28-4d3e-4757-8729-b9f8206ffc85
 ms.date: 12/05/2018
 ms.keywords: MI_Uint16A, MI_Uint16A structure [Windows Management Infrastructure (MI)], mi/MI_Uint16A, wmi._mi_uint16a, wmi_v2.mi_uint16a
-ms.topic: struct
 f1_keywords:
 - mi/MI_Uint16A
 dev_langs:

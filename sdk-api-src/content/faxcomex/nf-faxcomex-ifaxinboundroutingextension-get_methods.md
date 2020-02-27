@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0xv7.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxInboundRoutingExtension interface [Fax Service],Methods property, IFaxInboundRoutingExtension.Methods, IFaxInboundRoutingExtension.get_Methods, IFaxInboundRoutingExtension::Methods, IFaxInboundRoutingExtension::get_Methods, Methods property [Fax Service], Methods property [Fax Service],IFaxInboundRoutingExtension interface, _mfax_faxinboundroutingextension.methods, fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_methods_cpp, fax._mfax_faxinboundroutingextension_methods, faxcomex/IFaxInboundRoutingExtension::Methods, faxcomex/IFaxInboundRoutingExtension::get_Methods, get_Methods
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxInboundRoutingExtension.Methods
 dev_langs:

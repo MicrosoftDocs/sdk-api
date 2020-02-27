@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 5f8925c0-ec62-425e-a020-9c534056e63f
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelStart property, IInkEdit.SelStart, IInkEdit.get_SelStart, IInkEdit::SelStart, IInkEdit::get_SelStart, IInkEdit::put_SelStart, InkEdit.get_SelStart, InkEdit.put_SelStart, SelStart property [Tablet PC], SelStart property [Tablet PC],IInkEdit interface, get_SelStart, inked/IInkEdit::SelStart, inked/IInkEdit::get_SelStart, inked/IInkEdit::put_SelStart, put_SelStart, tablet.inkedit_selstart
-ms.topic: method
 f1_keywords:
 - inked/IInkEdit.SelStart
 dev_langs:

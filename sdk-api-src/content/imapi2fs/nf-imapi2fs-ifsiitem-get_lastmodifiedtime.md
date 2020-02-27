@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: ec7a3b44-817c-4420-81d5-61905aa4f2cf
 ms.date: 12/05/2018
 ms.keywords: IFsiItem interface [IMAPI],get_LastModifiedTime method, IFsiItem.get_LastModifiedTime, IFsiItem::get_LastModifiedTime, get_LastModifiedTime, get_LastModifiedTime method [IMAPI], get_LastModifiedTime method [IMAPI],IFsiItem interface, imapi.ifsiitem_get_lastmodifiedtime, imapi2fs/IFsiItem::get_LastModifiedTime
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFsiItem.get_LastModifiedTime
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: d2d93dba-1867-4c3a-9cd1-60842bf8311d
 ms.date: 12/05/2018
 ms.keywords: IAudioMidrange, IAudioMidrange interface [Core Audio], IAudioMidrange interface [Core Audio],described, coreaudio.iaudiomidrange, devicetopology/IAudioMidrange
-ms.topic: interface
 f1_keywords:
 - devicetopology/IAudioMidrange
 dev_langs:

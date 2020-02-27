@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 52b57e3c-3cfe-40bc-b87b-90cf39c5c38d
 ms.date: 12/05/2018
 ms.keywords: InternetCloseHandle, InternetCloseHandle function [WinINet], _win32_internetclosehandle, wininet.internetclosehandle, wininet/InternetCloseHandle
-ms.topic: function
 f1_keywords:
 - wininet/InternetCloseHandle
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 66a98ad3-850a-4b41-a169-f971fde83266
 ms.date: 12/05/2018
 ms.keywords: IAMExtDevice interface [DirectShow],get_ExternalDeviceVersion method, IAMExtDevice.get_ExternalDeviceVersion, IAMExtDevice::get_ExternalDeviceVersion, IAMExtDeviceget_ExternalDeviceVersion, dshow.iamextdevice_get_externaldeviceversion, get_ExternalDeviceVersion, get_ExternalDeviceVersion method [DirectShow], get_ExternalDeviceVersion method [DirectShow],IAMExtDevice interface, strmif/IAMExtDevice::get_ExternalDeviceVersion
-ms.topic: method
 f1_keywords:
 - strmif/IAMExtDevice.get_ExternalDeviceVersion
 dev_langs:

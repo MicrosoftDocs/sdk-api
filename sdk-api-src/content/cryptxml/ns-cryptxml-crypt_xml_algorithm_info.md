@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: ab6ec092-d25d-4ca0-8206-b7e5ad36d69b
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_XML_ALGORITHM_INFO, CRYPT_XML_ALGORITHM_INFO, CRYPT_XML_ALGORITHM_INFO structure [Security], CRYPT_XML_GROUP_ID_HASH, CRYPT_XML_GROUP_ID_SIGN, PCRYPT_XML_ALGORITHM_INFO, PCRYPT_XML_ALGORITHM_INFO structure pointer [Security], cryptxml/CRYPT_XML_ALGORITHM_INFO, cryptxml/PCRYPT_XML_ALGORITHM_INFO, security.crypt_xml_algorithm_info'
-ms.topic: struct
 f1_keywords:
 - cryptxml/CRYPT_XML_ALGORITHM_INFO
 dev_langs:

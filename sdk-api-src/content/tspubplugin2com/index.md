@@ -1,9 +1,10 @@
 ---
 UID: NA:tspubplugin2com
+title: Tspubplugin2Com.h header
 ms.assetid: 188e3156-885e-3f73-873d-d6473a0c7833
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: termserv
 ---
 

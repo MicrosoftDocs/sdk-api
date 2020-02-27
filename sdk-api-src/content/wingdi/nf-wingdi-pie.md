@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 86daa936-b483-4432-aa32-0b9328ff76f9
 ms.date: 12/05/2018
 ms.keywords: Pie, Pie function [Windows GDI], _win32_Pie, gdi.pie, wingdi/Pie
-ms.topic: function
 f1_keywords:
 - wingdi/Pie
 dev_langs:

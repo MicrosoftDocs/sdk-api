@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 855e9991-606c-4fcc-ba1d-ebdb928d4c3e
 ms.date: 12/05/2018
 ms.keywords: GetDrive, GetDrive method [VDS], GetDrive method [VDS],IVdsSubSystem interface, IVdsSubSystem interface [VDS],GetDrive method, IVdsSubSystem.GetDrive, IVdsSubSystem::GetDrive, base.ivdssubsystem_getdrive, vds/IVdsSubSystem::GetDrive, vdshwprv/IVdsSubSystem::GetDrive
-ms.topic: method
 f1_keywords:
 - vds/IVdsSubSystem.GetDrive
 dev_langs:

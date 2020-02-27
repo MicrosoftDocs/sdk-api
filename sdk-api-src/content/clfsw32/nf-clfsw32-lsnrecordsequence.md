@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: 90aa2df8-328d-404c-a145-ad500a6e611a
 ms.date: 12/05/2018
 ms.keywords: LsnRecordSequence, LsnRecordSequence function [Files], clfsw32/LsnRecordSequence, fs.lsnrecordsequence
-ms.topic: function
 f1_keywords:
 - clfsw32/LsnRecordSequence
 dev_langs:

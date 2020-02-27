@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 33b4f435-f394-41fc-846f-8e9206c76aa1
 ms.date: 12/05/2018
 ms.keywords: OnlineClusterGroup, OnlineClusterGroup function [Failover Cluster], PCLUSAPI_ONLINE_CLUSTER_GROUP, PCLUSAPI_ONLINE_CLUSTER_GROUP function [Failover Cluster], _wolf_onlineclustergroup, clusapi/OnlineClusterGroup, clusapi/PCLUSAPI_ONLINE_CLUSTER_GROUP, mscs.onlineclustergroup
-ms.topic: function
 f1_keywords:
 - clusapi/OnlineClusterGroup
 dev_langs:

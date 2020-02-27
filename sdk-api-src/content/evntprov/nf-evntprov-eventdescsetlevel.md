@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: a4fe3b0e-6ca5-401c-a669-752e2955cc52
 ms.date: 12/05/2018
 ms.keywords: EventDescSetLevel, EventDescSetLevel function [ETW], base.eventdescsetlevel_func, etw.eventdescsetlevel_func, evntprov/EventDescSetLevel
-ms.topic: function
 f1_keywords:
 - evntprov/EventDescSetLevel
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6c0d647c-a0c3-428e-8368-9204049dfea8
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayPeriodInTitleAutoStop method, IDvdControl2.PlayPeriodInTitleAutoStop, IDvdControl2::PlayPeriodInTitleAutoStop, IDvdControl2PlayPeriodInTitleAutoStop, PlayPeriodInTitleAutoStop, PlayPeriodInTitleAutoStop method [DirectShow], PlayPeriodInTitleAutoStop method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playperiodintitleautostop, strmif/IDvdControl2::PlayPeriodInTitleAutoStop
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.PlayPeriodInTitleAutoStop
 dev_langs:
@@ -69,17 +68,17 @@ Value that specifies the title; this value must be from 1 through 99.
 
 ### -param pStartTime [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> structure that specifies the time at which to start playing.
+Pointer to a [DVD_HMSF_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode) structure that specifies the time at which to start playing.
 
 
 ### -param pEndTime [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> structure that specifies the time at which to stop playing.
+Pointer to a [DVD_HMSF_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode) structure that specifies the time at which to stop playing.
 
 
 ### -param dwFlags [in]
 
-Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
+Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
 
 
 ### -param ppCmd [out]

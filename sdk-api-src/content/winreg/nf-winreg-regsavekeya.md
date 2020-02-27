@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: da80f40d-0099-4748-94ca-5d3b001e633e
 ms.date: 12/05/2018
 ms.keywords: RegSaveKey, RegSaveKey function, RegSaveKeyA, RegSaveKeyW, _win32_regsavekey, base.regsavekey, winreg/RegSaveKey, winreg/RegSaveKeyA, winreg/RegSaveKeyW
-ms.topic: function
 f1_keywords:
 - winreg/RegSaveKey
 dev_langs:
@@ -59,7 +58,7 @@ Saves the specified key and all of its subkeys and values to a new file, in the 
 
 To specify the format for the saved key or hive, use the   <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsavekeyexa">RegSaveKeyEx</a> function.
 
- Applications that back up or restore system state including system files and registry hives should use the <a href="http://go.microsoft.com/fwlink/p/?linkid=177790">Volume Shadow Copy Service</a> instead of the registry functions.
+ Applications that back up or restore system state including system files and registry hives should use the <a href="https://msdn.microsoft.com/library/aa384649(VS.85).aspx">Volume Shadow Copy Service</a> instead of the registry functions.
 
 
 ## -parameters

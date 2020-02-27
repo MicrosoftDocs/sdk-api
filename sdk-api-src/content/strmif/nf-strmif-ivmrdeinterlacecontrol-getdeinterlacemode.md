@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 558b4902-596a-45f9-ad95-f8e868ba4a30
 ms.date: 12/05/2018
 ms.keywords: GetDeinterlaceMode, GetDeinterlaceMode method [DirectShow], GetDeinterlaceMode method [DirectShow],IVMRDeinterlaceControl interface, IVMRDeinterlaceControl interface [DirectShow],GetDeinterlaceMode method, IVMRDeinterlaceControl.GetDeinterlaceMode, IVMRDeinterlaceControl::GetDeinterlaceMode, IVMRDeinterlaceControlGetDeinterlaceMode, dshow.ivmrdeinterlacecontrol_getdeinterlacemode, strmif/IVMRDeinterlaceControl::GetDeinterlaceMode
-ms.topic: method
 f1_keywords:
 - strmif/IVMRDeinterlaceControl.GetDeinterlaceMode
 dev_langs:

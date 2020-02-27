@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 94B3516F-2DDA-4C93-B48E-67D7FE357F4E
 ms.date: 12/05/2018
 ms.keywords: WBEM_COMPILE_STATUS_INFO, WBEM_COMPILE_STATUS_INFO structure [Windows Management Instrumentation], wbemcli/tag_CompileStatusInfo, wmi.wbem_compile_status_info
-ms.topic: struct
 f1_keywords:
 - wbemcli/WBEM_COMPILE_STATUS_INFO
 dev_langs:

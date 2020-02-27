@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ddfc65ea-e336-40b8-a901-53ebc3ee7d86
 ms.date: 12/05/2018
 ms.keywords: GetCurrentOperationMode, GetCurrentOperationMode method [DirectShow], GetCurrentOperationMode method [DirectShow],IDMOVideoOutputOptimizations interface, IDMOVideoOutputOptimizations interface [DirectShow],GetCurrentOperationMode method, IDMOVideoOutputOptimizations.GetCurrentOperationMode, IDMOVideoOutputOptimizations::GetCurrentOperationMode, IDMOVideoOutputOptimizationsGetCurrentOperationMode, dshow.idmovideooutputoptimizations_getcurrentoperationmode, mediaobj/IDMOVideoOutputOptimizations::GetCurrentOperationMode
-ms.topic: method
 f1_keywords:
 - mediaobj/IDMOVideoOutputOptimizations.GetCurrentOperationMode
 dev_langs:

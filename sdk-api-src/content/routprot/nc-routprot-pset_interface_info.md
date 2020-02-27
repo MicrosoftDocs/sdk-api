@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: abcfa220-a860-48cc-92c5-60ce655678b7
 ms.date: 12/05/2018
 ms.keywords: PSET_INTERFACE_INFO, PSET_INTERFACE_INFO callback, SetInterfaceInfo, SetInterfaceInfo callback function [RAS], _mpr_setinterfaceinfo, routprot/SetInterfaceInfo, rras.setinterfaceinfo
-ms.topic: callback
 f1_keywords:
 - routprot/SetInterfaceInfo
 dev_langs:

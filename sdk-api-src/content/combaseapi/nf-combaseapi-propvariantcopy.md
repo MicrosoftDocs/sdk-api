@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: ee97d3b2-4dec-43c3-b38d-29edc775b82a
 ms.date: 12/05/2018
 ms.keywords: PropVariantCopy, PropVariantCopy function [Structured Storage], _stg_propvariantcopy, combaseapi/PropVariantCopy, stg.propvariantcopy
-ms.topic: function
 f1_keywords:
 - combaseapi/PropVariantCopy
 dev_langs:
@@ -79,7 +78,7 @@ This function returns HRESULT.
 Copies a 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure by value so the original <i>pvarSrc</i> and new <i>pvarDest</i> parameters may be freed independently with calls to 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-propvariantclear">PropVariantClear</a>. 
-<b>PropVariantCopy</b> does not free the destination as the <a href="http://go.microsoft.com/fwlink/p/?linkid=124592">VariantCopy</a> function does. For nonsimple 
+<b>PropVariantCopy</b> does not free the destination as the <a href="https://msdn.microsoft.com/library/ms221697.aspx">VariantCopy</a> function does. For nonsimple 
 <b>PROPVARIANT</b> types such as VT_STREAM, VT_STORAGE, and so forth, which require a subobject, the copy is made by reference. The pointer is copied, and [IUnknown::AddRef](/en-us/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) is called on it. It is illegal to pass <b>NULL</b> for either <i>pvarDest</i> or <i>pvarSrc</i>.
 
 ## -see-also

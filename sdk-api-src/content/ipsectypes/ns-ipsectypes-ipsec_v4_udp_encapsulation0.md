@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 69cddec0-7311-4833-8b24-293ad714054e
 ms.date: 12/05/2018
 ms.keywords: IPSEC_V4_UDP_ENCAPSULATION0, IPSEC_V4_UDP_ENCAPSULATION0 structure [Filtering], IPSEC_V4_UDP_ENCAPSULATION0_, fwp.ipsec_v4_udp_encapsulation0_struct, ipsectypes/IPSEC_V4_UDP_ENCAPSULATION0
-ms.topic: struct
 f1_keywords:
 - ipsectypes/IPSEC_V4_UDP_ENCAPSULATION0
 dev_langs:

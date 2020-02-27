@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_subitemhittestex.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_SubItemHitTestEx, ListView_SubItemHitTestEx macro [Windows Controls], _shell_ListView_SubItemHitTestEx, _shell_ListView_SubItemHitTestEx_cpp, commctrl/ListView_SubItemHitTestEx, controls.ListView_SubItemHitTestEx, controls._shell_ListView_SubItemHitTestEx
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_SubItemHitTestEx
 dev_langs:

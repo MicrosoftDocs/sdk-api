@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 1b308323-12d4-427c-a3d8-fcf5488e1dde
 ms.date: 12/05/2018
 ms.keywords: GetGradientStops, GetGradientStops method [XPS Documents and Packaging], GetGradientStops method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetGradientStops method, IXpsOMGradientBrush.GetGradientStops, IXpsOMGradientBrush::GetGradientStops, xps.ixpsomgradientbrush_getgradientstops, xpsobjectmodel/IXpsOMGradientBrush::GetGradientStops
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGradientBrush.GetGradientStops
 dev_langs:
@@ -128,7 +127,7 @@ The illustration that follows shows the gradient stops of a radial gradient. In 
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

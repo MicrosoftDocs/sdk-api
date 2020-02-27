@@ -1,9 +1,10 @@
 ---
 UID: NA:dmodshow
+title: Dmodshow.h header
 ms.assetid: 5e688754-5233-34e2-ac36-4541282d7afa
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: dshow
 archived: true
 ---

@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 208C3253-09AE-4379-808D-BA0BECC59BF8
 ms.date: 12/05/2018
 ms.keywords: GetMessage, GetMessage method [DXGI], GetMessage method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetMessage method, IDXGIInfoQueue.GetMessage, IDXGIInfoQueue::GetMessage, direct3ddxgi.idxgiinfoqueue_getmessage, dxgidebug/IDXGIInfoQueue::GetMessage
-ms.topic: method
 f1_keywords:
 - dxgidebug/IDXGIInfoQueue.GetMessage
 dev_langs:

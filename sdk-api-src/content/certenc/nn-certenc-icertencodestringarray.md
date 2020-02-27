@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 5515c25e-f788-4222-8f66-f5d86bd2a3a3
 ms.date: 12/05/2018
 ms.keywords: ICertEncodeStringArray, ICertEncodeStringArray interface [Security], ICertEncodeStringArray interface [Security],described, _certsrv_icertencodestringarray, certenc/ICertEncodeStringArray, security.icertencodestringarray
-ms.topic: interface
 f1_keywords:
 - certenc/ICertEncodeStringArray
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 504cb272-da1c-4ffb-b4b1-fdf288901660
 ms.date: 12/05/2018
 ms.keywords: IQuickActivate interface [COM],QuickActivate method, IQuickActivate.QuickActivate, IQuickActivate::QuickActivate, QuickActivate, QuickActivate method [COM], QuickActivate method [COM],IQuickActivate interface, _ctrl_iquickactivate_quickactivate, com.iquickactivate_quickactivate, ocidl/IQuickActivate::QuickActivate
-ms.topic: method
 f1_keywords:
 - ocidl/IQuickActivate.QuickActivate
 dev_langs:
@@ -81,7 +80,7 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 
 
 
-If the control does not support <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iquickactivate">IQuickActivate</a>, the container performs certain handshaking operations when it loads the control. The container calls certain interfaces on the control and the control, in turn, calls back to certain interfaces on the container's client site. First, the container creates the control object and calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> to query for interfaces that it needs. Then, the container calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setclientsite">IOleObject::SetClientSite</a> on the control, passing a pointer to its client site. Next, the control calls <b>QueryInterface</b> on this site, retrieving a pointer to additional necessary interfaces.
+If the control does not support <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iquickactivate">IQuickActivate</a>, the container performs certain handshaking operations when it loads the control. The container calls certain interfaces on the control and the control, in turn, calls back to certain interfaces on the container's client site. First, the container creates the control object and calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to query for interfaces that it needs. Then, the container calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setclientsite">IOleObject::SetClientSite</a> on the control, passing a pointer to its client site. Next, the control calls <b>QueryInterface</b> on this site, retrieving a pointer to additional necessary interfaces.
 
 Using the <b>QuickActivate</b> method, the container passes a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-qacontainer">QACONTAINER</a> structure. The structure contains pointers to interfaces which are needed by the control and the values of some ambient properties that the control may need. Upon return, the control passes a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-qacontrol">QACONTROL</a> structure that contains pointers to its own interfaces that the container requires, and additional status information.
 

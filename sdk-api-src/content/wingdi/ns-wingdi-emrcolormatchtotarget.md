@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 9b89b703-b670-40eb-b95f-d07e8731e71b
 ms.date: 12/05/2018
 ms.keywords: '*PEMRCOLORMATCHTOTARGET, EMRCOLORMATCHTOTARGET, EMRCOLORMATCHTOTARGET structure [Windows GDI], PEMRCOLORMATCHTOTARGET, PEMRCOLORMATCHTOTARGET structure pointer [Windows GDI], _win32_EMRCOLORMATCHTOTARGET_str, gdi.emrcolormatchtotarget, wingdi/EMRCOLORMATCHTOTARGET, wingdi/PEMRCOLORMATCHTOTARGET'
-ms.topic: struct
 f1_keywords:
 - wingdi/EMRCOLORMATCHTOTARGET
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 102a511b-43ad-48c1-8953-647482fa452b
 ms.date: 12/05/2018
 ms.keywords: GetFocused, GetFocused method [Windows Accessibility], GetFocused method [Windows Accessibility],IAccClientDocMgr interface, IAccClientDocMgr interface [Windows Accessibility],GetFocused method, IAccClientDocMgr.GetFocused, IAccClientDocMgr::GetFocused, _msaa_IAccClientDocMgr_GetFocused, msaa.iaccclientdocmgr_iaccclientdocmgr__getfocused, msaatext/IAccClientDocMgr::GetFocused, winauto.iaccclientdocmgr_iaccclientdocmgr__getfocused
-ms.topic: method
 f1_keywords:
 - msaatext/IAccClientDocMgr.GetFocused
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Clients call the <b>IAccClientDocMgr::GetFocused</b> method to access a pointer for the document that has focus.
 <div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
-<a href="https://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="https://msdn.microsoft.com/library/ms629032(VS.85).aspx">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		</div><div> </div>
 
 ## -parameters

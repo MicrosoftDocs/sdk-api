@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: BA4FB8E7-E59A-42BD-86BB-8048267A26AA
 ms.date: 12/05/2018
 ms.keywords: DrawGeometryRealization, DrawGeometryRealization method [Direct2D], DrawGeometryRealization method [Direct2D],ID2D1DeviceContext1 interface, ID2D1DeviceContext1 interface [Direct2D],DrawGeometryRealization method, ID2D1DeviceContext1.DrawGeometryRealization, ID2D1DeviceContext1::DrawGeometryRealization, d2d1_2/ID2D1DeviceContext1::DrawGeometryRealization, direct2d.id2d1devicecontext1_drawgeometryrealization
-ms.topic: method
 f1_keywords:
 - d2d1_2/ID2D1DeviceContext1.DrawGeometryRealization
 dev_langs:

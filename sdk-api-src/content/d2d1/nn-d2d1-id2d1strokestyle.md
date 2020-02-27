@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 2cdf66dc-f34f-4132-8c06-7464648d3cef
 ms.date: 12/05/2018
 ms.keywords: ID2D1StrokeStyle, ID2D1StrokeStyle interface [Direct2D], ID2D1StrokeStyle interface [Direct2D],described, d2d1/ID2D1StrokeStyle, direct2d.ID2D1StrokeStyle
-ms.topic: interface
 f1_keywords:
 - d2d1/ID2D1StrokeStyle
 dev_langs:

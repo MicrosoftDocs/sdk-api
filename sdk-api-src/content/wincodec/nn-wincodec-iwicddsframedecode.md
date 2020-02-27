@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 52E76A8D-E7E2-46F5-BBCC-B7C74F1B1122
 ms.date: 12/05/2018
 ms.keywords: IWICDdsFrameDecode, IWICDdsFrameDecode interface [Windows Imaging Component], IWICDdsFrameDecode interface [Windows Imaging Component],described, wic.iwicddsframedecode, wincodec/IWICDdsFrameDecode
-ms.topic: interface
 f1_keywords:
 - wincodec/IWICDdsFrameDecode
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 1da809c7-6c15-4d91-93fe-8e9e71f6c5ad
 ms.date: 12/05/2018
 ms.keywords: GetProfileInt, GetProfileInt function, GetProfileIntA, GetProfileIntW, _win32_getprofileint, base.getprofileint, winbase/GetProfileInt, winbase/GetProfileIntA, winbase/GetProfileIntW
-ms.topic: function
 f1_keywords:
 - winbase/GetProfileInt
 dev_langs:

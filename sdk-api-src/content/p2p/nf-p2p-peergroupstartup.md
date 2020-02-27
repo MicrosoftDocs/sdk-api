@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: c07e200d-9578-4367-a0f8-699ae300fc1f
 ms.date: 12/05/2018
 ms.keywords: PeerGroupStartup, PeerGroupStartup function [Peer Networking], p2p.peergroupstartup, p2p/PeerGroupStartup
-ms.topic: function
 f1_keywords:
 - p2p/PeerGroupStartup
 dev_langs:

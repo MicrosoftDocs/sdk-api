@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: c094c636-e51d-4a61-8d92-90abe2f0446e
 ms.date: 12/05/2018
 ms.keywords: IsPropVariantVector, IsPropVariantVector function [Windows Properties], properties.IsPropVariantVector, propvarutil/IsPropVariantVector, shell.IsPropVariantVector, shell_IsPropVariantVector
-ms.topic: function
 f1_keywords:
 - propvarutil/IsPropVariantVector
 dev_langs:

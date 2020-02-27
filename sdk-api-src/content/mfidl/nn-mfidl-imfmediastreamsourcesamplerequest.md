@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 43617cda-84b1-405f-8a20-be793413c186
 ms.date: 12/05/2018
 ms.keywords: IMFMediaStreamSourceSampleRequest, IMFMediaStreamSourceSampleRequest interface [Media Foundation], IMFMediaStreamSourceSampleRequest interface [Media Foundation],described, mf.imfmediastreamsourcesamplerequest, mfidl/IMFMediaStreamSourceSampleRequest
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFMediaStreamSourceSampleRequest
 dev_langs:

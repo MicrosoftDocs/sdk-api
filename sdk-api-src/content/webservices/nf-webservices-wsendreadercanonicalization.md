@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 5cacad47-8581-4713-96cb-3b3a863e6327
 ms.date: 12/05/2018
 ms.keywords: WsEndReaderCanonicalization, WsEndReaderCanonicalization function [Web Services for Windows], webservices/WsEndReaderCanonicalization, wsw.wsendreadercanonicalization
-ms.topic: function
 f1_keywords:
 - webservices/WsEndReaderCanonicalization
 dev_langs:

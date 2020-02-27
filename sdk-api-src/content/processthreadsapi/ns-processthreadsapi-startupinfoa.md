@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: cf4b795c-52c1-4573-8328-99ee13f68bb3
 ms.date: 12/05/2018
 ms.keywords: '*LPSTARTUPINFOA, LPSTARTUPINFO, LPSTARTUPINFO structure pointer, STARTF_FORCEOFFFEEDBACK, STARTF_FORCEONFEEDBACK, STARTF_PREVENTPINNING, STARTF_RUNFULLSCREEN, STARTF_TITLEISAPPID, STARTF_TITLEISLINKNAME, STARTF_UNTRUSTEDSOURCE, STARTF_USECOUNTCHARS, STARTF_USEFILLATTRIBUTE, STARTF_USEHOTKEY, STARTF_USEPOSITION, STARTF_USESHOWWINDOW, STARTF_USESIZE, STARTF_USESTDHANDLES, STARTUPINFO, STARTUPINFO structure, STARTUPINFOA, STARTUPINFOW, _win32_startupinfo_str, base.startupinfo_str, processthreadsapi/LPSTARTUPINFO, processthreadsapi/STARTUPINFO, processthreadsapi/STARTUPINFOA, processthreadsapi/STARTUPINFOW, winbase/LPSTARTUPINFO, winbase/STARTUPINFO, winbase/STARTUPINFOA, winbase/STARTUPINFOW'
-ms.topic: struct
 f1_keywords:
 - processthreadsapi/STARTUPINFO
 dev_langs:
@@ -350,7 +349,7 @@ If this flag is specified when calling one of the process creation functions, th
 function's <i>bInheritHandles</i> parameter must be set to TRUE. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/handle-inheritance">Handle Inheritance</a>.
 
-If this flag is specified when calling the [GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)a> function, these members are either the handle value specified during process creation or INVALID_HANDLE_VALUE.
+If this flag is specified when calling the [GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow) function, these members are either the handle value specified during process creation or INVALID_HANDLE_VALUE.
 
 Handles must be closed with 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> when they are no longer needed.
@@ -388,7 +387,7 @@ Reserved for use by the C Run-time; must be NULL.
 
 If <b>dwFlags</b> specifies STARTF_USESTDHANDLES, this member is the standard input handle for the process. If STARTF_USESTDHANDLES is not specified, the default for standard input is the keyboard buffer.
 
-If <b>dwFlags</b> specifies STARTF_USEHOTKEY, this member specifies a hotkey value that is sent as the <i>wParam</i> parameter of a <a href="http://go.microsoft.com/fwlink/p/?linkid=181898">WM_SETHOTKEY</a> message to the first  eligible top-level window created by the application that owns the process. If the window is created with the WS_POPUP window style, it is not eligible unless the WS_EX_APPWINDOW extended window style is also set. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=181910">CreateWindowEx</a>.  
+If <b>dwFlags</b> specifies STARTF_USEHOTKEY, this member specifies a hotkey value that is sent as the <i>wParam</i> parameter of a <a href="https://msdn.microsoft.com/library/ms646284(VS.85).aspx">WM_SETHOTKEY</a> message to the first  eligible top-level window created by the application that owns the process. If the window is created with the WS_POPUP window style, it is not eligible unless the WS_EX_APPWINDOW extended window style is also set. For more information, see <a href="https://msdn.microsoft.com/library/ms632680(VS.85).aspx">CreateWindowEx</a>.  
 
 Otherwise, this member is ignored.
 

@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: B9B98EF9-C0E1-430A-9C79-1B414F4D67B5
 ms.date: 12/05/2018
 ms.keywords: IAudioClient2 interface [Core Audio],SetClientProperties method, IAudioClient2.SetClientProperties, IAudioClient2::SetClientProperties, SetClientProperties, SetClientProperties method [Core Audio], SetClientProperties method [Core Audio],IAudioClient2 interface, audioclient/IAudioClient2::SetClientProperties, coreaudio.iaudioclient2_setclientproperties
-ms.topic: method
 f1_keywords:
 - audioclient/IAudioClient2.SetClientProperties
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the properties of the audio stream by populating an <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/ns-audioclient-audioclientproperties">AudioClientProperties</a> structure.
+Sets the properties of the audio stream by populating an <a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties~r1">AudioClientProperties</a> structure.
 
 
 ## -parameters
@@ -60,7 +59,7 @@ Sets the properties of the audio stream by populating an <a href="https://docs.m
 
 ### -param pProperties [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/ns-audioclient-audioclientproperties">AudioClientProperties</a> structure.
+Pointer to an <a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties~r1">AudioClientProperties</a> structure.
 
 
 ## -returns
@@ -76,7 +75,7 @@ The <b>SetClientProperties</b> method returns <b>S_OK</b> to indicate that it ha
 
 
 
-Starting with Windows 10, hardware-offloaded audio streams must be event driven. This means that if you call <b>IAudioClient2::SetClientProperties</b> and set the <i>bIsOffload</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/ns-audioclient-audioclientproperties">AudioClientProperties</a> to TRUE, you must specify the <b>AUDCLNT_STREAMFLAGS_EVENTCALLBACK</b> flag in the <i>StreamFlags</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>.
+Starting with Windows 10, hardware-offloaded audio streams must be event driven. This means that if you call <b>IAudioClient2::SetClientProperties</b> and set the <i>bIsOffload</i> parameter of the <a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties~r1">AudioClientProperties</a> to TRUE, you must specify the <b>AUDCLNT_STREAMFLAGS_EVENTCALLBACK</b> flag in the <i>StreamFlags</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>.
 
 
 
@@ -86,7 +85,7 @@ Starting with Windows 10, hardware-offloaded audio streams must be event driven
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/ns-audioclient-audioclientproperties">AudioClientProperties</a>
+<a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties~r1">AudioClientProperties</a>
 
 
 

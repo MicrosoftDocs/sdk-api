@@ -7,7 +7,6 @@ tech.root: rstmgr
 ms.assetid: 5e3698c7-1ea8-4f9d-8fae-e69055a000fc
 ms.date: 12/05/2018
 ms.keywords: '*PRM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS structure [Restart Mgr], RM_UNIQUE_PROCESS, RM_UNIQUE_PROCESS structure [Restart Mgr], restartmanager/*PRM_UNIQUE_PROCESS, restartmanager/_RM_UNIQUE_PROCESS, rstmgr.rm_unique_process'
-ms.topic: struct
 f1_keywords:
 - restartmanager/RM_UNIQUE_PROCESS
 dev_langs:

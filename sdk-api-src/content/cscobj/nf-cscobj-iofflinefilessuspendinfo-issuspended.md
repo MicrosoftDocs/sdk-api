@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 6f29793f-3b34-4280-b375-3739aefd74db
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSuspendInfo interface [Offline Files],IsSuspended method, IOfflineFilesSuspendInfo.IsSuspended, IOfflineFilesSuspendInfo::IsSuspended, IsSuspended, IsSuspended method [Offline Files], IsSuspended method [Offline Files],IOfflineFilesSuspendInfo interface, cscobj/IOfflineFilesSuspendInfo::IsSuspended, of.iofflinefilessuspendinfo_issuspended
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesSuspendInfo.IsSuspended
 dev_langs:

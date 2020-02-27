@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: eff2995a-d17c-4899-bff5-ead9526f859d
 ms.date: 12/05/2018
 ms.keywords: ClusterGetVolumePathName, ClusterGetVolumePathName function [Failover Cluster], PCLUSTER_GET_VOLUME_PATH_NAME, PCLUSTER_GET_VOLUME_PATH_NAME function [Failover Cluster], mscs.clustergetvolumepathname, resapi/ClusterGetVolumePathName, resapi/PCLUSTER_GET_VOLUME_PATH_NAME
-ms.topic: function
 f1_keywords:
 - resapi/ClusterGetVolumePathName
 dev_langs:

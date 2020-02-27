@@ -1,9 +1,10 @@
 ---
 UID: NA:endpointvolume
+title: Endpointvolume.h header
 ms.assetid: 0254f63c-cfca-3892-af5c-552b0b2e971e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: coreaudio
 ---
 

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 6dcf6851-59ee-4f6e-b2cb-e36ac5328b92
 ms.date: 12/05/2018
 ms.keywords: FlushProcessWriteBuffers, FlushProcessWriteBuffers function, base.flushprocesswritebuffers, processthreadsapi/FlushProcessWriteBuffers, winbase/FlushProcessWriteBuffers
-ms.topic: function
 f1_keywords:
 - processthreadsapi/FlushProcessWriteBuffers
 dev_langs:

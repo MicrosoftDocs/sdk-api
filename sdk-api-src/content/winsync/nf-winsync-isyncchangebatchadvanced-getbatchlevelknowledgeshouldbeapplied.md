@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 911ac2dd-a8df-4f71-81da-032219664453
 ms.date: 12/05/2018
 ms.keywords: GetBatchLevelKnowledgeShouldBeApplied, GetBatchLevelKnowledgeShouldBeApplied method [Windows Sync], GetBatchLevelKnowledgeShouldBeApplied method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],GetBatchLevelKnowledgeShouldBeApplied method, ISyncChangeBatchAdvanced.GetBatchLevelKnowledgeShouldBeApplied, ISyncChangeBatchAdvanced::GetBatchLevelKnowledgeShouldBeApplied, winsync.isyncchangebatchadvanced_getbatchlevelknowledgeshouldbeapplied, winsync/ISyncChangeBatchAdvanced::GetBatchLevelKnowledgeShouldBeApplied
-ms.topic: method
 f1_keywords:
 - winsync/ISyncChangeBatchAdvanced.GetBatchLevelKnowledgeShouldBeApplied
 dev_langs:

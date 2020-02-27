@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: d64fec33-3781-428e-af9d-4a08836760d2
 ms.date: 12/05/2018
 ms.keywords: CreateGroup, CreateGroup method [BITS], CreateGroup method [BITS],IBackgroundCopyQMgr interface, IBackgroundCopyQMgr interface [BITS],CreateGroup method, IBackgroundCopyQMgr.CreateGroup, IBackgroundCopyQMgr::CreateGroup, bits.ibackgroundcopyqmgr_creategroup, qmgr/IBackgroundCopyQMgr::CreateGroup
-ms.topic: method
 f1_keywords:
 - qmgr/IBackgroundCopyQMgr.CreateGroup
 dev_langs:

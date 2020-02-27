@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 4f8386bb-5494-4534-adec-d37ac105a3a4
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidOutputDevices interface, IMSVidOutputDevices interface [Microsoft TV Technologies],Add method, IMSVidOutputDevices.Add, IMSVidOutputDevices::Add, IMSVidOutputDevicesAdd, mstv.imsvidoutputdevices_add, segment/IMSVidOutputDevices::Add
-ms.topic: method
 f1_keywords:
 - segment/IMSVidOutputDevices.Add
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: cf0c8d51-4ec8-4dad-8ef3-f18339ed0c0c
 ms.date: 12/05/2018
 ms.keywords: GetSignalLevel, GetSignalLevel method [Microsoft TV Technologies], GetSignalLevel method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetSignalLevel method, IIsdbEmergencyInformationDescriptor.GetSignalLevel, IIsdbEmergencyInformationDescriptor::GetSignalLevel, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetSignalLevel, mstv.iisdbemergencyinformationdescriptor_getsignallevel
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbEmergencyInformationDescriptor.GetSignalLevel
 dev_langs:

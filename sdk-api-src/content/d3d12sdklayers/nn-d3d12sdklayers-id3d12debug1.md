@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 3D69D0CA-5D45-49EA-BCF0-5B0ABB916261
 ms.date: 12/05/2018
 ms.keywords: ID3D12Debug1, ID3D12Debug1 interface, ID3D12Debug1 interface,described, d3d12sdklayers/ID3D12Debug1, direct3d12.id3d12debug1
-ms.topic: interface
 f1_keywords:
 - d3d12sdklayers/ID3D12Debug1
 dev_langs:

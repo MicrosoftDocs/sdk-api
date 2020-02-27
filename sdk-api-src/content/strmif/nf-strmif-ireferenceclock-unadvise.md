@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1f032036-4502-473a-93e1-976a66d8bde1
 ms.date: 12/05/2018
 ms.keywords: IReferenceClock interface [DirectShow],Unadvise method, IReferenceClock.Unadvise, IReferenceClock::Unadvise, IReferenceClockUnadvise, Unadvise, Unadvise method [DirectShow], Unadvise method [DirectShow],IReferenceClock interface, dshow.ireferenceclock_unadvise, strmif/IReferenceClock::Unadvise
-ms.topic: method
 f1_keywords:
 - strmif/IReferenceClock.Unadvise
 dev_langs:

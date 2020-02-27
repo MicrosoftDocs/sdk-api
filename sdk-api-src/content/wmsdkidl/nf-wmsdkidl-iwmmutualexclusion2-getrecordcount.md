@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 6e113601-1ac7-42a3-8e46-f1ba67ebb071
 ms.date: 12/05/2018
 ms.keywords: GetRecordCount, GetRecordCount method [windows Media Format], GetRecordCount method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],GetRecordCount method, IWMMutualExclusion2.GetRecordCount, IWMMutualExclusion2::GetRecordCount, IWMMutualExclusion2GetRecordCount, wmformat.iwmmutualexclusion2_getrecordcount, wmsdkidl/IWMMutualExclusion2::GetRecordCount
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMMutualExclusion2.GetRecordCount
 dev_langs:

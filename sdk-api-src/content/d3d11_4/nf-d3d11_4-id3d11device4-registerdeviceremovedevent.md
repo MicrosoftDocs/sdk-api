@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 6C564C67-9166-4F65-B099-3DDDECCEDC40
 ms.date: 12/05/2018
 ms.keywords: ID3D11Device4 interface [Direct3D 11],RegisterDeviceRemovedEvent method, ID3D11Device4.RegisterDeviceRemovedEvent, ID3D11Device4::RegisterDeviceRemovedEvent, RegisterDeviceRemovedEvent, RegisterDeviceRemovedEvent method [Direct3D 11], RegisterDeviceRemovedEvent method [Direct3D 11],ID3D11Device4 interface, d3d11_4/ID3D11Device4::RegisterDeviceRemovedEvent, direct3d11.id3d11device4_registerdeviceremovedevent
-ms.topic: method
 f1_keywords:
 - d3d11_4/ID3D11Device4.RegisterDeviceRemovedEvent
 dev_langs:

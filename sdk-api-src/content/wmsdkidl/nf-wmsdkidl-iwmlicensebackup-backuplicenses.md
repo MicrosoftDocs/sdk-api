@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 714971d7-8ccb-41fa-92b2-802a503ae228
 ms.date: 12/05/2018
 ms.keywords: BackupLicenses, BackupLicenses method [windows Media Format], BackupLicenses method [windows Media Format],IWMLicenseBackup interface, IWMLicenseBackup interface [windows Media Format],BackupLicenses method, IWMLicenseBackup.BackupLicenses, IWMLicenseBackup::BackupLicenses, IWMLicenseBackupBackupLicenses, wmformat.iwmlicensebackup_backuplicenses, wmsdkidl/IWMLicenseBackup::BackupLicenses
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMLicenseBackup.BackupLicenses
 dev_langs:
@@ -53,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>BackupLicenses</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>BackupLicenses</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 

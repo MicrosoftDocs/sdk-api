@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a6eea412-553a-4bdd-afc2-cc002c4500a4
 ms.date: 12/05/2018
 ms.keywords: IShellItemImageFactory, IShellItemImageFactory interface [Windows Shell], IShellItemImageFactory interface [Windows Shell],described, _shell_IShellItemImageFactory, shell.IShellItemImageFactory, shobjidl_core/IShellItemImageFactory
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IShellItemImageFactory
 dev_langs:

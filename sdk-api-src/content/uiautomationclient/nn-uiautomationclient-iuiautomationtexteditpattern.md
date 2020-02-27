@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 798FABE5-D6C8-58E3-B3F6-93654C0F4CAB
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextEditPattern, IUIAutomationTextEditPattern interface [Windows Accessibility], IUIAutomationTextEditPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationTextEditPattern, winauto.uiauto_IUIAutomationTextEditPattern
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationTextEditPattern
 dev_langs:

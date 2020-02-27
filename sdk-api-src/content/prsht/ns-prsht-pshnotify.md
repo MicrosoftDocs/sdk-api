@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\pshnotify.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPPSHNOTIFY, LPPSHNOTIFY, LPPSHNOTIFY structure pointer [Windows Controls], PSHNOTIFY, PSHNOTIFY structure [Windows Controls], _win32_PSHNOTIFY, _win32_PSHNOTIFY_cpp, controls.PSHNOTIFY, controls._win32_PSHNOTIFY, prsht/LPPSHNOTIFY, prsht/PSHNOTIFY'
-ms.topic: struct
 f1_keywords:
 - prsht/PSHNOTIFY
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 29E536F3-E886-4DB6-8863-B4C0144FB693
 ms.date: 12/05/2018
 ms.keywords: GetDevice, GetDevice method [Media Foundation], GetDevice method [Media Foundation],IMFMediaSharingEngine interface, IMFMediaSharingEngine interface [Media Foundation],GetDevice method, IMFMediaSharingEngine.GetDevice, IMFMediaSharingEngine::GetDevice, mf.imfmediasharingengine_getdevice, mfsharingengine/IMFMediaSharingEngine::GetDevice
-ms.topic: method
 f1_keywords:
 - mfsharingengine/IMFMediaSharingEngine.GetDevice
 dev_langs:

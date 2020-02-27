@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: B7FE94BC-DC59-407D-85A6-9657E38975AB
 ms.date: 12/05/2018
 ms.keywords: CfGetPlaceholderRangeInfo, CfGetPlaceholderRangeInfo function, cfapi/CfGetPlaceholderRangeInfo, cloudApi.cfgetplaceholderrangeinfo
-ms.topic: function
 f1_keywords:
 - cfapi/CfGetPlaceholderRangeInfo
 dev_langs:

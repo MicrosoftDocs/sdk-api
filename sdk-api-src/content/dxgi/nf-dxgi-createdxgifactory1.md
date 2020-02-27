@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 6fb9d7a3-0b59-4b7a-8871-b99d59811d46
 ms.date: 12/05/2018
 ms.keywords: CreateDXGIFactory1, CreateDXGIFactory1 function [DXGI], cbbcd6f0-23c8-ef1c-0d0c-2b56092eb8b1, direct3ddxgi.createdxgifactory1, dxgi/CreateDXGIFactory1
-ms.topic: function
 f1_keywords:
 - dxgi/CreateDXGIFactory1
 dev_langs:
@@ -95,7 +94,7 @@ Use a DXGI 1.1 factory to generate objects that <a href="https://docs.microsoft.
 If the <b>CreateDXGIFactory1</b> function succeeds, the reference count on the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1">IDXGIFactory1</a> interface is incremented. To avoid a memory leak, when you finish using the interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IDXGIFactory1::Release</a> method to release the interface.
 
 This entry point is not supported by DXGI 1.0, which shipped in Windows Vista and Windows Server 2008. DXGI 1.1 support is required, which is available on 
-      Windows 7, Windows Server 2008 R2, and as an update to Windows Vista with Service Pack 2 (SP2) (<a href="http://go.microsoft.com/fwlink/p/?linkid=160189">KB 971644</a>) and Windows Server 2008 (<a href="http://go.microsoft.com/fwlink/p/?linkid=183689">KB 971512</a>).
+      Windows 7, Windows Server 2008 R2, and as an update to Windows Vista with Service Pack 2 (SP2) (<a href="https://support.microsoft.com/kb/971644">KB 971644</a>) and Windows Server 2008 (<a href="https://support.microsoft.com/kb/971512/">KB 971512</a>).
 
 <div class="alert"><b>Note</b>  Do not mix the use of DXGI 1.0 (<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>) and DXGI 1.1 (<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1">IDXGIFactory1</a>) in an application. Use <b>IDXGIFactory</b> or <b>IDXGIFactory1</b>, but not both in an application.</div>
 <div> </div>

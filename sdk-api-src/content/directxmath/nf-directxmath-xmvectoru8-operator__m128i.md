@@ -5,7 +5,6 @@ description: Returns the object implementing the current instance of XMVECTORU8 
 ms.assetid: 38db36d3-70c4-4845-9c32-1ebfbf1d36e8
 ms.date: 05/13/2019
 ms.keywords: XMVECTORU8::operator __m128i
-ms.topic: language-reference
 f1_keywords:
 - directxmath/XMVECTORU8::operator __m128i
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: a6ac7006-73b8-4673-89d6-8285453481d3
 ms.date: 12/05/2018
 ms.keywords: IDsDisplaySpecifier, IDsDisplaySpecifier interface [Active Directory], IDsDisplaySpecifier interface [Active Directory],described, _glines_idsdisplayspecifier, ad.idsdisplayspecifier, dsclient/IDsDisplaySpecifier
-ms.topic: interface
 f1_keywords:
 - dsclient/IDsDisplaySpecifier
 dev_langs:

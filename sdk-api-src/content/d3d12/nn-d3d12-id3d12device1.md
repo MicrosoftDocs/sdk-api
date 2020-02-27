@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 7650C695-3F46-405A-9976-A4A50FFAD567
 ms.date: 12/05/2018
 ms.keywords: ID3D12Device1, ID3D12Device1 interface, ID3D12Device1 interface,described, d3d12/ID3D12Device1, direct3d12.id3d12device1
-ms.topic: interface
 f1_keywords:
 - d3d12/ID3D12Device1
 dev_langs:

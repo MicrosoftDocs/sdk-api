@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: f968fa71-edc8-4f49-b9fa-1e89224df33b
 ms.date: 12/05/2018
 ms.keywords: RegReplaceKey, RegReplaceKey function, RegReplaceKeyA, RegReplaceKeyW, _win32_regreplacekey, base.regreplacekey, winreg/RegReplaceKey, winreg/RegReplaceKeyA, winreg/RegReplaceKeyW
-ms.topic: function
 f1_keywords:
 - winreg/RegReplaceKey
 dev_langs:
@@ -57,7 +56,7 @@ ms.custom: 19H1
 
 Replaces the file backing a registry key and all its subkeys with another file, so that when the system is next started, the key and subkeys will have the values stored in the new file.
 
- Applications that back up or restore system state including system files and registry hives should use the <a href="http://go.microsoft.com/fwlink/p/?linkid=177790">Volume Shadow Copy Service</a> instead of the registry functions.
+ Applications that back up or restore system state including system files and registry hives should use the <a href="https://msdn.microsoft.com/library/aa384649(VS.85).aspx">Volume Shadow Copy Service</a> instead of the registry functions.
 
 
 ## -parameters

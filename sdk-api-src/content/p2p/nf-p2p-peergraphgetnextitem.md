@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: f595e66d-570f-4642-bef8-ff5cf070649c
 ms.date: 12/05/2018
 ms.keywords: PeerGraphGetNextItem, PeerGraphGetNextItem function [Peer Networking], p2p.peergraphgetnextitem, p2p/PeerGraphGetNextItem
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphGetNextItem
 dev_langs:

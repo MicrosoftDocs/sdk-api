@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a21e9943-4aaf-4f0e-a92a-5fcd551fe7e1
 ms.date: 12/05/2018
 ms.keywords: GetOutputStreamInfo, GetOutputStreamInfo method [DirectShow], GetOutputStreamInfo method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetOutputStreamInfo method, IMediaObject.GetOutputStreamInfo, IMediaObject::GetOutputStreamInfo, IMediaObjectGetOutputStreamInfo, dshow.imediaobject_getoutputstreaminfo, mediaobj/IMediaObject::GetOutputStreamInfo
-ms.topic: method
 f1_keywords:
 - mediaobj/IMediaObject.GetOutputStreamInfo
 dev_langs:

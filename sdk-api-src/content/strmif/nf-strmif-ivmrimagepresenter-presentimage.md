@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: df6bf45d-df92-4655-862c-704a12a62ff9
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenter interface [DirectShow],PresentImage method, IVMRImagePresenter.PresentImage, IVMRImagePresenter::PresentImage, IVMRImagePresenterPresentImage, PresentImage, PresentImage method [DirectShow], PresentImage method [DirectShow],IVMRImagePresenter interface, dshow.ivmrimagepresenter_presentimage, strmif/IVMRImagePresenter::PresentImage
-ms.topic: method
 f1_keywords:
 - strmif/IVMRImagePresenter.PresentImage
 dev_langs:
@@ -69,7 +68,7 @@ An application-defined DWORD_PTR that uniquely identifies this instance of the V
 
 ### -param lpPresInfo [in]
 
-Specifies the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrpresentationinfo">VMRPRESENTATIONINFO</a> structure.
+Specifies the [VMRPRESENTATIONINFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrpresentationinfo) structure.
 
 
 ## -returns

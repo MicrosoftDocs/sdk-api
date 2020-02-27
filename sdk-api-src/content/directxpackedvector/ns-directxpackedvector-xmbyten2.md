@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMBYTEN2
 ms.date: 12/05/2018
 ms.keywords: XMBYTEN2, XMBYTEN2 structure [DirectX Math Support APIs], directxpackedvector/XMBYTEN2, dxmath.xmbyten2
-ms.topic: struct
 f1_keywords:
 - directxpackedvector/XMBYTEN2
 dev_langs:

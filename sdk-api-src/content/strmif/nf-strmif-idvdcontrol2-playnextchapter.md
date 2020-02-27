@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 654841ce-6689-47cc-93fb-bd8de8f4dd3a
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayNextChapter method, IDvdControl2.PlayNextChapter, IDvdControl2::PlayNextChapter, IDvdControl2PlayNextChapter, PlayNextChapter, PlayNextChapter method [DirectShow], PlayNextChapter method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playnextchapter, strmif/IDvdControl2::PlayNextChapter
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.PlayNextChapter
 dev_langs:
@@ -64,7 +63,7 @@ The <code>PlayNextChapter</code> method starts playback from the beginning of th
 
 ### -param dwFlags [in]
 
-Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
+Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
 
 
 ### -param ppCmd [out]

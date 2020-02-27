@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 530e5131-a0ab-4ddd-be73-a07f94e74f73
 ms.date: 12/05/2018
 ms.keywords: BluetoothGetDeviceInfo, BluetoothGetDeviceInfo function [Bluetooth], bluetooth.bluetoothgetdeviceinfo, bluetoothapis/BluetoothGetDeviceInfo
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothGetDeviceInfo
 dev_langs:

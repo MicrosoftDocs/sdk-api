@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 2f6eb553-892b-455b-97a5-280f257b5702
 ms.date: 12/05/2018
 ms.keywords: XPS_SIZE, XPS_SIZE structure [XPS Documents and Packaging], xps.xps_size, xpsobjectmodel/XPS_SIZE
-ms.topic: struct
 f1_keywords:
 - xpsobjectmodel/XPS_SIZE
 dev_langs:
@@ -82,7 +81,7 @@ The measurement units are not specified in the structure.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

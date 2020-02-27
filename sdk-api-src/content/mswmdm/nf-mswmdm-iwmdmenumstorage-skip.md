@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 0073f279-95e4-41e3-9195-c4c93fd41fb6
 ms.date: 12/05/2018
 ms.keywords: IWMDMEnumStorage interface [windows Media Device Manager],Skip method, IWMDMEnumStorage.Skip, IWMDMEnumStorage::Skip, IWMDMEnumStorageSkip, Skip, Skip method [windows Media Device Manager], Skip method [windows Media Device Manager],IWMDMEnumStorage interface, mswmdm/IWMDMEnumStorage::Skip, wmdm.iwmdmenumstorage_skip
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMEnumStorage.Skip
 dev_langs:

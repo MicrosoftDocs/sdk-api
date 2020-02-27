@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 1eedfff3-d561-462e-bad0-45e7bc46fb1a
 ms.date: 12/05/2018
 ms.keywords: '*PDRT_SECURITY_PROVIDER, DRT_SECURITY_PROVIDER, DRT_SECURITY_PROVIDER structure [Peer Networking], PDRT_SECURITY_PROVIDER, PDRT_SECURITY_PROVIDER structure pointer [Peer Networking], drt/DRT_SECURITY_PROVIDER, drt/PDRT_SECURITY_PROVIDER, p2p.drt_security_provider'
-ms.topic: struct
 f1_keywords:
 - drt/DRT_SECURITY_PROVIDER
 dev_langs:

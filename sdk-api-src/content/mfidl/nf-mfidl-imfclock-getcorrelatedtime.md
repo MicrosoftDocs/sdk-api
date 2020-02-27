@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 0a897426-d994-4b27-9f13-9b0c7c9b3a9b
 ms.date: 12/05/2018
 ms.keywords: 0a897426-d994-4b27-9f13-9b0c7c9b3a9b, GetCorrelatedTime, GetCorrelatedTime method [Media Foundation], GetCorrelatedTime method [Media Foundation],IMFClock interface, IMFClock interface [Media Foundation],GetCorrelatedTime method, IMFClock.GetCorrelatedTime, IMFClock::GetCorrelatedTime, mf.imfclock_getcorrelatedtime, mfidl/IMFClock::GetCorrelatedTime
-ms.topic: method
 f1_keywords:
 - mfidl/IMFClock.GetCorrelatedTime
 dev_langs:

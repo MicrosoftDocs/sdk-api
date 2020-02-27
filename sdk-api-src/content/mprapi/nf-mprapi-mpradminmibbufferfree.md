@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: cee21427-42bc-45df-ad95-c8aa81041776
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBBufferFree, MprAdminMIBBufferFree function [RAS], _mpr_mpradminmibbufferfree, mprapi/MprAdminMIBBufferFree, rras.mpradminmibbufferfree
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminMIBBufferFree
 dev_langs:

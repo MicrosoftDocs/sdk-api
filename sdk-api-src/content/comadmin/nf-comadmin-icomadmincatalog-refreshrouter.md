@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 37947fb5-a1d0-445b-97f0-ceb711ed81b4
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],RefreshRouter method, ICOMAdminCatalog.RefreshRouter, ICOMAdminCatalog::RefreshRouter, RefreshRouter, RefreshRouter method [COM+], RefreshRouter method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_RefreshRouter, comadmin/ICOMAdminCatalog::RefreshRouter, cos.icomadmincatalog_refreshrouter
-ms.topic: method
 f1_keywords:
 - comadmin/ICOMAdminCatalog.RefreshRouter
 dev_langs:

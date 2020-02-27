@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 732906dd-7d1e-49a1-a3cc-60075eed9c7c
 ms.date: 12/05/2018
 ms.keywords: GetPinList, GetPinList method [Microsoft Broadband Networks], GetPinList method [Microsoft Broadband Networks],IMbnPinManager interface, IMbnPinManager interface [Microsoft Broadband Networks],GetPinList method, IMbnPinManager.GetPinList, IMbnPinManager::GetPinList, mbn.imbnpinmanager_getpinlist, mbnapi/IMbnPinManager::GetPinList
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnPinManager.GetPinList
 dev_langs:
@@ -62,7 +61,7 @@ Gets a list of different PIN types supported by the device.
 
 ### -param pinList [out, retval]
 
-A pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_type">MBN_PIN_TYPE</a> values that represent the PIN types supported by the device.  When <b>GetPinList</b> returns anything other than <b>S_OK</b>, <i>pinList</i> is <b>NULL</b>, otherwise the calling application must free the allocated memory by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=121490">SafeArrayDestroy</a>.
+A pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_type">MBN_PIN_TYPE</a> values that represent the PIN types supported by the device.  When <b>GetPinList</b> returns anything other than <b>S_OK</b>, <i>pinList</i> is <b>NULL</b>, otherwise the calling application must free the allocated memory by calling <a href="https://msdn.microsoft.com/library/ms221702.aspx">SafeArrayDestroy</a>.
 
 
 ## -returns

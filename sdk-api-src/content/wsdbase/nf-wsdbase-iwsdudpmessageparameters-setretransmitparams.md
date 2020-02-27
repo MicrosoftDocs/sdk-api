@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 8fef8dc9-7621-4928-94a6-491a095b11fa
 ms.date: 12/05/2018
 ms.keywords: IWSDUdpMessageParameters interface,SetRetransmitParams method, IWSDUdpMessageParameters.SetRetransmitParams, IWSDUdpMessageParameters::SetRetransmitParams, SetRetransmitParams, SetRetransmitParams method, SetRetransmitParams method,IWSDUdpMessageParameters interface, ncd.iwsdudpmessageparameters_setretransmitparams, wsdbase/IWSDUdpMessageParameters::SetRetransmitParams
-ms.topic: method
 f1_keywords:
 - wsdbase/IWSDUdpMessageParameters.SetRetransmitParams
 dev_langs:

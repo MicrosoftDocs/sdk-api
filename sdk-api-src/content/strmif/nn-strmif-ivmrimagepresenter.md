@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: cb9b1e29-45c3-4208-8343-c2924505a9f3
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenter, IVMRImagePresenter interface [DirectShow], IVMRImagePresenter interface [DirectShow],described, IVMRImagePresenterInterface, dshow.ivmrimagepresenter, strmif/IVMRImagePresenter
-ms.topic: interface
 f1_keywords:
 - strmif/IVMRImagePresenter
 dev_langs:

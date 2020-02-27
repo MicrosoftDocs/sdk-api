@@ -7,7 +7,6 @@ tech.root: Monitor
 ms.assetid: 872aabcc-b274-454c-a08b-6c4c5aa83012
 ms.date: 12/05/2018
 ms.keywords: GetMonitorColorTemperature, GetMonitorColorTemperature function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorColorTemperature, monitor.getmonitorcolortemperature
-ms.topic: function
 f1_keywords:
 - highlevelmonitorconfigurationapi/GetMonitorColorTemperature
 dev_langs:

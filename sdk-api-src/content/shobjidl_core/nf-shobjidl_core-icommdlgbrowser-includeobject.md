@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f483dda2-5384-42b5-97ca-c7c6793d19a7
 ms.date: 12/05/2018
 ms.keywords: ICommDlgBrowser interface [Windows Shell],IncludeObject method, ICommDlgBrowser.IncludeObject, ICommDlgBrowser::IncludeObject, IncludeObject, IncludeObject method [Windows Shell], IncludeObject method [Windows Shell],ICommDlgBrowser interface, _win32_ICommDlgBrowser_IncludeObject, shell.ICommDlgBrowser_IncludeObject, shobjidl_core/ICommDlgBrowser::IncludeObject
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ICommDlgBrowser.IncludeObject
 dev_langs:

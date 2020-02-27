@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 929cd4d1-6912-4456-a6c7-24a819799e46
 ms.date: 12/05/2018
 ms.keywords: _win32_midiOutOpen, midiOutOpen, midiOutOpen function [Windows Multimedia], mmeapi/midiOutOpen, multimedia.midioutopen
-ms.topic: function
 f1_keywords:
 - mmeapi/midiOutOpen
 dev_langs:

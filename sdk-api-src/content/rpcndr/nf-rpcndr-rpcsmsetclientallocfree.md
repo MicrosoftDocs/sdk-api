@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: f6b6db72-c9af-44d1-9f84-26aaaa17691c
 ms.date: 12/05/2018
 ms.keywords: RpcSmSetClientAllocFree, RpcSmSetClientAllocFree function [RPC], _rpc_rpcsmsetclientallocfree, rpc.rpcsmsetclientallocfree, rpcndr/RpcSmSetClientAllocFree
-ms.topic: function
 f1_keywords:
 - rpcndr/RpcSmSetClientAllocFree
 dev_langs:

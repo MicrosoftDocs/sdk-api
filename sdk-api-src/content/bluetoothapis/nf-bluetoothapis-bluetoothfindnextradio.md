@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 7dd6b823-f9c6-4375-80b6-d59c4570c8fb
 ms.date: 12/05/2018
 ms.keywords: BluetoothFindNextRadio, BluetoothFindNextRadio function [Bluetooth], bluetooth.bluetoothfindnextradio, bluetoothapis/BluetoothFindNextRadio
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothFindNextRadio
 dev_langs:

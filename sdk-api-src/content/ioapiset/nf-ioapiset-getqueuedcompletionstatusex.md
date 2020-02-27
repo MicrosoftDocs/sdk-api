@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 3996c02c-562c-4697-a091-e241ad54b239
 ms.date: 12/05/2018
 ms.keywords: GetQueuedCompletionStatusEx, GetQueuedCompletionStatusEx function [Files], fs.getqueuedcompletionstatusex_func, ioapiset/GetQueuedCompletionStatusEx, winbase/GetQueuedCompletionStatusEx
-ms.topic: function
 f1_keywords:
 - ioapiset/GetQueuedCompletionStatusEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: e4a2ea1b-6d84-44de-bf3a-d1f449a91fa5
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerUnsubscribeChanges0, FwpmSubLayerUnsubscribeChanges0 function [Filtering], fwp.fwpmsublayerunsubscribechanges0_func, fwpmu/FwpmSubLayerUnsubscribeChanges0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmSubLayerUnsubscribeChanges0
 dev_langs:

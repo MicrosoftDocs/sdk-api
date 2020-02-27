@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: fa34786c-af82-4b59-bf36-e9a95a2f913e
 ms.date: 12/05/2018
 ms.keywords: GetVolumePathName, GetVolumePathName function [Files], GetVolumePathNameA, GetVolumePathNameW, _win32_getvolumepathname, base.getvolumepathname, fileapi/GetVolumePathName, fileapi/GetVolumePathNameA, fileapi/GetVolumePathNameW, fs.getvolumepathname, winbase/GetVolumePathName, winbase/GetVolumePathNameA, winbase/GetVolumePathNameW
-ms.topic: function
 f1_keywords:
 - winbase/GetVolumePathName
 dev_langs:

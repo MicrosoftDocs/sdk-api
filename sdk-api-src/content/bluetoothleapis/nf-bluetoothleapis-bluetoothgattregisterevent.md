@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: 8C1477F8-8342-4405-8FE1-8109E6147EE9
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTRegisterEvent, BluetoothGATTRegisterEvent function [Bluetooth Devices], bltooth.bluetoothgattregisterevent, bluetoothleapis/BluetoothGATTRegisterEvent
-ms.topic: function
 f1_keywords:
 - bluetoothleapis/BluetoothGATTRegisterEvent
 dev_langs:

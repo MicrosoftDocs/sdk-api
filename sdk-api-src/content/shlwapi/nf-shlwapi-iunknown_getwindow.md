@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f8a6f61f-bea3-4049-89fb-c33ef00b327f
 ms.date: 12/05/2018
 ms.keywords: IUnknown_GetWindow, IUnknown_GetWindow function [Windows Shell], _win32_IUnknown_GetWindow, shell.IUnknown_GetWindow, shlwapi/IUnknown_GetWindow
-ms.topic: function
 f1_keywords:
 - shlwapi/IUnknown_GetWindow
 dev_langs:
@@ -91,7 +90,7 @@ Returns S_OK if a window handle was successfully returned, or a COM error code o
 
 This function attempts to retrieve the window handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolewindow-getwindow">IOleWindow::GetWindow</a>, <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537095(v=vs.85)">IInternetSecurityMgrSite::GetWindow</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView::GetWindow</a>. It is possible that future versions of <b>IUnknown_GetWindow</b> may attempt additional interfaces.
 
-<div class="alert"><b>Note</b>  The query for <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> is theoretically unnecessary because <b>IShellView</b> derives from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. The function explicitly queries for this interface because some objects implement <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> incorrectly and fail to respond to a query for the base interface.</div>
+<div class="alert"><b>Note</b>  The query for <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> is theoretically unnecessary because <b>IShellView</b> derives from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. The function explicitly queries for this interface because some objects implement <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> incorrectly and fail to respond to a query for the base interface.</div>
 <div> </div>
 
 

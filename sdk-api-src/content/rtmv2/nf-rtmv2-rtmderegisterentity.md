@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: dc13022b-e474-4442-a19c-856ee130c383
 ms.date: 12/05/2018
 ms.keywords: RtmDeregisterEntity, RtmDeregisterEntity function [RAS], _rtmv2ref_rtmderegisterentity, rras.rtmderegisterentity, rtmv2/RtmDeregisterEntity
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmDeregisterEntity
 dev_langs:

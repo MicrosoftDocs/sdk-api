@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 59C889EB-35FB-408E-91AB-8CDC7E53E6F2
 ms.date: 12/5/2018
 ms.keywords: GetDeviceRemovedReason, GetDeviceRemovedReason method, GetDeviceRemovedReason method,IDMLDevice interface, IDMLDevice interface,GetDeviceRemovedReason method, IDMLDevice.GetDeviceRemovedReason, IDMLDevice::GetDeviceRemovedReason, direct3d12.idmldevice_getdeviceremovedreason, directml/IDMLDevice::GetDeviceRemovedReason
-ms.topic: method
 f1_keywords:
 - directml/IDMLDevice.GetDeviceRemovedReason
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: iSCSIDisc
 ms.assetid: 81576452-47bf-4732-a09f-dd1f9e2689c9
 ms.date: 12/05/2018
 ms.keywords: GetIScsiIKEInfoA, GetIscsiIKEInfo, GetIscsiIKEInfo function [iSCSI Discovery Library API], GetIscsiIKEInfoA, GetIscsiIKEInfoW, iscsidisc.getiscsiikeinfo, iscsidsc/GetIscsiIKEInfo, iscsidsc/GetIscsiIKEInfoA, iscsidsc/GetIscsiIKEInfoW
-ms.topic: function
 f1_keywords:
 - iscsidsc/GetIscsiIKEInfo
 dev_langs:

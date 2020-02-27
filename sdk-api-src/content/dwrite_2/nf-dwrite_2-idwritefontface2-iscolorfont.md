@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 77D509D4-355F-4D2F-B71B-D9DF75E19362
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFace2 interface [Direct Write],IsColorFont method, IDWriteFontFace2.IsColorFont, IDWriteFontFace2::IsColorFont, IsColorFont, IsColorFont method [Direct Write], IsColorFont method [Direct Write],IDWriteFontFace2 interface, directwrite.idwritefontface2_iscolorfont, dwrite_2/IDWriteFontFace2::IsColorFont
-ms.topic: method
 f1_keywords:
 - dwrite_2/IDWriteFontFace2.IsColorFont
 dev_langs:

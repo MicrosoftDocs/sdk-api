@@ -7,7 +7,6 @@ tech.root: Input_Radial
 ms.assetid: eb8672c1-a7e6-45f5-a61f-3bee67f5ff5e
 ms.date: 12/05/2018
 ms.keywords: IRadialControllerConfigurationInterop, IRadialControllerConfigurationInterop interface, IRadialControllerConfigurationInterop interface,described, Input_Radial.iradialcontrollerconfigurationinterop, radialcontrollerinterop/IRadialControllerConfigurationInterop
-ms.topic: interface
 f1_keywords:
 - radialcontrollerinterop/IRadialControllerConfigurationInterop
 dev_langs:
@@ -97,15 +96,15 @@ Retrieves a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.input.r
 
 
 
-<a href="https://go.microsoft.com/fwlink/?linkid=832322">Surface Dial interactions</a>
+<a href="https://docs.microsoft.com/windows/uwp/design/input/windows-wheel-interactions?redirectedfrom=MSDN">Surface Dial interactions</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/?linkid=832713">Universal Windows Platform samples (C# and C++)</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/b78d95134ce2d57c848e0a8dc339fc362748fb9c/Samples/RadialController">Universal Windows Platform samples (C# and C++)</a>
 
 
 
-<a href="https://aka.ms/radialcontrollerclassicsample">Windows classic desktop sample</a>
+<a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/RadialController">Windows classic desktop sample</a>
  
 
  

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c23c12c9-5621-4b1e-997a-51303f239175
 ms.date: 12/05/2018
 ms.keywords: IMixerPinConfig2 interface [DirectShow],SetOverlaySurfaceColorControls method, IMixerPinConfig2.SetOverlaySurfaceColorControls, IMixerPinConfig2::SetOverlaySurfaceColorControls, IMixerPinConfig2SetOverlaySurfaceColorControls, SetOverlaySurfaceColorControls, SetOverlaySurfaceColorControls method [DirectShow], SetOverlaySurfaceColorControls method [DirectShow],IMixerPinConfig2 interface, dshow.imixerpinconfig2_setoverlaysurfacecolorcontrols, mpconfig/IMixerPinConfig2::SetOverlaySurfaceColorControls
-ms.topic: method
 f1_keywords:
 - mpconfig/IMixerPinConfig2.SetOverlaySurfaceColorControls
 dev_langs:

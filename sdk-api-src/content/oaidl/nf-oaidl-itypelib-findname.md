@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 932014a8-3a35-487a-b035-788fc28dacc2
 ms.date: 12/05/2018
 ms.keywords: FindName, FindName method [Automation], FindName method [Automation],ITypeLib interface, ITypeLib interface [Automation],FindName method, ITypeLib.FindName, ITypeLib::FindName, _oa96_ITypeLib_FindName, automat.itypelib_findname, oaidl/ITypeLib::FindName
-ms.topic: method
 f1_keywords:
 - oaidl/ITypeLib.FindName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0f7a5e37-5a0d-415e-aca0-df5f9448b017
 ms.date: 12/05/2018
 ms.keywords: IMSVidDeviceEvent interface [Microsoft TV Technologies],StateChange method, IMSVidDeviceEvent.StateChange, IMSVidDeviceEvent::StateChange, IMSVidDeviceEventStateChange, StateChange, StateChange method [Microsoft TV Technologies], StateChange method [Microsoft TV Technologies],IMSVidDeviceEvent interface, mstv.imsviddeviceevent_statechange, segment/IMSVidDeviceEvent::StateChange
-ms.topic: method
 f1_keywords:
 - segment/IMSVidDeviceEvent.StateChange
 dev_langs:

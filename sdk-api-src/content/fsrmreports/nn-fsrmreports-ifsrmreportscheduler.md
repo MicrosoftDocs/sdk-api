@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: f3e71a39-d880-4035-a719-42ace5eeb9e0
 ms.date: 12/05/2018
 ms.keywords: IFsrmReportScheduler, IFsrmReportScheduler interface [File Server Resource Manager], IFsrmReportScheduler interface [File Server Resource Manager],described, fs.ifsrmreportscheduler, fsrm.ifsrmreportscheduler, fsrmreports/IFsrmReportScheduler
-ms.topic: interface
 f1_keywords:
 - fsrmreports/IFsrmReportScheduler
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: f93b4162-cac4-42f7-bfd4-9e23fff80a03
 ms.date: 12/05/2018
 ms.keywords: REG_LATEST_FORMAT, REG_NO_COMPRESSION, REG_STANDARD_FORMAT, RegSaveKeyEx, RegSaveKeyEx function, RegSaveKeyExA, RegSaveKeyExW, _win32_regsavekeyex, base.regsavekeyex, winreg/RegSaveKeyEx, winreg/RegSaveKeyExA, winreg/RegSaveKeyExW
-ms.topic: function
 f1_keywords:
 - winreg/RegSaveKeyEx
 dev_langs:
@@ -61,7 +60,7 @@ ms.custom: 19H1
 
 Saves the specified key and all of its subkeys and values to a registry file, in the specified format.
 
- Applications that back up or restore system state including system files and registry hives should use the <a href="http://go.microsoft.com/fwlink/p/?linkid=177790">Volume Shadow Copy Service</a> instead of the registry functions.
+ Applications that back up or restore system state including system files and registry hives should use the <a href="https://msdn.microsoft.com/library/aa384649(VS.85).aspx">Volume Shadow Copy Service</a> instead of the registry functions.
 
 
 ## -parameters

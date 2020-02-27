@@ -7,7 +7,6 @@ tech.root: Dlls
 ms.assetid: 25e0e533-35e3-48c6-80a5-f063d38d87ca
 ms.date: 12/05/2018
 ms.keywords: DisableThreadLibraryCalls, DisableThreadLibraryCalls function, _win32_disablethreadlibrarycalls, base.disablethreadlibrarycalls, libloaderapi/DisableThreadLibraryCalls, winbase/DisableThreadLibraryCalls
-ms.topic: function
 f1_keywords:
 - libloaderapi/DisableThreadLibraryCalls
 dev_langs:

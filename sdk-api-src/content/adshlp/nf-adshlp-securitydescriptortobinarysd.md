@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: b1c814fd-df0f-406b-adfc-c356ce37d524
 ms.date: 12/05/2018
 ms.keywords: SecurityDescriptorToBinarySD, SecurityDescriptorToBinarySD function [ADSI], adshlp/SecurityDescriptorToBinarySD, adsi.securitydescriptortobinarysd
-ms.topic: function
 f1_keywords:
 - adshlp/SecurityDescriptorToBinarySD
 dev_langs:

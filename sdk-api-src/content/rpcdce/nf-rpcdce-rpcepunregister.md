@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: bb0485fc-0b25-4fc0-9a18-921a9de428ce
 ms.date: 12/05/2018
 ms.keywords: RpcEpUnregister, RpcEpUnregister function [RPC], _rpc_rpcepunregister, rpc.rpcepunregister, rpcdce/RpcEpUnregister
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcEpUnregister
 dev_langs:

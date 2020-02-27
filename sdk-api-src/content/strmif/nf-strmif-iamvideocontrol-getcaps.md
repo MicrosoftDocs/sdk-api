@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8e4b7b46-8179-410c-8369-652f9b65de8c
 ms.date: 12/05/2018
 ms.keywords: GetCaps, GetCaps method [DirectShow], GetCaps method [DirectShow],IAMVideoControl interface, IAMVideoControl interface [DirectShow],GetCaps method, IAMVideoControl.GetCaps, IAMVideoControl::GetCaps, IAMVideoControlGetCaps, dshow.iamvideocontrol_getcaps, strmif/IAMVideoControl::GetCaps
-ms.topic: method
 f1_keywords:
 - strmif/IAMVideoControl.GetCaps
 dev_langs:
@@ -69,7 +68,7 @@ Pointer to the pin to query capabilities from.
 
 ### -param pCapsFlags [out]
 
-Pointer to a value representing a combination of the flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-videocontrolflags">VideoControlFlags</a> enumeration.
+Pointer to a value representing a combination of the flags from the [VideoControlFlags](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videocontrolflags) enumeration.
 
 
 ## -returns

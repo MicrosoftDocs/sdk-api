@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: cdd54a63-749e-47bb-8c92-2678577d8096
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetCharSplat method, CInstance.SetCharSplat, CInstance.SetCharSplat(LPCWSTR,LPCSTR), CInstance::SetCharSplat, CInstance::SetCharSplat(LPCWSTR,LPCSTR), SetCharSplat, SetCharSplat method [Windows Management Instrumentation], SetCharSplat method [Windows Management Instrumentation],CInstance interface, instance/CInstance::SetCharSplat, wmi.cinstance_setcharsplat_lpcwstr__lpcstr_
-ms.topic: method
 f1_keywords:
 - instance/CInstance.SetCharSplat
 dev_langs:

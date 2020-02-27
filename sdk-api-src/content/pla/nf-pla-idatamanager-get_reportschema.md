@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 32620e9d-9541-4c39-9312-937b0b4825ad
 ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],ReportSchema property, IDataManager.ReportSchema, IDataManager.get_ReportSchema, IDataManager::ReportSchema, IDataManager::get_ReportSchema, IDataManager::put_ReportSchema, ReportSchema property [PLA], ReportSchema property [PLA],IDataManager interface, get_ReportSchema, pla.idatamanager_reportschema, pla/IDataManager::ReportSchema, pla/IDataManager::get_ReportSchema, pla/IDataManager::put_ReportSchema
-ms.topic: method
 f1_keywords:
 - pla/IDataManager.ReportSchema
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 9AE274F1-1517-4D55-B9AE-D75169404880
 ms.date: 12/05/2018
 ms.keywords: SysAddRefString, SysAddRefString function [Automation], automat.sysaddrefstring, oleauto/SysAddRefString
-ms.topic: function
 f1_keywords:
 - oleauto/SysAddRefString
 dev_langs:

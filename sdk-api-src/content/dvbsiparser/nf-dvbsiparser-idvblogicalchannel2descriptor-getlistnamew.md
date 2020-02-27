@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: cbfee1d5-8a38-4c9a-ae5e-2d91970c132e
 ms.date: 12/05/2018
 ms.keywords: GetListNameW, GetListNameW method [Microsoft TV Technologies], GetListNameW method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListNameW method, IDvbLogicalChannel2Descriptor.GetListNameW, IDvbLogicalChannel2Descriptor::GetListNameW, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListNameW, mstv.idvblogicalchannel2descriptor_getlistnamew
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbLogicalChannel2Descriptor.GetListNameW
 dev_langs:

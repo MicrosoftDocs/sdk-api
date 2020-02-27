@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: b14932a1-7585-49e4-80eb-498cf48796ee
 ms.date: 12/05/2018
 ms.keywords: DecomposeHwndIdentityString, DecomposeHwndIdentityString method [Windows Accessibility], DecomposeHwndIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],DecomposeHwndIdentityString method, IAccPropServices.DecomposeHwndIdentityString, IAccPropServices::DecomposeHwndIdentityString, _msaa_IAccPropServices_DecomposeHwndIdentityString, msaa.iaccpropservices_iaccpropservices__decomposehwndidentitystring, oleacc/IAccPropServices::DecomposeHwndIdentityString, winauto.iaccpropservices_iaccpropservices__decomposehwndidentitystring
-ms.topic: method
 f1_keywords:
 - oleacc/IAccPropServices.DecomposeHwndIdentityString
 dev_langs:

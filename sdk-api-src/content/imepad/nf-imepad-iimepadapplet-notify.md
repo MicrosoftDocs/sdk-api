@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 5C370DC8-D308-4339-81F3-FEE88359A52F
 ms.date: 12/05/2018
 ms.keywords: IImePadApplet interface [Internationalization for Windows Applications],Notify method, IImePadApplet.Notify, IImePadApplet::Notify, Notify, Notify method [Internationalization for Windows Applications], Notify method [Internationalization for Windows Applications],IImePadApplet interface, imepad/IImePadApplet::Notify, intl.iimepadapplet_notify
-ms.topic: method
 f1_keywords:
 - imepad/IImePadApplet.Notify
 dev_langs:
@@ -60,7 +59,7 @@ Called from <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-im
 
 ### -param lpImePad [in]
 
-Pointer of IUnknown interface. To get the <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> interface pointer, use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a>.
+Pointer of IUnknown interface. To get the <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> interface pointer, use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>.
 
 
 ### -param notify [in]

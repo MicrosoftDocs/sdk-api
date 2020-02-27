@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: be5ce51b-6568-49c8-954d-7b0d4bcb8611
 ms.date: 12/05/2018
 ms.keywords: NetValidateAuthentication, NetValidatePasswordChange, NetValidatePasswordPolicy, NetValidatePasswordPolicy function [Network Management], NetValidatePasswordReset, lmaccess/NetValidatePasswordPolicy, netmgmt.netvalidatepasswordpolicy
-ms.topic: function
 f1_keywords:
 - lmaccess/NetValidatePasswordPolicy
 dev_langs:

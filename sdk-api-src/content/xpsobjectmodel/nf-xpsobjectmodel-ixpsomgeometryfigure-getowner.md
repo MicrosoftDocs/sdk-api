@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 520e52ff-fb65-430f-972c-40ca2ab959b2
 ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetOwner method, IXpsOMGeometryFigure.GetOwner, IXpsOMGeometryFigure::GetOwner, xps.ixpsomgeometryfigure_getowner, xpsobjectmodel/IXpsOMGeometryFigure::GetOwner
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGeometryFigure.GetOwner
 dev_langs:
@@ -115,7 +114,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

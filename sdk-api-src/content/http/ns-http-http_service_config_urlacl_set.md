@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 92fc3f65-0153-4075-a61b-48a63c8e0ffe
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_SERVICE_CONFIG_URLACL_SET, HTTP_SERVICE_CONFIG_URLACL_SET, HTTP_SERVICE_CONFIG_URLACL_SET structure [HTTP], PHTTP_SERVICE_CONFIG_URLACL_SET, PHTTP_SERVICE_CONFIG_URLACL_SET structure pointer [HTTP], _http_http_service_config_urlacl_set, http.http_service_config_urlacl_set, http/HTTP_SERVICE_CONFIG_URLACL_SET, http/PHTTP_SERVICE_CONFIG_URLACL_SET'
-ms.topic: struct
 f1_keywords:
 - http/HTTP_SERVICE_CONFIG_URLACL_SET
 dev_langs:

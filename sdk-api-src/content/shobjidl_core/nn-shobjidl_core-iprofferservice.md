@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 91aa5f9a-c276-4822-93e1-9cd2c48ddd9f
 ms.date: 12/05/2018
 ms.keywords: IProfferService, IProfferService interface [Windows Shell], IProfferService interface [Windows Shell],described, inet_IProfferService, shell.IProfferService, shobjidl_core/IProfferService
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IProfferService
 dev_langs:
@@ -94,7 +93,7 @@ Makes a service unavailable that had previously been available to other objects 
 
 
 
-Objects that expose a service first call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on their host for this interface, then execute <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iprofferservice-profferservice">IProfferService::ProfferService</a>.
+Objects that expose a service first call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on their host for this interface, then execute <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iprofferservice-profferservice">IProfferService::ProfferService</a>.
 			
 
 

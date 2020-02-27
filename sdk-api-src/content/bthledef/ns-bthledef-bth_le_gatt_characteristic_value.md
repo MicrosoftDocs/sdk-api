@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: AF36BC9A-5EB7-4495-870A-40BF5E0A57A3
 ms.date: 12/05/2018
 ms.keywords: '*PBTH_LE_GATT_CHARACTERISTIC_VALUE, BTH_LE_GATT_CHARACTERISTIC_VALUE, BTH_LE_GATT_CHARACTERISTIC_VALUE structure [Bluetooth Devices], PBTH_LE_GATT_CHARACTERISTIC_VALUE, PBTH_LE_GATT_CHARACTERISTIC_VALUE structure pointer [Bluetooth Devices], bltooth.bth_le_gatt_characteristic_value, bthledef/BTH_LE_GATT_CHARACTERISTIC_VALUE, bthledef/PBTH_LE_GATT_CHARACTERISTIC_VALUE'
-ms.topic: struct
 f1_keywords:
 - bthledef/BTH_LE_GATT_CHARACTERISTIC_VALUE
 dev_langs:

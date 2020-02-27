@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: B8819F85-CF53-428C-806F-2B3B61D5D869
 ms.date: 12/5/2018
 ms.keywords: IDMLCompiledOperator, IDMLCompiledOperator interface, IDMLCompiledOperator interface,described, direct3d12.idmlcompiledoperator, directml/IDMLCompiledOperator
-ms.topic: interface
 f1_keywords:
 - directml/IDMLCompiledOperator
 dev_langs:

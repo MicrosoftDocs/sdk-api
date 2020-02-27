@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 9b702bcd-d5a6-41fa-98ce-00a245dfe770
 ms.date: 12/05/2018
 ms.keywords: IComActivityEvents, IComActivityEvents interface [COM+], IComActivityEvents interface [COM+],described, _dtc_IComActivityEvents, comsvcs/IComActivityEvents, cos.icomactivityevents
-ms.topic: interface
 f1_keywords:
 - comsvcs/IComActivityEvents
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 74ED381D-3BF5-4E43-85DA-8CD53C821979
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],LanguageTag property, ISpellCheckProvider.LanguageTag, ISpellCheckProvider.get_LanguageTag, ISpellCheckProvider::LanguageTag, ISpellCheckProvider::get_LanguageTag, LanguageTag property [Internationalization for Windows Applications], LanguageTag property [Internationalization for Windows Applications],ISpellCheckProvider interface, get_LanguageTag, intl.ispellcheckprovider_languagetag, spellcheckprovider/ISpellCheckProvider::LanguageTag, spellcheckprovider/ISpellCheckProvider::get_LanguageTag
-ms.topic: method
 f1_keywords:
 - spellcheckprovider/ISpellCheckProvider.LanguageTag
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="http://go.microsoft.com/fwlink/p/?linkid=227302">BCP47</a> language tag this instance of the spell checker supports.
+Gets the <a href="http://tools.ietf.org/html/bcp47">BCP47</a> language tag this instance of the spell checker supports.
 
 This property is read-only.
 
@@ -64,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=227302">BCP47 Tags for Identifying Languages
+<a href="http://tools.ietf.org/html/bcp47">BCP47 Tags for Identifying Languages
 
 </a>
 

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 26e11fd1-99fd-4afa-8879-096a40acecce
 ms.date: 12/05/2018
 ms.keywords: MCIWndDestroy, MCIWndDestroy macro [Windows Multimedia], _win32_MCIWndDestroy, multimedia.mciwnddestroy, vfw/MCIWndDestroy
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndDestroy
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndDestroy</b> macro closes an MCI device or file associated with an MCIWnd window and destroys the window. You can use this macro or explicitly send the <a href="http://go.microsoft.com/fwlink/p/?linkid=17092">WM_CLOSE</a> message.
+The <b>MCIWndDestroy</b> macro closes an MCI device or file associated with an MCIWnd window and destroys the window. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/library/ms632617.aspx">WM_CLOSE</a> message.
 
 
 
@@ -71,7 +70,7 @@ Handle of the MCIWnd window.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=17092">WM_CLOSE</a>
+<a href="https://msdn.microsoft.com/library/ms632617.aspx">WM_CLOSE</a>
  
 
  

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionRotationAxis(XMVECTOR,float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionRotationAxis, XMQuaternionRotationAxis, XMQuaternionRotationAxis method [DirectX Math Support APIs], dxmath.xmquaternionrotationaxis
-ms.topic: function
 f1_keywords:
 - directxmath/XMQuaternionRotationAxis
 dev_langs:

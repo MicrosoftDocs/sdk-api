@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 434d0e0e-55a0-4a08-bc63-ebca4b2bdcca
 ms.date: 12/05/2018
 ms.keywords: IPipeDouble, IPipeDouble interface [COM], IPipeDouble interface [COM],described, _com_ipipedouble, com.ipipedouble, objidlbase/IPipeDouble
-ms.topic: interface
 f1_keywords:
 - objidl/IPipeDouble
 dev_langs:

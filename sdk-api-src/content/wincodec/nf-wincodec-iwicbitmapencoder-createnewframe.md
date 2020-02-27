@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 1c48f603-e7be-4b0c-a262-0dd01308e868
 ms.date: 12/05/2018
 ms.keywords: CreateNewFrame, CreateNewFrame method [Windows Imaging Component], CreateNewFrame method [Windows Imaging Component],IWICBitmapEncoder interface, IWICBitmapEncoder interface [Windows Imaging Component],CreateNewFrame method, IWICBitmapEncoder.CreateNewFrame, IWICBitmapEncoder::CreateNewFrame, _wic_codec_iwicbitmapencoder_createnewframe, wic._wic_codec_iwicbitmapencoder_createnewframe, wincodec/IWICBitmapEncoder::CreateNewFrame
-ms.topic: method
 f1_keywords:
 - wincodec/IWICBitmapEncoder.CreateNewFrame
 dev_langs:

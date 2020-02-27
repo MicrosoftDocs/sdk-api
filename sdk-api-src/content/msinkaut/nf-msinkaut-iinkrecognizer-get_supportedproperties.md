@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 11153c7f-5284-483b-b1d5-01e670d924b4
 ms.date: 12/05/2018
 ms.keywords: 11153c7f-5284-483b-b1d5-01e670d924b4, IInkRecognizer interface [Tablet PC],SupportedProperties property, IInkRecognizer.SupportedProperties, IInkRecognizer.get_SupportedProperties, IInkRecognizer::SupportedProperties, IInkRecognizer::get_SupportedProperties, SupportedProperties property [Tablet PC], SupportedProperties property [Tablet PC],IInkRecognizer interface, get_SupportedProperties, msinkaut/IInkRecognizer::SupportedProperties, msinkaut/IInkRecognizer::get_SupportedProperties, tablet.iinkrecognizer_supportedproperties
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRecognizer.SupportedProperties
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: bededb91-f343-455b-a3ef-548e6f961933
 ms.date: 12/05/2018
 ms.keywords: IWMDMLogger, IWMDMLogger interface [windows Media Device Manager], IWMDMLogger interface [windows Media Device Manager],described, IWMDMLoggerInterface, wmdm.iwmdmlogger, wmdmlog/IWMDMLogger
-ms.topic: interface
 f1_keywords:
 - wmdmlog/IWMDMLogger
 dev_langs:

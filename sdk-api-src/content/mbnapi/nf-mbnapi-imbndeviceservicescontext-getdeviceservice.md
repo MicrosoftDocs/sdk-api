@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 293E9BE5-AD7D-41B7-9A27-E964EE745183
 ms.date: 12/05/2018
 ms.keywords: GetDeviceService, GetDeviceService method [Microsoft Broadband Networks], GetDeviceService method [Microsoft Broadband Networks],IMbnDeviceServicesContext interface, IMbnDeviceServicesContext interface [Microsoft Broadband Networks],GetDeviceService method, IMbnDeviceServicesContext.GetDeviceService, IMbnDeviceServicesContext::GetDeviceService, mbn.imbndeviceservicescontext_getdeviceservice, mbnapi/IMbnDeviceServicesContext::GetDeviceService
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnDeviceServicesContext.GetDeviceService
 dev_langs:

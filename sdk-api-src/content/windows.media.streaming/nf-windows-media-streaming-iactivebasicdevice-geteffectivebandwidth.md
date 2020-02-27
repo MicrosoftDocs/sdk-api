@@ -7,7 +7,6 @@ tech.root: mediastreaming
 ms.assetid: 894EC907-E578-4F1E-A0AB-1FDE2FA67B6C
 ms.date: 12/05/2018
 ms.keywords: GetEffectiveBandwidth, GetEffectiveBandwidth method [Media Streaming API], GetEffectiveBandwidth method [Media Streaming API],IActiveBasicDevice interface, IActiveBasicDevice interface [Media Streaming API],GetEffectiveBandwidth method, IActiveBasicDevice.GetEffectiveBandwidth, IActiveBasicDevice.streaming, IActiveBasicDevice::GetEffectiveBandwidth, IActiveBasicDevice::streaming, mediastreaming.iactivebasicdevice_geteffectivebandwidth, windows/IActiveBasicDevice::GetEffectiveBandwidth
-ms.topic: method
 f1_keywords:
 - windows.media.streaming/IActiveBasicDevice.GetEffectiveBandwidth
 dev_langs:

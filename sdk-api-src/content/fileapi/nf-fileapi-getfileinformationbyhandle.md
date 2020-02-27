@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: d026ee3a-c165-42a2-a4e1-efccdafbefc5
 ms.date: 12/05/2018
 ms.keywords: GetFileInformationByHandle, GetFileInformationByHandle function [Files], _win32_getfileinformationbyhandle, base.getfileinformationbyhandle, fileapi/GetFileInformationByHandle, fs.getfileinformationbyhandle, winbase/GetFileInformationByHandle
-ms.topic: function
 f1_keywords:
 - fileapi/GetFileInformationByHandle
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 9b159f49-ce0e-4e68-ab13-f6d84af63ebf
 ms.date: 12/05/2018
 ms.keywords: CreateUInt64Array, CreateUInt64Array method [Windows Runtime], CreateUInt64Array method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateUInt64Array method, IPropertyValueStatics.CreateUInt64Array, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateUInt64Array, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateUInt64Array, winrt.ipropertyvaluefactory_createuint64array, winrt.ipropertyvaluestatics_createuint64array
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValueStatics.CreateUInt64Array
 dev_langs:
@@ -76,7 +75,7 @@ The array of unsigned 64-bit integer values to store.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
 
-A pointer to a new object that contains <i>value</i>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
+A pointer to a new object that contains <i>value</i>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
 
 
 ## -returns

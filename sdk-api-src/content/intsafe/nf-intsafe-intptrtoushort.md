@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c1ab8cbc-0c45-410c-a34d-2bded36a03e8
 ms.date: 12/05/2018
 ms.keywords: IntPtrToUShort, IntPtrToUShort function [Windows Shell], intsafe/IntPtrToUShort, shell.IntPtrToUShort
-ms.topic: function
 f1_keywords:
 - intsafe/IntPtrToUShort
 dev_langs:

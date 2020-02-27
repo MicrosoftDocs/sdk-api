@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUDec4(const XMUDEC4)
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadUDec4, XMLoadUDec4, XMLoadUDec4 method [DirectX Math Support APIs], dxmath.xmloadudec4
-ms.topic: function
 f1_keywords:
 - directxpackedvector/XMLoadUDec4
 dev_langs:

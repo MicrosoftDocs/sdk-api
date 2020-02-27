@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: a963abb5-63b8-44d1-910c-ea795398d3de
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationUpdateHandler, IDirectManipulationUpdateHandler interface [Direct Manipulation], IDirectManipulationUpdateHandler interface [Direct Manipulation],described, directmanipulation.idirectmanipulationupdatehandler, directmanipulation/IDirectManipulationUpdateHandler
-ms.topic: interface
 f1_keywords:
 - directmanipulation/IDirectManipulationUpdateHandler
 dev_langs:
@@ -54,7 +53,7 @@ ms.custom: 19H1
 Defines methods for handling manipulation update events.
 
 
-<div class="alert"><b>Note</b>  When implementing a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> object, ensure that the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> implementation supports multithreading through thread-safe reference counting. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedincrement">InterlockedIncrement</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockeddecrement">InterlockedDecrement</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  When implementing a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> object, ensure that the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> implementation supports multithreading through thread-safe reference counting. For more information, see <a href="/windows/win32/api/winnt/nf-winnt-interlockedincrement">InterlockedIncrement</a> and <a href="/windows/win32/api/winnt/nf-winnt-interlockeddecrement">InterlockedDecrement</a>.</div><div> </div>
 
 ## -inheritance
 

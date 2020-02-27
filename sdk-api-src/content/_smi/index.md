@@ -1,9 +1,10 @@
 ---
 UID: TP:smi
+title: Settings Management Infrastructure (SMI)
 ms.assetid: b1cdcf64-e5d8-3c70-974f-c11fa9c6d21f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Settings Management Infrastructure (SMI)
@@ -17,5 +18,5 @@ To develop Settings Management Infrastructure (SMI), you need these headers:
  * [wcmconfig.h](../wcmconfig/index.md)
 
 For programming guidance for this technology, see:
-* [Settings Management Infrastructure (SMI)](/windows/desktop/smi)
+* [Settings Management Infrastructure (SMI)](https://docs.microsoft.com/previous-versions/windows/desktop/smi)
 

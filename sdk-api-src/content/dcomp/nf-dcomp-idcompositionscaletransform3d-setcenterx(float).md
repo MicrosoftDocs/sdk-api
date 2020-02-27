@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 4AB99A66-BB3B-4AA5-B041-3F4F77AF93CE
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetCenterX method, IDCompositionScaleTransform3D.SetCenterX, IDCompositionScaleTransform3D::SetCenterX, IDCompositionScaleTransform3D::SetCenterX(float), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetCenterX, directcomp.idcompositionscaletransform3d_setcenterx_float
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionScaleTransform3D.SetCenterX
 dev_langs:

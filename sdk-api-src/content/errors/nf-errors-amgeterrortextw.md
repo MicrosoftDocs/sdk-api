@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 268fd554-99f4-4400-8e33-4d98c51b76cf
 ms.date: 12/05/2018
 ms.keywords: AMGetErrorText, AMGetErrorText function [DirectShow], AMGetErrorTextA, AMGetErrorTextW, dshow.amgeterrortext, errors/AMGetErrorText
-ms.topic: function
 f1_keywords:
 - errors/AMGetErrorText
 dev_langs:

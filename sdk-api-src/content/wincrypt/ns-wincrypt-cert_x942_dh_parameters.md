@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 833d8e36-af78-4daa-92c5-0cb37a31df2f
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_X942_DH_PARAMETERS, CERT_X942_DH_PARAMETERS, CERT_X942_DH_PARAMETERS structure [Security], PCERT_X942_DH_PARAMETERS, PCERT_X942_DH_PARAMETERS structure pointer [Security], _crypto2_cert_x942_dh_parameters, security.cert_x942_dh_parameters, wincrypt/CERT_X942_DH_PARAMETERS, wincrypt/PCERT_X942_DH_PARAMETERS'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_X942_DH_PARAMETERS
 dev_langs:

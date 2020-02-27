@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 2da816f0-9674-4b48-bb82-4eba941a7fa4
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationDockPattern, IUIAutomationDockPattern interface [Windows Accessibility], IUIAutomationDockPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationDockPattern, uiauto_IUIAutomationDockPattern, uiautomationclient/IUIAutomationDockPattern, winauto.uiauto_IUIAutomationDockPattern
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationDockPattern
 dev_langs:

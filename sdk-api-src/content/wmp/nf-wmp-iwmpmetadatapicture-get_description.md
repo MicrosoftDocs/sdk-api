@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: b8003560-d80d-4e0a-a6a9-88d908245477
 ms.date: 12/05/2018
 ms.keywords: IWMPMetadataPicture interface [Windows Media Player],get_description method, IWMPMetadataPicture.get_description, IWMPMetadataPicture::get_description, IWMPMetadataPictureget_description, get_description, get_description method [Windows Media Player], get_description method [Windows Media Player],IWMPMetadataPicture interface, wmp.iwmpmetadatapicture_get_description, wmp/IWMPMetadataPicture::get_description
-ms.topic: method
 f1_keywords:
 - wmp/IWMPMetadataPicture.get_description
 dev_langs:

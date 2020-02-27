@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: B4EDDC32-732D-422B-85A0-FD935DBFE4EB
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTSetDescriptorValue, BluetoothGATTSetDescriptorValue function [Bluetooth Devices], bltooth.bluetoothgattsetdescriptorvalue, bluetoothleapis/BluetoothGATTSetDescriptorValue
-ms.topic: function
 f1_keywords:
 - bluetoothleapis/BluetoothGATTSetDescriptorValue
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: c4e3fa2c-44f9-4160-8d0b-3021ad18a472
 ms.date: 12/05/2018
 ms.keywords: DrvPaint, DrvPaint function [Display Devices], ddifncs_34ade16d-3f7c-42b3-a020-388ec6a36f27.xml, display.drvpaint, winddi/DrvPaint
-ms.topic: function
 f1_keywords:
 - winddi/DrvPaint
 dev_langs:

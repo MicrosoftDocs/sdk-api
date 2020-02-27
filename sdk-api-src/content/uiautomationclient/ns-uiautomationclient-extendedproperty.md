@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 3d0037f5-cff7-4502-b648-a2a60127eaff
 ms.date: 12/05/2018
 ms.keywords: ExtendedProperty, ExtendedProperty structure [Windows Accessibility], uiautomationclient/ExtendedProperty, winauto.uiauto_extendedproperty
-ms.topic: struct
 f1_keywords:
 - uiautomationclient/ExtendedProperty
 dev_langs:

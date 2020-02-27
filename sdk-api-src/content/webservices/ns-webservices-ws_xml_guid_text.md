@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: e70ea1d2-8381-4b23-88e6-842fe22889a5
 ms.date: 12/05/2018
 ms.keywords: WS_XML_GUID_TEXT, WS_XML_GUID_TEXT structure [Web Services for Windows], webservices/WS_XML_GUID_TEXT, wsw.ws_xml_guid_text
-ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_GUID_TEXT
 dev_langs:

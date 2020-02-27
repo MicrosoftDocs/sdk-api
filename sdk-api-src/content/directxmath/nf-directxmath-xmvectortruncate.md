@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorTruncate(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorTruncate, XMVectorTruncate, XMVectorTruncate method [DirectX Math Support APIs], dxmath.xmvectortruncate
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorTruncate
 dev_langs:

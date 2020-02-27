@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c590efef-7f03-4ae6-a35f-eff2fc4da3d9
 ms.date: 12/05/2018
 ms.keywords: OleTranslateAccelerator, OleTranslateAccelerator function [COM], _ole_OleTranslateAccelerator, com.oletranslateaccelerator, ole2/OleTranslateAccelerator
-ms.topic: function
 f1_keywords:
 - ole2/OleTranslateAccelerator
 dev_langs:

@@ -5,7 +5,6 @@ description: The Graphics::GetVisibleClipBounds method gets a rectangle that enc
 ms.assetid: dda12bab-2ffc-4fca-9280-3bc88798fac2
 ms.date: 05/13/2019
 ms.keywords: Graphics::GetVisibleClipBounds
-ms.topic: language-reference
 f1_keywords:
 - gdiplusgraphics/Graphics::GetVisibleClipBounds
 dev_langs:

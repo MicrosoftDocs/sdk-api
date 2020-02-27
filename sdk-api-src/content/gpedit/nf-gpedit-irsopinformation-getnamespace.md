@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: 3575072c-88d7-482c-bc8b-dca9f6d68577
 ms.date: 12/05/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetNameSpace method [Group Policy], GetNameSpace method [Group Policy],IRSOPInformation interface, GetNamespace, IRSOPInformation interface [Group Policy],GetNameSpace method, IRSOPInformation.GetNamespace, IRSOPInformation::GetNameSpace, IRSOPInformation::GetNamespace, _win32_irsopinformation_getnamespace, gpedit/IRSOPInformation::GetNameSpace, policy.irsopinformation_getnamespace
-ms.topic: method
 f1_keywords:
 - gpedit/IRSOPInformation.GetNameSpace
 dev_langs:

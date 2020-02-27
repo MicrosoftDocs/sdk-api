@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 935e651c-4dcd-4317-847e-34adf656035c
 ms.date: 12/05/2018
 ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], IShellImageData interface [Windows Shell],described, _shell_IShellImageData, shell.IShellImageData, shimgdata/IShellImageData
-ms.topic: interface
 f1_keywords:
 - shimgdata/IShellImageData
 dev_langs:

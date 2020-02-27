@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 9ebfe81c-bed6-4bde-b1dd-5eaefbaac9cf
 ms.date: 12/05/2018
 ms.keywords: WSPStartup, WSPStartup function [Winsock], _win32_wspstartup_2, winsock.wspstartup_2, ws2spi/WSPStartup
-ms.topic: function
 f1_keywords:
 - ws2spi/WSPStartup
 dev_langs:
@@ -73,12 +72,12 @@ A pointer to a
 ### -param lpProtocolInfo [in]
 
 A pointer to a 
-[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure that defines the characteristics of the desired protocol. This is especially useful when a single provider DLL is capable of instantiating multiple different service providers.
+<a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structure that defines the characteristics of the desired protocol. This is especially useful when a single provider DLL is capable of instantiating multiple different service providers.
 
 
 ### -param UpcallTable [in]
 
-The Winsock 2 DLL (Ws2_32.dll) upcall dispatch table 	passed in a [WSPUpCallTable](ns-ws2spi-wspupcalltable.md) structure. 
+The Winsock 2 DLL (Ws2_32.dll) upcall dispatch table passed in a [WSPUpCallTable](ns-ws2spi-wspupcalltable.md) structure. 
 
 
 ### -param lpProcTable [out]
@@ -101,7 +100,7 @@ The
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASYSNOTREADY</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASYSNOTREADY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -113,7 +112,7 @@ This error is returned if the Windows Sockets implementation cannot function at 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAVERNOTSUPPORTED</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAVERNOTSUPPORTED</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -124,7 +123,7 @@ The Winsock.dll version is out of range. This error is returned if the version o
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -135,7 +134,7 @@ A blocking Windows Sockets 1.1 operation is in progress.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEPROCLIM</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEPROCLIM</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -146,7 +145,7 @@ A limit on the number of tasks supported by the Windows Sockets implementation h
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -175,7 +174,7 @@ The
 **WSPStartup** function must be the first Windows Sockets SPI function called by a Windows Sockets SPI client on a per-process basis. It allows the client to specify the version of Windows Sockets SPI required and to provide its upcall dispatch table. All upcalls (that is, functions prefixed with WPU) made by the Windows Sockets service provider are invoked through the client's upcall dispatch table. This function also allows the client to retrieve details of the specific Windows Sockets service provider implementation. The Windows Sockets SPI client can only issue further Windows Sockets SPI functions after a successful 
 **WSPStartup** invocation. A table of pointers to the rest of the SPI functions is retrieved through the <i>lpProcTable</i> parameter that returns a [WSPProc_Table](ns-ws2spi-wspproc_table.md) structure.
 
-The Winsock 2 DLL loads the service provider's interface DLL into the system by using the standard Windows dynamic library loading mechanisms, and initializes it by calling the **WSPStartup** function. This is usually triggered by an application calling the [socket](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket) or [WSASocket](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa) function in order to create a new socket that is to be associated with a service provider whose interface DLL is not currently loaded into memory. 
+The Winsock 2 DLL loads the service provider's interface DLL into the system by using the standard Windows dynamic library loading mechanisms, and initializes it by calling the **WSPStartup** function. This is usually triggered by an application calling the [socket](/windows/desktop/api/winsock2/nf-winsock2-socket) or [WSASocket](/windows/desktop/api/winsock2/nf-winsock2-wsasocketa) function in order to create a new socket that is to be associated with a service provider whose interface DLL is not currently loaded into memory. 
 
 In order to support future versions of the Windows Sockets SPI and the Ws2_32.dll, which may have functional differences from the current Windows Sockets SPI, a negotiation takes place in 
 **WSPStartup**. The caller of 
@@ -269,7 +268,7 @@ The following chart gives examples of how
 <td>1.0</td>
 <td>---</td>
 <td>---</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAVERNOTSUPPORTED</a></td>
+<td><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAVERNOTSUPPORTED</a></td>
 </tr>
 <tr>
 <td>1.0 1.1</td>
@@ -417,7 +416,7 @@ A service thread can be safely used if these two design rules are carefully foll
 - Create the service thread only on demand. 
  
 Several other cautions apply to the use of internal service threads. First, threads generally carry some performance penalty. Use as few as possible, and avoid thread transitions wherever possible. Second, your code should always check for errors in creating threads and fail gracefully and informatively (for example, with 
-[WSAEOPNOTSUPP](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2#WSAEOPNOTSUPP)) in case some execution event you did not expect results in a 16-bit process executing a code path that needs threads.
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2#WSAEOPNOTSUPP">WSAEOPNOTSUPP</a>) in case some execution event you did not expect results in a 16-bit process executing a code path that needs threads.
 
 A layered service provider supplies an implementation of this function, but it is also a client of this function when it calls 
 **WSPStartup** to initialize the next layer in the protocol chain. The call to the next layer's 
@@ -427,7 +426,7 @@ A layered service provider supplies an implementation of this function, but it i
 
 The layered provider searches the **ProtocolChain** of the structure referenced by <i>lpProtocolInfo</i> to determine its own location in the chain (by searching for the layer's own catalog entry **Id**) and the identity of the next element in the chain. If the next element is another layer, then, when the next layer's 
 **WSPStartup** is called, this layer must pass to the next layer a <i>lpProtocolInfo</i> that references the same unmodified 
-[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure with the same unmodified chain information. However, if the next layer is the base protocol (that is, the last element in the chain), this layer performs a substitution when calling the base provider's 
+<a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structure with the same unmodified chain information. However, if the next layer is the base protocol (that is, the last element in the chain), this layer performs a substitution when calling the base provider's 
 **WSPStartup**. In this case, the base provider's 
 **WSAPROTOCOL_INFO** structure should be referenced by the <i>lpProtocolInfo</i> parameter.
 
@@ -444,7 +443,7 @@ This same propagation policy applies when propagating a
 
 
 ## -see-also
-[WSAProtocol_Info](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa)
+<a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a>
 
 [LPWSPAddressToString](nc-ws2spi-lpwspaddresstostring.md)
 

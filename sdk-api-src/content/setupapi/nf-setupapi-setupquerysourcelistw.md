@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 8d1de1d5-5b82-45ae-b29c-4f9a93d28c6e
 ms.date: 12/05/2018
 ms.keywords: SetupQuerySourceList, SetupQuerySourceList function [Setup API], SetupQuerySourceListA, SetupQuerySourceListW, _setupapi_setupquerysourcelist, setup.setupquerysourcelist, setupapi/SetupQuerySourceList, setupapi/SetupQuerySourceListA, setupapi/SetupQuerySourceListW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupQuerySourceList
 dev_langs:

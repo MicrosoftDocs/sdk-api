@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: e7b83f08-e87f-4921-8dbb-f33453c63732
 ms.date: 12/05/2018
 ms.keywords: GetGlyphIndexCount, GetGlyphIndexCount method [XPS Documents and Packaging], GetGlyphIndexCount method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetGlyphIndexCount method, IXpsOMGlyphsEditor.GetGlyphIndexCount, IXpsOMGlyphsEditor::GetGlyphIndexCount, xps.ixpsomglyphseditor_getglyphindexcount, xpsobjectmodel/IXpsOMGlyphsEditor::GetGlyphIndexCount
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphsEditor.GetGlyphIndexCount
 dev_langs:
@@ -120,7 +119,7 @@ To get the glyph indices, call <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: 35fd9ea1-85bf-424c-b0e2-dcdfbb6940fb
 ms.date: 12/05/2018
 ms.keywords: CreateTable, CreateTable method [Remote Differential Compression], CreateTable method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],CreateTable method, ISimilarityTraitsTable.CreateTable, ISimilarityTraitsTable::CreateTable, fs.isimilaritytraitstable_createtable, msrdc/ISimilarityTraitsTable::CreateTable, rdc.isimilaritytraitstable_createtable
-ms.topic: method
 f1_keywords:
 - msrdc/ISimilarityTraitsTable.CreateTable
 dev_langs:

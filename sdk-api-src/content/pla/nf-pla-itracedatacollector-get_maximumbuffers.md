@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 545c56e3-b915-4f2a-8563-81368ca9b19e
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],MaximumBuffers property, ITraceDataCollector.MaximumBuffers, ITraceDataCollector.get_MaximumBuffers, ITraceDataCollector::MaximumBuffers, ITraceDataCollector::get_MaximumBuffers, ITraceDataCollector::put_MaximumBuffers, MaximumBuffers property [PLA], MaximumBuffers property [PLA],ITraceDataCollector interface, base.itracedatacollector_maximumbuffers, get_MaximumBuffers, pla.itracedatacollector_maximumbuffers, pla/ITraceDataCollector::MaximumBuffers, pla/ITraceDataCollector::get_MaximumBuffers, pla/ITraceDataCollector::put_MaximumBuffers
-ms.topic: method
 f1_keywords:
 - pla/ITraceDataCollector.MaximumBuffers
 dev_langs:

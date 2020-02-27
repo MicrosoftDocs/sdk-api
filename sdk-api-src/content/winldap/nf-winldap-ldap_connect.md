@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 783e52fd-d758-47ba-b350-878a2efec8a3
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_connect, ldap.ldap__connect, ldap.ldap_connect, ldap_connect, ldap_connect function [LDAP], winldap/ldap_connect
-ms.topic: function
 f1_keywords:
 - winldap/ldap_connect
 dev_langs:

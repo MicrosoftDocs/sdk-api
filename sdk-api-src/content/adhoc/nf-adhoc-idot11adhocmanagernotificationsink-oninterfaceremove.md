@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: ac62c211-9886-4c09-8867-32ce9763c2fc
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocManagerNotificationSink interface [NativeWIFI],OnInterfaceRemove method, IDot11AdHocManagerNotificationSink.OnInterfaceRemove, IDot11AdHocManagerNotificationSink::OnInterfaceRemove, OnInterfaceRemove, OnInterfaceRemove method [NativeWIFI], OnInterfaceRemove method [NativeWIFI],IDot11AdHocManagerNotificationSink interface, adhoc/IDot11AdHocManagerNotificationSink::OnInterfaceRemove, nwifi.idot11adhocmanagernotificationsink_oninterfaceremove
-ms.topic: method
 f1_keywords:
 - adhoc/IDot11AdHocManagerNotificationSink.OnInterfaceRemove
 dev_langs:

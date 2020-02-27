@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 4f01e805-aed7-4bfc-9793-42a9fdde3473
 ms.date: 12/05/2018
 ms.keywords: D2D1_COMPOSITE_MODE, D2D1_COMPOSITE_MODE enumeration [Direct2D], D2D1_COMPOSITE_MODE_BOUNDED_SOURCE_COPY, D2D1_COMPOSITE_MODE_DESTINATION_ATOP, D2D1_COMPOSITE_MODE_DESTINATION_IN, D2D1_COMPOSITE_MODE_DESTINATION_OUT, D2D1_COMPOSITE_MODE_DESTINATION_OVER, D2D1_COMPOSITE_MODE_MASK_INVERT, D2D1_COMPOSITE_MODE_PLUS, D2D1_COMPOSITE_MODE_SOURCE_ATOP, D2D1_COMPOSITE_MODE_SOURCE_COPY, D2D1_COMPOSITE_MODE_SOURCE_IN, D2D1_COMPOSITE_MODE_SOURCE_OUT, D2D1_COMPOSITE_MODE_SOURCE_OVER, D2D1_COMPOSITE_MODE_XOR, d2d1_1/D2D1_COMPOSITE_MODE, d2d1_1/D2D1_COMPOSITE_MODE_BOUNDED_SOURCE_COPY, d2d1_1/D2D1_COMPOSITE_MODE_DESTINATION_ATOP, d2d1_1/D2D1_COMPOSITE_MODE_DESTINATION_IN, d2d1_1/D2D1_COMPOSITE_MODE_DESTINATION_OUT, d2d1_1/D2D1_COMPOSITE_MODE_DESTINATION_OVER, d2d1_1/D2D1_COMPOSITE_MODE_MASK_INVERT, d2d1_1/D2D1_COMPOSITE_MODE_PLUS, d2d1_1/D2D1_COMPOSITE_MODE_SOURCE_ATOP, d2d1_1/D2D1_COMPOSITE_MODE_SOURCE_COPY, d2d1_1/D2D1_COMPOSITE_MODE_SOURCE_IN, d2d1_1/D2D1_COMPOSITE_MODE_SOURCE_OUT, d2d1_1/D2D1_COMPOSITE_MODE_SOURCE_OVER, d2d1_1/D2D1_COMPOSITE_MODE_XOR, direct2d.__d2d1_composite_mode
-ms.topic: enum
 f1_keywords:
 - d2d1_1/D2D1_COMPOSITE_MODE
 dev_langs:
@@ -150,7 +149,7 @@ As a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1
 <b>D2D1_COMPOSITE_MODE_DESTINATION_COPY</b> is a no-op since the destination is already in the selected target.</li>
 </ul>
 <h3><a id="Sample_code"></a><a id="sample_code"></a><a id="SAMPLE_CODE"></a>Sample code</h3>
-For an example that uses composite modes, download the <a href="http://go.microsoft.com/fwlink/p/?linkid=231580">Direct2D composite effect modes sample</a>.
+For an example that uses composite modes, download the <a href="https://code.msdn.microsoft.com/windowsapps/Direct2D-Image-Effects-4819dc5b">Direct2D composite effect modes sample</a>.
 
 
 

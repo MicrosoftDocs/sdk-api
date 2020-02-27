@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 58506709-42e2-43e4-a4c7-b522b7d06e6f
 ms.date: 12/05/2018
 ms.keywords: DVD_PLAYBACK_LOCATION2, DVD_PLAYBACK_LOCATION2 structure [DirectShow], DVD_PLAYBACK_LOCATION2Structure, dshow.dvd_playback_location2, strmif/DVD_PLAYBACK_LOCATION2
-ms.topic: struct
 f1_keywords:
 - strmif/DVD_PLAYBACK_LOCATION2
 dev_langs:
@@ -73,12 +72,12 @@ Part-of-title number with title. 0xffffffff if not a simple linear movie.
 
 ### -field TimeCode
 
-Timecode. Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> for current playback time. 0xffffffff if not a simple linear movie.
+Timecode. Use [DVD_HMSF_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode) for current playback time. 0xffffffff if not a simple linear movie.
 
 
 ### -field TimeCodeFlags
 
-A bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_timecode_flags">DVD_TIMECODE_FLAGS</a> enumeration.
+A bitwise [DVD_TIMECODE_FLAGS](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_timecode_flags) enumeration.
 
 
 ## -remarks

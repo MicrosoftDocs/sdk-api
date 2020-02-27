@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 6102EAEA-24B5-43C2-9351-3E9F3D06F6D3
 ms.date: 12/05/2018
 ms.keywords: Matrix4x4F interface [Direct2D],SkewX method, Matrix4x4F.SkewX, Matrix4x4F::SkewX, SkewX, SkewX method [Direct2D], SkewX method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::SkewX, direct2d.matrix4x4f_skewx
-ms.topic: method
 f1_keywords:
 - d2d1_1helper/Matrix4x4F.SkewX
 dev_langs:

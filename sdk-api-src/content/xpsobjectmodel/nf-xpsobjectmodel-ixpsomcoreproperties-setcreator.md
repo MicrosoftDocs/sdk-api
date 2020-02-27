@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 83dd62df-71e1-44a6-bf38-461b7e26e54e
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetCreator method, IXpsOMCoreProperties.SetCreator, IXpsOMCoreProperties::SetCreator, SetCreator, SetCreator method [XPS Documents and Packaging], SetCreator method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcreator, xpsobjectmodel/IXpsOMCoreProperties::SetCreator
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.SetCreator
 dev_langs:
@@ -91,11 +90,11 @@ the resource.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

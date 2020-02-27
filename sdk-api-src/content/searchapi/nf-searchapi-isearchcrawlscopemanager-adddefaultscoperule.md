@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\adddefaultscoperule.htm
 ms.date: 12/05/2018
 ms.keywords: AddDefaultScopeRule, AddDefaultScopeRule method [search], AddDefaultScopeRule method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],AddDefaultScopeRule method, ISearchCrawlScopeManager.AddDefaultScopeRule, ISearchCrawlScopeManager::AddDefaultScopeRule, _search_ISearchCrawlScopeManager_AddDefaultScopeRule, search._search_ISearchCrawlScopeManager_AddDefaultScopeRule, searchapi/ISearchCrawlScopeManager::AddDefaultScopeRule
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchCrawlScopeManager.AddDefaultScopeRule
 dev_langs:
@@ -99,7 +98,7 @@ Default scope rules provide an initial set of scope rules. User scope rules alwa
 
 URLs passed in as parameters to <b>ISearchCrawlScopeManager::AddDefaultScopeRule</b> are expected to be fully URL-decoded and without URL control codes. For example, file:///c:\My Documents is fully URL-decoded, whereas file:///c:\My%20Documents is not.
 
-<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
+<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
 
 
 

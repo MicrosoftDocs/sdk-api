@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 67c9f04c-4b8e-4e97-902d-fceccf27f522
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_value_free, ldap.ldap__value__free, ldap.ldap_value_free, ldap_value_free, ldap_value_free function [LDAP], ldap_value_freeA, ldap_value_freeW, winldap/ldap_value_free, winldap/ldap_value_freeA, winldap/ldap_value_freeW
-ms.topic: function
 f1_keywords:
 - winldap/ldap_value_free
 dev_langs:

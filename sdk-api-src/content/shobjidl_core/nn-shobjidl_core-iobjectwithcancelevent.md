@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3bac219d-d9fd-4259-8f34-032554291327
 ms.date: 12/05/2018
 ms.keywords: IObjectWithCancelEvent, IObjectWithCancelEvent interface [Windows Shell], IObjectWithCancelEvent interface [Windows Shell],described, _shell_IObjectWithCancelEvent, shell.IObjectWithCancelEvent, shobjidl_core/IObjectWithCancelEvent
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IObjectWithCancelEvent
 dev_langs:

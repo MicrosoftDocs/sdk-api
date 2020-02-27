@@ -7,7 +7,6 @@ tech.root: WNet
 ms.assetid: 72d84752-4e64-4c16-872b-cb892dffbf9a
 ms.date: 12/05/2018
 ms.keywords: WNetGetConnection, WNetGetConnection function [Windows Networking (WNet)], WNetGetConnectionA, WNetGetConnectionW, _win32_wnetgetconnection, winnetwk/WNetGetConnection, winnetwk/WNetGetConnectionA, winnetwk/WNetGetConnectionW, wnet.wnetgetconnection
-ms.topic: function
 f1_keywords:
 - winnetwk/WNetGetConnection
 dev_langs:

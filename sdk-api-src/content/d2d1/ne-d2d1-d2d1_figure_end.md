@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 44821eef-7ecf-44c1-bbfb-df259c0489dd
 ms.date: 12/05/2018
 ms.keywords: D2D1_FIGURE_END, D2D1_FIGURE_END enumeration [Direct2D], D2D1_FIGURE_END_CLOSED, D2D1_FIGURE_END_OPEN, d2d1/D2D1_FIGURE_END, d2d1/D2D1_FIGURE_END_CLOSED, d2d1/D2D1_FIGURE_END_OPEN, direct2d.D2D1_FIGURE_END
-ms.topic: enum
 f1_keywords:
 - d2d1/D2D1_FIGURE_END
 dev_langs:

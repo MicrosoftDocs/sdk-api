@@ -5,7 +5,6 @@ description: For internal use only. Not intended to be called directl
 tech.root: mf
 ms.assetid: 207d33d0-1da3-41e9-a8ba-2210f907d25e
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoProcessCommandList::SetMarker
 dev_langs:

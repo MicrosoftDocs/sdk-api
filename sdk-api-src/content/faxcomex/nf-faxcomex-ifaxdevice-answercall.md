@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_76uk.htm
 ms.date: 12/05/2018
 ms.keywords: AnswerCall, AnswerCall method [Fax Service], AnswerCall method [Fax Service],IFaxDevice interface, IFaxDevice interface [Fax Service],AnswerCall method, IFaxDevice.AnswerCall, IFaxDevice::AnswerCall, _mfax_faxdevice.answercall, fax._mfax_faxdevice_answercall, fax._mfax_faxdevice_cpp_mfax_faxdevice_answercall_cpp, faxcomex/IFaxDevice::AnswerCall
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxDevice.AnswerCall
 dev_langs:

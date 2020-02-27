@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 9536444b-60e4-456f-b6d8-07cf9a6f7848
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_ISO9660InterchangeLevel method, IFileSystemImage.get_ISO9660InterchangeLevel, IFileSystemImage::get_ISO9660InterchangeLevel, get_ISO9660InterchangeLevel, get_ISO9660InterchangeLevel method [IMAPI], get_ISO9660InterchangeLevel method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_iso9660interchangelevel, imapi2fs/IFileSystemImage::get_ISO9660InterchangeLevel
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFileSystemImage.get_ISO9660InterchangeLevel
 dev_langs:

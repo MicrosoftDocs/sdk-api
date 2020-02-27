@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: fc3a7031-ac1b-45cf-889b-2d40d50b347d
 ms.date: 12/05/2018
 ms.keywords: IWMDMProgress3, IWMDMProgress3 interface [windows Media Device Manager], IWMDMProgress3 interface [windows Media Device Manager],described, IWMDMProgress3Interface, mswmdm/IWMDMProgress3, wmdm.iwmdmprogress3
-ms.topic: interface
 f1_keywords:
 - mswmdm/IWMDMProgress3
 dev_langs:

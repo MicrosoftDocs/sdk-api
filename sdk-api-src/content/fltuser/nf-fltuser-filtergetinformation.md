@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: d5124ac2-dd1e-46b2-b25c-e965768eaf9e
 ms.date: 12/05/2018
 ms.keywords: FilterGetInformation, FilterGetInformation function [Installable File System Drivers], FltWin32ApiRef_244d89a8-3a31-44bd-bc08-b3ea8bb4dbba.xml, fltuser/FilterGetInformation, ifsk.filtergetinformation
-ms.topic: function
 f1_keywords:
 - fltuser/FilterGetInformation
 dev_langs:
@@ -88,7 +87,7 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/conten
 
 </td>
 <td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_filter_aggregate_basic_information">FILTER_AGGREGATE_BASIC_INFORMATION</a> structure for the minifilter. This <i>dwInformationClass</i> value is available starting with Microsoft Windows Server 2003 with SP1 and Microsoft Windows XP with SP2 with filter manager rollup.  For more information about the filter manager rollup package for Windows XP with SP2, see article 914882, " <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;ID=914882">The filter manager rollup package for Windows XP SP2</a>," in the Microsoft Knowledge Base. 
+Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_filter_aggregate_basic_information">FILTER_AGGREGATE_BASIC_INFORMATION</a> structure for the minifilter. This <i>dwInformationClass</i> value is available starting with Microsoft Windows Server 2003 with SP1 and Microsoft Windows XP with SP2 with filter manager rollup.  For more information about the filter manager rollup package for Windows XP with SP2, see article 914882, " <a href="https://support.microsoft.com/?kbid&amp;ID=914882">The filter manager rollup package for Windows XP SP2</a>," in the Microsoft Knowledge Base. 
 
 </td>
 </tr>

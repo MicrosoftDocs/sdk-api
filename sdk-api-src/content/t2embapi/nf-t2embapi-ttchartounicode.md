@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: b5ed9429-31fa-4f78-8fc3-aeb5cb1540d1
 ms.date: 12/05/2018
 ms.keywords: TTCharToUnicode, TTCharToUnicode function [Windows GDI], _win32_BytesToUnicode, gdi.ttchartounicode, t2embapi/TTCharToUnicode
-ms.topic: function
 f1_keywords:
 - t2embapi/TTCharToUnicode
 dev_langs:

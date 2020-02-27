@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 4b1363c4-9cdd-4b28-a5ea-e5e554597be2
 ms.date: 12/05/2018
 ms.keywords: IConfigInterleaving interface [DirectShow],put_Interleaving method, IConfigInterleaving.put_Interleaving, IConfigInterleaving::put_Interleaving, IConfigInterleavingput_Interleaving, dshow.iconfiginterleaving_put_interleaving, put_Interleaving, put_Interleaving method [DirectShow], put_Interleaving method [DirectShow],IConfigInterleaving interface, strmif/IConfigInterleaving::put_Interleaving
-ms.topic: method
 f1_keywords:
 - strmif/IConfigInterleaving.put_Interleaving
 dev_langs:

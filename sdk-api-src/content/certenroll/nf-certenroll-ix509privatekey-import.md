@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 33e335e2-9c3f-4aa1-a393-db0ee8095b64
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_PRIVATE_KEY_BLOB, IX509PrivateKey interface [Security],Import method, IX509PrivateKey.Import, IX509PrivateKey::Import, Import, Import method [Security], Import method [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Import, security.ix509privatekey_import_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509PrivateKey.Import
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: a7ff84f0-15d2-4fb2-98c7-8fb8d2f14004
 ms.date: 12/05/2018
 ms.keywords: MsiRecordReadStream, MsiRecordReadStream function, _msi_msirecordreadstream, msiquery/MsiRecordReadStream, setup.msirecordreadstream
-ms.topic: function
 f1_keywords:
 - msiquery/MsiRecordReadStream
 dev_langs:

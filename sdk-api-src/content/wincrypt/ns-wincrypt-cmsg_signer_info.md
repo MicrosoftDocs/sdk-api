@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: eae631d2-5e5f-4964-b079-9692831b34fc
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_SIGNER_INFO, CMSG_SIGNER_INFO, CMSG_SIGNER_INFO structure [Security], PCMSG_SIGNER_INFO, PCMSG_SIGNER_INFO structure pointer [Security], _crypto2_cmsg_signer_info, security.cmsg_signer_info, wincrypt/CMSG_SIGNER_INFO, wincrypt/PCMSG_SIGNER_INFO'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CMSG_SIGNER_INFO
 dev_langs:

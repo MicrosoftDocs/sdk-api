@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8429778b-bc9c-43f6-8d75-0fb78e36e790
 ms.date: 12/05/2018
 ms.keywords: QISearch, QISearch function [Windows Shell], _win32_QISearch, shell.QISearch, shlwapi/QISearch
-ms.topic: function
 f1_keywords:
 - shlwapi/QISearch
 dev_langs:
@@ -55,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-A table-driven implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method.
+A table-driven implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method.
 
 
 ## -parameters

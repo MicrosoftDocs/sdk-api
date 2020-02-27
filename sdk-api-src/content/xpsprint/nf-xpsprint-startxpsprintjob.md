@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d982ae2e-c68f-4197-b419-22a63e61db8a
 ms.date: 12/05/2018
 ms.keywords: StartXpsPrintJob, StartXpsPrintJob function [Windows GDI], gdi.startxpsprintjob, xpsprint/StartXpsPrintJob
-ms.topic: function
 f1_keywords:
 - xpsprint/StartXpsPrintJob
 dev_langs:
@@ -312,7 +311,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nn-xpsprint
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

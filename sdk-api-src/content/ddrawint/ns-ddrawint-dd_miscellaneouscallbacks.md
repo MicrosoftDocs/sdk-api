@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 9bf47408-cc7f-455d-bbb2-6f1f318eee5f
 ms.date: 12/05/2018
 ms.keywords: '*PDD_MISCELLANEOUSCALLBACKS, DD_MISCELLANEOUSCALLBACKS, DD_MISCELLANEOUSCALLBACKS structure [Display Devices], PDD_MISCELLANEOUSCALLBACKS, PDD_MISCELLANEOUSCALLBACKS structure pointer [Display Devices], ddrawint/DD_MISCELLANEOUSCALLBACKS, ddrawint/PDD_MISCELLANEOUSCALLBACKS, ddstrcts_1345d66b-a9c2-497a-ba08-4fc901b24173.xml, display.dd_miscellaneouscallbacks'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_MISCELLANEOUSCALLBACKS
 dev_langs:

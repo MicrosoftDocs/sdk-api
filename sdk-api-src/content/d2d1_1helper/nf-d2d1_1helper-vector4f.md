@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 0664EEFB-E3F7-4393-A595-D2BEF74E0492
 ms.date: 12/05/2018
 ms.keywords: Vector4F, Vector4F function [Direct2D], d2d1_1helper/Vector4F, direct2d.vector4f
-ms.topic: function
 f1_keywords:
 - d2d1_1helper/Vector4F
 dev_langs:

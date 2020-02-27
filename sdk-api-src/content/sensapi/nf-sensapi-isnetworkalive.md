@@ -7,7 +7,6 @@ tech.root: Sens
 ms.assetid: 1a2f3acd-0626-4fb2-8c5f-f3a0704cc0b4
 ms.date: 12/05/2018
 ms.keywords: IsNetworkAlive, IsNetworkAlive function [SENS], _zaw_isnetworkalive, sens.isnetworkalive, sensapi/IsNetworkAlive, syncmgr.isnetworkalive
-ms.topic: function
 f1_keywords:
 - sensapi/IsNetworkAlive
 dev_langs:

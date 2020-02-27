@@ -7,7 +7,6 @@ tech.root: InputMsg
 ms.assetid: a4f6a9f3-dfbd-4413-aae7-f58e1521ef1d
 ms.date: 12/05/2018
 ms.keywords: GetPointerFramePenInfoHistory, GetPointerFramePenInfoHistory function [Input Messages and Notifications], inputmsg.getpointerframepeninfohistory, winuser/GetPointerFramePenInfoHistory
-ms.topic: function
 f1_keywords:
 - winuser/GetPointerFramePenInfoHistory
 dev_langs:

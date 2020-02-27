@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e57140d5-bd92-48e3-8e3a-a112559e3e0c
 ms.date: 12/05/2018
 ms.keywords: LongPtrToLong, LongPtrToLong function [Windows Shell], SSIZETToLong, _shell_LongPtrToLong, intsafe/LongPtrToLong, shell.LongPtrToLong
-ms.topic: function
 f1_keywords:
 - intsafe/LongPtrToLong
 dev_langs:

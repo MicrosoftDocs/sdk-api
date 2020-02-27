@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 908e7204-d168-4179-9c7b-ad46ba68bebc
 ms.date: 12/05/2018
 ms.keywords: PathMatchSpec, PathMatchSpec function [Windows Shell], PathMatchSpecA, PathMatchSpecW, _win32_PathMatchSpec, shell.PathMatchSpec, shlwapi/PathMatchSpec, shlwapi/PathMatchSpecA, shlwapi/PathMatchSpecW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathMatchSpec
 dev_langs:

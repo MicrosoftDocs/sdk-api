@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\driverstringoptions.htm
 ms.date: 12/05/2018
 ms.keywords: DriverStringOptions, DriverStringOptions enumeration [GDI+], DriverStringOptionsCmapLookup, DriverStringOptionsLimitSubpixel, DriverStringOptionsRealizedAdvance, DriverStringOptionsVertical, _gdiplus_ENUM_DriverStringOptions, gdiplus._gdiplus_ENUM_DriverStringOptions, gdiplusenums/DriverStringOptions, gdiplusenums/DriverStringOptionsCmapLookup, gdiplusenums/DriverStringOptionsLimitSubpixel, gdiplusenums/DriverStringOptionsRealizedAdvance, gdiplusenums/DriverStringOptionsVertical
-ms.topic: enum
 f1_keywords:
 - gdiplusenums/DriverStringOptions
 dev_langs:

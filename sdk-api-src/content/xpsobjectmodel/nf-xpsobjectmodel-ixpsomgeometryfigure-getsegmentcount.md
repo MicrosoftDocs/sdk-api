@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 17b302c0-31e3-460b-9771-3f293c94447a
 ms.date: 12/05/2018
 ms.keywords: GetSegmentCount, GetSegmentCount method [XPS Documents and Packaging], GetSegmentCount method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentCount method, IXpsOMGeometryFigure.GetSegmentCount, IXpsOMGeometryFigure::GetSegmentCount, xps.ixpsomgeometryfigure_getsegmentcount, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentCount
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentCount
 dev_langs:
@@ -132,7 +131,7 @@ For an example of how to use this method in a program, see the code example in <
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

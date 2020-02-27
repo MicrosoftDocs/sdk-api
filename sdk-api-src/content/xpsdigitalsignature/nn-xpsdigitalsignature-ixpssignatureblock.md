@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: cb2b7fe2-f3d9-4542-958f-5412d2498a9f
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureBlock, IXpsSignatureBlock interface [XPS Documents and Packaging], IXpsSignatureBlock interface [XPS Documents and Packaging],described, xps.ixpssignatureblock, xpsdigitalsignature/IXpsSignatureBlock
-ms.topic: interface
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureBlock
 dev_langs:
@@ -149,7 +148,7 @@ This interface cannot exist independently from the signature manager from which 
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

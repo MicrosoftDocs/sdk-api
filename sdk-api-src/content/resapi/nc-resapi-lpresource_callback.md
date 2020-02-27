@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 1e36be6d-d869-4af9-b22a-401638701bd2
 ms.date: 12/05/2018
 ms.keywords: LPRESOURCE_CALLBACK, LPRESOURCE_CALLBACK callback function [Failover Cluster], ResourceCallback, ResourceCallback callback, ResourceCallback callback function [Failover Cluster], mscs.lpresource_callback, resapi/LPRESOURCE_CALLBACK, resapi/ResourceCallback
-ms.topic: callback
 f1_keywords:
 - resapi/ResourceCallback
 dev_langs:

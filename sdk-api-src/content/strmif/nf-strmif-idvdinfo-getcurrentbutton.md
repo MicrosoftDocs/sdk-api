@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 13df79ea-81c9-4060-8e11-ad7a24a7b5fa
 ms.date: 12/05/2018
 ms.keywords: GetCurrentButton, GetCurrentButton method [DirectShow], GetCurrentButton method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentButton method, IDvdInfo.GetCurrentButton, IDvdInfo::GetCurrentButton, IDvdInfoGetCurrentButton, dshow.idvdinfo_getcurrentbutton, strmif/IDvdInfo::GetCurrentButton
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo.GetCurrentButton
 dev_langs:
@@ -118,7 +117,7 @@ Requested action cannot occur at this point in the movie due to the authoring of
 
 If buttons are not present this method returns zero for both <i>pnButtonsAvailable</i> and <i>pnCurrentButton</i>.
 
-This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

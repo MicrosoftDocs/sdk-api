@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 6f3239dd-e29f-4340-a4ad-49ceb6a151de
 ms.date: 12/05/2018
 ms.keywords: IXpsSignature interface [XPS Documents and Packaging],Verify method, IXpsSignature.Verify, IXpsSignature::Verify, Verify, Verify method [XPS Documents and Packaging], Verify method [XPS Documents and Packaging],IXpsSignature interface, xps.ixpssignature_verify, xpsdigitalsignature/IXpsSignature::Verify
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignature.Verify
 dev_langs:
@@ -125,7 +124,7 @@ The interface is not connected to the signature manager.
 
 
 
-This method detects the signature status in the order that is specified in section 10.2.1.2 of the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>.
+This method detects the signature status in the order that is specified in section 10.2.1.2 of the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.
     The sequence of detection is as follows: incompliant, incomplete, broken, questionable, and, finally, valid.
     This means that  if, for example,  a signature is found to be incompliant, no digest will be calculated  if the signature is also broken.
 
@@ -155,7 +154,7 @@ For more information on the different types of signature statuses that can be de
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

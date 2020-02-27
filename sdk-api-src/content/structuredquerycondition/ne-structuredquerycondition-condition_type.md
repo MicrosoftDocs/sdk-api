@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\condition_type.htm
 ms.date: 12/05/2018
 ms.keywords: CONDITION_TYPE, CONDITION_TYPE enumeration [search], CT_AND_CONDITION, CT_LEAF_CONDITION, CT_NOT_CONDITION, CT_OR_CONDITION, _search_CONDITION_TYPE, search._search_CONDITION_TYPE, structuredquerycondition/CONDITION_TYPE, structuredquerycondition/CT_AND_CONDITION, structuredquerycondition/CT_LEAF_CONDITION, structuredquerycondition/CT_NOT_CONDITION, structuredquerycondition/CT_OR_CONDITION
-ms.topic: enum
 f1_keywords:
 - structuredquerycondition/CONDITION_TYPE
 dev_langs:
@@ -88,7 +87,7 @@ Indicates that the node is a comparison between a property and a constant value 
 
 In Windows 7, this enumeration is defined in structuredquerycondition.idl and structuredquerycondition.h. Prior to Windows 7 this enumeration was declared in structuredquery.h and structuredquery.idl.
 
-The StructuredQuerySample code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
+The StructuredQuerySample code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
 
 
 

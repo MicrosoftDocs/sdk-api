@@ -7,7 +7,6 @@ tech.root: WinSAT
 ms.assetid: c57d88b6-81ac-4314-8593-59a950348be4
 ms.date: 12/05/2018
 ms.keywords: IInitiateWinSATAssessment interface [WinSAT],InitiateAssessment method, IInitiateWinSATAssessment.InitiateAssessment, IInitiateWinSATAssessment::InitiateAssessment, InitiateAssessment, InitiateAssessment method [WinSAT], InitiateAssessment method [WinSAT],IInitiateWinSATAssessment interface, winsat.iinitiatewinsatassessment_initiateassessment, winsatcominterfacei/IInitiateWinSATAssessment::InitiateAssessment
-ms.topic: method
 f1_keywords:
 - winsatcominterfacei/IInitiateWinSATAssessment.InitiateAssessment
 dev_langs:
@@ -62,7 +61,7 @@ Initiates an ad hoc assessment.
 
 ### -param cmdLine [in]
 
-Command-line arguments to pass to WinSAT. The command line cannot be empty. For command line usage, see <a href="http://go.microsoft.com/fwlink/p/?linkid=74613">WinSAT Command Reference</a> on Microsoft TechNet.
+Command-line arguments to pass to WinSAT. The command line cannot be empty. For command line usage, see <a href="https://technet.microsoft.com/library/11b0e51f-fe58-4553-9e7c-a562e5385fbb.aspx">WinSAT Command Reference</a> on Microsoft TechNet.
 
 
 ### -param pCallbacks [in, optional]

@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 1b1ca72e-9c74-4e94-86a9-6fee12c83933
 ms.date: 12/05/2018
 ms.keywords: InternetSetCookie, InternetSetCookie function [WinINet], InternetSetCookieA, InternetSetCookieW, _win32_internetsetcookie, wininet.internetsetcookie, wininet/InternetSetCookie, wininet/InternetSetCookieA, wininet/InternetSetCookieW
-ms.topic: function
 f1_keywords:
 - wininet/InternetSetCookie
 dev_langs:
@@ -97,7 +96,7 @@ Creating a new cookie might cause a dialog box to appear on the screen asking th
 
 <div class="alert"><b>Caution</b>  <b>InternetSetCookie</b> will unconditionally create a cookie even if “Block all cookies” is set in Internet Explorer. This behavior can be viewed as a breach of privacy even though such cookies are not subsequently sent back to servers while the “Block all cookies” setting is active. Applications should use <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetcookieexa">InternetSetCookieEx</a> to correctly honor the user's privacy settings.
 
-<p class="note">For more cookie internals, see <a href="http://go.microsoft.com/fwlink/p/?linkid=186361">http://blogs.msdn.com/ieinternals/archive/2009/08/20/WinINET-IE-Cookie-Internals-FAQ.aspx</a>.
+<p class="note">For more cookie internals, see <a href="https://blogs.msdn.com/ieinternals/archive/2009/08/20/WinINET-IE-Cookie-Internals-FAQ.aspx">http://blogs.msdn.com/ieinternals/archive/2009/08/20/WinINET-IE-Cookie-Internals-FAQ.aspx</a>.
 
 </div>
 <div> </div>

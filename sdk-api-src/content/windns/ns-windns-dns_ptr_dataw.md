@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 8b7f8898-ac91-46da-876c-889c427068a3
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_PTR_DATA, *PDNS_PTR_DATAW, DNS_PTR_DATA, DNS_PTR_DATA structure [DNS], DNS_PTR_DATAW, PDNS_PTR_DATA, PDNS_PTR_DATA structure pointer [DNS], _dns_dns_ptr_data, dns.dns_ptr_data, windns/DNS_PTR_DATA, windns/PDNS_PTR_DATA'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_PTR_DATA
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>DNS_PTR_DATA</b> structure represents a DNS pointer (PTR) record as specified in section 3.3.12 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
+<b>DNS_PTR_DATA</b> structure represents a DNS pointer (PTR) record as specified in section 3.3.12 of <a href="https://www.ietf.org/rfc/rfc1035.txt">RFC 1035</a>.
 
 
 ## -struct-fields

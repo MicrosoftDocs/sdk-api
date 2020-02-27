@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: 6c8d1cb9-209b-47a0-b41c-6b4098a4a81e
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_UDP6TABLE_OWNER_PID, MIB_UDP6TABLE_OWNER_PID, MIB_UDP6TABLE_OWNER_PID structure [MIB], PMIB_UDP6TABLE_OWNER_PID, PMIB_UDP6TABLE_OWNER_PID structure pointer [MIB], iprtrmib/MIB_UDP6TABLE_OWNER_PID, iprtrmib/PMIB_UDP6TABLE_OWNER_PID, mib.mib_udp6table_owner_pid, udpmib/MIB_UDP6TABLE_OWNER_PID, udpmib/PMIB_UDP6TABLE_OWNER_PID'
-ms.topic: struct
 f1_keywords:
 - udpmib/MIB_UDP6TABLE_OWNER_PID
 dev_langs:
@@ -80,7 +79,7 @@ The <b>MIB_UDP6TABLE_OWNER_PID</b> structure may contain padding for alignment b
 
 
 The <b>MIB_UDP6TABLE_OWNER_PID</b> structure contains the UDP listener table for IPv6 on the local computer. The name is based on the definition of this table in RFC 2454 published by the IETF. For more information, see 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=85985">http://www.ietf.org/rfc/rfc2454.txt</a>. This table contains UDP  endpoints for IPv6 that have been bound to an address. It should be noted that an application can create a UDP socket and bind it to an address for the sole purpose of sending a UDP datagram, with no intention of receiving packets using this socket (functioning as a listener). 
+<a href="http://tools.ietf.org/html/rfc2454">http://www.ietf.org/rfc/rfc2454.txt</a>. This table contains UDP  endpoints for IPv6 that have been bound to an address. It should be noted that an application can create a UDP socket and bind it to an address for the sole purpose of sending a UDP datagram, with no intention of receiving packets using this socket (functioning as a listener). 
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udp6table_owner_module">MIB_UDP6TABLE_OWNER_MODULE</a> structure is an enhanced version of the  <b>MIB_UDP6TABLE_OWNER_PID</b> structure that includes any available ownership data for each UDP endpoint in the table.  The <b>MIB_UDP6TABLE_OWNER_PID</b> is an enhanced version of the <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udp6table">MIB_UDP6TABLE</a> that includes the process ID (PID) that issued the call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function for each UDP endpoint in the table.
 

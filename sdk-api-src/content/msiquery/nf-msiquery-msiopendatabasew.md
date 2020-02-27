@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 984996e3-aa2c-49ff-9067-ebefd3afdecb
 ms.date: 12/05/2018
 ms.keywords: MSIDBOPEN_CREATE, MSIDBOPEN_CREATEDIRECT, MSIDBOPEN_DIRECT, MSIDBOPEN_PATCHFILE, MSIDBOPEN_READONLY, MSIDBOPEN_TRANSACT, MsiOpenDatabase, MsiOpenDatabase function, MsiOpenDatabaseA, MsiOpenDatabaseW, _msi_msiopendatabase, msiquery/MsiOpenDatabase, msiquery/MsiOpenDatabaseA, msiquery/MsiOpenDatabaseW, setup.msiopendatabase
-ms.topic: function
 f1_keywords:
 - msiquery/MsiOpenDatabase
 dev_langs:

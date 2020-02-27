@@ -7,7 +7,6 @@ tech.root: Monitor
 ms.assetid: eafdec51-067c-4b57-ac07-ca6237bcde14
 ms.date: 12/05/2018
 ms.keywords: GetMonitorBrightness, GetMonitorBrightness function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorBrightness, monitor.getmonitorbrightness
-ms.topic: function
 f1_keywords:
 - highlevelmonitorconfigurationapi/GetMonitorBrightness
 dev_langs:

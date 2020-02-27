@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: d81b0aab-90b5-4583-b554-efe38c220e59
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpGetEndpoint, PeerPnrpGetEndpoint function [Peer Networking], p2p.peerpnrpgetendpoint, p2p/PeerPnrpGetEndpoint
-ms.topic: function
 f1_keywords:
 - p2p/PeerPnrpGetEndpoint
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ae97e1e2-011d-4bb1-ae11-eda401e1d337
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferSink2, IStreamBufferSink2 interface [Microsoft TV Technologies], IStreamBufferSink2 interface [Microsoft TV Technologies],described, IStreamBufferSink2Interface, mstv.istreambuffersink2, sbe/IStreamBufferSink2
-ms.topic: interface
 f1_keywords:
 - sbe/IStreamBufferSink2
 dev_langs:

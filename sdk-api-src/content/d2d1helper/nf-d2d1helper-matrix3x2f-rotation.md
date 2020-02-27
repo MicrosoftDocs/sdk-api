@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 9bb3ee14-3637-41fc-9164-1114619a59e4
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.Rotation, D2D1::Matrix3x2F::Rotation, Matrix3x2F interface [Direct2D],Rotation method, Matrix3x2F.Rotation, Matrix3x2F::Rotation, Rotation, Rotation method [Direct2D], Rotation method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::Rotation, direct2d.matrix3x2f_rotate
-ms.topic: method
 f1_keywords:
 - d2d1helper/Matrix3x2F.Rotation
 dev_langs:
@@ -93,7 +92,7 @@ When calling this method, specify a <i>centerPoint</i> to rotate the object abou
 
 #### Examples
 
-The following example uses the <b>D2D1::Matrix3x2F::Rotation</b>  method to create a rotation matrix that rotates a square clockwise 45 degrees about the center of the square and passes the matrix to the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-settransform">SetTransform</a> method of the render target (<i>m_pRenderTarget</i>).
+The following example uses the <b>D2D1::Matrix3x2F::Rotation</b>  method to create a rotation matrix that rotates a square clockwise 45 degrees about the center of the square and passes the matrix to the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settransform(constd2d1_matrix_3x2_f_)">SetTransform</a> method of the render target (<i>m_pRenderTarget</i>).
 
 The following illustration shows the effect of applying the  preceding rotation transformation to the square. The original square is a dotted outline, and the rotated square is a solid outline. 
 

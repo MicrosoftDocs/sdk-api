@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: 6CDA8EDD-C8A5-471D-9716-3AB29E571133
 ms.date: 12/05/2018
 ms.keywords: WerRegisterExcludedMemoryBlock, WerRegisterExcludedMemoryBlock function [Windows Error Reporting], wer.werregisterexcludedmemoryblock, werapi/WerRegisterExcludedMemoryBlock
-ms.topic: function
 f1_keywords:
 - werapi/WerRegisterExcludedMemoryBlock
 dev_langs:

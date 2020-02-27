@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 00d4823d-114d-4cc7-afdf-54c7fed3fe45
 ms.date: 12/05/2018
 ms.keywords: '*LPIN_ADDR, *PIN_ADDR, IN_ADDR, IPAddr, IPAddr structure [IP Helper], in_addr, in_addr structure [IP Helper], inaddr/in_addr, ipexport/in_addr, iphlp.ipaddr'
-ms.topic: struct
 f1_keywords:
 - inaddr/IPAddr
 dev_langs:

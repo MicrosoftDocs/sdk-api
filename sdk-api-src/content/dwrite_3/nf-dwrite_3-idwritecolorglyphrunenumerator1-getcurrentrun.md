@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 0FEFD8EB-20E7-4E04-9C31-1A763D2FB816
 ms.date: 12/05/2018
 ms.keywords: GetCurrentRun, GetCurrentRun method [Direct Write], GetCurrentRun method [Direct Write],IDWriteColorGlyphRunEnumerator1 interface, IDWriteColorGlyphRunEnumerator1 interface [Direct Write],GetCurrentRun method, IDWriteColorGlyphRunEnumerator1.GetCurrentRun, IDWriteColorGlyphRunEnumerator1::GetCurrentRun, directwrite.idwritecolorglyphrunenumerator1_getcurrentrun, dwrite_3/IDWriteColorGlyphRunEnumerator1::GetCurrentRun
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteColorGlyphRunEnumerator1.GetCurrentRun
 dev_langs:

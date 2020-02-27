@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: AE327416-2165-4383-B301-176211E8BE65
 ms.date: 12/5/2018
 ms.keywords: DML_ELEMENT_WISE_CEIL_OPERATOR_DESC, DML_ELEMENT_WISE_CEIL_OPERATOR_DESC structure, direct3d12.dml_element_wise_ceil_operator_desc, directml/DML_ELEMENT_WISE_CEIL_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_ELEMENT_WISE_CEIL_OPERATOR_DESC
 dev_langs:

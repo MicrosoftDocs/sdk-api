@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 1bde9359-6d0e-4d8f-9c9b-ceabaf2da61f
 ms.date: 12/05/2018
 ms.keywords: EnumReqCategoriesOfClass, EnumReqCategoriesOfClass method [COM], EnumReqCategoriesOfClass method [COM],ICatInformation interface, ICatInformation interface [COM],EnumReqCategoriesOfClass method, ICatInformation.EnumReqCategoriesOfClass, ICatInformation::EnumReqCategoriesOfClass, _com_icatinformation_enumreqcategoriesofclass, com.icatinformation_enumreqcategoriesofclass, comcat/ICatInformation::EnumReqCategoriesOfClass
-ms.topic: method
 f1_keywords:
 - comcat/ICatInformation.EnumReqCategoriesOfClass
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: cf5c31ae-6749-45c2-888f-697060cc8c75
 ms.date: 12/05/2018
 ms.keywords: ImpersonateLoggedOnUser, ImpersonateLoggedOnUser function [Security], _win32_impersonateloggedonuser, security.impersonateloggedonuser, securitybaseapi/ImpersonateLoggedOnUser
-ms.topic: function
 f1_keywords:
 - securitybaseapi/ImpersonateLoggedOnUser
 dev_langs:

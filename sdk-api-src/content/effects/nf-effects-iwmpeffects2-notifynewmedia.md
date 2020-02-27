@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: ad1082af-9cba-4427-bacb-e552910f8e16
 ms.date: 12/05/2018
 ms.keywords: IWMPEffects2 interface [Windows Media Player],NotifyNewMedia method, IWMPEffects2.NotifyNewMedia, IWMPEffects2::NotifyNewMedia, IWMPEffectsNotifyNewMedia, NotifyNewMedia, NotifyNewMedia method [Windows Media Player], NotifyNewMedia method [Windows Media Player],IWMPEffects2 interface, effects/IWMPEffects2::NotifyNewMedia, wmp.iwmpeffects2_notifynewmedia
-ms.topic: method
 f1_keywords:
 - effects/IWMPEffects2.NotifyNewMedia
 dev_langs:

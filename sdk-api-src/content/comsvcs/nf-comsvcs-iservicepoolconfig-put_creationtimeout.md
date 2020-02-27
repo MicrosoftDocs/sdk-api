@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 04beabf7-831d-4c53-880e-f1fc22f2f20d
 ms.date: 12/05/2018
 ms.keywords: IServicePoolConfig interface [COM+],put_CreationTimeout method, IServicePoolConfig.put_CreationTimeout, IServicePoolConfig::put_CreationTimeout, comsvcs/IServicePoolConfig::put_CreationTimeout, cos.iservicepoolconfig_put_creationtimeout, put_CreationTimeout, put_CreationTimeout method [COM+], put_CreationTimeout method [COM+],IServicePoolConfig interface
-ms.topic: method
 f1_keywords:
 - comsvcs/IServicePoolConfig.put_CreationTimeout
 dev_langs:

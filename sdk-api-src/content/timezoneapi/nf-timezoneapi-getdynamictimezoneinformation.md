@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 9f96f779-7e4f-4a50-a9dc-f3bc86c76ece
 ms.date: 12/05/2018
 ms.keywords: GetDynamicTimeZoneInformation, GetDynamicTimeZoneInformation function, base.getdynamictimezoneinformation, timezoneapi/GetDynamicTimeZoneInformation
-ms.topic: function
 f1_keywords:
 - timezoneapi/GetDynamicTimeZoneInformation
 dev_langs:

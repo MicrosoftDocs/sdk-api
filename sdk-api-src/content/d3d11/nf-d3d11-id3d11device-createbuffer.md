@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 5aec93c5-12a1-4b4e-813e-ee1e85adbf14
 ms.date: 12/05/2018
 ms.keywords: CreateBuffer, CreateBuffer method [Direct3D 11], CreateBuffer method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateBuffer method, ID3D11Device.CreateBuffer, ID3D11Device::CreateBuffer, d3d11/ID3D11Device::CreateBuffer, direct3d11.id3d11device_createbuffer, e4ddf93d-90c3-2369-284d-e5d67efaf51e
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11Device.CreateBuffer
 dev_langs:
@@ -122,14 +121,11 @@ You can create a constant buffer that is larger than the maximum constant buffer
           When you bind the constant buffer to the pipeline (for example, via <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-pssetconstantbuffers">PSSetConstantBuffers</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-pssetconstantbuffers1">PSSetConstantBuffers1</a>), 
           you can define a range of the buffer that the shader can access that fits within the 4096 constant limit.
         
+The Direct3D 11.1 runtime (available in Windows 8 and later operating systems) emulates this feature for [feature level](/windows/win32/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9.1, 9.2, and 9.3; therefore, this feature is supported for feature level 9.1, 9.2, and 9.3.
 
-The runtime will emulate this feature for <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> 9.1, 9.2, and 9.3; therefore, this feature is supported for feature level 9.1, 9.2, and 9.3.
-          This feature is always available on new drivers for feature level 10 and higher.
-          On existing drivers that are implemented to feature level 10 and higher, a call to <b>CreateBuffer</b> to request a constant buffer that is larger than 4096 fails.
-        
+This feature is always available on new drivers for feature level 10 and higher.
 
-
-
+On runtimes older than Direct3D 11.1, a call to **CreateBuffer** to request a constant buffer that is larger than 4096 fails.
 
 ## -see-also
 

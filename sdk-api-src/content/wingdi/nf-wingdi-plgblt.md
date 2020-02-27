@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 2a56c71b-2e96-418b-8625-a808d76e0c85
 ms.date: 12/05/2018
 ms.keywords: PlgBlt, PlgBlt function [Windows GDI], _win32_PlgBlt, gdi.plgblt, wingdi/PlgBlt
-ms.topic: function
 f1_keywords:
 - wingdi/PlgBlt
 dev_langs:

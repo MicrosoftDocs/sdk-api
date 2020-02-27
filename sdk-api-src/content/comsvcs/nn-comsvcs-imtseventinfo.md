@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 9508df6d-281b-4a02-bb95-233b369b8279
 ms.date: 12/05/2018
 ms.keywords: IMtsEventInfo, IMtsEventInfo interface [COM+], IMtsEventInfo interface [COM+],described, _dtc_IMtsEventInfo_Interface, comsvcs/IMtsEventInfo, cos.imtseventinfo
-ms.topic: interface
 f1_keywords:
 - comsvcs/IMtsEventInfo
 dev_langs:

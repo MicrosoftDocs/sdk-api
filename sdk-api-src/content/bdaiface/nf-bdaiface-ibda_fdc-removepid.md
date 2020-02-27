@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 1277726c-6443-416c-a5d4-044d5f885af7
 ms.date: 12/05/2018
 ms.keywords: IBDA_FDC interface [Microsoft TV Technologies],RemovePid method, IBDA_FDC.RemovePid, IBDA_FDC::RemovePid, RemovePid, RemovePid method [Microsoft TV Technologies], RemovePid method [Microsoft TV Technologies],IBDA_FDC interface, bdaiface/IBDA_FDC::RemovePid, mstv.ibda_fdc_removepid
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_FDC.RemovePid
 dev_langs:

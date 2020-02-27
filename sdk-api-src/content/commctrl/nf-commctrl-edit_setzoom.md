@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 228EE5A0-AFAE-4485-8942-EB9BB6C12D54
 ms.date: 12/05/2018
 ms.keywords: Edit_SetZoom, Edit_SetZoom macro [Windows Controls], commctrl/Edit_SetZoom, controls.edit_setzoom
-ms.topic: macro
 f1_keywords:
 - commctrl/Edit_SetZoom
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 6e53b914-2ad8-408a-9671-50a01a8a42f1
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_count_entries, ldap.ldap__count__entries, ldap.ldap_count_entries, ldap_count_entries, ldap_count_entries function [LDAP], winldap/ldap_count_entries
-ms.topic: function
 f1_keywords:
 - winldap/ldap_count_entries
 dev_langs:

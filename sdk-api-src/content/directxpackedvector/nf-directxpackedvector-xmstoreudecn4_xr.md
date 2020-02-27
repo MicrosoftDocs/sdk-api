@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: 4DCE74D6-48CF-43D8-BF69-368A95F823F1
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreUDecN4_XR, XMStoreUDecN4_XR, XMStoreUDecN4_XR method [DirectX Math Support APIs], dxmath._xmstoreudecn4_xr
-ms.topic: function
 f1_keywords:
 - directxpackedvector/XMStoreUDecN4_XR
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 60d6b0e2-5ab2-4a20-99d9-e6b806a1f576
 ms.date: 12/05/2018
 ms.keywords: 60d6b0e2-5ab2-4a20-99d9-e6b806a1f576, MFCreateSourceResolver, MFCreateSourceResolver function [Media Foundation], mf.mfcreatesourceresolver, mfidl/MFCreateSourceResolver
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreateSourceResolver
 dev_langs:

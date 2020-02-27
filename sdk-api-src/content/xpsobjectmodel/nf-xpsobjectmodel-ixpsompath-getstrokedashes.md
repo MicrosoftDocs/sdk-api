@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 60c76c8f-1434-4347-9639-a886d6ae133c
 ms.date: 12/05/2018
 ms.keywords: GetStrokeDashes, GetStrokeDashes method [XPS Documents and Packaging], GetStrokeDashes method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeDashes method, IXpsOMPath.GetStrokeDashes, IXpsOMPath::GetStrokeDashes, xps.ixpsompath_getstrokedashes, xpsobjectmodel/IXpsOMPath::GetStrokeDashes
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.GetStrokeDashes
 dev_langs:
@@ -115,7 +114,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

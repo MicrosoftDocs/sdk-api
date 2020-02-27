@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: bc0ac424-3c5b-41bf-9dae-bcb405d5b548
 ms.date: 12/05/2018
 ms.keywords: IsWow64Message, IsWow64Message function, base.iswow64message, winuser/IsWow64Message
-ms.topic: function
 f1_keywords:
 - winuser/IsWow64Message
 dev_langs:

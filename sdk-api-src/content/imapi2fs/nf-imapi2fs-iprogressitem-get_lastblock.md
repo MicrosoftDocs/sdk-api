@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: ad75e708-4a10-45b9-89c2-11270f6edd9e
 ms.date: 12/05/2018
 ms.keywords: IProgressItem interface [IMAPI],get_LastBlock method, IProgressItem.get_LastBlock, IProgressItem::get_LastBlock, get_LastBlock, get_LastBlock method [IMAPI], get_LastBlock method [IMAPI],IProgressItem interface, imapi.iprogressitem_get_lastblock, imapi2fs/IProgressItem::get_LastBlock
-ms.topic: method
 f1_keywords:
 - imapi2fs/IProgressItem.get_LastBlock
 dev_langs:

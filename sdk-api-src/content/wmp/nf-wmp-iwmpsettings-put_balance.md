@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: bb198bc0-a0cf-4f6b-9a1e-f9a552db7092
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_balance method, IWMPSettings.put_balance, IWMPSettings::put_balance, IWMPSettingsput_balance, put_balance, put_balance method [Windows Media Player], put_balance method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_balance, wmp/IWMPSettings::put_balance
-ms.topic: method
 f1_keywords:
 - wmp/IWMPSettings.put_balance
 dev_langs:

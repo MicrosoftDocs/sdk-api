@@ -7,7 +7,6 @@ tech.root: mediastreaming
 ms.assetid: 34D11925-387B-414F-A176-336BBCF87821
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],add_TransportParametersUpdate method, IMediaRenderer.add_TransportParametersUpdate, IMediaRenderer.streaming, IMediaRenderer::add_TransportParametersUpdate, IMediaRenderer::streaming, add_TransportParametersUpdate, add_TransportParametersUpdate method [Media Streaming API], add_TransportParametersUpdate method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_add_transportparametersupdate, windows/IMediaRenderer::add_TransportParametersUpdate
-ms.topic: method
 f1_keywords:
 - windows.media.streaming/IMediaRenderer.add_TransportParametersUpdate
 dev_langs:

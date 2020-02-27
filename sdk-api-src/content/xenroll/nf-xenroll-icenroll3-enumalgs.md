@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: b7fe4abc-38e8-42a0-a7a0-312ccfc309e5
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],EnumAlgs method, EnumAlgs, EnumAlgs method [Security], EnumAlgs method [Security],CEnroll object, EnumAlgs method [Security],ICEnroll3 interface, EnumAlgs method [Security],ICEnroll4 interface, ICEnroll3 interface [Security],EnumAlgs method, ICEnroll3.EnumAlgs, ICEnroll3::EnumAlgs, ICEnroll4 interface [Security],EnumAlgs method, ICEnroll4::EnumAlgs, security.icenroll4_enumalgs, xenroll/ICEnroll3::EnumAlgs, xenroll/ICEnroll4::EnumAlgs
-ms.topic: method
 f1_keywords:
 - xenroll/ICEnroll4.EnumAlgs
 dev_langs:

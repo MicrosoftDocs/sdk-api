@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 0885ef81-726d-41ca-be8c-b3ff2e02fc3c
 ms.date: 12/05/2018
 ms.keywords: ITCallStateEvent, ITCallStateEvent interface [TAPI 2.2], ITCallStateEvent interface [TAPI 2.2],described, _tapi3_itcallstateevent, tapi3.itcallstateevent, tapi3if/ITCallStateEvent
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITCallStateEvent
 dev_langs:

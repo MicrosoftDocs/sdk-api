@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: de625328-59ba-4574-9b7b-3e8fc643c8ad
 ms.date: 12/05/2018
 ms.keywords: GetLinkReference, GetLinkReference method [Windows Shell], GetLinkReference method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetLinkReference method, ISyncMgrEvent.GetLinkReference, ISyncMgrEvent::GetLinkReference, _shell_ISyncMgrEvent_GetLinkReference, shell.ISyncMgrEvent_GetLinkReference, syncmgr/ISyncMgrEvent::GetLinkReference
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrEvent.GetLinkReference
 dev_langs:

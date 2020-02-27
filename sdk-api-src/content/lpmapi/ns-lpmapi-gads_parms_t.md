@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 06492722-948d-407a-b1bf-e1c4f5ea7f89
 ms.date: 12/05/2018
 ms.keywords: Gads_parms_t, Gads_parms_t structure [QOS], lpmapi/Gads_parms_t, qos.gads_parms_t
-ms.topic: struct
 f1_keywords:
 - lpmapi/Gads_parms_t
 dev_langs:

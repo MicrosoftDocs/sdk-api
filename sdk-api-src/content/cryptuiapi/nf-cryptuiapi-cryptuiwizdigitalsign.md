@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 1d01523e-d47b-49be-82c8-5e98f97be800
 ms.date: 12/05/2018
 ms.keywords: CRYPTUI_WIZ_NO_UI, CryptUIWizDigitalSign, CryptUIWizDigitalSign function [Security], cryptuiapi/CryptUIWizDigitalSign, security.cryptuiwizdigitalsign
-ms.topic: function
 f1_keywords:
 - cryptuiapi/CryptUIWizDigitalSign
 dev_langs:

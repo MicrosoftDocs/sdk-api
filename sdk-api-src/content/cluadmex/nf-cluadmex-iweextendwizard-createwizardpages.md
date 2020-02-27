@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: b52ea5a5-aa80-4f65-9bab-b60fa8363b01
 ms.date: 12/05/2018
 ms.keywords: CreateWizardPages, CreateWizardPages method [Failover Cluster], CreateWizardPages method [Failover Cluster],IWEExtendWizard interface, IWEExtendWizard interface [Failover Cluster],CreateWizardPages method, IWEExtendWizard.CreateWizardPages, IWEExtendWizard::CreateWizardPages, _wolf_iweextendwizard_createwizardpages, cluadmex/IWEExtendWizard::CreateWizardPages, mscs.iweextendwizard_createwizardpages
-ms.topic: method
 f1_keywords:
 - cluadmex/IWEExtendWizard.CreateWizardPages
 dev_langs:
@@ -68,7 +67,7 @@ Allows you to create wizard pages and add them to
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer for retrieving information 
        relating to the wizard pages to be added. By calling 
-       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> with the 
+       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> with the 
        <i>piData</i> pointer, the following interfaces are available:
 
 <ul>
@@ -177,7 +176,7 @@ To add Wizard97 wizard pages, use the
 
 <ol>
 <li>Use <i>piData</i> to call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> and retrieve an interface 
+       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> and retrieve an interface 
        pointer for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster object</a> associated with the new 
        page. For example, if you are adding a property page for a resource, you want to retrieve a pointer to the 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterresourceinfo">IGetClusterResourceInfo</a> interface. 

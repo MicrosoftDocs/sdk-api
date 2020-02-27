@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: bc42b90b-51db-4e13-af2f-4942923badf6
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseCommit, MsiDatabaseCommit function, _msi_msidatabasecommit, msiquery/MsiDatabaseCommit, setup.msidatabasecommit
-ms.topic: function
 f1_keywords:
 - msiquery/MsiDatabaseCommit
 dev_langs:

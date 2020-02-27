@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_setimagecount.htm
 ms.date: 12/05/2018
 ms.keywords: ImageList_SetImageCount, ImageList_SetImageCount function [Windows Controls], _win32_ImageList_SetImageCount, _win32_ImageList_SetImageCount_cpp, commctrl/ImageList_SetImageCount, controls.ImageList_SetImageCount, controls._win32_ImageList_SetImageCount
-ms.topic: function
 f1_keywords:
 - commctrl/ImageList_SetImageCount
 dev_langs:

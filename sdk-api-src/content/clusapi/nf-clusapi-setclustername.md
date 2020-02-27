@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: fac59879-d73c-4955-8454-a2e9d185da10
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_SetClusterName, PCLUSAPI_SetClusterName function [Failover Cluster], SetClusterName, SetClusterName function [Failover Cluster], _wolf_setclustername, clusapi/PCLUSAPI_SetClusterName, clusapi/SetClusterName, mscs.setclustername
-ms.topic: function
 f1_keywords:
 - clusapi/SetClusterName
 dev_langs:

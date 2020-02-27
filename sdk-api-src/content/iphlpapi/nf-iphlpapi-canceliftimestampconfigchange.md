@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: F9F917D4-44E1-437C-A40F-4CA8FFB5702C
 ms.date: 12/05/2018
 ms.keywords: CancelIfTimestampConfigChange, CancelIfTimestampConfigChange function [IP Helper], iphlp.canceliftimestampconfigchange, iphlpapi/CancelIfTimestampConfigChange
-ms.topic: function
 f1_keywords:
 - iphlpapi/CancelIfTimestampConfigChange
 dev_langs:

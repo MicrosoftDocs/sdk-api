@@ -7,7 +7,6 @@ tech.root: WinHttp
 ms.assetid: bcf1da09-5787-4d2a-82ae-6965e27fa477
 ms.date: 12/05/2018
 ms.keywords: WinHttpSetOption, WinHttpSetOption function [WinHTTP], http.winhttpsetoption, winhttp.winhttpsetoption_function, winhttp/WinHttpSetOption
-ms.topic: function
 f1_keywords:
 - winhttp/WinHttpSetOption
 dev_langs:
@@ -85,7 +84,7 @@ Unsigned long integer value that contains the length of the
 
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following:
 
 <table>
 <tr>

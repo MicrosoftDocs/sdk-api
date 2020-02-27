@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 4e58c019-d89d-472d-9b6f-b335b184f998
 ms.date: 12/05/2018
 ms.keywords: GetColorInterpolationMode, GetColorInterpolationMode method [XPS Documents and Packaging], GetColorInterpolationMode method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetColorInterpolationMode method, IXpsOMGradientBrush.GetColorInterpolationMode, IXpsOMGradientBrush::GetColorInterpolationMode, xps.ixpsomgradientbrush_getcolorinterpolationmode, xpsobjectmodel/IXpsOMGradientBrush::GetColorInterpolationMode
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGradientBrush.GetColorInterpolationMode
 dev_langs:
@@ -111,7 +110,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

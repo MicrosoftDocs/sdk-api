@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 5ce13a05-874c-4e1a-9be8-aed98609791e
 ms.date: 12/05/2018
 ms.keywords: ApplyControlToken, ApplyControlToken function [Security], _ssp_applycontroltoken, security.applycontroltoken, sspi/ApplyControlToken
-ms.topic: function
 f1_keywords:
 - sspi/ApplyControlToken
 dev_langs:

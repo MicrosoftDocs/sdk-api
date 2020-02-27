@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: bbd45185-439a-4847-8481-7139e81b34fd
 ms.date: 12/05/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],Remove method, IFsiDirectoryItem.Remove, IFsiDirectoryItem::Remove, Remove, Remove method [IMAPI], Remove method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_remove, imapi2fs/IFsiDirectoryItem::Remove
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFsiDirectoryItem.Remove
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 80a96083-4de9-4422-9705-b8ad2b6cbd1b
 ms.date: 12/05/2018
 ms.keywords: 0, CREATE_ALWAYS, CREATE_NEW, CreateFile, CreateFile function [Files], CreateFileA, CreateFileW, FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, FILE_FLAG_BACKUP_SEMANTICS, FILE_FLAG_DELETE_ON_CLOSE, FILE_FLAG_NO_BUFFERING, FILE_FLAG_OPEN_NO_RECALL, FILE_FLAG_OPEN_REPARSE_POINT, FILE_FLAG_OVERLAPPED, FILE_FLAG_POSIX_SEMANTICS, FILE_FLAG_RANDOM_ACCESS, FILE_FLAG_SEQUENTIAL_SCAN, FILE_FLAG_SESSION_AWARE, FILE_FLAG_WRITE_THROUGH, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OPEN_ALWAYS, OPEN_EXISTING, SECURITY_ANONYMOUS, SECURITY_CONTEXT_TRACKING, SECURITY_DELEGATION, SECURITY_EFFECTIVE_ONLY, SECURITY_IDENTIFICATION, SECURITY_IMPERSONATION, TRUNCATE_EXISTING, _win32_createfile, base.createfile, fileapi/CreateFile, fileapi/CreateFileA, fileapi/CreateFileW, fs.createfile, winbase/CreateFile, winbase/CreateFileA, winbase/CreateFileW
-ms.topic: function
 f1_keywords:
 - fileapi/CreateFile
 dev_langs:
@@ -79,7 +78,7 @@ The name of the file or device to be created or opened. You may use either forwa
 
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
+       "\\\\?\\" to the path. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
 For information on special device names, see 
@@ -594,7 +593,7 @@ For information about considerations when using a file handle created with this 
 <tr>
 <td width="40%"><a id="FILE_FLAG_POSIX_SEMANTICS"></a><a id="file_flag_posix_semantics"></a><dl>
 <dt><b>FILE_FLAG_POSIX_SEMANTICS</b></dt>
-<dt>0x0100000</dt>
+<dt>0x01000000</dt>
 </dl>
 </td>
 <td width="60%">
@@ -1071,7 +1070,7 @@ For more information, see
 Direct access to the disk or to a volume is restricted. For more information, see 
       "Changes to the file system and to the storage stack to restrict direct disk access and direct volume access in Windows Vista and in Windows Server 2008" 
       in the Help and Support Knowledge Base at 
-      <a href="Http://go.microsoft.com/fwlink/p/?linkid=117121">http://support.microsoft.com/kb/942448</a>.
+      <a href="https://support.microsoft.com/kb/942448">http://support.microsoft.com/kb/942448</a>.
 
 <b>Windows Server 2003 and Windows XP:  </b>Direct access to the disk or to a volume is not restricted in this manner.
 

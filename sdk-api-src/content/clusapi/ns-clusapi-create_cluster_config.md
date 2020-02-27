@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 5fc90422-47e4-44da-a49f-66d4b7712f53
 ms.date: 12/05/2018
 ms.keywords: '*PCREATE_CLUSTER_CONFIG, CREATE_CLUSTER_CONFIG, CREATE_CLUSTER_CONFIG structure [Failover Cluster], PCREATE_CLUSTER_CONFIG, PCREATE_CLUSTER_CONFIG structure pointer [Failover Cluster], clusapi/CREATE_CLUSTER_CONFIG, clusapi/PCREATE_CLUSTER_CONFIG, mscs.create_cluster_config'
-ms.topic: struct
 f1_keywords:
 - clusapi/CREATE_CLUSTER_CONFIG
 dev_langs:

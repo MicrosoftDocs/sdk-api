@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: d7e0ad05-8ad5-4672-bd32-5a3b1dd0a6ea
 ms.date: 12/05/2018
 ms.keywords: FSCTL_WRITE_USN_CLOSE_RECORD, FSCTL_WRITE_USN_CLOSE_RECORD control, FSCTL_WRITE_USN_CLOSE_RECORD control code [Files], _win32_fsctl_write_usn_close_record, base.fsctl_write_usn_close_record, fs.fsctl_write_usn_close_record, winioctl/FSCTL_WRITE_USN_CLOSE_RECORD
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_WRITE_USN_CLOSE_RECORD
 dev_langs:

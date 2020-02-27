@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 29e57436-cc8f-46e8-bc1a-b44bd803c4a8
 ms.date: 12/05/2018
 ms.keywords: CloseDW, CloseDW method [Windows Shell], CloseDW method [Windows Shell],IDockingWindow interface, IDockingWindow interface [Windows Shell],CloseDW method, IDockingWindow.CloseDW, IDockingWindow::CloseDW, _win32_IDockingWindow_CloseDW, shell.IDockingWindow_CloseDW, shobjidl_core/IDockingWindow::CloseDW
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IDockingWindow.CloseDW
 dev_langs:

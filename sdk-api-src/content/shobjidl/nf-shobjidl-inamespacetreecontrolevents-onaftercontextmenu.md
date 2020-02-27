@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6d562938-9816-4df9-b5b6-0ed52b1e4835
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnAfterContextMenu method, INameSpaceTreeControlEvents.OnAfterContextMenu, INameSpaceTreeControlEvents::OnAfterContextMenu, OnAfterContextMenu, OnAfterContextMenu method [Windows Shell], OnAfterContextMenu method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnAfterContextMenu, shell.INameSpaceTreeControlEvents_OnAfterContextMenu, shobjidl/INameSpaceTreeControlEvents::OnAfterContextMenu
-ms.topic: method
 f1_keywords:
 - shobjidl/INameSpaceTreeControlEvents.OnAfterContextMenu
 dev_langs:

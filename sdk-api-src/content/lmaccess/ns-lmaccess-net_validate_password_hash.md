@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 884e5b8c-1288-454e-862d-323d79123356
 ms.date: 12/05/2018
 ms.keywords: '*PNET_VALIDATE_PASSWORD_HASH, NET_VALIDATE_PASSWORD_HASH, NET_VALIDATE_PASSWORD_HASH structure [Network Management], PNET_VALIDATE_PASSWORD_HASH, PNET_VALIDATE_PASSWORD_HASH structure pointer [Network Management], lmaccess/NET_VALIDATE_PASSWORD_HASH, lmaccess/PNET_VALIDATE_PASSWORD_HASH, netmgmt.net_validate_password_hash'
-ms.topic: struct
 f1_keywords:
 - lmaccess/NET_VALIDATE_PASSWORD_HASH
 dev_langs:

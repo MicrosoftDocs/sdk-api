@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: d09aafd0-0f4b-42c4-b1e6-0656cf0bd02d
 ms.date: 12/05/2018
 ms.keywords: GetObjectInfo, GetObjectInfo method [COM], GetObjectInfo method [COM],IOleUIObjInfo interface, GetObjectInfo method [COM],IOleUIObjInfoA interface, GetObjectInfo method [COM],IOleUIObjInfoW interface, IOleUIObjInfo interface [COM],GetObjectInfo method, IOleUIObjInfo::GetObjectInfo, IOleUIObjInfoA interface [COM],GetObjectInfo method, IOleUIObjInfoA.GetObjectInfo, IOleUIObjInfoA::GetObjectInfo, IOleUIObjInfoW interface [COM],GetObjectInfo method, IOleUIObjInfoW::GetObjectInfo, _ole_IOleUIObjInfo_GetObjectInfo, com.ioleuiobjinfo_getobjectinfo, oledlg/IOleUIObjInfo::GetObjectInfo, oledlg/IOleUIObjInfoA::GetObjectInfo, oledlg/IOleUIObjInfoW::GetObjectInfo
-ms.topic: method
 f1_keywords:
 - oledlg/IOleUIObjInfo.GetObjectInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: f8b5548d-ffd5-4dc3-8d08-61a65841a997
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],MACUpdate method, CSecureChannelServer.MACUpdate, CSecureChannelServer::MACUpdate, CSecureChannelServerMACUpdate, MACUpdate, MACUpdate method [windows Media Device Manager], MACUpdate method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::MACUpdate, wmdm.csecurechannelserver_macupdate
-ms.topic: method
 f1_keywords:
 - scserver/CSecureChannelServer.MACUpdate
 dev_langs:

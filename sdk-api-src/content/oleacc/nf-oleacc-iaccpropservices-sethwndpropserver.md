@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 05dbdf97-9b1a-439f-b3a1-b517733ec0a8
 ms.date: 12/05/2018
 ms.keywords: IAccPropServices interface [Windows Accessibility],SetHwndPropServer method, IAccPropServices.SetHwndPropServer, IAccPropServices::SetHwndPropServer, SetHwndPropServer, SetHwndPropServer method [Windows Accessibility], SetHwndPropServer method [Windows Accessibility],IAccPropServices interface, _msaa_IAccPropServices_SetHwndPropServer, msaa.iaccpropservices_iaccpropservices__sethwndpropserver, oleacc/IAccPropServices::SetHwndPropServer, winauto.iaccpropservices_iaccpropservices__sethwndpropserver
-ms.topic: method
 f1_keywords:
 - oleacc/IAccPropServices.SetHwndPropServer
 dev_langs:

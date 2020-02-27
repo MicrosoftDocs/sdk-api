@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\text_source.htm
 ms.date: 12/05/2018
 ms.keywords: TEXT_SOURCE, TEXT_SOURCE structure [search], _search_TEXT_SOURCE, indexsrv/TEXT_SOURCE, search._search_TEXT_SOURCE, tagTEXT_SOURCE
-ms.topic: struct
 f1_keywords:
 - indexsrv/TEXT_SOURCE
 dev_langs:

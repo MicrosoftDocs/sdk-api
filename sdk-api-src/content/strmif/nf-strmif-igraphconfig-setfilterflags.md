@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1f2ed50e-8bb9-4076-ad0e-a7311acb8285
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig interface [DirectShow],SetFilterFlags method, IGraphConfig.SetFilterFlags, IGraphConfig::SetFilterFlags, IGraphConfigSetFilterFlags, SetFilterFlags, SetFilterFlags method [DirectShow], SetFilterFlags method [DirectShow],IGraphConfig interface, dshow.igraphconfig_setfilterflags, strmif/IGraphConfig::SetFilterFlags
-ms.topic: method
 f1_keywords:
 - strmif/IGraphConfig.SetFilterFlags
 dev_langs:

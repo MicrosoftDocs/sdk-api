@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: d2866beb-ff7a-4390-8651-e7bf458ddf88
 ms.date: 12/05/2018
 ms.keywords: CreateCompatibleBitmap, CreateCompatibleBitmap function [Windows GDI], _win32_CreateCompatibleBitmap, gdi.createcompatiblebitmap, wingdi/CreateCompatibleBitmap
-ms.topic: function
 f1_keywords:
 - wingdi/CreateCompatibleBitmap
 dev_langs:

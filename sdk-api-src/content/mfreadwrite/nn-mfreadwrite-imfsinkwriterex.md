@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 77E6CB22-E3B5-4D5E-8876-48582F75AA5C
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriterEx, IMFSinkWriterEx interface [Media Foundation], IMFSinkWriterEx interface [Media Foundation],described, mf.imfsinkwriterex, mfreadwrite/IMFSinkWriterEx
-ms.topic: interface
 f1_keywords:
 - mfreadwrite/IMFSinkWriterEx
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Extends the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a> interface.
 
-The <a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a> implements this interface in Windows 8. To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the Sink Writer.
+The <a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a> implements this interface in Windows 8. To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the Sink Writer.
 
 
 ## -inheritance

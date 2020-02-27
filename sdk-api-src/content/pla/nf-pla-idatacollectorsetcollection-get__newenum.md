@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: f875038d-8b66-44b2-b28e-211f08a691ec
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSetCollection interface [PLA],_NewEnum property, IDataCollectorSetCollection._NewEnum, IDataCollectorSetCollection.get__NewEnum, IDataCollectorSetCollection::_NewEnum, IDataCollectorSetCollection::get__NewEnum, _NewEnum property [PLA], _NewEnum property [PLA],IDataCollectorSetCollection interface, get__NewEnum, pla.idatacollectorsetcollection__newenum, pla/IDataCollectorSetCollection::_NewEnum, pla/IDataCollectorSetCollection::get__NewEnum
-ms.topic: method
 f1_keywords:
 - pla/IDataCollectorSetCollection._NewEnum
 dev_langs:

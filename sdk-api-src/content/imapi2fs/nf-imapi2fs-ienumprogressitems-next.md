@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 9a6b4838-921b-444d-8ac2-f26d9762d9ce
 ms.date: 12/05/2018
 ms.keywords: IEnumProgressItems interface [IMAPI],Next method, IEnumProgressItems.Next, IEnumProgressItems::Next, Next, Next method [IMAPI], Next method [IMAPI],IEnumProgressItems interface, imapi.ienumprogressitems_next, imapi2fs/IEnumProgressItems::Next
-ms.topic: method
 f1_keywords:
 - imapi2fs/IEnumProgressItems.Next
 dev_langs:

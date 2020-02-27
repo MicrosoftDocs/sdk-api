@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: 422f286c-edf6-488f-8776-359ab2695be3
 ms.date: 12/05/2018
 ms.keywords: DRMCloseHandle, DRMCloseHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCloseHandle, rm.drmclosehandle
-ms.topic: function
 f1_keywords:
 - msdrm/DRMCloseHandle
 dev_langs:

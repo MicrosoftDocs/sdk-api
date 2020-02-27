@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: d92e7c18-f2c7-4ea5-8bb6-fec023272dbb
 ms.date: 12/05/2018
 ms.keywords: '*LPGROUP_USERS_INFO_1, *PGROUP_USERS_INFO_1, GROUP_USERS_INFO_1, GROUP_USERS_INFO_1 structure [Network Management], SE_GROUP_ENABLED, SE_GROUP_ENABLED_BY_DEFAULT, SE_GROUP_INTEGRITY, SE_GROUP_INTEGRITY_ENABLED, SE_GROUP_LOGON_ID, SE_GROUP_MANDATORY, SE_GROUP_OWNER, SE_GROUP_RESOURCE, SE_GROUP_USE_FOR_DENY_ONLY, _win32_group_users_info_1_str, lmaccess/GROUP_USERS_INFO_1, netmgmt.group_users_info_1_str'
-ms.topic: struct
 f1_keywords:
 - lmaccess/GROUP_USERS_INFO_1
 dev_langs:

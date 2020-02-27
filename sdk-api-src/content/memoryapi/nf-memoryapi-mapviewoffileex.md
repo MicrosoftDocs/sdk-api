@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 2ac8a7d6-5c52-41de-acb9-d7f975fd2a94
 ms.date: 12/05/2018
 ms.keywords: FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_EXECUTE, FILE_MAP_LARGE_PAGES, FILE_MAP_READ, FILE_MAP_TARGETS_INVALID, FILE_MAP_WRITE, MapViewOfFileEx, MapViewOfFileEx function, _win32_mapviewoffileex, base.mapviewoffileex, fs.mapviewoffileex, winbase/MapViewOfFileEx
-ms.topic: function
 f1_keywords:
 - memoryapi/MapViewOfFileEx
 dev_langs:

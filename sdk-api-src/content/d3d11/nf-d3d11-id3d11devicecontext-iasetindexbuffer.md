@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: c556dda2-0808-4701-90cb-16c67a24add1
 ms.date: 12/05/2018
 ms.keywords: 73896724-c6e5-3a60-25c3-af31308264c5, IASetIndexBuffer, IASetIndexBuffer method [Direct3D 11], IASetIndexBuffer method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],IASetIndexBuffer method, ID3D11DeviceContext.IASetIndexBuffer, ID3D11DeviceContext::IASetIndexBuffer, d3d11/ID3D11DeviceContext::IASetIndexBuffer, direct3d11.id3d11devicecontext_iasetindexbuffer
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11DeviceContext.IASetIndexBuffer
 dev_langs:

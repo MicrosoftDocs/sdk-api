@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 0024AF55-295E-49B1-90C2-9144D336529B
 ms.date: 12/05/2018
 ms.keywords: PackageFullNameFromId, PackageFullNameFromId function [App packaging and management], appmodel/PackageFullNameFromId, appxpkg.packagefullnamefromid
-ms.topic: function
 f1_keywords:
 - appmodel/PackageFullNameFromId
 dev_langs:

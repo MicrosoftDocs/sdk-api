@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 59bf275d-583e-47aa-96ff-ce032c618081
 ms.date: 12/05/2018
 ms.keywords: 59bf275d-583e-47aa-96ff-ce032c618081, MFFOLDDOWN_MATRIX, MFFOLDDOWN_MATRIX structure [Media Foundation], mf.mffolddown_matrix, mfapi/MFFOLDDOWN_MATRIX
-ms.topic: struct
 f1_keywords:
 - mfapi/MFFOLDDOWN_MATRIX
 dev_langs:
@@ -83,7 +82,7 @@ Specifies the assignment of audio channels to speaker positions in the transform
 
 ### -field Coeff
 
-Array that contains the fold-down coefficients. The number of coefficients is <b>cSrcChannels</b>×<b>cDstChannels</b>. If the number of coefficients is less than the size of the array, the remaining elements in the array are ignored. For more information about how the coefficients are applied, see <a href="http://go.microsoft.com/fwlink/p/?linkid=22396">Windows Media Audio Professional Codec Features</a>.
+Array that contains the fold-down coefficients. The number of coefficients is <b>cSrcChannels</b>×<b>cDstChannels</b>. If the number of coefficients is less than the size of the array, the remaining elements in the array are ignored. For more information about how the coefficients are applied, see <a href="https://msdn2.microsoft.com/library/ms867218.aspx">Windows Media Audio Professional Codec Features</a>.
 
 
 ## -remarks

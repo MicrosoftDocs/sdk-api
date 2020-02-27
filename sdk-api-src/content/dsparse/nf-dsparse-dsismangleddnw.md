@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: e4aaa83c-3bd6-48db-9d34-367b76ba629c
 ms.date: 12/05/2018
 ms.keywords: DsIsMangledDn, DsIsMangledDn function [Active Directory], DsIsMangledDnA, DsIsMangledDnW, _glines_dsismangleddn, ad.dsismangleddn, dsparse/DsIsMangledDn, dsparse/DsIsMangledDnA, dsparse/DsIsMangledDnW
-ms.topic: function
 f1_keywords:
 - dsparse/DsIsMangledDn
 dev_langs:

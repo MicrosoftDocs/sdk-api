@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 20acd646-6cb7-420e-84b3-2f9b385a349c
 ms.date: 12/05/2018
 ms.keywords: GetDefaultSearchGUID, GetDefaultSearchGUID method [Windows Shell], GetDefaultSearchGUID method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],GetDefaultSearchGUID method, IShellFolder2.GetDefaultSearchGUID, IShellFolder2::GetDefaultSearchGUID, _win32_IShellFolder2_GetDefaultSearchGUID, shell.IShellFolder2_GetDefaultSearchGUID, shobjidl_core/IShellFolder2::GetDefaultSearchGUID
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellFolder2.GetDefaultSearchGUID
 dev_langs:

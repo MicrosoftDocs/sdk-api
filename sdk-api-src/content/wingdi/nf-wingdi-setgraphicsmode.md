@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 73824a14-2951-45a2-98cd-156418c59a2d
 ms.date: 12/05/2018
 ms.keywords: GM_ADVANCED, GM_COMPATIBLE, SetGraphicsMode, SetGraphicsMode function [Windows GDI], _win32_SetGraphicsMode, gdi.setgraphicsmode, wingdi/SetGraphicsMode
-ms.topic: function
 f1_keywords:
 - wingdi/SetGraphicsMode
 dev_langs:

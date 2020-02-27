@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 1ab81008-42d8-4863-8836-0508e49ceca9
 ms.date: 12/05/2018
 ms.keywords: CreateWizard97Pages, CreateWizard97Pages method [Failover Cluster], CreateWizard97Pages method [Failover Cluster],IWEExtendWizard97 interface, IWEExtendWizard97 interface [Failover Cluster],CreateWizard97Pages method, IWEExtendWizard97.CreateWizard97Pages, IWEExtendWizard97::CreateWizard97Pages, _wolf_iweextendwizard97_createwizard97pages, cluadmex/IWEExtendWizard97::CreateWizard97Pages, mscs.iweextendwizard97_createwizard97pages
-ms.topic: method
 f1_keywords:
 - cluadmex/IWEExtendWizard97.CreateWizard97Pages
 dev_langs:
@@ -67,7 +66,7 @@ Allows you to create Wizard97 property pages and add them to a
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer for retrieving information 
        relating to the wizard97 pages to be added. By calling 
-       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> with the 
+       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> with the 
        <i>piData</i> pointer, the following interfaces are available:
 
 <ul>
@@ -180,7 +179,7 @@ If your extension has no Wizard97 pages but does have non-Wizard97 pages, you ca
 <p class="proch"><b>For each Wizard97 property page to be added</b>
 
 <ol>
-<li>Use <i>piData</i> to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> and retrieve an 
+<li>Use <i>piData</i> to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> and retrieve an 
        interface pointer for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">object</a> associated with the new 
        page. For example, if you are adding a property page for a resource, you want to retrieve a pointer to the 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterresourceinfo">IGetClusterResourceInfo</a> interface. 

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: f3caa002-8676-44d3-9696-da5b0db09d9e
 ms.date: 12/05/2018
 ms.keywords: GetDeviceStreamCategory, GetDeviceStreamCategory method [Media Foundation], GetDeviceStreamCategory method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetDeviceStreamCategory method, IMFCaptureSource.GetDeviceStreamCategory, IMFCaptureSource::GetDeviceStreamCategory, mf.imfcapturesource_getdevicestreamcategory, mfcaptureengine/IMFCaptureSource::GetDeviceStreamCategory
-ms.topic: method
 f1_keywords:
 - mfcaptureengine/IMFCaptureSource.GetDeviceStreamCategory
 dev_langs:

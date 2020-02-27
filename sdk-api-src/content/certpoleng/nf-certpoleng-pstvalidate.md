@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 4e1c4ebd-977e-4967-8ff6-694be0016276
 ms.date: 12/05/2018
 ms.keywords: PstValidate, PstValidate function [Security], certpoleng/PstValidate, security.pstvalidate
-ms.topic: function
 f1_keywords:
 - certpoleng/PstValidate
 dev_langs:

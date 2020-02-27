@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 687b2c35-344d-49db-a1e2-fb5c2b5db2d6
 ms.date: 12/05/2018
 ms.keywords: '*LPUSER_INFO_1053, *PUSER_INFO_1053, LPUSER_INFO_1053, LPUSER_INFO_1053 structure pointer [Network Management], PUSER_INFO_1053, PUSER_INFO_1053 structure pointer [Network Management], USER_INFO_1053, USER_INFO_1053 structure [Network Management], _win32_user_info_1053_str, lmaccess/LPUSER_INFO_1053, lmaccess/PUSER_INFO_1053, lmaccess/USER_INFO_1053, netmgmt.user_info_1053_str'
-ms.topic: struct
 f1_keywords:
 - lmaccess/USER_INFO_1053
 dev_langs:

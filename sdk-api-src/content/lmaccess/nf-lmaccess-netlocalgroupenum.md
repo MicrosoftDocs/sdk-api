@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: fc27d7f1-bfbe-46d7-a154-f04eb9249248
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetLocalGroupEnum, NetLocalGroupEnum function [Network Management], _win32_netlocalgroupenum, lmaccess/NetLocalGroupEnum, netmgmt.netlocalgroupenum
-ms.topic: function
 f1_keywords:
 - lmaccess/NetLocalGroupEnum
 dev_langs:

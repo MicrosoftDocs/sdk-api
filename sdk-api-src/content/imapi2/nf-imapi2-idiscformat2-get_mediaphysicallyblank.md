@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 5a797742-9142-415b-896b-09526894c2a6
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2 interface [IMAPI],get_MediaPhysicallyBlank method, IDiscFormat2.get_MediaPhysicallyBlank, IDiscFormat2::get_MediaPhysicallyBlank, get_MediaPhysicallyBlank, get_MediaPhysicallyBlank method [IMAPI], get_MediaPhysicallyBlank method [IMAPI],IDiscFormat2 interface, imapi.idiscformat2_get_mediaphysicallyblank, imapi2/IDiscFormat2::get_MediaPhysicallyBlank
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2.get_MediaPhysicallyBlank
 dev_langs:

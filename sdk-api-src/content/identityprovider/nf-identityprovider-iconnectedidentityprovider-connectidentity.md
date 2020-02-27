@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 945CBE34-E364-41FF-8CE4-0FB0BEF3BC69
 ms.date: 12/05/2018
 ms.keywords: ConnectIdentity, ConnectIdentity method [Security], ConnectIdentity method [Security],IConnectedIdentityProvider interface, IConnectedIdentityProvider interface [Security],ConnectIdentity method, IConnectedIdentityProvider.ConnectIdentity, IConnectedIdentityProvider::ConnectIdentity, identityprovider/IConnectedIdentityProvider::ConnectIdentity, security.iconnectedidentityprovider_connectidentity
-ms.topic: method
 f1_keywords:
 - identityprovider/IConnectedIdentityProvider.ConnectIdentity
 dev_langs:

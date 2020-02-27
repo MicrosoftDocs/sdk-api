@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 71153c4c-631b-4f7a-9dd5-8537dcaca150
 ms.date: 12/05/2018
 ms.keywords: IXpsOMFontResourceCollection, IXpsOMFontResourceCollection interface [XPS Documents and Packaging], IXpsOMFontResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomfontresourcecollection, xpsobjectmodel/IXpsOMFontResourceCollection
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMFontResourceCollection
 dev_langs:
@@ -167,7 +166,7 @@ For more information about the collection methods, see <a href="https://docs.mic
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

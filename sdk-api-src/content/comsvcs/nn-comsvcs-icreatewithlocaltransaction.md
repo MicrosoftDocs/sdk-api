@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 667ebc77-943c-4cf0-90b4-7c28949f406e
 ms.date: 12/05/2018
 ms.keywords: ICreateWithLocalTransaction, ICreateWithLocalTransaction interface [COM+], ICreateWithLocalTransaction interface [COM+],described, comsvcs/ICreateWithLocalTransaction, cos.icreatewithlocaltransaction
-ms.topic: interface
 f1_keywords:
 - comsvcs/ICreateWithLocalTransaction
 dev_langs:

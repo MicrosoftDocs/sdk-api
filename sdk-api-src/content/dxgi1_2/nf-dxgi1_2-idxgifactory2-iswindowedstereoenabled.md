@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 81DA1DD6-7D36-4848-ADCB-1F7B765B0A62
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory2 interface [DXGI],IsWindowedStereoEnabled method, IDXGIFactory2.IsWindowedStereoEnabled, IDXGIFactory2::IsWindowedStereoEnabled, IsWindowedStereoEnabled, IsWindowedStereoEnabled method [DXGI], IsWindowedStereoEnabled method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_iswindowedstereoenabled, dxgi1_2/IDXGIFactory2::IsWindowedStereoEnabled
-ms.topic: method
 f1_keywords:
 - dxgi1_2/IDXGIFactory2.IsWindowedStereoEnabled
 dev_langs:
@@ -84,7 +83,7 @@ We recommend that windowed applications call <b>IsWindowedStereoEnabled</b> befo
 </ul>
 The creation of a windowed stereo swap chain succeeds if the first requirement is met. However, if the adapter can't scan out stereo, the output on that adapter is reduced to mono.
 
-The <a href="http://go.microsoft.com/fwlink/p/?linkid=238402">Direct3D 11.1 Simple Stereo 3D Sample</a> shows how to add a stereoscopic 3D effect and how to respond to system stereo changes.
+The <a href="https://code.msdn.microsoft.com/Direct3D-111-Simple-Stereo-9b2b61aa">Direct3D 11.1 Simple Stereo 3D Sample</a> shows how to add a stereoscopic 3D effect and how to respond to system stereo changes.
 
 
 

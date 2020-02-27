@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 91243128-0543-4df9-bde8-74ef5ae46914
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_ATTACH_FN, PIBIO_SENSOR_ATTACH_FN callback, SensorAdapterAttach, SensorAdapterAttach callback function [Windows Biometric Framework API], secbiomet.sensoradapterattach, winbio_adapter/SensorAdapterAttach
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/SensorAdapterAttach
 dev_langs:

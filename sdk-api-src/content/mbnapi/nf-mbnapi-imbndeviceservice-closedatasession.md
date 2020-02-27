@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: E00322FC-05DF-4342-A182-E1F4F40FBD60
 ms.date: 12/05/2018
 ms.keywords: CloseDataSession, CloseDataSession method [Microsoft Broadband Networks], CloseDataSession method [Microsoft Broadband Networks],IMbnDeviceService interface, IMbnDeviceService interface [Microsoft Broadband Networks],CloseDataSession method, IMbnDeviceService.CloseDataSession, IMbnDeviceService::CloseDataSession, mbn.imbndeviceservice_closedatasession, mbnapi/IMbnDeviceService::CloseDataSession
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnDeviceService.CloseDataSession
 dev_langs:

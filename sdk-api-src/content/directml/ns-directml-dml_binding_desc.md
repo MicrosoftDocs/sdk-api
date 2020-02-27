@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 80362AF6-148B-4C2E-8210-BC559BF58D12
 ms.date: 12/5/2018
 ms.keywords: DML_BINDING_DESC, DML_BINDING_DESC structure, direct3d12.dml_binding_desc, directml/DML_BINDING_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_BINDING_DESC
 dev_langs:

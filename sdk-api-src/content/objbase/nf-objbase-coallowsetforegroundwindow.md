@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: a728aaad-3d7a-425c-b886-ba35c4fa54d0
 ms.date: 12/05/2018
 ms.keywords: CoAllowSetForegroundWindow, CoAllowSetForegroundWindow function [COM], _com_CoAllowSetForegroundWindow, com.coallowsetforegroundwindow, objbase/CoAllowSetForegroundWindow
-ms.topic: function
 f1_keywords:
 - objbase/CoAllowSetForegroundWindow
 dev_langs:

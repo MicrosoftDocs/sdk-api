@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 055ff0a0-9ba7-463d-9684-3fd072b190da
 ms.date: 12/05/2018
 ms.keywords: SHCreateDefaultContextMenu, SHCreateDefaultContextMenu function [Windows Shell], _shell_SHCreateDefaultContextMenu, shell.SHCreateDefaultContextMenu, shlobj_core/SHCreateDefaultContextMenu
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHCreateDefaultContextMenu
 dev_langs:

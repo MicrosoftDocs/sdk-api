@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3f4f9beb-51db-407f-91ea-6e32ff5796ce
 ms.date: 12/05/2018
 ms.keywords: ICatRegister, ICatRegister interface [COM], ICatRegister interface [COM],described, _com_icatregister, com.icatregister, comcat/ICatRegister
-ms.topic: interface
 f1_keywords:
 - comcat/ICatRegister
 dev_langs:

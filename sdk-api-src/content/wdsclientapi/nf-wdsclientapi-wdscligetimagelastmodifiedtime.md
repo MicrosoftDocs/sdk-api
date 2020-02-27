@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: b0554857-ffef-4f45-8aba-90512ce7f3b1
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageLastModifiedTime, WdsCliGetImageLastModifiedTime function [Windows Deployment Services], wds.wdscligetimagelastmodifiedtime, wdsclientapi/WdsCliGetImageLastModifiedTime
-ms.topic: function
 f1_keywords:
 - wdsclientapi/WdsCliGetImageLastModifiedTime
 dev_langs:

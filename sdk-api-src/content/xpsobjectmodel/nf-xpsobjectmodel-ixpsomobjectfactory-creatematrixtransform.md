@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 10377a1f-67b4-4fae-81f7-e6bf50e1c2b2
 ms.date: 12/05/2018
 ms.keywords: CreateMatrixTransform, CreateMatrixTransform method [XPS Documents and Packaging], CreateMatrixTransform method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateMatrixTransform method, IXpsOMObjectFactory.CreateMatrixTransform, IXpsOMObjectFactory::CreateMatrixTransform, xps.ixpsomobjectfactory_creatematrixtransform, xpsobjectmodel/IXpsOMObjectFactory::CreateMatrixTransform
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreateMatrixTransform
 dev_langs:
@@ -172,7 +171,7 @@ else
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 789400be-03c7-4c4f-9e78-fa2573cf114d
 ms.date: 12/05/2018
 ms.keywords: '*PIP6_ADDRESS, *PIP6_ADDRESS structure [DNS], IP6_ADDRESS, IP6_ADDRESS structure [DNS], dns.ip6_address, windns/*PIP6_ADDRESS, windns/IP6_ADDRESS'
-ms.topic: struct
 f1_keywords:
 - windns/IP6_ADDRESS
 dev_langs:
@@ -65,7 +64,7 @@ The <b>IP6_ADDRESS</b> structure stores an IPv6 address.
 
 #### - IP6Dword
 
-An IPv6 address of the form: "ABCD:EF01:2345:6789:ABCD:EF01:2345:6789"as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=90464">RFC 4291</a>
+An IPv6 address of the form: "ABCD:EF01:2345:6789:ABCD:EF01:2345:6789"as defined in <a href="https://www.ietf.org/rfc/rfc4291.txt">RFC 4291</a>
 
 
 ### -field IP6Word

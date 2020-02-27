@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 4dad3449-3e41-47d9-89c2-10fa6e51573b
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_TKEY_DATA, *PDNS_TKEY_DATAW, DNS_RCODE_BADKEY, DNS_RCODE_BADSIG, DNS_RCODE_BADTIME, DNS_TKEY_DATA, DNS_TKEY_DATA structure [DNS], DNS_TKEY_DATAW, DNS_TKEY_MODE_DIFFIE_HELLMAN, DNS_TKEY_MODE_GSS, DNS_TKEY_MODE_RESOLVER_ASSIGN, DNS_TKEY_MODE_SERVER_ASSIGN, PDNS_TKEY_DATA, PDNS_TKEY_DATA structure pointer [DNS], _dns_dns_tkey_data, dns.dns_tkey_data, windns/DNS_TKEY_DATA, windns/PDNS_TKEY_DATA'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_TKEY_DATA
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>DNS_TKEY_DATA</b> structure represents a DNS TKEY resource record, used to establish and delete an algorithm's shared-secret keys between a DNS resolver and server as specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=90397">RFC 2930</a>.
+<b>DNS_TKEY_DATA</b> structure represents a DNS TKEY resource record, used to establish and delete an algorithm's shared-secret keys between a DNS resolver and server as specified in <a href="https://www.ietf.org/rfc/rfc2930.txt">RFC 2930</a>.
 
 
 ## -struct-fields
@@ -61,12 +60,12 @@ The
 
 ### -field pNameAlgorithm
 
-A pointer to a string that represents the name of the key as defined in section 2.1 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90397">RFC 2930</a>.
+A pointer to a string that represents the name of the key as defined in section 2.1 of <a href="https://www.ietf.org/rfc/rfc2930.txt">RFC 2930</a>.
 
 
 ### -field pAlgorithmPacket
 
-A pointer to a string representing the name of the   algorithm as defined in section 2.3 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90397">RFC 2930</a>. <b>pKey</b> is used to derive the algorithm specific keys.
+A pointer to a string representing the name of the   algorithm as defined in section 2.3 of <a href="https://www.ietf.org/rfc/rfc2930.txt">RFC 2930</a>. <b>pKey</b> is used to derive the algorithm specific keys.
 
 
 ### -field pKey

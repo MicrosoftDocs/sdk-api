@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: FBC85FEC-9CD1-45C8-8A2A-04E7BEC483DE
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSink, IMFCaptureSink interface [Media Foundation], IMFCaptureSink interface [Media Foundation],described, mf.imfcapturesink, mfcaptureengine/IMFCaptureSink
-ms.topic: interface
 f1_keywords:
 - mfcaptureengine/IMFCaptureSink
 dev_langs:
@@ -127,7 +126,7 @@ The capture engine creates the following capture sinks.
 <li>Preview sink. Previews live audio or video.</li>
 <li>Recording sink. Creates compressed audio/video files or compressed audio/video streams.</li>
 </ul>
-To get a pointer to a capture sink, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-getsink">IMFCaptureEngine::GetSink</a>. Each capture sink implements an interface that derives from <b>IMFCaptureSink</b>. Call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> to get a pointer to the derived interface.<table>
+To get a pointer to a capture sink, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-getsink">IMFCaptureEngine::GetSink</a>. Each capture sink implements an interface that derives from <b>IMFCaptureSink</b>. Call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to get a pointer to the derived interface.<table>
 <tr>
 <th>Sink</th>
 <th>Interface</th>

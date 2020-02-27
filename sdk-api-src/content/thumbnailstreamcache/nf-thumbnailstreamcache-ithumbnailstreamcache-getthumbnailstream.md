@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 66A89AF9-DEBE-485C-B8E9-519F63386F7D
 ms.date: 12/05/2018
 ms.keywords: GetThumbnailStream, GetThumbnailStream method [Windows Shell], GetThumbnailStream method [Windows Shell],IThumbnailStreamCache interface, IThumbnailStreamCache interface [Windows Shell],GetThumbnailStream method, IThumbnailStreamCache.GetThumbnailStream, IThumbnailStreamCache::GetThumbnailStream, shell.ithumbnailstreamcache_getthumbnailstream, thumbnailstreamcache/IThumbnailStreamCache::GetThumbnailStream
-ms.topic: method
 f1_keywords:
 - thumbnailstreamcache/IThumbnailStreamCache.GetThumbnailStream
 dev_langs:

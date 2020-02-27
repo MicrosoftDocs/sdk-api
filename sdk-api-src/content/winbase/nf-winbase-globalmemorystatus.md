@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 473e4172-b57a-4fc6-9bb2-e916ac3c9a2f
 ms.date: 12/05/2018
 ms.keywords: GlobalMemoryStatus, GlobalMemoryStatus function, _win32_globalmemorystatus, base.globalmemorystatus, winbase/GlobalMemoryStatus
-ms.topic: function
 f1_keywords:
 - winbase/GlobalMemoryStatus
 dev_langs:

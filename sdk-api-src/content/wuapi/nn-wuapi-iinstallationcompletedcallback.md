@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 930d33e1-e407-4306-acc6-1d64c385a41d
 ms.date: 12/05/2018
 ms.keywords: IInstallationCompletedCallback, IInstallationCompletedCallback interface [Windows Update Agent], IInstallationCompletedCallback interface [Windows Update Agent],described, wua.iinstallationcompletedcallback, wuapi/IInstallationCompletedCallback
-ms.topic: interface
 f1_keywords:
 - wuapi/IInstallationCompletedCallback
 dev_langs:

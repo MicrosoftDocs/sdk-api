@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: 3366bfb5-1132-4960-8a0e-49967310ade5
 ms.date: 12/05/2018
 ms.keywords: GetTimestamp, GetTimestamp method, GetTimestamp method,ISensorDataReport interface, ISensorDataReport interface,GetTimestamp method, ISensorDataReport.GetTimestamp, ISensorDataReport::GetTimestamp, sensorsapi/ISensorDataReport::GetTimestamp, winsensors_com_ref.isensordatareport_gettimestamp
-ms.topic: method
 f1_keywords:
 - sensorsapi/ISensorDataReport.GetTimestamp
 dev_langs:
@@ -60,7 +59,7 @@ Retrieves the time at which the data report was created.
 
 ### -param pTimeStamp [out]
 
-Address of a <a href="http://go.microsoft.com/fwlink/p/?linkid=157229">SYSTEMTIME</a> variable that receives the time stamp. 
+Address of a <a href="https://msdn.microsoft.com/library/ms724950(VS.85).aspx">SYSTEMTIME</a> variable that receives the time stamp. 
 
 
 ## -returns

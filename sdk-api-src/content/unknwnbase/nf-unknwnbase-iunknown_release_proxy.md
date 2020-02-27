@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 55a1fa04-bd14-4867-b0ca-42574d71169a
 ms.date: 12/05/2018
 ms.keywords: IUnknown_Release_Proxy, IUnknown_Release_Proxy function [RPC], rpc.iunknown_release_proxy, unknwnbase/IUnknown_Release_Proxy
-ms.topic: function
 f1_keywords:
 - unknwnbase/IUnknown_Release_Proxy
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcatex.htm
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbCatEx, StringCbCatEx function [Menus and Other Resources], StringCbCatExA, StringCbCatExW, _shell_StringCbCatEx, _shell_stringcbcatex_cpp, menurc.stringcbcatex, strsafe/StringCbCatEx, strsafe/StringCbCatExA, strsafe/StringCbCatExW, winui._shell_stringcbcatex
-ms.topic: function
 f1_keywords:
 - strsafe/StringCbCatEx
 dev_langs:
@@ -58,7 +57,7 @@ Concatenates one  string to another string. The size of the destination buffer i
 
 <b>StringCbCatEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192489">strcat, wcscat, _tcsat</a></li>
+<li><a href="https://msdn.microsoft.com/library/h1x0y282.aspx">strcat, wcscat, _tcsat</a></li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcata">lstrcat</a>
 </li>

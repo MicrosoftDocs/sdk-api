@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: f76539c8-13a8-4608-87a6-4947f5debb02
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_CreateDevice, PDXVAHDSW_CreateDevice callback, PDXVAHDSW_CreateDevice callback function [Media Foundation], dxvahd/PDXVAHDSW_CreateDevice, mf.pdxvahdsw_createdevice
-ms.topic: callback
 f1_keywords:
 - dxvahd/PDXVAHDSW_CreateDevice
 dev_langs:

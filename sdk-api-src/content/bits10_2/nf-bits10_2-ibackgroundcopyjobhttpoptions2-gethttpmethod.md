@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: B855F1A5-AAFC-4E59-8F1D-ABA0034AFDF8
 ms.date: 12/05/2018
 ms.keywords: GetHttpMethod, GetHttpMethod method [BITS], GetHttpMethod method [BITS],IBackgroundCopyJobHttpOptions2 interface, IBackgroundCopyJobHttpOptions2 interface [BITS],GetHttpMethod method, IBackgroundCopyJobHttpOptions2.GetHttpMethod, IBackgroundCopyJobHttpOptions2::GetHttpMethod, bits.ibackgroundcopyjobhttpoptions2_gethttpmethod, bits10_2/IBackgroundCopyJobHttpOptions2::GetHttpMethod
-ms.topic: method
 f1_keywords:
 - bits10_2/IBackgroundCopyJobHttpOptions2.GetHttpMethod
 dev_langs:

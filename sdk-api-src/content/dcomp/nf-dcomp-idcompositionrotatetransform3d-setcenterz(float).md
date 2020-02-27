@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 56406AD4-F257-444C-8E72-6B9A901D6075
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetCenterZ method, IDCompositionRotateTransform3D.SetCenterZ, IDCompositionRotateTransform3D::SetCenterZ, IDCompositionRotateTransform3D::SetCenterZ(float), SetCenterZ, SetCenterZ method [DirectComposition], SetCenterZ method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetCenterZ, directcomp.idcompositionrotatetransform3d_setcenterz_float
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionRotateTransform3D.SetCenterZ
 dev_langs:

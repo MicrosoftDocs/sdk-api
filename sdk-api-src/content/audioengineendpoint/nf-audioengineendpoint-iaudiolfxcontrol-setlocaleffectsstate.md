@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: F89C2610-BC71-4309-BCDA-5529B16A3FA7
 ms.date: 12/05/2018
 ms.keywords: IAudioLfxControl interface [Core Audio],SetLocalEffectsState method, IAudioLfxControl.SetLocalEffectsState, IAudioLfxControl::SetLocalEffectsState, SetLocalEffectsState, SetLocalEffectsState method [Core Audio], SetLocalEffectsState method [Core Audio],IAudioLfxControl interface, audioengineendpoint/IAudioLfxControl::SetLocalEffectsState, coreaudio.iaudiolfxcontrol_setlocaleffectsstate
-ms.topic: method
 f1_keywords:
 - audioengineendpoint/IAudioLfxControl.SetLocalEffectsState
 dev_langs:

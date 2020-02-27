@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: df252c06-6067-4cf8-b66e-5c9f15e954f5
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_BOUNDARYROW, MIB_BOUNDARYROW, MIB_BOUNDARYROW structure [MIB], PMIB_BOUNDARYROW, PMIB_BOUNDARYROW structure pointer [MIB], iprtrmib/MIB_BOUNDARYROW, iprtrmib/PMIB_BOUNDARYROW, mib.mib_boundaryrow'
-ms.topic: struct
 f1_keywords:
 - iprtrmib/MIB_BOUNDARYROW
 dev_langs:
@@ -62,7 +61,7 @@ The <b>MIB_BOUNDARYROW</b> structure contains the IPv4 group address value and m
 
 The 32-bit integer representation of the IPv4 group address which, when combined with the corresponding value in <b>dwGroupMask</b>, identifies the group range for which the scoped boundary exists. 
 
-<div class="alert"><b>Note</b>  Scoped addresses must come from the range 239.*.*.* as specified in <a href="Http://go.microsoft.com/fwlink/p/?linkid=84040">RFC 2365</a>.</div>
+<div class="alert"><b>Note</b>  Scoped addresses must come from the range 239.*.*.* as specified in <a href="https://www.ietf.org/rfc/rfc2365.txt">RFC 2365</a>.</div>
 <div> </div>
 
 ### -field dwGroupMask

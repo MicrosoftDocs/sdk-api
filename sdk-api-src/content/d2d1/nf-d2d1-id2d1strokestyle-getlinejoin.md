@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 408e473d-c143-490e-98c3-2da312aa0c94
 ms.date: 12/05/2018
 ms.keywords: GetLineJoin, GetLineJoin method [Direct2D], GetLineJoin method [Direct2D],ID2D1StrokeStyle interface, ID2D1StrokeStyle interface [Direct2D],GetLineJoin method, ID2D1StrokeStyle.GetLineJoin, ID2D1StrokeStyle::GetLineJoin, d2d1/ID2D1StrokeStyle::GetLineJoin, direct2d.ID2D1StrokeStyle_GetLineJoin
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1StrokeStyle.GetLineJoin
 dev_langs:

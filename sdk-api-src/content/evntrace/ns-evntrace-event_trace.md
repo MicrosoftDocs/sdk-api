@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: d8a6b63e-0cd4-4d19-b0b3-16bb0d33e4c0
 ms.date: 12/05/2018
 ms.keywords: '*PEVENT_TRACE, EVENT_TRACE, EVENT_TRACE structure [ETW], PEVENT_TRACE, PEVENT_TRACE structure pointer [ETW], _EVENT_TRACE, _evt_event_trace, base.event_trace, etw.event_trace, evntrace/EVENT_TRACE, evntrace/PEVENT_TRACE'
-ms.topic: struct
 f1_keywords:
 - evntrace/EVENT_TRACE
 dev_langs:

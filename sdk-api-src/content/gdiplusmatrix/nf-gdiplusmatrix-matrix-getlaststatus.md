@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\getlaststatus_49.htm
 ms.date: 12/05/2018
 ms.keywords: GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],Matrix class, Matrix class [GDI+],GetLastStatus method, Matrix.GetLastStatus, Matrix::GetLastStatus, _gdiplus_CLASS_Matrix_GetLastStatus_, gdiplus._gdiplus_CLASS_Matrix_GetLastStatus_
-ms.topic: method
 f1_keywords:
 - gdiplusmatrix/Matrix.GetLastStatus
 dev_langs:

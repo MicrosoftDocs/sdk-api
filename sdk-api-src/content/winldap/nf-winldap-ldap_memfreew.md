@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 3256a202-4245-4bea-a66c-0f28bfe2ef7e
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_memfree, ldap.ldap__memfree, ldap.ldap_memfree, ldap_memfree, ldap_memfree function [LDAP], ldap_memfreeA, ldap_memfreeW, winldap/ldap_memfree, winldap/ldap_memfreeA, winldap/ldap_memfreeW
-ms.topic: function
 f1_keywords:
 - winldap/ldap_memfree
 dev_langs:

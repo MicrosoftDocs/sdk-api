@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: df2679a5-cdd9-468b-823a-f98044189f65
 ms.date: 12/05/2018
 ms.keywords: _win32_getpeername_2, getpeername, getpeername function [Winsock], winsock.getpeername_2, winsock/getpeername
-ms.topic: function
 f1_keywords:
 - winsock2/getpeername
 dev_langs:

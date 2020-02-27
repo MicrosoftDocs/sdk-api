@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e081973a-e923-45de-93ba-3281be73cc93
 ms.date: 12/05/2018
 ms.keywords: Burn, Burn method [Windows Shell], Burn method [Windows Shell],ICDBurn interface, ICDBurn interface [Windows Shell],Burn method, ICDBurn.Burn, ICDBurn::Burn, _shell_ICDBurn_Burn, shell.ICDBurn_Burn, shobjidl/ICDBurn::Burn
-ms.topic: method
 f1_keywords:
 - shobjidl/ICDBurn.Burn
 dev_langs:

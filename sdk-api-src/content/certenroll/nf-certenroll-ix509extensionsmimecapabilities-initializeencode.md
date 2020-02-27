@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 731e3c93-699b-4a99-8520-294f3134aa66
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionSmimeCapabilities interface [Security],InitializeEncode method, IX509ExtensionSmimeCapabilities.InitializeEncode, IX509ExtensionSmimeCapabilities::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionSmimeCapabilities interface, certenroll/IX509ExtensionSmimeCapabilities::InitializeEncode, security.ix509extensionsmimecapabilities_initializeencode_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509ExtensionSmimeCapabilities.InitializeEncode
 dev_langs:

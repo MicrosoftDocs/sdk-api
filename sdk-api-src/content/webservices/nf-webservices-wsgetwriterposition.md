@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 0c0fbd78-ed4f-40da-a63d-a2f38136ecb3
 ms.date: 12/05/2018
 ms.keywords: WsGetWriterPosition, WsGetWriterPosition function [Web Services for Windows], webservices/WsGetWriterPosition, wsw.wsgetwriterposition
-ms.topic: function
 f1_keywords:
 - webservices/WsGetWriterPosition
 dev_langs:

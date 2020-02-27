@@ -5,7 +5,6 @@ description: Gets the package information for the specified package.
 tech.root: appxpkg
 ms.date: 01/31/19
 ms.keywords: GetPackageInfo2
-ms.topic: function
 f1_keywords:
 - appmodel/GetPackageInfo2
 dev_langs:

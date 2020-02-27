@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: c56f871f-50ca-4253-84db-0602459fc2fa
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcSignatureRelationshipReferenceEnumerator.MovePrevious, IOpcSignatureRelationshipReferenceEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceEnumerator interface, msopc/IOpcSignatureRelationshipReferenceEnumerator::MovePrevious, opc.iopcsignaturerelationshipreferenceenumerator_moveprevious
-ms.topic: method
 f1_keywords:
 - msopc/IOpcSignatureRelationshipReferenceEnumerator.MovePrevious
 dev_langs:

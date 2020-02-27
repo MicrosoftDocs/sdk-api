@@ -7,7 +7,6 @@ tech.root: Monitor
 ms.assetid: 145c393e-dce0-4d50-94c2-61ba580c3d83
 ms.date: 12/05/2018
 ms.keywords: SetVCPFeature, SetVCPFeature function [Monitor Configuration], lowlevelmonitorconfigurationapi/SetVCPFeature, monitor.setvcpfeature
-ms.topic: function
 f1_keywords:
 - lowlevelmonitorconfigurationapi/SetVCPFeature
 dev_langs:

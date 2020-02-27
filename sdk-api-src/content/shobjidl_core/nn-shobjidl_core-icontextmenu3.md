@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c08e1b98-2b8b-41f6-93c5-3a5937bd3b2c
 ms.date: 12/05/2018
 ms.keywords: IContextMenu3, IContextMenu3 interface [Windows Shell], IContextMenu3 interface [Windows Shell],described, _win32_IContextMenu3, shell.IContextMenu3, shobjidl_core/IContextMenu3
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IContextMenu3
 dev_langs:
@@ -91,7 +90,7 @@ Implement <b>IContextMenu3</b> if your shortcut menu extension needs to process 
 
 			    
 
-This message is forwarded to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu3-handlemenumsg2">IContextMenu3::HandleMenuMsg2</a> only if a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> call for an <b>IContextMenu3</b> interface pointer is successful, which indicates that the object supports this interface.
+This message is forwarded to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu3-handlemenumsg2">IContextMenu3::HandleMenuMsg2</a> only if a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> call for an <b>IContextMenu3</b> interface pointer is successful, which indicates that the object supports this interface.
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 You do not call this interface directly. <b>IContextMenu3</b> is used by the operating system only when it has confirmed that your application is aware of this interface.

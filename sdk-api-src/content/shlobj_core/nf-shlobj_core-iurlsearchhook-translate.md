@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 02fa8ee7-f9cb-4872-895c-7b3078391cc4
 ms.date: 12/05/2018
 ms.keywords: IURLSearchHook interface [Windows Shell],Translate method, IURLSearchHook.Translate, IURLSearchHook::Translate, Translate, Translate method [Windows Shell], Translate method [Windows Shell],IURLSearchHook interface, _win32_IURLSearchHook_Translate, shell.IURLSearchHook_Translate, shlobj_core/IURLSearchHook::Translate
-ms.topic: method
 f1_keywords:
 - shlobj_core/IURLSearchHook.Translate
 dev_langs:

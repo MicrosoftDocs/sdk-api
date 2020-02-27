@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: a824c6c0-0887-41cb-892a-832635ade222
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionService interface [Windows Media Player],allowPDATransfer method, IWMPSubscriptionService.allowPDATransfer, IWMPSubscriptionService::allowPDATransfer, IWMPSubscriptionServiceallowPDATransfer, allowPDATransfer, allowPDATransfer method [Windows Media Player], allowPDATransfer method [Windows Media Player],IWMPSubscriptionService interface, subscriptionservices/IWMPSubscriptionService::allowPDATransfer, wmp.iwmpsubscriptionservice_allowpdatransfer
-ms.topic: method
 f1_keywords:
 - subscriptionservices/IWMPSubscriptionService.allowPDATransfer
 dev_langs:

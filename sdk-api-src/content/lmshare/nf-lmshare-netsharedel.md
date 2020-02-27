@@ -7,7 +7,6 @@ tech.root: NetShare
 ms.assetid: 374b8f81-b3d6-4967-bd4a-ffd3fdc3cf7c
 ms.date: 12/05/2018
 ms.keywords: NetShareDel, NetShareDel function [Files], _win32_netsharedel, fs.netsharedel, lmshare/NetShareDel, netmgmt.netsharedel
-ms.topic: function
 f1_keywords:
 - lmshare/NetShareDel
 dev_langs:

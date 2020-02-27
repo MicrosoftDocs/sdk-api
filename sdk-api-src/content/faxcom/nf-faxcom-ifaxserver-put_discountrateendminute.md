@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1o4l.htm
 ms.date: 12/05/2018
 ms.keywords: DiscountRateEndMinute property [Fax Service], DiscountRateEndMinute property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],DiscountRateEndMinute property, IFaxServer.DiscountRateEndMinute, IFaxServer.get_DiscountRateEndMinute, IFaxServer.put_DiscountRateEndMinute, IFaxServer::DiscountRateEndMinute, IFaxServer::get_DiscountRateEndMinute, IFaxServer::put_DiscountRateEndMinute, _mfax_ifaxserver_get_discountrateendminute, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_discountrateendminute_cpp, fax._mfax_ifaxserver_get_discountrateendminute, faxcom/IFaxServer::DiscountRateEndMinute, faxcom/IFaxServer::get_DiscountRateEndMinute, faxcom/IFaxServer::put_DiscountRateEndMinute, put_DiscountRateEndMinute
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxServer.DiscountRateEndMinute
 dev_langs:

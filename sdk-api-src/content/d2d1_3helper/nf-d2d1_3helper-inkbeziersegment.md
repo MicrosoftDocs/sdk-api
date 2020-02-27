@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 61f6a6fb-3304-e979-549a-3c4c528ed12d
 ms.date: 12/05/2018
 ms.keywords: InkBezierSegment, InkBezierSegment function [Direct2D], d2d1_3helper/InkBezierSegment, direct2d.inkbeziersegment
-ms.topic: function
 f1_keywords:
 - d2d1_3helper/InkBezierSegment
 dev_langs:

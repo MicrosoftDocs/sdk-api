@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: eca9446a-268e-4318-a5e7-8bb8592c9660
 ms.date: 12/05/2018
 ms.keywords: IUserDictionariesRegistrar, IUserDictionariesRegistrar interface [Internationalization for Windows Applications], IUserDictionariesRegistrar interface [Internationalization for Windows Applications],described, intl.iuserdictionariesregistrar, spellcheck/IUserDictionariesRegistrar
-ms.topic: interface
 f1_keywords:
 - spellcheck/IUserDictionariesRegistrar
 dev_langs:
@@ -96,7 +95,7 @@ Unregisters a previously registered user dictionary.
 <b>IUserDictionariesRegistrar</b> allows clients to persistently register and unregister user dictionary files that exist in locations other than the usual dictionary path (<code>%AppData%\Microsoft\Spelling</code>). The dictionaries must have the same file formats as the ones located in the normal path and also should have the appropriate file extensions.
 However, it is strongly recommended for clients to place their dictionaries under <code>%AppData%\Microsoft\Spelling</code> whenever possible—the spell checking functionality does not pick up changes in dictionaries outside that directory tree.
 
-This interface is obtained through a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> in <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellcheckerfactory">ISpellCheckerFactory</a>.
+This interface is obtained through a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> in <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellcheckerfactory">ISpellCheckerFactory</a>.
 
 The combined size of all registered dictionary files must be less than 1 MB by default. This can be increased to 2 MB by setting the registry key HKEY_CURRENT_USER\Software\Microsoft\Spelling\Dictionaries\AllowBiggerUD to the value 1. For more information about the Windows registry, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry</a>.
 

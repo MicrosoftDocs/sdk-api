@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6f6850fc-2aa5-46fa-b237-82aafa844092
 ms.date: 12/05/2018
 ms.keywords: IObjectWithAppUserModelID interface [Windows Shell],SetAppID method, IObjectWithAppUserModelID.SetAppID, IObjectWithAppUserModelID::SetAppID, SetAppID, SetAppID method [Windows Shell], SetAppID method [Windows Shell],IObjectWithAppUserModelID interface, _shell_IObjectWithAppUserModelID_SetAppID, shell.IObjectWithAppUserModelID_SetAppID, shobjidl_core/IObjectWithAppUserModelID::SetAppID
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IObjectWithAppUserModelID.SetAppID
 dev_langs:

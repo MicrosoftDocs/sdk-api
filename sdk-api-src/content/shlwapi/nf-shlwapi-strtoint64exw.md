@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8ea04c9f-6485-4931-a5d5-b22eb6681bd1
 ms.date: 12/05/2018
 ms.keywords: STIF_DEFAULT, STIF_SUPPORT_HEX, StrToInt64Ex, StrToInt64Ex function [Windows Shell], StrToInt64ExA, StrToInt64ExW, _win32_StrToInt64Ex, shell.StrToInt64Ex, shlwapi/StrToInt64Ex, shlwapi/StrToInt64ExA, shlwapi/StrToInt64ExW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrToInt64Ex
 dev_langs:

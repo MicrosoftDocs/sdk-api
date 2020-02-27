@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: c4429a0c-6e79-4f02-acac-42b5280aa3b1
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_BLOB_ARRAY, CRYPT_BLOB_ARRAY, CRYPT_BLOB_ARRAY structure [Security], PCRYPT_BLOB_ARRAY, PCRYPT_BLOB_ARRAY structure pointer [Security], security.crypt_blob_array, wincrypt/CRYPT_BLOB_ARRAY, wincrypt/PCRYPT_BLOB_ARRAY'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_BLOB_ARRAY
 dev_langs:

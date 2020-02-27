@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: e6c24d16-0ae2-443c-8971-2d7da3aae963
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPTUI_CERT_MGR_STRUCT, CRYPTUI_CERT_MGR_STRUCT, CRYPTUI_CERT_MGR_STRUCT structure [Security], PCRYPTUI_CERT_MGR_STRUCT, PCRYPTUI_CERT_MGR_STRUCT structure pointer [Security], cryptuiapi/CRYPTUI_CERT_MGR_STRUCT, cryptuiapi/PCRYPTUI_CERT_MGR_STRUCT, security.cryptui_cert_mgr_struct'
-ms.topic: struct
 f1_keywords:
 - cryptuiapi/CRYPTUI_CERT_MGR_STRUCT
 dev_langs:

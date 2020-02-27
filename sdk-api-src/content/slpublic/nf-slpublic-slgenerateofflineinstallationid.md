@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: 2bfbedfc-6fac-468b-8314-c856aab856d0
 ms.date: 12/05/2018
 ms.keywords: SLGenerateOfflineInstallationId, SLGenerateOfflineInstallationId function [Security], security.slgenerateofflineinstallationid, slpublic/SLGenerateOfflineInstallationId
-ms.topic: function
 f1_keywords:
 - slpublic/SLGenerateOfflineInstallationId
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: 77c86b02-7f98-439b-9072-d5fc3ef421a1
 ms.date: 12/05/2018
 ms.keywords: EV_BREAK, EV_CTS, EV_DSR, EV_ERR, EV_RING, EV_RLSD, EV_RXCHAR, EV_RXFLAG, EV_TXEMPTY, SetCommMask, SetCommMask function, _win32_setcommmask, base.setcommmask, winbase/SetCommMask
-ms.topic: function
 f1_keywords:
 - winbase/SetCommMask
 dev_langs:

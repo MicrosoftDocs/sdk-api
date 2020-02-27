@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: c0e29724-1689-4b59-a9bd-b9cc3f391b68
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],put_enabled method, IWMPPlayer.put_enabled, IWMPPlayer::put_enabled, IWMPPlayerput_enabled, put_enabled, put_enabled method [Windows Media Player], put_enabled method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_enabled, wmp/IWMPPlayer::put_enabled
-ms.topic: method
 f1_keywords:
 - wmp/IWMPPlayer.put_enabled
 dev_langs:

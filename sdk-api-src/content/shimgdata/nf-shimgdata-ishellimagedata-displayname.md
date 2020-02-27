@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d2e95a44-2bf7-43e1-9a29-950acc34d2a4
 ms.date: 12/05/2018
 ms.keywords: DisplayName, DisplayName method [Windows Shell], DisplayName method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],DisplayName method, IShellImageData.DisplayName, IShellImageData::DisplayName, _shell_IShellImageData_DisplayName, shell.IShellImageData_DisplayName, shimgdata/IShellImageData::DisplayName
-ms.topic: method
 f1_keywords:
 - shimgdata/IShellImageData.DisplayName
 dev_langs:

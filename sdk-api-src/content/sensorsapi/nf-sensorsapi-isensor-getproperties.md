@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: 19581a45-500f-4210-9ec2-b3e33c84fb8a
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method, GetProperties method,ISensor interface, ISensor interface,GetProperties method, ISensor.GetProperties, ISensor::GetProperties, sensorsapi/ISensor::GetProperties, winsensors_com_ref.isensor_getproperties
-ms.topic: method
 f1_keywords:
 - sensorsapi/ISensor.GetProperties
 dev_langs:
@@ -60,12 +59,12 @@ Retrieves multiple sensor properties.
 
 ### -param pKeys [in]
 
-Pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=134661">IPortableDeviceKeyCollection</a> interface containing the <b>PROPERTYKEY</b> collection for the property values being requested. Set to <b>NULL</b> to retrieve all supported properties.
+Pointer to an <a href="https://msdn.microsoft.com/library/ms739549(VS.85).aspx">IPortableDeviceKeyCollection</a> interface containing the <b>PROPERTYKEY</b> collection for the property values being requested. Set to <b>NULL</b> to retrieve all supported properties.
 
 
 ### -param ppProperties [out]
 
-Address of an <a href="http://go.microsoft.com/fwlink/p/?linkid=134660">IPortableDeviceValues</a> pointer that receives the pointer to the requested property values.
+Address of an <a href="https://msdn.microsoft.com/library/ms740012(VS.85).aspx">IPortableDeviceValues</a> pointer that receives the pointer to the requested property values.
 
 
 ## -returns
@@ -97,7 +96,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The sensor driver does not support at least one of the specified properties. Each unsupported property <b>PROPVARIANT</b> returned through the <a href="http://go.microsoft.com/fwlink/p/?linkid=134660">IPortableDeviceValues</a> interface will have its error value set to <b>HRESULT_FROM_WIN32 
+The sensor driver does not support at least one of the specified properties. Each unsupported property <b>PROPVARIANT</b> returned through the <a href="https://msdn.microsoft.com/library/ms740012(VS.85).aspx">IPortableDeviceValues</a> interface will have its error value set to <b>HRESULT_FROM_WIN32 
 (ERROR_NOT_FOUND)</b>.
 
 

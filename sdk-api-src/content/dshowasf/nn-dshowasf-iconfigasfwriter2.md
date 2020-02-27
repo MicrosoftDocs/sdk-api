@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: fd931a95-3678-46de-8f17-9e7c27087398
 ms.date: 12/05/2018
 ms.keywords: IConfigAsfWriter2, IConfigAsfWriter2 interface [DirectShow], IConfigAsfWriter2 interface [DirectShow],described, IConfigAsfWriter2Interface, dshow.iconfigasfwriter2, dshowasf/IConfigAsfWriter2
-ms.topic: interface
 f1_keywords:
 - dshowasf/IConfigAsfWriter2
 dev_langs:

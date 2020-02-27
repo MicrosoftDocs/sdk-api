@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: E7DE090F-F83E-440D-B2A3-BCF160889F2E
 ms.date: 12/05/2018
 ms.keywords: GetEnabledXStateFeatures, GetEnabledXStateFeatures function, base.getenabledxstatefeatures, winbase/GetEnabledXStateFeatures
-ms.topic: function
 f1_keywords:
 - winbase/GetEnabledXStateFeatures
 dev_langs:

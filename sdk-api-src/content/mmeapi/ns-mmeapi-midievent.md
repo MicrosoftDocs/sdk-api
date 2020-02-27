@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: e83bf111-2075-4cfc-a68b-e0a59a0c53e6
 ms.date: 12/05/2018
 ms.keywords: MIDIEVENT, MIDIEVENT structure [Windows Multimedia], _win32_MIDIEVENT_str, midievent_tag, mmeapi/MIDIEVENT, multimedia.midievent
-ms.topic: struct
 f1_keywords:
 - mmeapi/MIDIEVENT
 dev_langs:

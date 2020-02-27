@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\checkmenuradioitem.htm
 ms.date: 12/05/2018
 ms.keywords: CheckMenuRadioItem, CheckMenuRadioItem function [Menus and Other Resources], _win32_CheckMenuRadioItem, _win32_checkmenuradioitem_cpp, menurc.checkmenuradioitem, winui._win32_checkmenuradioitem, winuser/CheckMenuRadioItem
-ms.topic: function
 f1_keywords:
 - winuser/CheckMenuRadioItem
 dev_langs:

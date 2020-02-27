@@ -7,7 +7,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\printdlgex.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPPRINTDLGEXA, LPPRINTDLGEX, LPPRINTDLGEX structure pointer [Dialog Boxes], PD_ALLPAGES, PD_COLLATE, PD_CURRENTPAGE, PD_DISABLEPRINTTOFILE, PD_ENABLEPRINTTEMPLATE, PD_ENABLEPRINTTEMPLATEHANDLE, PD_EXCLUSIONFLAGS, PD_EXCL_COPIESANDCOLLATE, PD_HIDEPRINTTOFILE, PD_NOCURRENTPAGE, PD_NOPAGENUMS, PD_NOSELECTION, PD_NOWARNING, PD_PAGENUMS, PD_PRINTTOFILE, PD_RESULT_APPLY, PD_RESULT_CANCEL, PD_RESULT_PRINT, PD_RETURNDC, PD_RETURNDEFAULT, PD_RETURNIC, PD_SELECTION, PD_USEDEVMODECOPIES, PD_USEDEVMODECOPIESANDCOLLATE, PD_USELARGETEMPLATE, PRINTDLGEX, PRINTDLGEX structure [Dialog Boxes], PRINTDLGEXA, PRINTDLGEXW, _win32_PRINTDLGEX_str, _win32_printdlgex_str_cpp, commdlg/LPPRINTDLGEX, commdlg/PRINTDLGEX, commdlg/PRINTDLGEXA, commdlg/PRINTDLGEXW, dlgbox.printdlgex_str, tagPDEXA, tagPDEXW, winui._win32_printdlgex_str'
-ms.topic: struct
 f1_keywords:
 - commdlg/PRINTDLGEX
 dev_langs:
@@ -455,7 +454,7 @@ A pointer to an application-defined  callback object.
 
 The object should contain the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nn-commdlg-iprintdialogcallback">IPrintDialogCallback</a> class to receive messages for the child dialog box in the lower portion of the <b>General</b> page. 
 
-The callback object should also contain the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> class to receive a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nn-commdlg-iprintdialogservices">IPrintDialogServices</a> interface. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> on the callback object for both <b>IID_IPrintDialogCallback</b> and <b>IID_IObjectWithSite</b> to determine which interfaces are supported. 
+The callback object should also contain the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> class to receive a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nn-commdlg-iprintdialogservices">IPrintDialogServices</a> interface. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> on the callback object for both <b>IID_IPrintDialogCallback</b> and <b>IID_IObjectWithSite</b> to determine which interfaces are supported. 
 
 If you do not want to retrieve any of the callback information, set <b>lpCallback</b> to <b>NULL</b>. 
 

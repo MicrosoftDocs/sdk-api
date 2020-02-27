@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 14f0faab-ff37-4f86-a4ba-b6c207d7ddf0
 ms.date: 12/05/2018
 ms.keywords: GetRect, GetRect method [Windows Controls], GetRect method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetRect method, ITextRange2.GetRect, ITextRange2::GetRect, controls.itextrange2_getrect, tom/ITextRange2::GetRect, tomAllowOffClient, tomClientCoord, tomObjectArg, tomTransform
-ms.topic: method
 f1_keywords:
 - tom/ITextRange2.GetRect
 dev_langs:

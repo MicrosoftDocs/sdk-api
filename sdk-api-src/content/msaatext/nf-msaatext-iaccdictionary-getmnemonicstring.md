@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 4855acea-83a9-4752-a780-7f0350a7b137
 ms.date: 12/05/2018
 ms.keywords: GetMnemonicString, GetMnemonicString method [Windows Accessibility], GetMnemonicString method [Windows Accessibility],IAccDictionary interface, IAccDictionary interface [Windows Accessibility],GetMnemonicString method, IAccDictionary.GetMnemonicString, IAccDictionary::GetMnemonicString, _msaa_IAccDictionary_GetMnemonicString, msaa.iaccdictionary_iaccdictionary__getmnemonicstring, msaatext/IAccDictionary::GetMnemonicString, winauto.iaccdictionary_iaccdictionary__getmnemonicstring
-ms.topic: method
 f1_keywords:
 - msaatext/IAccDictionary.GetMnemonicString
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Retrieves a mnemonic string.
 <div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
-<a href="https://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="https://msdn.microsoft.com/library/ms629032(VS.85).aspx">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		</div><div> </div>
 
 ## -parameters

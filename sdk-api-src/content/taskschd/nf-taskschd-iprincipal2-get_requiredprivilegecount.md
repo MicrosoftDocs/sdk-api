@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: b80cb1ad-8d28-4e38-82c4-92f1ce8fbc55
 ms.date: 12/05/2018
 ms.keywords: IPrincipal2 interface [Task Scheduler],RequiredPrivilegeCount property, IPrincipal2.RequiredPrivilegeCount, IPrincipal2.get_RequiredPrivilegeCount, IPrincipal2::RequiredPrivilegeCount, IPrincipal2::get_RequiredPrivilegeCount, RequiredPrivilegeCount property [Task Scheduler], RequiredPrivilegeCount property [Task Scheduler],IPrincipal2 interface, get_RequiredPrivilegeCount, taskschd.iprincipal2_requiredprivilegecount, taskschd/IPrincipal2::RequiredPrivilegeCount, taskschd/IPrincipal2::get_RequiredPrivilegeCount
-ms.topic: method
 f1_keywords:
 - taskschd/IPrincipal2.RequiredPrivilegeCount
 dev_langs:

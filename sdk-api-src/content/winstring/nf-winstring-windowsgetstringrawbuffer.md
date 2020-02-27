@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: D2906CD0-7529-459E-A0E9-66D29A5DD1B0
 ms.date: 12/05/2018
 ms.keywords: WindowsGetStringRawBuffer, WindowsGetStringRawBuffer function [Windows Runtime], winrt.windowsgetstringrawbuffer, winstring/WindowsGetStringRawBuffer
-ms.topic: function
 f1_keywords:
 - winstring/WindowsGetStringRawBuffer
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 55ca7733-184a-4bc0-8e91-b5899073bca7
 ms.date: 12/05/2018
 ms.keywords: DrvGetModes, DrvGetModes function [Display Devices], ddifncs_2dfdc736-13de-4235-8be3-946e0cb1ed44.xml, display.drvgetmodes, winddi/DrvGetModes
-ms.topic: function
 f1_keywords:
 - winddi/DrvGetModes
 dev_langs:
@@ -94,7 +93,7 @@ Window Manager dynamically loads all display drivers associated with a miniport 
 
 Refer to the <i>Permedia</i> samples to see a working implementation of <b>DrvGetModes</b>.
 
-<div class="alert"><b>Note</b>    The Microsoft Windows Driver Kit (WDK) does not contain the 3Dlabs Permedia2 (<i>3dlabs.htm</i> ) and 3Dlabs Permedia3 (<i>Perm3.htm</i>) sample display drivers. You can get these sample drivers from the Windows Server 2003 SP1 Driver Development Kit (DDK), which you can download from the <a href="http://go.microsoft.com/fwlink/p/?linkid=21859">DDK - Windows Driver Development Kit</a> page of the WDHC website.</div>
+<div class="alert"><b>Note</b>    The Microsoft Windows Driver Kit (WDK) does not contain the 3Dlabs Permedia2 (<i>3dlabs.htm</i> ) and 3Dlabs Permedia3 (<i>Perm3.htm</i>) sample display drivers. You can get these sample drivers from the Windows Server 2003 SP1 Driver Development Kit (DDK), which you can download from the <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/">DDK - Windows Driver Development Kit</a> page of the WDHC website.</div>
 <div> </div>
 
 

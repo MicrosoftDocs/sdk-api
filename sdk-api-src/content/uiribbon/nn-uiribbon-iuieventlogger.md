@@ -7,7 +7,6 @@ tech.root: windowsribbon
 ms.assetid: 54DB1BFF-0657-4027-8C8C-89CE998253F4
 ms.date: 12/05/2018
 ms.keywords: IUIEventLogger, IUIEventLogger interface [Windows Ribbon], IUIEventLogger interface [Windows Ribbon],described, uiribbon/IUIEventLogger, windowsribbon.iuieventlogger
-ms.topic: interface
 f1_keywords:
 - uiribbon/IUIEventLogger
 dev_langs:

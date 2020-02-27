@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\hittestthemebackground.htm
 ms.date: 12/05/2018
 ms.keywords: HitTestThemeBackground, HitTestThemeBackground function [Windows Controls], controls.HitTestThemeBackground, controls.inet_HitTestThemeBackground, inet_HitTestThemeBackground, inet_HitTestThemeBackground_cpp, uxtheme/HitTestThemeBackground
-ms.topic: function
 f1_keywords:
 - uxtheme/HitTestThemeBackground
 dev_langs:

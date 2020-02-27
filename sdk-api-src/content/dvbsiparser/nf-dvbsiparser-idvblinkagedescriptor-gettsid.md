@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 263f3ff1-33a6-4c40-bcdf-049c4dbaf2ef
 ms.date: 12/05/2018
 ms.keywords: GetTSId, GetTSId method [Microsoft TV Technologies], GetTSId method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetTSId method, IDvbLinkageDescriptor.GetTSId, IDvbLinkageDescriptor::GetTSId, dvbsiparser/IDvbLinkageDescriptor::GetTSId, mstv.idvblinkagedescriptor_gettsid
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbLinkageDescriptor.GetTSId
 dev_langs:

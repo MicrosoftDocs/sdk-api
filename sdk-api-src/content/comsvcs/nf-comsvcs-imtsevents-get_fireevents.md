@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: fad889d2-412e-4dc7-8380-408bda456037
 ms.date: 12/05/2018
 ms.keywords: IMtsEvents interface [COM+],get_FireEvents method, IMtsEvents.get_FireEvents, IMtsEvents::get_FireEvents, _dtc_IMtsEvents_get_FireEvents, comsvcs/IMtsEvents::get_FireEvents, cos.imtsevents_get_fireevents, get_FireEvents, get_FireEvents method [COM+], get_FireEvents method [COM+],IMtsEvents interface
-ms.topic: method
 f1_keywords:
 - comsvcs/IMtsEvents.get_FireEvents
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 3faedb48-3163-48fd-b26e-712de9c4bfaf
 ms.date: 12/05/2018
 ms.keywords: GetBkMode, GetBkMode function [Windows GDI], _win32_GetBkMode, gdi.getbkmode, wingdi/GetBkMode
-ms.topic: function
 f1_keywords:
 - wingdi/GetBkMode
 dev_langs:

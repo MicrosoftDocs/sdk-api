@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: f9ac2a8a-08b7-42a7-b71b-a1d44c924b20
 ms.date: 12/05/2018
 ms.keywords: AVIStreamOpenFromFile, AVIStreamOpenFromFile function [Windows Multimedia], AVIStreamOpenFromFileA, AVIStreamOpenFromFileW, _win32_AVIStreamOpenFromFile, multimedia.avistreamopenfromfile, vfw/AVIStreamOpenFromFile, vfw/AVIStreamOpenFromFileA, vfw/AVIStreamOpenFromFileW
-ms.topic: function
 f1_keywords:
 - vfw/AVIStreamOpenFromFile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: e06661dd-387c-46c4-8c37-f4e101d3c536
 ms.date: 12/05/2018
 ms.keywords: GetTransformLocal, GetTransformLocal method [XPS Documents and Packaging], GetTransformLocal method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetTransformLocal method, IXpsOMTileBrush.GetTransformLocal, IXpsOMTileBrush::GetTransformLocal, xps.ixpsomtilebrush_gettransformlocal, xpsobjectmodel/IXpsOMTileBrush::GetTransformLocal
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMTileBrush.GetTransformLocal
 dev_langs:
@@ -166,7 +165,7 @@ The transform determines how the output area is transformed before the brush ima
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

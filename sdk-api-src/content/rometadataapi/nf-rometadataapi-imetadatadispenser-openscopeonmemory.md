@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 4558b229-0fe9-4ff7-a666-e69b47cb8170
 ms.date: 12/05/2018
 ms.keywords: IMetaDataDispenser interface [Windows Runtime],OpenScopeOnMemory method, IMetaDataDispenser.OpenScopeOnMemory, IMetaDataDispenser::OpenScopeOnMemory, OpenScopeOnMemory, OpenScopeOnMemory method [Windows Runtime], OpenScopeOnMemory method [Windows Runtime],IMetaDataDispenser interface, rometadataapi/IMetaDataDispenser::OpenScopeOnMemory, winrt.imetadatadispenser_openscopeonmemory
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataDispenser.OpenScopeOnMemory
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: ca00c768-d8fe-4f61-8b23-2f3a79b4116c
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerSubscriptionsGet0, FwpmSubLayerSubscriptionsGet0 function [Filtering], fwp.fwpmsublayersubscriptionsget0_func, fwpmu/FwpmSubLayerSubscriptionsGet0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmSubLayerSubscriptionsGet0
 dev_langs:

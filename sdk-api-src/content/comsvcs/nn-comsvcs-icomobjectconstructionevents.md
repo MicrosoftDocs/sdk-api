@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: c5fdb9b1-937e-43cb-93ff-e90f8c268fee
 ms.date: 12/05/2018
 ms.keywords: IComObjectConstructionEvents, IComObjectConstructionEvents interface [COM+], IComObjectConstructionEvents interface [COM+],described, _dtc_IComObjectConstructionEvents, comsvcs/IComObjectConstructionEvents, cos.icomobjectconstructionevents
-ms.topic: interface
 f1_keywords:
 - comsvcs/IComObjectConstructionEvents
 dev_langs:

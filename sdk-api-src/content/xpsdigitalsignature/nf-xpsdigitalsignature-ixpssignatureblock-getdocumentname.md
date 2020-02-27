@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f93e94ff-c56f-4b3c-8af8-983253bd5657
 ms.date: 12/05/2018
 ms.keywords: GetDocumentName, GetDocumentName method [XPS Documents and Packaging], GetDocumentName method [XPS Documents and Packaging],IXpsSignatureBlock interface, IXpsSignatureBlock interface [XPS Documents and Packaging],GetDocumentName method, IXpsSignatureBlock.GetDocumentName, IXpsSignatureBlock::GetDocumentName, xps.ixpssignatureblock_getdocumentname, xpsdigitalsignature/IXpsSignatureBlock::GetDocumentName
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureBlock.GetDocumentName
 dev_langs:
@@ -119,7 +118,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

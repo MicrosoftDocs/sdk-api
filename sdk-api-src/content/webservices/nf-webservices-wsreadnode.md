@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 60dacf3e-ebde-4247-be58-835565874ab6
 ms.date: 12/05/2018
 ms.keywords: WsReadNode, WsReadNode function [Web Services for Windows], webservices/WsReadNode, wsw.wsreadnode
-ms.topic: function
 f1_keywords:
 - webservices/WsReadNode
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: e5644452-8f58-45de-8dc2-878bbb05fcf3
 ms.date: 12/05/2018
 ms.keywords: WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK, WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK callback, WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK, wsw.ws_create_channel_for_listener_callback
-ms.topic: callback
 f1_keywords:
 - webservices/WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK
 dev_langs:

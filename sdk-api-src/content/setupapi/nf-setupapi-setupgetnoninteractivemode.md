@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 0978851d-18a6-47a3-8ac9-0c03c469cbef
 ms.date: 12/05/2018
 ms.keywords: SetupGetNonInteractiveMode, SetupGetNonInteractiveMode function [Device and Driver Installation], devinst.setupgetnoninteractivemode, setup-ref_c292cd64-d95d-4e1a-a28b-183ad013bbd3.xml, setupapi/SetupGetNonInteractiveMode
-ms.topic: function
 f1_keywords:
 - setupapi/SetupGetNonInteractiveMode
 dev_langs:

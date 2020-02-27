@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 7f28c841-5448-4ed7-b76e-0aa5376fd8bf
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],ImportSnapshots method, IVssBackupComponents.ImportSnapshots, IVssBackupComponents::ImportSnapshots, ImportSnapshots, ImportSnapshots method [VSS], ImportSnapshots method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_importsnapshots, base.ivssbackupcomponents_importsnapshots, vsbackup/IVssBackupComponents::ImportSnapshots
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.ImportSnapshots
 dev_langs:

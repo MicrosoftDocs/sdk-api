@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: bf5302e9-da8f-4c57-a998-fd49484e0584
 ms.date: 12/05/2018
 ms.keywords: BG_FILE_INFO, BG_FILE_INFO structure [BITS], _drz_bg_file_info, bits.bg_file_info, bits/BG_FILE_INFO
-ms.topic: struct
 f1_keywords:
 - bits/BG_FILE_INFO
 dev_langs:
@@ -95,7 +94,7 @@ The following identifies whether BITS propagates a file's time stamps:
 BITS does not support SMB paths to named pipes or devices.  To maintain the owner and ACL information for files downloaded using SMB, call the <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-setfileaclflags">IBackgroundCopyJob3::SetFileACLFlags</a> method.
 
 If the path and file name portion of the URL for an HTTP upload and upload-reply job contains Unicode characters not in common to the code page on both the client and server, the URL translation will fail on the server and the BITS job will be placed in the error state.
-If the server portion of the URL contains Unicode characters, you must encode the server portion using <a href="http://go.microsoft.com/fwlink/p/?linkid=166153">Internationalized Domain Names</a> (IDN).
+If the server portion of the URL contains Unicode characters, you must encode the server portion using <a href="https://msdn.microsoft.com/library/dd318142.aspx">Internationalized Domain Names</a> (IDN).
 
 BITS does not limit the size of file you can download using HTTP. For upload limits, see the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-iis-extension-properties">BITSMaximumUploadSize</a> 
 IIS extension property. 

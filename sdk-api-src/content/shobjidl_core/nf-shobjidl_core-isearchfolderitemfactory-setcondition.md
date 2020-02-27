@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6ac5acc3-e522-4b6f-a31c-c0850445e00c
 ms.date: 12/05/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetCondition method, ISearchFolderItemFactory.SetCondition, ISearchFolderItemFactory::SetCondition, SetCondition, SetCondition method [Windows Shell], SetCondition method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetCondition, shell.ISearchFolderItemFactory_SetCondition, shobjidl_core/ISearchFolderItemFactory::SetCondition
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ISearchFolderItemFactory.SetCondition
 dev_langs:

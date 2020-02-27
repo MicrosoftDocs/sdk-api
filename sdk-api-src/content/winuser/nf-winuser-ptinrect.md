@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 8a47a238-082c-44b8-a270-5ebb4d3d9fc8
 ms.date: 12/05/2018
 ms.keywords: PtInRect, PtInRect function [Windows GDI], _win32_PtInRect, gdi.ptinrect, winuser/PtInRect
-ms.topic: function
 f1_keywords:
 - winuser/PtInRect
 dev_langs:

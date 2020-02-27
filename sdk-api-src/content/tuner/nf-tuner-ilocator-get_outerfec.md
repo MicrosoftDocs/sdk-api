@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: d32937e1-0b8c-485e-8bd0-df15ab2ed373
 ms.date: 12/05/2018
 ms.keywords: IDigitalLocatorget_OuterFEC, ILocator interface [Microsoft TV Technologies],get_OuterFEC method, ILocator.get_OuterFEC, ILocator::get_OuterFEC, get_OuterFEC, get_OuterFEC method [Microsoft TV Technologies], get_OuterFEC method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_outerfec, tuner/ILocator::get_OuterFEC
-ms.topic: method
 f1_keywords:
 - tuner/ILocator.get_OuterFEC
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 49433938-d31e-49f8-9dc7-3df5fb3bfcad
 ms.date: 12/05/2018
 ms.keywords: SHLoadLibraryFromParsingName, SHLoadLibraryFromParsingName function [Windows Shell], _shell_SHLoadLibraryFromParsingName, shell.SHLoadLibraryFromParsingName, shobjidl_core/SHLoadLibraryFromParsingName
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHLoadLibraryFromParsingName
 dev_langs:

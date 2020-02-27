@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 048d1822-9349-4d49-a468-c89bc9c51583
 ms.date: 12/05/2018
 ms.keywords: IMFTranscodeSinkInfoProvider interface [Media Foundation],SetOutputFile method, IMFTranscodeSinkInfoProvider.SetOutputFile, IMFTranscodeSinkInfoProvider::SetOutputFile, SetOutputFile, SetOutputFile method [Media Foundation], SetOutputFile method [Media Foundation],IMFTranscodeSinkInfoProvider interface, mf.imftranscodesinkinfoprovider_setoutputfile, mfidl/IMFTranscodeSinkInfoProvider::SetOutputFile
-ms.topic: method
 f1_keywords:
 - mfidl/IMFTranscodeSinkInfoProvider.SetOutputFile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 2e55d67b-99de-4f10-8637-00d9d62e4460
 ms.date: 12/05/2018
 ms.keywords: CreateSemaphoreA, CreateSemaphoreW, CreateSemaphoreW function, _win32_createsemaphore, base.createsemaphore, synchapi/CreateSemaphoreA, synchapi/CreateSemaphoreW
-ms.topic: function
 f1_keywords:
 - synchapi/CreateSemaphoreW
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: E5173EC8-483D-4A90-BDF0-7A7D115A0CF9
 ms.date: 12/05/2018
 ms.keywords: GetRetrievalFilterStackSize, GetRetrievalFilterStackSize method [DXGI], GetRetrievalFilterStackSize method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetRetrievalFilterStackSize method, IDXGIInfoQueue.GetRetrievalFilterStackSize, IDXGIInfoQueue::GetRetrievalFilterStackSize, direct3ddxgi.idxgiinfoqueue_getretrievalfilterstacksize, dxgidebug/IDXGIInfoQueue::GetRetrievalFilterStackSize
-ms.topic: method
 f1_keywords:
 - dxgidebug/IDXGIInfoQueue.GetRetrievalFilterStackSize
 dev_langs:

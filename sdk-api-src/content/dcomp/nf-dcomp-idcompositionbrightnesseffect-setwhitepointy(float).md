@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 2F0FA710-6281-4D25-84E1-25A50DBB92E5
 ms.date: 12/05/2018
 ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetWhitePointY method, IDCompositionBrightnessEffect.SetWhitePointY, IDCompositionBrightnessEffect::SetWhitePointY, IDCompositionBrightnessEffect::SetWhitePointY(float), SetWhitePointY, SetWhitePointY method [DirectComposition], SetWhitePointY method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetWhitePointY, directcomp.idcompositionbrightnesseffect_setwhitepointy
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionBrightnessEffect.SetWhitePointY
 dev_langs:

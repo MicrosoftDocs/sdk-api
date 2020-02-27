@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: a0ba0fa3-489a-4eff-9e49-b231ab472ee4
 ms.date: 12/05/2018
 ms.keywords: 9db12484-8e98-1317-79e4-cbaa511683b8, IDXGIDevice1, IDXGIDevice1 interface [DXGI], IDXGIDevice1 interface [DXGI],described, direct3ddxgi.idxgidevice1, dxgi/IDXGIDevice1
-ms.topic: interface
 f1_keywords:
 - dxgi/IDXGIDevice1
 dev_langs:
@@ -100,7 +99,7 @@ This interface is not supported by Direct3D 12 devices. Direct3D 12 applications
 
 
 This interface is not supported by DXGI 1.0, which shipped in Windows Vista and Windows Server 2008. DXGI 1.1 support is required, which is available on
-          Windows 7, Windows Server 2008 R2, and as an update to Windows Vista with Service Pack 2 (SP2) (<a href="http://go.microsoft.com/fwlink/p/?linkid=160189">KB 971644</a>) and Windows Server 2008 (<a href="http://go.microsoft.com/fwlink/p/?linkid=183689">KB 971512</a>).
+          Windows 7, Windows Server 2008 R2, and as an update to Windows Vista with Service Pack 2 (SP2) (<a href="https://support.microsoft.com/kb/971644">KB 971644</a>) and Windows Server 2008 (<a href="https://support.microsoft.com/kb/971512/">KB 971512</a>).
         
 
 The <b>IDXGIDevice1</b> interface is designed for use by DXGI objects that need access to other DXGI objects. This interface is useful to

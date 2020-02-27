@@ -7,7 +7,6 @@ tech.root: VStor
 ms.assetid: bf70ee43-9fba-4856-a1bc-85eec61f5763
 ms.date: 12/05/2018
 ms.keywords: BreakMirrorVirtualDisk, BreakMirrorVirtualDisk function [VHD], vdssys/BreakMirrorVirtualDisk, vhd.breakmirrorvirtualdisk, virtdisk/BreakMirrorVirtualDisk
-ms.topic: function
 f1_keywords:
 - virtdisk/BreakMirrorVirtualDisk
 dev_langs:

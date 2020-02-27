@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: E428B87C-25FE-437B-AAE8-7E3BC79BBE6B
 ms.date: 12/05/2018
 ms.keywords: GetEmbeddedAccessibles, GetEmbeddedAccessibles method [Windows Accessibility], GetEmbeddedAccessibles method [Windows Accessibility],IRawElementProviderHostingAccessibles interface, IRawElementProviderHostingAccessibles interface [Windows Accessibility],GetEmbeddedAccessibles method, IRawElementProviderHostingAccessibles.GetEmbeddedAccessibles, IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles, uiautomationcore/IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles, winauto.uiauto_IRawElementProviderHostingAccessibles_GetEmbeddedAccessibles
-ms.topic: method
 f1_keywords:
 - uiautomationcore/IRawElementProviderHostingAccessibles.GetEmbeddedAccessibles
 dev_langs:
@@ -60,7 +59,7 @@ Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-
 
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> pointers of the hosted windowless ActiveX controls.
 

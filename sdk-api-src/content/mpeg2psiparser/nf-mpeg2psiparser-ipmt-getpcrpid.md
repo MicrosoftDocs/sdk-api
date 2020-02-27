@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0099e5b3-d573-47b9-9581-fbb9fee3ca16
 ms.date: 12/05/2018
 ms.keywords: GetPcrPid, GetPcrPid method [Microsoft TV Technologies], GetPcrPid method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetPcrPid method, IPMT.GetPcrPid, IPMT::GetPcrPid, IPMTGetPcrPid, mpeg2psiparser/IPMT::GetPcrPid, mstv.ipmt_getpcrpid
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/IPMT.GetPcrPid
 dev_langs:

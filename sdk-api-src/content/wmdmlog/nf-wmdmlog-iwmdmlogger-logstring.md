@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 6a084ef6-20dc-4363-b9b8-c4e9bcb1dd71
 ms.date: 12/05/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],LogString method, IWMDMLogger.LogString, IWMDMLogger::LogString, IWMDMLoggerLogString, LogString, LogString method [windows Media Device Manager], LogString method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_logstring, wmdmlog/IWMDMLogger::LogString
-ms.topic: method
 f1_keywords:
 - wmdmlog/IWMDMLogger.LogString
 dev_langs:

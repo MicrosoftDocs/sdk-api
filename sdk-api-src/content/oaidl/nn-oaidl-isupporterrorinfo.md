@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 42d33066-36b4-4a5b-aa5d-46682e560f32
 ms.date: 12/05/2018
 ms.keywords: ISupportErrorInfo, ISupportedErrorInfo, ISupportedErrorInfo interface [Automation], ISupportedErrorInfo interface [Automation],described, _oa96_ISupportErrorInfo_Interface, automat.isupporterrorinfo, oaidl/ISupportErrorInfo
-ms.topic: interface
 f1_keywords:
 - oaidl/ISupportedErrorInfo
 dev_langs:

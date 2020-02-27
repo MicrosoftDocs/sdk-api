@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 3759d40c-414a-4f91-93eb-0ad4a4b091b9
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],KeyDown method, IWMPEvents.KeyDown, IWMPEvents::KeyDown, IWMPEventsKeyDown, KeyDown, KeyDown method [Windows Media Player], KeyDown method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__keydown, wmp/IWMPEvents::KeyDown
-ms.topic: method
 f1_keywords:
 - wmp/IWMPEvents.KeyDown
 dev_langs:

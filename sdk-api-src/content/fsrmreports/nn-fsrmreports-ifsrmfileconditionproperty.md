@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 460819db-0ac2-4008-8dfb-f0edc69bb478
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileConditionProperty, IFsrmFileConditionProperty interface [File Server Resource Manager], IFsrmFileConditionProperty interface [File Server Resource Manager],described, fs.ifsrmfileconditionproperty, fsrm.ifsrmfileconditionproperty, fsrmreports/IFsrmFileConditionProperty
-ms.topic: interface
 f1_keywords:
 - fsrmreports/IFsrmFileConditionProperty
 dev_langs:

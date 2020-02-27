@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: c3664dec-5ba4-4842-80f1-6652d526295d
 ms.date: 12/05/2018
 ms.keywords: GenerateKeySeed, GenerateKeySeed method [windows Media Format], GenerateKeySeed method [windows Media Format],IWMDRMWriter interface, IWMDRMWriter interface [windows Media Format],GenerateKeySeed method, IWMDRMWriter.GenerateKeySeed, IWMDRMWriter::GenerateKeySeed, IWMDRMWriterGenerateKeySeed, wmformat.iwmdrmwriter_generatekeyseed, wmsdkidl/IWMDRMWriter::GenerateKeySeed
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDRMWriter.GenerateKeySeed
 dev_langs:
@@ -53,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>GenerateKeySeed</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>GenerateKeySeed</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 

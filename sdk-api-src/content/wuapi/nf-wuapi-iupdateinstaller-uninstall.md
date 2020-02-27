@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: fd00fc89-077e-4897-a7ec-d2e06167b7b0
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],Uninstall method, IUpdateInstaller.Uninstall, IUpdateInstaller::Uninstall, Uninstall, Uninstall method [Windows Update Agent], Uninstall method [Windows Update Agent],IUpdateInstaller interface, wua.iupdateinstaller_uninstall, wuapi/IUpdateInstaller::Uninstall
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateInstaller.Uninstall
 dev_langs:

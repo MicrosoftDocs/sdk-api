@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 5a88e2e7-508b-448b-ac1d-50a50b4bb79a
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],get_TVFormat method, IAMAnalogVideoEncoder.get_TVFormat, IAMAnalogVideoEncoder::get_TVFormat, IAMAnalogVideoEncoderget_TVFormat, dshow.iamanalogvideoencoder_get_tvformat, get_TVFormat, get_TVFormat method [DirectShow], get_TVFormat method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::get_TVFormat
-ms.topic: method
 f1_keywords:
 - strmif/IAMAnalogVideoEncoder.get_TVFormat
 dev_langs:
@@ -81,7 +80,7 @@ When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</
 
 
 
-Possible values and their meaning are defined in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a> enumeration.
+Possible values and their meaning are defined in the [AnalogVideoStandard](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-analogvideostandard) enumeration.
 
 
 

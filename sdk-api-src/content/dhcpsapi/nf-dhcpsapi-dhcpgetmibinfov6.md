@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: fcc61321-2edd-4ea8-bcd7-7237fbc90b74
 ms.date: 12/05/2018
 ms.keywords: DhcpGetMibInfoV6, DhcpGetMibInfoV6 function [DHCP], dhcp.dhcpgetmibinfov6, dhcpsapi/DhcpGetMibInfoV6
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetMibInfoV6
 dev_langs:

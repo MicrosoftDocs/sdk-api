@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 75d0275b-9eb8-45ec-ac8e-b18d59e0c011
 ms.date: 12/05/2018
 ms.keywords: SetupDiRegisterCoDeviceInstallers, SetupDiRegisterCoDeviceInstallers function [Device and Driver Installation], devinst.setupdiregistercodeviceinstallers, di-rtns_03f0dc0a-f133-4280-b32d-9a811d04a844.xml, setupapi/SetupDiRegisterCoDeviceInstallers
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiRegisterCoDeviceInstallers
 dev_langs:
@@ -72,7 +71,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi
 
 
 
-<b>SetupDiRegisterCoDeviceInstallers</b> returns <b>TRUE</b> if the function succeeds. If the function returns <b>FALSE</b>, call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> for extended error information.
+<b>SetupDiRegisterCoDeviceInstallers</b> returns <b>TRUE</b> if the function succeeds. If the function returns <b>FALSE</b>, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> for extended error information.
 
 
 

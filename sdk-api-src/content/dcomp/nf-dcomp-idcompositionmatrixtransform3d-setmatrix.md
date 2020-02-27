@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 0F1DBC1C-154A-4785-B9B9-924353FD5836
 ms.date: 12/05/2018
 ms.keywords: IDCompositionMatrixTransform3D interface [DirectComposition],SetMatrix method, IDCompositionMatrixTransform3D.SetMatrix, IDCompositionMatrixTransform3D::SetMatrix, SetMatrix, SetMatrix method [DirectComposition], SetMatrix method [DirectComposition],IDCompositionMatrixTransform3D interface, dcomp/IDCompositionMatrixTransform3D::SetMatrix, directcomp.idcompositionmatrixtransform3d_setmatrix
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionMatrixTransform3D.SetMatrix
 dev_langs:

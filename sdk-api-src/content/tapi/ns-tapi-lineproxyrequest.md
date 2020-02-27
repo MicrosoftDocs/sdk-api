@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 52c9b96e-4c59-46bf-ad37-78bcfc5e8dc3
 ms.date: 12/05/2018
 ms.keywords: '*LPLINEPROXYREQUEST, LINEPROXYREQUEST, LINEPROXYREQUEST structure [TAPI 2.2], LPLINEPROXYREQUEST, LPLINEPROXYREQUEST structure pointer [TAPI 2.2], _tapi2_lineproxyrequest_str, tapi/LINEPROXYREQUEST, tapi/LPLINEPROXYREQUEST, tapi2.lineproxyrequest_str'
-ms.topic: struct
 f1_keywords:
 - tapi/LINEPROXYREQUEST
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: d4606619-f9c5-41e9-8627-17846b98956a
 ms.date: 12/05/2018
 ms.keywords: '*LPSTACKFRAME_EX, INLINE_FRAME_CONTEXT_IGNORE, INLINE_FRAME_CONTEXT_INIT, LPSTACKFRAME_EX, LPSTACKFRAME_EX structure pointer, STACKFRAME_EX, STACKFRAME_EX structure, _tagSTACKFRAME_EX, base.stackframe_ex, dbghelp/LPSTACKFRAME_EX, dbghelp/STACKFRAME_EX'
-ms.topic: struct
 f1_keywords:
 - dbghelp/STACKFRAME_EX
 dev_langs:

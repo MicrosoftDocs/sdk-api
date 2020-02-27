@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_72uc.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingQueue interface [Fax Service],UseDeviceTSID property, IFaxOutgoingQueue.UseDeviceTSID, IFaxOutgoingQueue.get_UseDeviceTSID, IFaxOutgoingQueue.put_UseDeviceTSID, IFaxOutgoingQueue::UseDeviceTSID, IFaxOutgoingQueue::get_UseDeviceTSID, IFaxOutgoingQueue::put_UseDeviceTSID, UseDeviceTSID property [Fax Service], UseDeviceTSID property [Fax Service],IFaxOutgoingQueue interface, _mfax_faxoutgoingqueue.usedevicetsid, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_usedevicetsid_cpp, fax._mfax_faxoutgoingqueue_usedevicetsid, faxcomex/IFaxOutgoingQueue::UseDeviceTSID, faxcomex/IFaxOutgoingQueue::get_UseDeviceTSID, faxcomex/IFaxOutgoingQueue::put_UseDeviceTSID, put_UseDeviceTSID
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutgoingQueue.UseDeviceTSID
 dev_langs:

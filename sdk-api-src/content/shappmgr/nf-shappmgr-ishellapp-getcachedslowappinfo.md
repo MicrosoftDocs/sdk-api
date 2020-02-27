@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 655edc51-0967-4b94-9eef-da213e735e0a
 ms.date: 12/05/2018
 ms.keywords: GetCachedSlowAppInfo, GetCachedSlowAppInfo method [Windows Shell], GetCachedSlowAppInfo method [Windows Shell],IShellApp interface, IShellApp interface [Windows Shell],GetCachedSlowAppInfo method, IShellApp.GetCachedSlowAppInfo, IShellApp::GetCachedSlowAppInfo, inet_IShellApp_GetCachedSlowAppInfo, shappmgr/IShellApp::GetCachedSlowAppInfo, shell.IShellApp_GetCachedSlowAppInfo
-ms.topic: method
 f1_keywords:
 - shappmgr/IShellApp.GetCachedSlowAppInfo
 dev_langs:

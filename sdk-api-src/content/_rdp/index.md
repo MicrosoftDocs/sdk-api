@@ -1,9 +1,10 @@
 ---
 UID: TP:rdp
+title: Windows Desktop Sharing
 ms.assetid: f2fdbe9c-5378-3329-bc7e-5993852bc608
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Windows Desktop Sharing
@@ -17,5 +18,5 @@ To develop Windows Desktop Sharing, you need these headers:
  * [rdpencomapi.h](../rdpencomapi/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Desktop Sharing](/windows/desktop/rdp)
+* [Windows Desktop Sharing](https://docs.microsoft.com/previous-versions/windows/desktop/rdp)
 

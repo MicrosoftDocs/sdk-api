@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 2027d8cd-2528-45ad-9f36-f03cc3001ba7
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_SAMILang method, IWMPClosedCaption.put_SAMILang, IWMPClosedCaption::put_SAMILang, IWMPClosedCaptionput_SAMILang, put_SAMILang, put_SAMILang method [Windows Media Player], put_SAMILang method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_samilang, wmp/IWMPClosedCaption::put_SAMILang
-ms.topic: method
 f1_keywords:
 - wmp/IWMPClosedCaption.put_SAMILang
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: ffbf987c-145e-4b93-a48f-8948944c6e33
 ms.date: 12/05/2018
 ms.keywords: DWRITE_FONT_METRICS, DWRITE_FONT_METRICS structure [Direct Write], directwrite.dwrite_font_metrics, dwrite/DWRITE_FONT_METRICS
-ms.topic: struct
 f1_keywords:
 - dwrite/DWRITE_FONT_METRICS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 2b9a64b2-2bc9-441b-97f7-a72fd7579126
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetBackupOptions method, IVssBackupComponents.SetBackupOptions, IVssBackupComponents::SetBackupOptions, SetBackupOptions, SetBackupOptions method [VSS], SetBackupOptions method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setbackupoptions, base.ivssbackupcomponents_setbackupoptions, vsbackup/IVssBackupComponents::SetBackupOptions
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.SetBackupOptions
 dev_langs:

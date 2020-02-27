@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: dfcbea5c-e2b7-40e4-b1a2-3cc7446d8844
 ms.date: 12/05/2018
 ms.keywords: CreateTimerQueueTimer, CreateTimerQueueTimer function, WT_EXECUTEDEFAULT, WT_EXECUTEINIOTHREAD, WT_EXECUTEINPERSISTENTTHREAD, WT_EXECUTEINTIMERTHREAD, WT_EXECUTELONGFUNCTION, WT_EXECUTEONLYONCE, WT_TRANSFER_IMPERSONATION, _win32_createtimerqueuetimer, base.createtimerqueuetimer, threadpoollegacyapiset/CreateTimerQueueTimer, winbase/CreateTimerQueueTimer
-ms.topic: function
 f1_keywords:
 - threadpoollegacyapiset/CreateTimerQueueTimer
 dev_langs:
@@ -80,6 +79,11 @@ If this parameter is <b>NULL</b>, the timer is associated with the default timer
 
 A pointer to the application-defined function of type <b>WAITORTIMERCALLBACK</b> to be executed when the timer expires. For more information, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms687066(v=vs.85)">WaitOrTimerCallback</a>.
+
+
+### -param Parameter [in, optional]
+
+A single parameter value that will be passed to the callback function.
 
 
 ### -param DueTime [in]
@@ -197,11 +201,6 @@ Callback functions will use the current access token, whether it is a process or
 </tr>
 </table>
  
-
-
-### -param Parameter [in, optional]
-
-A single parameter value that will be passed to the callback function.
 
 
 ## -returns

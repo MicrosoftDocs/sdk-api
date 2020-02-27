@@ -5,9 +5,8 @@ description: Retrieves a value that specifies the type of text selection that is
 old-location: winauto\uiauto_ITextProvider_SupportedTextSelection.htm
 tech.root: WinAuto
 ms.assetid: a1f91515-2bc8-4560-850d-34c880c78c43
-ms.date: 12/05/2018
+ms.date: 01/30/2020
 ms.keywords: ITextProvider interface [Windows Accessibility],SupportedTextSelection property, ITextProvider.SupportedTextSelection, ITextProvider.get_SupportedTextSelection, ITextProvider::SupportedTextSelection, ITextProvider::get_SupportedTextSelection, SupportedTextSelection property [Windows Accessibility], SupportedTextSelection property [Windows Accessibility],ITextProvider interface, get_SupportedTextSelection, uiauto.uiauto_ITextProvider_SupportedTextSelection, uiauto_ITextProvider_SupportedTextSelection, uiautomationcore/ITextProvider::SupportedTextSelection, uiautomationcore/ITextProvider::get_SupportedTextSelection, winauto.uiauto_ITextProvider_SupportedTextSelection
-ms.topic: method
 f1_keywords:
 - uiautomationcore/ITextProvider.SupportedTextSelection
 dev_langs:
@@ -47,42 +46,36 @@ ms.custom: 19H1
 
 # ITextProvider::get_SupportedTextSelection
 
-
 ## -description
 
-
 Retrieves a value that specifies the type of text selection that is supported by the control.
-        
 
 This property is read-only.
 
+## -syntax
+
+```cpp
+HRESULT SupportedTextSelection (SupportedTextSelection *pRetVal);
+```
 
 ## -parameters
 
+*pRetVal*
+
+Type: **[SupportedTextSelection](../uiautomationcore/ne-uiautomationcore-supportedtextselection.md)\***
+
+When this function returns, contains a pointer to the [SupportedTextSelection](../uiautomationcore/ne-uiautomationcore-supportedtextselection.md) object.
+
+## -remarks
+
+> ### Parameters
+>
+> `pRetVal` [out]
+>
+> Type: **[SupportedTextSelection](../uiautomationcore/ne-uiautomationcore-supportedtextselection.md)\***
+>
+> When this function returns, contains a pointer to the [SupportedTextSelection](../uiautomationcore/ne-uiautomationcore-supportedtextselection.md) object.
 
 ## -see-also
 
-
-
-
-<b>Conceptual</b>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider">ITextProvider</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider">ITextRangeProvider</a>
-
-
-
-<b>Reference</b>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
-
+[ITextProvider interface](nn-uiautomationcore-itextprovider.md), [ITextRangeProvider interface](nn-uiautomationcore-itextrangeprovider.md), [UI Automation Providers Overview](/windows/desktop/WinAuto/uiauto-providersoverview)

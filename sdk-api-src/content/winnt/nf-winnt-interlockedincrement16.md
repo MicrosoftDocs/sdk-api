@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 93460ed0-2c2c-4686-a8ed-02669c4df214
 ms.date: 12/05/2018
 ms.keywords: InterlockedIncrement16, InterlockedIncrement16 function, base.interlockedincrement16, winnt/InterlockedIncrement16
-ms.topic: function
 f1_keywords:
 - winnt/InterlockedIncrement16
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Increments (increases by one) the value of the specified 16-bit variable as an atomic operation.
 
-To operate on 32-bit values, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedincrement">InterlockedIncrement</a> function.
+To operate on 32-bit values, use the <a href="/windows/win32/api/winnt/nf-winnt-interlockedincrement">InterlockedIncrement</a> function.
 
 To operate on 64-bit values, use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedincrement64">InterlockedIncrement64</a> function.
 
@@ -103,11 +102,11 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockeddecrement">InterlockedDecrement</a>
+<a href="/windows/win32/api/winnt/nf-winnt-interlockeddecrement">InterlockedDecrement</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedincrement">InterlockedIncrement</a>
+<a href="/windows/win32/api/winnt/nf-winnt-interlockedincrement">InterlockedIncrement</a>
 
 
 

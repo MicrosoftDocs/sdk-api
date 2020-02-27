@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 49048776-85bd-43ac-a5a0-414a26a6a533
 ms.date: 12/05/2018
 ms.keywords: MCIWndPlayTo, MCIWndPlayTo macro [Windows Multimedia], _win32_MCIWndPlayTo, multimedia.mciwndplayto, vfw/MCIWndPlayTo
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndPlayTo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: d878caf9-2cd2-4b1d-b204-a43fe947c4c2
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [windows Media Format], GetType method [windows Media Format],IWMMediaProps interface, IWMMediaProps interface [windows Media Format],GetType method, IWMMediaProps.GetType, IWMMediaProps::GetType, IWMMediaPropsGetType, wmformat.iwmmediaprops_gettype, wmsdkidl/IWMMediaProps::GetType
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMMediaProps.GetType
 dev_langs:

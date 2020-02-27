@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 420d6550-514a-4fea-987b-6deecbc9b717
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificates, ISignerCertificates interface [Security], ISignerCertificates interface [Security],described, certenroll/ISignerCertificates, security.isignercertificates
-ms.topic: interface
 f1_keywords:
 - certenroll/ISignerCertificates
 dev_langs:

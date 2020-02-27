@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 5ea04fdc-d06d-4e8e-9c66-3a6df4372481
 ms.date: 12/05/2018
 ms.keywords: IkeextSaGetById2, IkeextSaGetById2 function [Filtering], fwp.ikeextsagetbyid2, fwpmu/IkeextSaGetById2
-ms.topic: function
 f1_keywords:
 - fwpmu/IkeextSaGetById2
 dev_langs:

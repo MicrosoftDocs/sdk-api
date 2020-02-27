@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f40830ec-e77b-4c47-9041-b0df5becf9fa
 ms.date: 12/05/2018
 ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, IXpsOMFontResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMFontResourceCollection.GetByPartName, IXpsOMFontResourceCollection::GetByPartName, xps.ixpsomfontresourcecollection_getbypartname, xpsobjectmodel/IXpsOMFontResourceCollection::GetByPartName
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMFontResourceCollection.GetByPartName
 dev_langs:
@@ -94,7 +93,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

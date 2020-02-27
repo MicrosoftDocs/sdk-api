@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: b329866a-0c0d-4cb3-838c-36aac17c87ed
 ms.date: 12/05/2018
 ms.keywords: CREATE_DEFAULT_ERROR_MODE, CREATE_NEW_CONSOLE, CREATE_NEW_PROCESS_GROUP, CREATE_SEPARATE_WOW_VDM, CREATE_SUSPENDED, CREATE_UNICODE_ENVIRONMENT, CreateProcessWithTokenW, CreateProcessWithTokenW function, EXTENDED_STARTUPINFO_PRESENT, LOGON_NETCREDENTIALS_ONLY, LOGON_WITH_PROFILE, base.createprocesswithtokenw, winbase/CreateProcessWithTokenW
-ms.topic: function
 f1_keywords:
 - winbase/CreateProcessWithTokenW
 dev_langs:
@@ -333,7 +332,7 @@ Handles in
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-startupinfoexa">STARTUPINFOEX</a> must be closed with 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> when they are no longer needed.
 
-<div class="alert"><b>Important</b>  If the <b>dwFlags</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure specifies <b>STARTF_USESTDHANDLES</b>, the standard handle fields are copied unchanged to the child process without validation. The caller is responsible for ensuring that these fields contain valid handle values.  Incorrect values can cause the child process to misbehave or crash. Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=234779">Application Verifier</a> runtime verification tool to detect invalid handles. </div>
+<div class="alert"><b>Important</b>  If the <b>dwFlags</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure specifies <b>STARTF_USESTDHANDLES</b>, the standard handle fields are copied unchanged to the child process without validation. The caller is responsible for ensuring that these fields contain valid handle values.  Incorrect values can cause the child process to misbehave or crash. Use the <a href="https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=20028">Application Verifier</a> runtime verification tool to detect invalid handles. </div>
 <div> </div>
 
 ### -param lpProcessInformation [out]

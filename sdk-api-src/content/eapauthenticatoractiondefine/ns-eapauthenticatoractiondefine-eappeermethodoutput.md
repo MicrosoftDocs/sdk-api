@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: fb3d423e-8509-4478-87d5-86bcbd90a8e7
 ms.date: 12/05/2018
 ms.keywords: EapPeerMethodOutput, EapPeerMethodOutput structure [EAPHost], eapauthenticatoractiondefine/EapPeerMethodOutput, eaphost.eappeermethodoutput
-ms.topic: struct
 f1_keywords:
 - eapauthenticatoractiondefine/EapPeerMethodOutput
 dev_langs:

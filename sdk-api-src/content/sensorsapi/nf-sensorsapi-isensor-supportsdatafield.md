@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: 95e7211f-9335-4ecf-b9e9-b86ec6a63cba
 ms.date: 12/05/2018
 ms.keywords: ISensor interface,SupportsDataField method, ISensor.SupportsDataField, ISensor::SupportsDataField, SupportsDataField, SupportsDataField method, SupportsDataField method,ISensor interface, sensorsapi/ISensor::SupportsDataField, winsensors_com_ref.isensor_supportsdatafield
-ms.topic: method
 f1_keywords:
 - sensorsapi/ISensor.SupportsDataField
 dev_langs:

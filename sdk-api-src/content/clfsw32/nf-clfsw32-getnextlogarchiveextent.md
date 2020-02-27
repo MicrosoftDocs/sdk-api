@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: 4aaf10bd-e9df-435b-a756-5ae5c1eb2903
 ms.date: 12/05/2018
 ms.keywords: GetNextLogArchiveExtent, GetNextLogArchiveExtent function [Files], clfsw32/GetNextLogArchiveExtent, fs.getnextlogarchiveextent
-ms.topic: function
 f1_keywords:
 - clfsw32/GetNextLogArchiveExtent
 dev_langs:

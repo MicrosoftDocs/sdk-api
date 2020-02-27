@@ -1,9 +1,10 @@
 ---
 UID: NA:fhsvcctl
+title: Fhsvcctl.h header
 ms.assetid: 27845c01-e8fc-30f9-bc30-d15ba4764113
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: winprog
 ---
 

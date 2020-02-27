@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: BE4644E7-DBC7-4B30-AD26-483889425195
 ms.date: 12/05/2018
 ms.keywords: IHardwareAudioEngineBase interface [Core Audio],SetEngineDeviceFormat method, IHardwareAudioEngineBase.SetEngineDeviceFormat, IHardwareAudioEngineBase::SetEngineDeviceFormat, SetEngineDeviceFormat, SetEngineDeviceFormat method [Core Audio], SetEngineDeviceFormat method [Core Audio],IHardwareAudioEngineBase interface, audioengineendpoint/IHardwareAudioEngineBase::SetEngineDeviceFormat, coreaudio.ihardwareaudioenginebase_setenginedeviceformat
-ms.topic: method
 f1_keywords:
 - audioengineendpoint/IHardwareAudioEngineBase.SetEngineDeviceFormat
 dev_langs:
@@ -65,7 +64,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mmdevice
 
 ### -param _pwfxFormat [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a> structure that provides information about the hardware audio engine.
+A pointer to a <a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a> structure that provides information about the hardware audio engine.
 
 
 ## -returns

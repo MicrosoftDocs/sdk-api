@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 60117c84-18f9-49db-8d13-b55576874d2b
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetModWidthPairs method, ITextFont2.SetModWidthPairs, ITextFont2::SetModWidthPairs, SetModWidthPairs, SetModWidthPairs method [Windows Controls], SetModWidthPairs method [Windows Controls],ITextFont2 interface, controls.itextfont2_setmodwidthpairs, tom/ITextFont2::SetModWidthPairs
-ms.topic: method
 f1_keywords:
 - tom/ITextFont2.SetModWidthPairs
 dev_langs:

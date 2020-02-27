@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: afd9f0b4-432f-4d23-b59d-7406ac2f68bb
 ms.date: 12/05/2018
 ms.keywords: MsiGetFileHash, MsiGetFileHash function, MsiGetFileHashA, MsiGetFileHashW, _msi_msigetfilehash, msi/MsiGetFileHash, msi/MsiGetFileHashA, msi/MsiGetFileHashW, setup.msigetfilehash
-ms.topic: function
 f1_keywords:
 - msi/MsiGetFileHash
 dev_langs:

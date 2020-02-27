@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 730fa372-f620-4d21-99b9-3e7b79932792
 ms.date: 12/05/2018
 ms.keywords: _win32_getservbyname_2, getservbyname, getservbyname function [Winsock], winsock.getservbyname_2, winsock/getservbyname
-ms.topic: function
 f1_keywords:
 - winsock2/getservbyname
 dev_langs:

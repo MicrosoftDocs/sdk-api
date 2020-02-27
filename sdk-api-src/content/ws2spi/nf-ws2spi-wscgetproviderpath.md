@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: fe60c8c4-e2d0-48cc-9fdf-e58e408fb1b3
 ms.date: 12/05/2018
 ms.keywords: WSCGetProviderPath, WSCGetProviderPath function [Winsock], _win32_wscgetproviderpath_2, winsock.wscgetproviderpath_2, ws2spi/WSCGetProviderPath
-ms.topic: function
 f1_keywords:
 - ws2spi/WSCGetProviderPath
 dev_langs:
@@ -62,7 +61,7 @@ The
 ### -param lpProviderId [in]
 
 A pointer to a globally unique identifier (GUID)  for the provider. This value is obtained by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a>.
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a>.
 
 
 ### -param lpszProviderDllPath [out]
@@ -95,7 +94,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -106,7 +105,7 @@ The <i>lpProviderId</i> parameter does not specify a valid provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -125,7 +124,7 @@ The <i>lpszProviderDllPath</i> or <i>lpErrno</i> parameter is not in a valid par
 
 
 The 
-**WSCGetProviderPath** function retrieves the DLL path for the specified provider. The DLL path can contain embedded environment strings, such as %SystemRoot%, and thus should be expanded prior to being used with the Windows <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function. For more information, see **LoadLibrary**.
+**WSCGetProviderPath** function retrieves the DLL path for the specified provider. The DLL path can contain embedded environment strings, such as %SystemRoot%, and thus should be expanded prior to being used with the Windows <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function. For more information, see **LoadLibrary**.
 
 
 
@@ -135,11 +134,11 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallprovider">WSCInstallProvider</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallprovider">WSCInstallProvider</a>
  
 
  

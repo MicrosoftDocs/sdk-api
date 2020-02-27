@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: b4945e2f-6907-4e02-9719-89c8e0bf1404
 ms.date: 12/05/2018
 ms.keywords: GetProcAmpRange, GetProcAmpRange method [Media Foundation], GetProcAmpRange method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetProcAmpRange method, IDirectXVideoProcessorService.GetProcAmpRange, IDirectXVideoProcessorService::GetProcAmpRange, b4945e2f-6907-4e02-9719-89c8e0bf1404, dxva2api/IDirectXVideoProcessorService::GetProcAmpRange, mf.idirectxvideoprocessorservice_getprocamprange
-ms.topic: method
 f1_keywords:
 - dxva2api/IDirectXVideoProcessorService.GetProcAmpRange
 dev_langs:

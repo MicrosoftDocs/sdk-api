@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 1c0d27cb-1725-4654-ab15-0ef815ce6657
 ms.date: 12/05/2018
 ms.keywords: GetIUnknown, GetIUnknown method [COM+], GetIUnknown method [COM+],IManagedObjectInfo interface, IManagedObjectInfo interface [COM+],GetIUnknown method, IManagedObjectInfo.GetIUnknown, IManagedObjectInfo::GetIUnknown, _cos_IManagedObjectInfo_GetIUnknown, comsvcs/IManagedObjectInfo::GetIUnknown, cos.imanagedobjectinfo_getiunknown
-ms.topic: method
 f1_keywords:
 - comsvcs/IManagedObjectInfo.GetIUnknown
 dev_langs:

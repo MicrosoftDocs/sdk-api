@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 12fca5ba-640d-4c6f-878b-7744331bbcff
 ms.date: 12/05/2018
 ms.keywords: RtwqUnregisterPlatformFromMMCSS, RtwqUnregisterPlatformFromMMCSS function, base.rtwqunregisterplatformfrommmcss, rtworkq/RtwqUnregisterPlatformFromMMCSS
-ms.topic: function
 f1_keywords:
 - rtworkq/RtwqUnregisterPlatformFromMMCSS
 dev_langs:

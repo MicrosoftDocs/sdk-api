@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 68cf09f8-fe97-4035-94b6-886ca26bbf3e
 ms.date: 12/05/2018
 ms.keywords: IsValidLanguageGroup, IsValidLanguageGroup function [Internationalization for Windows Applications], LGRPID_INSTALLED, LGRPID_SUPPORTED, _win32_IsValidLanguageGroup, intl.isvalidlanguagegroup, winnls/IsValidLanguageGroup
-ms.topic: function
 f1_keywords:
 - winnls/IsValidLanguageGroup
 dev_langs:

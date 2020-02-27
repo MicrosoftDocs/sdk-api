@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 3480C16F-E4E4-469C-BE27-711044691A49
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetPreload method, IMFMediaEngine.SetPreload, IMFMediaEngine::SetPreload, SetPreload, SetPreload method [Media Foundation], SetPreload method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setpreload, mfmediaengine/IMFMediaEngine::SetPreload
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngine.SetPreload
 dev_langs:

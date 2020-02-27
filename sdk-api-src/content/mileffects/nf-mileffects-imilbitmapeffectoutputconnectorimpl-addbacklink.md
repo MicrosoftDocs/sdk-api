@@ -7,7 +7,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnectorimpl\addbacklink.htm
 ms.date: 12/05/2018
 ms.keywords: AddBackLink, AddBackLink method [WPF Bitmap Effects], AddBackLink method [WPF Bitmap Effects],IMILBitmapEffectOutputConnectorImpl interface, IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects],AddBackLink method, IMILBitmapEffectOutputConnectorImpl.AddBackLink, IMILBitmapEffectOutputConnectorImpl::AddBackLink, _wibe_imilbitmapeffectoutputconnectorimpl_addbacklink, mileffects/IMILBitmapEffectOutputConnectorImpl::AddBackLink, wibe._wibe_imilbitmapeffectoutputconnectorimpl_addbacklink
-ms.topic: method
 f1_keywords:
 - mileffects/IMILBitmapEffectOutputConnectorImpl.AddBackLink
 dev_langs:

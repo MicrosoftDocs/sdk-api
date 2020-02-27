@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2da53db9-5565-4bca-ba0a-90f7e07ccbb9
 ms.date: 12/05/2018
 ms.keywords: GetCurrentVolumeInfo, GetCurrentVolumeInfo method [DirectShow], GetCurrentVolumeInfo method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentVolumeInfo method, IDvdInfo.GetCurrentVolumeInfo, IDvdInfo::GetCurrentVolumeInfo, IDvdInfoGetCurrentVolumeInfo, dshow.idvdinfo_getcurrentvolumeinfo, strmif/IDvdInfo::GetCurrentVolumeInfo
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo.GetCurrentVolumeInfo
 dev_langs:
@@ -75,7 +74,7 @@ Pointer to the retrieved volume number for this root directory.
 
 ### -param pSide [out]
 
-Pointer to the retrieved current disc side (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_disc_side">DVD_DISC_SIDE</a>).
+Pointer to the retrieved current disc side ([DVD_DISC_SIDE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_disc_side)).
 
 
 ### -param pulNumOfTitles [out]
@@ -123,7 +122,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-Requested action is not supported on this domain (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
+Requested action is not supported on this domain (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
 
 </td>
 </tr>
@@ -148,7 +147,7 @@ Requested action cannot occur at this point in the movie due to the authoring of
 
 
 
-This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

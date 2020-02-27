@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getdashstyle.htm
 ms.date: 12/05/2018
 ms.keywords: GetDashStyle, GetDashStyle method [GDI+], GetDashStyle method [GDI+],Pen class, Pen class [GDI+],GetDashStyle method, Pen.GetDashStyle, Pen::GetDashStyle, _gdiplus_CLASS_Pen_GetDashStyle_, gdiplus._gdiplus_CLASS_Pen_GetDashStyle_
-ms.topic: method
 f1_keywords:
 - gdipluspen/Pen.GetDashStyle
 dev_langs:

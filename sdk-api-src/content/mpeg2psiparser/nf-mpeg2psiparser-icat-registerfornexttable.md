@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 17d77207-253f-48e2-a7ec-3bcc549d2d5e
 ms.date: 12/05/2018
 ms.keywords: ICAT interface [Microsoft TV Technologies],RegisterForNextTable method, ICAT.RegisterForNextTable, ICAT::RegisterForNextTable, ICATRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],ICAT interface, mpeg2psiparser/ICAT::RegisterForNextTable, mstv.icat_registerfornexttable
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/ICAT.RegisterForNextTable
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 9a52fb7f-cd35-4426-8753-c26cebef30d5
 ms.date: 12/05/2018
 ms.keywords: InflateRect, InflateRect function [Windows GDI], _win32_InflateRect, gdi.inflaterect, winuser/InflateRect
-ms.topic: function
 f1_keywords:
 - winuser/InflateRect
 dev_langs:

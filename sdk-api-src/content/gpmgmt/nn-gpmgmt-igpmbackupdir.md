@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 2d44cf6d-a3fa-43db-b28e-3d48f6d13625
 ms.date: 12/05/2018
 ms.keywords: GPMBackupDir, IGPMBackupDir, IGPMBackupDir interface [GPMC], IGPMBackupDir interface [GPMC],described, _win32_igpmbackupdir, gpmc.igpmbackupdir, gpmgmt/IGPMBackupDir
-ms.topic: interface
 f1_keywords:
 - gpmgmt/IGPMBackupDir
 dev_langs:

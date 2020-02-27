@@ -7,7 +7,6 @@ tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistinterface.htm
 ms.date: 12/05/2018
 ms.keywords: IITPropList, IITPropList interface [HTML Help Workshop], IITPropList interface [HTML Help Workshop],described, htmlhelp.iitproplist, infotech/IITPropList, refIITPropListInterface
-ms.topic: interface
 f1_keywords:
 - infotech/IITPropList
 dev_langs:

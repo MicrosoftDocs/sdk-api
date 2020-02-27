@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: a7f35e32-eaad-440b-8109-7320048ec7ba
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetClassInstallParams, SetupDiSetClassInstallParams function [Device and Driver Installation], SetupDiSetClassInstallParamsA, SetupDiSetClassInstallParamsW, devinst.setupdisetclassinstallparams, di-rtns_4bbd92e2-cdae-4b03-9b30-931b6155dc2c.xml, setupapi/SetupDiSetClassInstallParams
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiSetClassInstallParams
 dev_langs:
@@ -85,7 +84,7 @@ The size, in bytes, of the <i>ClassInstallParams</i> buffer. If the buffer is no
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 

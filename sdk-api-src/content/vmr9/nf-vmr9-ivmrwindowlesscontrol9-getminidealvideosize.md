@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9e100f04-28fc-4449-9fe4-0f0074e6439c
 ms.date: 12/05/2018
 ms.keywords: GetMinIdealVideoSize, GetMinIdealVideoSize method [DirectShow], GetMinIdealVideoSize method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],GetMinIdealVideoSize method, IVMRWindowlessControl9.GetMinIdealVideoSize, IVMRWindowlessControl9::GetMinIdealVideoSize, IVMRWindowlessControl9GetMinIdealVideoSize, dshow.ivmrwindowlesscontrol9_getminidealvideosize, vmr9/IVMRWindowlessControl9::GetMinIdealVideoSize
-ms.topic: method
 f1_keywords:
 - vmr9/IVMRWindowlessControl9.GetMinIdealVideoSize
 dev_langs:

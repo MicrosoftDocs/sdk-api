@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propertysheet.htm
 ms.date: 12/05/2018
 ms.keywords: PropertySheet, PropertySheet function [Windows Controls], PropertySheetA, PropertySheetW, _win32_PropertySheet, _win32_PropertySheet_cpp, controls.PropertySheet, controls._win32_PropertySheet, prsht/PropertySheet, prsht/PropertySheetA, prsht/PropertySheetW
-ms.topic: function
 f1_keywords:
 - prsht/PropertySheet
 dev_langs:

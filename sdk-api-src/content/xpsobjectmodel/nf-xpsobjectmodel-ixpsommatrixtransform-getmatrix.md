@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 4067778d-d10f-4b53-9419-f438b7197f44
 ms.date: 12/05/2018
 ms.keywords: GetMatrix, GetMatrix method [XPS Documents and Packaging], GetMatrix method [XPS Documents and Packaging],IXpsOMMatrixTransform interface, IXpsOMMatrixTransform interface [XPS Documents and Packaging],GetMatrix method, IXpsOMMatrixTransform.GetMatrix, IXpsOMMatrixTransform::GetMatrix, xps.ixpsommatrixtransform_getmatrix, xpsobjectmodel/IXpsOMMatrixTransform::GetMatrix
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMMatrixTransform.GetMatrix
 dev_langs:
@@ -111,7 +110,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

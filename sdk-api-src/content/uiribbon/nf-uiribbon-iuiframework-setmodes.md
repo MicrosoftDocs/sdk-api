@@ -7,7 +7,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\setmodes.htm
 ms.date: 12/05/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],SetModes method, IUIFramework.SetModes, IUIFramework::SetModes, SetModes, SetModes method [Windows Ribbon], SetModes method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_SetModes, uiribbon/IUIFramework::SetModes, windowsribbon.windowsribbon_iuiframework_setmodes
-ms.topic: method
 f1_keywords:
 - uiribbon/IUIFramework.SetModes
 dev_langs:

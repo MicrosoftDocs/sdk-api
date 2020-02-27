@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: db1f6889-067a-4a5d-bbfa-5836287d08ca
 ms.date: 12/05/2018
 ms.keywords: GetFirmwareType, GetFirmwareType function, base.getfirmwaretype, winbase/GetFirmwareType
-ms.topic: function
 f1_keywords:
 - winbase/GetFirmwareType
 dev_langs:

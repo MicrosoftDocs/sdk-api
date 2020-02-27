@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: ed9e4ff3-736a-4037-bf85-5572f0cd279d
 ms.date: 12/05/2018
 ms.keywords: NSPStartup, NSPStartup function [Winsock], _win32_nspstartup_2, winsock.nspstartup_2, ws2spi/NSPStartup
-ms.topic: function
 f1_keywords:
 - ws2spi/NSPStartup
 dev_langs:
@@ -55,7 +54,7 @@ The
 
 This function is called by the client upon initialization. 
 The **NSPStartup** and 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspcleanup">NSPCleanup</a> functions must be called as pairs. All  NSP functions must be called from within an **NSPStartup**/**NSPCleanup** pair. It is not required that WSC functions be called from within a **NSPStartup**/**NSPCleanup** pair.
+<a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnspcleanup">NSPCleanup</a> functions must be called as pairs. All  NSP functions must be called from within an **NSPStartup**/**NSPCleanup** pair. It is not required that WSC functions be called from within a **NSPStartup**/**NSPCleanup** pair.
 
 
 ## -parameters
@@ -70,7 +69,7 @@ The desired provider from which to return the entry points.
 
 ### -param lpnspRoutines [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-nsp_routine">NSP_ROUTINE</a> structure that points to provider entry points if the function call is successful.
+A pointer to an <a href="/windows/desktop/api/ws2spi/ns-ws2spi-nsp_routine">NSP_ROUTINE</a> structure that points to provider entry points if the function call is successful.
 
 
 ## -returns
@@ -78,7 +77,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/n
 
 
 The function should return **NO_ERROR** (zero) if the routine succeeds. It should return **SOCKET_ERROR** (–1) if the function fails and it must set the appropriate error code using 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
 
 <table>
 <tr>
@@ -88,7 +87,7 @@ The function should return **NO_ERROR** (zero) if the routine succeeds. It shoul
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -99,7 +98,7 @@ There is not enough memory available to perform this operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -110,7 +109,7 @@ One or more parameters were invalid, or missing, for this provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVALIDPROCTABLE</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVALIDPROCTABLE</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -121,7 +120,7 @@ The procedure call table is invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b>[WSAEOPNOTSUPP](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2#WSAEOPNOTSUPP)</b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2#WSAEOPNOTSUPP">WSAEOPNOTSUPP</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -132,11 +131,11 @@ The operation is not supported. This error is returned if the namespace provider
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASYSNOTREADY</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASYSNOTREADY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-nspstartup">NSPStartup</a> function cannot operate at this time because the underlying system it uses to provide network services is currently unavailable.
+The <a href="/windows/desktop/api/ws2spi/nf-ws2spi-nspstartup">NSPStartup</a> function cannot operate at this time because the underlying system it uses to provide network services is currently unavailable.
 
 </td>
 </tr>
@@ -150,7 +149,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-nsp
 
 
 
-For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-nsp_routine">NSP_ROUTINE</a> structure.
+For more information, see the <a href="/windows/desktop/api/ws2spi/ns-ws2spi-nsp_routine">NSP_ROUTINE</a> structure.
 
 
 
@@ -160,15 +159,15 @@ For more information, see the <a href="https://docs.microsoft.com/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspcleanup">NSPCleanup</a>
+<a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnspcleanup">NSPCleanup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-nsp_routine">NSP_ROUTINE</a>
+<a href="/windows/desktop/api/ws2spi/ns-ws2spi-nsp_routine">NSP_ROUTINE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
  
 
  

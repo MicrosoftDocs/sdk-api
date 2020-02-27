@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: e228928a-ef11-4caa-b33f-fe25a3a6ff86
 ms.date: 12/05/2018
 ms.keywords: CommitFlagDeleteTemplate, CommitFlagSaveTemplateGenerateOID, CommitFlagSaveTemplateOverwrite, CommitFlagSaveTemplateUseCurrentOID, CommitTemplateFlags, CommitTemplateFlags enumeration [Security], certenroll/CommitFlagDeleteTemplate, certenroll/CommitFlagSaveTemplateGenerateOID, certenroll/CommitFlagSaveTemplateOverwrite, certenroll/CommitFlagSaveTemplateUseCurrentOID, certenroll/CommitTemplateFlags, security.committemplateflags
-ms.topic: enum
 f1_keywords:
 - certenroll/CommitTemplateFlags
 dev_langs:

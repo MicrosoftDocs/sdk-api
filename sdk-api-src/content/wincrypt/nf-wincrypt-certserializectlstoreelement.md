@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 63d343c1-fa65-4cd1-a210-3805c7d92208
 ms.date: 12/05/2018
 ms.keywords: CertSerializeCTLStoreElement, CertSerializeCTLStoreElement function [Security], _crypto2_certserializectlstoreelement, security.certserializectlstoreelement, wincrypt/CertSerializeCTLStoreElement
-ms.topic: function
 f1_keywords:
 - wincrypt/CertSerializeCTLStoreElement
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 566d4a36-5623-4896-b23b-3824551850b0
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationManager3, IDirectManipulationManager3 interface [Direct Manipulation], IDirectManipulationManager3 interface [Direct Manipulation],described, directmanipulation.idirectmanipulationmanager3, directmanipulation/IDirectManipulationManager3
-ms.topic: interface
 f1_keywords:
 - directmanipulation/IDirectManipulationManager3
 dev_langs:
@@ -53,7 +52,7 @@ ms.custom: 19H1
 Extends the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationmanager2">IDirectManipulationManager2</a> interface that provides access to all the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> features and APIs available to the client application. 
 
 The <b>IDirectManipulationManager3</b> interface adds support for retrieving an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationdefercontactservice">IDirectManipulationDeferContactService</a> object.
-<div class="alert"><b>Note</b>  To obtain an <b>IDirectManipulationManager3</b> interface pointer, <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on an existing <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationmanager">IDirectManipulationManager</a> interface pointer.  </div><div> </div>
+<div class="alert"><b>Note</b>  To obtain an <b>IDirectManipulationManager3</b> interface pointer, <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on an existing <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationmanager">IDirectManipulationManager</a> interface pointer.  </div><div> </div>
 
 ## -inheritance
 

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 2498792b-a33c-47cd-8d88-8e89b99c432d
 ms.date: 12/05/2018
 ms.keywords: CreatePackageFromFile, CreatePackageFromFile method [XPS Documents and Packaging], CreatePackageFromFile method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackageFromFile method, IXpsOMObjectFactory.CreatePackageFromFile, IXpsOMObjectFactory::CreatePackageFromFile, TRUE, xps.ixpsomobjectfactory_createpackagefromfile, xpsobjectmodel/IXpsOMObjectFactory::CreatePackageFromFile
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreatePackageFromFile
 dev_langs:
@@ -242,7 +241,7 @@ For information about using <a href="https://docs.microsoft.com/windows/desktop/
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

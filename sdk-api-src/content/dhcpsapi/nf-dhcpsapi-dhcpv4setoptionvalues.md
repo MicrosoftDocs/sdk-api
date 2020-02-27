@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 8c50af53-8298-401e-826e-0fb1d1410499
 ms.date: 12/05/2018
 ms.keywords: DhcpV4SetOptionValues, DhcpV4SetOptionValues function [DHCP], dhcp.dhcpv4setoptionvalues, dhcpsapi/DhcpV4SetOptionValues
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4SetOptionValues
 dev_langs:

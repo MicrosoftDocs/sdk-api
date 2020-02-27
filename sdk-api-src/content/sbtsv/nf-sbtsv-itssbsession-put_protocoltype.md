@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: ee4016c7-1cd4-456c-abec-e43d57866bc1
 ms.date: 12/05/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],ProtocolType property, ITsSbSession.ProtocolType, ITsSbSession.put_ProtocolType, ITsSbSession::ProtocolType, ITsSbSession::get_ProtocolType, ITsSbSession::put_ProtocolType, ProtocolType property [Remote Desktop Services], ProtocolType property [Remote Desktop Services],ITsSbSession interface, put_ProtocolType, sbtsv/ITsSbSession::ProtocolType, sbtsv/ITsSbSession::get_ProtocolType, sbtsv/ITsSbSession::put_ProtocolType, termserv.itssbsession_protocoltype
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbSession.ProtocolType
 dev_langs:

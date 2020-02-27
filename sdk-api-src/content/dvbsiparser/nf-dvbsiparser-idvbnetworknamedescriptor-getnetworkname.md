@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 261a6c65-65a5-43ed-aaed-12968b996c5a
 ms.date: 12/05/2018
 ms.keywords: GetNetworkName, GetNetworkName method [Microsoft TV Technologies], GetNetworkName method [Microsoft TV Technologies],IDvbNetworkNameDescriptor interface, IDvbNetworkNameDescriptor interface [Microsoft TV Technologies],GetNetworkName method, IDvbNetworkNameDescriptor.GetNetworkName, IDvbNetworkNameDescriptor::GetNetworkName, dvbsiparser/IDvbNetworkNameDescriptor::GetNetworkName, mstv.idvbnetworknamedescriptor_getnetworkname
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbNetworkNameDescriptor.GetNetworkName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMXDECN4
 ms.date: 12/05/2018
 ms.keywords: XMXDECN4, XMXDECN4 structure [DirectX Math Support APIs], directxpackedvector/XMXDECN4, dxmath.xmxdecn4
-ms.topic: struct
 f1_keywords:
 - directxpackedvector/XMXDECN4
 dev_langs:

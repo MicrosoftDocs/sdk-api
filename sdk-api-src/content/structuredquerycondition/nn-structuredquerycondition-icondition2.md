@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\icondition2\icondition2.htm
 ms.date: 12/05/2018
 ms.keywords: ICondition2, ICondition2 interface [search], ICondition2 interface [search],described, _search_ICondition2, search._search_ICondition2, structuredquerycondition/ICondition2
-ms.topic: interface
 f1_keywords:
 - structuredquerycondition/ICondition2
 dev_langs:
@@ -95,7 +94,7 @@ Retrieves the property name, operation, and value from a leaf search condition n
 
 
 
-The StructuredQuerySample code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to read lines from the console, parse them using the system schema, and display the resulting 
+The StructuredQuerySample code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to read lines from the console, parse them using the system schema, and display the resulting 
 condition trees.
 
 

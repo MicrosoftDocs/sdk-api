@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 3cab12a6-c408-4552-bec0-5ecfd8374757
 ms.date: 12/05/2018
 ms.keywords: SetBitmapBits, SetBitmapBits function [Windows GDI], _win32_SetBitmapBits, gdi.setbitmapbits, wingdi/SetBitmapBits
-ms.topic: function
 f1_keywords:
 - wingdi/SetBitmapBits
 dev_langs:

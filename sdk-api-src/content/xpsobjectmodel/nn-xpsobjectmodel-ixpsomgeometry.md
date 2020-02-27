@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d3f74c1e-49ef-40ee-a2f4-b6d198b57624
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometry, IXpsOMGeometry interface [XPS Documents and Packaging], IXpsOMGeometry interface [XPS Documents and Packaging],described, xps.ixpsomgeometry, xpsobjectmodel/IXpsOMGeometry
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMGeometry
 dev_langs:
@@ -219,7 +218,7 @@ else
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

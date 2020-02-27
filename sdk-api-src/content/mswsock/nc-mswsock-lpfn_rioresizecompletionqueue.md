@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: C3C9A6CA-2C2E-4A5F-BDE7-635DF0B93B1A
 ms.date: 01/30/19
 ms.keywords: LPFN_RIORESIZECOMPLETIONQUEUE
-ms.topic: language-reference
 f1_keywords:
 - mswsock/LPFN_RIORESIZECOMPLETIONQUEUE
 dev_langs:

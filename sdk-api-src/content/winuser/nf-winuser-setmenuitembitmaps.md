@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenuitembitmaps.htm
 ms.date: 12/05/2018
 ms.keywords: MF_BYCOMMAND, MF_BYPOSITION, SetMenuItemBitmaps, SetMenuItemBitmaps function [Menus and Other Resources], _win32_SetMenuItemBitmaps, _win32_setmenuitembitmaps_cpp, menurc.setmenuitembitmaps, winui._win32_setmenuitembitmaps, winuser/SetMenuItemBitmaps
-ms.topic: function
 f1_keywords:
 - winuser/SetMenuItemBitmaps
 dev_langs:

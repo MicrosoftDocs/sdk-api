@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector4GreaterOrEqual(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4GreaterOrEqual, XMVector4GreaterOrEqual, XMVector4GreaterOrEqual method [DirectX Math Support APIs], dxmath.xmvector4greaterorequal
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector4GreaterOrEqual
 dev_langs:

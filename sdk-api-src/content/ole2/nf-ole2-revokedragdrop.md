@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c0fa963c-ed06-426c-8ffc-31b02f083a23
 ms.date: 12/05/2018
 ms.keywords: RevokeDragDrop, RevokeDragDrop function [COM], _ole_RevokeDragDrop, com.revokedragdrop, ole2/RevokeDragDrop
-ms.topic: function
 f1_keywords:
 - ole2/RevokeDragDrop
 dev_langs:

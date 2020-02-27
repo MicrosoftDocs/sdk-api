@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 297ddac1-8383-423a-8e47-7b4466e7e5d1
 ms.date: 12/05/2018
 ms.keywords: GetHyperlinkNavigateUri, GetHyperlinkNavigateUri method [XPS Documents and Packaging], GetHyperlinkNavigateUri method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetHyperlinkNavigateUri method, IXpsOMVisual.GetHyperlinkNavigateUri, IXpsOMVisual::GetHyperlinkNavigateUri, xps.ixpsomvisual_gethyperlinknavigateuri, xpsobjectmodel/IXpsOMVisual::GetHyperlinkNavigateUri
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.GetHyperlinkNavigateUri
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a pointer to the <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface  to which this visual object links.
+Gets a pointer to the <a href="https://msdn2.microsoft.com/library/ms775038.aspx">IUri</a> interface  to which this visual object links.
 
 
 ## -parameters
@@ -60,7 +59,7 @@ Gets a pointer to the <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">
 
 ### -param hyperlinkUri [out, retval]
 
-A pointer to the <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface that contains the destination URI for the link. 
+A pointer to the <a href="https://msdn2.microsoft.com/library/ms775038.aspx">IUri</a> interface that contains the destination URI for the link. 
 				If  a URI has not been set for this object, a <b>NULL</b> pointer is returned.
 
 
@@ -112,7 +111,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

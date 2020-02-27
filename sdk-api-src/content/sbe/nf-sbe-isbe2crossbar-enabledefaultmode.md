@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 5038050b-319d-488a-9cea-a2fc59b90cc8
 ms.date: 12/05/2018
 ms.keywords: EnableDefaultMode, EnableDefaultMode method [Microsoft TV Technologies], EnableDefaultMode method [Microsoft TV Technologies],ISBE2Crossbar interface, ISBE2Crossbar interface [Microsoft TV Technologies],EnableDefaultMode method, ISBE2Crossbar.EnableDefaultMode, ISBE2Crossbar::EnableDefaultMode, mstv.isbe2crossbar_enabledefaultmode, sbe/ISBE2Crossbar::EnableDefaultMode
-ms.topic: method
 f1_keywords:
 - sbe/ISBE2Crossbar.EnableDefaultMode
 dev_langs:

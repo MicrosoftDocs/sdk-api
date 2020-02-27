@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: bdb60917-575e-47d1-a5a7-42159aac2d35
 ms.date: 12/05/2018
 ms.keywords: RpcCallClientLocality, RpcCallClientLocality enumeration [RPC], rcclClientUnknownLocality, rcclInvalid, rcclLocal, rcclRemote, rpc.rpccallclientlocality, rpcasync/RpcCallClientLocality, rpcasync/rcclClientUnknownLocality, rpcasync/rcclInvalid, rpcasync/rcclLocal, rpcasync/rcclRemote
-ms.topic: enum
 f1_keywords:
 - rpcasync/RpcCallClientLocality
 dev_langs:

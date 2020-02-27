@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: D1BA8E91-A3D1-454A-A4F6-E3C786F0BD7E
 ms.date: 12/05/2018
 ms.keywords: GetPackageFullName, GetPackageFullName function [App packaging and management], appmodel/GetPackageFullName, appxpkg.getpackagefullname
-ms.topic: function
 f1_keywords:
 - appmodel/GetPackageFullName
 dev_langs:

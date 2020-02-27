@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 1eece7d5-2f2d-4fae-a2f4-8e52236f57c4
 ms.date: 12/05/2018
 ms.keywords: GetDictionaryLocal, GetDictionaryLocal method [XPS Documents and Packaging], GetDictionaryLocal method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetDictionaryLocal method, IXpsOMPage.GetDictionaryLocal, IXpsOMPage::GetDictionaryLocal, xps.ixpsompage_getdictionarylocal, xpsobjectmodel/IXpsOMPage::GetDictionaryLocal
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPage.GetDictionaryLocal
 dev_langs:
@@ -153,7 +152,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

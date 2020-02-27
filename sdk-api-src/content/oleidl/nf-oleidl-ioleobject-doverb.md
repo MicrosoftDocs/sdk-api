@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: fabd6a0a-7b0c-4c99-af22-8b117addd5f7
 ms.date: 12/05/2018
 ms.keywords: DoVerb, DoVerb method [COM], DoVerb method [COM],IOleObject interface, IOleObject interface [COM],DoVerb method, IOleObject.DoVerb, IOleObject::DoVerb, _ole_ioleobject_doverb, com.ioleobject_doverb, oleidl/IOleObject::DoVerb
-ms.topic: method
 f1_keywords:
 - oleidl/IOleObject.DoVerb
 dev_langs:
@@ -310,7 +309,7 @@ If an end user invokes a verb by some means other than selecting a command from 
 
 If the object's embedding container calls <b>IOleObject::DoVerb</b>, the client-site pointer (<i>pClientSite</i>) passed to <b>IOleObject::DoVerb</b> is the same as that of the embedding site. If the embedded object is a link source, the pointer passed to <b>IOleObject::DoVerb</b> is that of the linking client's client site.
 
-When <b>IOleObject::DoVerb</b> is invoked on an OLE link, it may return OLE_E_CLASSDIFF or MK_CONNECTMANUALLY. The link object returns the former error when the link source has been subjected to some sort of conversion while the link was passive. The link object returns the latter error when the link source is located on a network drive that is not currently connected to the caller's computer. The only way to connect a link under these conditions is to first call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a>, ask for <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolelink">IOleLink</a>, allocate a bind context, and run the link source by calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-bindtosource">IOleLink::BindToSource</a>.
+When <b>IOleObject::DoVerb</b> is invoked on an OLE link, it may return OLE_E_CLASSDIFF or MK_CONNECTMANUALLY. The link object returns the former error when the link source has been subjected to some sort of conversion while the link was passive. The link object returns the latter error when the link source is located on a network drive that is not currently connected to the caller's computer. The only way to connect a link under these conditions is to first call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>, ask for <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolelink">IOleLink</a>, allocate a bind context, and run the link source by calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-bindtosource">IOleLink::BindToSource</a>.
 
 Container applications that do not support general in-place activation can still use the <i>hwndParent</i> and <i>lprcPosRect</i> parameters to support in-place playback of multimedia files. Containers must pass valid <i>hwndParent</i> and <i>lprcPosRect</i> parameters to <b>IOleObject::DoVerb</b>.
 

@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 33A320BD-7B68-4C42-A776-25CC744C6652
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleFactory, IAppxBundleFactory interface [App packaging and management], IAppxBundleFactory interface [App packaging and management],described, appxpackaging/IAppxBundleFactory, appxpkg.iappxbundlefactory
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxBundleFactory
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: b5748a90-1ee1-4f76-93c0-2da2fd5d55c1
 ms.date: 12/05/2018
 ms.keywords: GetNumTables, GetNumTables method [Windows Runtime], GetNumTables method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetNumTables method, IMetaDataTables.GetNumTables, IMetaDataTables::GetNumTables, rometadataapi/IMetaDataTables::GetNumTables, winrt.imetadatatables_getnumtables
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataTables.GetNumTables
 dev_langs:

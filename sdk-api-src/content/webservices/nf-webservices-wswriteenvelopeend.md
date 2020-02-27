@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 4d19d70d-76c5-42db-ae15-1e1ebf9c5aac
 ms.date: 12/05/2018
 ms.keywords: WsWriteEnvelopeEnd, WsWriteEnvelopeEnd function [Web Services for Windows], webservices/WsWriteEnvelopeEnd, wsw.wswriteenvelopeend
-ms.topic: function
 f1_keywords:
 - webservices/WsWriteEnvelopeEnd
 dev_langs:

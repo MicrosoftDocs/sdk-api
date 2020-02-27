@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 3ceb55de-c8be-43a7-93d7-8f674f9645ef
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,RegisterScopeMatchingRule method, IWSDiscoveryPublisher.RegisterScopeMatchingRule, IWSDiscoveryPublisher::RegisterScopeMatchingRule, RegisterScopeMatchingRule, RegisterScopeMatchingRule method, RegisterScopeMatchingRule method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_registerscopematchingrule_method, wsddisco/IWSDiscoveryPublisher::RegisterScopeMatchingRule
-ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveryPublisher.RegisterScopeMatchingRule
 dev_langs:
@@ -117,7 +116,7 @@ Insufficient memory to complete the operation.
 
 
 
-<b>RegisterScopeMatchingRule</b> allows custom scope matching rules to be defined and added to the existing set defined in the <a href="http://go.microsoft.com/fwlink/p/?linkid=87841">WS-Discovery specification</a>.
+<b>RegisterScopeMatchingRule</b> allows custom scope matching rules to be defined and added to the existing set defined in the <a href="https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf">WS-Discovery specification</a>.
 
 
 

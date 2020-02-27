@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 08b0dc42-edf2-485b-8b00-164157117a32
 ms.date: 12/05/2018
 ms.keywords: MCIWndResume, MCIWndResume macro [Windows Multimedia], _win32_MCIWndResume, multimedia.mciwndresume, vfw/MCIWndResume
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndResume
 dev_langs:

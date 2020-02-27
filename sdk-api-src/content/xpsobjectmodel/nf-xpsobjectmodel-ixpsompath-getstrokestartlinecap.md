@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 66286aca-3b94-4ded-9180-1e07599986db
 ms.date: 12/05/2018
 ms.keywords: GetStrokeStartLineCap, GetStrokeStartLineCap method [XPS Documents and Packaging], GetStrokeStartLineCap method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeStartLineCap method, IXpsOMPath.GetStrokeStartLineCap, IXpsOMPath::GetStrokeStartLineCap, xps.ixpsompath_getstrokestartlinecap, xpsobjectmodel/IXpsOMPath::GetStrokeStartLineCap
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.GetStrokeStartLineCap
 dev_langs:
@@ -120,7 +119,7 @@ For more information about the shapes of line caps, see <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

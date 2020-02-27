@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: a923ce8e-71a0-6332-13e1-a4d58750d1ff
 ms.date: 12/05/2018
 ms.keywords: InkStyleProperties, InkStyleProperties function [Direct2D], d2d1_3helper/InkStyleProperties, direct2d.inkstyleproperties
-ms.topic: function
 f1_keywords:
 - d2d1_3helper/InkStyleProperties
 dev_langs:

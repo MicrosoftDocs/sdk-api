@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 090b009d-0cca-4925-bf90-cb3d0975d271
 ms.date: 12/05/2018
 ms.keywords: GetTransportAddress, GetTransportAddress method, GetTransportAddress method,IWSDTransportAddress interface, IWSDTransportAddress interface,GetTransportAddress method, IWSDTransportAddress.GetTransportAddress, IWSDTransportAddress::GetTransportAddress, ncd.iwsdtransportaddress_gettransportaddress, wsdbase/IWSDTransportAddress::GetTransportAddress
-ms.topic: method
 f1_keywords:
 - wsdbase/IWSDTransportAddress.GetTransportAddress
 dev_langs:

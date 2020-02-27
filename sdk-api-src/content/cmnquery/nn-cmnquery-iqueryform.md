@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: fd4f41f0-8aeb-4c83-a079-a5a77685c143
 ms.date: 12/05/2018
 ms.keywords: IQueryForm, IQueryForm interface [Active Directory], IQueryForm interface [Active Directory],described, _glines_iqueryform, ad.iqueryform, cmnquery/IQueryForm
-ms.topic: interface
 f1_keywords:
 - cmnquery/IQueryForm
 dev_langs:

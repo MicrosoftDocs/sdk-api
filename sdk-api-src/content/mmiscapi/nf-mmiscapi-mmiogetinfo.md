@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 9ca58586-8cd6-4d74-9cef-f0ae41b24fe3
 ms.date: 12/05/2018
 ms.keywords: _win32_mmioGetInfo, mmioGetInfo, mmioGetInfo function [Windows Multimedia], mmsystem/mmioGetInfo, multimedia.mmiogetinfo
-ms.topic: function
 f1_keywords:
 - mmiscapi/mmioGetInfo
 dev_langs:

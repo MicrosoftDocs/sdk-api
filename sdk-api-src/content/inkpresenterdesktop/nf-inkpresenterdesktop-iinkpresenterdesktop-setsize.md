@@ -7,7 +7,6 @@ tech.root: input_ink
 ms.assetid: ba2576e5-8039-475b-acd8-1e7336a779e7
 ms.date: 12/05/2018
 ms.keywords: IInkPresenterDesktop interface,SetSize method, IInkPresenterDesktop.SetSize, IInkPresenterDesktop::SetSize, InkPresenterDesktop.iinkpresenterdesktop_setsize, SetSize, SetSize method, SetSize method,IInkPresenterDesktop interface, inkpresenterdesktop/IInkPresenterDesktop::SetSize, input_ink.iinkpresenterdesktop_setsize
-ms.topic: method
 f1_keywords:
 - inkpresenterdesktop/IInkPresenterDesktop.SetSize
 dev_langs:
@@ -82,7 +81,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620314">Complex ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex ink sample</a>
 
 
 
@@ -90,7 +89,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
 
 
 
@@ -102,7 +101,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620312">Simple ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
  
 
  

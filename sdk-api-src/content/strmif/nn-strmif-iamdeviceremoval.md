@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 3d67f577-9d85-47ca-b887-f259e9acc964
 ms.date: 12/05/2018
 ms.keywords: IAMDeviceRemoval, IAMDeviceRemoval interface [DirectShow], IAMDeviceRemoval interface [DirectShow],described, IAMDeviceRemovalInterface, dshow.iamdeviceremoval, strmif/IAMDeviceRemoval
-ms.topic: interface
 f1_keywords:
 - strmif/IAMDeviceRemoval
 dev_langs:

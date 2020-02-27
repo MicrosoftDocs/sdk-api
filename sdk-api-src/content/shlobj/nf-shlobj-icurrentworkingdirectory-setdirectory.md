@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: cd7d1517-8c0c-4e42-b750-815fa0aff32c
 ms.date: 12/05/2018
 ms.keywords: ICurrentWorkingDirectory interface [Windows Shell],SetDirectory method, ICurrentWorkingDirectory.SetDirectory, ICurrentWorkingDirectory::SetDirectory, SetDirectory, SetDirectory method [Windows Shell], SetDirectory method [Windows Shell],ICurrentWorkingDirectory interface, _win32_ICurrentWorkingDirectory_SetDirectory, shell.ICurrentWorkingDirectory_SetDirectory, shlobj/ICurrentWorkingDirectory::SetDirectory
-ms.topic: method
 f1_keywords:
 - shlobj/ICurrentWorkingDirectory.SetDirectory
 dev_langs:

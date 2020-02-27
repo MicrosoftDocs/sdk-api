@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 766ABFE7-4417-47BA-ADF2-AA876C3A868A
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache2 interface [Offline Files],RenameItemEx method, IOfflineFilesCache2.RenameItemEx, IOfflineFilesCache2::RenameItemEx, RenameItemEx, RenameItemEx method [Offline Files], RenameItemEx method [Offline Files],IOfflineFilesCache2 interface, cscobj/IOfflineFilesCache2::RenameItemEx, of.iofflinefilescache2_renameitemex
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesCache2.RenameItemEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 4664351b-d43b-45dc-800e-574685afd0f6
 ms.date: 12/05/2018
 ms.keywords: CopyProxy, CopyProxy method [COM], CopyProxy method [COM],IClientSecurity interface, IClientSecurity interface [COM],CopyProxy method, IClientSecurity.CopyProxy, IClientSecurity::CopyProxy, _com_iclientsecurity_copyproxy, com.iclientsecurity_copyproxy, objidlbase/IClientSecurity::CopyProxy
-ms.topic: method
 f1_keywords:
 - objidl/IClientSecurity.CopyProxy
 dev_langs:
@@ -115,11 +114,11 @@ One or more arguments are not valid.
 
 Local interfaces, such as <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a>, cannot be copied. You cannot duplicate a proxy manager using <b>CopyProxy</b>.
 
-Copies of the same proxy have a special relationship with respect to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a>. Given a proxy, a, of the IA interface of a remote object, suppose a copy of a is created, called b. In this case, calling <b>QueryInterface</b> from the b proxy for IID_IA will not retrieve the IA interface on b, but the one on a, the original proxy.
+Copies of the same proxy have a special relationship with respect to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>. Given a proxy, a, of the IA interface of a remote object, suppose a copy of a is created, called b. In this case, calling <b>QueryInterface</b> from the b proxy for IID_IA will not retrieve the IA interface on b, but the one on a, the original proxy.
 
 Notice that anyone can query for a proxy and change security on it using <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iclientsecurity-setblanket">SetBlanket</a>. However, when you have made a copy of a proxy, no one can get the copy unless you give it to them. Only people who have the copy can set security on it.
 
-The helper function <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocopyproxy">CoCopyProxy</a> encapsulates a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> call for a pointer to IClientSecurity, a call to <b>CopyProxy</b> with the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a> pointer, and the release of the <b>IClientSecurity</b> pointer.
+The helper function <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocopyproxy">CoCopyProxy</a> encapsulates a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> call for a pointer to IClientSecurity, a call to <b>CopyProxy</b> with the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a> pointer, and the release of the <b>IClientSecurity</b> pointer.
 
 
 

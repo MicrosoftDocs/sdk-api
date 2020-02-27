@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_3sys.htm
 ms.date: 12/05/2018
 ms.keywords: CICreateCommand, CICreateCommand function [Indexing Service], _idxs_CICreateCommand, indexsrv.cicreatecommand, ntquery/CICreateCommand
-ms.topic: function
 f1_keywords:
 - ntquery/CICreateCommand
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 Creates a Command object.
 
@@ -141,7 +140,7 @@ The function received an invalid parameter.
 
 The <b>CICreateCommand</b> function simplifies the task of connecting to the Indexing Service content and property indexes as an OLE DB provider data source object (DSO) and creating a session object. Queries made with the resulting <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a> interface default to the scope "\" and search everywhere under that hierarchy (a "deep" search). To specify a scope, use <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-cimakeicommand">CIMakeICommand</a>.
 
-If interface aggregation isn't required, pass IID_ICommand for riid and <b>NULL</b> for <i>pUnkOuter</i>. Otherwise, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> on the returned object to get an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a> interface.
+If interface aggregation isn't required, pass IID_ICommand for riid and <b>NULL</b> for <i>pUnkOuter</i>. Otherwise, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> on the returned object to get an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a> interface.
 
 The <b>CICreateCommand</b> function does not return an error if the catalog or computer do not exist or are not available. The connection to the catalog and computer are established when the <b>ICommand::Execute</b> method is called, and connection errors are returned at that time.
 

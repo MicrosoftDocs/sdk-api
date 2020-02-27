@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 71368635-e8c3-44fd-9d8a-f225b10225ba
 ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],MaxFolderCount property, IDataManager.MaxFolderCount, IDataManager.put_MaxFolderCount, IDataManager::MaxFolderCount, IDataManager::get_MaxFolderCount, IDataManager::put_MaxFolderCount, MaxFolderCount property [PLA], MaxFolderCount property [PLA],IDataManager interface, base.idatamanager_maxfoldercount, pla.idatamanager_maxfoldercount, pla/IDataManager::MaxFolderCount, pla/IDataManager::get_MaxFolderCount, pla/IDataManager::put_MaxFolderCount, put_MaxFolderCount
-ms.topic: method
 f1_keywords:
 - pla/IDataManager.MaxFolderCount
 dev_langs:

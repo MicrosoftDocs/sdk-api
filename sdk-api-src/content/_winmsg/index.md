@@ -1,9 +1,10 @@
 ---
 UID: TP:winmsg
+title: Windows and Messages
 ms.assetid: afb81356-945b-37d0-8a33-e69b5d192770
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Windows and Messages

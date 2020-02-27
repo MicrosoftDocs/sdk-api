@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 3ba32f16-2e11-479c-bc3c-0982e90b883d
 ms.date: 12/05/2018
 ms.keywords: IXpsSignature interface [XPS Documents and Packaging],SetSignatureXml method, IXpsSignature.SetSignatureXml, IXpsSignature::SetSignatureXml, SetSignatureXml, SetSignatureXml method [XPS Documents and Packaging], SetSignatureXml method [XPS Documents and Packaging],IXpsSignature interface, xps.ixpssignature_setsignaturexml, xpsdigitalsignature/IXpsSignature::SetSignatureXml
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignature.SetSignatureXml
 dev_langs:
@@ -148,7 +147,7 @@ Before calling this method, the application must check that the signature markup
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

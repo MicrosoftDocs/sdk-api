@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: bfb8c7b0-8fe4-4e41-8e71-31ea0af57619
 ms.date: 12/05/2018
 ms.keywords: GetTrackInformation, GetTrackInformation method [IMAPI], GetTrackInformation method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetTrackInformation method, IDiscRecorder2Ex.GetTrackInformation, IDiscRecorder2Ex::GetTrackInformation, imapi.idiscrecorder2ex_gettrackinformation, imapi2/IDiscRecorder2Ex::GetTrackInformation
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscRecorder2Ex.GetTrackInformation
 dev_langs:

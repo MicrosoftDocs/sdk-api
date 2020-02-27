@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d930a00b-3084-4da7-8915-0bebdb33df9b
 ms.date: 12/05/2018
 ms.keywords: '*LPEXTRASEARCH, EXTRASEARCH, EXTRASEARCH structure [Windows Shell], LPEXTRASEARCH, LPEXTRASEARCH structure pointer [Windows Shell], _win32_EXTRASEARCH, shell.EXTRASEARCH, shobjidl_core/EXTRASEARCH, shobjidl_core/LPEXTRASEARCH'
-ms.topic: struct
 f1_keywords:
 - shobjidl_core/EXTRASEARCH
 dev_langs:

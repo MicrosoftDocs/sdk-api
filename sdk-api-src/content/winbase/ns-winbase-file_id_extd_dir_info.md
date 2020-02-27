@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 68f222c4-beb6-4be1-a31a-c5fbebbf76f7
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_ID_EXTD_DIR_INFO, FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_COMPRESSED, FILE_ATTRIBUTE_DEVICE, FILE_ATTRIBUTE_DIRECTORY, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_NOT_CONTENT_INDEXED, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_REPARSE_POINT, FILE_ATTRIBUTE_SPARSE_FILE, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, FILE_ATTRIBUTE_VIRTUAL, FILE_ID_EXTD_DIR_INFO, FILE_ID_EXTD_DIR_INFO structure [Files], IO_REPARSE_TAG_CSV, IO_REPARSE_TAG_DEDUP, IO_REPARSE_TAG_DFS, IO_REPARSE_TAG_DFSR, IO_REPARSE_TAG_HSM, IO_REPARSE_TAG_HSM2, IO_REPARSE_TAG_MOUNT_POINT, IO_REPARSE_TAG_NFS, IO_REPARSE_TAG_SIS, IO_REPARSE_TAG_SYMLINK, IO_REPARSE_TAG_WIM, PFILE_ID_EXTD_DIR_INFO, PFILE_ID_EXTD_DIR_INFO structure pointer [Files], _FILE_ID_EXTD_DIR_INFO, fs.file_id_extd_dir_info, winbase/FILE_ID_EXTD_DIR_INFO, winbase/PFILE_ID_EXTD_DIR_INFO'
-ms.topic: struct
 f1_keywords:
 - winbase/FILE_ID_EXTD_DIR_INFO
 dev_langs:
@@ -230,7 +229,7 @@ The data of a file is not available immediately. This attribute indicates that t
 <td width="60%">
 A file that is read-only. Applications can read the file, but cannot write to it or delete it. This 
         attribute is not honored on directories. For more information, see 
-        <a href="Http://go.microsoft.com/fwlink/p/?linkid=125896">You cannot view or change the Read-only or the System attributes of folders in Windows Server 2003, in Windows XP, in Windows Vista or in Windows 7</a>.
+        <a href="https://support.microsoft.com/kb/326549">You cannot view or change the Read-only or the System attributes of folders in Windows Server 2003, in Windows XP, in Windows Vista or in Windows 7</a>.
 
 </td>
 </tr>

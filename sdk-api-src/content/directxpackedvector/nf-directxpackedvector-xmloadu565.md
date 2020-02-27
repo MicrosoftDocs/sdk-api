@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadU565(const XMU565)
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadU565, XMLoadU565, XMLoadU565 method [DirectX Math Support APIs], dxmath.xmloadu565
-ms.topic: function
 f1_keywords:
 - directxpackedvector/XMLoadU565
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: AA08AFD5-EC1A-44BF-9BCB-EEA69A959853
 ms.date: 12/05/2018
 ms.keywords: TdhCleanupPayloadEventFilterDescriptor, TdhCleanupPayloadEventFilterDescriptor function [ETW], etw.tdhcleanuppayloadeventfilterdescriptor, tdh/TdhCleanupPayloadEventFilterDescriptor
-ms.topic: function
 f1_keywords:
 - tdh/TdhCleanupPayloadEventFilterDescriptor
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUShort4(const XMUSHORT4)
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadUShort4, XMLoadUShort4, XMLoadUShort4 method [DirectX Math Support APIs], dxmath.xmloadushort4
-ms.topic: function
 f1_keywords:
 - directxpackedvector/XMLoadUShort4
 dev_langs:

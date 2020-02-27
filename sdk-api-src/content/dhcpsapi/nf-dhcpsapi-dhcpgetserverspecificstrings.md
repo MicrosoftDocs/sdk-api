@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: dc283fa3-6077-4010-8c71-9dc91ed2dadf
 ms.date: 12/05/2018
 ms.keywords: DhcpGetServerSpecificStrings, DhcpGetServerSpecificStrings function [DHCP], dhcp.dhcpgetserverspecificstrings, dhcpsapi/DhcpGetServerSpecificStrings
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetServerSpecificStrings
 dev_langs:

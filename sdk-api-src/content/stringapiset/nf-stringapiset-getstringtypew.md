@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 092541ea-e568-4aa3-b99e-ce0bac9c120b
 ms.date: 12/05/2018
 ms.keywords: CT_CTYPE1, CT_CTYPE2, CT_CTYPE3, GetStringTypeW, GetStringTypeW function [Internationalization for Windows Applications], _win32_GetStringTypeW, _win32_GetStringTypeW_cpp, intl.getstringtypew, stringapiset/GetStringTypeW, winui._win32_GetStringTypeW
-ms.topic: function
 f1_keywords:
 - stringapiset/GetStringTypeW
 dev_langs:
@@ -238,7 +237,7 @@ The following character types are either constant or computable from basic types
 
 <u>Ctype 2</u>
 
-These types support proper layout of Unicode text. For DBCS locales, the character type applies to both narrow and wide characters. The direction attributes are assigned so that the bidirectional layout algorithm standardized by Unicode produces accurate results. These types are mutually exclusive. For more information about the use of these attributes, see <a href="http://go.microsoft.com/fwlink/p/?linkid=161649">The Unicode Standard</a>.
+These types support proper layout of Unicode text. For DBCS locales, the character type applies to both narrow and wide characters. The direction attributes are assigned so that the bidirectional layout algorithm standardized by Unicode produces accurate results. These types are mutually exclusive. For more information about the use of these attributes, see <a href="https://www.unicode.org/standard/standard.html">The Unicode Standard</a>.
 
 
 <table class="clsStd">

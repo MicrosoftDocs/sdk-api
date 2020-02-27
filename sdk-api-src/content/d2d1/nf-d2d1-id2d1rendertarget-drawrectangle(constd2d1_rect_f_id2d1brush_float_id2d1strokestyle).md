@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 3f8c0754-fa68-4b5b-812f-24d8b544ba6e
 ms.date: 12/05/2018
 ms.keywords: DrawRectangle, DrawRectangle methods [Direct2D], ID2D1RenderTarget.DrawRectangle, ID2D1RenderTarget::DrawRectangle, d2d1_1/DrawRectangle, direct2d.id2d1rendertarget_drawrectangle
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1RenderTarget::DrawRectangle
 dev_langs:

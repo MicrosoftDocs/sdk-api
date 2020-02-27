@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 34ddf4d4-3a89-42e0-850d-fcc1c942cb3b
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_get_next_page, ldap.ldap__get__next__page, ldap.ldap_get_next_page, ldap_get_next_page, ldap_get_next_page function [LDAP], winldap/ldap_get_next_page
-ms.topic: function
 f1_keywords:
 - winldap/ldap_get_next_page
 dev_langs:

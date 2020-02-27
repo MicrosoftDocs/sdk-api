@@ -7,7 +7,6 @@ tech.root: ipc
 ms.assetid: 91081373-60cd-4a90-a304-1e67fff9a483
 ms.date: 12/05/2018
 ms.keywords: GetNamedPipeInfo, GetNamedPipeInfo function, PIPE_CLIENT_END, PIPE_SERVER_END, PIPE_TYPE_BYTE, PIPE_TYPE_MESSAGE, _win32_getnamedpipeinfo, base.getnamedpipeinfo, namedpipeapi/GetNamedPipeInfo
-ms.topic: function
 f1_keywords:
 - namedpipeapi/GetNamedPipeInfo
 dev_langs:
@@ -163,7 +162,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\.\pipe\LOCAL\" for the pipe name.
+<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\\\.\\pipe\\LOCAL\\" for the pipe name.
 
 
 

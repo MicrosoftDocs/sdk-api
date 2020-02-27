@@ -7,7 +7,6 @@ tech.root: debug_wwahost
 ms.assetid: 18dabd8a-d35c-4095-985d-bf712c539df8
 ms.date: 12/05/2018
 ms.keywords: DocumentComplete, DocumentComplete method [Debugging Windows Store apps], DocumentComplete method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, IWebApplicationNavigationEvents interface [Debugging Windows Store apps],DocumentComplete method, IWebApplicationNavigationEvents.DocumentComplete, IWebApplicationNavigationEvents::DocumentComplete, debug.iwebapplicationnavigationevents_documentcomplete, webapplication/IWebApplicationNavigationEvents::DocumentComplete
-ms.topic: method
 f1_keywords:
 - webapplication/IWebApplicationNavigationEvents.DocumentComplete
 dev_langs:

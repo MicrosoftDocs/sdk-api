@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 64b2d2b4-1f00-412d-8188-fa361dc317a1
 ms.date: 12/05/2018
 ms.keywords: 64b2d2b4-1f00-412d-8188-fa361dc317a1, GetNodeType, GetNodeType method [Media Foundation], GetNodeType method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetNodeType method, IMFTopologyNode.GetNodeType, IMFTopologyNode::GetNodeType, mf.imftopologynode_getnodetype, mfidl/IMFTopologyNode::GetNodeType
-ms.topic: method
 f1_keywords:
 - mfidl/IMFTopologyNode.GetNodeType
 dev_langs:

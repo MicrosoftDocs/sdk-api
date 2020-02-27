@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 545c6bcb-f96c-47d7-ac33-92da016dbabf
 ms.date: 12/05/2018
 ms.keywords: GetMulticastList, GetMulticastList method [Microsoft TV Technologies], GetMulticastList method [Microsoft TV Technologies],IBDA_IPV6Filter interface, IBDA_IPV6Filter interface [Microsoft TV Technologies],GetMulticastList method, IBDA_IPV6Filter.GetMulticastList, IBDA_IPV6Filter::GetMulticastList, IBDA_IPV6FilterGetMulticastList, bdaiface/IBDA_IPV6Filter::GetMulticastList, mstv.ibda_ipv6filter_getmulticastlist
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_IPV6Filter.GetMulticastList
 dev_langs:

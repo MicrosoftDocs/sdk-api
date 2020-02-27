@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f56fa077-749c-422b-b82d-161f9e5d4766
 ms.date: 12/05/2018
 ms.keywords: GetClipGeometry, GetClipGeometry method [XPS Documents and Packaging], GetClipGeometry method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetClipGeometry method, IXpsOMVisual.GetClipGeometry, IXpsOMVisual::GetClipGeometry, xps.ixpsomvisual_getclipgeometry, xpsobjectmodel/IXpsOMVisual::GetClipGeometry
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.GetClipGeometry
 dev_langs:
@@ -181,7 +180,7 @@ No object could be found with a key name that matched the lookup value.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

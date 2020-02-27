@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 95fe45f0-bf30-4f8c-86f3-e20a0d70127e
 ms.date: 12/05/2018
 ms.keywords: IEnumTfRanges interface [Text Services Framework],Next method, IEnumTfRanges.Next, IEnumTfRanges::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfRanges interface, _tsf_ienumtfranges_next_ref, msctf/IEnumTfRanges::Next, tsf.ienumtfranges_next
-ms.topic: method
 f1_keywords:
 - msctf/IEnumTfRanges.Next
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 6ccd7828-7aa6-4c86-a340-b93e50cf3a2a
 ms.date: 12/05/2018
 ms.keywords: CombineTransform, CombineTransform function [Windows GDI], _win32_CombineTransform, gdi.combinetransform, wingdi/CombineTransform
-ms.topic: function
 f1_keywords:
 - wingdi/CombineTransform
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 1b1adefc-785e-46ad-8984-d2beb1c2202c
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],ScheduledInstallationTime property, IAutomaticUpdatesSettings.ScheduledInstallationTime, IAutomaticUpdatesSettings.get_ScheduledInstallationTime, IAutomaticUpdatesSettings::ScheduledInstallationTime, IAutomaticUpdatesSettings::get_ScheduledInstallationTime, IAutomaticUpdatesSettings::put_ScheduledInstallationTime, ScheduledInstallationTime property [Windows Update Agent], ScheduledInstallationTime property [Windows Update Agent],IAutomaticUpdatesSettings interface, get_ScheduledInstallationTime, wua.iautomaticupdatessettings_scheduledinstallationtime, wuapi/IAutomaticUpdatesSettings::ScheduledInstallationTime, wuapi/IAutomaticUpdatesSettings::get_ScheduledInstallationTime, wuapi/IAutomaticUpdatesSettings::put_ScheduledInstallationTime
-ms.topic: method
 f1_keywords:
 - wuapi/IAutomaticUpdatesSettings.ScheduledInstallationTime
 dev_langs:

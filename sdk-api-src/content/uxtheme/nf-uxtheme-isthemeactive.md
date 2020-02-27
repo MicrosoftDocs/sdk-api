@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemeactive.htm
 ms.date: 12/05/2018
 ms.keywords: IsThemeActive, IsThemeActive function [Windows Controls], controls.IsThemeActive, controls.inet_IsThemeActive, inet_IsThemeActive, inet_IsThemeActive_cpp, uxtheme/IsThemeActive
-ms.topic: function
 f1_keywords:
 - uxtheme/IsThemeActive
 dev_langs:

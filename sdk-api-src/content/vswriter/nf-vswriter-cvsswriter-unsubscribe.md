@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: b2bb68d1-7beb-4ba1-b16d-6314ac3f4a3d
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],Unsubscribe method, CVssWriter.Unsubscribe, CVssWriter::Unsubscribe, Unsubscribe, Unsubscribe method [VSS], Unsubscribe method [VSS],CVssWriter interface, _win32_cvsswriter_unsubscribe, base.cvsswriter_unsubscribe, vswriter/CVssWriter::Unsubscribe
-ms.topic: method
 f1_keywords:
 - vswriter/CVssWriter.Unsubscribe
 dev_langs:

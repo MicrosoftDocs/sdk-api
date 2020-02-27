@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 62d4f139-ab18-4d65-bda5-1cf09d7ddab9
 ms.date: 12/05/2018
 ms.keywords: PeerDistStartup, PeerDistStartup function [Peer Networking], p2p.peerdiststartup, peerdist/PeerDistStartup
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistStartup
 dev_langs:

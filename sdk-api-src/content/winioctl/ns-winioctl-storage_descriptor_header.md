@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: f98e53d5-45cb-4c3f-b04d-8eecd98655d2
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER structure pointer [Files], STORAGE_DESCRIPTOR_HEADER, STORAGE_DESCRIPTOR_HEADER structure [Files], fs.storage_descriptor_header, winioctl/PSTORAGE_DESCRIPTOR_HEADER, winioctl/STORAGE_DESCRIPTOR_HEADER'
-ms.topic: struct
 f1_keywords:
 - winioctl/STORAGE_DESCRIPTOR_HEADER
 dev_langs:

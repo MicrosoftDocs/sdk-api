@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: D17BD71A-6418-4229-8829-2C8EB9393285
 ms.date: 12/05/2018
 ms.keywords: GetResourceId, GetResourceId method [App packaging and management], GetResourceId method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetResourceId method, IAppxManifestPackageId.GetResourceId, IAppxManifestPackageId::GetResourceId, appxpackaging/IAppxManifestPackageId::GetResourceId, appxpkg.iappxmanifestpackageid_getresourceid
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxManifestPackageId.GetResourceId
 dev_langs:

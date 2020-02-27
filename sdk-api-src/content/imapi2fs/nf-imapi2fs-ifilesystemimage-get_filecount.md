@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: b2545f85-84c9-4f01-98d7-fd6b37fcda5a
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_FileCount method, IFileSystemImage.get_FileCount, IFileSystemImage::get_FileCount, get_FileCount, get_FileCount method [IMAPI], get_FileCount method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_filecount, imapi2fs/IFileSystemImage::get_FileCount
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFileSystemImage.get_FileCount
 dev_langs:

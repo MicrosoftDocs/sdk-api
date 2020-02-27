@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: f2bed074-fcee-4dbb-a4c1-d5922d65d3b9
 ms.date: 12/05/2018
 ms.keywords: ISensor interface,SetProperties method, ISensor.SetProperties, ISensor::SetProperties, SetProperties, SetProperties method, SetProperties method,ISensor interface, sensorsapi/ISensor::SetProperties, winsensors_com_ref.isensor_setproperties
-ms.topic: method
 f1_keywords:
 - sensorsapi/ISensor.SetProperties
 dev_langs:
@@ -60,7 +59,7 @@ Specifies sensor properties.
 
 ### -param pProperties [in]
 
- Pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=134660">IPortableDeviceValues</a> interface containing the list of properties and values to set.
+ Pointer to an <a href="https://msdn.microsoft.com/library/ms740012(VS.85).aspx">IPortableDeviceValues</a> interface containing the list of properties and values to set.
 
 
 ### -param ppResults [out]

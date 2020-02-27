@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: e8aa8462-48f1-4ccd-8c41-a7358975e056
 ms.date: 12/05/2018
 ms.keywords: PdhUpdateLogFileCatalog, PdhUpdateLogFileCatalog function [Perf], _win32_pdhupdatelogfilecatalog, base.pdhupdatelogfilecatalog, pdh/PdhUpdateLogFileCatalog, perf.pdhupdatelogfilecatalog
-ms.topic: function
 f1_keywords:
 - pdh/PdhUpdateLogFileCatalog
 dev_langs:

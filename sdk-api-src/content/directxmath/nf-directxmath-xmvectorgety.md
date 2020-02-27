@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetY(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorGetY, XMVectorGetY, XMVectorGetY method [DirectX Math Support APIs], dxmath.xmvectorgety
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorGetY
 dev_langs:

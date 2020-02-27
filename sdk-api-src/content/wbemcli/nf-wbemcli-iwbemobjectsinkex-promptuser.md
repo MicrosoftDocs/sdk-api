@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: a4ea6f73-e94f-4ffa-9528-43b52ab00192
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectSinkEx interface [Windows Management Instrumentation],PromptUser method, IWbemObjectSinkEx.PromptUser, IWbemObjectSinkEx::PromptUser, PromptUser, PromptUser method [Windows Management Instrumentation], PromptUser method [Windows Management Instrumentation],IWbemObjectSinkEx interface, wbemcli/IWbemObjectSinkEx::PromptUser, wmi.iwbemobjectsinkex_promptuser
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemObjectSinkEx.PromptUser
 dev_langs:

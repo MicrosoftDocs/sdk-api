@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 8744d0d2-bcdc-464f-a55c-4b1db6a42522
 ms.date: 12/05/2018
 ms.keywords: DrawDibStop, DrawDibStop function [Windows Multimedia], _win32_DrawDibStop, multimedia.drawdibstop, vfw/DrawDibStop
-ms.topic: function
 f1_keywords:
 - vfw/DrawDibStop
 dev_langs:

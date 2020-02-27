@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 08d17ac7-a5d4-47ed-9ee4-896471b46769
 ms.date: 12/05/2018
 ms.keywords: '*PDD_SETCOLORKEYDATA, DD_SETCOLORKEYDATA, DD_SETCOLORKEYDATA structure [Display Devices], ddrawint/DD_SETCOLORKEYDATA, ddstrcts_2798d2f9-38f8-42c3-a28e-a0d2a2ac3433.xml, display.dd_setcolorkeydata'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_SETCOLORKEYDATA
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 42eaeb70-3ce8-4eae-b20b-4729db90a7ef
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetWkstaUserEnum, NetWkstaUserEnum function [Network Management], _win32_netwkstauserenum, lmwksta/NetWkstaUserEnum, netmgmt.netwkstauserenum
-ms.topic: function
 f1_keywords:
 - lmwksta/NetWkstaUserEnum
 dev_langs:

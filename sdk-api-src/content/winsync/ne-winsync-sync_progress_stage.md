@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 06f8542a-d742-4cbb-bb44-c107b59ad38f
 ms.date: 12/05/2018
 ms.keywords: SPS_CHANGE_APPLICATION, SPS_CHANGE_DETECTION, SPS_CHANGE_ENUMERATION, SYNC_PROGRESS_STAGE, SYNC_PROGRESS_STAGE enumeration [Windows Sync], winsync.sync_progress_stage, winsync/SPS_CHANGE_APPLICATION, winsync/SPS_CHANGE_DETECTION, winsync/SPS_CHANGE_ENUMERATION, winsync/SYNC_PROGRESS_STAGE
-ms.topic: enum
 f1_keywords:
 - winsync/SYNC_PROGRESS_STAGE
 dev_langs:

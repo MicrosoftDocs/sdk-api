@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 0a1203e3-672b-47fb-9072-d3f06ba22865
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],Keywords property, IDataCollectorSet.Keywords, IDataCollectorSet.get_Keywords, IDataCollectorSet::Keywords, IDataCollectorSet::get_Keywords, IDataCollectorSet::put_Keywords, Keywords property [PLA], Keywords property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_keywords, get_Keywords, pla.idatacollectorset_get_keywords, pla/IDataCollectorSet::Keywords, pla/IDataCollectorSet::get_Keywords, pla/IDataCollectorSet::put_Keywords
-ms.topic: method
 f1_keywords:
 - pla/IDataCollectorSet.Keywords
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 90C49A9A-9297-44E6-9AB8-01C6847CA3F8
 ms.date: 12/05/2018
 ms.keywords: ID2D1DrawTransform, ID2D1DrawTransform interface [Direct2D], ID2D1DrawTransform interface [Direct2D],described, d2d1effectauthor/ID2D1DrawTransform, direct2d.id2d1drawtransform
-ms.topic: interface
 f1_keywords:
 - d2d1effectauthor/ID2D1DrawTransform
 dev_langs:

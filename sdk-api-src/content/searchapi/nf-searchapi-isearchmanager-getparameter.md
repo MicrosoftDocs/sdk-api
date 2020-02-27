@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\getparameter.htm
 ms.date: 12/05/2018
 ms.keywords: GetParameter, GetParameter method [search], GetParameter method [search],ISearchManager interface, ISearchManager interface [search],GetParameter method, ISearchManager.GetParameter, ISearchManager::GetParameter, _search_ISearchManager_GetParameter, search._search_ISearchManager_GetParameter, searchapi/ISearchManager::GetParameter
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchManager.GetParameter
 dev_langs:
@@ -89,7 +88,7 @@ This method returns E_InvalidArg as an error code when called.
 
 
 
-The ReindexMatchingUrls code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates ways to specify which files to re-index and how.
+The ReindexMatchingUrls code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates ways to specify which files to re-index and how.
 
 
 

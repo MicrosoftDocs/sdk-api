@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 580b8aea-8411-41de-a2d9-1c3e3b35dd5a
 ms.date: 12/05/2018
 ms.keywords: '*PDSBITEMA, DSBF_DISPLAYNAME, DSBF_ICONLOCATION, DSBF_STATE, DSBITEM, DSBITEM structure [Active Directory], DSBITEMA, DSBITEMW, DSBS_CHECKED, DSBS_HIDDEN, DSBS_ROOT, PDSBITEM, PDSBITEM structure pointer [Active Directory], _glines_dsbitem, ad.dsbitem, dsclient/DSBITEM, dsclient/DSBITEMA, dsclient/DSBITEMW, dsclient/PDSBITEM'
-ms.topic: struct
 f1_keywords:
 - dsclient/DSBITEM
 dev_langs:

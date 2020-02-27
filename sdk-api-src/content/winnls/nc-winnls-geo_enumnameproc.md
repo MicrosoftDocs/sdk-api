@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 51C64387-5BDF-463B-8A93-9748C099BB09
 ms.date: 12/05/2018
 ms.keywords: Geo_EnumNameProc, Geo_EnumNameProc callback, Geo_EnumNameProc callback function [Internationalization for Windows Applications], intl.geo_enumnameproc, winnls/Geo_EnumNameProc
-ms.topic: callback
 f1_keywords:
 - winnls/Geo_EnumNameProc
 dev_langs:
@@ -95,7 +94,7 @@ Returns <b>TRUE</b> to continue enumeration or <b>FALSE</b> otherwise.
 
 An <i>Geo_EnumNameProc</i> function can carry out any desired task, and can use the information passed to it in the <i>data</i> parameter for any desired purpose. The application registers this function by passing its address to the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemgeonames">EnumSystemGeoNames</a> function.
 
-For information about two-letter ISO 3166-1 codes, see <a href="https://go.microsoft.com/fwlink/p/?linkid=859039">Country Codes - ISO 3166</a>.  For information about numeric UN M.49 codes, see <a href="https://go.microsoft.com/fwlink/p/?linkid=859018">Standard country or area codes for statistical use (M49)</a>.
+For information about two-letter ISO 3166-1 codes, see <a href="https://www.iso.org/iso-3166-country-codes.html">Country Codes - ISO 3166</a>.  For information about numeric UN M.49 codes, see <a href="https://unstats.un.org/unsd/methodology/m49/">Standard country or area codes for statistical use (M49)</a>.
 
 
 

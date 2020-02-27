@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: c4edf6ca-0b16-4e30-933b-934f8930c6d6
 ms.date: 12/05/2018
 ms.keywords: FNFCICLOSE, FNFCICLOSE macro [Windows API], fci/FNFCICLOSE, winprog.fnfciclose
-ms.topic: macro
 f1_keywords:
 - fci/FNFCICLOSE
 dev_langs:
@@ -77,7 +76,7 @@ Pointer to an application-defined value.
 
 
 
-The function accepts parameters similar to <a href="http://go.microsoft.com/fwlink/p/?linkid=196541">_close</a>, with the addition of <i>err</i> and <i>pv</i>.
+The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/5fzwd5ss(VS.80).aspx">_close</a>, with the addition of <i>err</i> and <i>pv</i>.
 
 
 #### Examples

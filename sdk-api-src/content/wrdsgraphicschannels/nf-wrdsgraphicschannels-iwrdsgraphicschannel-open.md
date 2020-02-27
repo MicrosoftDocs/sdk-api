@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 3b32b37f-6b1f-4682-9e2e-4a64e5c36e04
 ms.date: 12/05/2018
 ms.keywords: IWRdsGraphicsChannel interface [Remote Desktop Services],Open method, IWRdsGraphicsChannel.Open, IWRdsGraphicsChannel::Open, Open, Open method [Remote Desktop Services], Open method [Remote Desktop Services],IWRdsGraphicsChannel interface, termserv.iwrdsgraphicschannel_open, wrdsgraphicschannels/IWRdsGraphicsChannel::Open
-ms.topic: method
 f1_keywords:
 - wrdsgraphicschannels/IWRdsGraphicsChannel.Open
 dev_langs:

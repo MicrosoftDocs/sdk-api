@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 50AC6CAF-16D6-4E10-8B9D-A91D5869D7E1
 ms.date: 12/05/2018
 ms.keywords: ID2D1Properties interface [Direct2D],SetValueByName method, ID2D1Properties.SetValueByName, ID2D1Properties.SetValueByName(PCWSTR,const T &,), ID2D1Properties::SetValueByName, ID2D1Properties::SetValueByName(PCWSTR,const T &,), ID2D1Properties::SetValueByName(PCWSTR,const T&), SetValueByName, SetValueByName method [Direct2D], SetValueByName method [Direct2D],ID2D1Properties interface, d2d1_1/ID2D1Properties::SetValueByName, direct2d.id2d1properties_setvaluebyname__pcwstr__const_t_
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1Properties.SetValueByName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: a5af0d75-ae9f-41f2-90cb-8ede7c2f454a
 ms.date: 12/05/2018
 ms.keywords: _win32_capSetScrollPos, capSetScrollPos, capSetScrollPos macro [Windows Multimedia], multimedia.capsetscrollpos, vfw/capSetScrollPos
-ms.topic: macro
 f1_keywords:
 - vfw/capSetScrollPos
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: ca3c1519-0b86-4bdb-b027-9c662df5466e
 ms.date: 12/05/2018
 ms.keywords: TdhQueryProviderFieldInformation, TdhQueryProviderFieldInformation function [ETW], etw.tdhqueryproviderfieldinformation_func, tdh.tdhqueryproviderfieldinformation_func, tdh/TdhQueryProviderFieldInformation
-ms.topic: function
 f1_keywords:
 - tdh/TdhQueryProviderFieldInformation
 dev_langs:

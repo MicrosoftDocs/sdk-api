@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: B7CD16AE-77A3-4C3C-91B7-3AD32DCF68C0
 ms.date: 12/05/2018
 ms.keywords: GetLocality, GetLocality method [Direct Write], GetLocality method [Direct Write],IDWriteFont3 interface, IDWriteFont3 interface [Direct Write],GetLocality method, IDWriteFont3.GetLocality, IDWriteFont3::GetLocality, directwrite.idwritefont3_getlocality, dwrite_3/IDWriteFont3::GetLocality
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFont3.GetLocality
 dev_langs:

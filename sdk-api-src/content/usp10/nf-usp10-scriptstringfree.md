@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 39d633a7-def7-41ef-80e5-f4c5c90cebba
 ms.date: 12/05/2018
 ms.keywords: ScriptStringFree, ScriptStringFree function [Internationalization for Windows Applications], _win32_ScriptStringFree, intl.scriptstringfree, usp10/ScriptStringFree
-ms.topic: function
 f1_keywords:
 - usp10/ScriptStringFree
 dev_langs:

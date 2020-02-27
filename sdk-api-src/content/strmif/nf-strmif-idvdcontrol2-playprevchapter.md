@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: bebfe1e1-9197-4105-9b3f-edeb6f04836c
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayPrevChapter method, IDvdControl2.PlayPrevChapter, IDvdControl2::PlayPrevChapter, IDvdControl2PlayPrevChapter, PlayPrevChapter, PlayPrevChapter method [DirectShow], PlayPrevChapter method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playprevchapter, strmif/IDvdControl2::PlayPrevChapter
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.PlayPrevChapter
 dev_langs:
@@ -64,7 +63,7 @@ The <code>PlayPrevChapter</code> method starts playback from the beginning of th
 
 ### -param dwFlags [in]
 
-Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
+Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
 
 
 ### -param ppCmd [out]

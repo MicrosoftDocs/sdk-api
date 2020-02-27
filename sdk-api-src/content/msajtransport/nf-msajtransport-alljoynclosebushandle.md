@@ -7,7 +7,6 @@ tech.root: AllJoyn
 ms.assetid: FE545239-F88D-4876-8A3F-52AC8CA63FBB
 ms.date: 12/05/2018
 ms.keywords: AllJoynCloseBusHandle, AllJoynCloseBusHandle function [AllJoyn API], alljoyn.alljoynclosebushandle, msajtransport/AllJoynCloseBusHandle
-ms.topic: function
 f1_keywords:
 - msajtransport/AllJoynCloseBusHandle
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: hidpi
 ms.assetid: 52BB557B-0D70-4189-9BD0-EB94188EA4E7
 ms.date: 12/05/2018
 ms.keywords: SetDialogControlDpiChangeBehavior, SetDialogResizeBehavior, SetDialogResizeBehavior function [High DPI], hidpi.setdialogresizebehavior, winuser/SetDialogResizeBehavior
-ms.topic: function
 f1_keywords:
 - winuser/SetDialogResizeBehavior
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: c49566d6-8a37-4ad6-9b3a-52ef39b925be
 ms.date: 12/05/2018
 ms.keywords: GetFigures, GetFigures method [XPS Documents and Packaging], GetFigures method [XPS Documents and Packaging],IXpsOMGeometry interface, IXpsOMGeometry interface [XPS Documents and Packaging],GetFigures method, IXpsOMGeometry.GetFigures, IXpsOMGeometry::GetFigures, xps.ixpsomgeometry_getfigures, xpsobjectmodel/IXpsOMGeometry::GetFigures
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGeometry.GetFigures
 dev_langs:
@@ -115,7 +114,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

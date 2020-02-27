@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 736688c3-2c2c-4244-9f49-98ad0fe2d141
 ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_FIRST_RECORD_FN, PIBIO_STORAGE_FIRST_RECORD_FN callback, StorageAdapterFirstRecord, StorageAdapterFirstRecord callback function [Windows Biometric Framework API], secbiomet.storageadapterfirstrecord, winbio_adapter/StorageAdapterFirstRecord
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterFirstRecord
 dev_langs:

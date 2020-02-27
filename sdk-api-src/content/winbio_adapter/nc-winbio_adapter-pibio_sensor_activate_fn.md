@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: CC5128D8-9863-4B9F-B82D-AE2A0D5A45C5
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_ACTIVATE_FN, PIBIO_SENSOR_ACTIVATE_FN callback, SensorAdapterActivate, SensorAdapterActivate callback function [Windows Biometric Framework API], secbiomet.sensoradapteractivate, winbio_adapter/SensorAdapterActivate
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/SensorAdapterActivate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: 39406331-3101-48f2-8b92-e049849b2b38
 ms.date: 12/05/2018
 ms.keywords: SAFER_TOKEN_COMPARE_ONLY, SAFER_TOKEN_MAKE_INERT, SAFER_TOKEN_NULL_IF_EQUAL, SAFER_TOKEN_WANT_FLAGS, SaferComputeTokenFromLevel, SaferComputeTokenFromLevel function [Security], security.safercomputetokenfromlevel, winsafer/SaferComputeTokenFromLevel
-ms.topic: function
 f1_keywords:
 - winsafer/SaferComputeTokenFromLevel
 dev_langs:
@@ -114,7 +113,7 @@ On output, the value of the <i>lpReserved</i> parameter specifies the result of 
 </dl>
 </td>
 <td width="60%">
-If this flag is set, the system does not check <a href="http://go.microsoft.com/fwlink/p/?linkid=161970">AppLocker</a> rules  or apply <a href="http://go.microsoft.com/fwlink/p/?linkid=161971">Software Restriction Policies</a>. For <a href="http://go.microsoft.com/fwlink/p/?linkid=161970">AppLocker</a>, this flag disables checks for all four rule collections: Executable, Windows Installer, Script, and DLL. 
+If this flag is set, the system does not check <a href="https://technet.microsoft.com/library/dd723678.aspx">AppLocker</a> rules  or apply <a href="https://technet.microsoft.com/library/cc779607.aspx">Software Restriction Policies</a>. For <a href="https://technet.microsoft.com/library/dd723678.aspx">AppLocker</a>, this flag disables checks for all four rule collections: Executable, Windows Installer, Script, and DLL. 
 
 Set this flag when creating a setup program that must run extracted DLLs during installation.
 

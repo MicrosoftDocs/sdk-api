@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 47e0e230-0952-4afb-a757-af387a7cddfb
 ms.date: 12/05/2018
 ms.keywords: CreatePropertyByPosition, CreatePropertyByPosition method [COM+], CreatePropertyByPosition method [COM+],ISharedPropertyGroup interface, ISharedPropertyGroup interface [COM+],CreatePropertyByPosition method, ISharedPropertyGroup.CreatePropertyByPosition, ISharedPropertyGroup::CreatePropertyByPosition, _cos_ISharedPropertyGroup_CreatePropertyByPosition, comsvcs/ISharedPropertyGroup::CreatePropertyByPosition, cos.isharedpropertygroup_createpropertybyposition
-ms.topic: method
 f1_keywords:
 - comsvcs/ISharedPropertyGroup.CreatePropertyByPosition
 dev_langs:

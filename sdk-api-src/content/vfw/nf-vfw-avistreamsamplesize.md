@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 24d8dae6-a9f7-4ca6-a083-1e1f59c0591c
 ms.date: 12/05/2018
 ms.keywords: AVIStreamSampleSize, AVIStreamSampleSize macro [Windows Multimedia], _win32_AVIStreamSampleSize, multimedia.avistreamsamplesize, vfw/AVIStreamSampleSize
-ms.topic: macro
 f1_keywords:
 - vfw/AVIStreamSampleSize
 dev_langs:

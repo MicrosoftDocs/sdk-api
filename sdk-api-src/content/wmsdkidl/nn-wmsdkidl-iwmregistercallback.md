@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 3831b727-7fdc-4d05-a7b3-86ca5b5c3b17
 ms.date: 12/05/2018
 ms.keywords: IWMRegisterCallback, IWMRegisterCallback interface [windows Media Format], IWMRegisterCallback interface [windows Media Format],described, IWMRegisterCallbackInterface, wmformat.iwmregistercallback, wmsdkidl/IWMRegisterCallback
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMRegisterCallback
 dev_langs:

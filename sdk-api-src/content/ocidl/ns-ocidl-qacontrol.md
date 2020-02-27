@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: dd7ee4b1-2ad9-4ceb-b569-9988696760e8
 ms.date: 12/05/2018
 ms.keywords: QACONTROL, QACONTROL structure [COM], _ctrl_QACONTROL, com.qacontrol, ocidl/QACONTROL
-ms.topic: struct
 f1_keywords:
 - ocidl/QACONTROL
 dev_langs:
@@ -85,7 +84,7 @@ A unique identifier for control-defined properties.
 
 ### -field dwPointerActivationPolicy
 
-The control's activation policy that can also be returned by <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipointerinactive-getactivationpolicy">IPointerInactive::GetActivationPolicy</a>. If all the bits of <b>dwPointerActivationPolicy</b> are set, then the IPointerInactive interface may not be supported. The container should <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> to obtain the interface pointer in the standard manner.
+The control's activation policy that can also be returned by <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipointerinactive-getactivationpolicy">IPointerInactive::GetActivationPolicy</a>. If all the bits of <b>dwPointerActivationPolicy</b> are set, then the IPointerInactive interface may not be supported. The container should <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to obtain the interface pointer in the standard manner.
 
 
 ## -see-also

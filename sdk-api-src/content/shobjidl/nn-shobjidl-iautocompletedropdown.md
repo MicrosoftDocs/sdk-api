@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1f956d61-6a09-464e-bfe8-0b3bcb9ea181
 ms.date: 12/05/2018
 ms.keywords: IAutoCompleteDropDown, IAutoCompleteDropDown interface [Windows Shell], IAutoCompleteDropDown interface [Windows Shell],described, _shell_IAutoCompleteDropDown, shell.IAutoCompleteDropDown, shobjidl/IAutoCompleteDropDown
-ms.topic: interface
 f1_keywords:
 - shobjidl/IAutoCompleteDropDown
 dev_langs:

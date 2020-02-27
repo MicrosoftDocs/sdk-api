@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 425a4a37-6fd3-4724-9d18-c39cc2862ef7
 ms.date: 12/05/2018
 ms.keywords: 425a4a37-6fd3-4724-9d18-c39cc2862ef7, IMFAudioMediaType, IMFAudioMediaType interface [Media Foundation], IMFAudioMediaType interface [Media Foundation],described, mf.imfaudiomediatype, mfobjects/IMFAudioMediaType
-ms.topic: interface
 f1_keywords:
 - mfobjects/IMFAudioMediaType
 dev_langs:

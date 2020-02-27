@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: c9ede50e-85de-4a68-b539-54285c2599cb
 ms.date: 12/05/2018
 ms.keywords: '*PPDH_COUNTER_INFO_W, PDH_COUNTER_INFO, PDH_COUNTER_INFO structure [Perf], PDH_COUNTER_INFO_A, PDH_COUNTER_INFO_W, PPDH_COUNTER_INFO, PPDH_COUNTER_INFO structure pointer [Perf], _win32_pdh_counter_info_str, base.pdh_counter_info_str, pdh/PDH_COUNTER_INFO, pdh/PDH_COUNTER_INFO_A, pdh/PDH_COUNTER_INFO_W, pdh/PPDH_COUNTER_INFO, perf.pdh_counter_info_str'
-ms.topic: struct
 f1_keywords:
 - pdh/PDH_COUNTER_INFO
 dev_langs:
@@ -69,7 +68,7 @@ Size of the structure, including the appended strings, in bytes.
 
 ### -field dwType
 
-Counter type. For a list of counter types, see the Counter Types section of the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84422">Windows Server 2003 Deployment Kit</a>. The counter type constants are defined in Winperf.h.
+Counter type. For a list of counter types, see the Counter Types section of the <a href="https://technet.microsoft.com/library/3fb01419-b1ab-4f52-a9f8-09d5ebeb9ef2">Windows Server 2003 Deployment Kit</a>. The counter type constants are defined in Winperf.h.
 					
 
 

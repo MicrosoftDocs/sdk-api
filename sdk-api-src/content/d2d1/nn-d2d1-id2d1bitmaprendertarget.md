@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: f298d4f7-acb8-4fbe-89f7-2410e3b753bd
 ms.date: 12/05/2018
 ms.keywords: ID2D1BitmapRenderTarget, ID2D1BitmapRenderTarget interface [Direct2D], ID2D1BitmapRenderTarget interface [Direct2D],described, d2d1/ID2D1BitmapRenderTarget, direct2d.ID2D1BitmapRenderTarget
-ms.topic: interface
 f1_keywords:
 - d2d1/ID2D1BitmapRenderTarget
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Renders to an intermediate texture created by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createcompatiblerendertarget">CreateCompatibleRenderTarget</a> method. 
+Renders to an intermediate texture created by the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(constd2d1_size_f_constd2d1_size_u_constd2d1_pixel_format_d2d1_compatible_render_target_options_id2d1bitmaprendertarget)">CreateCompatibleRenderTarget</a> method. 
 
 
 
@@ -91,14 +90,14 @@ To write directly to a WIC bitmap instead, use the <a href="https://docs.microso
       
 
 <h3><a id="Creating_ID2D1BitmapRenderTarget_Objects"></a><a id="creating_id2d1bitmaprendertarget_objects"></a><a id="CREATING_ID2D1BITMAPRENDERTARGET_OBJECTS"></a>Creating ID2D1BitmapRenderTarget Objects</h3>
-To create a bitmap render target, call the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createcompatiblerendertarget">ID2D1RenderTarget::CreateCompatibleRenderTarget</a> method.
+To create a bitmap render target, call the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(constd2d1_size_f_constd2d1_size_u_constd2d1_pixel_format_d2d1_compatible_render_target_options_id2d1bitmaprendertarget)">ID2D1RenderTarget::CreateCompatibleRenderTarget</a> method.
 
 Like other render targets, an <b>ID2D1BitmapRenderTarget</b> is a device-dependent resource and must be recreated when the associated device becomes unavailable. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>.
 
 
 #### Examples
 
-The following example uses the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createcompatiblerendertarget">CreateCompatibleRenderTarget</a> method to create an <b>ID2D1BitmapRenderTarget</b> and uses it to  draw a grid pattern. The grid pattern is used as the source of an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a>.
+The following example uses the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(constd2d1_size_f_constd2d1_size_u_constd2d1_pixel_format_d2d1_compatible_render_target_options_id2d1bitmaprendertarget)">CreateCompatibleRenderTarget</a> method to create an <b>ID2D1BitmapRenderTarget</b> and uses it to  draw a grid pattern. The grid pattern is used as the source of an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a>.
 
 
 ```cpp
@@ -180,7 +179,7 @@ Code has been omitted from this example.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createcompatiblerendertarget">CreateCompatibleRenderTarget</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(constd2d1_size_f_constd2d1_size_u_constd2d1_pixel_format_d2d1_compatible_render_target_options_id2d1bitmaprendertarget)">CreateCompatibleRenderTarget</a>
 
 
 

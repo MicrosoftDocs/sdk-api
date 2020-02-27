@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 9dbbe5c6-d21c-4408-9208-53c7c051b22a
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Direct2D], Close method [Direct2D],ID2D1SimplifiedGeometrySink interface, ID2D1SimplifiedGeometrySink interface [Direct2D],Close method, ID2D1SimplifiedGeometrySink.Close, ID2D1SimplifiedGeometrySink::Close, d2d1/ID2D1SimplifiedGeometrySink::Close, direct2d.ID2D1SimplifiedGeometrySink_Close
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1SimplifiedGeometrySink.Close
 dev_langs:

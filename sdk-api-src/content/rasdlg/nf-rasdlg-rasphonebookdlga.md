@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 64603090-ec03-4eac-9da6-cb631c97dfb5
 ms.date: 12/05/2018
 ms.keywords: RasPhonebookDlg, RasPhonebookDlg function [RAS], RasPhonebookDlgA, RasPhonebookDlgW, _ras_rasphonebookdlg, rasdlg/RasPhonebookDlg, rasdlg/RasPhonebookDlgA, rasdlg/RasPhonebookDlgW, rras.rasphonebookdlg
-ms.topic: function
 f1_keywords:
 - rasdlg/RasPhonebookDlg
 dev_langs:

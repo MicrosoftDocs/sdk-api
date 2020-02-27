@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: fd0765e0-decd-46fb-872e-4c750713abe6
 ms.date: 12/05/2018
 ms.keywords: EngFntCacheAlloc, EngFntCacheAlloc function [Display Devices], display.engfntcachealloc, gdifncs_c2f9bace-a686-42e3-b72c-bd6d109786a6.xml, winddi/EngFntCacheAlloc
-ms.topic: function
 f1_keywords:
 - winddi/EngFntCacheAlloc
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 3bdb166e-e78a-41a8-9bb7-904d0462f976
 ms.date: 12/05/2018
 ms.keywords: IImageList interface [MMC],ImageListSetIcon method, IImageList.ImageListSetIcon, IImageList::ImageListSetIcon, ImageListSetIcon, ImageListSetIcon method [MMC], ImageListSetIcon method [MMC],IImageList interface, _slate_iimagelist_imagelistseticon, mmc.iimagelist_imagelistseticon, mmc/IImageList::ImageListSetIcon
-ms.topic: method
 f1_keywords:
 - mmc/IImageList.ImageListSetIcon
 dev_langs:

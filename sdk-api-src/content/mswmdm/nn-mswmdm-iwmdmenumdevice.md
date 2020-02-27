@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: fcb93d2a-2107-4aa9-9b3a-130044d7dc96
 ms.date: 12/05/2018
 ms.keywords: IWMDMEnumDevice, IWMDMEnumDevice interface [windows Media Device Manager], IWMDMEnumDevice interface [windows Media Device Manager],described, IWMDMEnumDeviceInterface, mswmdm/IWMDMEnumDevice, wmdm.iwmdmenumdevice
-ms.topic: interface
 f1_keywords:
 - mswmdm/IWMDMEnumDevice
 dev_langs:

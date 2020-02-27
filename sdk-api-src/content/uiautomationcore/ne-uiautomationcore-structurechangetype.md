@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: abaf9551-40c4-4ab6-adb7-b619f3bc9745
 ms.date: 12/05/2018
 ms.keywords: StructureChangeType, StructureChangeType enumeration [Windows Accessibility], StructureChangeType_ChildAdded, StructureChangeType_ChildRemoved, StructureChangeType_ChildrenBulkAdded, StructureChangeType_ChildrenBulkRemoved, StructureChangeType_ChildrenInvalidated, StructureChangeType_ChildrenReordered, uiauto.uiauto_StructureChangeTypeEnum, uiauto_StructureChangeTypeEnum, uiautomationcore/StructureChangeType, uiautomationcore/StructureChangeType_ChildAdded, uiautomationcore/StructureChangeType_ChildRemoved, uiautomationcore/StructureChangeType_ChildrenBulkAdded, uiautomationcore/StructureChangeType_ChildrenBulkRemoved, uiautomationcore/StructureChangeType_ChildrenInvalidated, uiautomationcore/StructureChangeType_ChildrenReordered, winauto.uiauto_StructureChangeTypeEnum
-ms.topic: enum
 f1_keywords:
 - uiautomationcore/StructureChangeType
 dev_langs:

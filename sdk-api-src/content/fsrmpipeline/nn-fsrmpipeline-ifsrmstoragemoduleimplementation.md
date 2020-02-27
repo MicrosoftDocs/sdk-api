@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 8540f1f4-8ed1-4e4d-b940-3e232eb8c2d6
 ms.date: 12/05/2018
 ms.keywords: IFsrmStorageModuleImplementation, IFsrmStorageModuleImplementation interface [File Server Resource Manager], IFsrmStorageModuleImplementation interface [File Server Resource Manager],described, fs.ifsrmstoragemoduleimplementation, fsrm.ifsrmstoragemoduleimplementation, fsrm/IFsrmStorageModuleImplementation
-ms.topic: interface
 f1_keywords:
 - fsrmpipeline/IFsrmStorageModuleImplementation
 dev_langs:

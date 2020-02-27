@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 81bfae1d-7d09-4ddc-9669-1da40dc72fd4
 ms.date: 12/05/2018
 ms.keywords: IFsrmAction, IFsrmAction interface [File Server Resource Manager], IFsrmAction interface [File Server Resource Manager],described, fs.ifsrmaction, fsrm.ifsrmaction, fsrm/IFsrmAction
-ms.topic: interface
 f1_keywords:
 - fsrm/IFsrmAction
 dev_langs:
@@ -70,7 +69,7 @@ To create an action, call one of the following methods:
 <li>
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-createthresholdaction">IFsrmQuotaBase::CreateThresholdAction</a>
 </li>
-</ul>Then, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of the 
+</ul>Then, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
     returned interface for an interface of the specific action type. For an example, see 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/performing-actions-based-on-file-screen-violations">Performing Actions Based on File Screen Violations</a>.
 
@@ -86,13 +85,13 @@ The following methods return a collection of actions:
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-enumthresholdactions">IFsrmQuotaBase::EnumThresholdActions</a>
 </li>
 </ul>To get this interface from an item of the collection, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method on the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method on the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface contained in the 
     <b>pdispVal</b> member of the variant.
 
 Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmaction-get_actiontype">ActionType</a> property to determine the 
     type of action that this interface defines. You can then call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method on this interface to get an 
+    <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method on this interface to get an 
     interface that defines the action type. The See Also section lists the possible interfaces.
 
 

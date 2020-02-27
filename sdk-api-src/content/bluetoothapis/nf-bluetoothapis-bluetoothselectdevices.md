@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 97fcbd72-99d5-4c5b-bf16-75eea97cbc77
 ms.date: 12/05/2018
 ms.keywords: BluetoothSelectDevices, BluetoothSelectDevices function [Bluetooth], _bth_bluetoothselectdevices, bluetooth.bluetoothselectdevices, bluetoothapis/BluetoothSelectDevices
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothSelectDevices
 dev_langs:

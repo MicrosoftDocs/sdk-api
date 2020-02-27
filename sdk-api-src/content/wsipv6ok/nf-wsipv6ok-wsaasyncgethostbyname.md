@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 1a2b9c76-6e84-4ac2-b5c1-a2268edd0c49
 ms.date: 12/05/2018
 ms.keywords: WSAAsyncGetHostByName, WSAAsyncGetHostByName function [Winsock], _win32_wsaasyncgethostbyname_2, winsock.wsaasyncgethostbyname_2, wsipv6ok/WSAAsyncGetHostByName
-ms.topic: macro
 f1_keywords:
 - wsipv6ok/WSAAsyncGetHostByName
 dev_langs:

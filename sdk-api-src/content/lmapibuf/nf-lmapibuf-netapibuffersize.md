@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 0c28feeb-00a3-4ad5-b85f-96326515fae2
 ms.date: 12/05/2018
 ms.keywords: NetApiBufferSize, NetApiBufferSize function [Network Management], _win32_netapibuffersize, lmapibuf/NetApiBufferSize, netmgmt.netapibuffersize
-ms.topic: function
 f1_keywords:
 - lmapibuf/NetApiBufferSize
 dev_langs:

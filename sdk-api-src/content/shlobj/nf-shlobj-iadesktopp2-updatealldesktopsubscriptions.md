@@ -7,7 +7,6 @@ tech.root: lwef
 ms.assetid: 9028beee-295a-422a-904a-cbb73332dc81
 ms.date: 12/05/2018
 ms.keywords: IADesktopP2 interface [Legacy Windows Environment Features],UpdateAllDesktopSubscriptions method, IADesktopP2.UpdateAllDesktopSubscriptions, IADesktopP2::UpdateAllDesktopSubscriptions, UpdateAllDesktopSubscriptions, UpdateAllDesktopSubscriptions method [Legacy Windows Environment Features], UpdateAllDesktopSubscriptions method [Legacy Windows Environment Features],IADesktopP2 interface, _win32_IADesktopP2_UpdateAllDesktopSubscriptions, lwef.iadesktopp2_updatealldesktopsubscriptions, shell.iadesktopp2_updatealldesktopsubscriptions, shlobj/IADesktopP2::UpdateAllDesktopSubscriptions
-ms.topic: method
 f1_keywords:
 - shlobj/IADesktopP2.UpdateAllDesktopSubscriptions
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 0182adcd-dbba-43de-b41b-ab2f0fd8f7bf
 ms.date: 12/05/2018
 ms.keywords: '*LPBITMAPCOREHEADER, *PBITMAPCOREHEADER, BITMAPCOREHEADER, BITMAPCOREHEADER structure [Windows GDI], PBITMAPCOREHEADER, PBITMAPCOREHEADER structure pointer [Windows GDI], _win32_BITMAPCOREHEADER_str, gdi.bitmapcoreheader, wingdi/BITMAPCOREHEADER, wingdi/PBITMAPCOREHEADER'
-ms.topic: struct
 f1_keywords:
 - wingdi/BITMAPCOREHEADER
 dev_langs:

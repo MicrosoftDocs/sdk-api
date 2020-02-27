@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: b52e1baf-6a81-44bc-a061-4d42e6f4ed64
 ms.date: 12/05/2018
 ms.keywords: CreateBitmap, CreateBitmap function [Windows GDI], _win32_CreateBitmap, gdi.createbitmap, wingdi/CreateBitmap
-ms.topic: function
 f1_keywords:
 - wingdi/CreateBitmap
 dev_langs:

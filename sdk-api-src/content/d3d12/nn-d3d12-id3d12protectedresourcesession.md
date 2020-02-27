@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 9D4833DB-DF9E-46A8-9EF7-667A95F3EFDD
 ms.date: 12/05/2018
 ms.keywords: ID3D12ProtectedResourceSession, ID3D12ProtectedResourceSession interface, ID3D12ProtectedResourceSession interface,described, d3d12/ID3D12ProtectedResourceSession, direct3d12.id3d12protectedresourcesession
-ms.topic: interface
 f1_keywords:
 - d3d12/ID3D12ProtectedResourceSession
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ixhr2
 ms.assetid: 5D68DAAA-D359-4FDF-8250-14A8D732FFFA
 ms.date: 12/05/2018
 ms.keywords: GetResponseHeader, GetResponseHeader method [XMLHttpRequest2], GetResponseHeader method [XMLHttpRequest2],IXMLHTTPRequest2 interface, IXMLHTTPRequest2 interface [XMLHttpRequest2],GetResponseHeader method, IXMLHTTPRequest2.GetResponseHeader, IXMLHTTPRequest2::GetResponseHeader, ixhr2.ixmlhttprequest2_getresponseheader, msxml6/IXMLHTTPRequest2::GetResponseHeader
-ms.topic: method
 f1_keywords:
 - msxml6/IXMLHTTPRequest2.GetResponseHeader
 dev_langs:

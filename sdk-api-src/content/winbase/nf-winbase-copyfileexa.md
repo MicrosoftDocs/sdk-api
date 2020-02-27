@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: e19f0299-54fa-4e1e-855a-d2c71d29611b
 ms.date: 12/05/2018
 ms.keywords: COPY_FILE_ALLOW_DECRYPTED_DESTINATION, COPY_FILE_COPY_SYMLINK, COPY_FILE_FAIL_IF_EXISTS, COPY_FILE_NO_BUFFERING, COPY_FILE_OPEN_SOURCE_FOR_WRITE, COPY_FILE_RESTARTABLE, CopyFileEx, CopyFileEx function [Files], CopyFileExA, CopyFileExW, _win32_copyfileex, base.copyfileex, fs.copyfileex, winbase/CopyFileEx, winbase/CopyFileExA, winbase/CopyFileExW
-ms.topic: function
 f1_keywords:
 - winbase/CopyFileEx
 dev_langs:

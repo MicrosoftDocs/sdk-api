@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 76a29d81-33c2-489f-a71d-2e85ba2617bf
 ms.date: 12/05/2018
 ms.keywords: IWbemEventProviderQuerySink, IWbemEventProviderQuerySink interface [Windows Management Instrumentation], IWbemEventProviderQuerySink interface [Windows Management Instrumentation],described, _hmm_iwbemeventproviderquerysink, wbemprov/IWbemEventProviderQuerySink, wmi.iwbemeventproviderquerysink
-ms.topic: interface
 f1_keywords:
 - wbemprov/IWbemEventProviderQuerySink
 dev_langs:

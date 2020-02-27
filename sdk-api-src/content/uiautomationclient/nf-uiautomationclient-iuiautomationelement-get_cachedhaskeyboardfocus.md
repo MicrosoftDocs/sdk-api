@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 89c69ac7-4b2e-44a4-a516-0403448c61b4
 ms.date: 12/05/2018
 ms.keywords: CachedHasKeyboardFocus property [Windows Accessibility], CachedHasKeyboardFocus property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedHasKeyboardFocus property, IUIAutomationElement.CachedHasKeyboardFocus, IUIAutomationElement.get_CachedHasKeyboardFocus, IUIAutomationElement::CachedHasKeyboardFocus, IUIAutomationElement::get_CachedHasKeyboardFocus, get_CachedHasKeyboardFocus, uiauto.uiauto_IUIAutomationElement_CachedHasKeyboardFocus, uiauto_IUIAutomationElement_CachedHasKeyboardFocus, uiautomationclient/IUIAutomationElement::CachedHasKeyboardFocus, uiautomationclient/IUIAutomationElement::get_CachedHasKeyboardFocus, winauto.uiauto_IUIAutomationElement_CachedHasKeyboardFocus
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationElement.CachedHasKeyboardFocus
 dev_langs:

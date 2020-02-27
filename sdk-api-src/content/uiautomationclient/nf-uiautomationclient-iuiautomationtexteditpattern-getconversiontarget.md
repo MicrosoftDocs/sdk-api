@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: C7471306-9D7F-5FE8-9A57-7A3ABB45B59F
 ms.date: 12/05/2018
 ms.keywords: GetConversionTarget, GetConversionTarget method [Windows Accessibility], GetConversionTarget method [Windows Accessibility],IUIAutomationTextEditPattern interface, IUIAutomationTextEditPattern interface [Windows Accessibility],GetConversionTarget method, IUIAutomationTextEditPattern.GetConversionTarget, IUIAutomationTextEditPattern::GetConversionTarget, uiautomationclient/IUIAutomationTextEditPattern::GetConversionTarget, winauto.uiauto_IUIAutomationTextEditPattern_GetConversionTarget
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationTextEditPattern.GetConversionTarget
 dev_langs:

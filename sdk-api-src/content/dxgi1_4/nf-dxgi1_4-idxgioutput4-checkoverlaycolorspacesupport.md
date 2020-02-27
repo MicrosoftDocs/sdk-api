@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: C9F582EA-DB16-4FF3-B7BD-ACEA019FF7D4
 ms.date: 12/05/2018
 ms.keywords: CheckOverlayColorSpaceSupport, CheckOverlayColorSpaceSupport method [DXGI], CheckOverlayColorSpaceSupport method [DXGI],IDXGIOutput4 interface, IDXGIOutput4 interface [DXGI],CheckOverlayColorSpaceSupport method, IDXGIOutput4.CheckOverlayColorSpaceSupport, IDXGIOutput4::CheckOverlayColorSpaceSupport, direct3ddxgi.idxgioutput4_checkoverlaycolorspacesupport, dxgi1_4/IDXGIOutput4::CheckOverlayColorSpaceSupport
-ms.topic: method
 f1_keywords:
 - dxgi1_4/IDXGIOutput4.CheckOverlayColorSpaceSupport
 dev_langs:

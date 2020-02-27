@@ -7,7 +7,6 @@ tech.root: wincontacts
 ms.assetid: 0925bed9-26ef-46e6-9087-0e1a1e57349d
 ms.date: 12/05/2018
 ms.keywords: DeleteLabels, DeleteLabels method [Windows Contacts], DeleteLabels method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],DeleteLabels method, IContactProperties.DeleteLabels, IContactProperties::DeleteLabels, _wincontacts_IContactProperties_DeleteLabels, icontact/IContactProperties::DeleteLabels, wincontacts._wincontacts_IContactProperties_DeleteLabels
-ms.topic: method
 f1_keywords:
 - icontact/IContactProperties.DeleteLabels
 dev_langs:

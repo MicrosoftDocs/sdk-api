@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: bb381a52-17e4-4ebe-9a1a-a561c12d73d4
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtSetAuthorizationFn, RpcMgmtSetAuthorizationFn function [RPC], _rpc_rpcmgmtsetauthorizationfn, rpc.rpcmgmtsetauthorizationfn, rpcdce/RpcMgmtSetAuthorizationFn
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcMgmtSetAuthorizationFn
 dev_langs:

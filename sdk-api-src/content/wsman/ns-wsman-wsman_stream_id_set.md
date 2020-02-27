@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: a5705afa-e0b3-4a74-8c13-5abf3f53a209
 ms.date: 12/05/2018
 ms.keywords: WSMAN_STREAM_ID_SET, WSMAN_STREAM_ID_SET structure [Windows Remote Management], winrm.wsman_stream_id_set, wsman/WSMAN_STREAM_ID_SET
-ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_STREAM_ID_SET
 dev_langs:

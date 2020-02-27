@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_settooltips.htm
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetToolTips, TreeView_SetToolTips macro [Windows Controls], _win32_TreeView_SetToolTips, _win32_TreeView_SetToolTips_cpp, commctrl/TreeView_SetToolTips, controls.TreeView_SetToolTips, controls._win32_TreeView_SetToolTips
-ms.topic: macro
 f1_keywords:
 - commctrl/TreeView_SetToolTips
 dev_langs:

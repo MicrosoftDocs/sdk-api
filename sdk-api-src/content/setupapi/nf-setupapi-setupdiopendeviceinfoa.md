@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 0c4a2d09-62b2-43ce-a202-aeb59248d9fc
 ms.date: 12/05/2018
 ms.keywords: SetupDiOpenDeviceInfo, SetupDiOpenDeviceInfo function [Device and Driver Installation], SetupDiOpenDeviceInfoA, SetupDiOpenDeviceInfoW, devinst.setupdiopendeviceinfo, di-rtns_57646ff4-705a-46ff-9c51-49880bb19f90.xml, setupapi/SetupDiOpenDeviceInfo
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiOpenDeviceInfo
 dev_langs:
@@ -105,7 +104,7 @@ A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-<b>SetupDiOpenDeviceInfo</b> returns <b>TRUE</b> if it is successful. Otherwise, the function returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+<b>SetupDiOpenDeviceInfo</b> returns <b>TRUE</b> if it is successful. Otherwise, the function returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 
@@ -114,9 +113,9 @@ A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-If this device instance is being added to a set that has an associated class, the device class must be the same or the call will fail. In this case, a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_CLASS_MISMATCH.
+If this device instance is being added to a set that has an associated class, the device class must be the same or the call will fail. In this case, a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_CLASS_MISMATCH.
 
-If the new device information element is successfully opened but the caller-supplied <i>DeviceInfoData</i> buffer is invalid, this function returns <b>FALSE</b>. In this case, a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_INVALID_USER_BUFFER. However, the device information element is added as a new member of the set anyway.
+If the new device information element is successfully opened but the caller-supplied <i>DeviceInfoData</i> buffer is invalid, this function returns <b>FALSE</b>. In this case, a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_INVALID_USER_BUFFER. However, the device information element is added as a new member of the set anyway.
 
 
 

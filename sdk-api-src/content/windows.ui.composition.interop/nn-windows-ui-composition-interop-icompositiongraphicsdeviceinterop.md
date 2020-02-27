@@ -7,7 +7,6 @@ tech.root: w_ui_comp
 ms.assetid: E8585E49-DB1E-44CA-AE75-138E87FD2D30
 ms.date: 12/05/2018
 ms.keywords: ICompositionGraphicsDeviceInterop, ICompositionGraphicsDeviceInterop interface, ICompositionGraphicsDeviceInterop interface,described, w_ui_comp.icompositiongraphicsdeviceinterop, windows/ICompositionGraphicsDeviceInterop
-ms.topic: interface
 f1_keywords:
 - windows.ui.composition.interop/ICompositionGraphicsDeviceInterop
 dev_langs:
@@ -105,7 +104,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.compositi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=692061">Composition Native Interoperation Overview</a>
+<a href="https://docs.microsoft.com/windows/uwp/composition/composition-native-interop">Composition Native Interoperation Overview</a>
 
 
 

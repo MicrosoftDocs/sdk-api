@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: ccb8891c-ceef-4897-9ec4-b3008a7d5264
 ms.date: 12/05/2018
 ms.keywords: GetCustomAttributeProps, GetCustomAttributeProps method [Windows Runtime], GetCustomAttributeProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetCustomAttributeProps method, IMetaDataImport.GetCustomAttributeProps, IMetaDataImport::GetCustomAttributeProps, rometadataapi/IMetaDataImport::GetCustomAttributeProps, winrt.imetadataimport_getcustomattributeprops
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataImport.GetCustomAttributeProps
 dev_langs:

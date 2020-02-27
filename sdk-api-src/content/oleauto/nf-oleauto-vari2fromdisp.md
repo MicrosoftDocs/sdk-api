@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 37c3084d-828a-42b4-92c3-d4c89336cac7
 ms.date: 12/05/2018
 ms.keywords: VarI2FromDisp, VarI2FromDisp function [Automation], _oa96_VarI2FromDisp, automat.vari2fromdisp, oleauto/VarI2FromDisp
-ms.topic: function
 f1_keywords:
 - oleauto/VarI2FromDisp
 dev_langs:

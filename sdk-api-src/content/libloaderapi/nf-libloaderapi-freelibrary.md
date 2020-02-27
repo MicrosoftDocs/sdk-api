@@ -7,7 +7,6 @@ tech.root: Dlls
 ms.assetid: 823d3147-4ba8-4fe5-ade4-e5604f47eb0a
 ms.date: 12/05/2018
 ms.keywords: FreeLibrary, FreeLibrary function, _win32_freelibrary, base.freelibrary, libloaderapi/FreeLibrary, winbase/FreeLibrary
-ms.topic: function
 f1_keywords:
 - libloaderapi/FreeLibrary
 dev_langs:

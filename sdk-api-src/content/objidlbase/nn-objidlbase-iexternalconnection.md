@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 28afc305-d5b0-4ac9-9412-5876e575c2c2
 ms.date: 12/05/2018
 ms.keywords: IExternalConnection, IExternalConnection interface [COM], IExternalConnection interface [COM],described, _com_iexternalconnection, com.iexternalconnection, objidlbase/IExternalConnection
-ms.topic: interface
 f1_keywords:
 - objidlbase/IExternalConnection
 dev_langs:

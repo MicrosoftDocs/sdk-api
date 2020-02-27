@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: aeb6084a-e2ea-4468-85f8-2ae6cc4dbe84
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtStopServerListening, RpcMgmtStopServerListening function [RPC], _rpc_rpcmgmtstopserverlistening, rpc.rpcmgmtstopserverlistening, rpcdce/RpcMgmtStopServerListening
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcMgmtStopServerListening
 dev_langs:

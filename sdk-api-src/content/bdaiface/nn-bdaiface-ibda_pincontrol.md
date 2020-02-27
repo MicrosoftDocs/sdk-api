@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2d318cc4-b3f2-4fb6-b9e3-8ba8312ad2ae
 ms.date: 12/05/2018
 ms.keywords: IBDA_PinControl, IBDA_PinControl interface [Microsoft TV Technologies], IBDA_PinControl interface [Microsoft TV Technologies],described, IBDA_PinControlInterface, bdaiface/IBDA_PinControl, mstv.ibda_pincontrol
-ms.topic: interface
 f1_keywords:
 - bdaiface/IBDA_PinControl
 dev_langs:

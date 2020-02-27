@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 69d4d500-0e21-48bd-b90b-d06c88fde136
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx2, IVssBackupComponentsEx2 interface, IVssBackupComponentsEx2 interface,described, base.ivssbackupcomponentsex2, vsbackup/IVssBackupComponentsEx2
-ms.topic: class
 f1_keywords:
 - vsbackup/IVssBackupComponentsEx2
 dev_langs:
@@ -54,7 +53,7 @@ Defines additional methods that
     requesters can use to run backup and restore operations.
 
 To obtain an instance of the <b>IVssBackupComponentsEx2</b> 
-   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of the 
+   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> interface, and pass 
    the <b>IID_IVssBackupComponentsEx2</b> constant as the interface identifier (IID) parameter.
 

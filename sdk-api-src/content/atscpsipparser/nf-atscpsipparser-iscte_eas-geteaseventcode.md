@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 9618fb6f-61f3-44cf-9605-b47a6a1e9be6
 ms.date: 12/05/2018
 ms.keywords: GetEASEventCode, GetEASEventCode method [Microsoft TV Technologies], GetEASEventCode method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetEASEventCode method, ISCTE_EAS.GetEASEventCode, ISCTE_EAS::GetEASEventCode, ISCTE_EASGetEASEventCode, atscpsipparser/ISCTE_EAS::GetEASEventCode, mstv.iscte_eas_geteaseventcode
-ms.topic: method
 f1_keywords:
 - atscpsipparser/ISCTE_EAS.GetEASEventCode
 dev_langs:

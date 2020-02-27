@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 4afa616f-bf4b-4700-8ca1-9bb679bc30ff
 ms.date: 12/05/2018
 ms.keywords: MprInfoRemoveAll, MprInfoRemoveAll function [RAS], _mpr_mprinforemoveall, mprapi/MprInfoRemoveAll, rras.mprinforemoveall
-ms.topic: function
 f1_keywords:
 - mprapi/MprInfoRemoveAll
 dev_langs:

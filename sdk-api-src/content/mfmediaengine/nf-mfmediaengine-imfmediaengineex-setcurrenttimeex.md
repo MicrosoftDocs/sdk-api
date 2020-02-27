@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: ee594f0c-af49-44c2-8c68-16120f76c5e1
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetCurrentTimeEx method, IMFMediaEngineEx.SetCurrentTimeEx, IMFMediaEngineEx::SetCurrentTimeEx, SetCurrentTimeEx, SetCurrentTimeEx method [Media Foundation], SetCurrentTimeEx method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setcurrenttimeex, mfmediaengine/IMFMediaEngineEx::SetCurrentTimeEx
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineEx.SetCurrentTimeEx
 dev_langs:

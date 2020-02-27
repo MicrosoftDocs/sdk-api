@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_formatlines.htm
 ms.date: 12/05/2018
 ms.keywords: Edit_FmtLines, Edit_FmtLines macro [Windows Controls], _win32_Edit_FormatLines, _win32_Edit_FormatLines_cpp, controls.Edit_FormatLines, controls._win32_Edit_FormatLines, windowsx/Edit_FmtLines
-ms.topic: macro
 f1_keywords:
 - windowsx/Edit_FmtLines
 dev_langs:

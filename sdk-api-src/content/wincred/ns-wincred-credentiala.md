@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 6361b93c-4441-4a01-bd39-b95c42962497
 ms.date: 12/05/2018
 ms.keywords: '*PCREDENTIALA, CREDENTIAL, CREDENTIAL structure [Security], CREDENTIALA, CREDENTIALW, CRED_FLAGS_PROMPT_NOW, CRED_FLAGS_USERNAME_TARGET, CRED_PERSIST_ENTERPRISE, CRED_PERSIST_LOCAL_MACHINE, CRED_PERSIST_SESSION, CRED_TYPE_DOMAIN_CERTIFICATE, CRED_TYPE_DOMAIN_EXTENDED, CRED_TYPE_DOMAIN_PASSWORD, CRED_TYPE_DOMAIN_VISIBLE_PASSWORD, CRED_TYPE_GENERIC, CRED_TYPE_GENERIC_CERTIFICATE, CRED_TYPE_MAXIMUM, CRED_TYPE_MAXIMUM_EX, PCREDENTIAL, PCREDENTIAL structure pointer [Security], _cred_credential, security.credential, wincred/CREDENTIAL, wincred/CREDENTIALA, wincred/CREDENTIALW, wincred/PCREDENTIAL'
-ms.topic: struct
 f1_keywords:
 - wincred/CREDENTIAL
 dev_langs:
@@ -235,7 +234,7 @@ If the <b>TargetName</b> is a domain name that contains a wildcard character seq
 If <b>TargetName</b> is a DNS domain name that contains a wildcard character sequence, the <b>TargetAlias</b> member can be a NetBIOS domain name that uses a wildcard sequence for the same domain.
 
 
-If <b>TargetName</b>  specifies a DFS share, for example, <i>DfsRoot</i><b>\</b><i>DfsShare</i>, then this credential matches the specific DFS share and any servers reached through that DFS share.
+If <b>TargetName</b>  specifies a DFS share, for example, <i>DfsRoot</i><b>\\</b><i>DfsShare</i>, then this credential matches the specific DFS share and any servers reached through that DFS share.
 
 If <b>TargetName</b> is a single asterisk (*), this credential matches any server name.
 

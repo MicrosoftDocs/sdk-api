@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 93257a77-3fef-400e-bfe1-06e760ba4b93
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], IXpsOMPath interface [XPS Documents and Packaging],described, xps.ixpsompath, xpsobjectmodel/IXpsOMPath
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath
 dev_langs:
@@ -475,7 +474,7 @@ else
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

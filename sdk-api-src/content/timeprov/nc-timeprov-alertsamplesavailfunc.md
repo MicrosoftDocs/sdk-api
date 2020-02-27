@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: f90da019-072e-46c9-8e05-0321a9960968
 ms.date: 12/05/2018
 ms.keywords: AlertSamplesAvailFunc, AlertSamplesAvailFunc callback, AlertSamplesAvailFunc callback function, _win32_alertsamplesavail, base.alertsamplesavail, timeprov/AlertSamplesAvailFunc
-ms.topic: callback
 f1_keywords:
 - timeprov/AlertSamplesAvailFunc
 dev_langs:

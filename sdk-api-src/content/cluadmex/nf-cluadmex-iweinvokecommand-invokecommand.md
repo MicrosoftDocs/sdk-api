@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 1e723535-d786-496f-bc16-5b10a8a22383
 ms.date: 12/05/2018
 ms.keywords: IWEInvokeCommand interface [Failover Cluster],InvokeCommand method, IWEInvokeCommand.InvokeCommand, IWEInvokeCommand::InvokeCommand, InvokeCommand, InvokeCommand method [Failover Cluster], InvokeCommand method [Failover Cluster],IWEInvokeCommand interface, _wolf_iweinvokecommand_invokecommand, cluadmex/IWEInvokeCommand::InvokeCommand, mscs.iweinvokecommand_invokecommand
-ms.topic: method
 f1_keywords:
 - cluadmex/IWEInvokeCommand.InvokeCommand
 dev_langs:
@@ -74,7 +73,7 @@ Identifier of the menu item containing the command to perform. The identifier re
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer for retrieving information associated with the 
        command identified by <i>nCommandID</i>. By calling the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method with the <i>piData</i> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method with the <i>piData</i> 
        pointer, the following interfaces are available:
 
 <ul>

@@ -5,7 +5,6 @@ description: Retrieves the font family model used by the font collection to grou
 tech.root: DirectWrite
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontCollection2 interface [Direct Write],GetFontFamilyModel method, IDWriteFontCollection2.GetFontFamilyModel, IDWriteFontCollection2::GetFontFamilyModel, GetFontFamilyModel, GetFontFamilyModel method [Direct Write], GetFontFamilyModel method [Direct Write],IDWriteFontCollection2 interface, directwrite.idwritefontcollection2_getfontfamilymodel, dwrite_3/IDWriteFontCollection2::GetFontFamilyModel
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontCollection2.GetFontFamilyModel
 dev_langs:

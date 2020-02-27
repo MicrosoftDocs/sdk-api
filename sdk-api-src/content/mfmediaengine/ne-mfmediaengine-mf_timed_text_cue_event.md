@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 8EA769FD-8BA9-4EBA-96AE-C86720A5F1F1
 ms.date: 12/05/2018
 ms.keywords: MF_TIMED_TEXT_CUE_EVENT, MF_TIMED_TEXT_CUE_EVENT enumeration [Media Foundation], MF_TIMED_TEXT_CUE_EVENT_ACTIVE, MF_TIMED_TEXT_CUE_EVENT_CLEAR, MF_TIMED_TEXT_CUE_EVENT_INACTIVE, mf.mf_timed_text_cue_event, mfmediaengine/MF_TIMED_TEXT_CUE_EVENT, mfmediaengine/MF_TIMED_TEXT_CUE_EVENT_ACTIVE, mfmediaengine/MF_TIMED_TEXT_CUE_EVENT_CLEAR, mfmediaengine/MF_TIMED_TEXT_CUE_EVENT_INACTIVE
-ms.topic: enum
 f1_keywords:
 - mfmediaengine/MF_TIMED_TEXT_CUE_EVENT
 dev_langs:

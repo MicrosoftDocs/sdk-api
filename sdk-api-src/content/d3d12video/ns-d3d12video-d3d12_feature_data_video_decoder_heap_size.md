@@ -4,7 +4,6 @@ title: D3D12_FEATURE_DATA_VIDEO_DECODER_HEAP_SIZE
 description: Describes the allocation size of a video decoder heap.
 ms.date: 4/26/2019
 ms.keywords: D3D12_FEATURE_DATA_VIDEO_DECODER_HEAP_SIZE
-ms.topic: language-reference
 f1_keywords:
 - D3D12_FEATURE_DATA_VIDEO_DECODER_HEAP_SIZE
 dev_langs:
@@ -43,7 +42,7 @@ Describes the allocation size of a video decoder heap.
 
 ### -field VideoDecoderHeapDesc
 
-A [D3D12_VIDEO_DECODER_HEAP_DESC](ns-d3d12video-d3d12_video_decoder_heap_desc) describing a [ID3D12VideoDecoderHeap](nn-d3d12video-id3d12videodecoderheap).
+A [D3D12_VIDEO_DECODER_HEAP_DESC](ns-d3d12video-d3d12_video_decoder_heap_desc.md) describing a [ID3D12VideoDecoderHeap](nn-d3d12video-id3d12videodecoderheap.md).
 
 ### -field MemoryPoolL0Size
 

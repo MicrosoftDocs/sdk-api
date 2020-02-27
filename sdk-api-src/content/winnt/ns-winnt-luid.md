@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 00601551-D6CE-4164-BDAF-DBCCF197990E
 ms.date: 12/05/2018
 ms.keywords: '*PLUID, LUID, LUID structure [DXGI], _LUID, direct3ddxgi._luid, winnt/LUID'
-ms.topic: struct
 f1_keywords:
 - winnt/LUID
 dev_langs:

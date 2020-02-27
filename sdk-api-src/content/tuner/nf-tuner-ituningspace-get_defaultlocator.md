@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: facc14bd-182e-4b8e-a567-1bf1d3c4ff36
 ms.date: 12/05/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_DefaultLocator method, ITuningSpace.get_DefaultLocator, ITuningSpace::get_DefaultLocator, ITuningSpaceget_DefaultLocator, get_DefaultLocator, get_DefaultLocator method [Microsoft TV Technologies], get_DefaultLocator method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_defaultlocator, tuner/ITuningSpace::get_DefaultLocator
-ms.topic: method
 f1_keywords:
 - tuner/ITuningSpace.get_DefaultLocator
 dev_langs:

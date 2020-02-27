@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 0d90d328-6c36-497b-a0da-f839154dbfc2
 ms.date: 12/05/2018
 ms.keywords: VarR8FromUI4, VarR8FromUI4 function [Automation], _oa96_VarR8FromUI4, automat.varr8fromui4, oleauto/VarR8FromUI4
-ms.topic: function
 f1_keywords:
 - oleauto/VarR8FromUI4
 dev_langs:

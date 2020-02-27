@@ -7,7 +7,6 @@ tech.root: tcui
 ms.assetid: DE4705C2-4590-4140-8CF8-B8552D6CA843
 ms.date: 12/05/2018
 ms.keywords: ShowGameInviteUI, ShowGameInviteUI function, gamingtcui/ShowGameInviteUI, tcui.showgameinviteui
-ms.topic: function
 f1_keywords:
 - gamingtcui/ShowGameInviteUI
 dev_langs:
@@ -57,7 +56,7 @@ ms.custom: 19H1
 
 Do not use. This API is only supported for Xbox developers.
 
-To learn more about becoming a Xbox developer, see <a href="http://go.microsoft.com/fwlink/p/?linkid=623248">Developing Games for Xbox One and Windows 10</a>.
+To learn more about becoming a Xbox developer, see <a href="https://www.xbox.com/Developers">Developing Games for Xbox One and Windows 10</a>.
 
 
 ## -parameters

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 19a7c10d-ceea-4303-a655-a3cb8b910377
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetLanguage method, IXpsOMVisual.SetLanguage, IXpsOMVisual::SetLanguage, SetLanguage, SetLanguage method [XPS Documents and Packaging], SetLanguage method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setlanguage, xpsobjectmodel/IXpsOMVisual::SetLanguage
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.SetLanguage
 dev_langs:
@@ -120,11 +119,11 @@ The recommended encoding for the <b>Language</b> property is specified in Intern
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

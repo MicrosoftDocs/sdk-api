@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitemcount.htm
 ms.date: 12/05/2018
 ms.keywords: Header_GetItemCount, Header_GetItemCount macro [Windows Controls], _win32_Header_GetItemCount, _win32_Header_GetItemCount_cpp, commctrl/Header_GetItemCount, controls.Header_GetItemCount, controls._win32_Header_GetItemCount
-ms.topic: macro
 f1_keywords:
 - commctrl/Header_GetItemCount
 dev_langs:

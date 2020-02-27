@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 4e33f9f3-119a-4635-b44c-fa002a59fa20
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeMiterLimit method, IXpsOMPath.SetStrokeMiterLimit, IXpsOMPath::SetStrokeMiterLimit, SetStrokeMiterLimit, SetStrokeMiterLimit method [XPS Documents and Packaging], SetStrokeMiterLimit method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokemiterlimit, xpsobjectmodel/IXpsOMPath::SetStrokeMiterLimit
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.SetStrokeMiterLimit
 dev_langs:
@@ -122,7 +121,7 @@ The miter limit value describes how to render a mitered line join. This value ap
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

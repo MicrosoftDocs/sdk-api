@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 8eed4bc6-75a8-440e-a334-543e7b996df0
 ms.date: 12/05/2018
 ms.keywords: ITextStrings interface [Windows Controls],Item method, ITextStrings.Item, ITextStrings::Item, Item, Item method [Windows Controls], Item method [Windows Controls],ITextStrings interface, controls.itextstrings_item, tom/ITextStrings::Item
-ms.topic: method
 f1_keywords:
 - tom/ITextStrings.Item
 dev_langs:

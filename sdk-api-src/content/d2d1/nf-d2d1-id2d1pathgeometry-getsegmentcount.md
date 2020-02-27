@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 53a80fec-5851-4b62-aa9b-fb7f8b15b0e7
 ms.date: 12/05/2018
 ms.keywords: GetSegmentCount, GetSegmentCount method [Direct2D], GetSegmentCount method [Direct2D],ID2D1PathGeometry interface, ID2D1PathGeometry interface [Direct2D],GetSegmentCount method, ID2D1PathGeometry.GetSegmentCount, ID2D1PathGeometry::GetSegmentCount, d2d1/ID2D1PathGeometry::GetSegmentCount, direct2d.ID2D1PathGeometry_GetSegmentCount
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1PathGeometry.GetSegmentCount
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 90d0e0a8-dc5b-4f7e-868e-03f40f037437
 ms.date: 12/05/2018
 ms.keywords: AVIStreamNearestKeyFrame, AVIStreamNearestKeyFrame macro [Windows Multimedia], _win32_AVIStreamNearestKeyFrame, multimedia.avistreamnearestkeyframe, vfw/AVIStreamNearestKeyFrame
-ms.topic: macro
 f1_keywords:
 - vfw/AVIStreamNearestKeyFrame
 dev_langs:

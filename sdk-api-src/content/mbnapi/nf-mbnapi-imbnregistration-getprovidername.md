@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: c6cf7cb2-5563-49dc-ac2a-6343ae2395b2
 ms.date: 12/05/2018
 ms.keywords: GetProviderName, GetProviderName method [Microsoft Broadband Networks], GetProviderName method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetProviderName method, IMbnRegistration.GetProviderName, IMbnRegistration::GetProviderName, mbn.imbnregistration_getprovidername, mbnapi/IMbnRegistration::GetProviderName
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnRegistration.GetProviderName
 dev_langs:
@@ -62,7 +61,7 @@ Gets the provider name for the currently registered network.
 
 ### -param providerName [out]
 
-Pointer to a string that contains the name of the currently registered provider.  The maximum length of this string is <b>MBN_PROVIDERNAME_LEN</b> characters.  The string is filled only when the method returns <b>S_OK</b> for success.  Upon success, the calling application must free the allocated memory by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
+Pointer to a string that contains the name of the currently registered provider.  The maximum length of this string is <b>MBN_PROVIDERNAME_LEN</b> characters.  The string is filled only when the method returns <b>S_OK</b> for success.  Upon success, the calling application must free the allocated memory by calling <a href="https://msdn.microsoft.com/library/ms221481.aspx">SysFreeString</a>.
 
 
 ## -returns

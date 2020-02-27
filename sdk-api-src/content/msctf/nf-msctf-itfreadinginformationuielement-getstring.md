@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: d8e7dae5-ea73-4fad-a731-3ca1eaa60b03
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfReadingInformationUIElement interface, ITfReadingInformationUIElement interface [Text Services Framework],GetString method, ITfReadingInformationUIElement.GetString, ITfReadingInformationUIElement::GetString, msctf/ITfReadingInformationUIElement::GetString, tsf.iitfreadinginformationuielement_getstring, tsf.itfreadinginformationuielement_getstring
-ms.topic: method
 f1_keywords:
 - msctf/ITfReadingInformationUIElement.GetString
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 2a48818c-fc8f-4f4b-bb45-12728f7fea7d
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceEnumerator interface, IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions],Clone method, IOpcSignatureRelationshipReferenceEnumerator.Clone, IOpcSignatureRelationshipReferenceEnumerator::Clone, msopc/IOpcSignatureRelationshipReferenceEnumerator::Clone, opc.iopcsignaturerelationshipreferenceenumerator_clone
-ms.topic: method
 f1_keywords:
 - msopc/IOpcSignatureRelationshipReferenceEnumerator.Clone
 dev_langs:

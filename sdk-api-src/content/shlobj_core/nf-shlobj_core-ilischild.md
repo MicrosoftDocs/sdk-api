@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e799fbcf-8254-457a-9d1b-6202dea190c1
 ms.date: 12/05/2018
 ms.keywords: ILIsChild, ILIsChild function [Windows Shell], _shell_ILIsChild, shell.ILIsChild, shlobj_core/ILIsChild
-ms.topic: function
 f1_keywords:
 - shlobj_core/ILIsChild
 dev_langs:

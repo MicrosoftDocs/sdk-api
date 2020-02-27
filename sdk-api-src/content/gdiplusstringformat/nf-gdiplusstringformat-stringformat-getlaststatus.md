@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getlaststatus_15.htm
 ms.date: 12/05/2018
 ms.keywords: GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],StringFormat class, StringFormat class [GDI+],GetLastStatus method, StringFormat.GetLastStatus, StringFormat::GetLastStatus, _gdiplus_CLASS_StringFormat_GetLastStatus_, gdiplus._gdiplus_CLASS_StringFormat_GetLastStatus_
-ms.topic: method
 f1_keywords:
 - gdiplusstringformat/StringFormat.GetLastStatus
 dev_langs:

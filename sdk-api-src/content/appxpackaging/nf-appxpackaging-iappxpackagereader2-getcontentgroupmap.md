@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 992DE709-F4E6-475D-A533-AFFB7FE7A53C
 ms.date: 12/05/2018
 ms.keywords: GetContentGroupMap, GetContentGroupMap method [App packaging and management], GetContentGroupMap method [App packaging and management],IAppxPackageReader2 interface, IAppxPackageReader2 interface [App packaging and management],GetContentGroupMap method, IAppxPackageReader2.GetContentGroupMap, IAppxPackageReader2::GetContentGroupMap, appxpackaging/IAppxPackageReader2::GetContentGroupMap, appxpkg.iappxpackagereader2_getcontentgroupmap
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxPackageReader2.GetContentGroupMap
 dev_langs:

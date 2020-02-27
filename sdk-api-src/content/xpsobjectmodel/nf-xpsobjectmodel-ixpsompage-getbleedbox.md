@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 2ce82a0e-b01c-4c1e-8907-31f51dc51f10
 ms.date: 12/05/2018
 ms.keywords: GetBleedBox, GetBleedBox method [XPS Documents and Packaging], GetBleedBox method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetBleedBox method, IXpsOMPage.GetBleedBox, IXpsOMPage::GetBleedBox, xps.ixpsompage_getbleedbox, xpsobjectmodel/IXpsOMPage::GetBleedBox
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPage.GetBleedBox
 dev_langs:
@@ -145,7 +144,7 @@ The default bleed box of a page is:
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

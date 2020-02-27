@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 7277a8fe-3006-4456-b2e7-6041d3324f35
 ms.date: 12/05/2018
 ms.keywords: IWMDMOperation, IWMDMOperation interface [windows Media Device Manager], IWMDMOperation interface [windows Media Device Manager],described, IWMDMOperationInterface, mswmdm/IWMDMOperation, wmdm.iwmdmoperation
-ms.topic: interface
 f1_keywords:
 - mswmdm/IWMDMOperation
 dev_langs:

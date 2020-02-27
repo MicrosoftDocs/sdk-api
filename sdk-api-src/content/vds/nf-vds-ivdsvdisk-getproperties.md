@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 0ecfbd1f-2f67-4d79-b081-7df071b070a4
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method, GetProperties method,IVdsVDisk interface, IVdsVDisk interface,GetProperties method, IVdsVDisk.GetProperties, IVdsVDisk::GetProperties, base.ivdsvdisk_getproperties, vds/IVdsVDisk::GetProperties
-ms.topic: method
 f1_keywords:
 - vds/IVdsVDisk.GetProperties
 dev_langs:

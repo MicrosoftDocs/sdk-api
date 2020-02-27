@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 3bf8d4d8-9193-4aed-acf9-8d7207b332a5
 ms.date: 12/05/2018
 ms.keywords: InternetWriteFile, InternetWriteFile function [WinINet], _inet_internetwritefile_function, wininet.internetwritefile, wininet/InternetWriteFile
-ms.topic: function
 f1_keywords:
 - wininet/InternetWriteFile
 dev_langs:

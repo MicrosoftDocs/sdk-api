@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: f26eb44a-e0c4-418b-b849-d38d85ef236a
 ms.date: 12/05/2018
 ms.keywords: ExecNotificationQueryAsync, ExecNotificationQueryAsync method [Windows Management Instrumentation], ExecNotificationQueryAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecNotificationQueryAsync method, IWbemServices.ExecNotificationQueryAsync, IWbemServices::ExecNotificationQueryAsync, WBEM_FLAG_SEND_STATUS, _hmm_iwbemservices_execnotificationqueryasync, wbemcli/IWbemServices::ExecNotificationQueryAsync, wmi.iwbemservices_execnotificationqueryasync
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemServices.ExecNotificationQueryAsync
 dev_langs:
@@ -122,7 +121,7 @@ Pointer to the caller's implementation of
 
 This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-On failure, you can obtain any available information from the COM function <a href="http://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a>.
+On failure, you can obtain any available information from the COM function <a href="https://msdn.microsoft.com/library/ms221032.aspx">GetErrorInfo</a>.
 
 Other error codes are returned to the object sink specified by the <i>pResponseHandler</i> parameter.
 

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 58690d93-9e3f-487c-956e-bb21122ecc96
 ms.date: 12/05/2018
 ms.keywords: CreateSolidColorBrush, CreateSolidColorBrush method [XPS Documents and Packaging], CreateSolidColorBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateSolidColorBrush method, IXpsOMObjectFactory.CreateSolidColorBrush, IXpsOMObjectFactory::CreateSolidColorBrush, xps.ixpsomobjectfactory_createsolidcolorbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateSolidColorBrush
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreateSolidColorBrush
 dev_langs:
@@ -216,7 +215,7 @@ else
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

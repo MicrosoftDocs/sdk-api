@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\bp_animationparams.htm
 ms.date: 12/05/2018
 ms.keywords: '*PBP_ANIMATIONPARAMS, BP_ANIMATIONPARAMS, BP_ANIMATIONPARAMS structure [Windows Controls], PBP_ANIMATIONPARAMS, PBP_ANIMATIONPARAMS structure pointer [Windows Controls], _shell_BP_ANIMATIONPARAMS, _shell_BP_ANIMATIONPARAMS_cpp, controls.BP_ANIMATIONPARAMS, controls._shell_BP_ANIMATIONPARAMS, uxtheme/BP_ANIMATIONPARAMS, uxtheme/PBP_ANIMATIONPARAMS'
-ms.topic: struct
 f1_keywords:
 - uxtheme/BP_ANIMATIONPARAMS
 dev_langs:

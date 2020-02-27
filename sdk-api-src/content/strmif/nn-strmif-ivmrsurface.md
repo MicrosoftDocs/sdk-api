@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8222ea5c-be77-4f33-83ff-073fb3e85e73
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface, IVMRSurface interface [DirectShow], IVMRSurface interface [DirectShow],described, IVMRSurfaceInterface, dshow.ivmrsurface, strmif/IVMRSurface
-ms.topic: interface
 f1_keywords:
 - strmif/IVMRSurface
 dev_langs:

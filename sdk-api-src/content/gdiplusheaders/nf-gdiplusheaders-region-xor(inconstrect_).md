@@ -5,7 +5,6 @@ description: The **Region::Xor** method updates a region to the nonintersecting 
 ms.assetid: 06a4b045-996c-4f99-8bce-ec42ea09c170
 ms.date: 05/20/2019
 ms.keywords: Region::Xor
-ms.topic: language-reference
 f1_keywords:
 - gdiplusheaders/Region::Xor
 dev_langs:

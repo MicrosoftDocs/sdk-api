@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0bab511e-a744-4b6e-afe3-0ceb473dfcae
 ms.date: 12/05/2018
 ms.keywords: IMediaSample interface [DirectShow],IsDiscontinuity method, IMediaSample.IsDiscontinuity, IMediaSample::IsDiscontinuity, IMediaSampleIsDiscontinuity, IsDiscontinuity, IsDiscontinuity method [DirectShow], IsDiscontinuity method [DirectShow],IMediaSample interface, dshow.imediasample_isdiscontinuity, strmif/IMediaSample::IsDiscontinuity
-ms.topic: method
 f1_keywords:
 - strmif/IMediaSample.IsDiscontinuity
 dev_langs:

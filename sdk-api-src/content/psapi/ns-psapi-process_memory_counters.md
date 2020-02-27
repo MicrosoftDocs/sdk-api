@@ -7,7 +7,6 @@ tech.root: psapi
 ms.assetid: 288b5865-28a3-478b-ad32-c710fe4f3a81
 ms.date: 12/05/2018
 ms.keywords: '*PPROCESS_MEMORY_COUNTERS, PPROCESS_MEMORY_COUNTERS, PPROCESS_MEMORY_COUNTERS structure pointer [PSAPI], PROCESS_MEMORY_COUNTERS, PROCESS_MEMORY_COUNTERS structure [PSAPI], _win32_process_memory_counters_str, base.process_memory_counters_str, psapi.process_memory_counters_str, psapi/PPROCESS_MEMORY_COUNTERS, psapi/PROCESS_MEMORY_COUNTERS'
-ms.topic: struct
 f1_keywords:
 - psapi/PROCESS_MEMORY_COUNTERS
 dev_langs:

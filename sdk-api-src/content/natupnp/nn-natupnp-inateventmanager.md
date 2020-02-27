@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 18c5df1a-e57e-4f44-bac5-a5861f939673
 ms.date: 12/05/2018
 ms.keywords: INATEventManager, INATEventManager interface [ICS/ICF], INATEventManager interface [ICS/ICF],described, _ics_inateventmanager, ics.inateventmanager, natupnp/INATEventManager
-ms.topic: interface
 f1_keywords:
 - natupnp/INATEventManager
 dev_langs:

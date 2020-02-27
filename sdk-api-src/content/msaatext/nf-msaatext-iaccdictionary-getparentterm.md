@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 202058e8-50c2-4366-9bb6-bbc46dc5ea3f
 ms.date: 12/05/2018
 ms.keywords: GetParentTerm, GetParentTerm method [Windows Accessibility], GetParentTerm method [Windows Accessibility],IAccDictionary interface, IAccDictionary interface [Windows Accessibility],GetParentTerm method, IAccDictionary.GetParentTerm, IAccDictionary::GetParentTerm, _msaa_IAccDictionary_GetParentTerm, msaa.iaccdictionary_iaccdictionary__getparentterm, msaatext/IAccDictionary::GetParentTerm, winauto.iaccdictionary_iaccdictionary__getparentterm
-ms.topic: method
 f1_keywords:
 - msaatext/IAccDictionary.GetParentTerm
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Clients call the <b>IAccDictionary::GetParentTerm</b> method to navigate through the object hierarchy tree. This method returns the parent object of a specified property.
 <div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
-<a href="https://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="https://msdn.microsoft.com/library/ms629032(VS.85).aspx">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		</div><div> </div>
 
 ## -parameters

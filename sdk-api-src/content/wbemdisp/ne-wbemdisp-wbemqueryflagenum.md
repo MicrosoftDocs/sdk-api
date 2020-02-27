@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 5da897fa-3dba-4360-bbbe-287da5717205
 ms.date: 12/05/2018
 ms.keywords: WbemQueryFlagEnum, WbemQueryFlagEnum enumeration [Windows Management Instrumentation], _hmm_wbemqueryflagenum, wbemQueryFlagDeep, wbemQueryFlagPrototype, wbemQueryFlagShallow, wbemdisp/WbemQueryFlagEnum, wbemdisp/wbemQueryFlagDeep, wbemdisp/wbemQueryFlagPrototype, wbemdisp/wbemQueryFlagShallow, wmi.wbemqueryflagenum
-ms.topic: enum
 f1_keywords:
 - wbemdisp/WbemQueryFlagEnum
 dev_langs:

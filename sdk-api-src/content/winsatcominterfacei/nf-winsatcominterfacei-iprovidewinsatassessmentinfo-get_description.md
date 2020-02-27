@@ -7,7 +7,6 @@ tech.root: WinSAT
 ms.assetid: e598ad5e-e0b9-494a-ba87-0ae7c960deee
 ms.date: 12/05/2018
 ms.keywords: Description property [WinSAT], Description property [WinSAT],IProvideWinSATAssessmentInfo interface, IProvideWinSATAssessmentInfo interface [WinSAT],Description property, IProvideWinSATAssessmentInfo.Description, IProvideWinSATAssessmentInfo.get_Description, IProvideWinSATAssessmentInfo::Description, IProvideWinSATAssessmentInfo::get_Description, get_Description, winsat.iprovidewinsatassessmentinfo_description, winsatcominterfacei/IProvideWinSATAssessmentInfo::Description, winsatcominterfacei/IProvideWinSATAssessmentInfo::get_Description
-ms.topic: method
 f1_keywords:
 - winsatcominterfacei/IProvideWinSATAssessmentInfo.Description
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: b8530bf3-0a9b-49c2-9494-4dca14cd57ef
 ms.date: 12/05/2018
 ms.keywords: PdhLookupPerfIndexByName, PdhLookupPerfIndexByName function [Perf], PdhLookupPerfIndexByNameA, PdhLookupPerfIndexByNameW, _win32_pdhlookupperfindexbyname, base.pdhlookupperfindexbyname, pdh/PdhLookupPerfIndexByName, pdh/PdhLookupPerfIndexByNameA, pdh/PdhLookupPerfIndexByNameW, perf.pdhlookupperfindexbyname
-ms.topic: function
 f1_keywords:
 - pdh/PdhLookupPerfIndexByName
 dev_langs:

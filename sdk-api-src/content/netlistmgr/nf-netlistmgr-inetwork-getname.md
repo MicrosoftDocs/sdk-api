@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: e0dd843e-5bba-4504-b0af-26c0c1ee73a9
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Network Awareness], GetName method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetName method, INetwork.GetName, INetwork::GetName, netlistmgr/INetwork::GetName, nla.inetwork_getname
-ms.topic: method
 f1_keywords:
 - netlistmgr/INetwork.GetName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b7360a2b-30ed-459e-ab6d-56a2127c2668
 ms.date: 12/05/2018
 ms.keywords: IUserNotificationCallback interface [Windows Shell],OnBalloonUserClick method, IUserNotificationCallback.OnBalloonUserClick, IUserNotificationCallback::OnBalloonUserClick, OnBalloonUserClick, OnBalloonUserClick method [Windows Shell], OnBalloonUserClick method [Windows Shell],IUserNotificationCallback interface, _shell_IUserNotificationCallback_OnBalloonUserClick, shell.IUserNotificationCallback_OnBalloonUserClick, shobjidl/IUserNotificationCallback::OnBalloonUserClick
-ms.topic: method
 f1_keywords:
 - shobjidl/IUserNotificationCallback.OnBalloonUserClick
 dev_langs:

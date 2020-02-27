@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 0b5c0ae7-d11c-4014-b61e-4528b9320844
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_SetDataLocale, MI_DestinationOptions_SetDataLocale function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetDataLocale, wmi_v2.mi_destinationoptions_setdatalocale
-ms.topic: function
 f1_keywords:
 - mi/MI_DestinationOptions_SetDataLocale
 dev_langs:

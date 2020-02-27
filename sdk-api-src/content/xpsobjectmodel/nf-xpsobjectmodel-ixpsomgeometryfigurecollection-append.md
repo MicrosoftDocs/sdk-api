@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 9481cd02-74f8-42f6-a347-454dae2aa579
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],Append method, IXpsOMGeometryFigureCollection.Append, IXpsOMGeometryFigureCollection::Append, xps.ixpsomgeometryfigurecollection_append, xpsobjectmodel/IXpsOMGeometryFigureCollection::Append
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGeometryFigureCollection.Append
 dev_langs:
@@ -99,7 +98,7 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

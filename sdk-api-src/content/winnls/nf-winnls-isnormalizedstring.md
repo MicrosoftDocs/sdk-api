@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 5a1d3977-9fe9-457f-b0a2-46b32bcc27db
 ms.date: 12/05/2018
 ms.keywords: IsNormalizedString, IsNormalizedString function [Internationalization for Windows Applications], _win32_IsNormalizedString, intl.isnormalizedstring, winnls/IsNormalizedString
-ms.topic: function
 f1_keywords:
 - winnls/IsNormalizedString
 dev_langs:
@@ -96,7 +95,7 @@ If you need to reliably determine <b>FALSE</b> from an error condition, then it 
 
 
 
-<b>Windows XP, Windows Server 2003</b>: The required header file and DLL are part of the <a href="https://www.microsoft.com/download/details.aspx?id=734"> "Microsoft Internationalized Domain Name (IDN) Mitigation APIs"</a> download, available at the <a href="http://go.microsoft.com/fwlink/p/?linkid=362">MSDN Download Center</a>.
+<b>Windows XP, Windows Server 2003</b>: The required header file and DLL are part of the <a href="https://www.microsoft.com/download/details.aspx?id=734"> "Microsoft Internationalized Domain Name (IDN) Mitigation APIs"</a> download, available at the <a href="https://www.microsoft.com/?ref=go">MSDN Download Center</a>.
 
 
 #### Examples

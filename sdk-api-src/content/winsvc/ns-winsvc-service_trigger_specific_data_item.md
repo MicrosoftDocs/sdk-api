@@ -7,7 +7,6 @@ tech.root: Services
 ms.assetid: 670e6c49-bbc0-4af6-9e47-6c89801ebb45
 ms.date: 12/05/2018
 ms.keywords: '*PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM, PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM, PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM structure pointer, SERVICE_TRIGGER_DATA_TYPE_BINARY, SERVICE_TRIGGER_DATA_TYPE_KEYWORD_ALL, SERVICE_TRIGGER_DATA_TYPE_KEYWORD_ANY, SERVICE_TRIGGER_DATA_TYPE_LEVEL, SERVICE_TRIGGER_DATA_TYPE_STRING, SERVICE_TRIGGER_SPECIFIC_DATA_ITEM, SERVICE_TRIGGER_SPECIFIC_DATA_ITEM structure, base.service_trigger_specific_data_item, winsvc/PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM, winsvc/SERVICE_TRIGGER_SPECIFIC_DATA_ITEM'
-ms.topic: struct
 f1_keywords:
 - winsvc/SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
 dev_langs:
@@ -182,7 +181,7 @@ The following table lists trigger-specific data by trigger event type.
 </tr>
 <tr>
 <td>SERVICE_TRIGGER_TYPE_CUSTOM</td>
-<td>Specified by the <a href="http://go.microsoft.com/fwlink/p/?linkid=133390">Event Tracing for Windows</a> (ETW) provider that defines the custom event.</td>
+<td>Specified by the <a href="https://msdn.microsoft.com/library/bb968803.aspx">Event Tracing for Windows</a> (ETW) provider that defines the custom event.</td>
 </tr>
 <tr>
 <td>SERVICE_TRIGGER_TYPE_DEVICE_INTERFACE_ARRIVAL</td>

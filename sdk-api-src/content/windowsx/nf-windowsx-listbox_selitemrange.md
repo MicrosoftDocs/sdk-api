@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_selitemrange.htm
 ms.date: 12/05/2018
 ms.keywords: ListBox_SelItemRange, ListBox_SelItemRange macro [Windows Controls], _win32_ListBox_SelItemRange, _win32_ListBox_SelItemRange_cpp, controls.ListBox_SelItemRange, controls._win32_ListBox_SelItemRange, windowsx/ListBox_SelItemRange
-ms.topic: macro
 f1_keywords:
 - windowsx/ListBox_SelItemRange
 dev_langs:

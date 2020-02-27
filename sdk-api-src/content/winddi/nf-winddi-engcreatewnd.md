@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 14b1cced-32d0-4ba8-be7c-e626bef37e3f
 ms.date: 12/05/2018
 ms.keywords: EngCreateWnd, EngCreateWnd function [Display Devices], display.engcreatewnd, gdifncs_71294a09-97a4-41c5-9ddb-2295febc73a2.xml, winddi/EngCreateWnd
-ms.topic: function
 f1_keywords:
 - winddi/EngCreateWnd
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: acbff9e4-59d7-4af9-8633-75edbf83d3ce
 ms.date: 12/05/2018
 ms.keywords: IInvalidProductLicenseException interface [Windows Update Agent],Product property, IInvalidProductLicenseException.Product, IInvalidProductLicenseException.get_Product, IInvalidProductLicenseException::Product, IInvalidProductLicenseException::get_Product, Product property [Windows Update Agent], Product property [Windows Update Agent],IInvalidProductLicenseException interface, get_Product, wua.iinvalidproductlicenseexception_product, wuapi/IInvalidProductLicenseException::Product, wuapi/IInvalidProductLicenseException::get_Product
-ms.topic: method
 f1_keywords:
 - wuapi/IInvalidProductLicenseException.Product
 dev_langs:

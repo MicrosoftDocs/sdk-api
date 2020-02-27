@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 08299592-867c-491d-9769-d16602133659
 ms.date: 12/05/2018
 ms.keywords: WSAStartup, WSAStartup function [Winsock], _win32_wsastartup_2, winsock.wsastartup_2, winsock/WSAStartup
-ms.topic: function
 f1_keywords:
 - winsock2/WSAStartup
 dev_langs:
@@ -308,7 +307,7 @@ An application can call
 
 The 
 <b>WSAStartup</b> function typically leads to protocol-specific helper DLLs being loaded. As a result, the 
-<b>WSAStartup</b> function should not be called from the DllMain function in a application DLL. This can potentially cause deadlocks. For more information, please see the <a href="http://go.microsoft.com/fwlink/p/?linkid=109533">DLL Main Function</a>.
+<b>WSAStartup</b> function should not be called from the DllMain function in a application DLL. This can potentially cause deadlocks. For more information, please see the <a href="https://msdn.microsoft.com/library/ms682583.aspx">DLL Main Function</a>.
 
 An application must call the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsacleanup">WSACleanup</a> function for every successful 
 time the <b>WSAStartup</b> function is called.  This means, for example, that if an application calls 

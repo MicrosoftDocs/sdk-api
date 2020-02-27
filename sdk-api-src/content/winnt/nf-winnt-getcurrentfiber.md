@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: a08bfac8-00d0-41b7-9879-802189710093
 ms.date: 12/05/2018
 ms.keywords: GetCurrentFiber, GetCurrentFiber function, _win32_getcurrentfiber, base.getcurrentfiber, winnt/GetCurrentFiber
-ms.topic: function
 f1_keywords:
 - winnt/GetCurrentFiber
 dev_langs:

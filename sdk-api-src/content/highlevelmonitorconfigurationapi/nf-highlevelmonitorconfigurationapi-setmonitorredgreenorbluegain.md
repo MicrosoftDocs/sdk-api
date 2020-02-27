@@ -7,7 +7,6 @@ tech.root: Monitor
 ms.assetid: e8814478-1129-421e-999c-f59321db69b9
 ms.date: 12/05/2018
 ms.keywords: SetMonitorRedGreenOrBlueGain, SetMonitorRedGreenOrBlueGain function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueGain, monitor.setmonitorredgreenorbluegain
-ms.topic: function
 f1_keywords:
 - highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueGain
 dev_langs:

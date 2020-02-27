@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: 12cf768e-71b2-4b95-9b5a-2b9e3ce80f37
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_RADIUSPROXY_SERVERGROUPS, RADIUSPROXYPROPERTIES, RADIUSPROXYPROPERTIES enumeration [Network Policy Server], _sdo_radiusproxyproperties, nps.SDO_radiusproxyproperties, sdo.radiusproxyproperties, sdoias/PROPERTY_RADIUSPROXY_SERVERGROUPS, sdoias/RADIUSPROXYPROPERTIES
-ms.topic: enum
 f1_keywords:
 - sdoias/RADIUSPROXYPROPERTIES
 dev_langs:

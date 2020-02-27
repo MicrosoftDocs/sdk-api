@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 2fdf325f-5652-42b0-99e3-3950dba1ef11
 ms.date: 12/05/2018
 ms.keywords: IRunningTask interface [Task Scheduler],Stop method, IRunningTask.Stop, IRunningTask::Stop, Stop, Stop method [Task Scheduler], Stop method [Task Scheduler],IRunningTask interface, taskschd.irunningtask_stop, taskschd/IRunningTask::Stop
-ms.topic: method
 f1_keywords:
 - taskschd/IRunningTask.Stop
 dev_langs:

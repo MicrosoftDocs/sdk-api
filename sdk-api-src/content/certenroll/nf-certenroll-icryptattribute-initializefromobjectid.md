@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 6825cca7-c3a5-46a8-9be5-851344629929
 ms.date: 12/05/2018
 ms.keywords: ICryptAttribute interface [Security],InitializeFromObjectId method, ICryptAttribute.InitializeFromObjectId, ICryptAttribute::InitializeFromObjectId, InitializeFromObjectId, InitializeFromObjectId method [Security], InitializeFromObjectId method [Security],ICryptAttribute interface, certenroll/ICryptAttribute::InitializeFromObjectId, security.icryptattribute_initializefromobjectid_method
-ms.topic: method
 f1_keywords:
 - certenroll/ICryptAttribute.InitializeFromObjectId
 dev_langs:

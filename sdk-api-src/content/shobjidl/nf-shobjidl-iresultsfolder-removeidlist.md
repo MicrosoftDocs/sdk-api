@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 188d4f7f-954c-4bba-ad4e-164085e0cc5a
 ms.date: 12/05/2018
 ms.keywords: IResultsFolder interface [Windows Shell],RemoveIDList method, IResultsFolder.RemoveIDList, IResultsFolder::RemoveIDList, RemoveIDList, RemoveIDList method [Windows Shell], RemoveIDList method [Windows Shell],IResultsFolder interface, _shell_IResultsFolder_RemoveIDList, shell.IResultsFolder_RemoveIDList, shobjidl/IResultsFolder::RemoveIDList
-ms.topic: method
 f1_keywords:
 - shobjidl/IResultsFolder.RemoveIDList
 dev_langs:

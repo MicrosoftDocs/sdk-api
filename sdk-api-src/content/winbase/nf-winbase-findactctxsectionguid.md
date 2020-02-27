@@ -7,7 +7,6 @@ tech.root: SbsCs
 ms.assetid: 3889505c-29a0-49dd-aca8-a26417b25a94
 ms.date: 12/05/2018
 ms.keywords: FIND_ACTCTX_SECTION_KEY_RETURN_HACTCTX, FindActCtxSectionGuid, FindActCtxSectionGuid function [Side-by-side Assemblies], _win32_findactctxsectionguid, setup.findactctxsectionguid, winbase/FindActCtxSectionGuid
-ms.topic: function
 f1_keywords:
 - winbase/FindActCtxSectionGuid
 dev_langs:

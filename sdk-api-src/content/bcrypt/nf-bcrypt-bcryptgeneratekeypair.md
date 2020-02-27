@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: cdf0de2e-2445-45e3-91ba-89791a0c0642
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_DH_ALGORITHM, BCRYPT_DSA_ALGORITHM, BCRYPT_ECDH_P256_ALGORITHM, BCRYPT_ECDH_P384_ALGORITHM, BCRYPT_ECDH_P521_ALGORITHM, BCRYPT_ECDSA_P256_ALGORITHM, BCRYPT_ECDSA_P384_ALGORITHM, BCRYPT_ECDSA_P521_ALGORITHM, BCRYPT_RSA_ALGORITHM, BCryptGenerateKeyPair, BCryptGenerateKeyPair function [Security], bcrypt/BCryptGenerateKeyPair, security.bcryptgeneratekeypair_func
-ms.topic: function
 f1_keywords:
 - bcrypt/BCryptGenerateKeyPair
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 6a939fd0-1e0c-4df6-bcd0-b58fb7bac5e4
 ms.date: 12/05/2018
 ms.keywords: 6a939fd0-1e0c-4df6-bcd0-b58fb7bac5e4, Cursors property [Tablet PC], Cursors property [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],Cursors property, IInkCollector.Cursors, IInkCollector.get_Cursors, IInkCollector::Cursors, IInkCollector::get_Cursors, InkCollector.get_Cursors, get_Cursors, msinkaut/IInkCollector::Cursors, msinkaut/IInkCollector::get_Cursors, put_Cursors, tablet.inkcollector_cursors
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkCollector.Cursors
 dev_langs:

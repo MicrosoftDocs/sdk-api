@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 8825c951-a6c1-4690-b36a-6159f30a13d9
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accNavigate method, IAccessible.accNavigate, IAccessible::accNavigate, VT_DISPATCH, VT_EMPTY, VT_I4, _msaa_IAccessible_accNavigate, accNavigate, accNavigate method [Windows Accessibility], accNavigate method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__accnavigate, oleacc/IAccessible::accNavigate, winauto.iaccessible_iaccessible__accnavigate
-ms.topic: method
 f1_keywords:
 - oleacc/IAccessible.accNavigate
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IAccessible::accNavigate</b> method traverses to another UI element within a container and retrieves the object. This method is optional.
-<div class="alert"><b>Note</b>  The <b>accNavigate</b>method is deprecated and should not be used. Clients should use other methods and properties such as <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-accessiblechildren">AccessibleChildren</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchild">get_accChild</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accparent">get_accParent</a>, and <a href="https://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>accNavigate</b>method is deprecated and should not be used. Clients should use other methods and properties such as <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-accessiblechildren">AccessibleChildren</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchild">get_accChild</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accparent">get_accParent</a>, and <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVARIANT</a>.</div><div> </div>
 
 ## -parameters
 

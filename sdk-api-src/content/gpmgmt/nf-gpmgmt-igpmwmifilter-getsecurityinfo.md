@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: c576c842-53ce-40af-8dba-4f15e25cf493
 ms.date: 12/05/2018
 ms.keywords: GPMWMIFilter class [GPMC],GetSecurityInfo method, GetSecurityInfo, GetSecurityInfo method [GPMC], GetSecurityInfo method [GPMC],GPMWMIFilter class, GetSecurityInfo method [GPMC],IGPMWMIFilter interface, IGPMWMIFilter interface [GPMC],GetSecurityInfo method, IGPMWMIFilter.GetSecurityInfo, IGPMWMIFilter::GetSecurityInfo, _win32_igpmwmifilter_getsecurityinfo, gpmc.igpmwmifilter_getsecurityinfo, gpmgmt/IGPMWMIFilter::GetSecurityInfo
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPMWMIFilter.GetSecurityInfo
 dev_langs:

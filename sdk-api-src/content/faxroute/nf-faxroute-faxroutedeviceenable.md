@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_771h.htm
 ms.date: 12/05/2018
 ms.keywords: FaxRouteDeviceEnable, FaxRouteDeviceEnable function [Fax Service], QUERY_STATUS, STATUS_DISABLE, STATUS_ENABLE, _mfax_faxroutedeviceenable, fax._mfax_faxroutedeviceenable, faxroute/FaxRouteDeviceEnable
-ms.topic: function
 f1_keywords:
 - faxroute/FaxRouteDeviceEnable
 dev_langs:

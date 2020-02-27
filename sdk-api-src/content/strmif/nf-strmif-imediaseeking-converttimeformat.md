@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 868ec03e-d4e5-4a1e-914a-6be8933f1c7c
 ms.date: 12/05/2018
 ms.keywords: ConvertTimeFormat, ConvertTimeFormat method [DirectShow], ConvertTimeFormat method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],ConvertTimeFormat method, IMediaSeeking.ConvertTimeFormat, IMediaSeeking::ConvertTimeFormat, IMediaSeekingConvertTimeFormat, dshow.imediaseeking_converttimeformat, strmif/IMediaSeeking::ConvertTimeFormat
-ms.topic: method
 f1_keywords:
 - strmif/IMediaSeeking.ConvertTimeFormat
 dev_langs:

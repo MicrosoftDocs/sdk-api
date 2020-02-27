@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMSHORTN4.operator = (const XMSHORTN4)
 ms.date: 05/06/2019
 ms.keywords: DirectX::PackedVector.XMSHORTN4.operator =, DirectX::PackedVector::XMSHORTN4::operator =, XMSHORTN4 structure [DirectX Math Support APIs],operator = method, XMSHORTN4.operator =, XMSHORTN4.operator-assign, XMSHORTN4.operator=, XMSHORTN4::operator-assign, XMSHORTN4::operator=, dxmath.xmshortn4_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMSHORTN4 structure, operator=
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMSHORTN4.operator =
 dev_langs:

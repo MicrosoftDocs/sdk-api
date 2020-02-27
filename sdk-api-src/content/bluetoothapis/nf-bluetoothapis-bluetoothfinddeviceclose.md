@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 8b482d7f-56a3-47ef-be49-5272423c10f6
 ms.date: 12/05/2018
 ms.keywords: BluetoothFindDeviceClose, BluetoothFindDeviceClose function [Bluetooth], bluetooth.bluetoothfinddeviceclose, bluetoothapis/BluetoothFindDeviceClose
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothFindDeviceClose
 dev_langs:

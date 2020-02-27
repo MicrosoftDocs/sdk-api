@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 1e4fb36d-077b-44bd-ab6e-8c122ec95a46
 ms.date: 12/05/2018
 ms.keywords: StorageLayout, StorageLayout structure [Structured Storage], _stg_storagelayout, objidl/StorageLayout, stg.storagelayout
-ms.topic: struct
 f1_keywords:
 - objidl/StorageLayout
 dev_langs:

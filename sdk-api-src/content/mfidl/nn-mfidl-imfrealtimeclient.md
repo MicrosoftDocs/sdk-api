@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: b1d1901e-dd49-421f-9212-61e32cff411e
 ms.date: 12/05/2018
 ms.keywords: IMFRealTimeClient, IMFRealTimeClient interface [Media Foundation], IMFRealTimeClient interface [Media Foundation],described, b1d1901e-dd49-421f-9212-61e32cff411e, mf.imfrealtimeclient, mfidl/IMFRealTimeClient
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFRealTimeClient
 dev_langs:

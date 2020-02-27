@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 90768da1-592a-49ec-99b0-56f463c322e8
 ms.date: 12/05/2018
 ms.keywords: GetTotalTitleTime, GetTotalTitleTime method [DirectShow], GetTotalTitleTime method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetTotalTitleTime method, IDvdInfo2.GetTotalTitleTime, IDvdInfo2::GetTotalTitleTime, IDvdInfo2GetTotalTitleTime, dshow.idvdinfo2_gettotaltitletime, strmif/IDvdInfo2::GetTotalTitleTime
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo2.GetTotalTitleTime
 dev_langs:
@@ -64,13 +63,13 @@ The <code>GetTotalTitleTime</code> method retrieves the total playback time for 
 
 ### -param pTotalTime [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> structure that receives the total time in hours, minutes, seconds, and frames.
+Pointer to a [DVD_HMSF_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode) structure that receives the total time in hours, minutes, seconds, and frames.
           
 
 
 ### -param ulTimeCodeFlags [out]
 
-Receives a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_timecode_flags">DVD_TIMECODE_FLAGS</a> value indicating the frame rate at which the disc was authored to play. Specify <b>NULL</b> if you don't want to receive the timecode information.
+Receives a [DVD_TIMECODE_FLAGS](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_timecode_flags) value indicating the frame rate at which the disc was authored to play. Specify <b>NULL</b> if you don't want to receive the timecode information.
           
 
 

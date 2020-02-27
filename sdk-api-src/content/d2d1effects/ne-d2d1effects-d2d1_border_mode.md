@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 093C7028-9C0E-4BB5-9769-C456B7A23B6F
 ms.date: 12/05/2018
 ms.keywords: D2D1_BORDER_MODE, D2D1_BORDER_MODE enumeration [Direct2D], D2D1_BORDER_MODE_HARD, D2D1_BORDER_MODE_SOFT, d2d1effects/D2D1_BORDER_MODE, d2d1effects/D2D1_BORDER_MODE_HARD, d2d1effects/D2D1_BORDER_MODE_SOFT, direct2d.d2d1_border_mode
-ms.topic: enum
 f1_keywords:
 - d2d1effects/D2D1_BORDER_MODE
 dev_langs:

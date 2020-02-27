@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: c5d3774e-6f57-4a6b-97a8-623268884859
 ms.date: 12/05/2018
 ms.keywords: FilterClose, FilterClose function [Installable File System Drivers], FltWin32ApiRef_42f7f157-b74a-4856-ac99-bca1caac3493.xml, fltuser/FilterClose, ifsk.filterclose
-ms.topic: function
 f1_keywords:
 - fltuser/FilterClose
 dev_langs:
@@ -80,7 +79,7 @@ After <b>FilterClose</b> is called, the minifilter handle that the <i>hFilter</i
 
 Use <b>FilterClose</b> to close open minifilter handles returned by calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtercreate">FilterCreate</a>. Use <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindclose">FilterFindClose</a> to close handles returned by calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>. 
 
-To close a connection port handle that was opened by calling <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>, use <a href="http://go.microsoft.com/fwlink/p/?linkid=139078">CloseHandle</a>. 
+To close a connection port handle that was opened by calling <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>, use <a href="https://msdn.microsoft.com/library/ms724211.aspx">CloseHandle</a>. 
 
 
 
@@ -90,7 +89,7 @@ To close a connection port handle that was opened by calling <a href="https://do
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=139078">CloseHandle</a>
+<a href="https://msdn.microsoft.com/library/ms724211.aspx">CloseHandle</a>
 
 
 

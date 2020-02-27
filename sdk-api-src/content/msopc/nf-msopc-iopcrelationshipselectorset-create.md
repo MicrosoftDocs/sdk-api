@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 801d1924-c75c-47b5-99fe-9d97ea8dfee1
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcRelationshipSelectorSet interface, IOpcRelationshipSelectorSet interface [Open Packaging Conventions],Create method, IOpcRelationshipSelectorSet.Create, IOpcRelationshipSelectorSet::Create, msopc/IOpcRelationshipSelectorSet::Create, opc.iopcrelationshipselectorset_create
-ms.topic: method
 f1_keywords:
 - msopc/IOpcRelationshipSelectorSet.Create
 dev_langs:

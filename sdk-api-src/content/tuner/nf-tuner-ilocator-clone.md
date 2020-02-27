@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 9a1fd730-80b9-439b-aab2-069710aa3dfa
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],ILocator interface, ILocator interface [Microsoft TV Technologies],Clone method, ILocator.Clone, ILocator::Clone, ILocatorClone, mstv.ilocator_clone, tuner/ILocator::Clone
-ms.topic: method
 f1_keywords:
 - tuner/ILocator.Clone
 dev_langs:

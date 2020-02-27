@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: fc7eda84-3e7b-49e9-a1a6-e1759c894e1a
 ms.date: 12/05/2018
 ms.keywords: '*PBLUETOOTH_AUTHENTICATE_RESPONSE, BLUETOOTH_AUTHENTICATE_RESPONSE, BLUETOOTH_AUTHENTICATE_RESPONSE structure [Bluetooth], PBLUETOOTH_AUTHENTICATE_RESPONSE, PBLUETOOTH_AUTHENTICATE_RESPONSE structure pointer [Bluetooth], bluetooth.bluetooth_authenticate_response, bluetoothapis/BLUETOOTH_AUTHENTICATE_RESPONSE, bluetoothapis/PBLUETOOTH_AUTHENTICATE_RESPONSE'
-ms.topic: struct
 f1_keywords:
 - bluetoothapis/BLUETOOTH_AUTHENTICATE_RESPONSE
 dev_langs:

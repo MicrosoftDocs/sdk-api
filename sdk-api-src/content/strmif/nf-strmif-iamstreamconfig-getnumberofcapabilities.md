@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 355b8c4c-6d07-4d31-8dc5-ddc5ec2bf1cd
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfCapabilities, GetNumberOfCapabilities method [DirectShow], GetNumberOfCapabilities method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetNumberOfCapabilities method, IAMStreamConfig.GetNumberOfCapabilities, IAMStreamConfig::GetNumberOfCapabilities, IAMStreamConfigGetNumberOfCapabilities, dshow.iamstreamconfig_getnumberofcapabilities, strmif/IAMStreamConfig::GetNumberOfCapabilities
-ms.topic: method
 f1_keywords:
 - strmif/IAMStreamConfig.GetNumberOfCapabilities
 dev_langs:
@@ -128,7 +127,7 @@ The input pin is not connected.
 
 An output pin can support more than one set of format capabilities. This method returns the total number of capabilities that the pin supports; the number is returned in the <i>piCount</i> parameter. To retrieve a particular set of capabilities, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getstreamcaps">IAMStreamConfig::GetStreamCaps</a> method. Format capabilities are indexed from zero, so the value returned in <i>piCount</i> is one more than the upper bound.
 
-Depending on the pin's format type, the <b>GetStreamCaps</b> method returns either a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps">VIDEO_STREAM_CONFIG_CAPS</a> structure (for video) or an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-audio_stream_config_caps">AUDIO_STREAM_CONFIG_CAPS</a> structure (for audio). The <i>piSize</i> parameter receives the size of the structure, in bytes.
+Depending on the pin's format type, the [VIDEO_STREAM_CONFIG_CAPS](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps) structure (for video) or an [AUDIO_STREAM_CONFIG_CAPS](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-audio_stream_config_caps) structure (for audio). The <i>piSize</i> parameter receives the size of the structure, in bytes.
 
 On some compression filters, this method fails if the filter's input pin is not connected.
 

@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: BCF51702-87C1-405B-A3FF-98F5D0DDA8D5
 ms.date: 12/05/2018
 ms.keywords: CfGetPlatformInfo, CfGetPlatformInfo function, cfapi/CfGetPlatformInfo, cloudApi.cfgetplatforminfo
-ms.topic: function
 f1_keywords:
 - cfapi/CfGetPlatformInfo
 dev_langs:

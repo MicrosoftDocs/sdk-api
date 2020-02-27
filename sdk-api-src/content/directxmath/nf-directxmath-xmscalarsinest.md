@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.scalar.XMScalarSinEst(float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMScalarSinEst, XMScalarSinEst, XMScalarSinEst method [DirectX Math Support APIs], dxmath.xmscalarsinest
-ms.topic: function
 f1_keywords:
 - directxmath/XMScalarSinEst
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: a440c227-33c9-42f9-8f4a-4cbe6281f9ad
 ms.date: 12/05/2018
 ms.keywords: GetSegmentTypes, GetSegmentTypes method [XPS Documents and Packaging], GetSegmentTypes method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentTypes method, IXpsOMGeometryFigure.GetSegmentTypes, IXpsOMGeometryFigure::GetSegmentTypes, xps.ixpsomgeometryfigure_getsegmenttypes, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentTypes
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentTypes
 dev_langs:
@@ -156,7 +155,7 @@ For an example of how to use this method in a program, see the code example in <
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

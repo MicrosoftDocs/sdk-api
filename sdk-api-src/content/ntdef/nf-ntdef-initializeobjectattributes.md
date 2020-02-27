@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: ee89a9af-0bdf-476e-b4e3-eb60662e160d
 ms.date: 04/30/2018
 ms.keywords: InitializeObjectAttributes, InitializeObjectAttributes macro [Kernel-Mode Driver Architecture], k107_f7e00cf9-9598-4835-b51a-3df9e003587e.xml, kernel.initializeobjectattributes, ntdef/InitializeObjectAttributes
-ms.topic: macro
 f1_keywords:
 - ntdef/- InitializeObjectAttributes
 dev_langs:
@@ -38,8 +37,6 @@ api_location:
 - ntdef.h
 api_name:
 - InitializeObjectAttributes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -56,11 +53,11 @@ The <b>InitializeObjectAttributes</b> macro initializes the opaque <a href="http
 
 ```cpp
 VOID InitializeObjectAttributes(
-  [out]          POBJECT_ATTRIBUTES   InitializedAttributes,
-  [in]           PUNICODE_STRING      ObjectName,
-  [in]           ULONG                Attributes,
-  [in]           HANDLE               RootDirectory,
-  [in, optional] PSECURITY_DESCRIPTOR SecurityDescriptor
+  [out]          POBJECT_ATTRIBUTES   p,
+  [in]           PUNICODE_STRING      n,
+  [in]           ULONG                a,
+  [in]           HANDLE               r,
+  [in, optional] PSECURITY_DESCRIPTOR s
 );
 ```
 
@@ -111,79 +108,39 @@ None
 
 ## -remarks
 
-
-
 <b>InitializeObjectAttributes</b> initializes an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/ns-wudfwdm-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the properties of an object handle to be opened. The caller can then pass a pointer to this structure to a routine that actually opens the handle. 
 
 Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE flag for the <i>Attributes</i> parameter. This flag restricts the use of a handle opened for that object to processes running only in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running.
 
 Note that <b>InitializeObjectAttributes</b> always sets the <b>SecurityQualityOfService</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/ns-wudfwdm-_object_attributes">OBJECT_ATTRIBUTES</a> to <b>NULL</b>. Drivers that require a non-<b>NULL</b> value can set <b>SecurityQualityOfService</b> directly.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-excreatecallback">ExCreateCallback</a>
 
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatefile">IoCreateFile</a>
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/ns-wudfwdm-_object_attributes">OBJECT_ATTRIBUTES</a>
 
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
 
-
-
-[UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)a>
-
-
+[UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwcreatedirectoryobject">ZwCreateDirectoryObject</a>
 
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>
 
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwmaketemporaryobject">ZwMakeTemporaryObject</a>
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntopenfile">ZwOpenFile</a>
 
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwopensection">ZwOpenSection</a>
 
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwopensymboliclinkobject">ZwOpenSymbolicLinkObject</a>
  
-
- 
-
-
-f1_keywords: 
- - "ntdef/FIELD_OFFSET"

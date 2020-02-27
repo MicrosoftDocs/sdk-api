@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 3f52bbff-998d-4e11-877f-478085207e6b
 ms.date: 12/05/2018
 ms.keywords: NPGetConnection, NPGetConnection function [Security], _mnp_npgetconnection, npapi/NPGetConnection, security.npgetconnection
-ms.topic: function
 f1_keywords:
 - npapi/NPGetConnection
 dev_langs:

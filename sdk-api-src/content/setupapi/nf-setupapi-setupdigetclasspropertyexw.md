@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 74b6cd23-5741-4f0c-b5e1-6cdea2074c28
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassPropertyEx, SetupDiGetClassPropertyEx function [Device and Driver Installation], SetupDiGetClassPropertyExW, devinst.setupdigetclasspropertyex, di-rtns_b2221d4f-34d3-4206-b1f2-fbaa8d7886cc.xml, setupapi/SetupDiGetClassPropertyEx
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetClassPropertyEx
 dev_langs:
@@ -122,7 +121,7 @@ This parameter must be set to <b>NULL</b>.
 
 
 
-<b>SetupDiGetClassPropertyEx</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+<b>SetupDiGetClassPropertyEx</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 The following table includes some of the more common error codes that this function might log.
 

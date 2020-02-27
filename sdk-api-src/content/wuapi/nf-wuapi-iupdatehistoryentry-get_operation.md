@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 4dfad46b-ee42-41d6-be25-69aaf12fd53c
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],Operation property, IUpdateHistoryEntry.Operation, IUpdateHistoryEntry.get_Operation, IUpdateHistoryEntry::Operation, IUpdateHistoryEntry::get_Operation, Operation property [Windows Update Agent], Operation property [Windows Update Agent],IUpdateHistoryEntry interface, get_Operation, wua.iupdatehistoryentry_operation, wuapi/IUpdateHistoryEntry::Operation, wuapi/IUpdateHistoryEntry::get_Operation
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateHistoryEntry.Operation
 dev_langs:

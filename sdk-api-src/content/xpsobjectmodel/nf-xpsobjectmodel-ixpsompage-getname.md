@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 0c133dce-3a5a-4d7f-af83-2e185450c207
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [XPS Documents and Packaging], GetName method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetName method, IXpsOMPage.GetName, IXpsOMPage::GetName, xps.ixpsompage_getname, xpsobjectmodel/IXpsOMPage::GetName
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPage.GetName
 dev_langs:
@@ -120,7 +119,7 @@ This method allocates the memory used by the string that is returned in <i>name<
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a68cd816-6b2c-4cff-9288-9c3758e3fdae
 ms.date: 12/05/2018
 ms.keywords: '*LPNEWCPLINFOA, LPNEWCPLINFO, LPNEWCPLINFO structure pointer [Windows Shell], NEWCPLINFO, NEWCPLINFO structure [Windows Shell], NEWCPLINFOA, _win32_NEWCPLINFO, cpl/LPNEWCPLINFO, cpl/NEWCPLINFO, shell.NEWCPLINFO'
-ms.topic: struct
 f1_keywords:
 - cpl/NEWCPLINFO
 dev_langs:

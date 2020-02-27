@@ -1,9 +1,10 @@
 ---
 UID: NA:processtopologyapi
+title: Processtopologyapi.h header
 ms.assetid: cb1556ee-511a-3270-a6c9-a173fd81200a
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: base
 ---
 

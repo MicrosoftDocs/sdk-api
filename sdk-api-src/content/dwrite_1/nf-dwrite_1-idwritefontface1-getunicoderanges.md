@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 0464BA91-B098-463D-A4A9-8D3C05E45F0E
 ms.date: 12/05/2018
 ms.keywords: GetUnicodeRanges, GetUnicodeRanges method [Direct Write], GetUnicodeRanges method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetUnicodeRanges method, IDWriteFontFace1.GetUnicodeRanges, IDWriteFontFace1::GetUnicodeRanges, directwrite.idwritefontface1_getunicoderanges, dwrite_1/IDWriteFontFace1::GetUnicodeRanges
-ms.topic: method
 f1_keywords:
 - dwrite_1/IDWriteFontFace1.GetUnicodeRanges
 dev_langs:

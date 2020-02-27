@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 11257f24-096c-4240-8fac-4e42a6161d66
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [COM], Advise method [COM],IConnectionPoint interface, IConnectionPoint interface [COM],Advise method, IConnectionPoint.Advise, IConnectionPoint::Advise, _com_iconnectionpoint_advise, com.iconnectionpoint_advise, ocidl/IConnectionPoint::Advise
-ms.topic: method
 f1_keywords:
 - ocidl/IConnectionPoint.Advise
 dev_langs:
@@ -135,7 +134,7 @@ The sink does not support the interface required by this connection point.
 
 <b>Advise</b> establishes a connection between the connection point and the caller's sink identified with <i>pUnkSink</i>.
 
-The connection point must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> to obtain the correct outgoing interface pointer to call when events occur, with the IID for the outgoing interface managed by the connection point. When the IID is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpointcontainer-findconnectionpoint">IConnectionPointContainer::FindConnectionPoint</a> method, an interface pointer to this same connection point is returned.
+The connection point must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to obtain the correct outgoing interface pointer to call when events occur, with the IID for the outgoing interface managed by the connection point. When the IID is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpointcontainer-findconnectionpoint">IConnectionPointContainer::FindConnectionPoint</a> method, an interface pointer to this same connection point is returned.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 The connection point must query the <i>pUnkSink</i> pointer for the correct outgoing interface. If this query fails, this method must return CONNECT_E_CANNOTCONNECT.

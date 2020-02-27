@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 74BA5FE6-1197-4BF0-A5FE-FAFE650C4C8E
 ms.date: 12/5/2018
 ms.keywords: IDMLDebugDevice interface,SetMuteDebugOutput method, IDMLDebugDevice.SetMuteDebugOutput, IDMLDebugDevice::SetMuteDebugOutput, SetMuteDebugOutput, SetMuteDebugOutput method, SetMuteDebugOutput method,IDMLDebugDevice interface, direct3d12.idmldebugdevice_setmutedebugoutput, directml/IDMLDebugDevice::SetMuteDebugOutput
-ms.topic: method
 f1_keywords:
 - directml/IDMLDebugDevice.SetMuteDebugOutput
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: e21d7563-0ca8-4777-9fb0-de7c1c4ae618
 ms.date: 12/05/2018
 ms.keywords: CAPVIDEOCALLBACK, _win32_capVideoStreamCallback, capVideoStreamCallback, capVideoStreamCallback callback, capVideoStreamCallback callback function [Windows Multimedia], multimedia.capvideostreamcallback, vfw/capVideoStreamCallback
-ms.topic: callback
 f1_keywords:
 - vfw/capVideoStreamCallback
 dev_langs:

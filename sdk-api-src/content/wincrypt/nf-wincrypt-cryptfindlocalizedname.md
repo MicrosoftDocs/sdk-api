@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 8f0006a9-0930-4b71-87ce-e72371095e4c
 ms.date: 12/05/2018
 ms.keywords: CryptFindLocalizedName, CryptFindLocalizedName function [Security], _crypto2_cryptfindlocalizedname, security.cryptfindlocalizedname, wincrypt/CryptFindLocalizedName
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptFindLocalizedName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: e25760b0-14e2-4f1b-b4ff-e7b78f0b7b12
 ms.date: 12/05/2018
 ms.keywords: GetDirectedTarget, GetDirectedTarget method [VSS], GetDirectedTarget method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetDirectedTarget method, IVssComponent.GetDirectedTarget, IVssComponent::GetDirectedTarget, _win32_ivsscomponent_getdirectedtarget, base.ivsscomponent_getdirectedtarget, vswriter/IVssComponent::GetDirectedTarget
-ms.topic: method
 f1_keywords:
 - vswriter/IVssComponent.GetDirectedTarget
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 148c4f5a-277a-41fa-b801-34884fbf3225
 ms.date: 12/05/2018
 ms.keywords: MI_HostedProviderFT, MI_HostedProviderFT structure [Windows Management Infrastructure (MI)], mi/MI_HostedProviderFT, wmi_v2.mi_hostedproviderft
-ms.topic: struct
 f1_keywords:
 - mi/MI_HostedProviderFT
 dev_langs:

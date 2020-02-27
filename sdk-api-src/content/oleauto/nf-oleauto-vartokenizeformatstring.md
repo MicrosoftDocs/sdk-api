@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 7cec1bc5-39ea-4b47-880b-62584ff23536
 ms.date: 12/05/2018
 ms.keywords: VarTokenizeFormatString, VarTokenizeFormatString function [Automation], _oa96_VarTokenizeFormatString, automat.vartokenizeformatstring, oleauto/VarTokenizeFormatString
-ms.topic: function
 f1_keywords:
 - oleauto/VarTokenizeFormatString
 dev_langs:

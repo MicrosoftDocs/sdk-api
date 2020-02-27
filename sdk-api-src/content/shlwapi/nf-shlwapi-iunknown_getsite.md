@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 95e83078-ab74-40d6-8e31-653e578770f2
 ms.date: 12/05/2018
 ms.keywords: IUnknown_GetSite, IUnknown_GetSite function [Windows Shell], _win32_IUnknown_GetSite, shell.IUnknown_GetSite, shlwapi/IUnknown_GetSite
-ms.topic: function
 f1_keywords:
 - shlwapi/IUnknown_GetSite
 dev_langs:
@@ -98,7 +97,7 @@ Returns <b>S_OK</b> if the site was successfully retrieved or a COM error code o
 
 
 
-This function calls the specified object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method to obtain the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> interface.  If successful, the function calls the interface's <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-getsite">IObjectWithSite::GetSite</a> method to obtain the site.
+This function calls the specified object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method to obtain the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> interface.  If successful, the function calls the interface's <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-getsite">IObjectWithSite::GetSite</a> method to obtain the site.
 
 
 

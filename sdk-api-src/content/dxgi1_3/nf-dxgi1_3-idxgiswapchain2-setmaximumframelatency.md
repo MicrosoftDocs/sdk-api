@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: AF3F03F2-38B4-474A-8A66-86A93D776EA0
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain2 interface [DXGI],SetMaximumFrameLatency method, IDXGISwapChain2.SetMaximumFrameLatency, IDXGISwapChain2::SetMaximumFrameLatency, SetMaximumFrameLatency, SetMaximumFrameLatency method [DXGI], SetMaximumFrameLatency method [DXGI],IDXGISwapChain2 interface, direct3ddxgi.idxgiswapchain2_setmaximumframelatency, dxgi1_3/IDXGISwapChain2::SetMaximumFrameLatency
-ms.topic: method
 f1_keywords:
 - dxgi1_3/IDXGISwapChain2.SetMaximumFrameLatency
 dev_langs:
@@ -61,7 +60,7 @@ Sets the number of frames that the swap chain is allowed to queue for rendering.
 
 ### -param MaxLatency
 
-The maximum number of back buffer frames that will be queued for the swap chain. This value is 3 by default.
+The maximum number of back buffer frames that will be queued for the swap chain. This value is 1 by default.
 
 
 ## -returns
@@ -87,7 +86,7 @@ This method is only valid for use on swap chains created with <a href="https://d
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=320129">DirectX latency sample</a>
+<a href="https://code.msdn.microsoft.com/windowsapps/DirectXLatency-sample-a2e2c9c3">DirectX latency sample</a>
 
 
 

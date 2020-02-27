@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 8705adcb-a657-4b47-94ba-632bfb3779be
 ms.date: 12/05/2018
 ms.keywords: Size, Size structure [Windows Runtime], windows/Size, winrt.size
-ms.topic: struct
 f1_keywords:
 - windows.foundation/Size
 dev_langs:

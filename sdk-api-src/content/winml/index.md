@@ -1,9 +1,10 @@
 ---
 UID: NA:winml
+title: Winml.h header
 ms.assetid: 53ebaf75-681b-37e7-ad63-dd0466c53914
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: machinelearning
 archived: true
 ---

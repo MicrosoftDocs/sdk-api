@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 64cc7a29-0bbb-4535-a7b5-9b1d82ad7e8a
 ms.date: 12/05/2018
 ms.keywords: IOleCacheControl, IOleCacheControl interface [COM], IOleCacheControl interface [COM],described, _ole_iolecachecontrol, com.iolecachecontrol, oleidl/IOleCacheControl
-ms.topic: interface
 f1_keywords:
 - oleidl/IOleCacheControl
 dev_langs:

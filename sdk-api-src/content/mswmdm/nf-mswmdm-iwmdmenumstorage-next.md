@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: aec244c3-93e4-4093-b49c-9c74ec93ce0f
 ms.date: 12/05/2018
 ms.keywords: IWMDMEnumStorage interface [windows Media Device Manager],Next method, IWMDMEnumStorage.Next, IWMDMEnumStorage::Next, IWMDMEnumStorageNext, Next, Next method [windows Media Device Manager], Next method [windows Media Device Manager],IWMDMEnumStorage interface, mswmdm/IWMDMEnumStorage::Next, wmdm.iwmdmenumstorage_next
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMEnumStorage.Next
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 495a321a-3005-4537-b082-5003e437d21f
 ms.date: 12/05/2018
 ms.keywords: IBinaryConverter, IBinaryConverter interface [Security], IBinaryConverter interface [Security],described, certenroll/IBinaryConverter, security.ibinaryconverter
-ms.topic: interface
 f1_keywords:
 - certenroll/IBinaryConverter
 dev_langs:

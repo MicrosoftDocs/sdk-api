@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 74a32957-7305-4f2b-a509-7d6aa11d2052
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_LOGGING_TYPE, *PHTTP_LOGGING_TYPE enumeration [HTTP], HTTP_LOGGING_TYPE, HTTP_LOGGING_TYPE enumeration [HTTP], HttpLoggingTypeIIS, HttpLoggingTypeNCSA, HttpLoggingTypeRaw, HttpLoggingTypeW3C, http.http_logging_type, http/*PHTTP_LOGGING_TYPE, http/HTTP_LOGGING_TYPE, http/HttpLoggingTypeIIS, http/HttpLoggingTypeNCSA, http/HttpLoggingTypeRaw, http/HttpLoggingTypeW3C'
-ms.topic: enum
 f1_keywords:
 - http/HTTP_LOGGING_TYPE
 dev_langs:
@@ -210,7 +209,7 @@ The following table lists time element characters and what they represent. <tabl
 
 
 
-For more information about the log file formats, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=83889">IIS Log File Formats</a>.
+For more information about the log file formats, see <a href="https://msdn.microsoft.com/library/ms525807.aspx">IIS Log File Formats</a>.
 
 
 

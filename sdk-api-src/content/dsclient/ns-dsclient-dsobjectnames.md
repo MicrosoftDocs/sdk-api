@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: dfc1e88f-40ff-4ec1-9718-4801f678fa3f
 ms.date: 12/05/2018
 ms.keywords: '*LPDSOBJECTNAMES, DSOBJECTNAMES, DSOBJECTNAMES structure [Active Directory], LPDSOBJECTNAMES, LPDSOBJECTNAMES structure pointer [Active Directory], _glines_dsobjectnames, ad.dsobjectnames, dsclient/DSOBJECTNAMES, dsclient/LPDSOBJECTNAMES'
-ms.topic: struct
 f1_keywords:
 - dsclient/DSOBJECTNAMES
 dev_langs:

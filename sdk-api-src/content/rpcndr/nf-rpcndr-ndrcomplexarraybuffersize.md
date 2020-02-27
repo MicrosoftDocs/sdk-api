@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 8efd63c5-7444-4b30-b642-18dfecb7d026
 ms.date: 12/05/2018
 ms.keywords: NdrComplexArrayBufferSize, NdrComplexArrayBufferSize function [Windows API], rpcndr/NdrComplexArrayBufferSize, winprog.ndrcomplexarraybuffersize
-ms.topic: function
 f1_keywords:
 - rpcndr/NdrComplexArrayBufferSize
 dev_langs:

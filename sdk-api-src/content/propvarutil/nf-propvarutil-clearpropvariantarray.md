@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: e8d7f951-8a9e-441b-9fa7-bf21cf08c8ac
 ms.date: 12/05/2018
 ms.keywords: ClearPropVariantArray, ClearPropVariantArray function [Windows Properties], _shell_ClearPropVariantArray, properties.ClearPropVariantArray, propvarutil/ClearPropVariantArray, shell.ClearPropVariantArray
-ms.topic: function
 f1_keywords:
 - propvarutil/ClearPropVariantArray
 dev_langs:

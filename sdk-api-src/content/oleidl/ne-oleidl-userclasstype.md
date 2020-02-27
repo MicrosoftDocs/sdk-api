@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: f35dd18a-7fde-4954-8315-bc9bfd933827
 ms.date: 12/05/2018
 ms.keywords: USERCLASSTYPE, USERCLASSTYPE enumeration [COM], USERCLASSTYPE_APPNAME, USERCLASSTYPE_FULL, USERCLASSTYPE_SHORT, _ole_USERCLASSTYPE, com.userclasstype, oleidl/USERCLASSTYPE, oleidl/USERCLASSTYPE_APPNAME, oleidl/USERCLASSTYPE_FULL, oleidl/USERCLASSTYPE_SHORT
-ms.topic: enum
 f1_keywords:
 - oleidl/USERCLASSTYPE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 1f7ddaa1-a349-49a6-856d-a2fde2f1dc3b
 ms.date: 12/05/2018
 ms.keywords: NetRenameMachineInDomain, NetRenameMachineInDomain function [Network Management], _win32_netrenamemachineindomain, lmjoin/NetRenameMachineInDomain, netmgmt.netrenamemachineindomain
-ms.topic: function
 f1_keywords:
 - lmjoin/NetRenameMachineInDomain
 dev_langs:

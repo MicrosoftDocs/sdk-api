@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 28cca237-31a5-4018-a382-17d0a13a254b
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocManagerNotificationSink interface [NativeWIFI],OnNetworkAdd method, IDot11AdHocManagerNotificationSink.OnNetworkAdd, IDot11AdHocManagerNotificationSink::OnNetworkAdd, OnNetworkAdd, OnNetworkAdd method [NativeWIFI], OnNetworkAdd method [NativeWIFI],IDot11AdHocManagerNotificationSink interface, adhoc/IDot11AdHocManagerNotificationSink::OnNetworkAdd, nwifi.idot11adhocmanagernotificationsink_onnetworkadd
-ms.topic: method
 f1_keywords:
 - adhoc/IDot11AdHocManagerNotificationSink.OnNetworkAdd
 dev_langs:

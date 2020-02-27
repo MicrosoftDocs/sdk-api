@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: fb420967-c79c-4edd-a432-b982219c0746
 ms.date: 12/05/2018
 ms.keywords: IPNPXDeviceAssociation interface,Unassociate method, IPNPXDeviceAssociation.Unassociate, IPNPXDeviceAssociation::Unassociate, Unassociate, Unassociate method, Unassociate method,IPNPXDeviceAssociation interface, ncd.ipnpxdeviceassociation_unassociate, pnpxassoc/IPNPXDeviceAssociation::Unassociate
-ms.topic: method
 f1_keywords:
 - pnpxassoc/IPNPXDeviceAssociation.Unassociate
 dev_langs:

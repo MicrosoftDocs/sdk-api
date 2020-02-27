@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 642f8d0b-8dae-41a7-a87c-2b55d1034328
 ms.date: 12/05/2018
 ms.keywords: CAConfig property [Security], CAConfig property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],CAConfig property, IOCSPCAConfiguration.CAConfig, IOCSPCAConfiguration.get_CAConfig, IOCSPCAConfiguration::CAConfig, IOCSPCAConfiguration::get_CAConfig, IOCSPCAConfiguration::put_CAConfig, certadm/IOCSPCAConfiguration::CAConfig, certadm/IOCSPCAConfiguration::get_CAConfig, certadm/IOCSPCAConfiguration::put_CAConfig, get_CAConfig, security.iocspcaconfiguration_caconfig
-ms.topic: method
 f1_keywords:
 - certadm/IOCSPCAConfiguration.CAConfig
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 21dccb42-8430-4fa0-a549-98dd3d1a4d4c
 ms.date: 12/05/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get__MediaFormatType method, IComponentType.get__MediaFormatType, IComponentType::get__MediaFormatType, IComponentTypeget__MediaFormatType, get__MediaFormatType, get__MediaFormatType method [Microsoft TV Technologies], get__MediaFormatType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get__mediaformattype, tuner/IComponentType::get__MediaFormatType
-ms.topic: method
 f1_keywords:
 - tuner/IComponentType.get__MediaFormatType
 dev_langs:
@@ -89,7 +88,7 @@ This method is available through C++ only. Note the two underscores in the metho
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a>
 
 
 

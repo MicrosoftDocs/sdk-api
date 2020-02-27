@@ -5,7 +5,6 @@ description: Specifies indices for arrays of per component histogram information
 tech.root: mf
 ms.assetid: e503a4a5-9a6d-4c2d-8f6e-1fe0e2e24c22
 ms.date: 11/14/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT
 dev_langs:
@@ -71,6 +70,6 @@ If the format has an alpha channel, indicates a histogram for the A component.
 
 ## -remarks
 
-The [D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS](ne-d3d12video-d3d12_video_decode_histogram_component_flags) is the flags enumeration used by [D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM](ns-d3d12video-d3d12_feature_data_video_decode_histogram) to allow you to specify one or more components for which histogram data is queried.
+The [D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS](ne-d3d12video-d3d12_video_decode_histogram_component_flags.md) is the flags enumeration used by [D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM](ns-d3d12video-d3d12_feature_data_video_decode_histogram.md) to allow you to specify one or more components for which histogram data is queried.
 
 ## -see-also

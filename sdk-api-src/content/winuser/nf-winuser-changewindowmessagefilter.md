@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\changewindowmessagefilter.htm
 ms.date: 12/05/2018
 ms.keywords: ChangeWindowMessageFilter, ChangeWindowMessageFilter function [Windows and Messages], MSGFLT_ADD, MSGFLT_REMOVE, _win32_ChangeWindowMessageFilter, _win32_changewindowmessagefilter_cpp, winmsg.changewindowmessagefilter, winui._win32_changewindowmessagefilter, winuser/ChangeWindowMessageFilter
-ms.topic: function
 f1_keywords:
 - winuser/ChangeWindowMessageFilter
 dev_langs:
@@ -134,7 +133,7 @@ Certain messages with a value less than <b>WM_USER</b> are required to pass thro
 
 Processes at or below <b>SECURITY_MANDATORY_LOW_RID</b> are not allowed to change the filter. If those processes call this function, it will fail.
 
-For more information on integrity levels, see <a href="http://go.microsoft.com/fwlink/p/?linkid=204861">Understanding and Working in Protected Mode Internet Explorer</a>.
+For more information on integrity levels, see <a href="https://msdn.microsoft.com/library/Bb250462.aspx">Understanding and Working in Protected Mode Internet Explorer</a>.
 
 
 

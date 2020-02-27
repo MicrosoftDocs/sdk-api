@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: f9da2371-441e-45c7-9723-39d01b6ece27
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],resetAttributes method, IEnroll4.resetAttributes, IEnroll4::resetAttributes, resetAttributes, resetAttributes method [Security], resetAttributes method [Security],IEnroll4 interface, security.ienroll4_resetattributes, xenroll/IEnroll4::resetAttributes
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll4.resetAttributes
 dev_langs:

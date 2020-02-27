@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 38e6d6d9-0f31-45e9-8a19-1aae02dfafd3
 ms.date: 12/05/2018
 ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMSignatureBlockResourceCollection.GetByPartName, IXpsOMSignatureBlockResourceCollection::GetByPartName, xps.ixpsomsignatureblockresourcecollection_getbypartname, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::GetByPartName
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMSignatureBlockResourceCollection.GetByPartName
 dev_langs:
@@ -90,7 +89,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

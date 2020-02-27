@@ -7,7 +7,6 @@ tech.root: locationapi
 ms.assetid: 8bf9bc29-4e81-4d80-8de5-317678b34792
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [WinLocation], Disconnect method [WinLocation],ILocationPower interface, ILocationPower interface [WinLocation],Disconnect method, ILocationPower.Disconnect, ILocationPower::Disconnect, WinLocation_COM_Ref.ilocationpower_disconnect, locationapi/ILocationPower::Disconnect, winlocation.ilocationpower_disconnect
-ms.topic: method
 f1_keywords:
 - locationapi/ILocationPower.Disconnect
 dev_langs:

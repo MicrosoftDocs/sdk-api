@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 35a621de-5110-4999-8475-ae84a4dc9ee1
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],TopPGSearch method, IDvdControl.TopPGSearch, IDvdControl::TopPGSearch, IDvdControlTopPGSearch, TopPGSearch, TopPGSearch method [DirectShow], TopPGSearch method [DirectShow],IDvdControl interface, dshow.idvdcontrol_toppgsearch, strmif/IDvdControl::TopPGSearch
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.TopPGSearch
 dev_langs:
@@ -80,7 +79,7 @@ Returns an <b>HRESULT</b> value .
 
 A program is usually equivalent to a chapter, and a PGC is usually equivalent to a title. In the case of One_Sequential_PGC_Titles, each program is required to be a chapter and each title has only one PGC, but in other cases (especially with random/shuffle PGCs and parental blocks) there can be more than one program between chapters and there can be more than one PGC in a title.
 
-This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, or DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, or DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

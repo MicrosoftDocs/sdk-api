@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: de7627b4-8873-4324-b833-ff4cf018a428
 ms.date: 12/05/2018
 ms.keywords: Continue, Continue method [ADSI], Continue method [ADSI],IADsServiceOperations interface, IADsServiceOperations interface [ADSI],Continue method, IADsServiceOperations.Continue, IADsServiceOperations::Continue, _ds_iadsserviceoperations_continue, adsi.iadsserviceoperations__continue, adsi.iadsserviceoperations_continue, iads/IADsServiceOperations::Continue
-ms.topic: method
 f1_keywords:
 - iads/IADsServiceOperations.Continue
 dev_langs:

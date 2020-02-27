@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d5c9e003-b85b-4f9f-b231-e3e4b71d4ce6
 ms.date: 12/05/2018
 ms.keywords: UrlCompare, UrlCompare function [Windows Shell], UrlCompareA, UrlCompareW, _win32_UrlCompare, shell.UrlCompare, shlwapi/UrlCompare, shlwapi/UrlCompareA, shlwapi/UrlCompareW
-ms.topic: function
 f1_keywords:
 - shlwapi/UrlCompare
 dev_langs:

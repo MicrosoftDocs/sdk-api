@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 36f452ce-9171-41da-b003-4c7df17790da
 ms.date: 12/05/2018
 ms.keywords: ITAddressCapabilities, ITAddressCapabilities interface [TAPI 2.2], ITAddressCapabilities interface [TAPI 2.2],described, _tapi3_itaddresscapabilities, tapi3.itaddresscapabilities, tapi3if/ITAddressCapabilities
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITAddressCapabilities
 dev_langs:

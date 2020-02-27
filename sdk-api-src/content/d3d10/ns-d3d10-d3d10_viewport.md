@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_viewport.htm
 ms.date: 12/05/2018
 ms.keywords: D3D10_VIEWPORT, D3D10_VIEWPORT structure [Direct3D 10], d3d10/D3D10_VIEWPORT, direct3d10.d3d10_viewport, fabe1f82-a825-d3c2-8bfb-f2f706d1c57d
-ms.topic: struct
 f1_keywords:
 - d3d10/D3D10_VIEWPORT
 dev_langs:

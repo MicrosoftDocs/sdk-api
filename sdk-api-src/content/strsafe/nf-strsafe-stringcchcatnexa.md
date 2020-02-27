@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcatnex.htm
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchCatNEx, StringCchCatNEx function [Menus and Other Resources], StringCchCatNExA, StringCchCatNExW, _shell_StringCchCatNEx, _shell_stringcchcatnex_cpp, menurc.stringcchcatnex, strsafe/StringCchCatNEx, strsafe/StringCchCatNExA, strsafe/StringCchCatNExW, winui._shell_stringcchcatnex
-ms.topic: function
 f1_keywords:
 - strsafe/StringCchCatNEx
 dev_langs:
@@ -58,7 +57,7 @@ Concatenates the specified number of characters from one  string to another stri
 
 <b>StringCchCatNEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192505">strncat</a></li>
+<li><a href="https://msdn.microsoft.com/library/tbyd7s1y.aspx">strncat</a></li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strncata">StrNCat</a>
 </li>

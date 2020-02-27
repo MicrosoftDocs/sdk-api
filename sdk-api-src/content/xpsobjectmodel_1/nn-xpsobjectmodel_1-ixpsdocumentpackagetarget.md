@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: B8B43CE5-2222-428B-8E78-C7049D027EE1
 ms.date: 12/05/2018
 ms.keywords: IXpsDocumentPackageTarget, IXpsDocumentPackageTarget interface [XPS Documents and Packaging], IXpsDocumentPackageTarget interface [XPS Documents and Packaging],described, xps.ixpsdocumentpackagetarget, xpsobjectmodel_1/IXpsDocumentPackageTarget
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel_1/IXpsDocumentPackageTarget
 dev_langs:

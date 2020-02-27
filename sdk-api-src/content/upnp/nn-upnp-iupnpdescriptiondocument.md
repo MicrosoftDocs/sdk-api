@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 25bd3abd-b270-4609-93bb-a786ccaa95dd
 ms.date: 12/05/2018
 ms.keywords: IUPnPDescriptionDocument, IUPnPDescriptionDocument interface [UPnP APIs], IUPnPDescriptionDocument interface [UPnP APIs],described, _upnp_iupnpdescriptiondocument, upnp.iupnpdescriptiondocument, upnp/IUPnPDescriptionDocument
-ms.topic: interface
 f1_keywords:
 - upnp/IUPnPDescriptionDocument
 dev_langs:

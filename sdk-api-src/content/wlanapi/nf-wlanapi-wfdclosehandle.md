@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: A27C0AE1-1C51-4CAC-8929-63870ADB15A7
 ms.date: 12/05/2018
 ms.keywords: WFDCloseHandle, WFDCloseHandle function [NativeWIFI], nwifi.wfdclosehandle, wlanapi/WFDCloseHandle
-ms.topic: function
 f1_keywords:
 - wlanapi/WFDCloseHandle
 dev_langs:

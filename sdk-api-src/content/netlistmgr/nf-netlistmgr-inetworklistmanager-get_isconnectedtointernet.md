@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: b3f06da5-c0e2-4c56-87af-b180aa87c827
 ms.date: 12/05/2018
 ms.keywords: INetworkListManager interface [Network Awareness],get_IsConnectedToInternet method, INetworkListManager.get_IsConnectedToInternet, INetworkListManager::get_IsConnectedToInternet, get_IsConnectedToInternet, get_IsConnectedToInternet method [Network Awareness], get_IsConnectedToInternet method [Network Awareness],INetworkListManager interface, netlistmgr/INetworkListManager::get_IsConnectedToInternet, nla.inetworklistmanager_get_isconnectedtointernet
-ms.topic: method
 f1_keywords:
 - netlistmgr/INetworkListManager.get_IsConnectedToInternet
 dev_langs:

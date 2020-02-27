@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: bbf3726f-4f54-4914-a0f0-7b08add4c3e8
 ms.date: 12/05/2018
 ms.keywords: GetStrokeTransformType, GetStrokeTransformType method [Direct2D], GetStrokeTransformType method [Direct2D],ID2D1StrokeStyle1 interface, ID2D1StrokeStyle1 interface [Direct2D],GetStrokeTransformType method, ID2D1StrokeStyle1.GetStrokeTransformType, ID2D1StrokeStyle1::GetStrokeTransformType, d2d1_1/ID2D1StrokeStyle1::GetStrokeTransformType, direct2d.id2d1strokestyle1_getstroketransformtype
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1StrokeStyle1.GetStrokeTransformType
 dev_langs:

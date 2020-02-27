@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: c0655ed3-8d14-447a-b74f-054498eb75e9
 ms.date: 12/05/2018
 ms.keywords: IWMSInternalAdminNetSource interface [windows Media Format],SetCredentials method, IWMSInternalAdminNetSource.SetCredentials, IWMSInternalAdminNetSource::SetCredentials, IWMSInternalAdminNetSourceSetCredentials, SetCredentials, SetCredentials method [windows Media Format], SetCredentials method [windows Media Format],IWMSInternalAdminNetSource interface, wmformat.iwmsinternaladminnetsource_setcredentials, wmsinternaladminnetsource/IWMSInternalAdminNetSource::SetCredentials
-ms.topic: method
 f1_keywords:
 - wmsinternaladminnetsource/IWMSInternalAdminNetSource.SetCredentials
 dev_langs:

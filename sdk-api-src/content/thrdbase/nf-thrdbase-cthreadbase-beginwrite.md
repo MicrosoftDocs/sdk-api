@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 51ae6b39-b524-4bf9-ac71-45c812ad1680
 ms.date: 12/05/2018
 ms.keywords: ?BeginWrite@CThreadBase@@QAEHK@Z, BeginWrite, BeginWrite method [Windows Management Instrumentation], BeginWrite method [Windows Management Instrumentation],CThreadBase interface, CThreadBase interface [Windows Management Instrumentation],BeginWrite method, CThreadBase.BeginWrite, CThreadBase::BeginWrite, thrdbase/CThreadBase::BeginWrite, wmi.cthreadbase_beginwrite
-ms.topic: method
 f1_keywords:
 - thrdbase/CThreadBase.BeginWrite
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 45e46b99-c65f-4296-9537-7fb7a4210727
 ms.date: 12/05/2018
 ms.keywords: ITCallStateEvent interface [TAPI 2.2],get_State method, ITCallStateEvent.get_State, ITCallStateEvent::get_State, _tapi3_itcallstateevent_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITCallStateEvent interface, tapi3.itcallstateevent_get_state, tapi3if/ITCallStateEvent::get_State
-ms.topic: method
 f1_keywords:
 - tapi3if/ITCallStateEvent.get_State
 dev_langs:

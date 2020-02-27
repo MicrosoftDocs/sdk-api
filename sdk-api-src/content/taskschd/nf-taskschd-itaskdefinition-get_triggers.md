@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 53093027-a371-49e1-a2c7-f7ca95f97a3d
 ms.date: 12/05/2018
 ms.keywords: ITaskDefinition interface [Task Scheduler],Triggers property, ITaskDefinition.Triggers, ITaskDefinition.get_Triggers, ITaskDefinition::Triggers, ITaskDefinition::get_Triggers, ITaskDefinition::put_Triggers, Triggers property [Task Scheduler], Triggers property [Task Scheduler],ITaskDefinition interface, get_Triggers, taskschd.itaskdefinition_triggers, taskschd/ITaskDefinition::Triggers, taskschd/ITaskDefinition::get_Triggers, taskschd/ITaskDefinition::put_Triggers
-ms.topic: method
 f1_keywords:
 - taskschd/ITaskDefinition.Triggers
 dev_langs:

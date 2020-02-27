@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f2ec412c-aece-4b20-a721-e6c17615e56b
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], IXpsOMVisual interface [XPS Documents and Packaging],described, xps.ixpsomvisual, xpsobjectmodel/IXpsOMVisual
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual
 dev_langs:
@@ -103,7 +102,7 @@ Gets the lookup key for the <a href="https://docs.microsoft.com/windows/desktop/
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-gethyperlinknavigateuri">GetHyperlinkNavigateUri</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to the <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface  to which this visual object links.
+Gets a pointer to the <a href="https://msdn2.microsoft.com/library/ms775038.aspx">IUri</a> interface  to which this visual object links.
             
 
 </td>
@@ -334,7 +333,7 @@ Sets the lookup key name of a shared matrix transform in a resource dictionary.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: e8555282-6c09-4f23-830e-358bc73287ee
 ms.date: 12/05/2018
 ms.keywords: ICertEncodeLongArray, ICertEncodeLongArray interface [Security], ICertEncodeLongArray interface [Security],described, _certsrv_icertencodelongarray, certenc/ICertEncodeLongArray, security.icertencodelongarray
-ms.topic: interface
 f1_keywords:
 - certenc/ICertEncodeLongArray
 dev_langs:

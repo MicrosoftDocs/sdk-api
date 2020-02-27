@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 904d2d35-f419-4e8f-a689-f39ed926644c
 ms.date: 12/05/2018
 ms.keywords: GetLogicalProcessorInformation, GetLogicalProcessorInformation function, base.getlogicalprocessorinformation, sysinfoapi/GetLogicalProcessorInformation
-ms.topic: function
 f1_keywords:
 - sysinfoapi/GetLogicalProcessorInformation
 dev_langs:

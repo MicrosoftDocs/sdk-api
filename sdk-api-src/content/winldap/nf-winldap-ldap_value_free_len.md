@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: bae95e09-bb3b-4fb3-887f-3cff0a0e6c22
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_value_free_len, ldap.ldap__value__free__len, ldap.ldap_value_free_len, ldap_value_free_len, ldap_value_free_len function [LDAP], winldap/ldap_value_free_len
-ms.topic: function
 f1_keywords:
 - winldap/ldap_value_free_len
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>ldap_value_free_len</b> frees 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structures that were returned by 
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures that were returned by 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values_len">ldap_get_values_len</a>.
 
 
@@ -81,7 +80,7 @@ If the function fails, it returns an error code. See
 
 
 
-Call <b>ldap_value_free_len</b> to free <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structures returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values_len">ldap_get_values_len</a>.
+Call <b>ldap_value_free_len</b> to free <a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values_len">ldap_get_values_len</a>.
 
 
 
@@ -99,7 +98,7 @@ Call <b>ldap_value_free_len</b> to free <a href="https://docs.microsoft.com/prev
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
 
 
 

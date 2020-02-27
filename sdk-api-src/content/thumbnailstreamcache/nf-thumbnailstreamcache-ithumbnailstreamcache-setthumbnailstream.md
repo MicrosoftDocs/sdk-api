@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: F2A105BB-9523-49F1-89B6-57CAF35C1AC4
 ms.date: 12/05/2018
 ms.keywords: IThumbnailStreamCache interface [Windows Shell],SetThumbnailStream method, IThumbnailStreamCache.SetThumbnailStream, IThumbnailStreamCache::SetThumbnailStream, SetThumbnailStream, SetThumbnailStream method [Windows Shell], SetThumbnailStream method [Windows Shell],IThumbnailStreamCache interface, shell.ithumbnailstreamcache_setthumbnailstream, thumbnailstreamcache/IThumbnailStreamCache::SetThumbnailStream
-ms.topic: method
 f1_keywords:
 - thumbnailstreamcache/IThumbnailStreamCache.SetThumbnailStream
 dev_langs:

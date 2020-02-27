@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: e8600166-62dc-4398-9e16-43b07f7f0b89
 ms.date: 12/05/2018
 ms.keywords: RemoveDirectoryTransacted, RemoveDirectoryTransacted function [Files], RemoveDirectoryTransactedA, RemoveDirectoryTransactedW, fs.removedirectorytransacted, winbase/RemoveDirectoryTransacted, winbase/RemoveDirectoryTransactedA, winbase/RemoveDirectoryTransactedW
-ms.topic: function
 f1_keywords:
 - winbase/RemoveDirectoryTransacted
 dev_langs:

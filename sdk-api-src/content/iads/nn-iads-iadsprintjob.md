@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 82d61e39-4dbb-41c9-85d5-6f4e7ab7f66b
 ms.date: 12/05/2018
 ms.keywords: IADsPrintJob, IADsPrintJob interface [ADSI], IADsPrintJob interface [ADSI],described, _ds_iadsprintjob, adsi.iadsprintjob, iads/IADsPrintJob
-ms.topic: interface
 f1_keywords:
 - iads/IADsPrintJob
 dev_langs:

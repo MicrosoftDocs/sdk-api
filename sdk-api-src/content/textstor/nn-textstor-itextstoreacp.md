@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 21e011f7-6791-4eb9-85c9-18bd10107119
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP, ITextStoreACP interface [Text Services Framework], ITextStoreACP interface [Text Services Framework],described, _tsf_itextstoreacp_ref, textstor/ITextStoreACP, tsf.itextstoreacp
-ms.topic: interface
 f1_keywords:
 - textstor/ITextStoreACP
 dev_langs:

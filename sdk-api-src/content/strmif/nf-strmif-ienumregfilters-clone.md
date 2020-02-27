@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ba4366fa-57ba-4057-b3b9-5380e0fca006
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumRegFilters interface, IEnumRegFilters interface [DirectShow],Clone method, IEnumRegFilters.Clone, IEnumRegFilters::Clone, IEnumRegFiltersClone, dshow.ienumregfilters_clone, strmif/IEnumRegFilters::Clone
-ms.topic: method
 f1_keywords:
 - strmif/IEnumRegFilters.Clone
 dev_langs:

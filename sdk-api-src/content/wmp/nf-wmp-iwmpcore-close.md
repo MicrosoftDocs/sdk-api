@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: e6e21995-5dbd-4893-a9f2-6ce918d3fbc4
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],close method, IWMPCore.close, IWMPCore::close, IWMPCoreclose, close, close method [Windows Media Player], close method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_close, wmp/IWMPCore::close
-ms.topic: method
 f1_keywords:
 - wmp/IWMPCore.close
 dev_langs:

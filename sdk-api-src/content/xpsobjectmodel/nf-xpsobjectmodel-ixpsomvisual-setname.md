@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8bf30b4c-bddf-4ca8-91c6-af739125829c
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetName method, IXpsOMVisual.SetName, IXpsOMVisual::SetName, SetName, SetName method [XPS Documents and Packaging], SetName method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setname, xpsobjectmodel/IXpsOMVisual::SetName
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.SetName
 dev_langs:
@@ -95,7 +94,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-According to the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>, the string that is passed in <i>name</i>  is not a valid name.
+According to the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>, the string that is passed in <i>name</i>  is not a valid name.
               
 
 </td>
@@ -127,7 +126,7 @@ Clearing the <b>Name</b> property by passing a <b>NULL</b> pointer in <i>name</i
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

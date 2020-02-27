@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: c5b2ac78-6a23-470c-a762-26ce6358e0b6
 ms.date: 12/05/2018
 ms.keywords: IVdsProviderPrivate interface [VDS],OnLoad method, IVdsProviderPrivate.OnLoad, IVdsProviderPrivate::OnLoad, OnLoad, OnLoad method [VDS], OnLoad method [VDS],IVdsProviderPrivate interface, base.ivdsproviderprivate_onload, vdshwprv/IVdsProviderPrivate::OnLoad
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsProviderPrivate.OnLoad
 dev_langs:
@@ -119,7 +118,7 @@ The provider failed to initialize.
 
 VDS calls this method immediately after calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> method on a provider.
 
-Implementers must implement this method. Invoke the  <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method 
+Implementers must implement this method. Invoke the  <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method 
     to query for the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsadvisesink">IVdsAdviseSink</a> interface.
 
 

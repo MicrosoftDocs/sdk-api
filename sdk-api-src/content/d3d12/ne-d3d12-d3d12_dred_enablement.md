@@ -4,7 +4,6 @@ title: D3D12_DRED_ENABLEMENT
 description: Defines constants that specify render/compute GPU operations.
 ms.date: 02/07/2019
 ms.keywords: D3D12_DRED_ENABLEMENT, D3D12_DRED_ENABLEMENT enumeration, d3d12/D3D12_DRED_ENABLEMENT, d3d12/D3D12_DRED_ENABLEMENT enumeration, direct3d12.d3d12_dred_enablement
-ms.topic: enum
 f1_keywords:
 - d3d12/D3D12_DRED_ENABLEMENT
 dev_langs:

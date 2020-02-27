@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 782f3022-d852-4ad7-8e0f-afbccc25928a
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_ATTR, *PCRYPT_ATTRIBUTES, CMSG_ATTR, CMSG_ATTR structure [Security], CRYPT_ATTRIBUTES, CRYPT_ATTRIBUTES structure [Security], PCRYPT_ATTRIBUTES, PCRYPT_ATTRIBUTES structure pointer [Security], _crypto2_crypt_attributes, security.crypt_attributes, wincrypt/CMSG_ATTR, wincrypt/CRYPT_ATTRIBUTES, wincrypt/PCRYPT_ATTRIBUTES'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_ATTRIBUTES
 dev_langs:

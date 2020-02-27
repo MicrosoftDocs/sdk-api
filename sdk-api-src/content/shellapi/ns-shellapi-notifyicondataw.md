@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: fdcc42c1-b3e5-4b04-8d79-7b6c29699d53
 ms.date: 12/05/2018
 ms.keywords: '*PNOTIFYICONDATAW, 0, NIF_GUID, NIF_ICON, NIF_INFO, NIF_MESSAGE, NIF_REALTIME, NIF_SHOWTIP, NIF_STATE, NIF_TIP, NIIF_ERROR, NIIF_ICON_MASK, NIIF_INFO, NIIF_LARGE_ICON, NIIF_NONE, NIIF_NOSOUND, NIIF_RESPECT_QUIET_TIME, NIIF_USER, NIIF_WARNING, NIS_HIDDEN, NIS_SHAREDICON, NOTIFYICONDATA, NOTIFYICONDATA structure [Windows Shell], NOTIFYICONDATAW, NOTIFYICON_VERSION, NOTIFYICON_VERSION_4, PNOTIFYICONDATA, PNOTIFYICONDATA structure pointer [Windows Shell], _win32_NOTIFYICONDATA, shell.NOTIFYICONDATA, shellapi/NOTIFYICONDATA, shellapi/PNOTIFYICONDATA'
-ms.topic: struct
 f1_keywords:
 - shellapi/NOTIFYICONDATA
 dev_langs:
@@ -506,7 +505,7 @@ Use the current behavior. Use this value for applications designed for Windows 
 
 
 
-See <a href="http://go.microsoft.com/fwlink/p/?linkid=200328">Notifications</a> in the Windows User Experience Interaction Guidelines for more information on notification UI and content best practices.
+See <a href="https://msdn.microsoft.com/library/aa511497.aspx">Notifications</a> in the Windows User Experience Interaction Guidelines for more information on notification UI and content best practices.
 
 If you set the <b>NIF_INFO</b> flag in the <b>uFlags</b> member, the balloon-style notification is used. For more discussion of these notifications, see <a href="https://docs.microsoft.com/windows/desktop/Controls/using-tooltip-contro">Balloon tooltips</a>.
 

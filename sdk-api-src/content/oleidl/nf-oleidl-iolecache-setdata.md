@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: b826411d-6e00-44ba-8603-85db40c4a55f
 ms.date: 12/05/2018
 ms.keywords: IOleCache interface [COM],SetData method, IOleCache.SetData, IOleCache::SetData, SetData, SetData method [COM], SetData method [COM],IOleCache interface, _ole_iolecache_setdata, com.iolecache_setdata, oleidl/IOleCache::SetData
-ms.topic: method
 f1_keywords:
 - oleidl/IOleCache.SetData
 dev_langs:

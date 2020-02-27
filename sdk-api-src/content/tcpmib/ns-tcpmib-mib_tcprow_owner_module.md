@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: 5fc1e95a-4ab1-4a15-aedc-47cfd811c035
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_TCPROW_OWNER_MODULE, MIB_TCPROW_OWNER_MODULE, MIB_TCPROW_OWNER_MODULE structure [MIB], MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCPROW_OWNER_MODULE, PMIB_TCPROW_OWNER_MODULE structure pointer [MIB], iprtrmib/MIB_TCPROW_OWNER_MODULE, iprtrmib/PMIB_TCPROW_OWNER_MODULE, mib.mib_tcprow_owner_module, tcpmib/MIB_TCPROW_OWNER_MODULE, tcpmib/PMIB_TCPROW_OWNER_MODULE'
-ms.topic: struct
 f1_keywords:
 - tcpmib/MIB_TCPROW_OWNER_MODULE
 dev_langs:
@@ -292,7 +291,7 @@ The <b>MIB_TCPROW_OWNER_MODULE</b> structure is returned by a call to <a href="h
   TIME-WAIT, and the fictional state CLOSED.  The CLOSED state is fictional
   because it represents the state when there is no Transmission Control Block, and therefore,
   no connection.  The TCP protocol is described in RFC 793. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84069">http://www.ietf.org/rfc/rfc793.txt</a>. 
+<a href="https://www.ietf.org/rfc/rfc793.txt">http://www.ietf.org/rfc/rfc793.txt</a>. 
 
 The <b>dwLocalPort</b>, and <b>dwRemotePort</b> members are in network byte order. In order to use the <b>dwLocalPort</b> or <b>dwRemotePort</b> members, the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a> functions in Windows Sockets or similar functions may be needed. The <b>dwLocalAddr</b> and <b>dwRemoteAddr</b> members are stored as a <b>DWORD</b> in the same format as the  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a> structure. In order to use the <b>dwLocalAddr</b> or <b>dwRemoteAddr</b> members, the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ntohl">ntohl</a> or <b>inet_ntoa</b> functions in Windows Sockets or similar functions may be needed. On Windows Vistaand later, the <a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringa">RtlIpv4AddressToString</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringexw">RtlIpv4AddressToStringEx</a> functions may be used to convert the IPv4 address in the <b>dwLocalAddr</b> or <b>dwRemoteAddr</b> members to a string without loading the Windows Sockets DLL. 
 

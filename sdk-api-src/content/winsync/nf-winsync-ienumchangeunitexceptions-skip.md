@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 71e325cc-b686-4db5-988f-abf08af48d1c
 ms.date: 12/05/2018
 ms.keywords: IEnumChangeUnitExceptions interface [Windows Sync],Skip method, IEnumChangeUnitExceptions.Skip, IEnumChangeUnitExceptions::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumChangeUnitExceptions interface, winsync.ienumchangeunitexceptions_skip, winsync/IEnumChangeUnitExceptions::Skip
-ms.topic: method
 f1_keywords:
 - winsync/IEnumChangeUnitExceptions.Skip
 dev_langs:

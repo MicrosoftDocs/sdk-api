@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: f4241941-c39f-441e-aad4-b84f2f8ed828
 ms.date: 12/05/2018
 ms.keywords: WPUPostMessage, WPUPostMessage function [Winsock], _win32_wpupostmessage_2, winsock.wpupostmessage_2, ws2spi/WPUPostMessage
-ms.topic: function
 f1_keywords:
 - ws2spi/WPUPostMessage
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-**WPUPostMessage** function performs the standard Windows <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a> function in a way that maintains backward compatibility with older versions of WSOCK32.dll.
+**WPUPostMessage** function performs the standard Windows <a href="/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a> function in a way that maintains backward compatibility with older versions of WSOCK32.dll.
 
 
 ## -parameters

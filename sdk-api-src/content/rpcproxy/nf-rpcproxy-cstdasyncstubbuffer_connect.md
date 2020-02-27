@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: A181B325-7947-4E44-AA00-DE14DB569DB0
 ms.date: 12/05/2018
 ms.keywords: CStdAsyncStubBuffer_Connect, CStdAsyncStubBuffer_Connect function [RPC], rpc.cstdasyncstubbuffer_connect, rpcproxy/CStdAsyncStubBuffer_Connect
-ms.topic: function
 f1_keywords:
 - rpcproxy/CStdAsyncStubBuffer_Connect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 6DF4364F-A20D-466E-8F26-17C6DD32E84B
 ms.date: 12/05/2018
 ms.keywords: ID3D11Query1, ID3D11Query1 interface [Direct3D 11], ID3D11Query1 interface [Direct3D 11],described, d3d11_3/ID3D11Query1, direct3d11.id3d11query1
-ms.topic: interface
 f1_keywords:
 - d3d11_3/ID3D11Query1
 dev_langs:

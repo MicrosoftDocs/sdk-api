@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7e8482ed-3cdc-49a3-ad65-237f163e440d
 ms.date: 12/05/2018
 ms.keywords: GetEventCount, GetEventCount method [Windows Shell], GetEventCount method [Windows Shell],ISyncMgrEventStore interface, ISyncMgrEventStore interface [Windows Shell],GetEventCount method, ISyncMgrEventStore.GetEventCount, ISyncMgrEventStore::GetEventCount, _shell_ISyncMgrEventStore_GetEventCount, shell.ISyncMgrEventStore_GetEventCount, syncmgr/ISyncMgrEventStore::GetEventCount
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrEventStore.GetEventCount
 dev_langs:

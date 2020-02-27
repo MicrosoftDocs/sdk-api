@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: c1ee9793-490c-45de-a2a5-deab630917f6
 ms.date: 12/05/2018
 ms.keywords: NtNotifyChangeMultipleKeys, NtNotifyChangeMultipleKeys function [Windows API], REG_NOTIFY_CHANGE_ATTRIBUTES, REG_NOTIFY_CHANGE_LAST_SET, REG_NOTIFY_CHANGE_NAME, REG_NOTIFY_CHANGE_SECURITY, base.ntnotifychangemultiplekeys, winprog.ntnotifychangemultiplekeys, winternl/NtNotifyChangeMultipleKeys
-ms.topic: function
 f1_keywords:
 - winternl/NtNotifyChangeMultipleKeys
 dev_langs:

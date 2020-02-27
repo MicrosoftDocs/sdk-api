@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 3f0572eb-8633-4dc3-a013-9cf859241cd7
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ICreateWithTipTransactionEx interface, ICreateWithTipTransactionEx interface [COM+],CreateInstance method, ICreateWithTipTransactionEx.CreateInstance, ICreateWithTipTransactionEx::CreateInstance, _dtc_ICreateWithTipTransactionEx_CreateInstance, comsvcs/ICreateWithTipTransactionEx::CreateInstance, cos.icreatewithtiptransactionex_createinstance
-ms.topic: method
 f1_keywords:
 - comsvcs/ICreateWithTipTransactionEx.CreateInstance
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The TIP service feature are deprecated and might not be available in future versions of the operating system. Consider using the WS-AtomicTransaction (WS-AT) protocol as a replacement transaction coordination and propagation technology. For more information about WS-AT support in the .Net Framework, see <a href="http://go.microsoft.com/fwlink/p/?linkid=105715">Transactions</a>.]
+<p class="CCE_Message">[The TIP service feature are deprecated and might not be available in future versions of the operating system. Consider using the WS-AtomicTransaction (WS-AT) protocol as a replacement transaction coordination and propagation technology. For more information about WS-AT support in the .Net Framework, see <a href="https://msdn2.microsoft.com/library/ms730266.aspx">Transactions</a>.]
 
 Creates a COM+ object that executes within the scope of the manual transaction specified by a TIP transaction URL.
 

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: a4a0a9c7-15d5-493e-8ed3-9644f59796fd
 ms.date: 12/05/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetViewbox method, IXpsOMTileBrush.SetViewbox, IXpsOMTileBrush::SetViewbox, SetViewbox, SetViewbox method [XPS Documents and Packaging], SetViewbox method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_setviewbox, xpsobjectmodel/IXpsOMTileBrush::SetViewbox
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMTileBrush.SetViewbox
 dev_langs:
@@ -146,7 +145,7 @@ The preceding parameter values correspond to the  source image as:<dl>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

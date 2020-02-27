@@ -7,7 +7,6 @@ tech.root: swdevice
 ms.assetid: 64CAAA98-9358-4F53-A0AA-EE5984DE9638
 ms.date: 12/05/2018
 ms.keywords: SWDeviceLifetimeHandle, SWDeviceLifetimeParentPresent, SwDeviceSetLifetime, SwDeviceSetLifetime function, swdevice.swdevicesetlifetime, swdevice/SwDeviceSetLifetime
-ms.topic: function
 f1_keywords:
 - swdevice/SwDeviceSetLifetime
 dev_langs:

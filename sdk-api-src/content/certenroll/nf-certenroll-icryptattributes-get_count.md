@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 64df062e-49f6-4ad2-86cd-8c68da52654c
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],ICryptAttributes interface, ICryptAttributes interface [Security],Count property, ICryptAttributes.Count, ICryptAttributes.get_Count, ICryptAttributes::Count, ICryptAttributes::get_Count, certenroll/ICryptAttributes::Count, certenroll/ICryptAttributes::get_Count, get_Count, security.icryptattributes_count_property
-ms.topic: method
 f1_keywords:
 - certenroll/ICryptAttributes.Count
 dev_langs:

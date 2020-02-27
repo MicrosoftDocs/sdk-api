@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 082B26B2-3B17-45E3-8D4B-0E27777EDFF6
 ms.date: 12/5/2018
 ms.keywords: RoClearError, RoClearError function [Windows Runtime], roerrorapi/RoClearError, winrt.roclearerror
-ms.topic: function
 f1_keywords:
 - roerrorapi/RoClearError
 dev_langs:

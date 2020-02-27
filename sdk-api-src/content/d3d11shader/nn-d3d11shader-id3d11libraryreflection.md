@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 59792EC6-B739-4D86-84F6-DC03AD3016F1
 ms.date: 12/05/2018
 ms.keywords: ID3D11LibraryReflection, ID3D11LibraryReflection interface [Direct3D 11], ID3D11LibraryReflection interface [Direct3D 11],described, d3d11shader/ID3D11LibraryReflection, direct3d11.id3d11libraryreflection
-ms.topic: interface
 f1_keywords:
 - d3d11shader/ID3D11LibraryReflection
 dev_langs:

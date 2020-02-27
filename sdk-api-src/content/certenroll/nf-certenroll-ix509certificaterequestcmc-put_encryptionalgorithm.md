@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: c46b3373-6d9e-46d9-a36a-b73a718ddaf7
 ms.date: 12/05/2018
 ms.keywords: EncryptionAlgorithm property [Security], EncryptionAlgorithm property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],EncryptionAlgorithm property, IX509CertificateRequestCmc.EncryptionAlgorithm, IX509CertificateRequestCmc.put_EncryptionAlgorithm, IX509CertificateRequestCmc::EncryptionAlgorithm, IX509CertificateRequestCmc::get_EncryptionAlgorithm, IX509CertificateRequestCmc::put_EncryptionAlgorithm, certenroll/IX509CertificateRequestCmc::EncryptionAlgorithm, certenroll/IX509CertificateRequestCmc::get_EncryptionAlgorithm, certenroll/IX509CertificateRequestCmc::put_EncryptionAlgorithm, put_EncryptionAlgorithm, security.ix509certificaterequestcmc_encryptionalgorithm_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509CertificateRequestCmc.EncryptionAlgorithm
 dev_langs:

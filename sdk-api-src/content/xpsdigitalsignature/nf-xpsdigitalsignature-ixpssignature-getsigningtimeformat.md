@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: a75df35c-dd12-4217-a6f8-91401be46225
 ms.date: 12/05/2018
 ms.keywords: GetSigningTimeFormat, GetSigningTimeFormat method [XPS Documents and Packaging], GetSigningTimeFormat method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSigningTimeFormat method, IXpsSignature.GetSigningTimeFormat, IXpsSignature::GetSigningTimeFormat, xps.ixpssignature_getsigningtimeformat, xpsdigitalsignature/IXpsSignature::GetSigningTimeFormat
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignature.GetSigningTimeFormat
 dev_langs:
@@ -132,7 +131,7 @@ For more information about the  format of the date-time string that is returned 
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

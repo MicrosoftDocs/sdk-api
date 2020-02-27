@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 46496c24-cbe0-4234-8683-f39fa58e076b
 ms.date: 12/05/2018
 ms.keywords: IAVIEditStream interface [Windows Multimedia],SetInfo method, IAVIEditStream.SetInfo, IAVIEditStream::SetInfo, SetInfo, SetInfo method [Windows Multimedia], SetInfo method [Windows Multimedia],IAVIEditStream interface, _win32_IAVIEditStream_SetInfo, multimedia.iavieditstream_setinfo, vfw/IAVIEditStream::SetInfo
-ms.topic: method
 f1_keywords:
 - vfw/IAVIEditStream.SetInfo
 dev_langs:

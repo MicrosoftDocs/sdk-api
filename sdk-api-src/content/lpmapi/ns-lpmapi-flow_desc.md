@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 11ecd7ac-13c4-4f55-9700-105153b4fead
 ms.date: 12/05/2018
 ms.keywords: FLOW_DESC, FLOW_DESC structure [QOS], lpmapi/FLOW_DESC, qos.flow_desc
-ms.topic: struct
 f1_keywords:
 - lpmapi/FLOW_DESC
 dev_langs:

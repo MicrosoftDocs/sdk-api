@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: da5d0915-dc41-4b63-a500-a0bec3f19a65
 ms.date: 12/05/2018
 ms.keywords: SendSAS, SendSAS function [Security], sas/SendSAS, security.sendsas
-ms.topic: function
 f1_keywords:
 - sas/SendSAS
 dev_langs:

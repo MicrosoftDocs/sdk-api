@@ -7,7 +7,6 @@ tech.root: WindowsMAPI
 ms.assetid: 5f6de637-14a8-46bb-a53e-f355d7592222
 ms.date: 12/05/2018
 ms.keywords: '*lpMapiFileTagExt, MapiFileTagExt, MapiFileTagExt structure, lpMapiFileTagExt, lpMapiFileTagExt structure pointer, mapi.mapifiletagext, mapi/MapiFileTagExt, mapi/lpMapiFileTagExt'
-ms.topic: struct
 f1_keywords:
 - mapi/MapiFileTagExt
 dev_langs:

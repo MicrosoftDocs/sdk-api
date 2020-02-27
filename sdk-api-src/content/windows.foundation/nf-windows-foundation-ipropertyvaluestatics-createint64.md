@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 70533BB7-E844-459C-ACA3-D76142B379F4
 ms.date: 12/05/2018
 ms.keywords: CreateInt64, CreateInt64 method [Windows Runtime], CreateInt64 method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateInt64 method, IPropertyValueStatics.CreateInt64, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateInt64, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateInt64, winrt.ipropertyvaluefactory_createint64, winrt.ipropertyvaluestatics_createint64
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValueStatics.CreateInt64
 dev_langs:
@@ -69,7 +68,7 @@ The signed 64-bit integer value to store.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
 
-A pointer to a new object that contains <i>value</i>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
+A pointer to a new object that contains <i>value</i>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
 
 
 ## -returns

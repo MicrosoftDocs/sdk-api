@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 05E010BA-E35D-45D7-8B2C-0099CE086FE3
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation2 interface [Windows Accessibility],TransactionTimeout property, IUIAutomation2.TransactionTimeout, IUIAutomation2.get_TransactionTimeout, IUIAutomation2::TransactionTimeout, IUIAutomation2::get_TransactionTimeout, IUIAutomation2::put_TransactionTimeout, TransactionTimeout property [Windows Accessibility], TransactionTimeout property [Windows Accessibility],IUIAutomation2 interface, get_TransactionTimeout, uiautomationclient/IUIAutomation2::TransactionTimeout, uiautomationclient/IUIAutomation2::get_TransactionTimeout, uiautomationclient/IUIAutomation2::put_TransactionTimeout, winauto.uiauto_iuiautomation2_transactiontimeout
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation2.TransactionTimeout
 dev_langs:

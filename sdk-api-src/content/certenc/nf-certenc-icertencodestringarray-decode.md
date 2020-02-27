@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 35799b54-2c04-4bb4-a227-d2902b2379ec
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeStringArray object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeStringArray object, Decode method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],Decode method, ICertEncodeStringArray.Decode, ICertEncodeStringArray::Decode, _certsrv_icertencodestringarray_decode, certenc/ICertEncodeStringArray::Decode, security.icertencodestringarray_decode
-ms.topic: method
 f1_keywords:
 - certenc/ICertEncodeStringArray.Decode
 dev_langs:

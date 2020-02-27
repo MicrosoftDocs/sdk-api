@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 3e206195-1a8c-435e-9b8f-6517b8e3c4ca
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyCallback interface [BITS],JobError method, IBackgroundCopyCallback.JobError, IBackgroundCopyCallback::JobError, JobError, JobError method [BITS], JobError method [BITS],IBackgroundCopyCallback interface, _drz_ibackgroundcopycallback_joberror, bits.ibackgroundcopycallback_joberror, bits/IBackgroundCopyCallback::JobError
-ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyCallback.JobError
 dev_langs:

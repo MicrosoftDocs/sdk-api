@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: e8b408ba-4bb5-4166-bf43-d18e4fe8de32
 ms.date: 12/05/2018
 ms.keywords: EventSetInformation, EventSetInformation function [ETW], etw.eventsetinformation, evntprov/EventSetInformation
-ms.topic: function
 f1_keywords:
 - evntprov/EventSetInformation
 dev_langs:

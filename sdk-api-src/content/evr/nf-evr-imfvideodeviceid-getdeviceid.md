@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e23ebce0-be58-413a-ab71-d94811c96029
 ms.date: 12/05/2018
 ms.keywords: GetDeviceID, GetDeviceID method [Media Foundation], GetDeviceID method [Media Foundation],IMFVideoDeviceID interface, IMFVideoDeviceID interface [Media Foundation],GetDeviceID method, IMFVideoDeviceID.GetDeviceID, IMFVideoDeviceID::GetDeviceID, e23ebce0-be58-413a-ab71-d94811c96029, evr/IMFVideoDeviceID::GetDeviceID, mf.imfvideodeviceid_getdeviceid
-ms.topic: method
 f1_keywords:
 - evr/IMFVideoDeviceID.GetDeviceID
 dev_langs:

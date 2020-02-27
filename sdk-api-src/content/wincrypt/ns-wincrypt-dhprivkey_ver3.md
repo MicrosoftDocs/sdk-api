@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: ad4bf20d-5c6c-4373-bd88-9a5bbb832ba5
 ms.date: 12/05/2018
 ms.keywords: DHPRIVKEY_VER3, DHPRIVKEY_VER3 structure [Security], DSSPRIVKEY_VER3, _PRIVKEYVER3, _crypto2_dhprivkey_ver3, security.dhprivkey_ver3, wincrypt/DHPRIVKEY_VER3
-ms.topic: struct
 f1_keywords:
 - wincrypt/DHPRIVKEY_VER3
 dev_langs:

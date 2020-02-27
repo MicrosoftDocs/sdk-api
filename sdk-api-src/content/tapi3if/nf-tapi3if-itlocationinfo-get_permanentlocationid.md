@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 5dab6a20-6113-46ef-a5d2-855ac1befc1a
 ms.date: 12/05/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_PermanentLocationID method, ITLocationInfo.get_PermanentLocationID, ITLocationInfo::get_PermanentLocationID, _tapi3_itlocationinfo_get_permanentlocationid, get_PermanentLocationID, get_PermanentLocationID method [TAPI 2.2], get_PermanentLocationID method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_permanentlocationid, tapi3if/ITLocationInfo::get_PermanentLocationID
-ms.topic: method
 f1_keywords:
 - tapi3if/ITLocationInfo.get_PermanentLocationID
 dev_langs:

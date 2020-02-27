@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 934cff3e-d4b8-4b76-96e1-fd7ded1842eb
 ms.date: 12/05/2018
 ms.keywords: GetDisplayName, GetDisplayName method [BITS], GetDisplayName method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetDisplayName method, IBackgroundCopyJob.GetDisplayName, IBackgroundCopyJob::GetDisplayName, _drz_ibackgroundcopyjob_getdisplayname, bits.ibackgroundcopyjob_getdisplayname, bits/IBackgroundCopyJob::GetDisplayName
-ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyJob.GetDisplayName
 dev_langs:

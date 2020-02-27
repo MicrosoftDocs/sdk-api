@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 5913587d-5c0d-4c50-99d9-8bff266b1c5b
 ms.date: 12/05/2018
 ms.keywords: EventDescGetTask, EventDescGetTask function [ETW], base.eventdescgettask_func, etw.eventdescgettask_func, evntprov/EventDescGetTask
-ms.topic: function
 f1_keywords:
 - evntprov/EventDescGetTask
 dev_langs:

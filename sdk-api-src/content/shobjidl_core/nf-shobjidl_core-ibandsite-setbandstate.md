@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d327f0fe-7d61-4edd-aff3-f4507763d751
 ms.date: 12/05/2018
 ms.keywords: IBandSite interface [Windows Shell],SetBandState method, IBandSite.SetBandState, IBandSite::SetBandState, SetBandState, SetBandState method [Windows Shell], SetBandState method [Windows Shell],IBandSite interface, _win32_IBandSite_SetBandState, shell.IBandSite_SetBandState, shobjidl_core/IBandSite::SetBandState
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IBandSite.SetBandState
 dev_langs:

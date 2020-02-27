@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: df212397-7ec9-4a42-bebb-61799b7ca78e
 ms.date: 12/05/2018
 ms.keywords: GetCertificateSet, GetCertificateSet method [Open Packaging Conventions], GetCertificateSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetCertificateSet method, IOpcSigningOptions.GetCertificateSet, IOpcSigningOptions::GetCertificateSet, msopc/IOpcSigningOptions::GetCertificateSet, opc.iopcsigningoptions_getcertificateset
-ms.topic: method
 f1_keywords:
 - msopc/IOpcSigningOptions.GetCertificateSet
 dev_langs:

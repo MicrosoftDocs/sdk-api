@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 5a9a1d79-a313-49bc-a678-ba26ccda8e65
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBEntryDelete, MprAdminMIBEntryDelete function [RAS], _mpr_mpradminmibentrydelete, mprapi/MprAdminMIBEntryDelete, rras.mpradminmibentrydelete
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminMIBEntryDelete
 dev_langs:

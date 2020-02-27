@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: f3603586-41fd-4eed-9942-28925ed29690
 ms.date: 12/05/2018
 ms.keywords: GetInputCurrentType, GetInputCurrentType method [Media Foundation], GetInputCurrentType method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputCurrentType method, IMFTransform.GetInputCurrentType, IMFTransform::GetInputCurrentType, f3603586-41fd-4eed-9942-28925ed29690, mf.imftransform_getinputcurrenttype, mftransform/IMFTransform::GetInputCurrentType
-ms.topic: method
 f1_keywords:
 - mftransform/IMFTransform.GetInputCurrentType
 dev_langs:

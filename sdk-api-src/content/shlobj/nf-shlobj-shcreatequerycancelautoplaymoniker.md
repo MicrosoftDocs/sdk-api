@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 560a2b30-66f4-4b0f-9d46-ae714491c376
 ms.date: 12/05/2018
 ms.keywords: SHCreateQueryCancelAutoPlayMoniker, SHCreateQueryCancelAutoPlayMoniker function [Windows Shell], _shell_SHCreateQueryCancelAutoPlayMoniker, shell.SHCreateQueryCancelAutoPlayMoniker, shlobj/SHCreateQueryCancelAutoPlayMoniker
-ms.topic: function
 f1_keywords:
 - shlobj/SHCreateQueryCancelAutoPlayMoniker
 dev_langs:

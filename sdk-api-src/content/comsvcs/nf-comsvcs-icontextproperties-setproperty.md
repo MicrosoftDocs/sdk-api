@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 4f6a27a2-37e9-4d4b-9d7e-916d791f03a5
 ms.date: 12/05/2018
 ms.keywords: IContextProperties interface [COM+],SetProperty method, IContextProperties.SetProperty, IContextProperties::SetProperty, SetProperty, SetProperty method [COM+], SetProperty method [COM+],IContextProperties interface, _cos_IContextProperties_SetProperty, comsvcs/IContextProperties::SetProperty, cos.icontextproperties_setproperty
-ms.topic: method
 f1_keywords:
 - comsvcs/IContextProperties.SetProperty
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 9da565f2-fbcb-4d71-ae40-7d9821f46630
 ms.date: 12/05/2018
 ms.keywords: IGuideDataEvent, IGuideDataEvent interface [Microsoft TV Technologies], IGuideDataEvent interface [Microsoft TV Technologies],described, IGuideDataEventInterface, bdatif/IGuideDataEvent, mstv.iguidedataevent
-ms.topic: interface
 f1_keywords:
 - bdatif/IGuideDataEvent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: d891b82a-999e-4d59-a676-a90648e17699
 ms.date: 12/05/2018
 ms.keywords: '*PADDRESS_LIST_DESCRIPTOR, ADDRESS_LIST_DESCRIPTOR, ADDRESS_LIST_DESCRIPTOR structure [QOS], PADDRESS_LIST_DESCRIPTOR, PADDRESS_LIST_DESCRIPTOR structure pointer [QOS], _gqos_address_list_descriptor, qos.address_list_descriptor, traffic/ADDRESS_LIST_DESCRIPTOR, traffic/PADDRESS_LIST_DESCRIPTOR'
-ms.topic: struct
 f1_keywords:
 - traffic/ADDRESS_LIST_DESCRIPTOR
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: febcf440-78b3-420b-b13d-030e8071cd50
 ms.date: 12/05/2018
 ms.keywords: MS_KEY_STORAGE_PROVIDER, MS_SMART_CARD_KEY_STORAGE_PROVIDER, MS_PLATFORM_CRYPTO_PROVIDER, NCryptOpenStorageProvider, NCryptOpenStorageProvider function [Security], ncrypt/NCryptOpenStorageProvider, security.ncryptopenstorageprovider_func
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptOpenStorageProvider
 dev_langs:
@@ -186,7 +185,7 @@ A memory allocation failure occurred.
 
 In the case that an error condition is returned, the provider will have been unloaded from memory. Functions within the provider must not be called after a failure error is returned.
 
-A service must not call this function from its <a href="http://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 
 

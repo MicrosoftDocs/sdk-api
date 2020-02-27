@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: ced9ceea-d3fa-4496-886a-837545a28194
 ms.date: 12/05/2018
 ms.keywords: ICCOMPRESSFRAMES, ICCOMPRESSFRAMES structure [Windows Multimedia], _win32_ICCOMPRESSFRAMES_str, multimedia.iccompressframes, vfw/ICCOMPRESSFRAMES
-ms.topic: struct
 f1_keywords:
 - vfw/ICCOMPRESSFRAMES
 dev_langs:
@@ -149,7 +148,7 @@ Reserved; do not use.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=16915">BITMAPINFOHEADER</a>
+<a href="https://msdn.microsoft.com/library/ms532290.aspx">BITMAPINFOHEADER</a>
 
 
 

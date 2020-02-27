@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 8CDCDB96-7E77-4B63-8417-D669ED4850BF
 ms.date: 12/05/2018
 ms.keywords: CreateUInt8, CreateUInt8 method [Windows Runtime], CreateUInt8 method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateUInt8 method, IPropertyValueStatics.CreateUInt8, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateUInt8, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateUInt8, winrt.ipropertyvaluefactory_createuint8, winrt.ipropertyvaluestatics_createuint8
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValueStatics.CreateUInt8
 dev_langs:
@@ -69,7 +68,7 @@ The unsigned 8-bit integer value to store.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
 
-A pointer to a new object that contains <i>value</i>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
+A pointer to a new object that contains <i>value</i>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
 
 
 ## -returns

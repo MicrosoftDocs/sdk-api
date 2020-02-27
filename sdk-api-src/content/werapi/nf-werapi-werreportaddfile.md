@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: 4b2c2060-a193-4168-90fc-afb95c160569
 ms.date: 12/05/2018
 ms.keywords: WER_FILE_ANONYMOUS_DATA, WER_FILE_DELETE_WHEN_DONE, WerFileTypeHeapdump, WerFileTypeMicrodump, WerFileTypeMinidump, WerFileTypeOther, WerFileTypeUserDocument, WerReportAddFile, WerReportAddFile function [Windows Error Reporting], base.werreportaddfile, wer.werreportaddfile, werapi/WerReportAddFile
-ms.topic: function
 f1_keywords:
 - werapi/WerReportAddFile
 dev_langs:

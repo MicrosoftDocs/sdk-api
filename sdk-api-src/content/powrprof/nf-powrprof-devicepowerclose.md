@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: 60f871bc-08b7-41d1-ba37-688ab68fb9b3
 ms.date: 12/05/2018
 ms.keywords: DevicePowerClose, DevicePowerClose function, base.devicepowerclose, powrprof/DevicePowerClose
-ms.topic: function
 f1_keywords:
 - powrprof/DevicePowerClose
 dev_langs:

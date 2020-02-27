@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 1c582374-cbec-4b7c-b46b-9a0dd8b028d6
 ms.date: 12/05/2018
 ms.keywords: IWMDMEnumStorage interface [windows Media Device Manager],Reset method, IWMDMEnumStorage.Reset, IWMDMEnumStorage::Reset, IWMDMEnumStorageReset, Reset, Reset method [windows Media Device Manager], Reset method [windows Media Device Manager],IWMDMEnumStorage interface, mswmdm/IWMDMEnumStorage::Reset, wmdm.iwmdmenumstorage_reset
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMEnumStorage.Reset
 dev_langs:

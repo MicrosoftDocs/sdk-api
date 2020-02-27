@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: c07f394d-b10f-45c1-b8b7-cd466507967b
 ms.date: 12/05/2018
 ms.keywords: GetAccessibilityShortDescription, GetAccessibilityShortDescription method [XPS Documents and Packaging], GetAccessibilityShortDescription method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetAccessibilityShortDescription method, IXpsOMCanvas.GetAccessibilityShortDescription, IXpsOMCanvas::GetAccessibilityShortDescription, xps.ixpsomcanvas_getaccessibilityshortdescription, xpsobjectmodel/IXpsOMCanvas::GetAccessibilityShortDescription
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCanvas.GetAccessibilityShortDescription
 dev_langs:
@@ -122,7 +121,7 @@ This method allocates the memory used by the string that is returned in <i>short
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

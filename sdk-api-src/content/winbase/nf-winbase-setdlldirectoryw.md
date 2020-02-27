@@ -7,7 +7,6 @@ tech.root: Dlls
 ms.assetid: c0c57554-3d98-487c-8bae-c594620d5a00
 ms.date: 12/05/2018
 ms.keywords: SetDllDirectory, SetDllDirectory function, SetDllDirectoryA, SetDllDirectoryW, base.setdlldirectory, winbase/SetDllDirectory, winbase/SetDllDirectoryA, winbase/SetDllDirectoryW
-ms.topic: function
 f1_keywords:
 - winbase/SetDllDirectory
 dev_langs:

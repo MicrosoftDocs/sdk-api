@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 2F3E0529-7E2B-4BCD-AE8F-D0F3259D1A48
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackageWriter3D, IXpsOMPackageWriter3D interface [XPS Documents and Packaging], IXpsOMPackageWriter3D interface [XPS Documents and Packaging],described, xps.ixpsompackagewriter3d, xpsobjectmodel_2/IXpsOMPackageWriter3D
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel_2/IXpsOMPackageWriter3D
 dev_langs:

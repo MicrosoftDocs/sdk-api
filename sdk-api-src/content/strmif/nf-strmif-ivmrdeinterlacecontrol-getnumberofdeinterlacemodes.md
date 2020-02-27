@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0e6abb00-95fb-453d-9427-178058b217b8
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfDeinterlaceModes, GetNumberOfDeinterlaceModes method [DirectShow], GetNumberOfDeinterlaceModes method [DirectShow],IVMRDeinterlaceControl interface, IVMRDeinterlaceControl interface [DirectShow],GetNumberOfDeinterlaceModes method, IVMRDeinterlaceControl.GetNumberOfDeinterlaceModes, IVMRDeinterlaceControl::GetNumberOfDeinterlaceModes, IVMRDeinterlaceControlGetNumberOfDeinterlaceModes, dshow.ivmrdeinterlacecontrol_getnumberofdeinterlacemodes, strmif/IVMRDeinterlaceControl::GetNumberOfDeinterlaceModes
-ms.topic: method
 f1_keywords:
 - strmif/IVMRDeinterlaceControl.GetNumberOfDeinterlaceModes
 dev_langs:
@@ -61,7 +60,7 @@ The <b>GetNumberOfDeinterlaceModes</b> method retrieves the deinterlacing modes 
 
 ### -param lpVideoDescription [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrvideodesc">VMRVideoDesc</a> structure that describes the video.
+Pointer to a [VMRVideoDesc](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrvideodesc) structure that describes the video.
 
 
 ### -param lpdwNumDeinterlaceModes [in, out]

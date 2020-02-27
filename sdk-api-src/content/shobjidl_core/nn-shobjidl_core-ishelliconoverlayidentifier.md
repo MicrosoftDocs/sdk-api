@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c093bc13-def7-411d-b741-50996ffad84b
 ms.date: 12/05/2018
 ms.keywords: IShellIconOverlayIdentifier, IShellIconOverlayIdentifier interface [Windows Shell], IShellIconOverlayIdentifier interface [Windows Shell],described, _win32_IShellIconOverlayIdentifier, shell.IShellIconOverlayIdentifier, shobjidl_core/IShellIconOverlayIdentifier
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IShellIconOverlayIdentifier
 dev_langs:

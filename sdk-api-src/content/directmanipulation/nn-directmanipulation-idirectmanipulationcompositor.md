@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: b96b5e8f-fc11-48ad-83ca-96e23fd3ffc1
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationCompositor, IDirectManipulationCompositor interface [Direct Manipulation], IDirectManipulationCompositor interface [Direct Manipulation],described, directmanipulation.idirectmanipulationcompositor, directmanipulation/IDirectManipulationCompositor
-ms.topic: interface
 f1_keywords:
 - directmanipulation/IDirectManipulationCompositor
 dev_langs:

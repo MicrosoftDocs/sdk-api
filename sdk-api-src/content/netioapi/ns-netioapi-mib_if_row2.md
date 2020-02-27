@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: e8bb79f9-e7e9-470b-8883-36d08061661b
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IF_ROW2, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_FDDI, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_IEEE80216_WMAN, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, IF_TYPE_WWANPP, IF_TYPE_WWANPP2, IfOperStatusDormant, IfOperStatusDown, IfOperStatusLowerLayerDown, IfOperStatusNotPresent, IfOperStatusTesting, IfOperStatusUnknown, IfOperStatusUp, MIB_IF_ROW2, MIB_IF_ROW2 structure [MIB], MediaConnectStateConnected, MediaConnectStateDisconnected, MediaConnectStateUnknown, NET_IF_ACCESS_BROADCAST, NET_IF_ACCESS_LOOPBACK, NET_IF_ACCESS_MAXIMUM, NET_IF_ACCESS_POINT_TO_MULTI_POINT, NET_IF_ACCESS_POINT_TO_POINT, NET_IF_ADMIN_STATUS_DOWN, NET_IF_ADMIN_STATUS_TESTING, NET_IF_ADMIN_STATUS_UP, NET_IF_CONNECTION_DEDICATED, NET_IF_CONNECTION_DEMAND, NET_IF_CONNECTION_MAXIMUM, NET_IF_CONNECTION_PASSIVE, NET_IF_DIRECTION_MAXIMUM, NET_IF_DIRECTION_RECEIVEONLY, NET_IF_DIRECTION_SENDONLY, NET_IF_DIRECTION_SENDRECEIVE, NdisMedium1394, NdisMedium802_3, NdisMedium802_5, NdisMediumArcnet878_2, NdisMediumArcnetRaw, NdisMediumAtm, NdisMediumBpc, NdisMediumCoWan, NdisMediumDix, NdisMediumFddi, NdisMediumInfiniBand, NdisMediumIrda, NdisMediumLocalTalk, NdisMediumLoopback, NdisMediumNative802_11, NdisMediumTunnel, NdisMediumWan, NdisMediumWiMax, NdisMediumWirelessWan, NdisPhysicalMedium1394, NdisPhysicalMedium802_3, NdisPhysicalMedium802_5, NdisPhysicalMediumBluetooth, NdisPhysicalMediumCableModem, NdisPhysicalMediumDSL, NdisPhysicalMediumFibreChannel, NdisPhysicalMediumInfiniband, NdisPhysicalMediumIrda, NdisPhysicalMediumNative802_11, NdisPhysicalMediumOther, NdisPhysicalMediumPhoneLine, NdisPhysicalMediumPowerLine, NdisPhysicalMediumUWB, NdisPhysicalMediumUnspecified, NdisPhysicalMediumWiMax, NdisPhysicalMediumWiredCoWan, NdisPhysicalMediumWiredWAN, NdisPhysicalMediumWirelessLan, NdisPhysicalMediumWirelessWan, PMIB_IF_ROW2, PMIB_IF_ROW2 structure pointer [MIB], TUNNEL_TYPE_6TO4, TUNNEL_TYPE_DIRECT, TUNNEL_TYPE_ISATAP, TUNNEL_TYPE_NONE, TUNNEL_TYPE_OTHER, TUNNEL_TYPE_TEREDO, _MIB_IF_ROW2, mib.mib_if_row2, netioapi/MIB_IF_ROW2, netioapi/PMIB_IF_ROW2'
-ms.topic: struct
 f1_keywords:
 - netioapi/MIB_IF_ROW2
 dev_langs:
@@ -126,7 +125,7 @@ The maximum transmission unit (MTU) size, in bytes, for this network interface.
 
 Type: <b>IFTYPE</b>
 
-The interface type as defined by the Internet Assigned Names Authority (IANA). For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84022">http://www.iana.org/assignments/ianaiftype-mib</a>. Possible values for the interface type are listed in the <i>Ipifcons.h</i> header file.
+The interface type as defined by the Internet Assigned Names Authority (IANA). For more information, see <a href="https://www.iana.org/assignments/ianaiftype-mib">http://www.iana.org/assignments/ianaiftype-mib</a>. Possible values for the interface type are listed in the <i>Ipifcons.h</i> header file.
 
 The table below lists common values for the interface type although many other values are possible. 
 
@@ -292,7 +291,7 @@ A mobile broadband interface for CDMA-based devices.
 
 Type: <b>TUNNEL_TYPE</b>
 
-The encapsulation method used by a tunnel if the <b>Type</b> member is <b>IF_TYPE_TUNNEL</b>. The tunnel type is defined by the Internet Assigned Names Authority (IANA). For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84022">http://www.iana.org/assignments/ianaiftype-mib</a>. This member can be one of the values from the <b>TUNNEL_TYPE</b> enumeration type defined in the <i>Ifdef.h</i> header file.
+The encapsulation method used by a tunnel if the <b>Type</b> member is <b>IF_TYPE_TUNNEL</b>. The tunnel type is defined by the Internet Assigned Names Authority (IANA). For more information, see <a href="https://www.iana.org/assignments/ianaiftype-mib">http://www.iana.org/assignments/ianaiftype-mib</a>. This member can be one of the values from the <b>TUNNEL_TYPE</b> enumeration type defined in the <i>Ifdef.h</i> header file.
 
 <table>
 <tr>
@@ -1048,7 +1047,7 @@ Set if the network interface is an endpoint device and not a true network interf
 
 Type: <b>IF_OPER_STATUS</b>
 
-The operational status for the interface as defined in RFC 2863 as  IfOperStatus.  For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84054">http://www.ietf.org/rfc/rfc2863.txt</a>. This member can be one of the values from the <b>IF_OPER_STATUS</b> enumeration type defined in the <i>Ifdef.h</i> header file.
+The operational status for the interface as defined in RFC 2863 as  IfOperStatus.  For more information, see <a href="https://www.ietf.org/rfc/rfc2863.txt">http://www.ietf.org/rfc/rfc2863.txt</a>. This member can be one of the values from the <b>IF_OPER_STATUS</b> enumeration type defined in the <i>Ifdef.h</i> header file.
 
 <table>
 <tr>
@@ -1159,7 +1158,7 @@ A refinement on the <b>IfOperStatusDown</b> state.
 
 Type: <b>NET_IF_ADMIN_STATUS</b>
 
-The administrative status for the interface as defined in RFC 2863. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84054">http://www.ietf.org/rfc/rfc2863.txt</a>. This member can be one of the values from the <b>NET_IF_ADMIN_STATUS</b> enumeration type defined in the <i>Ifdef.h</i> header file.
+The administrative status for the interface as defined in RFC 2863. For more information, see <a href="https://www.ietf.org/rfc/rfc2863.txt">http://www.ietf.org/rfc/rfc2863.txt</a>. This member can be one of the values from the <b>NET_IF_ADMIN_STATUS</b> enumeration type defined in the <i>Ifdef.h</i> header file.
 
 <table>
 <tr>

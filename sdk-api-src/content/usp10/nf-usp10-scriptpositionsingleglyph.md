@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 8dc776a9-fdde-4982-a2ca-e4384615bc47
 ms.date: 12/05/2018
 ms.keywords: ScriptPositionSingleGlyph, ScriptPositionSingleGlyph function [Internationalization for Windows Applications], _win32_ScriptPositionSingleGlyph, intl.scriptpositionsingleglyph, usp10/ScriptPositionSingleGlyph
-ms.topic: function
 f1_keywords:
 - usp10/ScriptPositionSingleGlyph
 dev_langs:

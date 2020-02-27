@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 1de86caa-c14c-4dc0-bf56-5fa33279e30a
 ms.date: 12/05/2018
 ms.keywords: GetPropertyItem, GetPropertyItem method [ADSI], GetPropertyItem method [ADSI],IADsPropertyList interface, IADsPropertyList interface [ADSI],GetPropertyItem method, IADsPropertyList.GetPropertyItem, IADsPropertyList::GetPropertyItem, _ds_iadspropertylist_getpropertyitem, adsi.iadspropertylist__getpropertyitem, adsi.iadspropertylist_getpropertyitem, iads/IADsPropertyList::GetPropertyItem
-ms.topic: method
 f1_keywords:
 - iads/IADsPropertyList.GetPropertyItem
 dev_langs:

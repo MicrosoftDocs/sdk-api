@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 892a7a9d-f058-4c4d-870d-c0eb5773949f
 ms.date: 12/05/2018
 ms.keywords: IWbemEventProviderSecurity, IWbemEventProviderSecurity interface [Windows Management Instrumentation], IWbemEventProviderSecurity interface [Windows Management Instrumentation],described, _hmm_iwbemeventprovidersecurity, wbemprov/IWbemEventProviderSecurity, wmi.iwbemeventprovidersecurity
-ms.topic: interface
 f1_keywords:
 - wbemprov/IWbemEventProviderSecurity
 dev_langs:

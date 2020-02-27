@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regiongetregionscansmethods\getregionscans.htm
 ms.date: 12/05/2018
 ms.keywords: GetRegionScans, GetRegionScans method [GDI+], GetRegionScans method [GDI+],Region class, Region class [GDI+],GetRegionScans method, Region.GetRegionScans, Region.GetRegionScans(IN const Matrix,OUT Rect,OUT INT), Region.GetRegionScans(const Matrix*,Rect*,INT*), Region::GetRegionScans, Region::GetRegionScans(IN const Matrix,OUT Rect,OUT INT), _gdiplus_CLASS_Region_GetRegionScans_Matrix_matrix_Rect_rects_INT_count_, gdiplus._gdiplus_CLASS_Region_GetRegionScans_Matrix_matrix_Rect_rects_INT_count_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Region.GetRegionScans
 dev_langs:

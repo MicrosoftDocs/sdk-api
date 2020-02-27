@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e39077ce-737f-4dd9-ab7d-4dc087828fdf
 ms.date: 12/05/2018
 ms.keywords: GetRenderingMode, GetRenderingMode method [DirectShow], GetRenderingMode method [DirectShow],IVMRFilterConfig9 interface, IVMRFilterConfig9 interface [DirectShow],GetRenderingMode method, IVMRFilterConfig9.GetRenderingMode, IVMRFilterConfig9::GetRenderingMode, IVMRFilterConfig9GetRenderingMode, dshow.ivmrfilterconfig9_getrenderingmode, vmr9/IVMRFilterConfig9::GetRenderingMode
-ms.topic: method
 f1_keywords:
 - vmr9/IVMRFilterConfig9.GetRenderingMode
 dev_langs:

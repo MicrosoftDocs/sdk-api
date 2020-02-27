@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 8d747aa5-05cc-4426-9d46-24bce6b4af26
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetaddressstatus, lineGetAddressStatus, lineGetAddressStatus function [TAPI 2.2], lineGetAddressStatusA, lineGetAddressStatusW, tapi/lineGetAddressStatus, tapi/lineGetAddressStatusA, tapi/lineGetAddressStatusW, tapi2.linegetaddressstatus
-ms.topic: function
 f1_keywords:
 - tapi/lineGetAddressStatus
 dev_langs:

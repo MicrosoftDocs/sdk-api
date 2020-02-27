@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: B8D17570-9729-45DB-99E1-A2EBBDAA5996
 ms.date: 12/05/2018
 ms.keywords: IDCompositionDeviceDebug, IDCompositionDeviceDebug interface [DirectComposition], IDCompositionDeviceDebug interface [DirectComposition],described, dcomp/IDCompositionDeviceDebug, directcomp.idcompositiondevicedebug
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionDeviceDebug
 dev_langs:

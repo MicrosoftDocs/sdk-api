@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 334d192e-7f63-47b4-88d4-9361e679cb15
 ms.date: 12/05/2018
 ms.keywords: VariantToDoubleArrayAlloc, VariantToDoubleArrayAlloc function [Windows Properties], _shell_VariantToDoubleArrayAlloc, properties.VariantToDoubleArrayAlloc, propvarutil/VariantToDoubleArrayAlloc, shell.VariantToDoubleArrayAlloc
-ms.topic: function
 f1_keywords:
 - propvarutil/VariantToDoubleArrayAlloc
 dev_langs:

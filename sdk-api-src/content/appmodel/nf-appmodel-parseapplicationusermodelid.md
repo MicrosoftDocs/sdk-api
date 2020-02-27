@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 03B29E82-611F-47D1-8CB6-047B9BEB4D9E
 ms.date: 12/05/2018
 ms.keywords: ParseApplicationUserModelId, ParseApplicationUserModelId function [App packaging and management], appmodel/ParseApplicationUserModelId, appxpkg.parseapplicationusermodelid
-ms.topic: function
 f1_keywords:
 - appmodel/ParseApplicationUserModelId
 dev_langs:

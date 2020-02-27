@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: a6bd9278-b9ac-4eb3-957a-5191cee12a6f
 ms.date: 12/05/2018
 ms.keywords: IIdleSettings, IIdleSettings interface [Task Scheduler], IIdleSettings interface [Task Scheduler],described, taskschd.iidlesettings, taskschd/IIdleSettings
-ms.topic: interface
 f1_keywords:
 - taskschd/IIdleSettings
 dev_langs:

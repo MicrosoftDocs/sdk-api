@@ -7,7 +7,6 @@ tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dstripshader.htm
 ms.date: 12/05/2018
 ms.keywords: 3320d273-7542-f3d8-0828-2c357608a8c8, D3DStripShader, D3DStripShader function [HLSL], d3dcompiler/D3DStripShader, direct3dhlsl.d3dstripshader
-ms.topic: function
 f1_keywords:
 - d3dcompiler/D3DStripShader
 dev_langs:

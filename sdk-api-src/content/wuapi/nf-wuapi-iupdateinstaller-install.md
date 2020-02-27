@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 009fc238-fcc4-4131-b770-9f0d0946e741
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],Install method, IUpdateInstaller.Install, IUpdateInstaller::Install, Install, Install method [Windows Update Agent], Install method [Windows Update Agent],IUpdateInstaller interface, wua.iupdateinstaller_install, wuapi/IUpdateInstaller::Install
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateInstaller.Install
 dev_langs:

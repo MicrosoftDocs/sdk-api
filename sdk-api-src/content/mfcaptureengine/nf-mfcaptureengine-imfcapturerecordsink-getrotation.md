@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: E582ED9C-D7B8-4DF9-B72F-361E682DB93F
 ms.date: 12/05/2018
 ms.keywords: GetRotation, GetRotation method [Media Foundation], GetRotation method [Media Foundation],IMFCaptureRecordSink interface, IMFCaptureRecordSink interface [Media Foundation],GetRotation method, IMFCaptureRecordSink.GetRotation, IMFCaptureRecordSink::GetRotation, mf.imfcapturerecordsink_getrotation, mfcaptureengine/IMFCaptureRecordSink::GetRotation
-ms.topic: method
 f1_keywords:
 - mfcaptureengine/IMFCaptureRecordSink.GetRotation
 dev_langs:

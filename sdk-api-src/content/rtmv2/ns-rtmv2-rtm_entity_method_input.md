@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 1f900e85-c522-47c9-bfc8-5a1c1d01ab78
 ms.date: 12/05/2018
 ms.keywords: '*PRTM_ENTITY_METHOD_INPUT, PRTM_ENTITY_METHOD_INPUT, PRTM_ENTITY_METHOD_INPUT structure pointer [RAS], RTM_ENTITY_METHOD_INPUT, RTM_ENTITY_METHOD_INPUT structure [RAS], _rtmv2ref_rtm_entity_method_input, rras.rtm_entity_method_input, rtmv2/PRTM_ENTITY_METHOD_INPUT, rtmv2/RTM_ENTITY_METHOD_INPUT'
-ms.topic: struct
 f1_keywords:
 - rtmv2/RTM_ENTITY_METHOD_INPUT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: edde2f37-f082-4382-8908-181bc42d30ef
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],Ping method, IOfflineFilesEvents.Ping, IOfflineFilesEvents::Ping, Ping, Ping method [Offline Files], Ping method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::Ping, of.iofflinefilesevents_ping
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesEvents.Ping
 dev_langs:

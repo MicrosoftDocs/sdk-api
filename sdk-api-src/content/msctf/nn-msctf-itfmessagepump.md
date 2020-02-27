@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: f7c3d039-cffc-4ce0-8579-041ba849de6d
 ms.date: 12/05/2018
 ms.keywords: ITfMessagePump, ITfMessagePump interface [Text Services Framework], ITfMessagePump interface [Text Services Framework],described, _tsf_itfmessagepump_ref, msctf/ITfMessagePump, tsf.itfmessagepump
-ms.topic: interface
 f1_keywords:
 - msctf/ITfMessagePump
 dev_langs:

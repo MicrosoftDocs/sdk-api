@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 768e563a-5ff5-4dd2-8811-0a823c253a31
 ms.date: 12/05/2018
 ms.keywords: IoPriorityHintLow, IoPriorityHintNormal, IoPriorityHintVeryLow, MaximumIoPriorityHintType, PRIORITY_HINT, PRIORITY_HINT enumeration [Files], fs.priority_hint, winbase/IoPriorityHintLow, winbase/IoPriorityHintNormal, winbase/IoPriorityHintVeryLow, winbase/MaximumIoPriorityHintType, winbase/PRIORITY_HINT
-ms.topic: enum
 f1_keywords:
 - winbase/PRIORITY_HINT
 dev_langs:

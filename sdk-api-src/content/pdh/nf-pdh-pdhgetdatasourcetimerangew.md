@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 142ee829-7f1c-4b97-859c-670f7058dfa1
 ms.date: 12/05/2018
 ms.keywords: PdhGetDataSourceTimeRange, PdhGetDataSourceTimeRange function [Perf], PdhGetDataSourceTimeRangeA, PdhGetDataSourceTimeRangeW, _win32_pdhgetdatasourcetimerange, base.pdhgetdatasourcetimerange, pdh/PdhGetDataSourceTimeRange, pdh/PdhGetDataSourceTimeRangeA, pdh/PdhGetDataSourceTimeRangeW, perf.pdhgetdatasourcetimerange
-ms.topic: function
 f1_keywords:
 - pdh/PdhGetDataSourceTimeRange
 dev_langs:

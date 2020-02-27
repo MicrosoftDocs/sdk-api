@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: d702263e-0ea5-428c-bbd6-1ab8a7334a92
 ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion method, GetVersion method,IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,GetVersion method, IVssExamineWriterMetadataEx2.GetVersion, IVssExamineWriterMetadataEx2::GetVersion, base.ivssexaminewritermetadataex2_getversion, vsbackup/IVssExamineWriterMetadataEx2::GetVersion
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssExamineWriterMetadataEx2.GetVersion
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 2CF1B6A9-6B6F-4413-8D76-B2F7A9D6D02E
 ms.date: 12/05/2018
 ms.keywords: HANDLE_SHARING_OPTIONS, HANDLE_SHARING_OPTIONS enumeration [Windows Runtime], HSO_SHARE_DELETE, HSO_SHARE_NONE, HSO_SHARE_READ, HSO_SHARE_WRITE, windowsstoragecom/HANDLE_SHARING_OPTIONS, windowsstoragecom/HSO_SHARE_DELETE, windowsstoragecom/HSO_SHARE_NONE, windowsstoragecom/HSO_SHARE_READ, windowsstoragecom/HSO_SHARE_WRITE, winrt.handle_sharing_options
-ms.topic: enum
 f1_keywords:
 - windowsstoragecom/HANDLE_SHARING_OPTIONS
 dev_langs:

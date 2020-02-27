@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: c81a8125-2cfa-40e2-afc5-672c2866b880
 ms.date: 12/05/2018
 ms.keywords: IWMPQuery interface [Windows Media Player],beginNextGroup method, IWMPQuery.beginNextGroup, IWMPQuery::beginNextGroup, IWMPQuerybeginNextGroup, beginNextGroup, beginNextGroup method [Windows Media Player], beginNextGroup method [Windows Media Player],IWMPQuery interface, wmp.iwmpquery_beginnextgroup, wmp/IWMPQuery::beginNextGroup
-ms.topic: method
 f1_keywords:
 - wmp/IWMPQuery.beginNextGroup
 dev_langs:

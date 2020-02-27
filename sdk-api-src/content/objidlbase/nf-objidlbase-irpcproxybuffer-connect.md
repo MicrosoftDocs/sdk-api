@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 18651110-9d20-4acc-b21e-9a93099e31bd
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [COM], Connect method [COM],IRpcProxyBuffer interface, IRpcProxyBuffer interface [COM],Connect method, IRpcProxyBuffer.Connect, IRpcProxyBuffer::Connect, _com_irpcproxybuffer_connect, com.irpcproxybuffer_connect, objidlbase/IRpcProxyBuffer::Connect
-ms.topic: method
 f1_keywords:
 - objidlbase/IRpcProxyBuffer.Connect
 dev_langs:

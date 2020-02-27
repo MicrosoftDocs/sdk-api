@@ -7,7 +7,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\monlinkstruct.htm
 ms.date: 12/05/2018
 ms.keywords: '*PMONLINKSTRUCT, MONLINKSTRUCT, MONLINKSTRUCT structure [Data Exchange], PMONLINKSTRUCT, PMONLINKSTRUCT structure pointer [Data Exchange], _win32_MONLINKSTRUCT_str, _win32_monlinkstruct_str_cpp, dataxchg.monlinkstruct_str, ddeml/MONLINKSTRUCT, ddeml/PMONLINKSTRUCT, winui._win32_monlinkstruct_str'
-ms.topic: struct
 f1_keywords:
 - ddeml/MONLINKSTRUCT
 dev_langs:

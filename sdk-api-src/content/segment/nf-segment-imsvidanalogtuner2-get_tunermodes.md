@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: dc5652d4-aa1d-480e-a5f4-05ed9d9b1887
 ms.date: 12/05/2018
 ms.keywords: IMSVidAnalogTuner2 interface [Microsoft TV Technologies],get_TunerModes method, IMSVidAnalogTuner2.get_TunerModes, IMSVidAnalogTuner2::get_TunerModes, IMSVidAnalogTuner2getTunerModes, get_TunerModes, get_TunerModes method [Microsoft TV Technologies], get_TunerModes method [Microsoft TV Technologies],IMSVidAnalogTuner2 interface, mstv.imsvidanalogtuner2_get_tunermodes, segment/IMSVidAnalogTuner2::get_TunerModes
-ms.topic: method
 f1_keywords:
 - segment/IMSVidAnalogTuner2.get_TunerModes
 dev_langs:

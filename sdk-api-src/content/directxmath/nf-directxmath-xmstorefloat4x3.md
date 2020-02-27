@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat4x3(XMFLOAT4X3@,XMMATRIX)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMStoreFloat4x3, XMStoreFloat4x3, XMStoreFloat4x3 method [DirectX Math Support APIs], dxmath.xmstorefloat4x3
-ms.topic: function
 f1_keywords:
 - directxmath/XMStoreFloat4x3
 dev_langs:

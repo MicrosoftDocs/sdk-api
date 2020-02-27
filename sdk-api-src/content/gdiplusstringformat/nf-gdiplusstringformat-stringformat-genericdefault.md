@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\genericdefault.htm
 ms.date: 12/05/2018
 ms.keywords: GenericDefault, GenericDefault method [GDI+], GenericDefault method [GDI+],StringFormat class, StringFormat class [GDI+],GenericDefault method, StringFormat.GenericDefault, StringFormat::GenericDefault, _gdiplus_CLASS_StringFormat_GenericDefault_, gdiplus._gdiplus_CLASS_StringFormat_GenericDefault_
-ms.topic: method
 f1_keywords:
 - gdiplusstringformat/StringFormat.GenericDefault
 dev_langs:

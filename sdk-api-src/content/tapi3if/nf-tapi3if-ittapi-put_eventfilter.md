@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 126ec551-aade-47d8-987f-1f735f10bd28
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],put_EventFilter method, ITTAPI.put_EventFilter, ITTAPI::put_EventFilter, _tapi3_ittapi_put_eventfilter, put_EventFilter, put_EventFilter method [TAPI 2.2], put_EventFilter method [TAPI 2.2],ITTAPI interface, tapi3.ittapi_put_eventfilter, tapi3if/ITTAPI::put_EventFilter
-ms.topic: method
 f1_keywords:
 - tapi3if/ITTAPI.put_EventFilter
 dev_langs:

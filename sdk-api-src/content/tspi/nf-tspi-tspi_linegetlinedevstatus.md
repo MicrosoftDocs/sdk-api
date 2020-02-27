@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 14f7944b-e967-4967-9fb2-e7aeb78bb045
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetLineDevStatus, TSPI_lineGetLineDevStatus function [TAPI 2.2], _tspi_tspi_linegetlinedevstatus, tspi.tspi_linegetlinedevstatus, tspi/TSPI_lineGetLineDevStatus
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineGetLineDevStatus
 dev_langs:

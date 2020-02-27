@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndpamergeconst.htm
 ms.date: 12/05/2018
 ms.keywords: DPAMM_DELETE, DPAMM_INSERT, DPAMM_MERGE, PFNDPAMERGECONST, PFNDPAMERGECONST callback, PFNDPAMERGECONST callback function [Windows Controls], _shell_PFNDPAMERGECONST, _shell_PFNDPAMERGECONST_cpp, controls.PFNDPAMERGECONST, controls._shell_PFNDPAMERGECONST, dpa_dsa/PFNDPAMERGECONST
-ms.topic: callback
 f1_keywords:
 - dpa_dsa/PFNDPAMERGECONST
 dev_langs:

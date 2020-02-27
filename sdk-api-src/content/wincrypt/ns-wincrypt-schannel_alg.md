@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 55afebf4-8872-42a1-847f-ff0240c2be20
 ms.date: 12/05/2018
 ms.keywords: '*PSCHANNEL_ALG, PSCHANNEL_ALG, PSCHANNEL_ALG structure pointer [Security], SCHANNEL_ALG, SCHANNEL_ALG structure [Security], SCHANNEL_ENC_KEY, SCHANNEL_MAC_KEY, _crypto2_schannel_alg, security.schannel_alg, wincrypt/PSCHANNEL_ALG, wincrypt/SCHANNEL_ALG'
-ms.topic: struct
 f1_keywords:
 - wincrypt/SCHANNEL_ALG
 dev_langs:

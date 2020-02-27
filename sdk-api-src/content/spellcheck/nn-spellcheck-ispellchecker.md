@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 3cc5f675-048d-4ef3-9b66-5f081ee17a18
 ms.date: 12/05/2018
 ms.keywords: ISpellChecker, ISpellChecker interface [Internationalization for Windows Applications], ISpellChecker interface [Internationalization for Windows Applications],described, intl.ispellchecker, spellcheck/ISpellChecker
-ms.topic: interface
 f1_keywords:
 - spellcheck/ISpellChecker
 dev_langs:
@@ -197,7 +196,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the <a href="http://go.microsoft.com/fwlink/p/?linkid=227302">BCP47</a> language tag this instance of the spell checker supports.
+Gets the <a href="http://tools.ietf.org/html/bcp47">BCP47</a> language tag this instance of the spell checker supports.
 
 </td>
 </tr>

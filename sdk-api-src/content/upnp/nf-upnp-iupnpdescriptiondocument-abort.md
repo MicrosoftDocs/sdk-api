@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 26f5a7f0-7d29-47a6-9f43-6b0d921342ae
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method [UPnP APIs], Abort method [UPnP APIs],IUPnPDescriptionDocument interface, IUPnPDescriptionDocument interface [UPnP APIs],Abort method, IUPnPDescriptionDocument.Abort, IUPnPDescriptionDocument::Abort, _upnp_iupnpdescriptiondocument_abort, upnp.iupnpdescriptiondocument_abort, upnp/IUPnPDescriptionDocument::Abort
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPDescriptionDocument.Abort
 dev_langs:

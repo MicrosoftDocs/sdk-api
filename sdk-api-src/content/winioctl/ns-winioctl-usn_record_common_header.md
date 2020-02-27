@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 7B193D8E-FEED-4289-B40F-33BC27889F15
 ms.date: 12/05/2018
 ms.keywords: '*PUSN_RECORD_COMMON_HEADER, PUSN_RECORD_COMMON_HEADER, PUSN_RECORD_COMMON_HEADER structure pointer [Files], USN_RECORD_COMMON_HEADER, USN_RECORD_COMMON_HEADER structure [Files], fs.usn_record_common_header, winioctl/PUSN_RECORD_COMMON_HEADER, winioctl/USN_RECORD_COMMON_HEADER'
-ms.topic: struct
 f1_keywords:
 - winioctl/USN_RECORD_COMMON_HEADER
 dev_langs:

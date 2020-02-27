@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 5e07d4a9-88eb-4644-a9be-e39c52b97ea7
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_OID_LIST, BCRYPT_OID_LIST structure [Security], bcrypt/BCRYPT_OID_LIST, security.bcrypt_oid_list
-ms.topic: struct
 f1_keywords:
 - bcrypt/BCRYPT_OID_LIST
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontconstructors\font_71hdchdc_logfontwlogfont.htm
 ms.date: 12/05/2018
 ms.keywords: Font, Font class [GDI+],Font constructor, Font constructor [GDI+], Font constructor [GDI+],Font class, Font.Font, Font.Font(HDC,const LOGFONTW*), Font.Font(IN HDC,IN const LOGFONTW), Font::Font, Font::Font(IN HDC,IN const LOGFONTW), _gdiplus_CLASS_Font_Font_HDC_hdc_LOGFONTW_logfont_, gdiplus._gdiplus_CLASS_Font_Font_HDC_hdc_LOGFONTW_logfont_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Font.Font
 dev_langs:

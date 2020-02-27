@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 1cf3a21c-5ae1-475c-9eb7-2d520ee2ce79
 ms.date: 12/05/2018
 ms.keywords: GetOriginalInfo, GetOriginalInfo method [Offline Files], GetOriginalInfo method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetOriginalInfo method, IOfflineFilesSyncErrorInfo.GetOriginalInfo, IOfflineFilesSyncErrorInfo::GetOriginalInfo, cscobj/IOfflineFilesSyncErrorInfo::GetOriginalInfo, of.iofflinefilessyncerrorinfo_getoriginalinfo
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesSyncErrorInfo.GetOriginalInfo
 dev_langs:

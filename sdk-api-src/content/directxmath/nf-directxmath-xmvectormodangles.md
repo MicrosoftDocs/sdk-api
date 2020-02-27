@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorModAngles(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorModAngles, XMVectorModAngles, XMVectorModAngles method [DirectX Math Support APIs], dxmath.xmvectormodangles
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorModAngles
 dev_langs:

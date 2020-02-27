@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: 909749d7-a6be-4b3a-b432-79a5aa6e3f4c
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_UDPTABLE_OWNER_MODULE, MIB_UDPTABLE_OWNER_MODULE, MIB_UDPTABLE_OWNER_MODULE structure [MIB], PMIB_UDPTABLE_OWNER_MODULE, PMIB_UDPTABLE_OWNER_MODULE structure pointer [MIB], iprtrmib/MIB_UDPTABLE_OWNER_MODULE, iprtrmib/PMIB_UDPTABLE_OWNER_MODULE, mib.mib_udptable_owner_module, udpmib/MIB_UDPTABLE_OWNER_MODULE, udpmib/PMIB_UDPTABLE_OWNER_MODULE'
-ms.topic: struct
 f1_keywords:
 - udpmib/MIB_UDPTABLE_OWNER_MODULE
 dev_langs:
@@ -80,7 +79,7 @@ The <b>MIB_UDPTABLE_OWNER_MODULE</b> structure may contain padding for alignment
 
 
 The <b>MIB_UDPTABLE_OWNER_MODULE</b> structure  contains the UDP listener table for IPv4 on the local computer. The name is based on the definition of this table in RFC 1213 published by the IETF. For more information, see 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=85984">http://www.ietf.org/rfc/rfc1213.txt</a>. This table contains UDP  endpoints for IPv4 that have been bound to an address. It should be noted that an application can create a UDP socket and bind it to an address for the sole purpose of sending a UDP datagram, with no intention of receiving packets using this socket (functioning as a listener).  
+<a href="http://tools.ietf.org/html/rfc1213">http://www.ietf.org/rfc/rfc1213.txt</a>. This table contains UDP  endpoints for IPv4 that have been bound to an address. It should be noted that an application can create a UDP socket and bind it to an address for the sole purpose of sending a UDP datagram, with no intention of receiving packets using this socket (functioning as a listener).  
 
 The <b>MIB_UDPTABLE_OWNER_MODULE</b> structure is an enhanced version of the  <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udptable_owner_pid">MIB_UDPTABLE_OWNER_PID</a> structure that includes any available ownership data for each UDP endpoint in the table.  The <b>MIB_UDPTABLE_OWNER_PID</b> is an enhanced version of the <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udptable">MIB_UDPTABLE</a> that includes the process ID (PID) that issued the call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function for each UDP endpoint in the table.
 

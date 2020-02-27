@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0da89cb7-721c-47d4-8f33-c8f44eb996b1
 ms.date: 12/05/2018
 ms.keywords: DWordPtrToLongPtr, DWordPtrToSSIZET, SIZETToLongPtr, SIZETToSSIZET, ULongPtrToLongPtr, ULongPtrToLongPtr function [Windows Shell], ULongPtrToSSIZET, _shell_ULongPtrToLongPtr, intsafe/ULongPtrToLongPtr, shell.ULongPtrToLongPtr
-ms.topic: function
 f1_keywords:
 - intsafe/ULongPtrToLongPtr
 dev_langs:

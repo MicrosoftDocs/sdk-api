@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2a5a9a2b-74df-4521-a5b2-8fc91c3559eb
 ms.date: 12/05/2018
 ms.keywords: StrRetToBSTR, StrRetToBSTR function [Windows Shell], _shell_StrRetToBSTR, shell.StrRetToBSTR, shlwapi/StrRetToBSTR
-ms.topic: function
 f1_keywords:
 - shlwapi/StrRetToBSTR
 dev_langs:

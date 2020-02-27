@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: ea531b22-869a-400e-801f-00bb85ebaac2
 ms.date: 12/05/2018
 ms.keywords: IRedbookDiscMaster, IRedbookDiscMaster interface [IMAPI], IRedbookDiscMaster interface [IMAPI],described, _win32_iredbookdiscmaster, base.iredbookdiscmaster, imapi.iredbookdiscmaster, imapi/IRedbookDiscMaster
-ms.topic: interface
 f1_keywords:
 - imapi/IRedbookDiscMaster
 dev_langs:

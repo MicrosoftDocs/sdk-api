@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 1ACFD260-1CE5-484C-83DD-021E8D895EBB
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,RSSetViewports method, ID3D12GraphicsCommandList.RSSetViewports, ID3D12GraphicsCommandList::RSSetViewports, RSSetViewports, RSSetViewports method, RSSetViewports method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::RSSetViewports, direct3d12.id3d12graphicscommandlist_rssetviewports
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12GraphicsCommandList.RSSetViewports
 dev_langs:

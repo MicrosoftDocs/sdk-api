@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e0a62251-68ee-4318-b09a-0aac6b73bf54
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample, IAMMediaTypeSample interface [DirectShow], IAMMediaTypeSample interface [DirectShow],described, IAMMediaTypeSampleInterface, amstream/IAMMediaTypeSample, dshow.iammediatypesample
-ms.topic: interface
 f1_keywords:
 - amstream/IAMMediaTypeSample
 dev_langs:

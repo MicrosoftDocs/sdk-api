@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 1faa912b-c56d-431c-95d5-d36790b0d467
 ms.date: 12/05/2018
 ms.keywords: NetGetJoinableOUs, NetGetJoinableOUs function [Network Management], _win32_netgetjoinableous, lmjoin/NetGetJoinableOUs, netmgmt.netgetjoinableous
-ms.topic: function
 f1_keywords:
 - lmjoin/NetGetJoinableOUs
 dev_langs:

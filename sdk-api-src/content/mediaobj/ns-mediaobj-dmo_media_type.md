@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c545ddf7-9797-45ab-a42a-d8550b598e98
 ms.date: 12/05/2018
 ms.keywords: DMO_MEDIA_TYPE, DMO_MEDIA_TYPE structure [DirectShow], DMO_MEDIA_TYPEStructure, FORMAT_DvInfo, FORMAT_MPEG2Video, FORMAT_MPEGVideo, FORMAT_None, FORMAT_VideoInfo, FORMAT_VideoInfo2, FORMAT_WaveFormatEx, _DMOMediaType, dshow.dmo_media_type, mediaobj/DMO_MEDIA_TYPE
-ms.topic: struct
 f1_keywords:
 - mediaobj/DMO_MEDIA_TYPE
 dev_langs:
@@ -200,7 +199,7 @@ Pointer to the format structure. The structure type is specified by the <b>forma
 
 
 
-This structure is identical to the DirectShow <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure. The <b>bFixedSizeSamples</b>, <b>bTemporalCompression</b>, and <b>lSampleSize</b> members are for compatibility with DirectShow. Other DMO clients are not required to use them.
+This structure is identical to the DirectShow <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure. The <b>bFixedSizeSamples</b>, <b>bTemporalCompression</b>, and <b>lSampleSize</b> members are for compatibility with DirectShow. Other DMO clients are not required to use them.
 
 
 

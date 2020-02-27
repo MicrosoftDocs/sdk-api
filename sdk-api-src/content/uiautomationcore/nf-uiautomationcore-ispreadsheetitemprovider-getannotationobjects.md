@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 5B9BDAF8-A7A7-492B-97F7-8502E630203F
 ms.date: 12/05/2018
 ms.keywords: GetAnnotationObjects, GetAnnotationObjects method [Windows Accessibility], GetAnnotationObjects method [Windows Accessibility],ISpreadsheetItemProvider interface, ISpreadsheetItemProvider interface [Windows Accessibility],GetAnnotationObjects method, ISpreadsheetItemProvider.GetAnnotationObjects, ISpreadsheetItemProvider::GetAnnotationObjects, uiautomationcore/ISpreadsheetItemProvider::GetAnnotationObjects, winauto.uiauto_ISpreadsheetItemProvider_GetAnnotationObjects
-ms.topic: method
 f1_keywords:
 - uiautomationcore/ISpreadsheetItemProvider.GetAnnotationObjects
 dev_langs:
@@ -60,7 +59,7 @@ Retrieves an array of objects that represent the annotations associated with thi
 
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives an array of <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a> interfaces that represent the annotations associated with the spreadsheet cell.
 

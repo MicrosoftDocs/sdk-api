@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e58fcd07-682a-4c41-9501-d55ba092a150
 ms.date: 12/05/2018
 ms.keywords: GetDVDTextInfo, GetDVDTextInfo method [DirectShow], GetDVDTextInfo method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetDVDTextInfo method, IDvdInfo.GetDVDTextInfo, IDvdInfo::GetDVDTextInfo, IDvdInfoGetDVDTextInfo, dshow.idvdinfo_getdvdtextinfo, strmif/IDvdInfo::GetDVDTextInfo
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo.GetDVDTextInfo
 dev_langs:
@@ -118,7 +117,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-Requested action is not supported on this domain (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
+Requested action is not supported on this domain (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
 
 </td>
 </tr>
@@ -143,7 +142,7 @@ Requested action cannot occur at this point in the movie due to the authoring of
 
 
 
-This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 If the supplied buffer size in <i>cbBufSize</i> is too small for the data, (for example if <i>cbBufSize</i> equals zero), then this method returns E_OUTOFMEMORY and sets the value pointed to by <i>pcbActualSize</i> to the required size.
 

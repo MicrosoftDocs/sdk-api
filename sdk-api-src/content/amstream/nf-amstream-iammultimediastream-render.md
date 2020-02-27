@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 09866cf0-650d-4d8e-81d4-6a568709c027
 ms.date: 12/05/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],Render method, IAMMultiMediaStream.Render, IAMMultiMediaStream::Render, IAMMultiMediaStreamRender, Render, Render method [DirectShow], Render method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::Render, dshow.iammultimediastream_render
-ms.topic: method
 f1_keywords:
 - amstream/IAMMultiMediaStream.Render
 dev_langs:

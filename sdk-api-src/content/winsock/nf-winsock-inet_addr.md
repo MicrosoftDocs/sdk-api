@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 7d6df658-9d83-45c7-97e7-b2a016a73847
 ms.date: 12/05/2018
 ms.keywords: _win32_inet_addr_2, inet_addr, inet_addr function [Winsock], winsock.inet_addr_2, wsipv6ok/inet_addr
-ms.topic: function
 f1_keywords:
 - winsock/inet_addr
 dev_langs:

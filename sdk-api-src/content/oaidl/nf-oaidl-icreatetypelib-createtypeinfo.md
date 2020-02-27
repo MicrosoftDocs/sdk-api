@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 5e9678af-661b-4033-bd3f-607c064f4245
 ms.date: 12/05/2018
 ms.keywords: CreateTypeInfo, CreateTypeInfo method [Automation], CreateTypeInfo method [Automation],ICreateTypeLib interface, ICreateTypeLib interface [Automation],CreateTypeInfo method, ICreateTypeLib.CreateTypeInfo, ICreateTypeLib::CreateTypeInfo, _oa96_ICreateTypeLib_CreateTypeInfo, automat.icreatetypelib_createtypeinfo, oaidl/ICreateTypeLib::CreateTypeInfo
-ms.topic: method
 f1_keywords:
 - oaidl/ICreateTypeLib.CreateTypeInfo
 dev_langs:

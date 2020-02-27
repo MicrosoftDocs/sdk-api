@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 9692ebe3-a676-45bb-a58d-b3fdbb1bbc2a
 ms.date: 12/05/2018
 ms.keywords: AuditSetSystemPolicy, AuditSetSystemPolicy function [Security], ntsecapi/AuditSetSystemPolicy, security.auditsetsystempolicy_func
-ms.topic: function
 f1_keywords:
 - ntsecapi/AuditSetSystemPolicy
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: E10ACB2E-EF77-4C71-A5C7-CEFA31218091
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12FunctionParameterReflection interface, ID3D12FunctionParameterReflection interface,GetDesc method, ID3D12FunctionParameterReflection.GetDesc, ID3D12FunctionParameterReflection::GetDesc, d3d12shader/ID3D12FunctionParameterReflection::GetDesc, direct3d12.id3d12functionparameterreflection_getdesc
-ms.topic: method
 f1_keywords:
 - d3d12shader/ID3D12FunctionParameterReflection.GetDesc
 dev_langs:

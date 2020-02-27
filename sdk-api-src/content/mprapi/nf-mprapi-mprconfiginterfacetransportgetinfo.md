@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 2b0bb412-a480-43ff-b29a-cf4e7674d2c4
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceTransportGetInfo, MprConfigInterfaceTransportGetInfo function [RAS], _mpr_mprconfiginterfacetransportgetinfo, mprapi/MprConfigInterfaceTransportGetInfo, rras.mprconfiginterfacetransportgetinfo
-ms.topic: function
 f1_keywords:
 - mprapi/MprConfigInterfaceTransportGetInfo
 dev_langs:

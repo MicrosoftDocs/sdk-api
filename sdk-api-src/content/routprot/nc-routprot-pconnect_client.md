@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 548d8411-ca03-4316-9adb-3b4b48a740d9
 ms.date: 12/05/2018
 ms.keywords: ConnectClient, ConnectClient callback function [RAS], PCONNECT_CLIENT, PCONNECT_CLIENT callback, _mpr_connectclient, routprot/ConnectClient, rras.connectclient
-ms.topic: callback
 f1_keywords:
 - routprot/ConnectClient
 dev_langs:

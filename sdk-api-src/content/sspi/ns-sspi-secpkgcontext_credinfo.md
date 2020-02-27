@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 5c2c6d01-5de3-4dd1-9fa2-cce9eadd6902
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_CredInfo, PSecPkgContext_CredInfo, PSecPkgContext_CredInfo structure pointer [Security], SecPkgContext_CredInfo, SecPkgContext_CredInfo structure [Security], security.secpkgcontext_credinfo, sspi/PSecPkgContext_CredInfo, sspi/SecPkgContext_CredInfo'
-ms.topic: struct
 f1_keywords:
 - sspi/SecPkgContext_CredInfo
 dev_langs:

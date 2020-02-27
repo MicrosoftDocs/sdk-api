@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: DB7003A7-FA5A-4CE4-9087-71819E960DA5
 ms.date: 12/5/2018
 ms.keywords: DML_ELEMENT_WISE_EXP_OPERATOR_DESC, DML_ELEMENT_WISE_EXP_OPERATOR_DESC structure, direct3d12.dml_element_wise_exp_operator_desc, directml/DML_ELEMENT_WISE_EXP_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_ELEMENT_WISE_EXP_OPERATOR_DESC
 dev_langs:

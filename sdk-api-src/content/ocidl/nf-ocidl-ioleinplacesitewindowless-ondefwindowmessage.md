@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 14017061-57e3-49a9-93cc-6373522ab1dc
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],OnDefWindowMessage method, IOleInPlaceSiteWindowless.OnDefWindowMessage, IOleInPlaceSiteWindowless::OnDefWindowMessage, OnDefWindowMessage, OnDefWindowMessage method [COM], OnDefWindowMessage method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_ondefwindowmessage, com.ioleinplacesitewindowless_ondefwindowmessage, ocidl/IOleInPlaceSiteWindowless::OnDefWindowMessage
-ms.topic: method
 f1_keywords:
 - ocidl/IOleInPlaceSiteWindowless.OnDefWindowMessage
 dev_langs:

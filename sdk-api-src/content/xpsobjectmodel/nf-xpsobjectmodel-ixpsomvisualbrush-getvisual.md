@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: b8fb6698-8ce7-42a1-bad6-bde3d5dbbbf8
 ms.date: 12/05/2018
 ms.keywords: GetVisual, GetVisual method [XPS Documents and Packaging], GetVisual method [XPS Documents and Packaging],IXpsOMVisualBrush interface, IXpsOMVisualBrush interface [XPS Documents and Packaging],GetVisual method, IXpsOMVisualBrush.GetVisual, IXpsOMVisualBrush::GetVisual, xps.ixpsomvisualbrush_getvisual, xpsobjectmodel/IXpsOMVisualBrush::GetVisual
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisualBrush.GetVisual
 dev_langs:
@@ -204,7 +203,7 @@ This method returns an  <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

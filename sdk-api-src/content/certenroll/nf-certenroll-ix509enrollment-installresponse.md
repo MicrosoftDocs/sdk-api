@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 4ad33092-71c4-4ae1-a3a6-cef376d04c2d
 ms.date: 12/05/2018
 ms.keywords: AllowNoOutstandingRequest, AllowNone, AllowUntrustedCertificate, AllowUntrustedRoot, IX509Enrollment interface [Security],InstallResponse method, IX509Enrollment.InstallResponse, IX509Enrollment::InstallResponse, InstallResponse, InstallResponse method [Security], InstallResponse method [Security],IX509Enrollment interface, certenroll/IX509Enrollment::InstallResponse, security.ix509enrollment_installresponse_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509Enrollment.InstallResponse
 dev_langs:

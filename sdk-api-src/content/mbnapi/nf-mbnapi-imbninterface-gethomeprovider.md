@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: b9d29a2a-f41b-4e20-b9ff-559dd39e1015
 ms.date: 12/05/2018
 ms.keywords: GetHomeProvider, GetHomeProvider method [Microsoft Broadband Networks], GetHomeProvider method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetHomeProvider method, IMbnInterface.GetHomeProvider, IMbnInterface::GetHomeProvider, mbn.imbninterface_gethomeprovider, mbnapi/IMbnInterface::GetHomeProvider
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnInterface.GetHomeProvider
 dev_langs:
@@ -62,7 +61,7 @@ Gets the home provider.
 
 ### -param homeProvider [out, retval]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structure that represents the home provider.  If this method returns any value other than <b>S_OK</b>, this parameter is <b>NULL</b>.  Upon completion, the calling application must free the memory allocated to the  <b>providerID</b> and <b>providerName</b> members of <b>MBN_PROVIDER</b> by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structure that represents the home provider.  If this method returns any value other than <b>S_OK</b>, this parameter is <b>NULL</b>.  Upon completion, the calling application must free the memory allocated to the  <b>providerID</b> and <b>providerName</b> members of <b>MBN_PROVIDER</b> by calling <a href="https://msdn.microsoft.com/library/ms221481.aspx">SysFreeString</a>
 
 
 ## -returns

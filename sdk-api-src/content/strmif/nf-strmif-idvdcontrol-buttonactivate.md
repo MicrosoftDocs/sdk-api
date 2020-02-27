@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6a5ee6ed-2baa-45d6-a874-5df4e5c56841
 ms.date: 12/05/2018
 ms.keywords: ButtonActivate, ButtonActivate method [DirectShow], ButtonActivate method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ButtonActivate method, IDvdControl.ButtonActivate, IDvdControl::ButtonActivate, IDvdControlButtonActivate, dshow.idvdcontrol_buttonactivate, strmif/IDvdControl::ButtonActivate
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.ButtonActivate
 dev_langs:
@@ -80,7 +79,7 @@ This method does not return a value.
 
 Selecting a DVD button simply highlights the button but does not activate the button. Selecting is equivalent of tabbing to a button but not pressing the SPACEBAR or ENTER key. Activating is equivalent of pressing the SPACEBAR or ENTER key after tabbing to a button.
 
-This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, or DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, or DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

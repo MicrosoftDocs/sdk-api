@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 3ef0a5b2-4d71-4c17-8188-76a4025287fc
 ms.date: 12/05/2018
 ms.keywords: CreateProcess, CreateProcess function, CreateProcessA, CreateProcessW, _win32_createprocess, base.createprocess, processthreadsapi/CreateProcess, processthreadsapi/CreateProcessA, processthreadsapi/CreateProcessW, winbase/CreateProcess, winbase/CreateProcessA, winbase/CreateProcessW
-ms.topic: function
 f1_keywords:
 - processthreadsapi/CreateProcess
 dev_langs:
@@ -148,6 +147,7 @@ The <b>lpSecurityDescriptor</b> member of the structure specifies a security des
 ### -param bInheritHandles [in]
 
 If this parameter is TRUE, each inheritable handle in the calling process is inherited by the new process. If the parameter is FALSE, the handles are not inherited. Note that inherited handles have the same value and access rights as the original handles.
+For additional discussion of inheritable handles, see Remarks.
 
 <b>Terminal Services:  </b>You cannot inherit handles across sessions. Additionally, if this parameter is TRUE, you must create the process in the same session as the caller.
 
@@ -201,7 +201,7 @@ Handles in
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-startupinfoexa">STARTUPINFOEX</a> must be closed with 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> when they are no longer needed.
 
-<div class="alert"><b>Important</b>  The caller is responsible for ensuring that the standard handle fields in <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a>  contain valid handle values. These fields are copied unchanged to the child process without validation, even when the <b>dwFlags</b> member specifies <b>STARTF_USESTDHANDLES</b>. Incorrect values can cause the child process to misbehave or crash. Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=234779">Application Verifier</a> runtime verification tool to detect invalid handles. </div>
+<div class="alert"><b>Important</b>  The caller is responsible for ensuring that the standard handle fields in <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a>  contain valid handle values. These fields are copied unchanged to the child process without validation, even when the <b>dwFlags</b> member specifies <b>STARTF_USESTDHANDLES</b>. Incorrect values can cause the child process to misbehave or crash. Use the <a href="https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=20028">Application Verifier</a> runtime verification tool to detect invalid handles. </div>
 <div> </div>
 
 ### -param lpProcessInformation [out]
@@ -263,6 +263,14 @@ One way to obtain the current directory information for a drive X is to make the
 
 When a process is created with <b>CREATE_NEW_PROCESS_GROUP</b> specified, an implicit call to 
 <a href="https://docs.microsoft.com/windows/console/setconsolectrlhandler">SetConsoleCtrlHandler</a>(<b>NULL</b>,<b>TRUE</b>) is made on behalf of the new process; this means that the new process has CTRL+C disabled. This lets shells handle CTRL+C themselves, and selectively pass that signal on to sub-processes. CTRL+BREAK is not disabled, and may be used to interrupt the process/process group.
+
+By default, passing <b>TRUE</b> as the value of the <i>bInheritHandles</i> parameter causes all inheritable handles to be inherited by the new process.
+This can be problematic for applications which create processes from multiple threads simultaneously
+yet desire each process to inherit different handles.
+Applications can use the
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute">UpdateProcThreadAttributeList</a> function
+with the <b>PROC_THREAD_ATTRIBUTE_HANDLE_LIST</b> parameter
+to provide a list of handles to be inherited by a particular process.
 
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
 The first parameter, <i>lpApplicationName</i>, can be <b>NULL</b>, in which case the executable name must be in the  white space–delimited string pointed to by <i>lpCommandLine</i>. If the executable or path name has a space in it, there is a risk that a different executable could be run because of the way the function parses spaces. The following example is dangerous because the function will attempt to run "Program.exe", if it exists, instead of "MyApp.exe".

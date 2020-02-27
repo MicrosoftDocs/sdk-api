@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: eeb62178-b54d-45d3-a584-75865f0662fa
 ms.date: 12/05/2018
 ms.keywords: IDirectXVideoDecoderService, IDirectXVideoDecoderService interface [Media Foundation], IDirectXVideoDecoderService interface [Media Foundation],described, dxva2api/IDirectXVideoDecoderService, eeb62178-b54d-45d3-a584-75865f0662fa, mf.idirectxvideodecoderservice
-ms.topic: interface
 f1_keywords:
 - dxva2api/IDirectXVideoDecoderService
 dev_langs:

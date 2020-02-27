@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: D2CD630B-FCD5-485D-84A6-B2A942842A1F
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],WriteData method, IMbnDeviceService.WriteData, IMbnDeviceService::WriteData, WriteData, WriteData method [Microsoft Broadband Networks], WriteData method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_writedata, mbnapi/IMbnDeviceService::WriteData
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnDeviceService.WriteData
 dev_langs:

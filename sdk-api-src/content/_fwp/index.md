@@ -1,9 +1,10 @@
 ---
 UID: TP:fwp
+title: Windows Filtering Platform
 ms.assetid: a51f62fb-3c8a-3b1f-92ae-873df74e2cc2
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Windows Filtering Platform

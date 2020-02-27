@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: cb3ba617-322a-4b8c-a9d5-32910315fb56
 ms.date: 12/05/2018
 ms.keywords: SetSecurityDescriptorOwner, SetSecurityDescriptorOwner function [Security], _win32_setsecuritydescriptorowner, security.setsecuritydescriptorowner, securitybaseapi/SetSecurityDescriptorOwner
-ms.topic: function
 f1_keywords:
 - securitybaseapi/SetSecurityDescriptorOwner
 dev_langs:

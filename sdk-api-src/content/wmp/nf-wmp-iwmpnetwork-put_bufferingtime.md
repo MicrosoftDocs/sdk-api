@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 9f25992f-e3a0-477b-b445-1f3fb7d9eae1
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],put_bufferingTime method, IWMPNetwork.put_bufferingTime, IWMPNetwork::put_bufferingTime, IWMPNetworkput_bufferingTime, put_bufferingTime, put_bufferingTime method [Windows Media Player], put_bufferingTime method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_put_bufferingtime, wmp/IWMPNetwork::put_bufferingTime
-ms.topic: method
 f1_keywords:
 - wmp/IWMPNetwork.put_bufferingTime
 dev_langs:

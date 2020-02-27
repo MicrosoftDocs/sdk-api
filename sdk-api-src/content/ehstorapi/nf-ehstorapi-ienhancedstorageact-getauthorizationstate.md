@@ -7,7 +7,6 @@ tech.root: enstor
 ms.assetid: 79615cae-cdd1-43bc-9954-108084ea692b
 ms.date: 12/05/2018
 ms.keywords: GetAuthorizationState, GetAuthorizationState method [Enhanced Storage], GetAuthorizationState method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetAuthorizationState method, IEnhancedStorageACT.GetAuthorizationState, IEnhancedStorageACT::GetAuthorizationState, ehstorapi/IEnhancedStorageACT::GetAuthorizationState, enstor.ienhancedstorageact_getauthorizationstate
-ms.topic: method
 f1_keywords:
 - ehstorapi/IEnhancedStorageACT.GetAuthorizationState
 dev_langs:

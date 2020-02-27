@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: b8d8e1af-05a3-42f5-8672-910a2606e613
 ms.date: 12/05/2018
 ms.keywords: OleSave, OleSave function [COM], _ole_OleSave, com.olesave, ole2/OleSave
-ms.topic: function
 f1_keywords:
 - ole2/OleSave
 dev_langs:

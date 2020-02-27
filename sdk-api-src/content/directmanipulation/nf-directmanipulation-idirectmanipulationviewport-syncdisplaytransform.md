@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 0af63d1e-026e-4083-a1b2-56ba31653434
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SyncDisplayTransform method, IDirectManipulationViewport.SyncDisplayTransform, IDirectManipulationViewport::SyncDisplayTransform, SyncDisplayTransform, SyncDisplayTransform method [Direct Manipulation], SyncDisplayTransform method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_syncdisplaytransform, directmanipulation/IDirectManipulationViewport::SyncDisplayTransform
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationViewport.SyncDisplayTransform
 dev_langs:

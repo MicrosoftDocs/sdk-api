@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 25c99955-1a9d-49fa-9432-962e19296ad5
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation2, ITForwardInformation2 interface [TAPI 2.2], ITForwardInformation2 interface [TAPI 2.2],described, _tapi3_itforwardinformation2, tapi3.itforwardinformation2, tapi3if/ITForwardInformation2
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITForwardInformation2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: ff759673-b9cf-44fb-b4a0-4264117b24a8
 ms.date: 12/05/2018
 ms.keywords: CLUSPROP_SZ_DECLARE, CLUSPROP_SZ_DECLARE macro [Failover Cluster], _wolf_clusprop_sz_declare, clusapi/CLUSPROP_SZ_DECLARE, mscs.clusprop_sz_declare
-ms.topic: macro
 f1_keywords:
 - clusapi/CLUSPROP_SZ_DECLARE
 dev_langs:

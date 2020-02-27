@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\scaletransform_38sx_sy_order.htm
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],ScaleTransform method, PathGradientBrush.ScaleTransform, PathGradientBrush::ScaleTransform, ScaleTransform, ScaleTransform method [GDI+], ScaleTransform method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_ScaleTransform_sx_sy_order_, gdiplus._gdiplus_CLASS_PathGradientBrush_ScaleTransform_sx_sy_order_
-ms.topic: method
 f1_keywords:
 - gdipluspath/PathGradientBrush.ScaleTransform
 dev_langs:

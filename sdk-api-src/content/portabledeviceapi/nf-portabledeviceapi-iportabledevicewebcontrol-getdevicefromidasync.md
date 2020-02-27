@@ -7,7 +7,6 @@ tech.root: wpdauto
 ms.assetid: a53e4a15-4f51-43e7-84c7-4c75be87e3d9
 ms.date: 12/05/2018
 ms.keywords: GetDeviceFromIdAsync, GetDeviceFromIdAsync method [WPD Automation], GetDeviceFromIdAsync method [WPD Automation],IPortableDeviceWebControl interface, IPortableDeviceWebControl interface [WPD Automation],GetDeviceFromIdAsync method, IPortableDeviceWebControl.GetDeviceFromIdAsync, IPortableDeviceWebControl::GetDeviceFromIdAsync, portabledeviceapi/IPortableDeviceWebControl::GetDeviceFromIdAsync, wpdauto.iportabledevicewebcontrol_getdevicefromidasync
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDeviceWebControl.GetDeviceFromIdAsync
 dev_langs:
@@ -159,7 +158,7 @@ deviceFactory = new ActiveXObject("PortableDeviceAutomation.Factory");
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=266421">Portable Device Service Sample</a>
+<a href="https://code.msdn.microsoft.com/windowsapps/Portable-Device-f97089b5">Portable Device Service Sample</a>
  
 
  

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 4529FEE5-7FDF-4EFF-93C1-E20A63186496
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetMirror method, IMFVideoProcessorControl.SetMirror, IMFVideoProcessorControl::SetMirror, SetMirror, SetMirror method [Media Foundation], SetMirror method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setmirror, mfidl/IMFVideoProcessorControl::SetMirror
-ms.topic: method
 f1_keywords:
 - mfidl/IMFVideoProcessorControl.SetMirror
 dev_langs:

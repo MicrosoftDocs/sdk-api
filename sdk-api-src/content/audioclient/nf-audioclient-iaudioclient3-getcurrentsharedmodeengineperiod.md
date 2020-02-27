@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: F91E46F5-5D12-4D53-842B-4495CAA3E09E
 ms.date: 12/05/2018
 ms.keywords: GetCurrentSharedModeEnginePeriod, GetCurrentSharedModeEnginePeriod method [Core Audio], GetCurrentSharedModeEnginePeriod method [Core Audio],IAudioClient3 interface, IAudioClient3 interface [Core Audio],GetCurrentSharedModeEnginePeriod method, IAudioClient3.GetCurrentSharedModeEnginePeriod, IAudioClient3::GetCurrentSharedModeEnginePeriod, audioclient/IAudioClient3::GetCurrentSharedModeEnginePeriod, coreaudio.iaudioclient3_getcurrentsharedmodeengineperiod
-ms.topic: method
 f1_keywords:
 - audioclient/IAudioClient3.GetCurrentSharedModeEnginePeriod
 dev_langs:

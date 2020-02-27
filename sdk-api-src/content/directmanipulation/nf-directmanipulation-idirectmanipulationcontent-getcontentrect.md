@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 26a5736e-633e-4451-a339-c5f88913bcf6
 ms.date: 12/05/2018
 ms.keywords: GetContentRect, GetContentRect method [Direct Manipulation], GetContentRect method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetContentRect method, IDirectManipulationContent.GetContentRect, IDirectManipulationContent::GetContentRect, directmanipulation.idirectmanipulationcontent_getcontentrect, directmanipulation/IDirectManipulationContent::GetContentRect
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationContent.GetContentRect
 dev_langs:

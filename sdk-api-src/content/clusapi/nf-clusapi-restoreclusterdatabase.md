@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: a0524363-c5dc-449a-aaf6-9bcd9522c9eb
 ms.date: 12/05/2018
 ms.keywords: RestoreClusterDatabase, RestoreClusterDatabase function [Failover Cluster], _wolf_restoreclusterdatabase, clusapi/RestoreClusterDatabase, mscs.restoreclusterdatabase
-ms.topic: function
 f1_keywords:
 - clusapi/RestoreClusterDatabase
 dev_langs:

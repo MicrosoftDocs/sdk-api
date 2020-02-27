@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 7c830b7c-2651-4efb-9d2d-989b5c25b72e
 ms.date: 12/05/2018
 ms.keywords: GetStringHeapSize, GetStringHeapSize method [Windows Runtime], GetStringHeapSize method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetStringHeapSize method, IMetaDataTables.GetStringHeapSize, IMetaDataTables::GetStringHeapSize, rometadataapi/IMetaDataTables::GetStringHeapSize, winrt.imetadatatables_getstringheapsize
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataTables.GetStringHeapSize
 dev_langs:

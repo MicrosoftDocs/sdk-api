@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 294783f2-2cbf-4eea-82ae-a396c62f911a
 ms.date: 12/05/2018
 ms.keywords: FLT_PORT_FLAG_SYNC_HANDLE, FilterConnectCommunicationPort, FilterConnectCommunicationPort function [Installable File System Drivers], FltWin32ApiRef_3459349f-ecfb-47c0-ae70-3f75e1d18435.xml, fltuser/FilterConnectCommunicationPort, ifsk.filterconnectcommunicationport
-ms.topic: function
 f1_keywords:
 - fltuser/FilterConnectCommunicationPort
 dev_langs:
@@ -123,7 +122,7 @@ Pointer to a caller-allocated variable that receives a handle for the newly crea
 
 After it successfully calls <b>FilterConnectCommunicationPort</b>, the application can send messages to the minifilter through the connection port by calling <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtersendmessage">FilterSendMessage</a>. It can also receive and reply to messages from the minifilter by calling <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a> and <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>, respectively. The connection port handle returned in the <i>hPort</i> parameter is passed as the first parameter to <b>FilterSendMessage</b>, <b>FilterGetMessage</b>, and <b>FilterReplyMessage</b>. 
 
-Any handle that is obtained from <b>FilterConnectCommunicationPort</b> must eventually be released by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=139078">CloseHandle</a>. 
+Any handle that is obtained from <b>FilterConnectCommunicationPort</b> must eventually be released by calling <a href="https://msdn.microsoft.com/library/ms724211.aspx">CloseHandle</a>. 
 
 
 
@@ -133,7 +132,7 @@ Any handle that is obtained from <b>FilterConnectCommunicationPort</b> must even
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=139078">CloseHandle</a>
+<a href="https://msdn.microsoft.com/library/ms724211.aspx">CloseHandle</a>
 
 
 
@@ -169,7 +168,7 @@ Any handle that is obtained from <b>FilterConnectCommunicationPort</b> must even
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=139079">SECURITY_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/aa379560.aspx">SECURITY_ATTRIBUTES</a>
  
 
  

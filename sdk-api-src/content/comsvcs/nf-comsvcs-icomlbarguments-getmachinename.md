@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: b1f6adc8-2e89-4f64-9694-2342c967a142
 ms.date: 12/05/2018
 ms.keywords: GetMachineName, GetMachineName method [COM+], GetMachineName method [COM+],ICOMLBArguments interface, ICOMLBArguments interface [COM+],GetMachineName method, ICOMLBArguments.GetMachineName, ICOMLBArguments::GetMachineName, _cos_ICOMLBArguments_GetMachineName, comsvcs/ICOMLBArguments::GetMachineName, cos.icomlbarguments_getmachinename
-ms.topic: method
 f1_keywords:
 - comsvcs/ICOMLBArguments.GetMachineName
 dev_langs:

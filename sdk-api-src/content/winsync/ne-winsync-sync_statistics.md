@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 8a978578-0169-4784-bdcf-ff41f0a09f7a
 ms.date: 12/05/2018
 ms.keywords: SYNC_STATISTICS, SYNC_STATISTICS enumeration [Windows Sync], SYNC_STATISTICS_RANGE_COUNT, winsync.sync_statistics, winsync/SYNC_STATISTICS, winsync/SYNC_STATISTICS_RANGE_COUNT
-ms.topic: enum
 f1_keywords:
 - winsync/SYNC_STATISTICS
 dev_langs:

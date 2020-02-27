@@ -5,7 +5,6 @@ description: Returns the object implementing the current instance of XMVECTORI32
 ms.assetid: 6442dc17-d1db-401a-bc3e-5edb9e91051f
 ms.date: 05/13/2019
 ms.keywords: XMVECTORI32::operator __m128i
-ms.topic: language-reference
 f1_keywords:
 - directxmath/XMVECTORI32::operator __m128i
 dev_langs:

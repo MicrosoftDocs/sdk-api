@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2pww.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],RecipientZip property, IFaxDoc.RecipientZip, IFaxDoc.put_RecipientZip, IFaxDoc::RecipientZip, IFaxDoc::get_RecipientZip, IFaxDoc::put_RecipientZip, RecipientZip property [Fax Service], RecipientZip property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientzip, fax._mfax_ifaxdoc_get_recipientzip, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientzip_cpp, faxcom/IFaxDoc::RecipientZip, faxcom/IFaxDoc::get_RecipientZip, faxcom/IFaxDoc::put_RecipientZip, put_RecipientZip
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxDoc.RecipientZip
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: ea853e5a-ea73-441f-9b13-0425a4d734ad
 ms.date: 12/05/2018
 ms.keywords: IEnumOleDocumentViews interface [COM],Skip method, IEnumOleDocumentViews.Skip, IEnumOleDocumentViews::Skip, Skip, Skip method [COM], Skip method [COM],IEnumOleDocumentViews interface, _ole_ienumoledocumentviews_skip, com.ienumoledocumentviews_skip, docobj/IEnumOleDocumentViews::Skip
-ms.topic: method
 f1_keywords:
 - docobj/IEnumOleDocumentViews.Skip
 dev_langs:

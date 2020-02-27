@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: a21de428-7e9d-4596-a7ab-06a29b9852f7
 ms.date: 12/05/2018
 ms.keywords: RtmReleaseNextHops, RtmReleaseNextHops function [RAS], _rtmv2ref_rtmreleasenexthops, rras.rtmreleasenexthops, rtmv2/RtmReleaseNextHops
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmReleaseNextHops
 dev_langs:

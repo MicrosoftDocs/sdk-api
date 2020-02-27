@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.scalar.XMScalarSin(float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMScalarSin, XMScalarSin, XMScalarSin method [DirectX Math Support APIs], dxmath.xmscalarsin
-ms.topic: function
 f1_keywords:
 - directxmath/XMScalarSin
 dev_langs:

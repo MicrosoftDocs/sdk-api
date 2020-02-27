@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2626c820-3731-474d-9ddb-d2a8966c3d35
 ms.date: 12/05/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],StartVisualGroup method, IFileDialogCustomize.StartVisualGroup, IFileDialogCustomize::StartVisualGroup, StartVisualGroup, StartVisualGroup method [Windows Shell], StartVisualGroup method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_StartVisualGroup, shell_IFileDialogCustomize_StartVisualGroup, shobjidl_core/IFileDialogCustomize::StartVisualGroup
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileDialogCustomize.StartVisualGroup
 dev_langs:

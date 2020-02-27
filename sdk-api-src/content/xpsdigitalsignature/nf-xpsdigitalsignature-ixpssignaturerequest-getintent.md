@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d4da2d1b-e907-4498-a196-fd52742740b6
 ms.date: 12/05/2018
 ms.keywords: GetIntent, GetIntent method [XPS Documents and Packaging], GetIntent method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetIntent method, IXpsSignatureRequest.GetIntent, IXpsSignatureRequest::GetIntent, xps.ixpssignaturerequest_getintent, xpsdigitalsignature/IXpsSignatureRequest::GetIntent
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureRequest.GetIntent
 dev_langs:
@@ -137,7 +136,7 @@ This method allocates the memory used by the string that is returned in <i>inten
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

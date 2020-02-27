@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\encoderparameters.htm
 ms.date: 12/05/2018
 ms.keywords: EncoderParameters, EncoderParameters class [GDI+], EncoderParameters class [GDI+],described, _gdiplus_CLASS_EncoderParameters_Class, gdiplus._gdiplus_CLASS_EncoderParameters_Class, gdiplusimaging/EncoderParameters
-ms.topic: class
 f1_keywords:
 - gdiplusimaging/EncoderParameters
 dev_langs:

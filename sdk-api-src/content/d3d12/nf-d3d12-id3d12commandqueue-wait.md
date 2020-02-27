@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 75D494D0-BCEC-453E-AB4F-E57CE2C9B318
 ms.date: 12/05/2018
 ms.keywords: ID3D12CommandQueue interface,Wait method, ID3D12CommandQueue.Wait, ID3D12CommandQueue::Wait, Wait, Wait method, Wait method,ID3D12CommandQueue interface, d3d12/ID3D12CommandQueue::Wait, direct3d12.id3d12commandqueue_wait
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12CommandQueue.Wait
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 4695b739-9af4-4bb8-b7d6-409942bc1932
 ms.date: 12/05/2018
 ms.keywords: '*PMINIDUMP_INCLUDE_THREAD_CALLBACK, MINIDUMP_INCLUDE_THREAD_CALLBACK, MINIDUMP_INCLUDE_THREAD_CALLBACK structure, PMINIDUMP_INCLUDE_THREAD_CALLBACK, PMINIDUMP_INCLUDE_THREAD_CALLBACK structure pointer, _MINIDUMP_INCLUDE_THREAD_CALLBACK, _win32_minidump_include_thread_callback_str, base.minidump_include_thread_callback_str, minidumpapiset/MINIDUMP_INCLUDE_THREAD_CALLBACK, minidumpapiset/PMINIDUMP_INCLUDE_THREAD_CALLBACK'
-ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_INCLUDE_THREAD_CALLBACK
 dev_langs:

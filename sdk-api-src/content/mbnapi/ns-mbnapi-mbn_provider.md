@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: f4a02ca2-6be4-4843-a657-5d5dde8be623
 ms.date: 12/05/2018
 ms.keywords: MBN_PROVIDER, MBN_PROVIDER structure [Microsoft Broadband Networks], mbn.mbn_provider, mbnapi/MBN_PROVIDER
-ms.topic: struct
 f1_keywords:
 - mbnapi/MBN_PROVIDER
 dev_langs:
@@ -62,7 +61,7 @@ The <b>MBN_PROVIDER</b> structure represents a network service provider.  It is 
 
 ### -field providerID
 
-Contains the provider ID.  For GSM networks, this string is a concatenation of a 3-digit mobile country code (MCC) and a 2- or 3-digit mobile network code (MNC).  For CDMA networks, this string is a 5-digit SID.  The maximum length of this string is defined by <b>MBN_PROVIDERID_LEN</b> from <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_provider_constants">MBN_PROVIDER_CONSTANTS</a>.  The caller must free this string by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
+Contains the provider ID.  For GSM networks, this string is a concatenation of a 3-digit mobile country code (MCC) and a 2- or 3-digit mobile network code (MNC).  For CDMA networks, this string is a 5-digit SID.  The maximum length of this string is defined by <b>MBN_PROVIDERID_LEN</b> from <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_provider_constants">MBN_PROVIDER_CONSTANTS</a>.  The caller must free this string by calling <a href="https://msdn.microsoft.com/library/ms221481.aspx">SysFreeString</a>.
 
 
 ### -field providerState
@@ -72,7 +71,7 @@ Contains a bitwise OR combination of <a href="https://docs.microsoft.com/windows
 
 ### -field providerName
 
-Contains the provider name.  The contents of this member should be ignored when setting the preferred provider list.  The maximum length of this string is defined by <b>MBN_PROVIDERNAME_LEN</b> from <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_provider_constants">MBN_PROVIDER_CONSTANTS</a>.  The string can be empty.  The caller must free this string by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.  
+Contains the provider name.  The contents of this member should be ignored when setting the preferred provider list.  The maximum length of this string is defined by <b>MBN_PROVIDERNAME_LEN</b> from <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_provider_constants">MBN_PROVIDER_CONSTANTS</a>.  The string can be empty.  The caller must free this string by calling <a href="https://msdn.microsoft.com/library/ms221481.aspx">SysFreeString</a>.  
 
 
 ### -field dataClass

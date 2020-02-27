@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 02B5F96E-EA8B-407F-98D8-BF6BFF72B346
 ms.date: 12/05/2018
 ms.keywords: GetCompressedSize, GetCompressedSize method [App packaging and management], GetCompressedSize method [App packaging and management],IAppxBlockMapBlock interface, IAppxBlockMapBlock interface [App packaging and management],GetCompressedSize method, IAppxBlockMapBlock.GetCompressedSize, IAppxBlockMapBlock::GetCompressedSize, appxpackaging/IAppxBlockMapBlock::GetCompressedSize, appxpkg.iappxblockmapblock_getcompressedsize
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxBlockMapBlock.GetCompressedSize
 dev_langs:

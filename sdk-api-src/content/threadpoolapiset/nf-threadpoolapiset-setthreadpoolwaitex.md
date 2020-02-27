@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 0653D169-CE6B-4D8F-A640-F49B2BCBBF61
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolWaitEx, SetThreadpoolWaitEx function, base.setthreadpoolwaitex, threadpoolapiset/SetThreadpoolWaitEx
-ms.topic: function
 f1_keywords:
 - threadpoolapiset/SetThreadpoolWaitEx
 dev_langs:

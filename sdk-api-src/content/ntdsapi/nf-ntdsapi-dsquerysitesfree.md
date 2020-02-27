@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 810caa4f-8275-4ad8-ad3e-72061fc073dd
 ms.date: 12/05/2018
 ms.keywords: DsQuerySitesFree, DsQuerySitesFree function [Active Directory], ad.dsquerysitesfree, ntdsapi/DsQuerySitesFree
-ms.topic: function
 f1_keywords:
 - ntdsapi/DsQuerySitesFree
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 77bd81fe-bcbd-4bcd-9d3a-dd9fe6154337
 ms.date: 12/05/2018
 ms.keywords: MFCreateSinkWriterFromMediaSink, MFCreateSinkWriterFromMediaSink function [Media Foundation], mf.mfcreatesinkwriterfrommediasink, mfreadwrite/MFCreateSinkWriterFromMediaSink
-ms.topic: function
 f1_keywords:
 - mfreadwrite/MFCreateSinkWriterFromMediaSink
 dev_langs:

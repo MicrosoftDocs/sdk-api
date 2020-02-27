@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 663ccafe-0456-406e-a50d-e17e6d85a9a1
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_GROUP_NODE_LIST, PCLUSAPI_SET_CLUSTER_GROUP_NODE_LIST function [Failover Cluster], SetClusterGroupNodeList, SetClusterGroupNodeList function [Failover Cluster], _wolf_setclustergroupnodelist, clusapi/PCLUSAPI_SET_CLUSTER_GROUP_NODE_LIST, clusapi/SetClusterGroupNodeList, mscs.setclustergroupnodelist
-ms.topic: function
 f1_keywords:
 - clusapi/SetClusterGroupNodeList
 dev_langs:

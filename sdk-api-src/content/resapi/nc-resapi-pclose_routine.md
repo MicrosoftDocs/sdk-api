@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: c7c74440-c98a-4440-8bf4-10ebd1a68608
 ms.date: 12/05/2018
 ms.keywords: Close, PCLOSE_ROUTINE, PCLOSE_ROUTINE callback, PCLOSE_ROUTINE callback function [Failover Cluster], _wolf_close, mscs.close, resapi/PCLOSE_ROUTINE
-ms.topic: callback
 f1_keywords:
 - resapi/PCLOSE_ROUTINE
 dev_langs:

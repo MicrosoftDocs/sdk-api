@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: D20AE05F-466F-44B6-972A-06AA872FF7BA
 ms.date: 12/05/2018
 ms.keywords: GetXpsOMPackageWriter, GetXpsOMPackageWriter method [XPS Documents and Packaging], GetXpsOMPackageWriter method [XPS Documents and Packaging],IXpsDocumentPackageTarget interface, IXpsDocumentPackageTarget interface [XPS Documents and Packaging],GetXpsOMPackageWriter method, IXpsDocumentPackageTarget.GetXpsOMPackageWriter, IXpsDocumentPackageTarget::GetXpsOMPackageWriter, xps.ixpsdocumentpackagetarget_getxpsompackagewriter, xpsobjectmodel_1/IXpsDocumentPackageTarget::GetXpsOMPackageWriter
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel_1/IXpsDocumentPackageTarget.GetXpsOMPackageWriter
 dev_langs:

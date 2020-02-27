@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 0993861d-ef2a-4da5-a564-7559e7c4dcec
 ms.date: 12/05/2018
 ms.keywords: GetFormattedText, GetFormattedText method [Text Services Framework], GetFormattedText method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetFormattedText method, ITextStoreACP2.GetFormattedText, ITextStoreACP2::GetFormattedText, textstor/ITextStoreACP2::GetFormattedText, tsf.itextstoreacp2_getformattedtext
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreACP2.GetFormattedText
 dev_langs:

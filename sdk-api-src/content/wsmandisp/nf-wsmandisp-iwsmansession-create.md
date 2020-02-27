@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 7e8b561e-c724-427b-88a0-34a6c8a9c6bd
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Windows Remote Management], Create method [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Create method, IWSManSession.Create, IWSManSession::Create, winrm.iwsmansession_create, wsmandisp/IWSManSession::Create
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManSession.Create
 dev_langs:
@@ -68,7 +67,7 @@ This parameter can contain one of the following:
 <li>URI with one or more  <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">selectors</a>. Be aware that the <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">WMI plug-in</a> does not support creating any resource other than a WS-Management protocol listener.</li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/WinRM/resourcelocator">ResourceLocator</a> object which may contain selectors,  <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">fragments</a>, or <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">options</a>.</li>
-<li><a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">WS-Addressing</a> endpoint reference as described in the WS-Management protocol  standard.  For more information about the public specification for the WS-Management protocol, see  <a href="http://go.microsoft.com/fwlink/p/?linkid=84316">Management Specifications Index Page</a>.</li>
+<li><a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">WS-Addressing</a> endpoint reference as described in the WS-Management protocol  standard.  For more information about the public specification for the WS-Management protocol, see  <a href="https://msdn.microsoft.com/library/ms951267.aspx">Management Specifications Index Page</a>.</li>
 </ul>
 
 ### -param resource [in]

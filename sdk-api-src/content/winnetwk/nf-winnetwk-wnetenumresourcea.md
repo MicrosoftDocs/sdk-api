@@ -7,7 +7,6 @@ tech.root: WNet
 ms.assetid: 2c58c6d0-d5fe-447e-be39-df34072c160e
 ms.date: 12/05/2018
 ms.keywords: WNetEnumResource, WNetEnumResource function [Windows Networking (WNet)], WNetEnumResourceA, WNetEnumResourceW, _win32_wnetenumresource, winnetwk/WNetEnumResource, winnetwk/WNetEnumResourceA, winnetwk/WNetEnumResourceW, wnet.wnetenumresource
-ms.topic: function
 f1_keywords:
 - winnetwk/WNetEnumResource
 dev_langs:
@@ -81,7 +80,7 @@ If the function succeeds, on return the variable pointed to by this parameter co
 ### -param lpBuffer [out]
 
 Pointer to the buffer that receives the enumeration results. The results are returned as an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structures. Note that the buffer you allocate must be large enough to hold the structures, plus the strings to which their members point. For more information, see the following Remarks section. 
+<a href="https://docs.microsoft.com/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structures. Note that the buffer you allocate must be large enough to hold the structures, plus the strings to which their members point. For more information, see the following Remarks section. 
 
 
 

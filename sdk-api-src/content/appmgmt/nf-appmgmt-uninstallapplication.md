@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: d45494e2-d86e-4d94-a158-4024eacf46a2
 ms.date: 12/05/2018
 ms.keywords: UninstallApplication, UninstallApplication function [Group Policy], appmgmt/UninstallApplication, policy.uninstallapplication
-ms.topic: function
 f1_keywords:
 - appmgmt/UninstallApplication
 dev_langs:

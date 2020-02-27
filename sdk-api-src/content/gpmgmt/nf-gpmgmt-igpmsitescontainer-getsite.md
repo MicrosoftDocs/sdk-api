@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: f8b459d0-d0f5-48b1-8870-487a1645ae7a
 ms.date: 12/05/2018
 ms.keywords: GPMSitesContainer class [GPMC],GetSite method, GetSite, GetSite method [GPMC], GetSite method [GPMC],GPMSitesContainer class, GetSite method [GPMC],IGPMSitesContainer interface, IGPMSitesContainer interface [GPMC],GetSite method, IGPMSitesContainer.GetSite, IGPMSitesContainer::GetSite, _win32_igpmsitescontainer_getsite, gpmc.igpmsitescontainer_getsite, gpmgmt/IGPMSitesContainer::GetSite
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPMSitesContainer.GetSite
 dev_langs:

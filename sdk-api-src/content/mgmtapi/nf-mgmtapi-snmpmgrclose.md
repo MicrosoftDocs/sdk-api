@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: d8e7cc61-e313-4e36-88e7-686b4f9282b5
 ms.date: 12/05/2018
 ms.keywords: SnmpMgrClose, SnmpMgrClose function [SNMP], _snmp_snmpmgrclose, mgmtapi/SnmpMgrClose, snmp.snmpmgrclose
-ms.topic: function
 f1_keywords:
 - mgmtapi/SnmpMgrClose
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: 1ddc599b-5a9b-4807-9005-00793f9a6ed4
 ms.date: 12/05/2018
 ms.keywords: ISimilarityTraitsMapping, ISimilarityTraitsMapping interface [Remote Differential Compression], ISimilarityTraitsMapping interface [Remote Differential Compression],described, fs.isimilaritytraitsmapping, msrdc/ISimilarityTraitsMapping, rdc.isimilaritytraitsmapping
-ms.topic: interface
 f1_keywords:
 - msrdc/ISimilarityTraitsMapping
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: windowsribbon
 ms.assetid: 9ACDE308-B8AE-4986-8B85-190B690A4374
 ms.date: 12/05/2018
 ms.keywords: UI_SWATCHCOLORMODE, UI_SWATCHCOLORMODE enumeration [Windows Ribbon], UI_SWATCHCOLORMODE_MONOCHROME, UI_SWATCHCOLORMODE_NORMAL, uiribbon/UI_SWATCHCOLORMODE, uiribbon/UI_SWATCHCOLORMODE_MONOCHROME, uiribbon/UI_SWATCHCOLORMODE_NORMAL, windowsribbon.ui_swatchcolormode
-ms.topic: enum
 f1_keywords:
 - uiribbon/UI_SWATCHCOLORMODE
 dev_langs:

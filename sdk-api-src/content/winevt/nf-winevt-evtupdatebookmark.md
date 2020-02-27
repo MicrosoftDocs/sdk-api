@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: aa31f0cf-b37a-40bb-922e-2b987b8a9dcf
 ms.date: 12/05/2018
 ms.keywords: EvtUpdateBookmark, EvtUpdateBookmark function [EventLog], wes.evtupdatebookmark, winevt/EvtUpdateBookmark
-ms.topic: function
 f1_keywords:
 - winevt/EvtUpdateBookmark
 dev_langs:

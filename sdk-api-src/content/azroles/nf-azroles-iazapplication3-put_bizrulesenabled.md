@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 92303a5d-a705-4003-890e-e75886451c18
 ms.date: 12/05/2018
 ms.keywords: BizRulesEnabled property [Security], BizRulesEnabled property [Security],IAzApplication3 interface, IAzApplication3 interface [Security],BizRulesEnabled property, IAzApplication3.BizRulesEnabled, IAzApplication3.put_BizRulesEnabled, IAzApplication3::BizRulesEnabled, IAzApplication3::get_BizRulesEnabled, IAzApplication3::put_BizRulesEnabled, azroles/IAzApplication3::BizRulesEnabled, azroles/IAzApplication3::get_BizRulesEnabled, azroles/IAzApplication3::put_BizRulesEnabled, put_BizRulesEnabled, security.iazapplication3_bizrulesenabled
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplication3.BizRulesEnabled
 dev_langs:

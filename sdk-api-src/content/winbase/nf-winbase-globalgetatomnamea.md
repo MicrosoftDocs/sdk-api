@@ -7,7 +7,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\globalgetatomname.htm
 ms.date: 12/05/2018
 ms.keywords: GlobalGetAtomName, GlobalGetAtomName function [Data Exchange], GlobalGetAtomNameA, GlobalGetAtomNameW, _win32_GlobalGetAtomName, _win32_globalgetatomname_cpp, dataxchg.globalgetatomname, winbase/GlobalGetAtomName, winbase/GlobalGetAtomNameA, winbase/GlobalGetAtomNameW, winui._win32_globalgetatomname
-ms.topic: function
 f1_keywords:
 - winbase/GlobalGetAtomName
 dev_langs:

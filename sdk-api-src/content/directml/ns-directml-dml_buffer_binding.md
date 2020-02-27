@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 05BF22D6-D660-4A80-AFE3-27D7BF2D8BDE
 ms.date: 12/5/2018
 ms.keywords: DML_BUFFER_BINDING, DML_BUFFER_BINDING structure, direct3d12.dml_buffer_binding, directml/DML_BUFFER_BINDING
-ms.topic: struct
 f1_keywords:
 - directml/DML_BUFFER_BINDING
 dev_langs:

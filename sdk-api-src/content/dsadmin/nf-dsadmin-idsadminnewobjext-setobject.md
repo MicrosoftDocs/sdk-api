@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: e6dbb0ed-e20e-49c7-8247-d5688be93d8e
 ms.date: 12/05/2018
 ms.keywords: IDsAdminNewObjExt interface [Active Directory],SetObject method, IDsAdminNewObjExt.SetObject, IDsAdminNewObjExt::SetObject, SetObject, SetObject method [Active Directory], SetObject method [Active Directory],IDsAdminNewObjExt interface, _glines_idsadminnewobjext_setobject, ad.idsadminnewobjext__setobject, ad.idsadminnewobjext_setobject, dsadmin/IDsAdminNewObjExt::SetObject
-ms.topic: method
 f1_keywords:
 - dsadmin/IDsAdminNewObjExt.SetObject
 dev_langs:
@@ -60,7 +59,7 @@ The <b>IDsAdminNewObjExt::SetObject</b> method provides the object creation exte
 
 ### -param pADsObj [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a> interface for the object. This parameter may be <b>NULL</b>. If this object is to be kept beyond the scope of this method, the reference count must be incremented by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> or <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a> interface for the object. This parameter may be <b>NULL</b>. If this object is to be kept beyond the scope of this method, the reference count must be incremented by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> or <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>.
 
 
 ## -returns
@@ -89,7 +88,7 @@ The method should always return <b>S_OK</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>
  
 
  

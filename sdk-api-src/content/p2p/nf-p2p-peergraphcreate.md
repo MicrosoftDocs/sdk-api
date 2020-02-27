@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 62e3ec57-378c-4322-9ad4-a40d98e03dab
 ms.date: 12/05/2018
 ms.keywords: PeerGraphCreate, PeerGraphCreate function [Peer Networking], p2p.peergraphcreate, p2p/PeerGraphCreate
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphCreate
 dev_langs:

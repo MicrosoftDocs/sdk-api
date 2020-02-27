@@ -7,7 +7,6 @@ tech.root: TBS
 ms.assetid: 1b2093b3-6e5e-4289-9b1b-48027ded0fac
 ms.date: 12/05/2018
 ms.keywords: '*PTBS_CONTEXT_PARAMS, TBS_CONTEXT_PARAMS, TBS_CONTEXT_PARAMS structure [TBS], tbs.tbs_context_params, tbs/TBS_CONTEXT_PARAMS'
-ms.topic: struct
 f1_keywords:
 - tbs/TBS_CONTEXT_PARAMS
 dev_langs:

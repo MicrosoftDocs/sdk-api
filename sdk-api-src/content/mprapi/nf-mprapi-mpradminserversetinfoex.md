@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 6109d6e0-21ce-4837-9e94-83318c9af3d8
 ms.date: 12/05/2018
 ms.keywords: MprAdminServerSetInfoEx, MprAdminServerSetInfoEx function [RAS], mprapi/MprAdminServerSetInfoEx, rras.mpradminserversetinfoex
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminServerSetInfoEx
 dev_langs:

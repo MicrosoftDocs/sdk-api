@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbaddbitmap.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPTBADDBITMAP, IDB_HIST_DISABLED, IDB_HIST_HOT, IDB_HIST_NORMAL, IDB_HIST_PRESSED, IDB_STD_LARGE_COLOR, IDB_STD_SMALL_COLOR, IDB_VIEW_LARGE_COLOR, IDB_VIEW_SMALL_COLOR, LPTBADDBITMAP, LPTBADDBITMAP structure pointer [Windows Controls], TBADDBITMAP, TBADDBITMAP structure [Windows Controls], _win32_TBADDBITMAP, _win32_TBADDBITMAP_cpp, commctrl/LPTBADDBITMAP, commctrl/TBADDBITMAP, controls.TBADDBITMAP, controls._win32_TBADDBITMAP'
-ms.topic: struct
 f1_keywords:
 - commctrl/TBADDBITMAP
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: f99e8718-853b-4d35-98ae-61a8333dbaba
 ms.date: 12/05/2018
 ms.keywords: FCIAddFile, FCIAddFile function [Windows API], fci/FCIAddFile, tcompTYPE_MSZIP, tcompTYPE_NONE, winprog.fciaddfile
-ms.topic: function
 f1_keywords:
 - fci/FCIAddFile
 dev_langs:

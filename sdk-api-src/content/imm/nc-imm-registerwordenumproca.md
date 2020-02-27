@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 06038c87-3553-47de-ba9f-b9c65ea9920b
 ms.date: 12/05/2018
 ms.keywords: EnumRegisterWordProc, EnumRegisterWordProc callback function [Internationalization for Windows Applications], EnumRegisterWordProcA, EnumRegisterWordProcW, REGISTERWORDENUMPROC, REGISTERWORDENUMPROC callback, REGISTERWORDENUMPROCA, REGISTERWORDENUMPROCW, _win32_EnumRegisterWordProc, imm/EnumRegisterWordProc, imm/EnumRegisterWordProcA, imm/EnumRegisterWordProcW, intl.enumregisterwordproc
-ms.topic: callback
 f1_keywords:
 - imm/EnumRegisterWordProc
 dev_langs:

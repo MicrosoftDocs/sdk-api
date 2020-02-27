@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 855c9f10-9f40-4c60-a669-551fa51133f5
 ms.date: 12/05/2018
 ms.keywords: IDelayedPropertyStoreFactory, IDelayedPropertyStoreFactory interface [Windows Shell], IDelayedPropertyStoreFactory interface [Windows Shell],described, _shell_IDelayedPropertyStoreFactory, propsys/IDelayedPropertyStoreFactory, shell.IDelayedPropertyStoreFactory
-ms.topic: interface
 f1_keywords:
 - propsys/IDelayedPropertyStoreFactory
 dev_langs:

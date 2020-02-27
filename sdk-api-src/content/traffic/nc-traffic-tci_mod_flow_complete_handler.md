@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 61afc465-d942-4db7-96ee-56f3f1c3cafa
 ms.date: 12/05/2018
 ms.keywords: ClModifyFlowComplete, ClModifyFlowComplete callback, ClModifyFlowComplete callback function [QOS], TCI_MOD_FLOW_COMPLETE_HANDLER, TCI_MOD_FLOW_COMPLETE_HANDLER callback function [QOS], _gqos_clmodifyflowcomplete, qos.clmodifyflowcomplete, traffic/ClModifyFlowComplete
-ms.topic: callback
 f1_keywords:
 - traffic/TCI_MOD_FLOW_COMPLETE_HANDLER
 dev_langs:

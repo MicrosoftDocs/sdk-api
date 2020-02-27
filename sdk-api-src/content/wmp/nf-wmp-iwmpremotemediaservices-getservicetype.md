@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 866e7ee7-5df1-4e6b-8b41-85c6ff8b64d5
 ms.date: 12/05/2018
 ms.keywords: GetServiceType, GetServiceType method [Windows Media Player], GetServiceType method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetServiceType method, IWMPRemoteMediaServices.GetServiceType, IWMPRemoteMediaServices::GetServiceType, IWMPRemoteMediaServicesGetServiceType, wmp.iwmpremotemediaservices_getservicetype, wmp/IWMPRemoteMediaServices::GetServiceType
-ms.topic: method
 f1_keywords:
 - wmp/IWMPRemoteMediaServices.GetServiceType
 dev_langs:
@@ -137,7 +136,7 @@ For Windows Media Player 11, an application that embeds the Player control remot
 
 NoDialogs, FindFolders, and Exclusive:<i>keyname</i> are valid only when combined with Remote. These values are not supported when combined with Local.
 
-The RemoteNoDialogs value is supported for backward compatibility with Windows Media Player 9 Series. (See <a href="http://go.microsoft.com/fwlink/p/?linkid=28632">Microsoft Knowledge Base Article - 819756</a> for more information.) For Windows Media Player 10, the recommended usage is "Remote NoDialogs".
+The RemoteNoDialogs value is supported for backward compatibility with Windows Media Player 9 Series. (See <a href="https://support.microsoft.com/?id=819756">Microsoft Knowledge Base Article - 819756</a> for more information.) For Windows Media Player 10, the recommended usage is "Remote NoDialogs".
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 

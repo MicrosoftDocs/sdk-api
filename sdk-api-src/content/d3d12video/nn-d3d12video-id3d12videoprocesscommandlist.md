@@ -5,7 +5,6 @@ description: Encapsulates a list of graphics commands for video processing.
 tech.root: mf
 ms.assetid: 6dab346e-f838-4881-b758-80cad037511b
 ms.date: 05/28/2019
-ms.topic: interface
 f1_keywords:
 - ID3D12VideoProcessCommandList
 dev_langs:
@@ -39,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-Encapsulates a list of graphics commands for video processing. This interface is inherited by [ID3D12VideoProcessCommandList1](nn-d3d12video-id3d12videoprocesscommandlist1).
+Encapsulates a list of graphics commands for video processing. This interface is inherited by [ID3D12VideoProcessCommandList1](nn-d3d12video-id3d12videoprocesscommandlist1.md).
 
 
 ## -inheritance
@@ -114,4 +113,4 @@ ID3D12VideoProcessCommandList interits from ID3D12CommandList.
 
 ## -see-also
 
-[ID3D12VideoProcessCommandList1](nn-d3d12video-id3d12videoprocesscommandlist1)
+[ID3D12VideoProcessCommandList1](nn-d3d12video-id3d12videoprocesscommandlist1.md)

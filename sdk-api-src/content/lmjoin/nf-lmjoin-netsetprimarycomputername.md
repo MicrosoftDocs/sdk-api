@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 524c8219-a303-45ab-95e2-91319b477568
 ms.date: 12/05/2018
 ms.keywords: NetSetPrimaryComputerName, NetSetPrimaryComputerName function [Network Management], lmjoin/NetSetPrimaryComputerName, netmgmt.netsetprimarycomputername
-ms.topic: function
 f1_keywords:
 - lmjoin/NetSetPrimaryComputerName
 dev_langs:

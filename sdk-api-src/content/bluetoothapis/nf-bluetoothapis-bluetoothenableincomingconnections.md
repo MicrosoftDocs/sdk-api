@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 8f9c133e-e647-45c8-b2c6-372b18345637
 ms.date: 12/05/2018
 ms.keywords: BluetoothEnableIncomingConnections, BluetoothEnableIncomingConnections function [Bluetooth], bluetooth.bluetoothenableincomingconnections, bluetoothapis/BluetoothEnableIncomingConnections
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothEnableIncomingConnections
 dev_langs:

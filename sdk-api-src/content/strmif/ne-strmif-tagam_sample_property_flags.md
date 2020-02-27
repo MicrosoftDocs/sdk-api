@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d2aa2fc6-282f-4b8d-8bed-4955f60537db
 ms.date: 12/05/2018
 ms.keywords: AM_SAMPLE_DATADISCONTINUITY, AM_SAMPLE_ENDOFSTREAM, AM_SAMPLE_FLUSH_ON_PAUSE, AM_SAMPLE_PREROLL, AM_SAMPLE_PROPERTY_FLAGS , AM_SAMPLE_PROPERTY_FLAGSEnumeration, AM_SAMPLE_SPLICEPOINT, AM_SAMPLE_STOPVALID, AM_SAMPLE_TIMEDISCONTINUITY, AM_SAMPLE_TIMEVALID, AM_SAMPLE_TYPECHANGED, AM_STREAM_CONTROL, AM_STREAM_MEDIA, dshow.am_sample_property_flags, strmif/AM_SAMPLE_DATADISCONTINUITY, strmif/AM_SAMPLE_ENDOFSTREAM, strmif/AM_SAMPLE_FLUSH_ON_PAUSE, strmif/AM_SAMPLE_PREROLL, strmif/AM_SAMPLE_SPLICEPOINT, strmif/AM_SAMPLE_STOPVALID, strmif/AM_SAMPLE_TIMEDISCONTINUITY, strmif/AM_SAMPLE_TIMEVALID, strmif/AM_SAMPLE_TYPECHANGED, strmif/AM_STREAM_CONTROL, strmif/AM_STREAM_MEDIA, strmif/tagAM_SAMPLE_PROPERTY_FLAGS, tagAM_SAMPLE_PROPERTY_FLAGS, tagAM_SAMPLE_PROPERTY_FLAGS enumeration [DirectShow]
-ms.topic: enum
 f1_keywords:
 - strmif/tagAM_SAMPLE_PROPERTY_FLAGS
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies values for the <b>dwSampleFlags</b> and <b>dwStreamId</b> members of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure. These values describe the properties of media samples.
+Specifies values for the [AM_SAMPLE2_PROPERTIES](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure. These values describe the properties of media samples.
 
 
 
@@ -93,7 +92,7 @@ Time is valid.
 
 ### -field AM_SAMPLE_TIMEDISCONTINUITY
 
-A time gap in the data starts after this sample. The <b>pbBuffer</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure can be <b>NULL</b> in this case.
+A time gap in the data starts after this sample. The [AM_SAMPLE2_PROPERTIES](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure can be <b>NULL</b> in this case.
 
 
 ### -field AM_SAMPLE_FLUSH_ON_PAUSE

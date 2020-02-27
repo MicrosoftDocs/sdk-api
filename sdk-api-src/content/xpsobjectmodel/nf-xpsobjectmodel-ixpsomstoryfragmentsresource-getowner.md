@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8dc44277-d296-4747-8dd7-8901a94b5213
 ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMStoryFragmentsResource interface, IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging],GetOwner method, IXpsOMStoryFragmentsResource.GetOwner, IXpsOMStoryFragmentsResource::GetOwner, xps.ixpsomstoryfragmentsresource_getowner, xpsobjectmodel/IXpsOMStoryFragmentsResource::GetOwner
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMStoryFragmentsResource.GetOwner
 dev_langs:
@@ -85,7 +84,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

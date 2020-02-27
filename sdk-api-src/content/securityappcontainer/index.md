@@ -1,9 +1,10 @@
 ---
 UID: NA:securityappcontainer
+title: Securityappcontainer.h header
 ms.assetid: 31527063-96fa-3a04-884d-1fbae6c1ed11
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: security
 ---
 

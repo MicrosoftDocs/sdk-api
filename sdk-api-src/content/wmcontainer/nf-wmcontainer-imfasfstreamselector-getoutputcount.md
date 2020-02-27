@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 09f00f52-f897-46f0-afb9-ae59913e04a1
 ms.date: 12/05/2018
 ms.keywords: 09f00f52-f897-46f0-afb9-ae59913e04a1, GetOutputCount, GetOutputCount method [Media Foundation], GetOutputCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputCount method, IMFASFStreamSelector.GetOutputCount, IMFASFStreamSelector::GetOutputCount, mf.imfasfstreamselector_getoutputcount, wmcontainer/IMFASFStreamSelector::GetOutputCount
-ms.topic: method
 f1_keywords:
 - wmcontainer/IMFASFStreamSelector.GetOutputCount
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreU565(XMU565@,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreU565, XMStoreU565, XMStoreU565 method [DirectX Math Support APIs], dxmath.xmstoreu565
-ms.topic: function
 f1_keywords:
 - directxpackedvector/XMStoreU565
 dev_langs:

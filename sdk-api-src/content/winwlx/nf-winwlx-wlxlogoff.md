@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: bbeafd41-fe01-497d-8514-a6c088a11d73
 ms.date: 12/05/2018
 ms.keywords: WlxLogoff, WlxLogoff function [Security], _gina_wlxlogoff, security.wlxlogoff, winwlx/WlxLogoff
-ms.topic: function
 f1_keywords:
 - winwlx/WlxLogoff
 dev_langs:

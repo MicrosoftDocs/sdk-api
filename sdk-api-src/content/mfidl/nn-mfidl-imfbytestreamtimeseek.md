@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: BD9EDFF7-46BA-4788-A44E-C69C4B0BEB50
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamTimeSeek, IMFByteStreamTimeSeek interface [Media Foundation], IMFByteStreamTimeSeek interface [Media Foundation],described, mf.imfbytestreamtimeseek, mfidl/IMFByteStreamTimeSeek
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFByteStreamTimeSeek
 dev_langs:
@@ -104,7 +103,7 @@ Seeks to a new position in the byte stream.
 
 A byte stream can implement this interface if it supports time-based seeking. For example, a byte stream that reads data from a server  might implement the interface. Typically, a local file-based byte stream would not implement it.
 
-To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the byte stream object.
+To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the byte stream object.
 
 
 

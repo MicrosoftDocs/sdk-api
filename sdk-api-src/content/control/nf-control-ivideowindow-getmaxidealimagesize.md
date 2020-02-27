@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ee9f6803-c8b8-48e0-9be0-3d61a453014e
 ms.date: 12/05/2018
 ms.keywords: GetMaxIdealImageSize, GetMaxIdealImageSize method [DirectShow], GetMaxIdealImageSize method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetMaxIdealImageSize method, IVideoWindow.GetMaxIdealImageSize, IVideoWindow::GetMaxIdealImageSize, IVideoWindowGetMaxIdealImageSize, control/IVideoWindow::GetMaxIdealImageSize, dshow.ivideowindow_getmaxidealimagesize
-ms.topic: method
 f1_keywords:
 - control/IVideoWindow.GetMaxIdealImageSize
 dev_langs:

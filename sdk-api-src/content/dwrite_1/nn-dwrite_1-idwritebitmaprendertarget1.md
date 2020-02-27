@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 5A7D2723-932B-4707-ABCC-0C0282FB7A56
 ms.date: 12/05/2018
 ms.keywords: IDWriteBitmapRenderTarget1, IDWriteBitmapRenderTarget1 interface [Direct Write], IDWriteBitmapRenderTarget1 interface [Direct Write],described, directwrite.idwritebitmaprendertarget1, dwrite_1/IDWriteBitmapRenderTarget1
-ms.topic: interface
 f1_keywords:
 - dwrite_1/IDWriteBitmapRenderTarget1
 dev_langs:

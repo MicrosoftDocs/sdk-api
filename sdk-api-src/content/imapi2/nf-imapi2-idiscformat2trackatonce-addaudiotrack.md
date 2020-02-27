@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 3ac74b91-b0c7-471f-b6a9-1393d677e0c1
 ms.date: 12/05/2018
 ms.keywords: AddAudioTrack, AddAudioTrack method [IMAPI], AddAudioTrack method [IMAPI],IDiscFormat2TrackAtOnce interface, IDiscFormat2TrackAtOnce interface [IMAPI],AddAudioTrack method, IDiscFormat2TrackAtOnce.AddAudioTrack, IDiscFormat2TrackAtOnce::AddAudioTrack, imapi.idiscformat2trackatonce_addaudiotrack, imapi2/IDiscFormat2TrackAtOnce::AddAudioTrack
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2TrackAtOnce.AddAudioTrack
 dev_langs:

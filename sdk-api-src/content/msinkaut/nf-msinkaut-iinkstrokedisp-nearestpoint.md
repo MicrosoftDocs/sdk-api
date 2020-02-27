@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 87c01f9d-b48a-459c-99f8-9634e1693fa0
 ms.date: 12/05/2018
 ms.keywords: 87c01f9d-b48a-459c-99f8-9634e1693fa0, IInkStrokeDisp interface [Tablet PC],NearestPoint method, IInkStrokeDisp.NearestPoint, IInkStrokeDisp::NearestPoint, NearestPoint, NearestPoint method [Tablet PC], NearestPoint method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::NearestPoint, tablet.iinkstrokedisp_nearestpoint
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkStrokeDisp.NearestPoint
 dev_langs:

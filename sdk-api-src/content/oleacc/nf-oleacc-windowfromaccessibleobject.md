@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: b3a3d3dd-ef84-4323-ab6d-6331d8389f11
 ms.date: 12/05/2018
 ms.keywords: WindowFromAccessibleObject, WindowFromAccessibleObject function [Windows Accessibility], _msaa_WindowFromAccessibleObject, msaa.windowfromaccessibleobject, oleacc/WindowFromAccessibleObject, winauto.windowfromaccessibleobject
-ms.topic: function
 f1_keywords:
 - oleacc/WindowFromAccessibleObject
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 401362a3-ee68-4af1-9ea5-c871c060ef33
 ms.date: 12/05/2018
 ms.keywords: GetQuotaUsedText, GetQuotaUsedText method [Files], GetQuotaUsedText method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaUsedText method, IDiskQuotaUser.GetQuotaUsedText, IDiskQuotaUser::GetQuotaUsedText, _win32_idiskquotauser_getquotausedtext, base.idiskquotauser_getquotausedtext, dskquota/IDiskQuotaUser::GetQuotaUsedText, fs.idiskquotauser_getquotausedtext
-ms.topic: method
 f1_keywords:
 - dskquota/IDiskQuotaUser.GetQuotaUsedText
 dev_langs:

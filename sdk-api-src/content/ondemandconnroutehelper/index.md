@@ -1,9 +1,10 @@
 ---
 UID: NA:ondemandconnroutehelper
+title: Ondemandconnroutehelper.h header
 ms.assetid: 19bc0dc5-3115-393e-8c4b-33a92129b898
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: nla
 ---
 

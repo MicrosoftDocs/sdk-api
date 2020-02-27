@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: bb246c82-8748-4e2f-9f44-a206199aff90
 ms.date: 12/05/2018
 ms.keywords: PdhGetRawCounterValue, PdhGetRawCounterValue function [Perf], _win32_pdhgetrawcountervalue, base.pdhgetrawcountervalue, pdh/PdhGetRawCounterValue, perf.pdhgetrawcountervalue
-ms.topic: function
 f1_keywords:
 - pdh/PdhGetRawCounterValue
 dev_langs:
@@ -67,7 +66,7 @@ Handle of the counter from which to retrieve the current raw value. The
 
 ### -param lpdwType [out]
 
-Receives the counter type. For a list of counter types, see the Counter Types section of the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84422">Windows Server 2003 Deployment Kit</a>. This parameter is optional.
+Receives the counter type. For a list of counter types, see the Counter Types section of the <a href="https://technet.microsoft.com/library/3fb01419-b1ab-4f52-a9f8-09d5ebeb9ef2">Windows Server 2003 Deployment Kit</a>. This parameter is optional.
 
 
 ### -param pValue [out]

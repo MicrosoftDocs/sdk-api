@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 49137921-7354-4080-8684-148beb919f01
 ms.date: 12/05/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_CancelCallWaitingCode method, ITLocationInfo.get_CancelCallWaitingCode, ITLocationInfo::get_CancelCallWaitingCode, _tapi3_itlocationinfo_get_cancelcallwaitingcode, get_CancelCallWaitingCode, get_CancelCallWaitingCode method [TAPI 2.2], get_CancelCallWaitingCode method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_cancelcallwaitingcode, tapi3if/ITLocationInfo::get_CancelCallWaitingCode
-ms.topic: method
 f1_keywords:
 - tapi3if/ITLocationInfo.get_CancelCallWaitingCode
 dev_langs:

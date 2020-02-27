@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: acda4e37-2dd0-4322-90fc-8f48d6842054
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSink interface [Media Foundation],Shutdown method, IMFMediaSink.Shutdown, IMFMediaSink::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaSink interface, acda4e37-2dd0-4322-90fc-8f48d6842054, mf.imfmediasink_shutdown, mfidl/IMFMediaSink::Shutdown
-ms.topic: method
 f1_keywords:
 - mfidl/IMFMediaSink.Shutdown
 dev_langs:

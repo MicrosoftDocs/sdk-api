@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 0106867c-e8c5-4826-8cba-60c29e1d021a
 ms.date: 12/05/2018
 ms.keywords: DPtoLP, DPtoLP function [Windows GDI], _win32_DPtoLP, gdi.dptolp, wingdi/DPtoLP
-ms.topic: function
 f1_keywords:
 - wingdi/DPtoLP
 dev_langs:

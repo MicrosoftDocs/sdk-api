@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 9583365d-b318-49e2-a32f-f6cc9d3f289d
 ms.date: 12/05/2018
 ms.keywords: IMPEG2_TIF_CONTROL, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies], IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],described, IMPEG2_TIF_CONTROLInterface, bdatif/IMPEG2_TIF_CONTROL, mstv.impeg2_tif_control
-ms.topic: interface
 f1_keywords:
 - bdatif/IMPEG2_TIF_CONTROL
 dev_langs:

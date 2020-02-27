@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: a176ce92-761f-48fd-b9e8-01990176df27
 ms.date: 12/05/2018
 ms.keywords: GetFieldMarshal, GetFieldMarshal method [Windows Runtime], GetFieldMarshal method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetFieldMarshal method, IMetaDataImport.GetFieldMarshal, IMetaDataImport::GetFieldMarshal, rometadataapi/IMetaDataImport::GetFieldMarshal, winrt.imetadataimport_getfieldmarshal
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataImport.GetFieldMarshal
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 9215684b-979e-48ad-b4ee-2ae1db1e3034
 ms.date: 12/05/2018
 ms.keywords: WsCreateServiceProxy, WsCreateServiceProxy function [Web Services for Windows], webservices/WsCreateServiceProxy, wsw.wscreateserviceproxy
-ms.topic: function
 f1_keywords:
 - webservices/WsCreateServiceProxy
 dev_langs:

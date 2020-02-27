@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f40b6ed0-6e75-4f0a-abcc-f13d961df678
 ms.date: 12/05/2018
 ms.keywords: GetGeometryLookup, GetGeometryLookup method [XPS Documents and Packaging], GetGeometryLookup method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetGeometryLookup method, IXpsOMPath.GetGeometryLookup, IXpsOMPath::GetGeometryLookup, xps.ixpsompath_getgeometrylookup, xpsobjectmodel/IXpsOMPath::GetGeometryLookup
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.GetGeometryLookup
 dev_langs:
@@ -162,7 +161,7 @@ This method allocates the memory used by the string that is returned in <i>looku
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

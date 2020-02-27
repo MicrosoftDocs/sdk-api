@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 0d81a4ac-dd66-4648-9f3f-1f54aca84243
 ms.date: 12/05/2018
 ms.keywords: WaitForDebugEvent, WaitForDebugEvent function, _win32_waitfordebugevent, base.waitfordebugevent, debugapi/WaitForDebugEvent
-ms.topic: function
 f1_keywords:
 - debugapi/WaitForDebugEvent
 dev_langs:

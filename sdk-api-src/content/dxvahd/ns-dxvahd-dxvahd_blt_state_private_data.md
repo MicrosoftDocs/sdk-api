@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: b85d4429-9346-4c85-8c3d-efffe0c1e63a
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_BLT_STATE_PRIVATE_DATA, DXVAHD_BLT_STATE_PRIVATE_DATA structure [Media Foundation], dxvahd/DXVAHD_BLT_STATE_PRIVATE_DATA, mf.dxvahd_blt_state_private_data
-ms.topic: struct
 f1_keywords:
 - dxvahd/DXVAHD_BLT_STATE_PRIVATE_DATA
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: ea4879b2-edf8-4542-b16a-41777c0068cd
 ms.date: 12/05/2018
 ms.keywords: SymFindDebugInfoFile, SymFindDebugInfoFile function, SymFindDebugInfoFileW, base.symfinddebuginfofile, dbghelp/SymFindDebugInfoFile, dbghelp/SymFindDebugInfoFileW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymFindDebugInfoFile
 dev_langs:

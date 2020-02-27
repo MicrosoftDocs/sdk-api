@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: af9202aa-fa4e-4726-908f-3fc5370e06df
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],setProxyExceptionList method, IWMPNetwork.setProxyExceptionList, IWMPNetwork::setProxyExceptionList, IWMPNetworksetProxyExceptionList, setProxyExceptionList, setProxyExceptionList method [Windows Media Player], setProxyExceptionList method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_setproxyexceptionlist, wmp/IWMPNetwork::setProxyExceptionList
-ms.topic: method
 f1_keywords:
 - wmp/IWMPNetwork.setProxyExceptionList
 dev_langs:

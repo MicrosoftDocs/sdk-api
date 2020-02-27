@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchviewchangedsink\isearchviewchangedsink.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchViewChangedSink, ISearchViewChangedSink interface [search], ISearchViewChangedSink interface [search],described, _search_ISearchViewChangedSink, search._search_ISearchViewChangedSink, searchapi/ISearchViewChangedSink
-ms.topic: interface
 f1_keywords:
 - searchapi/ISearchViewChangedSink
 dev_langs:

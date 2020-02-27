@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 8475dca1-2ecd-49dc-97b6-bb2823286c04
 ms.date: 12/05/2018
 ms.keywords: MFP_PAUSE_EVENT, MFP_PAUSE_EVENT structure [Media Foundation], mf.mfp_pause_event, mfplay/MFP_PAUSE_EVENT
-ms.topic: struct
 f1_keywords:
 - mfplay/MFP_PAUSE_EVENT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 342434ff-9fdc-43ea-8beb-9d518f7a9454
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientBrush interface [XPS Documents and Packaging],SetTransformLookup method, IXpsOMGradientBrush.SetTransformLookup, IXpsOMGradientBrush::SetTransformLookup, SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging],IXpsOMGradientBrush interface, xps.ixpsomgradientbrush_settransformlookup, xpsobjectmodel/IXpsOMGradientBrush::SetTransformLookup
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGradientBrush.SetTransformLookup
 dev_langs:
@@ -94,7 +93,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-According to the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
+According to the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
 
 </td>
 </tr>
@@ -215,7 +214,7 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

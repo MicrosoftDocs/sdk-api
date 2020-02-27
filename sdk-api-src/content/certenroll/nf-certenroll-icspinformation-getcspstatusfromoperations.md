@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 6b551e72-2f0a-4ae8-ba06-dff1508a7d83
 ms.date: 12/05/2018
 ms.keywords: GetCspStatusFromOperations, GetCspStatusFromOperations method [Security], GetCspStatusFromOperations method [Security],ICspInformation interface, ICspInformation interface [Security],GetCspStatusFromOperations method, ICspInformation.GetCspStatusFromOperations, ICspInformation::GetCspStatusFromOperations, certenroll/ICspInformation::GetCspStatusFromOperations, security.icspinformation_getcspstatusfromoperations
-ms.topic: method
 f1_keywords:
 - certenroll/ICspInformation.GetCspStatusFromOperations
 dev_langs:

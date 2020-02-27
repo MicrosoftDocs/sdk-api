@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 38bb2e40-e522-4155-9d2c-f6aaeea70839
 ms.date: 12/05/2018
 ms.keywords: SetupDiRestartDevices, SetupDiRestartDevices function [Device and Driver Installation], devinst.setupdirestartdevices, di-rtns_9e27f3b7-c33c-44f1-b804-521d7403ac4f.xml, setupapi/SetupDiRestartDevices
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiRestartDevices
 dev_langs:
@@ -72,7 +71,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi
 
 
 
-If the operation succeeds, <b>SetupDiRestartDevices</b> returns <b>TRUE</b>; otherwise, the function returns <b>FALSE</b> and the logged error can be retrieved by a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+If the operation succeeds, <b>SetupDiRestartDevices</b> returns <b>TRUE</b>; otherwise, the function returns <b>FALSE</b> and the logged error can be retrieved by a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 

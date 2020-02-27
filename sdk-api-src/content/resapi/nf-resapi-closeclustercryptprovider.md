@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 844D991A-6B29-4ADE-8CFE-114FD4AF7C9B
 ms.date: 12/05/2018
 ms.keywords: CloseClusterCryptProvider, CloseClusterCryptProvider function [Failover Cluster], PCLOSE_CLUSTER_CRYPT_PROVIDER, PCLOSE_CLUSTER_CRYPT_PROVIDER function [Failover Cluster], mscs.closeclustercryptprovider, resapi/CloseClusterCryptProvider, resapi/PCLOSE_CLUSTER_CRYPT_PROVIDER
-ms.topic: function
 f1_keywords:
 - resapi/CloseClusterCryptProvider
 dev_langs:

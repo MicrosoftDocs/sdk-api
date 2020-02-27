@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 2d0f03e5-a47d-4b46-a177-f462bbafe153
 ms.date: 12/05/2018
 ms.keywords: IStreamInterleave, IStreamInterleave interface [IMAPI], IStreamInterleave interface [IMAPI],described, imapi.istreaminterleave, imapi2/IStreamInterleave
-ms.topic: interface
 f1_keywords:
 - imapi2/IStreamInterleave
 dev_langs:

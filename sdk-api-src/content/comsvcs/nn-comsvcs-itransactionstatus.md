@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: df5eba93-6db7-478c-b6d7-831c20398d66
 ms.date: 12/05/2018
 ms.keywords: ITransactionStatus, ITransactionStatus interface [COM+], ITransactionStatus interface [COM+],described, _cos_ITransactionStatus, comsvcs/ITransactionStatus, cos.itransactionstatus
-ms.topic: interface
 f1_keywords:
 - comsvcs/ITransactionStatus
 dev_langs:

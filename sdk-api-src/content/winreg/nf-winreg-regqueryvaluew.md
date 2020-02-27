@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 18f27717-3bd9-45ac-a1ea-61abc1753a52
 ms.date: 12/05/2018
 ms.keywords: RegQueryValue, RegQueryValue function, RegQueryValueA, RegQueryValueW, _win32_regqueryvalue, base.regqueryvalue, winreg/RegQueryValue, winreg/RegQueryValueA, winreg/RegQueryValueW
-ms.topic: function
 f1_keywords:
 - winreg/RegQueryValue
 dev_langs:

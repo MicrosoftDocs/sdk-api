@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 82c58d97-376f-40d0-9511-32361ece8ebb
 ms.date: 12/05/2018
 ms.keywords: MPEG_DATE, MPEG_DATE structure [Microsoft TV Technologies], mpeg2structs/MPEG_DATE, mstv.mpeg_date
-ms.topic: struct
 f1_keywords:
 - mpeg2structs/MPEG_DATE
 dev_langs:

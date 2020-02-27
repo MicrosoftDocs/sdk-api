@@ -1,9 +1,10 @@
 ---
 UID: NA:rendezvoussession
+title: Rendezvoussession.h header
 ms.assetid: d76524da-6e39-368d-b19d-8e3686e62f27
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: remoteassist
 ---
 

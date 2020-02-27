@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 9a16d4e4-a03d-459d-a2ec-3258499f6932
 ms.date: 12/05/2018
 ms.keywords: DispCallFunc, DispCallFunc function [Automation], _oa96_DispCallFunc, automat.dispcallfunc, oleauto/DispCallFunc
-ms.topic: function
 f1_keywords:
 - oleauto/DispCallFunc
 dev_langs:

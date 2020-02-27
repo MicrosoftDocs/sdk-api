@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 5bf2a99a-ed6b-4ce6-9190-756393afcef0
 ms.date: 12/05/2018
 ms.keywords: GetBackingFileCount, GetBackingFileCount method [Microsoft TV Technologies], GetBackingFileCount method [Microsoft TV Technologies],IStreamBufferConfigure interface, IStreamBufferConfigure interface [Microsoft TV Technologies],GetBackingFileCount method, IStreamBufferConfigure.GetBackingFileCount, IStreamBufferConfigure::GetBackingFileCount, IStreamBufferConfigureGetBackingFileCount, mstv.istreambufferconfigure_getbackingfilecount, sbe/IStreamBufferConfigure::GetBackingFileCount
-ms.topic: method
 f1_keywords:
 - sbe/IStreamBufferConfigure.GetBackingFileCount
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 60c35bd1-b971-411b-92bf-bbed41fc984c
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_OuterFECRate method, IBDA_DigitalDemodulator.put_OuterFECRate, IBDA_DigitalDemodulator::put_OuterFECRate, IBDA_DigitalDemodulatorput_OuterFECRate, bdaiface/IBDA_DigitalDemodulator::put_OuterFECRate, mstv.ibda_digitaldemodulator_put_outerfecrate, put_OuterFECRate, put_OuterFECRate method [Microsoft TV Technologies], put_OuterFECRate method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_DigitalDemodulator.put_OuterFECRate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 455a51f4-eb01-437a-9cb9-6ff93a6cc76e
 ms.date: 12/05/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],put_MediaMajorType method, IComponentType.put_MediaMajorType, IComponentType::put_MediaMajorType, IComponentTypeput_MediaMajorType, mstv.icomponenttype_put_mediamajortype, put_MediaMajorType, put_MediaMajorType method [Microsoft TV Technologies], put_MediaMajorType method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put_MediaMajorType
-ms.topic: method
 f1_keywords:
 - tuner/IComponentType.put_MediaMajorType
 dev_langs:
@@ -80,7 +79,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a>
 
 
 

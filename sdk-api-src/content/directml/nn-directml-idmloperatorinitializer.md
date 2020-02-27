@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 86DB9277-ECA6-4D0C-82A5-88D7E9674AC7
 ms.date: 12/5/2018
 ms.keywords: IDMLOperatorInitializer, IDMLOperatorInitializer interface, IDMLOperatorInitializer interface,described, direct3d12.idmloperatorinitializer, directml/IDMLOperatorInitializer
-ms.topic: interface
 f1_keywords:
 - directml/IDMLOperatorInitializer
 dev_langs:

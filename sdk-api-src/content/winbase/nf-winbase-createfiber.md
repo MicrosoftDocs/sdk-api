@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 3e44776b-7ef2-43fb-a2ae-e8ab7e20644b
 ms.date: 12/05/2018
 ms.keywords: CreateFiber, CreateFiber function, _win32_createfiber, base.createfiber, winbase/CreateFiber
-ms.topic: function
 f1_keywords:
 - winbase/CreateFiber
 dev_langs:
@@ -68,7 +67,7 @@ To specify both a commit and reserve stack size, use the
 
 ### -param dwStackSize [in]
 
-The initial size of the stack, in bytes. If this parameter is zero, the new fiber uses the default stack size for the executable. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-stack-size">Thread Stack Size</a>.
+The initial committed size of the stack, in bytes. If this parameter is zero, the new fiber uses the default commit stack size for the executable. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-stack-size">Thread Stack Size</a>.
 
 
 ### -param lpStartAddress [in]

@@ -7,7 +7,6 @@ tech.root: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetDSoundAudioDeviceGuids(DWORD,GUID*@,GUID*@)
 ms.date: 12/05/2018
 ms.keywords: XInputGetDSoundAudioDeviceGuids, XInputGetDSoundAudioDeviceGuids function [XInput Game Controller APIs], xinput.xinputgetdsoundaudiodeviceguids, xinput/XInputGetDSoundAudioDeviceGuids
-ms.topic: function
 f1_keywords:
 - xinput/XInputGetDSoundAudioDeviceGuids
 dev_langs:

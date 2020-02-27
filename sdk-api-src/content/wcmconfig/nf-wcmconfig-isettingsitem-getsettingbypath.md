@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: a4270c46-b214-4232-b414-d6b6e4e35635
 ms.date: 12/05/2018
 ms.keywords: GetSettingByPath, GetSettingByPath method [SMI], GetSettingByPath method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetSettingByPath method, ISettingsItem.GetSettingByPath, ISettingsItem::GetSettingByPath, smi.isettingsitem_getsettingbypath, wcmconfig/ISettingsItem::GetSettingByPath
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsItem.GetSettingByPath
 dev_langs:

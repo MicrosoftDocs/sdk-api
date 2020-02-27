@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: d2eed88b-9a01-4205-a35d-92a24e07a1e2
 ms.date: 12/05/2018
 ms.keywords: IEnumCallingCard, IEnumCallingCard interface [TAPI 2.2], IEnumCallingCard interface [TAPI 2.2],described, _tapi3_ienumcallingcard, tapi3.ienumcallingcard, tapi3if/IEnumCallingCard
-ms.topic: interface
 f1_keywords:
 - tapi3if/IEnumCallingCard
 dev_langs:

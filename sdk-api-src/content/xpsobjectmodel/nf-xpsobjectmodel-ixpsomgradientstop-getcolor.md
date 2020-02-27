@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 6630d58f-d0f0-4b39-a14c-d3955f0f401a
 ms.date: 12/05/2018
 ms.keywords: GetColor, GetColor method [XPS Documents and Packaging], GetColor method [XPS Documents and Packaging],IXpsOMGradientStop interface, IXpsOMGradientStop interface [XPS Documents and Packaging],GetColor method, IXpsOMGradientStop.GetColor, IXpsOMGradientStop::GetColor, xps.ixpsomgradientstop_getcolor, xpsobjectmodel/IXpsOMGradientStop::GetColor
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGradientStop.GetColor
 dev_langs:
@@ -129,7 +128,7 @@ A color profile is only returned when the color type of <i>color</i> is <a href=
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

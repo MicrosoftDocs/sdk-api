@@ -7,7 +7,6 @@ tech.root: VStor
 ms.assetid: F6A65E00-857A-44CF-A827-747518564DAB
 ms.date: 12/05/2018
 ms.keywords: DeleteSnapshotVhdSet, DeleteSnapshotVhdSet function [VHD], vdssys/DeleteSnapshotVhdSet, vhd.deletesnapshotvhdset, virtdisk/DeleteSnapshotVhdSet
-ms.topic: function
 f1_keywords:
 - virtdisk/DeleteSnapshotVhdSet
 dev_langs:

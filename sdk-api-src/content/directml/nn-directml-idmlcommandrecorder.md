@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 1DFE0E7A-FD83-47CD-9B1D-F70D8518FA29
 ms.date: 12/5/2018
 ms.keywords: IDMLCommandRecorder, IDMLCommandRecorder interface, IDMLCommandRecorder interface,described, direct3d12.idmlcommandrecorder, directml/IDMLCommandRecorder
-ms.topic: interface
 f1_keywords:
 - directml/IDMLCommandRecorder
 dev_langs:

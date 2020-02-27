@@ -7,7 +7,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\getmousemovepointsex.htm
 ms.date: 12/05/2018
 ms.keywords: GMMP_USE_DISPLAY_POINTS, GMMP_USE_HIGH_RESOLUTION_POINTS, GetMouseMovePointsEx, GetMouseMovePointsEx function [Keyboard and Mouse Input], _win32_GetMouseMovePointsEx, _win32_getmousemovepointsex_cpp, inputdev.getmousemovepointsex, winui._win32_getmousemovepointsex, winuser/GetMouseMovePointsEx
-ms.topic: function
 f1_keywords:
 - winuser/GetMouseMovePointsEx
 dev_langs:

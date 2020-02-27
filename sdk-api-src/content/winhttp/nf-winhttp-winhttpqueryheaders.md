@@ -7,7 +7,6 @@ tech.root: WinHttp
 ms.assetid: 9656ebad-78df-4d1c-94e9-6127d6bc4799
 ms.date: 12/05/2018
 ms.keywords: WinHttpQueryHeaders, WinHttpQueryHeaders function [WinHTTP], http.winhttpqueryheaders, winhttp.winhttpqueryheaders_function, winhttp/WinHttpQueryHeaders
-ms.topic: function
 f1_keywords:
 - winhttp/WinHttpQueryHeaders
 dev_langs:

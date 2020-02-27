@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 49763cc3-be8b-4620-b99f-af787844c97c
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_InputType method, IAMTVTuner.get_InputType, IAMTVTuner::get_InputType, IAMTVTunerget_InputType, dshow.iamtvtuner_get_inputtype, get_InputType, get_InputType method [DirectShow], get_InputType method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_InputType
-ms.topic: method
 f1_keywords:
 - strmif/IAMTVTuner.get_InputType
 dev_langs:
@@ -69,7 +68,7 @@ Index value that specifies the input pin that will be set.
 
 ### -param pInputType [out]
 
-Pointer to a variable the receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-tunerinputtype">TunerInputType</a> enumeration.
+Pointer to a variable the receives a member of the [TunerInputType](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tunerinputtype) enumeration.
 
 
 ## -returns

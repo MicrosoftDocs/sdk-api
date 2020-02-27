@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 34fb1430-afde-43f2-a425-dcb25c9ea58d
 ms.date: 12/05/2018
 ms.keywords: GetPolicyServerUrl, GetPolicyServerUrl method [Security], GetPolicyServerUrl method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetPolicyServerUrl method, IX509EnrollmentPolicyServer.GetPolicyServerUrl, IX509EnrollmentPolicyServer::GetPolicyServerUrl, certenroll/IX509EnrollmentPolicyServer::GetPolicyServerUrl, security.ix509enrollmentpolicyserver_getpolicyserverurl
-ms.topic: method
 f1_keywords:
 - certenroll/IX509EnrollmentPolicyServer.GetPolicyServerUrl
 dev_langs:

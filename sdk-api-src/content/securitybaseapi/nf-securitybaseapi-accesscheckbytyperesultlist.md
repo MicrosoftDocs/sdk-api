@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: ce713421-d4ff-48ed-b751-5e5c5397d820
 ms.date: 12/05/2018
 ms.keywords: AccessCheckByTypeResultList, AccessCheckByTypeResultList function [Security], _win32_accesscheckbytyperesultlist, security.accesscheckbytyperesultlist, securitybaseapi/AccessCheckByTypeResultList
-ms.topic: function
 f1_keywords:
 - securitybaseapi/AccessCheckByTypeResultList
 dev_langs:

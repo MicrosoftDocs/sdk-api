@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 14c2ac12-6034-43f0-ac3e-ea3c6a01e39a
 ms.date: 12/05/2018
 ms.keywords: MCIWndUseFrames, MCIWndUseFrames macro [Windows Multimedia], _win32_MCIWndUseFrames, multimedia.mciwnduseframes, vfw/MCIWndUseFrames
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndUseFrames
 dev_langs:

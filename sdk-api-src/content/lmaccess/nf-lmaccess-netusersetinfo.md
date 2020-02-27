@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: ffe49d4b-e7e8-4982-8087-59bb7534b257
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 1003, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1014, 1017, 1020, 1024, 1051, 1052, 1053, 2, 21, 22, 3, 4, NetUserSetInfo, NetUserSetInfo function [Network Management], _win32_netusersetinfo, lmaccess/NetUserSetInfo, netmgmt.netusersetinfo
-ms.topic: function
 f1_keywords:
 - lmaccess/NetUserSetInfo
 dev_langs:
@@ -663,7 +662,7 @@ If the
 User account names are limited to 20 characters and group names are limited to 256 characters. In addition, account names cannot be terminated by a period and they cannot include commas or any of the following printable characters: ", /, \, [, ], :, |, &lt;, &gt;, +, =, ;, ?, *. Names also cannot include characters in the range 1-31, which are nonprintable.
 
 The 
-<b>NetUserSetInfo</b> function does not control how the password parameters are secured when sent over the network to a remote server to change a user password. Any encryption of these parameters is handled by the Remote Procedure Call (RPC) mechanism supported by the network redirector that provides the network transport. Encryption is also controlled  by the security mechanisms supported by the local computer and the security mechanisms supported by remote network server specified in the <i>servername</i>   parameter. For more details on security when the Microsoft network redirector is used and the remote network server is running Microsoft Windows, see the protocol documentation for <a href="http://go.microsoft.com/fwlink/p/?linkid=200126">MS-RPCE</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=200128">MS-SAMR</a>.
+<b>NetUserSetInfo</b> function does not control how the password parameters are secured when sent over the network to a remote server to change a user password. Any encryption of these parameters is handled by the Remote Procedure Call (RPC) mechanism supported by the network redirector that provides the network transport. Encryption is also controlled  by the security mechanisms supported by the local computer and the security mechanisms supported by remote network server specified in the <i>servername</i>   parameter. For more details on security when the Microsoft network redirector is used and the remote network server is running Microsoft Windows, see the protocol documentation for <a href="https://msdn.microsoft.com/library/cc243560(PROT.13).aspx">MS-RPCE</a> and <a href="https://msdn.microsoft.com/library/cc245476(PROT.13).aspx">MS-SAMR</a>.
 
 
 #### Examples

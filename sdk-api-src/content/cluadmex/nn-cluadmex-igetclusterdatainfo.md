@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: a2800ac8-a865-4e66-8147-90e95b54cb0c
 ms.date: 12/05/2018
 ms.keywords: IGetClusterDataInfo, IGetClusterDataInfo interface [Failover Cluster], IGetClusterDataInfo interface [Failover Cluster],described, _wolf_igetclusterdatainfo, cluadmex/IGetClusterDataInfo, mscs.igetclusterdatainfo
-ms.topic: interface
 f1_keywords:
 - cluadmex/IGetClusterDataInfo
 dev_langs:
@@ -129,7 +128,7 @@ You can use the <b>IGetClusterDataInfo</b> interface when
 </ul>
 Failover Cluster Administrator passes in an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer as the 
      <i>piData</i> parameter for these methods. Use <i>piData</i> to call the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method for one of the 
+     <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method for one of the 
      <b>IGetClusterDataInfo</b> methods.
 
 

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 3f749042-bdc9-4087-bb8a-d833713472eb
 ms.date: 12/05/2018
 ms.keywords: GetVolumeNameForVolumeMountPoint, GetVolumeNameForVolumeMountPoint function [Files], GetVolumeNameForVolumeMountPointA, GetVolumeNameForVolumeMountPointW, _win32_getvolumenameforvolumemountpoint, base.getvolumenameforvolumemountpoint, fileapi/GetVolumeNameForVolumeMountPoint, fileapi/GetVolumeNameForVolumeMountPointA, fileapi/GetVolumeNameForVolumeMountPointW, fs.getvolumenameforvolumemountpoint, winbase/GetVolumeNameForVolumeMountPoint, winbase/GetVolumeNameForVolumeMountPointA, winbase/GetVolumeNameForVolumeMountPointW
-ms.topic: function
 f1_keywords:
 - fileapi/GetVolumeNameForVolumeMountPoint
 dev_langs:
@@ -71,12 +70,12 @@ Retrieves a volume <b>GUID</b> path for the volume that is associated with the s
 
 ### -param lpszVolumeMountPoint [in]
 
-A pointer to a string that contains the path of a mounted folder (for example, "Y:\MountX\") or a drive letter (for example, "X:\"). The string must end with a trailing backslash ('\').
+A pointer to a string that contains the path of a mounted folder (for example, "Y:\MountX\\") or a drive letter (for example, "X:\\"). The string must end with a trailing backslash ('\\').
 
 
 ### -param lpszVolumeName [out]
 
-A pointer to a string that receives the volume <b>GUID</b> path. This path is of the form "\\?\Volume{<i>GUID</i>}\" where <i>GUID</i> is a <b>GUID</b> that identifies the volume. If there is more than one volume <b>GUID</b> path for the volume, only the first one in the mount manager's cache is returned.
+A pointer to a string that receives the volume <b>GUID</b> path. This path is of the form "\\\\?\Volume{<i>GUID</i>}\\" where <i>GUID</i> is a <b>GUID</b> that identifies the volume. If there is more than one volume <b>GUID</b> path for the volume, only the first one in the mount manager's cache is returned.
 
 
 ### -param cchBufferLength [in]

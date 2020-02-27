@@ -5,7 +5,6 @@ description: Adds two instances of **XMVECTOR**, returning the result in a new i
 ms.assetid: 24dc38ff-fa79-4fba-b7fb-594722c5c967
 ms.date: 05/13/2019
 ms.keywords: operator+
-ms.topic: language-reference
 f1_keywords:
 - directxmath/operator+
 dev_langs:

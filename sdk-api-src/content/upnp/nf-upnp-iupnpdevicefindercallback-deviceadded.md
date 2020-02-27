@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 4a61ca43-cbc6-4db2-9706-23cadbae9c3e
 ms.date: 12/05/2018
 ms.keywords: DeviceAdded, DeviceAdded method [UPnP APIs], DeviceAdded method [UPnP APIs],IUPnPDeviceFinderCallback interface, IUPnPDeviceFinderCallback interface [UPnP APIs],DeviceAdded method, IUPnPDeviceFinderCallback.DeviceAdded, IUPnPDeviceFinderCallback::DeviceAdded, _upnp_iupnpdevicefindercallback_deviceadded, upnp.iupnpdevicefindercallback_deviceadded, upnp/IUPnPDeviceFinderCallback::DeviceAdded
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPDeviceFinderCallback.DeviceAdded
 dev_langs:

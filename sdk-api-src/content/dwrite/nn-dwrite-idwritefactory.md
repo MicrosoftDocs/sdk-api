@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 73a85977-5c24-4abc-ad8c-1d0d6474bd7e
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory, IDWriteFactory interface [Direct Write], IDWriteFactory interface [Direct Write],described, directwrite.IDWriteFactory, dwrite/IDWriteFactory
-ms.topic: interface
 f1_keywords:
 - dwrite/IDWriteFactory
 dev_langs:

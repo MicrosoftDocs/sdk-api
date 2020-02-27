@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 8b495a60-f1ef-4170-bf11-c98bb3dc857b
 ms.date: 12/05/2018
 ms.keywords: SnmpSetPort, SnmpSetPort function [SNMP], _snmp_snmpsetport, snmp.snmpsetport, winsnmp/SnmpSetPort
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpSetPort
 dev_langs:

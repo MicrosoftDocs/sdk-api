@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4fdeb995-2220-4461-a4d6-80bce08153b1
 ms.date: 12/05/2018
 ms.keywords: GetFolder, GetFolder method [Windows Shell], GetFolder method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetFolder method, IFolderView.GetFolder, IFolderView::GetFolder, _shell_IFolderView_GetFolder, shell.IFolderView_GetFolder, shobjidl_core/IFolderView::GetFolder
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFolderView.GetFolder
 dev_langs:

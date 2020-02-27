@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 9da30d7d-4536-4753-9687-b2c16b560f2d
 ms.date: 12/05/2018
 ms.keywords: GetCAT, GetCAT method [Microsoft TV Technologies], GetCAT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetCAT method, IAtscPsipParser.GetCAT, IAtscPsipParser::GetCAT, IAtscPsipParserGetCAT, atscpsipparser/IAtscPsipParser::GetCAT, mstv.iatscpsipparser_getcat
-ms.topic: method
 f1_keywords:
 - atscpsipparser/IAtscPsipParser.GetCAT
 dev_langs:

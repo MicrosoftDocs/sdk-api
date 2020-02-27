@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: d43685d9-292c-462c-bdd2-c4e81b6d704e
 ms.date: 12/05/2018
 ms.keywords: CopyFromBitmap, CopyFromBitmap method [Direct2D], CopyFromBitmap method [Direct2D],ID2D1Bitmap interface, ID2D1Bitmap interface [Direct2D],CopyFromBitmap method, ID2D1Bitmap.CopyFromBitmap, ID2D1Bitmap::CopyFromBitmap, d2d1/ID2D1Bitmap::CopyFromBitmap, direct2d.ID2D1Bitmap_CopyFromBitmap
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1Bitmap.CopyFromBitmap
 dev_langs:

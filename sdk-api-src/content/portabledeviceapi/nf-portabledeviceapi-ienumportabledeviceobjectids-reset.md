@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: 506c138e-6836-458f-823c-68978f224625
 ms.date: 12/05/2018
 ms.keywords: IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Reset method, IEnumPortableDeviceObjectIDs.Reset, IEnumPortableDeviceObjectIDs::Reset, IEnumPortableDeviceObjectIDsReset, Reset, Reset method [Windows Portable Devices SDK], Reset method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, portabledeviceapi/IEnumPortableDeviceObjectIDs::Reset, wpdsdk.ienumportabledeviceobjectids_reset
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IEnumPortableDeviceObjectIDs.Reset
 dev_langs:

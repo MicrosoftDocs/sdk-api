@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 9eef2ef4-316e-43e8-8011-14f1c0b46d50
 ms.date: 12/05/2018
 ms.keywords: AVIFileReadData, AVIFileReadData function [Windows Multimedia], _win32_AVIFileReadData, multimedia.avifilereaddata, vfw/AVIFileReadData
-ms.topic: function
 f1_keywords:
 - vfw/AVIFileReadData
 dev_langs:

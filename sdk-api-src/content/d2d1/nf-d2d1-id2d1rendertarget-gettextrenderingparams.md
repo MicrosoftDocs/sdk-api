@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 563a13c9-7f13-4b38-afa1-72e847dc8349
 ms.date: 12/05/2018
 ms.keywords: GetTextRenderingParams, GetTextRenderingParams method [Direct2D], GetTextRenderingParams method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],GetTextRenderingParams method, ID2D1RenderTarget.GetTextRenderingParams, ID2D1RenderTarget::GetTextRenderingParams, d2d1/ID2D1RenderTarget::GetTextRenderingParams, direct2d.ID2D1RenderTarget_GetTextRenderingParams
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1RenderTarget.GetTextRenderingParams
 dev_langs:

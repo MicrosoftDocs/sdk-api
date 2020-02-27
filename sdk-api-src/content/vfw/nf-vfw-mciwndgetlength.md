@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 2d027660-b2dd-4613-9583-30d7a45f7a1d
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetLength, MCIWndGetLength macro [Windows Multimedia], _win32_MCIWndGetLength, multimedia.mciwndgetlength, vfw/MCIWndGetLength
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndGetLength
 dev_langs:

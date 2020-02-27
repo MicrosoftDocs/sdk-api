@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 090c19c8-eb38-4185-9f6b-169495f9ab27
 ms.date: 12/05/2018
 ms.keywords: AM_INTF_SEARCH_FILTER, AM_INTF_SEARCH_FLAGS, AM_INTF_SEARCH_FLAGSEnumeration, AM_INTF_SEARCH_INPUT_PIN, AM_INTF_SEARCH_OUTPUT_PIN, _AM_INTF_SEARCH_FLAGS, _AM_INTF_SEARCH_FLAGS enumeration [DirectShow], dshow.am_intf_search_flags, strmif/AM_INTF_SEARCH_FILTER, strmif/AM_INTF_SEARCH_INPUT_PIN, strmif/AM_INTF_SEARCH_OUTPUT_PIN, strmif/_AM_INTF_SEARCH_FLAGS
-ms.topic: enum
 f1_keywords: 
  - "strmif/_AM_INTF_SEARCH_FLAGS"
 dev_langs:

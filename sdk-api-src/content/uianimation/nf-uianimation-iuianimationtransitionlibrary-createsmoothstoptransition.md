@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: fce15425-5529-4ebf-9961-7e125cc64edb
 ms.date: 12/05/2018
 ms.keywords: CreateSmoothStopTransition, CreateSmoothStopTransition method [Windows Animation], CreateSmoothStopTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateSmoothStopTransition method, IUIAnimationTransitionLibrary.CreateSmoothStopTransition, IUIAnimationTransitionLibrary::CreateSmoothStopTransition, uianimation.iuianimationtransitionlibrary_createsmoothstoptransition, uianimation/IUIAnimationTransitionLibrary::CreateSmoothStopTransition
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationTransitionLibrary.CreateSmoothStopTransition
 dev_langs:

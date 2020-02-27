@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: e5ffeebb-0b09-4f0a-b2dc-75fb2a3af7ed
 ms.date: 12/05/2018
 ms.keywords: SslCrackCertificate, SslCrackCertificate function [Security], schannel/SslCrackCertificate, security.sslcrackcertificate
-ms.topic: function
 f1_keywords:
 - schannel/SslCrackCertificate
 dev_langs:

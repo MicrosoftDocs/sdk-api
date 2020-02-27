@@ -7,7 +7,6 @@ tech.root: ProjFS
 ms.assetid: 8F3EEC96-70C2-40ED-BDF3-B6E979EF1F7E
 ms.date: 12/05/2018
 ms.keywords: PRJ_GET_FILE_DATA_CB, PRJ_GET_FILE_DATA_CB callback, PRJ_GET_FILE_DATA_CB callback function, ProjFS.prj_get_file_data_cb, projectedfslib/PRJ_GET_FILE_DATA_CB
-ms.topic: callback
 f1_keywords:
 - projectedfslib/PRJ_GET_FILE_DATA_CB
 dev_langs:

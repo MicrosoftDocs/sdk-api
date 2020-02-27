@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: d13a5743-8b07-4876-ab9d-7a6bd60e7add
 ms.date: 12/05/2018
 ms.keywords: IMMDevice interface [Core Audio],OpenPropertyStore method, IMMDevice.OpenPropertyStore, IMMDevice::OpenPropertyStore, IMMDeviceOpenPropertyStore, OpenPropertyStore, OpenPropertyStore method [Core Audio], OpenPropertyStore method [Core Audio],IMMDevice interface, coreaudio.immdevice_openpropertystore, mmdeviceapi/IMMDevice::OpenPropertyStore
-ms.topic: method
 f1_keywords:
 - mmdeviceapi/IMMDevice.OpenPropertyStore
 dev_langs:

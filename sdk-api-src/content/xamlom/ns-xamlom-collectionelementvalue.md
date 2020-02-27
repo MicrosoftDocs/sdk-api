@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: 0FE09913-7EAF-4335-AF41-F83FEBCAF12E
 ms.date: 12/05/2018
 ms.keywords: CollectionElementValue, CollectionElementValue structure, PCollectionElementValue, PCollectionElementValue structure pointer, xaml_diagnostics.collectionelementvalue, xamlom/CollectionElementValue, xamlom/PCollectionElementValue
-ms.topic: struct
 f1_keywords:
 - xamlom/CollectionElementValue
 dev_langs:

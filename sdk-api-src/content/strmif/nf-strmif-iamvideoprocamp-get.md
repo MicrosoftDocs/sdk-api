@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8924383e-23e1-4732-9eff-dc7c8d0e361a
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [DirectShow], Get method [DirectShow],IAMVideoProcAmp interface, IAMVideoProcAmp interface [DirectShow],Get method, IAMVideoProcAmp.Get, IAMVideoProcAmp::Get, IAMVideoProcAmpGet, dshow.iamvideoprocamp_get, strmif/IAMVideoProcAmp::Get
-ms.topic: method
 f1_keywords:
 - strmif/IAMVideoProcAmp.Get
 dev_langs:
@@ -64,7 +63,7 @@ The <code>Get</code> method gets the current setting of a video property.
 
 ### -param Property [in]
 
-Specifies the property to retrieve, as a value from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-videoprocampproperty">VideoProcAmpProperty</a> enumeration.
+Specifies the property to retrieve, as a value from the [VideoProcAmpProperty](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videoprocampproperty) enumeration.
           
 
 
@@ -76,7 +75,7 @@ Receives the value of the property.
 
 ### -param Flags [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-videoprocampflags">VideoProcAmpFlags</a> enumeration. The returned value indicates whether the setting is controlled manually or automatically.
+Receives a member of the [VideoProcAmpFlags](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videoprocampflags) enumeration. The returned value indicates whether the setting is controlled manually or automatically.
           
 
 

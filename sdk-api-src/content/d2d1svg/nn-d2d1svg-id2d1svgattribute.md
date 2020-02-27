@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 7B11D05C-6CD5-4609-B76A-719B92437314
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgAttribute, ID2D1SvgAttribute interface [Direct2D], ID2D1SvgAttribute interface [Direct2D],described, d2d1svg/ID2D1SvgAttribute, direct2d.id2d1svgattribute
-ms.topic: interface
 f1_keywords:
 - d2d1svg/ID2D1SvgAttribute
 dev_langs:

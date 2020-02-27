@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f42d218c-0251-45e0-b05a-f1ccdcaf036c
 ms.date: 12/05/2018
 ms.keywords: IRelatedItem, IRelatedItem interface [Windows Shell], IRelatedItem interface [Windows Shell],described, _shell_IRelatedItem, shell.IRelatedItem, shobjidl_core/IRelatedItem
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IRelatedItem
 dev_langs:
@@ -93,7 +92,7 @@ Gets the PIDL for the item that is related.
 
 
 
-Do not implement this interface directly. This is a base interface (other interfaces derive from it) for a set of interfaces that describes the relationship between two items, (For example <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idisplayitem">IDisplayItem</a>).  Do not query for this interface directly, for example, using <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject">IShellFolder::BindToObject</a>. Instead, use the derived interfaces.
+Do not implement this interface directly. This is a base interface (other interfaces derive from it) for a set of interfaces that describes the relationship between two items, (For example <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idisplayitem">IDisplayItem</a>).  Do not query for this interface directly, for example, using <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject">IShellFolder::BindToObject</a>. Instead, use the derived interfaces.
 
 An example derivation is the creation of an identity name handler. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iidentityname">IIdentityName</a>. Other interfaces that may derive from this interface include <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icurrentitem">ICurrentItem</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfermediumitem">ITransferMediumItem</a>.
 

@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\setoption.htm
 ms.date: 12/05/2018
 ms.keywords: IQueryParserManager interface [search],SetOption method, IQueryParserManager.SetOption, IQueryParserManager::SetOption, SetOption, SetOption method [search], SetOption method [search],IQueryParserManager interface, _search_IQueryParserManager_SetOption, search._search_IQueryParserManager_SetOption, structuredquery/IQueryParserManager::SetOption
-ms.topic: method
 f1_keywords:
 - structuredquery/IQueryParserManager.SetOption
 dev_langs:

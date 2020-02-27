@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: a4f29a99-8478-425d-91d7-c771c35bb2fa
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SaveSession method, ITsSbResourcePluginStore.SaveSession, ITsSbResourcePluginStore::SaveSession, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],SaveSession method, ITsSbResourcePluginStoreEx::SaveSession, SaveSession, SaveSession method [Remote Desktop Services], SaveSession method [Remote Desktop Services],ITsSbResourcePluginStore interface, SaveSession method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::SaveSession, sbtsv/ITsSbResourcePluginStoreEx::SaveSession, termserv.itssbresourcepluginstore_savesession
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbResourcePluginStore.SaveSession
 dev_langs:

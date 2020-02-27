@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: f491beb8-90f7-4e41-891d-ef674306339d
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method, Connect method,IMsmMerge interface, IMsmMerge interface,Connect method, IMsmMerge.Connect, IMsmMerge::Connect, _msi_connect_function, mergemod/IMsmMerge::Connect, setup.imsmmerge_connect
-ms.topic: method
 f1_keywords:
 - mergemod/IMsmMerge.Connect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: eba2c56b-8951-4dc5-91ae-1371793ce787
 ms.date: 12/05/2018
 ms.keywords: DXVA2_ExtendedFormat, DXVA2_ExtendedFormat structure [Media Foundation], dxva2api/DXVA2_ExtendedFormat, eba2c56b-8951-4dc5-91ae-1371793ce787, mf.dxva2_extendedformat
-ms.topic: struct
 f1_keywords:
 - dxva2api/DXVA2_ExtendedFormat
 dev_langs:

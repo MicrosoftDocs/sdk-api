@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 3c485b4d-ba0b-456a-b942-27829371d7fb
 ms.date: 12/05/2018
 ms.keywords: CommitMode, CommitMode enumeration [PLA], base.commitmode, pla.commitmode, pla/CommitMode, pla/plaCreateNew, pla/plaCreateOrModify, pla/plaFlushTrace, pla/plaModify, pla/plaUpdateRunningInstance, pla/plaValidateOnly, plaCreateNew, plaCreateOrModify, plaFlushTrace, plaModify, plaUpdateRunningInstance, plaValidateOnly
-ms.topic: enum
 f1_keywords:
 - pla/CommitMode
 dev_langs:

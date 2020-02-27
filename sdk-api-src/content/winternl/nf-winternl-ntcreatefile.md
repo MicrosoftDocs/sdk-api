@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 82965665-8531-4cca-bf37-6044e154d43b
 ms.date: 12/05/2018
 ms.keywords: DELETE, FILE_APPEND_DATA, FILE_COMPLETE_IF_OPLOCKED, FILE_CREATE, FILE_CREATE_TREE_CONNECTION, FILE_DELETE_ON_CLOSE, FILE_DIRECTORY_FILE, FILE_EXECUTE, FILE_GENERIC_EXECUTE, FILE_GENERIC_READ, FILE_GENERIC_WRITE, FILE_LIST_DIRECTORY, FILE_NON_DIRECTORY_FILE, FILE_NO_EA_KNOWLEDGE, FILE_NO_INTERMEDIATE_BUFFERING, FILE_OPEN, FILE_OPEN_BY_FILE_ID, FILE_OPEN_FOR_BACKUP_INTENT, FILE_OPEN_IF, FILE_OPEN_REPARSE_POINT, FILE_OPEN_REQUIRING_OPLOCK, FILE_OVERWRITE, FILE_OVERWRITE_IF, FILE_RANDOM_ACCESS, FILE_READ_ATTRIBUTES, FILE_READ_DATA, FILE_READ_EA, FILE_RESERVE_OPFILTER, FILE_SEQUENTIAL_ONLY, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, FILE_SUPERSEDE, FILE_SYNCHRONOUS_IO_ALERT, FILE_SYNCHRONOUS_IO_NONALERT, FILE_TRAVERSE, FILE_WRITE_ATTRIBUTES, FILE_WRITE_DATA, FILE_WRITE_EA, FILE_WRITE_THROUGH, HANDLE RootDirectory, NtCreateFile, NtCreateFile function [Windows API], PSECURITY_DESCRIPTOR SecurityDescriptor, PSECURITY_QUALITY_OF_SERVICE SecurityQualityOfService, PUNICODE_STRING ObjectName, READ_CONTROL, SYNCHRONIZE, ULONG Attributes, ULONG Length, WRITE_DAC, WRITE_OWNER, winprog.ntcreatefile, winternl/NtCreateFile
-ms.topic: function
 f1_keywords:
 - winternl/NtCreateFile
 dev_langs:
@@ -729,7 +728,7 @@ The file is being opened for backup intent. Therefore, the system should check f
 </dl>
 </td>
 <td width="60%">
-This flag allows an application to request a filter opportunistic lock (<a href="http://go.microsoft.com/fwlink/p/?linkid=163447">oplock</a>) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with <b>STATUS_OPLOCK_NOT_GRANTED</b>. For more information, see the Remarks section.
+This flag allows an application to request a filter opportunistic lock (<a href="https://www.microsoft.com/?ref=go">oplock</a>) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with <b>STATUS_OPLOCK_NOT_GRANTED</b>. For more information, see the Remarks section.
 
 </td>
 </tr>
@@ -739,7 +738,7 @@ This flag allows an application to request a filter opportunistic lock (<a href=
 </dl>
 </td>
 <td width="60%">
-The file is being opened and an opportunistic lock (<a href="http://go.microsoft.com/fwlink/p/?linkid=163447">oplock</a>) on the file is being requested as a single atomic operation. The file system checks for oplocks before it performs the create operation and will fail the create with a return code of <b>STATUS_CANNOT_BREAK_OPLOCK</b> if the result would be to break an existing oplock.  For more information, see the Remarks section.<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported.
+The file is being opened and an opportunistic lock (<a href="https://www.microsoft.com/?ref=go">oplock</a>) on the file is being requested as a single atomic operation. The file system checks for oplocks before it performs the create operation and will fail the create with a return code of <b>STATUS_CANNOT_BREAK_OPLOCK</b> if the result would be to break an existing oplock.  For more information, see the Remarks section.<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported.
 
 
 
@@ -753,7 +752,7 @@ This flag is supported on the following file systems: NTFS, FAT, and exFAT.
 </dl>
 </td>
 <td width="60%">
-Complete this operation immediately with an alternate success code of <b>STATUS_OPLOCK_BREAK_IN_PROGRESS</b> if the target file is oplocked, rather than blocking the caller's thread. If the file is <a href="http://go.microsoft.com/fwlink/p/?linkid=163447">oplocked</a>, another caller already has access to the file. This flag is not used by device and intermediate drivers.
+Complete this operation immediately with an alternate success code of <b>STATUS_OPLOCK_BREAK_IN_PROGRESS</b> if the target file is oplocked, rather than blocking the caller's thread. If the file is <a href="https://www.microsoft.com/?ref=go">oplocked</a>, another caller already has access to the file. This flag is not used by device and intermediate drivers.
 
 </td>
 </tr>
@@ -935,11 +934,11 @@ The <i>CreateOptions</i> parameter's <b>FILE_RESERVE_OPFILTER</b> flag allows an
 
 NTFS is the only Microsoft file system that implements <b>FILE_RESERVE_OPFILTER</b>.
 
-For more information on oplocks, see <a href="http://go.microsoft.com/fwlink/p/?linkid=163448">Oplock Semantics</a>.
+For more information on oplocks, see <a href="https://msdn.microsoft.com/library/dd445267.aspx">Oplock Semantics</a>.
 
 Note that the WDK header file NtDef.h is necessary for many constant definitions 
     as well as the <b>InitializeObjectAttributes</b> macro. The associated import library, 
-    NtDll.lib is available in the WDK. To obtain the WDK, see <a href="http://go.microsoft.com/fwlink/p/?linkid=156664">Download kits for Windows hardware development</a>. You can also use the 
+    NtDll.lib is available in the WDK. To obtain the WDK, see <a href="https://docs.microsoft.com/windows-hardware/drivers/download-the-wdk">Download kits for Windows hardware development</a>. You can also use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
     <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to 
     NtDll.dll.

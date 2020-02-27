@@ -1,9 +1,10 @@
 ---
 UID: NA:bits10_2
+title: Bits10_2.h header
 ms.assetid: 54e1f19c-53e3-3254-9379-9d0fdf33f723
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: bits
 ---
 

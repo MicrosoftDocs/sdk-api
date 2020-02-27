@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 3a0d090d-9eb1-4624-989b-c5da27b988aa
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriterEncoderConfig, IMFSinkWriterEncoderConfig interface [Media Foundation], IMFSinkWriterEncoderConfig interface [Media Foundation],described, mf.imfsinkwriterencoderconfig, mfreadwrite/IMFSinkWriterEncoderConfig
-ms.topic: interface
 f1_keywords:
 - mfreadwrite/IMFSinkWriterEncoderConfig
 dev_langs:
@@ -93,7 +92,7 @@ Dynamically changes the target media type that Sink Writer is encoding to.
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a> implements this interface in Windows 8.1. To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a> implements this interface in Windows 8.1. To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>.
 
 
 

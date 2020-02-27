@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 809d1a71-bb14-4516-9624-2f10fe19a5d9
 ms.date: 12/05/2018
 ms.keywords: IOptionDescription, IOptionDescription interface [Internationalization for Windows Applications], IOptionDescription interface [Internationalization for Windows Applications],described, intl.ioptiondescription, spellcheck/IOptionDescription
-ms.topic: interface
 f1_keywords:
 - spellcheck/IOptionDescription
 dev_langs:

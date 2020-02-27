@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 84160043-bb63-422b-99be-3f55df4c15be
 ms.date: 12/05/2018
 ms.keywords: ?GetVariant@CInstance@@QBE_NPBGAAUtagVARIANT@@@Z, CInstance interface [Windows Management Instrumentation],GetVariant method, CInstance.GetVariant, CInstance::GetVariant, GetVariant, GetVariant method [Windows Management Instrumentation], GetVariant method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getvariant, instance/CInstance::GetVariant, wmi.cinstance_getvariant
-ms.topic: method
 f1_keywords:
 - instance/CInstance.GetVariant
 dev_langs:

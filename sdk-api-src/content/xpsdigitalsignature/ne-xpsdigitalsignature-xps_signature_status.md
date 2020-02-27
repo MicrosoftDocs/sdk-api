@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8c03749c-49cf-4d9c-90be-a75412f044ec
 ms.date: 12/05/2018
 ms.keywords: XPS_SIGNATURE_STATUS, XPS_SIGNATURE_STATUS enumeration [XPS Documents and Packaging], XPS_SIGNATURE_STATUS_BROKEN, XPS_SIGNATURE_STATUS_INCOMPLETE, XPS_SIGNATURE_STATUS_INCOMPLIANT, XPS_SIGNATURE_STATUS_QUESTIONABLE, XPS_SIGNATURE_STATUS_VALID, xps.xps_signature_status, xpsdigitalsignature/XPS_SIGNATURE_STATUS, xpsdigitalsignature/XPS_SIGNATURE_STATUS_BROKEN, xpsdigitalsignature/XPS_SIGNATURE_STATUS_INCOMPLETE, xpsdigitalsignature/XPS_SIGNATURE_STATUS_INCOMPLIANT, xpsdigitalsignature/XPS_SIGNATURE_STATUS_QUESTIONABLE, xpsdigitalsignature/XPS_SIGNATURE_STATUS_VALID
-ms.topic: enum
 f1_keywords:
 - xpsdigitalsignature/XPS_SIGNATURE_STATUS
 dev_langs:
@@ -60,7 +59,7 @@ Describes the status of a document's digital signature.
 
 ### -field XPS_SIGNATURE_STATUS_INCOMPLIANT
 
-The signature violates one or more  signing rules stated in section 10.2.1.2 of the   <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>. These rules describe the parts or relationships that must or must not be signed.
+The signature violates one or more  signing rules stated in section 10.2.1.2 of the   <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>. These rules describe the parts or relationships that must or must not be signed.
 
 A signature that is incompliant must be created as such. 
 Changing signed content cannot make a valid signature incompliant. One example of an incompliant signature  is the signature of a   package that has an unknown relationships type at the root.
@@ -95,9 +94,9 @@ This is a valid signature: it is not broken, incompliant, or questionable. The a
 
 
 
-The digital signature status values correspond to section 10.2.1.2 in the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>.
+The digital signature status values correspond to section 10.2.1.2 in the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.
 
-The Open Packaging Conventions are specified in   the 1st edition, Part 2, "Open Packaging Conventions," of <a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>.
+The Open Packaging Conventions are specified in   the 1st edition, Part 2, "Open Packaging Conventions," of <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>.
 
 <div class="alert"><b>Note</b>  These resources may not be available in some languages 
 
@@ -111,11 +110,11 @@ and countries.</div>
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

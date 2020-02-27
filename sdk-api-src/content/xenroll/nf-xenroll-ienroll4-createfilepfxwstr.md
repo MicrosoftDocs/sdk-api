@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 1df364e7-35ab-4c16-ac13-2f0be36fe0f9
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],createFilePFXWStr method, IEnroll4.createFilePFXWStr, IEnroll4::createFilePFXWStr, createFilePFXWStr, createFilePFXWStr method [Security], createFilePFXWStr method [Security],IEnroll4 interface, security.ienroll4_createfilepfxwstr, xenroll/IEnroll4::createFilePFXWStr
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll4.createFilePFXWStr
 dev_langs:

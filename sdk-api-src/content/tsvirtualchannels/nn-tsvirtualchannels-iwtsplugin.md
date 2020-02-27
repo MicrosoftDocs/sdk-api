@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: e34caf2c-1eb6-40eb-9407-20ed4fde9cdb
 ms.date: 12/05/2018
 ms.keywords: IWTSPlugin, IWTSPlugin interface [Remote Desktop Services], IWTSPlugin interface [Remote Desktop Services],described, termserv.iwtsplugin, tsvirtualchannels/IWTSPlugin
-ms.topic: interface
 f1_keywords:
 - tsvirtualchannels/IWTSPlugin
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: c46614a6-2b48-46db-a1e2-73383d6386c5
 ms.date: 12/05/2018
 ms.keywords: GetBreakConditions, GetBreakConditions method [Direct Write], GetBreakConditions method [Direct Write],IDWriteInlineObject interface, IDWriteInlineObject interface [Direct Write],GetBreakConditions method, IDWriteInlineObject.GetBreakConditions, IDWriteInlineObject::GetBreakConditions, directwrite.IDWriteInlineObject_GetBreakConditions, dwrite/IDWriteInlineObject::GetBreakConditions
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteInlineObject.GetBreakConditions
 dev_langs:

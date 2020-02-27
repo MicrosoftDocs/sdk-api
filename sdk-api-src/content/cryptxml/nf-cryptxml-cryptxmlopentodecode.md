@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: b6a77d62-b92d-4b83-949f-14a0ce3ce025
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CRYPT_XML_FLAG_NO_SERIALIZE, CryptXmlOpenToDecode, CryptXmlOpenToDecode function [Security], cryptxml/CryptXmlOpenToDecode, security.cryptxmlopentodecode
-ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlOpenToDecode
 dev_langs:

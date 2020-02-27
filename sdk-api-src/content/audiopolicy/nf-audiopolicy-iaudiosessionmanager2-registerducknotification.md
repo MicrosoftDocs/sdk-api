@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: bed27f3f-6293-4a25-baa0-39562d45bddc
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionManager2 interface [Core Audio],RegisterDuckNotification method, IAudioSessionManager2.RegisterDuckNotification, IAudioSessionManager2::RegisterDuckNotification, RegisterDuckNotification, RegisterDuckNotification method [Core Audio], RegisterDuckNotification method [Core Audio],IAudioSessionManager2 interface, audiopolicy/IAudioSessionManager2::RegisterDuckNotification, coreaudio.iaudiosessionmanager2_registerducknotification
-ms.topic: method
 f1_keywords:
 - audiopolicy/IAudioSessionManager2.RegisterDuckNotification
 dev_langs:

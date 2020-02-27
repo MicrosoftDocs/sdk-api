@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: ce8031a1-b30f-4ff6-90d8-42e46e1b6d89
 ms.date: 12/05/2018
 ms.keywords: SWbemQueryQualifiedName, SWbemQueryQualifiedName structure [Windows Management Instrumentation], wmi.swbemqueryqualifiedname, wmiutils/SWbemQueryQualifiedName
-ms.topic: struct
 f1_keywords:
 - wmiutils/SWbemQueryQualifiedName
 dev_langs:

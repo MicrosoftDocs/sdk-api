@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imageconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: Image, Image constructors [GDI+], Image.Image, Image.Image~r3, Image::Image, Image::Image~r3, _gdiplus_CLASS_Image_Constructors, gdiplus._gdiplus_CLASS_Image_Constructors, gdiplusheaders/Image
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Image.Image
 dev_langs:

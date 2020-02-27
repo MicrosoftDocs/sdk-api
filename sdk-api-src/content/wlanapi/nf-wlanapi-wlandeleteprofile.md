@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 2d1152ad-8106-4b8f-9856-9e6e36daa063
 ms.date: 12/05/2018
 ms.keywords: WlanDeleteProfile, WlanDeleteProfile function [NativeWIFI], nwifi.wlandeleteprofile, wlanapi/WlanDeleteProfile
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanDeleteProfile
 dev_langs:
@@ -165,7 +164,7 @@ All wireless LAN functions require an interface GUID for the wireless interface 
 
 The <b>WlanDeleteProfile</b> function can fail with <b>ERROR_INVALID_PARAMETER</b> if the wireless interface specified in the <i>pInterfaceGuid</i> parameter for the wireless LAN profile has been removed from the system (a USB  wireless adapter that has been removed, for example). 
 
-To delete a profile at the command line, use the <b>netsh wlan delete profile</b> command. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=120964">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
+To delete a profile at the command line, use the <b>netsh wlan delete profile</b> command. For more information, see <a href="https://technet.microsoft.com/library/f435edbe-1d50-4774-bae2-0dda33eaeb2f">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
 
 
 #### Examples

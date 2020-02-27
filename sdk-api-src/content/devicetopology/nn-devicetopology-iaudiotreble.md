@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 3ace174e-c21c-41e7-9830-80d247d8437f
 ms.date: 12/05/2018
 ms.keywords: IAudioTreble, IAudioTreble interface [Core Audio], IAudioTreble interface [Core Audio],described, coreaudio.iaudiotreble, devicetopology/IAudioTreble
-ms.topic: interface
 f1_keywords:
 - devicetopology/IAudioTreble
 dev_langs:

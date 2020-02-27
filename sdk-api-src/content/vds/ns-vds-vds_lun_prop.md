@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 4ef0f4d8-7c63-4d8e-bf46-e6958661bd6a
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_LUN_PROP, PVDS_LUN_PROP, PVDS_LUN_PROP structure pointer [VDS], VDS_H_FAILED, VDS_H_FAILED_REDUNDANCY, VDS_H_FAILED_REDUNDANCY_FAILING, VDS_H_FAILING, VDS_H_FAILING_REDUNDANCY, VDS_H_HEALTHY, VDS_H_REBUILDING, VDS_H_UNKNOWN, VDS_LUN_PROP, VDS_LUN_PROP structure [VDS], base.vds_lun_prop, vds/PVDS_LUN_PROP, vds/_VDS_LUN_PROP, vdshwprv/PVDS_LUN_PROP, vdshwprv/_VDS_LUN_PROP'
-ms.topic: struct
 f1_keywords:
 - vds/VDS_LUN_PROP
 dev_langs:
@@ -96,7 +95,7 @@ If "*" or "" is specified, no other value can be specified.
 
 For Fibre Channel networks and serial attached SCSI (SAS) networks, each entry is a 64-bit World-Wide Name (WWN) of each port to which the LUN is unmasked, 
        formatted as a hexadecimal string (16 characters long), most significant byte first. For 
-       example, a WWN address of 01:23:45:67:89:AB:CD:EF is represented as "0123456789ABCDEF". For more information, see the T10 specifications for <a href="http://go.microsoft.com/fwlink/p/?linkid=179932">Fibre Channel</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=179931">SAS</a>.
+       example, a WWN address of 01:23:45:67:89:AB:CD:EF is represented as "0123456789ABCDEF". For more information, see the T10 specifications for <a href="https://t10.org/drafts.htm#FibreChannel">Fibre Channel</a> and <a href="https://t10.org/drafts.htm#SCSI3_SAS">SAS</a>.
 
 For iSCSI networks, each entry is an iSCSI qualified name (IQN) of each initiator to which the LUN is unmasked. A LUN unmasked 
        to a particular initiator is considered to be associated with that initiator.

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 34235a9b-e4e2-4766-ab99-2b71cf0797d0
 ms.date: 12/05/2018
 ms.keywords: LegacyIAccessiblePattern_Select, LegacyIAccessiblePattern_Select function [Windows Accessibility], uiauto.uiauto_LegacyIAccessiblePattern_Select, uiauto_LegacyIAccessiblePattern_Select, uiautomationcoreapi/LegacyIAccessiblePattern_Select, winauto.uiauto_LegacyIAccessiblePattern_Select
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/LegacyIAccessiblePattern_Select
 dev_langs:

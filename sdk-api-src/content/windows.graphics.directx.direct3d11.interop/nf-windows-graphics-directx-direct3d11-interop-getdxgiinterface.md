@@ -2,11 +2,10 @@
 UID: NF:windows.graphics.directx.direct3d11.interop.GetDXGIInterface
 title: GetDXGIInterface
 description: Retrieves a DXGI interface from an [IDirect3DDevice](/uwp/api/windows.graphics.directx.direct3d11.idirect3ddevice) instance.
-tech.root: WinRT
+tech.root: winrt
 ms.assetid: 0D0D158F-5D1E-4386-8131-C6492993F87B
 ms.date: 05/13/2019
 ms.keywords: interop::GetDXGIInterface
-ms.topic: function
 f1_keywords:
 - windows.graphics.directx.direct3d11.interop/interop::GetDXGIInterface
 dev_langs:

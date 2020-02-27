@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 2547b317-0c1b-429c-81d4-7cb97e1cc3e0
 ms.date: 12/05/2018
 ms.keywords: FrameBuffer property [RDP], FrameBuffer property [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession2 interface [RDP],FrameBuffer property, IRDPSRAPISharingSession2.FrameBuffer, IRDPSRAPISharingSession2.get_FrameBuffer, IRDPSRAPISharingSession2::FrameBuffer, IRDPSRAPISharingSession2::get_FrameBuffer, get_FrameBuffer, rdp.irdpsrapisharingsession2_framebuffer, rdpencomapi/IRDPSRAPISharingSession2::FrameBuffer, rdpencomapi/IRDPSRAPISharingSession2::get_FrameBuffer
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPISharingSession2.FrameBuffer
 dev_langs:

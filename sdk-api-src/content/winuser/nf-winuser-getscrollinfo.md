@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\getscrollinfo.htm
 ms.date: 12/05/2018
 ms.keywords: GetScrollInfo, GetScrollInfo function [Windows Controls], SB_CTL, SB_HORZ, SB_VERT, SIF_PAGE, SIF_POS, SIF_RANGE, SIF_TRACKPOS, _win32_GetScrollInfo, _win32_GetScrollInfo_cpp, controls.GetScrollInfo, controls._win32_GetScrollInfo, winuser/GetScrollInfo
-ms.topic: function
 f1_keywords:
 - winuser/GetScrollInfo
 dev_langs:

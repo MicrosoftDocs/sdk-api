@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 6DF54C8E-1E0D-4F9D-A6E4-AFE0E8894BE9
 ms.date: 12/05/2018
 ms.keywords: IInkDivider, IInkDivider interface [Tablet PC], IInkDivider interface [Tablet PC],described, msinkaut15/IInkDivider, tablet.iinkdivider
-ms.topic: interface
 f1_keywords:
 - msinkaut15/IInkDivider
 dev_langs:

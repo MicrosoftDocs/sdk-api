@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 0e032796-4bbf-4307-982f-560a56506db2
 ms.date: 12/05/2018
 ms.keywords: WMT_ATTR_IMAGETYPE, WMT_ATTR_IMAGETYPE enumeration [windows Media Format], WMT_IMAGETYPE_BITMAP, WMT_IMAGETYPE_GIF, WMT_IMAGETYPE_JPEG, wmformat.wmt_attr_imagetype, wmsdkidl/WMT_ATTR_IMAGETYPE, wmsdkidl/WMT_IMAGETYPE_BITMAP, wmsdkidl/WMT_IMAGETYPE_GIF, wmsdkidl/WMT_IMAGETYPE_JPEG
-ms.topic: enum
 f1_keywords:
 - wmsdkidl/WMT_ATTR_IMAGETYPE
 dev_langs:

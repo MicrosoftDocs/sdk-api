@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 0C74CDA5-4491-4D16-B972-C9C54007A2FB
 ms.date: 12/05/2018
 ms.keywords: CreateVirtualSurface, CreateVirtualSurface method [DirectComposition], CreateVirtualSurface method [DirectComposition],IDCompositionSurfaceFactory interface, IDCompositionSurfaceFactory interface [DirectComposition],CreateVirtualSurface method, IDCompositionSurfaceFactory.CreateVirtualSurface, IDCompositionSurfaceFactory::CreateVirtualSurface, dcomp/IDCompositionSurfaceFactory::CreateVirtualSurface, directcomp.idcompositionsurfacefactory_createvirtualsurface
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionSurfaceFactory.CreateVirtualSurface
 dev_langs:

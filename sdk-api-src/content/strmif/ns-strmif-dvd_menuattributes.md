@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 074593e2-f4f4-44d3-a37c-209b4e798a52
 ms.date: 12/05/2018
 ms.keywords: DVD_MenuAttributes, DVD_MenuAttributes structure [DirectShow], DVD_MenuAttributesStructure, dshow.dvd_menuattributes, strmif/DVD_MenuAttributes
-ms.topic: struct
 f1_keywords:
 - strmif/DVD_MenuAttributes
 dev_langs:
@@ -70,7 +69,7 @@ An array of <b>TRUE</b>/<b>FALSE</b> values indicating with which DVD regions th
 
 ### -field VideoAttributes
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_videoattributes">DVD_VideoAttributes</a> structure containing the video attributes of the menu. This applies to both a VMGM and VTSM.
+A [DVD_VideoAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_videoattributes) structure containing the video attributes of the menu. This applies to both a VMGM and VTSM.
 
 
 ### -field fAudioPresent
@@ -80,7 +79,7 @@ A variable of type BOOL indicating whether the menu has an audio stream.
 
 ### -field AudioAttributes
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_audioattributes">DVD_AudioAttributes</a> structure containing information about the menu's audio stream. This structure will only be filled in if <i>fAudioPresent</i> is <b>TRUE</b>.
+A [DVD_AudioAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_audioattributes) structure containing information about the menu's audio stream. This structure will only be filled in if <i>fAudioPresent</i> is <b>TRUE</b>.
 
 
 ### -field fSubpicturePresent
@@ -90,7 +89,7 @@ A variable of type BOOL indicating whether the menu has a subpicture stream.
 
 ### -field SubpictureAttributes
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_subpictureattributes">DVD_SubpictureAttributes</a> structure containing information about the menu's subpicture stream. This structure will only be filled in if <i>fSubpicturePresent</i> is <b>TRUE</b>.
+A [DVD_SubpictureAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_subpictureattributes) structure containing information about the menu's subpicture stream. This structure will only be filled in if <i>fSubpicturePresent</i> is <b>TRUE</b>.
 
 
 ## -see-also

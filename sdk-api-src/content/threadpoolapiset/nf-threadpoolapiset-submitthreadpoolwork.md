@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 28df173d-b78c-4158-97d5-63117a2d3967
 ms.date: 12/05/2018
 ms.keywords: SubmitThreadpoolWork, SubmitThreadpoolWork function, base.submitthreadpoolwork, threadpoolapiset/SubmitThreadpoolWork, winbase/SubmitThreadpoolWork
-ms.topic: function
 f1_keywords:
 - threadpoolapiset/SubmitThreadpoolWork
 dev_langs:

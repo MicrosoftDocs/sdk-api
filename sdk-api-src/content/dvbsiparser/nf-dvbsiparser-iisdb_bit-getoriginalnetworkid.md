@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: eb10f0a9-d673-46eb-bde1-3f22c518b05d
 ms.date: 12/05/2018
 ms.keywords: GetOriginalNetworkId, GetOriginalNetworkId method [Microsoft TV Technologies], GetOriginalNetworkId method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetOriginalNetworkId method, IISDB_BIT.GetOriginalNetworkId, IISDB_BIT::GetOriginalNetworkId, dvbsiparser/IISDB_BIT::GetOriginalNetworkId, mstv.iisdb_bit_getoriginalnetworkid
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IISDB_BIT.GetOriginalNetworkId
 dev_langs:

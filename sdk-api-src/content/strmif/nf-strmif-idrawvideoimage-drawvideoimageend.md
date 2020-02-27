@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 051fa283-849d-494c-bebf-d7adabb807a0
 ms.date: 12/05/2018
 ms.keywords: DrawVideoImageEnd, DrawVideoImageEnd method [DirectShow], DrawVideoImageEnd method [DirectShow],IDrawVideoImage interface, IDrawVideoImage interface [DirectShow],DrawVideoImageEnd method, IDrawVideoImage.DrawVideoImageEnd, IDrawVideoImage::DrawVideoImageEnd, IDrawVideoImageDrawVideoImageEnd, dshow.idrawvideoimage_drawvideoimageend, strmif/IDrawVideoImage::DrawVideoImageEnd
-ms.topic: method
 f1_keywords:
 - strmif/IDrawVideoImage.DrawVideoImageEnd
 dev_langs:

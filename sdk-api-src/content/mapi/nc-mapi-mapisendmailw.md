@@ -7,7 +7,6 @@ tech.root: WindowsMAPI
 ms.assetid: FA6FB49A-FA13-4F2F-8B89-5FD38B18B41B
 ms.date: 12/05/2018
 ms.keywords: MAPISendMailW, MAPISendMailW callback, MAPISendMailW callback function, MAPI_DIALOG, MAPI_DIALOG_MODELESS, MAPI_FORCE_UNICODE, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapisendmailw, mapi/MAPISendMailW
-ms.topic: callback
 f1_keywords:
 - mapi/MAPISendMailW
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Sends a Unicode message. This function replaces the ANSI function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a>.
 
-<b>On Windows 7 and earlier:  </b>Install the <a href="http://go.microsoft.com/fwlink/p/?linkid=258388">Microsoft Windows Software Development Kit (SDK) for Windows 8</a> and use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapiunicodehelp/nf-mapiunicodehelp-mapisendmailhelper">MAPISendMailHelper</a> to send a message.
+<b>On Windows 7 and earlier:  </b>Install the <a href="https://msdn.microsoft.com/windows/desktop/hh852363.aspx">Microsoft Windows Software Development Kit (SDK) for Windows 8</a> and use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapiunicodehelp/nf-mapiunicodehelp-mapisendmailhelper">MAPISendMailHelper</a> to send a message.
 
 All information applies to both <b>MAPISendMailW</b> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a> unless otherwise specified.
 
@@ -190,7 +189,7 @@ If neither <b>MAPI_DIALOG</b> nor <b>MAPI_DIALOG_MODELESS</b> is set, at least o
 
 
 
-<div class="alert"><b>Tip</b>  To use this flag on Windows 7 or earlier you must have both <a href="http://go.microsoft.com/fwlink/p/?linkid=258388">Windows SDK for Windows 8</a> and next version of Office installed, and you must call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapiunicodehelp/nf-mapiunicodehelp-mapisendmailhelper">MAPISendMailHelper</a> instead of <b>MAPISendMailW</b>.</div>
+<div class="alert"><b>Tip</b>  To use this flag on Windows 7 or earlier you must have both <a href="https://msdn.microsoft.com/windows/desktop/hh852363.aspx">Windows SDK for Windows 8</a> and next version of Office installed, and you must call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapiunicodehelp/nf-mapiunicodehelp-mapisendmailhelper">MAPISendMailHelper</a> instead of <b>MAPISendMailW</b>.</div>
 <div> </div>
 </td>
 </tr>
@@ -563,7 +562,7 @@ No name resolution; name used only for displaying the recipient name.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=258388">Windows SDK for Windows 8</a>
+<a href="https://msdn.microsoft.com/windows/desktop/hh852363.aspx">Windows SDK for Windows 8</a>
  
 
  

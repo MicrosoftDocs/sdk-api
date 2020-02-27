@@ -7,7 +7,6 @@ tech.root: AllJoyn
 ms.assetid: 2E9FE6B4-E8F0-4627-A712-F7A4CE5404BE
 ms.date: 12/05/2018
 ms.keywords: IWindowsDevicesAllJoynBusAttachmentFactoryInterop, IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface [AllJoyn API], IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface [AllJoyn API],described, alljoyn.iwindowsdevicesalljoynbusattachmentfactoryinterop, windows/IWindowsDevicesAllJoynBusAttachmentFactoryInterop
-ms.topic: interface
 f1_keywords:
 - windows.devices.alljoyn.interop/IWindowsDevicesAllJoynBusAttachmentFactoryInterop
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: E6310320-53A8-40F1-8964-D21D8054E1B8
 ms.date: 12/05/2018
 ms.keywords: IWICJpegFrameDecode, IWICJpegFrameDecode interface [Windows Imaging Component], IWICJpegFrameDecode interface [Windows Imaging Component],described, wic.iwicjpegframedecode, wincodec/IWICJpegFrameDecode
-ms.topic: interface
 f1_keywords:
 - wincodec/IWICJpegFrameDecode
 dev_langs:
@@ -156,7 +155,7 @@ Enables indexing of the JPEG for efficient random access.
 
 
 
-Obtain this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> on the Windows-provided <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecoder</a> interface for the JPEG decoder.
+Obtain this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> on the Windows-provided <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecoder</a> interface for the JPEG decoder.
 
 
 

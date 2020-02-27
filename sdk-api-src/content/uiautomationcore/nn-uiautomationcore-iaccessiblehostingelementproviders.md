@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 8D974311-25CB-4D49-B907-2984D0DA58D7
 ms.date: 12/05/2018
 ms.keywords: IAccessibleHostingElementProviders, IAccessibleHostingElementProviders interface [Windows Accessibility], IAccessibleHostingElementProviders interface [Windows Accessibility],described, uiautomationcore/IAccessibleHostingElementProviders, winauto.iaccessiblehostingelementproviders
-ms.topic: interface
 f1_keywords:
 - uiautomationcore/IAccessibleHostingElementProviders
 dev_langs:

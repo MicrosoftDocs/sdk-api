@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 2b2eae3d-8ad0-4b68-943b-a42696165543
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],SetSharedSecret method, IVdsIscsiTarget.SetSharedSecret, IVdsIscsiTarget::SetSharedSecret, SetSharedSecret, SetSharedSecret method [VDS], SetSharedSecret method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_setsharedsecret, vds/IVdsIscsiTarget::SetSharedSecret, vdshwprv/IVdsIscsiTarget::SetSharedSecret
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsIscsiTarget.SetSharedSecret
 dev_langs:

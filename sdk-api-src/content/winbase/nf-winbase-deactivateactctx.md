@@ -7,7 +7,6 @@ tech.root: SbsCs
 ms.assetid: 2a53eb1a-ce0b-4b20-a346-1ff9636a74d6
 ms.date: 12/05/2018
 ms.keywords: 0, DEACTIVATE_ACTCTX_FLAG_FORCE_EARLY_DEACTIVATION, DeactivateActCtx, DeactivateActCtx function [Side-by-side Assemblies], _win32_deactivateactctx, setup.deactivateactctx, winbase/DeactivateActCtx
-ms.topic: function
 f1_keywords:
 - winbase/DeactivateActCtx
 dev_langs:

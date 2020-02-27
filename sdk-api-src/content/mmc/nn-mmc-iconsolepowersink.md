@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: dd23c6dc-9219-4d13-b237-13405a2fcb5a
 ms.date: 12/05/2018
 ms.keywords: IConsolePowerSink, IConsolePowerSink interface [MMC], IConsolePowerSink interface [MMC],described, _slate_iconsolepowersink, mmc.iconsolepowersink, mmc/IConsolePowerSink
-ms.topic: interface
 f1_keywords:
 - mmc/IConsolePowerSink
 dev_langs:
@@ -86,9 +85,9 @@ WM_POWERBROADCAST messages.
 
 
 
-To receive power management notifications, your snap-in must use the <a href="Http://go.microsoft.com/fwlink/p/?linkid=83932">AtlAdvise</a> function to associate an instance of the 
+To receive power management notifications, your snap-in must use the <a href="https://msdn.microsoft.com/library/26k10xyy.aspx">AtlAdvise</a> function to associate an instance of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolepower">IConsolePower</a> interface with your implementation of the 
-<b>IConsolePowerSink</b> interface. The following code example shows how to use the <a href="Http://go.microsoft.com/fwlink/p/?linkid=83932">AtlAdvise</a> function.
+<b>IConsolePowerSink</b> interface. The following code example shows how to use the <a href="https://msdn.microsoft.com/library/26k10xyy.aspx">AtlAdvise</a> function.
 
 
 #### Examples
@@ -108,9 +107,9 @@ hr = AtlAdvise(m_ipConsolePower,
 ```
 
 
-When your snap-in closes or no longer requires power management notifications, call the <a href="Http://go.microsoft.com/fwlink/p/?linkid=83933">AtlUnadvise</a> function to terminate the connection between the 
+When your snap-in closes or no longer requires power management notifications, call the <a href="https://msdn.microsoft.com/library/7s2bbwhc.aspx">AtlUnadvise</a> function to terminate the connection between the 
 IConsolePower and 
-IConsolePowerSink interfaces. The following code example shows how to use the <a href="Http://go.microsoft.com/fwlink/p/?linkid=83933">AtlUnadvise</a> function.
+IConsolePowerSink interfaces. The following code example shows how to use the <a href="https://msdn.microsoft.com/library/7s2bbwhc.aspx">AtlUnadvise</a> function.
 
 
 ```cpp

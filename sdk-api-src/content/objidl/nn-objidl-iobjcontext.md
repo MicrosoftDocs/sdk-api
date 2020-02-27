@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 983615a1-cfa2-4137-8c7e-42e2ef6923a8
 ms.date: 12/05/2018
 ms.keywords: IObjContext, IObjContext interface [COM], IObjContext interface [COM],described, _com_iobjcontext, com.iobjcontext, objidlbase/IObjContext
-ms.topic: interface
 f1_keywords:
 - objidl/IObjContext
 dev_langs:

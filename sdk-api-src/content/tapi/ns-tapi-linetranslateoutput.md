@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: bcf094ad-8098-4e45-9131-25dbdb7e4093
 ms.date: 12/05/2018
 ms.keywords: '*LPLINETRANSLATEOUTPUT, LINETRANSLATEOUTPUT, LINETRANSLATEOUTPUT structure [TAPI 2.2], LPLINETRANSLATEOUTPUT, LPLINETRANSLATEOUTPUT structure pointer [TAPI 2.2], _tapi2_linetranslateoutput_str, tapi/LINETRANSLATEOUTPUT, tapi/LPLINETRANSLATEOUTPUT, tapi2.linetranslateoutput_str'
-ms.topic: struct
 f1_keywords:
 - tapi/LINETRANSLATEOUTPUT
 dev_langs:

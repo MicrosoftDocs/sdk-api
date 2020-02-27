@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: de8ac383-f309-4320-bc77-c859ba27e1ca
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaTemplate, IFsrmQuotaTemplate interface [File Server Resource Manager], IFsrmQuotaTemplate interface [File Server Resource Manager],described, fs.ifsrmquotatemplate, fsrm.ifsrmquotatemplate, fsrm/IFsrmQuotaTemplate
-ms.topic: interface
 f1_keywords:
 - fsrmquota/IFsrmQuotaTemplate
 dev_langs:

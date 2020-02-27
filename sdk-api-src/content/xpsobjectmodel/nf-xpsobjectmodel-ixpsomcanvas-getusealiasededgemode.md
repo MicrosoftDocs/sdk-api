@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 9d3f0660-227a-4b0f-bd41-112bd89e4605
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetUseAliasedEdgeMode, GetUseAliasedEdgeMode method [XPS Documents and Packaging], GetUseAliasedEdgeMode method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetUseAliasedEdgeMode method, IXpsOMCanvas.GetUseAliasedEdgeMode, IXpsOMCanvas::GetUseAliasedEdgeMode, TRUE, xps.ixpsomcanvas_getusealiasededgemode, xpsobjectmodel/IXpsOMCanvas::GetUseAliasedEdgeMode
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCanvas.GetUseAliasedEdgeMode
 dev_langs:
@@ -152,7 +151,7 @@ The property that is returned by this method corresponds to the <b>RenderOptions
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

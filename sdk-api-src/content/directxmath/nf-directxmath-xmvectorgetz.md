@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetZ(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorGetZ, XMVectorGetZ, XMVectorGetZ method [DirectX Math Support APIs], dxmath.xmvectorgetz
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorGetZ
 dev_langs:

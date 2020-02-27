@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 25790685-9797-4cde-a530-94793b1245a0
 ms.date: 12/05/2018
 ms.keywords: IdnToNameprepUnicode, IdnToNameprepUnicode function [Internationalization for Windows Applications], _win32_IdnToNameprepUnicode, intl.idntonameprepunicode, winnls/IdnToNameprepUnicode
-ms.topic: function
 f1_keywords:
 - winnls/IdnToNameprepUnicode
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts an internationalized domain name (IDN) or another internationalized label to the NamePrep form specified by Network Working Group <a href="http://go.microsoft.com/fwlink/p/?linkid=161552">RFC 3491</a>, but does not perform the additional conversion to Punycode. For more information and links to related draft standards, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>.
+Converts an internationalized domain name (IDN) or another internationalized label to the NamePrep form specified by Network Working Group <a href="http://www.faqs.org/rfcs/rfc3491.html">RFC 3491</a>, but does not perform the additional conversion to Punycode. For more information and links to related draft standards, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>.
 
 
 ## -parameters

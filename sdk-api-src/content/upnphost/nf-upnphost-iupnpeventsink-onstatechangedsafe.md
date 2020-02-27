@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 95792229-287c-43f1-b03a-45aa63a9682f
 ms.date: 12/05/2018
 ms.keywords: IUPnPEventSink interface [UPnP APIs],OnStateChangedSafe method, IUPnPEventSink.OnStateChangedSafe, IUPnPEventSink::OnStateChangedSafe, OnStateChangedSafe, OnStateChangedSafe method [UPnP APIs], OnStateChangedSafe method [UPnP APIs],IUPnPEventSink interface, _upnp_iupnpeventsink_onstatechangedsafe, upnp.iupnpeventsink_onstatechangedsafe, upnphost/IUPnPEventSink::OnStateChangedSafe
-ms.topic: method
 f1_keywords:
 - upnphost/IUPnPEventSink.OnStateChangedSafe
 dev_langs:

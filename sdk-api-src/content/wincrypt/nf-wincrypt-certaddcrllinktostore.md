@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 2fde63ed-7522-4400-a16b-059a001e7c26
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_USE_EXISTING, CertAddCRLLinkToStore, CertAddCRLLinkToStore function [Security], _crypto2_certaddcrllinktostore, security.certaddcrllinktostore, wincrypt/CertAddCRLLinkToStore
-ms.topic: function
 f1_keywords:
 - wincrypt/CertAddCRLLinkToStore
 dev_langs:

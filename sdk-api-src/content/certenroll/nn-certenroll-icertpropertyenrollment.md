@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 7530998b-b59c-426b-a74a-ead4bca55c3b
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyEnrollment, ICertPropertyEnrollment interface [Security], ICertPropertyEnrollment interface [Security],described, certenroll/ICertPropertyEnrollment, security.icertpropertyenrollment
-ms.topic: interface
 f1_keywords:
 - certenroll/ICertPropertyEnrollment
 dev_langs:

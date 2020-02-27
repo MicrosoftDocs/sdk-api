@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: dc0e15c4-6203-4105-9d19-5931b27047d2
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsReadMsgPdu, IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks], IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],described, mbn.imbnsmsreadmsgpdu, mbnapi/IMbnSmsReadMsgPdu
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnSmsReadMsgPdu
 dev_langs:

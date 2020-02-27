@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 10eed3e6-d5a0-4ba4-964e-3d924a231afb
 ms.date: 12/05/2018
 ms.keywords: WSCSetProviderInfo, WSCSetProviderInfo function [Winsock], winsock.wscsetproviderinfo, ws2spi/WSCSetProviderInfo
-ms.topic: function
 f1_keywords:
 - ws2spi/WSCSetProviderInfo
 dev_langs:
@@ -223,7 +222,7 @@ The **WSCSetProviderInfo** function can only be called by a user logged on as a 
 <a href="/windows-hardware/drivers/ddi/content/_netvista/">Winsock Kernel</a>. For a Windows Core Networking
     blog entry about WSK and TDI, see 
     
-<a href="http://go.microsoft.com/fwlink/p/?linkid=188455">Introduction to Winsock Kernel
+<a href="https://blogs.msdn.com/wndp/archive/2006/02/24/538746.aspx">Introduction to Winsock Kernel
     (WSK)</a>.
 </div>
 <div> </div>

@@ -7,7 +7,6 @@ tech.root: NetVista
 ms.assetid: 4bf6256d-e07e-45a8-a269-e32e88642b79
 ms.date: 12/05/2018
 ms.keywords: '*PNL_ROUTE_PROTOCOL, MIB_IPPROTO_BBN, MIB_IPPROTO_BGP, MIB_IPPROTO_CISCO, MIB_IPPROTO_EGP, MIB_IPPROTO_ES_IS, MIB_IPPROTO_GGP, MIB_IPPROTO_HELLO, MIB_IPPROTO_ICMP, MIB_IPPROTO_IS_IS, MIB_IPPROTO_LOCAL, MIB_IPPROTO_NETMGMT, MIB_IPPROTO_NT_AUTOSTATIC, MIB_IPPROTO_NT_STATIC, MIB_IPPROTO_NT_STATIC_NON_DOD, MIB_IPPROTO_OSPF, MIB_IPPROTO_OTHER, MIB_IPPROTO_RIP, NL_ROUTE_PROTOCOL, NL_ROUTE_PROTOCOL enumeration [Network Drivers Starting with Windows Vista], PNL_ROUTE_PROTOCOL, PNL_ROUTE_PROTOCOL enumeration pointer [Network Drivers Starting with Windows Vista], RouteProtocolBbn, RouteProtocolBgp, RouteProtocolCisco, RouteProtocolEgp, RouteProtocolEsIs, RouteProtocolGgp, RouteProtocolHello, RouteProtocolIcmp, RouteProtocolIsIs, RouteProtocolLocal, RouteProtocolNetMgmt, RouteProtocolOspf, RouteProtocolOther, RouteProtocolRip, iphelper_af0732ae-40e7-4fdf-9ccd-f5c58c4a693b.xml, netvista.nl_route_protocol, nldef/MIB_IPPROTO_BBN, nldef/MIB_IPPROTO_BGP, nldef/MIB_IPPROTO_CISCO, nldef/MIB_IPPROTO_EGP, nldef/MIB_IPPROTO_ES_IS, nldef/MIB_IPPROTO_GGP, nldef/MIB_IPPROTO_HELLO, nldef/MIB_IPPROTO_ICMP, nldef/MIB_IPPROTO_IS_IS, nldef/MIB_IPPROTO_LOCAL, nldef/MIB_IPPROTO_NETMGMT, nldef/MIB_IPPROTO_NT_AUTOSTATIC, nldef/MIB_IPPROTO_NT_STATIC, nldef/MIB_IPPROTO_NT_STATIC_NON_DOD, nldef/MIB_IPPROTO_OSPF, nldef/MIB_IPPROTO_OTHER, nldef/MIB_IPPROTO_RIP, nldef/NL_ROUTE_PROTOCOL, nldef/PNL_ROUTE_PROTOCOL, nldef/RouteProtocolBbn, nldef/RouteProtocolBgp, nldef/RouteProtocolCisco, nldef/RouteProtocolEgp, nldef/RouteProtocolEsIs, nldef/RouteProtocolGgp, nldef/RouteProtocolHello, nldef/RouteProtocolIcmp, nldef/RouteProtocolIsIs, nldef/RouteProtocolLocal, nldef/RouteProtocolNetMgmt, nldef/RouteProtocolOspf, nldef/RouteProtocolOther, nldef/RouteProtocolRip'
-ms.topic: enum
 f1_keywords:
 - nldef/NL_ROUTE_PROTOCOL
 dev_langs:
@@ -183,7 +182,7 @@ The Gateway-to-Gateway Protocol (GGP), a dynamic routing protocol.
 The Hello protocol, a dynamic routing protocol. This value is a historical entry that is no longer
      used and was an early routing protocol that was used by the original ARPANET routers that ran special
      software call fuzzball or hellospeak, as described in RFC 891. For more information, see 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=84070">DCN Local-Network Protocols</a>.
+     <a href="https://www.ietf.org/rfc/rfc891.txt">DCN Local-Network Protocols</a>.
 
 
 #### - MIB_IPPROTO_ICMP
@@ -250,7 +249,7 @@ The Berkeley Routing Information Protocol (RIP) or RIP-II, a dynamic routing pro
 
 
 For more information about RFC 4292, see the 
-    <a href="http://go.microsoft.com/fwlink/p/?linkid=84065">IP Forwarding Table MIB</a> memo by the
+    <a href="https://www.ietf.org/rfc/rfc4292.txt">IP Forwarding Table MIB</a> memo by the
     Network Working Group.
 
 Note that the 

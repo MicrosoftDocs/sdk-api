@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 27bd4a3f-0e9d-45f7-ad7c-0c0b59579dd0
 ms.date: 12/05/2018
 ms.keywords: SafeArrayGetElemsize, SafeArrayGetElemsize function [Automation], _oa96_SafeArrayGetElemsize, automat.safearraygetelemsize, oleauto/SafeArrayGetElemsize
-ms.topic: function
 f1_keywords:
 - oleauto/SafeArrayGetElemsize
 dev_langs:

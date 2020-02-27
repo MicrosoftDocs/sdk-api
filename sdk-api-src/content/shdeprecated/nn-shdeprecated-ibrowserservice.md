@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e12ada84-0825-4946-8075-731dfc51ef50
 ms.date: 12/05/2018
 ms.keywords: IBrowserService, IBrowserService interface [Windows Shell], IBrowserService interface [Windows Shell],described, shdeprecated/IBrowserService, shell.IBrowserService, zone_IBrowserService
-ms.topic: interface
 f1_keywords:
 - shdeprecated/IBrowserService
 dev_langs:

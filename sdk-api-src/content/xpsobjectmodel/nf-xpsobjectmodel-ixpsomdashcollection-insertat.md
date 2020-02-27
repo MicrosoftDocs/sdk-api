@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d9ef0ea9-f427-41ff-b33e-c9b5f49cb7d9
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDashCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMDashCollection.InsertAt, IXpsOMDashCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, xps.ixpsomdashcollection_insertat, xpsobjectmodel/IXpsOMDashCollection::InsertAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDashCollection.InsertAt
 dev_langs:
@@ -98,7 +97,7 @@ The figure that follows illustrates how the collection is changed by the <b>Inse
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

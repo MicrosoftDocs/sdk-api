@@ -7,7 +7,6 @@ tech.root: mediastreaming
 ms.assetid: F362617D-E0F8-4F2C-8968-93AD25FE0990
 ms.date: 12/05/2018
 ms.keywords: IDevicePair interface [Media Streaming API],get_Server method, IDevicePair.get_Server, IDevicePair.streaming, IDevicePair::get_Server, IDevicePair::streaming, get_Server, get_Server method [Media Streaming API], get_Server method [Media Streaming API],IDevicePair interface, mediastreaming.idevicepair_server, windows/IDevicePair::get_Server
-ms.topic: method
 f1_keywords:
 - windows.media.streaming/IDevicePair.get_Server
 dev_langs:

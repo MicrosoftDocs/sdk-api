@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 2c3a0cf3-c970-4908-a960-ba261756bd5f
 ms.date: 12/05/2018
 ms.keywords: 07f8f820-f0ad-bbd6-94a3-383d2e895e69, IDXGISurface1 interface [DXGI],ReleaseDC method, IDXGISurface1.ReleaseDC, IDXGISurface1::ReleaseDC, ReleaseDC, ReleaseDC method [DXGI], ReleaseDC method [DXGI],IDXGISurface1 interface, direct3ddxgi.idxgisurface1_releasedc, dxgi/IDXGISurface1::ReleaseDC
-ms.topic: method
 f1_keywords:
 - dxgi/IDXGISurface1.ReleaseDC
 dev_langs:
@@ -89,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 This method is not supported by DXGI 1.0, which shipped in Windows Vista and Windows Server 2008. DXGI 1.1 support is required, which is available on 
-      Windows 7, Windows Server 2008 R2, and as an update to Windows Vista with Service Pack 2 (SP2) (<a href="http://go.microsoft.com/fwlink/p/?linkid=160189">KB 971644</a>) and Windows Server 2008 (<a href="http://go.microsoft.com/fwlink/p/?linkid=183689">KB 971512</a>).
+      Windows 7, Windows Server 2008 R2, and as an update to Windows Vista with Service Pack 2 (SP2) (<a href="https://support.microsoft.com/kb/971644">KB 971644</a>) and Windows Server 2008 (<a href="https://support.microsoft.com/kb/971512/">KB 971512</a>).
 
 Use the <b>ReleaseDC</b> method to release the DC and indicate that your application finished all GDI rendering to this surface.  
       You must call the <b>ReleaseDC</b> method before you can use Direct3D to perform additional rendering.

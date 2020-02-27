@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: FC75DDA5-59BA-4CCF-93CC-8D0BB2AB415B
 ms.date: 12/5/2018
 ms.keywords: RoOriginateErrorW, RoOriginateErrorW function [Windows Runtime], WinRTOriginateErrorW, roerrorapi/RoOriginateErrorW, roerrorapi/WinRTOriginateErrorW, winrt.rooriginateerrorw, winrt.winrtoriginateerrorw
-ms.topic: function
 f1_keywords:
 - roerrorapi/RoOriginateErrorW
 dev_langs:
@@ -152,7 +151,7 @@ Depending on the current configuration of the debugger, the <b>RoOriginateErrorW
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-ro_error_reporting_flags">RO_ERROR_REPORTING_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-roerrorreportingflags">RO_ERROR_REPORTING_FLAGS</a>
 
 
 

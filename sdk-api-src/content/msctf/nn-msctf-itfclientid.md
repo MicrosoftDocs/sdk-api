@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: ccb06ed3-67e2-4e46-8037-ff215ba23601
 ms.date: 12/05/2018
 ms.keywords: ITfClientId, ITfClientId interface [Text Services Framework], ITfClientId interface [Text Services Framework],described, _tsf_itfclientid_ref, msctf/ITfClientId, tsf.itfclientid
-ms.topic: interface
 f1_keywords:
 - msctf/ITfClientId
 dev_langs:

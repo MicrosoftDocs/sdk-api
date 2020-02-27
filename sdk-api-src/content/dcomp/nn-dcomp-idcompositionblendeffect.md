@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: F8EDEA1D-A990-48C0-B4D4-3DD9261B47B2
 ms.date: 12/05/2018
 ms.keywords: IDCompositionBlendEffect, IDCompositionBlendEffect interface [DirectComposition], IDCompositionBlendEffect interface [DirectComposition],described, dcomp/IDCompositionBlendEffect, directcomp.idcompositionblendeffect
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionBlendEffect
 dev_langs:

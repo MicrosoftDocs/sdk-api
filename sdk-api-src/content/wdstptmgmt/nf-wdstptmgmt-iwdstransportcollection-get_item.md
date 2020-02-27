@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 4849923f-7463-46ee-9ec8-d2d5bcefd5ad
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportCollection interface [Windows Deployment Services],Item property, IWdsTransportCollection.Item, IWdsTransportCollection.get_Item, IWdsTransportCollection::Item, IWdsTransportCollection::get_Item, IWdsTransportCollection::put_Item, Item property [Windows Deployment Services], Item property [Windows Deployment Services],IWdsTransportCollection interface, get_Item, wds.iwdstransportcollection_item, wdstptmgmt/IWdsTransportCollection::Item, wdstptmgmt/IWdsTransportCollection::get_Item, wdstptmgmt/IWdsTransportCollection::put_Item
-ms.topic: method
 f1_keywords:
 - wdstptmgmt/IWdsTransportCollection.Item
 dev_langs:

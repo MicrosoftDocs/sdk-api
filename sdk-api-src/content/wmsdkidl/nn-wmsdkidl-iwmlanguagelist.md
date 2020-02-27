@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 63ef282c-d1ab-4ce9-a56b-209407c7839b
 ms.date: 12/05/2018
 ms.keywords: IWMLanguageList, IWMLanguageList interface [windows Media Format], IWMLanguageList interface [windows Media Format],described, IWMLanguageListInterface, wmformat.iwmlanguagelist, wmsdkidl/IWMLanguageList
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMLanguageList
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: caf50c08-5247-4229-8952-9d538362b33d
 ms.date: 12/05/2018
 ms.keywords: GetStartRecConfig, GetStartRecConfig method [Microsoft TV Technologies], GetStartRecConfig method [Microsoft TV Technologies],IStreamBufferConfigure3 interface, IStreamBufferConfigure3 interface [Microsoft TV Technologies],GetStartRecConfig method, IStreamBufferConfigure3.GetStartRecConfig, IStreamBufferConfigure3::GetStartRecConfig, IStreamBufferConfigure3GetStartRecConfig, mstv.istreambufferconfigure3_getstartrecconfig, sbe/IStreamBufferConfigure3::GetStartRecConfig
-ms.topic: method
 f1_keywords:
 - sbe/IStreamBufferConfigure3.GetStartRecConfig
 dev_langs:

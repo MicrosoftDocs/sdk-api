@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 76b2d0a5-2d62-455d-8822-88ca14a497ae
 ms.date: 12/05/2018
 ms.keywords: GetSigningLocale, GetSigningLocale method [XPS Documents and Packaging], GetSigningLocale method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetSigningLocale method, IXpsSignatureRequest.GetSigningLocale, IXpsSignatureRequest::GetSigningLocale, xps.ixpssignaturerequest_getsigninglocale, xpsdigitalsignature/IXpsSignatureRequest::GetSigningLocale
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureRequest.GetSigningLocale
 dev_langs:
@@ -135,7 +134,7 @@ This method allocates the memory used by the string that is returned in <i>place
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: afdddfec-a3a5-410c-998b-9a5af8e051b6
 ms.date: 12/05/2018
 ms.keywords: BCryptDeriveKeyPBKDF2, BCryptDeriveKeyPBKDF2 function [Security], bcrypt/BCryptDeriveKeyPBKDF2, security.bcryptderivekeypbkdf2
-ms.topic: function
 f1_keywords:
 - bcrypt/BCryptDeriveKeyPBKDF2
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BCryptDeriveKeyPBKDF2</b> function derives a key from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> value by using the PBKDF2 key derivation algorithm as defined by <a href="http://go.microsoft.com/fwlink/p/?linkid=133482">RFC 2898</a>.
+The <b>BCryptDeriveKeyPBKDF2</b> function derives a key from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> value by using the PBKDF2 key derivation algorithm as defined by <a href="https://www.ietf.org/rfc/rfc2898.txt">RFC 2898</a>.
 
 
 ## -parameters

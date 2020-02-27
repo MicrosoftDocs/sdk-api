@@ -1,9 +1,10 @@
 ---
 UID: NA:mediaobj
+title: Mediaobj.h header
 ms.assetid: d6194c4e-18c3-302b-8437-32d383b8790b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: dshow
 archived: true
 ---

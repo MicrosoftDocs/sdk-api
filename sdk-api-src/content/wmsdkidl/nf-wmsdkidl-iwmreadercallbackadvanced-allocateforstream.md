@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 82d31f4b-d8a8-4538-be5e-dd9149e3f420
 ms.date: 12/05/2018
 ms.keywords: AllocateForStream, AllocateForStream method [windows Media Format], AllocateForStream method [windows Media Format],IWMReaderCallbackAdvanced interface, IWMReaderCallbackAdvanced interface [windows Media Format],AllocateForStream method, IWMReaderCallbackAdvanced.AllocateForStream, IWMReaderCallbackAdvanced::AllocateForStream, IWMReaderCallbackAdvancedAllocateForStream, wmformat.iwmreadercallbackadvanced_allocateforstream, wmsdkidl/IWMReaderCallbackAdvanced::AllocateForStream
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderCallbackAdvanced.AllocateForStream
 dev_langs:

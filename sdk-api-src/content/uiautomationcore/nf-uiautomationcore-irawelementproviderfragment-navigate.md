@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 9e0caf58-a261-4a2b-8e48-368ea3ad8840
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderFragment interface [Windows Accessibility],Navigate method, IRawElementProviderFragment.Navigate, IRawElementProviderFragment::Navigate, Navigate, Navigate method [Windows Accessibility], Navigate method [Windows Accessibility],IRawElementProviderFragment interface, uiauto.uiauto_IRawElementProviderFragment_Navigate, uiauto_IRawElementProviderFragment_Navigate, uiautomationcore/IRawElementProviderFragment::Navigate, winauto.uiauto_IRawElementProviderFragment_Navigate
-ms.topic: method
 f1_keywords:
 - uiautomationcore/IRawElementProviderFragment.Navigate
 dev_langs:

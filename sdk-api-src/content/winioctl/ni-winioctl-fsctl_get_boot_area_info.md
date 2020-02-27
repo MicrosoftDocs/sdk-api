@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 5739354b-5342-4be9-ac50-bb983d51587c
 ms.date: 12/05/2018
 ms.keywords: FSCTL_GET_BOOT_AREA_INFO, FSCTL_GET_BOOT_AREA_INFO control, FSCTL_GET_BOOT_AREA_INFO control code [Files], fs.fsctl_get_boot_area_info, winioctl/FSCTL_GET_BOOT_AREA_INFO
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_GET_BOOT_AREA_INFO
 dev_langs:

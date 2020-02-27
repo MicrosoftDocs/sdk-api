@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 4f331f99-c52c-4744-a9a7-eeb09803862d
 ms.date: 12/05/2018
 ms.keywords: FtpFindFirstFile, FtpFindFirstFile function [WinINet], FtpFindFirstFileA, FtpFindFirstFileW, _inet_ftpfindfirstfile_function, wininet.ftpfindfirstfile, wininet/FtpFindFirstFile, wininet/FtpFindFirstFileA, wininet/FtpFindFirstFileW
-ms.topic: function
 f1_keywords:
 - wininet/FtpFindFirstFile
 dev_langs:

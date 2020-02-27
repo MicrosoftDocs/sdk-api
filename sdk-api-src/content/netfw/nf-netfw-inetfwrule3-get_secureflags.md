@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 3efb3491-f030-4a0a-bfbd-ab18fd424a38
 ms.date: 12/05/2018
 ms.keywords: INetFwRule3 interface [ICS/ICF],SecureFlags property, INetFwRule3.SecureFlags, INetFwRule3.get_SecureFlags, INetFwRule3::SecureFlags, INetFwRule3::get_SecureFlags, INetFwRule3::put_SecureFlags, SecureFlags property [ICS/ICF], SecureFlags property [ICS/ICF],INetFwRule3 interface, get_SecureFlags, ics.inetfwrule3_secureflags, netfw/INetFwRule3::SecureFlags, netfw/INetFwRule3::get_SecureFlags, netfw/INetFwRule3::put_SecureFlags
-ms.topic: method
 f1_keywords:
 - netfw/INetFwRule3.SecureFlags
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies which firewall verifications of security levels provided by IPsec must be guaranteed to allow the collection. The allowed values must correspond to those of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_authenticate_type_">NET_FW_AUTHENTICATE_TYPE</a> enumeration.
+Specifies which firewall verifications of security levels provided by IPsec must be guaranteed to allow the collection. The allowed values must correspond to those of the <a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_authenticate_type">NET_FW_AUTHENTICATE_TYPE</a> enumeration.
 
 This property is read/write.
 
@@ -69,7 +68,7 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_authenticate_type_">NET_FW_AUTHENTICATE_TYPE</a>
+<a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_authenticate_type">NET_FW_AUTHENTICATE_TYPE</a>
  
 
  

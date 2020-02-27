@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ddb1059a-e1c5-4506-b565-fd871ad8385f
 ms.date: 12/05/2018
 ms.keywords: GetVMGAttributes, GetVMGAttributes method [DirectShow], GetVMGAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetVMGAttributes method, IDvdInfo2.GetVMGAttributes, IDvdInfo2::GetVMGAttributes, IDvdInfo2GetVMGAttributes, dshow.idvdinfo2_getvmgattributes, strmif/IDvdInfo2::GetVMGAttributes
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo2.GetVMGAttributes
 dev_langs:
@@ -64,7 +63,7 @@ The <code>GetVMGAttributes</code> method retrieves attributes of all video, audi
 
 ### -param pATR [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_menuattributes">DVD_MenuAttributes</a> structure that receives the attributes.
+Pointer to a [DVD_MenuAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_menuattributes) structure that receives the attributes.
 
 
 ## -returns

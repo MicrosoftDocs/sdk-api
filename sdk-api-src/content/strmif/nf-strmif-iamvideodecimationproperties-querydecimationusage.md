@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 3addb9be-61df-4310-9066-85f75c64aae4
 ms.date: 12/05/2018
 ms.keywords: IAMVideoDecimationProperties interface [DirectShow],QueryDecimationUsage method, IAMVideoDecimationProperties.QueryDecimationUsage, IAMVideoDecimationProperties::QueryDecimationUsage, IAMVideoDecimationPropertiesQueryDecimationUsage, QueryDecimationUsage, QueryDecimationUsage method [DirectShow], QueryDecimationUsage method [DirectShow],IAMVideoDecimationProperties interface, dshow.iamvideodecimationproperties_querydecimationusage, strmif/IAMVideoDecimationProperties::QueryDecimationUsage
-ms.topic: method
 f1_keywords:
 - strmif/IAMVideoDecimationProperties.QueryDecimationUsage
 dev_langs:
@@ -64,7 +63,7 @@ The <code>QueryDecimationUsage</code> method retrieves the current decimation st
 
 ### -param lpUsage [out]
 
-Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-decimation_usage">DECIMATION_USAGE</a> that receives the decimation setting.
+Pointer to a variable of type [DECIMATION_USAGE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-decimation_usage) that receives the decimation setting.
 
 
 ## -returns

@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcatn.htm
 ms.date: 12/05/2018
 ms.keywords: StringCbCatN, StringCbCatN function [Menus and Other Resources], StringCbCatNA, StringCbCatNW, _shell_StringCbCatN, _shell_stringcbcatn_cpp, menurc.stringcbcatn, strsafe/StringCbCatN, strsafe/StringCbCatNA, strsafe/StringCbCatNW, winui._shell_stringcbcatn
-ms.topic: function
 f1_keywords:
 - strsafe/StringCbCatN
 dev_langs:
@@ -56,7 +55,7 @@ Concatenates the specified number of bytes from one  string to another string. T
 
 <b>StringCbCatN</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192505">strncat</a></li>
+<li><a href="https://msdn.microsoft.com/library/tbyd7s1y.aspx">strncat</a></li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strncata">StrNCat</a>
 </li>

@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 3e76e345-1d6c-4eb5-a743-b71d5ccc52e5
 ms.date: 12/05/2018
 ms.keywords: SetupQueueDeleteSection, SetupQueueDeleteSection function [Setup API], SetupQueueDeleteSectionA, SetupQueueDeleteSectionW, _setupapi_setupqueuedeletesection, setup.setupqueuedeletesection, setupapi/SetupQueueDeleteSection, setupapi/SetupQueueDeleteSectionA, setupapi/SetupQueueDeleteSectionW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupQueueDeleteSection
 dev_langs:

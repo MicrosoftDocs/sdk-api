@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: a5535cf9-ba8c-4212-badd-f1dc88903624
 ms.date: 12/05/2018
 ms.keywords: NCryptFreeObject, NCryptFreeObject function [Security], ncrypt/NCryptFreeObject, security.ncryptfreeobject_func
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptFreeObject
 dev_langs:
@@ -111,7 +110,7 @@ The handle in the <i>hObject</i> parameter is not valid.
 
 
 
-A service must not call this function from its <a href="http://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 
 

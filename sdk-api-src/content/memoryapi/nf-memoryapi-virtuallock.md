@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 414c4704-36f2-40f9-a69a-9d53ab354c30
 ms.date: 12/05/2018
 ms.keywords: VirtualLock, VirtualLock function, _win32_virtuallock, base.virtuallock, winbase/VirtualLock
-ms.topic: function
 f1_keywords:
 - memoryapi/VirtualLock
 dev_langs:

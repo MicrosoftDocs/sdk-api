@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 2fa2d140-fa8e-41a8-9800-d10e5559fab4
 ms.date: 12/05/2018
 ms.keywords: SetupIterateCabinet, SetupIterateCabinet function [Setup API], SetupIterateCabinetA, SetupIterateCabinetW, _setupapi_setupiteratecabinet, setup.setupiteratecabinet, setupapi/SetupIterateCabinet, setupapi/SetupIterateCabinetA, setupapi/SetupIterateCabinetW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupIterateCabinet
 dev_langs:

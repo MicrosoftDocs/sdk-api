@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 631571A2-AA15-4A4B-B705-6CCC81392A6A
 ms.date: 12/05/2018
 ms.keywords: IWICJpegFrameEncode, IWICJpegFrameEncode interface [Windows Imaging Component], IWICJpegFrameEncode interface [Windows Imaging Component],described, wic.iwicjpegframeencode, wincodec/IWICJpegFrameEncode
-ms.topic: interface
 f1_keywords:
 - wincodec/IWICJpegFrameEncode
 dev_langs:
@@ -111,7 +110,7 @@ Writes scan data to a JPEG frame.
 
 
 
-Obtain this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> on the Windows-provided <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncoder</a> interface for the JPEG encoder.
+Obtain this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> on the Windows-provided <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncoder</a> interface for the JPEG encoder.
 
 The WIC JPEG encoder supports a smaller subset of JPEG features than the decoder does.
 

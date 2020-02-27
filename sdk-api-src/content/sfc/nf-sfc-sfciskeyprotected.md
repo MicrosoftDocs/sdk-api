@@ -7,7 +7,6 @@ tech.root: wfp
 ms.assetid: 6e26a539-a22a-487a-b720-fa3660c1b485
 ms.date: 12/05/2018
 ms.keywords: KEY_WOW64_32KEY, KEY_WOW64_64KEY, SfcIsKeyProtected, SfcIsKeyProtected function [Setup API], setup.sfciskeyprotected, sfc/SfcIsKeyProtected
-ms.topic: function
 f1_keywords:
 - sfc/SfcIsKeyProtected
 dev_langs:

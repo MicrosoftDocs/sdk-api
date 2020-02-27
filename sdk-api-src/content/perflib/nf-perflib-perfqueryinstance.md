@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 844f3f9e-8de2-4995-b13c-befe0da8a1ab
 ms.date: 12/05/2018
 ms.keywords: PerfQueryInstance, PerfQueryInstance function [Perf], base.perfqueryinstance, perf.perfqueryinstance, perflib/PerfQueryInstance
-ms.topic: function
 f1_keywords:
 - perflib/PerfQueryInstance
 dev_langs:

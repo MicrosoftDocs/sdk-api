@@ -1,9 +1,10 @@
 ---
 UID: TP:mib
+title: Management Information Base
 ms.assetid: ab00077e-575e-37b9-8750-c458f936d496
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Management Information Base
@@ -20,5 +21,5 @@ To develop Management Information Base, you need these headers:
  * [udpmib.h](../udpmib/index.md)
 
 For programming guidance for this technology, see:
-* [Management Information Base](/windows/desktop/mib)
+* [Management Information Base](https://docs.microsoft.com/previous-versions/windows/desktop/mib)
 

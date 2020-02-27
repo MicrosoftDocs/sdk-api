@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 2BC66DEA-5C40-4EBA-8CDB-B48036E8A85F
 ms.date: 12/05/2018
 ms.keywords: D2D1Tan, D2D1Tan function [Direct2D], d2d1_1/D2D1Tan, direct2d.d2d1tan
-ms.topic: function
 f1_keywords:
 - d2d1_1/D2D1Tan
 dev_langs:

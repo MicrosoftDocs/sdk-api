@@ -7,7 +7,6 @@ tech.root: WinHttp
 ms.assetid: a433ed3c-3f31-4c37-9c09-3f8344e9550d
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_AUTO_DETECT_TYPE_DHCP, WINHTTP_AUTO_DETECT_TYPE_DNS_A, WinHttpDetectAutoProxyConfigUrl, WinHttpDetectAutoProxyConfigUrl function [WinHTTP], http.winhttpdetectautoproxyconfigurl, winhttp/WinHttpDetectAutoProxyConfigUrl
-ms.topic: function
 f1_keywords:
 - winhttp/WinHttpDetectAutoProxyConfigUrl
 dev_langs:
@@ -151,7 +150,7 @@ Not enough memory was available to complete the requested operation. (Windows er
 
 
 
-WinHTTP implements the <a href="Http://go.microsoft.com/fwlink/p/?linkid=392029">Web Proxy Auto-Discovery (WPAD) protocol</a>, often referred to as <i>autoproxy</i>. For more information about well-known locations, see the  <a href="Http://go.microsoft.com/fwlink/p/?linkid=392029">Discovery Process</a> section of the WPAD protocol document.
+WinHTTP implements the <a href="http://tools.ietf.org/html/draft-ietf-wrec-wpad-01">Web Proxy Auto-Discovery (WPAD) protocol</a>, often referred to as <i>autoproxy</i>. For more information about well-known locations, see the  <a href="http://tools.ietf.org/html/draft-ietf-wrec-wpad-01">Discovery Process</a> section of the WPAD protocol document.
 
 Note that because the <b>WinHttpDetectAutoProxyConfigUrl</b> function takes time to complete its operation, it should not be called from  a UI thread.
 

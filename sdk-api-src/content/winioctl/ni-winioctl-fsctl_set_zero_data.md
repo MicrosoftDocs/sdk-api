@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: ee32f836-682e-4c26-b7d6-82e3b7b234f9
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_ZERO_DATA, FSCTL_SET_ZERO_DATA control, FSCTL_SET_ZERO_DATA control code [Files], _win32_fsctl_set_zero_data, base.fsctl_set_zero_data, fs.fsctl_set_zero_data, winioctl/FSCTL_SET_ZERO_DATA
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_SET_ZERO_DATA
 dev_langs:

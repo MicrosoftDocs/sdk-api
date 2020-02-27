@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 55488cf0-0098-4d5b-b451-a5d56f30ed65
 ms.date: 12/05/2018
 ms.keywords: ?FormatV@CHString@@QAEXPBGPAD@Z, ?FormatV@CHString@@QEAAXPEBGPEAD@Z, CHString interface [Windows Management Instrumentation],FormatV method, CHString.FormatV, CHString::FormatV, FormatV, FormatV method [Windows Management Instrumentation], FormatV method [Windows Management Instrumentation],CHString interface, _hmm_chstring_formatv, chstring/CHString::FormatV, wmi.chstring_formatv
-ms.topic: method
 f1_keywords:
 - chstring/CHString.FormatV
 dev_langs:
@@ -94,7 +93,7 @@ The <b>FormatV</b> method formats and stores a series of characters and values i
 
 If the string object is offered as a parameter to <b>FormatV</b>, the call fails.
 
-<div class="alert"><b>Note</b>  To reduce exposure to security attacks, always use a format string for <b>FormatV</b>. Never use a user-supplied string for the format string. If your format string is stored for a purpose such as localization, ensure that the string is protected from unauthorized write access. If your function writes to a string rather than standard output, you may need to avoid using a trailing "%s" in the format string. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84443">www.securityfocus.com/archive/1/81565</a> and <a href="Http://go.microsoft.com/fwlink/p/?linkid=84442">www.securityfocus.com/archive/1/66842</a>.</div>
+<div class="alert"><b>Note</b>  To reduce exposure to security attacks, always use a format string for <b>FormatV</b>. Never use a user-supplied string for the format string. If your format string is stored for a purpose such as localization, ensure that the string is protected from unauthorized write access. If your function writes to a string rather than standard output, you may need to avoid using a trailing "%s" in the format string. For more information, see <a href="https://www.microsoft.com/?ref=go">www.securityfocus.com/archive/1/81565</a> and <a href="https://www.microsoft.com/?ref=go">www.securityfocus.com/archive/1/66842</a>.</div>
 <div> </div>
 
 

@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 28493e3a-ee5a-4331-b5b5-ba0bf2ee3370
 ms.date: 12/05/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Core Audio], GetDisplayName method [Core Audio],IAudioSessionControl interface, IAudioSessionControl interface [Core Audio],GetDisplayName method, IAudioSessionControl.GetDisplayName, IAudioSessionControl::GetDisplayName, IAudioSessionControlGetDisplayName, audiopolicy/IAudioSessionControl::GetDisplayName, coreaudio.iaudiosessioncontrol_getdisplayname
-ms.topic: method
 f1_keywords:
 - audiopolicy/IAudioSessionControl.GetDisplayName
 dev_langs:

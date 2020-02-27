@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 63279d7e-0e64-4708-a29c-60d5fdf75cb2
 ms.date: 12/05/2018
 ms.keywords: AVIMakeCompressedStream, AVIMakeCompressedStream function [Windows Multimedia], _win32_AVIMakeCompressedStream, multimedia.avimakecompressedstream, vfw/AVIMakeCompressedStream
-ms.topic: function
 f1_keywords:
 - vfw/AVIMakeCompressedStream
 dev_langs:

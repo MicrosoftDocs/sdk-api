@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1a7c85ce-46f1-4928-9e2a-3a4bd96dc771
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],QueryPinInfo method, IPin.QueryPinInfo, IPin::QueryPinInfo, IPinQueryPinInfo, QueryPinInfo, QueryPinInfo method [DirectShow], QueryPinInfo method [DirectShow],IPin interface, dshow.ipin_querypininfo, strmif/IPin::QueryPinInfo
-ms.topic: method
 f1_keywords:
 - strmif/IPin.QueryPinInfo
 dev_langs:
@@ -64,7 +63,7 @@ The <code>QueryPinInfo</code> method retrieves information about the pin.
 
 ### -param pInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-pin_info">PIN_INFO</a> structure that receives the pin information.
+Pointer to a [PIN_INFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-pin_info) structure that receives the pin information.
 
 
 ## -returns

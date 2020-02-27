@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 46793ae9-936e-4a58-bc34-84396151b4a3
 ms.date: 12/05/2018
 ms.keywords: IShellMenu, IShellMenu interface [Windows Shell], IShellMenu interface [Windows Shell],described, _shell_IShellMenu, shell.IShellMenu, shobjidl_core/IShellMenu
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IShellMenu
 dev_langs:

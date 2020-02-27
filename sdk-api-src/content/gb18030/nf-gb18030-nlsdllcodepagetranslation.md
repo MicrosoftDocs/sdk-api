@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: cc653877-de16-4ccc-b48e-8bd7cfacb43c
 ms.date: 12/05/2018
 ms.keywords: NLS_CP_CPINFO, NLS_CP_MBTOWC, NLS_CP_WCTOMB, NlsDllCodePageTranslation, NlsDllCodePageTranslation function [Internationalization for Windows Applications], _win32_NlsDllCodePageTranslation, gb18030/NlsDllCodePageTranslation, intl.nlsdllcodepagetranslation
-ms.topic: function
 f1_keywords:
 - gb18030/NlsDllCodePageTranslation
 dev_langs:

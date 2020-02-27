@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: da0f2420-b1a0-4359-aa05-ddf1f2a35118
 ms.date: 12/05/2018
 ms.keywords: CreateFolder, CreateFolder method [Task Scheduler], CreateFolder method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],CreateFolder method, ITaskFolder.CreateFolder, ITaskFolder::CreateFolder, taskschd.itaskfolder_createfolder, taskschd/ITaskFolder::CreateFolder
-ms.topic: method
 f1_keywords:
 - taskschd/ITaskFolder.CreateFolder
 dev_langs:

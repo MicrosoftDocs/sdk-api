@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b929543c-d5b3-4d48-b13f-bbef568287a5
 ms.date: 12/05/2018
 ms.keywords: IRunnableTask interface [Windows Shell],Run method, IRunnableTask.Run, IRunnableTask::Run, Run, Run method [Windows Shell], Run method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_Run, shell.IRunnableTask_Run, shobjidl_core/IRunnableTask::Run
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IRunnableTask.Run
 dev_langs:

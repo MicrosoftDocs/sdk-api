@@ -7,7 +7,6 @@ tech.root: OpenGL
 ms.assetid: 083a563e-5b26-4ca8-8cae-c5a9ff901e8f
 ms.date: 12/05/2018
 ms.keywords: _ogl_wglRealizeLayerPalette, opengl.wglrealizelayerpalette, wglRealizeLayerPalette, wglRealizeLayerPalette function [OpenGL], wingdi/wglRealizeLayerPalette
-ms.topic: function
 f1_keywords:
 - wingdi/wglRealizeLayerPalette
 dev_langs:

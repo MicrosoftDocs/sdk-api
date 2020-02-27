@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 37a9ac59-e152-47e1-96ee-b816cd645936
 ms.date: 12/05/2018
 ms.keywords: WM_MEDIA_TYPE, WM_MEDIA_TYPE structure [windows Media Format], wmformat.wm_media_type, wmsdkidl/WM_MEDIA_TYPE
-ms.topic: struct
 f1_keywords:
 - wmsdkidl/WM_MEDIA_TYPE
 dev_langs:

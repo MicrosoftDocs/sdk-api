@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: d2356f34-9ef8-4d7d-bb01-843d1aa1cbed
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageHandleFromTransferHandle, WdsCliGetImageHandleFromTransferHandle function [Windows Deployment Services], wds.wdscligetimagehandlefromtransferhandle, wdsclientapi/WdsCliGetImageHandleFromTransferHandle
-ms.topic: function
 f1_keywords:
 - wdsclientapi/WdsCliGetImageHandleFromTransferHandle
 dev_langs:

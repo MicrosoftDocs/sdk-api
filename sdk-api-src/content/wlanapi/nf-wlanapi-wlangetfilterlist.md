@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 3ea88e52-34bb-47a6-b345-c789d1d8047d
 ms.date: 12/05/2018
 ms.keywords: WlanGetFilterList, WlanGetFilterList function [NativeWIFI], nwifi.wlangetfilterlist, wlanapi/WlanGetFilterList
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanGetFilterList
 dev_langs:

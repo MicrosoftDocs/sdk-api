@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 002f6703-8db3-4034-a79f-3fa9c4159115
 ms.date: 12/05/2018
 ms.keywords: FSCTL_GET_RETRIEVAL_POINTERS, FSCTL_GET_RETRIEVAL_POINTERS control, FSCTL_GET_RETRIEVAL_POINTERS control code [Files], _win32_fsctl_get_retrieval_pointers, base.fsctl_get_retrieval_pointers, fs.fsctl_get_retrieval_pointers, winioctl/FSCTL_GET_RETRIEVAL_POINTERS
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_GET_RETRIEVAL_POINTERS
 dev_langs:

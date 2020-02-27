@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: a9ce6471-20f3-4c53-92e5-6fd4f7bd10e3
 ms.date: 12/05/2018
 ms.keywords: NdfGetTraceFile, NdfGetTraceFile function [NDF], ndf.ndfgettracefile, ndfapi/NdfGetTraceFile
-ms.topic: function
 f1_keywords:
 - ndfapi/NdfGetTraceFile
 dev_langs:

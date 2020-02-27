@@ -7,7 +7,6 @@ tech.root: Dfs
 ms.assetid: 32ccf4a7-9d07-45e1-93db-29eddee01680
 ms.date: 12/05/2018
 ms.keywords: NetDfsGetSupportedNamespaceVersion, NetDfsGetSupportedNamespaceVersion function [Distributed File System], dfs.netdfsgetsupportednamespaceversion, fs.netdfsgetsupportednamespaceversion, lmdfs/NetDfsGetSupportedNamespaceVersion
-ms.topic: function
 f1_keywords:
 - lmdfs/NetDfsGetSupportedNamespaceVersion
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 125392f6-fa82-4d86-b8ac-8a481a2da42d
 ms.date: 12/05/2018
 ms.keywords: IPSEC_TUNNEL_ENDPOINTS1, IPSEC_TUNNEL_ENDPOINTS1 structure [Filtering], fwp.ipsec_tunnel_endpoints1_struct, ipsectypes/IPSEC_TUNNEL_ENDPOINTS1
-ms.topic: struct
 f1_keywords:
 - ipsectypes/IPSEC_TUNNEL_ENDPOINTS1
 dev_langs:

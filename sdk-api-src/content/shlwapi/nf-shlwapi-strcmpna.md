@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e2d97502-1819-463e-a56a-2d22b33502b7
 ms.date: 12/05/2018
 ms.keywords: StrCmpN, StrCmpN function [Windows Shell], StrCmpNA, StrCmpNW, _win32_StrCmpN, shell.StrCmpN, shlwapi/StrCmpN, shlwapi/StrCmpNA, shlwapi/StrCmpNW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrCmpN
 dev_langs:

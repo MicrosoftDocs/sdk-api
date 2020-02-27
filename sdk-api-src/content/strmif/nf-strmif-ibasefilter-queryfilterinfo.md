@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6cb9b6ef-05ae-4816-b337-dd90cab843fb
 ms.date: 12/05/2018
 ms.keywords: IBaseFilter interface [DirectShow],QueryFilterInfo method, IBaseFilter.QueryFilterInfo, IBaseFilter::QueryFilterInfo, IBaseFilterQueryFilterInfo, QueryFilterInfo, QueryFilterInfo method [DirectShow], QueryFilterInfo method [DirectShow],IBaseFilter interface, dshow.ibasefilter_queryfilterinfo, strmif/IBaseFilter::QueryFilterInfo
-ms.topic: method
 f1_keywords:
 - strmif/IBaseFilter.QueryFilterInfo
 dev_langs:
@@ -64,7 +63,7 @@ The <code>QueryFilterInfo</code> method retrieves information about the filter.
 
 ### -param pInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-filter_info">FILTER_INFO</a> structure.
+Pointer to a [FILTER_INFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-filter_info) structure.
 
 
 ## -returns

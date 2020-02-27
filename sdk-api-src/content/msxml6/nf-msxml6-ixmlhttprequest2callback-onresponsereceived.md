@@ -7,7 +7,6 @@ tech.root: ixhr2
 ms.assetid: 5D1D4D4B-CC49-4A63-A0D5-B29D618E80DE
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnResponseReceived method, IXMLHTTPRequest2Callback.OnResponseReceived, IXMLHTTPRequest2Callback::OnResponseReceived, OnResponseReceived, OnResponseReceived method [XMLHttpRequest2], OnResponseReceived method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onresponsereceived, msxml6/IXMLHTTPRequest2Callback::OnResponseReceived
-ms.topic: method
 f1_keywords:
 - msxml6/IXMLHTTPRequest2Callback.OnResponseReceived
 dev_langs:

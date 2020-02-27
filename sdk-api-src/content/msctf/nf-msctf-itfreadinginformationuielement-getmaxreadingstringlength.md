@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: a26aa8d0-a447-4ebb-b892-28b959b57681
 ms.date: 12/05/2018
 ms.keywords: GetMaxReadingStringLength, GetMaxReadingStringLength method [Text Services Framework], GetMaxReadingStringLength method [Text Services Framework],ITfReadingInformationUIElement interface, ITfReadingInformationUIElement interface [Text Services Framework],GetMaxReadingStringLength method, ITfReadingInformationUIElement.GetMaxReadingStringLength, ITfReadingInformationUIElement::GetMaxReadingStringLength, msctf/ITfReadingInformationUIElement::GetMaxReadingStringLength, tsf.itfreadinginformationuielement_getmaxreadingstringlength
-ms.topic: method
 f1_keywords:
 - msctf/ITfReadingInformationUIElement.GetMaxReadingStringLength
 dev_langs:

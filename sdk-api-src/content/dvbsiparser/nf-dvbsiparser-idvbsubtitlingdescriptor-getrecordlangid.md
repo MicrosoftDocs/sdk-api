@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 03a6a71f-ccec-4e4f-a24c-2ac81dd1a0ba
 ms.date: 12/05/2018
 ms.keywords: GetRecordLangId, GetRecordLangId method [Microsoft TV Technologies], GetRecordLangId method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetRecordLangId method, IDvbSubtitlingDescriptor.GetRecordLangId, IDvbSubtitlingDescriptor::GetRecordLangId, dvbsiparser/IDvbSubtitlingDescriptor::GetRecordLangId, mstv.idvbsubtitlingdescriptor_getrecordlangid
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbSubtitlingDescriptor.GetRecordLangId
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.Stop(UINT32,UINT32)
 ms.date: 12/05/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],Stop method, IXAudio2SourceVoice.Stop, IXAudio2SourceVoice::Stop, Stop, Stop method [XAudio2 Audio Mixing APIs], Stop method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_stop, xaudio2/IXAudio2SourceVoice::Stop
-ms.topic: method
 f1_keywords:
 - xaudio2/IXAudio2SourceVoice.Stop
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: fd36bb87-ef30-4064-a251-c89a878eeae9
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IGenericDescriptor interface, IGenericDescriptor interface [Microsoft TV Technologies],GetLength method, IGenericDescriptor.GetLength, IGenericDescriptor::GetLength, IGenericDescriptorGetLength, mpeg2psiparser/IGenericDescriptor::GetLength, mstv.igenericdescriptor_getlength
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/IGenericDescriptor.GetLength
 dev_langs:

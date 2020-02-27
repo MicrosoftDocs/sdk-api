@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 60B401C8-1ACA-412D-B754-997C39454821
 ms.date: 12/05/2018
 ms.keywords: GetMarshalingContextAttribute, GetMarshalingContextAttribute method [COM], GetMarshalingContextAttribute method [COM],IMarshalingStream interface, IMarshalingStream interface [COM],GetMarshalingContextAttribute method, IMarshalingStream.GetMarshalingContextAttribute, IMarshalingStream::GetMarshalingContextAttribute, com.imarshalingstream_getmarshalingcontextattribute, objidl/IMarshalingStream::GetMarshalingContextAttribute
-ms.topic: method
 f1_keywords:
 - objidl/IMarshalingStream.GetMarshalingContextAttribute
 dev_langs:

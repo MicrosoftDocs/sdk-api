@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 6BCDB312-13D8-47EA-BB88-4172C3A02DBE
 ms.date: 12/05/2018
 ms.keywords: StringSetter, StringSetter function [Direct2D], d2d1effecthelpers/StringSetter, direct2d.stringsetter
-ms.topic: function
 f1_keywords:
 - d2d1effecthelpers/StringSetter
 dev_langs:

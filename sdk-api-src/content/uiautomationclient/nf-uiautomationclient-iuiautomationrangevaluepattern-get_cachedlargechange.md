@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: d97addfd-53ae-4445-9f77-d24d97644bfc
 ms.date: 12/05/2018
 ms.keywords: CachedLargeChange property [Windows Accessibility], CachedLargeChange property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedLargeChange property, IUIAutomationRangeValuePattern.CachedLargeChange, IUIAutomationRangeValuePattern.get_CachedLargeChange, IUIAutomationRangeValuePattern::CachedLargeChange, IUIAutomationRangeValuePattern::get_CachedLargeChange, get_CachedLargeChange, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedLargeChange, uiauto_IUIAutomationRangeValuePattern_CachedLargeChange, uiautomationclient/IUIAutomationRangeValuePattern::CachedLargeChange, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedLargeChange, winauto.uiauto_IUIAutomationRangeValuePattern_CachedLargeChange
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationRangeValuePattern.CachedLargeChange
 dev_langs:
@@ -63,7 +62,7 @@ This property is read-only.
 
 
 
-The LargeChange property can support a Not a Number (NaN) value. When retrieving this property, a client can use the <a href="https://go.microsoft.com/fwlink/p/?linkid=198403">_isnan</a> function to determine whether the property is a NaN value.
+The LargeChange property can support a Not a Number (NaN) value. When retrieving this property, a client can use the <a href="https://msdn.microsoft.com/library/aa298428(VS.60).aspx">_isnan</a> function to determine whether the property is a NaN value.
         
 
 

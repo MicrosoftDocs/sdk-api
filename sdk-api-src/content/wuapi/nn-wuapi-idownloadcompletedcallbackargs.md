@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: edba6725-07fc-4b26-bf97-b9e6690fc05c
 ms.date: 12/05/2018
 ms.keywords: IDownloadCompletedCallbackArgs, IDownloadCompletedCallbackArgs interface [Windows Update Agent], IDownloadCompletedCallbackArgs interface [Windows Update Agent],described, wua.idownloadcompletedcallbackargs, wuapi/IDownloadCompletedCallbackArgs
-ms.topic: interface
 f1_keywords:
 - wuapi/IDownloadCompletedCallbackArgs
 dev_langs:

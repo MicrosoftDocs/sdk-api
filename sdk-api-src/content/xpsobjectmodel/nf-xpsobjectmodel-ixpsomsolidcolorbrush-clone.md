@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 7f25d5cf-b53d-4e86-ae61-1d0c9afc6236
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMSolidColorBrush interface, IXpsOMSolidColorBrush interface [XPS Documents and Packaging],Clone method, IXpsOMSolidColorBrush.Clone, IXpsOMSolidColorBrush::Clone, xps.ixpsomsolidcolorbrush_clone, xpsobjectmodel/IXpsOMSolidColorBrush::Clone
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMSolidColorBrush.Clone
 dev_langs:
@@ -131,7 +130,7 @@ This method does not update any of the resource pointers in the copy.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

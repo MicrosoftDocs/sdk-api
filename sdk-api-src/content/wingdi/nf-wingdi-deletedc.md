@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 1aa549a0-c95f-4385-a30e-8906f67e39cd
 ms.date: 12/05/2018
 ms.keywords: DeleteDC, DeleteDC function [Windows GDI], _win32_DeleteDC, gdi.deletedc, wingdi/DeleteDC
-ms.topic: function
 f1_keywords:
 - wingdi/DeleteDC
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 02c309bc-8c94-4c0f-901f-e024c83c824a
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_NO_PADDING_FLAG, NCRYPT_PAD_OAEP_FLAG, NCRYPT_PAD_PKCS1_FLAG, NCRYPT_SILENT_FLAG, NCryptDecrypt, NCryptDecrypt function [Security], ncrypt/NCryptDecrypt, security.ncryptdecrypt_func
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptDecrypt
 dev_langs:
@@ -257,7 +256,7 @@ The key identified by the <i>hKey</i> parameter cannot be used for decryption.
 
 The <i>pbInput</i> and <i>pbOutput</i> parameters can point to the same buffer. In this case, this function will perform the decryption in place.
 
-A service must not call this function from its <a href="http://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 
 

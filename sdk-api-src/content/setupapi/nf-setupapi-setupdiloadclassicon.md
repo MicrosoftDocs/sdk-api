@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: f239e207-fb51-4641-a64c-7d8ffa767e18
 ms.date: 12/05/2018
 ms.keywords: SetupDiLoadClassIcon, SetupDiLoadClassIcon function [Device and Driver Installation], devinst.setupdiloadclassicon, di-rtns_968c659d-6f45-4416-beb9-8fa25c4c060e.xml, setupapi/SetupDiLoadClassIcon
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiLoadClassIcon
 dev_langs:
@@ -77,7 +76,7 @@ A pointer to an INT-typed variable that receives the index of the mini-icon for 
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 4b88a946-030f-490a-b46a-c42507e1268d
 ms.date: 12/05/2018
 ms.keywords: '*POCSP_BASIC_SIGNED_RESPONSE_INFO, OCSP_BASIC_SIGNED_RESPONSE_INFO, OCSP_BASIC_SIGNED_RESPONSE_INFO structure [Security], POCSP_BASIC_SIGNED_RESPONSE_INFO, POCSP_BASIC_SIGNED_RESPONSE_INFO structure pointer [Security], security.ocsp_basic_signed_response_info, wincrypt/OCSP_BASIC_SIGNED_RESPONSE_INFO, wincrypt/POCSP_BASIC_SIGNED_RESPONSE_INFO'
-ms.topic: struct
 f1_keywords:
 - wincrypt/OCSP_BASIC_SIGNED_RESPONSE_INFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 09297744-69E4-45D6-BA5C-A3B28130C6CC
 ms.date: 12/05/2018
 ms.keywords: AddExternalPackageReference, AddExternalPackageReference method [App packaging and management], AddExternalPackageReference method [App packaging and management],IAppxBundleWriter2 interface, IAppxBundleWriter2 interface [App packaging and management],AddExternalPackageReference method, IAppxBundleWriter2.AddExternalPackageReference, IAppxBundleWriter2::AddExternalPackageReference, appxpackaging/IAppxBundleWriter2::AddExternalPackageReference, appxpkg.iappxbundlewriter2_addexternalpackagereference
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxBundleWriter2.AddExternalPackageReference
 dev_langs:

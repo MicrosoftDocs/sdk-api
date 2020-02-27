@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: b4572178-6225-4a22-8b45-7e8abbaa9759
 ms.date: 12/05/2018
 ms.keywords: GetIcon, GetIcon method [Failover Cluster], GetIcon method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetIcon method, IGetClusterUIInfo.GetIcon, IGetClusterUIInfo::GetIcon, _wolf_igetclusteruiinfo_geticon, cluadmex/IGetClusterUIInfo::GetIcon, mscs.igetclusteruiinfo_geticon
-ms.topic: method
 f1_keywords:
 - cluadmex/IGetClusterUIInfo.GetIcon
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: be5894ce-bf4c-4738-9096-da9c9d8688ee
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemDeleted method, INameSpaceTreeControlEvents.OnItemDeleted, INameSpaceTreeControlEvents::OnItemDeleted, OnItemDeleted, OnItemDeleted method [Windows Shell], OnItemDeleted method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnItemDeleted, shell.INameSpaceTreeControlEvents_OnItemDeleted, shobjidl/INameSpaceTreeControlEvents::OnItemDeleted
-ms.topic: method
 f1_keywords:
 - shobjidl/INameSpaceTreeControlEvents.OnItemDeleted
 dev_langs:

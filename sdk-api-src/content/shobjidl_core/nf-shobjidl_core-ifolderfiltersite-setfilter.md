@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1bbcb238-9b3e-4f5c-9cb3-429d0ff918af
 ms.date: 12/05/2018
 ms.keywords: IFolderFilterSite interface [Windows Shell],SetFilter method, IFolderFilterSite.SetFilter, IFolderFilterSite::SetFilter, SetFilter, SetFilter method [Windows Shell], SetFilter method [Windows Shell],IFolderFilterSite interface, _shell_IFolderFilterSite_SetFilter, shell.IFolderFilterSite_SetFilter, shobjidl_core/IFolderFilterSite::SetFilter
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFolderFilterSite.SetFilter
 dev_langs:
@@ -80,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-After you get a pointer to the host's <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfiltersite">IFolderFilterSite</a> interface, call this method to pass the host a pointer to your <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. The host will then use this pointer to call your <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method to request a pointer to your <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfilter">IFolderFilter</a> interface. If this call fails, <b>IFolderFilterSite::SetFilter</b> returns <b>E_NOINTERFACEAVAILABLE</b>. If the call is successful, the host will then call the <b>IFolderFilter</b> interface's two methods to determine how to enumerate the contents of the folder.
+After you get a pointer to the host's <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfiltersite">IFolderFilterSite</a> interface, call this method to pass the host a pointer to your <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. The host will then use this pointer to call your <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method to request a pointer to your <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfilter">IFolderFilter</a> interface. If this call fails, <b>IFolderFilterSite::SetFilter</b> returns <b>E_NOINTERFACEAVAILABLE</b>. If the call is successful, the host will then call the <b>IFolderFilter</b> interface's two methods to determine how to enumerate the contents of the folder.
 
 
 

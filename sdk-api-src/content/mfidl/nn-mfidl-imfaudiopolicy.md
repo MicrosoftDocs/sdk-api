@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: fcd4dbfb-3f9f-4089-b9cc-7b41b2c2678a
 ms.date: 12/05/2018
 ms.keywords: IMFAudioPolicy, IMFAudioPolicy interface [Media Foundation], IMFAudioPolicy interface [Media Foundation],described, fcd4dbfb-3f9f-4089-b9cc-7b41b2c2678a, mf.imfaudiopolicy, mfidl/IMFAudioPolicy
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFAudioPolicy
 dev_langs:

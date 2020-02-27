@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5e699494-1974-4b9b-8324-9394f7b96fe4
 ms.date: 12/05/2018
 ms.keywords: BindToObject, BindToObject method [Windows Shell], BindToObject method [Windows Shell],IShellFolder interface, BindToObject method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],BindToObject method, IShellFolder.BindToObject, IShellFolder2 interface [Windows Shell],BindToObject method, IShellFolder2::BindToObject, IShellFolder::BindToObject, _win32_IShellFolder_BindToObject, shell.IShellFolder_BindToObject, shobjidl_core/IShellFolder2::BindToObject, shobjidl_core/IShellFolder::BindToObject
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellFolder.BindToObject
 dev_langs:
@@ -106,7 +105,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Applications use <b>IShellFolder::BindToObject</b><b>(..., IID_IShellFolder, ...)</b> to obtain the Shell folder object for a subitem. Clients should pass the canonical interface IID that is used to identify a specific handler. For example, <b>IID_IShellFolder</b> identifies the folder handler and <b>IID_IStream</b> identifies the stream handler. Implementations can support binding to handlers using derived interfaces as well, such as <b>IID_IShellFolder2</b>. A Shell namespace extension can implement this function by creating the Shell folder object for the specified subitem and then calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> to communicate with the object through its interface pointer.
+Applications use <b>IShellFolder::BindToObject</b><b>(..., IID_IShellFolder, ...)</b> to obtain the Shell folder object for a subitem. Clients should pass the canonical interface IID that is used to identify a specific handler. For example, <b>IID_IShellFolder</b> identifies the folder handler and <b>IID_IStream</b> identifies the stream handler. Implementations can support binding to handlers using derived interfaces as well, such as <b>IID_IShellFolder2</b>. A Shell namespace extension can implement this function by creating the Shell folder object for the specified subitem and then calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to communicate with the object through its interface pointer.
 
 Implementations of <b>BindToObject</b> can optimize any call to it by quickly failing for IID values that it does not support. For example, if the Shell folder object of the subitem does not support <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iremotecomputer">IRemoteComputer</a>, the implementation should return <b>E_NOINTERFACE</b> immediately instead of needlessly creating the Shell folder object for the subitem and then finding that <b>IRemoteComputer</b> was not supported after all.
 

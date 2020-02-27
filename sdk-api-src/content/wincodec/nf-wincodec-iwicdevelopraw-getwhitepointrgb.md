@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: e163ba80-6ed2-4f03-b74f-07c96b478ac0
 ms.date: 12/05/2018
 ms.keywords: GetWhitePointRGB, GetWhitePointRGB method [Windows Imaging Component], GetWhitePointRGB method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetWhitePointRGB method, IWICDevelopRaw.GetWhitePointRGB, IWICDevelopRaw::GetWhitePointRGB, _wic_codec_iwicdevelopraw_getwhitepointrgb, wic._wic_codec_iwicdevelopraw_getwhitepointrgb, wincodec/IWICDevelopRaw::GetWhitePointRGB
-ms.topic: method
 f1_keywords:
 - wincodec/IWICDevelopRaw.GetWhitePointRGB
 dev_langs:

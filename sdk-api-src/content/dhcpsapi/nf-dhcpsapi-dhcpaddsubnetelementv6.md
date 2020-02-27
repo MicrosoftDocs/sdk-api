@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 9f009140-5301-4aee-a6e5-12f7cd56f906
 ms.date: 12/05/2018
 ms.keywords: DhcpAddSubnetElementV6, DhcpAddSubnetElementV6 function [DHCP], dhcp.dhcpaddsubnetelementv6, dhcpsapi/DhcpAddSubnetElementV6
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpAddSubnetElementV6
 dev_langs:

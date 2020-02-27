@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 3bcacb24-a4b4-4fad-ab7c-79ef7a67064d
 ms.date: 12/05/2018
 ms.keywords: GetColumn, GetColumn method [ADSI], GetColumn method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetColumn method, IDirectorySearch.GetColumn, IDirectorySearch::GetColumn, _ds_idirectorysearch_getcolumn, adsi.idirectorysearch__getcolumn, adsi.idirectorysearch_getcolumn, iads/IDirectorySearch::GetColumn
-ms.topic: method
 f1_keywords:
 - iads/IDirectorySearch.GetColumn
 dev_langs:

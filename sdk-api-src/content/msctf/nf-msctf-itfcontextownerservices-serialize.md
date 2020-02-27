@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: e67b6fa7-610d-426f-a290-36c0da4068f4
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerServices interface [Text Services Framework],Serialize method, ITfContextOwnerServices.Serialize, ITfContextOwnerServices::Serialize, Serialize, Serialize method [Text Services Framework], Serialize method [Text Services Framework],ITfContextOwnerServices interface, _tsf_itfcontextownerservices_serialize_ref, msctf/ITfContextOwnerServices::Serialize, tsf.itfcontextownerservices_serialize
-ms.topic: method
 f1_keywords:
 - msctf/ITfContextOwnerServices.Serialize
 dev_langs:

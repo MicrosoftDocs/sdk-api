@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: ef996c6b-77d0-4b06-97a4-14773cb67146
 ms.date: 12/05/2018
 ms.keywords: FlsFree, FlsFree function, _win32_flsfree, base.flsfree, fibersapi/FlsFree, winbase/FlsFree
-ms.topic: function
 f1_keywords:
 - fibersapi/FlsFree
 dev_langs:

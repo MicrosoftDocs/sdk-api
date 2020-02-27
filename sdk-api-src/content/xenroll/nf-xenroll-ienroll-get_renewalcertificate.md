@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 9806cd48-0d95-420b-aa26-0175dd95da46
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],RenewalCertificate property, IEnroll.RenewalCertificate, IEnroll.get_RenewalCertificate, IEnroll::RenewalCertificate, IEnroll::get_RenewalCertificate, IEnroll::put_RenewalCertificate, RenewalCertificate property [Security], RenewalCertificate property [Security],IEnroll interface, get_RenewalCertificate, security.ienroll4_renewalcertificate, xenroll/IEnroll::RenewalCertificate, xenroll/IEnroll::get_RenewalCertificate, xenroll/IEnroll::put_RenewalCertificate
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll.RenewalCertificate
 dev_langs:
@@ -66,7 +65,7 @@ This property is read/write.
 
 
 
-For more information about how to create a certificate renewal request, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84536">Creating a Renewal Request</a> in Creating Certificate Requests Using the Certificate Enrollment Control and CryptoAPI.
+For more information about how to create a certificate renewal request, see <a href="https://msdn.microsoft.com/library/ms867026.aspx#certenroll_topic8">Creating a Renewal Request</a> in Creating Certificate Requests Using the Certificate Enrollment Control and CryptoAPI.
 
 
 

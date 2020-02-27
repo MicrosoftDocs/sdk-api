@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 79e464d2-73f5-4cb2-b3f3-be7d0b1414b4
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],getMyStore method, IEnroll.getMyStore, IEnroll2 interface [Security],getMyStore method, IEnroll2::getMyStore, IEnroll::getMyStore, getMyStore, getMyStore method [Security], getMyStore method [Security],IEnroll interface, getMyStore method [Security],IEnroll2 interface, security.ienroll4_getmystore, xenroll/IEnroll2::getMyStore, xenroll/IEnroll::getMyStore
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll.getMyStore
 dev_langs:

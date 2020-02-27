@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5d2335a4-2b2e-4820-ae82-ba94d6e4cc9a
 ms.date: 12/05/2018
 ms.keywords: DWordSub, ULongSub, ULongSub function [Windows Shell], _shell_ULongSub, intsafe/ULongSub, shell.ULongSub
-ms.topic: function
 f1_keywords:
 - intsafe/ULongSub
 dev_langs:

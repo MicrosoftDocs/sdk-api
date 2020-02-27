@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 6cd892d2-f1b0-40cd-b037-5c670da3b32f
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystem2 interface,QueryMaxLunCreateSize2 method, IVdsSubSystem2.QueryMaxLunCreateSize2, IVdsSubSystem2::QueryMaxLunCreateSize2, QueryMaxLunCreateSize2, QueryMaxLunCreateSize2 method, QueryMaxLunCreateSize2 method,IVdsSubSystem2 interface, base.ivdssubsystem2_querymaxluncreatesize2, vds/IVdsSubSystem2::QueryMaxLunCreateSize2, vdshwprv/IVdsSubSystem2::QueryMaxLunCreateSize2
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsSubSystem2.QueryMaxLunCreateSize2
 dev_langs:

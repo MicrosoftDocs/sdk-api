@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: eb61aa05-15d8-4251-947a-54df8433b858
 ms.date: 12/05/2018
 ms.keywords: GetThreadTimes, GetThreadTimes function, _win32_getthreadtimes, base.getthreadtimes, processthreadsapi/GetThreadTimes, winbase/GetThreadTimes
-ms.topic: function
 f1_keywords:
 - processthreadsapi/GetThreadTimes
 dev_langs:

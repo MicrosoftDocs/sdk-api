@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 991e0620-d674-4c2c-b0d8-18d7fdd031fb
 ms.date: 12/05/2018
 ms.keywords: OPC_SIGNATURE_INVALID, OPC_SIGNATURE_VALID, OPC_SIGNATURE_VALIDATION_RESULT, OPC_SIGNATURE_VALIDATION_RESULT enumeration [Open Packaging Conventions], msopc/OPC_SIGNATURE_INVALID, msopc/OPC_SIGNATURE_VALID, msopc/OPC_SIGNATURE_VALIDATION_RESULT, opc.opc_signature_validation_result
-ms.topic: enum
 f1_keywords:
 - msopc/OPC_SIGNATURE_VALIDATION_RESULT
 dev_langs:
@@ -79,7 +78,7 @@ Signature markup or signed package components might have been altered. Alternati
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML standard</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML standard</a>
 
 
 
@@ -115,7 +114,7 @@ Signature markup or signed package components might have been altered. Alternati
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=132847">W3C Recommendation, XML Signature and Syntax Processing</a>
+<a href="https://www.w3.org/TR/xmldsig-core/">W3C Recommendation, XML Signature and Syntax Processing</a>
  
 
  

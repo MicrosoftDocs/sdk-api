@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 90598DC7-A4FB-4C3F-A671-1549703AC9DB
 ms.date: 12/05/2018
 ms.keywords: GetDeviceId, GetDeviceId method [Media Foundation], GetDeviceId method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceId method, IMFSensorDevice.GetDeviceId, IMFSensorDevice::GetDeviceId, mf.imfsensordevice_getdeviceid, mfidl/IMFSensorDevice::GetDeviceId
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSensorDevice.GetDeviceId
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 0ac6fea4-cdc8-4799-9001-f9399b22e7a5
 ms.date: 12/05/2018
 ms.keywords: MsiEnumFeatures, MsiEnumFeatures function, MsiEnumFeaturesA, MsiEnumFeaturesW, _msi_msienumfeatures, msi/MsiEnumFeatures, msi/MsiEnumFeaturesA, msi/MsiEnumFeaturesW, setup.msienumfeatures
-ms.topic: function
 f1_keywords:
 - msi/MsiEnumFeatures
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 39e5cc01-3945-4e78-bbce-bff5d5a5f22d
 ms.date: 12/05/2018
 ms.keywords: ItsPubPlugin interface [Remote Desktop Services],pluginVersion property, ItsPubPlugin.get_pluginVersion, ItsPubPlugin.pluginVersion, ItsPubPlugin::get_pluginVersion, ItsPubPlugin::pluginVersion, get_pluginVersion, pluginVersion property [Remote Desktop Services], pluginVersion property [Remote Desktop Services],ItsPubPlugin interface, termserv.itspubplugin_pluginversion, tspubplugincom/ItsPubPlugin::get_pluginVersion, tspubplugincom/ItsPubPlugin::pluginVersion
-ms.topic: method
 f1_keywords:
 - tspubplugincom/ItsPubPlugin.pluginVersion
 dev_langs:

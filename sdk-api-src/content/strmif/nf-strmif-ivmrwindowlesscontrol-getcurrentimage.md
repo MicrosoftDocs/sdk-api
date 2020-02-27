@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 515e252d-4ac4-49ec-8d94-bf850dd4783f
 ms.date: 12/05/2018
 ms.keywords: GetCurrentImage, GetCurrentImage method [DirectShow], GetCurrentImage method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetCurrentImage method, IVMRWindowlessControl.GetCurrentImage, IVMRWindowlessControl::GetCurrentImage, IVMRWindowlessControlGetCurrentImage, dshow.ivmrwindowlesscontrol_getcurrentimage, strmif/IVMRWindowlessControl::GetCurrentImage
-ms.topic: method
 f1_keywords:
 - strmif/IVMRWindowlessControl.GetCurrentImage
 dev_langs:

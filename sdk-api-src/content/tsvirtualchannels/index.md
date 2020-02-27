@@ -1,9 +1,10 @@
 ---
 UID: NA:tsvirtualchannels
+title: Tsvirtualchannels.h header
 ms.assetid: c0989acc-0a69-3eb8-b882-d7643ddb6c8e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: termserv
 ---
 

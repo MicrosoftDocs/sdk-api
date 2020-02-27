@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 924e1813-b025-435b-9770-52503a9eb619
 ms.date: 12/05/2018
 ms.keywords: MFCreateSourceReaderFromMediaSource, MFCreateSourceReaderFromMediaSource function [Media Foundation], mf.mfcreatesourcereaderfrommediasource, mfreadwrite/MFCreateSourceReaderFromMediaSource
-ms.topic: function
 f1_keywords:
 - mfreadwrite/MFCreateSourceReaderFromMediaSource
 dev_langs:

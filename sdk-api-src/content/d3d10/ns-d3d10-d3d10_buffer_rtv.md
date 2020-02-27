@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_buffer_rtv.htm
 ms.date: 12/05/2018
 ms.keywords: 4eb8f5a5-bb65-b551-7e42-ac051b09f97c, D3D10_BUFFER_RTV, D3D10_BUFFER_RTV structure [Direct3D 10], d3d10/D3D10_BUFFER_RTV, direct3d10.d3d10_buffer_rtv
-ms.topic: struct
 f1_keywords:
 - d3d10/D3D10_BUFFER_RTV
 dev_langs:

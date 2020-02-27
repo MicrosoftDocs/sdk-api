@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 8828760c-9635-4c69-9867-c2f5314841e6
 ms.date: 12/05/2018
 ms.keywords: FSCTL_DISMOUNT_VOLUME, FSCTL_DISMOUNT_VOLUME control, FSCTL_DISMOUNT_VOLUME control code [Files], _win32_fsctl_dismount_volume, base.fsctl_dismount_volume, fs.fsctl_dismount_volume, winioctl/FSCTL_DISMOUNT_VOLUME
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_DISMOUNT_VOLUME
 dev_langs:
@@ -60,9 +59,14 @@ To perform this operation, call the <a href="https://docs.microsoft.com/windows/
 <tr>
 <td>
 <pre>BOOL DeviceIoControl(
-  (HANDLE) hDevice,            // handle to a volume
-  (DWORD) FSCTL_DISMOUNT_VOLUME,   // dwIoControlCodeNULL,                        // lpInBuffer0,                           // nInBufferSizeNULL,                        // lpOutBuffer0,                           // nOutBufferSize(LPDWORD) lpBytesReturned,   // number of bytes returned
-  (LPOVERLAPPED) lpOverlapped  // OVERLAPPED structure
+  (HANDLE) hDevice,              // handle to a volume
+  (DWORD) FSCTL_DISMOUNT_VOLUME, // dwIoControlCode
+  NULL,                          // lpInBuffer
+  0,                             // nInBufferSize
+  NULL,                          // lpOutBuffer
+  0,                             // nOutBufferSize
+  (LPDWORD) lpBytesReturned,     // number of bytes returned
+  (LPOVERLAPPED) lpOverlapped    // OVERLAPPED structure
 );</pre>
 </td>
 </tr>
@@ -152,7 +156,7 @@ The <i>hDevice</i> handle passed to
      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
      <i>lpFileName</i> parameter set to a string of the following form:
 
-\\.\<i>X</i>:
+\\\\.\\<i>X</i>:
 
 where <i>X</i> is a hard-drive partition letter, floppy disk drive, or CD-ROM drive. The 
      application must also specify the <b>FILE_SHARE_READ</b> and 

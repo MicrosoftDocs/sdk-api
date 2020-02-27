@@ -1,9 +1,10 @@
 ---
 UID: NA:directmanipulation
+title: Directmanipulation.h header
 ms.assetid: 4adf8ddb-e5c1-3879-be51-17c50edcc23b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: directmanipulation
 ---
 

@@ -7,7 +7,6 @@ tech.root: VStor
 ms.assetid: e17d9b37-c0fc-4513-a224-a918e679707d
 ms.date: 12/05/2018
 ms.keywords: GetVirtualDiskPhysicalPath, GetVirtualDiskPhysicalPath function [VHD], vdssys/GetVirtualDiskPhysicalPath, vhd.getvirtualdiskphysicalpath, virtdisk/GetVirtualDiskPhysicalPath
-ms.topic: function
 f1_keywords:
 - virtdisk/GetVirtualDiskPhysicalPath
 dev_langs:

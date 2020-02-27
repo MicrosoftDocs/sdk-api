@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: de37bef6-e6c8-4455-856a-adebebda4cc7
 ms.date: 12/05/2018
 ms.keywords: '*PSYSTEM_AUDIT_OBJECT_ACE, ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP and/or ADS_RIGHT_DS_WRITE_PROP, ADS_RIGHT_DS_SELF, PSYSTEM_ALARM_OBJECT_ACE, PSYSTEM_ALARM_OBJECT_ACE structure pointer [Security], SYSTEM_AUDIT_OBJECT_ACE, SYSTEM_AUDIT_OBJECT_ACE structure [Security], _SYSTEM_AUDIT_OBJECT_ACE, _win32_system_audit_object_ace_str, security.system_audit_object_ace, winnt/PSYSTEM_ALARM_OBJECT_ACE, winnt/SYSTEM_AUDIT_OBJECT_ACE'
-ms.topic: struct
 f1_keywords:
 - winnt/SYSTEM_AUDIT_OBJECT_ACE
 dev_langs:

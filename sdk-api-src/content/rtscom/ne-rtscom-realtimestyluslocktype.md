@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: d472b588-b208-4665-9364-f2c92fe09bcd
 ms.date: 12/05/2018
 ms.keywords: RTSLT_AsyncEventLock, RTSLT_AsyncObjLock, RTSLT_ExcludeCallback, RTSLT_ObjLock, RTSLT_SyncEventLock, RTSLT_SyncObjLock, RealTimeStylusLockType, RealTimeStylusLockType enumeration [Tablet PC], d472b588-b208-4665-9364-f2c92fe09bcd, rtscom/RTSLT_AsyncEventLock, rtscom/RTSLT_AsyncObjLock, rtscom/RTSLT_ExcludeCallback, rtscom/RTSLT_ObjLock, rtscom/RTSLT_SyncEventLock, rtscom/RTSLT_SyncObjLock, rtscom/RealTimeStylusLockType, tablet.realtimestyluslocktype
-ms.topic: enum
 f1_keywords:
 - rtscom/RealTimeStylusLockType
 dev_langs:

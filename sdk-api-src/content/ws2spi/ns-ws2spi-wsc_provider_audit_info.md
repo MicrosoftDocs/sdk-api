@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: de2e643f-08d5-4cbb-bd12-843478856011
 ms.date: 12/05/2018
 ms.keywords: PWSC_PROVIDER_AUDIT_INFO, PWSC_PROVIDER_AUDIT_INFO structure pointer [Winsock], WSC_PROVIDER_AUDIT_INFO, WSC_PROVIDER_AUDIT_INFO structure [Winsock], winsock.wsc_provider_audit_info, ws2spi/PWSC_PROVIDER_AUDIT_INFO, ws2spi/WSC_PROVIDER_AUDIT_INFO
-ms.topic: struct
 f1_keywords:
 - ws2spi/WSC_PROVIDER_AUDIT_INFO
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert">**Note**  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The 
+<div class="alert">**Note**  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The 
 **WSC_PROVIDER_AUDIT_INFO** structure contains audit information for a layered service provider (LSP) entry in Windows Sockets 2.
 
 
@@ -84,23 +83,23 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo">WSCGetProviderInfo</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo">WSCGetProviderInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo32">WSCGetProviderInfo32</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo32">WSCGetProviderInfo32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscsetproviderinfo">WSCSetProviderInfo</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscsetproviderinfo">WSCSetProviderInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscsetproviderinfo32">WSCSetProviderInfo32</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscsetproviderinfo32">WSCSetProviderInfo32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ne-ws2spi-wsc_provider_info_type">WSC_PROVIDER_INFO_TYPE</a>
+<a href="/windows/desktop/api/ws2spi/ne-ws2spi-wsc_provider_info_type">WSC_PROVIDER_INFO_TYPE</a>
  
 
  

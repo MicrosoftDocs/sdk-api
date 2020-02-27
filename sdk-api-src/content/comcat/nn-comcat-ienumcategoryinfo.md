@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 87469ace-ae34-40e5-aab6-f26a4bc50b54
 ms.date: 12/05/2018
 ms.keywords: IEnumCATEGORYINFO, IEnumCATEGORYINFO interface [COM], IEnumCATEGORYINFO interface [COM],described, _com_ienumcategoryinfo, com.ienumcategoryinfo, comcat/IEnumCATEGORYINFO
-ms.topic: interface
 f1_keywords:
 - comcat/IEnumCATEGORYINFO
 dev_langs:

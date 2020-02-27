@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: dbbb97f8-4b26-4add-a661-a48eff8ad0f5
 ms.date: 12/05/2018
 ms.keywords: WMPDeviceStatus, WMPDeviceStatus enumeration [Windows Media Player], wmp.wmpdevicestatus, wmp/WMPDeviceStatus, wmp/wmpdsLast, wmp/wmpdsManualDevice, wmp/wmpdsNewDevice, wmp/wmpdsPartnershipAnother, wmp/wmpdsPartnershipDeclined, wmp/wmpdsPartnershipExists, wmp/wmpdsUnknown, wmpdsLast, wmpdsManualDevice, wmpdsNewDevice, wmpdsPartnershipAnother, wmpdsPartnershipDeclined, wmpdsPartnershipExists, wmpdsUnknown
-ms.topic: enum
 f1_keywords:
 - wmp/WMPDeviceStatus
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: de3adac7-ff99-4415-9afc-e25ad420df59
 ms.date: 12/05/2018
 ms.keywords: IGraphBuilder interface [DirectShow],Render method, IGraphBuilder.Render, IGraphBuilder::Render, IGraphBuilderRender, Render, Render method [DirectShow], Render method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_render, strmif/IGraphBuilder::Render
-ms.topic: method
 f1_keywords:
 - strmif/IGraphBuilder.Render
 dev_langs:
@@ -222,7 +221,7 @@ The filter to which this pin belongs is not in the filter graph.
 
 This method renders the data from a specified output pin, adding new filters to the graph as needed. Filters are tried in the same order as for the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphbuilder-connect">IGraphBuilder::Connect</a> method. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>.
 
-During the connection process, the Filter Graph Manager ignores pins on intermediate filters if the pin name begins with a tilde (~). For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-pin_info">PIN_INFO</a>.
+During the connection process, the Filter Graph Manager ignores pins on intermediate filters if the pin name begins with a tilde (~). For more information, see [PIN_INFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-pin_info).
 
 
 

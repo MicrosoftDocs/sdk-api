@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 973DA92D-7319-43A9-B4FF-3CAF8A644C50
 ms.date: 12/05/2018
 ms.keywords: WinBioMonitorPresence, WinBioMonitorPresence function [Windows Biometric Framework API], secbiomet.winbiomonitorpresence, winbio/WinBioMonitorPresence
-ms.topic: function
 f1_keywords:
 - winbio/WinBioMonitorPresence
 dev_langs:

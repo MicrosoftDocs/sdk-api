@@ -1,9 +1,10 @@
 ---
 UID: NA:namedpipeapi
+title: Namedpipeapi.h header
 ms.assetid: d80833ee-ef77-3bbe-972e-8ffd33a437a9
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: base
 ---
 

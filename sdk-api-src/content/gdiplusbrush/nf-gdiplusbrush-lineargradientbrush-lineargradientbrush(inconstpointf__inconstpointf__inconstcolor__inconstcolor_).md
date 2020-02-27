@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushconstructors\lineargradientbrush_22pointfamppoint1_pointfamppoint2_colora.htm
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush, LinearGradientBrush class [GDI+],LinearGradientBrush constructor, LinearGradientBrush constructor [GDI+], LinearGradientBrush constructor [GDI+],LinearGradientBrush class, LinearGradientBrush.LinearGradientBrush, LinearGradientBrush.LinearGradientBrush(IN const PointF &,IN const PointF &,IN const Color &,IN const Color &), LinearGradientBrush.LinearGradientBrush(const PointF&,const PointF&,const Color&,const Color&), LinearGradientBrush::LinearGradientBrush, LinearGradientBrush::LinearGradientBrush(IN const PointF &,IN const PointF &,IN const Color &,IN const Color &), _gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_PointF_point1_PointF_point2_Color_color1_Colo, gdiplus._gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_PointF_point1_PointF_point2_Color_color1_Colo
-ms.topic: method
 f1_keywords:
 - gdiplusbrush/LinearGradientBrush.LinearGradientBrush
 dev_langs:
@@ -45,19 +44,11 @@ req.product: GDI+ 1.0
 ms.custom: 19H1
 ---
 
-# LinearGradientBrush::LinearGradientBrush(IN const PointF &,IN const PointF &,IN const Color &,IN const Color &)
-
-
 ## -description
-
 
 Creates a <b>LinearGradientBrush::LinearGradientBrush</b> object from a set of boundary points and boundary colors.
 
-
 ## -parameters
-
-
-
 
 ### -param point1 [in, ref]
 
@@ -65,13 +56,11 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusty
 
 Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object that specifies the starting point of the gradient. The starting boundary line passes through the starting point. 
 
-
 ### -param point2 [in, ref]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a></b>
 
 Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object that specifies the ending point of the gradient. The ending boundary line passes through the ending point. 
-
 
 ### -param color1 [in, ref]
 
@@ -79,27 +68,19 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusco
 
 Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object that specifies the color at the starting boundary line of this linear gradient brush. 
 
-
 ### -param color2 [in, ref]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a></b>
 
 Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object that specifies the color at the ending boundary line of this linear gradient brush. 
 
-
 ## -remarks
-
-
 
 The "directional line," an imaginary straight line, is defined by the starting point, <i>point1</i>, and the ending point, <i>point2</i>. The starting boundary of the gradient is a straight line that is perpendicular to the directional line and that passes through the starting point. The ending boundary of the gradient is a straight line that is parallel to the starting boundary line and that passes through the ending point. The gradient color is constant along lines that are parallel to the boundary lines. The gradient gradually changes from the starting color to the ending color along the directional line.
 
-
-#### Examples
-
-
+## -examples
 
 The following example creates a linear gradient brush from a set of boundary points and boundary colors. The code then uses the brush to paint the interior of a rectangle.
-
 
 ```cpp
 VOID Example_Construct02(HDC hdc)
@@ -117,14 +98,7 @@ VOID Example_Construct02(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
@@ -135,7 +109,3 @@ VOID Example_Construct02(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
- 
-
- 
-

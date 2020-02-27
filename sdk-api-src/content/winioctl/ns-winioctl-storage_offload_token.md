@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: e33550d6-8d98-4fbb-8e61-d309f0e8e867
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_OFFLOAD_TOKEN, PSTORAGE_OFFLOAD_TOKEN, PSTORAGE_OFFLOAD_TOKEN structure pointer, STORAGE_OFFLOAD_TOKEN, STORAGE_OFFLOAD_TOKEN structure, STORAGE_OFFLOAD_TOKEN_TYPE_WELL_KNOWN, base.storage_offload_token, winioctl/PSTORAGE_OFFLOAD_TOKEN, winioctl/STORAGE_OFFLOAD_TOKEN'
-ms.topic: struct
 f1_keywords:
 - winioctl/STORAGE_OFFLOAD_TOKEN
 dev_langs:

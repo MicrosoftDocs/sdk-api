@@ -1,9 +1,10 @@
 ---
 UID: NA:dhcpsapi
+title: Dhcpsapi.h header
 ms.assetid: d267af05-aa29-38b4-af7e-fb8a8b4524c3
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: dhcp
 ---
 

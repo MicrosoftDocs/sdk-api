@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: d4849830-62fa-4bf4-bfad-59bcdbf1a10e
 ms.date: 12/05/2018
 ms.keywords: DeleteUrl, DeleteUrl method [BITS], DeleteUrl method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],DeleteUrl method, IBitsPeerCacheAdministration.DeleteUrl, IBitsPeerCacheAdministration::DeleteUrl, bits.ibitspeercacheadministration_deleteurl, bits3_0/IBitsPeerCacheAdministration::DeleteUrl
-ms.topic: method
 f1_keywords:
 - bits3_0/IBitsPeerCacheAdministration.DeleteUrl
 dev_langs:

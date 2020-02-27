@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_geteditcontrol.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_GetEditControl, ListView_GetEditControl macro [Windows Controls], _win32_ListView_GetEditControl, _win32_ListView_GetEditControl_cpp, commctrl/ListView_GetEditControl, controls.ListView_GetEditControl, controls._win32_ListView_GetEditControl
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_GetEditControl
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 204c647d-65c0-4b0e-b0fa-1abe9e8fdedd
 ms.date: 12/05/2018
 ms.keywords: IReferenceTrackerTarget, IReferenceTrackerTarget interface [Windows Runtime], IReferenceTrackerTarget interface [Windows Runtime],described, windows/IReferenceTrackerTarget, winrt.ireferencetrackertarget
-ms.topic: interface
 f1_keywords:
 - windows.ui.xaml.hosting.referencetracker/IReferenceTrackerTarget
 dev_langs:

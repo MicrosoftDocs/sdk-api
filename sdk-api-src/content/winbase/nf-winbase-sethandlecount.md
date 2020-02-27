@@ -3,7 +3,6 @@ UID: NF:winbase.SetHandleCount
 title: SetHandleCount
 ms.date: 4/26/2019
 ms.keywords: SetHandleCount
-ms.topic: language-reference
 f1_keywords:
 - winbase/SetHandleCount
 dev_langs:

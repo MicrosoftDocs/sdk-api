@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\rebarinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPREBARINFO, LPREBARINFO, LPREBARINFO structure pointer [Windows Controls], RBIM_IMAGELIST, REBARINFO, REBARINFO structure [Windows Controls], _win32_REBARINFO, _win32_REBARINFO_cpp, commctrl/LPREBARINFO, commctrl/REBARINFO, controls.REBARINFO, controls._win32_REBARINFO'
-ms.topic: struct
 f1_keywords:
 - commctrl/REBARINFO
 dev_langs:

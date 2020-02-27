@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 988e6d54-f241-4cfc-8793-fc42de92ac52
 ms.date: 12/05/2018
 ms.keywords: '*LPAMCOPPStatusInput, AMCOPPStatusInput, AMCOPPStatusInput structure [DirectShow], AMCOPPStatusInputStructure, LPAMCOPPStatusInput, LPAMCOPPStatusInput structure pointer [DirectShow], dshow.amcoppstatusinput, strmif/AMCOPPStatusInput, strmif/LPAMCOPPStatusInput'
-ms.topic: struct
 f1_keywords:
 - strmif/AMCOPPStatusInput
 dev_langs:

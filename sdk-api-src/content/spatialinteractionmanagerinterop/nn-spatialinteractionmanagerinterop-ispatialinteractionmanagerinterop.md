@@ -7,7 +7,6 @@ tech.root: MixedReality
 ms.assetid: A6ED74DB-D56A-4133-877C-A98BCBE34F7D
 ms.date: 01/25/2019
 ms.keywords: ISpatialInteractionManagerInterop, ISpatialInteractionManagerInterop interface, ISpatialInteractionManagerInterop interface,described, MixedReality.ispatialinteractionmanagerinterop, spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop
-ms.topic: interface
 f1_keywords:
 - spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop
 dev_langs:

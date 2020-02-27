@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 9fd653f0-c9d1-4155-9c1e-7e6124b40cca
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnSessionDisconnected method, IAudioSessionEvents.OnSessionDisconnected, IAudioSessionEvents::OnSessionDisconnected, IAudioSessionEventsOnSessionDisconnected, OnSessionDisconnected, OnSessionDisconnected method [Core Audio], OnSessionDisconnected method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnSessionDisconnected, coreaudio.iaudiosessionevents_onsessiondisconnected
-ms.topic: method
 f1_keywords:
 - audiopolicy/IAudioSessionEvents.OnSessionDisconnected
 dev_langs:

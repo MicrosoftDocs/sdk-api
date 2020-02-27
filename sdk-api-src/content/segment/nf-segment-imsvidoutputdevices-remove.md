@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 40c4bc6b-091b-44b5-a313-5db20842adcf
 ms.date: 12/05/2018
 ms.keywords: IMSVidOutputDevices interface [Microsoft TV Technologies],Remove method, IMSVidOutputDevices.Remove, IMSVidOutputDevices::Remove, IMSVidOutputDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidOutputDevices interface, mstv.imsvidoutputdevices_remove, segment/IMSVidOutputDevices::Remove
-ms.topic: method
 f1_keywords:
 - segment/IMSVidOutputDevices.Remove
 dev_langs:

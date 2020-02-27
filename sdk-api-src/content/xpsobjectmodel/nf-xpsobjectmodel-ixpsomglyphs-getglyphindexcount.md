@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: ae37e602-4a47-4234-a8d7-c757f3498308
 ms.date: 12/05/2018
 ms.keywords: GetGlyphIndexCount, GetGlyphIndexCount method [XPS Documents and Packaging], GetGlyphIndexCount method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphIndexCount method, IXpsOMGlyphs.GetGlyphIndexCount, IXpsOMGlyphs::GetGlyphIndexCount, xps.ixpsomglyphs_getglyphindexcount, xpsobjectmodel/IXpsOMGlyphs::GetGlyphIndexCount
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphs.GetGlyphIndexCount
 dev_langs:
@@ -125,7 +124,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

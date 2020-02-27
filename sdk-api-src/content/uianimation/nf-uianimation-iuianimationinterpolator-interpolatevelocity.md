@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: ae0b6674-307b-454e-b8be-db564c234607
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationInterpolator interface [Windows Animation],InterpolateVelocity method, IUIAnimationInterpolator.InterpolateVelocity, IUIAnimationInterpolator::InterpolateVelocity, InterpolateVelocity, InterpolateVelocity method [Windows Animation], InterpolateVelocity method [Windows Animation],IUIAnimationInterpolator interface, uianimation.iuianimationinterpolator_interpolatevelocity, uianimation/IUIAnimationInterpolator::InterpolateVelocity
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationInterpolator.InterpolateVelocity
 dev_langs:

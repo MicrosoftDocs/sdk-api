@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 50804e3d-ec60-44b3-ac6d-2518c96bfc64
 ms.date: 12/05/2018
 ms.keywords: ITToneDetectionEvent interface [TAPI 2.2],get_Call method, ITToneDetectionEvent.get_Call, ITToneDetectionEvent::get_Call, _tapi3_ittonedetectionevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITToneDetectionEvent interface, tapi3.ittonedetectionevent_get_call, tapi3if/ITToneDetectionEvent::get_Call
-ms.topic: method
 f1_keywords:
 - tapi3if/ITToneDetectionEvent.get_Call
 dev_langs:

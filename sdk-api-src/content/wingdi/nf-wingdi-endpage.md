@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 33e6d005-f00d-4b87-bf7c-fc79c1d05514
 ms.date: 12/05/2018
 ms.keywords: EndPage, EndPage function [Windows GDI], _win32_EndPage, gdi.endpage, wingdi/EndPage
-ms.topic: function
 f1_keywords:
 - wingdi/EndPage
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 7057779b-4176-41a3-bc7e-0d6958baf245
 ms.date: 12/05/2018
 ms.keywords: DSGIF_DEFAULTISCONTAINER, DSGIF_GETDEFAULTICON, DSGIF_ISDISABLED, DSGIF_ISMASK, DSGIF_ISNORMAL, DSGIF_ISOPEN, GetIcon, GetIcon method [Active Directory], GetIcon method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],GetIcon method, IDsDisplaySpecifier.GetIcon, IDsDisplaySpecifier::GetIcon, _glines_idsdisplayspecifier_geticon, ad.idsdisplayspecifier__geticon, ad.idsdisplayspecifier_geticon, dsclient/IDsDisplaySpecifier::GetIcon
-ms.topic: method
 f1_keywords:
 - dsclient/IDsDisplaySpecifier.GetIcon
 dev_langs:

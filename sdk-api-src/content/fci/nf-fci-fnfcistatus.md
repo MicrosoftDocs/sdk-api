@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 529fd3c8-9783-4dbe-9268-a9137935cf9b
 ms.date: 12/05/2018
 ms.keywords: FNFCISTATUS, FNFCISTATUS macro [Windows API], fci/FNFCISTATUS, winprog.fnfcistatus
-ms.topic: macro
 f1_keywords:
 - fci/FNFCISTATUS
 dev_langs:

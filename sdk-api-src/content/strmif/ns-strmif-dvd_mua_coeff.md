@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8b8402da-37c2-4983-ae09-967c269fc828
 ms.date: 12/05/2018
 ms.keywords: DVD_MUA_Coeff, DVD_MUA_Coeff structure [DirectShow], DVD_MUA_CoeffStructure, dshow.dvd_mua_coeff, strmif/DVD_MUA_Coeff
-ms.topic: struct
 f1_keywords:
 - strmif/DVD_MUA_Coeff
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <code>DVD_MUA_Coeff</code> structure defines the mixing coefficients for one channel in a multichannel audio stream. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_multichannelaudioattributes">DVD_MultichannelAudioAttributes</a> structure contains an array of eight <code>DVD_MUA_Coeff</code> structures, one for each channel in the stream.
+The [DVD_MultichannelAudioAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_multichannelaudioattributes) structure contains an array of eight <code>DVD_MUA_Coeff</code> structures, one for each channel in the stream.
 
 
 
@@ -102,11 +101,11 @@ Audio channel 1 = coeff[0].beta * value[0]  + coeff[1].beta * value[1] + ...
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_audioattributes">DVD_AudioAttributes</a>
+[DVD_AudioAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_audioattributes)
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_mua_mixinginfo">DVD_MUA_MixingInfo</a>
+[DVD_MUA_MixingInfo](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_mua_mixinginfo)
 
 
 

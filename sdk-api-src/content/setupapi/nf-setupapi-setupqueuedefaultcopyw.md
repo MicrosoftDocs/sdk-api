@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 57e8dc72-5b0e-486c-9819-fa44085580eb
 ms.date: 12/05/2018
 ms.keywords: SetupQueueDefaultCopy, SetupQueueDefaultCopy function [Setup API], SetupQueueDefaultCopyA, SetupQueueDefaultCopyW, _setupapi_setupqueuedefaultcopy, setup.setupqueuedefaultcopy, setupapi/SetupQueueDefaultCopy, setupapi/SetupQueueDefaultCopyA, setupapi/SetupQueueDefaultCopyW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupQueueDefaultCopy
 dev_langs:

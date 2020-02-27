@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 37ed6d7b-2e44-4bce-b476-8e8b28635346
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],Run method, IMSVidCtl.Run, IMSVidCtl::Run, IMSVidCtlRun, Run, Run method [Microsoft TV Technologies], Run method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_run, msvidctl/IMSVidCtl::Run
-ms.topic: method
 f1_keywords:
 - msvidctl/IMSVidCtl.Run
 dev_langs:

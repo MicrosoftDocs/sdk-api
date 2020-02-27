@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 843fa973-2c54-4026-8dd9-4ca949b3a894
 ms.date: 12/05/2018
 ms.keywords: IsInTransaction, IsInTransaction method [COM+], IsInTransaction method [COM+],ObjectContext interface, ObjectContext interface [COM+],IsInTransaction method, ObjectContext.IsInTransaction, ObjectContext::IsInTransaction, _cos_ObjectContext_IsInTransaction, comsvcs/ObjectContext::IsInTransaction, cos.objectcontext_isintransaction
-ms.topic: method
 f1_keywords:
 - comsvcs/ObjectContext.IsInTransaction
 dev_langs:

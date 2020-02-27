@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: c423d0cc-7275-4703-abee-4eada625d956
 ms.date: 12/05/2018
 ms.keywords: RasDeleteSubEntry, RasDeleteSubEntry function [RAS], RasDeleteSubEntryA, RasDeleteSubEntryW, _ras_rasdeletesubentry, ras/RasDeleteSubEntry, ras/RasDeleteSubEntryA, ras/RasDeleteSubEntryW, rras.rasdeletesubentry
-ms.topic: function
 f1_keywords:
 - ras/RasDeleteSubEntry
 dev_langs:

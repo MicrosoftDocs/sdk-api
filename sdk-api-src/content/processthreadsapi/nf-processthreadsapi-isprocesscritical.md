@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: A5ED8672-B4C3-4A31-8B3F-A181628219A4
 ms.date: 12/05/2018
 ms.keywords: IsProcessCritical, IsProcessCritical function, base.isprocesscritical, processthreadsapi/IsProcessCritical
-ms.topic: function
 f1_keywords:
 - processthreadsapi/IsProcessCritical
 dev_langs:

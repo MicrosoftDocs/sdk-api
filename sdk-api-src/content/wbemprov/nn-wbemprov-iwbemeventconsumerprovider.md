@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 793bbc22-4a8b-4ab3-8cfe-7d81f42a6b7f
 ms.date: 12/05/2018
 ms.keywords: IWbemEventConsumerProvider, IWbemEventConsumerProvider interface [Windows Management Instrumentation], IWbemEventConsumerProvider interface [Windows Management Instrumentation],described, _hmm_iwbemeventconsumerprovider, wbemprov/IWbemEventConsumerProvider, wmi.iwbemeventconsumerprovider
-ms.topic: interface
 f1_keywords:
 - wbemprov/IWbemEventConsumerProvider
 dev_langs:

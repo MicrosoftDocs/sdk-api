@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: e5df2222-988c-4f61-9b1a-9bccb647826d
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [Windows Management Instrumentation], GetInfo method [Windows Management Instrumentation],IWbemPathKeyList interface, IWbemPathKeyList interface [Windows Management Instrumentation],GetInfo method, IWbemPathKeyList.GetInfo, IWbemPathKeyList::GetInfo, WBEMPATH_INFO_CONTAINS_SINGLETON, WBEMPATH_INFO_HAS_IMPLIED_KEY, WBEMPATH_INFO_HAS_V2_REF_PATHS, WBEMPATH_INFO_IS_COMPOUND, _hmm_iwbempathkeylist_getinfo, wmi.iwbempathkeylist_getinfo, wmiutils/IWbemPathKeyList::GetInfo
-ms.topic: method
 f1_keywords:
 - wmiutils/IWbemPathKeyList.GetInfo
 dev_langs:

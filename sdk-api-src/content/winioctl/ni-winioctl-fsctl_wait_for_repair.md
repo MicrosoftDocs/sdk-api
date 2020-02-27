@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 593ca2f0-1455-4b46-925a-61ad07f8fb5c
 ms.date: 12/05/2018
 ms.keywords: FSCTL_WAIT_FOR_REPAIR, FSCTL_WAIT_FOR_REPAIR control, FSCTL_WAIT_FOR_REPAIR control code [Files], fs.fsctl_wait_for_repair, winioctl/FSCTL_WAIT_FOR_REPAIR
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_WAIT_FOR_REPAIR
 dev_langs:

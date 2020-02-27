@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: e183b23c-ce87-4818-b6d6-2305a3aa345d
 ms.date: 12/05/2018
 ms.keywords: '*PTCP_ESTATS_SYN_OPTS_ROS_v0, PTCP_ESTATS_SYN_OPTS_ROS_v0, PTCP_ESTATS_SYN_OPTS_ROS_v0 structure pointer [IP Helper], TCP_ESTATS_SYN_OPTS_ROS_v0, TCP_ESTATS_SYN_OPTS_ROS_v0 structure [IP Helper], iphlp.tcp_estats_syn_opts_ros_v0, tcpestats/PTCP_ESTATS_SYN_OPTS_ROS_v0, tcpestats/TCP_ESTATS_SYN_OPTS_ROS_v0'
-ms.topic: struct
 f1_keywords:
 - tcpestats/TCP_ESTATS_SYN_OPTS_ROS_v0
 dev_langs:
@@ -96,7 +95,7 @@ The <b>TCP_ESTATS_SYN_OPTS_ROS_v0</b> structure is retrieved by calls to  the <a
 
 The MSS in the <b>MssRcvd</b> and <b>MssSent</b> members is the maximum data in a single TCP datagram. The MSS can be a very large value. 
 
-The members of this structure are defined in the IETF RFC on the TCP Extended Statistics MIB. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=121686">http://www.ietf.org/rfc/rfc4898.txt</a>.
+The members of this structure are defined in the IETF RFC on the TCP Extended Statistics MIB. For more information, see <a href="http://tools.ietf.org/html/rfc4898">http://www.ietf.org/rfc/rfc4898.txt</a>.
 
 
 

@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 0788C3BE-1616-4C7B-8F47-B0C4E4034061
 ms.date: 12/05/2018
 ms.keywords: ActivateSpatialAudioMetadataItems, ActivateSpatialAudioMetadataItems method [Core Audio], ActivateSpatialAudioMetadataItems method [Core Audio],ISpatialAudioMetadataClient interface, ISpatialAudioMetadataClient interface [Core Audio],ActivateSpatialAudioMetadataItems method, ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems, ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems, coreaudio.ispatialaudiometadataclient_activatespatialaudiometadataitems, spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems
-ms.topic: method
 f1_keywords:
 - spatialaudiometadata/ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems
 dev_langs:
@@ -70,7 +69,7 @@ The valid range of frame offset positions for metadata items stored in the retur
 
 ### -param metadataItemsBuffer [out, optional]
 
-If a pointer is supplied, returns an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitemsbuffer">ISpatialAudioMetadataItemsBuffer</a> interface which provides methods for attaching caller-provided memory for storage of metadata items.  If this parameter is NULL, the object will allocate internal storage for the items.   This interface cannot be obtained via <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a>.
+If a pointer is supplied, returns an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitemsbuffer">ISpatialAudioMetadataItemsBuffer</a> interface which provides methods for attaching caller-provided memory for storage of metadata items.  If this parameter is NULL, the object will allocate internal storage for the items.   This interface cannot be obtained via <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>.
 
 
 ### -param metadataItems [out]

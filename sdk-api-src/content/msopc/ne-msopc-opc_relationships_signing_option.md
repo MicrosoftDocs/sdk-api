@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: b6a83730-459a-4119-a013-7d670e659c32
 ms.date: 12/05/2018
 ms.keywords: OPC_RELATIONSHIPS_SIGNING_OPTION, OPC_RELATIONSHIPS_SIGNING_OPTION enumeration [Open Packaging Conventions], OPC_RELATIONSHIP_SIGN_PART, OPC_RELATIONSHIP_SIGN_USING_SELECTORS, msopc/OPC_RELATIONSHIPS_SIGNING_OPTION, msopc/OPC_RELATIONSHIP_SIGN_PART, msopc/OPC_RELATIONSHIP_SIGN_USING_SELECTORS, opc.opc_relationships_signing_option
-ms.topic: enum
 f1_keywords:
 - msopc/OPC_RELATIONSHIPS_SIGNING_OPTION
 dev_langs:
@@ -73,7 +72,7 @@ The reference refers to all of the relationships represented as relationship obj
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML standard</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML standard</a>
 
 
 

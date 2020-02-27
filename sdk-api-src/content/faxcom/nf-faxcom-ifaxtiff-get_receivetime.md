@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5spx.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxTiff interface [Fax Service],ReceiveTime property, IFaxTiff.ReceiveTime, IFaxTiff.get_ReceiveTime, IFaxTiff::ReceiveTime, IFaxTiff::get_ReceiveTime, ReceiveTime property [Fax Service], ReceiveTime property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_receivetime, fax._mfax_ifaxtiff_get_receivetime, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_receivetime_cpp, faxcom/IFaxTiff::ReceiveTime, faxcom/IFaxTiff::get_ReceiveTime, get_ReceiveTime
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxTiff.ReceiveTime
 dev_langs:

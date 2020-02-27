@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 8cb4a42b-f8ae-4a6f-884c-fa808b11dc8a
 ms.date: 12/05/2018
 ms.keywords: ExecQuery, ExecQuery method [Windows Management Instrumentation], ExecQuery method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecQuery method, IWbemServices.ExecQuery, IWbemServices::ExecQuery, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_ENSURE_LOCATABLE, WBEM_FLAG_FORWARD_ONLY, WBEM_FLAG_PROTOTYPE, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_execquery, wbemcli/IWbemServices::ExecQuery, wmi.iwbemservices_execquery
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemServices.ExecQuery
 dev_langs:
@@ -154,7 +153,7 @@ If no error occurs, this receives the enumerator that allows the caller to retri
 
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-On failure, you can obtain any available information from the COM function <a href="http://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a>.
+On failure, you can obtain any available information from the COM function <a href="https://msdn.microsoft.com/library/ms221032.aspx">GetErrorInfo</a>.
 
 COM-specific error codes also can be returned if network problems cause you to lose the remote connection to Windows Management.
 

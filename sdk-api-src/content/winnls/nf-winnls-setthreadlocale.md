@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: d86193c7-9b3a-422b-b76c-ff1992f68958
 ms.date: 12/05/2018
 ms.keywords: SetThreadLocale, SetThreadLocale function [Internationalization for Windows Applications], _win32_SetThreadLocale, intl.setthreadlocale, winnls/SetThreadLocale
-ms.topic: function
 f1_keywords:
 - winnls/SetThreadLocale
 dev_langs:

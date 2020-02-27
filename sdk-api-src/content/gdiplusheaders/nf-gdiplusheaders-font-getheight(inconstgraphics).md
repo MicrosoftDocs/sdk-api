@@ -5,7 +5,6 @@ description: The Font::GetHeight method gets the line spacing of this font in th
 ms.assetid: 4cfe970e-332c-461b-9b75-0d0802fad86f
 ms.date: 05/20/2019
 ms.keywords: Font::GetHeight
-ms.topic: language-reference
 f1_keywords:
 - gdiplusheaders/Font::GetHeight
 dev_langs:

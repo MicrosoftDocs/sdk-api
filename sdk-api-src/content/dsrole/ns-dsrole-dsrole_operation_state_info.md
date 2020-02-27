@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: c6c8e510-190a-47ad-805c-b8d3fbee836d
 ms.date: 12/05/2018
 ms.keywords: '*PDSROLE_OPERATION_STATE_INFO, DSROLE_OPERATION_STATE_INFO, DSROLE_OPERATION_STATE_INFO structure [Active Directory], ad.dsrole_operation_state_info, dsrole/DSROLE_OPERATION_STATE_INFO'
-ms.topic: struct
 f1_keywords:
 - dsrole/DSROLE_OPERATION_STATE_INFO
 dev_langs:

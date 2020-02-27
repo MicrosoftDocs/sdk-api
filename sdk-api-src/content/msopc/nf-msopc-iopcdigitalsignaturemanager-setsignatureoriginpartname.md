@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: edf1590c-14a2-4887-a2df-20b5b4cb89a6
 ms.date: 12/05/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],SetSignatureOriginPartName method, IOpcDigitalSignatureManager.SetSignatureOriginPartName, IOpcDigitalSignatureManager::SetSignatureOriginPartName, SetSignatureOriginPartName, SetSignatureOriginPartName method [Open Packaging Conventions], SetSignatureOriginPartName method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::SetSignatureOriginPartName, opc.iopcdigitalsignaturemanager_setsignatureoriginpartname
-ms.topic: method
 f1_keywords:
 - msopc/IOpcDigitalSignatureManager.SetSignatureOriginPartName
 dev_langs:

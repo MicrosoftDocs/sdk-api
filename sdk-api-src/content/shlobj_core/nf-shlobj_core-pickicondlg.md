@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3dfcda10-26d8-495d-8c92-7ff16da098c1
 ms.date: 12/05/2018
 ms.keywords: PickIconDlg, PickIconDlg function [Windows Shell], _win32_PickIconDlg, shell.PickIconDlg, shlobj_core/PickIconDlg
-ms.topic: function
 f1_keywords:
 - shlobj_core/PickIconDlg
 dev_langs:

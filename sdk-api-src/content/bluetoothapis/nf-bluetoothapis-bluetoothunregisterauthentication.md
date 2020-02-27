@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: bfb1a18c-e5b1-4053-8652-5a76b196bebe
 ms.date: 12/05/2018
 ms.keywords: BluetoothUnregisterAuthentication, BluetoothUnregisterAuthentication function [Bluetooth], bluetooth.bluetoothunregisterauthentication, bluetoothapis/BluetoothUnregisterAuthentication
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothUnregisterAuthentication
 dev_langs:

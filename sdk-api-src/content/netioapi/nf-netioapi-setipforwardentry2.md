@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: e11aab0b-6d6c-4e90-a60a-f7d68c09751b
 ms.date: 12/05/2018
 ms.keywords: SetIpForwardEntry2, SetIpForwardEntry2 function [IP Helper], iphlp.setipforwardentry2, netioapi/SetIpForwardEntry2
-ms.topic: function
 f1_keywords:
 - netioapi/SetIpForwardEntry2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 8e138b0b-cea1-47ca-a73b-473b9f5860db
 ms.date: 12/05/2018
 ms.keywords: ISecurityIdentityColl interface [COM+],get__NewEnum method, ISecurityIdentityColl.get__NewEnum, ISecurityIdentityColl::get__NewEnum, _cos_ISecurityIdentityColl_get__NewEnum, comsvcs/ISecurityIdentityColl::get__NewEnum, cos.isecurityidentitycoll_get__newenum, get__NewEnum, get__NewEnum method [COM+], get__NewEnum method [COM+],ISecurityIdentityColl interface
-ms.topic: method
 f1_keywords:
 - comsvcs/ISecurityIdentityColl.get__NewEnum
 dev_langs:
@@ -60,7 +59,7 @@ Retrieves an enumerator for the security identity collection.
 
 ### -param ppEnum [out]
 
-A reference to the returned <a href="http://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a> interface.
+A reference to the returned <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVARIANT</a> interface.
 
 
 ## -returns

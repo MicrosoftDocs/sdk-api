@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatacallback\iwiadatacallback.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaDataCallback, IWiaDataCallback interface [WIA], IWiaDataCallback interface [WIA],described, _wia_IWiaDataCallback, wia._wia_IWiaDataCallback, wia_xp/IWiaDataCallback
-ms.topic: interface
 f1_keywords:
 - wia_xp/IWiaDataCallback
 dev_langs:
@@ -94,7 +93,7 @@ The <b>IWiaDataCallback</b> interface, like all Component Object Model (COM) int
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>
 </td>
 <td>Returns pointers to supported interfaces.</td>
 </tr>

@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: EE83AF5F-4342-4CF2-81A7-1123F8DAFA6F
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObject, ISpatialAudioObject interface [Core Audio], ISpatialAudioObject interface [Core Audio],described, coreaudio.ispatialaudioobject, spatialaudioclient/ISpatialAudioObject
-ms.topic: interface
 f1_keywords:
 - spatialaudioclient/ISpatialAudioObject
 dev_langs:

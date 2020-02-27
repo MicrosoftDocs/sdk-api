@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 525303cc-052b-4895-92a6-cfb5985b31d2
 ms.date: 12/05/2018
 ms.keywords: CreateSingleArray, CreateSingleArray method [Windows Runtime], CreateSingleArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateSingleArray method, IPropertyValueStatics.CreateSingleArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateSingleArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateSingleArray, winrt.ipropertyvaluefactory_createsinglearray, winrt.ipropertyvaluestatics_createsinglearray
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValueStatics.CreateSingleArray
 dev_langs:
@@ -76,7 +75,7 @@ The array of 32-bit floating point values to store.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
 
-A pointer to a new object that contains <i>value</i>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
+A pointer to a new object that contains <i>value</i>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
 
 
 ## -returns

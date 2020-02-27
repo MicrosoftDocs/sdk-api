@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: c32a5367-ef39-4852-bf3b-203d27d0a2d0
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method, GetValue method,IProviderProperties interface, IProviderProperties interface,GetValue method, IProviderProperties.GetValue, IProviderProperties::GetValue, functiondiscoveryprovider/IProviderProperties::GetValue, ncd.iproviderproperties_getvalue_method
-ms.topic: method
 f1_keywords:
 - functiondiscoveryprovider/IProviderProperties.GetValue
 dev_langs:

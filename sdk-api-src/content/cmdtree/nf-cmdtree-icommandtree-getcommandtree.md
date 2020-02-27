@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_2811.htm
 ms.date: 12/05/2018
 ms.keywords: GetCommandTree, GetCommandTree method [Indexing Service], GetCommandTree method [Indexing Service],ICommandTree interface, ICommandTree interface [Indexing Service],GetCommandTree method, ICommandTree.GetCommandTree, ICommandTree::GetCommandTree, _idxs_ICommandTree_GetCommandTree, cmdtree/ICommandTree::GetCommandTree, indexsrv.icommandtree_getcommandtree
-ms.topic: method
 f1_keywords:
 - cmdtree/ICommandTree.GetCommandTree
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 The <b>ICommandTree::GetCommandTree</b> method echoes the current command as a tree, including all post-processing operations that have been added.
 

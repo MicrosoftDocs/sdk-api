@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: b99464c5-dabc-405a-ad3e-da06a6faef47
 ms.date: 12/05/2018
 ms.keywords: INetFwServices, INetFwServices interface [ICS/ICF], INetFwServices interface [ICS/ICF],described, ics.inetfwservices, netfw/INetFwServices
-ms.topic: interface
 f1_keywords:
 - netfw/INetFwServices
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: d3f4ac2c-95d9-4273-a679-81670dd62d28
 ms.date: 12/05/2018
 ms.keywords: DRMActivate, DRMActivate function [Active Directory Rights Management Services SDK 1.0], DRM_ACTIVATE_CANCEL, DRM_ACTIVATE_DELAYED, DRM_ACTIVATE_GROUPIDENTITY, DRM_ACTIVATE_MACHINE, DRM_ACTIVATE_SHARED_GROUPIDENTITY, DRM_ACTIVATE_SILENT, DRM_ACTIVATE_TEMPORARY, msdrm/DRMActivate, rm.drmactivate
-ms.topic: function
 f1_keywords:
 - msdrm/DRMActivate
 dev_langs:

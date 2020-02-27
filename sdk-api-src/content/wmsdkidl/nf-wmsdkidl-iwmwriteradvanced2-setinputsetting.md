@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: a920bfe8-1f95-4957-b6c4-9749d5e10ee3
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced2 interface [windows Media Format],SetInputSetting method, IWMWriterAdvanced2.SetInputSetting, IWMWriterAdvanced2::SetInputSetting, IWMWriterAdvanced2SetInputSetting, SetInputSetting, SetInputSetting method [windows Media Format], SetInputSetting method [windows Media Format],IWMWriterAdvanced2 interface, wmformat.iwmwriteradvanced2_setinputsetting, wmsdkidl/IWMWriterAdvanced2::SetInputSetting
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriterAdvanced2.SetInputSetting
 dev_langs:

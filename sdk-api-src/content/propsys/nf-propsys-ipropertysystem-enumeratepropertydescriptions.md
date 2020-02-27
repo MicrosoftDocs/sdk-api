@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: eb87e6b6-2a48-497a-8a42-9c929a742502
 ms.date: 12/05/2018
 ms.keywords: EnumeratePropertyDescriptions, EnumeratePropertyDescriptions method [Windows Properties], EnumeratePropertyDescriptions method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],EnumeratePropertyDescriptions method, IPropertySystem.EnumeratePropertyDescriptions, IPropertySystem::EnumeratePropertyDescriptions, properties.IPropertySystem_EnumeratePropertyDescriptions, propsys/IPropertySystem::EnumeratePropertyDescriptions, shell.IPropertySystem_EnumeratePropertyDescriptions, shell_IPropertySystem_EnumeratePropertyDescriptions
-ms.topic: method
 f1_keywords:
 - propsys/IPropertySystem.EnumeratePropertyDescriptions
 dev_langs:

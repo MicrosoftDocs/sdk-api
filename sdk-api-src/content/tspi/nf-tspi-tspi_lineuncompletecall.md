@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: e8b5ee74-245f-4d91-8996-eec482241e4d
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineUncompleteCall, TSPI_lineUncompleteCall function [TAPI 2.2], _tspi_tspi_lineuncompletecall, tspi.tspi_lineuncompletecall, tspi/TSPI_lineUncompleteCall
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineUncompleteCall
 dev_langs:

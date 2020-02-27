@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: cfb931e9-f20f-4812-9d6b-cf8b651b7e7a
 ms.date: 12/05/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],SetParent method, IESEventServiceConfiguration.SetParent, IESEventServiceConfiguration::SetParent, SetParent, SetParent method [Microsoft TV Technologies], SetParent method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_setparent, tuner/IESEventServiceConfiguration::SetParent
-ms.topic: method
 f1_keywords:
 - tuner/IESEventServiceConfiguration.SetParent
 dev_langs:

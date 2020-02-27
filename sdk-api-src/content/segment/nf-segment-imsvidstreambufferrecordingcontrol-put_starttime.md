@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 923fecbb-00f4-445f-a5cb-ef898580396e
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],put_StartTime method, IMSVidStreamBufferRecordingControl.put_StartTime, IMSVidStreamBufferRecordingControl::put_StartTime, IMSVidStreamBufferRecordingControlput_StartTime, mstv.imsvidstreambufferrecordingcontrol_put_starttime, put_StartTime, put_StartTime method [Microsoft TV Technologies], put_StartTime method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, segment/IMSVidStreamBufferRecordingControl::put_StartTime
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferRecordingControl.put_StartTime
 dev_langs:

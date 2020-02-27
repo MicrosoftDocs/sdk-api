@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: f2da5045-4000-46d8-a610-f5f80cb6f713
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption2 interface [Windows Media Player],getSAMILangName method, IWMPClosedCaption2.getSAMILangName, IWMPClosedCaption2::getSAMILangName, IWMPClosedCaption2getSAMILangName, getSAMILangName, getSAMILangName method [Windows Media Player], getSAMILangName method [Windows Media Player],IWMPClosedCaption2 interface, wmp.iwmpclosedcaption2_getsamilangname, wmp/IWMPClosedCaption2::getSAMILangName
-ms.topic: method
 f1_keywords:
 - wmp/IWMPClosedCaption2.getSAMILangName
 dev_langs:

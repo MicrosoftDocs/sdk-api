@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 89121716-4F30-4ACD-AA48-F563550B94A1
 ms.date: 12/05/2018
 ms.keywords: MFUnlockDXGIDeviceManager, MFUnlockDXGIDeviceManager function [Media Foundation], mf.mfunlockdxgidevicemanager, mfapi/MFUnlockDXGIDeviceManager
-ms.topic: function
 f1_keywords:
 - mfapi/MFUnlockDXGIDeviceManager
 dev_langs:

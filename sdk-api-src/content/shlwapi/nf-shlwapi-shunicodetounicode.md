@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1a208c2d-e627-4aac-9a28-b579c734a2a8
 ms.date: 12/05/2018
 ms.keywords: SHUnicodeToUnicode, SHUnicodeToUnicode function [Windows Shell], _win32_SHUnicodeToUnicode, shell.SHUnicodeToUnicode, shlwapi/SHUnicodeToUnicode
-ms.topic: function
 f1_keywords:
 - shlwapi/SHUnicodeToUnicode
 dev_langs:

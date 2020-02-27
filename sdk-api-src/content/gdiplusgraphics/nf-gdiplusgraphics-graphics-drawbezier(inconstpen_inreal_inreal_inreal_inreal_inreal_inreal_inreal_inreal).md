@@ -5,7 +5,6 @@ description: The Graphics::DrawBezier method draws a Bezier spline.
 ms.assetid: 8cc50b20-3c78-4462-bee5-f7fce4815bc1
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawBezier
-ms.topic: language-reference
 f1_keywords:
 - gdiplusgraphics/Graphics::DrawBezier
 dev_langs:

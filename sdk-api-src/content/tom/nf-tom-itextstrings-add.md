@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 59630068-e3c7-4c3b-bd89-f1127759f979
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Windows Controls], Add method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],Add method, ITextStrings.Add, ITextStrings::Add, controls.itextstrings_add, tom/ITextStrings::Add
-ms.topic: method
 f1_keywords:
 - tom/ITextStrings.Add
 dev_langs:

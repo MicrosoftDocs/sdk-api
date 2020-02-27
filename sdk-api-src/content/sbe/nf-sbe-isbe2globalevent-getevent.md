@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2ffa323d-6793-49e2-98ea-b9349c946c7c
 ms.date: 12/05/2018
 ms.keywords: GetEvent, GetEvent method [Microsoft TV Technologies], GetEvent method [Microsoft TV Technologies],ISBE2GlobalEvent interface, ISBE2GlobalEvent interface [Microsoft TV Technologies],GetEvent method, ISBE2GlobalEvent.GetEvent, ISBE2GlobalEvent::GetEvent, mstv.isbe2globalevent_getevent, sbe/ISBE2GlobalEvent::GetEvent
-ms.topic: method
 f1_keywords:
 - sbe/ISBE2GlobalEvent.GetEvent
 dev_langs:

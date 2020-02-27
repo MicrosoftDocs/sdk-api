@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 17a2f882-f6a8-467d-a6f9-eb8e6309e878
 ms.date: 12/05/2018
 ms.keywords: IAMTVAudio interface [DirectShow],UnRegisterNotificationCallBack method, IAMTVAudio.UnRegisterNotificationCallBack, IAMTVAudio::UnRegisterNotificationCallBack, IAMTVAudioUnRegisterNotificationCallBack, UnRegisterNotificationCallBack, UnRegisterNotificationCallBack method [DirectShow], UnRegisterNotificationCallBack method [DirectShow],IAMTVAudio interface, dshow.iamtvaudio_unregisternotificationcallback, strmif/IAMTVAudio::UnRegisterNotificationCallBack
-ms.topic: method
 f1_keywords:
 - strmif/IAMTVAudio.UnRegisterNotificationCallBack
 dev_langs:

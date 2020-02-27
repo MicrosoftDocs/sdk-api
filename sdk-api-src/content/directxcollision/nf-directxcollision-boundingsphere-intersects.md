@@ -4,7 +4,6 @@ title: BoundingSphere::Intersects
 description: Tests the BoundingSphere for intersection with a BoundingSphere.
 ms.date: 04/22/19
 ms.keywords: BoundingSphere::Intersects
-ms.topic: language-reference
 f1_keywords:
 - directxcollision/BoundingSphere::Intersects
 dev_langs:

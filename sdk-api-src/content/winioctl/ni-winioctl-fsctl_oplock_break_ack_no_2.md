@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 1624fa94-fcf4-4804-b659-84de5ccc77dc
 ms.date: 12/05/2018
 ms.keywords: FSCTL_OPLOCK_BREAK_ACK_NO_2, FSCTL_OPLOCK_BREAK_ACK_NO_2 control, FSCTL_OPLOCK_BREAK_ACK_NO_2 control code [Files], _win32_fsctl_oplock_break_ack_no_2, base.fsctl_oplock_break_ack_no_2, fs.fsctl_oplock_break_ack_no_2, winioctl/FSCTL_OPLOCK_BREAK_ACK_NO_2
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_OPLOCK_BREAK_ACK_NO_2
 dev_langs:

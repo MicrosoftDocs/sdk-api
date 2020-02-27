@@ -7,7 +7,6 @@ tech.root: battery
 ms.assetid: A2F4337A-3C2F-49DE-9BE6-EE6A3B2F81B5
 ms.date: 12/05/2018
 ms.keywords: '*PBATTERY_WMI_STATUS_CHANGE, BATTERY_WMI_STATUS_CHANGE, BATTERY_WMI_STATUS_CHANGE structure [Battery Devices], PBATTERY_WMI_STATUS_CHANGE, PBATTERY_WMI_STATUS_CHANGE structure pointer [Battery Devices], batclass/BATTERY_WMI_STATUS_CHANGE, batclass/PBATTERY_WMI_STATUS_CHANGE, battery.battery_wmi_status_change'
-ms.topic: struct
 f1_keywords:
 - batclass/BATTERY_WMI_STATUS_CHANGE
 dev_langs:

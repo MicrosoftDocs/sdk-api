@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: d27999af-147e-4c1b-be89-58191292337d
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsLocallyModifiedData method, IOfflineFilesChangeInfo.IsLocallyModifiedData, IOfflineFilesChangeInfo::IsLocallyModifiedData, IsLocallyModifiedData, IsLocallyModifiedData method [Offline Files], IsLocallyModifiedData method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsLocallyModifiedData, of.iofflinefileschangeinfo_islocallymodifieddata
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesChangeInfo.IsLocallyModifiedData
 dev_langs:

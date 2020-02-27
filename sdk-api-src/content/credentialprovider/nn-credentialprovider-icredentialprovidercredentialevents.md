@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 258449a4-78e2-475e-ab16-6481207e7354
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialEvents, ICredentialProviderCredentialEvents interface [Windows Shell], ICredentialProviderCredentialEvents interface [Windows Shell],described, credentialprovider/ICredentialProviderCredentialEvents, shell.ICredentialProviderCredentialEvents, shell_ICredentialProviderCredentialEvents
-ms.topic: interface
 f1_keywords:
 - credentialprovider/ICredentialProviderCredentialEvents
 dev_langs:

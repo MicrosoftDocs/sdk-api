@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 4dc5688f-4b7a-4baf-9671-868cac7f1896
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminCalcHashFromFileHandle, CryptCATAdminCalcHashFromFileHandle function [Security], mscat/CryptCATAdminCalcHashFromFileHandle, security.cryptcatadmincalchashfromfilehandle
-ms.topic: function
 f1_keywords:
 - mscat/CryptCATAdminCalcHashFromFileHandle
 dev_langs:

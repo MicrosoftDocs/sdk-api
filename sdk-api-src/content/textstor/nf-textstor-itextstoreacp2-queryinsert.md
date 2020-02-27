@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 3a1cf233-5185-414a-99c6-2cfdbe07b8c9
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],QueryInsert method, ITextStoreACP2.QueryInsert, ITextStoreACP2::QueryInsert, QueryInsert, QueryInsert method [Text Services Framework], QueryInsert method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::QueryInsert, tsf.itextstoreacp2_queryinsert
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreACP2.QueryInsert
 dev_langs:

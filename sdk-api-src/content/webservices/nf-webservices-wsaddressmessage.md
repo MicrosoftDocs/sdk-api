@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 30b2dbd1-7232-4ff1-b30a-920df8bfe423
 ms.date: 12/05/2018
 ms.keywords: WsAddressMessage, WsAddressMessage function [Web Services for Windows], webservices/WsAddressMessage, wsw.wsaddressmessage
-ms.topic: function
 f1_keywords:
 - webservices/WsAddressMessage
 dev_langs:

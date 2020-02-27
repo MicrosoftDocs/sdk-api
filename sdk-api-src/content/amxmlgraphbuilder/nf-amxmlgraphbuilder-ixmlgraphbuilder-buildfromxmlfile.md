@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 238a3077-0f04-44bb-a6ac-b532ef97c315
 ms.date: 12/05/2018
 ms.keywords: BuildFromXMLFile, BuildFromXMLFile method [DirectShow], BuildFromXMLFile method [DirectShow],IXMLGraphBuilder interface, IXMLGraphBuilder interface [DirectShow],BuildFromXMLFile method, IXMLGraphBuilder.BuildFromXMLFile, IXMLGraphBuilder::BuildFromXMLFile, IXMLGraphBuilderBuildFromXMLFile, amxmlgraphbuilder/IXMLGraphBuilder::BuildFromXMLFile, dshow.ixmlgraphbuilder_buildfromxmlfile
-ms.topic: method
 f1_keywords:
 - amxmlgraphbuilder/IXMLGraphBuilder.BuildFromXMLFile
 dev_langs:

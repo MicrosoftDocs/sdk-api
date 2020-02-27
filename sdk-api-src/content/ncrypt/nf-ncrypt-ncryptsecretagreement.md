@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: b5bf3eac-1fae-43e2-84b6-e8e5e255d7c5
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptSecretAgreement, NCryptSecretAgreement function [Security], ncrypt/NCryptSecretAgreement, security.ncryptsecretagreement
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptSecretAgreement
 dev_langs:
@@ -166,7 +165,7 @@ A memory allocation failure occurred.
 
 
 
-A service must not call this function from its <a href="http://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 
 

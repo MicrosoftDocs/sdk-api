@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 19b90ada-5277-47cb-a8d5-18f5c89612c0
 ms.date: 12/05/2018
 ms.keywords: ITsSbServiceNotification, ITsSbServiceNotification interface [Remote Desktop Services], ITsSbServiceNotification interface [Remote Desktop Services],described, sbtsv/ITsSbServiceNotification, termserv.itssbservicenotification
-ms.topic: interface
 f1_keywords:
 - sbtsv/ITsSbServiceNotification
 dev_langs:

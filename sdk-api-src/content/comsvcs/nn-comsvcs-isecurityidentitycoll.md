@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 6844bfb2-028f-4155-85a6-b7023432f6cd
 ms.date: 12/05/2018
 ms.keywords: ISecurityIdentityColl, ISecurityIdentityColl interface [COM+], ISecurityIdentityColl interface [COM+],described, _cos_ISecurityIdentityColl, comsvcs/ISecurityIdentityColl, cos.isecurityidentitycoll
-ms.topic: interface
 f1_keywords:
 - comsvcs/ISecurityIdentityColl
 dev_langs:

@@ -5,7 +5,6 @@ description: Specifes the status of a video decode operation.
 tech.root: mf
 ms.assetid: 4ed97807-90ca-4709-a635-004ecf8f235d
 ms.date: 05/28/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_VIDEO_DECODE_STATUS
 dev_langs:
@@ -37,7 +36,7 @@ targetos: Windows
 
 ## -description
 
-Specifes the status of a video decode operation. This enumeration is used in the status field of a [D3D12_VIDEO_DECODE_STATUS](ne-d3d12video-d3d12_video_decode_status) structure.
+Specifes the status of a video decode operation. This enumeration is used in the status field of a [D3D12_VIDEO_DECODE_STATUS](ne-d3d12video-d3d12_video_decode_status.md) structure.
 
 
 ## -enum-fields

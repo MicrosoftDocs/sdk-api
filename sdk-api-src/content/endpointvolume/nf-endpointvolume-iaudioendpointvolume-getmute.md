@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: bb7cbb42-74cd-4951-92b1-a76ca42e5d3a
 ms.date: 12/05/2018
 ms.keywords: GetMute, GetMute method [Core Audio], GetMute method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetMute method, IAudioEndpointVolume.GetMute, IAudioEndpointVolume::GetMute, IAudioEndpointVolumeGetMute, coreaudio.iaudioendpointvolume_getmute, endpointvolume/IAudioEndpointVolume::GetMute
-ms.topic: method
 f1_keywords:
 - endpointvolume/IAudioEndpointVolume.GetMute
 dev_langs:

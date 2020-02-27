@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 976b5910-c34f-49fa-b25e-82bf607e33a9
 ms.date: 12/05/2018
 ms.keywords: NPGetUniversalName, NPGetUniversalName function [Security], REMOTE_NAME_INFO_LEVEL, UNIVERSAL_NAME_INFO_LEVEL, _mnp_npgetuniversalname, npapi/NPGetUniversalName, security.npgetuniversalname
-ms.topic: function
 f1_keywords:
 - npapi/NPGetUniversalName
 dev_langs:

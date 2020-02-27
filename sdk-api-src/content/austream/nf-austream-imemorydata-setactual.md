@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 22d9c24b-deb0-429a-ad9c-f6d286c7cdeb
 ms.date: 12/05/2018
 ms.keywords: IMemoryData interface [DirectShow],SetActual method, IMemoryData.SetActual, IMemoryData::SetActual, IMemoryDataSetActual, SetActual, SetActual method [DirectShow], SetActual method [DirectShow],IMemoryData interface, austream/IMemoryData::SetActual, dshow.imemorydata_setactual
-ms.topic: method
 f1_keywords:
 - austream/IMemoryData.SetActual
 dev_langs:

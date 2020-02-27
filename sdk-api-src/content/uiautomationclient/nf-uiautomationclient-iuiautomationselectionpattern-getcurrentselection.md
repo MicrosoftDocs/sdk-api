@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 58540e08-4415-47d1-8957-1d1c8b6d7100
 ms.date: 12/05/2018
 ms.keywords: GetCurrentSelection, GetCurrentSelection method [Windows Accessibility], GetCurrentSelection method [Windows Accessibility],IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern interface [Windows Accessibility],GetCurrentSelection method, IUIAutomationSelectionPattern.GetCurrentSelection, IUIAutomationSelectionPattern::GetCurrentSelection, uiauto.uiauto_IUIAutomationSelectionPattern_GetCurrentSelection, uiauto_IUIAutomationSelectionPattern_GetCurrentSelection, uiautomationclient/IUIAutomationSelectionPattern::GetCurrentSelection, winauto.uiauto_IUIAutomationSelectionPattern_GetCurrentSelection
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationSelectionPattern.GetCurrentSelection
 dev_langs:

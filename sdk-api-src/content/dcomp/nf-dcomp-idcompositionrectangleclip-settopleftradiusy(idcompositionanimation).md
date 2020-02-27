@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 7F45036E-9C08-4199-83F1-871418635FED
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetTopLeftRadiusY method, IDCompositionRectangleClip.SetTopLeftRadiusY, IDCompositionRectangleClip.SetTopLeftRadiusY(IDCompositionAnimation), IDCompositionRectangleClip::SetTopLeftRadiusY, IDCompositionRectangleClip::SetTopLeftRadiusY(IDCompositionAnimation), IDCompositionRectangleClip::SetTopLeftRadiusY(IDCompositionAnimation*), SetTopLeftRadiusY, SetTopLeftRadiusY method [DirectComposition], SetTopLeftRadiusY method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetTopLeftRadiusY, directcomp.idcompositionrectangleclip_settopleftradiusy_idcompositionanimation
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionRectangleClip.SetTopLeftRadiusY
 dev_langs:

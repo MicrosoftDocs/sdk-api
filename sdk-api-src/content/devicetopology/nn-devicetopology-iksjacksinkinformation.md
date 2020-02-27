@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 4116a912-5ff2-4fc0-96c6-61d1e62cd973
 ms.date: 12/05/2018
 ms.keywords: IKsJackSinkInformation, IKsJackSinkInformation interface [Core Audio], IKsJackSinkInformation interface [Core Audio],described, coreaudio.iksjacksinkinformation, devicetopology/IKsJackSinkInformation
-ms.topic: interface
 f1_keywords:
 - devicetopology/IKsJackSinkInformation
 dev_langs:

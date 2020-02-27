@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 1b5fa031-ce25-4963-9085-df8786eb88d5
 ms.date: 12/05/2018
 ms.keywords: RpcServerInqBindingHandle, RpcServerInqBindingHandle function [RPC], rpc.rpcserverinqbindinghandle, rpcdce/RpcServerInqBindingHandle
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcServerInqBindingHandle
 dev_langs:

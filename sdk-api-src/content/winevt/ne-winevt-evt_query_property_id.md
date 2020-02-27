@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: 69a17378-088e-42e7-b7da-0ccc642f44d1
 ms.date: 12/05/2018
 ms.keywords: EVT_QUERY_PROPERTY_ID, EVT_QUERY_PROPERTY_ID enumeration [EventLog], EvtQueryNames, EvtQueryPropertyIdEND, EvtQueryStatuses, wes.evt_query_property_id, winevt/EVT_QUERY_PROPERTY_ID, winevt/EvtQueryNames, winevt/EvtQueryPropertyIdEND, winevt/EvtQueryStatuses
-ms.topic: enum
 f1_keywords:
 - winevt/EVT_QUERY_PROPERTY_ID
 dev_langs:

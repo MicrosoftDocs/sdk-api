@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: b3210667-1fe2-4b30-9e5e-311f720647ce
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetProgressText method, IPhotoProgressDialog.SetProgressText, IPhotoProgressDialog::SetProgressText, IPhotoProgressDialogSetProgressText, SetProgressText, SetProgressText method [Picture Acquisition], SetProgressText method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetProgressText, picacq.iphotoprogressdialog_setprogresstext
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoProgressDialog.SetProgressText
 dev_langs:

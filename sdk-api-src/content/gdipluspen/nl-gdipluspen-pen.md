@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pen.htm
 ms.date: 12/05/2018
 ms.keywords: Pen, Pen class [GDI+], Pen class [GDI+],described, _gdiplus_CLASS_Pen_Class, gdiplus._gdiplus_CLASS_Pen_Class, gdipluspen/Pen
-ms.topic: class
 f1_keywords:
 - gdipluspen/Pen
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: fda3e390-e436-47ab-9339-2abf30b53ba9
 ms.date: 12/05/2018
 ms.keywords: FindFolderFromIDList, FindFolderFromIDList method [Windows Shell], FindFolderFromIDList method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],FindFolderFromIDList method, IKnownFolderManager.FindFolderFromIDList, IKnownFolderManager::FindFolderFromIDList, _shell_IKnownFolderManager_FindFolderFromIDList, shell.IKnownFolderManager_FindFolderFromIDList, shobjidl_core/IKnownFolderManager::FindFolderFromIDList
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IKnownFolderManager.FindFolderFromIDList
 dev_langs:

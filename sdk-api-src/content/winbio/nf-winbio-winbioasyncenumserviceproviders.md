@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 5B194DE3-2809-4C32-8D5F-EDF23B6CD87E
 ms.date: 12/05/2018
 ms.keywords: WinBioAsyncEnumServiceProviders, WinBioAsyncEnumServiceProviders function [Windows Biometric Framework API], secbiomet.winbioasyncenumserviceproviders, winbio/WinBioAsyncEnumServiceProviders
-ms.topic: function
 f1_keywords:
 - winbio/WinBioAsyncEnumServiceProviders
 dev_langs:

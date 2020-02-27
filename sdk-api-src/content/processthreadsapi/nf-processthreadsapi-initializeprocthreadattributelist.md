@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 58ce70a1-5b73-429f-a062-bacd9b9c5bc8
 ms.date: 12/05/2018
 ms.keywords: InitializeProcThreadAttributeList, InitializeProcThreadAttributeList function, base.initializeprocthreadattributelist, processthreadsapi/InitializeProcThreadAttributeList, winbase/InitializeProcThreadAttributeList
-ms.topic: function
 f1_keywords:
 - processthreadsapi/InitializeProcThreadAttributeList
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 2d0ec47e-5d5f-43d7-aace-fffca0037ac3
 ms.date: 12/05/2018
 ms.keywords: IAzApplication3 interface [Security],OpenRoleAssignment method, IAzApplication3.OpenRoleAssignment, IAzApplication3::OpenRoleAssignment, OpenRoleAssignment, OpenRoleAssignment method [Security], OpenRoleAssignment method [Security],IAzApplication3 interface, azroles/IAzApplication3::OpenRoleAssignment, security.iazapplication3_openroleassignment
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplication3.OpenRoleAssignment
 dev_langs:

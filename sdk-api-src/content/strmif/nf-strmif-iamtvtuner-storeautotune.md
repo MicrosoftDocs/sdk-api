@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6e39d757-d8bd-4011-9a67-6bf57b5d820b
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner interface [DirectShow],StoreAutoTune method, IAMTVTuner.StoreAutoTune, IAMTVTuner::StoreAutoTune, IAMTVTunerStoreAutoTune, StoreAutoTune, StoreAutoTune method [DirectShow], StoreAutoTune method [DirectShow],IAMTVTuner interface, dshow.iamtvtuner_storeautotune, strmif/IAMTVTuner::StoreAutoTune
-ms.topic: method
 f1_keywords:
 - strmif/IAMTVTuner.StoreAutoTune
 dev_langs:

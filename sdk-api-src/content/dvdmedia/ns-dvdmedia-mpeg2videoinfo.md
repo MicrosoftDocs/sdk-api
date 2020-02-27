@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1a6ab686-99a1-40c2-addf-7fa215e2311a
 ms.date: 12/05/2018
 ms.keywords: AMMPEG2_27MhzTimebase, AMMPEG2_DSS_UserData, AMMPEG2_DVB_UserData, AMMPEG2_DVDLine21Field1, AMMPEG2_DVDLine21Field2, AMMPEG2_DoPanScan, AMMPEG2_FilmCameraMode, AMMPEG2_LetterboxAnalogOut, AMMPEG2_SourceIsLetterboxed, AMMPEG2_WidescreenAnalogOut, MPEG2VIDEOINFO, MPEG2VIDEOINFO structure [DirectShow], MPEG2VIDEOINFOStructure, dshow.mpeg2videoinfo, dvdmedia/MPEG2VIDEOINFO, tagMPEG2VIDEOINFO
-ms.topic: struct
 f1_keywords:
 - dvdmedia/MPEG2VIDEOINFO
 dev_langs:

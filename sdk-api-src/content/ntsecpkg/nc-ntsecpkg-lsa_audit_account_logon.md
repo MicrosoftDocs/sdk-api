@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: dcf2d16b-8352-4d40-9723-c8cf8465431c
 ms.date: 12/05/2018
 ms.keywords: AuditAccountLogon, AuditAccountLogon callback function [Security], LSA_AUDIT_ACCOUNT_LOGON, LSA_AUDIT_ACCOUNT_LOGON callback, _ssp_auditaccountlogon, ntsecpkg/AuditAccountLogon, security.auditaccountlogon
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/AuditAccountLogon
 dev_langs:

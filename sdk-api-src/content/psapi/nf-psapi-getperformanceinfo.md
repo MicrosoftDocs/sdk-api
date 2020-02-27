@@ -7,7 +7,6 @@ tech.root: psapi
 ms.assetid: 21655278-49da-4e63-a4f9-0ee9f6179f4a
 ms.date: 12/05/2018
 ms.keywords: GetPerformanceInfo, GetPerformanceInfo function [PSAPI], K32GetPerformanceInfo, _win32_getperformanceinfo, base.getperformanceinfo, psapi.getperformanceinfo, psapi/GetPerformanceInfo, psapi/K32GetPerformanceInfo
-ms.topic: function
 f1_keywords:
 - psapi/GetPerformanceInfo
 dev_langs:

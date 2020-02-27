@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: d1f6f32f-d105-40cb-8113-319aa1f63c77
 ms.date: 12/05/2018
 ms.keywords: QOSCancel, QOSCancel function [QOS], qos.qoscancel, qos2/QOSCancel
-ms.topic: function
 f1_keywords:
 - qos2/QOSCancel
 dev_langs:

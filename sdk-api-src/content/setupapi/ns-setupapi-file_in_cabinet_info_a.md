@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 071491a8-f305-4e53-b0d7-16f7c9606e99
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_IN_CABINET_INFO_A, FILE_IN_CABINET_INFO, FILE_IN_CABINET_INFO structure [Setup API], FILE_IN_CABINET_INFO_A, PFILE_IN_CABINET_INFO, PFILE_IN_CABINET_INFO structure pointer [Setup API], _setupapi_file_in_cabinet_info_str, setup.file_in_cabinet_info_str, setupapi/FILE_IN_CABINET_INFO, setupapi/PFILE_IN_CABINET_INFO'
-ms.topic: struct
 f1_keywords:
 - setupapi/FILE_IN_CABINET_INFO
 dev_langs:

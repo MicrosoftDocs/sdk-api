@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: e77b4f90-7a08-47f8-b297-8c1360167e1f
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesItemFilter, IOfflineFilesItemFilter interface [Offline Files], IOfflineFilesItemFilter interface [Offline Files],described, cscobj/IOfflineFilesItemFilter, of.iofflinefilesitemfilter
-ms.topic: interface
 f1_keywords:
 - cscobj/IOfflineFilesItemFilter
 dev_langs:

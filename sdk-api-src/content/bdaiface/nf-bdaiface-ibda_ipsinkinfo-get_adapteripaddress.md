@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 3518bad7-d732-4ef7-a8b6-135193eaf9d6
 ms.date: 12/05/2018
 ms.keywords: IBDA_IPSinkInfo interface [Microsoft TV Technologies],get_AdapterIPAddress method, IBDA_IPSinkInfo.get_AdapterIPAddress, IBDA_IPSinkInfo::get_AdapterIPAddress, IBDA_IPSinkInfoget_AdapterIPAddress, bdaiface/IBDA_IPSinkInfo::get_AdapterIPAddress, get_AdapterIPAddress, get_AdapterIPAddress method [Microsoft TV Technologies], get_AdapterIPAddress method [Microsoft TV Technologies],IBDA_IPSinkInfo interface, mstv.ibda_ipsinkinfo_get_adapteripaddress
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_IPSinkInfo.get_AdapterIPAddress
 dev_langs:

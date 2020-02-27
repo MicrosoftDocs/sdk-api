@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 8887C3F1-3EA3-4948-A019-E3CB3F3D46C6
 ms.date: 12/05/2018
 ms.keywords: CreateDeviceContextState, CreateDeviceContextState method [Direct3D 11], CreateDeviceContextState method [Direct3D 11],ID3D11Device1 interface, ID3D11Device1 interface [Direct3D 11],CreateDeviceContextState method, ID3D11Device1.CreateDeviceContextState, ID3D11Device1::CreateDeviceContextState, d3d11_1/ID3D11Device1::CreateDeviceContextState, direct3d11.id3d11device1_createdevicecontextstate
-ms.topic: method
 f1_keywords:
 - d3d11_1/ID3D11Device1.CreateDeviceContextState
 dev_langs:
@@ -173,7 +172,7 @@ When a context state object is active, the runtime disables certain methods on t
         
 
 For example, suppose the tessellation stage is made active through the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a> interface
-          when you create the device through <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice">D3D11CreateDevice</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdeviceandswapchain">D3D11CreateDeviceAndSwapChain</a>,  instead of through the Direct3D 10 equivalents. Because  the Direct3D 11 context is active, a Direct3D 10 interface is inactive when you first retrieve it via <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a>. This means that you cannot  immediately pass a Direct3D 10 interface that you retrieved from a Direct3D 11 device to a function. You must first call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-swapdevicecontextstate">SwapDeviceContextState</a> to activate a Direct3D 10-compatible context state object.
+          when you create the device through <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice">D3D11CreateDevice</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdeviceandswapchain">D3D11CreateDeviceAndSwapChain</a>,  instead of through the Direct3D 10 equivalents. Because  the Direct3D 11 context is active, a Direct3D 10 interface is inactive when you first retrieve it via <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>. This means that you cannot  immediately pass a Direct3D 10 interface that you retrieved from a Direct3D 11 device to a function. You must first call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-swapdevicecontextstate">SwapDeviceContextState</a> to activate a Direct3D 10-compatible context state object.
         
 
 The following table shows the methods that are active and inactive for each emulated interface.<table>

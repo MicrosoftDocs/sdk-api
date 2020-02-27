@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9edad3e2-317f-4ff5-82fb-a816de5d2aa8
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual3 interface [Windows Shell],get_SortColumns method, IShellFolderViewDual3.get_SortColumns, IShellFolderViewDual3::get_SortColumns, _shell_IShellFolderViewDual3_get_SortColumns, get_SortColumns, get_SortColumns method [Windows Shell], get_SortColumns method [Windows Shell],IShellFolderViewDual3 interface, shell.IShellFolderViewDual3_get_SortColumns, shldisp/IShellFolderViewDual3::get_SortColumns
-ms.topic: method
 f1_keywords:
 - shldisp/IShellFolderViewDual3.get_SortColumns
 dev_langs:

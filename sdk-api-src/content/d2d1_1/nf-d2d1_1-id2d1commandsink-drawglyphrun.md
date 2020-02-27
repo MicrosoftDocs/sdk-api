@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 5b40a999-0046-458e-b7bc-95037d73833c
 ms.date: 12/05/2018
 ms.keywords: DrawGlyphRun, DrawGlyphRun method [Direct2D], DrawGlyphRun method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],DrawGlyphRun method, ID2D1CommandSink.DrawGlyphRun, ID2D1CommandSink::DrawGlyphRun, d2d1_1/ID2D1CommandSink::DrawGlyphRun, direct2d.id2d1commandsink_drawglyphrun
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1CommandSink.DrawGlyphRun
 dev_langs:

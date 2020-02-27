@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 81c3fffb-bbc9-4adb-bb6b-edd59f7a77b4
 ms.date: 12/05/2018
 ms.keywords: MONITOR_DEFAULTTONEAREST, MONITOR_DEFAULTTONULL, MONITOR_DEFAULTTOPRIMARY, MonitorFromRect, MonitorFromRect function [Windows GDI], _win32_MonitorFromRect, gdi.monitorfromrect, winuser/MonitorFromRect
-ms.topic: function
 f1_keywords:
 - winuser/MonitorFromRect
 dev_langs:

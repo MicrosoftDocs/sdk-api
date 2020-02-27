@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcatn.htm
 ms.date: 12/05/2018
 ms.keywords: StringCchCatN, StringCchCatN function [Menus and Other Resources], StringCchCatNA, StringCchCatNW, _shell_StringCchCatN, _shell_stringcchcatn_cpp, menurc.stringcchcatn, strsafe/StringCchCatN, strsafe/StringCchCatNA, strsafe/StringCchCatNW, winui._shell_stringcchcatn
-ms.topic: function
 f1_keywords:
 - strsafe/StringCchCatN
 dev_langs:
@@ -56,7 +55,7 @@ Concatenates the specified number of characters from one  string to another stri
 
 <b>StringCchCatN</b> is a replacement for the following functions:
 <ul>
-<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192505">strncat</a></li>
+<li><a href="https://msdn.microsoft.com/library/tbyd7s1y.aspx">strncat</a></li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strncata">StrNCat</a>
 </li>

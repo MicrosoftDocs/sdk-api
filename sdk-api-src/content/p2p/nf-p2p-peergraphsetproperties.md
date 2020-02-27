@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: a9cdf715-bbef-4b5b-96b9-b7c1e35c76ec
 ms.date: 12/05/2018
 ms.keywords: PeerGraphSetProperties, PeerGraphSetProperties function [Peer Networking], p2p.peergraphsetproperties, p2p/PeerGraphSetProperties
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphSetProperties
 dev_langs:

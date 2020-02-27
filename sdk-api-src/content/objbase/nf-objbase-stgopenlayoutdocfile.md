@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 6ecfb6bd-e623-42b6-9b95-f0563921ac15
 ms.date: 12/05/2018
 ms.keywords: StgOpenLayoutDocfile, StgOpenLayoutDocfile function [Structured Storage], _stg_stgopenlayoutdocfile, objbase/StgOpenLayoutDocfile, stg.stgopenlayoutdocfile
-ms.topic: function
 f1_keywords:
 - objbase/StgOpenLayoutDocfile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 1E008D8E-B28A-4E79-9653-587DF0CB5DD7
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip.SetBottomLeftRadiusX, IDCompositionRectangleClip::SetBottomLeftRadiusX, SetBottomLeftRadiusX, SetBottomLeftRadiusX methods [DirectComposition], dcomp/SetBottomLeftRadiusX, directcomp.idcompositionrectangleclip_setbottomleftradiusx
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionRectangleClip::SetBottomLeftRadiusX
 dev_langs:

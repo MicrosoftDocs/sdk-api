@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 121d287f-067b-4640-ac81-43904463ded4
 ms.date: 12/05/2018
 ms.keywords: APPTYPE_LIBRARY, APPTYPE_SERVER, APPTYPE_SWC, APPTYPE_UNKNOWN, COMPLUS_APPTYPE, COMPLUS_APPTYPE enumeration [COM+], comsvcs/APPTYPE_LIBRARY, comsvcs/APPTYPE_SERVER, comsvcs/APPTYPE_SWC, comsvcs/APPTYPE_UNKNOWN, comsvcs/COMPLUS_APPTYPE, cos.complus_apptype
-ms.topic: enum
 f1_keywords:
 - comsvcs/COMPLUS_APPTYPE
 dev_langs:

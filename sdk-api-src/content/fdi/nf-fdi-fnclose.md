@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 89db9c2a-42ab-410d-a427-60d282385c2b
 ms.date: 12/05/2018
 ms.keywords: FNCLOSE, FNCLOSE macro [Windows API], fdi/FNCLOSE, winprog.fnclose
-ms.topic: macro
 f1_keywords:
 - fdi/FNCLOSE
 dev_langs:
@@ -67,7 +66,7 @@ An application-defined value used to identify the open file.
 
 
 
-The function accepts parameters similar to <a href="http://go.microsoft.com/fwlink/p/?linkid=196541">_close</a>.
+The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/5fzwd5ss(VS.80).aspx">_close</a>.
 
 
 #### Examples

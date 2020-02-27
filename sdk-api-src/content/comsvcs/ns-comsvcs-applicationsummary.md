@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 3291eede-5318-4d97-a969-ce54381f30af
 ms.date: 12/05/2018
 ms.keywords: ApplicationSummary, ApplicationSummary structure [COM+], comsvcs/ApplicationSummary, cos.applicationsummary
-ms.topic: struct
 f1_keywords:
 - comsvcs/ApplicationSummary
 dev_langs:

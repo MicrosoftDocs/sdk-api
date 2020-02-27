@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: D7E16323-DB8E-449B-9942-649586309801
 ms.date: 12/05/2018
 ms.keywords: CD3D11_RENDER_TARGET_VIEW_DESC interface [Direct3D 11],operator const D3D11_RENDER_TARGET_VIEW_DESC& method, CD3D11_RENDER_TARGET_VIEW_DESC.operator const D3D11_RENDER_TARGET_VIEW_DESC&, CD3D11_RENDER_TARGET_VIEW_DESC::operator const D3D11_RENDER_TARGET_VIEW_DESC&, CD3D11_RENDER_TARGET_VIEW_DESC::operator const D3D11_RENDER_TARGET_VIEW_DESC&(), d3d11/CD3D11_RENDER_TARGET_VIEW_DESC::operator const D3D11_RENDER_TARGET_VIEW_DESC&, direct3d11.cd3d11_render_target_view_desc_d3d11_render_target_view_desc__, operator const D3D11_RENDER_TARGET_VIEW_DESC&, operator const D3D11_RENDER_TARGET_VIEW_DESC& method [Direct3D 11], operator const D3D11_RENDER_TARGET_VIEW_DESC& method [Direct3D 11],CD3D11_RENDER_TARGET_VIEW_DESC interface
-ms.topic: method
 f1_keywords:
 - d3d11/CD3D11_RENDER_TARGET_VIEW_DESC.operator const D3D11_RENDER_TARGET_VIEW_DESC&
 dev_langs:

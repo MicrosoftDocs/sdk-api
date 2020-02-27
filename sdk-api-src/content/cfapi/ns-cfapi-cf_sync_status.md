@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: F80CBBAE-605B-4C1E-BDA5-A4B155F9D079
 ms.date: 12/05/2018
 ms.keywords: CF_SYNC_STATUS, CF_SYNC_STATUS structure, PCF_SYNC_STATUS, PCF_SYNC_STATUS structure pointer, cfapi/CF_SYNC_STATUS, cfapi/PCF_SYNC_STATUS, cloudApi.cf_sync_status
-ms.topic: struct
 f1_keywords:
 - cfapi/CF_SYNC_STATUS
 dev_langs:

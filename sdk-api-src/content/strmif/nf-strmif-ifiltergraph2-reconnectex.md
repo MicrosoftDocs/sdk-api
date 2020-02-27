@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a72cf427-056b-4751-9c4a-665251e549f8
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph2 interface [DirectShow],ReconnectEx method, IFilterGraph2.ReconnectEx, IFilterGraph2::ReconnectEx, IFilterGraph2ReconnectEx, ReconnectEx, ReconnectEx method [DirectShow], ReconnectEx method [DirectShow],IFilterGraph2 interface, dshow.ifiltergraph2_reconnectex, strmif/IFilterGraph2::ReconnectEx
-ms.topic: method
 f1_keywords:
 - strmif/IFilterGraph2.ReconnectEx
 dev_langs:

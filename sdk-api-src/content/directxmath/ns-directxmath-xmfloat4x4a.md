@@ -5,7 +5,6 @@ description: Describes an XMFLOAT4X4 structure aligned on a 16-byte boundary.
 ms.assetid: 30563f47-6990-4d94-a587-5c64a389762f
 ms.date: 05/20/2019
 ms.keywords: XMFLOAT4X4A
-ms.topic: language-reference
 f1_keywords:
 - directxmath/XMFLOAT4X4A
 dev_langs:

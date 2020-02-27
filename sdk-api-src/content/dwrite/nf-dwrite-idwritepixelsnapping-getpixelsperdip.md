@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 41b07197-e50c-4145-a931-e35e778541cc
 ms.date: 12/05/2018
 ms.keywords: GetPixelsPerDip, GetPixelsPerDip method [Direct Write], GetPixelsPerDip method [Direct Write],IDWritePixelSnapping interface, IDWritePixelSnapping interface [Direct Write],GetPixelsPerDip method, IDWritePixelSnapping.GetPixelsPerDip, IDWritePixelSnapping::GetPixelsPerDip, directwrite.IDWritePixelSnapping_GetPixelsPerDip, dwrite/IDWritePixelSnapping::GetPixelsPerDip
-ms.topic: method
 f1_keywords:
 - dwrite/IDWritePixelSnapping.GetPixelsPerDip
 dev_langs:

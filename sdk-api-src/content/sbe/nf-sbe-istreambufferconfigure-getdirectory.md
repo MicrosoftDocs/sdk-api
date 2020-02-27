@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: bb5d955d-11da-4ff3-990f-02c0c80d6405
 ms.date: 12/05/2018
 ms.keywords: GetDirectory, GetDirectory method [Microsoft TV Technologies], GetDirectory method [Microsoft TV Technologies],IStreamBufferConfigure interface, IStreamBufferConfigure interface [Microsoft TV Technologies],GetDirectory method, IStreamBufferConfigure.GetDirectory, IStreamBufferConfigure::GetDirectory, IStreamBufferConfigureGetDirectory, mstv.istreambufferconfigure_getdirectory, sbe/IStreamBufferConfigure::GetDirectory
-ms.topic: method
 f1_keywords:
 - sbe/IStreamBufferConfigure.GetDirectory
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getmeasurablecharacterrangecount.htm
 ms.date: 12/05/2018
 ms.keywords: GetMeasurableCharacterRangeCount, GetMeasurableCharacterRangeCount method [GDI+], GetMeasurableCharacterRangeCount method [GDI+],StringFormat class, StringFormat class [GDI+],GetMeasurableCharacterRangeCount method, StringFormat.GetMeasurableCharacterRangeCount, StringFormat::GetMeasurableCharacterRangeCount, _gdiplus_CLASS_StringFormat_GetMeasurableCharacterRangeCount_, gdiplus._gdiplus_CLASS_StringFormat_GetMeasurableCharacterRangeCount_
-ms.topic: method
 f1_keywords:
 - gdiplusstringformat/StringFormat.GetMeasurableCharacterRangeCount
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: e8d2baf5-e36e-4363-bde6-1731c97e702f
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMDashCollection interface, IXpsOMDashCollection interface [XPS Documents and Packaging],Append method, IXpsOMDashCollection.Append, IXpsOMDashCollection::Append, xps.ixpsomdashcollection_append, xpsobjectmodel/IXpsOMDashCollection::Append
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDashCollection.Append
 dev_langs:
@@ -91,7 +90,7 @@ The figure that follows illustrates how the collection is changed by the <b>Appe
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 74d72ca6-f899-43fc-bdea-5208d920f314
 ms.date: 12/05/2018
 ms.keywords: IMediaBuffer, IMediaBuffer interface [DirectShow], IMediaBuffer interface [DirectShow],described, IMediaBufferInterface, dshow.imediabuffer, mediaobj/IMediaBuffer
-ms.topic: interface
 f1_keywords:
 - mediaobj/IMediaBuffer
 dev_langs:

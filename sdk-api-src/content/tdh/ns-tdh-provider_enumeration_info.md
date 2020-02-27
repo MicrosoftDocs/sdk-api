@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: bb4548fb-70e5-4726-bc92-adb7ba7be0e4
 ms.date: 12/05/2018
 ms.keywords: '*PPROVIDER_ENUMERATION_INFO, PROVIDER_ENUMERATION_INFO, PROVIDER_ENUMERATION_INFO structure [ETW], etw.provider_enumeration_info_struct, tdh.provider_enumeration_info_struct, tdh/PROVIDER_ENUMERATION_INFO'
-ms.topic: struct
 f1_keywords:
 - tdh/PROVIDER_ENUMERATION_INFO
 dev_langs:

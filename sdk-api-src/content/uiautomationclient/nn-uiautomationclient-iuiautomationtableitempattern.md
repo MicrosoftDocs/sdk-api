@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 8e9948ec-7c31-45dd-ac9f-e9eafed9d2db
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTableItemPattern, IUIAutomationTableItemPattern interface [Windows Accessibility], IUIAutomationTableItemPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTableItemPattern, uiauto_IUIAutomationTableItemPattern, uiautomationclient/IUIAutomationTableItemPattern, winauto.uiauto_IUIAutomationTableItemPattern
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationTableItemPattern
 dev_langs:

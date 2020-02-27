@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 7a60bf60-e69b-4a8a-94e9-5d304aa25dd5
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetGeometryLookup method, IXpsOMPath.SetGeometryLookup, IXpsOMPath::SetGeometryLookup, SetGeometryLookup, SetGeometryLookup method [XPS Documents and Packaging], SetGeometryLookup method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setgeometrylookup, xpsobjectmodel/IXpsOMPath::SetGeometryLookup
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.SetGeometryLookup
 dev_langs:
@@ -94,7 +93,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-According to the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
+According to the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
 
 </td>
 </tr>
@@ -213,7 +212,7 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: f8ca8b10-c8bd-4285-8a40-dbec4c24729c
 ms.date: 12/05/2018
 ms.keywords: CreateDirectory, CreateDirectory function [Files], CreateDirectoryA, CreateDirectoryW, _win32_createdirectory, base.createdirectory, fileapi/CreateDirectory, fileapi/CreateDirectoryA, fileapi/CreateDirectoryW, fs.createdirectory, winbase/CreateDirectory, winbase/CreateDirectoryA, winbase/CreateDirectoryW
-ms.topic: function
 f1_keywords:
 - fileapi/CreateDirectory
 dev_langs:
@@ -80,7 +79,7 @@ To perform this
 The path of the directory to be created.
 
 For the ANSI version of this function, there is a default string size limit for paths of 248 characters (<b>MAX_PATH</b> - enough room for a 8.3 filename). To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
+       "\\\\?\\" to the path. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>
 
 

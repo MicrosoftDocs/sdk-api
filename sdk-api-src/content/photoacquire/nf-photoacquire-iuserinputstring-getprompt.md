@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: f2fdb18d-5af8-45c8-8f92-7fc8c836082d
 ms.date: 12/05/2018
 ms.keywords: GetPrompt, GetPrompt method [Picture Acquisition], GetPrompt method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetPrompt method, IUserInputString.GetPrompt, IUserInputString::GetPrompt, IUserInputStringGetPrompt, photoacquire/IUserInputString::GetPrompt, picacq.iuserinputstring_getprompt
-ms.topic: method
 f1_keywords:
 - photoacquire/IUserInputString.GetPrompt
 dev_langs:

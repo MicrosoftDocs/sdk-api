@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2masteringvoice.IXAudio2MasteringVoice.GetChannelMask(DWORD@)
 ms.date: 12/05/2018
 ms.keywords: GetChannelMask, GetChannelMask method [XAudio2 Audio Mixing APIs], GetChannelMask method [XAudio2 Audio Mixing APIs],IXAudio2MasteringVoice interface, IXAudio2MasteringVoice interface [XAudio2 Audio Mixing APIs],GetChannelMask method, IXAudio2MasteringVoice.GetChannelMask, IXAudio2MasteringVoice::GetChannelMask, xaudio2.ixaudio2masteringvoice_interface_getchannelmask, xaudio2/IXAudio2MasteringVoice::GetChannelMask
-ms.topic: method
 f1_keywords:
 - xaudio2/IXAudio2MasteringVoice.GetChannelMask
 dev_langs:

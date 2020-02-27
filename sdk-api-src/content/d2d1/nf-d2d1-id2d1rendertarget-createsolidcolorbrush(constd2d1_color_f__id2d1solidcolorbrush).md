@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 67974629-5c34-4c94-acad-586849cdb880
 ms.date: 12/05/2018
 ms.keywords: CreateSolidColorBrush, CreateSolidColorBrush method [Direct2D], CreateSolidColorBrush method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateSolidColorBrush method, ID2D1RenderTarget.CreateSolidColorBrush, ID2D1RenderTarget.CreateSolidColorBrush(const D2D1_COLOR_F &,ID2D1SolidColorBrush), ID2D1RenderTarget::CreateSolidColorBrush, ID2D1RenderTarget::CreateSolidColorBrush(const D2D1_COLOR_F &,ID2D1SolidColorBrush), d2d1/ID2D1RenderTarget::CreateSolidColorBrush, direct2d.ID2D1RenderTarget_CreateSolidColorBrush_ref_COLOR_F_ptr_ptr_ID2D1SolidColorBrush
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1RenderTarget.CreateSolidColorBrush
 dev_langs:

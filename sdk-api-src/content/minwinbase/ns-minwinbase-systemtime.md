@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: f77cdf86-0f97-4a89-b565-95b46fa7d65b
 ms.date: 12/05/2018
 ms.keywords: '*LPSYSTEMTIME, *PSYSTEMTIME, PSYSTEMTIME, PSYSTEMTIME structure pointer, SYSTEMTIME, SYSTEMTIME structure, _SYSTEMTIME, _win32_systemtime_str, base.systemtime_str, minwinbase/PSYSTEMTIME, minwinbase/SYSTEMTIME'
-ms.topic: struct
 f1_keywords:
 - minwinbase/SYSTEMTIME
 dev_langs:
@@ -325,7 +324,8 @@ The millisecond. The valid values for this member are 0 through 999.
 
 ## -remarks
 
-
+> [!NOTE]
+> The <b>SYSTEMTIME</b> does not check to see if the date represented is a real and valid date. When working with this API, you should ensure its validity, especially in leap reat scenarios. See [leap day readiness](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/it-s-2020-is-your-code-ready-for-leap-day/ba-p/1157279) for more information.
 
 It is not recommended that you add and subtract values from the 
 <b>SYSTEMTIME</b> structure to obtain relative times. Instead, you should

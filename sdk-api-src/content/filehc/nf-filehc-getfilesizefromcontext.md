@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: c44aab72-d5c8-43e0-b2ec-032904806227
 ms.date: 12/05/2018
 ms.keywords: GetFileSizeFromContext, GetFileSizeFromContext function [Windows API], filehc/GetFileSizeFromContext, winprog._getfilesizefromcontext
-ms.topic: function
 f1_keywords:
 - filehc/GetFileSizeFromContext
 dev_langs:
@@ -60,7 +59,7 @@ Reports the file size cached with the handle.
 
 ### -param pContext [in]
 
-A pointer to the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure that is associated with the file.
+A pointer to the <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure that is associated with the file.
 
 
 ### -param pcbFileSizeHigh [out]
@@ -82,7 +81,7 @@ Returns the size of the file in bytes.
 
 
 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a>
  
 
  

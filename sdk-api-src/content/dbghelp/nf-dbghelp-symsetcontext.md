@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 0a9c6bfe-5e60-48c4-af98-b910df3032d5
 ms.date: 12/05/2018
 ms.keywords: SymSetContext, SymSetContext function, _win32_symsetcontext, base.symsetcontext, dbghelp/SymSetContext
-ms.topic: function
 f1_keywords:
 - dbghelp/SymSetContext
 dev_langs:

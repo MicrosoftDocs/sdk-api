@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 92309c56-87fe-43cc-b76e-43f9686177be
 ms.date: 12/05/2018
 ms.keywords: DVD_FPS_25, DVD_FPS_30NonDrop, DVD_FRAMERATE, DVD_FRAMERATE , DVD_FRAMERATE enumeration [DirectShow], DVD_FRAMERATEEnumeration, dshow.dvd_framerate, strmif/DVD_FPS_25, strmif/DVD_FPS_30NonDrop, strmif/DVD_FRAMERATE
-ms.topic: enum
 f1_keywords:
 - strmif/DVD_FRAMERATE
 dev_langs:
@@ -85,7 +84,7 @@ You must know the frame rate to interpret the frame count as time.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_timecode">DVD_TIMECODE</a>
+[DVD_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_timecode)
 
 
 

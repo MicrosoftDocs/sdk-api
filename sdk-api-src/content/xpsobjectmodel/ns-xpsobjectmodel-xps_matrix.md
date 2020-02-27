@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 0df75410-0e34-4962-8499-879d5153d9af
 ms.date: 12/05/2018
 ms.keywords: XPS_MATRIX, XPS_MATRIX structure [XPS Documents and Packaging], xps.xps_matrix, xpsobjectmodel/XPS_MATRIX
-ms.topic: struct
 f1_keywords:
 - xpsobjectmodel/XPS_MATRIX
 dev_langs:
@@ -123,7 +122,7 @@ The following table shows the entire matrix.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

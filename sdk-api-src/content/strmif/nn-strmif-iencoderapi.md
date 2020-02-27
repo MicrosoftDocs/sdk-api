@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 823b79a1-1bf5-4aab-80dd-0e77ba950127
 ms.date: 12/05/2018
 ms.keywords: IEncoderAPI, IEncoderAPI interface [Microsoft TV Technologies], IEncoderAPI interface [Microsoft TV Technologies],described, IEncoderAPIInterface, mstv.iencoderapi, strmif/IEncoderAPI
-ms.topic: interface
 f1_keywords:
 - strmif/IEncoderAPI
 dev_langs:
@@ -210,7 +209,7 @@ This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. 
 
 
 
-<a href="mstv.encoder_api">Encoder API</a>
+<a href="mstv.encoder_api.md">Encoder API</a>
  
 
  

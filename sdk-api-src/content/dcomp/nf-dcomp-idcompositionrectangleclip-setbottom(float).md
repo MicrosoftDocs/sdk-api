@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: BE07DF2B-6588-4ACD-8FB6-E467C9943710
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetBottom method, IDCompositionRectangleClip.SetBottom, IDCompositionRectangleClip::SetBottom, IDCompositionRectangleClip::SetBottom(float), SetBottom, SetBottom method [DirectComposition], SetBottom method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetBottom, directcomp.idcompositionrectangleclip_setbottom_float
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionRectangleClip.SetBottom
 dev_langs:

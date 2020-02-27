@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 71b2597b-d82a-439d-b0b7-af76aefea6a2
 ms.date: 12/05/2018
 ms.keywords: IWbemPath, IWbemPath interface [Windows Management Instrumentation], IWbemPath interface [Windows Management Instrumentation],described, WbemDefPath, _hmm_iwbempath, wmi.iwbempath, wmiutils/IWbemPath
-ms.topic: interface
 f1_keywords:
 - wmiutils/IWbemPath
 dev_langs:

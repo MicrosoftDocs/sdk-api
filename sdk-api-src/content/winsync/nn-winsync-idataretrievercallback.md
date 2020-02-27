@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: fc49614d-fdd7-433a-a942-f442edf1c69f
 ms.date: 12/05/2018
 ms.keywords: IDataRetrieverCallback, IDataRetrieverCallback interface [Windows Sync], IDataRetrieverCallback interface [Windows Sync],described, winsync.idataretrievercallback, winsync/IDataRetrieverCallback
-ms.topic: interface
 f1_keywords:
 - winsync/IDataRetrieverCallback
 dev_langs:

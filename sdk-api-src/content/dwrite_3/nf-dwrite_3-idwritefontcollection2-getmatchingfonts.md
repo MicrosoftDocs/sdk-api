@@ -5,7 +5,6 @@ description: Retrieves a list of fonts in the specified font family, ranked in o
 tech.root: DirectWrite
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontCollection2 interface [Direct Write],GetMatchingFonts method, IDWriteFontCollection2.GetMatchingFonts, IDWriteFontCollection2::GetMatchingFonts, GetMatchingFonts, GetMatchingFonts method [Direct Write], GetMatchingFonts method [Direct Write],IDWriteFontCollection2 interface, directwrite.idwritefontcollection2_getmatchingfont, dwrite_3/IDWriteFontCollection2::GetMatchingFonts
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontCollection2.GetMatchingFonts
 dev_langs:

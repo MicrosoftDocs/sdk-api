@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: ca8ae169-f849-4df2-8537-095d65ad6a08
 ms.date: 12/05/2018
 ms.keywords: RegisterTypeLibForUser, RegisterTypeLibForUser function [Automation], _oa96_RegisterTypeLibForUser, automat.registertypelibforuser, oleauto/RegisterTypeLibForUser
-ms.topic: function
 f1_keywords:
 - oleauto/RegisterTypeLibForUser
 dev_langs:

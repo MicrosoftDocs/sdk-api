@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1git.htm
 ms.date: 12/05/2018
 ms.keywords: AreaCode property [Fax Service], AreaCode property [Fax Service],IFaxOutboundRoutingRule interface, IFaxOutboundRoutingRule interface [Fax Service],AreaCode property, IFaxOutboundRoutingRule.AreaCode, IFaxOutboundRoutingRule.get_AreaCode, IFaxOutboundRoutingRule::AreaCode, IFaxOutboundRoutingRule::get_AreaCode, _mfax_faxoutboundroutingrule.areacode, fax._mfax_faxoutboundroutingrule_areacode, fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_areacode_cpp, faxcomex/IFaxOutboundRoutingRule::AreaCode, faxcomex/IFaxOutboundRoutingRule::get_AreaCode, get_AreaCode
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutboundRoutingRule.AreaCode
 dev_langs:

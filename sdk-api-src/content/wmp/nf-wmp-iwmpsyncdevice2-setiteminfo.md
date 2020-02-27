@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 664e3e12-125b-4e11-bab5-44f51650983e
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice2 interface [Windows Media Player],setItemInfo method, IWMPSyncDevice2.setItemInfo, IWMPSyncDevice2::setItemInfo, IWMPSyncDevice2setItemInfo, setItemInfo, setItemInfo method [Windows Media Player], setItemInfo method [Windows Media Player],IWMPSyncDevice2 interface, wmp.iwmpsyncdevice2_setiteminfo, wmp/IWMPSyncDevice2::setItemInfo
-ms.topic: method
 f1_keywords:
 - wmp/IWMPSyncDevice2.setItemInfo
 dev_langs:

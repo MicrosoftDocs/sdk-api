@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: d3fb74bb-7ce9-4669-8f00-02ac8a95ddd5
 ms.date: 12/05/2018
 ms.keywords: WriteProfileString, WriteProfileString function, WriteProfileStringA, WriteProfileStringW, _win32_writeprofilestring, base.writeprofilestring, winbase/WriteProfileString, winbase/WriteProfileStringA, winbase/WriteProfileStringW
-ms.topic: function
 f1_keywords:
 - winbase/WriteProfileString
 dev_langs:

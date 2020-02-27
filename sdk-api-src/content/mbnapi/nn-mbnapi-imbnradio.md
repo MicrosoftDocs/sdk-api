@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: b4b5ccfc-6cbf-4090-aee1-ee97092147f7
 ms.date: 12/05/2018
 ms.keywords: IMbnRadio, IMbnRadio interface [Microsoft Broadband Networks], IMbnRadio interface [Microsoft Broadband Networks],described, mbn.imbnradio, mbnapi/IMbnRadio
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnRadio
 dev_langs:
@@ -127,7 +126,7 @@ The software radio state.
 
 
 
-An application can acquire this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>.
+An application can acquire this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>.
 
 
 

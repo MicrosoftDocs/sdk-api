@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7ce6cd61-16d1-414e-b9b3-4929a65c0cc6
 ms.date: 12/05/2018
 ms.keywords: ICredentialProvider, ICredentialProvider interface [Windows Shell], ICredentialProvider interface [Windows Shell],described, credentialprovider/ICredentialProvider, shell.ICredentialProvider, shell_ICredentialProvider
-ms.topic: interface
 f1_keywords:
 - credentialprovider/ICredentialProvider
 dev_langs:
@@ -153,7 +152,7 @@ An instantiated credential provider is maintained for the entire lifetime of a L
 
 Be aware that  a <a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> generated in one scenario might be saved and used in a subsequent usage scenario. Because of this, it is necessary to make sure your <b>ICredentialProvider</b> implementation is robust enough to handle this scenario.
 
-Windows 8 adds new functionality in the credential providers API, primarily the ability to group credentials by user. For more information, download the Microsoft Word document <a href="http://go.microsoft.com/fwlink/p/?linkid=253508">Credential Provider Framework Changes in Windows 8</a> from the Microsoft Download Center.
+Windows 8 adds new functionality in the credential providers API, primarily the ability to group credentials by user. For more information, download the Microsoft Word document <a href="https://go.microsoft.com/fwlink/p/?linkid=253508">Credential Provider Framework Changes in Windows 8</a> from the Microsoft Download Center.
 
 
 
@@ -167,7 +166,7 @@ Windows 8 adds new functionality in the credential providers API, primarily the
 
 
 
-<a href="http://go.microsoft.com/fwlink/?LinkId=717287">Credential Provider driven Windows Logon Experience</a>
+<a href="https://go.microsoft.com/fwlink/?LinkId=717287">Credential Provider driven Windows Logon Experience</a>
 
 
 

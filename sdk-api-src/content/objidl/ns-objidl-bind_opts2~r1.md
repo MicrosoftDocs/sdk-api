@@ -3,7 +3,6 @@ UID: NS:objidl.tagBIND_OPTS2~r1
 title: BIND_OPTS2
 ms.date: 01/30/19
 ms.keywords: tagBIND_OPTS2, BIND_OPTS2
-ms.topic: language-reference
 f1_keywords:
 - objidl/tagBIND_OPTS2
 dev_langs:

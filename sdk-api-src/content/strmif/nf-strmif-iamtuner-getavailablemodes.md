@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 74025309-2aab-4e0f-95bc-8e6a1e2a5bb4
 ms.date: 12/05/2018
 ms.keywords: GetAvailableModes, GetAvailableModes method [DirectShow], GetAvailableModes method [DirectShow],IAMTuner interface, IAMTuner interface [DirectShow],GetAvailableModes method, IAMTuner.GetAvailableModes, IAMTuner::GetAvailableModes, IAMTunerGetAvailableModes, dshow.iamtuner_getavailablemodes, strmif/IAMTuner::GetAvailableModes
-ms.topic: method
 f1_keywords:
 - strmif/IAMTuner.GetAvailableModes
 dev_langs:
@@ -64,7 +63,7 @@ The <code>GetAvailableModes</code> method retrieves the tuner's supported modes.
 
 ### -param plModes [out]
 
-Pointer to a variable that receives any combination of the values as specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-amtunermodetype">AMTunerModeType</a> enumeration.
+Pointer to a variable that receives any combination of the values as specified in the [AMTunerModeType](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-amtunermodetype) enumeration.
 
 
 ## -returns

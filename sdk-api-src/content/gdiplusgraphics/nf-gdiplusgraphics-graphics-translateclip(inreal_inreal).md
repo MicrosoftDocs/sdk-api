@@ -5,7 +5,6 @@ description: The Graphics::TranslateClip method translates the clipping region o
 ms.assetid: 323bc752-60d5-44f5-88dd-6bf0c4c0c926
 ms.date: 05/13/2019
 ms.keywords: Graphics::TranslateClip
-ms.topic: language-reference
 f1_keywords:
 - gdiplusgraphics/Graphics::TranslateClip
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 43d4d0c5-509a-46c4-bdf6-24c3307fb811
 ms.date: 12/05/2018
 ms.keywords: WSD_DURATION, WSD_DURATION structure, _WSD_DURATION, ncd.wsd_duration_struct, wsdxml/WSD_DURATION
-ms.topic: struct
 f1_keywords:
 - wsdxml/WSD_DURATION
 dev_langs:

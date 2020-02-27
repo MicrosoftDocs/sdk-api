@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 7c726842-a274-41d1-b622-681bf9f6ae8b
 ms.date: 12/05/2018
 ms.keywords: DeleteInstanceAsync, DeleteInstanceAsync method [Windows Management Instrumentation], DeleteInstanceAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],DeleteInstanceAsync method, IWbemServices.DeleteInstanceAsync, IWbemServices::DeleteInstanceAsync, _hmm_iwbemservices_deleteinstanceasync, wbemcli/IWbemServices::DeleteInstanceAsync, wmi.iwbemservices_deleteinstanceasync
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemServices.DeleteInstanceAsync
 dev_langs:
@@ -108,7 +107,7 @@ Pointer to the caller's implementation of
 
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained withinan <b>HRESULT</b>.
 
-On failure, you can obtain any available information from the COM function <a href="http://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a>.
+On failure, you can obtain any available information from the COM function <a href="https://msdn.microsoft.com/library/ms221032.aspx">GetErrorInfo</a>.
 
 If 
 <b>DeleteInstanceAsync</b> returns <b>WBEM_S_NO_ERROR</b>, WMI waits for a result from the 

@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 9e1bbcca-1b7c-4146-95c7-72660bf31507
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_RESPONSE, *PHTTP_RESPONSE_V1, HTTP_RESPONSE, HTTP_RESPONSE_V1, HTTP_RESPONSE_V1 structure [HTTP], PHTTP_RESPONSE_V1, PHTTP_RESPONSE_V1 structure pointer [HTTP], http.http_response_v1, http/HTTP_RESPONSE_V1, http/PHTTP_RESPONSE_V1'
-ms.topic: struct
 f1_keywords:
 - http/HTTP_RESPONSE_V1
 dev_langs:
@@ -74,7 +73,7 @@ This member is ignored; the response is always an HTTP/1.1 response.
 ### -field StatusCode
 
 Numeric status code that characterizes the result of the HTTP request (for example, 200 signifying "OK" or 404 signifying "Not Found"). For more information and a list of these codes, see Section 10 of 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a>.
+<a href="https://www.ietf.org/rfc/rfc2616.txt">RFC 2616</a>.
 
 If a request is directed to a URL that is reserved but not registered, indicating that the appropriate application to handle it is not running, then the HTTP Server API itself returns a response with status code 400, signifying "Bad Request". This is transparent to the application. A code 400 is preferred here to 503 ("Server not available") because the latter is interpreted by some smart load balancers as an indication that the server is overloaded.
 

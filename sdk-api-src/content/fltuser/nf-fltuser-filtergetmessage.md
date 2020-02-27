@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 2738e237-835c-471f-9129-26c4da5fe839
 ms.date: 12/05/2018
 ms.keywords: FilterGetMessage, FilterGetMessage function [Installable File System Drivers], FltWin32ApiRef_2a4730dd-cee5-4a3e-b904-c19683fc314a.xml, fltuser/FilterGetMessage, ifsk.filtergetmessage
-ms.topic: function
 f1_keywords:
 - fltuser/FilterGetMessage
 dev_langs:
@@ -109,7 +108,7 @@ A minifilter or instance sends a message to a user-mode application by calling <
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=139082">CreateEvent</a>
+<a href="https://msdn.microsoft.com/library/ms682396.aspx">CreateEvent</a>
 
 
 
@@ -133,11 +132,11 @@ A minifilter or instance sends a message to a user-mode application by calling <
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=139083">GetOverlappedResult</a>
+<a href="https://msdn.microsoft.com/library/ms683209(VS.85).aspx">GetOverlappedResult</a>
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=139084">HasOverlappedIoCompleted</a>
+<a href="https://msdn.microsoft.com/library/ms683244.aspx">HasOverlappedIoCompleted</a>
  
 
  

@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 2ab25a00-c89c-4a2c-8e12-8ce81cc21bca
 ms.date: 12/05/2018
 ms.keywords: IWICBitmap interface [Windows Imaging Component],Lock method, IWICBitmap.Lock, IWICBitmap::Lock, Lock, Lock method [Windows Imaging Component], Lock method [Windows Imaging Component],IWICBitmap interface, WICBitmapLockRead, WICBitmapLockWrite, _wic_codec_iwicbitmap_lock, wic._wic_codec_iwicbitmap_lock, wincodec/IWICBitmap::Lock
-ms.topic: method
 f1_keywords:
 - wincodec/IWICBitmap.Lock
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: 793999b6-abb1-4912-9e9c-764f6f68ea29
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],PivotRadius property, IManipulationProcessor.PivotRadius, IManipulationProcessor.put_PivotRadius, IManipulationProcessor::PivotRadius, IManipulationProcessor::get_PivotRadius, IManipulationProcessor::put_PivotRadius, PivotRadius property [Windows Touch], PivotRadius property [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::PivotRadius, manipulations/IManipulationProcessor::get_PivotRadius, manipulations/IManipulationProcessor::put_PivotRadius, put_PivotRadius, wintouch.imanipulationprocessor_pivotradius
-ms.topic: method
 f1_keywords:
 - manipulations/IManipulationProcessor.PivotRadius
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: bf6ea7d0-eb0a-429f-8029-d283808fb85e
 ms.date: 12/05/2018
 ms.keywords: _win32_midiDisconnect, midiDisconnect, midiDisconnect function [Windows Multimedia], mmeapi/midiDisconnect, multimedia.mididisconnect
-ms.topic: function
 f1_keywords:
 - mmeapi/midiDisconnect
 dev_langs:

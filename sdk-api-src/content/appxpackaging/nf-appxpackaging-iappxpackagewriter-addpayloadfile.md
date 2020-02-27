@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 2BFC725A-CD56-46CA-983A-FD1BFB6CB474
 ms.date: 12/05/2018
 ms.keywords: AddPayloadFile, AddPayloadFile method [App packaging and management], AddPayloadFile method [App packaging and management],IAppxPackageWriter interface, IAppxPackageWriter interface [App packaging and management],AddPayloadFile method, IAppxPackageWriter.AddPayloadFile, IAppxPackageWriter::AddPayloadFile, appxpackaging/IAppxPackageWriter::AddPayloadFile, appxpkg.iappxpackagewriter_addpayloadfile
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxPackageWriter.AddPayloadFile
 dev_langs:
@@ -69,7 +68,7 @@ The name of the payload file. The file name path must be relative to the root of
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
-The string specifying the <a href="http://go.microsoft.com/fwlink/p/?linkid=143979">content type</a> of  <i>fileName</i>.
+The string specifying the <a href="https://www.w3.org/Protocols/rfc2616/rfc2616.html">content type</a> of  <i>fileName</i>.
           
 
 

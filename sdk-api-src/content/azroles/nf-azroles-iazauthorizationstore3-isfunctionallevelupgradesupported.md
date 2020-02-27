@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 344fbbb7-72e7-46ec-a924-79fece3e1eb0
 ms.date: 12/05/2018
 ms.keywords: IAzAuthorizationStore3 interface [Security],IsFunctionalLevelUpgradeSupported method, IAzAuthorizationStore3.IsFunctionalLevelUpgradeSupported, IAzAuthorizationStore3::IsFunctionalLevelUpgradeSupported, IsFunctionalLevelUpgradeSupported, IsFunctionalLevelUpgradeSupported method [Security], IsFunctionalLevelUpgradeSupported method [Security],IAzAuthorizationStore3 interface, azroles/IAzAuthorizationStore3::IsFunctionalLevelUpgradeSupported, security.iazauthorizationstore3_isfunctionallevelupgradesupported
-ms.topic: method
 f1_keywords:
 - azroles/IAzAuthorizationStore3.IsFunctionalLevelUpgradeSupported
 dev_langs:

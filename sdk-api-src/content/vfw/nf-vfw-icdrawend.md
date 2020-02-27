@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: efcb1913-edaf-454c-a317-c14349805a81
 ms.date: 12/05/2018
 ms.keywords: ICDrawEnd, ICDrawEnd macro [Windows Multimedia], _win32_ICDrawEnd, multimedia.icdrawend, vfw/ICDrawEnd
-ms.topic: macro
 f1_keywords:
 - vfw/ICDrawEnd
 dev_langs:

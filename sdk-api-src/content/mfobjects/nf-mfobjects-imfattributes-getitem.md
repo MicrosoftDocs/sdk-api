@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 8cc4e529-d5a0-4342-82ac-ae5b28bfd61d
 ms.date: 12/05/2018
 ms.keywords: 8cc4e529-d5a0-4342-82ac-ae5b28bfd61d, GetItem, GetItem method [Media Foundation], GetItem method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetItem method, IMFAttributes.GetItem, IMFAttributes::GetItem, mf.imfattributes_getitem, mfobjects/IMFAttributes::GetItem
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFAttributes.GetItem
 dev_langs:

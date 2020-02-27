@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: e78a9ecb-b2e7-4295-a178-4a9936b0f27e
 ms.date: 12/05/2018
 ms.keywords: XPS_RECT, XPS_RECT structure [XPS Documents and Packaging], xps.xps_rect, xpsobjectmodel/XPS_RECT
-ms.topic: struct
 f1_keywords:
 - xpsobjectmodel/XPS_RECT
 dev_langs:
@@ -92,7 +91,7 @@ The measurement units depend on the context and are not specified in the structu
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

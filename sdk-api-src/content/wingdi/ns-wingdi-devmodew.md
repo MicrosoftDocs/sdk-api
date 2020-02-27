@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: b2369876-9a79-40c8-8d27-c8b9d8e68e6b
 ms.date: 12/05/2018
 ms.keywords: '*LPDEVMODEW, *NPDEVMODEW, *PDEVMODEW, DEVMODE, DEVMODEW, DEVMODEW structure [Display Devices], LPDEVMODEW, LPDEVMODEW structure pointer [Display Devices], NPDEVMODEW, NPDEVMODEW structure pointer [Display Devices], PDEVMODEW, PDEVMODEW structure pointer [Display Devices], display.devmodew, grstrcts_79d0f44a-67f8-432b-ad2c-a1a3ef18da95.xml, wingdi/DEVMODEW, wingdi/LPDEVMODEW, wingdi/NPDEVMODEW, wingdi/PDEVMODEW'
-ms.topic: struct
 f1_keywords:
 - wingdi/DEVMODEW
 dev_langs:
@@ -495,7 +494,7 @@ Specifies that the display mode is interlaced. If the flag is not set, noninterl
 
 
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/display/the-devmodew-structure">DEVMODEW structure</a> is the Unicode version of the <a href="http://go.microsoft.com/fwlink/p/?linkid=96677">DEVMODE </a> structure (described in the Microsoft Windows SDK documentation). While applications can use either the ANSI or Unicode version of the structure, drivers are required to use the Unicode version.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/display/the-devmodew-structure">DEVMODEW structure</a> is the Unicode version of the <a href="https://msdn2.microsoft.com/library/ms535771.aspx">DEVMODE </a> structure (described in the Microsoft Windows SDK documentation). While applications can use either the ANSI or Unicode version of the structure, drivers are required to use the Unicode version.
 
 For printer drivers, the DEVMODEW structure is used for specifying printer characteristics required by a print document. It is also used for specifying a printer's default characteristics.
 

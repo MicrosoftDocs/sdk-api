@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: DD2066B0-C91E-4299-AFD3-13E74E75E94B
 ms.date: 12/05/2018
 ms.keywords: IVisualTreeService2 interface,ReplaceResource method, IVisualTreeService2.ReplaceResource, IVisualTreeService2::ReplaceResource, ReplaceResource, ReplaceResource method, ReplaceResource method,IVisualTreeService2 interface, xaml_diagnostics.ivisualtreeservice2_replaceresource, xamlom/IVisualTreeService2::ReplaceResource
-ms.topic: method
 f1_keywords:
 - xamlom/IVisualTreeService2.ReplaceResource
 dev_langs:

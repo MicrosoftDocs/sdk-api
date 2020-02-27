@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: ca90c40b-c0d3-4673-be52-c8729fba55ea
 ms.date: 12/05/2018
 ms.keywords: CurrentColumn property [Windows Accessibility], CurrentColumn property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CurrentColumn property, IUIAutomationGridItemPattern.CurrentColumn, IUIAutomationGridItemPattern.get_CurrentColumn, IUIAutomationGridItemPattern::CurrentColumn, IUIAutomationGridItemPattern::get_CurrentColumn, get_CurrentColumn, uiauto.uiauto_IUIAutomationGridItemPattern_CurrentColumn, uiauto_IUIAutomationGridItemPattern_CurrentColumn, uiautomationclient/IUIAutomationGridItemPattern::CurrentColumn, uiautomationclient/IUIAutomationGridItemPattern::get_CurrentColumn, winauto.uiauto_IUIAutomationGridItemPattern_CurrentColumn
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationGridItemPattern.CurrentColumn
 dev_langs:

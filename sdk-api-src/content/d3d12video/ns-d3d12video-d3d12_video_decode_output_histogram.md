@@ -5,7 +5,6 @@ description: Represents the histogram output buffer for a single component.
 tech.root: mf
 ms.assetid: af5643ac-4095-4d26-8dfe-ef882462d207
 ms.date: 11/14/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM
 dev_langs:
@@ -54,7 +53,7 @@ And [ID3D12Resource](https://docs.microsoft.com/windows/win32/api/d3d12/nn-d3d12
 
 ## -remarks
 
-Histogram output buffers are provided in the *Histograms* field of the [D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS1](ns-d3d12video-d3d12_video_decode_output_stream_arguments1) structure.
+Histogram output buffers are provided in the *Histograms* field of the [D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS1](ns-d3d12video-d3d12_video_decode_output_stream_arguments1.md) structure.
 
 
 The following [D3D12_HEAP_FLAGS](https://docs.microsoft.com/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_flags) are allowed when allocating heaps for video decode histograms.

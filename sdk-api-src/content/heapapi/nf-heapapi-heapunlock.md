@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: c1a7b2c8-293e-4e07-a654-fd10b2f0ef39
 ms.date: 12/05/2018
 ms.keywords: HeapUnlock, HeapUnlock function, _win32_heapunlock, base.heapunlock, heapapi/HeapUnlock, winbase/HeapUnlock
-ms.topic: function
 f1_keywords:
 - heapapi/HeapUnlock
 dev_langs:

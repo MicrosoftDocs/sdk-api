@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: c5f2638a-6b75-4e30-8420-94011c73f5bd
 ms.date: 12/05/2018
 ms.keywords: ICRemove, ICRemove function [Windows Multimedia], _win32_ICRemove, multimedia.icremove, vfw/ICRemove
-ms.topic: function
 f1_keywords:
 - vfw/ICRemove
 dev_langs:

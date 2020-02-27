@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: b997203d-e7e4-43aa-b751-e419483020ac
 ms.date: 12/05/2018
 ms.keywords: BLUETOOTH_FIND_RADIO_PARAMS, BLUETOOTH_FIND_RADIO_PARAMS structure [Bluetooth], bluetooth.bluetooth_find_radio_params, bluetoothapis/BLUETOOTH_FIND_RADIO_PARAMS
-ms.topic: struct
 f1_keywords:
 - bluetoothapis/BLUETOOTH_FIND_RADIO_PARAMS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 25f8ae01-e975-4ada-b17c-c97385dc0585
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],addNameValuePairToRequestWStr method, IEnroll4 interface [Security],addNameValuePairToRequestWStr method, IEnroll4.addNameValuePairToRequestWStr, IEnroll4::addNameValuePairToRequestWStr, IEnroll::addNameValuePairToRequestWStr, addNameValuePairToRequestWStr, addNameValuePairToRequestWStr method [Security], addNameValuePairToRequestWStr method [Security],IEnroll interface, addNameValuePairToRequestWStr method [Security],IEnroll4 interface, security.ienroll4_addnamevaluepairtorequestwstr, xenroll/IEnroll4::addNameValuePairToRequestWStr, xenroll/IEnroll::addNameValuePairToRequestWStr
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll.addNameValuePairToRequestWStr
 dev_langs:

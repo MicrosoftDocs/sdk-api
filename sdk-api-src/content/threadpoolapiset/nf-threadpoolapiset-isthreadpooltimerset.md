@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: f9dee0aa-6310-4218-b207-72a24c5019e2
 ms.date: 12/05/2018
 ms.keywords: IsThreadpoolTimerSet, IsThreadpoolTimerSet function, base.isthreadpooltimerset, threadpoolapiset/IsThreadpoolTimerSet, winbase/IsThreadpoolTimerSet
-ms.topic: function
 f1_keywords:
 - threadpoolapiset/IsThreadpoolTimerSet
 dev_langs:

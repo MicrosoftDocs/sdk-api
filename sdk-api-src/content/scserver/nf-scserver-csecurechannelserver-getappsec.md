@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 60659c36-ef9a-46fd-9a61-4a5a5210fd1f
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],GetAppSec method, CSecureChannelServer.GetAppSec, CSecureChannelServer::GetAppSec, CSecureChannelServerGetAppSec, GetAppSec, GetAppSec method [windows Media Device Manager], GetAppSec method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::GetAppSec, wmdm.csecurechannelserver_getappsec
-ms.topic: method
 f1_keywords:
 - scserver/CSecureChannelServer.GetAppSec
 dev_langs:

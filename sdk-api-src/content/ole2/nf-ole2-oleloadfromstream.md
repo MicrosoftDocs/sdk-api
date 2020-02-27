@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 2d54a0ef-906b-4886-a095-4ff2f3d4e634
 ms.date: 12/05/2018
 ms.keywords: OleLoadFromStream, OleLoadFromStream function [COM], _ole_OleLoadFromStream, com.oleloadfromstream, ole/OleLoadFromStream
-ms.topic: function
 f1_keywords:
 - ole2/OleLoadFromStream
 dev_langs:
@@ -119,7 +118,7 @@ This function can also return any of the error values returned by the <a href="h
 
 
 
-<div class="alert"><b>Important</b>  <p class="note">Security Note: Calling this method with untrusted data is a security risk. Call this method only with trusted data. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=798821">Untrusted Data Security Risks</a>.
+<div class="alert"><b>Important</b>  <p class="note">Security Note: Calling this method with untrusted data is a security risk. Call this method only with trusted data. For more information, see <a href="https://docs.microsoft.com/">Untrusted Data Security Risks</a>.
 
 </div>
 <div> </div>

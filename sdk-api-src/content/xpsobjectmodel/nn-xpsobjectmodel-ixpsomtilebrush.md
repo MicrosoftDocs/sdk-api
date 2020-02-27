@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: fc9e1925-0dbc-447b-9acc-e7f719df62d1
 ms.date: 12/05/2018
 ms.keywords: IXpsOMTileBrush, IXpsOMTileBrush interface [XPS Documents and Packaging], IXpsOMTileBrush interface [XPS Documents and Packaging],described, xps.ixpsomtilebrush, xpsobjectmodel/IXpsOMTileBrush
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMTileBrush
 dev_langs:
@@ -219,7 +218,7 @@ The next illustration shows the tile modes that are used to repeat the tile imag
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

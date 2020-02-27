@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: a7dbe077-e059-4e92-8fb8-950cb67c4975
 ms.date: 12/05/2018
 ms.keywords: UiaEventCallback, UiaEventCallback callback, UiaEventCallback callback function [Windows Accessibility], uiauto.uiauto_UiaEventCallbackClientEvent, uiauto_UiaEventCallbackClientEvent, uiautomationcoreapi/UiaEventCallback, winauto.uiauto_UiaEventCallbackClientEvent
-ms.topic: callback
 f1_keywords:
 - uiautomationcoreapi/UiaEventCallback
 dev_langs:
@@ -68,9 +67,9 @@ The address of a <a href="https://docs.microsoft.com/windows/desktop/api/uiautom
 
 ### -param *pRequestedData [in]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 
-A <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> that contains data associated with the event.
+A <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains data associated with the event.
 
 
 ### -param pTreeStructure [in]

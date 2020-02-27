@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 294a466e-8a83-4b33-a8a8-ac7b51d081d4
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_VALUE_META_DATA, DS_REPL_VALUE_META_DATA structure [Active Directory], ad.ds_repl_value_meta_data, ntdsapi/DS_REPL_VALUE_META_DATA
-ms.topic: struct
 f1_keywords:
 - ntdsapi/DS_REPL_VALUE_META_DATA
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: d976eed0-32d0-47ab-931e-177635f95875
 ms.date: 12/05/2018
 ms.keywords: EnabledUnicodeRanges property [Tablet PC], EnabledUnicodeRanges property [Tablet PC],IInkRecognizerContext2 interface, IInkRecognizerContext2 interface [Tablet PC],EnabledUnicodeRanges property, IInkRecognizerContext2.EnabledUnicodeRanges, IInkRecognizerContext2.get_EnabledUnicodeRanges, IInkRecognizerContext2.put_EnabledUnicodeRanges, IInkRecognizerContext2::EnabledUnicodeRanges, IInkRecognizerContext2::get_EnabledUnicodeRanges, IInkRecognizerContext2::put_EnabledUnicodeRanges, get_EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::get_EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::put_EnabledUnicodeRanges, tablet.iinkrecognizercontext2_enabledunicoderanges
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRecognizerContext2.EnabledUnicodeRanges
 dev_langs:

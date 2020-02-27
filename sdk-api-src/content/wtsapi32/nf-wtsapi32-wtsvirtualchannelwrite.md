@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: cb999de8-74a1-4491-bffb-dc4d74a1fea3
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelWrite, WTSVirtualChannelWrite function [Remote Desktop Services], _win32_wtsvirtualchannelwrite, termserv.wtsvirtualchannelwrite, wtsapi32/WTSVirtualChannelWrite
-ms.topic: function
 f1_keywords:
 - wtsapi32/WTSVirtualChannelWrite
 dev_langs:

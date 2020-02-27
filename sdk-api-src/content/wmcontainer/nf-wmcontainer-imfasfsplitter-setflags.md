@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 5c70e5a0-7dd5-49c5-af35-4d9568871b41
 ms.date: 12/05/2018
 ms.keywords: 5c70e5a0-7dd5-49c5-af35-4d9568871b41, IMFASFSplitter interface [Media Foundation],SetFlags method, IMFASFSplitter.SetFlags, IMFASFSplitter::SetFlags, SetFlags, SetFlags method [Media Foundation], SetFlags method [Media Foundation],IMFASFSplitter interface, mf.imfasfsplitter_setflags, wmcontainer/IMFASFSplitter::SetFlags
-ms.topic: method
 f1_keywords:
 - wmcontainer/IMFASFSplitter.SetFlags
 dev_langs:

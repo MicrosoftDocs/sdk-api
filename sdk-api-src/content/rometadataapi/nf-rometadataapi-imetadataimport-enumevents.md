@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 442b5db1-1e5f-4314-9c53-dbd0f0651d3c
 ms.date: 12/05/2018
 ms.keywords: EnumEvents, EnumEvents method [Windows Runtime], EnumEvents method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumEvents method, IMetaDataImport.EnumEvents, IMetaDataImport::EnumEvents, rometadataapi/IMetaDataImport::EnumEvents, winrt.imetadataimport_enumevents
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataImport.EnumEvents
 dev_langs:

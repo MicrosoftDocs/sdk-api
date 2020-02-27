@@ -3,7 +3,6 @@ UID: NE:wlanapi._WLAN_INTF_OPCODE~r1
 title: WLAN_INTF_OPCODE
 ms.date: 01/30/19
 ms.keywords: _WLAN_INTF_OPCODE, WLAN_INTF_OPCODE
-ms.topic: language-reference
 f1_keywords:
 - wlanapi/_WLAN_INTF_OPCODE
 dev_langs:
@@ -110,7 +109,7 @@ The opcode used to query the list of supported country or region strings. This o
 
 ### -field wlan_intf_opcode_current_operation_mode
 
-The opcode used to set or query the current operation mode of the wireless interface. For more information about operation modes, see <a href="http://go.microsoft.com/fwlink/p/?linkid=71672">Native 802.11 Operation Modes</a>.
+The opcode used to set or query the current operation mode of the wireless interface. For more information about operation modes, see <a href="https://www.microsoft.com/?ref=go">Native 802.11 Operation Modes</a>.
 
 
 ### -field wlan_intf_opcode_supported_safe_mode

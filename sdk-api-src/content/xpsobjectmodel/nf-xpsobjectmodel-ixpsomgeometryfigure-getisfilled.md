@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 22da5239-c79f-4306-ad60-9b3e5bcae988
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetIsFilled, GetIsFilled method [XPS Documents and Packaging], GetIsFilled method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetIsFilled method, IXpsOMGeometryFigure.GetIsFilled, IXpsOMGeometryFigure::GetIsFilled, TRUE, xps.ixpsomgeometryfigure_getisfilled, xpsobjectmodel/IXpsOMGeometryFigure::GetIsFilled
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGeometryFigure.GetIsFilled
 dev_langs:
@@ -148,7 +147,7 @@ This value corresponds to that of the <b>IsFilled</b> attribute of the <b>PathFi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

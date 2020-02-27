@@ -7,7 +7,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnector\imilbitmapeffectoutputconnector.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectOutputConnector, IMILBitmapEffectOutputConnector interface [WPF Bitmap Effects], IMILBitmapEffectOutputConnector interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectoutputconnector, mileffects/IMILBitmapEffectOutputConnector, wibe._wibe_imilbitmapeffectoutputconnector
-ms.topic: interface
 f1_keywords:
 - mileffects/IMILBitmapEffectOutputConnector
 dev_langs:

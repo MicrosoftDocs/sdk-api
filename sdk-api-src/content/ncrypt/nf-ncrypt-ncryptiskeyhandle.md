@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: ad841c2e-8097-4b07-914e-8e7240d55585
 ms.date: 12/05/2018
 ms.keywords: NCryptIsKeyHandle, NCryptIsKeyHandle function [Security], ncrypt/NCryptIsKeyHandle, security.ncryptiskeyhandle
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptIsKeyHandle
 dev_langs:
@@ -76,7 +75,7 @@ Returns a nonzero value if the handle is a key handle or zero otherwise.
 
 
 
-A service must not call this function from its <a href="http://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 
 

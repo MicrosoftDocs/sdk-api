@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxparaformatchange.htm
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],OnTxParaFormatChange method, ITextHost.OnTxParaFormatChange, ITextHost::OnTxParaFormatChange, OnTxParaFormatChange, OnTxParaFormatChange method [Windows Controls], OnTxParaFormatChange method [Windows Controls],ITextHost interface, _win32_ITextHost_OnTxParaFormatChange, _win32_ITextHost_OnTxParaFormatChange_cpp, controls.ITextHost_OnTxParaFormatChange, controls._win32_ITextHost_OnTxParaFormatChange, textserv/ITextHost::OnTxParaFormatChange
-ms.topic: method
 f1_keywords:
 - textserv/ITextHost.OnTxParaFormatChange
 dev_langs:

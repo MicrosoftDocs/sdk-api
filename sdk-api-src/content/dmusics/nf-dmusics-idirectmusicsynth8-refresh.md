@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: BA04A6F5-19D9-471D-9F53-DAB555E9F1A5
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth8 interface [Audio Devices],Refresh method, IDirectMusicSynth8.Refresh, IDirectMusicSynth8::Refresh, Refresh, Refresh method [Audio Devices], Refresh method [Audio Devices],IDirectMusicSynth8 interface, audio.idirectmusicsynth8_refresh, dmusics/IDirectMusicSynth8::Refresh
-ms.topic: method
 f1_keywords:
 - dmusics/IDirectMusicSynth8.Refresh
 dev_langs:

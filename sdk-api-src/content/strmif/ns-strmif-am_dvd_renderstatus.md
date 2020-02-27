@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6d11332e-86db-4649-af77-2906c6cbba7a
 ms.date: 12/05/2018
 ms.keywords: AM_DVD_RENDERSTATUS, AM_DVD_RENDERSTATUS structure [DirectShow], AM_DVD_RENDERSTATUSStructure, dshow.am_dvd_renderstatus, strmif/AM_DVD_RENDERSTATUS
-ms.topic: struct
 f1_keywords:
 - strmif/AM_DVD_RENDERSTATUS
 dev_langs:
@@ -98,7 +97,7 @@ Number of streams that failed to render.
 
 ### -field dwFailedStreamsFlag
 
-Combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-am_dvd_stream_flags">AM_DVD_STREAM_FLAGS</a> flags indicating which streams failed.
+Combination of [AM_DVD_STREAM_FLAGS](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-am_dvd_stream_flags) flags indicating which streams failed.
 
 
 ## -see-also

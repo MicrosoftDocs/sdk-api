@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 646a0cb4-1f3a-42a1-a508-12d80bdb4a01
 ms.date: 12/05/2018
 ms.keywords: FNFREE, FNFREE macro [Windows API], fdi/FNFREE, winprog.fnfree
-ms.topic: macro
 f1_keywords:
 - fdi/FNFREE
 dev_langs:
@@ -67,7 +66,7 @@ Pointer to the allocated memory block to free.
 
 
 
-The function accepts parameters similar to <a href="http://go.microsoft.com/fwlink/p/?linkid=196543">free</a>.
+The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/we1whae7(VS.80).aspx">free</a>.
 
 
 #### Examples

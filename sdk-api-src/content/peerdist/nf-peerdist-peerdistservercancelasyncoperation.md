@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: b8daa90a-f184-40cb-a62b-b1d122eb7781
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerCancelAsyncOperation, PeerDistServerCancelAsyncOperation function [Peer Networking], p2p.peerdistservercancelasyncoperation, peerdist/PeerDistServerCancelAsyncOperation
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistServerCancelAsyncOperation
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PeerDistServerCancelAsyncOperation</b> function cancels the asynchronous operation associated with the content identifier and <a href="http://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure.
+The <b>PeerDistServerCancelAsyncOperation</b> function cancels the asynchronous operation associated with the content identifier and <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure.
 
 
 ## -parameters
@@ -75,14 +74,14 @@ Pointer to an array that contains the content identifier.
 
 ### -param pOverlapped [in]
 
-Pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure that contains the canceling asynchronous operation data.
+Pointer to an <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure that contains the canceling asynchronous operation data.
 
 
 ## -returns
 
 
 
-The function will return <b>ERROR_SUCCESS</b> value if the operation associated with <a href="http://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure is successfully canceled. Otherwise, the function may return one of the following values:
+The function will return <b>ERROR_SUCCESS</b> value if the operation associated with <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure is successfully canceled. Otherwise, the function may return one of the following values:
 
 <table>
 <tr>
@@ -118,7 +117,7 @@ The <i>hPeerDist</i> handle is invalid.
 </dl>
 </td>
 <td width="60%">
-The operation for <a href="http://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure cannot be found.
+The operation for <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure cannot be found.
 
 </td>
 </tr>
@@ -158,9 +157,9 @@ This function will synchronously cancel the operation, but will not return until
 
 This function  does not guarantee that the operation will complete as canceled. The cancellation result will be posted only if no other results have been posted.
 
-To confirm successfully canceled operations, a call should be made to <a href="http://go.microsoft.com/fwlink/p/?linkid=131012">GetOverlappedResult</a> with an expected return of <b>FALSE</b>.  
+To confirm successfully canceled operations, a call should be made to <a href="https://msdn.microsoft.com/library/ms683209.aspx">GetOverlappedResult</a> with an expected return of <b>FALSE</b>.  
 
-Additionally, calling <a href="http://go.microsoft.com/fwlink/p/?linkid=131013">GetLastError</a> immediately after a successful <b>PeerDistServerCancelAsyncOperation</b> will return the <b>ERROR_OPERATION_ABORTED</b> error code.
+Additionally, calling <a href="https://msdn.microsoft.com/library/ms679360.aspx">GetLastError</a> immediately after a successful <b>PeerDistServerCancelAsyncOperation</b> will return the <b>ERROR_OPERATION_ABORTED</b> error code.
 
 
 

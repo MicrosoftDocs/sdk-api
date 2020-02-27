@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 2e08c3b1-6437-40ce-9dd3-2beb3e1f37fb
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationWindowPattern interface [Windows Accessibility],WaitForInputIdle method, IUIAutomationWindowPattern.WaitForInputIdle, IUIAutomationWindowPattern::WaitForInputIdle, WaitForInputIdle, WaitForInputIdle method [Windows Accessibility], WaitForInputIdle method [Windows Accessibility],IUIAutomationWindowPattern interface, uiauto.uiauto_IUIAutomationWindowPattern_WaitForInputIdle, uiauto_IUIAutomationWindowPattern_WaitForInputIdle, uiautomationclient/IUIAutomationWindowPattern::WaitForInputIdle, winauto.uiauto_IUIAutomationWindowPattern_WaitForInputIdle
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationWindowPattern.WaitForInputIdle
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 8d69caeb-4c02-4a9f-9dd5-ac3c13561a57
 ms.date: 12/05/2018
 ms.keywords: ScriptTextOut, ScriptTextOut function [Internationalization for Windows Applications], _win32_ScriptTextOut, intl.scripttextout, usp10/ScriptTextOut
-ms.topic: function
 f1_keywords:
 - usp10/ScriptTextOut
 dev_langs:

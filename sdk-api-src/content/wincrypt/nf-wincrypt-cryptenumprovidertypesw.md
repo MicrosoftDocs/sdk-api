@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 7568c963-4d06-4af0-bd15-240402425046
 ms.date: 12/05/2018
 ms.keywords: CryptEnumProviderTypes, CryptEnumProviderTypes function [Security], CryptEnumProviderTypesA, CryptEnumProviderTypesW, _crypto2_cryptenumprovidertypes, security.cryptenumprovidertypes, wincrypt/CryptEnumProviderTypes, wincrypt/CryptEnumProviderTypesA, wincrypt/CryptEnumProviderTypesW
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptEnumProviderTypes
 dev_langs:

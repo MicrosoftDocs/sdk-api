@@ -7,7 +7,6 @@ tech.root: WinHttp
 ms.assetid: 16cab68c-a802-43cc-87cd-60fcecb6a751
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_ADDREQ_FLAG_ADD, WINHTTP_ADDREQ_FLAG_ADD_IF_NEW, WINHTTP_ADDREQ_FLAG_COALESCE, WINHTTP_ADDREQ_FLAG_COALESCE_WITH_COMMA, WINHTTP_ADDREQ_FLAG_COALESCE_WITH_SEMICOLON, WINHTTP_ADDREQ_FLAG_REPLACE, WinHttpAddRequestHeaders, WinHttpAddRequestHeaders function [WinHTTP], http.winhttpaddrequestheaders, winhttp/WinHttpAddRequestHeaders, winhttp_winhttpaddrequestheaders_function
-ms.topic: function
 f1_keywords:
 - winhttp/WinHttpAddRequestHeaders
 dev_langs:
@@ -225,7 +224,7 @@ The
 <b>WinHttpAddRequestHeaders</b> function appends additional free-format headers to the HTTP request handle and is intended for use by sophisticated clients that require detailed control over the exact request sent to the HTTP server.
 
 The name and value of request headers added with this function are validated.  Headers must be well formed. For more information about valid HTTP headers, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a>.  If an invalid header is used, this function fails and 
+<a href="https://www.ietf.org/rfc/rfc2616.txt">RFC 2616</a>.  If an invalid header is used, this function fails and 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/error-messages">ERROR_INVALID_PARAMETER</a>.  The invalid header is not added.
 

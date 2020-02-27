@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b395a322-d63e-41a0-b97a-88f99aeba0e5
 ms.date: 12/05/2018
 ms.keywords: DVD_VideoAttributes, DVD_VideoAttributes structure [DirectShow], DVD_VideoAttributesStructure, dshow.dvd_videoattributes, strmif/DVD_VideoAttributes
-ms.topic: struct
 f1_keywords:
 - strmif/DVD_VideoAttributes
 dev_langs:
@@ -93,7 +92,7 @@ The frame height in lines (525 for a frame rate of 60 Hz or 625 for 50 Hz).
 
 ### -field Compression
 
-Variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_video_compression">DVD_VIDEO_COMPRESSION</a> indicating the MPEG compression type used on the disc.
+Variable of type [DVD_VIDEO_COMPRESSION](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_video_compression) indicating the MPEG compression type used on the disc.
 
 
 ### -field fLine21Field1InGOP

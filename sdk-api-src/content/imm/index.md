@@ -1,9 +1,10 @@
 ---
 UID: NA:imm
+title: Imm.h header
 ms.assetid: 12907373-318e-35ee-bcc6-dbeb9a84203d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: intl
 ---
 

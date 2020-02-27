@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 6311115a-26e6-47b7-b724-0209a5bf45d7
 ms.date: 12/05/2018
 ms.keywords: 6311115a-26e6-47b7-b724-0209a5bf45d7, GetMediaType, GetMediaType method [Media Foundation], GetMediaType method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],GetMediaType method, IMFASFStreamConfig.GetMediaType, IMFASFStreamConfig::GetMediaType, mf.imfasfstreamconfig_getmediatype, wmcontainer/IMFASFStreamConfig::GetMediaType
-ms.topic: method
 f1_keywords:
 - wmcontainer/IMFASFStreamConfig.GetMediaType
 dev_langs:

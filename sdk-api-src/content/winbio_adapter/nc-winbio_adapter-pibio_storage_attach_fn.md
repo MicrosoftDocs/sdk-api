@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 6abded6b-12e0-4cc6-a011-0b18e8ea747b
 ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_ATTACH_FN, PIBIO_STORAGE_ATTACH_FN callback, StorageAdapterAttach, StorageAdapterAttach callback function [Windows Biometric Framework API], secbiomet.storageadapterattach, winbio_adapter/StorageAdapterAttach
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterAttach
 dev_langs:

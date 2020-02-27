@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: fadf7114-b9e4-4f61-816b-10725b83169a
 ms.date: 12/05/2018
 ms.keywords: IDvbFrequencyListDescriptor, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies], IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],described, IDvbFrequencyListDescriptorInterface, dvbsiparser/IDvbFrequencyListDescriptor, mstv.idvbfrequencylistdescriptor
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IDvbFrequencyListDescriptor
 dev_langs:

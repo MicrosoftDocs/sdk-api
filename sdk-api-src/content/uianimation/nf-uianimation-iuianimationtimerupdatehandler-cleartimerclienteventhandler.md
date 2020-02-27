@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: c7383df5-dbd4-4cae-a682-47f84c2e8106
 ms.date: 12/05/2018
 ms.keywords: ClearTimerClientEventHandler, ClearTimerClientEventHandler method [Windows Animation], ClearTimerClientEventHandler method [Windows Animation],IUIAnimationTimerUpdateHandler interface, IUIAnimationTimerUpdateHandler interface [Windows Animation],ClearTimerClientEventHandler method, IUIAnimationTimerUpdateHandler.ClearTimerClientEventHandler, IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler, uianimation.iuianimationtimerupdatehandler_cleartimerclienteventhandler, uianimation/IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationTimerUpdateHandler.ClearTimerClientEventHandler
 dev_langs:

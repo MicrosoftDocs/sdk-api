@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5ca35c90-24a3-4ffe-abf7-ba3ce0ec83b9
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],Advise method, ICredentialProvider.Advise, ICredentialProvider::Advise, credentialprovider/ICredentialProvider::Advise, shell.ICredentialProvider_Advise, shell_ICredentialProvider_Advise
-ms.topic: method
 f1_keywords:
 - credentialprovider/ICredentialProvider.Advise
 dev_langs:

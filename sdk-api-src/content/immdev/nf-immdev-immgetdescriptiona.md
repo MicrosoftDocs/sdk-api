@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 62f4efc8-7b46-4d8e-a6a2-2f346efe8ba6
 ms.date: 12/05/2018
 ms.keywords: ImmGetDescription, ImmGetDescription function [Internationalization for Windows Applications], ImmGetDescriptionA, ImmGetDescriptionW, _win32_ImmGetDescription, imm/ImmGetDescription, imm/ImmGetDescriptionA, imm/ImmGetDescriptionW, intl.immgetdescription
-ms.topic: function
 f1_keywords:
 - immdev/ImmGetDescription
 dev_langs:

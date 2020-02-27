@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 7d1381ad-6ac8-4ea4-99a2-8bc5d95773c7
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetPage method, IXpsOMPageReference.SetPage, IXpsOMPageReference::SetPage, SetPage, SetPage method [XPS Documents and Packaging], SetPage method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setpage, xpsobjectmodel/IXpsOMPageReference::SetPage
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPageReference.SetPage
 dev_langs:
@@ -147,7 +146,7 @@ If a page has been set, the calling method must first release that  page before 
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

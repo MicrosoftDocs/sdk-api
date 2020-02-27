@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 4d77f78b-f059-40f3-b4ed-c3ffd09d9e9f
 ms.date: 12/05/2018
 ms.keywords: GetThreadLocale, GetThreadLocale function [Internationalization for Windows Applications], _win32_GetThreadLocale, intl.getthreadlocale, winnls/GetThreadLocale
-ms.topic: function
 f1_keywords:
 - winnls/GetThreadLocale
 dev_langs:

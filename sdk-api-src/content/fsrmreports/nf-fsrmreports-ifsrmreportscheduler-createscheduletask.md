@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 983a6d05-417f-4aea-9652-955fd96e78f0
 ms.date: 12/05/2018
 ms.keywords: CreateScheduleTask, CreateScheduleTask method [File Server Resource Manager], CreateScheduleTask method [File Server Resource Manager],FsrmReportScheduler class, CreateScheduleTask method [File Server Resource Manager],IFsrmReportScheduler interface, FsrmReportScheduler class [File Server Resource Manager],CreateScheduleTask method, IFsrmReportScheduler interface [File Server Resource Manager],CreateScheduleTask method, IFsrmReportScheduler.CreateScheduleTask, IFsrmReportScheduler::CreateScheduleTask, fs.ifsrmreportscheduler_createscheduletask, fsrm.ifsrmreportscheduler_createscheduletask, fsrmreports/IFsrmReportScheduler::CreateScheduleTask
-ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmReportScheduler.CreateScheduleTask
 dev_langs:

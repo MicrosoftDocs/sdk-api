@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 797341c8-7346-477a-9c7c-b6abbeaac4b2
 ms.date: 12/05/2018
 ms.keywords: FONTOBJ_pifi, FONTOBJ_pifi function [Display Devices], display.fontobj_pifi, gdifncs_702d11ac-850f-4e4d-aefa-1ccf404edb56.xml, winddi/FONTOBJ_pifi
-ms.topic: function
 f1_keywords:
 - winddi/FONTOBJ_pifi
 dev_langs:

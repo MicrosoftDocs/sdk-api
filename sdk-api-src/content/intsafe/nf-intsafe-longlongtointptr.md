@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: fb10650f-6536-491c-8897-0f826b506e5a
 ms.date: 12/05/2018
 ms.keywords: Int64ToIntPtr, Int64ToPtrdiffT, LongLongToIntPtr, LongLongToIntPtr function [Windows Shell], intsafe/LongLongToIntPtr, shell.LongLongToIntPtr
-ms.topic: function
 f1_keywords:
 - intsafe/LongLongToIntPtr
 dev_langs:

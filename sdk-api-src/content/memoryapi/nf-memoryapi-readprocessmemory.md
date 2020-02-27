@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 8774e145-ee7f-44de-85db-0445b905f986
 ms.date: 08/05/2019
 ms.keywords: ReadProcessMemory, ReadProcessMemory function, _win32_ReadProcessMemory, base.ReadProcessMemory, memoryapi/ReadProcessMemory
-ms.topic: function
 f1_keywords:
 - memoryapi/ReadProcessMemory
 dev_langs:

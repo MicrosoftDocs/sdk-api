@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: e574ddc2-e950-4618-bc16-1b99989a4a68
 ms.date: 12/05/2018
 ms.keywords: HRESULT_SEVERITY, HRESULT_SEVERITY macro [COM], _com_HRESULT_SEVERITY, com.hresult_severity, com.hresult_severity_macro, winerror/HRESULT_SEVERITY
-ms.topic: macro
 f1_keywords:
 - winerror/HRESULT_SEVERITY
 dev_langs:

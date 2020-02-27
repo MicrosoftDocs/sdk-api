@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: fb853879-3ee9-45e7-bab6-31f8f8211680
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_IMAGE_REF, CRYPT_IMAGE_REF, CRYPT_IMAGE_REF structure [Security], CRYPT_MIN_DEPENDENCIES, CRYPT_PROCESS_ISOLATE, PCRYPT_IMAGE_REF, PCRYPT_IMAGE_REF structure pointer [Security], bcrypt/CRYPT_IMAGE_REF, bcrypt/PCRYPT_IMAGE_REF, security.crypt_image_ref'
-ms.topic: struct
 f1_keywords:
 - bcrypt/CRYPT_IMAGE_REF
 dev_langs:

@@ -5,7 +5,6 @@ description: The GraphicsPath::AddPolygon method adds a polygon to this path.
 ms.assetid: f342c271-baba-4a21-97c0-592114cd996a
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddPolygon
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/GraphicsPath::AddPolygon
 dev_langs:

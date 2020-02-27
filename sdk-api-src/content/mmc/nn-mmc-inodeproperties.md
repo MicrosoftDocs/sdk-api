@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 5ef78fb9-704e-4c1d-ada8-c257a0944c94
 ms.date: 12/05/2018
 ms.keywords: INodeProperties, INodeProperties interface [MMC], INodeProperties interface [MMC],described, _slate_inodeproperties, mmc.inodeproperties, mmc/INodeProperties
-ms.topic: interface
 f1_keywords:
 - mmc/INodeProperties
 dev_langs:
@@ -59,7 +58,7 @@ The
 
 The 
 <b>INodeProperties</b> interface is queried (using 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a>) from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>) from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> interface for scope nodes, and from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> interface for result items.
 

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8ef37838-ff5f-4c8f-9fa3-30d11417c09d
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisualBrush interface [XPS Documents and Packaging],SetVisualLocal method, IXpsOMVisualBrush.SetVisualLocal, IXpsOMVisualBrush::SetVisualLocal, SetVisualLocal, SetVisualLocal method [XPS Documents and Packaging], SetVisualLocal method [XPS Documents and Packaging],IXpsOMVisualBrush interface, xps.ixpsomvisualbrush_setvisuallocal, xpsobjectmodel/IXpsOMVisualBrush::SetVisualLocal
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisualBrush.SetVisualLocal
 dev_langs:
@@ -194,7 +193,7 @@ Neither <b>SetVisualLocal</b> nor <a href="https://docs.microsoft.com/windows/de
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

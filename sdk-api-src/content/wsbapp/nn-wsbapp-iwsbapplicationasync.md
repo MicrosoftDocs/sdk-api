@@ -7,7 +7,6 @@ tech.root: wsb
 ms.assetid: cd8f74c0-c2dc-487c-b702-1e1355e99b7d
 ms.date: 12/05/2018
 ms.keywords: IWsbApplicationAsync, IWsbApplicationAsync interface [Windows Server Backup], IWsbApplicationAsync interface [Windows Server Backup],described, wsb.iwsbapplicationasync, wsbapp/IWsbApplicationAsync
-ms.topic: interface
 f1_keywords:
 - wsbapp/IWsbApplicationAsync
 dev_langs:

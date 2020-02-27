@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: ce45f7cf-33ed-4e15-9f65-549ab2c8c8be
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetDiscardControlPartName method, IXpsOMPackage.SetDiscardControlPartName, IXpsOMPackage::SetDiscardControlPartName, SetDiscardControlPartName, SetDiscardControlPartName method [XPS Documents and Packaging], SetDiscardControlPartName method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_setdiscardcontrolpartname, xpsobjectmodel/IXpsOMPackage::SetDiscardControlPartName
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPackage.SetDiscardControlPartName
 dev_langs:
@@ -85,7 +84,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

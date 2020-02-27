@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: 28265037-f7a3-40a4-b386-20f43f32a8b3
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IPINTERFACE_ROW, AF_INET, AF_INET6, AF_UNSPEC, LinkLocalAlwaysOff, LinkLocalAlwaysOn, LinkLocalDelayed, LinkLocalUnchanged, MIB_IPINTERFACE_ROW, MIB_IPINTERFACE_ROW structure [MIB], PMIB_IPINTERFACE_ROW, PMIB_IPINTERFACE_ROW structure pointer [MIB], RouterDiscoveryDhcp, RouterDiscoveryDisabled, RouterDiscoveryEnabled, RouterDiscoveryUnchanged, _MIB_IPINTERFACE_ROW, mib.mib_ipinterface_row, netioapi/MIB_IPINTERFACE_ROW, netioapi/PMIB_IPINTERFACE_ROW'
-ms.topic: struct
 f1_keywords:
 - netioapi/MIB_IPINTERFACE_ROW
 dev_langs:
@@ -221,7 +220,7 @@ A value that indicates if the IP interface advertises the default route. This me
 
 Type: <b>NL_ROUTER_DISCOVERY_BEHAVIOR</b>
 
-The router discovery behavior. This member can be one of the values from the <b>NL_ROUTER_DISCOVERY_BEHAVIOR</b> enumeration type defined in the <i>Nldef.h</i> header file. The member is described in RFC 2461. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84044">http://www.ietf.org/rfc/rfc2461.txt</a>.
+The router discovery behavior. This member can be one of the values from the <b>NL_ROUTER_DISCOVERY_BEHAVIOR</b> enumeration type defined in the <i>Nldef.h</i> header file. The member is described in RFC 2461. For more information, see <a href="https://www.ietf.org/rfc/rfc2461.txt">http://www.ietf.org/rfc/rfc2461.txt</a>.
 
 <table>
 <tr>
@@ -286,21 +285,21 @@ The number of consecutive messages sent while performing duplicate address
                      performed on tentative IP addresses. A value of one
                      indicates a single transmission with no follow up
                      retransmissions. For IPv4, the default for this member is 3. For IPv6, the default for this member is 1. For IPv6, these messages will sent as neighbor solicitation requests.
-                     This member is defined as DupAddrDetectTransmits in RFC 2462. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84045">http://www.ietf.org/rfc/rfc2462.txt</a>.
+                     This member is defined as DupAddrDetectTransmits in RFC 2462. For more information, see <a href="https://www.ietf.org/rfc/rfc2462.txt">http://www.ietf.org/rfc/rfc2462.txt</a>.
 
 
 ### -field BaseReachableTime
 
 Type: <b>ULONG</b>
 
-The base for random reachable time,  in milliseconds. The member is described in RFC 2461. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84044">http://www.ietf.org/rfc/rfc2461.txt</a>.
+The base for random reachable time,  in milliseconds. The member is described in RFC 2461. For more information, see <a href="https://www.ietf.org/rfc/rfc2461.txt">http://www.ietf.org/rfc/rfc2461.txt</a>.
 
 
 ### -field RetransmitTime
 
 Type: <b>ULONG</b>
 
-The neighbor solicitation timeout,  in milliseconds. The member is described in RFC 2461. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84044">http://www.ietf.org/rfc/rfc2461.txt</a>.
+The neighbor solicitation timeout,  in milliseconds. The member is described in RFC 2461. For more information, see <a href="https://www.ietf.org/rfc/rfc2461.txt">http://www.ietf.org/rfc/rfc2461.txt</a>.
 
 
 ### -field PathMtuDiscoveryTimeout

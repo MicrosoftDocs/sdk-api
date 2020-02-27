@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 4666e4ee-057e-452d-ac2c-d03321a0073f
 ms.date: 12/05/2018
 ms.keywords: InternetCheckConnection, InternetCheckConnection function [WinINet], InternetCheckConnectionA, InternetCheckConnectionW, _inet_internetcheckconnection_function, wininet.internetcheckconnection, wininet/InternetCheckConnection, wininet/InternetCheckConnectionA, wininet/InternetCheckConnectionW
-ms.topic: function
 f1_keywords:
 - wininet/InternetCheckConnection
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>InternetCheckConnection</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://go.microsoft.com/fwlink/p/?linkid=861634">NetworkInformation.GetInternetConnectionProfile</a> or the <a href="https://docs.microsoft.com/windows/desktop/NLA/nlm-interfaces">NLM Interfaces</a>.
+<p class="CCE_Message">[<b>InternetCheckConnection</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/uwp/api/Windows.Networking.Connectivity.NetworkInformation#Windows_Networking_Connectivity_NetworkInformation_GetInternetConnectionProfile_">NetworkInformation.GetInternetConnectionProfile</a> or the <a href="https://docs.microsoft.com/windows/desktop/NLA/nlm-interfaces">NLM Interfaces</a>.
 ]
 
 Allows an application to check if a connection to the Internet can be established.
@@ -99,7 +98,7 @@ Returns <b>TRUE</b> if a connection is made successfully, or <b>FALSE</b> otherw
 
 
 
-<b>InternetCheckConnection</b> is deprecated. <b>InternetCheckConnection</b> does not work in environments that use a web proxy server to access the Internet. Depending on the environment, use  <a href="https://go.microsoft.com/fwlink/p/?linkid=861634">NetworkInformation.GetInternetConnectionProfile</a> or the <a href="https://docs.microsoft.com/windows/desktop/NLA/nlm-interfaces">NLM Interfaces</a> to check for Internet access instead.
+<b>InternetCheckConnection</b> is deprecated. <b>InternetCheckConnection</b> does not work in environments that use a web proxy server to access the Internet. Depending on the environment, use  <a href="https://docs.microsoft.com/uwp/api/Windows.Networking.Connectivity.NetworkInformation#Windows_Networking_Connectivity_NetworkInformation_GetInternetConnectionProfile_">NetworkInformation.GetInternetConnectionProfile</a> or the <a href="https://docs.microsoft.com/windows/desktop/NLA/nlm-interfaces">NLM Interfaces</a> to check for Internet access instead.
 
 <div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>

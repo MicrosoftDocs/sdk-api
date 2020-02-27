@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 97121e6c-af5c-4da8-ad28-24b961c105d2
 ms.date: 12/05/2018
 ms.keywords: RpcAsyncInitializeHandle, RpcAsyncInitializeHandle function [RPC], _rpc_rpcasyncinitializehandle, rpc.rpcasyncinitializehandle, rpcasync/RpcAsyncInitializeHandle
-ms.topic: function
 f1_keywords:
 - rpcasync/RpcAsyncInitializeHandle
 dev_langs:

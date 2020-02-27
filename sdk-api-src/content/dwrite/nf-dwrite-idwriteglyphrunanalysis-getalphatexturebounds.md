@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 9058edb7-23b2-418a-abcc-3ee827a79144
 ms.date: 12/05/2018
 ms.keywords: GetAlphaTextureBounds, GetAlphaTextureBounds method [Direct Write], GetAlphaTextureBounds method [Direct Write],IDWriteGlyphRunAnalysis interface, IDWriteGlyphRunAnalysis interface [Direct Write],GetAlphaTextureBounds method, IDWriteGlyphRunAnalysis.GetAlphaTextureBounds, IDWriteGlyphRunAnalysis::GetAlphaTextureBounds, directwrite.IDWriteGlyphRunAnalysis_GetAlphaTextureBounds, dwrite/IDWriteGlyphRunAnalysis::GetAlphaTextureBounds
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteGlyphRunAnalysis.GetAlphaTextureBounds
 dev_langs:

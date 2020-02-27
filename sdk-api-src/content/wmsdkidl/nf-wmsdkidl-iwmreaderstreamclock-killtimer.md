@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: ebcd965f-8ea1-44e2-b1b4-c34a229058b2
 ms.date: 12/05/2018
 ms.keywords: IWMReaderStreamClock interface [windows Media Format],KillTimer method, IWMReaderStreamClock.KillTimer, IWMReaderStreamClock::KillTimer, IWMReaderStreamClockKillTimer, KillTimer, KillTimer method [windows Media Format], KillTimer method [windows Media Format],IWMReaderStreamClock interface, wmformat.iwmreaderstreamclock_killtimer, wmsdkidl/IWMReaderStreamClock::KillTimer
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderStreamClock.KillTimer
 dev_langs:

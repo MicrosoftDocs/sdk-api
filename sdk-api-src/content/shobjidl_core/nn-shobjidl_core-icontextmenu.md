@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6ea0b8f9-4a05-4a4b-adc5-d540eb3287ee
 ms.date: 12/05/2018
 ms.keywords: IContextMenu, IContextMenu interface [Windows Shell], IContextMenu interface [Windows Shell],described, _win32_IContextMenu, _win32_icontextmenu_cpp, shell.IContextMenu, shobjidl_core/IContextMenu
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IContextMenu
 dev_langs:

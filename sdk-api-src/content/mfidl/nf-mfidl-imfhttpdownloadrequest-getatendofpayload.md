@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 2F2D65BA-4719-4633-9B2D-2CAF88F4E3DD
 ms.date: 12/05/2018
 ms.keywords: GetAtEndOfPayload, GetAtEndOfPayload method [Media Foundation], GetAtEndOfPayload method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetAtEndOfPayload method, IMFHttpDownloadRequest.GetAtEndOfPayload, IMFHttpDownloadRequest::GetAtEndOfPayload, mf.imfhttpdownloadrequest_getatendofpayload, mfidl/IMFHttpDownloadRequest::GetAtEndOfPayload
-ms.topic: method
 f1_keywords:
 - mfidl/IMFHttpDownloadRequest.GetAtEndOfPayload
 dev_langs:

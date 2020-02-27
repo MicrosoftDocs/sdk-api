@@ -1,9 +1,10 @@
 ---
 UID: TP:automat
+title: Automation
 ms.assetid: fa0e9310-2f3a-3207-9d42-b2f8ad9f6315
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Automation
@@ -21,5 +22,5 @@ To develop Automation, you need these headers:
  * [wtypes.h](../wtypes/index.md)
 
 For programming guidance for this technology, see:
-* [Automation](/windows/desktop/automat)
+* [Automation](https://docs.microsoft.com/previous-versions/windows/desktop/automat)
 

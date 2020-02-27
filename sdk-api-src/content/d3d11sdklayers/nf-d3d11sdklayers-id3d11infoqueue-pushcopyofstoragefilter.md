@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 4538fecb-1cb6-443b-b1fe-b0e506fbecb2
 ms.date: 12/05/2018
 ms.keywords: ID3D11InfoQueue interface [Direct3D 11],PushCopyOfStorageFilter method, ID3D11InfoQueue.PushCopyOfStorageFilter, ID3D11InfoQueue::PushCopyOfStorageFilter, PushCopyOfStorageFilter, PushCopyOfStorageFilter method [Direct3D 11], PushCopyOfStorageFilter method [Direct3D 11],ID3D11InfoQueue interface, bb555de6-9be8-e564-7126-0e904dc8b4d4, d3d11sdklayers/ID3D11InfoQueue::PushCopyOfStorageFilter, direct3d11.id3d11infoqueue_pushcopyofstoragefilter
-ms.topic: method
 f1_keywords:
 - d3d11sdklayers/ID3D11InfoQueue.PushCopyOfStorageFilter
 dev_langs:

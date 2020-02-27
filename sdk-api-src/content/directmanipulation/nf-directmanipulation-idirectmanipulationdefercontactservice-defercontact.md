@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: DEC97DD5-E43F-4541-8A80-D20EC8026493
 ms.date: 12/05/2018
 ms.keywords: DeferContact, DeferContact method [Direct Manipulation], DeferContact method [Direct Manipulation],IDirectManipulationDeferContactService interface, IDirectManipulationDeferContactService interface [Direct Manipulation],DeferContact method, IDirectManipulationDeferContactService.DeferContact, IDirectManipulationDeferContactService::DeferContact, directmanipulation.idirectmanipulationdefercontactservice_defercontact, directmanipulation/IDirectManipulationDeferContactService::DeferContact
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationDeferContactService.DeferContact
 dev_langs:

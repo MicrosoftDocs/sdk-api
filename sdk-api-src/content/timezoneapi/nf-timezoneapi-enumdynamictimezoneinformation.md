@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: EBB2366A-86FE-4764-B7F9-5D305993CE0A
 ms.date: 12/05/2018
 ms.keywords: EnumDynamicTimeZoneInformation, EnumDynamicTimeZoneInformation function, base.enumdynamictimezoneinformation, timezoneapi/EnumDynamicTimeZoneInformation
-ms.topic: function
 f1_keywords:
 - timezoneapi/EnumDynamicTimeZoneInformation
 dev_langs:

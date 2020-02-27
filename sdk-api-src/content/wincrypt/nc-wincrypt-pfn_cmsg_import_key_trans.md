@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: ad8051a9-a8ca-47fc-8b4c-d6c085ff1db8
 ms.date: 12/05/2018
 ms.keywords: PFN_CMSG_IMPORT_KEY_TRANS, PFN_CMSG_IMPORT_KEY_TRANS callback, PFN_CMSG_IMPORT_KEY_TRANS callback function [Security], security.pfn_cmsg_import_key_trans, wincrypt/PFN_CMSG_IMPORT_KEY_TRANS
-ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CMSG_IMPORT_KEY_TRANS
 dev_langs:

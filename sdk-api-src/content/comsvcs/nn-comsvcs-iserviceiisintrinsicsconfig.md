@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: fc4524b0-ef00-429d-ad27-cb81f8a5269f
 ms.date: 12/05/2018
 ms.keywords: IServiceIISIntrinsicsConfig, IServiceIISIntrinsicsConfig interface [COM+], IServiceIISIntrinsicsConfig interface [COM+],described, _cos_IServiceIISIntrinsicsConfig, comsvcs/IServiceIISIntrinsicsConfig, cos.iserviceiisintrinsicsconfig
-ms.topic: interface
 f1_keywords:
 - comsvcs/IServiceIISIntrinsicsConfig
 dev_langs:

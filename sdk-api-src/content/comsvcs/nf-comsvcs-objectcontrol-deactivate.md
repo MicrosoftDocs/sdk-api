@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 86ab7f50-6f2e-4c6c-ba4d-fd302cccf97d
 ms.date: 12/05/2018
 ms.keywords: Deactivate, Deactivate method [COM+], Deactivate method [COM+],ObjectControl interface, ObjectControl interface [COM+],Deactivate method, ObjectControl.Deactivate, ObjectControl::Deactivate, _cos_ObjectControl_Deactivate, comsvcs/ObjectControl::Deactivate, cos.objectcontrol_deactivate
-ms.topic: method
 f1_keywords:
 - comsvcs/ObjectControl.Deactivate
 dev_langs:

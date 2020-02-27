@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 599b9c0a-df04-4dbd-a5a6-a8736eecc560
 ms.date: 12/05/2018
 ms.keywords: IShellItem, IShellItem interface [Windows Shell], IShellItem interface [Windows Shell],described, _win32_IShellItem, shell.IShellItem, shobjidl_core/IShellItem
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IShellItem
 dev_langs:

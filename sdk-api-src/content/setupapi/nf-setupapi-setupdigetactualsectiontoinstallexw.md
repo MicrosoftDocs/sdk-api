@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 0f05e3ec-09ea-4d9a-99c9-ddbc16753481
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetActualSectionToInstallEx, SetupDiGetActualSectionToInstallEx function [Device and Driver Installation], SetupDiGetActualSectionToInstallExA, SetupDiGetActualSectionToInstallExW, devinst.setupdigetactualsectiontoinstallex, di-rtns_d8baadc3-b6eb-49cb-a8ca-e3f877c2e8e7.xml, setupapi/SetupDiGetActualSectionToInstallEx
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetActualSectionToInstallEx
 dev_langs:
@@ -248,7 +247,7 @@ Set to the size, in bytes, of an SP_ALTPLATFORM_INFO structure.
 
 
 
-If the function is successful, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>. To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+If the function is successful, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 

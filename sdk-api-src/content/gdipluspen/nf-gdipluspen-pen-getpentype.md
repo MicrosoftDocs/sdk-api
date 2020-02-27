@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getpentype.htm
 ms.date: 12/05/2018
 ms.keywords: GetPenType, GetPenType method [GDI+], GetPenType method [GDI+],Pen class, Pen class [GDI+],GetPenType method, Pen.GetPenType, Pen::GetPenType, _gdiplus_CLASS_Pen_GetPenType_, gdiplus._gdiplus_CLASS_Pen_GetPenType_
-ms.topic: method
 f1_keywords:
 - gdipluspen/Pen.GetPenType
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: a5c13a54-692d-423f-824d-5a96c137dec9
 ms.date: 12/05/2018
 ms.keywords: IPicture interface [COM],get_CurDC method, IPicture.get_CurDC, IPicture::get_CurDC, _ctrl_ipicture_get_curdc, com.ipicture_get_curdc, get_CurDC, get_CurDC method [COM], get_CurDC method [COM],IPicture interface, ocidl/IPicture::get_CurDC
-ms.topic: method
 f1_keywords:
 - ocidl/IPicture.get_CurDC
 dev_langs:

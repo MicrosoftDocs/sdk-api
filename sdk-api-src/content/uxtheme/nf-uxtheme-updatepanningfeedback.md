@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\updatepanningfeedback.htm
 ms.date: 12/05/2018
 ms.keywords: UpdatePanningFeedback, UpdatePanningFeedback function [Windows Controls], _controls_UpdatePanningFeedback, _controls_UpdatePanningFeedback_cpp, controls.UpdatePanningFeedback, controls._controls_UpdatePanningFeedback, uxtheme/UpdatePanningFeedback
-ms.topic: function
 f1_keywords:
 - uxtheme/UpdatePanningFeedback
 dev_langs:

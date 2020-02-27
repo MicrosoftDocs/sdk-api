@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 7d63ec9d-bf7a-4c5d-a1e7-4dcc0f236d07
 ms.date: 12/05/2018
 ms.keywords: GetProgress, GetProgress method [Windows Update Agent], GetProgress method [Windows Update Agent],IInstallationJob interface, IInstallationJob interface [Windows Update Agent],GetProgress method, IInstallationJob.GetProgress, IInstallationJob::GetProgress, wua.iinstallationjob_getprogress, wuapi/IInstallationJob::GetProgress
-ms.topic: method
 f1_keywords:
 - wuapi/IInstallationJob.GetProgress
 dev_langs:

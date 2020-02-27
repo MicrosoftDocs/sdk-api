@@ -7,7 +7,6 @@ tech.root: wsl
 ms.assetid: 51751073-922D-43B9-A253-2017CEEC262A
 ms.date: 12/05/2018
 ms.keywords: WslIsDistributionRegistered, WslIsDistributionRegistered function, wsl.wslisdistributionregistered, wslapi/WslIsDistributionRegistered
-ms.topic: function
 f1_keywords:
 - wslapi/WslIsDistributionRegistered
 dev_langs:

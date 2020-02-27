@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 43ed5c7e-2d31-417e-9d87-c3100e5096d0
 ms.date: 12/05/2018
 ms.keywords: IEnumTuneRequests interface [Microsoft TV Technologies],Skip method, IEnumTuneRequests.Skip, IEnumTuneRequests::Skip, IEnumTuneRequestsSkip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],IEnumTuneRequests interface, bdatif/IEnumTuneRequests::Skip, mstv.ienumtunerequests_skip
-ms.topic: method
 f1_keywords:
 - bdatif/IEnumTuneRequests.Skip
 dev_langs:

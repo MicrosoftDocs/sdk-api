@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 2a8c5e13-f7af-47ea-b781-a739d848fe09
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseMerge, MsiDatabaseMerge function, MsiDatabaseMergeA, MsiDatabaseMergeW, _msi_msidatabasemerge, msiquery/MsiDatabaseMerge, msiquery/MsiDatabaseMergeA, msiquery/MsiDatabaseMergeW, setup.msidatabasemerge
-ms.topic: function
 f1_keywords:
 - msiquery/MsiDatabaseMerge
 dev_langs:

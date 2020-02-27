@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 8d3f62df-6de1-4871-903f-05ac234db17f
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [GPMC], Add method [GPMC],IGPMSearchCriteria interface, IGPMSearchCriteria interface [GPMC],Add method, IGPMSearchCriteria.Add, IGPMSearchCriteria::Add, _win32_igpmsearchcriteria_add, gpmc.igpmsearchcriteria_add, gpmgmt/IGPMSearchCriteria::Add
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPMSearchCriteria.Add
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 0e918cf0-e9aa-402a-9db6-f9a39c718962
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetDevice, MCIWndGetDevice macro [Windows Multimedia], _win32_MCIWndGetDevice, multimedia.mciwndgetdevice, vfw/MCIWndGetDevice
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndGetDevice
 dev_langs:

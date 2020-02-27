@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\fillmode.htm
 ms.date: 12/05/2018
 ms.keywords: FillMode, FillMode enumeration [GDI+], FillModeAlternate, FillModeWinding, _gdiplus_ENUM_FillMode, gdiplus._gdiplus_ENUM_FillMode, gdiplusenums/FillMode, gdiplusenums/FillModeAlternate, gdiplusenums/FillModeWinding
-ms.topic: enum
 f1_keywords:
 - gdiplusenums/FillMode
 dev_langs:

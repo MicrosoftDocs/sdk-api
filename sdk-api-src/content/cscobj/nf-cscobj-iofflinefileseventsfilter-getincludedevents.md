@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: ecb10da3-7566-43f7-8349-f94e59e12907
 ms.date: 12/05/2018
 ms.keywords: GetIncludedEvents, GetIncludedEvents method [Offline Files], GetIncludedEvents method [Offline Files],IOfflineFilesEventsFilter interface, IOfflineFilesEventsFilter interface [Offline Files],GetIncludedEvents method, IOfflineFilesEventsFilter.GetIncludedEvents, IOfflineFilesEventsFilter::GetIncludedEvents, cscobj/IOfflineFilesEventsFilter::GetIncludedEvents, of.iofflinefileseventsfilter_getincludedevents
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesEventsFilter.GetIncludedEvents
 dev_langs:

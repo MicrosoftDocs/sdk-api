@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: c1a54d82-3fea-4f65-be46-d2a81d639429
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpCreateOptionV6, DhcpCreateOptionV6 function [DHCP], dhcp.dhcpcreateoptionv6, dhcpsapi/DhcpCreateOptionV6
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpCreateOptionV6
 dev_langs:
@@ -89,7 +88,7 @@ This flag must be set if the option is provided by a vendor.
 ### -param OptionId [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that contains the unique option ID number (also called an "option code") of the new option. Many of these option ID numbers are defined; a complete list of standard DHCP and BOOTP option codes can be found at <a href="http://go.microsoft.com/fwlink/p/?linkid=132626">http://www.ietf.org/rfc/rfc3315.txt</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that contains the unique option ID number (also called an "option code") of the new option. Many of these option ID numbers are defined; a complete list of standard DHCP and BOOTP option codes can be found at <a href="https://www.ietf.org/rfc/rfc3315.txt">http://www.ietf.org/rfc/rfc3315.txt</a>.
 
 
 ### -param ClassName [in, optional]

@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 45085cad-2bfb-4f6c-9e42-6041fed681b8
 ms.date: 12/05/2018
 ms.keywords: SnmpOpen, SnmpOpen function [SNMP], _snmp_snmpopen, snmp.snmpopen, winsnmp/SnmpOpen
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpOpen
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sortitems.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_SortItems, ListView_SortItems macro [Windows Controls], _win32_ListView_SortItems, _win32_ListView_SortItems_cpp, commctrl/ListView_SortItems, controls.ListView_SortItems, controls._win32_ListView_SortItems
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_SortItems
 dev_langs:

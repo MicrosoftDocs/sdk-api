@@ -7,7 +7,6 @@ tech.root: Madcap
 ms.assetid: eccf52ee-8145-4a8f-9d34-5a56bfc8a48c
 ms.date: 12/05/2018
 ms.keywords: McastApiCleanup, McastApiCleanup function [MADCAP], _mdhcp_mcastapicleanup, madcap.mcastapicleanup, madcapcl/McastApiCleanup
-ms.topic: function
 f1_keywords:
 - madcapcl/McastApiCleanup
 dev_langs:

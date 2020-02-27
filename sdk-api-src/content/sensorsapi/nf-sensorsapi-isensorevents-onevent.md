@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: 7dfe25d1-dc0e-4e97-8dad-ca66a829aa4c
 ms.date: 12/05/2018
 ms.keywords: ISensorEvents interface,OnEvent method, ISensorEvents.OnEvent, ISensorEvents::OnEvent, OnEvent, OnEvent method, OnEvent method,ISensorEvents interface, sensorsapi/ISensorEvents::OnEvent, winsensors_com_ref.isensorevents_onevent
-ms.topic: method
 f1_keywords:
 - sensorsapi/ISensorEvents.OnEvent
 dev_langs:
@@ -70,7 +69,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsap
 
 ### -param pEventData [in]
 
-Pointer to the <a href="http://go.microsoft.com/fwlink/p/?linkid=134660">IPortableDeviceValues</a> interface that contains the event data.
+Pointer to the <a href="https://msdn.microsoft.com/library/ms740012(VS.85).aspx">IPortableDeviceValues</a> interface that contains the event data.
 
 
 ## -returns

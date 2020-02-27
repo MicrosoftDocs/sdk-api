@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 515e5f01-a68f-4e67-acf5-cac1923d485e
 ms.date: 12/05/2018
 ms.keywords: ITfFnConfigureRegisterWord, ITfFnConfigureRegisterWord interface [Text Services Framework], ITfFnConfigureRegisterWord interface [Text Services Framework],described, _tsf_itffnconfigureregisterword_ref, ctffunc/ITfFnConfigureRegisterWord, tsf.itffnconfigureregisterword
-ms.topic: interface
 f1_keywords:
 - ctffunc/ITfFnConfigureRegisterWord
 dev_langs:

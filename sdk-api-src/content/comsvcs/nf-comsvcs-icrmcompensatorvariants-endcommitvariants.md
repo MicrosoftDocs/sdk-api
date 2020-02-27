@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 1004437b-0281-439c-9b6d-0043caeb2844
 ms.date: 12/05/2018
 ms.keywords: EndCommitVariants, EndCommitVariants method [COM+], EndCommitVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],EndCommitVariants method, ICrmCompensatorVariants.EndCommitVariants, ICrmCompensatorVariants::EndCommitVariants, _dtc_ICrmCompensatorVariants_EndCommitVariants, comsvcs/ICrmCompensatorVariants::EndCommitVariants, cos.icrmcompensatorvariants_endcommitvariants
-ms.topic: method
 f1_keywords:
 - comsvcs/ICrmCompensatorVariants.EndCommitVariants
 dev_langs:

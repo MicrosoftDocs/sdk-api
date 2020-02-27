@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: c781f189-f27b-4f37-af53-144e1ae8cb75
 ms.date: 12/05/2018
 ms.keywords: IEmailAction interface [Task Scheduler],Server property, IEmailAction.Server, IEmailAction.put_Server, IEmailAction::Server, IEmailAction::get_Server, IEmailAction::put_Server, Server property [Task Scheduler], Server property [Task Scheduler],IEmailAction interface, put_Server, taskschd.iemailaction_server, taskschd/IEmailAction::Server, taskschd/IEmailAction::get_Server, taskschd/IEmailAction::put_Server
-ms.topic: method
 f1_keywords:
 - taskschd/IEmailAction.Server
 dev_langs:
@@ -66,7 +65,7 @@ This property is read/write.
 
 
 
-Make sure the SMTP server that sends the email is setup correctly. E-mail is sent using NTLM authentication for Windows SMTP servers, which means that the security credentials used for running the task must also have privileges on the SMTP server to send email message. If the SMTP server is a non-Windows based server, then the email will be sent if the server allows anonymous access.  For information about setting up the SMTP server, see <a href="http://go.microsoft.com/fwlink/p/?linkid=69001">SMTP Server Setup</a>, and for information about managing SMTP server settings, see <a href="http://go.microsoft.com/fwlink/p/?linkid=69002">SMTP Administration</a>.
+Make sure the SMTP server that sends the email is setup correctly. E-mail is sent using NTLM authentication for Windows SMTP servers, which means that the security credentials used for running the task must also have privileges on the SMTP server to send email message. If the SMTP server is a non-Windows based server, then the email will be sent if the server allows anonymous access.  For information about setting up the SMTP server, see <a href="https://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/e4cf06f5-9a36-474b-ba78-3f287a2b88f2.mspx?mfr=true">SMTP Server Setup</a>, and for information about managing SMTP server settings, see <a href="https://technet.microsoft.com/library/79b21824-0eee-46e6-8976-22a249daeb1c">SMTP Administration</a>.
 
 
 

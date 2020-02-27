@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: c15a7473-41e5-4d84-aaaa-c547dd38826b
 ms.date: 12/05/2018
 ms.keywords: MFP_GET_PLAYBACK_ENDED_EVENT, MFP_GET_PLAYBACK_ENDED_EVENT macro [Media Foundation], mf.mfp_get_playback_ended_event, mfplay/MFP_GET_PLAYBACK_ENDED_EVENT
-ms.topic: macro
 f1_keywords:
 - mfplay/MFP_GET_PLAYBACK_ENDED_EVENT
 dev_langs:

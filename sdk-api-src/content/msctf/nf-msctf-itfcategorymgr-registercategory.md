@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 9e9a72a8-ea9b-4438-992c-5a7db64f7d82
 ms.date: 12/05/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],RegisterCategory method, ITfCategoryMgr.RegisterCategory, ITfCategoryMgr::RegisterCategory, RegisterCategory, RegisterCategory method [Text Services Framework], RegisterCategory method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_registercategory_ref, msctf/ITfCategoryMgr::RegisterCategory, tsf.itfcategorymgr_registercategory
-ms.topic: method
 f1_keywords:
 - msctf/ITfCategoryMgr.RegisterCategory
 dev_langs:

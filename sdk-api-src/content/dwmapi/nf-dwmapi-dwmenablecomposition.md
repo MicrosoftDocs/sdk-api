@@ -7,7 +7,6 @@ tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmenablecomposition.htm
 ms.date: 12/05/2018
 ms.keywords: DwmEnableComposition, DwmEnableComposition function [Desktop Window Manager], _udwm_dwmenablecomposition, _udwm_dwmenablecomposition_cpp, dwm.dwmenablecomposition, dwmapi/DwmEnableComposition, winui._udwm_dwmenablecomposition
-ms.topic: function
 f1_keywords:
 - dwmapi/DwmEnableComposition
 dev_langs:

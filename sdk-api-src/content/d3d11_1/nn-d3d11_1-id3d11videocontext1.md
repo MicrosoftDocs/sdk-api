@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 64D12F68-C2AA-4C1D-9608-5F97CF7AD430
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext1, ID3D11VideoContext1 interface [Media Foundation], ID3D11VideoContext1 interface [Media Foundation],described, d3d11_1/ID3D11VideoContext1, mf.id3d11videocontext1
-ms.topic: interface
 f1_keywords:
 - d3d11_1/ID3D11VideoContext1
 dev_langs:
@@ -201,7 +200,7 @@ Specifies whether the video processor input stream should be flipped vertically 
 
 
 
-To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> with an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1">ID3D11DeviceContext1</a>  interface pointer.
+To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> with an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1">ID3D11DeviceContext1</a>  interface pointer.
 
 
 

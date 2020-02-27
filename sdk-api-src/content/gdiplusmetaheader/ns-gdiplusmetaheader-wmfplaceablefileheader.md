@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\wmfplaceablefileheader.htm
 ms.date: 12/05/2018
 ms.keywords: WmfPlaceableFileHeader, WmfPlaceableFileHeader structure [GDI+], _gdiplus_STRUC_WmfPlaceableFileHeader, gdiplus._gdiplus_STRUC_WmfPlaceableFileHeader, gdiplusmetaheader/WmfPlaceableFileHeader
-ms.topic: struct
 f1_keywords:
 - gdiplusmetaheader/WmfPlaceableFileHeader
 dev_langs:

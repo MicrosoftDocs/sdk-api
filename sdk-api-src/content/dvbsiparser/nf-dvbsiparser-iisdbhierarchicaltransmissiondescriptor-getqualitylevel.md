@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 4890c3aa-487f-41c7-9202-636ded2ec46b
 ms.date: 12/05/2018
 ms.keywords: GetQualityLevel, GetQualityLevel method [Microsoft TV Technologies], GetQualityLevel method [Microsoft TV Technologies],IIsdbHierarchicalTransmissionDescriptor interface, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],GetQualityLevel method, IIsdbHierarchicalTransmissionDescriptor.GetQualityLevel, IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel, mstv.iisdbhierarchicaltransmissiondescriptor_getqualitylevel
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbHierarchicalTransmissionDescriptor.GetQualityLevel
 dev_langs:

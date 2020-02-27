@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: e461ff83-c3fc-43f2-934b-3f4c3afd0061
 ms.date: 12/05/2018
 ms.keywords: IBDA_NetworkProvider interface [Microsoft TV Technologies],PutSignalSource method, IBDA_NetworkProvider.PutSignalSource, IBDA_NetworkProvider::PutSignalSource, IBDA_NetworkProviderPutSignalSource, PutSignalSource, PutSignalSource method [Microsoft TV Technologies], PutSignalSource method [Microsoft TV Technologies],IBDA_NetworkProvider interface, bdaiface/IBDA_NetworkProvider::PutSignalSource, mstv.ibda_networkprovider_putsignalsource
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_NetworkProvider.PutSignalSource
 dev_langs:

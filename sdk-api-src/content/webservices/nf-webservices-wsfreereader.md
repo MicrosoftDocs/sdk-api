@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 31163bea-266f-43a3-bdf5-61386ebc197c
 ms.date: 12/05/2018
 ms.keywords: WsFreeReader, WsFreeReader function [Web Services for Windows], webservices/WsFreeReader, wsw.wsfreereader
-ms.topic: function
 f1_keywords:
 - webservices/WsFreeReader
 dev_langs:

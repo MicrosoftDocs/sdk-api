@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 2f37dbd2-3078-4aa8-97e7-556a0ff2dd74
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPrintTicketResource, IXpsOMPrintTicketResource interface [XPS Documents and Packaging], IXpsOMPrintTicketResource interface [XPS Documents and Packaging],described, xps.ixpsomprintticketresource, xpsobjectmodel/IXpsOMPrintTicketResource
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMPrintTicketResource
 dev_langs:
@@ -106,7 +105,7 @@ Sets the read-only stream to be  associated with this resource.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

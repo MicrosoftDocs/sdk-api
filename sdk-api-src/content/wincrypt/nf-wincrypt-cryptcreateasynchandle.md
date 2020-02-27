@@ -3,7 +3,6 @@ UID: NF:wincrypt.CryptCreateAsyncHandle
 title: CryptCreateAsyncHandle
 ms.date: 4/26/2019
 ms.keywords: CryptCreateAsyncHandle
-ms.topic: language-reference
 f1_keywords:
 - CryptCreateAsyncHandle
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 68200f28-85af-4275-8e9e-7f093fd94a0c
 ms.date: 12/05/2018
 ms.keywords: HSGetSamplers, HSGetSamplers method [Direct3D 11], HSGetSamplers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],HSGetSamplers method, ID3D11DeviceContext.HSGetSamplers, ID3D11DeviceContext::HSGetSamplers, c5ee5b99-92fc-30d9-6336-840480f3c84a, d3d11/ID3D11DeviceContext::HSGetSamplers, direct3d11.id3d11devicecontext_hsgetsamplers
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11DeviceContext.HSGetSamplers
 dev_langs:

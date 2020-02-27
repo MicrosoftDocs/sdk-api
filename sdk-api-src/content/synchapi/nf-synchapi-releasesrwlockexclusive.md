@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 77f9b8ee-f922-4bd1-b715-ccb1ca891dcc
 ms.date: 12/05/2018
 ms.keywords: ReleaseSRWLockExclusive, ReleaseSRWLockExclusive function, base.releasesrwlockexclusive, synchapi/ReleaseSRWLockExclusive, winbase/ReleaseSRWLockExclusive
-ms.topic: function
 f1_keywords:
 - synchapi/ReleaseSRWLockExclusive
 dev_langs:

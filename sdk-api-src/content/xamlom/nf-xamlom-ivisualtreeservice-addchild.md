@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: 0F3BFACA-0B4C-4CC5-A48B-BD3921728612
 ms.date: 12/05/2018
 ms.keywords: AddChild, AddChild method, AddChild method,IVisualTreeService interface, IVisualTreeService interface,AddChild method, IVisualTreeService.AddChild, IVisualTreeService::AddChild, xaml_diagnostics.ivisualtreeservice_addchild, xamlom/IVisualTreeService::AddChild
-ms.topic: method
 f1_keywords:
 - xamlom/IVisualTreeService.AddChild
 dev_langs:

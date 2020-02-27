@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 43257507-dd5e-4622-8445-c132187fd1e5
 ms.date: 12/05/2018
 ms.keywords: AssocCreateForClasses, AssocCreateForClasses function [Windows Shell], _shell_AssocCreateForClasses, shell.AssocCreateForClasses, shellapi/AssocCreateForClasses
-ms.topic: function
 f1_keywords:
 - shellapi/AssocCreateForClasses
 dev_langs:

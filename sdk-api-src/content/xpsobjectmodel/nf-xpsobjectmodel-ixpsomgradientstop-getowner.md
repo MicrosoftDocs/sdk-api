@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: a590e461-bf86-4379-b29a-ecdba57bd3f8
 ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMGradientStop interface, IXpsOMGradientStop interface [XPS Documents and Packaging],GetOwner method, IXpsOMGradientStop.GetOwner, IXpsOMGradientStop::GetOwner, xps.ixpsomgradientstop_getowner, xpsobjectmodel/IXpsOMGradientStop::GetOwner
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGradientStop.GetOwner
 dev_langs:
@@ -115,7 +114,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

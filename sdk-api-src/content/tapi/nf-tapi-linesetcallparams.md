@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: c8088116-2bfc-420f-a83a-d00c7947b6e7
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linesetcallparams, lineSetCallParams, lineSetCallParams function [TAPI 2.2], tapi/lineSetCallParams, tapi2.linesetcallparams
-ms.topic: function
 f1_keywords:
 - tapi/lineSetCallParams
 dev_langs:

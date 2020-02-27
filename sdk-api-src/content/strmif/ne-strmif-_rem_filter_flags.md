@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0bc91914-fa43-4ab7-a85e-30590a717c47
 ms.date: 12/05/2018
 ms.keywords: REMFILTERF_LEAVECONNECTED, REM_FILTER_FLAGS , REM_FILTER_FLAGSEnumeration, _REM_FILTER_FLAGS, _REM_FILTER_FLAGS enumeration [DirectShow], dshow.rem_filter_flags, strmif/REMFILTERF_LEAVECONNECTED, strmif/_REM_FILTER_FLAGS
-ms.topic: enum
 f1_keywords: 
  - "strmif/_REM_FILTER_FLAGS"
 dev_langs:

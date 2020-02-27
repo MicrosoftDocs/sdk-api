@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: D6A72D9F-108F-4eaf-A867-F81C86C08809
 ms.date: 12/05/2018
 ms.keywords: IUserNotification2 interface [Windows Shell],SetBalloonRetry method, IUserNotification2.SetBalloonRetry, IUserNotification2::SetBalloonRetry, SetBalloonRetry, SetBalloonRetry method [Windows Shell], SetBalloonRetry method [Windows Shell],IUserNotification2 interface, _shell_IUserNotification2_SetBalloonRetry, shell.IUserNotification2_SetBalloonRetry, shobjidl/IUserNotification2::SetBalloonRetry
-ms.topic: method
 f1_keywords:
 - shobjidl/IUserNotification2.SetBalloonRetry
 dev_langs:

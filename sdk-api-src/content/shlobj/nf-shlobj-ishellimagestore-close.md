@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6228228a-1c12-467c-849c-b360d79ee5ca
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows Shell], Close method [Windows Shell],IShellImageStore interface, IShellImageStore interface [Windows Shell],Close method, IShellImageStore.Close, IShellImageStore::Close, _win32_IShellImageStore_Close, shell.IShellImageStore_Close, shlobj/IShellImageStore::Close
-ms.topic: method
 f1_keywords:
 - shlobj/IShellImageStore.Close
 dev_langs:

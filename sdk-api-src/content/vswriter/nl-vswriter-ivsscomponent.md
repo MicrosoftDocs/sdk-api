@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: c686a424-b0b9-4efc-8dc6-b92193de2a5d
 ms.date: 12/05/2018
 ms.keywords: IVssComponent, IVssComponent interface [VSS], IVssComponent interface [VSS],described, _win32_ivsscomponent, base.ivsscomponent, vswriter/IVssComponent
-ms.topic: class
 f1_keywords:
 - vswriter/IVssComponent
 dev_langs:

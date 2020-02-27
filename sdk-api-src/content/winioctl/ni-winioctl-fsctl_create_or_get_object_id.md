@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 78a2dfa0-a095-4ca3-bfbb-4535086dee4a
 ms.date: 12/05/2018
 ms.keywords: FSCTL_CREATE_OR_GET_OBJECT_ID, FSCTL_CREATE_OR_GET_OBJECT_ID control, FSCTL_CREATE_OR_GET_OBJECT_ID control code [Files], _win32_fsctl_create_or_get_object_id, base.fsctl_create_or_get_object_id, fs.fsctl_create_or_get_object_id, winioctl/FSCTL_CREATE_OR_GET_OBJECT_ID
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_CREATE_OR_GET_OBJECT_ID
 dev_langs:

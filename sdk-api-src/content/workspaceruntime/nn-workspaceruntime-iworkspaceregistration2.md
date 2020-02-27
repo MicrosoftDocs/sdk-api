@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: b677863a-c8cc-4ed8-aea4-16de1cba21c4
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceRegistration2, IWorkspaceRegistration2 interface [Remote Desktop Services], IWorkspaceRegistration2 interface [Remote Desktop Services],described, termserv.iworkspaceregistration2, workspaceruntime/IWorkspaceRegistration2
-ms.topic: interface
 f1_keywords:
 - workspaceruntime/IWorkspaceRegistration2
 dev_langs:

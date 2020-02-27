@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 93e22735-83a4-4037-abea-b72277f8b857
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportConfigurationManager2, IWdsTransportConfigurationManager2 interface [Windows Deployment Services], IWdsTransportConfigurationManager2 interface [Windows Deployment Services],described, wds.iwdstransportconfigurationmanager2, wdstptmgmt/IWdsTransportConfigurationManager2
-ms.topic: interface
 f1_keywords:
 - wdstptmgmt/IWdsTransportConfigurationManager2
 dev_langs:
@@ -54,7 +53,7 @@ ms.custom: 19H1
 
 This interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportconfigurationmanager">IWdsTransportConfigurationManager</a> interface and extends it with configuration settings, such as multicast session policy, that are available beginning with Windows Server 2008 R2. 
 
-A client application can obtain an interface pointer to an instance of the <b>IWdsTransportConfigurationManager2</b> interface by first getting an interface pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportconfigurationmanager">IWdsTransportConfigurationManager</a> interface  and then using the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface Method</a>. 
+A client application can obtain an interface pointer to an instance of the <b>IWdsTransportConfigurationManager2</b> interface by first getting an interface pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportconfigurationmanager">IWdsTransportConfigurationManager</a> interface  and then using the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface Method</a>. 
 
 
 ## -see-also

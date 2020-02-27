@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: c63c794c-41a0-4f07-be93-ba24dc156ca2
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],Initialize method, IWRdsProtocolManager.Initialize, IWRdsProtocolManager::Initialize, Initialize, Initialize method [Remote Desktop Services], Initialize method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_initialize, wtsprotocol/IWRdsProtocolManager::Initialize
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWRdsProtocolManager.Initialize
 dev_langs:

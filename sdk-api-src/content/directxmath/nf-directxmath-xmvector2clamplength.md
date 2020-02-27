@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2ClampLength(XMVECTOR,float,float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2ClampLength, XMVector2ClampLength, XMVector2ClampLength method [DirectX Math Support APIs], dxmath.xmvector2clamplength
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector2ClampLength
 dev_langs:

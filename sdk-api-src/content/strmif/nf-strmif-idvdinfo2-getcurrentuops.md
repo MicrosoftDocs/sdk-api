@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 71ae88f0-17ad-4530-b2e7-6a8155c14a97
 ms.date: 12/05/2018
 ms.keywords: GetCurrentUOPS, GetCurrentUOPS method [DirectShow], GetCurrentUOPS method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentUOPS method, IDvdInfo2.GetCurrentUOPS, IDvdInfo2::GetCurrentUOPS, IDvdInfo2GetCurrentUOPS, dshow.idvdinfo2_getcurrentuops, strmif/IDvdInfo2::GetCurrentUOPS
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo2.GetCurrentUOPS
 dev_langs:
@@ -64,7 +63,7 @@ The <code>GetCurrentUOPS</code> method retrieves a set of flags indicating which
 
 ### -param pulUOPs [out]
 
-Receives a bitwise <b>OR</b> of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-valid_uop_flag">VALID_UOP_FLAG</a> values. Each bit represents the state (valid or not valid) of a user operation (UOP). If the bit is set, then that user operation is prohibited. See Remarks.
+Receives a bitwise [VALID_UOP_FLAG](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-valid_uop_flag) values. Each bit represents the state (valid or not valid) of a user operation (UOP). If the bit is set, then that user operation is prohibited. See Remarks.
 
 
 ## -returns

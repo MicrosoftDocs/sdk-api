@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: A7DF79E0-137D-4CBD-AD03-B9BC4532D60F
 ms.date: 12/05/2018
 ms.keywords: GetBreakOnID, GetBreakOnID method [DXGI], GetBreakOnID method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetBreakOnID method, IDXGIInfoQueue.GetBreakOnID, IDXGIInfoQueue::GetBreakOnID, direct3ddxgi.idxgiinfoqueue_getbreakonid, dxgidebug/IDXGIInfoQueue::GetBreakOnID
-ms.topic: method
 f1_keywords:
 - dxgidebug/IDXGIInfoQueue.GetBreakOnID
 dev_langs:

@@ -1,5 +1,5 @@
 ---
-UID: NS:winhttp.__unnamed_struct_2
+UID: NS:winhttp._URL_COMPONENTS
 title: URL_COMPONENTS (winhttp.h)
 description: The URL_COMPONENTS structure contains the constituent parts of a URL. This structure is used with the WinHttpCrackUrl and WinHttpCreateUrl functions.
 old-location: http\url_components.htm
@@ -7,7 +7,6 @@ tech.root: WinHttp
 ms.assetid: 4d2c6f82-6b61-4a7b-a5d7-560152e25302
 ms.date: 12/05/2018
 ms.keywords: '*LPURL_COMPONENTS, INTERNET_SCHEME_HTTP, INTERNET_SCHEME_HTTPS, URL_COMPONENTS, URL_COMPONENTS structure [HTTP], URL_COMPONENTSW, http.url_components, winhttp/URL_COMPONENTS, winhttp_url_components_structure'
-ms.topic: struct
 f1_keywords:
 - winhttp/URL_COMPONENTS
 dev_langs:
@@ -92,7 +91,7 @@ Internet protocol scheme.  This member can be one of the following values.
 </td>
 <td width="60%">
 The Internet scheme is the HTTP protocol.  See 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a> for more information.
+<a href="https://www.ietf.org/rfc/rfc2616.txt">RFC 2616</a> for more information.
 
 </td>
 </tr>

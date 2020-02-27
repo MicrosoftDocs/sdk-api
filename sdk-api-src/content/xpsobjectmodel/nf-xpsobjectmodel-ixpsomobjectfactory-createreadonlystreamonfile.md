@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 00df5162-6fcd-4df8-b7d4-614c14aca8b5
 ms.date: 12/05/2018
 ms.keywords: CreateReadOnlyStreamOnFile, CreateReadOnlyStreamOnFile method [XPS Documents and Packaging], CreateReadOnlyStreamOnFile method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateReadOnlyStreamOnFile method, IXpsOMObjectFactory.CreateReadOnlyStreamOnFile, IXpsOMObjectFactory::CreateReadOnlyStreamOnFile, xps.ixpsomobjectfactory_createreadonlystreamonfile, xpsobjectmodel/IXpsOMObjectFactory::CreateReadOnlyStreamOnFile
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreateReadOnlyStreamOnFile
 dev_langs:
@@ -147,7 +146,7 @@ This method calls the <a href="https://docs.microsoft.com/previous-versions/wind
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

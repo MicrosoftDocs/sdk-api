@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: F0A07900-8F10-475B-B13F-E0F49B50C2EB
 ms.date: 12/05/2018
 ms.keywords: GetMaximumFrameLatency, GetMaximumFrameLatency method [DXGI], GetMaximumFrameLatency method [DXGI],IDXGISwapChain2 interface, IDXGISwapChain2 interface [DXGI],GetMaximumFrameLatency method, IDXGISwapChain2.GetMaximumFrameLatency, IDXGISwapChain2::GetMaximumFrameLatency, direct3ddxgi.idxgiswapchain2_getmaximumframelatency, dxgi1_3/IDXGISwapChain2::GetMaximumFrameLatency
-ms.topic: method
 f1_keywords:
 - dxgi1_3/IDXGISwapChain2.GetMaximumFrameLatency
 dev_langs:
@@ -85,7 +84,7 @@ Returns S_OK if successful; otherwise, returns one of the following members of t
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=320129">DirectX latency sample</a>
+<a href="https://code.msdn.microsoft.com/windowsapps/DirectXLatency-sample-a2e2c9c3">DirectX latency sample</a>
 
 
 

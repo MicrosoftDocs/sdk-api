@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8d0049e0-e227-40ae-a282-cdc17f227e24
 ms.date: 12/05/2018
 ms.keywords: ITransferDestination, ITransferDestination interface [Windows Shell], ITransferDestination interface [Windows Shell],described, _shell_ITransferDestination, shell.ITransferDestination, shobjidl_core/ITransferDestination
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/ITransferDestination
 dev_langs:

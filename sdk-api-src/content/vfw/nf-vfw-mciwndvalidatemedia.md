@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 25dc3d0c-6718-4155-9a60-e140da0473e8
 ms.date: 12/05/2018
 ms.keywords: MCIWndValidateMedia, MCIWndValidateMedia macro [Windows Multimedia], _win32_MCIWndValidateMedia, multimedia.mciwndvalidatemedia, vfw/MCIWndValidateMedia
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndValidateMedia
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 7881eea8-e4e3-48cf-ba8f-b5c23910ae7d
 ms.date: 12/05/2018
 ms.keywords: '*PVALENTA, PVALENT, PVALENT structure pointer, VALENT, VALENT structure, VALENTA, VALENTW, _win32_valent_str, base.valent_str, winreg/PVALENT, winreg/VALENT, winreg/VALENTA, winreg/VALENTW'
-ms.topic: struct
 f1_keywords:
 - winreg/VALENT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 63b1f842-139b-4558-8105-4986ce592b56
 ms.date: 12/05/2018
 ms.keywords: IStream_ReadPidl, IStream_ReadPidl function [Windows Shell], _shell_IStream_ReadPidl, shell.IStream_ReadPidl, shlwapi/IStream_ReadPidl
-ms.topic: function
 f1_keywords:
 - shlwapi/IStream_ReadPidl
 dev_langs:

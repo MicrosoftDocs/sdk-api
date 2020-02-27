@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: AB14DE3E-97EA-47BE-8917-805B9651ED3A
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESOURCE_STATES, D3D12_RESOURCE_STATES enumeration, D3D12_RESOURCE_STATE_COMMON, D3D12_RESOURCE_STATE_COPY_DEST, D3D12_RESOURCE_STATE_COPY_SOURCE, D3D12_RESOURCE_STATE_DEPTH_READ, D3D12_RESOURCE_STATE_DEPTH_WRITE, D3D12_RESOURCE_STATE_GENERIC_READ, D3D12_RESOURCE_STATE_INDEX_BUFFER, D3D12_RESOURCE_STATE_INDIRECT_ARGUMENT, D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE, D3D12_RESOURCE_STATE_PREDICATION, D3D12_RESOURCE_STATE_PRESENT, D3D12_RESOURCE_STATE_RENDER_TARGET, D3D12_RESOURCE_STATE_RESOLVE_DEST, D3D12_RESOURCE_STATE_RESOLVE_SOURCE, D3D12_RESOURCE_STATE_STREAM_OUT, D3D12_RESOURCE_STATE_UNORDERED_ACCESS, D3D12_RESOURCE_STATE_VERTEX_AND_CONSTANT_BUFFER, D3D12_RESOURCE_STATE_VIDEO_DECODE_READ, D3D12_RESOURCE_STATE_VIDEO_DECODE_WRITE, D3D12_RESOURCE_STATE_VIDEO_PROCESS_READ, D3D12_RESOURCE_STATE_VIDEO_PROCESS_WRITE, d3d12/D3D12_RESOURCE_STATES, d3d12/D3D12_RESOURCE_STATE_COMMON, d3d12/D3D12_RESOURCE_STATE_COPY_DEST, d3d12/D3D12_RESOURCE_STATE_COPY_SOURCE, d3d12/D3D12_RESOURCE_STATE_DEPTH_READ, d3d12/D3D12_RESOURCE_STATE_DEPTH_WRITE, d3d12/D3D12_RESOURCE_STATE_GENERIC_READ, d3d12/D3D12_RESOURCE_STATE_INDEX_BUFFER, d3d12/D3D12_RESOURCE_STATE_INDIRECT_ARGUMENT, d3d12/D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE, d3d12/D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE, d3d12/D3D12_RESOURCE_STATE_PREDICATION, d3d12/D3D12_RESOURCE_STATE_PRESENT, d3d12/D3D12_RESOURCE_STATE_RENDER_TARGET, d3d12/D3D12_RESOURCE_STATE_RESOLVE_DEST, d3d12/D3D12_RESOURCE_STATE_RESOLVE_SOURCE, d3d12/D3D12_RESOURCE_STATE_STREAM_OUT, d3d12/D3D12_RESOURCE_STATE_UNORDERED_ACCESS, d3d12/D3D12_RESOURCE_STATE_VERTEX_AND_CONSTANT_BUFFER, d3d12/D3D12_RESOURCE_STATE_VIDEO_DECODE_READ, d3d12/D3D12_RESOURCE_STATE_VIDEO_DECODE_WRITE, d3d12/D3D12_RESOURCE_STATE_VIDEO_PROCESS_READ, d3d12/D3D12_RESOURCE_STATE_VIDEO_PROCESS_WRITE, direct3d12.d3d12_resource_states
-ms.topic: enum
 f1_keywords:
 - d3d12/D3D12_RESOURCE_STATES
 dev_langs:
@@ -61,7 +60,7 @@ Additionally, textures must be in the COMMON state for CPU access to be legal, a
 
 ### -field D3D12_RESOURCE_STATE_VERTEX_AND_CONSTANT_BUFFER
 
-A subresource must be in this state when it is accessed by the 3D pipeline as a vertex buffer or constant buffer. This is a read-only state.
+A subresource must be in this state when it is accessed by the GPU as a vertex buffer or constant buffer. This is a read-only state.
 
 ### -field D3D12_RESOURCE_STATE_INDEX_BUFFER
 
@@ -75,7 +74,7 @@ This is a write-only state. To read from a render target as a shader resource th
 
 ### -field D3D12_RESOURCE_STATE_UNORDERED_ACCESS
 
-The resource is used for unordered access. A subresource must be in this state when it is accessed by the 3D pipeline via an unordered access view. A subresource must also be in this state when it is cleared with <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewuint">ID3D12GraphicsCommandList::ClearUnorderedAccessViewInt</a> or <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewfloat">ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat</a>. This is a read/write state.
+The resource is used for unordered access. A subresource must be in this state when it is accessed by the GPU via an unordered access view. A subresource must also be in this state when it is cleared with <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewuint">ID3D12GraphicsCommandList::ClearUnorderedAccessViewInt</a> or <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewfloat">ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat</a>. This is a read/write state.
 
 ### -field D3D12_RESOURCE_STATE_DEPTH_WRITE
 

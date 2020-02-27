@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f0bac4c7-5bb6-4a9d-8f16-db97e7efee5a
 ms.date: 12/05/2018
 ms.keywords: GetKeywords, GetKeywords method [XPS Documents and Packaging], GetKeywords method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetKeywords method, IXpsOMCoreProperties.GetKeywords, IXpsOMCoreProperties::GetKeywords, xps.ixpsomcoreproperties_getkeywords, xpsobjectmodel/IXpsOMCoreProperties::GetKeywords
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.GetKeywords
 dev_langs:
@@ -124,11 +123,11 @@ This method allocates the memory used by the string that is returned in <i>keywo
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

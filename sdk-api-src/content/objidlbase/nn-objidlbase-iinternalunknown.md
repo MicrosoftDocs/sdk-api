@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: d2f4c8bc-80b9-4ba0-9f30-f0864144902b
 ms.date: 12/05/2018
 ms.keywords: IInternalUnknown, IInternalUnknown interface [COM], IInternalUnknown interface [COM],described, _com_iinternalunknown, com.iinternalunknown, objidlbase/IInternalUnknown
-ms.topic: interface
 f1_keywords:
 - objidlbase/IInternalUnknown
 dev_langs:

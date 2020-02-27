@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: c5bee9f1-7d4b-4dc2-a7c0-ebafd533ed50
 ms.date: 12/05/2018
 ms.keywords: DhcpServerRedoAuthorization, DhcpServerRedoAuthorization function [DHCP], dhcp.dhcpserverredoauthorization, dhcpsapi/DhcpServerRedoAuthorization
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpServerRedoAuthorization
 dev_langs:

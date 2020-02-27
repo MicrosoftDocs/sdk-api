@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: c6123cec-fed3-4745-9d82-e501e972d54f
 ms.date: 12/05/2018
 ms.keywords: WdsTransportServerFreeBuffer, WdsTransportServerFreeBuffer function [Windows Deployment Services], wds.wdstransportserverfreebuffer, wdstpdi/WdsTransportServerFreeBuffer
-ms.topic: function
 f1_keywords:
 - wdstpdi/WdsTransportServerFreeBuffer
 dev_langs:

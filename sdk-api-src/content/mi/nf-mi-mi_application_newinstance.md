@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: e46adc55-c5dc-4395-b746-2ff13cc1e4bb
 ms.date: 12/05/2018
 ms.keywords: MI_Application_NewInstance, MI_Application_NewInstance function [Windows Management Infrastructure (MI)], mi/MI_Application_NewInstance, wmi_v2.mi_application_newinstance
-ms.topic: function
 f1_keywords:
 - mi/MI_Application_NewInstance
 dev_langs:

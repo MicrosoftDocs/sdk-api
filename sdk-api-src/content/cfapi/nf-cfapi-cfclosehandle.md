@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: ECBEF685-0769-4AEA-8A0F-D5FBB70CBB09
 ms.date: 12/05/2018
 ms.keywords: CfCloseHandle, CfCloseHandle function, cfapi/CfCloseHandle, cloudApi.cfclosehandle
-ms.topic: function
 f1_keywords:
 - cfapi/CfCloseHandle
 dev_langs:
@@ -65,9 +64,6 @@ The file or directory handle to be closed.
 
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

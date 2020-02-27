@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: e6326364-fbd0-4446-97c3-6a3940856efb
 ms.date: 12/05/2018
 ms.keywords: DeleteItems, DeleteItems method [Offline Files], DeleteItems method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],DeleteItems method, IOfflineFilesCache.DeleteItems, IOfflineFilesCache::DeleteItems, OFFLINEFILES_DELETE_FLAG_ADMIN, OFFLINEFILES_DELETE_FLAG_DELMODIFIED, OFFLINEFILES_DELETE_FLAG_NOAUTOCACHED, OFFLINEFILES_DELETE_FLAG_NOPINNED, cscobj/IOfflineFilesCache::DeleteItems, of.iofflinefilescache_deleteitems
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesCache.DeleteItems
 dev_langs:

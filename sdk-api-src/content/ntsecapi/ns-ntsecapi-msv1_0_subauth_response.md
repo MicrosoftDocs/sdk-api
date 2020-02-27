@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 62808fba-6e10-4f3b-a705-6958fc4fe480
 ms.date: 12/05/2018
 ms.keywords: '*PMSV1_0_SUBAUTH_RESPONSE, MSV1_0_SUBAUTH_RESPONSE, MSV1_0_SUBAUTH_RESPONSE structure [Security], PMSV1_0_SUBAUTH_RESPONSE, PMSV1_0_SUBAUTH_RESPONSE structure pointer [Security], _lsa_msv1_0_subauth_response, ntsecapi/MSV1_0_SUBAUTH_RESPONSE, ntsecapi/PMSV1_0_SUBAUTH_RESPONSE, security.msv1_0_subauth_response'
-ms.topic: struct
 f1_keywords:
 - ntsecapi/MSV1_0_SUBAUTH_RESPONSE
 dev_langs:

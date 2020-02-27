@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 1c5b3f72-6165-41ad-99d4-d68bc12ac10b
 ms.date: 12/05/2018
 ms.keywords: IDirectorySearch interface [ADSI],SetSearchPreference method, IDirectorySearch.SetSearchPreference, IDirectorySearch::SetSearchPreference, SetSearchPreference, SetSearchPreference method [ADSI], SetSearchPreference method [ADSI],IDirectorySearch interface, _ds_idirectorysearch_setsearchpreference, adsi.idirectorysearch__setsearchpreference, adsi.idirectorysearch_setsearchpreference, iads/IDirectorySearch::SetSearchPreference
-ms.topic: method
 f1_keywords:
 - iads/IDirectorySearch.SetSearchPreference
 dev_langs:

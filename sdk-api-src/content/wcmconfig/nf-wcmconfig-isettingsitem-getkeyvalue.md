@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: a627d0aa-05ef-43b6-a8e8-bb0770dd8873
 ms.date: 12/05/2018
 ms.keywords: GetKeyValue, GetKeyValue method [SMI], GetKeyValue method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetKeyValue method, ISettingsItem.GetKeyValue, ISettingsItem::GetKeyValue, smi.isettingsitem_getkeyvalue, wcmconfig/ISettingsItem::GetKeyValue
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsItem.GetKeyValue
 dev_langs:

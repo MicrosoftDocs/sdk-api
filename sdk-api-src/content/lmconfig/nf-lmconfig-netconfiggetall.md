@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 1819f3d0-5e85-454b-947a-ae5e3db30987
 ms.date: 12/05/2018
 ms.keywords: NetConfigGetAll, NetConfigGetAll function [Network Management], _win32_netconfiggetall, lmconfig/NetConfigGetAll, netmgmt.netconfiggetall
-ms.topic: function
 f1_keywords:
 - lmconfig/NetConfigGetAll
 dev_langs:

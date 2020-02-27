@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 062aac78-6d7d-4335-963a-bc2c2d339efb
 ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig9 interface [DirectShow],SetNumberOfStreams method, IVMRFilterConfig9.SetNumberOfStreams, IVMRFilterConfig9::SetNumberOfStreams, IVMRFilterConfig9SetNumberOfStreams, SetNumberOfStreams, SetNumberOfStreams method [DirectShow], SetNumberOfStreams method [DirectShow],IVMRFilterConfig9 interface, dshow.ivmrfilterconfig9_setnumberofstreams, vmr9/IVMRFilterConfig9::SetNumberOfStreams
-ms.topic: method
 f1_keywords:
 - vmr9/IVMRFilterConfig9.SetNumberOfStreams
 dev_langs:

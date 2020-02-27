@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 257adef8-f578-4c8c-9fe9-df59572b7f6e
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],put_TerminalClass method, ITPluggableTerminalClassRegistration.put_TerminalClass, ITPluggableTerminalClassRegistration::put_TerminalClass, _tapi3_itpluggableterminalclassregistration_put_terminalclass, put_TerminalClass, put_TerminalClass method [TAPI 2.2], put_TerminalClass method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_put_terminalclass, termmgr/ITPluggableTerminalClassRegistration::put_TerminalClass
-ms.topic: method
 f1_keywords:
 - termmgr/ITPluggableTerminalClassRegistration.put_TerminalClass
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: C4A5E4E0-56CC-46E3-87C5-CA99EF512B11
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorExpE, XMVectorExpE, XMVectorExpE method [DirectX Math Support APIs], dxmath.xmvectorexpe
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorExpE
 dev_langs:

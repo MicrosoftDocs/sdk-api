@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 1d327da0-d0b3-4fcf-9773-ff5ea1eeea1c
 ms.date: 12/05/2018
 ms.keywords: ChooseImageDefaultsForMediaType, ChooseImageDefaultsForMediaType method [IMAPI], ChooseImageDefaultsForMediaType method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],ChooseImageDefaultsForMediaType method, IFileSystemImage.ChooseImageDefaultsForMediaType, IFileSystemImage::ChooseImageDefaultsForMediaType, imapi.ifilesystemimage_chooseimagedefaultsformediatype, imapi2fs/IFileSystemImage::ChooseImageDefaultsForMediaType
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFileSystemImage.ChooseImageDefaultsForMediaType
 dev_langs:

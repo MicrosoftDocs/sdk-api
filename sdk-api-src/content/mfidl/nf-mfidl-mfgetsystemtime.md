@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e23617f6-248e-4e0b-866b-19b960ebf8eb
 ms.date: 12/05/2018
 ms.keywords: MFGetSystemTime, MFGetSystemTime function [Media Foundation], e23617f6-248e-4e0b-866b-19b960ebf8eb, mf.mfgetsystemtime, mfidl/MFGetSystemTime
-ms.topic: function
 f1_keywords:
 - mfidl/MFGetSystemTime
 dev_langs:

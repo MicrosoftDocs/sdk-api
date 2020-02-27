@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 1a1164fe-00c2-4469-8346-f86f7f48781e
 ms.date: 12/05/2018
 ms.keywords: IDirectDraw7, IDirectDraw7 interface [DirectDraw], IDirectDraw7 interface [DirectDraw],described, ddraw/IDirectDraw7, directdraw.idirectdraw7
-ms.topic: interface
 f1_keywords:
 - ddraw/IDirectDraw7
 dev_langs:

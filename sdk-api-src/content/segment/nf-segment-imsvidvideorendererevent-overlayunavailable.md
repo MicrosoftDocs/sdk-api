@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: cb58e84f-1a45-4b72-aafd-d7a80a4b5b9d
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRendererEvent interface [Microsoft TV Technologies],OverlayUnavailable method, IMSVidVideoRendererEvent.OverlayUnavailable, IMSVidVideoRendererEvent::OverlayUnavailable, IMSVidVideoRendererEventOverlayUnavailable, OverlayUnavailable, OverlayUnavailable method [Microsoft TV Technologies], OverlayUnavailable method [Microsoft TV Technologies],IMSVidVideoRendererEvent interface, mstv.imsvidvideorendererevent_overlayunavailable, segment/IMSVidVideoRendererEvent::OverlayUnavailable
-ms.topic: method
 f1_keywords:
 - segment/IMSVidVideoRendererEvent.OverlayUnavailable
 dev_langs:

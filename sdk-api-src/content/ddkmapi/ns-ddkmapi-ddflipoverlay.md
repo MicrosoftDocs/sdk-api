@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 455005d8-5713-4188-9bcb-333c7c4f849d
 ms.date: 12/05/2018
 ms.keywords: '*LPDDFLIPOVERLAY, DDFLIPOVERLAY, DDFLIPOVERLAY structure [Display Devices], LPDDFLIPOVERLAY, LPDDFLIPOVERLAY structure pointer [Display Devices], ddkmapi/DDFLIPOVERLAY, ddkmapi/LPDDFLIPOVERLAY, ddstrcts_a29d7c69-b024-435d-8853-54477c17e960.xml, display.ddflipoverlay'
-ms.topic: struct
 f1_keywords:
 - ddkmapi/DDFLIPOVERLAY
 dev_langs:

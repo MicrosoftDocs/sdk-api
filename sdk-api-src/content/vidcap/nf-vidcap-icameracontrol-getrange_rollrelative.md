@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c0208111-8648-4511-99f6-20489a026c91
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_RollRelative method, ICameraControl.getRange_RollRelative, ICameraControl::getRange_RollRelative, ICameraControlgetRange_RollRelative, dshow.icameracontrol_getrange_rollrelative, getRange_RollRelative, getRange_RollRelative method [DirectShow], getRange_RollRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_RollRelative
-ms.topic: method
 f1_keywords:
 - vidcap/ICameraControl.getRange_RollRelative
 dev_langs:

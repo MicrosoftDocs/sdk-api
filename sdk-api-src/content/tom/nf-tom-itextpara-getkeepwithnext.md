@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getkeepwithnext.htm
 ms.date: 12/05/2018
 ms.keywords: GetKeepWithNext, GetKeepWithNext method [Windows Controls], GetKeepWithNext method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetKeepWithNext method, ITextPara.GetKeepWithNext, ITextPara::GetKeepWithNext, _win32_ITextPara_GetKeepWithNext, _win32_ITextPara_GetKeepWithNext_cpp, controls.ITextPara_GetKeepWithNext, controls._win32_ITextPara_GetKeepWithNext, tom/ITextPara::GetKeepWithNext, tomFalse, tomTrue, tomUndefined
-ms.topic: method
 f1_keywords:
 - tom/ITextPara.GetKeepWithNext
 dev_langs:

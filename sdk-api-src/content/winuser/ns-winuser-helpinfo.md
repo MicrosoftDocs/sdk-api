@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8320fb68-294b-487b-ab5a-6611bb57cff0
 ms.date: 12/05/2018
 ms.keywords: '*LPHELPINFO, HELPINFO, HELPINFO structure [Windows Shell], HELPINFO_MENUITEM, HELPINFO_WINDOW, LPHELPINFO, LPHELPINFO structure pointer [Windows Shell], _win32_HELPINFO_str, _win32_helpinfo_str_cpp, shell.HELPINFO_str, tagHELPINFO, winuser/HELPINFO, winuser/LPHELPINFO'
-ms.topic: struct
 f1_keywords:
 - winuser/HELPINFO
 dev_langs:

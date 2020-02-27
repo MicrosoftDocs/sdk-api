@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 78f9169f-ecb3-4774-bd28-b1ba83c0838c
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method [COM+], Abort method [COM+],ITransactionContextEx interface, ITransactionContextEx interface [COM+],Abort method, ITransactionContextEx.Abort, ITransactionContextEx::Abort, _cos_ITransactionContextEx_Abort, comsvcs/ITransactionContextEx::Abort, cos.itransactioncontextex_abort
-ms.topic: method
 f1_keywords:
 - comsvcs/ITransactionContextEx.Abort
 dev_langs:

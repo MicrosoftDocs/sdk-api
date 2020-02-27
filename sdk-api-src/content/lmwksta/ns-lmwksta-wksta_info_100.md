@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: c705dadd-cf55-44d9-bf36-09e078112479
 ms.date: 12/05/2018
 ms.keywords: '*LPWKSTA_INFO_100, *PWKSTA_INFO_100, LPWKSTA_INFO_100, LPWKSTA_INFO_100 structure pointer [Network Management], PLATFORM_ID_DOS, PLATFORM_ID_NT, PLATFORM_ID_OS2, PLATFORM_ID_OSF, PLATFORM_ID_VMS, PWKSTA_INFO_100, PWKSTA_INFO_100 structure pointer [Network Management], WKSTA_INFO_100, WKSTA_INFO_100 structure [Network Management], _win32_wksta_info_100_str, lmwksta/LPWKSTA_INFO_100, lmwksta/PWKSTA_INFO_100, lmwksta/WKSTA_INFO_100, netmgmt.wksta_info_100_str'
-ms.topic: struct
 f1_keywords:
 - lmwksta/WKSTA_INFO_100
 dev_langs:

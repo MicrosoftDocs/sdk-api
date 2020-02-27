@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 4BF0813E-4D24-4F88-BAA1-32C950B66408
 ms.date: 12/5/2018
 ms.keywords: DML_ACTIVATION_ELU_OPERATOR_DESC, DML_ACTIVATION_ELU_OPERATOR_DESC structure, direct3d12.dml_activation_elu_operator_desc, directml/DML_ACTIVATION_ELU_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_ACTIVATION_ELU_OPERATOR_DESC
 dev_langs:

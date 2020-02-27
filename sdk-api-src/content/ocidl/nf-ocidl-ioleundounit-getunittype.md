@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 1f0c719e-75cd-48dd-8bd8-78eb63cc141a
 ms.date: 12/05/2018
 ms.keywords: GetUnitType, GetUnitType method [COM], GetUnitType method [COM],IOleUndoUnit interface, IOleUndoUnit interface [COM],GetUnitType method, IOleUndoUnit.GetUnitType, IOleUndoUnit::GetUnitType, _ole_ioleundounit_getunittype, com.ioleundounit_getunittype, ocidl/IOleUndoUnit::GetUnitType
-ms.topic: method
 f1_keywords:
 - ocidl/IOleUndoUnit.GetUnitType
 dev_langs:

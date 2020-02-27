@@ -7,7 +7,6 @@ tech.root: enstor
 ms.assetid: a95323d1-4329-4a1e-9c8a-adfdd199e9a5
 ms.date: 12/05/2018
 ms.keywords: GetPortableDevice, GetPortableDevice method [Enhanced Storage], GetPortableDevice method [Enhanced Storage],IEnhancedStorageSilo interface, IEnhancedStorageSilo interface [Enhanced Storage],GetPortableDevice method, IEnhancedStorageSilo.GetPortableDevice, IEnhancedStorageSilo::GetPortableDevice, ehstorapi/IEnhancedStorageSilo::GetPortableDevice, enstor.ienhancedstoragesilo_getportabledevice
-ms.topic: method
 f1_keywords:
 - ehstorapi/IEnhancedStorageSilo.GetPortableDevice
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Obtains an <a href="http://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDevice</a> pointer used to issue  commands to the corresponding Enhanced Storage silo driver.
+Obtains an <a href="https://msdn.microsoft.com/library/dd319361.aspx">IPortableDevice</a> pointer used to issue  commands to the corresponding Enhanced Storage silo driver.
 
 
 ## -parameters
@@ -60,7 +59,7 @@ Obtains an <a href="http://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDe
 
 ### -param ppIPortableDevice [out]
 
-Pointer to a pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDevice</a>  object.
+Pointer to a pointer to an <a href="https://msdn.microsoft.com/library/dd319361.aspx">IPortableDevice</a>  object.
 
 
 ## -returns
@@ -81,7 +80,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-Pointer to <a href="http://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDevice</a> was obtained successfully.
+Pointer to <a href="https://msdn.microsoft.com/library/dd319361.aspx">IPortableDevice</a> was obtained successfully.
 
 </td>
 </tr>

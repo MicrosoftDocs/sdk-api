@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 10be1fd1-8700-4c0a-b447-d3c2569f8e81
 ms.date: 12/05/2018
 ms.keywords: 5e846266-8e0b-d52b-2f70-8936cbeb0bd1, ID3D11DepthStencilView, ID3D11DepthStencilView interface [Direct3D 11], ID3D11DepthStencilView interface [Direct3D 11],described, d3d11/ID3D11DepthStencilView, direct3d11.id3d11depthstencilview
-ms.topic: interface
 f1_keywords:
 - d3d11/ID3D11DepthStencilView
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 7c2f029f-22a1-4433-971e-35ce48c004e0
 ms.date: 12/05/2018
 ms.keywords: ?GetAt@CHPtrArray@@QBEPAXH@Z, CHPtrArray interface [Windows Management Instrumentation],GetAt method, CHPtrArray.GetAt, CHPtrArray::GetAt, GetAt, GetAt method [Windows Management Instrumentation], GetAt method [Windows Management Instrumentation],CHPtrArray interface, chptrarr/CHPtrArray::GetAt, wmi.chptrarray_getat
-ms.topic: method
 f1_keywords:
 - chptrarr/CHPtrArray.GetAt
 dev_langs:

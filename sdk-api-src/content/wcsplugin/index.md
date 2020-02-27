@@ -1,9 +1,10 @@
 ---
 UID: NA:wcsplugin
+title: Wcsplugin.h header
 ms.assetid: cd24e38d-d9a9-3363-bc85-29c88508da9d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: wcs
 ---
 

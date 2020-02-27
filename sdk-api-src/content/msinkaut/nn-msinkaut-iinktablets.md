@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 98052ECB-9385-45C9-A03C-3F312ADD9872
 ms.date: 12/05/2018
 ms.keywords: IInkTablets, IInkTablets interface [Tablet PC], IInkTablets interface [Tablet PC],described, msinkaut/IInkTablets, tablet.iinktablets
-ms.topic: interface
 f1_keywords:
 - msinkaut/IInkTablets
 dev_langs:

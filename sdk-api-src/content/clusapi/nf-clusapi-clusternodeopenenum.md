@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: f187f4d7-24c8-477d-91fc-0ef738b66f22
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_NODE_ENUM_ALL, CLUSTER_NODE_ENUM_GROUPS, CLUSTER_NODE_ENUM_NETINTERFACES, ClusterNodeOpenEnum, ClusterNodeOpenEnum function [Failover Cluster], PCLUSAPI_CLUSTER_NODE_OPEN_ENUM, PCLUSAPI_CLUSTER_NODE_OPEN_ENUM function [Failover Cluster], _wolf_clusternodeopenenum, clusapi/ClusterNodeOpenEnum, clusapi/PCLUSAPI_CLUSTER_NODE_OPEN_ENUM, mscs.clusternodeopenenum
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterNodeOpenEnum
 dev_langs:

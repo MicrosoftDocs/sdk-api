@@ -7,7 +7,6 @@ tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\events\drendezvoussessionevents\drendezvoussessionevents.htm
 ms.date: 12/05/2018
 ms.keywords: DRendezvousSessionEvents, DRendezvousSessionEvents interface [Remote Assistance], DRendezvousSessionEvents interface [Remote Assistance],described, remoteassist.remoteassist_DRendezvousSessionEvents, remoteassist_DRendezvousSessionEvents, rendezvoussession/DRendezvousSessionEvents
-ms.topic: interface
 f1_keywords:
 - rendezvoussession/DRendezvousSessionEvents
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 0f7b3a68-97b3-4470-8ca8-e8eb8a5f83b7
 ms.date: 12/05/2018
 ms.keywords: GetSpecifiedMetadata, GetSpecifiedMetadata method [windows Media Device Manager], GetSpecifiedMetadata method [windows Media Device Manager],IMDSPStorage4 interface, IMDSPStorage4 interface [windows Media Device Manager],GetSpecifiedMetadata method, IMDSPStorage4.GetSpecifiedMetadata, IMDSPStorage4::GetSpecifiedMetadata, IMDSPStorage4GetSpecifiedMetadata, mswmdm/IMDSPStorage4::GetSpecifiedMetadata, wmdm.imdspstorage4_getspecifiedmetadata
-ms.topic: method
 f1_keywords:
 - mswmdm/IMDSPStorage4.GetSpecifiedMetadata
 dev_langs:

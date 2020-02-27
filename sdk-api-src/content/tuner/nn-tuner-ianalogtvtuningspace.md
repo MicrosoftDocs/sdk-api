@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2b531f09-bf2e-4eb2-abcf-60f64cbee17b
 ms.date: 12/05/2018
 ms.keywords: IAnalogTVTuningSpace, IAnalogTVTuningSpace interface [Microsoft TV Technologies], IAnalogTVTuningSpace interface [Microsoft TV Technologies],described, IAnalogTVTuningSpaceInterface, mstv.ianalogtvtuningspace, tuner/IAnalogTVTuningSpace
-ms.topic: interface
 f1_keywords:
 - tuner/IAnalogTVTuningSpace
 dev_langs:

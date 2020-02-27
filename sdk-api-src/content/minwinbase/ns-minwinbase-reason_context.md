@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: 006bb84f-5e51-4f6e-8a44-6b50e763c5ca
 ms.date: 12/05/2018
 ms.keywords: '*PREASON_CONTEXT, POWER_REQUEST_CONTEXT_DETAILED_STRING, POWER_REQUEST_CONTEXT_SIMPLE_STRING, PREASON_CONTEXT, PREASON_CONTEXT structure pointer, REASON_CONTEXT, REASON_CONTEXT structure, base.reason_context, minwinbase/PREASON_CONTEXT, minwinbase/REASON_CONTEXT, winbase/PREASON_CONTEXT, winbase/REASON_CONTEXT'
-ms.topic: struct
 f1_keywords:
 - minwinbase/REASON_CONTEXT
 dev_langs:

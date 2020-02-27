@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 82d14b93-e07b-4ff3-88b9-b1873972b4ad
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateTemplates, IX509CertificateTemplates interface [Security], IX509CertificateTemplates interface [Security],described, certenroll/IX509CertificateTemplates, security.ix509certificatetemplates
-ms.topic: interface
 f1_keywords:
 - certenroll/IX509CertificateTemplates
 dev_langs:

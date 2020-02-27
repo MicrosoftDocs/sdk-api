@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 950dddcb-2a59-4c2d-826b-147e9acf401a
 ms.date: 12/05/2018
 ms.keywords: SetupDiOpenDeviceInterfaceRegKey, SetupDiOpenDeviceInterfaceRegKey function [Device and Driver Installation], devinst.setupdiopendeviceinterfaceregkey, di-rtns_420dfbe9-7cb3-4ecb-9341-b40fbc76a50e.xml, setupapi/SetupDiOpenDeviceInterfaceRegKey
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiOpenDeviceInterfaceRegKey
 dev_langs:
@@ -82,7 +81,7 @@ The requested registry security access to the registry subkey. For information a
 
 
 
-<b>SetupDiOpenDeviceInterfaceRegKey</b> returns a handle to the opened registry key. If the function fails, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+<b>SetupDiOpenDeviceInterfaceRegKey</b> returns a handle to the opened registry key. If the function fails, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 
@@ -93,7 +92,7 @@ The requested registry security access to the registry subkey. For information a
 
 Depending on the value that is passed in the <i>samDesired</i> parameter, it might be necessary for the caller of this function to be a member of the Administrators group.
 
-Close the handle returned from by function by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=194543">RegCloseKey</a>.
+Close the handle returned from by function by calling <a href="https://msdn.microsoft.com/library/ms724837(VS.85).aspx">RegCloseKey</a>.
 
 
 

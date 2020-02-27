@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 322e0a8c-1eda-4148-a7cc-7f7fd7bf0b6f
 ms.date: 12/05/2018
 ms.keywords: NdrDllGetClassObject, NdrDllGetClassObject function [RPC], rpc.ndrdllgetclassobject, rpcproxy/NdrDllGetClassObject
-ms.topic: function
 f1_keywords:
 - rpcproxy/NdrDllGetClassObject
 dev_langs:

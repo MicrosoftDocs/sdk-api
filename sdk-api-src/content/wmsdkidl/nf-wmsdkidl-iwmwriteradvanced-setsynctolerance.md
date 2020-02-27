@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: d60020bf-52f1-46a0-aeae-367e3b179fac
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],SetSyncTolerance method, IWMWriterAdvanced.SetSyncTolerance, IWMWriterAdvanced::SetSyncTolerance, IWMWriterAdvancedSetSyncTolerance, SetSyncTolerance, SetSyncTolerance method [windows Media Format], SetSyncTolerance method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_setsynctolerance, wmsdkidl/IWMWriterAdvanced::SetSyncTolerance
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriterAdvanced.SetSyncTolerance
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: f7f30ab9-f55d-44fa-9098-c6bf865125f8
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Security], GetCount method [Security],IIdentityStore interface, IIdentityStore interface [Security],GetCount method, IIdentityStore.GetCount, IIdentityStore::GetCount, identitystore/IIdentityStore::GetCount, security.iidentitystore_getcount
-ms.topic: method
 f1_keywords:
 - identitystore/IIdentityStore.GetCount
 dev_langs:

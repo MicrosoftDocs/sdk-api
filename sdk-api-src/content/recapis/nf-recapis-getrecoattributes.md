@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 45683203-1886-4542-8b66-84861862cb6a
 ms.date: 12/05/2018
 ms.keywords: 45683203-1886-4542-8b66-84861862cb6a, GetRecoAttributes, GetRecoAttributes function [Tablet PC], recapis/GetRecoAttributes, tablet.getrecoattributes
-ms.topic: function
 f1_keywords:
 - recapis/GetRecoAttributes
 dev_langs:

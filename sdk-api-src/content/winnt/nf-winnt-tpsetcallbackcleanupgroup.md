@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: B14084F5-2686-4522-8024-71A07541CFE2
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackCleanupGroup, TpSetCallbackCleanupGroup function, base.tpsetcallbackcleanupgroup, winnt/TpSetCallbackCleanupGroup
-ms.topic: function
 f1_keywords:
 - winnt/TpSetCallbackCleanupGroup
 dev_langs:

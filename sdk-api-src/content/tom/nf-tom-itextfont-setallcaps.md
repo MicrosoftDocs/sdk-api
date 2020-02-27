@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setallcaps.htm
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetAllCaps method, ITextFont.SetAllCaps, ITextFont::SetAllCaps, SetAllCaps, SetAllCaps method [Windows Controls], SetAllCaps method [Windows Controls],ITextFont interface, _win32_ITextFont_SetAllCaps, _win32_ITextFont_SetAllCaps_cpp, controls.ITextFont_SetAllCaps, controls._win32_ITextFont_SetAllCaps, tom/ITextFont::SetAllCaps
-ms.topic: method
 f1_keywords:
 - tom/ITextFont.SetAllCaps
 dev_langs:

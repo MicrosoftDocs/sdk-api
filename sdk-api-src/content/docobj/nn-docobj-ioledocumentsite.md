@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: cac435c9-caee-4751-9ad8-df48b6d4c7e0
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentSite, IOleDocumentSite interface [COM], IOleDocumentSite interface [COM],described, _ole_ioledocumentsite, com.ioledocumentsite, docobj/IOleDocumentSite
-ms.topic: interface
 f1_keywords:
 - docobj/IOleDocumentSite
 dev_langs:

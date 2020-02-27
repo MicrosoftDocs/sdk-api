@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 06ba3486-9381-4898-b639-3d94b83be857
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProviderPrivate interface [VDS],QueryIfCreatedLun method, IVdsHwProviderPrivate.QueryIfCreatedLun, IVdsHwProviderPrivate::QueryIfCreatedLun, QueryIfCreatedLun, QueryIfCreatedLun method [VDS], QueryIfCreatedLun method [VDS],IVdsHwProviderPrivate interface, base.ivdshwproviderprivate_queryifcreatedlun, vdshwprv/IVdsHwProviderPrivate::QueryIfCreatedLun
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsHwProviderPrivate.QueryIfCreatedLun
 dev_langs:

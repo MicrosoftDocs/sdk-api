@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: bb84abf1-0bba-4f9d-98fb-3ed67819a9dc
 ms.date: 12/05/2018
 ms.keywords: IMetaDataDispenserEx interface [Windows Runtime],SetOption method, IMetaDataDispenserEx.SetOption, IMetaDataDispenserEx::SetOption, SetOption, SetOption method [Windows Runtime], SetOption method [Windows Runtime],IMetaDataDispenserEx interface, rometadataapi/IMetaDataDispenserEx::SetOption, winrt.imetadatadispenserex_setoption
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataDispenserEx.SetOption
 dev_langs:

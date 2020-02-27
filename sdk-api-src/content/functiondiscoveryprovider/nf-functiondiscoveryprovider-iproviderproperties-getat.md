@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: f76d010b-f9dd-46d7-9b1f-eba3d11aaef1
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method, GetAt method,IProviderProperties interface, IProviderProperties interface,GetAt method, IProviderProperties.GetAt, IProviderProperties::GetAt, functiondiscoveryprovider/IProviderProperties::GetAt, ncd.iproviderproperties_getat_method
-ms.topic: method
 f1_keywords:
 - functiondiscoveryprovider/IProviderProperties.GetAt
 dev_langs:

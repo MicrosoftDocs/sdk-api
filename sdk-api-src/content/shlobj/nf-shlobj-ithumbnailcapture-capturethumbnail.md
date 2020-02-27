@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3f492199-f40c-416f-b20f-84bd5c3b3709
 ms.date: 12/05/2018
 ms.keywords: CaptureThumbnail, CaptureThumbnail method [Windows Shell], CaptureThumbnail method [Windows Shell],IThumbnailCapture interface, IThumbnailCapture interface [Windows Shell],CaptureThumbnail method, IThumbnailCapture.CaptureThumbnail, IThumbnailCapture::CaptureThumbnail, _shell_IThumbnailCapture_CaptureThumbnail, shell.IThumbnailCapture_CaptureThumbnail, shlobj/IThumbnailCapture::CaptureThumbnail
-ms.topic: method
 f1_keywords:
 - shlobj/IThumbnailCapture.CaptureThumbnail
 dev_langs:

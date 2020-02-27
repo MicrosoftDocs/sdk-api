@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 6602B70E-19EA-4C3D-B01C-16EC4830AB7F
 ms.date: 12/5/2018
 ms.keywords: IDMLDebugDevice, IDMLDebugDevice interface, IDMLDebugDevice interface,described, direct3d12.idmldebugdevice, directml/IDMLDebugDevice
-ms.topic: interface
 f1_keywords:
 - directml/IDMLDebugDevice
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 9BEB2BF7-55F7-43F7-822C-CB4AC6F29E32
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],SetTag method, IUIAnimationStoryboard2.SetTag, IUIAnimationStoryboard2::SetTag, SetTag, SetTag method [Windows Animation], SetTag method [Windows Animation],IUIAnimationStoryboard2 interface, uianimation.iuianimationstoryboard2_settag, uianimation/IUIAnimationStoryboard2::SetTag
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationStoryboard2.SetTag
 dev_langs:

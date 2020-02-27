@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 370B4908-0474-4AD1-8D0A-735090F438FD
 ms.date: 12/05/2018
 ms.keywords: IDCompositionColorMatrixEffect interface [DirectComposition],SetMatrixElement method, IDCompositionColorMatrixEffect.SetMatrixElement, IDCompositionColorMatrixEffect.SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionColorMatrixEffect::SetMatrixElement, IDCompositionColorMatrixEffect::SetMatrixElement(int,int,IDCompositionAnimation), SetMatrixElement, SetMatrixElement method [DirectComposition], SetMatrixElement method [DirectComposition],IDCompositionColorMatrixEffect interface, dcomp/IDCompositionColorMatrixEffect::SetMatrixElement, directcomp.idcompositioncolormatrixeffect_setmatrixelement_2
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionColorMatrixEffect.SetMatrixElement
 dev_langs:

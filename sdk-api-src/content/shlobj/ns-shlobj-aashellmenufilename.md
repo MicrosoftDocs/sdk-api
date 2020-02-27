@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f84e837f-61b0-4df4-9ff7-dc2d3d898d99
 ms.date: 12/05/2018
 ms.keywords: '*LPAASHELLMENUFILENAME, AASHELLMENUFILENAME, AASHELLMENUFILENAME structure [Windows Shell], LPAASHELLMENUFILENAME, LPAASHELLMENUFILENAME structure pointer [Windows Shell], _win32_AASHELLMENUFILENAME_str, shell.AASHELLMENUFILENAME_str, shlobj/AASHELLMENUFILENAME, shlobj/LPAASHELLMENUFILENAME'
-ms.topic: struct
 f1_keywords:
 - shlobj/AASHELLMENUFILENAME
 dev_langs:

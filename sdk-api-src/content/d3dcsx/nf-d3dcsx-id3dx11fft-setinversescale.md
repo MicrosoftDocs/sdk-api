@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: db29b6f8-ee36-48b6-8e28-f4bbaa6b0a7f
 ms.date: 12/05/2018
 ms.keywords: ID3DX11FFT interface [Direct3D 11],SetInverseScale method, ID3DX11FFT.SetInverseScale, ID3DX11FFT::SetInverseScale, SetInverseScale, SetInverseScale method [Direct3D 11], SetInverseScale method [Direct3D 11],ID3DX11FFT interface, d3dcsx/ID3DX11FFT::SetInverseScale, direct3d11.id3dx11fft_setinversescale, e2fd7d2b-bce2-191f-6387-e478c2a535fb
-ms.topic: method
 f1_keywords:
 - d3dcsx/ID3DX11FFT.SetInverseScale
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c69ea1e0-8d8a-4cd3-86a4-a2d481160a2e
 ms.date: 12/05/2018
 ms.keywords: GetKaraokeAttributes, GetKaraokeAttributes method [DirectShow], GetKaraokeAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetKaraokeAttributes method, IDvdInfo2.GetKaraokeAttributes, IDvdInfo2::GetKaraokeAttributes, IDvdInfo2GetKaraokeAttributes, dshow.idvdinfo2_getkaraokeattributes, strmif/IDvdInfo2::GetKaraokeAttributes
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo2.GetKaraokeAttributes
 dev_langs:
@@ -69,7 +68,7 @@ Specifies the index of the audio stream whose attributes you want to query. See 
 
 ### -param pAttributes [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_karaokeattributes">DVD_KaraokeAttributes</a> structure that is filled with the karaoke attributes.
+Pointer to a [DVD_KaraokeAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_karaokeattributes) structure that is filled with the karaoke attributes.
 
 
 ## -returns

@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 99CB0B61-8494-4591-A3CB-B6DAD19C79ED
 ms.date: 12/05/2018
 ms.keywords: D3D12_LIBRARY_DESC, D3D12_LIBRARY_DESC structure, d3d12shader/D3D12_LIBRARY_DESC, direct3d12.d3d12_library_desc
-ms.topic: struct
 f1_keywords:
 - d3d12shader/D3D12_LIBRARY_DESC
 dev_langs:

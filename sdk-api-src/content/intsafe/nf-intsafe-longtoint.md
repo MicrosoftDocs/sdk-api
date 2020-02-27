@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: fb7ee73a-78f1-43cd-aa00-b11f1ee25c49
 ms.date: 12/05/2018
 ms.keywords: LongToInt, LongToInt function [Windows Shell], _shell_LongToInt, intsafe/LongToInt, shell.LongToInt
-ms.topic: function
 f1_keywords:
 - intsafe/LongToInt
 dev_langs:

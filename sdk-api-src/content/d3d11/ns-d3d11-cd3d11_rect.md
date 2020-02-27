@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 737B47A3-E609-48E4-A0B6-017206E500B1
 ms.date: 12/05/2018
 ms.keywords: CD3D11_RECT, CD3D11_RECT structure [Direct3D 11], d3d11/CD3D11_RECT, direct3d11.cd3d11_rect
-ms.topic: struct
 f1_keywords:
 - d3d11/CD3D11_RECT
 dev_langs:

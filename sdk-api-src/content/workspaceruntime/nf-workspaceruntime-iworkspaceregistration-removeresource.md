@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: f700e3c2-06fe-4f98-9b1e-aeadc339ed7a
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceRegistration interface [Remote Desktop Services],RemoveResource method, IWorkspaceRegistration.RemoveResource, IWorkspaceRegistration2 interface [Remote Desktop Services],RemoveResource method, IWorkspaceRegistration2::RemoveResource, IWorkspaceRegistration::RemoveResource, RemoveResource, RemoveResource method [Remote Desktop Services], RemoveResource method [Remote Desktop Services],IWorkspaceRegistration interface, RemoveResource method [Remote Desktop Services],IWorkspaceRegistration2 interface, RemoveResource method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],RemoveResource method, termserv.iworkspaceregistration_removeresource, workspaceruntime/IWorkspaceRegistration2::RemoveResource, workspaceruntime/IWorkspaceRegistration::RemoveResource
-ms.topic: method
 f1_keywords:
 - workspaceruntime/IWorkspaceRegistration.RemoveResource
 dev_langs:

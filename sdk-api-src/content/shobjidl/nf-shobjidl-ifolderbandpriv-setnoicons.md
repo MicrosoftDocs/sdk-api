@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5bec29d9-8b05-4b4e-9cfc-0b9fd2d9fd2f
 ms.date: 12/05/2018
 ms.keywords: IFolderBandPriv interface [Windows Shell],SetNoIcons method, IFolderBandPriv.SetNoIcons, IFolderBandPriv::SetNoIcons, SetNoIcons, SetNoIcons method [Windows Shell], SetNoIcons method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetNoIcons, shell.IFolderBandPriv_SetNoIcons, shobjidl/IFolderBandPriv::SetNoIcons
-ms.topic: method
 f1_keywords:
 - shobjidl/IFolderBandPriv.SetNoIcons
 dev_langs:

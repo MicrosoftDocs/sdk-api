@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 039cb675-c384-4909-b06d-b331cc281df6
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerBitmap interface [DirectShow],UpdateAlphaBitmapParameters method, IVMRMixerBitmap.UpdateAlphaBitmapParameters, IVMRMixerBitmap::UpdateAlphaBitmapParameters, IVMRMixerBitmapUpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters method [DirectShow], UpdateAlphaBitmapParameters method [DirectShow],IVMRMixerBitmap interface, dshow.ivmrmixerbitmap_updatealphabitmapparameters, strmif/IVMRMixerBitmap::UpdateAlphaBitmapParameters
-ms.topic: method
 f1_keywords:
 - strmif/IVMRMixerBitmap.UpdateAlphaBitmapParameters
 dev_langs:
@@ -64,7 +63,7 @@ The <b>UpdateAlphaBitmapParameters</b> method changes the bitmap location, size 
 
 ### -param pBmpParms [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmralphabitmap">VMRALPHABITMAP</a> structure.
+A pointer to a [VMRALPHABITMAP](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure.
           
 
 
@@ -81,7 +80,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-The filter graph must be running for the changes to take effect. This method does not change the bitmap image. If you specify a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmralphabitmap">VMRALPHABITMAP</a> structure with no destination or color key set, the bitmap disappears. This behavior is by design for backward compatibility and cannot be changed.
+The filter graph must be running for the changes to take effect. This method does not change the bitmap image. If you specify a [VMRALPHABITMAP](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure with no destination or color key set, the bitmap disappears. This behavior is by design for backward compatibility and cannot be changed.
       
 
 

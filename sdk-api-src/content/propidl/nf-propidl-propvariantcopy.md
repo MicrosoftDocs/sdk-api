@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: f17f1722-f041-414c-b838-f1f83427ff0c
 ms.date: 12/05/2018
 ms.keywords: PropVariantCopy, PropVariantCopy function [Windows Properties], _shell_PropVariantCopy, properties.PropVariantCopy, propidl/PropVariantCopy, shell.PropVariantCopy
-ms.topic: function
 f1_keywords:
 - propidl/PropVariantCopy
 dev_langs:

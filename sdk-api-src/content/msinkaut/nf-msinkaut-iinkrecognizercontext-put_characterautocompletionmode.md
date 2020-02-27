@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 8cb3e41f-803f-4f88-81bb-b2222c070610
 ms.date: 12/05/2018
 ms.keywords: 8cb3e41f-803f-4f88-81bb-b2222c070610, CharacterAutoCompletionMode property [Tablet PC], CharacterAutoCompletionMode property [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],CharacterAutoCompletionMode property, IInkRecognizerContext.CharacterAutoCompletionMode, IInkRecognizerContext.put_CharacterAutoCompletionMode, IInkRecognizerContext::CharacterAutoCompletionMode, IInkRecognizerContext::get_CharacterAutoCompletionMode, IInkRecognizerContext::put_CharacterAutoCompletionMode, InkRecognizerContext.get_CharacterAutoCompletion, InkRecognizerContext.put_CharacterAutoCompletion, get_CharacterAutoCompletionMode, msinkaut/IInkRecognizerContext::CharacterAutoCompletionMode, msinkaut/IInkRecognizerContext::get_CharacterAutoCompletionMode, msinkaut/IInkRecognizerContext::put_CharacterAutoCompletionMode, put_CharacterAutoCompletionMode, tablet.inkrecognizercontext_characterautocompletion
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRecognizerContext.CharacterAutoCompletionMode
 dev_langs:

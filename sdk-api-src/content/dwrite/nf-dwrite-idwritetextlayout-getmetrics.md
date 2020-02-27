@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: cbfafccc-f66c-4b75-9540-e393ee203859
 ms.date: 12/05/2018
 ms.keywords: GetMetrics, GetMetrics method [Direct Write], GetMetrics method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetMetrics method, IDWriteTextLayout.GetMetrics, IDWriteTextLayout::GetMetrics, directwrite.IDWriteTextLayout_GetMetrics, dwrite/IDWriteTextLayout::GetMetrics
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextLayout.GetMetrics
 dev_langs:

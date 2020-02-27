@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 5a2ed11d-34d8-44b1-a8ce-e8aa7c96c730
 ms.date: 12/05/2018
 ms.keywords: ?SetDMTF@WBEMTime@@QAEHQAG@Z, SetDMTF, SetDMTF method [Windows Management Instrumentation], SetDMTF method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],SetDMTF method, WBEMTime.SetDMTF, WBEMTime::SetDMTF, _hmm_wbemtime_setdmtf, wbemtime/WBEMTime::SetDMTF, wmi.wbemtime_setdmtf
-ms.topic: method
 f1_keywords:
 - wbemtime/WBEMTime.SetDMTF
 dev_langs:

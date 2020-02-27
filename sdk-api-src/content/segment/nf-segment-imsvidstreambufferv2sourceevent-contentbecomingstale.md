@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: b9af548a-9796-4dc0-8b78-46e529a484ce
 ms.date: 12/05/2018
 ms.keywords: ContentBecomingStale, ContentBecomingStale method [Microsoft TV Technologies], ContentBecomingStale method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],ContentBecomingStale method, IMSVidStreamBufferV2SourceEvent.ContentBecomingStale, IMSVidStreamBufferV2SourceEvent::ContentBecomingStale, mstv.imsvidstreambufferv2sourceevent_contentbecomingstale, segment/IMSVidStreamBufferV2SourceEvent::ContentBecomingStale
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferV2SourceEvent.ContentBecomingStale
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d263b004-30e6-4dff-9df2-f4ca492f09f7
 ms.date: 12/05/2018
 ms.keywords: VMR9AllocationInfo, VMR9AllocationInfo structure [DirectShow], VMR9AllocationInfoStructure, dshow.vmr9allocationinfo, vmr9/VMR9AllocationInfo
-ms.topic: struct
 f1_keywords:
 - vmr9/VMR9AllocationInfo
 dev_langs:

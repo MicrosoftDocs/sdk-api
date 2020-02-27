@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 3f79f1ce-e761-44f7-970c-393c83f8f2fd
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetClipGeometryLookup method, IXpsOMVisual.SetClipGeometryLookup, IXpsOMVisual::SetClipGeometryLookup, SetClipGeometryLookup, SetClipGeometryLookup method [XPS Documents and Packaging], SetClipGeometryLookup method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setclipgeometrylookup, xpsobjectmodel/IXpsOMVisual::SetClipGeometryLookup
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.SetClipGeometryLookup
 dev_langs:
@@ -92,7 +91,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-According to the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
+According to the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
 
 </td>
 </tr>
@@ -212,7 +211,7 @@ Neither <b>SetClipGeometryLookup</b> nor <a href="https://docs.microsoft.com/win
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

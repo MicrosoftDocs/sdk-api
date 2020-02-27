@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 887dec6f-c3ba-4139-b80b-6a2e05bfa1f9
 ms.date: 12/05/2018
 ms.keywords: RtwqEndRegisterWorkQueueWithMMCSS, RtwqEndRegisterWorkQueueWithMMCSS function, base.rtwqendregisterworkqueuewithmmcss, rtworkq/RtwqEndRegisterWorkQueueWithMMCSS
-ms.topic: function
 f1_keywords:
 - rtworkq/RtwqEndRegisterWorkQueueWithMMCSS
 dev_langs:

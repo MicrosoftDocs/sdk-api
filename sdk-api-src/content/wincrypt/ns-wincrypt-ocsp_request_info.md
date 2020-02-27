@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: ec939c3b-f155-45f2-b507-6c2e6069a868
 ms.date: 12/05/2018
 ms.keywords: '*POCSP_REQUEST_INFO, OCSP_REQUEST_INFO, OCSP_REQUEST_INFO structure [Security], OCSP_REQUEST_V1, POCSP_REQUEST_INFO, POCSP_REQUEST_INFO structure pointer [Security], security.ocsp_request_info, wincrypt/OCSP_REQUEST_INFO, wincrypt/POCSP_REQUEST_INFO'
-ms.topic: struct
 f1_keywords:
 - wincrypt/OCSP_REQUEST_INFO
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>OCSP_REQUEST_INFO</b> structure contains information for an  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) request as specified by <a href="http://go.microsoft.com/fwlink/p/?linkid=91156">RFC 2560</a>. The RFC specifies that a single request can contain a sequence of certificates for which statuses are required. The  <b>rgRequestEntry</b> member of this structure contains an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_request_entry">OCSP_REQUEST_ENTRY</a> structure for each certificate in a sequence.
+The <b>OCSP_REQUEST_INFO</b> structure contains information for an  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) request as specified by <a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560</a>. The RFC specifies that a single request can contain a sequence of certificates for which statuses are required. The  <b>rgRequestEntry</b> member of this structure contains an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_request_entry">OCSP_REQUEST_ENTRY</a> structure for each certificate in a sequence.
 
 
 ## -struct-fields
@@ -109,7 +108,7 @@ An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=91156">RFC 2560 Online Certificate Status Protocol</a>
+<a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560 Online Certificate Status Protocol</a>
  
 
  

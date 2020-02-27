@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 296e21b9-9488-408a-b470-bbde1a18e6f0
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerPublishAddToStream, PeerDistServerPublishAddToStream function [Peer Networking], p2p.peerdistserverpublishaddtostream, peerdist/PeerDistServerPublishAddToStream
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistServerPublishAddToStream
 dev_langs:
@@ -80,7 +79,7 @@ Pointer to the buffer that contains the data to be published. This buffer must r
 
 ### -param lpOverlapped [in]
 
-Pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure. The <b>Offset</b> and <b>OffsetHigh</b> members are reserved and must be zero.
+Pointer to an <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure. The <b>Offset</b> and <b>OffsetHigh</b> members are reserved and must be zero.
 
 
 ## -returns

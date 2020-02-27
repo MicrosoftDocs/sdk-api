@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 3f6c295c-f2c1-4070-a79e-9bb1e684ef92
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_KNOWN_HEADER, HTTP_KNOWN_HEADER, HTTP_KNOWN_HEADER structure [HTTP], PHTTP_KNOWN_HEADER, PHTTP_KNOWN_HEADER structure pointer [HTTP], _http_http_known_header, http.http_known_header, http/HTTP_KNOWN_HEADER, http/PHTTP_KNOWN_HEADER'
-ms.topic: struct
 f1_keywords:
 - http/HTTP_KNOWN_HEADER
 dev_langs:
@@ -67,7 +66,7 @@ Size, in bytes,  of the 8-bit string pointed to by the <b>pRawValue</b> member, 
 ### -field pRawValue
 
 Pointer to the text of this HTTP header. Use <b>RawValueLength</b> to determine where this text ends rather than relying on the string to have a terminating null. The format of the header text is specified in 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a>.
+<a href="https://www.ietf.org/rfc/rfc2616.txt">RFC 2616</a>.
 
 
 ## -remarks
@@ -78,7 +77,7 @@ In the HTTP Server API, known headers are defined as those that are enumerated i
 <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_header_id">HTTP_HEADER_ID</a> enumeration type. Be aware that there are different lists of different sizes for request and response headers.
 
 For more information about the structure and usage of HTTP headers, see the 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a>.
+<a href="https://www.ietf.org/rfc/rfc2616.txt">RFC 2616</a>.
 
 
 

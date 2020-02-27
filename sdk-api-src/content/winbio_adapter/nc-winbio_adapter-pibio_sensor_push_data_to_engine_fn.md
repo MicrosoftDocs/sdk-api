@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: dea49f4b-668d-4b30-a16f-b74f260785c2
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN, PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN callback, SensorAdapterPushDataToEngine, SensorAdapterPushDataToEngine callback function [Windows Biometric Framework API], WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, secbiomet.sensoradapterpushdatatoengine, winbio_adapter/SensorAdapterPushDataToEngine
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/SensorAdapterPushDataToEngine
 dev_langs:

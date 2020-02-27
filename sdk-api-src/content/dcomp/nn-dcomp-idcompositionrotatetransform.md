@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 6c92bd6b-4479-45c2-986c-0a6c91248361
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform, IDCompositionRotateTransform interface [DirectComposition], IDCompositionRotateTransform interface [DirectComposition],described, dcomp/IDCompositionRotateTransform, directcomp.idcompositionrotatetransform
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionRotateTransform
 dev_langs:

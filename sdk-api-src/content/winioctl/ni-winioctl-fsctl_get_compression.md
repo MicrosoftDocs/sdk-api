@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: c9932867-4b86-4119-ad13-f99aadfa559a
 ms.date: 12/05/2018
 ms.keywords: COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, FSCTL_GET_COMPRESSION, FSCTL_GET_COMPRESSION control, FSCTL_GET_COMPRESSION control code [Files], _win32_fsctl_get_compression, all other values, base.fsctl_get_compression, fs.fsctl_get_compression, winioctl/FSCTL_GET_COMPRESSION
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_GET_COMPRESSION
 dev_langs:

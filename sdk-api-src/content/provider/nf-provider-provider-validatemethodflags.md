@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: febc48d8-8952-4e2f-80fc-40344908f8b2
 ms.date: 12/05/2018
 ms.keywords: ?ValidateMethodFlags@Provider@@MAEJJ@Z, ?ValidateMethodFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidateMethodFlags method, Provider.ValidateMethodFlags, Provider::ValidateMethodFlags, ValidateMethodFlags, ValidateMethodFlags method [Windows Management Instrumentation], ValidateMethodFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validatemethodflags, provider/Provider::ValidateMethodFlags, wmi.provider_validatemethodflags
-ms.topic: method
 f1_keywords:
 - provider/Provider.ValidateMethodFlags
 dev_langs:

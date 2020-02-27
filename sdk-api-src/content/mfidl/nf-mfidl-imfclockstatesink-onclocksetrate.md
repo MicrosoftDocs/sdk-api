@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: ba8afdf9-13eb-4e3d-b8a7-c74e0b40e998
 ms.date: 12/05/2018
 ms.keywords: IMFClockStateSink interface [Media Foundation],OnClockSetRate method, IMFClockStateSink.OnClockSetRate, IMFClockStateSink::OnClockSetRate, OnClockSetRate, OnClockSetRate method [Media Foundation], OnClockSetRate method [Media Foundation],IMFClockStateSink interface, ba8afdf9-13eb-4e3d-b8a7-c74e0b40e998, mf.imfclockstatesink_onclocksetrate, mfidl/IMFClockStateSink::OnClockSetRate
-ms.topic: method
 f1_keywords:
 - mfidl/IMFClockStateSink.OnClockSetRate
 dev_langs:

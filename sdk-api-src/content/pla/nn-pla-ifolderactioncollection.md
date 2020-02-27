@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 9b0ab26f-7e91-4d7a-9fd7-73332601dd7b
 ms.date: 12/05/2018
 ms.keywords: IFolderActionCollection, IFolderActionCollection interface [PLA], IFolderActionCollection interface [PLA],described, base.ifolderactioncollection, pla.ifolderactioncollection, pla/IFolderActionCollection
-ms.topic: interface
 f1_keywords:
 - pla/IFolderActionCollection
 dev_langs:

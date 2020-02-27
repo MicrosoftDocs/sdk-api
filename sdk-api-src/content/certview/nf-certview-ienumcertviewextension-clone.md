@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 2b8e19e4-459f-45f0-abb6-e1e0e115e0f5
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Security], Clone method [Security],IEnumCERTVIEWEXTENSION interface, IEnumCERTVIEWEXTENSION interface [Security],Clone method, IEnumCERTVIEWEXTENSION.Clone, IEnumCERTVIEWEXTENSION::Clone, _certsrv_ienumcertviewextension_clone, certview/IEnumCERTVIEWEXTENSION::Clone, security.ienumcertviewextension_clone
-ms.topic: method
 f1_keywords:
 - certview/IEnumCERTVIEWEXTENSION.Clone
 dev_langs:

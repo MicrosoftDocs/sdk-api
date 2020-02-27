@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 7069ca65-170e-42fc-8c1a-849a2f25c36f
 ms.date: 12/05/2018
 ms.keywords: D2D1_ROUNDED_RECT, D2D1_ROUNDED_RECT structure [Direct2D], d2d1/D2D1_ROUNDED_RECT, direct2d.D2D1_ROUNDED_RECT
-ms.topic: struct
 f1_keywords:
 - d2d1/D2D1_ROUNDED_RECT
 dev_langs:

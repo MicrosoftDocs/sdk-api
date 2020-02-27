@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 8fa10cd9-d1ae-47c7-80e2-416165164491
 ms.date: 12/05/2018
 ms.keywords: CreateSchedule, CreateSchedule method [PLA], CreateSchedule method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],CreateSchedule method, IScheduleCollection.CreateSchedule, IScheduleCollection::CreateSchedule, pla.ischedulecollection_createschedule, pla/IScheduleCollection::CreateSchedule
-ms.topic: method
 f1_keywords:
 - pla/IScheduleCollection.CreateSchedule
 dev_langs:

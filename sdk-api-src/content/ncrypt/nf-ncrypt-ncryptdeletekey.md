@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 2e1958a7-51e0-4731-b4cf-a90d6c1f9ae0
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptDeleteKey, NCryptDeleteKey function [Security], ncrypt/NCryptDeleteKey, security.ncryptdeletekey_func
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptDeleteKey
 dev_langs:
@@ -147,7 +146,7 @@ The <i>hKey</i> parameter is not valid.
 
 
 
-A service must not call this function from its <a href="http://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 
 

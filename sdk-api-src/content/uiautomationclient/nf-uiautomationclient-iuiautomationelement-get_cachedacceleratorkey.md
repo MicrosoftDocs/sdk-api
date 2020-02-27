@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 52767d3d-7cda-4973-894b-d5e5996c7439
 ms.date: 12/05/2018
 ms.keywords: CachedAcceleratorKey property [Windows Accessibility], CachedAcceleratorKey property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedAcceleratorKey property, IUIAutomationElement.CachedAcceleratorKey, IUIAutomationElement.get_CachedAcceleratorKey, IUIAutomationElement::CachedAcceleratorKey, IUIAutomationElement::get_CachedAcceleratorKey, get_CachedAcceleratorKey, uiauto.uiauto_IUIAutomationElement_CachedAcceleratorKey, uiauto_IUIAutomationElement_CachedAcceleratorKey, uiautomationclient/IUIAutomationElement::CachedAcceleratorKey, uiautomationclient/IUIAutomationElement::get_CachedAcceleratorKey, winauto.uiauto_IUIAutomationElement_CachedAcceleratorKey
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationElement.CachedAcceleratorKey
 dev_langs:

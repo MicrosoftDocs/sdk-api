@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 50d30a45-8cea-454c-b5d2-ff809b8a8206
 ms.date: 12/05/2018
 ms.keywords: IMSVidAnalogTuner2, IMSVidAnalogTuner2 interface [Microsoft TV Technologies], IMSVidAnalogTuner2 interface [Microsoft TV Technologies],described, IMSVidAnalogTuner2Interface, mstv.imsvidanalogtuner2, segment/IMSVidAnalogTuner2
-ms.topic: interface
 f1_keywords:
 - segment/IMSVidAnalogTuner2
 dev_langs:

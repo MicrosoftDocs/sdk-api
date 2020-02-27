@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: e7fd06f7-7b42-47ed-be03-867d0d03594a
 ms.date: 12/05/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Security], GetDisplayName method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetDisplayName method, IEnumCERTVIEWCOLUMN.GetDisplayName, IEnumCERTVIEWCOLUMN::GetDisplayName, _certsrv_ienumcertviewcolumn_getdisplayname, certview/IEnumCERTVIEWCOLUMN::GetDisplayName, security.ienumcertviewcolumn_getdisplayname
-ms.topic: method
 f1_keywords:
 - certview/IEnumCERTVIEWCOLUMN.GetDisplayName
 dev_langs:

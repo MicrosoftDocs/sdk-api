@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: FF13CF5E-67EA-41B8-986C-B90691F82BF1
 ms.date: 12/05/2018
 ms.keywords: '*PCLUS_DISK_NUMBER_INFO, CLUS_DISK_NUMBER_INFO, CLUS_DISK_NUMBER_INFO structure [Failover Cluster], PCLUS_DISK_NUMBER_INFO, PCLUS_DISK_NUMBER_INFO structure pointer [Failover Cluster], clusapi/CLUS_DISK_NUMBER_INFO, clusapi/PCLUS_DISK_NUMBER_INFO, mscs.clus_disk_number_info'
-ms.topic: struct
 f1_keywords:
 - clusapi/CLUS_DISK_NUMBER_INFO
 dev_langs:

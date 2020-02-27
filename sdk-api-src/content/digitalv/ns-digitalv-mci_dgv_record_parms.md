@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: c0a537b1-d38c-41fa-8bd7-bee90ac625a7
 ms.date: 12/05/2018
 ms.keywords: '*LPMCI_DGV_RECORD_PARMS, MCI_DGV_RECORD_PARMS, MCI_DGV_RECORD_PARMS structure [Windows Multimedia], _win32_MCI_DGV_RECORD_PARMS_str, digitalv/MCI_DGV_RECORD_PARMS, multimedia.mci_dgv_record_parms'
-ms.topic: struct
 f1_keywords:
 - digitalv/MCI_DGV_RECORD_PARMS
 dev_langs:
@@ -88,7 +87,7 @@ Position to record to.
 
 ### -field rc
 
-The region of the frame buffer used as the source for the pixels compressed and saved. <a href="http://go.microsoft.com/fwlink/p/?linkid=16998">RECT</a> structures are handled differently in MCI than in other parts of Windows; in MCI, <b>rc.right</b> contains the width of the rectangle and <b>rc.bottom</b> contains its height.
+The region of the frame buffer used as the source for the pixels compressed and saved. <a href="https://msdn.microsoft.com/library/ms536136.aspx">RECT</a> structures are handled differently in MCI than in other parts of Windows; in MCI, <b>rc.right</b> contains the width of the rectangle and <b>rc.bottom</b> contains its height.
 
 
 ### -field dwAudioStream
@@ -127,7 +126,7 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=16998">RECT</a>
+<a href="https://msdn.microsoft.com/library/ms536136.aspx">RECT</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e5d0bb74-adde-48c7-b2df-1ba86d528db1
 ms.date: 12/05/2018
 ms.keywords: ShortToDWordPtr, ShortToDWordPtr function [Windows Shell], intsafe/ShortToDWordPtr, shell.ShortToDWordPtr
-ms.topic: function
 f1_keywords:
 - intsafe/ShortToDWordPtr
 dev_langs:

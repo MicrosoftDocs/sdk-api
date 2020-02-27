@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 74e9897e-47af-4a48-b6df-a93867ea2909
 ms.date: 12/05/2018
 ms.keywords: IEnumTfProperties interface [Text Services Framework],Reset method, IEnumTfProperties.Reset, IEnumTfProperties::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfProperties interface, _tsf_ienumtfproperties_reset_ref, msctf/IEnumTfProperties::Reset, tsf.ienumtfproperties_reset
-ms.topic: method
 f1_keywords:
 - msctf/IEnumTfProperties.Reset
 dev_langs:

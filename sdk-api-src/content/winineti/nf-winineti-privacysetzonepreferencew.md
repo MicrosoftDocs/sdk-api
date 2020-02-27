@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 29c8dbc0-052e-40f4-a036-cb647d920055
 ms.date: 12/05/2018
 ms.keywords: PrivacySetZonePreferenceW, PrivacySetZonePreferenceW function [WinINet], wininet.privacysetzonepreferencew, winineti/PrivacySetZonePreferenceW
-ms.topic: function
 f1_keywords:
 - winineti/PrivacySetZonePreferenceW
 dev_langs:
@@ -102,7 +101,7 @@ Currently, the signature must be set to IE6-P3PSettings/V1:.
 
 Logical rules have the following format: /&lt;<i>expression</i>&gt;=&lt;<i>decision</i>&gt;/.
 
-An expression is a Boolean statement composed of compact policy tokens using the operators &amp; (logical AND) and ! (logical NOT). The compact policy token is case-sensitive. (For more information on Platform for Privacy Preferences (P3P) privacy policies and compact policy tokens, see the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84572">W3C: Platform for Privacy Preferences (P3P) Project</a>  specification.) The decision is a single lowercase character that defines the action to take on the cookie whose compact policy contains the specified token(s). The following table lists valid decision characters.
+An expression is a Boolean statement composed of compact policy tokens using the operators &amp; (logical AND) and ! (logical NOT). The compact policy token is case-sensitive. (For more information on Platform for Privacy Preferences (P3P) privacy policies and compact policy tokens, see the <a href="https://www.w3.org/P3P/">W3C: Platform for Privacy Preferences (P3P) Project</a>  specification.) The decision is a single lowercase character that defines the action to take on the cookie whose compact policy contains the specified token(s). The following table lists valid decision characters.
 
 <table>
 <tr>

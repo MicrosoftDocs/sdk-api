@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: aba2f195-ebd8-40a2-8af4-455144822588
 ms.date: 12/05/2018
 ms.keywords: DeleteRoleDefinition, DeleteRoleDefinition method [Security], DeleteRoleDefinition method [Security],IAzRoleDefinition interface, IAzRoleDefinition interface [Security],DeleteRoleDefinition method, IAzRoleDefinition.DeleteRoleDefinition, IAzRoleDefinition::DeleteRoleDefinition, azroles/IAzRoleDefinition::DeleteRoleDefinition, security.iazroledefinition_deleteroledefinition
-ms.topic: method
 f1_keywords:
 - azroles/IAzRoleDefinition.DeleteRoleDefinition
 dev_langs:

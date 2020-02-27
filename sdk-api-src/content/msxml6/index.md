@@ -1,9 +1,10 @@
 ---
 UID: NA:msxml6
+title: Msxml6.h header
 ms.assetid: e7171135-c530-3f6a-9ffa-b24ec47757c9
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: ixhr2
 ---
 

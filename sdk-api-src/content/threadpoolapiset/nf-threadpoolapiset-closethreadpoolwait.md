@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: f8323ad2-c0b6-4e5c-b6eb-7195673f8992
 ms.date: 12/05/2018
 ms.keywords: CloseThreadpoolWait, CloseThreadpoolWait function, base.closethreadpoolwait, threadpoolapiset/CloseThreadpoolWait, winbase/CloseThreadpoolWait
-ms.topic: function
 f1_keywords:
 - threadpoolapiset/CloseThreadpoolWait
 dev_langs:

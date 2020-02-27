@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 32f115a4-3096-4af0-a254-1bac39a830d7
 ms.date: 12/05/2018
 ms.keywords: ICSETSTATUSPROC, ICSETSTATUSPROC structure [Windows Multimedia], multimedia.icsetstatusproc_COLLISION563, multimedia.icsetstatusproc_struct, vfw/ICSETSTATUSPROC
-ms.topic: struct
 f1_keywords:
 - vfw/ICSETSTATUSPROC
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: d5f96629-26a1-4e83-a6a8-2d60c463f407
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureQuery, ISCPSecureQuery interface [windows Media Device Manager], ISCPSecureQuery interface [windows Media Device Manager],described, ISCPSecureQueryInterface, mswmdm/ISCPSecureQuery, wmdm.iscpsecurequery
-ms.topic: interface
 f1_keywords:
 - mswmdm/ISCPSecureQuery
 dev_langs:

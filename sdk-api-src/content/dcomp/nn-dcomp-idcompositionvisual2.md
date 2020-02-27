@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: D4D04A43-BF00-482A-9CDD-A476BD1CB953
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual2, IDCompositionVisual2 interface [DirectComposition], IDCompositionVisual2 interface [DirectComposition],described, dcomp/IDCompositionVisual2, directcomp.idcompositionvisual2
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionVisual2
 dev_langs:
@@ -94,7 +93,7 @@ Sets the opacity mode for this visual.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=313910">DirectComposition Backface and D2D Batching</a>
+<a href="https://code.msdn.microsoft.com/windowsdesktop/DirectComposition-Backface-a2271f33">DirectComposition Backface and D2D Batching</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f5491bf0-bc40-491e-bf5e-f3fb580e10b4
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetOrigin method, IXpsOMGlyphs.SetOrigin, IXpsOMGlyphs::SetOrigin, SetOrigin, SetOrigin method [XPS Documents and Packaging], SetOrigin method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setorigin, xpsobjectmodel/IXpsOMGlyphs::SetOrigin
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphs.SetOrigin
 dev_langs:
@@ -131,7 +130,7 @@ In the units of the effective coordinate space, the origin specifies the x and y
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

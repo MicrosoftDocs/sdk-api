@@ -7,7 +7,6 @@ tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magsetwindowfilterlist.htm
 ms.date: 12/05/2018
 ms.keywords: MagSetWindowFilterList, MagSetWindowFilterList function [Magnification API], magapi.magapi_MagSetWindowFilterList, magapi_MagSetWindowFilterList, magnification/MagSetWindowFilterList
-ms.topic: function
 f1_keywords:
 - magnification/MagSetWindowFilterList
 dev_langs:
@@ -80,7 +79,7 @@ The magnification filter mode. It can be one of the following values:
 <tr>
 <td>MW_FILTERMODE_INCLUDE</td>
 <td>Magnify the windows.
-<div class="alert"><b>Note</b>  This value is not supported on Windows 7 or Windows 8.</div>
+<div class="alert"><b>Note:</b>  This value is not supported on Windows 7 or newer.</div>
 <div> </div>
 
 

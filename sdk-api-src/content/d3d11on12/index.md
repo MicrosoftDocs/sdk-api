@@ -1,9 +1,10 @@
 ---
 UID: NA:d3d11on12
+title: D3D11On12.h header
 ms.assetid: e0d38688-a299-3faf-a080-d8cff729c371
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: direct3d12
 ---
 

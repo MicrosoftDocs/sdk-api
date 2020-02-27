@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: e6d541fe-2aeb-4969-b138-869754dbdaa3
 ms.date: 12/05/2018
 ms.keywords: QOSNotifyFlow, QOSNotifyFlow function [QOS], qos.qosnotifyflow, qos2/QOSNotifyFlow
-ms.topic: function
 f1_keywords:
 - qos2/QOSNotifyFlow
 dev_langs:

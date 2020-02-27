@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 06a1a380-3fe8-4c99-be97-d84b6be9838d
 ms.date: 12/05/2018
 ms.keywords: GetLowestUncontainedId, GetLowestUncontainedId method [Windows Sync], GetLowestUncontainedId method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetLowestUncontainedId method, ISyncKnowledge2.GetLowestUncontainedId, ISyncKnowledge2::GetLowestUncontainedId, winsync.isyncknowledge2_getlowestuncontainedid, winsync/ISyncKnowledge2::GetLowestUncontainedId
-ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge2.GetLowestUncontainedId
 dev_langs:

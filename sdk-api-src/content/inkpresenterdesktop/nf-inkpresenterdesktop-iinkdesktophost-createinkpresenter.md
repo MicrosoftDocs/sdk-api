@@ -7,7 +7,6 @@ tech.root: input_ink
 ms.assetid: 17480bbd-7d4f-4ba9-9d54-80f440104055
 ms.date: 12/05/2018
 ms.keywords: CreateInkPresenter, CreateInkPresenter method, CreateInkPresenter method,IInkDesktopHost interface, IInkDesktopHost interface,CreateInkPresenter method, IInkDesktopHost.CreateInkPresenter, IInkDesktopHost::CreateInkPresenter, InkPresenterDesktop.iinkdesktophost_createinkpresenter, inkpresenterdesktop/IInkDesktopHost::CreateInkPresenter, input_ink.iinkdesktophost_createinkpresenter
-ms.topic: method
 f1_keywords:
 - inkpresenterdesktop/IInkDesktopHost.CreateInkPresenter
 dev_langs:
@@ -86,7 +85,7 @@ If successful, returns the requested interface pointer. Otherwise, returns <b>NU
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620314">Complex ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex ink sample</a>
 
 
 
@@ -94,7 +93,7 @@ If successful, returns the requested interface pointer. Otherwise, returns <b>NU
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
 
 
 
@@ -106,7 +105,7 @@ If successful, returns the requested interface pointer. Otherwise, returns <b>NU
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620312">Simple ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
  
 
  

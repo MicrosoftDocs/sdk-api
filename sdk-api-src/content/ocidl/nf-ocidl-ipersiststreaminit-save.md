@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: f88b61d0-dd85-4e8e-b445-dfced6521981
 ms.date: 12/05/2018
 ms.keywords: IPersistStreamInit interface [COM],Save method, IPersistStreamInit.Save, IPersistStreamInit::Save, Save, Save method [COM], Save method [COM],IPersistStreamInit interface, _com_ipersiststreaminit_save, com.ipersiststreaminit_save, ocidl/IPersistStreamInit::Save
-ms.topic: method
 f1_keywords:
 - ocidl/IPersistStreamInit.Save
 dev_langs:

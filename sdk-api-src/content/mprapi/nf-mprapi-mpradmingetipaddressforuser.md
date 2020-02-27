@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 79deeb39-1916-4bb0-b701-8f0a05dc55af
 ms.date: 12/05/2018
 ms.keywords: MprAdminGetIpAddressForUser, MprAdminGetIpAddressForUser callback, MprAdminGetIpAddressForUser callback function [RAS], _mpr_mpradmingetipaddressforuser, mprapi/MprAdminGetIpAddressForUser, rras.mpradmingetipaddressforuser
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminGetIpAddressForUser
 dev_langs:

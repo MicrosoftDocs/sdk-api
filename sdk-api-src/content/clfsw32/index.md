@@ -1,9 +1,10 @@
 ---
 UID: NA:clfsw32
+title: Clfsw32.h header
 ms.assetid: 0abae633-b59f-390b-8731-1a2959be2a5a
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: fs
 ---
 

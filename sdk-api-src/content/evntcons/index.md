@@ -1,9 +1,10 @@
 ---
 UID: NA:evntcons
+title: Evntcons.h header
 ms.assetid: 654abb07-d907-3332-97e6-64c67f560bbb
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: etw
 ---
 

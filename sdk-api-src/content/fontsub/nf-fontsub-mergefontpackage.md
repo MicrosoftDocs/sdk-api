@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: c51110a0-286c-4d97-9da5-4186ebf8f9b8
 ms.date: 12/05/2018
 ms.keywords: MergeFontPackage, MergeFontPackage function [Windows GDI], TTFMFP_DELTA, TTFMFP_SUBSET, TTFMFP_SUBSET1, _win32_MergeFontPackage, fontsub/MergeFontPackage, gdi.mergefontpackage
-ms.topic: function
 f1_keywords:
 - fontsub/MergeFontPackage
 dev_langs:

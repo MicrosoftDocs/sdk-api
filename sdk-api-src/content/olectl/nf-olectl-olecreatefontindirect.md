@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 9ab384d6-fc21-4152-a0cf-744948f2f72c
 ms.date: 12/05/2018
 ms.keywords: OleCreateFontIndirect, OleCreateFontIndirect function [COM], _ole_OleCreateFontIndirect, com.olecreatefontindirect, olectl/OleCreateFontIndirect
-ms.topic: function
 f1_keywords:
 - olectl/OleCreateFontIndirect
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates and initializes a standard font object using an initial description of the font's properties in a <a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-fontdesc">FONTDESC</a> structure. The function returns an interface pointer to the new font object specified by caller in the riid parameter. A <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> call is part of this call. The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> through the interface pointer returned.
+Creates and initializes a standard font object using an initial description of the font's properties in a <a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-fontdesc">FONTDESC</a> structure. The function returns an interface pointer to the new font object specified by caller in the riid parameter. A <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> call is part of this call. The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> through the interface pointer returned.
 
 
 

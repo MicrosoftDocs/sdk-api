@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 5492af92-4829-4bf1-8512-3d57fbe70ce5
 ms.date: 12/05/2018
 ms.keywords: WMT_WEBSTREAM_SAMPLE_HEADER, WMT_WEBSTREAM_SAMPLE_HEADER structure [windows Media Format], wmformat.wmt_webstream_sample_header, wmsdkidl/WMT_WEBSTREAM_SAMPLE_HEADER
-ms.topic: struct
 f1_keywords:
 - wmsdkidl/WMT_WEBSTREAM_SAMPLE_HEADER
 dev_langs:

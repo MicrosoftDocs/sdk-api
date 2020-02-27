@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_12at.htm
 ms.date: 12/05/2018
 ms.keywords: WORDREP_BREAK_EOC, WORDREP_BREAK_EOP, WORDREP_BREAK_EOS, WORDREP_BREAK_EOW, WORDREP_BREAK_TYPE, WORDREP_BREAK_TYPE enumeration [Indexing Service], _idxs_WORDREP_BREAK_TYPE, indexsrv.wordrep_break_type, indexsrv/WORDREP_BREAK_EOC, indexsrv/WORDREP_BREAK_EOP, indexsrv/WORDREP_BREAK_EOS, indexsrv/WORDREP_BREAK_EOW, indexsrv/WORDREP_BREAK_TYPE
-ms.topic: enum
 f1_keywords:
 - indexsrv/WORDREP_BREAK_TYPE
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 Describes the type of break that separates the current word from the previous word.
 

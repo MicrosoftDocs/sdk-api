@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: d199c4d7-17fd-4d1d-9d6d-b11db71f1363
 ms.date: 12/05/2018
 ms.keywords: GetCellColorBack, GetCellColorBack method [Windows Controls], GetCellColorBack method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellColorBack method, ITextRow.GetCellColorBack, ITextRow::GetCellColorBack, controls.itextrow_getcellcolorback, tom/ITextRow::GetCellColorBack
-ms.topic: method
 f1_keywords:
 - tom/ITextRow.GetCellColorBack
 dev_langs:

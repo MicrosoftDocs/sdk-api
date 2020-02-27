@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 081a14ed-c152-4e0a-b85b-1111d825ce53
 ms.date: 12/05/2018
 ms.keywords: IDCompositionDevice, IDCompositionDevice interface [DirectComposition], IDCompositionDevice interface [DirectComposition],described, dcomp/IDCompositionDevice, directcomp.idcompositiondevice
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionDevice
 dev_langs:

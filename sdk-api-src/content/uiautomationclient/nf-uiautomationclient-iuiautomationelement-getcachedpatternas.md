@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 2d0170e2-277e-48f8-a2e4-5c4ece92d8ec
 ms.date: 12/05/2018
 ms.keywords: GetCachedPatternAs, GetCachedPatternAs method [Windows Accessibility], GetCachedPatternAs method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCachedPatternAs method, IUIAutomationElement.GetCachedPatternAs, IUIAutomationElement::GetCachedPatternAs, uiauto.uiauto_IUIAutomationElement_GetCachedPatternAs, uiauto_IUIAutomationElement_GetCachedPatternAs, uiautomationclient/IUIAutomationElement::GetCachedPatternAs, winauto.uiauto_IUIAutomationElement_GetCachedPatternAs
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationElement.GetCachedPatternAs
 dev_langs:

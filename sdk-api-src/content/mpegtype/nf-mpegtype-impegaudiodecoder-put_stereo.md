@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 238e33ba-f35c-423c-be5f-73d1ca14cebd
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_Stereo method, IMpegAudioDecoder.put_Stereo, IMpegAudioDecoder::put_Stereo, IMpegAudioDecoderputStereo, dshow.impegaudiodecoder_put_stereo, mpegtype/IMpegAudioDecoder::put_Stereo, put_Stereo, put_Stereo method [DirectShow], put_Stereo method [DirectShow],IMpegAudioDecoder interface
-ms.topic: method
 f1_keywords:
 - mpegtype/IMpegAudioDecoder.put_Stereo
 dev_langs:

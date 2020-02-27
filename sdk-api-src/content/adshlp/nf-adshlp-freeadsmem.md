@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: e43f050a-5b96-406e-87ed-88a39ea747da
 ms.date: 12/05/2018
 ms.keywords: FreeADsMem, FreeADsMem function [ADSI], _ds_freeadsmem, adshlp/FreeADsMem, adsi.freeadsmem
-ms.topic: function
 f1_keywords:
 - adshlp/FreeADsMem
 dev_langs:

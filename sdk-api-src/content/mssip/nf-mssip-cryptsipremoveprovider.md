@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 0a269956-b2c7-414a-b002-7cec0d52bfd6
 ms.date: 12/05/2018
 ms.keywords: CryptSIPRemoveProvider, CryptSIPRemoveProvider function [Security], mssip/CryptSIPRemoveProvider, security.cryptsipremoveprovider
-ms.topic: function
 f1_keywords:
 - mssip/CryptSIPRemoveProvider
 dev_langs:

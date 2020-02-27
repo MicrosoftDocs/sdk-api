@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 7f9ecdbe-090c-41c9-82ea-3157589da00f
 ms.date: 12/05/2018
 ms.keywords: VarUI8FromR8, VarUI8FromR8 function [Automation], _oa96_VarUI8FromR8, automat.varui8fromr8, oleauto/VarUI8FromR8
-ms.topic: function
 f1_keywords:
 - oleauto/VarUI8FromR8
 dev_langs:

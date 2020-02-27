@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 4A20B1E3-ED99-4429-A9C1-35C9330CB108
 ms.date: 01/30/19
 ms.keywords: LPFN_RIORESIZEREQUESTQUEUE
-ms.topic: language-reference
 f1_keywords:
 - mswsock/LPFN_RIORESIZEREQUESTQUEUE
 dev_langs:

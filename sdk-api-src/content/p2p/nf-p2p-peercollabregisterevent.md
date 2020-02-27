@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: db7daf08-8d79-493f-8df5-172dae498df0
 ms.date: 12/05/2018
 ms.keywords: PeerCollabRegisterEvent, PeerCollabRegisterEvent function [Peer Networking], p2p.peercollabregisterevent, p2p/PeerCollabRegisterEvent
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabRegisterEvent
 dev_langs:

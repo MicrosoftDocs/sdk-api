@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 6D3D2B25-7373-4BA5-BF6B-FB461C2DE982
 ms.date: 12/05/2018
 ms.keywords: CreateRandomAccessStreamOnFile, CreateRandomAccessStreamOnFile function [Windows Runtime], shcore/CreateRandomAccessStreamOnFile, winrt.createrandomaccessstreamonfile
-ms.topic: function
 f1_keywords:
 - shcore/CreateRandomAccessStreamOnFile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 749f5235-2f62-4609-84b8-a880a38cd9cb
 ms.date: 12/05/2018
 ms.keywords: GetDefaultValue, GetDefaultValue method [DirectShow], GetDefaultValue method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetDefaultValue method, ICodecAPI.GetDefaultValue, ICodecAPI::GetDefaultValue, ICodecAPIGetDefaultValue, dshow.icodecapi_getdefaultvalue, strmif/ICodecAPI::GetDefaultValue
-ms.topic: method
 f1_keywords:
 - strmif/ICodecAPI.GetDefaultValue
 dev_langs:

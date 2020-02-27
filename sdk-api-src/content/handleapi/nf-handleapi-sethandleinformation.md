@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: a3fa8b92-cba2-414e-9fb8-d0fcb98ede36
 ms.date: 12/05/2018
 ms.keywords: HANDLE_FLAG_INHERIT, HANDLE_FLAG_PROTECT_FROM_CLOSE, SetHandleInformation, SetHandleInformation function, _win32_sethandleinformation, base.sethandleinformation, handleapi/SetHandleInformation
-ms.topic: function
 f1_keywords:
 - handleapi/SetHandleInformation
 dev_langs:

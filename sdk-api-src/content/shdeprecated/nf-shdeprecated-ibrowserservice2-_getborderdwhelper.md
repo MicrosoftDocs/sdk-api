@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 44477311-61c6-48d0-bef8-349ca114a891
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_GetBorderDWHelper method, IBrowserService2._GetBorderDWHelper, IBrowserService2::_GetBorderDWHelper, _GetBorderDWHelper, _GetBorderDWHelper method [Windows Shell], _GetBorderDWHelper method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_GetBorderDWHelper, shell.IBrowserService2__GetBorderDWHelper, zone_IBrowserService2__GetBorderDWHelper
-ms.topic: method
 f1_keywords:
 - shdeprecated/IBrowserService2._GetBorderDWHelper
 dev_langs:

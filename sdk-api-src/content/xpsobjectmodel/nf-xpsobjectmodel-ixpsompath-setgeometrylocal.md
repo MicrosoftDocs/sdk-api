@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 32657c0d-3be5-466c-98a7-6bbd46f710d1
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetGeometryLocal method, IXpsOMPath.SetGeometryLocal, IXpsOMPath::SetGeometryLocal, SetGeometryLocal, SetGeometryLocal method [XPS Documents and Packaging], SetGeometryLocal method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setgeometrylocal, xpsobjectmodel/IXpsOMPath::SetGeometryLocal
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.SetGeometryLocal
 dev_langs:
@@ -189,7 +188,7 @@ Neither <b>SetGeometryLocal</b> nor <a href="https://docs.microsoft.com/windows/
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

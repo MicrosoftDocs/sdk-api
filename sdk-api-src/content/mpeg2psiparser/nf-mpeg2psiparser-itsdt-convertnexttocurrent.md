@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: a8ce79ed-516a-44bf-b9c9-ff6d693cdd30
 ms.date: 12/05/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],ConvertNextToCurrent method, ITSDT.ConvertNextToCurrent, ITSDT::ConvertNextToCurrent, ITSDTConvertNextToCurrent, mpeg2psiparser/ITSDT::ConvertNextToCurrent, mstv.itsdt_convertnexttocurrent
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/ITSDT.ConvertNextToCurrent
 dev_langs:

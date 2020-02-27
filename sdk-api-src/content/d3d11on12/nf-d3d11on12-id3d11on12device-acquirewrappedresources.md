@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 123FC8D9-6411-4CB7-921B-CEB32F5A9AD9
 ms.date: 12/05/2018
 ms.keywords: AcquireWrappedResources, AcquireWrappedResources method, AcquireWrappedResources method,ID3D11On12Device interface, ID3D11On12Device interface,AcquireWrappedResources method, ID3D11On12Device.AcquireWrappedResources, ID3D11On12Device::AcquireWrappedResources, d3d11on12/ID3D11On12Device::AcquireWrappedResources, direct3d12.id3d11on12device_acquirewrappedresources
-ms.topic: method
 f1_keywords:
 - d3d11on12/ID3D11On12Device.AcquireWrappedResources
 dev_langs:

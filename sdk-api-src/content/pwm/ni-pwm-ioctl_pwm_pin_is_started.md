@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: 3C03AF3B-B40D-4909-89B1-BDF783154C28
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_PIN_IS_STARTED, IOCTL_PWM_PIN_IS_STARTED control, IOCTL_PWM_PIN_IS_STARTED control code, base.ioctl_pwm_pin_is_started, pwm/IOCTL_PWM_PIN_IS_STARTED
-ms.topic: ioctl
 f1_keywords:
 - pwm/IOCTL_PWM_PIN_IS_STARTED
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: d3c2d8b9-6511-41ff-9734-92f47825bbcd
 ms.date: 12/05/2018
 ms.keywords: ISensor interface,SetEventInterest method, ISensor.SetEventInterest, ISensor::SetEventInterest, SetEventInterest, SetEventInterest method, SetEventInterest method,ISensor interface, sensorsapi/ISensor::SetEventInterest, winsensors_com_ref.isensor_seteventinterest
-ms.topic: method
 f1_keywords:
 - sensorsapi/ISensor.SetEventInterest
 dev_langs:

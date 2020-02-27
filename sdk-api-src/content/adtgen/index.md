@@ -1,9 +1,10 @@
 ---
 UID: NA:adtgen
+title: Adtgen.h header
 ms.assetid: 34f94bb0-5e38-341f-9897-8abff9bfdbe0
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: security
 ---
 

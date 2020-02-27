@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 9efaa744-ae0c-4101-8d78-091cba990533
 ms.date: 12/05/2018
 ms.keywords: IWriteSpeedDescriptor, IWriteSpeedDescriptor interface [IMAPI], IWriteSpeedDescriptor interface [IMAPI],described, imapi.iwritespeeddescriptor, imapi2/IWriteSpeedDescriptor
-ms.topic: interface
 f1_keywords:
 - imapi2/IWriteSpeedDescriptor
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 529a529a-fbeb-4414-b4c9-46bfcca4aa7a
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesPinInfo, IOfflineFilesPinInfo interface [Offline Files], IOfflineFilesPinInfo interface [Offline Files],described, cscobj/IOfflineFilesPinInfo, of.iofflinefilespininfo
-ms.topic: interface
 f1_keywords:
 - cscobj/IOfflineFilesPinInfo
 dev_langs:

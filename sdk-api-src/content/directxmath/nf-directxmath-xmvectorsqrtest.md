@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorSqrtEst(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSqrtEst, XMVectorSqrtEst, XMVectorSqrtEst method [DirectX Math Support APIs], dxmath.xmvectorsqrtest
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorSqrtEst
 dev_langs:

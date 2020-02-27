@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: e219a505-48e0-46b0-a739-d46fb898bc58
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometry interface [XPS Documents and Packaging],SetFillRule method, IXpsOMGeometry.SetFillRule, IXpsOMGeometry::SetFillRule, SetFillRule, SetFillRule method [XPS Documents and Packaging], SetFillRule method [XPS Documents and Packaging],IXpsOMGeometry interface, xps.ixpsomgeometry_setfillrule, xpsobjectmodel/IXpsOMGeometry::SetFillRule
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGeometry.SetFillRule
 dev_langs:
@@ -122,7 +121,7 @@ In the document markup, this value corresponds to the <b>FillRule</b> attribute 
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

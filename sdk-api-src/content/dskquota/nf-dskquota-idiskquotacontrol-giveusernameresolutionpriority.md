@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 07de4fc4-e68f-405d-bb96-14ccad37e8e8
 ms.date: 12/05/2018
 ms.keywords: GiveUserNameResolutionPriority, GiveUserNameResolutionPriority method [Files], GiveUserNameResolutionPriority method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GiveUserNameResolutionPriority method, IDiskQuotaControl.GiveUserNameResolutionPriority, IDiskQuotaControl::GiveUserNameResolutionPriority, _win32_idiskquotacontrol_giveusernameresolutionpriority, base.idiskquotacontrol_giveusernameresolutionpriority, dskquota/IDiskQuotaControl::GiveUserNameResolutionPriority, fs.idiskquotacontrol_giveusernameresolutionpriority
-ms.topic: method
 f1_keywords:
 - dskquota/IDiskQuotaControl.GiveUserNameResolutionPriority
 dev_langs:

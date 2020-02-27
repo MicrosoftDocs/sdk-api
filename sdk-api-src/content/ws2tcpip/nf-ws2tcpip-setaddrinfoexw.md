@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 6d3c5b97-32ce-4eb5-a047-d9b37c37cdda
 ms.date: 12/05/2018
 ms.keywords: NS_ALL, NS_BTH, NS_DNS, NS_EMAIL, NS_NLA, NS_PNRPCLOUD, NS_PNRPNAME, SetAddrInfoEx, SetAddrInfoEx function [Winsock], SetAddrInfoExA, SetAddrInfoExW, winsock.setaddrinfoex, ws2tcpip/SetAddrInfoEx, ws2tcpip/SetAddrInfoExA, ws2tcpip/SetAddrInfoExW
-ms.topic: function
 f1_keywords:
 - ws2tcpip/SetAddrInfoEx
 dev_langs:

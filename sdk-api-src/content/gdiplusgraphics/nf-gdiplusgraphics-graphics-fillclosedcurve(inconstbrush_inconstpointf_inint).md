@@ -5,7 +5,6 @@ description: The Graphics::FillClosedCurve method creates a closed cardinal spli
 ms.assetid: 2aea6910-6fd0-4611-9de6-65ee0b65421e
 ms.date: 05/13/2019
 ms.keywords: Graphics::FillClosedCurve
-ms.topic: language-reference
 f1_keywords:
 - gdiplusgraphics/Graphics::FillClosedCurve
 dev_langs:

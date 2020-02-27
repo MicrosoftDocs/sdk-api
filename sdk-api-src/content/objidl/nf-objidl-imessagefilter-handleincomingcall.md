@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 7e31b518-ef4f-4bdd-b5c7-e1b16383a5be
 ms.date: 12/05/2018
 ms.keywords: HandleInComingCall, HandleInComingCall method [COM], HandleInComingCall method [COM],IMessageFilter interface, IMessageFilter interface [COM],HandleInComingCall method, IMessageFilter.HandleInComingCall, IMessageFilter::HandleInComingCall, _com_imessagefilter_handleincomingcall, com.imessagefilter_handleincomingcall, objidl/IMessageFilter::HandleInComingCall
-ms.topic: method
 f1_keywords:
 - objidl/IMessageFilter.HandleInComingCall
 dev_langs:

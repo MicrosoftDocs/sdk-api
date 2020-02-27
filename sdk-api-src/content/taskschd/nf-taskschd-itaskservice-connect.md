@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: ba810bac-e587-4eb8-871c-449b4174ab46
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [Task Scheduler], Connect method [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],Connect method, ITaskService.Connect, ITaskService::Connect, taskschd.itaskservice_connect, taskschd/ITaskService::Connect
-ms.topic: method
 f1_keywords:
 - taskschd/ITaskService.Connect
 dev_langs:

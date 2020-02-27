@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: 63cb6574-8c0d-4bcb-832c-7088447a5c04
 ms.date: 12/05/2018
 ms.keywords: SetSuspendState, SetSuspendState function, _win32_setsuspendstate, base.setsuspendstate, powrprof/SetSuspendState
-ms.topic: function
 f1_keywords:
 - powrprof/SetSuspendState
 dev_langs:

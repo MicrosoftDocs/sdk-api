@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: 6d678ffa-ef67-41e6-bafa-bdca418c5f9f
 ms.date: 12/05/2018
 ms.keywords: SLGetInstalledProductKeyIds, SLGetInstalledProductKeyIds function [Security], security.slgetinstalledproductkeyids, slpublic/SLGetInstalledProductKeyIds
-ms.topic: function
 f1_keywords:
 - slpublic/SLGetInstalledProductKeyIds
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6svo.htm
 ms.date: 12/05/2018
 ms.keywords: CoverpageSubject property [Fax Service], CoverpageSubject property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],CoverpageSubject property, IFaxDoc.CoverpageSubject, IFaxDoc.get_CoverpageSubject, IFaxDoc::CoverpageSubject, IFaxDoc::get_CoverpageSubject, IFaxDoc::put_CoverpageSubject, _mfax_ifaxdoc_get_coverpagesubject, fax._mfax_ifaxdoc_get_coverpagesubject, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_coverpagesubject_cpp, faxcom/IFaxDoc::CoverpageSubject, faxcom/IFaxDoc::get_CoverpageSubject, faxcom/IFaxDoc::put_CoverpageSubject, get_CoverpageSubject
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxDoc.CoverpageSubject
 dev_langs:

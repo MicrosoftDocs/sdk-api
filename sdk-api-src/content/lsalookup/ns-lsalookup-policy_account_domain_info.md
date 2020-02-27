@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: 0e38ac5f-40db-405d-9394-b6bcb7c652b5
 ms.date: 12/05/2018
 ms.keywords: '*PPOLICY_ACCOUNT_DOMAIN_INFO, POLICY_ACCOUNT_DOMAIN_INFO, POLICY_ACCOUNT_DOMAIN_INFO structure [Security], PPOLICY_ACCOUNT_DOMAIN_INFO, PPOLICY_ACCOUNT_DOMAIN_INFO structure pointer [Security], _lsa_policy_account_domain_info, lsalookup/POLICY_ACCOUNT_DOMAIN_INFO, lsalookup/PPOLICY_ACCOUNT_DOMAIN_INFO, security.policy_account_domain_info'
-ms.topic: struct
 f1_keywords:
 - lsalookup/POLICY_ACCOUNT_DOMAIN_INFO
 dev_langs:

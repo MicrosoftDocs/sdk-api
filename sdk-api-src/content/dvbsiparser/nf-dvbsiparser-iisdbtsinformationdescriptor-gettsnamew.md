@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 4c8900d1-1047-4b11-87e0-da1a72f511f7
 ms.date: 12/05/2018
 ms.keywords: GetTSNameW, GetTSNameW method [Microsoft TV Technologies], GetTSNameW method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetTSNameW method, IIsdbTSInformationDescriptor.GetTSNameW, IIsdbTSInformationDescriptor::GetTSNameW, dvbsiparser/IIsdbTSInformationDescriptor::GetTSNameW, mstv.iisdbtsinformationdescriptor_gettsnamew
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbTSInformationDescriptor.GetTSNameW
 dev_langs:

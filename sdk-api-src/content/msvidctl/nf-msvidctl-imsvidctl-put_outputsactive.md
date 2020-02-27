@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 636cedef-f6e5-40f2-8f1c-9f886d618ad0
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_OutputsActive method, IMSVidCtl.put_OutputsActive, IMSVidCtl::put_OutputsActive, IMSVidCtlput_OutputsActive, mstv.imsvidctl_put_outputsactive, msvidctl/IMSVidCtl::put_OutputsActive, put_OutputsActive, put_OutputsActive method [Microsoft TV Technologies], put_OutputsActive method [Microsoft TV Technologies],IMSVidCtl interface
-ms.topic: method
 f1_keywords:
 - msvidctl/IMSVidCtl.put_OutputsActive
 dev_langs:

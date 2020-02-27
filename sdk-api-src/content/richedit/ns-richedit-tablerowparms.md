@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 8b538d72-1210-4344-b673-592ef9a8cc85
 ms.date: 12/05/2018
 ms.keywords: PFA_CENTER, PFA_LEFT, PFA_RIGHT, TABLEROWPARMS, TABLEROWPARMS structure [Windows Controls], controls.tablerowparms, richedit/TABLEROWPARMS
-ms.topic: struct
 f1_keywords:
 - richedit/TABLEROWPARMS
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the attributes of rows in a table. The definitions include the corresponding Rich Text Format (RTF) control words, which are defined in the <a href="http://go.microsoft.com/fwlink/p/?linkid=239794">Rich Text Format (RTF) Specification</a>. 
+Defines the attributes of rows in a table. The definitions include the corresponding Rich Text Format (RTF) control words, which are defined in the <a href="https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=10725">Rich Text Format (RTF) Specification</a>. 
 
 
 

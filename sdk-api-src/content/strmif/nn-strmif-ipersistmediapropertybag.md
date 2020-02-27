@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 33e4b76b-841a-4dc5-b117-e08a6f4dcbe7
 ms.date: 12/05/2018
 ms.keywords: IPersistMediaPropertyBag, IPersistMediaPropertyBag interface [DirectShow], IPersistMediaPropertyBag interface [DirectShow],described, IPersistMediaPropertyBagInterface, dshow.ipersistmediapropertybag, strmif/IPersistMediaPropertyBag
-ms.topic: interface
 f1_keywords:
 - strmif/IPersistMediaPropertyBag
 dev_langs:

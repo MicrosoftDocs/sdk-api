@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: d4056703-8218-4b0b-9ed6-4c1584f0b751
 ms.date: 12/05/2018
 ms.keywords: IEnumRangeExceptions interface [Windows Sync],Reset method, IEnumRangeExceptions.Reset, IEnumRangeExceptions::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumRangeExceptions interface, winsync.ienumrangeexceptions_reset, winsync/IEnumRangeExceptions::Reset
-ms.topic: method
 f1_keywords:
 - winsync/IEnumRangeExceptions.Reset
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: e8f3084c-6216-497b-923a-adef3bfe8bf7
 ms.date: 12/05/2018
 ms.keywords: EngStretchBlt, EngStretchBlt function [Display Devices], display.engstretchblt, gdifncs_936bc1b7-36b7-4f4f-8de4-9a4b845ac0c1.xml, winddi/EngStretchBlt
-ms.topic: function
 f1_keywords:
 - winddi/EngStretchBlt
 dev_langs:

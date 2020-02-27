@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 93f3cd5e-7d8e-42b9-a688-3df22855e7fb
 ms.date: 12/05/2018
 ms.keywords: GetDialogType, GetDialogType method [Microsoft TV Technologies], GetDialogType method [Microsoft TV Technologies],IESOpenMmiEvent interface, IESOpenMmiEvent interface [Microsoft TV Technologies],GetDialogType method, IESOpenMmiEvent.GetDialogType, IESOpenMmiEvent::GetDialogType, mstv.iesopenmmievent_getdialogtype, tuner/IESOpenMmiEvent::GetDialogType
-ms.topic: method
 f1_keywords:
 - tuner/IESOpenMmiEvent.GetDialogType
 dev_langs:

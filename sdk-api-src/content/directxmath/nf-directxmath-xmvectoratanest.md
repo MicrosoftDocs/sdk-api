@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorATanEst(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorATanEst, XMVectorATanEst, XMVectorATanEst method [DirectX Math Support APIs], dxmath.xmvectoratanest
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorATanEst
 dev_langs:

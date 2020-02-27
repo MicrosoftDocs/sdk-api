@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ef536087-dd2b-417f-b139-916d930e3d25
 ms.date: 12/05/2018
 ms.keywords: IMSVidFilePlayback2 interface [Microsoft TV Technologies],put__SourceFilter method, IMSVidFilePlayback2.put__SourceFilter, IMSVidFilePlayback2::put__SourceFilter, IMSVidFilePlayback2put__SourceFilter, mstv.imsvidfileplayback2_put__sourcefilter, put__SourceFilter, put__SourceFilter method [Microsoft TV Technologies], put__SourceFilter method [Microsoft TV Technologies],IMSVidFilePlayback2 interface, segment/IMSVidFilePlayback2::put__SourceFilter
-ms.topic: method
 f1_keywords:
 - segment/IMSVidFilePlayback2.put__SourceFilter
 dev_langs:

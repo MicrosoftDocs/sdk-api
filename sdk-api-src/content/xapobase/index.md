@@ -1,9 +1,10 @@
 ---
 UID: NA:xapobase
+title: Xapobase.h header
 ms.assetid: d2d0bda1-c776-3d5f-aeae-75ca05aec439
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: xaudio2
 ---
 

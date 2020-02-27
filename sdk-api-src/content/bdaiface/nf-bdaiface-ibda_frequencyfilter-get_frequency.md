@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0eba0f92-45a7-4c5e-9450-f3c7a176288c
 ms.date: 12/05/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],get_Frequency method, IBDA_FrequencyFilter.get_Frequency, IBDA_FrequencyFilter::get_Frequency, IBDA_FrequencyFilterget_Frequency, bdaiface/IBDA_FrequencyFilter::get_Frequency, get_Frequency, get_Frequency method [Microsoft TV Technologies], get_Frequency method [Microsoft TV Technologies],IBDA_FrequencyFilter interface, mstv.ibda_frequencyfilter_get_frequency
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_FrequencyFilter.get_Frequency
 dev_langs:

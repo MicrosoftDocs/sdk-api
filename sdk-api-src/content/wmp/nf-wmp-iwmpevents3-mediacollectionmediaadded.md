@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 374ac1d8-ea7f-498a-b9b1-02bf7083f682
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents3 interface [Windows Media Player],MediaCollectionMediaAdded method, IWMPEvents3.MediaCollectionMediaAdded, IWMPEvents3::MediaCollectionMediaAdded, IWMPEvents3MediaCollectionMediaAdded, MediaCollectionMediaAdded, MediaCollectionMediaAdded method [Windows Media Player], MediaCollectionMediaAdded method [Windows Media Player],IWMPEvents3 interface, wmp.iwmpevents3_iwmpevents3__mediacollectionmediaadded, wmp/IWMPEvents3::MediaCollectionMediaAdded
-ms.topic: method
 f1_keywords:
 - wmp/IWMPEvents3.MediaCollectionMediaAdded
 dev_langs:

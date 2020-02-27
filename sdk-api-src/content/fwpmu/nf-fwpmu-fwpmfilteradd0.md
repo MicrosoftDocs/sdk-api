@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: ca11187e-3a91-438f-9a7f-606da7c88f6d
 ms.date: 12/05/2018
 ms.keywords: FwpmFilterAdd0, FwpmFilterAdd0 function [Filtering], fwp.fwpmfilteradd0_func, fwpmu/FwpmFilterAdd0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmFilterAdd0
 dev_langs:
@@ -205,7 +204,7 @@ The caller needs the following access rights:
 To add a filter that references a callout, invoke the functions in the following order.
 
 <ul>
-<li>Call <a href="http://go.microsoft.com/fwlink/p/?linkid=199850">FwpsCalloutRegister0</a> (documented in the Windows Driver Kit (WDK)), to register the callout with the filter engine.</li>
+<li>Call <a href="https://msdn.microsoft.com/library/ff551140.aspx">FwpsCalloutRegister0</a> (documented in the Windows Driver Kit (WDK)), to register the callout with the filter engine.</li>
 <li>Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmcalloutadd0">FwpmCalloutAdd0</a> to add the callout to the system.</li>
 <li>Call <b>FwpmFilterAdd0</b> to add the filter that references the callout to the system.</li>
 </ul>

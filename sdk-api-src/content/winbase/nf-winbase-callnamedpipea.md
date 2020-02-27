@@ -7,7 +7,6 @@ tech.root: ipc
 ms.assetid: 9cfcb608-a539-4eb6-866c-81dafdabbcdb
 ms.date: 12/05/2018
 ms.keywords: CallNamedPipe, CallNamedPipe function, CallNamedPipeA, CallNamedPipeW, NMPWAIT_NOWAIT, NMPWAIT_USE_DEFAULT_WAIT, NMPWAIT_WAIT_FOREVER, _win32_callnamedpipe, base.callnamedpipe, winbase/CallNamedPipe, winbase/CallNamedPipeA, winbase/CallNamedPipeW
-ms.topic: function
 f1_keywords:
 - winbase/CallNamedPipe
 dev_langs:

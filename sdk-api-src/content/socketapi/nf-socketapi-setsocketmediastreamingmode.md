@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 5D1C18FC-2F25-44C0-AD3C-F1E7744C4963
 ms.date: 12/05/2018
 ms.keywords: SetSocketMediaStreamingMode, SetSocketMediaStreamingMode function [Winsock], socketapi/SetSocketMediaStreamingMode, winsock.setsocketmediastreamingmode
-ms.topic: function
 f1_keywords:
 - socketapi/SetSocketMediaStreamingMode
 dev_langs:

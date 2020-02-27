@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: f2260665-4655-4aa4-b920-2ed74e7189bd
 ms.date: 12/05/2018
 ms.keywords: MI_ConstSint16A, MI_ConstSint16A structure [Windows Management Infrastructure (MI)], mi/MI_ConstSint16A, wmi._mi_constsint16a, wmi_v2.mi_constsint16a
-ms.topic: struct
 f1_keywords:
 - mi/MI_ConstSint16A
 dev_langs:

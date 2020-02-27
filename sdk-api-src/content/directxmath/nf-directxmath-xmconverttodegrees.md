@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.conversion.XMConvertToDegrees(float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMConvertToDegrees, XMConvertToDegrees, XMConvertToDegrees method [DirectX Math Support APIs], dxmath.xmconverttodegrees
-ms.topic: function
 f1_keywords:
 - directxmath/XMConvertToDegrees
 dev_langs:

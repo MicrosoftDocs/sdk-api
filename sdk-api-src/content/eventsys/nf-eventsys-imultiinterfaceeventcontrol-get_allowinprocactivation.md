@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 152f78d9-4292-45e8-a908-5d2b0368f507
 ms.date: 12/05/2018
 ms.keywords: AllowInprocActivation property [COM+], AllowInprocActivation property [COM+],IMultiInterfaceEventControl interface, IMultiInterfaceEventControl interface [COM+],AllowInprocActivation property, IMultiInterfaceEventControl.AllowInprocActivation, IMultiInterfaceEventControl.get_AllowInprocActivation, IMultiInterfaceEventControl::AllowInprocActivation, IMultiInterfaceEventControl::get_AllowInprocActivation, IMultiInterfaceEventControl::put_AllowInprocActivation, cos.imultiinterfaceeventcontrol_allowinprocactivation, eventsys/IMultiInterfaceEventControl::AllowInprocActivation, eventsys/IMultiInterfaceEventControl::get_AllowInprocActivation, eventsys/IMultiInterfaceEventControl::put_AllowInprocActivation, get_AllowInprocActivation
-ms.topic: method
 f1_keywords:
 - eventsys/IMultiInterfaceEventControl.AllowInprocActivation
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 1e0cd196-f53c-4d68-a287-7a98b7215d6d
 ms.date: 12/05/2018
 ms.keywords: IS_FLOWSPEC, IS_FLOWSPEC structure [QOS], lpmapi/IS_FLOWSPEC, qos.is_flowspec
-ms.topic: struct
 f1_keywords:
 - lpmapi/IS_FLOWSPEC
 dev_langs:

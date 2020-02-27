@@ -5,7 +5,6 @@ description: Creates a font face reference with specific axis values.
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],CreateFontFaceReference method, IDWriteFontResource.CreateFontFaceReference, IDWriteFontResource::CreateFontFaceReference, CreateFontFaceReference, CreateFontFaceReference method [Direct Write], CreateFontFaceReference method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_createfontfacereference, dwrite_3/IDWriteFontResource::CreateFontFaceReference
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontResource.CreateFontFaceReference
 dev_langs:

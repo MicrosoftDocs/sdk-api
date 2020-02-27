@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: ecb7374c-d1fa-4e7c-87ad-045122cb466e
 ms.date: 12/05/2018
 ms.keywords: EjectNtmsMedia, EjectNtmsMedia function [Files], NTMS_EJECT_QUEUE, NTMS_EJECT_START, NTMS_EJECT_STOP, _zaw_ejectntmsmedia, base.ejectntmsmedia, fs.ejectntmsmedia, ntmsapi/EjectNtmsMedia
-ms.topic: function
 f1_keywords:
 - ntmsapi/EjectNtmsMedia
 dev_langs:

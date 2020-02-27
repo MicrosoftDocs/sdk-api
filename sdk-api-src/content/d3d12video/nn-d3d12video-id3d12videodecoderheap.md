@@ -5,7 +5,6 @@ description: Represents a Direct3D 12 video decoder heap.
 tech.root: mf
 ms.assetid: b731f246-dbdf-46f4-8ccf-8f59c0f8a26e
 ms.date: 05/28/2019
-ms.topic: interface
 f1_keywords:
 - ID3D12VideoDecoderHeap
 dev_langs:
@@ -60,8 +59,8 @@ ID3D12VideoDecoderHeap interits from ID3D12Pageable.
 
 ## -remarks
 
-Get an instance of this class by calling [ID3D12VideoDevice::CreateVideoDecoderHeap](nf-d3d12video-id3d12videodevice-createvideodecoderheap).
+Get an instance of this class by calling [ID3D12VideoDevice::CreateVideoDecoderHeap](nf-d3d12video-id3d12videodevice-createvideodecoderheap.md).
 
 ## -see-also
 
-[ID3D12VideoDecoderHeap1](nn-d3d12video-id3d12videodecoderheap1)
+[ID3D12VideoDecoderHeap1](nn-d3d12video-id3d12videodecoderheap1.md)

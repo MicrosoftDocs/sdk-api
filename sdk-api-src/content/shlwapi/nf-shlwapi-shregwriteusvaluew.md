@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f94569c6-415b-4263-bab4-8a5baca47901
 ms.date: 12/05/2018
 ms.keywords: REG_BINARY, REG_DWORD, REG_DWORD_BIG_ENDIAN, REG_DWORD_LITTLE_ENDIAN, REG_EXPAND_SZ, REG_FULL_RESOURCE_DESCRIPTOR, REG_LINK, REG_MULTI_SZ, REG_NONE, REG_QWORD, REG_QWORD_LITTLE_ENDIAN, REG_RESOURCE_LIST, REG_RESOURCE_REQUIREMENTS_LIST, REG_SZ, SHREGSET_DEFAULT, SHREGSET_FORCE_HKCU, SHREGSET_FORCE_HKLM, SHREGSET_HKCU, SHREGSET_HKLM, SHRegWriteUSValue, SHRegWriteUSValue function [Windows Shell], SHRegWriteUSValueA, SHRegWriteUSValueW, _win32_SHRegWriteUSValue, shell.SHRegWriteUSValue, shlwapi/SHRegWriteUSValue, shlwapi/SHRegWriteUSValueA, shlwapi/SHRegWriteUSValueW
-ms.topic: function
 f1_keywords:
 - shlwapi/SHRegWriteUSValue
 dev_langs:

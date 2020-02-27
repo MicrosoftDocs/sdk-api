@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: bb168504-34c0-4d30-826e-61926fd10a2a
 ms.date: 12/05/2018
 ms.keywords: ITfRangeBackup interface [Text Services Framework],Restore method, ITfRangeBackup.Restore, ITfRangeBackup::Restore, Restore, Restore method [Text Services Framework], Restore method [Text Services Framework],ITfRangeBackup interface, _tsf_itfrangebackup_restore_ref, msctf/ITfRangeBackup::Restore, tsf.itfrangebackup_restore
-ms.topic: method
 f1_keywords:
 - msctf/ITfRangeBackup.Restore
 dev_langs:

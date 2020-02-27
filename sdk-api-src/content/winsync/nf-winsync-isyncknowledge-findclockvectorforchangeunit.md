@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: b5114f66-419f-4fea-87ad-3c2cc43eb2fd
 ms.date: 12/05/2018
 ms.keywords: FindClockVectorForChangeUnit, FindClockVectorForChangeUnit method [Windows Sync], FindClockVectorForChangeUnit method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],FindClockVectorForChangeUnit method, ISyncKnowledge.FindClockVectorForChangeUnit, ISyncKnowledge::FindClockVectorForChangeUnit, winsync.isyncknowledge_findclockvectorforchangeunit, winsync/ISyncKnowledge::FindClockVectorForChangeUnit
-ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge.FindClockVectorForChangeUnit
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: c69f0c96-134f-4b78-91dc-44339aa06a98
 ms.date: 12/05/2018
 ms.keywords: ITPrivateEvent interface [TAPI 2.2],get_CallHub method, ITPrivateEvent.get_CallHub, ITPrivateEvent::get_CallHub, _tapi3_itprivateevent_get_callhub, get_CallHub, get_CallHub method [TAPI 2.2], get_CallHub method [TAPI 2.2],ITPrivateEvent interface, tapi3.itprivateevent_get_callhub, tapi3if/ITPrivateEvent::get_CallHub
-ms.topic: method
 f1_keywords:
 - tapi3if/ITPrivateEvent.get_CallHub
 dev_langs:

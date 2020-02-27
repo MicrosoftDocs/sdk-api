@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 2f00fe52-2e94-473a-be13-252b50b58522
 ms.date: 12/05/2018
 ms.keywords: AuditLookupCategoryGuidFromCategoryId, AuditLookupCategoryGuidFromCategoryId function [Security], ntsecapi/AuditLookupCategoryGuidFromCategoryId, security.auditlookupcategoryguidfromcategoryid_func
-ms.topic: function
 f1_keywords:
 - ntsecapi/AuditLookupCategoryGuidFromCategoryId
 dev_langs:

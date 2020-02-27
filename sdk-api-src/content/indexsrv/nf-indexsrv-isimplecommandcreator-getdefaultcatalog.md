@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: 6BD65290-209A-4FCA-BD2B-E4BB800C8BEF
 ms.date: 12/05/2018
 ms.keywords: GetDefaultCatalog, GetDefaultCatalog method [search], GetDefaultCatalog method [search],ISimpleCommandCreator interface, ISimpleCommandCreator interface [search],GetDefaultCatalog method, ISimpleCommandCreator.GetDefaultCatalog, ISimpleCommandCreator::GetDefaultCatalog, indexsrv/ISimpleCommandCreator::GetDefaultCatalog, search.isimplecommandcreator_getdefaultcatalog
-ms.topic: method
 f1_keywords:
 - indexsrv/ISimpleCommandCreator.GetDefaultCatalog
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 3bd773f2-f3ea-45e5-9b37-8346070049d8
 ms.date: 12/05/2018
 ms.keywords: ISmimeCapability interface [Security],ObjectId property, ISmimeCapability.ObjectId, ISmimeCapability.get_ObjectId, ISmimeCapability::ObjectId, ISmimeCapability::get_ObjectId, ObjectId property [Security], ObjectId property [Security],ISmimeCapability interface, certenroll/ISmimeCapability::ObjectId, certenroll/ISmimeCapability::get_ObjectId, get_ObjectId, security.ismimecapability_objectid_property
-ms.topic: method
 f1_keywords:
 - certenroll/ISmimeCapability.ObjectId
 dev_langs:

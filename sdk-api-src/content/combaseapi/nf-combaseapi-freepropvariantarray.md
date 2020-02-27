@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 2eefb57e-9311-46e1-9eed-e25aa3b5afaa
 ms.date: 12/05/2018
 ms.keywords: FreePropVariantArray, FreePropVariantArray function [Structured Storage], _stg_freepropvariantarray, combaseapi/FreePropVariantArray, stg.freepropvariantarray
-ms.topic: function
 f1_keywords:
 - combaseapi/FreePropVariantArray
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 4C380E2F-8125-4147-97F5-BEDF5BEFB81D
 ms.date: 12/05/2018
 ms.keywords: IAppxBlockMapFile, IAppxBlockMapFile interface [App packaging and management], IAppxBlockMapFile interface [App packaging and management],described, appxpackaging/IAppxBlockMapFile, appxpkg.iappxblockmapfile
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxBlockMapFile
 dev_langs:
@@ -125,7 +124,7 @@ The <b>IAppxBlockMapFile</b> interface provides a read-only object model that re
 
 #### Examples
 
-For a example code, see <a href="http://go.microsoft.com/fwlink/p/?linkid=236966">Read app package manifest info sample (DescribeAppx)</a>.
+For a example code, see <a href="https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-3ff13a92">Read app package manifest info sample (DescribeAppx)</a>.
 
 <div class="code"></div>
 
@@ -152,7 +151,7 @@ For a example code, see <a href="http://go.microsoft.com/fwlink/p/?linkid=236966
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=236966">Read app package manifest info sample (DescribeAppx)</a>
+<a href="https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-3ff13a92">Read app package manifest info sample (DescribeAppx)</a>
 
 
 

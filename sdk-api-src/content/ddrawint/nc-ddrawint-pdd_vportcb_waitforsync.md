@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 0834f49b-89c4-47cc-b591-d2b90d21ee72
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortWaitForSync, DdVideoPortWaitForSync callback function [Display Devices], PDD_VPORTCB_WAITFORSYNC, PDD_VPORTCB_WAITFORSYNC callback, ddfncs_11b0544a-9115-4b1f-ab6a-13b870a16ecc.xml, ddrawint/DdVideoPortWaitForSync, display.ddvideoportwaitforsync
-ms.topic: callback
 f1_keywords:
 - ddrawint/DdVideoPortWaitForSync
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolesetlinkavailable.htm
 ms.date: 12/05/2018
 ms.keywords: IRichEditOle interface [Windows Controls],SetLinkAvailable method, IRichEditOle.SetLinkAvailable, IRichEditOle::SetLinkAvailable, SetLinkAvailable, SetLinkAvailable method [Windows Controls], SetLinkAvailable method [Windows Controls],IRichEditOle interface, _win32_IRichEditOle_SetLinkAvailable, _win32_IRichEditOle_SetLinkAvailable_cpp, controls.IRichEditOle_SetLinkAvailable, controls._win32_IRichEditOle_SetLinkAvailable, richole/IRichEditOle::SetLinkAvailable
-ms.topic: method
 f1_keywords:
 - richole/IRichEditOle.SetLinkAvailable
 dev_langs:

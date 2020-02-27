@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 98de8a3d-073e-78df-2e2c-8ab64632091c
 ms.date: 12/05/2018
 ms.keywords: GetFileTime, GetFileTime method [Direct Write], GetFileTime method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetFileTime method, IDWriteFontFaceReference.GetFileTime, IDWriteFontFaceReference::GetFileTime, directwrite.idwritefontfacereference_getfiletime, dwrite_3/IDWriteFontFaceReference::GetFileTime
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontFaceReference.GetFileTime
 dev_langs:

@@ -5,7 +5,6 @@ description: Gets the node mask provided when the video processor was created wi
 tech.root: mf
 ms.assetid: 824194ab-aca4-4869-88ad-7bc7651d2515
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoProcessor::GetNodeMask
 dev_langs:

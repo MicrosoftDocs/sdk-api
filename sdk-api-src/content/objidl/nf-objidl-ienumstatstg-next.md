@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 09363d3e-a606-4a50-8758-d7ef5b3c05ab
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATSTG interface [Structured Storage],Next method, IEnumSTATSTG.Next, IEnumSTATSTG::Next, Next, Next method [Structured Storage], Next method [Structured Storage],IEnumSTATSTG interface, objidl/IEnumSTATSTG::Next, stg.ienumstatstg_next
-ms.topic: method
 f1_keywords:
 - objidl/IEnumSTATSTG.Next
 dev_langs:

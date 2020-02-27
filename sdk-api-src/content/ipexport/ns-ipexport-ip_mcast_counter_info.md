@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: aa70f260-ccbb-4020-a3c0-2d400ddc2e9d
 ms.date: 12/05/2018
 ms.keywords: '*PIP_MCAST_COUNTER_INFO, *PIP_MCAST_COUNTER_INFO structure [IP Helper], IP_MCAST_COUNTER_INFO, IP_MCAST_COUNTER_INFO structure [IP Helper], ipexport/*PIP_MCAST_COUNTER_INFO, ipexport/IP_MCAST_COUNTER_INFO, iphlp.ip_mcast_counter_info'
-ms.topic: struct
 f1_keywords:
 - ipexport/IP_MCAST_COUNTER_INFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 9a5c7876-2c6b-450e-95e4-2766d63b6e19
 ms.date: 12/05/2018
 ms.keywords: ONEX_AUTH_STATUS, ONEX_AUTH_STATUS enumeration [NativeWIFI], OneXAuthFailure, OneXAuthInProgress, OneXAuthInvalid, OneXAuthNoAuthenticatorFound, OneXAuthNotStarted, OneXAuthSuccess, PONEX_AUTH_STATUS, PONEX_AUTH_STATUS enumeration pointer [NativeWIFI], dot1x/ONEX_AUTH_STATUS, dot1x/OneXAuthFailure, dot1x/OneXAuthInProgress, dot1x/OneXAuthInvalid, dot1x/OneXAuthNoAuthenticatorFound, dot1x/OneXAuthNotStarted, dot1x/OneXAuthSuccess, dot1x/PONEX_AUTH_STATUS, nwifi.onex_auth_status
-ms.topic: enum
 f1_keywords:
 - dot1x/ONEX_AUTH_STATUS
 dev_langs:

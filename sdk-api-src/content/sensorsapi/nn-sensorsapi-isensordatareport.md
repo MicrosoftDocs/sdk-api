@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: c677b956-e3ab-477c-b97b-aceec4e2d235
 ms.date: 12/05/2018
 ms.keywords: ISensorDataReport, ISensorDataReport interface [WinSensors], ISensorDataReport interface [WinSensors],described, sensorsapi/ISensorDataReport, winsensors.isensordatareport
-ms.topic: interface
 f1_keywords:
 - sensorsapi/ISensorDataReport
 dev_langs:

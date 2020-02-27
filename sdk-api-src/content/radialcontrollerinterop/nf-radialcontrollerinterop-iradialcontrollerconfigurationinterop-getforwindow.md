@@ -7,7 +7,6 @@ tech.root: Input_Radial
 ms.assetid: f2182f3a-82a8-40be-b331-673a181f4070
 ms.date: 12/05/2018
 ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,IRadialControllerConfigurationInterop interface, IRadialControllerConfigurationInterop interface,GetForWindow method, IRadialControllerConfigurationInterop.GetForWindow, IRadialControllerConfigurationInterop::GetForWindow, Input_Radial.iradialcontrollerconfigurationinterop_getforwindow, radialcontrollerinterop/IRadialControllerConfigurationInterop::GetForWindow
-ms.topic: method
 f1_keywords:
 - radialcontrollerinterop/IRadialControllerConfigurationInterop.GetForWindow
 dev_langs:
@@ -99,15 +98,15 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://go.microsoft.com/fwlink/?linkid=832322">Surface Dial interactions</a>
+<a href="https://docs.microsoft.com/windows/uwp/design/input/windows-wheel-interactions?redirectedfrom=MSDN">Surface Dial interactions</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/?linkid=832713">Universal Windows Platform samples (C# and C++)</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/b78d95134ce2d57c848e0a8dc339fc362748fb9c/Samples/RadialController">Universal Windows Platform samples (C# and C++)</a>
 
 
 
-<a href="https://aka.ms/radialcontrollerclassicsample">Windows classic desktop sample</a>
+<a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/RadialController">Windows classic desktop sample</a>
  
 
  

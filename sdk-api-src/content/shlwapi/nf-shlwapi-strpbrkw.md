@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 116c0791-33dd-4c3f-b8a4-a7df91fc5f6a
 ms.date: 12/05/2018
 ms.keywords: StrPBrk, StrPBrk function [Windows Shell], StrPBrkA, StrPBrkW, _win32_StrPBrk, shell.StrPBrk, shlwapi/StrPBrk, shlwapi/StrPBrkA, shlwapi/StrPBrkW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrPBrk
 dev_langs:

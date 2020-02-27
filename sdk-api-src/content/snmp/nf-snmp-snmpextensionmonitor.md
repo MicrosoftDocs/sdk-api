@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 40468bf2-0e91-448b-a2e5-b84b786c67a2
 ms.date: 12/05/2018
 ms.keywords: SnmpExtensionMonitor, SnmpExtensionMonitor callback, SnmpExtensionMonitor callback function [SNMP], _snmp_snmpextensionmonitor, snmp.snmpextensionmonitor, snmp/SnmpExtensionMonitor
-ms.topic: function
 f1_keywords:
 - snmp/SnmpExtensionMonitor
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: A28A6D3B-DC11-418B-987F-04711358B6EE
 ms.date: 12/05/2018
 ms.keywords: IWSCProductList interface [Windows API],get_Count method, IWSCProductList.get_Count, IWSCProductList::get_Count, get_Count, get_Count method [Windows API], get_Count method [Windows API],IWSCProductList interface, iwscapi/IWSCProductList::get_Count, winprog.iwscproductlist_count
-ms.topic: method
 f1_keywords:
 - iwscapi/IWSCProductList.get_Count
 dev_langs:

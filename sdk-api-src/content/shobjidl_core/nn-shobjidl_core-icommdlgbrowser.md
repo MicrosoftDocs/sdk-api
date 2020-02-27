@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: bf89ac6e-6c2e-4944-885c-9ab62f58fe71
 ms.date: 12/05/2018
 ms.keywords: ICommDlgBrowser, ICommDlgBrowser interface [Windows Shell], ICommDlgBrowser interface [Windows Shell],described, _win32_ICommDlgBrowser, shell.ICommDlgBrowser, shobjidl_core/ICommDlgBrowser
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/ICommDlgBrowser
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Exposed by the common file dialog boxes to be used when they host a Shell browser. If supported, <b>ICommDlgBrowser</b> exposes methods that allow a Shell view to handle several cases that require different behavior in a dialog box than in a normal Shell view. You obtain an <b>ICommDlgBrowser</b> interface pointer by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a> object.
+Exposed by the common file dialog boxes to be used when they host a Shell browser. If supported, <b>ICommDlgBrowser</b> exposes methods that allow a Shell view to handle several cases that require different behavior in a dialog box than in a normal Shell view. You obtain an <b>ICommDlgBrowser</b> interface pointer by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a> object.
 
 
 ## -inheritance

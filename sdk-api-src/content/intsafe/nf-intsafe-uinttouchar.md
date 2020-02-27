@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9308c933-a8f4-45eb-81cf-31a0b8c0e032
 ms.date: 12/05/2018
 ms.keywords: UIntToUChar, UIntToUChar function [Windows Shell], _shell_UIntToUChar, intsafe/UIntToUChar, shell.UIntToUChar
-ms.topic: function
 f1_keywords:
 - intsafe/UIntToUChar
 dev_langs:

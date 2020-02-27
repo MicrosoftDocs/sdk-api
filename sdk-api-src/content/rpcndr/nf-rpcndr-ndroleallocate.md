@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 87bfc8ae-62e6-477f-98a7-caf907589b89
 ms.date: 12/05/2018
 ms.keywords: NdrOleAllocate, NdrOleAllocate function [RPC], rpc.ndroleallocate, rpcndr/NdrOleAllocate
-ms.topic: function
 f1_keywords:
 - rpcndr/NdrOleAllocate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 40629be9-5840-4bde-b369-56bbfd791775
 ms.date: 12/05/2018
 ms.keywords: ID2D1RenderTarget, ID2D1RenderTarget interface [Direct2D], ID2D1RenderTarget interface [Direct2D],described, d2d1/ID2D1RenderTarget, direct2d.ID2D1RenderTarget
-ms.topic: interface
 f1_keywords:
 - d2d1/ID2D1RenderTarget
 dev_langs:
@@ -111,7 +110,7 @@ Initiates drawing on this render target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createcompatiblerendertarget">CreateCompatibleRenderTarget</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(constd2d1_size_f_constd2d1_size_u_constd2d1_pixel_format_d2d1_compatible_render_target_options_id2d1bitmaprendertarget)">CreateCompatibleRenderTarget</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a new  bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target .
 

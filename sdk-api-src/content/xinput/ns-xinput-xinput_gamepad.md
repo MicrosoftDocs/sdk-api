@@ -7,7 +7,6 @@ tech.root: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_GAMEPAD
 ms.date: 12/05/2018
 ms.keywords: '*PXINPUT_GAMEPAD, PXINPUT_GAMEPAD, PXINPUT_GAMEPAD structure pointer [XInput Game Controller APIs], XINPUT_GAMEPAD, XINPUT_GAMEPAD structure [XInput Game Controller APIs], xinput.xinput_gamepad, xinput/PXINPUT_GAMEPAD, xinput/XINPUT_GAMEPAD'
-ms.topic: struct
 f1_keywords:
 - xinput/XINPUT_GAMEPAD
 dev_langs:

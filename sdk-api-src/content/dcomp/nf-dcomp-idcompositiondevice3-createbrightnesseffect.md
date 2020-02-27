@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 4BD16F01-6CF1-4634-9D68-A153C7AABFFD
 ms.date: 12/05/2018
 ms.keywords: CreateBrightnessEffect, CreateBrightnessEffect method [DirectComposition], CreateBrightnessEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateBrightnessEffect method, IDCompositionDevice3.CreateBrightnessEffect, IDCompositionDevice3::CreateBrightnessEffect, dcomp/IDCompositionDevice3::CreateBrightnessEffect, directcomp.idcompositiondevice3_createbrightnesseffect
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionDevice3.CreateBrightnessEffect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: c58cfb0a-f40f-429c-abe9-83b6f038f612
 ms.date: 12/05/2018
 ms.keywords: IsProcessorFeaturePresent, IsProcessorFeaturePresent function, PF_3DNOW_INSTRUCTIONS_AVAILABLE, PF_ARM_64BIT_LOADSTORE_ATOMIC, PF_ARM_DIVIDE_INSTRUCTION_AVAILABLE, PF_ARM_EXTERNAL_CACHE_AVAILABLE, PF_ARM_FMAC_INSTRUCTIONS_AVAILABLE, PF_ARM_VFP_32_REGISTERS_AVAILABLE, PF_CHANNELS_ENABLED, PF_COMPARE64_EXCHANGE128, PF_COMPARE_EXCHANGE128, PF_COMPARE_EXCHANGE_DOUBLE, PF_FASTFAIL_AVAILABLE, PF_FLOATING_POINT_EMULATED, PF_FLOATING_POINT_PRECISION_ERRATA, PF_MMX_INSTRUCTIONS_AVAILABLE, PF_NX_ENABLED, PF_PAE_ENABLED, PF_RDTSC_INSTRUCTION_AVAILABLE, PF_RDWRFSGSBASE_AVAILABLE, PF_SECOND_LEVEL_ADDRESS_TRANSLATION, PF_SSE3_INSTRUCTIONS_AVAILABLE, PF_VIRT_FIRMWARE_ENABLED, PF_XMMI64_INSTRUCTIONS_AVAILABLE, PF_XMMI_INSTRUCTIONS_AVAILABLE, PF_XSAVE_ENABLED, _win32_isprocessorfeaturepresent, base.isprocessorfeaturepresent, processthreadsapi/IsProcessorFeaturePresent
-ms.topic: function
 f1_keywords:
 - processthreadsapi/IsProcessorFeaturePresent
 dev_langs:
@@ -358,6 +357,51 @@ The processor implements the XSAVE and XRSTOR instructions.
 
 </td>
 </tr>
+
+<tr>
+<td width="40%"><a id="PF_ARM_V8_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_v8_instructions_available"></a><dl>
+<dt><b>PF_ARM_V8_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>29</dt>
+</dl>
+</td>
+<td width="60%">
+This ARM processor implements the the ARM v8 instructions set.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_ARM_V8_CRYPTO_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_v8_crypto_instructions_available"></a><dl>
+<dt><b>PF_ARM_V8_CRYPTO_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>30</dt>
+</dl>
+</td>
+<td width="60%">
+This ARM processor implements the ARM v8 extra cryptographic instructions (i.e. AES, SHA1 and SHA2).
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_ARM_V8_CRC32_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_v8_crc32_instructions_available"></a><dl>
+<dt><b>PF_ARM_V8_CRC32_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>31</dt>
+</dl>
+</td>
+<td width="60%">
+This ARM processor implements the ARM v8 extra CRC32 instructions.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_ARM_V81_ATOMIC_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_v81_atomic_instructions_available"></a><dl>
+<dt><b>PF_ARM_V81_ATOMIC_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>34</dt>
+</dl>
+</td>
+<td width="60%">
+This ARM processor implements the ARM v8.1 atomic instructions (e.g. CAS, SWP).
+</td>
+</tr>
+
 </table>
  
 

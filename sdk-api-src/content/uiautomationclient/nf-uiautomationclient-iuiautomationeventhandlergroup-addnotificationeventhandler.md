@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: B7597727-76B9-4D8E-B247-6461815FA57E
 ms.date: 12/05/2018
 ms.keywords: AddNotificationEventHandler, AddNotificationEventHandler method [Windows Accessibility], AddNotificationEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddNotificationEventHandler method, IUIAutomationEventHandlerGroup.AddNotificationEventHandler, IUIAutomationEventHandlerGroup::AddNotificationEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddNotificationEventHandler, winauto.uiauto_iuiautomationeventhandlergroup_addnotificationeventhandler
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationEventHandlerGroup.AddNotificationEventHandler
 dev_langs:

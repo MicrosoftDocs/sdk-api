@@ -1,9 +1,10 @@
 ---
 UID: NA:tdiinfo
+title: Tdiinfo.h header
 ms.assetid: c3457834-4255-3c85-bb1d-d1f4466e775f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: winprog
 ---
 

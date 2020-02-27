@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 99245e45-114d-4933-9189-cd45a1c22a96
 ms.date: 12/05/2018
 ms.keywords: '*PMPR_DEVICE_1, MPR_DEVICE_1, MPR_DEVICE_1 structure [RAS], PMPR_DEVICE_1, PMPR_DEVICE_1 structure pointer [RAS], _mpr_mpr_device_1, mprapi/MPR_DEVICE_1, mprapi/PMPR_DEVICE_1, rras.mpr_device_1'
-ms.topic: struct
 f1_keywords:
 - mprapi/MPR_DEVICE_1
 dev_langs:

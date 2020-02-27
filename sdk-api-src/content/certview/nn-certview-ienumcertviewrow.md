@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: c9529f7a-9d97-4315-af96-f7b687af3c2e
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWROW, IEnumCERTVIEWROW interface [Security], IEnumCERTVIEWROW interface [Security],described, _certsrv_ienumcertviewrow, certview/IEnumCERTVIEWROW, security.ienumcertviewrow
-ms.topic: interface
 f1_keywords:
 - certview/IEnumCERTVIEWROW
 dev_langs:

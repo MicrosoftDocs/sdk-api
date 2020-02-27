@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: a0018bba-226b-4c18-8ea4-15e69524db11
 ms.date: 12/05/2018
 ms.keywords: VirtualProtect, VirtualProtect function, _win32_virtualprotect, base.virtualprotect, winbase/VirtualProtect
-ms.topic: function
 f1_keywords:
 - memoryapi/VirtualProtect
 dev_langs:

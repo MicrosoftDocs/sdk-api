@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 8be3f0d4-db41-408d-bd4b-37c41b1b1c54
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ISignerCertificates interface, ISignerCertificates interface [Security],Clear method, ISignerCertificates.Clear, ISignerCertificates::Clear, certenroll/ISignerCertificates::Clear, security.isignercertificates_clear_method
-ms.topic: method
 f1_keywords:
 - certenroll/ISignerCertificates.Clear
 dev_langs:

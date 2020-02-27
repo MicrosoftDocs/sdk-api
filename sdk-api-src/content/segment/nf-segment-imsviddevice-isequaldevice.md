@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: b0f59466-7a2a-453e-999c-c7ebf126d18b
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],IsEqualDevice method, IMSVidDevice.IsEqualDevice, IMSVidDevice::IsEqualDevice, IMSVidDeviceIsEqualDevice, IsEqualDevice, IsEqualDevice method [Microsoft TV Technologies], IsEqualDevice method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_isequaldevice, segment/IMSVidDevice::IsEqualDevice
-ms.topic: method
 f1_keywords:
 - segment/IMSVidDevice.IsEqualDevice
 dev_langs:

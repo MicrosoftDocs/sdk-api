@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: fa452e8d-10dd-4cc4-a56b-a09d841dc46a
 ms.date: 12/05/2018
 ms.keywords: DeleteRelationship, DeleteRelationship method [Open Packaging Conventions], DeleteRelationship method [Open Packaging Conventions],IOpcRelationshipSet interface, IOpcRelationshipSet interface [Open Packaging Conventions],DeleteRelationship method, IOpcRelationshipSet.DeleteRelationship, IOpcRelationshipSet::DeleteRelationship, msopc/IOpcRelationshipSet::DeleteRelationship, opc.iopcrelationshipset_deleterelationship
-ms.topic: method
 f1_keywords:
 - msopc/IOpcRelationshipSet.DeleteRelationship
 dev_langs:
@@ -159,7 +158,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
 
 

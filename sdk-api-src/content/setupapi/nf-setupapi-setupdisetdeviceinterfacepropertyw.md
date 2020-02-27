@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 5c8da8a3-1c53-42c1-8adc-46743b63f731
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetDeviceInterfaceProperty, SetupDiSetDeviceInterfaceProperty , SetupDiSetDeviceInterfaceProperty function [Device and Driver Installation], SetupDiSetDeviceInterfacePropertyW, devinst.setupdisetdeviceinterfaceproperty, di-rtns_046f3d0e-43cc-4a62-be1e-4bbad8e59e48.xml, setupapi/SetupDiSetDeviceInterfaceProperty
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiSetDeviceInterfaceProperty
 dev_langs:
@@ -98,7 +97,7 @@ Must be set to zero.
 
 
 
-<b>SetupDiSetDeviceInterfaceProperty</b> returns <b>TRUE</b> if it is successful. Otherwise, this function returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+<b>SetupDiSetDeviceInterfaceProperty</b> returns <b>TRUE</b> if it is successful. Otherwise, this function returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 The following table includes some of the more common error codes that this function might log. 
 

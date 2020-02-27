@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 50f44525-eb3a-4db2-90c2-3e0c6c6146e3
 ms.date: 12/05/2018
 ms.keywords: ITfTextEditSink, ITfTextEditSink interface [Text Services Framework], ITfTextEditSink interface [Text Services Framework],described, _tsf_itftexteditsink_ref, msctf/ITfTextEditSink, tsf.itftexteditsink
-ms.topic: interface
 f1_keywords:
 - msctf/ITfTextEditSink
 dev_langs:

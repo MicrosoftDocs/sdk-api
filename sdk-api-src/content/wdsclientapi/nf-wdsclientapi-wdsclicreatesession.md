@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: c66801b2-ad5c-464b-ace3-269214621c20
 ms.date: 12/05/2018
 ms.keywords: WdsCliCreateSession, WdsCliCreateSession function [Windows Deployment Services], wds.wdsclicreatesession, wdsclientapi/WdsCliCreateSession
-ms.topic: function
 f1_keywords:
 - wdsclientapi/WdsCliCreateSession
 dev_langs:

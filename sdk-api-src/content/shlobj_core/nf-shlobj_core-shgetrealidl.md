@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0c0b63c9-7ca7-4f73-be74-9c492f8506fc
 ms.date: 12/05/2018
 ms.keywords: SHGetRealIDL, SHGetRealIDL function [Windows Shell], _win32_SHGetRealIDL, shell.SHGetRealIDL, shlobj_core/SHGetRealIDL
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHGetRealIDL
 dev_langs:

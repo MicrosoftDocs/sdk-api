@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 35953b82-8832-4e7b-9186-e336fdc65362
 ms.date: 12/05/2018
 ms.keywords: GetFormatRepresentation, GetFormatRepresentation method [Audio Devices], GetFormatRepresentation method [Audio Devices],IAudioSystemEffectsCustomFormats interface, IAudioSystemEffectsCustomFormats interface [Audio Devices],GetFormatRepresentation method, IAudioSystemEffectsCustomFormats.GetFormatRepresentation, IAudioSystemEffectsCustomFormats::GetFormatRepresentation, audio.iaudiosystemeffectscustomformats_getformatrepresentation, audio_syseffects_r_0164d130-f6cc-423b-9195-e5e87ee6bf2f.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormatRepresentation
-ms.topic: method
 f1_keywords:
 - audioenginebaseapo/IAudioSystemEffectsCustomFormats.GetFormatRepresentation
 dev_langs:
@@ -122,7 +121,7 @@ nFormat is out of range
 
 
 
-The sAPO uses <a href="http://go.microsoft.com/fwlink/p/?linkid=154375">CoTaskMemAlloc</a> to allocate the returned string. The caller must use <a href="http://go.microsoft.com/fwlink/p/?linkid=154376">CoTaskMemFree</a> to delete the buffer that is pointed to by the <i>ppwstrFormatRep</i> parameter. 
+The sAPO uses <a href="https://msdn.microsoft.com/library/ms886939.aspx">CoTaskMemAlloc</a> to allocate the returned string. The caller must use <a href="https://msdn.microsoft.com/library/ms680722(VS.85).aspx">CoTaskMemFree</a> to delete the buffer that is pointed to by the <i>ppwstrFormatRep</i> parameter. 
 
 
 
@@ -132,11 +131,11 @@ The sAPO uses <a href="http://go.microsoft.com/fwlink/p/?linkid=154375">CoTaskMe
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=154375">CoTaskMemAlloc</a>
+<a href="https://msdn.microsoft.com/library/ms886939.aspx">CoTaskMemAlloc</a>
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=154376">CoTaskMemFree</a>
+<a href="https://msdn.microsoft.com/library/ms680722(VS.85).aspx">CoTaskMemFree</a>
 
 
 

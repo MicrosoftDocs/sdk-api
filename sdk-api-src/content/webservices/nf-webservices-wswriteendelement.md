@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: cfb23857-bc51-4467-9aeb-6ce8810ae1b0
 ms.date: 12/05/2018
 ms.keywords: WsWriteEndElement, WsWriteEndElement function [Web Services for Windows], webservices/WsWriteEndElement, wsw.wswriteendelement
-ms.topic: function
 f1_keywords:
 - webservices/WsWriteEndElement
 dev_langs:

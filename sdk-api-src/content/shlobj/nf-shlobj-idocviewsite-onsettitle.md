@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 941a8fe0-27db-4646-97d0-287fc94e7721
 ms.date: 12/05/2018
 ms.keywords: IDocViewSite interface [Windows Shell],OnSetTitle method, IDocViewSite.OnSetTitle, IDocViewSite::OnSetTitle, OnSetTitle, OnSetTitle method [Windows Shell], OnSetTitle method [Windows Shell],IDocViewSite interface, _win32_IDocViewSite_OnSetTitle, shell.IDocViewSite_OnSetTitle, shlobj/IDocViewSite::OnSetTitle
-ms.topic: method
 f1_keywords:
 - shlobj/IDocViewSite.OnSetTitle
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 11e0a6b9-16b9-4fc3-8e17-776f56c12196
 ms.date: 12/05/2018
 ms.keywords: '*PDD_SURFACE_GLOBAL, DD_SURFACE_GLOBAL, DD_SURFACE_GLOBAL structure [Display Devices], PDD_SURFACE_GLOBAL, PDD_SURFACE_GLOBAL structure pointer [Display Devices], ddrawint/DD_SURFACE_GLOBAL, ddrawint/PDD_SURFACE_GLOBAL, ddstrcts_83ae0625-9b08-4380-bd3a-d8d67675a48b.xml, display.dd_surface_global'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_SURFACE_GLOBAL
 dev_langs:

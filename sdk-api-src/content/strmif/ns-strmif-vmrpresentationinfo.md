@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: cddbe3de-c5e2-4161-801f-f3497714922c
 ms.date: 12/05/2018
 ms.keywords: VMRPRESENTATIONINFO, VMRPRESENTATIONINFO structure [DirectShow], VMRPRESENTATIONINFOStructure, dshow.vmrpresentationinfo, strmif/VMRPRESENTATIONINFO
-ms.topic: struct
 f1_keywords:
 - strmif/VMRPRESENTATIONINFO
 dev_langs:
@@ -104,7 +103,7 @@ The destination rectangle.
 
 ### -field dwTypeSpecificFlags
 
-Bitwise combination of flags, as defined for the <b>dwTypeSpecificFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure.
+Bitwise combination of flags, as defined for the [AM_SAMPLE2_PROPERTIES](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure.
 
 
 ### -field dwInterlaceFlags

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: d800ac91-f6cc-4f57-9080-4bbafb42d7ed
 ms.date: 12/05/2018
 ms.keywords: MFCreateASFMediaSink, MFCreateASFMediaSink function [Media Foundation], d800ac91-f6cc-4f57-9080-4bbafb42d7ed, mf.mfcreateasfmediasink, wmcontainer/MFCreateASFMediaSink
-ms.topic: function
 f1_keywords:
 - wmcontainer/MFCreateASFMediaSink
 dev_langs:

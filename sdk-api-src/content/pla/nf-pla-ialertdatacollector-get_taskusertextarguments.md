@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: d432652a-3dea-43f0-a698-bb7ccb1cb79a
 ms.date: 12/05/2018
 ms.keywords: IAlertDataCollector interface [PLA],TaskUserTextArguments property, IAlertDataCollector.TaskUserTextArguments, IAlertDataCollector.get_TaskUserTextArguments, IAlertDataCollector::TaskUserTextArguments, IAlertDataCollector::get_TaskUserTextArguments, IAlertDataCollector::put_TaskUserTextArguments, TaskUserTextArguments property [PLA], TaskUserTextArguments property [PLA],IAlertDataCollector interface, get_TaskUserTextArguments, pla.ialertdatacollector_taskusertextarguments, pla/IAlertDataCollector::TaskUserTextArguments, pla/IAlertDataCollector::get_TaskUserTextArguments, pla/IAlertDataCollector::put_TaskUserTextArguments
-ms.topic: method
 f1_keywords:
 - pla/IAlertDataCollector.TaskUserTextArguments
 dev_langs:

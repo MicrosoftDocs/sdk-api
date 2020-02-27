@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: d86e9092-42ca-4e62-8613-cdcf2f8b627d
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],OnVirtualMachineHostStatusChanged method, ITsSbProvisioningPluginNotifySink.OnVirtualMachineHostStatusChanged, ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged, OnVirtualMachineHostStatusChanged, OnVirtualMachineHostStatusChanged method [Remote Desktop Services], OnVirtualMachineHostStatusChanged method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged, termserv.itssbprovisioningpluginnotifysink_onvirtualmachinehoststatuschanged
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbProvisioningPluginNotifySink.OnVirtualMachineHostStatusChanged
 dev_langs:

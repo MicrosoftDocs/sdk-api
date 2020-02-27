@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: d05b55aa-4159-4e48-ae75-2af36c0a7101
 ms.date: 12/05/2018
 ms.keywords: WS_OPERATION_DESCRIPTION, WS_OPERATION_DESCRIPTION structure [Web Services for Windows], webservices/WS_OPERATION_DESCRIPTION, wsw.ws_operation_description
-ms.topic: struct
 f1_keywords:
 - webservices/WS_OPERATION_DESCRIPTION
 dev_langs:

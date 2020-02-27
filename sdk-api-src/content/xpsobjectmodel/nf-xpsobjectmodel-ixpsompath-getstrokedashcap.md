@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: afd33b39-3aeb-41eb-8747-7d1cff0aaa38
 ms.date: 12/05/2018
 ms.keywords: GetStrokeDashCap, GetStrokeDashCap method [XPS Documents and Packaging], GetStrokeDashCap method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeDashCap method, IXpsOMPath.GetStrokeDashCap, IXpsOMPath::GetStrokeDashCap, xps.ixpsompath_getstrokedashcap, xpsobjectmodel/IXpsOMPath::GetStrokeDashCap
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.GetStrokeDashCap
 dev_langs:
@@ -120,7 +119,7 @@ For more information about dash cap styles, see <a href="https://docs.microsoft.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

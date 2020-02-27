@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e742e381-0fd2-482a-81a0-7b43d11b073b
 ms.date: 12/05/2018
 ms.keywords: IActionProgress, IActionProgress interface [Windows Shell], IActionProgress interface [Windows Shell],described, shell.IActionProgress, shell_IActionProgress, shobjidl_core/IActionProgress
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IActionProgress
 dev_langs:

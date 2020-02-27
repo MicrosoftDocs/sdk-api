@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: c1b1f1d1-20f9-4a16-a279-b9cc95ff4e64
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_EapKeyBlock, PSecPkgContext_EapKeyBlock, PSecPkgContext_EapKeyBlock structure pointer [Security], SecPkgContext_EapKeyBlock, SecPkgContext_EapKeyBlock structure [Security], schannel/PSecPkgContext_EapKeyBlock, schannel/SecPkgContext_EapKeyBlock, security.secpkgcontext_eapkeyblock'
-ms.topic: struct
 f1_keywords:
 - schannel/SecPkgContext_EapKeyBlock
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SecPkgContext_EapKeyBlock</b> structure contains key data used by the EAP TLS Authentication Protocol. For information about the EAP TLS Authentication Protocol, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84050">http://www.ietf.org/rfc/rfc2716.txt</a>.
+The <b>SecPkgContext_EapKeyBlock</b> structure contains key data used by the EAP TLS Authentication Protocol. For information about the EAP TLS Authentication Protocol, see <a href="https://www.ietf.org/rfc/rfc2716.txt">http://www.ietf.org/rfc/rfc2716.txt</a>.
 
 
 ## -struct-fields

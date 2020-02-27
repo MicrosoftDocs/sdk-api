@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: 1374c01c-aba3-48f5-8a42-7139873d8f7c
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Group Policy], GetName method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetName method, IGroupPolicyObject.GetName, IGroupPolicyObject::GetName, _win32_igrouppolicyobject_getname, gpedit/IGroupPolicyObject::GetName, policy.igrouppolicyobject_getname
-ms.topic: method
 f1_keywords:
 - gpedit/IGroupPolicyObject.GetName
 dev_langs:

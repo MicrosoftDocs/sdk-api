@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: 022E495B-2609-4CA0-A69D-BFC4A04A6F9B
 ms.date: 12/05/2018
 ms.keywords: IVisualTreeService2, IVisualTreeService2 interface, IVisualTreeService2 interface,described, xaml_diagnostics.ivisualtreeservice2, xamlom/IVisualTreeService2
-ms.topic: interface
 f1_keywords:
 - xamlom/IVisualTreeService2
 dev_langs:

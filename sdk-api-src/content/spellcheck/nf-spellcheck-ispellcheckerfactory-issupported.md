@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: eb21850d-d490-4055-8910-70f9c0090f59
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckerFactory interface [Internationalization for Windows Applications],IsSupported method, ISpellCheckerFactory.IsSupported, ISpellCheckerFactory::IsSupported, IsSupported, IsSupported method [Internationalization for Windows Applications], IsSupported method [Internationalization for Windows Applications],ISpellCheckerFactory interface, intl.ispellcheckerfactory_issupported, spellcheck/ISpellCheckerFactory::IsSupported
-ms.topic: method
 f1_keywords:
 - spellcheck/ISpellCheckerFactory.IsSupported
 dev_langs:
@@ -60,7 +59,7 @@ Determines if the specified language is supported by a registered spell checker.
 
 ### -param languageTag [in]
 
-A <a href="http://go.microsoft.com/fwlink/p/?linkid=227302">BCP47</a> language tag that identifies the language for the requested spell checker.
+A <a href="http://tools.ietf.org/html/bcp47">BCP47</a> language tag that identifies the language for the requested spell checker.
 
 
 ### -param value [out, retval]
@@ -123,7 +122,7 @@ Successful.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=227302">BCP47 Tags for Identifying Languages
+<a href="http://tools.ietf.org/html/bcp47">BCP47 Tags for Identifying Languages
 
 </a>
 

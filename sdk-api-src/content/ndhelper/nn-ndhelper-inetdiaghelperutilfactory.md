@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: 5e97ff3b-0dd5-4370-bf28-72fc92818564
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelperUtilFactory, INetDiagHelperUtilFactory interface [NDF], INetDiagHelperUtilFactory interface [NDF],described, ndf.inetdiaghelperutilfactory, ndhelper/INetDiagHelperUtilFactory
-ms.topic: interface
 f1_keywords:
 - ndhelper/INetDiagHelperUtilFactory
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: AE6AA254-3534-4E0F-A206-BAC4536B8B80
 ms.date: 12/05/2018
 ms.keywords: IDXGIDisplayControl interface [DXGI],IsStereoEnabled method, IDXGIDisplayControl.IsStereoEnabled, IDXGIDisplayControl::IsStereoEnabled, IsStereoEnabled, IsStereoEnabled method [DXGI], IsStereoEnabled method [DXGI],IDXGIDisplayControl interface, direct3ddxgi.idxgidisplaycontrol_IsStereoEnabled, dxgi1_2/IDXGIDisplayControl::IsStereoEnabled
-ms.topic: method
 f1_keywords:
 - dxgi1_2/IDXGIDisplayControl.IsStereoEnabled
 dev_langs:

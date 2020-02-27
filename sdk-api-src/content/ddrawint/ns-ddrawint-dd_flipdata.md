@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 1926db26-4a29-4ddb-85c6-dd2074eba0b8
 ms.date: 12/05/2018
 ms.keywords: '*PDD_FLIPDATA, DD_FLIPDATA, DD_FLIPDATA structure [Display Devices], ddrawint/DD_FLIPDATA, ddstrcts_cfb79a99-a030-4516-8b9f-b6c01b69187d.xml, display.dd_flipdata'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_FLIPDATA
 dev_langs:

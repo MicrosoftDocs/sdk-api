@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: e4fdec19-bccf-49ec-8a95-29e096c4c9c1
 ms.date: 12/05/2018
 ms.keywords: ADsBuildEnumerator, ADsBuildEnumerator function [ADSI], _ds_adsbuildenumerator, adshlp/ADsBuildEnumerator, adsi.adsbuildenumerator
-ms.topic: function
 f1_keywords:
 - adshlp/ADsBuildEnumerator
 dev_langs:

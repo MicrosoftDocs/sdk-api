@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4447d3f4-659f-4ec1-8a6f-91031c85b704
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],RemoveAll method, IExplorerBrowser.RemoveAll, IExplorerBrowser::RemoveAll, RemoveAll, RemoveAll method [Windows Shell], RemoveAll method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_RemoveAll, shell.IExplorerBrowser_RemoveAll, shobjidl_core/IExplorerBrowser::RemoveAll
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IExplorerBrowser.RemoveAll
 dev_langs:

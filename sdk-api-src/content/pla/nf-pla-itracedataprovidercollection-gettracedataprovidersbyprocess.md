@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: bc8b6aeb-7239-4bce-8616-62f87b84ae6c
 ms.date: 12/05/2018
 ms.keywords: GetTraceDataProvidersByProcess, GetTraceDataProvidersByProcess method [PLA], GetTraceDataProvidersByProcess method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],GetTraceDataProvidersByProcess method, ITraceDataProviderCollection.GetTraceDataProvidersByProcess, ITraceDataProviderCollection::GetTraceDataProvidersByProcess, pla.itracedataprovidercollection_gettracedataprovidersbyprocess, pla/ITraceDataProviderCollection::GetTraceDataProvidersByProcess
-ms.topic: method
 f1_keywords:
 - pla/ITraceDataProviderCollection.GetTraceDataProvidersByProcess
 dev_langs:

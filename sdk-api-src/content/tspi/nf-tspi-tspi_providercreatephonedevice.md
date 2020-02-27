@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 9768cc69-fa7b-4b84-9e85-c9e75def3823
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerCreatePhoneDevice, TSPI_providerCreatePhoneDevice function [TAPI 2.2], _tspi_tspi_providercreatephonedevice, tspi.tspi_providercreatephonedevice, tspi/TSPI_providerCreatePhoneDevice
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_providerCreatePhoneDevice
 dev_langs:

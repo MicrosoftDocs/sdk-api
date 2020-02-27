@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 5190ed29-5737-4100-b67c-1333bde28102
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],LastDeploymentChangeTime property, IUpdate.LastDeploymentChangeTime, IUpdate.get_LastDeploymentChangeTime, IUpdate::LastDeploymentChangeTime, IUpdate::get_LastDeploymentChangeTime, LastDeploymentChangeTime property [Windows Update Agent], LastDeploymentChangeTime property [Windows Update Agent],IUpdate interface, get_LastDeploymentChangeTime, wua.iupdate_lastdeploymentchangetime, wuapi/IUpdate::LastDeploymentChangeTime, wuapi/IUpdate::get_LastDeploymentChangeTime
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdate.LastDeploymentChangeTime
 dev_langs:
@@ -63,7 +62,7 @@ This property is read-only.
 
 
 
-On computers that are running Windows XP, the <b>LastDeploymentChangeTime</b> property retrieves the same date and time that are retrieved by the  <a href="http://go.microsoft.com/fwlink/p/?linkid=121339">CreationDate</a> property  of the <b>IUpdateApproval</b> interface. The <a href="http://go.microsoft.com/fwlink/p/?linkid=121339">CreationDate</a> property is used on computers that are running Windows Server 2003.
+On computers that are running Windows XP, the <b>LastDeploymentChangeTime</b> property retrieves the same date and time that are retrieved by the  <a href="https://msdn.microsoft.com/library/microsoft.updateservices.administration.iupdateapproval.creationdate(VS.85).aspx">CreationDate</a> property  of the <b>IUpdateApproval</b> interface. The <a href="https://msdn.microsoft.com/library/microsoft.updateservices.administration.iupdateapproval.creationdate(VS.85).aspx">CreationDate</a> property is used on computers that are running Windows Server 2003.
 
 
 

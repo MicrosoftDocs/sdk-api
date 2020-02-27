@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 4552552b-c008-439a-95bf-eaf9ffd28b5f
 ms.date: 12/05/2018
 ms.keywords: IADsCollection, IADsCollection interface [ADSI], IADsCollection interface [ADSI],described, _ds_iadscollection, adsi.iadscollection, iads/IADsCollection
-ms.topic: interface
 f1_keywords:
 - iads/IADsCollection
 dev_langs:

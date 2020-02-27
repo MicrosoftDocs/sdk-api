@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 97ffcafd-a74e-49ed-9e68-043b62a9017a
 ms.date: 12/05/2018
 ms.keywords: DhcpAddSubnetElementV4, DhcpAddSubnetElementV4 function [DHCP], dhcp.dhcpaddsubnetelementv4, dhcpsapi/DhcpAddSubnetElementV4
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpAddSubnetElementV4
 dev_langs:

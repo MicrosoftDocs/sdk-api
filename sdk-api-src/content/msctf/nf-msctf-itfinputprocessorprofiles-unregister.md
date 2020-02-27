@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 53de09dd-3d99-4968-8861-397b67daf8c5
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],Unregister method, ITfInputProcessorProfiles.Unregister, ITfInputProcessorProfiles::Unregister, Unregister, Unregister method [Text Services Framework], Unregister method [Text Services Framework],ITfInputProcessorProfiles interface, _tsf_itfinputprocessorprofiles_unregister_ref, msctf/ITfInputProcessorProfiles::Unregister, tsf.itfinputprocessorprofiles_unregister
-ms.topic: method
 f1_keywords:
 - msctf/ITfInputProcessorProfiles.Unregister
 dev_langs:

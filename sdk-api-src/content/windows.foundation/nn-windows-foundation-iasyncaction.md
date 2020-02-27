@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: E5D567F6-FFDE-4E51-8D52-638D30252549
 ms.date: 12/05/2018
 ms.keywords: IAsyncAction, IAsyncAction interface [Windows Runtime], IAsyncAction interface [Windows Runtime],described, windows/IAsyncAction, winrt.iasyncaction
-ms.topic: interface
 f1_keywords:
 - windows.foundation/IAsyncAction
 dev_langs:

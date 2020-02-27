@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: cce9460c-0914-4f02-a6a4-efb7f43ed22a
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneConfigDialog, TSPI_phoneConfigDialog function [TAPI 2.2], _tspi_tspi_phoneconfigdialog, tspi.tspi_phoneconfigdialog, tspi/TSPI_phoneConfigDialog
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_phoneConfigDialog
 dev_langs:

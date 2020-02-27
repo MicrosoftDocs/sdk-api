@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 7404e37a-d7c6-49ed-b951-6081dd2b921a
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, NCRYPT_SILENT_FLAG, NCryptSignHash, NCryptSignHash function [Security], ncrypt/NCryptSignHash, security.ncryptsignhash_func
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptSignHash
 dev_langs:
@@ -239,7 +238,7 @@ A memory allocation failure occurred.
 
 
 
-A service must not call this function from its <a href="http://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 
 

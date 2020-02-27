@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 3f8dca2e-6fe5-4c7d-a135-a33c61ba3dd5
 ms.date: 12/05/2018
 ms.keywords: WLAN_PROFILE_GROUP_POLICY, WLAN_PROFILE_USER, WlanSetProfile, WlanSetProfile function [NativeWIFI], nwifi.wlansetprofile, wlanapi/WlanSetProfile
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanSetProfile
 dev_langs:
@@ -216,7 +215,7 @@ One of the following conditions occurred:
 <li><i>pInterfaceGuid</i> is <b>NULL</b>.</li>
 <li><i>pReserved</i> is not <b>NULL</b>.</li>
 <li><i>strProfileXml</i> is <b>NULL</b>.</li>
-<li><i>strProfileXml</i> contains a zero-length <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eaphostconfigschema-configblob-eaphostconfig-element">ConfigBlob</a>. If the profile must have an empty <b>ConfigBlob</b>, use <code>&lt;ConfigBlob&gt;00&lt;/ConfigBlob&gt;</code> in the profile.</li>
+[ConfigBlob](https://docs.microsoft.com/windows/desktop/eaphost/eaphostconfigschema-configblob-eaphostconfig-element). If the profile must have an empty <b>ConfigBlob</b>, use <code>&lt;ConfigBlob&gt;00&lt;/ConfigBlob&gt;</code> in the profile.</li>
 <li><i>pdwReasonCode</i> is <b>NULL</b>.</li>
 <li><i>dwFlags</i> is not set to one of the specified values.</li>
 <li><i>dwFlags</i> is set to WLAN_PROFILE_GROUP_POLICY and <i>bOverwrite</i> is set to <b>FALSE</b>.</li>
@@ -294,7 +293,7 @@ All wireless LAN functions require an interface GUID for the wireless interface 
 
 The <b>WlanSetProfile</b> function can fail with <b>ERROR_INVALID_PARAMETER</b> if the wireless interface specified in the <i>pInterfaceGuid</i> parameter has been removed from the system (a USB  wireless adapter that has been removed, for example). 
 
-The <b>netsh wlan add profile</b> command provides similar functionality at the command line. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=120964">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
+The <b>netsh wlan add profile</b> command provides similar functionality at the command line. For more information, see <a href="https://technet.microsoft.com/library/f435edbe-1d50-4774-bae2-0dda33eaeb2f">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
 
 
 

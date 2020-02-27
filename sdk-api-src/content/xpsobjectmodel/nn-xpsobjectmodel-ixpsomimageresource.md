@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 89a1530e-fa87-45bf-a1da-c8656ec09ba3
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageResource, IXpsOMImageResource interface [XPS Documents and Packaging], IXpsOMImageResource interface [XPS Documents and Packaging],described, xps.ixpsomimageresource, xpsobjectmodel/IXpsOMImageResource
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMImageResource
 dev_langs:
@@ -175,7 +174,7 @@ else
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

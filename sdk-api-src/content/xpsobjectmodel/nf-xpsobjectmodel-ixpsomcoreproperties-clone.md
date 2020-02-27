@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 66c7af1d-5e48-4a51-ad16-e92ada87942c
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],Clone method, IXpsOMCoreProperties.Clone, IXpsOMCoreProperties::Clone, xps.ixpsomcoreproperties_clone, xpsobjectmodel/IXpsOMCoreProperties::Clone
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.Clone
 dev_langs:
@@ -131,11 +130,11 @@ The owner of the interface returned in <i>coreProperties</i> is <b>NULL</b>.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

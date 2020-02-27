@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 26349C3C-4B73-430C-B002-ED262DB0304F
 ms.date: 12/05/2018
 ms.keywords: EnclaveGetEnclaveInformation, EnclaveGetEnclaveInformation function, base.enclavegetenclaveinformation, winenclaveapi/EnclaveGetEnclaveInformation
-ms.topic: function
 f1_keywords:
 - winenclaveapi/EnclaveGetEnclaveInformation
 dev_langs:

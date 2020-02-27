@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 8fd9c49c-a8f3-4a4a-b501-211a107c1305
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [COM], GetDescription method [COM],IOleUndoUnit interface, IOleUndoUnit interface [COM],GetDescription method, IOleUndoUnit.GetDescription, IOleUndoUnit::GetDescription, _ole_ioleundounit_getdescription, com.ioleundounit_getdescription, ocidl/IOleUndoUnit::GetDescription
-ms.topic: method
 f1_keywords:
 - ocidl/IOleUndoUnit.GetDescription
 dev_langs:

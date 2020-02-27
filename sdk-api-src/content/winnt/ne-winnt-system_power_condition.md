@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: 66636507-466c-43fd-b46c-0b4dddecc15d
 ms.date: 12/05/2018
 ms.keywords: PoAc, PoConditionMaximum, PoDc, PoHot, SYSTEM_POWER_CONDITION, SYSTEM_POWER_CONDITION enumeration, base.system_power_condition, winnt/PoAc, winnt/PoConditionMaximum, winnt/PoDc, winnt/PoHot, winnt/SYSTEM_POWER_CONDITION
-ms.topic: enum
 f1_keywords:
 - winnt/SYSTEM_POWER_CONDITION
 dev_langs:

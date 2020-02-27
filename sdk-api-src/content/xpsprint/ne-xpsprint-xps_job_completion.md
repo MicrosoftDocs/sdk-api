@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: a0bfb708-033a-4493-a878-0ebdcaae672f
 ms.date: 12/05/2018
 ms.keywords: XPS_JOB_CANCELLED, XPS_JOB_COMPLETED, XPS_JOB_COMPLETION, XPS_JOB_COMPLETION enumeration [Windows GDI], XPS_JOB_FAILED, XPS_JOB_IN_PROGRESS, gdi.xps_job_completion, xpsprint/XPS_JOB_CANCELLED, xpsprint/XPS_JOB_COMPLETED, xpsprint/XPS_JOB_COMPLETION, xpsprint/XPS_JOB_FAILED, xpsprint/XPS_JOB_IN_PROGRESS
-ms.topic: enum
 f1_keywords:
 - xpsprint/XPS_JOB_COMPLETION
 dev_langs:
@@ -93,7 +92,7 @@ The print job failed. The <b>jobStatus</b> member of <a href="https://docs.micro
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

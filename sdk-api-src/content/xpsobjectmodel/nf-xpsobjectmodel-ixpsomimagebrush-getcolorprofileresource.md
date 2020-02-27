@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 7472f84b-cd14-4b9f-8ea9-69e743319d05
 ms.date: 12/05/2018
 ms.keywords: GetColorProfileResource, GetColorProfileResource method [XPS Documents and Packaging], GetColorProfileResource method [XPS Documents and Packaging],IXpsOMImageBrush interface, IXpsOMImageBrush interface [XPS Documents and Packaging],GetColorProfileResource method, IXpsOMImageBrush.GetColorProfileResource, IXpsOMImageBrush::GetColorProfileResource, xps.ixpsomimagebrush_getcolorprofileresource, xpsobjectmodel/IXpsOMImageBrush::GetColorProfileResource
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMImageBrush.GetColorProfileResource
 dev_langs:
@@ -124,7 +123,7 @@ After loading and parsing the resource into the XPS OM, this method might return
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

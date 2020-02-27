@@ -5,7 +5,6 @@ description: The Graphics::DrawString method draws a string based on a font, a l
 ms.assetid: ef1d9dc7-132f-4e0b-aba8-bc5a0c5d5d84
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawString
-ms.topic: language-reference
 f1_keywords:
 - gdiplusgraphics/Graphics::DrawString
 dev_langs:

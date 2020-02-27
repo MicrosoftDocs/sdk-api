@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 687f3410-d28b-4ce2-a2a1-c564f757c668
 ms.date: 12/05/2018
 ms.keywords: BCryptSetProperty, BCryptSetProperty function [Security], bcrypt/BCryptSetProperty, security.bcryptsetproperty_func
-ms.topic: function
 f1_keywords:
 - bcrypt/BCryptSetProperty
 dev_langs:

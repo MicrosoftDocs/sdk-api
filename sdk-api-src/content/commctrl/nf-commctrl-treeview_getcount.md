@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getcount.htm
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetCount, TreeView_GetCount macro [Windows Controls], _win32_TreeView_GetCount, _win32_TreeView_GetCount_cpp, commctrl/TreeView_GetCount, controls.TreeView_GetCount, controls._win32_TreeView_GetCount
-ms.topic: macro
 f1_keywords:
 - commctrl/TreeView_GetCount
 dev_langs:
@@ -69,7 +68,7 @@ Handle to the tree-view control.
 
 
 
-The node count returned by <b>TreeView_GetCount</b> is limited to integer values. If you add a node beyond 32767 the macro returns a negative value. After adding 65536 nodes the count returns to zero. When this occurs, the tree-view control appears empty with no scrollbars. For more information see the Knowledge Base article <a href="http://go.microsoft.com/fwlink/p/?linkid=198357">Q182231</a>.
+The node count returned by <b>TreeView_GetCount</b> is limited to integer values. If you add a node beyond 32767 the macro returns a negative value. After adding 65536 nodes the count returns to zero. When this occurs, the tree-view control appears empty with no scrollbars. For more information see the Knowledge Base article <a href="https://support.microsoft.com/default.aspx?scid=kb;en-us;Q182231">Q182231</a>.
 		
 
 

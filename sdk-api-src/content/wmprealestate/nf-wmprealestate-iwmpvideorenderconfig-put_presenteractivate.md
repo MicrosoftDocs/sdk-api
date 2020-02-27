@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: a052aecc-b37f-4999-b484-80ee3e2392ba
 ms.date: 12/05/2018
 ms.keywords: IWMPVideoRenderConfig interface [Windows Media Player],put_presenterActivate method, IWMPVideoRenderConfig.put_presenterActivate, IWMPVideoRenderConfig::put_presenterActivate, IWMPVideoRenderConfigput_presenterActivate, put_presenterActivate, put_presenterActivate method [Windows Media Player], put_presenterActivate method [Windows Media Player],IWMPVideoRenderConfig interface, wmp.iwmpvideorenderconfig_put_presenteractivate, wmprealestate/IWMPVideoRenderConfig::put_presenterActivate
-ms.topic: method
 f1_keywords:
 - wmprealestate/IWMPVideoRenderConfig.put_presenterActivate
 dev_langs:
@@ -104,7 +103,7 @@ An application that embeds Windows Media Player can provide a custom video prese
 
 The activation object is responsible for initializing the custom presenter. The nature of the initialization and the format of any context data required for the initialization are completely under the control of those who develop the custom presenter and the activation object.
 
-The EVR, custom presenters, activation objects, and the <b>IMFActivate</b> interface are documented in the Microsoft Media Foundation SDK, which is part of the Microsoft Windows SDK. You can download the Windows SDK from the <a href="http://go.microsoft.com/fwlink/p/?linkid=884">MSDN Download and Code Center</a>.
+The EVR, custom presenters, activation objects, and the <b>IMFActivate</b> interface are documented in the Microsoft Media Foundation SDK, which is part of the Microsoft Windows SDK. You can download the Windows SDK from the <a href="https://msdn.microsoft.com/downloads/default.aspx">MSDN Download and Code Center</a>.
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 

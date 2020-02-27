@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 480a2be3-ccb0-4135-a085-733f6ab48ccd
 ms.date: 12/05/2018
 ms.keywords: IPropertyStorage [Strctd Stg],WriteMultiple, IPropertyStorage interface [Structured Storage],WriteMultiple method, IPropertyStorage.WriteMultiple, IPropertyStorage::WriteMultiple, WriteMultiple, WriteMultiple method [Structured Storage], WriteMultiple method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_writemultiple, propidl/IPropertyStorage::WriteMultiple, stg.ipropertystorage_writemultiple
-ms.topic: method
 f1_keywords:
 - propidlbase/IPropertyStorage.WriteMultiple
 dev_langs:

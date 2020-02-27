@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 5646B34D-EB2C-4161-8FF0-67F96254AFBC
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactoryMedia, IDXGIFactoryMedia interface [DXGI], IDXGIFactoryMedia interface [DXGI],described, direct3ddxgi.idxgifactorymedia, dxgi1_3/IDXGIFactoryMedia
-ms.topic: interface
 f1_keywords:
 - dxgi1_3/IDXGIFactoryMedia
 dev_langs:
@@ -95,7 +94,7 @@ Creates a YUV swap chain for an existing <a href="https://docs.microsoft.com/win
 
 
 
-To create a Microsoft DirectX Graphics Infrastructure (DXGI) media factory interface, pass <b>IDXGIFactoryMedia</b> into either the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory">CreateDXGIFactory</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1">CreateDXGIFactory1</a> function or call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> from a factory object returned by <b>CreateDXGIFactory</b>, <b>CreateDXGIFactory1</b>, or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-createdxgifactory2">CreateDXGIFactory2</a>.
+To create a Microsoft DirectX Graphics Infrastructure (DXGI) media factory interface, pass <b>IDXGIFactoryMedia</b> into either the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory">CreateDXGIFactory</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1">CreateDXGIFactory1</a> function or call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> from a factory object returned by <b>CreateDXGIFactory</b>, <b>CreateDXGIFactory1</b>, or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-createdxgifactory2">CreateDXGIFactory2</a>.
         
 
 Because you can create a Direct3D device without creating a swap chain, you might need to retrieve the factory that is used to create the device in order to create a swap chain.

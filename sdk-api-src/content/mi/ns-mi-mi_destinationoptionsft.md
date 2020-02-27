@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: e6cf4d82-8820-40d5-924a-e4270252807d
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptionsFT, MI_DestinationOptionsFT structure [Windows Management Infrastructure (MI)], mi/MI_DestinationOptionsFT, wmi_v2.mi_destinationoptionsft
-ms.topic: struct
 f1_keywords:
 - mi/MI_DestinationOptionsFT
 dev_langs:

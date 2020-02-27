@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: aa1226d3-7b2a-4911-b785-eea9f72016f5
 ms.date: 12/05/2018
 ms.keywords: DrvIcmDeleteColorTransform, DrvIcmDeleteColorTransform function [Display Devices], ddifncs_883d2f55-a3e0-4682-a099-8fef07b6e3a7.xml, display.drvicmdeletecolortransform, winddi/DrvIcmDeleteColorTransform
-ms.topic: function
 f1_keywords:
 - winddi/DrvIcmDeleteColorTransform
 dev_langs:

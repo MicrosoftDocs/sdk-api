@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 3dce0c01-1d39-4f49-984b-8cce08a2e67b
 ms.date: 12/05/2018
 ms.keywords: GetSubpictureAttributes, GetSubpictureAttributes method [DirectShow], GetSubpictureAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetSubpictureAttributes method, IDvdInfo2.GetSubpictureAttributes, IDvdInfo2::GetSubpictureAttributes, IDvdInfo2GetSubpictureAttributes, dshow.idvdinfo2_getsubpictureattributes, strmif/IDvdInfo2::GetSubpictureAttributes
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo2.GetSubpictureAttributes
 dev_langs:
@@ -69,7 +68,7 @@ Index number, from 0 through 31, of the subpicture stream to query. See Remarks.
 
 ### -param pATR [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_subpictureattributes">DVD_SubpictureAttributes</a> structure that receives the subpicture attributes.
+Pointer to a [DVD_SubpictureAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_subpictureattributes) structure that receives the subpicture attributes.
 
 
 ## -returns

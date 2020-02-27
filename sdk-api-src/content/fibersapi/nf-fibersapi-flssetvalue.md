@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: f2abea00-8c1b-47e8-a4e9-9e3e7242d0ad
 ms.date: 12/05/2018
 ms.keywords: FlsSetValue, FlsSetValue function, _win32_flssetvalue, base.flssetvalue, fibersapi/FlsSetValue, winbase/FlsSetValue
-ms.topic: function
 f1_keywords:
 - fibersapi/FlsSetValue
 dev_langs:

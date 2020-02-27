@@ -1,9 +1,10 @@
 ---
 UID: NA:wincodecsdk
+title: Wincodecsdk.h header
 ms.assetid: 5fd47393-95fa-3680-9f59-01a0412aae65
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: wic
 ---
 

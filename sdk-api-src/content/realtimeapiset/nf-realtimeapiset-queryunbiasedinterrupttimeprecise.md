@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: FADFC168-A3CF-4676-9B6E-7A4028049423
 ms.date: 12/05/2018
 ms.keywords: QueryUnbiasedInterruptTimePrecise, QueryUnbiasedInterruptTimePrecise function, base.queryunbiasedinterrupttimeprecise, realtimeapiset/QueryUnbiasedInterruptTimePrecise
-ms.topic: function
 f1_keywords:
 - realtimeapiset/QueryUnbiasedInterruptTimePrecise
 dev_langs:
@@ -89,7 +88,7 @@ Call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/conten
 
 Also see Remarks in <a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime">QueryUnbiasedInterruptTime</a>.
 
-<div class="alert"><b>Note</b>  The <b>QueryUnbiasedInterruptTimePrecise</b> function produces different results on debug ("checked") builds of Windows, because the interrupt-time count and tick count are advanced by approximately 49 days. This helps to identify bugs that might not occur until the system has been running for a long time. The checked build is available to MSDN subscribers through the <a href="http://go.microsoft.com/fwlink/p/?linkid=8714">Microsoft Developer Network (MSDN)</a> Web site.</div>
+<div class="alert"><b>Note</b>  The <b>QueryUnbiasedInterruptTimePrecise</b> function produces different results on debug ("checked") builds of Windows, because the interrupt-time count and tick count are advanced by approximately 49 days. This helps to identify bugs that might not occur until the system has been running for a long time. The checked build is available to MSDN subscribers through the <a href="https://msdn.microsoft.com/default.aspx">Microsoft Developer Network (MSDN)</a> Web site.</div>
 <div> </div>
 To compile an application that uses this function, define _WIN32_WINNT as 0x0601 or later. For more information, see
 				<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.

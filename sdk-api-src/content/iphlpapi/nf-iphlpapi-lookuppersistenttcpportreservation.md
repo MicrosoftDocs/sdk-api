@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 5EBEB774-13A2-49C2-92ED-5271081615AA
 ms.date: 12/05/2018
 ms.keywords: LookupPersistentTcpPortReservation, LookupPersistentTcpPortReservation function [IP Helper], iphlp.lookuppersistenttcpportreservation, iphlpapi/LookupPersistentTcpPortReservation
-ms.topic: function
 f1_keywords:
 - iphlpapi/LookupPersistentTcpPortReservation
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 7567ca34-2898-4066-a81c-348e3ac5c066
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetVersionNumber method, IISDB_LDT.GetVersionNumber, IISDB_LDT::GetVersionNumber, dvbsiparser/IISDB_LDT::GetVersionNumber, mstv.iisdb_ldt_getversionnumber
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IISDB_LDT.GetVersionNumber
 dev_langs:

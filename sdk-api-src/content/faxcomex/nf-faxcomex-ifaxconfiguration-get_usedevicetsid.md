@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\usedevicetsid.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],UseDeviceTSID property, IFaxConfiguration.UseDeviceTSID, IFaxConfiguration.get_UseDeviceTSID, IFaxConfiguration::UseDeviceTSID, IFaxConfiguration::get_UseDeviceTSID, IFaxConfiguration::put_UseDeviceTSID, UseDeviceTSID property [Fax Service], UseDeviceTSID property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_UseDeviceTSID, fax._mfax_IFaxConfiguration_UseDeviceTSID, faxcomex/IFaxConfiguration::UseDeviceTSID, faxcomex/IFaxConfiguration::get_UseDeviceTSID, faxcomex/IFaxConfiguration::put_UseDeviceTSID, get_UseDeviceTSID
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxConfiguration.UseDeviceTSID
 dev_langs:

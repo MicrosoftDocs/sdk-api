@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0754fb90-3f68-4f10-ab9b-74f7f7aeb047
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],RatingsChanged method, IMSVidStreamBufferSourceEvent.RatingsChanged, IMSVidStreamBufferSourceEvent::RatingsChanged, IMSVidStreamBufferSourceEventRatingsChanged, RatingsChanged, RatingsChanged method [Microsoft TV Technologies], RatingsChanged method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_ratingschanged, segment/IMSVidStreamBufferSourceEvent::RatingsChanged
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferSourceEvent.RatingsChanged
 dev_langs:

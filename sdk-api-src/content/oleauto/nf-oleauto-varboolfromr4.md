@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: c382d989-7009-4ea5-b2c8-fe4857296f4a
 ms.date: 12/05/2018
 ms.keywords: VarBoolFromR4, VarBoolFromR4 function [Automation], _oa96_VarBoolFromR4, automat.varboolfromr4, oleauto/VarBoolFromR4
-ms.topic: function
 f1_keywords:
 - oleauto/VarBoolFromR4
 dev_langs:

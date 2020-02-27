@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 1ff82982-a2d7-4618-8488-9e4b7628012d
 ms.date: 12/05/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],NextAsync method, IEnumWbemClassObject.NextAsync, IEnumWbemClassObject::NextAsync, NextAsync, NextAsync method [Windows Management Instrumentation], NextAsync method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_nextasync, wbemcli/IEnumWbemClassObject::NextAsync, wmi.ienumwbemclassobject_nextasync
-ms.topic: method
 f1_keywords:
 - wbemcli/IEnumWbemClassObject.NextAsync
 dev_langs:
@@ -85,7 +84,7 @@ The
 
 
 
-A call to the COM function <a href="http://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a> provides more information about the error. COM-specific error codes may also be returned if network problems cause you to lose the remote connection to Windows Management.
+A call to the COM function <a href="https://msdn.microsoft.com/library/ms221032.aspx">GetErrorInfo</a> provides more information about the error. COM-specific error codes may also be returned if network problems cause you to lose the remote connection to Windows Management.
 
 This call returns immediately and delivery to the sink occurs in the background. If multiple calls are made to this method from one or more threads, they are logically queued and the order of calls and object delivery is preserved. Multiple calls made to this method from one or more threads block do not return until all the sink objects related to previous calls to this method have been serviced. A call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-reset">Reset</a> does not affect delivery of objects currently in progress as a result of previous calls. The 

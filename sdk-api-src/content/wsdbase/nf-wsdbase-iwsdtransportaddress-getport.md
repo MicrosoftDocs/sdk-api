@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: cc2e623f-e6b6-42ad-b0de-7960de0142d0
 ms.date: 12/05/2018
 ms.keywords: GetPort, GetPort method, GetPort method,IWSDTransportAddress interface, IWSDTransportAddress interface,GetPort method, IWSDTransportAddress.GetPort, IWSDTransportAddress::GetPort, ncd.iwsdtransportaddress_getport, wsdbase/IWSDTransportAddress::GetPort
-ms.topic: method
 f1_keywords:
 - wsdbase/IWSDTransportAddress.GetPort
 dev_langs:

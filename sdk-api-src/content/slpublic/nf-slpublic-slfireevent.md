@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: 7d66526a-f83a-4a7d-9691-e8ee9ec9a135
 ms.date: 12/05/2018
 ms.keywords: SLFireEvent, SLFireEvent function [Security], security.slfireevent, slpublic/SLFireEvent
-ms.topic: function
 f1_keywords:
 - slpublic/SLFireEvent
 dev_langs:

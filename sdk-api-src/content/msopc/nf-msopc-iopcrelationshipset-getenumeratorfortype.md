@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 5b389660-f74d-48ae-a16b-5822661f0015
 ms.date: 12/05/2018
 ms.keywords: GetEnumeratorForType, GetEnumeratorForType method [Open Packaging Conventions], GetEnumeratorForType method [Open Packaging Conventions],IOpcRelationshipSet interface, IOpcRelationshipSet interface [Open Packaging Conventions],GetEnumeratorForType method, IOpcRelationshipSet.GetEnumeratorForType, IOpcRelationshipSet::GetEnumeratorForType, msopc/IOpcRelationshipSet::GetEnumeratorForType, opc.iopcrelationshipset_getenumeratorfortype
-ms.topic: method
 f1_keywords:
 - msopc/IOpcRelationshipSet.GetEnumeratorForType
 dev_langs:
@@ -154,7 +153,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
 
 

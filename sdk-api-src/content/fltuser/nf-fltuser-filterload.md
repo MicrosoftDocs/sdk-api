@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 248e05e6-570a-45fc-8b63-16625ffda1dd
 ms.date: 12/05/2018
 ms.keywords: FilterLoad, FilterLoad function [Installable File System Drivers], FltWin32ApiRef_273c18c5-9474-4605-80a1-1bc4cb9e4e7b.xml, fltuser/FilterLoad, ifsk.filterload
-ms.topic: function
 f1_keywords:
 - fltuser/FilterLoad
 dev_langs:
@@ -174,7 +173,7 @@ To unload the minifilter driver, call <a href="https://docs.microsoft.com/window
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=139085">HRESULT_FROM_WIN32</a>
+<a href="https://msdn.microsoft.com/library/ms680746.aspx">HRESULT_FROM_WIN32</a>
  
 
  

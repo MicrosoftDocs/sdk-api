@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 89577ab3-2648-4b37-9fc0-c64929223a13
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreenTemplateManager, IFsrmFileScreenTemplateManager interface [File Server Resource Manager], IFsrmFileScreenTemplateManager interface [File Server Resource Manager],described, fs.ifsrmfilescreentemplatemanager, fsrm.ifsrmfilescreentemplatemanager, fsrmscreen/IFsrmFileScreenTemplateManager
-ms.topic: interface
 f1_keywords:
 - fsrmscreen/IFsrmFileScreenTemplateManager
 dev_langs:

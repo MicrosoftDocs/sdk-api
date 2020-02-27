@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 3b2a2f8d-b1ff-44d2-ba49-60877ca6c104
 ms.date: 12/05/2018
 ms.keywords: RasGetConnectStatus, RasGetConnectStatus function [RAS], RasGetConnectStatusA, RasGetConnectStatusW, _ras_rasgetconnectstatus, ras/RasGetConnectStatus, ras/RasGetConnectStatusA, ras/RasGetConnectStatusW, rras.rasgetconnectstatus
-ms.topic: function
 f1_keywords:
 - ras/RasGetConnectStatus
 dev_langs:

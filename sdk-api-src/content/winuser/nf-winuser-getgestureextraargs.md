@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: f7775d88-6a5b-4283-ab40-65c2da218f81
 ms.date: 12/05/2018
 ms.keywords: GetGestureExtraArgs, GetGestureExtraArgs function [Windows Touch], wintouch.getgestureextraargs, winuser/GetGestureExtraArgs
-ms.topic: function
 f1_keywords:
 - winuser/GetGestureExtraArgs
 dev_langs:

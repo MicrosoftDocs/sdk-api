@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 20089bc0-8af4-48b4-85aa-51ab2e4bf5be
 ms.date: 12/05/2018
 ms.keywords: FileMaxCount property [PLA], FileMaxCount property [PLA],IConfigurationDataCollector interface, IConfigurationDataCollector interface [PLA],FileMaxCount property, IConfigurationDataCollector.FileMaxCount, IConfigurationDataCollector.put_FileMaxCount, IConfigurationDataCollector::FileMaxCount, IConfigurationDataCollector::get_FileMaxCount, IConfigurationDataCollector::put_FileMaxCount, base.iconfigurationdatacollector_filemaxcount, pla.iconfigurationdatacollector_filemaxcount, pla/IConfigurationDataCollector::FileMaxCount, pla/IConfigurationDataCollector::get_FileMaxCount, pla/IConfigurationDataCollector::put_FileMaxCount, put_FileMaxCount
-ms.topic: method
 f1_keywords:
 - pla/IConfigurationDataCollector.FileMaxCount
 dev_langs:

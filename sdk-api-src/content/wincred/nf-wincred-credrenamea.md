@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: e598f2ae-f975-4dd2-bf0b-e2fd96d4c940
 ms.date: 12/05/2018
 ms.keywords: CredRename, CredRename function [Security], CredRenameA, CredRenameW, _cred_credrename, security.credrename, wincred/CredRename, wincred/CredRenameA, wincred/CredRenameW
-ms.topic: function
 f1_keywords:
 - wincred/CredRename
 dev_langs:

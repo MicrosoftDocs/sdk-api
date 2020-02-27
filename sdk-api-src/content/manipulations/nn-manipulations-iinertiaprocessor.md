@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: 8dc171eb-0c6e-41dd-b506-5f91ea703a53
 ms.date: 12/05/2018
 ms.keywords: IInertiaProcessor, IInertiaProcessor interface [Windows Touch], IInertiaProcessor interface [Windows Touch],described, manipulations/IInertiaProcessor, wintouch.iinertiaprocessor
-ms.topic: interface
 f1_keywords:
 - manipulations/IInertiaProcessor
 dev_langs:

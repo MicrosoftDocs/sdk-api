@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 9063a804-2597-4959-8249-e5b42f582ea3
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesPinInfo2 interface [Offline Files],IsPartlyPinned method, IOfflineFilesPinInfo2.IsPartlyPinned, IOfflineFilesPinInfo2::IsPartlyPinned, IsPartlyPinned, IsPartlyPinned method [Offline Files], IsPartlyPinned method [Offline Files],IOfflineFilesPinInfo2 interface, cscobj/IOfflineFilesPinInfo2::IsPartlyPinned, of.iofflinefilespininfo2_ispartlypinned
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesPinInfo2.IsPartlyPinned
 dev_langs:

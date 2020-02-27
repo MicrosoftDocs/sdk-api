@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: D83F079F-605A-4F62-B037-3C5D0487D778
 ms.date: 12/05/2018
 ms.keywords: HasNullSourceOrigin, HasNullSourceOrigin method [Media Foundation], HasNullSourceOrigin method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],HasNullSourceOrigin method, IMFHttpDownloadRequest.HasNullSourceOrigin, IMFHttpDownloadRequest::HasNullSourceOrigin, mf.imfhttpdownloadrequest_hasnullsourceorigin, mfidl/IMFHttpDownloadRequest::HasNullSourceOrigin
-ms.topic: method
 f1_keywords:
 - mfidl/IMFHttpDownloadRequest.HasNullSourceOrigin
 dev_langs:

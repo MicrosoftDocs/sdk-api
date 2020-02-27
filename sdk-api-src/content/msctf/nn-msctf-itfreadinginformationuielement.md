@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 60f7c6e2-7821-4be6-a1c1-35bacaa60bf4
 ms.date: 12/05/2018
 ms.keywords: ITfReadingInformationUIElement, ITfReadingInformationUIElement interface [Text Services Framework], ITfReadingInformationUIElement interface [Text Services Framework],described, msctf/ITfReadingInformationUIElement, tsf.itfreadinginformationuielement
-ms.topic: interface
 f1_keywords:
 - msctf/ITfReadingInformationUIElement
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: e9e7c5a3-70ec-4a68-ac21-1ab6774d140f
 ms.date: 12/05/2018
 ms.keywords: CoQueryAuthenticationServices, CoQueryAuthenticationServices function [COM], _com_CoQueryAuthenticationServices, com.coqueryauthenticationservices, combaseapi/CoQueryAuthenticationServices
-ms.topic: function
 f1_keywords:
 - combaseapi/CoQueryAuthenticationServices
 dev_langs:

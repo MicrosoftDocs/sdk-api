@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: E9515AEE-6854-4FF8-9A83-10E6BC247D4D
 ms.date: 12/05/2018
 ms.keywords: DeleteCatalog, DeleteCatalog method [search], DeleteCatalog method [search],ISearchManager2 interface, ISearchManager2 interface [search],DeleteCatalog method, ISearchManager2.DeleteCatalog, ISearchManager2::DeleteCatalog, search.isearchmanager2_deletecatalog, searchapi/ISearchManager2::DeleteCatalog
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchManager2.DeleteCatalog
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: d02eca94-fe08-4a80-9a3f-3a870aa10eed
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutGetById0, FwpmCalloutGetById0 function [Filtering], fwp.fwpmcalloutgetbyid0_func, fwpmu/FwpmCalloutGetById0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmCalloutGetById0
 dev_langs:

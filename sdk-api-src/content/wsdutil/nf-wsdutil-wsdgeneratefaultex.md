@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 11cdd975-cc06-4fdc-8d84-c419e2a2b5ff
 ms.date: 12/05/2018
 ms.keywords: DataEncodingUnknown, MustUnderstand, Receiver, Sender, VersionMismatch, WSDGenerateFaultEx, WSDGenerateFaultEx function, ncd.wsdgeneratefaultex, wsdutil/WSDGenerateFaultEx
-ms.topic: function
 f1_keywords:
 - wsdutil/WSDGenerateFaultEx
 dev_langs:
@@ -65,7 +64,7 @@ A SOAP fault code.
 
 The list of possible fault codes follows. For a description of each fault code, see the 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=69438">SOAP Version 1.2 specification</a>.
+<a href="https://www.w3.org/TR/2003/REC-soap12-part1-20030624/#faultcodes">SOAP Version 1.2 specification</a>.
 
 
 

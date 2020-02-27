@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: a4552366-eafa-4f24-b6c2-e6a7edc4b021
 ms.date: 12/05/2018
 ms.keywords: LPFN_CONNECTEX, LPFN_CONNECTEX callback, LPFN_CONNECTEX callback function [Winsock], _win32_connectex_2, mswsock/LPFN_CONNECTEX, winsock.connectex_2
-ms.topic: callback
 f1_keywords:
 - mswsock/LPFN_CONNECTEX
 dev_langs:
@@ -440,7 +439,7 @@ If the
 
  The interval of  time that must elapse before TCP can release a closed connection and reuse its resources is known as the TIME_WAIT state or the  2MSL state. During this time, the connection can be reopened at much less cost to the client and server than establishing a new connection.
 
-The TIME_WAIT behavior is specified in <a href="Http://go.microsoft.com/fwlink/p/?linkid=84069">RFC 793</a>, which requires that TCP maintains a closed connection for an interval at least equal to twice the maximum segment lifetime (MSL) of the network. When a connection is released, its socket pair and internal resources used for the socket can be used to support another connection.
+The TIME_WAIT behavior is specified in <a href="https://www.ietf.org/rfc/rfc793.txt">RFC 793</a>, which requires that TCP maintains a closed connection for an interval at least equal to twice the maximum segment lifetime (MSL) of the network. When a connection is released, its socket pair and internal resources used for the socket can be used to support another connection.
 
 Windows TCP reverts to a TIME_WAIT state subsequent to the closing of a connection. While in the TIME_WAIT state, a socket pair cannot be reused. The TIME_WAIT period is configurable by modifying the following <b>DWORD</b> registry setting that represents the TIME_WAIT period in seconds. 
 

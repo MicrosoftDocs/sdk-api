@@ -7,7 +7,6 @@ tech.root: locationapi
 ms.assetid: 7f47670c-5549-46af-8a16-0e9a43cf90aa
 ms.date: 12/05/2018
 ms.keywords: GetStateProvince, GetStateProvince method [WinLocation], GetStateProvince method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetStateProvince method, ICivicAddressReport.GetStateProvince, ICivicAddressReport::GetStateProvince, WinLocation_COM_Ref.icivicaddressreport_getstateprovince, locationapi/ICivicAddressReport::GetStateProvince
-ms.topic: method
 f1_keywords:
 - locationapi/ICivicAddressReport.GetStateProvince
 dev_langs:

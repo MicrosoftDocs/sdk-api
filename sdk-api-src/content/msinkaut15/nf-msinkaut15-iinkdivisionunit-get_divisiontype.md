@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: c1aaaa62-34fc-4cd4-bd68-47f828bb59b1
 ms.date: 12/05/2018
 ms.keywords: DivisionType property [Tablet PC], DivisionType property [Tablet PC],IInkDivisionUnit interface, IInkDivisionUnit interface [Tablet PC],DivisionType property, IInkDivisionUnit.DivisionType, IInkDivisionUnit.get_DivisionType, IInkDivisionUnit::DivisionType, IInkDivisionUnit::get_DivisionType, c1aaaa62-34fc-4cd4-bd68-47f828bb59b1, get_DivisionType, msinkaut15/IInkDivisionUnit::DivisionType, msinkaut15/IInkDivisionUnit::get_DivisionType, tablet.iinkdivisionunit_divisiontype
-ms.topic: method
 f1_keywords:
 - msinkaut15/IInkDivisionUnit.DivisionType
 dev_langs:

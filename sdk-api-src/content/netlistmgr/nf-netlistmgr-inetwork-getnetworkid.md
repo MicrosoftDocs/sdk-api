@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: f2012295-d443-434f-8fe8-b6e38e7cac74
 ms.date: 12/05/2018
 ms.keywords: GetNetworkId, GetNetworkId method [Network Awareness], GetNetworkId method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetNetworkId method, INetwork.GetNetworkId, INetwork::GetNetworkId, netlistmgr/INetwork::GetNetworkId, nla.inetwork_getnetworkid
-ms.topic: method
 f1_keywords:
 - netlistmgr/INetwork.GetNetworkId
 dev_langs:

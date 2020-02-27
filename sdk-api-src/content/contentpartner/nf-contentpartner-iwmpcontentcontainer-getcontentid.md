@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 95519f7e-aa78-4d66-87ba-71978d404412
 ms.date: 12/05/2018
 ms.keywords: GetContentID, GetContentID method [Windows Media Player], GetContentID method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetContentID method, IWMPContentContainer.GetContentID, IWMPContentContainer::GetContentID, IWMPContentContainerGetContentID, contentpartner/IWMPContentContainer::GetContentID, wmp.iwmpcontentcontainer_getcontentid
-ms.topic: method
 f1_keywords:
 - contentpartner/IWMPContentContainer.GetContentID
 dev_langs:

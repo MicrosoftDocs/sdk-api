@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0a9e3c46-6d2d-474e-ab72-f67b5ed450f2
 ms.date: 12/05/2018
 ms.keywords: GetSwitches, GetSwitches method [DirectShow], GetSwitches method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetSwitches method, IDirectDrawVideo.GetSwitches, IDirectDrawVideo::GetSwitches, IDirectDrawVideoGetSwitches, amvideo/IDirectDrawVideo::GetSwitches, dshow.idirectdrawvideo_getswitches
-ms.topic: method
 f1_keywords:
 - amvideo/IDirectDrawVideo.GetSwitches
 dev_langs:

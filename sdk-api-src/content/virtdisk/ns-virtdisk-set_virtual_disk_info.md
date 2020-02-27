@@ -7,7 +7,6 @@ tech.root: VStor
 ms.assetid: 04b2bb75-7905-469a-abf1-15591dc64686
 ms.date: 12/05/2018
 ms.keywords: '*PSET_VIRTUAL_DISK_INFO, PSET_VIRTUAL_DISK_INFO, PSET_VIRTUAL_DISK_INFO structure pointer [VHD], SET_VIRTUAL_DISK_INFO, SET_VIRTUAL_DISK_INFO structure [VHD], _SET_VIRTUAL_DISK_INFO, vdssys/PSET_VIRTUAL_DISK_INFO, vdssys/SET_VIRTUAL_DISK_INFO, vhd.set_virtual_disk_info, virtdisk/PSET_VIRTUAL_DISK_INFO, virtdisk/SET_VIRTUAL_DISK_INFO'
-ms.topic: struct
 f1_keywords:
 - virtdisk/SET_VIRTUAL_DISK_INFO
 dev_langs:

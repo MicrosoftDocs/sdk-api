@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 95747075-4882-4c29-8653-941ac04db54b
 ms.date: 12/05/2018
 ms.keywords: NSTCCUSTOMDRAW, NSTCCUSTOMDRAW structure [Windows Shell], _shell_NSTCCUSTOMDRAW, shell.NSTCCUSTOMDRAW, shobjidl/NSTCCUSTOMDRAW
-ms.topic: struct
 f1_keywords:
 - shobjidl/NSTCCUSTOMDRAW
 dev_langs:

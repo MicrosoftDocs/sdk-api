@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: b7531018-4837-4fde-8947-0f099f6de9e5
 ms.date: 12/05/2018
 ms.keywords: Encrypt, Encrypt method [Offline Files], Encrypt method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],Encrypt method, IOfflineFilesCache.Encrypt, IOfflineFilesCache::Encrypt, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_CONSOLE, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_LOWPRIORITY, cscobj/IOfflineFilesCache::Encrypt, of.iofflinefilescache_encrypt
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesCache.Encrypt
 dev_langs:

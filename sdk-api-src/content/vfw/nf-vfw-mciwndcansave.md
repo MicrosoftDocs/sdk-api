@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: dc08b385-3e19-480d-ab05-58fd9b8c6b3a
 ms.date: 12/05/2018
 ms.keywords: MCIWndCanSave, MCIWndCanSave macro [Windows Multimedia], _win32_MCIWndCanSave, multimedia.mciwndcansave, vfw/MCIWndCanSave
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndCanSave
 dev_langs:

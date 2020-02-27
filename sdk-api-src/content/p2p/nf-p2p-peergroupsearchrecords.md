@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 7df13041-e802-47b6-8b44-14837c513936
 ms.date: 12/05/2018
 ms.keywords: PeerGroupSearchRecords, PeerGroupSearchRecords function [Peer Networking], p2p.peergroupsearchrecords, p2p/PeerGroupSearchRecords
-ms.topic: function
 f1_keywords:
 - p2p/PeerGroupSearchRecords
 dev_langs:

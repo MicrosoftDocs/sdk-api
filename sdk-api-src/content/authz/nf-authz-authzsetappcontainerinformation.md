@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: CD01C5E1-2367-4CC1-A495-A295E3C82B46
 ms.date: 12/05/2018
 ms.keywords: AuthzSetAppContainerInformation, AuthzSetAppContainerInformation function [Security], authz/AuthzSetAppContainerInformation, security.authzsetappcontainerinformation
-ms.topic: function
 f1_keywords:
 - authz/AuthzSetAppContainerInformation
 dev_langs:

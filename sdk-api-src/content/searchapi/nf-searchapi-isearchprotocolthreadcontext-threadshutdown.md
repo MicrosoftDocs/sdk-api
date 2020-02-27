@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocolthreadcontext\threadshutdown.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchProtocolThreadContext interface [search],ThreadShutdown method, ISearchProtocolThreadContext.ThreadShutdown, ISearchProtocolThreadContext::ThreadShutdown, ThreadShutdown, ThreadShutdown method [search], ThreadShutdown method [search],ISearchProtocolThreadContext interface, _search_ISearchProtocolThreadContext_ThreadShutdown, search._search_ISearchProtocolThreadContext_ThreadShutdown, searchapi/ISearchProtocolThreadContext::ThreadShutdown
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchProtocolThreadContext.ThreadShutdown
 dev_langs:

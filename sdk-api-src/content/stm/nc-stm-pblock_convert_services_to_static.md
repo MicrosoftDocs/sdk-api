@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 60d1ee7b-bba3-4dd1-8faf-520a2e3cfad3
 ms.date: 12/05/2018
 ms.keywords: BlockConvertServicesToStatic, BlockConvertServicesToStatic callback function [RAS], PBLOCK_CONVERT_SERVICES_TO_STATIC, PBLOCK_CONVERT_SERVICES_TO_STATIC callback, _mpr_blockconvertservicestostatic, rras.blockconvertservicestostatic, stm/BlockConvertServicesToStatic
-ms.topic: callback
 f1_keywords:
 - stm/BlockConvertServicesToStatic
 dev_langs:

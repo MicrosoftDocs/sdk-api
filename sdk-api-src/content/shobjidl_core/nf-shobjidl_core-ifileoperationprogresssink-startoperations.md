@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8b9e4423-ead7-44be-b960-5ee83025f42a
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],StartOperations method, IFileOperationProgressSink.StartOperations, IFileOperationProgressSink::StartOperations, StartOperations, StartOperations method [Windows Shell], StartOperations method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_StartOperations, shell.IFileOperationProgressSink_StartOperations, shobjidl_core/IFileOperationProgressSink::StartOperations
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileOperationProgressSink.StartOperations
 dev_langs:

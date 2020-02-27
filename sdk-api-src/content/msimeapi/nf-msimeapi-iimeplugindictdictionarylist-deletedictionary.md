@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 38A17092-E545-4018-9D16-2C0406234D62
 ms.date: 12/05/2018
 ms.keywords: DeleteDictionary, DeleteDictionary method [Internationalization for Windows Applications], DeleteDictionary method [Internationalization for Windows Applications],IImePlugInDictDictionaryList interface, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications],DeleteDictionary method, IImePlugInDictDictionaryList.DeleteDictionary, IImePlugInDictDictionaryList::DeleteDictionary, intl.iimeplugindictdictionarylist_deletedictionary, msimeapi/IImePlugInDictDictionaryList::DeleteDictionary
-ms.topic: method
 f1_keywords:
 - msimeapi/IImePlugInDictDictionaryList.DeleteDictionary
 dev_langs:

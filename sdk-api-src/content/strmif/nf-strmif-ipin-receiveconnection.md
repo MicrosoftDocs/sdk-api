@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b2013e95-88bc-4f4a-87af-2b13c120ec46
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],ReceiveConnection method, IPin.ReceiveConnection, IPin::ReceiveConnection, IPinReceiveConnection, ReceiveConnection, ReceiveConnection method [DirectShow], ReceiveConnection method [DirectShow],IPin interface, dshow.ipin_receiveconnection, strmif/IPin::ReceiveConnection
-ms.topic: method
 f1_keywords:
 - strmif/IPin.ReceiveConnection
 dev_langs:
@@ -71,7 +70,7 @@ Pointer to the connecting pin's <a href="https://docs.microsoft.com/windows/desk
 
 ### -param pmt [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type for the connection.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type for the connection.
 
 
 ## -returns

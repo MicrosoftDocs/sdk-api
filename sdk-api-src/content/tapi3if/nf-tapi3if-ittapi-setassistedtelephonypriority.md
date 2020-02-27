@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 446fd541-30af-45de-85fa-d6655317362c
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],SetAssistedTelephonyPriority method, ITTAPI.SetAssistedTelephonyPriority, ITTAPI::SetAssistedTelephonyPriority, SetAssistedTelephonyPriority, SetAssistedTelephonyPriority method [TAPI 2.2], SetAssistedTelephonyPriority method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_setassistedtelephonypriority, tapi3.ittapi_setassistedtelephonypriority, tapi3if/ITTAPI::SetAssistedTelephonyPriority
-ms.topic: method
 f1_keywords:
 - tapi3if/ITTAPI.SetAssistedTelephonyPriority
 dev_langs:

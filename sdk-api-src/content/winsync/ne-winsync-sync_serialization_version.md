@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 840a1f5e-56f7-4774-a154-0dab66c3d407
 ms.date: 12/05/2018
 ms.keywords: SYNC_SERIALIZATION_VERSION, SYNC_SERIALIZATION_VERSION enumeration [Windows Sync], SYNC_SERIALIZATION_VERSION_V1, SYNC_SERIALIZATION_VERSION_V2, winsync.sync_serialization_version, winsync/SYNC_SERIALIZATION_VERSION, winsync/SYNC_SERIALIZATION_VERSION_V1, winsync/SYNC_SERIALIZATION_VERSION_V2
-ms.topic: enum
 f1_keywords:
 - winsync/SYNC_SERIALIZATION_VERSION
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents the version of <a href="http://go.microsoft.com/fwlink/p/?linkid=134798">Microsoft Sync Framework</a> that a particular component is compatible with. For an overview of what is involved in building synchronization providers using  <a href="http://go.microsoft.com/fwlink/p/?linkid=134798">Microsoft Sync Framework</a>, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/options-for-building-a-synchronization-provider">Options for Building a Synchronization Provider</a>.
+Represents the version of <a href="https://www.microsoft.com/downloads/details.aspx?familyid=A3EE7BC5-A823-4FB4-B152-9E8CE9D5546F&displaylang=en">Microsoft Sync Framework</a> that a particular component is compatible with. For an overview of what is involved in building synchronization providers using  <a href="https://www.microsoft.com/downloads/details.aspx?familyid=A3EE7BC5-A823-4FB4-B152-9E8CE9D5546F&displaylang=en">Microsoft Sync Framework</a>, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/options-for-building-a-synchronization-provider">Options for Building a Synchronization Provider</a>.
 
 
 

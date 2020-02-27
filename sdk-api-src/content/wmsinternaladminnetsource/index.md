@@ -1,9 +1,10 @@
 ---
 UID: NA:wmsinternaladminnetsource
+title: Wmsinternaladminnetsource.h header
 ms.assetid: 25ad3b6a-f34f-3df7-a68e-7c4861e02aa0
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: wmformat
 archived: true
 ---

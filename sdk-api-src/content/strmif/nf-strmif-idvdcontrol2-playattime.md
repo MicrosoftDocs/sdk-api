@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 75b66e8d-3107-48ca-a887-20cf3c0b9234
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayAtTime method, IDvdControl2.PlayAtTime, IDvdControl2::PlayAtTime, IDvdControl2PlayAtTime, PlayAtTime, PlayAtTime method [DirectShow], PlayAtTime method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playattime, strmif/IDvdControl2::PlayAtTime
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.PlayAtTime
 dev_langs:
@@ -64,12 +63,12 @@ The <code>PlayAtTime</code> method starts playback from the specified time in th
 
 ### -param pTime [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> structure that specifies the time at which to start playback.
+Pointer to a [DVD_HMSF_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode) structure that specifies the time at which to start playback.
 
 
 ### -param dwFlags [in]
 
-Bitwise <b>OR</b> of one or more flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
+Bitwise <b>OR</b> of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
 
 
 ### -param ppCmd [out]

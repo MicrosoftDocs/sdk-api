@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_gettabcontrol.htm
 ms.date: 12/05/2018
 ms.keywords: PropSheet_GetTabControl, PropSheet_GetTabControl macro [Windows Controls], _win32_PropSheet_GetTabControl, _win32_PropSheet_GetTabControl_cpp, controls.PropSheet_GetTabControl, controls._win32_PropSheet_GetTabControl, prsht/PropSheet_GetTabControl
-ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_GetTabControl
 dev_langs:

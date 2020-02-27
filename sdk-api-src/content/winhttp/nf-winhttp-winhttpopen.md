@@ -7,7 +7,6 @@ tech.root: WinHttp
 ms.assetid: 34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_ACCESS_TYPE_AUTOMATIC_PROXY, WINHTTP_ACCESS_TYPE_DEFAULT_PROXY, WINHTTP_ACCESS_TYPE_NAMED_PROXY, WINHTTP_ACCESS_TYPE_NO_PROXY, WINHTTP_FLAG_ASYNC, WinHttpOpen, WinHttpOpen function [WinHTTP], http.winhttpopen, winhttp.winhttpopen_function, winhttp/WinHttpOpen
-ms.topic: function
 f1_keywords:
 - winhttp/WinHttpOpen
 dev_langs:
@@ -94,7 +93,7 @@ Retrieves the static proxy or direct configuration from the registry. <b>WINHTTP
 
 The WinHTTP proxy configuration is set by one of these mechanisms.<ul>
 <li>The <a href="https://docs.microsoft.com/windows/desktop/WinHttp/proxycfg-exe--a-proxy-configuration-tool">proxycfg.exe</a> utility on Windows XP and Windows Server 2003 or earlier.</li>
-<li>The <a href="http://go.microsoft.com/fwlink/p/?linkid=186359">netsh.exe</a> utility on Windows Vista and Windows Server 2008 or later.</li>
+<li>The <a href="https://technet.microsoft.com/library/cc731131(WS.10).aspx#BKMK_5">netsh.exe</a> utility on Windows Vista and Windows Server 2008 or later.</li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetdefaultproxyconfiguration">WinHttpSetDefaultProxyConfiguration</a> on all platforms.</li>
 </ul>

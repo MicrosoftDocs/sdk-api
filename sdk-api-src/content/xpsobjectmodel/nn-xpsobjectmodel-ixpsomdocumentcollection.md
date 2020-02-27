@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 4f3acae9-10a0-47ff-9170-a40abe230580
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocumentCollection, IXpsOMDocumentCollection interface [XPS Documents and Packaging], IXpsOMDocumentCollection interface [XPS Documents and Packaging],described, xps.ixpsomdocumentcollection, xpsobjectmodel/IXpsOMDocumentCollection
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMDocumentCollection
 dev_langs:
@@ -157,7 +156,7 @@ For more information about the collection methods, see <a href="https://docs.mic
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

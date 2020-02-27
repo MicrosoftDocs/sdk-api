@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: cb8a7714-3777-41b4-894b-bb0c0797d51e
 ms.date: 12/05/2018
 ms.keywords: '*LPNUMBERFMTW, LPNUMBERFMT, LPNUMBERFMT structure pointer [Internationalization for Windows Applications], NUMBERFMT, NUMBERFMT structure [Internationalization for Windows Applications], NUMBERFMTW, _win32_NUMBERFMT_str, intl.numberfmt, winnls/LPNUMBERFMT, winnls/NUMBERFMT'
-ms.topic: struct
 f1_keywords:
 - winnls/NUMBERFMT
 dev_langs:

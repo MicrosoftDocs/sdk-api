@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 01fdbe3d-bec7-4e66-87c5-b7e6c1044e8a
 ms.date: 12/05/2018
 ms.keywords: IAMOverlayFX interface [DirectShow],QueryOverlayFXCaps method, IAMOverlayFX.QueryOverlayFXCaps, IAMOverlayFX::QueryOverlayFXCaps, IAMOverlayFXQueryOverlayFXCaps, QueryOverlayFXCaps, QueryOverlayFXCaps method [DirectShow], QueryOverlayFXCaps method [DirectShow],IAMOverlayFX interface, dshow.iamoverlayfx_queryoverlayfxcaps, strmif/IAMOverlayFX::QueryOverlayFXCaps
-ms.topic: method
 f1_keywords:
 - strmif/IAMOverlayFX.QueryOverlayFXCaps
 dev_langs:

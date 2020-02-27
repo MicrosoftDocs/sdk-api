@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 85f7dc2b-c159-48e0-ac58-8a66eb0ec73b
 ms.date: 12/05/2018
 ms.keywords: PeerGraphImportDatabase, PeerGraphImportDatabase function [Peer Networking], p2p.peergraphimportdatabase, p2p/PeerGraphImportDatabase
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphImportDatabase
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: cd61a268-ef73-4dd3-98d4-9811922d01f4
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromFileTime, InitVariantFromFileTime function [Windows Properties], _shell_InitVariantFromFileTime, properties.InitVariantFromFileTime, propvarutil/InitVariantFromFileTime, shell.InitVariantFromFileTime
-ms.topic: function
 f1_keywords:
 - propvarutil/InitVariantFromFileTime
 dev_langs:

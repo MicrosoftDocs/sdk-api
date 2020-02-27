@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 27913630-d0c2-4bc1-9d6a-623f7aa631ec
 ms.date: 12/05/2018
 ms.keywords: GetCurrentLocation, GetCurrentLocation method [DirectShow], GetCurrentLocation method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentLocation method, IDvdInfo.GetCurrentLocation, IDvdInfo::GetCurrentLocation, IDvdInfoGetCurrentLocation, dshow.idvdinfo_getcurrentlocation, strmif/IDvdInfo::GetCurrentLocation
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo.GetCurrentLocation
 dev_langs:
@@ -65,7 +64,7 @@ Retrieves the current playback location.
 
 ### -param pLocation [out]
 
-Pointer to the retrieved playback location information in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_playback_location">DVD_PLAYBACK_LOCATION</a> structure.
+Pointer to the retrieved playback location information in a [DVD_PLAYBACK_LOCATION](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_playback_location) structure.
 
 
 ## -returns
@@ -108,7 +107,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-Requested action is not supported on this domain (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
+Requested action is not supported on this domain (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
 
 </td>
 </tr>
@@ -135,7 +134,7 @@ Requested action cannot occur at this point in the movie due to the authoring of
 
 This method retrieves information sufficient to restart playback of a video from the current playback location in titles that don't explicitly disable seeking to the current location.
 
-This method returns an error unless the domain is DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

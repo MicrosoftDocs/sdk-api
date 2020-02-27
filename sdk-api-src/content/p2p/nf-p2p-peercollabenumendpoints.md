@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: c29d089c-1f1e-4d50-9a3a-18c844b4ad1c
 ms.date: 12/05/2018
 ms.keywords: PeerCollabEnumEndpoints, PeerCollabEnumEndpoints function [Peer Networking], p2p.peercollabenumendpoints, p2p/PeerCollabEnumEndpoints
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabEnumEndpoints
 dev_langs:

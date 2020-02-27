@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 632C26C2-ED12-40DC-9615-4A09A7E2F7CB
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_PAUSE_CLUSTER_NODE_EX, PCLUSAPI_PAUSE_CLUSTER_NODE_EX function [Failover Cluster], PauseClusterNodeEx, PauseClusterNodeEx function [Failover Cluster], clusapi/PCLUSAPI_PAUSE_CLUSTER_NODE_EX, clusapi/PauseClusterNodeEx, mscs.pauseclusternodeex
-ms.topic: function
 f1_keywords:
 - clusapi/PauseClusterNodeEx
 dev_langs:

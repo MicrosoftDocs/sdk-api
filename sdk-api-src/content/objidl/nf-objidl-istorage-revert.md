@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: d1b7626e-bad1-47b5-8bcd-3da3b05c53c4
 ms.date: 12/05/2018
 ms.keywords: IStorage interface [Structured Storage],Revert method, IStorage.Revert, IStorage::Revert, Revert, Revert method [Structured Storage], Revert method [Structured Storage],IStorage interface, _stg_istorage_revert, objidl/IStorage::Revert, stg.istorage_revert
-ms.topic: method
 f1_keywords:
 - objidl/IStorage.Revert
 dev_langs:

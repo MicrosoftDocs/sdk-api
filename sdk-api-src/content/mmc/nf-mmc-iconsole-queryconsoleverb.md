@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 6C40014C-EBCC-455C-A575-4637B253439C
 ms.date: 12/05/2018
 ms.keywords: IConsole interface [MMC],QueryConsoleVerb method, IConsole.QueryConsoleVerb, IConsole::QueryConsoleVerb, QueryConsoleVerb, QueryConsoleVerb method [MMC], QueryConsoleVerb method [MMC],IConsole interface, mmc.iconsole_queryconsoleverb, mmc/IConsole::QueryConsoleVerb
-ms.topic: method
 f1_keywords:
 - mmc/IConsole.QueryConsoleVerb
 dev_langs:

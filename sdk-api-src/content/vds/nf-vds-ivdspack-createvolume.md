@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 26fea1a4-f060-49e2-a7ac-0e751f798c72
 ms.date: 12/05/2018
 ms.keywords: CreateVolume, CreateVolume method [VDS], CreateVolume method [VDS],IVdsPack interface, IVdsPack interface [VDS],CreateVolume method, IVdsPack.CreateVolume, IVdsPack::CreateVolume, base.ivdspack_createvolume, vds/IVdsPack::CreateVolume
-ms.topic: method
 f1_keywords:
 - vds/IVdsPack.CreateVolume
 dev_langs:

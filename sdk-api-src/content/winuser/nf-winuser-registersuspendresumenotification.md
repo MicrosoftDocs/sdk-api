@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: 6cd42d32-07e9-4cbd-83f9-6146b1cb54db
 ms.date: 12/05/2018
 ms.keywords: RegisterSuspendResumeNotification, RegisterSuspendResumeNotification function, base.registersuspendresumenotification, winuser/RegisterSuspendResumeNotification
-ms.topic: function
 f1_keywords:
 - winuser/RegisterSuspendResumeNotification
 dev_langs:

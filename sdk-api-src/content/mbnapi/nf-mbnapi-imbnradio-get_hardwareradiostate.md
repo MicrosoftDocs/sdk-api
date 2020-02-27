@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 2958a443-b4c2-43f3-b0b3-956c6b2dca2d
 ms.date: 12/05/2018
 ms.keywords: HardwareRadioState property [Microsoft Broadband Networks], HardwareRadioState property [Microsoft Broadband Networks],IMbnRadio interface, IMbnRadio interface [Microsoft Broadband Networks],HardwareRadioState property, IMbnRadio.HardwareRadioState, IMbnRadio.get_HardwareRadioState, IMbnRadio::HardwareRadioState, IMbnRadio::get_HardwareRadioState, get_HardwareRadioState, mbn.imbnradio_hardwareradiostate, mbnapi/IMbnRadio::HardwareRadioState, mbnapi/IMbnRadio::get_HardwareRadioState
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnRadio.HardwareRadioState
 dev_langs:

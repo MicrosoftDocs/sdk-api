@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 6F61F13B-0E5B-449D-A237-FF494B730392
 ms.date: 12/05/2018
 ms.keywords: CachedDropTargetEffects property [Windows Accessibility], CachedDropTargetEffects property [Windows Accessibility],IUIAutomationDropTargetPattern interface, IUIAutomationDropTargetPattern interface [Windows Accessibility],CachedDropTargetEffects property, IUIAutomationDropTargetPattern.CachedDropTargetEffects, IUIAutomationDropTargetPattern.get_CachedDropTargetEffects, IUIAutomationDropTargetPattern::CachedDropTargetEffects, IUIAutomationDropTargetPattern::get_CachedDropTargetEffects, get_CachedDropTargetEffects, uiautomationclient/IUIAutomationDropTargetPattern::CachedDropTargetEffects, uiautomationclient/IUIAutomationDropTargetPattern::get_CachedDropTargetEffects, winauto.uiauto_iuiautomationdroptargetpattern_cacheddroptargeteffects
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationDropTargetPattern.CachedDropTargetEffects
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 88a78360-3e67-4425-8c65-3f746c6c807d
 ms.date: 12/05/2018
 ms.keywords: IWMPlayerHook interface [windows Media Format],PreDecode method, IWMPlayerHook.PreDecode, IWMPlayerHook::PreDecode, IWMPlayerHookPreDecode, PreDecode, PreDecode method [windows Media Format], PreDecode method [windows Media Format],IWMPlayerHook interface, wmformat.iwmplayerhook_predecode, wmsdkidl/IWMPlayerHook::PreDecode
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMPlayerHook.PreDecode
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tracelogging
 ms.assetid: E64B3855-A43B-489B-8A73-930D65FA5F79
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingRegisterEx, TraceLoggingRegisterEx function, tracelogging.traceloggingregisterex, traceloggingprovider/TraceLoggingRegisterEx
-ms.topic: function
 f1_keywords:
 - traceloggingprovider/TraceLoggingRegisterEx
 dev_langs:

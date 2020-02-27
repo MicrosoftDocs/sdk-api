@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3d94f67c-e3ee-4b64-b0b9-8f771423bdc5
 ms.date: 12/05/2018
 ms.keywords: PathRenameExtension, PathRenameExtension function [Windows Shell], PathRenameExtensionA, PathRenameExtensionW, _win32_PathRenameExtension, shell.PathRenameExtension, shlwapi/PathRenameExtension, shlwapi/PathRenameExtensionA, shlwapi/PathRenameExtensionW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathRenameExtension
 dev_langs:

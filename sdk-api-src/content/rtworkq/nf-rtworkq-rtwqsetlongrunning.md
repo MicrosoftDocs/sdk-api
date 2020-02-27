@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 8bf71eb5-d5d5-4b07-93b0-4b12b43e9687
 ms.date: 12/05/2018
 ms.keywords: RtwqSetLongRunning, RtwqSetLongRunning function, base.rtwqsetlongrunning, rtworkq/RtwqSetLongRunning
-ms.topic: function
 f1_keywords:
 - rtworkq/RtwqSetLongRunning
 dev_langs:

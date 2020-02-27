@@ -7,7 +7,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\getoutputpixelformat.htm
 ms.date: 12/05/2018
 ms.keywords: GetOutputPixelFormat, GetOutputPixelFormat method [WPF Bitmap Effects], GetOutputPixelFormat method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],GetOutputPixelFormat method, IMILBitmapEffectRenderContext.GetOutputPixelFormat, IMILBitmapEffectRenderContext::GetOutputPixelFormat, _wibe_imilbitmapeffectrendercontext_getoutputpixelformat, mileffects/IMILBitmapEffectRenderContext::GetOutputPixelFormat, wibe._wibe_imilbitmapeffectrendercontext_getoutputpixelformat
-ms.topic: method
 f1_keywords:
 - mileffects/IMILBitmapEffectRenderContext.GetOutputPixelFormat
 dev_langs:

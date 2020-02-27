@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: bbc09d4c-4231-48a8-97f6-54cbb32303b1
 ms.date: 12/05/2018
 ms.keywords: '*LPMCI_DGV_STATUS_PARMSA, MCI_DGV_STATUS_PARMS, MCI_DGV_STATUS_PARMS structure [Windows Multimedia], MCI_DGV_STATUS_PARMSA, _win32_MCI_DGV_STATUS_PARMS_str, digitalv/MCI_DGV_STATUS_PARMS, multimedia.mci_dgv_status_parms'
-ms.topic: struct
 f1_keywords:
 - digitalv/MCI_DGV_STATUS_PARMS
 dev_langs:

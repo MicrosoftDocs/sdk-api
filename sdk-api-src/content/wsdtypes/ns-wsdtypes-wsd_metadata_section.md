@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: e3e39d0a-6fb1-4cb9-b399-6ffe0e73ba91
 ms.date: 12/05/2018
 ms.keywords: WSD_METADATA_SECTION, WSD_METADATA_SECTION structure, http://schemas.xmlsoap.org/ws/2006/02/devprof/Relationship, http://schemas.xmlsoap.org/ws/2006/02/devprof/ThisDevice, http://schemas.xmlsoap.org/ws/2006/02/devprof/ThisModel, ncd.wsd_metadata_section_struct, wsdtypes/WSD_METADATA_SECTION
-ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_METADATA_SECTION
 dev_langs:

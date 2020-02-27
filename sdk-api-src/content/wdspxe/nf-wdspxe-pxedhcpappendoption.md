@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: bc639af6-de51-4c82-985a-96e5a10389e7
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpAppendOption, PxeDhcpAppendOption function [Windows Deployment Services], wds.pxedhcpappendoption, wdspxe/PxeDhcpAppendOption
-ms.topic: function
 f1_keywords:
 - wdspxe/PxeDhcpAppendOption
 dev_langs:

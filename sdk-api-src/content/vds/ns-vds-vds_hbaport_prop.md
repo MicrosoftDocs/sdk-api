@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 297ccb5c-3fa2-4bb0-bdd2-60d4685dc55c
 ms.date: 12/05/2018
 ms.keywords: VDS_HBAPORT_PROP, VDS_HBAPORT_PROP structure [VDS], base.vds_hbaport_prop, vds/VDS_HBAPORT_PROP, vdshwprv/VDS_HBAPORT_PROP
-ms.topic: struct
 f1_keywords:
 - vds/VDS_HBAPORT_PROP
 dev_langs:

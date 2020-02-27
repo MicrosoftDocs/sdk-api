@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 5ab0942c-aee2-44f9-9e7f-568405131691
 ms.date: 12/05/2018
 ms.keywords: FwpmFilterGetByKey0, FwpmFilterGetByKey0 function [Filtering], fwp.fwpmfiltergetbykey0_func, fwpmu/FwpmFilterGetByKey0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmFilterGetByKey0
 dev_langs:

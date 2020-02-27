@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 3e6cbd5b-8bd3-4f08-9192-35604db5dc3a
 ms.date: 12/05/2018
 ms.keywords: '*PQOS_FLOW_FUNDAMENTALS, PQOS_FLOW_FUNDAMENTALS, PQOS_FLOW_FUNDAMENTALS structure pointer [QOS], QOS_FLOW_FUNDAMENTALS, QOS_FLOW_FUNDAMENTALS structure [QOS], qos.qos_flow_fundamentals, qos2/PQOS_FLOW_FUNDAMENTALS, qos2/QOS_FLOW_FUNDAMENTALS'
-ms.topic: struct
 f1_keywords:
 - qos2/QOS_FLOW_FUNDAMENTALS
 dev_langs:

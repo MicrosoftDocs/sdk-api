@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3e5ec923-0597-4cf4-8973-17c83481c7f4
 ms.date: 12/05/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnFolderChange method, IFileDialogEvents.OnFolderChange, IFileDialogEvents::OnFolderChange, OnFolderChange, OnFolderChange method [Windows Shell], OnFolderChange method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnFolderChange, shell_IFileDialogEvents_OnFolderChange, shobjidl_core/IFileDialogEvents::OnFolderChange
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileDialogEvents.OnFolderChange
 dev_langs:

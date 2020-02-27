@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: d0705997-0dc7-443b-a43f-611301cc9169
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, InetPton, InetPton function [Winsock], InetPtonA, InetPtonA or inet_pton, InetPtonW, inet_pton, winsock.inet_pton, ws2tcpip/InetPton, ws2tcpip/InetPtonA or inet_pton, ws2tcpip/InetPtonW
-ms.topic: function
 f1_keywords:
 - ws2tcpip/InetPton
 dev_langs:
@@ -174,7 +173,7 @@ The
 <b>InetPton</b> function provides a protocol-independent conversion of an Internet network address in its standard text   presentation form into its numeric binary form. The 
 <b>InetPton</b> function takes a text representation of an Internet address pointed to  by the <i>pszAddrString</i> parameter and returns a pointer to the numeric binary IP address in the <i>pAddrBuf</i> parameter. While the <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr">inet_addr</a>function works only with IPv4 address strings, the <b>InetPton</b> function works with either IPv4 or IPv6 address strings.
 
-The ANSI version of this function is <b>inet_pton</b> as defined in RFC 2553. For more information, see RFC 2553 available at the <a href="http://go.microsoft.com/fwlink/p/?linkid=86448">IETF website</a>.
+The ANSI version of this function is <b>inet_pton</b> as defined in RFC 2553. For more information, see RFC 2553 available at the <a href="http://tools.ietf.org/html/rfc2553">IETF website</a>.
 
 The 
 <b>InetPton</b> function does not require that the Windows Sockets DLL be loaded to perform conversion of a text string that represents an IP address to a numeric binary IP address.

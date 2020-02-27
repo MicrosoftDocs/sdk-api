@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 0932d81d-7577-4063-8207-d818164175eb
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, IXpsOMImageResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMImageResourceCollection.Append, IXpsOMImageResourceCollection::Append, xps.ixpsomimageresourcecollection_append, xpsobjectmodel/IXpsOMImageResourceCollection::Append
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMImageResourceCollection.Append
 dev_langs:
@@ -98,7 +97,7 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

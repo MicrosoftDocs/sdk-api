@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: ead9bf4d-44a1-4237-ad03-28a4253819b8
 ms.date: 12/05/2018
 ms.keywords: GetContentExtent, GetContentExtent method [COM], GetContentExtent method [COM],IQuickActivate interface, IQuickActivate interface [COM],GetContentExtent method, IQuickActivate.GetContentExtent, IQuickActivate::GetContentExtent, _ctrl_iquickactivate_getcontentextent, com.iquickactivate_getcontentextent, ocidl/IQuickActivate::GetContentExtent
-ms.topic: method
 f1_keywords:
 - ocidl/IQuickActivate.GetContentExtent
 dev_langs:

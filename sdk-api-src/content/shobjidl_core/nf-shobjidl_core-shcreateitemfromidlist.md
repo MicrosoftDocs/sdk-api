@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a6dcddd9-cdbc-4cf9-97e3-d1b562283344
 ms.date: 12/05/2018
 ms.keywords: SHCreateItemFromIDList, SHCreateItemFromIDList function [Windows Shell], _shell_SHCreateItemFromIDList, shell.SHCreateItemFromIDList, shobjidl_core/SHCreateItemFromIDList
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHCreateItemFromIDList
 dev_langs:

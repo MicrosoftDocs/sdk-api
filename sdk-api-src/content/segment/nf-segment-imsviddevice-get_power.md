@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 3be4247b-43d4-4a32-8643-7eb2637aee6f
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_Power method, IMSVidDevice.get_Power, IMSVidDevice::get_Power, IMSVidDeviceget_Power, get_Power, get_Power method [Microsoft TV Technologies], get_Power method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_power, segment/IMSVidDevice::get_Power
-ms.topic: method
 f1_keywords:
 - segment/IMSVidDevice.get_Power
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: d90c6f80-ed4c-4b99-af85-d2c5816ade85
 ms.date: 12/05/2018
 ms.keywords: IWTSVirtualChannelCallback, IWTSVirtualChannelCallback interface [Remote Desktop Services], IWTSVirtualChannelCallback interface [Remote Desktop Services],described, termserv.iwtsvirtualchannelcallback, tsvirtualchannels/IWTSVirtualChannelCallback
-ms.topic: interface
 f1_keywords:
 - tsvirtualchannels/IWTSVirtualChannelCallback
 dev_langs:

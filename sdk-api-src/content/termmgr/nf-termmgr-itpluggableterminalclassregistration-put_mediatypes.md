@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: f5a5fb8b-5b71-4f57-8125-46c482897c21
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],put_MediaTypes method, ITPluggableTerminalClassRegistration.put_MediaTypes, ITPluggableTerminalClassRegistration::put_MediaTypes, _tapi3_itpluggableterminalclassregistration_put_mediatypes, put_MediaTypes, put_MediaTypes method [TAPI 2.2], put_MediaTypes method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_put_mediatypes, termmgr/ITPluggableTerminalClassRegistration::put_MediaTypes
-ms.topic: method
 f1_keywords:
 - termmgr/ITPluggableTerminalClassRegistration.put_MediaTypes
 dev_langs:

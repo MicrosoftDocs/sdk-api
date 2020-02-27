@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 16e51962-915e-40ea-a7a1-6f5a5809ba05
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderFragmentRoot, IRawElementProviderFragmentRoot interface [Windows Accessibility], IRawElementProviderFragmentRoot interface [Windows Accessibility],described, uiauto.uiauto_IRawElementProviderFragmentRoot, uiauto_IRawElementProviderFragmentRoot, uiautomationcore/IRawElementProviderFragmentRoot, winauto.uiauto_IRawElementProviderFragmentRoot
-ms.topic: interface
 f1_keywords:
 - uiautomationcore/IRawElementProviderFragmentRoot
 dev_langs:

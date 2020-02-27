@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 53c5356d-525a-485f-9618-37efe21be687
 ms.date: 12/05/2018
 ms.keywords: IEnumOleUndoUnits interface [COM],Skip method, IEnumOleUndoUnits.Skip, IEnumOleUndoUnits::Skip, Skip, Skip method [COM], Skip method [COM],IEnumOleUndoUnits interface, _ole_ienumoleundounits_skip, com.ienumoleundounits_skip, ocidl/IEnumOleUndoUnits::Skip
-ms.topic: method
 f1_keywords:
 - ocidl/IEnumOleUndoUnits.Skip
 dev_langs:

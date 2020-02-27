@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 9840313d-3c42-42ce-91b9-fde684834716
 ms.date: 12/05/2018
 ms.keywords: InterlockedOr16, InterlockedOr16 function, base.interlockedor16, winnt/InterlockedOr16
-ms.topic: function
 f1_keywords:
 - winnt/InterlockedOr16
 dev_langs:

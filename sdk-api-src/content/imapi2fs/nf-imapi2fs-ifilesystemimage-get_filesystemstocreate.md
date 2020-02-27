@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 7350de0b-683a-4363-9233-dbe40f637f2d
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_FileSystemsToCreate method, IFileSystemImage.get_FileSystemsToCreate, IFileSystemImage::get_FileSystemsToCreate, get_FileSystemsToCreate, get_FileSystemsToCreate method [IMAPI], get_FileSystemsToCreate method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_filesystemstocreate, imapi2fs/IFileSystemImage::get_FileSystemsToCreate
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFileSystemImage.get_FileSystemsToCreate
 dev_langs:

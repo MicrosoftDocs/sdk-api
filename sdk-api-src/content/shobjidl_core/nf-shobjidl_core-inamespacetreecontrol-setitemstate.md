@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f57c5abc-0803-409d-9938-3826f9d8058d
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],SetItemState method, INameSpaceTreeControl.SetItemState, INameSpaceTreeControl::SetItemState, SetItemState, SetItemState method [Windows Shell], SetItemState method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_SetItemState, shell.INameSpaceTreeControl_SetItemState, shobjidl_core/INameSpaceTreeControl::SetItemState
-ms.topic: method
 f1_keywords:
 - shobjidl_core/INameSpaceTreeControl.SetItemState
 dev_langs:

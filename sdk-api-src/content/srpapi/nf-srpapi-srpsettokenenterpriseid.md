@@ -7,7 +7,6 @@ tech.root: EDP
 ms.assetid: A96E6977-5637-4E3E-A2AE-7892DC61FB08
 ms.date: 12/05/2018
 ms.keywords: EDP.srpsettokenenterpriseid, SrpSetTokenEnterpriseId, SrpSetTokenEnterpriseId function, srpapi/SrpSetTokenEnterpriseId
-ms.topic: function
 f1_keywords:
 - srpapi/SrpSetTokenEnterpriseId
 dev_langs:

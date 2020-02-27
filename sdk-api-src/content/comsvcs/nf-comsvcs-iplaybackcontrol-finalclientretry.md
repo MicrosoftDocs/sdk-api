@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 3fa51832-0e68-4e76-bbdb-ce54f76fbae6
 ms.date: 12/05/2018
 ms.keywords: FinalClientRetry, FinalClientRetry method [COM+], FinalClientRetry method [COM+],IPlaybackControl interface, IPlaybackControl interface [COM+],FinalClientRetry method, IPlaybackControl.FinalClientRetry, IPlaybackControl::FinalClientRetry, _cos_IPlaybackControl_FinalClientRetry, comsvcs/IPlaybackControl::FinalClientRetry, cos.iplaybackcontrol_finalclientretry
-ms.topic: method
 f1_keywords:
 - comsvcs/IPlaybackControl.FinalClientRetry
 dev_langs:

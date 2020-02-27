@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 3fb3e57f-7c0b-4a49-b83d-798c84b2d5d1
 ms.date: 12/05/2018
 ms.keywords: AM_DVD_STREAM_AUDIO, AM_DVD_STREAM_FLAGS, AM_DVD_STREAM_FLAGS , AM_DVD_STREAM_FLAGS enumeration [DirectShow], AM_DVD_STREAM_FLAGSEnumeration, AM_DVD_STREAM_SUBPIC, AM_DVD_STREAM_VIDEO, dshow.am_dvd_stream_flags, strmif/AM_DVD_STREAM_AUDIO, strmif/AM_DVD_STREAM_FLAGS, strmif/AM_DVD_STREAM_SUBPIC, strmif/AM_DVD_STREAM_VIDEO
-ms.topic: enum
 f1_keywords:
 - strmif/AM_DVD_STREAM_FLAGS
 dev_langs:
@@ -84,7 +83,7 @@ DVD subpicture stream.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_dvd_renderstatus">AM_DVD_RENDERSTATUS Structure</a>
+[AM_DVD_RENDERSTATUS Structure](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_dvd_renderstatus)
 
 
 

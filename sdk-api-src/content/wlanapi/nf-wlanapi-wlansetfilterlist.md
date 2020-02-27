@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 697682c9-cb26-42d6-86b5-d7adebcedc68
 ms.date: 12/05/2018
 ms.keywords: WlanSetFilterList, WlanSetFilterList function [NativeWIFI], nwifi.wlansetfilterlist, wlanapi/WlanSetFilterList
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanSetFilterList
 dev_langs:
@@ -168,7 +167,7 @@ To add all SSIDs to a filter list, pass a pointer to a  <a href="https://docs.mi
 
 To add all BSS types to a filter list, pass a pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-dot11_network_list">DOT11_NETWORK_LIST</a> with an associated <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-dot11_network">DOT11_NETWORK</a> structure that has its <b>dot11BssType</b> member set to <b>dot11_BSS_type_any</b>.
 
-The <b>netsh wlan add filter</b> and <b>netsh wlan delete filter</b> commands provide similar functionality at the command line. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=120964">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
+The <b>netsh wlan add filter</b> and <b>netsh wlan delete filter</b> commands provide similar functionality at the command line. For more information, see <a href="https://technet.microsoft.com/library/f435edbe-1d50-4774-bae2-0dda33eaeb2f">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
 
 
 

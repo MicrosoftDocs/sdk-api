@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMComparisonAnyOutOfBounds(uint32_t)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMComparisonAnyOutOfBounds, XMComparisonAnyOutOfBounds, XMComparisonAnyOutOfBounds method [DirectX Math Support APIs], dxmath.xmcomparisonanyoutofbounds
-ms.topic: function
 f1_keywords:
 - directxmath/XMComparisonAnyOutOfBounds
 dev_langs:

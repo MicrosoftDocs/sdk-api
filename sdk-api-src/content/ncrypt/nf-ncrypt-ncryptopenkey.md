@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 581c5d89-730d-4d8c-b3bb-a28edec25910
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCRYPT_MACHINE_KEY_FLAG, NCRYPT_SILENT_FLAG, NCryptOpenKey, NCryptOpenKey function [Security], ncrypt/NCryptOpenKey, security.ncryptopenkey_func
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptOpenKey
 dev_langs:
@@ -242,7 +241,7 @@ A memory allocation failure occurred.
 
 
 
-A service must not call this function from its <a href="http://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 For performance reasons, Microsoft software-based KSPs cache private key material in the Local Security Authority (LSA) for as long as a handle to the key is open. The LSA is a privilidged system process. Therefore, other users cannot access this cached copy of the key unless the user possesses administrator privileges on the system. This behavior cannot be altered through configuration.
 

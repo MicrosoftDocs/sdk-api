@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 31ce43e5-08b4-4c1d-b31f-77ee4e278927
 ms.date: 12/05/2018
 ms.keywords: SetupDiOpenDeviceInterface, SetupDiOpenDeviceInterface function [Device and Driver Installation], SetupDiOpenDeviceInterfaceA, SetupDiOpenDeviceInterfaceW, devinst.setupdiopendeviceinterface, di-rtns_4505f6a3-e634-4070-a9b3-1487c2808838.xml, setupapi/SetupDiOpenDeviceInterface
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiOpenDeviceInterface
 dev_langs:
@@ -91,7 +90,7 @@ A pointer to a caller-initialized  <a href="https://docs.microsoft.com/windows/d
 
 
 
-<b>SetupDiOpenDeviceInterface</b> returns <b>TRUE</b> if the function completed without error. If the function completed with an error, it returns <b>FALSE</b> and the error code for the failure can be retrieved by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+<b>SetupDiOpenDeviceInterface</b> returns <b>TRUE</b> if the function completed without error. If the function completed with an error, it returns <b>FALSE</b> and the error code for the failure can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 
@@ -102,11 +101,11 @@ A pointer to a caller-initialized  <a href="https://docs.microsoft.com/windows/d
 
 If a device interface element for the interface already exists in <i>DeviceInfoSet</i>, <b>SetupDiOpenDeviceInterface</b> updates the flags. Therefore, this function can be used to update the flags for a device interface. For example, an interface might have been inactive when it was first opened, but has subsequently become active. If the device information element for the underlying device is not already present in <i>DeviceInfoSet</i>, this function creates one and adds it to <i>DeviceInfoSet</i>. 
 
-If the function successfully opens the new device interface but the caller did not supply a valid structure in the <i>DeviceInterfaceData</i> parameter, the function will return <b>FALSE</b> and a subsequent call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> will return ERROR_INVALID_USER_BUFFER. However, in this situation, <b>SetupDiOpenDeviceInterface</b> does add the requested interface to the device information set.
+If the function successfully opens the new device interface but the caller did not supply a valid structure in the <i>DeviceInterfaceData</i> parameter, the function will return <b>FALSE</b> and a subsequent call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> will return ERROR_INVALID_USER_BUFFER. However, in this situation, <b>SetupDiOpenDeviceInterface</b> does add the requested interface to the device information set.
 
-If the new device interface is successfully opened, but the caller-supplied <i>DeviceInterfaceData</i> buffer is invalid, this function returns <b>FALSE</b> and <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_INVALID_USER_BUFFER. The caller's buffer error does not prevent the interface from being opened.
+If the new device interface is successfully opened, but the caller-supplied <i>DeviceInterfaceData</i> buffer is invalid, this function returns <b>FALSE</b> and <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_INVALID_USER_BUFFER. The caller's buffer error does not prevent the interface from being opened.
 
-If the DIODI_NO_ADD flag is specified for the <i>OpenFlags</i> parameter, and a device information element for the underlying device is not already present in the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a>, this function returns <b>FALSE</b> and <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_NO_SUCH_DEVICE_INTERFACE. 
+If the DIODI_NO_ADD flag is specified for the <i>OpenFlags</i> parameter, and a device information element for the underlying device is not already present in the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a>, this function returns <b>FALSE</b> and <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_NO_SUCH_DEVICE_INTERFACE. 
 
 When the application has finished using the information that <b>SetupDiOpenDeviceInterface</b> retrieved<b>,</b> the application must call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdideletedeviceinterfacedata">SetupDiDeleteDeviceInterfaceData</a>.
 

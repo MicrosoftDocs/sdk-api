@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 6e64a620-9c1d-4803-81a0-ec432c30fbc9
 ms.date: 12/05/2018
 ms.keywords: ISnapinProperties interface [MMC],PropertiesChanged method, ISnapinProperties.PropertiesChanged, ISnapinProperties::PropertiesChanged, PropertiesChanged, PropertiesChanged method [MMC], PropertiesChanged method [MMC],ISnapinProperties interface, _slate_isnapinproperties_propertieschanged, mmc.isnapinproperties_propertieschanged, mmcobj/ISnapinProperties::PropertiesChanged
-ms.topic: method
 f1_keywords:
 - mmcobj/ISnapinProperties.PropertiesChanged
 dev_langs:

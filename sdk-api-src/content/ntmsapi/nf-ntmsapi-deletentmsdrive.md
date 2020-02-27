@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: 301900a1-9ccb-45ed-aba7-c398cda7d4a8
 ms.date: 12/05/2018
 ms.keywords: DeleteNtmsDrive, DeleteNtmsDrive function [Files], _zaw_deletentmsdrive, base.deletentmsdrive, fs.deletentmsdrive, ntmsapi/DeleteNtmsDrive
-ms.topic: function
 f1_keywords:
 - ntmsapi/DeleteNtmsDrive
 dev_langs:

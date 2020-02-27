@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 77b5e753-aee9-42d8-a0fa-27b065fc3b20
 ms.date: 12/05/2018
 ms.keywords: EnumDateFormats, EnumDateFormats function [Internationalization for Windows Applications], EnumDateFormatsA, EnumDateFormatsW, _win32_EnumDateFormats, intl.enumdateformats, winnls/EnumDateFormats, winnls/EnumDateFormatsA, winnls/EnumDateFormatsW
-ms.topic: function
 f1_keywords:
 - winnls/EnumDateFormats
 dev_langs:
@@ -117,7 +116,7 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 
 
 
-<div class="alert"><b>Note</b>  This API is being updated to support the May 2019 Japanese era change. If your application supports the Japanese calendar, you should validate that it properly handles the new era. See <a href="https://aka.ms/AA3dzcz">Prepare your application for the Japanese era change</a> for more information.</div>
+<div class="alert"><b>Note</b>  This API is being updated to support the May 2019 Japanese era change. If your application supports the Japanese calendar, you should validate that it properly handles the new era. See <a href="https://docs.microsoft.com/windows/uwp/design/globalizing/japanese-era-change">Prepare your application for the Japanese era change</a> for more information.</div>
 <div> </div>
 For details of operation of this function, see Remarks in <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumdateformatsexa">EnumDateFormatsEx</a>.
 

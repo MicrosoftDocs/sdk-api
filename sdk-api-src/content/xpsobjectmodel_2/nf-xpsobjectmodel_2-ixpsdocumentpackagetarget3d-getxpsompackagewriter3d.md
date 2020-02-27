@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 2F3A6997-B325-4406-A731-5C2EAD875125
 ms.date: 12/05/2018
 ms.keywords: GetXpsOMPackageWriter3D, GetXpsOMPackageWriter3D method [XPS Documents and Packaging], GetXpsOMPackageWriter3D method [XPS Documents and Packaging],IXpsDocumentPackageTarget3D interface, IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging],GetXpsOMPackageWriter3D method, IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D, IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D, xps.ixpsdocumentpackagetarget3d_getxpsompackagewriter3d, xpsobjectmodel_2/IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel_2/IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D
 dev_langs:
@@ -75,7 +74,7 @@ Name of the part which will hold the 3D model. The part’s content type is “a
 
 ### -param modelData [in]
 
-A readable stream which holds 3D model description. The model description may be UTF16 encoding of XML document, but for XPS OM and XpsPrint, this is a BLOB passing through. The <b>GetXpsOMPackageWriter3D</b> method attempts to move the provided stream’s read pointer to the beginning of the stream, but the method call will not fail if the stream does not support the <a href="http://go.microsoft.com/fwlink/p/?LinkID=301232">Seek</a> method.
+A readable stream which holds 3D model description. The model description may be UTF16 encoding of XML document, but for XPS OM and XpsPrint, this is a BLOB passing through. The <b>GetXpsOMPackageWriter3D</b> method attempts to move the provided stream’s read pointer to the beginning of the stream, but the method call will not fail if the stream does not support the <a href="https://msdn.microsoft.com/library/windows/desktop/aa380043(v=vs.85).aspx">Seek</a> method.
 
 
 ### -param packageWriter [out]

@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 200e1926-7ebd-4373-803d-1c054db5df8d
 ms.date: 12/05/2018
 ms.keywords: SetupDeleteError, SetupDeleteError function [Setup API], SetupDeleteErrorA, SetupDeleteErrorW, _setupapi_setupdeleteerror, setup.setupdeleteerror, setupapi/SetupDeleteError, setupapi/SetupDeleteErrorA, setupapi/SetupDeleteErrorW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDeleteError
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: f5656ba2-7ba6-44ba-bcab-3678fbd10b07
 ms.date: 12/05/2018
 ms.keywords: IMSVidFeatures interface [Microsoft TV Technologies],get_Item method, IMSVidFeatures.get_Item, IMSVidFeatures::get_Item, IMSVidFeaturesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IMSVidFeatures interface, mstv.imsvidfeatures_get_item, segment/IMSVidFeatures::get_Item
-ms.topic: method
 f1_keywords:
 - segment/IMSVidFeatures.get_Item
 dev_langs:

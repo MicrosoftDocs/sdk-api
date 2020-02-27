@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowrect.htm
 ms.date: 12/05/2018
 ms.keywords: GetWindowRect, GetWindowRect function [Windows and Messages], _win32_GetWindowRect, _win32_getwindowrect_cpp, winmsg.getwindowrect, winui._win32_getwindowrect, winuser/GetWindowRect
-ms.topic: function
 f1_keywords:
 - winuser/GetWindowRect
 dev_langs:

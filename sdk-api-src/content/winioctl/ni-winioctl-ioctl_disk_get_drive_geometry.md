@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 574efc29-112b-42fe-ad1b-72543f20e831
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_GEOMETRY, IOCTL_DISK_GET_DRIVE_GEOMETRY control, IOCTL_DISK_GET_DRIVE_GEOMETRY control code [Files], _win32_ioctl_disk_get_drive_geometry, base.ioctl_disk_get_drive_geometry, fs.ioctl_disk_get_drive_geometry, winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY
-ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY
 dev_langs:

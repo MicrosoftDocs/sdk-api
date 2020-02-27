@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 360f595a-ee9b-4979-a763-6d7cbf31d2ea
 ms.date: 12/05/2018
 ms.keywords: RtwqUnjoinWorkQueue, RtwqUnjoinWorkQueue function, base.rtwqunjoinworkqueue, rtworkq/RtwqUnjoinWorkQueue
-ms.topic: function
 f1_keywords:
 - rtworkq/RtwqUnjoinWorkQueue
 dev_langs:

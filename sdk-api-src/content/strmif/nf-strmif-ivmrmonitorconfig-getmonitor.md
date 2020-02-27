@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8d71f1d1-4f8b-4ff8-9a4f-d25050821622
 ms.date: 12/05/2018
 ms.keywords: GetMonitor, GetMonitor method [DirectShow], GetMonitor method [DirectShow],IVMRMonitorConfig interface, IVMRMonitorConfig interface [DirectShow],GetMonitor method, IVMRMonitorConfig.GetMonitor, IVMRMonitorConfig::GetMonitor, IVMRMonitorConfigGetMonitor, dshow.ivmrmonitorconfig_getmonitor, strmif/IVMRMonitorConfig::GetMonitor
-ms.topic: method
 f1_keywords:
 - strmif/IVMRMonitorConfig.GetMonitor
 dev_langs:
@@ -64,7 +63,7 @@ The <code>GetMonitor</code> method retrieves the monitor that this instance of t
 
 ### -param pGUID [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrguid">VMRGUID</a> structure allocated by the caller. The method fills this structure with a GUID that identifies the monitor.
+Pointer to a [VMRGUID](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrguid) structure allocated by the caller. The method fills this structure with a GUID that identifies the monitor.
 
 
 ## -returns

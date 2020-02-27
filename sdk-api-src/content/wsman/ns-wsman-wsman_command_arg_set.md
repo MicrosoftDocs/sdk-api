@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 0904851f-e275-445c-b3fa-e5974d037322
 ms.date: 12/05/2018
 ms.keywords: WSMAN_COMMAND_ARG_SET, WSMAN_COMMAND_ARG_SET structure [Windows Remote Management], winrm.wsman_command_arg_set, wsman/WSMAN_COMMAND_ARG_SET
-ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_COMMAND_ARG_SET
 dev_langs:

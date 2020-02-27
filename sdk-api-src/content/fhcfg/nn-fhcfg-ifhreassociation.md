@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: B1CBD7DD-5B4D-4B3E-BE7D-B6497ABFB588
 ms.date: 12/05/2018
 ms.keywords: IFhReassociation, IFhReassociation interface [Windows API], IFhReassociation interface [Windows API],described, fhcfg/IFhReassociation, winprog.ifhreassociation
-ms.topic: interface
 f1_keywords:
 - fhcfg/IFhReassociation
 dev_langs:

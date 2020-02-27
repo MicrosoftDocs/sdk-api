@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: a0a13843-e943-4fca-b4d4-5af1d2ff02e9
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromDouble, InitVariantFromDouble function [Windows Properties], _shell_InitVariantFromDouble, properties.InitVariantFromDouble, propvarutil/InitVariantFromDouble, shell.InitVariantFromDouble
-ms.topic: function
 f1_keywords:
 - propvarutil/InitVariantFromDouble
 dev_langs:

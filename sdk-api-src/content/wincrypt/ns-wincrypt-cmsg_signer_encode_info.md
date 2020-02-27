@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: f599226d-ddd7-455f-b650-74b91674d8f9
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_SIGNER_ENCODE_INFO, AT_KEYEXCHANGE, AT_SIGNATURE, CMSG_SIGNER_ENCODE_INFO, CMSG_SIGNER_ENCODE_INFO structure [Security], PCMSG_SIGNER_ENCODE_INFO, PCMSG_SIGNER_ENCODE_INFO structure pointer [Security], _crypto2_cmsg_signer_encode_info, security.cmsg_signer_encode_info, wincrypt/CMSG_SIGNER_ENCODE_INFO, wincrypt/PCMSG_SIGNER_ENCODE_INFO'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CMSG_SIGNER_ENCODE_INFO
 dev_langs:

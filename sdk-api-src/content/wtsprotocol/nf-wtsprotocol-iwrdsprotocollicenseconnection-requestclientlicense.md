@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 73660029-2d2e-4240-babe-208daa164290
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolLicenseConnection interface [Remote Desktop Services],RequestClientLicense method, IWRdsProtocolLicenseConnection.RequestClientLicense, IWRdsProtocolLicenseConnection::RequestClientLicense, RequestClientLicense, RequestClientLicense method [Remote Desktop Services], RequestClientLicense method [Remote Desktop Services],IWRdsProtocolLicenseConnection interface, termserv.iwrdsprotocollicenseconnection_requestclientlicense, wtsprotocol/IWRdsProtocolLicenseConnection::RequestClientLicense
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWRdsProtocolLicenseConnection.RequestClientLicense
 dev_langs:
@@ -91,7 +90,7 @@ When you are implementing this method, return <b>S_OK</b> if the function succee
 
 
 
-For more information about the byte arrays exchanged in this call (such as the <b>CLIENT_LICENSE_INFO</b>, <b>CLIENT_NEW_LICENSE_REQUEST</b>, and <b>CLIENT_PLATFORM_CHALLENGE_RESPONSE</b> packet structures), see <a href="http://go.microsoft.com/fwlink/p/?linkid=157338">[MS-RDPELE]: Remote Desktop Protocol: Licensing Extension</a>.
+For more information about the byte arrays exchanged in this call (such as the <b>CLIENT_LICENSE_INFO</b>, <b>CLIENT_NEW_LICENSE_REQUEST</b>, and <b>CLIENT_PLATFORM_CHALLENGE_RESPONSE</b> packet structures), see <a href="https://msdn.microsoft.com/library/cc241880(PROT.10).aspx">[MS-RDPELE]: Remote Desktop Protocol: Licensing Extension</a>.
 
 
 

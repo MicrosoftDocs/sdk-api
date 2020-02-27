@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: b7146f0c-e397-45cb-9eb0-e03b3ac0e905
 ms.date: 12/05/2018
 ms.keywords: CreateCoreProperties, CreateCoreProperties method [XPS Documents and Packaging], CreateCoreProperties method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateCoreProperties method, IXpsOMObjectFactory.CreateCoreProperties, IXpsOMObjectFactory::CreateCoreProperties, xps.ixpsomobjectfactory_createcoreproperties, xpsobjectmodel/IXpsOMObjectFactory::CreateCoreProperties
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreateCoreProperties
 dev_langs:
@@ -124,7 +123,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

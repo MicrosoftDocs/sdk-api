@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 3123362E-6A1C-49BD-BE9C-0B8506EA944B
 ms.date: 12/05/2018
 ms.keywords: GetOSUpdateAssessment, GetOSUpdateAssessment method, GetOSUpdateAssessment method,IWaaSAssessor interface, IWaaSAssessor interface,GetOSUpdateAssessment method, IWaaSAssessor.GetOSUpdateAssessment, IWaaSAssessor::GetOSUpdateAssessment, base.iwaasassessor_getosupdateassessment, waasapi/IWaaSAssessor::GetOSUpdateAssessment
-ms.topic: method
 f1_keywords:
 - waasapi/IWaaSAssessor.GetOSUpdateAssessment
 dev_langs:

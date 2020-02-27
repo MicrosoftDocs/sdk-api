@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10geometryshader.htm
 ms.date: 12/05/2018
 ms.keywords: 0dcf2957-f913-22f8-e1fe-0085a1e9dce8, ID3D10GeometryShader, ID3D10GeometryShader interface [Direct3D 10], ID3D10GeometryShader interface [Direct3D 10],described, d3d10/ID3D10GeometryShader, direct3d10.id3d10geometryshader
-ms.topic: interface
 f1_keywords:
 - d3d10/ID3D10GeometryShader
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 1af518a7-02db-438a-ba3f-723bd8422188
 ms.date: 12/05/2018
 ms.keywords: RpcIfIdVectorFree, RpcIfIdVectorFree function [RPC], _rpc_rpcifidvectorfree, rpc.rpcifidvectorfree, rpcdce/RpcIfIdVectorFree
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcIfIdVectorFree
 dev_langs:

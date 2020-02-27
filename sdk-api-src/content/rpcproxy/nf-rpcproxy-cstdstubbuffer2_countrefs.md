@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 871484FD-D51C-4F6E-8A44-5ABDD86E7BB6
 ms.date: 12/05/2018
 ms.keywords: CStdStubBuffer2_CountRefs, CStdStubBuffer2_CountRefs function [RPC], rpc.cstdstubbuffer2_countrefs, rpcproxy/CStdStubBuffer2_CountRefs
-ms.topic: function
 f1_keywords:
 - rpcproxy/CStdStubBuffer2_CountRefs
 dev_langs:

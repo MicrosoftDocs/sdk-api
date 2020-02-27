@@ -1,9 +1,10 @@
 ---
 UID: NA:dmoreg
+title: Dmoreg.h header
 ms.assetid: dee28265-f344-39f6-b05e-56792408e803
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: dshow
 archived: true
 ---

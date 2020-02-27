@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 2d28bfc7-82d4-4c74-bac9-f9ef9111279f
 ms.date: 12/05/2018
 ms.keywords: IFsrmMutableCollection interface [File Server Resource Manager],Remove method, IFsrmMutableCollection.Remove, IFsrmMutableCollection::Remove, Remove, Remove method [File Server Resource Manager], Remove method [File Server Resource Manager],IFsrmMutableCollection interface, fs.ifsrmmutablecollection_remove, fsrm.ifsrmmutablecollection_remove, fsrm/IFsrmMutableCollection::Remove
-ms.topic: method
 f1_keywords:
 - fsrm/IFsrmMutableCollection.Remove
 dev_langs:

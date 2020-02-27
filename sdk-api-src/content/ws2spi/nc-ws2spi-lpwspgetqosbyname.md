@@ -4,7 +4,6 @@ title: LPWSPGETQOSBYNAME
 description: The LPWSPGetQOSByName function initializes a QOS structure based on a named template, or retrieves an enumeration of the available template names.
 ms.date: 4/26/2019
 ms.keywords: LPWSPGETQOSBYNAME
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -64,7 +63,7 @@ If the function succeeds, the return value is **TRUE**. If the function fails, t
 <tr>
 <td width="40%">
 <dl>                                      
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETDOWN">WSAENETDOWN</a></b></dl>
+<dt><b><a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETDOWN">WSAENETDOWN</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -75,7 +74,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>                                      
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></b></dl>
+<dt><b><a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -86,7 +85,7 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>                                      
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEFAULT">WSAENOTSOCK</a></b></dl>
+<dt><b><a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAEFAULT">WSAENOTSOCK</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -97,7 +96,7 @@ The <i>lpQOS</i> argument is not a valid part of the user address space, or the 
 <tr>
 <td width="40%">
 <dl>                                      
-<dt><b><a href="https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINVAL">WSAEINVAL</a></b></dl>
+<dt><b><a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINVAL">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -115,6 +114,6 @@ Alternatively, the client may use **LPWSPGetQOSByName** to retrieve an enumerati
 ## -see-also
 **[LPWSPAccept](nc-ws2spi-lpwspaccept.md)**
 
-<b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b>
+<b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b>
 
-<b><a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockopt">LPWSPGetSockopt</a></b>
+<b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockopt">LPWSPGetSockopt</a></b>

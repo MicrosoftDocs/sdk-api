@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: e1f1d68b-16c2-4d97-ae5f-091e5ec285c2
 ms.date: 12/05/2018
 ms.keywords: 702ec977-2d87-4d52-916e-423f1df03829, IInkStrokes interface [Tablet PC],ToString method, IInkStrokes.ToString, IInkStrokes::ToString, ToString, ToString method [Tablet PC], ToString method [Tablet PC],IInkStrokes interface, msinkaut/IInkStrokes::ToString, tablet.inkstrokes_tostring
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkStrokes.ToString
 dev_langs:

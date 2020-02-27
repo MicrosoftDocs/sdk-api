@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 36226881-3fe7-4510-b147-7ee30146482c
 ms.date: 12/05/2018
 ms.keywords: WsOpenListener, WsOpenListener function [Web Services for Windows], webservices/WsOpenListener, wsw.wsopenlistener
-ms.topic: function
 f1_keywords:
 - webservices/WsOpenListener
 dev_langs:

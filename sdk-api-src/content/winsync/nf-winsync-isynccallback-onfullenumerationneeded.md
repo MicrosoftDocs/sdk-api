@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: f52ddaf2-9ce2-4ebb-bace-024c059b2594
 ms.date: 12/05/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnFullEnumerationNeeded method, ISyncCallback.OnFullEnumerationNeeded, ISyncCallback::OnFullEnumerationNeeded, OnFullEnumerationNeeded, OnFullEnumerationNeeded method [Windows Sync], OnFullEnumerationNeeded method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onfullenumerationneeded, winsync/ISyncCallback::OnFullEnumerationNeeded
-ms.topic: method
 f1_keywords:
 - winsync/ISyncCallback.OnFullEnumerationNeeded
 dev_langs:

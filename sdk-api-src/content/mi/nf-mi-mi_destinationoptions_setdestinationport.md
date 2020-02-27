@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 4359eb04-aaf7-490f-ab60-b42182b53611
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_SetDestinationPort, MI_DestinationOptions_SetDestinationPort function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetDestinationPort, wmi_v2.mi_destinationoptions_setdestinationport
-ms.topic: function
 f1_keywords:
 - mi/MI_DestinationOptions_SetDestinationPort
 dev_langs:

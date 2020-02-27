@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 6e9b7e30-eae9-476b-89bd-a794e08ba468
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFace interface [Direct Write],ReleaseFontTable method, IDWriteFontFace.ReleaseFontTable, IDWriteFontFace::ReleaseFontTable, ReleaseFontTable, ReleaseFontTable method [Direct Write], ReleaseFontTable method [Direct Write],IDWriteFontFace interface, directwrite.IDWriteFontFace_ReleaseFontTable, dwrite/IDWriteFontFace::ReleaseFontTable
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteFontFace.ReleaseFontTable
 dev_langs:

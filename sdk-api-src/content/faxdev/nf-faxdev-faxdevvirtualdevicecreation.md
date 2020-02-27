@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_48by.htm
 ms.date: 12/05/2018
 ms.keywords: FaxDevVirtualDeviceCreation, FaxDevVirtualDeviceCreation function [Fax Service], _mfax_faxdevvirtualdevicecreation, fax._mfax_faxdevvirtualdevicecreation, faxdev/FaxDevVirtualDeviceCreation
-ms.topic: function
 f1_keywords:
 - faxdev/FaxDevVirtualDeviceCreation
 dev_langs:

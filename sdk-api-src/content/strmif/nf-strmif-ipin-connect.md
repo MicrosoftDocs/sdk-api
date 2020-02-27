@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1b02ee67-5dc5-44c1-bea5-2eab46ebd0f6
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [DirectShow], Connect method [DirectShow],IPin interface, IPin interface [DirectShow],Connect method, IPin.Connect, IPin::Connect, IPinConnect, dshow.ipin_connect, strmif/IPin::Connect
-ms.topic: method
 f1_keywords:
 - strmif/IPin.Connect
 dev_langs:
@@ -71,7 +70,7 @@ Pointer to the receiving pin's <a href="https://docs.microsoft.com/windows/deskt
 
 ### -param pmt [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type for the connection. Can be <b>NULL</b>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type for the connection. Can be <b>NULL</b>.
 
 
 ## -returns

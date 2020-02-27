@@ -7,7 +7,6 @@ tech.root: AllJoyn
 ms.assetid: 5E11BCDC-319C-4C53-914E-73B2FEC4747E
 ms.date: 12/05/2018
 ms.keywords: AllJoynReceiveFromBus, AllJoynReceiveFromBus function [AllJoyn API], alljoyn.alljoynreceivefrombus, msajtransport/AllJoynReceiveFromBus
-ms.topic: function
 f1_keywords:
 - msajtransport/AllJoynReceiveFromBus
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 47138077-125e-4da9-b0de-e437a9b1733d
 ms.date: 12/05/2018
 ms.keywords: EngGetLastError, EngGetLastError function [Display Devices], display.enggetlasterror, gdifncs_19c92fa6-2204-40e7-adc5-22a85b9ba0d5.xml, winddi/EngGetLastError
-ms.topic: function
 f1_keywords:
 - winddi/EngGetLastError
 dev_langs:

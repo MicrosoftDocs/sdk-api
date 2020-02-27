@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: df8b1eae-1138-4e55-af6e-17c6105ca9c1
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [ADSI], GetObject method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],GetObject method, IADsContainer.GetObject, IADsContainer::GetObject, _ds_iadscontainer_getobject, adsi.iadscontainer__getobject, adsi.iadscontainer_getobject, iads/IADsContainer::GetObject
-ms.topic: method
 f1_keywords:
 - iads/IADsContainer.GetObject
 dev_langs:
@@ -89,7 +88,7 @@ This method supports standard return values, including S_OK for a successful ope
 
 For the LDAP provider, the <i>bstrRelativeName</i> parameter must contain the name prefix, such as "CN=Jeff Smith". The <i>bstrRelativeName</i> parameter can also contain more than one level of name, such as "CN=Jeff Smith,OU=Sales".
 
-In C++, when <b>GetObject</b> has succeeded, the caller must query the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface for the desired interface using the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method.
+In C++, when <b>GetObject</b> has succeeded, the caller must query the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface for the desired interface using the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method.
 
 The <i>bstrClassName</i> parameter can be either a valid class name or <b>NULL</b>. If the class name is not valid, including when it contains a blank space, this method will throw an <a href="https://docs.microsoft.com/windows/desktop/ADSI/generic-adsi-error-codes">E_ADS_UNKNOWN_OBJECT</a> error.
 

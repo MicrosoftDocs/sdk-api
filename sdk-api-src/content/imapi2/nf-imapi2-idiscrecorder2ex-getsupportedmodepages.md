@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 343d976e-97f3-4231-a417-4ebe7967f99c
 ms.date: 12/05/2018
 ms.keywords: GetSupportedModePages, GetSupportedModePages method [IMAPI], GetSupportedModePages method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetSupportedModePages method, IDiscRecorder2Ex.GetSupportedModePages, IDiscRecorder2Ex::GetSupportedModePages, imapi.idiscrecorder2ex_getsupportedmodepages, imapi2/IDiscRecorder2Ex::GetSupportedModePages
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscRecorder2Ex.GetSupportedModePages
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_29lx.htm
 ms.date: 12/05/2018
 ms.keywords: DBCOMMANDTREE, DBCOMMANDTREE structure [Indexing Service], _idxs_DBCOMMANDTREE, cmdtree/, indexsrv.dbcommandtree, tagDBCOMMANDTREE
-ms.topic: struct
 f1_keywords:
 - cmdtree/DBCOMMANDTREE
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 The <b>DBCOMMANDTREE</b> structure is the primary data structure used to represent any node in an OLE DB command tree, as described in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/data-manipulation-operators">Data Manipulation Operators</a> and Data Definition Operators section of this reference. This structure is used for each data manipulation language (DML) or data definition language (DDL) node in an OLE DB command tree. 
 

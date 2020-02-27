@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: ec47a351-c693-4e71-bf23-c31110ca90a1
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineclose, lineClose, lineClose function [TAPI 2.2], tapi/lineClose, tapi2.lineclose
-ms.topic: function
 f1_keywords:
 - tapi/lineClose
 dev_langs:

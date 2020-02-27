@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: bc6b3a61-18f6-4c7a-b6cb-a3f2dc4f6a36
 ms.date: 12/05/2018
 ms.keywords: EngDeleteWnd, EngDeleteWnd function [Display Devices], display.engdeletewnd, gdifncs_7a608897-cca5-45c9-94ea-afa7d3f6ed6a.xml, winddi/EngDeleteWnd
-ms.topic: function
 f1_keywords:
 - winddi/EngDeleteWnd
 dev_langs:

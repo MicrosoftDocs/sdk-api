@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: 24f2041c-0a8c-4f2c-8585-ebbb0cad394f
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_TCP6ROW_OWNER_MODULE, MIB_TCP6ROW_OWNER_MODULE, MIB_TCP6ROW_OWNER_MODULE structure [MIB], MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCP6ROW_OWNER_MODULE, PMIB_TCP6ROW_OWNER_MODULE structure pointer [MIB], iprtrmib/MIB_TCP6ROW_OWNER_MODULE, iprtrmib/PMIB_TCP6ROW_OWNER_MODULE, mib.mib_tcp6row_owner_module, tcpmib/MIB_TCP6ROW_OWNER_MODULE, tcpmib/PMIB_TCP6ROW_OWNER_MODULE'
-ms.topic: struct
 f1_keywords:
 - tcpmib/MIB_TCP6ROW_OWNER_MODULE
 dev_langs:
@@ -298,7 +297,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib
   TIME-WAIT, and the fictional state CLOSED.  The CLOSED state is fictional
   because it represents the state when there is no Transmission Control Block, and therefore,
   no connection.  The TCP protocol is described in RFC 793. For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84069">http://www.ietf.org/rfc/rfc793.txt</a>. 
+<a href="https://www.ietf.org/rfc/rfc793.txt">http://www.ietf.org/rfc/rfc793.txt</a>. 
 
 The <b>ucLocalAddr</b> and <b>ucRemoteAddr</b> members are stored in  a character array in network byte order. The <a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv6addresstostringa">RtlIpv6AddressToString</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv6addresstostringexw">RtlIpv6AddressToStringEx</a> functions may be used to convert the IPv6 address in the <b>ucLocalAddr</b> or <b>ucRemoteAddr</b> members to a string without loading the Windows Sockets DLL. 
 

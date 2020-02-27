@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 9da7bb55-bf9f-4579-ae8e-b33ce5461950
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriterCallback interface [Media Foundation],OnFinalize method, IMFSinkWriterCallback.OnFinalize, IMFSinkWriterCallback::OnFinalize, OnFinalize, OnFinalize method [Media Foundation], OnFinalize method [Media Foundation],IMFSinkWriterCallback interface, mf.imfsinkwritercallback_onfinalize, mfreadwrite/IMFSinkWriterCallback::OnFinalize
-ms.topic: method
 f1_keywords:
 - mfreadwrite/IMFSinkWriterCallback.OnFinalize
 dev_langs:

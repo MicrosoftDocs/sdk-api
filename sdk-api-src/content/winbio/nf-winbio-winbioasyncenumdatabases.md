@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 405AB590-B579-4B61-9CE7-BF21D9E56600
 ms.date: 12/05/2018
 ms.keywords: WinBioAsyncEnumDatabases, WinBioAsyncEnumDatabases function [Windows Biometric Framework API], secbiomet.winbioasyncenumdatabases, winbio/WinBioAsyncEnumDatabases
-ms.topic: function
 f1_keywords:
 - winbio/WinBioAsyncEnumDatabases
 dev_langs:

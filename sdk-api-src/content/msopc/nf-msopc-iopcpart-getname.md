@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 83fed005-c061-4f1d-8b2b-73397e0b7a92
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Open Packaging Conventions], GetName method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetName method, IOpcPart.GetName, IOpcPart::GetName, msopc/IOpcPart::GetName, opc.iopcpart_getname
-ms.topic: method
 f1_keywords:
 - msopc/IOpcPart.GetName
 dev_langs:
@@ -125,7 +124,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
 
 

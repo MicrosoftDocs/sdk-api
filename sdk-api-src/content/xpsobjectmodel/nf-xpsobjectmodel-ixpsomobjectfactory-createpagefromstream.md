@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: daeafc73-33b0-4c88-b92d-da4ca42b19a9
 ms.date: 12/05/2018
 ms.keywords: CreatePageFromStream, CreatePageFromStream method [XPS Documents and Packaging], CreatePageFromStream method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePageFromStream method, IXpsOMObjectFactory.CreatePageFromStream, IXpsOMObjectFactory::CreatePageFromStream, TRUE, xps.ixpsomobjectfactory_createpagefromstream, xpsobjectmodel/IXpsOMObjectFactory::CreatePageFromStream
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreatePageFromStream
 dev_langs:
@@ -197,7 +196,7 @@ This method does not validate the contents of any stream-based resources that it
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 246f8b2b-8748-453d-b2b6-16771c0aad36
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phonegethookswitch, phoneGetHookSwitch, phoneGetHookSwitch function [TAPI 2.2], tapi/phoneGetHookSwitch, tapi2.phonegethookswitch
-ms.topic: function
 f1_keywords:
 - tapi/phoneGetHookSwitch
 dev_langs:

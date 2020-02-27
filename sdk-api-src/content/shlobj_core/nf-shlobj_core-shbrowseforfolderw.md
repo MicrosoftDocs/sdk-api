@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2cf3a6d2-d3f7-423d-80b1-f530b268190c
 ms.date: 12/05/2018
 ms.keywords: SHBrowseForFolder, SHBrowseForFolder function [Windows Shell], SHBrowseForFolderA, SHBrowseForFolderW, _win32_SHBrowseForFolder, shell.SHBrowseForFolder, shlobj_core/SHBrowseForFolder, shlobj_core/SHBrowseForFolderA, shlobj_core/SHBrowseForFolderW
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHBrowseForFolder
 dev_langs:
@@ -111,7 +110,7 @@ As of Windows XP, <b>SHBrowseForFolder</b> supports custom filtering on the con
 <ol>
 <li>Set the BIF_NEWDIALOGSTYLE flag in the <b>ulFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-browseinfoa">BROWSEINFO</a> structure pointed to by the <i>lpbi</i> parameter.</li>
 <li>Specify a callback function in the <b>lpfn</b> member of that same <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-browseinfoa">BROWSEINFO</a> structure.</li>
-<li>Code the callback function to receive the BFFM_INITIALIZED and BFFM_IUNKNOWN messages. On receipt of the BFFM_IUNKNOWN message, the callback function's <i>lParam</i> parameter contains a pointer to the dialog box's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. Call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on that <b>IUnknown</b> to obtain a pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfiltersite">IFolderFilterSite</a>.</li>
+<li>Code the callback function to receive the BFFM_INITIALIZED and BFFM_IUNKNOWN messages. On receipt of the BFFM_IUNKNOWN message, the callback function's <i>lParam</i> parameter contains a pointer to the dialog box's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. Call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on that <b>IUnknown</b> to obtain a pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfiltersite">IFolderFilterSite</a>.</li>
 <li>Create an object that implements <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfilter">IFolderFilter</a>.</li>
 <li>Call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderfiltersite-setfilter">IFolderFilterSite::SetFilter</a>, passing to it a pointer to your <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfilter">IFolderFilter</a>. <b>IFolderFilter</b> methods can then be used to include and exclude items from the tree.</li>
 <li>Once the filter is created, the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfiltersite">IFolderFilterSite</a> interface is no longer needed. Call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IFolderFilterSite::Release</a> if you have no further use for it.</li>

@@ -1,9 +1,10 @@
 ---
 UID: TP:mstv
+title: Microsoft TV Technologies
 ms.assetid: c2a5b070-2d31-379e-bb1b-8084848a387c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 archived: true
 ---
 

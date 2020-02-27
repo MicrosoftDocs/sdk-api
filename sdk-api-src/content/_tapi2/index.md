@@ -1,9 +1,10 @@
 ---
 UID: TP:tapi2
+title: TAPI 2.2
 ms.assetid: d4383253-bb9f-3e50-9472-7eb4b1e25b60
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # TAPI 2.2

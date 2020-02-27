@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 96e5d8f3-b658-408d-a615-e681d8731442
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_FrequencyDivider method, IMpegAudioDecoder.put_FrequencyDivider, IMpegAudioDecoder::put_FrequencyDivider, IMpegAudioDecoderputFrequencyDivider, dshow.impegaudiodecoder_put_frequencydivider, mpegtype/IMpegAudioDecoder::put_FrequencyDivider, put_FrequencyDivider, put_FrequencyDivider method [DirectShow], put_FrequencyDivider method [DirectShow],IMpegAudioDecoder interface
-ms.topic: method
 f1_keywords:
 - mpegtype/IMpegAudioDecoder.put_FrequencyDivider
 dev_langs:

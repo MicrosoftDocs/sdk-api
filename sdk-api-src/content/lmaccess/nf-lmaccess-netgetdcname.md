@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 3e32aacc-088e-455a-bc1b-92274e98d2e5
 ms.date: 12/05/2018
 ms.keywords: NetGetDCName, NetGetDCName function [Network Management], _win32_netgetdcname, lmaccess/NetGetDCName, netmgmt.netgetdcname
-ms.topic: function
 f1_keywords:
 - lmaccess/NetGetDCName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: d184f39d-561f-40aa-99d4-b80e4d0a1aaf
 ms.date: 12/05/2018
 ms.keywords: INetFwProfile interface [ICS/ICF],NotificationsDisabled property, INetFwProfile.NotificationsDisabled, INetFwProfile.put_NotificationsDisabled, INetFwProfile::NotificationsDisabled, INetFwProfile::get_NotificationsDisabled, INetFwProfile::put_NotificationsDisabled, NotificationsDisabled property [ICS/ICF], NotificationsDisabled property [ICS/ICF],INetFwProfile interface, ics.inetfwprofile_notificationsdisabled, netfw/INetFwProfile::NotificationsDisabled, netfw/INetFwProfile::get_NotificationsDisabled, netfw/INetFwProfile::put_NotificationsDisabled, put_NotificationsDisabled
-ms.topic: method
 f1_keywords:
 - netfw/INetFwProfile.NotificationsDisabled
 dev_langs:

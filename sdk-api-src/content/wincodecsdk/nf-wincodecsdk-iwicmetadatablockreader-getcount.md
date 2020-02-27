@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 212e2376-9fad-4bfc-8883-ce89d05c35e6
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Imaging Component], GetCount method [Windows Imaging Component],IWICMetadataBlockReader interface, IWICMetadataBlockReader interface [Windows Imaging Component],GetCount method, IWICMetadataBlockReader.GetCount, IWICMetadataBlockReader::GetCount, _wic_codec_iwicmetadatablockreader_getcount, wic._wic_codec_iwicmetadatablockreader_getcount, wincodecsdk/IWICMetadataBlockReader::GetCount
-ms.topic: method
 f1_keywords:
 - wincodecsdk/IWICMetadataBlockReader.GetCount
 dev_langs:

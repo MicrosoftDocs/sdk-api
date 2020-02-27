@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: F03FC0C8-D589-4C3C-A6C1-AD631839ED26
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServicePolicy2, IWdsTransportServicePolicy2 interface [Windows Deployment Services], IWdsTransportServicePolicy2 interface [Windows Deployment Services],described, wds.iwdstransportservicepolicy2, wdstptmgmt/IWdsTransportServicePolicy2
-ms.topic: interface
 f1_keywords:
 - wdstptmgmt/IWdsTransportServicePolicy2
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 This interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportservicepolicy">IWdsTransportServicePolicy</a> interface and extends it beginning with Windows Server 2012. 
 
-A client application can obtain an interface pointer to an instance of the <b>IWdsTransportServicePolicy2</b> interface by first getting an interface pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportservicepolicy">IWdsTransportServicePolicy</a> interface  and then using the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface Method</a>. 
+A client application can obtain an interface pointer to an instance of the <b>IWdsTransportServicePolicy2</b> interface by first getting an interface pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportservicepolicy">IWdsTransportServicePolicy</a> interface  and then using the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface Method</a>. 
 
 
 ## -see-also

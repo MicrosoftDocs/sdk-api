@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5abc4944-1fd7-400a-817d-b58a7f4989ea
 ms.date: 12/05/2018
 ms.keywords: GetRedirectionCapabilities, GetRedirectionCapabilities method [Windows Shell], GetRedirectionCapabilities method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetRedirectionCapabilities method, IKnownFolder.GetRedirectionCapabilities, IKnownFolder::GetRedirectionCapabilities, _shell_IKnownFolder_GetRedirectionCapabilities, shell.IKnownFolder_GetRedirectionCapabilities, shobjidl_core/IKnownFolder::GetRedirectionCapabilities
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IKnownFolder.GetRedirectionCapabilities
 dev_langs:

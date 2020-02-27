@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 1acbae32-8fa6-4c1e-95f6-30aca483c966
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge2, ISyncKnowledge2 interface [Windows Sync], ISyncKnowledge2 interface [Windows Sync],described, winsync.isyncknowledge2, winsync/ISyncKnowledge2
-ms.topic: interface
 f1_keywords:
 - winsync/ISyncKnowledge2
 dev_langs:

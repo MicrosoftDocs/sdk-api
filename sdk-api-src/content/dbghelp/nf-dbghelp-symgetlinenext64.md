@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 82adafc3-1080-43bc-b343-eaf59bdef6cb
 ms.date: 12/05/2018
 ms.keywords: SymGetLineNext, SymGetLineNext function, SymGetLineNext64, SymGetLineNext64 function, SymGetLineNextW64, _win32_symgetlinenext64, base.symgetlinenext64, dbghelp/SymGetLineNext, dbghelp/SymGetLineNext64, dbghelp/SymGetLineNextW64
-ms.topic: function
 f1_keywords:
 - dbghelp/SymGetLineNext64
 dev_langs:

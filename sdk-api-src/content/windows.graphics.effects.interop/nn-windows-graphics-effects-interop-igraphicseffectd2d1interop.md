@@ -7,7 +7,6 @@ tech.root: w_graph_fx
 ms.assetid: 0D576593-088B-403A-82AD-B7A89777766A
 ms.date: 12/05/2018
 ms.keywords: IGraphicsEffectD2D1Interop, IGraphicsEffectD2D1Interop interface, IGraphicsEffectD2D1Interop interface,described, w_graph_fx.igraphicseffectd2d1interop, windows/IGraphicsEffectD2D1Interop
-ms.topic: interface
 f1_keywords:
 - windows.graphics.effects.interop/IGraphicsEffectD2D1Interop
 dev_langs:

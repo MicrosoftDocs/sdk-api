@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: f2bf98b2-a4f7-4b63-b9ae-b2534415cb4b
 ms.date: 12/05/2018
 ms.keywords: CloseGestureInfoHandle, CloseGestureInfoHandle function [Windows Touch], wintouch.closegestureinfohandle, winuser/CloseGestureInfoHandle
-ms.topic: function
 f1_keywords:
 - winuser/CloseGestureInfoHandle
 dev_langs:
@@ -92,7 +91,7 @@ If an application processes a <a href="https://docs.microsoft.com/windows/deskto
    process memory leaks.
   
 
-If the message is passed to <a href="http://go.microsoft.com/fwlink/p/?linkid=136637">DefWindowProc</a>, or is forwarded using
+If the message is passed to <a href="https://msdn.microsoft.com/library/ms633572.aspx">DefWindowProc</a>, or is forwarded using
    one of the PostMessage or SendMessage classes of API functions, the handle
    is transferred with the message and need not be closed by the application.
   

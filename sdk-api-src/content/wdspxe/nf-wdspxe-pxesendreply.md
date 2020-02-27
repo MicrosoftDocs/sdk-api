@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: b4809f0b-b8a5-45d1-b6ef-8f812379e706
 ms.date: 12/05/2018
 ms.keywords: PxeSendReply, PxeSendReply function [Windows Deployment Services], wds.pxesendreply, wdspxe/PxeSendReply
-ms.topic: function
 f1_keywords:
 - wdspxe/PxeSendReply
 dev_langs:

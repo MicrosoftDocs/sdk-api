@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: DAE4705C-B786-44D4-8B03-1523EFC4C190
 ms.date: 12/05/2018
 ms.keywords: IInputPaneInterop, IInputPaneInterop interface [Windows Runtime], IInputPaneInterop interface [Windows Runtime],described, inputpaneinterop/IInputPaneInterop, winrt.iinputpaneinterop
-ms.topic: interface
 f1_keywords:
 - inputpaneinterop/IInputPaneInterop
 dev_langs:
@@ -111,13 +110,13 @@ Gets the trust level of the current Windows Runtime object.
 
 
 
-You can obtain an instance of the <b>IInputPaneInterop</b> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method on the activation factory instance for the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> class.
+You can obtain an instance of the <b>IInputPaneInterop</b> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method on the activation factory instance for the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> class.
 
  
 
 
 
-For an example that uses the <b>IInputPaneInterop</b> interface, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=837837">touch keyboard notification WPF sample</a>.
+For an example that uses the <b>IInputPaneInterop</b> interface, see the <a href="https://github.com/Microsoft/WPF-Samples/tree/master/Input and Commands/TouchKeyboard/TouchKeyboardNotifier">touch keyboard notification WPF sample</a>.
 
 The following example shows the definition of the IInputPaneInterop interface.
 

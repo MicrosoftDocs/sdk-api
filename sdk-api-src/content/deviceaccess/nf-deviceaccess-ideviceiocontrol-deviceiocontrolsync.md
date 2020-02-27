@@ -7,7 +7,6 @@ tech.root: deviceaccess
 ms.assetid: 7b17ab14-e9bb-40be-a463-ca9031ba9bb3
 ms.date: 12/05/2018
 ms.keywords: DeviceIoControlSync, DeviceIoControlSync method [Device Access Broker API], DeviceIoControlSync method [Device Access Broker API],IDeviceIoControl interface, IDeviceIoControl interface [Device Access Broker API],DeviceIoControlSync method, IDeviceIoControl.DeviceIoControlSync, IDeviceIoControl::DeviceIoControlSync, deviceaccess.ideviceiocontrol_deviceiocontrolsync, deviceaccess/IDeviceIoControl::DeviceIoControlSync
-ms.topic: method
 f1_keywords:
 - deviceaccess/IDeviceIoControl.DeviceIoControlSync
 dev_langs:

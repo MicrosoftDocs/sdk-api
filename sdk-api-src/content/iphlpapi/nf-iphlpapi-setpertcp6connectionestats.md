@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 89ace750-ec32-46cb-8526-233f847ba9f4
 ms.date: 12/05/2018
 ms.keywords: SetPerTcp6ConnectionEStats, SetPerTcp6ConnectionEStats function [IP Helper], TcpConnectionEstatsBandwidth, TcpConnectionEstatsData, TcpConnectionEstatsFineRtt, TcpConnectionEstatsObsRec, TcpConnectionEstatsPath, TcpConnectionEstatsRec, TcpConnectionEstatsSendBuff, TcpConnectionEstatsSndCong, iphlp.setpertcp6connectionestats, iphlpapi/SetPerTcp6ConnectionEStats
-ms.topic: function
 f1_keywords:
 - iphlpapi/SetPerTcp6ConnectionEStats
 dev_langs:

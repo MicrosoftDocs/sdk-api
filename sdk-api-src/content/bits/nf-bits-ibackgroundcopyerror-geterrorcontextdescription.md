@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 87f5ae62-c171-4637-bebb-3a5c5aa546b3
 ms.date: 12/05/2018
 ms.keywords: GetErrorContextDescription, GetErrorContextDescription method [BITS], GetErrorContextDescription method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetErrorContextDescription method, IBackgroundCopyError.GetErrorContextDescription, IBackgroundCopyError::GetErrorContextDescription, _drz_ibackgroundcopyerror_geterrorcontextdescription, bits.ibackgroundcopyerror_geterrorcontextdescription, bits/IBackgroundCopyError::GetErrorContextDescription
-ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyError.GetErrorContextDescription
 dev_langs:
@@ -61,7 +60,7 @@ Retrieves the description of the context in which the error occurred.
 ### -param LanguageId [in]
 
 Identifies the locale to use to generate the description. To create the language identifier, use the 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=166156">MAKELANGID</a> macro. For example, to specify U.S. English, use the following code sample. 
+<a href="https://msdn.microsoft.com/library/dd373908.aspx">MAKELANGID</a> macro. For example, to specify U.S. English, use the following code sample. 
 
 
 
@@ -76,7 +75,7 @@ To retrieve the system's default user language identifier, use the following cal
 ### -param pContextDescription [out]
 
 Null-terminated string that contains the description of the context in which the error occurred. Call the 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=154376">CoTaskMemFree</a> function to free <i>ppContextDescription</i> when done.
+<a href="https://msdn.microsoft.com/library/ms680722(VS.85).aspx">CoTaskMemFree</a> function to free <i>ppContextDescription</i> when done.
 
 
 ## -returns

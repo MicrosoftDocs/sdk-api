@@ -1,9 +1,10 @@
 ---
 UID: NA:wmnetsourcecreator
+title: Wmnetsourcecreator.h header
 ms.assetid: eb14f58a-2cb1-3a1a-aaa5-fc2ef1eb4bc0
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: wmformat
 archived: true
 ---

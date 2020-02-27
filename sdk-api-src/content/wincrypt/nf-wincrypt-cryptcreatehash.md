@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 05e3db57-8d83-48e2-8590-68039ea27253
 ms.date: 12/05/2018
 ms.keywords: CRYPT_SECRETDIGEST, CryptCreateHash, CryptCreateHash function [Security], _crypto2_cryptcreatehash, security.cryptcreatehash, wincrypt/CryptCreateHash
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptCreateHash
 dev_langs:

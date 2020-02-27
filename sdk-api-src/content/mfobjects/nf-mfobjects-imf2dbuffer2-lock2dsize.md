@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 84885FEF-7F6D-4BE3-BF63-F9EC0C7E2D88
 ms.date: 12/05/2018
 ms.keywords: IMF2DBuffer2 interface [Media Foundation],Lock2DSize method, IMF2DBuffer2.Lock2DSize, IMF2DBuffer2::Lock2DSize, Lock2DSize, Lock2DSize method [Media Foundation], Lock2DSize method [Media Foundation],IMF2DBuffer2 interface, mf.imf2dbuffer2_lock2dsize, mfobjects/IMF2DBuffer2::Lock2DSize
-ms.topic: method
 f1_keywords:
 - mfobjects/IMF2DBuffer2.Lock2DSize
 dev_langs:

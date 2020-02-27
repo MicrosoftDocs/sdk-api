@@ -1,9 +1,10 @@
 ---
 UID: TP:controls
+title: Windows Controls
 ms.assetid: 8fd04b8c-ce59-322c-a20f-91a83d03f80a
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Windows Controls

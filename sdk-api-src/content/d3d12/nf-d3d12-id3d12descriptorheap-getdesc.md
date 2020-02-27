@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: DDDDA9AB-841A-41A4-806C-82A596AFDB61
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12DescriptorHeap interface, ID3D12DescriptorHeap interface,GetDesc method, ID3D12DescriptorHeap.GetDesc, ID3D12DescriptorHeap::GetDesc, d3d12/ID3D12DescriptorHeap::GetDesc, direct3d12.id3d12descriptorheap_getdesc
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12DescriptorHeap.GetDesc
 dev_langs:

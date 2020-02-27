@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: e147b0c4-7d9f-4961-8bce-25dab716f7a2
 ms.date: 12/05/2018
 ms.keywords: ScriptCacheGetHeight, ScriptCacheGetHeight function [Internationalization for Windows Applications], _win32_ScriptCacheGetHeight, intl.scriptcachegetheight, usp10/ScriptCacheGetHeight
-ms.topic: function
 f1_keywords:
 - usp10/ScriptCacheGetHeight
 dev_langs:

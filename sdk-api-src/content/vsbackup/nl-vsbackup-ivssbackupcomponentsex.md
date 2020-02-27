@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: d3a265ab-39cc-4861-9191-9ecf094d8826
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx, IVssBackupComponentsEx interface [VSS], IVssBackupComponentsEx interface [VSS],described, base.ivssbackupcomponentsex, vsbackup/IVssBackupComponentsEx
-ms.topic: class
 f1_keywords:
 - vsbackup/IVssBackupComponentsEx
 dev_langs:
@@ -54,7 +53,7 @@ ms.custom: 19H1
 The <b>IVssBackupComponentsEx</b> interface provides methods for requesters to run backup and restore operations using multiple writer instances.
 
 To obtain an instance of the <b>IVssBackupComponentsEx</b> 
-   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of the 
+   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> interface, passing 
    <b>IID_IVssBackupComponentsEx</b> as the interface identifier (IID) parameter.
 

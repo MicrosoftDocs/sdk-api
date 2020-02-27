@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 92829da0-d9a3-4a91-a60f-6319163e899a
 ms.date: 12/05/2018
 ms.keywords: GetScopeVector, GetScopeVector method [Windows Sync], GetScopeVector method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetScopeVector method, ISyncKnowledge.GetScopeVector, ISyncKnowledge::GetScopeVector, winsync.isyncknowledge_getscopevector, winsync/ISyncKnowledge::GetScopeVector
-ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge.GetScopeVector
 dev_langs:

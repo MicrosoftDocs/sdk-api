@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 0f444d56-e660-48c3-a483-256138d49984
 ms.date: 12/05/2018
 ms.keywords: IEnumQueue interface [TAPI 2.2],Reset method, IEnumQueue.Reset, IEnumQueue::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumQueue interface, _tapi3_ienumqueue_reset, tapi3.ienumqueue_reset, tapi3cc/IEnumQueue::Reset
-ms.topic: method
 f1_keywords:
 - tapi3/IEnumQueue.Reset
 dev_langs:

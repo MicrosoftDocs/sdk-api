@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: fbcab0cf-ae1d-4f0b-a315-c1936e53c49f
 ms.date: 12/05/2018
 ms.keywords: MI_Real64A, MI_Real64A structure [Windows Management Infrastructure (MI)], mi/MI_Real64A, wmi._mi_real64a, wmi_v2.mi_real64a
-ms.topic: struct
 f1_keywords:
 - mi/MI_Real64A
 dev_langs:
@@ -72,7 +71,7 @@ The number of items in the array.
 
 
 
-This type cannot be a key. This differs from the DMTF CIM specification. For more information on keys, see <a href="http://go.microsoft.com/fwlink/p/?linkid=259738">http://go.microsoft.com/fwlink/p/?linkid=259738</a>.
+This type cannot be a key. This differs from the DMTF CIM specification. For more information on keys, see <a href="https://msdn.microsoft.com/library/windows/desktop/aa392157(v=vs.85).aspx">https://go.microsoft.com/fwlink/p/?linkid=259738</a>.
 
 
 

@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 4C495245-381F-4561-970D-5FCEC105276B
 ms.date: 12/05/2018
 ms.keywords: CallEnclave, CallEnclave function, base.callenclave, enclaveapi/CallEnclave
-ms.topic: function
 f1_keywords:
 - enclaveapi/CallEnclave
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f0db3976-9956-418f-8432-7755b140050f
 ms.date: 12/05/2018
 ms.keywords: SHUnicodeToAnsi, SHUnicodeToAnsi function [Windows Shell], _win32_SHUnicodeToAnsi, shell.SHUnicodeToAnsi, shlwapi/SHUnicodeToAnsi
-ms.topic: function
 f1_keywords:
 - shlwapi/SHUnicodeToAnsi
 dev_langs:

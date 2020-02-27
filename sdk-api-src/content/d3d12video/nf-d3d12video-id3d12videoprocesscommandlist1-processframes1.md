@@ -5,7 +5,6 @@ description: Records a video processing operation to the command list, operating
 tech.root: mf
 ms.assetid: a0310ab9-bf11-4a40-a463-6ad6cf7fd3eb
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoProcessCommandList1::ProcessFrames1
 dev_langs:
@@ -45,17 +44,17 @@ targetos: Windows
 
 ## -description
 
-Records a video processing operation to the command list, operating on one or more input samples and writing the result to an output surface. This version of the method supports changing the [D3D12_VIDEO_FIELD_TYPE](ne-d3d12video-d3d12_video_field_type) for each call, unlike [ID3D12VideoProcessCommandList::ProcessFrames](nf-d3d12video-id3d12videoprocesscommandlist-processframes).
+Records a video processing operation to the command list, operating on one or more input samples and writing the result to an output surface. This version of the method supports changing the [D3D12_VIDEO_FIELD_TYPE](ne-d3d12video-d3d12_video_field_type.md) for each call, unlike [ID3D12VideoProcessCommandList::ProcessFrames](nf-d3d12video-id3d12videoprocesscommandlist-processframes.md).
 
 ## -parameters
 
 ### -param pVideoProcessor
 
-A pointer to an [ID3D12VideoProcessor](nn-d3d12video-id3d12videoprocessor) interface representing a video processor instance. 
+A pointer to an [ID3D12VideoProcessor](nn-d3d12video-id3d12videoprocessor.md) interface representing a video processor instance. 
 
 ### -param pOutputArguments
 
-A [D3D12_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS](ns-d3d12video-d3d12_video_process_output_stream_arguments) structure specifying the output surface and output arguments.
+A [D3D12_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS](ns-d3d12video-d3d12_video_process_output_stream_arguments.md) structure specifying the output surface and output arguments.
 
 ### -param NumInputStreams
 
@@ -63,7 +62,7 @@ The count of input streams.
 
 ### -param pInputArguments
 
-A pointer to an array of [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1](ns-d3d12video-d3d12_video_process_input_stream_arguments1) structures specifying the input parameters.
+A pointer to an array of [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1](ns-d3d12video-d3d12_video_process_input_stream_arguments1.md) structures specifying the input parameters.
 
 ## -returns
 This method returns void.

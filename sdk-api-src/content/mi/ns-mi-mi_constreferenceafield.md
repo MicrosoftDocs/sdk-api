@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 5b46d53f-5dd4-4793-a2d6-316f9eb8782e
 ms.date: 12/05/2018
 ms.keywords: MI_ConstReferenceAField, MI_ConstReferenceAField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstReferenceAField, wmi._mi_constreferenceafield, wmi_v2.mi_constreferenceafield
-ms.topic: struct
 f1_keywords:
 - mi/MI_ConstReferenceAField
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9d2b1635-9b02-465a-a725-8b7985b651fb
 ms.date: 12/05/2018
 ms.keywords: BackwardScan, BackwardScan method [DirectShow], BackwardScan method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],BackwardScan method, IDvdControl.BackwardScan, IDvdControl::BackwardScan, IDvdControlBackwardScan, dshow.idvdcontrol_backwardscan, strmif/IDvdControl::BackwardScan
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.BackwardScan
 dev_langs:
@@ -81,7 +80,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, or DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, or DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

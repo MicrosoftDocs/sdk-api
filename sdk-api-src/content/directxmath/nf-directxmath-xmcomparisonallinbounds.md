@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMComparisonAllInBounds(uint32_t)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMComparisonAllInBounds, XMComparisonAllInBounds, XMComparisonAllInBounds method [DirectX Math Support APIs], dxmath.xmcomparisonallinbounds
-ms.topic: function
 f1_keywords:
 - directxmath/XMComparisonAllInBounds
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 0be0e945-4048-4748-a9fd-15d08fb7ff3e
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_Flags, PSecPkgContext_Flags, PSecPkgContext_Flags structure pointer [Security], SecPkgContext_Flags, SecPkgContext_Flags structure [Security], security.secpkgcontext_flags, sspi/PSecPkgContext_Flags, sspi/SecPkgContext_Flags'
-ms.topic: struct
 f1_keywords:
 - sspi/SecPkgContext_Flags
 dev_langs:

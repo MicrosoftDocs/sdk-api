@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 56107b71-a3f9-49af-9a90-df3585aed7c8
 ms.date: 12/05/2018
 ms.keywords: SymCleanup, SymCleanup function, _win32_symcleanup, base.symcleanup, dbghelp/SymCleanup
-ms.topic: function
 f1_keywords:
 - dbghelp/SymCleanup
 dev_langs:

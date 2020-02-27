@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: de07d7cf-db91-44e0-a0b2-4de26262552f
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgrEventSink interface [Text Services Framework],OnPopContext method, ITfThreadMgrEventSink.OnPopContext, ITfThreadMgrEventSink::OnPopContext, OnPopContext, OnPopContext method [Text Services Framework], OnPopContext method [Text Services Framework],ITfThreadMgrEventSink interface, _tsf_itfthreadmgreventsink_onpopcontext_ref, msctf/ITfThreadMgrEventSink::OnPopContext, tsf.itfthreadmgreventsink_onpopcontext
-ms.topic: method
 f1_keywords:
 - msctf/ITfThreadMgrEventSink.OnPopContext
 dev_langs:

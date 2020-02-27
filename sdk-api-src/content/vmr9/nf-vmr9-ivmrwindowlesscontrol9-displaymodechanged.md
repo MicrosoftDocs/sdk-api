@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ad023fa0-3540-4009-abdc-a1c980f906ec
 ms.date: 12/05/2018
 ms.keywords: DisplayModeChanged, DisplayModeChanged method [DirectShow], DisplayModeChanged method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],DisplayModeChanged method, IVMRWindowlessControl9.DisplayModeChanged, IVMRWindowlessControl9::DisplayModeChanged, IVMRWindowlessControl9DisplayModeChanged, dshow.ivmrwindowlesscontrol9_displaymodechanged, vmr9/IVMRWindowlessControl9::DisplayModeChanged
-ms.topic: method
 f1_keywords:
 - vmr9/IVMRWindowlessControl9.DisplayModeChanged
 dev_langs:

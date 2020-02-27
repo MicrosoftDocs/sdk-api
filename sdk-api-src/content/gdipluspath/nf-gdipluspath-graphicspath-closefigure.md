@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\closefigure.htm
 ms.date: 12/05/2018
 ms.keywords: CloseFigure, CloseFigure method [GDI+], CloseFigure method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],CloseFigure method, GraphicsPath.CloseFigure, GraphicsPath::CloseFigure, _gdiplus_CLASS_GraphicsPath_CloseFigure_, gdiplus._gdiplus_CLASS_GraphicsPath_CloseFigure_
-ms.topic: method
 f1_keywords:
 - gdipluspath/GraphicsPath.CloseFigure
 dev_langs:

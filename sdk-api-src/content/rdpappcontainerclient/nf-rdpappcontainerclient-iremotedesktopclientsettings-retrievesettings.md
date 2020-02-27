@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 5c28a172-42f3-4abd-9983-ee5acb1c9c78
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientSettings interface [Remote Desktop Services],RetrieveSettings method, IRemoteDesktopClientSettings.RetrieveSettings, IRemoteDesktopClientSettings::RetrieveSettings, RetrieveSettings, RetrieveSettings method [Remote Desktop Services], RetrieveSettings method [Remote Desktop Services],IRemoteDesktopClientSettings interface, rdpappcontainerclient/IRemoteDesktopClientSettings::RetrieveSettings, termserv.iremotedesktopclientsettings_retrievesettings
-ms.topic: method
 f1_keywords:
 - rdpappcontainerclient/IRemoteDesktopClientSettings.RetrieveSettings
 dev_langs:

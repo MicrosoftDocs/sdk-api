@@ -4,7 +4,6 @@ title: ID3D11VideoContext3::DecoderBeginFrame1
 description: Starts a decoding operation to decode a video frame.
 ms.date: 4/26/2019
 ms.keywords: ID3D11VideoContext3::DecoderBeginFrame1
-ms.topic: language-reference
 f1_keywords:
 - ID3D11VideoContext3::DecoderBeginFrame1
 dev_langs:
@@ -64,15 +63,15 @@ An optional pointer to a content key that was used to encrypt the frame data. If
 
 ### -param NumComponentHistograms
 
-The number of components to record a histograms for.  Use [D3D11_FEATURE_VIDEO_DECODE_HISTOGRAM](ne-d3d11_4-d3d11_feature_video) to check for support.  Use zero when not recording histograms or when the feature is not supported.  Specifying fewer components than are in the format implies that those components do not have histogram recording enabled. The maximum number of components is defined as **D3D11_4_VIDEO_DECODER_MAX_HISTOGRAM_COMPONENTS**.
+The number of components to record a histograms for.  Use [D3D11_FEATURE_VIDEO_DECODE_HISTOGRAM](ne-d3d11_4-d3d11_feature_video.md) to check for support.  Use zero when not recording histograms or when the feature is not supported.  Specifying fewer components than are in the format implies that those components do not have histogram recording enabled. The maximum number of components is defined as **D3D11_4_VIDEO_DECODER_MAX_HISTOGRAM_COMPONENTS**.
 
 ### -param pHistogramOffsets
 
-An array of starting buffer offset locations within the *ppHistogramBuffers* parallel array.  Use [D3D11_VIDEO_DECODE_HISTOGRAM_COMPONENT](ne-d3d11_4-d3d11_video_decoder_histogram_component) to index the array.  If a component is not requested, specify an offset of zero.   The offsets must be 256-byte aligned.  
+An array of starting buffer offset locations within the *ppHistogramBuffers* parallel array.  Use [D3D11_VIDEO_DECODE_HISTOGRAM_COMPONENT](ne-d3d11_4-d3d11_video_decoder_histogram_component.md) to index the array.  If a component is not requested, specify an offset of zero.   The offsets must be 256-byte aligned.  
 
 ### -param ppHistogramBuffers
 
-An array of target buffers for hardware to write the components histogram.  Use [D3D11_VIDEO_DECODE_HISTOGRAM_COMPONENT](ne-d3d11_4-d3d11_video_decoder_histogram_component) to index the array.  Set this parameter to **nullptr** when the component histogram is disabled or unsupported
+An array of target buffers for hardware to write the components histogram.  Use [D3D11_VIDEO_DECODE_HISTOGRAM_COMPONENT](ne-d3d11_4-d3d11_video_decoder_histogram_component.md) to index the array.  Set this parameter to **nullptr** when the component histogram is disabled or unsupported
 
 ## -returns
 

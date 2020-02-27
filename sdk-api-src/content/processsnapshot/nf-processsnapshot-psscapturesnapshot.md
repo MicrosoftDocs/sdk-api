@@ -7,7 +7,6 @@ tech.root: proc_snap
 ms.assetid: 44F2CB48-A9F6-4131-B21C-9F27A27CECD5
 ms.date: 12/05/2018
 ms.keywords: PssCaptureSnapshot, PssCaptureSnapshot function, proc_snap.psscapturesnapshot, processsnapshot/PssCaptureSnapshot
-ms.topic: function
 f1_keywords:
 - processsnapshot/PssCaptureSnapshot
 dev_langs:

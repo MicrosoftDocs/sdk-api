@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: Pen, Pen constructors [GDI+], Pen.Pen, Pen.Pen(const Pen &), Pen::Pen, Pen::Pen(const Pen &), _gdiplus_CLASS_Pen_Constructors, gdiplus._gdiplus_CLASS_Pen_Constructors, gdipluspen/Pen
-ms.topic: method
 f1_keywords:
 - gdipluspen/Pen.Pen
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: EventLog
 ms.assetid: 10b37174-661a-4dc6-a7fe-752739494156
 ms.date: 12/05/2018
 ms.keywords: EVENTLOG_BACKWARDS_READ, EVENTLOG_FORWARDS_READ, EVENTLOG_SEEK_READ, EVENTLOG_SEQUENTIAL_READ, ReadEventLog, ReadEventLog function, ReadEventLogA, ReadEventLogW, _win32_readeventlog, base.readeventlog, winbase/ReadEventLog, winbase/ReadEventLogA, winbase/ReadEventLogW
-ms.topic: function
 f1_keywords:
 - winbase/ReadEventLog
 dev_langs:

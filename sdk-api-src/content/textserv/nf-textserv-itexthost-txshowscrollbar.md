@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txshowscrollbar.htm
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxShowScrollBar method, ITextHost.TxShowScrollBar, ITextHost::TxShowScrollBar, TxShowScrollBar, TxShowScrollBar method [Windows Controls], TxShowScrollBar method [Windows Controls],ITextHost interface, _win32_ITextHost_TxShowScrollBar, _win32_ITextHost_TxShowScrollBar_cpp, controls.ITextHost_TxShowScrollBar, controls._win32_ITextHost_TxShowScrollBar, textserv/ITextHost::TxShowScrollBar
-ms.topic: method
 f1_keywords:
 - textserv/ITextHost.TxShowScrollBar
 dev_langs:

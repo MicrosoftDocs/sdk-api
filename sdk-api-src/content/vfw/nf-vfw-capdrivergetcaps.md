@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 2ca3a1b1-1d88-480f-b079-82da111c4565
 ms.date: 12/05/2018
 ms.keywords: _win32_capDriverGetCaps, capDriverGetCaps, capDriverGetCaps macro [Windows Multimedia], multimedia.capdrivergetcaps, vfw/capDriverGetCaps
-ms.topic: macro
 f1_keywords:
 - vfw/capDriverGetCaps
 dev_langs:

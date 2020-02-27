@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: f2cf204e-d02d-40b9-86d7-0262b8cc4db1
 ms.date: 12/05/2018
 ms.keywords: ClusterRegOpenKey, ClusterRegOpenKey function [Failover Cluster], _wolf_clusterregopenkey, clusapi/ClusterRegOpenKey, mscs.clusterregopenkey
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterRegOpenKey
 dev_langs:

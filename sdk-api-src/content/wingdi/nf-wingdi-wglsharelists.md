@@ -7,7 +7,6 @@ tech.root: OpenGL
 ms.assetid: 587ea116-c70b-41ca-bf9b-a0c666f4e948
 ms.date: 12/05/2018
 ms.keywords: _ogl_wglShareLists, opengl.wglsharelists, wglShareLists, wglShareLists function [OpenGL], wingdi/wglShareLists
-ms.topic: function
 f1_keywords:
 - wingdi/wglShareLists
 dev_langs:

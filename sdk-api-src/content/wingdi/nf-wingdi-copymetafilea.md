@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: e9f97591-697b-47d0-a748-60fda4d5258c
 ms.date: 12/05/2018
 ms.keywords: CopyMetaFile, CopyMetaFile function [Windows GDI], CopyMetaFileA, CopyMetaFileW, _win32_CopyMetaFile, gdi.copymetafile, wingdi/CopyMetaFile, wingdi/CopyMetaFileA, wingdi/CopyMetaFileW
-ms.topic: function
 f1_keywords:
 - wingdi/CopyMetaFile
 dev_langs:

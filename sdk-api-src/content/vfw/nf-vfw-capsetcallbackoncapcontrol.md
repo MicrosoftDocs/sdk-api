@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 78bc83f6-06a0-4c41-92ce-932578bcb010
 ms.date: 12/05/2018
 ms.keywords: _win32_capSetCallbackOnCapControl, capSetCallbackOnCapControl, capSetCallbackOnCapControl macro [Windows Multimedia], multimedia.capsetcallbackoncapcontrol, vfw/capSetCallbackOnCapControl
-ms.topic: macro
 f1_keywords:
 - vfw/capSetCallbackOnCapControl
 dev_langs:

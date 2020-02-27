@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 2f3a4d8d-c7b1-4005-aebb-d3e9f2e3a37f
 ms.date: 12/05/2018
 ms.keywords: SCRIPT_CHARPROP, SCRIPT_CHARPROP structure [Internationalization for Windows Applications], _win32_SCRIPT_CHARPROP, intl.script_charprop, usp10/SCRIPT_CHARPROP
-ms.topic: struct
 f1_keywords:
 - usp10/SCRIPT_CHARPROP
 dev_langs:

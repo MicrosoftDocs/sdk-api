@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: eac40b69-5fb6-4523-826d-a012f6f4e5ce
 ms.date: 12/05/2018
 ms.keywords: LocalUnlock, LocalUnlock function, _win32_localunlock, base.localunlock, winbase/LocalUnlock
-ms.topic: function
 f1_keywords:
 - winbase/LocalUnlock
 dev_langs:

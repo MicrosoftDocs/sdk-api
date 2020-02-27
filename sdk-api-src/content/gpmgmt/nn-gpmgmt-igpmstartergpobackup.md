@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: b062da03-6d9c-42b3-a4aa-5a7a6a38e4c9
 ms.date: 12/05/2018
 ms.keywords: GPMStarterGPOBackup, IGPMStarterGPOBackup, IGPMStarterGPOBackup interface [GPMC], IGPMStarterGPOBackup interface [GPMC],described, gpmc.igpmstartergpobackup, gpmgmt/IGPMStarterGPOBackup
-ms.topic: interface
 f1_keywords:
 - gpmgmt/IGPMStarterGPOBackup
 dev_langs:

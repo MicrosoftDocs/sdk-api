@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 04f5301f-0033-4cf3-bc05-3159fe274a8d
 ms.date: 12/05/2018
 ms.keywords: GetCodecFormatProp, GetCodecFormatProp method [windows Media Format], GetCodecFormatProp method [windows Media Format],IWMCodecInfo3 interface, IWMCodecInfo3 interface [windows Media Format],GetCodecFormatProp method, IWMCodecInfo3.GetCodecFormatProp, IWMCodecInfo3::GetCodecFormatProp, IWMCodecInfo3GetCodecFormatProp, wmformat.iwmcodecinfo3_getcodecformatprop, wmsdkidl/IWMCodecInfo3::GetCodecFormatProp
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMCodecInfo3.GetCodecFormatProp
 dev_langs:

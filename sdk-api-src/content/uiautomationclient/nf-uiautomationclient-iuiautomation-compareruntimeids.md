@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: b0c481eb-3545-439c-bf6a-347b98ea35de
 ms.date: 12/05/2018
 ms.keywords: CompareRuntimeIds, CompareRuntimeIds method [Windows Accessibility], CompareRuntimeIds method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CompareRuntimeIds method, IUIAutomation.CompareRuntimeIds, IUIAutomation::CompareRuntimeIds, uiauto.uiauto_IUIAutomation_CompareRuntimeIds, uiauto_IUIAutomation_CompareRuntimeIds, uiautomationclient/IUIAutomation::CompareRuntimeIds, winauto.uiauto_IUIAutomation_CompareRuntimeIds
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation.CompareRuntimeIds
 dev_langs:
@@ -60,14 +59,14 @@ Compares two integer arrays containing run-time identifiers (IDs) to determine w
 
 ### -param runtimeId1 [in]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 
 The first ID to compare.
 
 
 ### -param runtimeId2 [in]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 
 The second ID to compare
 

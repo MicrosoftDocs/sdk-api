@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 99fb2ed4-525b-4733-a652-b164b2c19980
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],TaskUserTextArguments property, IDataCollectorSet.TaskUserTextArguments, IDataCollectorSet.put_TaskUserTextArguments, IDataCollectorSet::TaskUserTextArguments, IDataCollectorSet::get_TaskUserTextArguments, IDataCollectorSet::put_TaskUserTextArguments, TaskUserTextArguments property [PLA], TaskUserTextArguments property [PLA],IDataCollectorSet interface, pla.idatacollectorset_taskusertextarguments, pla/IDataCollectorSet::TaskUserTextArguments, pla/IDataCollectorSet::get_TaskUserTextArguments, pla/IDataCollectorSet::put_TaskUserTextArguments, put_TaskUserTextArguments
-ms.topic: method
 f1_keywords:
 - pla/IDataCollectorSet.TaskUserTextArguments
 dev_langs:

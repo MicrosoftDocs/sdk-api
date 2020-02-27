@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 4ee9fedf-4241-4678-b621-549a06e8949a
 ms.date: 12/05/2018
 ms.keywords: '*PKSJACK_DESCRIPTION, KSJACK_DESCRIPTION, KSJACK_DESCRIPTION structure [Core Audio], PKSJACK_DESCRIPTION, PKSJACK_DESCRIPTION structure pointer [Core Audio], coreaudio.ksjack_description, devicetopology/KSJACK_DESCRIPTION, devicetopology/PKSJACK_DESCRIPTION'
-ms.topic: struct
 f1_keywords:
 - devicetopology/KSJACK_DESCRIPTION
 dev_langs:

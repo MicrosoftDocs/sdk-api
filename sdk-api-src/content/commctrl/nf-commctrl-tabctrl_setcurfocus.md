@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setcurfocus.htm
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_SetCurFocus, TabCtrl_SetCurFocus macro [Windows Controls], _win32_TabCtrl_SetCurFocus, _win32_TabCtrl_SetCurFocus_cpp, commctrl/TabCtrl_SetCurFocus, controls.TabCtrl_SetCurFocus, controls._win32_TabCtrl_SetCurFocus
-ms.topic: macro
 f1_keywords:
 - commctrl/TabCtrl_SetCurFocus
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 7473bbcd-d032-4f44-96e8-e08f050c08a3
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_HOST_INFO_V6, DHCP_HOST_INFO_V6, DHCP_HOST_INFO_V6 structure [DHCP], PDHCP_HOST_INFO_V6, PDHCP_HOST_INFO_V6 structure pointer [DHCP], dhcp.dhcp_host_info_v6, dhcpsapi/DHCP_HOST_INFO_V6, dhcpsapi/PDHCP_HOST_INFO_V6'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_HOST_INFO_V6
 dev_langs:

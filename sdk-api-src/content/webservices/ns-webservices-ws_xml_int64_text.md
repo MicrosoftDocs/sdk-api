@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 2ccf5915-160a-4d4e-8a72-b2a3411336fd
 ms.date: 12/05/2018
 ms.keywords: WS_XML_INT64_TEXT, WS_XML_INT64_TEXT structure [Web Services for Windows], webservices/WS_XML_INT64_TEXT, wsw.ws_xml_int64_text
-ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_INT64_TEXT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8181513f-2a5d-4b43-aa40-7f886a8af7f7
 ms.date: 12/05/2018
 ms.keywords: GetVisuals, GetVisuals method [XPS Documents and Packaging], GetVisuals method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetVisuals method, IXpsOMPage.GetVisuals, IXpsOMPage::GetVisuals, xps.ixpsompage_getvisuals, xpsobjectmodel/IXpsOMPage::GetVisuals
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPage.GetVisuals
 dev_langs:
@@ -111,7 +110,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

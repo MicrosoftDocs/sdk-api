@@ -7,7 +7,6 @@ tech.root: WNet
 ms.assetid: ae415815-f247-4217-a4f1-6a7ca9288890
 ms.date: 12/05/2018
 ms.keywords: '*LPDISCDLGSTRUCTA, DISCDLGSTRUCT, DISCDLGSTRUCT structure [Windows Networking (WNet)], DISCDLGSTRUCTA, DISCDLGSTRUCTW, DISC_NO_FORCE, DISC_UPDATE_PROFILE, LPDISCDLGSTRUCT, LPDISCDLGSTRUCT structure pointer [Windows Networking (WNet)], _win32_discdlgstruct_str, winnetwk/DISCDLGSTRUCT, winnetwk/DISCDLGSTRUCTA, winnetwk/DISCDLGSTRUCTW, winnetwk/LPDISCDLGSTRUCT, wnet.discdlgstruct_str'
-ms.topic: struct
 f1_keywords:
 - winnetwk/DISCDLGSTRUCT
 dev_langs:

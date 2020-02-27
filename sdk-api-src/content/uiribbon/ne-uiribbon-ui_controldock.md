@@ -7,7 +7,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_controldock.htm
 ms.date: 12/05/2018
 ms.keywords: UI_CONTROLDOCK, UI_CONTROLDOCK enumeration [Windows Ribbon], UI_CONTROLDOCK_BOTTOM, UI_CONTROLDOCK_TOP, scenicintent_UI_CONTROLDOCK, uiribbon/UI_CONTROLDOCK, uiribbon/UI_CONTROLDOCK_BOTTOM, uiribbon/UI_CONTROLDOCK_TOP, windowsribbon.windowsribbon_ui_controldock
-ms.topic: enum
 f1_keywords:
 - uiribbon/UI_CONTROLDOCK
 dev_langs:

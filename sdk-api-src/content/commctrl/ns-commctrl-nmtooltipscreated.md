@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmtooltipscreated.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMTOOLTIPSCREATED, LPNMTOOLTIPSCREATED, LPNMTOOLTIPSCREATED structure pointer [Windows Controls], NMTOOLTIPSCREATED, NMTOOLTIPSCREATED structure [Windows Controls], _win32_NMTOOLTIPSCREATED, _win32_NMTOOLTIPSCREATED_cpp, commctrl/LPNMTOOLTIPSCREATED, commctrl/NMTOOLTIPSCREATED, controls.NMTOOLTIPSCREATED, controls._win32_NMTOOLTIPSCREATED'
-ms.topic: struct
 f1_keywords:
 - commctrl/NMTOOLTIPSCREATED
 dev_langs:

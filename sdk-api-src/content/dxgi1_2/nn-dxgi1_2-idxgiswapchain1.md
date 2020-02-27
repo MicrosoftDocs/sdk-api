@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: A674E006-4323-4967-9B9B-0E3965040DBF
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain1, IDXGISwapChain1 interface [DXGI], IDXGISwapChain1 interface [DXGI],described, direct3ddxgi.idxgiswapchain1, dxgi1_2/IDXGISwapChain1
-ms.topic: interface
 f1_keywords:
 - dxgi1_2/IDXGISwapChain1
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: c2f94ca2-b46c-48b0-9c31-92cf2cf75be3
 ms.date: 12/05/2018
 ms.keywords: AVIFileRelease, AVIFileRelease function [Windows Multimedia], _win32_AVIFileRelease, multimedia.avifilerelease, vfw/AVIFileRelease
-ms.topic: function
 f1_keywords:
 - vfw/AVIFileRelease
 dev_langs:

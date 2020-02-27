@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 5e8193c4-5fc7-4b19-9f6e-6873ebe5156a
 ms.date: 12/05/2018
 ms.keywords: IWMReaderCallbackAdvanced interface [windows Media Format],OnOutputPropsChanged method, IWMReaderCallbackAdvanced.OnOutputPropsChanged, IWMReaderCallbackAdvanced::OnOutputPropsChanged, IWMReaderCallbackAdvancedOnOutputPropsChanged, OnOutputPropsChanged, OnOutputPropsChanged method [windows Media Format], OnOutputPropsChanged method [windows Media Format],IWMReaderCallbackAdvanced interface, wmformat.iwmreadercallbackadvanced_onoutputpropschanged, wmsdkidl/IWMReaderCallbackAdvanced::OnOutputPropsChanged
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderCallbackAdvanced.OnOutputPropsChanged
 dev_langs:

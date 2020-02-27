@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: ec53ac62-deb3-46f3-947a-1f6a4add4db2
 ms.date: 12/05/2018
 ms.keywords: IVssEnumMgmtObject interface [VSS],Skip method, IVssEnumMgmtObject.Skip, IVssEnumMgmtObject::Skip, Skip, Skip method [VSS], Skip method [VSS],IVssEnumMgmtObject interface, base.ivssenummgmtobject_skip, vsmgmt/IVssEnumMgmtObject::Skip
-ms.topic: method
 f1_keywords:
 - vsmgmt/IVssEnumMgmtObject.Skip
 dev_langs:

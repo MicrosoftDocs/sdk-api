@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: c8e5b5ea-f7b7-41ad-9669-7c88ec4ad28c
 ms.date: 12/05/2018
 ms.keywords: WsGetReaderNode, WsGetReaderNode function [Web Services for Windows], webservices/WsGetReaderNode, wsw.wsgetreadernode
-ms.topic: function
 f1_keywords:
 - webservices/WsGetReaderNode
 dev_langs:

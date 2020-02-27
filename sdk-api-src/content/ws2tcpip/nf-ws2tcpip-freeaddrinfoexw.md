@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: bc3d7ba7-ec00-4ee0-ad7d-d46641043a7b
 ms.date: 12/05/2018
 ms.keywords: FreeAddrInfoEx, FreeAddrInfoEx function [Winsock], FreeAddrInfoExW, winsock.freeaddrinfoex, ws2tcpip/FreeAddrInfoEx, ws2tcpip/FreeAddrInfoExW
-ms.topic: function
 f1_keywords:
 - ws2tcpip/FreeAddrInfoEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 849f2d34-14e0-43e8-a735-d46e94671725
 ms.date: 12/05/2018
 ms.keywords: '*PTRACE_GUID_PROPERTIES, PTRACE_GUID_PROPERTIES, PTRACE_GUID_PROPERTIES structure pointer [ETW], TRACE_GUID_PROPERTIES, TRACE_GUID_PROPERTIES structure [ETW], _TRACE_GUID_PROPERTIES, _evt_trace_guid_properties, base.trace_guid_properties, etw.trace_guid_properties, evntrace/PTRACE_GUID_PROPERTIES, evntrace/TRACE_GUID_PROPERTIES'
-ms.topic: struct
 f1_keywords:
 - evntrace/TRACE_GUID_PROPERTIES
 dev_langs:

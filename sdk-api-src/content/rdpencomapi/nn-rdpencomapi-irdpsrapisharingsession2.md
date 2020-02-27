@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 3ac68be7-e6fd-42c7-b2f3-b90bb5097b07
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPISharingSession2, IRDPSRAPISharingSession2 interface [RDP], IRDPSRAPISharingSession2 interface [RDP],described, rdp.irdpsrapisharingsession2, rdpencomapi/IRDPSRAPISharingSession2
-ms.topic: interface
 f1_keywords:
 - rdpencomapi/IRDPSRAPISharingSession2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: bd976ff0-fbfb-4911-bee6-d53044eb3d23
 ms.date: 12/05/2018
 ms.keywords: RESET_HEADER, RESET_HEADER macro [DirectShow], amvideo/RESET_HEADER, dshow.reset_header
-ms.topic: macro
 f1_keywords:
 - amvideo/RESET_HEADER
 dev_langs:

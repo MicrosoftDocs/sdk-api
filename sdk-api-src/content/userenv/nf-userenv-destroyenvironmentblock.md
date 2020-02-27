@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8d03e102-3f8a-4aa7-b175-0a6781eedea7
 ms.date: 12/05/2018
 ms.keywords: DestroyEnvironmentBlock, DestroyEnvironmentBlock function [Windows Shell], _shell_DestroyEnvironmentBlock, shell.DestroyEnvironmentBlock, userenv/DestroyEnvironmentBlock
-ms.topic: function
 f1_keywords:
 - userenv/DestroyEnvironmentBlock
 dev_langs:

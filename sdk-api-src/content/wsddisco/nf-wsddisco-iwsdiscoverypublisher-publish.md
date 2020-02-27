@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 71c6e4af-128a-4418-9c3b-f64aa734fb50
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,Publish method, IWSDiscoveryPublisher.Publish, IWSDiscoveryPublisher::Publish, Publish, Publish method, Publish method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_publish_method, wsddisco/IWSDiscoveryPublisher::Publish
-ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveryPublisher.Publish
 dev_langs:
@@ -67,26 +66,26 @@ The logical or physical address of the device, which is used as the device endpo
 
 Current metadata version.
 
-<div class="alert"><b>Note</b>  For compatibility with the <a href="http://go.microsoft.com/fwlink/p/?linkid=87841">WS-Discovery specification</a>, this value must be less than or equal to UINT_MAX (4294967295).</div>
+<div class="alert"><b>Note</b>  For compatibility with the <a href="https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf">WS-Discovery specification</a>, this value must be less than or equal to UINT_MAX (4294967295).</div>
 <div> </div>
 
 ### -param ullInstanceId [in]
 
-Identifier for the current instance of the device being published. This identifier must be incremented whenever the service is restarted. For more information about instance identifiers, see Appendix I of the <a href="http://go.microsoft.com/fwlink/p/?linkid=87841">WS-Discovery specification</a>.
+Identifier for the current instance of the device being published. This identifier must be incremented whenever the service is restarted. For more information about instance identifiers, see Appendix I of the <a href="https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf">WS-Discovery specification</a>.
 
-<div class="alert"><b>Note</b>  For compatibility with the <a href="http://go.microsoft.com/fwlink/p/?linkid=87841">WS-Discovery specification</a>, this value must be less than or equal to UINT_MAX (4294967295).</div>
+<div class="alert"><b>Note</b>  For compatibility with the <a href="https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf">WS-Discovery specification</a>, this value must be less than or equal to UINT_MAX (4294967295).</div>
 <div> </div>
 
 ### -param ullMessageNumber [in]
 
 Counter within the scope of the instance identifier for the current message. The message number must be incremented for each message.
 
-<div class="alert"><b>Note</b>  For compatibility with the <a href="http://go.microsoft.com/fwlink/p/?linkid=87841">WS-Discovery specification</a>, this value must be less than or equal to UINT_MAX (4294967295).</div>
+<div class="alert"><b>Note</b>  For compatibility with the <a href="https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf">WS-Discovery specification</a>, this value must be less than or equal to UINT_MAX (4294967295).</div>
 <div> </div>
 
 ### -param pszSessionId [in, optional]
 
-Unique identifier within the scope of the instance identifier for the current session. This parameter corresponds to the sequence identifier in the AppSequence block in the Probe message. For more information about sequence identifiers, see Appendix I of the <a href="http://go.microsoft.com/fwlink/p/?linkid=87841">WS-Discovery specification</a>.
+Unique identifier within the scope of the instance identifier for the current session. This parameter corresponds to the sequence identifier in the AppSequence block in the Probe message. For more information about sequence identifiers, see Appendix I of the <a href="https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf">WS-Discovery specification</a>.
 
 This parameter may be <b>NULL</b>.
 

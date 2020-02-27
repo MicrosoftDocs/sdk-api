@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3f991ebb-d66c-4bdc-b9d2-2bf6bb5a269a
 ms.date: 12/05/2018
 ms.keywords: '*LPQCMINFO, QCMINFO, QCMINFO structure [Windows Shell], _QCMINFO, _win32_QCMINFO_str, shell.QCMINFO_str, shlobj_core/QCMINFO'
-ms.topic: struct
 f1_keywords:
 - shlobj_core/QCMINFO
 dev_langs:

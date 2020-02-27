@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: b4e7e3b0-97ec-4c59-b2a1-cb83a27df94d
 ms.date: 12/05/2018
 ms.keywords: PstMapCertificate, PstMapCertificate function [Security], certpoleng/PstMapCertificate, security.pstmapcertificate
-ms.topic: function
 f1_keywords:
 - certpoleng/PstMapCertificate
 dev_langs:

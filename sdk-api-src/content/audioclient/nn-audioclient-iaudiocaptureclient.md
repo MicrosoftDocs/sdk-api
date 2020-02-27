@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: c0fa6841-56bf-421e-9949-c6a037cf9fd4
 ms.date: 12/05/2018
 ms.keywords: IAudioCaptureClient, IAudioCaptureClient interface [Core Audio], IAudioCaptureClient interface [Core Audio],described, audioclient/IAudioCaptureClient, coreaudio.iaudiocaptureclient
-ms.topic: interface
 f1_keywords:
 - audioclient/IAudioCaptureClient
 dev_langs:

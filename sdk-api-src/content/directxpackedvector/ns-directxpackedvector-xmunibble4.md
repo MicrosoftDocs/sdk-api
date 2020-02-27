@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUNIBBLE4
 ms.date: 12/05/2018
 ms.keywords: XMUNIBBLE4, XMUNIBBLE4 structure [DirectX Math Support APIs], directxpackedvector/XMUNIBBLE4, dxmath.xmunibble4
-ms.topic: struct
 f1_keywords:
 - directxpackedvector/XMUNIBBLE4
 dev_langs:

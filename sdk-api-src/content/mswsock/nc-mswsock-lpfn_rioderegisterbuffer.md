@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 5D5C3469-0D5B-4E89-BE59-8D8AE9DBA5DE
 ms.date: 01/30/19
 ms.keywords: LPFN_RIODEREGISTERBUFFER
-ms.topic: language-reference
 f1_keywords:
 - mswsock/LPFN_RIODEREGISTERBUFFER
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: e6521c35-a58e-4b8e-b415-b49954187736
 ms.date: 12/05/2018
 ms.keywords: SnmpCleanupEx, SnmpCleanupEx function [SNMP], _snmp_snmpcleanupex, snmp.snmpcleanupex, winsnmp/SnmpCleanupEx
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpCleanupEx
 dev_langs:

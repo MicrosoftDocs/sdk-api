@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 2F4DBA5B-F586-4126-8867-BEE650F6D161
 ms.date: 12/05/2018
 ms.keywords: DiscardResource, DiscardResource method, DiscardResource method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,DiscardResource method, ID3D12GraphicsCommandList.DiscardResource, ID3D12GraphicsCommandList::DiscardResource, d3d12/ID3D12GraphicsCommandList::DiscardResource, direct3d12.id3d12graphicscommandlist_discardresource
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12GraphicsCommandList.DiscardResource
 dev_langs:

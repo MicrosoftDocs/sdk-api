@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 77211dd5-c6df-428b-8f2d-410485109548
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IX509PolicyServerListManager interface, IX509PolicyServerListManager interface [Security],Count property, IX509PolicyServerListManager.Count, IX509PolicyServerListManager.get_Count, IX509PolicyServerListManager::Count, IX509PolicyServerListManager::get_Count, certenroll/IX509PolicyServerListManager::Count, certenroll/IX509PolicyServerListManager::get_Count, get_Count, security.ix509policyserverlistmanager_count
-ms.topic: method
 f1_keywords:
 - certenroll/IX509PolicyServerListManager.Count
 dev_langs:

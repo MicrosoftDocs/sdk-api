@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 1330fbb4-4c10-493b-ad95-3c2ad975459a
 ms.date: 12/05/2018
 ms.keywords: GetClientData, GetClientData method [Remote Desktop Services], GetClientData method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetClientData method, IWTSProtocolConnection.GetClientData, IWTSProtocolConnection::GetClientData, termserv.iwtsprotocolconnection_getclientdata, wtsprotocol/IWTSProtocolConnection::GetClientData
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolConnection.GetClientData
 dev_langs:

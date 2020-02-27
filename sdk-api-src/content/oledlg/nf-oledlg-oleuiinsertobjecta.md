@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: f0ca8c0d-2538-4197-a830-d5ffb9f8b635
 ms.date: 12/05/2018
 ms.keywords: OleUIInsertObject, OleUIInsertObject function [COM], OleUIInsertObjectA, OleUIInsertObjectW, _ole_OleUIInsertObject, com.oleuiinsertobject, oledlg/OleUIInsertObject, oledlg/OleUIInsertObjectA, oledlg/OleUIInsertObjectW
-ms.topic: function
 f1_keywords:
 - oledlg/OleUIInsertObject
 dev_langs:

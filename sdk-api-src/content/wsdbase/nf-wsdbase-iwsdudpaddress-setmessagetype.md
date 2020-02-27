@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 1b041094-fb00-4b73-8753-cf89f9b10f97
 ms.date: 12/05/2018
 ms.keywords: IWSDUdpAddress interface,SetMessageType method, IWSDUdpAddress.SetMessageType, IWSDUdpAddress::SetMessageType, SetMessageType, SetMessageType method, SetMessageType method,IWSDUdpAddress interface, ncd.iwsdudpaddress_setmessagetype, wsdbase/IWSDUdpAddress::SetMessageType
-ms.topic: method
 f1_keywords:
 - wsdbase/IWSDUdpAddress.SetMessageType
 dev_langs:

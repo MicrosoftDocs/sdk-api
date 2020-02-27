@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 9312eaed-2997-4d44-952a-fcae3b262947
 ms.date: 12/05/2018
 ms.keywords: EventCallback, EventCallback callback function [ETW], PEVENT_CALLBACK, PEVENT_CALLBACK callback, _evt_eventcallback, base.eventcallback, etw.eventcallback, evntrace/EventCallback
-ms.topic: callback
 f1_keywords:
 - evntrace/EventCallback
 dev_langs:

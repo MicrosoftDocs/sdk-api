@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 18826377-ddf7-4c36-8995-43310ea077dd
 ms.date: 12/05/2018
 ms.keywords: IAMVideoProcAmp interface [DirectShow],Set method, IAMVideoProcAmp.Set, IAMVideoProcAmp::Set, IAMVideoProcAmpSet, Set, Set method [DirectShow], Set method [DirectShow],IAMVideoProcAmp interface, dshow.iamvideoprocamp_set, strmif/IAMVideoProcAmp::Set
-ms.topic: method
 f1_keywords:
 - strmif/IAMVideoProcAmp.Set
 dev_langs:
@@ -64,7 +63,7 @@ The <b>Set</b> method sets video quality for a specified property.
 
 ### -param Property [in]
 
-The property to set, specified as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-videoprocampproperty">VideoProcAmpProperty</a> enumeration value.
+The property to set, specified as a [VideoProcAmpProperty](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videoprocampproperty) enumeration value.
           
 
 
@@ -76,7 +75,7 @@ The new value of the property.
 
 ### -param Flags [in]
 
-The desired control setting, specified as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-videoprocampflags">VideoProcAmpFlags</a> enumeration
+The desired control setting, specified as a [VideoProcAmpFlags](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videoprocampflags) enumeration
           value.
 
 

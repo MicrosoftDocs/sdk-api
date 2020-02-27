@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 97b1b0ca-a2e7-4835-aece-c2cc23481530
 ms.date: 12/05/2018
 ms.keywords: GetCategory, GetCategory method [XPS Documents and Packaging], GetCategory method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCategory method, IXpsOMCoreProperties.GetCategory, IXpsOMCoreProperties::GetCategory, xps.ixpsomcoreproperties_getcategory, xpsobjectmodel/IXpsOMCoreProperties::GetCategory
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.GetCategory
 dev_langs:
@@ -122,11 +121,11 @@ This method allocates the memory used by the string that is returned in <i>categ
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

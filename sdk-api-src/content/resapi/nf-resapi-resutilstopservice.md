@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 22be9285-7db6-43dc-bf41-08187bbefc41
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_STOP_SERVICE, PRESUTIL_STOP_SERVICE function [Failover Cluster], ResUtilStopService, ResUtilStopService function [Failover Cluster], _wolf_resutilstopservice, mscs.resutilstopservice, resapi/PRESUTIL_STOP_SERVICE, resapi/ResUtilStopService
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilStopService
 dev_langs:

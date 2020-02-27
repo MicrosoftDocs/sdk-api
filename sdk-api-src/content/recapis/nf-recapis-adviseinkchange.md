@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 326bbbff-4adc-46ae-aab3-626b55fecf0c
 ms.date: 12/05/2018
 ms.keywords: 326bbbff-4adc-46ae-aab3-626b55fecf0c, AdviseInkChange, AdviseInkChange function [Tablet PC], recapis/AdviseInkChange, tablet.adviseinkchange
-ms.topic: function
 f1_keywords:
 - recapis/AdviseInkChange
 dev_langs:

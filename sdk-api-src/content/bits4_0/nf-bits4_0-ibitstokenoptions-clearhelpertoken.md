@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 5af3496e-0792-46cc-bfc3-8ac6193724d1
 ms.date: 12/05/2018
 ms.keywords: ClearHelperToken, ClearHelperToken method [BITS], ClearHelperToken method [BITS],IBitsTokenOptions interface, IBitsTokenOptions interface [BITS],ClearHelperToken method, IBitsTokenOptions.ClearHelperToken, IBitsTokenOptions::ClearHelperToken, bits.ibitstokenoptions_clearhelpertoken, bits4_0/IBitsTokenOptions::ClearHelperToken
-ms.topic: method
 f1_keywords:
 - bits4_0/IBitsTokenOptions.ClearHelperToken
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: A9B2C098-4420-490A-BB28-F8F1D3136225
 ms.date: 12/05/2018
 ms.keywords: WS_NETPIPE_URL, WS_NETPIPE_URL structure [Web Services for Windows], webservices/_WS_NETPIPE_URL, wsw.ws_netpipe_url
-ms.topic: struct
 f1_keywords:
 - webservices/_WS_NETPIPE_URL
 dev_langs:

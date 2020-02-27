@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 67dc6290-00e8-457a-97be-efe8e731619d
 ms.date: 12/05/2018
 ms.keywords: IProviderConverter, IProviderConverter interface [Windows Sync], IProviderConverter interface [Windows Sync],described, winsync.iproviderconverter, winsync/IProviderConverter
-ms.topic: interface
 f1_keywords:
 - winsync/IProviderConverter
 dev_langs:

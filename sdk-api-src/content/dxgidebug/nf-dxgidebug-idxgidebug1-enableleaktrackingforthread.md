@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: A6CE092E-389C-4DFE-A7A6-10CA96A0C1F4
 ms.date: 12/05/2018
 ms.keywords: EnableLeakTrackingForThread, EnableLeakTrackingForThread method [DXGI], EnableLeakTrackingForThread method [DXGI],IDXGIDebug1 interface, IDXGIDebug1 interface [DXGI],EnableLeakTrackingForThread method, IDXGIDebug1.EnableLeakTrackingForThread, IDXGIDebug1::EnableLeakTrackingForThread, direct3ddxgi.idxgidebug1_enableleaktrackingforthread, dxgidebug/IDXGIDebug1::EnableLeakTrackingForThread
-ms.topic: method
 f1_keywords:
 - dxgidebug/IDXGIDebug1.EnableLeakTrackingForThread
 dev_langs:

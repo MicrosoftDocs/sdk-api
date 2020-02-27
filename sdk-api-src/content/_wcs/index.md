@@ -1,9 +1,10 @@
 ---
 UID: TP:wcs
+title: Windows Color System
 ms.assetid: eeb1ffa7-e242-359c-9255-b6198917a526
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Windows Color System
@@ -17,5 +18,5 @@ To develop Windows Color System, you need these headers:
  * [wcsplugin.h](../wcsplugin/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Color System](/windows/desktop/wcs)
+* [Windows Color System](https://docs.microsoft.com/previous-versions/windows/desktop/wcs)
 

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: a8e67f3c-4c05-4742-8251-a03335054b2e
 ms.date: 12/05/2018
 ms.keywords: IX509Attribute interface [Security],RawData property, IX509Attribute.RawData, IX509Attribute.get_RawData, IX509Attribute::RawData, IX509Attribute::get_RawData, RawData property [Security], RawData property [Security],IX509Attribute interface, certenroll/IX509Attribute::RawData, certenroll/IX509Attribute::get_RawData, get_RawData, security.ix509attribute_rawdata_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509Attribute.RawData
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 8ea2c112-0d57-4da6-89da-5afe57ff2346
 ms.date: 12/05/2018
 ms.keywords: 8ea2c112-0d57-4da6-89da-5afe57ff2346, ITextInputPanel interface [Tablet PC],Unadvise method, ITextInputPanel.Unadvise, ITextInputPanel::Unadvise, Unadvise, Unadvise method [Tablet PC], Unadvise method [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::Unadvise, tablet.itextinputpanel_unadvise
-ms.topic: method
 f1_keywords:
 - peninputpanel/ITextInputPanel.Unadvise
 dev_langs:

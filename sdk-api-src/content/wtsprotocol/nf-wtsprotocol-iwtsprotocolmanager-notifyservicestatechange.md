@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 303a53b3-b297-486c-9422-706ec60441f2
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolManager interface [Remote Desktop Services],NotifyServiceStateChange method, IWTSProtocolManager.NotifyServiceStateChange, IWTSProtocolManager::NotifyServiceStateChange, NotifyServiceStateChange, NotifyServiceStateChange method [Remote Desktop Services], NotifyServiceStateChange method [Remote Desktop Services],IWTSProtocolManager interface, termserv.iwtsprotocolmanager_notifyservicestatechange, wtsprotocol/IWTSProtocolManager::NotifyServiceStateChange
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolManager.NotifyServiceStateChange
 dev_langs:

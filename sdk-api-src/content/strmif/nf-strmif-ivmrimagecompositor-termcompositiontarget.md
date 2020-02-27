@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a9526be0-06aa-4fe3-ba05-fbac01806ec4
 ms.date: 12/05/2018
 ms.keywords: IVMRImageCompositor interface [DirectShow],TermCompositionTarget method, IVMRImageCompositor.TermCompositionTarget, IVMRImageCompositor::TermCompositionTarget, IVMRImageCompositorStopCompositing, TermCompositionTarget, TermCompositionTarget method [DirectShow], TermCompositionTarget method [DirectShow],IVMRImageCompositor interface, dshow.ivmrimagecompositor_termcompositiontarget, strmif/IVMRImageCompositor::TermCompositionTarget
-ms.topic: method
 f1_keywords:
 - strmif/IVMRImageCompositor.TermCompositionTarget
 dev_langs:

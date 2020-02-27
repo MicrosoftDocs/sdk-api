@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 5215EF2C-9511-4B21-B574-3447FA5896F7
 ms.date: 12/05/2018
 ms.keywords: DXGI_OUTPUT_DESC1, DXGI_OUTPUT_DESC1 structure [DXGI], direct3ddxgi.dxgi_output_desc1, dxgi1_6/DXGI_OUTPUT_DESC1
-ms.topic: struct
 f1_keywords:
 - dxgi1_6/DXGI_OUTPUT_DESC1
 dev_langs:
@@ -158,7 +157,7 @@ The maximum luminance, in nits, that the display attached to this output is capa
 
 ### -field MaxFullFrameLuminance
 
-Type: <b>FLAOT</b>
+Type: <b>FLOAT</b>
 
 The maximum luminance, in nits, that the display attached to this output is capable of rendering; unlike MaxLuminance, this value is valid for a color that fills the entire area of the
 	  panel. Content should not exceed this value across the entire panel for optimal rendering. This value will usually come from the EDID of the corresponding display or sometimes from an

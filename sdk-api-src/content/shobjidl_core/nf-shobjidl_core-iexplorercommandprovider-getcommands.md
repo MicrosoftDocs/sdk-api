@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: df300219-e717-4f79-8996-62726092c3c7
 ms.date: 12/05/2018
 ms.keywords: GetCommands, GetCommands method [Windows Shell], GetCommands method [Windows Shell],IExplorerCommandProvider interface, IExplorerCommandProvider interface [Windows Shell],GetCommands method, IExplorerCommandProvider.GetCommands, IExplorerCommandProvider::GetCommands, _shell_IExplorerCommandProvider_GetCommands, shell.IExplorerCommandProvider_GetCommands, shobjidl_core/IExplorerCommandProvider::GetCommands
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IExplorerCommandProvider.GetCommands
 dev_langs:

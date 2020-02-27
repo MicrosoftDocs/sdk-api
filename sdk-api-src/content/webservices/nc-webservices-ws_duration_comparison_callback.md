@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 69f5d387-15b1-41cc-a0f8-047b8f6adb93
 ms.date: 12/05/2018
 ms.keywords: WS_DURATION_COMPARISON_CALLBACK, WS_DURATION_COMPARISON_CALLBACK callback, WS_DURATION_COMPARISON_CALLBACK callback function [Web Services for Windows], webservices/WS_DURATION_COMPARISON_CALLBACK, wsw.ws_duration_comparison_callback
-ms.topic: callback
 f1_keywords:
 - webservices/WS_DURATION_COMPARISON_CALLBACK
 dev_langs:

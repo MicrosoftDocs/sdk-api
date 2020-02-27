@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: a84f49ee-9efd-450e-a6e6-3f140330a9d0
 ms.date: 12/05/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkPropertyChanged method, INetworkEvents.NetworkPropertyChanged, INetworkEvents::NetworkPropertyChanged, NetworkPropertyChanged, NetworkPropertyChanged method [Network Awareness], NetworkPropertyChanged method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkPropertyChanged, nla.inetworkevents_networkpropertychanged
-ms.topic: method
 f1_keywords:
 - netlistmgr/INetworkEvents.NetworkPropertyChanged
 dev_langs:

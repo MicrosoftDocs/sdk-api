@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 77ded493-cdf5-4e1b-b0eb-640ec46cf43a
 ms.date: 12/05/2018
 ms.keywords: SelectionItemPattern_AddToSelection, SelectionItemPattern_AddToSelection function [Windows Accessibility], uiauto.uiauto_SelectionItemPattern_AddToSelectionConPat, uiauto_SelectionItemPattern_AddToSelectionConPat, uiautomationcoreapi/SelectionItemPattern_AddToSelection, winauto.uiauto_SelectionItemPattern_AddToSelectionConPat
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/SelectionItemPattern_AddToSelection
 dev_langs:

@@ -1,9 +1,10 @@
 ---
 UID: NA:mmstream
+title: Mmstream.h header
 ms.assetid: ef67fdfa-597a-3ddd-bc70-7dc48571bbfc
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: dshow
 archived: true
 ---

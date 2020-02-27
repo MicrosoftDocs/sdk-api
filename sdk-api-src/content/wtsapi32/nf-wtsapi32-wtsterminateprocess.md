@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 38036657-4e65-4100-893a-e35cf0b71e0d
 ms.date: 12/05/2018
 ms.keywords: WTSTerminateProcess, WTSTerminateProcess function [Remote Desktop Services], _win32_wtsterminateprocess, termserv.wtsterminateprocess, wtsapi32/WTSTerminateProcess
-ms.topic: function
 f1_keywords:
 - wtsapi32/WTSTerminateProcess
 dev_langs:

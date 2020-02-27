@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 831f023b-c06f-4099-9f4c-df38f3d1382f
 ms.date: 12/05/2018
 ms.keywords: GetDuration, GetDuration method [Media Foundation], GetDuration method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetDuration method, IMFPMediaItem.GetDuration, IMFPMediaItem::GetDuration, MFP_POSITIONTYPE_100NS, mf.imfpmediaitem_getduration, mfplay/IMFPMediaItem::GetDuration
-ms.topic: method
 f1_keywords:
 - mfplay/IMFPMediaItem.GetDuration
 dev_langs:

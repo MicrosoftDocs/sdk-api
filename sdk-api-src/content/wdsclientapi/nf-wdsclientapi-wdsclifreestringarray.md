@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 37d96077-d3f0-4372-955d-f8c071d82230
 ms.date: 12/05/2018
 ms.keywords: WdsCliFreeStringArray, WdsCliFreeStringArray function [Windows Deployment Services], wds.wdsclifreestringarray, wdsclientapi/WdsCliFreeStringArray
-ms.topic: function
 f1_keywords:
 - wdsclientapi/WdsCliFreeStringArray
 dev_langs:

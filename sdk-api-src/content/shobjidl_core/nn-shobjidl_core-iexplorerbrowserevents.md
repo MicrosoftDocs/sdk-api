@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 802d547f-41c2-4c4a-9f07-be615d7b86eb
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowserEvents, IExplorerBrowserEvents interface [Windows Shell], IExplorerBrowserEvents interface [Windows Shell],described, _shell_IExplorerBrowserEvents, shell.IExplorerBrowserEvents, shobjidl_core/IExplorerBrowserEvents
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IExplorerBrowserEvents
 dev_langs:

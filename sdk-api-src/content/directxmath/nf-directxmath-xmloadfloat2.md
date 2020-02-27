@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat2(const XMFLOAT2)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadFloat2, XMLoadFloat2, XMLoadFloat2 method [DirectX Math Support APIs], dxmath.xmloadfloat2
-ms.topic: function
 f1_keywords:
 - directxmath/XMLoadFloat2
 dev_langs:

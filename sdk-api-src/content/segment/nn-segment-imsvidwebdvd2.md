@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: f0385f72-02fe-4efc-8324-7af93d6ecb9d
 ms.date: 12/05/2018
 ms.keywords: IMSVidWebDVD2, IMSVidWebDVD2 interface [Microsoft TV Technologies], IMSVidWebDVD2 interface [Microsoft TV Technologies],described, mstv.imsvidwebdvd2, segment/IMSVidWebDVD2
-ms.topic: interface
 f1_keywords:
 - segment/IMSVidWebDVD2
 dev_langs:

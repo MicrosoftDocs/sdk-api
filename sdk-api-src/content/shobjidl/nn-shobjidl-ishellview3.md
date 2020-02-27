@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 96b61e84-0d31-494d-a922-cd3dcd5735b9
 ms.date: 12/05/2018
 ms.keywords: IShellView3, IShellView3 interface [Windows Shell], IShellView3 interface [Windows Shell],described, _shell_IShellView3, shell.IShellView3, shobjidl/IShellView3
-ms.topic: interface
 f1_keywords:
 - shobjidl/IShellView3
 dev_langs:

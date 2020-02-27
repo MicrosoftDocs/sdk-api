@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 84de2b23-5536-43e9-9336-0c1d3b70891d
 ms.date: 12/05/2018
 ms.keywords: PeerDistRegisterForStatusChangeNotificationEx, PeerDistRegisterForStatusChangeNotificationEx function [Peer Networking], p2p.peerdistregisterforstatuschangenotificationex, peerdist/PeerDistRegisterForStatusChangeNotificationEx
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistRegisterForStatusChangeNotificationEx
 dev_langs:
@@ -75,7 +74,7 @@ Value to be returned through the <i>lpCompletionKey</i> parameter of the <a href
 
 ### -param lpOverlapped [in]
 
-Pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure. If the <b>hEvent</b> member of the structure is not <b>NULL</b>, it will be signaled via SetEvent() used in order to signal the notification. This can occur  even if the completion port is specified via the <i>hCompletionPort</i> argument.
+Pointer to an <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure. If the <b>hEvent</b> member of the structure is not <b>NULL</b>, it will be signaled via SetEvent() used in order to signal the notification. This can occur  even if the completion port is specified via the <i>hCompletionPort</i> argument.
 
 
 ### -param pPeerDistStatus [in, out]
@@ -96,7 +95,7 @@ If the function succeeds, the return value is ERROR_SUCCESS.
 
 
 
-This function optionally registers a completion port and an <a href="http://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure for status change notification. Upon successful completion, the <i>pPeerDistStatus</i> parameter will contain a valid <b>PEERDIST_STATUS</b> value.
+This function optionally registers a completion port and an <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure for status change notification. Upon successful completion, the <i>pPeerDistStatus</i> parameter will contain a valid <b>PEERDIST_STATUS</b> value.
 
 Only one active registration for each session is allowed. The caller must register for notification each time after it signals. The notification will be sent only if the current status is changed from the previous notification. After the first call of the <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistregisterforstatuschangenotification">PeerDistRegisterForStatusChangeNotification</a> function for the  Peer Distribution session, the first notification will trigger only if the status is no longer equal to <b>PEERDIST_STATUS_DISABLED</b>.
 

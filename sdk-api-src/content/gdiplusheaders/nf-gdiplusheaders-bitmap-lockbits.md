@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\lockbits.htm
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],LockBits method, Bitmap.LockBits, Bitmap::LockBits, LockBits, LockBits method [GDI+], LockBits method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_LockBits_rect_flags_format_lockedBitmapData_, gdiplus._gdiplus_CLASS_Bitmap_LockBits_rect_flags_format_lockedBitmapData_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Bitmap.LockBits
 dev_langs:

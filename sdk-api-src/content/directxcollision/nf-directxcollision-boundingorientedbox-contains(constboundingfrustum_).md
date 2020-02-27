@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.Contains(BoundingFrustum)
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],Contains method, BoundingOrientedBox.Contains, BoundingOrientedBox.Contains(const BoundingFrustum &), BoundingOrientedBox.Contains(const BoundingFrustum&), BoundingOrientedBox.Contains,BoundingOrientedBox::Contains(const BoundingFrustum &), BoundingOrientedBox::Contains, BoundingOrientedBox::Contains(const BoundingFrustum &), Contains, Contains method [DirectX Math Support APIs], Contains method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_contains_1
-ms.topic: method
 f1_keywords:
 - directxcollision/BoundingOrientedBox.Contains
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 069d9cc9-0478-457a-826b-2e4d1e1b0b05
 ms.date: 12/05/2018
 ms.keywords: GetDotStuffState, GetDotStuffState function [Windows API], filehc/GetDotStuffState, winprog._getdotstuffstate
-ms.topic: function
 f1_keywords:
 - filehc/GetDotStuffState
 dev_langs:
@@ -60,7 +59,7 @@ Determines whether dots are added to the file when any dot stuffing mechanisms a
 
 ### -param pContext [in]
 
-A pointer to the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure.
+A pointer to the <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure.
 
 
 ### -param fReads [in]
@@ -103,7 +102,7 @@ The information about dot stuffing is provided by DOT_STUFF_MANAGER objects.
 
 
 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a>
  
 
  

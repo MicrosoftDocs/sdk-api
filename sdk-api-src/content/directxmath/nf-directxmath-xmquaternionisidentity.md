@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionIsIdentity(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionIsIdentity, XMQuaternionIsIdentity, XMQuaternionIsIdentity method [DirectX Math Support APIs], dxmath.xmquaternionisidentity
-ms.topic: function
 f1_keywords:
 - directxmath/XMQuaternionIsIdentity
 dev_langs:

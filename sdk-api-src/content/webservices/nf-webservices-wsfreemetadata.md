@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 4e159619-3807-4e7f-9198-fb74962ae141
 ms.date: 12/05/2018
 ms.keywords: WsFreeMetadata, WsFreeMetadata function [Web Services for Windows], webservices/WsFreeMetadata, wsw.wsfreemetadata
-ms.topic: function
 f1_keywords:
 - webservices/WsFreeMetadata
 dev_langs:

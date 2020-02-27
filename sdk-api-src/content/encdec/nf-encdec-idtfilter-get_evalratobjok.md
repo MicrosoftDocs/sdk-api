@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 92bbe476-3aba-4a50-9cb3-500356228c4b
 ms.date: 12/05/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],get_EvalRatObjOK method, IDTFilter.get_EvalRatObjOK, IDTFilter::get_EvalRatObjOK, IDTFilterget_EvalRatObjOK, encdec/IDTFilter::get_EvalRatObjOK, get_EvalRatObjOK, get_EvalRatObjOK method [Microsoft TV Technologies], get_EvalRatObjOK method [Microsoft TV Technologies],IDTFilter interface, mstv.idtfilter_get_evalratobjok
-ms.topic: method
 f1_keywords:
 - encdec/IDTFilter.get_EvalRatObjOK
 dev_langs:

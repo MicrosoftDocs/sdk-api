@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 0abbb99e-a253-44f3-90bf-0ac341e7c83d
 ms.date: 12/05/2018
 ms.keywords: CreateEllipseGeometry, CreateEllipseGeometry method [Direct2D], CreateEllipseGeometry method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateEllipseGeometry method, ID2D1Factory.CreateEllipseGeometry, ID2D1Factory.CreateEllipseGeometry(const D2D1_ELLIPSE &,ID2D1EllipseGeometry), ID2D1Factory::CreateEllipseGeometry, ID2D1Factory::CreateEllipseGeometry(const D2D1_ELLIPSE &,ID2D1EllipseGeometry), d2d1/ID2D1Factory::CreateEllipseGeometry, direct2d.ID2D1Factory_CreateEllipseGeometry_ref_D2D1_ELLIPSE_ptr_ptr_ID2D1EllipseGeometry
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1Factory.CreateEllipseGeometry
 dev_langs:

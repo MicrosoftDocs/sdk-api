@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: E88355DA-F7BE-45C7-9DDB-EC39DB2AD280
 ms.date: 12/05/2018
 ms.keywords: IAppxEncryptedBundleWriter, IAppxEncryptedBundleWriter interface [App packaging and management], IAppxEncryptedBundleWriter interface [App packaging and management],described, appxpackaging/IAppxEncryptedBundleWriter, appxpkg.iappxencryptedbundlewriter
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxEncryptedBundleWriter
 dev_langs:

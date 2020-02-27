@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: f15c183d-d883-470c-9b78-e63d2a9b76ca
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_SET_HOTPLUG_INFO, IOCTL_STORAGE_SET_HOTPLUG_INFO control, IOCTL_STORAGE_SET_HOTPLUG_INFO control code, _win32_ioctl_storage_set_hotplug_info, base.ioctl_storage_set_hotplug_info, winioctl/IOCTL_STORAGE_SET_HOTPLUG_INFO
-ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_STORAGE_SET_HOTPLUG_INFO
 dev_langs:

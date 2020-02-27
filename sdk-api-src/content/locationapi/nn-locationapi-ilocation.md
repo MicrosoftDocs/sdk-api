@@ -7,7 +7,6 @@ tech.root: locationapi
 ms.assetid: beeedbbd-df93-4c05-a215-4cfd14e03076
 ms.date: 12/05/2018
 ms.keywords: ILocation, ILocation interface [WinLocation], ILocation interface [WinLocation],described, locationapi/ILocation, winlocation.ilocation
-ms.topic: interface
 f1_keywords:
 - locationapi/ILocation
 dev_langs:

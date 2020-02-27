@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: dc4a6e6e-f968-4502-88d0-dc692341528d
 ms.date: 12/05/2018
 ms.keywords: PRESOURCE_TYPE_CONTROL_ROUTINE, PRESOURCE_TYPE_CONTROL_ROUTINE callback function [Failover Cluster], ResourceTypeControl, ResourceTypeControl callback, ResourceTypeControl callback function [Failover Cluster], _wolf_resourcetypecontrol, mscs.resourcetypecontrol, resapi/PRESOURCE_TYPE_CONTROL_ROUTINE, resapi/ResourceTypeControl
-ms.topic: callback
 f1_keywords:
 - resapi/ResourceTypeControl
 dev_langs:

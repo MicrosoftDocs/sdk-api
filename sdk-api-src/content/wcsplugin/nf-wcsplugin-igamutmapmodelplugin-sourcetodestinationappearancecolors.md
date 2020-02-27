@@ -7,7 +7,6 @@ tech.root: WCS
 ms.assetid: b98f05db-f003-4a3f-9bc3-0675719e339d
 ms.date: 12/05/2018
 ms.keywords: IGamutMapModelPlugIn interface [Windows Color System],SourceToDestinationAppearanceColors method, IGamutMapModelPlugIn.SourceToDestinationAppearanceColors, IGamutMapModelPlugIn::SourceToDestinationAppearanceColors, SourceToDestinationAppearanceColors, SourceToDestinationAppearanceColors method [Windows Color System], SourceToDestinationAppearanceColors method [Windows Color System],IGamutMapModelPlugIn interface, _color_IGamutMapModelPlugIn::SourceToDestinationAppearanceColors, wcs.IGamutMapModelPlugIn_SourceToDestinationAppearanceColors, wcsplugin/IGamutMapModelPlugIn::SourceToDestinationAppearanceColors
-ms.topic: method
 f1_keywords:
 - wcsplugin/IGamutMapModelPlugIn.SourceToDestinationAppearanceColors
 dev_langs:

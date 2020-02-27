@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 83d30b9c-4d3d-4fca-8dea-121074642b39
 ms.date: 12/05/2018
 ms.keywords: GetTransformLookup, GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetTransformLookup method, IXpsOMVisual.GetTransformLookup, IXpsOMVisual::GetTransformLookup, xps.ixpsomvisual_gettransformlookup, xpsobjectmodel/IXpsOMVisual::GetTransformLookup
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.GetTransformLookup
 dev_langs:
@@ -166,7 +165,7 @@ This method allocates the memory used by the string that is returned in <i>key</
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

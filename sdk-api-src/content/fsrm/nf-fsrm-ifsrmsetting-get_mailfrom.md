@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 62296c6c-d75b-4669-a665-a0c4321218b6
 ms.date: 12/05/2018
 ms.keywords: FsrmSetting class [File Server Resource Manager],MailFrom property, IFsrmSetting interface [File Server Resource Manager],MailFrom property, IFsrmSetting.MailFrom, IFsrmSetting.get_MailFrom, IFsrmSetting::MailFrom, IFsrmSetting::get_MailFrom, IFsrmSetting::put_MailFrom, MailFrom property [File Server Resource Manager], MailFrom property [File Server Resource Manager],FsrmSetting class, MailFrom property [File Server Resource Manager],IFsrmSetting interface, fs.ifsrmsetting_mailfrom, fsrm.ifsrmsetting_mailfrom, fsrm/IFsrmSetting::MailFrom, fsrm/IFsrmSetting::get_MailFrom, fsrm/IFsrmSetting::put_MailFrom, get_MailFrom
-ms.topic: method
 f1_keywords:
 - fsrm/IFsrmSetting.MailFrom
 dev_langs:

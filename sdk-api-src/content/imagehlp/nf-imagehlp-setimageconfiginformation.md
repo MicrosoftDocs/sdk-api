@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 396af0c0-2fb1-418b-bc2b-9e9eb63174bc
 ms.date: 12/05/2018
 ms.keywords: SetImageConfigInformation, SetImageConfigInformation function, _win32_setimageconfiginformation, base.setimageconfiginformation, imagehlp/SetImageConfigInformation
-ms.topic: function
 f1_keywords:
 - imagehlp/SetImageConfigInformation
 dev_langs:

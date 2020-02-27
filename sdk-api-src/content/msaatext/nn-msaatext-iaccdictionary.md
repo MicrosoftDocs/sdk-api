@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 0d18d219-b584-43ff-bded-6ed8f00a252f
 ms.date: 12/05/2018
 ms.keywords: IAccDictionary, IAccDictionary interface [Windows Accessibility], IAccDictionary interface [Windows Accessibility],described, msaa.iaccdictionary, msaatext/IAccDictionary, winauto.iaccdictionary
-ms.topic: interface
 f1_keywords:
 - msaatext/IAccDictionary
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[Active Accessibility Text Services is deprecated. Please see     
-<a href="https://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="https://msdn.microsoft.com/library/ms629032(VS.85).aspx">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		]
 
 Exposes methods for string manipulation.

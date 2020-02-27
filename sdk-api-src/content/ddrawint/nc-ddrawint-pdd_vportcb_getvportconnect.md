@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: b6be5f94-6d4d-4f7a-a8d9-15bfc7a15d3b
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortGetConnectInfo, DdVideoPortGetConnectInfo callback function [Display Devices], PDD_VPORTCB_GETVPORTCONNECT, PDD_VPORTCB_GETVPORTCONNECT callback, ddfncs_10f9e183-b3f5-42c4-b97a-c44f8b5ea791.xml, ddrawint/DdVideoPortGetConnectInfo, display.ddvideoportgetconnectinfo
-ms.topic: callback
 f1_keywords:
 - ddrawint/DdVideoPortGetConnectInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: ea437d31-a688-4602-8453-f891e83af9ea
 ms.date: 12/05/2018
 ms.keywords: TdhOpenDecodingHandle, TdhOpenDecodingHandle function [ETW], etw.tdhopendecodinghandle, tdh/TdhOpenDecodingHandle
-ms.topic: function
 f1_keywords:
 - tdh/TdhOpenDecodingHandle
 dev_langs:

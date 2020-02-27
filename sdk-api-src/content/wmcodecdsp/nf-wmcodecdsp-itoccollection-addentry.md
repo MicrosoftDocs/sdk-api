@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: b4d4e40b-151b-4217-81c8-1eaa8336407d
 ms.date: 12/05/2018
 ms.keywords: AddEntry, AddEntry method [Media Foundation], AddEntry method [Media Foundation],ITocCollection interface, ITocCollection interface [Media Foundation],AddEntry method, ITocCollection.AddEntry, ITocCollection::AddEntry, codecapi.itoccollection_addentry, mf.itoccollection_addentry, wmcodecdsp/ITocCollection::AddEntry
-ms.topic: method
 f1_keywords:
 - wmcodecdsp/ITocCollection.AddEntry
 dev_langs:

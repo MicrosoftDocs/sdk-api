@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 2754b744-3ba8-4e60-9847-1d0eb3c24180
 ms.date: 12/05/2018
 ms.keywords: ISynchronizeContainer interface [COM],WaitMultiple method, ISynchronizeContainer.WaitMultiple, ISynchronizeContainer::WaitMultiple, WaitMultiple, WaitMultiple method [COM], WaitMultiple method [COM],ISynchronizeContainer interface, _com_isynchronizecontainer_waitmultiple, com.isynchronizecontainer_waitmultiple, objidlbase/ISynchronizeContainer::WaitMultiple
-ms.topic: method
 f1_keywords:
 - objidlbase/ISynchronizeContainer.WaitMultiple
 dev_langs:

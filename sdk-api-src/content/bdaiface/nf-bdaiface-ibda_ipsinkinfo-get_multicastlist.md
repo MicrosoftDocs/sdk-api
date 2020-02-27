@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 29375c69-5e45-4fc5-98d2-1cc1c750b809
 ms.date: 12/05/2018
 ms.keywords: IBDA_IPSinkInfo interface [Microsoft TV Technologies],get_MulticastList method, IBDA_IPSinkInfo.get_MulticastList, IBDA_IPSinkInfo::get_MulticastList, IBDA_IPSinkInfoget_MulticastList, bdaiface/IBDA_IPSinkInfo::get_MulticastList, get_MulticastList, get_MulticastList method [Microsoft TV Technologies], get_MulticastList method [Microsoft TV Technologies],IBDA_IPSinkInfo interface, mstv.ibda_ipsinkinfo_get_multicastlist
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_IPSinkInfo.get_MulticastList
 dev_langs:

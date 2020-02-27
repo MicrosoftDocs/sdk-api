@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 69df2926-e0f1-4c52-bc91-7d2e1391f835
 ms.date: 12/05/2018
 ms.keywords: PROCESSOR_ARCHITECTURE_AMD64, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_INTEL, WdsCliGetImageArchitecture, WdsCliGetImageArchitecture function [Windows Deployment Services], wds.wdscligetimagearchitecture, wdsclientapi/WdsCliGetImageArchitecture
-ms.topic: function
 f1_keywords:
 - wdsclientapi/WdsCliGetImageArchitecture
 dev_langs:

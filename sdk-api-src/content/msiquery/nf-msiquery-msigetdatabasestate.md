@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 33c4618f-f9b5-4512-baba-27f62cd32329
 ms.date: 12/05/2018
 ms.keywords: MsiGetDatabaseState, MsiGetDatabaseState function, _msi_msigetdatabasestate, msiquery/MsiGetDatabaseState, setup.msigetdatabasestate
-ms.topic: function
 f1_keywords:
 - msiquery/MsiGetDatabaseState
 dev_langs:

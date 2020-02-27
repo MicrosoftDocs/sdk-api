@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 376ece5f-93ea-4650-a6d8-351ae60fc15b
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerRetrieveContentInformation, PeerDistServerRetrieveContentInformation function [Peer Networking], p2p.peerdistserverretrievecontentinformation, peerdist/PeerDistServerRetrieveContentInformation
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistServerRetrieveContentInformation
 dev_langs:
@@ -80,7 +79,7 @@ Pointer to the buffer that receives the content information data.
 
 ### -param lpOverlapped [in]
 
-Pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure. This function does not allow the caller to specify the start Offset in the content. The offset is implicitly maintained per hContentInfo. The Offset and OffsetHigh are reserved and must be zero.
+Pointer to an <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure. This function does not allow the caller to specify the start Offset in the content. The offset is implicitly maintained per hContentInfo. The Offset and OffsetHigh are reserved and must be zero.
 
 
 ## -returns

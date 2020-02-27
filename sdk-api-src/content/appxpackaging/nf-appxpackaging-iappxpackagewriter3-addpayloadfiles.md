@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 3C798AC2-211B-4735-9860-4F43ADE12F0B
 ms.date: 12/05/2018
 ms.keywords: AddPayloadFiles, AddPayloadFiles method [App packaging and management], AddPayloadFiles method [App packaging and management],IAppxPackageWriter3 interface, IAppxPackageWriter3 interface [App packaging and management],AddPayloadFiles method, IAppxPackageWriter3.AddPayloadFiles, IAppxPackageWriter3::AddPayloadFiles, appxpackaging/IAppxPackageWriter3::AddPayloadFiles, appxpkg.iappxpackagewriter3_addpayloadfiles
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxPackageWriter3.AddPayloadFiles
 dev_langs:

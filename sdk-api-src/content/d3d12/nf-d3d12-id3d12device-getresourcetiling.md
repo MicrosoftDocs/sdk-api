@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 32574750-92D3-4CAF-90C6-BA0DEF1E5464
 ms.date: 12/05/2018
 ms.keywords: GetResourceTiling, GetResourceTiling method, GetResourceTiling method,ID3D12Device interface, ID3D12Device interface,GetResourceTiling method, ID3D12Device.GetResourceTiling, ID3D12Device::GetResourceTiling, d3d12/ID3D12Device::GetResourceTiling, direct3d12.id3d12device_getresourcetiling
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device.GetResourceTiling
 dev_langs:

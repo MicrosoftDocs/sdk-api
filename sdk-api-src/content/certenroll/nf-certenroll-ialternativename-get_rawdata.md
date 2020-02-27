@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 7385654d-03f8-4796-a95c-000fa8ab65a3
 ms.date: 12/05/2018
 ms.keywords: IAlternativeName interface [Security],RawData property, IAlternativeName.RawData, IAlternativeName.get_RawData, IAlternativeName::RawData, IAlternativeName::get_RawData, RawData property [Security], RawData property [Security],IAlternativeName interface, certenroll/IAlternativeName::RawData, certenroll/IAlternativeName::get_RawData, get_RawData, security.ialternativename_rawdata_property
-ms.topic: method
 f1_keywords:
 - certenroll/IAlternativeName.RawData
 dev_langs:

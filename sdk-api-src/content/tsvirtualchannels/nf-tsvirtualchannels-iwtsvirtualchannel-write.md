@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: fef7067c-6d81-42b7-8534-191bc98906d4
 ms.date: 12/05/2018
 ms.keywords: IWTSVirtualChannel interface [Remote Desktop Services],Write method, IWTSVirtualChannel.Write, IWTSVirtualChannel::Write, Write, Write method [Remote Desktop Services], Write method [Remote Desktop Services],IWTSVirtualChannel interface, termserv.iwtsvirtualchannel_write, tsvirtualchannels/IWTSVirtualChannel::Write
-ms.topic: method
 f1_keywords:
 - tsvirtualchannels/IWTSVirtualChannel.Write
 dev_langs:

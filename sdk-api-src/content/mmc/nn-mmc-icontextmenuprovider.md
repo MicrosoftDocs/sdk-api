@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 3f9a5945-9b34-41fe-9c91-c782eb7eb739
 ms.date: 12/05/2018
 ms.keywords: IContextMenuProvider, IContextMenuProvider interface [MMC], IContextMenuProvider interface [MMC],described, _slate_icontextmenuprovider, mmc.icontextmenuprovider, mmc/IContextMenuProvider
-ms.topic: interface
 f1_keywords:
 - mmc/IContextMenuProvider
 dev_langs:

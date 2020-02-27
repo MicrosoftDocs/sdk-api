@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: c24a1046-50b0-4fec-88f9-3bbd6970982a
 ms.date: 12/05/2018
 ms.keywords: CreateVssExpressWriter, CreateVssExpressWriter function, CreateVssExpressWriterInternal, base.createvssexpresswriter, vswriter/CreateVssExpressWriter, vswriter/CreateVssExpressWriterInternal
-ms.topic: function
 f1_keywords:
 - vswriter/CreateVssExpressWriter
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: b0ed3482-d127-45d3-a4de-271b1c0a199b
 ms.date: 12/05/2018
 ms.keywords: MFCreatePresentationClock, MFCreatePresentationClock function [Media Foundation], b0ed3482-d127-45d3-a4de-271b1c0a199b, mf.mfcreatepresentationclock, mfidl/MFCreatePresentationClock
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreatePresentationClock
 dev_langs:

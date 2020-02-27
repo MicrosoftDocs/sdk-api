@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 22309920-f32c-4639-8869-b915a337d86f
 ms.date: 12/05/2018
 ms.keywords: IVBGetControl, IVBGetControl interface [COM], IVBGetControl interface [COM],described, _com_IVBGetControl, com.ivbgetcontrol, vbinterf/IVBGetControl
-ms.topic: interface
 f1_keywords:
 - vbinterf/IVBGetControl
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 9376f55b-55ee-4064-8aed-264c43db0c7d
 ms.date: 12/05/2018
 ms.keywords: SetupInitDefaultQueueCallbackEx, SetupInitDefaultQueueCallbackEx function [Setup API], _setupapi_setupinitdefaultqueuecallbackex, setup.setupinitdefaultqueuecallbackex, setupapi/SetupInitDefaultQueueCallbackEx
-ms.topic: function
 f1_keywords:
 - setupapi/SetupInitDefaultQueueCallbackEx
 dev_langs:

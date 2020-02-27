@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorReplicateIntPtr(Const uint32_t)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorReplicateIntPtr, XMVectorReplicateIntPtr, XMVectorReplicateIntPtr method [DirectX Math Support APIs], dxmath.xmvectorreplicateintptr
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorReplicateIntPtr
 dev_langs:

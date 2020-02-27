@@ -7,7 +7,6 @@ tech.root: input_ink
 ms.assetid: 6d175981-6379-4a61-84b0-8b08274bc3a3
 ms.date: 12/05/2018
 ms.keywords: IInkPresenterDesktop, IInkPresenterDesktop interface, IInkPresenterDesktop interface,described, InkPresenterDesktop.iinkpresenterdesktop, inkpresenterdesktop/IInkPresenterDesktop, input_ink.iinkpresenterdesktop
-ms.topic: interface
 f1_keywords:
 - inkpresenterdesktop/IInkPresenterDesktop
 dev_langs:
@@ -58,7 +57,7 @@ An <b>IInkPresenterDesktop</b> object represents an <a href="https://msdn.micros
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620314">Complex ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex ink sample</a>
 
 
 
@@ -66,7 +65,7 @@ An <b>IInkPresenterDesktop</b> object represents an <a href="https://msdn.micros
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
 
 
 
@@ -78,7 +77,7 @@ An <b>IInkPresenterDesktop</b> object represents an <a href="https://msdn.micros
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620312">Simple ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
  
 
  

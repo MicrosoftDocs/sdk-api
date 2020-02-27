@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 1f40b0c1-2c5e-4520-9406-6bebb3da65d0
 ms.date: 12/05/2018
 ms.keywords: CompleteConnectTerminal, CompleteConnectTerminal method [TAPI 2.2], CompleteConnectTerminal method [TAPI 2.2],ITTerminalControl interface, ITTerminalControl interface [TAPI 2.2],CompleteConnectTerminal method, ITTerminalControl.CompleteConnectTerminal, ITTerminalControl::CompleteConnectTerminal, _tapi3_itterminalcontrol_completeconnectterminal, tapi3.itterminalcontrol_completeconnectterminal, termmgr/ITTerminalControl::CompleteConnectTerminal
-ms.topic: method
 f1_keywords:
 - termmgr/ITTerminalControl.CompleteConnectTerminal
 dev_langs:

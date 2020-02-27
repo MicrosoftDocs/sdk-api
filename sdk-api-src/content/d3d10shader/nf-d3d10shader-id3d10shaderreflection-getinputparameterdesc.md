@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection_getinputparameterdesc.htm
 ms.date: 12/05/2018
 ms.keywords: 944856ef-d7fa-07b3-e7de-3d7d604ff3e0, GetInputParameterDesc, GetInputParameterDesc method [Direct3D 10], GetInputParameterDesc method [Direct3D 10],ID3D10ShaderReflection interface, ID3D10ShaderReflection interface [Direct3D 10],GetInputParameterDesc method, ID3D10ShaderReflection.GetInputParameterDesc, ID3D10ShaderReflection::GetInputParameterDesc, d3d10shader/ID3D10ShaderReflection::GetInputParameterDesc, direct3d10.id3d10shaderreflection_getinputparameterdesc
-ms.topic: method
 f1_keywords:
 - d3d10shader/ID3D10ShaderReflection.GetInputParameterDesc
 dev_langs:

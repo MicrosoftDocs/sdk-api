@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 0fd21930-1319-4ae7-b46f-2b744f4faae9
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_A_DATA, DNS_A_DATA, DNS_A_DATA structure [DNS], PDNS_A_DATA, PDNS_A_DATA structure pointer [DNS], _dns_dns_a_data, dns.dns_a_data, windns/DNS_A_DATA, windns/PDNS_A_DATA'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_A_DATA
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>DNS_A_DATA</b> structure represents a DNS address (A) record as specified in section 3.4.1 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
+<b>DNS_A_DATA</b> structure represents a DNS address (A) record as specified in section 3.4.1 of <a href="https://www.ietf.org/rfc/rfc1035.txt">RFC 1035</a>.
 
 
 ## -struct-fields

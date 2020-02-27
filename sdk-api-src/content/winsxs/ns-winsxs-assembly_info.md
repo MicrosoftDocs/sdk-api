@@ -7,7 +7,6 @@ tech.root: SbsCs
 ms.assetid: 4281b375-0edd-453b-9505-e7dc5bd586fc
 ms.date: 12/05/2018
 ms.keywords: ASSEMBLYINFO_FLAG_INSTALLED, ASSEMBLY_INFO, ASSEMBLY_INFO structure [Side-by-side Assemblies], setup.assembly_info_, winsxs/ASSEMBLY_INFO
-ms.topic: struct
 f1_keywords:
 - winsxs/ASSEMBLY_INFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: faf3ab18-2629-402f-96ad-41337c165fba
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [Windows Deployment Services], Disconnect method [Windows Deployment Services],IWdsTransportClient interface, IWdsTransportClient interface [Windows Deployment Services],Disconnect method, IWdsTransportClient.Disconnect, IWdsTransportClient::Disconnect, wds.iwdstransportclient_disconnect, wdstptmgmt/IWdsTransportClient::Disconnect
-ms.topic: method
 f1_keywords:
 - wdstptmgmt/IWdsTransportClient.Disconnect
 dev_langs:

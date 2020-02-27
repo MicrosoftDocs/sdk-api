@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: c0c23531-7629-41c9-acf2-9d2f5e98e02c
 ms.date: 12/05/2018
 ms.keywords: NotifyTeredoPortChange, NotifyTeredoPortChange function [IP Helper], iphlp.notifyteredoportchange, netioapi/NotifyTeredoPortChange
-ms.topic: function
 f1_keywords:
 - netioapi/NotifyTeredoPortChange
 dev_langs:
@@ -208,7 +207,7 @@ To deregister for change notifications, call the  <a href="https://docs.microsof
 
 An application cannot make a call to the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-cancelmibchangenotify2">CancelMibChangeNotify2</a> function from the context of the thread which is currently executing the notification callback function for the same <i>NotificationHandle</i> parameter. Otherwise, the thread executing that callback will result in deadlock. So the <b>CancelMibChangeNotify2</b> function must not be called directly as part of the notification callback routine. In a more general situation, a thread that executes the <b>CancelMibChangeNotify2</b> function cannot own a resource on which the thread that executes a notification callback operation would wait because it would result in a similar deadlock. The <b>CancelMibChangeNotify2</b> function should be called from a different thread, on which the thread that receives the notification callback doesn’t have dependencies on.
 
-The Teredo client also uses static UDP port 3544 for listening to multicast traffic sent on multicast IPv4 address 224.0.0.253 as defined in RFC 4380. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84066">http://www.ietf.org/rfc/rfc4380.txt</a>.
+The Teredo client also uses static UDP port 3544 for listening to multicast traffic sent on multicast IPv4 address 224.0.0.253 as defined in RFC 4380. For more information, see <a href="https://www.ietf.org/rfc/rfc4380.txt">http://www.ietf.org/rfc/rfc4380.txt</a>.
 
 The <b>NotifyTeredoPortChange</b> function is used primarily by firewall applications in order to configure the appropriate exceptions to allow incoming and outgoing Teredo traffic. 
 

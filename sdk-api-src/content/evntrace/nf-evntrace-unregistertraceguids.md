@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 1fa10f66-a78b-4f40-9518-72d48365246e
 ms.date: 12/05/2018
 ms.keywords: UnregisterTraceGuids, UnregisterTraceGuids function [ETW], _evt_unregistertraceguids, base.unregistertraceguids, etw.unregistertraceguids, evntrace/UnregisterTraceGuids
-ms.topic: function
 f1_keywords:
 - evntrace/UnregisterTraceGuids
 dev_langs:

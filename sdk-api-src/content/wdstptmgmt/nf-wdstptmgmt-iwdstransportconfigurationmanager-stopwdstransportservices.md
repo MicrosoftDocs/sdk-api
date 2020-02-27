@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 510dff2a-a459-4694-9c68-802d703ff716
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],StopWdsTransportServices method, IWdsTransportConfigurationManager.StopWdsTransportServices, IWdsTransportConfigurationManager::StopWdsTransportServices, StopWdsTransportServices, StopWdsTransportServices method [Windows Deployment Services], StopWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, wds.iwdstransportconfigurationmanager_stopwdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::StopWdsTransportServices
-ms.topic: method
 f1_keywords:
 - wdstptmgmt/IWdsTransportConfigurationManager.StopWdsTransportServices
 dev_langs:

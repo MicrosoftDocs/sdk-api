@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 7c9ff619-7c26-4dfb-aeac-fa80a1050cf0
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup interface [Security],PreUnInstall method, IMSCEPSetup.PreUnInstall, IMSCEPSetup::PreUnInstall, PreUnInstall, PreUnInstall method [Security], PreUnInstall method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::PreUnInstall, security.imscepsetup_preuninstall
-ms.topic: method
 f1_keywords:
 - casetup/IMSCEPSetup.PreUnInstall
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: dbb7cae6-7e9c-4ac5-8f02-372acaa4fb4d
 ms.date: 12/05/2018
 ms.keywords: GetJob, GetJob method [BITS], GetJob method [BITS],IBackgroundCopyManager interface, IBackgroundCopyManager interface [BITS],GetJob method, IBackgroundCopyManager.GetJob, IBackgroundCopyManager::GetJob, _drz_ibackgroundcopymanager_getjob, bits.ibackgroundcopymanager_getjob, bits/IBackgroundCopyManager::GetJob
-ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyManager.GetJob
 dev_langs:

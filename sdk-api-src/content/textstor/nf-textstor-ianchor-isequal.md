@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: a2dedce7-f64d-406a-bebc-9a4b51a1ae38
 ms.date: 12/05/2018
 ms.keywords: IAnchor interface [Text Services Framework],IsEqual method, IAnchor.IsEqual, IAnchor::IsEqual, IsEqual, IsEqual method [Text Services Framework], IsEqual method [Text Services Framework],IAnchor interface, textstor/IAnchor::IsEqual, tsf.ianchor_isequal
-ms.topic: method
 f1_keywords:
 - textstor/IAnchor.IsEqual
 dev_langs:

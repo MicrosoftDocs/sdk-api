@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: ef01a531-ddb0-4eb4-894b-82f613016396
 ms.date: 12/05/2018
 ms.keywords: INetFwPolicy2, INetFwPolicy2 interface [ICS/ICF], INetFwPolicy2 interface [ICS/ICF],described, ics.inetfwpolicy2, netfw/INetFwPolicy2
-ms.topic: interface
 f1_keywords:
 - netfw/INetFwPolicy2
 dev_langs:

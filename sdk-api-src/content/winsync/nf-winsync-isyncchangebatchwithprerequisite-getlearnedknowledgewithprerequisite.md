@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 691f2cc1-9acb-4474-b20a-31bb7810372e
 ms.date: 12/05/2018
 ms.keywords: GetLearnedKnowledgeWithPrerequisite, GetLearnedKnowledgeWithPrerequisite method [Windows Sync], GetLearnedKnowledgeWithPrerequisite method [Windows Sync],ISyncChangeBatchWithPrerequisite interface, ISyncChangeBatchWithPrerequisite interface [Windows Sync],GetLearnedKnowledgeWithPrerequisite method, ISyncChangeBatchWithPrerequisite.GetLearnedKnowledgeWithPrerequisite, ISyncChangeBatchWithPrerequisite::GetLearnedKnowledgeWithPrerequisite, winsync.isyncchangebatchwithprerequisite_getlearnedknowledgewithprerequisite, winsync/ISyncChangeBatchWithPrerequisite::GetLearnedKnowledgeWithPrerequisite
-ms.topic: method
 f1_keywords:
 - winsync/ISyncChangeBatchWithPrerequisite.GetLearnedKnowledgeWithPrerequisite
 dev_langs:

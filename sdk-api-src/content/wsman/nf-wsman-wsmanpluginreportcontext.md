@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 8bdfeabf-1028-4ddb-8953-455bbc2a1a1e
 ms.date: 12/05/2018
 ms.keywords: WSManPluginReportContext, WSManPluginReportContext function [Windows Remote Management], winrm.wsmanpluginreportcontext, wsman/WSManPluginReportContext
-ms.topic: function
 f1_keywords:
 - wsman/WSManPluginReportContext
 dev_langs:

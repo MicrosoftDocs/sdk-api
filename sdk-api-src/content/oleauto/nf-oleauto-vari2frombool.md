@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 34d95e98-ea21-411b-bd68-ad7be135778f
 ms.date: 12/05/2018
 ms.keywords: VarI2FromBool, VarI2FromBool function [Automation], _oa96_VarI2FromBool, automat.vari2frombool, oleauto/VarI2FromBool
-ms.topic: function
 f1_keywords:
 - oleauto/VarI2FromBool
 dev_langs:

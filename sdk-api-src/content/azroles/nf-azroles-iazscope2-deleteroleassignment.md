@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 8e28e09a-f9a4-4e6e-bb11-cfa1145f1ba1
 ms.date: 12/05/2018
 ms.keywords: DeleteRoleAssignment, DeleteRoleAssignment method [Security], DeleteRoleAssignment method [Security],IAzScope2 interface, IAzScope2 interface [Security],DeleteRoleAssignment method, IAzScope2.DeleteRoleAssignment, IAzScope2::DeleteRoleAssignment, azroles/IAzScope2::DeleteRoleAssignment, security.iazscope2_deleteroleassignment
-ms.topic: method
 f1_keywords:
 - azroles/IAzScope2.DeleteRoleAssignment
 dev_langs:

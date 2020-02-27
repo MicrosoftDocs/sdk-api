@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: c1520c9a-4360-4ac0-89b8-e80385668051
 ms.date: 12/05/2018
 ms.keywords: WS_DYNAMIC_STRING_CALLBACK, WS_DYNAMIC_STRING_CALLBACK callback, WS_DYNAMIC_STRING_CALLBACK callback function [Web Services for Windows], webservices/WS_DYNAMIC_STRING_CALLBACK, wsw.ws_dynamic_string_callback
-ms.topic: callback
 f1_keywords:
 - webservices/WS_DYNAMIC_STRING_CALLBACK
 dev_langs:

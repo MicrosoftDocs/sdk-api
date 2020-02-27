@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 77cb65cc-9785-4af4-9b92-245c17e5ab82
 ms.date: 12/05/2018
 ms.keywords: WMCreateSyncReader, WMCreateSyncReader function [windows Media Format], wmformat.wmcreatesyncreader, wmsdkidl/WMCreateSyncReader
-ms.topic: function
 f1_keywords:
 - wmsdkidl/WMCreateSyncReader
 dev_langs:

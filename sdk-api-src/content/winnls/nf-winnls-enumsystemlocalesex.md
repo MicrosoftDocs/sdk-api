@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 74b1b453-66e9-4724-a956-26cea2d7d744
 ms.date: 12/05/2018
 ms.keywords: EnumSystemLocalesEx, EnumSystemLocalesEx function [Internationalization for Windows Applications], _win32_EnumSystemLocalesEx, intl.enumsystemlocalesex, winnls/EnumSystemLocalesEx
-ms.topic: function
 f1_keywords:
 - winnls/EnumSystemLocalesEx
 dev_langs:

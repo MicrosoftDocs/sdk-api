@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 57901FAC-428C-437B-9C9B-2DB2D16049F8
 ms.date: 12/05/2018
 ms.keywords: CreateDeferredContext2, CreateDeferredContext2 method [Direct3D 11], CreateDeferredContext2 method [Direct3D 11],ID3D11Device2 interface, ID3D11Device2 interface [Direct3D 11],CreateDeferredContext2 method, ID3D11Device2.CreateDeferredContext2, ID3D11Device2::CreateDeferredContext2, d3d11_2/ID3D11Device2::CreateDeferredContext2, direct3d11.id3d11device2_createdeferredcontext2
-ms.topic: method
 f1_keywords:
 - d3d11_2/ID3D11Device2.CreateDeferredContext2
 dev_langs:

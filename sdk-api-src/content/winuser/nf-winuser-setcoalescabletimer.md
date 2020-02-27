@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: 39303811-972f-4131-deea-cebf84c50867
 ms.date: 12/05/2018
 ms.keywords: Any other value, SetCoalescableTimer, SetCoalescableTimer function [Windows and Messages], TIMERV_DEFAULT_COALESCING, TIMERV_NO_COALESCING, winmsg.setcoalescabletimer, winuser/SetCoalescableTimer
-ms.topic: function
 f1_keywords:
 - winuser/SetCoalescableTimer
 dev_langs:
@@ -147,7 +146,7 @@ Applications should set this value to the system default (<b>TIMERV_DEFAULT_COAL
 
 If the sum of <i>uElapse</i> and <i>uToleranceDelay</i> exceeds <b>USER_TIMER_MAXIMUM</b> (0x7FFFFFFF), an ERROR_INVALID_PARAMETER exception occurs.
 
-See <a href="http://go.microsoft.com/fwlink/p/?linkid=246618">Windows Timer Coalescing</a> for more details and best practices.
+See <a href="https://go.microsoft.com/fwlink/p/?linkid=246618">Windows Timer Coalescing</a> for more details and best practices.
 
 </td>
 </tr>
@@ -205,7 +204,7 @@ When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is 
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=255889">Coalescing timers sample</a>
+<a href="https://code.msdn.microsoft.com/windowsdesktop/Coalescable-Timer-Sample-d9da954c">Coalescing timers sample</a>
 
 
 

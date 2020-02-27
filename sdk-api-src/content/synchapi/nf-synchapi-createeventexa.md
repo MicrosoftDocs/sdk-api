@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 402a721d-8338-4df1-ba0b-074f868a1731
 ms.date: 12/05/2018
 ms.keywords: CREATE_EVENT_INITIAL_SET, CREATE_EVENT_MANUAL_RESET, CreateEventEx, CreateEventEx function, CreateEventExA, CreateEventExW, base.createeventex, synchapi/CreateEventEx, synchapi/CreateEventExA, synchapi/CreateEventExW, winbase/CreateEventEx, winbase/CreateEventExA, winbase/CreateEventExW
-ms.topic: function
 f1_keywords:
 - synchapi/CreateEventEx
 dev_langs:

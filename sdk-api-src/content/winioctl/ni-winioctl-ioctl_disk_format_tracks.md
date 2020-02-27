@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 9d6e0865-4b4d-4334-855b-3fbd26832591
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_FORMAT_TRACKS, IOCTL_DISK_FORMAT_TRACKS control, IOCTL_DISK_FORMAT_TRACKS control code [Files], _win32_ioctl_disk_format_tracks, base.ioctl_disk_format_tracks, fs.ioctl_disk_format_tracks, winioctl/IOCTL_DISK_FORMAT_TRACKS
-ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_DISK_FORMAT_TRACKS
 dev_langs:

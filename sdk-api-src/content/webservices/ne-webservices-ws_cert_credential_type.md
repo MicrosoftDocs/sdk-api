@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 8a14636a-1ec6-4d69-8fd9-bb67e80c73b1
 ms.date: 12/05/2018
 ms.keywords: WS_CERT_CREDENTIAL_TYPE, WS_CERT_CREDENTIAL_TYPE enumeration [Web Services for Windows], WS_CUSTOM_CERT_CREDENTIAL_TYPE, WS_SUBJECT_NAME_CERT_CREDENTIAL_TYPE, WS_THUMBPRINT_CERT_CREDENTIAL_TYPE, webservices/WS_CERT_CREDENTIAL_TYPE, webservices/WS_CUSTOM_CERT_CREDENTIAL_TYPE, webservices/WS_SUBJECT_NAME_CERT_CREDENTIAL_TYPE, webservices/WS_THUMBPRINT_CERT_CREDENTIAL_TYPE, wsw.ws_cert_credential_type
-ms.topic: enum
 f1_keywords:
 - webservices/WS_CERT_CREDENTIAL_TYPE
 dev_langs:

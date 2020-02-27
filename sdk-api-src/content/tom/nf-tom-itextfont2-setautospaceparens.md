@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 9a9290e0-221e-454a-af9c-9d1bf5d37b5e
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetAutospaceParens method, ITextFont2.SetAutospaceParens, ITextFont2::SetAutospaceParens, SetAutospaceParens, SetAutospaceParens method [Windows Controls], SetAutospaceParens method [Windows Controls],ITextFont2 interface, controls.itextfont2_setautospaceparens, tom/ITextFont2::SetAutospaceParens
-ms.topic: method
 f1_keywords:
 - tom/ITextFont2.SetAutospaceParens
 dev_langs:

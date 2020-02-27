@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 11c69ff9-b8a0-4168-8036-f45a9f7813ba
 ms.date: 12/05/2018
 ms.keywords: SHARDAPPIDINFOIDLIST, SHARDAPPIDINFOIDLIST structure [Windows Shell], _shell_SHARDAPPIDINFOIDLIST, shell.SHARDAPPIDINFOIDLIST, shlobj_core/SHARDAPPIDINFOIDLIST
-ms.topic: struct
 f1_keywords:
 - shlobj_core/SHARDAPPIDINFOIDLIST
 dev_langs:

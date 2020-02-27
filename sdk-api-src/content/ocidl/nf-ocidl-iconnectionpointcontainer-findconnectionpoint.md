@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: bbe55013-13ca-43e8-8d5e-ef89076df039
 ms.date: 12/05/2018
 ms.keywords: FindConnectionPoint, FindConnectionPoint method [COM], FindConnectionPoint method [COM],IConnectionPointContainer interface, IConnectionPointContainer interface [COM],FindConnectionPoint method, IConnectionPointContainer.FindConnectionPoint, IConnectionPointContainer::FindConnectionPoint, _com_iconnectionpointcontainer_findconnectionpoint, com.iconnectionpointcontainer_findconnectionpoint, ocidl/IConnectionPointContainer::FindConnectionPoint
-ms.topic: method
 f1_keywords:
 - ocidl/IConnectionPointContainer.FindConnectionPoint
 dev_langs:
@@ -122,7 +121,7 @@ This connectable object does not support the outgoing interface specified by <i>
 
 
 
-This method is the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> equivalent for an object's outgoing interfaces, where the outgoing interface is specified with <i>riid</i> and where the interface pointer returned is always that of a connection point.
+This method is the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> equivalent for an object's outgoing interfaces, where the outgoing interface is specified with <i>riid</i> and where the interface pointer returned is always that of a connection point.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 If the call is successful, the caller is responsible for releasing the connection point by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when the connection point is no longer needed.

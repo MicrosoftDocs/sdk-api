@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 2ad8d15f-de5e-424d-9349-3baccb000a36
 ms.date: 12/05/2018
 ms.keywords: HeapDestroy, HeapDestroy function, _win32_heapdestroy, base.heapdestroy, heapapi/HeapDestroy, winbase/HeapDestroy
-ms.topic: function
 f1_keywords:
 - heapapi/HeapDestroy
 dev_langs:

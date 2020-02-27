@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: ed3d6ea0-efe5-4917-85fa-bd9ad1978b4e
 ms.date: 12/05/2018
 ms.keywords: IXpsOMResource, IXpsOMResource interface [XPS Documents and Packaging], IXpsOMResource interface [XPS Documents and Packaging],described, xps.ixpsomresource, xpsobjectmodel/IXpsOMResource
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMResource
 dev_langs:
@@ -98,7 +97,7 @@ Used as the base interface  for the resource interfaces of the XPS object model.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

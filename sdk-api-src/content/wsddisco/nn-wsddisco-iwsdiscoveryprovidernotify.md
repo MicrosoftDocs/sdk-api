@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: e186f721-14d9-4d9b-942a-1c05ada2bee6
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProviderNotify, IWSDiscoveryProviderNotify interface, IWSDiscoveryProviderNotify interface,described, ncd.iwsdiscoveryprovidernotify, wsddisco/IWSDiscoveryProviderNotify
-ms.topic: interface
 f1_keywords:
 - wsddisco/IWSDiscoveryProviderNotify
 dev_langs:

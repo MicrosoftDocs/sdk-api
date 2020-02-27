@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 7449fcc8-76fc-4cc5-923c-9a5d53d2cd6b
 ms.date: 12/05/2018
 ms.keywords: IVssCreateWriterMetadata interface [VSS],SetBackupSchema method, IVssCreateWriterMetadata.SetBackupSchema, IVssCreateWriterMetadata::SetBackupSchema, SetBackupSchema, SetBackupSchema method [VSS], SetBackupSchema method [VSS],IVssCreateWriterMetadata interface, _win32_ivsscreatewritermetadata_setbackupschema, base.ivsscreatewritermetadata_setbackupschema, vswriter/IVssCreateWriterMetadata::SetBackupSchema
-ms.topic: method
 f1_keywords:
 - vswriter/IVssCreateWriterMetadata.SetBackupSchema
 dev_langs:

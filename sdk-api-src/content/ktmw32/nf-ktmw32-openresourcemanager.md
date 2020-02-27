@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: 396b586f-c594-4481-b095-862e9058519c
 ms.date: 12/05/2018
 ms.keywords: OpenResourceManager, OpenResourceManager function [Files], fs.openresourcemanager, ktmw32/OpenResourceManager
-ms.topic: function
 f1_keywords:
 - ktmw32/OpenResourceManager
 dev_langs:

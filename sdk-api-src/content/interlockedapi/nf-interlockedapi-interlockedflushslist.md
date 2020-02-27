@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 3fde3377-8a98-4976-a350-2c173b209e8c
 ms.date: 12/05/2018
 ms.keywords: InterlockedFlushSList, InterlockedFlushSList function, _win32_interlockedflushslist, base.interlockedflushslist, interlockedapi/InterlockedFlushSList, winbase/InterlockedFlushSList
-ms.topic: function
 f1_keywords:
 - interlockedapi/InterlockedFlushSList
 dev_langs:
@@ -118,7 +117,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a>
 
 
 

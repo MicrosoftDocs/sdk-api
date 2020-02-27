@@ -7,7 +7,6 @@ tech.root: NetShare
 ms.assetid: 2461c533-351b-48f4-b660-cb17ac3398fa
 ms.date: 12/05/2018
 ms.keywords: 0,1,2,or 502, 503, NetShareDelEx, NetShareDelEx function [Files], fs.netsharedelex, lmshare/NetShareDelEx
-ms.topic: function
 f1_keywords:
 - lmshare/NetShareDelEx
 dev_langs:

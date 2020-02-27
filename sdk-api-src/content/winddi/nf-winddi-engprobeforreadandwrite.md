@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 1b618bee-7069-410b-9a3d-65ee4b25874c
 ms.date: 12/05/2018
 ms.keywords: EngProbeForReadAndWrite, EngProbeForReadAndWrite function [Display Devices], display.engprobeforreadandwrite, gdifncs_a27f9e58-49c2-4c85-9f84-3aadc8776752.xml, winddi/EngProbeForReadAndWrite
-ms.topic: function
 f1_keywords:
 - winddi/EngProbeForReadAndWrite
 dev_langs:

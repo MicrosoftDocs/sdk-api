@@ -7,7 +7,6 @@ tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabasegetobject.htm
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [HTML Help Workshop], GetObject method [HTML Help Workshop],IITDatabase interface, IITDatabase interface [HTML Help Workshop],GetObject method, IITDatabase.GetObject, IITDatabase::GetObject, htmlhelp.iitdatabase_getobject, infotech/IITDatabase::GetObject, refIITDatabaseGetObject
-ms.topic: method
 f1_keywords:
 - infotech/IITDatabase.GetObject
 dev_langs:

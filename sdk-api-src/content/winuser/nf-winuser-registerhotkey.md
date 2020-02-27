@@ -7,7 +7,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\registerhotkey.htm
 ms.date: 12/05/2018
 ms.keywords: MOD_ALT, MOD_CONTROL, MOD_NOREPEAT, MOD_SHIFT, MOD_WIN, RegisterHotKey, RegisterHotKey function [Keyboard and Mouse Input], _win32_RegisterHotKey, _win32_registerhotkey_cpp, inputdev.registerhotkey, winui._win32_registerhotkey, winuser/RegisterHotKey
-ms.topic: function
 f1_keywords:
 - winuser/RegisterHotKey
 dev_langs:
@@ -256,15 +255,15 @@ int _cdecl _tmain (
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=528102">Register hotkey for the current app (CSRegisterHotkey)</a>
+<a href="https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples">Register hotkey for the current app (CSRegisterHotkey)</a>
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=528099">Register hotkey for the current app (CppRegisterHotkey)</a>
+<a href="https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples">Register hotkey for the current app (CppRegisterHotkey)</a>
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=528101">Register hotkey for the current app (VBRegisterHotkey)</a>
+<a href="https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples">Register hotkey for the current app (VBRegisterHotkey)</a>
 
 
 

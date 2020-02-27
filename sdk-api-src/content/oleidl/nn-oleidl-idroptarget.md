@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 13fbe834-1ef8-4944-b2e4-9f5c413c65c8
 ms.date: 12/05/2018
 ms.keywords: IDropTarget, IDropTarget interface [COM], IDropTarget interface [COM],described, _ole_idroptarget, com.idroptarget, oleidl/IDropTarget
-ms.topic: interface
 f1_keywords:
 - oleidl/IDropTarget
 dev_langs:

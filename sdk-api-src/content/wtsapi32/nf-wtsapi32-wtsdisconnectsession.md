@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 1e9487c2-7678-4f9c-9b0b-e6769718d027
 ms.date: 12/05/2018
 ms.keywords: WTSDisconnectSession, WTSDisconnectSession function [Remote Desktop Services], _win32_wtsdisconnectsession, termserv.wtsdisconnectsession, wtsapi32/WTSDisconnectSession
-ms.topic: function
 f1_keywords:
 - wtsapi32/WTSDisconnectSession
 dev_langs:

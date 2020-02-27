@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 77cce7a4-a0e6-48f7-933f-a216b13ddc93
 ms.date: 12/05/2018
 ms.keywords: DdGetBltStatus, DdGetBltStatus callback function [Display Devices], PDD_SURFCB_GETBLTSTATUS, PDD_SURFCB_GETBLTSTATUS callback, ddfncs_b4844b94-b4ec-402e-87c3-b7d83a980963.xml, ddrawint/DdGetBltStatus, display.ddgetbltstatus
-ms.topic: callback
 f1_keywords:
 - ddrawint/DdGetBltStatus
 dev_langs:

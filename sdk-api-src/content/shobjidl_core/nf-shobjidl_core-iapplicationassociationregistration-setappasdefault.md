@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 30870adb-793f-404f-809c-1ec34a1f6b82
 ms.date: 09/17/2019
 ms.keywords: IApplicationAssociationRegistration interface [Windows Shell],SetAppAsDefault method, IApplicationAssociationRegistration.SetAppAsDefault, IApplicationAssociationRegistration::SetAppAsDefault, SetAppAsDefault, SetAppAsDefault method [Windows Shell], SetAppAsDefault method [Windows Shell],IApplicationAssociationRegistration interface, _shell_IApplicationAssociationRegistration_SetAppAsDefault, shell.IApplicationAssociationRegistration_SetAppAsDefault, shobjidl_core/IApplicationAssociationRegistration::SetAppAsDefault
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IApplicationAssociationRegistration.SetAppAsDefault
 dev_langs:

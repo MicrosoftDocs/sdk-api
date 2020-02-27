@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: C16D037D-8E6C-4789-8947-D3BAC73D86FF
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSetupManager2, IWdsTransportSetupManager2 interface [Windows Deployment Services], IWdsTransportSetupManager2 interface [Windows Deployment Services],described, wds.iwdstransportsetupmanager2, wdstptmgmt/IWdsTransportSetupManager2
-ms.topic: interface
 f1_keywords:
 - wdstptmgmt/IWdsTransportSetupManager2
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 This interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportsetupmanager">IWdsTransportSetupManager</a> interface and extends it. It is available beginning with Windows Server 2012. 
 
-A client application can obtain an interface pointer to an instance of the <b>IWdsTransportSetupManager2</b> interface by first getting an interface pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportsetupmanager">IWdsTransportSetupManager</a> interface  and then using the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface Method</a>. 
+A client application can obtain an interface pointer to an instance of the <b>IWdsTransportSetupManager2</b> interface by first getting an interface pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportsetupmanager">IWdsTransportSetupManager</a> interface  and then using the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface Method</a>. 
 
 
 ## -see-also

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 4b2362c7-bfcb-40b8-813d-1a904149600e
 ms.date: 12/05/2018
 ms.keywords: GetTable, GetTable method [Microsoft TV Technologies], GetTable method [Microsoft TV Technologies],IPSITables interface, IPSITables interface [Microsoft TV Technologies],GetTable method, IPSITables.GetTable, IPSITables::GetTable, mpeg2psiparser/IPSITables::GetTable, mstv.ipsitables_gettable
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/IPSITables.GetTable
 dev_langs:

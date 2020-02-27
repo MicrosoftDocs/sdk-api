@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 345c66b9-fa8a-4adc-a929-39bddca6aeec
 ms.date: 12/05/2018
 ms.keywords: ISecurityObjectTypeInfo, ISecurityObjectTypeInfo interface [Security], ISecurityObjectTypeInfo interface [Security],described, aclui/ISecurityObjectTypeInfo, security.isecurityobjecttypeinfo
-ms.topic: interface
 f1_keywords:
 - aclui/ISecurityObjectTypeInfo
 dev_langs:

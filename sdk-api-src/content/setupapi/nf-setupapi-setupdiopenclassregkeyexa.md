@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: c931f906-8237-4203-b9b6-4dd54a93ca8b
 ms.date: 12/05/2018
 ms.keywords: SetupDiOpenClassRegKeyEx, SetupDiOpenClassRegKeyEx function [Device and Driver Installation], SetupDiOpenClassRegKeyExA, SetupDiOpenClassRegKeyExW, devinst.setupdiopenclassregkeyex, di-rtns_498e4805-8ce4-41cb-8d77-552dbf342f60.xml, setupapi/SetupDiOpenClassRegKeyEx
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiOpenClassRegKeyEx
 dev_langs:
@@ -104,7 +103,7 @@ Reserved. Must be <b>NULL</b>.
 
 <b>SetupDiOpenClassRegKeyEx</b> returns a handle to an opened registry key where information about this setup class can be stored/retrieved. 
 
-If the function fails, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+If the function fails, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 
@@ -117,7 +116,7 @@ Depending on the value that is passed in the <i>samDesired</i> parameter, it mig
 
 <b>SetupDiOpenClassRegKeyEx</b> does not create a registry key if it does not already exist.
 
-Callers of this function must close the handle returned from this function by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=194543">RegCloseKey</a>.
+Callers of this function must close the handle returned from this function by calling <a href="https://msdn.microsoft.com/library/ms724837(VS.85).aspx">RegCloseKey</a>.
 
 
 

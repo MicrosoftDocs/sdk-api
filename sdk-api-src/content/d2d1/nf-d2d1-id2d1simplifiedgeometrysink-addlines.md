@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 3f9c5106-6a4e-4623-8ce5-6f21f0380976
 ms.date: 12/05/2018
 ms.keywords: AddLines, AddLines method [Direct2D], AddLines method [Direct2D],ID2D1SimplifiedGeometrySink interface, ID2D1SimplifiedGeometrySink interface [Direct2D],AddLines method, ID2D1SimplifiedGeometrySink.AddLines, ID2D1SimplifiedGeometrySink::AddLines, d2d1/ID2D1SimplifiedGeometrySink::AddLines, direct2d.ID2D1SimplifiedGeometrySink_AddLines
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1SimplifiedGeometrySink.AddLines
 dev_langs:

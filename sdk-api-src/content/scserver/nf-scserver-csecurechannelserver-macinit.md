@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 92161bf3-8e2f-4b4a-a09a-98e33637df27
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],MACInit method, CSecureChannelServer.MACInit, CSecureChannelServer::MACInit, CSecureChannelServerMACInit, MACInit, MACInit method [windows Media Device Manager], MACInit method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::MACInit, wmdm.csecurechannelserver_macinit
-ms.topic: method
 f1_keywords:
 - scserver/CSecureChannelServer.MACInit
 dev_langs:

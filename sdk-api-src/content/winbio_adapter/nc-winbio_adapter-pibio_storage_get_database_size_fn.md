@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 98e26b32-3e2a-40d9-8463-9bd7e93c636b
 ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_GET_DATABASE_SIZE_FN, PIBIO_STORAGE_GET_DATABASE_SIZE_FN callback, StorageAdapterGetDatabaseSize, StorageAdapterGetDatabaseSize callback function [Windows Biometric Framework API], secbiomet.storageadaptergetdatabasesize, winbio_adapter/StorageAdapterGetDatabaseSize
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterGetDatabaseSize
 dev_langs:

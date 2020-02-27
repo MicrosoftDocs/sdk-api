@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: fd9d7e1d-5672-482f-ac83-efcab3adbac4
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],put_RequestedSectorType method, IDiscFormat2RawCD.put_RequestedSectorType, IDiscFormat2RawCD::put_RequestedSectorType, imapi.idiscformat2rawcd__put_requestedsectortype_, imapi2/IDiscFormat2RawCD::put_RequestedSectorType, put_RequestedSectorType, put_RequestedSectorType method [IMAPI], put_RequestedSectorType method [IMAPI],IDiscFormat2RawCD interface
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2RawCD.put_RequestedSectorType
 dev_langs:

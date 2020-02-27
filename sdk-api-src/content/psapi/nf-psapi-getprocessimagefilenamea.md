@@ -7,7 +7,6 @@ tech.root: psapi
 ms.assetid: 819fc2f4-0801-417b-9cbb-d7fd2894634e
 ms.date: 12/05/2018
 ms.keywords: GetProcessImageFileName, GetProcessImageFileName function [PSAPI], GetProcessImageFileNameA, GetProcessImageFileNameW, K32GetProcessImageFileName, K32GetProcessImageNameA, K32GetProcessImageNameW, _win32_getprocessimagefilename, base.getprocessimagefilename, psapi.getprocessimagefilename, psapi/GetProcessImageFileName, psapi/GetProcessImageFileNameA, psapi/GetProcessImageFileNameW, psapi/K32GetProcessImageFileName, psapi/K32GetProcessImageNameA, psapi/K32GetProcessImageNameW
-ms.topic: function
 f1_keywords:
 - psapi/GetProcessImageFileName
 dev_langs:

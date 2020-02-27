@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: efe2ceb7-32f5-4a43-b4d9-807fe66d6edb
 ms.date: 12/05/2018
 ms.keywords: MT_ARBITRARY_HEADER, MT_ARBITRARY_HEADER structure [Media Foundation], mf.mt_arbitrary_header, mfapi/MT_ARBITRARY_HEADER
-ms.topic: struct
 f1_keywords:
 - mfapi/MT_ARBITRARY_HEADER
 dev_langs:

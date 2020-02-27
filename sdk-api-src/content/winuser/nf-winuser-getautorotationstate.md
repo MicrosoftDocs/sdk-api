@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: E041717B-920E-44F8-AC7F-B30CB82F1476
 ms.date: 12/05/2018
 ms.keywords: GetAutoRotationState, GetAutoRotationState function, base.getautorotationstate, winuser/GetAutoRotationState
-ms.topic: function
 f1_keywords:
 - winuser/GetAutoRotationState
 dev_langs:

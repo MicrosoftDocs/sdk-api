@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: add700ee-48aa-47dd-8b55-6338dea05bfb
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetHwProfileListEx, SetupDiGetHwProfileListEx function [Device and Driver Installation], SetupDiGetHwProfileListExA, SetupDiGetHwProfileListExW, devinst.setupdigethwprofilelistex, di-rtns_ef3bbf07-27d9-48fc-86a2-1bdfc10cbc33.xml, setupapi/SetupDiGetHwProfileListEx
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetHwProfileListEx
 dev_langs:
@@ -94,7 +93,7 @@ Must be <b>NULL</b>.
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>. If the required size is larger than <i>HwProfileListSize</i>, <b>SetupDiGetHwProfileListEx</b> returns <b>FALSE</b> and a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER. 
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>. If the required size is larger than <i>HwProfileListSize</i>, <b>SetupDiGetHwProfileListEx</b> returns <b>FALSE</b> and a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER. 
 
 
 

@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 107fc253-58b3-479c-9cda-2c3b322e76f8
 ms.date: 12/05/2018
 ms.keywords: RtmCreateRouteListEnum, RtmCreateRouteListEnum function [RAS], _rtmv2ref_rtmcreateroutelistenum, rras.rtmcreateroutelistenum, rtmv2/RtmCreateRouteListEnum
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmCreateRouteListEnum
 dev_langs:

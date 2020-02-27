@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: a7a1e8d0-7645-423a-8123-a58ed7ae9827
 ms.date: 12/05/2018
 ms.keywords: CM_Is_Version_Available, CM_Is_Version_Available function [Device and Driver Installation], cfgmgr32/CM_Is_Version_Available, cfgmgrfn_dfae29e5-44ab-4bbc-b104-5ccd4914eea0.xml, devinst.cm_is_version_available
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Is_Version_Available
 dev_langs:

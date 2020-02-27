@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ec6dd7e2-b1f2-48fa-bf79-2688e286425e
 ms.date: 12/05/2018
 ms.keywords: IAMDevMemoryControl interface [DirectShow],QueryWriteSync method, IAMDevMemoryControl.QueryWriteSync, IAMDevMemoryControl::QueryWriteSync, IAMDevMemoryControlQueryWriteSync, QueryWriteSync, QueryWriteSync method [DirectShow], QueryWriteSync method [DirectShow],IAMDevMemoryControl interface, dshow.iamdevmemorycontrol_querywritesync, strmif/IAMDevMemoryControl::QueryWriteSync
-ms.topic: method
 f1_keywords:
 - strmif/IAMDevMemoryControl.QueryWriteSync
 dev_langs:

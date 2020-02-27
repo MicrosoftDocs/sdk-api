@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setitemextra.htm
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_SetItemExtra, TabCtrl_SetItemExtra macro [Windows Controls], _win32_TabCtrl_SetItemExtra, _win32_TabCtrl_SetItemExtra_cpp, commctrl/TabCtrl_SetItemExtra, controls.TabCtrl_SetItemExtra, controls._win32_TabCtrl_SetItemExtra
-ms.topic: macro
 f1_keywords:
 - commctrl/TabCtrl_SetItemExtra
 dev_langs:

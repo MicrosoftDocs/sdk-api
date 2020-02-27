@@ -7,7 +7,6 @@ tech.root: parcon
 ms.assetid: f825388f-c4de-4bf2-8076-6efd81b6e030
 ms.date: 12/05/2018
 ms.keywords: IWindowsParentalControls, IWindowsParentalControls interface, IWindowsParentalControls interface,described, parcon.iwindowsparentalcontrols, wpcapi/IWindowsParentalControls
-ms.topic: interface
 f1_keywords:
 - wpcapi/IWindowsParentalControls
 dev_langs:

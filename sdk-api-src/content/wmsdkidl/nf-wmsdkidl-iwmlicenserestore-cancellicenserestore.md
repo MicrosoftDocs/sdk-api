@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: b8a39804-5ee6-43ab-8e89-d1008217622d
 ms.date: 12/05/2018
 ms.keywords: CancelLicenseRestore, CancelLicenseRestore method [windows Media Format], CancelLicenseRestore method [windows Media Format],IWMLicenseRestore interface, IWMLicenseRestore interface [windows Media Format],CancelLicenseRestore method, IWMLicenseRestore.CancelLicenseRestore, IWMLicenseRestore::CancelLicenseRestore, IWMLicenseRestoreCancelLicenseRestore, wmformat.iwmlicenserestore_cancellicenserestore, wmsdkidl/IWMLicenseRestore::CancelLicenseRestore
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMLicenseRestore.CancelLicenseRestore
 dev_langs:
@@ -53,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>CancelLicenseRestore</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>CancelLicenseRestore</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 

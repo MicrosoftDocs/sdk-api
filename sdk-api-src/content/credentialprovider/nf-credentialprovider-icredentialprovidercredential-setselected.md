@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 06a0482c-100c-445f-9a77-279d85492f42
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetSelected method, ICredentialProviderCredential.SetSelected, ICredentialProviderCredential::SetSelected, SetSelected, SetSelected method [Windows Shell], SetSelected method [Windows Shell],ICredentialProviderCredential interface, _shell_ICredentialProviderCredential_SetSelected, credentialprovider/ICredentialProviderCredential::SetSelected, shell.ICredentialProviderCredential_SetSelected
-ms.topic: method
 f1_keywords:
 - credentialprovider/ICredentialProviderCredential.SetSelected
 dev_langs:

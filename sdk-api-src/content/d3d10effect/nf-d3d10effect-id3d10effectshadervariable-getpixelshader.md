@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshadervariable_getpixelshader.htm
 ms.date: 12/05/2018
 ms.keywords: GetPixelShader, GetPixelShader method [Direct3D 10], GetPixelShader method [Direct3D 10],ID3D10EffectShaderVariable interface, ID3D10EffectShaderVariable interface [Direct3D 10],GetPixelShader method, ID3D10EffectShaderVariable.GetPixelShader, ID3D10EffectShaderVariable::GetPixelShader, adc4b7de-5543-d8f7-55da-e344adb62a38, d3d10effect/ID3D10EffectShaderVariable::GetPixelShader, direct3d10.id3d10effectshadervariable_getpixelshader
-ms.topic: method
 f1_keywords:
 - d3d10effect/ID3D10EffectShaderVariable.GetPixelShader
 dev_langs:

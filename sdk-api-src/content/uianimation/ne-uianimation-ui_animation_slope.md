@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 17076489-4b66-44ae-87ac-39b02da0b542
 ms.date: 12/05/2018
 ms.keywords: UI_ANIMATION_SLOPE, UI_ANIMATION_SLOPE enumeration [Windows Animation], UI_ANIMATION_SLOPE_DECREASING, UI_ANIMATION_SLOPE_INCREASING, uianimation.ui_animation_slope, uianimation/UI_ANIMATION_SLOPE, uianimation/UI_ANIMATION_SLOPE_DECREASING, uianimation/UI_ANIMATION_SLOPE_INCREASING
-ms.topic: enum
 f1_keywords:
 - uianimation/UI_ANIMATION_SLOPE
 dev_langs:

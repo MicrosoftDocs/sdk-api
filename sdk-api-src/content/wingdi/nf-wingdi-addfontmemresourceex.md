@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: ad5153ba-fa9d-4a07-9be3-a07b524c1539
 ms.date: 12/05/2018
 ms.keywords: AddFontMemResourceEx, AddFontMemResourceEx function [Windows GDI], _win32_AddFontMemResourceEx, gdi.addfontmemresourceex, wingdi/AddFontMemResourceEx
-ms.topic: function
 f1_keywords:
 - wingdi/AddFontMemResourceEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 4d78015a-dfe1-49be-8523-a5b0f96f7c58
 ms.date: 12/05/2018
 ms.keywords: CreateChar16Array, CreateChar16Array method [Windows Runtime], CreateChar16Array method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateChar16Array method, IPropertyValueStatics.CreateChar16Array, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateChar16Array, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateChar16Array, winrt.ipropertyvaluefactory_createchar16array, winrt.ipropertyvaluestatics_createchar16array
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValueStatics.CreateChar16Array
 dev_langs:
@@ -76,7 +75,7 @@ The array of Unicode characters to store.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
 
-A pointer to a new object that contains <i>value</i>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
+A pointer to a new object that contains <i>value</i>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
 
 
 ## -returns

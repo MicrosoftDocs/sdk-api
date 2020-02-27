@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 7b1cf459-b140-4793-a9e0-4153a00b9bc2
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetLastPrinted method, IXpsOMCoreProperties.SetLastPrinted, IXpsOMCoreProperties::SetLastPrinted, SetLastPrinted, SetLastPrinted method [XPS Documents and Packaging], SetLastPrinted method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setlastprinted, xpsobjectmodel/IXpsOMCoreProperties::SetLastPrinted
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.SetLastPrinted
 dev_langs:
@@ -124,11 +123,11 @@ The <b>lastPrinted</b> property contains the date and time the package was last 
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

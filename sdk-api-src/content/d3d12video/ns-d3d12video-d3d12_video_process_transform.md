@@ -5,7 +5,6 @@ description: Specifies transform parameters for video processing.
 tech.root: mf
 ms.assetid: 1939e664-81b1-4138-8103-3d721e38d19a
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_VIDEO_PROCESS_TRANSFORM
 dev_langs:
@@ -40,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-Specifies transform parameters for video processing. Used by the [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS](ns-d3d12video-d3d12_video_process_input_stream_arguments) structure.
+Specifies transform parameters for video processing. Used by the [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS](ns-d3d12video-d3d12_video_process_input_stream_arguments.md) structure.
 
 ## -struct-fields
 

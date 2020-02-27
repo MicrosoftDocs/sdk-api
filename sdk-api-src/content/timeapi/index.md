@@ -1,9 +1,10 @@
 ---
 UID: NA:timeapi
+title: Timeapi.h header
 ms.assetid: 2edbce99-7063-381b-8699-e8e1ddea7a6b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: multimedia
 ---
 

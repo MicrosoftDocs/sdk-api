@@ -7,7 +7,6 @@ tech.root: direct3dhlsl
 ms.assetid: 9E27C70C-C266-48A6-81C7-E9A5E430B48B
 ms.date: 12/05/2018
 ms.keywords: D3DGetTraceInstructionOffsets, D3DGetTraceInstructionOffsets function [HLSL], d3dcompiler/D3DGetTraceInstructionOffsets, direct3dhlsl.d3dgettraceinstructionoffsets
-ms.topic: function
 f1_keywords:
 - d3dcompiler/D3DGetTraceInstructionOffsets
 dev_langs:

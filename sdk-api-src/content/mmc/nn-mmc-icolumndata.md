@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: fb2b8863-c476-4997-915d-329cf66fd945
 ms.date: 12/05/2018
 ms.keywords: IColumnData, IColumnData interface [MMC], IColumnData interface [MMC],described, _slate_icolumndata, mmc.icolumndata, mmc/IColumnData
-ms.topic: interface
 f1_keywords:
 - mmc/IColumnData
 dev_langs:

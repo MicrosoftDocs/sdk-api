@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: a08d97c9-8ee9-464e-862e-18c335695927
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],enumContainersWStr method, IEnroll.enumContainersWStr, IEnroll::enumContainersWStr, enumContainersWStr, enumContainersWStr method [Security], enumContainersWStr method [Security],IEnroll interface, security.ienroll4_enumcontainerswstr, xenroll/IEnroll::enumContainersWStr
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll.enumContainersWStr
 dev_langs:

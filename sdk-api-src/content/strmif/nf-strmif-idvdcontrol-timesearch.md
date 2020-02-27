@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c2e6848e-569e-44f0-b676-e22e4df07d8d
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],TimeSearch method, IDvdControl.TimeSearch, IDvdControl::TimeSearch, IDvdControlTimeSearch, TimeSearch, TimeSearch method [DirectShow], TimeSearch method [DirectShow],IDvdControl interface, dshow.idvdcontrol_timesearch, strmif/IDvdControl::TimeSearch
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.TimeSearch
 dev_langs:
@@ -65,7 +64,7 @@ Halts playback of the current chapter and starts playback from the specified tim
 
 ### -param bcdTime
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_timecode">DVD_TIMECODE</a> structure where DirectShow will start playback.
+Pointer to the [DVD_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_timecode) structure where DirectShow will start playback.
 
 
 ## -returns
@@ -81,7 +80,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method returns an error unless the domain is DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 114b0449-a45e-42e5-9e68-428c40a388cf
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getByName method, IWMPMediaCollection.getByName, IWMPMediaCollection::getByName, IWMPMediaCollectiongetByName, getByName, getByName method [Windows Media Player], getByName method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getbyname, wmp/IWMPMediaCollection::getByName
-ms.topic: method
 f1_keywords:
 - wmp/IWMPMediaCollection.getByName
 dev_langs:

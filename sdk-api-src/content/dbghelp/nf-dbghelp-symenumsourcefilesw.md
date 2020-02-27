@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 4649bdc6-74c5-4529-bedc-64e0277144d0
 ms.date: 12/05/2018
 ms.keywords: SymEnumSourceFiles, SymEnumSourceFiles function, SymEnumSourceFilesW, base.symenumsourcefiles, dbghelp/SymEnumSourceFiles, dbghelp/SymEnumSourceFilesW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymEnumSourceFiles
 dev_langs:

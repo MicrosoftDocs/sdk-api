@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 966fec07-6a67-435a-8908-67999afce9f0
 ms.date: 12/05/2018
 ms.keywords: DisplayParseError, DisplayParseError method [Windows Shell], DisplayParseError method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],DisplayParseError method, IBrowserService.DisplayParseError, IBrowserService::DisplayParseError, shdeprecated/IBrowserService::DisplayParseError, shell.IBrowserService_DisplayParseError, zone_IBrowserService_DisplayParseError
-ms.topic: method
 f1_keywords:
 - shdeprecated/IBrowserService.DisplayParseError
 dev_langs:

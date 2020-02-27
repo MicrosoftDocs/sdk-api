@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: d4513e15-dfe7-4919-a278-d386f25e65e5
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Direct3D 11], Close method [Direct3D 11],ID3DInclude interface, ID3DInclude interface [Direct3D 11],Close method, ID3DInclude.Close, ID3DInclude::Close, d3dcommon/ID3DInclude::Close, direct3d11.id3dinclude_close
-ms.topic: method
 f1_keywords:
 - d3dcommon/ID3DInclude.Close
 dev_langs:

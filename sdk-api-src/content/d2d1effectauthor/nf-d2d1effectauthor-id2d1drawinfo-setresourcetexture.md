@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 6E53577B-AD97-4530-8260-4A99B90E0581
 ms.date: 12/05/2018
 ms.keywords: ID2D1DrawInfo interface [Direct2D],SetResourceTexture method, ID2D1DrawInfo.SetResourceTexture, ID2D1DrawInfo::SetResourceTexture, SetResourceTexture, SetResourceTexture method [Direct2D], SetResourceTexture method [Direct2D],ID2D1DrawInfo interface, d2d1effectauthor/ID2D1DrawInfo::SetResourceTexture, direct2d.id2d1drawinfo_setresourcetexture
-ms.topic: method
 f1_keywords:
 - d2d1effectauthor/ID2D1DrawInfo.SetResourceTexture
 dev_langs:

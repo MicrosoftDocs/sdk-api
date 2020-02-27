@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 99ff3102-c6a7-4510-b137-70d766acd1ae
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, IXpsOMFontResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMFontResourceCollection.GetCount, IXpsOMFontResourceCollection::GetCount, xps.ixpsomfontresourcecollection_getcount, xpsobjectmodel/IXpsOMFontResourceCollection::GetCount
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMFontResourceCollection.GetCount
 dev_langs:
@@ -98,7 +97,7 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

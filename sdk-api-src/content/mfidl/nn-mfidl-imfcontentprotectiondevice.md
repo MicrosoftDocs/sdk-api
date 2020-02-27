@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: A95F6526-60D2-4922-897E-6369EBB0DC79
 ms.date: 12/05/2018
 ms.keywords: IMFContentProtectionDevice, IMFContentProtectionDevice interface [Media Foundation], IMFContentProtectionDevice interface [Media Foundation],described, mf.imfcontentprotectiondevice, mfidl/IMFContentProtectionDevice
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFContentProtectionDevice
 dev_langs:

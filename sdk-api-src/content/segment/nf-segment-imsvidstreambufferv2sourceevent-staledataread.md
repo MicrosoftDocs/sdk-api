@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 8eb53b77-94a3-4216-a32f-22338d84f5ad
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],StaleDataRead method, IMSVidStreamBufferV2SourceEvent.StaleDataRead, IMSVidStreamBufferV2SourceEvent::StaleDataRead, StaleDataRead, StaleDataRead method [Microsoft TV Technologies], StaleDataRead method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, mstv.imsvidstreambufferv2sourceevent_staledataread, segment/IMSVidStreamBufferV2SourceEvent::StaleDataRead
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferV2SourceEvent.StaleDataRead
 dev_langs:

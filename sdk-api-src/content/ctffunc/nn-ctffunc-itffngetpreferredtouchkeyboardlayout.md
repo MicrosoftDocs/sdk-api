@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 1BC4A446-AEDC-44AA-9BD7-786917AD2556
 ms.date: 12/05/2018
 ms.keywords: ITfFnGetPreferredTouchKeyboardLayout, ITfFnGetPreferredTouchKeyboardLayout interface [Text Services Framework], ITfFnGetPreferredTouchKeyboardLayout interface [Text Services Framework],described, ctffunc/ITfFnGetPreferredTouchKeyboardLayout, tsf.itffngetpreferredtouchkeyboardlayout
-ms.topic: interface
 f1_keywords:
 - ctffunc/ITfFnGetPreferredTouchKeyboardLayout
 dev_langs:

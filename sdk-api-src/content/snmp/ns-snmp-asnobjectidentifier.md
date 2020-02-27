@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 695e5581-00df-49af-8abe-1dd1b25cb215
 ms.date: 12/05/2018
 ms.keywords: AsnObjectIdentifier, AsnObjectIdentifier structure [SNMP], AsnObjectName, _snmp_asnobjectidentifier_str, snmp.asnobjectidentifier_str, snmp/AsnObjectIdentifier
-ms.topic: struct
 f1_keywords:
 - snmp/AsnObjectIdentifier
 dev_langs:

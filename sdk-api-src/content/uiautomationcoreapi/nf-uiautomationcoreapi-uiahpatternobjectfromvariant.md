@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: dd5d0d4b-75fa-4215-bd48-79d58a9a4862
 ms.date: 12/05/2018
 ms.keywords: UiaHPatternObjectFromVariant, UiaHPatternObjectFromVariant function [Windows Accessibility], uiauto.uiauto_UiaHPatternObjectFromVariantFunction, uiauto_UiaHPatternObjectFromVariantFunction, uiautomationcoreapi/UiaHPatternObjectFromVariant, winauto.uiauto_UiaHPatternObjectFromVariantFunction
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaHPatternObjectFromVariant
 dev_langs:

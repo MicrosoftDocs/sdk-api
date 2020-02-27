@@ -7,7 +7,6 @@ tech.root: proc_snap
 ms.assetid: D629FA42-B501-4A0E-9B53-6D70E580B687
 ms.date: 12/05/2018
 ms.keywords: PSS_PROCESS_INFORMATION, PSS_PROCESS_INFORMATION structure, proc_snap.pss_process_information, processsnapshot/PSS_PROCESS_INFORMATION
-ms.topic: struct
 f1_keywords:
 - processsnapshot/PSS_PROCESS_INFORMATION
 dev_langs:

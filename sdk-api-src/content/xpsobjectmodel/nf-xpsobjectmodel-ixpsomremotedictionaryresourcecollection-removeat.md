@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: a144a3b4-3935-4377-b97d-3d3a723ea3b7
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMRemoteDictionaryResourceCollection.RemoveAt, IXpsOMRemoteDictionaryResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, xps.ixpsomremotedictionaryresourcecollection_removeat, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::RemoveAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection.RemoveAt
 dev_langs:
@@ -100,7 +99,7 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

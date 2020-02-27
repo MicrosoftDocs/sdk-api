@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 0495ecf1-128a-4576-8420-0e79f1454015
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataReader, IWICMetadataReader interface [Windows Imaging Component], IWICMetadataReader interface [Windows Imaging Component],described, _wic_codec_iwicmetadatareader, wic._wic_codec_iwicmetadatareader, wincodecsdk/IWICMetadataReader
-ms.topic: interface
 f1_keywords:
 - wincodecsdk/IWICMetadataReader
 dev_langs:

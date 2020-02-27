@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 266a7d80-b4bc-42f2-ba76-a69cab9e2c12
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetAppLaunchInfo, PeerCollabGetAppLaunchInfo function [Peer Networking], p2p.peercollabgetapplaunchinfo, p2p/PeerCollabGetAppLaunchInfo
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabGetAppLaunchInfo
 dev_langs:

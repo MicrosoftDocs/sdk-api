@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 1f5d9576-0948-429b-b136-1b02d7197fcc
 ms.date: 12/05/2018
 ms.keywords: GetOwnerIntegrityLevel, GetOwnerIntegrityLevel method [BITS], GetOwnerIntegrityLevel method [BITS],IBackgroundCopyJob4 interface, IBackgroundCopyJob4 interface [BITS],GetOwnerIntegrityLevel method, IBackgroundCopyJob4.GetOwnerIntegrityLevel, IBackgroundCopyJob4::GetOwnerIntegrityLevel, bits.ibackgroundcopyjob4_getownerintegritylevel, bits3_0/IBackgroundCopyJob4::GetOwnerIntegrityLevel
-ms.topic: method
 f1_keywords:
 - bits3_0/IBackgroundCopyJob4.GetOwnerIntegrityLevel
 dev_langs:

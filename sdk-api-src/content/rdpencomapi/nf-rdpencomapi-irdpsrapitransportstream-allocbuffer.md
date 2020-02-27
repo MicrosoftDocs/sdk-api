@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 5e53aedb-d3a2-4468-9df9-f058485d7bc4
 ms.date: 12/05/2018
 ms.keywords: AllocBuffer, AllocBuffer method [RDP], AllocBuffer method [RDP],IRDPSRAPITransportStream interface, IRDPSRAPITransportStream interface [RDP],AllocBuffer method, IRDPSRAPITransportStream.AllocBuffer, IRDPSRAPITransportStream::AllocBuffer, rdp.irdpsrapitransportstream_allocbuffer, rdpencomapi/IRDPSRAPITransportStream::AllocBuffer
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPITransportStream.AllocBuffer
 dev_langs:

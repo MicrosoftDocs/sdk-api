@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: e5b2721a-fd0a-483d-a94c-6e1520f5764c
 ms.date: 12/05/2018
 ms.keywords: GetIconPath, GetIconPath method [Core Audio], GetIconPath method [Core Audio],IAudioSessionControl interface, IAudioSessionControl interface [Core Audio],GetIconPath method, IAudioSessionControl.GetIconPath, IAudioSessionControl::GetIconPath, IAudioSessionControlGetIconPath, audiopolicy/IAudioSessionControl::GetIconPath, coreaudio.iaudiosessioncontrol_geticonpath
-ms.topic: method
 f1_keywords:
 - audiopolicy/IAudioSessionControl.GetIconPath
 dev_langs:

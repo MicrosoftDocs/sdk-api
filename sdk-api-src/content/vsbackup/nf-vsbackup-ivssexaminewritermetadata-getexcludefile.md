@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 886d526f-c477-4c1c-80b0-65e3ea227142
 ms.date: 12/05/2018
 ms.keywords: GetExcludeFile, GetExcludeFile method [VSS], GetExcludeFile method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetExcludeFile method, IVssExamineWriterMetadata.GetExcludeFile, IVssExamineWriterMetadata::GetExcludeFile, _win32_ivssexaminewritermetadata_getexcludefile, base.ivssexaminewritermetadata_getexcludefile, vsbackup/IVssExamineWriterMetadata::GetExcludeFile
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssExamineWriterMetadata.GetExcludeFile
 dev_langs:

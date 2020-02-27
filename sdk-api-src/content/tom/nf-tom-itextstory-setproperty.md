@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 432afe58-a1ed-45aa-b018-bf608bbb7e2a
 ms.date: 12/05/2018
 ms.keywords: ITextStory interface [Windows Controls],SetProperty method, ITextStory.SetProperty, ITextStory::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextStory interface, controls.itextstory_setproperty, tom/ITextStory::SetProperty
-ms.topic: method
 f1_keywords:
 - tom/ITextStory.SetProperty
 dev_langs:

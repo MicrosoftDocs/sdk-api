@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 773de760-5fde-4975-ba8d-d20b3affb4a7
 ms.date: 12/05/2018
 ms.keywords: IDownloadProgress, IDownloadProgress interface [Windows Update Agent], IDownloadProgress interface [Windows Update Agent],described, wua.idownloadprogress, wuapi/IDownloadProgress
-ms.topic: interface
 f1_keywords:
 - wuapi/IDownloadProgress
 dev_langs:

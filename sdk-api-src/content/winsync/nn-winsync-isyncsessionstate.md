@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 9b03d5af-b5f5-49fa-a10e-9f9f3c1dab0e
 ms.date: 12/05/2018
 ms.keywords: ISyncSessionState, ISyncSessionState interface [Windows Sync], ISyncSessionState interface [Windows Sync],described, winsync.isyncsessionstate, winsync/ISyncSessionState
-ms.topic: interface
 f1_keywords:
 - winsync/ISyncSessionState
 dev_langs:

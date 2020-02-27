@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: cc3ca533-d523-4889-b3c7-bb306e49b85b
 ms.date: 12/05/2018
 ms.keywords: ITPhoneEvent, ITPhoneEvent interface [TAPI 2.2], ITPhoneEvent interface [TAPI 2.2],described, _tapi3_itphoneevent, tapi3.itphoneevent, tapi3if/ITPhoneEvent
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITPhoneEvent
 dev_langs:

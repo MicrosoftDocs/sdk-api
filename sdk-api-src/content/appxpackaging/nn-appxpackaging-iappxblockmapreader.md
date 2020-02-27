@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 233539FD-E3BE-4783-9F23-B34F6397FBBE
 ms.date: 12/05/2018
 ms.keywords: IAppxBlockMapReader, IAppxBlockMapReader interface [App packaging and management], IAppxBlockMapReader interface [App packaging and management],described, appxpackaging/IAppxBlockMapReader, appxpkg.iappxblockmapreader
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxBlockMapReader
 dev_langs:
@@ -118,7 +117,7 @@ This object can be retrieved using the <a href="https://docs.microsoft.com/windo
 
 #### Examples
 
-For a example code, see <a href="http://go.microsoft.com/fwlink/p/?linkid=236966">Read app package manifest info sample (DescribeAppx)</a>.
+For a example code, see <a href="https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-3ff13a92">Read app package manifest info sample (DescribeAppx)</a>.
 
 <div class="code"></div>
 
@@ -145,7 +144,7 @@ For a example code, see <a href="http://go.microsoft.com/fwlink/p/?linkid=236966
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=236966">Read app package manifest info sample (DescribeAppx)</a>
+<a href="https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-3ff13a92">Read app package manifest info sample (DescribeAppx)</a>
 
 
 

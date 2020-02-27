@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: e5c346db-b33a-4420-b9e1-c634dcffa134
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetRepeat, MCIWndGetRepeat macro [Windows Multimedia], _win32_MCIWndGetRepeat, multimedia.mciwndgetrepeat, vfw/MCIWndGetRepeat
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndGetRepeat
 dev_langs:

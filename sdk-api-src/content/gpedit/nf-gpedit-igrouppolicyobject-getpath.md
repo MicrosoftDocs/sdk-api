@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: ecfecaa4-eb6e-4de6-a5fe-ecd0e9df886c
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method [Group Policy], GetPath method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetPath method, IGroupPolicyObject.GetPath, IGroupPolicyObject::GetPath, _win32_igrouppolicyobject_getpath, gpedit/IGroupPolicyObject::GetPath, policy.igrouppolicyobject_getpath
-ms.topic: method
 f1_keywords:
 - gpedit/IGroupPolicyObject.GetPath
 dev_langs:

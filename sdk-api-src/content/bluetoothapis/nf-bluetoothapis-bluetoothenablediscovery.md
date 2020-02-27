@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: ca28c9cd-a271-48fa-901c-e99e063854d5
 ms.date: 12/05/2018
 ms.keywords: BluetoothEnableDiscovery, BluetoothEnableDiscovery function [Bluetooth], bluetooth.bluetoothenablediscovery, bluetoothapis/BluetoothEnableDiscovery
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothEnableDiscovery
 dev_langs:

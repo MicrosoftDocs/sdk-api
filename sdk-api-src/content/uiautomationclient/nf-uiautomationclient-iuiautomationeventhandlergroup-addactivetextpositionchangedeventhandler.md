@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: D3A09F61-5536-409E-BFA2-63D6E4A774A2
 ms.date: 12/05/2018
 ms.keywords: AddActiveTextPositionChangedEventHandler, AddActiveTextPositionChangedEventHandler method [Windows Accessibility], AddActiveTextPositionChangedEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddActiveTextPositionChangedEventHandler method, IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler, IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler, winauto.uiauto_IUIAutomationEventHandlerGroup_AddActiveTextPositionChangedEventHandler
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler
 dev_langs:

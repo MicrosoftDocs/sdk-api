@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: cfae9e97-c714-40fb-88ab-95e12ea3ffa9
 ms.date: 12/05/2018
 ms.keywords: '*LPENUMLOGFONTW, ENUMLOGFONT, ENUMLOGFONT structure [Windows GDI], ENUMLOGFONTA, ENUMLOGFONTW, LPENUMLOGFONT, LPENUMLOGFONT structure pointer [Windows GDI], _win32_ENUMLOGFONT_str, gdi.enumlogfont, wingdi/ENUMLOGFONT, wingdi/ENUMLOGFONTA, wingdi/ENUMLOGFONTW, wingdi/LPENUMLOGFONT'
-ms.topic: struct
 f1_keywords:
 - wingdi/ENUMLOGFONT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 992d1fcc-423f-4d6f-9004-561f55b5c799
 ms.date: 12/05/2018
 ms.keywords: VarI4FromBool, VarI4FromBool function [Automation], _oa96_VarI4FromBool, automat.vari4frombool, oleauto/VarI4FromBool
-ms.topic: function
 f1_keywords:
 - oleauto/VarI4FromBool
 dev_langs:

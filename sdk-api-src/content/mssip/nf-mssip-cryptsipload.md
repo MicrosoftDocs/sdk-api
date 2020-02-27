@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 3378ecee-bd5d-45e5-9a1f-a3734d086782
 ms.date: 12/05/2018
 ms.keywords: CryptSIPLoad, CryptSIPLoad function [Security], mssip/CryptSIPLoad, security.cryptsipload
-ms.topic: function
 f1_keywords:
 - mssip/CryptSIPLoad
 dev_langs:

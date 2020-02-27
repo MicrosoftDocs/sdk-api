@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 09476d3b-ec65-40a2-90ee-a20be230deca
 ms.date: 12/05/2018
 ms.keywords: '*PPEER_ADDRESS, PEER_ADDRESS, PEER_ADDRESS structure [Peer Networking], PPEER_ADDRESS, PPEER_ADDRESS structure pointer [Peer Networking], p2p.peer_address, p2p/PPEER_ADDRESS, p2p/peer_address_tag'
-ms.topic: struct
 f1_keywords:
 - p2p/PEER_ADDRESS
 dev_langs:

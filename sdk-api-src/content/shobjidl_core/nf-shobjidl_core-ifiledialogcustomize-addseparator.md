@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e2d0f1c7-9296-4651-8910-89dcfe5a6a68
 ms.date: 12/05/2018
 ms.keywords: AddSeparator, AddSeparator method [Windows Shell], AddSeparator method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddSeparator method, IFileDialogCustomize.AddSeparator, IFileDialogCustomize::AddSeparator, shell.IFileDialogCustomize_AddSeparator, shell_IFileDialogCustomize_AddSeparator, shobjidl_core/IFileDialogCustomize::AddSeparator
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileDialogCustomize.AddSeparator
 dev_langs:

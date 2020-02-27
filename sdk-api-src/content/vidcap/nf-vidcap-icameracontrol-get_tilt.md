@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8e9d9176-fb27-4221-876b-49f407289877
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_Tilt method, ICameraControl.get_Tilt, ICameraControl::get_Tilt, ICameraControlget_Tilt, dshow.icameracontrol_get_tilt, get_Tilt, get_Tilt method [DirectShow], get_Tilt method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_Tilt
-ms.topic: method
 f1_keywords:
 - vidcap/ICameraControl.get_Tilt
 dev_langs:

@@ -5,7 +5,6 @@ description: Describes the supported scaling range of output sizes for a video s
 tech.root: mf
 ms.assetid: f05d3e73-5912-4d1b-92c1-fba067719001
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_VIDEO_SCALE_SUPPORT
 dev_langs:
@@ -46,11 +45,11 @@ Describes the supported scaling range of output sizes for a video scaler.
 
 ### -field OutputSizeRange
 
-A [D3D12_VIDEO_SIZE_RANGE](ns-d3d12video-d3d12_video_size_range) structure describing the supported output size range for the scaler.
+A [D3D12_VIDEO_SIZE_RANGE](ns-d3d12video-d3d12_video_size_range.md) structure describing the supported output size range for the scaler.
  
 ### -field Flags
 
-A member of the [D3D12_VIDEO_SCALE_SUPPORT_FLAGS](ne-d3d12video-d3d12_video_scale_support_flags) enumeration specifying the supported scaling capabilities of the scaler. 
+A member of the [D3D12_VIDEO_SCALE_SUPPORT_FLAGS](ne-d3d12video-d3d12_video_scale_support_flags.md) enumeration specifying the supported scaling capabilities of the scaler. 
  
 
 ## -remarks

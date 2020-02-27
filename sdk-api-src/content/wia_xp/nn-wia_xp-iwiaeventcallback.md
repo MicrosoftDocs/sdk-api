@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaeventcallback\iwiaeventcallback.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaEventCallback, IWiaEventCallback interface [WIA], IWiaEventCallback interface [WIA],described, _wia_IWiaEventCallback, wia._wia_IWiaEventCallback, wia_xp/IWiaEventCallback
-ms.topic: interface
 f1_keywords:
 - wia_xp/IWiaEventCallback
 dev_langs:
@@ -94,7 +93,7 @@ The <b>IWiaEventCallback</b> interface, like all Component Object Model (COM) in
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>
 </td>
 <td>Returns pointers to supported interfaces.</td>
 </tr>

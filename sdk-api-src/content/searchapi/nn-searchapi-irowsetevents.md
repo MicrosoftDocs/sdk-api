@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\irowsetevents.htm
 ms.date: 12/05/2018
 ms.keywords: IRowsetEvents, IRowsetEvents interface [search], IRowsetEvents interface [search],described, _search_IRowsetEvents, search._search_IRowsetEvents, searchapi/IRowsetEvents
-ms.topic: interface
 f1_keywords:
 - searchapi/IRowsetEvents
 dev_langs:

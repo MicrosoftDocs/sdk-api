@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\region.htm
 ms.date: 12/05/2018
 ms.keywords: Region, Region class [GDI+], Region class [GDI+],described, _gdiplus_CLASS_Region_Class, gdiplus._gdiplus_CLASS_Region_Class, gdiplusheaders/Region
-ms.topic: class
 f1_keywords:
 - gdiplusheaders/Region
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 44f19c10-c966-4ab6-98dd-865d535955db
 ms.date: 12/05/2018
 ms.keywords: GatherWriterMetadata, GatherWriterMetadata method [VSS], GatherWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GatherWriterMetadata method, IVssBackupComponents.GatherWriterMetadata, IVssBackupComponents::GatherWriterMetadata, _win32_ivssbackupcomponents_gatherwritermetadata, base.ivssbackupcomponents_gatherwritermetadata, vsbackup/IVssBackupComponents::GatherWriterMetadata
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.GatherWriterMetadata
 dev_langs:

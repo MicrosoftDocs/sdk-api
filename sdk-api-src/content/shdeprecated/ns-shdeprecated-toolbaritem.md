@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7378f2f3-c164-46fe-9989-a7a57fceb48a
 ms.date: 12/05/2018
 ms.keywords: '*LPTOOLBARITEM, LPTOOLBARITEM, LPTOOLBARITEM structure pointer [Windows Shell], TOOLBARITEM, TOOLBARITEM structure [Windows Shell], _shell_TOOLBARITEM, shdeprecated/LPTOOLBARITEM, shdeprecated/TOOLBARITEM, shell.TOOLBARITEM'
-ms.topic: struct
 f1_keywords:
 - shdeprecated/TOOLBARITEM
 dev_langs:

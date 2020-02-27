@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 980ba1ef-d86a-47f6-9876-84b5a099d14d
 ms.date: 12/05/2018
 ms.keywords: _win32_capCaptureSingleFrameOpen, capCaptureSingleFrameOpen, capCaptureSingleFrameOpen macro [Windows Multimedia], multimedia.capcapturesingleframeopen, vfw/capCaptureSingleFrameOpen
-ms.topic: macro
 f1_keywords:
 - vfw/capCaptureSingleFrameOpen
 dev_langs:

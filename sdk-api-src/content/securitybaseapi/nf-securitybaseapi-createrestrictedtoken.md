@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: e087f360-5d1d-4846-b3d6-214a426e5222
 ms.date: 12/05/2018
 ms.keywords: CreateRestrictedToken, CreateRestrictedToken function [Security], DISABLE_MAX_PRIVILEGE, LUA_TOKEN, SANDBOX_INERT, WRITE_RESTRICTED, _win32_createrestrictedtoken, security.createrestrictedtoken, securitybaseapi/CreateRestrictedToken
-ms.topic: function
 f1_keywords:
 - securitybaseapi/CreateRestrictedToken
 dev_langs:
@@ -98,7 +97,7 @@ Disables all privileges in the new token except the <b>SeChangeNotifyPrivilege</
 </dl>
 </td>
 <td width="60%">
-If this value is used, the system does not check <a href="http://go.microsoft.com/fwlink/p/?linkid=161970">AppLocker</a> rules  or apply <a href="http://go.microsoft.com/fwlink/p/?linkid=161971">Software Restriction Policies</a>. For <a href="http://go.microsoft.com/fwlink/p/?linkid=161970">AppLocker</a>, this flag disables checks for all four rule collections: Executable, Windows Installer, Script, and DLL.
+If this value is used, the system does not check <a href="https://technet.microsoft.com/library/dd723678.aspx">AppLocker</a> rules  or apply <a href="https://technet.microsoft.com/library/cc779607.aspx">Software Restriction Policies</a>. For <a href="https://technet.microsoft.com/library/dd723678.aspx">AppLocker</a>, this flag disables checks for all four rule collections: Executable, Windows Installer, Script, and DLL.
 
 When creating a setup program that must run extracted DLLs during installation, use the flag <b>SAFER_TOKEN_MAKE_INERT</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/nf-winsafer-safercomputetokenfromlevel">SaferComputeTokenFromLevel</a> function.
 

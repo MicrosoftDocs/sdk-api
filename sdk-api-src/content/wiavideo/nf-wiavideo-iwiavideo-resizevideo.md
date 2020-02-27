@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\resizevideo.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaVideo interface [WIA],ResizeVideo method, IWiaVideo.ResizeVideo, IWiaVideo::ResizeVideo, ResizeVideo, ResizeVideo method [WIA], ResizeVideo method [WIA],IWiaVideo interface, _wia_IWiaVideo_ResizeVideo, wia._wia_IWiaVideo_ResizeVideo, wiavideo/IWiaVideo::ResizeVideo
-ms.topic: method
 f1_keywords:
 - wiavideo/IWiaVideo.ResizeVideo
 dev_langs:

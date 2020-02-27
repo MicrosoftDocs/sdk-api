@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 547a8ebe-b7c7-4dbc-96c4-1d5f5ef77f97
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],get_name method, IWMPPlaylist.get_name, IWMPPlaylist::get_name, IWMPPlaylistget_name, get_name, get_name method [Windows Media Player], get_name method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_get_name, wmp/IWMPPlaylist::get_name
-ms.topic: method
 f1_keywords:
 - wmp/IWMPPlaylist.get_name
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e00b9dd2-fa40-401b-9002-e65c91d2b6ef
 ms.date: 12/05/2018
 ms.keywords: ShortToUInt, ShortToUInt function [Windows Shell], intsafe/ShortToUInt, shell.ShortToUInt
-ms.topic: function
 f1_keywords:
 - intsafe/ShortToUInt
 dev_langs:

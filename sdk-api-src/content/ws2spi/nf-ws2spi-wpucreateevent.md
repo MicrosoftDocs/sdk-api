@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 61e71e93-e35f-4122-bd4d-c103f652d2ca
 ms.date: 12/05/2018
 ms.keywords: WPUCreateEvent, WPUCreateEvent function [Winsock], _win32_wpucreateevent_2, winsock.wpucreateevent_2, ws2spi/WPUCreateEvent
-ms.topic: function
 f1_keywords:
 - ws2spi/WPUCreateEvent
 dev_langs:
@@ -83,7 +82,7 @@ Otherwise, the return value is WSA_INVALID_EVENT and a specific error code is av
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -105,7 +104,7 @@ There is not enough free memory available to create the event object.
 
 
 
-The event object created by this function is manually reset with an initial state of nonsignaled. If a Windows service provider requires auto reset events, it can call the Windows <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function directly.
+The event object created by this function is manually reset with an initial state of nonsignaled. If a Windows service provider requires auto reset events, it can call the Windows <a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function directly.
 
 
 
@@ -115,7 +114,7 @@ The event object created by this function is manually reset with an initial stat
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucloseevent">WPUCloseEvent</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpucloseevent">WPUCloseEvent</a>
  
 
  

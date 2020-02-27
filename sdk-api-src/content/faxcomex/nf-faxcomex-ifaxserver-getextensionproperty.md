@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1s3d.htm
 ms.date: 12/05/2018
 ms.keywords: GetExtensionProperty, GetExtensionProperty method [Fax Service], GetExtensionProperty method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],GetExtensionProperty method, IFaxServer.GetExtensionProperty, IFaxServer::GetExtensionProperty, _mfax_faxserver.getextensionproperty, fax._mfax_faxserver_cpp_mfax_faxserver_getextensionproperty_cpp, fax._mfax_faxserver_getextensionproperty, faxcomex/IFaxServer::GetExtensionProperty
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxServer.GetExtensionProperty
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 6ca6de2e-79cb-4503-a0d7-f616b8e383eb
 ms.date: 12/05/2018
 ms.keywords: GetMetaFileBitsEx, GetMetaFileBitsEx function [Windows GDI], _win32_GetMetaFileBitsEx, gdi.getmetafilebitsex, wingdi/GetMetaFileBitsEx
-ms.topic: function
 f1_keywords:
 - wingdi/GetMetaFileBitsEx
 dev_langs:

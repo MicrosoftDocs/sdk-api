@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 9aba22d7-a1a9-4b90-bfc6-78df8a8d0ce5
 ms.date: 12/05/2018
 ms.keywords: CreateMD5SSOHash, CreateMD5SSOHash function [WinINet], wininet.createmd5ssohash, winineti/CreateMD5SSOHash
-ms.topic: function
 f1_keywords:
 - wininet/CreateMD5SSOHash
 dev_langs:

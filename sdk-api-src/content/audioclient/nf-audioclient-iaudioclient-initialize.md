@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: eb778503-06f8-4705-9f8d-9a4fd886ae27
 ms.date: 12/05/2018
 ms.keywords: IAudioClient interface [Core Audio],Initialize method, IAudioClient.Initialize, IAudioClient::Initialize, IAudioClientInitialize, Initialize, Initialize method [Core Audio], Initialize method [Core Audio],IAudioClient interface, audioclient/IAudioClient::Initialize, coreaudio.iaudioclient_initialize
-ms.topic: method
 f1_keywords:
 - audioclient/IAudioClient.Initialize
 dev_langs:
@@ -427,7 +426,7 @@ Starting with Windows 7, <b>Initialize</b> can return AUDCLNT_E_BUFFER_SIZE_NOT
 </ol>
 
 
-Starting with Windows 10, hardware-offloaded audio streams must be event driven. This means that if you call <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-setclientproperties">IAudioClient2::SetClientProperties</a> and set the <i>bIsOffload</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/ns-audioclient-audioclientproperties">AudioClientProperties</a> to TRUE, you must specify the <b>AUDCLNT_STREAMFLAGS_EVENTCALLBACK</b> flag in the <i>StreamFlags</i> parameter to <b>IAudioClient::Initialize</b>.
+Starting with Windows 10, hardware-offloaded audio streams must be event driven. This means that if you call <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-setclientproperties">IAudioClient2::SetClientProperties</a> and set the <i>bIsOffload</i> parameter of the <a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties~r1">AudioClientProperties</a> to TRUE, you must specify the <b>AUDCLNT_STREAMFLAGS_EVENTCALLBACK</b> flag in the <i>StreamFlags</i> parameter to <b>IAudioClient::Initialize</b>.
 
 
 #### Examples

@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: a2df3749-6c75-40c0-8952-1656bbe639a6
 ms.date: 12/05/2018
 ms.keywords: '*PIP_ADAPTER_ADDRESSES, *PIP_ADAPTER_ADDRESSES_XP, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, IP_ADAPTER_ADDRESSES, IP_ADAPTER_ADDRESSES structure [IP Helper], IP_ADAPTER_ADDRESSES_LH, IP_ADAPTER_ADDRESSES_XP, IP_ADAPTER_DDNS_ENABLED, IP_ADAPTER_DHCP_ENABLED, IP_ADAPTER_IPV4_ENABLED, IP_ADAPTER_IPV6_ENABLED, IP_ADAPTER_IPV6_MANAGE_ADDRESS_CONFIG, IP_ADAPTER_IPV6_OTHER_STATEFUL_CONFIG, IP_ADAPTER_NETBIOS_OVER_TCPIP_ENABLED, IP_ADAPTER_NO_MULTICAST, IP_ADAPTER_RECEIVE_ONLY, IP_ADAPTER_REGISTER_ADAPTER_SUFFIX, IfOperStatusDormant, IfOperStatusDown, IfOperStatusLowerLayerDown, IfOperStatusNotPresent, IfOperStatusTesting, IfOperStatusUnknown, IfOperStatusUp, NET_IF_CONNECTION_DEDICATED, NET_IF_CONNECTION_DEMAND, NET_IF_CONNECTION_MAXIMUM, NET_IF_CONNECTION_PASSIVE, PIP_ADAPTER_ADDRESSES, PIP_ADAPTER_ADDRESSES structure pointer [IP Helper], TUNNEL_TYPE_6TO4, TUNNEL_TYPE_DIRECT, TUNNEL_TYPE_IPHTTPS, TUNNEL_TYPE_ISATAP, TUNNEL_TYPE_NONE, TUNNEL_TYPE_OTHER, TUNNEL_TYPE_TEREDO, _iphlp_ip_adapter_addresses, iphlp.ip_adapter_addresses, iptypes/IP_ADAPTER_ADDRESSES, iptypes/PIP_ADAPTER_ADDRESSES'
-ms.topic: struct
 f1_keywords:
 - iptypes/IP_ADAPTER_ADDRESSES
 dev_langs:
@@ -161,7 +160,7 @@ A user-friendly name for the adapter. For example: "Local Area Connection 1." Th
       
 
 This member is the ifAlias field used by NDIS as described in 
-       <a href="Http://go.microsoft.com/fwlink/p/?linkid=84054">RFC 2863</a>. The ifAlias field can be set by an 
+       <a href="https://www.ietf.org/rfc/rfc2863.txt">RFC 2863</a>. The ifAlias field can be set by an 
        NDIS interface provider when the NDIS driver is installed. For NDIS miniport drivers, this field is set by 
        NDIS.
 
@@ -472,7 +471,7 @@ An IEEE 1394 (Firewire) high performance serial bus network interface.
 Type: <b>IF_OPER_STATUS</b>
 
 The operational status for the interface as defined in RFC 2863.  For more information, see 
-      <a href="Http://go.microsoft.com/fwlink/p/?linkid=84054">http://www.ietf.org/rfc/rfc2863.txt</a>. This 
+      <a href="https://www.ietf.org/rfc/rfc2863.txt">http://www.ietf.org/rfc/rfc2863.txt</a>. This 
       member can be one of the values from the <b>IF_OPER_STATUS</b> enumeration type defined in 
       the <i>Iftypes.h</i> header file. On Windows Vista and later, the header files 
       were reorganized and this enumeration is defined in the <i>Ifdef.h</i> header file.
@@ -861,7 +860,7 @@ The encapsulation method used by a tunnel if the adapter address is a tunnel.
 <div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
 <div> </div>
 The tunnel type is defined by the Internet Assigned Names Authority (IANA). For more information, see 
-      <a href="Http://go.microsoft.com/fwlink/p/?linkid=84022">http://www.iana.org/assignments/ianaiftype-mib</a>. 
+      <a href="https://www.iana.org/assignments/ianaiftype-mib">http://www.iana.org/assignments/ianaiftype-mib</a>. 
       This member can be one of the values from the <b>TUNNEL_TYPE</b> enumeration type defined 
       in the <i>Ifdef.h</i> header file.
 

@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 2b555f6b-643d-4fa0-9aca-701e6b3313fa
 ms.date: 12/05/2018
 ms.keywords: DsWriteAccountSpn, DsWriteAccountSpn function [Active Directory], DsWriteAccountSpnA, DsWriteAccountSpnW, _glines_dswriteaccountspn, ad.dswriteaccountspn, ntdsapi/DsWriteAccountSpn, ntdsapi/DsWriteAccountSpnA, ntdsapi/DsWriteAccountSpnW
-ms.topic: function
 f1_keywords:
 - ntdsapi/DsWriteAccountSpn
 dev_langs:

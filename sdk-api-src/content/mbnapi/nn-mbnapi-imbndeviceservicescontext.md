@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 0B97FCCD-0A90-4FA2-9122-B00BD3F1A033
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesContext, IMbnDeviceServicesContext interface [Microsoft Broadband Networks], IMbnDeviceServicesContext interface [Microsoft Broadband Networks],described, mbn.imbndeviceservicescontext, mbnapi/IMbnDeviceServicesContext
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnDeviceServicesContext
 dev_langs:

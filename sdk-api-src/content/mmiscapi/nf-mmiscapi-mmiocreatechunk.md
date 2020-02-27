@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 45b03f8c-1b79-4004-b5e1-e739138375c2
 ms.date: 12/05/2018
 ms.keywords: _win32_mmioCreateChunk, mmioCreateChunk, mmioCreateChunk function [Windows Multimedia], mmsystem/mmioCreateChunk, multimedia.mmiocreatechunk
-ms.topic: function
 f1_keywords:
 - mmiscapi/mmioCreateChunk
 dev_langs:

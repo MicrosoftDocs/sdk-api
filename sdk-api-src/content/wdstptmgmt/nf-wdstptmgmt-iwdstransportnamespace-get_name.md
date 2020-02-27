@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 242f97de-1748-4d60-b945-3d38e1976879
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Name property, IWdsTransportNamespace.Name, IWdsTransportNamespace.get_Name, IWdsTransportNamespace::Name, IWdsTransportNamespace::get_Name, IWdsTransportNamespace::put_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services],IWdsTransportNamespace interface, get_Name, wds.iwdstransportnamespace_name, wdstptmgmt/IWdsTransportNamespace::Name, wdstptmgmt/IWdsTransportNamespace::get_Name, wdstptmgmt/IWdsTransportNamespace::put_Name
-ms.topic: method
 f1_keywords:
 - wdstptmgmt/IWdsTransportNamespace.Name
 dev_langs:

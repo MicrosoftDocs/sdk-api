@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 990e9b22-0ce3-42b8-a87e-32fd2f2bc2fb
 ms.date: 12/05/2018
 ms.keywords: RectVisible, RectVisible function [Windows GDI], _win32_RectVisible, gdi.rectvisible, wingdi/RectVisible
-ms.topic: function
 f1_keywords:
 - wingdi/RectVisible
 dev_langs:

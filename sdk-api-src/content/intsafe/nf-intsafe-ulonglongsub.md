@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 10c66f6a-648d-4308-9c23-384ebe273af3
 ms.date: 12/05/2018
 ms.keywords: SIZETSub, SIZETSub function [Windows Shell], ULongLongSub, _shell_SIZETSub, intsafe/SIZETSub, shell.SIZETSub, shell.SIZETSub_1
-ms.topic: function
 f1_keywords:
 - intsafe/SIZETSub
 dev_langs:

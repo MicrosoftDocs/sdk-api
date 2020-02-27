@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 00c9d1e5-1b1f-41b3-b06c-0b78e2d2db0b
 ms.date: 12/05/2018
 ms.keywords: GetTitleParentalLevels, GetTitleParentalLevels method [DirectShow], GetTitleParentalLevels method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetTitleParentalLevels method, IDvdInfo2.GetTitleParentalLevels, IDvdInfo2::GetTitleParentalLevels, IDvdInfo2GetTitleParentalLevels, dshow.idvdinfo2_gettitleparentallevels, strmif/IDvdInfo2::GetTitleParentalLevels
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo2.GetTitleParentalLevels
 dev_langs:
@@ -69,7 +68,7 @@ Title for which parental levels are requested. Specify 0xfffffff to return the p
 
 ### -param pulParentalLevels [out]
 
-Pointer to a variable of type ULONG that receives a bitwise OR combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_parental_level">DVD_PARENTAL_LEVEL</a> values defined for the title.
+Pointer to a variable of type ULONG that receives a bitwise OR combination of [DVD_PARENTAL_LEVEL](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_parental_level) values defined for the title.
 
 
 ## -returns

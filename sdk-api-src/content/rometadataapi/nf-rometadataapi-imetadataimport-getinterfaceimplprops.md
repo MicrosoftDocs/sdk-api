@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: ff91bb07-8e3a-49f1-9cd6-1c3e18a3c242
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceImplProps, GetInterfaceImplProps method [Windows Runtime], GetInterfaceImplProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetInterfaceImplProps method, IMetaDataImport.GetInterfaceImplProps, IMetaDataImport::GetInterfaceImplProps, rometadataapi/IMetaDataImport::GetInterfaceImplProps, winrt.imetadataimport_getinterfaceimplprops
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataImport.GetInterfaceImplProps
 dev_langs:

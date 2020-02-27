@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1148e380-a4fc-4392-861e-8ea695060032
 ms.date: 12/05/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetAllSettings method, ICodecAPI.SetAllSettings, ICodecAPI::SetAllSettings, ICodecAPISetAllSettings, SetAllSettings, SetAllSettings method [DirectShow], SetAllSettings method [DirectShow],ICodecAPI interface, dshow.icodecapi_setallsettings, strmif/ICodecAPI::SetAllSettings
-ms.topic: method
 f1_keywords:
 - strmif/ICodecAPI.SetAllSettings
 dev_langs:

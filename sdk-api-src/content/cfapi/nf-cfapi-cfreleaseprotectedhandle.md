@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: BB63C5EE-92D7-4051-8198-09F50BBC75C5
 ms.date: 12/05/2018
 ms.keywords: CfReleaseProtectedHandle, CfReleaseProtectedHandle function, cfapi/CfReleaseProtectedHandle, cloudApi.cfreleaseprotectedhandle
-ms.topic: function
 f1_keywords:
 - cfapi/CfReleaseProtectedHandle
 dev_langs:
@@ -64,10 +63,3 @@ The protected handle to be released.
 
 
 ## -returns
-
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-

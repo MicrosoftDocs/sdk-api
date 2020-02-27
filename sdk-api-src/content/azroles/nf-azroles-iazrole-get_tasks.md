@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 60342e8f-1947-4949-b25e-01db473712ac
 ms.date: 12/05/2018
 ms.keywords: AzRole object [Security],Tasks property, IAzRole interface [Security],Tasks property, IAzRole.Tasks, IAzRole.get_Tasks, IAzRole::Tasks, IAzRole::get_Tasks, Tasks property [Security], Tasks property [Security],AzRole object, Tasks property [Security],IAzRole interface, azroles/IAzRole::Tasks, azroles/IAzRole::get_Tasks, get_Tasks, security.iazrole_tasks
-ms.topic: method
 f1_keywords:
 - azroles/IAzRole.Tasks
 dev_langs:

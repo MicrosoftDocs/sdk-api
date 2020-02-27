@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: f84f8be6-2b01-4a20-8669-cb1a55c32907
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GET_PARTITION_INFO_EX, IOCTL_DISK_GET_PARTITION_INFO_EX control, IOCTL_DISK_GET_PARTITION_INFO_EX control code [Files], _win32_ioctl_disk_get_partition_info_ex, base.ioctl_disk_get_partition_info_ex, fs.ioctl_disk_get_partition_info_ex, winioctl/IOCTL_DISK_GET_PARTITION_INFO_EX
-ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_DISK_GET_PARTITION_INFO_EX
 dev_langs:
@@ -149,7 +148,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 The <b>IOCTL_DISK_GET_PARTITION_INFO_EX</b> 
     control code is supported on basic disks. It is only supported on dynamic disks that are boot or system disks, or have retained 
-    entries in the partition table. The <a href="Http://go.microsoft.com/fwlink/p/?linkid=103544">DiskPart.exe</a> command <b>RETAIN</b> can be used to do 
+    entries in the partition table. The <a href="https://technet.microsoft.com/library/26a4a166-95fa-4faf-95bc-2d5345f4a57a">DiskPart.exe</a> command <b>RETAIN</b> can be used to do 
     this for other dynamic simple partitions.
 
 The disk support can be summarized as follows.

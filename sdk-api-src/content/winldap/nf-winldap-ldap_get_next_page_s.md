@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 44b1b298-9796-4627-945e-4051c20f3c92
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_get_next_page_s, ldap.ldap__get__next__page__s, ldap.ldap_get_next_page_s, ldap_get_next_page_s, ldap_get_next_page_s function [LDAP], winldap/ldap_get_next_page_s
-ms.topic: function
 f1_keywords:
 - winldap/ldap_get_next_page_s
 dev_langs:
@@ -86,7 +85,7 @@ The server estimate of the total number of entries in the entire result set. A v
 ### -param Results [out]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmsg">LDAPMessage</a> structure that contains the results.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure that contains the results.
 
 
 ## -returns
@@ -131,7 +130,7 @@ If <b>ldap_get_next_page_s</b> is used, it is not required that
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmsg">LDAPMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
 
 
 

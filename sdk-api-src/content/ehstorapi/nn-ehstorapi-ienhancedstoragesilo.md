@@ -7,7 +7,6 @@ tech.root: enstor
 ms.assetid: 041e66d2-f772-407d-85f7-71f226c7ec4b
 ms.date: 12/05/2018
 ms.keywords: IEnhancedStorageSilo, IEnhancedStorageSilo interface [Enhanced Storage], IEnhancedStorageSilo interface [Enhanced Storage],described, ehstorapi/IEnhancedStorageSilo, enstor.ienhancedstoragesilo
-ms.topic: interface
 f1_keywords:
 - ehstorapi/IEnhancedStorageSilo
 dev_langs:
@@ -100,7 +99,7 @@ Returns the general information associated with the silo object.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstoragesilo-getportabledevice">GetPortableDevice</a>
 </td>
 <td align="left" width="63%">
-Obtains an <a href="http://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDevice</a> pointer used to issue  commands to the corresponding Enhanced Storage silo driver.
+Obtains an <a href="https://msdn.microsoft.com/library/dd319361.aspx">IPortableDevice</a> pointer used to issue  commands to the corresponding Enhanced Storage silo driver.
 
 </td>
 </tr>

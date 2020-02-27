@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 8e5fcaf0-f160-4cff-9e9d-44766e0545c9
 ms.date: 12/05/2018
 ms.keywords: HashEquivalentIncremental, HashEquivalentIncremental method [Microsoft TV Technologies], HashEquivalentIncremental method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],HashEquivalentIncremental method, IBDAComparable.HashEquivalentIncremental, IBDAComparable::HashEquivalentIncremental, IBDAComparableHashEquivalentIncremental, mstv.ibdacomparable_hashequivalentincremental, tuner/IBDAComparable::HashEquivalentIncremental
-ms.topic: method
 f1_keywords:
 - tuner/IBDAComparable.HashEquivalentIncremental
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: e5c6373a-f365-499d-a971-472ffa557a41
 ms.date: 12/05/2018
 ms.keywords: WSD_METADATA_SECTION_LIST, WSD_METADATA_SECTION_LIST structure, ncd.wsd_metadata_section_list_struct, wsdtypes/WSD_METADATA_SECTION_LIST
-ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_METADATA_SECTION_LIST
 dev_langs:

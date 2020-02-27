@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory\createcompoundfromarray.htm
 ms.date: 12/05/2018
 ms.keywords: CreateCompoundFromArray, CreateCompoundFromArray method [search], CreateCompoundFromArray method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateCompoundFromArray method, IConditionFactory2.CreateCompoundFromArray, IConditionFactory2::CreateCompoundFromArray, _search_IConditionFactory2_CreateCompoundFromArray, search._search_IConditionFactory2_CreateCompoundFromArray, structuredquery/IConditionFactory2::CreateCompoundFromArray
-ms.topic: method
 f1_keywords:
 - structuredquery/IConditionFactory2.CreateCompoundFromArray
 dev_langs:

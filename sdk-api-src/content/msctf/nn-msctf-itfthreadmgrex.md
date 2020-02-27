@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: c230c363-3c62-459f-9350-d96db916f29c
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgrEx, ITfThreadMgrEx interface [Text Services Framework], ITfThreadMgrEx interface [Text Services Framework],described, _tsf_itfthreadmgrex_ref, msctf/ITfThreadMgrEx, tsf.itfthreadmgrex
-ms.topic: interface
 f1_keywords:
 - msctf/ITfThreadMgrEx
 dev_langs:

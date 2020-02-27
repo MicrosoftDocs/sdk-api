@@ -1,9 +1,10 @@
 ---
 UID: NA:heapapi
+title: Heapapi.h header
 ms.assetid: e1284023-5cb3-3d7c-99aa-74f51b690b9b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: base
 ---
 

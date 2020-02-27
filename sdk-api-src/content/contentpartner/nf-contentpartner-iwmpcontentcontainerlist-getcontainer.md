@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 8922aeed-0598-4dc8-86ac-e113697fcea9
 ms.date: 12/05/2018
 ms.keywords: GetContainer, GetContainer method [Windows Media Player], GetContainer method [Windows Media Player],IWMPContentContainerList interface, IWMPContentContainerList interface [Windows Media Player],GetContainer method, IWMPContentContainerList.GetContainer, IWMPContentContainerList::GetContainer, IWMPContentContainerListGetContainer, contentpartner/IWMPContentContainerList::GetContainer, wmp.iwmpcontentcontainerlist_getcontainer
-ms.topic: method
 f1_keywords:
 - contentpartner/IWMPContentContainerList.GetContainer
 dev_langs:

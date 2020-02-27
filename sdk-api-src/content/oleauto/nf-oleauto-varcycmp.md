@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 18146c52-c4ca-48b6-b0be-d93a849cee96
 ms.date: 12/05/2018
 ms.keywords: VarCyCmp, VarCyCmp function [Automation], _oa96_VarCyCmp, automat.varcycmp, oleauto/VarCyCmp
-ms.topic: function
 f1_keywords:
 - oleauto/VarCyCmp
 dev_langs:

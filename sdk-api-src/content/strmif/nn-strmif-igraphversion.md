@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: abca59f2-2134-4938-9933-bacaed771d0d
 ms.date: 12/05/2018
 ms.keywords: IGraphVersion, IGraphVersion interface [DirectShow], IGraphVersion interface [DirectShow],described, IGraphVersionInterface, dshow.igraphversion, strmif/IGraphVersion
-ms.topic: interface
 f1_keywords:
 - strmif/IGraphVersion
 dev_langs:

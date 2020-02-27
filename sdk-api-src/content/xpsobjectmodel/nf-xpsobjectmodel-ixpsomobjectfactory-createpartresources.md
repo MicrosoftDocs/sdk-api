@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f525139b-a94f-41ee-966f-408079a9e676
 ms.date: 12/05/2018
 ms.keywords: CreatePartResources, CreatePartResources method [XPS Documents and Packaging], CreatePartResources method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePartResources method, IXpsOMObjectFactory.CreatePartResources, IXpsOMObjectFactory::CreatePartResources, xps.ixpsomobjectfactory_createpartresources, xpsobjectmodel/IXpsOMObjectFactory::CreatePartResources
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreatePartResources
 dev_langs:
@@ -164,7 +163,7 @@ else
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

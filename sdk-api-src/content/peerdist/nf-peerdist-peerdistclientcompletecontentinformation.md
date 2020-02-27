@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 0951e5e5-ad00-463e-8aa8-21b11a8acedc
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientCompleteContentInformation, PeerDistClientCompleteContentInformation function [Peer Networking], p2p.peerdistclientcompletecontentinformation, peerdist/PeerDistClientCompleteContentInformation
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistClientCompleteContentInformation
 dev_langs:
@@ -70,7 +69,7 @@ A <b>PEERDIST_CONTENT_HANDLE</b> returned by <a href="https://docs.microsoft.com
 
 ### -param lpOverlapped [in]
 
-Pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure.
+Pointer to an <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure.
 
 
 ## -returns

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 8415197A-C785-492E-9C74-2055FADDF0CD
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackNoActivationContext, TpSetCallbackNoActivationContext function, base.tpsetcallbacknoactivationcontext, winnt/TpSetCallbackNoActivationContext
-ms.topic: function
 f1_keywords:
 - winnt/TpSetCallbackNoActivationContext
 dev_langs:

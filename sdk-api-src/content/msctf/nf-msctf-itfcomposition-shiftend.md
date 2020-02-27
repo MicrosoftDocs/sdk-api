@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 40472318-85de-4cff-ac60-adfcbacc1537
 ms.date: 12/05/2018
 ms.keywords: ITfComposition interface [Text Services Framework],ShiftEnd method, ITfComposition.ShiftEnd, ITfComposition::ShiftEnd, ShiftEnd, ShiftEnd method [Text Services Framework], ShiftEnd method [Text Services Framework],ITfComposition interface, _tsf_itfcomposition_shiftend_ref, msctf/ITfComposition::ShiftEnd, tsf.itfcomposition_shiftend
-ms.topic: method
 f1_keywords:
 - msctf/ITfComposition.ShiftEnd
 dev_langs:

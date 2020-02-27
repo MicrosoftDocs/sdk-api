@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 3f79ac9c-2aed-4e1c-bf6f-02f9c54d59cd
 ms.date: 12/05/2018
 ms.keywords: IDXVAHD_Device, IDXVAHD_Device interface [Media Foundation], IDXVAHD_Device interface [Media Foundation],described, dxvahd/IDXVAHD_Device, mf.idxvahd_device
-ms.topic: interface
 f1_keywords:
 - dxvahd/IDXVAHD_Device
 dev_langs:

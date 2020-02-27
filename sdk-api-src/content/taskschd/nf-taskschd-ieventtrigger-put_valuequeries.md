@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 0bceb9d5-11f3-40a3-ba05-be896420e1db
 ms.date: 12/05/2018
 ms.keywords: IEventTrigger interface [Task Scheduler],ValueQueries property, IEventTrigger.ValueQueries, IEventTrigger.put_ValueQueries, IEventTrigger::ValueQueries, IEventTrigger::get_ValueQueries, IEventTrigger::put_ValueQueries, ValueQueries property [Task Scheduler], ValueQueries property [Task Scheduler],IEventTrigger interface, put_ValueQueries, taskschd.ieventtrigger_valuequeries, taskschd/IEventTrigger::ValueQueries, taskschd/IEventTrigger::get_ValueQueries, taskschd/IEventTrigger::put_ValueQueries
-ms.topic: method
 f1_keywords:
 - taskschd/IEventTrigger.ValueQueries
 dev_langs:
@@ -115,7 +114,7 @@ value: Event/UserData/SubjectUserName
 
 name: machine
 value: Event/UserData/MachineName</code></pre>
-For more information about writing a query string for certain events, see <a href="http://go.microsoft.com/fwlink/p/?linkid=168218">Event Selection</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=168415">Subscribing to Events</a>.
+For more information about writing a query string for certain events, see <a href="https://msdn.microsoft.com/library/aa385231(VS.85).aspx">Event Selection</a> and <a href="https://msdn.microsoft.com/library/aa385771(VS.85).aspx">Subscribing to Events</a>.
 
 
 

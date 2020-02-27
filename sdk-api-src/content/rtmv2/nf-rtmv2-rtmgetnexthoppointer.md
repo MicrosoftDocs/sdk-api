@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 61fa3fa2-1cad-4930-975e-8f5b86ad3b05
 ms.date: 12/05/2018
 ms.keywords: RtmGetNextHopPointer, RtmGetNextHopPointer function [RAS], _rtmv2ref_rtmgetnexthoppointer, rras.rtmgetnexthoppointer, rtmv2/RtmGetNextHopPointer
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmGetNextHopPointer
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBaseClass.GetRegistrationPropertiesInternal
 ms.date: 12/05/2018
 ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],GetRegistrationPropertiesInternal method, CXAPOBase.GetRegistrationPropertiesInternal, CXAPOBase::GetRegistrationPropertiesInternal, GetRegistrationPropertiesInternal, GetRegistrationPropertiesInternal method [XAudio2 Audio Mixing APIs], GetRegistrationPropertiesInternal method [XAudio2 Audio Mixing APIs],CXAPOBase interface, xapobase/CXAPOBase::GetRegistrationPropertiesInternal, xaudio2.cxapobase_getregistrationpropertiesinternal
-ms.topic: method
 f1_keywords:
 - xapobase/CXAPOBase.GetRegistrationPropertiesInternal
 dev_langs:

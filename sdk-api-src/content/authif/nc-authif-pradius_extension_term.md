@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: a3f6669f-bad5-4289-abbc-633851c1f5f8
 ms.date: 12/05/2018
 ms.keywords: PRADIUS_EXTENSION_TERM, PRADIUS_EXTENSION_TERM callback, PRADIUS_EXTENSION_TERM callback function [Network Policy Server], RadiusExtensionTerm, _ias_radiusextensionterm, authif/PRADIUS_EXTENSION_TERM, ias.radiusextensionterm, nps.IAS_radiusextensionterm
-ms.topic: callback
 f1_keywords:
 - authif/PRADIUS_EXTENSION_TERM
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: debug_wwahost
 ms.assetid: ff75658a-af5a-42d7-be88-b3bc0daed5e2
 ms.date: 12/05/2018
 ms.keywords: AuthoringClientBinary property [Debugging Windows Store apps], AuthoringClientBinary property [Debugging Windows Store apps],IWebApplicationAuthoringMode interface, IWebApplicationAuthoringMode interface [Debugging Windows Store apps],AuthoringClientBinary property, IWebApplicationAuthoringMode.AuthoringClientBinary, IWebApplicationAuthoringMode.get_AuthoringClientBinary, IWebApplicationAuthoringMode::AuthoringClientBinary, IWebApplicationAuthoringMode::get_AuthoringClientBinary, debug.iwebapplicationauthoringmode_authoringclientbinary, get_AuthoringClientBinary, webapplication/IWebApplicationAuthoringMode::AuthoringClientBinary, webapplication/IWebApplicationAuthoringMode::get_AuthoringClientBinary
-ms.topic: method
 f1_keywords:
 - webapplication/IWebApplicationAuthoringMode.AuthoringClientBinary
 dev_langs:

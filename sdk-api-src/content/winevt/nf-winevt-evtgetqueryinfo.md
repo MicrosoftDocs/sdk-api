@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: 311a2060-90d9-41ec-b489-c07d3e813187
 ms.date: 12/05/2018
 ms.keywords: EvtGetQueryInfo, EvtGetQueryInfo function [EventLog], wes.evtgetqueryinfo, winevt/EvtGetQueryInfo
-ms.topic: function
 f1_keywords:
 - winevt/EvtGetQueryInfo
 dev_langs:

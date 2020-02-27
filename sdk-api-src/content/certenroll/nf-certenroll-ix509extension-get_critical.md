@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: b03ec7fe-78e9-4a8a-81b8-eaa91aa8d072
 ms.date: 12/05/2018
 ms.keywords: Critical property [Security], Critical property [Security],IX509Extension interface, IX509Extension interface [Security],Critical property, IX509Extension.Critical, IX509Extension.get_Critical, IX509Extension::Critical, IX509Extension::get_Critical, IX509Extension::put_Critical, certenroll/IX509Extension::Critical, certenroll/IX509Extension::get_Critical, certenroll/IX509Extension::put_Critical, get_Critical, security.ix509extension_critical_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509Extension.Critical
 dev_langs:

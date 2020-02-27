@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 15b4eeb4-1040-4f07-8e79-2c09aab9f926
 ms.date: 12/05/2018
 ms.keywords: '*PPEER_GRAPH_PROPERTIES, PEER_GRAPH_PROPERTIES, PEER_GRAPH_PROPERTIES structure [Peer Networking], PPEER_GRAPH_PROPERTIES, PPEER_GRAPH_PROPERTIES structure pointer [Peer Networking], p2p.peer_graph_properties, p2p/PPEER_GRAPH_PROPERTIES, p2p/peer_graph_properties_tag'
-ms.topic: struct
 f1_keywords:
 - p2p/PEER_GRAPH_PROPERTIES
 dev_langs:

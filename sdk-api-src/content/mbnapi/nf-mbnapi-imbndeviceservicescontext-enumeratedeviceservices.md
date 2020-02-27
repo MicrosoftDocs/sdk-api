@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 90CB9B2E-16CA-48A0-AF16-937D816718D6
 ms.date: 12/05/2018
 ms.keywords: EnumerateDeviceServices, EnumerateDeviceServices method [Microsoft Broadband Networks], EnumerateDeviceServices method [Microsoft Broadband Networks],IMbnDeviceServicesContext interface, IMbnDeviceServicesContext interface [Microsoft Broadband Networks],EnumerateDeviceServices method, IMbnDeviceServicesContext.EnumerateDeviceServices, IMbnDeviceServicesContext::EnumerateDeviceServices, mbn.imbndeviceservicescontext_enumeratedeviceservices, mbnapi/IMbnDeviceServicesContext::EnumerateDeviceServices
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnDeviceServicesContext.EnumerateDeviceServices
 dev_langs:

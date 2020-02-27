@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 2fa9cd75-4dc6-45a3-aa62-e82bd28289a5
 ms.date: 12/05/2018
 ms.keywords: OleGetIconOfFile, OleGetIconOfFile function [COM], _com_OleGetIconOfFile, com.olegeticonoffile, ole2/OleGetIconOfFile
-ms.topic: function
 f1_keywords:
 - ole2/OleGetIconOfFile
 dev_langs:

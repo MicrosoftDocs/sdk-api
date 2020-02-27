@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\tintclass\tintmethods\setparameters.htm
 ms.date: 12/05/2018
 ms.keywords: SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],Tint class, Tint class [GDI+],SetParameters method, Tint.SetParameters, Tint::SetParameters, _gdiplus_CLASS_Tint_SetParameters_, gdiplus._gdiplus_CLASS_Tint_SetParameters_
-ms.topic: method
 f1_keywords:
 - gdipluseffects/Tint.SetParameters
 dev_langs:

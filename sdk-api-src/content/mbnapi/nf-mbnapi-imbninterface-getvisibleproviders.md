@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 916c29ee-adb3-402c-b4f3-97b8977f44ac
 ms.date: 12/05/2018
 ms.keywords: GetVisibleProviders, GetVisibleProviders method [Microsoft Broadband Networks], GetVisibleProviders method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetVisibleProviders method, IMbnInterface.GetVisibleProviders, IMbnInterface::GetVisibleProviders, mbn.imbninterface_getvisibleproviders, mbnapi/IMbnInterface::GetVisibleProviders
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnInterface.GetVisibleProviders
 dev_langs:
@@ -67,7 +66,7 @@ A pointer to the time in seconds since the last refresh of the visible provider 
 
 ### -param visibleProviders [out, retval]
 
-Pointer to an array of  <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structures that contains the list of providers for the interface.  If this method returns any value other than <b>S_OK</b>, this parameter is <b>NULL</b>.  Otherwise, upon completion, the calling program must free the allocated memory  by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=121490">SafeArrayDestroy</a>. 
+Pointer to an array of  <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structures that contains the list of providers for the interface.  If this method returns any value other than <b>S_OK</b>, this parameter is <b>NULL</b>.  Otherwise, upon completion, the calling program must free the allocated memory  by calling <a href="https://msdn.microsoft.com/library/ms221702.aspx">SafeArrayDestroy</a>. 
 
 
 ## -returns

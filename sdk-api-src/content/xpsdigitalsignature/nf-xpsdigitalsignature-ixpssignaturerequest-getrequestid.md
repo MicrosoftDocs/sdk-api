@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: abca5fdf-258b-4ce8-8b29-eae9a6d17cd7
 ms.date: 12/05/2018
 ms.keywords: GetRequestId, GetRequestId method [XPS Documents and Packaging], GetRequestId method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetRequestId method, IXpsSignatureRequest.GetRequestId, IXpsSignatureRequest::GetRequestId, xps.ixpssignaturerequest_getrequestid, xpsdigitalsignature/IXpsSignatureRequest::GetRequestId
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureRequest.GetRequestId
 dev_langs:
@@ -138,7 +137,7 @@ This method allocates the memory used by the string that is returned in <i>reque
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

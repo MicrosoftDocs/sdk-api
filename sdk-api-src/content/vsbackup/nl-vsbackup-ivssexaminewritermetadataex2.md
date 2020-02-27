@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 1ef5a83c-8f63-4884-8b70-a8241ba4857b
 ms.date: 12/05/2018
 ms.keywords: IVssExamineWriterMetadataEx2, IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,described, base.ivssexaminewritermetadataex2, vsbackup/IVssExamineWriterMetadataEx2
-ms.topic: class
 f1_keywords:
 - vsbackup/IVssExamineWriterMetadataEx2
 dev_langs:
@@ -57,7 +56,7 @@ Your writer application should implement this interface only if you need to use 
 The <b>IVssExamineWriterMetadataEx2</b> interface is a C++ (not COM) interface.
 
 To obtain an instance of the <b>IVssExamineWriterMetadataEx2</b> 
-   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of the 
+   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> interface, and pass  
    the <b>IID_IVssExamineWriterMetadataEx2</b> constant as the interface identifier (IID) parameter.
 

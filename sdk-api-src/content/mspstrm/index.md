@@ -1,9 +1,10 @@
 ---
 UID: NA:mspstrm
+title: Mspstrm.h header
 ms.assetid: f4210eb0-569f-388f-be3f-e14dd8539d1f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: tapi3
 ---
 

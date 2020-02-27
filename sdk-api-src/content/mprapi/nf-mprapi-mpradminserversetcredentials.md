@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: cc77007f-306f-467a-a52f-bf920da15e74
 ms.date: 12/05/2018
 ms.keywords: MprAdminServerSetCredentials, MprAdminServerSetCredentials function [RAS], _mpr_mpradminserversetcredentials, mprapi/MprAdminServerSetCredentials, rras.mpradminserversetcredentials
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminServerSetCredentials
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: c3341566-6b35-4ed9-9db8-d5493656755e
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMVisualBrush interface, IXpsOMVisualBrush interface [XPS Documents and Packaging],Clone method, IXpsOMVisualBrush.Clone, IXpsOMVisualBrush::Clone, xps.ixpsomvisualbrush_clone, xpsobjectmodel/IXpsOMVisualBrush::Clone
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisualBrush.Clone
 dev_langs:
@@ -131,7 +130,7 @@ This method does not update the resource pointers in the new <a href="https://do
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

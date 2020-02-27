@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: c18fd849-aaa5-49d0-9e72-b3134a6f2be8
 ms.date: 12/05/2018
 ms.keywords: CreateListElement, CreateListElement method [SMI], CreateListElement method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],CreateListElement method, ISettingsItem.CreateListElement, ISettingsItem::CreateListElement, smi.isettingsitem_createlistelement, wcmconfig/ISettingsItem::CreateListElement
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsItem.CreateListElement
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: a64181ca-e8d6-48fc-89ef-b91268b709aa
 ms.date: 12/05/2018
 ms.keywords: ITDetectTone interface [TAPI 2.2],put_Duration method, ITDetectTone.put_Duration, ITDetectTone::put_Duration, _tapi3_itdetecttone_put_duration, put_Duration, put_Duration method [TAPI 2.2], put_Duration method [TAPI 2.2],ITDetectTone interface, tapi3.itdetecttone_put_duration, tapi3if/ITDetectTone::put_Duration
-ms.topic: method
 f1_keywords:
 - tapi3if/ITDetectTone.put_Duration
 dev_langs:

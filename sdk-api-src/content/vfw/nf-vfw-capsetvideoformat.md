@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 3c4bee26-d578-463b-8d97-6cdc78957ce0
 ms.date: 12/05/2018
 ms.keywords: _win32_capSetVideoFormat, capSetVideoFormat, capSetVideoFormat macro [Windows Multimedia], multimedia.capsetvideoformat, vfw/capSetVideoFormat
-ms.topic: macro
 f1_keywords:
 - vfw/capSetVideoFormat
 dev_langs:

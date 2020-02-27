@@ -7,7 +7,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollectionchangedevent\onchanged.htm
 ms.date: 12/05/2018
 ms.keywords: IUICollectionChangedEvent interface [Windows Ribbon],OnChanged method, IUICollectionChangedEvent.OnChanged, IUICollectionChangedEvent::OnChanged, OnChanged, OnChanged method [Windows Ribbon], OnChanged method [Windows Ribbon],IUICollectionChangedEvent interface, scenicintent_IUICollectionChangedEvent_OnChanged, uiribbon/IUICollectionChangedEvent::OnChanged, windowsribbon.windowsribbon_iuicollectionchangedevent_onchanged
-ms.topic: method
 f1_keywords:
 - uiribbon/IUICollectionChangedEvent.OnChanged
 dev_langs:
@@ -128,7 +127,7 @@ The <b>IUICollectionChangedEvent::OnChanged</b> interface is implemented by the 
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=132598">Events in COM and Connectable Objects</a>
+<a href="https://msdn.microsoft.com/library/ms694379.aspx">Events in COM and Connectable Objects</a>
 
 
 

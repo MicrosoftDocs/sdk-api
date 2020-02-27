@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchviewchangedsink\onchange.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchViewChangedSink interface [search],OnChange method, ISearchViewChangedSink.OnChange, ISearchViewChangedSink::OnChange, OnChange, OnChange method [search], OnChange method [search],ISearchViewChangedSink interface, _search_ISearchViewChangedSink_OnChange, search._search_ISearchViewChangedSink_OnChange, searchapi/ISearchViewChangedSink::OnChange
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchViewChangedSink.OnChange
 dev_langs:

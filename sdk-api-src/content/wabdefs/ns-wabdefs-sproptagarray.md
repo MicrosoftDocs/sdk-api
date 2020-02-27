@@ -7,7 +7,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\sproptagarray.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPSPropTagArray, SPropTagArray, SPropTagArray structure [Windows Address Book], _wab_SPropTagArray, wab._wab_SPropTagArray, wabdefs/SPropTagArray'
-ms.topic: struct
 f1_keywords:
 - wabdefs/SPropTagArray
 dev_langs:

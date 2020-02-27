@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 2c28e007-f06b-4d04-91a5-10e4b087fb2f
 ms.date: 12/05/2018
 ms.keywords: 2c28e007-f06b-4d04-91a5-10e4b087fb2f, EnableTsf, EnableTsf method [Tablet PC], EnableTsf method [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],EnableTsf method, IPenInputPanel.EnableTsf, IPenInputPanel::EnableTsf, peninputpanel/IPenInputPanel::EnableTsf, tablet.peninputpanel_enabletsf
-ms.topic: method
 f1_keywords:
 - peninputpanel/IPenInputPanel.EnableTsf
 dev_langs:

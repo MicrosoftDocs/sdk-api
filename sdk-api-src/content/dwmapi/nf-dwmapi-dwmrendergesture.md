@@ -7,7 +7,6 @@ tech.root: dwm
 ms.assetid: 2daad062-dd7f-4a0b-a31e-134980f5bebd
 ms.date: 12/05/2018
 ms.keywords: DwmRenderGesture, DwmRenderGesture function [Desktop Window Manager], dwm.dwmrendergesture, dwmapi/DwmRenderGesture
-ms.topic: function
 f1_keywords:
 - dwmapi/DwmRenderGesture
 dev_langs:

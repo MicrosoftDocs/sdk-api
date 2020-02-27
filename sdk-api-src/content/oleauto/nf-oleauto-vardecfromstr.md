@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 6e036c9c-3b5d-4b5c-9992-526380bb544d
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarDecFromStr, VarDecFromStr function [Automation], _oa96_VarDecFromStr, automat.vardecfromstr, oleauto/VarDecFromStr
-ms.topic: function
 f1_keywords:
 - oleauto/VarDecFromStr
 dev_langs:

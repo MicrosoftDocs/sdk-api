@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: B4DA85DB-A63A-45EB-9F71-9395AC026A0C
 ms.date: 12/05/2018
 ms.keywords: CfUnregisterSyncRoot, CfUnregisterSyncRoot function, cfapi/CfUnregisterSyncRoot, cloudApi.cfunregistersyncroot
-ms.topic: function
 f1_keywords:
 - cfapi/CfUnregisterSyncRoot
 dev_langs:

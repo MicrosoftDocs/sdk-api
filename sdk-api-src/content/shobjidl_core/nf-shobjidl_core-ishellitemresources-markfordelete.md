@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 15f395a8-70ab-43ba-bb75-6e9b25a19faa
 ms.date: 12/05/2018
 ms.keywords: IShellItemResources interface [Windows Shell],MarkForDelete method, IShellItemResources.MarkForDelete, IShellItemResources::MarkForDelete, MarkForDelete, MarkForDelete method [Windows Shell], MarkForDelete method [Windows Shell],IShellItemResources interface, _shell_IShellItemResources_MarkForDelete, shell.IShellItemResources_MarkForDelete, shobjidl_core/IShellItemResources::MarkForDelete
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellItemResources.MarkForDelete
 dev_langs:

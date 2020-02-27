@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\item_info.htm
 ms.date: 12/05/2018
 ms.keywords: ITEM_INFO, ITEM_INFO structure [search], _search_ITEM_INFO, search._search_ITEM_INFO, searchapi/ITEM_INFO
-ms.topic: struct
 f1_keywords:
 - searchapi/ITEM_INFO
 dev_langs:

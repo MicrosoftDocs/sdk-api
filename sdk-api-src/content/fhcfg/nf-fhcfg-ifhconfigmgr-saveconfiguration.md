@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 71D6E732-927B-4AA4-9947-6E52B09FF5B8
 ms.date: 12/05/2018
 ms.keywords: FhConfigMgr class [Windows API],SaveConfiguration method, IFhConfigMgr interface [Windows API],SaveConfiguration method, IFhConfigMgr.SaveConfiguration, IFhConfigMgr::SaveConfiguration, SaveConfiguration, SaveConfiguration method [Windows API], SaveConfiguration method [Windows API],FhConfigMgr class, SaveConfiguration method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::SaveConfiguration, winprog.ifhconfigmgr_saveconfiguration
-ms.topic: method
 f1_keywords:
 - fhcfg/IFhConfigMgr.SaveConfiguration
 dev_langs:

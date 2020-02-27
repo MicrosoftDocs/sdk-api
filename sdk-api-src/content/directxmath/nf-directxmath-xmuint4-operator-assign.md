@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUINT4.operator = (const XMUINT4)
 ms.date: 05/13/2019
 ms.keywords: Use DirectX..XMUINT4.operator =, Use DirectX::::XMUINT4::operator =, XMUINT4 structure [DirectX Math Support APIs],operator = method, XMUINT4.operator =, XMUINT4.operator-assign, XMUINT4.operator=, XMUINT4::operator-assign, XMUINT4::operator=, dxmath.xmuint4_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMUINT4 structure, operator=
-ms.topic: method
 f1_keywords:
 - directxmath/XMUINT4.operator =
 dev_langs:

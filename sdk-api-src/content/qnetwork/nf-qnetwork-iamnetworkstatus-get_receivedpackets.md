@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9437489d-87bf-45d4-82f3-22e8adb4df54
 ms.date: 12/05/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_ReceivedPackets method, IAMNetworkStatus.get_ReceivedPackets, IAMNetworkStatus::get_ReceivedPackets, IAMNetworkStatusget_ReceivedPackets, dshow.iamnetworkstatus_get_receivedpackets, get_ReceivedPackets, get_ReceivedPackets method [DirectShow], get_ReceivedPackets method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_ReceivedPackets
-ms.topic: method
 f1_keywords:
 - qnetwork/IAMNetworkStatus.get_ReceivedPackets
 dev_langs:

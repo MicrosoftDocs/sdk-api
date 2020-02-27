@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 89c41d9c-186c-4927-990d-92aa501f7d35
 ms.date: 12/05/2018
 ms.keywords: IContext, IContext interface [COM], IContext interface [COM],described, _com_icontext, com.icontext, objidlbase/IContext
-ms.topic: interface
 f1_keywords:
 - objidl/IContext
 dev_langs:

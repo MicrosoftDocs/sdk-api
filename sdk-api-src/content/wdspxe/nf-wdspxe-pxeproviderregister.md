@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 2b377855-dae7-47cb-925a-9ee0a9265f83
 ms.date: 12/05/2018
 ms.keywords: PXE_REG_INDEX_BOTTOM, PXE_REG_INDEX_TOP, PxeProviderRegister, PxeProviderRegister function [Windows Deployment Services], wds.pxeproviderregister, wdspxe/PxeProviderRegister
-ms.topic: function
 f1_keywords:
 - wdspxe/PxeProviderRegister
 dev_langs:

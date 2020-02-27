@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: 6c2cf0be-9c9f-46d6-9108-47d2ad405645
 ms.date: 12/05/2018
 ms.keywords: ISettingsNamespace interface [SMI],RemoveSettingByPath method, ISettingsNamespace.RemoveSettingByPath, ISettingsNamespace::RemoveSettingByPath, RemoveSettingByPath, RemoveSettingByPath method [SMI], RemoveSettingByPath method [SMI],ISettingsNamespace interface, smi.isettingsnamespace_removesettingbypath, wcmconfig/ISettingsNamespace::RemoveSettingByPath
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsNamespace.RemoveSettingByPath
 dev_langs:

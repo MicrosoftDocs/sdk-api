@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 39a1af39-a8b3-47b2-b3cb-8e807ae202c9
 ms.date: 12/05/2018
 ms.keywords: GetStrikethrough, GetStrikethrough method [Direct Write], GetStrikethrough method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetStrikethrough method, IDWriteTextLayout.GetStrikethrough, IDWriteTextLayout::GetStrikethrough, directwrite.IDWriteTextLayout_GetStrikethrough, dwrite/IDWriteTextLayout::GetStrikethrough
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextLayout.GetStrikethrough
 dev_langs:

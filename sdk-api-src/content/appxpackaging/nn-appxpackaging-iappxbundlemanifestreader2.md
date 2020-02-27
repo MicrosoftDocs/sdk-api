@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 37236CED-F32F-4726-B945-F7359AEFF030
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleManifestReader2, IAppxBundleManifestReader2 interface [App packaging and management], IAppxBundleManifestReader2 interface [App packaging and management],described, appxpackaging/IAppxBundleManifestReader2, appxpkg.iappxbundlemanifestreader2
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxBundleManifestReader2
 dev_langs:

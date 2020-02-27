@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 779f5840-d58d-4194-baa7-2c6a7aeb7d79
 ms.date: 12/05/2018
 ms.keywords: EnableRouter, EnableRouter function [IP Helper], _iphlp_enablerouter, iphlp.enablerouter, iphlpapi/EnableRouter
-ms.topic: function
 f1_keywords:
 - iphlpapi/EnableRouter
 dev_langs:

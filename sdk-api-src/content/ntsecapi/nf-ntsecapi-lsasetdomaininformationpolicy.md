@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 77af6fdc-a52e-476c-9de2-36ee48133a87
 ms.date: 12/05/2018
 ms.keywords: LsaSetDomainInformationPolicy, LsaSetDomainInformationPolicy function [Security], PolicyDomainEfsInformation, PolicyDomainKerberosTicketInformation, ntsecapi/LsaSetDomainInformationPolicy, security.lsasetdomaininformationpolicy
-ms.topic: function
 f1_keywords:
 - ntsecapi/LsaSetDomainInformationPolicy
 dev_langs:

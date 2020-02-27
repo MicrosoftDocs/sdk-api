@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 2e07c2e4-5f34-4949-bca1-92183652d2fb
 ms.date: 12/05/2018
 ms.keywords: GetSourceGeometry, GetSourceGeometry method [Direct2D], GetSourceGeometry method [Direct2D],ID2D1TransformedGeometry interface, ID2D1TransformedGeometry interface [Direct2D],GetSourceGeometry method, ID2D1TransformedGeometry.GetSourceGeometry, ID2D1TransformedGeometry::GetSourceGeometry, d2d1/ID2D1TransformedGeometry::GetSourceGeometry, direct2d.ID2D1TransformedGeometry_GetSourceGeometry
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1TransformedGeometry.GetSourceGeometry
 dev_langs:

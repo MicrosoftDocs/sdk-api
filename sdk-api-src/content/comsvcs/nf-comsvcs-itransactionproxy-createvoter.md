@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: dd837082-881e-4f7e-b71e-c0f6068e3cdb
 ms.date: 12/05/2018
 ms.keywords: CreateVoter, CreateVoter method [COM+], CreateVoter method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],CreateVoter method, ITransactionProxy.CreateVoter, ITransactionProxy::CreateVoter, comsvcs/ITransactionProxy::CreateVoter, cos.itransactionproxy_createvoter
-ms.topic: method
 f1_keywords:
 - comsvcs/ITransactionProxy.CreateVoter
 dev_langs:

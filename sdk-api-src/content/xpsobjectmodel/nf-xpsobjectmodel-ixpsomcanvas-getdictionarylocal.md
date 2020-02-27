@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 5578ae0f-4da7-4d9f-9133-fbe501ff66a1
 ms.date: 12/05/2018
 ms.keywords: GetDictionaryLocal, GetDictionaryLocal method [XPS Documents and Packaging], GetDictionaryLocal method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetDictionaryLocal method, IXpsOMCanvas.GetDictionaryLocal, IXpsOMCanvas::GetDictionaryLocal, xps.ixpsomcanvas_getdictionarylocal, xpsobjectmodel/IXpsOMCanvas::GetDictionaryLocal
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCanvas.GetDictionaryLocal
 dev_langs:
@@ -168,7 +167,7 @@ For more information about other return values that might be returned by this me
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

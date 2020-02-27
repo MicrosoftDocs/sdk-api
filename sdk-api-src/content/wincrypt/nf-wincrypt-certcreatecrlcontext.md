@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 23d9dfb0-926d-443e-b960-a03338f1cc1b
 ms.date: 12/05/2018
 ms.keywords: CertCreateCRLContext, CertCreateCRLContext function [Security], _crypto2_certcreatecrlcontext, security.certcreatecrlcontext, wincrypt/CertCreateCRLContext
-ms.topic: function
 f1_keywords:
 - wincrypt/CertCreateCRLContext
 dev_langs:

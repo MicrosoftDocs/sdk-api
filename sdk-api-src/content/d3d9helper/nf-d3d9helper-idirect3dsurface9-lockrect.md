@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__lockrect.htm
 ms.date: 12/05/2018
 ms.keywords: 95e6910d-b701-2649-b38f-7c2f4fe99c47, IDirect3DSurface9 interface [Direct3D 9],LockRect method, IDirect3DSurface9.LockRect, IDirect3DSurface9::LockRect, LockRect, LockRect method [Direct3D 9], LockRect method [Direct3D 9],IDirect3DSurface9 interface, d3d9helper/IDirect3DSurface9::LockRect, direct3d9.idirect3dsurface9__lockrect
-ms.topic: method
 f1_keywords:
 - d3d9helper/IDirect3DSurface9.LockRect
 dev_langs:

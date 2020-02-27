@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: C46468A6-684D-494c-8261-87F16485B97B
 ms.date: 12/05/2018
 ms.keywords: GetProcessReference, GetProcessReference function [Windows Shell], shell.GetProcessReference, shlwapi/GetProcessReference
-ms.topic: function
 f1_keywords:
 - shlwapi/GetProcessReference
 dev_langs:
@@ -74,7 +73,7 @@ There are a number of components, such as Shell extension handlers, that are imp
 
 <b>GetProcessReference</b> allows components that run in a host process to hold a reference on the host process. <b>GetProcessReference</b> increments the host's reference count and returns a pointer to the host's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. By holding that reference, a component can prevent the host process from closing prematurely. After the component has completed its necessary processing, it should call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">(*punk)->Release</a> to release the host's reference and allow the process to terminate.
 
-<div class="alert"><b>Note</b>  If <b>GetProcessReference</b> is successful, the component must release the host's reference when it is no longer needed. Otherwise, all resources associated with the process will remain in memory. The <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointed to by *<i>punk</i> can only be used to release this reference. Components cannot use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">(*punk)->QueryInterface</a> to request other interface pointers.</div>
+<div class="alert"><b>Note</b>  If <b>GetProcessReference</b> is successful, the component must release the host's reference when it is no longer needed. Otherwise, all resources associated with the process will remain in memory. The <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointed to by *<i>punk</i> can only be used to release this reference. Components cannot use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">(*punk)->QueryInterface</a> to request other interface pointers.</div>
 <div> </div>
 <b>GetProcessReference</b> succeeds only if it is called from from an application which had previously called <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-setprocessreference">SetProcessReference</a> to set a process reference.
 

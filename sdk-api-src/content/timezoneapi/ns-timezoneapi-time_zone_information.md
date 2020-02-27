@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 18c10ad6-8bc9-4a3b-a424-d17ee1d9e004
 ms.date: 12/05/2018
 ms.keywords: '*LPTIME_ZONE_INFORMATION, *PTIME_ZONE_INFORMATION, PTIME_ZONE_INFORMATION, PTIME_ZONE_INFORMATION structure pointer, TIME_ZONE_INFORMATION, TIME_ZONE_INFORMATION structure, _TIME_ZONE_INFORMATION, _TIME_ZONE_INFORMATION structure, _win32_time_zone_information_str, base.time_zone_information_str, timezoneapi/PTIME_ZONE_INFORMATION, timezoneapi/_TIME_ZONE_INFORMATION'
-ms.topic: struct
 f1_keywords:
 - timezoneapi/TIME_ZONE_INFORMATION
 dev_langs:

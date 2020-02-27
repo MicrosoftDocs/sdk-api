@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 7713f477-f6a3-456d-a442-a78750542b03
 ms.date: 12/05/2018
 ms.keywords: VarRound, VarRound function [Automation], _oa96_VarRound, automat.varround, oleauto/VarRound
-ms.topic: function
 f1_keywords:
 - oleauto/VarRound
 dev_langs:

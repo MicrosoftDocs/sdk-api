@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ed03334b-f688-4993-9685-092135ca29c9
 ms.date: 12/05/2018
 ms.keywords: PathCombine, PathCombine function [Windows Shell], PathCombineA, PathCombineW, _win32_PathCombine, shell.PathCombine, shlwapi/PathCombine, shlwapi/PathCombineA, shlwapi/PathCombineW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathCombine
 dev_langs:

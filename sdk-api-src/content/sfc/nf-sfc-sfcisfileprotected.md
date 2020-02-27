@@ -7,7 +7,6 @@ tech.root: wfp
 ms.assetid: 6882f7ef-0265-4db5-afa5-54df35b9dba1
 ms.date: 12/05/2018
 ms.keywords: SfcIsFileProtected, SfcIsFileProtected function [Setup API], _win32_sfcisfileprotected, setup.sfcisfileprotected, sfc/SfcIsFileProtected
-ms.topic: function
 f1_keywords:
 - sfc/SfcIsFileProtected
 dev_langs:

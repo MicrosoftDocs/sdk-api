@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 05b4bf7d-a0d9-473c-b215-9cf566b2a996
 ms.date: 12/05/2018
 ms.keywords: '*PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE structure [Security], PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE structure pointer [Security], authz/AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, authz/PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, security.authz_security_attribute_fqbn_value'
-ms.topic: struct
 f1_keywords:
 - authz/AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE
 dev_langs:

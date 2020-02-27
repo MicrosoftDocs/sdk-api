@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 8C58DBB6-A55E-4992-B4F2-EB36E15FA7A1
 ms.date: 12/05/2018
 ms.keywords: GetTimelineMarkerTimer, GetTimelineMarkerTimer method [Media Foundation], GetTimelineMarkerTimer method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetTimelineMarkerTimer method, IMFMediaEngineEx.GetTimelineMarkerTimer, IMFMediaEngineEx::GetTimelineMarkerTimer, mf.imfmediaengineex_gettimelinemarkertimer, mfmediaengine/IMFMediaEngineEx::GetTimelineMarkerTimer
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineEx.GetTimelineMarkerTimer
 dev_langs:

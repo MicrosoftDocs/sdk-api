@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: ddd3a6b2-3637-4da1-b3ce-f01364e8b818
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],getProxyExceptionList method, IWMPNetwork.getProxyExceptionList, IWMPNetwork::getProxyExceptionList, IWMPNetworkgetProxyExceptionList, getProxyExceptionList, getProxyExceptionList method [Windows Media Player], getProxyExceptionList method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxyexceptionlist, wmp/IWMPNetwork::getProxyExceptionList
-ms.topic: method
 f1_keywords:
 - wmp/IWMPNetwork.getProxyExceptionList
 dev_langs:

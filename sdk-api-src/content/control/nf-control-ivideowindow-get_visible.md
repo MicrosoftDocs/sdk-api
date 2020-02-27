@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b533398e-80f6-4f33-982b-93b8e0d705e9
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Visible method, IVideoWindow.get_Visible, IVideoWindow::get_Visible, IVideoWindowget_Visible, control/IVideoWindow::get_Visible, dshow.ivideowindow_get_visible, get_Visible, get_Visible method [DirectShow], get_Visible method [DirectShow],IVideoWindow interface
-ms.topic: method
 f1_keywords:
 - control/IVideoWindow.get_Visible
 dev_langs:

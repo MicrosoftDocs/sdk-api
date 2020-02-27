@@ -7,7 +7,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\vkkeyscan.htm
 ms.date: 12/05/2018
 ms.keywords: VkKeyScan, VkKeyScan function [Keyboard and Mouse Input], VkKeyScanA, VkKeyScanW, _win32_VkKeyScan, _win32_vkkeyscan_cpp, inputdev.vkkeyscan, winui._win32_vkkeyscan, winuser/VkKeyScan, winuser/VkKeyScanA, winuser/VkKeyScanW
-ms.topic: function
 f1_keywords:
 - winuser/VkKeyScan
 dev_langs:

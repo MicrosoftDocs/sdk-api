@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 5735ABDB-E1AE-41C0-9F37-92084CEF6FAD
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],Update method, IUIAnimationManager2.Update, IUIAnimationManager2::Update, Update, Update method [Windows Animation], Update method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_update, uianimation/IUIAnimationManager2::Update
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationManager2.Update
 dev_langs:

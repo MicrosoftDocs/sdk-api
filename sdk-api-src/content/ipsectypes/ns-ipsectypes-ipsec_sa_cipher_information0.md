@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 2a5105ad-b77f-46b7-9a79-50514b88e7ce
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_CIPHER_INFORMATION0, IPSEC_SA_CIPHER_INFORMATION0 structure [Filtering], fwp.ipsec_sa_cipher_information0_struct, ipsectypes/IPSEC_SA_CIPHER_INFORMATION0
-ms.topic: struct
 f1_keywords:
 - ipsectypes/IPSEC_SA_CIPHER_INFORMATION0
 dev_langs:

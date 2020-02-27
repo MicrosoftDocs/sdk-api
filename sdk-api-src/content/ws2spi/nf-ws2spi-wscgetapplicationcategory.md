@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: c4e149ce-dff9-401a-8488-23676992c04d
 ms.date: 12/05/2018
 ms.keywords: WSCGetApplicationCategory, WSCGetApplicationCategory function [Winsock], winsock.wscgetapplicationcategory, ws2spi/WSCGetApplicationCategory
-ms.topic: function
 f1_keywords:
 - ws2spi/WSCGetApplicationCategory
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert">**Note**  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The 
+<div class="alert">**Note**  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The 
 **WSCGetApplicationCategory** function retrieves the layered service provider (LSP) categories associated with an application.
 
 
@@ -103,7 +102,7 @@ If no error occurs, **WSCGetApplicationCategory** returns **ERROR_SUCCESS** (zer
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -114,7 +113,7 @@ One or more of the arguments is not in a valid part of the user address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -125,7 +124,7 @@ One or more of the arguments are invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -139,7 +138,7 @@ The error can also be returned if the application you are querying does not exis
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -163,7 +162,7 @@ The <i>Extra</i> parameter is required when the command line is used to distingu
 
 For services, using the Service Name is not sufficient,  since the Winsock Catalog is global to a given process, and a process may host several services.  
 
-Window sockets determine an application's identity and retrieves the permitted LSP categories during the first call to <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a>.  This will be the set of permitted LSP categories for the duration of the application instance.  Subsequent changes to the permitted LSP categories for a given application identity will not be picked up until the next instance of the application.  The permitted LSP categories are not mutable during the lifetime of the application instance.
+Window sockets determine an application's identity and retrieves the permitted LSP categories during the first call to <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a>.  This will be the set of permitted LSP categories for the duration of the application instance.  Subsequent changes to the permitted LSP categories for a given application identity will not be picked up until the next instance of the application.  The permitted LSP categories are not mutable during the lifetime of the application instance.
 
 Winsock 2 accommodates layered protocols. A layered protocol is one that implements only higher level communications functions, while relying on an underlying transport stack for the actual exchange of data with a remote endpoint. An example of a layered protocol or layered service provider would be a security layer that adds protocol to the connection establishment process in order to perform authentication and to establish a mutually agreed upon encryption scheme.  Such a security protocol would generally require the services of an underlying reliable transport protocol such as TCP or SPX.  The term base protocol refers to a protocol such as TCP or SPX which is capable of performing data communications with a remote endpoint. The term layered protocol is used to describe a protocol that cannot stand alone.  
 
@@ -240,31 +239,31 @@ If an LSP does not have a category set, it is considered to be in the All Other 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/categorizing-layered-service-providers-and-applications">Categorizing Layered Service Providers and Applications</a>
+<a href="/windows/desktop/WinSock/categorizing-layered-service-providers-and-applications">Categorizing Layered Service Providers and Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo">WSCGetProviderInfo</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo">WSCGetProviderInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo32">WSCGetProviderInfo32</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo32">WSCGetProviderInfo32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscsetapplicationcategory">WSCSetApplicationCategory</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscsetapplicationcategory">WSCSetApplicationCategory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscsetproviderinfo">WSCSetProviderInfo</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscsetproviderinfo">WSCSetProviderInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscsetproviderinfo32">WSCSetProviderInfo32</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscsetproviderinfo32">WSCSetProviderInfo32</a>
  
 
  

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: b38abdc9-6c03-4077-9d42-c7cb6d5c66ee
 ms.date: 12/05/2018
 ms.keywords: EnumCalendarInfo, EnumCalendarInfo function [Internationalization for Windows Applications], EnumCalendarInfoA, EnumCalendarInfoW, _win32_EnumCalendarInfo, intl.enumcalendarinfo, winnls/EnumCalendarInfo, winnls/EnumCalendarInfoA, winnls/EnumCalendarInfoW
-ms.topic: function
 f1_keywords:
 - winnls/EnumCalendarInfo
 dev_langs:

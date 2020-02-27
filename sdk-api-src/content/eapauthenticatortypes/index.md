@@ -1,9 +1,10 @@
 ---
 UID: NA:eapauthenticatortypes
+title: Eapauthenticatortypes.h header
 ms.assetid: 0d23718a-e379-3023-8412-598fbba7b01b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: eaphost
 ---
 

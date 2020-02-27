@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 78f5ab06-13d1-4564-b9eb-334d4f0c34e8
 ms.date: 12/05/2018
 ms.keywords: Deadline property [Windows Update Agent], Deadline property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],Deadline property, IUpdate.Deadline, IUpdate.get_Deadline, IUpdate::Deadline, IUpdate::get_Deadline, get_Deadline, wua.iupdate_deadline, wuapi/IUpdate::Deadline, wuapi/IUpdate::get_Deadline
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdate.Deadline
 dev_langs:

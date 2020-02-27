@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: b7efaa05-e6ac-4fb8-889f-ff6fa0755476
 ms.date: 12/05/2018
 ms.keywords: AssociateFileEx, AssociateFileEx function [Windows API], filehc/AssociateFileEx, winprog._associatefileex
-ms.topic: function
 f1_keywords:
 - filehc/AssociateFileEx
 dev_langs:
@@ -80,7 +79,7 @@ The terminating dot is used by the NNTP/SMTP protocol to identify the end of mes
 
 
 
-Returns a pointer to the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure that was obtained. If the function fails, it returns <b>NULL</b>.
+Returns a pointer to the <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure that was obtained. If the function fails, it returns <b>NULL</b>.
 
 
 
@@ -90,7 +89,7 @@ Returns a pointer to the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304
 
 
 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a>
  
 
  

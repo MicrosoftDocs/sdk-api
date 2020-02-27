@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: e7c7cc92-fa0e-426d-b26d-d8f87bffad7d
 ms.date: 12/05/2018
 ms.keywords: GetScopeProps, GetScopeProps method [Windows Runtime], GetScopeProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetScopeProps method, IMetaDataImport.GetScopeProps, IMetaDataImport::GetScopeProps, rometadataapi/IMetaDataImport::GetScopeProps, winrt.imetadataimport_getscopeprops
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataImport.GetScopeProps
 dev_langs:

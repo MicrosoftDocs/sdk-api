@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 2e93583a-59a8-4a0f-9299-ed57fdcebf33
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawClipper, IDirectDrawClipper interface [DirectDraw], IDirectDrawClipper interface [DirectDraw],described, ddraw/IDirectDrawClipper, directdraw.idirectdrawclipper
-ms.topic: interface
 f1_keywords:
 - ddraw/IDirectDrawClipper
 dev_langs:

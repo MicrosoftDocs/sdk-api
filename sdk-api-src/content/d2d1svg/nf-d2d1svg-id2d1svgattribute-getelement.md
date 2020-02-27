@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: F02A13BF-955A-4D74-BC12-F1E6DCFFCCE9
 ms.date: 12/05/2018
 ms.keywords: GetElement, GetElement method [Direct2D], GetElement method [Direct2D],ID2D1SvgAttribute interface, ID2D1SvgAttribute interface [Direct2D],GetElement method, ID2D1SvgAttribute.GetElement, ID2D1SvgAttribute::GetElement, d2d1svg/ID2D1SvgAttribute::GetElement, direct2d.id2d1svgattribute_getelement
-ms.topic: method
 f1_keywords:
 - d2d1svg/ID2D1SvgAttribute.GetElement
 dev_langs:

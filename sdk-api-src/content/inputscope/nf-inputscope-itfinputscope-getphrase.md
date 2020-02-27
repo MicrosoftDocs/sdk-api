@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 9a97dab0-2e3d-4921-80a6-0f2c79fbf4aa
 ms.date: 12/05/2018
 ms.keywords: GetPhrase, GetPhrase method [Text Services Framework], GetPhrase method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetPhrase method, ITfInputScope.GetPhrase, ITfInputScope::GetPhrase, inputscope/ITfInputScope::GetPhrase, tsf.itfinputscope_getphrase
-ms.topic: method
 f1_keywords:
 - inputscope/ITfInputScope.GetPhrase
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 72a0b42e-a7af-42d2-b672-cf06d0b5d1ba
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_MX_DATA, *PDNS_MX_DATAA, DNS_MX_DATA, DNS_MX_DATA structure [DNS], DNS_MX_DATAA, PDNS_MX_DATA, PDNS_MX_DATA structure pointer [DNS], _dns_dns_mx_data, dns.dns_mx_data, windns/DNS_MX_DATA, windns/PDNS_MX_DATA'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_MX_DATA
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>DNS_MX_DATA</b> structure represents a DNS mail exchanger (MX) record as specified in section 3.3.9 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
+<b>DNS_MX_DATA</b> structure represents a DNS mail exchanger (MX) record as specified in section 3.3.9 of <a href="https://www.ietf.org/rfc/rfc1035.txt">RFC 1035</a>.
 
 
 ## -struct-fields

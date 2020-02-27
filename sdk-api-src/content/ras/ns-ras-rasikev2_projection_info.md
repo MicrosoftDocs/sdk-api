@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: c88346f0-118e-4468-83b1-2dfc263e22f7
 ms.date: 12/05/2018
 ms.keywords: '*PRASIKEV2_PROJECTION_INFO, IPSEC_CIPHER_TYPE_3DES, IPSEC_CIPHER_TYPE_AES_128, IPSEC_CIPHER_TYPE_AES_192, IPSEC_CIPHER_TYPE_AES_256, PRASIKEV2_PROJECTION_INFO, PRASIKEV2_PROJECTION_INFO structure pointer [RAS], RASIKEV2_PROJECTION_INFO, RASIKEV2_PROJECTION_INFO structure [RAS], RASIKEv2_AUTH_EAP, RASIKEv2_AUTH_MACHINECERTIFICATES, RASIKEv2_FLAGS_BEHIND_NAT, RASIKEv2_FLAGS_MOBIKESUPPORTED, RASIKEv2_FLAGS_SERVERBEHIND_NAT, ras/PRASIKEV2_PROJECTION_INFO, ras/RASIKEV2_PROJECTION_INFO, rras.rasikev2_projection_info'
-ms.topic: struct
 f1_keywords:
 - ras/RASIKEV2_PROJECTION_INFO
 dev_langs:
@@ -110,7 +109,7 @@ A value that specifies the authentication protocol used to authenticate the remo
 </td>
 <td width="60%">
 X.509 Public Key Infrastructure
-                      Certificate (<a href="Http://go.microsoft.com/fwlink/p/?linkid=70416">RFC 2459</a>).
+                      Certificate (<a href="https://www.ietf.org/rfc/rfc2459.txt">RFC 2459</a>).
 
 </td>
 </tr>

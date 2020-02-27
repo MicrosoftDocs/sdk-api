@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d38946be-8fd3-46e2-953e-8e94bcad4b81
 ms.date: 12/05/2018
 ms.keywords: GetSearchText, GetSearchText method [Windows Shell], GetSearchText method [Windows Shell],ISearchContext interface, ISearchContext interface [Windows Shell],GetSearchText method, ISearchContext.GetSearchText, ISearchContext::GetSearchText, _shell_ISearchContext_GetSearchText, shell.ISearchContext_GetSearchText, shlobj_core/ISearchContext::GetSearchText
-ms.topic: method
 f1_keywords:
 - shlobj_core/ISearchContext.GetSearchText
 dev_langs:

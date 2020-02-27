@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 357934fa-9213-466e-8104-eb9b265a98d3
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],Clear method, IFolderActionCollection.Clear, IFolderActionCollection::Clear, base.ifolderactioncollection_clear, pla.ifolderactioncollection_clear, pla/IFolderActionCollection::Clear
-ms.topic: method
 f1_keywords:
 - pla/IFolderActionCollection.Clear
 dev_langs:

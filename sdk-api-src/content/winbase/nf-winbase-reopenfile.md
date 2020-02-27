@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 56d8a4b1-e3b5-4134-8d21-bf40761e9dcc
 ms.date: 12/05/2018
 ms.keywords: FILE_FLAG_BACKUP_SEMANTICS, FILE_FLAG_DELETE_ON_CLOSE, FILE_FLAG_NO_BUFFERING, FILE_FLAG_OPEN_NO_RECALL, FILE_FLAG_OPEN_REPARSE_POINT, FILE_FLAG_OVERLAPPED, FILE_FLAG_POSIX_SEMANTICS, FILE_FLAG_RANDOM_ACCESS, FILE_FLAG_SEQUENTIAL_SCAN, FILE_FLAG_WRITE_THROUGH, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, ReOpenFile, ReOpenFile function [Files], SECURITY_ANONYMOUS, SECURITY_CONTEXT_TRACKING, SECURITY_DELEGATION, SECURITY_EFFECTIVE_ONLY, SECURITY_IDENTIFICATION, SECURITY_IMPERSONATION, base.reopenfile, fs.reopenfile, winbase/ReOpenFile
-ms.topic: function
 f1_keywords:
 - winbase/ReOpenFile
 dev_langs:
@@ -280,7 +279,7 @@ This flag also enables more than one operation to be performed simultaneously wi
 <tr>
 <td width="40%"><a id="FILE_FLAG_POSIX_SEMANTICS"></a><a id="file_flag_posix_semantics"></a><dl>
 <dt><b>FILE_FLAG_POSIX_SEMANTICS</b></dt>
-<dt>0x0100000</dt>
+<dt>0x01000000</dt>
 </dl>
 </td>
 <td width="60%">

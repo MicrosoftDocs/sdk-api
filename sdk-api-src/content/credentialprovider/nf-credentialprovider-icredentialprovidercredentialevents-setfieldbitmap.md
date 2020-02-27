@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 860407bd-774a-409f-b7db-e30a964cf879
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldBitmap method, ICredentialProviderCredentialEvents.SetFieldBitmap, ICredentialProviderCredentialEvents::SetFieldBitmap, SetFieldBitmap, SetFieldBitmap method [Windows Shell], SetFieldBitmap method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldBitmap, credentialprovider/ICredentialProviderCredentialEvents::SetFieldBitmap, shell.ICredentialProviderCredentialEvents_SetFieldBitmap
-ms.topic: method
 f1_keywords:
 - credentialprovider/ICredentialProviderCredentialEvents.SetFieldBitmap
 dev_langs:

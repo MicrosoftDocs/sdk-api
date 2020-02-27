@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: fc861cbb-a14e-499e-8b80-f5912e4f6076
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder, IDiscRecorder interface [IMAPI], IDiscRecorder interface [IMAPI],described, _win32_idiscrecorder, base.idiscrecorder, imapi.idiscrecorder, imapi/IDiscRecorder
-ms.topic: interface
 f1_keywords:
 - imapi/IDiscRecorder
 dev_langs:

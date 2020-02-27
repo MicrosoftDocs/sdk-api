@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: fa87ed4f-4ccb-465c-bcd5-890694b790a3
 ms.date: 12/05/2018
 ms.keywords: EngClearEvent, EngClearEvent function [Display Devices], display.engclearevent, gdifncs_0650b2ea-0f64-425b-bfd4-a7c369f2915b.xml, winddi/EngClearEvent
-ms.topic: function
 f1_keywords:
 - winddi/EngClearEvent
 dev_langs:

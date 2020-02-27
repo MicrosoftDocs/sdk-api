@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: ebf76664-bca6-462d-b519-2b60f435d8ef
 ms.date: 12/05/2018
 ms.keywords: CryptMsgCountersign, CryptMsgCountersign function [Security], _crypto2_cryptmsgcountersign, security.cryptmsgcountersign, wincrypt/CryptMsgCountersign
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptMsgCountersign
 dev_langs:

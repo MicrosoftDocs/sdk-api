@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.Contains(BoundingOrientedBox)
 ms.date: 12/05/2018
 ms.keywords: BoundingBox interface [DirectX Math Support APIs],Contains method, BoundingBox.Contains, BoundingBox.Contains(const BoundingOrientedBox &), BoundingBox.Contains(const BoundingOrientedBox&), BoundingBox::Contains, BoundingBox::Contains(const BoundingOrientedBox &), Contains, Contains method [DirectX Math Support APIs], Contains method [DirectX Math Support APIs],BoundingBox interface, dxmath.boundingbox_contains_4
-ms.topic: method
 f1_keywords:
 - directxcollision/BoundingBox.Contains
 dev_langs:

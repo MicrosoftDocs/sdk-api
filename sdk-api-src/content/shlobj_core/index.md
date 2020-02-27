@@ -1,9 +1,10 @@
 ---
 UID: NA:shlobj_core
+title: Shlobj_Core.h header
 ms.assetid: c0d2636b-9239-39b4-87ee-10ef3f703c40
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: lwef
 ---
 

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: ab586c7d-69e6-4ad7-93f1-3e1437c04856
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMPage interface [XPS Documents and Packaging],Write method, IXpsOMPage.Write, IXpsOMPage::Write, TRUE, Write, Write method [XPS Documents and Packaging], Write method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_write, xpsobjectmodel/IXpsOMPage::Write
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPage.Write
 dev_langs:
@@ -159,7 +158,7 @@ The XPS markup that is  written to the stream by this method contains the page m
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

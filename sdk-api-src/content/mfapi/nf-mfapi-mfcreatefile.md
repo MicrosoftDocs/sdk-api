@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 29269ea4-151f-4819-ae49-9f1c13a901e5
 ms.date: 12/05/2018
 ms.keywords: 29269ea4-151f-4819-ae49-9f1c13a901e5, MFCreateFile, MFCreateFile function [Media Foundation], mf.mfcreatefile, mfapi/MFCreateFile
-ms.topic: function
 f1_keywords:
 - mfapi/MFCreateFile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 7c23c5ad-8088-4cfb-9746-99d24cc3bd0e
 ms.date: 12/05/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, ISecurityInformation interface [Security],SetSecurity method, ISecurityInformation.SetSecurity, ISecurityInformation::SetSecurity, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, SetSecurity, SetSecurity method [Security], SetSecurity method [Security],ISecurityInformation interface, _win32_isecurityinformation_setsecurity, aclui/ISecurityInformation::SetSecurity, security.isecurityinformation_setsecurity
-ms.topic: method
 f1_keywords:
 - aclui/ISecurityInformation.SetSecurity
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\catalogstatus.htm
 ms.date: 12/05/2018
 ms.keywords: CATALOG_STATUS_FULL_CRAWL, CATALOG_STATUS_IDLE, CATALOG_STATUS_INCREMENTAL_CRAWL, CATALOG_STATUS_PAUSED, CATALOG_STATUS_PROCESSING_NOTIFICATIONS, CATALOG_STATUS_RECOVERING, CATALOG_STATUS_SHUTTING_DOWN, CatalogStatus, CatalogStatus enumeration [search], _search_CatalogStatus, search._search_CatalogStatus, searchapi/CATALOG_STATUS_FULL_CRAWL, searchapi/CATALOG_STATUS_IDLE, searchapi/CATALOG_STATUS_INCREMENTAL_CRAWL, searchapi/CATALOG_STATUS_PAUSED, searchapi/CATALOG_STATUS_PROCESSING_NOTIFICATIONS, searchapi/CATALOG_STATUS_RECOVERING, searchapi/CATALOG_STATUS_SHUTTING_DOWN, searchapi/CatalogStatus
-ms.topic: enum
 f1_keywords:
 - searchapi/CatalogStatus
 dev_langs:

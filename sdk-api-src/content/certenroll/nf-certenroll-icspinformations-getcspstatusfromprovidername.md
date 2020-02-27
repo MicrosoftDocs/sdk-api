@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: f73d40cb-dde3-46a5-ba9f-f7cbfa2efe70
 ms.date: 12/05/2018
 ms.keywords: GetCspStatusFromProviderName, GetCspStatusFromProviderName method [Security], GetCspStatusFromProviderName method [Security],ICspInformations interface, ICspInformations interface [Security],GetCspStatusFromProviderName method, ICspInformations.GetCspStatusFromProviderName, ICspInformations::GetCspStatusFromProviderName, certenroll/ICspInformations::GetCspStatusFromProviderName, security.icspinformations_getcspstatusfromprovidername_method
-ms.topic: method
 f1_keywords:
 - certenroll/ICspInformations.GetCspStatusFromProviderName
 dev_langs:

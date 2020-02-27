@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getrenderingorigin.htm
 ms.date: 12/05/2018
 ms.keywords: GetRenderingOrigin, GetRenderingOrigin method [GDI+], GetRenderingOrigin method [GDI+],Graphics class, Graphics class [GDI+],GetRenderingOrigin method, Graphics.GetRenderingOrigin, Graphics::GetRenderingOrigin, _gdiplus_CLASS_Graphics_GetRenderingOrigin_x_y_, gdiplus._gdiplus_CLASS_Graphics_GetRenderingOrigin_x_y_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.GetRenderingOrigin
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 6a457076-7992-4912-8ac5-2258f9651a8c
 ms.date: 12/05/2018
 ms.keywords: CompareStringOrdinal, CompareStringOrdinal function [Internationalization for Windows Applications], _win32_CompareStringOrdinal, intl.comparestringordinal, stringapiset/CompareStringOrdinal
-ms.topic: function
 f1_keywords:
 - stringapiset/CompareStringOrdinal
 dev_langs:

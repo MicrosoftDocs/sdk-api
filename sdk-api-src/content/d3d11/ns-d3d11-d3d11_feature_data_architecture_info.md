@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: BC815FDB-984C-4857-AF48-8B471F46CDD4
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_ARCHITECTURE_INFO, D3D11_FEATURE_DATA_ARCHITECTURE_INFO structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_ARCHITECTURE_INFO, direct3d11.d3d11_feature_data_architecture_info
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_FEATURE_DATA_ARCHITECTURE_INFO
 dev_langs:

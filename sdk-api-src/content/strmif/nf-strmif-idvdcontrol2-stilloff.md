@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6c419a3b-482a-4b1b-afea-6cbf9373c5b9
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],StillOff method, IDvdControl2.StillOff, IDvdControl2::StillOff, IDvdControl2StillOff, StillOff, StillOff method [DirectShow], StillOff method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_stilloff, strmif/IDvdControl2::StillOff
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.StillOff
 dev_langs:

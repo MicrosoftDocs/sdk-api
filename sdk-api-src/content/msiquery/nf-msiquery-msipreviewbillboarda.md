@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 7404ea12-bb38-4b7d-986e-2dff2fc36346
 ms.date: 12/05/2018
 ms.keywords: MsiPreviewBillboard, MsiPreviewBillboard function, MsiPreviewBillboardA, MsiPreviewBillboardW, _msi_msipreviewbillboard, msiquery/MsiPreviewBillboard, msiquery/MsiPreviewBillboardA, msiquery/MsiPreviewBillboardW, setup.msipreviewbillboard
-ms.topic: function
 f1_keywords:
 - msiquery/MsiPreviewBillboard
 dev_langs:

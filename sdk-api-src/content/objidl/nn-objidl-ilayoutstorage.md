@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 72201600-4bbb-4346-a13f-927e8463b6ec
 ms.date: 12/05/2018
 ms.keywords: ILayoutStorage, ILayoutStorage interface [Structured Storage], ILayoutStorage interface [Structured Storage],described, _stg_ilayoutstorage, objidl/ILayoutStorage, stg.ilayoutstorage
-ms.topic: interface
 f1_keywords:
 - objidl/ILayoutStorage
 dev_langs:

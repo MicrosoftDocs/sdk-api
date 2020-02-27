@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: c028732d-7ead-4417-b3d5-a0df756ad623
 ms.date: 12/05/2018
 ms.keywords: MCIWndHome, MCIWndHome macro [Windows Multimedia], _win32_MCIWndHome, multimedia.mciwndhome, vfw/MCIWndHome
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndHome
 dev_langs:

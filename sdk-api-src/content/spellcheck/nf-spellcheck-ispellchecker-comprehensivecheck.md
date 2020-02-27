@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: E364F423-AF17-4F91-993B-CEA0E50CAF67
 ms.date: 12/05/2018
 ms.keywords: ComprehensiveCheck, ComprehensiveCheck method [Internationalization for Windows Applications], ComprehensiveCheck method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],ComprehensiveCheck method, ISpellChecker.ComprehensiveCheck, ISpellChecker::ComprehensiveCheck, intl.ispellchecker_comprehensivecheck, spellcheck/ISpellChecker::ComprehensiveCheck
-ms.topic: method
 f1_keywords:
 - spellcheck/ISpellChecker.ComprehensiveCheck
 dev_langs:
@@ -125,7 +124,7 @@ Successful.
 The returned <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellingerror">IEnumSpellingError</a> contains the results of spell checking. A correct <i>text</i> returns an empty (not a null) enumeration.
 
 If the provider supports two "modes" of spell checking (a faster one and a slower but more thorough one), it implements <a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-icomprehensivespellcheckprovider">IComprehensiveSpellCheckProvider</a> to support the more thorough checking mode. 
-When a client calls <b>ISpellChecker::ComprehensiveCheck</b>, the spell checking functionality will <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> the provider for <b>IComprehensiveSpellCheckProvider</b>, and call <a href="https://docs.microsoft.com/windows/desktop/Intl/icomprehensivespellcheckprovider-comprehensivecheck">IComprehensiveSpellCheckProvider.ComprehensiveCheck</a> if the interface is supported. If the interface isn't supported, it will silently fall back to <a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-check">ISpellCheckProvider::Check</a>.
+When a client calls <b>ISpellChecker::ComprehensiveCheck</b>, the spell checking functionality will <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> the provider for <b>IComprehensiveSpellCheckProvider</b>, and call <a href="https://docs.microsoft.com/windows/desktop/Intl/icomprehensivespellcheckprovider-comprehensivecheck">IComprehensiveSpellCheckProvider.ComprehensiveCheck</a> if the interface is supported. If the interface isn't supported, it will silently fall back to <a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-check">ISpellCheckProvider::Check</a>.
 
 
 

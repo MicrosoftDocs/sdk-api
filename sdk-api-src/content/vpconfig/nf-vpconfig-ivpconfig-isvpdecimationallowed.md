@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2362e321-cbdd-41ee-97ff-e6ff9cd672b0
 ms.date: 12/05/2018
 ms.keywords: IVPConfig interface [DirectShow],IsVPDecimationAllowed method, IVPConfig.IsVPDecimationAllowed, IVPConfig::IsVPDecimationAllowed, IVPConfigIsVPDecimationAllowed, IsVPDecimationAllowed, IsVPDecimationAllowed method [DirectShow], IsVPDecimationAllowed method [DirectShow],IVPConfig interface, dshow.ivpconfig_isvpdecimationallowed, vpconfig/IVPConfig::IsVPDecimationAllowed
-ms.topic: method
 f1_keywords:
 - vpconfig/IVPConfig.IsVPDecimationAllowed
 dev_langs:

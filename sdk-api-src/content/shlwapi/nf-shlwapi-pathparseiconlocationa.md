@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1ded2f0f-0e11-4730-ab7b-16536e7f4435
 ms.date: 12/05/2018
 ms.keywords: PathParseIconLocation, PathParseIconLocation function [Windows Shell], PathParseIconLocationA, PathParseIconLocationW, _win32_PathParseIconLocation, shell.PathParseIconLocation, shlwapi/PathParseIconLocation, shlwapi/PathParseIconLocationA, shlwapi/PathParseIconLocationW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathParseIconLocation
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 535b14f3-6d17-4c3c-b310-b018922d48e8
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientStop interface [XPS Documents and Packaging],SetColor method, IXpsOMGradientStop.SetColor, IXpsOMGradientStop::SetColor, SetColor, SetColor method [XPS Documents and Packaging], SetColor method [XPS Documents and Packaging],IXpsOMGradientStop interface, xps.ixpsomgradientstop_setcolor, xpsobjectmodel/IXpsOMGradientStop::SetColor
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGradientStop.SetColor
 dev_langs:
@@ -166,7 +165,7 @@ A color profile is only required when the color type of <i>color</i> is <a href=
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

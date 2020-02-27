@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 25b1fd48-7b2c-4687-af7e-09efd99038b3
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup interface [Security],InitializeDefaults method, IMSCEPSetup.InitializeDefaults, IMSCEPSetup::InitializeDefaults, InitializeDefaults, InitializeDefaults method [Security], InitializeDefaults method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::InitializeDefaults, security.imscepsetup_initializedefaults
-ms.topic: method
 f1_keywords:
 - casetup/IMSCEPSetup.InitializeDefaults
 dev_langs:

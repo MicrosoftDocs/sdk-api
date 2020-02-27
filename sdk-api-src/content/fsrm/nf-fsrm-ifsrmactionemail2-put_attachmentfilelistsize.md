@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 355553d7-f237-481c-a6d4-51e0af2b3f5a
 ms.date: 12/05/2018
 ms.keywords: AttachmentFileListSize property [File Server Resource Manager], AttachmentFileListSize property [File Server Resource Manager],IFsrmActionEmail2 interface, IFsrmActionEmail2 interface [File Server Resource Manager],AttachmentFileListSize property, IFsrmActionEmail2.AttachmentFileListSize, IFsrmActionEmail2.put_AttachmentFileListSize, IFsrmActionEmail2::AttachmentFileListSize, IFsrmActionEmail2::get_AttachmentFileListSize, IFsrmActionEmail2::put_AttachmentFileListSize, fs.ifsrmactionemail2_attachmentfilelistsize, fsrm.ifsrmactionemail2_attachmentfilelistsize, fsrm/IFsrmActionEmail2::AttachmentFileListSize, fsrm/IFsrmActionEmail2::get_AttachmentFileListSize, fsrm/IFsrmActionEmail2::put_AttachmentFileListSize, put_AttachmentFileListSize
-ms.topic: method
 f1_keywords:
 - fsrm/IFsrmActionEmail2.AttachmentFileListSize
 dev_langs:

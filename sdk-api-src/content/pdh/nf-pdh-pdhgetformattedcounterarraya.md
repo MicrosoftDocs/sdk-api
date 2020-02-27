@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 0f388c7e-d0c8-461d-908c-48af92166996
 ms.date: 12/05/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhGetFormattedCounterArray, PdhGetFormattedCounterArray function [Perf], PdhGetFormattedCounterArrayA, PdhGetFormattedCounterArrayW, _win32_pdhgetformattedcounterarray, base.pdhgetformattedcounterarray, pdh/PdhGetFormattedCounterArray, pdh/PdhGetFormattedCounterArrayA, pdh/PdhGetFormattedCounterArrayW, perf.pdhgetformattedcounterarray
-ms.topic: function
 f1_keywords:
 - pdh/PdhGetFormattedCounterArray
 dev_langs:

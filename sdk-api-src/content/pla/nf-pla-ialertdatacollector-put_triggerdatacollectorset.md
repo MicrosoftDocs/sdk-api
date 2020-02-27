@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 3ba9b1c0-432e-4caf-a082-33d1c5c3b132
 ms.date: 12/05/2018
 ms.keywords: IAlertDataCollector interface [PLA],TriggerDataCollectorSet property, IAlertDataCollector.TriggerDataCollectorSet, IAlertDataCollector.put_TriggerDataCollectorSet, IAlertDataCollector::TriggerDataCollectorSet, IAlertDataCollector::get_TriggerDataCollectorSet, IAlertDataCollector::put_TriggerDataCollectorSet, TriggerDataCollectorSet property [PLA], TriggerDataCollectorSet property [PLA],IAlertDataCollector interface, base.ialertdatacollector_triggerdatacollectorset, pla.ialertdatacollector_triggerdatacollectorset, pla/IAlertDataCollector::TriggerDataCollectorSet, pla/IAlertDataCollector::get_TriggerDataCollectorSet, pla/IAlertDataCollector::put_TriggerDataCollectorSet, put_TriggerDataCollectorSet
-ms.topic: method
 f1_keywords:
 - pla/IAlertDataCollector.TriggerDataCollectorSet
 dev_langs:

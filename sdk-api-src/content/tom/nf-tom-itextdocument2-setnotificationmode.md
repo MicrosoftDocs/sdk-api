@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: b3dd9895-9fdd-4919-9e3a-382bb130f4b9
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetNotificationMode method, ITextDocument2.SetNotificationMode, ITextDocument2::SetNotificationMode, SetNotificationMode, SetNotificationMode method [Windows Controls], SetNotificationMode method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setnotificationmode, tom/ITextDocument2::SetNotificationMode
-ms.topic: method
 f1_keywords:
 - tom/ITextDocument2.SetNotificationMode
 dev_langs:

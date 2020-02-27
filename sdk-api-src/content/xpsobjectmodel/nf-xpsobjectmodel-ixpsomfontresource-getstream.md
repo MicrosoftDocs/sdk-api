@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d512e862-e2d0-4cc8-a20a-bc3cfbfbcc47
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMFontResource interface, IXpsOMFontResource interface [XPS Documents and Packaging],GetStream method, IXpsOMFontResource.GetStream, IXpsOMFontResource::GetStream, xps.ixpsomfontresource_getstream, xpsobjectmodel/IXpsOMFontResource::GetStream
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMFontResource.GetStream
 dev_langs:
@@ -98,7 +97,7 @@ This method calls the stream's <b>Clone</b> method to create the stream returned
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

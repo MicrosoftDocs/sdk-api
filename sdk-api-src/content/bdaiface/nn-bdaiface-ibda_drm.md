@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: d0bde207-d550-4e98-85c7-b0d47b0cd637
 ms.date: 12/05/2018
 ms.keywords: IBDA_DRM, IBDA_DRM interface [Microsoft TV Technologies], IBDA_DRM interface [Microsoft TV Technologies],described, IBDA_DRMInterface, bdaiface/IBDA_DRM, mstv.ibda_drm
-ms.topic: interface
 f1_keywords:
 - bdaiface/IBDA_DRM
 dev_langs:

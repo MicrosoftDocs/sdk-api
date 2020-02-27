@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 305566ed-20c2-42b6-99c8-108e99f9daeb
 ms.date: 12/05/2018
 ms.keywords: IAccServerDocMgr interface [Windows Accessibility],OnDocumentFocus method, IAccServerDocMgr.OnDocumentFocus, IAccServerDocMgr::OnDocumentFocus, OnDocumentFocus, OnDocumentFocus method [Windows Accessibility], OnDocumentFocus method [Windows Accessibility],IAccServerDocMgr interface, _msaa_IAccServerDocMgr_OnDocumentFocus, msaa.iaccserverdocmgr_iaccserverdocmgr__ondocumentfocus, msaatext/IAccServerDocMgr::OnDocumentFocus, winauto.iaccserverdocmgr_iaccserverdocmgr__ondocumentfocus
-ms.topic: method
 f1_keywords:
 - msaatext/IAccServerDocMgr.OnDocumentFocus
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Applications that use Text Services Framework call <b>IAccServerDocMgr::OnDocumentFocus</b> to notify the Microsoft Active Accessibility run time when a document gets or loses focus. The store keeps this information so that clients can access the document that has focus.
 <div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
-<a href="https://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="https://msdn.microsoft.com/library/ms629032(VS.85).aspx">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		</div><div> </div>
 
 ## -parameters

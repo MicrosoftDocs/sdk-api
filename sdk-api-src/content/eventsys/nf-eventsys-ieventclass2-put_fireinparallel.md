@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 83db1bcd-8b41-4036-9073-c417e97826ed
 ms.date: 12/05/2018
 ms.keywords: FireInParallel property [COM+], FireInParallel property [COM+],IEventClass2 interface, IEventClass2 interface [COM+],FireInParallel property, IEventClass2.FireInParallel, IEventClass2.put_FireInParallel, IEventClass2::FireInParallel, IEventClass2::get_FireInParallel, IEventClass2::put_FireInParallel, _cos_IEventClass2_get_FireInParallel, _cos_IEventClass2_put_FireInParallel, cos.ieventclass2_fireinparallel, eventsys/IEventClass2::FireInParallel, eventsys/IEventClass2::get_FireInParallel, eventsys/IEventClass2::put_FireInParallel, put_FireInParallel
-ms.topic: method
 f1_keywords:
 - eventsys/IEventClass2.FireInParallel
 dev_langs:

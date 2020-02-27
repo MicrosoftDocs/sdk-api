@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 09622009-3E53-4ACD-99AE-83EA20FC55D9
 ms.date: 12/05/2018
 ms.keywords: CreateString, CreateString method [Windows Runtime], CreateString method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateString method, IPropertyValueStatics.CreateString, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateString, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateString, winrt.ipropertyvaluefactory_createstring, winrt.ipropertyvaluestatics_createstring
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValueStatics.CreateString
 dev_langs:
@@ -69,7 +68,7 @@ The string value to store.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
 
-A pointer to a new object that contains <i>value</i>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
+A pointer to a new object that contains <i>value</i>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
 
 
 ## -returns

@@ -5,7 +5,6 @@ description: Multiply an instance of XMVECTOR by a floating point value, returni
 ms.assetid: ebfb61d9-0b98-4e89-a196-bb43881c7252
 ms.date: 05/13/2019
 ms.keywords: operator*
-ms.topic: language-reference
 f1_keywords:
 - directxmath/operator*
 dev_langs:

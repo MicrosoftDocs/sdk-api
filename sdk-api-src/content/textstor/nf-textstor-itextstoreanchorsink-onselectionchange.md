@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: e33932b0-f5ce-4325-809d-ec06cb4a49a6
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnSelectionChange method, ITextStoreAnchorSink.OnSelectionChange, ITextStoreAnchorSink::OnSelectionChange, OnSelectionChange, OnSelectionChange method [Text Services Framework], OnSelectionChange method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onselectionchange_ref, textstor/ITextStoreAnchorSink::OnSelectionChange, tsf.itextstoreanchorsink_onselectionchange
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreAnchorSink.OnSelectionChange
 dev_langs:

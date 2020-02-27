@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\anypopup.htm
 ms.date: 12/05/2018
 ms.keywords: AnyPopup, AnyPopup function [Windows and Messages], _win32_AnyPopup, _win32_anypopup_cpp, winmsg.anypopup, winui._win32_anypopup, winuser/AnyPopup
-ms.topic: function
 f1_keywords:
 - winuser/AnyPopup
 dev_langs:

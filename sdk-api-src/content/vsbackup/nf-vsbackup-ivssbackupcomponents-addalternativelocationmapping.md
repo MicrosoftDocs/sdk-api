@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 349ec124-f3f5-4142-8600-8d9f508c9bb2
 ms.date: 12/05/2018
 ms.keywords: AddAlternativeLocationMapping, AddAlternativeLocationMapping method [VSS], AddAlternativeLocationMapping method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddAlternativeLocationMapping method, IVssBackupComponents.AddAlternativeLocationMapping, IVssBackupComponents::AddAlternativeLocationMapping, _win32_ivssbackupcomponents_addalternativelocationmapping, base.ivssbackupcomponents_addalternativelocationmapping, vsbackup/IVssBackupComponents::AddAlternativeLocationMapping
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.AddAlternativeLocationMapping
 dev_langs:

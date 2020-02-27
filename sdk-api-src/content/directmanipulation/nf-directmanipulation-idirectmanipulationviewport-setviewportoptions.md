@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: F2B861B9-9E86-4AEE-B86C-03BF37F0988B
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetViewportOptions method, IDirectManipulationViewport.SetViewportOptions, IDirectManipulationViewport::SetViewportOptions, SetViewportOptions, SetViewportOptions method [Direct Manipulation], SetViewportOptions method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setviewportoptions, directmanipulation/IDirectManipulationViewport::SetViewportOptions
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationViewport.SetViewportOptions
 dev_langs:

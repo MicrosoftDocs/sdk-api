@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 35ed3b49-8b36-4681-bad6-1669c0da94e0
 ms.date: 12/05/2018
 ms.keywords: PDCOT_BOOLEAN, PDCOT_DATETIME, PDCOT_NONE, PDCOT_NUMBER, PDCOT_SIZE, PDCOT_STRING, PROPDESC_CONDITION_TYPE, PROPDESC_CONDITION_TYPE enumeration [Windows Properties], properties.PROPDESC_CONDITION_TYPE, propsys/PDCOT_BOOLEAN, propsys/PDCOT_DATETIME, propsys/PDCOT_NONE, propsys/PDCOT_NUMBER, propsys/PDCOT_SIZE, propsys/PDCOT_STRING, propsys/PROPDESC_CONDITION_TYPE, shell.PROPDESC_CONDITION_TYPE, shell_PROPDESC_CONDITION_TYPE
-ms.topic: enum
 f1_keywords:
 - propsys/PROPDESC_CONDITION_TYPE
 dev_langs:

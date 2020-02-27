@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 234fe69f-cba6-4ad0-b970-f90346488417
 ms.date: 12/05/2018
 ms.keywords: MI_PropertySet_GetElementAt, MI_PropertySet_GetElementAt function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_GetElementAt, wmi_v2.mi_propertyset_getelementat
-ms.topic: function
 f1_keywords:
 - mi/MI_PropertySet_GetElementAt
 dev_langs:

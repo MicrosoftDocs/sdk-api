@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: bf6525ea-5f32-41d3-b436-920e7369b926
 ms.date: 12/05/2018
 ms.keywords: RtmGetDestInfo, RtmGetDestInfo function [RAS], _rtmv2ref_rtmgetdestinfo, rras.rtmgetdestinfo, rtmv2/RtmGetDestInfo
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmGetDestInfo
 dev_langs:

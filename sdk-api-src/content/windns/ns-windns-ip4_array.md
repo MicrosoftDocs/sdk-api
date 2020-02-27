@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 4273a739-129c-4951-b6df-aef4332ce0cb
 ms.date: 12/05/2018
 ms.keywords: '*PIP4_ARRAY, *PIP4_ARRAY structure [DNS], IP4_ARRAY, IP4_ARRAY structure [DNS], dns.ip4_array, windns/*PIP4_ARRAY, windns/IP4_ARRAY'
-ms.topic: struct
 f1_keywords:
 - windns/IP4_ARRAY
 dev_langs:

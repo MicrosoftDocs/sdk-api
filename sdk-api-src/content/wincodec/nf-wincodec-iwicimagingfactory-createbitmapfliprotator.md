@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: ec044a38-b39d-4421-8e56-a8be0586cc49
 ms.date: 12/05/2018
 ms.keywords: CreateBitmapFlipRotator, CreateBitmapFlipRotator method [Windows Imaging Component], CreateBitmapFlipRotator method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapFlipRotator method, IWICImagingFactory.CreateBitmapFlipRotator, IWICImagingFactory::CreateBitmapFlipRotator, _wic_codec_iwicimagingfactory_createbitmapfliprotator, wic._wic_codec_iwicimagingfactory_createbitmapfliprotator, wincodec/IWICImagingFactory::CreateBitmapFlipRotator
-ms.topic: method
 f1_keywords:
 - wincodec/IWICImagingFactory.CreateBitmapFlipRotator
 dev_langs:

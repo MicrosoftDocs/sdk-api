@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 618074c0-5139-4373-8bcd-9a8fd90a4ed7
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_InnerFECMethod method, IBDA_DigitalDemodulator.put_InnerFECMethod, IBDA_DigitalDemodulator::put_InnerFECMethod, IBDA_DigitalDemodulatorput_InnerFECMethod, bdaiface/IBDA_DigitalDemodulator::put_InnerFECMethod, mstv.ibda_digitaldemodulator_put_innerfecmethod, put_InnerFECMethod, put_InnerFECMethod method [Microsoft TV Technologies], put_InnerFECMethod method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_DigitalDemodulator.put_InnerFECMethod
 dev_langs:

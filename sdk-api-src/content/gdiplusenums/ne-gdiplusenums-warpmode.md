@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\warpmode.htm
 ms.date: 12/05/2018
 ms.keywords: WarpMode, WarpMode enumeration [GDI+], WarpModeBilinear, WarpModePerspective, _gdiplus_ENUM_WarpMode, gdiplus._gdiplus_ENUM_WarpMode, gdiplusenums/WarpMode, gdiplusenums/WarpModeBilinear, gdiplusenums/WarpModePerspective
-ms.topic: enum
 f1_keywords:
 - gdiplusenums/WarpMode
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1c1306bc-443c-4486-b2bc-9bd869b833c3
 ms.date: 12/05/2018
 ms.keywords: SHLoadOLE, SHLoadOLE function [Windows Shell], _win32_SHLoadOLE, shell.SHLoadOLE, shlobj/SHLoadOLE
-ms.topic: function
 f1_keywords:
 - shlobj/SHLoadOLE
 dev_langs:

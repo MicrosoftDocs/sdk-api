@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 7F2BDB39-2CB4-4DB7-BBBA-74B0C07E7420
 ms.date: 12/05/2018
 ms.keywords: GetSystemFontFallback, GetSystemFontFallback method [Direct Write], GetSystemFontFallback method [Direct Write],IDWriteFactory2 interface, IDWriteFactory2 interface [Direct Write],GetSystemFontFallback method, IDWriteFactory2.GetSystemFontFallback, IDWriteFactory2::GetSystemFontFallback, directwrite.idwritefactory2_getsystemfontfallback, dwrite_2/IDWriteFactory2::GetSystemFontFallback
-ms.topic: method
 f1_keywords:
 - dwrite_2/IDWriteFactory2.GetSystemFontFallback
 dev_langs:

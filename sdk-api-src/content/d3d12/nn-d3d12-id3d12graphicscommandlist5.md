@@ -5,7 +5,6 @@ description: Encapsulates a list of graphics commands for rendering, extending t
 tech.root: direct3d12
 ms.date: 05/20/2019
 ms.keywords: ID3D12GraphicsCommandList5
-ms.topic: language-reference
 f1_keywords:
 - d3d12/ID3D12GraphicsCommandList5
 dev_langs:

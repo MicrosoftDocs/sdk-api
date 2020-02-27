@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: f58971eb-0948-4e16-a767-1d4cba9ec721
 ms.date: 12/05/2018
 ms.keywords: WPUModifyIFSHandle, WPUModifyIFSHandle function [Winsock], _win32_wpumodifyifshandle_2, winsock.wpumodifyifshandle_2, ws2spi/WPUModifyIFSHandle
-ms.topic: function
 f1_keywords:
 - ws2spi/WPUModifyIFSHandle
 dev_langs:
@@ -91,7 +90,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dl>
 </dl>
 </td>
 <td width="60%">
@@ -120,7 +119,7 @@ The
 <div> </div>**Layered Service Provider Considerations**
 
 This procedure may also be used by a layered provider that is layered on top of a base IFS provider and wants to expose the base provider's socket handles as its own instead of creating them with a 
-[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md) call. A layered provider that wishes to "pass through" the IFS socket handles it receives from the next layer in the chain can call 
+<a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a> call. A layered provider that wishes to "pass through" the IFS socket handles it receives from the next layer in the chain can call 
 **WPUModifyIFSHandle**, passing its own catalog entry ID as <i>dwCatalogEntryId</i>. This informs the Windows Sockets DLL that this layer, and not the next layer, should be the target for SPI calls involving that socket handle.
 
 There are several limitations a layered provider should observe if it takes this approach.
@@ -129,10 +128,10 @@ There are several limitations a layered provider should observe if it takes this
 - The provider should expose base provider entry points for 
 [LPWSPSend](nc-ws2spi-lpwspsend.md) and 
 [LPWSPRecv](nc-ws2spi-lpwsprecv.md) in the procedure dispatch table it returns at the time of 
-[WSPStartup](nf-ws2spi-wspstartup.md) to make sure the Windows Sockets SPI client's access to these functions is as efficient as possible. 
+<a href="/windows/win32/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a> to make sure the Windows Sockets SPI client's access to these functions is as efficient as possible. 
 - The provider cannot rely on its 
 [LPWSPSend](nc-ws2spi-lpwspsend.md) and 
-[LPWSPRecv](nc-ws2spi-lpwsprecv.md) functions being invoked for all I/O, particularly in the case of the I/O system functions <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a> and <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>. These functions would bypass the layered provider and invoke the base IFS provider's implementation directly even if the layered provider puts its own entry points for these functions into the procedure dispatch table. 
+[LPWSPRecv](nc-ws2spi-lpwsprecv.md) functions being invoked for all I/O, particularly in the case of the I/O system functions <a href="/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a> and <a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>. These functions would bypass the layered provider and invoke the base IFS provider's implementation directly even if the layered provider puts its own entry points for these functions into the procedure dispatch table. 
 - The provider cannot rely on any ability to post-process overlapped I/O using 
 [LPWSPSend](nc-ws2spi-lpwspsend.md), 
 [LPWSPSendTo](nc-ws2spi-lpwspsendto.md), 
@@ -140,8 +139,8 @@ There are several limitations a layered provider should observe if it takes this
 [LPWSPRecvFrom](nc-ws2spi-lpwsprecvfrom.md), or 
 [LPWSPIoctl](nc-ws2spi-lpwspioctl.md). Post-processing notification may happen through completion ports and bypass the layered provider entirely. A layered provider has no way to determine that a completion port was used or determine what port it is. The layered provider has no way to insert itself into the notification sequence. 
 - The provider should pass through all overlapped I/O requests directly to the base provider using the original overlapped parameters (for example, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure and completion routine pointer). The provider should expose the base provider entry point for 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">WSPGetOverlappedResult</a>. Since some overlapped I/O requests can bypass the layered provider completely, the layered provider cannot reliably mark 
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure and completion routine pointer). The provider should expose the base provider entry point for 
+<a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">WSPGetOverlappedResult</a>. Since some overlapped I/O requests can bypass the layered provider completely, the layered provider cannot reliably mark 
 **WSAOVERLAPPED** structures to determine which ones it can report results for, and which ones would have to be passed through to the underlying provider's 
 **WSPGetOverlappedResult**. This effectively means that 
 [LPWSPIoctl](nc-ws2spi-lpwspioctl.md) has to be a pass-through operation to the underlying provider. 
@@ -154,15 +153,15 @@ There are several limitations a layered provider should observe if it takes this
 
 
 
-[WPUCreateSocketHandle](nf-ws2spi-wpucreatesockethandle.md)
+<a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a>
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">WSPGetOverlappedResult</a>
+<a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">WSPGetOverlappedResult</a>
 
 
 

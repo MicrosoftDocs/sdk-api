@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_setintvector.htm
 ms.date: 12/05/2018
 ms.keywords: 5a963b18-3c66-7707-2028-6e38c0de7531, ID3D10EffectVectorVariable interface [Direct3D 10],SetIntVector method, ID3D10EffectVectorVariable.SetIntVector, ID3D10EffectVectorVariable::SetIntVector, SetIntVector, SetIntVector method [Direct3D 10], SetIntVector method [Direct3D 10],ID3D10EffectVectorVariable interface, d3d10effect/ID3D10EffectVectorVariable::SetIntVector, direct3d10.id3d10effectvectorvariable_setintvector
-ms.topic: method
 f1_keywords:
 - d3d10effect/ID3D10EffectVectorVariable.SetIntVector
 dev_langs:

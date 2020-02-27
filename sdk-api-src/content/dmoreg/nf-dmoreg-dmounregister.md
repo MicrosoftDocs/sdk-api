@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7f65789d-7654-4da2-a572-e07c1e81b4ae
 ms.date: 12/05/2018
 ms.keywords: DMOUnregister, DMOUnregister function [DirectShow], dmoreg/DMOUnregister, dshow.dmounregister
-ms.topic: function
 f1_keywords:
 - dmoreg/DMOUnregister
 dev_langs:

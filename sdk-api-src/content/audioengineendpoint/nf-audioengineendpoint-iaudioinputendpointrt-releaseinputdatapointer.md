@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 9dd3f72a-79fe-4d07-a301-d0960e30a2d1
 ms.date: 12/05/2018
 ms.keywords: IAudioInputEndpointRT interface [Remote Desktop Services],ReleaseInputDataPointer method, IAudioInputEndpointRT.ReleaseInputDataPointer, IAudioInputEndpointRT::ReleaseInputDataPointer, ReleaseInputDataPointer, ReleaseInputDataPointer method [Remote Desktop Services], ReleaseInputDataPointer method [Remote Desktop Services],IAudioInputEndpointRT interface, audioengineendpoint/IAudioInputEndpointRT::ReleaseInputDataPointer, termserv.iaudioinputendpointrt_releaseinputdatapointer
-ms.topic: method
 f1_keywords:
 - audioengineendpoint/IAudioInputEndpointRT.ReleaseInputDataPointer
 dev_langs:

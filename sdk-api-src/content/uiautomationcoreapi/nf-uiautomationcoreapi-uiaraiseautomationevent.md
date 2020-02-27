@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: a91ce84c-faae-4b8b-9547-9e9d8edbde6e
 ms.date: 12/05/2018
 ms.keywords: UiaRaiseAutomationEvent, UiaRaiseAutomationEvent function [Windows Accessibility], uiauto.uiauto_UiaRaiseAutomationEventFunction, uiauto_UiaRaiseAutomationEventFunction, uiautomationcoreapi/UiaRaiseAutomationEvent, winauto.uiauto_UiaRaiseAutomationEventFunction
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaRaiseAutomationEvent
 dev_langs:

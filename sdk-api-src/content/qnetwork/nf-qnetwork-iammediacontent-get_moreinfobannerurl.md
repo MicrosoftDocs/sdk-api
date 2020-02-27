@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: cc820849-cab2-4770-bdb2-6c4b32f3cc56
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoBannerURL method, IAMMediaContent.get_MoreInfoBannerURL, IAMMediaContent::get_MoreInfoBannerURL, IAMMediaContentget_MoreInfoBannerURL, dshow.iammediacontent_get_moreinfobannerurl, get_MoreInfoBannerURL, get_MoreInfoBannerURL method [DirectShow], get_MoreInfoBannerURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_MoreInfoBannerURL
-ms.topic: method
 f1_keywords:
 - qnetwork/IAMMediaContent.get_MoreInfoBannerURL
 dev_langs:

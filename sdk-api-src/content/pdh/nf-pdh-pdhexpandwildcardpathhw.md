@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: d7d13beb-02ab-4204-808e-d395197f09e1
 ms.date: 12/05/2018
 ms.keywords: PDH_NOEXPANDCOUNTERS, PDH_NOEXPANDINSTANCES, PdhExpandWildCardPathH, PdhExpandWildCardPathH function [Perf], PdhExpandWildCardPathHA, PdhExpandWildCardPathHW, _win32_pdhexpandwildcardpathh, base.pdhexpandwildcardpathh, pdh/PdhExpandWildCardPathH, pdh/PdhExpandWildCardPathHA, pdh/PdhExpandWildCardPathHW, perf.pdhexpandwildcardpathh
-ms.topic: function
 f1_keywords:
 - pdh/PdhExpandWildCardPathH
 dev_langs:

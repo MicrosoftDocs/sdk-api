@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0lr9.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],SubmissionTime property, IFaxOutgoingMessage.SubmissionTime, IFaxOutgoingMessage.get_SubmissionTime, IFaxOutgoingMessage::SubmissionTime, IFaxOutgoingMessage::get_SubmissionTime, SubmissionTime property [Fax Service], SubmissionTime property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.submissiontime, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_submissiontime_cpp, fax._mfax_faxoutgoingmessage_submissiontime, faxcomex/IFaxOutgoingMessage::SubmissionTime, faxcomex/IFaxOutgoingMessage::get_SubmissionTime, get_SubmissionTime
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutgoingMessage.SubmissionTime
 dev_langs:

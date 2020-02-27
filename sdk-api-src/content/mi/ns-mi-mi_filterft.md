@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: f090b05e-e99b-47aa-8458-8e2cf9031ac7
 ms.date: 12/05/2018
 ms.keywords: MI_FilterFT, MI_FilterFT structure [Windows Management Infrastructure (MI)], mi/MI_FilterFT, wmi_v2.mi_filterft
-ms.topic: struct
 f1_keywords:
 - mi/MI_FilterFT
 dev_langs:

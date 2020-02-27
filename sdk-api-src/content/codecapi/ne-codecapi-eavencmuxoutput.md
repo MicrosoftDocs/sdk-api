@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2020192d-0db1-41e0-b03f-d5a7dbc85106
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncMuxOutput, codecapi/eAVEncMuxOutputAuto, codecapi/eAVEncMuxOutputPS, codecapi/eAVEncMuxOutputTS, dshow.eavencmuxoutput, eAVEncMuxOutput, eAVEncMuxOutput enumeration [DirectShow], eAVEncMuxOutputAuto, eAVEncMuxOutputPS, eAVEncMuxOutputTS
-ms.topic: enum
 f1_keywords:
 - codecapi/eAVEncMuxOutput
 dev_langs:

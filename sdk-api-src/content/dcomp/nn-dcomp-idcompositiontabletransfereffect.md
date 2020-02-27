@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 147E15B8-C529-4BC6-85AA-FB069B892C6C
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect, IDCompositionTableTransferEffect interface [DirectComposition], IDCompositionTableTransferEffect interface [DirectComposition],described, dcomp/IDCompositionTableTransferEffect, directcomp.idcompositiontabletransfereffect
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionTableTransferEffect
 dev_langs:

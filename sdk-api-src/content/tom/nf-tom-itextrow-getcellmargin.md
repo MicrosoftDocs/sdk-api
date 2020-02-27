@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: fc477a0f-2368-40c8-9b75-caec3afedea0
 ms.date: 12/05/2018
 ms.keywords: GetCellMargin, GetCellMargin method [Windows Controls], GetCellMargin method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellMargin method, ITextRow.GetCellMargin, ITextRow::GetCellMargin, controls.itextrow_getcellmargin, tom/ITextRow::GetCellMargin
-ms.topic: method
 f1_keywords:
 - tom/ITextRow.GetCellMargin
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 7e9e33cb-9213-4111-a1de-700493949f2d
 ms.date: 12/05/2018
 ms.keywords: _win32_capSetCallbackOnFrame, capSetCallbackOnFrame, capSetCallbackOnFrame macro [Windows Multimedia], multimedia.capsetcallbackonframe, vfw/capSetCallbackOnFrame
-ms.topic: macro
 f1_keywords:
 - vfw/capSetCallbackOnFrame
 dev_langs:

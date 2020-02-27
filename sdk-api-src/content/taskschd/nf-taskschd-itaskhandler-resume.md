@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 69e82100-2f21-49a1-8ede-e106cb8f1a25
 ms.date: 12/05/2018
 ms.keywords: ITaskHandler interface [Task Scheduler],Resume method, ITaskHandler.Resume, ITaskHandler::Resume, Resume, Resume method [Task Scheduler], Resume method [Task Scheduler],ITaskHandler interface, taskschd.itaskhandler_resume, taskschd/ITaskHandler::Resume
-ms.topic: method
 f1_keywords:
 - taskschd/ITaskHandler.Resume
 dev_langs:

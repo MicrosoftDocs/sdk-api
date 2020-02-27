@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 4e588524-4105-4496-bc87-407abc45f598
 ms.date: 12/05/2018
 ms.keywords: ICGetDisplayFormat, ICGetDisplayFormat function [Windows Multimedia], _win32_ICGetDisplayFormat, multimedia.icgetdisplayformat, vfw/ICGetDisplayFormat
-ms.topic: function
 f1_keywords:
 - vfw/ICGetDisplayFormat
 dev_langs:

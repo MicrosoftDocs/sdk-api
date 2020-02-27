@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 00574c2a-d72f-4744-82b7-3a980af59427
 ms.date: 12/05/2018
 ms.keywords: AutoProxyHelperFunctions, AutoProxyHelperFunctions structure [WinINet], wininet.autoproxyhelperfunctions, wininet/AutoProxyHelperFunctions
-ms.topic: struct
 f1_keywords:
 - wininet/AutoProxyHelperFunctions
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 The <b>AutoProxyHelperFunctions</b> structure is used to create a v-table of Proxy Auto-Config (PAC) functions that can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetinitializeautoproxydll">InternetInitializeAutoProxyDll</a>.
 
-See the   <a href="Http://go.microsoft.com/fwlink/p/?linkid=84541">Navigator Proxy Auto-Config (PAC) File Format</a>  documentation for a specification of the form and use of Proxy Auto-Config helper functions.
+See the   <a href="https://web.archive.org/web/20060424005037/wp.netscape.com/eng/mozilla/2.0/relnotes/demo/proxy-live.html">Navigator Proxy Auto-Config (PAC) File Format</a>  documentation for a specification of the form and use of Proxy Auto-Config helper functions.
 
 
 ## -struct-fields

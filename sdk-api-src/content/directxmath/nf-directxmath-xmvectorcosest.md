@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorCosEst(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorCosEst, XMVectorCosEst, XMVectorCosEst method [DirectX Math Support APIs], dxmath.xmvectorcosest
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorCosEst
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: f189a417-48a4-436e-bb1c-6b0c9f066c04
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Version_Ex, CM_Get_Version_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Version_Ex, cfgmgrfn_0c27aa6b-5682-4901-b57b-2477a0cb9919.xml, devinst.cm_get_version_ex
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Get_Version_Ex
 dev_langs:
@@ -71,7 +70,7 @@ Supplies a machine handle that is returned by <a href="https://docs.microsoft.co
 
 
 
-If the function succeeds, it returns the major revision number in the high-order byte and the minor revision number in the low-order byte. Version 4.0 is returned as 0x0400. By default, version 4.0 is supported  by Microsoft Windows 2000 and later versions of Windows. If an internal error occurs, the function returns 0x0000. Call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> to obtain the error code for the failure.
+If the function succeeds, it returns the major revision number in the high-order byte and the minor revision number in the low-order byte. Version 4.0 is returned as 0x0400. By default, version 4.0 is supported  by Microsoft Windows 2000 and later versions of Windows. If an internal error occurs, the function returns 0x0000. Call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> to obtain the error code for the failure.
 
 
 

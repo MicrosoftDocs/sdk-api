@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: cc36b5d6-bcca-403d-b840-ceabbf159f5d
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],QueryDirection method, IPin.QueryDirection, IPin::QueryDirection, IPinQueryDirection, QueryDirection, QueryDirection method [DirectShow], QueryDirection method [DirectShow],IPin interface, dshow.ipin_querydirection, strmif/IPin::QueryDirection
-ms.topic: method
 f1_keywords:
 - strmif/IPin.QueryDirection
 dev_langs:
@@ -64,7 +63,7 @@ The <b>QueryDirection</b> method gets the direction of the pin (input or output)
 
 ### -param pPinDir [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-pin_direction">PIN_DIRECTION</a> enumerated type.
+Receives a member of the [PIN_DIRECTION](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-pin_direction) enumerated type.
           
 
 

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 71d92f83-f802-4b5c-a3de-4a2ad675318a
 ms.date: 12/05/2018
 ms.keywords: GetDataBytes, GetDataBytes method [Microsoft TV Technologies], GetDataBytes method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetDataBytes method, IISDB_EMM.GetDataBytes, IISDB_EMM::GetDataBytes, dvbsiparser/IISDB_EMM::GetDataBytes, mstv.iisdb_emm_getdatabytes
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IISDB_EMM.GetDataBytes
 dev_langs:

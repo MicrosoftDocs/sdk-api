@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 0ef7760d-39eb-48fe-a7e9-043c2b9ba5a4
 ms.date: 12/05/2018
 ms.keywords: AddDynamicService, AddDynamicService method, AddDynamicService method,IWSDDeviceHost interface, IWSDDeviceHost interface,AddDynamicService method, IWSDDeviceHost.AddDynamicService, IWSDDeviceHost::AddDynamicService, ncd.iwsddevicehost_adddynamicservice_method, wsdhost/IWSDDeviceHost::AddDynamicService
-ms.topic: method
 f1_keywords:
 - wsdhost/IWSDDeviceHost.AddDynamicService
 dev_langs:

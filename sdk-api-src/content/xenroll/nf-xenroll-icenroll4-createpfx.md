@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 37b69fc6-db16-4491-b596-4ef76e5414b3
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],createPFX method, ICEnroll4 interface [Security],createPFX method, ICEnroll4.createPFX, ICEnroll4::createPFX, _xen_icenroll4_createpfx, createPFX, createPFX method [Security], createPFX method [Security],CEnroll object, createPFX method [Security],ICEnroll4 interface, security.icenroll4_createpfx, xenroll/ICEnroll4::createPFX
-ms.topic: method
 f1_keywords:
 - xenroll/ICEnroll4.createPFX
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 2e71e434-b055-4e45-b8fd-f9c1ac84d308
 ms.date: 12/05/2018
 ms.keywords: 2e71e434-b055-4e45-b8fd-f9c1ac84d308, IInkDisp interface [Tablet PC],Load method, IInkDisp.Load, IInkDisp::Load, Load, Load method [Tablet PC], Load method [Tablet PC],IInkDisp interface, msinkaut/IInkDisp::Load, tablet.inkdisp_load
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkDisp.Load
 dev_langs:

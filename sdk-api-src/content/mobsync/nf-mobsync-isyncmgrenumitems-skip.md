@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f317306b-5317-4c5e-a5e6-fd2d8728bc52
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrEnumItems interface [Windows Shell],Skip method, ISyncMgrEnumItems.Skip, ISyncMgrEnumItems::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],ISyncMgrEnumItems interface, mobsync/ISyncMgrEnumItems::Skip, shell.syncmgr_isyncmgrenumitems_skip, syncmgr.isyncmgrenumitems_skip
-ms.topic: method
 f1_keywords:
 - mobsync/ISyncMgrEnumItems.Skip
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 792112a6-b10a-432f-854a-07bd74173e84
 ms.date: 12/05/2018
 ms.keywords: IAudioData interface [DirectShow],SetFormat method, IAudioData.SetFormat, IAudioData::SetFormat, IAudioDataSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IAudioData interface, austream/IAudioData::SetFormat, dshow.iaudiodata_setformat
-ms.topic: method
 f1_keywords:
 - austream/IAudioData.SetFormat
 dev_langs:

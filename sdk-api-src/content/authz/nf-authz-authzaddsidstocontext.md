@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 4744013b-7f2e-4ebb-8944-10ffcc6006d0
 ms.date: 12/05/2018
 ms.keywords: AuthzAddSidsToContext, AuthzAddSidsToContext function [Security], _win32_authzaddsidstocontext, authz/AuthzAddSidsToContext, security.authzaddsidstocontext
-ms.topic: function
 f1_keywords:
 - authz/AuthzAddSidsToContext
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: DBDE5B98-AC31-4CA0-A7C6-1FCD8FAC51FC
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE callback, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE callback function [Security], security.pfn_crypt_object_locator_provider_initialize, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE
-ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE
 dev_langs:

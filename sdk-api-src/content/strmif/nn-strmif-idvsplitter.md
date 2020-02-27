@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a7fd27f4-2fc7-4115-b669-b08eed1ec032
 ms.date: 12/05/2018
 ms.keywords: IDVSplitter, IDVSplitter interface [DirectShow], IDVSplitter interface [DirectShow],described, IDVSplitterInterface, dshow.idvsplitter, strmif/IDVSplitter
-ms.topic: interface
 f1_keywords:
 - strmif/IDVSplitter
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: ad6557e9-1683-4ffd-a59e-8f37eb67d089
 ms.date: 12/05/2018
 ms.keywords: _ldap_ber_init, ber_init, ber_init function [LDAP], ldap.ber__init, ldap.ber_init, winber/ber_init
-ms.topic: function
 f1_keywords:
 - winber/ber_init
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 The <b>ber_init</b> function allocates a new 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure containing the data taken from the supplied 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structure.
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure.
 
 
 ## -parameters
@@ -62,7 +61,7 @@ The <b>ber_init</b> function allocates a new
 
 ### -param pBerVal [in]
 
-Pointer to the source <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structure.
+Pointer to the source <a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure.
 
 
 ## -returns
@@ -103,7 +102,7 @@ Call
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
  
 
  

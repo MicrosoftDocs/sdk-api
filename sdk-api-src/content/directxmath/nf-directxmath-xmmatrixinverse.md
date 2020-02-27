@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixInverse(XMVECTOR@,XMMATRIX)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixInverse, XMMatrixInverse, XMMatrixInverse method [DirectX Math Support APIs], dxmath.xmmatrixinverse
-ms.topic: function
 f1_keywords:
 - directxmath/XMMatrixInverse
 dev_langs:
@@ -60,7 +59,7 @@ Computes the inverse of a matrix.
 
 ### -param pDeterminant [out, optional]
 
-Address of a vector, each of whose components is the determinant of <i>M</i>. This parameter can be a nullptr.
+Address of a vector, each of whose components receives the determinant of <i>M</i>. This parameter can be nullptr if the determinant is not desired.
 
 
 ### -param M [in]

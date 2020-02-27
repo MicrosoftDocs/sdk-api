@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: ef7f588a-f877-4626-ada6-782db6202c65
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IAlternativeNames interface, IAlternativeNames interface [Security],Count property, IAlternativeNames.Count, IAlternativeNames.get_Count, IAlternativeNames::Count, IAlternativeNames::get_Count, certenroll/IAlternativeNames::Count, certenroll/IAlternativeNames::get_Count, get_Count, security.ialternativenames_count_property
-ms.topic: method
 f1_keywords:
 - certenroll/IAlternativeNames.Count
 dev_langs:

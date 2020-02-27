@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: fad61b7f-b9da-4a1b-bb5e-ad20bc87fb5c
 ms.date: 12/05/2018
 ms.keywords: IUPnPAddressFamilyControl, IUPnPAddressFamilyControl interface [UPnP APIs], IUPnPAddressFamilyControl interface [UPnP APIs],described, upnp.iupnpaddressfamilycontrol, upnp/IUPnPAddressFamilyControl
-ms.topic: interface
 f1_keywords:
 - upnp/IUPnPAddressFamilyControl
 dev_langs:

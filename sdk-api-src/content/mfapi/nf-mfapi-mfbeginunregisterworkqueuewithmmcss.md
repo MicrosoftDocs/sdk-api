@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e164785f-9899-45f0-805f-b091508e35aa
 ms.date: 12/05/2018
 ms.keywords: MFBeginUnregisterWorkQueueWithMMCSS, MFBeginUnregisterWorkQueueWithMMCSS function [Media Foundation], e164785f-9899-45f0-805f-b091508e35aa, mf.mfbeginunregisterworkqueuewithmmcss, mfapi/MFBeginUnregisterWorkQueueWithMMCSS
-ms.topic: function
 f1_keywords:
 - mfapi/MFBeginUnregisterWorkQueueWithMMCSS
 dev_langs:

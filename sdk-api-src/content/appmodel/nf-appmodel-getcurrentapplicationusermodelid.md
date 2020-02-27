@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 562BB225-0922-4FE7-92C0-573A2CCE3195
 ms.date: 12/05/2018
 ms.keywords: GetCurrentApplicationUserModelId, GetCurrentApplicationUserModelId function [App packaging and management], appmodel/GetCurrentApplicationUserModelId, appxpkg.getcurrentapplicationusermodelid
-ms.topic: function
 f1_keywords:
 - appmodel/GetCurrentApplicationUserModelId
 dev_langs:

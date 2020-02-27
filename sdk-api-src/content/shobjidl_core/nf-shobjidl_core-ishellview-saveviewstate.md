@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4bc36340-1e52-48cf-8b9a-e32115cda88b
 ms.date: 12/05/2018
 ms.keywords: IShellView interface [Windows Shell],SaveViewState method, IShellView.SaveViewState, IShellView::SaveViewState, SaveViewState, SaveViewState method [Windows Shell], SaveViewState method [Windows Shell],IShellView interface, _win32_IShellView_SaveViewState, shell.IShellView_SaveViewState, shobjidl_core/IShellView::SaveViewState
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellView.SaveViewState
 dev_langs:

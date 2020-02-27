@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 628f450d-10f4-4405-8d7c-ae58c72c2755
 ms.date: 12/05/2018
 ms.keywords: Domain property [Remote Desktop Services], Domain property [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],Domain property, ITsSbClientConnection.Domain, ITsSbClientConnection.get_Domain, ITsSbClientConnection::Domain, ITsSbClientConnection::get_Domain, get_Domain, sbtsv/ITsSbClientConnection::Domain, sbtsv/ITsSbClientConnection::get_Domain, termserv.itssbclientconnection_domain
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbClientConnection.Domain
 dev_langs:

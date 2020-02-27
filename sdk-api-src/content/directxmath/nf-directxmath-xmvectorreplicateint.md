@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorReplicateInt(uint32_t)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorReplicateInt, XMVectorReplicateInt, XMVectorReplicateInt method [DirectX Math Support APIs], dxmath.xmvectorreplicateint
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorReplicateInt
 dev_langs:

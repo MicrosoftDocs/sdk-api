@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: beb8e598-5a35-46b0-aa13-6bef38b9defb
 ms.date: 12/05/2018
 ms.keywords: IMFInputTrustAuthority interface [Media Foundation],Reset method, IMFInputTrustAuthority.Reset, IMFInputTrustAuthority::Reset, Reset, Reset method [Media Foundation], Reset method [Media Foundation],IMFInputTrustAuthority interface, beb8e598-5a35-46b0-aa13-6bef38b9defb, mf.imfinputtrustauthority_reset, mfidl/IMFInputTrustAuthority::Reset
-ms.topic: method
 f1_keywords:
 - mfidl/IMFInputTrustAuthority.Reset
 dev_langs:

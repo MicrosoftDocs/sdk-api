@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: d9fbc313-fe82-4425-9c9a-79bfacc08019
 ms.date: 12/05/2018
 ms.keywords: ID2D1RenderTarget interface [Direct2D],IsSupported method, ID2D1RenderTarget.IsSupported, ID2D1RenderTarget::IsSupported, IsSupported, IsSupported method [Direct2D], IsSupported method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::IsSupported, direct2d.id2d1rendertarget_issupported
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1RenderTarget.IsSupported
 dev_langs:

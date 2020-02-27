@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 9b542bcf-c32f-40ab-96d1-6f0d96b856c5
 ms.date: 12/05/2018
 ms.keywords: StretchDIB, StretchDIB function [Windows Multimedia], _win32_StretchDIB, multimedia.stretchdib, vfw/StretchDIB
-ms.topic: function
 f1_keywords:
 - vfw/StretchDIB
 dev_langs:

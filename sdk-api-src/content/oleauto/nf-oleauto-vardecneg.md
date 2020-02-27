@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: c2c43a6c-6c9d-4d97-a003-96e3fea46e5e
 ms.date: 12/05/2018
 ms.keywords: VarDecNeg, VarDecNeg function [Automation], _oa96_VarDecNeg, automat.vardecneg, oleauto/VarDecNeg
-ms.topic: function
 f1_keywords:
 - oleauto/VarDecNeg
 dev_langs:

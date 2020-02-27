@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: fed9cfb8-4c38-4947-99aa-278245148136
 ms.date: 12/05/2018
 ms.keywords: SHGetKnownFolderIDList, SHGetKnownFolderIDList function [Windows Shell], _shell_SHGetKnownFolderIDList, shell.SHGetKnownFolderIDList, shlobj_core/SHGetKnownFolderIDList
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHGetKnownFolderIDList
 dev_langs:

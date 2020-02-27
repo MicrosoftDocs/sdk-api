@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8d64e5b6-e8fa-4678-92d4-3cbf92e13ddf
 ms.date: 12/05/2018
 ms.keywords: IAMStreamConfig interface [DirectShow],SetFormat method, IAMStreamConfig.SetFormat, IAMStreamConfig::SetFormat, IAMStreamConfigSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IAMStreamConfig interface, dshow.iamstreamconfig_setformat, strmif/IAMStreamConfig::SetFormat
-ms.topic: method
 f1_keywords:
 - strmif/IAMStreamConfig.SetFormat
 dev_langs:
@@ -64,7 +63,7 @@ The <code>SetFormat</code> method sets the output format on the pin.
 
 ### -param pmt [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the new format.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the new format.
 
 
 ## -returns

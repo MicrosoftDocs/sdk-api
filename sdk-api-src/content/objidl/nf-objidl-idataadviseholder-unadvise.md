@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: baeb29fd-1dd2-4320-911d-b271b2250184
 ms.date: 12/05/2018
 ms.keywords: IDataAdviseHolder interface [COM],Unadvise method, IDataAdviseHolder.Unadvise, IDataAdviseHolder::Unadvise, Unadvise, Unadvise method [COM], Unadvise method [COM],IDataAdviseHolder interface, _ole_idataadviseholder_unadvise, com.idataadviseholder_unadvise, objidl/IDataAdviseHolder::Unadvise
-ms.topic: method
 f1_keywords:
 - objidl/IDataAdviseHolder.Unadvise
 dev_langs:

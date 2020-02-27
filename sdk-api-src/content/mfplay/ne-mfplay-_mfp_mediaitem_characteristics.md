@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 7bbb45e6-717d-413c-95fd-db730ab960ff
 ms.date: 12/05/2018
 ms.keywords: MFP_MEDIAITEM_CAN_PAUSE, MFP_MEDIAITEM_CAN_SEEK, MFP_MEDIAITEM_HAS_SLOW_SEEK, MFP_MEDIAITEM_IS_LIVE, _MFP_MEDIAITEM_CHARACTERISTICS, _MFP_MEDIAITEM_CHARACTERISTICS enumeration [Media Foundation], mf._mfp_mediaitem_characteristics, mfplay/MFP_MEDIAITEM_CAN_PAUSE, mfplay/MFP_MEDIAITEM_CAN_SEEK, mfplay/MFP_MEDIAITEM_HAS_SLOW_SEEK, mfplay/MFP_MEDIAITEM_IS_LIVE, mfplay/_MFP_MEDIAITEM_CHARACTERISTICS
-ms.topic: enum
 f1_keywords:
 - mfplay/_MFP_MEDIAITEM_CHARACTERISTICS
 dev_langs:

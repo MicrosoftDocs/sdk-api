@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 96b2a09f-8a02-471d-a738-f81a8132e0c1
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumMcastScope interface, IEnumMcastScope interface [TAPI 2.2],Clone method, IEnumMcastScope.Clone, IEnumMcastScope::Clone, _tapi3_ienummcastscope_clone, mdhcp/IEnumMcastScope::Clone, tapi3.ienummcastscope_clone
-ms.topic: method
 f1_keywords:
 - mdhcp/IEnumMcastScope.Clone
 dev_langs:

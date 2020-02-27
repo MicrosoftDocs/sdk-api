@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 0f3a1e81-c8b6-4141-8712-c600b30a2779
 ms.date: 12/05/2018
 ms.keywords: CALLFRAMEPARAMINFO, CALLFRAMEPARAMINFO structure [COM], callobj/CALLFRAMEPARAMINFO, com.callframeparaminfo
-ms.topic: struct
 f1_keywords:
 - callobj/CALLFRAMEPARAMINFO
 dev_langs:

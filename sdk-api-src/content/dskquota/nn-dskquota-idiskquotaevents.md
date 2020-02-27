@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 4b5dcb1f-8edb-4fcb-94ea-2a627667071e
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaEvents, IDiskQuotaEvents interface [Files], IDiskQuotaEvents interface [Files],described, _win32_idiskquotaevents, base.idiskquotaevents, dskquota/IDiskQuotaEvents, fs.idiskquotaevents
-ms.topic: interface
 f1_keywords:
 - dskquota/IDiskQuotaEvents
 dev_langs:

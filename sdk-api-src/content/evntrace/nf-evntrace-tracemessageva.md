@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 2cfb7226-fd29-432e-abfd-bd10c6344a67
 ms.date: 12/05/2018
 ms.keywords: PVOID, TRACE_MESSAGE_GUID, TRACE_MESSAGE_SEQUENCE, TRACE_MESSAGE_SYSTEMINFO, TRACE_MESSAGE_TIMESTAMP, TraceMessageVa, TraceMessageVa function [ETW], _evt_tracemessageva, base.tracemessageva, etw.tracemessageva, evntrace/TraceMessageVa, size_t
-ms.topic: function
 f1_keywords:
 - evntrace/TraceMessageVa
 dev_langs:

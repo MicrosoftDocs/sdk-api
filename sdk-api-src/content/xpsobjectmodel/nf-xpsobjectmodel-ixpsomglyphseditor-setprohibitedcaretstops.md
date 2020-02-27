@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 5f2e1014-d50b-4755-a533-239b6ba9009e
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetProhibitedCaretStops method, IXpsOMGlyphsEditor.SetProhibitedCaretStops, IXpsOMGlyphsEditor::SetProhibitedCaretStops, SetProhibitedCaretStops, SetProhibitedCaretStops method [XPS Documents and Packaging], SetProhibitedCaretStops method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setprohibitedcaretstops, xpsobjectmodel/IXpsOMGlyphsEditor::SetProhibitedCaretStops
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphsEditor.SetProhibitedCaretStops
 dev_langs:
@@ -138,7 +137,7 @@ Each caret stop index corresponds to the scalar values of a UTF-16  <b>UnicodeSt
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

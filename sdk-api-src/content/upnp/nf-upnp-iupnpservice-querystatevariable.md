@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: d92785a2-e04c-4968-b515-019205180915
 ms.date: 12/05/2018
 ms.keywords: IUPnPService interface [UPnP APIs],QueryStateVariable method, IUPnPService.QueryStateVariable, IUPnPService::QueryStateVariable, QueryStateVariable, QueryStateVariable method [UPnP APIs], QueryStateVariable method [UPnP APIs],IUPnPService interface, _upnp_iupnpservice_querystatevariable, upnp.iupnpservice_querystatevariable, upnp/IUPnPService::QueryStateVariable
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPService.QueryStateVariable
 dev_langs:

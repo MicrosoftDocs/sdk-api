@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: e1a0b493-4537-465b-93bb-64672bc5b3d9
 ms.date: 12/05/2018
 ms.keywords: WS_XML_COMMENT_NODE, WS_XML_COMMENT_NODE structure [Web Services for Windows], webservices/WS_XML_COMMENT_NODE, wsw.ws_xml_comment_node
-ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_COMMENT_NODE
 dev_langs:

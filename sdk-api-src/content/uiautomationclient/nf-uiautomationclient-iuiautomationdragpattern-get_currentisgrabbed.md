@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 4A528EA2-4E0D-458B-9EC1-ACF5964F0874
 ms.date: 12/05/2018
 ms.keywords: CurrentIsGrabbed property [Windows Accessibility], CurrentIsGrabbed property [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],CurrentIsGrabbed property, IUIAutomationDragPattern.CurrentIsGrabbed, IUIAutomationDragPattern.get_CurrentIsGrabbed, IUIAutomationDragPattern::CurrentIsGrabbed, IUIAutomationDragPattern::get_CurrentIsGrabbed, get_CurrentIsGrabbed, uiautomationclient/IUIAutomationDragPattern::CurrentIsGrabbed, uiautomationclient/IUIAutomationDragPattern::get_CurrentIsGrabbed, winauto.uiauto_iuiautomationdragpattern_currentisgrabbed
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationDragPattern.CurrentIsGrabbed
 dev_langs:

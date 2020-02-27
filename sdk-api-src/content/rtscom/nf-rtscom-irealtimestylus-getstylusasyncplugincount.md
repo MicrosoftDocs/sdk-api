@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 45861b92-0a2c-42ec-96e5-c3afd45e0e85
 ms.date: 12/05/2018
 ms.keywords: 45861b92-0a2c-42ec-96e5-c3afd45e0e85, GetStylusAsyncPluginCount, GetStylusAsyncPluginCount method [Tablet PC], GetStylusAsyncPluginCount method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStylusAsyncPluginCount method, IRealTimeStylus.GetStylusAsyncPluginCount, IRealTimeStylus::GetStylusAsyncPluginCount, rtscom/IRealTimeStylus::GetStylusAsyncPluginCount, tablet.irealtimestylus_getstylusasyncplugincount
-ms.topic: method
 f1_keywords:
 - rtscom/IRealTimeStylus.GetStylusAsyncPluginCount
 dev_langs:

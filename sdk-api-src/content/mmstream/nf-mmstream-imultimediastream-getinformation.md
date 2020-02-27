@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 27be6104-9ca4-48d7-aeda-5b633460e252
 ms.date: 12/05/2018
 ms.keywords: GetInformation, GetInformation method [DirectShow], GetInformation method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetInformation method, IMultiMediaStream.GetInformation, IMultiMediaStream::GetInformation, IMultiMediaStreamGetInformation, dshow.imultimediastream_getinformation, mmstream/IMultiMediaStream::GetInformation
-ms.topic: method
 f1_keywords:
 - mmstream/IMultiMediaStream.GetInformation
 dev_langs:

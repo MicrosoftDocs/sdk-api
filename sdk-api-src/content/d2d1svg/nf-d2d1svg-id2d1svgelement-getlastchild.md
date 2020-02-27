@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: DA100037-7177-4547-B161-D52E059A5F35
 ms.date: 12/05/2018
 ms.keywords: GetLastChild, GetLastChild method [Direct2D], GetLastChild method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetLastChild method, ID2D1SvgElement.GetLastChild, ID2D1SvgElement::GetLastChild, d2d1svg/ID2D1SvgElement::GetLastChild, direct2d.id2d1svgelement_getlastchild
-ms.topic: method
 f1_keywords:
 - d2d1svg/ID2D1SvgElement.GetLastChild
 dev_langs:

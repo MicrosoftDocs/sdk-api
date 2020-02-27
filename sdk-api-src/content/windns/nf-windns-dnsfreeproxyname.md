@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 4c69d548-3bb5-4609-9fc5-3a829a285956
 ms.date: 12/05/2018
 ms.keywords: DnsFreeProxyName, DnsFreeProxyName function [DNS], dns.dnsfreeproxyname, windns/DnsFreeProxyName
-ms.topic: function
 f1_keywords:
 - windns/DnsFreeProxyName
 dev_langs:

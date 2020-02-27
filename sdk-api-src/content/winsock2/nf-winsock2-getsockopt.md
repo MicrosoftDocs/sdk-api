@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 25bc511d-7a9f-41c1-8983-1af1e3f8bf2d
 ms.date: 12/05/2018
 ms.keywords: _win32_getsockopt_2, getsockopt, getsockopt function [Winsock], winsock.getsockopt_2, winsock/getsockopt
-ms.topic: function
 f1_keywords:
 - winsock2/getsockopt
 dev_langs:
@@ -574,7 +573,7 @@ The WSAENOPROTOOPT error code is indicated for nongroup sockets or for service p
 <dt><a id="SO_KEEPALIVE"></a><a id="so_keepalive"></a><a href="https://docs.microsoft.com/windows/desktop/WinSock/so-keepalive">SO_KEEPALIVE</a>
 </dt>
 <dd>
-An application can request that a TCP/IP service provider enable the use of keep-alive packets on TCP  connections by turning on the SO_KEEPALIVE socket option. This option queries the current value of the keep-alive option on a socket. A Windows Sockets provider need not support the use of keep-alive: if it does, the precise semantics are implementation-specific but should conform to section 4.2.3.6 on the <i>Requirements for Internet Hosts—Communication Layers</i> specified in RFC 1122 available at the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84405">IETF website</a>.  If a connection is dropped as the result of keep-alives the error code 
+An application can request that a TCP/IP service provider enable the use of keep-alive packets on TCP  connections by turning on the SO_KEEPALIVE socket option. This option queries the current value of the keep-alive option on a socket. A Windows Sockets provider need not support the use of keep-alive: if it does, the precise semantics are implementation-specific but should conform to section 4.2.3.6 on the <i>Requirements for Internet Hosts—Communication Layers</i> specified in RFC 1122 available at the <a href="https://www.ietf.org/rfc/rfc1122.txt">IETF website</a>.  If a connection is dropped as the result of keep-alives the error code 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETRESET</a> is returned to any calls in progress on the socket, and any subsequent calls will fail with 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTCONN</a>. <a href="https://docs.microsoft.com/windows/desktop/WinSock/so-keepalive">SO_KEEPALIVE</a> is not supported on ATM sockets, and requests to enable the use of keep-alive packets on an ATM socket results in an error being returned by the socket.
 

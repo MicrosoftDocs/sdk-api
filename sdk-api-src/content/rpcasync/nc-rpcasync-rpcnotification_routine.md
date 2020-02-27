@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 679d7a40-5803-4c18-950b-e6763cbf10f2
 ms.date: 12/05/2018
 ms.keywords: RPCNOTIFICATION_ROUTINE, RPCNOTIFICATION_ROUTINE callback, RPCNOTIFICATION_ROUTINE callback function [RPC], RpcnotificationRoutine, _rpc_rpcnotification_routine, rpc.rpcnotification_routine, rpcasync/RPCNOTIFICATION_ROUTINE
-ms.topic: callback
 f1_keywords:
 - rpcasync/RPCNOTIFICATION_ROUTINE
 dev_langs:

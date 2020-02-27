@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 5d8b3198-3935-4305-b0f1-eaf1a9355cf3
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_unbind, ldap.ldap__unbind, ldap.ldap_unbind, ldap_unbind, ldap_unbind function [LDAP], winldap/ldap_unbind
-ms.topic: function
 f1_keywords:
 - winldap/ldap_unbind
 dev_langs:

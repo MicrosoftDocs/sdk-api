@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: CC7EE5D7-ADFC-4859-88F8-C5C21AEBF315
 ms.date: 12/05/2018
 ms.keywords: SetProcessRestrictionExemption, SetProcessRestrictionExemption function, base.setprocessrestrictionexemption, winuser/SetProcessRestrictionExemption
-ms.topic: function
 f1_keywords:
 - winuser/SetProcessRestrictionExemption
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 42940cec-c76a-433c-9308-f030dacb05a4
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],RootPath property, IDataCollectorSet.RootPath, IDataCollectorSet.get_RootPath, IDataCollectorSet::RootPath, IDataCollectorSet::get_RootPath, IDataCollectorSet::put_RootPath, RootPath property [PLA], RootPath property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_rootpath, get_RootPath, pla.idatacollectorset_get_rootpath, pla/IDataCollectorSet::RootPath, pla/IDataCollectorSet::get_RootPath, pla/IDataCollectorSet::put_RootPath
-ms.topic: method
 f1_keywords:
 - pla/IDataCollectorSet.RootPath
 dev_langs:

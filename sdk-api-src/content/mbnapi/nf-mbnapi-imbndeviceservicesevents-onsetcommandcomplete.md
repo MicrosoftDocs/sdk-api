@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: A388F548-453B-4DAB-8AD8-ABC26B22F20E
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnSetCommandComplete method, IMbnDeviceServicesEvents.OnSetCommandComplete, IMbnDeviceServicesEvents::OnSetCommandComplete, OnSetCommandComplete, OnSetCommandComplete method [Microsoft Broadband Networks], OnSetCommandComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onsetcommandcomplete, mbnapi/IMbnDeviceServicesEvents::OnSetCommandComplete
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnDeviceServicesEvents.OnSetCommandComplete
 dev_langs:

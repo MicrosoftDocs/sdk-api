@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: b6be9a29-5d39-4719-a7e3-0c0921ecd89a
 ms.date: 12/05/2018
 ms.keywords: IAnchor interface [Text Services Framework],SetChangeHistoryMask method, IAnchor.SetChangeHistoryMask, IAnchor::SetChangeHistoryMask, SetChangeHistoryMask, SetChangeHistoryMask method [Text Services Framework], SetChangeHistoryMask method [Text Services Framework],IAnchor interface, textstor/IAnchor::SetChangeHistoryMask, tsf.ianchor_setchangehistorymask
-ms.topic: method
 f1_keywords:
 - textstor/IAnchor.SetChangeHistoryMask
 dev_langs:

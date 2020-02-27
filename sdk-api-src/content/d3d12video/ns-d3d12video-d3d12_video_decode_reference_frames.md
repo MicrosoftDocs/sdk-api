@@ -5,7 +5,6 @@ description: Contains the list of reference frames for the current decode operat
 tech.root: mf
 ms.assetid: 9b0151d7-aaeb-4f85-bd41-b68df916b9d0
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_VIDEO_DECODE_REFERENCE_FRAMES
 dev_langs:
@@ -62,10 +61,10 @@ The video device driver uses the "PicEntry" indices defined in the DXVA spec for
  
 ### -field ppHeaps
  
-An array of [ID3D12VideoDecoderHeap](nn-d3d12video-id3d12videodecoderheap) objects. This field is used with formats that support non-key frame resolution changes, allowing the caller to pass in the previous resolution's heap, relative to the reference it's being used for, in addition to the current resolution heap.
+An array of [ID3D12VideoDecoderHeap](nn-d3d12video-id3d12videodecoderheap.md) objects. This field is used with formats that support non-key frame resolution changes, allowing the caller to pass in the previous resolution's heap, relative to the reference it's being used for, in addition to the current resolution heap.
 
 ## -remarks
 
-Reference textures may have limitations such as a requirement to allocate reference buffers as a texture array.  For information on the requirements for different decoder configurations, see [D3D12_VIDEO_DECODE_TIER](ne-d3d12video-d3d12_video_decode_tier).
+Reference textures may have limitations such as a requirement to allocate reference buffers as a texture array.  For information on the requirements for different decoder configurations, see [D3D12_VIDEO_DECODE_TIER](ne-d3d12video-d3d12_video_decode_tier.md).
 
 ## -see-also

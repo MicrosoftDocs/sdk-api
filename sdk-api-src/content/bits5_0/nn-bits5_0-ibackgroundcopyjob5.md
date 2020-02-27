@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 97481F9D-1F7B-473A-B288-A52E527478A0
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob5, IBackgroundCopyJob5 interface [BITS], IBackgroundCopyJob5 interface [BITS],described, bits.bits5_functions, bits.ibackgroundcopyjob5, bits5_0/IBackgroundCopyJob5
-ms.topic: interface
 f1_keywords:
 - bits5_0/IBackgroundCopyJob5
 dev_langs:

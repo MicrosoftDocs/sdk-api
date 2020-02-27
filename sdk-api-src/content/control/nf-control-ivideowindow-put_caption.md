@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d16dca01-95ba-4573-b9c4-ab996dcf21e4
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_Caption method, IVideoWindow.put_Caption, IVideoWindow::put_Caption, IVideoWindowput_Caption, control/IVideoWindow::put_Caption, dshow.ivideowindow_put_caption, put_Caption, put_Caption method [DirectShow], put_Caption method [DirectShow],IVideoWindow interface
-ms.topic: method
 f1_keywords:
 - control/IVideoWindow.put_Caption
 dev_langs:

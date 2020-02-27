@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 51c63e65-a844-46b4-93ef-8a92a9c8a604
 ms.date: 12/05/2018
 ms.keywords: SetupCloseFileQueue, SetupCloseFileQueue function [Setup API], _setupapi_setupclosefilequeue, setup.setupclosefilequeue, setupapi/SetupCloseFileQueue
-ms.topic: function
 f1_keywords:
 - setupapi/SetupCloseFileQueue
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 49f176d9-33f6-4bc1-992c-c613279b0969
 ms.date: 12/05/2018
 ms.keywords: IX500DistinguishedName, IX500DistinguishedName interface [Security], IX500DistinguishedName interface [Security],described, certenroll/IX500DistinguishedName, security.ix500distinguishedname
-ms.topic: interface
 f1_keywords:
 - certenroll/IX500DistinguishedName
 dev_langs:

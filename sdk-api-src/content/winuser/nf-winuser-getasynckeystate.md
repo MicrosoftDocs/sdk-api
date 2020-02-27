@@ -7,7 +7,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getasynckeystate.htm
 ms.date: 12/05/2018
 ms.keywords: GetAsyncKeyState, GetAsyncKeyState function [Keyboard and Mouse Input], _win32_GetAsyncKeyState, _win32_getasynckeystate_cpp, inputdev.getasynckeystate, winui._win32_getasynckeystate, winuser/GetAsyncKeyState
-ms.topic: function
 f1_keywords:
 - winuser/GetAsyncKeyState
 dev_langs:

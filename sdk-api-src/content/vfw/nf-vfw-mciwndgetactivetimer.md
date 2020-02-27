@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 581b9bb3-9bc0-46f2-a5d2-93397900ff28
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetActiveTimer, MCIWndGetActiveTimer macro [Windows Multimedia], _win32_MCIWndGetActiveTimer, multimedia.mciwndgetactivetimer, vfw/MCIWndGetActiveTimer
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndGetActiveTimer
 dev_langs:

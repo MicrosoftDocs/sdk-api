@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4d32826a-bb40-4805-9826-801c142b8d28
 ms.date: 12/05/2018
 ms.keywords: SHSTOCKICONINFO, SHSTOCKICONINFO structure [Windows Shell], _SHSTOCKICONINFO, _SHSTOCKICONINFO structure [Windows Shell], _shell_SHSTOCKICONINFO, shell.SHSTOCKICONINFO, shellapi/SHSTOCKICONINFO
-ms.topic: struct
 f1_keywords:
 - shellapi/_SHSTOCKICONINFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 0f82a6f4-26a6-48dc-9bfa-a86edf1b6be4
 ms.date: 12/05/2018
 ms.keywords: ITLocationInfo, ITLocationInfo interface [TAPI 2.2], ITLocationInfo interface [TAPI 2.2],described, _tapi3_itlocationinfo, tapi3.itlocationinfo, tapi3if/ITLocationInfo
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITLocationInfo
 dev_langs:

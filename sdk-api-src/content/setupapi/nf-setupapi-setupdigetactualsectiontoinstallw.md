@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: ccb5e1a4-e6c3-48e5-ac25-b9b5504a03d7
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetActualSectionToInstall, SetupDiGetActualSectionToInstall function [Device and Driver Installation], SetupDiGetActualSectionToInstallA, SetupDiGetActualSectionToInstallW, devinst.setupdigetactualsectiontoinstall, di-rtns_fce32f02-ef7f-4a51-a559-5f0da3738906.xml, setupapi/SetupDiGetActualSectionToInstall
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetActualSectionToInstall
 dev_langs:
@@ -93,7 +92,7 @@ A pointer to a variable that receives a pointer to the '.' character that marks 
 
 
 
-If the function is successful, it returns <b>TRUE</b>. If the function fails, it returns <b>FALSE</b>. To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+If the function is successful, it returns <b>TRUE</b>. If the function fails, it returns <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 

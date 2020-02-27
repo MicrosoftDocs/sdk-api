@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 498ee212-000d-4204-ae7a-de553bf3ea45
 ms.date: 12/05/2018
 ms.keywords: GetMethodSpecProps, GetMethodSpecProps method [Windows Runtime], GetMethodSpecProps method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],GetMethodSpecProps method, IMetaDataImport2.GetMethodSpecProps, IMetaDataImport2::GetMethodSpecProps, rometadataapi/IMetaDataImport2::GetMethodSpecProps, winrt.imetadataimport2_getmethodspecprops
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataImport2.GetMethodSpecProps
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 1feb0626-78f0-4d37-b3a0-c87a7fb22753
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],Serialize method, ISyncKnowledge.Serialize, ISyncKnowledge::Serialize, Serialize, Serialize method [Windows Sync], Serialize method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_serialize, winsync/ISyncKnowledge::Serialize
-ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge.Serialize
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 2ada52f0-70ec-4146-9ef7-9af3b08996f9
 ms.date: 12/05/2018
 ms.keywords: LOGICAL_PROCESSOR_RELATIONSHIP, LOGICAL_PROCESSOR_RELATIONSHIP enumeration, RelationAll, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, base.logical_processor_relationship, winnt/LOGICAL_PROCESSOR_RELATIONSHIP, winnt/RelationAll, winnt/RelationCache, winnt/RelationGroup, winnt/RelationNumaNode, winnt/RelationProcessorCore, winnt/RelationProcessorPackage
-ms.topic: enum
 f1_keywords:
 - winnt/LOGICAL_PROCESSOR_RELATIONSHIP
 dev_langs:

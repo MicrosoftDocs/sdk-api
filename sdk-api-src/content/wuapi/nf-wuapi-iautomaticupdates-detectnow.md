@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: ef40cd57-eab3-4ccf-a574-ab5237565e5b
 ms.date: 12/05/2018
 ms.keywords: DetectNow, DetectNow method [Windows Update Agent], DetectNow method [Windows Update Agent],IAutomaticUpdates interface, IAutomaticUpdates interface [Windows Update Agent],DetectNow method, IAutomaticUpdates.DetectNow, IAutomaticUpdates::DetectNow, wua.iautomaticupdates_detectnow, wuapi/IAutomaticUpdates::DetectNow
-ms.topic: method
 f1_keywords:
 - wuapi/IAutomaticUpdates.DetectNow
 dev_langs:

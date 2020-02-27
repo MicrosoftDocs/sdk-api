@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: A2EE0C78-13CB-4D9D-B68C-F527CCA2DF26
 ms.date: 12/05/2018
 ms.keywords: CM_Get_DevNode_Property, CM_Get_DevNode_Property function [Device and Driver Installation], CM_Get_DevNode_PropertyW, cfgmgr32/CM_Get_DevNode_Property, cfgmgr32/CM_Get_DevNode_PropertyW, devinst.cm_get_devnode_property
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Get_DevNode_Property
 dev_langs:

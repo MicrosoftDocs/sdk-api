@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable.htm
 ms.date: 12/05/2018
 ms.keywords: 04e04746-d9a8-5507-39e7-6dbc6cf434c2, ID3D10EffectMatrixVariable, ID3D10EffectMatrixVariable interface [Direct3D 10], ID3D10EffectMatrixVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectMatrixVariable, direct3d10.id3d10effectmatrixvariable
-ms.topic: interface
 f1_keywords:
 - d3d10effect/ID3D10EffectMatrixVariable
 dev_langs:

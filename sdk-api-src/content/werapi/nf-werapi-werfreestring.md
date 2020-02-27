@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: 748AEFD4-3310-4BC1-A3DA-CFACBA31F2FC
 ms.date: 12/05/2018
 ms.keywords: WerFreeString, WerFreeString function [Windows Error Reporting], wer.werfreestring, werapi/WerFreeString
-ms.topic: function
 f1_keywords:
 - werapi/WerFreeString
 dev_langs:

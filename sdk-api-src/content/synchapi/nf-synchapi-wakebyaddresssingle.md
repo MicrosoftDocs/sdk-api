@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 4ca8f7b9-e78e-4324-9e72-84267746fe53
 ms.date: 12/05/2018
 ms.keywords: WakeByAddressSingle, WakeByAddressSingle function, base.wakebyaddresssingle, synchapi/WakeByAddressSingle
-ms.topic: function
 f1_keywords:
 - synchapi/WakeByAddressSingle
 dev_langs:
@@ -83,7 +82,7 @@ This function does not return a value.
 
 
 
-Windows Store apps developers may need to obtain synchronization.lib by installing the <a href="http://go.microsoft.com/fwlink/p/?LinkID=258383">Windows Software Development Kit (SDK) for Windows 8</a>.
+Windows Store apps developers may need to obtain synchronization.lib by installing the <a href="https://msdn.microsoft.com/en-US/windows/desktop/hh852363">Windows Software Development Kit (SDK) for Windows 8</a>.
 
 Only a thread within the same process can be woken.
 

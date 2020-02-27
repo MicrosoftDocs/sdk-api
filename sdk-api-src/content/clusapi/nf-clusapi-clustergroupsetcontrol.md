@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 20f0f70a-b300-41b8-b215-e5a3f24db44b
 ms.date: 12/05/2018
 ms.keywords: ClusterGroupSetControl, ClusterGroupSetControl function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL, PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL function [Failover Cluster], clusapi/ClusterGroupSetControl, clusapi/PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL, mscs.clustergroupcollectioncontrol
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterGroupSetControl
 dev_langs:

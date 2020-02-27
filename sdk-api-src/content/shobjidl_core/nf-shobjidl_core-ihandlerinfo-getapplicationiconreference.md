@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: be886508-16a5-4a77-9fa4-b6a8d028c9e9
 ms.date: 12/05/2018
 ms.keywords: GetApplicationIconReference, GetApplicationIconReference method [Windows Shell], GetApplicationIconReference method [Windows Shell],IHandlerInfo interface, IHandlerInfo interface [Windows Shell],GetApplicationIconReference method, IHandlerInfo.GetApplicationIconReference, IHandlerInfo::GetApplicationIconReference, shell.IHandlerInfo_GetApplicationIconReference, shobjidl_core/IHandlerInfo::GetApplicationIconReference
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IHandlerInfo.GetApplicationIconReference
 dev_langs:

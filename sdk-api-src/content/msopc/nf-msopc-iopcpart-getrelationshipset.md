@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: a8a8ce1f-3420-457f-b02a-5dc3e9725a02
 ms.date: 12/05/2018
 ms.keywords: GetRelationshipSet, GetRelationshipSet method [Open Packaging Conventions], GetRelationshipSet method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetRelationshipSet method, IOpcPart.GetRelationshipSet, IOpcPart::GetRelationshipSet, msopc/IOpcPart::GetRelationshipSet, opc.iopcpart_getrelationshipset
-ms.topic: method
 f1_keywords:
 - msopc/IOpcPart.GetRelationshipSet
 dev_langs:
@@ -149,7 +148,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
 
 

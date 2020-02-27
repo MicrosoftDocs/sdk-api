@@ -7,7 +7,6 @@ tech.root: iSCSIDisc
 ms.assetid: f082acc3-98d6-4758-aded-cb83e150e6d1
 ms.date: 12/05/2018
 ms.keywords: ReportIScsiSendTargetPortalsW, ReportIscsiSendTargetPortals, ReportIscsiSendTargetPortals function [iSCSI Discovery Library API], ReportIscsiSendTargetPortalsA, ReportIscsiSendTargetPortalsW, iscsidisc.reportiscsisendtargetportals, iscsidsc/ReportIscsiSendTargetPortals, iscsidsc/ReportIscsiSendTargetPortalsA, iscsidsc/ReportIscsiSendTargetPortalsW
-ms.topic: function
 f1_keywords:
 - iscsidsc/ReportIscsiSendTargetPortals
 dev_langs:

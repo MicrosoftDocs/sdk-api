@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 5bdf2892-ce6f-4560-b638-e441166fc309
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphsEditor, IXpsOMGlyphsEditor interface [XPS Documents and Packaging], IXpsOMGlyphsEditor interface [XPS Documents and Packaging],described, xps.ixpsomglyphseditor, xpsobjectmodel/IXpsOMGlyphsEditor
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphsEditor
 dev_langs:
@@ -263,7 +262,7 @@ Sets the text in unescaped UTF-16 scalar values.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

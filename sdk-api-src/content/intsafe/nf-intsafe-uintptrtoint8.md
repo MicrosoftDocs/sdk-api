@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: fd421216-e2c3-453f-8dd0-0a904a2e0c31
 ms.date: 12/05/2018
 ms.keywords: UIntPtrToInt8, UIntPtrToInt8 function [Windows Shell], intsafe/UIntPtrToInt8, shell.UIntPtrToInt8
-ms.topic: function
 f1_keywords:
 - intsafe/UIntPtrToInt8
 dev_langs:

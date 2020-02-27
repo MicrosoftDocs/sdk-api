@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 20E469FE-100B-489F-956A-347716FA8A12
 ms.date: 12/05/2018
 ms.keywords: RoActivateInstance, RoActivateInstance function [Windows Runtime], WinRTActivateInstance, roapi/RoActivateInstance, roapi/WinRTActivateInstance, winrt.roactivateinstance, winrt.winrtactivateinstance
-ms.topic: function
 f1_keywords:
 - roapi/RoActivateInstance
 dev_langs:

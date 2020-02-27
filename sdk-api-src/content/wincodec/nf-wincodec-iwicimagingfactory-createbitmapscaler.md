@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 4da6b185-4a94-4032-a1d6-e64b96a5da97
 ms.date: 12/05/2018
 ms.keywords: CreateBitmapScaler, CreateBitmapScaler method [Windows Imaging Component], CreateBitmapScaler method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapScaler method, IWICImagingFactory.CreateBitmapScaler, IWICImagingFactory::CreateBitmapScaler, _wic_codec_iwicimagingfactory_createbitmapscaler, wic._wic_codec_iwicimagingfactory_createbitmapscaler, wincodec/IWICImagingFactory::CreateBitmapScaler
-ms.topic: method
 f1_keywords:
 - wincodec/IWICImagingFactory.CreateBitmapScaler
 dev_langs:

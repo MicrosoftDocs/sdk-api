@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 66b5474d-ea21-4ae4-9297-9740f1bc9ecb
 ms.date: 12/05/2018
 ms.keywords: '*PBTHNS_SETBLOB, *PBTH_SET_SERVICE, BTHNS_SETBLOB, BTH_SET_SERVICE, BTH_SET_SERVICE structure [Bluetooth], PBTH_SET_SERVICE, PBTH_SET_SERVICE structure pointer [Bluetooth], _bth_bth_set_service, bluetooth.bth_set_service, ws2bth/BTH_SET_SERVICE, ws2bth/PBTH_SET_SERVICE'
-ms.topic: struct
 f1_keywords:
 - ws2bth/BTH_SET_SERVICE
 dev_langs:
@@ -104,7 +103,7 @@ When using the
 <b>BTH_SET_SERVICE</b> members must be used.
 
 For more information about class of device (COD), see the Bluetooth specification at 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84017">www.bluetooth.com</a>.<table>
+<a href="https://www.bluetooth.com/">www.bluetooth.com</a>.<table>
 <tr>
 <th>Member</th>
 <th>Required value</th>

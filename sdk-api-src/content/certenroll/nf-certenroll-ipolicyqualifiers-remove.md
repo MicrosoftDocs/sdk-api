@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 6071dbc2-210d-42e2-8431-68eef1e89e24
 ms.date: 12/05/2018
 ms.keywords: IPolicyQualifiers interface [Security],Remove method, IPolicyQualifiers.Remove, IPolicyQualifiers::Remove, Remove, Remove method [Security], Remove method [Security],IPolicyQualifiers interface, certenroll/IPolicyQualifiers::Remove, security.ipolicyqualifiers_remove_method
-ms.topic: method
 f1_keywords:
 - certenroll/IPolicyQualifiers.Remove
 dev_langs:

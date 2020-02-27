@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 1053eb3a-15ea-4a4d-9d26-1ef9cf86a610
 ms.date: 12/05/2018
 ms.keywords: _win32_mmioRead, mmioRead, mmioRead function [Windows Multimedia], mmsystem/mmioRead, multimedia.mmioread
-ms.topic: function
 f1_keywords:
 - mmiscapi/mmioRead
 dev_langs:

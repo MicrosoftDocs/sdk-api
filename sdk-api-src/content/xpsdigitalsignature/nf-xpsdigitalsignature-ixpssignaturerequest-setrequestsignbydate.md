@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: b7048b34-17f8-4df4-b1c6-6c6e6250f02a
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetRequestSignByDate method, IXpsSignatureRequest.SetRequestSignByDate, IXpsSignatureRequest::SetRequestSignByDate, SetRequestSignByDate, SetRequestSignByDate method [XPS Documents and Packaging], SetRequestSignByDate method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setrequestsignbydate, xpsdigitalsignature/IXpsSignatureRequest::SetRequestSignByDate
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureRequest.SetRequestSignByDate
 dev_langs:
@@ -128,7 +127,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

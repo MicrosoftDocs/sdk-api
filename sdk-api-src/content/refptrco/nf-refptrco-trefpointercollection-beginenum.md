@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 5f7879e8-0eeb-4768-a478-8effd4e355d3
 ms.date: 12/05/2018
 ms.keywords: BeginEnum, BeginEnum method [Windows Management Instrumentation], BeginEnum method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],BeginEnum method, TRefPointerCollection.BeginEnum, TRefPointerCollection::BeginEnum, _hmm_trefpointercollection_beginenum, refptrco/TRefPointerCollection::BeginEnum, wmi.trefpointercollection_beginenum
-ms.topic: method
 f1_keywords:
 - refptrco/TRefPointerCollection.BeginEnum
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: ea477f33-2dba-44ac-9b47-8fd2ce6cec30
 ms.date: 12/05/2018
 ms.keywords: IDXGIDevice1 interface [DXGI],SetMaximumFrameLatency method, IDXGIDevice1.SetMaximumFrameLatency, IDXGIDevice1::SetMaximumFrameLatency, SetMaximumFrameLatency, SetMaximumFrameLatency method [DXGI], SetMaximumFrameLatency method [DXGI],IDXGIDevice1 interface, da92b152-07cc-06ca-caa5-a8982fe8fc2f, direct3ddxgi.idxgidevice1_setmaximumframelatency, dxgi/IDXGIDevice1::SetMaximumFrameLatency
-ms.topic: method
 f1_keywords:
 - dxgi/IDXGIDevice1.SetMaximumFrameLatency
 dev_langs:
@@ -83,7 +82,7 @@ Returns S_OK if successful; otherwise, DXGI_ERROR_DEVICE_REMOVED if the device w
 
 
 This method is not supported by DXGI 1.0, which shipped in Windows Vista and Windows Server 2008. DXGI 1.1 support is required, which is available on 
-      Windows 7, Windows Server 2008 R2, and as an update to Windows Vista with Service Pack 2 (SP2) (<a href="http://go.microsoft.com/fwlink/p/?linkid=160189">KB 971644</a>) and Windows Server 2008 (<a href="http://go.microsoft.com/fwlink/p/?linkid=183689">KB 971512</a>).
+      Windows 7, Windows Server 2008 R2, and as an update to Windows Vista with Service Pack 2 (SP2) (<a href="https://support.microsoft.com/kb/971644">KB 971644</a>) and Windows Server 2008 (<a href="https://support.microsoft.com/kb/971512/">KB 971512</a>).
 
 Frame latency is the number of frames that are allowed to be stored in a queue before submission for rendering.  Latency is often used to 
     control how the CPU chooses between responding to user input and frames that are in the render queue.  It is often beneficial for applications that 

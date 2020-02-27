@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 2b2828a1-f69c-465a-ad16-236d0709d763
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncChanges interface [Windows Sync],Skip method, IEnumSyncChanges.Skip, IEnumSyncChanges::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumSyncChanges interface, winsync.ienumsyncchanges_skip, winsync/IEnumSyncChanges::Skip
-ms.topic: method
 f1_keywords:
 - winsync/IEnumSyncChanges.Skip
 dev_langs:

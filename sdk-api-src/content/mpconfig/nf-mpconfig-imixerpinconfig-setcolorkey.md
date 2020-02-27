@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b2d4ffa2-0b10-4bc5-9af1-83f4ee68b35f
 ms.date: 12/05/2018
 ms.keywords: IMixerPinConfig interface [DirectShow],SetColorKey method, IMixerPinConfig.SetColorKey, IMixerPinConfig::SetColorKey, IMixerPinConfigSetColorKey, SetColorKey, SetColorKey method [DirectShow], SetColorKey method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setcolorkey, mpconfig/IMixerPinConfig::SetColorKey
-ms.topic: method
 f1_keywords:
 - mpconfig/IMixerPinConfig.SetColorKey
 dev_langs:

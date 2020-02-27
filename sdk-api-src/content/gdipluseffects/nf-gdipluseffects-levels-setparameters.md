@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\levelsclass\levelsmethods\setparameters.htm
 ms.date: 12/05/2018
 ms.keywords: Levels class [GDI+],SetParameters method, Levels.SetParameters, Levels::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],Levels class, _gdiplus_CLASS_Levels_SetParameters_, gdiplus._gdiplus_CLASS_Levels_SetParameters_
-ms.topic: method
 f1_keywords:
 - gdipluseffects/Levels.SetParameters
 dev_langs:

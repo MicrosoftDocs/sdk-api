@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: DA35A67E-6F20-47CC-A96A-591702A79EF5
 ms.date: 12/05/2018
 ms.keywords: ClusterOpenEnumEx, ClusterOpenEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_OPEN_ENUM_EX function [Failover Cluster], clusapi/ClusterOpenEnumEx, clusapi/PCLUSAPI_CLUSTER_OPEN_ENUM_EX, mscs.clusteropenenumex
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterOpenEnumEx
 dev_langs:

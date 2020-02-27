@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 39534411-3d69-408d-b495-10851fe40bdf
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportClient, IWdsTransportClient interface [Windows Deployment Services], IWdsTransportClient interface [Windows Deployment Services],described, wds.iwdstransportclient, wdstptmgmt/IWdsTransportClient
-ms.topic: interface
 f1_keywords:
 - wdstptmgmt/IWdsTransportClient
 dev_langs:

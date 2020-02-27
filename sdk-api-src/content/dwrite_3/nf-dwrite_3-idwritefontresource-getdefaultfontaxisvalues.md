@@ -5,7 +5,6 @@ description: Retrieves the default values for all axes supported by the font res
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetDefaultFontAxisValues method, IDWriteFontResource.GetDefaultFontAxisValues, IDWriteFontResource::GetDefaultFontAxisValues, GetDefaultFontAxisValues, GetDefaultFontAxisValues method [Direct Write], GetDefaultFontAxisValues method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getdefaultfontaxisvalues, dwrite_3/IDWriteFontResource::GetDefaultFontAxisValues
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontResource.GetDefaultFontAxisValues
 dev_langs:

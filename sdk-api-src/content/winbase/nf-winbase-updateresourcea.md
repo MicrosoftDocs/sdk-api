@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\updateresource.htm
 ms.date: 12/05/2018
 ms.keywords: UpdateResource, UpdateResource function [Menus and Other Resources], UpdateResourceA, UpdateResourceW, _win32_UpdateResource, _win32_updateresource_cpp, menurc.updateresource, winbase/UpdateResource, winbase/UpdateResourceA, winbase/UpdateResourceW, winui._win32_updateresource
-ms.topic: function
 f1_keywords:
 - winbase/UpdateResource
 dev_langs:

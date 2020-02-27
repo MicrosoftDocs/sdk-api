@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: E9555BC0-A53B-416F-95C3-53696716F61F
 ms.date: 12/05/2018
 ms.keywords: UiaRaiseNotificationEvent, UiaRaiseNotificationEvent function [Windows Accessibility], uiautomationcoreapi/UiaRaiseNotificationEvent, winauto.uiauto_UiaRaiseNotificationEvent
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaRaiseNotificationEvent
 dev_langs:
@@ -47,48 +46,32 @@ ms.custom: 19H1
 
 # UiaRaiseNotificationEvent function
 
-
 ## -description
-
 
 Called by providers to initiate a notification event.
 
-
 ## -parameters
-
-
-
 
 ### -param provider [in]
 
 The provider node where the notification event occurred.
 
-
 ### -param notificationKind
 
-The type of notification.
-
+The type of notification, as a [NotificationKind enumeration](../uiautomationcore/ne-uiautomationcore-notificationkind.md) value.
 
 ### -param notificationProcessing
 
-Indicates how to process notifications.
-
+The preferred way to process a notification, as a [NotificationProcessing enumeration](../uiautomationcore/ne-uiautomationcore-notificationprocessing.md) value.
 
 ### -param displayString [in, optional]
 
 A string to display in the notification message.
 
-
 ### -param activityId [in]
 
 A unique non-localized string to identify an action or group of actions. Use this to pass additional information to the event handler.
 
-
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.

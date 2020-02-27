@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: D8674AD1-0407-4D1E-9E21-60CAC6D01FC5
 ms.date: 12/05/2018
 ms.keywords: CertResyncCertificateChainEngine, CertResyncCertificateChainEngine function [Security], security.certresynccertificatechainengine, wincrypt/CertResyncCertificateChainEngine
-ms.topic: function
 f1_keywords:
 - wincrypt/CertResyncCertificateChainEngine
 dev_langs:

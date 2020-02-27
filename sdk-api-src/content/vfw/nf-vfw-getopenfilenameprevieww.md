@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: f0247d7b-47e2-436b-a783-ae78974f8340
 ms.date: 12/05/2018
 ms.keywords: GetOpenFileNamePreview, GetOpenFileNamePreview function [Windows Multimedia], GetOpenFileNamePreviewA, GetOpenFileNamePreviewW, _win32_GetOpenFileNamePreview, multimedia.getopenfilenamepreview, vfw/GetOpenFileNamePreview, vfw/GetOpenFileNamePreviewA, vfw/GetOpenFileNamePreviewW
-ms.topic: function
 f1_keywords:
 - vfw/GetOpenFileNamePreview
 dev_langs:
@@ -53,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The <b>GetOpenFileNamePreview</b> function selects a file by using the Open dialog box. The dialog box also allows the user to preview the currently specified AVI file. This function augments the capability found in the <a href="http://go.microsoft.com/fwlink/p/?linkid=16939">GetOpenFileName</a> function.
+The <b>GetOpenFileNamePreview</b> function selects a file by using the Open dialog box. The dialog box also allows the user to preview the currently specified AVI file. This function augments the capability found in the <a href="https://msdn.microsoft.com/library/ms646927.aspx">GetOpenFileName</a> function.
 
 
 

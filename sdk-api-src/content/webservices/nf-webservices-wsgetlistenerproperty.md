@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: cc4fb48a-8282-471a-aed0-1ca3134f9bd0
 ms.date: 12/05/2018
 ms.keywords: WsGetListenerProperty, WsGetListenerProperty function [Web Services for Windows], webservices/WsGetListenerProperty, wsw.wsgetlistenerproperty
-ms.topic: function
 f1_keywords:
 - webservices/WsGetListenerProperty
 dev_langs:

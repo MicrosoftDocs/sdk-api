@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: A5D7766E-7692-449A-86CE-93A787DBDCDC
 ms.date: 12/05/2018
 ms.keywords: GetStartTime, GetStartTime method [Media Foundation], GetStartTime method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetStartTime method, IMFTimedTextCue.GetStartTime, IMFTimedTextCue::GetStartTime, mf.imftimedtextcue_getstarttime, mfmediaengine/IMFTimedTextCue::GetStartTime
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextCue.GetStartTime
 dev_langs:

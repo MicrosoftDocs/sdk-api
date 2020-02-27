@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 37260573-bac0-462c-a0df-654e2b22ed47
 ms.date: 12/05/2018
 ms.keywords: AutoArrange, AutoArrange method [Windows Shell], AutoArrange method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],AutoArrange method, IShellFolderView.AutoArrange, IShellFolderView::AutoArrange, _shell_IShellFolderView_AutoArrange, shell.IShellFolderView_AutoArrange, shlobj_core/IShellFolderView::AutoArrange
-ms.topic: method
 f1_keywords:
 - shlobj_core/IShellFolderView.AutoArrange
 dev_langs:

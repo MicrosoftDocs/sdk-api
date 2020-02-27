@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: aaa962d8-6f7f-4031-aa10-09cadf0e5aec
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],SetRatio method, IFont.SetRatio, IFont::SetRatio, SetRatio, SetRatio method [COM], SetRatio method [COM],IFont interface, _ctrl_ifont_setratio, com.ifont_setratio, ocidl/IFont::SetRatio
-ms.topic: method
 f1_keywords:
 - ocidl/IFont.SetRatio
 dev_langs:

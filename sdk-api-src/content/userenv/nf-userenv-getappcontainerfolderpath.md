@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7D3AB78D-C094-4F89-8032-13F3C137E910
 ms.date: 12/05/2018
 ms.keywords: GetAppContainerFolderPath, GetAppContainerFolderPath function [Windows Shell], shell.getappcontainerfolderpath, userenv/GetAppContainerFolderPath
-ms.topic: function
 f1_keywords:
 - userenv/GetAppContainerFolderPath
 dev_langs:

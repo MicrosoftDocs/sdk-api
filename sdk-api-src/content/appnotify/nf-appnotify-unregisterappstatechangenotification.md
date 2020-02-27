@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 97D92C75-5C73-4DCF-BE65-2558A1101789
 ms.date: 12/05/2018
 ms.keywords: UnregisterAppStateChangeNotification, UnregisterAppStateChangeNotification function [Windows Shell], appnotify/UnregisterAppStateChangeNotification, shell.UnregisterAppStateChangeNotification
-ms.topic: function
 f1_keywords:
 - appnotify/UnregisterAppStateChangeNotification
 dev_langs:

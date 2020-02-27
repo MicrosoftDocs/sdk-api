@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\endbufferedpaint.htm
 ms.date: 12/05/2018
 ms.keywords: EndBufferedPaint, EndBufferedPaint function [Windows Controls], _shell_EndBufferedPaint, _shell_EndBufferedPaint_cpp, controls.EndBufferedPaint, controls._shell_EndBufferedPaint, uxtheme/EndBufferedPaint
-ms.topic: function
 f1_keywords:
 - uxtheme/EndBufferedPaint
 dev_langs:

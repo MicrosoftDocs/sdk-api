@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 10E68945-6103-491D-8846-3B7C880FEAFD
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoDevice1, ID3D11VideoDevice1 interface [Media Foundation], ID3D11VideoDevice1 interface [Media Foundation],described, d3d11_1/ID3D11VideoDevice1, mf.id3d11videodevice1
-ms.topic: interface
 f1_keywords:
 - d3d11_1/ID3D11VideoDevice1
 dev_langs:
@@ -111,7 +110,7 @@ Allows the driver to recommend optimal output downsample parameters from the inp
 
 
 
-The Direct3D 11 device supports this interface. To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> with an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11device1">ID3D11Device1</a> interface pointer.
+The Direct3D 11 device supports this interface. To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> with an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11device1">ID3D11Device1</a> interface pointer.
 
 
 

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 16a57c4b-905f-40c0-b298-71f0534bfa5a
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_NAME_CONSTRAINTS_INFO, CERT_NAME_CONSTRAINTS_INFO, CERT_NAME_CONSTRAINTS_INFO structure [Security], PCERT_NAME_CONSTRAINTS_INFO, PCERT_NAME_CONSTRAINTS_INFO structure pointer [Security], _crypto2_cert_name_constraints_info, security.cert_name_constraints_info, wincrypt/CERT_NAME_CONSTRAINTS_INFO, wincrypt/PCERT_NAME_CONSTRAINTS_INFO'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_NAME_CONSTRAINTS_INFO
 dev_langs:

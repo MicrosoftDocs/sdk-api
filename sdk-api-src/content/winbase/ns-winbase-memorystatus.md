@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 7815ec8f-cacf-4c1b-b5f7-5bb3ef8d759c
 ms.date: 12/05/2018
 ms.keywords: '*LPMEMORYSTATUS, LPMEMORYSTATUS, LPMEMORYSTATUS structure pointer, MEMORYSTATUS, MEMORYSTATUS structure, _MEMORYSTATUS, _win32_memorystatus_str, base.memorystatus_str, winbase/LPMEMORYSTATUS, winbase/_MEMORYSTATUS'
-ms.topic: struct
 f1_keywords:
 - winbase/MEMORYSTATUS
 dev_langs:

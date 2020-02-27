@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: F6443483-3983-44E0-B728-F5357966388A
 ms.date: 12/05/2018
 ms.keywords: ID3D12InfoQueue interface,PushStorageFilter method, ID3D12InfoQueue.PushStorageFilter, ID3D12InfoQueue::PushStorageFilter, PushStorageFilter, PushStorageFilter method, PushStorageFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PushStorageFilter, direct3d12.id3d12infoqueue_pushstoragefilter
-ms.topic: method
 f1_keywords:
 - d3d12sdklayers/ID3D12InfoQueue.PushStorageFilter
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinputconnector\imilbitmapeffectinputconnector.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectInputConnector, IMILBitmapEffectInputConnector interface [WPF Bitmap Effects], IMILBitmapEffectInputConnector interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectinputconnector, mileffects/IMILBitmapEffectInputConnector, wibe._wibe_imilbitmapeffectinputconnector
-ms.topic: interface
 f1_keywords:
 - mileffects/IMILBitmapEffectInputConnector
 dev_langs:

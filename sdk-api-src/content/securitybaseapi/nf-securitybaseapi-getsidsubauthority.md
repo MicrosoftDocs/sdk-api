@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 3a2d07f3-f1da-477d-b93f-525e3459dc61
 ms.date: 12/05/2018
 ms.keywords: GetSidSubAuthority, GetSidSubAuthority function [Security], _win32_getsidsubauthority, security.getsidsubauthority, securitybaseapi/GetSidSubAuthority
-ms.topic: function
 f1_keywords:
 - securitybaseapi/GetSidSubAuthority
 dev_langs:

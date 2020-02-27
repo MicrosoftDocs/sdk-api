@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 615ca0be-44d3-4dc4-9dc1-c14e8b50e835
 ms.date: 12/05/2018
 ms.keywords: AVIStreamIsKeyFrame, AVIStreamIsKeyFrame macro [Windows Multimedia], _win32_AVIStreamIsKeyFrame, multimedia.avistreamiskeyframe, vfw/AVIStreamIsKeyFrame
-ms.topic: macro
 f1_keywords:
 - vfw/AVIStreamIsKeyFrame
 dev_langs:

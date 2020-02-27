@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 04e591c0-6bf4-4864-aaae-57ffd97c5414
 ms.date: 12/05/2018
 ms.keywords: ISharedPropertyGroupManager interface [COM+],get__NewEnum method, ISharedPropertyGroupManager.get__NewEnum, ISharedPropertyGroupManager::get__NewEnum, _cos_ISharedPropertyGroupManager_get__NewEnum, comsvcs/ISharedPropertyGroupManager::get__NewEnum, cos.isharedpropertygroupmanager_get__newenum, get__NewEnum, get__NewEnum method [COM+], get__NewEnum method [COM+],ISharedPropertyGroupManager interface
-ms.topic: method
 f1_keywords:
 - comsvcs/ISharedPropertyGroupManager.get__NewEnum
 dev_langs:
@@ -63,7 +62,7 @@ This property is restricted in Microsoft Visual Basic and cannot be used.
 
 ### -param retval [out]
 
-A reference to the returned <a href="http://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a> interface.
+A reference to the returned <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVARIANT</a> interface.
 
 
 ## -returns

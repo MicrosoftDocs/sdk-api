@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: a830b40b-a1b1-464e-b532-91cebd4e5d2f
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents, IComObjectPoolEvents interface [COM+], IComObjectPoolEvents interface [COM+],described, _dtc_IComObjectPoolEvents, comsvcs/IComObjectPoolEvents, cos.icomobjectpoolevents
-ms.topic: interface
 f1_keywords:
 - comsvcs/IComObjectPoolEvents
 dev_langs:

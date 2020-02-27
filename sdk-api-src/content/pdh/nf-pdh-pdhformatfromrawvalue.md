@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 13027af4-2e76-4c2f-88e8-a2554a16fae3
 ms.date: 12/05/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhFormatFromRawValue, PdhFormatFromRawValue function [Perf], _win32_pdhformatfromrawvalue, base.pdhformatfromrawvalue, pdh/PdhFormatFromRawValue, perf.pdhformatfromrawvalue
-ms.topic: function
 f1_keywords:
 - pdh/PdhFormatFromRawValue
 dev_langs:
@@ -63,7 +62,7 @@ Computes a displayable value for the given raw counter values.
 
 Type of counter. Typically, you call <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetcounterinfoa">PdhGetCounterInfo</a> to retrieve the counter type at the time you call <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetrawcountervalue">PdhGetRawCounterValue</a> to retrieve the raw counter value.
 
-For a list of counter types, see the Counter Types section of the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84422">Windows Server 2003 Deployment Kit</a>. (The constant values are defined in Winperf.h.)
+For a list of counter types, see the Counter Types section of the <a href="https://technet.microsoft.com/library/3fb01419-b1ab-4f52-a9f8-09d5ebeb9ef2">Windows Server 2003 Deployment Kit</a>. (The constant values are defined in Winperf.h.)
 
 Note that you cannot specify base types, for example, PERF_LARGE_RAW_BASE. 
 

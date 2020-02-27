@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d93ae074-6565-45ea-bc0e-e8401b7d5b47
 ms.date: 12/05/2018
 ms.keywords: IXpsOMColorProfileResource interface [XPS Documents and Packaging],SetContent method, IXpsOMColorProfileResource.SetContent, IXpsOMColorProfileResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMColorProfileResource interface, xps.ixpsomcolorprofileresource_setcontent, xpsobjectmodel/IXpsOMColorProfileResource::SetContent
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMColorProfileResource.SetContent
 dev_langs:
@@ -101,7 +100,7 @@ Because <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

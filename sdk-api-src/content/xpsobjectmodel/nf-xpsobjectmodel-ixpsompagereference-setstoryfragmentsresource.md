@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 0e096e8f-d2f1-4dcb-9a86-c56ff53393d1
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetStoryFragmentsResource method, IXpsOMPageReference.SetStoryFragmentsResource, IXpsOMPageReference::SetStoryFragmentsResource, SetStoryFragmentsResource, SetStoryFragmentsResource method [XPS Documents and Packaging], SetStoryFragmentsResource method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setstoryfragmentsresource, xpsobjectmodel/IXpsOMPageReference::SetStoryFragmentsResource
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPageReference.SetStoryFragmentsResource
 dev_langs:
@@ -108,7 +107,7 @@ The method succeeded.
 
 The StoryFragments part of a page contains the XML markup that describes  the portions of one or more stories  that are associated with a single fixed page. Some of the document contents that might be described by the XML markup in a StoryFragments part include  the story's tables and paragraphs that are found on the page.
 
-The XML markup  of the DocumentStructure and StoryFragments parts is described in the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>.
+The XML markup  of the DocumentStructure and StoryFragments parts is described in the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.
 
 
 
@@ -130,7 +129,7 @@ The XML markup  of the DocumentStructure and StoryFragments parts is described i
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

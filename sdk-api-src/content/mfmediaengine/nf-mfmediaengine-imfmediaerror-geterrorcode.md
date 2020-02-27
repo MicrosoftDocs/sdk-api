@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 6E4C4559-F59C-488C-A790-D95831BC9D29
 ms.date: 12/05/2018
 ms.keywords: GetErrorCode, GetErrorCode method [Media Foundation], GetErrorCode method [Media Foundation],IMFMediaError interface, IMFMediaError interface [Media Foundation],GetErrorCode method, IMFMediaError.GetErrorCode, IMFMediaError::GetErrorCode, mf.imfmediaerror_geterrorcode, mfmediaengine/IMFMediaError::GetErrorCode
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaError.GetErrorCode
 dev_langs:

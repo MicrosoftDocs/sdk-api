@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: c5dcf0fd-dffc-473b-a8f2-0abbaa0ec446
 ms.date: 12/05/2018
 ms.keywords: RM_FEC_INFO, RM_FEC_INFO structure [Winsock], winsock.rm_fec_info, wsrm/RM_FEC_INFO
-ms.topic: struct
 f1_keywords:
 - wsrm/RM_FEC_INFO
 dev_langs:

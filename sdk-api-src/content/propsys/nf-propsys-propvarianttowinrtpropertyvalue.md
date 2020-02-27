@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 38DD3673-17FD-4F2A-BA58-A1A9983B92BF
 ms.date: 12/05/2018
 ms.keywords: PropVariantToWinRTPropertyValue, PropVariantToWinRTPropertyValue function [Windows Properties], properties.propvarianttowinrtpropertyvalue, propsys/PropVariantToWinRTPropertyValue
-ms.topic: function
 f1_keywords:
 - propsys/PropVariantToWinRTPropertyValue
 dev_langs:
@@ -70,7 +69,7 @@ A reference to the IID of the interface to retrieve through <i>ppv</i>, typicall
 
 ### -param ppv [out]
 
-When this method returns successfully, contains the interface pointer requested in <i>riid</i>. This is typically an <a href="http://go.microsoft.com/fwlink/p/?LinkID=313209">IPropertyValue</a> pointer. If the call fails, this value is <b>NULL</b>.
+When this method returns successfully, contains the interface pointer requested in <i>riid</i>. This is typically an <a href="https://msdn.microsoft.com/library/windows/apps/windows.foundation.ipropertyvalue.aspx">IPropertyValue</a> pointer. If the call fails, this value is <b>NULL</b>.
 
 
 ## -returns
@@ -96,7 +95,7 @@ We recommend that you use the <a href="https://docs.microsoft.com/windows/deskto
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=313206">PropertyValue class</a>
+<a href="https://msdn.microsoft.com/library/windows/apps/windows.foundation.propertyvalue.aspx">PropertyValue class</a>
  
 
  

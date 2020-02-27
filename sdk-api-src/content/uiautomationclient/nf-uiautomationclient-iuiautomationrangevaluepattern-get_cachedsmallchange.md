@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 8d737eaa-eb4a-4d73-b515-876961423fd6
 ms.date: 12/05/2018
 ms.keywords: CachedSmallChange property [Windows Accessibility], CachedSmallChange property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedSmallChange property, IUIAutomationRangeValuePattern.CachedSmallChange, IUIAutomationRangeValuePattern.get_CachedSmallChange, IUIAutomationRangeValuePattern::CachedSmallChange, IUIAutomationRangeValuePattern::get_CachedSmallChange, get_CachedSmallChange, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedSmallChange, uiauto_IUIAutomationRangeValuePattern_CachedSmallChange, uiautomationclient/IUIAutomationRangeValuePattern::CachedSmallChange, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedSmallChange, winauto.uiauto_IUIAutomationRangeValuePattern_CachedSmallChange
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationRangeValuePattern.CachedSmallChange
 dev_langs:
@@ -63,7 +62,7 @@ This property is read-only.
 
 
 
-The SmallChange property can support a Not a Number (NaN) value. When retrieving this property, a client can use the <a href="https://go.microsoft.com/fwlink/p/?linkid=198403">_isnan</a> function to determine whether the property is a NaN value.
+The SmallChange property can support a Not a Number (NaN) value. When retrieving this property, a client can use the <a href="https://msdn.microsoft.com/library/aa298428(VS.60).aspx">_isnan</a> function to determine whether the property is a NaN value.
         
 
 

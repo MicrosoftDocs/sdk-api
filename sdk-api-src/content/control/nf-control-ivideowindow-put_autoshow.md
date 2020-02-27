@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7481a7e8-4b57-43cc-8304-b70616bbd532
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_AutoShow method, IVideoWindow.put_AutoShow, IVideoWindow::put_AutoShow, IVideoWindowput_AutoShow, control/IVideoWindow::put_AutoShow, dshow.ivideowindow_put_autoshow, put_AutoShow, put_AutoShow method [DirectShow], put_AutoShow method [DirectShow],IVideoWindow interface
-ms.topic: method
 f1_keywords:
 - control/IVideoWindow.put_AutoShow
 dev_langs:

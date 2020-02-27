@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: d985b749-5aa3-4b4a-ba8f-bc8edcf1b1f3
 ms.date: 12/05/2018
 ms.keywords: SetIpNetEntry, SetIpNetEntry function [IP Helper], _iphlp_setipnetentry, iphlp.setipnetentry, iphlpapi/SetIpNetEntry
-ms.topic: function
 f1_keywords:
 - iphlpapi/SetIpNetEntry
 dev_langs:

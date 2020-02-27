@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9u1x.htm
 ms.date: 12/05/2018
 ms.keywords: CHUNK_BREAKTYPE, CHUNK_BREAKTYPE enumeration [Indexing Service], CHUNK_EOC, CHUNK_EOP, CHUNK_EOS, CHUNK_EOW, CHUNK_NO_BREAK, _idxs_CHUNK_BREAKTYPE, filter/CHUNK_BREAKTYPE, filter/CHUNK_EOC, filter/CHUNK_EOP, filter/CHUNK_EOS, filter/CHUNK_EOW, filter/CHUNK_NO_BREAK, indexsrv.chunk_breaktype, tagCHUNK_BREAKTYPE
-ms.topic: enum
 f1_keywords:
 - filter/CHUNK_BREAKTYPE
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 Describes the type of break that separates the current chunk from the previous chunk. 
 

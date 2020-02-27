@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_output_desc.htm
 ms.date: 12/05/2018
 ms.keywords: DXGI_OUTPUT_DESC, DXGI_OUTPUT_DESC structure [DXGI], d70793ef-13c9-f3fa-6590-c3b793e1191b, direct3ddxgi.dxgi_output_desc, dxgi/DXGI_OUTPUT_DESC
-ms.topic: struct
 f1_keywords:
 - dxgi/DXGI_OUTPUT_DESC
 dev_langs:

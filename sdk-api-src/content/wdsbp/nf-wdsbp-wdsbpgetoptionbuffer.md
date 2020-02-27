@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 2bd4105d-0066-4c6b-a1c0-fe9b633a6ad6
 ms.date: 12/05/2018
 ms.keywords: WdsBpGetOptionBuffer, WdsBpGetOptionBuffer function [Windows Deployment Services], wds.wdsbpgetoptionbuffer, wdsbp/WdsBpGetOptionBuffer
-ms.topic: function
 f1_keywords:
 - wdsbp/WdsBpGetOptionBuffer
 dev_langs:

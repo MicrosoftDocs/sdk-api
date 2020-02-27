@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 9e6a135e-e337-4129-a3ad-faf9a8ac9b2d
 ms.date: 12/05/2018
 ms.keywords: GetWindowDC, GetWindowDC function [Windows GDI], _win32_GetWindowDC, gdi.getwindowdc, winuser/GetWindowDC
-ms.topic: function
 f1_keywords:
 - winuser/GetWindowDC
 dev_langs:

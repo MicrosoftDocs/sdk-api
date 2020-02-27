@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 7c778f78-1e94-4e84-a51a-3c0171f19db6
 ms.date: 12/05/2018
 ms.keywords: DisplayName property [Security], DisplayName property [Security],ICspStatus interface, ICspStatus interface [Security],DisplayName property, ICspStatus.DisplayName, ICspStatus.get_DisplayName, ICspStatus::DisplayName, ICspStatus::get_DisplayName, certenroll/ICspStatus::DisplayName, certenroll/ICspStatus::get_DisplayName, get_DisplayName, security.icspstatus_displayname
-ms.topic: method
 f1_keywords:
 - certenroll/ICspStatus.DisplayName
 dev_langs:

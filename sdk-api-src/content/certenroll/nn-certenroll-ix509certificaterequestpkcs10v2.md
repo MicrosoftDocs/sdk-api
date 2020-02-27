@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 38177793-c15b-4651-8260-c90a151da83e
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10V2, IX509CertificateRequestPkcs10V2 interface [Security], IX509CertificateRequestPkcs10V2 interface [Security],described, certenroll/IX509CertificateRequestPkcs10V2, security.ix509certificaterequestpkcs10v2
-ms.topic: interface
 f1_keywords:
 - certenroll/IX509CertificateRequestPkcs10V2
 dev_langs:

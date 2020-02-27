@@ -7,7 +7,6 @@ tech.root: input_ink
 ms.assetid: d1bd910d-ce64-4424-a0e1-4f55110b0265
 ms.date: 12/05/2018
 ms.keywords: IInkD2DRenderer, IInkD2DRenderer interface, IInkD2DRenderer interface,described, inkrenderer/IInkD2DRenderer, input_ink.iinkd2drenderer
-ms.topic: interface
 f1_keywords:
 - inkrenderer/IInkD2DRenderer
 dev_langs:
@@ -88,7 +87,7 @@ Renders the ink stroke to the designated  Direct2D device context of the app.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620314">Complex ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex ink sample</a>
 
 
 
@@ -96,7 +95,7 @@ Renders the ink stroke to the designated  Direct2D device context of the app.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
 
 
 
@@ -108,7 +107,7 @@ Renders the ink stroke to the designated  Direct2D device context of the app.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=620312">Simple ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
  
 
  

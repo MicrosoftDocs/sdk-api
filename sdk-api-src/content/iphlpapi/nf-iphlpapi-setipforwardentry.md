@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: a98de796-8fa2-4835-8d15-07d86d89c348
 ms.date: 12/05/2018
 ms.keywords: SetIpForwardEntry, SetIpForwardEntry function [IP Helper], _iphlp_setipforwardentry, iphlp.setipforwardentry, iphlpapi/SetIpForwardEntry
-ms.topic: function
 f1_keywords:
 - iphlpapi/SetIpForwardEntry
 dev_langs:

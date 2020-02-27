@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 258d670b-6a94-4151-8746-a3df69677c5b
 ms.date: 12/05/2018
 ms.keywords: FindAssemblyModule, FindAssemblyModule method [Windows Runtime], FindAssemblyModule method [Windows Runtime],IMetaDataDispenserEx interface, IMetaDataDispenserEx interface [Windows Runtime],FindAssemblyModule method, IMetaDataDispenserEx.FindAssemblyModule, IMetaDataDispenserEx::FindAssemblyModule, rometadataapi/IMetaDataDispenserEx::FindAssemblyModule, winrt.imetadatadispenserex_findassemblymodule
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataDispenserEx.FindAssemblyModule
 dev_langs:

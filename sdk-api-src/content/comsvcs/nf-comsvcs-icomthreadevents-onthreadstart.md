@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 9316965e-13e8-4e3a-9404-8e49334773bc
 ms.date: 12/05/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadStart method, IComThreadEvents.OnThreadStart, IComThreadEvents::OnThreadStart, OnThreadStart, OnThreadStart method [COM+], OnThreadStart method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadStart, comsvcs/IComThreadEvents::OnThreadStart, cos.icomthreadevents_onthreadstart
-ms.topic: method
 f1_keywords:
 - comsvcs/IComThreadEvents.OnThreadStart
 dev_langs:

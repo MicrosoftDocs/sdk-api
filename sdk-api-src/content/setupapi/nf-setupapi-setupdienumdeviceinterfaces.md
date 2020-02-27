@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 5095404d-2447-407e-99e2-dd3ef3c3b905
 ms.date: 12/05/2018
 ms.keywords: SetupDiEnumDeviceInterfaces, SetupDiEnumDeviceInterfaces function [Device and Driver Installation], devinst.setupdienumdeviceinterfaces, di-rtns_1fd59eb7-0934-4747-9a0e-81dac96c23ef.xml, setupapi/SetupDiEnumDeviceInterfaces
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiEnumDeviceInterfaces
 dev_langs:
@@ -77,7 +76,7 @@ A pointer to a GUID that specifies the device interface class for the requested 
 
 ### -param MemberIndex [in]
 
-A zero-based index into the list of interfaces in the device information set. The caller should call this function first with <i>MemberIndex</i> set to zero to obtain the first interface. Then, repeatedly increment <i>MemberIndex</i> and retrieve an interface until this function fails and <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_NO_MORE_ITEMS.
+A zero-based index into the list of interfaces in the device information set. The caller should call this function first with <i>MemberIndex</i> set to zero to obtain the first interface. Then, repeatedly increment <i>MemberIndex</i> and retrieve an interface until this function fails and <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_NO_MORE_ITEMS.
 
 If <i>DeviceInfoData</i> specifies a particular device, the <i>MemberIndex</i> is relative to only the interfaces exposed by that device.
 
@@ -91,7 +90,7 @@ A pointer to a caller-allocated buffer that contains, on successful return, a co
 
 
 
-<b>SetupDiEnumDeviceInterfaces</b> returns <b>TRUE</b> if the function completed without error. If the function completed with an error, <b>FALSE</b> is returned and the error code for the failure can be retrieved by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+<b>SetupDiEnumDeviceInterfaces</b> returns <b>TRUE</b> if the function completed without error. If the function completed with an error, <b>FALSE</b> is returned and the error code for the failure can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 

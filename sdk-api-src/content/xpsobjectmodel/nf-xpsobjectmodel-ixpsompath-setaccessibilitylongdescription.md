@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 9727cbea-55f7-48ad-8205-d68d0c906250
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetAccessibilityLongDescription method, IXpsOMPath.SetAccessibilityLongDescription, IXpsOMPath::SetAccessibilityLongDescription, SetAccessibilityLongDescription, SetAccessibilityLongDescription method [XPS Documents and Packaging], SetAccessibilityLongDescription method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setaccessibilitylongdescription, xpsobjectmodel/IXpsOMPath::SetAccessibilityLongDescription
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.SetAccessibilityLongDescription
 dev_langs:
@@ -90,7 +89,7 @@ In the document markup, the value that is set in <i>longDescription</i> will be 
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

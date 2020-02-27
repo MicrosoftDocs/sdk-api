@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 43716391-536c-49ae-9266-a8ae72621a0b
 ms.date: 12/05/2018
 ms.keywords: WSManPluginFreeRequestDetails, WSManPluginFreeRequestDetails function [Windows Remote Management], winrm.wsmanpluginfreerequestdetails, wsman/WSManPluginFreeRequestDetails
-ms.topic: function
 f1_keywords:
 - wsman/WSManPluginFreeRequestDetails
 dev_langs:

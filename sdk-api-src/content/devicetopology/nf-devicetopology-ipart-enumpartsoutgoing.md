@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: f1892e6d-a2d8-45c7-8a36-6040f4538c1e
 ms.date: 12/05/2018
 ms.keywords: EnumPartsOutgoing, EnumPartsOutgoing method [Core Audio], EnumPartsOutgoing method [Core Audio],IPart interface, IPart interface [Core Audio],EnumPartsOutgoing method, IPart.EnumPartsOutgoing, IPart::EnumPartsOutgoing, IPartEnumPartsOutgoing, coreaudio.ipart_enumpartsoutgoing, devicetopology/IPart::EnumPartsOutgoing
-ms.topic: method
 f1_keywords:
 - devicetopology/IPart.EnumPartsOutgoing
 dev_langs:

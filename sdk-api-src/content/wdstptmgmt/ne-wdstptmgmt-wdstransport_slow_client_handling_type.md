@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: e15e67c3-ad39-4504-bd38-1b291082d196
 ms.date: 12/05/2018
 ms.keywords: '*PWDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE, WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE, WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE enumeration [Windows Deployment Services], WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE,*PWDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE, WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE,*PWDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE enumeration [Windows Deployment Services], WdsTptSlowClientHandlingAutoDisconnect, WdsTptSlowClientHandlingMultistream, WdsTptSlowClientHandlingNone, WdsTptSlowClientHandlingUnknown, wds.wdstransport_slow_client_handling_type, wdstptmgmt/WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE, wdstptmgmt/WdsTptSlowClientHandlingAutoDisconnect, wdstptmgmt/WdsTptSlowClientHandlingMultistream, wdstptmgmt/WdsTptSlowClientHandlingNone, wdstptmgmt/WdsTptSlowClientHandlingUnknown'
-ms.topic: enum
 f1_keywords:
 - wdstptmgmt/WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE,*PWDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE
 dev_langs:

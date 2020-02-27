@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ff8b9080-0299-4ba9-a49d-9ef142e91eb8
 ms.date: 12/05/2018
 ms.keywords: GetReason, GetReason method [Microsoft TV Technologies], GetReason method [Microsoft TV Technologies],IESRequestTunerEvent interface, IESRequestTunerEvent interface [Microsoft TV Technologies],GetReason method, IESRequestTunerEvent.GetReason, IESRequestTunerEvent::GetReason, mstv.iesrequesttunerevent_getreason, tuner/IESRequestTunerEvent::GetReason
-ms.topic: method
 f1_keywords:
 - tuner/IESRequestTunerEvent.GetReason
 dev_langs:

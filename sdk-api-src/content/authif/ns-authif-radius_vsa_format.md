@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: 6f883a2f-84f1-44f5-8b15-c7e55fae4289
 ms.date: 12/05/2018
 ms.keywords: RADIUS_VSA_FORMAT, RADIUS_VSA_FORMAT structure [Network Policy Server], _ias_radius_vsa_format, authif/RADIUS_VSA_FORMAT, ias.radius_vsa_format, nps.IAS_radius_vsa_format
-ms.topic: struct
 f1_keywords:
 - authif/RADIUS_VSA_FORMAT
 dev_langs:
@@ -88,8 +87,8 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> structure when the <b>dwAttrType</b> member has a value <b>ratVendorSpecific</b>.
 
 See 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a> for a description of RADIUS vendor-specific attributes. See 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84047">RFC 2548</a> for examples of RADIUS vendor-specific attributes used by Microsoft.
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for a description of RADIUS vendor-specific attributes. See 
+<a href="https://www.ietf.org/rfc/rfc2548.txt">RFC 2548</a> for examples of RADIUS vendor-specific attributes used by Microsoft.
 
 
 

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 02ce45ad-3d51-4548-848e-a62bf4bf72a8
 ms.date: 12/05/2018
 ms.keywords: DeleteAce, DeleteAce function [Security], _win32_deleteace, security.deleteace, securitybaseapi/DeleteAce
-ms.topic: function
 f1_keywords:
 - securitybaseapi/DeleteAce
 dev_langs:

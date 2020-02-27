@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_data_callback_header.htm
 ms.date: 12/05/2018
 ms.keywords: '*PWIA_DATA_CALLBACK_HEADER, PWIA_DATA_CALLBACK_HEADER, PWIA_DATA_CALLBACK_HEADER structure pointer [WIA], WIA_DATA_CALLBACK_HEADER, WIA_DATA_CALLBACK_HEADER structure [WIA], _wia_WIA_DATA_CALLBACK_HEADER, wia._wia_WIA_DATA_CALLBACK_HEADER, wia_xp/PWIA_DATA_CALLBACK_HEADER, wia_xp/WIA_DATA_CALLBACK_HEADER'
-ms.topic: struct
 f1_keywords:
 - wia_xp/WIA_DATA_CALLBACK_HEADER
 dev_langs:

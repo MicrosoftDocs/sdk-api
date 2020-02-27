@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: b8732070-3560-461b-a04e-3c00d6b7b49e
 ms.date: 12/05/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get__MediaMajorType method, IComponentType.get__MediaMajorType, IComponentType::get__MediaMajorType, IComponentTypeget__MediaMajorType, get__MediaMajorType, get__MediaMajorType method [Microsoft TV Technologies], get__MediaMajorType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get__mediamajortype, tuner/IComponentType::get__MediaMajorType
-ms.topic: method
 f1_keywords:
 - tuner/IComponentType.get__MediaMajorType
 dev_langs:
@@ -89,7 +88,7 @@ This method is available through C++ only. Note the two underscores in the metho
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a>
 
 
 

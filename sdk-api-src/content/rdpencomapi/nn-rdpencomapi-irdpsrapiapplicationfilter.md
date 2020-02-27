@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 6a08c948-1b25-4a36-93c8-23e7e3f4fb08
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIApplicationFilter, IRDPSRAPIApplicationFilter interface [RDP], IRDPSRAPIApplicationFilter interface [RDP],described, rdp.irdpsrapiapplicationfilter, rdpencomapi/IRDPSRAPIApplicationFilter
-ms.topic: interface
 f1_keywords:
 - rdpencomapi/IRDPSRAPIApplicationFilter
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_swap_chain_desc.htm
 ms.date: 12/05/2018
 ms.keywords: 04b5d6e7-f014-9f92-ee14-6dd943b40ce5, DXGI_SWAP_CHAIN_DESC, DXGI_SWAP_CHAIN_DESC structure [DXGI], direct3ddxgi.dxgi_swap_chain_desc, dxgi/DXGI_SWAP_CHAIN_DESC
-ms.topic: struct
 f1_keywords:
 - dxgi/DXGI_SWAP_CHAIN_DESC
 dev_langs:

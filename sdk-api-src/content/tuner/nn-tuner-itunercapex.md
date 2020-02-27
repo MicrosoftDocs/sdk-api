@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 414492d0-33d5-4b39-9884-36ed44e530cd
 ms.date: 12/05/2018
 ms.keywords: ITunerCapEx, ITunerCapEx interface [Microsoft TV Technologies], ITunerCapEx interface [Microsoft TV Technologies],described, mstv.itunercapex, tuner/ITunerCapEx
-ms.topic: interface
 f1_keywords:
 - tuner/ITunerCapEx
 dev_langs:

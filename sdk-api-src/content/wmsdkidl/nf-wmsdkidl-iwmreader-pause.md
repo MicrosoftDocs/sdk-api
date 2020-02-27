@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 4c9d60df-fa9e-42ac-907a-1958a38e430e
 ms.date: 12/05/2018
 ms.keywords: IWMReader interface [windows Media Format],Pause method, IWMReader.Pause, IWMReader::Pause, IWMReaderPause, Pause, Pause method [windows Media Format], Pause method [windows Media Format],IWMReader interface, wmformat.iwmreader_pause, wmsdkidl/IWMReader::Pause
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReader.Pause
 dev_langs:

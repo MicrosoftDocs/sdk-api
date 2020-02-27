@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: a53d58cc-655f-4441-9c16-5afc5b53a233
 ms.date: 12/05/2018
 ms.keywords: GetPlayOutputLevels, GetPlayOutputLevels method [windows Media Format], GetPlayOutputLevels method [windows Media Format],IWMDRMReader2 interface, IWMDRMReader2 interface [windows Media Format],GetPlayOutputLevels method, IWMDRMReader2.GetPlayOutputLevels, IWMDRMReader2::GetPlayOutputLevels, IWMDRMReader2GetPlayOutputLevels, wmformat.iwmdrmreader2_getplayoutputlevels, wmsdkidl/IWMDRMReader2::GetPlayOutputLevels
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDRMReader2.GetPlayOutputLevels
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>GetPlayOutputLevels</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>GetPlayOutputLevels</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 

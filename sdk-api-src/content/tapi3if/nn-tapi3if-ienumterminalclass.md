@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 1da0a82a-fde4-440c-ac6c-e9b85a7ec3fe
 ms.date: 12/05/2018
 ms.keywords: IEnumTerminalClass, IEnumTerminalClass interface [TAPI 2.2], IEnumTerminalClass interface [TAPI 2.2],described, _tapi3_ienumterminalclass, tapi3.ienumterminalclass, tapi3if/IEnumTerminalClass
-ms.topic: interface
 f1_keywords:
 - tapi3if/IEnumTerminalClass
 dev_langs:

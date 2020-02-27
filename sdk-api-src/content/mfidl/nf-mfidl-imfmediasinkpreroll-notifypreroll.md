@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: d0694ad9-a18a-4fea-a9ff-b416bd4827ba
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSinkPreroll interface [Media Foundation],NotifyPreroll method, IMFMediaSinkPreroll.NotifyPreroll, IMFMediaSinkPreroll::NotifyPreroll, NotifyPreroll, NotifyPreroll method [Media Foundation], NotifyPreroll method [Media Foundation],IMFMediaSinkPreroll interface, d0694ad9-a18a-4fea-a9ff-b416bd4827ba, mf.imfmediasinkpreroll_notifypreroll, mfidl/IMFMediaSinkPreroll::NotifyPreroll
-ms.topic: method
 f1_keywords:
 - mfidl/IMFMediaSinkPreroll.NotifyPreroll
 dev_langs:

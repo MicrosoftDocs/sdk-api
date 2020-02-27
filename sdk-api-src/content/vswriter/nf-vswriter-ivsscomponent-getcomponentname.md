@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 24b36ea6-3662-4846-a90b-5c2da578e1fa
 ms.date: 12/05/2018
 ms.keywords: GetComponentName, GetComponentName method [VSS], GetComponentName method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetComponentName method, IVssComponent.GetComponentName, IVssComponent::GetComponentName, _win32_ivsscomponent_getcomponentname, base.ivsscomponent_getcomponentname, vswriter/IVssComponent::GetComponentName
-ms.topic: method
 f1_keywords:
 - vswriter/IVssComponent.GetComponentName
 dev_langs:

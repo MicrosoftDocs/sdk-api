@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 7e1828bf-c9ed-4120-b91f-b4eb45191e48
 ms.date: 12/05/2018
 ms.keywords: TTEMBEDINFO, TTEMBEDINFO structure [Windows GDI], _win32_TTEMBEDINFO, gdi.ttembedinfo, t2embapi/TTEMBEDINFO
-ms.topic: struct
 f1_keywords:
 - t2embapi/TTEMBEDINFO
 dev_langs:

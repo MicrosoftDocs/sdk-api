@@ -1,9 +1,10 @@
 ---
 UID: TP:direct3d12
+title: Direct3D 12 Graphics
 ms.assetid: 7a701202-f29f-3d16-a1f3-84c2485de6f5
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Direct3D 12 Graphics

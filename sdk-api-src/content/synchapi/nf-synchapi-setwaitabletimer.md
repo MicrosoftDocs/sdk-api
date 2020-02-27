@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 237e22dc-696d-473f-8bb5-c28f7c7c75b2
 ms.date: 12/05/2018
 ms.keywords: SetWaitableTimer, SetWaitableTimer function, _win32_setwaitabletimer, base.setwaitabletimer, synchapi/SetWaitableTimer, winbase/SetWaitableTimer
-ms.topic: function
 f1_keywords:
 - synchapi/SetWaitableTimer
 dev_langs:

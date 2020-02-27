@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: fd977a71-bfa7-40e4-9afc-4824989f857f
 ms.date: 12/05/2018
 ms.keywords: PSET_GLOBAL_INFO, PSET_GLOBAL_INFO callback, PSET_GLOBAL_INFO callback function [RAS], SetGlobalInfo, _mpr_setglobalinfo, routprot/PSET_GLOBAL_INFO, rras.setglobalinfo
-ms.topic: callback
 f1_keywords:
 - routprot/PSET_GLOBAL_INFO
 dev_langs:

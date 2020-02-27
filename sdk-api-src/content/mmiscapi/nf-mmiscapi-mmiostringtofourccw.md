@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: e2d4f7f0-7827-4af0-baa8-02607369247a
 ms.date: 12/05/2018
 ms.keywords: _win32_mmioStringToFOURCC, mmioStringToFOURCC, mmioStringToFOURCC function [Windows Multimedia], mmioStringToFOURCCA, mmioStringToFOURCCW, mmsystem/mmioStringToFOURCC, mmsystem/mmioStringToFOURCCA, mmsystem/mmioStringToFOURCCW, multimedia.mmiostringtofourcc
-ms.topic: function
 f1_keywords:
 - mmiscapi/mmioStringToFOURCC
 dev_langs:

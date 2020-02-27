@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 460b917c-a07b-4f50-b80f-0f6d986b65ff
 ms.date: 12/05/2018
 ms.keywords: IAzApplication3 interface [Security],OpenRoleDefinition method, IAzApplication3.OpenRoleDefinition, IAzApplication3::OpenRoleDefinition, OpenRoleDefinition, OpenRoleDefinition method [Security], OpenRoleDefinition method [Security],IAzApplication3 interface, azroles/IAzApplication3::OpenRoleDefinition, security.iazapplication3_openroledefinition
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplication3.OpenRoleDefinition
 dev_langs:

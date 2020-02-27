@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: d7d70dd9-dcac-4b25-9954-10b4d6b436de
 ms.date: 12/05/2018
 ms.keywords: ITStream interface [TAPI 2.2],PauseStream method, ITStream.PauseStream, ITStream::PauseStream, PauseStream, PauseStream method [TAPI 2.2], PauseStream method [TAPI 2.2],ITStream interface, _tapi3_itstream_pausestream, tapi3.itstream_pausestream, tapi3if/ITStream::PauseStream
-ms.topic: method
 f1_keywords:
 - tapi3if/ITStream.PauseStream
 dev_langs:

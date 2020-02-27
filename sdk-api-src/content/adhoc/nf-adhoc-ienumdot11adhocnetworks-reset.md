@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: a8859b8e-9d77-423e-897c-a2c8cdea38ae
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocNetworks interface [NativeWIFI],Reset method, IEnumDot11AdHocNetworks.Reset, IEnumDot11AdHocNetworks::Reset, Reset, Reset method [NativeWIFI], Reset method [NativeWIFI],IEnumDot11AdHocNetworks interface, adhoc/IEnumDot11AdHocNetworks::Reset, nwifi.ienumdot11adhocnetworks_reset
-ms.topic: method
 f1_keywords:
 - adhoc/IEnumDot11AdHocNetworks.Reset
 dev_langs:

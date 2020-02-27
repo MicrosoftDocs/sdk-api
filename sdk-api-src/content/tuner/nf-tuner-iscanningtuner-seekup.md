@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 43588b31-cac0-44c4-a282-b5939fed4ce7
 ms.date: 12/05/2018
 ms.keywords: IScanningTuner interface [Microsoft TV Technologies],SeekUp method, IScanningTuner.SeekUp, IScanningTuner::SeekUp, IScanningTunerSeekUp, SeekUp, SeekUp method [Microsoft TV Technologies], SeekUp method [Microsoft TV Technologies],IScanningTuner interface, mstv.iscanningtuner_seekup, tuner/IScanningTuner::SeekUp
-ms.topic: method
 f1_keywords:
 - tuner/IScanningTuner.SeekUp
 dev_langs:

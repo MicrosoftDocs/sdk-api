@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 2BC93D69-7DBC-4C38-9980-EEB9775A083E
 ms.date: 12/05/2018
 ms.keywords: IRDPViewerInputSink interface [RDP],SendMouseButtonEvent method, IRDPViewerInputSink.SendMouseButtonEvent, IRDPViewerInputSink::SendMouseButtonEvent, SendMouseButtonEvent, SendMouseButtonEvent method [RDP], SendMouseButtonEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendmousebuttonevent, rdpencomapi/IRDPViewerInputSink::SendMouseButtonEvent
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPViewerInputSink.SendMouseButtonEvent
 dev_langs:

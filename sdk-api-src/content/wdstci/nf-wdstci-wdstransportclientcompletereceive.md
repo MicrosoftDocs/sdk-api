@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 1c5cdd44-e818-43ef-aaba-60a01660f7cf
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientCompleteReceive, WdsTransportClientCompleteReceive function [Windows Deployment Services], wds.wdstransportclientcompletereceive, wdstci/WdsTransportClientCompleteReceive
-ms.topic: function
 f1_keywords:
 - wdstci/WdsTransportClientCompleteReceive
 dev_langs:

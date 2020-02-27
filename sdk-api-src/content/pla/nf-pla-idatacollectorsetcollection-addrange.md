@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 52a7d9ba-9bff-428e-a43c-cc354157fd24
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IDataCollectorSetCollection interface, IDataCollectorSetCollection interface [PLA],AddRange method, IDataCollectorSetCollection.AddRange, IDataCollectorSetCollection::AddRange, base.idatacollectorsetcollection_addrange, pla.idatacollectorsetcollection_addrange, pla/IDataCollectorSetCollection::AddRange
-ms.topic: method
 f1_keywords:
 - pla/IDataCollectorSetCollection.AddRange
 dev_langs:

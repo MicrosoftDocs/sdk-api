@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: fe183377-9b5a-476b-91af-ff974a9d41a4
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge2 interface [Windows Sync],ProjectOntoColumnSet method, ISyncKnowledge2.ProjectOntoColumnSet, ISyncKnowledge2::ProjectOntoColumnSet, ProjectOntoColumnSet, ProjectOntoColumnSet method [Windows Sync], ProjectOntoColumnSet method [Windows Sync],ISyncKnowledge2 interface, winsync.isyncknowledge2_projectontocolumnset, winsync/ISyncKnowledge2::ProjectOntoColumnSet
-ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge2.ProjectOntoColumnSet
 dev_langs:

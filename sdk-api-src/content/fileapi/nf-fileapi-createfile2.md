@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: cd7a81f3-60ee-443a-99f3-a4c8afd365e7
 ms.date: 12/05/2018
 ms.keywords: 0, CREATE_ALWAYS, CREATE_NEW, CreateFile2, CreateFile2 function [Files], FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OPEN_ALWAYS, OPEN_EXISTING, TRUNCATE_EXISTING, fileapi/CreateFile2, fs.createfile2
-ms.topic: function
 f1_keywords:
 - fileapi/CreateFile2
 dev_langs:
@@ -530,7 +529,7 @@ For more information, see
 Direct access to the disk or to a volume is restricted. For more information, see 
       "Changes to the file system and to the storage stack to restrict direct disk access and direct volume access in Windows Vista and in Windows Server 2008" 
       in the Help and Support Knowledge Base at 
-      <a href="Http://go.microsoft.com/fwlink/p/?linkid=117121">http://support.microsoft.com/kb/942448</a>.
+      <a href="https://support.microsoft.com/kb/942448">http://support.microsoft.com/kb/942448</a>.
 
 You can use the <b>CreateFile2</b> function to open a physical 
       disk drive or a volume, which returns a direct access storage device (DASD) handle that can be used with the 

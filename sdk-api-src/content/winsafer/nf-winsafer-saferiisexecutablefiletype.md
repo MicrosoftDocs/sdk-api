@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: f122ceaa-65bb-4cfe-a760-adf4f910c487
 ms.date: 12/05/2018
 ms.keywords: SaferiIsExecutableFileType, SaferiIsExecutableFileType function [Security], security.saferiisexecutablefiletype, winsafer/SaferiIsExecutableFileType
-ms.topic: function
 f1_keywords:
 - winsafer/SaferiIsExecutableFileType
 dev_langs:

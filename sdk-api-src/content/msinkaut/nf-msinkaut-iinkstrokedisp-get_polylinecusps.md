@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 67ae7265-4416-4eef-8a8f-85f3a5751200
 ms.date: 12/05/2018
 ms.keywords: 67ae7265-4416-4eef-8a8f-85f3a5751200, IInkStrokeDisp interface [Tablet PC],PolylineCusps property, IInkStrokeDisp.PolylineCusps, IInkStrokeDisp.get_PolylineCusps, IInkStrokeDisp::PolylineCusps, IInkStrokeDisp::get_PolylineCusps, PolylineCusps property [Tablet PC], PolylineCusps property [Tablet PC],IInkStrokeDisp interface, get_PolylineCusps, msinkaut/IInkStrokeDisp::PolylineCusps, msinkaut/IInkStrokeDisp::get_PolylineCusps, tablet.iinkstrokedisp_polylinecusps
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkStrokeDisp.PolylineCusps
 dev_langs:

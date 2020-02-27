@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 623b3ffb-ff0f-46bf-ae3d-146e38c8bbc8
 ms.date: 12/05/2018
 ms.keywords: Arguments property [Task Scheduler], Arguments property [Task Scheduler],IExecAction interface, IExecAction interface [Task Scheduler],Arguments property, IExecAction.Arguments, IExecAction.put_Arguments, IExecAction::Arguments, IExecAction::get_Arguments, IExecAction::put_Arguments, put_Arguments, taskschd.iexecaction_arguments, taskschd/IExecAction::Arguments, taskschd/IExecAction::get_Arguments, taskschd/IExecAction::put_Arguments
-ms.topic: method
 f1_keywords:
 - taskschd/IExecAction.Arguments
 dev_langs:

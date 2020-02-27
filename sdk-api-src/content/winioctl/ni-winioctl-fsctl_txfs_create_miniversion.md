@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 3d12b149-ab34-46c4-89fc-8ddc12a81fa0
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_CREATE_MINIVERSION, FSCTL_TXFS_CREATE_MINIVERSION control, FSCTL_TXFS_CREATE_MINIVERSION control code [Files], fs.fsctl_txfs_create_miniversion, winioctl/FSCTL_TXFS_CREATE_MINIVERSION
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_TXFS_CREATE_MINIVERSION
 dev_langs:

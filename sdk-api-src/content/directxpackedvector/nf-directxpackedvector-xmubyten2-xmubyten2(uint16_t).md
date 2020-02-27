@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: 
 ms.date: 05/06/2019
 ms.keywords: XMUBYTEN2, XMUBYTEN2 constructor [DirectX Math Support APIs], XMUBYTEN2 constructor [DirectX Math Support APIs],XMUBYTEN2 structure, XMUBYTEN2 structure [DirectX Math Support APIs],XMUBYTEN2 constructor, XMUBYTEN2.XMUBYTEN2, XMUBYTEN2.XMUBYTEN2(), XMUBYTEN2.XMUBYTEN2(uint16_t), XMUBYTEN2::XMUBYTEN2, XMUBYTEN2::XMUBYTEN2(uint16_t), dxmath.xmubyten2_ctor_1
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMUBYTEN2.XMUBYTEN2
 dev_langs:

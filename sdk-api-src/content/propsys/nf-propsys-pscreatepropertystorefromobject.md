@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 010572d5-0357-4101-803e-0a27fc60ca5e
 ms.date: 12/05/2018
 ms.keywords: PSCreatePropertyStoreFromObject, PSCreatePropertyStoreFromObject function [Windows Properties], STGM_READ, STGM_READWRITE, _shell_PSCreatePropertyStoreFromObject, properties.PSCreatePropertyStoreFromObject, propsys/PSCreatePropertyStoreFromObject, shell.PSCreatePropertyStoreFromObject
-ms.topic: function
 f1_keywords:
 - propsys/PSCreatePropertyStoreFromObject
 dev_langs:

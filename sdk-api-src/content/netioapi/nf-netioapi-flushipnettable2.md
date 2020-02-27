@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 6ebfca41-acc3-450c-a3c5-881b8c3fca5e
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, FlushIpNetTable2, FlushIpNetTable2 function [IP Helper], iphlp.flushipnettable2, netioapi/FlushIpNetTable2
-ms.topic: function
 f1_keywords:
 - netioapi/FlushIpNetTable2
 dev_langs:

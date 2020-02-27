@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 72A7161A-09CA-4582-B240-1442D70936D7
 ms.date: 12/05/2018
 ms.keywords: GetNearestKeyFrames, GetNearestKeyFrames method [Media Foundation], GetNearestKeyFrames method [Media Foundation],IMFSeekInfo interface, IMFSeekInfo interface [Media Foundation],GetNearestKeyFrames method, IMFSeekInfo.GetNearestKeyFrames, IMFSeekInfo::GetNearestKeyFrames, mf.imfseekinfo_getnearestkeyframes, mfidl/IMFSeekInfo::GetNearestKeyFrames
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSeekInfo.GetNearestKeyFrames
 dev_langs:
@@ -75,7 +74,7 @@ Receives the position of the nearest key frame that appears earlier than <i>pvar
 
 ### -param pvarNextKeyFrame [out]
 
-Receives the position of the nearest key frame that appears earlier than <i>pvarStartPosition</i>. The units for this parameter are specified by <i>pguidTimeFormat</i>.
+Receives the position of the nearest key frame that appears later than <i>pvarStartPosition</i>. The units for this parameter are specified by <i>pguidTimeFormat</i>.
 
 
 ## -returns

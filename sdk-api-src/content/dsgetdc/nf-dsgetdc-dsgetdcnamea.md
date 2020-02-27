@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: da8b2983-5e45-40b0-b552-c9b3a1d8ae94
 ms.date: 12/05/2018
 ms.keywords: DS_AVOID_SELF, DS_BACKGROUND_ONLY, DS_DIRECTORY_SERVICE_6_REQUIRED, DS_DIRECTORY_SERVICE_8_REQUIRED, DS_DIRECTORY_SERVICE_PREFERRED, DS_DIRECTORY_SERVICE_REQUIRED, DS_FORCE_REDISCOVERY, DS_GC_SERVER_REQUIRED, DS_GOOD_TIMESERV_PREFERRED, DS_IP_REQUIRED, DS_IS_DNS_NAME, DS_IS_FLAT_NAME, DS_KDC_REQUIRED, DS_ONLY_LDAP_NEEDED, DS_PDC_REQUIRED, DS_RETURN_DNS_NAME, DS_RETURN_FLAT_NAME, DS_TIMESERV_REQUIRED, DS_TRY_NEXTCLOSEST_SITE, DS_WEB_SERVICE_REQUIRED, DS_WRITABLE_REQUIRED, DsGetDcName, DsGetDcName function [Active Directory], DsGetDcNameA, DsGetDcNameW, _glines_dsgetdcname, ad.dsgetdcname, dsgetdc/DsGetDcName, dsgetdc/DsGetDcNameA, dsgetdc/DsGetDcNameW
-ms.topic: function
 f1_keywords:
 - dsgetdc/DsGetDcName
 dev_langs:
@@ -199,7 +198,7 @@ Requires that the returned domain controller be a global catalog server for the 
 <b>DsGetDcName</b> attempts to find a domain controller that is 
         a reliable time server. The Windows Time Service can be configured to declare one or more domain controllers 
         as a reliable time server. For more information, see the 
-        <a href="http://go.microsoft.com/fwlink/p/?linkid=139810">Windows Time Service</a> documentation. This 
+        <a href="https://technet.microsoft.com/library/cc773061(v=ws.10).aspx">Windows Time Service</a> documentation. This 
         flag is intended to be used only by the Windows Time Service.
 
 
@@ -670,7 +669,7 @@ Run the following command to stop the trace session:
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=139810">Windows Time Service</a>
+<a href="https://technet.microsoft.com/library/cc773061(v=ws.10).aspx">Windows Time Service</a>
  
 
  

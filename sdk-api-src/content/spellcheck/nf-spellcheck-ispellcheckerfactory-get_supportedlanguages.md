@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: ae6794fd-ce7c-4c62-abc5-824699054a37
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckerFactory interface [Internationalization for Windows Applications],SupportedLanguages property, ISpellCheckerFactory.SupportedLanguages, ISpellCheckerFactory.get_SupportedLanguages, ISpellCheckerFactory::SupportedLanguages, ISpellCheckerFactory::get_SupportedLanguages, SupportedLanguages property [Internationalization for Windows Applications], SupportedLanguages property [Internationalization for Windows Applications],ISpellCheckerFactory interface, get_SupportedLanguages, intl.ispellcheckerfactory_supportedlanguages, spellcheck/ISpellCheckerFactory::SupportedLanguages, spellcheck/ISpellCheckerFactory::get_SupportedLanguages
-ms.topic: method
 f1_keywords:
 - spellcheck/ISpellCheckerFactory.SupportedLanguages
 dev_langs:
@@ -73,7 +72,7 @@ The supported languages are specific, not neutral. For Hebrew, for example, the 
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=227302">BCP47 Tags for Identifying Languages</a>
+<a href="http://tools.ietf.org/html/bcp47">BCP47 Tags for Identifying Languages</a>
 
 
 

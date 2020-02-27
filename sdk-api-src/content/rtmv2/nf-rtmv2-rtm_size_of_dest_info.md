@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: faad2b79-dcd0-47e7-95ab-05f6bad36650
 ms.date: 12/05/2018
 ms.keywords: RTM_SIZE_OF_DEST_INFO, RTM_SIZE_OF_DEST_INFO macro [RAS], _rtmv2ref_rtm_size_of_dest_info, rras.rtm_size_of_dest_info, rtmv2/RTM_SIZE_OF_DEST_INFO
-ms.topic: macro
 f1_keywords:
 - rtmv2/RTM_SIZE_OF_DEST_INFO
 dev_langs:

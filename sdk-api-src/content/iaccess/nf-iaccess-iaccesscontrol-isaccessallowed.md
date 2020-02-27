@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: ee9e7e2d-caec-443c-937d-b8fc64130ad4
 ms.date: 12/05/2018
 ms.keywords: IAccessControl interface [COM],IsAccessAllowed method, IAccessControl.IsAccessAllowed, IAccessControl::IsAccessAllowed, IsAccessAllowed, IsAccessAllowed method [COM], IsAccessAllowed method [COM],IAccessControl interface, _com_iaccesscontrol_isaccessallowed, com.iaccesscontrol_isaccessallowed, iaccess/IAccessControl::IsAccessAllowed
-ms.topic: method
 f1_keywords:
 - iaccess/IAccessControl.IsAccessAllowed
 dev_langs:

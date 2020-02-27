@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: d4d1bb38-3d1a-4e1e-a889-0491f3c01822
 ms.date: 12/05/2018
 ms.keywords: WICBitmapLockFlags, WICBitmapLockFlags enumeration [Windows Imaging Component], WICBitmapLockRead, WICBitmapLockWrite, _wic_codec_wicbitmaplockflags, wic._wic_codec_wicbitmaplockflags, wincodec/WICBitmapLockFlags, wincodec/WICBitmapLockRead, wincodec/WICBitmapLockWrite
-ms.topic: enum
 f1_keywords:
 - wincodec/WICBitmapLockFlags
 dev_langs:

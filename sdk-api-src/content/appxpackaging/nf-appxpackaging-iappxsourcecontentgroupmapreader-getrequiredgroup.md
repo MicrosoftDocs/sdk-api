@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 4C85F79F-CD91-4038-AF23-413E04CBA5AA
 ms.date: 12/05/2018
 ms.keywords: GetRequiredGroup, GetRequiredGroup method [App packaging and management], GetRequiredGroup method [App packaging and management],IAppxSourceContentGroupMapReader interface, IAppxSourceContentGroupMapReader interface [App packaging and management],GetRequiredGroup method, IAppxSourceContentGroupMapReader.GetRequiredGroup, IAppxSourceContentGroupMapReader::GetRequiredGroup, appxpackaging/IAppxSourceContentGroupMapReader::GetRequiredGroup, appxpkg.iappxsourcecontentgroupmapreader_getrequiredgroup
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxSourceContentGroupMapReader.GetRequiredGroup
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: A79FC296-7D18-4C74-97E0-F37475AB90D5
 ms.date: 12/05/2018
 ms.keywords: GetOutputStreamState, GetOutputStreamState method [Streaming Media Devices], GetOutputStreamState method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetOutputStreamState method, IMFDeviceTransform.GetOutputStreamState, IMFDeviceTransform::GetOutputStreamState, mftransform/IMFDeviceTransform::GetOutputStreamState, stream.imfdevicetransform_getoutputstreamstate
-ms.topic: method
 f1_keywords:
 - mftransform/IMFDeviceTransform.GetOutputStreamState
 dev_langs:

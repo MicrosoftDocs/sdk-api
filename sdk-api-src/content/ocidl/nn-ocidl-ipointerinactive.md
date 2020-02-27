@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: dc08d512-6994-419a-a460-6274ce74e40f
 ms.date: 12/05/2018
 ms.keywords: IPointerInactive, IPointerInactive interface [COM], IPointerInactive interface [COM],described, _ctrl_ipointerinactive, com.ipointerinactive, ocidl/IPointerInactive
-ms.topic: interface
 f1_keywords:
 - ocidl/IPointerInactive
 dev_langs:

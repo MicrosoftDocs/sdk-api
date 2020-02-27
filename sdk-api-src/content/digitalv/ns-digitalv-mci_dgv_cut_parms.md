@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: fe3e2bbb-7874-421d-90ca-f7d718cd8c27
 ms.date: 12/05/2018
 ms.keywords: '*LPMCI_DGV_CUT_PARMS, MCI_DGV_CUT_PARMS, MCI_DGV_CUT_PARMS structure [Windows Multimedia], _win32_MCI_DGV_CUT_PARMS_str, digitalv/MCI_DGV_CUT_PARMS, multimedia.mci_dgv_cut_parms'
-ms.topic: struct
 f1_keywords:
 - digitalv/MCI_DGV_CUT_PARMS
 dev_langs:
@@ -88,7 +87,7 @@ Ending position for cut.
 
 ### -field rc
 
-Rectangle describing area to be cut. <a href="http://go.microsoft.com/fwlink/p/?linkid=16998">RECT</a> structures are handled differently in MCI than in other parts of Windows; in MCI, <b>rc.right</b> contains the width of the rectangle and <b>rc.bottom</b> contains its height.
+Rectangle describing area to be cut. <a href="https://msdn.microsoft.com/library/ms536136.aspx">RECT</a> structures are handled differently in MCI than in other parts of Windows; in MCI, <b>rc.right</b> contains the width of the rectangle and <b>rc.bottom</b> contains its height.
 
 
 ### -field dwAudioStream
@@ -127,7 +126,7 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=16998">RECT</a>
+<a href="https://msdn.microsoft.com/library/ms536136.aspx">RECT</a>
 
 
 

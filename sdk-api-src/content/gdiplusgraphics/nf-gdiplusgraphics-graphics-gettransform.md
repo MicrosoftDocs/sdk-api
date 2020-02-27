@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\gettransform.htm
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [GDI+], GetTransform method [GDI+],Graphics class, Graphics class [GDI+],GetTransform method, Graphics.GetTransform, Graphics::GetTransform, _gdiplus_CLASS_Graphics_GetTransform_matrix_, gdiplus._gdiplus_CLASS_Graphics_GetTransform_matrix_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.GetTransform
 dev_langs:

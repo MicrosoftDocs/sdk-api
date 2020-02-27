@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: 04bf5033-17c3-4403-8386-f3144e11423f
 ms.date: 12/05/2018
 ms.keywords: GetDefaultCommConfig, GetDefaultCommConfig function, GetDefaultCommConfigA, GetDefaultCommConfigW, _win32_getdefaultcommconfig, base.getdefaultcommconfig, winbase/GetDefaultCommConfig, winbase/GetDefaultCommConfigA, winbase/GetDefaultCommConfigW
-ms.topic: function
 f1_keywords:
 - winbase/GetDefaultCommConfig
 dev_langs:

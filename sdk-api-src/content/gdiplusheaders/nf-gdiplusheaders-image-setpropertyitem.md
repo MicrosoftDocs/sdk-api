@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\setpropertyitem.htm
 ms.date: 12/05/2018
 ms.keywords: Image class [GDI+],SetPropertyItem method, Image.SetPropertyItem, Image::SetPropertyItem, SetPropertyItem, SetPropertyItem method [GDI+], SetPropertyItem method [GDI+],Image class, _gdiplus_CLASS_Image_SetPropertyItem_item_, gdiplus._gdiplus_CLASS_Image_SetPropertyItem_item_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Image.SetPropertyItem
 dev_langs:

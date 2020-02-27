@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d970f48e-374f-43de-a59c-6c2e70161f55
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectVideoModePreference method, IDvdControl2.SelectVideoModePreference, IDvdControl2::SelectVideoModePreference, IDvdControl2SelectVideoModePreference, SelectVideoModePreference, SelectVideoModePreference method [DirectShow], SelectVideoModePreference method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectvideomodepreference, strmif/IDvdControl2::SelectVideoModePreference
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.SelectVideoModePreference
 dev_langs:
@@ -64,7 +63,7 @@ The <code>SelectVideoModePreference</code> method sets the specified video mode 
 
 ### -param ulPreferredDisplayMode [in]
 
-Value that specifies the new display mode for DVD content. Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_preferred_display_mode">DVD_PREFERRED_DISPLAY_MODE</a> enumeration.
+Value that specifies the new display mode for DVD content. Member of the [DVD_PREFERRED_DISPLAY_MODE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_preferred_display_mode) enumeration.
 
 
 ## -returns

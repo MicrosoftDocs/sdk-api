@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: edd2afc1-cafd-4a52-b2df-1a1fcdf1d6fa
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcCertificateEnumerator interface, IOpcCertificateEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcCertificateEnumerator.GetCurrent, IOpcCertificateEnumerator::GetCurrent, msopc/IOpcCertificateEnumerator::GetCurrent, opc.iopccertificateenumerator_getcurrent
-ms.topic: method
 f1_keywords:
 - msopc/IOpcCertificateEnumerator.GetCurrent
 dev_langs:
@@ -196,7 +195,7 @@ The <b>SignatureProperty</b> element is missing the required <b>Target</b> attri
 </dl>
 </td>
 <td width="60%">
-Either the content type of a part differed from the expected content type (specified in the OPC, <a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 Part 2</a>), or the part content did not match the part's  content type.
+Either the content type of a part differed from the expected content type (specified in the OPC, <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 Part 2</a>), or the part content did not match the part's  content type.
 
 </td>
 </tr>

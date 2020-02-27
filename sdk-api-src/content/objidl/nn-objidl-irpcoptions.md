@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: aa5db8ac-4c29-43cf-a7ed-a870df9dfb82
 ms.date: 12/05/2018
 ms.keywords: IRpcOptions, IRpcOptions interface [COM], IRpcOptions interface [COM],described, _com_irpcoptions, com.irpcoptions, objidlbase/IRpcOptions
-ms.topic: interface
 f1_keywords:
 - objidl/IRpcOptions
 dev_langs:

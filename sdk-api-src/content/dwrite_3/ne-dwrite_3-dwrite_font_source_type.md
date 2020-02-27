@@ -5,7 +5,6 @@ description: Defines constants that specify the mechanism by which a font came t
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: DWRITE_FONT_SOURCE_TYPE, DWRITE_FONT_SOURCE_TYPE enumeration [Direct Write], directwrite.dwrite_font_source_type, dwrite_3/DWRITE_FONT_SOURCE_TYPE
-ms.topic: enum
 f1_keywords:
 - dwrite_3/DWRITE_FONT_SOURCE_TYPE
 dev_langs:

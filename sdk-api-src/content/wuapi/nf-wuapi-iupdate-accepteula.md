@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: b3a25994-eace-45ec-8e6b-40d69796f168
 ms.date: 12/05/2018
 ms.keywords: AcceptEula, AcceptEula method [Windows Update Agent], AcceptEula method [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],AcceptEula method, IUpdate.AcceptEula, IUpdate::AcceptEula, wua.iupdate_accepteula, wuapi/IUpdate::AcceptEula
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdate.AcceptEula
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 068529cc-f614-426b-9593-bd153f5d5541
 ms.date: 12/05/2018
 ms.keywords: EngDebugBreak, EngDebugBreak function [Display Devices], display.engdebugbreak, gdifncs_d6a74791-c6aa-4bf0-9f8b-8a52587a660f.xml, winddi/EngDebugBreak
-ms.topic: function
 f1_keywords:
 - winddi/EngDebugBreak
 dev_langs:

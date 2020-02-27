@@ -7,7 +7,6 @@ tech.root: enstor
 ms.assetid: 3690d395-c83e-4253-adc2-d30a96a5ce47
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Enhanced Storage], GetName method [Enhanced Storage],IEnhancedStorageSiloAction interface, IEnhancedStorageSiloAction interface [Enhanced Storage],GetName method, IEnhancedStorageSiloAction.GetName, IEnhancedStorageSiloAction::GetName, ehstorapi/IEnhancedStorageSiloAction::GetName, enstor.ienhancedstoragesiloaction_getname
-ms.topic: method
 f1_keywords:
 - ehstorapi/IEnhancedStorageSiloAction.GetName
 dev_langs:
@@ -108,7 +107,7 @@ The <i>ppwszActionName</i> parameter is <b>NULL</b>.
 
 A name string is short, consisting of one or two words, and is suitable for display in a UI element such as a menu item or button label.
 
-When the caller no longer requires access to the string, this buffer must be freed by passing this pointer to <a href="http://go.microsoft.com/fwlink/p/?linkid=134839">CoTaskMemFree</a>.
+When the caller no longer requires access to the string, this buffer must be freed by passing this pointer to <a href="https://msdn.microsoft.com/library/ms680722.aspx">CoTaskMemFree</a>.
 
 
 

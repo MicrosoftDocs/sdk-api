@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: cc4cb0fb-ff7d-4bdc-944c-3bf9b08ea72c
 ms.date: 12/05/2018
 ms.keywords: '*LPNOTIFYCANCEL, LPNOTIFYCANCEL, LPNOTIFYCANCEL structure pointer [Security], NOTIFYCANCEL, NOTIFYCANCEL structure [Security], _mnp_notifycancel, npapi/LPNOTIFYCANCEL, npapi/NOTIFYCANCEL, security.notifycancel'
-ms.topic: struct
 f1_keywords:
 - npapi/NOTIFYCANCEL
 dev_langs:

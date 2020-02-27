@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: e2052daf-4168-4266-ae8d-a09ecbfeb422
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetSelection method, ITextStoreACP.GetSelection, ITextStoreACP::GetSelection, _tsf_itextstoreacp_getselection_ref, textstor/ITextStoreACP::GetSelection, tsf.itextstoreacp_getselection
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreACP.GetSelection
 dev_langs:

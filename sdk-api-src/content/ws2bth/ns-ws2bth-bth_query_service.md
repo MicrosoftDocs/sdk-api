@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: b208b7d6-305c-4acc-9c89-75721ff5dcb2
 ms.date: 12/05/2018
 ms.keywords: '*PBTHNS_RESTRICTIONBLOB, *PBTH_QUERY_SERVICE, BTHNS_RESTRICTIONBLOB, BTH_QUERY_SERVICE, BTH_QUERY_SERVICE structure [Bluetooth], PBTH_QUERY_SERVICE, PBTH_QUERY_SERVICE structure pointer [Bluetooth], _bth_bth_query_service, bluetooth.bth_query_service, ws2bth/BTH_QUERY_SERVICE, ws2bth/PBTH_QUERY_SERVICE'
-ms.topic: struct
 f1_keywords:
 - ws2bth/BTH_QUERY_SERVICE
 dev_langs:
@@ -97,7 +96,7 @@ Attribute values to retrieve for any matching records, in the form of an array o
 The <b>pRange</b> member is an open-ended array specifying a sparse set of attributes to return from the query. It is an application's responsibility to provide a nonoverlapping array that is sorted in ascending order of attribute ID, without duplicates.
 
 See 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84017">www.bluetooth.com</a> for more information about the Bluetooth specification.
+<a href="https://www.bluetooth.com/">www.bluetooth.com</a> for more information about the Bluetooth specification.
 
 
 

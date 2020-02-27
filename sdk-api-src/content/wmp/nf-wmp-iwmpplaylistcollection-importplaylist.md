@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 421a1bd3-65c1-4d8f-be75-918b1cfa06d2
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],importPlaylist method, IWMPPlaylistCollection.importPlaylist, IWMPPlaylistCollection::importPlaylist, IWMPPlaylistCollectionimportPlaylist, importPlaylist, importPlaylist method [Windows Media Player], importPlaylist method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_importplaylist, wmp/IWMPPlaylistCollection::importPlaylist
-ms.topic: method
 f1_keywords:
 - wmp/IWMPPlaylistCollection.importPlaylist
 dev_langs:

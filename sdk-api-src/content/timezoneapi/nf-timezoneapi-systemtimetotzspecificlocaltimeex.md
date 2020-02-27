@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: A4483E33-6D74-4194-BF85-51FF55F1BF9A
 ms.date: 12/05/2018
 ms.keywords: SystemTimeToTzSpecificLocalTimeEx, SystemTimeToTzSpecificLocalTimeEx function, base.systemtimetotzspecificlocaltimeex, timezoneapi/SystemTimeToTzSpecificLocalTimeEx
-ms.topic: function
 f1_keywords:
 - timezoneapi/SystemTimeToTzSpecificLocalTimeEx
 dev_langs:

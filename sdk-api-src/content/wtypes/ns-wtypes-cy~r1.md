@@ -3,7 +3,6 @@ UID: NS:wtypes.tagCY~r1
 title: CY
 ms.date: 01/30/19
 ms.keywords: tagCY, CY
-ms.topic: language-reference
 f1_keywords:
 - wtypes/tagCY
 dev_langs:

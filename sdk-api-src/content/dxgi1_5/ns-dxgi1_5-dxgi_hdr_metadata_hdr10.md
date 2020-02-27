@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 67A53A43-121F-4D83-AACC-D25D58123BE1
 ms.date: 12/05/2018
 ms.keywords: DXGI_HDR_METADATA_HDR10, DXGI_HDR_METADATA_HDR10 structure [DXGI], direct3ddxgi.dxgi_hdr_metadata_hdr10, dxgi1_5/DXGI_HDR_METADATA_HDR10
-ms.topic: struct
 f1_keywords:
 - dxgi1_5/DXGI_HDR_METADATA_HDR10
 dev_langs:

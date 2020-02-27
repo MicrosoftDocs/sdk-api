@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 9b8ff585-5795-48ce-b2fd-a49e3d34ccb9
 ms.date: 12/05/2018
 ms.keywords: OPC_SIGNATURE_TIME_FORMAT, OPC_SIGNATURE_TIME_FORMAT enumeration [Open Packaging Conventions], OPC_SIGNATURE_TIME_FORMAT_DAYS, OPC_SIGNATURE_TIME_FORMAT_MILLISECONDS, OPC_SIGNATURE_TIME_FORMAT_MINUTES, OPC_SIGNATURE_TIME_FORMAT_MONTHS, OPC_SIGNATURE_TIME_FORMAT_SECONDS, OPC_SIGNATURE_TIME_FORMAT_YEARS, msopc/OPC_SIGNATURE_TIME_FORMAT, msopc/OPC_SIGNATURE_TIME_FORMAT_DAYS, msopc/OPC_SIGNATURE_TIME_FORMAT_MILLISECONDS, msopc/OPC_SIGNATURE_TIME_FORMAT_MINUTES, msopc/OPC_SIGNATURE_TIME_FORMAT_MONTHS, msopc/OPC_SIGNATURE_TIME_FORMAT_SECONDS, msopc/OPC_SIGNATURE_TIME_FORMAT_YEARS, opc.opc_signature_time_format
-ms.topic: enum
 f1_keywords:
 - msopc/OPC_SIGNATURE_TIME_FORMAT
 dev_langs:
@@ -247,7 +246,7 @@ Time zone designator with a leading zero. Possible values:  Z, +<i>hh</i>:<i>mm<
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML standard</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML standard</a>
 
 
 
@@ -295,7 +294,7 @@ Time zone designator with a leading zero. Possible values:  Z, +<i>hh</i>:<i>mm<
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=132847">W3C Recommendation, XML Signature and Syntax Processing</a>
+<a href="https://www.w3.org/TR/xmldsig-core/">W3C Recommendation, XML Signature and Syntax Processing</a>
  
 
  

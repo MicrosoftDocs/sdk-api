@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: FC337D99-E992-43DB-9565-3B46827A7960
 ms.date: 12/05/2018
 ms.keywords: GetEffectsList, GetEffectsList method [Audio Devices], GetEffectsList method [Audio Devices],IAudioSystemEffects2 interface, IAudioSystemEffects2 interface [Audio Devices],GetEffectsList method, IAudioSystemEffects2.GetEffectsList, IAudioSystemEffects2::GetEffectsList, audio.iaudiosystemeffects2_geteffectslist, audioenginebaseapo/IAudioSystemEffects2::GetEffectsList
-ms.topic: method
 f1_keywords:
 - audioenginebaseapo/IAudioSystemEffects2.GetEffectsList
 dev_langs:

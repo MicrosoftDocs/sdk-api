@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 101bebbf-854c-49fa-bc5c-8c81c5d2f7f9
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],SetGradientOrigin method, IXpsOMRadialGradientBrush.SetGradientOrigin, IXpsOMRadialGradientBrush::SetGradientOrigin, SetGradientOrigin, SetGradientOrigin method [XPS Documents and Packaging], SetGradientOrigin method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, xps.ixpsomradialgradientbrush_setgradientorigin, xpsobjectmodel/IXpsOMRadialGradientBrush::SetGradientOrigin
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMRadialGradientBrush.SetGradientOrigin
 dev_langs:
@@ -134,7 +133,7 @@ The following illustration shows the parts of a radial gradient. <i>origin</i> s
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

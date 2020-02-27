@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2b8d3e94-6860-4a75-8373-38afb641eb3b
 ms.date: 12/05/2018
 ms.keywords: GetMenuContextHelpId, GetMenuContextHelpId function [Windows Shell], _win32_GetMenuContextHelpId, shell.GetMenuContextHelpId, winuser/GetMenuContextHelpId
-ms.topic: function
 f1_keywords:
 - winuser/GetMenuContextHelpId
 dev_langs:

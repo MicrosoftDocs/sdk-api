@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: BB1464B4-BCF3-4A38-88F0-2B2637DCCBC6
 ms.date: 12/05/2018
 ms.keywords: IDCompositionColorMatrixEffect interface [DirectComposition],SetAlphaMode method, IDCompositionColorMatrixEffect.SetAlphaMode, IDCompositionColorMatrixEffect::SetAlphaMode, SetAlphaMode, SetAlphaMode method [DirectComposition], SetAlphaMode method [DirectComposition],IDCompositionColorMatrixEffect interface, dcomp/IDCompositionColorMatrixEffect::SetAlphaMode, directcomp.idcompositioncolormatrixeffect_setalphamode
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionColorMatrixEffect.SetAlphaMode
 dev_langs:

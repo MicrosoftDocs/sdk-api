@@ -5,7 +5,6 @@ description: The Graphics::FillRectangles method uses a brush to fill the interi
 ms.assetid: 6624bdf9-20c4-42f3-a52e-62455ee1e573
 ms.date: 05/13/2019
 ms.keywords: Graphics::FillRectangles
-ms.topic: language-reference
 f1_keywords:
 - gdiplusgraphics/Graphics::FillRectangles
 dev_langs:

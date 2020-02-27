@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: a8035863-d1ed-4215-add3-6e60cfca7f1c
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetBidiLevel method, IXpsOMGlyphsEditor.SetBidiLevel, IXpsOMGlyphsEditor::SetBidiLevel, SetBidiLevel, SetBidiLevel method [XPS Documents and Packaging], SetBidiLevel method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setbidilevel, xpsobjectmodel/IXpsOMGlyphsEditor::SetBidiLevel
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphsEditor.SetBidiLevel
 dev_langs:
@@ -124,7 +123,7 @@ The range of allowed values for this property is between 0 and 61, inclusive, an
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

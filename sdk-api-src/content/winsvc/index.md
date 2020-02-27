@@ -1,9 +1,10 @@
 ---
 UID: NA:winsvc
+title: Winsvc.h header
 ms.assetid: 35219cee-6a67-3e81-a352-eb2bb72ea7bd
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: security
 ---
 

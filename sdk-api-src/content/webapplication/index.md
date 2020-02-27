@@ -1,9 +1,10 @@
 ---
 UID: NA:webapplication
+title: Webapplication.h header
 ms.assetid: 6d9d2723-d5f2-3ec5-9e37-35353b9d3405
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: debug
 ---
 

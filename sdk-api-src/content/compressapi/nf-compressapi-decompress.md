@@ -7,7 +7,6 @@ tech.root: cmpapi
 ms.assetid: 654b88c7-14f2-43d4-8850-675ea303b439
 ms.date: 12/05/2018
 ms.keywords: Decompress, Decompress function [Compression API], cmpapi.decompress, compressapi/Decompress
-ms.topic: function
 f1_keywords:
 - compressapi/Decompress
 dev_langs:

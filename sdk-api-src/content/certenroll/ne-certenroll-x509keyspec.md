@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: d677d46c-3b36-4081-a6db-123ac1cef84b
 ms.date: 12/05/2018
 ms.keywords: X509KeySpec, X509KeySpec enumeration [Security], XCN_AT_KEYEXCHANGE, XCN_AT_NONE, XCN_AT_SIGNATURE, certenroll/X509KeySpec, certenroll/XCN_AT_KEYEXCHANGE, certenroll/XCN_AT_NONE, certenroll/XCN_AT_SIGNATURE, security.x509keyspec_enum
-ms.topic: enum
 f1_keywords:
 - certenroll/X509KeySpec
 dev_langs:

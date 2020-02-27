@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: f28a0ef5-1c9a-4fdc-bb10-2c381f22f5e3
 ms.date: 12/05/2018
 ms.keywords: IComTransactionEvents, IComTransactionEvents interface [COM+], IComTransactionEvents interface [COM+],described, _dtc_IComTransactionEvents, comsvcs/IComTransactionEvents, cos.icomtransactionevents
-ms.topic: interface
 f1_keywords:
 - comsvcs/IComTransactionEvents
 dev_langs:

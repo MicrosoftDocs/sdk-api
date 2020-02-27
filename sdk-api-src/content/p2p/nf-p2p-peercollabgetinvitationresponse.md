@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: f9471e51-5eec-4927-bd12-7d362f5101ee
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetInvitationResponse, PeerCollabGetInvitationResponse function [Peer Networking], p2p.peercollabgetinvitationresponse, p2p/PeerCollabGetInvitationResponse
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabGetInvitationResponse
 dev_langs:

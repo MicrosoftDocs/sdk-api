@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_adapter_desc.htm
 ms.date: 12/05/2018
 ms.keywords: DXGI_ADAPTER_DESC, DXGI_ADAPTER_DESC structure [DXGI], aa379230-8fa1-e846-2745-b4f13f26ee19, direct3ddxgi.dxgi_adapter_desc, dxgi/DXGI_ADAPTER_DESC
-ms.topic: struct
 f1_keywords:
 - dxgi/DXGI_ADAPTER_DESC
 dev_langs:

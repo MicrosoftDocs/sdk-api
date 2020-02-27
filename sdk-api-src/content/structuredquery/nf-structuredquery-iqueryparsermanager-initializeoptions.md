@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\initializeoptions.htm
 ms.date: 12/05/2018
 ms.keywords: IQueryParserManager interface [search],InitializeOptions method, IQueryParserManager.InitializeOptions, IQueryParserManager::InitializeOptions, InitializeOptions, InitializeOptions method [search], InitializeOptions method [search],IQueryParserManager interface, _search_IQueryParserManager_InitializeOptions, search._search_IQueryParserManager_InitializeOptions, structuredquery/IQueryParserManager::InitializeOptions
-ms.topic: method
 f1_keywords:
 - structuredquery/IQueryParserManager.InitializeOptions
 dev_langs:

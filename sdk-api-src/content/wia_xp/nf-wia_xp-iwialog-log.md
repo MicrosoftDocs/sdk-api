@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialog\log.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaLog interface [WIA],Log method, IWiaLog.Log, IWiaLog::Log, Log, Log method [WIA], Log method [WIA],IWiaLog interface, _wia_IWiaLog_Log, wia._wia_IWiaLog_Log, wia_xp/IWiaLog::Log
-ms.topic: method
 f1_keywords:
 - wia_xp/IWiaLog.Log
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ebcc9cc1-b6ee-4fb9-9125-54d6a9ee9434
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],Scale method, IShellImageData.Scale, IShellImageData::Scale, Scale, Scale method [Windows Shell], Scale method [Windows Shell],IShellImageData interface, _shell_IShellImageData_Scale, shell.IShellImageData_Scale, shimgdata/IShellImageData::Scale
-ms.topic: method
 f1_keywords:
 - shimgdata/IShellImageData.Scale
 dev_langs:

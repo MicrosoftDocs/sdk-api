@@ -5,7 +5,6 @@ description:
 ms.assetid: 32200a5e-1fdc-4ca1-bee3-0846da8c22a5
 ms.date: 05/13/2019
 ms.keywords: CHString::FormatMessageW
-ms.topic: language-reference
 f1_keywords:
 - chstring/CHString::FormatMessageW
 dev_langs:

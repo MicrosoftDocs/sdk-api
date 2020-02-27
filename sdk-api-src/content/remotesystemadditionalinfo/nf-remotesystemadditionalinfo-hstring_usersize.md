@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: F258F308-7A16-4C24-9770-F6D8A1604811
 ms.date: 12/05/2018
 ms.keywords: HSTRING_UserSize, HSTRING_UserSize function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserSize, winrt.hstring_usersize
-ms.topic: function
 f1_keywords:
 - remotesystemadditionalinfo/HSTRING_UserSize
 dev_langs:

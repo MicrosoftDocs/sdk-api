@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: c0bc2e8b-bd60-4c97-bd86-41963b20b1a3
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2, IDiscFormat2 interface [IMAPI], IDiscFormat2 interface [IMAPI],described, imapi.idiscformat2, imapi2/IDiscFormat2
-ms.topic: interface
 f1_keywords:
 - imapi2/IDiscFormat2
 dev_langs:

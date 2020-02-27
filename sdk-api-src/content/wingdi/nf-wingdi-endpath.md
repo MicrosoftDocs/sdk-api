@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 0b4daf81-d1d6-45c1-b081-855b7cd8527a
 ms.date: 12/05/2018
 ms.keywords: EndPath, EndPath function [Windows GDI], _win32_EndPath, gdi.endpath, wingdi/EndPath
-ms.topic: function
 f1_keywords:
 - wingdi/EndPath
 dev_langs:

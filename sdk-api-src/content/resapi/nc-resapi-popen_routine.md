@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 0a5c10c5-0380-4638-b49d-396be3b3c0dd
 ms.date: 12/05/2018
 ms.keywords: Open, Open callback, Open callback function [Failover Cluster], POPEN_ROUTINE, POPEN_ROUTINE callback function [Failover Cluster], _wolf_open, mscs.open, resapi/Open, resapi/POPEN_ROUTINE
-ms.topic: callback
 f1_keywords:
 - resapi/Open
 dev_langs:

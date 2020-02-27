@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: b11c7467-64a9-442b-8dee-26e15f64a26b
 ms.date: 12/05/2018
 ms.keywords: EnumMetaFile, EnumMetaFile function [Windows GDI], _win32_EnumMetaFile, gdi.enummetafile, wingdi/EnumMetaFile
-ms.topic: function
 f1_keywords:
 - wingdi/EnumMetaFile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: magapi
 ms.assetid: 6270047A-8823-41D6-AD57-72A7E60F3696
 ms.date: 12/05/2018
 ms.keywords: MagGetFullscreenTransform, MagGetFullscreenTransform function [Magnification API], magapi.magapi_maggetfullscreentransform, magnification/MagGetFullscreenTransform
-ms.topic: function
 f1_keywords:
 - magnification/MagGetFullscreenTransform
 dev_langs:

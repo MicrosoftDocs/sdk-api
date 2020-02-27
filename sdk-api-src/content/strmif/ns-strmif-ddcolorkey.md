@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: bd360860-94e3-4f91-a455-5fdb227368b3
 ms.date: 12/05/2018
 ms.keywords: '*LPDDCOLORKEY, DDCOLORKEY, DDCOLORKEY structure [DirectShow], DDCOLORKEYStructure, dshow.ddcolorkey, strmif/DDCOLORKEY'
-ms.topic: struct
 f1_keywords:
 - strmif/DDCOLORKEY
 dev_langs:

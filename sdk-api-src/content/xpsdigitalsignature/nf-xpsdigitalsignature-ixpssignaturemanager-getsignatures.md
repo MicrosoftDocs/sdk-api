@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 3a6a9a10-bc1d-45b8-a1b9-c7b725d9c13b
 ms.date: 12/05/2018
 ms.keywords: GetSignatures, GetSignatures method [XPS Documents and Packaging], GetSignatures method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],GetSignatures method, IXpsSignatureManager.GetSignatures, IXpsSignatureManager::GetSignatures, xps.ixpssignaturemanager_getsignatures, xpsdigitalsignature/IXpsSignatureManager::GetSignatures
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureManager.GetSignatures
 dev_langs:
@@ -117,7 +116,7 @@ An XPS package has not yet been opened in the signature manager.
 
 
 
-The signature collection that is returned in <i>signatures</i> might include digital signatures that do not comply with the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>.
+The signature collection that is returned in <i>signatures</i> might include digital signatures that do not comply with the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.
 
 
 
@@ -135,7 +134,7 @@ The signature collection that is returned in <i>signatures</i> might include dig
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: e6561b89-8af6-46cc-aeab-2b007d48fe26
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallContext interface [COM+],get_Item method, ISecurityCallContext.get_Item, ISecurityCallContext::get_Item, _cos_ISecurityCallContext_get_Item, comsvcs/ISecurityCallContext::get_Item, cos.isecuritycallcontext_get_item, get_Item, get_Item method [COM+], get_Item method [COM+],ISecurityCallContext interface
-ms.topic: method
 f1_keywords:
 - comsvcs/ISecurityCallContext.get_Item
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7c66fd91-4f7a-45f3-b849-bf210c552511
 ms.date: 12/05/2018
 ms.keywords: SHMultiFileProperties, SHMultiFileProperties function [Windows Shell], _win32_SHMultiFileProperties, shell.SHMultiFileProperties, shlobj/SHMultiFileProperties
-ms.topic: function
 f1_keywords:
 - shlobj/SHMultiFileProperties
 dev_langs:

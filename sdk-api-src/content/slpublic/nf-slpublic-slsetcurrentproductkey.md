@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: a6490a89-9280-4b7d-8ea0-afa80c0a03f8
 ms.date: 12/05/2018
 ms.keywords: SLSetCurrentProductKey, SLSetCurrentProductKey function [Security], security.slsetcurrentproductkey, slpublic/SLSetCurrentProductKey
-ms.topic: function
 f1_keywords:
 - slpublic/SLSetCurrentProductKey
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 8befdfea-1a09-4591-97d1-0f20ae7bab7c
 ms.date: 12/05/2018
 ms.keywords: RtwqLockWorkQueue, RtwqLockWorkQueue function, base.rtwqlockworkqueue, rtworkq/RtwqLockWorkQueue
-ms.topic: function
 f1_keywords:
 - rtworkq/RtwqLockWorkQueue
 dev_langs:

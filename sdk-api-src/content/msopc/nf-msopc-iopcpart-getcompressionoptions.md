@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: aee8e3a2-3fac-40da-bea2-1fd4e2224c81
 ms.date: 12/05/2018
 ms.keywords: GetCompressionOptions, GetCompressionOptions method [Open Packaging Conventions], GetCompressionOptions method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetCompressionOptions method, IOpcPart.GetCompressionOptions, IOpcPart::GetCompressionOptions, msopc/IOpcPart::GetCompressionOptions, opc.iopcpart_getcompressionoptions
-ms.topic: method
 f1_keywords:
 - msopc/IOpcPart.GetCompressionOptions
 dev_langs:
@@ -123,7 +122,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
 
 

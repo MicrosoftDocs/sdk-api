@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 8bc4a72e-79a1-4780-a143-1ba1ec66812b
 ms.date: 12/05/2018
 ms.keywords: DeleteServiceForApplication, DeleteServiceForApplication method [COM+], DeleteServiceForApplication method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],DeleteServiceForApplication method, ICOMAdminCatalog2.DeleteServiceForApplication, ICOMAdminCatalog2::DeleteServiceForApplication, _cos_icomadmincatalog2_DeleteServiceForApplication, comadmin/ICOMAdminCatalog2::DeleteServiceForApplication, cos.icomadmincatalog2_deleteserviceforapplication
-ms.topic: method
 f1_keywords:
 - comadmin/ICOMAdminCatalog2.DeleteServiceForApplication
 dev_langs:

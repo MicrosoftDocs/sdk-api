@@ -3,7 +3,6 @@ UID: NS:commdlg.tagCHOOSECOLORA~r1
 title: CHOOSECOLORA
 ms.date: 01/30/19
 ms.keywords: tagCHOOSECOLORA, CHOOSECOLORA
-ms.topic: language-reference
 f1_keywords:
 - commdlg/tagCHOOSECOLORA
 dev_langs:

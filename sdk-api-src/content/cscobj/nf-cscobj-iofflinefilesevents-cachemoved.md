@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 73d9bb7b-4844-4d7c-9e50-8d63727f5309
 ms.date: 12/05/2018
 ms.keywords: CacheMoved, CacheMoved method [Offline Files], CacheMoved method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],CacheMoved method, IOfflineFilesEvents.CacheMoved, IOfflineFilesEvents::CacheMoved, cscobj/IOfflineFilesEvents::CacheMoved, of.iofflinefilesevents_cachemoved
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesEvents.CacheMoved
 dev_langs:

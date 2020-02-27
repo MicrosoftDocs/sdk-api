@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_insertitem.htm
 ms.date: 12/05/2018
 ms.keywords: DSA_InsertItem, DSA_InsertItem function [Windows Controls], _win32_DSA_InsertItem, _win32_DSA_InsertItem_cpp, controls.DSA_InsertItem, controls._win32_DSA_InsertItem, dpa_dsa/DSA_InsertItem
-ms.topic: function
 f1_keywords:
 - dpa_dsa/DSA_InsertItem
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 2725b824-b26c-4b33-bc18-a6f4c0ef74e6
 ms.date: 12/05/2018
 ms.keywords: VariantToStringArrayAlloc, VariantToStringArrayAlloc function [Windows Properties], _shell_VariantToStringArrayAlloc, properties.VariantToStringArrayAlloc, propvarutil/VariantToStringArrayAlloc, shell.VariantToStringArrayAlloc
-ms.topic: function
 f1_keywords:
 - propvarutil/VariantToStringArrayAlloc
 dev_langs:

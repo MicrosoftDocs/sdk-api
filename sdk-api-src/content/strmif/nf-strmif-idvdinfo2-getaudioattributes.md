@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 80291efa-f3eb-47f0-94e0-dcde583ff35c
 ms.date: 12/05/2018
 ms.keywords: GetAudioAttributes, GetAudioAttributes method [DirectShow], GetAudioAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAudioAttributes method, IDvdInfo2.GetAudioAttributes, IDvdInfo2::GetAudioAttributes, IDvdInfo2GetAudioAttributes, dshow.idvdinfo2_getaudioattributes, strmif/IDvdInfo2::GetAudioAttributes
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo2.GetAudioAttributes
 dev_langs:
@@ -69,7 +68,7 @@ Variable of type ULONG specifying the audio stream whose attributes you wish to 
 
 ### -param pATR [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_audioattributes">DVD_AudioAttributes</a> structure that is filled with the attributes of the specified audio stream.
+Pointer to a [DVD_AudioAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_audioattributes) structure that is filled with the attributes of the specified audio stream.
 
 
 ## -returns

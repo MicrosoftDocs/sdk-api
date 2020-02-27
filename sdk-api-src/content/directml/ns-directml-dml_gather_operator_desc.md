@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 53F01BDE-30FF-4E15-BA1A-8D522B9DE8AF
 ms.date: 12/5/2018
 ms.keywords: DML_GATHER_OPERATOR_DESC, DML_GATHER_OPERATOR_DESC structure, direct3d12.dml_gather_operator_desc, directml/DML_GATHER_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_GATHER_OPERATOR_DESC
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: 5dbaeaa3-4abf-485e-9f84-8450dce14fc9
 ms.date: 12/05/2018
 ms.keywords: GetExpansionVelocity, GetExpansionVelocity method [Windows Touch], GetExpansionVelocity method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetExpansionVelocity method, IManipulationProcessor.GetExpansionVelocity, IManipulationProcessor::GetExpansionVelocity, manipulations/IManipulationProcessor::GetExpansionVelocity, wintouch.imanipulationprocessor_getexpansionvelocity
-ms.topic: method
 f1_keywords:
 - manipulations/IManipulationProcessor.GetExpansionVelocity
 dev_langs:

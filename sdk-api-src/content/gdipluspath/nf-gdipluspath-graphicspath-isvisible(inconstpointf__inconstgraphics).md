@@ -5,7 +5,6 @@ description: The GraphicsPath::IsVisible method determines whether a specified p
 ms.assetid: 0065e994-f6a0-47ea-a6c0-ab496f90f061
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::IsVisible
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/GraphicsPath::IsVisible
 dev_langs:

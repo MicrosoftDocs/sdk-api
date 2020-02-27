@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 58784ca2-ca2e-4a89-9b8c-3a6118b0ef2d
 ms.date: 12/05/2018
 ms.keywords: ITPhoneDeviceSpecificEvent interface [TAPI 2.2],get_lParam2 method, ITPhoneDeviceSpecificEvent.get_lParam2, ITPhoneDeviceSpecificEvent::get_lParam2, _tapi3_itphonedevicespecificevent_get_lparam2, get_lParam2, get_lParam2 method [TAPI 2.2], get_lParam2 method [TAPI 2.2],ITPhoneDeviceSpecificEvent interface, tapi3.itphonedevicespecificevent_get_lparam2, tapi3if/ITPhoneDeviceSpecificEvent::get_lParam2
-ms.topic: method
 f1_keywords:
 - tapi3if/ITPhoneDeviceSpecificEvent.get_lParam2
 dev_langs:

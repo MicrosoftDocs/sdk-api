@@ -7,7 +7,6 @@ tech.root: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputSetState(DWORD,XINPUT_VIBRATION*@)
 ms.date: 12/05/2018
 ms.keywords: XInputSetState, XInputSetState function [XInput Game Controller APIs], xinput.xinputsetstate, xinput/XInputSetState
-ms.topic: function
 f1_keywords:
 - xinput/XInputSetState
 dev_langs:

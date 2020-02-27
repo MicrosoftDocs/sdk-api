@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: b2f54c36-a446-4c16-8595-ab7e3411eb88
 ms.date: 12/05/2018
 ms.keywords: MMC_VISIBLE_COLUMNS, MMC_VISIBLE_COLUMNS structure [MMC], _slate_mmc_visible_columns, mmc.mmc_visible_columns, mmc/MMC_VISIBLE_COLUMNS
-ms.topic: struct
 f1_keywords:
 - mmc/MMC_VISIBLE_COLUMNS
 dev_langs:

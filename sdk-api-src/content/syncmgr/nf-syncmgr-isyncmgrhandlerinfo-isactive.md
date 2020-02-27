@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0bcb06ba-a94a-4a18-a284-48be19ec4b44
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrHandlerInfo interface [Windows Shell],IsActive method, ISyncMgrHandlerInfo.IsActive, ISyncMgrHandlerInfo::IsActive, IsActive, IsActive method [Windows Shell], IsActive method [Windows Shell],ISyncMgrHandlerInfo interface, _shell_ISyncMgrHandlerInfo_IsActive, shell.ISyncMgrHandlerInfo_IsActive, syncmgr/ISyncMgrHandlerInfo::IsActive
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrHandlerInfo.IsActive
 dev_langs:

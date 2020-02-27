@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: e7400a40-9b82-4750-8e92-a39c6f25b7cd
 ms.date: 12/05/2018
 ms.keywords: IOERM_PointErase, IOERM_StrokeErase, InkOverlayEraserMode, InkOverlayEraserMode enumeration [Tablet PC], e7400a40-9b82-4750-8e92-a39c6f25b7cd, msinkaut/IOERM_PointErase, msinkaut/IOERM_StrokeErase, msinkaut/InkOverlayEraserMode, tablet.inkoverlayerasermode
-ms.topic: enum
 f1_keywords:
 - msinkaut/InkOverlayEraserMode
 dev_langs:

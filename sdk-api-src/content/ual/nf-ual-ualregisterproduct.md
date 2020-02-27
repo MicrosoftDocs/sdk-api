@@ -7,7 +7,6 @@ tech.root: ual
 ms.assetid: EF5A9F0E-DD6A-4CFB-B8A6-AA4298FC6BE8
 ms.date: 12/05/2018
 ms.keywords: UalRegisterProduct, UalRegisterProduct function [User Access Logging], ual.ualregisterproduct, ual/UalRegisterProduct
-ms.topic: function
 f1_keywords:
 - ual/UalRegisterProduct
 dev_langs:

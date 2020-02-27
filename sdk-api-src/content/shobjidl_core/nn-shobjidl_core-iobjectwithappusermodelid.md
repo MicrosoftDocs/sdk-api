@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f5b4e6bf-a5bf-49c5-b343-e9c1ec6c263d
 ms.date: 12/05/2018
 ms.keywords: IObjectWithAppUserModelID, IObjectWithAppUserModelID interface [Windows Shell], IObjectWithAppUserModelID interface [Windows Shell],described, _shell_IObjectWithAppUserModelID, shell.IObjectWithAppUserModelID, shobjidl_core/IObjectWithAppUserModelID
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IObjectWithAppUserModelID
 dev_langs:

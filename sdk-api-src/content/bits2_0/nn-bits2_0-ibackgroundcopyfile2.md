@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: facff24d-56a3-4a1f-a726-3442c17fe869
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile2, IBackgroundCopyFile2 interface [BITS], IBackgroundCopyFile2 interface [BITS],described, bits.ibackgroundcopyfile2, bits2_0/IBackgroundCopyFile2
-ms.topic: interface
 f1_keywords:
 - bits2_0/IBackgroundCopyFile2
 dev_langs:

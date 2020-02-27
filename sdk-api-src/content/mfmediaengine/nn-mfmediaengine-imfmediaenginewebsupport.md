@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 8EAA54AF-359A-48C4-9A23-BE7997DBAA89
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineWebSupport, IMFMediaEngineWebSupport interface [Media Foundation], IMFMediaEngineWebSupport interface [Media Foundation],described, mf.imfmediaenginewebsupport, mfmediaengine/IMFMediaEngineWebSupport
-ms.topic: interface
 f1_keywords:
 - mfmediaengine/IMFMediaEngineWebSupport
 dev_langs:

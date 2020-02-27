@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ac22d346-3012-41b0-a655-062f501af621
 ms.date: 12/05/2018
 ms.keywords: GetIterationInfo, GetIterationInfo method [Windows Shell], GetIterationInfo method [Windows Shell],ISyncMgrConflictResolveInfo interface, ISyncMgrConflictResolveInfo interface [Windows Shell],GetIterationInfo method, ISyncMgrConflictResolveInfo.GetIterationInfo, ISyncMgrConflictResolveInfo::GetIterationInfo, _shell_ISyncMgrConflictResolveInfo_GetIterationInfo, shell.ISyncMgrConflictResolveInfo_GetIterationInfo, syncmgr/ISyncMgrConflictResolveInfo::GetIterationInfo
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrConflictResolveInfo.GetIterationInfo
 dev_langs:

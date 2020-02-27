@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 4f815f53-9fac-41f3-9493-bd8d68cff543
 ms.date: 12/05/2018
 ms.keywords: '*LPCHARSETINFO, *NPCHARSETINFO, *PCHARSETINFO, CHARSETINFO, CHARSETINFO structure [Internationalization for Windows Applications], PCHARSETINFO, PCHARSETINFO structure pointer [Internationalization for Windows Applications], _win32_CHARSETINFO_str, intl.charsetinfo, wingdi/CHARSETINFO, wingdi/PCHARSETINFO'
-ms.topic: struct
 f1_keywords:
 - wingdi/CHARSETINFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 6163f4c3-135c-4282-91ac-d01cfb0cec05
 ms.date: 12/05/2018
 ms.keywords: ITsSbTarget interface [Remote Desktop Services],NumSessions property, ITsSbTarget.NumSessions, ITsSbTarget.get_NumSessions, ITsSbTarget::NumSessions, ITsSbTarget::get_NumSessions, ITsSbTargetEx interface [Remote Desktop Services],NumSessions property, ITsSbTargetEx.NumSessions, ITsSbTargetEx::get_NumSessions, NumSessions property [Remote Desktop Services], NumSessions property [Remote Desktop Services],ITsSbTarget interface, NumSessions property [Remote Desktop Services],ITsSbTargetEx interface, get_NumSessions, sbtsv/ITsSbTarget::NumSessions, sbtsv/ITsSbTarget::get_NumSessions, sbtsv/ITsSbTargetEx::NumSessions, sbtsv/ITsSbTargetEx::get_NumSessions, termserv.itssbtarget_numsessions
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbTarget.NumSessions
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: 2cdb03fb-8cb2-4eee-af90-3aec0a055fc5
 ms.date: 12/05/2018
 ms.keywords: GetDeviceForService, GetDeviceForService method [Windows Portable Devices SDK], GetDeviceForService method [Windows Portable Devices SDK],IPortableDeviceServiceManager interface, IPortableDeviceServiceManager interface [Windows Portable Devices SDK],GetDeviceForService method, IPortableDeviceServiceManager.GetDeviceForService, IPortableDeviceServiceManager::GetDeviceForService, portabledeviceapi/IPortableDeviceServiceManager::GetDeviceForService, wpdsdk.iportabledeviceservicemanager_getdeviceforservice
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDeviceServiceManager.GetDeviceForService
 dev_langs:

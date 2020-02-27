@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7bd76e54-bc1d-481d-90cb-fcfe519b8bfb
 ms.date: 12/05/2018
 ms.keywords: IObjectProvider interface [Windows Shell],QueryObject method, IObjectProvider.QueryObject, IObjectProvider::QueryObject, QueryObject, QueryObject method [Windows Shell], QueryObject method [Windows Shell],IObjectProvider interface, _shell_IObjectProvider_QueryObject, shell.IObjectProvider_QueryObject, shobjidl_core/IObjectProvider::QueryObject
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IObjectProvider.QueryObject
 dev_langs:

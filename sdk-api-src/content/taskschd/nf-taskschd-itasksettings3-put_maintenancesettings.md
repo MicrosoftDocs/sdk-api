@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: F4B6ED81-DE9A-42C8-8F16-D5BD93743CB3
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings3 interface [Task Scheduler],MaintenanceSettings property, ITaskSettings3.MaintenanceSettings, ITaskSettings3.put_MaintenanceSettings, ITaskSettings3::MaintenanceSettings, ITaskSettings3::get_MaintenanceSettings, ITaskSettings3::put_MaintenanceSettings, MaintenanceSettings property [Task Scheduler], MaintenanceSettings property [Task Scheduler],ITaskSettings3 interface, put_MaintenanceSettings, taskschd.itasksettings3_maintenancesettings, taskschd/ITaskSettings3::MaintenanceSettings, taskschd/ITaskSettings3::get_MaintenanceSettings, taskschd/ITaskSettings3::put_MaintenanceSettings
-ms.topic: method
 f1_keywords:
 - taskschd/ITaskSettings3.MaintenanceSettings
 dev_langs:

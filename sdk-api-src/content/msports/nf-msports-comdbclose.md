@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 3ea720ba-6cc9-4862-83d2-4f87e5c13da4
 ms.date: 12/05/2018
 ms.keywords: ComDBClose, ComDBClose function [Serial Ports], comdb_0274a1cb-0128-48c8-b536-3a10792582f4.xml, msports/ComDBClose, serports.comdbclose
-ms.topic: function
 f1_keywords:
 - msports/ComDBClose
 dev_langs:

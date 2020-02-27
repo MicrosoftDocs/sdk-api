@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: d197f04e-01e8-4ef6-a9ca-61e5178d825b
 ms.date: 12/05/2018
 ms.keywords: EvtOpenChannelConfig, EvtOpenChannelConfig function [EventLog], wes.evtopenchannelconfig, winevt/EvtOpenChannelConfig
-ms.topic: function
 f1_keywords:
 - winevt/EvtOpenChannelConfig
 dev_langs:

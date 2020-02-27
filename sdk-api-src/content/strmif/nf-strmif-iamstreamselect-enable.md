@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ac17a218-34a4-49aa-9b4d-cb34f3c2a5d3
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [DirectShow], Enable method [DirectShow],IAMStreamSelect interface, IAMStreamSelect interface [DirectShow],Enable method, IAMStreamSelect.Enable, IAMStreamSelect::Enable, IAMStreamSelectEnable, dshow.iamstreamselect_enable, strmif/IAMStreamSelect::Enable
-ms.topic: method
 f1_keywords:
 - strmif/IAMStreamSelect.Enable
 dev_langs:

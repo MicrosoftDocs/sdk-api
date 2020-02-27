@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 28CC3757-5A9D-4E29-A26C-6FD90A38B45B
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_QUERY_EXTENDED_INFO_FN, PIBIO_SENSOR_QUERY_EXTENDED_INFO_FN callback, SensorAdapterQueryExtendedInfo, SensorAdapterQueryExtendedInfo callback function [Windows Biometric Framework API], secbiomet.sensoradapterqueryextendedinfo, winbio_adapter/SensorAdapterQueryExtendedInfo
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/SensorAdapterQueryExtendedInfo
 dev_langs:

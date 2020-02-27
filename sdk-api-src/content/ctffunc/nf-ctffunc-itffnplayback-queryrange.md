@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: d6113703-5515-4f1a-8e2e-1373077dafc2
 ms.date: 12/05/2018
 ms.keywords: ITfFnPlayBack interface [Text Services Framework],QueryRange method, ITfFnPlayBack.QueryRange, ITfFnPlayBack::QueryRange, QueryRange, QueryRange method [Text Services Framework], QueryRange method [Text Services Framework],ITfFnPlayBack interface, _tsf_itffnplayback_queryrange_ref, ctffunc/ITfFnPlayBack::QueryRange, tsf.itffnplayback_queryrange
-ms.topic: method
 f1_keywords:
 - ctffunc/ITfFnPlayBack.QueryRange
 dev_langs:

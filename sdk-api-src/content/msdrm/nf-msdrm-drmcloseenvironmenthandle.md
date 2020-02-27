@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: 3edde872-a863-4c7f-92f0-f7e324aff651
 ms.date: 12/05/2018
 ms.keywords: DRMCloseEnvironmentHandle, DRMCloseEnvironmentHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCloseEnvironmentHandle, rm.drmcloseenvironmenthandle
-ms.topic: function
 f1_keywords:
 - msdrm/DRMCloseEnvironmentHandle
 dev_langs:

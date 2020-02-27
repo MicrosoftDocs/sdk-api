@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 9114a3ed-2dc9-4637-b3d5-9430d309e89b
 ms.date: 12/05/2018
 ms.keywords: GetSubscriberInformation, GetSubscriberInformation method [Microsoft Broadband Networks], GetSubscriberInformation method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetSubscriberInformation method, IMbnInterface.GetSubscriberInformation, IMbnInterface::GetSubscriberInformation, mbn.imbninterface_getsubscriberinformation, mbnapi/IMbnInterface::GetSubscriberInformation
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnInterface.GetSubscriberInformation
 dev_langs:

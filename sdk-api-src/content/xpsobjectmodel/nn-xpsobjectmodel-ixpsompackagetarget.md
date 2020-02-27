@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 980D2A37-933F-41B1-A975-6BC797E8E770
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackageTarget, IXpsOMPackageTarget interface [XPS Documents and Packaging], IXpsOMPackageTarget interface [XPS Documents and Packaging],described, xps.ixpsompackagetarget, xpsobjectmodel/IXpsOMPackageTarget
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMPackageTarget
 dev_langs:
@@ -107,7 +106,7 @@ To create the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectm
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

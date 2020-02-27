@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 77ba5ee6-082c-478f-83fc-7f6c31ee3c74
 ms.date: 12/05/2018
 ms.keywords: IMetaDataDispenser interface [Windows Runtime],OpenScope method, IMetaDataDispenser.OpenScope, IMetaDataDispenser::OpenScope, OpenScope, OpenScope method [Windows Runtime], OpenScope method [Windows Runtime],IMetaDataDispenser interface, rometadataapi/IMetaDataDispenser::OpenScope, winrt.imetadatadispenser_openscope
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataDispenser.OpenScope
 dev_langs:

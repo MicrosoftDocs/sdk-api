@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 21f0a4a3-3c6c-434d-8cfc-767c7654849e
 ms.date: 12/05/2018
 ms.keywords: ID2D1PathGeometry1, ID2D1PathGeometry1 interface [Direct2D], ID2D1PathGeometry1 interface [Direct2D],described, d2d1_1/ID2D1PathGeometry1, direct2d.id2d1pathgeometry1
-ms.topic: interface
 f1_keywords:
 - d2d1_1/ID2D1PathGeometry1
 dev_langs:

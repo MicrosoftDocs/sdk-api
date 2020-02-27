@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: fcfe99de-13b2-4e93-a978-f013ddae89f0
 ms.date: 12/05/2018
 ms.keywords: InternetTimeToSystemTime, InternetTimeToSystemTime function [WinINet], InternetTimeToSystemTimeA, InternetTimeToSystemTimeW, _inet_internettimetosystemtime_function, wininet.internettimetosystemtime, wininet/InternetTimeToSystemTime, wininet/InternetTimeToSystemTimeA, wininet/InternetTimeToSystemTimeW
-ms.topic: function
 f1_keywords:
 - wininet/InternetTimeToSystemTime
 dev_langs:

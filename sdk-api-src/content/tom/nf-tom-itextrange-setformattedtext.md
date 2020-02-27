@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setformattedtext.htm
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],SetFormattedText method, ITextRange.SetFormattedText, ITextRange::SetFormattedText, SetFormattedText, SetFormattedText method [Windows Controls], SetFormattedText method [Windows Controls],ITextRange interface, _win32_ITextRange_SetFormattedText, _win32_ITextRange_SetFormattedText_cpp, controls.ITextRange_SetFormattedText, controls._win32_ITextRange_SetFormattedText, tom/ITextRange::SetFormattedText
-ms.topic: method
 f1_keywords:
 - tom/ITextRange.SetFormattedText
 dev_langs:
@@ -121,7 +120,7 @@ Out of memory.
 
 
 
-If the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> does not belong to the same Text Object Model (TOM) engine, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> for an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface.
+If the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> does not belong to the same Text Object Model (TOM) engine, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> for an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface.
 
 Among the formats typically supported by the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> are CF_TEXT and CF_RTF. In addition, private formats can be used to reference a text solution's own internal rich-text formats. The following Microsoft Visual Basic example uses the <b>FormattedText</b> property to replace the text in range2 with the formatted text in range1.
 

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 87660b16-06a8-4a71-8669-24521f1399e4
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateTemplateWritable, IX509CertificateTemplateWritable interface [Security], IX509CertificateTemplateWritable interface [Security],described, certenroll/IX509CertificateTemplateWritable, security.ix509certificatetemplatewritable
-ms.topic: interface
 f1_keywords:
 - certenroll/IX509CertificateTemplateWritable
 dev_langs:

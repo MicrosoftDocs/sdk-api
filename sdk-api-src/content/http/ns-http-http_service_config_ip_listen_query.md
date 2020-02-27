@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 8cecb295-a35b-466d-9420-3b72f77f731f
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY structure [HTTP], PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY structure pointer [HTTP], _http_http_service_config_ip_listen_query, http.http_service_config_ip_listen_query, http/HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, http/PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY'
-ms.topic: struct
 f1_keywords:
 - http/HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY
 dev_langs:

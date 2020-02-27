@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 05c677fb-a2e2-4aa5-bb27-4dc437ca408c
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlDropHandler interface [Windows Shell],OnDrop method, INameSpaceTreeControlDropHandler.OnDrop, INameSpaceTreeControlDropHandler::OnDrop, OnDrop, OnDrop method [Windows Shell], OnDrop method [Windows Shell],INameSpaceTreeControlDropHandler interface, _shell_INameSpaceTreeControlDropHandler_OnDrop, shell.INameSpaceTreeControlDropHandler_OnDrop, shobjidl/INameSpaceTreeControlDropHandler::OnDrop
-ms.topic: method
 f1_keywords:
 - shobjidl/INameSpaceTreeControlDropHandler.OnDrop
 dev_langs:

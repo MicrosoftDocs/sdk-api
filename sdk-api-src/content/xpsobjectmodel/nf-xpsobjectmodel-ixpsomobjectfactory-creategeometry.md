@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: e6933542-eb88-4936-a1d7-8380afc61557
 ms.date: 12/05/2018
 ms.keywords: CreateGeometry, CreateGeometry method [XPS Documents and Packaging], CreateGeometry method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateGeometry method, IXpsOMObjectFactory.CreateGeometry, IXpsOMObjectFactory::CreateGeometry, xps.ixpsomobjectfactory_creategeometry, xpsobjectmodel/IXpsOMObjectFactory::CreateGeometry
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreateGeometry
 dev_langs:
@@ -159,7 +158,7 @@ else
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

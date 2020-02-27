@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CreateVolumeMeter(IUnknown@,UINT32)
 ms.date: 12/05/2018
 ms.keywords: XAudio2CreateVolumeMeter, XAudio2CreateVolumeMeter function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2createvolumemeter, xaudio2fx/XAudio2CreateVolumeMeter
-ms.topic: function
 f1_keywords:
 - xaudio2fx/XAudio2CreateVolumeMeter
 dev_langs:

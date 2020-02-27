@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 487204af-152e-4e39-808f-492dae7cadee
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromInt16Vector, InitPropVariantFromInt16Vector function [Windows Properties], properties.InitPropVariantFromInt16Vector, propvarutil/InitPropVariantFromInt16Vector, shell.InitPropVariantFromInt16Vector, shell_InitPropVariantFromInt16Vector
-ms.topic: function
 f1_keywords:
 - propvarutil/InitPropVariantFromInt16Vector
 dev_langs:

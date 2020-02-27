@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: a79931ad-deeb-4e46-a051-80a57fe5935c
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocManagerNotificationSink, IDot11AdHocManagerNotificationSink interface [NativeWIFI], IDot11AdHocManagerNotificationSink interface [NativeWIFI],described, adhoc/IDot11AdHocManagerNotificationSink, nwifi.idot11adhocmanagernotificationsink
-ms.topic: interface
 f1_keywords:
 - adhoc/IDot11AdHocManagerNotificationSink
 dev_langs:

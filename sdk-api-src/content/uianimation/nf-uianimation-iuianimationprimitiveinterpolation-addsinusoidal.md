@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: AF2BD96D-45A2-415B-A1BD-320C43F50360
 ms.date: 12/05/2018
 ms.keywords: AddSinusoidal, AddSinusoidal method [Windows Animation], AddSinusoidal method [Windows Animation],IUIAnimationPrimitiveInterpolation interface, IUIAnimationPrimitiveInterpolation interface [Windows Animation],AddSinusoidal method, IUIAnimationPrimitiveInterpolation.AddSinusoidal, IUIAnimationPrimitiveInterpolation::AddSinusoidal, uianimation.iuianimationprimitiveinterpolation_addsinusoidal, uianimation/IUIAnimationPrimitiveInterpolation::AddSinusoidal
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationPrimitiveInterpolation.AddSinusoidal
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 70cec8c7-7954-44d7-93f5-711368f72bf7
 ms.date: 12/05/2018
 ms.keywords: SUOI_FORCEDELETE, SetupUninstallOEMInf, SetupUninstallOEMInf function [Setup API], SetupUninstallOEMInfA, SetupUninstallOEMInfW, _setupapi_setupuninstalloeminf, setup.setupuninstalloeminf, setupapi/SetupUninstallOEMInf, setupapi/SetupUninstallOEMInfA, setupapi/SetupUninstallOEMInfW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupUninstallOEMInf
 dev_langs:

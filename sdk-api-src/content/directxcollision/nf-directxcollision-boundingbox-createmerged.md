@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.CreateMerged(BoundingBox@,BoundingBox,BoundingBox)
 ms.date: 12/05/2018
 ms.keywords: BoundingBox interface [DirectX Math Support APIs],CreateMerged method, BoundingBox.CreateMerged, BoundingBox::CreateMerged, CreateMerged, CreateMerged method [DirectX Math Support APIs], CreateMerged method [DirectX Math Support APIs],BoundingBox interface, Use DirectX..BoundingBox.CreateMerged, Use DirectX::::BoundingBox::CreateMerged, dxmath.boundingbox_createmerged
-ms.topic: method
 f1_keywords:
 - directxcollision/BoundingBox.CreateMerged
 dev_langs:

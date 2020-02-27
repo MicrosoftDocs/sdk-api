@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 025a89c2-4bbd-4c8b-8367-3735fb5b872a
 ms.date: 12/05/2018
 ms.keywords: GetMonitorInfo, GetMonitorInfo function [Windows GDI], GetMonitorInfoA, GetMonitorInfoW, _win32_GetMonitorInfo, gdi.getmonitorinfo, winuser/GetMonitorInfo, winuser/GetMonitorInfoA, winuser/GetMonitorInfoW
-ms.topic: function
 f1_keywords:
 - winuser/GetMonitorInfo
 dev_langs:

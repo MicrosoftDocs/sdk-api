@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 60e3b6f7-f556-4699-be90-db7330cfb8ca
 ms.date: 12/05/2018
 ms.keywords: InterlockedPushEntrySList, InterlockedPushEntrySList function, _win32_interlockedpushentryslist, base.interlockedpushentryslist, interlockedapi/InterlockedPushEntrySList, winbase/InterlockedPushEntrySList
-ms.topic: function
 f1_keywords:
 - interlockedapi/InterlockedPushEntrySList
 dev_langs:
@@ -72,7 +71,7 @@ Pointer to an <b>SLIST_HEADER</b> structure that represents the head of a singly
 ### -param ListEntry [in, out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a> structure that represents an item in a singly linked list.
+<a href="/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a> structure that represents an item in a singly linked list.
 
 
 ## -returns
@@ -125,7 +124,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a>
 
 
 

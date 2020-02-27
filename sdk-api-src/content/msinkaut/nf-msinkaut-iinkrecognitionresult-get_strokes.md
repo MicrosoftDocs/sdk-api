@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 57659ad8-b1ca-4da0-94fb-4807a6f9af2f
 ms.date: 12/05/2018
 ms.keywords: IInkRecognitionResult interface [Tablet PC],Strokes property, IInkRecognitionResult.Strokes, IInkRecognitionResult.get_Strokes, IInkRecognitionResult::Strokes, IInkRecognitionResult::get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkRecognitionResult interface, get_Strokes, msinkaut/IInkRecognitionResult::Strokes, msinkaut/IInkRecognitionResult::get_Strokes, tablet.iinkrecognitionresult_strokes
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRecognitionResult.Strokes
 dev_langs:

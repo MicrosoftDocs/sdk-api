@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: ec708f97-36c8-4484-96d7-b8dfb8578667
 ms.date: 12/05/2018
 ms.keywords: IsBadStringPtr, IsBadStringPtr function, IsBadStringPtrA, IsBadStringPtrW, _win32_isbadstringptr, base.isbadstringptr, winbase/IsBadStringPtr, winbase/IsBadStringPtrA, winbase/IsBadStringPtrW
-ms.topic: function
 f1_keywords:
 - winbase/IsBadStringPtr
 dev_langs:

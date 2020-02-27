@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 4afadb62-2bea-46ef-b0d6-e327ac96d16f
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_SET_PASSWORD_IGNORE_DOWN_NODES, PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD, PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD function [Failover Cluster], SetClusterServiceAccountPassword, SetClusterServiceAccountPassword function [Failover Cluster], _wolf_setclusterserviceaccountpassword, clusapi/PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD, clusapi/SetClusterServiceAccountPassword, mscs.setclusterserviceaccountpassword
-ms.topic: function
 f1_keywords:
 - clusapi/SetClusterServiceAccountPassword
 dev_langs:

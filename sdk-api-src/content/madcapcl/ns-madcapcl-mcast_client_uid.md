@@ -7,7 +7,6 @@ tech.root: Madcap
 ms.assetid: 6460ea80-f1b1-4939-a977-580d0db10fd0
 ms.date: 12/05/2018
 ms.keywords: '*LPMCAST_CLIENT_UID, LPMCAST_CLIENT_UID, LPMCAST_CLIENT_UID structure pointer [MADCAP], MCAST_CLIENT_UID, MCAST_CLIENT_UID structure [MADCAP], _mdhcp_mcast_client_uid, madcap.mcast_client_uid, madcapcl/LPMCAST_CLIENT_UID, madcapcl/MCAST_CLIENT_UID'
-ms.topic: struct
 f1_keywords:
 - madcapcl/MCAST_CLIENT_UID
 dev_langs:

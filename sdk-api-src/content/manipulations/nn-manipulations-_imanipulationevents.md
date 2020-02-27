@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: be392a13-3165-44ff-bcd6-ed0075c669c4
 ms.date: 12/05/2018
 ms.keywords: _IManipulationEvents, _IManipulationEvents interface [Windows Touch], _IManipulationEvents interface [Windows Touch],described, manipulations/_IManipulationEvents, wintouch._imanipulationevents
-ms.topic: interface
 f1_keywords:
 - manipulations/_IManipulationEvents
 dev_langs:

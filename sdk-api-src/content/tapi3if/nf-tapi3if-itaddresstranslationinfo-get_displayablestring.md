@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: c88474ee-5a7e-4966-8dc2-5f839069b2d2
 ms.date: 12/05/2018
 ms.keywords: ITAddressTranslationInfo interface [TAPI 2.2],get_DisplayableString method, ITAddressTranslationInfo.get_DisplayableString, ITAddressTranslationInfo::get_DisplayableString, _tapi3_itaddresstranslationinfo_get_displayablestring, get_DisplayableString, get_DisplayableString method [TAPI 2.2], get_DisplayableString method [TAPI 2.2],ITAddressTranslationInfo interface, tapi3.itaddresstranslationinfo_get_displayablestring, tapi3if/ITAddressTranslationInfo::get_DisplayableString
-ms.topic: method
 f1_keywords:
 - tapi3if/ITAddressTranslationInfo.get_DisplayableString
 dev_langs:

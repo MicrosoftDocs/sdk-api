@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors\bitmap_52hbm_hpal.htm
 ms.date: 12/05/2018
 ms.keywords: Bitmap, Bitmap class [GDI+],Bitmap constructor, Bitmap constructor [GDI+], Bitmap constructor [GDI+],Bitmap class, Bitmap.Bitmap, Bitmap.Bitmap(HBITMAP,HPALETTE), Bitmap.Bitmap(IN HBITMAP,IN HPALETTE), Bitmap::Bitmap, Bitmap::Bitmap(IN HBITMAP,IN HPALETTE), _gdiplus_CLASS_Bitmap_Bitmap_hbm_hpal_, gdiplus._gdiplus_CLASS_Bitmap_Bitmap_hbm_hpal_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Bitmap.Bitmap
 dev_langs:

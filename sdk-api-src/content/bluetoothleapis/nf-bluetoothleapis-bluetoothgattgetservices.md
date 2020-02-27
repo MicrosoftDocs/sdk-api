@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: 8EF8B582-FFAE-4C87-8E94-7EFDD2CD2706
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTGetServices, BluetoothGATTGetServices function [Bluetooth Devices], bltooth.bluetoothgattgetservices, bluetoothleapis/BluetoothGATTGetServices
-ms.topic: function
 f1_keywords:
 - bluetoothleapis/BluetoothGATTGetServices
 dev_langs:

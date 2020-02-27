@@ -7,7 +7,6 @@ tech.root: rstmgr
 ms.assetid: fb1baa7b-0dfb-4bd1-8a3f-cfaf9bf4079f
 ms.date: 12/05/2018
 ms.keywords: RmRemoveFilter, RmRemoveFilter function [Restart Mgr], restartmanager/RmRemoveFilter, rstmgr.rmremovefilter
-ms.topic: function
 f1_keywords:
 - restartmanager/RmRemoveFilter
 dev_langs:

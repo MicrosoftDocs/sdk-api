@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d30281b7-0b2c-4240-813b-a53c8acb819c
 ms.date: 12/05/2018
 ms.keywords: GetImageResources, GetImageResources method [XPS Documents and Packaging], GetImageResources method [XPS Documents and Packaging],IXpsOMPartResources interface, IXpsOMPartResources interface [XPS Documents and Packaging],GetImageResources method, IXpsOMPartResources.GetImageResources, IXpsOMPartResources::GetImageResources, xps.ixpsompartresources_getimageresources, xpsobjectmodel/IXpsOMPartResources::GetImageResources
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPartResources.GetImageResources
 dev_langs:
@@ -124,7 +123,7 @@ After loading and parsing the resource into the XPS OM, this method might return
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

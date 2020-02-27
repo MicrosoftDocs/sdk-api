@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: F8921444-B13D-4522-84F2-4792F4F37EA5
 ms.date: 12/05/2018
 ms.keywords: IsWindowsXPSP1OrGreater, IsWindowsXPSP1OrGreater function, base.iswindowsxpsp1orgreater, versionhelpers/IsWindowsXPSP1OrGreater
-ms.topic: function
 f1_keywords:
 - versionhelpers/IsWindowsXPSP1OrGreater
 dev_langs:

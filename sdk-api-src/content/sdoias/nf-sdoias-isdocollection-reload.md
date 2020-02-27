@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: 9bf216a0-2d65-4242-97bc-f4b690e92d55
 ms.date: 12/05/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],Reload method, ISdoCollection.Reload, ISdoCollection::Reload, Reload, Reload method [Network Policy Server], Reload method [Network Policy Server],ISdoCollection interface, _sdo_isdocollection_reload, nps.SDO_isdocollection_reload, sdo.isdocollection_reload, sdoias/ISdoCollection::Reload
-ms.topic: method
 f1_keywords:
 - sdoias/ISdoCollection.Reload
 dev_langs:

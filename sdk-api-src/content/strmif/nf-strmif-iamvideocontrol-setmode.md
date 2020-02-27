@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 09fe5d3f-41d8-4a60-a770-64c628a6b82d
 ms.date: 12/05/2018
 ms.keywords: IAMVideoControl interface [DirectShow],SetMode method, IAMVideoControl.SetMode, IAMVideoControl::SetMode, IAMVideoControlSetMode, SetMode, SetMode method [DirectShow], SetMode method [DirectShow],IAMVideoControl interface, dshow.iamvideocontrol_setmode, strmif/IAMVideoControl::SetMode
-ms.topic: method
 f1_keywords:
 - strmif/IAMVideoControl.SetMode
 dev_langs:
@@ -69,7 +68,7 @@ Pointer to the pin to set the video control mode on.
 
 ### -param Mode [in]
 
-Value specifying a combination of the flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-videocontrolflags">VideoControlFlags</a> enumeration to set the video control mode.
+Value specifying a combination of the flags from the [VideoControlFlags](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videocontrolflags) enumeration to set the video control mode.
 
 
 ## -returns

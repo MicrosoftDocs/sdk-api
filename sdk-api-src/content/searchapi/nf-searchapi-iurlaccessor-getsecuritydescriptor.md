@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsecuritydescriptor.htm
 ms.date: 12/05/2018
 ms.keywords: GetSecurityDescriptor, GetSecurityDescriptor method [search], GetSecurityDescriptor method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetSecurityDescriptor method, IUrlAccessor.GetSecurityDescriptor, IUrlAccessor::GetSecurityDescriptor, _search_IUrlAccessor_GetSecurityDescriptor, search._search_IUrlAccessor_GetSecurityDescriptor, searchapi/IUrlAccessor::GetSecurityDescriptor
-ms.topic: method
 f1_keywords:
 - searchapi/IUrlAccessor.GetSecurityDescriptor
 dev_langs:

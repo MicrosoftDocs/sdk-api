@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: cba9a9e8-2397-4c78-925f-ee5d817d1ee4
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerOpenContentInformationEx, PeerDistServerOpenContentInformationEx function [Peer Networking], p2p.peerdistserveropencontentinformationex, peerdist/PeerDistServerOpenContentInformationEx
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistServerOpenContentInformationEx
 dev_langs:
@@ -95,7 +94,7 @@ A handle to the completion port used for retrieving the completion notification 
 
 ### -param ulCompletionKey [in, optional]
 
-Value to be returned through the <i>lpCompletionKey</i> parameter of the <a href="http://go.microsoft.com/fwlink/p/?linkid=131008">GetQueuedCompletionStatus</a> function. This parameter is ignored when <i>hCompletionPort</i> is <b>NULL</b>.
+Value to be returned through the <i>lpCompletionKey</i> parameter of the <a href="https://msdn.microsoft.com/library/aa364986.aspx">GetQueuedCompletionStatus</a> function. This parameter is ignored when <i>hCompletionPort</i> is <b>NULL</b>.
 
 
 ### -param phContentInfo [out]

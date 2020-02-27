@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 2906772f-4391-411b-b0a9-5a20ebb6c0ee
 ms.date: 12/05/2018
 ms.keywords: DsGetDcNext, DsGetDcNext function [Active Directory], DsGetDcNextA, DsGetDcNextW, ad.dsgetdcnext, dsgetdc/DsGetDcNext, dsgetdc/DsGetDcNextA, dsgetdc/DsGetDcNextW
-ms.topic: function
 f1_keywords:
 - dsgetdc/DsGetDcNext
 dev_langs:

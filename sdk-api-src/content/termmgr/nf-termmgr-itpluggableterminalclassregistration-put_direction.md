@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: b68c0697-e889-471d-857a-d11e974c6552
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],put_Direction method, ITPluggableTerminalClassRegistration.put_Direction, ITPluggableTerminalClassRegistration::put_Direction, _tapi3_itpluggableterminalclassregistration_put_direction, put_Direction, put_Direction method [TAPI 2.2], put_Direction method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_put_direction, termmgr/ITPluggableTerminalClassRegistration::put_Direction
-ms.topic: method
 f1_keywords:
 - termmgr/ITPluggableTerminalClassRegistration.put_Direction
 dev_langs:

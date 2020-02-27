@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: e9ed5bdd-c696-47cc-84c8-266b230f7970
 ms.date: 12/05/2018
 ms.keywords: IVdsLunPlex interface [VDS],QueryExtents method, IVdsLunPlex.QueryExtents, IVdsLunPlex::QueryExtents, QueryExtents, QueryExtents method [VDS], QueryExtents method [VDS],IVdsLunPlex interface, base.ivdslunplex_queryextents, vds/IVdsLunPlex::QueryExtents, vdshwprv/IVdsLunPlex::QueryExtents
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsLunPlex.QueryExtents
 dev_langs:

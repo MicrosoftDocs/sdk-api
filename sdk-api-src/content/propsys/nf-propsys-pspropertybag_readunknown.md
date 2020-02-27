@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 87921F52-308F-4ed7-8390-A3C0217ACEFD
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadUnknown, PSPropertyBag_ReadUnknown function [Windows Properties], properties.PSPropertyBag_ReadUnknown, propsys/PSPropertyBag_ReadUnknown, shell.PSPropertyBag_ReadUnknown, shell_PSPropertyBag_ReadUnknown
-ms.topic: function
 f1_keywords:
 - propsys/PSPropertyBag_ReadUnknown
 dev_langs:

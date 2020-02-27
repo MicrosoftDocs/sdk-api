@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 4daef7e9-e5ab-4eb8-acb6-a475b84d4de6
 ms.date: 12/05/2018
 ms.keywords: IEnumTfCandidates, IEnumTfCandidates interface [Text Services Framework], IEnumTfCandidates interface [Text Services Framework],described, _tsf_ienumtfcandidates_ref, ctffunc/IEnumTfCandidates, tsf.ienumtfcandidates
-ms.topic: interface
 f1_keywords:
 - ctffunc/IEnumTfCandidates
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: B41FAA50-9CF7-4DD0-8571-1817C7C49276
 ms.date: 12/05/2018
 ms.keywords: MFRegisterLocalByteStreamHandler, MFRegisterLocalByteStreamHandler function [Media Foundation], mf.mfregisterlocalbytestreamhandler, mfapi/MFRegisterLocalByteStreamHandler
-ms.topic: function
 f1_keywords:
 - mfapi/MFRegisterLocalByteStreamHandler
 dev_langs:

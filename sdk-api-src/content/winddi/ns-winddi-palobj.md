@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 7c126067-eff8-4387-9fa7-2cde60796471
 ms.date: 12/05/2018
 ms.keywords: PALOBJ, PALOBJ structure [Display Devices], display.palobj, grstrcts_5f0545f6-cfea-466c-8a61-4ff3be44fc72.xml, winddi/PALOBJ
-ms.topic: struct
 f1_keywords:
 - winddi/PALOBJ
 dev_langs:

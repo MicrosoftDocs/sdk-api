@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: e03f43b9-fe34-4340-86f3-c353df6c6db0
 ms.date: 12/05/2018
 ms.keywords: SPFILENOTIFY_COPYERROR, SPFILENOTIFY_DELETEERROR, SPFILENOTIFY_ENDCOPY, SPFILENOTIFY_ENDDELETE, SPFILENOTIFY_ENDQUEUE, SPFILENOTIFY_ENDRENAME, SPFILENOTIFY_ENDSUBQUEUE, SPFILENOTIFY_LANGMISMATCH, SPFILENOTIFY_NEEDMEDIA, SPFILENOTIFY_RENAMEERROR, SPFILENOTIFY_STARTCOPY, SPFILENOTIFY_STARTDELETE, SPFILENOTIFY_STARTQUEUE, SPFILENOTIFY_STARTRENAME, SPFILENOTIFY_STARTSUBQUEUE, SPFILENOTIFY_TARGETEXISTS, SPFILENOTIFY_TARGETNEWER, SetupDefaultQueueCallback, SetupDefaultQueueCallback function [Setup API], SetupDefaultQueueCallbackA, SetupDefaultQueueCallbackW, _setupapi_setupdefaultqueuecallback, setup.setupdefaultqueuecallback, setupapi/SetupDefaultQueueCallback, setupapi/SetupDefaultQueueCallbackA, setupapi/SetupDefaultQueueCallbackW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDefaultQueueCallback
 dev_langs:

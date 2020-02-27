@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: cd12f52c-80d6-4aee-96c8-cb3cafcf0a6a
 ms.date: 12/05/2018
 ms.keywords: FTP_TRANSFER_TYPE_ASCII, FTP_TRANSFER_TYPE_BINARY, FtpCommand, FtpCommand function [WinINet], FtpCommandA, FtpCommandW, _inet_ftpcommand_function, wininet.ftpcommand, wininet/FtpCommand, wininet/FtpCommandA, wininet/FtpCommandW
-ms.topic: function
 f1_keywords:
 - wininet/FtpCommand
 dev_langs:

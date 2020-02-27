@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: c86199c3-9fe7-4d8f-8b33-b12b65b94e54
 ms.date: 12/05/2018
 ms.keywords: DeleteRecord, DeleteRecord method [BITS], DeleteRecord method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],DeleteRecord method, IBitsPeerCacheAdministration.DeleteRecord, IBitsPeerCacheAdministration::DeleteRecord, bits.ibitspeercacheadministration_deleterecord, bits3_0/IBitsPeerCacheAdministration::DeleteRecord
-ms.topic: method
 f1_keywords:
 - bits3_0/IBitsPeerCacheAdministration.DeleteRecord
 dev_langs:

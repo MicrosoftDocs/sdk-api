@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: ec0fe8b6-e968-4bcb-b468-bbf72ffce675
 ms.date: 12/05/2018
 ms.keywords: CreateDigitalSignatureManager, CreateDigitalSignatureManager method [Open Packaging Conventions], CreateDigitalSignatureManager method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreateDigitalSignatureManager method, IOpcFactory.CreateDigitalSignatureManager, IOpcFactory::CreateDigitalSignatureManager, msopc/IOpcFactory::CreateDigitalSignatureManager, opc.iopcfactory_createdigitalsignaturemanager
-ms.topic: method
 f1_keywords:
 - msopc/IOpcFactory.CreateDigitalSignatureManager
 dev_langs:
@@ -179,7 +178,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
 
 

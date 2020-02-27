@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: fad021dc-8199-4384-b623-c98bc618799f
 ms.date: 12/05/2018
 ms.keywords: NTSHChangeNotifyDeregister, SHChangeNotifyDeregister, SHChangeNotifyDeregister function [Windows Shell], _win32_SHChangeNotifyDeregister, shell.SHChangeNotifyDeregister, shlobj_core/NTSHChangeNotifyDeregister, shlobj_core/SHChangeNotifyDeregister
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHChangeNotifyDeregister
 dev_langs:

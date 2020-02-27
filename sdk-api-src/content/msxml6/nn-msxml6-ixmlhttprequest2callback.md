@@ -7,7 +7,6 @@ tech.root: ixhr2
 ms.assetid: AA4B3F4C-6E28-458B-BE25-6CCE8865FC71
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2Callback, IXMLHTTPRequest2Callback interface [XMLHttpRequest2], IXMLHTTPRequest2Callback interface [XMLHttpRequest2],described, ixhr2.ixmlhttprequest2callback, msxml6/IXMLHTTPRequest2Callback
-ms.topic: interface
 f1_keywords:
 - msxml6/IXMLHTTPRequest2Callback
 dev_langs:

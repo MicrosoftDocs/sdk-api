@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: bcf11c5b-e164-4a0f-b30f-ee9e76c4356d
 ms.date: 12/05/2018
 ms.keywords: ReadClassStm, ReadClassStm function [Structured Storage], _stg_readclassstm, coml2api/ReadClassStm, stg.readclassstm
-ms.topic: function
 f1_keywords:
 - coml2api/ReadClassStm
 dev_langs:

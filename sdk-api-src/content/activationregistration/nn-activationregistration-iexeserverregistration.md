@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 9A96968D-B9BD-4C47-B626-69B6EA6AE7EA
 ms.date: 12/05/2018
 ms.keywords: IExeServerRegistration, IExeServerRegistration interface [Windows Runtime], IExeServerRegistration interface [Windows Runtime],described, activationregistration/IExeServerRegistration, winrt.iexeserverregistration
-ms.topic: interface
 f1_keywords:
 - activationregistration/IExeServerRegistration
 dev_langs:

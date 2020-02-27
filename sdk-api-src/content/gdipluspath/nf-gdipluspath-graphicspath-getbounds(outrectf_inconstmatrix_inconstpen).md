@@ -5,7 +5,6 @@ description: The GraphicsPath::GetBounds method gets a bounding rectangle for th
 ms.assetid: a6a44cf0-78a9-4a1c-95f8-06d2ac32339b
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::GetBounds
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/GraphicsPath::GetBounds
 dev_langs:

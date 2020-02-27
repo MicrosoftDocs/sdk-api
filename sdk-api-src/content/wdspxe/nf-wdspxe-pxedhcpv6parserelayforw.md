@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 1D9F1FFF-3ABB-4580-A5F2-C74B5E7EEAC9
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpv6ParseRelayForw, PxeDhcpv6ParseRelayForw function [Windows Deployment Services], wds.pxedhcpv6parserelayforw, wdspxe/PxeDhcpv6ParseRelayForw
-ms.topic: function
 f1_keywords:
 - wdspxe/PxeDhcpv6ParseRelayForw
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 This function can be used by a provider to parse RELAY-FORW messages and their nested OPTION_RELAY_MSG messages.   The information returned can be used to construct a RELAY-REPL packet using the <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxedhcpv6createrelayrepl">PxeDhcpv6CreateRelayRepl</a> function.  
 
-For more information about RELAY-FORW and OPTION_RELAY_MSG messages, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="Http://go.microsoft.com/fwlink/p/?linkid=132626">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
+For more information about RELAY-FORW and OPTION_RELAY_MSG messages, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="https://www.ietf.org/rfc/rfc3315.txt">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
 
 
 ## -parameters

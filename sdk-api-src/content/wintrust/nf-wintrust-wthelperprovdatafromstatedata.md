@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: ca2ca612-2da6-4fe1-8b1e-bc6307eb92af
 ms.date: 12/05/2018
 ms.keywords: WTHelperProvDataFromStateData, WTHelperProvDataFromStateData function [Security], security.wthelperprovdatafromstatedata, wintrust/WTHelperProvDataFromStateData
-ms.topic: function
 f1_keywords:
 - wintrust/WTHelperProvDataFromStateData
 dev_langs:

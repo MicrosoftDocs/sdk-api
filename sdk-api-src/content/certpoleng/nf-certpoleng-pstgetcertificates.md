@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 3dfe3a7b-aefd-487a-a826-065e80f21eb5
 ms.date: 12/05/2018
 ms.keywords: PstGetCertificates, PstGetCertificates function [Security], certpoleng/PstGetCertificates, security.pstgetcertificates
-ms.topic: function
 f1_keywords:
 - certpoleng/PstGetCertificates
 dev_langs:

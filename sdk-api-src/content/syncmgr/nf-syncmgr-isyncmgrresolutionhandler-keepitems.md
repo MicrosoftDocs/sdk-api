@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 81be006b-4aa4-42da-ae1b-001ae92a3e9b
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],KeepItems method, ISyncMgrResolutionHandler.KeepItems, ISyncMgrResolutionHandler::KeepItems, KeepItems, KeepItems method [Windows Shell], KeepItems method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_KeepItems, shell.ISyncMgrResolutionHandler_KeepItems, syncmgr/ISyncMgrResolutionHandler::KeepItems
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrResolutionHandler.KeepItems
 dev_langs:

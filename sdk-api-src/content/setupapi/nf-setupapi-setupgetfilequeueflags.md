@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: cb5a7cd8-870c-4880-bb29-6e24a098c35e
 ms.date: 12/05/2018
 ms.keywords: SPQ_FLAG_ABORT_IF_UNSIGNED, SPQ_FLAG_BACKUP_AWARE, SetupGetFileQueueFlags, SetupGetFileQueueFlags function [Setup API], _setupapi_setupgetfilequeueflags, setup.setupgetfilequeueflags, setupapi/SetupGetFileQueueFlags
-ms.topic: function
 f1_keywords:
 - setupapi/SetupGetFileQueueFlags
 dev_langs:

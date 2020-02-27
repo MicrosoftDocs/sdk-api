@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: c970564d-e1f0-4317-bf66-752b98767451
 ms.date: 12/05/2018
 ms.keywords: CancelCallback, IncludeModuleCallback, IncludeThreadCallback, IncludeVmRegionCallback, IoFinishCallback, IoStartCallback, IoWriteAllCallback, IsProcessSnapshotCallback, KernelMinidumpStatusCallback, MINIDUMP_CALLBACK_TYPE, MINIDUMP_CALLBACK_TYPE enumeration, MemoryCallback, ModuleCallback, ReadMemoryFailureCallback, RemoveMemoryCallback, SecondaryFlagsCallback, ThreadCallback, ThreadExCallback, VmPostReadCallback, VmPreReadCallback, VmQueryCallback, VmStartCallback, WriteKernelMinidumpCallback, _win32_minidump_callback_type, base.minidump_callback_type, minidumpapiset/CancelCallback, minidumpapiset/IncludeModuleCallback, minidumpapiset/IncludeThreadCallback, minidumpapiset/IncludeVmRegionCallback, minidumpapiset/IoFinishCallback, minidumpapiset/IoStartCallback, minidumpapiset/IoWriteAllCallback, minidumpapiset/IsProcessSnapshotCallback, minidumpapiset/KernelMinidumpStatusCallback, minidumpapiset/MINIDUMP_CALLBACK_TYPE, minidumpapiset/MemoryCallback, minidumpapiset/ModuleCallback, minidumpapiset/ReadMemoryFailureCallback, minidumpapiset/RemoveMemoryCallback, minidumpapiset/SecondaryFlagsCallback, minidumpapiset/ThreadCallback, minidumpapiset/ThreadExCallback, minidumpapiset/VmPostReadCallback, minidumpapiset/VmPreReadCallback, minidumpapiset/VmQueryCallback, minidumpapiset/VmStartCallback, minidumpapiset/WriteKernelMinidumpCallback
-ms.topic: enum
 f1_keywords:
 - minidumpapiset/MINIDUMP_CALLBACK_TYPE
 dev_langs:

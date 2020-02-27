@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 633c2a73-169c-4e0c-abb6-96c360bd63cf
 ms.date: 12/05/2018
 ms.keywords: AUTHZ_ACCESS_CHECK_NO_DEEP_COPY_SD, AuthzAccessCheck, AuthzAccessCheck function [Security], _win32_authzaccesscheck, authz/AuthzAccessCheck, security.authzaccesscheck
-ms.topic: function
 f1_keywords:
 - authz/AuthzAccessCheck
 dev_langs:

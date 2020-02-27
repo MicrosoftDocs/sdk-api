@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 77FFF3EA-DEBC-4D92-9C10-E382CD663D20
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],SetMessageCountLimit method, IDXGIInfoQueue.SetMessageCountLimit, IDXGIInfoQueue::SetMessageCountLimit, SetMessageCountLimit, SetMessageCountLimit method [DXGI], SetMessageCountLimit method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_setmessagecountlimit, dxgidebug/IDXGIInfoQueue::SetMessageCountLimit
-ms.topic: method
 f1_keywords:
 - dxgidebug/IDXGIInfoQueue.SetMessageCountLimit
 dev_langs:

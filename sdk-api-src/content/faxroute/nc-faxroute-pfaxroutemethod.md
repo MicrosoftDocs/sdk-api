@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_2aw4.htm
 ms.date: 12/05/2018
 ms.keywords: FaxRouteMethod, FaxRouteMethod callback, FaxRouteMethod callback function [Fax Service], PFAXROUTEMETHOD, _mfax_faxroutemethod, fax._mfax_faxroutemethod, faxroute/FaxRouteMethod
-ms.topic: callback
 f1_keywords:
 - faxroute/FaxRouteMethod
 dev_langs:

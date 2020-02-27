@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 45eccc44-d170-49cc-b51d-bb502c2fc1c7
 ms.date: 12/05/2018
 ms.keywords: '*PTCI_CLIENT_FUNC_LIST, PTCI_CLIENT_FUNC_LIST, PTCI_CLIENT_FUNC_LIST structure pointer [QOS], TCI_CLIENT_FUNC_LIST, TCI_CLIENT_FUNC_LIST structure [QOS], _gqos_tci_client_func_list, qos.tci_client_func_list, traffic/PTCI_CLIENT_FUNC_LIST, traffic/TCI_CLIENT_FUNC_LIST'
-ms.topic: struct
 f1_keywords:
 - traffic/TCI_CLIENT_FUNC_LIST
 dev_langs:

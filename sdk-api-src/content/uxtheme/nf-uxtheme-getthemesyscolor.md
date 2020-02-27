@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesyscolor.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeSysColor, GetThemeSysColor function [Windows Controls], controls.GetThemeSysColor, controls.inet_GetThemeSysColor, inet_GetThemeSysColor, inet_GetThemeSysColor_cpp, uxtheme/GetThemeSysColor
-ms.topic: function
 f1_keywords:
 - uxtheme/GetThemeSysColor
 dev_langs:

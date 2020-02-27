@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 40c4e7da-031f-4c3b-ab18-2476b54ae972
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBitsPeerCacheRecords interface, IEnumBitsPeerCacheRecords interface [BITS],GetCount method, IEnumBitsPeerCacheRecords.GetCount, IEnumBitsPeerCacheRecords::GetCount, bits.ienumbitspeercacherecords_getcount, bits3_0/IEnumBitsPeerCacheRecords::GetCount
-ms.topic: method
 f1_keywords:
 - bits3_0/IEnumBitsPeerCacheRecords.GetCount
 dev_langs:

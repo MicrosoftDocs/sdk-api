@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: e96c4cae-0a0a-4ac4-805f-2042312f0267
 ms.date: 12/05/2018
 ms.keywords: IAzApplicationGroups, IAzApplicationGroups interface [Security], IAzApplicationGroups interface [Security],described, azroles/IAzApplicationGroups, security.iazapplicationgroups
-ms.topic: interface
 f1_keywords:
 - azroles/IAzApplicationGroups
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 6fbbe575-b186-7ffb-ff32-efceccccc48c
 ms.date: 12/05/2018
 ms.keywords: GetGenerationCount, GetGenerationCount method [Direct Write], GetGenerationCount method [Direct Write],IDWriteFontDownloadQueue interface, IDWriteFontDownloadQueue interface [Direct Write],GetGenerationCount method, IDWriteFontDownloadQueue.GetGenerationCount, IDWriteFontDownloadQueue::GetGenerationCount, directwrite.idwritefontdownloadqueue_getgenerationcount, dwrite_3/IDWriteFontDownloadQueue::GetGenerationCount
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontDownloadQueue.GetGenerationCount
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 84f674e7-536b-4ae0-b523-6a17cb0a1c17
 ms.date: 12/05/2018
 ms.keywords: GetSystemTimes, GetSystemTimes function, base.getsystemtimes, processthreadsapi/GetSystemTimes
-ms.topic: function
 f1_keywords:
 - processthreadsapi/GetSystemTimes
 dev_langs:

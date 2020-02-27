@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: c6b65548-c486-4006-afe9-95bc628bbf70
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontWeight method, IDWriteTextLayout.SetFontWeight, IDWriteTextLayout::SetFontWeight, SetFontWeight, SetFontWeight method [Direct Write], SetFontWeight method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetFontWeight, dwrite/IDWriteTextLayout::SetFontWeight
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextLayout.SetFontWeight
 dev_langs:

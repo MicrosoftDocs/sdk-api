@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 62800999-bd13-4529-b5e4-5c6d67d3a6bc
 ms.date: 12/05/2018
 ms.keywords: CreateListener, CreateListener method [Remote Desktop Services], CreateListener method [Remote Desktop Services],IWTSVirtualChannelManager interface, IWTSVirtualChannelManager interface [Remote Desktop Services],CreateListener method, IWTSVirtualChannelManager.CreateListener, IWTSVirtualChannelManager::CreateListener, termserv.iwtsvirtualchannelmanager_createlistener, tsvirtualchannels/IWTSVirtualChannelManager::CreateListener
-ms.topic: method
 f1_keywords:
 - tsvirtualchannels/IWTSVirtualChannelManager.CreateListener
 dev_langs:

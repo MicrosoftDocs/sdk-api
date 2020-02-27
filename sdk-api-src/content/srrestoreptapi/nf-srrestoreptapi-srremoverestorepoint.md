@@ -7,7 +7,6 @@ tech.root: sr
 ms.assetid: e0f27947-7d88-4d15-8a92-85f88c3b60d4
 ms.date: 12/05/2018
 ms.keywords: SRRemoveRestorePoint, SRRemoveRestorePoint function [System Restore], _sr_srremoverestorepoint, sr.srremoverestorepoint, srrestoreptapi/SRRemoveRestorePoint
-ms.topic: function
 f1_keywords:
 - srrestoreptapi/SRRemoveRestorePoint
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 5518c252-fdca-444b-b87e-9fe3cb3b3e3f
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],PVKFileNameWStr property, IEnroll.PVKFileNameWStr, IEnroll.put_PVKFileNameWStr, IEnroll::PVKFileNameWStr, IEnroll::get_PVKFileNameWStr, IEnroll::put_PVKFileNameWStr, PVKFileNameWStr property [Security], PVKFileNameWStr property [Security],IEnroll interface, put_PVKFileNameWStr, security.ienroll4_pvkfilenamewstr, xenroll/IEnroll::PVKFileNameWStr, xenroll/IEnroll::get_PVKFileNameWStr, xenroll/IEnroll::put_PVKFileNameWStr
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll.PVKFileNameWStr
 dev_langs:

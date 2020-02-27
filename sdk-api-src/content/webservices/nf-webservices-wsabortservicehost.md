@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: d9405b21-52d2-4d33-b133-f15402dd1d5b
 ms.date: 12/05/2018
 ms.keywords: WsAbortServiceHost, WsAbortServiceHost function [Web Services for Windows], webservices/WsAbortServiceHost, wsw.wsabortservicehost
-ms.topic: function
 f1_keywords:
 - webservices/WsAbortServiceHost
 dev_langs:

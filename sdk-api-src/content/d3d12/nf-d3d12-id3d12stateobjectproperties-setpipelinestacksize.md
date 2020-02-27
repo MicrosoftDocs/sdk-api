@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 0BB69DBB-F8A1-4C32-AE82-3A49E2E0E4B3
 ms.date: 12/05/2018
 ms.keywords: ID3D12StateObjectProperties interface,SetPipelineStackSize method, ID3D12StateObjectProperties.SetPipelineStackSize, ID3D12StateObjectProperties::SetPipelineStackSize, SetPipelineStackSize, SetPipelineStackSize method, SetPipelineStackSize method,ID3D12StateObjectProperties interface, d3d12/ID3D12StateObjectProperties::SetPipelineStackSize, direct3d12.id3d12stateobjectproperties_setpipelinestacksize
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12StateObjectProperties.SetPipelineStackSize
 dev_langs:

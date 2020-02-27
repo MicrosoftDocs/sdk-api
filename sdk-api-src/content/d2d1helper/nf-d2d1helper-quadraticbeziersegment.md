@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 9b72e367-85dd-4a1f-a67e-34fc4b078ebe
 ms.date: 12/05/2018
 ms.keywords: QuadraticBezierSegment, QuadraticBezierSegment function [Direct2D], d2d1helper/QuadraticBezierSegment, direct2d.quadraticbeziersegment
-ms.topic: function
 f1_keywords:
 - d2d1helper/QuadraticBezierSegment
 dev_langs:

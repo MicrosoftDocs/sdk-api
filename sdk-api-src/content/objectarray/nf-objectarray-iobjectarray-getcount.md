@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2803d8b1-7fc2-499b-a16b-b82b420cba66
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],IObjectArray interface, IObjectArray interface [Windows Shell],GetCount method, IObjectArray.GetCount, IObjectArray::GetCount, _shell_IObjectArray_GetCount, objectarray/IObjectArray::GetCount, shell.IObjectArray_GetCount
-ms.topic: method
 f1_keywords:
 - objectarray/IObjectArray.GetCount
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 74203a74-c5dd-4a98-9223-1dc54c9d4399
 ms.date: 12/05/2018
 ms.keywords: IOleObject interface [COM],IsUpToDate method, IOleObject.IsUpToDate, IOleObject::IsUpToDate, IsUpToDate, IsUpToDate method [COM], IsUpToDate method [COM],IOleObject interface, _ole_ioleobject_isuptodate, com.ioleobject_isuptodate, oleidl/IOleObject::IsUpToDate
-ms.topic: method
 f1_keywords:
 - oleidl/IOleObject.IsUpToDate
 dev_langs:

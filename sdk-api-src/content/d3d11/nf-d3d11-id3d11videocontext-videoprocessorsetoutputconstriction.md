@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: EA61A4B8-0853-4F17-B634-70A896DCF5F7
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetOutputConstriction method, ID3D11VideoContext.VideoProcessorSetOutputConstriction, ID3D11VideoContext::VideoProcessorSetOutputConstriction, VideoProcessorSetOutputConstriction, VideoProcessorSetOutputConstriction method [Media Foundation], VideoProcessorSetOutputConstriction method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetOutputConstriction, mf.id3d11videocontext_videoprocessorsetoutputconstriction
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11VideoContext.VideoProcessorSetOutputConstriction
 dev_langs:

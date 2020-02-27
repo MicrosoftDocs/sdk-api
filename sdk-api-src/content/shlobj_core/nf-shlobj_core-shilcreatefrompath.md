@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 08700af7-9dbd-4162-8578-bfa47e3db6bf
 ms.date: 12/05/2018
 ms.keywords: SHILCreateFromPath, SHILCreateFromPath function [Windows Shell], _win32_SHILCreateFromPath, shell.SHILCreateFromPath, shlobj_core/SHILCreateFromPath
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHILCreateFromPath
 dev_langs:

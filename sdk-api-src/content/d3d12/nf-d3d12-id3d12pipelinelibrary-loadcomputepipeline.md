@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 8295D6E3-8353-46AD-A741-170244495F8B
 ms.date: 12/05/2018
 ms.keywords: ID3D12PipelineLibrary interface,LoadComputePipeline method, ID3D12PipelineLibrary.LoadComputePipeline, ID3D12PipelineLibrary::LoadComputePipeline, LoadComputePipeline, LoadComputePipeline method, LoadComputePipeline method,ID3D12PipelineLibrary interface, d3d12/ID3D12PipelineLibrary::LoadComputePipeline, direct3d12.id3d12pipelinelibrary_loadcomputepipeline
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12PipelineLibrary.LoadComputePipeline
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 65391D03-627D-4302-BE1A-6E90E3A04458
 ms.date: 12/05/2018
 ms.keywords: GetMaxVersionTested, GetMaxVersionTested method [App packaging and management], GetMaxVersionTested method [App packaging and management],IAppxManifestTargetDeviceFamily interface, IAppxManifestTargetDeviceFamily interface [App packaging and management],GetMaxVersionTested method, IAppxManifestTargetDeviceFamily.GetMaxVersionTested, IAppxManifestTargetDeviceFamily::GetMaxVersionTested, appxpackaging/IAppxManifestTargetDeviceFamily::GetMaxVersionTested, appxpkg.iappxmanifesttargetdevicefamily_getmaxversiontested
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxManifestTargetDeviceFamily.GetMaxVersionTested
 dev_langs:

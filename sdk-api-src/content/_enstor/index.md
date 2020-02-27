@@ -1,9 +1,10 @@
 ---
 UID: TP:enstor
+title: Enhanced Storage
 ms.assetid: 233ef84c-dce9-3d93-bcda-5f4649228169
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Enhanced Storage
@@ -18,5 +19,5 @@ To develop Enhanced Storage, you need these headers:
  * [ehstorextensions.h](../ehstorextensions/index.md)
 
 For programming guidance for this technology, see:
-* [Enhanced Storage](/windows/desktop/enstor)
+* [Enhanced Storage](https://docs.microsoft.com/previous-versions/windows/desktop/enstor)
 

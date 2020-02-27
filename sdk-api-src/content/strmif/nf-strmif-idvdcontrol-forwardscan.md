@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: dedeec1c-8565-491e-ab2c-4cdc17d988a9
 ms.date: 12/05/2018
 ms.keywords: ForwardScan, ForwardScan method [DirectShow], ForwardScan method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ForwardScan method, IDvdControl.ForwardScan, IDvdControl::ForwardScan, IDvdControlForwardScan, dshow.idvdcontrol_forwardscan, strmif/IDvdControl::ForwardScan
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.ForwardScan
 dev_langs:
@@ -81,7 +80,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, or DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, or DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

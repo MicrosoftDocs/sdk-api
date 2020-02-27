@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 36bf82e0-f3e7-43cf-943f-eed783ad24a4
 ms.date: 12/05/2018
 ms.keywords: SetViewportExtEx, SetViewportExtEx function [Windows GDI], _win32_SetViewportExtEx, gdi.setviewportextex, wingdi/SetViewportExtEx
-ms.topic: function
 f1_keywords:
 - wingdi/SetViewportExtEx
 dev_langs:

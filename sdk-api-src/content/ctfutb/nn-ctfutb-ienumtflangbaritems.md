@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: a3988c0f-db2d-4841-8098-f1dc133cb60a
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLangBarItems, IEnumTfLangBarItems interface [Text Services Framework], IEnumTfLangBarItems interface [Text Services Framework],described, _tsf_ienumtflangbaritems_ref, ctfutb/IEnumTfLangBarItems, tsf.ienumtflangbaritems
-ms.topic: interface
 f1_keywords:
 - ctfutb/IEnumTfLangBarItems
 dev_langs:

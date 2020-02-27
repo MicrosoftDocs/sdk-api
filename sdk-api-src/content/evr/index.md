@@ -1,9 +1,10 @@
 ---
 UID: NA:evr
+title: Evr.h header
 ms.assetid: 8d7c0243-9fe5-3084-8bca-901110edab08
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: mf
 ---
 

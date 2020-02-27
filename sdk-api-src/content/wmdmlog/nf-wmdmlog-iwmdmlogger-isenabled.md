@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 10bf20bd-7457-4d37-82b5-7d761b4371c5
 ms.date: 12/05/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],IsEnabled method, IWMDMLogger.IsEnabled, IWMDMLogger::IsEnabled, IWMDMLoggerIsEnabled, IsEnabled, IsEnabled method [windows Media Device Manager], IsEnabled method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_isenabled, wmdmlog/IWMDMLogger::IsEnabled
-ms.topic: method
 f1_keywords:
 - wmdmlog/IWMDMLogger.IsEnabled
 dev_langs:

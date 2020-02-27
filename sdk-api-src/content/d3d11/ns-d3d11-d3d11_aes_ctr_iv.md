@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 2D1B24CA-6386-4406-9195-40913744C9CF
 ms.date: 12/05/2018
 ms.keywords: D3D11_AES_CTR_IV, D3D11_AES_CTR_IV structure [Media Foundation], d3d11/D3D11_AES_CTR_IV, mf.d3d11_aes_ctr_iv
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_AES_CTR_IV
 dev_langs:

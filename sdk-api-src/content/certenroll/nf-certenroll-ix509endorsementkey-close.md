@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 71855c96-a828-4bb6-849a-53be8269277d
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Security], Close method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],Close method, IX509EndorsementKey.Close, IX509EndorsementKey::Close, certenroll/IX509EndorsementKey::Close, security.ix509endorsementkey_close
-ms.topic: method
 f1_keywords:
 - certenroll/IX509EndorsementKey.Close
 dev_langs:

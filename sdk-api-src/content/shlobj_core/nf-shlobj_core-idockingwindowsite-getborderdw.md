@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b1c30a49-8d87-4855-acc0-5f33eabe5e8a
 ms.date: 12/05/2018
 ms.keywords: GetBorderDW, GetBorderDW method [Windows Shell], GetBorderDW method [Windows Shell],IDockingWindowSite interface, IDockingWindowSite interface [Windows Shell],GetBorderDW method, IDockingWindowSite.GetBorderDW, IDockingWindowSite::GetBorderDW, _win32_IDockingWindowSite_GetBorderDW, shell.IDockingWindowSite_GetBorderDW, shlobj_core/IDockingWindowSite::GetBorderDW
-ms.topic: method
 f1_keywords:
 - shlobj_core/IDockingWindowSite.GetBorderDW
 dev_langs:

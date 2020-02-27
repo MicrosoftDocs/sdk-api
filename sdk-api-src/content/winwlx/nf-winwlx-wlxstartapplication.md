@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: ad6b520a-56b7-4d22-b4d4-4b45e9e42a9f
 ms.date: 12/05/2018
 ms.keywords: WlxStartApplication, WlxStartApplication function [Security], _gina_wlxstartapplication, security.wlxstartapplication, winwlx/WlxStartApplication
-ms.topic: function
 f1_keywords:
 - winwlx/WlxStartApplication
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1a843346-9e24-4321-971f-07e4eed3fc72
 ms.date: 12/05/2018
 ms.keywords: GetTitleParentalLevels, GetTitleParentalLevels method [DirectShow], GetTitleParentalLevels method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetTitleParentalLevels method, IDvdInfo.GetTitleParentalLevels, IDvdInfo::GetTitleParentalLevels, IDvdInfoGetTitleParentalLevels, dshow.idvdinfo_gettitleparentallevels, strmif/IDvdInfo::GetTitleParentalLevels
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo.GetTitleParentalLevels
 dev_langs:
@@ -123,7 +122,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-Requested action is not supported on this domain (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
+Requested action is not supported on this domain (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
 
 </td>
 </tr>
@@ -148,7 +147,7 @@ Requested action cannot occur at this point in the movie due to the authoring of
 
 
 
-This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

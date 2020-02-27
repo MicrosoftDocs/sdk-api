@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 30d155b1-a46c-46c4-9f8f-fb56dc6bf0a9
 ms.date: 12/05/2018
 ms.keywords: IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], IWICImagingFactory interface [Windows Imaging Component],described, _wic_codec_iwicimagingfactory, wic._wic_codec_iwicimagingfactory, wincodec/IWICImagingFactory
-ms.topic: interface
 f1_keywords:
 - wincodec/IWICImagingFactory
 dev_langs:

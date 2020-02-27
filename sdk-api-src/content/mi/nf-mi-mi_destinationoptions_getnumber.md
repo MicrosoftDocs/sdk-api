@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: ac48c290-631f-427e-a544-ee0258029c42
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_GetNumber, MI_DestinationOptions_GetNumber function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetNumber, wmi_v2.mi_destinationoptions_getnumber
-ms.topic: function
 f1_keywords:
 - mi/MI_DestinationOptions_GetNumber
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 218DEE1C-945A-4CD8-BAD5-12F904FAB2DD
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Internationalization for Windows Applications], Create method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],Create method, IFEDictionary.Create, IFEDictionary::Create, intl.ifedictionary_create, msime/IFEDictionary::Create
-ms.topic: method
 f1_keywords:
 - msime/IFEDictionary.Create
 dev_langs:

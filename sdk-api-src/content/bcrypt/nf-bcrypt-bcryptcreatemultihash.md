@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: AAF91460-AEFB-4E16-91EA-4A60272B3839
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_HASH_REUSABLE_FLAG, BCryptCreateMultiHash, BCryptCreateMultiHash function [Security], bcrypt/BCryptCreateMultiHash, security.bcryptcreatemultihash
-ms.topic: function
 f1_keywords:
 - bcrypt/BCryptCreateMultiHash
 dev_langs:

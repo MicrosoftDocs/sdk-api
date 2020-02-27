@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 2d628d26-a081-49a2-8fc9-88f014d24a4e
 ms.date: 12/05/2018
 ms.keywords: GetAlgNameWStr, GetAlgNameWStr method [Security], GetAlgNameWStr method [Security],IEnroll2 interface, IEnroll2 interface [Security],GetAlgNameWStr method, IEnroll2.GetAlgNameWStr, IEnroll2::GetAlgNameWStr, security.ienroll4_getalgnamewstr, xenroll/IEnroll2::GetAlgNameWStr
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll2.GetAlgNameWStr
 dev_langs:

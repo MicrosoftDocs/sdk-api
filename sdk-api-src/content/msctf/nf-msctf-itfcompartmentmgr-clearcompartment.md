@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 862ec077-b192-412a-b80c-6105f503ed21
 ms.date: 12/05/2018
 ms.keywords: ClearCompartment, ClearCompartment method [Text Services Framework], ClearCompartment method [Text Services Framework],ITfCompartmentMgr interface, ITfCompartmentMgr interface [Text Services Framework],ClearCompartment method, ITfCompartmentMgr.ClearCompartment, ITfCompartmentMgr::ClearCompartment, _tsf_itfcompartmentmgr_clearcompartment_ref, msctf/ITfCompartmentMgr::ClearCompartment, tsf.itfcompartmentmgr_clearcompartment
-ms.topic: method
 f1_keywords:
 - msctf/ITfCompartmentMgr.ClearCompartment
 dev_langs:

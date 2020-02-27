@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 6b063829-3941-42be-bbe2-49b5a71b695a
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMPath interface [XPS Documents and Packaging],SetSnapsToPixels method, IXpsOMPath.SetSnapsToPixels, IXpsOMPath::SetSnapsToPixels, SetSnapsToPixels, SetSnapsToPixels method [XPS Documents and Packaging], SetSnapsToPixels method [XPS Documents and Packaging],IXpsOMPath interface, TRUE, xps.ixpsompath_setsnapstopixels, xpsobjectmodel/IXpsOMPath::SetSnapsToPixels
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.SetSnapsToPixels
 dev_langs:
@@ -109,7 +108,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

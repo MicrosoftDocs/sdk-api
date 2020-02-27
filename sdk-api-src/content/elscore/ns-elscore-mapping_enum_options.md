@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 3c5a0c04-9789-48dc-bc8f-a8b5ff350e27
 ms.date: 12/05/2018
 ms.keywords: '*PMAPPING_ENUM_OPTIONS, MAPPING_ENUM_OPTIONS, MAPPING_ENUM_OPTIONS structure [Internationalization for Windows Applications], PMAPPING_ENUM_OPTIONS, PMAPPING_ENUM_OPTIONS structure pointer [Internationalization for Windows Applications], elscore/MAPPING_ENUM_OPTIONS, elscore/PMAPPING_ENUM_OPTIONS, intl.mappingenumoptions'
-ms.topic: struct
 f1_keywords:
 - elscore/MAPPING_ENUM_OPTIONS
 dev_langs:
@@ -95,7 +94,7 @@ Optional. Pointer to a standard Unicode script name used by services. The applic
 
 Optional. Pointer to a string, following the format of the MIME content types, that identifies the format that the services should be able to interpret when the application passes data. Examples of content types are "text/plain", "text/html", and "text/css". The application can set this member to <b>NULL</b> if the input content type is not a search criterion. 
 
-<div class="alert"><b>Note</b>  In Windows 7, the ELS services support only the content type "text/plain". A content type specification can be found at <a href="http://go.microsoft.com/fwlink/p/?linkid=161570">Text Media Types</a>.</div>
+<div class="alert"><b>Note</b>  In Windows 7, the ELS services support only the content type "text/plain". A content type specification can be found at <a href="https://www.iana.org/assignments/media-types/text">Text Media Types</a>.</div>
 <div> </div>
 
 ### -field pszOutputContentType

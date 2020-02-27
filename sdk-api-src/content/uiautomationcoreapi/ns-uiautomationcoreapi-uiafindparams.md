@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: eb3c16d1-3e64-4f8e-aa03-c72c7a87b67f
 ms.date: 12/05/2018
 ms.keywords: UiaFindParams, UiaFindParams structure [Windows Accessibility], uiauto.uiauto_UiaFindParamsStruct, uiauto_UiaFindParamsStruct, uiautomationcoreapi/UiaFindParams, winauto.uiauto_UiaFindParamsStruct
-ms.topic: struct
 f1_keywords:
 - uiautomationcoreapi/UiaFindParams
 dev_langs:

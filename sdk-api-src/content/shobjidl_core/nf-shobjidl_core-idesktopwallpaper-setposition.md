@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: A4993DB8-9132-43c1-B900-02BA5384B7A8
 ms.date: 12/05/2018
 ms.keywords: IDesktopWallpaper interface [Windows Shell],SetPosition method, IDesktopWallpaper.SetPosition, IDesktopWallpaper::SetPosition, SetPosition, SetPosition method [Windows Shell], SetPosition method [Windows Shell],IDesktopWallpaper interface, shell.IDesktopWallpaper_SetPosition, shobjidl_core/IDesktopWallpaper::SetPosition
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IDesktopWallpaper.SetPosition
 dev_langs:

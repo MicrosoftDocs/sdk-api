@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 77f432e3-7b6a-426f-8673-06dbf3038443
 ms.date: 12/05/2018
 ms.keywords: CreatePackageWriterOnStream, CreatePackageWriterOnStream method [XPS Documents and Packaging], CreatePackageWriterOnStream method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackageWriterOnStream method, IXpsOMObjectFactory.CreatePackageWriterOnStream, IXpsOMObjectFactory::CreatePackageWriterOnStream, TRUE, xps.ixpsomobjectfactory_createpackagewriteronstream, xpsobjectmodel/IXpsOMObjectFactory::CreatePackageWriterOnStream
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreatePackageWriterOnStream
 dev_langs:
@@ -233,7 +232,7 @@ If <i>documentSequencePrintTicket</i> is set to  <b>NULL</b> and the value of <i
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

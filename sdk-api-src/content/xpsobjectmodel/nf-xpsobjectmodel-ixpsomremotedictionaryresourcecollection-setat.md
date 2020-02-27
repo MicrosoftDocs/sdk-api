@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 45e33503-dff9-4c59-8d9a-883ff56a30f3
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMRemoteDictionaryResourceCollection.SetAt, IXpsOMRemoteDictionaryResourceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, xps.ixpsomremotedictionaryresourcecollection_setat, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::SetAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection.SetAt
 dev_langs:
@@ -105,7 +104,7 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

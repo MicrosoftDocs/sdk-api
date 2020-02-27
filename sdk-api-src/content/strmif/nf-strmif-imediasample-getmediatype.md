@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: abccec09-c5a0-4192-9bdf-9240d1b73357
 ms.date: 12/05/2018
 ms.keywords: GetMediaType, GetMediaType method [DirectShow], GetMediaType method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetMediaType method, IMediaSample.GetMediaType, IMediaSample::GetMediaType, IMediaSampleGetMediaType, dshow.imediasample_getmediatype, strmif/IMediaSample::GetMediaType
-ms.topic: method
 f1_keywords:
 - strmif/IMediaSample.GetMediaType
 dev_langs:
@@ -64,7 +63,7 @@ The <code>GetMediaType</code> method retrieves the media type, if the media type
 
 ### -param ppMediaType
 
-Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure. If the media type has not changed from the previous sample, <i>*ppMediaType</i> is set to <b>NULL</b>.
+Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure. If the media type has not changed from the previous sample, <i>*ppMediaType</i> is set to <b>NULL</b>.
 
 
 ## -returns

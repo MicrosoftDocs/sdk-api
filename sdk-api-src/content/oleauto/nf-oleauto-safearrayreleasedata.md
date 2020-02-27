@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: AF3C36A3-2B3A-4159-8183-DB082FBFD215
 ms.date: 12/05/2018
 ms.keywords: SafeArrayReleaseData, SafeArrayReleaseData function [Automation], automat.safearrayreleasedata, oleauto/SafeArrayReleaseData
-ms.topic: function
 f1_keywords:
 - oleauto/SafeArrayReleaseData
 dev_langs:

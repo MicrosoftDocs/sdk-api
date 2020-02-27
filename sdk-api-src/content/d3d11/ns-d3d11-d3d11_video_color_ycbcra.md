@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 242D6032-62E5-4915-B074-6E595A12F912
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_COLOR_YCbCrA, D3D11_VIDEO_COLOR_YCbCrA structure [Media Foundation], d3d11/D3D11_VIDEO_COLOR_YCbCrA, mf.d3d11_video_color_ycbcra
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_VIDEO_COLOR_YCbCrA
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: aa5e997e-60d4-472d-9c81-5359c277bde3
 ms.date: 12/05/2018
 ms.keywords: OleCreateFromData, OleCreateFromData function [COM], _ole_OleCreateFromData, com.olecreatefromdata, ole2/OleCreateFromData
-ms.topic: function
 f1_keywords:
 - ole2/OleCreateFromData
 dev_langs:
@@ -148,7 +147,7 @@ If <b>OleCreateFromData</b> cannot create a package, it tries to create an objec
 
 
 
-If an existing linked object is selected, then copied, it appears on the clipboard as just another embeddable object. Consequently, a paste operation that invokes <b>OleCreateFromData</b> may create a linked object. After the paste operation, the container should call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> function, requesting IID_IOleLink (defined in the OLE headers as the interface identifier for <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolelink">IOleLink</a>), to determine if a linked object was created.
+If an existing linked object is selected, then copied, it appears on the clipboard as just another embeddable object. Consequently, a paste operation that invokes <b>OleCreateFromData</b> may create a linked object. After the paste operation, the container should call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> function, requesting IID_IOleLink (defined in the OLE headers as the interface identifier for <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolelink">IOleLink</a>), to determine if a linked object was created.
 
 
 

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: adff7901-1903-45dd-888f-1b8c5bb05de1
 ms.date: 12/05/2018
 ms.keywords: '*PMAPPING_DATA_RANGE, MAPPING_DATA_RANGE, MAPPING_DATA_RANGE structure [Internationalization for Windows Applications], PMAPPING_DATA_RANGE, PMAPPING_DATA_RANGE structure pointer [Internationalization for Windows Applications], elscore/MAPPING_DATA_RANGE, elscore/PMAPPING_DATA_RANGE, intl.mappingdatarange'
-ms.topic: struct
 f1_keywords:
 - elscore/MAPPING_DATA_RANGE
 dev_langs:
@@ -95,7 +94,7 @@ Size, in bytes, of the data specified in <b>pData</b>. Each service is required 
 
 Optional. Pointer to a string specifying the MIME content type of the data indicated by <b>pData</b>. Examples of content types are "text/plain", "text/html", and "text/css". 
 
-<div class="alert"><b>Note</b>  In Windows 7, the ELS services support only the content type "text/plain". A content type specification can be found at <a href="http://go.microsoft.com/fwlink/p/?linkid=161570">Text Media Types</a>.</div>
+<div class="alert"><b>Note</b>  In Windows 7, the ELS services support only the content type "text/plain". A content type specification can be found at <a href="https://www.iana.org/assignments/media-types/text">Text Media Types</a>.</div>
 <div> </div>
 
 ### -field prgActionIds

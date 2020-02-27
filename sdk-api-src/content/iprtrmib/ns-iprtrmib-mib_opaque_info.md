@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: d364b08b-80b9-4320-b5bb-e1627d3ce889
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_OPAQUE_INFO, MIB_OPAQUE_INFO, MIB_OPAQUE_INFO structure [MIB], PMIB_OPAQUE_INFO, PMIB_OPAQUE_INFO structure pointer [MIB], _mpr_mib_opaque_info, iprtrmib/MIB_OPAQUE_INFO, iprtrmib/PMIB_OPAQUE_INFO, mib.mib_opaque_info, rras.mib_opaque_info'
-ms.topic: struct
 f1_keywords:
 - iprtrmib/MIB_OPAQUE_INFO
 dev_langs:

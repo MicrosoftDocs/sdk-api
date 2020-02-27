@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 469149c7-8c2c-468c-b7cc-6d849de427f1
 ms.date: 12/05/2018
 ms.keywords: ElementProviderFromPoint, ElementProviderFromPoint method [Windows Accessibility], ElementProviderFromPoint method [Windows Accessibility],IRawElementProviderFragmentRoot interface, IRawElementProviderFragmentRoot interface [Windows Accessibility],ElementProviderFromPoint method, IRawElementProviderFragmentRoot.ElementProviderFromPoint, IRawElementProviderFragmentRoot::ElementProviderFromPoint, uiauto.uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint, uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint, uiautomationcore/IRawElementProviderFragmentRoot::ElementProviderFromPoint, winauto.uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint
-ms.topic: method
 f1_keywords:
 - uiautomationcore/IRawElementProviderFragmentRoot.ElementProviderFromPoint
 dev_langs:

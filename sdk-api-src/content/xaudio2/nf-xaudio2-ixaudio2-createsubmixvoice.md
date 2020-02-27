@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CreateSubmixVoice(IXAudio2SubmixVoice@,UINT32,UINT32,UINT32,UINT32,const XAUDIO2_VOICE_SENDS,const XAUDIO2_EFFECT_CHAIN)
 ms.date: 12/05/2018
 ms.keywords: CreateSubmixVoice, CreateSubmixVoice method [XAudio2 Audio Mixing APIs], CreateSubmixVoice method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],CreateSubmixVoice method, IXAudio2.CreateSubmixVoice, IXAudio2::CreateSubmixVoice, xaudio2.ixaudio2_interface_createsubmixvoice, xaudio2/IXAudio2::CreateSubmixVoice
-ms.topic: method
 f1_keywords:
 - xaudio2/IXAudio2.CreateSubmixVoice
 dev_langs:

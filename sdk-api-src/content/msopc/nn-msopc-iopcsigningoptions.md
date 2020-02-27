@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 5fb66c8f-2eb2-48c3-8e6f-04a1c509f6ec
 ms.date: 12/05/2018
 ms.keywords: IOpcSigningOptions, IOpcSigningOptions interface [Open Packaging Conventions], IOpcSigningOptions interface [Open Packaging Conventions],described, msopc/IOpcSigningOptions, opc.iopcsigningoptions
-ms.topic: interface
 f1_keywords:
 - msopc/IOpcSigningOptions
 dev_langs:

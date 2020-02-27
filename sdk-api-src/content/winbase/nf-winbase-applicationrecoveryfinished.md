@@ -7,7 +7,6 @@ tech.root: Recovery
 ms.assetid: 2c9309c5-c36d-4b68-a642-ed087024dba1
 ms.date: 12/05/2018
 ms.keywords: ApplicationRecoveryFinished, ApplicationRecoveryFinished function [Recovery], recovery.applicationrecoveryfinished, winbase/ApplicationRecoveryFinished
-ms.topic: function
 f1_keywords:
 - winbase/ApplicationRecoveryFinished
 dev_langs:

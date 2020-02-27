@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: eec436c4-73a6-43c5-aae2-dcdd37eb5767
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortalLocal, IVdsIscsiPortalLocal interface [VDS], IVdsIscsiPortalLocal interface [VDS],described, base.ivdsiscsiportallocal, vds/IVdsIscsiPortalLocal
-ms.topic: interface
 f1_keywords:
 - vds/IVdsIscsiPortalLocal
 dev_langs:

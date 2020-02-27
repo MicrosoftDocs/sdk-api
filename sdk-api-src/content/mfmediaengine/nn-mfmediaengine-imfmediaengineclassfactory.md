@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 8E4E84A0-BCFC-4CBF-813B-4FEE2B42A83E
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineClassFactory, IMFMediaEngineClassFactory interface [Media Foundation], IMFMediaEngineClassFactory interface [Media Foundation],described, mf.imfmediaengineclassfactory, mfmediaengine/IMFMediaEngineClassFactory
-ms.topic: interface
 f1_keywords:
 - mfmediaengine/IMFMediaEngineClassFactory
 dev_langs:
@@ -114,7 +113,7 @@ To get a pointer to this interface, call <a href="https://docs.microsoft.com/win
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=241429">Media Engine Sample</a>
+<a href="https://code.msdn.microsoft.com/windowsapps/media-engine-playback-ce1c82f0">Media Engine Sample</a>
 
 
 

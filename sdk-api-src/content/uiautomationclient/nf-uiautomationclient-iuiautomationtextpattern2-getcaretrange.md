@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: EDB53C04-142E-4DCC-8DD7-F7DD4BC6A67F
 ms.date: 12/05/2018
 ms.keywords: GetCaretRange, GetCaretRange method [Windows Accessibility], GetCaretRange method [Windows Accessibility],IUIAutomationTextPattern2 interface, IUIAutomationTextPattern2 interface [Windows Accessibility],GetCaretRange method, IUIAutomationTextPattern2.GetCaretRange, IUIAutomationTextPattern2::GetCaretRange, uiautomationclient/IUIAutomationTextPattern2::GetCaretRange, winauto.uiauto_IUIAutomationTextPattern2_GetCaretRange
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationTextPattern2.GetCaretRange
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: 25d1035d-4ece-4f57-88f2-139f39dbdb86
 ms.date: 12/05/2018
 ms.keywords: CreateGPOLink, CreateGPOLink function [Group Policy], _win32_creategpolink, gpedit/CreateGPOLink, policy.creategpolink
-ms.topic: function
 f1_keywords:
 - gpedit/CreateGPOLink
 dev_langs:

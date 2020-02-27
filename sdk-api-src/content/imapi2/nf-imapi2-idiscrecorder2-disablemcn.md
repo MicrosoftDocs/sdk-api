@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 3111863e-64bf-467c-ac73-7a16c9aeb3df
 ms.date: 12/05/2018
 ms.keywords: DisableMcn, DisableMcn method [IMAPI], DisableMcn method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],DisableMcn method, IDiscRecorder2.DisableMcn, IDiscRecorder2::DisableMcn, imapi.idiscrecorder2_disablemcn, imapi2/IDiscRecorder2::DisableMcn
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscRecorder2.DisableMcn
 dev_langs:

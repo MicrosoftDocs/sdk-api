@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 4ae0a584-afa2-4288-82f8-c52c46de390f
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetPageDimensions method, IXpsOMPage.SetPageDimensions, IXpsOMPage::SetPageDimensions, SetPageDimensions, SetPageDimensions method [XPS Documents and Packaging], SetPageDimensions method [XPS Documents and Packaging],IXpsOMPage interface, pageDimensions.height, pageDimensions.width, xps.ixpsompage_setpagedimensions, xpsobjectmodel/IXpsOMPage::SetPageDimensions
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPage.SetPageDimensions
 dev_langs:
@@ -134,7 +133,7 @@ The page size specified in <i>pageDimensions</i> contains one or more  values th
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

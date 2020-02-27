@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 2582913a-bc13-45dc-b0c8-9429945014da
 ms.date: 12/05/2018
 ms.keywords: ApplyHints, ApplyHints method [VDS], ApplyHints method [VDS],IVdsLun interface, IVdsLun interface [VDS],ApplyHints method, IVdsLun.ApplyHints, IVdsLun::ApplyHints, base.ivdslun_applyhints, vds/IVdsLun::ApplyHints, vdshwprv/IVdsLun::ApplyHints
-ms.topic: method
 f1_keywords:
 - vds/IVdsLun.ApplyHints
 dev_langs:

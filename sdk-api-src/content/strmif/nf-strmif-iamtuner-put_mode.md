@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 4c0691fb-e291-43eb-9828-f58474a4334d
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],put_Mode method, IAMTuner.put_Mode, IAMTuner::put_Mode, IAMTunerput_Mode, dshow.iamtuner_put_mode, put_Mode, put_Mode method [DirectShow], put_Mode method [DirectShow],IAMTuner interface, strmif/IAMTuner::put_Mode
-ms.topic: method
 f1_keywords:
 - strmif/IAMTuner.put_Mode
 dev_langs:
@@ -64,7 +63,7 @@ The <code>put_Mode</code> method sets a multifunction tuner to the specified mod
 
 ### -param lMode [in]
 
-Flag indicating which mode to switch to. Possible values are defined in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-amtunermodetype">AMTunerModeType</a> enumeration.
+Flag indicating which mode to switch to. Possible values are defined in the [AMTunerModeType](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-amtunermodetype) enumeration.
 
 You can also set the mode to digital TV if the card supports it. To do this, define AMTUNER_MODE_DTV with a value of 0x0010.
 

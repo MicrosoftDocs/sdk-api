@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 337dc247-9904-457a-a1f3-e1cf29b61126
 ms.date: 12/05/2018
 ms.keywords: WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan constructors [Windows Management Instrumentation], WBEMTimeSpan::WbemTimeSpan, wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan
-ms.topic: method
 f1_keywords:
 - wbemtime/WBEMTimeSpan::WbemTimeSpan
 dev_langs:

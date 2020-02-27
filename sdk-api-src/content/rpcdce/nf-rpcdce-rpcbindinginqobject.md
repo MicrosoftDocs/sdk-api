@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: e2d489f9-d976-4dc3-8a91-dfc04f547165
 ms.date: 12/05/2018
 ms.keywords: RpcBindingInqObject, RpcBindingInqObject function [RPC], _rpc_rpcbindinginqobject, rpc.rpcbindinginqobject, rpcdce/RpcBindingInqObject
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcBindingInqObject
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: F16FA746-2213-4F11-85AD-2CDCB0744618
 ms.date: 12/05/2018
 ms.keywords: D3D12_SO_DECLARATION_ENTRY, D3D12_SO_DECLARATION_ENTRY structure, d3d12/D3D12_SO_DECLARATION_ENTRY, direct3d12.d3d12_so_declaration_entry
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_SO_DECLARATION_ENTRY
 dev_langs:

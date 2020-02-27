@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: ea26aa92-af2a-4764-934d-2a21989a216f
 ms.date: 12/05/2018
 ms.keywords: SetProviderStatusInfoFreeFunc, SetProviderStatusInfoFreeFunc callback, SetProviderStatusInfoFreeFunc callback function, _win32_setproviderstatusinfofreefunc, base.setproviderstatusinfofreefunc, timeprov/SetProviderStatusInfoFreeFunc
-ms.topic: callback
 f1_keywords:
 - timeprov/SetProviderStatusInfoFreeFunc
 dev_langs:

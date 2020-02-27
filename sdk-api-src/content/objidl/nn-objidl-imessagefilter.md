@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: e12d48c0-5033-47a8-bdcd-e94c49857248
 ms.date: 12/05/2018
 ms.keywords: IMessageFilter, IMessageFilter interface [COM], IMessageFilter interface [COM],described, _com_imessagefilter, com.imessagefilter, objidl/IMessageFilter
-ms.topic: interface
 f1_keywords:
 - objidl/IMessageFilter
 dev_langs:

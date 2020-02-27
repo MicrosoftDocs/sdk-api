@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 893090f1-a0b4-46f1-a5d0-1da704ca7aa9
 ms.date: 12/05/2018
 ms.keywords: IEnumConnectionPoints, IEnumConnectionPoints interface [COM], IEnumConnectionPoints interface [COM],described, _com_ienumconnectionpoints, com.ienumconnectionpoints, ocidl/IEnumConnectionPoints
-ms.topic: interface
 f1_keywords:
 - ocidl/IEnumConnectionPoints
 dev_langs:

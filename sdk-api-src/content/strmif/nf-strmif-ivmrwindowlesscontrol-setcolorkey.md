@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9facf4af-ed56-4a94-b351-35ddd7f63e6e
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl interface [DirectShow],SetColorKey method, IVMRWindowlessControl.SetColorKey, IVMRWindowlessControl::SetColorKey, IVMRWindowlessControlSetColorKey, SetColorKey, SetColorKey method [DirectShow], SetColorKey method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_setcolorkey, strmif/IVMRWindowlessControl::SetColorKey
-ms.topic: method
 f1_keywords:
 - strmif/IVMRWindowlessControl.SetColorKey
 dev_langs:

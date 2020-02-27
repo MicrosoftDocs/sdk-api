@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: a60a345e-d723-4275-bc2d-01e13ea57d67
 ms.date: 12/05/2018
 ms.keywords: SymFromInlineContext, SymFromInlineContext function, SymFromInlineContextW, base.symfrominlinecontext, dbghelp/SymFromInlineContext, dbghelp/SymFromInlineContextW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymFromInlineContext
 dev_langs:

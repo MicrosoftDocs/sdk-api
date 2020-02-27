@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 3e809ca9-3038-4d92-bb56-23bd45b6b644
 ms.date: 12/05/2018
 ms.keywords: StgPropertyLengthAsVariant, StgPropertyLengthAsVariant function [Structured Storage], propapi/StgPropertyLengthAsVariant, stg.stgpropertylengthasvariant
-ms.topic: function
 f1_keywords:
 - propapi/StgPropertyLengthAsVariant
 dev_langs:

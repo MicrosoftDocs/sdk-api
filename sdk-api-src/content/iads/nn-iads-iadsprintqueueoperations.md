@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 97495455-a576-4984-beb8-9282073e88c2
 ms.date: 12/05/2018
 ms.keywords: IADsPrintQueueOperations, IADsPrintQueueOperations interface [ADSI], IADsPrintQueueOperations interface [ADSI],described, _ds_iadsprintqueueoperations, adsi.iadsprintqueueoperations, iads/IADsPrintQueueOperations
-ms.topic: interface
 f1_keywords:
 - iads/IADsPrintQueueOperations
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 0085c6a8-1a94-4379-9937-c8d792d130da
 ms.date: 12/05/2018
 ms.keywords: OleSaveToStream, OleSaveToStream function [COM], _ole_OleSaveToStream, com.olesavetostream, ole/OleSaveToStream
-ms.topic: function
 f1_keywords:
 - ole/OleSaveToStream
 dev_langs:

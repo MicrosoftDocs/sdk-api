@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 729e44fa-2080-4ae8-84d6-873329f90e4e
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMNameCollection interface, IXpsOMNameCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMNameCollection.GetAt, IXpsOMNameCollection::GetAt, xps.ixpsomnamecollection_getat, xpsobjectmodel/IXpsOMNameCollection::GetAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMNameCollection.GetAt
 dev_langs:
@@ -101,7 +100,7 @@ This method allocates the memory used by the string that is returned in <i>name<
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

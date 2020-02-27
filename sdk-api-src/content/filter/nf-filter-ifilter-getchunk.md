@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_96gb.htm
 ms.date: 12/05/2018
 ms.keywords: GetChunk, GetChunk method [Indexing Service], GetChunk method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],GetChunk method, IFilter.GetChunk, IFilter::GetChunk, _idxs_IFilter_GetChunk, filter/IFilter::GetChunk, indexsrv.ifilter_getchunk
-ms.topic: method
 f1_keywords:
 - filter/IFilter.GetChunk
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 Positions the filter at the beginning of the next chunk, or at the first chunk if this is the first call to the <b>GetChunk</b> method, and returns a description of the current chunk.
 

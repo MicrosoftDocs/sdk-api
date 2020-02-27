@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ca0a0b3b-14a8-4456-85a0-51df559d04b8
 ms.date: 12/05/2018
 ms.keywords: GetRecordRunningStatus, GetRecordRunningStatus method [Microsoft TV Technologies], GetRecordRunningStatus method [Microsoft TV Technologies],IDVB_RST interface, IDVB_RST interface [Microsoft TV Technologies],GetRecordRunningStatus method, IDVB_RST.GetRecordRunningStatus, IDVB_RST::GetRecordRunningStatus, IDVB_RSTGetRecordRunningStatus, dvbsiparser/IDVB_RST::GetRecordRunningStatus, mstv.idvb_rst_getrecordrunningstatus
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_RST.GetRecordRunningStatus
 dev_langs:

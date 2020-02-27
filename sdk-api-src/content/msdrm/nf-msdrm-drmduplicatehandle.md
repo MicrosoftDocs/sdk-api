@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: 967519da-0471-4615-aec0-b30717239dd5
 ms.date: 12/05/2018
 ms.keywords: DRMDuplicateHandle, DRMDuplicateHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDuplicateHandle, rm.drmduplicatehandle
-ms.topic: function
 f1_keywords:
 - msdrm/DRMDuplicateHandle
 dev_langs:

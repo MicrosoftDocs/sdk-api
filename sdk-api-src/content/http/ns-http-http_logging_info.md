@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 12e12f83-c36a-4b4e-8890-50566cf00c2b
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_LOGGING_INFO, *PHTTP_LOGGING_INFO structure [HTTP], HTTP_LOGGING_FLAG_LOCAL_TIME_ROLLOVER, HTTP_LOGGING_FLAG_LOG_ERRORS_ONLY, HTTP_LOGGING_FLAG_LOG_SUCCESS_ONLY, HTTP_LOGGING_FLAG_USE_UTF8_CONVERSION, HTTP_LOGGING_INFO, HTTP_LOGGING_INFO structure [HTTP], HttpLoggingRolloverDaily, HttpLoggingRolloverHourly, HttpLoggingRolloverMonthly, HttpLoggingRolloverSize, HttpLoggingRolloverWeekly, HttpLoggingTypeIIS, HttpLoggingTypeNCSA, HttpLoggingTypeRaw, HttpLoggingTypeW3C, http.http_logging_info, http/*PHTTP_LOGGING_INFO, http/HTTP_LOGGING_INFO'
-ms.topic: struct
 f1_keywords:
 - http/HTTP_LOGGING_INFO
 dev_langs:
@@ -411,7 +410,7 @@ The letters yy, mm, ww, dd, hh, and nn in the table represent the following digi
 
 Please note that in the HTTP version 2.0 API, the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a> and <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a> have been revisioned to allow applications to pass an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_log_fields_data">HTTP_LOG_FIELDS_DATA</a> structure so the response can be logged. Setting the <b>HttpServerLoggingProperty</b>  property on a server session or a URL group does not mean that HTTP responses are logged. Logging on the URL group or the server session will not take place unless the calls to <b>HttpSendResponseEntityBody</b> and <b>HttpSendHttpResponse</b> include an optional <b>HTTP_LOG_FIELDS_DATA</b> structure. For more information, see the <b>HTTP_LOG_FIELDS_DATA</b> topic.
 
-For information on the log file formats, see the <a href="Http://go.microsoft.com/fwlink/p/?linkid=83889">IIS Log File Formats</a> topic.
+For information on the log file formats, see the <a href="https://msdn.microsoft.com/library/ms525807.aspx">IIS Log File Formats</a> topic.
 
 
 

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 5c1d8179-99e6-4335-8777-56b6873f746b
 ms.date: 12/05/2018
 ms.keywords: GetStrokeThickness, GetStrokeThickness method [XPS Documents and Packaging], GetStrokeThickness method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeThickness method, IXpsOMPath.GetStrokeThickness, IXpsOMPath::GetStrokeThickness, xps.ixpsompath_getstrokethickness, xpsobjectmodel/IXpsOMPath::GetStrokeThickness
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.GetStrokeThickness
 dev_langs:
@@ -122,7 +121,7 @@ The stroke is drawn on top of the boundary of the path's geometry, such that one
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

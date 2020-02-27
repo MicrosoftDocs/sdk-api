@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 9dd56891-5f2f-4b0e-9f70-fd75cb9bbd43
 ms.date: 12/05/2018
 ms.keywords: IWbemConfigureRefresher, IWbemConfigureRefresher interface [Windows Management Instrumentation], IWbemConfigureRefresher interface [Windows Management Instrumentation],described, _hmm_iwbemconfigurerefresher, wbemcli/IWbemConfigureRefresher, wmi.iwbemconfigurerefresher
-ms.topic: interface
 f1_keywords:
 - wbemcli/IWbemConfigureRefresher
 dev_langs:
@@ -57,7 +56,7 @@ The
 Users and providers should never implement this interface. The implementation provided by WMI is the only one that is supported.
 
 By providing a native implementation of this interface, WMI allows client code to easily configure refreshers. You can access the 
-<b>IWbemConfigureRefresher</b> interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on <b>IID_IWbemConfigureRefresher</b> on the object returned by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> on <b>CLSID_WbemRefresher</b>.
+<b>IWbemConfigureRefresher</b> interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on <b>IID_IWbemConfigureRefresher</b> on the object returned by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> on <b>CLSID_WbemRefresher</b>.
 
 
 ## -inheritance

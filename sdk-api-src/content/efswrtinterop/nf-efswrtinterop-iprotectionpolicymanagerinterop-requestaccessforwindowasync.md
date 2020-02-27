@@ -7,7 +7,6 @@ tech.root: EDP
 ms.assetid: F32A24C6-0913-4EB9-8462-6AA734429D7E
 ms.date: 12/05/2018
 ms.keywords: EDP.iprotectionpolicymanager_requestaccessforwindowasync, IProtectionPolicyManagerInterop interface,RequestAccessForWindowAsync method, IProtectionPolicyManagerInterop.RequestAccessForWindowAsync, IProtectionPolicyManagerInterop::RequestAccessForWindowAsync, RequestAccessForWindowAsync, RequestAccessForWindowAsync method, RequestAccessForWindowAsync method,IProtectionPolicyManagerInterop interface, efswrtinterop/IProtectionPolicyManagerInterop::RequestAccessForWindowAsync
-ms.topic: method
 f1_keywords:
 - efswrtinterop/IProtectionPolicyManagerInterop.RequestAccessForWindowAsync
 dev_langs:

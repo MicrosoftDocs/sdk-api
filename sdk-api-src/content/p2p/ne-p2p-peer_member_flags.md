@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 96a8e4ae-dce6-4f07-ab22-71da347ef347
 ms.date: 12/05/2018
 ms.keywords: PEER_MEMBER_FLAGS, PEER_MEMBER_FLAGS enumeration [Peer Networking], PEER_MEMBER_PRESENT, p2p.peer_member_flags, p2p/PEER_MEMBER_FLAGS, p2p/PEER_MEMBER_PRESENT
-ms.topic: enum
 f1_keywords:
 - p2p/PEER_MEMBER_FLAGS
 dev_langs:

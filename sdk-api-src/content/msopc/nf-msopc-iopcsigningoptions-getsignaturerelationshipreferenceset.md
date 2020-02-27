@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: f89327d2-63ff-4b14-bde0-8fdf65f73e37
 ms.date: 12/05/2018
 ms.keywords: GetSignatureRelationshipReferenceSet, GetSignatureRelationshipReferenceSet method [Open Packaging Conventions], GetSignatureRelationshipReferenceSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignatureRelationshipReferenceSet method, IOpcSigningOptions.GetSignatureRelationshipReferenceSet, IOpcSigningOptions::GetSignatureRelationshipReferenceSet, msopc/IOpcSigningOptions::GetSignatureRelationshipReferenceSet, opc.iopcsigningoptions_getsignaturerelationshipreferenceset
-ms.topic: method
 f1_keywords:
 - msopc/IOpcSigningOptions.GetSignatureRelationshipReferenceSet
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: f3f8fe00-d6f7-4d59-a4e7-6aef7f507e1a
 ms.date: 12/05/2018
 ms.keywords: NETSETUP_PROVISION_ONLINE_CALLER, NetRequestOfflineDomainJoin, NetRequestOfflineDomainJoin function [Network Management], lmjoin/NetRequestOfflineDomainJoin, netmgmt.netrequestofflinedomainjoin
-ms.topic: function
 f1_keywords:
 - lmjoin/NetRequestOfflineDomainJoin
 dev_langs:
@@ -201,7 +200,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-net
 
 The opaque blob returned in the  <i>pProvisionBinData</i> parameter by the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netprovisioncomputeraccount">NetProvisionComputerAccount</a> function is versioned to allow interoperability and serviceability scenarios between different versions of Windows (joining client, provisioning machine, and domain controller). The offline join scenario currently does not limit the lifetime of the blob returned by the <b>NetProvisionComputerAccount</b> function.   
 
-For more information on offline domain join operations, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=152786">Offline Domain Join Step-by-Step Guide</a>.
+For more information on offline domain join operations, see the <a href="https://technet.microsoft.com/library/dd392267.aspx">Offline Domain Join Step-by-Step Guide</a>.
 
 
 
@@ -245,7 +244,7 @@ For more information on offline domain join operations, see the <a href="http://
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=152786">Offline Domain Join Step-by-Step Guide</a>
+<a href="https://technet.microsoft.com/library/dd392267.aspx">Offline Domain Join Step-by-Step Guide</a>
  
 
  

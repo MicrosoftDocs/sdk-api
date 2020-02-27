@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 25b16107-b2ec-4e16-a596-10708dbc639d
 ms.date: 12/05/2018
 ms.keywords: _win32_capEditCopy, capEditCopy, capEditCopy macro [Windows Multimedia], multimedia.capeditcopy, vfw/capEditCopy
-ms.topic: macro
 f1_keywords:
 - vfw/capEditCopy
 dev_langs:

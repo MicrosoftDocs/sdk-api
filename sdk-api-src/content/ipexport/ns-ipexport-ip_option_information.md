@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 4341d0a4-65d8-4677-b208-2cde5ff36f14
 ms.date: 12/05/2018
 ms.keywords: '*PIP_OPTION_INFORMATION, IP_FLAG_DF, IP_FLAG_REVERSE, IP_OPTION_INFORMATION, IP_OPTION_INFORMATION structure [IP Helper], PIP_OPTION_INFORMATION, PIP_OPTION_INFORMATION structure pointer [IP Helper], _iphlp_ip_option_information, ipexport/IP_OPTION_INFORMATION, ipexport/PIP_OPTION_INFORMATION, iphlp.ip_option_information'
-ms.topic: struct
 f1_keywords:
 - ipexport/IP_OPTION_INFORMATION
 dev_langs:
@@ -141,11 +140,11 @@ The values in the <b>TTL</b>, <b>TOS</b> and <b>Flags</b>  members are carried i
 The bytes in the <b>OptionsData</b>  member are carried in the options area that follows the standard IP header. 
 
 With the exception of source route options for IPv4, the options data must be in the format to be transmitted on the wire as specified in 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84067">RFC 791</a>. An IPv4 source route option should contain the full route, first hop through final destination, in the route data. The first hop is pulled out of the data and the option is reformatted accordingly. Otherwise, the route option should be formatted as specified in 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84067">RFC 791</a>.
+<a href="https://www.ietf.org/rfc/rfc791.txt">RFC 791</a>. An IPv4 source route option should contain the full route, first hop through final destination, in the route data. The first hop is pulled out of the data and the option is reformatted accordingly. Otherwise, the route option should be formatted as specified in 
+<a href="https://www.ietf.org/rfc/rfc791.txt">RFC 791</a>.
 
 For use with IPv6, the options data must be in the format to be transmitted on the wire as specified in 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84043">RFC 2460</a>.
+<a href="https://www.ietf.org/rfc/rfc2460.txt">RFC 2460</a>.
 
 The <b>IP_OPTION_INFORMATION</b> structure is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-icmp_echo_reply">ICMP_ECHO_REPLY</a> structure used by the <a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho">IcmpSendEcho</a>, <a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho2">IcmpSendEcho2</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmp6sendecho2">Icmp6SendEcho2</a> functions.
 

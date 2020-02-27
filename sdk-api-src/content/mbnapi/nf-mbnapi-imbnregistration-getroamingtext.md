@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: a2911387-7497-43c5-bc1c-db093f31186c
 ms.date: 12/05/2018
 ms.keywords: GetRoamingText, GetRoamingText method [Microsoft Broadband Networks], GetRoamingText method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetRoamingText method, IMbnRegistration.GetRoamingText, IMbnRegistration::GetRoamingText, mbn.imbnregistration_getroamingtext, mbnapi/IMbnRegistration::GetRoamingText
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnRegistration.GetRoamingText
 dev_langs:
@@ -62,7 +61,7 @@ Gets the roaming text describing the roaming provider.
 
 ### -param roamingText [out]
 
-Pointer to a string that contains additional information about a network with which the device is roaming. The maximum length is <b>MBN_ROAMTEXT_LEN</b> characters.  The string is filled only when the method returns <b>S_OK</b> for success.  Upon success, the calling application must free the allocated memory by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
+Pointer to a string that contains additional information about a network with which the device is roaming. The maximum length is <b>MBN_ROAMTEXT_LEN</b> characters.  The string is filled only when the method returns <b>S_OK</b> for success.  Upon success, the calling application must free the allocated memory by calling <a href="https://msdn.microsoft.com/library/ms221481.aspx">SysFreeString</a>.
 
 
 ## -returns

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: a355dc8d-73f1-476b-a06f-24f011af4ace
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_SETUP_PHASE_SEVERITY, CLUSTER_SETUP_PHASE_SEVERITY enumeration [Failover Cluster], ClusterSetupPhaseFatal, ClusterSetupPhaseInformational, ClusterSetupPhaseWarning, clusapi/CLUSTER_SETUP_PHASE_SEVERITY, clusapi/ClusterSetupPhaseFatal, clusapi/ClusterSetupPhaseInformational, clusapi/ClusterSetupPhaseWarning, mscs.cluster_setup_phase_severity
-ms.topic: enum
 f1_keywords:
 - clusapi/CLUSTER_SETUP_PHASE_SEVERITY
 dev_langs:

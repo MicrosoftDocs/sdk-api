@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: 54d8572a-40a2-49d0-a8bf-2161b63eee42
 ms.date: 12/05/2018
 ms.keywords: ISensorCollection, ISensorCollection interface [WinSensors], ISensorCollection interface [WinSensors],described, sensorsapi/ISensorCollection, winsensors.isensorcollection
-ms.topic: interface
 f1_keywords:
 - sensorsapi/ISensorCollection
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 9bca99e9-2dd7-4e79-ab6a-ad0e821dd9bf
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaControl interface [Files],InvalidateSidNameCache method, IDiskQuotaControl.InvalidateSidNameCache, IDiskQuotaControl::InvalidateSidNameCache, InvalidateSidNameCache, InvalidateSidNameCache method [Files], InvalidateSidNameCache method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_invalidatesidnamecache, base.idiskquotacontrol_invalidatesidnamecache, dskquota/IDiskQuotaControl::InvalidateSidNameCache, fs.idiskquotacontrol_invalidatesidnamecache
-ms.topic: method
 f1_keywords:
 - dskquota/IDiskQuotaControl.InvalidateSidNameCache
 dev_langs:

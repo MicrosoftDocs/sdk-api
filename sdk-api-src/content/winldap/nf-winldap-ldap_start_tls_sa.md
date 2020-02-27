@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: faca9324-5a85-47b0-9d6a-c62ec3c1ee80
 ms.date: 12/05/2018
 ms.keywords: ldap.ldap_start_tls_s, ldap_start_tls_s, ldap_start_tls_s function [LDAP], ldap_start_tls_sA, ldap_start_tls_sW, winldap/ldap_start_tls_s, winldap/ldap_start_tls_sA, winldap/ldap_start_tls_sW
-ms.topic: function
 f1_keywords:
 - winldap/ldap_start_tls_s
 dev_langs:
@@ -72,7 +71,7 @@ Optional. A pointer to a <b>ULONG</b> that may contain a server error code. This
 
 ### -param result [out]
 
-Optional. A pointer to a pointer for an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmsg">LDAPMessage</a>  structure that may contain a server referral message.  Pass in <b>NULL</b> if you do not wish to use it.
+Optional. A pointer to a pointer for an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>  structure that may contain a server referral message.  Pass in <b>NULL</b> if you do not wish to use it.
 
 
 ### -param ServerControls [in]

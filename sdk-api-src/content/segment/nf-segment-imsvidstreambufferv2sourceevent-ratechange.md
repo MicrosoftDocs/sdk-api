@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 32af2323-0018-4e77-bf2e-9ff95e59f91e
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],RateChange method, IMSVidStreamBufferV2SourceEvent.RateChange, IMSVidStreamBufferV2SourceEvent::RateChange, RateChange, RateChange method [Microsoft TV Technologies], RateChange method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, mstv.imsvidstreambufferv2sourceevent_ratechange, segment/IMSVidStreamBufferV2SourceEvent::RateChange
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferV2SourceEvent.RateChange
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 54e462a8-bb65-43e2-acf1-f0d64db2bf24
 ms.date: 12/05/2018
 ms.keywords: GetRange, GetRange method [DirectShow], GetRange method [DirectShow],IAMVideoProcAmp interface, IAMVideoProcAmp interface [DirectShow],GetRange method, IAMVideoProcAmp.GetRange, IAMVideoProcAmp::GetRange, IAMVideoProcAmpGetRange, dshow.iamvideoprocamp_getrange, strmif/IAMVideoProcAmp::GetRange
-ms.topic: method
 f1_keywords:
 - strmif/IAMVideoProcAmp.GetRange
 dev_langs:
@@ -64,7 +63,7 @@ The <code>GetRange</code> method gets the range and default value of a specified
 
 ### -param Property [in]
 
-Specifies the property to query, as a value from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-videoprocampproperty">VideoProcAmpProperty</a> enumeration.
+Specifies the property to query, as a value from the [VideoProcAmpProperty](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videoprocampproperty) enumeration.
 
 
 ### -param pMin [out]
@@ -93,7 +92,7 @@ Receives the default value of the property.
 
 ### -param pCapsFlags [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-videoprocampflags">VideoProcAmpFlags</a> enumeration, indicating whether the property is controlled automatically or manually.
+Receives a member of the [VideoProcAmpFlags](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videoprocampflags) enumeration, indicating whether the property is controlled automatically or manually.
           
 
 

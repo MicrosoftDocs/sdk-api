@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 0e5fbd9e-1669-4e0e-90b6-1542cc6d2ae4
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_AddCertificate method, IWMSecureChannel.WMSC_AddCertificate, IWMSecureChannel::WMSC_AddCertificate, WMSC_AddCertificate, WMSC_AddCertificate method [windows Media Format], WMSC_AddCertificate method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_addcertificate, wmsecure/IWMSecureChannel::WMSC_AddCertificate
-ms.topic: method
 f1_keywords:
 - wmsecure/IWMSecureChannel.WMSC_AddCertificate
 dev_langs:
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>WMSC_AddCertificate</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>WMSC_AddCertificate</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 The <b>WMSC_AddCertificate</b> method adds certificates that this object can present to other secure channel objects.

@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 888945a8-5c07-440a-ad2d-2126342facda
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverGetScopeStatistics, DhcpV4FailoverGetScopeStatistics function [DHCP], dhcp.dhcpv4failovergetscopestatistics, dhcpsapi/DhcpV4FailoverGetScopeStatistics
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4FailoverGetScopeStatistics
 dev_langs:

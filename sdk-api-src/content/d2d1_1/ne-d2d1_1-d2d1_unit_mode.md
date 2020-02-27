@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 1ba11761-f3e9-4996-8494-384db5bddc99
 ms.date: 12/05/2018
 ms.keywords: D2D1_UNIT_MODE, D2D1_UNIT_MODE enumeration [Direct2D], D2D1_UNIT_MODE_DIPS, D2D1_UNIT_MODE_PIXELS, d2d1_1/D2D1_UNIT_MODE, d2d1_1/D2D1_UNIT_MODE_DIPS, d2d1_1/D2D1_UNIT_MODE_PIXELS, direct2d.__d2d1_unit_mode
-ms.topic: enum
 f1_keywords:
 - d2d1_1/D2D1_UNIT_MODE
 dev_langs:

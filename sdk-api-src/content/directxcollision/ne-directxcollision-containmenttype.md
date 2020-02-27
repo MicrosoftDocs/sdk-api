@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxcollision.ContainmentType
 ms.date: 12/05/2018
 ms.keywords: CONTAINS, ContainmentType, ContainmentType enumeration [DirectX Math Support APIs], DISJOINT, INTERSECTS, directxcollision/CONTAINS, directxcollision/ContainmentType, directxcollision/DISJOINT, directxcollision/INTERSECTS, dxmath.containmenttype
-ms.topic: enum
 f1_keywords:
 - directxcollision/ContainmentType
 dev_langs:

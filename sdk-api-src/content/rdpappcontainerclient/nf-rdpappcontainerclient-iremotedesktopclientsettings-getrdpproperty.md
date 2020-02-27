@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: e172098a-d3c1-46cc-8c46-cdf14c46b43a
 ms.date: 12/05/2018
 ms.keywords: GetRdpProperty, GetRdpProperty method [Remote Desktop Services], GetRdpProperty method [Remote Desktop Services],IRemoteDesktopClientSettings interface, IRemoteDesktopClientSettings interface [Remote Desktop Services],GetRdpProperty method, IRemoteDesktopClientSettings.GetRdpProperty, IRemoteDesktopClientSettings::GetRdpProperty, rdpappcontainerclient/IRemoteDesktopClientSettings::GetRdpProperty, termserv.iremotedesktopclientsettings_getrdpproperty
-ms.topic: method
 f1_keywords:
 - rdpappcontainerclient/IRemoteDesktopClientSettings.GetRdpProperty
 dev_langs:

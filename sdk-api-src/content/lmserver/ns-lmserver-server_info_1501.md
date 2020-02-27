@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: ed0325ed-1e4b-465b-931c-ff3a4bb3b103
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVER_INFO_1501, *PSERVER_INFO_1501, LPSERVER_INFO_1501, LPSERVER_INFO_1501 structure pointer [Network Management], PSERVER_INFO_1501, PSERVER_INFO_1501 structure pointer [Network Management], SERVER_INFO_1501, SERVER_INFO_1501 structure [Network Management], _win32_server_info_1501_str, lmserver/LPSERVER_INFO_1501, lmserver/PSERVER_INFO_1501, lmserver/SERVER_INFO_1501, netmgmt.server_info_1501_str'
-ms.topic: struct
 f1_keywords:
 - lmserver/SERVER_INFO_1501
 dev_langs:

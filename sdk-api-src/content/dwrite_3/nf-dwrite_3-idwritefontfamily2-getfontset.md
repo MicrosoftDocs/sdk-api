@@ -5,7 +5,6 @@ description: Retrieves the underlying font set used by this family.
 tech.root: DirectWrite
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontFamily2 interface [Direct Write],GetFontSet method, IDWriteFontFamily2.GetFontSet, IDWriteFontFamily2::GetFontSet, GetFontSet, GetFontSet method [Direct Write], GetFontSet method [Direct Write],IDWriteFontFamily2 interface, directwrite.idwritefontfamily2_getfontset, dwrite_3/IDWriteFontFamily2::GetFontSet
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontFamily2.GetFontSet
 dev_langs:

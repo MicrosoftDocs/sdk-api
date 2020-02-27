@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: df3ea127-1f47-4173-ad2c-0a7af4c8454c
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetModWidthSpace method, ITextFont2.SetModWidthSpace, ITextFont2::SetModWidthSpace, SetModWidthSpace, SetModWidthSpace method [Windows Controls], SetModWidthSpace method [Windows Controls],ITextFont2 interface, controls.itextfont2_setmodwidthspace, tom/ITextFont2::SetModWidthSpace
-ms.topic: method
 f1_keywords:
 - tom/ITextFont2.SetModWidthSpace
 dev_langs:

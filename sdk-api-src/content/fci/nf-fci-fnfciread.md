@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: dd4e97ff-efbc-462b-b954-bc3260fa1513
 ms.date: 12/05/2018
 ms.keywords: FNFCIREAD, FNFCIREAD macro [Windows API], fci/FNFCIREAD, winprog.fnfciread
-ms.topic: macro
 f1_keywords:
 - fci/FNFCIREAD
 dev_langs:
@@ -87,7 +86,7 @@ Pointer to an application-defined value
 
 
 
-The function accepts parameters similar to<a href="http://go.microsoft.com/fwlink/p/?linkid=196544"> _read</a> with the addition to <i>err</i> and <i>pv</i>.
+The function accepts parameters similar to<a href="https://msdn.microsoft.com/library/wyssk1bs(VS.80).aspx"> _read</a> with the addition to <i>err</i> and <i>pv</i>.
 
 
 #### Examples

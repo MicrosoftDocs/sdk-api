@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: d0eac0da-2f41-40c4-b756-31bc22752c17
 ms.date: 12/05/2018
 ms.keywords: CoUnmarshalInterface, CoUnmarshalInterface function [COM], _com_CoUnmarshalInterface, com.counmarshalinterface, combaseapi/CoUnmarshalInterface
-ms.topic: function
 f1_keywords:
 - combaseapi/CoUnmarshalInterface
 dev_langs:
@@ -151,7 +150,7 @@ An error occurred reading the registration database.
 </dl>
 </td>
 <td width="60%">
-The final <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> of this function for the requested interface returned E_NOINTERFACE.
+The final <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> of this function for the requested interface returned E_NOINTERFACE.
 
 </td>
 </tr>
@@ -165,7 +164,7 @@ The final <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unkn
 
 
 
-<div class="alert"><b>Important</b>  <p class="note">Security Note: Calling this method with untrusted data is a security risk. Call this method only with trusted data. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=798821">Untrusted Data Security Risks</a>.
+<div class="alert"><b>Important</b>  <p class="note">Security Note: Calling this method with untrusted data is a security risk. Call this method only with trusted data. For more information, see <a href="https://docs.microsoft.com/">Untrusted Data Security Risks</a>.
 
 </div>
 <div> </div>

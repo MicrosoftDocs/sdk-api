@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: 20b82813-4c6e-4be8-969f-e6ed1fd5d008
 ms.date: 12/05/2018
 ms.keywords: SLSetGenuineInformation, SLSetGenuineInformation function [Security], SL_BRT_COMMIT, SL_BRT_DATA, security.slsetgenuineinformation, slpublic/SLSetGenuineInformation
-ms.topic: function
 f1_keywords:
 - slpublic/SLSetGenuineInformation
 dev_langs:

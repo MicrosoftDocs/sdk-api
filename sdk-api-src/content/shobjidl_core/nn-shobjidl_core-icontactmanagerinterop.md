@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8E854BA3-C29E-4911-9D6E-915D1959244C
 ms.date: 12/05/2018
 ms.keywords: IContactManagerInterop, IContactManagerInterop interface [Windows Shell], IContactManagerInterop interface [Windows Shell],described, shell.IContactManagerInterop, shobjidl_core/IContactManagerInterop
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IContactManagerInterop
 dev_langs:

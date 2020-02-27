@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 82a57ca8-edc7-4248-92d1-8092f6dce4f8
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],Sign method, IXpsSignatureManager.Sign, IXpsSignatureManager::Sign, Sign, Sign method [XPS Documents and Packaging], Sign method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_sign, xpsdigitalsignature/IXpsSignatureManager::Sign
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureManager.Sign
 dev_langs:
@@ -178,7 +177,7 @@ This method will succeed  even if the new signature breaks existing signatures.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

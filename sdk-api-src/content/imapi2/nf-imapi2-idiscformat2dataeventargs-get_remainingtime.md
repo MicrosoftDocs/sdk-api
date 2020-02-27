@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 1fc41d22-c85b-47dc-8d09-a8d135cfe95e
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2DataEventArgs interface [IMAPI],get_RemainingTime method, IDiscFormat2DataEventArgs.get_RemainingTime, IDiscFormat2DataEventArgs::get_RemainingTime, get_RemainingTime, get_RemainingTime method [IMAPI], get_RemainingTime method [IMAPI],IDiscFormat2DataEventArgs interface, imapi.idiscformat2dataeventargs_get_remainingtime, imapi2/IDiscFormat2DataEventArgs::get_RemainingTime
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2DataEventArgs.get_RemainingTime
 dev_langs:

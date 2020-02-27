@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: e3829739-dd10-4886-8048-cd1b1b712d56
 ms.date: 12/05/2018
 ms.keywords: '*POCSP_RESPONSE_INFO, OCSP_INTERNAL_ERROR_RESPONSE, OCSP_MALFORMED_REQUEST_RESPONSE, OCSP_RESPONSE_INFO, OCSP_RESPONSE_INFO structure [Security], OCSP_SIG_REQUIRED_RESPONSE, OCSP_SUCCESSFUL_RESPONSE, OCSP_TRY_LATER_RESPONSE, OCSP_UNAUTHORIZED_RESPONSE, POCSP_RESPONSE_INFO, POCSP_RESPONSE_INFO structure pointer [Security], security.ocsp_response_info, szOID_PKIX_OCSP_BASIC_SIGNED_RESPONSE, wincrypt/OCSP_RESPONSE_INFO, wincrypt/POCSP_RESPONSE_INFO'
-ms.topic: struct
 f1_keywords:
 - wincrypt/OCSP_RESPONSE_INFO
 dev_langs:
@@ -204,7 +203,7 @@ OCSP applications can encode or decode this structure by using <b>X509_ASN_ENCOD
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=91156">RFC 2560  Online Certificate Status Protocol</a>
+<a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560  Online Certificate Status Protocol</a>
  
 
  

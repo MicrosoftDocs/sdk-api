@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asshader.htm
 ms.date: 12/05/2018
 ms.keywords: AsShader, AsShader method [Direct3D 10], AsShader method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsShader method, ID3D10EffectVariable.AsShader, ID3D10EffectVariable::AsShader, cfb94875-697a-f808-87e1-768dc74cc207, d3d10effect/ID3D10EffectVariable::AsShader, direct3d10.id3d10effectvariable_asshader
-ms.topic: method
 f1_keywords:
 - d3d10effect/ID3D10EffectVariable.AsShader
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tracelogging
 ms.assetid: 5D794C46-95B2-4111-AFB8-CE488B4D1A42
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingOptionGroup, TraceLoggingOptionGroup macro, tracelogging.traceloggingoptiongroup, traceloggingprovider/TraceLoggingOptionGroup
-ms.topic: macro
 f1_keywords:
 - traceloggingprovider/TraceLoggingOptionGroup
 dev_langs:

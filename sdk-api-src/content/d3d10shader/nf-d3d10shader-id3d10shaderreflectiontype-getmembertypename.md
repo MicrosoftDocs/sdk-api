@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflectiontype_getmembertypename.htm
 ms.date: 12/05/2018
 ms.keywords: 89050245-f34f-0590-0296-abc016ae8b42, GetMemberTypeName, GetMemberTypeName method [Direct3D 10], GetMemberTypeName method [Direct3D 10],ID3D10ShaderReflectionType interface, ID3D10ShaderReflectionType interface [Direct3D 10],GetMemberTypeName method, ID3D10ShaderReflectionType.GetMemberTypeName, ID3D10ShaderReflectionType::GetMemberTypeName, d3d10shader/ID3D10ShaderReflectionType::GetMemberTypeName, direct3d10.id3d10shaderreflectiontype_getmembertypename
-ms.topic: method
 f1_keywords:
 - d3d10shader/ID3D10ShaderReflectionType.GetMemberTypeName
 dev_langs:
@@ -44,45 +43,25 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# ID3D10ShaderReflectionType::GetMemberTypeName
-
-
 ## -description
 
-
-Get a shader-reflection-variable type.
-
+Retrieves a shader-reflection-variable name given the index to that member of the struct type.
 
 ## -parameters
 
-
-
-
 ### -param Index [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
 
-Zero-based index.
-
+A zero-based index to a member of the struct type.
 
 ## -returns
 
+Type: **[LPCSTR](/windows/desktop/winprog/windows-data-types)**
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
-
-The variable type.
-
-
-
+The member name in the form of a stringified value of the [D3D_SHADER_VARIABLE_TYPE](/windows/win32/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_type) enumeration.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflectiontype">ID3D10ShaderReflectionType Interface</a>
- 
-
- 
-
+* [ID3D10ShaderReflectionType](/windows/win32/api/d3d10shader/nn-d3d10shader-id3d10shaderreflectiontype) interface
+* [D3D_SHADER_VARIABLE_TYPE](/windows/win32/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_type) enumeration

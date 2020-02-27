@@ -1,9 +1,10 @@
 ---
 UID: TP:webdav
+title: WebDAV
 ms.assetid: 5597accb-800b-3fc7-8b64-addde3fd100d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # WebDAV

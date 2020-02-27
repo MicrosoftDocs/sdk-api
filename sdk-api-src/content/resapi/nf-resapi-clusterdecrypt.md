@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: F851BA13-3261-462C-98EA-402F77A39A14
 ms.date: 12/05/2018
 ms.keywords: ClusterDecrypt, ClusterDecrypt function [Failover Cluster], PCLUSTER_DECRYPT, PCLUSTER_DECRYPT function [Failover Cluster], mscs.clusterdecrypt, resapi/ClusterDecrypt, resapi/PCLUSTER_DECRYPT
-ms.topic: function
 f1_keywords:
 - resapi/ClusterDecrypt
 dev_langs:

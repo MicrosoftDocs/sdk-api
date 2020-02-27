@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: fffcae88-8df0-487f-9f6d-bc3560283ef1
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_GROUP_ENUM_CONTAINS, CLUSTER_GROUP_ENUM_NODES, ClusterGroupEnum, ClusterGroupEnum function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_ENUM, PCLUSAPI_CLUSTER_GROUP_ENUM function [Failover Cluster], _wolf_clustergroupenum, clusapi/ClusterGroupEnum, clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM, mscs.clustergroupenum
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterGroupEnum
 dev_langs:
@@ -63,7 +62,7 @@ Enumerates the <a href="https://docs.microsoft.com/previous-versions/windows/des
 ### -param hGroupEnum [in]
 
 A group enumeration handle returned by the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pclusapi_cluster_group_open_enum">ClusterGroupOpenEnum</a> function.
+       <a href="/windows/win32/api/clusapi/nf-clusapi-clustergroupopenenum">ClusterGroupOpenEnum</a> function.
 
 
 ### -param dwIndex [in]
@@ -199,7 +198,7 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pclusapi_cluster_group_open_enum">ClusterGroupOpenEnum</a>
+<a href="/windows/win32/api/clusapi/nf-clusapi-clustergroupopenenum">ClusterGroupOpenEnum</a>
 
 
 

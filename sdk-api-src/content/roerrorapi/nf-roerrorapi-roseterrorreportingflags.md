@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 167C2EC9-9EA0-4E1D-840B-DAF5F47ED1FE
 ms.date: 12/5/2018
 ms.keywords: RoSetErrorReportingFlags, RoSetErrorReportingFlags function [Windows Runtime], WinRTSetErrorReportingFlags, roerrorapi/RoSetErrorReportingFlags, roerrorapi/WinRTSetErrorReportingFlags, winrt.roseterrorreportingflags, winrt.winrtseterrorreportingflags
-ms.topic: function
 f1_keywords:
 - roerrorapi/RoSetErrorReportingFlags
 dev_langs:
@@ -65,7 +64,7 @@ Sets the reporting behavior of Windows Runtime error functions.
 
 Type: <b>UINT32</b>
 
-A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-ro_error_reporting_flags">RO_ERROR_REPORTING_FLAGS</a> values.
+A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-roerrorreportingflags">RO_ERROR_REPORTING_FLAGS</a> values.
 
 
 ## -returns
@@ -123,7 +122,7 @@ Get the current reporting behavior of   Windows Runtime error functions by calli
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-ro_error_reporting_flags">RO_ERROR_REPORTING_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-roerrorreportingflags">RO_ERROR_REPORTING_FLAGS</a>
 
 
 

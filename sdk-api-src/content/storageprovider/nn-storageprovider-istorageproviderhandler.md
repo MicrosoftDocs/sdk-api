@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 96DEA181-8506-4FCC-85E0-A2EF79BA6C6D
 ms.date: 12/05/2018
 ms.keywords: IStorageProviderHandler, IStorageProviderHandler interface [Windows Shell], IStorageProviderHandler interface [Windows Shell],described, shell.istorageproviderhandler, storageprovider/IStorageProviderHandler
-ms.topic: interface
 f1_keywords:
 - storageprovider/IStorageProviderHandler
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 49f5ffc1-d615-4d07-9f41-1c5f0dd9045b
 ms.date: 12/05/2018
 ms.keywords: ITextRow, ITextRow interface [Windows Controls], ITextRow interface [Windows Controls],described, controls.itextrow, tom/ITextRow
-ms.topic: interface
 f1_keywords:
 - tom/ITextRow
 dev_langs:
@@ -507,7 +506,7 @@ On the other hand, no formal table description is stored anywhere. Information s
 For example, the count of rows in a table can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-startof">ITextRange::StartOf</a> (<b>tomTable</b>, <b>tomFalse</b>, <b>NULL</b>) to move to the start of the current table and then calling <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-move">ITextRange::Move</a> (<b>tomRow</b>, <b>tomForward</b>, <i>&amp;dcRow</i>). The quantity <i>&amp;dcRow</i> + 1 then contains the count of rows in the table, because moving by <b>tomRow</b> increments doesn't move beyond the last table row.
 
 
-For additional information about the rich edit control's support for tables, see <a href="http://go.microsoft.com/fwlink/p/?linkid=239678">RichEdit's Nested Table Facility</a>. 
+For additional information about the rich edit control's support for tables, see <a href="https://blogs.msdn.com/b/murrays/archive/2008/09/15/richedit-s-nested-table-facility.aspx">RichEdit's Nested Table Facility</a>. 
 
 
 

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: c1c112fc-5b9d-4db8-b7b9-94a75755801e
 ms.date: 12/05/2018
 ms.keywords: IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMColorProfileResourceCollection.RemoveAt, IXpsOMColorProfileResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, xps.ixpsomcolorprofileresourcecollection_removeat, xpsobjectmodel/IXpsOMColorProfileResourceCollection::RemoveAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMColorProfileResourceCollection.RemoveAt
 dev_langs:
@@ -100,7 +99,7 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

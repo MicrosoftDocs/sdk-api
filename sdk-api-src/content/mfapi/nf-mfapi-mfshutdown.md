@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 10be2361-b5b4-4c10-92a1-527ca22c74e4
 ms.date: 12/05/2018
 ms.keywords: 10be2361-b5b4-4c10-92a1-527ca22c74e4, MFShutdown, MFShutdown function [Media Foundation], mf.mfshutdown, mfapi/MFShutdown
-ms.topic: function
 f1_keywords:
 - mfapi/MFShutdown
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector2TransformStream(XMFLOAT4@,size_t,const XMFLOAT2,size_t,size_t,XMMATRIX)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2TransformStream, XMVector2TransformStream, XMVector2TransformStream method [DirectX Math Support APIs], dxmath.xmvector2transformstream
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector2TransformStream
 dev_langs:

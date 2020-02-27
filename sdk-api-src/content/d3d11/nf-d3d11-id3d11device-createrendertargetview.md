@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: e757c959-f0ac-44c3-8226-b9f0b1c2a031
 ms.date: 12/05/2018
 ms.keywords: 02715db5-c01a-06db-fe93-51594d87921b, CreateRenderTargetView, CreateRenderTargetView method [Direct3D 11], CreateRenderTargetView method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateRenderTargetView method, ID3D11Device.CreateRenderTargetView, ID3D11Device::CreateRenderTargetView, d3d11/ID3D11Device::CreateRenderTargetView, direct3d11.id3d11device_createrendertargetview
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11Device.CreateRenderTargetView
 dev_langs:

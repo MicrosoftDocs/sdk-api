@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 1e078817-be7c-493c-9b46-9c9f4068745c
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetAccessibilityShortDescription method, IXpsOMPath.SetAccessibilityShortDescription, IXpsOMPath::SetAccessibilityShortDescription, SetAccessibilityShortDescription, SetAccessibilityShortDescription method [XPS Documents and Packaging], SetAccessibilityShortDescription method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setaccessibilityshortdescription, xpsobjectmodel/IXpsOMPath::SetAccessibilityShortDescription
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.SetAccessibilityShortDescription
 dev_langs:
@@ -90,7 +89,7 @@ In the document markup, the value that is set in <i>shortDescription</i> will be
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 7ab98f41-b99e-4731-b803-921064a961c4
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_NAME_INFO, FILE_NAME_INFO, FILE_NAME_INFO structure [Files], PFILE_NAME_INFO, PFILE_NAME_INFO structure pointer [Files], fileextd/FILE_NAME_INFO, fileextd/PFILE_NAME_INFO, fs.file_name_info, winbase/FILE_NAME_INFO, winbase/PFILE_NAME_INFO'
-ms.topic: struct
 f1_keywords:
 - winbase/FILE_NAME_INFO
 dev_langs:

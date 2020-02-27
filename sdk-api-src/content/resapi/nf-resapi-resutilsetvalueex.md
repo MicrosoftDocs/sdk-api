@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: AE0D9AF5-3161-453F-95FC-C759640AF58B
 ms.date: 12/05/2018
 ms.keywords: ResUtilSetValueEx, ResUtilSetValueEx function [Failover Cluster], mscs.resutilsetvalueex, resapi/ResUtilSetValueEx
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilSetValueEx
 dev_langs:

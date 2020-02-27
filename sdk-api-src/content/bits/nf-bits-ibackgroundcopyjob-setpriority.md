@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 8b59128d-7e63-45dc-af0f-54ea844dac98
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetPriority method, IBackgroundCopyJob.SetPriority, IBackgroundCopyJob::SetPriority, SetPriority, SetPriority method [BITS], SetPriority method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setpriority, bits.ibackgroundcopyjob_setpriority, bits/IBackgroundCopyJob::SetPriority
-ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyJob.SetPriority
 dev_langs:

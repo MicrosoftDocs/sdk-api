@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 50b2387b-c8e4-42a8-8f0f-0bdb355adbfd
 ms.date: 12/05/2018
 ms.keywords: GetDC, GetDC function [Windows GDI], _win32_GetDC, gdi.getdc, winuser/GetDC
-ms.topic: function
 f1_keywords:
 - winuser/GetDC
 dev_langs:

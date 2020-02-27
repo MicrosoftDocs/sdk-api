@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 15c1fadd-9e0d-4254-ae14-82b0ce46909e
 ms.date: 12/05/2018
 ms.keywords: InterlockedCompareExchangePointer, InterlockedCompareExchangePointer function, _win32_interlockedcompareexchangepointer, base.interlockedcompareexchangepointer, winnt/InterlockedCompareExchangePointer
-ms.topic: function
 f1_keywords:
 - winnt/InterlockedCompareExchangePointer
 dev_langs:
@@ -52,7 +51,7 @@ ms.custom: 19H1
 
 Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified pointer values and exchanges with another pointer value based on the outcome of the comparison.
 
-To operate on non-pointer values, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedcompareexchange">InterlockedCompareExchange</a> function.
+To operate on non-pointer values, use the <a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange">InterlockedCompareExchange</a> function.
 
 
 ## -parameters
@@ -118,7 +117,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedcompareexchange">InterlockedCompareExchange</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange">InterlockedCompareExchange</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 22afdbd4-91fc-44c6-ad16-0c3c1adf8c70
 ms.date: 12/05/2018
 ms.keywords: SetupDiOpenClassRegKey, SetupDiOpenClassRegKey function [Device and Driver Installation], devinst.setupdiopenclassregkey, di-rtns_2bdb6a33-58be-4799-af21-40f807a9fab8.xml, setupapi/SetupDiOpenClassRegKey
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiOpenClassRegKey
 dev_langs:
@@ -74,7 +73,7 @@ The registry security access for the key to be opened. For information about reg
 
 If the function is successful, it returns a handle to an opened registry key where information about this setup class can be stored/retrieved. 
 
-If the function fails, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+If the function fails, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 
@@ -87,7 +86,7 @@ Depending on the value that is passed in the <i>samDesired</i> parameter, it mig
 
 This function does not create a registry key if it does not already exist.
 
-The handle returned from this function must be closed by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=194543">RegCloseKey</a>.
+The handle returned from this function must be closed by calling <a href="https://msdn.microsoft.com/library/ms724837(VS.85).aspx">RegCloseKey</a>.
 
 To open the interface class registry key or a specific interface class subkey, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopenclassregkeyexa">SetupDiOpenClassRegKeyEx</a>.
 

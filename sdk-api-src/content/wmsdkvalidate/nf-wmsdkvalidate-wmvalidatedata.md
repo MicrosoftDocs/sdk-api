@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 0bbe4ccc-a052-4bb9-ac6b-31d57ccf3bab
 ms.date: 12/05/2018
 ms.keywords: WMValidateData, WMValidateData function [windows Media Format], wmformat.wmvalidatedata, wmsdkvalidate/WMValidateData
-ms.topic: function
 f1_keywords:
 - wmsdkvalidate/WMValidateData
 dev_langs:

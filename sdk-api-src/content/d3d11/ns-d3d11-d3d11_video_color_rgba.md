@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: DDD587DC-BB17-407D-9E9E-47015950A504
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_COLOR_RGBA, D3D11_VIDEO_COLOR_RGBA structure [Media Foundation], d3d11/D3D11_VIDEO_COLOR_RGBA, mf.d3d11_video_color_rgba
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_VIDEO_COLOR_RGBA
 dev_langs:

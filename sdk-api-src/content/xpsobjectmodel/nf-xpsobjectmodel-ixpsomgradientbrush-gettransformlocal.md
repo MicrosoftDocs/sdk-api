@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: dfdd6797-b7e6-46fa-92b1-d9c418e8a510
 ms.date: 12/05/2018
 ms.keywords: GetTransformLocal, GetTransformLocal method [XPS Documents and Packaging], GetTransformLocal method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetTransformLocal method, IXpsOMGradientBrush.GetTransformLocal, IXpsOMGradientBrush::GetTransformLocal, xps.ixpsomgradientbrush_gettransformlocal, xpsobjectmodel/IXpsOMGradientBrush::GetTransformLocal
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGradientBrush.GetTransformLocal
 dev_langs:
@@ -168,7 +167,7 @@ The method succeeded.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

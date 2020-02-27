@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6bs5.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Resume method, IFaxOutgoingJob.Resume, IFaxOutgoingJob::Resume, Resume, Resume method [Fax Service], Resume method [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.resume, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_resume_cpp, fax._mfax_faxoutgoingjob_resume, faxcomex/IFaxOutgoingJob::Resume
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutgoingJob.Resume
 dev_langs:

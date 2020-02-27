@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 77abbcd4-6538-491d-b3c2-6a29a391c68a
 ms.date: 12/05/2018
 ms.keywords: IVMRDeinterlaceControl, IVMRDeinterlaceControl interface [DirectShow], IVMRDeinterlaceControl interface [DirectShow],described, IVMRDeinterlaceControlInterface, dshow.ivmrdeinterlacecontrol, strmif/IVMRDeinterlaceControl
-ms.topic: interface
 f1_keywords:
 - strmif/IVMRDeinterlaceControl
 dev_langs:

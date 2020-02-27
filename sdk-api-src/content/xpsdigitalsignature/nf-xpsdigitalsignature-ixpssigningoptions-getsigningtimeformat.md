@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 79af4463-1651-44d2-9143-b1f922ba5cfb
 ms.date: 12/05/2018
 ms.keywords: GetSigningTimeFormat, GetSigningTimeFormat method [XPS Documents and Packaging], GetSigningTimeFormat method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetSigningTimeFormat method, IXpsSigningOptions.GetSigningTimeFormat, IXpsSigningOptions::GetSigningTimeFormat, xps.ixpssigningoptions_getsigningtimeformat, xpsdigitalsignature/IXpsSigningOptions::GetSigningTimeFormat
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSigningOptions.GetSigningTimeFormat
 dev_langs:
@@ -100,7 +99,7 @@ If a signing time format has not been set,  <b>OPC_SIGNATURE_TIME_FORMAT_MILLISE
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

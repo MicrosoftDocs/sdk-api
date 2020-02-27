@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 14cbe79d-a299-4e8d-9734-8571c0b535ce
 ms.date: 12/05/2018
 ms.keywords: GetRequestSignByDate, GetRequestSignByDate method [XPS Documents and Packaging], GetRequestSignByDate method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetRequestSignByDate method, IXpsSignatureRequest.GetRequestSignByDate, IXpsSignatureRequest::GetRequestSignByDate, xps.ixpssignaturerequest_getrequestsignbydate, xpsdigitalsignature/IXpsSignatureRequest::GetRequestSignByDate
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureRequest.GetRequestSignByDate
 dev_langs:
@@ -137,7 +136,7 @@ This method allocates the memory used by the string that is returned in <i>dateS
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

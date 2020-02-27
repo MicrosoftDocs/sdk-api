@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 1cd53f79-5bbc-4a70-b66a-b807fe163a98
 ms.date: 12/05/2018
 ms.keywords: AnalyzeNumberSubstitution, AnalyzeNumberSubstitution method [Direct Write], AnalyzeNumberSubstitution method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],AnalyzeNumberSubstitution method, IDWriteTextAnalyzer.AnalyzeNumberSubstitution, IDWriteTextAnalyzer::AnalyzeNumberSubstitution, directwrite.IDWriteTextAnalyzer_AnalyzeNumberSubstitution, dwrite/IDWriteTextAnalyzer::AnalyzeNumberSubstitution
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextAnalyzer.AnalyzeNumberSubstitution
 dev_langs:

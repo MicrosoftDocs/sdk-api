@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixTranspose(XMMATRIX)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixTranspose, XMMatrixTranspose, XMMatrixTranspose method [DirectX Math Support APIs], dxmath.xmmatrixtranspose
-ms.topic: function
 f1_keywords:
 - directxmath/XMMatrixTranspose
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 2c074068-b710-4d69-9a29-f35ea142881f
 ms.date: 12/05/2018
 ms.keywords: Description property [Internationalization for Windows Applications], Description property [Internationalization for Windows Applications],IOptionDescription interface, IOptionDescription interface [Internationalization for Windows Applications],Description property, IOptionDescription.Description, IOptionDescription.get_Description, IOptionDescription::Description, IOptionDescription::get_Description, get_Description, intl.ioptiondescription_description, spellcheck/IOptionDescription::Description, spellcheck/IOptionDescription::get_Description
-ms.topic: method
 f1_keywords:
 - spellcheck/IOptionDescription.Description
 dev_langs:

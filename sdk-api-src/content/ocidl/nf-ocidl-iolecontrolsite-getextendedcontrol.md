@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 66cfdf22-db2b-41d2-9854-d6bf70fbe146
 ms.date: 12/05/2018
 ms.keywords: GetExtendedControl, GetExtendedControl method [COM], GetExtendedControl method [COM],IOleControlSite interface, IOleControlSite interface [COM],GetExtendedControl method, IOleControlSite.GetExtendedControl, IOleControlSite::GetExtendedControl, _ctrl_iolecontrolsite_getextendedcontrol, com.iolecontrolsite_getextendedcontrol, ocidl/IOleControlSite::GetExtendedControl
-ms.topic: method
 f1_keywords:
 - ocidl/IOleControlSite.GetExtendedControl
 dev_langs:

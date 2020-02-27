@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 17d7e4b0-ccde-4ad9-9bdc-0f6a72ee762e
 ms.date: 12/05/2018
 ms.keywords: 17d7e4b0-ccde-4ad9-9bdc-0f6a72ee762e, IInkTransform interface [Tablet PC],Rotate method, IInkTransform.Rotate, IInkTransform::Rotate, Rotate, Rotate method [Tablet PC], Rotate method [Tablet PC],IInkTransform interface, msinkaut/IInkTransform::Rotate, tablet.inktransform_rotate
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkTransform.Rotate
 dev_langs:

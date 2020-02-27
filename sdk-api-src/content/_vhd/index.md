@@ -1,9 +1,10 @@
 ---
 UID: TP:vhd
+title: Virtual Hard Disk
 ms.assetid: 0d9a4add-3ac3-3ff9-b349-c6ddc48ae052
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Virtual Hard Disk

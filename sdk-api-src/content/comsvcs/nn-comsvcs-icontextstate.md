@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: cba54ad7-c670-4efb-ad3b-aca1daabc4a3
 ms.date: 12/05/2018
 ms.keywords: IContextState, IContextState interface [COM+], IContextState interface [COM+],described, _cos_IContextState, comsvcs/IContextState, cos.icontextstate
-ms.topic: interface
 f1_keywords:
 - comsvcs/IContextState
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 69029cf3-7f34-4bb1-8dfd-fa9a8d1a63c9
 ms.date: 12/05/2018
 ms.keywords: MFGetMFTMerit, MFGetMFTMerit function [Media Foundation], mf.mfgetmftmerit, mfapi/MFGetMFTMerit
-ms.topic: function
 f1_keywords:
 - mfapi/MFGetMFTMerit
 dev_langs:

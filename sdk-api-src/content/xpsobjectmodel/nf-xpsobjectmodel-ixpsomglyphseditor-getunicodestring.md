@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 48190202-2ab4-44ad-98e0-a69e9b48576f
 ms.date: 12/05/2018
 ms.keywords: GetUnicodeString, GetUnicodeString method [XPS Documents and Packaging], GetUnicodeString method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetUnicodeString method, IXpsOMGlyphsEditor.GetUnicodeString, IXpsOMGlyphsEditor::GetUnicodeString, xps.ixpsomglyphseditor_getunicodestring, xpsobjectmodel/IXpsOMGlyphsEditor::GetUnicodeString
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphsEditor.GetUnicodeString
 dev_langs:
@@ -120,7 +119,7 @@ This method allocates the memory used by the string that is returned in <i>unico
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

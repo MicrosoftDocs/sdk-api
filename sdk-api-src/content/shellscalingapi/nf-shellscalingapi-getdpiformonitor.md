@@ -7,7 +7,6 @@ tech.root: hidpi
 ms.assetid: AB741D14-0BA1-4C33-91D8-1331BE96DE95
 ms.date: 12/05/2018
 ms.keywords: GetDpiForMonitor, GetDpiForMonitor function [High DPI], hidpi.getdpiformonitor, shellscalingapi/GetDpiForMonitor
-ms.topic: function
 f1_keywords:
 - shellscalingapi/GetDpiForMonitor
 dev_langs:
@@ -147,7 +146,7 @@ The values of <i>*dpiX</i> and <i>*dpiY</i> are identical. You only need to reco
 
 When <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-monitor_dpi_type">MONITOR_DPI_TYPE</a> is <b>MDT_ANGULAR_DPI</b> or <b>MDT_RAW_DPI</b>, the returned DPI value does not include any changes that the user made to the DPI by using the desktop scaling override slider control in Control Panel.
 
-For more information about DPI settings in Control Panel, see the <a href="http://go.microsoft.com/fwlink/p/?LinkID=307061">Writing DPI-Aware Desktop Applications in Windows 8.1 Preview</a> white paper.
+For more information about DPI settings in Control Panel, see the <a href="https://msdn.microsoft.com/library/windows/desktop/dn469266.aspx">Writing DPI-Aware Desktop Applications in Windows 8.1 Preview</a> white paper.
 
 
 

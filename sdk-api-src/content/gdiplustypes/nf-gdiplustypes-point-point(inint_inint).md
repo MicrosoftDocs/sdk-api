@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointconstructors\point_85x_y.htm
 ms.date: 12/05/2018
 ms.keywords: Point, Point class [GDI+],Point constructor, Point constructor [GDI+], Point constructor [GDI+],Point class, Point.Point, Point.Point(IN INT,IN INT), Point.Point(INT,INT), Point::Point, Point::Point(IN INT,IN INT), _gdiplus_CLASS_Point_Point_x_y_, gdiplus._gdiplus_CLASS_Point_Point_x_y_
-ms.topic: method
 f1_keywords:
 - gdiplustypes/Point.Point
 dev_langs:

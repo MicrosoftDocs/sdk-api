@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 8394b843-75f0-4bbd-9ad8-6f4b5dc4bf7b
 ms.date: 12/05/2018
 ms.keywords: '*PRASPPP_PROJECTION_INFO, RASCCPCA_MPPC, RASCCPCA_STAC, RASCCPO_COMPRESSION, RASCCPO_ENCRYPTION128BIT, RASCCPO_ENCRYPTION40BIT, RASCCPO_ENCRYPTION40BITOLD, RASCCPO_ENCRYPTION56BIT, RASCCPO_HISTORYLESS, RASIPO_VJ, RASLCPAD_CHAP_MD5, RASLCPAD_CHAP_MS, RASLCPAD_CHAP_MSV2, RASLCPAP_CHAP, RASLCPAP_EAP, RASLCPAP_PAP, RASLCPAP_SPAP, RASLCPO_3_DES, RASLCPO_ACFC, RASLCPO_DES_56, RASLCPO_PFC, RASLCPO_SSHF, RASPPP_PROJECTION_INFO, RASPPP_PROJECTION_INFO structure [RAS], ras/RASPPP_PROJECTION_INFO, rras.rasppp_projection_info'
-ms.topic: struct
 f1_keywords:
 - ras/RASPPP_PROJECTION_INFO
 dev_langs:
@@ -362,7 +361,7 @@ A value that specifies information about LCP options in use by the local client.
 </dl>
 </td>
 <td width="60%">
-The connection is using Protocol Field Compression (<a href="Http://go.microsoft.com/fwlink/p/?linkid=84548">RFC 1172</a>).
+The connection is using Protocol Field Compression (<a href="https://www.ietf.org/rfc/rfc1172.txt">RFC 1172</a>).
 
 </td>
 </tr>
@@ -372,7 +371,7 @@ The connection is using Protocol Field Compression (<a href="Http://go.microsoft
 </dl>
 </td>
 <td width="60%">
-The connection is using Address and Control Field Compression (<a href="Http://go.microsoft.com/fwlink/p/?linkid=84548">RFC 1172</a>).
+The connection is using Address and Control Field Compression (<a href="https://www.ietf.org/rfc/rfc1172.txt">RFC 1172</a>).
 
 </td>
 </tr>
@@ -425,7 +424,7 @@ A value that specifies information about LCP options in use by the remote server
 </dl>
 </td>
 <td width="60%">
-The connection is using Protocol Field Compression (<a href="Http://go.microsoft.com/fwlink/p/?linkid=84548">RFC 1172</a>).
+The connection is using Protocol Field Compression (<a href="https://www.ietf.org/rfc/rfc1172.txt">RFC 1172</a>).
 
 </td>
 </tr>
@@ -435,7 +434,7 @@ The connection is using Protocol Field Compression (<a href="Http://go.microsoft
 </dl>
 </td>
 <td width="60%">
-The connection is using Address and Control Field Compression (<a href="Http://go.microsoft.com/fwlink/p/?linkid=84548">RFC 1172</a>).
+The connection is using Address and Control Field Compression (<a href="https://www.ietf.org/rfc/rfc1172.txt">RFC 1172</a>).
 
 </td>
 </tr>
@@ -493,7 +492,7 @@ A value that specifies the compression algorithm used by the local client. The f
 </dl>
 </td>
 <td width="60%">
-Microsoft Point-to-Point Compression (MPPC) Protocol (<a href="Http://go.microsoft.com/fwlink/p/?linkid=84560">RFC 2118</a>).
+Microsoft Point-to-Point Compression (MPPC) Protocol (<a href="https://www.ietf.org/rfc/rfc2118.txt">RFC 2118</a>).
 
 </td>
 </tr>
@@ -503,7 +502,7 @@ Microsoft Point-to-Point Compression (MPPC) Protocol (<a href="Http://go.microso
 </dl>
 </td>
 <td width="60%">
-STAC option 4 (<a href="Http://go.microsoft.com/fwlink/p/?linkid=84557">RFC 1974</a>).
+STAC option 4 (<a href="https://www.ietf.org/rfc/rfc1974.txt">RFC 1974</a>).
 
 </td>
 </tr>
@@ -527,7 +526,7 @@ A value that specifies the compression algorithm used by the remote server. The 
 </td>
 <td width="60%">
 Microsoft Point-to-Point Compression (MPPC) Protocol (
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84560">RFC 2118</a>).
+<a href="https://www.ietf.org/rfc/rfc2118.txt">RFC 2118</a>).
 
 </td>
 </tr>
@@ -538,7 +537,7 @@ Microsoft Point-to-Point Compression (MPPC) Protocol (
 </td>
 <td width="60%">
 STAC option 4 (
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84557">RFC 1974</a>).
+<a href="https://www.ietf.org/rfc/rfc1974.txt">RFC 1974</a>).
 
 </td>
 </tr>

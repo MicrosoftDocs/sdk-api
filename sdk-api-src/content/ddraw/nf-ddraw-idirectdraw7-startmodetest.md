@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: b669e3c7-b34b-4919-9a3e-0349288360ba
 ms.date: 12/05/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],StartModeTest method, IDirectDraw7.StartModeTest, IDirectDraw7::StartModeTest, StartModeTest, StartModeTest method [DirectDraw], StartModeTest method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::StartModeTest, directdraw.idirectdraw7_startmodetest
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDraw7.StartModeTest
 dev_langs:

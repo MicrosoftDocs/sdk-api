@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 85A816F8-CD3A-43B0-B63C-C58BC47438B1
 ms.date: 12/5/2018
 ms.keywords: IDMLBindingTable interface,Reset method, IDMLBindingTable.Reset, IDMLBindingTable::Reset, Reset, Reset method, Reset method,IDMLBindingTable interface, direct3d12.idmlbindingtable_reset, directml/IDMLBindingTable::Reset
-ms.topic: method
 f1_keywords:
 - directml/IDMLBindingTable.Reset
 dev_langs:

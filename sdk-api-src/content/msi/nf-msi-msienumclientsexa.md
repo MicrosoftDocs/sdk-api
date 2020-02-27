@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: f7677202-1b3d-4039-86d3-242c3ce984e4
 ms.date: 12/05/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiEnumClientsEx, MsiEnumClientsEx function [Setup API], MsiEnumClientsExA, MsiEnumClientsExW, NULL, User SID, msi/MsiEnumClientsEx, msi/MsiEnumClientsExA, msi/MsiEnumClientsExW, s-1-1-0, setup.msienumclientsex
-ms.topic: function
 f1_keywords:
 - msi/MsiEnumClientsEx
 dev_langs:

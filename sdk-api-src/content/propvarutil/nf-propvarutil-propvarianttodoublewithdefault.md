@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 81584e13-0ef7-47ce-b78f-b4a79712ff1e
 ms.date: 12/05/2018
 ms.keywords: PropVariantToDoubleWithDefault, PropVariantToDoubleWithDefault function [Windows Properties], properties.PropVariantToDoubleWithDefault, propvarutil/PropVariantToDoubleWithDefault, shell.PropVariantToDoubleWithDefault, shell_PropVariantToDoubleWithDefault
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantToDoubleWithDefault
 dev_langs:

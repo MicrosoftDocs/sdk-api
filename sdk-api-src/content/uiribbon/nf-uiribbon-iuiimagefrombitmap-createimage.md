@@ -7,7 +7,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimagefrombitmap\createimage.htm
 ms.date: 12/05/2018
 ms.keywords: CreateImage, CreateImage method [Windows Ribbon], CreateImage method [Windows Ribbon],IUIImageFromBitmap interface, IUIImageFromBitmap interface [Windows Ribbon],CreateImage method, IUIImageFromBitmap.CreateImage, IUIImageFromBitmap::CreateImage, scenicintent_IUIImageFromBitmap_CreateImage, uiribbon/IUIImageFromBitmap::CreateImage, windowsribbon.windowsribbon_iuiimagefrombitmap_createimage
-ms.topic: method
 f1_keywords:
 - uiribbon/IUIImageFromBitmap.CreateImage
 dev_langs:
@@ -134,7 +133,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This factory method is useful when an application dynamically generates an image 
 				 resource and wants to pass the new HBITMAP to the Ribbon, 
 				 for example, loading a Portable Network Graphics (PNG) through the Windows Imaging Component (WIC) or using 
-				 <a href="http://go.microsoft.com/fwlink/p/?linkid=133010">CreateDIBSection</a> to create an image for a new style 
+				 <a href="https://msdn.microsoft.com/library/ms532292.aspx">CreateDIBSection</a> to create an image for a new style 
 				 in a styles gallery.
 			
 

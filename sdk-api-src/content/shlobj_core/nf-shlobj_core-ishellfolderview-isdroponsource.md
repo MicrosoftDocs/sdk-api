@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3661fe68-b351-48e0-a098-8ad919bdfbb2
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],IsDropOnSource method, IShellFolderView.IsDropOnSource, IShellFolderView::IsDropOnSource, IsDropOnSource, IsDropOnSource method [Windows Shell], IsDropOnSource method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_IsDropOnSource, shell.IShellFolderView_IsDropOnSource, shlobj_core/IShellFolderView::IsDropOnSource
-ms.topic: method
 f1_keywords:
 - shlobj_core/IShellFolderView.IsDropOnSource
 dev_langs:

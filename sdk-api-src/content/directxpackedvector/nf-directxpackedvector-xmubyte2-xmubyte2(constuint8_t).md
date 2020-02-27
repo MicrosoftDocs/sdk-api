@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: d7f51876-9fc9-40b7-8b42-ff4ee4c9afa0
 ms.date: 05/06/2019
 ms.keywords: XMUBYTE2, XMUBYTE2 constructor [DirectX Math Support APIs], XMUBYTE2 constructor [DirectX Math Support APIs],XMUBYTE2 structure, XMUBYTE2 structure [DirectX Math Support APIs],XMUBYTE2 constructor, XMUBYTE2.XMUBYTE2, XMUBYTE2.XMUBYTE2(), XMUBYTE2.XMUBYTE2(const uint8_t), XMUBYTE2::XMUBYTE2, XMUBYTE2::XMUBYTE2(const uint8_t), dxmath.xmubyte2_ctor_1
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMUBYTE2.XMUBYTE2
 dev_langs:

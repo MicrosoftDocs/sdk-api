@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2fe666fa-ebc4-4a47-87ce-085f357ce186
 ms.date: 12/05/2018
 ms.keywords: IPBDAEntitlementDescriptor, IPBDAEntitlementDescriptor interface [Microsoft TV Technologies], IPBDAEntitlementDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IPBDAEntitlementDescriptor, mstv.ipbdaentitlementdescriptor
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IPBDAEntitlementDescriptor
 dev_langs:

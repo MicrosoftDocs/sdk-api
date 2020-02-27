@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 246d838a-ba16-4ba4-8cd3-f25dfc7d2f23
 ms.date: 12/05/2018
 ms.keywords: GetThreadErrorMode, GetThreadErrorMode function, base.getthreaderrormode, errhandlingapi/GetThreadErrorMode
-ms.topic: function
 f1_keywords:
 - errhandlingapi/GetThreadErrorMode
 dev_langs:

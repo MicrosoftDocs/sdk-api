@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: B0921292-1EEA-4154-8AB4-B654A9B31DA6
 ms.date: 12/5/2018
 ms.keywords: RoTransformError, RoTransformError function [Windows Runtime], WinRTTransformError, roerrorapi/RoTransformError, roerrorapi/WinRTTransformError, winrt.rotransformerror, winrt.winrttransformerror
-ms.topic: function
 f1_keywords:
 - roerrorapi/RoTransformError
 dev_langs:
@@ -145,7 +144,7 @@ The behavior of the  <b>RoTransformError</b> function is otherwise the same as t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-ro_error_reporting_flags">RO_ERROR_REPORTING_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-roerrorreportingflags">RO_ERROR_REPORTING_FLAGS</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: 8a57c6ad-8c6c-4ef0-a731-463a5d7e325f
 ms.date: 12/05/2018
 ms.keywords: GetCategory, GetCategory method [Network Awareness], GetCategory method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetCategory method, INetwork.GetCategory, INetwork::GetCategory, netlistmgr/INetwork::GetCategory, nla.inetwork_getcategory
-ms.topic: method
 f1_keywords:
 - netlistmgr/INetwork.GetCategory
 dev_langs:

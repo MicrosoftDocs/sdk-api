@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2998d606-d5ee-4dc3-a4da-57c597c6b594
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferRecComp, IStreamBufferRecComp interface [Microsoft TV Technologies], IStreamBufferRecComp interface [Microsoft TV Technologies],described, IStreamBufferRecCompInterface, mstv.istreambufferreccomp, sbe/IStreamBufferRecComp
-ms.topic: interface
 f1_keywords:
 - sbe/IStreamBufferRecComp
 dev_langs:

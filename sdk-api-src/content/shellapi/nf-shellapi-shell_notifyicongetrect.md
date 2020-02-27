@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 81ad13be-a908-4079-b47c-6f983919700b
 ms.date: 12/05/2018
 ms.keywords: Shell_NotifyIconGetRect, Shell_NotifyIconGetRect function [Windows Shell], _shell_Shell_NotifyIconGetRect, shell.Shell_NotifyIconGetRect, shellapi/Shell_NotifyIconGetRect
-ms.topic: function
 f1_keywords:
 - shellapi/Shell_NotifyIconGetRect
 dev_langs:

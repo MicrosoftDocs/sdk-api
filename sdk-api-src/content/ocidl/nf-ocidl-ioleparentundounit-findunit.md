@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 096e6cc4-7843-49fa-b1d7-bce034d4b7ce
 ms.date: 12/05/2018
 ms.keywords: FindUnit, FindUnit method [COM], FindUnit method [COM],IOleParentUndoUnit interface, IOleParentUndoUnit interface [COM],FindUnit method, IOleParentUndoUnit.FindUnit, IOleParentUndoUnit::FindUnit, _ole_ioleparentundounit_findunit, com.ioleparentundounit_findunit, ocidl/IOleParentUndoUnit::FindUnit
-ms.topic: method
 f1_keywords:
 - ocidl/IOleParentUndoUnit.FindUnit
 dev_langs:
@@ -76,7 +75,7 @@ This method returns S_OK if the specified undo unit is in the hierarchy subordin
 
 
 
-This is typically called by the undo manager in its implementation of its <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-discardfrom">IOleUndoManager::DiscardFrom</a> method in the rare event that the unit being discarded is not a top-level unit. The parent unit should look in its own list first, then delegate to each child that is also a parent unit, as determined by doing a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> for <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleparentundounit">IOleParentUndoUnit</a>.
+This is typically called by the undo manager in its implementation of its <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-discardfrom">IOleUndoManager::DiscardFrom</a> method in the rare event that the unit being discarded is not a top-level unit. The parent unit should look in its own list first, then delegate to each child that is also a parent unit, as determined by doing a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> for <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleparentundounit">IOleParentUndoUnit</a>.
 
 
 

@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 92d52015-c5b9-472e-898b-aca6f6e83620
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnectionCallback interface [Remote Desktop Services],RedrawWindow method, IWRdsProtocolConnectionCallback.RedrawWindow, IWRdsProtocolConnectionCallback::RedrawWindow, RedrawWindow, RedrawWindow method [Remote Desktop Services], RedrawWindow method [Remote Desktop Services],IWRdsProtocolConnectionCallback interface, termserv.iwrdsprotocolconnectioncallback_redrawwindow, wtsprotocol/IWRdsProtocolConnectionCallback::RedrawWindow
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWRdsProtocolConnectionCallback.RedrawWindow
 dev_langs:

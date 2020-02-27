@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 77eea431-74a0-449e-847e-7885ab33bda1
 ms.date: 12/05/2018
 ms.keywords: WMCreateProfileManager, WMCreateProfileManager function [windows Media Format], wmformat.wmcreateprofilemanager, wmsdkidl/WMCreateProfileManager
-ms.topic: function
 f1_keywords:
 - wmsdkidl/WMCreateProfileManager
 dev_langs:

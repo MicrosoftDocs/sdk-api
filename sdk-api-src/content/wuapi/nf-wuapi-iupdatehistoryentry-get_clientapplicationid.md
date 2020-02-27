@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 7c2a209f-10e8-4158-8201-a062f86b5fdd
 ms.date: 12/05/2018
 ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent],IUpdateHistoryEntry interface, IUpdateHistoryEntry interface [Windows Update Agent],ClientApplicationID property, IUpdateHistoryEntry.ClientApplicationID, IUpdateHistoryEntry.get_ClientApplicationID, IUpdateHistoryEntry::ClientApplicationID, IUpdateHistoryEntry::get_ClientApplicationID, get_ClientApplicationID, wua.iupdatehistoryentry_clientapplicationid, wuapi/IUpdateHistoryEntry::ClientApplicationID, wuapi/IUpdateHistoryEntry::get_ClientApplicationID
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateHistoryEntry.ClientApplicationID
 dev_langs:

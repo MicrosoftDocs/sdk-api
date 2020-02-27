@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: ba1a4fce-b3cc-423d-b213-5dfca3dea708
 ms.date: 12/05/2018
 ms.keywords: SetThreadToken, SetThreadToken function [Security], _win32_setthreadtoken, processthreadsapi/SetThreadToken, security.setthreadtoken
-ms.topic: function
 f1_keywords:
 - processthreadsapi/SetThreadToken
 dev_langs:

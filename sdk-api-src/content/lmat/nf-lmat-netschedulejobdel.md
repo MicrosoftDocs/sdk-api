@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 5ae668ab-f51d-457e-a239-2ec16a0e5a55
 ms.date: 12/05/2018
 ms.keywords: NetScheduleJobDel, NetScheduleJobDel function [Network Management], _win32_netschedulejobdel, lmat/NetScheduleJobDel, netmgmt.netschedulejobdel
-ms.topic: function
 f1_keywords:
 - lmat/NetScheduleJobDel
 dev_langs:

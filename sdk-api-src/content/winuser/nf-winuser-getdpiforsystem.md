@@ -7,7 +7,6 @@ tech.root: hidpi
 ms.assetid: B744EC4A-DB78-4654-B50F-C27CB7702899
 ms.date: 12/05/2018
 ms.keywords: GetDpiForSystem, GetDpiForSystem function [High DPI], hidpi.getdpiforsystem, winuser/GetDpiForSystem
-ms.topic: function
 f1_keywords:
 - winuser/GetDpiForSystem
 dev_langs:

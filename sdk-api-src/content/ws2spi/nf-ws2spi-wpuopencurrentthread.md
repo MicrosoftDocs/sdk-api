@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 92d21f29-240f-407e-89a7-bbbb8f9bf0eb
 ms.date: 12/05/2018
 ms.keywords: WPUOpenCurrentThread, WPUOpenCurrentThread function [Winsock], _win32_wpuopencurrentthread_2, winsock.wpuopencurrentthread_2, ws2spi/WPUOpenCurrentThread
-ms.topic: function
 f1_keywords:
 - ws2spi/WPUOpenCurrentThread
 dev_langs:
@@ -62,7 +61,7 @@ The
 ### -param lpThreadId [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a> structure that can then be passed to an overlapped function.
+<a href="/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a> structure that can then be passed to an overlapped function.
 
 
 ### -param lpErrno [out]
@@ -87,12 +86,12 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dl>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dl>
 </dl>
 </td>
 <td width="60%">
 A successful 
-[WSPStartup](nf-ws2spi-wspstartup.md) call must occur before using this function.
+<a href="/windows/win32/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a> call must occur before using this function.
 
 </td>
 </tr>
@@ -112,7 +111,7 @@ A successful
 
 The 
 **WPUOpenCurrentThread** function provides a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a> structure that can then be passed to an overlapped function such as 
+<a href="/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a> structure that can then be passed to an overlapped function such as 
 [LPWSPSend](nc-ws2spi-lpwspsend.md) or 
 [LPWSPRecv](nc-ws2spi-lpwsprecv.md). Layered service providers using a private thread in one of the upper layers will use 
 **WPUOpenCurrentThread** to pass a 
@@ -124,7 +123,7 @@ Overlapped functions such as
 
 Every call to 
 **WPUOpenCurrentThread** must have a corresponding call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuclosethread">WPUCloseThread</a>.
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpuclosethread">WPUCloseThread</a>.
 
 
 
@@ -134,7 +133,7 @@ Every call to
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuclosethread">WPUCloseThread</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpuclosethread">WPUCloseThread</a>
 
 
 

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 3518e620-85cf-4bae-8366-d43564535774
 ms.date: 12/05/2018
 ms.keywords: IAzNameResolver interface [Security],NameFromSid method, IAzNameResolver.NameFromSid, IAzNameResolver::NameFromSid, NameFromSid, NameFromSid method [Security], NameFromSid method [Security],IAzNameResolver interface, azroles/IAzNameResolver::NameFromSid, security.iaznameresolver_namefromsid_method
-ms.topic: method
 f1_keywords:
 - azroles/IAzNameResolver.NameFromSid
 dev_langs:

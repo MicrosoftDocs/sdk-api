@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setextendedlistviewstyle.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_SetExtendedListViewStyle, ListView_SetExtendedListViewStyle macro [Windows Controls], _win32_ListView_SetExtendedListViewStyle, _win32_ListView_SetExtendedListViewStyle_cpp, commctrl/ListView_SetExtendedListViewStyle, controls.ListView_SetExtendedListViewStyle, controls._win32_ListView_SetExtendedListViewStyle
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_SetExtendedListViewStyle
 dev_langs:

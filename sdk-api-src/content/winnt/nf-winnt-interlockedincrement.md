@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 87eda7fb-966d-4630-9da6-8933b53daadd
 ms.date: 12/05/2018
 ms.keywords: InterlockedIncrement, InterlockedIncrement function, _win32_interlockedincrement, base.interlockedincrement, winnt/InterlockedIncrement
-ms.topic: function
 f1_keywords:
 - winnt/InterlockedIncrement
 dev_langs:
@@ -107,7 +106,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockeddecrement">InterlockedDecrement</a>
+<a href="/windows/win32/api/winnt/nf-winnt-interlockeddecrement">InterlockedDecrement</a>
 
 
 

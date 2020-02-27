@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: de6e8f87-af4b-4e7f-8468-54359c5a8907
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpCreateOptionV5, DhcpCreateOptionV5 function [DHCP], dhcp.dhcpcreateoptionv5, dhcpsapi/DhcpCreateOptionV5
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpCreateOptionV5
 dev_langs:
@@ -101,7 +100,7 @@ The option value is retrieved for a specific vendor class. The vendor name is su
 ### -param OptionId [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that contains the unique option ID number (also called an "option code") of the new option. Many of these option ID numbers are defined; a complete list of standard DHCP and BOOTP option codes can be found in  <a href="http://go.microsoft.com/fwlink/p/?linkid=84033">DHCP Options and BOOTP Vendor Extensions</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that contains the unique option ID number (also called an "option code") of the new option. Many of these option ID numbers are defined; a complete list of standard DHCP and BOOTP option codes can be found in  <a href="https://www.ietf.org/rfc/rfc2132.txt">DHCP Options and BOOTP Vendor Extensions</a>.
 
 
 ### -param ClassName [in, optional]

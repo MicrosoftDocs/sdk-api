@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: A50A8309-08F7-4868-AB95-A825C60C7E9E
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetCenterY method, IDCompositionScaleTransform3D.SetCenterY, IDCompositionScaleTransform3D::SetCenterY, IDCompositionScaleTransform3D::SetCenterY(float), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetCenterY, directcomp.idcompositionscaletransform3d_setcentery_float
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionScaleTransform3D.SetCenterY
 dev_langs:

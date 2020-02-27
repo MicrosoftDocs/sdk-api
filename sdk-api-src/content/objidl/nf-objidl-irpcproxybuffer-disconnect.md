@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 4ead4a47-7089-472d-b489-b725329ea5ab
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [COM], Disconnect method [COM],IRpcProxyBuffer interface, IRpcProxyBuffer interface [COM],Disconnect method, IRpcProxyBuffer.Disconnect, IRpcProxyBuffer::Disconnect, _com_irpcproxybuffer_disconnect, com.irpcproxybuffer_disconnect, objidlbase/IRpcProxyBuffer::Disconnect
-ms.topic: method
 f1_keywords:
 - objidl/IRpcProxyBuffer.Disconnect
 dev_langs:

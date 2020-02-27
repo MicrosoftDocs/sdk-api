@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e36ac685-4ebe-4fc6-a17a-f36b9d667add
 ms.date: 12/05/2018
 ms.keywords: MFCreatePresentationDescriptorFromASFProfile, MFCreatePresentationDescriptorFromASFProfile function [Media Foundation], e36ac685-4ebe-4fc6-a17a-f36b9d667add, mf.mfcreatepresentationdescriptorfromasfprofile, wmcontainer/MFCreatePresentationDescriptorFromASFProfile
-ms.topic: function
 f1_keywords:
 - wmcontainer/MFCreatePresentationDescriptorFromASFProfile
 dev_langs:

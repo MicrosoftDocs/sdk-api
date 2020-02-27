@@ -7,7 +7,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_swatchcolortype.htm
 ms.date: 12/05/2018
 ms.keywords: UI_SWATCHCOLORTYPE, UI_SWATCHCOLORTYPE enumeration [Windows Ribbon], UI_SWATCHCOLORTYPE_AUTOMATIC, UI_SWATCHCOLORTYPE_NOCOLOR, UI_SWATCHCOLORTYPE_RGB, scenicintent_UI_SWATCHCOLORTYPE, uiribbon/UI_SWATCHCOLORTYPE, uiribbon/UI_SWATCHCOLORTYPE_AUTOMATIC, uiribbon/UI_SWATCHCOLORTYPE_NOCOLOR, uiribbon/UI_SWATCHCOLORTYPE_RGB, windowsribbon.windowsribbon_ui_swatchcolortype
-ms.topic: enum
 f1_keywords:
 - uiribbon/UI_SWATCHCOLORTYPE
 dev_langs:
@@ -65,7 +64,7 @@ The swatch is transparent.
 
 ### -field UI_SWATCHCOLORTYPE_AUTOMATIC
 
-The swatch is filled with a solid RGB color bound to <a href="http://go.microsoft.com/fwlink/p/?linkid=143871">GetSysColor(COLOR_WINDOWTEXT)</a>.
+The swatch is filled with a solid RGB color bound to <a href="https://msdn.microsoft.com/library/ms724371.aspx">GetSysColor(COLOR_WINDOWTEXT)</a>.
 
 
 ### -field UI_SWATCHCOLORTYPE_RGB

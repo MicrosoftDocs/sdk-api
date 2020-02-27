@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 9ab384b9-0ce9-428c-a683-b09dbd4e07d9
 ms.date: 12/05/2018
 ms.keywords: 9ab384b9-0ce9-428c-a683-b09dbd4e07d9, IMFTopologyNodeAttributeEditor, IMFTopologyNodeAttributeEditor interface [Media Foundation], IMFTopologyNodeAttributeEditor interface [Media Foundation],described, mf.imftopologynodeattributeeditor, mfidl/IMFTopologyNodeAttributeEditor
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFTopologyNodeAttributeEditor
 dev_langs:

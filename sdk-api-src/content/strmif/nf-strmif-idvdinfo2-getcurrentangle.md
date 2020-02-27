@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9347cad1-f061-45e9-ab4a-66e87a2b0c86
 ms.date: 12/05/2018
 ms.keywords: GetCurrentAngle, GetCurrentAngle method [DirectShow], GetCurrentAngle method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentAngle method, IDvdInfo2.GetCurrentAngle, IDvdInfo2::GetCurrentAngle, IDvdInfo2GetCurrentAngle, dshow.idvdinfo2_getcurrentangle, strmif/IDvdInfo2::GetCurrentAngle
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo2.GetCurrentAngle
 dev_langs:

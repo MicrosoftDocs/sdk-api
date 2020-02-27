@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: d43d193b-d0c4-4b01-be90-a322fcc8b672
 ms.date: 12/05/2018
 ms.keywords: IFeedClockVector interface [Windows Sync],IsNoConflictsSpecified method, IFeedClockVector.IsNoConflictsSpecified, IFeedClockVector::IsNoConflictsSpecified, IsNoConflictsSpecified, IsNoConflictsSpecified method [Windows Sync], IsNoConflictsSpecified method [Windows Sync],IFeedClockVector interface, winsync.ifeedclockvector_isnoconflictsspecified, winsync/IFeedClockVector::IsNoConflictsSpecified
-ms.topic: method
 f1_keywords:
 - winsync/IFeedClockVector.IsNoConflictsSpecified
 dev_langs:

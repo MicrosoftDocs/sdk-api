@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: dc9262d8-f57f-41f8-8945-d95f38d197e9
 ms.date: 12/05/2018
 ms.keywords: AccessibleChildren, AccessibleChildren function [Windows Accessibility], _msaa_AccessibleChildren, msaa.accessiblechildren, oleacc/AccessibleChildren, winauto.accessiblechildren
-ms.topic: function
 f1_keywords:
 - oleacc/AccessibleChildren
 dev_langs:
@@ -146,7 +145,7 @@ When calling this function to obtain information about the children of a user in
 
 If a child ID is returned for an element, then the container must provide information about the child element. To obtain information about the element, clients use the container's  <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointer and specify the obtained child ID in calls to the <b>IAccessible</b> properties.
 
-Clients must call the <a href="https://go.microsoft.com/fwlink/p/?linkid=123614">IUnknown::Release</a> method for any <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interfaces retrieved by this function, and free the array when it is no longer required.
+Clients must call the <a href="https://msdn.microsoft.com/library/ms682317(VS.85).aspx">IUnknown::Release</a> method for any <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interfaces retrieved by this function, and free the array when it is no longer required.
 
 
 #### Examples

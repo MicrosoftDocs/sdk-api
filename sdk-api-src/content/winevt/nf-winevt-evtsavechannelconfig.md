@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: 3f3eff67-24b6-448e-bb61-0bc851d9bdfa
 ms.date: 12/05/2018
 ms.keywords: EvtSaveChannelConfig, EvtSaveChannelConfig function [EventLog], wes.evtsavechannelconfig, winevt/EvtSaveChannelConfig
-ms.topic: function
 f1_keywords:
 - winevt/EvtSaveChannelConfig
 dev_langs:

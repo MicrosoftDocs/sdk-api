@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: af2ea930-973e-4921-a6c8-192fa5bf4f9b
 ms.date: 12/05/2018
 ms.keywords: GetAccessibilityLongDescription, GetAccessibilityLongDescription method [XPS Documents and Packaging], GetAccessibilityLongDescription method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetAccessibilityLongDescription method, IXpsOMCanvas.GetAccessibilityLongDescription, IXpsOMCanvas::GetAccessibilityLongDescription, xps.ixpsomcanvas_getaccessibilitylongdescription, xpsobjectmodel/IXpsOMCanvas::GetAccessibilityLongDescription
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCanvas.GetAccessibilityLongDescription
 dev_langs:
@@ -122,7 +121,7 @@ This method allocates the memory used by the string that is returned in <i>longD
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

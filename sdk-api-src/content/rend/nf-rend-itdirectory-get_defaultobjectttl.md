@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: f0a24ad9-0020-4f62-a0f2-071b9d251f79
 ms.date: 12/05/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],get_DefaultObjectTTL method, ITDirectory.get_DefaultObjectTTL, ITDirectory::get_DefaultObjectTTL, _tapi3_itdirectory_get_defaultobjectttl, get_DefaultObjectTTL, get_DefaultObjectTTL method [TAPI 2.2], get_DefaultObjectTTL method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_DefaultObjectTTL, tapi3.itdirectory_get_defaultobjectttl
-ms.topic: method
 f1_keywords:
 - rend/ITDirectory.get_DefaultObjectTTL
 dev_langs:

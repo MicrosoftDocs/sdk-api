@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: adfba5dd-eae6-48f3-a155-65bd491c952c
 ms.date: 12/05/2018
 ms.keywords: IMFPMPClient, IMFPMPClient interface [Media Foundation], IMFPMPClient interface [Media Foundation],described, adfba5dd-eae6-48f3-a155-65bd491c952c, mf.imfpmpclient, mfidl/IMFPMPClient
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFPMPClient
 dev_langs:

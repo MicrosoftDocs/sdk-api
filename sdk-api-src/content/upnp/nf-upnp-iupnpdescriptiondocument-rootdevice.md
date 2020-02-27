@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 0caa4f1e-0c74-4654-be26-6178aefa3ee4
 ms.date: 12/05/2018
 ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],RootDevice method, IUPnPDescriptionDocument.RootDevice, IUPnPDescriptionDocument::RootDevice, RootDevice, RootDevice method [UPnP APIs], RootDevice method [UPnP APIs],IUPnPDescriptionDocument interface, _upnp_iupnpdescriptiondocument_rootdevice, upnp.iupnpdescriptiondocument_rootdevice, upnp/IUPnPDescriptionDocument::RootDevice
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPDescriptionDocument.RootDevice
 dev_langs:

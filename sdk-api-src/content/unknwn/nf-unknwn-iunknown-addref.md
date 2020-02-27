@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: b4316efd-73d4-4995-b898-8025a316ba63
 ms.date: 05/31/2019
 ms.keywords: AddRef, AddRef method [COM], AddRef method [COM],IUnknown interface, IUnknown interface [COM],AddRef method, IUnknown.AddRef, IUnknown::AddRef, _com_iunknown_addref, com.iunknown_addref, unknwn/IUnknown::AddRef
-ms.topic: method
 f1_keywords:
 - unknwn/IUnknown.AddRef
 dev_langs:

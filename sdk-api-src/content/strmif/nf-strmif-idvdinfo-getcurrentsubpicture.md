@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 92731904-2fb7-4dc2-b77f-1c40a002c469
 ms.date: 12/05/2018
 ms.keywords: GetCurrentSubpicture, GetCurrentSubpicture method [DirectShow], GetCurrentSubpicture method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentSubpicture method, IDvdInfo.GetCurrentSubpicture, IDvdInfo::GetCurrentSubpicture, IDvdInfoGetCurrentSubpicture, dshow.idvdinfo_getcurrentsubpicture, strmif/IDvdInfo::GetCurrentSubpicture
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo.GetCurrentSubpicture
 dev_langs:
@@ -118,7 +117,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-Requested action is not supported on this domain (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
+Requested action is not supported on this domain (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
 
 </td>
 </tr>
@@ -145,7 +144,7 @@ Requested action cannot occur at this point in the movie due to the authoring of
 
 Subpicture streams authored as forcedly activated streams will be displayed even if the application has disabled subpicture display with the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-subpicturestreamchange">IDvdControl::SubpictureStreamChange</a> method.
 
-This method returns an error unless the domain is DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

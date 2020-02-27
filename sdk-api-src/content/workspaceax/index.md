@@ -1,9 +1,10 @@
 ---
 UID: NA:workspaceax
+title: Workspaceax.h header
 ms.assetid: 070a0656-d411-3c40-bac1-52e114ded1bd
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: termserv
 ---
 

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 5eec7bda-bbd8-454a-8b32-9db769df91e6
 ms.date: 12/05/2018
 ms.keywords: IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],SetEndPoint method, IXpsOMLinearGradientBrush.SetEndPoint, IXpsOMLinearGradientBrush::SetEndPoint, SetEndPoint, SetEndPoint method [XPS Documents and Packaging], SetEndPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, xps.ixpsomlineargradientbrush_setendpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::SetEndPoint
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMLinearGradientBrush.SetEndPoint
 dev_langs:
@@ -131,7 +130,7 @@ The coordinates are relative to the page and are expressed in the units of the t
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

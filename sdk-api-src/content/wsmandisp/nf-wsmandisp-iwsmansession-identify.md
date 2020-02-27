@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: d3f4e33e-436b-4f05-8696-321a3bfbacd5
 ms.date: 12/05/2018
 ms.keywords: IWSManSession interface [Windows Remote Management],Identify method, IWSManSession.Identify, IWSManSession::Identify, Identify, Identify method [Windows Remote Management], Identify method [Windows Remote Management],IWSManSession interface, winrm.iwsmansession_identify, wsmandisp/IWSManSession::Identify
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManSession.Identify
 dev_langs:

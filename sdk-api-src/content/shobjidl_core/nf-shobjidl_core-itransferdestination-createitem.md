@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 56a02dd1-2118-4585-b6e9-8223c086b48a
 ms.date: 12/05/2018
 ms.keywords: CreateItem, CreateItem method [Windows Shell], CreateItem method [Windows Shell],ITransferDestination interface, ITransferDestination interface [Windows Shell],CreateItem method, ITransferDestination.CreateItem, ITransferDestination::CreateItem, _shell_ITransferDestination_CreateItem, shell.ITransferDestination_CreateItem, shobjidl_core/ITransferDestination::CreateItem
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ITransferDestination.CreateItem
 dev_langs:

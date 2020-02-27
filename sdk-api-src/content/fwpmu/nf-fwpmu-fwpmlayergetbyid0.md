@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: c7668d06-8533-4dd1-a4f6-fb38c97219db
 ms.date: 12/05/2018
 ms.keywords: FwpmLayerGetById0, FwpmLayerGetById0 function [Filtering], fwp.fwpmlayergetbyid0_func, fwpmu/FwpmLayerGetById0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmLayerGetById0
 dev_langs:
@@ -69,7 +68,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 Type: <b>UINT16</b>
 
- Identifier of the desired layer. For a list of possible values, see <a href="http://go.microsoft.com/fwlink/p/?linkid=229388">Run-time Filtering Layer Identifiers</a>  in the WDK documentation for Windows Filtering Platform.
+ Identifier of the desired layer. For a list of possible values, see <a href="https://msdn.microsoft.com/library/ff570731(VS.85).aspx">Run-time Filtering Layer Identifiers</a>  in the WDK documentation for Windows Filtering Platform.
 
 
 ### -param layer [out]
@@ -154,7 +153,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=229388">Run-time Filtering Layer Identifiers</a>
+<a href="https://msdn.microsoft.com/library/ff570731(VS.85).aspx">Run-time Filtering Layer Identifiers</a>
  
 
  

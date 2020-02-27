@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: ce2b65e5-89fe-48c9-aa00-373406891d02
 ms.date: 12/05/2018
 ms.keywords: IEnumNetworks, IEnumNetworks interface [Network Awareness], IEnumNetworks interface [Network Awareness],described, netlistmgr/IEnumNetworks, nla.ienumnetworks
-ms.topic: interface
 f1_keywords:
 - netlistmgr/IEnumNetworks
 dev_langs:

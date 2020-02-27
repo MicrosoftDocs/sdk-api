@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 1584c00e-06a5-44f4-8c4b-a2b23737a652
 ms.date: 12/05/2018
 ms.keywords: SafeArrayGetRecordInfo, SafeArrayGetRecordInfo function [Automation], _oa96_SafeArrayGetRecordInfo, automat.safearraygetrecordinfo, oleauto/SafeArrayGetRecordInfo
-ms.topic: function
 f1_keywords:
 - oleauto/SafeArrayGetRecordInfo
 dev_langs:

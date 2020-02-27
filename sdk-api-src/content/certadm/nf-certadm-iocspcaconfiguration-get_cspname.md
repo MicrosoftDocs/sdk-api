@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: a35400a9-7eb7-4298-b023-efe2a087ba7d
 ms.date: 12/05/2018
 ms.keywords: CSPName property [Security], CSPName property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],CSPName property, IOCSPCAConfiguration.CSPName, IOCSPCAConfiguration.get_CSPName, IOCSPCAConfiguration::CSPName, IOCSPCAConfiguration::get_CSPName, certadm/IOCSPCAConfiguration::CSPName, certadm/IOCSPCAConfiguration::get_CSPName, get_CSPName, security.iocspcaconfiguration_cspname_method
-ms.topic: method
 f1_keywords:
 - certadm/IOCSPCAConfiguration.CSPName
 dev_langs:

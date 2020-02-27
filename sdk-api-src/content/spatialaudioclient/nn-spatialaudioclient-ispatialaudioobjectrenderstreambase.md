@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 2C2BE871-EFD1-40E1-B466-6BBD09C56852
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectRenderStreamBase, ISpatialAudioObjectRenderStreamBase interface [Core Audio], ISpatialAudioObjectRenderStreamBase interface [Core Audio],described, coreaudio.ispatialaudioobjectrenderstreambase, spatialaudioclient/ISpatialAudioObjectRenderStreamBase
-ms.topic: interface
 f1_keywords:
 - spatialaudioclient/ISpatialAudioObjectRenderStreamBase
 dev_langs:

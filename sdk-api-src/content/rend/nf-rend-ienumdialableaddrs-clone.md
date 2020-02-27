@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 5d05bdfb-007a-451a-bf79-f5a8e4171f85
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumDialableAddrs interface, IEnumDialableAddrs interface [TAPI 2.2],Clone method, IEnumDialableAddrs.Clone, IEnumDialableAddrs::Clone, _tapi3_ienumdialableaddrs_clone, rend/IEnumDialableAddrs::Clone, tapi3.ienumdialableaddrs_clone
-ms.topic: method
 f1_keywords:
 - rend/IEnumDialableAddrs.Clone
 dev_langs:

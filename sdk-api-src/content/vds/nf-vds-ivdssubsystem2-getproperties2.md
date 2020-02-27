@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 1f2164a9-643d-4762-8a2e-31d5c277502e
 ms.date: 12/05/2018
 ms.keywords: GetProperties2, GetProperties2 method, GetProperties2 method,IVdsSubSystem2 interface, IVdsSubSystem2 interface,GetProperties2 method, IVdsSubSystem2.GetProperties2, IVdsSubSystem2::GetProperties2, base.ivdssubsystem2_getproperties2, vds/IVdsSubSystem2::GetProperties2, vdshwprv/IVdsSubSystem2::GetProperties2
-ms.topic: method
 f1_keywords:
 - vds/IVdsSubSystem2.GetProperties2
 dev_langs:

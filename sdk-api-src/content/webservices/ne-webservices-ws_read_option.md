@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 634b057f-3121-43cc-919f-8636e67ce0d7
 ms.date: 12/05/2018
 ms.keywords: WS_READ_NILLABLE_POINTER, WS_READ_NILLABLE_VALUE, WS_READ_OPTION, WS_READ_OPTION enumeration [Web Services for Windows], WS_READ_OPTIONAL_POINTER, WS_READ_REQUIRED_POINTER, WS_READ_REQUIRED_VALUE, webservices/WS_READ_NILLABLE_POINTER, webservices/WS_READ_NILLABLE_VALUE, webservices/WS_READ_OPTION, webservices/WS_READ_OPTIONAL_POINTER, webservices/WS_READ_REQUIRED_POINTER, webservices/WS_READ_REQUIRED_VALUE, wsw.ws_read_option
-ms.topic: enum
 f1_keywords:
 - webservices/WS_READ_OPTION
 dev_langs:

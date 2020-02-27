@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 5c70c85a-77a5-4e3b-9247-7686d43cbd1a
 ms.date: 12/05/2018
 ms.keywords: 433c837f-7fd5-8e03-76ca-d912879e10fd, GetFeatureMask, GetFeatureMask method [Direct3D 11], GetFeatureMask method [Direct3D 11],ID3D11Debug interface, ID3D11Debug interface [Direct3D 11],GetFeatureMask method, ID3D11Debug.GetFeatureMask, ID3D11Debug::GetFeatureMask, d3d11sdklayers/ID3D11Debug::GetFeatureMask, direct3d11.id3d11debug_getfeaturemask
-ms.topic: method
 f1_keywords:
 - d3d11sdklayers/ID3D11Debug.GetFeatureMask
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 2cad61c6-c8a1-437f-8e2c-1fa70eb348c2
 ms.date: 12/05/2018
 ms.keywords: SymSrvGetSupplement, SymSrvGetSupplement function, SymSrvGetSupplementW, base.symsrvgetsupplement, dbghelp/SymSrvGetSupplement, dbghelp/SymSrvGetSupplementW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymSrvGetSupplement
 dev_langs:

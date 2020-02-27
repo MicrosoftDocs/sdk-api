@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 09f8273a-5259-44fa-b55e-af3282735c0b
 ms.date: 12/05/2018
 ms.keywords: WlanGetInterfaceCapability, WlanGetInterfaceCapability function [NativeWIFI], nwifi.wlangetinterfacecapability, wlanapi/WlanGetInterfaceCapability
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanGetInterfaceCapability
 dev_langs:

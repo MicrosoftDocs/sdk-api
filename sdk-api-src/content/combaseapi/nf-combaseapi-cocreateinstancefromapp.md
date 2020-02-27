@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 1C773D78-5B33-44FE-A09B-AB8087F678A1
 ms.date: 12/05/2018
 ms.keywords: CoCreateInstanceFromApp, CoCreateInstanceFromApp function [COM], com.cocreateinstancefromapp, combaseapi/CoCreateInstanceFromApp
-ms.topic: function
 f1_keywords:
 - combaseapi/CoCreateInstanceFromApp
 dev_langs:
@@ -87,7 +86,7 @@ The number of structures in <i>pResults</i>. This value must be greater than 0.
 
 ### -param pResults [in, out]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-multi_qi">MULTI_QI</a> structures. Each structure has three members: the identifier for a requested interface (<b>pIID</b>), the location to return the interface pointer (<b>pItf</b>) and the return value of the call to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> (<b>hr</b>).
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-multi_qi">MULTI_QI</a> structures. Each structure has three members: the identifier for a requested interface (<b>pIID</b>), the location to return the interface pointer (<b>pItf</b>) and the return value of the call to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> (<b>hr</b>).
 
 
 ## -returns

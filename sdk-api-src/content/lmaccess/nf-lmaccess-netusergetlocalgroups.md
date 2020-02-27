@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: cc5c1c15-cad7-4103-a2c9-1a8adf742703
 ms.date: 12/05/2018
 ms.keywords: 0, NetUserGetLocalGroups, NetUserGetLocalGroups function [Network Management], _win32_netusergetlocalgroups, lmaccess/NetUserGetLocalGroups, netmgmt.netusergetlocalgroups
-ms.topic: function
 f1_keywords:
 - lmaccess/NetUserGetLocalGroups
 dev_langs:

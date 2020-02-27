@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_62ud.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingArchive interface [Fax Service],Save method, IFaxOutgoingArchive.Save, IFaxOutgoingArchive::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxOutgoingArchive interface, _mfax_faxoutgoingarchive.save, fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_save_cpp, fax._mfax_faxoutgoingarchive_save, faxcomex/IFaxOutgoingArchive::Save
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutgoingArchive.Save
 dev_langs:

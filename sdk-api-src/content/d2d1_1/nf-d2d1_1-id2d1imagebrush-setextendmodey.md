@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 8c71dff4-f682-4649-8e29-41bcd4b911a6
 ms.date: 12/05/2018
 ms.keywords: ID2D1ImageBrush interface [Direct2D],SetExtendModeY method, ID2D1ImageBrush.SetExtendModeY, ID2D1ImageBrush::SetExtendModeY, SetExtendModeY, SetExtendModeY method [Direct2D], SetExtendModeY method [Direct2D],ID2D1ImageBrush interface, d2d1_1/ID2D1ImageBrush::SetExtendModeY, direct2d.id2d1imagebrush_setextendmodey
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1ImageBrush.SetExtendModeY
 dev_langs:

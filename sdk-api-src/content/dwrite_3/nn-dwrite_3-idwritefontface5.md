@@ -5,7 +5,6 @@ description: Contains font face type, appropriate file references, and face iden
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: IDWriteFontFace5, IDWriteFontFace5 interface [Direct Write], IDWriteFontFace5 interface [Direct Write],described, directwrite.idwritefontface5, dwrite_3/IDWriteFontFace5
-ms.topic: interface
 f1_keywords:
 - IDWriteFontFace5
 dev_langs:

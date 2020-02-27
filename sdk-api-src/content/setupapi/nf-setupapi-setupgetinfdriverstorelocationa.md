@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 34131e9e-2e0e-4098-a988-3dadbf1789af
 ms.date: 12/05/2018
 ms.keywords: SetupGetInfDriverStoreLocation, SetupGetInfDriverStoreLocation function [Device and Driver Installation], SetupGetInfDriverStoreLocationA, SetupGetInfDriverStoreLocationW, devinst.setupgetinfdriverstorelocation, setup-ref_349dd5f9-d925-4bdf-b99d-b8abef1eb12b.xml, setupapi/SetupGetInfDriverStoreLocation
-ms.topic: function
 f1_keywords:
 - setupapi/SetupGetInfDriverStoreLocation
 dev_langs:
@@ -95,9 +94,9 @@ A pointer to a DWORD-typed variable that receives the size, in characters, of th
 
 
 
-If <b>SetupGetInfDriverStoreLocation</b> succeeds, the function returns <b>TRUE</b>; otherwise, the function returns <b>FALSE</b>. To obtain extended error information, call <a href="http://go.microsoft.com/fwlink/p/?linkid=74036">GetLastError</a>. 
+If <b>SetupGetInfDriverStoreLocation</b> succeeds, the function returns <b>TRUE</b>; otherwise, the function returns <b>FALSE</b>. To obtain extended error information, call <a href="https://msdn.microsoft.com/library/ms679360.aspx">GetLastError</a>. 
 
-If the size, in characters, of the fully qualified file name of the requested INF file, including a null-terminator, is greater than <i>ReturnBufferSize</i>, the function will fail, and a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=74036">GetLastError</a> will return ERROR_INSUFFICIENT_BUFFER. 
+If the size, in characters, of the fully qualified file name of the requested INF file, including a null-terminator, is greater than <i>ReturnBufferSize</i>, the function will fail, and a call to <a href="https://msdn.microsoft.com/library/ms679360.aspx">GetLastError</a> will return ERROR_INSUFFICIENT_BUFFER. 
 
 
 

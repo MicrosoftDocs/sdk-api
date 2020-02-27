@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: fc9fed5c-8a5b-4960-836b-e083154b7d90
 ms.date: 12/05/2018
 ms.keywords: WSD_ENDPOINT_REFERENCE_LIST, WSD_ENDPOINT_REFERENCE_LIST structure, ncd.wsd_endpoint_reference_list, wsdtypes/WSD_ENDPOINT_REFERENCE_LIST
-ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_ENDPOINT_REFERENCE_LIST
 dev_langs:

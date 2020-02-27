@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 593aaa1f-b0eb-43a0-bf73-e90225c07cdf
 ms.date: 12/05/2018
 ms.keywords: BeginPreprocessingPass, BeginPreprocessingPass method [windows Media Format], BeginPreprocessingPass method [windows Media Format],IWMWriterPreprocess interface, IWMWriterPreprocess interface [windows Media Format],BeginPreprocessingPass method, IWMWriterPreprocess.BeginPreprocessingPass, IWMWriterPreprocess::BeginPreprocessingPass, IWMWriterPreprocessBeginPreprocessingPass, wmformat.iwmwriterpreprocess_beginpreprocessingpass, wmsdkidl/IWMWriterPreprocess::BeginPreprocessingPass
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriterPreprocess.BeginPreprocessingPass
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: 7ea7e00f-98f5-4928-9919-705ffa53b91b
 ms.date: 12/05/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialTimestamp property, IInertiaProcessor.InitialTimestamp, IInertiaProcessor.get_InitialTimestamp, IInertiaProcessor::InitialTimestamp, IInertiaProcessor::get_InitialTimestamp, IInertiaProcessor::put_InitialTimestamp, InitialTimestamp property [Windows Touch], InitialTimestamp property [Windows Touch],IInertiaProcessor interface, get_InitialTimestamp, manipulations/IInertiaProcessor::InitialTimestamp, manipulations/IInertiaProcessor::get_InitialTimestamp, manipulations/IInertiaProcessor::put_InitialTimestamp, wintouch.iinertiaprocessor_initialtimestamp
-ms.topic: method
 f1_keywords:
 - manipulations/IInertiaProcessor.InitialTimestamp
 dev_langs:

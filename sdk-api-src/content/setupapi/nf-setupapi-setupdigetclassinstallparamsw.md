@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 4ac1eb44-c7d6-48f3-bc7f-fb547e5a985e
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassInstallParams, SetupDiGetClassInstallParams function [Device and Driver Installation], SetupDiGetClassInstallParamsA, SetupDiGetClassInstallParamsW, devinst.setupdigetclassinstallparams, di-rtns_2f7d5019-6b09-4dc0-8640-8a452d01e6da.xml, setupapi/SetupDiGetClassInstallParams
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetClassInstallParams
 dev_langs:
@@ -88,7 +87,7 @@ A pointer to a variable of type DWORD that receives the number of bytes required
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 

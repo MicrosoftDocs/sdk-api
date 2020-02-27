@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: e63dd8dd-dcef-4d52-96f7-cf9a7e42a0f1
 ms.date: 12/05/2018
 ms.keywords: IConsoleNameSpace interface [MMC],SetItem method, IConsoleNameSpace.SetItem, IConsoleNameSpace2 interface [MMC],SetItem method, IConsoleNameSpace2::SetItem, IConsoleNameSpace::SetItem, SetItem, SetItem method [MMC], SetItem method [MMC],IConsoleNameSpace interface, SetItem method [MMC],IConsoleNameSpace2 interface, _slate_iconsolenamespace2_setitem, mmc.iconsolenamespace2_setitem, mmc/IConsoleNameSpace2::SetItem, mmc/IConsoleNameSpace::SetItem
-ms.topic: method
 f1_keywords:
 - mmc/IConsoleNameSpace.SetItem
 dev_langs:

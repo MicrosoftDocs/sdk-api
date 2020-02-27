@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 12D9F82C-F484-43B0-BD55-F07321058671
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_PARA structure [Security], PCCERT_STRONG_SIGN_PARA, PCCERT_STRONG_SIGN_PARA structure pointer [Security], PCERT_STRONG_SIGN_PARA, PCERT_STRONG_SIGN_PARA structure pointer [Security], security.cert_strong_sign_para, szOID_CERT_STRONG_KEY_OS_1, szOID_CERT_STRONG_SIGN_OS_1, wincrypt/CERT_STRONG_SIGN_PARA, wincrypt/PCCERT_STRONG_SIGN_PARA, wincrypt/PCERT_STRONG_SIGN_PARA'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_STRONG_SIGN_PARA
 dev_langs:

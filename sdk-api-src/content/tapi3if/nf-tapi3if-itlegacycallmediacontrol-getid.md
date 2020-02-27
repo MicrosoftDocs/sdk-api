@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 7516f929-d782-499b-a9fb-24c44a85aa9e
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method [TAPI 2.2], GetID method [TAPI 2.2],ITLegacyCallMediaControl interface, ITLegacyCallMediaControl interface [TAPI 2.2],GetID method, ITLegacyCallMediaControl.GetID, ITLegacyCallMediaControl::GetID, _tapi3_itlegacycallmediacontrol_getid, tapi3.itlegacycallmediacontrol_getid, tapi3if/ITLegacyCallMediaControl::GetID
-ms.topic: method
 f1_keywords:
 - tapi3if/ITLegacyCallMediaControl.GetID
 dev_langs:

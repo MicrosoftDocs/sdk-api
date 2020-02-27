@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getnextitem.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_GetNextItem, ListView_GetNextItem macro [Windows Controls], _win32_ListView_GetNextItem, _win32_ListView_GetNextItem_cpp, commctrl/ListView_GetNextItem, controls.ListView_GetNextItem, controls._win32_ListView_GetNextItem
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_GetNextItem
 dev_langs:

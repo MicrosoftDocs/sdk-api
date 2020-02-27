@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: fe664968-ce70-4bc4-9caa-3e4d241d253c
 ms.date: 12/05/2018
 ms.keywords: NDR_USER_MARSHAL_INFO_LEVEL1, NDR_USER_MARSHAL_INFO_LEVEL1 structure [RPC], _rpc_ndr_user_marshal_info_level1, rpc.ndr_user_marshal_info_level1, rpcndr/NDR_USER_MARSHAL_INFO_LEVEL1
-ms.topic: struct
 f1_keywords:
 - rpcndr/NDR_USER_MARSHAL_INFO_LEVEL1
 dev_langs:

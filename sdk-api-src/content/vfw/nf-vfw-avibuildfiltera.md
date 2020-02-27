@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 0ec90343-7493-4fa7-ac89-a49db90ecdf7
 ms.date: 12/05/2018
 ms.keywords: AVIBuildFilter, AVIBuildFilter function [Windows Multimedia], AVIBuildFilterA, AVIBuildFilterW, _win32_AVIBuildFilter, multimedia.avibuildfilter, vfw/AVIBuildFilter, vfw/AVIBuildFilterA, vfw/AVIBuildFilterW
-ms.topic: function
 f1_keywords:
 - vfw/AVIBuildFilter
 dev_langs:
@@ -53,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The <b>AVIBuildFilter</b> function builds a filter specification that is subsequently used by the <a href="http://go.microsoft.com/fwlink/p/?linkid=16939">GetOpenFileName</a> or <a href="http://go.microsoft.com/fwlink/p/?linkid=16940">GetSaveFileName</a> function.
+The <b>AVIBuildFilter</b> function builds a filter specification that is subsequently used by the <a href="https://msdn.microsoft.com/library/ms646927.aspx">GetOpenFileName</a> or <a href="https://msdn.microsoft.com/library/ms646928.aspx">GetSaveFileName</a> function.
 
 
 

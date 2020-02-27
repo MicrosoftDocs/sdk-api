@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: f3a98563-0c7f-4f4b-b272-af7c0366b95d
 ms.date: 12/05/2018
 ms.keywords: RpcNsGroupMbrInqBegin, RpcNsGroupMbrInqBegin function [RPC], RpcNsGroupMbrInqBeginA, RpcNsGroupMbrInqBeginW, _rpc_rpcnsgroupmbrinqbegin, rpc.rpcnsgroupmbrinqbegin, rpcnsi/RpcNsGroupMbrInqBegin, rpcnsi/RpcNsGroupMbrInqBeginA, rpcnsi/RpcNsGroupMbrInqBeginW
-ms.topic: function
 f1_keywords:
 - rpcnsi/RpcNsGroupMbrInqBegin
 dev_langs:

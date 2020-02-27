@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 498bfb73-bfa5-429d-ae8a-3a691fc25fc2
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],WriteStreamSample method, IWMWriterAdvanced.WriteStreamSample, IWMWriterAdvanced::WriteStreamSample, IWMWriterAdvancedWriteStreamSample, WriteStreamSample, WriteStreamSample method [windows Media Format], WriteStreamSample method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_writestreamsample, wmsdkidl/IWMWriterAdvanced::WriteStreamSample
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriterAdvanced.WriteStreamSample
 dev_langs:

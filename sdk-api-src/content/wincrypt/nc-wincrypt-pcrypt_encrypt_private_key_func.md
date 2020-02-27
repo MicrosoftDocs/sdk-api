@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: aa6b8bca-4f0d-491e-ab38-5c273a01ca05
 ms.date: 12/05/2018
 ms.keywords: PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC, PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC callback, PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC callback function [Security], security.pcrypt_encrypt_private_key_func, wincrypt/PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC
-ms.topic: callback
 f1_keywords:
 - wincrypt/PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC
 dev_langs:

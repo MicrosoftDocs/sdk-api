@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: 66b78404-02c2-48e9-92c3-d27b68f77c23
 ms.date: 12/05/2018
 ms.keywords: LsaAddAccountRights, LsaAddAccountRights function [Security], _lsa_lsaaddaccountrights, ntsecapi/LsaAddAccountRights, security.lsaaddaccountrights
-ms.topic: function
 f1_keywords:
 - ntsecapi/LsaAddAccountRights
 dev_langs:

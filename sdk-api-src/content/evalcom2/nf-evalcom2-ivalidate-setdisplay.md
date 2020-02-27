@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: e376740e-82fc-44da-b200-c74d73978c6e
 ms.date: 12/05/2018
 ms.keywords: IValidate interface,SetDisplay method, IValidate.SetDisplay, IValidate::SetDisplay, SetDisplay, SetDisplay method, SetDisplay method,IValidate interface, evalcom2/IValidate::SetDisplay, setup.ivalidate_setdisplay
-ms.topic: method
 f1_keywords:
 - evalcom2/IValidate.SetDisplay
 dev_langs:

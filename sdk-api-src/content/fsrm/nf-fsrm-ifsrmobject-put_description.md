@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 8e039e44-17f0-47e7-935b-404af43685bf
 ms.date: 12/05/2018
 ms.keywords: Description property [File Server Resource Manager], Description property [File Server Resource Manager],IFsrmObject interface, IFsrmObject interface [File Server Resource Manager],Description property, IFsrmObject.Description, IFsrmObject.put_Description, IFsrmObject::Description, IFsrmObject::get_Description, IFsrmObject::put_Description, fs.ifsrmobject_description, fsrm.ifsrmobject_description, fsrm/IFsrmObject::Description, fsrm/IFsrmObject::get_Description, fsrm/IFsrmObject::put_Description, put_Description
-ms.topic: method
 f1_keywords:
 - fsrm/IFsrmObject.Description
 dev_langs:

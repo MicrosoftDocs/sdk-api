@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 7dba0ae5-5610-4b8f-bbe5-b89244779e2d
 ms.date: 12/05/2018
 ms.keywords: WS_SHUTDOWN_SESSION_CHANNEL_CALLBACK, WS_SHUTDOWN_SESSION_CHANNEL_CALLBACK callback, WS_SHUTDOWN_SESSION_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_SHUTDOWN_SESSION_CHANNEL_CALLBACK, wsw.ws_shutdown_session_channel_callback
-ms.topic: callback
 f1_keywords:
 - webservices/WS_SHUTDOWN_SESSION_CHANNEL_CALLBACK
 dev_langs:

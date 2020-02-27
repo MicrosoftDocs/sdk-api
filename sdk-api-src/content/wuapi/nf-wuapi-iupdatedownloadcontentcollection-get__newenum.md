@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 8f53d81b-aa86-4a35-9d69-a97e19513ce3
 ms.date: 12/05/2018
 ms.keywords: IUpdateDownloadContentCollection interface [Windows Update Agent],_NewEnum property, IUpdateDownloadContentCollection._NewEnum, IUpdateDownloadContentCollection.get__NewEnum, IUpdateDownloadContentCollection::_NewEnum, IUpdateDownloadContentCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IUpdateDownloadContentCollection interface, get__NewEnum, wua.iupdatedownloadcontentcollection__newenum, wuapi/IUpdateDownloadContentCollection::_NewEnum, wuapi/IUpdateDownloadContentCollection::get__NewEnum
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateDownloadContentCollection._NewEnum
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 433FABE2-D0BB-4E97-84BB-D20566D32571
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method, GetBuffer method,ID3D12ShaderReflectionVariable interface, ID3D12ShaderReflectionVariable interface,GetBuffer method, ID3D12ShaderReflectionVariable.GetBuffer, ID3D12ShaderReflectionVariable::GetBuffer, d3d12shader/ID3D12ShaderReflectionVariable::GetBuffer, direct3d12.id3d12shaderreflectionvariable_getbuffer
-ms.topic: method
 f1_keywords:
 - d3d12shader/ID3D12ShaderReflectionVariable.GetBuffer
 dev_langs:

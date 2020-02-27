@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getencoderparameterlist.htm
 ms.date: 12/05/2018
 ms.keywords: GetEncoderParameterList, GetEncoderParameterList method [GDI+], GetEncoderParameterList method [GDI+],Image class, Image class [GDI+],GetEncoderParameterList method, Image.GetEncoderParameterList, Image::GetEncoderParameterList, _gdiplus_CLASS_Image_GetEncoderParameterList_clsidEncoder_size_buffer_, gdiplus._gdiplus_CLASS_Image_GetEncoderParameterList_clsidEncoder_size_buffer_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Image.GetEncoderParameterList
 dev_langs:

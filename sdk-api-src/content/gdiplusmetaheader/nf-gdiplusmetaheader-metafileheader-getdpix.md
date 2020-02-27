@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getdpix_56.htm
 ms.date: 12/05/2018
 ms.keywords: GetDpiX, GetDpiX method [GDI+], GetDpiX method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetDpiX method, MetafileHeader.GetDpiX, MetafileHeader::GetDpiX, _gdiplus_CLASS_MetafileHeader_GetDpiX_, gdiplus._gdiplus_CLASS_MetafileHeader_GetDpiX_
-ms.topic: method
 f1_keywords:
 - gdiplusmetaheader/MetafileHeader.GetDpiX
 dev_langs:

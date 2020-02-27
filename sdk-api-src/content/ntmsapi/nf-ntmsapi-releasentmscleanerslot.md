@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: c3530534-c502-4168-8039-b5ce4f0a5816
 ms.date: 12/05/2018
 ms.keywords: ReleaseNtmsCleanerSlot, ReleaseNtmsCleanerSlot function [Files], _zaw_releasentmscleanerslot, base.releasentmscleanerslot, fs.releasentmscleanerslot, ntmsapi/ReleaseNtmsCleanerSlot
-ms.topic: function
 f1_keywords:
 - ntmsapi/ReleaseNtmsCleanerSlot
 dev_langs:

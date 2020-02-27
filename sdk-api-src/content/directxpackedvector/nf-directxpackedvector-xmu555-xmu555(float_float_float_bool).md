@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU555.#ctor(float,float,float,bool)
 ms.date: 12/05/2018
 ms.keywords: XMU555, XMU555 constructor [DirectX Math Support APIs], XMU555 constructor [DirectX Math Support APIs],XMU555 structure, XMU555 structure [DirectX Math Support APIs],XMU555 constructor, XMU555.XMU555, XMU555.XMU555(float,float,float,bool), XMU555::XMU555, XMU555::XMU555(float,float,float,bool), dxmath.xmu555_ctor_5
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMU555.XMU555
 dev_langs:

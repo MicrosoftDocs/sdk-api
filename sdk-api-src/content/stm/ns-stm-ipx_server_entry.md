@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 5b865c28-6a0e-4af3-a646-c1082b5c3ce5
 ms.date: 12/05/2018
 ms.keywords: '*PIPX_SERVER_ENTRY, IPX_SERVER_ENTRY, IPX_SERVER_ENTRY structure [RAS], PIPX_SERVER_ENTRY, PIPX_SERVER_ENTRY structure pointer [RAS], _mpr_ipx_server_entry, rras.ipx_server_entry, stm/IPX_SERVER_ENTRY, stm/PIPX_SERVER_ENTRY'
-ms.topic: struct
 f1_keywords:
 - stm/IPX_SERVER_ENTRY
 dev_langs:

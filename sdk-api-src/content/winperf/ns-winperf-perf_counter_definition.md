@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: faef043b-81e0-49b0-913f-d691bafd17e6
 ms.date: 12/05/2018
 ms.keywords: '*PPERF_COUNTER_DEFINITION, PERF_COUNTER_DEFINITION, PERF_COUNTER_DEFINITION structure [Perf], PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, _win32_perf_counter_definition_str, base.perf_counter_definition_str, perf.perf_counter_definition_str, winperf/PERF_COUNTER_DEFINITION'
-ms.topic: struct
 f1_keywords:
 - winperf/PERF_COUNTER_DEFINITION
 dev_langs:
@@ -153,7 +152,7 @@ The counter data is provided for system designers.
 
 ### -field CounterType
 
-Type of counter. For a list of predefined counter types, see the Counter Types section of the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84422">Windows Server 2003 Deployment Kit</a>. Consumers use the counter type to determine how to calculate and display the counter value. Providers should limit their choice of counter types to the predefined list. 
+Type of counter. For a list of predefined counter types, see the Counter Types section of the <a href="https://technet.microsoft.com/library/3fb01419-b1ab-4f52-a9f8-09d5ebeb9ef2">Windows Server 2003 Deployment Kit</a>. Consumers use the counter type to determine how to calculate and display the counter value. Providers should limit their choice of counter types to the predefined list. 
 					
 
 

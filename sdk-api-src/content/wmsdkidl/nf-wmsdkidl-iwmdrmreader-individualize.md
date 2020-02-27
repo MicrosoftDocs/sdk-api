@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 51bf9aa0-4c96-4c0b-8e5e-b63fd20dcc4d
 ms.date: 12/05/2018
 ms.keywords: IWMDRMReader interface [windows Media Format],Individualize method, IWMDRMReader.Individualize, IWMDRMReader::Individualize, IWMDRMReaderIndividualize, Individualize, Individualize method [windows Media Format], Individualize method [windows Media Format],IWMDRMReader interface, wmformat.iwmdrmreader_individualize, wmsdkidl/IWMDRMReader::Individualize
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDRMReader.Individualize
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>Individualize</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>Individualize</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 

@@ -7,7 +7,6 @@ tech.root: Shutdown
 ms.assetid: 9d0d3774-3e4d-4e56-b4c2-d59d74e797a1
 ms.date: 12/05/2018
 ms.keywords: InitiateShutdown, InitiateShutdown function, InitiateShutdownA, InitiateShutdownW, SHUTDOWN_FORCE_OTHERS, SHUTDOWN_FORCE_SELF, SHUTDOWN_GRACE_OVERRIDE, SHUTDOWN_HYBRID, SHUTDOWN_INSTALL_UPDATES, SHUTDOWN_NOREBOOT, SHUTDOWN_POWEROFF, SHUTDOWN_RESTART, SHUTDOWN_RESTARTAPPS, base.initiateshutdown, security.initiateshutdown, winreg/InitiateShutdown, winreg/InitiateShutdownA, winreg/InitiateShutdownW
-ms.topic: function
 f1_keywords:
 - winreg/InitiateShutdown
 dev_langs:

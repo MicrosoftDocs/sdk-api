@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 705732a8-7584-42cf-be9b-dd36b35bba37
 ms.date: 12/05/2018
 ms.keywords: WSMAN_SHELL_COMPLETION_FUNCTION, WSMAN_SHELL_COMPLETION_FUNCTION callback, WSMAN_SHELL_COMPLETION_FUNCTION callback function [Windows Remote Management], winrm.wsman_shell_completion_function, wsman/WSMAN_SHELL_COMPLETION_FUNCTION
-ms.topic: callback
 f1_keywords:
 - wsman/WSMAN_SHELL_COMPLETION_FUNCTION
 dev_langs:

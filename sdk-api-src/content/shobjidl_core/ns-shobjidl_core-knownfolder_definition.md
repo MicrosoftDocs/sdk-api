@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 08bd8406-68fa-4e02-9a64-ed5e62f8639b
 ms.date: 12/05/2018
 ms.keywords: KNOWNFOLDER_DEFINITION, KNOWNFOLDER_DEFINITION structure [Windows Shell], _shell_KNOWNFOLDER_DEFINITION, shell.KNOWNFOLDER_DEFINITION, shobjidl_core/KNOWNFOLDER_DEFINITION
-ms.topic: struct
 f1_keywords:
 - shobjidl_core/KNOWNFOLDER_DEFINITION
 dev_langs:

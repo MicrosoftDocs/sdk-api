@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: d053c9dc-c719-4e0c-b1e9-58303b51cb26
 ms.date: 12/05/2018
 ms.keywords: SLPersistRTSPayloadOverride, SLPersistRTSPayloadOverride function [Security], security.slpersistrtspayloadoverride, slpublic/SLPersistRTSPayloadOverride
-ms.topic: function
 f1_keywords:
 - slpublic/SLPersistRTSPayloadOverride
 dev_langs:

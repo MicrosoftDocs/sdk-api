@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: dc7748b4-5cf4-41c6-af7d-82b2478b084c
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [COM+], GetProperty method [COM+],IContextProperties interface, IContextProperties interface [COM+],GetProperty method, IContextProperties.GetProperty, IContextProperties::GetProperty, _cos_IContextProperties_GetProperty, comsvcs/IContextProperties::GetProperty, cos.icontextproperties_getproperty
-ms.topic: method
 f1_keywords:
 - comsvcs/IContextProperties.GetProperty
 dev_langs:
@@ -95,7 +94,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-To retrieve an IIS object, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> using the VT_DISPATCH member of the returned <b>VARIANT</b> for the interface to the IIS object (for example, IResponse for the Response object).
+To retrieve an IIS object, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> using the VT_DISPATCH member of the returned <b>VARIANT</b> for the interface to the IIS object (for example, IResponse for the Response object).
 
 
 

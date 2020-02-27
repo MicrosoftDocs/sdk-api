@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: c461d50a-c785-4b32-b331-fe3a1693f4de
 ms.date: 12/05/2018
 ms.keywords: AZ_AZSTORE_FLAG_AUDIT_IS_CRITICAL, AZ_AZSTORE_FLAG_BATCH_UPDATE, AZ_AZSTORE_FLAG_CREATE, AZ_AZSTORE_FLAG_MANAGE_STORE_ONLY, AzAuthorizationStore object [Security],Initialize method, IAzAuthorizationStore interface [Security],Initialize method, IAzAuthorizationStore.Initialize, IAzAuthorizationStore::Initialize, Initialize, Initialize method [Security], Initialize method [Security],AzAuthorizationStore object, Initialize method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::Initialize, security.azauthorizationstore_initialize
-ms.topic: method
 f1_keywords:
 - azroles/AzAuthorizationStore.Initialize
 dev_langs:
@@ -162,7 +161,7 @@ The policy URL prefix for an XML store is <b>msxml:</b>.  The general format for
 </ul>
 Note that in the fourth example, the URL uses encoding for the space (%20) and the period (%2e) characters. Also, the traditional relative path notation is not supported in URLs. If you specify msxml://abc.xml, the URL points to the file at the root of your drive.
 
-<div class="alert"><b>Note</b>  If an XML or SQL store is used over a network, the traffic is not automatically encrypted. IPsec can be used to encrypt the authorization information in transit. For an SQL store, it is also possible to set up the open database connectivity (ODBC) connection to use encryption. For information about how to set up the ODBC connection, see <a href="http://go.microsoft.com/fwlink/p/?linkid=120846">How to enable encryption after SQL Server has been installed (Network Utility)</a>.</div>
+<div class="alert"><b>Note</b>  If an XML or SQL store is used over a network, the traffic is not automatically encrypted. IPsec can be used to encrypt the authorization information in transit. For an SQL store, it is also possible to set up the open database connectivity (ODBC) connection to use encryption. For information about how to set up the ODBC connection, see <a href="https://msdn.microsoft.com/library/aa198230.aspx">How to enable encryption after SQL Server has been installed (Network Utility)</a>.</div>
 <div> </div>
 
 ### -param varReserved [in, optional]

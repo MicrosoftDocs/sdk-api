@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 0DC0CF7F-0C74-4595-9DC6-9468E1E7DA20
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpv6GetOptionValue, PxeDhcpv6GetOptionValue function [Windows Deployment Services], wds.pxedhcpv6getoptionvalue, wdspxe/PxeDhcpv6GetOptionValue
-ms.topic: function
 f1_keywords:
 - wdspxe/PxeDhcpv6GetOptionValue
 dev_langs:

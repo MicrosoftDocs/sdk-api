@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: e6bc12fe-9274-4339-baf5-80a80512759e
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_TrackInfo method, IRawCDImageCreator.get_TrackInfo, IRawCDImageCreator::get_TrackInfo, get_TrackInfo, get_TrackInfo method [IMAPI], get_TrackInfo method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_trackinfo, imapi2/IRawCDImageCreator::get_TrackInfo
-ms.topic: method
 f1_keywords:
 - imapi2/IRawCDImageCreator.get_TrackInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 39fc05f8-4b09-4305-b9a4-b4ef65788efc
 ms.date: 12/05/2018
 ms.keywords: IWSDAsyncResult interface,SetCallback method, IWSDAsyncResult.SetCallback, IWSDAsyncResult::SetCallback, SetCallback, SetCallback method, SetCallback method,IWSDAsyncResult interface, ncd.iwsdasyncresult_setcallback, wsdclient/IWSDAsyncResult::SetCallback
-ms.topic: method
 f1_keywords:
 - wsdclient/IWSDAsyncResult.SetCallback
 dev_langs:

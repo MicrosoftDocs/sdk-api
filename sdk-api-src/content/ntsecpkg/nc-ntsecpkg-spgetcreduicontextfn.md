@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 7cd20c78-8203-42a2-ad58-1a206fad5463
 ms.date: 12/05/2018
 ms.keywords: SEC_WINNT_AUTH_DATA_TYPE_CERT, SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA, SEC_WINNT_AUTH_DATA_TYPE_PASSWORD, SpGetCredUIContextFn, SpGetCredUIContextFn callback, SpGetCredUIContextFn callback function [Security], ntsecpkg/SpGetCredUIContextFn, security.spgetcreduicontextfn
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpGetCredUIContextFn
 dev_langs:

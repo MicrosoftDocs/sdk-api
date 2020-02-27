@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 49d32394-d7e0-43be-b1f5-db57c6cbe3c4
 ms.date: 12/05/2018
 ms.keywords: CachedToggleState property [Windows Accessibility], CachedToggleState property [Windows Accessibility],IUIAutomationTogglePattern interface, IUIAutomationTogglePattern interface [Windows Accessibility],CachedToggleState property, IUIAutomationTogglePattern.CachedToggleState, IUIAutomationTogglePattern.get_CachedToggleState, IUIAutomationTogglePattern::CachedToggleState, IUIAutomationTogglePattern::get_CachedToggleState, get_CachedToggleState, uiauto.uiauto_IUIAutomationTogglePattern_CachedToggleState, uiauto_IUIAutomationTogglePattern_CachedToggleState, uiautomationclient/IUIAutomationTogglePattern::CachedToggleState, uiautomationclient/IUIAutomationTogglePattern::get_CachedToggleState, winauto.uiauto_IUIAutomationTogglePattern_CachedToggleState
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationTogglePattern.CachedToggleState
 dev_langs:

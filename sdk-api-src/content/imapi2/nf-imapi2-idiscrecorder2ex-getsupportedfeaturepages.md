@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 64fa8ef5-1298-4fd1-b89d-371f13e50d8c
 ms.date: 12/05/2018
 ms.keywords: GetSupportedFeaturePages, GetSupportedFeaturePages method [IMAPI], GetSupportedFeaturePages method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetSupportedFeaturePages method, IDiscRecorder2Ex.GetSupportedFeaturePages, IDiscRecorder2Ex::GetSupportedFeaturePages, imapi.idiscrecorder2ex_getsupportedfeaturepages, imapi2/IDiscRecorder2Ex::GetSupportedFeaturePages
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscRecorder2Ex.GetSupportedFeaturePages
 dev_langs:

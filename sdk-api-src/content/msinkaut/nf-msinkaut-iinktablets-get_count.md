@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 6224871c-044e-478a-9635-6b2874bdcf45
 ms.date: 12/05/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkTablets interface, IInkTablets interface [Tablet PC],Count property, IInkTablets.Count, IInkTablets.get_Count, IInkTablets::Count, IInkTablets::get_Count, InkTablets.get_Count, get_Count, msinkaut/IInkTablets::Count, msinkaut/IInkTablets::get_Count, tablet.inktablets_count
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkTablets.Count
 dev_langs:

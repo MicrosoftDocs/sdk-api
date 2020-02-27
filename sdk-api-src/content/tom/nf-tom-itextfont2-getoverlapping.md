@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 26937777-a44b-4196-aa6b-f35787f934a9
 ms.date: 12/05/2018
 ms.keywords: GetOverlapping, GetOverlapping method [Windows Controls], GetOverlapping method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetOverlapping method, ITextFont2.GetOverlapping, ITextFont2::GetOverlapping, controls.itextfont2_getoverlapping, tom/ITextFont2::GetOverlapping
-ms.topic: method
 f1_keywords:
 - tom/ITextFont2.GetOverlapping
 dev_langs:

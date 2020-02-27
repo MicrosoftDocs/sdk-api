@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 90C582C4-01C4-4D8B-8AD6-F65F96DABA7E
 ms.date: 12/05/2018
 ms.keywords: ntohll, ntohll function [Winsock], winsock.ntohll, winsock2/ntohll
-ms.topic: function
 f1_keywords:
 - winsock2/ntohll
 dev_langs:

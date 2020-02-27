@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 0B1888D7-04E6-4684-8131-8295EF2C598B
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxManifestPackageDependency interface, IAppxManifestPackageDependency interface [App packaging and management],GetName method, IAppxManifestPackageDependency.GetName, IAppxManifestPackageDependency::GetName, appxpackaging/IAppxManifestPackageDependency::GetName, appxpkg.iappxmanifestpackagedependency_getname
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxManifestPackageDependency.GetName
 dev_langs:

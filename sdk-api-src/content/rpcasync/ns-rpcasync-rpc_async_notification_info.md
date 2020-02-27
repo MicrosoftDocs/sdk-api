@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 253f3d23-4cc2-44b3-9d25-c7f26d73ed1e
 ms.date: 12/05/2018
 ms.keywords: '*PRPC_ASYNC_NOTIFICATION_INFO, PRPC_ASYNC_NOTIFICATION_INFO, PRPC_ASYNC_NOTIFICATION_INFO union pointer [RPC], RPC_ASYNC_NOTIFICATION_INFO, RPC_ASYNC_NOTIFICATION_INFO union [RPC], rpc.rpc_async_notification_info, rpcasync/PRPC_ASYNC_NOTIFICATION_INFO, rpcasync/RPC_ASYNC_NOTIFICATION_INFO'
-ms.topic: struct
 f1_keywords:
 - rpcasync/RPC_ASYNC_NOTIFICATION_INFO
 dev_langs:

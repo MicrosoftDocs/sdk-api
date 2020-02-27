@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: E39646E6-66F4-4413-A84B-43039689AEE7
 ms.date: 12/05/2018
 ms.keywords: IMFMediaTimeRange, IMFMediaTimeRange interface [Media Foundation], IMFMediaTimeRange interface [Media Foundation],described, mf.imfmediatimerange, mfmediaengine/IMFMediaTimeRange
-ms.topic: interface
 f1_keywords:
 - mfmediaengine/IMFMediaTimeRange
 dev_langs:

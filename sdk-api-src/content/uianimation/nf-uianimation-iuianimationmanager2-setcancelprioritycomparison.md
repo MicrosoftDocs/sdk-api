@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 55DEC4C2-A6F3-459D-BDCD-3D3819EBF0D2
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],SetCancelPriorityComparison method, IUIAnimationManager2.SetCancelPriorityComparison, IUIAnimationManager2::SetCancelPriorityComparison, SetCancelPriorityComparison, SetCancelPriorityComparison method [Windows Animation], SetCancelPriorityComparison method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_setcancelprioritycomparison, uianimation/IUIAnimationManager2::SetCancelPriorityComparison
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationManager2.SetCancelPriorityComparison
 dev_langs:

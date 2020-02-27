@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: afcf6708-1c2a-43ac-8e5e-1bd0ce7456fc
 ms.date: 12/05/2018
 ms.keywords: BluetoothUpdateDeviceRecord, BluetoothUpdateDeviceRecord function [Bluetooth], bluetooth.bluetoothupdatedevicerecord, bluetoothapis/BluetoothUpdateDeviceRecord
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothUpdateDeviceRecord
 dev_langs:

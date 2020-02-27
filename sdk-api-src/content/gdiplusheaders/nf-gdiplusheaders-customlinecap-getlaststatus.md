@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\getlaststatus_98.htm
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],GetLastStatus method, CustomLineCap.GetLastStatus, CustomLineCap::GetLastStatus, GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_GetLastStatus_, gdiplus._gdiplus_CLASS_CustomLineCap_GetLastStatus_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/CustomLineCap.GetLastStatus
 dev_langs:

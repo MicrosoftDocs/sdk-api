@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: c03c51ba-3027-4be9-8869-6d7dbeac2428
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetDeviceProperty, SetupDiSetDeviceProperty function [Device and Driver Installation], SetupDiSetDevicePropertyW, devinst.setupdisetdeviceproperty, di-rtns_ee591571-7fc2-4a2b-a893-ba8d43cc0ed4.xml, setupapi/SetupDiSetDeviceProperty
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiSetDeviceProperty
 dev_langs:
@@ -99,7 +98,7 @@ This parameter must be set to zero.
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 The following table includes some of the more common error codes that this function might log. 
 

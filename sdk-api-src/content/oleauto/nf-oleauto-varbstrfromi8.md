@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: c81118ce-fbd7-4ac1-a388-db4fef58f30c
 ms.date: 12/05/2018
 ms.keywords: VarBstrFromI8, VarBstrFromI8 function [Automation], _oa96_VarBstrFromI8, automat.varbstrfromi8, oleauto/VarBstrFromI8
-ms.topic: function
 f1_keywords:
 - oleauto/VarBstrFromI8
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 69f9b504-be01-4167-8002-32a8e86bab0f
 ms.date: 12/05/2018
 ms.keywords: ITRequestEvent, ITRequestEvent interface [TAPI 2.2], ITRequestEvent interface [TAPI 2.2],described, _tapi3_itrequestevent, tapi3.itrequestevent, tapi3if/ITRequestEvent
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITRequestEvent
 dev_langs:

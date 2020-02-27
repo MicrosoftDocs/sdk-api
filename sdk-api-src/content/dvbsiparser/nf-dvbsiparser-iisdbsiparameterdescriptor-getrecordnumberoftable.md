@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 12f7af61-494e-4597-8672-47ea9552be62
 ms.date: 12/05/2018
 ms.keywords: GetRecordNumberOfTable, GetRecordNumberOfTable method [Microsoft TV Technologies], GetRecordNumberOfTable method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetRecordNumberOfTable method, IIsdbSIParameterDescriptor.GetRecordNumberOfTable, IIsdbSIParameterDescriptor::GetRecordNumberOfTable, dvbsiparser/IIsdbSIParameterDescriptor::GetRecordNumberOfTable, mstv.iisdbsiparameterdescriptor_getrecordnumberoftable
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbSIParameterDescriptor.GetRecordNumberOfTable
 dev_langs:

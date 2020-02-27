@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: a4ef9180-5568-4e5b-8c37-f750263060d2
 ms.date: 12/05/2018
 ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITfContextView interface, ITfContextView interface [Text Services Framework],GetTextExt method, ITfContextView.GetTextExt, ITfContextView::GetTextExt, _tsf_itfcontextview_gettextext_ref, msctf/ITfContextView::GetTextExt, tsf.itfcontextview_gettextext
-ms.topic: method
 f1_keywords:
 - msctf/ITfContextView.GetTextExt
 dev_langs:

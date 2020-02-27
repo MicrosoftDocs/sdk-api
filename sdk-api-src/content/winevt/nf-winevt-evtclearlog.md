@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: 26d2aabd-96dc-4091-82f4-e5d4c69e09a4
 ms.date: 12/05/2018
 ms.keywords: EvtClearLog, EvtClearLog function [EventLog], wes.evtclearlog, winevt/EvtClearLog
-ms.topic: function
 f1_keywords:
 - winevt/EvtClearLog
 dev_langs:

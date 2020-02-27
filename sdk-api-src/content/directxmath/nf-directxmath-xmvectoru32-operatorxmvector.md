@@ -5,7 +5,6 @@ description: Returns the instance of XMVECTOR implementing the current instance 
 ms.assetid: cda61fd5-8dc5-418d-ad92-5d5d28306afa
 ms.date: 05/13/2019
 ms.keywords: XMVECTORU32::operator XMVECTOR
-ms.topic: language-reference
 f1_keywords:
 - directxmath/XMVECTORU32::operator XMVECTOR
 dev_langs:

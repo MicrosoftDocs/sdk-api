@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: b3b1f3bd-7eb3-4f76-921c-386562dae2e2
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_create_page_control, ldap.ldap__create__page__control, ldap.ldap_create_page_control, ldap_create_page_control, ldap_create_page_control function [LDAP], ldap_create_page_controlA, ldap_create_page_controlW, winldap/ldap_create_page_control, winldap/ldap_create_page_controlA, winldap/ldap_create_page_controlW
-ms.topic: function
 f1_keywords:
 - winldap/ldap_create_page_control
 dev_langs:
@@ -73,7 +72,7 @@ The number of entries to return in each page.
 ### -param Cookie [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structure that the server uses to determine its location in the result set. This is an opaque structure that you should not access directly. Set to <b>NULL</b> for the first call to <b>ldap_create_page_control</b>.
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure that the server uses to determine its location in the result set. This is an opaque structure that you should not access directly. Set to <b>NULL</b> for the first call to <b>ldap_create_page_control</b>.
 
 
 ### -param IsCritical [in]

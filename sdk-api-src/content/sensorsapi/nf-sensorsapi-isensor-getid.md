@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: f314060d-ed39-48b1-b8b1-8659c05be549
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method, GetID method,ISensor interface, ISensor interface,GetID method, ISensor.GetID, ISensor::GetID, sensorsapi/ISensor::GetID, winsensors_com_ref.isensor_getid
-ms.topic: method
 f1_keywords:
 - sensorsapi/ISensor.GetID
 dev_langs:

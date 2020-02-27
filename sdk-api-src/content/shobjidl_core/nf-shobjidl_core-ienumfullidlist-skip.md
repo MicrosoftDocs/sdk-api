@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f47bdab1-57be-4f40-a142-ad5edcf6fbfd
 ms.date: 12/05/2018
 ms.keywords: IEnumFullIDList interface [Windows Shell],Skip method, IEnumFullIDList.Skip, IEnumFullIDList::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumFullIDList interface, _shell_IEnumFullIDList_Skip, shell.IEnumFullIDList_Skip, shobjidl_core/IEnumFullIDList::Skip
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IEnumFullIDList.Skip
 dev_langs:

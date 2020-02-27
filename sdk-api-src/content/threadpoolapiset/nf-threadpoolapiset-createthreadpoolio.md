@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 621f4747-50fa-4538-bd6a-dbe4dbb05dd1
 ms.date: 12/05/2018
 ms.keywords: CreateThreadpoolIo, CreateThreadpoolIo function, base.createthreadpoolio, threadpoolapiset/CreateThreadpoolIo, winbase/CreateThreadpoolIo
-ms.topic: function
 f1_keywords:
 - threadpoolapiset/CreateThreadpoolIo
 dev_langs:

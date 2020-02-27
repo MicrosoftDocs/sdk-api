@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: ed02ed04-3665-47be-a77b-7804a2197767
 ms.date: 12/05/2018
 ms.keywords: ITTerminalControl interface [TAPI 2.2],RunRenderFilter method, ITTerminalControl.RunRenderFilter, ITTerminalControl::RunRenderFilter, RunRenderFilter, RunRenderFilter method [TAPI 2.2], RunRenderFilter method [TAPI 2.2],ITTerminalControl interface, _tapi3_itterminalcontrol_runrenderfilter, tapi3.itterminalcontrol_runrenderfilter, termmgr/ITTerminalControl::RunRenderFilter
-ms.topic: method
 f1_keywords:
 - termmgr/ITTerminalControl.RunRenderFilter
 dev_langs:

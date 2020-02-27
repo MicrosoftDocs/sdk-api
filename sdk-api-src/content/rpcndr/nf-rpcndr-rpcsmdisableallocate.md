@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 229cab16-eabf-49d3-a61e-3c06e001d0ac
 ms.date: 12/05/2018
 ms.keywords: RpcSmDisableAllocate, RpcSmDisableAllocate function [RPC], _rpc_rpcsmdisableallocate, rpc.rpcsmdisableallocate, rpcndr/RpcSmDisableAllocate
-ms.topic: function
 f1_keywords:
 - rpcndr/RpcSmDisableAllocate
 dev_langs:

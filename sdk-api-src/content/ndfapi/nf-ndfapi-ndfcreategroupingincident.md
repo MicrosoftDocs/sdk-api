@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: 308aa998-5940-4fbd-8bf6-bb14bc907a3f
 ms.date: 12/05/2018
 ms.keywords: NdfCreateGroupingIncident, NdfCreateGroupingIncident function [NDF], ndf.ndfcreategroupingincident, ndfapi/NdfCreateGroupingIncident
-ms.topic: function
 f1_keywords:
 - ndfapi/NdfCreateGroupingIncident
 dev_langs:

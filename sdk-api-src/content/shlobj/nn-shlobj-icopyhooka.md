@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c3ffa682-250f-458b-8ad5-b25871b3901b
 ms.date: 01/30/19
 ms.keywords: ICopyHookA
-ms.topic: language-reference
 f1_keywords:
 - shlobj/ICopyHookA
 dev_langs:

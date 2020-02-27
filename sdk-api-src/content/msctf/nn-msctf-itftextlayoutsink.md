@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 370e30a8-6eed-448a-87c7-7fd01e9973c6
 ms.date: 12/05/2018
 ms.keywords: ITfTextLayoutSink, ITfTextLayoutSink interface [Text Services Framework], ITfTextLayoutSink interface [Text Services Framework],described, _tsf_itftextlayoutsink_ref, msctf/ITfTextLayoutSink, tsf.itftextlayoutsink
-ms.topic: interface
 f1_keywords:
 - msctf/ITfTextLayoutSink
 dev_langs:

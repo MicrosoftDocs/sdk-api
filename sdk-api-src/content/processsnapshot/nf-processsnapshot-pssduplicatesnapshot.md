@@ -7,7 +7,6 @@ tech.root: proc_snap
 ms.assetid: 5D2751F3-E7E1-4917-8060-E2BC8A7A3DEA
 ms.date: 12/05/2018
 ms.keywords: PssDuplicateSnapshot, PssDuplicateSnapshot function, proc_snap.pssduplicatesnapshot, processsnapshot/PssDuplicateSnapshot
-ms.topic: function
 f1_keywords:
 - processsnapshot/PssDuplicateSnapshot
 dev_langs:

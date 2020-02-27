@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: d8868e4d-eedd-4fbd-b870-d3af48890c92
 ms.date: 12/05/2018
 ms.keywords: GetServiceForStream, GetServiceForStream method [Media Foundation], GetServiceForStream method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],GetServiceForStream method, IMFSourceReader.GetServiceForStream, IMFSourceReader::GetServiceForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, MF_SOURCE_READER_MEDIASOURCE, mf.imfsourcereader_getserviceforstream, mfreadwrite/IMFSourceReader::GetServiceForStream
-ms.topic: method
 f1_keywords:
 - mfreadwrite/IMFSourceReader.GetServiceForStream
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9
 ms.date: 12/05/2018
 ms.keywords: VDS_LUN_INFORMATION, VDS_LUN_INFORMATION structure [VDS], base.vds_lun_information, vdslun/_VDS_LUN_INFORMATION
-ms.topic: struct
 f1_keywords:
 - vdslun/VDS_LUN_INFORMATION
 dev_langs:

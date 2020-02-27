@@ -7,7 +7,6 @@ tech.root: NetVista
 ms.assetid: d3a0d872-c90a-4eb5-9011-c5913b9912c6
 ms.date: 12/05/2018
 ms.keywords: NL_ROUTER_DISCOVERY_BEHAVIOR, NL_ROUTER_DISCOVERY_BEHAVIOR enumeration [Network Drivers Starting with Windows Vista], RouterDiscoveryDhcp, RouterDiscoveryDisabled, RouterDiscoveryEnabled, RouterDiscoveryUnchanged, iphelper_fbaacfeb-efe8-45a1-8cf9-c600ed0214e0.xml, netvista.nl_router_discovery_behavior, nldef/NL_ROUTER_DISCOVERY_BEHAVIOR, nldef/RouterDiscoveryDhcp, nldef/RouterDiscoveryDisabled, nldef/RouterDiscoveryEnabled, nldef/RouterDiscoveryUnchanged
-ms.topic: enum
 f1_keywords:
 - nldef/NL_ROUTER_DISCOVERY_BEHAVIOR
 dev_langs:
@@ -85,7 +84,7 @@ When the properties of an IP interface are being set, the value for router disco
 
 
 For more information about RFC 2461, see the 
-    <a href="http://go.microsoft.com/fwlink/p/?linkid=84044">Neighbor Discovery for IP Version 6
+    <a href="https://www.ietf.org/rfc/rfc2461.txt">Neighbor Discovery for IP Version 6
     (IPv6)</a> memo by the Network Working Group.
 
 

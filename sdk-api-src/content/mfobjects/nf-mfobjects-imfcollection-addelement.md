@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 1ef2463b-3d5e-4ed0-ab7c-68758e6cc056
 ms.date: 12/05/2018
 ms.keywords: 1ef2463b-3d5e-4ed0-ab7c-68758e6cc056, AddElement, AddElement method [Media Foundation], AddElement method [Media Foundation],IMFCollection interface, IMFCollection interface [Media Foundation],AddElement method, IMFCollection.AddElement, IMFCollection::AddElement, mf.imfcollection_addelement, mfobjects/IMFCollection::AddElement
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFCollection.AddElement
 dev_langs:

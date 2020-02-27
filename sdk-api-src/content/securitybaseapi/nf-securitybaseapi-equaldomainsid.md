@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: a7eea3bd-33e0-427c-b023-07851c192eb2
 ms.date: 12/05/2018
 ms.keywords: EqualDomainSid, EqualDomainSid function [Security], _win32_equaldomainsid, security.equaldomainsid, securitybaseapi/EqualDomainSid
-ms.topic: function
 f1_keywords:
 - securitybaseapi/EqualDomainSid
 dev_langs:

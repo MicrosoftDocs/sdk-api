@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: c479b5ee-2e6a-4a3f-bd80-c3c25adac20f
 ms.date: 12/05/2018
 ms.keywords: CreatePortalGroup, CreatePortalGroup method [VDS], CreatePortalGroup method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],CreatePortalGroup method, IVdsIscsiTarget.CreatePortalGroup, IVdsIscsiTarget::CreatePortalGroup, base.ivdsiscsitarget_createportalgroup, vds/IVdsIscsiTarget::CreatePortalGroup, vdshwprv/IVdsIscsiTarget::CreatePortalGroup
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsIscsiTarget.CreatePortalGroup
 dev_langs:

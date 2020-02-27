@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: af7bfcf7-467b-4ea9-87c5-3622303b1d8b
 ms.date: 12/05/2018
 ms.keywords: '*LPKERNINGPAIR, KERNINGPAIR, KERNINGPAIR structure [Windows GDI], LPKERNINGPAIR, LPKERNINGPAIR structure pointer [Windows GDI], _win32_KERNINGPAIR_str, gdi.kerningpair, wingdi/KERNINGPAIR, wingdi/LPKERNINGPAIR'
-ms.topic: struct
 f1_keywords:
 - wingdi/KERNINGPAIR
 dev_langs:

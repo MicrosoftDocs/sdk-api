@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 496b9ea6-2979-4245-ad07-9c62c396ebde
 ms.date: 12/05/2018
 ms.keywords: WS_DEFAULT_VALUE, WS_DEFAULT_VALUE structure [Web Services for Windows], webservices/WS_DEFAULT_VALUE, wsw.ws_default_value
-ms.topic: struct
 f1_keywords:
 - webservices/WS_DEFAULT_VALUE
 dev_langs:

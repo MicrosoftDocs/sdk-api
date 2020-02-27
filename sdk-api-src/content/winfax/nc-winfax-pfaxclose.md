@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5h2d.htm
 ms.date: 12/05/2018
 ms.keywords: FaxCloseA, FaxCloseW, PFAXCLOSE, PFAXCLOSE callback, PFAXCLOSE callback function [Fax Service], _mfax_faxclose, fax._mfax_faxclose, winfax/FaxCloseA, winfax/FaxCloseW, winfax/PFAXCLOSE
-ms.topic: callback
 f1_keywords:
 - winfax/PFAXCLOSE
 dev_langs:

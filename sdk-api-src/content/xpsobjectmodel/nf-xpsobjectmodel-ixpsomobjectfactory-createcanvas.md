@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 1ee3a80d-f6d8-45ba-8178-e3870404698a
 ms.date: 12/05/2018
 ms.keywords: CreateCanvas, CreateCanvas method [XPS Documents and Packaging], CreateCanvas method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateCanvas method, IXpsOMObjectFactory.CreateCanvas, IXpsOMObjectFactory::CreateCanvas, xps.ixpsomobjectfactory_createcanvas, xpsobjectmodel/IXpsOMObjectFactory::CreateCanvas
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreateCanvas
 dev_langs:
@@ -159,7 +158,7 @@ else
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

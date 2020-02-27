@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4e3572bf-8d68-4485-99e8-bf47192be821
 ms.date: 12/05/2018
 ms.keywords: GetHotkey, GetHotkey method [Windows Shell], GetHotkey method [Windows Shell],IShellLink interface, GetHotkey method [Windows Shell],IShellLinkA interface, GetHotkey method [Windows Shell],IShellLinkW interface, HOTKEYF_ALT, HOTKEYF_CONTROL, HOTKEYF_EXT, HOTKEYF_SHIFT, IShellLink interface [Windows Shell],GetHotkey method, IShellLink::GetHotkey, IShellLinkA interface [Windows Shell],GetHotkey method, IShellLinkA::GetHotkey, IShellLinkW interface [Windows Shell],GetHotkey method, IShellLinkW.GetHotkey, IShellLinkW::GetHotkey, _win32_IShellLink_GetHotkey, shell.IShellLink_GetHotkey, shobjidl_core/IShellLink::GetHotkey, shobjidl_core/IShellLinkA::GetHotkey, shobjidl_core/IShellLinkW::GetHotkey
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellLink.GetHotkey
 dev_langs:

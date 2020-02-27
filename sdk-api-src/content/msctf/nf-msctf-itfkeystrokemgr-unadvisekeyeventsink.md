@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 72250972-0a0b-4e83-8603-0fb5adc9a2c9
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],UnadviseKeyEventSink method, ITfKeystrokeMgr.UnadviseKeyEventSink, ITfKeystrokeMgr::UnadviseKeyEventSink, UnadviseKeyEventSink, UnadviseKeyEventSink method [Text Services Framework], UnadviseKeyEventSink method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_unadvisekeyeventsink_ref, msctf/ITfKeystrokeMgr::UnadviseKeyEventSink, tsf.itfkeystrokemgr_unadvisekeyeventsink
-ms.topic: method
 f1_keywords:
 - msctf/ITfKeystrokeMgr.UnadviseKeyEventSink
 dev_langs:

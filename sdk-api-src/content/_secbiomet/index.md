@@ -1,9 +1,10 @@
 ---
 UID: TP:secbiomet
+title: Windows Biometric Framework
 ms.assetid: e8f9b75a-0dd8-3544-bc54-6d945c8b30fc
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Windows Biometric Framework

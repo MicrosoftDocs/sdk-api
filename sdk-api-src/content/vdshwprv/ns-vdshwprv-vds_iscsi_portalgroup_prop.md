@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 82f891a2-432b-4503-8b5a-a79bea800525
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_ISCSI_PORTALGROUP_PROP, VDS_ISCSI_PORTALGROUP_PROP, VDS_ISCSI_PORTALGROUP_PROP structure [VDS], base.vds_iscsi_portalgroup_prop, vds/VDS_ISCSI_PORTALGROUP_PROP, vdshwprv/VDS_ISCSI_PORTALGROUP_PROP'
-ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_ISCSI_PORTALGROUP_PROP
 dev_langs:
@@ -68,7 +67,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/VDS/vds-data-types">VDS_
 
 ### -field tag
 
-The portal group tag that is assigned by the provider to the portal group. For more information about portal group tags, see the iSCSI specification at <a href="http://go.microsoft.com/fwlink/p/?linkid=158752">http://go.microsoft.com/fwlink/p/?linkid=158752</a>.
+The portal group tag that is assigned by the provider to the portal group. For more information about portal group tags, see the iSCSI specification at <a href="https://www.ietf.org/rfc/rfc3720.txt">https://go.microsoft.com/fwlink/p/?linkid=158752</a>.
 
 
 ## -see-also

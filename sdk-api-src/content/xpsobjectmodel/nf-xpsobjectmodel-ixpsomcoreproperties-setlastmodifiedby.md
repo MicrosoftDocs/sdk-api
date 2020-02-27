@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 4c19e7c8-d790-42b8-a0c4-bfd95c7de2c5
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetLastModifiedBy method, IXpsOMCoreProperties.SetLastModifiedBy, IXpsOMCoreProperties::SetLastModifiedBy, SetLastModifiedBy, SetLastModifiedBy method [XPS Documents and Packaging], SetLastModifiedBy method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setlastmodifiedby, xpsobjectmodel/IXpsOMCoreProperties::SetLastModifiedBy
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.SetLastModifiedBy
 dev_langs:
@@ -90,11 +89,11 @@ The <b>lastModifiedBy</b> property describes the user who performs the last modi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

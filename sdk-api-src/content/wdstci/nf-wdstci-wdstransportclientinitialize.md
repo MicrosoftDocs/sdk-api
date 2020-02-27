@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 6494a155-61de-40bd-a29a-79134da96bbe
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientInitialize, WdsTransportClientInitialize function [Windows Deployment Services], wds.wdstransportclientinitialize, wdstci/WdsTransportClientInitialize
-ms.topic: function
 f1_keywords:
 - wdstci/WdsTransportClientInitialize
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: 407ed585-09aa-4174-8907-8bb9590f1795
 ms.date: 12/05/2018
 ms.keywords: GetGestureInfo, GetGestureInfo function [Windows Touch], wintouch.getgestureinfo, winuser/GetGestureInfo
-ms.topic: function
 f1_keywords:
 - winuser/GetGestureInfo
 dev_langs:
@@ -101,7 +100,7 @@ The <b>cbSize</b> member of the <a href="https://docs.microsoft.com/windows/desk
    process memory leaks.
   
 
-If the message is passed to <a href="http://go.microsoft.com/fwlink/p/?linkid=136637">DefWindowProc</a>, or is forwarded using
+If the message is passed to <a href="https://msdn.microsoft.com/library/ms633572.aspx">DefWindowProc</a>, or is forwarded using
    one of the PostMessage or SendMessage classes of API functions, the handle
    is transferred with the message and need not be closed by the application.
   

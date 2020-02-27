@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: 92858a46-cef5-4d25-9f3c-cbb343743565
 ms.date: 12/05/2018
 ms.keywords: DRMCreateEnablingPrincipal, DRMCreateEnablingPrincipal function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateEnablingPrincipal, rm.drmcreateenablingprincipal
-ms.topic: function
 f1_keywords:
 - msdrm/DRMCreateEnablingPrincipal
 dev_langs:

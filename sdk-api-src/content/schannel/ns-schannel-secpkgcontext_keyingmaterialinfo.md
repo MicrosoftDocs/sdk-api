@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 51EE7027-01FA-4D2F-9FB8-EEF7C1479600
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_KeyingMaterialInfo, PSecPkgContext_KeyingMaterialInfo, PSecPkgContext_KeyingMaterialInfo structure pointer [Security], SecPkgContext_KeyingMaterialInfo, SecPkgContext_KeyingMaterialInfo structure [Security], SecPkgContext_KeyingMaterialInfoA, SecPkgContext_KeyingMaterialInfoW, _SecPkgContext_KeyingMaterialInfo, security.secpkgcontext_keyingmaterialinfo, sspi/PSecPkgContext_KeyingMaterialInfo, sspi/SecPkgContext_KeyingMaterialInfo, sspi/SecPkgContext_KeyingMaterialInfoA, sspi/SecPkgContext_KeyingMaterialInfoW'
-ms.topic: struct
 f1_keywords:
 - schannel/SecPkgContext_KeyingMaterialInfo
 dev_langs:

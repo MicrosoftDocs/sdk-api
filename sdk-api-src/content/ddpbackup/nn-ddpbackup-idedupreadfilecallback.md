@@ -7,7 +7,6 @@ tech.root: dedup
 ms.assetid: 0B7F5A5B-EB60-4BAF-86AF-D9101F3B482C
 ms.date: 12/05/2018
 ms.keywords: IDedupReadFileCallback, IDedupReadFileCallback interface [Data Deduplication API], IDedupReadFileCallback interface [Data Deduplication API],described, ddpbackup/IDedupReadFileCallback, dedup.idedupreadfilecallback
-ms.topic: interface
 f1_keywords:
 - ddpbackup/IDedupReadFileCallback
 dev_langs:

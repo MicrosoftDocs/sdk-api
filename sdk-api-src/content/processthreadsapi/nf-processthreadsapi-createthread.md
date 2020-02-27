@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 202a4b42-513a-45de-894a-72e56c706a58
 ms.date: 12/05/2018
 ms.keywords: CREATE_SUSPENDED, CreateThread, CreateThread function, STACK_SIZE_PARAM_IS_A_RESERVATION, _win32_createthread, base.createthread, processthreadsapi/CreateThread, winbase/CreateThread
-ms.topic: function
 f1_keywords:
 - processthreadsapi/CreateThread
 dev_langs:
@@ -207,7 +206,7 @@ The
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess">ExitProcess</a> does not complete until there are no threads in their DLL initialization or detach routines.</li>
 </ul>
-A thread in an executable that calls the C run-time library (CRT) should use the <a href="http://go.microsoft.com/fwlink/p/?linkid=125829">_beginthreadex</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=125830">_endthreadex</a> functions for thread management rather than 
+A thread in an executable that calls the C run-time library (CRT) should use the <a href="https://msdn.microsoft.com/library/kdzttdcb.aspx">_beginthreadex</a> and <a href="https://msdn.microsoft.com/library/hw264s73.aspx">_endthreadex</a> functions for thread management rather than 
 <b>CreateThread</b> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a>; this requires the use of the multithreaded version of the CRT. If a thread created using <b>CreateThread</b> calls the CRT, the CRT may terminate the process in low-memory conditions.
 

@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: FDD7CFC9-61A4-41FD-9E91-A8D8606FAC3B
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetOffsetZ method, IDCompositionVisual3.SetOffsetZ, IDCompositionVisual3.SetOffsetZ(IDCompositionAnimation), IDCompositionVisual3::SetOffsetZ, IDCompositionVisual3::SetOffsetZ(IDCompositionAnimation), IDCompositionVisual3::SetOffsetZ(IDCompositionAnimation*), SetOffsetZ, SetOffsetZ method [DirectComposition], SetOffsetZ method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetOffsetZ, directcomp.idcompositionvisual3_setoffsetz_2
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionVisual3.SetOffsetZ
 dev_langs:

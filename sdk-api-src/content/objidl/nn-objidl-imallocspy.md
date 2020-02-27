@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 8ba500f7-c070-4788-b7fe-58b6a4e6a94c
 ms.date: 12/05/2018
 ms.keywords: IMallocSpy, IMallocSpy interface [COM], IMallocSpy interface [COM],described, _com_imallocspy, com.imallocspy, objidl/IMallocSpy
-ms.topic: interface
 f1_keywords:
 - objidl/IMallocSpy
 dev_langs:

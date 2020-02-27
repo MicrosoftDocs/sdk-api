@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: cecb0026-ed6f-48b8-9381-d020a36e7e87
 ms.date: 12/05/2018
 ms.keywords: AbandonAllStoryboards, AbandonAllStoryboards method [Windows Animation], AbandonAllStoryboards method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],AbandonAllStoryboards method, IUIAnimationManager.AbandonAllStoryboards, IUIAnimationManager::AbandonAllStoryboards, uianimation.iuianimationmanager_abandonallstoryboards, uianimation/IUIAnimationManager::AbandonAllStoryboards
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationManager.AbandonAllStoryboards
 dev_langs:

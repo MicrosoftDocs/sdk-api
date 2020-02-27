@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: fe4bd8ba-fc3b-4a04-8a72-9983d52f4404
 ms.date: 12/05/2018
 ms.keywords: DWRITE_MATRIX, DWRITE_MATRIX structure [Direct Write], directwrite.dwrite_matrix, dwrite/DWRITE_MATRIX
-ms.topic: struct
 f1_keywords:
 - dwrite/DWRITE_MATRIX
 dev_langs:

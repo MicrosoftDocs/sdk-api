@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: d7df56ee-72e4-4b0c-87a3-a1f66d791b62
 ms.date: 12/05/2018
 ms.keywords: MprConfigBufferFree, MprConfigBufferFree function [RAS], _mpr_mprconfigbufferfree, mprapi/MprConfigBufferFree, rras.mprconfigbufferfree
-ms.topic: function
 f1_keywords:
 - mprapi/MprConfigBufferFree
 dev_langs:

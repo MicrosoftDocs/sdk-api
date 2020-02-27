@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: cbed0e90-8950-46f6-acaa-5e6daf814dd0
 ms.date: 12/05/2018
 ms.keywords: GetBuffered, GetBuffered method [Media Foundation], GetBuffered method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetBuffered method, IMFSourceBuffer.GetBuffered, IMFSourceBuffer::GetBuffered, mf.imfsourcebuffer_getbuffered, mfmediaengine/IMFSourceBuffer::GetBuffered
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFSourceBuffer.GetBuffered
 dev_langs:

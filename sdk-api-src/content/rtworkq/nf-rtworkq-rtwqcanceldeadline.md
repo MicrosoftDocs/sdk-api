@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 4128B655-AFF9-4AEF-8EDB-A6DC8DA05FE9
 ms.date: 12/05/2018
 ms.keywords: RtwqCancelDeadline, RtwqCancelDeadline function, base.rtwqcanceldeadline, rtworkq/RtwqCancelDeadline
-ms.topic: function
 f1_keywords:
 - rtworkq/RtwqCancelDeadline
 dev_langs:

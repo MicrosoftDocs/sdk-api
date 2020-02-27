@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 92d1fc93-08e2-46d9-bd2f-ce1b2087d2d1
 ms.date: 12/05/2018
 ms.keywords: IAudioClient interface [Core Audio],IsFormatSupported method, IAudioClient.IsFormatSupported, IAudioClient::IsFormatSupported, IAudioClientIsFormatSupported, IsFormatSupported, IsFormatSupported method [Core Audio], IsFormatSupported method [Core Audio],IAudioClient interface, audioclient/IAudioClient::IsFormatSupported, coreaudio.iaudioclient_isformatsupported
-ms.topic: method
 f1_keywords:
 - audioclient/IAudioClient.IsFormatSupported
 dev_langs:
@@ -198,7 +197,7 @@ The audio engine might be able to support an even wider range of shared-mode for
 
 For example, a particular LFX APO might accept a 6-channel surround sound stream from a client and convert the stream to a stereo format that can be played through headphones. Typically, an LFX APO supports only client formats with sample rates that match the sample rate of the mix format.
 
-For more information about APOs, see the white papers titled "Custom Audio Effects in Windows Vista" and "Reusing the Windows Vista Audio System Effects" at the <a href="http://go.microsoft.com/fwlink/p/?linkid=62989">Audio Device Technologies for Windows</a> website. For more information about the <b>IsFormatSupported</b> method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-formats">Device Formats</a>.
+For more information about APOs, see the white papers titled "Custom Audio Effects in Windows Vista" and "Reusing the Windows Vista Audio System Effects" at the <a href="https://www.microsoft.com/whdc/device/audio/default.mspx">Audio Device Technologies for Windows</a> website. For more information about the <b>IsFormatSupported</b> method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-formats">Device Formats</a>.
 
 
 

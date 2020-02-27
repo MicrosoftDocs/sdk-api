@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 822dd067-803c-4e72-bfd0-fd9f9f36d390
 ms.date: 12/05/2018
 ms.keywords: WS_CUSTOM_CERT_CREDENTIAL, WS_CUSTOM_CERT_CREDENTIAL structure [Web Services for Windows], webservices/WS_CUSTOM_CERT_CREDENTIAL, wsw.ws_custom_cert_credential
-ms.topic: struct
 f1_keywords:
 - webservices/WS_CUSTOM_CERT_CREDENTIAL
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 71448b05-9657-41e4-b5e4-6ae403219c6a
 ms.date: 12/05/2018
 ms.keywords: DAD_ShowDragImage, DAD_ShowDragImage function [Windows Shell], FALSE, TRUE, shell.DAD_ShowDragImage, shell_DAD_ShowDragImage, shlobj_core/DAD_ShowDragImage
-ms.topic: function
 f1_keywords:
 - shlobj_core/DAD_ShowDragImage
 dev_langs:

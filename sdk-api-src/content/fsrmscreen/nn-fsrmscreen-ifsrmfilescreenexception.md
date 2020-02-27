@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 188e76dd-6df6-412f-8d51-fc727075de80
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreenException, IFsrmFileScreenException interface [File Server Resource Manager], IFsrmFileScreenException interface [File Server Resource Manager],described, fs.ifsrmfilescreenexception, fsrm.ifsrmfilescreenexception, fsrmscreen/IFsrmFileScreenException
-ms.topic: interface
 f1_keywords:
 - fsrmscreen/IFsrmFileScreenException
 dev_langs:

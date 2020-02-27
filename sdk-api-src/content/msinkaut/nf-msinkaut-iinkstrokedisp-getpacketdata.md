@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 015ca2ca-3bcc-443c-a38c-7f67b69c5907
 ms.date: 12/05/2018
 ms.keywords: 015ca2ca-3bcc-443c-a38c-7f67b69c5907, GetPacketData, GetPacketData method [Tablet PC], GetPacketData method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetPacketData method, IInkStrokeDisp.GetPacketData, IInkStrokeDisp::GetPacketData, msinkaut/IInkStrokeDisp::GetPacketData, tablet.iinkstrokedisp_getpacketdata
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkStrokeDisp.GetPacketData
 dev_langs:
@@ -64,12 +63,12 @@ Retrieves the packet data for a range of packets within the <a href="https://doc
 
 ### -param Index [in, optional]
 
-Optional. The starting point of the zero-based index to a packet within the stroke. The default value ISC_FirstElement, defined in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ItemSelectionConstants</a> enumeration type, specifies the first packet.
+Optional. The starting point of the zero-based index to a packet within the stroke. The default value ISC_FirstElement, defined in the <a href="/windows/win32/api/msinkaut/ne-msinkaut-inkselectionconstants">InkSelectionConstants</a> enumeration type, specifies the first packet.
 
 
 ### -param Count [in, optional]
 
-Optional. The number of point packet data sets that should be returned, starting with the packet specified in the <i>startingIndex</i> parameter. The default value ISC_AllElements, defined in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ItemSelectionConstants</a> enumeration type, specifies all of the points that make up the stroke data.
+Optional. The number of point packet data sets that should be returned, starting with the packet specified in the <i>startingIndex</i> parameter. The default value ISC_AllElements, defined in the <a href="/windows/win32/api/msinkaut/ne-msinkaut-inkselectionconstants">InkSelectionConstants</a> enumeration type, specifies all of the points that make up the stroke data.
 
 
 ### -param PacketData [out, retval]

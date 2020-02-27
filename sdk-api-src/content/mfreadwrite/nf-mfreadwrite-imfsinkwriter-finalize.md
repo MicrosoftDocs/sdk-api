@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 352e6679-0710-429a-a659-47044ab60773
 ms.date: 12/05/2018
 ms.keywords: Finalize, Finalize method [Media Foundation], Finalize method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],Finalize method, IMFSinkWriter.Finalize, IMFSinkWriter::Finalize, mf.imfsinkwriter_finalize, mfreadwrite/IMFSinkWriter::Finalize
-ms.topic: method
 f1_keywords:
 - mfreadwrite/IMFSinkWriter.Finalize
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 4b937661-67b2-445c-ab25-8655e1036797
 ms.date: 12/05/2018
 ms.keywords: GetMode, GetMode method [DirectShow], GetMode method [DirectShow],IAMVideoControl interface, IAMVideoControl interface [DirectShow],GetMode method, IAMVideoControl.GetMode, IAMVideoControl::GetMode, IAMVideoControlGetMode, dshow.iamvideocontrol_getmode, strmif/IAMVideoControl::GetMode
-ms.topic: method
 f1_keywords:
 - strmif/IAMVideoControl.GetMode
 dev_langs:
@@ -69,7 +68,7 @@ Pointer to the pin to retrieve the video control mode from.
 
 ### -param Mode [out]
 
-Pointer to a value representing a combination of the flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-videocontrolflags">VideoControlFlags</a> enumeration, which specify the video control mode.
+Pointer to a value representing a combination of the flags from the [VideoControlFlags](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videocontrolflags) enumeration, which specify the video control mode.
 
 
 ## -returns

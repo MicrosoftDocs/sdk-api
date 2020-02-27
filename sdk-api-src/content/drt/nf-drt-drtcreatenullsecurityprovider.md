@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: ba6e766f-784b-4609-8ad5-c1bfb0575f34
 ms.date: 12/05/2018
 ms.keywords: DrtCreateNullSecurityProvider, DrtCreateNullSecurityProvider function [Distributed Routing Tables], drt/DrtCreateNullSecurityProvider, p2p.drtcreatenullsecurityprovider
-ms.topic: function
 f1_keywords:
 - drt/DrtCreateNullSecurityProvider
 dev_langs:

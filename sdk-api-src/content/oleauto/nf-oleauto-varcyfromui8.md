@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 7267e880-d241-457f-b105-6b9d357d029f
 ms.date: 12/05/2018
 ms.keywords: VarCyFromUI8, VarCyFromUI8 function [Automation], _oa96_VarCyFromUI8, automat.varcyfromui8, oleauto/VarCyFromUI8
-ms.topic: function
 f1_keywords:
 - oleauto/VarCyFromUI8
 dev_langs:

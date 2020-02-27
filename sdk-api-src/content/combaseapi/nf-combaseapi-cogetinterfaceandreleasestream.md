@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: b529f65f-3208-4594-a772-d1cad3727dc1
 ms.date: 12/05/2018
 ms.keywords: CoGetInterfaceAndReleaseStream, CoGetInterfaceAndReleaseStream function [COM], _com_CoGetInterfaceAndReleaseStream, com.cogetinterfaceandreleasestream, combaseapi/CoGetInterfaceAndReleaseStream
-ms.topic: function
 f1_keywords:
 - combaseapi/CoGetInterfaceAndReleaseStream
 dev_langs:
@@ -91,7 +90,7 @@ This function can return the standard return values S_OK and E_INVALIDARG, as we
 
 
 
-<div class="alert"><b>Important</b>  <p class="note">Security Note: Calling this method with untrusted data is a security risk. Call this method only with trusted data. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=798821">Untrusted Data Security Risks</a>.
+<div class="alert"><b>Important</b>  <p class="note">Security Note: Calling this method with untrusted data is a security risk. Call this method only with trusted data. For more information, see <a href="https://docs.microsoft.com/">Untrusted Data Security Risks</a>.
 
 </div>
 <div> </div>

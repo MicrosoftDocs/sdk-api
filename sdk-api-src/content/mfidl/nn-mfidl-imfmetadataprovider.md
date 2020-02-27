@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: f32e78c9-a567-448d-947d-d7ea996bba5e
 ms.date: 12/05/2018
 ms.keywords: IMFMetadataProvider, IMFMetadataProvider interface [Media Foundation], IMFMetadataProvider interface [Media Foundation],described, f32e78c9-a567-448d-947d-d7ea996bba5e, mf.imfmetadataprovider, mfidl/IMFMetadataProvider
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFMetadataProvider
 dev_langs:

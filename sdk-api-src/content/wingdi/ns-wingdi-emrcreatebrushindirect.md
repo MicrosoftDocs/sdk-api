@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: fd87d52a-1227-48ba-8b7e-a8fd007c9d01
 ms.date: 12/05/2018
 ms.keywords: '*PEMRCREATEBRUSHINDIRECT, EMRCREATEBRUSHINDIRECT, EMRCREATEBRUSHINDIRECT structure [Windows GDI], PEMRCREATEBRUSHINDIRECT, PEMRCREATEBRUSHINDIRECT structure pointer [Windows GDI], _win32_EMRCREATEBRUSHINDIRECT_str, gdi.emrcreatebrushindirect, wingdi/EMRCREATEBRUSHINDIRECT, wingdi/PEMRCREATEBRUSHINDIRECT'
-ms.topic: struct
 f1_keywords:
 - wingdi/EMRCREATEBRUSHINDIRECT
 dev_langs:

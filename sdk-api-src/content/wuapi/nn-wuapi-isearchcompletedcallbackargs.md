@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 809e4a09-3ad8-4e7f-8ace-ae613d05a7e1
 ms.date: 12/05/2018
 ms.keywords: ISearchCompletedCallbackArgs, ISearchCompletedCallbackArgs interface [Windows Update Agent], ISearchCompletedCallbackArgs interface [Windows Update Agent],described, wua.isearchcompletedcallbackargs, wuapi/ISearchCompletedCallbackArgs
-ms.topic: interface
 f1_keywords:
 - wuapi/ISearchCompletedCallbackArgs
 dev_langs:
