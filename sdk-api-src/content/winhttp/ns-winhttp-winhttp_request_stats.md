@@ -6,7 +6,7 @@ old-location:
 tech.root: WinHttp
 ms.assetid: 7c65777e-24eb-4713-a7b8-7263a217e8ba
 ms.date: 02/25/2020
-ms.keywords: '*LPWINHTTP_REQUEST_STATS, WINHTTP_REQUEST_STATS, WINHTTP_REQUEST_STATS structure [HTTP], http.winhttp_request_stats, winhttp/WINHTTP_REQUEST_STATS, WINHTTP_OPTION_REQUEST_STATS'
+ms.keywords: '*PWINHTTP_REQUEST_STATS, WINHTTP_REQUEST_STATS, WINHTTP_REQUEST_STATS structure [HTTP], http.winhttp_request_stats, winhttp/WINHTTP_REQUEST_STATS, WINHTTP_OPTION_REQUEST_STATS'
 f1_keywords:
 - winhttp/WINHTTP_REQUEST_STATS
 dev_langs:
@@ -38,7 +38,7 @@ api_location:
 api_name:
 - WINHTTP_REQUEST_STATS
 targetos: Windows
-req.typenames: WINHTTP_REQUEST_STATS, *LPWINHTTP_REQUEST_STATS
+req.typenames: WINHTTP_REQUEST_STATS, *PWINHTTP_REQUEST_STATS
 req.redist:
 ms.custom: 19H1
 ---
@@ -52,6 +52,23 @@ The **WINHTTP\_REQUEST\_STATS** structure contains a variety of statistics for a
 
 
 ## -struct-fields
+
+
+### -field ullFlags
+
+Flags containing details on how the request was made. The following flags are available:
+| Value | Meaning |
+|-|-|
+| WINHTTP_REQUEST_STAT_FLAG_TCP_FAST_OPEN | TCP Fast Open occurred. |
+| WINHTTP_REQUEST_STAT_FLAG_TLS_SESSION_RESUMPTION | TLS Session Resumption occurred. |
+| WINHTTP_REQUEST_STAT_FLAG_TLS_FALSE_START | TLS False Start occurred. |
+| WINHTTP_REQUEST_STAT_FLAG_PROXY_TLS_SESSION_RESUMPTION | TLS Session Resumption occurred for the proxy connection. |
+| WINHTTP_REQUEST_STAT_FLAG_PROXY_TLS_FALSE_START | TLS False Start occurred for the proxy connection. |
+| WINHTTP_REQUEST_STAT_FLAG_FIRST_REQUEST | This is the first request on the connection. |
+
+### -field ulIndex
+
+The index of the request on the connection. This indicates how many prior requests were sent over the shared connection.
 
 
 ### -field cStats

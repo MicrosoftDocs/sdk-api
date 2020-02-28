@@ -71,9 +71,9 @@ Creates a mailslot with the specified name and returns  a handle that a mailslot
 
 The name of the mailslot. This name must have the following form:
 
-\\.\mailslot\[<i>path</i>]<i>name</i>
+\\\\.\mailslot\\[<i>path</i>]<i>name</i>
 
-The name field must be unique. The name may include multiple levels of pseudo directories separated by backslashes. For example, both \\.\mailslot\example_mailslot_name and \\.\mailslot\abc\def\ghi are valid names.
+The name field must be unique. The name may include multiple levels of pseudo directories separated by backslashes. For example, both \\\\.\mailslot\example_mailslot_name and \\\\.\mailslot\abc\def\ghi are valid names.
 
 
 ### -param nMaxMessageSize [in]
