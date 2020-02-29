@@ -56,7 +56,8 @@ The **WINHTTP\_REQUEST\_STATS** structure contains a variety of statistics for a
 
 ### -field ullFlags
 
-Flags containing details on how the request was made. The following flags are available:
+Flags containing details on how the request was made. The following flags are available.
+
 | Value | Meaning |
 |-|-|
 | WINHTTP_REQUEST_STAT_FLAG_TCP_FAST_OPEN | TCP Fast Open occurred. |
