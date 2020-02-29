@@ -172,7 +172,7 @@ An invalid parameter was passed to the function. This error is returned if a <b>
 
 
 The 
-<b>InetNtop</b> function is supported on Windows Vistaand later.
+<b>InetNtop</b> function is supported on Windows Vista and later.
 
 The 
 <b>InetNtop</b> function provides a protocol-independent address-to-string translation. The 
