@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>SHGetSpecialFolderPath</b> is not supported. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha">ShGetFolderPath</a>.]
+<p class="CCE_Message">[<b>SHGetSpecialFolderPath</b> is not supported. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha">SHGetFolderPath</a>.]
 
 Retrieves the path of a special folder, identified by its <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a>.
 
