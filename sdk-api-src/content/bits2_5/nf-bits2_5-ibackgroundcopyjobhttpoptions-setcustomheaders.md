@@ -135,9 +135,9 @@ The following example shows how to specify custom headers for a job. The example
 
 ```cpp
 // Custom headers to include in job.
-#define HEADERS L"MyHeader_1: Header One Value\n" \
-    L"MyHeader_2: Header Two Value\n" \
-    L"MyHeader_3: Header Three Value\n"
+#define HEADERS L"MyHeader_1: Header One Value\r\n" \
+    L"MyHeader_2: Header Two Value\r\n" \
+    L"MyHeader_3: Header Three Value\r\n"
 
 
   HRESULT hr = S_OK;
