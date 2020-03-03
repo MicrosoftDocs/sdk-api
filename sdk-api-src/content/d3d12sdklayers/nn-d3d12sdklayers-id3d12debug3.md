@@ -1,13 +1,11 @@
 ---
-UID: NN:d3d12sdklayers.ID3D12Debug2
-title: ID3D12Debug2 (d3d12sdklayers.h)
+UID: NN:d3d12sdklayers.ID3D12Debug3
+title: ID3D12Debug3 (d3d12sdklayers.h)
 description: Adds configurable levels of GPU-based validation to the debug layer.
-old-location: direct3d12\id3d12debug2.htm
 tech.root: direct3d12
-ms.assetid: 7FC7A17B-9DD3-4B6C-998E-F958AA1C56FC
-ms.date: 12/05/2018
+ms.date: 03/02/2020
 f1_keywords:
-- d3d12sdklayers/ID3D12Debug2
+- d3d12sdklayers/ID3D12Debug3
 dev_langs:
 - c++
 req.header: d3d12sdklayers.h
@@ -35,7 +33,7 @@ api_type:
 api_location:
 - D3D12sdklayers.h
 api_name:
-- ID3D12Debug2
+- ID3D12Debug3
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -48,7 +46,7 @@ Adds configurable levels of GPU-based validation to the debug layer.
 
 ## -inheritance
 
-The **ID3D12Debug2** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
+The **ID3D12Debug3** interface inherits from the [ID3D12Debug](/windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug) interface.
 
 ## -see-also
 
