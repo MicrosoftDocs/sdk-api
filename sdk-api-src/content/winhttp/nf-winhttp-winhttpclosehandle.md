@@ -125,7 +125,7 @@ Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_A
 If there is a status callback registered for the handle being closed and the handle was created with a non-<b>NULL</b> context value, a <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b> callback is made. This  is the last callback made from the handle and indicates that the handle is being destroyed.
 
 
-An application can terminate an in-progress synchronous or asynchronous request by closing the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> request handle using <b>WinHttpCloseHandle</b>. For asynchronous requests, keep the following points in mind:
+An application can terminate an in-progress asynchronous request by closing the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> request handle using <b>WinHttpCloseHandle</b>. Keep the following points in mind:
 
 
 <ul>
@@ -150,7 +150,7 @@ It might seem that the context data structure could then be freed immediately ra
 
 </li>
 </ul>
-An application should never <b>WinHttpCloseHandle</b> call  on a synchronous request. This can create a race condition. See <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET Handles in WinHTTP</a> for more information.
+An application should never call <b>WinHttpCloseHandle</b> on a synchronous request. This can create a race condition. See <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET Handles in WinHTTP</a> for more information.
 
 <div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>
