@@ -446,7 +446,7 @@ Any other nondigit character following a percent character is formatted in the o
 <td>A single percent sign.</td>
 </tr>
 <tr>
-<td>%<i>space</i></td>
+<td>%<i>b</i></td>
 <td>A single space. This format string can be used to ensure the appropriate number of trailing spaces in a 
        message text line.</td>
 </tr>
