@@ -119,9 +119,13 @@ Value: 0xC0AAB150
 </dl>
 </td>
 <td width="60%">
-The specified disc does not contain one of the supported file systems.
-
+The specified disc does not contain one of the supported file systems. 
+  
 Value: 0xC0AAB151
+
+<div class="alert"><b>Note</b>  
+The file systems are likely supported for the operation, but at the low levels, IMAPI2 when calling ImportFileSystem, it has generic exception/error handling and reports back error 0xC0AAB151. If the disc is not acquired for exclusive access or otherwise access denied, this error won't be reported.
+</div>
 
 </td>
 </tr>

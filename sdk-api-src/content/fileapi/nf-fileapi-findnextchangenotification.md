@@ -95,8 +95,7 @@ If a change occurs after a call to
 <b>FindNextChangeNotification</b>, the operating system records the change. When 
 <b>FindNextChangeNotification</b> is executed, the recorded change immediately satisfies a wait for the change notification.
 
-<b>FindNextChangeNotification</b> should not be used more than once on the same handle without using one of the wait functions. An application may miss a change notification if it uses 
-<b>FindNextChangeNotification</b> when there is a change request outstanding. 
+Each successful call to **FindNextChangeNotification** must be followed by a call to one of the wait functions. If the wait function returns for any reason other than the change notification handle being signaled (for example, if the wait times out), the application must retry the wait. Failing to follow this rule can cause the system to eventually run out of resources. It can also cause the application to miss some change notifications.
 
 When <i>hChangeHandle</i> is no longer needed, close it by using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclosechangenotification">FindCloseChangeNotification</a> function.
