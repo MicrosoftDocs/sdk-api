@@ -184,9 +184,7 @@ An executable view of the file is mapped (mapped memory can be run as code). The
 </dl>
 </td>
 <td width="60%">
-Starting with Windows 10, version 1703, this flag specifies that the view should be mapped using <a href="https://docs.microsoft.com/windows/desktop/Memory/large-page-support">large page support</a>. The size of the view must be a multiple of the size of a 
-         large page reported by the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-getlargepageminimum">GetLargePageMinimum</a> function, and the file-mapping object must have been created using the <b>SEC_LARGE_PAGES</b> option. If you provide a non-null value for <i>lpBaseAddress</i>, then the value must be a multiple of <b>GetLargePageMinimum</b>.
+Starting with Windows 10, version 1703, this flag specifies that the view should be mapped using <a href="https://docs.microsoft.com/windows/desktop/Memory/large-page-support">large page support</a>. The size of the view must be a multiple of the size of a large page reported by the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-getlargepageminimum">GetLargePageMinimum</a> function, and the file-mapping object must have been created using the <b>SEC_LARGE_PAGES</b> option. If you provide a non-null value for <i>lpBaseAddress</i>, then the value must be a multiple of <b>GetLargePageMinimum</b>.<br/><br/><b>Note: </b>On OS versions before Windows 10, version 1703, the <b>FILE_MAP_LARGE_PAGES</b> flag has no effect. On these releases, the view is automatically mapped using large pages if the section was created with the <b>SEC_LARGE_PAGES</b> flag set.
 
 </td>
 </tr>

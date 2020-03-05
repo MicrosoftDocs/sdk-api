@@ -14,7 +14,7 @@ dev_langs:
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -139,7 +139,7 @@ A placeholder is a type of reserved memory region.
 </dl>
 </td>
 <td width="60%">
-Maps a large page view. See <a href="https://docs.microsoft.com/windows/desktop/Memory/large-page-support">large page support</a>.
+Maps a large page view. This flag specifies that the view should be mapped using <a href="https://docs.microsoft.com/windows/desktop/Memory/large-page-support">large page support</a>. The size of the view must be a multiple of the size of a large page reported by the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-getlargepageminimum">GetLargePageMinimum</a> function, and the file-mapping object must have been created using the <b>SEC_LARGE_PAGES</b> option. If you provide a non-null value for the <i>BaseAddress</i> parameter, then the value must be a multiple of <b>GetLargePageMinimum</b>.
 
 </td>
 </tr>
