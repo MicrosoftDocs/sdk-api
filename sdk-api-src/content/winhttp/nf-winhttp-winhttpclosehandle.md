@@ -1,12 +1,11 @@
 ---
 UID: NF:winhttp.WinHttpCloseHandle
 title: WinHttpCloseHandle function (winhttp.h)
-description: The WinHttpCloseHandle function closes a single HINTERNET handle.
+description: The WinHttpCloseHandle function closes a single **HINTERNET** handle.
 old-location: http\winhttpclosehandle.htm
 tech.root: WinHttp
 ms.assetid: 78215141-dfe8-4f0a-ba1a-a63fa257db6f
 ms.date: 12/05/2018
-ms.keywords: WinHttpCloseHandle, WinHttpCloseHandle function [WinHTTP], http.winhttpclosehandle, winhttp.winhttpclosehandle, winhttp/WinHttpCloseHandle
 f1_keywords:
 - winhttp/WinHttpCloseHandle
 dev_langs:
@@ -43,32 +42,19 @@ req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and W
 ms.custom: 19H1
 ---
 
-# WinHttpCloseHandle function
-
-
 ## -description
 
-
-The <b>WinHttpCloseHandle</b> function closes a single 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle.
-
+The **WinHttpCloseHandle** function closes a single **HINTERNET** handle (see [HINTERNET Handles in WinHTTP](/windows/win32/winhttp/hinternet-handles-in-winhttp)).
 
 ## -parameters
 
-
-
-
 ### -param hInternet [in]
 
-Valid 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle to be closed. 
-
+A valid **HINTERNET** handle (see [HINTERNET Handles in WinHTTP](/windows/win32/winhttp/hinternet-handles-in-winhttp)) to be closed. 
 
 ## -returns
 
-
-
-Returns <b>TRUE</b> if the handle is successfully closed, or <b>FALSE</b> otherwise. To get extended error information, call 
+**TRUE** if the handle is successfully closed, otherwise **FALSE**. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
 
 <table>
@@ -110,23 +96,15 @@ Not enough memory was available to complete the requested operation. (Windows er
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>), this function operates synchronously. The return value indicates success or failure.  To get extended error information, call 
+Even when WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>), this function operates synchronously. The return value indicates success or failure. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If there is a status callback registered for the handle being closed and the handle was created with a non-<b>NULL</b> context value, a <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b> callback is made. This  is the last callback made from the handle and indicates that the handle is being destroyed.
 
-
-An application can terminate an in-progress synchronous or asynchronous request by closing the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> request handle using <b>WinHttpCloseHandle</b>. For asynchronous requests, keep the following points in mind:
-
+An application can terminate an in-progress asynchronous request by closing the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> request handle using <b>WinHttpCloseHandle</b>. Keep the following points in mind:
 
 <ul>
 <li>
@@ -146,16 +124,16 @@ Before calling <b>WinHttpCloseHandle</b>, an application can call <a href="https
 
 <code>WinHttpSetStatusCallback( hRequest, NULL, 0, 0 );</code>
 
-It might seem that the context data structure could then be freed immediately rather than having to wait for a <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b> notification, but this is not the case: WinHTTP does not synchronize <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a> with callbacks originating in worker threads. As a result, a callback could already be in progress from another thread, and the application could receive a callback notification even after having <b>NULL</b>ed-out the callback function pointer and deleted the handle's context data structure.  Because of this potential race condition, be conservative in freeing the context structure until after having received the <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b> notification.
+It might seem that the context data structure could then be freed immediately rather than having to wait for a <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b> notification, but this is not the case: WinHTTP does not synchronize <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a> with callbacks originating in worker threads. As a result, a callback could already be in progress from another thread, and the application could receive a callback notification even after having <b>NULL</b>ed-out the callback function pointer and deleted the handle's context data structure. Because of this potential race condition, be conservative in freeing the context structure until after having received the <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b> notification.
 
 </li>
 </ul>
-An application should never <b>WinHttpCloseHandle</b> call  on a synchronous request. This can create a race condition. See <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET Handles in WinHTTP</a> for more information.
+An application should never call <b>WinHttpCloseHandle</b> on a synchronous request. This can create a race condition. See <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET Handles in WinHTTP</a> for more information.
 
 <div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>
 
-#### Examples
+## --examples
 
 The following example shows you how to  retrieve the connection 
                 time-out value:
@@ -196,10 +174,6 @@ The following example shows you how to  retrieve the connection
     }
 
 ```
-
-
-
-
 
 ## -see-also
 
