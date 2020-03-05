@@ -107,7 +107,7 @@ Identifies the basic Microsoft CNG provider.
 </dl>
 </td>
 <td width="60%">
-Identifies the Microsoft TPM-based CNG algorithm provider.
+Identifies the TPM key storage provider that is provided by Microsoft.
 
 </td>
 </tr>
