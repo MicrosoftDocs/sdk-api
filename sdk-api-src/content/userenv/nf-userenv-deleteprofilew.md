@@ -85,6 +85,9 @@ Pointer to a string that specifies the name of the computer from which the profi
 <div class="alert"><b>Note</b>  As of Windows Vista, this parameter must be <b>NULL</b>. If it is not, this function fails with the error code ERROR_INVALID_PARAMETER.</div>
 <div> </div>
 
+<div class="alert"><b>Note</b>  Starting <b>Windows 10, version 1809</b> and <b>Windows Server 2019</b>, this function has been deprecated and is no longer supported by Microsoft.</div>
+<div> </div>
+
 ## -returns
 
 
