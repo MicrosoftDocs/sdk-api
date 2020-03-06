@@ -95,8 +95,8 @@ The number of bytes to map. A value of zero (0)
 The type of allocation. This parameter can be zero (0) or one of the following constant values:
 
 <ul>
-<li><b>MEM_RESERVE</b> - Maps a reserved view</li>
-<li><b>MEM_LARGE_PAGES</b> - Maps a large page view</li>
+<li><b>MEM_RESERVE</b> - Maps a reserved view.</li>
+<li><b>MEM_LARGE_PAGES</b> - Maps a large page view. This flag specifies that the view should be mapped using <a href="https://docs.microsoft.com/windows/desktop/Memory/large-page-support">large page support</a>. The size of the view must be a multiple of the size of a large page reported by the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-getlargepageminimum">GetLargePageMinimum</a> function, and the file-mapping object must have been created using the <b>SEC_LARGE_PAGES</b> option. If you provide a non-null value for the <i>BaseAddress</i> parameter, then the value must be a multiple of <b>GetLargePageMinimum</b>.</li>
 </ul>
 
 ### -param PageProtection [in]
