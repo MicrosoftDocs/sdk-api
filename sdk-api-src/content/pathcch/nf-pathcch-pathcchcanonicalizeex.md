@@ -61,7 +61,7 @@ This function differs from <a href="https://docs.microsoft.com/windows/desktop/a
 This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcanonicalizea">PathCanonicalize</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 
-<div class="alert"><b>Note</b>  This function, <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalize">PathCchCanonicalize</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathalloccanonicalize">PathAllocCanonicalize</a> should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcanonicalizea">PathCanonicalize</a> to prevent the possibility of a buffer overrun.</div><div> </div>
+<div class="alert"><b>Note</b>  This function, <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalize">PathCchCanonicalize</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathalloccanonicalize">PathAllocCanonicalize</a> should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcanonicalizea">PathCanonicalize</a> to prevent the possibility of a buffer overrun.</div>
 
 ## -parameters
 
@@ -94,13 +94,12 @@ One or more of the following flags:
 </tr>
 <tr>
 <td width="40%"><a id="____PATHCCH_NONE"></a><a id="____pathcch_none"></a><dl>
-<dt><b>    PATHCCH_NONE</b></dt>
+<dt><b>PATHCCH_NONE</b></dt>
 <dt>0x0000000</dt>
 </dl>
 </td>
 <td width="60%">
-Do not allow for the construction of \\?\ paths (ie, long paths) longer than MAX_PATH. 
-
+Do not allow for the construction of \\?\ paths (ie, long paths) longer than MAX_PATH.
 </td>
 </tr>
 <tr>
@@ -111,89 +110,64 @@ Do not allow for the construction of \\?\ paths (ie, long paths) longer than MAX
 </td>
 <td width="60%">
 Allow the building of \\?\ paths longer than MAX_PATH. Note that <i>cchPathOut</i> must be greater than MAX_PATH. If it is not, this flag is ignored.
-
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="____PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS"></a><a id="____pathcch_force_enable_long_name_process"></a><dl>
-<dt><b>    PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS</b></dt>
+<dt><b>PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS</b></dt>
 <dt>0x00000002</dt>
 </dl>
 </td>
 <td width="60%">
-Forces the API to treat the caller as long path enabled, independent of the 
-
-    process's long name enabled state. This option can be used only when <b>PATHCCH_ALLOW_LONG_PATHS</b> is specified, and cannot be used with 
-<b>PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS</b>. 
-
+Forces the API to treat the caller as long path enabled, independent of the process's long name enabled state. This option can be used only when <b>PATHCCH_ALLOW_LONG_PATHS</b> is specified, and cannot be used with <b>PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS</b>. 
 
 <b>Note</b>  This value is available starting in Windows 10, version 1703.
-
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="____PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS"></a><a id="____pathcch_force_disable_long_name_process"></a><dl>
-<dt><b>    PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS</b></dt>
+<dt><b>PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS</b></dt>
 <dt>0x00000004</dt>
 </dl>
 </td>
 <td width="60%">
-Forces the API to treat the caller as long path disabled, independent of the 
-
-    process's long name enabled state. This option can be used only when <b>PATHCCH_ALLOW_LONG_PATHS</b> is specified, and cannot be used with <b>PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS</b>. 
-
+Forces the API to treat the caller as long path disabled, independent of the process's long name enabled state. This option can be used only when <b>PATHCCH_ALLOW_LONG_PATHS</b> is specified, and cannot be used with <b>PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS</b>. 
 
 <b>Note</b>  This value is available starting in Windows 10, version 1703.
-
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="____PATHCCH_DO_NOT_NORMALIZE_SEGMENTS"></a><a id="____pathcch_do_not_normalize_segments"></a><dl>
-<dt><b>    PATHCCH_DO_NOT_NORMALIZE_SEGMENTS</b></dt>
+<dt><b>PATHCCH_DO_NOT_NORMALIZE_SEGMENTS</b></dt>
 <dt>0x00000008</dt>
 </dl>
 </td>
 <td width="60%">
-Disables the normalization of path segments that includes removing trailing dots and spaces. 
-
-    This enables access to paths that win32 path normalization will block. 
-
+Disables the normalization of path segments that includes removing trailing dots and spaces. This enables access to paths that win32 path normalization will block.
 
 <b>Note</b>  This value is available starting in Windows 10, version 1703.
-
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="________PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH"></a><a id="________pathcch_ensure_is_extended_length_path"></a><dl>
-<dt><b>        PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH</b></dt>
+<dt><b>PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH</b></dt>
 <dt>0x00000010</dt>
 </dl>
 </td>
-<td width="60%">
-    Converts the input path into the extended length DOS device path form (with the \\?\ prefix) 
-
-    f not already in that form. This enables access to paths that are otherwise not addressable 
-
-    due to Win32 normalization rules (that can strip trailing dots and spaces) and path 
-
-    length limitations. This option implies the same behavior of <b>PATHCCH_DO_NOT_NORMALIZE_SEGMENTS</b>. 
-
+<td width="60%">Converts the input path into the extended length DOS device path form (with the \\?\ prefix) if not already in that form. This enables access to paths that are otherwise not addressable due to Win32 normalization rules (that can strip trailing dots and spaces) and path length limitations. This option implies the same behavior of <b>PATHCCH_DO_NOT_NORMALIZE_SEGMENTS</b>.
 
 <b>Note</b>  This value is available starting in Windows 10, version 1703.
-
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="____PATHCCH_ENSURE_TRAILING_SLASH"></a><a id="____pathcch_ensure_trailing_slash"></a><dl>
-<dt><b>    PATHCCH_ENSURE_TRAILING_SLASH</b></dt>
+<dt><b>PATHCCH_ENSURE_TRAILING_SLASH</b></dt>
 <dt>0x00000020</dt>
 </dl>
 </td>
-<td width="60%">
-    When combining or normalizing a path, ensure there is a trailing backslash.
+<td width="60%">When combining or normalizing a path, ensure there is a trailing backslash.
 
 <b>Note</b>  This value is available starting in Windows 10, version 1703.
-
 </td>
 </tr>
 </table>
@@ -218,8 +192,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 </dl>
 </td>
 <td width="60%">
-The <i>cchPathOut</i> value is greater than PATHCCH_MAX_CCH.
-
+    The <i>cchPathOut</i> value is greater than <b>PATHCCH_MAX_CCH</b>.
 </td>
 </tr>
 <tr>
@@ -229,8 +202,7 @@ The <i>cchPathOut</i> value is greater than PATHCCH_MAX_CCH.
 </dl>
 </td>
 <td width="60%">
-A path segment has more than PATHCCH_MAX_CCH characters, or, if the PATHCCH_ALLOW_LONG_PATHS flag is not set, exceeds the standard path segment length limit of 256 characters.
-
+A path segment has more than <b>PATHCCH_MAX_CCH</b> characters, or, if the <b>PATHCCH_ALLOW_LONG_PATHS</b> flag is not set, exceeds the standard path segment length limit of 256 characters.
 </td>
 </tr>
 <tr>
@@ -241,7 +213,6 @@ A path segment has more than PATHCCH_MAX_CCH characters, or, if the PATHCCH_ALLO
 </td>
 <td width="60%">
 The function could not allocate a buffer of the neccessary size.
-
 </td>
 </tr>
 </table>
@@ -254,7 +225,7 @@ The function could not allocate a buffer of the neccessary size.
 
 
 
-This function responds to the strings "." and ".." embedded in a path. The ".." string indicates to remove the immediately preceding path segment. The "." string indicates to skip over the next path segment. Note that the root segment of the path cannot be removed. If there are more ".." strings than there are path segments, the function returns S_OK and the buffer pointed to by <i>pszPathOut</i> contains a single backslash, "\".
+This function responds to the strings "." and ".." embedded in a path. The ".." string indicates to remove the immediately preceding path segment. The "." string indicates to skip over the next path segment. Note that the root segment of the path cannot be removed. If there are more ".." strings than there are path segments, the function returns <b>S_OK</b> and the buffer pointed to by <i>pszPathOut</i> contains a single backslash, "\".
 
 All trailing periods are removed from the path, except when preceded by the "*" wild card character. In that case, a single period is retained after the '*' character, but all other trailing periods are removed.
 
