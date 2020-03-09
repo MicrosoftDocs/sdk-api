@@ -74,7 +74,7 @@ To perform this operation as a transacted operation, which results in a handle t
 
 ### -param lpFileName [in]
 
-The name of the file or device to be created or opened. You may use either forward slashes (/) or backslashes (\) in this name.
+The name of the file or device to be created or opened. You may use either forward slashes (/) or backslashes (\\) in this name.
 
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
 To extend this limit to 32,767 wide characters, use this Unicode version of the function and prepend "\\\\?\\" to the path. For more information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
