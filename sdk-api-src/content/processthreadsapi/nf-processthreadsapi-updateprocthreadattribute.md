@@ -353,7 +353,7 @@ The Extension Point Disable policy, if enabled, prevents certain built-in third 
 <ul>
 <li>AppInit DLLs</li>
 <li>Winsock Layered Service Providers (LSPs)</li>
-<li>Globoal Windows Hooks</li>
+<li>Global Windows Hooks</li>
 <li>Legacy Input Method Editors (IMEs)</li>
 </ul>
 Local hooks still work with the Extension Point Disable policy enabled. This behavior is used to prevent legacy extension points from being loaded into a process that does not use them. 
