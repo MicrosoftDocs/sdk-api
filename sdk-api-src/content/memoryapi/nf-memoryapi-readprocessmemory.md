@@ -114,4 +114,4 @@ The entire area to be read must be accessible, and if it is not accessible, the 
 
 
 
-<a href="https://msdn.microsoft.com/9cd91f1c-58ce-4adc-b027-45748543eb06">ReadProcessMemory</a>
+<a href="https://msdn.microsoft.com/9cd91f1c-58ce-4adc-b027-45748543eb06">WriteProcessMemory</a>
