@@ -80,7 +80,7 @@ A pointer to a null-terminated string that contains the attribute whose values a
 
 
 If the function succeeds, it returns a null-terminated list of pointers to 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures that contain the values of the specified attribute. If no attribute values were found, it returns <b>NULL</b>. The session error parameter in the LDAP data structure is set to 0 in either case.
+<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures that contain the values of the specified attribute. If no attribute values were found, it returns <b>NULL</b>. The session error parameter in the LDAP data structure is set to 0 in either case.
 
 If the function fails, it returns <b>NULL</b> and the session error parameter in the LDAP data structure is set to the LDAP error code.
 
@@ -119,7 +119,7 @@ Call
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
 
 
 

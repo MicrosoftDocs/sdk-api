@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides the implementation of a shared Microsoft DirectX surface which is displayed in a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> or <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>.
+Provides the implementation of a shared Microsoft DirectX surface which is displayed in a <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> or <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>.
 
 
 ## -inheritance
@@ -72,7 +72,7 @@ The <b>ISurfaceImageSourceNativeWithD2D</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-begindraw">BeginDraw</a>
 </td>
 <td align="left" width="63%">
-Initiates an update to the associated <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> or <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>.
+Initiates an update to the associated <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> or <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ Suspends the drawing operation.
 
 
 
-The <b>ISurfaceImageSourceNativeWithD2D</b> interface provides the native implementation of the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> class. To get a pointer to the  <b>ISurfaceImageSourceNativeWithD2D</b> interface, you must cast a <b>SurfaceImageSource</b> instance to <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> or <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, and call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method.
+The <b>ISurfaceImageSourceNativeWithD2D</b> interface provides the native implementation of the <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> class. To get a pointer to the  <b>ISurfaceImageSourceNativeWithD2D</b> interface, you must cast a <b>SurfaceImageSource</b> instance to <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> or <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, and call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method.
 
 
 ```cpp
@@ -132,11 +132,11 @@ sisInspectable->QueryInterface(__uuidof(ISurfaceImageSourceNative), (void **)&m_
 ```
 
 
-The <b>ISurfaceImageSourceNativeWithD2D</b> interface provides high-performance batched Direct2D drawing, which enables drawing to multiple different <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> or <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a> objects in the same batch, as long as they share the same Direct2D device.  Batching can improve performance when updating multiple surfaces at the same time.
+The <b>ISurfaceImageSourceNativeWithD2D</b> interface provides high-performance batched Direct2D drawing, which enables drawing to multiple different <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> or <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a> objects in the same batch, as long as they share the same Direct2D device.  Batching can improve performance when updating multiple surfaces at the same time.
  
  
 
-The <b>ISurfaceImageSourceNativeWithD2D</b> interface enables drawing to a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> or <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a> from one or more background threads, which allows high-performance DirectX rendering off the UI thread.
+The <b>ISurfaceImageSourceNativeWithD2D</b> interface enables drawing to a <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> or <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a> from one or more background threads, which allows high-performance DirectX rendering off the UI thread.
 
 Only call the <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-setdevice">SetDevice</a>, <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-begindraw">BeginDraw</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-enddraw">EndDraw</a> methods on <b>ISurfaceImageSourceNativeWithD2D</b> interface, not on the <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenative">ISurfaceImageSourceNative</a> or <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative">IVirtualSurfaceImageSourceNative</a> interfaces.  
 
@@ -156,7 +156,7 @@ Use <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.medi
 
 
 
-Handle the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.compositiontarget.surfacecontentslost">SurfaceContentsLost</a> event to determine when you need to recreate content which may be lost if the system resets the GPU.
+Handle the <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.compositiontarget.surfacecontentslost">SurfaceContentsLost</a> event to determine when you need to recreate content which may be lost if the system resets the GPU.
 
 
 
@@ -174,15 +174,15 @@ Handle the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.med
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.compositiontarget.surfacecontentslost">SurfaceContentsLost</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.compositiontarget.surfacecontentslost">SurfaceContentsLost</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>
  
 
  

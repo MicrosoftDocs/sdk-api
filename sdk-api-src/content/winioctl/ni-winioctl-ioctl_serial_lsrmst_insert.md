@@ -49,7 +49,7 @@ req.redist:
 
 
 Enables or disables the placement of line status and modem status values into the regular data stream that an application acquires through the 
-[ReadFile](https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-readfile) function.
+[ReadFile](https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-readfile) function.
 
 When this line-status and modem-status data placement mode is enabled, status values are preceded in the data stream by an escape character. The user-definable escape character is set by the 
 <b>IOCTL_SERIAL_LSRMST_INSERT</b> control code. See the Remarks section for status value details.
@@ -140,7 +140,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 

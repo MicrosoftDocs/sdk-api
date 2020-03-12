@@ -83,7 +83,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 ProjFS callback routines provide the virtualization instance handle in their callbackData parameters. A provider that manages multiple virtualization instances can use the InstanceID field of virtualizationInstanceInfo to identify which of its virtualization instances is receiving the callback. 
 
 
-The provider can use the WriteAlignment member of virtualizationInstanceInfo to determine the correct values to use for the byteOffset and length parameters of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwritefiledata">PrjWriteFileData</a>.
+The provider can use the WriteAlignment member of virtualizationInstanceInfo to determine the correct values to use for the byteOffset and length parameters of <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwritefiledata">PrjWriteFileData</a>.
 
 
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides access to handles from a random-access byte stream that the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method created.
+Provides access to handles from a random-access byte stream that the <a href="https://docs.microsoft.com/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method created.
 
 
 ## -inheritance
@@ -81,7 +81,7 @@ Closes the handle from a random-access byte stream that you created by calling <
 <a href="https://docs.microsoft.com/windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-iunbufferedfilehandleprovider-openunbufferedfilehandle">OpenUnbufferedFileHandle</a>
 </td>
 <td align="left" width="63%">
-Gets a handle from a random-access byte stream that the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method created and registers a callback method that you want to run when the opportunistic lock for the handle is broken. 
+Gets a handle from a random-access byte stream that the <a href="https://docs.microsoft.com/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method created and registers a callback method that you want to run when the opportunistic lock for the handle is broken. 
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Gets a handle from a random-access byte stream that the <a href="https://docs.mi
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a>
  
 
  

@@ -87,7 +87,7 @@ The number of bytes required for the  specified  runtime parameter resource.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nn-d3d12-id3d12metacommand">ID3D12MetaCommand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12metacommand">ID3D12MetaCommand</a>
  
 
  

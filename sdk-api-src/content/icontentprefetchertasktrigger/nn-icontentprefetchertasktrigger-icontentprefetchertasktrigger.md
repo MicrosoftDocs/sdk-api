@@ -57,7 +57,7 @@ The <b>IContentPrefetcherTaskTrigger</b> interface supports content prefetching 
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.backgroundtransfer.contentprefetcher">ContentPrefetcher</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.networking.backgroundtransfer.contentprefetcher">ContentPrefetcher</a>
 
 
 

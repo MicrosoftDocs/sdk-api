@@ -131,7 +131,7 @@ The function returns 0 if it does not succeed. To get extended error information
 
 
 
-<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
+<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
 
 
 

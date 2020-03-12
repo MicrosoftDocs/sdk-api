@@ -110,7 +110,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmconvertfloattohalf">XMConvertFloatToHalf</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmconvertfloattohalf">XMConvertFloatToHalf</a>
  
 
  

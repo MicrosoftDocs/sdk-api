@@ -228,7 +228,7 @@ The function retrieves a REG_SZ string that contains the GUID that represents th
 
 #### SPDRP_COMPATIBLEIDS
 
-The function retrieves a REG_MULTI_SZ string that contains the list of compatible IDs for a device. For information about compatible IDs, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
+The function retrieves a REG_MULTI_SZ string that contains the list of compatible IDs for a device. For information about compatible IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
 
 
@@ -282,7 +282,7 @@ The function retrieves a REG_SZ string that contains the friendly name of a devi
 
 #### SPDRP_HARDWAREID
 
-The function retrieves a REG_MULTI_SZ string that contains the list of hardware IDs for a device. For information about hardware IDs, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
+The function retrieves a REG_MULTI_SZ string that contains the list of hardware IDs for a device. For information about hardware IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
 
 
@@ -546,7 +546,7 @@ The function retrieves a REG_SZ string that contains the GUID that represents th
 
 ##### - Property.SPDRP_COMPATIBLEIDS
 
-The function retrieves a REG_MULTI_SZ string that contains the list of compatible IDs for a device. For information about compatible IDs, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
+The function retrieves a REG_MULTI_SZ string that contains the list of compatible IDs for a device. For information about compatible IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
 
 ##### - Property.SPDRP_CONFIGFLAGS
@@ -591,7 +591,7 @@ The function retrieves a REG_SZ string that contains the friendly name of a devi
 
 ##### - Property.SPDRP_HARDWAREID
 
-The function retrieves a REG_MULTI_SZ string that contains the list of hardware IDs for a device. For information about hardware IDs, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
+The function retrieves a REG_MULTI_SZ string that contains the list of hardware IDs for a device. For information about hardware IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
 
 ##### - Property.SPDRP_INSTALL_STATE

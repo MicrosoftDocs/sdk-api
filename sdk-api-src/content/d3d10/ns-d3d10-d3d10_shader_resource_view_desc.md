@@ -66,9 +66,9 @@ The viewing <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/n
 
 ### -field ViewDimension
 
-Type: <b><a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d10/ns-d3d10-d3d10_buffer_srv">D3D10_SRV_DIMENSION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_buffer_srv">D3D10_SRV_DIMENSION</a></b>
 
-The resource type of the view. See <a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d10/ns-d3d10-d3d10_buffer_srv">D3D10_SRV_DIMENSION</a>. This should be the same as the resource type of the underlying resource. This parameter also determines which _SRV to use in the union below.
+The resource type of the view. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_buffer_srv">D3D10_SRV_DIMENSION</a>. This should be the same as the resource type of the underlying resource. This parameter also determines which _SRV to use in the union below.
 
 
 ### -field Buffer

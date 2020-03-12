@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The <b>IFaxServerNotify2</b> interface is used for fax notifications. The fax service calls <b>IFaxServerNotify2</b> to send fax event notifications. Events include changes to fax server configuration and activity, changes to incoming and outgoing job queues, and changes to incoming and outgoing archives. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-registering-for-event-notifications">Registering for Event Notifications</a>.
 
-The <b>IFaxServerNotify2</b> interface supports all the same methods as the <a href="https://docs.microsoft.com/en-us/windows/desktop/api/faxcomex/nn-faxcomex-ifaxservernotify2">IFaxServerNotify</a> interface and the additional method <a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nf-faxcomex-_ifaxservernotify2-ongeneralserverconfigchanged">OnGeneralServerConfigChanged</a>.
+The <b>IFaxServerNotify2</b> interface supports all the same methods as the <a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nn-faxcomex-ifaxservernotify2">IFaxServerNotify</a> interface and the additional method <a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nf-faxcomex-_ifaxservernotify2-ongeneralserverconfigchanged">OnGeneralServerConfigChanged</a>.
 
 
 ## -inheritance

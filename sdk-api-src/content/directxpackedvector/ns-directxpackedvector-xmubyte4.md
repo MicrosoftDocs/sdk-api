@@ -119,7 +119,7 @@ TBD
 
 
 <code>XMUBYTE4</code> can be loaded into instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> by using
-	    <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadubyte4">XMLoadUByte4</a>.
+	    <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadubyte4">XMLoadUByte4</a>.
 	
 
 Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMUBYTE4</code> with <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoreubyte4">XMStoreUByte4</a>.

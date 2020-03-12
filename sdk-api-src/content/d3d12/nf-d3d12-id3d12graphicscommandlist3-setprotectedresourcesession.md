@@ -61,4 +61,4 @@ If set, indicates that protected resources can be accessed with the given sessio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist3">ID3D12GraphicsCommandList3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist3">ID3D12GraphicsCommandList3</a>

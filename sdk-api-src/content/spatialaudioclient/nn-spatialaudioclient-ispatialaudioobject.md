@@ -104,7 +104,7 @@ Sets an audio amplitude multiplier that will be applied to the audio data provid
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
+<a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
  
 
  

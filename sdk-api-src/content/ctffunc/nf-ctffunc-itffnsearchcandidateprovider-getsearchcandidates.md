@@ -120,7 +120,7 @@ No candidates could be returned for the input string, <i>pplist</i> may be <b>NU
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.search.searchpanequerylinguisticdetails">SearchPaneQueryLinguisticDetails</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.applicationmodel.search.searchpanequerylinguisticdetails">SearchPaneQueryLinguisticDetails</a>
 
 
 

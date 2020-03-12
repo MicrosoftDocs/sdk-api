@@ -121,7 +121,7 @@ The 5-bit z component.
 
 
 
-You can use <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadu565">XMLoadU565</a> to load <code>XMU565</code> into instances 
+You can use <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadu565">XMLoadU565</a> to load <code>XMU565</code> into instances 
       of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type"> XMVECTOR</a>.
 	
 

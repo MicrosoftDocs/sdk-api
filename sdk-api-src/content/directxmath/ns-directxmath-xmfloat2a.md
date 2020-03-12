@@ -51,7 +51,7 @@ An **XMFLOAT2** object.
 
 ## -remarks
 
-<code>XMFLOAT2A</code> can be loaded into instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> by using <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmloadfloat2a">XMLoadFloat2A</a>.
+<code>XMFLOAT2A</code> can be loaded into instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> by using <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmloadfloat2a">XMLoadFloat2A</a>.
 
 Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT2A</code> with **XMStoreFloat2A**.
 

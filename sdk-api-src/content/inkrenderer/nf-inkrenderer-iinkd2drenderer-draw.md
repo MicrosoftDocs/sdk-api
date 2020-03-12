@@ -74,7 +74,7 @@ Pointer to the collection of ink strokes to render.
 
 True, if the Windows high-contrast accessibility option is currently selected. Otherwise, false.
 
-Listen for the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.viewmanagement.accessibilitysettings.highcontrastchanged">HighContrastChanged</a> event to set this value appropriately.
+Listen for the <a href="https://docs.microsoft.com/uwp/api/windows.ui.viewmanagement.accessibilitysettings.highcontrastchanged">HighContrastChanged</a> event to set this value appropriately.
 
 
 ## -returns

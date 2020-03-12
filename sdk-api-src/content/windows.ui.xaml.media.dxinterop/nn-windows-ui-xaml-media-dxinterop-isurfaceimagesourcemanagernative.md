@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables performing bulk operations across all <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> objects created in the same process.
+Enables performing bulk operations across all <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> objects created in the same process.
 
 
 ## -inheritance
@@ -72,7 +72,7 @@ The <b>ISurfaceImageSourceManagerNative</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcemanagernative-flushallsurfaceswithdevice">FlushAllSurfacesWithDevice</a>
 </td>
 <td align="left" width="63%">
-Flushes all current GPU work for all <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> or <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>  objects associated with the given device.
+Flushes all current GPU work for all <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> or <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>  objects associated with the given device.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Flushes all current GPU work for all <a href="https://docs.microsoft.com/en-us/u
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a>
  
 
  

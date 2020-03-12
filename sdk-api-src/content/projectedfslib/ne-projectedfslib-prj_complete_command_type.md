@@ -59,10 +59,10 @@ Specifies command types.
 
 ### -field PRJ_COMPLETE_COMMAND_TYPE_NOTIFICATION
 
-The provider is completing a call to its <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_notification_cb">PRJ_NOTIFICATION_CB</a> callback.
+The provider is completing a call to its <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_notification_cb">PRJ_NOTIFICATION_CB</a> callback.
 
 
 ### -field PRJ_COMPLETE_COMMAND_TYPE_ENUMERATION
 
-The provider is completing a call to its <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback.
+The provider is completing a call to its <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback.
 

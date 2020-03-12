@@ -75,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Each process receives the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.core.coreapplication.resuming">Resuming</a> event, which is useful for stepping through your apps as they respond to this event.
+Each process receives the <a href="https://docs.microsoft.com/uwp/api/windows.applicationmodel.core.coreapplication.resuming">Resuming</a> event, which is useful for stepping through your apps as they respond to this event.
 
 
 

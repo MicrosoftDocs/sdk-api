@@ -60,7 +60,7 @@ The
 The returned stream object supports both reading and writing, is not transacted, and does not support region locking. The object calls the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalrealloc">GlobalReAlloc</a> function to grow the memory block as required.
 
 
-<div class="alert"><b>Tip</b>  Consider using the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shcreatememstream">SHCreateMemStream</a> function, which produces better performance, or for Windows Store apps, consider using <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.streams.inmemoryrandomaccessstream">InMemoryRandomAccessStream</a>.</div>
+<div class="alert"><b>Tip</b>  Consider using the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shcreatememstream">SHCreateMemStream</a> function, which produces better performance, or for Windows Store apps, consider using <a href="https://docs.microsoft.com/uwp/api/windows.storage.streams.inmemoryrandomaccessstream">InMemoryRandomAccessStream</a>.</div>
 <div> </div>
 
 
@@ -163,7 +163,7 @@ Prior to Windows 7 and Windows Server 2008 R2, this implementation did not ze
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.streams.inmemoryrandomaccessstream">InMemoryRandomAccessStream</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.storage.streams.inmemoryrandomaccessstream">InMemoryRandomAccessStream</a>
  
 
  

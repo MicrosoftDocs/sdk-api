@@ -64,7 +64,7 @@ The application user model ID of the Windows Store app.
 
 ### -param itemArray [in]
 
-A pointer to an array of a single Shell item. The first item in the array is converted into a Uri object that is passed to the app through <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.activation.protocolactivatedeventargs">ProtocolActivatedEventArgs</a>. Any items in the array except for the first element are ignored.
+A pointer to an array of a single Shell item. The first item in the array is converted into a Uri object that is passed to the app through <a href="https://docs.microsoft.com/uwp/api/windows.applicationmodel.activation.protocolactivatedeventargs">ProtocolActivatedEventArgs</a>. Any items in the array except for the first element are ignored.
 
 
 ### -param processId [out]

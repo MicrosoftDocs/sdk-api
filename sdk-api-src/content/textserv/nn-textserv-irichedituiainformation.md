@@ -69,7 +69,7 @@ The <b>IRichEditUiaInformation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/textserv/nf-textserv-irichedituiainformation-getboundaryrectangle">GetBoundaryRectangle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-irichedituiainformation-getboundaryrectangle">GetBoundaryRectangle</a>
 </td>
 <td align="left" width="63%">
 Retrieves the bounding rectangle of a windowless rich edit control.
@@ -78,7 +78,7 @@ Retrieves the bounding rectangle of a windowless rich edit control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/textserv/nf-textserv-irichedituiainformation-isvisible">IsVisible</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-irichedituiainformation-isvisible">IsVisible</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a windowless rich edit control is currently visible.

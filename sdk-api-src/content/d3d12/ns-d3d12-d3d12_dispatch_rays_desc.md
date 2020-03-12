@@ -63,40 +63,40 @@ The shader record for the ray generation shader to use.
 
 The memory pointed to must be in state <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</a>.  
 
-The address must be aligned to 64 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_TABLE_BYTE_ALIGNMENT</a>, and in the range [0...4096] bytes. 
+The address must be aligned to 64 bytes, defined as <a href="https://docs.microsoft.com/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_TABLE_BYTE_ALIGNMENT</a>, and in the range [0...4096] bytes. 
 
 
 ### -field MissShaderTable
 
 The shader table for miss shaders.
 
-The stride is record stride, and must be aligned to 32 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_RECORD_BYTE_ALIGNMENT</a>, and in the range [0...4096] bytes. 0 is allowed.
+The stride is record stride, and must be aligned to 32 bytes, defined as <a href="https://docs.microsoft.com/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_RECORD_BYTE_ALIGNMENT</a>, and in the range [0...4096] bytes. 0 is allowed.
 
 The memory pointed to must be in state <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</a>.  
 
-The address must be aligned to 64 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_TABLE_BYTE_ALIGNMENT</a>. 
+The address must be aligned to 64 bytes, defined as <a href="https://docs.microsoft.com/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_TABLE_BYTE_ALIGNMENT</a>. 
 
 
 ### -field HitGroupTable
 
 The shader table for hit groups.
 
-The stride is record stride, and must be aligned to 32 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_RECORD_BYTE_ALIGNMENT</a>, and in the range [0...4096] bytes. 0 is allowed.
+The stride is record stride, and must be aligned to 32 bytes, defined as <a href="https://docs.microsoft.com/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_RECORD_BYTE_ALIGNMENT</a>, and in the range [0...4096] bytes. 0 is allowed.
 
 The memory pointed to must be in state <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</a>.  
 
-The address must be aligned to 64 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_TABLE_BYTE_ALIGNMENT</a>. 
+The address must be aligned to 64 bytes, defined as <a href="https://docs.microsoft.com/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_TABLE_BYTE_ALIGNMENT</a>. 
 
 
 ### -field CallableShaderTable
 
 The shader table for callable shaders.
 
-The stride is record stride, and must be aligned to 32 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_RECORD_BYTE_ALIGNMENT</a>. 0 is allowed.
+The stride is record stride, and must be aligned to 32 bytes, defined as <a href="https://docs.microsoft.com/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_RECORD_BYTE_ALIGNMENT</a>. 0 is allowed.
 
 The memory pointed to must be in state <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</a>.  
 
-The address must be aligned to 64 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_TABLE_BYTE_ALIGNMENT</a>. 
+The address must be aligned to 64 bytes, defined as <a href="https://docs.microsoft.com/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_SHADER_TABLE_BYTE_ALIGNMENT</a>. 
 
 
 ### -field Width

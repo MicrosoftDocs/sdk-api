@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nn-d3d12-id3d12protectedsession">ID3D12ProtectedSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12protectedsession">ID3D12ProtectedSession</a>
  
 
  

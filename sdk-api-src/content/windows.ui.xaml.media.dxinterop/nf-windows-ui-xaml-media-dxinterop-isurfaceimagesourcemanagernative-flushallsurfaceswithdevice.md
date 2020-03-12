@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Flushes all current GPU work for all <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> or <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>  objects associated with the given device.
+Flushes all current GPU work for all <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> or <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>  objects associated with the given device.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Flushes all current GPU work for all <a href="https://docs.microsoft.com/en-us/u
 
 ### -param device [in]
 
-The device that was used to create <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> objects in this process.  It must be an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a> or an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a>.
+The device that was used to create <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> objects in this process.  It must be an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a> or an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a>.
 
 
 ## -returns
@@ -75,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <b>FlushAllSurfacesWithDevice</b> method flushes current GPU work for all <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> objects that were created with <i>device</i>.  This GPU work includes Direct2D rendering work and internal GPU work done by the framework associated with rendering.  This is useful if an application has created multiple <b>SurfaceImageSource</b> objects and needs to flush the GPU work for all of these surfaces from the background rendering thread.  By flushing this work from the background thread the work can be better parallelized, with work being done on the UI thread to improve performance.
+The <b>FlushAllSurfacesWithDevice</b> method flushes current GPU work for all <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> objects that were created with <i>device</i>.  This GPU work includes Direct2D rendering work and internal GPU work done by the framework associated with rendering.  This is useful if an application has created multiple <b>SurfaceImageSource</b> objects and needs to flush the GPU work for all of these surfaces from the background rendering thread.  By flushing this work from the background thread the work can be better parallelized, with work being done on the UI thread to improve performance.
 
 You can call the <b>FlushAllSurfacesWithDevice</b> method from a non-UI thread.  
 
@@ -103,11 +103,11 @@ You can call the <b>FlushAllSurfacesWithDevice</b> method from a non-UI thread.
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>
  
 
  

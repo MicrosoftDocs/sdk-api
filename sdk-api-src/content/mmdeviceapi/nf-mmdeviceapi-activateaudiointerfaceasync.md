@@ -59,7 +59,7 @@ Enables Windows Store apps to access preexisting Component Object Model (COM) in
 
 ### -param deviceInterfacePath [in]
 
-A device interface ID for an audio device. This is normally retrieved from a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.devices.enumeration.deviceinformation">DeviceInformation</a> object or one of the methods of the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.media.devices.mediadevice">MediaDevice</a> class. 
+A device interface ID for an audio device. This is normally retrieved from a <a href="https://docs.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation">DeviceInformation</a> object or one of the methods of the <a href="https://docs.microsoft.com/uwp/api/windows.media.devices.mediadevice">MediaDevice</a> class. 
 
 The GUIDs <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/devinterface-xxx-guids">DEVINTERFACE_AUDIO_CAPTURE</a>  and <b>DEVINTERFACE_AUDIO_RENDER</b>  represent the default audio capture and render device respectively. Call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-stringfromiid">StringFromIID</a> to convert either of these GUIDs to an <b>LPCWSTR</b> to use for this argument.
 
@@ -127,7 +127,7 @@ This error may result if the function is called from an incorrect COM apartment,
 
 
 
-This function enables Windows Store apps to  activate certain <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a> COM interfaces after using Windows Runtime APIs in the <b>Windows.Devices</b> and <a href="https://docs.microsoft.com/en-us/uwp/api/windows.media.devices">Windows.Media.Devices</a> namespaces to select an audio device.  
+This function enables Windows Store apps to  activate certain <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a> COM interfaces after using Windows Runtime APIs in the <b>Windows.Devices</b> and <a href="https://docs.microsoft.com/uwp/api/windows.media.devices">Windows.Media.Devices</a> namespaces to select an audio device.  
 
 For many implementations, an application must call this function from the main UI thread to activate a COM interface in the <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a> family so that the system can show a dialog to the user. The application passes an <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-iactivateaudiointerfacecompletionhandler">IActivateAudioInterfaceCompletionHandler</a> callback COM interface through <i>completionHandler</i>. Windows calls a method in the application’s <b>IActivateAudioInterfaceCompletionHandler</b> interface from a worker thread in the COM Multi-threaded Apartment (MTA) when the activation results are available. The application can then call a method in the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-iactivateaudiointerfaceasyncoperation">IActivateAudioInterfaceAsyncOperation</a> interface  to retrieve the result code and the requested <b>WASAPI</b> interface. There are some activations that are explicitly safe and therefore don't require that this function be called from the main UI thread. These explicitly safe activations include:
 

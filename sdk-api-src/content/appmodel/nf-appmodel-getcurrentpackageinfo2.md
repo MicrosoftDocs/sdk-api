@@ -70,7 +70,7 @@ On input, the size of <i>buffer</i>, in bytes. On output, the size of the array 
 
 Type: <b>BYTE*</b>
 
-The package information, represented as an array of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/appmodel/ns-appmodel-package_info">PACKAGE_INFO</a> structures.
+The package information, represented as an array of <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/ns-appmodel-package_info">PACKAGE_INFO</a> structures.
 
 ### -param count
 

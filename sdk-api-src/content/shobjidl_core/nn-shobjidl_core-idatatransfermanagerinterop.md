@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables access to <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager">DataTransferManager</a> methods in a Windows Store app that manages multiple windows.
+Enables access to <a href="https://docs.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager">DataTransferManager</a> methods in a Windows Store app that manages multiple windows.
 
 
 ## -inheritance
@@ -72,7 +72,7 @@ The <b>IDataTransferManagerInterop</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idatatransfermanagerinterop-getforwindow">GetForWindow</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager">DataTransferManager</a> instance for the specified window.
+Gets the <a href="https://docs.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager">DataTransferManager</a> instance for the specified window.
 
 </td>
 </tr>

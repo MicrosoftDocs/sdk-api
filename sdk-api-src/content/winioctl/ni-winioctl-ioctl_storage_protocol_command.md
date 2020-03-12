@@ -47,7 +47,7 @@ req.redist:
 
 ## -description
 
-Windows applications can use <b>IOCTL_STORAGE_PROTOCOL_COMMAND</b> to conduct pass-through of protocol specific commands to the storage device or adapter. The request indicates the bus specific command which is further sent to a specific type of device to process. For more information, see the page on <a href="https://docs.microsoft.com/en-us/windows/win32/fileio/working-with-nvme-devices#using-ioctl_storage_protocol_command-to-send-commands">working with NVMe drives</a>.
+Windows applications can use <b>IOCTL_STORAGE_PROTOCOL_COMMAND</b> to conduct pass-through of protocol specific commands to the storage device or adapter. The request indicates the bus specific command which is further sent to a specific type of device to process. For more information, see the page on <a href="https://docs.microsoft.com/windows/win32/fileio/working-with-nvme-devices#using-ioctl_storage_protocol_command-to-send-commands">working with NVMe drives</a>.
 
 To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.
@@ -140,7 +140,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 

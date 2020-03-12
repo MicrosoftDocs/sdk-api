@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-Assigns the vector component data from one instance of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4</a> to the current instance of **XMDECN4**.
+Assigns the vector component data from one instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4</a> to the current instance of **XMDECN4**.
 
 This operator assigns the vector component data from one instance of **XMDECN4** to the current instance of **XMDECN4**.
 
@@ -63,4 +63,4 @@ The current instance of **XMDECN4** whose vector component data has been updated
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4</a>

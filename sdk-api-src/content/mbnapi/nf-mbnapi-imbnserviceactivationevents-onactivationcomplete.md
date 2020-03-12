@@ -66,7 +66,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-
 
 ### -param vendorSpecificData [in]
 
-A byte array containing the data returned by the underlying Mobile Broadband miniport driver in <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-wwan-service-activation">NDIS_STATUS_WWAN_SERVICE_ACTIVATION</a>.
+A byte array containing the data returned by the underlying Mobile Broadband miniport driver in <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-service-activation">NDIS_STATUS_WWAN_SERVICE_ACTIVATION</a>.
 
 
 ### -param requestID [in]

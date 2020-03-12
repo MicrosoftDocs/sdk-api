@@ -91,7 +91,7 @@ TBD
 
 
 <code>XMFLOAT2</code> can be loaded into instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type"> XMVECTOR</a> by using
-   <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmloadfloat2">XMLoadFloat2</a>.
+   <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmloadfloat2">XMLoadFloat2</a>.
 
 Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT2</code> with
    <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmstorefloat2">XMStoreFloat2</a>.

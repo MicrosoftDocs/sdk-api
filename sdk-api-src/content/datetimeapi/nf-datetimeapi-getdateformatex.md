@@ -257,7 +257,7 @@ The DATE_LONGDATE format includes two kinds of date patterns: patterns that incl
 
 If the presence or absence of the day of the week in the long date format does not matter to your application, your application can call <b>GetDateFormatEx</b> directly without first enumerating all of the long date formats by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumdateformatsexex">EnumDateFormatsExEx</a>.
 
-<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
+<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
 
 <b>Beginning in Windows 8: </b><b>GetDateFormatEx</b>  is declared in Datetimeapi.h. Before Windows 8, it was declared in Winnls.h.
 

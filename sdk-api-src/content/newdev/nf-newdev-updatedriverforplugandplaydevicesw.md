@@ -65,7 +65,7 @@ A handle to the top-level window to use for any UI related to installing devices
 
 ### -param HardwareId [in]
 
-A pointer to a NULL-terminated string that supplies the hardware identifier to match existing devices on the computer. The maximum length of a NULL-terminated hardware identifier is MAX_DEVICE_ID_LEN. For more information about hardware identifiers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>. 
+A pointer to a NULL-terminated string that supplies the hardware identifier to match existing devices on the computer. The maximum length of a NULL-terminated hardware identifier is MAX_DEVICE_ID_LEN. For more information about hardware identifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>. 
 
 
 ### -param FullInfPath [in]
@@ -213,7 +213,7 @@ The function found a match for the <i>HardwareId</i> value, but the specified dr
 
 <b>UpdateDriverForPlugAndPlayDevices</b> scans the devices on the system and attempts to install the drivers specified by <i>FullInfPath</i> for any devices that match the specified <i>HardwareId</i> value. 
 
-The default behavior is to only install the specified drivers if they are better match than the currently installed drivers and the specified drivers are also a better match than any drivers in %<i>SystemRoot</i>%\<i>inf</i>. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>. 
+The default behavior is to only install the specified drivers if they are better match than the currently installed drivers and the specified drivers are also a better match than any drivers in %<i>SystemRoot</i>%\<i>inf</i>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>. 
 
 <b>UpdateDriverForPlugAndPlayDevices</b> can also be used to determine whether the device with the specified <i>HardwareId</i> value is plugged in. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/writing-a-device-installation-application">Writing a Device Installation Application</a>.
 

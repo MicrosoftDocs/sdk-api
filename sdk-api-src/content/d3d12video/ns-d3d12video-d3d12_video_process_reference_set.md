@@ -49,7 +49,7 @@ The number of past reference frames provided in *ppPastFrames*.
  
 ### -field ppPastFrames
 
-A pointer to an array of [ID3D12Resource](https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) surfaces. The number of elements in the array is *NumPastFrames*.
+A pointer to an array of [ID3D12Resource](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) surfaces. The number of elements in the array is *NumPastFrames*.
  
 ### -field pPastSubresources
 
@@ -61,7 +61,7 @@ The number of future reference frames provided in *ppPastFrames*.
  
 ### -field ppFutureFrames
 
-A pointer to an array of [ID3D12Resource](https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) surfaces. The number of elements in the array is *NumFutureFrames*.
+A pointer to an array of [ID3D12Resource](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) surfaces. The number of elements in the array is *NumFutureFrames*.
  
 ### -field pFutureSubresources
  

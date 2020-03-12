@@ -105,7 +105,7 @@ The process is not currently running.
 
 
 
-Each process receives the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.core.coreapplication.suspending">Suspending</a> event, which is useful for stepping through your apps as they respond to this event.
+Each process receives the <a href="https://docs.microsoft.com/uwp/api/windows.applicationmodel.core.coreapplication.suspending">Suspending</a> event, which is useful for stepping through your apps as they respond to this event.
 
 
 

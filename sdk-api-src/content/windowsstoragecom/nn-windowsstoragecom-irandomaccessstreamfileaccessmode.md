@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides access to the file access mode that was used when the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method was called to open the random-access byte stream.
+Provides access to the file access mode that was used when the <a href="https://docs.microsoft.com/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method was called to open the random-access byte stream.
 
 
 ## -inheritance
@@ -72,7 +72,7 @@ The <b>IRandomAccessStreamFileAccessMode</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-irandomaccessstreamfileaccessmode-getmode">GetMode</a>
 </td>
 <td align="left" width="63%">
-Retrieves the file access mode that was used when the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method was called to open the random-access byte stream.
+Retrieves the file access mode that was used when the <a href="https://docs.microsoft.com/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method was called to open the random-access byte stream.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Retrieves the file access mode that was used when the <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a>
  
 
  

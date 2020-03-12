@@ -52,7 +52,7 @@ ms.custom: 19H1
 Loads data into the x, y, and z components of an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>, without type checking.
 <div class="alert"><b>Note</b>  This function is provided for backward compatibility with the Xbox Math library. You should use
   <b>XMLoadInt3</b> when you load integer data, and use
-  <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmloadfloat3">XMLoadFloat3</a> when you load floating point data.</div><div> </div>
+  <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmloadfloat3">XMLoadFloat3</a> when you load floating point data.</div><div> </div>
 
 ## -parameters
 

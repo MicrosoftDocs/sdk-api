@@ -101,7 +101,7 @@ TBD
 
 
 <code>XMUSHORT2</code> can be loaded into instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> by using
-	    <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadushort2">XMLoadUShort2</a>.
+	    <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadushort2">XMLoadUShort2</a>.
 	
 
 Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMUSHORT2</code> with <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoreushort2">XMStoreUShort2</a>.

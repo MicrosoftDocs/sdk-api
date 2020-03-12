@@ -69,7 +69,7 @@ The <b>IConsole</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nf-mmc-iconsole-getmainwindow">GetMainWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsole-getmainwindow">GetMainWindow</a>
 </td>
 <td align="left" width="63%">
 Returns a handle to the main frame window.
@@ -87,7 +87,7 @@ Displays a message box.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nf-mmc-iconsole-newwindow">NewWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsole-newwindow">NewWindow</a>
 </td>
 <td align="left" width="63%">
 Creates a new window rooted at the specified scope item.
@@ -96,7 +96,7 @@ Creates a new window rooted at the specified scope item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nf-mmc-iconsole-queryconsoleverb">QueryConsoleVerb</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsole-queryconsoleverb">QueryConsoleVerb</a>
 </td>
 <td align="left" width="63%">
 Query for the 
@@ -106,7 +106,7 @@ Query for the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nf-mmc-iconsole-queryresultimagelist">QueryResultImageList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsole-queryresultimagelist">QueryResultImageList</a>
 </td>
 <td align="left" width="63%">
 Queries the console-provided result pane's image list.
@@ -115,7 +115,7 @@ Queries the console-provided result pane's image list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nf-mmc-iconsole-queryresultview">QueryResultView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsole-queryresultview">QueryResultView</a>
 </td>
 <td align="left" width="63%">
 Queries IConsole for the result view object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer.
@@ -133,7 +133,7 @@ Queries the console-provided scope pane's image list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nf-mmc-iconsole-selectscopeitem">SelectScopeItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsole-selectscopeitem">SelectScopeItem</a>
 </td>
 <td align="left" width="63%">
 Selects the given scope item.
@@ -142,7 +142,7 @@ Selects the given scope item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nf-mmc-iconsole-setheader">SetHeader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsole-setheader">SetHeader</a>
 </td>
 <td align="left" width="63%">
 Used by instances of 
@@ -153,7 +153,7 @@ IComponent.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nf-mmc-iconsole-settoolbar">SetToolbar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsole-settoolbar">SetToolbar</a>
 </td>
 <td align="left" width="63%">
 Used by instances of 
@@ -164,7 +164,7 @@ IComponent.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nf-mmc-iconsole-updateallviews">UpdateAllViews</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsole-updateallviews">UpdateAllViews</a>
 </td>
 <td align="left" width="63%">
 Generates a notification to update views because of content change.

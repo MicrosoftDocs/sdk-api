@@ -86,7 +86,7 @@ If the caller of <b>SetupDiSelectBestCompatDrv</b> is a member of the Administra
 <div> </div>
 <b>SetupDiSelectBestCompatDrv </b>is primarily designed to select the best compatible driver for a device information element on a local computer. Although <b>SetupDiSelectBestCompatDrv </b>will not fail if the device information set is for a remote computer, the result is of limited use because the device information set cannot subsequently be used as input with DIF_<i>Xxx</i> installation requests or <b>SetupDi</b><i>Xxx</i> functions that do not support operations for a remote computer. In particular, the device information set cannot subsequently be used as input with a DIF_INSTALLDEVICE installation request to install a device on a remote computer.
 
-For information about how the best driver is selected, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>.
+For information about how the best driver is selected, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>.
 
 To get the selected driver for a device, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetselecteddrivera">SetupDiGetSelectedDriver</a>. 
 

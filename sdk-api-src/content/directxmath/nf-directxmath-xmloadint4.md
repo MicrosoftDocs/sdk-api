@@ -53,7 +53,7 @@ Loads data into an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xm
 <div class="alert"><b>Note</b>  This function is provided for backward compatibility with the Xbox Math library. 
   You should use 
   <b>XMLoadInt4</b>when you load integer data, and
-  <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmloadfloat4">XMLoadFloat4</a>when you load floating point data.</div><div> </div>
+  <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmloadfloat4">XMLoadFloat4</a>when you load floating point data.</div><div> </div>
 
 ## -parameters
 

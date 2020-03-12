@@ -64,7 +64,7 @@ Request context.
 
 ### -param error [in]
 
-An instance of a <a href="https://docs.microsoft.com/en-us/windows/desktop/hyperv_v2/cim-error">CIM_Error</a> class.
+An instance of a <a href="https://docs.microsoft.com/windows/desktop/hyperv_v2/cim-error">CIM_Error</a> class.
 
 
 ### -param flag [out]
@@ -95,7 +95,7 @@ A provider calls this function to send a CIM error instance to the client.  This
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/desktop/hyperv_v2/cim-error">CIM_Error</a>
+<a href="https://docs.microsoft.com/windows/desktop/hyperv_v2/cim-error">CIM_Error</a>
 
 
 

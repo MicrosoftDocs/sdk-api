@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>ISnapinHelp2::GetLinkedTopics</b> method enables a snap-in to specify the names and locations of any HTML Help files that are linked to the snap-in's Help file (specified in the 
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nf-mmc-isnapinhelp-gethelptopic">GetHelpTopic</a> method).
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-isnapinhelp-gethelptopic">GetHelpTopic</a> method).
 
 
 ## -parameters

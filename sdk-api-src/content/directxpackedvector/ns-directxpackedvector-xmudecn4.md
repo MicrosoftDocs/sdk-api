@@ -126,7 +126,7 @@ Those <code>XMUDECN4</code> constructors using floating point arguments require 
 	
 
 You can use <code>XMUDECN4</code> to load instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> from normalized values 
-      by using <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadudecn4">XMLoadUDecN4</a>, which divides the x-, y-, and
+      by using <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadudecn4">XMLoadUDecN4</a>, which divides the x-, y-, and
 	    z-components by 1023.0f, divides the w-component by 3.0f, rounds the result, and then assigns
 	    the components to an <code>XMVECTOR</code> instance.
 	
