@@ -106,6 +106,9 @@ Indicates the system's terminal server session moniker class.
 
 Indicates the system's elevation moniker class.
 
+## Remark
+
+MKSYS_URLMONIKER is an additional value.
 
 ## -see-also
 
