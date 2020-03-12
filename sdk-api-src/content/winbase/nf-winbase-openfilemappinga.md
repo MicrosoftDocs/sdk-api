@@ -91,8 +91,8 @@ If this parameter is <b>TRUE</b>, a process created by the
 The name of the file mapping object to be opened. If there is an open handle to a file mapping object by 
       this name and the security descriptor on the mapping object does not conflict with the 
       <i>dwDesiredAccess</i> parameter, the open operation succeeds. The name can have a 
-      "Global\" or "Local\" prefix to explicitly open an object in the global or 
-      session namespace. The remainder of the name can contain any character except the backslash character (\). For 
+      "Global\\" or "Local\\" prefix to explicitly open an object in the global or 
+      session namespace. The remainder of the name can contain any character except the backslash character (\\). For 
       more information, see 
       <a href="https://docs.microsoft.com/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>. Fast user 
       switching is implemented using Terminal Services sessions. The first user to log on uses session 0, the next 
