@@ -81,13 +81,13 @@ How geometry descriptions are specified; either an array of descriptions or an a
 
 ### -field InstanceDescs
 
-If <i>Type</i> is <b>D3D12_RAYTRACING_ACCELERATION_STRUCTURE_TOP_LEVEL</b>, this refers to <i>NumDescs</i><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_instance_desc">D3D12_RAYTRACING_INSTANCE_DESC</a> structures in GPU memory describing instances.  Each instance must be aligned to 16 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_INSTANCE_DESC_BYTE_ALIGNMENT</a>.
+If <i>Type</i> is <b>D3D12_RAYTRACING_ACCELERATION_STRUCTURE_TOP_LEVEL</b>, this refers to <i>NumDescs</i><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_instance_desc">D3D12_RAYTRACING_INSTANCE_DESC</a> structures in GPU memory describing instances.  Each instance must be aligned to 16 bytes, defined as <a href="https://docs.microsoft.com/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_INSTANCE_DESC_BYTE_ALIGNMENT</a>.
 
 If <i>Type</i> is not <b>D3D12_RAYTRACING_ACCELERATION_STRUCTURE_TOP_LEVEL</b>, this parameter is unused.
 
 If <i>DescLayout</i> is <b>D3D12_ELEMENTS_LAYOUT_ARRAY</b>, <i>InstanceDescs</i> points to an array of instance descriptions in GPU memory. 
 
-If <i>DescLayout</i> is <b>D3D12_ELEMENTS_LAYOUT_ARRAY_OF_POINTERS</b>, <i>InstanceDescs</i> points to an array in GPU memory of <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/d3d12_gpu_virtual_address">D3D12_GPU_VIRTUAL_ADDRESS</a> pointers to instance descriptions. 
+If <i>DescLayout</i> is <b>D3D12_ELEMENTS_LAYOUT_ARRAY_OF_POINTERS</b>, <i>InstanceDescs</i> points to an array in GPU memory of <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12_gpu_virtual_address">D3D12_GPU_VIRTUAL_ADDRESS</a> pointers to instance descriptions. 
 
 The memory pointed to must be in state <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</a>.
 
@@ -110,7 +110,7 @@ If <i>Type</i> is <b>D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BOTTOM_LEVEL</b>, a
 
 
 
-When used with  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-getraytracingaccelerationstructureprebuildinfo">GetRaytracingAccelerationStructurePrebuildInfo</a>, which actually perform a build, any parameter that is referenced via <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/d3d12_gpu_virtual_address">D3D12_GPU_VIRTUAL_ADDRESS</a> (an address in GPU memory), like <i>InstanceDescs</i>, will not be accessed by the operation.  So this memory does not need to be initialized yet or be in a particular resource state.  Whether GPU addresses are null or not can be inspected by the operation, even though the pointers are not dereferenced.
+When used with  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-getraytracingaccelerationstructureprebuildinfo">GetRaytracingAccelerationStructurePrebuildInfo</a>, which actually perform a build, any parameter that is referenced via <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12_gpu_virtual_address">D3D12_GPU_VIRTUAL_ADDRESS</a> (an address in GPU memory), like <i>InstanceDescs</i>, will not be accessed by the operation.  So this memory does not need to be initialized yet or be in a particular resource state.  Whether GPU addresses are null or not can be inspected by the operation, even though the pointers are not dereferenced.
 
 
 

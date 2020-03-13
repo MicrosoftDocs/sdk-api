@@ -100,7 +100,7 @@ In the case of an error, this returned value provides additional debugging infor
 ### -param completionDetails
 
 In the case of an error, this returned value provides additional error information - typically in the form 
-      of a <a href="https://docs.microsoft.com/en-us/windows/desktop/hyperv_v2/cim-error">CIM_Error</a> object (or a derived class). This returned 
+      of a <a href="https://docs.microsoft.com/windows/desktop/hyperv_v2/cim-error">CIM_Error</a> object (or a derived class). This returned 
       instance has the same lifetime as the <b>classResult</b> value. If this value is needs to 
       stay active longer, then the value needs to be cloned via 
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_clone">MI_Instance_Clone</a>.

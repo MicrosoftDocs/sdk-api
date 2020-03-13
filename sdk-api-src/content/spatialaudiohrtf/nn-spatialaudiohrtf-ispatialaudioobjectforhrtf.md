@@ -140,7 +140,7 @@ Sets the position in 3D space, relative to the listener, from which the <b>ISpat
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
+<a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
  
 
  

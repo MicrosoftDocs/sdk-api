@@ -180,7 +180,7 @@ The function interprets the bytes according to the format string <i>fmt</i>, and
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
  
 
  

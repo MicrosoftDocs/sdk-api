@@ -121,7 +121,7 @@ Those <code>XMUBYTEN4</code> constructors using floating point arguments require
 	
 
 <code>XMUBYTEN4</code> can be used to load instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> from
-	    normalized values, by using <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadubyten4">XMLoadUByteN4</a>, which divides each
+	    normalized values, by using <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadubyten4">XMLoadUByteN4</a>, which divides each
 	    component 255.0f, rounds the result, and then assigns the components to an
 	    <code>XMVECTOR</code> instance.
 	

@@ -69,7 +69,7 @@ The <b>ISnapinHelp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nf-mmc-isnapinhelp-gethelptopic">GetHelpTopic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-isnapinhelp-gethelptopic">GetHelpTopic</a>
 </td>
 <td align="left" width="63%">
 Merges the snap-in's HTML Help file into the MMC HTML Help file.

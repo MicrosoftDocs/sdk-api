@@ -77,13 +77,13 @@ A <a href="/windows/win32/WinProg/windows-data-types">SIZE_T</a> containing the 
 
 Type: <b>REFIID</b>
 
-A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppMetaCommand</i>. This is expected to be the GUID of <a href="https://docs.microsoft.com/en-us/windows/win32/api/d3d12/nn-d3d12-id3d12metacommand">ID3D12MetaCommand</a>.
+A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppMetaCommand</i>. This is expected to be the GUID of <a href="https://docs.microsoft.com/windows/win32/api/d3d12/nn-d3d12-id3d12metacommand">ID3D12MetaCommand</a>.
 
 ### -param ppMetaCommand [out]
 
 Type: <b>void**</b>
 
-A pointer to a memory block that receives a pointer to the meta command. This is the address of a pointer to an <a href="https://docs.microsoft.com/en-us/windows/win32/api/d3d12/nn-d3d12-id3d12metacommand">ID3D12MetaCommand</a>, representing  the meta command created.
+A pointer to a memory block that receives a pointer to the meta command. This is the address of a pointer to an <a href="https://docs.microsoft.com/windows/win32/api/d3d12/nn-d3d12-id3d12metacommand">ID3D12MetaCommand</a>, representing  the meta command created.
 
 ## -returns
 

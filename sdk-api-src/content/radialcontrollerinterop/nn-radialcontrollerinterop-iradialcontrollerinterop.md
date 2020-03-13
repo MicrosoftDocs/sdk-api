@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables interoperability with a Universal Windows Platform (UWP) <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.input.radialcontroller">RadialController</a> object and provides access to <b>RadialController</b> members for customizing the interaction experience.
+Enables interoperability with a Universal Windows Platform (UWP) <a href="https://docs.microsoft.com/uwp/api/windows.ui.input.radialcontroller">RadialController</a> object and provides access to <b>RadialController</b> members for customizing the interaction experience.
 
 
 ## -inheritance
@@ -72,7 +72,7 @@ The <b>IRadialControllerInterop</b> interface has these methods.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/radialcontrollerinterop/nf-radialcontrollerinterop-iradialcontrollerinterop-createforwindow">CreateForWindow</a>
 </td>
 <td align="left" width="63%">
-Instantiates a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.input.radialcontroller">RadialController</a> object and binds it to the active application.
+Instantiates a <a href="https://docs.microsoft.com/uwp/api/windows.ui.input.radialcontroller">RadialController</a> object and binds it to the active application.
 
 </td>
 </tr>

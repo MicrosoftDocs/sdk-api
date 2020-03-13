@@ -77,7 +77,7 @@ Returns an <code>XMVECTORI</code> loaded with the data from the <i>pSource</i>pa
 
 The z and w components of the returned <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> will be initialized to 0.
 
-For 16-byte aligned memory, it may be faster to use <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmloadint2a">XMLoadInt2A</a> with a casting operator.
+For 16-byte aligned memory, it may be faster to use <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmloadint2a">XMLoadInt2A</a> with a casting operator.
 
 To convert the loaded <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> into float values, use <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmconvertvectoruinttofloat">XMConvertVectorUIntToFloat</a> or <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmconvertvectorinttofloat">XMConvertVectorIntToFloat</a>.
 

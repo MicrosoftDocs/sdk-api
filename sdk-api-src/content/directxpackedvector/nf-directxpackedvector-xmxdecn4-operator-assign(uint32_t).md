@@ -54,7 +54,7 @@ Assigns the vector component data packed in an instance of <code>uint32_t</code>
     
 
 This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to
-	the current instance of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a>.
+	the current instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a>.
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -91,7 +91,7 @@ The format of <b>Packed</b> is:
 <li>
 The first 120 bits (bits 0-9) of <b>Packed</b> assigned, as a signed
 		    integer, to the <b>x</b> member of the current instance of
-		    <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>.
+		    <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>.
 		
 
 </li>
@@ -129,7 +129,7 @@ The last 2 bits (bits 30-31) of <b>Packed</b> assigned, as an unsigned
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a>
 
 
 

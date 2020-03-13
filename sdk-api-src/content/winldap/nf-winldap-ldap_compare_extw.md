@@ -82,7 +82,7 @@ A pointer to a null-terminated string that contains the string attribute value t
 ### -param Data [in]
 
 The 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> attribute value to be compared to the attribute value.
+<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> attribute value to be compared to the attribute value.
 
 
 ### -param ServerControls [in]
@@ -151,7 +151,7 @@ Multithreading: Calls to <b>ldap_compare_ext</b> are thread-safe.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
 
 
 

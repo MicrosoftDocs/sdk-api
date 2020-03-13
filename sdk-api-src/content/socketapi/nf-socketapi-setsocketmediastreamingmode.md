@@ -102,11 +102,11 @@ The <b>SetSocketMediaStreamingMode</b> function has no effect if the socket will
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.backgroundtransfer">Windows.Networking.BackgroundTransfer</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.networking.backgroundtransfer">Windows.Networking.BackgroundTransfer</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.sockets">Windows.Networking.Sockets</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.networking.sockets">Windows.Networking.Sockets</a>
  
 
  

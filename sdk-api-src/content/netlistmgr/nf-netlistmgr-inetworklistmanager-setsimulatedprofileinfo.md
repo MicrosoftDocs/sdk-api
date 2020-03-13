@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>SetSimulatedProfileInfo</b> method applies a specific set of connection profile values to the internet connection profile in support of the simulation of specific metered internet connection conditions.
 
-The simulation only applies in an RDP Child Session and does not affect the primary user session.  The simulated internet connection profile is returned via the Windows Runtime API <a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.connectivity.networkinformation.getinternetconnectionprofile">GetInternetConnectionProfile</a>.  
+The simulation only applies in an RDP Child Session and does not affect the primary user session.  The simulated internet connection profile is returned via the Windows Runtime API <a href="https://docs.microsoft.com/uwp/api/windows.networking.connectivity.networkinformation.getinternetconnectionprofile">GetInternetConnectionProfile</a>.  
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The simulation only applies in an RDP Child Session and does not affect the prim
 
 ### -param pSimulatedInfo
 
-Specific connection profile values to simulate on the current internet connection profile  when calling <a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.connectivity.networkinformation.getinternetconnectionprofile">GetInternetConnectionProfile</a> from an RDP Child Session
+Specific connection profile values to simulate on the current internet connection profile  when calling <a href="https://docs.microsoft.com/uwp/api/windows.networking.connectivity.networkinformation.getinternetconnectionprofile">GetInternetConnectionProfile</a> from an RDP Child Session
 
 
 ## -returns

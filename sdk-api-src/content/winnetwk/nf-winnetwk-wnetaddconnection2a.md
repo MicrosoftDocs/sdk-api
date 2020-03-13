@@ -473,7 +473,7 @@ The system is unable to open the user profile to process persistent connections.
 </dl>
 </td>
 <td width="60%">
-The local device name has a remembered connection to another network resource. This error is returned if an entry for the device specified by <b>lpLocalName</b> member of the <a href="https://docs.microsoft.com/en-us/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter specifies a value that is already in the user profile for a different connection than that specified in the
+The local device name has a remembered connection to another network resource. This error is returned if an entry for the device specified by <b>lpLocalName</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter specifies a value that is already in the user profile for a different connection than that specified in the
         <i>lpNetResource</i> parameter.
 
 </td>

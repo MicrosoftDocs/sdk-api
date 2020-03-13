@@ -77,7 +77,7 @@ If this flag is zero, <b>DiInstallDriver</b> only installs the specified driver 
 
 <div class="alert"><b>Caution</b>  Forcing the installation of the driver can result in replacing a more compatible or newer driver with a less compatible or older driver. </div>
 <div> </div>
-For information about how Windows selects a driver for a device, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>.
+For information about how Windows selects a driver for a device, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>.
 
 
 ### -param NeedReboot [out, optional]

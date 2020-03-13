@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://docs.microsoft.com/windows/win32/api/mstcpip/ns-mstcpip-real_time_notification_setting_output">REAL_TIME_NOTIFICATION_SETTING_OUTPUT</a> structure provides the output settings from a query for the <b>REAL_TIME_NOTIFICATION_CAPABILITY</b> transport setting for a TCP socket that is used with <a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.sockets.controlchanneltrigger">ControlChannelTrigger</a> to receive background network notifications in a Windows Store app.
+The <a href="https://docs.microsoft.com/windows/win32/api/mstcpip/ns-mstcpip-real_time_notification_setting_output">REAL_TIME_NOTIFICATION_SETTING_OUTPUT</a> structure provides the output settings from a query for the <b>REAL_TIME_NOTIFICATION_CAPABILITY</b> transport setting for a TCP socket that is used with <a href="https://docs.microsoft.com/uwp/api/windows.networking.sockets.controlchanneltrigger">ControlChannelTrigger</a> to receive background network notifications in a Windows Store app.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <a href="https://docs.microsoft.com/windows/win32/api/mstcpip/ns-mstcpip-rea
 
 ### -field ChannelStatus
 
-The channel status for a socket that is used with the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.sockets.controlchanneltrigger">ControlChannelTrigger</a>.
+The channel status for a socket that is used with the <a href="https://docs.microsoft.com/uwp/api/windows.networking.sockets.controlchanneltrigger">ControlChannelTrigger</a>.
 
 
 ## -remarks
@@ -83,7 +83,7 @@ The <a href="https://docs.microsoft.com/windows/win32/api/mstcpip/ns-mstcpip-rea
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.sockets.controlchanneltrigger">ControlChannelTrigger</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.networking.sockets.controlchanneltrigger">ControlChannelTrigger</a>
 
 
 

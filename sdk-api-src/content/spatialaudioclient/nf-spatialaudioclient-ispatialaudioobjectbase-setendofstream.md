@@ -121,7 +121,7 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iu
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
+<a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
  
 
  

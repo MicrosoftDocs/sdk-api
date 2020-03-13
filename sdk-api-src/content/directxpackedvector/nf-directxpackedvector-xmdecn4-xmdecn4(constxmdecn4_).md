@@ -49,7 +49,7 @@ ms.custom: 19H1
 
 A constructor for <code>XMDECN4</code>.
 
-A constructor for <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4</a>.
+A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4</a>.
 
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 

@@ -139,7 +139,7 @@ Unsigned 4-bit integer value in the range [0,15] describing the
 
 
 <code>XMUNIBBLE4</code> can be loaded into instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> by using
-	    <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadunibble4">XMLoadUNibble4</a>.
+	    <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadunibble4">XMLoadUNibble4</a>.
 	
 
 Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMUNIBBLE4</code> with <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoreunibble4">XMStoreUNibble4</a>.

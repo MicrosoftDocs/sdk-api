@@ -69,7 +69,7 @@ A null-terminated Unicode string specifying the path, relative to the virtualiza
 
 ### -param placeholderInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_placeholder_info">PRJ_PLACEHOLDER_INFO</a> buffer containing the updated metadata for the file or directory. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_placeholder_info">PRJ_PLACEHOLDER_INFO</a> buffer containing the updated metadata for the file or directory. 
 
 
 If placeholderInfo-&gt;VersionInfo.ContentID contains a content identifier that is the same as the content identifier already on the file/directory, the call succeeds and no update takes place. Otherwise, if the call succeeds then placeholderInfo-&gt;VersionInfo.ContentID replaces the existing content identifier on the file.

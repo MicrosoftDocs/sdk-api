@@ -118,7 +118,7 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itft
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.search.searchpanequerylinguisticdetails">SearchPaneQueryLinguisticDetails</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.applicationmodel.search.searchpanequerylinguisticdetails">SearchPaneQueryLinguisticDetails</a>
  
 
  

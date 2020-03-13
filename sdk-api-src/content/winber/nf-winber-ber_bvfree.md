@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>ber_bvfree</b> function frees a 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure.
+<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>ber_bvfree</b> function frees a
 
 ### -param pBerVal [in]
 
-Pointer to the <a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure to be deallocated.
+Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure to be deallocated.
 
 
 ## -returns
@@ -76,7 +76,7 @@ None.
 
 
 
-Applications should not call this function to free <a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures that they themselves have allocated.
+Applications should not call this function to free <a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures that they themselves have allocated.
 
 
 
@@ -90,7 +90,7 @@ Applications should not call this function to free <a href="https://docs.microso
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
  
 
  

@@ -212,7 +212,7 @@ Bits 27-31 of <b>v</b> are the 5 bit <i>exponent</i> of the
 
 </li>
 </ul>
-<code>XMFLOAT3PK</code> can be loaded into instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type"> XMVECTOR</a> by using <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadfloat3pk">XMLoadFloat3PK</a>.
+<code>XMFLOAT3PK</code> can be loaded into instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type"> XMVECTOR</a> by using <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadfloat3pk">XMLoadFloat3PK</a>.
 
 
 Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT3PK</code> with <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstorefloat3pk">XMStoreFloat3PK</a>.

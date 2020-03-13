@@ -92,7 +92,7 @@ Pointer to a null-terminated string that specifies the name of  the attribute to
 ### -field mod_vals
 
 Pointer to an array of values, if any, to add, delete, or replace. If <b>mop_op</b> does not include the LDAP_MOD_BVALUES flag, the <b>modv_strvals</b> member is a pointer to an array of null-terminated strings. If <b>mop_op</b> includes LDAP_MOD_BVALUES, the <b>modv_bvals</b> member is a pointer to an array of 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> pointers, which is useful for specifying binary values.
+<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> pointers, which is useful for specifying binary values.
 
 
 ### -field mod_vals.modv_strvals
@@ -102,7 +102,7 @@ Pointer to a null-terminated array of null-terminated strings. The last element 
 
 ### -field mod_vals.modv_bvals
 
-Pointer to a <b>NULL</b>-terminated array of <a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> pointers. The last element of the array must be a <b>NULL</b> pointer.
+Pointer to a <b>NULL</b>-terminated array of <a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> pointers. The last element of the array must be a <b>NULL</b> pointer.
 
 
 ## -remarks
@@ -134,7 +134,7 @@ When passing a <b>LDAPMod</b> structure into the <a href="https://docs.microsoft
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
 
 
 

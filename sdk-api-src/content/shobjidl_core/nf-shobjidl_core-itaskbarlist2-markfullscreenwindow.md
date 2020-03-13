@@ -108,9 +108,9 @@ Setting the value of <i>fFullscreen</i> to <b>TRUE</b>, the Shell treats this wi
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setpropa">SetPropA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-setpropa">SetPropA</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setpropw">SetPropW</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-setpropw">SetPropW</a>
 

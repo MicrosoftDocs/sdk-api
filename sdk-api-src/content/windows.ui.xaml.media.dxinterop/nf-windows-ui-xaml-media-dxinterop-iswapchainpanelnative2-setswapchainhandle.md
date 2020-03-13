@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the DirectX swap chain for <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.swapchainpanel">SwapChainPanel</a> using a handle to the swap chain.
+Sets the DirectX swap chain for <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.swapchainpanel">SwapChainPanel</a> using a handle to the swap chain.
 
 
 ## -parameters

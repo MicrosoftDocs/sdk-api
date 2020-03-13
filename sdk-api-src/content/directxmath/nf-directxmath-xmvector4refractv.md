@@ -85,7 +85,7 @@ Returns the refracted incident vector. If the refraction index and the angle bet
 
 
 
-This function is identical to <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmvector4refract">XMVector4Refract</a> except that the <i>RefractionIndex</i> is supplied using a 4D vector instead of a <b>float</b> value.
+This function is identical to <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvector4refract">XMVector4Refract</a> except that the <i>RefractionIndex</i> is supplied using a 4D vector instead of a <b>float</b> value.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
@@ -102,7 +102,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmvector4refract">XMVector4Refract</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvector4refract">XMVector4Refract</a>
  
 
  

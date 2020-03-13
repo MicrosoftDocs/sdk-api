@@ -84,7 +84,7 @@ Sets the sample for the media stream source.
 
 
 <b>MFMediaStreamSourceSampleRequest</b> is implemented by the
-     <a href="https://docs.microsoft.com/en-us/uwp/api/windows.media.core.mediastreamsourcesamplerequest">Windows.Media.Core.MediaStreamSourceSampleRequest</a> runtime class.
+     <a href="https://docs.microsoft.com/uwp/api/windows.media.core.mediastreamsourcesamplerequest">Windows.Media.Core.MediaStreamSourceSampleRequest</a> runtime class.
 
 
 

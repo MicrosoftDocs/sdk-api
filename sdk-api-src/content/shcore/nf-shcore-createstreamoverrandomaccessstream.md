@@ -104,7 +104,7 @@ We recommend that you use the <a href="https://docs.microsoft.com/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.streams.randomaccessstream">RandomAccessStream</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.storage.streams.randomaccessstream">RandomAccessStream</a>
  
 
  

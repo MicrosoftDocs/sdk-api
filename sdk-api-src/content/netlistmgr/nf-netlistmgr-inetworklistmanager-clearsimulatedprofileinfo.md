@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Clears the connection profile values previously applied to the internet connection profile by <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-setsimulatedprofileinfo">SetSimulatedProfileInfo</a>. The next internet connection query, via <a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.connectivity.networkinformation.getinternetconnectionprofile">GetInternetConnectionProfile</a>, will use system information.
+Clears the connection profile values previously applied to the internet connection profile by <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-setsimulatedprofileinfo">SetSimulatedProfileInfo</a>. The next internet connection query, via <a href="https://docs.microsoft.com/uwp/api/windows.networking.connectivity.networkinformation.getinternetconnectionprofile">GetInternetConnectionProfile</a>, will use system information.
 
 
 ## -parameters

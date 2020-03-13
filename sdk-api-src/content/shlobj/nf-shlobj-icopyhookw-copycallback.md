@@ -75,7 +75,7 @@ A pointer to a string that contains the name of the source folder.
 
 ### -param dwSrcAttribs
 
-The attributes of the source folder. This parameter can be a combination of any of the file attribute flags (FILE_ATTRIBUTE_*) defined in the header files. See [https://docs.microsoft.com/en-us/windows/desktop/FileIO/file-attribute-constants](File Attribute Constants).
+The attributes of the source folder. This parameter can be a combination of any of the file attribute flags (FILE_ATTRIBUTE_*) defined in the header files. See [https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants](File Attribute Constants).
 
 ### -param pszDestFile
 
@@ -83,7 +83,7 @@ A pointer to a string that contains the name of the destination folder.
 
 ### -param dwDestAttribs
 
-The attributes of the destination folder. This parameter can be a combination of any of the file attribute flags (FILE_ATTRIBUTE_*) defined in the header files. See [https://docs.microsoft.com/en-us/windows/desktop/FileIO/file-attribute-constants](File Attribute Constants).
+The attributes of the destination folder. This parameter can be a combination of any of the file attribute flags (FILE_ATTRIBUTE_*) defined in the header files. See [https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants](File Attribute Constants).
 
 ## -returns
 

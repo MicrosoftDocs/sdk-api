@@ -70,7 +70,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/n
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iprotocolhandlersite">IProtocolHandlerSite</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iprotocolhandlersite">IProtocolHandlerSite</a> interface that enables protocol handlers to access <a href="https://docs.microsoft.com/en-us/windows-hardware/test/hlk/api/ifilter-interface">IFiltear</a>within the filter host. 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iprotocolhandlersite">IProtocolHandlerSite</a> interface that enables protocol handlers to access <a href="https://docs.microsoft.com/windows-hardware/test/hlk/api/ifilter-interface">IFiltear</a>within the filter host. 
                 
 
 

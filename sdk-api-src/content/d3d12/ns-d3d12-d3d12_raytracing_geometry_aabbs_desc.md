@@ -64,5 +64,5 @@ The number of AABBs pointed to in the contiguous array at <i>AABBs</i>.
 
 ### -field AABBs
 
-the GPU memory location where an array of AABB descriptions is to be found, including the data stride between AABBs.  The address and stride must each be aligned to 8 bytes, defined as The address must be aligned to 16 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants"> D3D12_RAYTRACING_AABB_BYTE_ALIGNMENT</a>.  The stride can be 0.
+the GPU memory location where an array of AABB descriptions is to be found, including the data stride between AABBs.  The address and stride must each be aligned to 8 bytes, defined as The address must be aligned to 16 bytes, defined as <a href="https://docs.microsoft.com/windows/desktop/direct3d12/constants"> D3D12_RAYTRACING_AABB_BYTE_ALIGNMENT</a>.  The stride can be 0.
 

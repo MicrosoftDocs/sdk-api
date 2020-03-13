@@ -104,7 +104,7 @@ The retrieved locale name indicates a specific locale, including language and co
 
 This function can retrieve data from <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application, nor does the return of a valid locale guarantee that it will be valid on another computer. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
 
-<b>Beginning in Windows 8:</b> Language tags obtained from the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace must be converted by  <b>ResolveLocaleName</b> before they can be used with any National Language Support functions.
+<b>Beginning in Windows 8:</b> Language tags obtained from the <a href="https://docs.microsoft.com/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace must be converted by  <b>ResolveLocaleName</b> before they can be used with any National Language Support functions.
 
 
 
@@ -122,7 +122,7 @@ This function can retrieve data from <a href="https://docs.microsoft.com/windows
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Globalization">Windows.Globalization</a>
+<a href="https://docs.microsoft.com/uwp/api/Windows.Globalization">Windows.Globalization</a>
  
 
  

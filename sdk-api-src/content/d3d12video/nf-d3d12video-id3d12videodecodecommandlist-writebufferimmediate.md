@@ -57,7 +57,7 @@ The number of elements in the *pParams* and *pModes* arrays.
 The address of an array of [D3D12_WRITEBUFFERIMMEDIATE_PARAMETER](https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_writebufferimmediate_parameter) structures of size *Count*.
 
 ### -param pModes
-The address of an array of [D3D12_WRITEBUFFERIMMEDIATE_MODE](https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/ne-d3d12-d3d12_writebufferimmediate_mode) structures of size *Count*. The default value is <b>null</b>. Passing <b>null</b> causes the system to write all immediate values using **D3D12_WRITEBUFFERIMMEDIATE_MODE_DEFAULT**.
+The address of an array of [D3D12_WRITEBUFFERIMMEDIATE_MODE](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_writebufferimmediate_mode) structures of size *Count*. The default value is <b>null</b>. Passing <b>null</b> causes the system to write all immediate values using **D3D12_WRITEBUFFERIMMEDIATE_MODE_DEFAULT**.
 
 ## -returns
 This method returns void.

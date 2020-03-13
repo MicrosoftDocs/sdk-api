@@ -63,6 +63,6 @@ The current instance of <code>XMXDECN4</code> whose vector component data has be
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a>
 
 <a href="https://msdn.microsoft.com/d60f196b-281a-428c-bdae-f2d4ad1e206d">operator = </a>

@@ -253,7 +253,7 @@ For example, if a physical cell phone is simultaneously connected to the compute
 
 In this case, if you set the CM_GETIDLIST_FILTER_TRANSPORTRELATIONS flags in <i>ulFlags</i> and specify the device instance ID of the cell phone's composite devnode in <i>pszFilter</i>, the function returns the device instance IDs for the two transport devnodes in the <i>Buffer</i> parameter.
 
-For more information about device instance IDs, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
+For more information about device instance IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
 
 
