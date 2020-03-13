@@ -51,7 +51,7 @@ Retrieves information about the physical disk's geometry: type, number of cylind
 > [!NOTE]
 > **IOCTL_DISK_GET_DRIVE_GEOMETRY** has been superseded by [IOCTL_DISK_GET_DRIVE_GEOMETRY_EX IOCTL](ni-winioctl-ioctl_disk_get_drive_geometry_ex.md), which retrieves additional information.
 
-To perform this operation, call the [DeviceIoControl](https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) function with the following parameters.
+To perform this operation, call the [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
 
 ```cpp
 BOOL DeviceIoControl(
