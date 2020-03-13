@@ -44,126 +44,54 @@ req.redist:
 
 # IOCTL_DISK_GET_DRIVE_GEOMETRY IOCTL
 
-
 ## -description
 
-
 Retrieves information about the physical disk's geometry: type, number of cylinders, tracks per cylinder, sectors per track, and bytes per sector.
-<div class="alert"><b>Note</b>  <b>IOCTL_DISK_GET_DRIVE_GEOMETRY</b> has been superseded by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_geometry_ex">IOCTL_DISK_GET_DRIVE_GEOMETRY_EX</a>, which retrieves additional information.</div><div> </div>To perform this operation, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL DeviceIoControl(
+
+> [!NOTE]
+> **IOCTL_DISK_GET_DRIVE_GEOMETRY** has been superseded by [IOCTL_DISK_GET_DRIVE_GEOMETRY_EX](https://docs.microsoft.com/windows/win32/api/winioctl/ni-winioctl-ioctl_disk_get_drive_geometry_ex), which retrieves additional information.
+
+To perform this operation, call the [DeviceIoControl](https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) function with the following parameters.
+
+```cpp
+BOOL DeviceIoControl(
   (HANDLE) hDevice,              // handle to device
-  IOCTL_DISK_GET_DRIVE_GEOMETRY, // dwIoControlCodeNULL,                          // lpInBuffer0,                             // nInBufferSize(LPVOID) lpOutBuffer,          // output buffer
+  IOCTL_DISK_GET_DRIVE_GEOMETRY, //dwIoControlCode
+  NULL,                          //lpInBuffer
+  0,                             // nInBufferSize
+  (LPVOID) lpOutBuffer,          // output buffer
   (DWORD) nOutBufferSize,        // size of output buffer
   (LPDWORD) lpBytesReturned,     // number of bytes returned
   (LPOVERLAPPED) lpOverlapped    // OVERLAPPED structure
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
 
-## -ioctlparameters
+## -parameters
 
+### -param lpInBuffer [in, optional]
 
+None
 
+### -param nInBufferSize [in]
 
-### -input-buffer
+None
 
+### -param lpOutBuffer [out, optional]
 
+A pointer to the output buffer that is to receive the [DISK_GEOMETRY](https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-disk_geometry) data returned by the operation.
 
-<text></text>
+### -param nOutBufferSize [in]
 
-
-
-
-### -input-buffer-length
-
-
-
-<text></text>
-
-
-
-
-### -output-buffer
-
-
-
-<text></text>
-
-
-
-
-### -output-buffer-length
-
-
-
-<text></text>
-
-
-
-
-### -in-out-buffer
-
-
-
-<text></text>
-
-
-
-
-### -inout-buffer-length
-
-
-
-<text></text>
-
-
-
-
-### -status-block
-
-
-
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
-
-
-
+The size of the output buffer, in bytes. It must be >= **sizeof**(DISK_GEOMETRY)
 
 ## -see-also
 
+[DISK_GEOMETRY](https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-disk_geometry)
 
+[DeviceIoControl](https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol)
 
+[Disk Management Control Codes](https://docs.microsoft.com/windows/win32/FileIO/disk-management-control-codes)
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_geometry">DISK_GEOMETRY</a>
+[IOCTL_DISK_GET_DRIVE_GEOMETRY_EX](https://docs.microsoft.com/windows/win32/api/winioctl/ni-winioctl-ioctl_disk_get_drive_geometry_ex)
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk Management Control Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_geometry_ex">IOCTL_DISK_GET_DRIVE_GEOMETRY_EX</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_media_types">IOCTL_STORAGE_GET_MEDIA_TYPES</a>
- 
-
- 
-
+[IOCTL_STORAGE_GET_MEDIA_TYPES](https://docs.microsoft.com/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_get_media_types)
