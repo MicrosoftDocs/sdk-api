@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The TIP service feature are deprecated and might not be available in future versions of the operating system. Consider using the WS-AtomicTransaction (WS-AT) protocol as a replacement transaction coordination and propagation technology. For more information about WS-AT support in the .Net Framework, see <a href="https://go.microsoft.com/fwlink/p/?linkid=105715">Transactions</a>.]
+<p class="CCE_Message">[The TIP service feature are deprecated and might not be available in future versions of the operating system. Consider using the WS-AtomicTransaction (WS-AT) protocol as a replacement transaction coordination and propagation technology. For more information about WS-AT support in the .Net Framework, see <a href="https://msdn2.microsoft.com/library/ms730266.aspx">Transactions</a>.]
 
 Creates an object that is enlisted within a manual transaction using the Transaction Internet Protocol (TIP).
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Flags passed to the <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/traceray-function">TraceRay</a> function to override transparency, culling, and early-out behavior.
+Flags passed to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/traceray-function">TraceRay</a> function to override transparency, culling, and early-out behavior.
 
 
 ## -enum-fields
@@ -76,9 +76,9 @@ All ray-primitive intersections encountered in a raytrace are treated as non-opa
 
 ### -field D3D12_RAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCH
 
-The first ray-primitive intersection encountered in a raytrace automatically causes <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/accepthitandendsearch-function">AcceptHitAndEndSearch</a> to be called immediately after the any hit shader, including if there is no any hit shader.
+The first ray-primitive intersection encountered in a raytrace automatically causes <a href="https://docs.microsoft.com/windows/desktop/direct3d12/accepthitandendsearch-function">AcceptHitAndEndSearch</a> to be called immediately after the any hit shader, including if there is no any hit shader.
 
-The only exception is when the preceding any hit shader calls <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/ignorehit-function">IgnoreHit</a>, in which case the ray continues unaffected such that the next hit becomes another candidate to be the first hit. For this exception to apply, the any hit shader has to actually be executed. So if the any hit shader is skipped because the hit is treated as opaque (e.g. due to RAY_FLAG_FORCE_OPAQUE or D3D12_RAYTRACING_GEOMETRY_FLAG_OPAQUE or D3D12_RAYTRACING_INSTANCE_FLAG_OPAQUE being set), then <b>AcceptHitAndEndSearch</b> is called.
+The only exception is when the preceding any hit shader calls <a href="https://docs.microsoft.com/windows/desktop/direct3d12/ignorehit-function">IgnoreHit</a>, in which case the ray continues unaffected such that the next hit becomes another candidate to be the first hit. For this exception to apply, the any hit shader has to actually be executed. So if the any hit shader is skipped because the hit is treated as opaque (e.g. due to RAY_FLAG_FORCE_OPAQUE or D3D12_RAYTRACING_GEOMETRY_FLAG_OPAQUE or D3D12_RAYTRACING_INSTANCE_FLAG_OPAQUE being set), then <b>AcceptHitAndEndSearch</b> is called.
 
 If a closest hit shader is present at the first hit, it gets invoked unless RAY_FLAG_SKIP_CLOSEST_HIT_SHADER is also present. The one hit that was found is considered “closest”, even though other potential hits that might be closer on the ray may not have been visited.
 

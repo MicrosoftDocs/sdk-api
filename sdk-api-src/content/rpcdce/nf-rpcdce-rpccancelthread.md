@@ -148,15 +148,15 @@ You can use
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=109284">ncacn_http</a>
+<a href="https://msdn.microsoft.com/library/aa367103(VS.85).aspx">ncacn_http</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=109287">ncadg_mq</a>
+<a href="https://msdn.microsoft.com/library/aa367114(VS.85).aspx">ncadg_mq</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=109288">ncalrpc</a>
+<a href="https://msdn.microsoft.com/library/aa367115(VS.85).aspx">ncalrpc</a>
  
 
  

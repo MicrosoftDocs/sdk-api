@@ -72,7 +72,7 @@ The <b>IFrameworkInputPane</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iframeworkinputpane-advise">Advise</a>
 </td>
 <td align="left" width="63%">
-Registers the app's input pane handler object to receive notifications on behalf of a window when an event triggers the input pane. This method differs from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iframeworkinputpane-advisewithhwnd">AdviseWithHWND</a> in that it references its window through an object that implements <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.core.icorewindow">ICoreWindow</a>.
+Registers the app's input pane handler object to receive notifications on behalf of a window when an event triggers the input pane. This method differs from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iframeworkinputpane-advisewithhwnd">AdviseWithHWND</a> in that it references its window through an object that implements <a href="https://docs.microsoft.com/uwp/api/windows.ui.core.icorewindow">ICoreWindow</a>.
 
 </td>
 </tr>

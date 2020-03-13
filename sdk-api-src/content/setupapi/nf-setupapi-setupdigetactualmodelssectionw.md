@@ -61,7 +61,7 @@ The <b>SetupDiGetActualModelsSection</b> function retrieves the appropriate deco
 
 ### -param Context [in]
 
-A pointer to an INF file context that specifies a <i>manufacturer-identifier</i> entry in an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-manufacturer-section">INF Manufacturer section</a> of an INF file. The <i>manufacturer-identifier</i> entry specifies an INF <i>Models</i> section name and optionally specifies <i>TargetOSVersion</i> decorations for the <i>Models</i> section name. For information about INF files and an INF file context, see the Platform SDK topics on <a href="https://go.microsoft.com/fwlink/p/?linkid=81350">using INF files</a> and the <a href="https://go.microsoft.com/fwlink/p/?linkid=81351">INFCONTEXT structure</a>. 
+A pointer to an INF file context that specifies a <i>manufacturer-identifier</i> entry in an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-manufacturer-section">INF Manufacturer section</a> of an INF file. The <i>manufacturer-identifier</i> entry specifies an INF <i>Models</i> section name and optionally specifies <i>TargetOSVersion</i> decorations for the <i>Models</i> section name. For information about INF files and an INF file context, see the Platform SDK topics on <a href="https://msdn.microsoft.com/en-gb/library/aa377680.aspx">using INF files</a> and the <a href="https://msdn.microsoft.com/en-gb/library/aa376950.aspx">INFCONTEXT structure</a>. 
 
 
 ### -param AlternatePlatformInfo [in, optional]
@@ -93,7 +93,7 @@ Reserved for internal system use. This parameter must be set to <b>NULL</b>.
 
 
 
-<b>SetupDiGetActualModelsSection</b> returns <b>TRUE</b> if the operation succeeds. Otherwise, the function returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+<b>SetupDiGetActualModelsSection</b> returns <b>TRUE</b> if the operation succeeds. Otherwise, the function returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 

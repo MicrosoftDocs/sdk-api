@@ -1,5 +1,5 @@
 ---
-UID: NS:winhttp.__unnamed_struct_3
+UID: NS:winhttp._WINHTTP_PROXY_INFO
 title: WINHTTP_PROXY_INFO (winhttp.h)
 description: The WINHTTP_PROXY_INFO structure contains the session or default proxy configuration.
 old-location: http\internet_proxy_info.htm

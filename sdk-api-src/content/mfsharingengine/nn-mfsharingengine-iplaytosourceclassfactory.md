@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an instance of the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.media.playto.playtosource">PlayToSource</a> object.
+Creates an instance of the <a href="https://docs.microsoft.com/uwp/api/windows.media.playto.playtosource">PlayToSource</a> object.
 
 
 ## -inheritance

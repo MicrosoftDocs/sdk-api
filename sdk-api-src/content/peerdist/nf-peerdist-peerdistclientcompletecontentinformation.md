@@ -69,7 +69,7 @@ A <b>PEERDIST_CONTENT_HANDLE</b> returned by <a href="https://docs.microsoft.com
 
 ### -param lpOverlapped [in]
 
-Pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure.
+Pointer to an <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure.
 
 
 ## -returns

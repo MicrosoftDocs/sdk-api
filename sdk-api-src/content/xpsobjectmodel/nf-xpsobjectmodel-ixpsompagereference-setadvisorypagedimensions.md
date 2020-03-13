@@ -134,7 +134,7 @@ The <b>height</b> and <b>width</b>  members of the <a href="https://docs.microso
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

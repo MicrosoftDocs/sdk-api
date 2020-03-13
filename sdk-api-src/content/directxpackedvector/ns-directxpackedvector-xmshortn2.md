@@ -107,7 +107,7 @@ Those <code>XMSHORTN2</code> constructors using floating point arguments require
 	
 
 You can use <code>XMSHORTN2</code> to load instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> from
-	    normalized values by using <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadshortn2">XMLoadShortN2</a>, which divides each
+	    normalized values by using <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadshortn2">XMLoadShortN2</a>, which divides each
 	    component 32767.0f, rounds the result, and then assigns the components to an
 	    <code>XMVECTOR</code> instance.
 	

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 Describes the type of break that separates the current word from the previous word.
 
@@ -61,7 +61,7 @@ Describes the type of break that separates the current word from the previous wo
 
 ### -field WORDREP_BREAK_EOW
 
-A word break is placed between this word and the previous word that was placed in the <b>WordSink</b>. This break is the default used by the <a href="https://docs.microsoft.com/en-us/windows/desktop/search/iwordsink-putword">PutWord</a> method.
+A word break is placed between this word and the previous word that was placed in the <b>WordSink</b>. This break is the default used by the <a href="https://docs.microsoft.com/windows/desktop/search/iwordsink-putword">PutWord</a> method.
 
 
 ### -field WORDREP_BREAK_EOS
@@ -84,11 +84,11 @@ A chapter break is placed between this word and the previous word.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/desktop/search/iwordsink-putaltword">IWordSink::PutAltWord</a>
+<a href="https://docs.microsoft.com/windows/desktop/search/iwordsink-putaltword">IWordSink::PutAltWord</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/desktop/search/iwordsink-putword">IWordSink::PutWord</a>
+<a href="https://docs.microsoft.com/windows/desktop/search/iwordsink-putword">IWordSink::PutWord</a>
  
 
  

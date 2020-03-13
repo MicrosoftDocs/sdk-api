@@ -347,7 +347,7 @@ A shared process can run as any user.
 
 If the service type is <b>SERVICE_KERNEL_DRIVER</b> or <b>SERVICE_FILE_SYSTEM_DRIVER</b>, the name is the driver object name that the system uses to load the device driver. Specify <b>NULL</b> if the driver is to use a default object name created by the I/O system.
 
-A service can be configured to use a managed account or a virtual  account. If the service is configured to use a managed service account, the name is the managed service account name. If the service is configured to use a virtual  account, specify the name as NT SERVICE\<i>ServiceName</i>. For more information about managed service accounts and virtual accounts, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=147314">Service Accounts Step-by-Step Guide</a>.
+A service can be configured to use a managed account or a virtual  account. If the service is configured to use a managed service account, the name is the managed service account name. If the service is configured to use a virtual  account, specify the name as NT SERVICE\<i>ServiceName</i>. For more information about managed service accounts and virtual accounts, see the <a href="https://technet.microsoft.com/library/dd548356.aspx">Service Accounts Step-by-Step Guide</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>Managed service accounts and virtual accounts are not supported until Windows 7 and Windows Server 2008 R2.
 
@@ -529,7 +529,7 @@ For an example, see
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=147314">Service Accounts Step-by-Step Guide</a>
+<a href="https://technet.microsoft.com/library/dd548356.aspx">Service Accounts Step-by-Step Guide</a>
 
 
 

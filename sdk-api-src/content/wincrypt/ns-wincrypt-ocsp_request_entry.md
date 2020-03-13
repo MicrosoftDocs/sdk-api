@@ -89,7 +89,7 @@ An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=91156">RFC 2560  Online Certificate Status Protocol</a>
+<a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560  Online Certificate Status Protocol</a>
  
 
  

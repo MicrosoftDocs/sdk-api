@@ -384,7 +384,7 @@ When the success or failure outcome becomes known, it may be reported in one of 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>, the notification is announced with FD_CONNECT and the error code associated with the FD_CONNECT indicates either success or a specific reason for failure.</li>
 </ul>
 
-If the connection is not completed immediately, the client should wait for connection completion before attempting to set socket options using <a href="https://docs.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-setsockopt">setsockopt</a>. Calling setsockopt while a connection is in progress is not supported.
+If the connection is not completed immediately, the client should wait for connection completion before attempting to set socket options using <a href="https://docs.microsoft.com/windows/win32/api/winsock/nf-winsock-setsockopt">setsockopt</a>. Calling setsockopt while a connection is in progress is not supported.
 
 For a connectionless socket (for example, type SOCK_DGRAM), the operation performed by 
 <b>connect</b> is merely to establish a default destination address that can be used on subsequent 

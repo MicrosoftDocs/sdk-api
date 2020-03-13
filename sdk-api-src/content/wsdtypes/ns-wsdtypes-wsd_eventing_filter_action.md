@@ -66,7 +66,7 @@ Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/
 
 
 
-For more information about the evaluation of action filters, see Section 6.1.1, Filtering, in the <a href="https://go.microsoft.com/fwlink/p/?linkid=69499">Device Profile for Web Services</a> specification.
+For more information about the evaluation of action filters, see Section 6.1.1, Filtering, in the <a href="https://specs.xmlsoap.org/ws/2006/02/devprof/devicesprofile.pdf">Device Profile for Web Services</a> specification.
 
 
 

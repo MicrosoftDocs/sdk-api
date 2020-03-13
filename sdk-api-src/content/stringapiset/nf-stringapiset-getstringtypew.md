@@ -237,7 +237,7 @@ The following character types are either constant or computable from basic types
 
 <u>Ctype 2</u>
 
-These types support proper layout of Unicode text. For DBCS locales, the character type applies to both narrow and wide characters. The direction attributes are assigned so that the bidirectional layout algorithm standardized by Unicode produces accurate results. These types are mutually exclusive. For more information about the use of these attributes, see <a href="https://go.microsoft.com/fwlink/p/?linkid=161649">The Unicode Standard</a>.
+These types support proper layout of Unicode text. For DBCS locales, the character type applies to both narrow and wide characters. The direction attributes are assigned so that the bidirectional layout algorithm standardized by Unicode produces accurate results. These types are mutually exclusive. For more information about the use of these attributes, see <a href="https://www.unicode.org/standard/standard.html">The Unicode Standard</a>.
 
 
 <table class="clsStd">

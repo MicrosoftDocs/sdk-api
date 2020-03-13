@@ -69,7 +69,7 @@ A string that specifies the category of packages that should be included in the 
 
 ### -param codecPropertiesVector [out]
 
-A list of <a href="https://docs.microsoft.com/en-us/uwp/api/windows.foundation.collections.ipropertyset">IPropertySet</a> objects representing the properties of the installed media component packages that meet the specified criteria.
+A list of <a href="https://docs.microsoft.com/uwp/api/windows.foundation.collections.ipropertyset">IPropertySet</a> objects representing the properties of the installed media component packages that meet the specified criteria.
 
 
 ## -returns

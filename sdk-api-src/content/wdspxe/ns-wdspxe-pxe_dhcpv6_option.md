@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>PXE_DHCPV6_OPTION</b> structure can be used with the Windows Deployment Services PXE Server API. 
 
-For more information about the DHCPv6 option code, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="https://go.microsoft.com/fwlink/p/?linkid=132626">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
+For more information about the DHCPv6 option code, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="https://www.ietf.org/rfc/rfc3315.txt">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
 
 
 ## -struct-fields

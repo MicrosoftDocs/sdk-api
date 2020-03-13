@@ -409,7 +409,7 @@ Server versions of Windows optimize the
 <b>TransmitFile</b> on server versions of Windows. On server versions of Windows, it is possible to set a limit on the maximum number of concurrent <b>TransmitFile</b> operations by creating a registry entry and setting a value for the following <b>REG_DWORD</b>:
 
 
-<b>HKEY_LOCAL_MACHINE</b>\<b>CurrentControlSet</b>\<b>Services</b>\<b>AFD</b>\<b>Parameters</b>\<b>MaxActiveTransmitFileCount</b>
+<b>HKEY_LOCAL_MACHINE</b>\\<b>CurrentControlSet</b>\\<b>Services</b>\\<b>AFD</b>\\<b>Parameters</b>\\<b>MaxActiveTransmitFileCount</b>
 
 
 

@@ -101,7 +101,7 @@ Type: <b>VARIANT*</b>
 <tr>
 <td>Within a child object.</td>
 <td>VT_DISPATCH</td>
-<td><i>pdispVal</i> is set to the child object's <a href="https://go.microsoft.com/fwlink/p/?linkid=143840">IDispatch</a> interface pointer</td>
+<td><i>pdispVal</i> is set to the child object's <a href="https://msdn.microsoft.com/library/ms221608.aspx">IDispatch</a> interface pointer</td>
 </tr>
 </table>
  

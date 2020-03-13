@@ -83,7 +83,7 @@ Either a dotted-decimal IPv4 address or an IPv6 hex
 
 ### -param type [in]
 
-ICMP type. For a list of possible ICMP types, see <a href="https://go.microsoft.com/fwlink/p/?linkid=109532">ICMP Type Numbers</a>.
+ICMP type. For a list of possible ICMP types, see <a href="https://www.iana.org/assignments/icmp-parameters">ICMP Type Numbers</a>.
 
 ICMP type.
 

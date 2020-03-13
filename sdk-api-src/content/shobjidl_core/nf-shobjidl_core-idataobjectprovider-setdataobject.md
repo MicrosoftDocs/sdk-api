@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Wraps an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> instance as a Windows Runtime <a href="https://go.microsoft.com/fwlink/p/?linkid=267543">DataPackage</a>.
+Wraps an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> instance as a Windows Runtime <a href="https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.datatransfer.datapackage.aspx">DataPackage</a>.
 
 
 ## -parameters

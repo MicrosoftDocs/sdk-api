@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an instance of an <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> object for the specified window.
+Gets an instance of an <a href="https://docs.microsoft.com/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> object for the specified window.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets an instance of an <a href="https://docs.microsoft.com/en-us/uwp/api/windows
 
 ### -param appWindow [in]
 
-The window for which you want to get the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> object.
+The window for which you want to get the <a href="https://docs.microsoft.com/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> object.
 
 
 ### -param riid [in]
@@ -69,7 +69,7 @@ The interface identifier for the interface that you want to get in the <i>inputP
 
 ### -param inputPane [out, retval]
 
-The <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> object for the window that the <i>appWindow</i> parameter specifies. This parameter is typically a pointer to an <b>IInputPane</b> or <b>IInputPane2</b> interface, as defined in Windows.UI.ViewManagement.idl.
+The <a href="https://docs.microsoft.com/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> object for the window that the <i>appWindow</i> parameter specifies. This parameter is typically a pointer to an <b>IInputPane</b> or <b>IInputPane2</b> interface, as defined in Windows.UI.ViewManagement.idl.
 
 
 ## -returns
@@ -90,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a>
  
 
  

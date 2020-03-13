@@ -192,7 +192,7 @@ Releases a buffer that was locked by a previous call to <a href="https://docs.mi
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=93647">DXVA 1.0 specification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg463516">DXVA 1.0 specification</a>
 
 
 

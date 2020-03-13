@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.SetFirmwareEnvironmentVariableExW
 title: SetFirmwareEnvironmentVariableExW function (winbase.h)
-description: Sets the value of the specified firmware environment variable as the attributes that indicate how this variable is stored and maintained.
+description: Sets the value of the specified firmware environment variable and the attributes that indicate how this variable is stored and maintained.
 old-location: base\setfirmwareenvironmentvariableex.htm
 tech.root: SysInfo
 ms.assetid: D3C2F03F-66F6-40A4-830E-058BBA925ACD
@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the value of the specified firmware environment variable as the attributes that indicate how this variable is stored and maintained.
+Sets the value of the specified firmware environment variable and the attributes that indicate how this variable is stored and maintained.
 
 
 ## -parameters
@@ -86,7 +86,7 @@ setting this value to zero will result in the deletion of this variable.
 
 ### -param dwAttributes [in]
 
-Bitmask to set UEFI variable attributes associated with the variable. See also <a href="https://go.microsoft.com/fwlink/p/?linkid=218221">UEFI Spec 2.3.1, Section 7.2</a>.
+Bitmask to set UEFI variable attributes associated with the variable. See also <a href="https://www.uefi.org/specifications">UEFI Spec 2.3.1, Section 7.2</a>.
 
 <table>
 <tr>
@@ -147,7 +147,7 @@ Indicates hardware related errors encountered at runtime.
 </dl>
 </td>
 <td width="60%">
-Indicates an authentication requirement that must be met before writing to this firmware environment variable. For more information see, <a href="https://go.microsoft.com/fwlink/p/?linkid=218221">UEFI spec 2.3.1</a>.
+Indicates an authentication requirement that must be met before writing to this firmware environment variable. For more information see, <a href="https://www.uefi.org/specifications">UEFI spec 2.3.1</a>.
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ Indicates an authentication requirement that must be met before writing to this 
 </dl>
 </td>
 <td width="60%">
-Indicates authentication and time stamp requirements that must be met before writing to this firmware environment variable. When this attribute is set, the buffer, represented by <i>pValue</i>, will begin with an instance of a complete (and serialized) EFI_VARIABLE_AUTHENTICATION_2 descriptor.  For more information see, <a href="https://go.microsoft.com/fwlink/p/?linkid=218221">UEFI spec 2.3.1</a>.
+Indicates authentication and time stamp requirements that must be met before writing to this firmware environment variable. When this attribute is set, the buffer, represented by <i>pValue</i>, will begin with an instance of a complete (and serialized) EFI_VARIABLE_AUTHENTICATION_2 descriptor.  For more information see, <a href="https://www.uefi.org/specifications">UEFI spec 2.3.1</a>.
 
 </td>
 </tr>
@@ -204,7 +204,7 @@ To write a firmware environment variable, the user account that the app is runni
 The correct method of changing the attributes of a variable is to delete the
 variable and recreate it with different attributes.
 
-The exact set of firmware environment variables is determined by the boot firmware. The location of these environment variables is also specified by the firmware.  For example, on a UEFI-based system, NVRAM contains firmware environment variables that specify system boot settings. For information about specific variables used, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=183072">UEFI specification</a>. For more information about UEFI and Windows, see <a href="https://go.microsoft.com/fwlink/p/?linkid=183071">UEFI and Windows</a>.
+The exact set of firmware environment variables is determined by the boot firmware. The location of these environment variables is also specified by the firmware.  For example, on a UEFI-based system, NVRAM contains firmware environment variables that specify system boot settings. For information about specific variables used, see the <a href="https://www.uefi.org/specifications">UEFI specification</a>. For more information about UEFI and Windows, see <a href="https://docs.microsoft.com/windows-hardware/drivers/bringup/uefi-in-windows">UEFI and Windows</a>.
 
 Firmware variables are not supported on a legacy BIOS-based system. The <b>SetFirmwareEnvironmentVariableEx</b> function will always fail on a legacy BIOS-based system, or if Windows was installed using legacy BIOS on a system that supports both legacy BIOS and UEFI.  To identify these conditions, call the function with a dummy firmware environment name such as an empty string ("") for the <i>lpName</i> parameter and a dummy GUID such as "{00000000-0000-0000-0000-000000000000}" for the <i>lpGuid</i> parameter. On a legacy BIOS-based system, or on a system that supports both legacy BIOS and UEFI where Windows was installed using legacy BIOS, the function will fail with  ERROR_INVALID_FUNCTION. On a UEFI-based system, the function will  fail with an error specific to the firmware, such as ERROR_NOACCESS, to indicate that the dummy GUID namespace does not exist.
 

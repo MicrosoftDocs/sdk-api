@@ -182,7 +182,7 @@ The Gateway-to-Gateway Protocol (GGP), a dynamic routing protocol.
 The Hello protocol, a dynamic routing protocol. This value is a historical entry that is no longer
      used and was an early routing protocol that was used by the original ARPANET routers that ran special
      software call fuzzball or hellospeak, as described in RFC 891. For more information, see 
-     <a href="https://go.microsoft.com/fwlink/p/?linkid=84070">DCN Local-Network Protocols</a>.
+     <a href="https://www.ietf.org/rfc/rfc891.txt">DCN Local-Network Protocols</a>.
 
 
 #### - MIB_IPPROTO_ICMP
@@ -249,7 +249,7 @@ The Berkeley Routing Information Protocol (RIP) or RIP-II, a dynamic routing pro
 
 
 For more information about RFC 4292, see the 
-    <a href="https://go.microsoft.com/fwlink/p/?linkid=84065">IP Forwarding Table MIB</a> memo by the
+    <a href="https://www.ietf.org/rfc/rfc4292.txt">IP Forwarding Table MIB</a> memo by the
     Network Working Group.
 
 Note that the 

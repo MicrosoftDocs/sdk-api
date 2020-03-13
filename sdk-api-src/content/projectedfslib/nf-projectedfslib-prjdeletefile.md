@@ -96,7 +96,7 @@ If the item is still in the provider's backing store, deleting it from the local
 This routine cannot be called on a virtual file/directory. 
 
 
-If the file/directory to be deleted is in any state other than "placeholder", the provider must specify an appropriate combination of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_update_types">PRJ_UPDATE_TYPES</a> values in the updateFlags parameter. This helps guard against accidental loss of data. 
+If the file/directory to be deleted is in any state other than "placeholder", the provider must specify an appropriate combination of <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_update_types">PRJ_UPDATE_TYPES</a> values in the updateFlags parameter. This helps guard against accidental loss of data. 
 
 
 

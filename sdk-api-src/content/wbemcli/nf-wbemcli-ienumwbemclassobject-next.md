@@ -113,7 +113,7 @@ The <b>Next</b> method returns an <b>HRESULT</b> indicating
 
 
 
-You may see COM-specific error codes returned if network problems cause you to lose the remote connection to Windows Management. On error, you can call the COM function <a href="https://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a> to obtain more error information.
+You may see COM-specific error codes returned if network problems cause you to lose the remote connection to Windows Management. On error, you can call the COM function <a href="https://msdn.microsoft.com/library/ms221032.aspx">GetErrorInfo</a> to obtain more error information.
 
 If more than one object is requested, and if the number of requested objects is returned, the function returns <b>WBEM_S_NO_ERROR</b>. If less than the requested number of objects is available, and if the enumeration has completed, those objects are returned and the function returns <b>WBEM_S_FALSE</b>.
 

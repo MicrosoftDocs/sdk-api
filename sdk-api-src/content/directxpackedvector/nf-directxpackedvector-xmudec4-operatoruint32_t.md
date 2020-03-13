@@ -52,7 +52,7 @@ ms.custom: 19H1
 Returns an instance of <code>uint32_t</code> containing the components of the <code>XMUDEC4</code>instance in a packed format.
     
 
-This operator returns an instance of <code>uint32_t</code> containing the components of the <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4 
+This operator returns an instance of <code>uint32_t</code> containing the components of the <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4 
 	</a> instance in a packed format.
 <div class="alert"><b>Note</b>  This operator is only available under C++.
     </div><div> </div>

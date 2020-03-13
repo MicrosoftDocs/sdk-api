@@ -62,7 +62,7 @@ Extra parameters for notifications.
 
 ### -field PostCreate.NotificationMask
 
-Upon return from the <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_notification_cb">PRJ_NOTIFICATION_CB</a> callback, the provider may specify a new set of notifications that it wishes to receive for the file here. If the provider sets this value to 0, it is equivalent to specifying <b>PRJ_NOTIFICATION_USE_EXISTING_MASK</b>.
+Upon return from the <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_notification_cb">PRJ_NOTIFICATION_CB</a> callback, the provider may specify a new set of notifications that it wishes to receive for the file here. If the provider sets this value to 0, it is equivalent to specifying <b>PRJ_NOTIFICATION_USE_EXISTING_MASK</b>.
 
 
 ### -field FileRenamed
@@ -70,7 +70,7 @@ Upon return from the <a href="https://docs.microsoft.com/en-us/windows/desktop/a
 
 ### -field FileRenamed.NotificationMask
 
-Upon return from the <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_notification_cb">PRJ_NOTIFICATION_CB</a> callback, the provider may specify a new set of notifications that it wishes to receive for the file here. If the provider sets this value to 0, it is equivalent to specifying <b>PRJ_NOTIFICATION_USE_EXISTING_MASK</b>.
+Upon return from the <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_notification_cb">PRJ_NOTIFICATION_CB</a> callback, the provider may specify a new set of notifications that it wishes to receive for the file here. If the provider sets this value to 0, it is equivalent to specifying <b>PRJ_NOTIFICATION_USE_EXISTING_MASK</b>.
 
 
 ### -field FileDeletedOnHandleClose

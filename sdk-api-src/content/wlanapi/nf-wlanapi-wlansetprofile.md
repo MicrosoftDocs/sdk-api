@@ -293,7 +293,7 @@ All wireless LAN functions require an interface GUID for the wireless interface 
 
 The <b>WlanSetProfile</b> function can fail with <b>ERROR_INVALID_PARAMETER</b> if the wireless interface specified in the <i>pInterfaceGuid</i> parameter has been removed from the system (a USB  wireless adapter that has been removed, for example). 
 
-The <b>netsh wlan add profile</b> command provides similar functionality at the command line. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=120964">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
+The <b>netsh wlan add profile</b> command provides similar functionality at the command line. For more information, see <a href="https://technet.microsoft.com/library/f435edbe-1d50-4774-bae2-0dda33eaeb2f">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
 
 
 

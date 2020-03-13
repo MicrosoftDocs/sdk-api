@@ -60,7 +60,7 @@ Retrieves the error text associated with the error.
 ### -param LanguageId [in]
 
 Identifies the locale to use to generate the description. To create the language identifier, use the 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=166156">MAKELANGID</a> macro. For example, to specify U.S. English, use the following code sample. 
+<a href="https://msdn.microsoft.com/library/dd373908.aspx">MAKELANGID</a> macro. For example, to specify U.S. English, use the following code sample. 
 
 
 
@@ -75,7 +75,7 @@ To retrieve the system's default user language identifier, use the following cal
 ### -param pErrorDescription [out]
 
 Null-terminated string that contains the error text associated with the error. Call the 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=154376">CoTaskMemFree</a> function to free <i>ppErrorDescription</i> when done.
+<a href="https://msdn.microsoft.com/library/ms680722(VS.85).aspx">CoTaskMemFree</a> function to free <i>ppErrorDescription</i> when done.
 
 
 ## -returns

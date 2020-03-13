@@ -59,7 +59,7 @@ Retrieves a set of <b>PROPERTYKEY</b>s that represent the data fields the sensor
 
 ### -param ppDataFields [out]
 
-Address of the <a href="https://go.microsoft.com/fwlink/p/?linkid=134661">IPortableDeviceKeyCollection</a>  pointer that receives the list of supported data fields.
+Address of the <a href="https://msdn.microsoft.com/library/ms739549(VS.85).aspx">IPortableDeviceKeyCollection</a>  pointer that receives the list of supported data fields.
 
 
 ## -returns

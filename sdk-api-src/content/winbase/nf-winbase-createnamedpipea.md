@@ -78,7 +78,7 @@ Creates an instance of a named pipe and returns a handle for subsequent pipe ope
 
 The unique pipe name. This string must have the following form:
 
-\\.\pipe\<i>pipename</i>
+\\\\.\\pipe\\<i>pipename</i>
 
 The pipename part of the name can include any character other than a backslash, including numbers and special characters. The entire pipe name string can be up to 256 characters long. Pipe names are not case sensitive.
 
@@ -436,7 +436,7 @@ Whenever a pipe write operation occurs, the system first tries to charge the mem
 
 To free resources used by a named pipe, the application should always close handles when they are no longer needed, which is accomplished either by calling the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function or when the process associated with the instance handles ends. Note that an instance of a named pipe may have more than one handle associated with it. An instance of a named pipe is always deleted when the last handle to the instance of the named pipe is closed.
 
-<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\.\pipe\LOCAL\" for the pipe name.
+<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\\\.\pipe\LOCAL\" for the pipe name.
 
 
 #### Examples

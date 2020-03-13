@@ -142,7 +142,7 @@ Stops all active streams in the media source.
 
 In Windows 8, this interface is extended with <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasourceex">IMFMediaSourceEx</a>.
 
-For some device sources, such as cameras or microphones, the **IMFMediaSource** also implements the [IKsControl](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol) which can be used by user mode applications to issue KSPROPERTY, KSEVENT and KSMETHOD operations to the underlying device driver.
+For some device sources, such as cameras or microphones, the **IMFMediaSource** also implements the [IKsControl](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol) which can be used by user mode applications to issue KSPROPERTY, KSEVENT and KSMETHOD operations to the underlying device driver.
 
 > [!NOTE] 
 > This interface is optional and may not be available. If this interface is not available, [QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)) will return E_NOINTERFACE. 

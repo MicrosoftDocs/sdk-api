@@ -69,7 +69,7 @@ The <b>IRicheditWindowlessAccessibility</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/textserv/nf-textserv-iricheditwindowlessaccessibility-createprovider">CreateProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-iricheditwindowlessaccessibility-createprovider">CreateProvider</a>
 </td>
 <td align="left" width="63%">
 Obtains a UI Automation provider object for the parent of a windowless rich edit control.

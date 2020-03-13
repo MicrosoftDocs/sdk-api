@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>ber_bvdup</b> function creates a copy of the supplied 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure.
+<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure.
 
 
 ## -parameters
@@ -60,14 +60,14 @@ The <b>ber_bvdup</b> function creates a copy of the supplied
 
 ### -param pBerVal [in]
 
-Pointer to the source <a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure.
+Pointer to the source <a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure.
 
 
 ## -returns
 
 
 
-If the function succeeds, the return value is a pointer to the newly allocated <a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure.
+If the function succeeds, the return value is a pointer to the newly allocated <a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure.
 
 If the function fails, it returns a <b>NULL</b> pointer.
 
@@ -78,7 +78,7 @@ If the function fails, it returns a <b>NULL</b> pointer.
 
 
 
-The allocated <a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> should be freed with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_bvfree">ber_bvfree</a>.
+The allocated <a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> should be freed with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_bvfree">ber_bvfree</a>.
 
 
 
@@ -92,7 +92,7 @@ The allocated <a href="https://docs.microsoft.com/en-us/windows/win32/api/winlda
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
  
 
  

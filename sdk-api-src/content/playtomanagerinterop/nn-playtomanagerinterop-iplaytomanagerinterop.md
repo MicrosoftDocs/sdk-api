@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables access to <a href="https://docs.microsoft.com/en-us/uwp/api/windows.media.playto.playtomanager">PlayToManager</a> methods in a Windows Store app that manages multiple windows.
+Enables access to <a href="https://docs.microsoft.com/uwp/api/windows.media.playto.playtomanager">PlayToManager</a> methods in a Windows Store app that manages multiple windows.
 
 
 ## -inheritance
@@ -72,7 +72,7 @@ The <b>IPlayToManagerInterop</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/playtomanagerinterop/nf-playtomanagerinterop-iplaytomanagerinterop-getforwindow">GetForWindow</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.media.playto.playtomanager">PlayToManager</a> instance for the specified window.
+Gets the <a href="https://docs.microsoft.com/uwp/api/windows.media.playto.playtomanager">PlayToManager</a> instance for the specified window.
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Displays the Play To UI for the specified window.
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.media.playto.playtomanager">PlayToManager</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.media.playto.playtomanager">PlayToManager</a>
  
 
  

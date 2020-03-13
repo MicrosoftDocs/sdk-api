@@ -674,25 +674,25 @@ Specifies an encrypted password. To set this property, you must perform the foll
 
 <ol>
 <li>Convert the clear text password to binary by using the 
-          <a href="https://docs.microsoft.com/en-us/uwp/api/windows.security.cryptography.cryptographicbuffer.convertstringtobinary">ConvertStringToBinary</a> 
-          method on the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.security.cryptography.cryptographicbuffer">CryptographicBuffer</a> 
+          <a href="https://docs.microsoft.com/uwp/api/windows.security.cryptography.cryptographicbuffer.convertstringtobinary">ConvertStringToBinary</a> 
+          method on the <a href="https://docs.microsoft.com/uwp/api/windows.security.cryptography.cryptographicbuffer">CryptographicBuffer</a> 
           class.</li>
 <li>Set the <b>WinRTPasswordEncoding</b> property by using an equivalent value for the 
           encoding parameter you passed to the 
-          <a href="https://docs.microsoft.com/en-us/uwp/api/windows.security.cryptography.cryptographicbuffer.convertstringtobinary">ConvertStringToBinary</a> 
+          <a href="https://docs.microsoft.com/uwp/api/windows.security.cryptography.cryptographicbuffer.convertstringtobinary">ConvertStringToBinary</a> 
           method in step 1.</li>
 <li>Call the 
-          <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Security.Cryptography.DataProtection.DataProtectionProvider">DataProtectionProvider(String)</a> 
+          <a href="https://docs.microsoft.com/uwp/api/Windows.Security.Cryptography.DataProtection.DataProtectionProvider">DataProtectionProvider(String)</a> 
           method by passing "LOCAL=user" for the input string.</li>
 <li>Call the 
-          <a href="https://docs.microsoft.com/en-us/uwp/api/windows.security.cryptography.dataprotection.dataprotectionprovider.protectasync">ProtectAsync</a> 
+          <a href="https://docs.microsoft.com/uwp/api/windows.security.cryptography.dataprotection.dataprotectionprovider.protectasync">ProtectAsync</a> 
           method to encrypt the binary string that contains the password.</li>
 <li>Convert the 
-          <a href="https://docs.microsoft.com/en-us/uwp/api/windows.security.cryptography.cryptographicbuffer">CryptographicBuffer</a> object 
+          <a href="https://docs.microsoft.com/uwp/api/windows.security.cryptography.cryptographicbuffer">CryptographicBuffer</a> object 
           returned by the 
-          <a href="https://docs.microsoft.com/en-us/uwp/api/windows.security.cryptography.dataprotection.dataprotectionprovider.protectasync">ProtectAsync</a> 
+          <a href="https://docs.microsoft.com/uwp/api/windows.security.cryptography.dataprotection.dataprotectionprovider.protectasync">ProtectAsync</a> 
           method to a Base64 encoded value by using the 
-          <a href="https://docs.microsoft.com/en-us/uwp/api/windows.security.cryptography.cryptographicbuffer.encodetobase64string">EncodeToBase64String</a> 
+          <a href="https://docs.microsoft.com/uwp/api/windows.security.cryptography.cryptographicbuffer.encodetobase64string">EncodeToBase64String</a> 
           method.</li>
 <li>Set this property (<b>WinRTEncryptedPassword</b>) with the Base64 encoded string 
           obtained in step 5.</li>

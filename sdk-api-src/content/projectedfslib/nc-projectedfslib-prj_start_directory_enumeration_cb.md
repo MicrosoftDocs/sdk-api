@@ -132,7 +132,7 @@ An appropriate HRESULT error code if the provider fails the operation.
 
 
 
-ProjFS requests a directory enumeration from the provider by first invoking this callback, then one or more <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callbacks, then the <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_end_directory_enumeration_cb">PRJ_END_DIRECTORY_ENUMERATION_CB</a> callback. Because multiple enumerations may occur in parallel in the same location, ProjFS uses the <i>enumerationId</i> argument to associate the callback invocations into a single enumeration session, meaning that a given set of calls to the enumeration callbacks will use the same value for <i>enumerationId</i> for the same session.
+ProjFS requests a directory enumeration from the provider by first invoking this callback, then one or more <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callbacks, then the <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_end_directory_enumeration_cb">PRJ_END_DIRECTORY_ENUMERATION_CB</a> callback. Because multiple enumerations may occur in parallel in the same location, ProjFS uses the <i>enumerationId</i> argument to associate the callback invocations into a single enumeration session, meaning that a given set of calls to the enumeration callbacks will use the same value for <i>enumerationId</i> for the same session.
 
 
 

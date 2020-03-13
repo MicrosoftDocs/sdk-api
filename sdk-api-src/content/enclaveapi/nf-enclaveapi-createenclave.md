@@ -201,7 +201,7 @@ To load data into an enclave after you create it, call <a href="https://docs.mic
 </ul>
 
 
-For information about the Intel Software Guard Extensions (SGX) architecture extension, see <a href="https://go.microsoft.com/fwlink/p/?linkid=691175">Intel Software Guard Extensions</a>.
+For information about the Intel Software Guard Extensions (SGX) architecture extension, see <a href="https://software.intel.com/sgx">Intel Software Guard Extensions</a>.
 
 
 

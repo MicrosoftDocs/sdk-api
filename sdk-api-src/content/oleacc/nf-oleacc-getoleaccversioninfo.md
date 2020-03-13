@@ -84,7 +84,7 @@ This function does not return a value.
 
 
 
-This function provides an easy way to get the version and build numbers for Oleacc.dll. The <a href="https://go.microsoft.com/fwlink/p/?linkid=178218">GetFileVersionInfoSize</a>, <a href="https://go.microsoft.com/fwlink/p/?linkid=178219">GetFileVersionInfo</a>, and <a href="https://go.microsoft.com/fwlink/p/?linkid=178220">VerQueryValue</a> functions can be used to retrieve the same information.
+This function provides an easy way to get the version and build numbers for Oleacc.dll. The <a href="https://msdn.microsoft.com/library/ms647005(VS.85).aspx">GetFileVersionInfoSize</a>, <a href="https://msdn.microsoft.com/library/ms647003(VS.85).aspx">GetFileVersionInfo</a>, and <a href="https://msdn.microsoft.com/library/ms647464(VS.85).aspx">VerQueryValue</a> functions can be used to retrieve the same information.
 
 
 

@@ -145,7 +145,7 @@ The IP address is the preferred address.
 
 
 
-For a detailed description of network virtualization concepts and terminology, refer to <a href="https://go.microsoft.com/fwlink/p/?linkid=263545">Hyper-V Network Virtualization Overview</a>.
+For a detailed description of network virtualization concepts and terminology, refer to <a href="https://technet.microsoft.com/library/jj134230(l=en-us,v=WS.11).aspx">Hyper-V Network Virtualization Overview</a>.
 
 
 

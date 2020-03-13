@@ -77,7 +77,7 @@ The name of the named pipe. The string must include the name of the computer on 
 
 
 
-\\<i>servername</i>\pipe\<i>pipename</i>
+\\\\<i>servername</i>\\pipe\\<i>pipename</i>
 
 
 ### -param nTimeOut [in]
@@ -141,7 +141,7 @@ If the time-out interval expires, the <b>WaitNamedPipe</b> function will fail wi
 
 If the function succeeds, the process should use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function to open a handle to the named pipe. A return value of <b>TRUE</b> indicates that there is at least one instance of the pipe available. A subsequent <b>CreateFile</b> call to the pipe can fail, because the instance was closed by the server or opened by another client.
 
-<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\.\pipe\LOCAL\" for the pipe name.
+<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\\\.\pipe\LOCAL\" for the pipe name.
 
 
 #### Examples

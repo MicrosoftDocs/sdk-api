@@ -64,7 +64,7 @@ The class identifier that is associated with the activatable runtime class.
 
 ### -param pConfiguration [in]
 
-A pointer to an optional <a href="https://docs.microsoft.com/en-us/uwp/api/windows.foundation.collections.ipropertyset">IPropertySet</a> object, which is used to configure the Windows Runtime class. This parameter can be <b>NULL</b>.
+A pointer to an optional <a href="https://docs.microsoft.com/uwp/api/windows.foundation.collections.ipropertyset">IPropertySet</a> object, which is used to configure the Windows Runtime class. This parameter can be <b>NULL</b>.
 
 
 ### -param riid [in]

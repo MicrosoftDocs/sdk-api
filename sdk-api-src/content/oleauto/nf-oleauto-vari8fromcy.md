@@ -43,19 +43,14 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# VarI8FromCy function
-
-
 ## -description
 
+> [!IMPORTANT]
+> This API is affected by the problem described in Microsoft Support topic [VarI8FromCy produces incorrect value when CY value is very large](https://support.microsoft.com/help/2282810).
 
 Converts a currency value to an 8-byte integer value.
 
-
 ## -parameters
-
-
-
 
 ### -param cyIn [in]
 

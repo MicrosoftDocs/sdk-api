@@ -59,7 +59,7 @@ Sets the destination URI of the visual's hyperlink.
 
 ### -param hyperlinkUri [in]
 
-The <a href="https://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface that contains the destination URI of the visual's hyperlink.
+The <a href="https://msdn2.microsoft.com/library/ms775038.aspx">IUri</a> interface that contains the destination URI of the visual's hyperlink.
 
 
 ## -returns
@@ -85,7 +85,7 @@ Setting an object's URI makes the object a hyperlink. When activated or clicked,
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a>
+<a href="https://msdn2.microsoft.com/library/ms775038.aspx">IUri</a>
 
 
 
@@ -93,7 +93,7 @@ Setting an object's URI makes the object a hyperlink. When activated or clicked,
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

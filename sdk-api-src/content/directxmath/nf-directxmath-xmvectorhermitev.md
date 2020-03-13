@@ -95,7 +95,7 @@ Returns a vector containing the interpolation.
 
 
 
-This function is identical to <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmvectorhermite">XMVectorHermite</a> except that independent weighting factors may be supplied in <i>T</i>. As an example, you might want to calculate two sets of Hermite spline interpolation, using the x and y-components of the position vectors for one set of 2D positions and the z and w-components of the position vectors for the other set of 2D positions. The x and y-components of <i>T</i> would determine the interpolation factors for the first Hermite spline interpolation. Similarly, the z and w-components of <i>T</i> would determine the interpolation factors for the second Hermite spline interpolation.
+This function is identical to <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorhermite">XMVectorHermite</a> except that independent weighting factors may be supplied in <i>T</i>. As an example, you might want to calculate two sets of Hermite spline interpolation, using the x and y-components of the position vectors for one set of 2D positions and the z and w-components of the position vectors for the other set of 2D positions. The x and y-components of <i>T</i> would determine the interpolation factors for the first Hermite spline interpolation. Similarly, the z and w-components of <i>T</i> would determine the interpolation factors for the second Hermite spline interpolation.
 
 The following pseudocode demonstrates the operation of the function:
 
@@ -120,7 +120,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmvectorhermite">XMVectorHermite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorhermite">XMVectorHermite</a>
  
 
  

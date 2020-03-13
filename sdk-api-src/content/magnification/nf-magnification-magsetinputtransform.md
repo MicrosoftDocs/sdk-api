@@ -45,63 +45,47 @@ ms.custom: 19H1
 
 # MagSetInputTransform function
 
-
 ## -description
-
 
 Sets the current active input transformation for pen and touch input, represented as a source rectangle and a destination rectangle.
 
-
 ## -parameters
-
-
-
 
 ### -param fEnabled [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: **[BOOL](/windows/win32/WinProg/windows-data-types)**
 
 TRUE to enable input transformation, or FALSE to disable it.  
 
-
 ### -param pRectSource [in]
 
-Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">LPRECT</a></b>
+Type: **const [LPRECT](/windows/win32/api/windef/ns-windef-rect)**
 
- The new source rectangle, in unmagnified screen coordinates, that defines the area of the screen to magnify. This parameter is ignored if <i>bEnabled</i> is FALSE.
-
+ The new source rectangle, in unmagnified screen coordinates, that defines the area of the screen to magnify. This parameter is ignored if *bEnabled* is FALSE.
 
 ### -param pRectDest [in]
 
-Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">LPRECT</a></b>
+Type: **const [LPRECT](/windows/win32/api/windef/ns-windef-rect)**
 
- The new destination rectangle, in unmagnified screen coordinates, that defines the area of the screen where the magnified screen content is displayed. Pen and touch input in this rectangle is mapped to the source rectangle. This parameter is ignored if <i>bEnabled</i> is FALSE.
-
+ The new destination rectangle, in unmagnified screen coordinates, that defines the area of the screen where the magnified screen content is displayed. Pen and touch input in this rectangle is mapped to the source rectangle. This parameter is ignored if *bEnabled* is FALSE.
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: **[BOOL](/windows/win32/WinProg/windows-data-types)**
 
 Returns TRUE if successful, or FALSE otherwise.
 
-
-
-
 ## -remarks
 
+The input transformation maps the coordinate space of the magnified screen content to the actual (unmagnified) screen coordinate space. This enables the system to pass pen and touch input that is entered in magnified screen content, to the correct UI element on the screen. For example, without input transformation, input is passed to the element located at the unmagnified screen coordinates, not to the item that appears in the magnified screen content.
 
+This function requires the calling process to have UIAccess privileges.  If the caller does not have UIAccess privileges, the call to **MagSetInputTransform** fails, and the [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) function returns ERROR_ACCESS_DENIED. For more information, see [UI Automation Security Considerations](/windows/win32/WinAuto/uiauto-securityoverview) and [/MANIFESTUAC (Embeds UAC information in manifest)](/cpp/build/reference/manifestuac-embeds-uac-information-in-manifest).
 
-The input transformation maps the coordinate space of the magnified screen content to the actual (unmagnified) screen coordinate space. This enables the system to pass pen and touch input that is entered in magnified screen content, to the correct UI element on the screen. For example, without input transformation, input is passed to the element located at the unmagnified screen coordinates, not to the item that appears in the magnified screen content. 
+Beginning with Windows 10 Creators Update (version 1703), you must use the [MagSetInputTransform function](nf-magnification-magsetinputtransform.md) for mouse input to route to the magnified element (in addition to pen and touch input).
 
-This function requires the calling process to have UIAccess privileges.  If the caller does not have UIAccess privileges, the call to <b>MagSetInputTransform</b> fails, and the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns ERROR_ACCESS_DENIED. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-securityoverview">UI Automation Security Considerations</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=207612">/MANIFESTUAC (Embeds UAC information in manifest)</a>.
-
-
-#### Examples
+## Examples
 
 The following example sets the input transformation for the full-screen magnifier.
-
 
 ```cpp
 // Description:
@@ -140,17 +124,6 @@ BOOL SetInputTranform()
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetinputtransform">MagGetInputTransform</a>
- 
-
- 
-
+[MagGetFullscreenTransform](/windows/win32/api/magnification/nf-magnification-maggetfullscreentransform)

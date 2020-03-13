@@ -222,7 +222,7 @@ The **WSCSetProviderInfo** function can only be called by a user logged on as a 
 <a href="/windows-hardware/drivers/ddi/content/_netvista/">Winsock Kernel</a>. For a Windows Core Networking
     blog entry about WSK and TDI, see 
     
-<a href="https://go.microsoft.com/fwlink/p/?linkid=188455">Introduction to Winsock Kernel
+<a href="https://blogs.msdn.com/wndp/archive/2006/02/24/538746.aspx">Introduction to Winsock Kernel
     (WSK)</a>.
 </div>
 <div> </div>

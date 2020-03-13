@@ -106,7 +106,7 @@ written to persistent media, the application should use unbuffered I/O  instead 
 To flush all open files on a volume, call <b>FlushFileBuffers</b> with a handle to the volume. The caller must have administrative privileges. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>. 
 
-When opening a volume with <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>, the <i>lpFileName</i> string should be the following form: \\.\<i>x</i>: or \\?\Volume{<i>GUID</i>}. Do not use a trailing backslash in the volume name, because that indicates the root directory of a drive.  
+When opening a volume with <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>, the <i>lpFileName</i> string should be the following form: \\.\<i>x</i>: or \\\\?\\Volume{<i>GUID</i>}. Do not use a trailing backslash in the volume name, because that indicates the root directory of a drive.  
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 

@@ -77,7 +77,7 @@ Returns an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-d
 
 
 
-For 16-byte aligned memory, it may be faster to use <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmloadint3a">XMLoadInt3A</a> with a casting operator.
+For 16-byte aligned memory, it may be faster to use <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmloadint3a">XMLoadInt3A</a> with a casting operator.
 
 The following pseudocode shows the operation of this function.
 

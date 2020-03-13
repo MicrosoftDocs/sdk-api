@@ -105,7 +105,7 @@ The language string contains one or more language strings that are not valid.
 
 
 
-The language tag string must conform to the language tag syntax that is described in the Internet Engineering Task Force (IETF) RFC 3066. For more information,  go to <a href="https://go.microsoft.com/fwlink/p/?linkid=161490">http://tools.ietf.org/html/rfc3066</a>. 
+The language tag string must conform to the language tag syntax that is described in the Internet Engineering Task Force (IETF) RFC 3066. For more information,  go to <a href="http://tools.ietf.org/html/rfc3066">http://tools.ietf.org/html/rfc3066</a>. 
 
 
 
@@ -119,11 +119,11 @@ The language tag string must conform to the language tag syntax that is describe
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=161490">The Internet Engineering Task Force (IETF) RFC 3066</a>
+<a href="http://tools.ietf.org/html/rfc3066">The Internet Engineering Task Force (IETF) RFC 3066</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

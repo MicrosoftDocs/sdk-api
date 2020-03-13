@@ -324,7 +324,7 @@ The following Microsoft Visual Basic for Applications (VBA) example numbers the 
 ```
 
 
-For an example of <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomListNumberAsSequence</a>, set <code>ListStart</code> to 0x2780, which gives you circled numbers. The <a href="https://go.microsoft.com/fwlink/p/?linkid=161649">Unicode Standard</a> has examples of many more numbering sequences.
+For an example of <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomListNumberAsSequence</a>, set <code>ListStart</code> to 0x2780, which gives you circled numbers. The <a href="https://www.unicode.org/standard/standard.html">Unicode Standard</a> has examples of many more numbering sequences.
 
 
 

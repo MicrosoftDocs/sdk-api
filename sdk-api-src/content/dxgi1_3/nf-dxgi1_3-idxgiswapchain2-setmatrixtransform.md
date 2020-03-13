@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 Sets the transform matrix that will be applied to a composition swap chain upon the next present. 
 
-Starting with Windows 8.1, Windows Store apps are able to place DirectX swap chain visuals in XAML pages using the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.swapchainpanel0">SwapChainPanel</a> element, which can be placed and sized arbitrarily. This exposes the DirectX swap chain visuals to touch scaling and translation scenarios using touch UI. The <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-getmatrixtransform">GetMatrixTransform</a> and  <b>SetMatrixTransform</b> methods are used to synchronize scaling of the DirectX swap chain with its associated <b>SwapChainPanel</b> element. Only simple scale/translation elements in the matrix are allowed – the call will fail if the matrix contains skew/rotation elements.
+Starting with Windows 8.1, Windows Store apps are able to place DirectX swap chain visuals in XAML pages using the <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.swapchainpanel0">SwapChainPanel</a> element, which can be placed and sized arbitrarily. This exposes the DirectX swap chain visuals to touch scaling and translation scenarios using touch UI. The <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-getmatrixtransform">GetMatrixTransform</a> and  <b>SetMatrixTransform</b> methods are used to synchronize scaling of the DirectX swap chain with its associated <b>SwapChainPanel</b> element. Only simple scale/translation elements in the matrix are allowed – the call will fail if the matrix contains skew/rotation elements.
 
 
 ## -parameters
@@ -86,7 +86,7 @@ The transform matrix to use for swap chain scaling and translation. This functio
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=311761">DirectX foreground swap chains sample</a>
+<a href="https://code.msdn.microsoft.com/windowsapps/DirectX-Foreground-Swap-6c20f2bb">DirectX foreground swap chains sample</a>
 
 
 

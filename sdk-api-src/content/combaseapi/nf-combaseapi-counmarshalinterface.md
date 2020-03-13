@@ -164,7 +164,7 @@ The final <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unkn
 
 
 
-<div class="alert"><b>Important</b>  <p class="note">Security Note: Calling this method with untrusted data is a security risk. Call this method only with trusted data. For more information, see <a href="https://go.microsoft.com/fwlink/?LinkId=798821">Untrusted Data Security Risks</a>.
+<div class="alert"><b>Important</b>  <p class="note">Security Note: Calling this method with untrusted data is a security risk. Call this method only with trusted data. For more information, see <a href="https://docs.microsoft.com/">Untrusted Data Security Risks</a>.
 
 </div>
 <div> </div>

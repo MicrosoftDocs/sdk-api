@@ -66,7 +66,7 @@ The <b>ID3D12ProtectedSession</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/d3d12/nf-d3d12-id3d12protectedsession-getsessionstatus">GetSessionStatus</a>
+<a href="https://docs.microsoft.com/windows/win32/api/d3d12/nf-d3d12-id3d12protectedsession-getsessionstatus">GetSessionStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the status of the protected session.
@@ -75,7 +75,7 @@ Gets the status of the protected session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/mmc/nf-mmc-iconsole-settoolbar">GetStatusFence</a>
+<a href="https://docs.microsoft.com/windows/win32/api/mmc/nf-mmc-iconsole-settoolbar">GetStatusFence</a>
 </td>
 <td align="left" width="63%">
 Retrieves the fence for the protected session. From the fence, you can retrieve the current uniqueness validity value (using <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue">ID3D12Fence::GetCompletedValue</a>), and add monitors for changes to its value. This is a read-only fence.

@@ -5,7 +5,7 @@ description: Reads data from an area of memory in a specified process. The entir
 old-location: base\ReadProcessMemory.htm
 tech.root: Debug
 ms.assetid: 8774e145-ee7f-44de-85db-0445b905f986
-ms.date: 08/05/2019
+ms.date: 03/10/2020
 ms.keywords: ReadProcessMemory, ReadProcessMemory function, _win32_ReadProcessMemory, base.ReadProcessMemory, memoryapi/ReadProcessMemory
 f1_keywords:
 - memoryapi/ReadProcessMemory
@@ -78,7 +78,7 @@ The number of bytes to be read from the specified process.
 
 ### -param lpNumberOfBytesRead [out]
 
-A pointer to a variable that receives the number of bytes transferred into the specified buffer. If <i>lpNumberOfBytesRead</i> is <b>NULL</b>, the parameter is ignored.
+A pointer to a variable that receives the number of bytes transferred into the specified buffer. If *lpNumberOfBytesRead* is **NULL**, the parameter is ignored.
 
 
 ## -returns
@@ -86,32 +86,16 @@ A pointer to a variable that receives the number of bytes transferred into the s
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+[GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 The function fails if the requested read operation crosses into an area of the process that is inaccessible.
 
 ## -remarks
 
-<b>ReadProcessMemory</b> copies the data in the specified address range from the address space of the specified process into the specified buffer of the current process. Any process that has a handle with PROCESS_VM_READ access can call the function.
+**ReadProcessMemory** copies the data in the specified address range from the address space of the specified process into the specified buffer of the current process. Any process that has a handle with PROCESS_VM_READ access can call the function.
 
 The entire area to be read must be accessible, and if it is not accessible, the function fails.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/95a838a2-f138-4682-b733-3f363b6c4a4b">Debugging Functions</a>
-
-
-
-<a href="https://msdn.microsoft.com/8f695c38-19c4-49e4-97de-8b64ea536cb1">OpenProcess</a>
-
-
-
-<a href="https://msdn.microsoft.com/7056e181-9bc5-4530-a7b8-d5ff1e345eef">Process Functions for Debugging</a>
-
-
-
-<a href="https://msdn.microsoft.com/ff0b6b79-40f5-499c-b797-b66797654164">VirtualAllocEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/9cd91f1c-58ce-4adc-b027-45748543eb06">ReadProcessMemory</a>
+[Debugging Functions](/windows/win32/debug/debugging-functions), [OpenProcess](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openprocess), [Process Functions for Debugging](/windows/win32/debug/process-functions-for-debugging), [VirtualAllocEx](/windows/win32/api/memoryapi/nf-memoryapi-virtualallocex), [WriteProcessMemory](/windows/win32/api/memoryapi/nf-memoryapi-writeprocessmemory)

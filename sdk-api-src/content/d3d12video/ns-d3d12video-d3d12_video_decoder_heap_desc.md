@@ -62,7 +62,7 @@ The decode height of the bitstream to be decoded.
  
 ### -field Format
 
-A [DXGI_FORMAT](https://docs.microsoft.com/en-us/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) structure specifying the format of the bitstream to be decoded.
+A [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) structure specifying the format of the bitstream to be decoded.
  
 ### -field FrameRate
 

@@ -117,7 +117,7 @@ The time-out interval elapsed, and installation activities are still pending.
 </dl>
 </td>
 <td width="60%">
-The function failed. Call <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> for additional error information.
+The function failed. Call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> for additional error information.
 
 </td>
 </tr>

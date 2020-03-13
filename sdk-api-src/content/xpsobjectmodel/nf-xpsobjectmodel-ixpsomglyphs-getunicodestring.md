@@ -119,7 +119,7 @@ This method allocates the memory that is used by the string returned in <i>unico
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

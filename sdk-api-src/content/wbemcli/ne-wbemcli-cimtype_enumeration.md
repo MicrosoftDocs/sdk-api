@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CIMTYPE_ENUMERATION</b> enumeration defines values that specify different CIM data types. All the values in the enumeration are types defined by the Distributed Management Task Force (DMTF). For more information about the DMTF and the CIM data types, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84403">http://www.dmtf.org/standards/cim/cim_spec_v22</a>.
+The <b>CIMTYPE_ENUMERATION</b> enumeration defines values that specify different CIM data types. All the values in the enumeration are types defined by the Distributed Management Task Force (DMTF). For more information about the DMTF and the CIM data types, see <a href="https://www.dmtf.org/standards/cim">http://www.dmtf.org/standards/cim/cim_spec_v22</a>.
 
 
 ## -enum-fields

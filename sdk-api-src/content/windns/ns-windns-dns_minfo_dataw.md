@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>DNS_MINFO_DATA</b> structure represents a DNS mail information (MINFO) record as specified in section 3.3.7 of <a href="https://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
+<b>DNS_MINFO_DATA</b> structure represents a DNS mail information (MINFO) record as specified in section 3.3.7 of <a href="https://www.ietf.org/rfc/rfc1035.txt">RFC 1035</a>.
 
 
 ## -struct-fields

@@ -76,9 +76,9 @@ A value from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautom
 
 
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a></b>
 
-A <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> containing the requested provider.
+A <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> containing the requested provider.
 
 
 

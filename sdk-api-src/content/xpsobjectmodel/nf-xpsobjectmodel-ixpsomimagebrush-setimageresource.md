@@ -134,7 +134,7 @@ The image resource must be of type JPEG, PNG, TIFF 6.0, or HD  Photo.
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

@@ -76,7 +76,7 @@ Specifies the permission mode.
 
 
 
-The function accepts parameters similar to <a href="https://go.microsoft.com/fwlink/p/?linkid=196548">_open</a>.
+The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/z0kc8e3z(VS.71).aspx">_open</a>.
 
 
 #### Examples

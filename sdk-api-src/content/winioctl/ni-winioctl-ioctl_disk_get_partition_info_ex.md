@@ -137,7 +137,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 
@@ -148,7 +148,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 The <b>IOCTL_DISK_GET_PARTITION_INFO_EX</b> 
     control code is supported on basic disks. It is only supported on dynamic disks that are boot or system disks, or have retained 
-    entries in the partition table. The <a href="https://go.microsoft.com/fwlink/p/?linkid=103544">DiskPart.exe</a> command <b>RETAIN</b> can be used to do 
+    entries in the partition table. The <a href="https://technet.microsoft.com/library/26a4a166-95fa-4faf-95bc-2d5345f4a57a">DiskPart.exe</a> command <b>RETAIN</b> can be used to do 
     this for other dynamic simple partitions.
 
 The disk support can be summarized as follows.

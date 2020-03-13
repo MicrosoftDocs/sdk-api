@@ -119,7 +119,7 @@ The <b>Name</b> property identifies the current page as a named, addressable poi
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

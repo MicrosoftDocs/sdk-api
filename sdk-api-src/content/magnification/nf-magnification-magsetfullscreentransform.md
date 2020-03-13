@@ -45,67 +45,49 @@ ms.custom: 19H1
 
 # MagSetFullscreenTransform function
 
-
 ## -description
-
 
 Changes the magnification settings for the full-screen magnifier.
 
-
 ## -parameters
-
-
-
 
 ### -param magLevel [in]
 
-Type: <b>float</b>
+Type: **float**
 
 The new magnification factor for the full-screen magnifier.  The minimum value of this parameter is 1.0, and the maximum value is 4096.0. If this value is 1.0, the screen content is not magnified and no offsets are applied.  
 
-
 ### -param xOffset [in]
 
-Type: <b>int</b>
+Type: **int**
 
 The new x-coordinate offset, in pixels, for the upper-left corner of the magnified view. The offset is relative to the upper-left corner of the primary monitor, in unmagnified coordinates. The minimum value of the parameter is -262144, and the maximum value is 262144.
 
-
 ### -param yOffset [in]
 
-Type: <b>int</b>
+Type: **int**
 
 The new y-coordinate offset, in pixels, for the upper-left corner of the magnified view.  The offset is relative to the upper-left corner of the primary monitor, in unmagnified coordinates. The minimum value of the parameter is -262144, and the maximum value is 262144.
 
-
 ## -returns
 
+Type: **BOOL**
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
-
-Returns TRUE if successful, or FALSE otherwise.
-
-
-
+Returns TRUE if successful. Otherwise, FALSE.
 
 ## -remarks
-
-
 
 The offsets are not affected by the current dots per inch (dpi) settings.
 
 The magnification factor is applied to the current mouse cursor visuals, including cursor visuals affected by the mouse-related settings in the Ease of Access control panel.
 
-In a multiple monitor environment, to position the upper-left corner of the magnified view to the left of the primary monitor, the offsets must be adjusted by the upper-left corner of the virtual screen and the magnification factor being applied. (The virtual screen is the bounding rectangle of all display monitors.) For an example that shows how to position the upper-left corner of the magnified view to the left of the primary monitor, see Examples.
+In a multiple monitor environment, to position the upper-left corner of the magnified view to the left of the primary monitor, the offsets must be adjusted by the upper-left corner of the virtual screen and the magnification factor being applied. (The virtual screen is the bounding rectangle of all display monitors.) For an example that shows how to position the upper-left corner of the magnified view to the left of the primary monitor, see [Examples](#examples).
 
+Beginning with Windows 10 Creators Update (version 1703), you must use the [MagSetInputTransform function](nf-magnification-magsetinputtransform.md) for input to route to the magnified element.
 
-
-
-#### Examples
+## Examples
 
 The following example sets the magnification factor for the full-screen magnifier and places the center of  the magnified screen content at the center of the screen.
-
 
 ```cpp
 BOOL SetZoom(float magnificationFactor)
@@ -129,10 +111,8 @@ BOOL SetZoom(float magnificationFactor)
 
 ```
 
-
 The following example magnifies the screen so that the upper-left corner of a particular window 
 appears at the upper-left corner of the magnified view. If the <code>fPositionRelativeToVirtualScreen</code> parameter is FALSE, the window is positioned in the upper-left corner of the primary monitor. If <code>fPositionRelativeToVirtualScreen</code> is TRUE and the system has multiple monitors,  the example adjusts the offsets to position the window relative to the virtual screen; that is, the window is placed in the upper-left corner of the left-most monitor. 
-
 
 ```cpp
 // Note: This example does not check whether the offset is large enough to 
@@ -191,17 +171,6 @@ BOOL SetFullscreenMagnification(BOOL fPositionRelativeToVirtualScreen)
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetfullscreentransform">MagGetFullscreenTransform</a>
- 
-
- 
-
+[MagGetFullscreenTransform](/windows/win32/api/magnification/nf-magnification-maggetfullscreentransform)

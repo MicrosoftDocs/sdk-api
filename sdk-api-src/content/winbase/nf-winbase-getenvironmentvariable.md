@@ -118,7 +118,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/processenv/nf-processenv-getenvironmentstrings">GetEnvironmentStrings</a>
+<a href="https://docs.microsoft.com/windows/win32/api/processenv/nf-processenv-getenvironmentstrings">GetEnvironmentStrings</a>
 
 
 

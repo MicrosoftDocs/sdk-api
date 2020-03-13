@@ -93,7 +93,7 @@ Retrieves the static proxy or direct configuration from the registry. <b>WINHTTP
 
 The WinHTTP proxy configuration is set by one of these mechanisms.<ul>
 <li>The <a href="https://docs.microsoft.com/windows/desktop/WinHttp/proxycfg-exe--a-proxy-configuration-tool">proxycfg.exe</a> utility on Windows XP and Windows Server 2003 or earlier.</li>
-<li>The <a href="https://go.microsoft.com/fwlink/p/?linkid=186359">netsh.exe</a> utility on Windows Vista and Windows Server 2008 or later.</li>
+<li>The <a href="https://technet.microsoft.com/library/cc731131(WS.10).aspx#BKMK_5">netsh.exe</a> utility on Windows Vista and Windows Server 2008 or later.</li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetdefaultproxyconfiguration">WinHttpSetDefaultProxyConfiguration</a> on all platforms.</li>
 </ul>

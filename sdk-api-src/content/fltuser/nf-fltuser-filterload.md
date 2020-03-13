@@ -173,7 +173,7 @@ To unload the minifilter driver, call <a href="https://docs.microsoft.com/window
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=139085">HRESULT_FROM_WIN32</a>
+<a href="https://msdn.microsoft.com/library/ms680746.aspx">HRESULT_FROM_WIN32</a>
  
 
  

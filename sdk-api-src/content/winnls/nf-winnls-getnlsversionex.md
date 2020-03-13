@@ -126,11 +126,11 @@ This function allows an application such as Active Directory to determine if an 
 <li>If any of the three properties has changed, the sorting data you're using could return different results and any indexing you have may fail to find records.</li>
 <li>If you <u>know</u> that your data doesn't contain invalid Unicode code points (that is, all of your strings passed a call to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isnlsdefinedstring">IsNLSDefinedString</a>) then you may consider them the same if <u>only</u> the low byte of <b>dwNLSVersion</b> changed (the minor version described above).</li>
 </ol>
-This is covered in more detail in the blog entry <a href="https://go.microsoft.com/fwlink/p/?linkid=151428">"How to tell if the collation version changed"</a> (http://blogs.msdn.com/shawnste/archive/2007/06/01/how-to-tell-if-the-collation-version-changed.aspx).
+This is covered in more detail in the blog entry <a href="https://blogs.msdn.com/shawnste/archive/2007/06/01/how-to-tell-if-the-collation-version-changed.aspx">"How to tell if the collation version changed"</a> (http://blogs.msdn.com/shawnste/archive/2007/06/01/how-to-tell-if-the-collation-version-changed.aspx).
 
 This function supports <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">custom locales</a>. If <i>lpLocaleName</i> specifies a supplemental locale, the data retrieved is the correct data for the sort order associated with that supplemental locale.
 
-<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
+<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
 
 
 
@@ -148,7 +148,7 @@ This function supports <a href="https://docs.microsoft.com/windows/desktop/Intl/
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=151428">How to tell if the collation version changed</a>
+<a href="https://blogs.msdn.com/shawnste/archive/2007/06/01/how-to-tell-if-the-collation-version-changed.aspx">How to tell if the collation version changed</a>
 
 
 

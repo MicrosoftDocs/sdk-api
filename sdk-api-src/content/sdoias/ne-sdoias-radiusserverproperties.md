@@ -115,7 +115,7 @@ Number of seconds that are waited before checking if an unavailable server is av
 
 ### -field PROPERTY_RADIUSSERVER_SEND_SIGNATURE
 
-Specifies whether the Message-Authenticator attribute of <a href="https://go.microsoft.com/fwlink/p/?linkid=90435">RFC 3579</a>  is sent by the server or not. It is always sent for EAP authentications.
+Specifies whether the Message-Authenticator attribute of <a href="https://www.ietf.org/rfc/rfc3579.txt">RFC 3579</a>  is sent by the server or not. It is always sent for EAP authentications.
 
 
 ### -field PROPERTY_RADIUSSERVER_AUTH_SECRET_TEMPLATE_GUID

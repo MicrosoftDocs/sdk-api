@@ -535,7 +535,7 @@ The value for each object type is shown in the following table..  <table>
 </tr>
 <tr>
 <td><a href="/windows/win32/api/tom/ne-tom-objecttype">tomStretchStack</a></td>
-<td>Horizontal stretch character (see <a href="https://go.microsoft.com/fwlink/p/?linkid=124972">Unicode Technical Note 28</a> Appendix B for a list)</td>
+<td>Horizontal stretch character (see <a href="https://www.unicode.org/notes/tn28/">Unicode Technical Note 28</a> Appendix B for a list)</td>
 </tr>
 <tr>
 <td><a href="/windows/win32/api/tom/ne-tom-objecttype">tomSubscript</a></td>
@@ -572,7 +572,7 @@ The value for each object type is shown in the following table..  <table>
 
 Type: <b>long*</b>
 
-The closing <b>tomBrackets</b> character.  See <a href="https://go.microsoft.com/fwlink/p/?linkid=124972">Unicode Technical Note 28</a> Appendix B. Character Keywords and Properties for a list.
+The closing <b>tomBrackets</b> character.  See <a href="https://www.unicode.org/notes/tn28/">Unicode Technical Note 28</a> Appendix B. Character Keywords and Properties for a list.
 
 
 ### -param pChar2 [out]
@@ -702,7 +702,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=124972">Unicode Technical Note 28</a> describes the alignment and character values in detail when the active end character is an inline object start delimiter. 
+<a href="https://www.unicode.org/notes/tn28/">Unicode Technical Note 28</a> describes the alignment and character values in detail when the active end character is an inline object start delimiter. 
 
 When that character is not a start delimiter, the character and column parameters are set to 0, the count is set to the 0-based argument index, and the other parameters are set according to the active-end character properties of the innermost inline object argument.
 

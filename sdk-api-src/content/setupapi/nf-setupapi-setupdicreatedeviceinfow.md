@@ -125,7 +125,7 @@ If this flag is specified, the resulting device information element inherits the
 
 
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 
@@ -136,11 +136,11 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 The caller of this function must be a member of the Administrators group.
 
-If this device instance is being added to a set that has an associated class, the device class must be the same or the call fails. In this case, a call to <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_CLASS_MISMATCH.
+If this device instance is being added to a set that has an associated class, the device class must be the same or the call fails. In this case, a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_CLASS_MISMATCH.
 
-If the specified device instance is the same as an existing device instance key in the registry, the call fails. In this case, a call to <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_DEVINST_ALREADY_EXISTS. This occurs only if the DICD_GENERATE_ID flag is not set.
+If the specified device instance is the same as an existing device instance key in the registry, the call fails. In this case, a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_DEVINST_ALREADY_EXISTS. This occurs only if the DICD_GENERATE_ID flag is not set.
 
-If the new device information element was successfully created but the caller-supplied <i>DeviceInfoData</i> buffer is invalid, the function returns <b>FALSE</b>. In this case, a call to <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_INVALID_USER_BUFFER. However, the device information element will have been added as a new member of the set already.
+If the new device information element was successfully created but the caller-supplied <i>DeviceInfoData</i> buffer is invalid, the function returns <b>FALSE</b>. In this case, a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_INVALID_USER_BUFFER. However, the device information element will have been added as a new member of the set already.
 
 The <i>DeviceInfoSet</i> must only contain elements on the local computer.
 

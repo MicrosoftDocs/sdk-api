@@ -76,6 +76,7 @@ None
 
 None
 
+
 ### -param lpOutBuffer [out, optional]
 
 A pointer to the output buffer that is to receive the [DISK_GEOMETRY](https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-disk_geometry) data returned by the operation.

@@ -83,7 +83,7 @@ The vertical distance, in the effective coordinate space, by which to move the g
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
  
 
  

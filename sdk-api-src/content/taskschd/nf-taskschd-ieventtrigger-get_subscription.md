@@ -65,7 +65,7 @@ This property is read/write.
 
 When reading or writing your own XML for a task, the event subscription is specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-subscription-eventtriggertype-element">Subscription</a> element of the Task Scheduler schema.
 
-For more information about writing a query string for certain events, see <a href="https://go.microsoft.com/fwlink/p/?linkid=168218">Event Selection</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=168415">Subscribing to Events</a>.
+For more information about writing a query string for certain events, see <a href="https://msdn.microsoft.com/library/aa385231(VS.85).aspx">Event Selection</a> and <a href="https://msdn.microsoft.com/library/aa385771(VS.85).aspx">Subscribing to Events</a>.
 
 
 #### Examples

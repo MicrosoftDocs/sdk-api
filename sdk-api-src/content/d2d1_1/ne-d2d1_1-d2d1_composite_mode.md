@@ -149,7 +149,7 @@ As a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1
 <b>D2D1_COMPOSITE_MODE_DESTINATION_COPY</b> is a no-op since the destination is already in the selected target.</li>
 </ul>
 <h3><a id="Sample_code"></a><a id="sample_code"></a><a id="SAMPLE_CODE"></a>Sample code</h3>
-For an example that uses composite modes, download the <a href="https://go.microsoft.com/fwlink/p/?linkid=231580">Direct2D composite effect modes sample</a>.
+For an example that uses composite modes, download the <a href="https://code.msdn.microsoft.com/windowsapps/Direct2D-Image-Effects-4819dc5b">Direct2D composite effect modes sample</a>.
 
 
 

@@ -53,4 +53,4 @@ You can obtain an **ID3D12ProtectedResourceSession** by calling [ID3D12Device4::
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nn-d3d12-id3d12protectedsession">ID3D12ProtectedSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12protectedsession">ID3D12ProtectedSession</a>

@@ -147,7 +147,7 @@ The value returned by <b>GetSnapsToPixels</b> corresponds to the <b>SnapsToDevic
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

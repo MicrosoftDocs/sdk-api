@@ -119,7 +119,7 @@ For more information about line   end cap styles, see <a href="https://docs.micr
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
 
 
 

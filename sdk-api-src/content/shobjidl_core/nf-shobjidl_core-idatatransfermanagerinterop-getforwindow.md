@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager">DataTransferManager</a> instance for the specified window.
+Gets the <a href="https://docs.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager">DataTransferManager</a> instance for the specified window.
 
 
 ## -parameters
@@ -59,17 +59,17 @@ Gets the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmo
 
 ### -param appWindow [in]
 
-The window whose <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager">DataTransferManager</a> instance is to be retrieved.
+The window whose <a href="https://docs.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager">DataTransferManager</a> instance is to be retrieved.
 
 
 ### -param riid [in]
 
-The requested interface ID of the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager">DataTransferManager</a> instance.
+The requested interface ID of the <a href="https://docs.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager">DataTransferManager</a> instance.
 
 
 ### -param dataTransferManager [out, optional]
 
-Receives the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager">DataTransferManager</a> instance.
+Receives the <a href="https://docs.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager">DataTransferManager</a> instance.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method is equivalent to the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager.getforcurrentview">DataTransferManager.GetForCurrentView</a> method, except that you specify a window from a multi-window Windows Store app.
+This method is equivalent to the <a href="https://docs.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager.getforcurrentview">DataTransferManager.GetForCurrentView</a> method, except that you specify a window from a multi-window Windows Store app.
 
 
 
@@ -95,11 +95,11 @@ This method is equivalent to the <a href="https://docs.microsoft.com/en-us/uwp/a
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager">DataTransferManager</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager">DataTransferManager</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager.getforcurrentview">DataTransferManager.GetForCurrentView</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager.getforcurrentview">DataTransferManager.GetForCurrentView</a>
 
 
 

@@ -94,11 +94,11 @@ This interface is implemented by the following objects. Note that this is necess
                 
 
 <ul>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=267492">Windows.UI.Popups.PopupMenu</a></li>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=267493">Windows.UI.Popups.MessageDialog</a></li>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=267494">Windows.Storage.Pickers.FileOpenPicker</a></li>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=267495">Windows.Storage.Pickers.FileSavePicker</a></li>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=267496">Windows.Storage.Pickers.FolderPicker</a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.popups.popupmenu.aspx">Windows.UI.Popups.PopupMenu</a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.popups.messagedialog.aspx">Windows.UI.Popups.MessageDialog</a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/apps/windows.storage.pickers.fileopenpicker.aspx">Windows.Storage.Pickers.FileOpenPicker</a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/apps/windows.storage.pickers.filesavepicker.aspx">Windows.Storage.Pickers.FileSavePicker</a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/apps/windows.storage.pickers.folderpicker.aspx">Windows.Storage.Pickers.FolderPicker</a></li>
 <li><a href="https://docs.microsoft.com/windows/desktop/shell/dataobject">CLSID_DragDropHelper</a></li>
 </ul>
 

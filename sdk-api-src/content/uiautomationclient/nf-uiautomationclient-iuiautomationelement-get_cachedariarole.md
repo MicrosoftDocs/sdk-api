@@ -91,7 +91,7 @@ This property is read-only.
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=149006">WAI-ARIA Overview</a>
+<a href="https://www.w3.org/WAI/intro/aria">WAI-ARIA Overview</a>
  
 
  

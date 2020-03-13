@@ -57,7 +57,7 @@ Concatenates one  string to another string. The size of the destination buffer i
 
 <b>StringCbCatEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=192489">strcat, wcscat, _tcsat</a></li>
+<li><a href="https://msdn.microsoft.com/library/h1x0y282.aspx">strcat, wcscat, _tcsat</a></li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcata">lstrcat</a>
 </li>

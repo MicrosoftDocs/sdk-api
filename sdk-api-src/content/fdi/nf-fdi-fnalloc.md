@@ -66,7 +66,7 @@ The number of bytes to allocate.
 
 
 
-The function accepts parameters similar to <a href="https://go.microsoft.com/fwlink/p/?linkid=196540">malloc</a>.
+The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/6ewkz86d(VS.80).aspx">malloc</a>.
 
 
 #### Examples

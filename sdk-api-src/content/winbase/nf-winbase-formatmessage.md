@@ -111,12 +111,6 @@ In previous versions of Windows, this value was not available for use when compi
            <b>FormatMessage</b> will not automatically fail with an 
            error of <b>ERROR_MORE_DATA</b>.
 
-
-
-<b>Windows 10:  </b><b> LocalAlloc()</b> has different options: <b>LMEM_FIXED</b>, and  <b>LMEM_MOVABLE</b>. <b>FormatMessage()</b> uses <b>LMEM_FIXED</b>, so <b>HeapFree</b> can be used. If <b>LMEM_MOVABLE</b> is used, <b>HeapFree</b> cannot be used.
-
-
-
 </td>
 </tr>
 <tr>
@@ -396,7 +390,7 @@ Within the message text, several escape sequences are supported for dynamically 
 Identifies an insert. The value of <i>n</i> can be in the range from 1 through 99. The 
         format string (which must be surrounded by exclamation marks) is optional and defaults to !s! if not 
         specified. For more information, see 
-        <a href="https://go.microsoft.com/fwlink/p/?linkid=83949">Format Specification Fields</a>.
+        <a href="https://msdn.microsoft.com/library/56e442dc.aspx">Format Specification Fields</a>.
 
 The format string can include a width and precision specifier for strings and a width specifier for 
         integers. Use an asterisk (*) to specify the width and precision. For example, %1!*.*s! or %1!*u!.
@@ -452,7 +446,7 @@ Any other nondigit character following a percent character is formatted in the o
 <td>A single percent sign.</td>
 </tr>
 <tr>
-<td>%<i>space</i></td>
+<td>%<i>b</i></td>
 <td>A single space. This format string can be used to ensure the appropriate number of trailing spaces in a 
        message text line.</td>
 </tr>

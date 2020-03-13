@@ -144,8 +144,8 @@ If this value is used, and the executable module is a DLL, the system does not c
 </td>
 <td width="60%">
 If this value is used, the system does not check 
-         <a href="https://go.microsoft.com/fwlink/p/?linkid=161970">AppLocker</a> rules or apply 
-         <a href="https://go.microsoft.com/fwlink/p/?linkid=161971">Software Restriction Policies</a> 
+         <a href="https://technet.microsoft.com/library/dd723678.aspx">AppLocker</a> rules or apply 
+         <a href="https://technet.microsoft.com/library/cc779607.aspx">Software Restriction Policies</a> 
          for the DLL. This action applies only to the DLL being loaded and not to its dependencies. This value is 
          recommended for use in setup programs that must run extracted DLLs during installation.
 
@@ -228,7 +228,7 @@ If this value is used, the application's installation directory is searched for 
          <b>LOAD_WITH_ALTERED_SEARCH_PATH</b>.
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:  </b>This value requires 
-          <a href="https://go.microsoft.com/fwlink/p/?linkid=217865">KB2533623</a> to be 
+          <a href="https://support.microsoft.com/kb/2533623">KB2533623</a> to be 
           installed.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
@@ -251,7 +251,7 @@ This value represents the recommended maximum number of directories an applicati
          DLL search path.
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:  </b>This value requires 
-          <a href="https://go.microsoft.com/fwlink/p/?linkid=217865">KB2533623</a> to be 
+          <a href="https://support.microsoft.com/kb/2533623">KB2533623</a> to be 
           installed.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
@@ -278,7 +278,7 @@ For example, if Lib2.dll is a dependency of C:\Dir1\Lib1.dll, loading
          in the DLL search path, combine this value with <b>LOAD_LIBRARY_DEFAULT_DIRS</b>.
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:  </b>This value requires 
-          <a href="https://go.microsoft.com/fwlink/p/?linkid=217865">KB2533623</a> to be 
+          <a href="https://support.microsoft.com/kb/2533623">KB2533623</a> to be 
           installed.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
@@ -297,7 +297,7 @@ If this value is used, %windows%\system32 is searched for the DLL and its depend
          <b>LOAD_WITH_ALTERED_SEARCH_PATH</b>.
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:  </b>This value requires 
-          <a href="https://go.microsoft.com/fwlink/p/?linkid=217865">KB2533623</a> to be 
+          <a href="https://support.microsoft.com/kb/2533623">KB2533623</a> to be 
           installed.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
@@ -319,7 +319,7 @@ If this value is used, directories added using the
          combined with <b>LOAD_WITH_ALTERED_SEARCH_PATH</b>.
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:  </b>This value requires 
-          <a href="https://go.microsoft.com/fwlink/p/?linkid=217865">KB2533623</a> to be 
+          <a href="https://support.microsoft.com/kb/2533623">KB2533623</a> to be 
           installed.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
@@ -546,7 +546,7 @@ An application can specify the directories to search for a single
 
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:  </b>The <b>LOAD_LIBRARY_SEARCH_*</b> flags are available on systems that have 
-       <a href="https://go.microsoft.com/fwlink/p/?linkid=217865">KB2533623</a> 
+       <a href="https://support.microsoft.com/kb/2533623">KB2533623</a> 
        installed. To determine whether the flags are available, use 
        <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to get the address of the 
        <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-adddlldirectory">AddDllDirectory</a>, 

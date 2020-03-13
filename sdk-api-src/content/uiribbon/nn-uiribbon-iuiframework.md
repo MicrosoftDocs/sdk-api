@@ -170,7 +170,7 @@ This interface is used to initialize and dismantle the Ribbon framework.
 Ribbon framework UI functionality is differentiated by Views, which are essentially 
 				built-in core controls, such as the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a> and <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
 
-To get an interface pointer to the implementation of IUIFramework, use <a href="https://go.microsoft.com/fwlink/p/?linkid=199586">CoCreateInstance</a>to 
+To get an interface pointer to the implementation of IUIFramework, use <a href="https://msdn.microsoft.com/library/ms686615(VS.85).aspx">CoCreateInstance</a>to 
 			create a COM object with the class identifier (CLSID) of CLSID_UIRibbonFramework.
 			
 

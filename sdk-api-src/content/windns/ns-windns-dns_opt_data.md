@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DNS_OPT_DATA</b> structure represents a DNS Option  (OPT) resource record (RR) as specified in section 4 of <a href="https://go.microsoft.com/fwlink/p/?linkid=134711">RFC 2671</a>.
+The <b>DNS_OPT_DATA</b> structure represents a DNS Option  (OPT) resource record (RR) as specified in section 4 of <a href="https://www.ietf.org/rfc/rfc2671.txt">RFC 2671</a>.
 
 
 ## -struct-fields
@@ -79,7 +79,7 @@ Reserved. Do not use.
 
 ### -field Data
 
-A <b>BYTE</b> array that contains variable transport level information as specified in section 4 of <a href="https://go.microsoft.com/fwlink/p/?linkid=134711">RFC 2671</a>.
+A <b>BYTE</b> array that contains variable transport level information as specified in section 4 of <a href="https://www.ietf.org/rfc/rfc2671.txt">RFC 2671</a>.
 
 
 ## -remarks

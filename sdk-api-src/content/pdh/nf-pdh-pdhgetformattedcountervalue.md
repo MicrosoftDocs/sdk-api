@@ -151,7 +151,7 @@ Multiply the actual value by 1,000.
 
 ### -param lpdwType [out]
 
-Receives the counter type. For a list of counter types, see the Counter Types section of the <a href="https://go.microsoft.com/fwlink/p/?linkid=84422">Windows Server 2003 Deployment Kit</a>. This parameter is optional.
+Receives the counter type. For a list of counter types, see the Counter Types section of the <a href="https://technet.microsoft.com/library/3fb01419-b1ab-4f52-a9f8-09d5ebeb9ef2">Windows Server 2003 Deployment Kit</a>. This parameter is optional.
 
 
 ### -param pValue [out]

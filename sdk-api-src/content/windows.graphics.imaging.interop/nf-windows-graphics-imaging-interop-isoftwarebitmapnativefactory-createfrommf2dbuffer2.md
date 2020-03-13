@@ -91,7 +91,7 @@ Type: <b>BOOL</b>
 
 A value indicating whether the created software bitmap is read-only.
 
-<div class="alert"><b>Note</b>  The read-only access applies only to the Windows Runtime<a href="https://docs.microsoft.com/en-us/uwp/api/windows.graphics.imaging.softwarebitmap">SoftwareBitmap</a> wrapper. Access to the underlying Media Foundation buffer is not restricted.</div>
+<div class="alert"><b>Note</b>  The read-only access applies only to the Windows Runtime<a href="https://docs.microsoft.com/uwp/api/windows.graphics.imaging.softwarebitmap">SoftwareBitmap</a> wrapper. Access to the underlying Media Foundation buffer is not restricted.</div>
 <div> </div>
 
 ### -param minDisplayAperture [in, optional]

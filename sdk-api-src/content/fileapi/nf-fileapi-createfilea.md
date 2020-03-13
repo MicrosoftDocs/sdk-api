@@ -74,11 +74,11 @@ To perform this operation as a transacted operation, which results in a handle t
 
 ### -param lpFileName [in]
 
-The name of the file or device to be created or opened. You may use either forward slashes (/) or backslashes (\) in this name.
+The name of the file or device to be created or opened. You may use either forward slashes (/) or backslashes (\\) in this name.
 
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
+       "\\\\?\\" to the path. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
 For information on special device names, see 
@@ -593,7 +593,7 @@ For information about considerations when using a file handle created with this 
 <tr>
 <td width="40%"><a id="FILE_FLAG_POSIX_SEMANTICS"></a><a id="file_flag_posix_semantics"></a><dl>
 <dt><b>FILE_FLAG_POSIX_SEMANTICS</b></dt>
-<dt>0x0100000</dt>
+<dt>0x01000000</dt>
 </dl>
 </td>
 <td width="60%">
@@ -1070,7 +1070,7 @@ For more information, see
 Direct access to the disk or to a volume is restricted. For more information, see 
       "Changes to the file system and to the storage stack to restrict direct disk access and direct volume access in Windows Vista and in Windows Server 2008" 
       in the Help and Support Knowledge Base at 
-      <a href="https://go.microsoft.com/fwlink/p/?linkid=117121">http://support.microsoft.com/kb/942448</a>.
+      <a href="https://support.microsoft.com/kb/942448">http://support.microsoft.com/kb/942448</a>.
 
 <b>Windows Server 2003 and Windows XP:  </b>Direct access to the disk or to a volume is not restricted in this manner.
 

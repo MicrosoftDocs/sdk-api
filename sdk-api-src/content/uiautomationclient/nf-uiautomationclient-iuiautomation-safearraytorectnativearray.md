@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> containing rectangle coordinates to an array of type <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>. 
+Converts a <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> containing rectangle coordinates to an array of type <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Converts a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY<
 
 ### -param rects [in]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 
 A pointer to an array containing rectangle coordinates.
 
