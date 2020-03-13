@@ -192,7 +192,7 @@ For an example that uses
 
 
 
-[OpenMutex](/windows/win32/api/synchapi/nf-synchapi-openmutexw)a>
+[OpenMutex](/windows/win32/api/synchapi/nf-synchapi-openmutexw)
 
 
 
