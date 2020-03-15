@@ -51,7 +51,7 @@ Retrieves information about the physical disk's geometry: type, number of cylind
 > [!NOTE]
 > **IOCTL_DISK_GET_DRIVE_GEOMETRY** has been superseded by [IOCTL_DISK_GET_DRIVE_GEOMETRY_EX IOCTL](ni-winioctl-ioctl_disk_get_drive_geometry_ex.md), which retrieves additional information.
 
-To perform this operation, call the [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
+To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
 
 ```cpp
 BOOL DeviceIoControl(
@@ -68,31 +68,56 @@ BOOL DeviceIoControl(
 
 ## -parameters
 
+### -param hDevice [in]
+
+A handle to the disk.
+
+To retrieve a device handle, call the [**CreateFile**](../fileapi/nf-fileapi-createfilew.md) function.
+
+### -param dwIoControlCode [in]
+
+The control code for the operation.
+
+Use **IOCTL_DISK_GET_DRIVE_GEOMETRY** for this operation.
+
 ### -param lpInBuffer [in, optional]
 
-None
+Not used with this operation. Set to **NULL**.
 
 ### -param nInBufferSize [in]
 
-None
-
+The size of the input buffer, in bytes. Set to 0 (zero).
 
 ### -param lpOutBuffer [out, optional]
 
-A pointer to the output buffer that is to receive the [DISK_GEOMETRY](https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-disk_geometry) data returned by the operation.
+A pointer to the output buffer that is to receive the [**DISK_GEOMETRY**](ns-winioctl-disk_geometry.md) data returned by the operation.
 
 ### -param nOutBufferSize [in]
 
-The size of the output buffer, in bytes. It must be >= **sizeof**(DISK_GEOMETRY)
+The size of the output buffer, in bytes. It must be >= **sizeof**(DISK_GEOMETRY).
+
+### -param lpBytesReturned [out, optional]
+
+A pointer to a variable that receives the size of the data stored in the output buffer, in bytes.
+
+### -param lpOverlapped [in, out, optional]
+
+A pointer to an [**OVERLAPPED**](../minwinbase/ns-minwinbase-overlapped.md) structure.
+
+## -returns
+
+If the operation completes successfully, the return value is nonzero.
+
+If the operation fails or is pending, the return value is zero. To get extended error information, call [**GetLastError**](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
 ## -see-also
 
-[DISK_GEOMETRY](https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-disk_geometry)
+[DISK_GEOMETRY](ns-winioctl-disk_geometry.md)
 
-[DeviceIoControl](https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol)
+[DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 
-[Disk Management Control Codes](https://docs.microsoft.com/windows/win32/FileIO/disk-management-control-codes)
+[Disk Management Control Codes](/windows/win32/FileIO/disk-management-control-codes)
 
-[IOCTL_DISK_GET_DRIVE_GEOMETRY_EX](https://docs.microsoft.com/windows/win32/api/winioctl/ni-winioctl-ioctl_disk_get_drive_geometry_ex)
+[IOCTL_DISK_GET_DRIVE_GEOMETRY_EX](ni-winioctl-ioctl_disk_get_drive_geometry_ex.md)
 
-[IOCTL_STORAGE_GET_MEDIA_TYPES](https://docs.microsoft.com/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_get_media_types)
+[IOCTL_STORAGE_GET_MEDIA_TYPES](ni-winioctl-ioctl_storage_get_media_types.md)
