@@ -101,7 +101,7 @@ One of the parameters was invalid. This error is returned if the <i>MaskLength</
 
 
 
-The <b>ConvertLengthToIpv4Mask</b> function is available on Windows Vistaand later.
+The <b>ConvertLengthToIpv4Mask</b> function is available on Windows Vista and later.
 
 
 
