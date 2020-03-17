@@ -63,7 +63,7 @@ The
 A descriptor identifying an unbound socket.
 
 
-#### - name [in]
+### -param name [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure of the local address to assign to the bound socket .
 

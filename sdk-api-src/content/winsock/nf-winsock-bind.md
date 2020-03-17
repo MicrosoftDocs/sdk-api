@@ -65,17 +65,13 @@ A descriptor identifying an unbound socket.
 
 ### -param addr
 
-TBD
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure of the local address to assign to the bound socket .
 
 
 ### -param namelen [in]
 
 The length, in bytes, of the value pointed to by the <i>name</i> parameter.
 
-
-#### - name [in]
-
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure of the local address to assign to the bound socket .
 
 
 ## -returns
