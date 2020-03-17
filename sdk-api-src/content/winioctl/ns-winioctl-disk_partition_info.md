@@ -82,6 +82,4 @@ If **PartitionStyle** is **PARTITION_STYLE_GPT** (1), the union is a structure t
 
 ## -see-also
 
-[DISK_GEOMETRY_EX](ns-winioctl-disk_geometry_ex.md)
-
-[PARTITION_STYLE](ne-winioctl-partition_style.md)
+[DISK_GEOMETRY_EX](ns-winioctl-disk_geometry_ex.md), [PARTITION_STYLE](ne-winioctl-partition_style.md)
