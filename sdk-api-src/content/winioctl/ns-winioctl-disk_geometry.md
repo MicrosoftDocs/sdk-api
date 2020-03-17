@@ -72,8 +72,4 @@ The number of bytes per sector.
 
 ## -see-also
 
-[IOCTL_DISK_GET_DRIVE_GEOMETRY](ni-winioctl-ioctl_disk_get_drive_geometry.md)
-
-[IOCTL_STORAGE_GET_MEDIA_TYPES](ni-winioctl-ioctl_storage_get_media_types.md)
-
-[MEDIA_TYPE](ne-winioctl-media_type.md)
+[IOCTL_DISK_GET_DRIVE_GEOMETRY](ni-winioctl-ioctl_disk_get_drive_geometry.md), [IOCTL_STORAGE_GET_MEDIA_TYPES](ni-winioctl-ioctl_storage_get_media_types.md), [MEDIA_TYPE](ne-winioctl-media_type.md)
