@@ -44,75 +44,42 @@ req.redist:
 
 # DISK_PARTITION_INFO structure
 
-
 ## -description
-
 
 Contains the disk partition information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SizeOfPartitionInfo
 
 The size of this structure, in bytes.
 
-
 ### -field PartitionStyle
 
 The format of a partition.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a>.
-
+For more information, see [PARTITION_STYLE](ne-winioctl-partition_style.md).
 
 ### -field DUMMYUNIONNAME
 
- 
-
-
 ### -field DUMMYUNIONNAME.Mbr
 
-If <b>PartitionStyle</b> is <b>PARTITION_STYLE_MBR</b> (0), the union 
-        is a structure that contains information for an master boot record partition, which includes a disk signature 
-        and a checksum.
-
+If **PartitionStyle** is **PARTITION_STYLE_MBR** (0), the union is a structure that contains information for an master boot record partition, which includes a disk signature and a checksum.
 
 ### -field DUMMYUNIONNAME.Mbr.Signature
 
 MBR signature of the partition.
 
-
 ### -field DUMMYUNIONNAME.Mbr.CheckSum
-
- 
-
 
 ### -field DUMMYUNIONNAME.Gpt
 
-If <b>PartitionStyle</b> is <b>PARTITION_STYLE_GPT</b> (1), the union 
-        is a structure that contains information for a <b>GUID</b> partition table partition, 
-        which includes a disk identifier (<b>GUID</b>).
-
+If **PartitionStyle** is **PARTITION_STYLE_GPT** (1), the union is a structure that contains information for a **GUID** partition table partition, which includes a disk identifier (**GUID**).
 
 ### -field DUMMYUNIONNAME.Gpt.DiskId
 
-<b>GUID</b> of the GPT partition.
-
+**GUID** of the GPT partition.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_geometry_ex">DISK_GEOMETRY_EX</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a>
- 
-
- 
-
+[DISK_GEOMETRY_EX](ns-winioctl-disk_geometry_ex.md), [PARTITION_STYLE](ne-winioctl-partition_style.md)

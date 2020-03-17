@@ -44,59 +44,32 @@ req.redist:
 
 # DISK_GEOMETRY structure
 
-
 ## -description
-
 
 Describes the geometry of disk devices and media.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Cylinders
 
-The number of cylinders. See <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>.
-
+The number of cylinders. See [**LARGE_INTEGER**](../winnt/ns-winnt-large_integer~r1.md).
 
 ### -field MediaType
 
-The type of media. For a list of values, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a>.
-
+The type of media. For a list of values, see [MEDIA_TYPE](ne-winioctl-media_type.md).
 
 ### -field TracksPerCylinder
 
 The number of tracks per cylinder.
 
-
 ### -field SectorsPerTrack
 
 The number of sectors per track.
-
 
 ### -field BytesPerSector
 
 The number of bytes per sector.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_geometry">IOCTL_DISK_GET_DRIVE_GEOMETRY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_media_types">IOCTL_STORAGE_GET_MEDIA_TYPES</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a>
- 
-
- 
-
+[IOCTL_DISK_GET_DRIVE_GEOMETRY](ni-winioctl-ioctl_disk_get_drive_geometry.md), [IOCTL_STORAGE_GET_MEDIA_TYPES](ni-winioctl-ioctl_storage_get_media_types.md), [MEDIA_TYPE](ne-winioctl-media_type.md)
