@@ -84,10 +84,4 @@ The information returned does not include the number of partitions nor the parti
 
 ## -see-also
 
-[DISK_GEOMETRY](ns-winioctl-disk_geometry.md)
-
-[DISK_DETECTION_INFO](ns-winioctl-disk_detection_info.md)
-
-[DISK_PARTITION_INFO](ns-winioctl-disk_partition_info.md)
-
-[IOCTL_DISK_GET_DRIVE_GEOMETRY_EX](ni-winioctl-ioctl_disk_get_drive_geometry_ex.md)
+[DISK_GEOMETRY](ns-winioctl-disk_geometry.md), [DISK_DETECTION_INFO](ns-winioctl-disk_detection_info.md), [DISK_PARTITION_INFO](ns-winioctl-disk_partition_info.md), [IOCTL_DISK_GET_DRIVE_GEOMETRY_EX](ni-winioctl-ioctl_disk_get_drive_geometry_ex.md)
