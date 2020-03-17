@@ -44,101 +44,44 @@ req.redist:
 
 # DISK_GEOMETRY_EX structure
 
-
 ## -description
-
 
 Describes the extended geometry of disk devices and media.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Geometry
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_geometry">DISK_GEOMETRY</a> structure.
-
+A [**DISK_GEOMETRY**](ns-winioctl-disk_geometry.md) structure.
 
 ### -field DiskSize
 
-The disk size, in bytes. See <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>.
-
+The disk size, in bytes. See [**LARGE_INTEGER**](../winnt/ns-winnt-large_integer~r1.md).
 
 ### -field Data
 
 Any additional data. For more information, see Remarks.
 
-
 ## -remarks
 
+**DISK_GEOMETRY_EX** is a variable-length structure composed of a [**DISK_GEOMETRY**](ns-winioctl-disk_geometry.md) structure followed by a [**DISK_PARTITION_INFO**](ns-winioctl-disk_partition_info.md) structure and a [**DISK_DETECTION_INFO**](ns-winioctl-disk_detection_info.md) structure. Because the detection information is not at a fixed location within the **DISK_GEOMETRY_EX** structure, use the following macro to access the **DISK_DETECTION_INFO** structure.
 
-
-<b>DISK_GEOMETRY_EX</b> is a variable-length structure 
-    composed of a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_geometry">DISK_GEOMETRY</a> structure followed by a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_partition_info">DISK_PARTITION_INFO</a> structure and a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_detection_info">DISK_DETECTION_INFO</a> structure. Because the 
-    detection information is not at a fixed location within the 
-    <b>DISK_GEOMETRY_EX</b> structure, use the following 
-    macro to access the <b>DISK_DETECTION_INFO</b> structure.
-
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+```cpp
 PDISK_DETECTION_INFO DiskGeometryGetDetect(
   PDISK_GEOMETRY_EX Geometry
-);</pre>
-</td>
-</tr>
-</table></span></div>
-Similarly, use the following macro to access the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_partition_info">DISK_PARTITION_INFO</a> structure.
+);
+```
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+Similarly, use the following macro to access the [**DISK_PARTITION_INFO**](ns-winioctl-disk_partition_info.md) structure.
+
+```cpp
 PDISK_PARTITION_INFO DiskGeometryGetPartition(
   PDISK_GEOMETRY_EX Geometry
-);</pre>
-</td>
-</tr>
-</table></span></div>
-The information returned does not include the number of partitions nor the partition information contained in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information">PARTITION_INFORMATION</a> structure. To obtain 
-    this information, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_layout_ex">IOCTL_DISK_GET_DRIVE_LAYOUT_EX</a> control code.
+);
+```
 
-
-
+The information returned does not include the number of partitions nor the partition information contained in the [**DISK_PARTITION_INFO**](ns-winioctl-disk_partition_info.md) structure. To obtain this information, use the [**IOCTL_DISK_GET_DRIVE_LAYOUT_EX**](ni-winioctl-ioctl_disk_get_drive_layout_ex.md) control code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_detection_info">DISK_DETECTION_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_geometry">DISK_GEOMETRY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_partition_info">DISK_PARTITION_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_geometry_ex">IOCTL_DISK_GET_DRIVE_GEOMETRY_EX</a>
- 
-
- 
-
+[DISK_GEOMETRY](ns-winioctl-disk_geometry.md), [DISK_DETECTION_INFO](ns-winioctl-disk_detection_info.md), [DISK_PARTITION_INFO](ns-winioctl-disk_partition_info.md), [IOCTL_DISK_GET_DRIVE_GEOMETRY_EX](ni-winioctl-ioctl_disk_get_drive_geometry_ex.md)
