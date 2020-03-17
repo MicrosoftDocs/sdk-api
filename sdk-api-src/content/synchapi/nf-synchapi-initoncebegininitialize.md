@@ -69,7 +69,7 @@ A pointer to the one-time initialization structure.
 
 ### -param dwFlags [in]
 
-This parameter can be one or more of the following flags.
+This parameter can have a value of 0, or one or more of the following flags.
 
 <table>
 <tr>
