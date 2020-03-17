@@ -109,12 +109,8 @@ A pointer to an [**OVERLAPPED**](../minwinbase/ns-minwinbase-overlapped.md) stru
 
 If the operation completes successfully, the return value is nonzero.
 
-If the operation fails or is pending, the return value is zero. To get extended error information, call [**GetLastError**](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
+If the operation fails, or is pending, the return value is zero. To get extended error information, call [**GetLastError**](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
 ## -see-also
 
-[DISK_GEOMETRY_EX](ns-winioctl-disk_geometry_ex.md)
-
-[DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-
-[Disk Management Control Codes](/windows/win32/FileIO/disk-management-control-codes)
+[DISK_GEOMETRY_EX](ns-winioctl-disk_geometry_ex.md), [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md), [Disk Management Control Codes](/windows/win32/FileIO/disk-management-control-codes)
