@@ -44,56 +44,29 @@ req.redist:
 
 # DRIVE_LAYOUT_INFORMATION structure
 
-
 ## -description
 
-
 Contains information about the partitions of a drive.
-<div class="alert"><b>Note</b>  <b>DRIVE_LAYOUT_INFORMATION</b> is superseded 
-    by the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-drive_layout_information_ex">DRIVE_LAYOUT_INFORMATION_EX</a> 
-    structure.</div><div> </div>
+
+> [!NOTE]
+> **DRIVE_LAYOUT_INFORMATION** is superseded [**DRIVE_LAYOUT_INFORMATION_EX**](ns-winioctl-drive_layout_information_ex.md) structure.
 
 ## -struct-fields
-
-
-
 
 ### -field PartitionCount
 
 The number of partitions on a drive.
 
-On disks with the MBR layout, this value is always a multiple of 4. Any partitions that are unused have a 
-       partition type of <b>PARTITION_ENTRY_UNUSED</b> (0).
-
+On disks with the MBR layout, this value is always a multiple of 4. Any partitions that are unused have a partition type of **PARTITION_ENTRY_UNUSED** (0).
 
 ### -field Signature
 
-The drive signature value. 
-     
-
+The drive signature value.
 
 ### -field PartitionEntry
 
-A variable-sized array of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information">PARTITION_INFORMATION</a> structures, one 
-      structure for each partition on a drive.
-
+A variable-sized array of [**PARTITION_INFORMATION**](ns-winioctl-partition_information.md) structures, one structure for each partition on a drive.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-drive_layout_information_ex">DRIVE_LAYOUT_INFORMATION_EX</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_layout">IOCTL_DISK_GET_DRIVE_LAYOUT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout">IOCTL_DISK_SET_DRIVE_LAYOUT</a>
- 
-
- 
-
+[DRIVE_LAYOUT_INFORMATION_EX](ns-winioctl-drive_layout_information_ex.md), [IOCTL_DISK_GET_DRIVE_LAYOUT](ni-winioctl-ioctl_disk_get_drive_layout.md), [IOCTL_DISK_SET_DRIVE_LAYOUT](ni-winioctl-ioctl_disk_set_drive_layout.md)
