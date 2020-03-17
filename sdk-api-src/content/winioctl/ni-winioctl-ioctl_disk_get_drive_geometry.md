@@ -112,12 +112,4 @@ If the operation fails or is pending, the return value is zero. To get extended 
 
 ## -see-also
 
-[DISK_GEOMETRY](ns-winioctl-disk_geometry.md)
-
-[DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-
-[Disk Management Control Codes](/windows/win32/FileIO/disk-management-control-codes)
-
-[IOCTL_DISK_GET_DRIVE_GEOMETRY_EX](ni-winioctl-ioctl_disk_get_drive_geometry_ex.md)
-
-[IOCTL_STORAGE_GET_MEDIA_TYPES](ni-winioctl-ioctl_storage_get_media_types.md)
+[DISK_GEOMETRY](ns-winioctl-disk_geometry.md), [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md), [Disk Management Control Codes](/windows/win32/FileIO/disk-management-control-codes), [IOCTL_DISK_GET_DRIVE_GEOMETRY_EX](ni-winioctl-ioctl_disk_get_drive_geometry_ex.md), [IOCTL_STORAGE_GET_MEDIA_TYPES](ni-winioctl-ioctl_storage_get_media_types.md)
