@@ -80,8 +80,4 @@ If **DetectionType** is DetectExInt13, the union is a [**DISK_EX_INT13_INFO**](n
 
 ## -see-also
 
-[DISK_EX_INT13_INFO](ns-winioctl-disk_ex_int13_info.md)
-
-[DISK_INT13_INFO](ns-winioctl-disk_int13_info.md)
-
-[DISK_GEOMETRY_EX](ns-winioctl-disk_geometry_ex.md)
+[DISK_EX_INT13_INFO](ns-winioctl-disk_ex_int13_info.md), [DISK_INT13_INFO](ns-winioctl-disk_int13_info.md), [DISK_GEOMETRY_EX](ns-winioctl-disk_geometry_ex.md)
