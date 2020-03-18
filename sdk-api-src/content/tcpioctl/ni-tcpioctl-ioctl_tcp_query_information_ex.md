@@ -61,8 +61,10 @@ To perform the <b>IOCTL_TCP_QUERY_INFORMATION_EX</b> operation, call the <a href
 ```cpp
 BOOL DeviceIoControl(
   (HANDLE) hDevice,                  // Open handle to the TCP driver
-  IOCTL_TCP_QUERY_INFORMATION_EX,    // dwIoControlCodeNULL,                              // lpInBuffer (the output buffer is used for input too)
-  0,                                 // nInBufferSize(LPVOID) lpOutBuffer,              // Pointer to the output buffer
+  IOCTL_TCP_QUERY_INFORMATION_EX,    // dwIoControlCode
+  NULL,                              // lpInBuffer (the output buffer is used for input too)
+  0,                                 // nInBufferSize
+  (LPVOID) lpOutBuffer,              // Pointer to the output buffer
   (DWORD) nOutBufferSize,            // Size of the output buffer
   (LPDWORD) lpBytesReturned,         // Number of bytes returned (if called synchronously)
   (LPOVERLAPPED) lpOverlapped        // OVERLAPPED structure (if called asynchronously)
