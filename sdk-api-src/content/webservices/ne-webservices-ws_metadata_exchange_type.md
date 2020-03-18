@@ -1,7 +1,7 @@
 ---
 UID: NE:webservices.__unnamed_enum_93
 title: WS_METADATA_EXCHANGE_TYPE (webservices.h)
-description: WS_METADATA_EXCHANGE_TYPE enumeration
+description: Information about enabling and disabling types of metadata exchange.
 old-location: wsw\ws_metadata_exchange_type.htm
 tech.root: wsw
 ms.assetid: 35e66c77-db26-4806-9b56-51539b23bb61
@@ -43,11 +43,9 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WS_METADATA_EXCHANGE_TYPE enumeration
-
-
 ## -description
 
+Information about enabling and disabling types of metadata exchange.
 
 
 
