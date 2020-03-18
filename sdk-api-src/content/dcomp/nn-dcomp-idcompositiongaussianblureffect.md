@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionGaussianBlurEffect
 title: IDCompositionGaussianBlurEffect (dcomp.h)
-description: .
+description: The Gaussian blur effect is used to blur an image by a Gaussian function, typically to reduce image noise and reduce detail.
 old-location: directcomp\idcompositiongaussianblureffect.htm
 tech.root: directcomp
 ms.assetid: CFE79B69-75EC-4E22-BC3E-C82601AE1213
@@ -43,57 +43,14 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDCompositionGaussianBlurEffect interface
-
-
 ## -description
 
-
-
-
+The Gaussian blur effect is used to blur an image by a Gaussian function, typically to reduce image noise and reduce detail.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionGaussianBlurEffect</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>. <b>IDCompositionGaussianBlurEffect</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDCompositionGaussianBlurEffect</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiongaussianblureffect-setbordermode">SetBorderMode</a>
-</td>
-<td align="left" width="63%">
-Sets the mode used to calculate the border of the image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setstandarddeviation">SetStandardDeviation</a>
-</td>
-<td align="left" width="63%">Overloaded. Sets the amount of blur to be applied to the image.
-
-</td>
-</tr>
-</table> 
-
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionGaussianBlurEffect</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>
- 
-
- 
-

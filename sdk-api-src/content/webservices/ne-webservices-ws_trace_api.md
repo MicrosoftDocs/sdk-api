@@ -1,7 +1,7 @@
 ---
 UID: NE:webservices.__unnamed_enum_99
 title: WS_TRACE_API (webservices.h)
-description: WS_TRACE_API enumeration
+description: WS_TRACE_API enumeration.
 old-location: wsw\ws_trace_api.htm
 tech.root: wsw
 ms.assetid: a82ef7b6-7e92-465c-953f-64d50ab91593
@@ -43,17 +43,11 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WS_TRACE_API enumeration
-
-
 ## -description
 
-
-
+WS_TRACE_API enumeration.
 
 ## -enum-fields
-
-
 
 
 ### -field WS_TRACE_API_NONE

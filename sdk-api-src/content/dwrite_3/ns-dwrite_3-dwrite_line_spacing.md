@@ -1,7 +1,7 @@
 ---
 UID: NS:dwrite_3.DWRITE_LINE_SPACING
 title: DWRITE_LINE_SPACING (dwrite_3.h)
-description: .
+description: Sets the vertical spacing between lines of text.
 old-location: directwrite\dwrite_line_spacing.htm
 tech.root: DirectWrite
 ms.assetid: bb589a7a-374f-52fc-2fa4-4cc72c6ce6dc
@@ -43,19 +43,11 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# DWRITE_LINE_SPACING structure
-
-
 ## -description
 
-
-
-
+Sets the vertical spacing between lines of text.
 
 ## -struct-fields
-
-
-
 
 ### -field method
 
@@ -63,13 +55,11 @@ Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_line_spacing_method
 
 Method used to determine line spacing.
 
-
 ### -field height
 
 Type: <b>FLOAT</b>
 
 Spacing between lines. The interpretation of this parameter depends upon the line spacing method, as follows:
-       
 
 <ul>
 <li>Line spacing: ignored</li>
@@ -84,7 +74,6 @@ Type: <b>FLOAT</b>
 
 Distance from top of line to baseline. 
        The interpretation of this parameter depends upon the line spacing method, as follows:
-       
 
 <ul>
 <li>default line spacing: ignored</li>
@@ -102,10 +91,8 @@ Proportion of the entire leading distributed before the line. The allowed value 
      The leading that is available to distribute before or after the line depends on the values of the height and
      baseline parameters.
 
-
 ### -field fontLineGapUsage
 
 Type: <b><a href="/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_line_gap_usage">DWRITE_FONT_LINE_GAP_USAGE</a></b>
 
 Specify whether <a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_font_metrics">DWRITE_FONT_METRICS</a>::lineGap value should be part of the line metrics.
-
