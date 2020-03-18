@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICPixelFormatInfo2.GetNumericRepresentation
 title: IWICPixelFormatInfo2::GetNumericRepresentation (wincodec.h)
-description: IWICPixelFormatInfo2::GetNumericRepresentation method
+description: TBD
 old-location: wic\_wic_codec_iwicpixelformatinfo2_getnumericrepresentation.htm
 tech.root: wic
 ms.assetid: b987e5b9-33a4-485f-9c7a-1fcb907b5424
@@ -43,44 +43,24 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IWICPixelFormatInfo2::GetNumericRepresentation
-
-
 ## -description
 
-
-
+Retrieves the <a href="/windows/win32/api/wincodec/ne-wincodec-wicpixelformatnumericrepresentation">WICPixelFormatNumericRepresentation</a> of the pixel format.
 
 ## -parameters
 
-
-
-
 ### -param pNumericRepresentation [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicpixelformatnumericrepresentation">WICPixelFormatNumericRepresentation</a>*</b>
+Type: <b><a href="/windows/win32/api/wincodec/ne-wincodec-wicpixelformatnumericrepresentation">WICPixelFormatNumericRepresentation</a>*</b>
 
-Returns the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicpixelformatnumericrepresentation">WICPixelFormatNumericRepresentation</a> of the pixel format.
-
+The address of a <a href="/windows/win32/api/wincodec/ne-wincodec-wicpixelformatnumericrepresentation">WICPixelFormatNumericRepresentation</a> variable that you've defined. On successful completion, the function sets your variable to the **WICPixelFormatNumericRepresentation** of the pixel format.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpixelformatinfo2">IWICPixelFormatInfo2</a>
- 
-
- 
-
+<a href="/windows/win32/api/wincodec/nn-wincodec-iwicpixelformatinfo2">IWICPixelFormatInfo2</a>

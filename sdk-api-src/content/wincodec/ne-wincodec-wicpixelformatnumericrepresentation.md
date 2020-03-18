@@ -1,7 +1,7 @@
 ---
 UID: NE:wincodec.WICPixelFormatNumericRepresentation
 title: WICPixelFormatNumericRepresentation (wincodec.h)
-description: WICPixelFormatNumericRepresentation enumeration
+description: Defines constants that specify a primitive type for numeric representation of a WIC pixel format.
 old-location: wic\_wic_codec_wicpixelformatnumericrepresentation.htm
 tech.root: wic
 ms.assetid: 10f32ac9-4b0d-4d21-b54a-657513fbd142
@@ -43,38 +43,36 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WICPixelFormatNumericRepresentation enumeration
-
-
 ## -description
 
-
-
+Defines constants that specify a primitive type for numeric representation of a WIC pixel format.
 
 ## -enum-fields
 
-
-
-
 ### -field WICPixelFormatNumericRepresentationUnspecified
 
+The format is not specified.
 
 ### -field WICPixelFormatNumericRepresentationIndexed
 
+Specifies that the format is indexed.
 
 ### -field WICPixelFormatNumericRepresentationUnsignedInteger
 
+Specifies that the format is represented as an unsigned integer.
 
 ### -field WICPixelFormatNumericRepresentationSignedInteger
 
+Specifies that the format is represented as a signed integer.
 
 ### -field WICPixelFormatNumericRepresentationFixed
 
+Specifies that the format is represented as a fixed-point number.
 
 ### -field WICPixelFormatNumericRepresentationFloat
 
+Specifies that the format is represented as a floating-point number.
 
 ### -field WICPixelFormatNumericRepresentation_FORCE_DWORD
 
-
-
+This constant contains the maximum **DWORD** value.
