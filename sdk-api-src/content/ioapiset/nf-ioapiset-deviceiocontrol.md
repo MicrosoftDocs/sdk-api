@@ -146,7 +146,7 @@ For lists of supported control codes, see the following topics:
 
 ### Examples
 
-For an example that uses **DeviceIoControl**, see Calling DeviceIoControl(/windows/win32/DevIO/calling-deviceiocontrol).
+For an example that uses **DeviceIoControl**, see [Calling DeviceIoControl](/windows/win32/DevIO/calling-deviceiocontrol).
 
 ## -see-also
 
