@@ -69,7 +69,7 @@ Retrieves information about the global cursor.
 
 Type: <b>PCURSORINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/menurc/o">CURSORINFO</a> structure that receives the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(CURSORINFO)</code> before calling this function. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-cursorinfo">CURSORINFO</a> structure that receives the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(CURSORINFO)</code> before calling this function. 
 
 
 ## -returns
@@ -90,7 +90,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/o">CURSORINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-cursorinfo">CURSORINFO</a>
 
 
 
