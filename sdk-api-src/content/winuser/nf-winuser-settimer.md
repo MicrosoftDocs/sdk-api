@@ -102,8 +102,7 @@ A pointer to the function to be notified when the time-out value elapses. For mo
 
 
 
-Type: <strong>Type: <b>UINT_PTR</b>
-</strong>
+Type: <b>UINT_PTR</b>
 
 If the function succeeds and the <i>hWnd</i> parameter is <b>NULL</b>, the return value is an integer identifying the new timer. An application can pass this value to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-killtimer">KillTimer</a> function to destroy the timer.
 
