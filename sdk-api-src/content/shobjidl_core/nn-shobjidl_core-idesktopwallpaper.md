@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
+Provides methods for managing the desktop wallpaper.
 
 
 

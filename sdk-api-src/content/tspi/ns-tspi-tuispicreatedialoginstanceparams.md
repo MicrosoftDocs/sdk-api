@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
+Defines parameters for TAPI dialog operations.
 
 
 ## -struct-fields

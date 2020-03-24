@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
+Exposed methods to handle file sync operations between a local copy and a server copy of a file.
 
 
 
@@ -71,13 +71,13 @@ The <b>IFileSyncMergeHandler</b> interface has these methods.
 <td align="left" width="37%">
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifilesyncmergehandler-merge">Merge</a>
 </td>
-<td align="left" width="63%"></td>
+<td align="left" width="63%">Merges changes between the local copy and server copy of a file.</td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifilesyncmergehandler-showresolveconflictuiasync">ShowResolveConflictUIAsync</a>
 </td>
-<td align="left" width="63%"></td>
+<td align="left" width="63%">Displays a UI to resolve conflicts between the local copy and server copy of a file.</td>
 </tr>
 </table> 
 

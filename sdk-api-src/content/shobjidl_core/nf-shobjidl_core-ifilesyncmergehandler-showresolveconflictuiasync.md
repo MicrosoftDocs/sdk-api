@@ -48,6 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
+Displays a UI to resolve conflicts between the local copy and server copy of a file.
 
 
 
@@ -60,27 +61,15 @@ ms.custom: 19H1
 
 Type: <b>LPCWSTR</b>
 
+The path of the file with the merge conflict.
+
 
 ### -param monitorToDisplayOn [in]
 
 Type: <b>HMONITOR</b>
 
+Indicates the monitor on which to display the UI.
 
-#### - updateStatus [out]
-
-Type: <b>MERGE_UPDATE_STATUS*</b>
-
-
-
-#### MUS_COMPLETE
-
-
-
-#### MUS_USERINPUTNEEDED
-
-
-
-#### MUS_FAILED
 
 
 ## -returns

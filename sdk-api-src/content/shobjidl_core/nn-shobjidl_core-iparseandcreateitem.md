@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
+When the **STR_PARSE_AND_CREATE_ITEM** [binding context](/windows/win32/shell/str-constants) is specified, this interface gets or sets the stored Shell items that [SHCreateItemFromParsingName](/windows/win32/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromparsingname) creates from a parsing name.
 
 
 ## -inheritance
@@ -70,13 +70,13 @@ The <b>IParseAndCreateItem</b> interface has these methods.
 <td align="left" width="37%">
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iparseandcreateitem-getitem">GetItem</a>
 </td>
-<td align="left" width="63%"></td>
+<td align="left" width="63%">Gets a stored Shell item that [SHCreateItemFromParsingName](/windows/win32/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromparsingname) created from a parsing name.</td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iparseandcreateitem-setitem">SetItem</a>
 </td>
-<td align="left" width="63%"></td>
+<td align="left" width="63%">Sets a Shell item that [SHCreateItemFromParsingName](/windows/win32/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromparsingname) created from a parsing name.</td>
 </tr>
 </table> 
 

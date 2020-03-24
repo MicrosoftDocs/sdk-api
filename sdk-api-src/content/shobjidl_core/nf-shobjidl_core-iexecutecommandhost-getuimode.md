@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommandHost.GetUIMode
 title: IExecuteCommandHost::GetUIMode (shobjidl_core.h)
-description: .
+description: Enables an IExplorerCommand-based Shell verb handler to query the UI mode of the host component from which the application was invoked..
 old-location: shell\IExecuteCommandHost_GetUIMode.htm
 tech.root: shell
 ms.assetid: 12132ffd-64a5-4104-8590-8eabfbc8268f
@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
+Enables an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand">IExplorerCommand</a>-based Shell verb handler to query the UI mode of the host component from which the application was invoked.
 
 
 
@@ -59,18 +59,19 @@ ms.custom: 19H1
 
 ### -param pUIMode [out]
 
-
+Type: <b>EC_HOST_UI_MODE*</b>
 
 #### ECHUIM_DESKTOP (0)
 
-
+The application is running in the desktop environment.
 
 #### ECHUIM_IMMERSIVE (1)
 
-
+The application is running in the immersive environment.
 
 #### ECHUIM_SYSTEM_LAUNCHER (2)
 
+The application is running in the system launcher environment.
 
 ## -returns
 

@@ -48,9 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
+Enables a client of Shell item activation (including callers of [ShellExecuteEx](/windows/win32/api/shellapi/nf-shellapi-shellexecuteexw) and [IContextMenu::InvokeCommand](/windows/win32/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand)) to be given a chance to veto or perform some action before the activation of verb handlers.
 
 ## -inheritance
 
@@ -71,13 +69,17 @@ The <b>IHandlerActivationHost</b> interface has these methods.
 <td align="left" width="37%">
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ihandleractivationhost-beforecocreateinstance">BeforeCoCreateInstance</a>
 </td>
-<td align="left" width="63%"></td>
+<td align="left" width="63%">Notifies a client of <a href="/windows/win32/api/shellapi/nf-shellapi-shellexecuteexw">ShellExecuteEx</a> that a handler is about to be created, giving that client the opportunity to display UI confirming the use of that handler or reject it by returning a specific error code.</td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ihandleractivationhost-beforecreateprocess">BeforeCreateProcess</a>
 </td>
-<td align="left" width="63%"></td>
+<td align="left" width="63%">Notifies a client of <a href="/windows/win32/api/shellapi/nf-shellapi-shellexecuteexw">ShellExecuteEx</a> that a process is about to created, giving that client the opportunity to display UI confirming that or reject it by returning a specific error code.</td>
 </tr>
 </table> 
+
+## -remarks
+
+This interface is implemented by an object reachable through the site chain provided to [ShellExecuteEx](/windows/win32/api/shellapi/nf-shellapi-shellexecuteexw) or the context menu handler. Applications will return this object in their **IServiceProvider::QueryService** implementation when asked for the service ID **SID_SHandlerActivationHost**.
 

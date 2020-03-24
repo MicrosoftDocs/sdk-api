@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
+Represents the state of a Windows app package.
 
 
 
@@ -59,15 +59,27 @@ ms.custom: 19H1
 
 ### -field PES_UNKNOWN
 
+The package is in an unknown state.
 
 ### -field PES_RUNNING
+
+The package is running.
 
 
 ### -field PES_SUSPENDING
 
+The package is being suspended.
 
 ### -field PES_SUSPENDED
 
+The package is suspended.
 
 ### -field PES_TERMINATED
 
+The package was terminated.
+
+## -see-also
+
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-getpackageexecutionstate">IPackageIPackageDebugSettings::GetPackageExecutionState</a>
+
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackageexecutionstatechangenotification-onstatechanged">IPackageExecutionStateChangeNotification::OnStateChanged</a>

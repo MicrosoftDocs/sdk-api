@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
+Provides a method for retrieving the target monitor for the application being launched.
 
 
 
