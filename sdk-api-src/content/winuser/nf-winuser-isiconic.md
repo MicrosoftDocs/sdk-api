@@ -73,8 +73,7 @@ A handle to the window to be tested.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the window is iconic, the return value is nonzero.
 
