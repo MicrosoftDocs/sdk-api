@@ -148,7 +148,7 @@ An internal error has occurred.
 A dynamic <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a> is one that was activated by setting the <i>type</i> parameter to the  <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstream-activatespatialaudioobject">ActivateSpatialAudioObject</a> method to <b>AudioObjectType_Dynamic</b>. The system has a limit of the maximum number of dynamic spatial audio objects that can be activated at one time. Call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on an <b>ISpatialAudioObject</b>  when it is no longer being used to free up the resource to create new dynamic spatial audio objects.
 
 
-
+You should not call this method after streaming has started, as the value is already provided by [ISpatialAudioObjectRenderStreamBase::BeginUpdatingAudioObjects](/windows/win32/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-beginupdatingaudioobjects). This method should only be called before streaming has started, which occurs after [ISpatialAudioObjectRenderStreamBase::Start](/windows/win32/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-start) is called.
 
 ## -see-also
 
