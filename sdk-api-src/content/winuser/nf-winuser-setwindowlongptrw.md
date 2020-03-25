@@ -216,8 +216,7 @@ The replacement value.
 
 
 
-Type: <strong>Type: <b>LONG_PTR</b>
-</strong>
+Type: <b>LONG_PTR</b>
 
 If the function succeeds, the return value is the previous value of the specified offset.
 

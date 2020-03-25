@@ -64,8 +64,7 @@ The <b>Pen::GetDashOffset</b> method gets the distance from the start of the lin
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns a real number that indicates the distance from the start of the line to the start of the dashes.
 

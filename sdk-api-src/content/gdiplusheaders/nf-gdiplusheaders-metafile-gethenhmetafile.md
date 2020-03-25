@@ -64,8 +64,7 @@ The <b>Metafile::GetHENHMETAFILE</b> method gets a Windows handle to an Enhanced
 
 
 
-Type: <strong>Type: <b>HENHMETAFILE</b>
-</strong>
+Type: <b>HENHMETAFILE</b>
 
 This method returns a 
 

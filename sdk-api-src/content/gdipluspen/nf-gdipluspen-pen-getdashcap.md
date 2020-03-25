@@ -65,8 +65,7 @@ The <b>Pen::GetDashCap</b> method gets the dash cap style currently set for this
 
 
 
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-dashcap">DashCap</a></b>
-</strong>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-dashcap">DashCap</a></b>
 
 This method returns an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-dashcap">DashCap</a> enumeration that indicates the dash cap style currently set for this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.

@@ -71,8 +71,7 @@ Retrieves the message time for the last message retrieved by the <a href="https:
 
 
 
-Type: <strong>Type: <b>LONG</b>
-</strong>
+Type: <b>LONG</b>
 
 The return value specifies the message time.
 

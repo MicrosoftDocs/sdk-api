@@ -94,8 +94,7 @@ A handle to the data to be copied to the property list. The data handle can iden
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the data handle and string are added to the property list, the return value is nonzero.
 

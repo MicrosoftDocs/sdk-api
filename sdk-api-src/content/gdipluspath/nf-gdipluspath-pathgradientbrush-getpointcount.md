@@ -64,8 +64,7 @@ The <b>PathGradientBrush::GetPointCount</b> method gets the number of points in 
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the number of points in the array of points that defines this brush's boundary path.
 

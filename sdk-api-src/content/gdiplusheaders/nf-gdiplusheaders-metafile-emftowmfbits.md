@@ -99,8 +99,7 @@ Optional. Element of the <a href="https://docs.microsoft.com/windows/desktop/api
 
 
 
-Type: <strong>Type: <b>UINT</b>
-</strong>
+Type: <b>UINT</b>
 
 If the method succeeds and the buffer pointer is <b>NULL</b>, the return value is the number of bytes required to store the converted records. If the method succeeds and the buffer pointer is a valid pointer, the return value is the size of the metafile data in bytes. If the method fails, the return value is zero.
 

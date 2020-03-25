@@ -65,8 +65,7 @@ The <b>Image::GetPaletteSize</b> method gets the size, in bytes, of the color pa
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the size, in bytes, of the color palette of this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.

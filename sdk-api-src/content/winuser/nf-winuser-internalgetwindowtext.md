@@ -99,8 +99,7 @@ The maximum number of characters to be copied to the buffer,
 
 
 
-Type: <strong>Type: <b>int</b>
-</strong>
+Type: <b>int</b>
 
 If the function succeeds, the return value is the length, in characters,
 				of the copied string, not including the terminating null character.

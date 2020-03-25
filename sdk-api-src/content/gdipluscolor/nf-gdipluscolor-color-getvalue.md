@@ -64,8 +64,7 @@ The <b>Color::GetValue</b> method gets the <b>ARGB</b> value of this <a href="ht
 
 
 
-Type: <strong>Type: <b>ARGB</b>
-</strong>
+Type: <b>ARGB</b>
 
 This method returns a 32-bit <b>ARGB</b> value that holds the alpha, red, green, and blue components of this color. <b>ARGB</b> is defined in Gdipluspixelformats.h.
 

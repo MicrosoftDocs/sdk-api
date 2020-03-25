@@ -185,8 +185,7 @@ An application-defined value.
 
 
 
-Type: <strong>Type: <b>HWND</b>
-</strong>
+Type: <b>HWND</b>
 
 If the function succeeds, the return value is the handle to the created window.
 

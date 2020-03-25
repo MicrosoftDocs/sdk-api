@@ -79,8 +79,7 @@ The message to be registered.
 
 
 
-Type: <strong>Type: <b>UINT</b>
-</strong>
+Type: <b>UINT</b>
 
 If the message is successfully registered, the return value is a message identifier in the range 0xC000 through 0xFFFF.
 

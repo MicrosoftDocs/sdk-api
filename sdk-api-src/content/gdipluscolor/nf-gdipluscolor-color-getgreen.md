@@ -64,8 +64,7 @@ The <b>Color::GetGreen</b> method gets the green component of this <a href="http
 
 
 
-Type: <strong>Type: <b>BYTE</b>
-</strong>
+Type: <b>BYTE</b>
 
 This method returns the green component of this color.
 

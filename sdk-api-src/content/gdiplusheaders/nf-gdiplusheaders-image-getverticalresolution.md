@@ -64,8 +64,7 @@ The <b>Image::GetVerticalResolution</b> method gets the vertical resolution, in 
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns the vertical resolution, in dots per inch, of this image.
 

@@ -64,8 +64,7 @@ The <b>Image::GetHeight</b> method gets the image height, in pixels, of this ima
 
 
 
-Type: <strong>Type: <b>UINT</b>
-</strong>
+Type: <b>UINT</b>
 
 This method returns the height, in pixels, of this image.
 

@@ -78,8 +78,7 @@ A handle to the window that should be activated and brought to the foreground.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the window was brought to the foreground, the return value is nonzero.
                     

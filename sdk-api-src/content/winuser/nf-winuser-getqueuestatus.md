@@ -241,8 +241,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER<
 
 
 
-Type: <strong>Type: <b>DWORD</b>
-</strong>
+Type: <b>DWORD</b>
 
 The high-order word of the return value indicates the types of messages currently in the queue. The low-order word indicates the types of messages that have been added to the queue and that are still in the queue since the last call to the <b>GetQueueStatus</b>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> function. 
 

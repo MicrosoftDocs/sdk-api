@@ -70,8 +70,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constant-
 
 
 
-Type: <strong>Type: <b>UINT</b>
-</strong>
+Type: <b>UINT</b>
 
 This method returns the number of bits per pixel used by the specified pixel format.
 

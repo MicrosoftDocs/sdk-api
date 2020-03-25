@@ -73,8 +73,7 @@ The initial number of windows for which to store position information. The <a hr
 
 
 
-Type: <strong>Type: <b>HDWP</b>
-</strong>
+Type: <b>HDWP</b>
 
 If the function succeeds, the return value identifies the multiple-window-position structure. If insufficient system resources are available to allocate the structure, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 

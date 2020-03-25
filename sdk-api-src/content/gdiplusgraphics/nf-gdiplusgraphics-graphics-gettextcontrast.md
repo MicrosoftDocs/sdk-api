@@ -65,8 +65,7 @@ The <b>Graphics::GetTextContrast</b> method gets the contrast value currently se
 
 
 
-Type: <strong>Type: <b>UINT</b>
-</strong>
+Type: <b>UINT</b>
 
 This method returns the contrast value.
 

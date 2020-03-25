@@ -279,8 +279,7 @@ A pointer to a structure that specifies the pop-up window position.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. 
 				To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 

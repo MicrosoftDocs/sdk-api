@@ -65,8 +65,7 @@ The <b>Image::GetFrameDimensionsCount</b> method gets the number of frame dimens
 
 
 
-Type: <strong>Type: <b>UINT</b>
-</strong>
+Type: <b>UINT</b>
 
 This method returns the number of frame dimensions in this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.

@@ -64,8 +64,7 @@ The <b>AdjustableArrowCap::GetHeight</b> method gets the height of the arrow cap
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns the height of the arrow cap.
 

@@ -67,8 +67,7 @@ Determines whether the current process is dots per inch (dpi) aware such that it
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 <b>TRUE</b> if the process is dpi aware; otherwise, <b>FALSE</b>.
 

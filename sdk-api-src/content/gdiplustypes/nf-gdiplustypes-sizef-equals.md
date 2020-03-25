@@ -72,8 +72,7 @@ Reference to a
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the 
 						<b>Width</b> and 

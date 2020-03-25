@@ -70,8 +70,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constant-
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the pixel format uses 16 bits per color channel, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

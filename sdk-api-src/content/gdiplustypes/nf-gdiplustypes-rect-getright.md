@@ -64,8 +64,7 @@ The <b>Rect::GetRight</b> method gets the x-coordinate of the right edge of the 
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the x-coordinate of the right edge of the rectangle.
 

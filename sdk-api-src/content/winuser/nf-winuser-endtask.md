@@ -89,8 +89,7 @@ A <b>TRUE</b> for this parameter will force the destruction of the
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 

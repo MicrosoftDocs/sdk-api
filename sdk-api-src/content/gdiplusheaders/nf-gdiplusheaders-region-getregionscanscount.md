@@ -69,8 +69,7 @@ Pointer to a matrix that is used to transform the region.
 
 
 
-Type: <strong>Type: <b>UINT</b>
-</strong>
+Type: <b>UINT</b>
 
 This method returns an integer that indicates the number of rectangles that approximate this region.
 

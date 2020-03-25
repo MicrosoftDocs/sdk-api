@@ -64,8 +64,7 @@ The <b>Rect::GetBottom</b> method gets the y-coordinate of the bottom edge of th
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the y-coordinate of the bottom edge of the rectangle.
 

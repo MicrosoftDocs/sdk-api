@@ -77,8 +77,7 @@ A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT
 
 
 
-Type: <strong>Type: <b>HWND</b>
-</strong>
+Type: <b>HWND</b>
 
 The return value is a handle to the child window that contains the specified point. 
 

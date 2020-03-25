@@ -83,8 +83,7 @@ Unit of measure for the container.
 
 
 
-Type: <strong>Type: <b>GraphicsContainer</b>
-</strong>
+Type: <b>GraphicsContainer</b>
 
 This method returns a value that identifies the container.
 

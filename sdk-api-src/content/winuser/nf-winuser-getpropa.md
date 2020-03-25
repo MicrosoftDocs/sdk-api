@@ -87,8 +87,7 @@ An atom that identifies a string. If this parameter is an atom, it must have bee
 
 
 
-Type: <strong>Type: <b>HANDLE</b>
-</strong>
+Type: <b>HANDLE</b>
 
 If the property list contains the string, the return value is the associated data handle. Otherwise, the return value is <b>NULL</b>. 
 

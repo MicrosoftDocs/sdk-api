@@ -328,8 +328,7 @@ Displays the window.
 
 
 
-Type: <strong>Type: <b>HDWP</b>
-</strong>
+Type: <b>HDWP</b>
 
 The return value identifies the updated multiple-window 
 						– position structure. The handle returned by this function may differ from the handle passed to the function. The new handle that this function returns should be passed during the next call to the <b>DeferWindowPos</b> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a> function. 

@@ -65,8 +65,7 @@ The <b>LinearGradientBrush::GetGammaCorrection</b> method determines whether gam
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If gamma correction is enabled, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

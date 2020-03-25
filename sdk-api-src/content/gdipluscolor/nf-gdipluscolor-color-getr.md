@@ -64,8 +64,7 @@ The <b>Color::GetR</b> method gets the red component of this <a href="https://do
 
 
 
-Type: <strong>Type: <b>BYTE</b>
-</strong>
+Type: <b>BYTE</b>
 
 This method returns the red component of this color.
 

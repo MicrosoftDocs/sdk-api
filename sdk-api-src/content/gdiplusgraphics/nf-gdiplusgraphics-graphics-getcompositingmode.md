@@ -65,8 +65,7 @@ The <b>Graphics::GetCompositingMode</b> method gets the compositing mode current
 
 
 
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-compositingmode">CompositingMode</a></b>
-</strong>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-compositingmode">CompositingMode</a></b>
 
 This method returns an element of the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-compositingmode">CompositingMode</a> enumeration that indicates the compositing mode currently set for this 

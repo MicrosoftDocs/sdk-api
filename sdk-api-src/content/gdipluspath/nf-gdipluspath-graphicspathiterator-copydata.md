@@ -90,8 +90,7 @@ Integer that specifies the ending index of the points and types to be copied.
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the number of points copied. This is the same as the number of types copied.
 

@@ -93,8 +93,7 @@ The window name (the window's title). If this parameter is <b>NULL</b>, all wind
 
 
 
-Type: <strong>Type: <b>HWND</b>
-</strong>
+Type: <b>HWND</b>
 
 If the function succeeds, the return value is a handle to the window that has the specified class name and window name.
 

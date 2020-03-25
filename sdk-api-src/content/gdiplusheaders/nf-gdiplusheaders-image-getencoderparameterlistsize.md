@@ -70,8 +70,7 @@ Pointer to a
 
 
 
-Type: <strong>Type: <b>UINT</b>
-</strong>
+Type: <b>UINT</b>
 
 This method returns the size, in bytes, of the parameter list.
 

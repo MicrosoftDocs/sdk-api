@@ -64,8 +64,7 @@ The <b>PathGradientBrush::GetGammaCorrection</b> method determines whether gamma
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If gamma correction is enabled, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. 
 

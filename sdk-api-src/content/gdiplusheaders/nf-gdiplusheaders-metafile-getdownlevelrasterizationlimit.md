@@ -64,8 +64,7 @@ Gets the rasterization limit currently set for this metafile. The rasterization 
 
 
 
-Type: <strong>Type: <b>UINT</b>
-</strong>
+Type: <b>UINT</b>
 
 This method returns the rasterization limit in dpi.
 

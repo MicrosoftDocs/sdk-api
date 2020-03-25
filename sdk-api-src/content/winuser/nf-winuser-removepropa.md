@@ -87,8 +87,7 @@ A null-terminated character string or an atom that identifies a string. If this 
 
 
 
-Type: <strong>Type: <b>HANDLE</b>
-</strong>
+Type: <b>HANDLE</b>
 
 The return value identifies the specified data. If the data cannot be found in the specified property list, the return value is <b>NULL</b>.
 

@@ -65,8 +65,7 @@ The <b>Font::IsAvailable</b> method determines whether this
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the font was constructed successfully, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

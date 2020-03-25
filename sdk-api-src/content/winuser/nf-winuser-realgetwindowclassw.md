@@ -87,8 +87,7 @@ The length, in characters, of the buffer pointed to by the <i>pszType</i> parame
 
 
 
-Type: <strong>Type: <b>UINT</b>
-</strong>
+Type: <b>UINT</b>
 
 If the function succeeds, the return value is the number of characters copied to the specified buffer. 
 

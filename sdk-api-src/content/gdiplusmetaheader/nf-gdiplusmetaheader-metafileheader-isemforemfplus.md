@@ -64,8 +64,7 @@ The <b>MetafileHeader::IsEmfOrEmfPlus</b> method determines whether the associat
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the associated metafile is in the EMF or EMF+ format, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. In particular, this method returns <b>FALSE</b> if the associated metafile is in the WMF format.
 

@@ -64,8 +64,7 @@ The <b>Color::GetAlpha</b> method gets the alpha component of this <a href="http
 
 
 
-Type: <strong>Type: <b>BYTE</b>
-</strong>
+Type: <b>BYTE</b>
 
 This method returns the alpha component of this color.
 

@@ -75,8 +75,7 @@ To determine the current position of the cursor, use the <a href="https://docs.m
 
 
 
-Type: <strong>Type: <b>DWORD</b>
-</strong>
+Type: <b>DWORD</b>
 
 The return value specifies the x- and y-coordinates of the cursor position. The x-coordinate is the low order <b>short</b> and the y-coordinate is the high-order <b>short</b>.
 

@@ -83,8 +83,7 @@ Pointer to an <b>INT</b> that receives the ending index of the group of points.
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the number of data points in the group. If there are no more groups in the path, this method returns 0.
 

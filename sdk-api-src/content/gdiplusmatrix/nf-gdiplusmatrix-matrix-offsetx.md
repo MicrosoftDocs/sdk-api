@@ -64,8 +64,7 @@ The <b>Matrix::OffsetX</b> method gets the horizontal translation value of this 
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns the horizontal translation value of this matrix, which is the element in row 3, column 1.
 

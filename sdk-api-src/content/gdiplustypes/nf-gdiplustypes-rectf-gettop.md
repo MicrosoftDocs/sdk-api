@@ -64,8 +64,7 @@ The <b>RectF::GetTop</b> method gets the y-coordinate of the top edge of the rec
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns the y-coordinate of the top edge of the rectangle.
 

@@ -164,8 +164,7 @@ If an application calls <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 
-Type: <strong>Type: <b>HWND</b>
-</strong>
+Type: <b>HWND</b>
 
 If the function succeeds, the return value is a handle to the new window.
 

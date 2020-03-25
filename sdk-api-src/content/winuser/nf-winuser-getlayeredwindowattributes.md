@@ -123,8 +123,7 @@ Use <i>pcrKey</i> as the transparency color.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 

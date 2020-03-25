@@ -72,8 +72,7 @@ Retrieves a handle to the Shell's desktop window.
 
 
 
-Type: <strong>Type: <b>HWND</b>
-</strong>
+Type: <b>HWND</b>
 
 The return value is the handle of the Shell's desktop window. If no Shell process is present, the return value is <b>NULL</b>.
 

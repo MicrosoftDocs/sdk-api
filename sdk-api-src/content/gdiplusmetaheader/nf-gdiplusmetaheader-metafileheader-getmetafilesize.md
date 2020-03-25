@@ -64,8 +64,7 @@ The <b>MetafileHeader::GetMetafileSize</b> method gets the size, in bytes, of th
 
 
 
-Type: <strong>Type: <b>UINT</b>
-</strong>
+Type: <b>UINT</b>
 
 This method returns a <b>UINT</b> that specifies the size, in bytes, of the metafile.
 

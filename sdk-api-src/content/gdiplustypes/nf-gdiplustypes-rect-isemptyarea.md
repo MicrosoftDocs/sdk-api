@@ -64,8 +64,7 @@ The <b>Rect::IsEmptyArea</b> method determines whether this rectangle is empty.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the rectangle is empty, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

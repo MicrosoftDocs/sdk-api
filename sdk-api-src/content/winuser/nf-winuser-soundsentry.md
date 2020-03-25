@@ -68,8 +68,7 @@ Triggers a visual signal to indicate that a sound is playing.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 This function returns one of the following values.
 

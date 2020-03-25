@@ -98,8 +98,7 @@ The length
 
 
 
-Type: <strong>Type: <b>int</b>
-</strong>
+Type: <b>int</b>
 
 If the function succeeds, the return value is the number of 
 						characters copied to the buffer, not including the terminating null character.

@@ -68,8 +68,7 @@ Retrieves the extra message information for the current thread. Extra message in
 
 
 
-Type: <strong>Type: <b>LPARAM</b>
-</strong>
+Type: <b>LPARAM</b>
 
 The return value specifies the extra information. The meaning of the extra information is device specific.
 

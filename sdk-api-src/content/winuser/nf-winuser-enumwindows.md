@@ -85,8 +85,7 @@ An application-defined value to be passed to the callback function.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 

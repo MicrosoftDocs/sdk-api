@@ -64,8 +64,7 @@ The <b>RectF::GetBottom</b> method gets the y-coordinate of the bottom edge of t
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns the y-coordinate of the bottom edge of the rectangle.
 

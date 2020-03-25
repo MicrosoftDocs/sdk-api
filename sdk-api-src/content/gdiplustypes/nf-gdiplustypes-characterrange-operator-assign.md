@@ -69,8 +69,7 @@ Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusty
 
 
 
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a></b>
-</strong>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a></b>
 
 This method returns a reference to this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a> object to allow cascaded assignments.
 

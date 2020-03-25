@@ -64,8 +64,7 @@ The <b>Color::GetBlue</b> method gets the blue component of this <a href="https:
 
 
 
-Type: <strong>Type: <b>BYTE</b>
-</strong>
+Type: <b>BYTE</b>
 
 This method returns the blue component of this color.
 
