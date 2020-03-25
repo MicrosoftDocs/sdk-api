@@ -45,12 +45,9 @@ ms.custom: 19H1
 
 # IInkRecognizers interface
 
-
 ## -description
 
-
-
-
+Represents a collection of IInkRecognizer objects having the ability to create a recognizer context, retrieve its attributes and properties, and determine which packet properties the recognizer needs to perform recognition.
 
 ## -inheritance
 
@@ -112,3 +109,6 @@ Gets the number of objects or collections contained in a collection.
 </tr>
 </table> 
 
+## -see-also
+
+[InkRecognizers collection](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms702438(v=vs.85))

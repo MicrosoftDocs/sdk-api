@@ -45,12 +45,9 @@ ms.custom: 19H1
 
 # IInkDisp interface
 
-
 ## -description
 
-
-
-
+Represents the collected strokes of ink within an ink space.
 
 ## -inheritance
 
@@ -351,3 +348,6 @@ Gets the collection of strokes that are contained in an object or used to create
 </tr>
 </table> 
 
+## -see-also
+
+[InkDisp class](https://docs.microsoft.com/windows/win32/tablet/inkdisp-class)

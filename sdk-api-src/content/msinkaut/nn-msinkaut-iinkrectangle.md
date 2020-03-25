@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Represents an ink rectangle.
 
 
 ## -inheritance
@@ -176,3 +175,6 @@ Gets or sets the top position of the <a href="https://docs.microsoft.com/windows
 </tr>
 </table> 
 
+## -see-also
+
+[InkRectangle class](https://docs.microsoft.com/windows/win32/tablet/inkrectangle-class)

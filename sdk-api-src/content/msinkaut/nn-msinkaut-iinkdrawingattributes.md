@@ -45,12 +45,9 @@ ms.custom: 19H1
 
 # IInkDrawingAttributes interface
 
-
 ## -description
 
-
-
-
+Represents the attributes applied to ink when drawn.
 
 ## -inheritance
 
@@ -248,3 +245,6 @@ Gets or sets the y-axis dimension, or width, of the pen tip when drawing ink.
 </tr>
 </table> 
 
+## -see-also
+
+[InkDrawingAttributes class](https://docs.microsoft.com/windows/win32/tablet/inkdrawingattributes-class)

@@ -45,12 +45,9 @@ ms.custom: 19H1
 
 # IInkCollector interface
 
-
 ## -description
 
-
-
-
+Represents the object used to capture ink from available tablet devices.
 
 ## -inheritance
 
@@ -587,3 +584,10 @@ Gets either the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut
 </tr>
 </table> 
 
+## -remarks
+
+Creating the InkCollector control behind a transparent control (such as a GroupBox with the WS_EX_TRANSPARENT property set) will prevent InkCollector from collecting ink.
+
+## -see-also
+
+[InkCollector class](https://docs.microsoft.com/windows/win32/tablet/inkcollector-class)
