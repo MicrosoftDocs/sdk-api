@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
+Groups the specified child process with the parent process. This method is no longer supported on Windows 10, version 1809, and later versions.
 
 
 ## -parameters
@@ -60,6 +60,7 @@ ms.custom: 19H1
 
 Type: <b>HANDLE</b>
 
+The child process to group with the parent process.
 
 ## -returns
 

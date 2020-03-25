@@ -48,6 +48,8 @@ ms.custom: 19H1
 
 ## -description
 
+Selects or edits the specified item in the menu.
+
 
 
 
@@ -69,13 +71,13 @@ Type: <b>NMCSAEI_FLAGS</b>
 
 #### NMCSAEI_SELECT (0x0000)
 
-0x0000.
+0x0000. Select the item.
 
 
 
 #### NMCSAEI_EDIT (0x0001)
 
-0x0001.
+0x0001. Edit the item.
 
 
 ## -returns

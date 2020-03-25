@@ -45,17 +45,17 @@ ms.custom: 19H1
 
 # IHandlerActivationHost::BeforeCoCreateInstance
 ## -description
-This notifies a client of ShellExecuteEx that a handler is about to be created, giving that client the opportunity to display UI confirming the use of that handler or reject it by returning a specific error code.
+Notifies a client of [ShellExecuteEx](/windows/win32/api/shellapi/nf-shellapi-shellexecuteexw) that a handler is about to be created, giving that client the opportunity to display UI confirming the use of that handler or reject it by returning a specific error code.
 
 ## -parameters
 ### -param clsidHandler [in]
 Identifies the handler.
 
 ### -param itemsBeingActivated [in]
-The shell item objects that will be passed to the handler. Typically there is only one but in some cases there can be more than one.
+The Shell item objects that will be passed to the handler. Typically there is only one, but in some cases there can be more than one.
 
 ### -param handlerInfo [in]
-Provides access to information about the hanlder that will be invoked. This object also supports IHandlerInfo2 on versions of windows that implement that.
+Provides access to information about the handler that will be invoked. This object also supports **IHandlerInfo2** on versions of Windows that support that interface.
 
 ## -returns
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. 

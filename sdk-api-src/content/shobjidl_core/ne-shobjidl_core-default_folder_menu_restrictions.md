@@ -48,69 +48,62 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Defines shortcut menu restrictions used by [IDefaultFolderMenuInitialize::GetMenuRestrictions](nf-shobjidl_core-idefaultfoldermenuinitialize-getmenurestrictions.md) and [IDefaultFolderMenuInitialize::SetMenuRestrictions](nf-shobjidl_core-idefaultfoldermenuinitialize-setmenurestrictions.md).
 
 
 ## -enum-fields
 
-
-
-
 ### -field DFMR_DEFAULT
 
-Default. 0x0000. No restrictions.
+0x0000. No restrictions.
 
 
 ### -field DFMR_NO_STATIC_VERBS
 
-0x0008.
+0x0008. Don't use the handler for static verbs.
 
 
 ### -field DFMR_STATIC_VERBS_ONLY
 
-0x0010.
+0x0010. Static verbs only. No dynamic **IContextMenu** verbs allowed.
 
 
 ### -field DFMR_NO_RESOURCE_VERBS
 
-0x0020.
+0x0020. Don't add verbs for cut, copy, paste, link, delete, rename, or properties.
 
 
 ### -field DFMR_OPTIN_HANDLERS_ONLY
 
-0x0040.
+0x0040. Only load opt-in handlers that have the registry value "ContextMenuOptIn" under HKCR\CLSID\<handler clsid>
 
 
 ### -field DFMR_RESOURCE_AND_FOLDER_VERBS_ONLY
 
-0x0080.
+0x0080. Only load resource verbs (cut, copy, paste, link, delete, rename, and properties) and folder verbs added by [IContextMenuCB](nn-shobjidl_core-icontextmenucb.md).
 
 
 ### -field DFMR_USE_SPECIFIED_HANDLERS
 
-0x0100.
+0x0100. Use handlers with CLSID values that were added through [IDefaultFolderMenuInitialize::SetHandlerClsid](nf-shobjidl_core-idefaultfoldermenuinitialize-sethandlerclsid.md)
 
 
 ### -field DFMR_USE_SPECIFIED_VERBS
 
-0x0200.
+0x0200. Only load handlers that support the specified verbs.
 
 
 ### -field DFMR_NO_ASYNC_VERBS
 
-0x0400.
+0x0400. Ignore async verbs.
 
 
 ### -field DFMR_NO_NATIVECPU_VERBS
 
-
+0x0800. Ignore verbs that are registered for the native CPU architecture.
 
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultfoldermenuinitialize-getmenurestrictions">IDefaultFolderMenuInitialize::GetMenuRestrictions</a>
 

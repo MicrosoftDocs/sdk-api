@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Sets the shortcut menu handler for the [IDefaultFolderMenuInitialize](nn-shobjidl_core-idefaultfoldermenuinitialize.md) object.
 
 
 ## -parameters
@@ -58,6 +57,10 @@ ms.custom: 19H1
 
 
 ### -param rclsid [in]
+
+Type: <b>REFCLSID</b>
+
+The CLSID for the object defines the shortcut menu handler.
 
 
 ## -returns

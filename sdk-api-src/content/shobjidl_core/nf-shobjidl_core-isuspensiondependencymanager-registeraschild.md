@@ -48,6 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
+Registers the specified process as a child. This method is no longer supported on Windows 10, version 1809, and later versions.
 
 
 
@@ -59,6 +60,8 @@ ms.custom: 19H1
 ### -param processHandle [in]
 
 Type: <b>HANDLE</b>
+
+The process to be registered as a child.
 
 
 ## -returns

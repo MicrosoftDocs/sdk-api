@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Sets shortcut menu restrictions for the [IDefaultFolderMenuInitialize](nn-shobjidl_core-idefaultfoldermenuinitialize.md) object.
 
 
 ## -parameters
@@ -59,6 +58,7 @@ ms.custom: 19H1
 
 ### -param dfmrValues [in]
 
+A bitwise combination of the [DEFAULT_FOLDER_MENU_RESTRICTIONS](ne-shobjidl_core-default_folder_menu_restrictions.md) values that specify the restrictions to set.
 
 ## -returns
 

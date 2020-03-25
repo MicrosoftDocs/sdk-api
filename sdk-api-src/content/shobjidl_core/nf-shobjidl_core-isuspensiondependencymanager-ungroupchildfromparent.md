@@ -48,6 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
+Ungroups the specified child process from the parent process. This method is no longer supported on Windows 10, version 1809, and later versions.
 
 
 
@@ -60,6 +61,7 @@ ms.custom: 19H1
 
 Type: <b>HANDLE</b>
 
+The child process to ungroup from the parent.
 
 ## -returns
 

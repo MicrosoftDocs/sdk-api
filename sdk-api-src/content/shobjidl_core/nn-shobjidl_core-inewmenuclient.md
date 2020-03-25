@@ -80,7 +80,7 @@ Allows the view to filter the items shown in the menu.
 <td align="left" width="37%">
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inewmenuclient-selectandedititem">SelectAndEditItem</a>
 </td>
-<td align="left" width="63%"></td>
+<td align="left" width="63%">Selects or edits the specified item in the menu.</td>
 </tr>
 </table> 
 

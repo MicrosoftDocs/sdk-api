@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
+Exposes methods to manage dependencies in process suspension scenarios. This interface is no longer supported on Windows 10, version 1809, and later versions.
 
 
 
@@ -71,29 +71,21 @@ The <b>ISuspensionDependencyManager</b> interface has these methods.
 <td align="left" width="37%">
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isuspensiondependencymanager-groupchildwithparent">GroupChildWithParent</a>
 </td>
-<td align="left" width="63%"></td>
+<td align="left" width="63%">Groups the specified child process with the parent process.</td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isuspensiondependencymanager-registeraschild">RegisterAsChild</a>
 </td>
-<td align="left" width="63%"></td>
+<td align="left" width="63%">Registers the specified process as a child.</td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isuspensiondependencymanager-ungroupchildfromparent">UngroupChildFromParent</a>
 </td>
-<td align="left" width="63%"></td>
+<td align="left" width="63%">Ungroups the specified child process from the parent process.</td>
 </tr>
 </table> 
-
-
-## -remarks
-
-
-
-<h3><a id="When_to_implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to implement</h3>
- --&gt;
 
 
 

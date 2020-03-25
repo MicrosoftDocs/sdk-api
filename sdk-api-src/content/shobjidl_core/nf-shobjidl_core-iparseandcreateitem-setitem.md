@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
+Sets a Shell item that [SHCreateItemFromParsingName](/windows/win32/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromparsingname) created from a parsing name.
 
 
 ## -parameters

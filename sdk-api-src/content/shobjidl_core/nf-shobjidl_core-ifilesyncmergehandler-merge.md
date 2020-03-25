@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
+Merges changes between the local copy and server copy of a file.
 
 
 ## -parameters

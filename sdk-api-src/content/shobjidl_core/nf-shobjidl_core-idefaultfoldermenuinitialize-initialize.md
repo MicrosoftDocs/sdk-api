@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
+Sets context menu info for the [IDefaultFolderMenuInitialize](nn-shobjidl_core-idefaultfoldermenuinitialize.md) object. 
 
 
 
@@ -59,30 +59,56 @@ ms.custom: 19H1
 
 ### -param hwnd [in]
 
+A handle to the shortcut menu.
 
 ### -param pcmcb [in, optional]
 
+Type: <b><a href="nn-shobjidl_core-icontextmenucb.md">IContextMenuCB</a>*</b>
+
+The address of the object that defines the callback for the shortcut menu.
 
 ### -param pidlFolder [in, optional]
 
+Type: **PCIDLIST_ABSOLUTE**
+
+The address of an item identifier list that specifies the folder of the items. If NULL, this is computed from the *psf* parameter.
 
 ### -param psf [in, optional]
 
+Type: <b><a href="nn-shobjidl_core-ishellfolder.md">IShellFolder</a>*</b>
+
+The folder of the items.
 
 ### -param cidl [in]
 
+Type: <b>UINT</b>
+
+The count of items in the *apidl* parameter.
 
 ### -param apidl [in]
 
+Type: <b>PCUITEMID_CHILD_ARRAY</b>
+
+A pointer to an array of PIDL structures, each of which is an item to be operated on.
 
 ### -param punkAssociation [in, optional]
 
+Type: <b>IUnknown*</b>
+
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> object that specifies where to load extensions from.
 
 ### -param cKeys [in]
+
+Type: <b>UINT</b>
+
+The count of items in the *aKeys* parameter. May be zero.
 
 
 ### -param aKeys [in, optional]
 
+Type: <b>const HKEY*</b>
+
+Specifies where to load extensions from.
 
 ## -returns
 
