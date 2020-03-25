@@ -51,6 +51,7 @@ ms.custom: 19H1
 
 This API is used for closing the handle returned by  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationgetenterpriseidasync">NetworkIsolationGetEnterpriseIdAsync</a> as well as for synchronizing the operation.
 
+Example of NetworkIsolationGetEnterpriseIdClose usage: https://github.com/microsoft/EnterpriseStateClassify
 
 ## -parameters
 
