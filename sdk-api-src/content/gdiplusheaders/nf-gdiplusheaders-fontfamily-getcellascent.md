@@ -69,8 +69,7 @@ Integer that specifies the style of the typeface. This value must be an element 
 
 
 
-Type: <strong>Type: <b>UINT16</b>
-</strong>
+Type: <b>UINT16</b>
 
 This method returns the cell ascent, in design units, of this font family for the specified style or style combination.
 

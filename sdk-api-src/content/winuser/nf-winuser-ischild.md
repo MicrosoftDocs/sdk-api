@@ -85,8 +85,7 @@ A handle to the window to be tested.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the window is a child or descendant window of the specified parent window, the return value is nonzero.
 

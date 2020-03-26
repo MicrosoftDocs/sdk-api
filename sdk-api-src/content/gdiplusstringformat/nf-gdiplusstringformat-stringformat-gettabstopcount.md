@@ -65,8 +65,7 @@ The <b>StringFormat::GetTabStopCount</b> method gets the number of tab-stop offs
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns an integer that indicates the number of tab stops in this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object.

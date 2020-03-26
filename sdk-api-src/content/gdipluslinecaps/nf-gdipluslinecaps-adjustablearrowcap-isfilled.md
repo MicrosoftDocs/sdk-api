@@ -64,8 +64,7 @@ The <b>AdjustableArrowCap::IsFilled</b> method determines whether the arrow cap 
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the arrow cap is filled, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. 
 

@@ -66,8 +66,7 @@ The <b>Font::GetSize</b> method returns the font size (commonly called the em si
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 The method returns the font size. The size is in the units of this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object.

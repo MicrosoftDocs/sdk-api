@@ -65,8 +65,7 @@ ms.custom: 19H1
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero. Otherwise, the return value is zero.
 

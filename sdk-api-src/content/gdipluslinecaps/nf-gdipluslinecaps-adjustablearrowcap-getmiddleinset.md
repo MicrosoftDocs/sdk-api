@@ -64,8 +64,7 @@ The <b>AdjustableArrowCap::GetMiddleInset</b> method gets the value of the inset
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns the inset value.
 

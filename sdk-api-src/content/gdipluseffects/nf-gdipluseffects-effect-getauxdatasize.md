@@ -64,8 +64,7 @@ The <b>Effect::GetAuxDataSize</b> method gets the size, in bytes, of the auxilia
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the size, in bytes, of the auxiliary data.
 

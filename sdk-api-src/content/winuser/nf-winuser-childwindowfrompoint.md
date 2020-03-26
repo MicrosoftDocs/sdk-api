@@ -87,8 +87,7 @@ A structure that defines the client
 
 
 
-Type: <strong>Type: <b>HWND</b>
-</strong>
+Type: <b>HWND</b>
 
 The return value is a handle to the child window that contains the point, 
 				even if the child window is hidden or disabled. If the point lies outside the 

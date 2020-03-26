@@ -71,8 +71,7 @@ The value to be associated with the current thread.
 
 
 
-Type: <strong>Type: <b>LPARAM</b>
-</strong>
+Type: <b>LPARAM</b>
 
 The return value is the previous value associated with the current thread.
 

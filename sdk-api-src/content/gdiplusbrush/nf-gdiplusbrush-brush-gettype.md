@@ -64,8 +64,7 @@ The <b>Brush::GetType</b> method gets the type of this brush.
 
 
 
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-brushtype">BrushType</a></b>
-</strong>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-brushtype">BrushType</a></b>
 
 This method returns the type of this brush. The value returned is one of the elements of the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-brushtype">BrushType</a> enumeration.

@@ -65,8 +65,7 @@ The <b>Pen::GetWidth</b> method gets the width currently set for this
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns a real number that indicates the width of this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.

@@ -65,8 +65,7 @@ The <b>StringFormat::GetMeasurableCharacterRangeCount</b> method gets the number
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns an integer that indicates the number of character ranges that can be measured by <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurecharacterranges">MeasureCharacterRanges</a>.
 

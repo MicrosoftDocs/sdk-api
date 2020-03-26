@@ -106,8 +106,7 @@ Additional message-specific information.
 
 
 
-Type: <strong>Type: <b>LRESULT</b>
-</strong>
+Type: <b>LRESULT</b>
 
 The return value specifies the result of the message processing; it depends on the message sent.
 

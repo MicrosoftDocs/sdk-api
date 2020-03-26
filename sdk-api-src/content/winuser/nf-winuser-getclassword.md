@@ -96,8 +96,7 @@ Retrieves an <b>ATOM</b> value that uniquely identifies the window class. This i
 
 
 
-Type: <strong>Type: <b>WORD</b>
-</strong>
+Type: <b>WORD</b>
 
 If the function succeeds, the return value is the requested 16-bit value.
 

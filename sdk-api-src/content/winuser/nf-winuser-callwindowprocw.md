@@ -103,8 +103,7 @@ Additional message-specific information. The contents of this parameter depend o
 
 
 
-Type: <strong>Type: <b>LRESULT</b>
-</strong>
+Type: <b>LRESULT</b>
 
 The return value specifies the result of the message processing and depends on the message sent. 
 

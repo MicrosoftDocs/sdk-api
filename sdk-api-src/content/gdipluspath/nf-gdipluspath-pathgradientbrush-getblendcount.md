@@ -64,8 +64,7 @@ The <b>PathGradientBrush::GetBlendCount</b> method gets the number of blend fact
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the number of blend factors currently set for this path gradient brush.
 

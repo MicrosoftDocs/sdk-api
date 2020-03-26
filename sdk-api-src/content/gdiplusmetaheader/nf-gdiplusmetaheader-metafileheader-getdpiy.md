@@ -64,8 +64,7 @@ The <b>MetafileHeader::GetDpiY</b> method gets the vertical dots per inch of the
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns a real number that specifies the vertical dots per inch of the associated metafile.
 

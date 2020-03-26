@@ -75,8 +75,7 @@ A handle to the hook to be removed. This parameter is a hook handle obtained by 
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 

@@ -69,8 +69,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the number of data points in the retrieved section. If there are no more marker-delimited sections to retrieve, this method returns 0.
 

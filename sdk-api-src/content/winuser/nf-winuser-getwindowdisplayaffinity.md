@@ -80,8 +80,7 @@ The display affinity setting.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 This function succeeds only when the window is layered and Desktop Windows Manager 
 				is composing the desktop. If this function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. 

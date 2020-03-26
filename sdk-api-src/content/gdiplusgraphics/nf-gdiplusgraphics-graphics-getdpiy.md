@@ -65,8 +65,7 @@ The <b>Graphics::GetDpiY</b> method gets the vertical resolution, in dots per in
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns the vertical resolution, in dots per inch, of the display device associated with this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.

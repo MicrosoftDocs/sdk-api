@@ -68,8 +68,7 @@ A handle to the parent window.
 
 
 
-Type: <strong>Type: <b>UINT</b>
-</strong>
+Type: <b>UINT</b>
 
 If the function succeeds, the return value is the height of one row of icons. 
 

@@ -65,8 +65,7 @@ The <b>Graphics::GetPixelOffsetMode</b> method gets the pixel offset mode curren
 
 
 
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-pixeloffsetmode">PixelOffsetMode</a></b>
-</strong>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-pixeloffsetmode">PixelOffsetMode</a></b>
 
 This method returns an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-pixeloffsetmode">PixelOffsetMode</a> enumeration that indicates the pixel offset mode currently set for this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.

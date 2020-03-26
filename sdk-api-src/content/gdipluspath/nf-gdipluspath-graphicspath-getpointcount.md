@@ -64,8 +64,7 @@ The <b>GraphicsPath::GetPointCount</b> method gets the number of points in this 
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the number of points in the path's array of data points.
 

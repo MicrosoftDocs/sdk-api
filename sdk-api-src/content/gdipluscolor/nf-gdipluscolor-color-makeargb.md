@@ -90,8 +90,7 @@ Byte that specifies the blue component.
 
 
 
-Type: <strong>Type: <b>static</b>
-</strong>
+Type: <b>static</b>
 
 This method returns an <b>ARGB</b> value that holds the specified alpha, red, green, and blue components.
 

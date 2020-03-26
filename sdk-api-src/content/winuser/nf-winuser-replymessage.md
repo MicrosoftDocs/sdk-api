@@ -70,8 +70,7 @@ The result of the message processing. The possible values are based on the messa
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the calling thread was processing a message sent from another thread or process, the return value is nonzero.
 

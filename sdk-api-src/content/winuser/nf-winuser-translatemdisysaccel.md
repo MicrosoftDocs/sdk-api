@@ -75,8 +75,7 @@ A pointer to a message retrieved by using the <a href="https://docs.microsoft.co
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the message is translated into a system command, the return value is nonzero.
 

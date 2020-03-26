@@ -33,7 +33,7 @@
     "windows.applicationmodel.core.h",
     "windows.applicationmodel.h",
     "windows.data.pdf.interop.h",
-    "Windows.Devices.Display.Core.Interop.h",
+    "windows.devices.display.core.interop.h",
     "windows.foundation.collections.h",
     "windows.foundation.h",
     "windows.foundation.idl",

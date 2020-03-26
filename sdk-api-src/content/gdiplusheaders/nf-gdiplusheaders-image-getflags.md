@@ -65,8 +65,7 @@ The <b>Image::GetFlags</b> method gets a set of flags that indicate certain attr
 
 
 
-Type: <strong>Type: <b>UINT</b>
-</strong>
+Type: <b>UINT</b>
 
 This method returns a value that holds a set of single-bit flags. The flags are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimaging/ne-gdiplusimaging-imageflags">ImageFlags</a> enumeration.
 

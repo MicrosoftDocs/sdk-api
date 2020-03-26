@@ -65,8 +65,7 @@ The <b>Image::GetPixelFormat</b> method gets the pixel format of this
 
 
 
-Type: <strong>Type: <b>PixelFormat</b>
-</strong>
+Type: <b>PixelFormat</b>
 
 This method returns an integer that indicates the pixel format of this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object. The 

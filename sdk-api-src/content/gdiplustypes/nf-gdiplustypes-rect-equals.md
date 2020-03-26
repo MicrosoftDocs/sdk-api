@@ -69,8 +69,7 @@ Reference to a rectangle to compare to this rectangle.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the rectangles are the same, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

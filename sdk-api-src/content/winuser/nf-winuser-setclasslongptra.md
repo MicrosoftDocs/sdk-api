@@ -206,8 +206,7 @@ The replacement value.
 
 
 
-Type: <strong>Type: <b>ULONG_PTR</b>
-</strong>
+Type: <b>ULONG_PTR</b>
 
 If the function succeeds, the return value is the previous value of the specified offset. If this was not previously set, the return value is zero. 
 

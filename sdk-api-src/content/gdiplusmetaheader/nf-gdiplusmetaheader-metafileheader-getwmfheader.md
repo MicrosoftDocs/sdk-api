@@ -64,8 +64,7 @@ The <b>MetafileHeader::GetWmfHeader</b> method gets a <a href="https://docs.micr
 
 
 
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-metaheader">METAHEADER</a>*</b>
-</strong>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-metaheader">METAHEADER</a>*</b>
 
 If the associated metafile is in the WMF format, this method returns a pointer to a structure that contains properties of the associated metafile. If the associated metafile is in the EMF or EMF+ format, this method returns <b>NULL</b>. The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-metaheader">METAHEADER</a> structure is defined in Wingdi.h.
 

@@ -64,8 +64,7 @@ The <b>Matrix::IsInvertible</b> method determines whether this matrix is inverti
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If this matrix is invertible, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

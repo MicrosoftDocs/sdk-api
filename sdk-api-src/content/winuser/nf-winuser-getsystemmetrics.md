@@ -1266,8 +1266,7 @@ The coordinates for the top of the virtual screen. The virtual screen is the bou
 
 
 
-Type: <strong>Type: <b>int</b>
-</strong>
+Type: <b>int</b>
 
 If the function succeeds, the return value is the requested system metric or configuration setting.
 

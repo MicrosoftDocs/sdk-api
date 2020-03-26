@@ -64,8 +64,7 @@ The <b>FontFamily::IsAvailable</b> method determines whether this <a href="https
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object was created successfully, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

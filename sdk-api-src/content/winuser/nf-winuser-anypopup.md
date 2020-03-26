@@ -65,8 +65,7 @@ This function is provided only for compatibility with 16-bit versions of Windows
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If a pop-up window exists, the return value is nonzero, even if the pop-up window is completely covered by other windows.
 

@@ -64,8 +64,7 @@ The <b>Image::GetHorizontalResolution</b> method gets the horizontal resolution,
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns the horizontal resolution, in dots per inch, of this image.
 

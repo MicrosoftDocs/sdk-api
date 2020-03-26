@@ -64,8 +64,7 @@ The <b>GraphicsPathIterator::HasCurve</b> method determines whether the path has
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the path has at least one curve, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

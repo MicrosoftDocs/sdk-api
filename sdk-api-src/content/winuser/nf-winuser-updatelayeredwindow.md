@@ -188,8 +188,7 @@ If <i>hdcSrc</i> is <b>NULL</b>, <i>dwFlags</i> should be zero.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 

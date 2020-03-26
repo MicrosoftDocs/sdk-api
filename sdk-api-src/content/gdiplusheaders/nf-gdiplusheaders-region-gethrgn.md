@@ -69,8 +69,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgrap
 
 
 
-Type: <strong>Type: <b>HRGN</b>
-</strong>
+Type: <b>HRGN</b>
 
 This method returns a Windows handle to a GDI region that is created from this region.
 

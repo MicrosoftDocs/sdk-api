@@ -208,8 +208,7 @@ Retrieves the address of the window procedure, or a handle representing the addr
 
 
 
-Type: <strong>Type: <b>ULONG_PTR</b>
-</strong>
+Type: <b>ULONG_PTR</b>
 
 If the function succeeds, the return value is the requested value.
 

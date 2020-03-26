@@ -217,8 +217,7 @@ By default, all message types are processed. To specify that only certain messag
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If a message is available, the return value is nonzero.
 

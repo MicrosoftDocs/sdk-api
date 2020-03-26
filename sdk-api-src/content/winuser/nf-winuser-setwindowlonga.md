@@ -214,8 +214,7 @@ The replacement value.
 
 
 
-Type: <strong>Type: <b>LONG</b>
-</strong>
+Type: <b>LONG</b>
 
 If the function succeeds, the return value is the previous value of the specified 32-bit integer.
 

@@ -64,8 +64,7 @@ The <b>MetafileHeader::IsDisplay</b> method determines whether the associated me
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the associated metafile is in the EMF+ format and was recorded against a video display device context, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

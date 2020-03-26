@@ -82,8 +82,7 @@ The replacement value.
 
 
 
-Type: <strong>Type: <b>WORD</b>
-</strong>
+Type: <b>WORD</b>
 
 If the function succeeds, the return value is the previous value of the specified 16-bit integer. If the value was not previously set, the return value is zero. 
 

@@ -85,8 +85,7 @@ A pointer to a variable that receives the process identifier. If this parameter 
 
 
 
-Type: <strong>Type: <b>DWORD</b>
-</strong>
+Type: <b>DWORD</b>
 
 The return value is the identifier of the thread that created the window. 
 

@@ -67,7 +67,7 @@ The value to be converted.
 
 
 
-This macro is identical to the <a href="https://msdn.microsoft.com/e21789b8-bc85-4753-a8b4-05297f190c61">GET_MOUSEORKEY_LPARAM</a> macro.
+This macro is identical to the <a href="https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/ms646252(v=vs.85)">GET_MOUSEORKEY_LPARAM</a> macro.
 
 
 

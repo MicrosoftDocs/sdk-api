@@ -64,8 +64,7 @@ The <b>Rect::GetLeft</b> method gets the x-coordinate of the left edge of the re
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the x-coordinate of the left edge of the rectangle.
 

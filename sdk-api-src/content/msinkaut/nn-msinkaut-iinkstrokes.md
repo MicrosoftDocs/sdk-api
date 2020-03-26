@@ -49,7 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
+Represents a collection of ink strokes.
 
+A stroke is a set of properties and point data that the digitizer captures that represent the coordinates and properties of a known ink mark. It is the set of data that is captured in a single pen down, up, or move sequence.
 
 
 ## -inheritance
@@ -295,5 +297,14 @@ Gets the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msi
 
 </td>
 </tr>
-</table> 
+</table>
 
+## -see-also
+
+[IInkStrokeDisp interface](nn-msinkaut-iinkstrokedisp.md)
+
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor Interface</a>
+
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>

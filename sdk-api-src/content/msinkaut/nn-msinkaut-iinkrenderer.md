@@ -48,9 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
+Represents the management of mappings from ink to the display window. Use the InkRenderer object to display ink in a window. You can also use it to reposition and resize stroke.
 
 ## -inheritance
 
@@ -204,3 +202,12 @@ Sets the <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform
 </tr>
 </table> 
 
+## -remarks
+
+Printing is also done through the InkRenderer object.
+
+This object can be instantiated by calling the [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
+
+## -see-also
+
+[InkRenderer class](https://docs.microsoft.com/windows/win32/tablet/inkrenderer-class)

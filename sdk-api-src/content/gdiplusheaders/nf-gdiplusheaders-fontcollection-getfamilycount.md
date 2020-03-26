@@ -64,8 +64,7 @@ The <b>FontCollection::GetFamilyCount</b> method gets the number of font familie
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the number of font families contained in this font collection.
 

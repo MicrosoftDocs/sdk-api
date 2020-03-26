@@ -64,8 +64,7 @@ The <b>GraphicsPathIterator::GetCount</b> method returns the number of data poin
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the number of data points in the path.
 

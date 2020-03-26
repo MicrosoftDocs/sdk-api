@@ -65,8 +65,7 @@ The <b>Graphics::GetHDC</b> method gets a handle to the device context associate
 
 
 
-Type: <strong>Type: <b>HDC</b>
-</strong>
+Type: <b>HDC</b>
 
 This method returns a handle to the device context associated with this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.

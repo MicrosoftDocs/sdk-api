@@ -98,8 +98,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/n
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function finds a matching class and successfully copies the data, the return value is nonzero.
 

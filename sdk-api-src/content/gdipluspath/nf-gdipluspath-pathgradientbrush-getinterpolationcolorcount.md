@@ -64,8 +64,7 @@ The <b>PathGradientBrush::GetInterpolationColorCount</b> method gets the number 
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the number of preset colors currently specified for this path gradient brush.
 

@@ -78,8 +78,7 @@ A handle to the window to be unregistered. The window was registered with a call
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 <b>TRUE</b> if the function succeeds; <b>FALSE</b> if the
 				function fails. 

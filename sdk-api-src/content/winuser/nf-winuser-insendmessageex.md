@@ -75,8 +75,7 @@ Reserved; must be <b>NULL</b>.
 
 
 
-Type: <strong>Type: <b>DWORD</b>
-</strong>
+Type: <b>DWORD</b>
 
 If the message was not sent, the return value is <b>ISMEX_NOSEND</b> (0x00000000). Otherwise, the return value is one or more of the following values.
 

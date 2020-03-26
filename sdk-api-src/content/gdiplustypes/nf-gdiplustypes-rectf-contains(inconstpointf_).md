@@ -69,8 +69,7 @@ Reference to a point to be tested.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the point is inside the rectangle, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

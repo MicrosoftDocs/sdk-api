@@ -64,8 +64,7 @@ The <b>CustomLineCap::GetBaseInset</b> method gets the distance between the base
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns the base inset value.
 

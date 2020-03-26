@@ -73,8 +73,7 @@ Retrieves a handle to the foreground window (the window with which the user is c
 
 
 
-Type: <strong>Type: <b>HWND</b>
-</strong>
+Type: <b>HWND</b>
 
 The return value is a handle to the foreground window. The foreground window can be <b>NULL</b> in certain circumstances, such as when a window is losing activation. 
 

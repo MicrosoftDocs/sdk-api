@@ -64,8 +64,7 @@ The <b>Pen::GetCompoundArrayCount</b> method gets the number of elements in a co
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns an integer that indicates the number of elements in the compound array.
 

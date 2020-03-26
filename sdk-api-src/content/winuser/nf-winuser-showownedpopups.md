@@ -77,8 +77,7 @@ If this parameter is <b>TRUE</b>, all hidden pop-up windows are shown. If this p
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 

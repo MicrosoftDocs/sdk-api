@@ -64,8 +64,7 @@ The <b>MetafileHeader::GetType</b> method gets the type of the associated metafi
 
 
 
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-metafiletype">MetafileType</a></b>
-</strong>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-metafiletype">MetafileType</a></b>
 
 This method returns an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-metafiletype">MetafileType</a> enumeration that indicates the type of the associated metafile.
 

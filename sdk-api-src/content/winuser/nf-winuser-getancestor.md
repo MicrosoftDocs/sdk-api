@@ -125,8 +125,7 @@ Retrieves the owned root window by walking the chain of parent and owner windows
 
 
 
-Type: <strong>Type: <b>HWND</b>
-</strong>
+Type: <b>HWND</b>
 
 The return value is the handle to the ancestor window.
 

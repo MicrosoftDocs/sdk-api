@@ -64,8 +64,7 @@ The <b>AdjustableArrowCap::GetWidth</b> method gets the width of the arrow cap. 
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns the width of the arrow cap.
 

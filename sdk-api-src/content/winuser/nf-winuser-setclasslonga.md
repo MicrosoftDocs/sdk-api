@@ -206,8 +206,7 @@ The replacement value.
 
 
 
-Type: <strong>Type: <b>DWORD</b>
-</strong>
+Type: <b>DWORD</b>
 
 If the function succeeds, the return value is the previous value of the specified 32-bit integer. If the value was not previously set, the return value is zero. 
 

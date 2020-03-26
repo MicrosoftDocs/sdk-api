@@ -65,8 +65,7 @@ The <b>Size::Empty</b> method determines whether a
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the 
 						<b>Width</b> and 
