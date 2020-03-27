@@ -51,6 +51,7 @@ ms.custom: 19H1
 
 Gets the Enterprise ID based on Network Isolation endpoints in the context of the Windows Information Protection (WIP) or the Windows Defender Application Guard (WDAG) scenarios. If neither WIP nor WDAG are on, the API returns NULL, unless the flag <b>NETISO_GEID_FORCE_TO_CHECK</b> is passed.  The Enterprise ID can be any string different from NULL or “*”.
 
+Example of NetworkIsolationGetEnterpriseIdAsync usage: https://github.com/microsoft/EnterpriseStateClassify
 
 ## -parameters
 
