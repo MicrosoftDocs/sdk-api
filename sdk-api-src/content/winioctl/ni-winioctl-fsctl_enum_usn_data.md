@@ -47,94 +47,56 @@ req.redist:
 
 ## -description
 
+Enumerates  the update sequence number (USN) data between two specified boundaries to obtain master file table (MFT) records.
 
-Enumerates  the update sequence number (USN) data between two specified boundaries to obtain master 
-    file table (MFT) records.
+To perform this operation, call the [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function with the following parameters.
 
-To perform this operation, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following 
-    parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL 
-WINAPI 
-DeviceIoControl( (HANDLE) hDevice,              // handle to volume
-                 (DWORD) FSCTL_ENUM_USN_DATA,   // dwIoControlCode(LPVOID) lpInBuffer,           // input buffer
-                 (DWORD) nInBufferSize,         // size of input buffer
-                 (LPVOID) lpOutBuffer,          // output buffer
-                 (DWORD) nOutBufferSize,        // size of output buffer
-                 (LPDWORD) lpBytesReturned,     // number of bytes returned
-                 (LPOVERLAPPED) lpOverlapped ); // OVERLAPPED structure);</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+BOOL DeviceIoControl(
+  (HANDLE) hDevice,             // handle to volume
+  FSCTL_ENUM_USN_DATA,          // dwIoControlCode
+  (LPVOID) lpInBuffer,          // input buffer
+  (DWORD) nInBufferSize,        // size of input buffer
+  (LPVOID) lpOutBuffer,         // output buffer
+  (DWORD) nOutBufferSize,       // size of output buffer
+  (LPDWORD) lpBytesReturned,    // number of bytes returned
+  (LPOVERLAPPED) lpOverlapped   // OVERLAPPED structure
+);
+```
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-
-
 <text></text>
-
-
 
 
 ### -input-buffer-length
 
-
-
 <text></text>
-
-
 
 
 ### -output-buffer
 
-
-
 <text></text>
-
-
 
 
 ### -output-buffer-length
 
-
-
 <text></text>
-
-
 
 
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
 
 
 ### -inout-buffer-length
 
-
-
 <text></text>
 
 
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -143,34 +105,19 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
-
-
 ## -remarks
 
+For the implications of overlapped I/O on this operation, see the Remarks section of the [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) topic.
 
+To enumerate files on a volume, use the **FSCTL_ENUM_USN_DATA** operation one or more times. On the first call, set the starting point, the **StartFileReferenceNumber** member of the [MFT_ENUM_DATA](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-mft_enum_data_v0) structure, to <code>(DWORDLONG)0</code>. Each call to **FSCTL_ENUM_USN_DATA** retrieves the starting point for the subsequent call as the first entry in the output buffer.
 
-For the implications of overlapped I/O on this operation, see the Remarks section of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> topic.
+By comparing To identify recent changes to a volume, use the [FSCTL_READ_USN_JOURNAL](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal) control code.
 
-To enumerate files on a volume, use the 
-    <b>FSCTL_ENUM_USN_DATA</b> operation one or more times. On the 
-     first call, set the starting point, the <b>StartFileReferenceNumber</b> member of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-mft_enum_data_v0">MFT_ENUM_DATA</a> structure, to 
-     <code>(DWORDLONG)0</code>. Each call to 
-     <b>FSCTL_ENUM_USN_DATA</b> retrieves the starting point for 
-     the subsequent call as the first entry in the output buffer.
+To retrieve a handle to a volume, call [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) with the *lpFileName* parameter set to a string in the following form:
 
-By comparing To identify recent changes to a volume, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> control code.
+\\\\.\\*X*:
 
-To retrieve a handle to a volume, call 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
-     <i>lpFileName</i> parameter set to a string in the following form:
-
-\\.\<i>X</i>:
-
-In the preceding string, <i>X</i> is the letter identifying the drive on which the volume 
-     appears. The volume must be NTFS.
+In the preceding string, <i>X</i> is the letter identifying the drive on which the volume appears. The volume must be NTFS.
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
@@ -220,46 +167,22 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
 
 
 ## -see-also
 
+[CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
 
+[DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
 
+[FSCTL_READ_USN_JOURNAL](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal)
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+[GetOverlappedResult](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult)
 
+[MFT_ENUM_DATA](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-mft_enum_data_v0)
 
+[OVERLAPPED](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped)
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
+[USN_RECORD](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2)
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-mft_enum_data_v0">MFT_ENUM_DATA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
- 
-
- 
-
+[Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
