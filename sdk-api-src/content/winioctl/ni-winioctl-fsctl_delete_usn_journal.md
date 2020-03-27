@@ -47,88 +47,54 @@ req.redist:
 
 ## -description
 
+Deletes the update sequence number (USN) change journal on a volume, or waits for notification of change journal deletion.
 
-Deletes the update sequence number (USN) change journal on a volume, or waits for notification of 
-    change journal deletion.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL 
-WINAPI 
-DeviceIoControl( (HANDLE) hDevice,              // handle to volume
-                 FSCTL_DELETE_USN_JOURNAL,      // dwIoControlCode(LPVOID) lpInBuffer,           // input buffer
-                 (DWORD) nInBufferSize,         // size of input buffer
-                 NULL,                          // lpOutBuffer0,                             // nOutBufferSize(LPDWORD) lpBytesReturned,     // number of bytes returned
-                 (LPOVERLAPPED) lpOverlapped ); // OVERLAPPED structure</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+BOOL DeviceIoControl(
+  (HANDLE) hDevice,             // handle to volume
+  FSCTL_DELETE_USN_JOURNAL,     // dwIoControlCode
+  (LPVOID) lpInBuffer,          // input buffer
+  (DWORD) nInBufferSize,        // size of input buffer
+  NULL,                         // lpOutBuffer
+  0,                            // nOutBufferSize
+  (LPDWORD) lpBytesReturned,    // number of bytes returned
+  (LPOVERLAPPED) lpOverlapped   // OVERLAPPED structure
+);
+```
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-
-
 <text></text>
-
-
 
 
 ### -input-buffer-length
 
-
-
 <text></text>
-
-
 
 
 ### -output-buffer
 
-
-
 <text></text>
-
-
 
 
 ### -output-buffer-length
 
-
-
 <text></text>
-
-
 
 
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
 
 
 ### -inout-buffer-length
 
-
-
 <text></text>
 
 
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -137,60 +103,29 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
-
-
 ## -remarks
 
+For the implications of overlapped I/O on this operation, see the Remarks section of the [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) topic.
 
+You can use **FSCTL_DELETE_USN_JOURNAL** to delete a change journal. The NTFS file system starts a deletion operation and returns immediately to the calling process, unless the **USN_DELETE_FLAG_NOTIFY** flag is set in the **DeleteFlags** member of [DELETE_USN_JOURNAL_DATA](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-delete_usn_journal_data).
 
-For the implications of overlapped I/O on this operation, see the Remarks section of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> topic.
+If the **USN_DELETE_FLAG_NOTIFY** and **USN_DELETE_FLAG_DELETE** flags are both set, a call to **FSCTL_DELETE_USN_JOURNAL** begins the deletion process. Then the call either blocks the calling thread and waits for the deletion (on a synchronous or non-overlapped call), or sets up event notification by using an I/O completion port or other mechanism, and returns (on an asynchronous or overlapped call).
 
-You can use <b>FSCTL_DELETE_USN_JOURNAL</b> to delete 
-    a change journal. The NTFS file system starts a deletion operation and returns immediately to the calling process, 
-    unless the <b>USN_DELETE_FLAG_NOTIFY</b> flag is set in the 
-    <b>DeleteFlags</b> member of 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-delete_usn_journal_data">DELETE_USN_JOURNAL_DATA</a>.
+You can also use **FSCTL_DELETE_USN_JOURNAL** to receive notification that a change journal deletion is complete, by setting only **USN_DELETE_FLAG_NOTIFY**. If you do so, the **FSCTL_DELETE_USN_JOURNAL** operation either waits until the deletion completes before returning (on a synchronous or non-overlapped call), or sets up event notification by using an I/O completion port or other mechanism (on an asynchronous or overlapped call).
 
-If the <b>USN_DELETE_FLAG_NOTIFY</b> and <b>USN_DELETE_FLAG_DELETE</b> 
-    flags are both set, a call to 
-    <b>FSCTL_DELETE_USN_JOURNAL</b> begins the deletion 
-    process. Then the call either blocks the calling thread and waits for the deletion (on a synchronous or 
-    non-overlapped call), or sets up event notification by using an I/O completion port or other mechanism, and 
-    returns (on an asynchronous or overlapped call).
+The deletion on which an application receives notification may have been initiated by the current process, or some other process. For example, when an application is started, it can use **FSCTL_DELETE_USN_JOURNAL** to determine if a deletion started by some other process is in progress and if it is, exit.
 
-You can also use <b>FSCTL_DELETE_USN_JOURNAL</b> to 
-    receive notification that a change journal deletion is complete, by setting only 
-    <b>USN_DELETE_FLAG_NOTIFY</b>. If you do so, the 
-    <b>FSCTL_DELETE_USN_JOURNAL</b> operation either waits 
-    until the deletion completes before returning (on a synchronous or non-overlapped call), or sets up event 
-    notification by using an I/O completion port or other mechanism (on an asynchronous or overlapped call).
+Complete deletion of a change journal requires a scan of the volume where the change journal resides, which may take a long time on a volume with many files. The operation continues to completion even across system restarts. Attempts to create, modify, delete, or query the change journal while deletion is in progress fail and return the error code **ERROR_JOURNAL_DELETE_IN_PROGRESS**.
 
-The deletion on which an application receives notification may have been initiated by the current process, or 
-    some other process. For example, when an application is started, it can use 
-    <b>FSCTL_DELETE_USN_JOURNAL</b> to determine if a 
-    deletion started by some other process is in progress and if it is, exit.
+The **FSCTL_DELETE_USN_JOURNAL** operation has a significant performance cost, so it should be used sparingly. An administrator should delete a journal when the current USN value approaches that of the maximum possible USN value.
 
-Complete deletion of a change journal requires a scan of the volume where the change journal resides, which 
-    may take a long time on a volume with many files. The operation continues to completion even across system 
-    restarts. Attempts to create, modify, delete, or query the change journal while deletion is in progress fail and 
-    return the error code <b>ERROR_JOURNAL_DELETE_IN_PROGRESS</b>.
+For more information, see [Creating, Modifying, and Deleting a Change Journal](https://docs.microsoft.com/windows/desktop/FileIO/creating-modifying-and-deleting-a-change-journal).
 
-The <b>FSCTL_DELETE_USN_JOURNAL</b> operation has a 
-    significant performance cost, so it should be used sparingly. An administrator should delete a journal when the 
-    current USN value approaches that of the maximum possible USN value.
+To retrieve a handle to a volume, call [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) with the *lpFileName* parameter set to a string in the following form:
 
-For more information, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-modifying-and-deleting-a-change-journal">Creating, Modifying, and Deleting a Change Journal</a>.
+\\\\.\\*X*:
 
-To retrieve a handle to a volume, call 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
-     <i>lpFileName</i> parameter set to a string in the following form:
-
-\\.\<i>X</i>:
-
-In the preceding string, <i>X</i> is the letter identifying the drive on which the volume 
-     appears. The volume must be NTFS.
+In the preceding string, *X* is the letter identifying the drive on which the volume appears. The volume must be NTFS.
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
@@ -242,44 +177,20 @@ Yes
 </table>
  
 
-
-
-
 ## -see-also
 
+[CREATE_USN_JOURNAL_DATA](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_usn_journal_data)
 
+[Change Journals](https://docs.microsoft.com/windows/desktop/FileIO/change-journals)
 
+[CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_usn_journal_data">CREATE_USN_JOURNAL_DATA</a>
+[DELETE_USN_JOURNAL_DATA](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-delete_usn_journal_data)
 
+[DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
 
+[FSCTL_CREATE_USN_JOURNAL](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_create_usn_journal)
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/change-journals">Change Journals</a>
+[OVERLAPPED](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped)
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-delete_usn_journal_data">DELETE_USN_JOURNAL_DATA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_create_usn_journal">FSCTL_CREATE_USN_JOURNAL</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
- 
-
- 
-
+[Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
