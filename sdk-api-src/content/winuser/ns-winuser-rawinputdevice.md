@@ -61,14 +61,14 @@ Defines information for the raw input devices.
 
 Type: <b>USHORT</b>
 
-Top level collection Usage page for the raw input device. 
+Top level collection Usage page for the raw input device. See <a href="https://www.usb.org/hid">HID USB homepage</a> and <a href="https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf">HID Usage Tables</a> for details on possible values.
 
 
 ### -field usUsage
 
 Type: <b>USHORT</b>
 
-Top level collection Usage for the raw input device. 
+Top level collection Usage for the raw input device. See <a href="https://www.usb.org/hid">HID USB homepage</a> and <a href="https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf">HID Usage Tables</a> for details on possible values.
 
 
 ### -field dwFlags
@@ -216,8 +216,6 @@ If <b>RIDEV_NOLEGACY</b> is set for a mouse or a keyboard, the system does not g
 If <b>RIDEV_REMOVE</b> is set and the <b>hwndTarget</b> member is not set to <b>NULL</b>, then parameter validation will fail.
 
 
-
-
 ## -see-also
 
 
@@ -225,22 +223,18 @@ If <b>RIDEV_REMOVE</b> is set and the <b>hwndTarget</b> member is not set to <b>
 
 <b>Conceptual</b>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getregisteredrawinputdevices">GetRegisteredRawInputDevices</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/">Introduction to Human Interface Devices (HID)</a>
 
+<a href="https://www.usb.org/hid">HID USB homepage</a>
+
+<a href="https://www.usb.org/sites/default/files/documents/hid1_11.pdf">HID USB specification</a>
+
+<a href="https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf">HID Usage Tables</a>
 
 <b>Reference</b>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerrawinputdevices">RegisterRawInputDevices</a>
- 
-
- 
-
