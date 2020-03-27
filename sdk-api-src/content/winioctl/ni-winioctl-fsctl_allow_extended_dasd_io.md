@@ -48,25 +48,22 @@ req.redist:
 ## -description
 
 
-Signals the file system driver not to perform any I/O boundary checks on partition read or write 
-    calls. Instead, boundary checks are performed by the device driver.
+Signals the file system driver not to perform any I/O boundary checks on partition read or write calls. Instead, boundary checks are performed by the device driver.
 
-To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
-    function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL DeviceIoControl(
-  (HANDLE) hDevice,              // handle to device
-  FSCTL_ALLOW_EXTENDED_DASD_IO,  // dwIoControlCodeNULL,                          // lpInBuffer0,                             // nInBufferSizeNULL,                          // lpOutBuffer0,                             // nOutBufferSize(LPDWORD) lpBytesReturned,     // number of bytes returned
-  (LPOVERLAPPED) lpOverlapped    // OVERLAPPED structure
-);</pre>
-</td>
-</tr>
-</table></span></div>
+To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
+
+```cpp
+BOOL DeviceIoControl(
+  (HANDLE) hDevice,                 // handle to device
+  FSCTL_ALLOW_EXTENDED_DASD_IO,     // dwIoControlCode
+  NULL,                             // lpInBuffer
+  0,                                // nInBufferSize
+  NULL,                             // lpOutBuffer
+  0,                                // nOutBufferSize
+  (LPDWORD) lpBytesReturned,        // number of bytes returned
+  (LPOVERLAPPED) lpOverlapped       // OVERLAPPED structure
+);
+```
 
 ## -ioctlparameters
 
