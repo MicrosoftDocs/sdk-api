@@ -44,25 +44,18 @@ req.redist:
 
 # DISK_EXTENT structure
 
-
 ## -description
-
 
 Represents a disk extent.
 
 
 ## -struct-fields
 
-
-
-
 ### -field DiskNumber
 
 The number of the disk that contains this extent.
 
-This is the same number that is used to construct the name of the disk, for example, the 
-       <i>X</i> in "\\?\PhysicalDrive<i>X</i>" 
-       or "\\?\Harddisk<i>X</i>".
+This is the same number that is used to construct the name of the disk, for example, the *X* in "\\\\?\\PhysicalDrive*X*" or "\\\\?\\\Harddisk*X*".
 
 
 ### -field StartingOffset
@@ -77,19 +70,6 @@ The number of bytes in this extent.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_get_volume_disk_extents">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-volume_disk_extents">VOLUME_DISK_EXTENTS</a>
- 
-
- 
-
+* [IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS](./ni-winioctl-ioctl_volume_get_volume_disk_extents.md)
+* [LARGE_INTEGER](https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1)
+* [VOLUME_DISK_EXTENTS](./ns-winioctl-volume_disk_extents.md)
