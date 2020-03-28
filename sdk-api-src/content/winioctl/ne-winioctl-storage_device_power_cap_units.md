@@ -44,17 +44,12 @@ req.redist:
 
 # STORAGE_DEVICE_POWER_CAP_UNITS enumeration
 
-
 ## -description
-
 
 The units of the maximum power threshold.
 
 
 ## -enum-fields
-
-
-
 
 ### -field StorageDevicePowerCapUnitsPercent
 
@@ -68,15 +63,5 @@ Units in milliwatts.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_device_power_cap">IOCTL_STORAGE_DEVICE_POWER_CAP</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a>
- 
-
- 
-
+* [IOCTL_STORAGE_DEVICE_POWER_CAP](./ni-winioctl-ioctl_storage_device_power_cap.md)
+* [STORAGE_DEVICE_POWER_CAP](./ns-winioctl-storage_device_power_cap.md)
