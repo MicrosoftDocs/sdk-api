@@ -107,7 +107,7 @@ Alternative control code | Equivalent **RequestedOplockLevel** flags value | Opl
 [FSCTL_REQUEST_OPLOCK_LEVEL_1](./ni-winioctl-fsctl_request_oplock_level_1.md) | `OPLOCK_LEVEL_CACHE_READ \| OPLOCK_LEVEL_CACHE_WRITE` | RW
 [FSCTL_REQUEST_OPLOCK_LEVEL_2](./ni-winioctl-fsctl_request_oplock_level_2.md) | `OPLOCK_LEVEL_CACHE_READ` | R
 
-
+<br/>
 
 Using the **FSCTL_REQUEST_OPLOCK** control code with the **RequestedOplockLevel** member set to `OPLOCK_LEVEL_CACHE_READ | OPLOCK_LEVEL_CACHE_HANDLE` grants an oplock of type *RH*. An RH oplock is similar to the filter oplock granted by the [FSCTL_REQUEST_FILTER_OPLOCK](./ni-winioctl-fsctl_request_filter_oplock.md) control code. However, note that the filter oplock allows only one client to hold an oplock on a file at a time; **FSCTL_REQUEST_OPLOCK** allows multiple clients at a time to have the *RH* lock on a file. Another difference is that **FSCTL_REQUEST_FILTER_OPLOCK** requires an oplock break acknowledgment before writes can occur, where **FSCTL_REQUEST_OPLOCK** does not because the oplock break notification is advisory-only and writes are allowed to go ahead without acknowledgment. For more information, see [Breaking Oplocks](https://docs.microsoft.com/windows-hardware/drivers/ifs/breaking-oplocks).
 
@@ -125,7 +125,7 @@ SMB 3.0 with Scale-out File Shares (SO) | No
 Cluster Shared Volume File System (CsvFS) | Yes
 Resilient File System (ReFS) | Yes
 
-
+<br/>
 
 Also, beginning in Windows 8 and Windows Server 2012, the **FSCTL_REQUEST_OPLOCK** control code can be used to request an oplock on a directory as well as a file. An oplock request on a directory may specify either `OPLOCK_LEVEL_CACHE_READ` or `OPLOCK_LEVEL_CACHE_READ | OPLOCK_LEVEL_CACHE_HANDLE` in the RequestedOplockLevel member.
 
