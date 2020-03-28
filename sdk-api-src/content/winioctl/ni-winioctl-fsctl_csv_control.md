@@ -44,9 +44,7 @@ req.redist:
 
 # FSCTL_CSV_CONTROL IOCTL
 
-
 ## -description
-
 
 Retrieves the results of a CSV control operation.
 
@@ -69,32 +67,20 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-<text></text>
-
 
 ### -input-buffer-length
-
-<text></text>
 
 
 ### -output-buffer
 
-<text></text>
-
 
 ### -output-buffer-length
-
-<text></text>
 
 
 ### -in-out-buffer
 
-<text></text>
-
 
 ### -inout-buffer-length
-
-<text></text>
 
 
 ### -status-block
@@ -108,16 +94,10 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 
 ## -see-also
 
-[CSV_CONTROL_OP](https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-csv_control_op)
-
-[CSV_CONTROL_PARAM](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_control_param)
-
-[CSV_QUERY_FILE_REVISION](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_query_file_revision)
-
-[CSV_QUERY_MDS_PATH](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_query_mds_path)
-
-[CSV_QUERY_REDIRECT_STATE](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_query_redirect_state)
-
-[DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
-
-[File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
+* [CSV_CONTROL_OP](./ne-winioctl-csv_control_op.md)
+* [CSV_CONTROL_PARAM](./ns-winioctl-csv_control_param.md)
+* [CSV_QUERY_FILE_REVISION](./ns-winioctl-csv_query_file_revision.md)
+* [CSV_QUERY_MDS_PATH](./ns-winioctl-csv_query_mds_path.md)
+* [CSV_QUERY_REDIRECT_STATE](./ns-winioctl-csv_query_redirect_state.md)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
