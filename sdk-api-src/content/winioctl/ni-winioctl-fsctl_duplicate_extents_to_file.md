@@ -44,12 +44,11 @@ req.redist:
 
 # FSCTL_DUPLICATE_EXTENTS_TO_FILE IOCTL
 
-
 ## -description
 
 Instructs the file system to copy a range of file bytes on behalf of an application. The destination file may be the same as, or different from, the source file. See [Block Cloning](https://docs.microsoft.com/windows/desktop/FileIO/block-cloning) for more information.
 
-To perform this operation, call the [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function with the following parameters.
+To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
 
 ```cpp
 BOOL DeviceIoControl(
@@ -68,32 +67,20 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-<text></text>
-
 
 ### -input-buffer-length
-
-<text></text>
 
 
 ### -output-buffer
 
-<text></text>
-
 
 ### -output-buffer-length
-
-<text></text>
 
 
 ### -in-out-buffer
 
-<text></text>
-
 
 ### -inout-buffer-length
-
-<text></text>
 
 
 ### -status-block
@@ -107,76 +94,24 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 
 ## -remarks
 
-For the implications of overlapped I/O on this operation, see the Remarks section of the [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) topic.
+For the implications of overlapped I/O on this operation, see the Remarks section of the [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md) topic.
 
 See [Block Cloning](https://docs.microsoft.com/windows/desktop/FileIO/block-cloning) for more information on this operation.
 
 In Windows Server 2016, this function is supported by the following technologies.
 
-<table>
-<tr>
-<th>Technology</th>
-<th>Supported</th>
-</tr>
-<tr>
-<td>
-Server Message Block (SMB) 3.1.1 protocol
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.1.1 Transparent Failover (TFO)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.1.1 with Scale-out File Shares (SoFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-Cluster Shared Volume File System (CsvFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-Resilient File System (ReFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-</table>
+Technology | Supported
+-----------|----------
+Server Message Block (SMB) 3.1.1 protocol | Yes
+SMB 3.1.1 Transparent Failover (TFO) | Yes
+SMB 3.1.1 with Scale-out File Shares (SoFS) | Yes
+Cluster Shared Volume File System (CsvFS) | Yes
+Resilient File System (ReFS) | Yes
 
 
 ## -see-also
 
-[Block Cloning](https://docs.microsoft.com/windows/desktop/FileIO/block-cloning)
-
-[DUPLICATE_EXTENTS_DATA](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-duplicate_extents_data)
-
-[DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
-
-[File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
+* [Block Cloning](https://docs.microsoft.com/windows/desktop/FileIO/block-cloning)
+* [DUPLICATE_EXTENTS_DATA](../winioctl/ns-winioctl-duplicate_extents_data.md)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
