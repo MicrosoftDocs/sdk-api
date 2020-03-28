@@ -49,7 +49,7 @@ req.redist:
 
 Retrieves the object identifier for the specified file or directory.
 
-To perform this operation, call the [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function with the following parameters.
+To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
 
 ```cpp
 BOOL DeviceIoControl(
@@ -97,7 +97,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 
 Object identifiers are used  to track  files and directories. They are invisible to most applications and should never be modified by applications. Modifying an object identifier can result in the loss of data from portions of a file, up to and including entire volumes of data.
 
-If there is no object identifier associated with the specified handle, none is created and an error is returned. To create an object identifier, use  [FSCTL_SET_OBJECT_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id). To retrieve an existing object identifier or generate one if there is no existing object identifier in one step, use [FSCTL_CREATE_OR_GET_OBJECT_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_create_or_get_object_id).
+If there is no object identifier associated with the specified handle, none is created and an error is returned. To create an object identifier, use [FSCTL_SET_OBJECT_ID](./ni-winioctl-fsctl_set_object_id.md). To retrieve an existing object identifier or generate one if there is no existing object identifier in one step, use [FSCTL_CREATE_OR_GET_OBJECT_ID](./ni-winioctl-fsctl_create_or_get_object_id.md).
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
@@ -112,11 +112,11 @@ Resilient File System (ReFS) | No
 
 ## -see-also
 
-* [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
-* [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
-* [FILE_OBJECTID_BUFFER](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_objectid_buffer)
-* [FSCTL_CREATE_OR_GET_OBJECT_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_create_or_get_object_id)
-* [FSCTL_DELETE_OBJECT_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_object_id)
-* [FSCTL_SET_OBJECT_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id)
-* [FSCTL_SET_OBJECT_ID_EXTENDED](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id_extended)
+* [CreateFile](../fileapi/nf-fileapi-createfilea.md)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [FILE_OBJECTID_BUFFER](./ns-winioctl-file_objectid_buffer.md)
+* [FSCTL_CREATE_OR_GET_OBJECT_ID](./ni-winioctl-fsctl_create_or_get_object_id.md)
+* [FSCTL_DELETE_OBJECT_ID](./ni-winioctl-fsctl_delete_object_id.md)
+* [FSCTL_SET_OBJECT_ID](./ni-winioctl-fsctl_set_object_id.md)
+* [FSCTL_SET_OBJECT_ID_EXTENDED](./ni-winioctl-fsctl_set_object_id_extended.md)
 * [Object Identifiers](https://docs.microsoft.com/windows/desktop/FileIO/distributed-link-tracking-and-object-identifiers)
