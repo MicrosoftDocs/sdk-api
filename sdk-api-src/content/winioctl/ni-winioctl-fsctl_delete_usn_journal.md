@@ -66,32 +66,20 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-<text></text>
-
 
 ### -input-buffer-length
-
-<text></text>
 
 
 ### -output-buffer
 
-<text></text>
-
 
 ### -output-buffer-length
-
-<text></text>
 
 
 ### -in-out-buffer
 
-<text></text>
-
 
 ### -inout-buffer-length
-
-<text></text>
 
 
 ### -status-block
@@ -107,7 +95,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 
 For the implications of overlapped I/O on this operation, see the Remarks section of the [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) topic.
 
-You can use **FSCTL_DELETE_USN_JOURNAL** to delete a change journal. The NTFS file system starts a deletion operation and returns immediately to the calling process, unless the **USN_DELETE_FLAG_NOTIFY** flag is set in the **DeleteFlags** member of [DELETE_USN_JOURNAL_DATA](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-delete_usn_journal_data).
+You can use **FSCTL_DELETE_USN_JOURNAL** to delete a change journal. The NTFS file system starts a deletion operation and returns immediately to the calling process, unless the **USN_DELETE_FLAG_NOTIFY** flag is set in the **DeleteFlags** member of [DELETE_USN_JOURNAL_DATA](./ns-winioctl-delete_usn_journal_data.md).
 
 If the **USN_DELETE_FLAG_NOTIFY** and **USN_DELETE_FLAG_DELETE** flags are both set, a call to **FSCTL_DELETE_USN_JOURNAL** begins the deletion process. Then the call either blocks the calling thread and waits for the deletion (on a synchronous or non-overlapped call), or sets up event notification by using an I/O completion port or other mechanism, and returns (on an asynchronous or overlapped call).
 
@@ -129,68 +117,21 @@ In the preceding string, *X* is the letter identifying the drive on which the vo
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
-<table>
-<tr>
-<th>Technology</th>
-<th>Supported</th>
-</tr>
-<tr>
-<td>
-Server Message Block (SMB) 3.0 protocol
+Technology | Supported
+-----------|----------
+Server Message Block (SMB) 3.0 protocol | No
+SMB 3.0 Transparent Failover (TFO) | No
+SMB 3.0 with Scale-out File Shares (SO) | No
+Cluster Shared Volume File System (CsvFS) | Yes
 
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 Transparent Failover (TFO)
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 with Scale-out File Shares (SO)
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-Cluster Shared Volume File System (CsvFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-</table>
- 
 
 ## -see-also
 
-[CREATE_USN_JOURNAL_DATA](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_usn_journal_data)
-
-[Change Journals](https://docs.microsoft.com/windows/desktop/FileIO/change-journals)
-
-[CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
-
-[DELETE_USN_JOURNAL_DATA](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-delete_usn_journal_data)
-
-[DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
-
-[FSCTL_CREATE_USN_JOURNAL](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_create_usn_journal)
-
-[OVERLAPPED](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped)
-
-[Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
+* [CREATE_USN_JOURNAL_DATA](./ns-winioctl-create_usn_journal_data.md)
+* [Change Journals](https://docs.microsoft.com/windows/desktop/FileIO/change-journals)
+* [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
+* [DELETE_USN_JOURNAL_DATA](./ns-winioctl-delete_usn_journal_data.md)
+* [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
+* [FSCTL_CREATE_USN_JOURNAL](./ni-winioctl-fsctl_create_usn_journal.md)
+* [OVERLAPPED](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped)
+* [Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
