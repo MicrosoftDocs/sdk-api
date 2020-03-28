@@ -44,17 +44,12 @@ req.redist:
 
 # WRITE_THROUGH enumeration
 
-
 ## -description
-
 
 Specifies whether a storage device supports write-through caching.
 
 
 ## -enum-fields
-
-
-
 
 ### -field WriteThroughUnknown
 
@@ -73,30 +68,11 @@ Indicates that the device supports write-through caching.
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control 
-     code reports this value in the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a> structure.
-
-
+The [IOCTL_STORAGE_QUERY_PROPERTY](./ni-winioctl-ioctl_storage_query_property.md) control code reports this value in the [STORAGE_WRITE_CACHE_PROPERTY](./ns-winioctl-storage_write_cache_property.md) structure.
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-enumeration-types">Disk Management Enumeration Types</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a>
- 
-
- 
-
+* [Disk Management Enumeration Types](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-enumeration-types)
+* [IOCTL_STORAGE_QUERY_PROPERTY](./ni-winioctl-ioctl_storage_query_property.md)
+* [STORAGE_WRITE_CACHE_PROPERTY](./ns-winioctl-storage_write_cache_property.md)
