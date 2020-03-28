@@ -48,7 +48,7 @@ req.redist:
 
 Retrieves the integrity status of a file or directory on a ReFS volume.
 
-To perform this operation, call the [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function with the following parameters.
+To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
 
 ```cpp
 BOOL DeviceIoControl(
@@ -67,32 +67,20 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-<text></text>
-
 
 ### -input-buffer-length
-
-<text></text>
 
 
 ### -output-buffer
 
-<text></text>
-
 
 ### -output-buffer-length
-
-<text></text>
 
 
 ### -in-out-buffer
 
-<text></text>
-
 
 ### -inout-buffer-length
-
-<text></text>
 
 
 ### -status-block
@@ -106,10 +94,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 
 ## -see-also
 
-[DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
-
-[FSCTL_GET_INTEGRITY_INFORMATION_BUFFER](https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-fsctl_get_integrity_information_buffer)
-
-[FSCTL_SET_INTEGRITY_INFORMATION](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_integrity_information)
-
-[Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [FSCTL_GET_INTEGRITY_INFORMATION_BUFFER](./ns-winioctl-fsctl_get_integrity_information_buffer.md)
+* [FSCTL_SET_INTEGRITY_INFORMATION](./ni-winioctl-fsctl_set_integrity_information.md)
+* [Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
