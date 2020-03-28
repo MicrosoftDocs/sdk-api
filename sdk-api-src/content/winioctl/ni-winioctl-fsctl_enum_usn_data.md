@@ -44,12 +44,11 @@ req.redist:
 
 # FSCTL_ENUM_USN_DATA IOCTL
 
-
 ## -description
 
 Enumerates  the update sequence number (USN) data between two specified boundaries to obtain master file table (MFT) records.
 
-To perform this operation, call the [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function with the following parameters.
+To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
 
 ```cpp
 BOOL DeviceIoControl(
@@ -68,32 +67,20 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-<text></text>
-
 
 ### -input-buffer-length
-
-<text></text>
 
 
 ### -output-buffer
 
-<text></text>
-
 
 ### -output-buffer-length
-
-<text></text>
 
 
 ### -in-out-buffer
 
-<text></text>
-
 
 ### -inout-buffer-length
-
-<text></text>
 
 
 ### -status-block
@@ -107,82 +94,35 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 
 ## -remarks
 
-For the implications of overlapped I/O on this operation, see the Remarks section of the [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) topic.
+For the implications of overlapped I/O on this operation, see the Remarks section of the [DeviceIoControl](../api/ioapiset/nf-ioapiset-deviceiocontrol.md) topic.
 
-To enumerate files on a volume, use the **FSCTL_ENUM_USN_DATA** operation one or more times. On the first call, set the starting point, the **StartFileReferenceNumber** member of the [MFT_ENUM_DATA](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-mft_enum_data_v0) structure, to <code>(DWORDLONG)0</code>. Each call to **FSCTL_ENUM_USN_DATA** retrieves the starting point for the subsequent call as the first entry in the output buffer.
+To enumerate files on a volume, use the **FSCTL_ENUM_USN_DATA** operation one or more times. On the first call, set the starting point, the **StartFileReferenceNumber** member of the [MFT_ENUM_DATA](./ns-winioctl-mft_enum_data_v0.md) structure, to `(DWORDLONG)0`. Each call to **FSCTL_ENUM_USN_DATA** retrieves the starting point for the subsequent call as the first entry in the output buffer.
 
-By comparing To identify recent changes to a volume, use the [FSCTL_READ_USN_JOURNAL](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal) control code.
+By comparing To identify recent changes to a volume, use the [FSCTL_READ_USN_JOURNAL](./ni-winioctl-fsctl_read_usn_journal.md) control code.
 
-To retrieve a handle to a volume, call [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) with the *lpFileName* parameter set to a string in the following form:
+To retrieve a handle to a volume, call [CreateFile](../fileapi/nf-fileapi-createfilea.md) with the *lpFileName* parameter set to a string in the following form:
 
 \\\\.\\*X*:
 
-In the preceding string, <i>X</i> is the letter identifying the drive on which the volume appears. The volume must be NTFS.
+In the preceding string, *X* is the letter identifying the drive on which the volume appears. The volume must be NTFS.
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
-<table>
-<tr>
-<th>Technology</th>
-<th>Supported</th>
-</tr>
-<tr>
-<td>
-Server Message Block (SMB) 3.0 protocol
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 Transparent Failover (TFO)
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 with Scale-out File Shares (SO)
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-Cluster Shared Volume File System (CsvFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-</table>
+Technology | Supported
+-----------|----------
+Server Message Block (SMB) 3.0 protocol | No
+SMB 3.0 Transparent Failover (TFO) | No
+SMB 3.0 with Scale-out File Shares (SO) | No
+Cluster Shared Volume File System (CsvFS) | Yes
 
 
 ## -see-also
 
-[CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
-
-[DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
-
-[FSCTL_READ_USN_JOURNAL](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal)
-
-[GetOverlappedResult](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult)
-
-[MFT_ENUM_DATA](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-mft_enum_data_v0)
-
-[OVERLAPPED](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped)
-
-[USN_RECORD](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2)
-
-[Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
+* [CreateFile](../fileapi/nf-fileapi-createfilea.md)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [FSCTL_READ_USN_JOURNAL](./ni-winioctl-fsctl_read_usn_journal.md)
+* [GetOverlappedResult](../ioapiset/nf-ioapiset-getoverlappedresult.md)
+* [MFT_ENUM_DATA](./ns-winioctl-mft_enum_data_v0.md)
+* [OVERLAPPED](..minwinbase/ns-minwinbase-overlapped.md)
+* [USN_RECORD](./ns-winioctl-usn_record_v2.md)
+* [Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
