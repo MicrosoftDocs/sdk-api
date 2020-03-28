@@ -67,33 +67,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-<text></text>
-
-
 ### -input-buffer-length
-
-<text></text>
-
 
 ### -output-buffer
 
-<text></text>
-
-
 ### -output-buffer-length
-
-<text></text>
-
 
 ### -in-out-buffer
 
-<text></text>
-
-
 ### -inout-buffer-length
-
-<text></text>
-
 
 ### -status-block
 
@@ -112,7 +94,7 @@ The **FSCTL_ALLOW_EXTENDED_DASD_IO** control code is used to signal the file sys
 
 I/O requests issued after this operation are passed directly to the device driver. If these subsequent calls request data beyond the partition boundary, the driver causes them to fail.
 
-For the implications of overlapped I/O on this operation, see the Remarks section of [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol).
+For the implications of overlapped I/O on this operation, see the Remarks section of [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md).
 
 To retrieve a handle to a partition, call [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) with the *lpFileName* parameter set to a string of the following form:
 
@@ -122,86 +104,28 @@ where *X* is the drive letter.
 
 The application calling [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) must also specify the **FILE_SHARE_READ** and **FILE_SHARE_WRITE** flags in the *dwShareMode* parameter of [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea). For more information, see the Disk Devices section in [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea).
 
-To determine the partition structure of the drive and to determine if the system recognizes the partition, use the [IOCTL_DISK_GET_DRIVE_LAYOUT_EX](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_layout_ex) or [IOCTL_DISK_GET_DRIVE_LAYOUT](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_layout) control code, as appropriate. For similar information on a single partition, use the [IOCTL_DISK_GET_PARTITION_INFO_EX](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_partition_info_ex) or [IOCTL_DISK_GET_PARTITION_INFO](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_partition_info) control code, as appropriate. To determine the size of a cluster, use the [GetDiskFreeSpaceEx](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespaceexa) or [GetDiskFreeSpace](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea) function, as appropriate.
+To determine the partition structure of the drive and to determine if the system recognizes the partition, use the [IOCTL_DISK_GET_DRIVE_LAYOUT_EX](./ni-winioctl-ioctl_disk_get_drive_layout_ex.md) or [IOCTL_DISK_GET_DRIVE_LAYOUT](./ni-winioctl-ioctl_disk_get_drive_layout.md) control code, as appropriate. For similar information on a single partition, use the [IOCTL_DISK_GET_PARTITION_INFO_EX](./ni-winioctl-ioctl_disk_get_partition_info_ex.md) or [IOCTL_DISK_GET_PARTITION_INFO](./ni-winioctl-ioctl_disk_get_partition_info.md) control code, as appropriate. To determine the size of a cluster, use the [GetDiskFreeSpaceEx](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespaceexa) or [GetDiskFreeSpace](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea) function, as appropriate.
 
 In Windows Server 2012, this function is supported by the following technologies.
 
-<table>
-<tr>
-<th>Technology</th>
-<th>Supported</th>
-</tr>
-<tr>
-<td>
-Server Message Block (SMB) 3.0 protocol
+Technology | Supported
+-----------|----------
+Server Message Block (SMB) 3.0 protocol | No
+SMB 3.0 Transparent Failover (TFO) | No
+SMB 3.0 with Scale-out File Shares (SO) | No
+Cluster Shared Volume File System (CsvFS) | Yes
+Resilient File System (ReFS) | Yes
 
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 Transparent Failover (TFO)
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 with Scale-out File Shares (SO)
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-Cluster Shared Volume File System (CsvFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-Resilient File System (ReFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-</table>
- 
 
 ## -see-also
 
-[CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
-
-[DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
-
-[File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
-
-[GetDiskFreeSpace](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea)
-
-[GetDiskFreeSpaceEx](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespaceexa)
-
-[IOCTL_DISK_GET_DRIVE_LAYOUT](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_layout)
-
-[IOCTL_DISK_GET_DRIVE_LAYOUT_EX](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_layout_ex)
-
-[IOCTL_DISK_GET_PARTITION_INFO](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_partition_info)
-
-[IOCTL_DISK_GET_PARTITION_INFO_EX](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_partition_info_ex)
-
-[OVERLAPPED](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped)
+* [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
+* [GetDiskFreeSpace](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea)
+* [GetDiskFreeSpaceEx](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespaceexa)
+* [IOCTL_DISK_GET_DRIVE_LAYOUT](./ni-winioctl-ioctl_disk_get_drive_layout.md)
+* [IOCTL_DISK_GET_DRIVE_LAYOUT_EX](./ni-winioctl-ioctl_disk_get_drive_layout_ex.md)
+* [IOCTL_DISK_GET_PARTITION_INFO](./ni-winioctl-ioctl_disk_get_partition_info.md)
+* [IOCTL_DISK_GET_PARTITION_INFO_EX](./ni-winioctl-ioctl_disk_get_partition_info_ex.md)
+* [OVERLAPPED](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped)
