@@ -67,32 +67,20 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-<text></text>
-
 
 ### -input-buffer-length
-
-<text></text>
 
 
 ### -output-buffer
 
-<text></text>
-
 
 ### -output-buffer-length
-
-<text></text>
 
 
 ### -in-out-buffer
 
-<text></text>
-
 
 ### -inout-buffer-length
-
-<text></text>
 
 
 ### -status-block
@@ -110,7 +98,7 @@ This control code enumerates file identifiers in a downward fashion, and always 
 
 If the file records that correspond to file identifiers 10 through 14 are requested, then the file record corresponding to file identifier 9 is returned. If any of the file records corresponding to file identifiers 1 through 9 are requested, those file records is returned.
 
-To determine the correct size of the output buffer pointed to by *lpOutBuffer*, first call the [FSCTL_GET_NTFS_VOLUME_DATA](ni-winioctl-fsctl_get_ntfs_volume_data.md) control code to get the size of one file record. This is the value of the **BytesPerFileRecordSegment** member of the returned [NTFS_VOLUME_DATA_BUFFER](ns-winioctl-ntfs_extended_volume_data.md) structure. Then set the size of the output buffer to the following expression:
+To determine the correct size of the output buffer pointed to by *lpOutBuffer*, first call the [FSCTL_GET_NTFS_VOLUME_DATA](./ni-winioctl-fsctl_get_ntfs_volume_data.md) control code to get the size of one file record. This is the value of the **BytesPerFileRecordSegment** member of the returned [NTFS_VOLUME_DATA_BUFFER](ns-winioctl-ntfs_extended_volume_data.md) structure. Then set the size of the output buffer to the following expression:
 
 ```sizeof (NTFS_FILE_RECORD_OUTPUT_BUFFER) + sizeof (one file record) - 1```
 
@@ -129,7 +117,7 @@ Resilient File System (ReFS) | No
 
 ## -see-also
 
-* [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
-* [NTFS_FILE_RECORD_INPUT_BUFFER](./ns-winioctl-ntfs_file_record_input_buffer)
-* [NTFS_FILE_RECORD_OUTPUT_BUFFER](./ns-winioctl-ntfs_file_record_output_buffer)
+* [NTFS_FILE_RECORD_INPUT_BUFFER](./ns-winioctl-ntfs_file_record_input_buffer.md)
+* [NTFS_FILE_RECORD_OUTPUT_BUFFER](./ns-winioctl-ntfs_file_record_output_buffer.md)
