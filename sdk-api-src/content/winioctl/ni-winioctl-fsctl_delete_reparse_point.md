@@ -44,7 +44,6 @@ req.redist:
 
 # FSCTL_DELETE_REPARSE_POINT IOCTL
 
-
 ## -description
 
 Deletes a reparse point from the specified file or directory. Using **FSCTL_DELETE_REPARSE_POINT** does not delete the file or directory.
@@ -68,32 +67,20 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-<text></text>
-
 
 ### -input-buffer-length
-
-<text></text>
 
 
 ### -output-buffer
 
-<text></text>
-
 
 ### -output-buffer-length
-
-<text></text>
 
 
 ### -in-out-buffer
 
-<text></text>
-
 
 ### -inout-buffer-length
-
-<text></text>
 
 
 ### -status-block
@@ -109,75 +96,21 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
-<table>
-<tr>
-<th>Technology</th>
-<th>Supported</th>
-</tr>
-<tr>
-<td>
-Server Message Block (SMB) 3.0 protocol
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 Transparent Failover (TFO)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 with Scale-out File Shares (SO)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-Cluster Shared Volume File System (CsvFS)
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-Resilient File System (ReFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-</table>
-
+Technology | Supported
+-----------|----------
+Server Message Block (SMB) 3.0 protocol | Yes
+SMB 3.0 Transparent Failover (TFO) | Yes
+SMB 3.0 with Scale-out File Shares (SO) | Yes
+Cluster Shared Volume File System (CsvFS) | No
+Resilient File System (ReFS) | Yes
 
 CsvFs does not support reparse points.
 
 
 ## -see-also
 
-[CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
-
-[DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
-
-[FSCTL_GET_REPARSE_POINT](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_reparse_point)
-
-[FSCTL_SET_REPARSE_POINT](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_reparse_point)
-
-[Reparse Points](https://docs.microsoft.com/windows/desktop/FileIO/reparse-points)
+* [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
+* [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
+* [FSCTL_GET_REPARSE_POINT](./ni-winioctl-fsctl_get_reparse_point.md)
+* [FSCTL_SET_REPARSE_POINT](./ni-winioctl-fsctl_set_reparse_point.md)
+* [Reparse Points](https://docs.microsoft.com/windows/desktop/FileIO/reparse-points)
