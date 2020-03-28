@@ -44,7 +44,6 @@ req.redist:
 
 # FSCTL_CSV_QUERY_DOWN_LEVEL_FILE_SYSTEM_CHARACTERISTICS IOCTL
 
-
 ## -description
 
 Retrieves information about a file system for which CSVFS is a proxy.
@@ -68,32 +67,20 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-<text></text>
-
 
 ### -input-buffer-length
-
-<text></text>
 
 
 ### -output-buffer
 
-<text></text>
-
 
 ### -output-buffer-length
-
-<text></text>
 
 
 ### -in-out-buffer
 
-<text></text>
-
 
 ### -inout-buffer-length
-
-<text></text>
 
 
 ### -status-block
@@ -107,10 +94,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 
 ## -see-also
 
-[CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
-
-[DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
-
-[FILE_FS_ATTRIBUTE_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_fs_attribute_information)
-
-[Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
+* [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
+* [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
+* [FILE_FS_ATTRIBUTE_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_fs_attribute_information)
+* [Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
