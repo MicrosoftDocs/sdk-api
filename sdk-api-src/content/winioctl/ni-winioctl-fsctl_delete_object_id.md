@@ -44,7 +44,6 @@ req.redist:
 
 # FSCTL_DELETE_OBJECT_ID IOCTL
 
-
 ## -description
 
 Removes the object identifier from a specified file or directory. The underlying object is not deleted.
@@ -66,32 +65,20 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-<text></text>
-
 
 ### -input-buffer-length
-
-<text></text>
 
 
 ### -output-buffer
 
-<text></text>
-
 
 ### -output-buffer-length
-
-<text></text>
 
 
 ### -in-out-buffer
 
-<text></text>
-
 
 ### -inout-buffer-length
-
-<text></text>
 
 
 ### -status-block
@@ -109,76 +96,21 @@ Object identifiers are used  to track  files and directories. They are invisible
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
-<table>
-<tr>
-<th>Technology</th>
-<th>Supported</th>
-</tr>
-<tr>
-<td>
-Server Message Block (SMB) 3.0 protocol
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 Transparent Failover (TFO)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 with Scale-out File Shares (SO)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-Cluster Shared Volume File System (CsvFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-Resilient File System (ReFS)
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-</table>
+Technology | Supported
+-----------|----------
+Server Message Block (SMB) 3.0 protocol | Yes
+SMB 3.0 Transparent Failover (TFO) | Yes
+SMB 3.0 with Scale-out File Shares (SO) | Yes
+Cluster Shared Volume File System (CsvFS) | Yes
+Resilient File System (ReFS) | No
 
 
 ## -see-also
 
-[CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
-
-[DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
-
-[FSCTL_CREATE_OR_GET_OBJECT_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_create_or_get_object_id)
-
-[FSCTL_GET_OBJECT_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_object_id)
-
-[FSCTL_SET_OBJECT_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id)
-
-[FSCTL_SET_OBJECT_ID_EXTENDED](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id_extended)
-
-[Object Identifiers](https://docs.microsoft.com/windows/desktop/FileIO/distributed-link-tracking-and-object-identifiers)
+* [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
+* [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
+* [FSCTL_CREATE_OR_GET_OBJECT_ID](./ni-winioctl-fsctl_create_or_get_object_id.md)
+* [FSCTL_GET_OBJECT_ID](./ni-winioctl-fsctl_get_object_id.md)
+* [FSCTL_SET_OBJECT_ID](./ni-winioctl-fsctl_set_object_id.md)
+* [FSCTL_SET_OBJECT_ID_EXTENDED](./ni-winioctl-fsctl_set_object_id_extended.md)
+* [Object Identifiers](https://docs.microsoft.com/windows/desktop/FileIO/distributed-link-tracking-and-object-identifiers)
