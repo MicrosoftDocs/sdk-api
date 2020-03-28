@@ -44,12 +44,11 @@ req.redist:
 
 # FSCTL_FILE_LEVEL_TRIM IOCTL
 
-
 ## -description
 
 Indicates to the storage system which ranges in the file are not needed to be stored.
 
-To perform this operation, call the [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function with the following parameters.
+To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
 
 ```cpp
 BOOL DeviceIoControl(
@@ -69,32 +68,20 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-<text></text>
-
 
 ### -input-buffer-length
-
-<text></text>
 
 
 ### -output-buffer
 
-<text></text>
-
 
 ### -output-buffer-length
-
-<text></text>
 
 
 ### -in-out-buffer
 
-<text></text>
-
 
 ### -inout-buffer-length
-
-<text></text>
 
 
 ### -status-block
@@ -110,9 +97,9 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 
 The **FSCTL_FILE_LEVEL_TRIM** control code is a hint to the underlying storage system. When a range of bytes has been trimmed, if that range is later read again the data returned may be the original data before the trim operation, all zeros (0x00 bytes), all ones (0xff bytes), or some combination of these. Before the trim operation is passed to the underlying storage system the input ranges are reduced to be aligned to page boundaries (4,096 bytes on 32-bit and x64-based editions of Windows, 8,192 bytes on Itanium-Based editions of Windows).
 
-If an error occurs while processing the [FILE_LEVEL_TRIM_RANGE](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_range) entries that follow the **FILE_LEVEL_TRIM** structure in the input buffer pointed to by the *lpInBuffer* parameter, processing stops and the **NumRangesProcessed** member of the [FILE_LEVEL_TRIM_OUTPUT](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_output) structure pointed to by the *lpOutBuffer* parameter will be indicate which ranges were successfully processed. Any ranges between **NumRangesProcessed** and the **NumRanges** member of the **FILE_LEVEL_TRIM** structure were not processed.
+If an error occurs while processing the [FILE_LEVEL_TRIM_RANGE](./ns-winioctl-file_level_trim_range.md) entries that follow the **FILE_LEVEL_TRIM** structure in the input buffer pointed to by the *lpInBuffer* parameter, processing stops and the **NumRangesProcessed** member of the [FILE_LEVEL_TRIM_OUTPUT](./ns-winioctl-file_level_trim_output.md) structure pointed to by the *lpOutBuffer* parameter will be indicate which ranges were successfully processed. Any ranges between **NumRangesProcessed** and the **NumRanges** member of the **FILE_LEVEL_TRIM** structure were not processed.
 
-The **FSCTL_FILE_LEVEL_TRIM** control code is not compatible with encrypted or compressed files ([GetFileAttributes](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa) returns **FILE_ATTRIBUTE_ENCRYPTED** or **FILE_ATTRIBUTE_COMPRESSED**) and will fail with **ERROR_INVALID_PARAMETER**. Sparse files (indicated by **FILE_ATTRIBUTE_SPARSE_FILE**) are supported, but only ranges that have been allocated can be trimmed. While individually encrypted files are not supported, files on volumes encrypted by BitLocker technology are supported.
+The **FSCTL_FILE_LEVEL_TRIM** control code is not compatible with encrypted or compressed files ([GetFileAttributes](../fileapi/nf-fileapi-getfileattributesa.md) returns **FILE_ATTRIBUTE_ENCRYPTED** or **FILE_ATTRIBUTE_COMPRESSED**) and will fail with **ERROR_INVALID_PARAMETER**. Sparse files (indicated by **FILE_ATTRIBUTE_SPARSE_FILE**) are supported, but only ranges that have been allocated can be trimmed. While individually encrypted files are not supported, files on volumes encrypted by BitLocker technology are supported.
 
 The **FSCTL_FILE_LEVEL_TRIM** control code does not participate in transactions. If a **FSCTL_FILE_LEVEL_TRIM** control code is processed during a transaction, and the transaction is aborted, the trim will not be rolled back with the transaction.
 
@@ -122,72 +109,19 @@ Ranges that are trimmed can be beyond the valid data length (VDL) up to the end-
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
-<table>
-<tr>
-<th>Technology</th>
-<th>Supported</th>
-</tr>
-<tr>
-<td>
-Server Message Block (SMB) 3.0 protocol
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 Transparent Failover (TFO)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 with Scale-out File Shares (SO)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-Cluster Shared Volume File System (CsvFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-Resilient File System (ReFS)
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-</table>
+Technology | Supported
+-----------|----------
+Server Message Block (SMB) 3.0 protocol | Yes
+SMB 3.0 Transparent Failover (TFO) | Yes
+SMB 3.0 with Scale-out File Shares (SO) | Yes
+Cluster Shared Volume File System (CsvFS) | Yes
+Resilient File System (ReFS) | No
 
 
 ## -see-also
 
-[CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
-
-[DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
-
-[FILE_LEVEL_TRIM](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_file_level_trim)
-
-[FILE_LEVEL_TRIM_OUTPUT](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_output)
-
-[File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
+* [CreateFile](../fileapi/nf-fileapi-createfilea.md)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [FILE_LEVEL_TRIM](./ni-winioctl-fsctl_file_level_trim.md)
+* [FILE_LEVEL_TRIM_OUTPUT](./ns-winioctl-file_level_trim_output.md)
+* [File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
