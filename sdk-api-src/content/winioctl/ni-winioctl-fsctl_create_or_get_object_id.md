@@ -44,9 +44,7 @@ req.redist:
 
 # FSCTL_CREATE_OR_GET_OBJECT_ID IOCTL
 
-
 ## -description
-
 
 Retrieves the object identifier for the specified file or directory. If no object identifier exists, using **FSCTL_CREATE_OR_GET_OBJECT_ID** creates one.
 
@@ -67,35 +65,22 @@ BOOL DeviceIoControl(
 
 ## -ioctlparameters
 
-
 ### -input-buffer
-
-<text></text>
 
 
 ### -input-buffer-length
 
-<text></text>
-
 
 ### -output-buffer
-
-<text></text>
 
 
 ### -output-buffer-length
 
-<text></text>
-
 
 ### -in-out-buffer
 
-<text></text>
-
 
 ### -inout-buffer-length
-
-<text></text>
 
 
 ### -status-block
@@ -110,82 +95,25 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 
 Object identifiers are used to track  files and directories. They are invisible to most applications and should never be modified by applications. Modifying an object identifier can result in the loss of data from portions of a file, up to and including entire volumes of data.
 
-This operation creates an object identifier if the object does not already have one. To test for the presence of an object identifier, and retrieve it if it exists, use the [FSCTL_GET_OBJECT_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_object_id) operation. To create an object identifier without first testing for the presence of one, use the [FSCTL_SET_OBJECT_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id) operation.
-			
+This operation creates an object identifier if the object does not already have one. To test for the presence of an object identifier, and retrieve it if it exists, use the [FSCTL_GET_OBJECT_ID](./ni-winioctl-fsctl_get_object_id.md) operation. To create an object identifier without first testing for the presence of one, use the [FSCTL_SET_OBJECT_ID](./ni-winioctl-fsctl_set_object_id.md) operation.
 
 In Windows Server 2012, this function is supported by the following technologies.
 
-<table>
-<tr>
-<th>Technology</th>
-<th>Supported</th>
-</tr>
-<tr>
-<td>
-Server Message Block (SMB) 3.0 protocol
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 Transparent Failover (TFO)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 with Scale-out File Shares (SO)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-Cluster Shared Volume File System (CsvFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-Resilient File System (ReFS)
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-</table>
- 
+Technology | Supported
+-----------|----------
+Server Message Block (SMB) 3.0 protocol | Yes
+SMB 3.0 Transparent Failover (TFO) | Yes
+SMB 3.0 with Scale-out File Shares (SO) | Yes
+Cluster Shared Volume File System (CsvFS) | Yes
+Resilient File System (ReFS) | No
 
 
 ## -see-also
 
-[DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
-
-[FILE_OBJECTID_BUFFER](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_objectid_buffer)
-
-[FSCTL_DELETE_OBJECT_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_object_id)
-
-[FSCTL_GET_OBJECT_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_object_id)
-
-[FSCTL_SET_OBJECT_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id)
-
-[FSCTL_SET_OBJECT_ID_EXTENDED](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id_extended)
-
-[Object Identifiers](https://docs.microsoft.com/windows/desktop/FileIO/distributed-link-tracking-and-object-identifiers)
+* [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
+* [FILE_OBJECTID_BUFFER](./ns-winioctl-file_objectid_buffer.md)
+* [FSCTL_DELETE_OBJECT_ID](./ni-winioctl-fsctl_delete_object_id.md)
+* [FSCTL_GET_OBJECT_ID](./ni-winioctl-fsctl_get_object_id.md)
+* [FSCTL_SET_OBJECT_ID](./ni-winioctl-fsctl_set_object_id.md)
+* [FSCTL_SET_OBJECT_ID_EXTENDED](./ni-winioctl-fsctl_set_object_id_extended.md)
+* [Object Identifiers](https://docs.microsoft.com/windows/desktop/FileIO/distributed-link-tracking-and-object-identifiers)
