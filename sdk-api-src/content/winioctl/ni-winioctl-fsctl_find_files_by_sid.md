@@ -48,7 +48,7 @@ req.redist:
 
 Searches a directory for a file whose creator owner matches the specified SID.
 
-To perform this operation, call the [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function with the following parameters.
+To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
 
 ```cpp
 BOOL DeviceIoControl(
@@ -67,32 +67,20 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-<text></text>
-
 
 ### -input-buffer-length
-
-<text></text>
 
 
 ### -output-buffer
 
-<text></text>
-
 
 ### -output-buffer-length
-
-<text></text>
 
 
 ### -in-out-buffer
 
-<text></text>
-
 
 ### -inout-buffer-length
-
-<text></text>
 
 
 ### -status-block
@@ -110,70 +98,18 @@ This control code requires the use of [disk quotas](https://docs.microsoft.com/w
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
-<table>
-<tr>
-<th>Technology</th>
-<th>Supported</th>
-</tr>
-<tr>
-<td>
-Server Message Block (SMB) 3.0 protocol
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 Transparent Failover (TFO)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 with Scale-out File Shares (SO)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-Cluster Shared Volume File System (CsvFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-Resilient File System (ReFS)
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-</table>
+Technology | Supported
+-----------|----------
+Server Message Block (SMB) 3.0 protocol | Yes
+SMB 3.0 Transparent Failover (TFO) | Yes
+SMB 3.0 with Scale-out File Shares (SO) | Yes
+Cluster Shared Volume File System (CsvFS) | Yes
+Resilient File System (ReFS) | No
 
 
 ## -see-also
 
-[DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
-
-[FIND_BY_SID_DATA](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-find_by_sid_data)
-
-[FIND_BY_SID_OUTPUT](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-find_by_sid_output)
-
-[File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [FIND_BY_SID_DATA](./ns-winioctl-find_by_sid_data.md)
+* [FIND_BY_SID_OUTPUT](./ns-winioctl-find_by_sid_output.md)
+* [File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
