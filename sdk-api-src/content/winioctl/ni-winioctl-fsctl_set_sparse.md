@@ -118,7 +118,7 @@ SMB 3.0 with Scale-out File Shares (SO) | Yes
 Cluster Shared Volume File System (CsvFS) | See Comment
 Resilient File System (ReFS) | Yes
 
-CsvFs will do redirected IO for sparse files. CsvFs allows making file sparse only when the file is opened exclusively by a node. SMB 3.0 Transparent Failover does not support buffered write."
+CsvFs will do redirected IO for sparse files. CsvFs allows making file sparse only when the file is opened exclusively by a node. SMB 3.0 Transparent Failover does not support buffered write.
 
 
 ## -see-also
