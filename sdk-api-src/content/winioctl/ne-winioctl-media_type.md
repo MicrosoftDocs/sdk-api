@@ -44,17 +44,12 @@ req.redist:
 
 # MEDIA_TYPE enumeration
 
-
 ## -description
-
 
 Represents the various forms of device media.
 
 
 ## -enum-fields
-
-
-
 
 ### -field Unknown
 
@@ -188,47 +183,13 @@ A 3.5" floppy, with 32MB and 512 bytes/sector.
 
 ## -remarks
 
-
-
-The <b>MediaType</b> member of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_geometry">DISK_GEOMETRY</a> data structure is of type 
-    <b>MEDIA_TYPE</b>. The 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function receives a 
-    <b>DISK_GEOMETRY</b> structure in response to an 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_geometry">IOCTL_DISK_GET_DRIVE_GEOMETRY</a>  
-    control code. The <b>DeviceIoControl</b> function receives an 
-    array of <b>DISK_GEOMETRY</b> structures in response to an 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_media_types">IOCTL_STORAGE_GET_MEDIA_TYPES</a>  
-    control code. The 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_media_type">STORAGE_MEDIA_TYPE</a> enumeration type extends this 
-    enumeration type.
-
-
+The **MediaType** member of the [DISK_GEOMETRY](./ns-winioctl-disk_geometry.md) data structure is of type **MEDIA_TYPE**. The [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md) function receives a **DISK_GEOMETRY** structure in response to an [IOCTL_DISK_GET_DRIVE_GEOMETRY](./ni-winioctl-ioctl_disk_get_drive_geometry.md) control code. The **DeviceIoControl** function receives an array of **DISK_GEOMETRY** structures in response to an [IOCTL_STORAGE_GET_MEDIA_TYPES](./ni-winioctl-ioctl_storage_get_media_types.md) control code. The [STORAGE_MEDIA_TYPE](./ne-winioctl-storage_media_type.md) enumeration type extends this enumeration type.
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_geometry">DISK_GEOMETRY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_geometry">IOCTL_DISK_GET_DRIVE_GEOMETRY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_media_types">IOCTL_STORAGE_GET_MEDIA_TYPES</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_media_type">STORAGE_MEDIA_TYPE</a>
- 
-
- 
-
+* [DISK_GEOMETRY](./ns-winioctl-disk_geometry.md)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [IOCTL_DISK_GET_DRIVE_GEOMETRY](./ni-winioctl-ioctl_disk_get_drive_geometry.md)
+* [IOCTL_STORAGE_GET_MEDIA_TYPES](./ni-winioctl-ioctl_storage_get_media_types.md)
+* [STORAGE_MEDIA_TYPE](./ne-winioctl-storage_media_type.md)
