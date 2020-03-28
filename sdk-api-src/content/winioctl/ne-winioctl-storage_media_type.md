@@ -44,19 +44,12 @@ req.redist:
 
 # STORAGE_MEDIA_TYPE enumeration
 
-
 ## -description
 
-
-Specifies various types of storage media. Parameters and members of type 
-    <b>STORAGE_MEDIA_TYPE</b> also accept values from the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a> enumeration type.
+Specifies various types of storage media. Parameters and members of type **STORAGE_MEDIA_TYPE** also accept values from the [MEDIA_TYPE](./ne-winioctl-media_type.md) enumeration type.
 
 
 ## -enum-fields
-
-
-
 
 ### -field DDS_4mm
 
@@ -365,14 +358,14 @@ STK 9940.
 
 SAIT tape.
 
-<b>Windows Server 2003:  </b>This is not supported before Windows Server 2003 with SP1.
+**Windows Server 2003:**  This is not supported before Windows Server 2003 with SP1.
 
 
 ### -field VXATape
 
 Exabyte VXA tape.
 
-<b>Windows Server 2008:  </b>This is not supported before Windows Server 2008.
+**Windows Server 2008:**  This is not supported before Windows Server 2008.
 
 
 #### - STK_9840
@@ -382,19 +375,6 @@ STK 9840.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_media_info">DEVICE_MEDIA_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediatypeinformation">NTMS_MEDIATYPEINFORMATION</a>
- 
-
- 
-
+* [DEVICE_MEDIA_INFO](./ns-winioctl-device_media_info.md)
+* [MEDIA_TYPE](./ne-winioctl-media_type.md)
+* [NTMS_MEDIATYPEINFORMATION](../ntmsapi/ns-ntmsapi-ntms_mediatypeinformation.md)
