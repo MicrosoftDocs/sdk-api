@@ -112,18 +112,11 @@ Resilient File System (ReFS) | No
 
 ## -see-also
 
-[CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
-
-[DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
-
-[FILE_OBJECTID_BUFFER](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_objectid_buffer)
-
-[FSCTL_CREATE_OR_GET_OBJECT_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_create_or_get_object_id)
-
-[FSCTL_DELETE_OBJECT_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_object_id)
-
-[FSCTL_SET_OBJECT_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id)
-
-[FSCTL_SET_OBJECT_ID_EXTENDED](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id_extended)
-
-[Object Identifiers](https://docs.microsoft.com/windows/desktop/FileIO/distributed-link-tracking-and-object-identifiers)
+* [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
+* [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
+* [FILE_OBJECTID_BUFFER](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_objectid_buffer)
+* [FSCTL_CREATE_OR_GET_OBJECT_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_create_or_get_object_id)
+* [FSCTL_DELETE_OBJECT_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_object_id)
+* [FSCTL_SET_OBJECT_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id)
+* [FSCTL_SET_OBJECT_ID_EXTENDED](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id_extended)
+* [Object Identifiers](https://docs.microsoft.com/windows/desktop/FileIO/distributed-link-tracking-and-object-identifiers)
