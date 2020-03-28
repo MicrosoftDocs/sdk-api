@@ -94,7 +94,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 
 ## -remarks
 
-For the implications of overlapped I/O on this operation, see the Remarks section of the [DeviceIoControl](../api/ioapiset/nf-ioapiset-deviceiocontrol.md) topic.
+For the implications of overlapped I/O on this operation, see the Remarks section of the [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md) topic.
 
 To enumerate files on a volume, use the **FSCTL_ENUM_USN_DATA** operation one or more times. On the first call, set the starting point, the **StartFileReferenceNumber** member of the [MFT_ENUM_DATA](./ns-winioctl-mft_enum_data_v0.md) structure, to `(DWORDLONG)0`. Each call to **FSCTL_ENUM_USN_DATA** retrieves the starting point for the subsequent call as the first entry in the output buffer.
 
