@@ -44,9 +44,7 @@ req.redist:
 
 # FSCTL_CREATE_USN_JOURNAL IOCTL
 
-
 ## -description
-
 
 Creates an update sequence number (USN) change journal stream on a target volume, or modifies an existing change journal stream.
 
@@ -67,32 +65,20 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-<text></text>
-
 
 ### -input-buffer-length
-
-<text></text>
 
 
 ### -output-buffer
 
-<text></text>
-
 
 ### -output-buffer-length
-
-<text></text>
 
 
 ### -in-out-buffer
 
-<text></text>
-
 
 ### -inout-buffer-length
-
-<text></text>
 
 
 ### -status-block
@@ -110,7 +96,7 @@ For the implications of overlapped I/O on this operation, see the Remarks sectio
 
 You can use **FSCTL_CREATE_USN_JOURNAL** to create a new change journal stream for a volume. After the creation of the stream, the NTFS file system maintains a change journal for that volume.
 
-You can also use **FSCTL_CREATE_USN_JOURNAL** to modify an existing change journal stream. If a change journal stream already exists, **FSCTL_CREATE_USN_JOURNAL** sets it to the characteristics provided in the [CREATE_USN_JOURNAL_DATA](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_usn_journal_data) structure. The change journal stream eventually gets larger or is trimmed to the new size limit that [CREATE_USN_JOURNAL_DATA](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_usn_journal_data) imposes.
+You can also use **FSCTL_CREATE_USN_JOURNAL** to modify an existing change journal stream. If a change journal stream already exists, **FSCTL_CREATE_USN_JOURNAL** sets it to the characteristics provided in the [CREATE_USN_JOURNAL_DATA](./ns-winioctl-create_usn_journal_data.md) structure. The change journal stream eventually gets larger or is trimmed to the new size limit that [CREATE_USN_JOURNAL_DATA](./ns-winioctl-create_usn_journal_data.md) imposes.
 
 For more information, see [Creating, Modifying, and Deleting a Change Journal](https://docs.microsoft.com/windows/desktop/FileIO/creating-modifying-and-deleting-a-change-journal).
 
@@ -126,64 +112,19 @@ where *X* is the drive letter of the volume.
 
 In Windows Server 2012, this function is supported by the following technologies.
 
-<table>
-<tr>
-<th>Technology</th>
-<th>Supported</th>
-</tr>
-<tr>
-<td>
-Server Message Block (SMB) 3.0 protocol
+Technology | Supported
+-----------|----------
+Server Message Block (SMB) 3.0 protocol | No
+SMB 3.0 Transparent Failover (TFO) | No
+SMB 3.0 with Scale-out File Shares (SO) | No
+Cluster Shared Volume File System (CsvFS) | Yes
 
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 Transparent Failover (TFO)
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 with Scale-out File Shares (SO)
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-Cluster Shared Volume File System (CsvFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-</table>
- 
 
 ## -see-also
 
-[CREATE_USN_JOURNAL_DATA](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_usn_journal_data)
-
-[Change Journals](https://docs.microsoft.com/windows/desktop/FileIO/change-journals)
-
-[CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
-
-[DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
-
-[OVERLAPPED](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped)
-
-[Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
+* [CREATE_USN_JOURNAL_DATA](./ns-winioctl-create_usn_journal_data.md)
+* [Change Journals](https://docs.microsoft.com/windows/desktop/FileIO/change-journals)
+* [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
+* [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
+* [OVERLAPPED](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped)
+* [Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
