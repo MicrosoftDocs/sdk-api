@@ -44,19 +44,12 @@ req.redist:
 
 # STORAGE_QUERY_TYPE enumeration
 
-
 ## -description
 
-
-Used by the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a> 
-   structure passed to the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control code to 
-   indicate what information is returned about a property of a storage device or adapter.
+Used by the [STORAGE_PROPERTY_QUERY](./ns-winioctl-storage_property_query.md) structure passed to the [IOCTL_STORAGE_QUERY_PROPERTY](./ni-winioctl-ioctl_storage_query_property.md) control code to indicate what information is returned about a property of a storage device or adapter.
 
 
 ## -enum-fields
-
-
 
 
 ### -field PropertyStandardQuery
@@ -81,23 +74,7 @@ Specifies the upper limit of the list of query types. This is used to validate t
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-enumeration-types">Disk Management Enumeration Types</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_property_id">STORAGE_PROPERTY_ID</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a>
- 
-
- 
-
+* [Disk Management Enumeration Types](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-enumeration-types)
+* [IOCTL_STORAGE_QUERY_PROPERTY](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property)
+* [STORAGE_PROPERTY_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_property_id)
+* [STORAGE_PROPERTY_QUERY](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query)
