@@ -45,25 +45,17 @@ ms.custom: 19H1
 
 # IEnumTfDocumentMgrs::Clone
 
-
 ## -description
 
-
-
+Creates a copy of the enumerator object.
 
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdocumentmgrs">IEnumTfDocumentMgrs</a> interface pointer that receives the new enumerator.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,19 +87,7 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdocumentmgrs">IEnumTfDocumentMgrs
-      </a>
- 
-
- 
-
+[IEnumTfDocumentMgrs interface](nn-msctf-ienumtfdocumentmgrs.md), [ITfDocumentMgr interface](nn-msctf-itfdocumentmgr.md)

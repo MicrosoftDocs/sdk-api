@@ -45,16 +45,11 @@ ms.custom: 19H1
 
 # IEnumTfLanguageProfiles::Clone
 
-
 ## -description
 
-
-
+Creates a copy of the enumerator object.
 
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
@@ -95,19 +90,7 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtflanguageprofiles">IEnumTfLanguageProfiles
-      </a>
- 
-
- 
-
+[IEnumTfLanguageProfiles interface](nn-msctf-ienumtflanguageprofiles.md), [TF_LANGUAGEPROFILE](ns-msctf-tf_languageprofile.md)
