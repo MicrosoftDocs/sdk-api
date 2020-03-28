@@ -44,17 +44,12 @@ req.redist:
 
 # STORAGE_PORT_CODE_SET enumeration
 
-
 ## -description
-
 
 Reserved for system use. 
 
 
 ## -enum-fields
-
-
-
 
 ### -field StoragePortCodeSetReserved
 
@@ -98,15 +93,5 @@ Storage adapter driver is an SD-port miniport driver.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-enumeration-types">Disk Management Enumeration Types</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_miniport_descriptor">STORAGE_MINIPORT_DESCRIPTOR</a>
- 
-
- 
-
+* [Disk Management Enumeration Types](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-enumeration-types)
+* [STORAGE_MINIPORT_DESCRIPTOR](./ns-winioctl-storage_miniport_descriptor.md)
