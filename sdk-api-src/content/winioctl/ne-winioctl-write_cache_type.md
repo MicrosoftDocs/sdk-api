@@ -44,17 +44,12 @@ req.redist:
 
 # WRITE_CACHE_TYPE enumeration
 
-
 ## -description
-
 
 Specifies the cache type.
 
 
 ## -enum-fields
-
-
-
 
 ### -field WriteCacheTypeUnknown
 
@@ -78,36 +73,13 @@ The device has a write-through cache.
 
 ## -remarks
 
+There are two main types of write cache: *write back* and *write through*. With a write-back cache, the device does not copy cache data to nonvolatile media until absolutely necessary. This type of operation improves the performance of write operations. With a write-through cache, the device writes data to the cache and the media in parallel. This type of operation does not improve write performance, but it makes subsequent read operations faster.
 
-
-There are two main types of write cache: <i>write back</i> and <i>write through</i>. With a 
-    write-back cache, the device does not copy cache data to nonvolatile media until absolutely necessary. This type 
-    of operation improves the performance of write operations. With a write-through cache, the device writes data to 
-    the cache and the media in parallel. This type of operation does not improve write performance, but it makes 
-    subsequent read operations faster.
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control 
-    code reports a <b>WRITE_CACHE_TYPE</b> value in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a> structure.
-
-
+The [IOCTL_STORAGE_QUERY_PROPERTY](./ni-winioctl-ioctl_storage_query_property.md) control code reports a **WRITE_CACHE_TYPE** value in the [STORAGE_WRITE_CACHE_PROPERTY](./ns-winioctl-storage_write_cache_property.md) structure.
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-enumeration-types">Disk Management Enumeration Types</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a>
- 
-
- 
-
+* [Disk Management Enumeration Types](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-enumeration-types)
+* [IOCTL_STORAGE_QUERY_PROPERTY](./ni-winioctl-ioctl_storage_query_property.md)
+* [STORAGE_WRITE_CACHE_PROPERTY](./ns-winioctl-storage_write_cache_property.md)
