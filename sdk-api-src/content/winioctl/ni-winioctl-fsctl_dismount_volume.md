@@ -69,32 +69,20 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-<text></text>
-
 
 ### -input-buffer-length
-
-<text></text>
 
 
 ### -output-buffer
 
-<text></text>
-
 
 ### -output-buffer-length
-
-<text></text>
 
 
 ### -in-out-buffer
 
-<text></text>
-
 
 ### -inout-buffer-length
-
-<text></text>
 
 
 ### -status-block
@@ -108,13 +96,13 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 
 ## -remarks
 
-The **FSCTL_DISMOUNT_VOLUME** control code will attempt to dismount a volume regardless of whether or not any other processes are using the volume, which can have unpredictable results for those processes if they do not hold a lock on the volume. For information about locking a volume, see [FSCTL_LOCK_VOLUME](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lock_volume).
+The **FSCTL_DISMOUNT_VOLUME** control code will attempt to dismount a volume regardless of whether or not any other processes are using the volume, which can have unpredictable results for those processes if they do not hold a lock on the volume. For information about locking a volume, see [FSCTL_LOCK_VOLUME](./ni-winioctl-fsctl_lock_volume.md).
 
-The *hDevice* handle passed to [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) must be a handle to a volume, opened for direct access. To retrieve a volume handle, call [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) with the *lpFileName* parameter set to a string of the following form:
+The *hDevice* handle passed to [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md) must be a handle to a volume, opened for direct access. To retrieve a volume handle, call [CreateFile](../fileapi/nf-fileapi-createfilea.md) with the *lpFileName* parameter set to a string of the following form:
 
 \\\\.\\*X*:
 
-where *X* is a hard-drive partition letter, floppy disk drive, or CD-ROM drive. The application must also specify the **FILE_SHARE_READ** and **FILE_SHARE_WRITE** flags in the *dwShareMode* parameter of [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea).
+where *X* is a hard-drive partition letter, floppy disk drive, or CD-ROM drive. The application must also specify the **FILE_SHARE_READ** and **FILE_SHARE_WRITE** flags in the *dwShareMode* parameter of [CreateFile](../fileapi/nf-fileapi-createfilea.md).
 
 If the specified volume is a system volume or contains a page file, the operation fails.
 
@@ -124,7 +112,7 @@ A dismounted volume has the following properties:
 * There are no open files.
 * The operating system does detect the volume.
 
-The operating system tries to mount an unmounted volume as soon as an attempt is made to access it. For example, a call to [GetLogicalDrives](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getlogicaldrives) triggers the operating system to mount unmounted volumes.
+The operating system tries to mount an unmounted volume as soon as an attempt is made to access it. For example, a call to [GetLogicalDrives](../fileapi/nf-fileapi-getlogicaldrives.md) triggers the operating system to mount unmounted volumes.
 
 Dismounting a volume is useful when a volume needs to disappear for a while. For example, an application that changes a volume file system from the FAT file system to the NTFS file system might use the following procedure.
 
@@ -140,67 +128,21 @@ A dismounting operation removes the volume from the FAT file system awareness. W
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
-<table>
-<tr>
-<th>Technology</th>
-<th>Supported</th>
-</tr>
-<tr>
-<td>
-Server Message Block (SMB) 3.0 protocol
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 Transparent Failover (TFO)
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 with Scale-out File Shares (SO)
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-Cluster Shared Volume File System (CsvFS)
-
-</td>
-<td>
-See comment
-
-</td>
-</tr>
-</table>
-
+Technology | Supported
+-----------|----------
+Server Message Block (SMB) 3.0 protocol | No
+SMB 3.0 Transparent Failover (TFO) | No
+SMB 3.0 with Scale-out File Shares (SO) | No
+Cluster Shared Volume File System (CsvFS) | See comment
 
 On CsvFs the node where dismount is issued will see a normal dismount sequence. On all other nodes FS will invalidate all the opened files.
 
 
 ## -see-also
 
-[CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
-
-[DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
-
-[ExitThread](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread)
-
-[FSCTL_LOCK_VOLUME](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lock_volume)
-
-[GetLogicalDrives](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getlogicaldrives)
-
-[Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
+* [CreateFile](../fileapi/nf-fileapi-createfilea.md)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [ExitThread](../processthreadsapi/nf-processthreadsapi-exitthread.md)
+* [FSCTL_LOCK_VOLUME](./ni-winioctl-fsctl_lock_volume.md)
+* [GetLogicalDrives](../fileapi/nf-fileapi-getlogicaldrives.md)
+* [Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
