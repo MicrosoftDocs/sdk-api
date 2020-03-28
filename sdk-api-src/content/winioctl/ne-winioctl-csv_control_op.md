@@ -44,18 +44,12 @@ req.redist:
 
 # CSV_CONTROL_OP enumeration
 
-
 ## -description
 
-
-Specifies the type of CSV control operation to use with the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control">FSCTL_CSV_CONTROL</a> control code.
+Specifies the type of CSV control operation to use with the [FSCTL_CSV_CONTROL](./ni-winioctl-fsctl_csv_control.md) control code.
 
 
 ## -enum-fields
-
-
-
 
 ### -field CsvControlStartRedirectFile
 
@@ -69,16 +63,12 @@ Stop file redirection.
 
 ### -field CsvControlQueryRedirectState
 
-Search for state redirection. When this value is specified, the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_query_redirect_state">CSV_QUERY_REDIRECT_STATE</a> structure must also 
-      be used.
+Search for state redirection. When this value is specified, the [CSV_QUERY_REDIRECT_STATE](./ns-winioctl-csv_query_redirect_state.md) structure must also be used.
 
 
 ### -field CsvControlQueryFileRevision
 
-Search for file revision. When this value is specified, the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_query_file_revision">CSV_QUERY_FILE_REVISION</a> structure must also be 
-      used.
+Search for file revision. When this value is specified, the [CSV_QUERY_FILE_REVISION](./ns-winioctl-csv_query_file_revision.md) structure must also be used.
 
 
 ### -field CsvControlQueryMdsPath
@@ -107,54 +97,21 @@ Search for file revision. When this value is specified, the
 
 ### -field CsvControlEnableCaching
 
-
-
-
 #### - CsvControlMdsPath
 
-Search for MDS path. When this value is specified, the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_query_mds_path">CSV_QUERY_MDS_PATH</a> structure must also be used.
+Search for MDS path. When this value is specified, the [CSV_QUERY_MDS_PATH](./ns-winioctl-csv_query_mds_path.md) structure must also be used.
 
 
 ## -remarks
 
-
-
-An alternative to calling the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control">FSCTL_CSV_CONTROL</a> 
-    control code with this enumeration is to use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_control_param">CSV_CONTROL_PARAM</a> structure, which encapsulates a member 
-    of this enumeration type.
-
-
+An alternative to calling the [FSCTL_CSV_CONTROL](./ni-winioctl-fsctl_csv_control.md) control code with this enumeration is to use the [CSV_CONTROL_PARAM](./ns-winioctl-csv_control_param.md) structure, which encapsulates a member of this enumeration type.
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_control_param">CSV_CONTROL_PARAM</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_query_file_revision">CSV_QUERY_FILE_REVISION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_query_mds_path">CSV_QUERY_MDS_PATH</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_query_redirect_state">CSV_QUERY_REDIRECT_STATE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control">FSCTL_CSV_CONTROL</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-enumerations">File Management Enumerations</a>
- 
-
- 
-
+* [CSV_CONTROL_PARAM](./ns-winioctl-csv_control_param.md)
+* [CSV_QUERY_FILE_REVISION](./ns-winioctl-csv_query_file_revision.md)
+* [CSV_QUERY_MDS_PATH](./ns-winioctl-csv_query_mds_path.md)
+* [CSV_QUERY_REDIRECT_STATE](./ns-winioctl-csv_query_redirect_state.md)
+* [FSCTL_CSV_CONTROL](./ni-winioctl-fsctl_csv_control.md)
+* [File Management Enumerations](https://docs.microsoft.com/windows/desktop/FileIO/file-management-enumerations)
