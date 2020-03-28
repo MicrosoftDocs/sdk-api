@@ -44,23 +44,17 @@ req.redist:
 
 # ELEMENT_TYPE enumeration
 
-
 ## -description
-
 
 Specifies the element type of a changer device.
 
 
 ## -enum-fields
 
-
-
-
 ### -field AllElements
 
 All elements of a changer, including its robotic transport, drives, slots, and insert/eject ports. This value is valid only with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_get_element_status">IOCTL_CHANGER_GET_ELEMENT_STATUS</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_initialize_element_status">IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS</a>.
+[IOCTL_CHANGER_GET_ELEMENT_STATUS](./ni-winioctl-ioctl_changer_get_element_status.md) or [IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS](./ni-winioctl-ioctl_changer_initialize_element_status.md).
 
 
 ### -field ChangerTransport
@@ -85,28 +79,17 @@ Data transfer element where data can be read from and written to media.
 
 ### -field ChangerDoor
 
-Mechanism that provides access to all media in a changer at one time (as compared to an IEport that provides access to one or more, but not all, media). For example, a large front door or a magazine that contains all media in the changer is an element of this type. This value is valid only with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_set_access">IOCTL_CHANGER_SET_ACCESS</a>.
+Mechanism that provides access to all media in a changer at one time (as compared to an IEport that provides access to one or more, but not all, media). For example, a large front door or a magazine that contains all media in the changer is an element of this type. This value is valid only with [IOCTL_CHANGER_SET_ACCESS](./ni-winioctl-ioctl_changer_set_access.md).
 
 
 ### -field ChangerKeypad
 
-Keypad or other input control on the front panel of a changer. This value is valid only with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_set_access">IOCTL_CHANGER_SET_ACCESS</a>.
+Keypad or other input control on the front panel of a changer. This value is valid only with [IOCTL_CHANGER_SET_ACCESS](./ni-winioctl-ioctl_changer_set_access.md).
 
 
 ### -field ChangerMaxElement
 
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a>
- 
-
- 
-
+* [CHANGER_ELEMENT](./ns-winioctl-changer_element.md)
