@@ -47,15 +47,10 @@ req.redist:
 
 ## -description
 
-
-Specifies the various types of storage 
-    buses.
+Specifies the various types of storage buses.
 
 
 ## -enum-fields
-
-
-
 
 ### -field BusTypeUnknown
 
@@ -108,17 +103,15 @@ RAID bus.
 ### -field BusTypeSas
 
 Serial Attached SCSI (SAS) bus.
-      
 
-<b>Windows Server 2003:  </b>This is not supported before Windows Server 2003 with SP1.
+**Windows Server 2003:**  This is not supported before Windows Server 2003 with SP1.
 
 
 ### -field BusTypeSata
 
 SATA bus.
-      
 
-<b>Windows Server 2003:  </b>This is not supported before Windows Server 2003 with SP1.
+**Windows Server 2003:**  This is not supported before Windows Server 2003 with SP1.
 
 
 ### -field BusTypeSd
@@ -154,18 +147,11 @@ SATA bus.
 #### - BusTypeiSCSI
 
 iSCSI bus.
-      
 
-<b>Windows Server 2003:  </b>This is not supported before Windows Server 2003 with SP1.
+**Windows Server 2003:**  This is not supported before Windows Server 2003 with SP1.
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_media_info">DEVICE_MEDIA_INFO</a>
- 
-
- 
+* [DEVICE_MEDIA_INFO](./ns-winioctl-device_media_info.md)
 
