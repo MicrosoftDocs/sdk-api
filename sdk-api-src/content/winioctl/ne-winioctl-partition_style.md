@@ -47,18 +47,14 @@ req.redist:
 
 ## -description
 
-
 Represents the format of a partition.
 
 
 ## -enum-fields
 
-
-
-
 ### -field PARTITION_STYLE_MBR
 
-Master boot record (MBR) format. This corresponds to standard <i>AT-style</i> MBR partitions.
+Master boot record (MBR) format. This corresponds to standard *AT-style* MBR partitions.
 
 
 ### -field PARTITION_STYLE_GPT
@@ -73,23 +69,7 @@ Partition not formatted in either of the recognized formats—MBR or GPT.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-system-recognition">File System Recognition</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_partition_info_ex">IOCTL_DISK_GET_PARTITION_INFO_EX</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_partition_info_ex">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a>
- 
-
- 
-
+* [File System Recognition](https://docs.microsoft.com/windows/desktop/FileIO/file-system-recognition)
+* [IOCTL_DISK_GET_PARTITION_INFO_EX](./ni-winioctl-ioctl_disk_get_partition_info_ex.md)
+* [IOCTL_DISK_SET_PARTITION_INFO_EX](./ni-winioctl-ioctl_disk_set_partition_info_ex.md)
+* [PARTITION_INFORMATION_EX](./ns-winioctl-partition_information_ex.md)
