@@ -71,7 +71,7 @@ Suspends the current thread until the specified condition is met. Execution resu
 
 The time interval for which execution is to be suspended, in milliseconds.
 
-A value of zero, together with the bAlertable parameter set to FALSE, causes the thread to relinquish the remainder of its time slice to any other thread that is ready to run. If there are no other threads ready to run, the function returns immediately, and the thread continues execution.<b>Windows XP: </b>A value of zero causes the thread to relinquish the remainder of its time slice to any other thread of equal priority that is ready to run. If there are no other threads of equal priority ready to run, the function returns immediately, and the thread continues execution. This behavior changed starting with Windows Server 2003.
+A value of zero, together with the bAlertable parameter set to FALSE, causes the thread to relinquish the remainder of its time slice to any other thread that is ready to run, if there are no pending user APCs on the calling thread. If there are no other threads ready to run and no user APCs are queued, the function returns immediately, and the thread continues execution.<b>Windows XP: </b>A value of zero causes the thread to relinquish the remainder of its time slice to any other thread of equal priority that is ready to run. If there are no other threads of equal priority ready to run, the function returns immediately, and the thread continues execution. This behavior changed starting with Windows Server 2003.
 
 
 
