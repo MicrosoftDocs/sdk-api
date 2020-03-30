@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>InflateRect</b> function increases or decreases the width and height of the specified rectangle. The <b>InflateRect</b> function adds <i>dx</i> units to the left and right ends of the rectangle and <i>dy</i> units to the top and bottom. The <i>dx</i> and <i>dy</i> parameters are signed values; positive values increase the width and height, and negative values decrease them.
+The <b>InflateRect</b> function increases or decreases the width and height of the specified rectangle. The <b>InflateRect</b> function adds <i>-dx</i> units to the left end and <i>dx</i> to the right end of the rectangle and <i>-dy</i> units to the top and <i>dy</i> to the bottom. The <i>dx</i> and <i>dy</i> parameters are signed values; positive values increase the width and height, and negative values decrease them.
 
 
 ## -parameters
