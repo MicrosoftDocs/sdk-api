@@ -45,21 +45,15 @@ ms.custom: 19H1
 
 # ITfCategoryMgr::GetGUIDDescription
 
-
 ## -description
 
-
-
+Obtains the description of the specified GUID from the Windows registry.
 
 ## -parameters
-
-
-
 
 ### -param rguid [in]
 
 Specifies the GUID to obtain the description for.
-
 
 ### -param pbstrDesc [out]
 
@@ -67,10 +61,7 @@ Pointer to a <b>BSTR</b> value that receives the description string. Allocate us
 
 Pointer to a <b>BSTR</b> value that receives the description string. This must be allocated using <b>SysAllocString</b>. The caller must free this memory using <b>SysFreeString</b> when it is no longer required.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -114,25 +105,6 @@ The method cannot obtain the description.
 </tr>
 </table>
  
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registerguiddescription">ITfCategoryMgr::RegisterGUIDDescription</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-unregisterguiddescription">ITfCategoryMgr::UnregisterGUIDDescription</a>
- 
-
- 
-
+[ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::RegisterGUIDDescription](nf-msctf-itfcategorymgr-registerguiddescription.md), [ITfCategoryMgr::UnregisterGUIDDescription](nf-msctf-itfcategorymgr-unregisterguiddescription.md)
