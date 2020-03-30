@@ -64,8 +64,7 @@ The <b>Font::GetStyle</b> method gets the style of this font's typeface.
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns a value that is an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-fontstyle">FontStyle</a> enumeration or the result of a bitwise 
 						<b>OR</b> applied to two or more elements of the <b>FontStyle</b> enumeration. 

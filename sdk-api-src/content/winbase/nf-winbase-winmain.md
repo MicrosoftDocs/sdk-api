@@ -227,8 +227,7 @@ Activates and displays a window. If the window is minimized or maximized, the sy
 
 
 
-Type: <strong>Type: <b>int</b>
-</strong>
+Type: <b>int</b>
 
 If the function succeeds, terminating when it receives a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-quit">WM_QUIT</a> message, it should return the exit value contained in that message's <i>wParam</i> parameter. If the function terminates before entering the message loop, it should return zero.
 

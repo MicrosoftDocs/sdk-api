@@ -73,8 +73,7 @@ A handle to the window to bring to the top of the Z order.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 

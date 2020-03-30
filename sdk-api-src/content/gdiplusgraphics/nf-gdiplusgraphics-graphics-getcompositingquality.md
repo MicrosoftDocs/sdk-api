@@ -65,8 +65,7 @@ The <b>Graphics::GetCompositingQuality</b> method gets the compositing quality c
 
 
 
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-compositingquality">CompositingQuality</a></b>
-</strong>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-compositingquality">CompositingQuality</a></b>
 
 This method returns an element of the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-compositingquality">CompositingQuality</a> enumeration that indicates the compositing quality currently set for this 

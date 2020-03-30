@@ -73,8 +73,7 @@ The current default process layout. For a list of values, see <a href="https://d
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero. 
 

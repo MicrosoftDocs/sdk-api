@@ -65,8 +65,7 @@ The <b>Font::GetUnit</b> method returns the unit of measure of this
 
 
 
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a></b>
-</strong>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a></b>
 
 This method returns one of the elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a> enumeration.
 

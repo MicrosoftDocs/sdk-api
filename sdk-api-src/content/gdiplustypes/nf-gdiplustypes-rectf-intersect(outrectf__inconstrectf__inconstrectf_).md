@@ -85,8 +85,7 @@ Reference to one of the two rectangles to be intersected.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the intersection of the two rectangles is not empty, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

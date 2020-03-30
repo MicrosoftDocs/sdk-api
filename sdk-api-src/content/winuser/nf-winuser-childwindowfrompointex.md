@@ -145,8 +145,7 @@ Skips transparent child windows
 
 
 
-Type: <strong>Type: <b>HWND</b>
-</strong>
+Type: <b>HWND</b>
 
 The return value is a handle to the first child window that contains 
 				the point and meets the criteria specified by <i>uFlags</i>. 

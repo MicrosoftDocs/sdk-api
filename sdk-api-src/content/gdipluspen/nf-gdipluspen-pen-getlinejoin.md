@@ -65,8 +65,7 @@ The <b>Pen::GetLineJoin</b> method gets the line join style currently set for th
 
 
 
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linejoin">LineJoin</a></b>
-</strong>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linejoin">LineJoin</a></b>
 
 This method returns an element of the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linejoin">LineJoin</a> enumeration that indicates the style used at the point where line segments join.

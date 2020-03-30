@@ -64,8 +64,7 @@ The <b>Region::GetDataSize</b> method gets the number of bytes of data that desc
 
 
 
-Type: <strong>Type: <b>UINT</b>
-</strong>
+Type: <b>UINT</b>
 
 This method returns the number of bytes of region data.
 

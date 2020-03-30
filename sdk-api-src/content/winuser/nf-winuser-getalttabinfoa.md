@@ -98,8 +98,7 @@ The size, in characters, of the <i>pszItemText</i> buffer.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero. 
 

@@ -48,9 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
+Represents a 3x3 matrix that, in turn, represents an affine transformation.
 
 ## -inheritance
 
@@ -262,3 +260,6 @@ Gets or sets the element in the second row, second column of the affine transfor
 </tr>
 </table> 
 
+## -see-also
+
+[InkTransform class](https://docs.microsoft.com/windows/win32/tablet/inktransform-class)

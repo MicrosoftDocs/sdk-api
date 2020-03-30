@@ -91,8 +91,7 @@ Application-defined data. This is the value that was specified as the <i>lParam<
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 Return <b>TRUE</b> to continue the property list enumeration.
 

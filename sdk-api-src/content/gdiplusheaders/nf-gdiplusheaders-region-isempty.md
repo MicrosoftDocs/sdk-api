@@ -69,8 +69,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgrap
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If this region is empty, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

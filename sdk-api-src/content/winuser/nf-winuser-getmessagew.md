@@ -117,8 +117,7 @@ If <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are both zero, <b>GetMessage</b
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function retrieves a message other than <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-quit">WM_QUIT</a>, the return value is nonzero.
 

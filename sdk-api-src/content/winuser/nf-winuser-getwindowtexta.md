@@ -94,8 +94,7 @@ The maximum number of characters to copy to the buffer, including the null chara
 
 
 
-Type: <strong>Type: <b>int</b>
-</strong>
+Type: <b>int</b>
 
 If the function succeeds, the return value is the length, in characters, of the copied string, not including the terminating null character. If the window has no title bar or text, if the title bar is empty, or if the window or control handle is invalid, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 

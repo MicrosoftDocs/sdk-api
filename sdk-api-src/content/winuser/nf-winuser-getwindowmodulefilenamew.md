@@ -84,8 +84,7 @@ The maximum number of characters that can be copied into the <i>lpszFileName</i>
 
 
 
-Type: <strong>Type: <b>UINT</b>
-</strong>
+Type: <b>UINT</b>
 
 The return value is the total number of characters copied into the buffer. 
 

@@ -64,8 +64,7 @@ The <b>Color::ToCOLORREF</b> method converts this <a href="https://docs.microsof
 
 
 
-Type: <strong>Type: <b>COLORREF</b>
-</strong>
+Type: <b>COLORREF</b>
 
 This method returns a GDI<b>COLORREF</b> value that has the same red, green, and blue components as this color's <b>ARGB</b> value.
 

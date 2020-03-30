@@ -45,22 +45,13 @@ ms.custom: 19H1
 
 # IEnumTfDocumentMgrs::Reset
 
-
 ## -description
 
-
-
+Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -81,7 +72,7 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
-
+[IEnumTfDocumentMgrs interface](nn-msctf-ienumtfdocumentmgrs.md), [ITfDocumentMgr interface](nn-msctf-itfdocumentmgr.md)

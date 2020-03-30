@@ -65,8 +65,7 @@ The <b>Graphics::GetPageScale</b> method gets the scaling factor currently set f
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns the scaling factor currently set for the page transformation of this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.

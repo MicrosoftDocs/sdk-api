@@ -65,8 +65,7 @@ The <b>Pen::GetMiterLimit</b> method gets the miter length currently set for thi
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns a real number that indicates the miter limit of this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.

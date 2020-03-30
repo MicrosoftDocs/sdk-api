@@ -64,8 +64,7 @@ The <b>MetafileHeader::GetEmfHeader</b> method gets an <a href="https://docs.mic
 
 
 
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/ns-gdiplusmetaheader-enhmetaheader3">ENHMETAHEADER3</a>*</b>
-</strong>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/ns-gdiplusmetaheader-enhmetaheader3">ENHMETAHEADER3</a>*</b>
 
 If the associated metafile is in the EMF or EMF+ format, this method returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/ns-gdiplusmetaheader-enhmetaheader3">ENHMETAHEADER3</a> structure that contains properties of the associated metafile. If the associated metafile is in the WMF format, this method returns <b>NULL</b>.
 

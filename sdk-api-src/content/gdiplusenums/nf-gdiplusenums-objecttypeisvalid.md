@@ -70,8 +70,7 @@ Element of the ObjectType enumeration to be tested.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If objectType is equal to ObjectTypeInvalid, this function returns <b>FALSE</b>.
 

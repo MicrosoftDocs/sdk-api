@@ -65,8 +65,7 @@ The <b>LinearGradientBrush::GetBlendCount</b> method gets the number of blend fa
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the number of blend factors currently set for this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a> object. If no custom blend has been set by using <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-setblend">LinearGradientBrush::SetBlend</a>, or if invalid positions were passed to <b>LinearGradientBrush::SetBlend</b>, then <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getblend">LinearGradientBrush::GetBlend</a> returns 1.

@@ -45,35 +45,25 @@ ms.custom: 19H1
 
 # ITfCategoryMgr::IsEqualTfGuidAtom
 
-
 ## -description
 
-
-
+Determines whether the specified atom represents the specified GUID in the internal table.
 
 ## -parameters
-
-
-
 
 ### -param guidatom [in]
 
 Specifies an atom that represents a GUID in the internal table.
 
-
 ### -param rguid [in]
 
 Specifies the address of the GUID to compare with the atom in the internal table.
-
 
 ### -param pfEqual [out]
 
 Pointer to a Boolean variable that receives an indication of whether the atom represents the GUID.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -116,35 +106,11 @@ The specified <i>pfEqual</i> parameter was <b>NULL</b> on input.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the atom specified by the <i>guidatom</i> parameter represents the <b>GUID</b> specified by the <i>rguid</i> parameter, the <i>pfEqual</i> parameter receives a nonzero value. Otherwise, the <i>pfEqual</i> parameter receives zero.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-getguid">ITfCategoryMgr::GetGUID</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registerguid">ITfCategoryMgr::RegisterGUID</a>
- 
-
- 
-
+[ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::GetGUID](nf-msctf-itfcategorymgr-getguid.md), [ITfCategoryMgr::RegisterGUID](nf-msctf-itfcategorymgr-registerguid.md)

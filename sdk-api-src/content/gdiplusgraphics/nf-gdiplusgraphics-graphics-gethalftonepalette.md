@@ -64,8 +64,7 @@ The <b>Graphics::GetHalftonePalette</b> method gets a Windows halftone palette.
 
 
 
-Type: <strong>Type: <b>static</b>
-</strong>
+Type: <b>static</b>
 
 This method returns a handle to a Windows halftone palette.
 

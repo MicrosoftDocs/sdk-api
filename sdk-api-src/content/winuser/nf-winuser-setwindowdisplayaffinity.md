@@ -73,8 +73,7 @@ Set this value to WDA_NONE to remove the monitor-only affinity.
 
 ## -returns
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b> when, for example,  the function call is made on a non top-level window. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 

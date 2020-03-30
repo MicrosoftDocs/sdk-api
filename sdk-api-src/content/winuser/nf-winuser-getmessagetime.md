@@ -71,8 +71,7 @@ Retrieves the message time for the last message retrieved by the <a href="https:
 
 
 
-Type: <strong>Type: <b>LONG</b>
-</strong>
+Type: <b>LONG</b>
 
 The return value specifies the message time.
 
@@ -83,7 +82,7 @@ The return value specifies the message time.
 
 
 
-The return value from the <b>GetMessageTime</b> function does not necessarily increase between subsequent messages, because the value wraps to wraps to the minimum value for a long integer if the timer count exceeds the maximum value for a long integer.
+The return value from the <b>GetMessageTime</b> function does not necessarily increase between subsequent messages, because the value wraps to the minimum value for a long integer if the timer count exceeds the maximum value for a long integer.
 
 To calculate time delays between messages, subtract the time of the first message from the time of the second message (ignoring overflow) and compare the result of the subtraction against the desired delay amount. 
 

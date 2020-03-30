@@ -76,8 +76,7 @@ Real number that specifies the y-coordinate of the point to test.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the specified coordinates are inside the visible clipping region, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

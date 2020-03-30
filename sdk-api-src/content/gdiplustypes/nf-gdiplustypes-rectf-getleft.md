@@ -64,8 +64,7 @@ The <b>RectF::GetLeft</b> method gets the x-coordinate of the left edge of the r
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns the x-coordinate of the left edge of the rectangle.
 

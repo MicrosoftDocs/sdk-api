@@ -77,8 +77,7 @@ A handle to the window to be tested.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the specified window, its parent window, its parent's parent window, and so forth, have the <b>WS_VISIBLE</b> style, the return value is nonzero. Otherwise, the return value is zero. 
 

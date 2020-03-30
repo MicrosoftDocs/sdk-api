@@ -64,8 +64,7 @@ The <b>MetafileHeader::IsWmfPlaceable</b> method determines whether the associat
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the associated metafile is a placeable metafile, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

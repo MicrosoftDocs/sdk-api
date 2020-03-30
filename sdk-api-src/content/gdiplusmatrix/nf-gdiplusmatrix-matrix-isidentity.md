@@ -64,8 +64,7 @@ The <b>Matrix::IsIdentity</b> method determines whether this matrix is the ident
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If this matrix is the identity matrix, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

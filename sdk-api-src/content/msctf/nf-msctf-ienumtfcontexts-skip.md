@@ -45,25 +45,17 @@ ms.custom: 19H1
 
 # IEnumTfContexts::Skip
 
-
 ## -description
 
-
-
+Moves the current position forward in the enumeration sequence by the specified number of elements.
 
 ## -parameters
-
-
-
 
 ### -param ulCount [in]
 
 Contains the number of elements to skip.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,7 +87,7 @@ The method reached the end of the enumeration before the specified number of ele
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
-
+[IEnumTfContexts interface](nn-msctf-ienumtfcontexts.md), [ITfContext interface](nn-msctf-itfcontext.md)

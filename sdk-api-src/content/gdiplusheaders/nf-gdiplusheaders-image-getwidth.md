@@ -64,8 +64,7 @@ The <b>Image::GetWidth</b> method gets the width, in pixels, of this image.
 
 
 
-Type: <strong>Type: <b>UINT</b>
-</strong>
+Type: <b>UINT</b>
 
 This method returns the width, in pixels, of this image.
 

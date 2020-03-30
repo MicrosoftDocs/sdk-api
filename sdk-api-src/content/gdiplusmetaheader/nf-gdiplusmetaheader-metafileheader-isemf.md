@@ -64,8 +64,7 @@ The <b>MetafileHeader::IsEmf</b> method determines whether the associated metafi
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the associated metafile is in the EMF format, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

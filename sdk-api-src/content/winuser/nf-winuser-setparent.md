@@ -86,8 +86,7 @@ A handle to the new parent window. If this parameter is <b>NULL</b>, the desktop
 
 
 
-Type: <strong>Type: <b>HWND</b>
-</strong>
+Type: <b>HWND</b>
 
 If the function succeeds, the return value is a handle to the previous parent window.
 

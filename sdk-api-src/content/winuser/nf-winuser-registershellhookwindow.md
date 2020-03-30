@@ -78,8 +78,7 @@ A handle to the window to register for Shell hook messages.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>.
 

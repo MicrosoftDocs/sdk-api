@@ -45,16 +45,11 @@ ms.custom: 19H1
 
 # IEnumTfPropertyValue::Next
 
-
 ## -description
 
-
-
+Obtains, from the current position, the specified number of elements in the enumeration sequence.
 
 ## -parameters
-
-
-
 
 ### -param ulCount [in]
 
@@ -116,23 +111,7 @@ The method reached the end of the enumeration before the specified number of ele
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfpropertyvalue">IEnumTfPropertyValue</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_propertyval">TF_PROPERTYVAL
-      </a>
- 
-
- 
-
+[IEnumTfPropertyValue interface](nn-msctf-ienumtfpropertyvalue.md), [TF_PROPERTYVAL structure](ns-msctf-tf_propertyval.md)

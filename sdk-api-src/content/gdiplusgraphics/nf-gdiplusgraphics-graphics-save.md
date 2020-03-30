@@ -64,8 +64,7 @@ The <b>Graphics::Save</b> method saves the current state (transformations, clipp
 
 
 
-Type: <strong>Type: <b>GraphicsState</b>
-</strong>
+Type: <b>GraphicsState</b>
 
 This method returns a value that identifies the saved state. Pass this value to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-restore">Graphics::Restore</a> method when you want to restore the state. The <b>GraphicsState</b> data type is defined in Gdiplusenums.h.
 

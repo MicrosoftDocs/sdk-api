@@ -216,8 +216,7 @@ Retrieves extra information private to the application, such as handles or point
 
 
 
-Type: <strong>Type: <b>LONG_PTR</b>
-</strong>
+Type: <b>LONG_PTR</b>
 
 If the function succeeds, the return value is the requested value.
 

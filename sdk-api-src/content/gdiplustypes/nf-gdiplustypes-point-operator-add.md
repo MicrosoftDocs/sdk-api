@@ -69,8 +69,7 @@ Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusty
 
 
 
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a></b>
-</strong>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a></b>
 
 This method returns a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object that is the sum of two <b>Point</b> objects.
 

@@ -77,8 +77,7 @@ The point to be checked.
 
 
 
-Type: <strong>Type: <b>HWND</b>
-</strong>
+Type: <b>HWND</b>
 
 The return value is a handle to the window that contains the point. If no window exists at the given point, the return value is <b>NULL</b>. If the point is over a static text control, the return value is a handle to the window under the static text control. 
 

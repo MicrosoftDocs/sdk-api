@@ -45,35 +45,25 @@ ms.custom: 19H1
 
 # ITextStoreACPServices::CreateRange
 
-
 ## -description
 
-
-
+Creates a range object from two ACP values.
 
 ## -parameters
-
-
-
 
 ### -param acpStart [in]
 
 Contains the starting position of the range.
 
-
 ### -param acpEnd [in]
 
 Contains the ending position of the range.
-
 
 ### -param ppRange [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrangeacp">ITfRangeACP</a> interface pointer that receives the range object.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -116,23 +106,7 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itextstoreacpservices">ITextStoreACPServices</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrangeacp">ITfRangeACP
-      </a>
- 
-
- 
-
+[ITextStoreACPServices interface](nn-msctf-itextstoreacpservices.md), [ITfRangeACP interface](nn-msctf-itfrangeacp.md)

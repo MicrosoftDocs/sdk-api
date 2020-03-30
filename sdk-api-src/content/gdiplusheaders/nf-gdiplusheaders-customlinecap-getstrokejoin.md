@@ -64,8 +64,7 @@ The <b>CustomLineCap::GetStrokeJoin</b> method returns the style of <a href="htt
 
 
 
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linejoin">LineJoin</a></b>
-</strong>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linejoin">LineJoin</a></b>
 
 This method returns the style of line join.
 

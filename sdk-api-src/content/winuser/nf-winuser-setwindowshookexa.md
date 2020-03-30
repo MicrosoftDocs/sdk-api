@@ -271,8 +271,7 @@ The identifier of the thread with which the hook procedure is to be associated. 
 
 
 
-Type: <strong>Type: <b>HHOOK</b>
-</strong>
+Type: <b>HHOOK</b>
 
 If the function succeeds, the return value is the handle to the hook procedure. 
 

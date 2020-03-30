@@ -87,8 +87,7 @@ Specifies whether the hook procedure must process the message. If <i>nCode</i> i
 
 
 
-Type: <strong>Type: <b>LRESULT</b>
-</strong>
+Type: <b>LRESULT</b>
 
 If <i>nCode</i> is less than zero, the hook procedure must return the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callnexthookex">CallNextHookEx</a>. 
 

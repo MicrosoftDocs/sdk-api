@@ -74,8 +74,7 @@ To obtain additional information about how the message was sent, use the <a href
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the window procedure is processing a message sent to it from another thread using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function, the return value is nonzero.
 

@@ -64,8 +64,7 @@ The <b>GraphicsPathIterator::GetSubpathCount</b> method returns the number of su
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the number of subpaths (also called figures) in the path.
 

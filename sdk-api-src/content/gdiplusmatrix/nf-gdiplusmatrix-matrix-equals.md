@@ -71,8 +71,7 @@ Pointer to a
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the elements of the two matrices are the same, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

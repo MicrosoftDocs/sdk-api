@@ -79,8 +79,7 @@ A pointer to a structure that contains the message.
 
 
 
-Type: <strong>Type: <b>LRESULT</b>
-</strong>
+Type: <b>LRESULT</b>
 
 The return value specifies the value returned by the window procedure. Although its meaning depends on the message being dispatched, the return value generally is ignored.
 

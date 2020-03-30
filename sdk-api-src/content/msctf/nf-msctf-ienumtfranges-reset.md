@@ -45,18 +45,11 @@ ms.custom: 19H1
 
 # IEnumTfRanges::Reset
 
-
 ## -description
 
-
-
+Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
@@ -81,7 +74,7 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
-
+[IEnumTfRanges interface](nn-msctf-ienumtfranges.md), [ITfRange interface](nn-msctf-itfrange.md)

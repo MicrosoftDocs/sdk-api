@@ -65,8 +65,7 @@ The <b>Image::GetType</b> method gets the type (bitmap or metafile) of this
 
 
 
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-imagetype">ImageType</a></b>
-</strong>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-imagetype">ImageType</a></b>
 
 This method returns an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-imagetype">ImageType</a> enumeration that indicates the image type.
 

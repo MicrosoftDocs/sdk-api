@@ -14,8 +14,8 @@ dev_langs:
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -85,8 +85,8 @@ For information on special device names, see
 To create a file stream, specify the name of the file, a colon, and then the name of the stream. For more 
        information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-streams">File Streams</a>.
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CreateFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
+<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CreateFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
+<div> </div>
 
 ### -param dwDesiredAccess [in]
 
@@ -131,9 +131,9 @@ To enable a process to share a file or device while another process has the file
        this parameter with the <i>dwDesiredAccess</i> parameter, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
 
-<div class="alert"><b>Note</b>  The sharing options for each open handle remain in effect until that handle is closed, regardless of 
+<div class="alert"><b>Note</b>  The sharing options for each open handle remain in effect until that handle is closed, regardless of 
        process context.</div>
-<div> </div>
+<div> </div>
 <table>
 <tr>
 <th>Value</th>
@@ -164,8 +164,8 @@ Otherwise, other processes cannot open the file or device if they request delete
 If this flag is not specified, but the file or device has been opened for delete access, the function 
          fails.
 
-<div class="alert"><b>Note</b>  Delete access allows both delete and rename operations.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  Delete access allows both delete and rename operations.</div>
+<div> </div>
 </td>
 </tr>
 <tr>
@@ -201,7 +201,7 @@ If this flag is not specified, but the file or device has been opened for write 
 </td>
 </tr>
 </table>
- 
+ 
 
 
 ### -param lpSecurityAttributes [in, optional]
@@ -333,7 +333,7 @@ The calling process must open the file with the <b>GENERIC_WRITE</b> bit set as 
 </td>
 </tr>
 </table>
- 
+ 
 
 
 ### -param dwFlagsAndAttributes [in]
@@ -353,11 +353,11 @@ This parameter can also contain Security Quality of Service (SQOS) information b
        <b>SECURITY_SQOS_PRESENT</b> flag. Additional SQOS-related flags information is presented in 
        the table following the attributes and flags tables.
 
-<div class="alert"><b>Note</b>  When <b>CreateFile</b> opens an existing file, it generally 
+<div class="alert"><b>Note</b>  When <b>CreateFile</b> opens an existing file, it generally 
        combines the file flags with the file attributes of the existing file, and ignores any file attributes supplied 
        as part of <i>dwFlagsAndAttributes</i>. Special cases are detailed in 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.</div>
-<div> </div>
+<div> </div>
 Some of the following file attributes and flags may only apply to files and not necessarily all other types 
        of devices that <b>CreateFile</b> can open. For additional 
        information, see the Remarks section of this topic and 
@@ -467,13 +467,13 @@ The file is part of or used exclusively by an operating system.
 <td width="60%">
 The file is being used for temporary storage.
 
-For more information, see the <a href="https://docs.microsoft.com/">Caching Behavior</a> section of this 
+For more information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>
 </tr>
 </table>
- 
+ 
 
 <table>
 <tr>
@@ -614,7 +614,7 @@ Access is intended to be random. The system can use this as a hint to optimize f
 This flag has no effect if the file system does not support cached I/O and 
          <b>FILE_FLAG_NO_BUFFERING</b>.
 
-For more information, see the <a href="https://docs.microsoft.com/">Caching Behavior</a> section of this 
+For more information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>
@@ -631,7 +631,7 @@ The file or device is being opened with session awareness. If this flag is not s
          This flag has no effect for callers not in session 0. This flag is supported only on server editions of 
          Windows.
 
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This flag is not supported before Windows Server 2012.
+<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This flag is not supported before Windows Server 2012.
 
 </td>
 </tr>
@@ -650,7 +650,7 @@ This flag should not be used if read-behind (that is, reverse scans) will be use
 This flag has no effect if the file system does not support cached I/O and 
          <b>FILE_FLAG_NO_BUFFERING</b>.
 
-For more information, see the <a href="https://docs.microsoft.com/">Caching Behavior</a> section of this 
+For more information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>
@@ -664,13 +664,13 @@ For more information, see the <a href="https://docs.microsoft.com/">Caching Beha
 <td width="60%">
 Write operations will not go through any intermediate cache, they will go directly to disk.
 
-For additional information, see the <a href="https://docs.microsoft.com/">Caching Behavior</a> section of this 
+For additional information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>
 </tr>
 </table>
- 
+ 
 
 The <i>dwFlagsAndAttributes</i>parameter can also specify SQOS information. For more 
        information, see 
@@ -750,7 +750,7 @@ Impersonate a client at the impersonation level. This is the default behavior if
 </td>
 </tr>
 </table>
- 
+ 
 
 
 ### -param hTemplateFile [in, optional]
@@ -800,7 +800,7 @@ When an application is finished using the object handle returned by
     frees up system resources, but can have wider influence on things like sharing the file or device and committing 
     data to disk. Specifics are noted within this topic as appropriate.
 
-<b>Windows Server 2003 and Windows XP:  </b>A sharing violation occurs if an attempt is made to open a file or directory for deletion on a remote 
+<b>Windows Server 2003 and Windows XP:  </b>A sharing violation occurs if an attempt is made to open a file or directory for deletion on a remote 
      computer when the value of the <i>dwDesiredAccess</i> parameter is the 
      <b>DELETE</b> access flag (0x00010000) <b>OR</b>'ed with any other access flag, and the remote file 
      or directory has not been opened with <b>FILE_SHARE_DELETE</b>. To avoid the sharing violation 
@@ -818,7 +818,7 @@ You cannot use <b>CreateFile</b> to control compression,
      <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>, 
      and <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>.
 
-<b>Windows Server 2003 and Windows XP:  </b>For backward compatibility purposes, <b>CreateFile</b> does 
+<b>Windows Server 2003 and Windows XP:  </b>For backward compatibility purposes, <b>CreateFile</b> does 
      not apply inheritance rules when you specify a security descriptor in 
      <i>lpSecurityAttributes</i>. To support inheritance, functions that later query the security 
      descriptor of this file may heuristically determine and report that inheritance is in effect. For more 
@@ -840,7 +840,7 @@ As stated previously, if the <i>lpSecurityAttributes</i> parameter is
       <b>lpSecurityDescriptor</b> member to have an effect on them, which can be determined by 
       using <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a>.</li>
 </ul>
-In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
+In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
 <table>
 <tr>
@@ -898,7 +898,7 @@ Yes
 </td>
 </tr>
 </table>
- 
+ 
 
 Note that <b>CreateFile</b> with supersede disposition will fail if performed on a file where there is already an open alternate data stream.
 
@@ -965,8 +965,8 @@ If <b>FILE_FLAG_WRITE_THROUGH</b> and <b>FILE_FLAG_NO_BUFFERING</b> are
       going through the Windows system cache. The operating system also requests a write-through of the hard disk's 
       local hardware cache to persistent media.
 
-<div class="alert"><b>Note</b>  Not all hard disk hardware supports this write-through capability.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  Not all hard disk hardware supports this write-through capability.</div>
+<div> </div>
 Proper use of the <b>FILE_FLAG_NO_BUFFERING</b> flag requires special application 
       considerations. For more information, see 
       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-buffering">File Buffering</a>.
@@ -1070,7 +1070,7 @@ Direct access to the disk or to a volume is restricted. For more information, se
       in the Help and Support Knowledge Base at 
       <a href="https://support.microsoft.com/kb/942448">http://support.microsoft.com/kb/942448</a>.
 
-<b>Windows Server 2003 and Windows XP:  </b>Direct access to the disk or to a volume is not restricted in this manner.
+<b>Windows Server 2003 and Windows XP:  </b>Direct access to the disk or to a volume is not restricted in this manner.
 
 You can use the <b>CreateFile</b> function to open a physical 
       disk drive or a volume, which returns a direct access storage device (DASD) handle that can be used with the 
@@ -1091,11 +1091,11 @@ The following requirements must be met for such a call to succeed:
 <li>When opening a volume or floppy disk, the <i>dwShareMode</i> parameter must have the 
        <b>FILE_SHARE_WRITE</b>flag.</li>
 </ul>
-<div class="alert"><b>Note</b>  The <i>dwDesiredAccess</i> parameter can be zero, allowing the application to query 
+<div class="alert"><b>Note</b>  The <i>dwDesiredAccess</i> parameter can be zero, allowing the application to query 
       device attributes without accessing a device. This is useful for an application to determine the size of a 
       floppy disk drive and the formats it supports without requiring a floppy disk in a drive, for instance. It can 
       also be used for reading statistics without requiring higher-level data read/write permission.</div>
-<div> </div>
+<div> </div>
 When opening a physical drive <i>x</i>:, the 
       <i>lpFileName</i> string should be the following form: 
       "\\.\PhysicalDrive<i>X</i>". Hard disk numbers 
@@ -1115,7 +1115,7 @@ When opening a physical drive <i>x</i>:, the
 <td>Opens the third physical drive.</td>
 </tr>
 </table>
- 
+ 
 
 To obtain the physical drive identifier for a volume, open a handle to the volume and call the 
       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with 
@@ -1149,7 +1149,7 @@ When opening a volume or removable media drive (for example, a floppy disk drive
 <td>Opens the file system of the C: volume.</td>
 </tr>
 </table>
- 
+ 
 
 You can also open a volume by referring to its volume name. For more information, see 
       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-volume">Naming a Volume</a>.
@@ -1164,12 +1164,12 @@ A file system may or may not require buffer alignment even though the data is no
       on the volume. It is recommended on all file systems that you open volume handles as noncached, and follow the 
       noncached I/O restrictions.
 
-<div class="alert"><b>Note</b>  To read or write to the last few sectors of the volume, you must call 
+<div class="alert"><b>Note</b>  To read or write to the last few sectors of the volume, you must call 
       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> and specify 
       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_allow_extended_dasd_io">FSCTL_ALLOW_EXTENDED_DASD_IO</a>. This signals 
       the file system driver not to perform any I/O boundary checks on partition read or write calls. Instead, 
       boundary checks are performed by the device driver.</div>
-<div> </div>
+<div> </div>
 <h3><a id="Changer_Device"></a><a id="changer_device"></a><a id="CHANGER_DEVICE"></a>Changer Device</h3>
 The <b>IOCTL_CHANGER_*</b> control codes for 
       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> accept a handle to a changer device. 
@@ -1308,7 +1308,7 @@ Ignored.
 </td>
 </tr>
 </table>
- 
+ 
 
 The following table shows various settings of <i>dwDesiredAccess</i> and 
       <i>lpFileName</i>.
@@ -1337,7 +1337,7 @@ The following table shows various settings of <i>dwDesiredAccess</i> and
         <b>ERROR_FILE_NOT_FOUND</b>.</td>
 </tr>
 </table>
- 
+ 
 
 <h3><a id="Mailslots"></a><a id="mailslots"></a><a id="MAILSLOTS"></a>Mailslots</h3>
 If <b>CreateFile</b>opens the client end of a mailslot, the 
@@ -1591,7 +1591,7 @@ A tape backup code snippet can found at
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
- 
+ 
 
- 
+ 
 

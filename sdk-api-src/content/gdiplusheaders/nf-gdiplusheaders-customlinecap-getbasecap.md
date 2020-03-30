@@ -64,8 +64,7 @@ The <b>CustomLineCap::GetBaseCap</b> method gets the style of the base cap. The 
 
 
 
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a></b>
-</strong>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a></b>
 
 This method returns the value of the line cap used at the base of the line.
 

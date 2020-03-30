@@ -45,12 +45,9 @@ ms.custom: 19H1
 
 # IInkRecognizerContext interface
 
-
 ## -description
 
-
-
-
+Enables the ability to perform ink recognition, retrieve the recognition result, and retrieve alternates. The **InkRecognizerContext** enables the various recognizers  installed on a system to use ink recognition to process input appropriately.
 
 ## -inheritance
 
@@ -314,3 +311,6 @@ Gets or sets the word list that is used in the recognition process to improve th
 </tr>
 </table> 
 
+## -see-also
+
+[InkRecognizerContext class](https://docs.microsoft.com/windows/win32/tablet/inkrecognizercontext-class)

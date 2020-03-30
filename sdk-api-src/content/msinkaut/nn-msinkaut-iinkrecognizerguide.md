@@ -45,9 +45,10 @@ ms.custom: 19H1
 
 # IInkRecognizerGuide interface
 
-
 ## -description
 
+Represents the area that the recognizer uses in which ink can be drawn. The area is known as the recognition guide.
 
+## -see-also
 
-
+[InkRecognizerGuide class](https://docs.microsoft.com/windows/win32/tablet/inkrecognizerguide-class)

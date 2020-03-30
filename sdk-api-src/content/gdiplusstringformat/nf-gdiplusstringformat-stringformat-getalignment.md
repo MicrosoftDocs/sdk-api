@@ -65,8 +65,7 @@ The <b>StringFormat::GetAlignment</b> method gets an element of the <a href="htt
 
 
 
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringalignment">StringAlignment</a></b>
-</strong>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringalignment">StringAlignment</a></b>
 
 This method returns an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringalignment">StringAlignment</a> enumeration.
 

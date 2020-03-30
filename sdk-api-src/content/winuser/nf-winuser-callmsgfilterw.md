@@ -81,8 +81,7 @@ An application-defined code used by the hook procedure to determine how to proce
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the application should process the message further, the return value is zero.
 

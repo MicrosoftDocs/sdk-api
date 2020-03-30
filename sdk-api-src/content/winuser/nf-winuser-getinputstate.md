@@ -63,8 +63,7 @@ Determines whether there are mouse-button or keyboard messages in the calling th
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the queue contains one or more new mouse-button or keyboard messages, the return value is nonzero.
 

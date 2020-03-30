@@ -5,7 +5,7 @@ description: .
 old-location: tablet\iinkpicture.htm
 tech.root: tablet
 ms.assetid: EA6AC3DD-5F13-442A-B93D-FF0A5333609A
-ms.date: 12/05/2018
+ms.date: 03/25/2020
 ms.keywords: IInkPicture, IInkPicture interface [Tablet PC], IInkPicture interface [Tablet PC],described, msinkaut/IInkPicture, tablet.iinkpicture
 f1_keywords:
 - msinkaut/IInkPicture
@@ -45,12 +45,9 @@ ms.custom: 19H1
 
 # IInkPicture interface
 
-
 ## -description
 
-
-
-
+Represents an object that provides the ability to place an image in an application for users to add ink on top of. It is intended for scenarios in which ink is not recognized as text but is instead stored as ink.
 
 ## -inheritance
 
@@ -959,3 +956,6 @@ Gets either the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut
 </tr>
 </table> 
 
+## -see-also
+
+[InkPicture Control](https://docs.microsoft.com/windows/win32/tablet/inkpicture-control-reference)

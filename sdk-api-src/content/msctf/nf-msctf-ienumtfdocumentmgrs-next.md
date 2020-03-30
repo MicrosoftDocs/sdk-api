@@ -45,11 +45,9 @@ ms.custom: 19H1
 
 # IEnumTfDocumentMgrs::Next
 
-
 ## -description
 
-
-
+Obtains, from the current position, the specified number of elements in the enumeration sequence.
 
 ## -parameters
 
@@ -116,23 +114,7 @@ The method reached the end of the enumeration before the specified number of ele
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdocumentmgrs">IEnumTfDocumentMgrs</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr
-      </a>
- 
-
- 
-
+[IEnumTfDocumentMgrs interface](nn-msctf-ienumtfdocumentmgrs.md), [ITfDocumentMgr interface](nn-msctf-itfdocumentmgr.md)

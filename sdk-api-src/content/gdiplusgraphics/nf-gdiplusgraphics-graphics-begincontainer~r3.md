@@ -47,8 +47,7 @@ The <b>Graphics::BeginContainer</b> method begins a new graphics container.
 
 ## -returns
 
-Type: <strong>Type: <b>GraphicsContainer</b>
-</strong>
+Type: <b>GraphicsContainer</b>
 
 This method returns a value that identifies the container.
 

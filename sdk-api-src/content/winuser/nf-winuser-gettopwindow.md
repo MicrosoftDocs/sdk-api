@@ -73,8 +73,7 @@ A handle to the parent window whose child windows are to be examined. If this pa
 
 
 
-Type: <strong>Type: <b>HWND</b>
-</strong>
+Type: <b>HWND</b>
 
 If the function succeeds, the return value is a handle to the child window at the top of the Z order. If the specified window has no child windows, the return value is <b>NULL</b>. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. 
 

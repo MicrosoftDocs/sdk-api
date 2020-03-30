@@ -101,8 +101,7 @@ Additional message information. The content of this parameter depends on the val
 
 
 
-Type: <strong>Type: <b>LRESULT</b>
-</strong>
+Type: <b>LRESULT</b>
 
 The return value is the result of the message processing and depends on the message. 
 

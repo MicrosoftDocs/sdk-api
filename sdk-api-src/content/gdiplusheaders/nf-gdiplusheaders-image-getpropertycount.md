@@ -65,8 +65,7 @@ The <b>Image::GetPropertyCount</b> method gets the number of properties (pieces 
 
 
 
-Type: <strong>Type: <b>UINT</b>
-</strong>
+Type: <b>UINT</b>
 
 This method returns the number of properties stored in this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.

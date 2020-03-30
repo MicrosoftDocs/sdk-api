@@ -69,8 +69,7 @@ Reference to a rectangle to test against this rectangle.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the rectangle is inside this rectangle, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

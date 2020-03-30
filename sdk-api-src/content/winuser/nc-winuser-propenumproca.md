@@ -84,8 +84,7 @@ A handle to the data. This handle is the data component of a property list entry
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 Return <b>TRUE</b> to continue the property list enumeration.
 

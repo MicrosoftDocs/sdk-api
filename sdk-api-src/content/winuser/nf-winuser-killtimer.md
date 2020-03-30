@@ -90,8 +90,7 @@ value passed to <b>SetTimer</b>. If the application calls <b>SetTimer</b> with
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 

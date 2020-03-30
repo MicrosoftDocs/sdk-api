@@ -65,8 +65,7 @@ The <b>CustomLineCap::GetWidthScale</b> method gets the value of the scale width
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns the value of the width-scaling factor. It is of type 
 						<b>REAL</b>.

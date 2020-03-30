@@ -98,8 +98,7 @@ Additional message-specific information.
 
 
 
-Type: <strong>Type: <b>LRESULT</b>
-</strong>
+Type: <b>LRESULT</b>
 
 The return value specifies the result of the message processing and depends on the message. If the <i>hWndMDIClient</i> parameter is <b>NULL</b>, the return value is the same as for the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function. 
 

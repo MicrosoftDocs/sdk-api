@@ -74,8 +74,7 @@ The physical coordinates of the point.
 
 
 
-Type: <strong>Type: <b>HWND</b>
-</strong>
+Type: <b>HWND</b>
 
 A handle to the window that contains the given physical point. If no window exists at the point, this value is <b>NULL</b>.
 

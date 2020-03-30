@@ -126,8 +126,7 @@ An array of handles to the child windows to arrange. If a specified child window
 
 
 
-Type: <strong>Type: <b>WORD</b>
-</strong>
+Type: <b>WORD</b>
 
 If the function succeeds, the return value is the number of windows arranged.
 

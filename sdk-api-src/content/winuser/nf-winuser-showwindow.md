@@ -236,8 +236,7 @@ Activates and displays a window. If the window is minimized or maximized, the sy
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the window was previously visible, the return value is nonzero. 
 

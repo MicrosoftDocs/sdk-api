@@ -69,8 +69,7 @@ Integer that specifies the style of the typeface. This value must be an element 
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the style or combination of styles is available, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

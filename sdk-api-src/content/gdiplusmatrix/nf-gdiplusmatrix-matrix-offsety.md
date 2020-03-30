@@ -64,8 +64,7 @@ The <b>Matrix::OffsetY</b> method gets the vertical translation value of this ma
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns the vertical translation value of this matrix, which is the element in row 3, column 2.
 

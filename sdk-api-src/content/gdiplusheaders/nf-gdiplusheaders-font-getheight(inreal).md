@@ -69,8 +69,7 @@ Real number that specifies the vertical resolution, in dots per inch, of the dev
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns the line spacing of the font in pixels.
 

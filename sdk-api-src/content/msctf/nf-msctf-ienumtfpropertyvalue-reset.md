@@ -45,18 +45,11 @@ ms.custom: 19H1
 
 # IEnumTfPropertyValue::Reset
 
-
 ## -description
 
-
-
+Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
@@ -81,7 +74,7 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
-
+[IEnumTfPropertyValue interface](nn-msctf-ienumtfpropertyvalue.md), [TF_PROPERTYVAL structure](ns-msctf-tf_propertyval.md)

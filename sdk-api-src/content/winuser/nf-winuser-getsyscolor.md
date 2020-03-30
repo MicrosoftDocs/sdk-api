@@ -499,8 +499,7 @@ Text in windows. The associated background color is COLOR_WINDOW.
 
 
 
-Type: <strong>Type: <b>DWORD</b>
-</strong>
+Type: <b>DWORD</b>
 
 The function returns the red, green, blue (RGB) color value of the given element.
 

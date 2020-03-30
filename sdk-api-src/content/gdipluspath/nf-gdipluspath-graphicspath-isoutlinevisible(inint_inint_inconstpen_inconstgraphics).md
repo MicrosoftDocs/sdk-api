@@ -90,8 +90,7 @@ Optional. Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/g
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the test point touches the outline of this path, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 

@@ -209,8 +209,7 @@ Retrieves the address of the window procedure, or a handle representing the addr
 
 
 
-Type: <strong>Type: <b>DWORD</b>
-</strong>
+Type: <b>DWORD</b>
 
 If the function succeeds, the return value is the requested value.
 

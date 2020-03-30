@@ -258,8 +258,7 @@ Additional message-specific information.
 
 
 
-Type: <strong>Type: <b>long</b>
-</strong>
+Type: <b>long</b>
 
 If the function succeeds, the return value is a positive value.
 

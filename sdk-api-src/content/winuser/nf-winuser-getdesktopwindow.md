@@ -73,8 +73,7 @@ Retrieves a handle to the desktop window. The desktop window covers the entire s
 
 
 
-Type: <strong>Type: <b>HWND</b>
-</strong>
+Type: <b>HWND</b>
 
 The return value is a handle to the desktop window. 
 

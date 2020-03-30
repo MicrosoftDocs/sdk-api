@@ -45,11 +45,11 @@ ms.custom: 19H1
 
 # IEnumTfRanges::Clone
 
-
 ## -description
 
+Creates a copy of the enumerator object.
 
-
+## -parameters
 
 ## -parameters
 
@@ -95,24 +95,7 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfranges">IEnumTfRanges
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
-      </a>
- 
-
- 
-
+[IEnumTfRanges interface](nn-msctf-ienumtfranges.md), [ITfRange interface](nn-msctf-itfrange.md)

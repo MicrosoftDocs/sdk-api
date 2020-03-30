@@ -64,8 +64,7 @@ The <b>Rect::GetTop</b> method gets the y-coordinate of the top edge of the rect
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the y-coordinate of the top edge of the rectangle. 
 

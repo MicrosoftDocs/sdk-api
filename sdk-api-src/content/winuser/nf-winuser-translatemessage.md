@@ -77,8 +77,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the message is translated (that is, a character message is posted to the thread's message queue), the return value is nonzero.
 

@@ -64,8 +64,7 @@ The <b>PathGradientBrush::GetSurroundColorCount</b> method gets the number of co
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the number of colors that have been specified for the boundary path of this path gradient brush.
 

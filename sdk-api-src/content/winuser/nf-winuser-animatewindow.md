@@ -194,8 +194,7 @@ Animates the window from bottom to top. This flag can be used with roll or slide
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 

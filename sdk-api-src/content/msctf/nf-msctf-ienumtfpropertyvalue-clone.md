@@ -45,16 +45,11 @@ ms.custom: 19H1
 
 # IEnumTfPropertyValue::Clone
 
-
 ## -description
 
-
-
+Creates a copy of the enumerator object.
 
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
@@ -106,19 +101,7 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfpropertyvalue">IEnumTfPropertyValue
-      </a>
- 
-
- 
-
+[IEnumTfPropertyValue interface](nn-msctf-ienumtfpropertyvalue.md), [TF_PROPERTYVAL structure](ns-msctf-tf_propertyval.md)

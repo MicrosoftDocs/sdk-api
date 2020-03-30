@@ -71,8 +71,7 @@ If <b>TRUE</b> and the thread is not a GUI thread, convert the thread to a GUI t
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 The function returns a nonzero value in the following situations: 
 

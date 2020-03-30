@@ -89,8 +89,7 @@ An application-defined value to be passed to the callback function.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the callback function returns <b>TRUE</b> for all windows in the thread specified by <i>dwThreadId</i>, the return value is <b>TRUE</b>. If the callback function returns <b>FALSE</b> on any enumerated window, or if there are no windows found in the thread specified by <i>dwThreadId</i>, the return value is <b>FALSE</b>.
 

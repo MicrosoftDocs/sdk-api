@@ -48,9 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
+Represents an object that is useful for annotation scenarios where users are not concerned with performing recognition on ink but instead are interested in the size, shape, color, and position of the ink.
 
 ## -inheritance
 
@@ -791,3 +789,10 @@ Gets either the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut
 </tr>
 </table> 
 
+## -remarks
+
+Creating the InkOverlay control behind a transparent control (such as a GroupBox with the WS_EX_TRANSPARENT property set) will prevent InkOverlay from collecting ink.
+
+## -see-also
+
+[IInkCollector interface](nn-msinkaut-iinkcollector.md), [IInkOverlay interface](nn-msinkaut-iinkoverlay.md), [InkOverlay class](https://docs.microsoft.com/windows/win32/tablet/inkoverlay-class)

@@ -64,8 +64,7 @@ The <b>RectF::GetRight</b> method gets the x-coordinate of the right edge of the
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns the x-coordinate of the right edge of the rectangle.
 

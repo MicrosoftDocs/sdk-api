@@ -87,8 +87,7 @@ Application-defined data to be passed to the callback function.
 
 
 
-Type: <strong>Type: <b>int</b>
-</strong>
+Type: <b>int</b>
 
 The return value specifies the last value returned by the callback function. It is -1 if the function did not find a property for enumeration. 
 

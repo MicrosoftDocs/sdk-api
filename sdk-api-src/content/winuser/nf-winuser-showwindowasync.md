@@ -76,8 +76,7 @@ Controls how the window is to be shown. For a list of possible values, see the d
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the operation was successfully started, the return value is nonzero. 
 

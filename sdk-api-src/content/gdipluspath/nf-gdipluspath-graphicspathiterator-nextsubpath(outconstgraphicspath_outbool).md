@@ -76,8 +76,7 @@ Pointer to a <b>BOOL</b> that receives a value that indicates whether the retrie
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the number of data points in the retrieved figure. If there are no more figures to retrieve, this method returns 0.
 

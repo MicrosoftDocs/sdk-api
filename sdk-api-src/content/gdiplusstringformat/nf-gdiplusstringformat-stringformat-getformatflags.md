@@ -65,8 +65,7 @@ The <b>StringFormat::GetFormatFlags</b> method gets the string format flags for 
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns a value that indicates which string format flags are set for this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object. This value can be any combination (the result of a bitwise 

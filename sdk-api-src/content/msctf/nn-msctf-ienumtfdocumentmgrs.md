@@ -45,12 +45,9 @@ ms.custom: 19H1
 
 # IEnumTfDocumentMgrs interface
 
-
 ## -description
 
-
-The <b>IEnumTfDocumentMgrs</b> interface is implemented by the TSF manager to provide an enumeration of document manager objects.
-
+The **IEnumTfDocumentMgrs** interface is implemented by the TSF manager to provide an enumeration of document manager objects.
 
 ## -inheritance
 

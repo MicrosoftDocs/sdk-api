@@ -83,8 +83,7 @@ Integer that specifies the number of elements in the <i>points</i> array. This i
 
 
 
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the number of points retrieved. 
 

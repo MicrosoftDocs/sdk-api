@@ -45,35 +45,25 @@ ms.custom: 19H1
 
 # ITfCategoryMgr::UnregisterCategory
 
-
 ## -description
 
-
-
+Removes a specified GUID from the specified category in the Windows registry.
 
 ## -parameters
-
-
-
 
 ### -param rclsid [in]
 
 Contains the CLSID of the text service that owns the item.
 
-
 ### -param rcatid [in]
 
 Contains a GUID that identifies the category that the item is registered under.
-
 
 ### -param rguid [in]
 
 Contains a GUID that identifies the item to remove.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -105,24 +95,7 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory
-      </a>
- 
-
- 
-
+[ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::RegisterCategory](nf-msctf-itfcategorymgr-registercategory.md)

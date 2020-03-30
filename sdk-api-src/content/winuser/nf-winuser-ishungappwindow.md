@@ -77,8 +77,7 @@ A handle to the window to be tested.
 
 
 
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 The return value is <b>TRUE</b> if the window stops responding; otherwise, it is <b>FALSE</b>.  Ghost windows always return
         <b>TRUE</b>. 

@@ -64,8 +64,7 @@ The <b>MetafileHeader::GetDpiX</b> method gets the horizontal dots per inch of t
 
 
 
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns a real number that indicates the horizontal dots per inch of the associated metafile.
 
