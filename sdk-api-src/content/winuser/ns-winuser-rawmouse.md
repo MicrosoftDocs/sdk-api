@@ -86,7 +86,7 @@ Mouse attributes changed; application needs to query the mouse attributes.
 </dl>
 </td>
 <td width="60%">
-Mouse movement data is relative to the last mouse position.
+Mouse movement data is relative to the last mouse position. For further information about mouse motion, see the following Remarks section.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Mouse movement data is relative to the last mouse position.
 </dl>
 </td>
 <td width="60%">
-Mouse movement data is based on absolute position.
+Mouse movement data is based on absolute position. For further information about mouse motion, see the following Remarks section.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Mouse movement data is based on absolute position.
 </dl>
 </td>
 <td width="60%">
-Mouse coordinates are mapped to the virtual desktop (for a multiple monitor system).
+Mouse coordinates are mapped to the virtual desktop (for a multiple monitor system). For further information about mouse motion, see the following Remarks section.
 
 </td>
 </tr>
@@ -353,7 +353,7 @@ The raw state of the mouse buttons.
 
 Type: <b>LONG</b>
 
-The motion in the X direction. This is signed relative motion or absolute motion, depending on the value of <b>usFlags</b>. 
+The motion in the X direction. This is signed relative motion or absolute motion, depending on the value of <b>usFlags</b>.
 
 
 ### -field lLastY
@@ -369,26 +369,28 @@ Type: <b>ULONG</b>
 
 The device-specific additional information for the event. 
 
+## -remarks
+
+If the mouse has moved, indicated by <b>MOUSE_MOVE_RELATIVE</b> or <b>MOUSE_MOVE_ABSOLUTE</b>, <b>lLastX</b> and <b>lLastY</b> specify information about that movement. The information is specified as relative or absolute integer values.
+
+If <b>MOUSE_MOVE_RELATIVE</b> value is specified, <b>lLastX</b> and <b>lLastY</b> specify movement relative to the previous mouse event (the last reported position). Positive values mean the mouse moved right (or down); negative values mean the mouse moved left (or up).
+
+If <b>MOUSE_MOVE_ABSOLUTE</b> value is specified, <b>lLastX</b> and <b>lLastY</b> contain normalized absolute coordinates between 0 and 65,535. Coordinate (0,0) maps onto the upper-left corner of the display surface; coordinate (65535,65535) maps onto the lower-right corner. In a multimonitor system, the coordinates map to the primary monitor.
+
+If <b>MOUSE_VIRTUAL_DESKTOP</b> is specified, the coordinates map to the entire virtual desktop.
+
+In contrast to <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> window messages Raw Input mouse events is not subject to the effects of the mouse speed set in the Control Panel's <b>Mouse Properties</b> sheet. See <a href="https://docs.microsoft.com/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a> for details.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDeviceInfo</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
-
 
 
 <b>Reference</b>
