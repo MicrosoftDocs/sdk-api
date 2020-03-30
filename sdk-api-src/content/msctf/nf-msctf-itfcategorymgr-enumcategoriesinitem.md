@@ -45,30 +45,21 @@ ms.custom: 19H1
 
 # ITfCategoryMgr::EnumCategoriesInItem
 
-
 ## -description
 
-
-
+Obtains an IEnumGUID interface that enumerates all categories to which the specified GUID belongs.
 
 ## -parameters
-
-
-
 
 ### -param rguid [in]
 
 Contains a GUID value that identifies the item to enumerate the categories for.
 
-
 ### -param ppEnum [out]
 
 Pointer to an IEnumGUID interface pointer that receives the enumerator.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,29 +113,7 @@ There is insufficient memory to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-enumitemsincategory">ITfCategoryMgr::EnumItemsInCategory
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory
-      </a>
- 
-
- 
-
+[ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::EnumItemsInCategory](nf-msctf-itfcategorymgr-enumitemsincategory.md), [ITfCategoryMgr::RegisterCategory](nf-msctf-itfcategorymgr-registercategory.md)

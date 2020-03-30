@@ -45,16 +45,11 @@ ms.custom: 19H1
 
 # IEnumITfCompositionView::Clone
 
-
 ## -description
 
-
-
+Creates a copy of the enumerator object.
 
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
@@ -95,19 +90,7 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumitfcompositionview">IEnumITfCompositionView
-      </a>
- 
-
- 
-
+[IEnumITfCompositionView interface](nn-msctf-ienumitfcompositionview.md), [ITfCompositionView interface](nn-msctf-itfcompositionview.md)

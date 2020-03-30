@@ -53,29 +53,24 @@ ms.custom: 19H1
 
 ## -parameters
 
-
-
+Called when the active language or text service changes.
 
 ### -param clsid [in]
 
 CLSID of the TSF text service activated or deactivated. This will be <b>NULL</b> for a language change.
 
-
 ### -param guidProfile [in]
 
 Profile GUID for the TSF text service. This is specified by the TSF text service when it is installed. This will be <b>NULL</b> for a language change.
-
 
 ### -param fActivated [in]
 
 TRUE if the TSF text service is activated or FALSE if the TSF text service is deactivated.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
+## -see-also
 
-
+[ITfActiveLanguageProfileNotifySink interface](nn-msctf-itfactivelanguageprofilenotifysink.md)
