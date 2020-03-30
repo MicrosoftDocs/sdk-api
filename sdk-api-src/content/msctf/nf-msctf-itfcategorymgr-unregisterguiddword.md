@@ -45,30 +45,21 @@ ms.custom: 19H1
 
 # ITfCategoryMgr::UnregisterGUIDDWORD
 
-
 ## -description
 
-
-
+Removes the DWORD value for a GUID from the Windows registry.
 
 ## -parameters
-
-
-
 
 ### -param rclsid [in]
 
 Contains the CLSID of the text service that owns the GUID.
 
-
 ### -param rguid [in]
 
 Contains the GUID that the <b>DWORD</b> is removed for.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -101,28 +92,6 @@ The GUID cannot be found.
 </tr>
 </table>
  
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-getguiddword">ITfCategoryMgr::GetGUIDDWORD
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registerguiddword">ITfCategoryMgr::RegisterGUIDDWORD
-      </a>
- 
-
- 
-
+[ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::GetGUIDDWORD](nf-msctf-itfcategorymgr-getguiddword.md), [ITfCategoryMgr::RegisterGUIDDWORD](nf-msctf-itfcategorymgr-registerguiddword.md)

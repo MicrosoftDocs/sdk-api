@@ -45,25 +45,17 @@ ms.custom: 19H1
 
 # ITextStoreACPServices::ForceLoadProperty
 
-
 ## -description
 
-
-
+Forces all values of an asynchronously loaded property to be loaded.
 
 ## -parameters
-
-
-
 
 ### -param pProp [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty</a> object that specifies the property to load.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,41 +99,10 @@ An unspecified error occurred.
 </tr>
 </table>
  
-
-
-
-
 ## -remarks
-
-
 
 When calling this method, the application must be able to grant a synchronous read-only lock.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itextstoreacpservices">ITextStoreACPServices</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itextstoreacpservices-unserialize">ITextStoreACPServices::Unserialize
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpersistentpropertyloaderacp">ITfPersistentPropertyLoaderACP
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty
-      </a>
- 
-
- 
-
+[ITextStoreACPServices interface](nn-msctf-itextstoreacpservices.md), [ITextStoreACPServices::Unserialize](nf-msctf-itextstoreacpservices-unserialize.md), [ITfPersistentPropertyLoaderACP interface](nn-msctf-itfpersistentpropertyloaderacp.md), [ITfProperty interface](nn-msctf-itfproperty.md)
