@@ -54,14 +54,11 @@ Contains information about the state of the keyboard.
 
 ## -struct-fields
 
-
-
-
 ### -field MakeCode
 
 Type: <b>USHORT</b>
 
-The scan code from the key depression. The scan code for keyboard overrun is <b>KEYBOARD_OVERRUN_MAKE_CODE</b>. 
+The scan code from the key depression. See <b>Scan Code Table</b> at <a href="http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc">Keyboard Scan Code Specification</a> document for a list of possible values. The scan code for keyboard overrun is <b>KEYBOARD_OVERRUN_MAKE_CODE</b>. 
 
 
 ### -field Flags
@@ -83,7 +80,6 @@ Flags for scan code information. It can be one or more of the following.
 </td>
 <td width="60%">
 The key is up.
-
 </td>
 </tr>
 <tr>
@@ -94,8 +90,6 @@ The key is up.
 </td>
 <td width="60%">
 The scan code has the E0 prefix.
-
-
 </td>
 </tr>
 <tr>
@@ -106,8 +100,6 @@ The scan code has the E0 prefix.
 </td>
 <td width="60%">
 The scan code has the E1 prefix.
-
-
 </td>
 </tr>
 <tr>
@@ -118,7 +110,6 @@ The scan code has the E1 prefix.
 </td>
 <td width="60%">
 The key is down.
-
 </td>
 </tr>
 </table>
@@ -152,30 +143,16 @@ Type: <b>ULONG</b>
 
 The device-specific additional information for the event. 
 
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDeviceInfo</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
-
-
 
 <b>Reference</b>
  
-
- 
-
+<a href="http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc">Windows Platform Design Notes: Keyboard Scan Code Specification, Revision 1.3a</a>
