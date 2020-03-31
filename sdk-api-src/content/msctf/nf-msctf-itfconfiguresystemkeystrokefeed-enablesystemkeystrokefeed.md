@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Enables the TSF manager to process keystrokes after being disabled by DisableSystemKeystrokeFeed.
 
 ## -parameters
 
@@ -110,16 +109,4 @@ Calls to <b>DisableSystemKeystrokeFeed</b> are cumulative, so every call to <b>D
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfconfiguresystemkeystrokefeed">ITfConfigureSystemKeystrokeFeed</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfconfiguresystemkeystrokefeed-disablesystemkeystrokefeed">ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed
-      </a>
- 
-
- 
-
+[ITfConfigureSystemKeystrokeFeed interface](nn-msctf-itfconfiguresystemkeystrokefeed.md), [ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed](nf-msctf-itfconfiguresystemkeystrokefeed-disablesystemkeystrokefeed.md)

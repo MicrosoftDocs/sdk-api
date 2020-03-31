@@ -45,29 +45,21 @@ ms.custom: 19H1
 
 # ITfClientId::GetClientId
 
-
 ## -description
 
-
-
+Obtains a client identifier for a CLSID.
 
 ## -parameters
-
-
-
 
 ### -param rclsid [in]
 
 CLSID to obtain the client identifier for.
 
-
 ### -param ptid [out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that receives the client identifier.
 
-
 ## -returns
-
 
 
 This method can return one of these values.
@@ -89,42 +81,11 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 An application obtains its client identifier by calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-activate">ITfThreadMgr::Activate</a> and a text service receives its client identifier in its <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate</a> method. <b>ITfClientId::GetClientId</b> enables TSF objects that do not fit either of these categories to obtain their own client identifier.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfclientid">ITfClientId</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-activate">ITfThreadMgr::Activate
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId
-      </a>
- 
-
- 
-
+[ITfClientId interface](nn-msctf-itfclientid.md), [ITfTextInputProcessor::Activate](nf-msctf-itftextinputprocessor-activate.md), [ITfThreadMgr::Activate](nf-msctf-itfthreadmgr-activate.md), [TfClientId](/windows/desktop/TSF/tfclientid)

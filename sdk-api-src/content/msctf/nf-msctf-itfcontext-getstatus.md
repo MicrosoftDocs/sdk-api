@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the document status.
 
 ## -parameters
 
@@ -113,16 +112,4 @@ The context is not on a document stack.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS
-      </a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [TF_STATUS](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms629192(v=vs.85))

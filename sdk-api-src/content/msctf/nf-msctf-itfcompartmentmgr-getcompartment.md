@@ -45,30 +45,21 @@ ms.custom: 19H1
 
 # ITfCompartmentMgr::GetCompartment
 
-
 ## -description
 
-
-
+Obtains the compartment object for a specified compartment.
 
 ## -parameters
-
-
-
 
 ### -param rguid [in]
 
 Contains a GUID that identifies the compartment.
 
-
 ### -param ppcomp [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartment">ITfCompartment</a> interface pointer that receives the compartment object.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -111,27 +102,7 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/compartments">Compartments</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartment">ITfCompartment
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartmentmgr">ITfCompartmentMgr</a>
- 
-
- 
-
+[ITfCompartmentMgr interface](nn-msctf-itfcompartmentmgr.md), [ITfCompartment interface](nn-msctf-itfcompartment.md), [Compartments](/windows/desktop/TSF/compartments)
