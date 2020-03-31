@@ -83,8 +83,9 @@ The globally unique identifier (GUID) of the <a href="https://docs.microsoft.com
 
 Type: <b>void**</b>
 
-            The address of an <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter">IDXGIAdapter</a> interface pointer to the adapter.
-            This parameter must not be NULL.
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter">IDXGIAdapter</a> interface pointer to the adapter.
+
+This parameter must not be NULL.
 
 
 ## -returns
