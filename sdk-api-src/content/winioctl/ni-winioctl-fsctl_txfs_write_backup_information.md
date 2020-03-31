@@ -46,11 +46,8 @@ req.redist:
 
 ## -description
 
-<p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
-    application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
-    available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
-    information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+> [!NOTE]
+> Microsoft strongly recommends developers utilize alternative means to achieve your application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more information, and alternatives to TxF, please see [Alternatives to using Transactional NTFS](https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf).
 
 Writes  Transactional NTFS (TxF) specific information to a specified file. The **Buffer** member of the [TXFS_WRITE_BACKUP_INFORMATION](./ns-winioctl-txfs_write_backup_information.md) structure must be the **Buffer** member of the [TXFS_READ_BACKUP_INFORMATION_OUT](./ns-winioctl-txfs_read_backup_information_out.md) structure returned by [FSCTL_TXFS_READ_BACKUP_INFORMATION](./ni-winioctl-fsctl_txfs_read_backup_information.md).
 
