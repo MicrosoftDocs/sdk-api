@@ -46,11 +46,8 @@ req.redist:
 
 ## -description
 
-<p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
-    application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
-    available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
-    information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+> [!NOTE]
+> Microsoft strongly recommends developers utilize alternative means to achieve your application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more information, and alternatives to TxF, please see [Alternatives to using Transactional NTFS](https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf).
 
 Returns a list of all the transactions currently involved in the specified resource manager. If the function fails with **ERROR_MORE_DATA**, it returns the length of the buffer required to hold the complete list of transactions at the time of this call.
 
