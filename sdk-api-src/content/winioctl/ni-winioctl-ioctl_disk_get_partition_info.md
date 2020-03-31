@@ -49,7 +49,7 @@ req.redist:
 Retrieves information about the type, size, and nature of a disk partition.
 
 > [!NOTE]
-> IOCTL_DISK_GET_PARTITION_INFO** is superseded by [IOCTL_DISK_GET_PARTITION_INFO_EX](./ni-winioctl-ioctl_disk_get_partition_info_ex.md), which retrieves partition information for AT and Extensible Firmware Interface (EFI) partitions.
+> **IOCTL_DISK_GET_PARTITION_INFO** is superseded by [IOCTL_DISK_GET_PARTITION_INFO_EX](./ni-winioctl-ioctl_disk_get_partition_info_ex.md), which retrieves partition information for AT and Extensible Firmware Interface (EFI) partitions.
 
 To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
 
