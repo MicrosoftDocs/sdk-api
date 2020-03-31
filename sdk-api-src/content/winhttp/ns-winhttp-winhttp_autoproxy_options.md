@@ -67,6 +67,36 @@ Mechanisms should be used to obtain the PAC file.
 <th>Meaning</th>
 </tr>
 <tr>
+<tr>
+<td width="40%"><a id="WINHTTP_AUTOPROXY_ALLOW_AUTOCONFIG"></a><a id="winhttp_autoproxy_allow_autoconfig"></a><dl>
+<dt><b>WINHTTP_AUTOPROXY_ALLOW_AUTOCONFIG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Enables proxy detection via autoconfig URL.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WINHTTP_AUTOPROXY_ALLOW_CM"></a><a id="winhttp_autoproxy_allow_cm"></a><dl>
+<dt><b>WINHTTP_AUTOPROXY_ALLOW_CM</b></dt>
+</dl>
+</td>
+<td width="60%">
+Enables proxy detection via connection manager.
+
+</td>
+</tr>
+<td width="40%"><a id="WINHTTP_AUTOPROXY_ALLOW_STATIC"></a><a id="winhttp_autoproxy_allow_static"></a><dl>
+<dt><b>WINHTTP_AUTOPROXY_ALLOW_STATIC</b></dt>
+</dl>
+</td>
+<td width="60%">
+Enables proxy detection via static configuration.
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="WINHTTP_AUTOPROXY_AUTO_DETECT"></a><a id="winhttp_autoproxy_auto_detect"></a><dl>
 <dt><b>WINHTTP_AUTOPROXY_AUTO_DETECT</b></dt>
 </dl>
@@ -87,8 +117,28 @@ Download the PAC file from the URL specified by <b>lpszAutoConfigUrl</b> in the 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="WINHTTP_AUTOPROXY_NO_CACHE_CLIENT_"></a><a id="winhttp_autoproxy_no_cache_client_"></a><dl>
-<dt><b>WINHTTP_AUTOPROXY_NO_CACHE_CLIENT </b></dt>
+<td width="40%"><a id="WINHTTP_AUTOPROXY_HOST_KEEPCASE"></a><a id="winhttp_autoproxy_host_keepcase"></a><dl>
+<dt><b>WINHTTP_AUTOPROXY_HOST_KEEPCASE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Maintains the case of the hostnames passed to the PAC script. This is the default behavior.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WINHTTP_AUTOPROXY_HOST_LOWERCASE"></a><a id="winhttp_autoproxy_host_lowercase"></a><dl>
+<dt><b>WINHTTP_AUTOPROXY_HOST_LOWERCASE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Converts hostnames to lowercase before passing them to the PAC script.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WINHTTP_AUTOPROXY_NO_CACHE_CLIENT"></a><a id="winhttp_autoproxy_no_cache_client"></a><dl>
+<dt><b>WINHTTP_AUTOPROXY_NO_CACHE_CLIENT</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -126,6 +176,10 @@ Executes the Web Proxy Auto-Discovery (WPAD) protocol in-process instead of dele
 
 This option has no effect when passed to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a>.
 
+<div class="alert"><b>Note</b>  This flag is deprecated.</div>
+<div> </div>
+
+
 </td>
 </tr>
 <tr>
@@ -134,7 +188,7 @@ This option has no effect when passed to <a href="https://docs.microsoft.com/win
 </dl>
 </td>
 <td width="60%">
-By default,  WinHTTP is configured to fall back to auto-discover a proxy in-process. If this fallback behavior is undesirable in the event that an out-of-process discovery  fails,  it can be  disabled using  this flag.
+By default, WinHTTP is configured to fall back to auto-discover a proxy in-process. If this fallback behavior is undesirable in the event that an out-of-process discovery fails, it can be disabled using this flag.
 
 This option has no effect when passed to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a>.
 
@@ -223,8 +277,7 @@ If this flag is TRUE, credentials should automatically be sent in response to an
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP
-		  Versions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
  
 
  

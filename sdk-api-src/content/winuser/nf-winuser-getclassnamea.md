@@ -85,13 +85,7 @@ The class name string.
 
 Type: <b>int</b>
 
-The length
-					
-					 of the 
-					<i>lpClassName</i> buffer, in 
-	
-
-					characters. The buffer must be large enough to include the terminating null character; otherwise, the class name string is truncated to <code>nMaxCount-1</code> characters.
+The length of the *lpClassName* buffer, in characters. The buffer must be large enough to include the terminating null character; otherwise, the class name string is truncated to `nMaxCount-1` characters.
 
 
 ## -returns
