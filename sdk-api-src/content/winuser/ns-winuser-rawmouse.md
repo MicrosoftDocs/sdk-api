@@ -328,7 +328,7 @@ XBUTTON2 changed to up.
 </td>
 <td width="60%">
 Raw input comes from a mouse wheel. The wheel delta is stored in <b>usButtonData</b>.
-
+ 
 </td>
 </tr>
 </table>
@@ -339,8 +339,11 @@ Raw input comes from a mouse wheel. The wheel delta is stored in <b>usButtonData
 
 Type: <b>USHORT</b>
 
-If <b>usButtonFlags</b> is <b>RI_MOUSE_WHEEL</b>, this member is a signed value that specifies the wheel delta. 
+If <b>usButtonFlags</b> is <b>RI_MOUSE_WHEEL</b>, this member is a signed <b>SHORT</b> value that specifies the wheel delta.
 
+The wheel rotation will be a multiple of <b>WHEEL_DELTA</b>, which is set at 120. This is the threshold for action to be taken, and one such action (for example, scrolling one increment) should occur for each delta.
+
+The delta was set to 120 to allow Microsoft or other vendors to build finer-resolution wheels (a freely-rotating wheel with no notches) to send more messages per rotation, but with a smaller value in each message. To use this feature, you can either add the incoming delta values until <b>WHEEL_DELTA</b> is reached (so for a delta-rotation you get the same response), or scroll partial lines in response to the more frequent messages. You can also choose your scroll granularity and accumulate deltas until it is reached.
 
 ### -field ulRawButtons
 
@@ -380,6 +383,8 @@ If <b>MOUSE_MOVE_ABSOLUTE</b> value is specified, <b>lLastX</b> and <b>lLastY</b
 If <b>MOUSE_VIRTUAL_DESKTOP</b> is specified, the coordinates map to the entire virtual desktop.
 
 In contrast to <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> window messages Raw Input mouse events is not subject to the effects of the mouse speed set in the Control Panel's <b>Mouse Properties</b> sheet. See <a href="https://docs.microsoft.com/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a> for details.
+
+
 
 ## -see-also
 
