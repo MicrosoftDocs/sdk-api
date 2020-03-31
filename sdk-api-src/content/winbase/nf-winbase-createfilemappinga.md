@@ -102,7 +102,7 @@ A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/des
       <b>SECURITY_ATTRIBUTES</b> structure specifies a 
       security descriptor for a new file mapping object.
 
-If <i>lpAttributes</i> is <b>NULL</b>, the handle cannot be inherited 
+If <i>lpFileMappingAttributes</i> is <b>NULL</b>, the handle cannot be inherited 
       and the file mapping object gets a default security descriptor. The access control lists (ACL) in the default 
       security descriptor for a file mapping object come from the primary or impersonation token of the creator. For 
       more information, see 
