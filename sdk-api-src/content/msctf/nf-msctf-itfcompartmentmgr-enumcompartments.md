@@ -118,7 +118,7 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
-
+[ITfCompartmentMgr interface](nn-msctf-itfcompartmentmgr.md), [ITfCompartment interface](nn-msctf-itfcompartment.md), [Compartments](/windows/desktop/TSF/compartments)

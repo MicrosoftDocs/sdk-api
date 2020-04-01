@@ -43,31 +43,23 @@ req.redist:
 ms.custom: Vb
 ---
 
-# WINHTTP_SECURITY_INFO structure
-
-
 ## -description
 
 The **WINHTTP\_SECURITY\_INFO** structure contains the SChannel connection and cipher information for a request.
 
-
 ## -struct-fields
-
 
 ### -field ConnectionInfo
 
 [**SecPkgContext\_ConnectionInfo**](/windows/desktop/api/schannel/ns-schannel-secpkgcontext_connectioninfo) containing the SChannel connection information for the request.
 
-
 ### -field CipherInfo
 
 [**SecPkgContext\_CipherInfo**](/windows/desktop/api/schannel/ns-schannel-secpkgcontext_cipherinfo) containing the SChannel cipher information for the request.
 
-
 ## -remarks
 
 This structure is used with [WinHttpQueryOption](/windows/desktop/api/winhttp/nf-winhttp-winhttpqueryoption) to retrieve security information for a request by specifying the **WINHTTP\_OPTION\_SECURITY\_INFO** flag.
-
 
 ## -see-also
 

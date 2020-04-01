@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Prevents the TSF manager from processing keystrokes.
 
 ## -parameters
 
@@ -99,16 +98,4 @@ Calls to this method are cumulative, so every call to this method requires a sub
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfconfiguresystemkeystrokefeed">ITfConfigureSystemKeystrokeFeed</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfconfiguresystemkeystrokefeed-enablesystemkeystrokefeed">ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed
-      </a>
- 
-
- 
-
+[ITfConfigureSystemKeystrokeFeed interface](nn-msctf-itfconfiguresystemkeystrokefeed.md), [ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed](nf-msctf-itfconfiguresystemkeystrokefeed-enablesystemkeystrokefeed.md)

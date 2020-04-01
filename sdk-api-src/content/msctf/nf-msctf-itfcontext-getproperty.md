@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a text property.
 
 ## -parameters
 
@@ -149,21 +148,4 @@ An application or text service can define unique properties identified by a GUID
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">Predefined Properties
-      </a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [ITfProperty interface](nn-msctf-itfproperty.md), [Predefined Properties](/windows/desktop/TSF/predefined-properties)

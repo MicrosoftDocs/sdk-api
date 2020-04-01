@@ -45,30 +45,21 @@ ms.custom: 19H1
 
 # ITfComposition::ShiftEnd
 
-
 ## -description
 
-
-
+Moves the end anchor of a composition.
 
 ## -parameters
-
-
-
 
 ### -param ecWrite [in]
 
 Contains an edit cookie that identifies the edit context obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
-
 ### -param pNewEnd [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that contains the new end anchor position. The end anchor of the context will be moved to the end anchor of this range. This method fails if the end anchor of this range is positioned prior to the start anchor of the composition.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -134,36 +125,10 @@ The edit context identified by <i>ecWrite</i> does not have a read/write lock.
 </tr>
 </table>
  
-
-
-
-
 ## -remarks
-
-
 
 This method causes the GUID_PROP_COMPOSING property to be removed from any text removed from the composition. Likewise, the GUID_PROP_COMPOSING property is also added to any text added to the composition.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfComposition</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
-      </a>
- 
-
- 
-
+[ITfComposition interface](nn-msctf-itfcomposition.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), [ITfRange interface](nn-msctf-itfrange.md), [ITfComposition::ShiftStart](nf-msctf-itfcomposition-shiftstart.md)

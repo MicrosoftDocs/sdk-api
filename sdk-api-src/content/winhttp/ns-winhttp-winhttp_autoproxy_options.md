@@ -1,5 +1,5 @@
 ---
-UID: NS:winhttp._WINHTTP_AUTOPROXY_OPTIONS
+UID: NS:winhttp.__unnamed_struct_4
 title: WINHTTP_AUTOPROXY_OPTIONS (winhttp.h)
 description: The WINHTTP_AUTOPROXY_OPTIONS structure is used to indicate to the WinHttpGetProxyForURL function whether to specify the URL of the Proxy Auto-Configuration (PAC) file or to automatically locate the URL with DHCP or DNS queries to the network.
 old-location: http\winhttp_autoproxy_options.htm
@@ -43,19 +43,11 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WINHTTP_AUTOPROXY_OPTIONS structure
-
-
 ## -description
-
 
 The <b>WINHTTP_AUTOPROXY_OPTIONS</b> structure is used to indicate to the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurl">WinHttpGetProxyForURL</a> function whether to specify the URL of the Proxy Auto-Configuration (PAC) file or to automatically locate the URL with DHCP or DNS queries to the network.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
@@ -210,8 +202,6 @@ Orders the proxy results based on a heuristic placing the fastest proxies first.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwAutoDetectFlags
 
@@ -245,8 +235,6 @@ Use DNS to attempt to locate the proxy auto-configuration file at a well-known l
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpszAutoConfigUrl
 
@@ -254,16 +242,13 @@ If <b>dwFlags</b> includes the WINHTTP_AUTOPROXY_CONFIG_URL flag, the <b>lpszAut
 
 If <b>dwFlags</b> does not include the WINHTTP_AUTOPROXY_CONFIG_URL flag, then <b>lpszAutoConfigUrl</b> must be <b>NULL</b>.
 
-
 ### -field lpvReserved
 
 Reserved for future use; must be <b>NULL</b>.
 
-
 ### -field dwReserved
 
 Reserved for future use; must be zero.
-
 
 ### -field fAutoLogonIfChallenged
 
@@ -271,14 +256,6 @@ Specifies whether the client's domain credentials should be automatically sent i
 
 If this flag is TRUE, credentials should automatically be sent in response to an authentication challenge. If this flag is FALSE and authentication is required to download the PAC file, the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurl">WinHttpGetProxyForUrl</a> function fails.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
- 
-
- 
-

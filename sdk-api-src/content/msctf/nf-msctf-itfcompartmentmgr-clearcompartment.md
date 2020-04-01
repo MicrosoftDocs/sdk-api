@@ -45,30 +45,21 @@ ms.custom: 19H1
 
 # ITfCompartmentMgr::ClearCompartment
 
-
 ## -description
 
-
-
+Removes the specified compartment.
 
 ## -parameters
-
-
-
 
 ### -param tid [in]
 
 Contains a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that identifies the client.
 
-
 ### -param rguid [in]
 
 Contains a GUID that identifies the compartment.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,23 +113,7 @@ The owner must clear this compartment.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartmentmgr">ITfCompartmentMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId
-      </a>
- 
-
- 
-
+[ITfCompartmentMgr interface](nn-msctf-itfcompartmentmgr.md), [ITfCompartment interface](nn-msctf-itfcompartment.md), [Compartments](/windows/desktop/TSF/compartments)
