@@ -69,17 +69,6 @@ The mouse state. This member can be any reasonable combination of the following.
 <th>Meaning</th>
 </tr>
 <tr>
-<td width="40%"><a id="MOUSE_ATTRIBUTES_CHANGED"></a><a id="mouse_attributes_changed"></a><dl>
-<dt><b>MOUSE_ATTRIBUTES_CHANGED</b></dt>
-<dt>0x04</dt>
-</dl>
-</td>
-<td width="60%">
-Mouse attributes changed; application needs to query the mouse attributes.
-
-</td>
-</tr>
-<tr>
 <td width="40%"><a id="MOUSE_MOVE_RELATIVE"></a><a id="mouse_move_relative"></a><dl>
 <dt><b>MOUSE_MOVE_RELATIVE</b></dt>
 <dt>0</dt>
@@ -109,6 +98,30 @@ Mouse movement data is based on absolute position. For further information about
 </td>
 <td width="60%">
 Mouse coordinates are mapped to the virtual desktop (for a multiple monitor system). For further information about mouse motion, see the following Remarks section.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MOUSE_ATTRIBUTES_CHANGED"></a><a id="mouse_attributes_changed"></a><dl>
+<dt><b>MOUSE_ATTRIBUTES_CHANGED</b></dt>
+<dt>0x04</dt>
+</dl>
+</td>
+<td width="60%">
+Mouse attributes changed; application needs to query the mouse attributes.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MOUSE_MOVE_NOCOALESCE"></a><a id="mouse_move_nocoalesce"></a><dl>
+<dt><b>MOUSE_MOVE_NOCOALESCE</b></dt>
+<dt>0x08</dt>
+</dl>
+</td>
+<td width="60%">
+The mouse movement events will not be coalesced. The default behavior is to coalesce mouse movement events.
+
+Windows XP/2000:  This value is not supported.
 
 </td>
 </tr>
@@ -328,6 +341,19 @@ XBUTTON2 changed to up.
 </td>
 <td width="60%">
 Raw input comes from a mouse wheel. The wheel delta is stored in <b>usButtonData</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="RI_MOUSE_HWHEEL"></a><a id="ri_mouse_hwheel"></a><dl>
+<dt><b>RI_MOUSE_HWHEEL</b></dt>
+<dt>0x0800</dt>
+</dl>
+</td>
+<td width="60%">
+Raw input comes from a horizontal mouse wheel. The wheel delta is stored in <b>usButtonData</b>.
+ 
+Windows XP/2000:  This value is not supported.
 
 </td>
 </tr>
