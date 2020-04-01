@@ -48,14 +48,8 @@ req.redist:
 
 Given a handle to a NTFS volume or a file on a NTFS volume, returns a chain of data structures that describes streams that occupy the specified clusters.
 
-<div class="alert"><b>Important</b>  <b>FSCTL_LOOKUP_STREAM_FROM_CLUSTER</b> 
-    is a very resource-intensive operation, and typically uses a very large amount of disk bandwidth, memory, and time. It is 
-    unlikely that much of this information will remain in cache so a second call to 
-    <b>FSCTL_LOOKUP_STREAM_FROM_CLUSTER</b> would 
-    take nearly as much time as the first call. For doing multiple lookups it's more efficient to use 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_enum_usn_data">FSCTL_ENUM_USN_DATA</a> to enumerate every MFT record and 
-    then use <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers">FSCTL_GET_RETRIEVAL_POINTERS</a> to 
-    gather the data to map between clusters and streams.</div><div> </div>
+> [!IMPORTANT]
+> **FSCTL_LOOKUP_STREAM_FROM_CLUSTER** is a very resource-intensive operation, and typically uses a very large amount of disk bandwidth, memory, and time. It is unlikely that much of this information will remain in cache so a second call to **FSCTL_LOOKUP_STREAM_FROM_CLUSTER** would take nearly as much time as the first call. For doing multiple lookups it's more efficient to use [FSCTL_ENUM_USN_DATA](./ni-winioctl-fsctl_enum_usn_data.md) to enumerate every MFT record and then use [FSCTL_GET_RETRIEVAL_POINTERS](./ni-winioctl-fsctl_get_retrieval_pointers.md) to gather the data to map between clusters and streams.
 
 To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
 
