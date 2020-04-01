@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when a key down event occurs.
 
 ## -parameters
 
@@ -101,15 +100,4 @@ The method was successful.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextkeyeventsink">ITfContextKeyEventSink</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
- 
-
- 
-
+[ITfContextKeyEventSink interface](nn-msctf-itfcontextkeyeventsink.md), [WM_KEYDOWN](/windows/desktop/inputdev/wm-keydown)

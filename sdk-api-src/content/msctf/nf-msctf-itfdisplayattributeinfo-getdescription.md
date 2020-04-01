@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the description string of the display attribute.
 
 ## -parameters
 
@@ -102,19 +101,4 @@ The method was successful.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeinfo">ITfDisplayAttributeInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
- 
-
- 
-
+[ITfDisplayAttributeInfo interface](nn-msctf-itfdisplayattributeinfo.md), [SysAllocString function](../oleauto/nf-oleauto-sysallocstring.md), [SysFreeString function](../oleauto/nf-oleauto-sysfreestring.md)

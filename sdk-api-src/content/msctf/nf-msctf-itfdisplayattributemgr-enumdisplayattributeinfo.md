@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a display attribute enumerator object.
 
 ## -parameters
 
@@ -124,16 +123,4 @@ The enumerator object cannot be initialized.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdisplayattributeinfo">IEnumTfDisplayAttributeInfo
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributemgr">ITfDisplayAttributeMgr</a>
- 
-
- 
-
+[ITfDisplayAttributeMgr interface](nn-msctf-itfdisplayattributemgr.md), [IEnumTfDisplayAttributeInfo interface](nn-msctf-ienumtfdisplayattributeinfo.md)

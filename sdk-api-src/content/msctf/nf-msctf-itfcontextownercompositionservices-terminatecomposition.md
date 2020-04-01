@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Terminates a composition.
 
 ## -parameters
 
@@ -153,31 +152,4 @@ This method also does the following:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcomposition-endcomposition">ITfComposition::EndComposition
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompositionsink-oncompositionterminated">ITfCompositionSink::OnCompositionTerminated
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompositionview">ITfCompositionView
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextownercompositionservices">ITfContextOwnerCompositionServices</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onendcomposition">ITfContextOwnerCompositionSink::OnEndComposition
-      </a>
- 
-
- 
-
+[ITfComposition::EndComposition](nf-msctf-itfcomposition-endcomposition.md), [nf-msctf-itfcompositionsink-oncompositionterminated](nf-msctf-itfcompositionsink-oncompositionterminated.md), [ITfCompositionView interface](nn-msctf-itfcompositionview.md), [ITfContextOwnerCompositionServices interface](nn-msctf-itfcontextownercompositionservices.md), [ITfContextOwnerCompositionSink::OnEndComposition](nf-msctf-itfcontextownercompositionsink-onendcomposition.md)
