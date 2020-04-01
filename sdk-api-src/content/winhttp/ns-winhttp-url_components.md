@@ -1,5 +1,5 @@
 ---
-UID: NS:winhttp._URL_COMPONENTS
+UID: NS:winhttp.__unnamed_struct_2
 title: URL_COMPONENTS (winhttp.h)
 description: The URL_COMPONENTS structure contains the constituent parts of a URL. This structure is used with the WinHttpCrackUrl and WinHttpCreateUrl functions.
 old-location: http\url_components.htm
@@ -43,36 +43,25 @@ req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and W
 ms.custom: 19H1
 ---
 
-# URL_COMPONENTS structure
-
-
 ## -description
-
 
 The <b>URL_COMPONENTS</b> structure contains the constituent parts of a URL. This structure is used with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpcrackurl">WinHttpCrackUrl</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpcreateurl">WinHttpCreateUrl</a> functions.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwStructSize
 
 Size of this structure, in bytes. Used for version checking. The size of this structure must be set to initialize this structure properly.
 
-
 ### -field lpszScheme
 
 Pointer to a string value that contains the scheme name.
 
-
 ### -field dwSchemeLength
 
 Length of the scheme name, in characters.
-
 
 ### -field nScheme
 
@@ -107,67 +96,52 @@ The Internet scheme, HTTPS, is an HTTP protocol that uses secure transaction sem
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpszHostName
 
 Pointer to a string value that contains the host name.
 
-
 ### -field dwHostNameLength
 
 Length of the host name, in characters.
-
 
 ### -field nPort
 
 Port number.
 
-
 ### -field lpszUserName
 
 Pointer to a string  that contains the user name.
-
 
 ### -field dwUserNameLength
 
 Length of the user name, in characters.
 
-
 ### -field lpszPassword
 
 Pointer to a string  that contains the password.
-
 
 ### -field dwPasswordLength
 
 Length of the password, in characters.
 
-
 ### -field lpszUrlPath
 
 Pointer to a string  that contains the URL path.
-
 
 ### -field dwUrlPathLength
 
 Length of the URL path, in characters.
 
-
 ### -field lpszExtraInfo
 
 Pointer to a string value that contains the extra information, for example, ?something or #something.
-
 
 ### -field dwExtraInfoLength
 
 Unsigned long integer value that contains the length of the extra information, in characters.
 
-
 ## -remarks
-
-
 
 For the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpcrackurl">WinHttpCrackUrl</a> function, if a pointer member and its corresponding length member are both zero, that component of the URL is not returned. If the pointer member is <b>NULL</b> but the length member is not zero, both the pointer and length members are returned. If both pointer and corresponding length members are nonzero, the pointer member points to a buffer where the component is copied. All escape sequences can be removed from a component, depending on the 
@@ -180,16 +154,7 @@ For the
 <div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP
 		  Versions</a>
- 
-
- 
-

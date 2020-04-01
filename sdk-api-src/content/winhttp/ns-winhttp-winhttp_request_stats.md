@@ -43,16 +43,11 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WINHTTP_REQUEST_STATS structure
-
-
 ## -description
 
 The **WINHTTP\_REQUEST\_STATS** structure contains a variety of statistics for a request.
 
-
 ## -struct-fields
-
 
 ### -field ullFlags
 
@@ -71,21 +66,17 @@ Flags containing details on how the request was made. The following flags are av
 
 The index of the request on the connection. This indicates how many prior requests were sent over the shared connection.
 
-
 ### -field cStats
 
 Unsigned long integer value that contains the number of statistics to retrieve. This should generally be set to **WinHttpRequestStatLast**.
-
 
 ### -field rgullStats
 
 Array of unsigned long long integer values that will contain the returned statistics, indexed by [**WINHTTP\_REQUEST\_STAT\_ENTRY**](/windows/desktop/api/winhttp/ne-winhttp-winhttp_request_stat_entry).
 
-
 ## -remarks
 
 This structure is used with [WinHttpQueryOption](/windows/desktop/api/winhttp/nf-winhttp-winhttpqueryoption) to retrieve statistics for a request by specifying the **WINHTTP\_OPTION\_REQUEST\_STATS** flag.
-
 
 ## -see-also
 
