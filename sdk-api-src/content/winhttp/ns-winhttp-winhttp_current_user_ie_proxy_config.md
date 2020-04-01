@@ -1,5 +1,5 @@
 ---
-UID: NS:winhttp._WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
+UID: NS:winhttp.__unnamed_struct_6
 title: WINHTTP_CURRENT_USER_IE_PROXY_CONFIG (winhttp.h)
 description: The WINHTTP_CURRENT_USER_IE_PROXY_CONFIG structure contains the Internet Explorer proxy configuration information.
 old-location: http\winhttp_current_user_ie_proxy_config.htm
@@ -43,48 +43,29 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WINHTTP_CURRENT_USER_IE_PROXY_CONFIG structure
-
-
 ## -description
-
 
 The <b>WINHTTP_CURRENT_USER_IE_PROXY_CONFIG</b> structure contains the Internet Explorer proxy configuration information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field fAutoDetect
 
 If TRUE, indicates that the Internet Explorer proxy configuration for the current user specifies "automatically detect settings".
 
-
 ### -field lpszAutoConfigUrl
 
 Pointer to a null-terminated Unicode string that contains the auto-configuration URL if the Internet Explorer proxy configuration for the current user specifies "Use automatic proxy configuration".
-
 
 ### -field lpszProxy
 
 Pointer to a null-terminated Unicode string that contains the proxy URL if the Internet Explorer proxy configuration for the current user specifies "use a proxy server".
 
-
 ### -field lpszProxyBypass
 
 Pointer to a null-terminated Unicode string that contains the optional proxy by-pass server list.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP
 		  Versions</a>
- 
-
- 
-
