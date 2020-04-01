@@ -45,25 +45,17 @@ ms.custom: 19H1
 
 # ITfComposition::GetRange
 
-
 ## -description
 
-
-
+Obtains a range object that contains the text covered by the composition.
 
 ## -parameters
-
-
-
 
 ### -param ppRange [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfRange</a> interface pointer that receives the range object. It is possible that the range will have zero length.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -128,19 +120,7 @@ The composition has already terminated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfRange
-      </a>
- 
-
- 
-
+[ITfComposition interface](nn-msctf-itfcomposition.md), [ITfRange interface](nn-msctf-itfrange.md)

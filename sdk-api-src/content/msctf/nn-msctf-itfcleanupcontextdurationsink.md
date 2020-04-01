@@ -45,12 +45,9 @@ ms.custom: 19H1
 
 # ITfCleanupContextDurationSink interface
 
-
 ## -description
 
-
 The <b>ITfCleanupContextDurationSink</b> interface is implemented by a text service to receive notifications when a context cleanup operation is performed. This notification sink is installed by calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITfSourceSingle::AdviseSingleSink</a> with IID_ITfCleanupContextDurationSink.
-
 
 ## -inheritance
 
