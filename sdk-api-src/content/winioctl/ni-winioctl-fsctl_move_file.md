@@ -52,14 +52,14 @@ To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapise
 
 ```cpp
 BOOL DeviceIoControl(
-  (HANDLE)          hDevice,            // handle to volume
-  (DWORD)           FSCTL_MOVE_FILE,    // dwIoControlCode
-  (LPVOID)          lpInBuffer,         // MOVE_FILE_DATA structure
-  (DWORD)           nInBufferSize,      // size of input buffer
-  (LPVOID)          NULL,               // lpOutBuffer
-  (DWORD)           0,                  // nOutBufferSize
-  (LPDWORD)         lpBytesReturned,    // number of bytes returned
-  (LPOVERLAPPED)    lpOverlapped        // OVERLAPPED structure
+  (HANDLE) hDevice,             // handle to volume
+  FSCTL_MOVE_FILE,              // dwIoControlCode
+  (LPVOID) lpInBuffer,          // MOVE_FILE_DATA structure
+  (DWORD) nInBufferSize,        // size of input buffer
+  NULL,                         // lpOutBuffer
+  0,                            // nOutBufferSize
+  (LPDWORD) lpBytesReturned,    // number of bytes returned
+  (LPOVERLAPPED) lpOverlapped   // OVERLAPPED structure
 );
 ```
 
