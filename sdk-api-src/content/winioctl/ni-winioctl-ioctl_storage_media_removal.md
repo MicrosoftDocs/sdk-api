@@ -44,93 +44,47 @@ req.redist:
 
 # IOCTL_STORAGE_MEDIA_REMOVAL IOCTL
 
-
 ## -description
-
 
 Enables or disables the mechanism that ejects media, for those devices possessing that locking capability.
 
-To perform this operation, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL DeviceIoControl(
-  (HANDLE) hDevice,            // handle to device
-  IOCTL_STORAGE_MEDIA_REMOVAL, // dwIoControlCode(LPVOID) lpInBuffer,         // input buffer 
-  (DWORD) nInBufferSize,       // size of input buffer 
-  NULL,                        // lpOutBuffer0,                           // nOutBufferSize(LPDWORD) lpBytesReturned,   // number of bytes returned
-  (LPOVERLAPPED) lpOverlapped  // OVERLAPPED structure
-);</pre>
-</td>
-</tr>
-</table></span></div>
+To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
+
+```cpp
+BOOL DeviceIoControl(
+  (HANDLE) hDevice,             // handle to device
+  IOCTL_STORAGE_MEDIA_REMOVAL,  // dwIoControlCode
+  (LPVOID) lpInBuffer,          // input buffer 
+  (DWORD) nInBufferSize,        // size of input buffer 
+  NULL,                         // lpOutBuffer
+  0,                            // nOutBufferSize
+  (LPDWORD) lpBytesReturned,    // number of bytes returned
+  (LPOVERLAPPED) lpOverlapped   // OVERLAPPED structure
+);
+```
+
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -input-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -output-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -output-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -in-out-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -inout-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -139,41 +93,15 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
-
-
 ## -remarks
 
-
-
-The 
-<b>IOCTL_STORAGE_MEDIA_REMOVAL</b> control code is valid only for devices that support removable media.
-
-
+The **IOCTL_STORAGE_MEDIA_REMOVAL** control code is valid only for devices that support removable media.
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-control-codes">Device Management Control Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_eject_media">IOCTL_STORAGE_EJECT_MEDIA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_load_media">IOCTL_STORAGE_LOAD_MEDIA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-prevent_media_removal">PREVENT_MEDIA_REMOVAL</a>
- 
-
- 
-
+* [Device Management Control Codes](https://docs.microsoft.com/windows/desktop/DevIO/device-management-control-codes)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [IOCTL_STORAGE_EJECT_MEDIA](./ni-winioctl-ioctl_storage_eject_media.md)
+* [IOCTL_STORAGE_LOAD_MEDIA](./ni-winioctl-ioctl_storage_load_media.md)
+* [PREVENT_MEDIA_REMOVAL](./ns-winioctl-prevent_media_removal.md)
