@@ -399,7 +399,7 @@ A single-component, 1-bit unsigned-normalized integer format that supports 1 bit
 ### -field DXGI_FORMAT_R9G9B9E5_SHAREDEXP
 
 Three partial-precision floating-point numbers encoded into a single 32-bit value all sharing the same 5-bit exponent (variant of s10e5, which is sign bit, 10-bit mantissa, and 5-bit biased (15) exponent). 
-        There is no sign bit, and there is a shared 5-bit biased (15) exponent and a 9-bit mantissa for each channel, as shown in the following illustration. <sup>2,6,7</sup>.
+        There is no sign bit, and there is a shared 5-bit biased (15) exponent and a 9-bit mantissa for each channel, as shown in the following illustration. <sup>6,7</sup>.
 
 <img alt="Illustration of the bits in the three partial-precision floating-point numbers" src="./images/RGBE.png"/>
 
