@@ -119,7 +119,7 @@ Mouse attributes changed; application needs to query the mouse attributes.
 </dl>
 </td>
 <td width="60%">
-The mouse event was input was not coalesced. Mouse movement events can be coalescened by default.
+This mouse movement event was not coalesced. Mouse movement events can be coalescened by default.
 
 Windows XP/2000:  This value is not supported.
 
