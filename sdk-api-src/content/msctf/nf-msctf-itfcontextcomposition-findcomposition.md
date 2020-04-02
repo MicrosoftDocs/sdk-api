@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Creates an enumerator object that contains all compositions that intersect a specified range of text.
 
 ## -parameters
 
@@ -145,26 +144,4 @@ The edit context identified by <i>ecRead</i> does not have a read-only lock.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumitfcompositionview">IEnumITfCompositionView
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextcomposition">ITfContextComposition</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
-      </a>
- 
-
- 
-
+[IEnumITfCompositionView interface](nn-msctf-ienumitfcompositionview.md), [ITfContextComposition interface](nn-msctf-itfcontextcomposition.md), [ITfRange interface](nn-msctf-itfrange.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), 

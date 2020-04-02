@@ -86,26 +86,4 @@ To determine what has changed within the composition, compare <i>pRangeNew</i> w
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompositionview">ITfCompositionView
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompositionview-getrange">ITfCompositionView::GetRange
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextownercompositionsink">ITfContextOwnerCompositionSink</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
-      </a>
- 
-
- 
-
+[ITfCompositionView interface](nn-msctf-itfcompositionview.md), [ITfContextOwnerCompositionSink interface](nn-msctf-itfcontextownercompositionsink.md), [ITfCompositionView::GetRange](nf-msctf-itfcompositionview-getrange.md), [ITfRange interface](nn-msctf-itfrange.md)

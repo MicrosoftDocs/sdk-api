@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Forces a property load.
 
 ## -parameters
 
@@ -122,21 +121,4 @@ The application must be able to grant a synchronous read-only lock before callin
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextownerservices">ITfContextOwnerServices</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-unserialize">ITfContextOwnerServices::Unserialize
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty
-      </a>
- 
-
- 
-
+[ITfContextOwnerServices interface](nn-msctf-itfcontextownerservices.md), [ITfContextOwnerServices::Unserialize](nf-msctf-itfcontextownerservices-unserialize.md), [ITfProperty interface](nn-msctf-itfproperty.md)
