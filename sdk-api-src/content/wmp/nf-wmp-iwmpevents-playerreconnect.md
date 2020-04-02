@@ -62,15 +62,6 @@ The <b>PlayerReconnect</b> event occurs when a remoted Windows Media Player cont
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

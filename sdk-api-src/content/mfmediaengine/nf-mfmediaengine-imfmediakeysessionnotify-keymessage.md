@@ -72,15 +72,6 @@ The message to send to the application.
 The length in bytes of <i>message</i>.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

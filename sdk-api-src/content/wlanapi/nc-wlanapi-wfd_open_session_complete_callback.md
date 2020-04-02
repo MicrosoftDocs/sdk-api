@@ -138,15 +138,6 @@ Various RPC and other error codes. Use <b>FormatMessage</b> to obtain the messag
 A value that specifies the more detail if an error occurred during <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartopensession">WFDStartOpenSession</a>. 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

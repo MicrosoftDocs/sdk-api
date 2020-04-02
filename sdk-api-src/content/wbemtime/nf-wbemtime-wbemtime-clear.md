@@ -66,15 +66,6 @@ The <b>Clear</b> method sets the time in the <a href="https://docs.microsoft.com
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

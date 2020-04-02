@@ -108,15 +108,6 @@ Type: <b>DWORD_PTR</b>
 Specifies a parameter for the message.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

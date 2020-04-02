@@ -78,15 +78,6 @@ Specifies if the log is considered "pinned". If <i>fLogIsPinned</i> is <b>TRUE</
 A pointer to the client context.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

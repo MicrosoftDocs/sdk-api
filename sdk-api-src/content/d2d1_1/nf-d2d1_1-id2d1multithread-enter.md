@@ -59,15 +59,6 @@ Enters the Direct2D API critical section, if it exists.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

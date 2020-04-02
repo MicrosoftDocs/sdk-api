@@ -68,15 +68,6 @@ Pointer to the parent memory block.
 Pointer to the child memory block.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

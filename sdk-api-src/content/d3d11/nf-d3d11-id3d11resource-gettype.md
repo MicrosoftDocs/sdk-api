@@ -66,15 +66,6 @@ Pointer to the resource type (see <a href="https://docs.microsoft.com/windows/de
           
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

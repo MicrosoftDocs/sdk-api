@@ -62,11 +62,3 @@ This callback is reserved for system use, and you should not use it in your code
 Reserved.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

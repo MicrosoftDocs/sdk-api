@@ -65,15 +65,6 @@ Type: <b>UINT32</b>
 An approximate instruction count of the associated shader.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

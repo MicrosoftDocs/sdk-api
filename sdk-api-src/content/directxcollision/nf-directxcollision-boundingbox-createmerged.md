@@ -72,15 +72,6 @@ A BoundingBox that should be contained in the new BoundingBox.
 A vector describing the plane.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

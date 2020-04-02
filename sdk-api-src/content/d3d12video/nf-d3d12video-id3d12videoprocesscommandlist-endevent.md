@@ -50,8 +50,6 @@ For internal use only. Not intended to be called directly.
 ## -parameters
 
 
-## -returns
-This method returns void.
 ## -remarks
 
 ## -see-also

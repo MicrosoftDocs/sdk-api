@@ -69,15 +69,6 @@ The address to signal. If another thread has previously called
       wait.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

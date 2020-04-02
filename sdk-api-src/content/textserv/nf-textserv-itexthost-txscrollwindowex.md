@@ -163,15 +163,6 @@ Scrolls using smooth scrolling. Use the
  
 
 
-## -returns
-
-
-
-There is no return value.
-
-
-
-
 ## -remarks
 
 

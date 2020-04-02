@@ -60,15 +60,6 @@ Used to indicate that an error has occurred with the  source buffer.
 ### -param hr [in]
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

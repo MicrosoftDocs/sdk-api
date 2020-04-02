@@ -75,16 +75,6 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

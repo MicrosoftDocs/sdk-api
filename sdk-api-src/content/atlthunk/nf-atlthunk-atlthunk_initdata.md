@@ -72,15 +72,6 @@ See the example in remarks for more info.
 See the example in remarks for more info.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

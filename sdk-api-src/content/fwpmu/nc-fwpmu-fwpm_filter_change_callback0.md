@@ -71,15 +71,6 @@ Type: [FWPM_FILTER_CHANGE0](https://docs.microsoft.com/windows/desktop/api/fwpmt
 The change notification information.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

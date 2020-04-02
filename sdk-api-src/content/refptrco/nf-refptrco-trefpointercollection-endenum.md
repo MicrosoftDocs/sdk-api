@@ -66,15 +66,6 @@ The <b>EndEnum</b> method ends the enumeration of the collection.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

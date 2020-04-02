@@ -66,15 +66,6 @@ Type: <b>_Outptr_result_maybenull_**</b>
 Retrieves the source image used to create the transformed image source.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -90,15 +90,6 @@ A value added to each index before reading per-instance data from a vertex buffe
           
 
 
-## -returns
-
-
-
-Returns nothing
-
-
-
-
 ## -remarks
 
 

@@ -72,15 +72,6 @@ A <b>TP_POOL</b> structure that defines the thread pool. The <a href="https://do
 The maximum number of threads.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

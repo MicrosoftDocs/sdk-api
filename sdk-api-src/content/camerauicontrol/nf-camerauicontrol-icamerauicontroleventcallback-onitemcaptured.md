@@ -62,15 +62,6 @@ Occurs when an item is captured.
 The path to the captured item.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

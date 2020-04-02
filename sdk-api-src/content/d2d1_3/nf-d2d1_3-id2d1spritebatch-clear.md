@@ -59,15 +59,6 @@ Removes all sprites from this sprite batch.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

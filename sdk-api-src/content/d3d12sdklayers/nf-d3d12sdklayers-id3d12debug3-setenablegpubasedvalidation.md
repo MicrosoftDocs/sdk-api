@@ -51,10 +51,6 @@ Type: <b>BOOL</b>
 
 TRUE to enable GPU-based validation, otherwise FALSE.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 GPU-based validation can be enabled/disabled only prior to creating a device. By default, GPU-based validation is disabled. To disable GPU-based validation after initially enabling it, the device must be fully released and recreated.

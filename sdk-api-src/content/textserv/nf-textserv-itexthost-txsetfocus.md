@@ -59,15 +59,6 @@ Sets the focus to the text host window.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -66,11 +66,3 @@ The <b>Clear</b> method sets the time span to INVALID_TIME.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-

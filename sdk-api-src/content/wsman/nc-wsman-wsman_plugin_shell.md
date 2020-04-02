@@ -84,15 +84,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that specifies an optional inbound object that contains extra data for the shell.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -67,15 +67,6 @@ Handle to the physical device, which was returned to GDI when it called <a href=
 Handle to the physical device that has been installed. This is the GDI handle for the physical device being created. The driver should use this handle when calling GDI functions.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

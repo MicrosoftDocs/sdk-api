@@ -65,15 +65,6 @@ The <b>CurrentPlaylistChange</b> event occurs when something changes within the 
 Specifies what type of change occurred to the playlist. See the <b>PlaylistChange</b> event for a table of possible values.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

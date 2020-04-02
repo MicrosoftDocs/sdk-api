@@ -79,15 +79,6 @@ A <b>TRUE</b> for this parameter indicates that the window
 				should be <b>FALSE</b> otherwise. 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

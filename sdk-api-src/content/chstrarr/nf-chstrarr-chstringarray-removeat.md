@@ -74,15 +74,6 @@ An integer index that is greater than or equal to zero and less than or equal to
 The number of elements to remove. The default is 1 (one).
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

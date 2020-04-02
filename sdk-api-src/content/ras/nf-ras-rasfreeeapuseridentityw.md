@@ -69,15 +69,6 @@ Pointer to the
 <b>RasFreeEapUserIdentity</b> frees the memory occupied by this structure.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

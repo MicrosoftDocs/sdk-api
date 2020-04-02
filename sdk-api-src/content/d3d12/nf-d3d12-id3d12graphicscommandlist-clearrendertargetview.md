@@ -90,16 +90,6 @@ An array of <b>D3D12_RECT</b> structures for the rectangles in the resource view
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

@@ -76,15 +76,6 @@ An array of viewports (see <a href="https://docs.microsoft.com/windows/desktop/a
         the actual number of viewports currently bound, then unused members of the array will contain 0.
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -see-also
 
 

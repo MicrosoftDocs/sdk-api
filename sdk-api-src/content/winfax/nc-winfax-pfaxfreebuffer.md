@@ -66,15 +66,6 @@ Type: <b>LPVOID</b>
 Pointer to a buffer allocated on a previous call to one of the functions named in the following See Also section.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

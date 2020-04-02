@@ -87,15 +87,6 @@ The null-terminated argument strings passed to the service by the call to  the
 If the user starts a manual service using the Services snap-in from the Control Panel, the strings for the <i>lpszArgv</i> parameter come from the properties dialog box for the service (from the Services snap-in, right-click the service entry, click <b>Properties</b>, and enter the parameters in <b>Start parameters</b>.)
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

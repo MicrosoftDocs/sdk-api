@@ -73,11 +73,3 @@ Type: <b>VOID*</b>
 Do not use. This API is only supported for Xbox developers.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

@@ -74,15 +74,6 @@ The input effect to set.
 Whether to invalidate the graph at the location of the effect input
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

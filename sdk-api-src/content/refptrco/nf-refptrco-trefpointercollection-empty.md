@@ -66,11 +66,3 @@ The <b>Empty</b> method removes all items from the collection.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-

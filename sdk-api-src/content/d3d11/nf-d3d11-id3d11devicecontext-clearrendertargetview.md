@@ -72,15 +72,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windo
 A 4-component array that represents the color to fill the render target with.
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

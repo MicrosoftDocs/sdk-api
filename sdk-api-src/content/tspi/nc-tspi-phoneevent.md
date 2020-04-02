@@ -85,15 +85,6 @@ A parameter for the message.
 A parameter for the message.
 
 
-## -returns
-
-
-
-This function has no return value.
-
-
-
-
 ## -remarks
 
 

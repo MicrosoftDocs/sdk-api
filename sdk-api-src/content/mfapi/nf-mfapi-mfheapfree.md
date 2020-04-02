@@ -65,15 +65,6 @@ Frees a block of memory that was allocated by calling the <a href="https://docs.
 Pointer to the memory to free.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -64,9 +64,6 @@ The count of input streams.
 
 A pointer to an array of [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1](ns-d3d12video-d3d12_video_process_input_stream_arguments1.md) structures specifying the input parameters.
 
-## -returns
-This method returns void.
-
 ## -remarks
 
 ## -see-also

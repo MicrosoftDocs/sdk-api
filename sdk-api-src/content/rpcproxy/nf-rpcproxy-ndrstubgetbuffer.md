@@ -72,15 +72,6 @@ Pointer to RPC channel.
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. The  <b>pRpcMsg</b> member points to a structure whose <b>Buffer</b> member points to the newly allocated buffer. Structure is for internal use only; do not modify.
 
 
-## -returns
-
-
-
-This function has no return value. Throws an exception upon error.
-
-
-
-
 ## -see-also
 
 

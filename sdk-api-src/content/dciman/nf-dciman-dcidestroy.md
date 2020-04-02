@@ -66,15 +66,6 @@ A pointer to a <b>DCISURFACEINFO</b> structure.
  
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

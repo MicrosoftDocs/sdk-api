@@ -62,15 +62,6 @@ The <b>RM_WRITE_STATUS_CALLBACK</b> function can be implemented by the user inte
 An integer value between 0 and 100 that indicates the percentage of the total number of applications that have either been shut down or restarted.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

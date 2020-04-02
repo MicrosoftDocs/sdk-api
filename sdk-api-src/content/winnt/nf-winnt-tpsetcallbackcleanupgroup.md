@@ -72,15 +72,6 @@ A <b>TP_CLEANUP_GROUP</b> structure that defines the cleanup group. The <a href=
 The cleanup callback to be called if the cleanup group is canceled before the associated object is released. The function is called when you call <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolcleanupgroupmembers">CloseThreadpoolCleanupGroupMembers</a>.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -86,15 +86,6 @@ The filter level. If <i>Enable</i> is <b>FALSE</b>, this parameter is ignored.
 To find the valid range of levels for a specified filter, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorfilterrange">ID3D11VideoProcessorEnumerator::GetVideoProcessorFilterRange</a>.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

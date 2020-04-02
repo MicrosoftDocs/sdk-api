@@ -78,15 +78,6 @@ The planar alpha value. The value can range from 0.0 (transparent) to 1.0 (opaqu
  If <i>Enable</i> is <b>FALSE</b>, this parameter is ignored.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

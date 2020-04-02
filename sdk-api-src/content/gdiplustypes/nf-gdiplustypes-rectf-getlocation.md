@@ -65,15 +65,6 @@ Type: <b>PointF*</b>
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> object that receives the coordinates of the upper-left corner of this rectangle. 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

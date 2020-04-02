@@ -74,15 +74,6 @@ A <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-informat
 A pointer to the access mask that this function creates.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

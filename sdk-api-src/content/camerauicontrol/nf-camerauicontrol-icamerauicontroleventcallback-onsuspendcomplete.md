@@ -59,15 +59,6 @@ Occurs when the camera UI control has completed being suspended.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

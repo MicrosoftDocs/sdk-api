@@ -51,10 +51,6 @@ Type: <b>BOOL</b>
 
 TRUE to enable Dependent Command Queue Synchronization, otherwise FALSE.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 Dependent Command Queue Synchronization is a D3D12 Debug Layer feature that gives the debug layer the ability to track resource states more accurately when enabled. Dependent Command Queue Synchronization is enabled by default. 

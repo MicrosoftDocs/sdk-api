@@ -67,15 +67,6 @@ Effect-specific parameter block.
 Size of pParameters, in bytes.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

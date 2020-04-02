@@ -62,15 +62,6 @@ Launch the threads of a ray generation shader.
 A description of the ray dispatch
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

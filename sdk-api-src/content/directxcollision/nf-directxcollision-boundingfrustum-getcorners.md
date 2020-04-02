@@ -62,15 +62,6 @@ Gets the corners making up the [BoundingFrustum](/windows/win32/api/directxcolli
 A pointer to a buffer that the corners will be written to.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

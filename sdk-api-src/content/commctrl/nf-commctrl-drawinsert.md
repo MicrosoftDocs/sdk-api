@@ -78,11 +78,3 @@ Type: <b>int</b>
 The identifier of the icon item to be drawn. 
 
 
-## -returns
-
-
-
-No return value. 
-
-
-

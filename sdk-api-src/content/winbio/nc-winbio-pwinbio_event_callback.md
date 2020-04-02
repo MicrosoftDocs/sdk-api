@@ -72,11 +72,3 @@ Error code returned by the capture operation.
 Pointer to a WINBIO_EVENT value. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-event-constants">WINBIO_EVENT Constants</a>.
 
 
-## -returns
-
-
-
-Do not return a value from your implementation of this function.
-
-
-

@@ -59,15 +59,6 @@ Stops the audio processing thread.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

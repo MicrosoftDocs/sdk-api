@@ -66,15 +66,6 @@ The identifier of the track that was added.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

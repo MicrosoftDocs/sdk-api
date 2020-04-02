@@ -87,11 +87,3 @@ Type: <b>WORD*</b>
 A pointer to a value that, when this method returns successfully, receives the HLS saturation value.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

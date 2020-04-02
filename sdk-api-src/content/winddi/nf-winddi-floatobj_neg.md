@@ -62,15 +62,6 @@ The <b>FLOATOBJ_Neg</b> function negates the <a href="https://docs.microsoft.com
 Pointer to the FLOATOBJ to be negated. When the function returns, *<i>pf</i> will contain the negated value.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

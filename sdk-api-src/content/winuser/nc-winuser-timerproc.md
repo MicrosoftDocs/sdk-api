@@ -86,15 +86,6 @@ The number of milliseconds that have elapsed since the system was started. This 
 
 
 
-## -returns
-
-
-
-This function does not return a value. 
-
-
-
-
 ## -see-also
 
 

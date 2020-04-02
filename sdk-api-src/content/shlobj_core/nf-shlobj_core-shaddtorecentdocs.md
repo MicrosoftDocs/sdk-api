@@ -84,15 +84,6 @@ A pointer to data that identifies the item that has been accessed. The item can 
 Set this parameter to <b>NULL</b> to clear all usage data on all items.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -66,15 +66,6 @@ This function has no associated import library. You must use the <a href="https:
 The certificate to free.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

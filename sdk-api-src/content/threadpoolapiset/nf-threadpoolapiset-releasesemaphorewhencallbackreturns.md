@@ -77,15 +77,6 @@ A handle to the semaphore.
 The amount by which to increment the semaphore object's count.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

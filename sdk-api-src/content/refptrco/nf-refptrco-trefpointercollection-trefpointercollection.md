@@ -71,11 +71,3 @@ This constructor initializes a new <a href="https://docs.microsoft.com/windows/d
 Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a> object.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-

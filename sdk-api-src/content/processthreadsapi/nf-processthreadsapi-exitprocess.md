@@ -69,15 +69,6 @@ Ends the calling process and all its threads.
 The exit code for the process and all threads.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

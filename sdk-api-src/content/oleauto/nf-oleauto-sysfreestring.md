@@ -62,11 +62,3 @@ Deallocates a string allocated previously by <a href="https://docs.microsoft.com
 The previously allocated string. If this parameter is <b>NULL</b>, the function simply returns.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

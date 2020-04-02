@@ -64,15 +64,6 @@ Immediately marks a <a href="https://docs.microsoft.com/previous-versions/window
 Resource identifier for the resource to be made unavailable.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

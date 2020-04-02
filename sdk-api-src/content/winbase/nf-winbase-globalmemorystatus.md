@@ -75,15 +75,6 @@ A pointer to a
 <b>GlobalMemoryStatus</b> function stores information about current memory availability into this structure.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

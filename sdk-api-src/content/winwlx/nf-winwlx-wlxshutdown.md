@@ -111,15 +111,6 @@ Shuts down and turns off the computer, if the hardware allows.
  
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

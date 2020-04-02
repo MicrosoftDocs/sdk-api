@@ -62,15 +62,6 @@ The <b>Error</b> event occurs when the Windows Media Player control has an error
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

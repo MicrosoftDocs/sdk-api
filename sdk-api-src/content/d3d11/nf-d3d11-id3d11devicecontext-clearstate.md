@@ -60,15 +60,6 @@ Restore all default settings.
 
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

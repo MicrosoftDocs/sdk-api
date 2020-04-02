@@ -64,15 +64,6 @@ An application-defined function. If the FLS slot is in use, <b>FlsCallback</b> i
 The value stored in the FLS slot for the calling fiber.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

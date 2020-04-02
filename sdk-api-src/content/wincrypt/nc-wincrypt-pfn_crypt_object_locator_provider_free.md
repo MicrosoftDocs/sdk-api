@@ -67,15 +67,6 @@ Pointer to an optional buffer defined by this provider and returned by the <a hr
 Pointer to the buffer to release.
 
 
-## -returns
-
-
-
-Do not return a value from this function. 
-
-
-
-
 ## -remarks
 
 

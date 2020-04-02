@@ -87,15 +87,6 @@ Type: <b>int</b>
 An integer that specifies the index in the system image list of the icon that is being updated.
 
 
-## -returns
-
-
-
-No return value.
-
-
-
-
 ## -remarks
 
 

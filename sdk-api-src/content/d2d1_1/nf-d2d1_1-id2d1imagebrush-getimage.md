@@ -65,15 +65,6 @@ When this method returns, contains the address of a pointer to the image associa
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

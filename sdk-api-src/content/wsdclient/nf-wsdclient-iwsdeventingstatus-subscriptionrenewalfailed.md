@@ -67,15 +67,6 @@ URI of the event action.
 HRESULT indicating the nature of the error.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

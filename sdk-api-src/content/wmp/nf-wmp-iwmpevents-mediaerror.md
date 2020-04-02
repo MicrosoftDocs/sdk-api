@@ -65,15 +65,6 @@ The <b>MediaError</b> event occurs when the <b>Media</b> object has an error con
 Pointer to an <b>IDispatch</b> interface for the object that has an error condition.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

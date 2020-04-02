@@ -59,15 +59,6 @@ Enables the <a href="https://docs.microsoft.com/previous-versions/windows/deskto
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

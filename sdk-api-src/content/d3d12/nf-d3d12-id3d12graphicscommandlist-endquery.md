@@ -82,16 +82,6 @@ Specifies the index of the query in the query heap.
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

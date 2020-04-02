@@ -63,15 +63,6 @@ Closes a file that was opened by using the
 A handle to the file to be closed.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -82,15 +82,6 @@ Type: <b>HRESULT</b>
 Result of the download operation.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

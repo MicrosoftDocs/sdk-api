@@ -121,16 +121,6 @@ The size of one depth slice of source data.
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

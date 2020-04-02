@@ -67,15 +67,6 @@ The size of the data or key pointed to by the <i>lpb</i> parameter, in bytes.
 A pointer to the data or key.
 
 
-## -returns
-
-
-
-This function has no return values.
-
-
-
-
 ## -remarks
 
 

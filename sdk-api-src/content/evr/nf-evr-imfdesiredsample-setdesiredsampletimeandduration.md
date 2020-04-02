@@ -71,15 +71,6 @@ The time of the requested sample.
 The duration of the requested sample.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

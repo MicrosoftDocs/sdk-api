@@ -88,15 +88,6 @@ Pointer to buffer containing the command line. You should use a null-terminated 
 Reserved and should be zero.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

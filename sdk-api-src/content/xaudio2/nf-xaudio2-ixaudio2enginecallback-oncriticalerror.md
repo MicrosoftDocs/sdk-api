@@ -62,15 +62,6 @@ Called if a critical system error occurs that requires XAudio2 to be closed down
 Error code returned by XAudio2.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

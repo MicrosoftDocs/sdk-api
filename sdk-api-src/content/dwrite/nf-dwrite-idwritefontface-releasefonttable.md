@@ -64,15 +64,6 @@ Type: <b>void*</b>
 A pointer to the opaque context from <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontface-trygetfonttable">TryGetFontTable</a>.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

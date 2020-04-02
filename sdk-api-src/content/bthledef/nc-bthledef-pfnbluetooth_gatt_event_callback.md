@@ -74,15 +74,6 @@ The context specified by the profile driver in the <i>CallbackContext</i> parame
       when the profile driver registered the GATT callback function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

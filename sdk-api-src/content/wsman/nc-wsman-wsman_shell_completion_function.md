@@ -106,11 +106,3 @@ Defines the output data from the command or shell as a result of a
       <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_receive_data_result">WSMAN_RECEIVE_DATA_RESULT</a> structure.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

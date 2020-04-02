@@ -67,15 +67,6 @@ The aspect, or view, of the object. Contains a value taken from the <a href="htt
 The portion of the view that has changed. Currently only -1 is valid.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

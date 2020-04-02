@@ -51,10 +51,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/
 
 Specifies the level of GPU-based validation to perform at runtime.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 This method overrides the default behavior of GPU-based validation so it must be called before creating the D3D12 Device. These settings can't be changed or cancelled after the device is created. If you want to change the behavior of GPU-based validation at a later time, the device must be destroyed and recreated with different parameters.

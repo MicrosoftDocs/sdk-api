@@ -73,15 +73,6 @@ The length of the <i>pTypeName</i> parameter.
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

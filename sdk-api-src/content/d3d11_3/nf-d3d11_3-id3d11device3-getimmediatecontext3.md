@@ -67,15 +67,6 @@ Upon completion of the method, the passed pointer to an <a href="https://docs.mi
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -65,11 +65,3 @@ The <b>mmTaskBlock</b> function is deprecated. Applications should not use this 
 Reserved.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

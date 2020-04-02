@@ -61,15 +61,6 @@ This method is called by the audio engine at the end of a processing pass. The e
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -62,15 +62,6 @@ Releases the TLIBATTR originally obtained from <a href="https://docs.microsoft.c
 The TLIBATTR to be freed.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -74,16 +74,6 @@ An array of scissor rectangles.
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

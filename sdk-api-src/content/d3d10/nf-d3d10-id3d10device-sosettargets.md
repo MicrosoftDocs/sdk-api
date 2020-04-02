@@ -79,15 +79,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windo
 Array of offsets to the output buffers from <i>ppSOTargets</i>, one offset for each buffer. The offset values must be in bytes.
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

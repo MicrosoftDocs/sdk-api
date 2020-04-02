@@ -59,15 +59,6 @@ Enables the debug layer.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

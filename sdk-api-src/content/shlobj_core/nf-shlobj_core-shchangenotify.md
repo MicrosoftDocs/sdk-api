@@ -288,15 +288,6 @@ Type: <b>LPCVOID</b>
 Optional. Second event-dependent value.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

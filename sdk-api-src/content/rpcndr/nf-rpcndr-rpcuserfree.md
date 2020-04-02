@@ -69,11 +69,3 @@ Reserved.
 Reserved.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

@@ -71,15 +71,6 @@ Releases a slim reader/writer (SRW) lock that was acquired in shared mode.
 A pointer to the SRW lock.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -64,15 +64,6 @@ Type: <b>void*</b>
 A pointer to the client-defined context of a font fragment returned from <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontfilestream-readfilefragment">ReadFileFragment</a>.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

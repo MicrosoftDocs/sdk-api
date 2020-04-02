@@ -90,15 +90,6 @@ TRUE to mix with the destination buffer, FALSE to overwrite the destination buff
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

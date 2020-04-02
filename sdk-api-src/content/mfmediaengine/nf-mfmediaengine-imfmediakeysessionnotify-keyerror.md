@@ -63,15 +63,6 @@ Notifies the application that an error occurred while processing the key.
 ### -param systemCode
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

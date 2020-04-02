@@ -82,15 +82,6 @@ Array of constant buffers (see <a href="https://docs.microsoft.com/windows/deskt
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

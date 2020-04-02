@@ -70,15 +70,6 @@ Address of the <b>IWMPSyncDevice</b> interface that represents the device for wh
 Address of the <b>IWMPDispatch</b> interface that represents the media item for which the synchronization error occurred.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

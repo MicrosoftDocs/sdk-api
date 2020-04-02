@@ -59,15 +59,6 @@ Called by the server to notify all registered advisory sinks that the object has
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

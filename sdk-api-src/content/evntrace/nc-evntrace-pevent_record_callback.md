@@ -65,16 +65,6 @@ Pointer to an
 <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a> structure that contains the event information.
 
 
-## -returns
-
-
-
-The function does not return a value.
-					
-
-
-
-
 ## -remarks
 
 

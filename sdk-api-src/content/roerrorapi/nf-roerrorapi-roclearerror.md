@@ -59,15 +59,6 @@ Removes existing error information from the current thread environment block (TE
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

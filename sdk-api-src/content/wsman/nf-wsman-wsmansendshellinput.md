@@ -97,11 +97,3 @@ Defines an asynchronous structure. The asynchronous structure contains an option
 Defines the operation handle for the send operation. This handle is returned from a successful call of the function and can be used to asynchronously cancel the send operation. This handle should be closed by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancloseoperation">WSManCloseOperation</a> method. This parameter cannot be <b>NULL</b>.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

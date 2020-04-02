@@ -71,15 +71,6 @@ Type: <b>FLOAT*</b>
 When this method returns, contains the vertical DPI of the render target. This parameter is passed uninitialized.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

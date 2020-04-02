@@ -63,15 +63,6 @@ Raises a non-continuable exception in the current process.
 The <b>HRESULT</b> associated with the current error. The exception is raised for any value of <i>hrError</i>.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -65,11 +65,3 @@ The <b>AuditFree</b> function frees the memory allocated by audit functions for 
 A pointer to the buffer to free.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

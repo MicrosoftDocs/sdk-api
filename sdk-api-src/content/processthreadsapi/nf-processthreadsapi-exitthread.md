@@ -69,15 +69,6 @@ Ends the calling thread.
 The exit code for the thread.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -72,15 +72,6 @@ A <b>TP_WORK</b> structure that defines the work object. The <a href="https://do
 Indicates whether to cancel queued callbacks that have not yet started to execute.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

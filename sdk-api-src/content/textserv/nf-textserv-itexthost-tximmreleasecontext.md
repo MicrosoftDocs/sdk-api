@@ -66,15 +66,6 @@ Type: <b>HIMC</b>
 The input context. 
 
 
-## -returns
-
-
-
-This method has no return value.
-
-
-
-
 ## -see-also
 
 

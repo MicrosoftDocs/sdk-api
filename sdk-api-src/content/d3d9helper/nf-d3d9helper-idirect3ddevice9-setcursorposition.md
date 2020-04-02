@@ -102,15 +102,6 @@ If this flag is specified, the system guarantees that the cursor will be updated
  
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

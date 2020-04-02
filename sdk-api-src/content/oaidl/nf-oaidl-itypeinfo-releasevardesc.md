@@ -62,15 +62,6 @@ Releases a VARDESC previously returned by <a href="https://docs.microsoft.com/pr
 The VARDESC to be freed.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

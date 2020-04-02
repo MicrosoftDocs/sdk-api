@@ -72,11 +72,3 @@ Pointer to memory to be freed.
 Pointer to the format string description.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

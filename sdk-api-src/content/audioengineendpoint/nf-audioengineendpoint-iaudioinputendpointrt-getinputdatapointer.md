@@ -88,15 +88,6 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/audioeng
     This parameter is optional.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

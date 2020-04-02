@@ -85,15 +85,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id
 The style of stroke to apply to the geometry's outline, or <b>NULL</b> to paint a solid stroke.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

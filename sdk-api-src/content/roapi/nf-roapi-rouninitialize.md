@@ -62,15 +62,6 @@ Closes the Windows Runtime on the current thread.
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

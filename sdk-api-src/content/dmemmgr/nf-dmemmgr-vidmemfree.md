@@ -67,15 +67,6 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-
 Specifies the FLATPTR offset of the allocated surface. This data type is equivalent to a ULONG_PTR.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

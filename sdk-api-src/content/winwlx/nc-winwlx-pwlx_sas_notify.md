@@ -99,15 +99,6 @@ Indicates that the user has typed the CTRL+ALT+DEL SAS.
  
 
 
-## -returns
-
-
-
-This function has no return values.
-
-
-
-
 ## -see-also
 
 

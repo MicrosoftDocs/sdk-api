@@ -72,15 +72,6 @@ A <b>TP_TIMER</b> structure that defines the timer object. The <a href="https://
 Indicates whether to cancel queued callbacks that have not yet started to execute.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

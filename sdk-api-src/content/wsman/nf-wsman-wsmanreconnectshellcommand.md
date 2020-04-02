@@ -72,11 +72,3 @@ Reserved for future use. Must be set to zero.
 Defines an asynchronous structure which will contain an optional user context and a mandatory callback function. See the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_shell_async">WSMAN_SHELL_ASYNC</a> structure for more information. This parameter cannot be NULL.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

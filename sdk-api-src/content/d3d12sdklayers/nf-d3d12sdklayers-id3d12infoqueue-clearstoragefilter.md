@@ -61,16 +61,6 @@ Remove a storage filter from the top of the storage-filter stack.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -see-also
 
 

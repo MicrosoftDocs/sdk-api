@@ -74,15 +74,6 @@ A boolean value indicating whether 7.1 reverb is enabled.
 <div class="alert"><b>Note</b>  This parameter is supported beginning with Windows 10.</div>
 <div> </div>
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

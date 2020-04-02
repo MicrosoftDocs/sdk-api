@@ -66,15 +66,6 @@ A reference to the application defined state registered with the callback.
                 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

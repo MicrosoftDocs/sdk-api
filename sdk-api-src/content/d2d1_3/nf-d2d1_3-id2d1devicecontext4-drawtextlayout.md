@@ -102,15 +102,6 @@ A value that indicates whether the text should be snapped to pixel boundaries an
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

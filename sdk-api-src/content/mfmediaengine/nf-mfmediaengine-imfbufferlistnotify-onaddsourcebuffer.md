@@ -59,15 +59,6 @@ Indicates that a <a href="https://docs.microsoft.com/windows/desktop/api/mfmedia
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

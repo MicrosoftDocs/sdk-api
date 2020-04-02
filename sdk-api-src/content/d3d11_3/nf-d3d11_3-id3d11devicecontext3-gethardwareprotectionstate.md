@@ -67,16 +67,6 @@ After this method returns, points to a BOOL that indicates whether hardware prot
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -see-also
 
 

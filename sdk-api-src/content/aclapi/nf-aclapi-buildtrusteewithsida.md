@@ -127,15 +127,6 @@ TRUSTEE_IS_UNKNOWN
  
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

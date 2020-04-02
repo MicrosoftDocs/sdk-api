@@ -77,15 +77,6 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/rpcdcep/ns
 Pointer to a flag that tracks the current interpreter call's activity.
 
 
-## -returns
-
-
-
-This function has no return value. Throws an exception upon error.
-
-
-
-
 ## -remarks
 
 

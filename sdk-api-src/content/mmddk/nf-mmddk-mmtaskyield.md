@@ -62,11 +62,3 @@ The <b>mmTaskYield</b> function is deprecated. Applications should not use this 
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

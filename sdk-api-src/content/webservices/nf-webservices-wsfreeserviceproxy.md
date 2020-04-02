@@ -65,15 +65,6 @@ A pointer to the <b>Service Proxy</b> to release.  The pointer must reference a 
                 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

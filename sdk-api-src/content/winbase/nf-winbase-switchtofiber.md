@@ -67,15 +67,6 @@ Schedules a fiber. The function must be called on a fiber.
 The address of the fiber to be scheduled.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

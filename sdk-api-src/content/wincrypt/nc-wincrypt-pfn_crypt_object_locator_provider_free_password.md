@@ -67,15 +67,6 @@ Pointer to an optional buffer defined by this provider and returned by the <a hr
 Null-terminated Unicode string that contains the password.
 
 
-## -returns
-
-
-
-Do not return a value from this function. 
-
-
-
-
 ## -remarks
 
 

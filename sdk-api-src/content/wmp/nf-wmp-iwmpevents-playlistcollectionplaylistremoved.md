@@ -65,15 +65,6 @@ The <b>PlaylistCollectionPlaylistRemoved</b> event occurs when a playlist is rem
 Specifies the name of the playlist that was removed.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

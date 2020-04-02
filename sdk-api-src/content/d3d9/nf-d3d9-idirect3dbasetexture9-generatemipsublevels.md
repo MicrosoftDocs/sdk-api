@@ -60,15 +60,6 @@ Generate mipmap sublevels.
 
 
 
-## -returns
-
-
-
-No return value.
-
-
-
-
 ## -remarks
 
 

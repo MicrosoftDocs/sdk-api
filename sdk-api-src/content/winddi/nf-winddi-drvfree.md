@@ -67,15 +67,6 @@ Pointer to the structure whose memory is to be freed.
 Pointer to the identifier that was returned with the structure.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

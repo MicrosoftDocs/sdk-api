@@ -60,15 +60,6 @@ Clear all messages from the message queue.
 
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -see-also
 
 

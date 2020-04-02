@@ -72,11 +72,3 @@ Pointer to the interface pointer to be released.
 Pointer to the format string description.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

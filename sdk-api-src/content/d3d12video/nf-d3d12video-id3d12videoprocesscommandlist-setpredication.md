@@ -61,10 +61,6 @@ The UINT64-aligned buffer offset.
 A member of the [D3D12_PREDICATION_OP](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_predication_op) enumeration specifying the predicate operation.
 
 
-## -returns
-
-This method returns void.
-
 ## -remarks
 
 ## -see-also

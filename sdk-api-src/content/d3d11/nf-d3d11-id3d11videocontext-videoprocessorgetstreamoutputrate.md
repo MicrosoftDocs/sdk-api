@@ -116,15 +116,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommo
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

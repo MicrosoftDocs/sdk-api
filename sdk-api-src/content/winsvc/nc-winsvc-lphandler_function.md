@@ -241,15 +241,6 @@ The service defines the action associated with the control code.
  
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

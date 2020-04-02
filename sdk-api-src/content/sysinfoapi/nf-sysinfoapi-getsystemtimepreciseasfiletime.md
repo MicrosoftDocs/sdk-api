@@ -74,15 +74,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbas
       current system date and time in UTC format.
 
 
-## -returns
-
-
-
-This function doesn't return a value.
-
-
-
-
 ## -remarks
 
 

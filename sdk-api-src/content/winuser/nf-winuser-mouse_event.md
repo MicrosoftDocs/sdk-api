@@ -296,15 +296,6 @@ Type: <b>ULONG_PTR</b>
 An additional value associated with the mouse event. An application calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a> to obtain this extra information. 
 
 
-## -returns
-
-
-
-This function has no return value. 
-
-
-
-
 ## -remarks
 
 

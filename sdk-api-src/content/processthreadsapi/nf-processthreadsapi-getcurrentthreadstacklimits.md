@@ -72,15 +72,6 @@ A pointer variable that receives the lower boundary of the current thread stack.
 A pointer variable that receives the upper boundary of the current thread stack.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -68,15 +68,6 @@ Type: <b>void**</b>
 The address of a pointer to a COM interface.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

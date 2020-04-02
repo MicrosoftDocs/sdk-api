@@ -63,15 +63,6 @@ On success, pointer to an <a href="https://docs.microsoft.com/windows/desktop/ap
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -62,15 +62,6 @@ Uses the unique identifier of an activity to set the related activity for this <
 The unique identifier for the activity to associate with this activity.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

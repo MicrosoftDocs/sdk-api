@@ -62,15 +62,6 @@ Gets a handle to the authenticated channel.
 Receives a handle to the channel.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

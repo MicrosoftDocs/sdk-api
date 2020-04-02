@@ -66,11 +66,3 @@ A pointer to the <b>Service Host</b> object to release.  The pointer must refere
                 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

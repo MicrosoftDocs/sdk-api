@@ -106,16 +106,6 @@ A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/n
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

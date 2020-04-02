@@ -59,15 +59,6 @@ Stops redirecting drawing operations to the layer that is specified by the last 
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

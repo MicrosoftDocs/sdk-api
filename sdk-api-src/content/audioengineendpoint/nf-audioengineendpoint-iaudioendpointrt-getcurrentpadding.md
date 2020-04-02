@@ -67,15 +67,6 @@ Receives the number of frames available in the endpoint buffer.
 Receives information about the position of the  current frame in the endpoint buffer in an <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/ns-audioengineendpoint-ae_current_position">AE_CURRENT_POSITION</a> structure specified by the caller.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

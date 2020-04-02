@@ -75,15 +75,6 @@ Name of the provider to be instantiated.
 
 <b>NULL</b>
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

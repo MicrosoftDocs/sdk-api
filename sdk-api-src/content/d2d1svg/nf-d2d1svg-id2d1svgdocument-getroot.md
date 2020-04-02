@@ -64,15 +64,6 @@ Type: <b>ID2D1SvgElement**</b>
 Outputs the root element of the document.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

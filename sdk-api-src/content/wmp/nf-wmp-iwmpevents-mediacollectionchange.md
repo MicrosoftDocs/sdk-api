@@ -62,15 +62,6 @@ The <b>MediaCollectionChange</b> event occurs when the media collection changes.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -67,15 +67,6 @@ Indicates the effective power mode the system is running in
 User-specified opaque context. This context would have been passed in at registration in PowerRegisterForEffectivePowerModeNotifications. 
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

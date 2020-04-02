@@ -64,15 +64,6 @@ Unloads any DLLs that are no longer in use, probably because the DLL no longer h
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

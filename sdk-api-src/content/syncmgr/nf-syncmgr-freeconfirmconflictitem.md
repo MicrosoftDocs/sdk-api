@@ -64,11 +64,3 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ns-sync
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ns-syncmgr-confirm_conflict_item">CONFIRM_CONFLICT_ITEM</a> structure that stores pointers to the items for which memory is to be freed.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

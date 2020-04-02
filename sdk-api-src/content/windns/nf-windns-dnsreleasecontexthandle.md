@@ -63,15 +63,6 @@ The
 The credentials handle of a specific account.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

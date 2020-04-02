@@ -350,15 +350,6 @@ The application experienced an internal error loading the SSL libraries.
 <b>WINHTTP_CALLBACK_STATUS_REDIRECT</b> status callbacks provide a <i>dwStatusInformationLength</i> value that corresponds to the character count of the <b>LPWSTR</b> pointed to by <i>lpvStatusInformation</i>.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

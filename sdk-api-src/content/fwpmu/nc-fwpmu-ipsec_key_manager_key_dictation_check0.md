@@ -78,15 +78,6 @@ Type: <b>UINT32*</b>
 Specifies the weight that this TIA should be given compared to any peers.
 
 
-## -returns
-
-
-
-This function pointer does not return a value.
-
-
-
-
 ## -remarks
 
 

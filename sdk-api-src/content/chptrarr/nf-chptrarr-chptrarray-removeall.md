@@ -67,15 +67,6 @@ The <b>RemoveAll</b> method removes all the <a href="https://docs.microsoft.com/
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

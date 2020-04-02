@@ -70,15 +70,6 @@ Not supported.
 Not supported.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

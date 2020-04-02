@@ -83,11 +83,3 @@ Error code returned by the capture operation.
 Biometric unit ID number.
 
 
-## -returns
-
-
-
-Do not return a value from your implementation of this function.
-
-
-

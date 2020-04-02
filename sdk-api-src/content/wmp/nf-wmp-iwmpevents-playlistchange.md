@@ -70,15 +70,6 @@ Pointer to an <b>IDispatch</b> interface for the playlist that changed.
 A <b>WMPPlaylistChangeEventType</b> enumeration value.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

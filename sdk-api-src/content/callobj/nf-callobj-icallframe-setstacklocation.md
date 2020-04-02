@@ -62,15 +62,6 @@ Sets the stack location onto which this call frame is bound.
 A pointer to the stack location.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

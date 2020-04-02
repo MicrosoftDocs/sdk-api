@@ -66,15 +66,6 @@ The <b>UnlockBuffer</b> method unlocks the buffer that was previously secured by
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

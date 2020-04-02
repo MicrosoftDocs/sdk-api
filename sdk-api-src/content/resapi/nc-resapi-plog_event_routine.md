@@ -124,15 +124,6 @@ Arguments to be passed to <a href="https://docs.microsoft.com/windows/desktop/ap
        commas.
 
 
-## -returns
-
-
-
-This function has no return values.
-
-
-
-
 ## -remarks
 
 

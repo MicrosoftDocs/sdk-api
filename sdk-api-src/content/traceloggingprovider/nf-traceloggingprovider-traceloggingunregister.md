@@ -47,10 +47,6 @@ Unregisters a TraceLogging provider.
 
 A handle to the provider to unregister.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 You must unregister your provider before it is unloaded or deleted. Otherwise, the ETW callback routines will fail and have unpredictable results.

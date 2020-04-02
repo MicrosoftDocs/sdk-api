@@ -59,9 +59,6 @@ The address of an array of [D3D12_WRITEBUFFERIMMEDIATE_PARAMETER](https://docs.m
 ### -param pModes
 The address of an array of [D3D12_WRITEBUFFERIMMEDIATE_MODE](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_writebufferimmediate_mode) structures of size *Count*. The default value is <b>null</b>. Passing <b>null</b> causes the system to write all immediate values using **D3D12_WRITEBUFFERIMMEDIATE_MODE_DEFAULT**.
 
-## -returns
-This method returns void.
-
 ## -remarks
 
 The capability for this feature is specified with [D3D12_FEATURE_DATA_D3D12_OPTIONS3::WriteBufferImmediateSupportFlags](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options3)

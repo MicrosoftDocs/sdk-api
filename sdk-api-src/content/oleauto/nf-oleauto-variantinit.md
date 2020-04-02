@@ -62,15 +62,6 @@ Initializes a variant.
 The variant to initialize.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

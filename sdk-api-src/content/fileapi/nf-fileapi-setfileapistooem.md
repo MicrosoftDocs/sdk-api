@@ -62,15 +62,6 @@ Causes the file I/O functions for the process to use the OEM character set code 
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

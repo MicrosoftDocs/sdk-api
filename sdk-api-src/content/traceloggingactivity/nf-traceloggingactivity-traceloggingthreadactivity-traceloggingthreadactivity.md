@@ -62,15 +62,6 @@ Initializes a new instance of the  <a href="https://docs.microsoft.com/windows/d
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

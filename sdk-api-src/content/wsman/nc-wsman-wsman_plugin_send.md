@@ -91,11 +91,3 @@ Specifies the stream that is associated with the inbound object.
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that contains data being sent to the specified stream. It is in the form of binary data.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

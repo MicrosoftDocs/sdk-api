@@ -92,11 +92,3 @@ Defines an asynchronous structure to contain an optional user context and a mand
 This handle is returned on a successful call and is used to send and receive data and to signal the command. When you have finished using this handle, close it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanclosecommand">WSManCloseCommand</a> method. This parameter cannot be <b>NULL</b>.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

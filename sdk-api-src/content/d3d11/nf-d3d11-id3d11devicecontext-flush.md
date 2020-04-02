@@ -60,15 +60,6 @@ Sends queued-up commands in the command buffer to the graphics processing unit (
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

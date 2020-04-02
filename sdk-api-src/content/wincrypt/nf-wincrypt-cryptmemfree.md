@@ -64,15 +64,6 @@ The <b>CryptMemFree</b> function frees memory allocated by
 A pointer to the buffer to be freed.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

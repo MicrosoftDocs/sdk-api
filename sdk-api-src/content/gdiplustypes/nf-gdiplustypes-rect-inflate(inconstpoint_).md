@@ -68,15 +68,6 @@ Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusty
 					<b>Y</b> data member specifies the amount to expand the rectangle on the top and bottom edges. 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

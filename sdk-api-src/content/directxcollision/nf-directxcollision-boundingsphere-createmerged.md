@@ -72,15 +72,6 @@ A BoundingSphere that the new BoundingSphere should contain.
 A BoundingSphere that the new BoundingSphere should contain.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

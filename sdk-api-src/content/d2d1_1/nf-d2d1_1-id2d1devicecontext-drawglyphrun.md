@@ -92,15 +92,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcom
 The measuring mode of the glyph series, used to determine the advances and offsets. The default value is DWRITE_MEASURING_MODE_NATURAL.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

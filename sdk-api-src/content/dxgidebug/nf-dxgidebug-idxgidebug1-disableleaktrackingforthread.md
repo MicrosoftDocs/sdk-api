@@ -59,15 +59,6 @@ Stops tracking leaks for the current thread.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 
