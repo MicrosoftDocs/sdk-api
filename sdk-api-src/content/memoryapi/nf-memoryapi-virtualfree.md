@@ -101,6 +101,10 @@ The type of free operation. This parameter must be one of the following values.
 
 <table>
 <tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
 <td width="40%"><a id="MEM_DECOMMIT"></a><a id="mem_decommit"></a><dl>
 <dt><b>MEM_DECOMMIT</b></dt>
 <dt>0x00004000</dt>
