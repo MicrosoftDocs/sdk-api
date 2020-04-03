@@ -111,16 +111,6 @@ Specifies a UINT64 that is the offset into <i>pCountBuffer</i>, identifying the 
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

@@ -84,15 +84,6 @@ Receives the value <b>TRUE</b> if the image filter is enabled, or <b>FALSE</b> o
 Receives the filter level.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

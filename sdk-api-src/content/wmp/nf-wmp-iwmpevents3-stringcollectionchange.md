@@ -76,15 +76,6 @@ Pointer to the <b>IDispatch</b> interface that represents the string collection 
 The index of the string collection item that changed.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -78,11 +78,3 @@ Type: <b>FLOAT*</b>
 The cosine of the angle.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

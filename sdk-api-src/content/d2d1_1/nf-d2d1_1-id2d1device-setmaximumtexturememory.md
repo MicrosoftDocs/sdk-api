@@ -64,15 +64,6 @@ Type: <b>UINT64</b>
 The new maximum texture memory in bytes.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

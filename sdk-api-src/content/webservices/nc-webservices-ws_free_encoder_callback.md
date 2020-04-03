@@ -63,15 +63,6 @@ Frees an instance of an encoder.
                 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

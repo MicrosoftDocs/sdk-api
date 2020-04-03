@@ -59,15 +59,6 @@ Removes the last axis-aligned clip from the render target. After this method is 
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

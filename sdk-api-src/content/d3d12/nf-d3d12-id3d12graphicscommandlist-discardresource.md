@@ -73,16 +73,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-
             
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

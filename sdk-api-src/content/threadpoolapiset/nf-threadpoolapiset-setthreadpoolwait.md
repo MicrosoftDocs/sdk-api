@@ -85,15 +85,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbas
 If this parameter points to 0, the wait times out immediately. If this parameter is NULL, the wait will not time out.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

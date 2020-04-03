@@ -65,15 +65,6 @@ The <b>MediaCollectionMediaAdded</b> event occurs when a media item is added to 
 Pointer to the <b>IDispatch</b> interface that represents the media item added to the local library. Call <b>QueryInterface</b> to retrieve a pointer to <b>IWMPMedia</b>.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

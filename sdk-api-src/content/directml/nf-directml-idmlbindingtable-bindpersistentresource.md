@@ -69,10 +69,6 @@ Type: <b>const [DML_BINDING_DESC](/windows/desktop/api/directml/ns-directml-dml_
 
 An optional pointer to a [DML_BINDING_DESC](/windows/desktop/api/directml/ns-directml-dml_binding_desc) containing the description of a tensor resource to bind.
 
-## -returns
-
-This method doesn't return a value.
-
 ## -see-also
 
 <a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>

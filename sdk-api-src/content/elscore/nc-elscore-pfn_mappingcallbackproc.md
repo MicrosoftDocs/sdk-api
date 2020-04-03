@@ -77,15 +77,6 @@ Size, in bytes, of the private application data. This size is the same as that p
 Return code from <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>. The return code is S_OK if the function succeeded, or an error code otherwise.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -67,15 +67,6 @@ A GUID provided by the supplicant to EAPHost. This value specifies the logical n
 Context data provided to EAPHost by the supplicant. This context data can be used by the supplicant for re-authentication.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

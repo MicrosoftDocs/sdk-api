@@ -59,15 +59,6 @@ Disables the window ghosting feature for the calling GUI process. Window ghostin
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

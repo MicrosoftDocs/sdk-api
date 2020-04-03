@@ -62,15 +62,6 @@ Performs operations required after calling <a href="https://docs.microsoft.com/w
 Indicates whether the block of memory to be freed was allocated while the current spy was active.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

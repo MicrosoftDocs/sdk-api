@@ -75,15 +75,6 @@ The thread safety mechanism. The possible values are:
 <b>etsmPriorityWrite</b>
 <b>etsmLast</b>
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

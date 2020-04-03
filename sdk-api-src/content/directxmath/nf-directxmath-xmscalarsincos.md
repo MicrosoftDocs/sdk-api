@@ -72,15 +72,6 @@ Address of a <b>float</b> that will contain the result of the cosine of <i>Value
 <b>float</b> value describing the radian angle.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

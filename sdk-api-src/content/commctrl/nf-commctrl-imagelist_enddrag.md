@@ -59,15 +59,6 @@ Ends a drag operation.
 
 
 
-## -returns
-
-
-
-None. 
-
-
-
-
 ## -remarks
 
 

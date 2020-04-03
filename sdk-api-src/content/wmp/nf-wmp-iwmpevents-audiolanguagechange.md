@@ -65,15 +65,6 @@ The <b>AudioLanguageChange</b> event occurs when the current audio language chan
 Specifies the new language identifier.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

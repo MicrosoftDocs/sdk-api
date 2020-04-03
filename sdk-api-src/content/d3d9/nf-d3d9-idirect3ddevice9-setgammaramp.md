@@ -109,15 +109,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3d
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dgammaramp">D3DGAMMARAMP</a> structure, representing the gamma correction ramp to be set for the implicit swap chain. 
 
 
-## -returns
-
-
-
-No return value.
-
-
-
-
 ## -remarks
 
 

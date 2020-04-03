@@ -66,15 +66,6 @@ If the given pointer is present more than once in the list, only the first insta
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

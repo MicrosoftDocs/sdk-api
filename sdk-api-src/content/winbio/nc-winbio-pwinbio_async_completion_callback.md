@@ -62,15 +62,6 @@ Called by the Windows Biometric Framework to notify the client application that 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure that contains information about the completed operation. The structure is created by the Windows Biometric Framework. You must call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> to release the structure.
 
 
-## -returns
-
-
-
-Do not return a value from your implementation of this function.
-
-
-
-
 ## -remarks
 
 

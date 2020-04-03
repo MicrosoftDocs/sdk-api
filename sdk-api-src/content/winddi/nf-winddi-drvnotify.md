@@ -86,15 +86,6 @@ Notifies the driver that the first drawing operation is about to occur for this 
 Pointer to notification data or <b>NULL</b>, depending on the value of <i>iType</i>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

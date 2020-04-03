@@ -63,15 +63,6 @@ Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/a
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xapo/ns-xapo-xapo_registration_properties">XAPO_REGISTRATION_PROPERTIES</a> structure containing the registration properties for the XAPO. 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

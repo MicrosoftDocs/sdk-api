@@ -64,15 +64,6 @@ Frees memory that other Software Device API functions allocated.
 A pointer to the block of memory to free.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

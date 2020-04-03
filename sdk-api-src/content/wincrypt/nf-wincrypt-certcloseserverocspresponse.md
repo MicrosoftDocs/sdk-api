@@ -67,15 +67,6 @@ The handle to close for an OCSP server response.
 This parameter is not used and must be zero.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

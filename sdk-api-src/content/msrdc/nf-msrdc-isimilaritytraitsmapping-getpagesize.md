@@ -62,15 +62,6 @@ Returns the page size (disk block size) for a similarity traits table file.
 Pointer to a location that receives the page size, in bytes. This page size must be at least 65536 bytes.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

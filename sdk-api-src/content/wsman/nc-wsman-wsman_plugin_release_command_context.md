@@ -69,11 +69,3 @@ Specifies the context that was received when the shell was created.
 If this request is aimed at a command and not a shell, this is the context returned from the <b>winrm create</b> operation;  otherwise, this parameter is <b>NULL</b>.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

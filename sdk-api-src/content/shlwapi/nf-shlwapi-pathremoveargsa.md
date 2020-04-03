@@ -68,15 +68,6 @@ Type: <b>LPTSTR</b>
 Pointer to a null-terminated string of length MAX_PATH that contains the path from which to remove arguments.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -62,15 +62,6 @@ Notifies the container that registered the advise sink that a link source has ch
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface identifying the source of a linked object.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

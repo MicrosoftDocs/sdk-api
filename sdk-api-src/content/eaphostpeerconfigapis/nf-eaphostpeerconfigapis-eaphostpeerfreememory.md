@@ -62,15 +62,6 @@ ms.custom: 19H1
 A pointer to the memory to free.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

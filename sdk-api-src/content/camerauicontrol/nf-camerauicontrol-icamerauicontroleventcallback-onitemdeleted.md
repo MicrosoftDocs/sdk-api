@@ -62,15 +62,6 @@ Occurs when an item is deleted.
 The path to the deleted item.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

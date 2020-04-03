@@ -62,15 +62,6 @@ Frees a memory block previously allocated with <a href="https://docs.microsoft.c
 Pointer to the memory block to be freed.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -68,15 +68,6 @@ The <b>Empty</b> method makes the <a href="https://docs.microsoft.com/windows/de
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -63,15 +63,6 @@ Frees memory allocated by a Remote Desktop Services function.
 Pointer to the memory to free.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

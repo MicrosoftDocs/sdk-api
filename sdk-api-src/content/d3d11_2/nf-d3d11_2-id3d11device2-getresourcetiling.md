@@ -119,15 +119,6 @@ If subresource tiles are part of packed mipmaps, <b>GetResourceTiling</b> sets t
           
 
 
-## -returns
-
-
-
-Returns nothing
-
-
-
-
 ## -remarks
 
 

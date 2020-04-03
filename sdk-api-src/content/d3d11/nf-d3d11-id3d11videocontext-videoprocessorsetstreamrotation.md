@@ -77,15 +77,6 @@ Specifies if the stream is to be rotated in a clockwise orientation.
 Specifies the rotation of the stream.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

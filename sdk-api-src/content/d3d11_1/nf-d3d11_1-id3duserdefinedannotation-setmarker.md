@@ -64,15 +64,6 @@ A <b>NULL</b>-terminated <b>UNICODE</b> string that contains the name of the mar
 A <b>NULL</b> pointer produces undefined results.
 
 
-## -returns
-
-
-
-This method returns no values.
-
-
-
-
 ## -remarks
 
 

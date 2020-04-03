@@ -67,15 +67,6 @@ A <b>TP_CALLBACK_ENVIRON</b> structure that defines the callback environment. Th
 A handle to the DLL.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

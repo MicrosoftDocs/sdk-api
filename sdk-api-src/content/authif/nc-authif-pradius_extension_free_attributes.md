@@ -68,15 +68,6 @@ These attributes were returned in the <i>pOutAttrs</i> parameter in a previous c
 <a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex">RadiusExtensionProcessEx</a> function.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

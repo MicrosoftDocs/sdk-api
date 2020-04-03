@@ -70,15 +70,6 @@ A pointer to the <b>Channel</b> object to release. The pointer must reference a 
                     The referenced value may not be <b>NULL</b>.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

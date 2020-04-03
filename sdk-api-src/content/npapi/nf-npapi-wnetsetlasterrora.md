@@ -77,15 +77,6 @@ String that describes the network-specific error.
 String that names the network provider that raised the error.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

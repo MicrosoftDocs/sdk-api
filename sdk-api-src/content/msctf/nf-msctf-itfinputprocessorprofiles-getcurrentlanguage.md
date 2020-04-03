@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the identifier of the currently active language.
 
 ## -parameters
 

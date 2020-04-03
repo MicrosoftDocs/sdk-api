@@ -62,15 +62,6 @@ Simulates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">
 <b>TRUE</b> if the caller is running as the current user; otherwise, <b>FALSE</b>.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

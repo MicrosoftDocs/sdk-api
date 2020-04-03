@@ -65,15 +65,6 @@ Type: <b><a href="/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_panose">DWRITE_
 A pointer to the <a href="/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_panose">DWRITE_PANOSE</a> structure to fill in.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

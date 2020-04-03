@@ -63,11 +63,3 @@ The <b>WcmFreeMemory</b> function is used to release memory resources allocated 
 Pointer to the memory to be freed.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

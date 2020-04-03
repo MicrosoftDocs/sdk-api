@@ -64,11 +64,3 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcor
 A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiarect">UiaRect</a> structure.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

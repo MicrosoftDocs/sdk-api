@@ -64,15 +64,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-
 Contains a pointer to a rectangle that describes the rectangle geometry's dimensions when this method returns. You must allocate storage for this parameter. 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

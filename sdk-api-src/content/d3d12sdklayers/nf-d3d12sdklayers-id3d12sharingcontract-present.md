@@ -67,10 +67,6 @@ An unsigned 32bit subresource id.
 
 If provided, indicates which window the tools should use for displaying additional diagnostic information.
 
-## -returns
-
-This method doesn't return a value.
-
 ## -see-also
 
 [ID3D12SharingContract](https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12sharingcontract)

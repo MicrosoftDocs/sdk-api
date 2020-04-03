@@ -68,11 +68,3 @@ A pointer to the <b>Listener</b> object to release.  The pointer must reference 
                 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

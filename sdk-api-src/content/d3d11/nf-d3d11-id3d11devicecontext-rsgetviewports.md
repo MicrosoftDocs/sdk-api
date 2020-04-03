@@ -81,15 +81,6 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d
           
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

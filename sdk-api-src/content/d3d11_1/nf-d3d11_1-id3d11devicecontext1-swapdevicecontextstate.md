@@ -68,15 +68,6 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1
 A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3ddevicecontextstate">ID3DDeviceContextState</a> interface for the previously-activated context state object.
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

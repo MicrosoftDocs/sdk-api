@@ -69,15 +69,6 @@ Pointer to the <b>IRpcStubBuffer</b> object.
 Pointer to the interface to release. The interface pointer comes from a call to the <a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_debugserverqueryinterface">CStdStubBuffer_DebugServerQueryInterface</a> method.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

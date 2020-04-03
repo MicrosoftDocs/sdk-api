@@ -65,15 +65,6 @@ The <b>LibraryConnect</b> event occurs when a library becomes available.
 Pointer to the <b>IWMPLibrary</b> interface that represents the library that connected.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

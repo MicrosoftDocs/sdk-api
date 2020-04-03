@@ -64,15 +64,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1
 The color of this solid-color brush.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

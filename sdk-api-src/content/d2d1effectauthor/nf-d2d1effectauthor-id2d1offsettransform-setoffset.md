@@ -65,15 +65,6 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/l
 The new offset to apply to the offset transform.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

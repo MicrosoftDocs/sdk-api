@@ -72,15 +72,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3
 An array of scissor rectangles (see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-rect">D3D10_RECT</a>).
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

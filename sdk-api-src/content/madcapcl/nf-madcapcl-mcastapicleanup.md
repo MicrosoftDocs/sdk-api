@@ -63,16 +63,6 @@ The
 
 
 
-## -returns
-
-
-
-The 
-<b>McastApiCleanup</b> function does not return any values.
-
-
-
-
 ## -see-also
 
 

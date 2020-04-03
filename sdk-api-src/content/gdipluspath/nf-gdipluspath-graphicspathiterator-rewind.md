@@ -60,15 +60,6 @@ The <b>GraphicsPathIterator::Rewind</b> method rewinds this iterator to the begi
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

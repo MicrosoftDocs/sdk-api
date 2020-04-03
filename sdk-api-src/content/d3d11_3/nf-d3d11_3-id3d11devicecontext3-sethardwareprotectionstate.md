@@ -67,16 +67,6 @@ Specifies whether to enable hardware protection.
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -see-also
 
 

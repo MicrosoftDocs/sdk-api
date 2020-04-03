@@ -61,15 +61,6 @@ Resets the shader-trace object.
 
 
 
-## -returns
-
-
-
-This method has no return value.
-
-
-
-
 ## -remarks
 
 

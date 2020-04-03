@@ -98,15 +98,6 @@ Size, in bytes, of the sample data pointed to by the <i>Sample</i> parameter.
 Additional information about the failure, if any, to perform the operation. For more information,  see Remarks.
 
 
-## -returns
-
-
-
-Do not return a value from your implementation of this function.
-
-
-
-
 ## -remarks
 
 

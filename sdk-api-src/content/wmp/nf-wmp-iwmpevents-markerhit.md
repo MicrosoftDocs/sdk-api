@@ -65,15 +65,6 @@ The <b>MarkerHit</b> event occurs when a marker is reached.
 Specifies the number of the marker that was hit.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

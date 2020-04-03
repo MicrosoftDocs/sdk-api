@@ -67,15 +67,6 @@ Context pointer that was assigned to the <b>pContext</b> member of the <a href="
 The HRESULT code of the error encountered.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

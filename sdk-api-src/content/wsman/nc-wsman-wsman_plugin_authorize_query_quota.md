@@ -74,15 +74,6 @@ A pointer  to the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/
 Reserved for future use. Must be zero.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

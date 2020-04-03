@@ -70,15 +70,6 @@ The last-error code for the thread.
 This parameter is ignored.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

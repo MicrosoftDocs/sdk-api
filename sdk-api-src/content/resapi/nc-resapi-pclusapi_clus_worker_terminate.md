@@ -63,15 +63,6 @@ Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/deskt
        thread to terminate.
 
 
-## -returns
-
-
-
-This function has no return values.
-
-
-
-
 ## -remarks
 
 

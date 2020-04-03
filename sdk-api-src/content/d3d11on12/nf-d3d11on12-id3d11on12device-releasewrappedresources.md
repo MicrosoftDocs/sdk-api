@@ -74,16 +74,6 @@ Count of the number of resources.
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

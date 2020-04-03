@@ -69,16 +69,6 @@ Disable/Enable the debug output (true to disable or mute the output, false to en
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

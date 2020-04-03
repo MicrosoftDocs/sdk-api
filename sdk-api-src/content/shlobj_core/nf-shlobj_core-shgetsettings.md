@@ -164,15 +164,6 @@ The
 						<b>fWin95Classic</b> member is being requested.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

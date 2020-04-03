@@ -107,15 +107,6 @@ Value of the commitment decision reached by the LPM. The following list indicate
 #### RESOURCES_MODIFIED
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

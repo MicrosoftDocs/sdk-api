@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called to determine if a text service will handle a key down event.
 
 ## -parameters
 

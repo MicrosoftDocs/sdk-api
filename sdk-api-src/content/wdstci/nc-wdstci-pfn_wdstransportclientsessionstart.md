@@ -81,11 +81,3 @@ Pointer to the caller specific data for this session.  This data was specified i
 The total size of the file being transferred over multicast.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

@@ -97,11 +97,3 @@ Defines an asynchronous structure. The asynchronous structure contains an option
 Defines the command object associated with a command within a shell. This handle is returned on a successful call and is used to send and receive data and to signal the command. This handle should be closed by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanclosecommand">WSManCloseCommand</a> method. This parameter cannot be <b>NULL</b>.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

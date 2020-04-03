@@ -90,15 +90,6 @@ Pointer to the status returned by the acquisition function when it is called by 
 Pointer to a pointer to the authentication key returned by the user-supplied function.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -71,15 +71,6 @@ Type: [FWPM_NET_EVENT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes
 The net event information.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -72,15 +72,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dgammar
 Pointer to an application-supplied <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dgammaramp">D3DGAMMARAMP</a> structure to fill with the gamma correction ramp. 
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -see-also
 
 

@@ -59,15 +59,6 @@ Notifies the application that the key has been added.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

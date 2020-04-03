@@ -78,15 +78,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matri
 When this method returns, contains the new rotation transformation. You must allocate storage for this parameter.  
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

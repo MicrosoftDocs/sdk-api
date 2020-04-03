@@ -128,15 +128,6 @@ An array of append and consume buffer offsets. A value of -1 indicates to keep t
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

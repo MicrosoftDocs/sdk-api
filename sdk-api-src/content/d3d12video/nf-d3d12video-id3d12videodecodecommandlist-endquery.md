@@ -60,9 +60,6 @@ A member of the [D3D12_QUERY_TYPE](https://docs.microsoft.com/windows/desktop/ap
 
 The index of the query within the query heap.
 
-## -returns
-This method returns void.
-
 ## -remarks
 
 ## -see-also

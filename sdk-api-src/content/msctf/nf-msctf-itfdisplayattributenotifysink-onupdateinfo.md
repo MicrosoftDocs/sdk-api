@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when display attribute information is updated.
 
 ## -parameters
 

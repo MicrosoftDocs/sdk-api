@@ -63,15 +63,6 @@ The <b>BCryptFreeBuffer</b> function is used to free memory that was allocated b
 A pointer to the memory buffer to be freed.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -63,15 +63,6 @@ The <b>WlanFreeMemory</b> function frees memory.  Any memory returned from Nativ
 Pointer to the memory to be freed.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

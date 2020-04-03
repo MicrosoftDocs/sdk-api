@@ -62,15 +62,6 @@ Frees the computational resources associated with the specified resource indexer
 The resource indexer for which you want to free the computational resources. 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

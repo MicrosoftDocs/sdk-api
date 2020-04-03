@@ -68,15 +68,6 @@ To cause a breakpoint exception in another process, use the
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

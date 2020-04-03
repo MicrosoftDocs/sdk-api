@@ -66,15 +66,6 @@ Frees the specified storage medium.
 Pointer to the storage medium that is to be freed.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

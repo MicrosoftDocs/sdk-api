@@ -159,15 +159,6 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/wct/ns-wct-w
 If the function detects a deadlock, this variable is set to <b>TRUE</b>; otherwise, it is set to <b>FALSE</b>.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

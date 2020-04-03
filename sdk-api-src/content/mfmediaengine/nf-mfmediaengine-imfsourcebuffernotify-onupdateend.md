@@ -59,15 +59,6 @@ Used to indicate that the source buffer has finished updating.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -91,15 +91,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-
 One member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_tile_mapping_flags">D3D12_TILE_MAPPING_FLAGS</a>. 
 
 
-## -returns
-
-
-
-This method does not return a value. If an E_OUTOFMEMORY occurs, the device is removed.
-
-
-
-
 ## -remarks
 
 

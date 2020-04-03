@@ -62,15 +62,6 @@ Causes the file I/O functions to use the ANSI character set code page for the cu
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

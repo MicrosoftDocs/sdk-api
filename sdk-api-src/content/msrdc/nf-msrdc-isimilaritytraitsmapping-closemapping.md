@@ -59,15 +59,6 @@ Closes a file mapping object for a similarity traits table file.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -65,15 +65,6 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/l
 The output bounds.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

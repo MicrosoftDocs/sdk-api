@@ -54,9 +54,6 @@ A pointer to the user context that was passed to [DnsServiceRegister](nf-windns-
 ### -param pInstance
 A pointer to a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure that describes the service that was registered. If not `nullptr`, then you are responsible for freeing the data using [DnsServiceFreeInstance](nf-windns-dnsservicefreeinstance.md).
 
-## -returns
-This callback function does not return a value.
-
 ## -remarks
 
 ## -see-also

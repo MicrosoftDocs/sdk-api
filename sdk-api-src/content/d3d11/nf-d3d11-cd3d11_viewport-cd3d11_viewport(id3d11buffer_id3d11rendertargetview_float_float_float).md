@@ -76,10 +76,6 @@ Ranges between 0 and 1.
 Maximum depth of the viewport.
 Ranges between 0 and 1.
 
-## -returns
-
-This method does not return a value.
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151722(v=vs.85)">CD3D11_VIEWPORT</a>

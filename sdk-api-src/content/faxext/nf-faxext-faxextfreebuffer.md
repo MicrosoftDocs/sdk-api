@@ -64,15 +64,6 @@ Type: <b>LPVOID</b>
 Pointer to the data retrieved by a successful call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextgetdata">FaxExtGetData</a> function.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

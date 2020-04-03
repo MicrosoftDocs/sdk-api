@@ -67,15 +67,6 @@ Pointer to the GINA context associated with this window station. This is the con
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
 
 
-## -returns
-
-
-
-This function has no return values.
-
-
-
-
 ## -remarks
 
 

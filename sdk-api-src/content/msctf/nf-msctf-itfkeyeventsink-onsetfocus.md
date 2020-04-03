@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when a TSF text service receives or loses the keyboard focus.
 
 ## -parameters
 

@@ -68,15 +68,6 @@ The <b>Flush</b> method is called by the provider framework to delete all unnece
 
 
 
-## -returns
-
-
-
-This method has no return values.
-
-
-
-
 ## -remarks
 
 

@@ -76,15 +76,6 @@ Format control string.
 List of arguments that are passed.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

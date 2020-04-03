@@ -64,15 +64,6 @@ Type: <b>D2D1_COLOR_F*</b>
 The paint color that is used if the paint type is D2D1_SVG_PAINT_TYPE_COLOR.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -74,16 +74,6 @@ Specifies the D3D12_GPU_VIRTUAL_ADDRESS of the constant buffer.
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -see-also
 
 

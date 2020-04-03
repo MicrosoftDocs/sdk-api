@@ -64,11 +64,3 @@ Type: <b>HDROP</b>
 Identifier of the structure that describes dropped files. This handle is retrieved from the <i>wParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/shell/wm-dropfiles">WM_DROPFILES</a> message.
 
 
-## -returns
-
-
-
-No return value.
-
-
-

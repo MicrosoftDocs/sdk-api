@@ -61,15 +61,6 @@ Registers and initializes certain common control window classes. This function i
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -65,15 +65,6 @@ The <b>CurrentPlaylistItemAvailable</b> event occurs when the current playlist i
 Specifies the item name.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

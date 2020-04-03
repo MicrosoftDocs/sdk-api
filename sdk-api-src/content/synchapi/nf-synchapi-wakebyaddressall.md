@@ -68,15 +68,6 @@ The address to signal. If any threads have previously called
       of the waiting threads.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

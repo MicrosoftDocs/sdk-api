@@ -70,15 +70,6 @@ Pointer to a
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_1">RAS_CONNECTION_1</a> structure that describes this connection.
 
 
-## -returns
-
-
-
-This function does not have a return value.
-
-
-
-
 ## -remarks
 
 

@@ -62,15 +62,6 @@ Releases a FUNCDESC previously returned by <a href="https://docs.microsoft.com/p
 The FUNCDESC to be freed.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

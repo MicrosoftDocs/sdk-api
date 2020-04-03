@@ -79,15 +79,6 @@ Receives the value <b>TRUE</b> if the destination rectangle is enabled, or <b>FA
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162897(v=vs.85)">RECT</a> structure that receives the destination rectangle.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

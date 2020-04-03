@@ -99,15 +99,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ne-d2d1_
 The additional drawing options, if any, to be used for this sprite batch.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

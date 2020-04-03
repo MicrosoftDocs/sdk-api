@@ -92,15 +92,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1
 The size and position, in device-independent pixels in the bitmap's coordinate space, of the area within the bitmap to draw.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

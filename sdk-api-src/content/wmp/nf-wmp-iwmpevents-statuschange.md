@@ -62,15 +62,6 @@ The <b>StatusChange</b> event occurs when the <b>status</b> property changes val
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

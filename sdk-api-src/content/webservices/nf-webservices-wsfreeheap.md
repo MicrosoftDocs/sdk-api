@@ -66,11 +66,3 @@ The heap to free.  This must be a valid heap object that was returned
                 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

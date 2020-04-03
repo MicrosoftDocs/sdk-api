@@ -68,11 +68,3 @@ The <b>CHStringArray</b> constructor constructs an empty <a href="https://docs.m
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-

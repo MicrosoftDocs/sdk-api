@@ -69,15 +69,6 @@ Acquires a slim reader/writer (SRW) lock in exclusive mode.
 A pointer to the SRW lock.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -86,15 +86,6 @@ Pointer to a buffer that receives the HDR metadata.
 This parameter can be NULL.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

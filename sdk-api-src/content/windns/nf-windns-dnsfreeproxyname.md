@@ -64,15 +64,6 @@ The
 A pointer to the <b>proxyName</b> string to be freed.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -77,15 +77,6 @@ A buffer containing the points to create the new BoundingSphere from.
 The stride of the buffer.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

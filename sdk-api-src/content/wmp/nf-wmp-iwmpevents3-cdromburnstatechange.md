@@ -70,15 +70,6 @@ Pointer to the <b>IWMPCdromBurn</b> interface that represents the burning operat
 <b>WMPBurnState</b> enumeration value that indicates the new state.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

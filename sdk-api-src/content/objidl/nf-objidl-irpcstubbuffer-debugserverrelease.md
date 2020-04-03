@@ -62,15 +62,6 @@ Releases an interface pointer that was previously returned by <a href="https://d
 A pointer to the interface that the caller no longer needs.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

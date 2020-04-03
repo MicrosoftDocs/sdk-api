@@ -62,15 +62,6 @@ The <b>DsRoleFreeMemory</b> function frees memory allocated by the <a href="http
 Pointer to the buffer to be freed.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

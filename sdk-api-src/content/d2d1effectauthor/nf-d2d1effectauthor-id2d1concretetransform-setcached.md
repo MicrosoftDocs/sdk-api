@@ -65,15 +65,6 @@ Type: <b>BOOL</b>
 <b>TRUE</b> if the output should be cached; otherwise,  <b>FALSE</b>.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

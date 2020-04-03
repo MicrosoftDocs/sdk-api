@@ -133,15 +133,6 @@ Reason for deleting the state. Possible values are:
 LPMs can use <i>DeleteReason</i> for statistical gathering or any other use.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

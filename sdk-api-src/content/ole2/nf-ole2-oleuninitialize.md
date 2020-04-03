@@ -66,15 +66,6 @@ Closes the COM library on the apartment, releases any class factories, other COM
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

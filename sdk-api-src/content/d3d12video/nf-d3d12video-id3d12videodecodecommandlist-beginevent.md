@@ -61,8 +61,6 @@ Internal.
 Internal. 
 
 
-## -returns
-This method returns void.
 ## -remarks
 
 ## -see-also

@@ -71,15 +71,6 @@ Type: [FWPM_SYSTEM_PORTS0](https://docs.microsoft.com/windows/desktop/api/fwpmty
 The system port information.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -64,15 +64,6 @@ Frees up the memory used to store a report key string. This should be called aft
 The string to be freed (value set to <b>NULL</b>).
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

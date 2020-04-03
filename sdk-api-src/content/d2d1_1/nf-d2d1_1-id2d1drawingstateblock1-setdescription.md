@@ -64,15 +64,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns
 The <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_drawing_state_description1">D2D1_DRAWING_STATE_DESCRIPTION1</a> to be set associated with  this drawing state block.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

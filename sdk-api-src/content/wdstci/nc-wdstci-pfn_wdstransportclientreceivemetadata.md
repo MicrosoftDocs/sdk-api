@@ -77,11 +77,3 @@ Data provided by the content provider that is associated with this object in som
 The size of the <i>pMetadata</i> buffer in bytes.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

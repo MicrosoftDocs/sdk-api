@@ -67,11 +67,3 @@ The <b>EndWrite</b> method provides thread safety by indicating the end of a dat
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-

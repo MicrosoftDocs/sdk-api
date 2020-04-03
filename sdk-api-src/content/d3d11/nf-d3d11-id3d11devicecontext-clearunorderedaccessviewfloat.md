@@ -72,15 +72,6 @@ Type: <b>const FLOAT[4]</b>
 Values to copy to corresponding channels, see remarks.
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

@@ -86,15 +86,6 @@ Specifies the mode that was changed. Contains one of the following values.
 Indicates the new state of the specified mode.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

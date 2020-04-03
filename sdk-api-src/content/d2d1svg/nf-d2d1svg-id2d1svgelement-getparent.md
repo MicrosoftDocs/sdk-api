@@ -64,15 +64,6 @@ Type: <b>ID2D1SvgElement**</b>
 Outputs the parent element.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

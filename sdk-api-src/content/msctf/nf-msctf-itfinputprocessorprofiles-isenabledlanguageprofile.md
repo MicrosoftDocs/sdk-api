@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Determines if a specific language profile is enabled or disabled.
 
 ## -parameters
 

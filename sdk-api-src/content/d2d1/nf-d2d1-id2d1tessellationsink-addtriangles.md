@@ -71,15 +71,6 @@ Type: <b>UINT</b>
 The number of triangles to copy from the <i>triangles</i> array.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

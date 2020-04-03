@@ -59,15 +59,6 @@ The <b>ProcessingComplete</b> method notifies the endpoint that a processing pas
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

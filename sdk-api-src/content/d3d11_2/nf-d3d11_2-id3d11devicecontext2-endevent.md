@@ -59,15 +59,6 @@ Allows applications to annotate the end of a range of graphics commands.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

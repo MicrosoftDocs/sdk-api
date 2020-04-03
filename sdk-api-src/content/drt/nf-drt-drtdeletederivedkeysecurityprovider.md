@@ -62,15 +62,6 @@ The <b>DrtDeleteDerivedKeySecurityProvider</b> function deletes a derived key se
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_security_provider">DRT_SECURITY_PROVIDER</a> specifying the security provider to delete.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

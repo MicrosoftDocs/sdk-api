@@ -72,15 +72,6 @@ Pointer to the simple structure to be calculated.
 Pointer to the format string description.
 
 
-## -returns
-
-
-
-This function has no return values. 
-
-
-
-
 ## -see-also
 
 

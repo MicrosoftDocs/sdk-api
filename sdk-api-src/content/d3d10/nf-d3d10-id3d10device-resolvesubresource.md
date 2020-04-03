@@ -93,15 +93,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-d
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> that indicates how the multisampled resource will be resolved to a single-sampled resource. See remarks.
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

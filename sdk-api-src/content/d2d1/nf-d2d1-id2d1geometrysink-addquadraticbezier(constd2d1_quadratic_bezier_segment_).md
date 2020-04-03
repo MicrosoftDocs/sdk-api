@@ -64,15 +64,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d
 A structure that describes the control point and the end point of the quadratic Bezier curve to add.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

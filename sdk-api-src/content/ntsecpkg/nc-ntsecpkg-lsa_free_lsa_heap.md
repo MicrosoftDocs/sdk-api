@@ -62,15 +62,6 @@ The <b>FreeReturnBuffer</b> function is used to free buffers allocated by the <a
 Pointer to the buffer to free.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

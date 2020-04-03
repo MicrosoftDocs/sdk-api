@@ -86,15 +86,6 @@ Type: <b><a href="https://msdn.microsoft.com/43b9d78f-5931-49bd-8c58-cc333a3f375
 Pointer to a <a href="https://msdn.microsoft.com/43b9d78f-5931-49bd-8c58-cc333a3f3756">HYPHRESULT</a> structure that <i>HyphenateProc</i> fills in with the result of the hyphenation. 
 
 
-## -returns
-
-
-
-There is no return value.
-
-
-
-
 ## -remarks
 
 

@@ -62,15 +62,6 @@ Releases the memory space used during run-time.
 A pointer to a buffer returned by any EapHost peer run-time API.
 
 
-## -returns
-
-
-
-This function does not return a value. 
-
-
-
-
 ## -remarks
 
 

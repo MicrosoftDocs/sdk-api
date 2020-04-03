@@ -70,11 +70,3 @@ Type: <b>LPTSTR</b>
 A pointer to a null-terminated string of length MAX_PATH from which to strip all leading and trailing spaces.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

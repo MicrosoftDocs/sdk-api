@@ -74,11 +74,3 @@ Type: <b>BOOLEAN</b>
 <b>TRUE</b> if the app is entering the suspended state; <b>FALSE</b> if the app is leaving the suspended state.
 
 
-## -returns
-
-
-
-This function pointer does not return a value.
-
-
-

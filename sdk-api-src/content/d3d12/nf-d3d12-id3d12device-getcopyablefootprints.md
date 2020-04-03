@@ -133,16 +133,6 @@ A pointer to an integer variable, to be filled with the total size, in bytes.
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

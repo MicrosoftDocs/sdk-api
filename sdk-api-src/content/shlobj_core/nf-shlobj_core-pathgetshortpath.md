@@ -66,11 +66,3 @@ Type: <b>PWSTR</b>
 A pointer to a null-terminated, Unicode string that contains the long path. When the function returns, it contains the equivalent short path.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

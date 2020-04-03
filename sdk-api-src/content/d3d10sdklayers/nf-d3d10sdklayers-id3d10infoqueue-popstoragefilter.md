@@ -59,15 +59,6 @@ Pop a storage filter from the top of the storage-filter stack.
 
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -see-also
 
 

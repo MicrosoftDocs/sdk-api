@@ -62,15 +62,6 @@ The <b>DrtDeletePnrpBootstrapResolver</b> function deletes a  bootstrap resolver
 Pointer to the created PNRP bootstrap resolver to be deleted.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

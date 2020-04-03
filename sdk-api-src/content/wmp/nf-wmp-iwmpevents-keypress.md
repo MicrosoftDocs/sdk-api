@@ -65,15 +65,6 @@ The <b>KeyPress</b> event occurs when a key is pressed and then released.
 Specifies the standard numeric ANSI code for the character.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

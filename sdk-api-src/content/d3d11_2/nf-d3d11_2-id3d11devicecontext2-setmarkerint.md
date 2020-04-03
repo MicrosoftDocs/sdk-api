@@ -67,15 +67,6 @@ An optional string that will be logged to <a href="https://docs.microsoft.com/pr
 A signed data value that will be logged to ETW when ETW logging is active.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

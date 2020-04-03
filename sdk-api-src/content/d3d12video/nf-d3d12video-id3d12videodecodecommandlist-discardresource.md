@@ -56,10 +56,6 @@ A pointer to the <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-841
 
 A pointer to a <a href="https://msdn.microsoft.com/8F0916CB-3389-40BC-8028-BA8CF9BC566B">D3D12_DISCARD_REGION</a> structure that describes details for the discard-resource operation.
 
-## -returns
-
-This method returns void.
-
 ## -remarks
 
 ## -see-also

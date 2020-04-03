@@ -68,15 +68,6 @@ ms.custom: 19H1
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

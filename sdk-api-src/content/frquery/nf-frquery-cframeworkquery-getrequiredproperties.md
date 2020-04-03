@@ -69,15 +69,6 @@ The <b>GetRequiredProperties</b> method returns a list of all of the properties 
 Array of properties that were included in the query's <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/select-statement-for-data-queries">SELECT statement</a>.
 
 
-## -returns
-
-
-
-This method has no return values.
-
-
-
-
 ## -remarks
 
 

@@ -87,15 +87,6 @@ The result of the message processing. This value depends on the message.
 
 
 
-## -returns
-
-
-
-This callback function does not return a value. 
-
-
-
-
 ## -remarks
 
 

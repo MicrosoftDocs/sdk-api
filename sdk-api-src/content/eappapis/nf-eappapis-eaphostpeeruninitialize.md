@@ -61,15 +61,6 @@ The <b>EapHostPeerUninitialize</b> function must be called after you are finishe
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

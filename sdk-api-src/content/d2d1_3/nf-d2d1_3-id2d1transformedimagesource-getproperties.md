@@ -67,15 +67,6 @@ the properties specified when the transformed image source was created.
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

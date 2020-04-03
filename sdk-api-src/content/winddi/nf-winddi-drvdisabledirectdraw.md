@@ -62,15 +62,6 @@ The <b>DrvDisableDirectDraw</b> function disables hardware for DirectDraw use.
 Handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> that was returned by the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> routine.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

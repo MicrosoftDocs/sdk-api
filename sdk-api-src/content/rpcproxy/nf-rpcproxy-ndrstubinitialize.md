@@ -78,15 +78,6 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-r
 Pointer to RPC channel buffer.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

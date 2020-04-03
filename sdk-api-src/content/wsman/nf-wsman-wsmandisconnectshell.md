@@ -85,15 +85,6 @@ Defines an asynchronous structure to contain an optional user context and a mand
       parameter cannot be <b>NULL</b>.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

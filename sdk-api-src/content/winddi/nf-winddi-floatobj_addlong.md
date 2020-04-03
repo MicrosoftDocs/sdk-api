@@ -67,15 +67,6 @@ Pointer to the FLOATOBJ operand. When the function returns, *<i>pf</i> will be r
 Specifies the LONG operand. This value is converted to a FLOATOBJ for the summation.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

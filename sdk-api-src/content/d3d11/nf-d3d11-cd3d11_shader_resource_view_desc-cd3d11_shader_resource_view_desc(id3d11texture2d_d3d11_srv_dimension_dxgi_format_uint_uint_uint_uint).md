@@ -82,10 +82,6 @@ The index of the first element to use in an array of elements.
 Number of elements in the array.
 **NumCubes** of **D3D11_TEXCUBE_ARRAY_SRV**.
 
-## -returns
-
-This method does not return a value.
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151684(v=vs.85)">CD3D11_SHADER_RESOURCE_VIEW_DESC</a>

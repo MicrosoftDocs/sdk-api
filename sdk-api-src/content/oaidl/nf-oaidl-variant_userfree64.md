@@ -67,11 +67,3 @@ The data used by RPC.
 The object.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

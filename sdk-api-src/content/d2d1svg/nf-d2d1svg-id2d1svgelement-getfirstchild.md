@@ -64,15 +64,6 @@ Type: <b>ID2D1SvgElement**</b>
 Outputs the first child of this element.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

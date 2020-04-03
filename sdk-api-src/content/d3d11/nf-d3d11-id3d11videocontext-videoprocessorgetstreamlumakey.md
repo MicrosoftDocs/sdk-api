@@ -84,15 +84,6 @@ Receives the lower bound for the luma key. The valid range is [0…1].
 Receives the upper bound for the luma key. The valid range is [0…1]. 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

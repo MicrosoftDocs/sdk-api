@@ -68,11 +68,3 @@ The <b>OnFinalRelease</b>  method  is a virtual function called by <a href="http
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-

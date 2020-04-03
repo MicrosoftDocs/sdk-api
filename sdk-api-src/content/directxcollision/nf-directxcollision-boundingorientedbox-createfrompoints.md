@@ -77,15 +77,6 @@ A buffer containing points to create the <a href="https://msdn.microsoft.com/ee1
 The stride of the buffer.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

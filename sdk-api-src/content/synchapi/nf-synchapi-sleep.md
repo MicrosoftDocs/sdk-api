@@ -77,15 +77,6 @@ A value of zero causes the thread to relinquish the remainder of its time slice 
 A value of INFINITE indicates that the suspension should not time out.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

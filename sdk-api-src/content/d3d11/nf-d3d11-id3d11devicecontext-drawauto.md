@@ -60,15 +60,6 @@ Draw geometry of an unknown size.
 
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

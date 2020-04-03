@@ -53,8 +53,7 @@ ms.custom: 19H1
 
 ## -parameters
 
-
-
+Sets the active text service for a specific language.
 
 ### -param rclsid [in]
 

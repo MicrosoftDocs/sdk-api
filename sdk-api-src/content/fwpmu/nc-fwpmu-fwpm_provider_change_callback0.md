@@ -71,15 +71,6 @@ Type: [FWPM_PROVIDER_CHANGE0](https://docs.microsoft.com/windows/desktop/api/fwp
 The change notification information.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 
