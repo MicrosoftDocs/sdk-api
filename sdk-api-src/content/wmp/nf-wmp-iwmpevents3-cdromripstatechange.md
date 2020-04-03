@@ -70,15 +70,6 @@ Pointer to the <b>IWMPCdromRip</b> interface that represents the ripping operati
 <b>WMPRipState</b> enumeration value that indicates the new state.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

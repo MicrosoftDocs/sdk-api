@@ -105,15 +105,6 @@ The callback should run at normal priority.
  
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

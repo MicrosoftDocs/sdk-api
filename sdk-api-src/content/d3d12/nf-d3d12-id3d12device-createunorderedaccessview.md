@@ -118,16 +118,6 @@ Describes the CPU descriptor handle that represents the start of the heap that h
           
 
 
-## -returns
-
-
-
-Returns nothing.
-          
-
-
-
-
 ## -see-also
 
 

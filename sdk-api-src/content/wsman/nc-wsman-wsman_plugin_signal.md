@@ -112,15 +112,6 @@ The signal for CTRL+BREAK was received, and the process was halted. The plug-in 
         function.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -78,15 +78,6 @@ Type: <b>LPWSTR</b>
 The null-terminated Unicode string that names the ADSI provider that raised the error.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

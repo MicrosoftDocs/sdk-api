@@ -70,15 +70,6 @@ Pointer to the <b>IWMPCdromBurn</b> interface that represents the burning operat
 <b>HRESULT</b> for the error that raised the event.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

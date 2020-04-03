@@ -59,15 +59,6 @@ Marks the ending of a render pass.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

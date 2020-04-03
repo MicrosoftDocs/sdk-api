@@ -64,15 +64,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matri
 When this method returns, contains a pointer to the transform to be applied to this style's nib shape.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -62,15 +62,6 @@ The <b>DrvDisablePDEV</b> function is used by GDI to notify a driver that the sp
 Handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> of the physical device to be disabled. This value is the handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

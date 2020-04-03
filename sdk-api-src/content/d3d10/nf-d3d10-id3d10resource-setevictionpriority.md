@@ -72,15 +72,6 @@ Eviction priority for the resource, which is one of the following values:
 <li>DXGI_RESOURCE_PRIORITY_MAXIMUM</li>
 </ul>
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

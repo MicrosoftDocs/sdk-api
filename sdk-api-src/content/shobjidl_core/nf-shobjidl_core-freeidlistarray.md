@@ -71,11 +71,3 @@ Type: <b>UINT</b>
 The number of items in the array.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

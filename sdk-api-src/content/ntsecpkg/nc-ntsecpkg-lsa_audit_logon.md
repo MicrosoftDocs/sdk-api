@@ -106,15 +106,6 @@ Pointer to a
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session identifier</a>. <i>LogonId</i> is valid only if the logon attempt was successful.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

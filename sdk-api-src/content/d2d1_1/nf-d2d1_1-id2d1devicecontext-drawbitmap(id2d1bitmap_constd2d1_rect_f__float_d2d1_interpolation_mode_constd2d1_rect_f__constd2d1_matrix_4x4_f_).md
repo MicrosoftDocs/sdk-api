@@ -99,15 +99,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1
 An optional perspective transform.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

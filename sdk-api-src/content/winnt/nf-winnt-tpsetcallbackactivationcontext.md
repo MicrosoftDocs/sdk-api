@@ -67,15 +67,6 @@ A <b>TP_CALLBACK_ENVIRON</b> structure that defines the callback environment. Th
 Pointer to an <b>_ACTIVATION_CONTEXT</b> structure.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

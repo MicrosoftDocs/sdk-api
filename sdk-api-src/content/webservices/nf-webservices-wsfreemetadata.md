@@ -65,15 +65,6 @@ A pointer to the metadata object to release.  The pointer must reference a valid
                 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

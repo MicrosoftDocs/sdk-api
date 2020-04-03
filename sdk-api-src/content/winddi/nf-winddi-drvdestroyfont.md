@@ -62,15 +62,6 @@ The <b>DrvDestroyFont</b> function notifies the driver that a font realization i
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure that identifies the font instance.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

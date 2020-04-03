@@ -62,15 +62,6 @@ The <b>PlaylistCollectionChange</b> event occurs when something changes in the p
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

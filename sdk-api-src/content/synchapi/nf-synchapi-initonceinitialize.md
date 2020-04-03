@@ -67,15 +67,6 @@ Initializes a one-time initialization structure.
 A pointer to the one-time initialization structure.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

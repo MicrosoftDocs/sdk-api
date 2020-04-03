@@ -67,15 +67,6 @@ A <b>TP_CALLBACK_ENVIRON</b> structure that defines the callback environment. Th
 Pointer to a <b>TP_SIMPLE_CALLBACK</b> structure indicating a function to call when the callback environment is finalized.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

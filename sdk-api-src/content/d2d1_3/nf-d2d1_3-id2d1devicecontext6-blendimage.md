@@ -97,15 +97,6 @@ Type: <b>D2D1_INTERPOLATION_MODE</b>
 The interpolation mode that will be used to scale the image if necessary. The default value is D2D1_INTERPOLATION_MODE_LINEAR.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

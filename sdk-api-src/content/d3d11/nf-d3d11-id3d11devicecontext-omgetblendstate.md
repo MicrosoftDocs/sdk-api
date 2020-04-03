@@ -81,15 +81,6 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3
           
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

@@ -106,16 +106,6 @@ An array that holds the numbers of constants in the buffers that  <i>ppConstantB
           
 
 
-## -returns
-
-
-
-Returns nothing.
-          
-
-
-
-
 ## -remarks
 
 

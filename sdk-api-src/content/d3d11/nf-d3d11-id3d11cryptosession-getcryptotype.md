@@ -81,15 +81,6 @@ Receives a GUID that specifies the encryption type. The following GUIDs are defi
  
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

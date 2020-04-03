@@ -71,15 +71,6 @@ Type: <b>UINT</b>
 The number of Bezier segments in the <i>beziers</i> array.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

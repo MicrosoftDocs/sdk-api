@@ -57,10 +57,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 If <b>TRUE</b>, DirectML is muted, and it will not send messages to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue">ID3D12InfoQueue</a>. If <b>FALSE</b>, DirectML is not muted, and it will send messages to the <b>ID3D12InfoQueue</b>. The default value is <b>FALSE</b>.
 
-## -returns
-
-This method doesn't return a value.
-
 ## -see-also
 
 [IDMLDebugDevice](/windows/desktop/api/directml/nn-directml-idmldebugdevice)

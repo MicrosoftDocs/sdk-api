@@ -65,15 +65,6 @@ Type: <b>BOOL</b>
 <b>TRUE</b> if the output of the transform is cached; otherwise, <b>FALSE</b>.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -66,11 +66,3 @@ The <b>CredFree</b> function frees a buffer returned by any of the credentials m
 Pointer to the buffer to be freed.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

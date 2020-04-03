@@ -67,15 +67,6 @@ Frees a block of task memory previously allocated through a call to the <a href=
 A pointer to the memory block to be freed. If this parameter is <b>NULL</b>, the function has no effect.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

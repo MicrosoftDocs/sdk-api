@@ -66,15 +66,6 @@ Flushes the write queue of each processor that is running a thread of the curren
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

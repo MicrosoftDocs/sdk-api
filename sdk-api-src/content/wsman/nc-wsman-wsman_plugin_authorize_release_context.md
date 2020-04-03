@@ -69,11 +69,3 @@ This method will be called under the following scenarios:
 Specifies the context that was returned by either <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginauthzusercomplete">WSManPluginAuthzUserComplete</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginauthzoperationcomplete">WSManPluginAuthzOperationComplete</a>.  If these methods return no context, this method will not be called.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

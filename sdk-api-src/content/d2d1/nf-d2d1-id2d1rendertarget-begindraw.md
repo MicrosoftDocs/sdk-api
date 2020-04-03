@@ -59,15 +59,6 @@ Initiates drawing on this render target.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

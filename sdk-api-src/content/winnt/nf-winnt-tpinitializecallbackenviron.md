@@ -62,15 +62,6 @@ Initializes a callback environment for the thread pool.
 A <b>TP_CALLBACK_ENVIRON</b> structure that defines the callback environment. Allocate space for this structure and initialize it using this function.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

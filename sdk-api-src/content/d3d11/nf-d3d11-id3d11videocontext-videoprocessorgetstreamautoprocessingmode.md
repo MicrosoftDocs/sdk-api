@@ -72,15 +72,6 @@ The zero-based index of the input stream. To get the maximum number of streams, 
 Receives the value <b>TRUE</b> if automatic processing features are enabled, or <b>FALSE</b> otherwise.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

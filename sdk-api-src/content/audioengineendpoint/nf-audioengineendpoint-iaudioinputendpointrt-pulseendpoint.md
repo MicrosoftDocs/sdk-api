@@ -59,15 +59,6 @@ The <b>PulseEndpoint</b> method  is reserved.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

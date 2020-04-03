@@ -72,15 +72,6 @@ A value that indicates the type of error.
 A pointer to a null-terminated string that contains the CDF line in which the error occurred.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

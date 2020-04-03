@@ -106,15 +106,6 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/d
           
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

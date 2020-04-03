@@ -66,15 +66,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_
 An enumeration defining how passed-in units will be interpreted by the device context.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -62,15 +62,6 @@ The <b>PlayerDockedStateChange</b> event occurs when a remoted Windows Media Pla
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

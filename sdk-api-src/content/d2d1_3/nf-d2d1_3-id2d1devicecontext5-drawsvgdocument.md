@@ -64,15 +64,6 @@ Type: <b>ID2D1SvgDocument*</b>
 The SVG document to draw.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

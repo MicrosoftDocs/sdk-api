@@ -86,15 +86,6 @@ Describes the CPU descriptor handle that represents the destination where the ne
           
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -see-also
 
 

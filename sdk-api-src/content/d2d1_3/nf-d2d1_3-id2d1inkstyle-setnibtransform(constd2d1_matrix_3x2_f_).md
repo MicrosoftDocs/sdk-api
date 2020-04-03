@@ -64,15 +64,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1
 The transform to apply to this style’s nib shape. Note that the translation components of the transform matrix are ignored for the purposes of rendering.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

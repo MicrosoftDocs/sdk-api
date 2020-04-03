@@ -64,11 +64,3 @@ A pointer to the <b>XML Reader</b> object to release.  The pointer must referenc
         
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

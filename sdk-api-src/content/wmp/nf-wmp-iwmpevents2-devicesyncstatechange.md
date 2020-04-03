@@ -70,15 +70,6 @@ Address of the <b>IWMPSyncDevice</b> interface that represents the device for wh
 <b>WMPSyncState</b> enumeration value that represents the new synchronization state for the device specified by <i>pDevice</i>.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

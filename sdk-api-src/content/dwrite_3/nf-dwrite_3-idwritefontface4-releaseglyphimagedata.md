@@ -65,15 +65,6 @@ Type: <b>void*</b>
 Opaque context from ReadGlyphData.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

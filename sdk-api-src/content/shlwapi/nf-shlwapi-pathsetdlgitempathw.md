@@ -82,11 +82,3 @@ Type: <b>LPCSTR</b>
 A pointer to a null-terminated string of maximum length MAX_PATH that contains the path to set in the control.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

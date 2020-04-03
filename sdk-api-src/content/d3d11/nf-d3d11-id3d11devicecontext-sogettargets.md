@@ -73,15 +73,6 @@ An array of output buffers (see <a href="https://docs.microsoft.com/windows/desk
           
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

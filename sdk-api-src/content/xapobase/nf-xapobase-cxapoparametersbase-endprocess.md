@@ -60,15 +60,6 @@ Notifies <a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nl-xap
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

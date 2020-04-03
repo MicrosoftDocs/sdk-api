@@ -69,11 +69,3 @@ Optional pointer to a null-terminated Unicode string with
         which to initialize the counted string. 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

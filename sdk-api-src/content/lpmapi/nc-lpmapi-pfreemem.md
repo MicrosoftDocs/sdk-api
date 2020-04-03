@@ -81,15 +81,6 @@ Pointer to the memory buffer to free.
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

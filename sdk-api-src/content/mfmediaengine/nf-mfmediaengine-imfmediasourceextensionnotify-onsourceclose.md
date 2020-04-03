@@ -59,15 +59,6 @@ Used to indicate that the media source has closed.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

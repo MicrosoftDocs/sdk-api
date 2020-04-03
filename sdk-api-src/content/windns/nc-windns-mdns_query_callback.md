@@ -58,9 +58,6 @@ A pointer to the [MDNS_QUERY_HANDLE](ns-windns-mdns_query_handle.md) structure t
 ### -param pQueryResults
 A pointer to a [DNS_QUERY_RESULT](/windows/desktop/api/windns/ns-windns-dns_query_result) structure that contains the query results. Your application is responsible for freeing the `pQueryRecords` contained in this structure using [DnsRecordListFree](/windows/desktop/api/windns/nf-windns-dnsrecordlistfree).
 
-## -returns
-This callback function does not return a value.
-
 ## -remarks
 
 ## -see-also

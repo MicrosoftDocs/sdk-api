@@ -65,15 +65,6 @@ The <b>MediaChange</b> event occurs when a media item changes.
 Pointer to an <b>IDispatch</b> interface that identifies the item that changed.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

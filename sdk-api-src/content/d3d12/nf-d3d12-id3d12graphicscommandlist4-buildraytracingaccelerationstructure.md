@@ -72,15 +72,6 @@ Size of the <i>pPostbuildInfoDescs</i> array.  Set to 0 if no post-build info is
 Optional array of descriptions for post-build info to generate describing properties of the acceleration structure that was built.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

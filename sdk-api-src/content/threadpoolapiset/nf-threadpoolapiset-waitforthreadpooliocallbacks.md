@@ -72,15 +72,6 @@ A <b>TP_IO</b> structure that defines the I/O completion object. The <a href="ht
 Indicates whether to cancel queued callbacks that have not yet started to execute.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

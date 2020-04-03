@@ -68,15 +68,6 @@ The <b>operator LPCWSTR</b> conversion operator provides an efficient method to 
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

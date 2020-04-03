@@ -65,15 +65,6 @@ The <b>Disconnect</b> event is reserved for future use.
 Not supported.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

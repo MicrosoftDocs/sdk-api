@@ -69,15 +69,6 @@ The address of the <b>CoGetCallState</b> function.
 The address of the <b>CoGetActivationState</b> function.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

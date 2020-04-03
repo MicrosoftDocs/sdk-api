@@ -67,15 +67,6 @@ This function supersedes the obsolete <b>AVIStreamInit</b> function.
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

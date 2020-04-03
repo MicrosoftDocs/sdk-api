@@ -69,15 +69,6 @@ Releases ownership of the specified critical section object.
 A pointer to the critical section object.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

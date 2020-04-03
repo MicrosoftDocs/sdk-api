@@ -64,15 +64,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1
 The transform to apply to the render target.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -70,15 +70,6 @@ Specifies the attribute name. For information about the attributes supported by 
 Specifies the attribute value.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

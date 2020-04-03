@@ -64,15 +64,6 @@ Type: <b>void**</b>
 Address of the pointer to be freed.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

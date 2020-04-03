@@ -78,15 +78,6 @@ Type: <b>extendedErrorCode</b>
 The identifier of the track on which the error occurred.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

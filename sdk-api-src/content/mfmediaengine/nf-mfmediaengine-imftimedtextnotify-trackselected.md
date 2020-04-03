@@ -73,15 +73,6 @@ Type: <b>BOOL</b>
 <b>TRUE</b> if the track was selected. <b>FALSE</b> if the track was deselected. 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

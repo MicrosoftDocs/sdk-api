@@ -65,15 +65,6 @@ The <b>PlayStateChange</b> event occurs when the play state of the Windows Media
 Specifies the new state.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -65,15 +65,6 @@ The <b>OpenPlaylistSwitch</b> event occurs when a title on a DVD begins playing.
 Pointer to an <b>IDispatch</b> interface for the given playlist.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

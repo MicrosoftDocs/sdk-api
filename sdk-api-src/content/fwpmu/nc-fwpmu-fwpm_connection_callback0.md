@@ -78,15 +78,6 @@ Type: [FWPM_CONNECTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtype
 The connection object change information.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -62,15 +62,6 @@ Releases all memory associated with an opaque user interface context data buffer
 A pointer to the user interface context data to free.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

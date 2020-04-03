@@ -65,15 +65,6 @@ A handle to an RD Session Host server opened by a call to the
 Do not pass <b>WTS_CURRENT_SERVER_HANDLE</b> for this parameter.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

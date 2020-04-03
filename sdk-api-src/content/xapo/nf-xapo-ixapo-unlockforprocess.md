@@ -59,15 +59,6 @@ Deallocates variables that were allocated with the <a href="https://docs.microso
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

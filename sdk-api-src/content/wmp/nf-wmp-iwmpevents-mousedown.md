@@ -80,15 +80,6 @@ The <i>x</i> coordinate of the mouse pointer relative to the upper-left corner o
 The <i>y</i> coordinate of the mouse pointer relative to the upper-left corner of the control.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

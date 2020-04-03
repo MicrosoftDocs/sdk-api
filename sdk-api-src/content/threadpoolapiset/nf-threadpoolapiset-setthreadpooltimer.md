@@ -86,15 +86,6 @@ The timer period, in milliseconds. If this parameter is zero, the timer is signa
 The maximum amount of time the system can delay before calling the timer callback. If this parameter is set, the system can batch calls to conserve power. 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -62,15 +62,6 @@ Sets the return value within the call frame.
 The new return value.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

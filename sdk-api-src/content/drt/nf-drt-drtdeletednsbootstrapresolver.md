@@ -62,15 +62,6 @@ The <b>DrtDeleteDnsBootstrapResolver</b> function deletes a DNS Bootstrap Provid
 Pointer to a DRT_BOOTSTRAP_PROVIDER instance specifying the security provider to delte.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

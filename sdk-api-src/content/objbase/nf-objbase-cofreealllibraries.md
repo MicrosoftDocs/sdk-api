@@ -59,15 +59,6 @@ Frees all the DLLs that have been loaded with the <a href="https://docs.microsof
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

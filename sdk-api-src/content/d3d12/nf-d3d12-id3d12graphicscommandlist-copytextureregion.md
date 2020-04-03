@@ -105,16 +105,6 @@ Specifies an optional  D3D12_BOX that sets the size of the source texture to cop
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

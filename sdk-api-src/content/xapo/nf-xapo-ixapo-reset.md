@@ -59,15 +59,6 @@ Resets variables dependent on frame history.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

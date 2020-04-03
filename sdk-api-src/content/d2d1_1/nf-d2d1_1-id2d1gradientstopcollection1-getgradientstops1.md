@@ -71,15 +71,6 @@ Type: <b>UINT</b>
 The number of gradient stops to copy. 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -72,15 +72,6 @@ Receives the value <b>TRUE</b> if downsampling was explicitly enabled using the 
 If <i>Enabled</i> receives the value <b>TRUE</b>, this parameter receives the downsampling size. Otherwise, this parameter is ignored.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

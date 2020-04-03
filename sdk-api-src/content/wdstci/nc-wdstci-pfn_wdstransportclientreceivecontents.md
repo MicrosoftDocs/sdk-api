@@ -94,11 +94,3 @@ The offset in the data stream where this block of data starts.
 Pointer to the buffer location  that has received the content. The size of this buffer in bytes is given by <i>ulSize</i>. 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

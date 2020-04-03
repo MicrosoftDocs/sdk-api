@@ -67,15 +67,6 @@ Deletes an existing fiber.
 The address of the fiber to be deleted.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

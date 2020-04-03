@@ -67,15 +67,6 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-
 This parameter is reserved and must be NULL.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

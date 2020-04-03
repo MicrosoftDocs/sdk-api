@@ -94,15 +94,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1
 The region of the bitmap to use as the opacity mask, in device-independent pixels, or <b>NULL</b>. If <b>NULL</b> is specified, the entire bitmap is used. 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

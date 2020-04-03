@@ -67,15 +67,6 @@ Handle to the physical device's <a href="https://docs.microsoft.com/windows-hard
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure. This parameter should be ignored by the driver.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

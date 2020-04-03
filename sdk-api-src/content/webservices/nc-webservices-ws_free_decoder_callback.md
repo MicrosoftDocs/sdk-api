@@ -64,15 +64,6 @@ Frees an instance of an decoder.
                 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

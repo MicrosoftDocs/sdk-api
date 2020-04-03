@@ -83,15 +83,6 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d
         been written.
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -see-also
 
 

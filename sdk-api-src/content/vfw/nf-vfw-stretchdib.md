@@ -120,15 +120,6 @@ Width, in pixels, of the source rectangle.
 Height, in pixels, of the source rectangle.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

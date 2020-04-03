@@ -66,15 +66,6 @@ Type: <b>HPSXA</b>
 The handle of the array that contains pointers to the property sheet handlers to destroy.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

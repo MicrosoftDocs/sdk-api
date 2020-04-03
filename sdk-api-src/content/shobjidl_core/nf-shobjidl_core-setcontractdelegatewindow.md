@@ -71,15 +71,6 @@ Type: <b>HWND</b>
 The handle of another of the app's windows that will act as the contract delegate for <i>hwndSource</i>. Set this value to <b>NULL</b> to remove the delegate connection.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

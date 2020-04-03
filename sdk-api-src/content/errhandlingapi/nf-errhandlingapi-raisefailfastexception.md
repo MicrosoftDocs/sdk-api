@@ -108,15 +108,6 @@ Causes <b>RaiseFailFastException</b> to set the <b>ExceptionAddress</b> of <a hr
  
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -94,15 +94,6 @@ A pointer to a string that specifies the name that corresponds to the InheritedO
 A pointer to a string that specifies the name used to identify the trustee.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -71,15 +71,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/netfw/ns-
 The app container change information.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

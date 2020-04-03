@@ -61,15 +61,6 @@ Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/traceloggi
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -69,15 +69,6 @@ The implementation is allowed to look at all the CPU parameters in this struct a
 The result of the query.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

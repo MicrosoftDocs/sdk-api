@@ -67,11 +67,3 @@ A pointer to the <b>Error</b> object to release.  The pointer must reference a v
                 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

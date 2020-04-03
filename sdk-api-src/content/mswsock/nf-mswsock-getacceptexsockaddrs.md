@@ -110,15 +110,6 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/WinSock/soc
 The size, in bytes, of the local address. This parameter must be specified.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -67,15 +67,6 @@ The <b>CHPtrArray</b> method   constructor initializes a new instance of <a href
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

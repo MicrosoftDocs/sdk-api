@@ -72,15 +72,6 @@ Receives the high-order 32 bits.
 Receives the low-order 32 bits.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

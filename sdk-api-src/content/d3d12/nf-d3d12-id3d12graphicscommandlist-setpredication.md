@@ -82,16 +82,6 @@ Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

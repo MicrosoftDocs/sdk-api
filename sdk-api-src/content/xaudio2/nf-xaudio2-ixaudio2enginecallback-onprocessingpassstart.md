@@ -59,15 +59,6 @@ Called by XAudio2 just before an audio processing pass begins.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

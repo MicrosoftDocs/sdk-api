@@ -71,15 +71,6 @@ The delay in milliseconds between the time that the DLL has stated it can be unl
 This parameter is reserved and must be 0.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

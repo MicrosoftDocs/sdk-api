@@ -80,15 +80,6 @@ The number of groups dispatched in the z direction.  <i>ThreadGroupCountZ</i> mu
         In feature level 10 the value for <i>ThreadGroupCountZ</i> must be 1.
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

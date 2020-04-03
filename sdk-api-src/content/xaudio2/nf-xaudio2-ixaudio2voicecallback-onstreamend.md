@@ -59,15 +59,6 @@ Called when the voice has just finished playing a contiguous audio stream.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

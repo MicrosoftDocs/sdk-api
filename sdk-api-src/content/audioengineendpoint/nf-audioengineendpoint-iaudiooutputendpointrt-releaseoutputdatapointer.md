@@ -69,15 +69,6 @@ Therefore, if <b>BUFFER_SILENT</b> is specified, the endpoint should write silen
     output buffer.</li>
 </ul>
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

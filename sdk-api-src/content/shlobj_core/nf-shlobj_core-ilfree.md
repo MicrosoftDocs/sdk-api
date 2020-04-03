@@ -69,15 +69,6 @@ Type: <b>PIDLIST_RELATIVE</b>
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to be freed. This parameter can be <b>NULL</b>.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

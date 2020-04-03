@@ -62,15 +62,6 @@ Returns the frequency adjustment ratio of the voice.
 Returns the current frequency adjustment ratio if successful.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

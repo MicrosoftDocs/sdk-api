@@ -70,15 +70,6 @@ Sets the last-error code for the calling thread.
 The last-error code for the thread.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -64,15 +64,6 @@ Type: <b>FLOAT</b>
 The x-radius of the gradient ellipse. This value is in the brush's coordinate space.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -65,15 +65,6 @@ Type: <b>const BOOL</b>
 Set to <b>TRUE</b> to specify that <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">ApplyEffect</a> should return a pointer to its auxiliary data; <b>FALSE</b> otherwise.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

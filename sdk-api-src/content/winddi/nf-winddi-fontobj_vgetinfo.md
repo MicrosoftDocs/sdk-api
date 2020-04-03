@@ -72,15 +72,6 @@ Specifies the size in bytes of the buffer pointed to by <i>pfi</i>.
 Pointer to a buffer previously allocated by the driver. GDI writes a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontinfo">FONTINFO</a> structure to this buffer.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

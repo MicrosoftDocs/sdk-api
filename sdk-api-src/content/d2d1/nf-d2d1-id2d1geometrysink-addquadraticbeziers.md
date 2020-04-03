@@ -71,15 +71,6 @@ Type: <b>UINT</b>
 A value indicating the number of quadratic Bezier segments in <i>beziers</i>. 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

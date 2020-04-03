@@ -75,16 +75,6 @@ The GPU virtual address of the buffer.
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -see-also
 
 

@@ -59,15 +59,6 @@ Creates a hardware memory barrier (fence) that prevents the CPU from re-ordering
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

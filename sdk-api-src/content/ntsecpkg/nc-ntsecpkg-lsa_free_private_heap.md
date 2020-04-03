@@ -62,15 +62,6 @@ Frees memory that was allocated by using the <a href="https://docs.microsoft.com
 A pointer to the memory to be freed.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

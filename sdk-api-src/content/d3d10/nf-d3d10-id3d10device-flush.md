@@ -60,15 +60,6 @@ Send queued-up commands in the command buffer to the GPU.
 
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

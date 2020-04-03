@@ -83,15 +83,6 @@ An array that holds the offsets into the buffers that  <i>ppConstantBuffers</i> 
 An array that holds the numbers of constants in the buffers that  <i>ppConstantBuffers</i> specifies. Each number specifies the number of constants that are contained in the constant buffer that the shader uses. Each number of constants starts from its respective offset that is specified in the <i>pFirstConstant</i> array. Each number of constants must be a multiple of 16 constants, in the range [0..4096]. 
 
 
-## -returns
-
-
-
-Returns nothing
-
-
-
-
 ## -remarks
 
 

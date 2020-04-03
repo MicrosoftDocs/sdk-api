@@ -77,15 +77,6 @@ A pointer to a constant <b>D3D12_RENDER_PASS_DEPTH_STENCIL_DESC</b>, which descr
 A <b>D3D12_RENDER_PASS_FLAGS</b>. The nature/requirements of the render pass; for example, whether it is a suspending or a resuming render pass, or whether it wants to write to unordered access view(s).
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

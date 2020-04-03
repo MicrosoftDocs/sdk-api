@@ -59,15 +59,6 @@ Notifies the text host that text services have been freed.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

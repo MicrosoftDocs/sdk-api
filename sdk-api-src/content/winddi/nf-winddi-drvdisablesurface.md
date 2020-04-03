@@ -62,15 +62,6 @@ The <b>DrvDisableSurface</b> function is used by GDI to notify a driver that the
 Handle to the physical device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a>. This is the handle to the device whose surface is to be released.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

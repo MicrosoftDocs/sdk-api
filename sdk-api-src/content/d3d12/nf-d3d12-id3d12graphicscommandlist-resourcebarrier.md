@@ -74,16 +74,6 @@ Pointer to an array of barrier descriptions.
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

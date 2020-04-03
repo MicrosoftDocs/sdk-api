@@ -67,15 +67,6 @@ On input, a pointer to the buffer to be encrypted. On output, a pointer to the e
 The size, in bytes, of the <i>Buffer</i> buffer.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

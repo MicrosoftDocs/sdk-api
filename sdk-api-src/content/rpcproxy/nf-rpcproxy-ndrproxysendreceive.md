@@ -67,11 +67,3 @@ Pointer to the interface proxy.
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. Structure is for internal use only; do not modify.
 
 
-## -returns
-
-
-
-This function has no return values. Throws an exception upon error.
-
-
-

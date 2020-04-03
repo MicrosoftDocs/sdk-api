@@ -62,15 +62,6 @@ Called when a registered apartment is shut down.
 The apartment Identifier of the apartment that is shutting down
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

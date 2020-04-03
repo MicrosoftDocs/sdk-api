@@ -114,16 +114,6 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12
           
 
 
-## -returns
-
-
-
-Returns nothing.
-          
-
-
-
-
 ## -see-also
 
 

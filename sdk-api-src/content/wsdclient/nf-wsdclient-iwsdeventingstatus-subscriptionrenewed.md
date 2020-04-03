@@ -62,15 +62,6 @@ Called when the subscription for the specified event action was successfully ren
 URI of the event action.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

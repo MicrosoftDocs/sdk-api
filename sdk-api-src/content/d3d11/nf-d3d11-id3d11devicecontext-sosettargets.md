@@ -82,15 +82,6 @@ Array of offsets to the output buffers from <i>ppSOTargets</i>, one offset for e
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -66,15 +66,6 @@ A reference to a <b>TraceLoggingActivity</b>.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

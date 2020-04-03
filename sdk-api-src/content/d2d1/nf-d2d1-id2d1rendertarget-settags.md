@@ -71,15 +71,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-tag">
 A label to apply to subsequent drawing operations.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

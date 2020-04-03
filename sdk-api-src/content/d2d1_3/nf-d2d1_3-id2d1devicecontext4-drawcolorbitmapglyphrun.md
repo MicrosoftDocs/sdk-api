@@ -96,15 +96,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ne-d2d1_
 Specifies the pixel snapping policy when rendering color bitmap glyphs.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

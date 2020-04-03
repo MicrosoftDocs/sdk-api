@@ -65,15 +65,6 @@ Type: <b>const <a href="https://docs.microsoft.com/previous-versions/windows/des
 The output bounds.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

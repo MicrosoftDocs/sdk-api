@@ -69,15 +69,6 @@ Releases the memory that contains the unparsed path.  Use of  this object is not
 Memory containing the unparsed path information.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

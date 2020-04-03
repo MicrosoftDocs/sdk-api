@@ -71,15 +71,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectype
 Information about the outbound SA.
 
 
-## -returns
-
-
-
-This function pointer does not return a value.
-
-
-
-
 ## -remarks
 
 

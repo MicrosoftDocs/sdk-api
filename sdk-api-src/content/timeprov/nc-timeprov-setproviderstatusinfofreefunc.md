@@ -64,15 +64,6 @@ A pointer to the
 <a href="https://docs.microsoft.com/windows/desktop/api/timeprov/ns-timeprov-setproviderstatusinfo">SetProviderStatusInfo</a> structure to be freed.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -72,11 +72,3 @@ Type: <b>LPTSTR</b>
 A pointer to a null-terminated string of length MAX_PATH from which to remove the extension.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

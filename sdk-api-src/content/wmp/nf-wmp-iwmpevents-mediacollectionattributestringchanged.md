@@ -75,15 +75,6 @@ Specifies the original attribute value.
 Specifies the new attribute value.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -68,15 +68,6 @@ Initializes a condition variable.
 A pointer to the condition variable.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

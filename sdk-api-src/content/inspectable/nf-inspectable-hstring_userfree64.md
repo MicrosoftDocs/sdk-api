@@ -69,15 +69,6 @@ The data used by RPC.
 The string.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -94,15 +94,6 @@ Callback instance data passed back to the application in the callback. This <b>D
 Line or call device message.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

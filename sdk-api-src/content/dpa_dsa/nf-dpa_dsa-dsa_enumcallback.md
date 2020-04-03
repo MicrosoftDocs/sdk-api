@@ -78,15 +78,6 @@ Type: <b>void*</b>
 A callback data pointer. <i>pData</i> is passed as a parameter to <i>pfnCB</i>.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

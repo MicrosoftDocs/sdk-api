@@ -60,15 +60,6 @@ Draw geometry of an unknown size that was created by the geometry shader stage. 
 
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

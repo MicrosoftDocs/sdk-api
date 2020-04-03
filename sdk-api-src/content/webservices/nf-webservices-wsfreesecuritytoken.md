@@ -64,11 +64,3 @@ A pointer to the <b>Security Token</b> object to release.  The pointer must refe
                 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

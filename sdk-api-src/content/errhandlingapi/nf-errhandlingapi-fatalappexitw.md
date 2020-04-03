@@ -82,15 +82,6 @@ This parameter must be zero.
 The null-terminated string that is displayed in the message box.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

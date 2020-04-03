@@ -91,15 +91,6 @@ The system does not use the <a href="https://docs.microsoft.com/windows/desktop/
        overlapped structure.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

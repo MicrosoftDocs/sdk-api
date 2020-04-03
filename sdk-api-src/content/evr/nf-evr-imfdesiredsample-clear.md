@@ -63,15 +63,6 @@ Clears the time stamps previously set by a call to <a href="https://docs.microso
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

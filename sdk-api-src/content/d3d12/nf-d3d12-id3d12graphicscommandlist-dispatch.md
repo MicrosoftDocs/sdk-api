@@ -82,15 +82,6 @@ The number of groups dispatched in the z direction.  <i>ThreadGroupCountZ</i> mu
           
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

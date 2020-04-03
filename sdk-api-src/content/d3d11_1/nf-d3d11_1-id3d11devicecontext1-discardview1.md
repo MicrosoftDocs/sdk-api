@@ -82,15 +82,6 @@ Number of rectangles in the array that the  <i>pRects</i> parameter specifies.
           
 
 
-## -returns
-
-
-
-Returns nothing
-
-
-
-
 ## -remarks
 
 

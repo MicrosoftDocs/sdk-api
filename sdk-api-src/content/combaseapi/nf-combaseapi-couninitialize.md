@@ -66,15 +66,6 @@ Closes the COM library on the current thread, unloads all DLLs loaded by the thr
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

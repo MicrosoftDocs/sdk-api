@@ -93,15 +93,6 @@ Specifies the new domain. It can be one of the following values:
  
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

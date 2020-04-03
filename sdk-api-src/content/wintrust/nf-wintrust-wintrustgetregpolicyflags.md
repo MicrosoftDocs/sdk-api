@@ -180,15 +180,6 @@ Allow only items in personal trust database.
  
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

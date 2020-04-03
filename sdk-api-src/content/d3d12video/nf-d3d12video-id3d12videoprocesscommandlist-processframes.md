@@ -67,10 +67,6 @@ The count of input streams.
 
 A pointer to an array of [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS](ns-d3d12video-d3d12_video_process_input_stream_arguments.md) structures specifying the input parameters.
 
-## -returns
-
-This method returns void.
-
 ## -remarks
 This version of the method does not allow you to change the [D3D12_VIDEO_FIELD_TYPE](ne-d3d12video-d3d12_video_field_type.md). When dealing with mixed content, use [ID3D12VideoProcessCommandList::ProcessFrames1](nf-d3d12video-id3d12videoprocesscommandlist1-processframes1.md) instead, which allows you to specify a field type with each call.
 

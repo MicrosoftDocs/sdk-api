@@ -62,15 +62,6 @@ Gets a handle to the cryptographic session.
 Receives a handle to the session.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

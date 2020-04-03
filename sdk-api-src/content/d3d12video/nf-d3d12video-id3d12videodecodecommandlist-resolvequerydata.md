@@ -72,10 +72,6 @@ A pointer to an [ID3D12Resource](https://docs.microsoft.com/windows/desktop/api/
 
 The alignment offset into the destination buffer. This must be a multiple of 8 bytes.
 
-## -returns
-
-This method returns void.
-
 ## -remarks
 
 ## -see-also

@@ -82,15 +82,6 @@ Completion status for the
 <b>ClDeleteFlowComplete</b> function requires administrative privilege.</div>
 <div> </div>
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

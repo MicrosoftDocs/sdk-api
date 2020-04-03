@@ -64,15 +64,6 @@ Type: <b>ID2D1SvgDocument**</b>
 Ouputs the document that contains this element. This argument will be null if the element has been removed from the tree.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

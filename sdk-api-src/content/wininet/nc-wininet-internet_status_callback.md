@@ -434,15 +434,6 @@ The size, in bytes, of the data pointed to by
 <i>lpvStatusInformation</i>.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

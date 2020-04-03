@@ -99,16 +99,6 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiform
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

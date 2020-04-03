@@ -70,15 +70,6 @@ Specifies the name of the attribute. For information about the attributes suppor
 Specifies the value of the attribute.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

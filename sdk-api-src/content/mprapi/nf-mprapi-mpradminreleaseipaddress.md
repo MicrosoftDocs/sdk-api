@@ -73,15 +73,6 @@ Pointer to a Unicode string that specifies the name of the port on which the use
 Pointer to a <b>DWORD</b> variable. This variable specifies the IP address to be released.
 
 
-## -returns
-
-
-
-This function does not have a return value.
-
-
-
-
 ## -remarks
 
 

@@ -64,15 +64,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 Identifier of the timer created by the <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txsettimer">ITextHost::TxSetTimer</a> method. 
 
 
-## -returns
-
-
-
-This method has no return value. 
-
-
-
-
 ## -remarks
 
 

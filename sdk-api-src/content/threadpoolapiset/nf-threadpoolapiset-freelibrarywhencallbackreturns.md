@@ -72,15 +72,6 @@ A <b>TP_CALLBACK_INSTANCE</b> structure that defines the callback instance. The 
 A handle to the DLL.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

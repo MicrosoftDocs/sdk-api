@@ -71,15 +71,6 @@ Type: <b>BOOL</b>
 A value that indicates if the window identified by the <i>hWnd</i> parameter accepts dropped files. This value is <b>TRUE</b> to accept dropped files or <b>FALSE</b> to discontinue accepting dropped files.
 
 
-## -returns
-
-
-
-No return value.
-
-
-
-
 ## -remarks
 
 

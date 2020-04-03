@@ -67,15 +67,6 @@ Pointer to the FLOATOBJ that will receive the value of <i>l</i>.
 Specifies the LONG value. This value is converted to a FLOATOBJ for the assignment.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

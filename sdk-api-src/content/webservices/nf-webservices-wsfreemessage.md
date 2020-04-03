@@ -66,11 +66,3 @@ A pointer to the <b>Message</b> object to release.  The pointer must reference a
                 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

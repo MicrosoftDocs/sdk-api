@@ -66,15 +66,6 @@ When this method returns, a <a href="/windows/win32/api/dwrite/ns-dwrite-dwrite
      The metrics returned by this function are in font design units.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 
