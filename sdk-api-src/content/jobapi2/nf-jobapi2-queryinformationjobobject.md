@@ -223,7 +223,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 <tr>
 <td width="40%"><a id="JobObjectLimitViolationInformation2"></a><a id="jobobjectlimitviolationinformation2"></a><a id="JOBOBJECTLIMITVIOLATIONINFORMATION2"></a><dl>
 <dt><b>JobObjectLimitViolationInformation2</b></dt>
-<dt>35</dt>
+<dt>34</dt>
 </dl>
 </td>
 <td width="60%">
@@ -269,7 +269,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 <tr>
 <td width="40%"><a id="JobObjectNotificationLimitInformation2"></a><a id="jobobjectnotificationlimitinformation2"></a><a id="JOBOBJECTNOTIFICATIONLIMITINFORMATION2"></a><dl>
 <dt><b>JobObjectNotificationLimitInformation2</b></dt>
-<dt>34</dt>
+<dt>33</dt>
 </dl>
 </td>
 <td width="60%">
