@@ -82,7 +82,7 @@ The size of the string buffer identified by <i>lpBuffer</i>, in
 ### -param lpBuffer [out]
 
 A pointer to a string buffer that receives the null-terminated string specifying the temporary file path. 
-      The returned string ends with a backslash, for example, "C:\TEMP\".
+      The returned string ends with a backslash, for example, "C:\\TEMP\\".
 
 
 ## -returns
