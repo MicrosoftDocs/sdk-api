@@ -95,10 +95,7 @@ The
 
 Do not call this function from a DLL that is linked to the static C run-time library (CRT). The static CRT requires DLL_THREAD_ATTACH and DLL_THREAD_DETATCH notifications to function properly.
 
-This function has no effect (and thus not does not perform any optimization) if static [Thread Local Storage (TLS)](https://docs.microsoft.com/en-us/windows/win32/procthread/thread-local-storage) is used. <b>thread_local</b> variables, <b>__declspec( thread )</b> variables, or function-local <b>static</b> variables make static TLS to be enabled.
-
-
-
+This function does not perform any optimizations if static [Thread Local Storage (TLS)](https://docs.microsoft.com/en-us/windows/win32/procthread/thread-local-storage) is enabled. Static TLS is enabled when using **thread_local** variables, **__declspec( thread )** variables, or function-local **static**.
 
 ## -see-also
 
