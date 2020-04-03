@@ -98,9 +98,9 @@ A pointer to a null-terminated string that receives the user name.
 This string can be a marshaled credential. See Remarks.
 
 
-### -param pcchMaxUserName
+### -param pcchMaxUserName [in, out]
 
-TBD
+A pointer to a <b>DWORD</b> value that specifies the size, in characters, of the <i>pszUserName</i> buffer. On output, if the buffer is not of sufficient size, specifies the required size, in characters, of the  <i>pszUserName</i> buffer. The size includes terminating null character.
 
 
 ### -param pszDomainName [out]
