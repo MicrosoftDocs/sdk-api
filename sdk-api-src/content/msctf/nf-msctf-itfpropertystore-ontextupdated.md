@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when the text that the property store applies to is modified.
 
 ## -parameters
 

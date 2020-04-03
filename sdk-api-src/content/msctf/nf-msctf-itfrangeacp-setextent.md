@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Sets the application character position and length of the range object.
 
 ## -parameters
 

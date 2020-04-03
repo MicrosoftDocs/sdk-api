@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when a document view receives or loses the focus
 
 ## -parameters
 

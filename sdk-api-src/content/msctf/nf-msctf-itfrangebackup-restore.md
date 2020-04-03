@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Restores a specified range object into the TSF context.
 
 ## -parameters
 

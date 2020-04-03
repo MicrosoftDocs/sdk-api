@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Creates an exact copy of the property store object.
 
 ## -parameters
 

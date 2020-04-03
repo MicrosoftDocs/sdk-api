@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Installs a key event sink to receive keyboard events.
 
 ## -parameters
 

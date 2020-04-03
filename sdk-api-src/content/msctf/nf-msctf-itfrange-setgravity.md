@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Sets the gravity of the anchors in the object.
 
 ## -parameters
 

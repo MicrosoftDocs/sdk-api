@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Passes a key up event to the keystroke manager.
 
 ## -parameters
 

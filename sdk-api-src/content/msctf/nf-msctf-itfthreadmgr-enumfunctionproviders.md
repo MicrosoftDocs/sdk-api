@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains an enumerator for all of the function providers registered for the calling thread.
 
 ## -parameters
 

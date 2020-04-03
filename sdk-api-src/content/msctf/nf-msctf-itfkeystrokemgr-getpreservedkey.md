@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the command GUID for a preserved key.
 
 ## -parameters
 

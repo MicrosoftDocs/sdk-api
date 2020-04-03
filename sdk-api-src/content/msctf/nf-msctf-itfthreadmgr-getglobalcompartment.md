@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the global compartment manager object.
 
 ## -parameters
 

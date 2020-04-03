@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Receives a notification upon completion of an ITfEditSession::DoEditSession method that has read/write access to the context.
 
 ## -parameters
 

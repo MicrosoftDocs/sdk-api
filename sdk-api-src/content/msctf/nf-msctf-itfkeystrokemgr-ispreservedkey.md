@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Determines if a command GUID and key combination is a preserved key.
 
 ## -parameters
 
