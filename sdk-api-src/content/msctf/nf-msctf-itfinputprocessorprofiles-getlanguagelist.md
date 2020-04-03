@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a list of the installed languages.
 
 ## -parameters
 

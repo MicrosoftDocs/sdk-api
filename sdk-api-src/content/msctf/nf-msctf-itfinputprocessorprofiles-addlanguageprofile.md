@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Creates a language profile that consists of a specific text service and a specific language identifier.
 
 ## -parameters
 

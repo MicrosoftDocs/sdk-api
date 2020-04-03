@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a display attribute provider object for a particular display attribute.
 
 ## -parameters
 

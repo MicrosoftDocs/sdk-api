@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Determines if the selection has changed during the edit session.
 
 ## -parameters
 
