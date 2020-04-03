@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Removes the context from the top of the context stack.
 
 ## -parameters
 

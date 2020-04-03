@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains an enumerator that contains a collection of range objects that cover the specified properties and/or text that changed during the edit session.
 
 ## -parameters
 

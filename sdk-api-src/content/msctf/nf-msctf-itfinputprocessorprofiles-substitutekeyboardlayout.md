@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Sets a substitute keyboard layout for the specified language profile.
 
 ## -parameters
 

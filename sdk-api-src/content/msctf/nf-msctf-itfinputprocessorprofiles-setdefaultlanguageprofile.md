@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Sets the default profile for a specific language.
 
 ## -parameters
 

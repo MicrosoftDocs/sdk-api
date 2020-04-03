@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Indicates the end of an edit transaction.
 
 ## -parameters
 

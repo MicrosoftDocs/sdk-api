@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Adds a text service to Text Services Foundation (TSF).
 
 ## -parameters
 

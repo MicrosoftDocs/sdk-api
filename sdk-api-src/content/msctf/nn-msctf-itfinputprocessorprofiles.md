@@ -189,7 +189,7 @@ Determines if a specific language profile is enabled or disabled.
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-register">Register</a>
 </td>
 <td align="left" width="63%">
-Adds a text service to TSF.
+Adds a text service to Text Services Foundation (TSF).
 
 </td>
 </tr>
