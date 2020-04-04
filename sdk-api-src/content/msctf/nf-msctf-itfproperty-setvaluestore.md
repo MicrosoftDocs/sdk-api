@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Sets the value of the property for a range of text using a property store object.
 
 ## -parameters
 

@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when a context is removed from the context stack
 
 ## -parameters
 

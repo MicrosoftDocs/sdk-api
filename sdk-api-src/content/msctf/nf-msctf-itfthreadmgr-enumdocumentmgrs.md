@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Returns an enumerator for all the document managers within the calling thread.
 
 ## -parameters
 

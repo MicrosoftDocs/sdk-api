@@ -49,8 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a message from the message queue and returns if no message is obtained. This is the Unicode version of this method.
 
 ## -parameters
 
