@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Sets the visibility state of the speech-related user interface elements on the TSF language bar.
 
 ## -parameters
 

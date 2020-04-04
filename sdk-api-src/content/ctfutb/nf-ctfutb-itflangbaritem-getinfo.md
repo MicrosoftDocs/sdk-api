@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains information about the language bar item.
 
 ## -parameters
 

@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the icon to be displayed for the language bar button.
 
 ## -parameters
 

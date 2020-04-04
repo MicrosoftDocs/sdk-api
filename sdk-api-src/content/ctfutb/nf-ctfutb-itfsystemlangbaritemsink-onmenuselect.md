@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when the user selects an item in the system menu added by the system language bar menu extension.
 
 ## -parameters
 

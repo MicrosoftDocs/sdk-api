@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Installs a language bar item event sink for a language bar item.
 
 ## -parameters
 

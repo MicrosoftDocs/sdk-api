@@ -48,16 +48,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>ITextInputPanel</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>.
-
-]
-
+**ITextInputPanel** is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [IInputPanelConfiguration interface](../inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration.md).
 
 Provides control of appearance and behavior of the Tablet PC Input Panel.
-
-
-
 
 ## -inheritance
 

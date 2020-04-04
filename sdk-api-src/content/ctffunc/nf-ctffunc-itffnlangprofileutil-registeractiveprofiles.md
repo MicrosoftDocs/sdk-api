@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Causes the speech text service to register its active profiles.
 
 ## -parameters
 

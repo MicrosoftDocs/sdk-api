@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Determines whether the document can accept an embedded object through the InsertEmbedded or InsertEmbeddedAtSelection methods.
 
 ## -parameters
 

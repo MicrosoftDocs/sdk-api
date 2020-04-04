@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Inserts an IDataObject data object into a text stream.
 
 ## -parameters
 

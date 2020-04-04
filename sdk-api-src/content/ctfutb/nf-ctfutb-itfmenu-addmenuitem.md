@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Adds an item to the menu that the language bar will display for the button.
 
 ## -parameters
 

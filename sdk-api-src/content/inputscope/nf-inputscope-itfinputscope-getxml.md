@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Gets the custom XML string to be recognized.
 
 ## -parameters
 

@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the text to be displayed for the bitmap button in the language bar.
 
 ## -parameters
 

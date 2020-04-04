@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Moves the current position forward in the enumeration sequence by the specified number of elements.
 
 ## -parameters
 

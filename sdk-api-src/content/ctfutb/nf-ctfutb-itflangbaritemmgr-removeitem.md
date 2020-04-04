@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Removes an item from the language bar.
 
 ## -parameters
 
