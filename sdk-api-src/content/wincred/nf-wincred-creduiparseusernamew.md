@@ -61,9 +61,11 @@ The <b>CredUIParseUserName</b> function extracts the domain and user account nam
 
 
 
-### -param UserName
+### -param UserName [in]
 
-TBD
+Pointer to a <b>null</b>-terminated string that contains the user name to be parsed. The name must be in UPN or down-level format, or a certificate. Typically, <i>UserName</i> is received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsw">CredUIPromptForCredentials</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduicmdlinepromptforcredentialsw">CredUICmdLinePromptForCredentials</a>.
 
 
 ### -param user [out]
