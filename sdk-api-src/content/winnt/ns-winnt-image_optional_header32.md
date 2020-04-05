@@ -615,6 +615,180 @@ A pointer to the first
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_data_directory">IMAGE_DATA_DIRECTORY</a> structure in the data 
  directory.
 
+The index number of the desired directory entry. This parameter can be one of the following values. 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_DIRECTORY_ENTRY_ARCHITECTURE"></a><a id="image_directory_entry_architecture"></a><dl>
+<dt><b>IMAGE_DIRECTORY_ENTRY_ARCHITECTURE</b></dt>
+<dt>7</dt>
+</dl>
+</td>
+<td width="60%">
+Architecture-specific data
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_DIRECTORY_ENTRY_BASERELOC"></a><a id="image_directory_entry_basereloc"></a><dl>
+<dt><b>IMAGE_DIRECTORY_ENTRY_BASERELOC</b></dt>
+<dt>5</dt>
+</dl>
+</td>
+<td width="60%">
+Base relocation table
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT"></a><a id="image_directory_entry_bound_import"></a><dl>
+<dt><b>IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT</b></dt>
+<dt>11</dt>
+</dl>
+</td>
+<td width="60%">
+Bound import directory
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR"></a><a id="image_directory_entry_com_descriptor"></a><dl>
+<dt><b>IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR</b></dt>
+<dt>14</dt>
+</dl>
+</td>
+<td width="60%">
+COM descriptor table
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_DIRECTORY_ENTRY_DEBUG"></a><a id="image_directory_entry_debug"></a><dl>
+<dt><b>IMAGE_DIRECTORY_ENTRY_DEBUG</b></dt>
+<dt>6</dt>
+</dl>
+</td>
+<td width="60%">
+Debug directory
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT"></a><a id="image_directory_entry_delay_import"></a><dl>
+<dt><b>IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT</b></dt>
+<dt>13</dt>
+</dl>
+</td>
+<td width="60%">
+Delay import table
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_DIRECTORY_ENTRY_EXCEPTION"></a><a id="image_directory_entry_exception"></a><dl>
+<dt><b>IMAGE_DIRECTORY_ENTRY_EXCEPTION</b></dt>
+<dt>3</dt>
+</dl>
+</td>
+<td width="60%">
+Exception directory
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_DIRECTORY_ENTRY_EXPORT"></a><a id="image_directory_entry_export"></a><dl>
+<dt><b>IMAGE_DIRECTORY_ENTRY_EXPORT</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+Export directory
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_DIRECTORY_ENTRY_GLOBALPTR"></a><a id="image_directory_entry_globalptr"></a><dl>
+<dt><b>IMAGE_DIRECTORY_ENTRY_GLOBALPTR</b></dt>
+<dt>8</dt>
+</dl>
+</td>
+<td width="60%">
+The relative virtual address of global pointer
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_DIRECTORY_ENTRY_IAT"></a><a id="image_directory_entry_iat"></a><dl>
+<dt><b>IMAGE_DIRECTORY_ENTRY_IAT</b></dt>
+<dt>12</dt>
+</dl>
+</td>
+<td width="60%">
+Import address table
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_DIRECTORY_ENTRY_IMPORT"></a><a id="image_directory_entry_import"></a><dl>
+<dt><b>IMAGE_DIRECTORY_ENTRY_IMPORT</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+Import directory
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG"></a><a id="image_directory_entry_load_config"></a><dl>
+<dt><b>IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG</b></dt>
+<dt>10</dt>
+</dl>
+</td>
+<td width="60%">
+Load configuration directory
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_DIRECTORY_ENTRY_RESOURCE"></a><a id="image_directory_entry_resource"></a><dl>
+<dt><b>IMAGE_DIRECTORY_ENTRY_RESOURCE</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+Resource directory
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_DIRECTORY_ENTRY_SECURITY"></a><a id="image_directory_entry_security"></a><dl>
+<dt><b>IMAGE_DIRECTORY_ENTRY_SECURITY</b></dt>
+<dt>4</dt>
+</dl>
+</td>
+<td width="60%">
+Security directory
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_DIRECTORY_ENTRY_TLS"></a><a id="image_directory_entry_tls"></a><dl>
+<dt><b>IMAGE_DIRECTORY_ENTRY_TLS</b></dt>
+<dt>9</dt>
+</dl>
+</td>
+<td width="60%">
+Thread local storage directory
+
+</td>
+</tr>
+</table>
+
 
 ## -remarks
 
