@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
 ## -parameters
 

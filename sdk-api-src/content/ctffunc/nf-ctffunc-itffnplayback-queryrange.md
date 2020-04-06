@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the range of text for a word or phrase that contains audio data.
 
 ## -parameters
 

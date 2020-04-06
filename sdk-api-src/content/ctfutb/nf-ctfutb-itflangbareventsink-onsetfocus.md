@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when the thread the event sink was installed from receives the input focus.
 
 ## -parameters
 

@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when the value of one or more text attribute changes.
 
 ## -parameters
 

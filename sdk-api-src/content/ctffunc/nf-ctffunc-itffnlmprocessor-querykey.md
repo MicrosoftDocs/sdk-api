@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called to determine if the language model text service handles a key event.
 
 ## -parameters
 

@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Configures display settings for the floating language bar.
 
 ## -parameters
 

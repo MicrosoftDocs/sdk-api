@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Return a pointer to obtain the IEnumString interface pointer.
 
 ## -parameters
 

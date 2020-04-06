@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Returns the attributes obtained by the RequestAttrsAtPosition, RequestAttrsTransitioningAtPosition, or RequestSupportedAttrs methods.
 
 ## -parameters
 

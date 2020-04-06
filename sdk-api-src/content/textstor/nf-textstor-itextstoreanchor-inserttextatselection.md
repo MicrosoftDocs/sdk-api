@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Inserts text at the insertion point or selection.
 
 ## -parameters
 

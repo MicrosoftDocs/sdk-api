@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Gets the regular expression string to be rssecognized.
 
 ## -parameters
 

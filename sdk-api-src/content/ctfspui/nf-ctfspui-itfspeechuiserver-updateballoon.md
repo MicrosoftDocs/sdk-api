@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Sets the style and text of the speech balloon on the TSF language bar.
 
 ## -parameters
 

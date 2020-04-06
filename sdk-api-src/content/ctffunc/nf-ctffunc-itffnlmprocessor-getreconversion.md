@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains an ITfCandidateList object for a range from the language model text service.
 
 ## -parameters
 

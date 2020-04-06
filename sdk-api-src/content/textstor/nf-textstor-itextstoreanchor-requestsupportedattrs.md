@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the supported attributes of a text stream.
 
 ## -parameters
 

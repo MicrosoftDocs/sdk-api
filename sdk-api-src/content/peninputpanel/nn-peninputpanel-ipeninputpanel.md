@@ -48,9 +48,9 @@ ms.custom: 19H1
 
 ## -description
 
+Enables adding in-place pen input to your applications.
 
-
-
+**IPenInputPanel** is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [IInputPanelConfiguration interface](../inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration.md).
 
 ## -inheritance
 
