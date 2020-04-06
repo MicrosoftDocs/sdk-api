@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Determines if the language model text service supports a particular language.
 
 ## -parameters
 

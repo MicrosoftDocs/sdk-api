@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+This method is reserved, but must be implemented.
 
 ## -parameters
 

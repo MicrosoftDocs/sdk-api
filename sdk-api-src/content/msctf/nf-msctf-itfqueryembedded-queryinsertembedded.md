@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Determines if the active context can accept an embedded object.
 
 ## -parameters
 

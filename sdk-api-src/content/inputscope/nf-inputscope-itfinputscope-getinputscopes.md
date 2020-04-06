@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Gets the input scopes that are associated with this context.
 
 ## -parameters
 

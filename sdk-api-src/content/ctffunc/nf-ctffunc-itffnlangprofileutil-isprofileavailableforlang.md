@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Determines if the speech text service has a profile available for a specific language.
 
 ## -parameters
 

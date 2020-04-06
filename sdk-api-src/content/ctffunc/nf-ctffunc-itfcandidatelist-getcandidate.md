@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a specific candidate string object.
 
 ## -parameters
 

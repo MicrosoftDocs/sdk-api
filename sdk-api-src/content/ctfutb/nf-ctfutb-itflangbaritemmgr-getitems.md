@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the interface, information and status for one or more items in the language bar.
 
 ## -parameters
 

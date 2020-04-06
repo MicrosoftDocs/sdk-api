@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the text to be displayed in the tooltip for the language bar item.
 
 ## -parameters
 

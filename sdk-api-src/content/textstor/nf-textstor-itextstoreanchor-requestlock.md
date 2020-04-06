@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Used by the TSF manager to provide a document lock in order to modify the text stream.
 
 ## -parameters
 

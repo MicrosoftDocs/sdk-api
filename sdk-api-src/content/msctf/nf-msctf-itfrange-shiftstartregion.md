@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Moves the start anchor into an adjacent region.
 
 ## -parameters
 

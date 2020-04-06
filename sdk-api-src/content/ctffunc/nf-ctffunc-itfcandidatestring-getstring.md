@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the text of the candidate string object.
 
 ## -parameters
 

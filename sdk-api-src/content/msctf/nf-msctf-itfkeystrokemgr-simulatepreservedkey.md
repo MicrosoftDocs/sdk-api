@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Simulates the execution of a preserved key sequence.
 
 ## -parameters
 

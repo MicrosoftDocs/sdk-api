@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Activates a text service when a user session starts.
 
 ## -parameters
 

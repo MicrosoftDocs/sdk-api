@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Creates a document manager object.
 
 ## -parameters
 

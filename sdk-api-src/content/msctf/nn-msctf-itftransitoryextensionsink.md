@@ -71,7 +71,7 @@ The <b>ITfTransitoryExtensionSink</b> interface has these methods.
 <td align="left" width="37%">
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftransitoryextensionsink-ontransitoryextensionupdated">OnTransitoryExtensionUpdated</a>
 </td>
-<td align="left" width="63%"></td>
+<td align="left" width="63%">Transitory Document has been updated.</td>
 </tr>
 </table> 
 

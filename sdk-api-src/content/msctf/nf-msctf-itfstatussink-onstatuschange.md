@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Receives a notification when one of the dynamic flags of the TF_STATUS structure changes.
 
 ## -parameters
 

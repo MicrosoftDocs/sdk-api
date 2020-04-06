@@ -53,8 +53,7 @@ ms.custom: 19H1
 
 ## -parameters
 
-
-
+Should not be used.
 
 ### -param pSink [in]
 

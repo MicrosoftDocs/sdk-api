@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a range that covers the text that contains a non-empty value for the property.
 
 ## -parameters
 

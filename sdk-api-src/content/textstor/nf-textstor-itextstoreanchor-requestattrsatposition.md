@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a list of attributes that begin or end at the specified anchor location.
 
 ## -parameters
 

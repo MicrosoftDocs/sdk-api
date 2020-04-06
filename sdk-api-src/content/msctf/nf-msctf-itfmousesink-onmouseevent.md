@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when a mouse event occurs over a range of text.
 
 ## -parameters
 

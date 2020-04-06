@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains an enumeration of ranges that contain unique values of the property within the given range.
 
 ## -parameters
 

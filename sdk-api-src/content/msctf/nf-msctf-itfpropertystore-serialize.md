@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called to write the property store data into a stream for serialization.
 
 ## -parameters
 

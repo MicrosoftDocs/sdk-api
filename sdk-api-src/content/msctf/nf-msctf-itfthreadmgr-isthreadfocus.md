@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Determines if the calling thread has the TSF input focus.
 
 ## -parameters
 

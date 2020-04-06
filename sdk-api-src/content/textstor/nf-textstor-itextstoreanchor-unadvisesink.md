@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called by an application to indicate that it no longer requires notifications from the TSF manager.
 
 ## -parameters
 

@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called to show or hide the language bar item.
 
 ## -parameters
 

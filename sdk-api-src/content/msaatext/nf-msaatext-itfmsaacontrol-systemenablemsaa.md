@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Used by MSAA to request TSF support of an MSAA client.
 
 ## -parameters
 

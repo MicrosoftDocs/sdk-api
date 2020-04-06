@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Specifies the result of a reconversion operation for s specific candidate string.
 
 ## -parameters
 

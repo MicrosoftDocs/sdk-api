@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Determines if the keystroke manager will handle a key down event.
 
 ## -parameters
 

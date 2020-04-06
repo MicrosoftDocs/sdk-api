@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the value of the property for a range of text.
 
 ## -parameters
 

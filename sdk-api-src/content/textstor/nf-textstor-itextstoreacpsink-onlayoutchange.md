@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when the layout (on-screen representation) of the document changes.
 
 ## -parameters
 

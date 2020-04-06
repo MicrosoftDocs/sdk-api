@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called to allow a system language bar item extension to add items to a system language bar menu.
 
 ## -parameters
 

@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains current language bar display settings.
 
 ## -parameters
 

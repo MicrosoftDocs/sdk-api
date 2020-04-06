@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when the text covered by the property is split into two ranges.
 
 ## -parameters
 

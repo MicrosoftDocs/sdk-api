@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Modifies the icon displayed for the system language bar menu.
 
 ## -parameters
 

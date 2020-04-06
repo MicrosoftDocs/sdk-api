@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Gets the Speech Recognition Grammar Specification (SRGS) string to be recognized.
 
 ## -parameters
 

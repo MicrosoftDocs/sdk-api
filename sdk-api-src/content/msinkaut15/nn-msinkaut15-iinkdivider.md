@@ -48,9 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
+Represents the ability to analyze the layout of a collection of ink strokes and divide them into text and graphics.
 
 ## -inheritance
 

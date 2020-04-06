@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Empties the property value over the specified range.
 
 ## -parameters
 

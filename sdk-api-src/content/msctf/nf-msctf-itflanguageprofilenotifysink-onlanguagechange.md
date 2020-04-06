@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when the language profile is about to change.
 
 ## -parameters
 

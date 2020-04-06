@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Changes the style and text of a language bar balloon item.
 
 ## -parameters
 

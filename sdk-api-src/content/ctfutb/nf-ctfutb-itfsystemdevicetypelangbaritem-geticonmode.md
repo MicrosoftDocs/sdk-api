@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the current icon display mode for a system language bar item.
 
 ## -parameters
 

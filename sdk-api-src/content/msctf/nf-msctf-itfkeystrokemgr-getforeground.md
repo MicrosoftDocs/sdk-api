@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the class identifier of the foreground TSF text service.
 
 ## -parameters
 
