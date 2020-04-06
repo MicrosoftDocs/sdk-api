@@ -25,8 +25,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: Windowscodecs.dll; Windowscodecs.lib
+req.lib: windowscodecs.lib
+req.dll: windowscodecs.dll
 req.irql: 
 topic_type:
 - APIRef
@@ -44,66 +44,45 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WICConvertBitmapSource function
-
-
 ## -description
 
-
-Obtains a <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> in the desired pixel format from a given <b>IWICBitmapSource</b>.
-
+Obtains a <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> in the desired pixel format from a given <b>IWICBitmapSource</b>.
 
 ## -parameters
 
-
-
-
 ### -param dstFormat [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-native-pixel-formats">REFWICPixelFormatGUID</a></b>
+Type: <b><a href="/windows/desktop/wic/-wic-codec-native-pixel-formats">REFWICPixelFormatGUID</a></b>
 
 The pixel format to convert to.
 
-
 ### -param pISrc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>*</b>
 
 The source bitmap.
 
-
 ### -param ppIDst [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>**</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>**</b>
 
 A pointer to the <b>null</b>-initialized destination bitmap pointer.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
+If the <i>pISrc</i> bitmap is already in the desired format, then <i>pISrc</i> is copied to the destination bitmap pointer and a reference is added. If it is not in the desired format however, <b>WICConvertBitmapSource</b> will instantiate a <i>dstFormat</i> format converter and initialize it with <i>pISrc</i>.
 
+## Examples
 
-If the <i>pISrc</i> bitmap is already in the desired format, <i>pISrc</i> is copied to the destination bitmap pointer and a reference is added. If it is not in the desired format however, <b>WICConvertBitmapSource</b> will instantiate a <i>dstFormat</i> format converter and initialize it with <i>pISrc</i>.
-
-
-#### Examples
-
-The following example converts an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> to a <b>GUID_WICPixelFormat128bppPRGBAFloat</b> pixel format.
-
+The following example converts an <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> to a <b>GUID_WICPixelFormat128bppPRGBAFloat</b> pixel format.
 
 ```cpp
-
    IWICImagingFactory *pFactory = NULL;
    IWICBitmapDecoder *pDecoder = NULL;
    IWICBitmapFrameDecode *pBitmapFrameDecode = NULL;
@@ -226,7 +205,3 @@ The following example converts an <a href="https://docs.microsoft.com/windows/de
 
    return hr;
 ```
-
-
-
-
