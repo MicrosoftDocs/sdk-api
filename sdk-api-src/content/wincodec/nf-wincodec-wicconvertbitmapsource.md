@@ -26,7 +26,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: 
-req.dll: Windowscodecs.dll; Wincodec.lib
+req.dll: Windowscodecs.dll; Windowscodecs.lib
 req.irql: 
 topic_type:
 - APIRef
