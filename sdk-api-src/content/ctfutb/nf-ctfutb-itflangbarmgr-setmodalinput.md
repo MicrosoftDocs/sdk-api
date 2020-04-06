@@ -48,30 +48,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Should not be used.
 
 ## -parameters
 
-Should not be used.
-
 ### -param pSink [in]
-
 
 ### -param dwThreadId [in]
 
+Should not be used.
 
 ### -param dwFlags [in]
 
+Should not be used.
 
 ## -returns
 
-
-
 This method does not return a value.
-
-
-
 
 ## -see-also
 

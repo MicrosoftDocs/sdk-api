@@ -117,7 +117,7 @@ Not currently used.
 <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbareventsink-showfloating">ShowFloating</a>
 </td>
 <td align="left" width="63%">
-Called when ITfLangBarMgr::ShowFloating is called.
+Called when <a href="nf-ctfutb-itflangbarmgr-showfloating.md">ITfLangBarMgr::ShowFloating</a> is called.
 
 </td>
 </tr>
