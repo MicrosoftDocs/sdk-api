@@ -361,14 +361,14 @@ int main()
     WSADATA wsaData;
 
     SOCKET RecvSocket;
-    sockaddr_in RecvAddr;
+    struct sockaddr_in RecvAddr;
 
     unsigned short Port = 27015;
 
     char RecvBuf[1024];
     int BufLen = 1024;
 
-    sockaddr_in SenderAddr;
+    struct sockaddr_in SenderAddr;
     int SenderAddrSize = sizeof (SenderAddr);
 
     //-----------------------------------------------
