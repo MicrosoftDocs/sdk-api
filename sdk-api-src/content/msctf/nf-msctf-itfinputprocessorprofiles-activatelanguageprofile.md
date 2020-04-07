@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Sets the active text service for a specific language.
 
 ## -parameters
 
