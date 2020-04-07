@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a special property that can enumerate multiple properties over multiple ranges.
 
 ## -parameters
 
