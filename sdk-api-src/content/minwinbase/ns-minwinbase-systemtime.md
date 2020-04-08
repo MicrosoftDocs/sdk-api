@@ -325,7 +325,7 @@ The millisecond. The valid values for this member are 0 through 999.
 ## -remarks
 
 > [!NOTE]
-> The <b>SYSTEMTIME</b> does not check to see if the date represented is a real and valid date. When working with this API, you should ensure its validity, especially in leap reat scenarios. See [leap day readiness](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/it-s-2020-is-your-code-ready-for-leap-day/ba-p/1157279) for more information.
+> The <b>SYSTEMTIME</b> does not check to see if the date represented is a real and valid date. When working with this API, you should ensure its validity, especially in leap year scenarios. See [leap day readiness](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/it-s-2020-is-your-code-ready-for-leap-day/ba-p/1157279) for more information.
 
 It is not recommended that you add and subtract values from the 
 <b>SYSTEMTIME</b> structure to obtain relative times. Instead, you should
