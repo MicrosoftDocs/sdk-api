@@ -59,12 +59,12 @@ The <b>Dhcpv6RenewPrefix</b> function renews a prefix previously acquired with t
 
 ### -param adapterName [in]
 
-Name of the adapter on which the prefix renewal must be sent.
+GUID of the adapter on which the prefix renewal must be sent.
 
 
 ### -param pclassId [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6capi_classid">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to send on the wire.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6capi_classid">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to send on the wire. This parameter is can be <b>NULL</b>.
 
 <div class="alert"><b>Note</b>  DHCPv6 Option Code 15 (0x000F) is not supported by this API. Typically, the User Class option is used by a client to identify the type or category of user or application it represents. A server selects the configuration information for the client based on the classes identified in this option.</div>
 <div> </div>
@@ -105,7 +105,7 @@ Returns ERROR_SUCCESS upon successful completion.
 Returned if one of the following conditions are true:
 
 <ul>
-<li><i>AdapterName</i> is <b>NULL</b>.</li>
+<li><i>AdapterName</i> is <b>NULL</b>. Or no adapter is found with the GUID specified. </li>
 <li><i>prefixleaseInfo</i> is <b>NULL</b>.</li>
 <li><i>pdwTimeToWait</i> is <b>NULL</b>.</li>
 </ul>
@@ -122,6 +122,19 @@ Returned if the API responds with more prefixes than there is memory allocated.
 
 </td>
 </tr>
+
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_NAME</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>AdapterName</i> is not in the correct format. It should be in this format: {00000000-0000-0000-0000-000000000000}.
+
+</td>
+</tr>
+
 </table>
  
 

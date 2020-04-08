@@ -98,7 +98,7 @@ Reserved for future use. Must be set to <b>NULL</b>.
 
 ### -param AdapterName [in]
 
-Name of the adapter on which requested data is being made. Must be under 256 characters.
+GUID of the adapter on which requested data is being made. Must be under 256 characters.
 
 
 ### -param ClassId [in]

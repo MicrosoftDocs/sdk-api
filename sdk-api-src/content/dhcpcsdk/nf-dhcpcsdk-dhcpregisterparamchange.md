@@ -70,7 +70,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 ### -param AdapterName [in]
 
-Name of the adapter for which event notification is being requested.  Must be under 256 characters. 
+GUID of the adapter for which event notification is being requested.  Must be under 256 characters. 
 
 
 ### -param ClassId [in]

@@ -71,7 +71,7 @@ Reserved for future use. Must be set to <b>NULL</b>.
 
 ### -param AdapterName [in]
 
-Name of the adapter for which information is no longer required.  Must be under 256 characters.
+GUID of the adapter for which information is no longer required.  Must be under 256 characters.
 
 <div class="alert"><b>Note</b>  This parameter is no longer used.</div>
 <div> </div>

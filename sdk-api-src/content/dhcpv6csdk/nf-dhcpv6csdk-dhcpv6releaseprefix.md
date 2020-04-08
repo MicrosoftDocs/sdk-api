@@ -95,11 +95,24 @@ Returns ERROR_SUCCESS upon successful completion.
 Returned if one of the following conditions are true:
 
 <ul>
-<li><i>AdapterName</i> is <b>NULL</b>.</li>
+<li><i>AdapterName</i> is <b>NULL</b>. Or no adapter is found with the GUID specified.</li>
 <li><i>prefixleaseInfo</i> is <b>NULL</b>.</li>
 </ul>
 </td>
 </tr>
+
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_NAME</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>AdapterName</i> is not in the correct format. It should be in this format: {00000000-0000-0000-0000-000000000000}.
+
+</td>
+</tr>
+
 </table>
  
 
