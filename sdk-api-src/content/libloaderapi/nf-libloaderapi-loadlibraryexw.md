@@ -79,9 +79,10 @@ The module can be a library module (a .dll file) or an executable module (an .ex
        <b>DONT_RESOLVE_DLL_REFERENCES</b> was specified. See the <i>dwFlags</i> 
        parameter for more information.
 
-If the string specifies a module name without a path and the file name extension is omitted, the function 
-       appends the default library extension .dll to the module name. To prevent the function from appending 
-       .dll to the module name, include a trailing point character (.) in the module name string.
+If the string specifies a module name without a path and the file name extension is omitted, and the module name does
+       not contain any point character (.), then the function appends the default library extension .dll to the module name.
+       To prevent the function from appending .dll to the module name, include a trailing point character (.) in the module
+       name string.
 
 If the string specifies a fully qualified path, the function searches only that path for the module. When 
        specifying a path, be sure to use backslashes (\), not forward slashes (/). For more information about paths, 
