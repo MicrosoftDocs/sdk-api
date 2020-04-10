@@ -65,8 +65,7 @@ Retrieves extended information about the pages at specific virtual addresses in 
 
 ### -param hProcess [in]
 
-A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> and 
-      <b>PROCESS_VM_READ</b> access rights. For more information, see 
+A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> access right. For more information, see 
       <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 
