@@ -379,14 +379,22 @@ If <b>MOUSE_MOVE_ABSOLUTE</b> value is specified, <b>lLastX</b> and <b>lLastY</b
 
 If <b>MOUSE_VIRTUAL_DESKTOP</b> is specified in addition to <b>MOUSE_MOVE_ABSOLUTE</b>, the coordinates map to the entire virtual desktop.
 
-Example code:
 ```cpp
-// rawMouse is RAWMOUSE struct
-int width = GetSystemMetrics((rawMouse.usFlags & MOUSE_VIRTUAL_DESKTOP) != 0 ? SM_CXVIRTUALSCREEN : SM_CXSCREEN);
-int height = GetSystemMetrics((rawMouse.usFlags & MOUSE_VIRTUAL_DESKTOP) != 0 ? SM_CYVIRTUALSCREEN : SM_CYSCREEN);
+if ((rawMouse.usFlags & MOUSE_MOVE_RELATIVE) == MOUSE_MOVE_RELATIVE)
+{
+    int relativeX = rawMouse.lLastX;
+    int relativeY = rawMouse.lLastY;
+}
+else if ((rawMouse.usFlags & MOUSE_MOVE_ABSOLUTE) == MOUSE_MOVE_ABSOLUTE)
+{
+    bool isVirtualDesktop = (rawMouse.usFlags & MOUSE_VIRTUAL_DESKTOP) == MOUSE_VIRTUAL_DESKTOP;
 
-int x = int((float(rawMouse.lLastX) / 65535.0f) * width);
-int y = int((float(rawMouse.lLastY) / 65535.0f) * height);
+    int width = GetSystemMetrics(isVirtualDesktop ? SM_CXVIRTUALSCREEN : SM_CXSCREEN);
+    int height = GetSystemMetrics(isVirtualDesktop ? SM_CYVIRTUALSCREEN : SM_CYSCREEN);
+
+    int absoluteX = int((rawMouse.lLastX / 65535.0f) * width);
+    int absoluteY = int((rawMouse.lLastY / 65535.0f) * height);
+}
 ```
 
 In contrast to <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> window messages Raw Input mouse events is not subject to the effects of the mouse speed set in the Control Panel's <b>Mouse Properties</b> sheet. See <a href="https://docs.microsoft.com/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a> for details.
