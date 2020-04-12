@@ -47,49 +47,32 @@ ms.custom: 19H1
 
 # PathCchStripToRoot function
 
-
 ## -description
-
-
 
 Removes all file and directory elements in a path except for the root information.
 
 This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathstriptoroota">PathStripToRoot</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
+<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathstriptoroota">PathStripToRoot</a> to prevent the possibility of a buffer overrun.</div>
 
-<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathstriptoroota">PathStripToRoot</a> to prevent the possibility of a buffer overrun.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param pszPath [in, out]
 
 A pointer to the path string. When this function returns successfully, this string contains only the root information taken from that path.
 
-
 ### -param cchPath [in]
 
 The size of the buffer pointed to by <i>pszPath</i>, in characters.
 
-
 ## -returns
 
-
-
-This function returns S_OK if the path was truncated, S_FALSE if the path was already just a root, or an HRESULT failure code.
-
-
-
+This function returns <b>S_OK</b> if the path was truncated, <b>S_FALSE</b> if the path was already just a root, or an <b>HRESULT</b> failure code.
 
 ## -remarks
 
-
-
 Some examples of the effect of this function:
-            
-                
 
 <table class="clsStd">
 <tr>
@@ -110,6 +93,3 @@ Some examples of the effect of this function:
 </tr>
 </table>
  
-
-
-

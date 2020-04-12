@@ -50,28 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Adds a file name extension to a path string.
 
 This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathaddextensiona">PathAddExtension</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
+<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathaddextensiona">PathAddExtension</a> to prevent the possibility of a buffer overrun.</div>
 
-<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathaddextensiona">PathAddExtension</a> to prevent the possibility of a buffer overrun.</div><div> </div>
 
 ## -parameters
-
-
 
 
 ### -param pszPath [in, out]
 
 A pointer to the path string. When this function returns successfully, the buffer contains the string with the appended extension. This value should not be <b>NULL</b>.
 
-                        
-
 <div class="alert"><b>Note</b>  If the original string already has a file name extension present, no new extension will be added and the original string will be unchanged.</div>
-<div> </div>
+
 
 ### -param cchPath [in]
 
@@ -84,8 +78,6 @@ A pointer to the file name extension string. This string can be given either wit
 
 
 ## -returns
-
-
 
 This function returns an <b>HRESULT</b> code, including the following.
 
@@ -102,7 +94,6 @@ This function returns an <b>HRESULT</b> code, including the following.
 </td>
 <td width="60%">
 The function succeeded. Note that this also includes the case of an empty extension, such as a period with no characters following it. In that case, the original string is returned unaltered.
-
 </td>
 </tr>
 <tr>
@@ -112,8 +103,7 @@ The function succeeded. Note that this also includes the case of an empty extens
 </dl>
 </td>
 <td width="60%">
-This value can be caused by several things, such as the <i>pszPath</i> param being set to <b>NULL</b>, the <i>cchPath</i> being set to 0 or a value greater than PATHCCH_MAX_CCH, or the extension string containing illegal characters or otherwise not being a valid extension.
-
+This value can be caused by several things, such as the <i>pszPath</i> param being set to <b>NULL</b>, the <i>cchPath</i> being set to 0 or a value greater than <b>PATHCCH_MAX_CCH</b>, or the extension string containing illegal characters or otherwise not being a valid extension.
 </td>
 </tr>
 <tr>
@@ -124,7 +114,6 @@ This value can be caused by several things, such as the <i>pszPath</i> param bei
 </td>
 <td width="60%">
 The original string already has an extension.
-
 </td>
 </tr>
 <tr>
@@ -135,11 +124,7 @@ The original string already has an extension.
 </td>
 <td width="60%">
 The buffer is too small to hold the returned string.
-
 </td>
 </tr>
 </table>
- 
-
-
 
