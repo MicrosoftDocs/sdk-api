@@ -50,8 +50,6 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Converts a path string into a canonical form.
 
 This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalizeex">PathCchCanonicalizeEx</a> in that you are restricted to a final path of length MAX_PATH.
@@ -60,12 +58,10 @@ This function differs from <a href="https://docs.microsoft.com/windows/desktop/a
 
 This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcanonicalizea">PathCanonicalize</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
+<div class="alert"><b>Note</b>  This function, <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalizeex">PathCchCanonicalizeEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathalloccanonicalize">PathAllocCanonicalize</a> should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcanonicalizea">PathCanonicalize</a> to prevent the possibility of a buffer overrun.</div>
 
-<div class="alert"><b>Note</b>  This function, <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalizeex">PathCchCanonicalizeEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathalloccanonicalize">PathAllocCanonicalize</a> should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcanonicalizea">PathCanonicalize</a> to prevent the possibility of a buffer overrun.</div><div> </div>
 
 ## -parameters
-
-
 
 
 ### -param pszPathOut [out]
@@ -85,8 +81,6 @@ A pointer to the original path string. If this value points to an empty string, 
 
 ## -returns
 
-
-
 If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> code, including the following.
 
 <table>
@@ -101,8 +95,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 </dl>
 </td>
 <td width="60%">
-The <i>cchPathOut</i> value is greater than PATHCCH_MAX_CCH.
-
+The <i>cchPathOut</i> value is greater than <b>PATHCCH_MAX_CCH</b>.
 </td>
 </tr>
 <tr>
@@ -113,7 +106,6 @@ The <i>cchPathOut</i> value is greater than PATHCCH_MAX_CCH.
 </td>
 <td width="60%">
 A path segment exceeds the standard path segment length limit of 256 characters.
-
 </td>
 </tr>
 <tr>
@@ -124,18 +116,12 @@ A path segment exceeds the standard path segment length limit of 256 characters.
 </td>
 <td width="60%">
 The function could not allocate a buffer of the neccessary size.
-
 </td>
 </tr>
 </table>
- 
-
-
 
 
 ## -remarks
-
-
 
 This function responds to the strings "." and ".." embedded in a path. The ".." string indicates to remove the immediately preceding path segment. The "." string indicates to skip over the next path segment. Note that the root segment of the path cannot be removed. If there are more ".." strings than there are path segments, the function returns S_OK and the buffer pointed to by <i>pszPathOut</i> contains a single backslash, "\".
 
@@ -175,18 +161,9 @@ The following examples show the effect of these strings.
 <td>C:\</td>
 </tr>
 </table>
- 
-
-
 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalizeex">PathCchCanonicalizeEx</a>
- 
-
- 
 
