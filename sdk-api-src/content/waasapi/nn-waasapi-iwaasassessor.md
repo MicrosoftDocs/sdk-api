@@ -85,5 +85,5 @@ The <b>IWaaSAssessor</b> interface has these methods.
 
 The <b>IWaaSAssessor</b> interface retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-osupdateassessment">OSUpdateAssessment</a>. This assessment may be cached; if there is no cached entry, the assessment will be created on demand through the WaaS Assessment Client. The client creates the assessment by contacting the WaaS Assessment Service for update information applicable to the device. The client then performs the assessment using the retrieved information. 
 
-
+Your code must have administrator privileges to use the <b>IWaaSAssessor</b> interface. For more details about developing applications that require administrator privileges, see [this article](https://docs.microsoft.com/windows/win32/secauthz/developing-applications-that-require-administrator-privilege).
 
