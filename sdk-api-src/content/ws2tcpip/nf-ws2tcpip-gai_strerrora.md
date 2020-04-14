@@ -70,6 +70,9 @@ Error code from the list of available
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> error codes. For a complete listing of error codes, see the 
 <b>getaddrinfo</b> function.
 
+## -returns
+
+Returns a pointer to a string containing the error message.
 
 ## -remarks
 
