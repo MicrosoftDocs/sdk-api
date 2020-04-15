@@ -377,7 +377,25 @@ If <b>MOUSE_MOVE_RELATIVE</b> value is specified, <b>lLastX</b> and <b>lLastY</b
 
 If <b>MOUSE_MOVE_ABSOLUTE</b> value is specified, <b>lLastX</b> and <b>lLastY</b> contain normalized absolute coordinates between 0 and 65,535. Coordinate (0,0) maps onto the upper-left corner of the display surface; coordinate (65535,65535) maps onto the lower-right corner. In a multimonitor system, the coordinates map to the primary monitor.
 
-If <b>MOUSE_VIRTUAL_DESKTOP</b> is specified, the coordinates map to the entire virtual desktop.
+If <b>MOUSE_VIRTUAL_DESKTOP</b> is specified in addition to <b>MOUSE_MOVE_ABSOLUTE</b>, the coordinates map to the entire virtual desktop.
+
+```cpp
+if ((rawMouse.usFlags & MOUSE_MOVE_RELATIVE) == MOUSE_MOVE_RELATIVE)
+{
+    int relativeX = rawMouse.lLastX;
+    int relativeY = rawMouse.lLastY;
+}
+else if ((rawMouse.usFlags & MOUSE_MOVE_ABSOLUTE) == MOUSE_MOVE_ABSOLUTE)
+{
+    bool isVirtualDesktop = (rawMouse.usFlags & MOUSE_VIRTUAL_DESKTOP) == MOUSE_VIRTUAL_DESKTOP;
+
+    int width = GetSystemMetrics(isVirtualDesktop ? SM_CXVIRTUALSCREEN : SM_CXSCREEN);
+    int height = GetSystemMetrics(isVirtualDesktop ? SM_CYVIRTUALSCREEN : SM_CYSCREEN);
+
+    int absoluteX = int((rawMouse.lLastX / 65535.0f) * width);
+    int absoluteY = int((rawMouse.lLastY / 65535.0f) * height);
+}
+```
 
 In contrast to <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> window messages Raw Input mouse events is not subject to the effects of the mouse speed set in the Control Panel's <b>Mouse Properties</b> sheet. See <a href="https://docs.microsoft.com/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a> for details.
 
