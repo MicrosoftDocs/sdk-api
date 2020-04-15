@@ -62,7 +62,8 @@ To perform this operation, call the
 <pre>BOOL 
 WINAPI 
 DeviceIoControl( (HANDLE)       hDevice,         // handle to device 
-                 IOCTL_DISK_GET_DISK_ATTRIBUTES, // dwIoControlCode(LPVOID)       NULL,            // lpInBuffer 
+                 IOCTL_DISK_GET_DISK_ATTRIBUTES, // dwIoControlCode
+                 (LPVOID)       NULL,            // lpInBuffer 
                  (DWORD)        0,               // nInBufferSize 
                  (LPVOID)       lpOutBuffer,     // output buffer:GET_DISK_ATTRIBUTES
                  (DWORD)        nOutBufferSize,  // size of output buffer
