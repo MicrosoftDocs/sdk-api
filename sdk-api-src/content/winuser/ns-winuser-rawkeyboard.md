@@ -58,7 +58,7 @@ Contains information about the state of the keyboard.
 
 Type: <b>USHORT</b>
 
-The scan code from the key depression. See <b>Scan Code Table</b> at <a href="http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc">Keyboard Scan Code Specification</a> document for a list of possible values. The scan code for keyboard overrun is <b>KEYBOARD_OVERRUN_MAKE_CODE</b>. 
+Specifies the scan code associated with a key press. See <b>Scan Code Table</b> at <a href="http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc">Keyboard Scan Code Specification</a> document for a list of possible values. The scan code for keyboard overrun is <b>KEYBOARD_OVERRUN_MAKE_CODE</b>. 
 
 
 ### -field Flags
@@ -71,6 +71,16 @@ Flags for scan code information. It can be one or more of the following.
 <tr>
 <th>Value</th>
 <th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="RI_KEY_MAKE"></a><a id="ri_key_make"></a><dl>
+<dt><b>RI_KEY_MAKE</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The key is down.
+</td>
 </tr>
 <tr>
 <td width="40%"><a id="RI_KEY_BREAK"></a><a id="ri_key_break"></a><dl>
@@ -100,16 +110,6 @@ The scan code has the E0 prefix.
 </td>
 <td width="60%">
 The scan code has the E1 prefix.
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="RI_KEY_MAKE"></a><a id="ri_key_make"></a><dl>
-<dt><b>RI_KEY_MAKE</b></dt>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-The key is down.
 </td>
 </tr>
 </table>
@@ -147,12 +147,21 @@ The device-specific additional information for the event.
 
 <b>Conceptual</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDeviceInfo</a>
+[GetRawInputDeviceInfo](nf-winuser-getrawinputdeviceinfoa.md)
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
+[RAWINPUT](ns-winuser-rawinput.md)
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
+[Raw Input](https://docs.microsoft.com/windows/desktop/inputdev/raw-input)
 
 <b>Reference</b>
- 
-<a href="http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc">Windows Platform Design Notes: Keyboard Scan Code Specification, Revision 1.3a</a>
+
+[Windows Platform Design Notes: Keyboard Scan Code Specification, Revision 1.3a](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc)
+
+[KEYBDINPUT structure](ns-winuser-keybdinput.md)
+
+[SendInput function](nf-winuser-sendinput.md)
+
+[KEYBOARD_INPUT_DATA structure](https://docs.microsoft.com/en-us/windows/win32/api/ntddkbd/ns-ntddkbd-keyboard_input_data)
+
+
+
