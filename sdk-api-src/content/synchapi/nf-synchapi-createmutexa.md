@@ -111,9 +111,7 @@ If the function succeeds, the return value is a handle to the newly created mute
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If the mutex is a named mutex and the object existed before this function call, the return value is a handle to the existing object, 
-[OpenMutex](/windows/win32/api/synchapi/nf-synchapi-openmutexw)a> function.
-
+If the mutex is a named mutex and the object existed before this function call, the return value is a handle to the existing object, and the [GetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function returns **ERROR_ALREADY_EXISTS**.
 
 
 
@@ -147,8 +145,8 @@ Multiple processes can have handles of the same mutex object, enabling use of th
 <b>CreateMutex</b> enabled inheritance. This mechanism works for both named and unnamed mutexes.</li>
 <li>A process can specify the handle to a mutex object in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> function to create a duplicate handle that can be used by another process. This mechanism works for both named and unnamed mutexes.</li>
 <li>A process can specify a named mutex in a call to the 
-[OpenMutex](/windows/win32/api/synchapi/nf-synchapi-openmutexw)a> or 
-<b>CreateMutex</b> function to retrieve a handle to the mutex object.</li>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-openmutexw">OpenMutex</a> or 
+<b>CreateMutex</b> functions to retrieve a handle to the mutex object.</li>
 </ul>
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The mutex object is destroyed when its last handle has been closed.
 
