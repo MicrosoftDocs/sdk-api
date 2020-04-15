@@ -61,21 +61,21 @@ Defines information for the raw input devices.
 
 Type: <b>USHORT</b>
 
-Top level collection Usage page for the raw input device. See <a href="https://www.usb.org/hid">HID USB homepage</a> and <a href="https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf">HID Usage Tables</a> for details on possible values.
+[Top level collection](https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections) [Usage page](https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages#usage-page) for the raw input device. See [HID Clients Supported in Windows](https://docs.microsoft.com/windows-hardware/drivers/hid/hid-clients-supported-in-windows) for details on possible values.
 
 
 ### -field usUsage
 
 Type: <b>USHORT</b>
 
-Top level collection Usage for the raw input device. See <a href="https://www.usb.org/hid">HID USB homepage</a> and <a href="https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf">HID Usage Tables</a> for details on possible values.
+[Top level collection](https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections) [Usage ID](https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages#usage-id) for the raw input device. See [HID Clients Supported in Windows](https://docs.microsoft.com/windows-hardware/drivers/hid/hid-clients-supported-in-windows) for details on possible values.
 
 
 ### -field dwFlags
 
 Type: <b>DWORD</b>
 
-Mode flag that specifies how to interpret the information provided by <b>usUsagePage</b> and <b>usUsage</b>. It can be zero (the default) or one of the following values. By default, the operating system sends raw input from devices with the specified top level collection (TLC) to the registered application as long as it has the window focus. 
+Mode flag that specifies how to interpret the information provided by <b>usUsagePage</b> and <b>usUsage</b>. It can be zero (the default) or one of the following values. By default, the operating system sends raw input from devices with the specified [top level collection](https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections) (TLC) to the registered application as long as it has the window focus. 
 
 <table>
 <tr>
@@ -223,18 +223,16 @@ If <b>RIDEV_REMOVE</b> is set and the <b>hwndTarget</b> member is not set to <b>
 
 <b>Conceptual</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getregisteredrawinputdevices">GetRegisteredRawInputDevices</a>
+[GetRegisteredRawInputDevices](nf-winuser-getregisteredrawinputdevices.md)
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
+[Raw Input](https://docs.microsoft.com/windows/desktop/inputdev/raw-input)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/">Introduction to Human Interface Devices (HID)</a>
+[Introduction to Human Interface Devices (HID)](https://docs.microsoft.com/windows-hardware/drivers/hid/)
 
-<a href="https://www.usb.org/hid">HID USB homepage</a>
+[HID Clients Supported in Windows](https://docs.microsoft.com/windows-hardware/drivers/hid/hid-clients-supported-in-windows)
 
-<a href="https://www.usb.org/sites/default/files/documents/hid1_11.pdf">HID USB specification</a>
-
-<a href="https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf">HID Usage Tables</a>
+[HID USB homepage](https://www.usb.org/hid)
 
 <b>Reference</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerrawinputdevices">RegisterRawInputDevices</a>
+[RegisterRawInputDevices](nf-winuser-registerrawinputdevices.md)
