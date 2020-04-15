@@ -71,7 +71,7 @@ A descriptor that defines how the namespace is to be isolated. The <a href="http
 
 ### -param lpAliasPrefix [in]
 
-The prefix for the namespace. To create an object in this namespace, specify the object name as <i>prefix</i>\<i>objectname</i>.
+The prefix for the namespace. To create an object in this namespace, specify the object name as _prefix_\\_objectname_.
 
 
 ## -returns
