@@ -78,7 +78,7 @@ Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error cod
 
 <b>GetOSUpdateAssessment</b> retrieves the OS update assessment. The assessment provides information on updates applicable to a device: specifically, if the OS on the device is up-to-date. If the OS is not up-to-date, the assessment provides some reasons why. The assessment also suggests the potential impact being out-of-date has on the device.
 
-
+Your code must have administrator privileges to use the <b>GetOSUpdateAssessment</b> method. For more details about developing applications that require administrator privileges, see [this article](https://docs.microsoft.com/windows/win32/secauthz/developing-applications-that-require-administrator-privilege).
 
 
 ## -see-also
