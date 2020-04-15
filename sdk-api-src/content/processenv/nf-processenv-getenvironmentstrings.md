@@ -84,14 +84,8 @@ If the function fails, the return value is NULL.
 The 
 <b>GetEnvironmentStrings</b> function returns a pointer to a block of memory that contains the environment variables of the calling process (both the system and the user environment variables). Each environment block contains the environment variables in the following format:
 
-<i>Var1</i>
-<i>Value1</i>
-<i>Var2</i>
-<i>Value2</i>
-<i>Var3</i>
-<i>Value3</i>
-<i>VarN</i>
-<i>ValueN</i>
+<i>Var1</i>=<i>Value1</i>\0<i>Var2</i>=<i>Value2</i>\0<i>Var3</i>=<i>Value3</i>\0<i>VarN</i>=<i>ValueN</i>\0\0
+
 Treat this memory as read-only; do not modify it directly. To add or change an environment variable, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getenvironmentvariable">GetEnvironmentVariable</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setenvironmentvariable">SetEnvironmentVariable</a> functions.
